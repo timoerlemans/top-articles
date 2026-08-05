@@ -2,7 +2,7 @@
 <html lang="nl">
 <head>
 <meta charset="utf-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
 <title>Top Articles — Readwise toplijsten</title>
 <meta name="description" content="Overzicht van mijn persoonlijke Readwise-toplijsten met directe links naar Readwise Reader." />
 <link rel="stylesheet" href="styles.css" />
@@ -20,14 +20,74 @@
     <button type="button" data-size="top-10" role="tab">Top 10</button>
     <button type="button" data-size="top-100" role="tab">Top 100</button>
   </div>
+  <button
+    type="button"
+    id="toggle-search-filters"
+    class="toggle-search-btn"
+    aria-expanded="false"
+    aria-controls="search-filters-panel"
+  >
+    <span aria-hidden="true">🔍</span> Zoeken &amp; filteren
+  </button>
+</div>
+
+<div class="search-filters-panel" id="search-filters-panel" hidden>
   <input
     type="search"
     id="search"
     class="search-input"
-    placeholder="Zoek op titel, auteur of site…"
-    aria-label="Zoek binnen deze lijst"
+    placeholder="Zoek in alle lijsten…"
+    aria-label="Zoek in alle toplijsten"
   />
+
+  <div class="filters">
+    <div class="filter-field">
+      <span id="sort-label">Sorteren</span>
+      <div class="sort-control">
+        <select id="sort-select" aria-labelledby="sort-label">
+          <option value="position">Positie</option>
+          <option value="saved">Toegevoegd</option>
+          <option value="published">Gepubliceerd</option>
+          <option value="title">Titel</option>
+        </select>
+        <button
+          type="button"
+          id="sort-direction"
+          class="sort-direction-btn"
+          aria-pressed="false"
+          aria-label="Sorteervolgorde omdraaien"
+          title="Sorteervolgorde omdraaien"
+        >↑</button>
+      </div>
+    </div>
+    <label class="filter-field">
+      Taal
+      <select id="language-filter">
+        <option value="">Alle talen</option>
+      </select>
+    </label>
+    <label class="filter-field">
+      Type
+      <select id="category-filter">
+        <option value="">Alle types</option>
+      </select>
+    </label>
+    <label class="filter-field">
+      Beste moment
+      <select id="mood-filter">
+        <option value="">Alle momenten</option>
+      </select>
+    </label>
+    <fieldset class="filter-field filter-field-tags">
+      <legend>Interessetags</legend>
+      <div class="tag-filter-list" id="tag-filter-list"></div>
+    </fieldset>
+  </div>
 </div>
+
+<p class="search-scope-note" id="search-scope-note" hidden>
+  Zoekresultaten uit alle toplijsten — tabs en Top 10/100 gelden niet tijdens zoeken.
+</p>
 
 <main>
   <ol class="item-list" id="item-list"></ol>
@@ -38,7 +98,7 @@
   <p>Gegenereerd uit <a href="https://readwise.io/read" rel="noopener">Readwise Reader</a>. Broncode op GitHub.</p>
 </footer>
 
-<script src="data.js"></script>
+<script src="data/data.js"></script>
 <script src="app.js"></script>
 </body>
 </html>
