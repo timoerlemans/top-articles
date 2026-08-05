@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="nl">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Top Articles — Readwise toplijsten</title>
+<meta name="description" content="Overzicht van mijn persoonlijke Readwise-toplijsten met directe links naar Readwise Reader." />
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+<header class="page-header">
+  <h1>Top Articles</h1>
+  <p class="subtitle">Mijn persoonlijke Readwise-toplijsten — <span id="generated-at">wordt geladen…</span></p>
+</header>
+
+<nav class="tabs" id="family-tabs" aria-label="Toplijst-familie"></nav>
+
+<div class="controls">
+  <div class="size-toggle" id="size-toggle" role="tablist" aria-label="Lijstgrootte">
+    <button type="button" data-size="top-10" role="tab">Top 10</button>
+    <button type="button" data-size="top-100" role="tab">Top 100</button>
+  </div>
+  <input
+    type="search"
+    id="search"
+    class="search-input"
+    placeholder="Zoek op titel, auteur of site…"
+    aria-label="Zoek binnen deze lijst"
+  />
+</div>
+
+<main>
+  <ol class="item-list" id="item-list"></ol>
+  <p class="empty-state" id="empty-state" hidden>Geen items gevonden.</p>
+</main>
+
+<footer class="page-footer">
+  <p>Gegenereerd uit <a href="https://readwise.io/read" rel="noopener">Readwise Reader</a>. Broncode op GitHub.</p>
+</footer>
+
+<script src="data.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

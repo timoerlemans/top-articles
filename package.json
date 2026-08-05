@@ -1,0 +1,10 @@
+{
+  "name": "top-articles",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Statisch overzicht van mijn Readwise-toplijsten, met directe links naar Readwise Reader.",
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build-data.mjs"
+  }
+}
