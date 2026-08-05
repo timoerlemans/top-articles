@@ -27,8 +27,13 @@
     aria-expanded="false"
     aria-controls="search-filters-panel"
   >
-    <span aria-hidden="true">🔍</span> Zoeken &amp; filteren
+    <span aria-hidden="true">🔍</span> <span class="toggle-search-label">Zoeken &amp; filteren</span><span class="filter-count-badge" id="filter-count-badge" hidden></span>
   </button>
+</div>
+
+<div class="active-filters" id="active-filters" hidden>
+  <div class="active-filter-chip-list" id="active-filter-chip-list"></div>
+  <button type="button" class="clear-filters-btn" id="clear-filters-btn">Wis alles</button>
 </div>
 
 <div class="search-filters-panel" id="search-filters-panel" hidden>
@@ -43,22 +48,7 @@
   <div class="filters">
     <div class="filter-field">
       <span id="sort-label">Sorteren</span>
-      <div class="sort-control">
-        <select id="sort-select" aria-labelledby="sort-label">
-          <option value="position">Positie</option>
-          <option value="saved">Toegevoegd</option>
-          <option value="published">Gepubliceerd</option>
-          <option value="title">Titel</option>
-        </select>
-        <button
-          type="button"
-          id="sort-direction"
-          class="sort-direction-btn"
-          aria-pressed="false"
-          aria-label="Sorteervolgorde omdraaien"
-          title="Sorteervolgorde omdraaien"
-        >↑</button>
-      </div>
+      <div class="sort-chip-list" id="sort-chip-list" role="group" aria-labelledby="sort-label"></div>
     </div>
     <label class="filter-field">
       Taal
