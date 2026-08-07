@@ -1,6 +1,6 @@
 // Automatisch gegenereerd door scripts/build-data.mjs — niet handmatig bewerken.
 window.TOP_ARTICLES = {
-  "generatedAt": "2026-08-07T07:10:10.399Z",
+  "generatedAt": "2026-08-07T18:00:34.375Z",
   "families": [
     {
       "id": "algemeen",
@@ -2975,7 +2975,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 7,
+              "position": 6,
               "id": "01k80nvw2z9d40qq24hveszqrw",
               "title": "De hel van het gelijke",
               "author": "Marian Donner",
@@ -3002,7 +3002,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 8,
+              "position": 7,
               "id": "01kadgjv79tav4g56e89rykjte",
               "title": "Een wereld waarmee we in contact staan, is een wereld vol magie",
               "author": "Bregje Hofstede",
@@ -3029,7 +3029,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 9,
+              "position": 8,
               "id": "01kysnkny4jr6ej2jh6n05ex8q",
               "title": "Het Curieuze Artikel 73 van de AIVD en MIVD",
               "author": "berthub.eu",
@@ -3060,7 +3060,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 10,
+              "position": 9,
               "id": "01kysnmckrgernh72bvvz2eprz",
               "title": "Minister van Digitale Zaken: hoe het kan werken",
               "author": "berthub.eu",
@@ -3087,7 +3087,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 11,
+              "position": 10,
               "id": "01k0787yxz912x1kgykz88ngts",
               "title": "Tijd voor solidariteit",
               "author": "Wetenschappelijk Bureau Groenlinks",
@@ -3255,7 +3255,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 7,
+              "position": 6,
               "id": "01k80nvw2z9d40qq24hveszqrw",
               "title": "De hel van het gelijke",
               "author": "Marian Donner",
@@ -3282,7 +3282,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 8,
+              "position": 7,
               "id": "01kadgjv79tav4g56e89rykjte",
               "title": "Een wereld waarmee we in contact staan, is een wereld vol magie",
               "author": "Bregje Hofstede",
@@ -3309,7 +3309,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 9,
+              "position": 8,
               "id": "01kysnkny4jr6ej2jh6n05ex8q",
               "title": "Het Curieuze Artikel 73 van de AIVD en MIVD",
               "author": "berthub.eu",
@@ -3340,7 +3340,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 10,
+              "position": 9,
               "id": "01kysnmckrgernh72bvvz2eprz",
               "title": "Minister van Digitale Zaken: hoe het kan werken",
               "author": "berthub.eu",
@@ -3367,7 +3367,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 11,
+              "position": 10,
               "id": "01k0787yxz912x1kgykz88ngts",
               "title": "Tijd voor solidariteit",
               "author": "Wetenschappelijk Bureau Groenlinks",
@@ -3394,7 +3394,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 12,
+              "position": 11,
               "id": "01k7q03xx8pwem577zgy47b0zk",
               "title": "Nederland is inderdaad niet kapot. Maar sluit je ogen niet voor onrecht",
               "author": "Tim 'S Jongers",
@@ -3418,7 +3418,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 13,
+              "position": 12,
               "id": "01k1mhw46shwzk87214g7gtc9w",
               "title": "Het begin van een oplossing",
               "author": "Kees Verhoeven",
