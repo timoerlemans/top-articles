@@ -2,7 +2,9 @@
 
 Statisch overzicht van mijn persoonlijke Readwise-toplijsten (`aaa-top-10`, `aaa-top-100`,
 `aaa-dutch-top-10`, `aaa-dutch-top-100`, `aaa-short-top-10`, `aaa-short-top-100`,
-`aaa-short-dutch-top-10`, `aaa-short-dutch-top-100`), met directe links naar Readwise Reader.
+`aaa-short-dutch-top-10`, `aaa-short-dutch-top-100`, `aaa-luchtig-top-10`,
+`aaa-luchtig-top-100`, `aaa-luchtig-nederlands-top-10` en
+`aaa-luchtig-nederlands-top-100`), met directe links naar Readwise Reader.
 
 Geen framework of bundler: `index.html` + `styles.css` + `app.js` renderen uit `data/data.js`, een
 gegenereerd bestand dat wordt gecommit. `data/data.js` bevat bewust geen ruwe `notes` of

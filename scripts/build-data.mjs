@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-// Haalt de acht aaa-toplijsten op uit Readwise Reader en schrijft data.js.
+// Haalt de aaa-toplijsten op uit Readwise Reader en schrijft data.js.
 // Vereist de @readwise/cli, al ingelogd (lokaal) of via `readwise login-with-token` (CI).
 
 import { execFile } from "node:child_process";
@@ -34,6 +34,8 @@ const FAMILIES = [
   { id: "nederlands", label: "Nederlands", sequence: "dutch", top10Tag: "aaa-dutch-top-10", top100Tag: "aaa-dutch-top-100" },
   { id: "kort", label: "Kort", sequence: "short", top10Tag: "aaa-short-top-10", top100Tag: "aaa-short-top-100" },
   { id: "kort-nederlands", label: "Kort & NL", sequence: "short-dutch", top10Tag: "aaa-short-dutch-top-10", top100Tag: "aaa-short-dutch-top-100" },
+  { id: "luchtig", label: "Luchtig", sequence: "luchtig", top10Tag: "aaa-luchtig-top-10", top100Tag: "aaa-luchtig-top-100" },
+  { id: "luchtig-nederlands", label: "Luchtig & NL", sequence: "luchtig-nederlands", top10Tag: "aaa-luchtig-nederlands-top-10", top100Tag: "aaa-luchtig-nederlands-top-100" },
   { id: "boeken", label: "Boeken", sequence: "boek", top10Tag: "boek-top-10", top100Tag: "boek-top-100", source: "category" },
 ];
 
@@ -107,7 +109,8 @@ function tagKeys(doc) {
 }
 
 function ordinalPosition(doc, sequence) {
-  const pattern = new RegExp(`^${sequence}-([0-9]{4})$`);
+  const digits = sequence === "lees" ? 4 : 3;
+  const pattern = new RegExp(`^${sequence}-([0-9]{${digits}})$`);
   for (const key of tagKeys(doc)) {
     const match = key.match(pattern);
     if (match) return Number.parseInt(match[1], 10);
@@ -125,7 +128,7 @@ function languageFor(doc) {
 
 // Ordinale positietags (lees-0001, dutch-0012, short-dutch-0003, ...) zijn structuur,
 // geen interesse-tags — die sluiten we hier uit, net als de aaa-toplijsttags en taal-tags.
-const ORDINAL_TAG_PATTERN = /^[a-z]+(?:-[a-z]+)*-\d{4}$/i;
+const ORDINAL_TAG_PATTERN = /^[a-z]+(?:-[a-z]+)*-\d{3,4}$/i;
 
 // Curatietags (triage-workflow) zijn geen inhoudelijke interesse, dus ook uitgesloten.
 const CURATION_TAGS = new Set(["must-read", "shortlist", "short-list"]);
