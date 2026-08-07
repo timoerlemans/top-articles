@@ -1,6 +1,6 @@
 // Automatisch gegenereerd door scripts/build-data.mjs — niet handmatig bewerken.
 window.TOP_ARTICLES = {
-  "generatedAt": "2026-08-07T18:57:27.336Z",
+  "generatedAt": "2026-08-07T19:22:02.799Z",
   "families": [
     {
       "id": "algemeen",
@@ -2542,6 +2542,7 @@ window.TOP_ARTICLES = {
               "tags": [
                 "fiction",
                 "history",
+                "luchtig-006",
                 "philosophy"
               ],
               "alsoIn": []
@@ -5266,7 +5267,9 @@ window.TOP_ARTICLES = {
               "bestMoment": "ontspannen",
               "tags": [
                 "fiction",
-                "history"
+                "history",
+                "luchtig-002",
+                "luchtig-nederlands-001"
               ],
               "alsoIn": []
             },
@@ -5290,6 +5293,8 @@ window.TOP_ARTICLES = {
               "bestMoment": "ontspannen",
               "tags": [
                 "fiction",
+                "luchtig-003",
+                "luchtig-nederlands-002",
                 "popular science"
               ],
               "alsoIn": []
@@ -6140,6 +6145,7 @@ window.TOP_ARTICLES = {
               "whyRead": "Raakt je interesse in wetenschap en betekenis — Tim Urban schrijft essays die complex zijn en grappig tegelijk, met diepe conceptuele diepgang.",
               "bestMoment": "ontspannen",
               "tags": [
+                "luchtig-004",
                 "personal growth & life philosophy",
                 "popular science"
               ],
@@ -6164,6 +6170,8 @@ window.TOP_ARTICLES = {
               "whyRead": "Raakt je interesse in wetenschap en cultuurgeschiedenis; Bryson beschrijft de hele wetenschapsgeschiedenis met humor en verwondering, van atomen tot menselijke evolutie.",
               "bestMoment": "ontspannen",
               "tags": [
+                "luchtig-005",
+                "luchtig-nederlands-003",
                 "personal growth & life philosophy",
                 "popular science",
                 "writing & essays"
@@ -6705,6 +6713,7 @@ window.TOP_ARTICLES = {
               "tags": [
                 "ai ethics & society",
                 "business & work",
+                "luchtig-007",
                 "psychology & behavior"
               ],
               "alsoIn": []
@@ -6830,6 +6839,7 @@ window.TOP_ARTICLES = {
               "bestMoment": "ontspannen",
               "tags": [
                 "business & work",
+                "luchtig-008",
                 "personal growth & life philosophy",
                 "psychology & behavior"
               ],
@@ -6903,6 +6913,7 @@ window.TOP_ARTICLES = {
               "tags": [
                 "health & wellness",
                 "learning & meta-learning",
+                "luchtig-009",
                 "psychology & behavior"
               ],
               "alsoIn": []
@@ -6953,6 +6964,7 @@ window.TOP_ARTICLES = {
               "tags": [
                 "cognitive science",
                 "health & wellness",
+                "luchtig-010",
                 "writing & essays"
               ],
               "alsoIn": []
@@ -6978,6 +6990,7 @@ window.TOP_ARTICLES = {
               "tags": [
                 "cognitive science",
                 "learning & meta-learning",
+                "luchtig-011",
                 "personal growth & life philosophy"
               ],
               "alsoIn": []
