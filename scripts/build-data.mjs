@@ -109,7 +109,7 @@ function tagKeys(doc) {
 }
 
 function ordinalPosition(doc, sequence) {
-  const digits = sequence === "lees" ? 4 : 3;
+  const digits = sequence.startsWith("luchtig") ? 3 : 4;
   const pattern = new RegExp(`^${sequence}-([0-9]{${digits}})$`);
   for (const key of tagKeys(doc)) {
     const match = key.match(pattern);

@@ -1,6 +1,6 @@
 // Automatisch gegenereerd door scripts/build-data.mjs — niet handmatig bewerken.
 window.TOP_ARTICLES = {
-  "generatedAt": "2026-08-07T19:22:02.799Z",
+  "generatedAt": "2026-08-07T19:49:15.470Z",
   "families": [
     {
       "id": "algemeen",
@@ -2542,10 +2542,12 @@ window.TOP_ARTICLES = {
               "tags": [
                 "fiction",
                 "history",
-                "luchtig-006",
                 "philosophy"
               ],
-              "alsoIn": []
+              "alsoIn": [
+                "aaa-luchtig-top-10",
+                "aaa-luchtig-top-100"
+              ]
             },
             {
               "position": 90,
@@ -4447,6 +4449,1396 @@ window.TOP_ARTICLES = {
       }
     },
     {
+      "id": "luchtig",
+      "label": "Luchtig",
+      "sequence": "luchtig",
+      "lists": {
+        "top-10": {
+          "tag": "aaa-luchtig-top-10",
+          "items": [
+            {
+              "position": 1,
+              "id": "01kyyg3mxmb2pwc6yarn1kf8tn",
+              "title": "All the Horrifying Things We Do to Our Books",
+              "author": "Miller’s Book Review 📚",
+              "siteName": "Substack",
+              "category": "email",
+              "language": null,
+              "readingTime": "8 mins",
+              "wordCount": 2080,
+              "publishedDate": "2026-08-01",
+              "savedDate": "2026-08-01T11:07:21.397000+00:00",
+              "imageUrl": null,
+              "sourceUrl": "mailto:reader-forwarded-email/c15abe40d1bb86ea281564ec50747bb9",
+              "readwiseUrl": "https://read.readwise.io/read/01kyyg3mxmb2pwc6yarn1kf8tn",
+              "summary": "When author Norman Mailer gave J. Michael Lennon his book Advertisements for Myself, the copy was missing more than a hundred pages.",
+              "whyRead": "Raakt je interesse in boeken en cultuurgeschiedenis: een geestig essay over de spanning tussen boeken als gebruiksvoorwerp en als eerbiedwaardig object.",
+              "bestMoment": "ontspannen",
+              "tags": [
+                "arts & culture",
+                "history"
+              ],
+              "alsoIn": [
+                "aaa-luchtig-top-100"
+              ]
+            },
+            {
+              "position": 2,
+              "id": "01j28vsd63175zdak33c46ccey",
+              "title": "De druiven der gramschap",
+              "author": "Steinbeck",
+              "siteName": "readwise.io",
+              "category": "epub",
+              "language": "Nederlands",
+              "readingTime": "11 hrs 58 mins",
+              "wordCount": 190234,
+              "publishedDate": null,
+              "savedDate": "2024-07-08T09:46:21.777000+00:00",
+              "imageUrl": "https://readwise-assets.s3.amazonaws.com/media/reader/parsed_document_assets/192314626/oAHh-vw27xfzCzoi9ir8A7Opr9d1DHcYe2KNGzGFFnw-cover-cover.jpeg",
+              "sourceUrl": "private://read/01j28vsd63175zdak33c46ccey",
+              "readwiseUrl": "https://read.readwise.io/read/01j28vsd63175zdak33c46ccey",
+              "summary": "In het gouden namiddaglicht bespreken de Joads hun reis en hun zorgen. Tom merkt op dat zijn moeder moe is en vraagt om hulp. De familie bereidt zich voor om naar oom John te gaan, terwijl ze hopen op een betere toekomst.",
+              "whyRead": "Raakt je interesse in fictie en sociale geschiedenis; De druiven der gramschap is een literair monument over armoede, migratie en menselijke veerkracht in Amerika's Grote Depressie.",
+              "bestMoment": "ontspannen",
+              "tags": [
+                "fiction",
+                "history"
+              ],
+              "alsoIn": [
+                "aaa-luchtig-top-100",
+                "aaa-luchtig-nederlands-top-10",
+                "aaa-luchtig-nederlands-top-100"
+              ]
+            },
+            {
+              "position": 3,
+              "id": "01j28vk8x6dvbnv05fex4z13dz",
+              "title": "Het drielichamenprobleem",
+              "author": "Cixin Liu",
+              "siteName": "readwise.io",
+              "category": "epub",
+              "language": "Nederlands",
+              "readingTime": "7 hrs 41 mins",
+              "wordCount": 121948,
+              "publishedDate": "2020-10-16",
+              "savedDate": "2024-07-08T09:43:00.797000+00:00",
+              "imageUrl": "https://readwise-assets.s3.amazonaws.com/media/reader/parsed_document_assets/192314173/NulSUcoOrKZAv9p14JoCaKW51boGQarT980bUIeV-ok-co_owv8SRv.xhtml",
+              "sourceUrl": "private://read/01j28vk8x6dvbnv05fex4z13dz",
+              "readwiseUrl": "https://read.readwise.io/read/01j28vk8x6dvbnv05fex4z13dz",
+              "summary": "In \"Het drielichamenprobleem\" hebben de personages gesprekken over de uitdagingen van beschaving en kennis. Wang herinnert zich de vernietiging van twee beschavingen door extreme kou en hitte. De auteur benadrukt het belang van langetermijndenken en begrip om strategische blinde vlekken te vermijden.",
+              "whyRead": "Raakt je interesse in sciencefiction; dit Chinese SF-meesterwerk combineert kwantumfysica, de Culturele Revolutie en first-contact-thema's tot een ambitieuze roman.",
+              "bestMoment": "ontspannen",
+              "tags": [
+                "fiction",
+                "popular science"
+              ],
+              "alsoIn": [
+                "aaa-luchtig-top-100",
+                "aaa-luchtig-nederlands-top-10",
+                "aaa-luchtig-nederlands-top-100"
+              ]
+            },
+            {
+              "position": 4,
+              "id": "01j29d3tbesb7m09zyn0z78vjr",
+              "title": "Wait But Why Year One: We finally figured out how to put a blog onto an e-reader",
+              "author": "Tim Urban",
+              "siteName": "readwise.io",
+              "category": "epub",
+              "language": "Engels",
+              "readingTime": "16 hrs 41 mins",
+              "wordCount": 265158,
+              "publishedDate": "2015-02-22",
+              "savedDate": "2024-07-08T14:49:08.727000+00:00",
+              "imageUrl": "https://readwise-assets.s3.amazonaws.com/media/reader/parsed_document_assets/192401427/wEUznUyStSMRHsB-noUdERV5VGApikVFGeqikNKoFgE-cover-cover.jpeg",
+              "sourceUrl": "private://read/01j29d3tbesb7m09zyn0z78vjr",
+              "readwiseUrl": "https://read.readwise.io/read/01j29d3tbesb7m09zyn0z78vjr",
+              "summary": "New Year’s Day, 2013.",
+              "whyRead": "Raakt je interesse in wetenschap en betekenis — Tim Urban schrijft essays die complex zijn en grappig tegelijk, met diepe conceptuele diepgang.",
+              "bestMoment": "ontspannen",
+              "tags": [
+                "personal growth & life philosophy",
+                "popular science"
+              ],
+              "alsoIn": [
+                "aaa-luchtig-top-100"
+              ]
+            },
+            {
+              "position": 5,
+              "id": "01j28vk7ysb2em2twbr7zmfv0b",
+              "title": "Een kleine geschiedenis van bijna alles",
+              "author": "Bill Bryson",
+              "siteName": "readwise.io",
+              "category": "epub",
+              "language": "Nederlands",
+              "readingTime": "12 hrs 53 mins",
+              "wordCount": 204761,
+              "publishedDate": "2016-11-22",
+              "savedDate": "2024-07-08T09:42:59.814000+00:00",
+              "imageUrl": "",
+              "sourceUrl": "private://read/01j28vk7ysb2em2twbr7zmfv0b",
+              "readwiseUrl": "https://read.readwise.io/read/01j28vk7ysb2em2twbr7zmfv0b",
+              "summary": "The text discusses questions about the Earth's core, the vastness of the universe, and the lifespan of atoms. It highlights the rarity of life in the universe and the interconnectedness of all living things. The author also touches on historical scientific discoveries and the mysteries that remain unsolved.",
+              "whyRead": "Raakt je interesse in wetenschap en cultuurgeschiedenis; Bryson beschrijft de hele wetenschapsgeschiedenis met humor en verwondering, van atomen tot menselijke evolutie.",
+              "bestMoment": "ontspannen",
+              "tags": [
+                "personal growth & life philosophy",
+                "popular science",
+                "writing & essays"
+              ],
+              "alsoIn": [
+                "aaa-luchtig-top-100",
+                "aaa-luchtig-nederlands-top-10",
+                "aaa-luchtig-nederlands-top-100"
+              ]
+            },
+            {
+              "position": 6,
+              "id": "01kyxa2yd57szp13ha57708606",
+              "title": "Your Book Review: The Epic Of Gilgamesh",
+              "author": "Astral Codex Ten",
+              "siteName": "Substack",
+              "category": "email",
+              "language": "Engels",
+              "readingTime": "44 mins",
+              "wordCount": 11530,
+              "publishedDate": "2026-07-31",
+              "savedDate": "2026-08-01T00:02:52.453000+00:00",
+              "imageUrl": null,
+              "sourceUrl": "mailto:reader-forwarded-email/8fbcb745572258843f21b2de54a72f93",
+              "readwiseUrl": "https://read.readwise.io/read/01kyxa2yd57szp13ha57708606",
+              "summary": "[This is one of the finalists in the 2026 book review contest, written by an ACX reader who will remain anonymous until after voting is done.",
+              "whyRead": "Zie de gekozen tags: dit stuk biedt een inhoudelijke ingang die aansluit op die interessegebieden.",
+              "bestMoment": "ontspannen",
+              "tags": [
+                "fiction",
+                "history",
+                "philosophy"
+              ],
+              "alsoIn": [
+                "aaa-top-100",
+                "aaa-luchtig-top-100"
+              ]
+            },
+            {
+              "position": 7,
+              "id": "01j29d3fx2eh2cjm300ymbnbeg",
+              "title": "The Five Dysfunctions of a Team: A Leadership Fable, 20th Anniversary Edition",
+              "author": "Patrick M. Lencioni",
+              "siteName": "readwise.io",
+              "category": "epub",
+              "language": "Engels",
+              "readingTime": "2 hrs 54 mins",
+              "wordCount": 46073,
+              "publishedDate": "2002-04-11",
+              "savedDate": "2024-07-08T14:48:58.028000+00:00",
+              "imageUrl": "https://readwise-assets.s3.amazonaws.com/media/reader/parsed_document_assets/192401391/vcB-ku4cskmxBIwb3eXdIVPMA2UCcXIvQAN-Zp2Rzqs-cover-cover.jpeg",
+              "sourceUrl": "private://read/01j29d3fx2eh2cjm300ymbnbeg",
+              "readwiseUrl": "https://read.readwise.io/read/01j29d3fx2eh2cjm300ymbnbeg",
+              "summary": "The New York Times best-selling team leadership handbook for modern executives, managers, and organizations After her first two weeks observing the problems at DecisionTech, Kathryn Petersen, its new CEO, had more than a few moments when she wondered if she should have taken the job. But Kathryn knew there was little chance she would have turned it down. After all, retirement had made her antsy, and nothing excited her more than a challenge. What she could not have known when she accepted the job, however, was just how dysfunctional her team was, and how team members would challenge her in ways that no one ever had before. For twenty years, The Five Dysfunctions of a Team has been engaging audiences with a page-turning, realistic fable that follows the travails of Kathryn Petersen, DecisionTech’s CEO, as she faces the ultimate leadership crisis. She must unite a team in such disarray that it threatens to derail the entire company. Equal parts leadership fable and business handbook, this definitive source on teamwork by Patrick Lencioni reveals the five behavioral tendencies that go to the heart of why even the best teams struggle. He offers a powerful model and step-by-step guide for overcoming those dysfunctions and getting every one rowing in the same direction. Today, the lessons in The Five Dysfunctions of a Team are more relevant than ever. This special anniversary edition celebrates one of the best-selling business books of all time with a new foreword from the author that reflects on its legacy and lessons.",
+              "whyRead": "Compacte en toegankelijke analyse van teamdynamiek in fabelformaat — de vijf disfuncties zijn een bruikbaar kader voor organisatieproblemen.",
+              "bestMoment": "ontspannen",
+              "tags": [
+                "ai ethics & society",
+                "business & work",
+                "psychology & behavior"
+              ],
+              "alsoIn": [
+                "aaa-luchtig-top-100"
+              ]
+            },
+            {
+              "position": 8,
+              "id": "01j29d38xxr3gp6z4x14nzw6es",
+              "title": "How to Win Friends and Influence People",
+              "author": "Dale Carnegie",
+              "siteName": "readwise.io",
+              "category": "epub",
+              "language": "Engels",
+              "readingTime": "4 hrs 56 mins",
+              "wordCount": 78177,
+              "publishedDate": "2009-11-03",
+              "savedDate": "2024-07-08T14:48:50.888000+00:00",
+              "imageUrl": "https://readwise-assets.s3.amazonaws.com/media/reader/parsed_document_assets/192401280/Skula66FO8hDWMI6sfwvHvSamcCW5Ly-fEBk3Hx4cXg-cover-cover.jpeg",
+              "sourceUrl": "private://read/01j29d38xxr3gp6z4x14nzw6es",
+              "readwiseUrl": "https://read.readwise.io/read/01j29d38xxr3gp6z4x14nzw6es",
+              "summary": "Dale Carnegie shares how he overcame personal struggles and learned the importance of praising others instead of criticizing them. He emphasizes building positive relationships and understanding people's interests to influence them effectively. By using kindness and encouragement, he found success in both sales and personal connections.",
+              "whyRead": "Historisch interessant als grondlegger van communicatieliteratuur — inhoudelijk gedateerd maar de kernprincipes zijn solide en nog steeds herkenbaar in moderne varianten.",
+              "bestMoment": "ontspannen",
+              "tags": [
+                "business & work",
+                "personal growth & life philosophy",
+                "psychology & behavior"
+              ],
+              "alsoIn": [
+                "aaa-luchtig-top-100"
+              ]
+            },
+            {
+              "position": 9,
+              "id": "01j29d3dwx997fvp2v7meykqtp",
+              "title": "Stop Overthinking: 23 Techniques to Relieve Stress, Stop Negative Spirals, Declutter Your Mind, and Focus on the Present",
+              "author": "Nick Trenton",
+              "siteName": "readwise.io",
+              "category": "epub",
+              "language": "Engels",
+              "readingTime": "2 hrs 40 mins",
+              "wordCount": 42247,
+              "publishedDate": "2021-03-15",
+              "savedDate": "2024-07-08T14:48:55.978000+00:00",
+              "imageUrl": "https://readwise-assets.s3.amazonaws.com/media/reader/parsed_document_assets/192401385/troOmm9T879fyduhvZLd_O4zi6aEkKq_eKyCvPJZ4J8-cover-cover.jpeg",
+              "sourceUrl": "private://read/01j29d3dwx997fvp2v7meykqtp",
+              "readwiseUrl": "https://read.readwise.io/read/01j29d3dwx997fvp2v7meykqtp",
+              "summary": "Overcome negative thought patterns, reduce stress, and live a worry-free life.\nOverthinking is the biggest cause of unhappiness. Don't get stuck in a never-ending thought loop. Stay present and keep your mind off things that don't matter, and never will.\nBreak free of your self-imposed mental prison.\nStop Overthinking is a book that understands where you've been through,the exhausting situation you've put yourself into, and how you lose your mind in the trap of anxiety and stress. Acclaimed author Nick Trenton will walk you through the obstacles with detailed and proven techniques to help you rewire your brain, control your thoughts, and change your mental habits.\nWhat's more, the book will provide you scientific approaches to completely change the way you think and feel about yourself by ending the vicious thought patterns.\nStop agonizing over the past and trying to predict the future.\nNick Trenton grew up in rural Illinois and is quite literally a farm boy. His best friend growing up was his trusty companion Leonard the dachshund. RIP Leonard. Eventually, he made it off the farm and obtained a BS in Economics, followed by an MA in Behavioral Psychology.\nPowerful ways to stop ruminating and dwelling on negative thoughts.-How to be aware of your negative spiral triggers-Identify and recognize your inner anxieties-How to keep the focus on relaxation and action-Proven methods to overcome stress attacks-Learn to declutter your mind and find focusUnleash your unlimited potential and start living.\nNo more self-deprecating talk. No more sleepless nights with racing thoughts. Free your mind from overthinking and achieve more, feel better, and unleash your potential. Finally be able to live in the present moment.",
+              "whyRead": "Praktische gids met 23 cognitieve en gedragstechnieken om piekeren te doorbreken — toegankelijk, zonder diepgang.",
+              "bestMoment": "ontspannen",
+              "tags": [
+                "health & wellness",
+                "learning & meta-learning",
+                "psychology & behavior"
+              ],
+              "alsoIn": [
+                "aaa-luchtig-top-100"
+              ]
+            },
+            {
+              "position": 10,
+              "id": "01j29d3d60k7dhd72yfq1ytt3z",
+              "title": "Overcoming Overthinking: The Complete Guide to Calm Your Mind by Conquering Anxiety, Sleeplessness, Indecision, and Negative Thoughts",
+              "author": "Kirk Teachout",
+              "siteName": "readwise.io",
+              "category": "epub",
+              "language": "Engels",
+              "readingTime": "2 hrs 35 mins",
+              "wordCount": 40811,
+              "publishedDate": "2023-04-16",
+              "savedDate": "2024-07-08T14:48:55.244000+00:00",
+              "imageUrl": "https://readwise-assets.s3.amazonaws.com/media/reader/parsed_document_assets/192401381/7mvzTcWGM-LqIHxt8Z36_8vfIK8p_NP5KyV1Ad2Yd6w-cover-cover.jpeg",
+              "sourceUrl": "private://read/01j29d3d60k7dhd72yfq1ytt3z",
+              "readwiseUrl": "https://read.readwise.io/read/01j29d3d60k7dhd72yfq1ytt3z",
+              "summary": "No part of this book may be reproduced in any form or by any electronic or mechanical means, including information storage and retrieval systems, without written permission from the author, except for the use of brief quotations in a book review.",
+              "whyRead": "Brede gids over angst, slaapproblemen en negatief denken als symptomen van overmatig piekeren.",
+              "bestMoment": "ontspannen",
+              "tags": [
+                "cognitive science",
+                "health & wellness",
+                "writing & essays"
+              ],
+              "alsoIn": [
+                "aaa-luchtig-top-100"
+              ]
+            }
+          ]
+        },
+        "top-100": {
+          "tag": "aaa-luchtig-top-100",
+          "items": [
+            {
+              "position": 1,
+              "id": "01kyyg3mxmb2pwc6yarn1kf8tn",
+              "title": "All the Horrifying Things We Do to Our Books",
+              "author": "Miller’s Book Review 📚",
+              "siteName": "Substack",
+              "category": "email",
+              "language": null,
+              "readingTime": "8 mins",
+              "wordCount": 2080,
+              "publishedDate": "2026-08-01",
+              "savedDate": "2026-08-01T11:07:21.397000+00:00",
+              "imageUrl": null,
+              "sourceUrl": "mailto:reader-forwarded-email/c15abe40d1bb86ea281564ec50747bb9",
+              "readwiseUrl": "https://read.readwise.io/read/01kyyg3mxmb2pwc6yarn1kf8tn",
+              "summary": "When author Norman Mailer gave J. Michael Lennon his book Advertisements for Myself, the copy was missing more than a hundred pages.",
+              "whyRead": "Raakt je interesse in boeken en cultuurgeschiedenis: een geestig essay over de spanning tussen boeken als gebruiksvoorwerp en als eerbiedwaardig object.",
+              "bestMoment": "ontspannen",
+              "tags": [
+                "arts & culture",
+                "history"
+              ],
+              "alsoIn": [
+                "aaa-luchtig-top-10"
+              ]
+            },
+            {
+              "position": 2,
+              "id": "01j28vsd63175zdak33c46ccey",
+              "title": "De druiven der gramschap",
+              "author": "Steinbeck",
+              "siteName": "readwise.io",
+              "category": "epub",
+              "language": "Nederlands",
+              "readingTime": "11 hrs 58 mins",
+              "wordCount": 190234,
+              "publishedDate": null,
+              "savedDate": "2024-07-08T09:46:21.777000+00:00",
+              "imageUrl": "https://readwise-assets.s3.amazonaws.com/media/reader/parsed_document_assets/192314626/oAHh-vw27xfzCzoi9ir8A7Opr9d1DHcYe2KNGzGFFnw-cover-cover.jpeg",
+              "sourceUrl": "private://read/01j28vsd63175zdak33c46ccey",
+              "readwiseUrl": "https://read.readwise.io/read/01j28vsd63175zdak33c46ccey",
+              "summary": "In het gouden namiddaglicht bespreken de Joads hun reis en hun zorgen. Tom merkt op dat zijn moeder moe is en vraagt om hulp. De familie bereidt zich voor om naar oom John te gaan, terwijl ze hopen op een betere toekomst.",
+              "whyRead": "Raakt je interesse in fictie en sociale geschiedenis; De druiven der gramschap is een literair monument over armoede, migratie en menselijke veerkracht in Amerika's Grote Depressie.",
+              "bestMoment": "ontspannen",
+              "tags": [
+                "fiction",
+                "history"
+              ],
+              "alsoIn": [
+                "aaa-luchtig-top-10",
+                "aaa-luchtig-nederlands-top-10",
+                "aaa-luchtig-nederlands-top-100"
+              ]
+            },
+            {
+              "position": 3,
+              "id": "01j28vk8x6dvbnv05fex4z13dz",
+              "title": "Het drielichamenprobleem",
+              "author": "Cixin Liu",
+              "siteName": "readwise.io",
+              "category": "epub",
+              "language": "Nederlands",
+              "readingTime": "7 hrs 41 mins",
+              "wordCount": 121948,
+              "publishedDate": "2020-10-16",
+              "savedDate": "2024-07-08T09:43:00.797000+00:00",
+              "imageUrl": "https://readwise-assets.s3.amazonaws.com/media/reader/parsed_document_assets/192314173/NulSUcoOrKZAv9p14JoCaKW51boGQarT980bUIeV-ok-co_owv8SRv.xhtml",
+              "sourceUrl": "private://read/01j28vk8x6dvbnv05fex4z13dz",
+              "readwiseUrl": "https://read.readwise.io/read/01j28vk8x6dvbnv05fex4z13dz",
+              "summary": "In \"Het drielichamenprobleem\" hebben de personages gesprekken over de uitdagingen van beschaving en kennis. Wang herinnert zich de vernietiging van twee beschavingen door extreme kou en hitte. De auteur benadrukt het belang van langetermijndenken en begrip om strategische blinde vlekken te vermijden.",
+              "whyRead": "Raakt je interesse in sciencefiction; dit Chinese SF-meesterwerk combineert kwantumfysica, de Culturele Revolutie en first-contact-thema's tot een ambitieuze roman.",
+              "bestMoment": "ontspannen",
+              "tags": [
+                "fiction",
+                "popular science"
+              ],
+              "alsoIn": [
+                "aaa-luchtig-top-10",
+                "aaa-luchtig-nederlands-top-10",
+                "aaa-luchtig-nederlands-top-100"
+              ]
+            },
+            {
+              "position": 4,
+              "id": "01j29d3tbesb7m09zyn0z78vjr",
+              "title": "Wait But Why Year One: We finally figured out how to put a blog onto an e-reader",
+              "author": "Tim Urban",
+              "siteName": "readwise.io",
+              "category": "epub",
+              "language": "Engels",
+              "readingTime": "16 hrs 41 mins",
+              "wordCount": 265158,
+              "publishedDate": "2015-02-22",
+              "savedDate": "2024-07-08T14:49:08.727000+00:00",
+              "imageUrl": "https://readwise-assets.s3.amazonaws.com/media/reader/parsed_document_assets/192401427/wEUznUyStSMRHsB-noUdERV5VGApikVFGeqikNKoFgE-cover-cover.jpeg",
+              "sourceUrl": "private://read/01j29d3tbesb7m09zyn0z78vjr",
+              "readwiseUrl": "https://read.readwise.io/read/01j29d3tbesb7m09zyn0z78vjr",
+              "summary": "New Year’s Day, 2013.",
+              "whyRead": "Raakt je interesse in wetenschap en betekenis — Tim Urban schrijft essays die complex zijn en grappig tegelijk, met diepe conceptuele diepgang.",
+              "bestMoment": "ontspannen",
+              "tags": [
+                "personal growth & life philosophy",
+                "popular science"
+              ],
+              "alsoIn": [
+                "aaa-luchtig-top-10"
+              ]
+            },
+            {
+              "position": 5,
+              "id": "01j28vk7ysb2em2twbr7zmfv0b",
+              "title": "Een kleine geschiedenis van bijna alles",
+              "author": "Bill Bryson",
+              "siteName": "readwise.io",
+              "category": "epub",
+              "language": "Nederlands",
+              "readingTime": "12 hrs 53 mins",
+              "wordCount": 204761,
+              "publishedDate": "2016-11-22",
+              "savedDate": "2024-07-08T09:42:59.814000+00:00",
+              "imageUrl": "",
+              "sourceUrl": "private://read/01j28vk7ysb2em2twbr7zmfv0b",
+              "readwiseUrl": "https://read.readwise.io/read/01j28vk7ysb2em2twbr7zmfv0b",
+              "summary": "The text discusses questions about the Earth's core, the vastness of the universe, and the lifespan of atoms. It highlights the rarity of life in the universe and the interconnectedness of all living things. The author also touches on historical scientific discoveries and the mysteries that remain unsolved.",
+              "whyRead": "Raakt je interesse in wetenschap en cultuurgeschiedenis; Bryson beschrijft de hele wetenschapsgeschiedenis met humor en verwondering, van atomen tot menselijke evolutie.",
+              "bestMoment": "ontspannen",
+              "tags": [
+                "personal growth & life philosophy",
+                "popular science",
+                "writing & essays"
+              ],
+              "alsoIn": [
+                "aaa-luchtig-top-10",
+                "aaa-luchtig-nederlands-top-10",
+                "aaa-luchtig-nederlands-top-100"
+              ]
+            },
+            {
+              "position": 6,
+              "id": "01kyxa2yd57szp13ha57708606",
+              "title": "Your Book Review: The Epic Of Gilgamesh",
+              "author": "Astral Codex Ten",
+              "siteName": "Substack",
+              "category": "email",
+              "language": "Engels",
+              "readingTime": "44 mins",
+              "wordCount": 11530,
+              "publishedDate": "2026-07-31",
+              "savedDate": "2026-08-01T00:02:52.453000+00:00",
+              "imageUrl": null,
+              "sourceUrl": "mailto:reader-forwarded-email/8fbcb745572258843f21b2de54a72f93",
+              "readwiseUrl": "https://read.readwise.io/read/01kyxa2yd57szp13ha57708606",
+              "summary": "[This is one of the finalists in the 2026 book review contest, written by an ACX reader who will remain anonymous until after voting is done.",
+              "whyRead": "Zie de gekozen tags: dit stuk biedt een inhoudelijke ingang die aansluit op die interessegebieden.",
+              "bestMoment": "ontspannen",
+              "tags": [
+                "fiction",
+                "history",
+                "philosophy"
+              ],
+              "alsoIn": [
+                "aaa-top-100",
+                "aaa-luchtig-top-10"
+              ]
+            },
+            {
+              "position": 7,
+              "id": "01j29d3fx2eh2cjm300ymbnbeg",
+              "title": "The Five Dysfunctions of a Team: A Leadership Fable, 20th Anniversary Edition",
+              "author": "Patrick M. Lencioni",
+              "siteName": "readwise.io",
+              "category": "epub",
+              "language": "Engels",
+              "readingTime": "2 hrs 54 mins",
+              "wordCount": 46073,
+              "publishedDate": "2002-04-11",
+              "savedDate": "2024-07-08T14:48:58.028000+00:00",
+              "imageUrl": "https://readwise-assets.s3.amazonaws.com/media/reader/parsed_document_assets/192401391/vcB-ku4cskmxBIwb3eXdIVPMA2UCcXIvQAN-Zp2Rzqs-cover-cover.jpeg",
+              "sourceUrl": "private://read/01j29d3fx2eh2cjm300ymbnbeg",
+              "readwiseUrl": "https://read.readwise.io/read/01j29d3fx2eh2cjm300ymbnbeg",
+              "summary": "The New York Times best-selling team leadership handbook for modern executives, managers, and organizations After her first two weeks observing the problems at DecisionTech, Kathryn Petersen, its new CEO, had more than a few moments when she wondered if she should have taken the job. But Kathryn knew there was little chance she would have turned it down. After all, retirement had made her antsy, and nothing excited her more than a challenge. What she could not have known when she accepted the job, however, was just how dysfunctional her team was, and how team members would challenge her in ways that no one ever had before. For twenty years, The Five Dysfunctions of a Team has been engaging audiences with a page-turning, realistic fable that follows the travails of Kathryn Petersen, DecisionTech’s CEO, as she faces the ultimate leadership crisis. She must unite a team in such disarray that it threatens to derail the entire company. Equal parts leadership fable and business handbook, this definitive source on teamwork by Patrick Lencioni reveals the five behavioral tendencies that go to the heart of why even the best teams struggle. He offers a powerful model and step-by-step guide for overcoming those dysfunctions and getting every one rowing in the same direction. Today, the lessons in The Five Dysfunctions of a Team are more relevant than ever. This special anniversary edition celebrates one of the best-selling business books of all time with a new foreword from the author that reflects on its legacy and lessons.",
+              "whyRead": "Compacte en toegankelijke analyse van teamdynamiek in fabelformaat — de vijf disfuncties zijn een bruikbaar kader voor organisatieproblemen.",
+              "bestMoment": "ontspannen",
+              "tags": [
+                "ai ethics & society",
+                "business & work",
+                "psychology & behavior"
+              ],
+              "alsoIn": [
+                "aaa-luchtig-top-10"
+              ]
+            },
+            {
+              "position": 8,
+              "id": "01j29d38xxr3gp6z4x14nzw6es",
+              "title": "How to Win Friends and Influence People",
+              "author": "Dale Carnegie",
+              "siteName": "readwise.io",
+              "category": "epub",
+              "language": "Engels",
+              "readingTime": "4 hrs 56 mins",
+              "wordCount": 78177,
+              "publishedDate": "2009-11-03",
+              "savedDate": "2024-07-08T14:48:50.888000+00:00",
+              "imageUrl": "https://readwise-assets.s3.amazonaws.com/media/reader/parsed_document_assets/192401280/Skula66FO8hDWMI6sfwvHvSamcCW5Ly-fEBk3Hx4cXg-cover-cover.jpeg",
+              "sourceUrl": "private://read/01j29d38xxr3gp6z4x14nzw6es",
+              "readwiseUrl": "https://read.readwise.io/read/01j29d38xxr3gp6z4x14nzw6es",
+              "summary": "Dale Carnegie shares how he overcame personal struggles and learned the importance of praising others instead of criticizing them. He emphasizes building positive relationships and understanding people's interests to influence them effectively. By using kindness and encouragement, he found success in both sales and personal connections.",
+              "whyRead": "Historisch interessant als grondlegger van communicatieliteratuur — inhoudelijk gedateerd maar de kernprincipes zijn solide en nog steeds herkenbaar in moderne varianten.",
+              "bestMoment": "ontspannen",
+              "tags": [
+                "business & work",
+                "personal growth & life philosophy",
+                "psychology & behavior"
+              ],
+              "alsoIn": [
+                "aaa-luchtig-top-10"
+              ]
+            },
+            {
+              "position": 9,
+              "id": "01j29d3dwx997fvp2v7meykqtp",
+              "title": "Stop Overthinking: 23 Techniques to Relieve Stress, Stop Negative Spirals, Declutter Your Mind, and Focus on the Present",
+              "author": "Nick Trenton",
+              "siteName": "readwise.io",
+              "category": "epub",
+              "language": "Engels",
+              "readingTime": "2 hrs 40 mins",
+              "wordCount": 42247,
+              "publishedDate": "2021-03-15",
+              "savedDate": "2024-07-08T14:48:55.978000+00:00",
+              "imageUrl": "https://readwise-assets.s3.amazonaws.com/media/reader/parsed_document_assets/192401385/troOmm9T879fyduhvZLd_O4zi6aEkKq_eKyCvPJZ4J8-cover-cover.jpeg",
+              "sourceUrl": "private://read/01j29d3dwx997fvp2v7meykqtp",
+              "readwiseUrl": "https://read.readwise.io/read/01j29d3dwx997fvp2v7meykqtp",
+              "summary": "Overcome negative thought patterns, reduce stress, and live a worry-free life.\nOverthinking is the biggest cause of unhappiness. Don't get stuck in a never-ending thought loop. Stay present and keep your mind off things that don't matter, and never will.\nBreak free of your self-imposed mental prison.\nStop Overthinking is a book that understands where you've been through,the exhausting situation you've put yourself into, and how you lose your mind in the trap of anxiety and stress. Acclaimed author Nick Trenton will walk you through the obstacles with detailed and proven techniques to help you rewire your brain, control your thoughts, and change your mental habits.\nWhat's more, the book will provide you scientific approaches to completely change the way you think and feel about yourself by ending the vicious thought patterns.\nStop agonizing over the past and trying to predict the future.\nNick Trenton grew up in rural Illinois and is quite literally a farm boy. His best friend growing up was his trusty companion Leonard the dachshund. RIP Leonard. Eventually, he made it off the farm and obtained a BS in Economics, followed by an MA in Behavioral Psychology.\nPowerful ways to stop ruminating and dwelling on negative thoughts.-How to be aware of your negative spiral triggers-Identify and recognize your inner anxieties-How to keep the focus on relaxation and action-Proven methods to overcome stress attacks-Learn to declutter your mind and find focusUnleash your unlimited potential and start living.\nNo more self-deprecating talk. No more sleepless nights with racing thoughts. Free your mind from overthinking and achieve more, feel better, and unleash your potential. Finally be able to live in the present moment.",
+              "whyRead": "Praktische gids met 23 cognitieve en gedragstechnieken om piekeren te doorbreken — toegankelijk, zonder diepgang.",
+              "bestMoment": "ontspannen",
+              "tags": [
+                "health & wellness",
+                "learning & meta-learning",
+                "psychology & behavior"
+              ],
+              "alsoIn": [
+                "aaa-luchtig-top-10"
+              ]
+            },
+            {
+              "position": 10,
+              "id": "01j29d3d60k7dhd72yfq1ytt3z",
+              "title": "Overcoming Overthinking: The Complete Guide to Calm Your Mind by Conquering Anxiety, Sleeplessness, Indecision, and Negative Thoughts",
+              "author": "Kirk Teachout",
+              "siteName": "readwise.io",
+              "category": "epub",
+              "language": "Engels",
+              "readingTime": "2 hrs 35 mins",
+              "wordCount": 40811,
+              "publishedDate": "2023-04-16",
+              "savedDate": "2024-07-08T14:48:55.244000+00:00",
+              "imageUrl": "https://readwise-assets.s3.amazonaws.com/media/reader/parsed_document_assets/192401381/7mvzTcWGM-LqIHxt8Z36_8vfIK8p_NP5KyV1Ad2Yd6w-cover-cover.jpeg",
+              "sourceUrl": "private://read/01j29d3d60k7dhd72yfq1ytt3z",
+              "readwiseUrl": "https://read.readwise.io/read/01j29d3d60k7dhd72yfq1ytt3z",
+              "summary": "No part of this book may be reproduced in any form or by any electronic or mechanical means, including information storage and retrieval systems, without written permission from the author, except for the use of brief quotations in a book review.",
+              "whyRead": "Brede gids over angst, slaapproblemen en negatief denken als symptomen van overmatig piekeren.",
+              "bestMoment": "ontspannen",
+              "tags": [
+                "cognitive science",
+                "health & wellness",
+                "writing & essays"
+              ],
+              "alsoIn": [
+                "aaa-luchtig-top-10"
+              ]
+            },
+            {
+              "position": 11,
+              "id": "01j29d3hp212xny83jkj13kan8",
+              "title": "Think and Grow Rich",
+              "author": "Napoleon Hill",
+              "siteName": "readwise.io",
+              "category": "epub",
+              "language": "Engels",
+              "readingTime": "5 hrs 53 mins",
+              "wordCount": 93438,
+              "publishedDate": "2013-01-03",
+              "savedDate": "2024-07-08T14:48:59.878000+00:00",
+              "imageUrl": "https://readwise-assets.s3.amazonaws.com/media/reader/parsed_document_assets/192401394/OGb3oRfGzKbLt_PEtlMCJvp7BeJIJdgnhE0JxL9Juhw-cover-cover.jpeg",
+              "sourceUrl": "private://read/01j29d3hp212xny83jkj13kan8",
+              "readwiseUrl": "https://read.readwise.io/read/01j29d3hp212xny83jkj13kan8",
+              "summary": "\"Think and Grow Rich\" by Napoleon Hill emphasizes that a strong desire for wealth, coupled with persistence and a positive mindset, is essential for achieving financial success. The book encourages individuals to form a \"Master Mind\" group to share knowledge and support each other's ambitions, regardless of formal education. Ultimately, it highlights that one's thoughts and attitudes can significantly influence their ability to accumulate riches and find happiness.",
+              "whyRead": "Historisch interessant als grondlegger van het moderne zelfhulpgenre — inhoudelijk gedateerd, maar invloedrijk om te begrijpen waar veel hedendaagse motivatieliteratuur op teruggaat.",
+              "bestMoment": "ontspannen",
+              "tags": [
+                "cognitive science",
+                "learning & meta-learning",
+                "personal growth & life philosophy"
+              ],
+              "alsoIn": []
+            },
+            {
+              "position": 12,
+              "id": "01kwkpvx062dytw4zfh294psvb",
+              "title": "Heilige plekken dichtbij: Der Herrgott van Bentheim",
+              "author": "De Ongelooflijke",
+              "siteName": "Substack",
+              "category": "email",
+              "language": "Nederlands",
+              "readingTime": "17 mins",
+              "wordCount": 4420,
+              "publishedDate": "2026-07-03",
+              "savedDate": "2026-07-03T10:02:25.159000+00:00",
+              "imageUrl": null,
+              "sourceUrl": "mailto:reader-forwarded-email/e67d6e50411cb74f596daf74d736e27f",
+              "readwiseUrl": "https://read.readwise.io/read/01kwkpvx062dytw4zfh294psvb",
+              "summary": "Pelgrimeren is populair – Santiago de Compostela ontving in 2025 meer gasten dan ooit. Maar niet iedereen heeft het geld, de tijd en het lijf om de huisdeur achter zich dicht te trekken en te gaan.",
+              "whyRead": "Nederlandstalige longread met duidelijke stem, religiegeschiedenis, Twents landschap en cultuurgeschiedenis; precies het soort essay waarin plek, verhaal en idee elkaar dragen. De meerwaarde zit in de combinatie van pelgrimage, middeleeuwse geschiedenis, lokale geografie en reflectieve toon.",
+              "bestMoment": "ontspannen",
+              "tags": [
+                "arts & culture",
+                "history",
+                "personal growth & life philosophy"
+              ],
+              "alsoIn": [
+                "aaa-luchtig-nederlands-top-10",
+                "aaa-luchtig-nederlands-top-100"
+              ]
+            },
+            {
+              "position": 13,
+              "id": "01ktv2sxayxrqj6yzvyhjes6tf",
+              "title": "Leeslijst mei 2026",
+              "author": "Kauthar",
+              "siteName": "Substack",
+              "category": "email",
+              "language": "Nederlands",
+              "readingTime": "7 mins",
+              "wordCount": 1651,
+              "publishedDate": "2026-06-11",
+              "savedDate": "2026-06-11T10:14:20.254000+00:00",
+              "imageUrl": null,
+              "sourceUrl": "mailto:reader-forwarded-email/a0c00dcc2081fdba85fa1cc1b61f0134",
+              "readwiseUrl": "https://read.readwise.io/read/01ktv2sxayxrqj6yzvyhjes6tf",
+              "summary": "Lieke Marsman, schrijver, dichter, denker. Op 3 juni 2026 kwam de dood haar halen, maar haar woorden zullen altijd blijven.",
+              "whyRead": "Raakt literatuur, Nederlandse cultuur, politieke rechtvaardigheid en moederschap: deze leeslijst is geen droge boekenopsomming, maar een persoonlijk-culturele route langs dood, verzet, sociale rechtvaardigheid en de politiek van ouderschap. Vooral waardevol door de stem en de korte oordelen bij elk boek.",
+              "bestMoment": "ontspannen",
+              "tags": [
+                "arts & culture",
+                "fiction",
+                "sociology & social structures"
+              ],
+              "alsoIn": [
+                "aaa-luchtig-nederlands-top-10",
+                "aaa-luchtig-nederlands-top-100"
+              ]
+            },
+            {
+              "position": 14,
+              "id": "01krm5d32nfhsa44jvbq4s6nny",
+              "title": "📚 Fear, War, & God: Post-Rationalist Philosophy... in SPAAAAAACE",
+              "author": "Eleanor Konik",
+              "siteName": "Manuscriptions",
+              "category": "article",
+              "language": "Engels",
+              "readingTime": "10 mins",
+              "wordCount": 2547,
+              "publishedDate": "2025-05-02",
+              "savedDate": "2026-05-14T21:13:41.281000+00:00",
+              "imageUrl": "https://substackcdn.com/image/fetch/w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff6b84ecf-9d49-4631-b5a0-1b131af17fd5_1536x1024.png",
+              "sourceUrl": "https://www.eleanorkonik.com/p/fear-war-and-god-post-rationalist",
+              "readwiseUrl": "https://read.readwise.io/read/01krm5d32nfhsa44jvbq4s6nny",
+              "summary": "A Review of the War Dogs Trilogy by Greg Bear",
+              "whyRead": "Konik gebruikt een militaire SF-review als opstap naar angst, pijn, oorlogsethiek, religie en wereldbouw. Shortlist, omdat dit precies fantasy/SF als cultuurvorm behandelt: genrelezing als filosofisch instrument.",
+              "bestMoment": "ontspannen",
+              "tags": [
+                "arts & culture",
+                "fantasy & science fiction",
+                "philosophy"
+              ],
+              "alsoIn": []
+            },
+            {
+              "position": 15,
+              "id": "01k7tw6vrkda5hp5070ra2wqm6",
+              "title": "Five SFF Stories That Shed Light on Obscure History",
+              "author": "Eleanor Konik",
+              "siteName": "Reactor",
+              "category": "article",
+              "language": "Engels",
+              "readingTime": "6 mins",
+              "wordCount": 1464,
+              "publishedDate": "2021-03-31",
+              "savedDate": "2025-10-18T05:20:49.940000+00:00",
+              "imageUrl": "https://reactormag.com/wp-content/uploads/2021/03/Obscure-History-in-SFF.png",
+              "sourceUrl": "https://reactormag.com/five-sff-stories-that-shed-light-on-obscure-history/",
+              "readwiseUrl": "https://read.readwise.io/read/01k7tw6vrkda5hp5070ra2wqm6",
+              "summary": "Speculative fiction often borrows from obscure or surprising bits of real history to deepen its worlds. Examples include gods as sacred stones, powerful harem-born women acting as kingmakers, and naming or guest-host customs drawn from ancient cultures. These echoes help readers learn about and empathize with past societies.",
+              "whyRead": "SFF als poort naar vergeten geschiedenis – vijf concrete aanbevelingen.",
+              "bestMoment": "ontspannen",
+              "tags": [
+                "fiction",
+                "history",
+                "learning & meta-learning"
+              ],
+              "alsoIn": []
+            },
+            {
+              "position": 16,
+              "id": "01kj5a1mnca55881qyj3jzm64b",
+              "title": "The Library of Lost Maps",
+              "author": "Brian Klaas",
+              "siteName": "Substack",
+              "category": "email",
+              "language": "Engels",
+              "readingTime": "12 mins",
+              "wordCount": 3173,
+              "publishedDate": "2026-02-23",
+              "savedDate": "2026-02-23T13:12:01.453000+00:00",
+              "imageUrl": null,
+              "sourceUrl": "mailto:reader-forwarded-email/84248342d72fa7fe1506384944ae8894",
+              "readwiseUrl": "https://read.readwise.io/read/01kj5a1mnca55881qyj3jzm64b",
+              "summary": "UCL’s hidden Map Library holds rich, fading treasures that James Cheshire seeks to save.  \nMaps are not neutral; they reflect power, beliefs, and shape what we value and see.  \nToday Google Maps dominates, pushing roads, speed, and sameness; old maps urge doubt and exploration.",
+              "whyRead": "Raakt je interesse in geografie en kartografie — Brian Klaas over de UCL-kaartbibliotheek als venster op hoe kaarten wereldbeelden belichamen.",
+              "bestMoment": "ontspannen",
+              "tags": [
+                "arts & culture",
+                "history",
+                "political philosophy"
+              ],
+              "alsoIn": []
+            },
+            {
+              "position": 17,
+              "id": "01kz84cd6qp18k7dfpv9b4khjc",
+              "title": "⦿ Roden: 116 — Oooohhh Summer, How Much Risk Is a Useful Amount of Risk?",
+              "author": "Craig Mod's Delivery Service",
+              "siteName": null,
+              "category": "email",
+              "language": "Engels",
+              "readingTime": "19 mins",
+              "wordCount": 4776,
+              "publishedDate": "2026-08-04",
+              "savedDate": "2026-08-05T04:54:49.815000+00:00",
+              "imageUrl": null,
+              "sourceUrl": "mailto:reader-forwarded-email/0ad5f84f081956389b1232f3f0836302",
+              "readwiseUrl": "https://read.readwise.io/read/01kz84cd6qp18k7dfpv9b4khjc",
+              "summary": "There is sweat and then there is s-w-e-a-t and the out-of-doorsness in Japan is presently a natural machine that produces nothing but sweat and sweat and sweat and swelter.",
+              "whyRead": "Een essayistische vergelijking van Tokio en New York die raakt aan sociologie, stedelijke cultuur en AI: hoe regels, risico en publieke ruimte bepalen of een stad menselijk en levendig voelt.",
+              "bestMoment": "ontspannen",
+              "tags": [
+                "ai ethics & society",
+                "arts & culture",
+                "sociology & social structures"
+              ],
+              "alsoIn": []
+            },
+            {
+              "position": 18,
+              "id": "01kf916mwdxkdydep3wwes334d",
+              "title": "Alessandro Manzoni’s “The Betrothed,” Reconsidered | The New Yorker",
+              "author": "Joan Acocella",
+              "siteName": "The New Yorker",
+              "category": "article",
+              "language": "Engels",
+              "readingTime": "19 mins",
+              "wordCount": 4789,
+              "publishedDate": "2022-10-10",
+              "savedDate": "2026-01-18T17:07:20.590000+00:00",
+              "imageUrl": "https://media.newyorker.com/photos/633f84375e6bb9fc7842c4c3/16:9/w_1280,c_limit/221017_r41186.jpg",
+              "sourceUrl": "https://www.newyorker.com/magazine/2022/10/17/italys-great-historical-novel?utm_source=substack&utm_medium=email",
+              "readwiseUrl": "https://read.readwise.io/read/01kf916mwdxkdydep3wwes334d",
+              "summary": "A new translation of Manzoni’s The Betrothed shows the lasting power of the big 19th-century historical novel. It follows Renzo and Lucia through oppression, famine, riots, and plague, blending long digressions with vivid, moving scenes and a hopeful end. The book shaped Italian identity and language and merits fresh global attention.",
+              "whyRead": "Raakt je interesse in Europese cultuurgeschiedenis en literatuur — Joan Acocella (New Yorker) over Manzoni's I Promessi Sposi als fundament van de Italiaanse natie.",
+              "bestMoment": "ontspannen",
+              "tags": [
+                "arts & culture",
+                "history",
+                "political philosophy"
+              ],
+              "alsoIn": []
+            },
+            {
+              "position": 19,
+              "id": "01jkxyd6vfh2jexjbtgjr59px7",
+              "title": "How to live without your phone",
+              "author": "Sam Kriss",
+              "siteName": "substack.com",
+              "category": "article",
+              "language": "Engels",
+              "readingTime": "24 mins",
+              "wordCount": 6314,
+              "publishedDate": null,
+              "savedDate": "2025-02-12T20:43:01.530000+00:00",
+              "imageUrl": "https://substackcdn.com/image/fetch/w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1d054189-34ed-49db-b599-db25cb9c20bc_1280x1188.jpeg",
+              "sourceUrl": "https://samkriss.substack.com/p/how-to-live-without-your-phone?r=1r0y5d&utm_medium=ios&triedRedirect=true",
+              "readwiseUrl": "https://read.readwise.io/read/01jkxyd6vfh2jexjbtgjr59px7",
+              "summary": "The author reflects on the impact of living without a smartphone for forty days. They highlight the role of smartphones in muting anxieties and the struggle to break the habit of constantly checking the phone. Despite challenges, the experience led to increased reading and a realization of the pervasive phone use in society.",
+              "whyRead": "Sam Kriss' literaire verslag van 40 dagen zonder smartphone — scherpe culturele kritiek die verder gaat dan de gebruikelijke how-to.",
+              "bestMoment": "ontspannen",
+              "tags": [
+                "learning & meta-learning",
+                "programming & software",
+                "sociology & inequality"
+              ],
+              "alsoIn": []
+            },
+            {
+              "position": 20,
+              "id": "01krnyr9cxy0rhqzt148zy5p99",
+              "title": "Good conversations have lots of doorknobs",
+              "author": "Adam Mastroianni",
+              "siteName": "experimental-history.com",
+              "category": "article",
+              "language": "Engels",
+              "readingTime": "6 mins",
+              "wordCount": 1551,
+              "publishedDate": "2022-02-23",
+              "savedDate": "2026-05-15T13:55:56.878000+00:00",
+              "imageUrl": "https://substackcdn.com/image/fetch/$s_!49hf!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fb787cd30-e319-48b3-baee-2c44909674c1_1688x1178.jpeg",
+              "sourceUrl": "https://www.experimental-history.com/p/good-conversations-have-lots-of-doorknobs?r=1r0y5d&utm_medium=ios&triedRedirect=true",
+              "readwiseUrl": "https://read.readwise.io/read/01krnyr9cxy0rhqzt148zy5p99",
+              "summary": "Or \"Spiderman Is My Boyfriend\"",
+              "whyRead": "Raakt je interesse in behavioral psychology, sociologie en essayistische stijl: Mastroianni maakt conversatievaardigheid concreet via improvisatie en het idee van affordances. Shortlistwaardig door de combinatie van humor, onderzoek en een bruikbaar sociaal model.",
+              "bestMoment": "ontspannen",
+              "tags": [
+                "behavioral psychology & coaching",
+                "personal growth & life philosophy",
+                "sociology & social structures"
+              ],
+              "alsoIn": []
+            },
+            {
+              "position": 21,
+              "id": "01jvczv0xt002cjqyry0966s20",
+              "title": "📚 Reading Roundup: Chunky Books",
+              "author": "Eleanor Konik",
+              "siteName": "Obsidian Iceberg",
+              "category": "article",
+              "language": null,
+              "readingTime": "6 mins",
+              "wordCount": 1458,
+              "publishedDate": "2025-05-16",
+              "savedDate": "2025-05-16T16:46:32.305000+00:00",
+              "imageUrl": "https://substackcdn.com/image/fetch/w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F51b6d059-55ba-4dde-a183-f52948902648_1792x1024.webp",
+              "sourceUrl": "https://www.eleanorkonik.com/p/reading-roundup-chunky-books?r=1r0y5d&utm_medium=ios&triedRedirect=true",
+              "readwiseUrl": "https://read.readwise.io/read/01jvczv0xt002cjqyry0966s20",
+              "summary": "Eleanor Konik shares her recent reading experiences in a semi-annual roundup, highlighting both fiction and non-fiction books. She discusses her varied tastes and offers recommendations, including \"Overkill\" by Paul A. Offit and \"The Invisible Library\" series by Genevieve Cogman. Konik also notes some books she didn’t enjoy as much, emphasizing the importance of personal preferences in reading.",
+              "whyRead": "Raakt je interesse in fantasy — persoonlijke mini-recensies met oog voor thema's en schrijfkwaliteit, niet alleen plot.",
+              "bestMoment": "ontspannen",
+              "tags": [
+                "arts & culture",
+                "fiction",
+                "learning & meta-learning"
+              ],
+              "alsoIn": []
+            },
+            {
+              "position": 22,
+              "id": "01kcfca0wrxztgk2sqe31khzbr",
+              "title": "Now Watch Me Read | The New Yorker",
+              "author": "Brady Brickner-Wood",
+              "siteName": "The New Yorker",
+              "category": "article",
+              "language": "Engels",
+              "readingTime": "8 mins",
+              "wordCount": 2014,
+              "publishedDate": "2025-12-02",
+              "savedDate": "2025-12-14T21:29:46.649000+00:00",
+              "imageUrl": "https://media.newyorker.com/photos/69273519f982d57f3b61c362/16:9/w_1280,c_limit/performative%20reading.png",
+              "sourceUrl": "https://www.newyorker.com/culture/the-lede/performative-reading",
+              "readwiseUrl": "https://read.readwise.io/read/01kcfca0wrxztgk2sqe31khzbr",
+              "summary": "Online “performative reading” is when people use books as props to signal intelligence or attract attention. Social media turns sincere acts into staged performances, making real reading seem suspect. This trend reflects deeper worries about declining attention, authenticity, and the loss of slow, serious reading.",
+              "whyRead": "Raakt je interesse in cultuur en sociologie — The New Yorker over 'performatief lezen': boeken zichtbaar bij zich dragen als identiteitssignaal.",
+              "bestMoment": "ontspannen",
+              "tags": [
+                "arts & culture",
+                "learning & meta-learning",
+                "sociology & inequality"
+              ],
+              "alsoIn": []
+            },
+            {
+              "position": 23,
+              "id": "01kmbp17grppjmpxqfsq4z3zy7",
+              "title": "Sucker",
+              "author": "McKay Coppins",
+              "siteName": "The Atlantic",
+              "category": "article",
+              "language": null,
+              "readingTime": "52 mins",
+              "wordCount": 13697,
+              "publishedDate": "2026-03-12",
+              "savedDate": "2026-03-22T21:08:21.145000+00:00",
+              "imageUrl": "https://cdn.theatlantic.com/thumbor/3FLysCzT5TUxxftKuq7fC50kN8U=/638x0:2557x2399/648x810/media/img/2026/03/04/Atlantic_Gambling_Final_01_WEBHP/original.png",
+              "sourceUrl": "https://theatlantic.com/magazine/2026/04/online-sports-betting-app-addiction/686061/",
+              "readwiseUrl": "https://read.readwise.io/read/01kmbp17grppjmpxqfsq4z3zy7",
+              "summary": "The writer starts casually betting on sports and soon becomes deeply caught up in gambling apps and parlays. His habit begins to affect his family, his sleep, and his kids’ understanding of money and sports. He ends with big losses and warns that widespread sports betting harms people and threatens the integrity of games and society.",
+              "whyRead": "Raakt je interesse in sociologie en actuele maatschappij — een ongewoon eerlijk first-person journalistiek experiment over hoe de sportweddindustrie mensen verleidt en verslaaft.",
+              "bestMoment": "ontspannen",
+              "tags": [
+                "current affairs & politics",
+                "economics",
+                "sociology & inequality"
+              ],
+              "alsoIn": []
+            },
+            {
+              "position": 24,
+              "id": "01k7twangrpxzxxt4v2pwf34n5",
+              "title": "Fearful Folklore: The Rake, and Why Monsters Take Certain Shapes",
+              "author": "Ghost Horses Writing Page",
+              "siteName": "Ghost Horses Writing",
+              "category": "article",
+              "language": "Engels",
+              "readingTime": "14 mins",
+              "wordCount": 3464,
+              "publishedDate": "2025-08-22",
+              "savedDate": "2025-10-18T05:22:54.617000+00:00",
+              "imageUrl": "https://substackcdn.com/image/fetch/$s_!iepM!,w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F06b3aeb0-14f2-4f92-a4fb-c2d60af7d62b_720x540.webp",
+              "sourceUrl": "https://ghosthorseswriting.substack.com/p/fearful-folklore-the-rake-and-why",
+              "readwiseUrl": "https://read.readwise.io/read/01k7twangrpxzxxt4v2pwf34n5",
+              "summary": "The Rake is an internet-born creepypasta about a spindly, eerie creature. Many modern monsters look emaciated and expressionless because those traits tap deep fears like famine and unreadable intent. The Rake shows how digital folklore recycles these shared monster shapes.",
+              "whyRead": "Over The Rake en waarom internetfolklore de vorm aanneemt die het doet – scherpe cultuuranalyse.",
+              "bestMoment": "ontspannen",
+              "tags": [
+                "arts & culture",
+                "internet & platforms"
+              ],
+              "alsoIn": []
+            },
+            {
+              "position": 25,
+              "id": "01kaen0f4sd6p0wsrv0fw7320f",
+              "title": "🌲 The Best \"Gamified X\" App is a GAME",
+              "author": "Eleanor Konik",
+              "siteName": "Manuscriptions",
+              "category": "rss",
+              "language": "Engels",
+              "readingTime": "7 mins",
+              "wordCount": 1770,
+              "publishedDate": "2025-11-19",
+              "savedDate": "2025-11-19T18:11:09.666000+00:00",
+              "imageUrl": "https://substack-post-media.s3.amazonaws.com/public/images/c6bf58b3-76e8-4dbe-a5af-c296d047d6a1_1344x896.png",
+              "sourceUrl": "https://www.eleanorkonik.com/p/the-best-gamified-x-app-is-a-game",
+              "readwiseUrl": "https://read.readwise.io/read/01kaen0f4sd6p0wsrv0fw7320f",
+              "summary": "Real games work better than “gamified” apps for learning and habits.  \nPokémon Go gets her walking, exploring, and meeting people, with handy maps and quick, fun rewards.  \nIt boosts her energy and output more than tracking apps, so she calls it her top productivity app.",
+              "whyRead": "Konik's essay over Pokémon Go als bewegingsinstrument biedt een interessante gedragspsychologische lens op gamification en motivatie.",
+              "bestMoment": "ontspannen",
+              "tags": [
+                "games & game studies",
+                "health & wellness",
+                "psychology & behavior"
+              ],
+              "alsoIn": []
+            },
+            {
+              "position": 26,
+              "id": "01krkc3v2q8zmh2h2qpsw9prxw",
+              "title": "📗 Harpers Ferry during the Civil War",
+              "author": "Eleanor Konik",
+              "siteName": "Substack",
+              "category": "email",
+              "language": "Engels",
+              "readingTime": "14 mins",
+              "wordCount": 3676,
+              "publishedDate": "2026-05-14",
+              "savedDate": "2026-05-14T13:51:43.703000+00:00",
+              "imageUrl": null,
+              "sourceUrl": "mailto:reader-forwarded-email/9382113117945f3213e13c76f95aafc2",
+              "readwiseUrl": "https://read.readwise.io/read/01krkc3v2q8zmh2h2qpsw9prxw",
+              "summary": "A lot of Civil War books I’ve seen around are about a leader, a battle, or a regiment. I picked up Chester G.",
+              "whyRead": "Levendige boekreview over Harpers Ferry tijdens de Amerikaanse Burgeroorlog, met sterke aandacht voor plaats, infrastructuur en de menselijke details van oorlog. Interessant als geografisch-historische case, maar minder kernachtig voor je voorkeur voor West-Europese geschiedenis.",
+              "bestMoment": "ontspannen",
+              "tags": [
+                "arts & culture",
+                "geography & maps",
+                "history"
+              ],
+              "alsoIn": []
+            },
+            {
+              "position": 27,
+              "id": "01kqfrh21ph0xe1wbqw4y4zwsf",
+              "title": "🥘 The Konik Method for Making Delicious Food",
+              "author": "Eleanor Konik",
+              "siteName": "Manuscriptions",
+              "category": "rss",
+              "language": "Engels",
+              "readingTime": "12 mins",
+              "wordCount": 2920,
+              "publishedDate": "2026-04-30",
+              "savedDate": "2026-04-30T17:55:57.183000+00:00",
+              "imageUrl": "https://substackcdn.com/image/fetch/$s_!AwmB!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb19c9a10-24e5-43b5-b83c-5fc0710e655c_1264x848.jpeg",
+              "sourceUrl": "https://www.eleanorkonik.com/p/the-konik-method-for-making-delicious",
+              "readwiseUrl": "https://read.readwise.io/read/01kqfrh21ph0xe1wbqw4y4zwsf",
+              "summary": "Five recipes I cook pretty regularly, that don’t stress me out, that are reasonably healthy and maximally efficient. Also, tasty!",
+              "whyRead": "Raakt je interesse in food & cooking als systeem in plaats van prestatie. De meerwaarde zit in Koniks nuchtere anti-receptenfilosofie: minder perfectie, meer variatie en meer zelfvertrouwen in de keuken.",
+              "bestMoment": "ontspannen",
+              "tags": [
+                "food & cooking",
+                "health & wellness"
+              ],
+              "alsoIn": []
+            },
+            {
+              "position": 28,
+              "id": "01kvyswh8ggabb27phjks81a5f",
+              "title": "Escaping Flatland meetups summer 2026: times and places",
+              "author": "Henrik Karlsson",
+              "siteName": "Substack",
+              "category": "email",
+              "language": null,
+              "readingTime": "5 mins",
+              "wordCount": 1090,
+              "publishedDate": "2026-06-25",
+              "savedDate": "2026-06-25T07:11:08.561000+00:00",
+              "imageUrl": null,
+              "sourceUrl": "mailto:reader-forwarded-email/f9f3d9bae23b8a7b31d6e0bb82ee37ae",
+              "readwiseUrl": "https://read.readwise.io/read/01kvyswh8ggabb27phjks81a5f",
+              "summary": "There has been a flurry of activity in the chat over the last two months, and we now have meetups arranged in 46 cities in 22 countries!",
+              "whyRead": "Praktische aankondiging van Escaping Flatland-meetups, inclusief Amsterdam op 2026-07-11.",
+              "bestMoment": "ontspannen",
+              "tags": [
+                "learning & meta-learning",
+                "personal growth & life philosophy"
+              ],
+              "alsoIn": []
+            },
+            {
+              "position": 29,
+              "id": "01kz4ncpay31e5wvhykxyg66kj",
+              "title": "An Uncomplicated Man",
+              "author": "Emily Wilson",
+              "siteName": "London Review of Books",
+              "category": "article",
+              "language": null,
+              "readingTime": "16 mins",
+              "wordCount": 4163,
+              "publishedDate": "2026-07-27",
+              "savedDate": "2026-08-03T20:35:07.231000+00:00",
+              "imageUrl": "https://www.lrb.co.uk/storage/social_image/images/1/2/1/4/31104121-1-eng-GB/db43a83754bf-The-Odyssey-Damon-Zendaya.jpg",
+              "sourceUrl": "https://lrb.co.uk/the-paper/v48/n14/emily-wilson/an-uncomplicated-man/",
+              "readwiseUrl": "https://read.readwise.io/read/01kz4ncpay31e5wvhykxyg66kj",
+              "summary": "As they say at the awards shows, I was humbled to learn that Christopher Nolan has read at least the first line of my...",
+              "whyRead": "Raakt je interesse in kunst & cultuur — een scherpe recensie van Emily Wilson (vertaler van de Odyssee) over Nolans verfilming, die de spanning tussen spektakel en de morele complexiteit van het origineel blootlegt.",
+              "bestMoment": "ontspannen",
+              "tags": [
+                "arts & culture"
+              ],
+              "alsoIn": []
+            },
+            {
+              "position": 30,
+              "id": "01kz8zwnxp6tqjavp4bcdvgq9p",
+              "title": "He Sold 55 Million Books, but His Government Wouldn’t Let Him Publish",
+              "author": "Miller’s Book Review 📚",
+              "siteName": "Substack",
+              "category": "email",
+              "language": null,
+              "readingTime": "6 mins",
+              "wordCount": 1426,
+              "publishedDate": "2026-08-05",
+              "savedDate": "2026-08-05T12:55:34.583000+00:00",
+              "imageUrl": null,
+              "sourceUrl": "mailto:reader-forwarded-email/aa0c7f622ce2fce99476bba1bec06c8a",
+              "readwiseUrl": "https://read.readwise.io/read/01kz8zwnxp6tqjavp4bcdvgq9p",
+              "summary": "By the time he died in 1981, Seishi Yokomizo had sold over 55 million copies of his detective novels.",
+              "whyRead": "Raakt je interesse in literatuur als cultuurvorm en ideeëngeschiedenis: een levendig portret van hoe Japanse detectivefictie onder oorlogscensuur werd onderdrukt en daarna een eigen vorm vond.",
+              "bestMoment": "ontspannen",
+              "tags": [
+                "arts & culture",
+                "fiction",
+                "history",
+                "later"
+              ],
+              "alsoIn": []
+            },
+            {
+              "position": 31,
+              "id": "01kz9c349w1qjetrtf2m7v9ttr",
+              "title": "Every book I read in July",
+              "author": "Sam @ Knowledge Lust",
+              "siteName": "Substack",
+              "category": "email",
+              "language": null,
+              "readingTime": "6 mins",
+              "wordCount": 1548,
+              "publishedDate": "2026-08-05",
+              "savedDate": "2026-08-05T16:28:48.828000+00:00",
+              "imageUrl": null,
+              "sourceUrl": "mailto:reader-forwarded-email/5a7f516f42d245acdb56323a03950bb4",
+              "readwiseUrl": "https://read.readwise.io/read/01kz9c349w1qjetrtf2m7v9ttr",
+              "summary": "For example, I read a contemporary novel satirizing the tradwife movement, as well as a non-fiction book critiquing the techno-capitalist modernity that makes some aspects of a traditional living movement seem like a no-brainer—move to the mountains, throw away the TV, anything to escape machine culture!",
+              "whyRead": "Raakt je interesse in fictie en cultuurkritiek: een essayistisch maandoverzicht met vier boeken over abortion-ethiek, klassenongelijkheid, techno-kapitalisme en de tradwife-cultuur, met persoonlijke reflecties op elk.",
+              "bestMoment": "ontspannen",
+              "tags": [
+                "",
+                "arts & culture",
+                "fiction",
+                "later"
+              ],
+              "alsoIn": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "luchtig-nederlands",
+      "label": "Luchtig & NL",
+      "sequence": "luchtig-nederlands",
+      "lists": {
+        "top-10": {
+          "tag": "aaa-luchtig-nederlands-top-10",
+          "items": [
+            {
+              "position": 1,
+              "id": "01j28vsd63175zdak33c46ccey",
+              "title": "De druiven der gramschap",
+              "author": "Steinbeck",
+              "siteName": "readwise.io",
+              "category": "epub",
+              "language": "Nederlands",
+              "readingTime": "11 hrs 58 mins",
+              "wordCount": 190234,
+              "publishedDate": null,
+              "savedDate": "2024-07-08T09:46:21.777000+00:00",
+              "imageUrl": "https://readwise-assets.s3.amazonaws.com/media/reader/parsed_document_assets/192314626/oAHh-vw27xfzCzoi9ir8A7Opr9d1DHcYe2KNGzGFFnw-cover-cover.jpeg",
+              "sourceUrl": "private://read/01j28vsd63175zdak33c46ccey",
+              "readwiseUrl": "https://read.readwise.io/read/01j28vsd63175zdak33c46ccey",
+              "summary": "In het gouden namiddaglicht bespreken de Joads hun reis en hun zorgen. Tom merkt op dat zijn moeder moe is en vraagt om hulp. De familie bereidt zich voor om naar oom John te gaan, terwijl ze hopen op een betere toekomst.",
+              "whyRead": "Raakt je interesse in fictie en sociale geschiedenis; De druiven der gramschap is een literair monument over armoede, migratie en menselijke veerkracht in Amerika's Grote Depressie.",
+              "bestMoment": "ontspannen",
+              "tags": [
+                "fiction",
+                "history"
+              ],
+              "alsoIn": [
+                "aaa-luchtig-top-10",
+                "aaa-luchtig-top-100",
+                "aaa-luchtig-nederlands-top-100"
+              ]
+            },
+            {
+              "position": 2,
+              "id": "01j28vk8x6dvbnv05fex4z13dz",
+              "title": "Het drielichamenprobleem",
+              "author": "Cixin Liu",
+              "siteName": "readwise.io",
+              "category": "epub",
+              "language": "Nederlands",
+              "readingTime": "7 hrs 41 mins",
+              "wordCount": 121948,
+              "publishedDate": "2020-10-16",
+              "savedDate": "2024-07-08T09:43:00.797000+00:00",
+              "imageUrl": "https://readwise-assets.s3.amazonaws.com/media/reader/parsed_document_assets/192314173/NulSUcoOrKZAv9p14JoCaKW51boGQarT980bUIeV-ok-co_owv8SRv.xhtml",
+              "sourceUrl": "private://read/01j28vk8x6dvbnv05fex4z13dz",
+              "readwiseUrl": "https://read.readwise.io/read/01j28vk8x6dvbnv05fex4z13dz",
+              "summary": "In \"Het drielichamenprobleem\" hebben de personages gesprekken over de uitdagingen van beschaving en kennis. Wang herinnert zich de vernietiging van twee beschavingen door extreme kou en hitte. De auteur benadrukt het belang van langetermijndenken en begrip om strategische blinde vlekken te vermijden.",
+              "whyRead": "Raakt je interesse in sciencefiction; dit Chinese SF-meesterwerk combineert kwantumfysica, de Culturele Revolutie en first-contact-thema's tot een ambitieuze roman.",
+              "bestMoment": "ontspannen",
+              "tags": [
+                "fiction",
+                "popular science"
+              ],
+              "alsoIn": [
+                "aaa-luchtig-top-10",
+                "aaa-luchtig-top-100",
+                "aaa-luchtig-nederlands-top-100"
+              ]
+            },
+            {
+              "position": 3,
+              "id": "01j28vk7ysb2em2twbr7zmfv0b",
+              "title": "Een kleine geschiedenis van bijna alles",
+              "author": "Bill Bryson",
+              "siteName": "readwise.io",
+              "category": "epub",
+              "language": "Nederlands",
+              "readingTime": "12 hrs 53 mins",
+              "wordCount": 204761,
+              "publishedDate": "2016-11-22",
+              "savedDate": "2024-07-08T09:42:59.814000+00:00",
+              "imageUrl": "",
+              "sourceUrl": "private://read/01j28vk7ysb2em2twbr7zmfv0b",
+              "readwiseUrl": "https://read.readwise.io/read/01j28vk7ysb2em2twbr7zmfv0b",
+              "summary": "The text discusses questions about the Earth's core, the vastness of the universe, and the lifespan of atoms. It highlights the rarity of life in the universe and the interconnectedness of all living things. The author also touches on historical scientific discoveries and the mysteries that remain unsolved.",
+              "whyRead": "Raakt je interesse in wetenschap en cultuurgeschiedenis; Bryson beschrijft de hele wetenschapsgeschiedenis met humor en verwondering, van atomen tot menselijke evolutie.",
+              "bestMoment": "ontspannen",
+              "tags": [
+                "personal growth & life philosophy",
+                "popular science",
+                "writing & essays"
+              ],
+              "alsoIn": [
+                "aaa-luchtig-top-10",
+                "aaa-luchtig-top-100",
+                "aaa-luchtig-nederlands-top-100"
+              ]
+            },
+            {
+              "position": 4,
+              "id": "01kwkpvx062dytw4zfh294psvb",
+              "title": "Heilige plekken dichtbij: Der Herrgott van Bentheim",
+              "author": "De Ongelooflijke",
+              "siteName": "Substack",
+              "category": "email",
+              "language": "Nederlands",
+              "readingTime": "17 mins",
+              "wordCount": 4420,
+              "publishedDate": "2026-07-03",
+              "savedDate": "2026-07-03T10:02:25.159000+00:00",
+              "imageUrl": null,
+              "sourceUrl": "mailto:reader-forwarded-email/e67d6e50411cb74f596daf74d736e27f",
+              "readwiseUrl": "https://read.readwise.io/read/01kwkpvx062dytw4zfh294psvb",
+              "summary": "Pelgrimeren is populair – Santiago de Compostela ontving in 2025 meer gasten dan ooit. Maar niet iedereen heeft het geld, de tijd en het lijf om de huisdeur achter zich dicht te trekken en te gaan.",
+              "whyRead": "Nederlandstalige longread met duidelijke stem, religiegeschiedenis, Twents landschap en cultuurgeschiedenis; precies het soort essay waarin plek, verhaal en idee elkaar dragen. De meerwaarde zit in de combinatie van pelgrimage, middeleeuwse geschiedenis, lokale geografie en reflectieve toon.",
+              "bestMoment": "ontspannen",
+              "tags": [
+                "arts & culture",
+                "history",
+                "personal growth & life philosophy"
+              ],
+              "alsoIn": [
+                "aaa-luchtig-top-100",
+                "aaa-luchtig-nederlands-top-100"
+              ]
+            },
+            {
+              "position": 5,
+              "id": "01ktv2sxayxrqj6yzvyhjes6tf",
+              "title": "Leeslijst mei 2026",
+              "author": "Kauthar",
+              "siteName": "Substack",
+              "category": "email",
+              "language": "Nederlands",
+              "readingTime": "7 mins",
+              "wordCount": 1651,
+              "publishedDate": "2026-06-11",
+              "savedDate": "2026-06-11T10:14:20.254000+00:00",
+              "imageUrl": null,
+              "sourceUrl": "mailto:reader-forwarded-email/a0c00dcc2081fdba85fa1cc1b61f0134",
+              "readwiseUrl": "https://read.readwise.io/read/01ktv2sxayxrqj6yzvyhjes6tf",
+              "summary": "Lieke Marsman, schrijver, dichter, denker. Op 3 juni 2026 kwam de dood haar halen, maar haar woorden zullen altijd blijven.",
+              "whyRead": "Raakt literatuur, Nederlandse cultuur, politieke rechtvaardigheid en moederschap: deze leeslijst is geen droge boekenopsomming, maar een persoonlijk-culturele route langs dood, verzet, sociale rechtvaardigheid en de politiek van ouderschap. Vooral waardevol door de stem en de korte oordelen bij elk boek.",
+              "bestMoment": "ontspannen",
+              "tags": [
+                "arts & culture",
+                "fiction",
+                "sociology & social structures"
+              ],
+              "alsoIn": [
+                "aaa-luchtig-top-100",
+                "aaa-luchtig-nederlands-top-100"
+              ]
+            }
+          ]
+        },
+        "top-100": {
+          "tag": "aaa-luchtig-nederlands-top-100",
+          "items": [
+            {
+              "position": 1,
+              "id": "01j28vsd63175zdak33c46ccey",
+              "title": "De druiven der gramschap",
+              "author": "Steinbeck",
+              "siteName": "readwise.io",
+              "category": "epub",
+              "language": "Nederlands",
+              "readingTime": "11 hrs 58 mins",
+              "wordCount": 190234,
+              "publishedDate": null,
+              "savedDate": "2024-07-08T09:46:21.777000+00:00",
+              "imageUrl": "https://readwise-assets.s3.amazonaws.com/media/reader/parsed_document_assets/192314626/oAHh-vw27xfzCzoi9ir8A7Opr9d1DHcYe2KNGzGFFnw-cover-cover.jpeg",
+              "sourceUrl": "private://read/01j28vsd63175zdak33c46ccey",
+              "readwiseUrl": "https://read.readwise.io/read/01j28vsd63175zdak33c46ccey",
+              "summary": "In het gouden namiddaglicht bespreken de Joads hun reis en hun zorgen. Tom merkt op dat zijn moeder moe is en vraagt om hulp. De familie bereidt zich voor om naar oom John te gaan, terwijl ze hopen op een betere toekomst.",
+              "whyRead": "Raakt je interesse in fictie en sociale geschiedenis; De druiven der gramschap is een literair monument over armoede, migratie en menselijke veerkracht in Amerika's Grote Depressie.",
+              "bestMoment": "ontspannen",
+              "tags": [
+                "fiction",
+                "history"
+              ],
+              "alsoIn": [
+                "aaa-luchtig-top-10",
+                "aaa-luchtig-top-100",
+                "aaa-luchtig-nederlands-top-10"
+              ]
+            },
+            {
+              "position": 2,
+              "id": "01j28vk8x6dvbnv05fex4z13dz",
+              "title": "Het drielichamenprobleem",
+              "author": "Cixin Liu",
+              "siteName": "readwise.io",
+              "category": "epub",
+              "language": "Nederlands",
+              "readingTime": "7 hrs 41 mins",
+              "wordCount": 121948,
+              "publishedDate": "2020-10-16",
+              "savedDate": "2024-07-08T09:43:00.797000+00:00",
+              "imageUrl": "https://readwise-assets.s3.amazonaws.com/media/reader/parsed_document_assets/192314173/NulSUcoOrKZAv9p14JoCaKW51boGQarT980bUIeV-ok-co_owv8SRv.xhtml",
+              "sourceUrl": "private://read/01j28vk8x6dvbnv05fex4z13dz",
+              "readwiseUrl": "https://read.readwise.io/read/01j28vk8x6dvbnv05fex4z13dz",
+              "summary": "In \"Het drielichamenprobleem\" hebben de personages gesprekken over de uitdagingen van beschaving en kennis. Wang herinnert zich de vernietiging van twee beschavingen door extreme kou en hitte. De auteur benadrukt het belang van langetermijndenken en begrip om strategische blinde vlekken te vermijden.",
+              "whyRead": "Raakt je interesse in sciencefiction; dit Chinese SF-meesterwerk combineert kwantumfysica, de Culturele Revolutie en first-contact-thema's tot een ambitieuze roman.",
+              "bestMoment": "ontspannen",
+              "tags": [
+                "fiction",
+                "popular science"
+              ],
+              "alsoIn": [
+                "aaa-luchtig-top-10",
+                "aaa-luchtig-top-100",
+                "aaa-luchtig-nederlands-top-10"
+              ]
+            },
+            {
+              "position": 3,
+              "id": "01j28vk7ysb2em2twbr7zmfv0b",
+              "title": "Een kleine geschiedenis van bijna alles",
+              "author": "Bill Bryson",
+              "siteName": "readwise.io",
+              "category": "epub",
+              "language": "Nederlands",
+              "readingTime": "12 hrs 53 mins",
+              "wordCount": 204761,
+              "publishedDate": "2016-11-22",
+              "savedDate": "2024-07-08T09:42:59.814000+00:00",
+              "imageUrl": "",
+              "sourceUrl": "private://read/01j28vk7ysb2em2twbr7zmfv0b",
+              "readwiseUrl": "https://read.readwise.io/read/01j28vk7ysb2em2twbr7zmfv0b",
+              "summary": "The text discusses questions about the Earth's core, the vastness of the universe, and the lifespan of atoms. It highlights the rarity of life in the universe and the interconnectedness of all living things. The author also touches on historical scientific discoveries and the mysteries that remain unsolved.",
+              "whyRead": "Raakt je interesse in wetenschap en cultuurgeschiedenis; Bryson beschrijft de hele wetenschapsgeschiedenis met humor en verwondering, van atomen tot menselijke evolutie.",
+              "bestMoment": "ontspannen",
+              "tags": [
+                "personal growth & life philosophy",
+                "popular science",
+                "writing & essays"
+              ],
+              "alsoIn": [
+                "aaa-luchtig-top-10",
+                "aaa-luchtig-top-100",
+                "aaa-luchtig-nederlands-top-10"
+              ]
+            },
+            {
+              "position": 4,
+              "id": "01kwkpvx062dytw4zfh294psvb",
+              "title": "Heilige plekken dichtbij: Der Herrgott van Bentheim",
+              "author": "De Ongelooflijke",
+              "siteName": "Substack",
+              "category": "email",
+              "language": "Nederlands",
+              "readingTime": "17 mins",
+              "wordCount": 4420,
+              "publishedDate": "2026-07-03",
+              "savedDate": "2026-07-03T10:02:25.159000+00:00",
+              "imageUrl": null,
+              "sourceUrl": "mailto:reader-forwarded-email/e67d6e50411cb74f596daf74d736e27f",
+              "readwiseUrl": "https://read.readwise.io/read/01kwkpvx062dytw4zfh294psvb",
+              "summary": "Pelgrimeren is populair – Santiago de Compostela ontving in 2025 meer gasten dan ooit. Maar niet iedereen heeft het geld, de tijd en het lijf om de huisdeur achter zich dicht te trekken en te gaan.",
+              "whyRead": "Nederlandstalige longread met duidelijke stem, religiegeschiedenis, Twents landschap en cultuurgeschiedenis; precies het soort essay waarin plek, verhaal en idee elkaar dragen. De meerwaarde zit in de combinatie van pelgrimage, middeleeuwse geschiedenis, lokale geografie en reflectieve toon.",
+              "bestMoment": "ontspannen",
+              "tags": [
+                "arts & culture",
+                "history",
+                "personal growth & life philosophy"
+              ],
+              "alsoIn": [
+                "aaa-luchtig-top-100",
+                "aaa-luchtig-nederlands-top-10"
+              ]
+            },
+            {
+              "position": 5,
+              "id": "01ktv2sxayxrqj6yzvyhjes6tf",
+              "title": "Leeslijst mei 2026",
+              "author": "Kauthar",
+              "siteName": "Substack",
+              "category": "email",
+              "language": "Nederlands",
+              "readingTime": "7 mins",
+              "wordCount": 1651,
+              "publishedDate": "2026-06-11",
+              "savedDate": "2026-06-11T10:14:20.254000+00:00",
+              "imageUrl": null,
+              "sourceUrl": "mailto:reader-forwarded-email/a0c00dcc2081fdba85fa1cc1b61f0134",
+              "readwiseUrl": "https://read.readwise.io/read/01ktv2sxayxrqj6yzvyhjes6tf",
+              "summary": "Lieke Marsman, schrijver, dichter, denker. Op 3 juni 2026 kwam de dood haar halen, maar haar woorden zullen altijd blijven.",
+              "whyRead": "Raakt literatuur, Nederlandse cultuur, politieke rechtvaardigheid en moederschap: deze leeslijst is geen droge boekenopsomming, maar een persoonlijk-culturele route langs dood, verzet, sociale rechtvaardigheid en de politiek van ouderschap. Vooral waardevol door de stem en de korte oordelen bij elk boek.",
+              "bestMoment": "ontspannen",
+              "tags": [
+                "arts & culture",
+                "fiction",
+                "sociology & social structures"
+              ],
+              "alsoIn": [
+                "aaa-luchtig-top-100",
+                "aaa-luchtig-nederlands-top-10"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
       "id": "boeken",
       "label": "Boeken",
       "sequence": "boek",
@@ -5267,11 +6659,14 @@ window.TOP_ARTICLES = {
               "bestMoment": "ontspannen",
               "tags": [
                 "fiction",
-                "history",
-                "luchtig-002",
-                "luchtig-nederlands-001"
+                "history"
               ],
-              "alsoIn": []
+              "alsoIn": [
+                "aaa-luchtig-top-10",
+                "aaa-luchtig-top-100",
+                "aaa-luchtig-nederlands-top-10",
+                "aaa-luchtig-nederlands-top-100"
+              ]
             },
             {
               "position": 28,
@@ -5293,11 +6688,14 @@ window.TOP_ARTICLES = {
               "bestMoment": "ontspannen",
               "tags": [
                 "fiction",
-                "luchtig-003",
-                "luchtig-nederlands-002",
                 "popular science"
               ],
-              "alsoIn": []
+              "alsoIn": [
+                "aaa-luchtig-top-10",
+                "aaa-luchtig-top-100",
+                "aaa-luchtig-nederlands-top-10",
+                "aaa-luchtig-nederlands-top-100"
+              ]
             },
             {
               "position": 29,
@@ -6145,11 +7543,13 @@ window.TOP_ARTICLES = {
               "whyRead": "Raakt je interesse in wetenschap en betekenis — Tim Urban schrijft essays die complex zijn en grappig tegelijk, met diepe conceptuele diepgang.",
               "bestMoment": "ontspannen",
               "tags": [
-                "luchtig-004",
                 "personal growth & life philosophy",
                 "popular science"
               ],
-              "alsoIn": []
+              "alsoIn": [
+                "aaa-luchtig-top-10",
+                "aaa-luchtig-top-100"
+              ]
             },
             {
               "position": 66,
@@ -6170,13 +7570,16 @@ window.TOP_ARTICLES = {
               "whyRead": "Raakt je interesse in wetenschap en cultuurgeschiedenis; Bryson beschrijft de hele wetenschapsgeschiedenis met humor en verwondering, van atomen tot menselijke evolutie.",
               "bestMoment": "ontspannen",
               "tags": [
-                "luchtig-005",
-                "luchtig-nederlands-003",
                 "personal growth & life philosophy",
                 "popular science",
                 "writing & essays"
               ],
-              "alsoIn": []
+              "alsoIn": [
+                "aaa-luchtig-top-10",
+                "aaa-luchtig-top-100",
+                "aaa-luchtig-nederlands-top-10",
+                "aaa-luchtig-nederlands-top-100"
+              ]
             },
             {
               "position": 67,
@@ -6713,10 +8116,12 @@ window.TOP_ARTICLES = {
               "tags": [
                 "ai ethics & society",
                 "business & work",
-                "luchtig-007",
                 "psychology & behavior"
               ],
-              "alsoIn": []
+              "alsoIn": [
+                "aaa-luchtig-top-10",
+                "aaa-luchtig-top-100"
+              ]
             },
             {
               "position": 90,
@@ -6839,11 +8244,13 @@ window.TOP_ARTICLES = {
               "bestMoment": "ontspannen",
               "tags": [
                 "business & work",
-                "luchtig-008",
                 "personal growth & life philosophy",
                 "psychology & behavior"
               ],
-              "alsoIn": []
+              "alsoIn": [
+                "aaa-luchtig-top-10",
+                "aaa-luchtig-top-100"
+              ]
             },
             {
               "position": 95,
@@ -6913,10 +8320,12 @@ window.TOP_ARTICLES = {
               "tags": [
                 "health & wellness",
                 "learning & meta-learning",
-                "luchtig-009",
                 "psychology & behavior"
               ],
-              "alsoIn": []
+              "alsoIn": [
+                "aaa-luchtig-top-10",
+                "aaa-luchtig-top-100"
+              ]
             },
             {
               "position": 98,
@@ -6964,10 +8373,12 @@ window.TOP_ARTICLES = {
               "tags": [
                 "cognitive science",
                 "health & wellness",
-                "luchtig-010",
                 "writing & essays"
               ],
-              "alsoIn": []
+              "alsoIn": [
+                "aaa-luchtig-top-10",
+                "aaa-luchtig-top-100"
+              ]
             },
             {
               "position": 100,
@@ -6990,10 +8401,11 @@ window.TOP_ARTICLES = {
               "tags": [
                 "cognitive science",
                 "learning & meta-learning",
-                "luchtig-011",
                 "personal growth & life philosophy"
               ],
-              "alsoIn": []
+              "alsoIn": [
+                "aaa-luchtig-top-100"
+              ]
             },
             {
               "position": 101,
