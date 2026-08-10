@@ -1,6 +1,6 @@
 // Automatisch gegenereerd door scripts/build-data.mjs — niet handmatig bewerken.
 window.TOP_ARTICLES = {
-  "generatedAt": "2026-08-09T06:51:21.443Z",
+  "generatedAt": "2026-08-10T07:26:05.341Z",
   "families": [
     {
       "id": "algemeen",
@@ -1014,34 +1014,6 @@ window.TOP_ARTICLES = {
                 "writing & essays"
               ],
               "alsoIn": []
-            },
-            {
-              "position": 29,
-              "id": "01k7tw5bkddg785tj8skgthh6q",
-              "title": "🌲Sensemaking Through Fiction",
-              "author": "Eleanor Konik",
-              "siteName": "Manuscriptions",
-              "category": "article",
-              "language": "Engels",
-              "readingTime": "1 min",
-              "wordCount": 81,
-              "publishedDate": "2022-04-21",
-              "savedDate": "2025-10-18T05:20:00.622000+00:00",
-              "imageUrl": "https://substackcdn.com/image/fetch/w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fdabffde2-b511-4c70-a36d-26b11c40107a_2000x3000.jpeg",
-              "sourceUrl": "https://www.eleanorkonik.com/p/sensemaking-through-fiction",
-              "readwiseUrl": "https://read.readwise.io/read/01k7tw5bkddg785tj8skgthh6q",
-              "summary": "Stories help people understand and share knowledge better. The author realized stories are made by people, not born out of nowhere. Her grandmother gave her a typewriter to help her learn useful skills.",
-              "whyRead": "Verhalen als epistemologisch gereedschap – hoe fictie echte kennis overdraagt.",
-              "bestMoment": "reflectief",
-              "tags": [
-                "arts & culture",
-                "learning & meta-learning",
-                "writing & essays"
-              ],
-              "alsoIn": [
-                "aaa-short-top-10",
-                "aaa-short-top-100"
-              ]
             },
             {
               "position": 30,
@@ -3541,34 +3513,6 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 4,
-              "id": "01k7tw5bkddg785tj8skgthh6q",
-              "title": "🌲Sensemaking Through Fiction",
-              "author": "Eleanor Konik",
-              "siteName": "Manuscriptions",
-              "category": "article",
-              "language": "Engels",
-              "readingTime": "1 min",
-              "wordCount": 81,
-              "publishedDate": "2022-04-21",
-              "savedDate": "2025-10-18T05:20:00.622000+00:00",
-              "imageUrl": "https://substackcdn.com/image/fetch/w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fdabffde2-b511-4c70-a36d-26b11c40107a_2000x3000.jpeg",
-              "sourceUrl": "https://www.eleanorkonik.com/p/sensemaking-through-fiction",
-              "readwiseUrl": "https://read.readwise.io/read/01k7tw5bkddg785tj8skgthh6q",
-              "summary": "Stories help people understand and share knowledge better. The author realized stories are made by people, not born out of nowhere. Her grandmother gave her a typewriter to help her learn useful skills.",
-              "whyRead": "Verhalen als epistemologisch gereedschap – hoe fictie echte kennis overdraagt.",
-              "bestMoment": "reflectief",
-              "tags": [
-                "arts & culture",
-                "learning & meta-learning",
-                "writing & essays"
-              ],
-              "alsoIn": [
-                "aaa-top-100",
-                "aaa-short-top-100"
-              ]
-            },
-            {
               "position": 5,
               "id": "01jjxdnzz04ees7fytca2rnntw",
               "title": "🎓 Maritime Empires",
@@ -3818,34 +3762,6 @@ window.TOP_ARTICLES = {
               "tags": [
                 "learning & meta-learning",
                 "philosophy",
-                "writing & essays"
-              ],
-              "alsoIn": [
-                "aaa-top-100",
-                "aaa-short-top-10"
-              ]
-            },
-            {
-              "position": 4,
-              "id": "01k7tw5bkddg785tj8skgthh6q",
-              "title": "🌲Sensemaking Through Fiction",
-              "author": "Eleanor Konik",
-              "siteName": "Manuscriptions",
-              "category": "article",
-              "language": "Engels",
-              "readingTime": "1 min",
-              "wordCount": 81,
-              "publishedDate": "2022-04-21",
-              "savedDate": "2025-10-18T05:20:00.622000+00:00",
-              "imageUrl": "https://substackcdn.com/image/fetch/w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fdabffde2-b511-4c70-a36d-26b11c40107a_2000x3000.jpeg",
-              "sourceUrl": "https://www.eleanorkonik.com/p/sensemaking-through-fiction",
-              "readwiseUrl": "https://read.readwise.io/read/01k7tw5bkddg785tj8skgthh6q",
-              "summary": "Stories help people understand and share knowledge better. The author realized stories are made by people, not born out of nowhere. Her grandmother gave her a typewriter to help her learn useful skills.",
-              "whyRead": "Verhalen als epistemologisch gereedschap – hoe fictie echte kennis overdraagt.",
-              "bestMoment": "reflectief",
-              "tags": [
-                "arts & culture",
-                "learning & meta-learning",
                 "writing & essays"
               ],
               "alsoIn": [
