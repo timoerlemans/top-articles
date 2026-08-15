@@ -82,16 +82,6 @@ body {
   gap: .45rem;
 }
 
-.discover-time-filter {
-  display: grid;
-  gap: .35rem;
-  color: var(--muted);
-  font-size: .875rem;
-}
-
-.discover-time-filter select {
-  min-height: 2.5rem;
-}
 
 .tab {
   background: none;
@@ -637,9 +627,6 @@ main {
     flex-direction: column;
   }
 
-  .discover-time-filter select {
-    width: 100%;
-  }
   .controls {
     gap: 0.6rem;
   }
