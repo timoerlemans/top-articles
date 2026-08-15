@@ -4,8 +4,13 @@
   const data = window.TOP_ARTICLES;
 
   const families = data ? data.families : [];
+  const catalogItems = data?.catalog?.items ?? [];
+  const derivedLists = data?.derivedLists ?? {};
   const tabsEl = document.getElementById("family-tabs");
   const sizeToggleEl = document.getElementById("size-toggle");
+  const discoverControlsEl = document.getElementById("discover-controls");
+  const discoverListChipsEl = document.getElementById("discover-list-chips");
+  const readingTimeFilterEl = document.getElementById("reading-time-filter");
   const listEl = document.getElementById("item-list");
   const emptyEl = document.getElementById("empty-state");
   const searchEl = document.getElementById("search");
@@ -66,20 +71,23 @@
 
   const SIZE_LABEL = { "top-10": "Top 10", "top-100": "Top 100" };
 
-  const DEFAULT_SORT_DIR = { position: "asc", saved: "desc", published: "desc", title: "asc" };
+  const DEFAULT_SORT_DIR = { score: "desc", position: "asc", saved: "desc", published: "desc", title: "asc" };
 
-  const SORT_FIELDS = ["position", "saved", "published", "title"];
-  const SORT_LABELS = { position: "Positie", saved: "Toegevoegd", published: "Gepubliceerd", title: "Titel" };
+  const SORT_FIELDS = ["score", "position", "saved", "published", "title"];
+  const SORT_LABELS = { score: "Score", position: "Readwise", saved: "Toegevoegd", published: "Gepubliceerd", title: "Titel" };
 
   const state = {
     familyId: families[0]?.id ?? null,
     size: "top-10",
+    view: "toplists",
+    discoverListId: "consensus",
     query: "",
-    sort: "position",
-    sortDir: DEFAULT_SORT_DIR.position,
+    sort: "score",
+    sortDir: DEFAULT_SORT_DIR.score,
     language: "",
     category: "",
     mood: "",
+    readingTime: "",
     tags: new Set(),
   };
 
@@ -101,8 +109,27 @@
     }
   }
 
+  const CATALOG_INDEX = new Map(catalogItems.map((item) => [item.id, item]));
+
+  function catalogOrTopItems() {
+    return catalogItems.length > 0
+      ? catalogItems
+      : [...GLOBAL_INDEX.values()].map((entry) => entry.item);
+  }
+
   function bestPosition(entry) {
     return Math.min(...entry.tagPositions.values());
+  }
+
+  function readingTimeMatches(item, bucket) {
+    if (!bucket) return true;
+    const minutes = item.readingMinutes;
+    if (!Number.isFinite(minutes)) return false;
+    if (bucket === "up-to-5") return minutes <= 5;
+    if (bucket === "6-to-10") return minutes >= 6 && minutes <= 10;
+    if (bucket === "11-to-20") return minutes >= 11 && minutes <= 20;
+    if (bucket === "21-to-60") return minutes >= 21 && minutes <= 60;
+    return minutes > 60;
   }
 
   // Alleen http(s)-links worden ooit als href/src gebruikt — voorkomt javascript:-URI's
@@ -161,6 +188,12 @@
   function hashToState() {
     const parts = location.hash.replace(/^#\/?/, "").split("/").filter(Boolean);
     const [familyId, size] = parts;
+    if (familyId === "ontdek") {
+      state.view = "discover";
+      if (size === "catalogus" || derivedLists[size]) state.discoverListId = size;
+      return;
+    }
+    state.view = "toplists";
     if (familyId && families.some((f) => f.id === familyId)) {
       state.familyId = familyId;
     }
@@ -170,7 +203,9 @@
   }
 
   function stateToHash() {
-    const next = `#/${state.familyId}/${state.size}`;
+    const next = state.view === "discover"
+      ? `#/ontdek/${state.discoverListId}`
+      : `#/${state.familyId}/${state.size}`;
     if (location.hash !== next) {
       history.replaceState(null, "", next);
     }
@@ -182,10 +217,12 @@
     state.language = "";
     state.category = "";
     state.mood = "";
+    state.readingTime = "";
     state.tags.clear();
     languageFilterEl.value = "";
     categoryFilterEl.value = "";
     moodFilterEl.value = "";
+    readingTimeFilterEl.value = "";
   }
 
   function renderTabs() {
@@ -196,8 +233,9 @@
       btn.className = "tab";
       btn.textContent = family.label;
       btn.setAttribute("role", "tab");
-      btn.setAttribute("aria-selected", String(family.id === state.familyId));
+      btn.setAttribute("aria-selected", String(state.view === "toplists" && family.id === state.familyId));
       btn.addEventListener("click", () => {
+        state.view = "toplists";
         state.familyId = family.id;
         clearAllFilters();
         stateToHash();
@@ -205,9 +243,24 @@
       });
       tabsEl.appendChild(btn);
     }
+
+    const discoverBtn = document.createElement("button");
+    discoverBtn.type = "button";
+    discoverBtn.className = "tab";
+    discoverBtn.textContent = "Ontdek";
+    discoverBtn.setAttribute("role", "tab");
+    discoverBtn.setAttribute("aria-selected", String(state.view === "discover"));
+    discoverBtn.addEventListener("click", () => {
+      state.view = "discover";
+      clearAllFilters();
+      stateToHash();
+      render();
+    });
+    tabsEl.appendChild(discoverBtn);
   }
 
   function renderSizeToggle() {
+    sizeToggleEl.hidden = state.view === "discover";
     for (const btn of sizeToggleEl.querySelectorAll("button")) {
       const isActive = btn.dataset.size === state.size;
       btn.setAttribute("aria-selected", String(isActive));
@@ -220,6 +273,32 @@
     }
   }
 
+  function renderDiscoverControls() {
+    const active = state.view === "discover";
+    discoverControlsEl.hidden = !active;
+    if (!active) return;
+
+    discoverListChipsEl.textContent = "";
+    const choices = [
+      { id: "catalogus", label: "Catalogus" },
+      ...Object.values(derivedLists).map((list) => ({ id: list.id, label: list.label })),
+    ];
+    for (const choice of choices) {
+      const btn = document.createElement("button");
+      btn.type = "button";
+      btn.className = choice.id === state.discoverListId ? "sort-chip active" : "sort-chip";
+      btn.setAttribute("aria-pressed", String(choice.id === state.discoverListId));
+      btn.textContent = choice.label;
+      btn.addEventListener("click", () => {
+        state.discoverListId = choice.id;
+        stateToHash();
+        render();
+      });
+      discoverListChipsEl.appendChild(btn);
+    }
+    readingTimeFilterEl.value = state.readingTime;
+  }
+
   let allTags = [];
   let lastScopeKey = null;
 
@@ -229,11 +308,19 @@
   function getScopeItems() {
     const query = state.query.trim().toLowerCase();
     if (query.length > 0) {
-      return [...GLOBAL_INDEX.values()].map((entry) => entry.item);
+      return catalogOrTopItems();
     }
+    if (state.view === "discover") return getDiscoverItems();
     const family = findFamily(state.familyId);
     const list = findList(family, state.size);
     return list.items;
+  }
+
+  function getDiscoverItems() {
+    if (state.discoverListId === "catalogus") return catalogOrTopItems();
+    const list = derivedLists[state.discoverListId];
+    if (!list) return [];
+    return list.items.map((entry) => ({ ...CATALOG_INDEX.get(entry.id), ...entry })).filter((item) => item.id);
   }
 
   function resetSelectOptions(selectEl) {
@@ -438,6 +525,24 @@
       );
     }
 
+    if (state.readingTime) {
+      count++;
+      const labels = {
+        "up-to-5": "Tot 5 min",
+        "6-to-10": "6–10 min",
+        "11-to-20": "11–20 min",
+        "21-to-60": "21–60 min",
+        "over-60": "Meer dan 60 min",
+      };
+      activeFilterChipListEl.appendChild(
+        buildActiveFilterChip(`Leestijd: ${labels[state.readingTime]}`, () => {
+          state.readingTime = "";
+          readingTimeFilterEl.value = "";
+          renderList();
+        })
+      );
+    }
+
     for (const tag of state.tags) {
       count++;
       activeFilterChipListEl.appendChild(
@@ -602,7 +707,7 @@
 
     const position = document.createElement("span");
     position.className = "position-badge";
-    position.textContent = isSearchMode ? "•" : String(item.position);
+    position.textContent = isSearchMode ? "•" : String(item.scorePosition ?? item.position ?? "•");
     media.appendChild(position);
 
     li.appendChild(media);
@@ -625,6 +730,22 @@
     meta.className = "item-meta";
     meta.textContent = metaLine(item);
     body.appendChild(meta);
+
+    if (item.scoreBreakdown) {
+      const score = document.createElement("p");
+      score.className = "item-score";
+      const originalPosition = item.originalPosition ?? item.position;
+      const parts = [`Score ${Math.round(item.score)}`];
+      if (Number.isFinite(originalPosition)) parts.push(`Readwise #${originalPosition}`);
+      parts.push(`basis ${Math.round(item.scoreBreakdown.base)}`);
+      if (item.scoreBreakdown.override) {
+        const sign = item.scoreBreakdown.override > 0 ? "+" : "";
+        parts.push(`correctie ${sign}${item.scoreBreakdown.override}`);
+      }
+      if (item.forceIncluded) parts.push("handmatig opgenomen");
+      score.textContent = parts.join(" · ");
+      body.appendChild(score);
+    }
 
     if (item.summary) {
       const summary = document.createElement("p");
@@ -687,6 +808,8 @@
 
   function compareEntries(sortKey) {
     switch (sortKey) {
+      case "score":
+        return (a, b) => (a.item.score ?? Number.NEGATIVE_INFINITY) - (b.item.score ?? Number.NEGATIVE_INFINITY);
       case "saved":
         return (a, b) => timeValue(a.item.savedDate) - timeValue(b.item.savedDate);
       case "published":
@@ -715,7 +838,9 @@
     // Filteropties (taal/type/moment/tags) alleen herberekenen wanneer de
     // scope daadwerkelijk wijzigt (andere tab/grootte, of overgang
     // zoeken-aan/uit) — niet bij elke toetsaanslag in het zoekveld.
-    const scopeKey = isSearchMode ? "search" : `${state.familyId}|${state.size}`;
+    const scopeKey = isSearchMode ? "search" : state.view === "discover"
+      ? `discover|${state.discoverListId}`
+      : `${state.familyId}|${state.size}`;
     if (scopeKey !== lastScopeKey) {
       lastScopeKey = scopeKey;
       populateFilterOptions();
@@ -725,9 +850,14 @@
 
     let normalized;
     if (isSearchMode) {
-      normalized = [...GLOBAL_INDEX.values()]
-        .filter((entry) => itemMatchesQuery(entry.item, query))
-        .map((entry) => ({ item: entry.item, sortPosition: bestPosition(entry) }));
+      normalized = catalogOrTopItems()
+        .filter((item) => itemMatchesQuery(item, query))
+        .map((item) => ({ item, sortPosition: item.scorePosition ?? bestPosition(GLOBAL_INDEX.get(item.id) ?? { tagPositions: new Map([['fallback', Number.MAX_SAFE_INTEGER]]) }) }));
+    } else if (state.view === "discover") {
+      normalized = getDiscoverItems().map((item, index) => ({
+        item,
+        sortPosition: item.scorePosition ?? index + 1,
+      }));
     } else {
       const family = findFamily(state.familyId);
       const list = findList(family, state.size);
@@ -738,6 +868,7 @@
       if (state.language && item.language !== state.language) return false;
       if (state.category && item.category !== state.category) return false;
       if (state.mood && item.bestMoment !== state.mood) return false;
+      if (!readingTimeMatches(item, state.readingTime)) return false;
       if (state.tags.size > 0 && !(item.tags ?? []).some((t) => state.tags.has(t))) return false;
       return true;
     });
@@ -759,6 +890,7 @@
   function render() {
     renderTabs();
     renderSizeToggle();
+    renderDiscoverControls();
     renderList();
   }
 
@@ -792,6 +924,11 @@
 
   moodFilterEl.addEventListener("change", () => {
     state.mood = moodFilterEl.value;
+    renderList();
+  });
+
+  readingTimeFilterEl.addEventListener("change", () => {
+    state.readingTime = readingTimeFilterEl.value;
     renderList();
   });
 

@@ -67,6 +67,32 @@ body {
   border-bottom: 1px solid var(--border);
 }
 
+.discover-controls {
+  display: flex;
+  align-items: end;
+  gap: 1rem;
+  margin: 1rem auto 0;
+  max-width: 70rem;
+  padding: 0 1rem;
+}
+
+.discover-list-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .45rem;
+}
+
+.discover-time-filter {
+  display: grid;
+  gap: .35rem;
+  color: var(--muted);
+  font-size: .875rem;
+}
+
+.discover-time-filter select {
+  min-height: 2.5rem;
+}
+
 .tab {
   background: none;
   border: none;
@@ -467,6 +493,12 @@ main {
   text-shadow: 0 1px 4px rgba(0, 0, 0, 0.45);
 }
 
+.item-score {
+  margin: .45rem 0 0;
+  color: var(--muted);
+  font-size: .8125rem;
+}
+
 .item-body {
   min-width: 0;
   flex: 1 1 auto;
@@ -600,6 +632,14 @@ main {
 }
 
 @media (max-width: 640px) {
+  .discover-controls {
+    align-items: stretch;
+    flex-direction: column;
+  }
+
+  .discover-time-filter select {
+    width: 100%;
+  }
   .controls {
     gap: 0.6rem;
   }

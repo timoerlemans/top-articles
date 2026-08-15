@@ -5,6 +5,7 @@
   "description": "Statisch overzicht van mijn Readwise-toplijsten, met directe links naar Readwise Reader.",
   "type": "module",
   "scripts": {
-    "build": "node scripts/build-data.mjs"
+    "build": "node scripts/build-data.mjs",
+    "test": "node --test test/*.test.mjs"
   }
 }

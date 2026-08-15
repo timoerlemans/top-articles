@@ -7,6 +7,9 @@ import { promisify } from "node:util";
 import { mkdir, writeFile } from "node:fs/promises";
 import { fileURLToPath } from "node:url";
 import { dirname, join } from "node:path";
+import { SCORE_CONFIG } from "../data/score.js";
+import { buildDerivedLists, parseReadingMinutes, scoreExistingList, validateScoreConfig } from "./lib/scoring.mjs";
+import { createReadwiseRequester } from "./lib/readwise-request.mjs";
 
 const execFileAsync = promisify(execFile);
 const __dirname = dirname(fileURLToPath(import.meta.url));
@@ -41,6 +44,10 @@ const FAMILIES = [
 
 const ALL_TOPLIST_TAGS = new Set(FAMILIES.flatMap((f) => [f.top10Tag, f.top100Tag]));
 
+const runReadwise = createReadwiseRequester({
+  exec: (commandArgs) => execFileAsync("readwise", commandArgs),
+});
+
 async function fetchDocumentsByTag(tag) {
   const results = [];
   let cursor = null;
@@ -60,7 +67,7 @@ async function fetchDocumentsByTag(tag) {
       args.push("--page-cursor", cursor);
     }
 
-    const { stdout } = await execFileAsync("readwise", args);
+    const { stdout } = await runReadwise(args);
     const parsed = JSON.parse(stdout);
     const page = Array.isArray(parsed) ? parsed : parsed.results ?? [];
     results.push(...page);
@@ -92,7 +99,34 @@ async function fetchDocumentsByCategory(category) {
       args.push("--page-cursor", cursor);
     }
 
-    const { stdout } = await execFileAsync("readwise", args);
+    const { stdout } = await runReadwise(args);
+    const parsed = JSON.parse(stdout);
+    const page = Array.isArray(parsed) ? parsed : parsed.results ?? [];
+    results.push(...page);
+    cursor = Array.isArray(parsed) ? null : parsed.nextPageCursor ?? null;
+  } while (cursor);
+
+  return results;
+}
+
+async function fetchDocumentsByLocation(location) {
+  const results = [];
+  let cursor = null;
+
+  do {
+    const args = [
+      "reader-list-documents",
+      "--location",
+      location,
+      "--limit",
+      "100",
+      "--response-fields",
+      RESPONSE_FIELDS,
+      "--json",
+    ];
+    if (cursor) args.push("--page-cursor", cursor);
+
+    const { stdout } = await runReadwise(args);
     const parsed = JSON.parse(stdout);
     const page = Array.isArray(parsed) ? parsed : parsed.results ?? [];
     results.push(...page);
@@ -158,7 +192,7 @@ function parseNote(notes) {
   };
 }
 
-function toItem(doc, position, listId, warnings) {
+function toItem(doc, position, listId = {}) {
   const also = [];
   for (const key of tagKeys(doc)) {
     if (ALL_TOPLIST_TAGS.has(key) && key !== listId.tag) {
@@ -177,6 +211,7 @@ function toItem(doc, position, listId, warnings) {
     category: doc.category ?? null,
     language: languageFor(doc),
     readingTime: doc.reading_time ?? null,
+    readingMinutes: parseReadingMinutes(doc.reading_time),
     wordCount: doc.word_count ?? null,
     publishedDate: doc.published_date ?? null,
     savedDate: doc.saved_at ?? null,
@@ -195,10 +230,8 @@ async function buildFamily(family, warnings) {
   let top10Docs, top100Docs;
 
   if (family.source === "category") {
-    const [pdfDocs, epubDocs] = await Promise.all([
-      fetchDocumentsByCategory("pdf"),
-      fetchDocumentsByCategory("epub"),
-    ]);
+    const pdfDocs = await fetchDocumentsByCategory("pdf");
+    const epubDocs = await fetchDocumentsByCategory("epub");
     const seen = new Set();
     const numbered = [];
     for (const doc of [...pdfDocs, ...epubDocs]) {
@@ -218,8 +251,8 @@ async function buildFamily(family, warnings) {
   }
 
   const lists = {
-    "top-10": buildList(family, family.top10Tag, top10Docs, warnings),
-    "top-100": buildList(family, family.top100Tag, top100Docs, warnings),
+    "top-10": buildList(family, "top-10", family.top10Tag, top10Docs, warnings),
+    "top-100": buildList(family, "top-100", family.top100Tag, top100Docs, warnings),
   };
 
   // Sanity check: top-10 moet een deelverzameling zijn van top-100.
@@ -235,7 +268,7 @@ async function buildFamily(family, warnings) {
   return { id: family.id, label: family.label, sequence: family.sequence, lists };
 }
 
-function buildList(family, tag, docs, warnings) {
+function buildList(family, size, tag, docs, warnings) {
   const withPosition = [];
   const seenPositions = new Map();
 
@@ -270,9 +303,10 @@ function buildList(family, tag, docs, warnings) {
     }
   }
 
-  const items = withPosition.map((w, idx) =>
-    toItem(w.doc, Number.isFinite(w.position) ? w.position : idx + 1, { tag }, warnings)
+  const rawItems = withPosition.map((w, idx) =>
+    toItem(w.doc, Number.isFinite(w.position) ? w.position : idx + 1, { tag })
   );
+  const items = scoreExistingList(rawItems, `${family.id}:${size}`, SCORE_CONFIG);
 
   return { tag, items };
 }
@@ -281,19 +315,66 @@ async function main() {
   const warnings = [];
   const families = [];
 
+  const newDocs = await fetchDocumentsByLocation("new");
+  const laterDocs = await fetchDocumentsByLocation("later");
+  const activeDocs = [...new Map([...newDocs, ...laterDocs].map((doc) => [doc.id, doc])).values()];
+
   for (const family of FAMILIES) {
     families.push(await buildFamily(family, warnings));
   }
 
+  const membershipById = new Map();
+  for (const family of families) {
+    for (const [size, list] of Object.entries(family.lists)) {
+      for (const item of list.items) {
+        const memberships = membershipById.get(item.id) ?? [];
+        memberships.push({
+          familyId: family.id,
+          size,
+          position: item.originalPosition,
+        });
+        membershipById.set(item.id, memberships);
+      }
+    }
+  }
+
+  const catalogItems = activeDocs.map((doc) => ({
+    ...toItem(doc, null),
+    memberships: membershipById.get(doc.id) ?? [],
+  }));
+
+  const existingListKeys = families.flatMap((family) =>
+    Object.keys(family.lists).map((size) => `${family.id}:${size}`)
+  );
+  const listMemberships = new Map(
+    [...membershipById.entries()].map(([id, memberships]) => [
+      id,
+      new Set(memberships.map(({ familyId, size }) => `${familyId}:${size}`)),
+    ])
+  );
+  warnings.push(
+    ...validateScoreConfig(
+      SCORE_CONFIG,
+      existingListKeys,
+      new Set([...catalogItems.map((item) => item.id), ...membershipById.keys()]),
+      { activeDocumentIds: new Set(catalogItems.map((item) => item.id)), listMemberships }
+    )
+  );
+
+  const generatedAt = new Date().toISOString();
+  const derivedLists = buildDerivedLists(catalogItems, SCORE_CONFIG, generatedAt);
+
   const data = {
-    generatedAt: new Date().toISOString(),
+    generatedAt,
     families,
+    catalog: { items: catalogItems },
+    derivedLists,
   };
 
   const counts = families
     .map((f) => `${f.id}: top-10=${f.lists["top-10"].items.length}, top-100=${f.lists["top-100"].items.length}`)
     .join("\n  ");
-  console.log(`Toplijsten opgehaald:\n  ${counts}`);
+  console.log(`Toplijsten opgehaald:\n  ${counts}\n  actieve catalogus: ${catalogItems.length}`);
 
   if (warnings.length > 0) {
     console.warn(`\n${warnings.length} waarschuwing(en):`);

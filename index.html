@@ -15,6 +15,21 @@
 
 <nav class="tabs" id="family-tabs" aria-label="Toplijst-familie"></nav>
 
+<section class="discover-controls" id="discover-controls" hidden aria-label="Ontdek lijsten">
+  <div class="discover-list-chips" id="discover-list-chips" role="group" aria-label="Ontdek-lijst"></div>
+  <label class="discover-time-filter">
+    Leestijd
+    <select id="reading-time-filter">
+      <option value="">Alle leestijden</option>
+      <option value="up-to-5">Tot 5 min</option>
+      <option value="6-to-10">6–10 min</option>
+      <option value="11-to-20">11–20 min</option>
+      <option value="21-to-60">21–60 min</option>
+      <option value="over-60">Meer dan 60 min</option>
+    </select>
+  </label>
+</section>
+
 <div class="controls">
   <div class="size-toggle" id="size-toggle" role="tablist" aria-label="Lijstgrootte">
     <button type="button" data-size="top-10" role="tab">Top 10</button>
@@ -76,7 +91,7 @@
 </div>
 
 <p class="search-scope-note" id="search-scope-note" hidden>
-  Zoekresultaten uit alle toplijsten — tabs en Top 10/100 gelden niet tijdens zoeken.
+  Zoekresultaten uit de volledige actieve catalogus — tabs en Top 10/100 gelden niet tijdens zoeken.
 </p>
 
 <main>

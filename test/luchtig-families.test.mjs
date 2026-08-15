@@ -13,6 +13,11 @@ async function loadGeneratedData() {
 test("de gegenereerde data bevat de luchtig-families met doorlopende posities", async () => {
   const data = await loadGeneratedData();
 
+  assert.ok(Array.isArray(data.catalog?.items), "actieve catalogus ontbreekt");
+  assert.ok(data.derivedLists?.consensus, "consensuslijst ontbreekt");
+  assert.ok(data.derivedLists?.nieuw, "nieuw-lijst ontbreekt");
+  assert.ok(data.derivedLists?.tijdloos, "tijdloos-lijst ontbreekt");
+
   const expectedFamilies = [
     {
       id: "luchtig",
@@ -40,6 +45,16 @@ test("de gegenereerde data bevat de luchtig-families met doorlopende posities", 
     assert.deepEqual(
       Array.from(family.lists["top-100"].items, ({ position }) => position),
       Array.from({ length: expected.top100Length }, (_, index) => index + 1)
+    );
+    assert.ok(
+      family.lists["top-100"].items.every(
+        ({ originalPosition, score, scorePosition, scoreBreakdown }) =>
+          Number.isInteger(originalPosition) &&
+          Number.isFinite(score) &&
+          Number.isInteger(scorePosition) &&
+          scoreBreakdown
+      ),
+      `scorevelden ontbreken voor ${expected.id}`
     );
   }
 });
