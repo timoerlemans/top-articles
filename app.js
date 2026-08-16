@@ -110,6 +110,8 @@
   const SORT_FIELDS = ["score", "position", "saved", "published", "title"];
   const SORT_LABELS = { score: "Prioriteitsscore", position: "Positie", saved: "Toegevoegd", published: "Gepubliceerd", title: "Titel" };
 
+  const READING_TIME_BUCKETS = ["up-to-5", "6-to-10", "11-to-20", "21-to-60", "over-60"];
+
   const state = {
     familyId: families[0]?.id ?? null,
     size: "top-10",
@@ -224,9 +226,34 @@
     return family.lists[size] ?? family.lists["top-10"];
   }
 
+  // Filters worden als query params bewaard zodat ze de hash-navigatie
+  // overleven (top-10/top-100-wissel, andere lijst/tab, refresh, gedeelde link).
+  function filtersToParams() {
+    const params = new URLSearchParams();
+    const query = state.query.trim();
+    if (query) params.set("q", query);
+    if (state.language) params.set("lang", state.language);
+    if (state.category) params.set("cat", state.category);
+    if (state.mood) params.set("mood", state.mood);
+    if (state.readingTime) params.set("time", state.readingTime);
+    for (const tag of state.tags) params.append("tags", tag);
+    return params;
+  }
+
+  function paramsToFilters(params) {
+    state.query = params.get("q") ?? "";
+    state.language = params.get("lang") ?? "";
+    state.category = params.get("cat") ?? "";
+    state.mood = params.get("mood") ?? "";
+    const time = params.get("time") ?? "";
+    state.readingTime = READING_TIME_BUCKETS.includes(time) ? time : "";
+    state.tags = new Set(params.getAll("tags").filter(Boolean));
+  }
+
   function hashToState() {
     const parts = location.hash.replace(/^#\/?/, "").split("/").filter(Boolean);
     const [familyId, size] = parts;
+    paramsToFilters(new URLSearchParams(location.search));
     if (familyId === "ontdek") {
       state.view = "discover";
       if (size === "catalogus" || derivedLists[size]) state.discoverListId = size;
@@ -247,12 +274,14 @@
   }
 
   function stateToHash() {
-    const next = state.view === "discover"
+    const hashPart = state.view === "discover"
       ? `#/ontdek/${state.discoverListId}`
       : state.view === "priority"
         ? `#/leesvolgorde/${state.prioritySequence}`
         : `#/${state.familyId}/${state.size}`;
-    if (location.hash !== next) {
+    const search = filtersToParams().toString();
+    const next = (search ? `?${search}` : "") + hashPart;
+    if (location.search + location.hash !== next) {
       history.replaceState(null, "", next);
     }
   }
@@ -303,7 +332,6 @@
       btn.addEventListener("click", () => {
         state.view = "toplists";
         state.familyId = family.id;
-        clearAllFilters();
         closeMobileMenu();
         stateToHash();
         render();
@@ -319,7 +347,6 @@
     priorityBtn.setAttribute("aria-selected", String(state.view === "priority"));
     priorityBtn.addEventListener("click", () => {
       state.view = "priority";
-      clearAllFilters();
       closeMobileMenu();
       stateToHash();
       render();
@@ -334,7 +361,6 @@
     discoverBtn.setAttribute("aria-selected", String(state.view === "discover"));
     discoverBtn.addEventListener("click", () => {
       state.view = "discover";
-      clearAllFilters();
       closeMobileMenu();
       stateToHash();
       render();
@@ -349,7 +375,6 @@
       btn.setAttribute("aria-selected", String(isActive));
       btn.onclick = () => {
         state.size = btn.dataset.size;
-        clearAllFilters();
         stateToHash();
         render();
       };
@@ -379,7 +404,6 @@
       });
       discoverListChipsEl.appendChild(btn);
     }
-    readingTimeFilterEl.value = state.readingTime;
   }
 
   function priorityCount(sequence) {
@@ -517,12 +541,17 @@
     if (state.tags.size > 0) {
       state.tags = new Set([...state.tags].filter((t) => tags.has(t)));
     }
+    if (state.readingTime && !items.some((item) => readingTimeMatches(item, state.readingTime))) {
+      state.readingTime = "";
+    }
 
     languageFilterEl.value = state.language;
     categoryFilterEl.value = state.category;
     moodFilterEl.value = state.mood;
+    readingTimeFilterEl.value = state.readingTime;
 
     renderTagFilterChips();
+    stateToHash();
   }
 
   // Klikken op een tag — in het filterpaneel of op een item — schakelt hem in de
@@ -534,6 +563,7 @@
       state.tags.add(tag);
     }
     renderTagFilterChips();
+    stateToHash();
     renderList();
   }
 
@@ -637,6 +667,7 @@
         buildActiveFilterChip(`Zoeken: "${query}"`, () => {
           state.query = "";
           searchEl.value = "";
+          stateToHash();
           renderList();
         })
       );
@@ -648,6 +679,7 @@
         buildActiveFilterChip(`Taal: ${state.language}`, () => {
           state.language = "";
           languageFilterEl.value = "";
+          stateToHash();
           renderList();
         })
       );
@@ -660,6 +692,7 @@
         buildActiveFilterChip(`Type: ${label}`, () => {
           state.category = "";
           categoryFilterEl.value = "";
+          stateToHash();
           renderList();
         })
       );
@@ -672,6 +705,7 @@
         buildActiveFilterChip(`Moment: ${label}`, () => {
           state.mood = "";
           moodFilterEl.value = "";
+          stateToHash();
           renderList();
         })
       );
@@ -690,6 +724,7 @@
         buildActiveFilterChip(`Leestijd: ${labels[state.readingTime]}`, () => {
           state.readingTime = "";
           readingTimeFilterEl.value = "";
+          stateToHash();
           renderList();
         })
       );
@@ -701,6 +736,7 @@
         buildActiveFilterChip(`#${tag}`, () => {
           state.tags.delete(tag);
           renderTagFilterChips();
+          stateToHash();
           renderList();
         })
       );
@@ -1152,32 +1188,38 @@
 
   searchEl.addEventListener("input", () => {
     state.query = searchEl.value;
+    stateToHash();
     render();
   });
 
   clearFiltersBtnEl.addEventListener("click", () => {
     clearAllFilters();
     renderTagFilterChips();
+    stateToHash();
     renderList();
   });
 
   languageFilterEl.addEventListener("change", () => {
     state.language = languageFilterEl.value;
+    stateToHash();
     renderList();
   });
 
   categoryFilterEl.addEventListener("change", () => {
     state.category = categoryFilterEl.value;
+    stateToHash();
     renderList();
   });
 
   moodFilterEl.addEventListener("change", () => {
     state.mood = moodFilterEl.value;
+    stateToHash();
     renderList();
   });
 
   readingTimeFilterEl.addEventListener("change", () => {
     state.readingTime = readingTimeFilterEl.value;
+    stateToHash();
     renderList();
   });
 
