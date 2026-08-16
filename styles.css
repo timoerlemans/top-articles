@@ -523,6 +523,12 @@ main {
     calc(var(--content-gutter) + env(safe-area-inset-left));
 }
 
+.list-count {
+  margin: 0 0 0.5rem;
+  color: var(--text-dim);
+  font-size: 0.8rem;
+}
+
 .item-list {
   list-style: none;
   margin: 0;

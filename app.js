@@ -21,6 +21,7 @@
   const priorityErrorEl = document.getElementById("priority-error");
   const readingTimeFilterEl = document.getElementById("reading-time-filter");
   const listEl = document.getElementById("item-list");
+  const listCountEl = document.getElementById("list-count");
   const emptyEl = document.getElementById("empty-state");
   const searchEl = document.getElementById("search");
   const generatedAtEl = document.getElementById("generated-at");
@@ -1094,6 +1095,8 @@
     });
 
     const sorted = isPriorityView ? filtered : sortNormalized(filtered);
+
+    listCountEl.textContent = sorted.length === 1 ? "1 item" : `${sorted.length} items`;
 
     listEl.textContent = "";
     emptyEl.hidden = sorted.length > 0;
