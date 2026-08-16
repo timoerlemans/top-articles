@@ -13,6 +13,18 @@
   <p class="subtitle">Mijn persoonlijke Readwise-toplijsten — <span id="generated-at">wordt geladen…</span></p>
 </header>
 
+<button
+  type="button"
+  class="mobile-menu-toggle"
+  id="mobile-menu-toggle"
+  aria-controls="family-tabs"
+  aria-expanded="false"
+>
+  <span class="mobile-menu-icon" aria-hidden="true">☰</span>
+  <span class="mobile-menu-label" id="mobile-menu-label">Menu</span>
+  <span class="mobile-menu-chevron" aria-hidden="true">⌄</span>
+</button>
+
 <nav class="tabs" id="family-tabs" aria-label="Toplijst-familie"></nav>
 
 <section class="discover-controls" id="discover-controls" hidden aria-label="Ontdek lijsten">
@@ -79,6 +91,10 @@
   <div class="filters">
     <div class="filter-field" id="sort-field">
       <span id="sort-label">Sorteren</span>
+      <div class="desktop-sort-controls">
+        <select id="sort-select" aria-labelledby="sort-label"></select>
+        <button type="button" id="sort-direction" aria-label="Sorteerrichting omkeren">↓</button>
+      </div>
       <div class="sort-chip-list" id="sort-chip-list" role="group" aria-labelledby="sort-label"></div>
     </div>
     <label class="filter-field">

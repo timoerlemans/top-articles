@@ -23,3 +23,15 @@ test("de browsercode gebruikt alleen Prioriteitsscore", async () => {
   assert.match(source, /priority-breakdown/);
   assert.match(source, /prioritySequence/);
 });
+
+test("de pagina bevat toegankelijke responsieve menu- en sorteringsbediening", async () => {
+  const html = await readFile(new URL("../index.html", import.meta.url), "utf8");
+
+  assert.match(
+    html,
+    /id="mobile-menu-toggle"[^>]*aria-controls="family-tabs"[^>]*aria-expanded="false"/s
+  );
+  assert.match(html, /id="mobile-menu-label"/);
+  assert.match(html, /id="sort-select"/);
+  assert.match(html, /id="sort-direction"[^>]*aria-label=/s);
+});
