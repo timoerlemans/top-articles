@@ -277,6 +277,7 @@
 
   function setMobileMenuOpen(open, { restoreFocus = false } = {}) {
     mobileMenuToggleEl.setAttribute("aria-expanded", String(open));
+    mobileMenuToggleEl.setAttribute("aria-label", `Menu ${activeMenuLabel()}: ${open ? "sluiten" : "openen"}`);
     tabsEl.classList.toggle("mobile-open", open);
     if (restoreFocus) mobileMenuToggleEl.focus();
   }
@@ -288,6 +289,8 @@
   function renderTabs() {
     tabsEl.textContent = "";
     mobileMenuLabelEl.textContent = activeMenuLabel();
+    const menuOpen = mobileMenuToggleEl.getAttribute("aria-expanded") === "true";
+    mobileMenuToggleEl.setAttribute("aria-label", `Menu ${activeMenuLabel()}: ${menuOpen ? "sluiten" : "openen"}`);
     for (const family of families) {
       const btn = document.createElement("button");
       btn.type = "button";

@@ -41,6 +41,7 @@ test("de browsercode beheert mobiel menu en desktopsortering vanuit dezelfde sta
 
   assert.match(source, /function setMobileMenuOpen\(/);
   assert.match(source, /mobileMenuToggleEl\.setAttribute\("aria-expanded"/);
+  assert.match(source, /mobileMenuToggleEl\.setAttribute\("aria-label"/);
   assert.match(source, /tabsEl\.classList\.toggle\("mobile-open"/);
   assert.match(source, /event\.key === "Escape"/);
   assert.match(source, /mobileMenuToggleEl\.focus\(\)/);
