@@ -87,6 +87,7 @@
   const PRIORITY_SEQUENCES = [
     { id: "lees", label: "Lezen" },
     { id: "boek", label: "Boeken" },
+    { id: "pdf", label: "PDF's" },
     { id: "video", label: "Video" },
     { id: "dutch", label: "Nederlands" },
     { id: "short", label: "Kort" },

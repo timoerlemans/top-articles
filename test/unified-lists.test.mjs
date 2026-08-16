@@ -53,3 +53,28 @@ test("sluit boeken uit van Consensus, Nieuw en Tijdloos, ook als ze verder aan d
   assert.deepEqual(lists.derived.tijdloos.map(({ id }) => id), ["artikel-oud"]);
   assert.ok(!lists.derived.consensus.some(({ id }) => id === "boek-recent-en-oud"));
 });
+
+test("laat pdf's, in tegenstelling tot boeken, wel meedoen in Consensus, Nieuw en Tijdloos", () => {
+  const catalog = [
+    item("pdf-recent", 80, {
+      savedDate: "2026-08-10",
+      publishedDate: "2025-01-01",
+      priority: { score: 80, sequences: ["pdf", "lees"], positions: { pdf: 1, lees: 1 } },
+    }),
+    item("artikel-recent", 70, { savedDate: "2026-08-10", publishedDate: "2025-01-01" }),
+  ];
+  const lists = buildUnifiedLists(catalog, "2026-08-16T10:00:00.000Z");
+
+  assert.deepEqual(lists.derived.nieuw.map(({ id }) => id).sort(), ["artikel-recent", "pdf-recent"]);
+});
+
+test("bouwt de pdfs- en videos-familielijsten op basis van hun eigen reeks", () => {
+  const catalog = [
+    item("pdf-1", 90, { priority: { score: 90, sequences: ["pdf"], positions: { pdf: 1 } } }),
+    item("video-1", 85, { priority: { score: 85, sequences: ["video"], positions: { video: 1 } } }),
+  ];
+  const lists = buildUnifiedLists(catalog, "2026-08-16T10:00:00.000Z");
+
+  assert.deepEqual(lists.families.pdfs["top-10"].map(({ id }) => id), ["pdf-1"]);
+  assert.deepEqual(lists.families.videos["top-10"].map(({ id }) => id), ["video-1"]);
+});

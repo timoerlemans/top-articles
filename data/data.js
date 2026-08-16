@@ -1,6 +1,6 @@
 // Automatisch gegenereerd door scripts/build-data.mjs — niet handmatig bewerken.
 window.TOP_ARTICLES = {
-  "generatedAt": "2026-08-16T12:40:03.101Z",
+  "generatedAt": "2026-08-16T14:55:02.544Z",
   "families": [
     {
       "id": "algemeen",
@@ -1097,6 +1097,32 @@ window.TOP_ARTICLES = {
             },
             {
               "position": 29,
+              "id": "01kqwezb39fwf93qzkzhny5gm5",
+              "title": "THE USEFULNESS OF USELESS KNOWLEDGE",
+              "author": "Abraham Flexner",
+              "siteName": "readwise-upload-pdf",
+              "category": "article",
+              "language": null,
+              "readingTime": "21 mins",
+              "readingMinutes": 21,
+              "wordCount": 5378,
+              "publishedDate": null,
+              "savedDate": "2026-05-05T16:19:10.774000+00:00",
+              "imageUrl": "https://library.uab.edu/images/reynolds-finley/collections/medical-greats/FlexnerAbraham_lg.jpg",
+              "sourceUrl": "https://readwise.io/reader/document_raw_content/6405758",
+              "readwiseUrl": "https://read.readwise.io/read/01kqwezb39fwf93qzkzhny5gm5",
+              "summary": "",
+              "whyRead": "Raakt je interesse in filosofie, wetenschapsgeschiedenis en kennisbeheer: Flexner verdedigt ‘nutteloze’ nieuwsgierigheid als bron van zowel menselijke vrijheid als onverwachte maatschappelijke doorbraken.",
+              "bestMoment": "analytisch",
+              "tags": [
+                "history",
+                "philosophy",
+                "popular science"
+              ],
+              "alsoIn": []
+            },
+            {
+              "position": 30,
               "id": "01krmzw6cw28m1y55ds9qrsxjf",
               "title": "Cities and Ambition",
               "author": "paulgraham.com",
@@ -1123,7 +1149,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 30,
+              "position": 31,
               "id": "01krpd5465ts11g8szys682dfj",
               "title": "Shame them, shun them, ban them, beat them!",
               "author": "Adam Mastroianni",
@@ -1149,7 +1175,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 31,
+              "position": 32,
               "id": "01krt94dn0eh8859xw7s0t2vgm",
               "title": "The Simulation Has Collapsed",
               "author": "Mike Brock",
@@ -1175,7 +1201,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 32,
+              "position": 33,
               "id": "01kvhbzvsdz71gdn2329t023sp",
               "title": "So, what is morality?",
               "author": "Lionel Page from Optimally Irrational",
@@ -1201,7 +1227,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 33,
+              "position": 34,
               "id": "01kwm2c48x698f162vev3xqyy2",
               "title": "The Knowledge Machine: How Irrationality Created Modern Science",
               "author": "R.W. Richey from We Are Not Saved",
@@ -1227,7 +1253,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 34,
+              "position": 35,
               "id": "01kxr18pz677fa7xqfav7sp2dp",
               "title": "Capitalism: A Ghost Story",
               "author": "dawn.com",
@@ -1254,7 +1280,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 35,
+              "position": 36,
               "id": "01ky6y0z3wkzmdhty7gq3qa1wz",
               "title": "So, what is morality?",
               "author": "optimallyirrational.com",
@@ -1281,7 +1307,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 36,
+              "position": 37,
               "id": "01kyab47vf7vat0n76fpwrgrj6",
               "title": "Your Book Review: Breakdown In Pakistan",
               "author": "Astral Codex Ten",
@@ -1308,7 +1334,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 37,
+              "position": 38,
               "id": "01kysnkmqq07z6nwe6wtvhtkxy",
               "title": "Data en de Democratische Rechtsorde",
               "author": "berthub.eu",
@@ -1337,7 +1363,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 38,
+              "position": 39,
               "id": "01kysnmbwt86e2fk3axtde57h4",
               "title": "Keynote opening Digital Commons EDIC: Moving beyond the Digital Uncommons",
               "author": "berthub.eu",
@@ -1363,7 +1389,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 39,
+              "position": 40,
               "id": "01kyxa2yd57szp13ha57708606",
               "title": "Your Book Review: The Epic Of Gilgamesh",
               "author": "Astral Codex Ten",
@@ -1390,32 +1416,6 @@ window.TOP_ARTICLES = {
                 "aaa-luchtig-top-10",
                 "aaa-luchtig-top-100"
               ]
-            },
-            {
-              "position": 40,
-              "id": "01m03b0vhwd52bhh3rdjhdafv2",
-              "title": "The Orwell Foundation",
-              "author": "The Orwell Foundation",
-              "siteName": "The Orwell Foundation",
-              "category": "article",
-              "language": "Engels",
-              "readingTime": "11 mins",
-              "readingMinutes": 11,
-              "wordCount": 2773,
-              "publishedDate": "2011-06-03",
-              "savedDate": "2026-08-15T18:30:20.988000+00:00",
-              "imageUrl": "",
-              "sourceUrl": "https://www.orwellfoundation.com/the-orwell-foundation/orwell/essays-and-other-works/why-i-write/",
-              "readwiseUrl": "https://read.readwise.io/read/01m03b0vhwd52bhh3rdjhdafv2",
-              "summary": "\"What I have most wanted to do throughout the past ten years is to make political writing into an art. My starting point is always a feeling of partisanship, a sense of injustice.\"",
-              "whyRead": "Orwells klassieke essay over de drijfveren achter schrijven. Onmisbaar als tegengewicht voor instrumenteel schrijvadvies en direct relevant voor je interesse in literatuur en denken.",
-              "bestMoment": "reflectief",
-              "tags": [
-                "arts",
-                "learning",
-                "philosophy"
-              ],
-              "alsoIn": []
             },
             {
               "position": 41,
@@ -9672,62 +9672,6 @@ window.TOP_ARTICLES = {
             },
             {
               "position": 8,
-              "id": "01jvajbknykyp0g0rgns58p80k",
-              "title": "The Extended Mind",
-              "author": "Andy Clark, David J. Chalmers",
-              "siteName": "The University of Edinburgh",
-              "category": "pdf",
-              "language": null,
-              "readingTime": "25 mins",
-              "readingMinutes": 25,
-              "wordCount": 6581,
-              "publishedDate": "2004-01-30",
-              "savedDate": "2025-05-15T18:12:26.941000+00:00",
-              "imageUrl": "https://readwise-assets.s3.amazonaws.com/media/reader/parsed_document_assets/102172929/g5yGXChCSGWVm4agVcbBaYOE_XCb95qGPCipIIOfnlw-cove_YHUbHiG.png",
-              "sourceUrl": "https://era.ed.ac.uk/bitstream/handle/1842/1312/TheExtendedMind.pdf?sequence=1",
-              "readwiseUrl": "https://read.readwise.io/read/01jvajbknykyp0g0rgns58p80k",
-              "summary": "The book \"The Extended Mind\" by Andy Clark argues that cognitive processes involve both the brain and the environment, creating a linked system that functions as a single cognitive entity. It suggests that tools like notebooks can be integral to our beliefs and thoughts, just as internal memory is. This view expands our understanding of the mind, showing that it can extend beyond our heads into the world around us.",
-              "whyRead": "Raakt je interesse in filosofie én PKM — Clark & Chalmers rechtvaardigen tools zoals Obsidian filosofisch als letterlijke uitbreiding van het cognitief systeem.",
-              "bestMoment": "analytisch",
-              "tags": [
-                "learning & meta-learning",
-                "philosophy",
-                "tools & workflows"
-              ],
-              "alsoIn": [
-                "boek-top-100"
-              ]
-            },
-            {
-              "position": 9,
-              "id": "01kqwezb39fwf93qzkzhny5gm5",
-              "title": "Abraham Flexner",
-              "author": "Unknown",
-              "siteName": "readwise-upload-pdf",
-              "category": "pdf",
-              "language": null,
-              "readingTime": "21 mins",
-              "readingMinutes": 21,
-              "wordCount": 5378,
-              "publishedDate": null,
-              "savedDate": "2026-05-05T16:19:10.774000+00:00",
-              "imageUrl": "https://library.uab.edu/images/reynolds-finley/collections/medical-greats/FlexnerAbraham_lg.jpg",
-              "sourceUrl": "https://readwise.io/reader/document_raw_content/6405758",
-              "readwiseUrl": "https://read.readwise.io/read/01kqwezb39fwf93qzkzhny5gm5",
-              "summary": "",
-              "whyRead": "Raakt je interesse in filosofie, wetenschapsgeschiedenis en kennisbeheer: Flexner verdedigt ‘nutteloze’ nieuwsgierigheid als bron van zowel menselijke vrijheid als onverwachte maatschappelijke doorbraken.",
-              "bestMoment": "analytisch",
-              "tags": [
-                "history",
-                "philosophy",
-                "popular science"
-              ],
-              "alsoIn": [
-                "boek-top-100"
-              ]
-            },
-            {
-              "position": 10,
               "id": "01j28vhxyk558cnpcqjsy3p80p",
               "title": "Walden",
               "author": "Henry David Thoreau",
@@ -9749,6 +9693,62 @@ window.TOP_ARTICLES = {
                 "personal growth & life philosophy",
                 "philosophy",
                 "political philosophy"
+              ],
+              "alsoIn": [
+                "boek-top-100"
+              ]
+            },
+            {
+              "position": 9,
+              "id": "01j29b7mexjf9xsbecg5fyme08",
+              "title": "Civil Disobedience",
+              "author": "Henry David Thoreau",
+              "siteName": "readwise.io",
+              "category": "epub",
+              "language": "Engels",
+              "readingTime": "37 mins",
+              "readingMinutes": 37,
+              "wordCount": 9605,
+              "publishedDate": "2019-01-24",
+              "savedDate": "2024-07-08T14:16:16.616000+00:00",
+              "imageUrl": "https://readwise-assets.s3.amazonaws.com/media/reader/parsed_document_assets/192393466/VgqM0Zl_pxzEyvijRJCKxwKLzWm1EMQZ8upF6-0ZfPE-cover-cover.jpeg",
+              "sourceUrl": "private://read/01j29b7mexjf9xsbecg5fyme08",
+              "readwiseUrl": "https://read.readwise.io/read/01j29b7mexjf9xsbecg5fyme08",
+              "summary": "Thoreau argues against blindly following government orders that go against one's conscience. He believes in a government that governs least and respects individual rights. Citizens have a duty to resist unjust laws and governments that do not serve the people.",
+              "whyRead": "Raakt je interesse in politieke filosofie en geschiedenis; Thoreau's essay is het fundament van het moderne concept van geweldloze burgerlijke ongehoorzaamheid, invloedrijk op Gandhi en Martin Luther King.",
+              "bestMoment": "analytisch",
+              "tags": [
+                "current affairs & politics",
+                "history",
+                "political philosophy"
+              ],
+              "alsoIn": [
+                "boek-top-100"
+              ]
+            },
+            {
+              "position": 10,
+              "id": "01j29b7stf12s2wpwzqdtfzme7",
+              "title": "Self-Reliance",
+              "author": "Ralph Waldo Emerson",
+              "siteName": "readwise.io",
+              "category": "epub",
+              "language": "Engels",
+              "readingTime": "39 mins",
+              "readingMinutes": 39,
+              "wordCount": 10297,
+              "publishedDate": "2011-05-25",
+              "savedDate": "2024-07-08T14:16:22.107000+00:00",
+              "imageUrl": "https://readwise-assets.s3.amazonaws.com/media/reader/parsed_document_assets/192393550/MDEB0Le0ADhSqaTBqT3nvYNiq7NM3xPa7ehBgx9IThk-cover-cover.jpeg",
+              "sourceUrl": "private://read/01j29b7stf12s2wpwzqdtfzme7",
+              "readwiseUrl": "https://read.readwise.io/read/01j29b7stf12s2wpwzqdtfzme7",
+              "summary": "The text \"Self-Reliance\" by Ralph Waldo Emerson discusses the importance of trusting oneself and following one's own convictions. It emphasizes the idea that true virtue lies in individuality and self-reliance, rather than conformity to societal norms. Emerson encourages people to be true to themselves, resist temptation, and trust their own inner wisdom.",
+              "whyRead": "Raakt je interesse in filosofie en persoonlijke groei; dit essay van Emerson is een van de invloedrijkste pleidooien voor individualisme en vertrouwen op eigen oordeel ooit geschreven.",
+              "bestMoment": "reflectief",
+              "tags": [
+                "personal growth & life philosophy",
+                "philosophy",
+                "sociology & inequality"
               ],
               "alsoIn": [
                 "boek-top-100"
@@ -9957,62 +9957,6 @@ window.TOP_ARTICLES = {
             },
             {
               "position": 8,
-              "id": "01jvajbknykyp0g0rgns58p80k",
-              "title": "The Extended Mind",
-              "author": "Andy Clark, David J. Chalmers",
-              "siteName": "The University of Edinburgh",
-              "category": "pdf",
-              "language": null,
-              "readingTime": "25 mins",
-              "readingMinutes": 25,
-              "wordCount": 6581,
-              "publishedDate": "2004-01-30",
-              "savedDate": "2025-05-15T18:12:26.941000+00:00",
-              "imageUrl": "https://readwise-assets.s3.amazonaws.com/media/reader/parsed_document_assets/102172929/g5yGXChCSGWVm4agVcbBaYOE_XCb95qGPCipIIOfnlw-cove_YHUbHiG.png",
-              "sourceUrl": "https://era.ed.ac.uk/bitstream/handle/1842/1312/TheExtendedMind.pdf?sequence=1",
-              "readwiseUrl": "https://read.readwise.io/read/01jvajbknykyp0g0rgns58p80k",
-              "summary": "The book \"The Extended Mind\" by Andy Clark argues that cognitive processes involve both the brain and the environment, creating a linked system that functions as a single cognitive entity. It suggests that tools like notebooks can be integral to our beliefs and thoughts, just as internal memory is. This view expands our understanding of the mind, showing that it can extend beyond our heads into the world around us.",
-              "whyRead": "Raakt je interesse in filosofie én PKM — Clark & Chalmers rechtvaardigen tools zoals Obsidian filosofisch als letterlijke uitbreiding van het cognitief systeem.",
-              "bestMoment": "analytisch",
-              "tags": [
-                "learning & meta-learning",
-                "philosophy",
-                "tools & workflows"
-              ],
-              "alsoIn": [
-                "boek-top-10"
-              ]
-            },
-            {
-              "position": 9,
-              "id": "01kqwezb39fwf93qzkzhny5gm5",
-              "title": "Abraham Flexner",
-              "author": "Unknown",
-              "siteName": "readwise-upload-pdf",
-              "category": "pdf",
-              "language": null,
-              "readingTime": "21 mins",
-              "readingMinutes": 21,
-              "wordCount": 5378,
-              "publishedDate": null,
-              "savedDate": "2026-05-05T16:19:10.774000+00:00",
-              "imageUrl": "https://library.uab.edu/images/reynolds-finley/collections/medical-greats/FlexnerAbraham_lg.jpg",
-              "sourceUrl": "https://readwise.io/reader/document_raw_content/6405758",
-              "readwiseUrl": "https://read.readwise.io/read/01kqwezb39fwf93qzkzhny5gm5",
-              "summary": "",
-              "whyRead": "Raakt je interesse in filosofie, wetenschapsgeschiedenis en kennisbeheer: Flexner verdedigt ‘nutteloze’ nieuwsgierigheid als bron van zowel menselijke vrijheid als onverwachte maatschappelijke doorbraken.",
-              "bestMoment": "analytisch",
-              "tags": [
-                "history",
-                "philosophy",
-                "popular science"
-              ],
-              "alsoIn": [
-                "boek-top-10"
-              ]
-            },
-            {
-              "position": 10,
               "id": "01j28vhxyk558cnpcqjsy3p80p",
               "title": "Walden",
               "author": "Henry David Thoreau",
@@ -10040,7 +9984,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 11,
+              "position": 9,
               "id": "01j29b7mexjf9xsbecg5fyme08",
               "title": "Civil Disobedience",
               "author": "Henry David Thoreau",
@@ -10063,10 +10007,12 @@ window.TOP_ARTICLES = {
                 "history",
                 "political philosophy"
               ],
-              "alsoIn": []
+              "alsoIn": [
+                "boek-top-10"
+              ]
             },
             {
-              "position": 12,
+              "position": 10,
               "id": "01j29b7stf12s2wpwzqdtfzme7",
               "title": "Self-Reliance",
               "author": "Ralph Waldo Emerson",
@@ -10089,10 +10035,12 @@ window.TOP_ARTICLES = {
                 "philosophy",
                 "sociology & inequality"
               ],
-              "alsoIn": []
+              "alsoIn": [
+                "boek-top-10"
+              ]
             },
             {
-              "position": 13,
+              "position": 11,
               "id": "01j29d329ferdddmnja3ywxwye",
               "title": "As a Man Thinketh: 21st Century Edition (The Wisdom of James Allen)",
               "author": "James Allen",
@@ -10118,7 +10066,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 14,
+              "position": 12,
               "id": "01j29d3606c404ravsnqd4m202",
               "title": "Enchiridion",
               "author": "Epictetus",
@@ -10144,7 +10092,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 15,
+              "position": 13,
               "id": "01j29d3746nt7zejbxvg8cvbr9",
               "title": "Flow: The Psychology of Optimal Experience by Mihaly Csikszentmihalyi",
               "author": "Mihaly Csikszentmihalyi",
@@ -10170,7 +10118,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 16,
+              "position": 14,
               "id": "01j29d3ekt10z6968e7p58zr3a",
               "title": "The Art of War (Chiron Academic Press - The Original Authoritative Edition)",
               "author": "Sun Tzu",
@@ -10196,7 +10144,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 17,
+              "position": 15,
               "id": "01j3291sr3ramzk98nw3hqwcpc",
               "title": "Flow: Psychologie van de optimale ervaring",
               "author": "Mihaly Csikszentmihalyi",
@@ -10222,7 +10170,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 18,
+              "position": 16,
               "id": "01j3smc8th5ac3n6axj4yg2s37",
               "title": "What's Our Problem?",
               "author": "Tim Urban",
@@ -10248,7 +10196,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 19,
+              "position": 17,
               "id": "01k5r4czdk2jfrtx340tw8zcrt",
               "title": "The Social Animal",
               "author": "David Brooks",
@@ -10273,33 +10221,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 20,
-              "id": "01kd1cae7sbstaj4vhva4dsbxr",
-              "title": "The Work Of Art In The Age Of Mechanical Reproduction",
-              "author": "Walter Benjamin",
-              "siteName": "readwise-upload-pdf",
-              "category": "pdf",
-              "language": null,
-              "readingTime": "49 mins",
-              "readingMinutes": 49,
-              "wordCount": 12823,
-              "publishedDate": "2005-08-30",
-              "savedDate": "2025-12-21T21:16:20.090000+00:00",
-              "imageUrl": "https://readwise-assets.s3.amazonaws.com/media/reader/parsed_document_assets/8111851/ddWgA3pnuZB0bJ3H1ffZd947F-EDeYoV2gFBqjDvKTI-cover-8111851.png",
-              "sourceUrl": "https://web.mit.edu/allanmc/www/benjamin.pdf?utm_source=substack&utm_medium=email",
-              "readwiseUrl": "https://read.readwise.io/read/01kd1cae7sbstaj4vhva4dsbxr",
-              "summary": null,
-              "whyRead": "Raakt je interesse in filosofie, politieke ideologieën en kunst als cultuurvorm. Benjamin biedt een uitzonderlijk bruikbaar begrippenkader voor fotografie, film, massamedia en hedendaagse AI-beelden.",
-              "bestMoment": "analytisch",
-              "tags": [
-                "arts & culture",
-                "philosophy",
-                "political philosophy"
-              ],
-              "alsoIn": []
-            },
-            {
-              "position": 21,
+              "position": 18,
               "id": "01kqn2zjmevdr865h4ah7q46ca",
               "title": "The Shortest History of Europe",
               "author": "John Hirst",
@@ -10325,7 +10247,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 22,
+              "position": 19,
               "id": "01kxh3cr3pknc3hxnhsx33xdcx",
               "title": "The Cambridge Handbook of the Law, Ethics and Policy of Artificial Intelligence",
               "author": "read.readwise.io",
@@ -10351,7 +10273,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 23,
+              "position": 20,
               "id": "01kxh3d92yh43t0kddha2vhyxz",
               "title": "Het Begin Van Alles. Een Nieuwe Geschiedenis Van De Mensheid",
               "author": "read.readwise.io",
@@ -10377,7 +10299,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 24,
+              "position": 21,
               "id": "01kxh3dc0gn9f96vqa7s1t9fnw",
               "title": "Het nationaalsocialisme als rancuneleer",
               "author": "read.readwise.io",
@@ -10403,7 +10325,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 25,
+              "position": 22,
               "id": "01kxk0f5xscnb3hqq0r0r6s3xc",
               "title": "Ik zie wat ik geloof",
               "author": "Roxane van Iperen",
@@ -10429,33 +10351,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 26,
-              "id": "01kyxyqrfvk85easc927qpwtns",
-              "title": "The Ones Who Walk Away From Omelas",
-              "author": "Ursula K Le Guin",
-              "siteName": "readwise-upload-pdf",
-              "category": "pdf",
-              "language": "Engels",
-              "readingTime": "11 mins",
-              "readingMinutes": 11,
-              "wordCount": 2791,
-              "publishedDate": "2011-01-06",
-              "savedDate": "2026-08-01T06:03:46.468000+00:00",
-              "imageUrl": "https://readwise-assets.s3.amazonaws.com/media/reader/parsed_document_assets/20184319/yp3_bceraYS2-lcTDYwtfLmW2-p5nqvwrh3QpOZGlK8-cover_B7gbhYF.png",
-              "sourceUrl": "https://readwise.io/reader/document_raw_content/20184319",
-              "readwiseUrl": "https://read.readwise.io/read/01kyxyqrfvk85easc927qpwtns",
-              "summary": "",
-              "whyRead": "Zie de gekozen tags: dit stuk biedt een inhoudelijke ingang die aansluit op die interessegebieden.",
-              "bestMoment": "geconcentreerd",
-              "tags": [
-                "fiction",
-                "philosophy",
-                "political philosophy"
-              ],
-              "alsoIn": []
-            },
-            {
-              "position": 27,
+              "position": 23,
               "id": "01j28vk7ysb2em2twbr7zmfv0b",
               "title": "Een kleine geschiedenis van bijna alles",
               "author": "Bill Bryson",
@@ -10481,7 +10377,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 28,
+              "position": 24,
               "id": "01j29d3d60k7dhd72yfq1ytt3z",
               "title": "Overcoming Overthinking: The Complete Guide to Calm Your Mind by Conquering Anxiety, Sleeplessness, Indecision, and Negative Thoughts",
               "author": "Kirk Teachout",
@@ -10507,7 +10403,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 29,
+              "position": 25,
               "id": "01j3175ma4rfsfx5ryhqvdcpy4",
               "title": "A System for Writing",
               "author": "Bob Doto",
@@ -10532,7 +10428,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 30,
+              "position": 26,
               "id": "01j3530y8vbksg0q6pbjw4dvt7",
               "title": "Principles: Life and Work",
               "author": "Ray Dalio",
@@ -10558,7 +10454,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 31,
+              "position": 27,
               "id": "01j9hge0y4p2at8emp4c3kkhwp",
               "title": "Good Work: Reclaiming Your Inner Ambition",
               "author": "Paul Millerd",
@@ -10584,58 +10480,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 32,
-              "id": "01kj59ew6gb91gscpt8f7htspq",
-              "title": "Motivation And Personality",
-              "author": "Abraham H. Maslow",
-              "siteName": "readwise-upload-pdf",
-              "category": "pdf",
-              "language": null,
-              "readingTime": "9 hrs 9 mins",
-              "readingMinutes": 549,
-              "wordCount": 145420,
-              "publishedDate": "2008-06-21",
-              "savedDate": "2026-02-23T13:01:46.576000+00:00",
-              "imageUrl": "https://readwise-assets.s3.amazonaws.com/media/reader/parsed_document_assets/124245616/rzgKh7XUheFNIlEJ8gDa3KioPRkADi4NY2LArco__1M-cove_ife0uvY.png",
-              "sourceUrl": "https://www.holybooks.com/wp-content/uploads/Motivation-and-Personality-Maslow.pdf",
-              "readwiseUrl": "https://read.readwise.io/read/01kj59ew6gb91gscpt8f7htspq",
-              "summary": null,
-              "whyRead": "Raakt je interesse in filosofie en gedragspsychologie — Maslow's grondleggende werk over menselijke motivatie en de hiërarchie van behoeften. Een van de meest invloedrijke psychologieboeken van de 20e eeuw, en de basis voor vrijwel alle latere humanistische psychologie.",
-              "bestMoment": "analytisch",
-              "tags": [
-                "philosophy",
-                "psychology & behavior"
-              ],
-              "alsoIn": []
-            },
-            {
-              "position": 33,
-              "id": "01kr407cqy79xnqva0edrx5kj8",
-              "title": "The Future Of Everything Is Lies, I Guess",
-              "author": "Kyle Kingsbury",
-              "siteName": "readwise-upload-pdf",
-              "category": "pdf",
-              "language": null,
-              "readingTime": "1 hr 39 mins",
-              "readingMinutes": 99,
-              "wordCount": 26209,
-              "publishedDate": "2026-04-25",
-              "savedDate": "2026-05-08T14:35:20.702000+00:00",
-              "imageUrl": "https://readwise-assets.s3.amazonaws.com/media/reader/parsed_document_assets/448154180/mRLZz4rXDMkGAbkN6gPvCJH9XItLsjmD8EN6lqLtmf8-cove_gytowuy.png",
-              "sourceUrl": "https://aphyr.com/data/posts/411/the-future-of-everything-is-lies.pdf",
-              "readwiseUrl": "https://read.readwise.io/read/01kr407cqy79xnqva0edrx5kj8",
-              "summary": null,
-              "whyRead": "Zeer relevant voor AI-ethiek en maatschappelijke technologie: Kingsbury schrijft polemisch, persoonlijk en technisch onderlegd over LLMs als sociotechnische risico's. De meerwaarde zit in de combinatie van systeemdenken, scherpe taal en aandacht voor informatie-ecologie, werk, verantwoordelijkheid en cultuur.",
-              "bestMoment": "kritisch",
-              "tags": [
-                "ai ethics & society",
-                "programming & software",
-                "sociology & inequality"
-              ],
-              "alsoIn": []
-            },
-            {
-              "position": 34,
+              "position": 28,
               "id": "01j28vsd63175zdak33c46ccey",
               "title": "De druiven der gramschap",
               "author": "Steinbeck",
@@ -10660,7 +10505,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 35,
+              "position": 29,
               "id": "01j29d39ky8ne144y1vxzs5wec",
               "title": "Meditations",
               "author": "Marcus Marcus Aurelius",
@@ -10685,7 +10530,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 36,
+              "position": 30,
               "id": "01j29d3cds6c9f3v6jjbwjd0m8",
               "title": "Never Binge Again(tm): Reprogram Yourself to Think Like a Permanently Thin Person. Stop Overeating and Binge Eating and Stick to the Food Plan of Your Choice!",
               "author": "Glenn Livingston, Ph.d.",
@@ -10711,7 +10556,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 37,
+              "position": 31,
               "id": "01j422ay10wfm6whm7md7qny8s",
               "title": "Vertel me het einde",
               "author": "Valeria Luiselli",
@@ -10736,7 +10581,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 38,
+              "position": 32,
               "id": "01j422az0v87b7wzb7fx7f9r9t",
               "title": "Uitgewoond",
               "author": "Cody Hochstenbach",
@@ -10761,7 +10606,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 39,
+              "position": 33,
               "id": "01j422azr657ycnf0hesy20s0f",
               "title": "Stuurloos",
               "author": "Kustaw Bessems",
@@ -10786,7 +10631,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 40,
+              "position": 34,
               "id": "01j5m80ektv0bcx45xmy2a5kdy",
               "title": "Crime and Punishment",
               "author": "Fyodor Dostoevsky",
@@ -10811,7 +10656,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 41,
+              "position": 35,
               "id": "01j6f8r2v0xj1cgdnf7pqxqjyz",
               "title": "Candide",
               "author": "Voltaire",
@@ -10836,7 +10681,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 42,
+              "position": 36,
               "id": "01j6q1n1v6s769rr1vxcs8ztd1",
               "title": "How to Live on 24 Hours a Day",
               "author": "Arnold Bennett",
@@ -10861,7 +10706,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 43,
+              "position": 37,
               "id": "01jjp69txapfggvjvr95mrfp46",
               "title": "Co-intelligentie",
               "author": "Ethan Mollick",
@@ -10887,33 +10732,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 44,
-              "id": "01jz08nhqrpfqsgm5c62dpcq3w",
-              "title": "De Prijs Van Gratis Internet",
-              "author": "David Redeker",
-              "siteName": "rathenau.nl",
-              "category": "pdf",
-              "language": null,
-              "readingTime": "2 hrs 54 mins",
-              "readingMinutes": 174,
-              "wordCount": 45924,
-              "publishedDate": "2025-05-27",
-              "savedDate": "2025-06-30T11:13:29.848000+00:00",
-              "imageUrl": "https://readwise-assets.s3.amazonaws.com/media/reader/parsed_document_assets/329804376/68XQp43i0P859PSA_2XOTuNPiiizlWN9HCEtghjm5cw-cove_ByuZBUC.png",
-              "sourceUrl": "https://www.rathenau.nl/sites/default/files/2025-06/De_prijs_van_gratis_internet_Rathenau_Instituut.pdf",
-              "readwiseUrl": "https://read.readwise.io/read/01jz08nhqrpfqsgm5c62dpcq3w",
-              "summary": null,
-              "whyRead": "Raakt je interesse in technologie, politieke filosofie en sociologie: dit recente Rathenau-rapport maakt de machts- en waardekwesties achter het ‘gratis’ internet concreet en vertaalt ze naar beleidskeuzes.",
-              "bestMoment": "kritisch",
-              "tags": [
-                "internet & platforms",
-                "programming & software",
-                "sociology & inequality"
-              ],
-              "alsoIn": []
-            },
-            {
-              "position": 45,
+              "position": 38,
               "id": "01k04hd67cscrapj1n35btr6tg",
               "title": "The Inner Compass: Cultivating the Courage to Trust Yourself",
               "author": "Lawrence Yeo",
@@ -10938,7 +10757,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 46,
+              "position": 39,
               "id": "01k5r4ct2znt611x3k9c2v3bqd",
               "title": "The Road to Character",
               "author": "David Brooks",
@@ -10964,7 +10783,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 47,
+              "position": 40,
               "id": "01k8982yc86fjcjhr0h7yctwh2",
               "title": "De tweede berg",
               "author": "David Brooks",
@@ -10989,7 +10808,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 48,
+              "position": 41,
               "id": "01kcfce24153fpqayz3qftq7ch",
               "title": "Chop Wood, Carry Water: The Yoga of Work",
               "author": "Andrew Taggart",
@@ -11014,131 +10833,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 49,
-              "id": "01kchxs90kb1qw9xk8rkcz4418",
-              "title": "The Sovereignty Of Good",
-              "author": "Iris Murdoch",
-              "siteName": "David Egan Philosophy",
-              "category": "pdf",
-              "language": null,
-              "readingTime": "37 mins",
-              "readingMinutes": 37,
-              "wordCount": 9671,
-              "publishedDate": "2019-01-19",
-              "savedDate": "2025-12-15T21:13:41.140000+00:00",
-              "imageUrl": "https://readwise-assets.s3.amazonaws.com/media/reader/parsed_document_assets/340255438/fYFpyHNYfNgiY0s_5FdJroGBikjOiFP8o8aWCdC4RVk-cove_f1svem8.png",
-              "sourceUrl": "https://eganphilosophy.com/wp-content/uploads/2022/05/Murdoch-The-Sovereignty-of-Good-Over-Other-Concepts.pdf?utm_source=substack&utm_medium=email",
-              "readwiseUrl": "https://read.readwise.io/read/01kchxs90kb1qw9xk8rkcz4418",
-              "summary": null,
-              "whyRead": "Raakt je interesse in filosofie en politieke/morele theorie: Murdoch verschuift ethiek van autonome wil naar aandacht, werkelijkheid en zelfoverstijging. Deze lange, uitzonderlijk rijke tekst verbindt Plato, kunst, liefde en nederigheid tot een bruikbaar tegenbeeld van individualistische moraal.",
-              "bestMoment": "geconcentreerd",
-              "tags": [
-                "philosophy"
-              ],
-              "alsoIn": []
-            },
-            {
-              "position": 50,
-              "id": "01kd1cajacdxy2n33rqkrn2rwq",
-              "title": "Feminism, The Body, And The Machine",
-              "author": "Wendell Berry",
-              "siteName": "readwise-upload-pdf",
-              "category": "pdf",
-              "language": null,
-              "readingTime": "27 mins",
-              "readingMinutes": 27,
-              "wordCount": 6948,
-              "publishedDate": "2019-08-19",
-              "savedDate": "2025-12-21T21:16:24.269000+00:00",
-              "imageUrl": "https://readwise-assets.s3.amazonaws.com/media/reader/parsed_document_assets/5587311/66_0MIHsv7Ch5tWT4iwsGpby03olbsFEvacCORzAjUY-cover-5587311.png",
-              "sourceUrl": "https://religioustech.org/wp-content/uploads/2019/09/Berry-Wendell-Feminism-the-Body-and-the-Machine.pdf?utm_source=substack&utm_medium=email",
-              "readwiseUrl": "https://read.readwise.io/read/01kd1cajacdxy2n33rqkrn2rwq",
-              "summary": null,
-              "whyRead": "Raakt je interesse in technologiekritiek en filosofie — Berry's antwoord op feministische critica van zijn 'no computer'-essay; een bredere verdediging van zijn wereldvisie.",
-              "bestMoment": "analytisch",
-              "tags": [
-                "philosophy",
-                "programming & software"
-              ],
-              "alsoIn": []
-            },
-            {
-              "position": 51,
-              "id": "01kd1canjswg2k0ey5cgtz3fa4",
-              "title": "Why I Am Not Going To Buy A Computer",
-              "author": "Wendell Berry",
-              "siteName": "readwise-upload-pdf",
-              "category": "pdf",
-              "language": null,
-              "readingTime": "10 mins",
-              "readingMinutes": 10,
-              "wordCount": 2606,
-              "publishedDate": "2010-08-16",
-              "savedDate": "2025-12-21T21:16:27.610000+00:00",
-              "imageUrl": "https://readwise-assets.s3.amazonaws.com/media/reader/parsed_document_assets/2141105/5hCO91vKEoY07c3FPV0rL0LZfu5RutUk7f5MX-vwCxA-cover-2141105.png",
-              "sourceUrl": "https://classes.matthewjbrown.net/teaching-files/philtech/berry-computer.pdf?utm_source=substack&utm_medium=email",
-              "readwiseUrl": "https://read.readwise.io/read/01kd1canjswg2k0ey5cgtz3fa4",
-              "summary": null,
-              "whyRead": "Raakt je interesse in technologiekritiek — Wendell Berry's iconische essay waarom hij geen computer koopt: een verdediging van eenvoud, lokale economie en ambacht.",
-              "bestMoment": "reflectief",
-              "tags": [
-                "philosophy",
-                "programming & software"
-              ],
-              "alsoIn": []
-            },
-            {
-              "position": 52,
-              "id": "01kd1cbjc3rzw7es7ef6rd6w6j",
-              "title": "The Question Concerning Technology",
-              "author": "Martin Heidegger",
-              "siteName": "readwise-upload-pdf",
-              "category": "pdf",
-              "language": null,
-              "readingTime": "50 mins",
-              "readingMinutes": 50,
-              "wordCount": 12991,
-              "publishedDate": "2008-05-13",
-              "savedDate": "2025-12-21T21:16:57.093000+00:00",
-              "imageUrl": "https://readwise-assets.s3.amazonaws.com/media/reader/parsed_document_assets/95964090/walzz-3ceVsavb1Q9dmtGVTd7LZhcEKi3ciEJ3yiZu0-cover_73oZHUy.png",
-              "sourceUrl": "https://bpb-us-e2.wpmucdn.com/sites.uci.edu/dist/a/3282/files/2018/01/Heidegger_TheQuestionConcerningTechnology.pdf?utm_source=substack&utm_medium=email",
-              "readwiseUrl": "https://read.readwise.io/read/01kd1cbjc3rzw7es7ef6rd6w6j",
-              "summary": null,
-              "whyRead": "Raakt je interesse in filosofie, AI-ethiek en maatschappij: Heidegger biedt een onmisbare taal om technologie niet als neutraal gereedschap maar als wereldbeeld te onderzoeken. Zijn onderscheid tussen poiesis en Enframing maakt hedendaagse AI-, data- en efficiëntielogica scherper bespreekbaar.",
-              "bestMoment": "analytisch",
-              "tags": [
-                "philosophy",
-                "technology"
-              ],
-              "alsoIn": []
-            },
-            {
-              "position": 53,
-              "id": "01khqrhk77ztjy4d5gg6qsvwgr",
-              "title": "Present Tense Technology",
-              "author": "David F. Noble",
-              "siteName": "readwise-upload-pdf",
-              "category": "pdf",
-              "language": null,
-              "readingTime": "31 mins",
-              "readingMinutes": 31,
-              "wordCount": 8049,
-              "publishedDate": "2015-06-14",
-              "savedDate": "2026-02-18T06:56:03.135000+00:00",
-              "imageUrl": "https://readwise-assets.s3.amazonaws.com/media/reader/parsed_document_assets/422317874/JeUOMsUOc-REJiWOyor4BKHlcBVduH-k9_kDj7FQATo-cove_ZkmhFMo.png",
-              "sourceUrl": "https://readwise.io/reader/document_raw_content/422317874",
-              "readwiseUrl": "https://read.readwise.io/read/01khqrhk77ztjy4d5gg6qsvwgr",
-              "summary": "",
-              "whyRead": "Raakt je interesse in politieke filosofie en technologiekritiek — David F. Noble schrijft vanuit neo-marxistische traditie over technologie als machtsinstrument van kapitaal. Scherp en relevant.",
-              "bestMoment": "analytisch",
-              "tags": [
-                "programming & software",
-                "sociology & inequality"
-              ],
-              "alsoIn": []
-            },
-            {
-              "position": 54,
+              "position": 42,
               "id": "01kxrwf09cedgmcejrqnnjbdbn",
               "title": "All Things Shining_ Reading the Western Classics to Find Meaning in a Secular Age - Nederlands",
               "author": "read.readwise.io",
@@ -11164,58 +10859,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 55,
-              "id": "01ky7mcy22aeqm3pq5dr9a4rjz",
-              "title": "Tell me about yourself: LLMs are aware of their learned behaviors",
-              "author": "Jan Betley, Xuchan Bao, Martín Soto, Anna Sztyber-Betley, James Chua, Owain Evans",
-              "siteName": "arXiv.org",
-              "category": "pdf",
-              "language": "Engels",
-              "readingTime": "1 hr 47 mins",
-              "readingMinutes": 107,
-              "wordCount": 28205,
-              "publishedDate": "2025-01-19",
-              "savedDate": "2026-07-23T13:59:48.033000+00:00",
-              "imageUrl": "https://readwise-assets.s3.amazonaws.com/media/reader/parsed_document_assets/263058516/p2rlf_vaFpVBei_fegyTBc331ewXte1PWPlerHl8fKg-cove_h22rDa1.png",
-              "sourceUrl": "https://arxiv.org/pdf/2501.11120",
-              "readwiseUrl": "https://read.readwise.io/read/01ky7mcy22aeqm3pq5dr9a4rjz",
-              "summary": "We study behavioral self-awareness -- an LLM's ability to articulate its\nbehaviors without requiring in-context examples. We finetune LLMs on datasets\nthat exhibit particular behaviors, such as (a) making high-risk economic\ndecisions, and (b) outputting insecure code. Despite the datasets containing no\nexplicit descriptions of the associated behavior, the finetuned LLMs can\nexplicitly describe it. For example, a model trained to output insecure code\nsays, ``The code I write is insecure.'' Indeed, models show behavioral\nself-awareness for a range of behaviors and for diverse evaluations. Note that\nwhile we finetune models to exhibit behaviors like writing insecure code, we do\nnot finetune them to articulate their own behaviors -- models do this without\nany special training or examples.\n  Behavioral self-awareness is relevant for AI safety, as models could use it\nto proactively disclose problematic behaviors. In particular, we study backdoor\npolicies, where models exhibit unexpected behaviors only under certain trigger\nconditions. We find that models can sometimes identify whether or not they have\na backdoor, even without its trigger being present. However, models are not\nable to directly output their trigger by default.\n  Our results show that models have surprising capabilities for self-awareness\nand for the spontaneous articulation of implicit behaviors. Future work could\ninvestigate this capability for a wider range of scenarios and models\n(including practical scenarios), and explain how it emerges in LLMs.",
-              "whyRead": "Dit AI-safety-paper onderzoekt een onverwachte vorm van zelfkennis bij taalmodellen: ze kunnen soms hun impliciet aangeleerde gedragsneigingen benoemen. Het biedt een concreet denkkader voor backdoors, toezicht en de grenzen van modelrapportage.",
-              "bestMoment": "analytisch",
-              "tags": [
-                "ai ethics & society",
-                "linked-from-readwise",
-                "research papers & academia"
-              ],
-              "alsoIn": []
-            },
-            {
-              "position": 56,
-              "id": "01kysfkr91ztafaydtna4raq0r",
-              "title": "The Origins Of Modern Color Science",
-              "author": "J. D. Mollon",
-              "siteName": "readwise-upload-pdf",
-              "category": "pdf",
-              "language": "Engels",
-              "readingTime": "1 hr 27 mins",
-              "readingMinutes": 87,
-              "wordCount": 22929,
-              "publishedDate": "2003-04-04",
-              "savedDate": "2026-07-30T12:22:28.316000+00:00",
-              "imageUrl": "https://readwise-assets.s3.amazonaws.com/media/reader/parsed_document_assets/117388364/6NGkEmHPbV2BPKOIqi5cDNEK4TEmmL6ltbRJJ9pH9S4-cove_sh3IgH0.png",
-              "sourceUrl": "https://vision.psychol.cam.ac.uk/jdmollon/papers/MollonColorScience.pdf?utm_source=substack&utm_medium=email",
-              "readwiseUrl": "https://read.readwise.io/read/01kysfkr91ztafaydtna4raq0r",
-              "summary": null,
-              "whyRead": "Mollon reconstrueert hoe kleurwetenschap zich vanaf Newton ontwikkelde, met scherpe aandacht voor de \"category errors\" die generaties lang optraden — fysica verward met fysiologie. Sluit direct aan bij vandaag gelezen materiaal over qualia en de \"line of purples\": Rohault beschrijft al in 1671 een inverted-qualia-argument, en Mollon bespreekt expliciet de line of purples uit Grassmann/Helmholtz.",
-              "bestMoment": "analytisch",
-              "tags": [
-                "history",
-                "science"
-              ],
-              "alsoIn": []
-            },
-            {
-              "position": 57,
+              "position": 43,
               "id": "01j29arv27jhq09z72ajwp9kjy",
               "title": "The Pathless Path: Imagining a New Story for Work and Life",
               "author": "Paul Millerd",
@@ -11241,32 +10885,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 58,
-              "id": "01kbdw2b09ytrrk61f18889see",
-              "title": "Building An AI-Native Engineering Team",
-              "author": "OpenAI",
-              "siteName": "openai.com",
-              "category": "pdf",
-              "language": null,
-              "readingTime": "15 mins",
-              "readingMinutes": 15,
-              "wordCount": 3898,
-              "publishedDate": null,
-              "savedDate": "2025-12-01T21:11:01.386000+00:00",
-              "imageUrl": "https://readwise-assets.s3.amazonaws.com/media/reader/parsed_document_assets/390166263/Rck8-s2RR6H4rEnUCy2rM7s2VqPe4pgxTXzCFFErwEM-cove_Z1kWiOO.png",
-              "sourceUrl": "https://readwise-assets.s3.amazonaws.com/media/wisereads/articles/building-an-ai-native-engineer/1040.pdf",
-              "readwiseUrl": "https://read.readwise.io/read/01kbdw2b09ytrrk61f18889see",
-              "summary": null,
-              "whyRead": "Raakt je interesse in AI en conceptueel programmeren: een concreet, fase-voor-fase model voor hoe agents de softwareontwikkeling veranderen zonder menselijk eigenaarschap weg te abstraheren.",
-              "bestMoment": "analytisch",
-              "tags": [
-                "professional development",
-                "technology"
-              ],
-              "alsoIn": []
-            },
-            {
-              "position": 59,
+              "position": 44,
               "id": "01j29b7tpmzr9ms5g74w2v2s5s",
               "title": "The 12 Week Year",
               "author": "Brian P. Moran",
@@ -11291,7 +10910,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 60,
+              "position": 45,
               "id": "01j29d38xxr3gp6z4x14nzw6es",
               "title": "How to Win Friends and Influence People",
               "author": "Dale Carnegie",
@@ -11317,7 +10936,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 61,
+              "position": 46,
               "id": "01j29d3aw87yzcwsjrejygem67",
               "title": "Mind Gym: Achieve More by Thinking Differently",
               "author": "Sebastian Bailey",
@@ -11343,7 +10962,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 62,
+              "position": 47,
               "id": "01j29d3fx2eh2cjm300ymbnbeg",
               "title": "The Five Dysfunctions of a Team: A Leadership Fable, 20th Anniversary Edition",
               "author": "Patrick M. Lencioni",
@@ -11369,7 +10988,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 63,
+              "position": 48,
               "id": "01j2pppkbaxn15tdt0yj02g52k",
               "title": "Het boek waarvan je baas niet wil dat je het leest",
               "author": "Roland Grootenboer",
@@ -11394,7 +11013,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 64,
+              "position": 49,
               "id": "01jjc89qwjr4ry5xp4wneehw5x",
               "title": "Ondernemingsraad voor Dummies",
               "author": "Ruben Houweling",
@@ -11418,7 +11037,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 65,
+              "position": 50,
               "id": "01k4z6fmjcf1ffwdqjh2hf4j5k",
               "title": "Diep werk: werken in een wereld vol afleiding",
               "author": "Cal Newport",
@@ -11443,7 +11062,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 66,
+              "position": 51,
               "id": "01kwaadj8686tk3pzbr7wd9axw",
               "title": "Tiny Experiments",
               "author": "Anne-Laure Le Cunff",
@@ -11469,7 +11088,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 67,
+              "position": 52,
               "id": "01kxh3cq0yd7tq672g97w9pts7",
               "title": "Rest_ Why You Get More Done When You Work Less",
               "author": "read.readwise.io",
@@ -11495,7 +11114,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 68,
+              "position": 53,
               "id": "01j28vk6sshcs4s85dctd96np2",
               "title": "Hoe we een klimaatramp kunnen vermijden",
               "author": "Bill Gates",
@@ -11521,7 +11140,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 69,
+              "position": 54,
               "id": "01j29d3dwx997fvp2v7meykqtp",
               "title": "Stop Overthinking: 23 Techniques to Relieve Stress, Stop Negative Spirals, Declutter Your Mind, and Focus on the Present",
               "author": "Nick Trenton",
@@ -11547,7 +11166,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 70,
+              "position": 55,
               "id": "01j29d3gwr2rypyn0gyfn4dym7",
               "title": "The Great Mental Models: General Thinking Concepts",
               "author": "Farnam Street",
@@ -11573,7 +11192,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 71,
+              "position": 56,
               "id": "01j29d3hp212xny83jkj13kan8",
               "title": "Think and Grow Rich",
               "author": "Napoleon Hill",
@@ -11599,7 +11218,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 72,
+              "position": 57,
               "id": "01j39ztxxknjf83wz26vwx4mz4",
               "title": "Mindset",
               "author": "Dr Carol S. Dweck",
@@ -11625,7 +11244,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 73,
+              "position": 58,
               "id": "01kc0e4wxqhr18yfp4mf49hg2n",
               "title": "Short Science Fiction",
               "author": "Isaac Asimov",
@@ -11650,7 +11269,1123 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
+              "position": 59,
+              "id": "01j28vk8x6dvbnv05fex4z13dz",
+              "title": "Het drielichamenprobleem",
+              "author": "Cixin Liu",
+              "siteName": "readwise.io",
+              "category": "epub",
+              "language": "Nederlands",
+              "readingTime": "7 hrs 41 mins",
+              "readingMinutes": 461,
+              "wordCount": 121948,
+              "publishedDate": "2020-10-16",
+              "savedDate": "2024-07-08T09:43:00.797000+00:00",
+              "imageUrl": "https://readwise-assets.s3.amazonaws.com/media/reader/parsed_document_assets/192314173/NulSUcoOrKZAv9p14JoCaKW51boGQarT980bUIeV-ok-co_owv8SRv.xhtml",
+              "sourceUrl": "private://read/01j28vk8x6dvbnv05fex4z13dz",
+              "readwiseUrl": "https://read.readwise.io/read/01j28vk8x6dvbnv05fex4z13dz",
+              "summary": "In \"Het drielichamenprobleem\" hebben de personages gesprekken over de uitdagingen van beschaving en kennis. Wang herinnert zich de vernietiging van twee beschavingen door extreme kou en hitte. De auteur benadrukt het belang van langetermijndenken en begrip om strategische blinde vlekken te vermijden.",
+              "whyRead": "Raakt je interesse in sciencefiction; dit Chinese SF-meesterwerk combineert kwantumfysica, de Culturele Revolutie en first-contact-thema's tot een ambitieuze roman.",
+              "bestMoment": "ontspannen",
+              "tags": [
+                "fiction",
+                "popular science"
+              ],
+              "alsoIn": []
+            },
+            {
+              "position": 60,
+              "id": "01j28vse5rr7e97cxrbf3jh4h1",
+              "title": "Ons feilbare denken",
+              "author": "Daniel Kahneman",
+              "siteName": "readwise.io",
+              "category": "epub",
+              "language": "Nederlands",
+              "readingTime": "17 hrs 30 mins",
+              "readingMinutes": 1050,
+              "wordCount": 278110,
+              "publishedDate": null,
+              "savedDate": "2024-07-08T09:46:22.791000+00:00",
+              "imageUrl": "https://readwise-assets.s3.amazonaws.com/media/reader/parsed_document_assets/192314627/ngqyZzMIWDvQondJK2g9ujd-W29R7DwmwUJvDnBOuMc-cove_anJI4u7.png",
+              "sourceUrl": "private://read/01j28vse5rr7e97cxrbf3jh4h1",
+              "readwiseUrl": "https://read.readwise.io/read/01j28vse5rr7e97cxrbf3jh4h1",
+              "summary": "Het boek \"Ons feilbare denken\" van Daniel Kahneman behandelt hoe ons denken en beslissingen beïnvloed worden door instincten en biases. Hij legt uit dat we vaak onbewust keuzes maken op basis van irrelevante informatie, wat leidt tot verkeerde oordelen. Daarnaast benadrukt hij het belang van onafhankelijke meningen in groepsbeslissingen om betere uitkomsten te bereiken.",
+              "whyRead": "Raakt je interesse in psychologie en cognitieve wetenschap; Kahneman's meesterwerk legt uit hoe ons denken systematisch faalt — essentieel voor iedereen die nadenkt over oordelen en beslissingen.",
+              "bestMoment": "analytisch",
+              "tags": [
+                "popular science",
+                "psychology & behavior"
+              ],
+              "alsoIn": []
+            },
+            {
+              "position": 61,
+              "id": "01j29b7q4wm936424r1keh3kz8",
+              "title": "How to Read a Book",
+              "author": "Mortimer J. Adler",
+              "siteName": "readwise.io",
+              "category": "epub",
+              "language": "Engels",
+              "readingTime": "9 hrs 6 mins",
+              "readingMinutes": 546,
+              "wordCount": 144637,
+              "publishedDate": "2011-05-10",
+              "savedDate": "2024-07-08T14:16:19.367000+00:00",
+              "imageUrl": "https://readwise-assets.s3.amazonaws.com/media/reader/parsed_document_assets/192393491/XBSJXWZbNb9n7UbtLwVri1Uj-2GNZHUwQZd2F-jI_XI-cover-cover.jpeg",
+              "sourceUrl": "private://read/01j29b7q4wm936424r1keh3kz8",
+              "readwiseUrl": "https://read.readwise.io/read/01j29b7q4wm936424r1keh3kz8",
+              "summary": "Understanding a book starts with the writer sharing insights that readers lack. Readers must bridge this gap to achieve clarity and increased understanding. Active reading and critical thinking are essential for fully comprehending and engaging with a book's content.",
+              "whyRead": null,
+              "bestMoment": null,
+              "tags": [
+                "arts & culture",
+                "learning & meta-learning"
+              ],
+              "alsoIn": []
+            },
+            {
+              "position": 62,
+              "id": "01j29d3477vpv22gsyz7y1zrp7",
+              "title": "Deep Nutrition: Why Your Genes Need Traditional Food",
+              "author": "Catherine Shanahan, M. D.",
+              "siteName": "readwise.io",
+              "category": "epub",
+              "language": "Engels",
+              "readingTime": "19 hrs 38 mins",
+              "readingMinutes": 1178,
+              "wordCount": 312044,
+              "publishedDate": "2017-01-03",
+              "savedDate": "2024-07-08T14:48:46.155000+00:00",
+              "imageUrl": "https://readwise-assets.s3.amazonaws.com/media/reader/parsed_document_assets/192401240/jfK5f80o7qNc3L1lkpSG6603GoAcTSoObX__CNCgW38-cover-cover.jpeg",
+              "sourceUrl": "private://read/01j29d3477vpv22gsyz7y1zrp7",
+              "readwiseUrl": "https://read.readwise.io/read/01j29d3477vpv22gsyz7y1zrp7",
+              "summary": "In \"Deep Nutrition,\" Dr. Catherine Shanahan emphasizes the importance of traditional foods for better health, supported by new scientific findings. She argues that processed foods and vegetable oils are harmful, while natural fats and well-sourced ingredients can enhance our health. This updated edition aims to reinforce the idea that our diet directly influences our genes and overall well-being.",
+              "whyRead": "Raakt je interesse in gezondheid en voeding; Shanahan onderbouwt met evolutionaire biologie waarom traditionele voeding beter aansluit bij onze genetische aanleg.",
+              "bestMoment": "leergierig",
+              "tags": [
+                "food & cooking",
+                "health & wellness",
+                "popular science"
+              ],
+              "alsoIn": []
+            },
+            {
+              "position": 63,
+              "id": "01j29d3tbesb7m09zyn0z78vjr",
+              "title": "Wait But Why Year One: We finally figured out how to put a blog onto an e-reader",
+              "author": "Tim Urban",
+              "siteName": "readwise.io",
+              "category": "epub",
+              "language": "Engels",
+              "readingTime": "16 hrs 41 mins",
+              "readingMinutes": 1001,
+              "wordCount": 265158,
+              "publishedDate": "2015-02-22",
+              "savedDate": "2024-07-08T14:49:08.727000+00:00",
+              "imageUrl": "https://readwise-assets.s3.amazonaws.com/media/reader/parsed_document_assets/192401427/wEUznUyStSMRHsB-noUdERV5VGApikVFGeqikNKoFgE-cover-cover.jpeg",
+              "sourceUrl": "private://read/01j29d3tbesb7m09zyn0z78vjr",
+              "readwiseUrl": "https://read.readwise.io/read/01j29d3tbesb7m09zyn0z78vjr",
+              "summary": "New Year’s Day, 2013.",
+              "whyRead": "Raakt je interesse in wetenschap en betekenis — Tim Urban schrijft essays die complex zijn en grappig tegelijk, met diepe conceptuele diepgang.",
+              "bestMoment": "ontspannen",
+              "tags": [
+                "personal growth & life philosophy",
+                "popular science"
+              ],
+              "alsoIn": []
+            },
+            {
+              "position": 64,
+              "id": "01j29d3v4emc1z1ap0jt2jvqfh",
+              "title": "Your Brain's Not Broken",
+              "author": "Tamara Phd Rosier",
+              "siteName": "readwise.io",
+              "category": "epub",
+              "language": "Engels",
+              "readingTime": "3 hrs 36 mins",
+              "readingMinutes": 216,
+              "wordCount": 57065,
+              "publishedDate": "2021-09-20",
+              "savedDate": "2024-07-08T14:49:09.530000+00:00",
+              "imageUrl": "https://readwise-assets.s3.amazonaws.com/media/reader/parsed_document_assets/192401430/6TAJrsQO-utNzfVvRFKL9Z8ApFeCIz9zIF4MnbmZ7Q8-cover-cover.jpeg",
+              "sourceUrl": "private://read/01j29d3v4emc1z1ap0jt2jvqfh",
+              "readwiseUrl": "https://read.readwise.io/read/01j29d3v4emc1z1ap0jt2jvqfh",
+              "summary": "This book explores the emotional challenges faced by individuals with ADHD, highlighting their intense feelings and thought patterns. It explains how these emotions can impact daily life and motivation, often leading to frustration and self-doubt. By understanding these issues, readers can learn strategies to better manage their ADHD and achieve their goals.",
+              "whyRead": "Raakt je interesse in ADHD — Rosier legt de nadruk op emotionele dysregulatie als kernsymptoom dat veel zelfhulpboeken over het hoofd zien.",
+              "bestMoment": "reflectief",
+              "tags": [
+                "adhd & neurodivergence",
+                "learning & meta-learning",
+                "psychology & behavior"
+              ],
+              "alsoIn": []
+            },
+            {
+              "position": 65,
+              "id": "01j29d3vyb3g8h2zwk7t0gcyrs",
+              "title": "Your Life Can Be Better Second Edition: Using Strategies for Adult ADHD",
+              "author": "Douglas A Puryear",
+              "siteName": "readwise.io",
+              "category": "epub",
+              "language": "Engels",
+              "readingTime": "5 hrs 37 mins",
+              "readingMinutes": 337,
+              "wordCount": 89162,
+              "publishedDate": "2020-10-26",
+              "savedDate": "2024-07-08T14:49:10.359000+00:00",
+              "imageUrl": "https://readwise-assets.s3.amazonaws.com/media/reader/parsed_document_assets/192401432/nKkRonm71WGlhdmsHONA4YOozGyLhCZQcreBAvL00eE-cover-cover.jpeg",
+              "sourceUrl": "private://read/01j29d3vyb3g8h2zwk7t0gcyrs",
+              "readwiseUrl": "https://read.readwise.io/read/01j29d3vyb3g8h2zwk7t0gcyrs",
+              "summary": "This book offers strategies to help manage the challenges of adult ADHD, like losing keys and trouble finishing tasks. It emphasizes the importance of using tools like appointment books and to-do lists to stay organized. Coping with ADHD takes time, patience, and finding strategies that work for each individual.",
+              "whyRead": "Raakt je interesse in ADHD — Puryear geeft praktische strategieën voor volwassenen, gericht op werken mét de ADHD-hersenen in plaats van ertegen.",
+              "bestMoment": "leergierig",
+              "tags": [
+                "adhd & neurodivergence",
+                "personal growth & life philosophy",
+                "psychology & behavior"
+              ],
+              "alsoIn": []
+            },
+            {
+              "position": 66,
+              "id": "01j7x2qde4aaycp5jtn9b23jqh",
+              "title": "The Importance of Being Earnest",
+              "author": "Oscar Wilde",
+              "siteName": null,
+              "category": "epub",
+              "language": "Engels",
+              "readingTime": "1 hr 24 mins",
+              "readingMinutes": 84,
+              "wordCount": 22206,
+              "publishedDate": "2014-05-25",
+              "savedDate": "2024-09-16T09:30:53.042000+00:00",
+              "imageUrl": "https://readwise-assets.s3.amazonaws.com/media/reader/parsed_document_assets/215851494/bnuPwwoJnMZcWgYE_5CBlUijiO7RStXvopyfJv9dboI-cove_WfyNl1M.jpg",
+              "sourceUrl": "private://read/01j7phr9gma7cjv8qr88ph3432",
+              "readwiseUrl": "https://read.readwise.io/read/01j7x2qde4aaycp5jtn9b23jqh",
+              "summary": "\"The Importance of Being Earnest\" is a play by Oscar Wilde. The text is believed to be in the public domain in the United States. Users outside the U.S. should check local copyright laws before using it.",
+              "whyRead": null,
+              "bestMoment": null,
+              "tags": [
+                "arts & culture",
+                "fiction"
+              ],
+              "alsoIn": []
+            },
+            {
+              "position": 67,
+              "id": "01jaraxstjdzrdw2zs4r638p2v",
+              "title": "Journey to the Center of the Earth",
+              "author": "Jules Verne",
+              "siteName": null,
+              "category": "epub",
+              "language": "Engels",
+              "readingTime": "4 hrs 45 mins",
+              "readingMinutes": 285,
+              "wordCount": 75359,
+              "publishedDate": "2020-07-01",
+              "savedDate": "2024-10-21T20:05:07.695000+00:00",
+              "imageUrl": "https://readwise-assets.s3.amazonaws.com/media/reader/parsed_document_assets/227853731/n_DX0U-lqXRsFu1KEoKZKvMCIDbacUU2wuENmn_ux1w-cove_Coa17sJ.jpg",
+              "sourceUrl": "private://read/01jagf2tpmeye0951wr9zt69cz",
+              "readwiseUrl": "https://read.readwise.io/read/01jaraxstjdzrdw2zs4r638p2v",
+              "summary": "In \"Journey to the Center of the Earth,\" the narrator feels both excitement and fear as he and his companions descend into a volcanic crater. Their guide, Hans, skillfully leads them through dangerous terrain while the narrator's uncle eagerly observes everything. Despite the challenges, Hans bravely manages to save important supplies, showing his dedication to the journey.",
+              "whyRead": null,
+              "bestMoment": null,
+              "tags": [
+                "fiction"
+              ],
+              "alsoIn": []
+            },
+            {
+              "position": 68,
+              "id": "01k4d2kxngyzjt0vzg9sav4hbn",
+              "title": "Traumasporen in lichaam, brein en geest",
+              "author": "Bessel van der Kolk",
+              "siteName": "readwise-upload-epub",
+              "category": "epub",
+              "language": "Nederlands",
+              "readingTime": "12 hrs 21 mins",
+              "readingMinutes": 741,
+              "wordCount": 196105,
+              "publishedDate": "2024-02-13",
+              "savedDate": "2025-09-05T13:56:21.825000+00:00",
+              "imageUrl": "https://readwise-assets.s3.amazonaws.com/media/reader/parsed_document_assets/359654392/tn3CMWTRwMi0aohChGFQjr3bfecIqz_C455wIEGS8YY-cover-cover.jpg",
+              "sourceUrl": "private://read/01k4d2kxngyzjt0vzg9sav4hbn",
+              "readwiseUrl": "https://read.readwise.io/read/01k4d2kxngyzjt0vzg9sav4hbn",
+              "summary": "Trauma verandert lichaam, brein en geest en neemt levensvreugde weg.  \nGetroffenen herbeleven angst en machteloosheid, voelen zich vaak niet present en kunnen hun emoties niet verwoorden.  \nHerstel vraagt veilige relaties, wederkerige steun en tijd om opnieuw gevoelens en verbinding te leren.",
+              "whyRead": "Raakt je interesse in psychologie en het lichaam als drager van trauma — Van der Kolk laat zien hoe traumaverwerking verder gaat dan praten.",
+              "bestMoment": "analytisch",
+              "tags": [
+                "health & wellness",
+                "psychology & behavior"
+              ],
+              "alsoIn": []
+            },
+            {
+              "position": 69,
+              "id": "01k55qwkzkqaphvktn41xznxv2",
+              "title": "Wuthering Heights",
+              "author": "Emily Brontë",
+              "siteName": "readwise-upload-epub",
+              "category": "epub",
+              "language": "Engels",
+              "readingTime": "7 hrs 34 mins",
+              "readingMinutes": 454,
+              "wordCount": 120074,
+              "publishedDate": "2018-07-18",
+              "savedDate": "2025-09-15T03:49:53.267000+00:00",
+              "imageUrl": "https://readwise-assets.s3.amazonaws.com/media/reader/parsed_document_assets/363048604/vOfQiI9QA6en9Hm-oMSTeWbt48DZS8lVBzmjgKQ-5m8-cove_CP7HIk2.jpg",
+              "sourceUrl": "private://read/01k55qwkzkqaphvktn41xznxv2",
+              "readwiseUrl": "https://read.readwise.io/read/01k55qwkzkqaphvktn41xznxv2",
+              "summary": "Heathcliff controls visits and provokes the household. Catherine is distraught and insists on seeing Linton because he may be dying. Mrs. Heathcliff sits alone by the bedside while servants tend to Linton and everyone is tense.",
+              "whyRead": null,
+              "bestMoment": null,
+              "tags": [
+                "fiction"
+              ],
+              "alsoIn": []
+            },
+            {
+              "position": 70,
+              "id": "01k5r4d6q3vkqnk8tn09k2eqrd",
+              "title": "How to Know a Person",
+              "author": "David Brooks",
+              "siteName": "readwise-upload-epub",
+              "category": "epub",
+              "language": "Engels",
+              "readingTime": "5 hrs 35 mins",
+              "readingMinutes": 335,
+              "wordCount": 88676,
+              "publishedDate": "2023-10-24",
+              "savedDate": "2025-09-22T07:14:59.447000+00:00",
+              "imageUrl": "https://readwise-assets.s3.amazonaws.com/media/reader/parsed_document_assets/366099104/9O0uwisXg02WA9b8IC0xKVgu-DaTofzz_nCRe5eliFI-cove_HdATnJS.jpg",
+              "sourceUrl": "private://read/01k5r4d6q3vkqnk8tn09k2eqrd",
+              "readwiseUrl": "https://read.readwise.io/read/01k5r4d6q3vkqnk8tn09k2eqrd",
+              "summary": "Knowing others deeply is a way of life, not just a set of techniques. People who have suffered and reflected can empathize more and help others grow. When someone truly sees us, it changes how we see ourselves and helps us become better.",
+              "whyRead": "Raakt je interesse in leren en meta-leren — zie ook andere Range-notitie; dit is een duplicaat van dezelfde editie.",
+              "bestMoment": "leergierig",
+              "tags": [
+                "learning & meta-learning",
+                "personal growth & life philosophy",
+                "popular science"
+              ],
+              "alsoIn": []
+            },
+            {
+              "position": 71,
+              "id": "01k7rktczvt1p4nx2bqf9gqas2",
+              "title": "Waarom generalisten verder komen (Range)",
+              "author": "David Epstein",
+              "siteName": "readwise-upload-epub",
+              "category": "epub",
+              "language": "Nederlands",
+              "readingTime": "7 hrs 34 mins",
+              "readingMinutes": 454,
+              "wordCount": 120240,
+              "publishedDate": "2020-02-20",
+              "savedDate": "2025-10-17T08:15:44.144000+00:00",
+              "imageUrl": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAlgCWAAD/7R9KUGhvdG9zaG9wIDMuMAA4QklNBAQAAAAAAEMcAVoAAxslRxwCAAACAAAcAgUAL0Vwc3RlaW5fV2Fhcm9tIGdlbmVyYWxpc3RlbiB2ZXJkZXIga29tZW5AMS5pbmRkADhCSU0EJQAAAAAAEO5u0BoNzgfxIpBYs+v3Ajw4QklNBDoAAAAAAQsAAAAQAAAAAQAAAAAAC3ByaW50T3V0cHV0AAAABQAAAABQc3RTYm9vbAEAAAAASW50ZWVudW0AAAAASW50ZQAAAABDbHJtAAAAD3ByaW50U2l4dGVlbkJpdGJvb2wAAAAAC3ByaW50ZXJOYW1lVEVYVAAAABAAUABoAGEAcwBlAHIAIAA3ADgAMAAwAEcAWAAgADIAAAAAAA9wcmludFByb29mU2V0dXBPYmpjAAAAEABJAG4AcwB0AGUAbABsAGUAbgAgAHAAcgBvAGUAZgAAAAAACnByb29mU2V0dXAAAAABAAAAAEJsdG5lbnVtAAAADGJ1aWx0aW5Qcm9vZgAAAAlwcm9vZkNNWUsAOEJJTQQ7AAAAAAItAAAAEAAAAAEAAAAAABJwcmludE91dHB1dE9wdGlvbnMAAAAXAAAAAENwdG5ib29sAAAAAABDbGJyYm9vbAAAAAAAUmdzTWJvb2wAAAAAAENybkNib29sAAAAAABDbnRDYm9vbAAAAAAATGJsc2Jvb2wAAAAAAE5ndHZib29sAAAAAABFbWxEYm9vbAAAAAAASW50cmJvb2wAAAAAAEJja2dPYmpjAAAAAQAAAAAAAFJHQkMAAAADAAAAAFJkICBkb3ViQG/gAAAAAAAAAAAAR3JuIGRvdWJAb+AAAAAAAAAAAABCbCAgZG91YkBv4AAAAAAAAAAAAEJyZFRVbnRGI1JsdAAAAAAAAAAAAAAAAEJsZCBVbnRGI1JsdAAAAAAAAAAAAAAAAFJzbHRVbnRGI1B4bEBiwAAAAAAAAAAACnZlY3RvckRhdGFib29sAQAAAABQZ1BzZW51bQAAAABQZ1BzAAAAAFBnUEMAAAAATGVmdFVudEYjUmx0AAAAAAAAAAAAAAAAVG9wIFVudEYjUmx0AAAAAAAAAAAAAAAAU2NsIFVudEYjUHJjQFkAAAAAAAAAAAAQY3JvcFdoZW5QcmludGluZ2Jvb2wAAAAADmNyb3BSZWN0Qm90dG9tbG9uZwAAAAAAAAAMY3JvcFJlY3RMZWZ0bG9uZwAAAAAAAAANY3JvcFJlY3RSaWdodGxvbmcAAAAAAAAAC2Nyb3BSZWN0VG9wbG9uZwAAAAAAOEJJTQPtAAAAAAAQAJYAAAABAAIAlgAAAAEAAjhCSU0EJgAAAAAADgAAAAAAAAAAAAA/gAAAOEJJTQPyAAAAAAAKAAD///////8AADhCSU0EDQAAAAAABAAAAFo4QklNBBkAAAAAAAQAAAAeOEJJTQPzAAAAAAAJAAAAAAAAAAABADhCSU0nEAAAAAAACgABAAAAAAAAAAI4QklNA/UAAAAAAEgAL2ZmAAEAbGZmAAYAAAAAAAEAL2ZmAAEAoZmaAAYAAAAAAAEAMgAAAAEAWgAAAAYAAAAAAAEANQAAAAEALQAAAAYAAAAAAAE4QklNA/gAAAAAAHAAAP////////////////////////////8D6AAAAAD/////////////////////////////A+gAAAAA/////////////////////////////wPoAAAAAP////////////////////////////8D6AAAOEJJTQQIAAAAAAAQAAAAAQAAAkAAAAJAAAAAADhCSU0EHgAAAAAABAAAAAA4QklNBBoAAAAAA0UAAAAGAAAAAAAAAAAAAAUAAAADQwAAAAgAdgBvAG8AcgBwAGwAYQB0AAAAAQAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAANDAAAFAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAbnVsbAAAAAIAAAAGYm91bmRzT2JqYwAAAAEAAAAAAABSY3QxAAAABAAAAABUb3AgbG9uZwAAAAAAAAAATGVmdGxvbmcAAAAAAAAAAEJ0b21sb25nAAAFAAAAAABSZ2h0bG9uZwAAA0MAAAAGc2xpY2VzVmxMcwAAAAFPYmpjAAAAAQAAAAAABXNsaWNlAAAAEgAAAAdzbGljZUlEbG9uZwAAAAAAAAAHZ3JvdXBJRGxvbmcAAAAAAAAABm9yaWdpbmVudW0AAAAMRVNsaWNlT3JpZ2luAAAADWF1dG9HZW5lcmF0ZWQAAAAAVHlwZWVudW0AAAAKRVNsaWNlVHlwZQAAAABJbWcgAAAABmJvdW5kc09iamMAAAABAAAAAAAAUmN0MQAAAAQAAAAAVG9wIGxvbmcAAAAAAAAAAExlZnRsb25nAAAAAAAAAABCdG9tbG9uZwAABQAAAAAAUmdodGxvbmcAAANDAAAAA3VybFRFWFQAAAABAAAAAAAAbnVsbFRFWFQAAAABAAAAAAAATXNnZVRFWFQAAAABAAAAAAAGYWx0VGFnVEVYVAAAAAEAAAAAAA5jZWxsVGV4dElzSFRNTGJvb2wBAAAACGNlbGxUZXh0VEVYVAAAAAEAAAAAAAlob3J6QWxpZ25lbnVtAAAAD0VTbGljZUhvcnpBbGlnbgAAAAdkZWZhdWx0AAAACXZlcnRBbGlnbmVudW0AAAAPRVNsaWNlVmVydEFsaWduAAAAB2RlZmF1bHQAAAALYmdDb2xvclR5cGVlbnVtAAAAEUVTbGljZUJHQ29sb3JUeXBlAAAAAE5vbmUAAAAJdG9wT3V0c2V0bG9uZwAAAAAAAAAKbGVmdE91dHNldGxvbmcAAAAAAAAADGJvdHRvbU91dHNldGxvbmcAAAAAAAAAC3JpZ2h0T3V0c2V0bG9uZwAAAAAAOEJJTQQoAAAAAAAMAAAAAj/wAAAAAAAAOEJJTQQUAAAAAAAEAAAAAjhCSU0EDAAAAAAV6QAAAAEAAABoAAAAnwAAATgAAMHIAAAVzQAYAAH/2P/tAAxBZG9iZV9DTQAB/+4ADkFkb2JlAGSAAAAAAf/bAIQADAgICAkIDAkJDBELCgsRFQ8MDA8VGBMTFRMTGBEMDAwMDAwRDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAENCwsNDg0QDg4QFA4ODhQUDg4ODhQRDAwMDAwREQwMDAwMDBEMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwM/8AAEQgAnwBoAwEiAAIRAQMRAf/dAAQAB//EAT8AAAEFAQEBAQEBAAAAAAAAAAMAAQIEBQYHCAkKCwEAAQUBAQEBAQEAAAAAAAAAAQACAwQFBgcICQoLEAABBAEDAgQCBQcGCAUDDDMBAAIRAwQhEjEFQVFhEyJxgTIGFJGhsUIjJBVSwWIzNHKC0UMHJZJT8OHxY3M1FqKygyZEk1RkRcKjdDYX0lXiZfKzhMPTdePzRieUpIW0lcTU5PSltcXV5fVWZnaGlqa2xtbm9jdHV2d3h5ent8fX5/cRAAICAQIEBAMEBQYHBwYFNQEAAhEDITESBEFRYXEiEwUygZEUobFCI8FS0fAzJGLhcoKSQ1MVY3M08SUGFqKygwcmNcLSRJNUoxdkRVU2dGXi8rOEw9N14/NGlKSFtJXE1OT0pbXF1eX1VmZ2hpamtsbW5vYnN0dXZ3eHl6e3x//aAAwDAQACEQMRAD8A9VSQ8h768e2xkF7GOc0O4kCRuhc7g/XOv7GcnqlJpH2LG6kDjiy/9XyW2Pc61jK99X2N2Pb69n816fp2/wCF9BJT0ySwuofWjDrpyW4tzWZGLYyu119Nrq27rMVkOFDfUd9oqzqfsj2eyzf6n81TeidK68Op9Zz8Sja/DxK6jVbtLS6w25mLlbXudttpquwfTZZ6dfv9X+dr9OxJTspLlum/XSuymzI6iGVsZYMcU49d9totdflYVIOypzXsynYX6H0/8J...",
+              "sourceUrl": "private://read/01k7rktczvt1p4nx2bqf9gqas2",
+              "readwiseUrl": "https://read.readwise.io/read/01k7rktczvt1p4nx2bqf9gqas2",
+              "summary": "Brede vaardigheden en flexibel denken helpen mensen beter te presteren dan smalle specialisatie alleen. Vroege korte voorsprongen verdwijnen vaak omdat anderen snel bijleren. Teams van slimme generalisten leveren vaak de beste oplossingen in complexe situaties.",
+              "whyRead": "Raakt je interesse in leren en meta-leren — Epsteins contra-intuïtieve argument dat breedte van ervaring en late specialisatie in complexe domeinen juist voordelen geeft.",
+              "bestMoment": "leergierig",
+              "tags": [
+                "learning & meta-learning",
+                "popular science"
+              ],
+              "alsoIn": []
+            },
+            {
+              "position": 72,
+              "id": "01keqeq7nyxjpnsd031e66kmej",
+              "title": "As I Lay Dying",
+              "author": "William Faulkner",
+              "siteName": "readwise-upload-epub",
+              "category": "epub",
+              "language": "Engels",
+              "readingTime": "3 hrs 47 mins",
+              "readingMinutes": 227,
+              "wordCount": 59984,
+              "publishedDate": "2026-01-01",
+              "savedDate": "2026-01-11T21:17:17.017000+00:00",
+              "imageUrl": "https://readwise-assets.s3.amazonaws.com/media/reader/parsed_document_assets/407300804/TXSgZHB_jKVJ5IsDOp_gAQlKQDHUEHfbc-IVf5V35g0-cove_DMNdXPg.jpg",
+              "sourceUrl": "private://read/01keqeq7nyxjpnsd031e66kmej",
+              "readwiseUrl": "https://read.readwise.io/read/01keqeq7nyxjpnsd031e66kmej",
+              "summary": "The family argues about the timing and Jewel’s horse as they prepare to carry Addie’s coffin. They try to cross the river, and the wagon, mules, and horse get swept up. Cash is hurt and loses his tools, and Dewey Dell helps him as they move on.",
+              "whyRead": null,
+              "bestMoment": null,
+              "tags": [
+                "fiction"
+              ],
+              "alsoIn": []
+            },
+            {
+              "position": 73,
+              "id": "01kgdfpy0f0pts3sax7x38mdqc",
+              "title": "Short Fiction",
+              "author": "Mary Shelley",
+              "siteName": "readwise-upload-epub",
+              "category": "epub",
+              "language": "Engels",
+              "readingTime": "11 hrs 13 mins",
+              "readingMinutes": 673,
+              "wordCount": 178271,
+              "publishedDate": "2025-12-13",
+              "savedDate": "2026-02-01T20:53:34.193000+00:00",
+              "imageUrl": "https://readwise-assets.s3.amazonaws.com/media/reader/parsed_document_assets/415657935/YhKlVj-e0ktEyTkN8AZo5N2tyjNwdUHVkD90NtsHd3c-cove_mGg50ik.jpg",
+              "sourceUrl": "private://read/01kgdfpy0f0pts3sax7x38mdqc",
+              "readwiseUrl": "https://read.readwise.io/read/01kgdfpy0f0pts3sax7x38mdqc",
+              "summary": "Stories of love, loss, and curses haunt these lives. Secret vows, forced matches, and deaths bring grief and flight. Yet through children and care, despair softens into hope.",
+              "whyRead": null,
+              "bestMoment": null,
+              "tags": [
+                "fiction"
+              ],
+              "alsoIn": []
+            },
+            {
               "position": 74,
+              "id": "01kksm80zx4vk4cskkm9r0nddv",
+              "title": "On the Art of Reading",
+              "author": "Arthur Quiller-Couch",
+              "siteName": "readwise-upload-epub",
+              "category": "epub",
+              "language": "Engels",
+              "readingTime": "4 hrs 4 mins",
+              "readingMinutes": 244,
+              "wordCount": 64446,
+              "publishedDate": "2024-01-31",
+              "savedDate": "2026-03-15T20:50:48.897000+00:00",
+              "imageUrl": "https://readwise-assets.s3.amazonaws.com/media/reader/parsed_document_assets/432647248/xvyjN7fhRsYVj_TrbnI8Q00FAb3vGiORwaBz1zNpZu8-cove_y7sN4wa.jpg",
+              "sourceUrl": "private://read/01kksm80zx4vk4cskkm9r0nddv",
+              "readwiseUrl": "https://read.readwise.io/read/01kksm80zx4vk4cskkm9r0nddv",
+              "summary": "The author says great literature lets all readers feel equal to kings and heroes. He argues that teachers often spoil literature with dry exams, language tricks, and needless notes. He urges us to read with feeling and good taste, not pedantic rules.",
+              "whyRead": null,
+              "bestMoment": null,
+              "tags": [
+                "arts & culture",
+                "learning & meta-learning"
+              ],
+              "alsoIn": []
+            },
+            {
+              "position": 75,
+              "id": "01ksdsnsw2mbeb6y7y17ghhey9",
+              "title": "The Way of Excellence",
+              "author": "Brad Stulberg",
+              "siteName": "readwise-upload-epub",
+              "category": "epub",
+              "language": null,
+              "readingTime": "27 mins",
+              "readingMinutes": 27,
+              "wordCount": 6949,
+              "publishedDate": "2025-05-15",
+              "savedDate": "2026-05-24T20:09:00.410000+00:00",
+              "imageUrl": "https://readwise-assets.s3.amazonaws.com/media/reader/parsed_document_assets/457957634/cJsdwnnQa0sPROuuqGwL0JA3h7rTZkEgnKS85gY0Ep8-cove_e34kowZ.jpg",
+              "sourceUrl": "private://read/01ksdsnsw2mbeb6y7y17ghhey9",
+              "readwiseUrl": "https://read.readwise.io/read/01ksdsnsw2mbeb6y7y17ghhey9",
+              "summary": "I’ve posed this question to hundreds of people—athletes, artists, musicians, physicians, creatives, writers, attorneys, investors, teachers, coaches, parents, and more.",
+              "whyRead": "Sterk eerste hoofdstuk/introductie over excellence als betrokken engagement in iets wat ertoe doet. Vooral relevant door de koppeling tussen ambacht, belichaamd weten, flow, anti-alienatie en de vraag wat automatisering niet kan vervangen.",
+              "bestMoment": "reflectief / ambachtelijk",
+              "tags": [],
+              "alsoIn": []
+            },
+            {
+              "position": 76,
+              "id": "01kxh3cnkmne0bwxm5vvjzsnvy",
+              "title": "Rapt_ Attention and the Focused Life",
+              "author": "read.readwise.io",
+              "siteName": "readwise.io",
+              "category": "epub",
+              "language": null,
+              "readingTime": "4 hrs 51 mins",
+              "readingMinutes": 291,
+              "wordCount": 77044,
+              "publishedDate": "2026-07-14",
+              "savedDate": "2026-07-14T19:59:16.981000+00:00",
+              "imageUrl": null,
+              "sourceUrl": "https://read.readwise.io/read/01kxh3cnkmne0bwxm5vvjzsnvy",
+              "readwiseUrl": "https://read.readwise.io/read/01kxh3cnkmne0bwxm5vvjzsnvy",
+              "summary": "Penguin Group (USA) Inc. , 375 Hudson Street, New York, New York 10014, U.",
+              "whyRead": "Raakt je interesse in aandacht, leren en een betekenisvol leven. Gallagher benadert focus niet als productiviteitstruc, maar als het mechanisme dat ervaring, relaties en keuzes vormt.",
+              "bestMoment": "leergierig",
+              "tags": [
+                "behavioral psychology & coaching",
+                "learning & meta-learning",
+                "personal growth & life philosophy"
+              ],
+              "alsoIn": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "pdfs",
+      "label": "PDF's",
+      "sequence": "pdf",
+      "top10Tag": "pdf-top-10",
+      "top100Tag": "pdf-top-100",
+      "lists": {
+        "top-10": {
+          "tag": "pdf-top-10",
+          "items": [
+            {
+              "position": 1,
+              "id": "01jvajbknykyp0g0rgns58p80k",
+              "title": "The Extended Mind",
+              "author": "Andy Clark, David J. Chalmers",
+              "siteName": "The University of Edinburgh",
+              "category": "pdf",
+              "language": null,
+              "readingTime": "25 mins",
+              "readingMinutes": 25,
+              "wordCount": 6581,
+              "publishedDate": "2004-01-30",
+              "savedDate": "2025-05-15T18:12:26.941000+00:00",
+              "imageUrl": "https://readwise-assets.s3.amazonaws.com/media/reader/parsed_document_assets/102172929/g5yGXChCSGWVm4agVcbBaYOE_XCb95qGPCipIIOfnlw-cove_YHUbHiG.png",
+              "sourceUrl": "https://era.ed.ac.uk/bitstream/handle/1842/1312/TheExtendedMind.pdf?sequence=1",
+              "readwiseUrl": "https://read.readwise.io/read/01jvajbknykyp0g0rgns58p80k",
+              "summary": "The book \"The Extended Mind\" by Andy Clark argues that cognitive processes involve both the brain and the environment, creating a linked system that functions as a single cognitive entity. It suggests that tools like notebooks can be integral to our beliefs and thoughts, just as internal memory is. This view expands our understanding of the mind, showing that it can extend beyond our heads into the world around us.",
+              "whyRead": "Raakt je interesse in filosofie én PKM — Clark & Chalmers rechtvaardigen tools zoals Obsidian filosofisch als letterlijke uitbreiding van het cognitief systeem.",
+              "bestMoment": "analytisch",
+              "tags": [
+                "learning & meta-learning",
+                "philosophy",
+                "tools & workflows"
+              ],
+              "alsoIn": [
+                "pdf-top-100"
+              ]
+            },
+            {
+              "position": 2,
+              "id": "01kd1cae7sbstaj4vhva4dsbxr",
+              "title": "The Work Of Art In The Age Of Mechanical Reproduction",
+              "author": "Walter Benjamin",
+              "siteName": "readwise-upload-pdf",
+              "category": "pdf",
+              "language": null,
+              "readingTime": "49 mins",
+              "readingMinutes": 49,
+              "wordCount": 12823,
+              "publishedDate": "2005-08-30",
+              "savedDate": "2025-12-21T21:16:20.090000+00:00",
+              "imageUrl": "https://readwise-assets.s3.amazonaws.com/media/reader/parsed_document_assets/8111851/ddWgA3pnuZB0bJ3H1ffZd947F-EDeYoV2gFBqjDvKTI-cover-8111851.png",
+              "sourceUrl": "https://web.mit.edu/allanmc/www/benjamin.pdf?utm_source=substack&utm_medium=email",
+              "readwiseUrl": "https://read.readwise.io/read/01kd1cae7sbstaj4vhva4dsbxr",
+              "summary": null,
+              "whyRead": "Raakt je interesse in filosofie, politieke ideologieën en kunst als cultuurvorm. Benjamin biedt een uitzonderlijk bruikbaar begrippenkader voor fotografie, film, massamedia en hedendaagse AI-beelden.",
+              "bestMoment": "analytisch",
+              "tags": [
+                "arts & culture",
+                "philosophy",
+                "political philosophy"
+              ],
+              "alsoIn": [
+                "pdf-top-100"
+              ]
+            },
+            {
+              "position": 3,
+              "id": "01kyxyqrfvk85easc927qpwtns",
+              "title": "The Ones Who Walk Away From Omelas",
+              "author": "Ursula K Le Guin",
+              "siteName": "readwise-upload-pdf",
+              "category": "pdf",
+              "language": "Engels",
+              "readingTime": "11 mins",
+              "readingMinutes": 11,
+              "wordCount": 2791,
+              "publishedDate": "2011-01-06",
+              "savedDate": "2026-08-01T06:03:46.468000+00:00",
+              "imageUrl": "https://readwise-assets.s3.amazonaws.com/media/reader/parsed_document_assets/20184319/yp3_bceraYS2-lcTDYwtfLmW2-p5nqvwrh3QpOZGlK8-cover_B7gbhYF.png",
+              "sourceUrl": "https://readwise.io/reader/document_raw_content/20184319",
+              "readwiseUrl": "https://read.readwise.io/read/01kyxyqrfvk85easc927qpwtns",
+              "summary": "",
+              "whyRead": "Zie de gekozen tags: dit stuk biedt een inhoudelijke ingang die aansluit op die interessegebieden.",
+              "bestMoment": "geconcentreerd",
+              "tags": [
+                "fiction",
+                "philosophy",
+                "political philosophy"
+              ],
+              "alsoIn": [
+                "pdf-top-100"
+              ]
+            },
+            {
+              "position": 4,
+              "id": "01kj59ew6gb91gscpt8f7htspq",
+              "title": "Motivation And Personality",
+              "author": "Abraham H. Maslow",
+              "siteName": "readwise-upload-pdf",
+              "category": "pdf",
+              "language": null,
+              "readingTime": "9 hrs 9 mins",
+              "readingMinutes": 549,
+              "wordCount": 145420,
+              "publishedDate": "2008-06-21",
+              "savedDate": "2026-02-23T13:01:46.576000+00:00",
+              "imageUrl": "https://readwise-assets.s3.amazonaws.com/media/reader/parsed_document_assets/124245616/rzgKh7XUheFNIlEJ8gDa3KioPRkADi4NY2LArco__1M-cove_ife0uvY.png",
+              "sourceUrl": "https://www.holybooks.com/wp-content/uploads/Motivation-and-Personality-Maslow.pdf",
+              "readwiseUrl": "https://read.readwise.io/read/01kj59ew6gb91gscpt8f7htspq",
+              "summary": null,
+              "whyRead": "Raakt je interesse in filosofie en gedragspsychologie — Maslow's grondleggende werk over menselijke motivatie en de hiërarchie van behoeften. Een van de meest invloedrijke psychologieboeken van de 20e eeuw, en de basis voor vrijwel alle latere humanistische psychologie.",
+              "bestMoment": "analytisch",
+              "tags": [
+                "philosophy",
+                "psychology & behavior"
+              ],
+              "alsoIn": [
+                "pdf-top-100"
+              ]
+            },
+            {
+              "position": 5,
+              "id": "01kr407cqy79xnqva0edrx5kj8",
+              "title": "The Future Of Everything Is Lies, I Guess",
+              "author": "Kyle Kingsbury",
+              "siteName": "readwise-upload-pdf",
+              "category": "pdf",
+              "language": null,
+              "readingTime": "1 hr 39 mins",
+              "readingMinutes": 99,
+              "wordCount": 26209,
+              "publishedDate": "2026-04-25",
+              "savedDate": "2026-05-08T14:35:20.702000+00:00",
+              "imageUrl": "https://readwise-assets.s3.amazonaws.com/media/reader/parsed_document_assets/448154180/mRLZz4rXDMkGAbkN6gPvCJH9XItLsjmD8EN6lqLtmf8-cove_gytowuy.png",
+              "sourceUrl": "https://aphyr.com/data/posts/411/the-future-of-everything-is-lies.pdf",
+              "readwiseUrl": "https://read.readwise.io/read/01kr407cqy79xnqva0edrx5kj8",
+              "summary": null,
+              "whyRead": "Zeer relevant voor AI-ethiek en maatschappelijke technologie: Kingsbury schrijft polemisch, persoonlijk en technisch onderlegd over LLMs als sociotechnische risico's. De meerwaarde zit in de combinatie van systeemdenken, scherpe taal en aandacht voor informatie-ecologie, werk, verantwoordelijkheid en cultuur.",
+              "bestMoment": "kritisch",
+              "tags": [
+                "ai ethics & society",
+                "programming & software",
+                "sociology & inequality"
+              ],
+              "alsoIn": [
+                "pdf-top-100"
+              ]
+            },
+            {
+              "position": 6,
+              "id": "01jz08nhqrpfqsgm5c62dpcq3w",
+              "title": "De Prijs Van Gratis Internet",
+              "author": "David Redeker",
+              "siteName": "rathenau.nl",
+              "category": "pdf",
+              "language": null,
+              "readingTime": "2 hrs 54 mins",
+              "readingMinutes": 174,
+              "wordCount": 45924,
+              "publishedDate": "2025-05-27",
+              "savedDate": "2025-06-30T11:13:29.848000+00:00",
+              "imageUrl": "https://readwise-assets.s3.amazonaws.com/media/reader/parsed_document_assets/329804376/68XQp43i0P859PSA_2XOTuNPiiizlWN9HCEtghjm5cw-cove_ByuZBUC.png",
+              "sourceUrl": "https://www.rathenau.nl/sites/default/files/2025-06/De_prijs_van_gratis_internet_Rathenau_Instituut.pdf",
+              "readwiseUrl": "https://read.readwise.io/read/01jz08nhqrpfqsgm5c62dpcq3w",
+              "summary": null,
+              "whyRead": "Raakt je interesse in technologie, politieke filosofie en sociologie: dit recente Rathenau-rapport maakt de machts- en waardekwesties achter het ‘gratis’ internet concreet en vertaalt ze naar beleidskeuzes.",
+              "bestMoment": "kritisch",
+              "tags": [
+                "internet & platforms",
+                "programming & software",
+                "sociology & inequality"
+              ],
+              "alsoIn": [
+                "pdf-top-100"
+              ]
+            },
+            {
+              "position": 7,
+              "id": "01kchxs90kb1qw9xk8rkcz4418",
+              "title": "The Sovereignty Of Good",
+              "author": "Iris Murdoch",
+              "siteName": "David Egan Philosophy",
+              "category": "pdf",
+              "language": null,
+              "readingTime": "37 mins",
+              "readingMinutes": 37,
+              "wordCount": 9671,
+              "publishedDate": "2019-01-19",
+              "savedDate": "2025-12-15T21:13:41.140000+00:00",
+              "imageUrl": "https://readwise-assets.s3.amazonaws.com/media/reader/parsed_document_assets/340255438/fYFpyHNYfNgiY0s_5FdJroGBikjOiFP8o8aWCdC4RVk-cove_f1svem8.png",
+              "sourceUrl": "https://eganphilosophy.com/wp-content/uploads/2022/05/Murdoch-The-Sovereignty-of-Good-Over-Other-Concepts.pdf?utm_source=substack&utm_medium=email",
+              "readwiseUrl": "https://read.readwise.io/read/01kchxs90kb1qw9xk8rkcz4418",
+              "summary": null,
+              "whyRead": "Raakt je interesse in filosofie en politieke/morele theorie: Murdoch verschuift ethiek van autonome wil naar aandacht, werkelijkheid en zelfoverstijging. Deze lange, uitzonderlijk rijke tekst verbindt Plato, kunst, liefde en nederigheid tot een bruikbaar tegenbeeld van individualistische moraal.",
+              "bestMoment": "geconcentreerd",
+              "tags": [
+                "philosophy"
+              ],
+              "alsoIn": [
+                "pdf-top-100"
+              ]
+            },
+            {
+              "position": 8,
+              "id": "01kd1cajacdxy2n33rqkrn2rwq",
+              "title": "Feminism, The Body, And The Machine",
+              "author": "Wendell Berry",
+              "siteName": "readwise-upload-pdf",
+              "category": "pdf",
+              "language": null,
+              "readingTime": "27 mins",
+              "readingMinutes": 27,
+              "wordCount": 6948,
+              "publishedDate": "2019-08-19",
+              "savedDate": "2025-12-21T21:16:24.269000+00:00",
+              "imageUrl": "https://readwise-assets.s3.amazonaws.com/media/reader/parsed_document_assets/5587311/66_0MIHsv7Ch5tWT4iwsGpby03olbsFEvacCORzAjUY-cover-5587311.png",
+              "sourceUrl": "https://religioustech.org/wp-content/uploads/2019/09/Berry-Wendell-Feminism-the-Body-and-the-Machine.pdf?utm_source=substack&utm_medium=email",
+              "readwiseUrl": "https://read.readwise.io/read/01kd1cajacdxy2n33rqkrn2rwq",
+              "summary": null,
+              "whyRead": "Raakt je interesse in technologiekritiek en filosofie — Berry's antwoord op feministische critica van zijn 'no computer'-essay; een bredere verdediging van zijn wereldvisie.",
+              "bestMoment": "analytisch",
+              "tags": [
+                "philosophy",
+                "programming & software"
+              ],
+              "alsoIn": [
+                "pdf-top-100"
+              ]
+            },
+            {
+              "position": 9,
+              "id": "01kd1canjswg2k0ey5cgtz3fa4",
+              "title": "Why I Am Not Going To Buy A Computer",
+              "author": "Wendell Berry",
+              "siteName": "readwise-upload-pdf",
+              "category": "pdf",
+              "language": null,
+              "readingTime": "10 mins",
+              "readingMinutes": 10,
+              "wordCount": 2606,
+              "publishedDate": "2010-08-16",
+              "savedDate": "2025-12-21T21:16:27.610000+00:00",
+              "imageUrl": "https://readwise-assets.s3.amazonaws.com/media/reader/parsed_document_assets/2141105/5hCO91vKEoY07c3FPV0rL0LZfu5RutUk7f5MX-vwCxA-cover-2141105.png",
+              "sourceUrl": "https://classes.matthewjbrown.net/teaching-files/philtech/berry-computer.pdf?utm_source=substack&utm_medium=email",
+              "readwiseUrl": "https://read.readwise.io/read/01kd1canjswg2k0ey5cgtz3fa4",
+              "summary": null,
+              "whyRead": "Raakt je interesse in technologiekritiek — Wendell Berry's iconische essay waarom hij geen computer koopt: een verdediging van eenvoud, lokale economie en ambacht.",
+              "bestMoment": "reflectief",
+              "tags": [
+                "philosophy",
+                "programming & software"
+              ],
+              "alsoIn": [
+                "pdf-top-100"
+              ]
+            },
+            {
+              "position": 10,
+              "id": "01kd1cbjc3rzw7es7ef6rd6w6j",
+              "title": "The Question Concerning Technology",
+              "author": "Martin Heidegger",
+              "siteName": "readwise-upload-pdf",
+              "category": "pdf",
+              "language": null,
+              "readingTime": "50 mins",
+              "readingMinutes": 50,
+              "wordCount": 12991,
+              "publishedDate": "2008-05-13",
+              "savedDate": "2025-12-21T21:16:57.093000+00:00",
+              "imageUrl": "https://readwise-assets.s3.amazonaws.com/media/reader/parsed_document_assets/95964090/walzz-3ceVsavb1Q9dmtGVTd7LZhcEKi3ciEJ3yiZu0-cover_73oZHUy.png",
+              "sourceUrl": "https://bpb-us-e2.wpmucdn.com/sites.uci.edu/dist/a/3282/files/2018/01/Heidegger_TheQuestionConcerningTechnology.pdf?utm_source=substack&utm_medium=email",
+              "readwiseUrl": "https://read.readwise.io/read/01kd1cbjc3rzw7es7ef6rd6w6j",
+              "summary": null,
+              "whyRead": "Raakt je interesse in filosofie, AI-ethiek en maatschappij: Heidegger biedt een onmisbare taal om technologie niet als neutraal gereedschap maar als wereldbeeld te onderzoeken. Zijn onderscheid tussen poiesis en Enframing maakt hedendaagse AI-, data- en efficiëntielogica scherper bespreekbaar.",
+              "bestMoment": "analytisch",
+              "tags": [
+                "philosophy",
+                "technology"
+              ],
+              "alsoIn": [
+                "pdf-top-100"
+              ]
+            }
+          ]
+        },
+        "top-100": {
+          "tag": "pdf-top-100",
+          "items": [
+            {
+              "position": 1,
+              "id": "01jvajbknykyp0g0rgns58p80k",
+              "title": "The Extended Mind",
+              "author": "Andy Clark, David J. Chalmers",
+              "siteName": "The University of Edinburgh",
+              "category": "pdf",
+              "language": null,
+              "readingTime": "25 mins",
+              "readingMinutes": 25,
+              "wordCount": 6581,
+              "publishedDate": "2004-01-30",
+              "savedDate": "2025-05-15T18:12:26.941000+00:00",
+              "imageUrl": "https://readwise-assets.s3.amazonaws.com/media/reader/parsed_document_assets/102172929/g5yGXChCSGWVm4agVcbBaYOE_XCb95qGPCipIIOfnlw-cove_YHUbHiG.png",
+              "sourceUrl": "https://era.ed.ac.uk/bitstream/handle/1842/1312/TheExtendedMind.pdf?sequence=1",
+              "readwiseUrl": "https://read.readwise.io/read/01jvajbknykyp0g0rgns58p80k",
+              "summary": "The book \"The Extended Mind\" by Andy Clark argues that cognitive processes involve both the brain and the environment, creating a linked system that functions as a single cognitive entity. It suggests that tools like notebooks can be integral to our beliefs and thoughts, just as internal memory is. This view expands our understanding of the mind, showing that it can extend beyond our heads into the world around us.",
+              "whyRead": "Raakt je interesse in filosofie én PKM — Clark & Chalmers rechtvaardigen tools zoals Obsidian filosofisch als letterlijke uitbreiding van het cognitief systeem.",
+              "bestMoment": "analytisch",
+              "tags": [
+                "learning & meta-learning",
+                "philosophy",
+                "tools & workflows"
+              ],
+              "alsoIn": [
+                "pdf-top-10"
+              ]
+            },
+            {
+              "position": 2,
+              "id": "01kd1cae7sbstaj4vhva4dsbxr",
+              "title": "The Work Of Art In The Age Of Mechanical Reproduction",
+              "author": "Walter Benjamin",
+              "siteName": "readwise-upload-pdf",
+              "category": "pdf",
+              "language": null,
+              "readingTime": "49 mins",
+              "readingMinutes": 49,
+              "wordCount": 12823,
+              "publishedDate": "2005-08-30",
+              "savedDate": "2025-12-21T21:16:20.090000+00:00",
+              "imageUrl": "https://readwise-assets.s3.amazonaws.com/media/reader/parsed_document_assets/8111851/ddWgA3pnuZB0bJ3H1ffZd947F-EDeYoV2gFBqjDvKTI-cover-8111851.png",
+              "sourceUrl": "https://web.mit.edu/allanmc/www/benjamin.pdf?utm_source=substack&utm_medium=email",
+              "readwiseUrl": "https://read.readwise.io/read/01kd1cae7sbstaj4vhva4dsbxr",
+              "summary": null,
+              "whyRead": "Raakt je interesse in filosofie, politieke ideologieën en kunst als cultuurvorm. Benjamin biedt een uitzonderlijk bruikbaar begrippenkader voor fotografie, film, massamedia en hedendaagse AI-beelden.",
+              "bestMoment": "analytisch",
+              "tags": [
+                "arts & culture",
+                "philosophy",
+                "political philosophy"
+              ],
+              "alsoIn": [
+                "pdf-top-10"
+              ]
+            },
+            {
+              "position": 3,
+              "id": "01kyxyqrfvk85easc927qpwtns",
+              "title": "The Ones Who Walk Away From Omelas",
+              "author": "Ursula K Le Guin",
+              "siteName": "readwise-upload-pdf",
+              "category": "pdf",
+              "language": "Engels",
+              "readingTime": "11 mins",
+              "readingMinutes": 11,
+              "wordCount": 2791,
+              "publishedDate": "2011-01-06",
+              "savedDate": "2026-08-01T06:03:46.468000+00:00",
+              "imageUrl": "https://readwise-assets.s3.amazonaws.com/media/reader/parsed_document_assets/20184319/yp3_bceraYS2-lcTDYwtfLmW2-p5nqvwrh3QpOZGlK8-cover_B7gbhYF.png",
+              "sourceUrl": "https://readwise.io/reader/document_raw_content/20184319",
+              "readwiseUrl": "https://read.readwise.io/read/01kyxyqrfvk85easc927qpwtns",
+              "summary": "",
+              "whyRead": "Zie de gekozen tags: dit stuk biedt een inhoudelijke ingang die aansluit op die interessegebieden.",
+              "bestMoment": "geconcentreerd",
+              "tags": [
+                "fiction",
+                "philosophy",
+                "political philosophy"
+              ],
+              "alsoIn": [
+                "pdf-top-10"
+              ]
+            },
+            {
+              "position": 4,
+              "id": "01kj59ew6gb91gscpt8f7htspq",
+              "title": "Motivation And Personality",
+              "author": "Abraham H. Maslow",
+              "siteName": "readwise-upload-pdf",
+              "category": "pdf",
+              "language": null,
+              "readingTime": "9 hrs 9 mins",
+              "readingMinutes": 549,
+              "wordCount": 145420,
+              "publishedDate": "2008-06-21",
+              "savedDate": "2026-02-23T13:01:46.576000+00:00",
+              "imageUrl": "https://readwise-assets.s3.amazonaws.com/media/reader/parsed_document_assets/124245616/rzgKh7XUheFNIlEJ8gDa3KioPRkADi4NY2LArco__1M-cove_ife0uvY.png",
+              "sourceUrl": "https://www.holybooks.com/wp-content/uploads/Motivation-and-Personality-Maslow.pdf",
+              "readwiseUrl": "https://read.readwise.io/read/01kj59ew6gb91gscpt8f7htspq",
+              "summary": null,
+              "whyRead": "Raakt je interesse in filosofie en gedragspsychologie — Maslow's grondleggende werk over menselijke motivatie en de hiërarchie van behoeften. Een van de meest invloedrijke psychologieboeken van de 20e eeuw, en de basis voor vrijwel alle latere humanistische psychologie.",
+              "bestMoment": "analytisch",
+              "tags": [
+                "philosophy",
+                "psychology & behavior"
+              ],
+              "alsoIn": [
+                "pdf-top-10"
+              ]
+            },
+            {
+              "position": 5,
+              "id": "01kr407cqy79xnqva0edrx5kj8",
+              "title": "The Future Of Everything Is Lies, I Guess",
+              "author": "Kyle Kingsbury",
+              "siteName": "readwise-upload-pdf",
+              "category": "pdf",
+              "language": null,
+              "readingTime": "1 hr 39 mins",
+              "readingMinutes": 99,
+              "wordCount": 26209,
+              "publishedDate": "2026-04-25",
+              "savedDate": "2026-05-08T14:35:20.702000+00:00",
+              "imageUrl": "https://readwise-assets.s3.amazonaws.com/media/reader/parsed_document_assets/448154180/mRLZz4rXDMkGAbkN6gPvCJH9XItLsjmD8EN6lqLtmf8-cove_gytowuy.png",
+              "sourceUrl": "https://aphyr.com/data/posts/411/the-future-of-everything-is-lies.pdf",
+              "readwiseUrl": "https://read.readwise.io/read/01kr407cqy79xnqva0edrx5kj8",
+              "summary": null,
+              "whyRead": "Zeer relevant voor AI-ethiek en maatschappelijke technologie: Kingsbury schrijft polemisch, persoonlijk en technisch onderlegd over LLMs als sociotechnische risico's. De meerwaarde zit in de combinatie van systeemdenken, scherpe taal en aandacht voor informatie-ecologie, werk, verantwoordelijkheid en cultuur.",
+              "bestMoment": "kritisch",
+              "tags": [
+                "ai ethics & society",
+                "programming & software",
+                "sociology & inequality"
+              ],
+              "alsoIn": [
+                "pdf-top-10"
+              ]
+            },
+            {
+              "position": 6,
+              "id": "01jz08nhqrpfqsgm5c62dpcq3w",
+              "title": "De Prijs Van Gratis Internet",
+              "author": "David Redeker",
+              "siteName": "rathenau.nl",
+              "category": "pdf",
+              "language": null,
+              "readingTime": "2 hrs 54 mins",
+              "readingMinutes": 174,
+              "wordCount": 45924,
+              "publishedDate": "2025-05-27",
+              "savedDate": "2025-06-30T11:13:29.848000+00:00",
+              "imageUrl": "https://readwise-assets.s3.amazonaws.com/media/reader/parsed_document_assets/329804376/68XQp43i0P859PSA_2XOTuNPiiizlWN9HCEtghjm5cw-cove_ByuZBUC.png",
+              "sourceUrl": "https://www.rathenau.nl/sites/default/files/2025-06/De_prijs_van_gratis_internet_Rathenau_Instituut.pdf",
+              "readwiseUrl": "https://read.readwise.io/read/01jz08nhqrpfqsgm5c62dpcq3w",
+              "summary": null,
+              "whyRead": "Raakt je interesse in technologie, politieke filosofie en sociologie: dit recente Rathenau-rapport maakt de machts- en waardekwesties achter het ‘gratis’ internet concreet en vertaalt ze naar beleidskeuzes.",
+              "bestMoment": "kritisch",
+              "tags": [
+                "internet & platforms",
+                "programming & software",
+                "sociology & inequality"
+              ],
+              "alsoIn": [
+                "pdf-top-10"
+              ]
+            },
+            {
+              "position": 7,
+              "id": "01kchxs90kb1qw9xk8rkcz4418",
+              "title": "The Sovereignty Of Good",
+              "author": "Iris Murdoch",
+              "siteName": "David Egan Philosophy",
+              "category": "pdf",
+              "language": null,
+              "readingTime": "37 mins",
+              "readingMinutes": 37,
+              "wordCount": 9671,
+              "publishedDate": "2019-01-19",
+              "savedDate": "2025-12-15T21:13:41.140000+00:00",
+              "imageUrl": "https://readwise-assets.s3.amazonaws.com/media/reader/parsed_document_assets/340255438/fYFpyHNYfNgiY0s_5FdJroGBikjOiFP8o8aWCdC4RVk-cove_f1svem8.png",
+              "sourceUrl": "https://eganphilosophy.com/wp-content/uploads/2022/05/Murdoch-The-Sovereignty-of-Good-Over-Other-Concepts.pdf?utm_source=substack&utm_medium=email",
+              "readwiseUrl": "https://read.readwise.io/read/01kchxs90kb1qw9xk8rkcz4418",
+              "summary": null,
+              "whyRead": "Raakt je interesse in filosofie en politieke/morele theorie: Murdoch verschuift ethiek van autonome wil naar aandacht, werkelijkheid en zelfoverstijging. Deze lange, uitzonderlijk rijke tekst verbindt Plato, kunst, liefde en nederigheid tot een bruikbaar tegenbeeld van individualistische moraal.",
+              "bestMoment": "geconcentreerd",
+              "tags": [
+                "philosophy"
+              ],
+              "alsoIn": [
+                "pdf-top-10"
+              ]
+            },
+            {
+              "position": 8,
+              "id": "01kd1cajacdxy2n33rqkrn2rwq",
+              "title": "Feminism, The Body, And The Machine",
+              "author": "Wendell Berry",
+              "siteName": "readwise-upload-pdf",
+              "category": "pdf",
+              "language": null,
+              "readingTime": "27 mins",
+              "readingMinutes": 27,
+              "wordCount": 6948,
+              "publishedDate": "2019-08-19",
+              "savedDate": "2025-12-21T21:16:24.269000+00:00",
+              "imageUrl": "https://readwise-assets.s3.amazonaws.com/media/reader/parsed_document_assets/5587311/66_0MIHsv7Ch5tWT4iwsGpby03olbsFEvacCORzAjUY-cover-5587311.png",
+              "sourceUrl": "https://religioustech.org/wp-content/uploads/2019/09/Berry-Wendell-Feminism-the-Body-and-the-Machine.pdf?utm_source=substack&utm_medium=email",
+              "readwiseUrl": "https://read.readwise.io/read/01kd1cajacdxy2n33rqkrn2rwq",
+              "summary": null,
+              "whyRead": "Raakt je interesse in technologiekritiek en filosofie — Berry's antwoord op feministische critica van zijn 'no computer'-essay; een bredere verdediging van zijn wereldvisie.",
+              "bestMoment": "analytisch",
+              "tags": [
+                "philosophy",
+                "programming & software"
+              ],
+              "alsoIn": [
+                "pdf-top-10"
+              ]
+            },
+            {
+              "position": 9,
+              "id": "01kd1canjswg2k0ey5cgtz3fa4",
+              "title": "Why I Am Not Going To Buy A Computer",
+              "author": "Wendell Berry",
+              "siteName": "readwise-upload-pdf",
+              "category": "pdf",
+              "language": null,
+              "readingTime": "10 mins",
+              "readingMinutes": 10,
+              "wordCount": 2606,
+              "publishedDate": "2010-08-16",
+              "savedDate": "2025-12-21T21:16:27.610000+00:00",
+              "imageUrl": "https://readwise-assets.s3.amazonaws.com/media/reader/parsed_document_assets/2141105/5hCO91vKEoY07c3FPV0rL0LZfu5RutUk7f5MX-vwCxA-cover-2141105.png",
+              "sourceUrl": "https://classes.matthewjbrown.net/teaching-files/philtech/berry-computer.pdf?utm_source=substack&utm_medium=email",
+              "readwiseUrl": "https://read.readwise.io/read/01kd1canjswg2k0ey5cgtz3fa4",
+              "summary": null,
+              "whyRead": "Raakt je interesse in technologiekritiek — Wendell Berry's iconische essay waarom hij geen computer koopt: een verdediging van eenvoud, lokale economie en ambacht.",
+              "bestMoment": "reflectief",
+              "tags": [
+                "philosophy",
+                "programming & software"
+              ],
+              "alsoIn": [
+                "pdf-top-10"
+              ]
+            },
+            {
+              "position": 10,
+              "id": "01kd1cbjc3rzw7es7ef6rd6w6j",
+              "title": "The Question Concerning Technology",
+              "author": "Martin Heidegger",
+              "siteName": "readwise-upload-pdf",
+              "category": "pdf",
+              "language": null,
+              "readingTime": "50 mins",
+              "readingMinutes": 50,
+              "wordCount": 12991,
+              "publishedDate": "2008-05-13",
+              "savedDate": "2025-12-21T21:16:57.093000+00:00",
+              "imageUrl": "https://readwise-assets.s3.amazonaws.com/media/reader/parsed_document_assets/95964090/walzz-3ceVsavb1Q9dmtGVTd7LZhcEKi3ciEJ3yiZu0-cover_73oZHUy.png",
+              "sourceUrl": "https://bpb-us-e2.wpmucdn.com/sites.uci.edu/dist/a/3282/files/2018/01/Heidegger_TheQuestionConcerningTechnology.pdf?utm_source=substack&utm_medium=email",
+              "readwiseUrl": "https://read.readwise.io/read/01kd1cbjc3rzw7es7ef6rd6w6j",
+              "summary": null,
+              "whyRead": "Raakt je interesse in filosofie, AI-ethiek en maatschappij: Heidegger biedt een onmisbare taal om technologie niet als neutraal gereedschap maar als wereldbeeld te onderzoeken. Zijn onderscheid tussen poiesis en Enframing maakt hedendaagse AI-, data- en efficiëntielogica scherper bespreekbaar.",
+              "bestMoment": "analytisch",
+              "tags": [
+                "philosophy",
+                "technology"
+              ],
+              "alsoIn": [
+                "pdf-top-10"
+              ]
+            },
+            {
+              "position": 11,
+              "id": "01khqrhk77ztjy4d5gg6qsvwgr",
+              "title": "Present Tense Technology",
+              "author": "David F. Noble",
+              "siteName": "readwise-upload-pdf",
+              "category": "pdf",
+              "language": null,
+              "readingTime": "31 mins",
+              "readingMinutes": 31,
+              "wordCount": 8049,
+              "publishedDate": "2015-06-14",
+              "savedDate": "2026-02-18T06:56:03.135000+00:00",
+              "imageUrl": "https://readwise-assets.s3.amazonaws.com/media/reader/parsed_document_assets/422317874/JeUOMsUOc-REJiWOyor4BKHlcBVduH-k9_kDj7FQATo-cove_ZkmhFMo.png",
+              "sourceUrl": "https://readwise.io/reader/document_raw_content/422317874",
+              "readwiseUrl": "https://read.readwise.io/read/01khqrhk77ztjy4d5gg6qsvwgr",
+              "summary": "",
+              "whyRead": "Raakt je interesse in politieke filosofie en technologiekritiek — David F. Noble schrijft vanuit neo-marxistische traditie over technologie als machtsinstrument van kapitaal. Scherp en relevant.",
+              "bestMoment": "analytisch",
+              "tags": [
+                "programming & software",
+                "sociology & inequality"
+              ],
+              "alsoIn": []
+            },
+            {
+              "position": 12,
+              "id": "01ky7mcy22aeqm3pq5dr9a4rjz",
+              "title": "Tell me about yourself: LLMs are aware of their learned behaviors",
+              "author": "Jan Betley, Xuchan Bao, Martín Soto, Anna Sztyber-Betley, James Chua, Owain Evans",
+              "siteName": "arXiv.org",
+              "category": "pdf",
+              "language": "Engels",
+              "readingTime": "1 hr 47 mins",
+              "readingMinutes": 107,
+              "wordCount": 28205,
+              "publishedDate": "2025-01-19",
+              "savedDate": "2026-07-23T13:59:48.033000+00:00",
+              "imageUrl": "https://readwise-assets.s3.amazonaws.com/media/reader/parsed_document_assets/263058516/p2rlf_vaFpVBei_fegyTBc331ewXte1PWPlerHl8fKg-cove_h22rDa1.png",
+              "sourceUrl": "https://arxiv.org/pdf/2501.11120",
+              "readwiseUrl": "https://read.readwise.io/read/01ky7mcy22aeqm3pq5dr9a4rjz",
+              "summary": "We study behavioral self-awareness -- an LLM's ability to articulate its\nbehaviors without requiring in-context examples. We finetune LLMs on datasets\nthat exhibit particular behaviors, such as (a) making high-risk economic\ndecisions, and (b) outputting insecure code. Despite the datasets containing no\nexplicit descriptions of the associated behavior, the finetuned LLMs can\nexplicitly describe it. For example, a model trained to output insecure code\nsays, ``The code I write is insecure.'' Indeed, models show behavioral\nself-awareness for a range of behaviors and for diverse evaluations. Note that\nwhile we finetune models to exhibit behaviors like writing insecure code, we do\nnot finetune them to articulate their own behaviors -- models do this without\nany special training or examples.\n  Behavioral self-awareness is relevant for AI safety, as models could use it\nto proactively disclose problematic behaviors. In particular, we study backdoor\npolicies, where models exhibit unexpected behaviors only under certain trigger\nconditions. We find that models can sometimes identify whether or not they have\na backdoor, even without its trigger being present. However, models are not\nable to directly output their trigger by default.\n  Our results show that models have surprising capabilities for self-awareness\nand for the spontaneous articulation of implicit behaviors. Future work could\ninvestigate this capability for a wider range of scenarios and models\n(including practical scenarios), and explain how it emerges in LLMs.",
+              "whyRead": "Dit AI-safety-paper onderzoekt een onverwachte vorm van zelfkennis bij taalmodellen: ze kunnen soms hun impliciet aangeleerde gedragsneigingen benoemen. Het biedt een concreet denkkader voor backdoors, toezicht en de grenzen van modelrapportage.",
+              "bestMoment": "analytisch",
+              "tags": [
+                "ai ethics & society",
+                "linked-from-readwise",
+                "research papers & academia"
+              ],
+              "alsoIn": []
+            },
+            {
+              "position": 13,
+              "id": "01kysfkr91ztafaydtna4raq0r",
+              "title": "The Origins Of Modern Color Science",
+              "author": "J. D. Mollon",
+              "siteName": "readwise-upload-pdf",
+              "category": "pdf",
+              "language": "Engels",
+              "readingTime": "1 hr 27 mins",
+              "readingMinutes": 87,
+              "wordCount": 22929,
+              "publishedDate": "2003-04-04",
+              "savedDate": "2026-07-30T12:22:28.316000+00:00",
+              "imageUrl": "https://readwise-assets.s3.amazonaws.com/media/reader/parsed_document_assets/117388364/6NGkEmHPbV2BPKOIqi5cDNEK4TEmmL6ltbRJJ9pH9S4-cove_sh3IgH0.png",
+              "sourceUrl": "https://vision.psychol.cam.ac.uk/jdmollon/papers/MollonColorScience.pdf?utm_source=substack&utm_medium=email",
+              "readwiseUrl": "https://read.readwise.io/read/01kysfkr91ztafaydtna4raq0r",
+              "summary": null,
+              "whyRead": "Mollon reconstrueert hoe kleurwetenschap zich vanaf Newton ontwikkelde, met scherpe aandacht voor de \"category errors\" die generaties lang optraden — fysica verward met fysiologie. Sluit direct aan bij vandaag gelezen materiaal over qualia en de \"line of purples\": Rohault beschrijft al in 1671 een inverted-qualia-argument, en Mollon bespreekt expliciet de line of purples uit Grassmann/Helmholtz.",
+              "bestMoment": "analytisch",
+              "tags": [
+                "history",
+                "science"
+              ],
+              "alsoIn": []
+            },
+            {
+              "position": 14,
+              "id": "01kbdw2b09ytrrk61f18889see",
+              "title": "Building An AI-Native Engineering Team",
+              "author": "OpenAI",
+              "siteName": "openai.com",
+              "category": "pdf",
+              "language": null,
+              "readingTime": "15 mins",
+              "readingMinutes": 15,
+              "wordCount": 3898,
+              "publishedDate": null,
+              "savedDate": "2025-12-01T21:11:01.386000+00:00",
+              "imageUrl": "https://readwise-assets.s3.amazonaws.com/media/reader/parsed_document_assets/390166263/Rck8-s2RR6H4rEnUCy2rM7s2VqPe4pgxTXzCFFErwEM-cove_Z1kWiOO.png",
+              "sourceUrl": "https://readwise-assets.s3.amazonaws.com/media/wisereads/articles/building-an-ai-native-engineer/1040.pdf",
+              "readwiseUrl": "https://read.readwise.io/read/01kbdw2b09ytrrk61f18889see",
+              "summary": null,
+              "whyRead": "Raakt je interesse in AI en conceptueel programmeren: een concreet, fase-voor-fase model voor hoe agents de softwareontwikkeling veranderen zonder menselijk eigenaarschap weg te abstraheren.",
+              "bestMoment": "analytisch",
+              "tags": [
+                "professional development",
+                "technology"
+              ],
+              "alsoIn": []
+            },
+            {
+              "position": 15,
               "id": "01kjnmsk3mmpayj96rpj8s8fv4",
               "title": "Evaluating AGENTS.md: Are Repository-Level Context Files Helpful for Coding Agents?",
               "author": "Thibaud Gloaguen; Niels Mündler; Mark Müller; Veselin Raychev; Martin Vechev",
@@ -11675,7 +12410,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 75,
+              "position": 16,
               "id": "01ky7jr6me70wqs7yfq5jchx8q",
               "title": "StoryScope: Investigating idiosyncrasies in AI fiction",
               "author": "Jenna Russell; Rishanth Rajendhran; Chau Minh Pham; Mohit Iyyer; John Wieting",
@@ -11702,7 +12437,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 76,
+              "position": 17,
               "id": "01ky7mcz01hrz2ja1p82wrk6jk",
               "title": "Self-Interpretability: LLMs Can Describe Complex Internal Processes that Drive Their Decisions",
               "author": "Dillon Plunkett; Adam Morris; Keerthi Reddy; Jorge Morales",
@@ -11728,7 +12463,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 77,
+              "position": 18,
               "id": "01ky7md09dzgwfh5dxnz8yjwbc",
               "title": "Simple Mechanistic Explanations for Out-Of-Context Reasoning",
               "author": "Atticus Wang; Joshua Engels; Oliver Clive-Griffin; Senthooran Rajamanoharan; Neel Nanda",
@@ -11755,7 +12490,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 78,
+              "position": 19,
               "id": "01ky7n1m4wjtsmccgtth3jjdt6",
               "title": "Language Models Don’t Always Say What They Think: Unfaithful Explanations in Chain-of-Thought Prompting",
               "author": "Miles Turpin, Julian Michael, Ethan Perez, Samuel R. Bowman",
@@ -11781,7 +12516,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 79,
+              "position": 20,
               "id": "01ky7n1ncnw133vvdvxahrfabp",
               "title": "Alignment faking in large language models",
               "author": "Ryan Greenblatt, Carson Denison, Benjamin Wright, Fabien Roger, Monte MacDiarmid, Sam Marks, Johannes Treutlein, Tim Belonax, Jack Chen, David Duvenaud, Akbir Khan, Julian Michael, Sören Mindermann, Ethan Perez, Linda Petrini, Jonathan Uesato, Jar...",
@@ -11807,7 +12542,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 80,
+              "position": 21,
               "id": "01ky7n1payjs47v58cfqd47w6z",
               "title": "Auditing language models for hidden objectives",
               "author": "Samuel Marks, Johannes Treutlein, Trenton Bricken, Jack Lindsey, Jonathan Marcus, Siddharth Mishra-Sharma, Daniel Ziegler, Emmanuel Ameisen, Joshua Batson, Tim Belonax, Samuel R. Bowman, Shan Carter, Brian Chen, Hoagy Cunningham, Carson Denison, F...",
@@ -11833,7 +12568,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 81,
+              "position": 22,
               "id": "01ky9h8ag25gnvtqwtnwk0m1k4",
               "title": "ImageNet Classification With Deep Convolutional Neural Networks",
               "author": "Alex Krizhevsky, Ilya Sutskever, Geoffrey E. Hinton",
@@ -11859,7 +12594,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 82,
+              "position": 23,
               "id": "01kz4nfbmznfm4bgfs8zac2x39",
               "title": "Position: LLMs Can’t Jump",
               "author": "Tom Zahavy",
@@ -11884,452 +12619,609 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 83,
-              "id": "01j28vk8x6dvbnv05fex4z13dz",
-              "title": "Het drielichamenprobleem",
-              "author": "Cixin Liu",
-              "siteName": "readwise.io",
-              "category": "epub",
-              "language": "Nederlands",
-              "readingTime": "7 hrs 41 mins",
-              "readingMinutes": 461,
-              "wordCount": 121948,
-              "publishedDate": "2020-10-16",
-              "savedDate": "2024-07-08T09:43:00.797000+00:00",
-              "imageUrl": "https://readwise-assets.s3.amazonaws.com/media/reader/parsed_document_assets/192314173/NulSUcoOrKZAv9p14JoCaKW51boGQarT980bUIeV-ok-co_owv8SRv.xhtml",
-              "sourceUrl": "private://read/01j28vk8x6dvbnv05fex4z13dz",
-              "readwiseUrl": "https://read.readwise.io/read/01j28vk8x6dvbnv05fex4z13dz",
-              "summary": "In \"Het drielichamenprobleem\" hebben de personages gesprekken over de uitdagingen van beschaving en kennis. Wang herinnert zich de vernietiging van twee beschavingen door extreme kou en hitte. De auteur benadrukt het belang van langetermijndenken en begrip om strategische blinde vlekken te vermijden.",
-              "whyRead": "Raakt je interesse in sciencefiction; dit Chinese SF-meesterwerk combineert kwantumfysica, de Culturele Revolutie en first-contact-thema's tot een ambitieuze roman.",
-              "bestMoment": "ontspannen",
-              "tags": [
-                "fiction",
-                "popular science"
-              ],
-              "alsoIn": []
-            },
-            {
-              "position": 84,
-              "id": "01j28vse5rr7e97cxrbf3jh4h1",
-              "title": "Ons feilbare denken",
-              "author": "Daniel Kahneman",
-              "siteName": "readwise.io",
-              "category": "epub",
-              "language": "Nederlands",
-              "readingTime": "17 hrs 30 mins",
-              "readingMinutes": 1050,
-              "wordCount": 278110,
-              "publishedDate": null,
-              "savedDate": "2024-07-08T09:46:22.791000+00:00",
-              "imageUrl": "https://readwise-assets.s3.amazonaws.com/media/reader/parsed_document_assets/192314627/ngqyZzMIWDvQondJK2g9ujd-W29R7DwmwUJvDnBOuMc-cove_anJI4u7.png",
-              "sourceUrl": "private://read/01j28vse5rr7e97cxrbf3jh4h1",
-              "readwiseUrl": "https://read.readwise.io/read/01j28vse5rr7e97cxrbf3jh4h1",
-              "summary": "Het boek \"Ons feilbare denken\" van Daniel Kahneman behandelt hoe ons denken en beslissingen beïnvloed worden door instincten en biases. Hij legt uit dat we vaak onbewust keuzes maken op basis van irrelevante informatie, wat leidt tot verkeerde oordelen. Daarnaast benadrukt hij het belang van onafhankelijke meningen in groepsbeslissingen om betere uitkomsten te bereiken.",
-              "whyRead": "Raakt je interesse in psychologie en cognitieve wetenschap; Kahneman's meesterwerk legt uit hoe ons denken systematisch faalt — essentieel voor iedereen die nadenkt over oordelen en beslissingen.",
-              "bestMoment": "analytisch",
-              "tags": [
-                "popular science",
-                "psychology & behavior"
-              ],
-              "alsoIn": []
-            },
-            {
-              "position": 85,
-              "id": "01j29b7q4wm936424r1keh3kz8",
-              "title": "How to Read a Book",
-              "author": "Mortimer J. Adler",
-              "siteName": "readwise.io",
-              "category": "epub",
+              "position": 24,
+              "id": "01ky7mstrf89d3yb8qgzjpajrb",
+              "title": "The Standard Model from String Theory",
+              "author": "© Fernando Marchesano, Gary Shiu, Timo Weigand",
+              "siteName": "arXiv.org",
+              "category": "pdf",
               "language": "Engels",
-              "readingTime": "9 hrs 6 mins",
-              "readingMinutes": 546,
-              "wordCount": 144637,
-              "publishedDate": "2011-05-10",
-              "savedDate": "2024-07-08T14:16:19.367000+00:00",
-              "imageUrl": "https://readwise-assets.s3.amazonaws.com/media/reader/parsed_document_assets/192393491/XBSJXWZbNb9n7UbtLwVri1Uj-2GNZHUwQZd2F-jI_XI-cover-cover.jpeg",
-              "sourceUrl": "private://read/01j29b7q4wm936424r1keh3kz8",
-              "readwiseUrl": "https://read.readwise.io/read/01j29b7q4wm936424r1keh3kz8",
-              "summary": "Understanding a book starts with the writer sharing insights that readers lack. Readers must bridge this gap to achieve clarity and increased understanding. Active reading and critical thinking are essential for fully comprehending and engaging with a book's content.",
+              "readingTime": "1 hr 8 mins",
+              "readingMinutes": 68,
+              "wordCount": 17982,
+              "publishedDate": "2024-02-12",
+              "savedDate": "2026-07-23T14:06:50.639000+00:00",
+              "imageUrl": null,
+              "sourceUrl": "https://arxiv.org/pdf/2401.01939",
+              "readwiseUrl": "https://read.readwise.io/read/01ky7mstrf89d3yb8qgzjpajrb",
+              "summary": null,
               "whyRead": null,
               "bestMoment": null,
               "tags": [
-                "arts & culture",
-                "learning & meta-learning"
+                "linked-from-readwise",
+                "physics & engineering",
+                "research papers & academia",
+                "science",
+                "triaged"
               ],
               "alsoIn": []
-            },
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "videos",
+      "label": "Video's",
+      "sequence": "video",
+      "top10Tag": "video-top-10",
+      "top100Tag": "video-top-100",
+      "lists": {
+        "top-10": {
+          "tag": "video-top-10",
+          "items": [
             {
-              "position": 86,
-              "id": "01j29d3477vpv22gsyz7y1zrp7",
-              "title": "Deep Nutrition: Why Your Genes Need Traditional Food",
-              "author": "Catherine Shanahan, M. D.",
-              "siteName": "readwise.io",
-              "category": "epub",
+              "position": 1,
+              "id": "01k7zy55f0v2sdenq3zpyskqt2",
+              "title": "How Did The World Get So Ugly?",
+              "author": "The Cultural Tutor | Sheehan Quirke",
+              "siteName": "YouTube",
+              "category": "video",
               "language": "Engels",
-              "readingTime": "19 hrs 38 mins",
-              "readingMinutes": 1178,
-              "wordCount": 312044,
-              "publishedDate": "2017-01-03",
-              "savedDate": "2024-07-08T14:48:46.155000+00:00",
-              "imageUrl": "https://readwise-assets.s3.amazonaws.com/media/reader/parsed_document_assets/192401240/jfK5f80o7qNc3L1lkpSG6603GoAcTSoObX__CNCgW38-cover-cover.jpeg",
-              "sourceUrl": "private://read/01j29d3477vpv22gsyz7y1zrp7",
-              "readwiseUrl": "https://read.readwise.io/read/01j29d3477vpv22gsyz7y1zrp7",
-              "summary": "In \"Deep Nutrition,\" Dr. Catherine Shanahan emphasizes the importance of traditional foods for better health, supported by new scientific findings. She argues that processed foods and vegetable oils are harmful, while natural fats and well-sourced ingredients can enhance our health. This updated edition aims to reinforce the idea that our diet directly influences our genes and overall well-being.",
-              "whyRead": "Raakt je interesse in gezondheid en voeding; Shanahan onderbouwt met evolutionaire biologie waarom traditionele voeding beter aansluit bij onze genetische aanleg.",
-              "bestMoment": "leergierig",
-              "tags": [
-                "food & cooking",
-                "health & wellness",
-                "popular science"
-              ],
-              "alsoIn": []
-            },
-            {
-              "position": 87,
-              "id": "01j29d3tbesb7m09zyn0z78vjr",
-              "title": "Wait But Why Year One: We finally figured out how to put a blog onto an e-reader",
-              "author": "Tim Urban",
-              "siteName": "readwise.io",
-              "category": "epub",
-              "language": "Engels",
-              "readingTime": "16 hrs 41 mins",
-              "readingMinutes": 1001,
-              "wordCount": 265158,
-              "publishedDate": "2015-02-22",
-              "savedDate": "2024-07-08T14:49:08.727000+00:00",
-              "imageUrl": "https://readwise-assets.s3.amazonaws.com/media/reader/parsed_document_assets/192401427/wEUznUyStSMRHsB-noUdERV5VGApikVFGeqikNKoFgE-cover-cover.jpeg",
-              "sourceUrl": "private://read/01j29d3tbesb7m09zyn0z78vjr",
-              "readwiseUrl": "https://read.readwise.io/read/01j29d3tbesb7m09zyn0z78vjr",
-              "summary": "New Year’s Day, 2013.",
-              "whyRead": "Raakt je interesse in wetenschap en betekenis — Tim Urban schrijft essays die complex zijn en grappig tegelijk, met diepe conceptuele diepgang.",
-              "bestMoment": "ontspannen",
-              "tags": [
-                "personal growth & life philosophy",
-                "popular science"
-              ],
-              "alsoIn": []
-            },
-            {
-              "position": 88,
-              "id": "01j29d3v4emc1z1ap0jt2jvqfh",
-              "title": "Your Brain's Not Broken",
-              "author": "Tamara Phd Rosier",
-              "siteName": "readwise.io",
-              "category": "epub",
-              "language": "Engels",
-              "readingTime": "3 hrs 36 mins",
-              "readingMinutes": 216,
-              "wordCount": 57065,
-              "publishedDate": "2021-09-20",
-              "savedDate": "2024-07-08T14:49:09.530000+00:00",
-              "imageUrl": "https://readwise-assets.s3.amazonaws.com/media/reader/parsed_document_assets/192401430/6TAJrsQO-utNzfVvRFKL9Z8ApFeCIz9zIF4MnbmZ7Q8-cover-cover.jpeg",
-              "sourceUrl": "private://read/01j29d3v4emc1z1ap0jt2jvqfh",
-              "readwiseUrl": "https://read.readwise.io/read/01j29d3v4emc1z1ap0jt2jvqfh",
-              "summary": "This book explores the emotional challenges faced by individuals with ADHD, highlighting their intense feelings and thought patterns. It explains how these emotions can impact daily life and motivation, often leading to frustration and self-doubt. By understanding these issues, readers can learn strategies to better manage their ADHD and achieve their goals.",
-              "whyRead": "Raakt je interesse in ADHD — Rosier legt de nadruk op emotionele dysregulatie als kernsymptoom dat veel zelfhulpboeken over het hoofd zien.",
+              "readingTime": null,
+              "readingMinutes": null,
+              "wordCount": null,
+              "publishedDate": "2025-10-07",
+              "savedDate": "2025-10-20T04:31:03.649000+00:00",
+              "imageUrl": "https://i.ytimg.com/vi/tWYxrowovts/maxresdefault.jpg",
+              "sourceUrl": "https://www.youtube.com/watch?v=tWYxrowovts",
+              "readwiseUrl": "https://read.readwise.io/read/01k7zy55f0v2sdenq3zpyskqt2",
+              "summary": "Look at a city's ordinary things to understand its values. Victorian London made useful things beautiful, showing pride and meaning. Modern design favors convenience and efficiency, often at the cost of everyday beauty.",
+              "whyRead": "Cultuurhistorisch essay over schoonheid en moderniteit — raakt je interesse in cultuurgeschiedenis en ideeëngeschiedenis.",
               "bestMoment": "reflectief",
               "tags": [
-                "adhd & neurodivergence",
-                "learning & meta-learning",
-                "psychology & behavior"
-              ],
-              "alsoIn": []
-            },
-            {
-              "position": 89,
-              "id": "01j29d3vyb3g8h2zwk7t0gcyrs",
-              "title": "Your Life Can Be Better Second Edition: Using Strategies for Adult ADHD",
-              "author": "Douglas A Puryear",
-              "siteName": "readwise.io",
-              "category": "epub",
-              "language": "Engels",
-              "readingTime": "5 hrs 37 mins",
-              "readingMinutes": 337,
-              "wordCount": 89162,
-              "publishedDate": "2020-10-26",
-              "savedDate": "2024-07-08T14:49:10.359000+00:00",
-              "imageUrl": "https://readwise-assets.s3.amazonaws.com/media/reader/parsed_document_assets/192401432/nKkRonm71WGlhdmsHONA4YOozGyLhCZQcreBAvL00eE-cover-cover.jpeg",
-              "sourceUrl": "private://read/01j29d3vyb3g8h2zwk7t0gcyrs",
-              "readwiseUrl": "https://read.readwise.io/read/01j29d3vyb3g8h2zwk7t0gcyrs",
-              "summary": "This book offers strategies to help manage the challenges of adult ADHD, like losing keys and trouble finishing tasks. It emphasizes the importance of using tools like appointment books and to-do lists to stay organized. Coping with ADHD takes time, patience, and finding strategies that work for each individual.",
-              "whyRead": "Raakt je interesse in ADHD — Puryear geeft praktische strategieën voor volwassenen, gericht op werken mét de ADHD-hersenen in plaats van ertegen.",
-              "bestMoment": "leergierig",
-              "tags": [
-                "adhd & neurodivergence",
-                "personal growth & life philosophy",
-                "psychology & behavior"
-              ],
-              "alsoIn": []
-            },
-            {
-              "position": 90,
-              "id": "01j7x2qde4aaycp5jtn9b23jqh",
-              "title": "The Importance of Being Earnest",
-              "author": "Oscar Wilde",
-              "siteName": null,
-              "category": "epub",
-              "language": "Engels",
-              "readingTime": "1 hr 24 mins",
-              "readingMinutes": 84,
-              "wordCount": 22206,
-              "publishedDate": "2014-05-25",
-              "savedDate": "2024-09-16T09:30:53.042000+00:00",
-              "imageUrl": "https://readwise-assets.s3.amazonaws.com/media/reader/parsed_document_assets/215851494/bnuPwwoJnMZcWgYE_5CBlUijiO7RStXvopyfJv9dboI-cove_WfyNl1M.jpg",
-              "sourceUrl": "private://read/01j7phr9gma7cjv8qr88ph3432",
-              "readwiseUrl": "https://read.readwise.io/read/01j7x2qde4aaycp5jtn9b23jqh",
-              "summary": "\"The Importance of Being Earnest\" is a play by Oscar Wilde. The text is believed to be in the public domain in the United States. Users outside the U.S. should check local copyright laws before using it.",
-              "whyRead": null,
-              "bestMoment": null,
-              "tags": [
                 "arts & culture",
-                "fiction"
+                "history",
+                "philosophy"
               ],
-              "alsoIn": []
+              "alsoIn": [
+                "video-top-100"
+              ]
             },
             {
-              "position": 91,
-              "id": "01jaraxstjdzrdw2zs4r638p2v",
-              "title": "Journey to the Center of the Earth",
-              "author": "Jules Verne",
-              "siteName": null,
-              "category": "epub",
+              "position": 2,
+              "id": "01kc3qh6f73jpx7bkeq1j800wh",
+              "title": "John Rawls--Modern Political Philosophy--Lecture 1 (audio only)",
+              "author": "Harvard Philosophy Department",
+              "siteName": "YouTube",
+              "category": "video",
               "language": "Engels",
-              "readingTime": "4 hrs 45 mins",
-              "readingMinutes": 285,
-              "wordCount": 75359,
-              "publishedDate": "2020-07-01",
-              "savedDate": "2024-10-21T20:05:07.695000+00:00",
-              "imageUrl": "https://readwise-assets.s3.amazonaws.com/media/reader/parsed_document_assets/227853731/n_DX0U-lqXRsFu1KEoKZKvMCIDbacUU2wuENmn_ux1w-cove_Coa17sJ.jpg",
-              "sourceUrl": "private://read/01jagf2tpmeye0951wr9zt69cz",
-              "readwiseUrl": "https://read.readwise.io/read/01jaraxstjdzrdw2zs4r638p2v",
-              "summary": "In \"Journey to the Center of the Earth,\" the narrator feels both excitement and fear as he and his companions descend into a volcanic crater. Their guide, Hans, skillfully leads them through dangerous terrain while the narrator's uncle eagerly observes everything. Despite the challenges, Hans bravely manages to save important supplies, showing his dedication to the journey.",
-              "whyRead": null,
-              "bestMoment": null,
-              "tags": [
-                "fiction"
-              ],
-              "alsoIn": []
-            },
-            {
-              "position": 92,
-              "id": "01k4d2kxngyzjt0vzg9sav4hbn",
-              "title": "Traumasporen in lichaam, brein en geest",
-              "author": "Bessel van der Kolk",
-              "siteName": "readwise-upload-epub",
-              "category": "epub",
-              "language": "Nederlands",
-              "readingTime": "12 hrs 21 mins",
-              "readingMinutes": 741,
-              "wordCount": 196105,
-              "publishedDate": "2024-02-13",
-              "savedDate": "2025-09-05T13:56:21.825000+00:00",
-              "imageUrl": "https://readwise-assets.s3.amazonaws.com/media/reader/parsed_document_assets/359654392/tn3CMWTRwMi0aohChGFQjr3bfecIqz_C455wIEGS8YY-cover-cover.jpg",
-              "sourceUrl": "private://read/01k4d2kxngyzjt0vzg9sav4hbn",
-              "readwiseUrl": "https://read.readwise.io/read/01k4d2kxngyzjt0vzg9sav4hbn",
-              "summary": "Trauma verandert lichaam, brein en geest en neemt levensvreugde weg.  \nGetroffenen herbeleven angst en machteloosheid, voelen zich vaak niet present en kunnen hun emoties niet verwoorden.  \nHerstel vraagt veilige relaties, wederkerige steun en tijd om opnieuw gevoelens en verbinding te leren.",
-              "whyRead": "Raakt je interesse in psychologie en het lichaam als drager van trauma — Van der Kolk laat zien hoe traumaverwerking verder gaat dan praten.",
+              "readingTime": null,
+              "readingMinutes": null,
+              "wordCount": null,
+              "publishedDate": "2015-06-17",
+              "savedDate": "2025-12-10T08:55:02.810000+00:00",
+              "imageUrl": "https://i.ytimg.com/vi/Z1iMwo8tPPk/maxresdefault.jpg",
+              "sourceUrl": "https://www.youtube.com/watch?si=r6K9YBbkVHoiXvjB&v=Z1iMwo8tPPk&feature=youtu.be",
+              "readwiseUrl": "https://read.readwise.io/read/01kc3qh6f73jpx7bkeq1j800wh",
+              "summary": "The lecture explains political philosophy as studying fair rules for social cooperation. Rawls presents justice as principles that specify fair terms for cooperation among free and equal citizens. He links these principles to institutions that shape and sustain a just democratic society.",
+              "whyRead": "Raakt je interesse in politieke filosofie — John Rawls' eigen inleidingscollege over zijn theorie van rechtvaardigheid aan Harvard (audio).",
               "bestMoment": "analytisch",
               "tags": [
-                "health & wellness",
-                "psychology & behavior"
+                "philosophy",
+                "political philosophy",
+                "sociology & inequality"
               ],
-              "alsoIn": []
+              "alsoIn": [
+                "video-top-100"
+              ]
             },
             {
-              "position": 93,
-              "id": "01k55qwkzkqaphvktn41xznxv2",
-              "title": "Wuthering Heights",
-              "author": "Emily Brontë",
-              "siteName": "readwise-upload-epub",
-              "category": "epub",
+              "position": 3,
+              "id": "01k4z39b4kefzdb9dgxdzfhwj4",
+              "title": "Obsidian + AI: How to Do It The Right Way",
+              "author": "Linking Your Thinking with Nick Milo",
+              "siteName": "YouTube",
+              "category": "video",
               "language": "Engels",
-              "readingTime": "7 hrs 34 mins",
-              "readingMinutes": 454,
-              "wordCount": 120074,
-              "publishedDate": "2018-07-18",
-              "savedDate": "2025-09-15T03:49:53.267000+00:00",
-              "imageUrl": "https://readwise-assets.s3.amazonaws.com/media/reader/parsed_document_assets/363048604/vOfQiI9QA6en9Hm-oMSTeWbt48DZS8lVBzmjgKQ-5m8-cove_CP7HIk2.jpg",
-              "sourceUrl": "private://read/01k55qwkzkqaphvktn41xznxv2",
-              "readwiseUrl": "https://read.readwise.io/read/01k55qwkzkqaphvktn41xznxv2",
-              "summary": "Heathcliff controls visits and provokes the household. Catherine is distraught and insists on seeing Linton because he may be dying. Mrs. Heathcliff sits alone by the bedside while servants tend to Linton and everyone is tense.",
-              "whyRead": null,
-              "bestMoment": null,
-              "tags": [
-                "fiction"
-              ],
-              "alsoIn": []
-            },
-            {
-              "position": 94,
-              "id": "01k5r4d6q3vkqnk8tn09k2eqrd",
-              "title": "How to Know a Person",
-              "author": "David Brooks",
-              "siteName": "readwise-upload-epub",
-              "category": "epub",
-              "language": "Engels",
-              "readingTime": "5 hrs 35 mins",
-              "readingMinutes": 335,
-              "wordCount": 88676,
-              "publishedDate": "2023-10-24",
-              "savedDate": "2025-09-22T07:14:59.447000+00:00",
-              "imageUrl": "https://readwise-assets.s3.amazonaws.com/media/reader/parsed_document_assets/366099104/9O0uwisXg02WA9b8IC0xKVgu-DaTofzz_nCRe5eliFI-cove_HdATnJS.jpg",
-              "sourceUrl": "private://read/01k5r4d6q3vkqnk8tn09k2eqrd",
-              "readwiseUrl": "https://read.readwise.io/read/01k5r4d6q3vkqnk8tn09k2eqrd",
-              "summary": "Knowing others deeply is a way of life, not just a set of techniques. People who have suffered and reflected can empathize more and help others grow. When someone truly sees us, it changes how we see ourselves and helps us become better.",
-              "whyRead": "Raakt je interesse in leren en meta-leren — zie ook andere Range-notitie; dit is een duplicaat van dezelfde editie.",
+              "readingTime": null,
+              "readingMinutes": null,
+              "wordCount": null,
+              "publishedDate": "2025-09-11",
+              "savedDate": "2025-09-12T13:54:23.507000+00:00",
+              "imageUrl": "https://i.ytimg.com/vi/a1FDaoF8Jog/maxresdefault.jpg",
+              "sourceUrl": "https://www.youtube.com/watch?v=a1FDaoF8Jog",
+              "readwiseUrl": "https://read.readwise.io/read/01k4z39b4kefzdb9dgxdzfhwj4",
+              "summary": "Use AI in Obsidian only where it helps, not to replace your thinking.  \nKeep AI close to your notes for privacy and local analysis.  \nKnow your sensemaking archetype and add AI only to the tasks that matter.",
+              "whyRead": "Direct relevant voor je Obsidian-gebruik én Claude Code — Nick Milo laat precies zien hoe hij AI inzet zonder zijn eigen stem te verliezen.",
               "bestMoment": "leergierig",
               "tags": [
+                "ai & machine learning",
                 "learning & meta-learning",
-                "personal growth & life philosophy",
-                "popular science"
+                "programming & software"
               ],
-              "alsoIn": []
+              "alsoIn": [
+                "video-top-100"
+              ]
             },
             {
-              "position": 95,
-              "id": "01k7rktczvt1p4nx2bqf9gqas2",
-              "title": "Waarom generalisten verder komen (Range)",
-              "author": "David Epstein",
-              "siteName": "readwise-upload-epub",
-              "category": "epub",
-              "language": "Nederlands",
-              "readingTime": "7 hrs 34 mins",
-              "readingMinutes": 454,
-              "wordCount": 120240,
-              "publishedDate": "2020-02-20",
-              "savedDate": "2025-10-17T08:15:44.144000+00:00",
-              "imageUrl": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAlgCWAAD/7R9KUGhvdG9zaG9wIDMuMAA4QklNBAQAAAAAAEMcAVoAAxslRxwCAAACAAAcAgUAL0Vwc3RlaW5fV2Fhcm9tIGdlbmVyYWxpc3RlbiB2ZXJkZXIga29tZW5AMS5pbmRkADhCSU0EJQAAAAAAEO5u0BoNzgfxIpBYs+v3Ajw4QklNBDoAAAAAAQsAAAAQAAAAAQAAAAAAC3ByaW50T3V0cHV0AAAABQAAAABQc3RTYm9vbAEAAAAASW50ZWVudW0AAAAASW50ZQAAAABDbHJtAAAAD3ByaW50U2l4dGVlbkJpdGJvb2wAAAAAC3ByaW50ZXJOYW1lVEVYVAAAABAAUABoAGEAcwBlAHIAIAA3ADgAMAAwAEcAWAAgADIAAAAAAA9wcmludFByb29mU2V0dXBPYmpjAAAAEABJAG4AcwB0AGUAbABsAGUAbgAgAHAAcgBvAGUAZgAAAAAACnByb29mU2V0dXAAAAABAAAAAEJsdG5lbnVtAAAADGJ1aWx0aW5Qcm9vZgAAAAlwcm9vZkNNWUsAOEJJTQQ7AAAAAAItAAAAEAAAAAEAAAAAABJwcmludE91dHB1dE9wdGlvbnMAAAAXAAAAAENwdG5ib29sAAAAAABDbGJyYm9vbAAAAAAAUmdzTWJvb2wAAAAAAENybkNib29sAAAAAABDbnRDYm9vbAAAAAAATGJsc2Jvb2wAAAAAAE5ndHZib29sAAAAAABFbWxEYm9vbAAAAAAASW50cmJvb2wAAAAAAEJja2dPYmpjAAAAAQAAAAAAAFJHQkMAAAADAAAAAFJkICBkb3ViQG/gAAAAAAAAAAAAR3JuIGRvdWJAb+AAAAAAAAAAAABCbCAgZG91YkBv4AAAAAAAAAAAAEJyZFRVbnRGI1JsdAAAAAAAAAAAAAAAAEJsZCBVbnRGI1JsdAAAAAAAAAAAAAAAAFJzbHRVbnRGI1B4bEBiwAAAAAAAAAAACnZlY3RvckRhdGFib29sAQAAAABQZ1BzZW51bQAAAABQZ1BzAAAAAFBnUEMAAAAATGVmdFVudEYjUmx0AAAAAAAAAAAAAAAAVG9wIFVudEYjUmx0AAAAAAAAAAAAAAAAU2NsIFVudEYjUHJjQFkAAAAAAAAAAAAQY3JvcFdoZW5QcmludGluZ2Jvb2wAAAAADmNyb3BSZWN0Qm90dG9tbG9uZwAAAAAAAAAMY3JvcFJlY3RMZWZ0bG9uZwAAAAAAAAANY3JvcFJlY3RSaWdodGxvbmcAAAAAAAAAC2Nyb3BSZWN0VG9wbG9uZwAAAAAAOEJJTQPtAAAAAAAQAJYAAAABAAIAlgAAAAEAAjhCSU0EJgAAAAAADgAAAAAAAAAAAAA/gAAAOEJJTQPyAAAAAAAKAAD///////8AADhCSU0EDQAAAAAABAAAAFo4QklNBBkAAAAAAAQAAAAeOEJJTQPzAAAAAAAJAAAAAAAAAAABADhCSU0nEAAAAAAACgABAAAAAAAAAAI4QklNA/UAAAAAAEgAL2ZmAAEAbGZmAAYAAAAAAAEAL2ZmAAEAoZmaAAYAAAAAAAEAMgAAAAEAWgAAAAYAAAAAAAEANQAAAAEALQAAAAYAAAAAAAE4QklNA/gAAAAAAHAAAP////////////////////////////8D6AAAAAD/////////////////////////////A+gAAAAA/////////////////////////////wPoAAAAAP////////////////////////////8D6AAAOEJJTQQIAAAAAAAQAAAAAQAAAkAAAAJAAAAAADhCSU0EHgAAAAAABAAAAAA4QklNBBoAAAAAA0UAAAAGAAAAAAAAAAAAAAUAAAADQwAAAAgAdgBvAG8AcgBwAGwAYQB0AAAAAQAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAANDAAAFAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAbnVsbAAAAAIAAAAGYm91bmRzT2JqYwAAAAEAAAAAAABSY3QxAAAABAAAAABUb3AgbG9uZwAAAAAAAAAATGVmdGxvbmcAAAAAAAAAAEJ0b21sb25nAAAFAAAAAABSZ2h0bG9uZwAAA0MAAAAGc2xpY2VzVmxMcwAAAAFPYmpjAAAAAQAAAAAABXNsaWNlAAAAEgAAAAdzbGljZUlEbG9uZwAAAAAAAAAHZ3JvdXBJRGxvbmcAAAAAAAAABm9yaWdpbmVudW0AAAAMRVNsaWNlT3JpZ2luAAAADWF1dG9HZW5lcmF0ZWQAAAAAVHlwZWVudW0AAAAKRVNsaWNlVHlwZQAAAABJbWcgAAAABmJvdW5kc09iamMAAAABAAAAAAAAUmN0MQAAAAQAAAAAVG9wIGxvbmcAAAAAAAAAAExlZnRsb25nAAAAAAAAAABCdG9tbG9uZwAABQAAAAAAUmdodGxvbmcAAANDAAAAA3VybFRFWFQAAAABAAAAAAAAbnVsbFRFWFQAAAABAAAAAAAATXNnZVRFWFQAAAABAAAAAAAGYWx0VGFnVEVYVAAAAAEAAAAAAA5jZWxsVGV4dElzSFRNTGJvb2wBAAAACGNlbGxUZXh0VEVYVAAAAAEAAAAAAAlob3J6QWxpZ25lbnVtAAAAD0VTbGljZUhvcnpBbGlnbgAAAAdkZWZhdWx0AAAACXZlcnRBbGlnbmVudW0AAAAPRVNsaWNlVmVydEFsaWduAAAAB2RlZmF1bHQAAAALYmdDb2xvclR5cGVlbnVtAAAAEUVTbGljZUJHQ29sb3JUeXBlAAAAAE5vbmUAAAAJdG9wT3V0c2V0bG9uZwAAAAAAAAAKbGVmdE91dHNldGxvbmcAAAAAAAAADGJvdHRvbU91dHNldGxvbmcAAAAAAAAAC3JpZ2h0T3V0c2V0bG9uZwAAAAAAOEJJTQQoAAAAAAAMAAAAAj/wAAAAAAAAOEJJTQQUAAAAAAAEAAAAAjhCSU0EDAAAAAAV6QAAAAEAAABoAAAAnwAAATgAAMHIAAAVzQAYAAH/2P/tAAxBZG9iZV9DTQAB/+4ADkFkb2JlAGSAAAAAAf/bAIQADAgICAkIDAkJDBELCgsRFQ8MDA8VGBMTFRMTGBEMDAwMDAwRDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAENCwsNDg0QDg4QFA4ODhQUDg4ODhQRDAwMDAwREQwMDAwMDBEMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwM/8AAEQgAnwBoAwEiAAIRAQMRAf/dAAQAB//EAT8AAAEFAQEBAQEBAAAAAAAAAAMAAQIEBQYHCAkKCwEAAQUBAQEBAQEAAAAAAAAAAQACAwQFBgcICQoLEAABBAEDAgQCBQcGCAUDDDMBAAIRAwQhEjEFQVFhEyJxgTIGFJGhsUIjJBVSwWIzNHKC0UMHJZJT8OHxY3M1FqKygyZEk1RkRcKjdDYX0lXiZfKzhMPTdePzRieUpIW0lcTU5PSltcXV5fVWZnaGlqa2xtbm9jdHV2d3h5ent8fX5/cRAAICAQIEBAMEBQYHBwYFNQEAAhEDITESBEFRYXEiEwUygZEUobFCI8FS0fAzJGLhcoKSQ1MVY3M08SUGFqKygwcmNcLSRJNUoxdkRVU2dGXi8rOEw9N14/NGlKSFtJXE1OT0pbXF1eX1VmZ2hpamtsbW5vYnN0dXZ3eHl6e3x//aAAwDAQACEQMRAD8A9VSQ8h768e2xkF7GOc0O4kCRuhc7g/XOv7GcnqlJpH2LG6kDjiy/9XyW2Pc61jK99X2N2Pb69n816fp2/wCF9BJT0ySwuofWjDrpyW4tzWZGLYyu119Nrq27rMVkOFDfUd9oqzqfsj2eyzf6n81TeidK68Op9Zz8Sja/DxK6jVbtLS6w25mLlbXudttpquwfTZZ6dfv9X+dr9OxJTspLlum/XSuymzI6iGVsZYMcU49d9totdflYVIOypzXsynYX6H0/8J...",
-              "sourceUrl": "private://read/01k7rktczvt1p4nx2bqf9gqas2",
-              "readwiseUrl": "https://read.readwise.io/read/01k7rktczvt1p4nx2bqf9gqas2",
-              "summary": "Brede vaardigheden en flexibel denken helpen mensen beter te presteren dan smalle specialisatie alleen. Vroege korte voorsprongen verdwijnen vaak omdat anderen snel bijleren. Teams van slimme generalisten leveren vaak de beste oplossingen in complexe situaties.",
-              "whyRead": "Raakt je interesse in leren en meta-leren — Epsteins contra-intuïtieve argument dat breedte van ervaring en late specialisatie in complexe domeinen juist voordelen geeft.",
+              "position": 4,
+              "id": "01ksztqyqrbf3hq420f9q12d7m",
+              "title": "The AI paradox: More automation, more humans, more work | Dan Shipper",
+              "author": "Lenny's Podcast",
+              "siteName": "YouTube",
+              "category": "video",
+              "language": "Engels",
+              "readingTime": null,
+              "readingMinutes": null,
+              "wordCount": null,
+              "publishedDate": "2026-05-24",
+              "savedDate": "2026-05-31T20:13:57.880000+00:00",
+              "imageUrl": "https://i.ytimg.com/vi/4D3hDmGhFhA/sddefault.jpg",
+              "sourceUrl": "https://youtube.com/watch/?v=4D3hDmGhFhA",
+              "readwiseUrl": "https://read.readwise.io/read/01ksztqyqrbf3hq420f9q12d7m",
+              "summary": "Dan Shipper is the co-founder and CEO of Every, a media and software company that’s become a living laboratory for the future of work. Everyone at his company of about 30 people is an AI early adopter; from editors to ops people, they use AI to do much of their work, giving Every a unique lens into where the world is heading. A year ago on this show, Dan predicted that people were sleeping on Claude Code for nontechnical work, which proved to be remarkably prescient. Today he’s back with another set of calls: the SaaS apocalypse is dumb, CLIs are over, the forward deployed engineer is the most valuable new hire, and the only thing you need to do to stay employed is ride the models.\n\n*Dan’s predictions:*\n1. The future of work will happen inside Codex or Claude Code.\n2. Every company will have one “super-agent” inside their Slack that every employee talks to regularly.\n3. SaaS is not dead—in fact, Dan is bullish on SaaS stocks. His contrarian take: “I would buy SaaS stocks right now.”\n4. SaaS economics will shift: users will bring their own AI tokens into apps, which actually improves SaaS margins.\n5. PMs will thrive in the AI era.\n6. Full-stack designers will become superheroes.\n7. The AI job apocalypse is not happening.\n8. Forward deployed engineer is the new most essential role.\n9. CLIs are over.\n10. Automation is a lie.\n11. We will read way more AI-generated writing and we will like it.\n12. We’ll be building software for humans and agents to use together.\n\n*Brought to you by:*\nWorkOS—Make your app enterprise-ready, with SSO, SCIM, RBAC, and more: https://workos.com/lenny\nVanta—Automate compliance, manage risk, and accelerate trust with AI: https://vanta.com/lenny\n\n*Episode transcript:* https://www.lennysnewsletter.com/p/the-ai-paradox-dan-shipper\n*Archive of all Lenny's Podcast transcripts:* https://www.dropbox.com/scl/fo/yxi4s2w998p1gvtpu4193/AMdNPR8AOw0lMklwtnC0TrQ?rlkey=j06x0nipoti519e0xgm23zsn9&st=ahz0fj11&dl=0\n\n*Where to find Dan Shipper:*\n• X: https://x.c...",
+              "whyRead": "Raakt je interesse in AI, werk en softwarecultuur: Dan Shipper schetst concrete verwachtingen over hoe AI tooling organisaties en rollen verandert.",
               "bestMoment": "leergierig",
               "tags": [
-                "learning & meta-learning",
-                "popular science"
+                "ai ethics & society",
+                "business & startups",
+                "technology"
               ],
-              "alsoIn": []
+              "alsoIn": [
+                "video-top-100"
+              ]
             },
             {
-              "position": 96,
-              "id": "01keqeq7nyxjpnsd031e66kmej",
-              "title": "As I Lay Dying",
-              "author": "William Faulkner",
-              "siteName": "readwise-upload-epub",
-              "category": "epub",
+              "position": 5,
+              "id": "01k4w71nryav1tkjyrdd068y5w",
+              "title": "Beat Knowledge Rot: The 3 Types of Reading You Need in the Age of AI",
+              "author": "AI News & Strategy Daily | Nate B Jones",
+              "siteName": "YouTube",
+              "category": "video",
               "language": "Engels",
-              "readingTime": "3 hrs 47 mins",
-              "readingMinutes": 227,
-              "wordCount": 59984,
-              "publishedDate": "2026-01-01",
-              "savedDate": "2026-01-11T21:17:17.017000+00:00",
-              "imageUrl": "https://readwise-assets.s3.amazonaws.com/media/reader/parsed_document_assets/407300804/TXSgZHB_jKVJ5IsDOp_gAQlKQDHUEHfbc-IVf5V35g0-cove_DMNdXPg.jpg",
-              "sourceUrl": "private://read/01keqeq7nyxjpnsd031e66kmej",
-              "readwiseUrl": "https://read.readwise.io/read/01keqeq7nyxjpnsd031e66kmej",
-              "summary": "The family argues about the timing and Jewel’s horse as they prepare to carry Addie’s coffin. They try to cross the river, and the wagon, mules, and horse get swept up. Cash is hurt and loses his tools, and Dewey Dell helps him as they move on.",
-              "whyRead": null,
-              "bestMoment": null,
+              "readingTime": null,
+              "readingMinutes": null,
+              "wordCount": null,
+              "publishedDate": "2025-09-10",
+              "savedDate": "2025-09-11T11:02:23.261000+00:00",
+              "imageUrl": "https://i.ytimg.com/vi/1Q8CjX0SP0o/maxresdefault.jpg",
+              "sourceUrl": "https://youtube.com/watch?v=1Q8CjX0SP0o&si=xtNQrLdHd3GrGQZg",
+              "readwiseUrl": "https://read.readwise.io/read/01k4w71nryav1tkjyrdd068y5w",
+              "summary": "In the age of AI you need three kinds of reading.  \nAwareness reading lets you skim and stay informed.  \nRetrieval reading finds facts; deep reading builds understanding to make new ideas, and AI helps you choose and do both.",
+              "whyRead": "Verfrissend tegenwicht tegen 'AI vernietigt lezen' — introduceert drie nuttige leesbrillen voor het AI-tijdperk.",
+              "bestMoment": "leergierig",
               "tags": [
-                "fiction"
-              ],
-              "alsoIn": []
-            },
-            {
-              "position": 97,
-              "id": "01kgdfpy0f0pts3sax7x38mdqc",
-              "title": "Short Fiction",
-              "author": "Mary Shelley",
-              "siteName": "readwise-upload-epub",
-              "category": "epub",
-              "language": "Engels",
-              "readingTime": "11 hrs 13 mins",
-              "readingMinutes": 673,
-              "wordCount": 178271,
-              "publishedDate": "2025-12-13",
-              "savedDate": "2026-02-01T20:53:34.193000+00:00",
-              "imageUrl": "https://readwise-assets.s3.amazonaws.com/media/reader/parsed_document_assets/415657935/YhKlVj-e0ktEyTkN8AZo5N2tyjNwdUHVkD90NtsHd3c-cove_mGg50ik.jpg",
-              "sourceUrl": "private://read/01kgdfpy0f0pts3sax7x38mdqc",
-              "readwiseUrl": "https://read.readwise.io/read/01kgdfpy0f0pts3sax7x38mdqc",
-              "summary": "Stories of love, loss, and curses haunt these lives. Secret vows, forced matches, and deaths bring grief and flight. Yet through children and care, despair softens into hope.",
-              "whyRead": null,
-              "bestMoment": null,
-              "tags": [
-                "fiction"
-              ],
-              "alsoIn": []
-            },
-            {
-              "position": 98,
-              "id": "01kksm80zx4vk4cskkm9r0nddv",
-              "title": "On the Art of Reading",
-              "author": "Arthur Quiller-Couch",
-              "siteName": "readwise-upload-epub",
-              "category": "epub",
-              "language": "Engels",
-              "readingTime": "4 hrs 4 mins",
-              "readingMinutes": 244,
-              "wordCount": 64446,
-              "publishedDate": "2024-01-31",
-              "savedDate": "2026-03-15T20:50:48.897000+00:00",
-              "imageUrl": "https://readwise-assets.s3.amazonaws.com/media/reader/parsed_document_assets/432647248/xvyjN7fhRsYVj_TrbnI8Q00FAb3vGiORwaBz1zNpZu8-cove_y7sN4wa.jpg",
-              "sourceUrl": "private://read/01kksm80zx4vk4cskkm9r0nddv",
-              "readwiseUrl": "https://read.readwise.io/read/01kksm80zx4vk4cskkm9r0nddv",
-              "summary": "The author says great literature lets all readers feel equal to kings and heroes. He argues that teachers often spoil literature with dry exams, language tricks, and needless notes. He urges us to read with feeling and good taste, not pedantic rules.",
-              "whyRead": null,
-              "bestMoment": null,
-              "tags": [
-                "arts & culture",
+                "ai & machine learning",
                 "learning & meta-learning"
               ],
-              "alsoIn": []
+              "alsoIn": [
+                "video-top-100"
+              ]
             },
             {
-              "position": 99,
-              "id": "01ksdsnsw2mbeb6y7y17ghhey9",
-              "title": "The Way of Excellence",
-              "author": "Brad Stulberg",
-              "siteName": "readwise-upload-epub",
-              "category": "epub",
+              "position": 6,
+              "id": "01kc2h382dkp9nkw7q194jfh8q",
+              "title": "01 of 28 Heidegger's Being & Time   Hubert Dreyfus   2007",
+              "author": "Varuna",
+              "siteName": "YouTube",
+              "category": "video",
               "language": null,
-              "readingTime": "27 mins",
-              "readingMinutes": 27,
-              "wordCount": 6949,
-              "publishedDate": "2025-05-15",
-              "savedDate": "2026-05-24T20:09:00.410000+00:00",
-              "imageUrl": "https://readwise-assets.s3.amazonaws.com/media/reader/parsed_document_assets/457957634/cJsdwnnQa0sPROuuqGwL0JA3h7rTZkEgnKS85gY0Ep8-cove_e34kowZ.jpg",
-              "sourceUrl": "private://read/01ksdsnsw2mbeb6y7y17ghhey9",
-              "readwiseUrl": "https://read.readwise.io/read/01ksdsnsw2mbeb6y7y17ghhey9",
-              "summary": "I’ve posed this question to hundreds of people—athletes, artists, musicians, physicians, creatives, writers, attorneys, investors, teachers, coaches, parents, and more.",
-              "whyRead": "Sterk eerste hoofdstuk/introductie over excellence als betrokken engagement in iets wat ertoe doet. Vooral relevant door de koppeling tussen ambacht, belichaamd weten, flow, anti-alienatie en de vraag wat automatisering niet kan vervangen.",
-              "bestMoment": "reflectief / ambachtelijk",
-              "tags": [],
-              "alsoIn": []
+              "readingTime": null,
+              "readingMinutes": null,
+              "wordCount": null,
+              "publishedDate": "2014-11-30",
+              "savedDate": "2025-12-09T21:43:19.886000+00:00",
+              "imageUrl": "https://i.ytimg.com/vi/IaIWz_87Kz0/maxresdefault.jpg",
+              "sourceUrl": "https://www.youtube.com/watch?v=IaIWz_87Kz0&utm_source=substack&utm_medium=email",
+              "readwiseUrl": "https://read.readwise.io/read/01kc2h382dkp9nkw7q194jfh8q",
+              "summary": "This lecture introduces Heidegger's Being and Time and its central question: what it means to be. Heidegger contrasts two ways things exist: as isolated objects and as ready-to-hand in our practical lives. Understanding human existence (Dasein) reveals how the world and meaning become intelligible.",
+              "whyRead": "Raakt je interesse in filosofie — Hubert Dreyfus' legendarische cursus over Heideggers Sein und Zeit aan Berkeley (2007).",
+              "bestMoment": "geconcentreerd",
+              "tags": [
+                "personal growth & life philosophy",
+                "philosophy"
+              ],
+              "alsoIn": [
+                "video-top-100"
+              ]
             },
             {
-              "position": 100,
-              "id": "01kxh3cnkmne0bwxm5vvjzsnvy",
-              "title": "Rapt_ Attention and the Focused Life",
-              "author": "read.readwise.io",
-              "siteName": "readwise.io",
-              "category": "epub",
-              "language": null,
-              "readingTime": "4 hrs 51 mins",
-              "readingMinutes": 291,
-              "wordCount": 77044,
-              "publishedDate": "2026-07-14",
-              "savedDate": "2026-07-14T19:59:16.981000+00:00",
-              "imageUrl": null,
-              "sourceUrl": "https://read.readwise.io/read/01kxh3cnkmne0bwxm5vvjzsnvy",
-              "readwiseUrl": "https://read.readwise.io/read/01kxh3cnkmne0bwxm5vvjzsnvy",
-              "summary": "Penguin Group (USA) Inc. , 375 Hudson Street, New York, New York 10014, U.",
-              "whyRead": "Raakt je interesse in aandacht, leren en een betekenisvol leven. Gallagher benadert focus niet als productiviteitstruc, maar als het mechanisme dat ervaring, relaties en keuzes vormt.",
+              "position": 7,
+              "id": "01kgdfp777bge0tsbfpzway43h",
+              "title": "Why Designers Can No Longer Trust the Design Process",
+              "author": "Hatch Conference",
+              "siteName": "YouTube",
+              "category": "video",
+              "language": "Engels",
+              "readingTime": null,
+              "readingMinutes": null,
+              "wordCount": null,
+              "publishedDate": "2025-12-28",
+              "savedDate": "2026-02-01T20:53:10.504000+00:00",
+              "imageUrl": "https://i.ytimg.com/vi/4u94juYwLLM/maxresdefault.jpg?v=694d6af7",
+              "sourceUrl": "https://youtube.com/watch/?v=4u94juYwLLM",
+              "readwiseUrl": "https://read.readwise.io/read/01kgdfp777bge0tsbfpzway43h",
+              "summary": "The old step-by-step design process doesn’t fit today’s AI-driven tools and changing roles. Great work comes from care, fast prototyping, and strong intuition to choose and curate, not rigid steps. Designers should trust themselves, explore new capabilities, and tailor the process to each project.",
+              "whyRead": "Raakt je interesse in technologie en design — Jenny Wen (Design Lead bij Anthropic, voormalig Director of Design bij Figma) over hoe het klassieke designproces tekortschiet in een AI-gedreven wereld.",
+              "bestMoment": "analytisch",
+              "tags": [
+                "ai & machine learning",
+                "arts & culture",
+                "programming & software"
+              ],
+              "alsoIn": [
+                "video-top-100"
+              ]
+            },
+            {
+              "position": 8,
+              "id": "01kk7n7kz1yznwg3mx0jgvjk6d",
+              "title": "This is Going to be Very Messy",
+              "author": "Hank Green",
+              "siteName": "YouTube",
+              "category": "video",
+              "language": "Engels",
+              "readingTime": null,
+              "readingMinutes": null,
+              "wordCount": null,
+              "publishedDate": "2026-02-28",
+              "savedDate": "2026-03-08T21:21:42.370000+00:00",
+              "imageUrl": "https://i.ytimg.com/vi/8MLbOulrLA0/sddefault.jpg",
+              "sourceUrl": "https://youtube.com/watch/?v=8MLbOulrLA0",
+              "readwiseUrl": "https://read.readwise.io/read/01kk7n7kz1yznwg3mx0jgvjk6d",
+              "summary": "The speaker worries that AI and recommendation systems will shape what we see and believe, making it easier to manipulate people and harder to focus.  \nHe is more concerned with current problems like the loss of truth and attention than with distant “superintelligence” fears.  \nHe thinks AI will mostly grow as many specialized tools, and hopes people will push back against harmful uses, even while AI also brings real benefits.",
+              "whyRead": "Raakt je interesse in AI-ethiek — Hank Green maakt een persoonlijk en breed overzicht van zijn AI-zorgen, van het alledaagse tot het existentiële.",
+              "bestMoment": "kritisch",
+              "tags": [
+                "ai & machine learning",
+                "ai ethics & society",
+                "cognitive science"
+              ],
+              "alsoIn": [
+                "video-top-100"
+              ]
+            },
+            {
+              "position": 9,
+              "id": "01ky7jr7b2vzxpcgjrbkj0w8ek",
+              "title": "Harvard Professor: Why Nothing Feels Real Anymore - Arthur Brooks",
+              "author": "youtube.com",
+              "siteName": "YouTube",
+              "category": "video",
+              "language": "Engels",
+              "readingTime": null,
+              "readingMinutes": null,
+              "wordCount": null,
+              "publishedDate": "2026-06-11",
+              "savedDate": "2026-07-23T13:31:00.834000+00:00",
+              "imageUrl": "https://i.ytimg.com/vi/IY-UW2gmnVI/sddefault.jpg",
+              "sourceUrl": "https://www.youtube.com/watch?v=IY-UW2gmnVI",
+              "readwiseUrl": "https://read.readwise.io/read/01ky7jr7b2vzxpcgjrbkj0w8ek",
+              "summary": "Arthur Brooks is a social scientist, professor at Harvard University, and an author.\n\nWhy do some people feel lost while others seem deeply fulfilled? When life feels empty, it's often not because you're missing success, money, or comfort; it's because you're missing meaning. So how do you find purpose? How do you create a life that feels worth living? And what does meaning look like in a world where so much feels fake?\n\nExpect to learn why so many people feel like modern life is simulated rather than real, why meaning can’t be simulated, how to break out of the antidepressant cycle, what meaning is actually made up of, why you need to learn to embrace suffering, the most important habits in order to increase the meaning in your life, and much more…\n\n-\n\nGet 160+ lab tests for just $365 and save an extra $25 at https://functionhealth.com/modernwisdom\n\nGet up to 20% off Timeline powered by Mitopure (now at a lower price) at https://timeline.com/modernwisdom\n\nGet up to $350 off the Eight Sleep Pod 5 at https://eightsleep.com/modernwisdom\n\nGet a Free Sample Pack of LMNT’s most popular flavours with your first purchase at https://drinklmnt.com/modernwisdom\n\n-\n\n0:00 Are We Living in a Simulation?\n6:42 What Are We Mistaking For Real Meaning?\n11:00 Why Can’t Meaning Be Simulated?\n15:30 The Most Meaningless Day Imaginable\n19:29 Are Ambitious People Susceptible to Meaninglessness?\n22:00 Are We Just Pursuing Approval?\n30:24 The Big Questions Everyone Should Be Asking\n34:33 Why Life Feels So Random\n36:07 Why Are Directionless People So Fragile?\n37:50 Why We Confuse Fame With Significance\n41:12 How Your Weaknesses Become Strengths\n52:59 Stop Blaming Your Parents\n54:51 How Technology is Rewiring Our Brains\n01:03:47 How to Escape the Doom Loop\n01:10:19 Can You Recover From Meaninglessness?\n01:14:51 How Important is Love to Meaning?\n01:16:50 The Ladder of Love Explained\n01:21:04 Should We Be Thinking About Transcendence More?\n01:24:38 Why is Transcendence So Rare?\n01:27:27 The T...",
+              "whyRead": "Raakt je interesses in zingeving, filosofie en AI-cultuur: een rijk maar kritisch gesprek over waarom digitale substituten voor betekenis, vriendschap en liefde onbevredigend blijven.",
+              "bestMoment": "reflectief",
+              "tags": [
+                "linked-from-readwise",
+                "personal growth & life philosophy",
+                "personal-growth-life-philosophy",
+                "philosophy",
+                "technology"
+              ],
+              "alsoIn": [
+                "video-top-100"
+              ]
+            },
+            {
+              "position": 10,
+              "id": "01jz08k6qxtb6j3ag61pe6z9cg",
+              "title": "Andrej Karpathy: Software Is Changing (Again)",
+              "author": "Y Combinator",
+              "siteName": "YouTube",
+              "category": "video",
+              "language": "Engels",
+              "readingTime": null,
+              "readingMinutes": null,
+              "wordCount": null,
+              "publishedDate": "2025-06-18",
+              "savedDate": "2025-06-30T11:12:13.053000+00:00",
+              "imageUrl": "https://i.ytimg.com/vi/LCEmiRjPEtQ/maxresdefault.jpg",
+              "sourceUrl": "https://youtube.com/watch/?v=LCEmiRjPEtQ",
+              "readwiseUrl": "https://read.readwise.io/read/01jz08k6qxtb6j3ag61pe6z9cg",
+              "summary": "Software is changing fundamentally because large language models (LLMs) act like new operating systems. These LLMs help automate tasks by working together with humans, offering partial autonomy. This shift will make software development easier and more powerful over time.",
+              "whyRead": "Karpathy's conceptuele framing van Software 1.0/2.0/3.0 is een van de helderste denkkaders voor AI — geen nieuws maar ideeëngeschiedenis.",
+              "bestMoment": "analytisch",
+              "tags": [
+                "ai ethics & society",
+                "programming & software"
+              ],
+              "alsoIn": [
+                "video-top-100"
+              ]
+            }
+          ]
+        },
+        "top-100": {
+          "tag": "video-top-100",
+          "items": [
+            {
+              "position": 1,
+              "id": "01k7zy55f0v2sdenq3zpyskqt2",
+              "title": "How Did The World Get So Ugly?",
+              "author": "The Cultural Tutor | Sheehan Quirke",
+              "siteName": "YouTube",
+              "category": "video",
+              "language": "Engels",
+              "readingTime": null,
+              "readingMinutes": null,
+              "wordCount": null,
+              "publishedDate": "2025-10-07",
+              "savedDate": "2025-10-20T04:31:03.649000+00:00",
+              "imageUrl": "https://i.ytimg.com/vi/tWYxrowovts/maxresdefault.jpg",
+              "sourceUrl": "https://www.youtube.com/watch?v=tWYxrowovts",
+              "readwiseUrl": "https://read.readwise.io/read/01k7zy55f0v2sdenq3zpyskqt2",
+              "summary": "Look at a city's ordinary things to understand its values. Victorian London made useful things beautiful, showing pride and meaning. Modern design favors convenience and efficiency, often at the cost of everyday beauty.",
+              "whyRead": "Cultuurhistorisch essay over schoonheid en moderniteit — raakt je interesse in cultuurgeschiedenis en ideeëngeschiedenis.",
+              "bestMoment": "reflectief",
+              "tags": [
+                "arts & culture",
+                "history",
+                "philosophy"
+              ],
+              "alsoIn": [
+                "video-top-10"
+              ]
+            },
+            {
+              "position": 2,
+              "id": "01kc3qh6f73jpx7bkeq1j800wh",
+              "title": "John Rawls--Modern Political Philosophy--Lecture 1 (audio only)",
+              "author": "Harvard Philosophy Department",
+              "siteName": "YouTube",
+              "category": "video",
+              "language": "Engels",
+              "readingTime": null,
+              "readingMinutes": null,
+              "wordCount": null,
+              "publishedDate": "2015-06-17",
+              "savedDate": "2025-12-10T08:55:02.810000+00:00",
+              "imageUrl": "https://i.ytimg.com/vi/Z1iMwo8tPPk/maxresdefault.jpg",
+              "sourceUrl": "https://www.youtube.com/watch?si=r6K9YBbkVHoiXvjB&v=Z1iMwo8tPPk&feature=youtu.be",
+              "readwiseUrl": "https://read.readwise.io/read/01kc3qh6f73jpx7bkeq1j800wh",
+              "summary": "The lecture explains political philosophy as studying fair rules for social cooperation. Rawls presents justice as principles that specify fair terms for cooperation among free and equal citizens. He links these principles to institutions that shape and sustain a just democratic society.",
+              "whyRead": "Raakt je interesse in politieke filosofie — John Rawls' eigen inleidingscollege over zijn theorie van rechtvaardigheid aan Harvard (audio).",
+              "bestMoment": "analytisch",
+              "tags": [
+                "philosophy",
+                "political philosophy",
+                "sociology & inequality"
+              ],
+              "alsoIn": [
+                "video-top-10"
+              ]
+            },
+            {
+              "position": 3,
+              "id": "01k4z39b4kefzdb9dgxdzfhwj4",
+              "title": "Obsidian + AI: How to Do It The Right Way",
+              "author": "Linking Your Thinking with Nick Milo",
+              "siteName": "YouTube",
+              "category": "video",
+              "language": "Engels",
+              "readingTime": null,
+              "readingMinutes": null,
+              "wordCount": null,
+              "publishedDate": "2025-09-11",
+              "savedDate": "2025-09-12T13:54:23.507000+00:00",
+              "imageUrl": "https://i.ytimg.com/vi/a1FDaoF8Jog/maxresdefault.jpg",
+              "sourceUrl": "https://www.youtube.com/watch?v=a1FDaoF8Jog",
+              "readwiseUrl": "https://read.readwise.io/read/01k4z39b4kefzdb9dgxdzfhwj4",
+              "summary": "Use AI in Obsidian only where it helps, not to replace your thinking.  \nKeep AI close to your notes for privacy and local analysis.  \nKnow your sensemaking archetype and add AI only to the tasks that matter.",
+              "whyRead": "Direct relevant voor je Obsidian-gebruik én Claude Code — Nick Milo laat precies zien hoe hij AI inzet zonder zijn eigen stem te verliezen.",
               "bestMoment": "leergierig",
               "tags": [
-                "behavioral psychology & coaching",
+                "ai & machine learning",
                 "learning & meta-learning",
-                "personal growth & life philosophy"
+                "programming & software"
               ],
-              "alsoIn": []
+              "alsoIn": [
+                "video-top-10"
+              ]
+            },
+            {
+              "position": 4,
+              "id": "01ksztqyqrbf3hq420f9q12d7m",
+              "title": "The AI paradox: More automation, more humans, more work | Dan Shipper",
+              "author": "Lenny's Podcast",
+              "siteName": "YouTube",
+              "category": "video",
+              "language": "Engels",
+              "readingTime": null,
+              "readingMinutes": null,
+              "wordCount": null,
+              "publishedDate": "2026-05-24",
+              "savedDate": "2026-05-31T20:13:57.880000+00:00",
+              "imageUrl": "https://i.ytimg.com/vi/4D3hDmGhFhA/sddefault.jpg",
+              "sourceUrl": "https://youtube.com/watch/?v=4D3hDmGhFhA",
+              "readwiseUrl": "https://read.readwise.io/read/01ksztqyqrbf3hq420f9q12d7m",
+              "summary": "Dan Shipper is the co-founder and CEO of Every, a media and software company that’s become a living laboratory for the future of work. Everyone at his company of about 30 people is an AI early adopter; from editors to ops people, they use AI to do much of their work, giving Every a unique lens into where the world is heading. A year ago on this show, Dan predicted that people were sleeping on Claude Code for nontechnical work, which proved to be remarkably prescient. Today he’s back with another set of calls: the SaaS apocalypse is dumb, CLIs are over, the forward deployed engineer is the most valuable new hire, and the only thing you need to do to stay employed is ride the models.\n\n*Dan’s predictions:*\n1. The future of work will happen inside Codex or Claude Code.\n2. Every company will have one “super-agent” inside their Slack that every employee talks to regularly.\n3. SaaS is not dead—in fact, Dan is bullish on SaaS stocks. His contrarian take: “I would buy SaaS stocks right now.”\n4. SaaS economics will shift: users will bring their own AI tokens into apps, which actually improves SaaS margins.\n5. PMs will thrive in the AI era.\n6. Full-stack designers will become superheroes.\n7. The AI job apocalypse is not happening.\n8. Forward deployed engineer is the new most essential role.\n9. CLIs are over.\n10. Automation is a lie.\n11. We will read way more AI-generated writing and we will like it.\n12. We’ll be building software for humans and agents to use together.\n\n*Brought to you by:*\nWorkOS—Make your app enterprise-ready, with SSO, SCIM, RBAC, and more: https://workos.com/lenny\nVanta—Automate compliance, manage risk, and accelerate trust with AI: https://vanta.com/lenny\n\n*Episode transcript:* https://www.lennysnewsletter.com/p/the-ai-paradox-dan-shipper\n*Archive of all Lenny's Podcast transcripts:* https://www.dropbox.com/scl/fo/yxi4s2w998p1gvtpu4193/AMdNPR8AOw0lMklwtnC0TrQ?rlkey=j06x0nipoti519e0xgm23zsn9&st=ahz0fj11&dl=0\n\n*Where to find Dan Shipper:*\n• X: https://x.c...",
+              "whyRead": "Raakt je interesse in AI, werk en softwarecultuur: Dan Shipper schetst concrete verwachtingen over hoe AI tooling organisaties en rollen verandert.",
+              "bestMoment": "leergierig",
+              "tags": [
+                "ai ethics & society",
+                "business & startups",
+                "technology"
+              ],
+              "alsoIn": [
+                "video-top-10"
+              ]
+            },
+            {
+              "position": 5,
+              "id": "01k4w71nryav1tkjyrdd068y5w",
+              "title": "Beat Knowledge Rot: The 3 Types of Reading You Need in the Age of AI",
+              "author": "AI News & Strategy Daily | Nate B Jones",
+              "siteName": "YouTube",
+              "category": "video",
+              "language": "Engels",
+              "readingTime": null,
+              "readingMinutes": null,
+              "wordCount": null,
+              "publishedDate": "2025-09-10",
+              "savedDate": "2025-09-11T11:02:23.261000+00:00",
+              "imageUrl": "https://i.ytimg.com/vi/1Q8CjX0SP0o/maxresdefault.jpg",
+              "sourceUrl": "https://youtube.com/watch?v=1Q8CjX0SP0o&si=xtNQrLdHd3GrGQZg",
+              "readwiseUrl": "https://read.readwise.io/read/01k4w71nryav1tkjyrdd068y5w",
+              "summary": "In the age of AI you need three kinds of reading.  \nAwareness reading lets you skim and stay informed.  \nRetrieval reading finds facts; deep reading builds understanding to make new ideas, and AI helps you choose and do both.",
+              "whyRead": "Verfrissend tegenwicht tegen 'AI vernietigt lezen' — introduceert drie nuttige leesbrillen voor het AI-tijdperk.",
+              "bestMoment": "leergierig",
+              "tags": [
+                "ai & machine learning",
+                "learning & meta-learning"
+              ],
+              "alsoIn": [
+                "video-top-10"
+              ]
+            },
+            {
+              "position": 6,
+              "id": "01kc2h382dkp9nkw7q194jfh8q",
+              "title": "01 of 28 Heidegger's Being & Time   Hubert Dreyfus   2007",
+              "author": "Varuna",
+              "siteName": "YouTube",
+              "category": "video",
+              "language": null,
+              "readingTime": null,
+              "readingMinutes": null,
+              "wordCount": null,
+              "publishedDate": "2014-11-30",
+              "savedDate": "2025-12-09T21:43:19.886000+00:00",
+              "imageUrl": "https://i.ytimg.com/vi/IaIWz_87Kz0/maxresdefault.jpg",
+              "sourceUrl": "https://www.youtube.com/watch?v=IaIWz_87Kz0&utm_source=substack&utm_medium=email",
+              "readwiseUrl": "https://read.readwise.io/read/01kc2h382dkp9nkw7q194jfh8q",
+              "summary": "This lecture introduces Heidegger's Being and Time and its central question: what it means to be. Heidegger contrasts two ways things exist: as isolated objects and as ready-to-hand in our practical lives. Understanding human existence (Dasein) reveals how the world and meaning become intelligible.",
+              "whyRead": "Raakt je interesse in filosofie — Hubert Dreyfus' legendarische cursus over Heideggers Sein und Zeit aan Berkeley (2007).",
+              "bestMoment": "geconcentreerd",
+              "tags": [
+                "personal growth & life philosophy",
+                "philosophy"
+              ],
+              "alsoIn": [
+                "video-top-10"
+              ]
+            },
+            {
+              "position": 7,
+              "id": "01kgdfp777bge0tsbfpzway43h",
+              "title": "Why Designers Can No Longer Trust the Design Process",
+              "author": "Hatch Conference",
+              "siteName": "YouTube",
+              "category": "video",
+              "language": "Engels",
+              "readingTime": null,
+              "readingMinutes": null,
+              "wordCount": null,
+              "publishedDate": "2025-12-28",
+              "savedDate": "2026-02-01T20:53:10.504000+00:00",
+              "imageUrl": "https://i.ytimg.com/vi/4u94juYwLLM/maxresdefault.jpg?v=694d6af7",
+              "sourceUrl": "https://youtube.com/watch/?v=4u94juYwLLM",
+              "readwiseUrl": "https://read.readwise.io/read/01kgdfp777bge0tsbfpzway43h",
+              "summary": "The old step-by-step design process doesn’t fit today’s AI-driven tools and changing roles. Great work comes from care, fast prototyping, and strong intuition to choose and curate, not rigid steps. Designers should trust themselves, explore new capabilities, and tailor the process to each project.",
+              "whyRead": "Raakt je interesse in technologie en design — Jenny Wen (Design Lead bij Anthropic, voormalig Director of Design bij Figma) over hoe het klassieke designproces tekortschiet in een AI-gedreven wereld.",
+              "bestMoment": "analytisch",
+              "tags": [
+                "ai & machine learning",
+                "arts & culture",
+                "programming & software"
+              ],
+              "alsoIn": [
+                "video-top-10"
+              ]
+            },
+            {
+              "position": 8,
+              "id": "01kk7n7kz1yznwg3mx0jgvjk6d",
+              "title": "This is Going to be Very Messy",
+              "author": "Hank Green",
+              "siteName": "YouTube",
+              "category": "video",
+              "language": "Engels",
+              "readingTime": null,
+              "readingMinutes": null,
+              "wordCount": null,
+              "publishedDate": "2026-02-28",
+              "savedDate": "2026-03-08T21:21:42.370000+00:00",
+              "imageUrl": "https://i.ytimg.com/vi/8MLbOulrLA0/sddefault.jpg",
+              "sourceUrl": "https://youtube.com/watch/?v=8MLbOulrLA0",
+              "readwiseUrl": "https://read.readwise.io/read/01kk7n7kz1yznwg3mx0jgvjk6d",
+              "summary": "The speaker worries that AI and recommendation systems will shape what we see and believe, making it easier to manipulate people and harder to focus.  \nHe is more concerned with current problems like the loss of truth and attention than with distant “superintelligence” fears.  \nHe thinks AI will mostly grow as many specialized tools, and hopes people will push back against harmful uses, even while AI also brings real benefits.",
+              "whyRead": "Raakt je interesse in AI-ethiek — Hank Green maakt een persoonlijk en breed overzicht van zijn AI-zorgen, van het alledaagse tot het existentiële.",
+              "bestMoment": "kritisch",
+              "tags": [
+                "ai & machine learning",
+                "ai ethics & society",
+                "cognitive science"
+              ],
+              "alsoIn": [
+                "video-top-10"
+              ]
+            },
+            {
+              "position": 9,
+              "id": "01ky7jr7b2vzxpcgjrbkj0w8ek",
+              "title": "Harvard Professor: Why Nothing Feels Real Anymore - Arthur Brooks",
+              "author": "youtube.com",
+              "siteName": "YouTube",
+              "category": "video",
+              "language": "Engels",
+              "readingTime": null,
+              "readingMinutes": null,
+              "wordCount": null,
+              "publishedDate": "2026-06-11",
+              "savedDate": "2026-07-23T13:31:00.834000+00:00",
+              "imageUrl": "https://i.ytimg.com/vi/IY-UW2gmnVI/sddefault.jpg",
+              "sourceUrl": "https://www.youtube.com/watch?v=IY-UW2gmnVI",
+              "readwiseUrl": "https://read.readwise.io/read/01ky7jr7b2vzxpcgjrbkj0w8ek",
+              "summary": "Arthur Brooks is a social scientist, professor at Harvard University, and an author.\n\nWhy do some people feel lost while others seem deeply fulfilled? When life feels empty, it's often not because you're missing success, money, or comfort; it's because you're missing meaning. So how do you find purpose? How do you create a life that feels worth living? And what does meaning look like in a world where so much feels fake?\n\nExpect to learn why so many people feel like modern life is simulated rather than real, why meaning can’t be simulated, how to break out of the antidepressant cycle, what meaning is actually made up of, why you need to learn to embrace suffering, the most important habits in order to increase the meaning in your life, and much more…\n\n-\n\nGet 160+ lab tests for just $365 and save an extra $25 at https://functionhealth.com/modernwisdom\n\nGet up to 20% off Timeline powered by Mitopure (now at a lower price) at https://timeline.com/modernwisdom\n\nGet up to $350 off the Eight Sleep Pod 5 at https://eightsleep.com/modernwisdom\n\nGet a Free Sample Pack of LMNT’s most popular flavours with your first purchase at https://drinklmnt.com/modernwisdom\n\n-\n\n0:00 Are We Living in a Simulation?\n6:42 What Are We Mistaking For Real Meaning?\n11:00 Why Can’t Meaning Be Simulated?\n15:30 The Most Meaningless Day Imaginable\n19:29 Are Ambitious People Susceptible to Meaninglessness?\n22:00 Are We Just Pursuing Approval?\n30:24 The Big Questions Everyone Should Be Asking\n34:33 Why Life Feels So Random\n36:07 Why Are Directionless People So Fragile?\n37:50 Why We Confuse Fame With Significance\n41:12 How Your Weaknesses Become Strengths\n52:59 Stop Blaming Your Parents\n54:51 How Technology is Rewiring Our Brains\n01:03:47 How to Escape the Doom Loop\n01:10:19 Can You Recover From Meaninglessness?\n01:14:51 How Important is Love to Meaning?\n01:16:50 The Ladder of Love Explained\n01:21:04 Should We Be Thinking About Transcendence More?\n01:24:38 Why is Transcendence So Rare?\n01:27:27 The T...",
+              "whyRead": "Raakt je interesses in zingeving, filosofie en AI-cultuur: een rijk maar kritisch gesprek over waarom digitale substituten voor betekenis, vriendschap en liefde onbevredigend blijven.",
+              "bestMoment": "reflectief",
+              "tags": [
+                "linked-from-readwise",
+                "personal growth & life philosophy",
+                "personal-growth-life-philosophy",
+                "philosophy",
+                "technology"
+              ],
+              "alsoIn": [
+                "video-top-10"
+              ]
+            },
+            {
+              "position": 10,
+              "id": "01jz08k6qxtb6j3ag61pe6z9cg",
+              "title": "Andrej Karpathy: Software Is Changing (Again)",
+              "author": "Y Combinator",
+              "siteName": "YouTube",
+              "category": "video",
+              "language": "Engels",
+              "readingTime": null,
+              "readingMinutes": null,
+              "wordCount": null,
+              "publishedDate": "2025-06-18",
+              "savedDate": "2025-06-30T11:12:13.053000+00:00",
+              "imageUrl": "https://i.ytimg.com/vi/LCEmiRjPEtQ/maxresdefault.jpg",
+              "sourceUrl": "https://youtube.com/watch/?v=LCEmiRjPEtQ",
+              "readwiseUrl": "https://read.readwise.io/read/01jz08k6qxtb6j3ag61pe6z9cg",
+              "summary": "Software is changing fundamentally because large language models (LLMs) act like new operating systems. These LLMs help automate tasks by working together with humans, offering partial autonomy. This shift will make software development easier and more powerful over time.",
+              "whyRead": "Karpathy's conceptuele framing van Software 1.0/2.0/3.0 is een van de helderste denkkaders voor AI — geen nieuws maar ideeëngeschiedenis.",
+              "bestMoment": "analytisch",
+              "tags": [
+                "ai ethics & society",
+                "programming & software"
+              ],
+              "alsoIn": [
+                "video-top-10"
+              ]
             }
           ]
         }
@@ -12364,41 +13256,6 @@ window.TOP_ARTICLES = {
         ],
         "alsoIn": [],
         "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01m03b0vhwd52bhh3rdjhdafv2",
-        "title": "The Orwell Foundation",
-        "author": "The Orwell Foundation",
-        "siteName": "The Orwell Foundation",
-        "category": "article",
-        "language": "Engels",
-        "readingTime": "11 mins",
-        "readingMinutes": 11,
-        "wordCount": 2773,
-        "publishedDate": "2011-06-03",
-        "savedDate": "2026-08-15T18:30:20.988000+00:00",
-        "imageUrl": "",
-        "sourceUrl": "https://www.orwellfoundation.com/the-orwell-foundation/orwell/essays-and-other-works/why-i-write/",
-        "readwiseUrl": "https://read.readwise.io/read/01m03b0vhwd52bhh3rdjhdafv2",
-        "summary": "\"What I have most wanted to do throughout the past ten years is to make political writing into an art. My starting point is always a feeling of partisanship, a sense of injustice.\"",
-        "whyRead": "Orwells klassieke essay over de drijfveren achter schrijven. Onmisbaar als tegengewicht voor instrumenteel schrijvadvies en direct relevant voor je interesse in literatuur en denken.",
-        "bestMoment": "reflectief",
-        "tags": [
-          "arts",
-          "learning",
-          "philosophy"
-        ],
-        "alsoIn": [
-          "aaa-top-100"
-        ],
-        "memberships": [
-          {
-            "familyId": "algemeen",
-            "size": "top-100",
-            "position": 40
-          }
-        ]
       },
       {
         "position": null,
@@ -14083,13 +14940,13 @@ window.TOP_ARTICLES = {
           "research papers & academia"
         ],
         "alsoIn": [
-          "boek-top-100"
+          "pdf-top-100"
         ],
         "memberships": [
           {
-            "familyId": "boeken",
+            "familyId": "pdfs",
             "size": "top-100",
-            "position": 82
+            "position": 23
           }
         ]
       },
@@ -14457,13 +15314,19 @@ window.TOP_ARTICLES = {
           "political philosophy"
         ],
         "alsoIn": [
-          "boek-top-100"
+          "pdf-top-10",
+          "pdf-top-100"
         ],
         "memberships": [
           {
-            "familyId": "boeken",
+            "familyId": "pdfs",
+            "size": "top-10",
+            "position": 3
+          },
+          {
+            "familyId": "pdfs",
             "size": "top-100",
-            "position": 26
+            "position": 3
           }
         ]
       },
@@ -14565,7 +15428,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 39
+            "position": 40
           },
           {
             "familyId": "luchtig",
@@ -14849,7 +15712,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 38
+            "position": 39
           }
         ]
       },
@@ -14939,7 +15802,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 37
+            "position": 38
           },
           {
             "familyId": "nederlands",
@@ -15045,13 +15908,13 @@ window.TOP_ARTICLES = {
           "science"
         ],
         "alsoIn": [
-          "boek-top-100"
+          "pdf-top-100"
         ],
         "memberships": [
           {
-            "familyId": "boeken",
+            "familyId": "pdfs",
             "size": "top-100",
-            "position": 56
+            "position": 13
           }
         ]
       },
@@ -15310,7 +16173,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 36
+            "position": 37
           }
         ]
       },
@@ -15339,13 +16202,13 @@ window.TOP_ARTICLES = {
           "technology"
         ],
         "alsoIn": [
-          "boek-top-100"
+          "pdf-top-100"
         ],
         "memberships": [
           {
-            "familyId": "boeken",
+            "familyId": "pdfs",
             "size": "top-100",
-            "position": 81
+            "position": 22
           }
         ]
       },
@@ -15565,13 +16428,13 @@ window.TOP_ARTICLES = {
           "research papers & academia"
         ],
         "alsoIn": [
-          "boek-top-100"
+          "pdf-top-100"
         ],
         "memberships": [
           {
-            "familyId": "boeken",
+            "familyId": "pdfs",
             "size": "top-100",
-            "position": 80
+            "position": 21
           }
         ]
       },
@@ -15600,13 +16463,13 @@ window.TOP_ARTICLES = {
           "research papers & academia"
         ],
         "alsoIn": [
-          "boek-top-100"
+          "pdf-top-100"
         ],
         "memberships": [
           {
-            "familyId": "boeken",
+            "familyId": "pdfs",
             "size": "top-100",
-            "position": 79
+            "position": 20
           }
         ]
       },
@@ -15635,13 +16498,13 @@ window.TOP_ARTICLES = {
           "research papers & academia"
         ],
         "alsoIn": [
-          "boek-top-100"
+          "pdf-top-100"
         ],
         "memberships": [
           {
-            "familyId": "boeken",
+            "familyId": "pdfs",
             "size": "top-100",
-            "position": 78
+            "position": 19
           }
         ]
       },
@@ -15725,8 +16588,16 @@ window.TOP_ARTICLES = {
           "science",
           "triaged"
         ],
-        "alsoIn": [],
-        "memberships": []
+        "alsoIn": [
+          "pdf-top-100"
+        ],
+        "memberships": [
+          {
+            "familyId": "pdfs",
+            "size": "top-100",
+            "position": 24
+          }
+        ]
       },
       {
         "position": null,
@@ -15781,13 +16652,13 @@ window.TOP_ARTICLES = {
           "technology"
         ],
         "alsoIn": [
-          "boek-top-100"
+          "pdf-top-100"
         ],
         "memberships": [
           {
-            "familyId": "boeken",
+            "familyId": "pdfs",
             "size": "top-100",
-            "position": 77
+            "position": 18
           }
         ]
       },
@@ -15816,13 +16687,13 @@ window.TOP_ARTICLES = {
           "research papers & academia"
         ],
         "alsoIn": [
-          "boek-top-100"
+          "pdf-top-100"
         ],
         "memberships": [
           {
-            "familyId": "boeken",
+            "familyId": "pdfs",
             "size": "top-100",
-            "position": 76
+            "position": 17
           }
         ]
       },
@@ -15851,13 +16722,13 @@ window.TOP_ARTICLES = {
           "research papers & academia"
         ],
         "alsoIn": [
-          "boek-top-100"
+          "pdf-top-100"
         ],
         "memberships": [
           {
-            "familyId": "boeken",
+            "familyId": "pdfs",
             "size": "top-100",
-            "position": 55
+            "position": 12
           }
         ]
       },
@@ -15970,8 +16841,22 @@ window.TOP_ARTICLES = {
           "philosophy",
           "technology"
         ],
-        "alsoIn": [],
-        "memberships": []
+        "alsoIn": [
+          "video-top-10",
+          "video-top-100"
+        ],
+        "memberships": [
+          {
+            "familyId": "videos",
+            "size": "top-10",
+            "position": 9
+          },
+          {
+            "familyId": "videos",
+            "size": "top-100",
+            "position": 9
+          }
+        ]
       },
       {
         "position": null,
@@ -15999,13 +16884,13 @@ window.TOP_ARTICLES = {
           "research papers & academia"
         ],
         "alsoIn": [
-          "boek-top-100"
+          "pdf-top-100"
         ],
         "memberships": [
           {
-            "familyId": "boeken",
+            "familyId": "pdfs",
             "size": "top-100",
-            "position": 75
+            "position": 16
           }
         ]
       },
@@ -16146,7 +17031,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 35
+            "position": 36
           }
         ]
       },
@@ -16551,7 +17436,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "boeken",
             "size": "top-100",
-            "position": 54
+            "position": 42
           }
         ]
       },
@@ -16614,7 +17499,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 34
+            "position": 35
           }
         ]
       },
@@ -16770,7 +17655,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "boeken",
             "size": "top-100",
-            "position": 25
+            "position": 22
           }
         ]
       },
@@ -16805,7 +17690,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "boeken",
             "size": "top-100",
-            "position": 24
+            "position": 21
           }
         ]
       },
@@ -16840,7 +17725,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "boeken",
             "size": "top-100",
-            "position": 23
+            "position": 20
           }
         ]
       },
@@ -16875,7 +17760,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "boeken",
             "size": "top-100",
-            "position": 22
+            "position": 19
           }
         ]
       },
@@ -16910,7 +17795,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "boeken",
             "size": "top-100",
-            "position": 67
+            "position": 52
           }
         ]
       },
@@ -16945,7 +17830,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "boeken",
             "size": "top-100",
-            "position": 100
+            "position": 76
           }
         ]
       },
@@ -17339,7 +18224,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 33
+            "position": 34
           }
         ]
       },
@@ -17620,7 +18505,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "boeken",
             "size": "top-100",
-            "position": 66
+            "position": 51
           }
         ]
       },
@@ -18172,7 +19057,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 32
+            "position": 33
           }
         ]
       },
@@ -19124,8 +20009,22 @@ window.TOP_ARTICLES = {
           "business & startups",
           "technology"
         ],
-        "alsoIn": [],
-        "memberships": []
+        "alsoIn": [
+          "video-top-10",
+          "video-top-100"
+        ],
+        "memberships": [
+          {
+            "familyId": "videos",
+            "size": "top-10",
+            "position": 4
+          },
+          {
+            "familyId": "videos",
+            "size": "top-100",
+            "position": 4
+          }
+        ]
       },
       {
         "position": null,
@@ -19482,7 +20381,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "boeken",
             "size": "top-100",
-            "position": 99
+            "position": 75
           }
         ]
       },
@@ -20183,7 +21082,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 31
+            "position": 32
           }
         ]
       },
@@ -20298,7 +21197,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 30
+            "position": 31
           }
         ]
       },
@@ -20642,7 +21541,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 29
+            "position": 30
           }
         ]
       },
@@ -20970,13 +21869,19 @@ window.TOP_ARTICLES = {
           "sociology & inequality"
         ],
         "alsoIn": [
-          "boek-top-100"
+          "pdf-top-10",
+          "pdf-top-100"
         ],
         "memberships": [
           {
-            "familyId": "boeken",
+            "familyId": "pdfs",
+            "size": "top-10",
+            "position": 5
+          },
+          {
+            "familyId": "pdfs",
             "size": "top-100",
-            "position": 33
+            "position": 5
           }
         ]
       },
@@ -21072,10 +21977,10 @@ window.TOP_ARTICLES = {
       {
         "position": null,
         "id": "01kqwezb39fwf93qzkzhny5gm5",
-        "title": "Abraham Flexner",
-        "author": "Unknown",
+        "title": "THE USEFULNESS OF USELESS KNOWLEDGE",
+        "author": "Abraham Flexner",
         "siteName": "readwise-upload-pdf",
-        "category": "pdf",
+        "category": "article",
         "language": null,
         "readingTime": "21 mins",
         "readingMinutes": 21,
@@ -21094,19 +21999,13 @@ window.TOP_ARTICLES = {
           "popular science"
         ],
         "alsoIn": [
-          "boek-top-10",
-          "boek-top-100"
+          "aaa-top-100"
         ],
         "memberships": [
           {
-            "familyId": "boeken",
-            "size": "top-10",
-            "position": 9
-          },
-          {
-            "familyId": "boeken",
+            "familyId": "algemeen",
             "size": "top-100",
-            "position": 9
+            "position": 29
           }
         ]
       },
@@ -21314,7 +22213,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "boeken",
             "size": "top-100",
-            "position": 21
+            "position": 18
           }
         ]
       },
@@ -22284,7 +23183,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "boeken",
             "size": "top-100",
-            "position": 98
+            "position": 74
           }
         ]
       },
@@ -22566,8 +23465,22 @@ window.TOP_ARTICLES = {
           "ai ethics & society",
           "cognitive science"
         ],
-        "alsoIn": [],
-        "memberships": []
+        "alsoIn": [
+          "video-top-10",
+          "video-top-100"
+        ],
+        "memberships": [
+          {
+            "familyId": "videos",
+            "size": "top-10",
+            "position": 8
+          },
+          {
+            "familyId": "videos",
+            "size": "top-100",
+            "position": 8
+          }
+        ]
       },
       {
         "position": null,
@@ -22620,13 +23533,13 @@ window.TOP_ARTICLES = {
           "research papers & academia"
         ],
         "alsoIn": [
-          "boek-top-100"
+          "pdf-top-100"
         ],
         "memberships": [
           {
-            "familyId": "boeken",
+            "familyId": "pdfs",
             "size": "top-100",
-            "position": 74
+            "position": 15
           }
         ]
       },
@@ -22749,13 +23662,19 @@ window.TOP_ARTICLES = {
           "psychology & behavior"
         ],
         "alsoIn": [
-          "boek-top-100"
+          "pdf-top-10",
+          "pdf-top-100"
         ],
         "memberships": [
           {
-            "familyId": "boeken",
+            "familyId": "pdfs",
+            "size": "top-10",
+            "position": 4
+          },
+          {
+            "familyId": "pdfs",
             "size": "top-100",
-            "position": 32
+            "position": 4
           }
         ]
       },
@@ -22925,13 +23844,13 @@ window.TOP_ARTICLES = {
           "sociology & inequality"
         ],
         "alsoIn": [
-          "boek-top-100"
+          "pdf-top-100"
         ],
         "memberships": [
           {
-            "familyId": "boeken",
+            "familyId": "pdfs",
             "size": "top-100",
-            "position": 53
+            "position": 11
           }
         ]
       },
@@ -23125,7 +24044,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "boeken",
             "size": "top-100",
-            "position": 97
+            "position": 73
           }
         ]
       },
@@ -23153,8 +24072,22 @@ window.TOP_ARTICLES = {
           "arts & culture",
           "programming & software"
         ],
-        "alsoIn": [],
-        "memberships": []
+        "alsoIn": [
+          "video-top-10",
+          "video-top-100"
+        ],
+        "memberships": [
+          {
+            "familyId": "videos",
+            "size": "top-10",
+            "position": 7
+          },
+          {
+            "familyId": "videos",
+            "size": "top-100",
+            "position": 7
+          }
+        ]
       },
       {
         "position": null,
@@ -23388,7 +24321,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "boeken",
             "size": "top-100",
-            "position": 96
+            "position": 72
           }
         ]
       },
@@ -23769,13 +24702,19 @@ window.TOP_ARTICLES = {
           "technology"
         ],
         "alsoIn": [
-          "boek-top-100"
+          "pdf-top-10",
+          "pdf-top-100"
         ],
         "memberships": [
           {
-            "familyId": "boeken",
+            "familyId": "pdfs",
+            "size": "top-10",
+            "position": 10
+          },
+          {
+            "familyId": "pdfs",
             "size": "top-100",
-            "position": 52
+            "position": 10
           }
         ]
       },
@@ -23803,13 +24742,19 @@ window.TOP_ARTICLES = {
           "programming & software"
         ],
         "alsoIn": [
-          "boek-top-100"
+          "pdf-top-10",
+          "pdf-top-100"
         ],
         "memberships": [
           {
-            "familyId": "boeken",
+            "familyId": "pdfs",
+            "size": "top-10",
+            "position": 9
+          },
+          {
+            "familyId": "pdfs",
             "size": "top-100",
-            "position": 51
+            "position": 9
           }
         ]
       },
@@ -23837,13 +24782,19 @@ window.TOP_ARTICLES = {
           "programming & software"
         ],
         "alsoIn": [
-          "boek-top-100"
+          "pdf-top-10",
+          "pdf-top-100"
         ],
         "memberships": [
           {
-            "familyId": "boeken",
+            "familyId": "pdfs",
+            "size": "top-10",
+            "position": 8
+          },
+          {
+            "familyId": "pdfs",
             "size": "top-100",
-            "position": 50
+            "position": 8
           }
         ]
       },
@@ -23872,13 +24823,19 @@ window.TOP_ARTICLES = {
           "political philosophy"
         ],
         "alsoIn": [
-          "boek-top-100"
+          "pdf-top-10",
+          "pdf-top-100"
         ],
         "memberships": [
           {
-            "familyId": "boeken",
+            "familyId": "pdfs",
+            "size": "top-10",
+            "position": 2
+          },
+          {
+            "familyId": "pdfs",
             "size": "top-100",
-            "position": 20
+            "position": 2
           }
         ]
       },
@@ -23972,13 +24929,19 @@ window.TOP_ARTICLES = {
           "philosophy"
         ],
         "alsoIn": [
-          "boek-top-100"
+          "pdf-top-10",
+          "pdf-top-100"
         ],
         "memberships": [
           {
-            "familyId": "boeken",
+            "familyId": "pdfs",
+            "size": "top-10",
+            "position": 7
+          },
+          {
+            "familyId": "pdfs",
             "size": "top-100",
-            "position": 49
+            "position": 7
           }
         ]
       },
@@ -24081,7 +25044,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "boeken",
             "size": "top-100",
-            "position": 48
+            "position": 41
           }
         ]
       },
@@ -24287,8 +25250,22 @@ window.TOP_ARTICLES = {
           "political philosophy",
           "sociology & inequality"
         ],
-        "alsoIn": [],
-        "memberships": []
+        "alsoIn": [
+          "video-top-10",
+          "video-top-100"
+        ],
+        "memberships": [
+          {
+            "familyId": "videos",
+            "size": "top-10",
+            "position": 2
+          },
+          {
+            "familyId": "videos",
+            "size": "top-100",
+            "position": 2
+          }
+        ]
       },
       {
         "position": null,
@@ -24313,8 +25290,22 @@ window.TOP_ARTICLES = {
           "personal growth & life philosophy",
           "philosophy"
         ],
-        "alsoIn": [],
-        "memberships": []
+        "alsoIn": [
+          "video-top-10",
+          "video-top-100"
+        ],
+        "memberships": [
+          {
+            "familyId": "videos",
+            "size": "top-10",
+            "position": 6
+          },
+          {
+            "familyId": "videos",
+            "size": "top-100",
+            "position": 6
+          }
+        ]
       },
       {
         "position": null,
@@ -24346,7 +25337,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "boeken",
             "size": "top-100",
-            "position": 73
+            "position": 58
           }
         ]
       },
@@ -24461,13 +25452,13 @@ window.TOP_ARTICLES = {
           "technology"
         ],
         "alsoIn": [
-          "boek-top-100"
+          "pdf-top-100"
         ],
         "memberships": [
           {
-            "familyId": "boeken",
+            "familyId": "pdfs",
             "size": "top-100",
-            "position": 58
+            "position": 14
           }
         ]
       },
@@ -25177,7 +26168,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "boeken",
             "size": "top-100",
-            "position": 47
+            "position": 40
           }
         ]
       },
@@ -25239,8 +26230,22 @@ window.TOP_ARTICLES = {
           "history",
           "philosophy"
         ],
-        "alsoIn": [],
-        "memberships": []
+        "alsoIn": [
+          "video-top-10",
+          "video-top-100"
+        ],
+        "memberships": [
+          {
+            "familyId": "videos",
+            "size": "top-10",
+            "position": 1
+          },
+          {
+            "familyId": "videos",
+            "size": "top-100",
+            "position": 1
+          }
+        ]
       },
       {
         "position": null,
@@ -25469,7 +26474,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "boeken",
             "size": "top-100",
-            "position": 95
+            "position": 71
           }
         ]
       },
@@ -26561,7 +27566,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "boeken",
             "size": "top-100",
-            "position": 94
+            "position": 70
           }
         ]
       },
@@ -26595,7 +27600,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "boeken",
             "size": "top-100",
-            "position": 19
+            "position": 17
           }
         ]
       },
@@ -26630,7 +27635,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "boeken",
             "size": "top-100",
-            "position": 46
+            "position": 39
           }
         ]
       },
@@ -26663,7 +27668,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "boeken",
             "size": "top-100",
-            "position": 93
+            "position": 69
           }
         ]
       },
@@ -26724,7 +27729,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "boeken",
             "size": "top-100",
-            "position": 65
+            "position": 50
           }
         ]
       },
@@ -26752,8 +27757,22 @@ window.TOP_ARTICLES = {
           "learning & meta-learning",
           "programming & software"
         ],
-        "alsoIn": [],
-        "memberships": []
+        "alsoIn": [
+          "video-top-10",
+          "video-top-100"
+        ],
+        "memberships": [
+          {
+            "familyId": "videos",
+            "size": "top-10",
+            "position": 3
+          },
+          {
+            "familyId": "videos",
+            "size": "top-100",
+            "position": 3
+          }
+        ]
       },
       {
         "position": null,
@@ -26778,8 +27797,22 @@ window.TOP_ARTICLES = {
           "ai & machine learning",
           "learning & meta-learning"
         ],
-        "alsoIn": [],
-        "memberships": []
+        "alsoIn": [
+          "video-top-10",
+          "video-top-100"
+        ],
+        "memberships": [
+          {
+            "familyId": "videos",
+            "size": "top-10",
+            "position": 5
+          },
+          {
+            "familyId": "videos",
+            "size": "top-100",
+            "position": 5
+          }
+        ]
       },
       {
         "position": null,
@@ -26882,7 +27915,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "boeken",
             "size": "top-100",
-            "position": 92
+            "position": 68
           }
         ]
       },
@@ -27374,7 +28407,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "boeken",
             "size": "top-100",
-            "position": 45
+            "position": 38
           }
         ]
       },
@@ -27604,13 +28637,19 @@ window.TOP_ARTICLES = {
           "sociology & inequality"
         ],
         "alsoIn": [
-          "boek-top-100"
+          "pdf-top-10",
+          "pdf-top-100"
         ],
         "memberships": [
           {
-            "familyId": "boeken",
+            "familyId": "pdfs",
+            "size": "top-10",
+            "position": 6
+          },
+          {
+            "familyId": "pdfs",
             "size": "top-100",
-            "position": 44
+            "position": 6
           }
         ]
       },
@@ -27637,8 +28676,22 @@ window.TOP_ARTICLES = {
           "ai ethics & society",
           "programming & software"
         ],
-        "alsoIn": [],
-        "memberships": []
+        "alsoIn": [
+          "video-top-10",
+          "video-top-100"
+        ],
+        "memberships": [
+          {
+            "familyId": "videos",
+            "size": "top-10",
+            "position": 10
+          },
+          {
+            "familyId": "videos",
+            "size": "top-100",
+            "position": 10
+          }
+        ]
       },
       {
         "position": null,
@@ -27727,19 +28780,19 @@ window.TOP_ARTICLES = {
           "tools & workflows"
         ],
         "alsoIn": [
-          "boek-top-10",
-          "boek-top-100"
+          "pdf-top-10",
+          "pdf-top-100"
         ],
         "memberships": [
           {
-            "familyId": "boeken",
+            "familyId": "pdfs",
             "size": "top-10",
-            "position": 8
+            "position": 1
           },
           {
-            "familyId": "boeken",
+            "familyId": "pdfs",
             "size": "top-100",
-            "position": 8
+            "position": 1
           }
         ]
       },
@@ -28036,7 +29089,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "boeken",
             "size": "top-100",
-            "position": 43
+            "position": 37
           }
         ]
       },
@@ -28110,7 +29163,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "boeken",
             "size": "top-100",
-            "position": 64
+            "position": 49
           }
         ]
       },
@@ -28143,7 +29196,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "boeken",
             "size": "top-100",
-            "position": 91
+            "position": 67
           }
         ]
       },
@@ -28178,7 +29231,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "boeken",
             "size": "top-100",
-            "position": 31
+            "position": 27
           }
         ]
       },
@@ -28287,7 +29340,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "boeken",
             "size": "top-100",
-            "position": 90
+            "position": 66
           }
         ]
       },
@@ -28321,7 +29374,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "boeken",
             "size": "top-100",
-            "position": 42
+            "position": 36
           }
         ]
       },
@@ -28355,7 +29408,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "boeken",
             "size": "top-100",
-            "position": 41
+            "position": 35
           }
         ]
       },
@@ -28465,7 +29518,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "boeken",
             "size": "top-100",
-            "position": 40
+            "position": 34
           }
         ]
       },
@@ -28499,7 +29552,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "boeken",
             "size": "top-100",
-            "position": 39
+            "position": 33
           }
         ]
       },
@@ -28533,7 +29586,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "boeken",
             "size": "top-100",
-            "position": 38
+            "position": 32
           }
         ]
       },
@@ -28567,7 +29620,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "boeken",
             "size": "top-100",
-            "position": 37
+            "position": 31
           }
         ]
       },
@@ -28643,7 +29696,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "boeken",
             "size": "top-100",
-            "position": 18
+            "position": 16
           }
         ]
       },
@@ -28678,7 +29731,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "boeken",
             "size": "top-100",
-            "position": 72
+            "position": 57
           }
         ]
       },
@@ -28713,7 +29766,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "boeken",
             "size": "top-100",
-            "position": 30
+            "position": 26
           }
         ]
       },
@@ -28748,7 +29801,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "boeken",
             "size": "top-100",
-            "position": 17
+            "position": 15
           }
         ]
       },
@@ -28782,7 +29835,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "boeken",
             "size": "top-100",
-            "position": 29
+            "position": 25
           }
         ]
       },
@@ -28816,7 +29869,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "boeken",
             "size": "top-100",
-            "position": 63
+            "position": 48
           }
         ]
       },
@@ -28851,7 +29904,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "boeken",
             "size": "top-100",
-            "position": 89
+            "position": 65
           }
         ]
       },
@@ -28886,7 +29939,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "boeken",
             "size": "top-100",
-            "position": 88
+            "position": 64
           }
         ]
       },
@@ -28920,7 +29973,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "boeken",
             "size": "top-100",
-            "position": 87
+            "position": 63
           }
         ]
       },
@@ -28955,7 +30008,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "boeken",
             "size": "top-100",
-            "position": 71
+            "position": 56
           }
         ]
       },
@@ -28990,7 +30043,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "boeken",
             "size": "top-100",
-            "position": 70
+            "position": 55
           }
         ]
       },
@@ -29025,7 +30078,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "boeken",
             "size": "top-100",
-            "position": 62
+            "position": 47
           }
         ]
       },
@@ -29060,7 +30113,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "boeken",
             "size": "top-100",
-            "position": 16
+            "position": 14
           }
         ]
       },
@@ -29095,7 +30148,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "boeken",
             "size": "top-100",
-            "position": 69
+            "position": 54
           }
         ]
       },
@@ -29130,7 +30183,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "boeken",
             "size": "top-100",
-            "position": 28
+            "position": 24
           }
         ]
       },
@@ -29165,7 +30218,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "boeken",
             "size": "top-100",
-            "position": 36
+            "position": 30
           }
         ]
       },
@@ -29241,7 +30294,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "boeken",
             "size": "top-100",
-            "position": 61
+            "position": 46
           }
         ]
       },
@@ -29275,7 +30328,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "boeken",
             "size": "top-100",
-            "position": 35
+            "position": 29
           }
         ]
       },
@@ -29310,7 +30363,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "boeken",
             "size": "top-100",
-            "position": 60
+            "position": 45
           }
         ]
       },
@@ -29386,7 +30439,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "boeken",
             "size": "top-100",
-            "position": 15
+            "position": 13
           }
         ]
       },
@@ -29421,7 +30474,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "boeken",
             "size": "top-100",
-            "position": 14
+            "position": 12
           }
         ]
       },
@@ -29497,7 +30550,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "boeken",
             "size": "top-100",
-            "position": 86
+            "position": 62
           }
         ]
       },
@@ -29532,7 +30585,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "boeken",
             "size": "top-100",
-            "position": 13
+            "position": 11
           }
         ]
       },
@@ -29648,7 +30701,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "boeken",
             "size": "top-100",
-            "position": 59
+            "position": 44
           }
         ]
       },
@@ -29677,13 +30730,19 @@ window.TOP_ARTICLES = {
           "sociology & inequality"
         ],
         "alsoIn": [
+          "boek-top-10",
           "boek-top-100"
         ],
         "memberships": [
           {
             "familyId": "boeken",
+            "size": "top-10",
+            "position": 10
+          },
+          {
+            "familyId": "boeken",
             "size": "top-100",
-            "position": 12
+            "position": 10
           }
         ]
       },
@@ -29758,7 +30817,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "boeken",
             "size": "top-100",
-            "position": 85
+            "position": 61
           }
         ]
       },
@@ -29787,13 +30846,19 @@ window.TOP_ARTICLES = {
           "political philosophy"
         ],
         "alsoIn": [
+          "boek-top-10",
           "boek-top-100"
         ],
         "memberships": [
           {
             "familyId": "boeken",
+            "size": "top-10",
+            "position": 9
+          },
+          {
+            "familyId": "boeken",
             "size": "top-100",
-            "position": 11
+            "position": 9
           }
         ]
       },
@@ -29828,7 +30893,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "boeken",
             "size": "top-100",
-            "position": 57
+            "position": 43
           }
         ]
       },
@@ -29862,7 +30927,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "boeken",
             "size": "top-100",
-            "position": 84
+            "position": 60
           }
         ]
       },
@@ -29896,7 +30961,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "boeken",
             "size": "top-100",
-            "position": 34
+            "position": 28
           }
         ]
       },
@@ -29930,7 +30995,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "boeken",
             "size": "top-100",
-            "position": 83
+            "position": 59
           }
         ]
       },
@@ -29965,7 +31030,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "boeken",
             "size": "top-100",
-            "position": 27
+            "position": 23
           }
         ]
       },
@@ -30000,7 +31065,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "boeken",
             "size": "top-100",
-            "position": 68
+            "position": 53
           }
         ]
       },
@@ -30036,12 +31101,12 @@ window.TOP_ARTICLES = {
           {
             "familyId": "boeken",
             "size": "top-10",
-            "position": 10
+            "position": 8
           },
           {
             "familyId": "boeken",
             "size": "top-100",
-            "position": 10
+            "position": 8
           }
         ]
       },
@@ -30320,48 +31385,48 @@ window.TOP_ARTICLES = {
           "position": 3
         },
         {
+          "id": "01kyxyqrfvk85easc927qpwtns",
+          "title": "The Ones Who Walk Away From Omelas",
+          "position": 4
+        },
+        {
           "id": "01kvhbzvsdz71gdn2329t023sp",
           "title": "So, what is morality?",
-          "position": 4
+          "position": 5
         },
         {
           "id": "01kwm2c48x698f162vev3xqyy2",
           "title": "The Knowledge Machine: How Irrationality Created Modern Science",
-          "position": 5
+          "position": 6
         },
         {
           "id": "01kxr18pz677fa7xqfav7sp2dp",
           "title": "Capitalism: A Ghost Story",
-          "position": 6
+          "position": 7
         },
         {
           "id": "01ky6y0z3wkzmdhty7gq3qa1wz",
           "title": "So, what is morality?",
-          "position": 7
+          "position": 8
         },
         {
           "id": "01kyab47vf7vat0n76fpwrgrj6",
           "title": "Your Book Review: Breakdown In Pakistan",
-          "position": 8
+          "position": 9
         },
         {
           "id": "01kysnkmqq07z6nwe6wtvhtkxy",
           "title": "Data en de Democratische Rechtsorde",
-          "position": 9
+          "position": 10
         },
         {
           "id": "01kysnmbwt86e2fk3axtde57h4",
           "title": "Keynote opening Digital Commons EDIC: Moving beyond the Digital Uncommons",
-          "position": 10
+          "position": 11
         },
         {
           "id": "01kyxa2yd57szp13ha57708606",
           "title": "Your Book Review: The Epic Of Gilgamesh",
-          "position": 11
-        },
-        {
-          "id": "01m03b0vhwd52bhh3rdjhdafv2",
-          "title": "The Orwell Foundation",
           "position": 12
         },
         {
@@ -30436,128 +31501,128 @@ window.TOP_ARTICLES = {
       "label": "Tijdloos",
       "items": [
         {
+          "id": "01jvajbknykyp0g0rgns58p80k",
+          "title": "The Extended Mind",
+          "position": 1
+        },
+        {
+          "id": "01kd1cae7sbstaj4vhva4dsbxr",
+          "title": "The Work Of Art In The Age Of Mechanical Reproduction",
+          "position": 2
+        },
+        {
+          "id": "01kyxyqrfvk85easc927qpwtns",
+          "title": "The Ones Who Walk Away From Omelas",
+          "position": 3
+        },
+        {
           "id": "01k72qvbmwd9xp0k233cv5qgw2",
           "title": "A blog post is a very long and complex search query to find fascinating people and make them route interesting stuff to your inbox",
-          "position": 1
+          "position": 4
+        },
+        {
+          "id": "01kj59ew6gb91gscpt8f7htspq",
+          "title": "Motivation And Personality",
+          "position": 5
         },
         {
           "id": "01krmzw6cw28m1y55ds9qrsxjf",
           "title": "Cities and Ambition",
-          "position": 2
+          "position": 6
         },
         {
           "id": "01kxr18pz677fa7xqfav7sp2dp",
           "title": "Capitalism: A Ghost Story",
-          "position": 3
-        },
-        {
-          "id": "01m03b0vhwd52bhh3rdjhdafv2",
-          "title": "The Orwell Foundation",
-          "position": 4
+          "position": 7
         },
         {
           "id": "01j8s9z9xg4shgce5z167zc7fn",
           "title": "📰 Food as Currency - by Eleanor Konik - Manuscriptions\n📰 Food as Currency",
-          "position": 5
+          "position": 8
         },
         {
           "id": "01jjmt3derk62gvm51m286870b",
           "title": "🎓 On Famines: why and how they happen. To who?",
-          "position": 6
+          "position": 9
         },
         {
           "id": "01k7qbgbanjkbvetnkfd47vkrz",
           "title": "How I wrote \"Looking for Alice\"",
-          "position": 7
+          "position": 10
         },
         {
           "id": "01k7qbgpmxd9gskhw16jx5b8yk",
           "title": "Popular education in Sweden: much more than you wanted to know",
-          "position": 8
+          "position": 11
         },
         {
           "id": "01krn1jdcn6b450yv1z0j92tz3",
           "title": "The Radical Sunzi",
-          "position": 9
+          "position": 12
         },
         {
           "id": "01kxy1qnae4npandc4x9mv4aw0",
           "title": "To Understand Elon Musk, You Have to Understand This ’60s Sci-Fi Novel",
-          "position": 10
+          "position": 13
         },
         {
           "id": "01ky7qe9p9qwtpk49bzc4pqqhk",
           "title": "Normal Accidents: Living with High-Risk Technologies",
-          "position": 11
+          "position": 14
         },
         {
           "id": "01k4hz4tpj7wyg13z1mrad20g8",
           "title": "Longread: Chantal Mouffe – Over het politieke",
-          "position": 12
+          "position": 15
         },
         {
           "id": "01k7qbg40qvbeqszm5nr2wpmyz",
           "title": "Dostoevsky as lover",
-          "position": 13
+          "position": 16
+        },
+        {
+          "id": "01kchxs90kb1qw9xk8rkcz4418",
+          "title": "The Sovereignty Of Good",
+          "position": 17
+        },
+        {
+          "id": "01kd1cajacdxy2n33rqkrn2rwq",
+          "title": "Feminism, The Body, And The Machine",
+          "position": 18
+        },
+        {
+          "id": "01kd1canjswg2k0ey5cgtz3fa4",
+          "title": "Why I Am Not Going To Buy A Computer",
+          "position": 19
+        },
+        {
+          "id": "01kd1cbjc3rzw7es7ef6rd6w6j",
+          "title": "The Question Concerning Technology",
+          "position": 20
         },
         {
           "id": "01kf916mwdxkdydep3wwes334d",
           "title": "Alessandro Manzoni’s “The Betrothed,” Reconsidered | The New Yorker",
-          "position": 14
+          "position": 21
+        },
+        {
+          "id": "01khqrhk77ztjy4d5gg6qsvwgr",
+          "title": "Present Tense Technology",
+          "position": 22
         },
         {
           "id": "01ky7msw17jmgj3v5mv7nf7h6q",
           "title": "In-context Learning and Induction Heads",
-          "position": 15
+          "position": 23
         },
         {
           "id": "01ky7rnb3ej3419mmtg3q5ay7f",
           "title": "The Worst Mistake in the History of the Human Race",
-          "position": 16
+          "position": 24
         },
         {
           "id": "01ky7rxntf6dz2x70h2w6vgtqr",
           "title": "The Height Gap | The New Yorker",
-          "position": 17
-        },
-        {
-          "id": "01kyexyg0m6s4a4nddcw8mm63e",
-          "title": "Time for some game theory",
-          "position": 18
-        },
-        {
-          "id": "01k2p3vgyxd3egkpvn5y6r2d7n",
-          "title": "Genetics and Eugenics in Frank Herbert’s Dune-verse",
-          "position": 19
-        },
-        {
-          "id": "01kgdfmswp6rwxspftxzm0yr3n",
-          "title": "What is the question?",
-          "position": 20
-        },
-        {
-          "id": "01kkeq8y2jazj0q127exrvve9d",
-          "title": "Becoming a Parent During the Pandemic Was the Hardest Thing I’ve Ever Done",
-          "position": 21
-        },
-        {
-          "id": "01j6011fk1gbvn0q705v2wmmah",
-          "title": "Five Unconventional Economic Systems as Imagined in SFF",
-          "position": 22
-        },
-        {
-          "id": "01j8s9z19n0zz9b09z7jh8xz38",
-          "title": "Early Pastoral Economies of the Eurasian Plains\nEarly Pastoral Economies of the Eurasian Plains",
-          "position": 23
-        },
-        {
-          "id": "01k7tw6vrkda5hp5070ra2wqm6",
-          "title": "Five SFF Stories That Shed Light on Obscure History",
-          "position": 24
-        },
-        {
-          "id": "01kc3qh6f73jpx7bkeq1j800wh",
-          "title": "John Rawls--Modern Political Philosophy--Lecture 1 (audio only)",
           "position": 25
         }
       ]

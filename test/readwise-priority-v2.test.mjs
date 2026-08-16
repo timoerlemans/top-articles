@@ -151,15 +151,18 @@ test("een boek zit strikt alleen in de boek-reeks, ook met Nederlandse taal of k
     ["boek"]
   );
   assert.deepEqual(
+    sequencesForDocument(document({ category: "article", tags: { books: {}, dutch: {} } })),
+    ["boek"]
+  );
+});
+
+test("een pdf krijgt een eigen reeks en mag, in tegenstelling tot boek, combineren met dutch/short", () => {
+  assert.deepEqual(
     sequencesForDocument(document({
       category: "pdf",
       reading_time: "5 mins",
       language: "nl",
     })),
-    ["boek"]
-  );
-  assert.deepEqual(
-    sequencesForDocument(document({ category: "article", tags: { books: {}, dutch: {} } })),
-    ["boek"]
+    ["pdf", "dutch", "short", "short-dutch"]
   );
 });

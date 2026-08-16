@@ -10,6 +10,7 @@ export const PRIORITY_MODEL = "readwise-priority-v3";
 export const SEQUENCE_ORDER = [
   "video",
   "boek",
+  "pdf",
   "lees",
   "dutch",
   "short",
@@ -167,7 +168,7 @@ export function validatePriorityExport(exportData, sourceDocuments = [], overrid
     if (item.tier !== tierForScore(item.score)) throw new Error(`Ongeldige tier voor ${id}`);
     if (!item.components || COMPONENT_KEYS.some((key) => !Number.isFinite(item.components[key]))) throw new Error(`Ongeldige componenten voor ${id}`);
     if (!Array.isArray(item.sequences) || new Set(item.sequences).size !== item.sequences.length) throw new Error(`Ongeldige reeksen voor ${id}`);
-    if (item.sequences.includes("boek") && item.sequences.length !== 1) throw new Error(`Boek/EPUB/PDF ${id} hoort strikt alleen in de boek-reeks, niet in ${item.sequences.filter((s) => s !== "boek").join(", ")}`);
+    if (item.sequences.includes("boek") && item.sequences.length !== 1) throw new Error(`Boek/EPUB ${id} hoort strikt alleen in de boek-reeks, niet in ${item.sequences.filter((s) => s !== "boek").join(", ")}`);
     if (Object.keys(item.positions).length !== item.sequences.length) throw new Error(`Posities en reeksen verschillen voor ${id}`);
   }
 

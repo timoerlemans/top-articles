@@ -79,9 +79,12 @@ test("een boek belandt nooit in luchtig of luchtig-nederlands, ook niet met ligh
     sequencesForDocument(document({ category: "epub", tags: { "light-reading": {}, dutch: {} } })),
     ["boek"]
   );
+});
+
+test("een pdf is niet strikt exclusief en mag wel in luchtig belanden", () => {
   assert.deepEqual(
     sequencesForDocument(document({ category: "pdf", tags: { "luchtig-0007": {} } })),
-    ["boek"]
+    ["pdf", "luchtig"]
   );
 });
 

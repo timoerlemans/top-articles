@@ -38,7 +38,7 @@ const COMPONENT_KEYS = [
   "onderscheidende_duurzame_waarde",
   "aftrek",
 ];
-const SEQUENCE_ORDER = ["video", "boek", "lees", "dutch", "short", "short-dutch"];
+const SEQUENCE_ORDER = ["video", "boek", "pdf", "lees", "dutch", "short", "short-dutch"];
 
 function normalize(value) {
   return String(value ?? "")
@@ -110,7 +110,11 @@ function priorityReadingMinutes(value) {
 function isBook(doc) {
   const category = categoryFor(doc);
   const tags = new Set(tagKeys(doc));
-  return category === "pdf" || category === "epub" || tags.has("book") || tags.has("books");
+  return (category === "epub" || tags.has("book") || tags.has("books")) && !tags.has("pdf") && category !== "pdf";
+}
+
+function isPdf(doc) {
+  return categoryFor(doc) === "pdf";
 }
 
 function tierForScore(score) {
@@ -235,6 +239,7 @@ export function detectDutch(doc) {
 export function sequencesForDocument(doc) {
   const category = categoryFor(doc);
   const book = isBook(doc);
+  const pdf = isPdf(doc);
   const dutch = detectDutch(doc);
   const readingMinutes = priorityReadingMinutes(doc?.reading_time);
   const short = readingMinutes !== null && readingMinutes < 10;
@@ -242,6 +247,7 @@ export function sequencesForDocument(doc) {
 
   if (category === "video") sequences.push("video");
   if (book) sequences.push("boek");
+  if (pdf) sequences.push("pdf");
   if (!book && ["article", "email", "rss"].includes(category)) sequences.push("lees");
   if (!book && dutch) sequences.push("dutch");
   if (!book && short) sequences.push("short");
