@@ -1,6 +1,6 @@
 // Automatisch gegenereerd door scripts/build-data.mjs — niet handmatig bewerken.
 window.TOP_ARTICLES = {
-  "generatedAt": "2026-08-16T12:19:27.349Z",
+  "generatedAt": "2026-08-16T12:40:03.101Z",
   "families": [
     {
       "id": "algemeen",
@@ -30315,118 +30315,118 @@ window.TOP_ARTICLES = {
           "position": 2
         },
         {
-          "id": "01kxh3cr3pknc3hxnhsx33xdcx",
-          "title": "The Cambridge Handbook of the Law, Ethics and Policy of Artificial Intelligence",
-          "position": 3
-        },
-        {
-          "id": "01kxh3d92yh43t0kddha2vhyxz",
-          "title": "Het Begin Van Alles. Een Nieuwe Geschiedenis Van De Mensheid",
-          "position": 4
-        },
-        {
-          "id": "01kxh3dc0gn9f96vqa7s1t9fnw",
-          "title": "Het nationaalsocialisme als rancuneleer",
-          "position": 5
-        },
-        {
-          "id": "01kxk0f5xscnb3hqq0r0r6s3xc",
-          "title": "Ik zie wat ik geloof",
-          "position": 6
-        },
-        {
           "id": "01kysnmckrgernh72bvvz2eprz",
           "title": "Minister van Digitale Zaken: hoe het kan werken",
-          "position": 7
-        },
-        {
-          "id": "01kyxyqrfvk85easc927qpwtns",
-          "title": "The Ones Who Walk Away From Omelas",
-          "position": 8
+          "position": 3
         },
         {
           "id": "01kvhbzvsdz71gdn2329t023sp",
           "title": "So, what is morality?",
-          "position": 9
+          "position": 4
         },
         {
           "id": "01kwm2c48x698f162vev3xqyy2",
           "title": "The Knowledge Machine: How Irrationality Created Modern Science",
-          "position": 10
+          "position": 5
         },
         {
           "id": "01kxr18pz677fa7xqfav7sp2dp",
           "title": "Capitalism: A Ghost Story",
-          "position": 11
+          "position": 6
         },
         {
           "id": "01ky6y0z3wkzmdhty7gq3qa1wz",
           "title": "So, what is morality?",
-          "position": 12
+          "position": 7
         },
         {
           "id": "01kyab47vf7vat0n76fpwrgrj6",
           "title": "Your Book Review: Breakdown In Pakistan",
-          "position": 13
+          "position": 8
         },
         {
           "id": "01kysnkmqq07z6nwe6wtvhtkxy",
           "title": "Data en de Democratische Rechtsorde",
-          "position": 14
+          "position": 9
         },
         {
           "id": "01kysnmbwt86e2fk3axtde57h4",
           "title": "Keynote opening Digital Commons EDIC: Moving beyond the Digital Uncommons",
-          "position": 15
+          "position": 10
         },
         {
           "id": "01kyxa2yd57szp13ha57708606",
           "title": "Your Book Review: The Epic Of Gilgamesh",
-          "position": 16
+          "position": 11
         },
         {
           "id": "01m03b0vhwd52bhh3rdjhdafv2",
           "title": "The Orwell Foundation",
-          "position": 17
+          "position": 12
         },
         {
           "id": "01kt72hwt9asrzwwx70ybxyabe",
           "title": "How Love Became Just Another Thing to Optimize",
-          "position": 18
+          "position": 13
         },
         {
           "id": "01kvarejkjdc6y2cjp2d0ewgkd",
           "title": "The Desecration of Man - Say No to Nietzsche",
-          "position": 19
+          "position": 14
         },
         {
           "id": "01kvh7ec1tezr2vy9bqgsm6an4",
           "title": "Is There a Science of Writing?",
-          "position": 20
+          "position": 15
         },
         {
           "id": "01kvjbgrqsftb77gs496c0p12t",
           "title": "If the First Apocalypse Doesn’t Get You, the Second One Will",
-          "position": 21
+          "position": 16
         },
         {
           "id": "01kvtqy4rffwdb1t73t37netda",
           "title": "Antwoorden op vragen die niet gesteld worden",
-          "position": 22
+          "position": 17
         },
         {
           "id": "01kvwwdq8bhy9m3x614gmtn41d",
           "title": "Andrew Stanton: Storytelling Secrets from the Writer of Toy Story 5",
-          "position": 23
+          "position": 18
         },
         {
           "id": "01kwfk5q2rtfm9enggaybd07zq",
           "title": "David Sedaris: Lessons From Decades of Writing",
-          "position": 24
+          "position": 19
         },
         {
           "id": "01kxdxaytaf6tm6ntqnc9vdw18",
           "title": "Apophenia and Manufactured Desire",
+          "position": 20
+        },
+        {
+          "id": "01kxpg8mpkegghvbz5w71ne86v",
+          "title": "Against \"Stochastic Terrorism\"",
+          "position": 21
+        },
+        {
+          "id": "01kxy1qnae4npandc4x9mv4aw0",
+          "title": "To Understand Elon Musk, You Have to Understand This ’60s Sci-Fi Novel",
+          "position": 22
+        },
+        {
+          "id": "01kxzghzvbjtnr20f8vwmwc8s5",
+          "title": "Letters of Last Resort",
+          "position": 23
+        },
+        {
+          "id": "01ky6y112ahhdfz7zdrw7w1jkc",
+          "title": "Fish farts, dead elephants, and total institutions in wildlife conservation",
+          "position": 24
+        },
+        {
+          "id": "01ky7qe9p9qwtpk49bzc4pqqhk",
+          "title": "Normal Accidents: Living with High-Risk Technologies",
           "position": 25
         }
       ]
@@ -30436,128 +30436,128 @@ window.TOP_ARTICLES = {
       "label": "Tijdloos",
       "items": [
         {
-          "id": "01j29b7rm4eskpwwc52cxc3029",
-          "title": "Mind Mapping: Improve Memory, Concentration, Communication, Organization, Creativity, and Time Management",
+          "id": "01k72qvbmwd9xp0k233cv5qgw2",
+          "title": "A blog post is a very long and complex search query to find fascinating people and make them route interesting stuff to your inbox",
           "position": 1
         },
         {
-          "id": "01j29b7vnf4wt6n264dxs18wem",
-          "title": "The Enlightenment: A Very Short Introduction",
+          "id": "01krmzw6cw28m1y55ds9qrsxjf",
+          "title": "Cities and Ambition",
           "position": 2
         },
         {
-          "id": "01j29b7xf9vas2b7q4308ts4bb",
-          "title": "Writing to Learn",
+          "id": "01kxr18pz677fa7xqfav7sp2dp",
+          "title": "Capitalism: A Ghost Story",
           "position": 3
         },
         {
-          "id": "01j29d3555wfw99h6x7txs65sh",
-          "title": "Digital Zettelkasten: Principles, Methods, & Examples",
+          "id": "01m03b0vhwd52bhh3rdjhdafv2",
+          "title": "The Orwell Foundation",
           "position": 4
         },
         {
-          "id": "01j29d37x3cztmzd8trte1m38n",
-          "title": "How to Take Smart Notes: One Simple Technique to Boost Writing, Learning and Thinking – for Students, Academics and Nonfiction Book Writers",
+          "id": "01j8s9z9xg4shgce5z167zc7fn",
+          "title": "📰 Food as Currency - by Eleanor Konik - Manuscriptions\n📰 Food as Currency",
           "position": 5
         },
         {
-          "id": "01j29d3bqtx49g937cc5fnz2dc",
-          "title": "Mind Management, Not Time Management",
+          "id": "01jjmt3derk62gvm51m286870b",
+          "title": "🎓 On Famines: why and how they happen. To who?",
           "position": 6
         },
         {
-          "id": "01j3xagwbegqfdev85fvd1v6f7",
-          "title": "De vrijheid om vrij te zijn",
+          "id": "01k7qbgbanjkbvetnkfd47vkrz",
+          "title": "How I wrote \"Looking for Alice\"",
           "position": 7
         },
         {
-          "id": "01jvajbknykyp0g0rgns58p80k",
-          "title": "The Extended Mind",
+          "id": "01k7qbgpmxd9gskhw16jx5b8yk",
+          "title": "Popular education in Sweden: much more than you wanted to know",
           "position": 8
         },
         {
-          "id": "01j28vhxyk558cnpcqjsy3p80p",
-          "title": "Walden",
+          "id": "01krn1jdcn6b450yv1z0j92tz3",
+          "title": "The Radical Sunzi",
           "position": 9
         },
         {
-          "id": "01j29b7mexjf9xsbecg5fyme08",
-          "title": "Civil Disobedience",
+          "id": "01kxy1qnae4npandc4x9mv4aw0",
+          "title": "To Understand Elon Musk, You Have to Understand This ’60s Sci-Fi Novel",
           "position": 10
         },
         {
-          "id": "01j29b7stf12s2wpwzqdtfzme7",
-          "title": "Self-Reliance",
+          "id": "01ky7qe9p9qwtpk49bzc4pqqhk",
+          "title": "Normal Accidents: Living with High-Risk Technologies",
           "position": 11
         },
         {
-          "id": "01j29d329ferdddmnja3ywxwye",
-          "title": "As a Man Thinketh: 21st Century Edition (The Wisdom of James Allen)",
+          "id": "01k4hz4tpj7wyg13z1mrad20g8",
+          "title": "Longread: Chantal Mouffe – Over het politieke",
           "position": 12
         },
         {
-          "id": "01j29d3606c404ravsnqd4m202",
-          "title": "Enchiridion",
+          "id": "01k7qbg40qvbeqszm5nr2wpmyz",
+          "title": "Dostoevsky as lover",
           "position": 13
         },
         {
-          "id": "01j29d3746nt7zejbxvg8cvbr9",
-          "title": "Flow: The Psychology of Optimal Experience by Mihaly Csikszentmihalyi",
+          "id": "01kf916mwdxkdydep3wwes334d",
+          "title": "Alessandro Manzoni’s “The Betrothed,” Reconsidered | The New Yorker",
           "position": 14
         },
         {
-          "id": "01j29d3ekt10z6968e7p58zr3a",
-          "title": "The Art of War (Chiron Academic Press - The Original Authoritative Edition)",
+          "id": "01ky7msw17jmgj3v5mv7nf7h6q",
+          "title": "In-context Learning and Induction Heads",
           "position": 15
         },
         {
-          "id": "01j3291sr3ramzk98nw3hqwcpc",
-          "title": "Flow: Psychologie van de optimale ervaring",
+          "id": "01ky7rnb3ej3419mmtg3q5ay7f",
+          "title": "The Worst Mistake in the History of the Human Race",
           "position": 16
         },
         {
-          "id": "01k5r4czdk2jfrtx340tw8zcrt",
-          "title": "The Social Animal",
+          "id": "01ky7rxntf6dz2x70h2w6vgtqr",
+          "title": "The Height Gap | The New Yorker",
           "position": 17
         },
         {
-          "id": "01kd1cae7sbstaj4vhva4dsbxr",
-          "title": "The Work Of Art In The Age Of Mechanical Reproduction",
+          "id": "01kyexyg0m6s4a4nddcw8mm63e",
+          "title": "Time for some game theory",
           "position": 18
         },
         {
-          "id": "01kqn2zjmevdr865h4ah7q46ca",
-          "title": "The Shortest History of Europe",
+          "id": "01k2p3vgyxd3egkpvn5y6r2d7n",
+          "title": "Genetics and Eugenics in Frank Herbert’s Dune-verse",
           "position": 19
         },
         {
-          "id": "01kyxyqrfvk85easc927qpwtns",
-          "title": "The Ones Who Walk Away From Omelas",
+          "id": "01kgdfmswp6rwxspftxzm0yr3n",
+          "title": "What is the question?",
           "position": 20
         },
         {
-          "id": "01j28vk7ysb2em2twbr7zmfv0b",
-          "title": "Een kleine geschiedenis van bijna alles",
+          "id": "01kkeq8y2jazj0q127exrvve9d",
+          "title": "Becoming a Parent During the Pandemic Was the Hardest Thing I’ve Ever Done",
           "position": 21
         },
         {
-          "id": "01j29d3d60k7dhd72yfq1ytt3z",
-          "title": "Overcoming Overthinking: The Complete Guide to Calm Your Mind by Conquering Anxiety, Sleeplessness, Indecision, and Negative Thoughts",
+          "id": "01j6011fk1gbvn0q705v2wmmah",
+          "title": "Five Unconventional Economic Systems as Imagined in SFF",
           "position": 22
         },
         {
-          "id": "01j3530y8vbksg0q6pbjw4dvt7",
-          "title": "Principles: Life and Work",
+          "id": "01j8s9z19n0zz9b09z7jh8xz38",
+          "title": "Early Pastoral Economies of the Eurasian Plains\nEarly Pastoral Economies of the Eurasian Plains",
           "position": 23
         },
         {
-          "id": "01k72qvbmwd9xp0k233cv5qgw2",
-          "title": "A blog post is a very long and complex search query to find fascinating people and make them route interesting stuff to your inbox",
+          "id": "01k7tw6vrkda5hp5070ra2wqm6",
+          "title": "Five SFF Stories That Shed Light on Obscure History",
           "position": 24
         },
         {
-          "id": "01kj59ew6gb91gscpt8f7htspq",
-          "title": "Motivation And Personality",
+          "id": "01kc3qh6f73jpx7bkeq1j800wh",
+          "title": "John Rawls--Modern Political Philosophy--Lecture 1 (audio only)",
           "position": 25
         }
       ]

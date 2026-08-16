@@ -36,3 +36,20 @@ test("bouwt Consensus, Nieuw en Tijdloos als filters zonder eigen score", () => 
   assert.deepEqual(lists.derived.tijdloos.map(({ id }) => id), ["old", "consensus"]);
   assert.equal(lists.derived.nieuw.every((entry) => entry.score === entry.priority.score), true);
 });
+
+test("sluit boeken uit van Consensus, Nieuw en Tijdloos, ook als ze verder aan de filtercriteria voldoen", () => {
+  const catalog = [
+    item("boek-recent-en-oud", 80, {
+      savedDate: "2026-08-10",
+      publishedDate: "2020-01-01",
+      priority: { score: 80, sequences: ["boek", "lees"], positions: { boek: 1, lees: 1 } },
+    }),
+    item("artikel-recent", 70, { savedDate: "2026-08-10", publishedDate: "2025-01-01" }),
+    item("artikel-oud", 60, { savedDate: "2020-01-01", publishedDate: "2020-01-01" }),
+  ];
+  const lists = buildUnifiedLists(catalog, "2026-08-16T10:00:00.000Z");
+
+  assert.deepEqual(lists.derived.nieuw.map(({ id }) => id), ["artikel-recent"]);
+  assert.deepEqual(lists.derived.tijdloos.map(({ id }) => id), ["artikel-oud"]);
+  assert.ok(!lists.derived.consensus.some(({ id }) => id === "boek-recent-en-oud"));
+});

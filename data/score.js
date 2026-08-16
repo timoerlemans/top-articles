@@ -1,6 +1,6 @@
 // Automatisch gegenereerd door scripts/build-data.mjs — niet handmatig bewerken.
 window.TOP_ARTICLE_PRIORITY = {
-  "generatedAt": "2026-08-16T12:19:27.349Z",
+  "generatedAt": "2026-08-16T12:40:03.101Z",
   "model": "readwise-priority-v3",
   "scope": "later",
   "items": {
@@ -5741,8 +5741,7 @@ window.TOP_ARTICLE_PRIORITY = {
         "boek": 25
       },
       "actualPositions": {
-        "boek": 52,
-        "dutch": 21
+        "boek": 52
       }
     },
     "01kxh3dc0gn9f96vqa7s1t9fnw": {
@@ -5822,8 +5821,7 @@ window.TOP_ARTICLE_PRIORITY = {
         "boek": 23
       },
       "actualPositions": {
-        "boek": 50,
-        "dutch": 20
+        "boek": 50
       }
     },
     "01kxh3cr3pknc3hxnhsx33xdcx": {
@@ -16768,8 +16766,7 @@ window.TOP_ARTICLE_PRIORITY = {
         "boek": 47
       },
       "actualPositions": {
-        "boek": 37,
-        "dutch": 12
+        "boek": 37
       }
     },
     "01k80nvw2z9d40qq24hveszqrw": {
@@ -17138,8 +17135,7 @@ window.TOP_ARTICLE_PRIORITY = {
         "boek": 95
       },
       "actualPositions": {
-        "boek": 96,
-        "dutch": 53
+        "boek": 96
       }
     },
     "01k7qbgpmxd9gskhw16jx5b8yk": {
@@ -18718,8 +18714,7 @@ window.TOP_ARTICLE_PRIORITY = {
         "boek": 65
       },
       "actualPositions": {
-        "boek": 74,
-        "dutch": 31
+        "boek": 74
       }
     },
     "01k4z39b4kefzdb9dgxdzfhwj4": {
@@ -18916,8 +18911,7 @@ window.TOP_ARTICLE_PRIORITY = {
         "boek": 92
       },
       "actualPositions": {
-        "boek": 93,
-        "dutch": 52
+        "boek": 93
       }
     },
     "01k3wq0s2fvpem958c70ymmdwc": {
@@ -19836,8 +19830,7 @@ window.TOP_ARTICLE_PRIORITY = {
         "boek": 44
       },
       "actualPositions": {
-        "boek": 33,
-        "dutch": 8
+        "boek": 33
       }
     },
     "01jz08k6qxtb6j3ag61pe6z9cg": {
@@ -20333,8 +20326,7 @@ window.TOP_ARTICLE_PRIORITY = {
         "boek": 43
       },
       "actualPositions": {
-        "boek": 31,
-        "dutch": 7
+        "boek": 31
       }
     },
     "01jjmt3derk62gvm51m286870b": {
@@ -20417,8 +20409,7 @@ window.TOP_ARTICLE_PRIORITY = {
         "boek": 64
       },
       "actualPositions": {
-        "boek": 73,
-        "dutch": 30
+        "boek": 73
       }
     },
     "01jaraxstjdzrdw2zs4r638p2v": {
@@ -20948,8 +20939,7 @@ window.TOP_ARTICLE_PRIORITY = {
         "boek": 37
       },
       "actualPositions": {
-        "boek": 24,
-        "dutch": 6
+        "boek": 24
       }
     },
     "01j3xagwbegqfdev85fvd1v6f7": {
@@ -20989,8 +20979,7 @@ window.TOP_ARTICLE_PRIORITY = {
         "boek": 7
       },
       "actualPositions": {
-        "boek": 23,
-        "dutch": 5
+        "boek": 23
       }
     },
     "01j3smc8th5ac3n6axj4yg2s37": {
@@ -21148,8 +21137,7 @@ window.TOP_ARTICLE_PRIORITY = {
         "boek": 17
       },
       "actualPositions": {
-        "boek": 20,
-        "dutch": 4
+        "boek": 20
       }
     },
     "01j3175ma4rfsfx5ryhqvdcpy4": {
@@ -21227,8 +21215,7 @@ window.TOP_ARTICLE_PRIORITY = {
         "boek": 63
       },
       "actualPositions": {
-        "boek": 69,
-        "dutch": 29
+        "boek": 69
       }
     },
     "01j29d3vyb3g8h2zwk7t0gcyrs": {
@@ -21336,8 +21323,7 @@ window.TOP_ARTICLE_PRIORITY = {
         "boek": 87
       },
       "actualPositions": {
-        "boek": 67,
-        "luchtig": 4
+        "boek": 67
       }
     },
     "01j29d3hp212xny83jkj13kan8": {
@@ -21375,8 +21361,7 @@ window.TOP_ARTICLE_PRIORITY = {
         "boek": 71
       },
       "actualPositions": {
-        "boek": 66,
-        "luchtig": 11
+        "boek": 66
       }
     },
     "01j29d3gwr2rypyn0gyfn4dym7": {
@@ -21452,8 +21437,7 @@ window.TOP_ARTICLE_PRIORITY = {
         "boek": 62
       },
       "actualPositions": {
-        "boek": 64,
-        "luchtig": 7
+        "boek": 64
       }
     },
     "01j29d3ekt10z6968e7p58zr3a": {
@@ -21531,8 +21515,7 @@ window.TOP_ARTICLE_PRIORITY = {
         "boek": 69
       },
       "actualPositions": {
-        "boek": 63,
-        "luchtig": 9
+        "boek": 63
       }
     },
     "01j29d3d60k7dhd72yfq1ytt3z": {
@@ -21572,8 +21555,7 @@ window.TOP_ARTICLE_PRIORITY = {
         "boek": 28
       },
       "actualPositions": {
-        "boek": 17,
-        "luchtig": 10
+        "boek": 17
       }
     },
     "01j29d3cds6c9f3v6jjbwjd0m8": {
@@ -21769,8 +21751,7 @@ window.TOP_ARTICLE_PRIORITY = {
         "boek": 60
       },
       "actualPositions": {
-        "boek": 61,
-        "luchtig": 8
+        "boek": 61
       }
     },
     "01j29d37x3cztmzd8trte1m38n": {
@@ -22356,8 +22337,7 @@ window.TOP_ARTICLE_PRIORITY = {
         "boek": 84
       },
       "actualPositions": {
-        "boek": 90,
-        "dutch": 51
+        "boek": 90
       }
     },
     "01j28vsd63175zdak33c46ccey": {
@@ -22397,10 +22377,7 @@ window.TOP_ARTICLE_PRIORITY = {
         "boek": 34
       },
       "actualPositions": {
-        "boek": 3,
-        "dutch": 3,
-        "luchtig": 2,
-        "luchtig-nederlands": 1
+        "boek": 3
       }
     },
     "01j28vk8x6dvbnv05fex4z13dz": {
@@ -22436,10 +22413,7 @@ window.TOP_ARTICLE_PRIORITY = {
         "boek": 83
       },
       "actualPositions": {
-        "boek": 89,
-        "dutch": 50,
-        "luchtig": 3,
-        "luchtig-nederlands": 2
+        "boek": 89
       }
     },
     "01j28vk7ysb2em2twbr7zmfv0b": {
@@ -22479,10 +22453,7 @@ window.TOP_ARTICLE_PRIORITY = {
         "boek": 27
       },
       "actualPositions": {
-        "boek": 2,
-        "dutch": 2,
-        "luchtig": 5,
-        "luchtig-nederlands": 3
+        "boek": 2
       }
     },
     "01j28vk6sshcs4s85dctd96np2": {
@@ -22520,8 +22491,7 @@ window.TOP_ARTICLE_PRIORITY = {
         "boek": 68
       },
       "actualPositions": {
-        "boek": 57,
-        "dutch": 28
+        "boek": 57
       }
     },
     "01j28vhxyk558cnpcqjsy3p80p": {
@@ -22561,8 +22531,7 @@ window.TOP_ARTICLE_PRIORITY = {
         "boek": 10
       },
       "actualPositions": {
-        "boek": 1,
-        "dutch": 1
+        "boek": 1
       }
     },
     "01hz9sx57zhs6famn519gxxtne": {

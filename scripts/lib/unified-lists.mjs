@@ -38,15 +38,19 @@ export function buildUnifiedLists(catalog, generatedAt) {
   const timelessCutoff = new Date(generatedAt);
   timelessCutoff.setUTCFullYear(timelessCutoff.getUTCFullYear() - 3);
 
+  // Ontdek-lijsten zijn filters over niet-boeken — boeken horen strikt alleen
+  // in de boeken-familie, niet in Consensus/Nieuw/Tijdloos.
+  const nonBookCatalog = catalog.filter((entry) => !entry.priority.sequences.includes("boek"));
+
   return {
     families,
     derived: {
-      consensus: withListPositions(catalog.filter(({ id }) => (top100Memberships.get(id)?.size ?? 0) >= 2)).slice(0, 25),
-      nieuw: withListPositions(catalog.filter((entry) => {
+      consensus: withListPositions(nonBookCatalog.filter(({ id }) => (top100Memberships.get(id)?.size ?? 0) >= 2)).slice(0, 25),
+      nieuw: withListPositions(nonBookCatalog.filter((entry) => {
         const saved = Date.parse(entry.savedDate ?? "");
         return Number.isFinite(saved) && saved >= recentCutoff && saved <= now;
       })).slice(0, 25),
-      tijdloos: withListPositions(catalog.filter((entry) => {
+      tijdloos: withListPositions(nonBookCatalog.filter((entry) => {
         const published = Date.parse(entry.publishedDate ?? "");
         return Number.isFinite(published) && published <= timelessCutoff.getTime();
       })).slice(0, 25),
