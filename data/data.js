@@ -1,6 +1,6 @@
 // Automatisch gegenereerd door scripts/build-data.mjs — niet handmatig bewerken.
 window.TOP_ARTICLES = {
-  "generatedAt": "2026-08-16T14:55:02.544Z",
+  "generatedAt": "2026-08-16T19:15:06.789Z",
   "families": [
     {
       "id": "algemeen",
@@ -982,6 +982,7 @@ window.TOP_ARTICLES = {
               "tags": [
                 "current affairs & politics",
                 "economics",
+                "light-reading",
                 "sociology & inequality"
               ],
               "alsoIn": [
@@ -1410,6 +1411,7 @@ window.TOP_ARTICLES = {
               "tags": [
                 "fiction",
                 "history",
+                "light-reading",
                 "philosophy"
               ],
               "alsoIn": [
@@ -1419,6 +1421,157 @@ window.TOP_ARTICLES = {
             },
             {
               "position": 41,
+              "id": "01m059szgmq8b5egbkgk1xe1rd",
+              "title": "Arthur Koestler",
+              "author": "orwellfoundation.com",
+              "siteName": "The Orwell Foundation",
+              "category": "article",
+              "language": null,
+              "readingTime": "18 mins",
+              "readingMinutes": 18,
+              "wordCount": 4762,
+              "publishedDate": "2011-02-14",
+              "savedDate": "2026-08-16T12:47:35.956000+00:00",
+              "imageUrl": null,
+              "sourceUrl": "https://www.orwellfoundation.com/the-orwell-foundation/orwell/essays-and-other-works/arthur-koestler/",
+              "readwiseUrl": "https://read.readwise.io/read/01m059szgmq8b5egbkgk1xe1rd",
+              "summary": "Masha Karp: Arthur Koestler – 20th century man (openDemocracy) Robert McCrum: The double life of Arthur Koestler, intellectual and sexual adventurer (The Observer) Will Skidelsky: Arthur Koestler – flawed crusader (The Observer) Will Skidelsky: The extraordinary Arthur Koestler (The Guardian) This material remains under copyright in some jurisdictions including the United States and is reproduced...  <a class=\"excerpt-read-more\" href=\"https://www.orwellfoundation.com/the-orwell-foundation/orwell/essays-and-other-works/arthur-koestler/\" title=\"ReadArthur Koestler\">Read more »</a>",
+              "whyRead": "Literaire en politiek-filosofische analyse van Arthur Koestlers werk (o.a. Darkness at Noon) die precies raakt aan je interesse in totalitarisme, revolutie en de vraag waarom mensen valse bekentenissen afleggen onder een dictatuur.",
+              "bestMoment": "analytisch",
+              "tags": [
+                "arts & culture",
+                "political philosophy",
+                "totalitarianism & fascism"
+              ],
+              "alsoIn": []
+            },
+            {
+              "position": 42,
+              "id": "01m059tvvs5m2bk6b68kyd7bay",
+              "title": "Notes on Nationalism",
+              "author": "orwellfoundation.com",
+              "siteName": "The Orwell Foundation",
+              "category": "article",
+              "language": null,
+              "readingTime": "31 mins",
+              "readingMinutes": 31,
+              "wordCount": 8065,
+              "publishedDate": "2011-04-25",
+              "savedDate": "2026-08-16T12:48:04.985000+00:00",
+              "imageUrl": null,
+              "sourceUrl": "https://www.orwellfoundation.com/the-orwell-foundation/orwell/essays-and-other-works/notes-on-nationalism/",
+              "readwiseUrl": "https://read.readwise.io/read/01m059tvvs5m2bk6b68kyd7bay",
+              "summary": "\"By ‘nationalism’ I mean first of all the habit of assuming that human beings can be classified like insects and that whole blocks of millions or tens of millions of people can be confidently labelled 'good' or 'bad'.\"",
+              "whyRead": "Raakt precies je interesse in politieke filosofie en totalitarisme — een van Orwells scherpste analyses, waarin hij nationalisme herdefinieert als een psychologisch mechanisme (machtshonger plus zelfbedrog) dat communisme, fascisme, pacifisme en zionisme onder één noemer brengt.",
+              "bestMoment": "analytisch",
+              "tags": [
+                "political philosophy",
+                "totalitarianism & fascism"
+              ],
+              "alsoIn": []
+            },
+            {
+              "position": 43,
+              "id": "01m059v21gaqg3ya0m36r03km4",
+              "title": "Politics and the English Language",
+              "author": "orwellfoundation.com",
+              "siteName": "The Orwell Foundation",
+              "category": "article",
+              "language": null,
+              "readingTime": "21 mins",
+              "readingMinutes": 21,
+              "wordCount": 5498,
+              "publishedDate": "2011-02-16",
+              "savedDate": "2026-08-16T12:48:11.312000+00:00",
+              "imageUrl": "https://www.orwellfoundation.com/wp-content/uploads/2011/02/Politics-and-the-English-Language-628x1024.jpg",
+              "sourceUrl": "https://www.orwellfoundation.com/the-orwell-foundation/orwell/essays-and-other-works/politics-and-the-english-language/",
+              "readwiseUrl": "https://read.readwise.io/read/01m059v21gaqg3ya0m36r03km4",
+              "summary": "\"Political language... is designed to make lies sound truthful and murder respectable, and to give an appearance of solidity to pure wind.\"",
+              "whyRead": "Raakt direct je interesse in essay schrijven als vorm/schrijfcraft én politieke filosofie — Orwell's beroemdste stijladvies is tegelijk een scherp politiek argument over hoe vage taal denken vervangt.",
+              "bestMoment": "analytisch",
+              "tags": [
+                "arts & culture",
+                "political philosophy"
+              ],
+              "alsoIn": []
+            },
+            {
+              "position": 44,
+              "id": "01m059v4r9jj9vzx30nn7cs3sr",
+              "title": "Politics vs. Literature: An examination of Gulliver’s Travels",
+              "author": "orwellfoundation.com",
+              "siteName": "The Orwell Foundation",
+              "category": "article",
+              "language": null,
+              "readingTime": "30 mins",
+              "readingMinutes": 30,
+              "wordCount": 7790,
+              "publishedDate": "2011-10-11",
+              "savedDate": "2026-08-16T12:48:14.089000+00:00",
+              "imageUrl": null,
+              "sourceUrl": "https://www.orwellfoundation.com/the-orwell-foundation/orwell/essays-and-other-works/politics-vs-literature-an-examination-of-gullivers-travels/",
+              "readwiseUrl": "https://read.readwise.io/read/01m059v4r9jj9vzx30nn7cs3sr",
+              "summary": "\"What is the relationship between agreement with a writer's opinions, and enjoyment of his work?\"",
+              "whyRead": "Raakt je interesse in politieke filosofie en essay/literatuurkritiek als vorm — Orwell laat zien hoe politieke overtuiging, esthetisch oordeel en kunstwaarde onlosmakelijk verstrengeld zijn.",
+              "bestMoment": "analytisch",
+              "tags": [
+                "arts & culture",
+                "political philosophy"
+              ],
+              "alsoIn": []
+            },
+            {
+              "position": 45,
+              "id": "01m059vbg9k6x4z8p6198n481b",
+              "title": "Second Thoughts on James Burnham",
+              "author": "orwellfoundation.com",
+              "siteName": "The Orwell Foundation",
+              "category": "article",
+              "language": null,
+              "readingTime": "34 mins",
+              "readingMinutes": 34,
+              "wordCount": 8830,
+              "publishedDate": "2010-11-30",
+              "savedDate": "2026-08-16T12:48:20.998000+00:00",
+              "imageUrl": null,
+              "sourceUrl": "https://www.orwellfoundation.com/the-orwell-foundation/orwell/essays-and-other-works/second-thoughts-on-james-burnham/",
+              "readwiseUrl": "https://read.readwise.io/read/01m059vbg9k6x4z8p6198n481b",
+              "summary": "\"It is curious that in all his talk about the struggle for power, Burnham never stops to ask why people want power.\"",
+              "whyRead": "Raakt direct je interesse in totalitarisme & fascisme en politieke filosofie — deze analyse van Burnhams \"managerial revolution\"-theorie is een blauwdruk voor Orwell's latere 1984 en een messcherpe ontleding van hoe machtsverering intellectuelen blind maakt voor hun eigen wensdenken.",
+              "bestMoment": "analytisch",
+              "tags": [
+                "political philosophy",
+                "totalitarianism & fascism"
+              ],
+              "alsoIn": []
+            },
+            {
+              "position": 46,
+              "id": "01m03b0vhwd52bhh3rdjhdafv2",
+              "title": "Why I Write",
+              "author": "The Orwell Foundation",
+              "siteName": "The Orwell Foundation",
+              "category": "article",
+              "language": null,
+              "readingTime": "11 mins",
+              "readingMinutes": 11,
+              "wordCount": 2773,
+              "publishedDate": "2011-06-03",
+              "savedDate": "2026-08-16T12:48:36.068000+00:00",
+              "imageUrl": "",
+              "sourceUrl": "https://www.orwellfoundation.com/the-orwell-foundation/orwell/essays-and-other-works/why-i-write/",
+              "readwiseUrl": "https://read.readwise.io/read/01m03b0vhwd52bhh3rdjhdafv2",
+              "summary": "\"What I have most wanted to do throughout the past ten years is to make political writing into an art. My starting point is always a feeling of partisanship, a sense of injustice.\"",
+              "whyRead": "Orwells klassieke essay over de drijfveren achter schrijven. Onmisbaar als tegengewicht voor instrumenteel schrijvadvies en direct relevant voor je interesse in literatuur en denken.",
+              "bestMoment": "reflectief",
+              "tags": [
+                "arts & culture",
+                "political philosophy"
+              ],
+              "alsoIn": []
+            },
+            {
+              "position": 47,
               "id": "01j60f108dfd1k8q12ah4cmp16",
               "title": "Hunting",
               "author": "Eleanor Konik",
@@ -1446,7 +1599,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 42,
+              "position": 48,
               "id": "01j8s9z9xg4shgce5z167zc7fn",
               "title": "📰 Food as Currency - by Eleanor Konik - Manuscriptions\n📰 Food as Currency",
               "author": "Eleanor Konik",
@@ -1474,7 +1627,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 43,
+              "position": 49,
               "id": "01jjmt3derk62gvm51m286870b",
               "title": "🎓 On Famines: why and how they happen. To who?",
               "author": "Eleanor Konik",
@@ -1502,7 +1655,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 44,
+              "position": 50,
               "id": "01jjxdnzz04ees7fytca2rnntw",
               "title": "🎓 Maritime Empires",
               "author": "Eleanor Konik",
@@ -1529,7 +1682,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 45,
+              "position": 51,
               "id": "01k1mhw46shwzk87214g7gtc9w",
               "title": "Het begin van een oplossing",
               "author": "Kees Verhoeven",
@@ -1560,7 +1713,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 46,
+              "position": 52,
               "id": "01k2p3a6277wff8a1nvfes1ek4",
               "title": "How to Be a Good Intelligence Analyst - by Santi Ruiz",
               "author": "Santi Ruiz",
@@ -1586,7 +1739,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 47,
+              "position": 53,
               "id": "01k3wpn5ak9v4pmtc85h462cav",
               "title": "On the pleasure of reading private notebooks",
               "author": "Henrik Karlsson",
@@ -1614,7 +1767,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 48,
+              "position": 54,
               "id": "01k72qx64tdvkryenrbd5g81px",
               "title": "The Dire State of Contemporary Western Philosophy",
               "author": "Nathan Ormond",
@@ -1642,7 +1795,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 49,
+              "position": 55,
               "id": "01k7j6j6mdje8x3v1jt8hqaba4",
               "title": "The Mimetic Trap",
               "author": "The One Percent Rule",
@@ -1670,7 +1823,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 50,
+              "position": 56,
               "id": "01k7qbgbanjkbvetnkfd47vkrz",
               "title": "How I wrote \"Looking for Alice\"",
               "author": "Henrik Karlsson",
@@ -1698,7 +1851,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 51,
+              "position": 57,
               "id": "01k7qbgpmxd9gskhw16jx5b8yk",
               "title": "Popular education in Sweden: much more than you wanted to know",
               "author": "Henrik Karlsson",
@@ -1726,7 +1879,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 52,
+              "position": 58,
               "id": "01k7xjhe96qxhs9bkr4qahjk09",
               "title": "How to Become as Well-Read as John Adams: 8 Tips From his Reading Life",
               "author": "Samuel",
@@ -1754,7 +1907,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 53,
+              "position": 59,
               "id": "01k8v9cz0ah2x4qddn265e4cnt",
               "title": "Everything Is Television",
               "author": "Derek Thompson",
@@ -1782,7 +1935,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 54,
+              "position": 60,
               "id": "01kcb7n6kftwmca7m6dgprpkwf",
               "title": "Anarchism, explained",
               "author": "Andrew Lee",
@@ -1809,7 +1962,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 55,
+              "position": 61,
               "id": "01kd1c7k90p8p5bknmbm09abwv",
               "title": "The World in Which We Live - Nassim Nicholas Taleb",
               "author": "Substack",
@@ -1837,7 +1990,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 56,
+              "position": 62,
               "id": "01kdnzthe611p0c38ts9j702s2",
               "title": "De verleiding van de kettingzaag",
               "author": "NRC Handelsblad",
@@ -1868,7 +2021,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 57,
+              "position": 63,
               "id": "01kkh2jn3p93nsh9nvbpe1w0vk",
               "title": "Rugged Spirituality",
               "author": "Andrew Taggart",
@@ -1896,7 +2049,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 58,
+              "position": 64,
               "id": "01km0ha2tggzmd2y5yjpqbycj5",
               "title": "🎓 On Geldings and the 'Natural' Social Order of Horses",
               "author": "Eleanor Konik",
@@ -1924,7 +2077,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 59,
+              "position": 65,
               "id": "01kmfmvdnqhec7daqp6x47pr85",
               "title": "On the proper use of arguments",
               "author": "Massimo Pigliucci at Figs in Winter",
@@ -1951,7 +2104,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 60,
+              "position": 66,
               "id": "01kmr5kh5wjyr899wkg9skt4f7",
               "title": "Simone Weil Explains the Manosphere",
               "author": "Joe from Unsolicited Advice",
@@ -1980,7 +2133,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 61,
+              "position": 67,
               "id": "01kmwmt7f9jtm6j0gb6pnda9zk",
               "title": "Philosophy of Science",
               "author": "Joseph Rahi",
@@ -2008,7 +2161,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 62,
+              "position": 68,
               "id": "01kqsnmx2rdcaktjvwsjmmq2cn",
               "title": "The games we want to be playing",
               "author": "Jared Henderson from Commonplace Philosophy",
@@ -2036,7 +2189,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 63,
+              "position": 69,
               "id": "01kqwf46h1tackak8werthsvy5",
               "title": "Henrik Karlsson: The Writing Process Nobody Teaches You",
               "author": "David Perell",
@@ -2062,7 +2215,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 64,
+              "position": 70,
               "id": "01krkbe7701j87vmw7wrs54h8m",
               "title": "They Are Putting A Black Hole Inside Your Head",
               "author": "Paul Musso",
@@ -2090,7 +2243,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 65,
+              "position": 71,
               "id": "01krn1jdcn6b450yv1z0j92tz3",
               "title": "The Radical Sunzi",
               "author": "scholars-stage.org",
@@ -2119,7 +2272,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 66,
+              "position": 72,
               "id": "01kt72hwt9asrzwwx70ybxyabe",
               "title": "How Love Became Just Another Thing to Optimize",
               "author": "Philosophize This! from Philosophize This!",
@@ -2147,7 +2300,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 67,
+              "position": 73,
               "id": "01kvarejkjdc6y2cjp2d0ewgkd",
               "title": "The Desecration of Man - Say No to Nietzsche",
               "author": "R.W. Richey from We Are Not Saved",
@@ -2175,7 +2328,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 68,
+              "position": 74,
               "id": "01kvh7ec1tezr2vy9bqgsm6an4",
               "title": "Is There a Science of Writing?",
               "author": "Carl Hendrick from The Learning Dispatch",
@@ -2203,7 +2356,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 69,
+              "position": 75,
               "id": "01kvjbgrqsftb77gs496c0p12t",
               "title": "If the First Apocalypse Doesn’t Get You, the Second One Will",
               "author": "Miller’s Book Review 📚",
@@ -2231,7 +2384,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 70,
+              "position": 76,
               "id": "01kvtqy4rffwdb1t73t37netda",
               "title": "Antwoorden op vragen die niet gesteld worden",
               "author": "Kauthar",
@@ -2259,7 +2412,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 71,
+              "position": 77,
               "id": "01kvwwdq8bhy9m3x614gmtn41d",
               "title": "Andrew Stanton: Storytelling Secrets from the Writer of Toy Story 5",
               "author": "David Perell",
@@ -2285,7 +2438,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 72,
+              "position": 78,
               "id": "01kwfk5q2rtfm9enggaybd07zq",
               "title": "David Sedaris: Lessons From Decades of Writing",
               "author": "David Perell",
@@ -2311,7 +2464,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 73,
+              "position": 79,
               "id": "01kxdxaytaf6tm6ntqnc9vdw18",
               "title": "Apophenia and Manufactured Desire",
               "author": "Jared Henderson from Commonplace Philosophy",
@@ -2338,7 +2491,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 74,
+              "position": 80,
               "id": "01kxpg8mpkegghvbz5w71ne86v",
               "title": "Against \"Stochastic Terrorism\"",
               "author": "Astral Codex Ten",
@@ -2365,7 +2518,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 75,
+              "position": 81,
               "id": "01kxy1qnae4npandc4x9mv4aw0",
               "title": "To Understand Elon Musk, You Have to Understand This ’60s Sci-Fi Novel",
               "author": "jacobin.com",
@@ -2394,7 +2547,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 76,
+              "position": 82,
               "id": "01kxzghzvbjtnr20f8vwmwc8s5",
               "title": "Letters of Last Resort",
               "author": "Brian Klaas",
@@ -2421,7 +2574,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 77,
+              "position": 83,
               "id": "01ky6y112ahhdfz7zdrw7w1jkc",
               "title": "Fish farts, dead elephants, and total institutions in wildlife conservation",
               "author": "projectcroak.com",
@@ -2450,7 +2603,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 78,
+              "position": 84,
               "id": "01ky7qe9p9qwtpk49bzc4pqqhk",
               "title": "Normal Accidents: Living with High-Risk Technologies",
               "author": "blog.jcx.au",
@@ -2478,7 +2631,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 79,
+              "position": 85,
               "id": "01ky7y54f3cb0xcxn9nyexpkzw",
               "title": "When philosophers and the public disagree",
               "author": "Jared Henderson from Commonplace Philosophy",
@@ -2505,7 +2658,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 80,
+              "position": 86,
               "id": "01kysnj4rgn2xvk4wh8pqj831w",
               "title": "The Disappearing Body",
               "author": "plough.com",
@@ -2533,7 +2686,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 81,
+              "position": 87,
               "id": "01kysnn7synbp4djg1ph3zrhdh",
               "title": "It is no longer safe to move our governments and societies to US clouds",
               "author": "berthub.eu",
@@ -2561,7 +2714,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 82,
+              "position": 88,
               "id": "01kyxvjcj0396b5z5w8bcz634q",
               "title": "De atheïst die de bekendste verdediger van het christendom werd",
               "author": "De Ongelooflijke",
@@ -2593,7 +2746,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 83,
+              "position": 89,
               "id": "01kyz1s71etfwt2wgr2zhqrr4k",
               "title": "Who Was the Last Roman Emperor?",
               "author": "Evan Þ from Papyrus Rampant",
@@ -2620,7 +2773,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 84,
+              "position": 90,
               "id": "01kz0k2hbcfqf2z9fpk12rqtz5",
               "title": "De talenten-tax",
               "author": "Jona van Loenen",
@@ -2647,7 +2800,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 85,
+              "position": 91,
               "id": "01kz9q1etvj82wyb44kpaj3r3c",
               "title": "Mark Forsyth: Stop Writing Like They Taught You in School",
               "author": "David Perell",
@@ -2672,7 +2825,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 86,
+              "position": 92,
               "id": "01kzakhrdw8m862yfhsmva3z11",
               "title": "Open Questions On Open Weights",
               "author": "Astral Codex Ten",
@@ -2699,7 +2852,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 87,
+              "position": 93,
               "id": "01kzeczgpr5fr1w5znnf4m2b9v",
               "title": "A Lebanese Technology Transfer",
               "author": "Nassim Nicholas Taleb",
@@ -2727,7 +2880,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 88,
+              "position": 94,
               "id": "01kzjk22zxkgrvftgdtdvj01rq",
               "title": "Twintig seconden waar ik me diep voor schaam",
               "author": "Jona van Loenen",
@@ -2759,7 +2912,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 89,
+              "position": 95,
               "id": "01kzp09j3vmc15v2atpvpkbrpe",
               "title": "The Eotechnic Phase",
               "author": "Jared Henderson from Commonplace Philosophy",
@@ -2787,7 +2940,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 90,
+              "position": 96,
               "id": "01kztvesqhd0vhbkmcxqrevkhs",
               "title": "🎓 On the Harem Origin Story of Turkish Coffee Reading",
               "author": "Eleanor Konik",
@@ -2815,7 +2968,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 91,
+              "position": 97,
               "id": "01kzyk5xjcvj2qxd5hm0mbrrp2",
               "title": "How to self-educate with the heart and ferocity of a 19th-century cotton-weaver",
               "author": "Sam @ Knowledge Lust",
@@ -2843,224 +2996,55 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 92,
-              "id": "01hy0x9z444qrsk7bb6acc5svn",
-              "title": "Reading challenging books with kids is fun and probably useful",
-              "author": "Henrik Karlsson",
-              "siteName": "henrikkarlsson.xyz",
-              "category": "article",
-              "language": "Engels",
-              "readingTime": "7 mins",
-              "readingMinutes": 7,
-              "wordCount": 1831,
-              "publishedDate": null,
-              "savedDate": "2024-05-16T14:36:10.244000+00:00",
-              "imageUrl": "https://substackcdn.com/image/fetch/w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fe9449bf6-5846-4525-b538-54059fb6a7c0_1279x1125.jpeg",
-              "sourceUrl": "https://www.henrikkarlsson.xyz/p/reading-comprehension",
-              "readwiseUrl": "https://read.readwise.io/read/01hy0x9z444qrsk7bb6acc5svn",
-              "summary": "Reading challenging books with kids can be fun and useful for their comprehension skills. Discussing complex emotions and ideas from adult literature can engage children and improve their reading abilities. Engaging in deep conversations while reading together can create a rich and exciting reading experience for both adults and children.",
-              "whyRead": "Raakt je interesse in leren én ouderschap; Henrik Karlsson beschrijft hoe hij zijn dochter serieuze boeken voorleest en daarmee (onbedoeld) diep leesbegrip bijbrengt via cognitieve apprenticeship.",
-              "bestMoment": "reflectief",
-              "tags": [
-                "learning & meta-learning",
-                "parenting & care",
-                "personal growth & life philosophy"
-              ],
-              "alsoIn": [
-                "aaa-short-top-100"
-              ]
-            },
-            {
-              "position": 93,
-              "id": "01jkh2vn8hfm2b2ys7eefgrw9h",
-              "title": "Advice for a friend who wants to start a blog",
-              "author": "Henrik Karlsson",
-              "siteName": "henrikkarlsson.xyz",
-              "category": "article",
-              "language": "Engels",
-              "readingTime": "5 mins",
-              "readingMinutes": 5,
-              "wordCount": 1239,
-              "publishedDate": "2025-01-29",
-              "savedDate": "2025-02-07T20:50:41.737000+00:00",
-              "imageUrl": "https://substackcdn.com/image/fetch/w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff3298eeb-473c-4b64-a703-0228b21e8ddf_3440x2757.jpeg",
-              "sourceUrl": "https://www.henrikkarlsson.xyz/p/start-a-blog?r=1r0y5d&utm_medium=ios&triedRedirect=true",
-              "readwiseUrl": "https://read.readwise.io/read/01jkh2vn8hfm2b2ys7eefgrw9h",
-              "summary": "To start a blog, focus on sharing your unique interests and personality rather than trying to fit into conventions. Write often, experiment with different styles, and don’t be afraid to make mistakes, as this will help you grow. Remember, your blog is a space where you can express yourself freely and connect with like-minded people.",
-              "whyRead": "Raakt je kerninteresse in essay schrijven, leren en persoonlijke stem. Karlsson geeft geen trucendoos, maar een scherp en bruikbaar denkkader voor een blog als plek om eigen nieuwsgierigheid, stijl en relaties te ontwikkelen.",
-              "bestMoment": "geïnspireerd",
-              "tags": [
-                "arts & culture",
-                "business & work",
-                "writing & essays"
-              ],
-              "alsoIn": [
-                "aaa-short-top-100"
-              ]
-            },
-            {
-              "position": 94,
-              "id": "01jkh2w2capy38f589kqkvyt4s",
-              "title": "A funny thing about curiosity",
-              "author": "Henrik Karlsson",
-              "siteName": "henrikkarlsson.xyz",
-              "category": "article",
-              "language": "Engels",
-              "readingTime": "8 mins",
-              "readingMinutes": 8,
-              "wordCount": 1951,
-              "publishedDate": "2025-01-16",
-              "savedDate": "2025-02-07T20:50:55.212000+00:00",
-              "imageUrl": "https://substackcdn.com/image/fetch/w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F2ea705af-9457-423a-a731-238842562a20_1000x1173.webp",
-              "sourceUrl": "https://www.henrikkarlsson.xyz/p/funny-curiosity?r=1r0y5d&utm_medium=ios&triedRedirect=true",
-              "readwiseUrl": "https://read.readwise.io/read/01jkh2w2capy38f589kqkvyt4s",
-              "summary": "The author reflects on losing his curiosity and the importance of following what feels interesting to him. He realizes that true curiosity is about exploring ideas that spark fun and emotional responses, rather than seeking approval from others. Ultimately, he learns that embracing his own unique interests can lead to more fulfilling creative expression.",
-              "whyRead": "Raakt je kerninteresse in leren, essay schrijven en persoonlijke levensfilosofie. Karlsson maakt nieuwsgierigheid concreet als een gevoelde, kwetsbare praktijk: geen statusproject, maar een manier om eigen vragen te volgen en iets eigens de wereld in te brengen.",
-              "bestMoment": "reflectief",
-              "tags": [
-                "learning & meta-learning",
-                "personal growth & life philosophy",
-                "writing & essays"
-              ],
-              "alsoIn": [
-                "aaa-short-top-100"
-              ]
-            },
-            {
-              "position": 95,
-              "id": "01jzmk1agxw641yh3b3tv2szzv",
-              "title": "Self-Directed Education: What Is It and How Does It Work?",
-              "author": "Peter Gray",
-              "siteName": "substack.com",
-              "category": "article",
-              "language": "Engels",
-              "readingTime": "9 mins",
-              "readingMinutes": 9,
-              "wordCount": 2152,
-              "publishedDate": "2025-07-07",
-              "savedDate": "2025-07-08T08:39:29.999000+00:00",
-              "imageUrl": "https://substackcdn.com/image/fetch/$s_!kx0u!,w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F3eb11939-4096-4703-8d97-490f40254bf4_1920x667.png",
-              "sourceUrl": "https://petergray.substack.com/p/self-directed-education-what-is-it?r=1r0y5d&utm_medium=ios&triedRedirect=true",
-              "readwiseUrl": "https://read.readwise.io/read/01jzmk1agxw641yh3b3tv2szzv",
-              "summary": "Self-Directed Education means learning by choosing your own activities and interests, not by following forced school rules. Children naturally learn best when they explore, play, and connect with others without pressure. This way of learning is growing because it works better and the internet makes it easier to find information and support.",
-              "whyRead": "Zelfgestuurd onderwijs — wat het is en hoe het werkt buiten traditionele structuren.",
-              "bestMoment": "leergierig",
-              "tags": [
-                "internet & platforms",
-                "learning & meta-learning",
-                "parenting & care"
-              ],
-              "alsoIn": [
-                "aaa-short-top-100"
-              ]
-            },
-            {
-              "position": 96,
-              "id": "01k0787yxz912x1kgykz88ngts",
-              "title": "Tijd voor solidariteit",
-              "author": "Wetenschappelijk Bureau Groenlinks",
-              "siteName": "Wetenschappelijk Bureau Groenlinks",
-              "category": "article",
-              "language": "Nederlands",
-              "readingTime": "22 mins",
-              "readingMinutes": 22,
-              "wordCount": 5772,
-              "publishedDate": "2025-06-10",
-              "savedDate": "2025-07-15T14:36:27.455000+00:00",
-              "imageUrl": "https://www.wetenschappelijkbureaugroenlinks.nl/sites/wetenschappelijkbureau/files/styles/instagram/public/2025-06/Tijd%20voor%20solidariteit%20beginselprogramma.jpg?h=8f74817f&itok=c-ESuTOV",
-              "sourceUrl": "https://www.wetenschappelijkbureaugroenlinks.nl/artikelen/tijd-voor-solidariteit",
-              "readwiseUrl": "https://read.readwise.io/read/01k0787yxz912x1kgykz88ngts",
-              "summary": "The text calls for solidarity to build a fair and equal society where everyone can be themselves. It emphasizes the need for public services like healthcare and education to be accessible to all without profit motives. Together, people must unite to protect democracy, workers' rights, and the environment for a better future.",
-              "whyRead": "Beginselprogramma van GroenLinks-PvdA over solidariteit als politiek fundament — relevant voor je interesse in linkse ideologie en sociaaldemocratisch denken in Nederland.",
-              "bestMoment": "kritisch",
-              "tags": [
-                "current affairs & politics",
-                "learning & meta-learning",
-                "political philosophy"
-              ],
-              "alsoIn": [
-                "aaa-dutch-top-10",
-                "aaa-dutch-top-100"
-              ]
-            },
-            {
-              "position": 97,
-              "id": "01k2p37kkgn4hk8dn1qxb870qd",
-              "title": "How to Teach Textual Criticism To Fifth-Graders",
-              "author": "nephew jonathan",
-              "siteName": "substack.com",
-              "category": "article",
-              "language": "Engels",
-              "readingTime": "8 mins",
-              "readingMinutes": 8,
-              "wordCount": 2087,
-              "publishedDate": "2025-07-22",
-              "savedDate": "2025-08-15T05:28:53.106000+00:00",
-              "imageUrl": "https://substackcdn.com/image/fetch/$s_!OcBy!,w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ffa26ce33-0ab5-462b-a532-a7b0663b823e_505x437.png",
-              "sourceUrl": "https://nephewjonathan.substack.com/p/how-to-teach-textual-criticism-to",
-              "readwiseUrl": "https://read.readwise.io/read/01k2p37kkgn4hk8dn1qxb870qd",
-              "summary": "The author taught fifth-graders how to do textual criticism using copies of classical texts with intentional mistakes. Students compared different versions to learn how ancient writings were copied and changed over time. This hands-on method made learning fun and helped kids understand how we know what old authors really wrote.",
-              "whyRead": "Tekstkritiek bijbrengen aan groep 7 — over literatuuronderwijs en kritisch lezen voor kinderen.",
-              "bestMoment": "leergierig",
-              "tags": [
-                "arts & culture",
-                "learning & meta-learning",
-                "writing & essays"
-              ],
-              "alsoIn": [
-                "aaa-short-top-100"
-              ]
-            },
-            {
               "position": 98,
-              "id": "01k4hz4tpj7wyg13z1mrad20g8",
-              "title": "Longread: Chantal Mouffe – Over het politieke",
-              "author": "Philipp Kocks",
-              "siteName": "deMens.nu",
+              "id": "01m059t4kq0fgjsx21x28nbdqk",
+              "title": "Freedom and Happiness (Review of ‘We’ by Yevgeny Zamyatin)",
+              "author": "orwellfoundation.com",
+              "siteName": "The Orwell Foundation",
               "category": "article",
-              "language": "Nederlands",
-              "readingTime": "19 mins",
-              "readingMinutes": 19,
-              "wordCount": 4794,
-              "publishedDate": "2021-01-18",
-              "savedDate": "2025-09-07T11:31:53.682000+00:00",
-              "imageUrl": "https://demens.nu/wp-content/uploads/2021/01/Longread-visual.png",
-              "sourceUrl": "https://demens.nu/2021/01/18/longread-chantal-mouffe/",
-              "readwiseUrl": "https://read.readwise.io/read/01k4hz4tpj7wyg13z1mrad20g8",
-              "summary": "Chantal Mouffe zegt dat politiek conflict onvermijdelijk is.  \nZe verwerpt consensusdenken en pleit voor agonisme: legitieme, gepassioneerde confrontatie binnen democratische instellingen.  \nWordt conflict weggedrukt, dan groeit onvrede en populisme, dus democratie moet tegenstanders erkennen binnen gedeelde waarden van vrijheid en gelijkheid.",
-              "whyRead": "Raakt je interesse in politieke filosofie en de spanning tussen pluralisme, populisme en democratische instituties. Mouffe biedt een scherp begrippenkader om consensuspolitiek te toetsen zonder conflict te romantiseren.",
+              "language": null,
+              "readingTime": "8 mins",
+              "readingMinutes": 8,
+              "wordCount": 2103,
+              "publishedDate": "2010-11-29",
+              "savedDate": "2026-08-16T12:47:41.175000+00:00",
+              "imageUrl": "https://www.orwellfoundation.com/wp-content/uploads/2020/11/Screenshot_2020-11-16-The-Orwell-Foundation-orwellfoundation-•-Instagram-photos-and-videos.png",
+              "sourceUrl": "https://www.orwellfoundation.com/the-orwell-foundation/orwell/essays-and-other-works/freedom-and-happiness-review-of-we-by-yevgeny-zamyatin/",
+              "readwiseUrl": "https://read.readwise.io/read/01m059t4kq0fgjsx21x28nbdqk",
+              "summary": "\"It is in effect a study of the Machine, the genie that man has thoughtlessly let out of its bottle and cannot put back again. This is a book to look out for when an English version appears.\"",
+              "whyRead": "Essentiële achtergrond bij 1984 — Orwell bespreekt Zamyatins \"We\", de dystopie die zowel Brave New World als later 1984 inspireerde, en raakt zo direct je interesse in totalitarisme en sciencefiction als vorm van politieke reflectie.",
               "bestMoment": "analytisch",
               "tags": [
-                "political philosophy"
+                "fiction",
+                "political philosophy",
+                "totalitarianism & fascism"
               ],
               "alsoIn": [
-                "aaa-dutch-top-10",
-                "aaa-dutch-top-100"
+                "aaa-short-top-100"
               ]
             },
             {
               "position": 99,
-              "id": "01k79j7ef2nh8tmgv41f9k6az3",
-              "title": "What do Japan’s hikikomori reveal about our lonely world?",
-              "author": "Alain Julian",
-              "siteName": "Psyche",
+              "id": "01m059t7cjgvc214sac3e4z08x",
+              "title": "Freedom of the Park",
+              "author": "orwellfoundation.com",
+              "siteName": "The Orwell Foundation",
               "category": "article",
-              "language": "Engels",
-              "readingTime": "8 mins",
-              "readingMinutes": 8,
-              "wordCount": 1967,
-              "publishedDate": "2025-10-09",
-              "savedDate": "2025-10-11T11:59:17.986000+00:00",
-              "imageUrl": "https://images.aeonmedia.co/images/e153a0a7-3f53-4388-8fc7-1ab034e83e72/new_it-felt-safe-here_01.jpg?top=142&left=0&cropWidth=2720&cropHeight=1530&width=1200&quality=75&format=jpg",
-              "sourceUrl": "https://psyche.co/ideas/what-do-japans-hikikomori-reveal-about-our-lonely-world",
-              "readwiseUrl": "https://read.readwise.io/read/01k79j7ef2nh8tmgv41f9k6az3",
-              "summary": "Hikikomori are people who withdraw from work and social life, often after trauma, not just lazy or weak. Rehab centers teach independence and discipline, but that can leave people feeling no more connected. Their struggles reflect wider social isolation as communities, stable jobs and belonging disappear.",
-              "whyRead": "Diepgaand portret van Japan's hikikomori-fenomeen — radicale sociale terugtrekking.",
-              "bestMoment": "analytisch",
+              "language": null,
+              "readingTime": "5 mins",
+              "readingMinutes": 5,
+              "wordCount": 1106,
+              "publishedDate": "2011-12-07",
+              "savedDate": "2026-08-16T12:47:44.018000+00:00",
+              "imageUrl": "https://www.orwellfoundation.com/wp-content/uploads/2019/01/Orwell-e1548403094796.jpg",
+              "sourceUrl": "https://www.orwellfoundation.com/the-orwell-foundation/orwell/essays-and-other-works/freedom-of-the-park/",
+              "readwiseUrl": "https://read.readwise.io/read/01m059t7cjgvc214sac3e4z08x",
+              "summary": "A few weeks ago, five people who were selling papers outside Hyde Park were arrested by the police for obstruction...",
+              "whyRead": "Kort maar scherp essay over persvrijheid en willekeurige politiehandhaving tegen linkse/anarchistische pamflettenverkopers — raakt je interesse in politieke filosofie en de vraag hoe vrijheid in de praktijk wordt gewaarborgd (of juist niet).",
+              "bestMoment": "kritisch",
               "tags": [
-                "business & work",
-                "personal growth & life philosophy",
-                "sociology & inequality"
+                "history",
+                "political philosophy"
               ],
               "alsoIn": [
                 "aaa-short-top-100"
@@ -3068,29 +3052,30 @@ window.TOP_ARTICLES = {
             },
             {
               "position": 100,
-              "id": "01k79jpktendqfmctt5zh9rrxy",
-              "title": "The Meaning of Secularism",
-              "author": "https://hedgehogreview.com/contributors/charles-taylor",
-              "siteName": "The Hedgehog Review",
+              "id": "01m059thh2ytr4v45ebz778hxw",
+              "title": "In Front of Your Nose",
+              "author": "orwellfoundation.com",
+              "siteName": "The Orwell Foundation",
               "category": "article",
-              "language": "Engels",
-              "readingTime": "19 mins",
-              "readingMinutes": 19,
-              "wordCount": 4984,
-              "publishedDate": null,
-              "savedDate": "2025-10-11T12:07:34.990000+00:00",
-              "imageUrl": "https://s3.amazonaws.com/hedgehogreview-prod/images/bc4e596c3f6026fbcde752a9ef74bf7e.1500.jpeg",
-              "sourceUrl": "https://hedgehogreview.com/issues/does-religious-pluralism-require-secularism/articles/the-meaning-of-secularism",
-              "readwiseUrl": "https://read.readwise.io/read/01k79jpktendqfmctt5zh9rrxy",
-              "summary": "Secularism in modern democracies requires neutrality and equality among different faiths and beliefs, ensuring no single view is favored by the state. It involves listening to all spiritual perspectives to define the society's identity and goals. As societies diversify, they must balance freedom of conscience with respect for all beliefs to maintain unity and equality.",
-              "whyRead": "Raakt je interesse in politieke filosofie, democratie en maatschappelijke pluraliteit. Charles Taylor maakt van secularisme geen antireligieus dogma, maar een bruikbaar kader om vrijheid, gelijkheid en inclusie in diverse democratieën tegen elkaar af te wegen.",
-              "bestMoment": "analytisch",
+              "language": null,
+              "readingTime": "7 mins",
+              "readingMinutes": 7,
+              "wordCount": 1711,
+              "publishedDate": "2010-12-09",
+              "savedDate": "2026-08-16T12:47:54.402000+00:00",
+              "imageUrl": "https://www.orwellfoundation.com/wp-content/uploads/2020/12/NUJ.jpg",
+              "sourceUrl": "https://www.orwellfoundation.com/the-orwell-foundation/orwell/essays-and-other-works/in-front-of-your-nose/",
+              "readwiseUrl": "https://read.readwise.io/read/01m059thh2ytr4v45ebz778hxw",
+              "summary": "\"To see what is in front of one's nose needs a constant struggle.\"",
+              "whyRead": "Raakt je interesse in politieke filosofie en de psychologie van zelfbedrog — Orwell legt hier de kiem van \"doublethink\" uit 1984: hoe mensen tegenstrijdige overtuigingen tegelijk vasthouden zonder het te merken.",
+              "bestMoment": "kritisch",
               "tags": [
-                "philosophy",
                 "political philosophy",
-                "sociology & social structures"
+                "totalitarianism & fascism"
               ],
-              "alsoIn": []
+              "alsoIn": [
+                "aaa-short-top-100"
+              ]
             }
           ]
         }
@@ -3318,7 +3303,6 @@ window.TOP_ARTICLES = {
                 "political philosophy"
               ],
               "alsoIn": [
-                "aaa-top-100",
                 "aaa-dutch-top-100"
               ]
             },
@@ -3345,7 +3329,6 @@ window.TOP_ARTICLES = {
                 "political philosophy"
               ],
               "alsoIn": [
-                "aaa-top-100",
                 "aaa-dutch-top-100"
               ]
             },
@@ -3621,7 +3604,6 @@ window.TOP_ARTICLES = {
                 "political philosophy"
               ],
               "alsoIn": [
-                "aaa-top-100",
                 "aaa-dutch-top-10"
               ]
             },
@@ -3648,7 +3630,6 @@ window.TOP_ARTICLES = {
                 "political philosophy"
               ],
               "alsoIn": [
-                "aaa-top-100",
                 "aaa-dutch-top-10"
               ]
             },
@@ -3755,6 +3736,7 @@ window.TOP_ARTICLES = {
               "tags": [
                 "arts & culture",
                 "fiction",
+                "light-reading",
                 "sociology & social structures"
               ],
               "alsoIn": [
@@ -3822,7 +3804,6 @@ window.TOP_ARTICLES = {
                 "technology"
               ],
               "alsoIn": [
-                "aaa-short-top-100",
                 "aaa-short-dutch-top-10",
                 "aaa-short-dutch-top-100"
               ]
@@ -4066,6 +4047,7 @@ window.TOP_ARTICLES = {
               "tags": [
                 "arts & culture",
                 "history",
+                "light-reading",
                 "personal growth & life philosophy"
               ],
               "alsoIn": [
@@ -6371,6 +6353,164 @@ window.TOP_ARTICLES = {
             },
             {
               "position": 60,
+              "id": "01m059t4kq0fgjsx21x28nbdqk",
+              "title": "Freedom and Happiness (Review of ‘We’ by Yevgeny Zamyatin)",
+              "author": "orwellfoundation.com",
+              "siteName": "The Orwell Foundation",
+              "category": "article",
+              "language": null,
+              "readingTime": "8 mins",
+              "readingMinutes": 8,
+              "wordCount": 2103,
+              "publishedDate": "2010-11-29",
+              "savedDate": "2026-08-16T12:47:41.175000+00:00",
+              "imageUrl": "https://www.orwellfoundation.com/wp-content/uploads/2020/11/Screenshot_2020-11-16-The-Orwell-Foundation-orwellfoundation-•-Instagram-photos-and-videos.png",
+              "sourceUrl": "https://www.orwellfoundation.com/the-orwell-foundation/orwell/essays-and-other-works/freedom-and-happiness-review-of-we-by-yevgeny-zamyatin/",
+              "readwiseUrl": "https://read.readwise.io/read/01m059t4kq0fgjsx21x28nbdqk",
+              "summary": "\"It is in effect a study of the Machine, the genie that man has thoughtlessly let out of its bottle and cannot put back again. This is a book to look out for when an English version appears.\"",
+              "whyRead": "Essentiële achtergrond bij 1984 — Orwell bespreekt Zamyatins \"We\", de dystopie die zowel Brave New World als later 1984 inspireerde, en raakt zo direct je interesse in totalitarisme en sciencefiction als vorm van politieke reflectie.",
+              "bestMoment": "analytisch",
+              "tags": [
+                "fiction",
+                "political philosophy",
+                "totalitarianism & fascism"
+              ],
+              "alsoIn": [
+                "aaa-top-100"
+              ]
+            },
+            {
+              "position": 61,
+              "id": "01m059t7cjgvc214sac3e4z08x",
+              "title": "Freedom of the Park",
+              "author": "orwellfoundation.com",
+              "siteName": "The Orwell Foundation",
+              "category": "article",
+              "language": null,
+              "readingTime": "5 mins",
+              "readingMinutes": 5,
+              "wordCount": 1106,
+              "publishedDate": "2011-12-07",
+              "savedDate": "2026-08-16T12:47:44.018000+00:00",
+              "imageUrl": "https://www.orwellfoundation.com/wp-content/uploads/2019/01/Orwell-e1548403094796.jpg",
+              "sourceUrl": "https://www.orwellfoundation.com/the-orwell-foundation/orwell/essays-and-other-works/freedom-of-the-park/",
+              "readwiseUrl": "https://read.readwise.io/read/01m059t7cjgvc214sac3e4z08x",
+              "summary": "A few weeks ago, five people who were selling papers outside Hyde Park were arrested by the police for obstruction...",
+              "whyRead": "Kort maar scherp essay over persvrijheid en willekeurige politiehandhaving tegen linkse/anarchistische pamflettenverkopers — raakt je interesse in politieke filosofie en de vraag hoe vrijheid in de praktijk wordt gewaarborgd (of juist niet).",
+              "bestMoment": "kritisch",
+              "tags": [
+                "history",
+                "political philosophy"
+              ],
+              "alsoIn": [
+                "aaa-top-100"
+              ]
+            },
+            {
+              "position": 62,
+              "id": "01m059thh2ytr4v45ebz778hxw",
+              "title": "In Front of Your Nose",
+              "author": "orwellfoundation.com",
+              "siteName": "The Orwell Foundation",
+              "category": "article",
+              "language": null,
+              "readingTime": "7 mins",
+              "readingMinutes": 7,
+              "wordCount": 1711,
+              "publishedDate": "2010-12-09",
+              "savedDate": "2026-08-16T12:47:54.402000+00:00",
+              "imageUrl": "https://www.orwellfoundation.com/wp-content/uploads/2020/12/NUJ.jpg",
+              "sourceUrl": "https://www.orwellfoundation.com/the-orwell-foundation/orwell/essays-and-other-works/in-front-of-your-nose/",
+              "readwiseUrl": "https://read.readwise.io/read/01m059thh2ytr4v45ebz778hxw",
+              "summary": "\"To see what is in front of one's nose needs a constant struggle.\"",
+              "whyRead": "Raakt je interesse in politieke filosofie en de psychologie van zelfbedrog — Orwell legt hier de kiem van \"doublethink\" uit 1984: hoe mensen tegenstrijdige overtuigingen tegelijk vasthouden zonder het te merken.",
+              "bestMoment": "kritisch",
+              "tags": [
+                "political philosophy",
+                "totalitarianism & fascism"
+              ],
+              "alsoIn": [
+                "aaa-top-100"
+              ]
+            },
+            {
+              "position": 63,
+              "id": "01m059tpnqyq5yy3kq6xrmf1v5",
+              "title": "My Country Right or Left",
+              "author": "orwellfoundation.com",
+              "siteName": "The Orwell Foundation",
+              "category": "article",
+              "language": null,
+              "readingTime": "9 mins",
+              "readingMinutes": 9,
+              "wordCount": 2262,
+              "publishedDate": "2011-12-19",
+              "savedDate": "2026-08-16T12:47:59.671000+00:00",
+              "imageUrl": null,
+              "sourceUrl": "https://www.orwellfoundation.com/the-orwell-foundation/orwell/essays-and-other-works/my-country-right-or-left/",
+              "readwiseUrl": "https://read.readwise.io/read/01m059tpnqyq5yy3kq6xrmf1v5",
+              "summary": "\"Contrary to popular belief, the past was not more eventful than the present.\" (My Country Right or Left, Folios of New Writing, Autumn 1940)",
+              "whyRead": "Raakt je interesse in politieke filosofie en geschiedenis — Orwell ontleedt hier zijn eigen patriottisme als socialist en verbindt persoonlijke herinneringen aan WOI met zijn steun voor verzet tegen Hitler in WOII.",
+              "bestMoment": "reflectief",
+              "tags": [
+                "history",
+                "political philosophy"
+              ],
+              "alsoIn": []
+            },
+            {
+              "position": 64,
+              "id": "01m059tzwnjdjtmteh5jpa7bxz",
+              "title": "Pleasure Spots",
+              "author": "orwellfoundation.com",
+              "siteName": "The Orwell Foundation",
+              "category": "article",
+              "language": null,
+              "readingTime": "6 mins",
+              "readingMinutes": 6,
+              "wordCount": 1581,
+              "publishedDate": "2011-06-08",
+              "savedDate": "2026-08-16T12:48:09.109000+00:00",
+              "imageUrl": null,
+              "sourceUrl": "https://www.orwellfoundation.com/the-orwell-foundation/orwell/essays-and-other-works/pleasure-spots/",
+              "readwiseUrl": "https://read.readwise.io/read/01m059tzwnjdjtmteh5jpa7bxz",
+              "summary": "This material remains under copyright and is reproduced by kind permission of the Orwell Estate and Penguin Books. Some months ago I cut out of a shiny magazine some paragraphs written by a female journalist and describing the pleasure resort of the future. She had recently been spending some time at Honolulu, where the rigours...  <a class=\"excerpt-read-more\" href=\"https://www.orwellfoundation.com/the-orwell-foundation/orwell/essays-and-other-works/pleasure-spots/\" title=\"ReadPleasure Spots\">Read more »</a>",
+              "whyRead": "Raakt je interesse in personal growth & life philosophy en de sociologie van vrije tijd — Orwell's scherpe blik op mechanisatie van plezier voelt verrassend actueel in een tijdperk van doomscrolling en constante prikkels.",
+              "bestMoment": "reflectief",
+              "tags": [
+                "arts & culture",
+                "personal growth & life philosophy",
+                "sociology & social structures"
+              ],
+              "alsoIn": []
+            },
+            {
+              "position": 65,
+              "id": "01m059vwxfv3d1n8rterw19d6a",
+              "title": "You and the Atom Bomb",
+              "author": "orwellfoundation.com",
+              "siteName": "The Orwell Foundation",
+              "category": "article",
+              "language": null,
+              "readingTime": "6 mins",
+              "readingMinutes": 6,
+              "wordCount": 1493,
+              "publishedDate": "2011-10-19",
+              "savedDate": "2026-08-16T12:48:38.831000+00:00",
+              "imageUrl": null,
+              "sourceUrl": "https://www.orwellfoundation.com/the-orwell-foundation/orwell/essays-and-other-works/you-and-the-atom-bomb/",
+              "readwiseUrl": "https://read.readwise.io/read/01m059vwxfv3d1n8rterw19d6a",
+              "summary": "This material remains under copyright and is reproduced by kind permission of the Orwell Estate and Penguin Books. Considering how likely we all are to be blown to pieces by it within the next five years, the atomic bomb has not roused so much discussion as might have been expected. The newspapers have published numerous...  <a class=\"excerpt-read-more\" href=\"https://www.orwellfoundation.com/the-orwell-foundation/orwell/essays-and-other-works/you-and-the-atom-bomb/\" title=\"ReadYou and the Atom Bomb\">Read more »</a>",
+              "whyRead": "Raakt je interesse in politieke filosofie en geopolitieke analyse — geen gedateerd Koude Oorlog-stuk, maar een tijdloze these over hoe wapentechnologie machtsverhoudingen tussen staat en individu bepaalt.",
+              "bestMoment": "analytisch",
+              "tags": [
+                "history",
+                "political philosophy"
+              ],
+              "alsoIn": []
+            },
+            {
+              "position": 66,
               "id": "01hy0x9z444qrsk7bb6acc5svn",
               "title": "Reading challenging books with kids is fun and probably useful",
               "author": "Henrik Karlsson",
@@ -6393,12 +6533,10 @@ window.TOP_ARTICLES = {
                 "parenting & care",
                 "personal growth & life philosophy"
               ],
-              "alsoIn": [
-                "aaa-top-100"
-              ]
+              "alsoIn": []
             },
             {
-              "position": 61,
+              "position": 67,
               "id": "01jkh2vn8hfm2b2ys7eefgrw9h",
               "title": "Advice for a friend who wants to start a blog",
               "author": "Henrik Karlsson",
@@ -6421,12 +6559,10 @@ window.TOP_ARTICLES = {
                 "business & work",
                 "writing & essays"
               ],
-              "alsoIn": [
-                "aaa-top-100"
-              ]
+              "alsoIn": []
             },
             {
-              "position": 62,
+              "position": 68,
               "id": "01jkh2w2capy38f589kqkvyt4s",
               "title": "A funny thing about curiosity",
               "author": "Henrik Karlsson",
@@ -6449,12 +6585,10 @@ window.TOP_ARTICLES = {
                 "personal growth & life philosophy",
                 "writing & essays"
               ],
-              "alsoIn": [
-                "aaa-top-100"
-              ]
+              "alsoIn": []
             },
             {
-              "position": 63,
+              "position": 69,
               "id": "01jzmk1agxw641yh3b3tv2szzv",
               "title": "Self-Directed Education: What Is It and How Does It Work?",
               "author": "Peter Gray",
@@ -6477,12 +6611,10 @@ window.TOP_ARTICLES = {
                 "learning & meta-learning",
                 "parenting & care"
               ],
-              "alsoIn": [
-                "aaa-top-100"
-              ]
+              "alsoIn": []
             },
             {
-              "position": 64,
+              "position": 70,
               "id": "01k2p37kkgn4hk8dn1qxb870qd",
               "title": "How to Teach Textual Criticism To Fifth-Graders",
               "author": "nephew jonathan",
@@ -6505,12 +6637,10 @@ window.TOP_ARTICLES = {
                 "learning & meta-learning",
                 "writing & essays"
               ],
-              "alsoIn": [
-                "aaa-top-100"
-              ]
+              "alsoIn": []
             },
             {
-              "position": 65,
+              "position": 71,
               "id": "01k79j7ef2nh8tmgv41f9k6az3",
               "title": "What do Japan’s hikikomori reveal about our lonely world?",
               "author": "Alain Julian",
@@ -6533,12 +6663,10 @@ window.TOP_ARTICLES = {
                 "personal growth & life philosophy",
                 "sociology & inequality"
               ],
-              "alsoIn": [
-                "aaa-top-100"
-              ]
+              "alsoIn": []
             },
             {
-              "position": 66,
+              "position": 72,
               "id": "01k7j6p8a88r4t4zarr6pqya82",
               "title": "Writing as communion",
               "author": "Henrik Karlsson",
@@ -6564,7 +6692,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 67,
+              "position": 73,
               "id": "01k7k3prk0rm6qjzvbp9gyevxz",
               "title": "Rumination vs. Reflection: How to Tell the Difference in Your Journal",
               "author": "Bryant Del Toro",
@@ -6590,7 +6718,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 68,
+              "position": 74,
               "id": "01k72qy7j5511yee7tvcwrch9f",
               "title": "How to Self-Study Literature with Small Daily, Weekly, and Monthly Habits",
               "author": "Sam Rinko",
@@ -6616,7 +6744,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 69,
+              "position": 75,
               "id": "01k7qbg40qvbeqszm5nr2wpmyz",
               "title": "Dostoevsky as lover",
               "author": "Henrik Karlsson",
@@ -6642,7 +6770,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 70,
+              "position": 76,
               "id": "01ka6v10fx7nxzbf0dm43dk6ed",
               "title": "🌲 The Konik Method For Maintaining Sane Task Lists",
               "author": "Eleanor Konik",
@@ -6668,7 +6796,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 71,
+              "position": 77,
               "id": "01kc53cvnp2fqe09v8vmbym5mx",
               "title": "🎓 On Teleportation & Understanding via Writing",
               "author": "Eleanor Konik",
@@ -6694,7 +6822,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 72,
+              "position": 78,
               "id": "01kc76cxv4wkv0smbz1k9y6qxs",
               "title": "Reflections on my first year writing full time",
               "author": "Henrik Karlsson",
@@ -6720,7 +6848,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 73,
+              "position": 79,
               "id": "01kchxs5s6y615eazs4hhqgm7h",
               "title": "A list of books and essays that I love",
               "author": "Henrik Karlsson",
@@ -6746,7 +6874,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 74,
+              "position": 80,
               "id": "01kke05x4vzym7fgxd32d5ze4c",
               "title": "Some relationships deepen when you tell the truth and some end",
               "author": "Henrik Karlsson",
@@ -6772,7 +6900,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 75,
+              "position": 81,
               "id": "01kkh0wb88xpy71r3pc97jgpn4",
               "title": "Treat your to-read pile like a river, not a bucket",
               "author": "Oliver Burkeman",
@@ -6798,7 +6926,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 76,
+              "position": 82,
               "id": "01kmsrjw7b8q2k5fb547bxerv2",
               "title": "The Death of Spotify: Why Streaming is Minutes Away From Being Obsolete",
               "author": "Joel Gouveia",
@@ -6824,7 +6952,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 77,
+              "position": 83,
               "id": "01kn4c4mv24kk2vjxqcn0y6efj",
               "title": "Days are enormous",
               "author": "Henrik Karlsson",
@@ -6850,7 +6978,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 78,
+              "position": 84,
               "id": "01krtexkxa2w3kf6d07h8t2ndr",
               "title": "The heyday of the writing-first practitioner",
               "author": "every.to",
@@ -6877,7 +7005,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 79,
+              "position": 85,
               "id": "01krtrbnj1rtn0p7gt8fatgj7p",
               "title": "Whose Ideas Count?",
               "author": "Sven Brodmerkel (PhD)",
@@ -6904,7 +7032,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 80,
+              "position": 86,
               "id": "01krtrc68m499tqp0qe471vq9c",
               "title": "The Speed Trap of Modern Thought",
               "author": "Sven Brodmerkel (PhD)",
@@ -6931,7 +7059,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 81,
+              "position": 87,
               "id": "01ktv2sxayxrqj6yzvyhjes6tf",
               "title": "Leeslijst mei 2026",
               "author": "Kauthar",
@@ -6952,6 +7080,7 @@ window.TOP_ARTICLES = {
               "tags": [
                 "arts & culture",
                 "fiction",
+                "light-reading",
                 "sociology & social structures"
               ],
               "alsoIn": [
@@ -6965,7 +7094,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 82,
+              "position": 88,
               "id": "01kw3yjp92dh7r7qzk3bja513n",
               "title": "Dismantling Authenticity",
               "author": "Sven Brodmerkel | Off-Script At Work",
@@ -6991,7 +7120,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 83,
+              "position": 89,
               "id": "01kw5smp76n3se61jv02c1zzx9",
               "title": "Why Writing Feels So Unnatural",
               "author": "A Mug of Insights",
@@ -7017,7 +7146,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 84,
+              "position": 90,
               "id": "01kbdw3w0vrspnk8yzrfxypq51",
               "title": "The Quiet Collapse of Reading—and the Only Real Solution",
               "author": "Joel J Miller",
@@ -7043,7 +7172,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 85,
+              "position": 91,
               "id": "01kye6cwzsz29j9v1g53fzfy45",
               "title": "“We Know. It’s Fine.”",
               "author": "Sven Brodmerkel | Off-Script At Work",
@@ -7069,7 +7198,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 86,
+              "position": 92,
               "id": "01kz3n3vtt34z9nte888xtbp8q",
               "title": "Rethinking the C-Word",
               "author": "Sven Brodmerkel | Off-Script At Work",
@@ -7095,7 +7224,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 87,
+              "position": 93,
               "id": "01kzb03e63j61yhndn4jkh2v66",
               "title": "Rethinking the C-Word",
               "author": "Sven Brodmerkel | Off-Script At Work",
@@ -7120,7 +7249,32 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 88,
+              "position": 94,
+              "id": "01m059vdx0s3ff8xbj5eh1y9x3",
+              "title": "Some Thoughts on the Common Toad",
+              "author": "orwellfoundation.com",
+              "siteName": "The Orwell Foundation",
+              "category": "article",
+              "language": null,
+              "readingTime": "8 mins",
+              "readingMinutes": 8,
+              "wordCount": 1901,
+              "publishedDate": "2011-04-12",
+              "savedDate": "2026-08-16T12:48:23.456000+00:00",
+              "imageUrl": "https://www.orwellfoundation.com/wp-content/uploads/2020/03/IMG_3979-768x1024.jpg",
+              "sourceUrl": "https://www.orwellfoundation.com/the-orwell-foundation/orwell/essays-and-other-works/some-thoughts-on-the-common-toad/",
+              "readwiseUrl": "https://read.readwise.io/read/01m059vdx0s3ff8xbj5eh1y9x3",
+              "summary": "\"Is it wicked to take a pleasure in Spring and other seasonal changes?\"",
+              "whyRead": "Raakt je interesse in personal growth & life philosophy en essay schrijven als vorm — een klein, persoonlijk essay dat laat zien hoe Orwell politieke ernst combineert met puur, ongecompliceerd natuurplezier.",
+              "bestMoment": "ontspannen",
+              "tags": [
+                "arts & culture",
+                "personal growth & life philosophy"
+              ],
+              "alsoIn": []
+            },
+            {
+              "position": 95,
               "id": "01krn89rppb35h90y58egserkm",
               "title": "The Conservative Attack on Empathy",
               "author": "theatlantic.com",
@@ -7146,7 +7300,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 89,
+              "position": 96,
               "id": "01krtrbe7xpgnmyq707xyfa6dw",
               "title": "Intellectual Loneliness: A Field Guide",
               "author": "Sven Brodmerkel (PhD)",
@@ -7173,7 +7327,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 90,
+              "position": 97,
               "id": "01kwkbvg7b538ndb8mhrw8b12z",
               "title": "Mazzucato rekent af met strategie van Draghi, Wennink en het kabinet",
               "author": "Rode Cijfers",
@@ -7203,7 +7357,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 91,
+              "position": 98,
               "id": "01kxy1qkwpt5xkmvy06pz6bqvr",
               "title": "Technology and Barbarism",
               "author": "amazon.com",
@@ -7230,7 +7384,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 92,
+              "position": 99,
               "id": "01ky09ekmjq5ncqpcbbkx4n7db",
               "title": "🎙️#16 Benjamin Studebaker: Why the Revolution Isn't Coming",
               "author": "The Living Philosophy",
@@ -7255,7 +7409,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 93,
+              "position": 100,
               "id": "01ky6y14z2k839g46kyyn7vba1",
               "title": "On Magical Constitutionalism",
               "author": "telescopio.substack.com",
@@ -7277,190 +7431,6 @@ window.TOP_ARTICLES = {
                 "linked-from-readwise",
                 "political philosophy",
                 "sociology & social structures"
-              ],
-              "alsoIn": []
-            },
-            {
-              "position": 94,
-              "id": "01kysnkny4jr6ej2jh6n05ex8q",
-              "title": "Het Curieuze Artikel 73 van de AIVD en MIVD",
-              "author": "berthub.eu",
-              "siteName": "Bert Hubert's writings",
-              "category": "article",
-              "language": "Nederlands",
-              "readingTime": "3 mins",
-              "readingMinutes": 3,
-              "wordCount": 574,
-              "publishedDate": "2024-01-08",
-              "savedDate": "2026-07-30T14:07:17.445000+00:00",
-              "imageUrl": "https://berthub.eu/articles/bvd.jpeg",
-              "sourceUrl": "https://berthub.eu/articles/posts/het-curieuze-artikel-73-aivd-mivd/",
-              "readwiseUrl": "https://read.readwise.io/read/01kysnkny4jr6ej2jh6n05ex8q",
-              "summary": "Vandaag groot in het nieuws, een Nederlandse AIVD agent zou een sleutelrol gespeeld hebben in het binnenbrengen van sabotagesoftware bij het Iraanse kernwapenprogramma. Nou moet me wel van het hart, dit zou op zichzelf geen schandaal moeten zijn. Iran zijn onze vrienden niet, en ik heb liever dat ze geen kernwapenprogramma hebben.\nWel wekken de artikelen van Huib Modderkolk in de Volkskrant de indruk dat politiek Den Haag niet of niet voldoende op de hoogte was van dit alles.",
-              "whyRead": "Raakt je interesse in democratische rechtsorde en toezicht: een Nederlandse casus over inlichtingenwerk, wettelijke bevoegdheden en politieke controle.",
-              "bestMoment": "kritisch",
-              "tags": [
-                "current affairs & politics",
-                "political philosophy",
-                "technology"
-              ],
-              "alsoIn": [
-                "aaa-dutch-top-100",
-                "aaa-short-dutch-top-10",
-                "aaa-short-dutch-top-100"
-              ]
-            },
-            {
-              "position": 95,
-              "id": "01kzd8qn7n646xh31vsssz5wcx",
-              "title": "MacGregor The Bridge Builder",
-              "author": "Astral Codex Ten",
-              "siteName": "Substack",
-              "category": "email",
-              "language": "Engels",
-              "readingTime": "4 mins",
-              "readingMinutes": 4,
-              "wordCount": 1002,
-              "publishedDate": "2026-08-07",
-              "savedDate": "2026-08-07T04:47:04.950000+00:00",
-              "imageUrl": null,
-              "sourceUrl": "mailto:reader-forwarded-email/6d4a6557959958f887872099d6a7ee27",
-              "readwiseUrl": "https://read.readwise.io/read/01kzd8qn7n646xh31vsssz5wcx",
-              "summary": "An old man at a bar is complaining. “You see that bridge there?",
-              "whyRead": "Scott Alexander maakt van een grove grap een serieuze vraag over reputatie, schuld en cancel-cultuur. Raakt je interesse in sociale normen en morele filosofie.",
-              "bestMoment": "analytisch",
-              "tags": [
-                "philosophy",
-                "sociology & social structures"
-              ],
-              "alsoIn": []
-            },
-            {
-              "position": 96,
-              "id": "01j6011fk1gbvn0q705v2wmmah",
-              "title": "Five Unconventional Economic Systems as Imagined in SFF",
-              "author": "Eleanor Konik",
-              "siteName": "Reactor",
-              "category": "article",
-              "language": "Engels",
-              "readingTime": "7 mins",
-              "readingMinutes": 7,
-              "wordCount": 1614,
-              "publishedDate": "2021-03-24",
-              "savedDate": "2024-08-23T16:27:46.658000+00:00",
-              "imageUrl": "https://reactormag.com/wp-content/uploads/2021/03/Goblin_Market_-Winifred_Knights-1916.jpg",
-              "sourceUrl": "https://reactormag.com/five-unconventional-economic-systems-as-imagined-in-sff/",
-              "readwiseUrl": "https://read.readwise.io/read/01j6011fk1gbvn0q705v2wmmah",
-              "summary": "Speculative fiction explores unique economic systems, such as a contract economy in Anne Bishop's The Others series where non-humans lease land to humans in exchange for goods. In Seanan McGuire's In an Absent Dream, a system of balanced reciprocity is enforced by a magical Goblin Market where fair value must be offered for goods and services. Larry Niven's Borderland of Sol delves into a hunting and herding economy where sentient beings allow themselves to be hunted in exchange for tools in a barter system.",
-              "whyRead": "Raakt je interesse in fantasy/SF en economie — Eleanor Konik verkent vijf alternatieve economische systemen in speculatieve fictie, van contracteconomie tot bijdrage-hiërarchie.",
-              "bestMoment": "leergierig",
-              "tags": [
-                "economics",
-                "fiction",
-                "tools & workflows"
-              ],
-              "alsoIn": []
-            },
-            {
-              "position": 97,
-              "id": "01j8s9z19n0zz9b09z7jh8xz38",
-              "title": "Early Pastoral Economies of the Eurasian Plains\nEarly Pastoral Economies of the Eurasian Plains",
-              "author": "Eleanor Konik",
-              "siteName": "Obsidian Iceberg",
-              "category": "article",
-              "language": "Engels",
-              "readingTime": "6 mins",
-              "readingMinutes": 6,
-              "wordCount": 1497,
-              "publishedDate": "2021-04-26",
-              "savedDate": "2024-09-27T08:36:08.118000+00:00",
-              "imageUrl": "https://substackcdn.com/image/fetch/w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fece1a030-2a41-41ec-95aa-b03ea59a945f_2000x1600.jpeg",
-              "sourceUrl": "http://eleanorkonik.com/early-pastoral-economies/",
-              "readwiseUrl": "https://read.readwise.io/read/01j8s9z19n0zz9b09z7jh8xz38",
-              "summary": "Eleanor Konik explores the domestication of horses and its impact on early pastoral economies in the Eurasian plains. She discusses how climate change influenced the shift from cattle herding to horse domestication and the development of raiding economies. The debate continues over whether horseback riding or the use of horses for pulling carts came first, highlighting the complexities of animal domestication in ancient societies.",
-              "whyRead": "Raakt je interesse in geschiedenis — diepgravende discussie over paardendomesticatie en vroege pastoraaleconomieën in de Euraziatische steppen.",
-              "bestMoment": "analytisch",
-              "tags": [
-                "climate & environment",
-                "history"
-              ],
-              "alsoIn": []
-            },
-            {
-              "position": 98,
-              "id": "01jkh2xxjf9pw3j0kkgtww5chq",
-              "title": "Don’t sacrifice the wrong thing",
-              "author": "Henrik Karlsson",
-              "siteName": "henrikkarlsson.xyz",
-              "category": "article",
-              "language": "Engels",
-              "readingTime": "5 mins",
-              "readingMinutes": 5,
-              "wordCount": 1123,
-              "publishedDate": "2024-05-30",
-              "savedDate": "2025-02-07T20:51:55.810000+00:00",
-              "imageUrl": "https://substackcdn.com/image/fetch/w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fe15d1b23-7ad9-4f85-bfea-4e23318cc080_927x1200.jpeg",
-              "sourceUrl": "https://www.henrikkarlsson.xyz/p/sacrifice?r=1r0y5d&utm_medium=ios&triedRedirect=true",
-              "readwiseUrl": "https://read.readwise.io/read/01jkh2xxjf9pw3j0kkgtww5chq",
-              "summary": "Henrik Karlsson shares his journey of writing and personal growth since starting his blog, Escaping Flatland, shortly before his daughter was born. He emphasizes the importance of prioritizing what truly matters in life, like curiosity and family, over material gains. By making conscious sacrifices, he believes we can lead richer and more fulfilling lives.",
-              "whyRead": "Offer niet het verkeerde op — over wat werkelijk de moeite waard is om op te geven.",
-              "bestMoment": "reflectief",
-              "tags": [
-                "personal growth & life philosophy",
-                "psychology & behavior",
-                "writing & essays"
-              ],
-              "alsoIn": []
-            },
-            {
-              "position": 99,
-              "id": "01jkh2y807mf11z5s9q0gv13jq",
-              "title": "On having more interesting ideas",
-              "author": "Henrik Karlsson",
-              "siteName": "henrikkarlsson.xyz",
-              "category": "article",
-              "language": "Engels",
-              "readingTime": "4 mins",
-              "readingMinutes": 4,
-              "wordCount": 920,
-              "publishedDate": "2024-05-15",
-              "savedDate": "2025-02-07T20:52:06.386000+00:00",
-              "imageUrl": "https://substackcdn.com/image/fetch/w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff940b52b-5bd3-4337-af0c-692d20612436_684x676.png",
-              "sourceUrl": "https://www.henrikkarlsson.xyz/p/interesting-ideas?r=1r0y5d&utm_medium=ios&triedRedirect=true",
-              "readwiseUrl": "https://read.readwise.io/read/01jkh2y807mf11z5s9q0gv13jq",
-              "summary": "Henrik Karlsson shares how he generates interesting ideas by writing daily and engaging in conversations. He believes that curiosity and the combination of solitude and social interactions help to refine his thoughts. By embracing a sense of wonder and not judging his ideas too harshly, he finds inspiration and deeper insights.",
-              "whyRead": "Over het krijgen van interessantere ideeën — praktische aanpak voor creatief denken.",
-              "bestMoment": "leergierig",
-              "tags": [
-                "learning & meta-learning",
-                "personal growth & life philosophy",
-                "writing & essays"
-              ],
-              "alsoIn": []
-            },
-            {
-              "position": 100,
-              "id": "01k3wpv85qh52sj9ffa8rrz1bm",
-              "title": "Chromatic Rebel #2: why is the West so color-minimalist?",
-              "author": "María Castro Jiménez",
-              "siteName": "Pigments, Colors & Other Stories ",
-              "category": "article",
-              "language": "Engels",
-              "readingTime": "7 mins",
-              "readingMinutes": 7,
-              "wordCount": 1647,
-              "publishedDate": "2025-05-26",
-              "savedDate": "2025-08-30T05:22:48.120000+00:00",
-              "imageUrl": "https://substackcdn.com/image/fetch/$s_!tNfU!,w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F42aad1b9-d483-43c3-93ee-ec3a2ba8f4f7_5804x3870.jpeg",
-              "sourceUrl": "https://mariacj.substack.com/p/chromatic-rebel-2-why-is-the-west?triedRedirect=true",
-              "readwiseUrl": "https://read.readwise.io/read/01k3wpv85qh52sj9ffa8rrz1bm",
-              "summary": "Europe had few natural pigments, so Western life stayed less colorful.  \nProtestantism, starting with Luther, rejected bright colors and favored black, white and gray.  \nIndustrialism, colonialism and trends like \"old money\" and \"clean girl\" cemented that minimalist palette as a sign of wealth and virtue.",
-              "whyRead": "Waarom het Westen zo kleurminimalistisch is geworden — een culturele en historische verkenning.",
-              "bestMoment": "analytisch",
-              "tags": [
-                "arts & culture",
-                "economics",
-                "philosophy"
               ],
               "alsoIn": []
             }
@@ -7658,6 +7628,7 @@ window.TOP_ARTICLES = {
               "tags": [
                 "arts & culture",
                 "fiction",
+                "light-reading",
                 "sociology & social structures"
               ],
               "alsoIn": [
@@ -7726,7 +7697,6 @@ window.TOP_ARTICLES = {
               ],
               "alsoIn": [
                 "aaa-dutch-top-100",
-                "aaa-short-top-100",
                 "aaa-short-dutch-top-100"
               ]
             },
@@ -7973,6 +7943,7 @@ window.TOP_ARTICLES = {
               "tags": [
                 "arts & culture",
                 "fiction",
+                "light-reading",
                 "sociology & social structures"
               ],
               "alsoIn": [
@@ -8041,7 +8012,6 @@ window.TOP_ARTICLES = {
               ],
               "alsoIn": [
                 "aaa-dutch-top-100",
-                "aaa-short-top-100",
                 "aaa-short-dutch-top-10"
               ]
             },
@@ -8442,6 +8412,7 @@ window.TOP_ARTICLES = {
               "tags": [
                 "current affairs & politics",
                 "economics",
+                "light-reading",
                 "sociology & inequality"
               ],
               "alsoIn": [
@@ -8471,6 +8442,7 @@ window.TOP_ARTICLES = {
               "tags": [
                 "fiction",
                 "history",
+                "light-reading",
                 "philosophy"
               ],
               "alsoIn": [
@@ -8500,6 +8472,7 @@ window.TOP_ARTICLES = {
               "tags": [
                 "arts & culture",
                 "history",
+                "light-reading",
                 "political philosophy"
               ],
               "alsoIn": [
@@ -8528,6 +8501,7 @@ window.TOP_ARTICLES = {
               "tags": [
                 "arts & culture",
                 "history",
+                "light-reading",
                 "political philosophy"
               ],
               "alsoIn": [
@@ -8556,6 +8530,7 @@ window.TOP_ARTICLES = {
               "tags": [
                 "arts & culture",
                 "fantasy & science fiction",
+                "light-reading",
                 "philosophy"
               ],
               "alsoIn": [
@@ -8584,6 +8559,7 @@ window.TOP_ARTICLES = {
               "tags": [
                 "arts & culture",
                 "fiction",
+                "light-reading",
                 "sociology & social structures"
               ],
               "alsoIn": [
@@ -8618,7 +8594,8 @@ window.TOP_ARTICLES = {
               "tags": [
                 "fiction",
                 "history",
-                "learning & meta-learning"
+                "learning & meta-learning",
+                "light-reading"
               ],
               "alsoIn": [
                 "aaa-luchtig-top-100"
@@ -8646,6 +8623,7 @@ window.TOP_ARTICLES = {
               "tags": [
                 "games & game studies",
                 "health & wellness",
+                "light-reading",
                 "psychology & behavior"
               ],
               "alsoIn": [
@@ -8674,6 +8652,7 @@ window.TOP_ARTICLES = {
               "tags": [
                 "arts & culture",
                 "learning & meta-learning",
+                "light-reading",
                 "sociology & inequality"
               ],
               "alsoIn": [
@@ -8701,6 +8680,7 @@ window.TOP_ARTICLES = {
               "bestMoment": "ontspannen",
               "tags": [
                 "behavioral psychology & coaching",
+                "light-reading",
                 "personal growth & life philosophy",
                 "sociology & social structures"
               ],
@@ -8735,6 +8715,7 @@ window.TOP_ARTICLES = {
               "tags": [
                 "current affairs & politics",
                 "economics",
+                "light-reading",
                 "sociology & inequality"
               ],
               "alsoIn": [
@@ -8764,6 +8745,7 @@ window.TOP_ARTICLES = {
               "tags": [
                 "fiction",
                 "history",
+                "light-reading",
                 "philosophy"
               ],
               "alsoIn": [
@@ -8793,6 +8775,7 @@ window.TOP_ARTICLES = {
               "tags": [
                 "arts & culture",
                 "history",
+                "light-reading",
                 "political philosophy"
               ],
               "alsoIn": [
@@ -8821,6 +8804,7 @@ window.TOP_ARTICLES = {
               "tags": [
                 "arts & culture",
                 "history",
+                "light-reading",
                 "political philosophy"
               ],
               "alsoIn": [
@@ -8849,6 +8833,7 @@ window.TOP_ARTICLES = {
               "tags": [
                 "arts & culture",
                 "fantasy & science fiction",
+                "light-reading",
                 "philosophy"
               ],
               "alsoIn": [
@@ -8877,6 +8862,7 @@ window.TOP_ARTICLES = {
               "tags": [
                 "arts & culture",
                 "fiction",
+                "light-reading",
                 "sociology & social structures"
               ],
               "alsoIn": [
@@ -8911,7 +8897,8 @@ window.TOP_ARTICLES = {
               "tags": [
                 "fiction",
                 "history",
-                "learning & meta-learning"
+                "learning & meta-learning",
+                "light-reading"
               ],
               "alsoIn": [
                 "aaa-luchtig-top-10"
@@ -8939,6 +8926,7 @@ window.TOP_ARTICLES = {
               "tags": [
                 "games & game studies",
                 "health & wellness",
+                "light-reading",
                 "psychology & behavior"
               ],
               "alsoIn": [
@@ -8967,6 +8955,7 @@ window.TOP_ARTICLES = {
               "tags": [
                 "arts & culture",
                 "learning & meta-learning",
+                "light-reading",
                 "sociology & inequality"
               ],
               "alsoIn": [
@@ -8994,6 +8983,7 @@ window.TOP_ARTICLES = {
               "bestMoment": "ontspannen",
               "tags": [
                 "behavioral psychology & coaching",
+                "light-reading",
                 "personal growth & life philosophy",
                 "sociology & social structures"
               ],
@@ -9022,7 +9012,8 @@ window.TOP_ARTICLES = {
               "bestMoment": "ontspannen",
               "tags": [
                 "arts & culture",
-                "history"
+                "history",
+                "light-reading"
               ],
               "alsoIn": []
             },
@@ -9049,7 +9040,8 @@ window.TOP_ARTICLES = {
                 "arts & culture",
                 "fiction",
                 "history",
-                "later"
+                "later",
+                "light-reading"
               ],
               "alsoIn": []
             },
@@ -9074,6 +9066,7 @@ window.TOP_ARTICLES = {
               "bestMoment": "ontspannen",
               "tags": [
                 "learning & meta-learning",
+                "light-reading",
                 "programming & software",
                 "sociology & inequality"
               ],
@@ -9101,7 +9094,8 @@ window.TOP_ARTICLES = {
               "tags": [
                 "arts & culture",
                 "geography & maps",
-                "history"
+                "history",
+                "light-reading"
               ],
               "alsoIn": []
             },
@@ -9127,6 +9121,7 @@ window.TOP_ARTICLES = {
               "tags": [
                 "arts & culture",
                 "history",
+                "light-reading",
                 "personal growth & life philosophy"
               ],
               "alsoIn": [
@@ -9157,6 +9152,7 @@ window.TOP_ARTICLES = {
               "tags": [
                 "ai ethics & society",
                 "arts & culture",
+                "light-reading",
                 "sociology & social structures"
               ],
               "alsoIn": []
@@ -9183,7 +9179,8 @@ window.TOP_ARTICLES = {
               "tags": [
                 "arts & culture",
                 "fiction",
-                "learning & meta-learning"
+                "learning & meta-learning",
+                "light-reading"
               ],
               "alsoIn": []
             },
@@ -9210,7 +9207,8 @@ window.TOP_ARTICLES = {
                 "",
                 "arts & culture",
                 "fiction",
-                "later"
+                "later",
+                "light-reading"
               ],
               "alsoIn": []
             },
@@ -9235,7 +9233,8 @@ window.TOP_ARTICLES = {
               "bestMoment": "ontspannen",
               "tags": [
                 "arts & culture",
-                "internet & platforms"
+                "internet & platforms",
+                "light-reading"
               ],
               "alsoIn": []
             },
@@ -9260,7 +9259,8 @@ window.TOP_ARTICLES = {
               "bestMoment": "ontspannen",
               "tags": [
                 "food & cooking",
-                "health & wellness"
+                "health & wellness",
+                "light-reading"
               ],
               "alsoIn": []
             },
@@ -9284,7 +9284,8 @@ window.TOP_ARTICLES = {
               "whyRead": "Raakt je interesse in kunst & cultuur — een scherpe recensie van Emily Wilson (vertaler van de Odyssee) over Nolans verfilming, die de spanning tussen spektakel en de morele complexiteit van het origineel blootlegt.",
               "bestMoment": "ontspannen",
               "tags": [
-                "arts & culture"
+                "arts & culture",
+                "light-reading"
               ],
               "alsoIn": []
             },
@@ -9309,6 +9310,7 @@ window.TOP_ARTICLES = {
               "bestMoment": "ontspannen",
               "tags": [
                 "learning & meta-learning",
+                "light-reading",
                 "personal growth & life philosophy"
               ],
               "alsoIn": []
@@ -9349,6 +9351,7 @@ window.TOP_ARTICLES = {
               "tags": [
                 "arts & culture",
                 "fiction",
+                "light-reading",
                 "sociology & social structures"
               ],
               "alsoIn": [
@@ -9383,6 +9386,7 @@ window.TOP_ARTICLES = {
               "tags": [
                 "arts & culture",
                 "history",
+                "light-reading",
                 "personal growth & life philosophy"
               ],
               "alsoIn": [
@@ -9418,6 +9422,7 @@ window.TOP_ARTICLES = {
               "tags": [
                 "arts & culture",
                 "fiction",
+                "light-reading",
                 "sociology & social structures"
               ],
               "alsoIn": [
@@ -9452,6 +9457,7 @@ window.TOP_ARTICLES = {
               "tags": [
                 "arts & culture",
                 "history",
+                "light-reading",
                 "personal growth & life philosophy"
               ],
               "alsoIn": [
@@ -9494,6 +9500,7 @@ window.TOP_ARTICLES = {
               "whyRead": "Raakt je interesse in leren en kennismanagement; mind mapping als visueel gereedschap voor het organiseren van gedachten en informatie.",
               "bestMoment": "leergierig",
               "tags": [
+                "boek-top-10",
                 "learning & meta-learning",
                 "pkm & note-taking",
                 "writing & essays"
@@ -9522,6 +9529,7 @@ window.TOP_ARTICLES = {
               "whyRead": "Raakt je interesse in geschiedenis en politieke filosofie; een compacte maar diepgaande inleiding op de Verlichting als intellectuele beweging met blijvende invloed op politiek en wetenschap.",
               "bestMoment": "analytisch",
               "tags": [
+                "boek-top-10",
                 "history",
                 "philosophy",
                 "writing & essays"
@@ -9551,6 +9559,7 @@ window.TOP_ARTICLES = {
               "bestMoment": "leergierig",
               "tags": [
                 "arts & culture",
+                "boek-top-10",
                 "business & work",
                 "tools & workflows"
               ],
@@ -9578,6 +9587,7 @@ window.TOP_ARTICLES = {
               "whyRead": "Raakt je interesse in PKM en kennisbeheer; dit boek legt de principes van het Zettelkasten-systeem uit in een digitale context — direct relevant voor je Obsidian-workflow.",
               "bestMoment": "leergierig",
               "tags": [
+                "boek-top-10",
                 "learning & meta-learning",
                 "pkm & note-taking",
                 "tools & workflows"
@@ -9606,6 +9616,7 @@ window.TOP_ARTICLES = {
               "whyRead": "Raakt je kerninteresse in PKM — Ahrens legt de Zettelkasten-methode uit als een denksysteem, niet slechts als notitiesysteem.",
               "bestMoment": "analytisch",
               "tags": [
+                "boek-top-10",
                 "learning & meta-learning",
                 "pkm & note-taking",
                 "writing & essays"
@@ -9634,6 +9645,7 @@ window.TOP_ARTICLES = {
               "whyRead": "Raakt je interesse in leren en PKM — Kadavy herformuleert productiviteit als energiebeheer in plaats van tijdbeheer, met directe relevantie voor creatief en intellectueel werk.",
               "bestMoment": "leergierig",
               "tags": [
+                "boek-top-10",
                 "learning & meta-learning",
                 "personal growth & life philosophy",
                 "political philosophy"
@@ -9662,6 +9674,7 @@ window.TOP_ARTICLES = {
               "whyRead": "Raakt je kerninteresse in Hannah Arendt en politieke filosofie — een sleutelessay over wat vrijheid werkelijk betekent als politieke categorie.",
               "bestMoment": "analytisch",
               "tags": [
+                "boek-top-10",
                 "history",
                 "political philosophy",
                 "writing & essays"
@@ -9690,6 +9703,7 @@ window.TOP_ARTICLES = {
               "whyRead": "Raakt je interesse in filosofie en persoonlijke groei; Walden is Thoreau's klassieke verslag van zijn experiment in zelfvoorziening — tijdloos in zijn kritiek op consumptie en materialisme.",
               "bestMoment": "reflectief",
               "tags": [
+                "boek-top-10",
                 "personal growth & life philosophy",
                 "philosophy",
                 "political philosophy"
@@ -9718,6 +9732,7 @@ window.TOP_ARTICLES = {
               "whyRead": "Raakt je interesse in politieke filosofie en geschiedenis; Thoreau's essay is het fundament van het moderne concept van geweldloze burgerlijke ongehoorzaamheid, invloedrijk op Gandhi en Martin Luther King.",
               "bestMoment": "analytisch",
               "tags": [
+                "boek-top-10",
                 "current affairs & politics",
                 "history",
                 "political philosophy"
@@ -9746,6 +9761,7 @@ window.TOP_ARTICLES = {
               "whyRead": "Raakt je interesse in filosofie en persoonlijke groei; dit essay van Emerson is een van de invloedrijkste pleidooien voor individualisme en vertrouwen op eigen oordeel ooit geschreven.",
               "bestMoment": "reflectief",
               "tags": [
+                "boek-top-10",
                 "personal growth & life philosophy",
                 "philosophy",
                 "sociology & inequality"
@@ -9779,6 +9795,7 @@ window.TOP_ARTICLES = {
               "whyRead": "Raakt je interesse in leren en kennismanagement; mind mapping als visueel gereedschap voor het organiseren van gedachten en informatie.",
               "bestMoment": "leergierig",
               "tags": [
+                "boek-top-10",
                 "learning & meta-learning",
                 "pkm & note-taking",
                 "writing & essays"
@@ -9807,6 +9824,7 @@ window.TOP_ARTICLES = {
               "whyRead": "Raakt je interesse in geschiedenis en politieke filosofie; een compacte maar diepgaande inleiding op de Verlichting als intellectuele beweging met blijvende invloed op politiek en wetenschap.",
               "bestMoment": "analytisch",
               "tags": [
+                "boek-top-10",
                 "history",
                 "philosophy",
                 "writing & essays"
@@ -9836,6 +9854,7 @@ window.TOP_ARTICLES = {
               "bestMoment": "leergierig",
               "tags": [
                 "arts & culture",
+                "boek-top-10",
                 "business & work",
                 "tools & workflows"
               ],
@@ -9863,6 +9882,7 @@ window.TOP_ARTICLES = {
               "whyRead": "Raakt je interesse in PKM en kennisbeheer; dit boek legt de principes van het Zettelkasten-systeem uit in een digitale context — direct relevant voor je Obsidian-workflow.",
               "bestMoment": "leergierig",
               "tags": [
+                "boek-top-10",
                 "learning & meta-learning",
                 "pkm & note-taking",
                 "tools & workflows"
@@ -9891,6 +9911,7 @@ window.TOP_ARTICLES = {
               "whyRead": "Raakt je kerninteresse in PKM — Ahrens legt de Zettelkasten-methode uit als een denksysteem, niet slechts als notitiesysteem.",
               "bestMoment": "analytisch",
               "tags": [
+                "boek-top-10",
                 "learning & meta-learning",
                 "pkm & note-taking",
                 "writing & essays"
@@ -9919,6 +9940,7 @@ window.TOP_ARTICLES = {
               "whyRead": "Raakt je interesse in leren en PKM — Kadavy herformuleert productiviteit als energiebeheer in plaats van tijdbeheer, met directe relevantie voor creatief en intellectueel werk.",
               "bestMoment": "leergierig",
               "tags": [
+                "boek-top-10",
                 "learning & meta-learning",
                 "personal growth & life philosophy",
                 "political philosophy"
@@ -9947,6 +9969,7 @@ window.TOP_ARTICLES = {
               "whyRead": "Raakt je kerninteresse in Hannah Arendt en politieke filosofie — een sleutelessay over wat vrijheid werkelijk betekent als politieke categorie.",
               "bestMoment": "analytisch",
               "tags": [
+                "boek-top-10",
                 "history",
                 "political philosophy",
                 "writing & essays"
@@ -9975,6 +9998,7 @@ window.TOP_ARTICLES = {
               "whyRead": "Raakt je interesse in filosofie en persoonlijke groei; Walden is Thoreau's klassieke verslag van zijn experiment in zelfvoorziening — tijdloos in zijn kritiek op consumptie en materialisme.",
               "bestMoment": "reflectief",
               "tags": [
+                "boek-top-10",
                 "personal growth & life philosophy",
                 "philosophy",
                 "political philosophy"
@@ -10003,6 +10027,7 @@ window.TOP_ARTICLES = {
               "whyRead": "Raakt je interesse in politieke filosofie en geschiedenis; Thoreau's essay is het fundament van het moderne concept van geweldloze burgerlijke ongehoorzaamheid, invloedrijk op Gandhi en Martin Luther King.",
               "bestMoment": "analytisch",
               "tags": [
+                "boek-top-10",
                 "current affairs & politics",
                 "history",
                 "political philosophy"
@@ -10031,6 +10056,7 @@ window.TOP_ARTICLES = {
               "whyRead": "Raakt je interesse in filosofie en persoonlijke groei; dit essay van Emerson is een van de invloedrijkste pleidooien voor individualisme en vertrouwen op eigen oordeel ooit geschreven.",
               "bestMoment": "reflectief",
               "tags": [
+                "boek-top-10",
                 "personal growth & life philosophy",
                 "philosophy",
                 "sociology & inequality"
@@ -11751,6 +11777,7 @@ window.TOP_ARTICLES = {
               "bestMoment": "analytisch",
               "tags": [
                 "learning & meta-learning",
+                "pdf-top-10",
                 "philosophy",
                 "tools & workflows"
               ],
@@ -11779,6 +11806,7 @@ window.TOP_ARTICLES = {
               "bestMoment": "analytisch",
               "tags": [
                 "arts & culture",
+                "pdf-top-10",
                 "philosophy",
                 "political philosophy"
               ],
@@ -11807,6 +11835,7 @@ window.TOP_ARTICLES = {
               "bestMoment": "geconcentreerd",
               "tags": [
                 "fiction",
+                "pdf-top-10",
                 "philosophy",
                 "political philosophy"
               ],
@@ -11834,6 +11863,7 @@ window.TOP_ARTICLES = {
               "whyRead": "Raakt je interesse in filosofie en gedragspsychologie — Maslow's grondleggende werk over menselijke motivatie en de hiërarchie van behoeften. Een van de meest invloedrijke psychologieboeken van de 20e eeuw, en de basis voor vrijwel alle latere humanistische psychologie.",
               "bestMoment": "analytisch",
               "tags": [
+                "pdf-top-10",
                 "philosophy",
                 "psychology & behavior"
               ],
@@ -11862,6 +11892,7 @@ window.TOP_ARTICLES = {
               "bestMoment": "kritisch",
               "tags": [
                 "ai ethics & society",
+                "pdf-top-10",
                 "programming & software",
                 "sociology & inequality"
               ],
@@ -11890,6 +11921,7 @@ window.TOP_ARTICLES = {
               "bestMoment": "kritisch",
               "tags": [
                 "internet & platforms",
+                "pdf-top-10",
                 "programming & software",
                 "sociology & inequality"
               ],
@@ -11917,6 +11949,7 @@ window.TOP_ARTICLES = {
               "whyRead": "Raakt je interesse in filosofie en politieke/morele theorie: Murdoch verschuift ethiek van autonome wil naar aandacht, werkelijkheid en zelfoverstijging. Deze lange, uitzonderlijk rijke tekst verbindt Plato, kunst, liefde en nederigheid tot een bruikbaar tegenbeeld van individualistische moraal.",
               "bestMoment": "geconcentreerd",
               "tags": [
+                "pdf-top-10",
                 "philosophy"
               ],
               "alsoIn": [
@@ -11943,6 +11976,7 @@ window.TOP_ARTICLES = {
               "whyRead": "Raakt je interesse in technologiekritiek en filosofie — Berry's antwoord op feministische critica van zijn 'no computer'-essay; een bredere verdediging van zijn wereldvisie.",
               "bestMoment": "analytisch",
               "tags": [
+                "pdf-top-10",
                 "philosophy",
                 "programming & software"
               ],
@@ -11970,6 +12004,7 @@ window.TOP_ARTICLES = {
               "whyRead": "Raakt je interesse in technologiekritiek — Wendell Berry's iconische essay waarom hij geen computer koopt: een verdediging van eenvoud, lokale economie en ambacht.",
               "bestMoment": "reflectief",
               "tags": [
+                "pdf-top-10",
                 "philosophy",
                 "programming & software"
               ],
@@ -11997,6 +12032,7 @@ window.TOP_ARTICLES = {
               "whyRead": "Raakt je interesse in filosofie, AI-ethiek en maatschappij: Heidegger biedt een onmisbare taal om technologie niet als neutraal gereedschap maar als wereldbeeld te onderzoeken. Zijn onderscheid tussen poiesis en Enframing maakt hedendaagse AI-, data- en efficiëntielogica scherper bespreekbaar.",
               "bestMoment": "analytisch",
               "tags": [
+                "pdf-top-10",
                 "philosophy",
                 "technology"
               ],
@@ -12030,6 +12066,7 @@ window.TOP_ARTICLES = {
               "bestMoment": "analytisch",
               "tags": [
                 "learning & meta-learning",
+                "pdf-top-10",
                 "philosophy",
                 "tools & workflows"
               ],
@@ -12058,6 +12095,7 @@ window.TOP_ARTICLES = {
               "bestMoment": "analytisch",
               "tags": [
                 "arts & culture",
+                "pdf-top-10",
                 "philosophy",
                 "political philosophy"
               ],
@@ -12086,6 +12124,7 @@ window.TOP_ARTICLES = {
               "bestMoment": "geconcentreerd",
               "tags": [
                 "fiction",
+                "pdf-top-10",
                 "philosophy",
                 "political philosophy"
               ],
@@ -12113,6 +12152,7 @@ window.TOP_ARTICLES = {
               "whyRead": "Raakt je interesse in filosofie en gedragspsychologie — Maslow's grondleggende werk over menselijke motivatie en de hiërarchie van behoeften. Een van de meest invloedrijke psychologieboeken van de 20e eeuw, en de basis voor vrijwel alle latere humanistische psychologie.",
               "bestMoment": "analytisch",
               "tags": [
+                "pdf-top-10",
                 "philosophy",
                 "psychology & behavior"
               ],
@@ -12141,6 +12181,7 @@ window.TOP_ARTICLES = {
               "bestMoment": "kritisch",
               "tags": [
                 "ai ethics & society",
+                "pdf-top-10",
                 "programming & software",
                 "sociology & inequality"
               ],
@@ -12169,6 +12210,7 @@ window.TOP_ARTICLES = {
               "bestMoment": "kritisch",
               "tags": [
                 "internet & platforms",
+                "pdf-top-10",
                 "programming & software",
                 "sociology & inequality"
               ],
@@ -12196,6 +12238,7 @@ window.TOP_ARTICLES = {
               "whyRead": "Raakt je interesse in filosofie en politieke/morele theorie: Murdoch verschuift ethiek van autonome wil naar aandacht, werkelijkheid en zelfoverstijging. Deze lange, uitzonderlijk rijke tekst verbindt Plato, kunst, liefde en nederigheid tot een bruikbaar tegenbeeld van individualistische moraal.",
               "bestMoment": "geconcentreerd",
               "tags": [
+                "pdf-top-10",
                 "philosophy"
               ],
               "alsoIn": [
@@ -12222,6 +12265,7 @@ window.TOP_ARTICLES = {
               "whyRead": "Raakt je interesse in technologiekritiek en filosofie — Berry's antwoord op feministische critica van zijn 'no computer'-essay; een bredere verdediging van zijn wereldvisie.",
               "bestMoment": "analytisch",
               "tags": [
+                "pdf-top-10",
                 "philosophy",
                 "programming & software"
               ],
@@ -12249,6 +12293,7 @@ window.TOP_ARTICLES = {
               "whyRead": "Raakt je interesse in technologiekritiek — Wendell Berry's iconische essay waarom hij geen computer koopt: een verdediging van eenvoud, lokale economie en ambacht.",
               "bestMoment": "reflectief",
               "tags": [
+                "pdf-top-10",
                 "philosophy",
                 "programming & software"
               ],
@@ -12276,6 +12321,7 @@ window.TOP_ARTICLES = {
               "whyRead": "Raakt je interesse in filosofie, AI-ethiek en maatschappij: Heidegger biedt een onmisbare taal om technologie niet als neutraal gereedschap maar als wereldbeeld te onderzoeken. Zijn onderscheid tussen poiesis en Enframing maakt hedendaagse AI-, data- en efficiëntielogica scherper bespreekbaar.",
               "bestMoment": "analytisch",
               "tags": [
+                "pdf-top-10",
                 "philosophy",
                 "technology"
               ],
@@ -12682,7 +12728,8 @@ window.TOP_ARTICLES = {
               "tags": [
                 "arts & culture",
                 "history",
-                "philosophy"
+                "philosophy",
+                "video-top-10"
               ],
               "alsoIn": [
                 "video-top-100"
@@ -12710,7 +12757,8 @@ window.TOP_ARTICLES = {
               "tags": [
                 "philosophy",
                 "political philosophy",
-                "sociology & inequality"
+                "sociology & inequality",
+                "video-top-10"
               ],
               "alsoIn": [
                 "video-top-100"
@@ -12738,7 +12786,8 @@ window.TOP_ARTICLES = {
               "tags": [
                 "ai & machine learning",
                 "learning & meta-learning",
-                "programming & software"
+                "programming & software",
+                "video-top-10"
               ],
               "alsoIn": [
                 "video-top-100"
@@ -12766,7 +12815,8 @@ window.TOP_ARTICLES = {
               "tags": [
                 "ai ethics & society",
                 "business & startups",
-                "technology"
+                "technology",
+                "video-top-10"
               ],
               "alsoIn": [
                 "video-top-100"
@@ -12793,7 +12843,8 @@ window.TOP_ARTICLES = {
               "bestMoment": "leergierig",
               "tags": [
                 "ai & machine learning",
-                "learning & meta-learning"
+                "learning & meta-learning",
+                "video-top-10"
               ],
               "alsoIn": [
                 "video-top-100"
@@ -12820,7 +12871,8 @@ window.TOP_ARTICLES = {
               "bestMoment": "geconcentreerd",
               "tags": [
                 "personal growth & life philosophy",
-                "philosophy"
+                "philosophy",
+                "video-top-10"
               ],
               "alsoIn": [
                 "video-top-100"
@@ -12848,7 +12900,8 @@ window.TOP_ARTICLES = {
               "tags": [
                 "ai & machine learning",
                 "arts & culture",
-                "programming & software"
+                "programming & software",
+                "video-top-10"
               ],
               "alsoIn": [
                 "video-top-100"
@@ -12876,7 +12929,8 @@ window.TOP_ARTICLES = {
               "tags": [
                 "ai & machine learning",
                 "ai ethics & society",
-                "cognitive science"
+                "cognitive science",
+                "video-top-10"
               ],
               "alsoIn": [
                 "video-top-100"
@@ -12906,7 +12960,8 @@ window.TOP_ARTICLES = {
                 "personal growth & life philosophy",
                 "personal-growth-life-philosophy",
                 "philosophy",
-                "technology"
+                "technology",
+                "video-top-10"
               ],
               "alsoIn": [
                 "video-top-100"
@@ -12933,7 +12988,8 @@ window.TOP_ARTICLES = {
               "bestMoment": "analytisch",
               "tags": [
                 "ai ethics & society",
-                "programming & software"
+                "programming & software",
+                "video-top-10"
               ],
               "alsoIn": [
                 "video-top-100"
@@ -12966,7 +13022,8 @@ window.TOP_ARTICLES = {
               "tags": [
                 "arts & culture",
                 "history",
-                "philosophy"
+                "philosophy",
+                "video-top-10"
               ],
               "alsoIn": [
                 "video-top-10"
@@ -12994,7 +13051,8 @@ window.TOP_ARTICLES = {
               "tags": [
                 "philosophy",
                 "political philosophy",
-                "sociology & inequality"
+                "sociology & inequality",
+                "video-top-10"
               ],
               "alsoIn": [
                 "video-top-10"
@@ -13022,7 +13080,8 @@ window.TOP_ARTICLES = {
               "tags": [
                 "ai & machine learning",
                 "learning & meta-learning",
-                "programming & software"
+                "programming & software",
+                "video-top-10"
               ],
               "alsoIn": [
                 "video-top-10"
@@ -13050,7 +13109,8 @@ window.TOP_ARTICLES = {
               "tags": [
                 "ai ethics & society",
                 "business & startups",
-                "technology"
+                "technology",
+                "video-top-10"
               ],
               "alsoIn": [
                 "video-top-10"
@@ -13077,7 +13137,8 @@ window.TOP_ARTICLES = {
               "bestMoment": "leergierig",
               "tags": [
                 "ai & machine learning",
-                "learning & meta-learning"
+                "learning & meta-learning",
+                "video-top-10"
               ],
               "alsoIn": [
                 "video-top-10"
@@ -13104,7 +13165,8 @@ window.TOP_ARTICLES = {
               "bestMoment": "geconcentreerd",
               "tags": [
                 "personal growth & life philosophy",
-                "philosophy"
+                "philosophy",
+                "video-top-10"
               ],
               "alsoIn": [
                 "video-top-10"
@@ -13132,7 +13194,8 @@ window.TOP_ARTICLES = {
               "tags": [
                 "ai & machine learning",
                 "arts & culture",
-                "programming & software"
+                "programming & software",
+                "video-top-10"
               ],
               "alsoIn": [
                 "video-top-10"
@@ -13160,7 +13223,8 @@ window.TOP_ARTICLES = {
               "tags": [
                 "ai & machine learning",
                 "ai ethics & society",
-                "cognitive science"
+                "cognitive science",
+                "video-top-10"
               ],
               "alsoIn": [
                 "video-top-10"
@@ -13190,7 +13254,8 @@ window.TOP_ARTICLES = {
                 "personal growth & life philosophy",
                 "personal-growth-life-philosophy",
                 "philosophy",
-                "technology"
+                "technology",
+                "video-top-10"
               ],
               "alsoIn": [
                 "video-top-10"
@@ -13217,7 +13282,8 @@ window.TOP_ARTICLES = {
               "bestMoment": "analytisch",
               "tags": [
                 "ai ethics & society",
-                "programming & software"
+                "programming & software",
+                "video-top-10"
               ],
               "alsoIn": [
                 "video-top-10"
@@ -13230,6 +13296,880 @@ window.TOP_ARTICLES = {
   ],
   "catalog": {
     "items": [
+      {
+        "position": null,
+        "id": "01m05be2mdpdf3vg9xy5xr0kcz",
+        "title": "The Art of Donald McGill",
+        "author": "orwellfoundation.com",
+        "siteName": "The Orwell Foundation",
+        "category": "article",
+        "language": null,
+        "readingTime": "16 mins",
+        "readingMinutes": 16,
+        "wordCount": 4128,
+        "publishedDate": "2010-10-20",
+        "savedDate": "2026-08-16T13:16:03.085000+00:00",
+        "imageUrl": null,
+        "sourceUrl": "https://www.orwellfoundation.com/the-orwell-foundation/orwell/essays-and-other-works/the-art-of-donald-mcgill/",
+        "readwiseUrl": "https://read.readwise.io/read/01m05be2mdpdf3vg9xy5xr0kcz",
+        "summary": "This material remains under copyright in some jurisdictions, including the United States, and is reproduced here with the kind assistance of the Orwell Estate.  Who does not know the ‘comics’ of the cheap stationers’ windows, the penny or twopenny coloured postcards with their endless succession of fat women in tight bathing-dresses and their crude drawing...  <a class=\"excerpt-read-more\" href=\"https://www.orwellfoundation.com/the-orwell-foundation/orwell/essays-and-other-works/the-art-of-donald-mcgill/\" title=\"ReadThe Art of Donald McGill\">Read more »</a>",
+        "whyRead": "Raakt je interesse in cultuurgeschiedenis en Orwell als essayist — hij ontleedt hier op zijn kenmerkend scherpe, persoonlijke manier volkscultuur (komische ansichtkaarten) als spiegel van maatschappelijke moraal.",
+        "bestMoment": "ontspannen",
+        "tags": [
+          "arts & culture",
+          "philosophy",
+          "sociology & social structures"
+        ],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01m059vzb20f0sy9sr2h2140d5",
+        "title": "Your Questions Answered: Wigan Pier",
+        "author": "orwellfoundation.com",
+        "siteName": "The Orwell Foundation",
+        "category": "article",
+        "language": null,
+        "readingTime": "2 mins",
+        "readingMinutes": 2,
+        "wordCount": 352,
+        "publishedDate": "2011-01-30",
+        "savedDate": "2026-08-16T12:48:41.314000+00:00",
+        "imageUrl": null,
+        "sourceUrl": "https://www.orwellfoundation.com/the-orwell-foundation/orwell/essays-and-other-works/your-questions-answered-wigan-pier/",
+        "readwiseUrl": "https://read.readwise.io/read/01m059vzb20f0sy9sr2h2140d5",
+        "summary": "This is a transcript of a BBC Overseas Service broadcast, 2 December 1943 COLIN WILLS: I am going to try some more of these trick questions on somebody else in another programme. And now we’ve got time for just one more question, asked by Sergeant Salt and Signalman McGrath serving in India. They say: ‘How...  <a class=\"excerpt-read-more\" href=\"https://www.orwellfoundation.com/the-orwell-foundation/orwell/essays-and-other-works/your-questions-answered-wigan-pier/\" title=\"ReadYour Questions Answered: Wigan Pier\">Read more »</a>",
+        "whyRead": "Kort en luchtig, maar raakt je interesse in Orwells non-fictie en schrijfcraft — een BBC-radiofragment waarin hij zelf de mythe rond zijn beroemde boektitel ontkracht.",
+        "bestMoment": "ontspannen",
+        "tags": [
+          "arts & culture",
+          "history"
+        ],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01m059vwxfv3d1n8rterw19d6a",
+        "title": "You and the Atom Bomb",
+        "author": "orwellfoundation.com",
+        "siteName": "The Orwell Foundation",
+        "category": "article",
+        "language": null,
+        "readingTime": "6 mins",
+        "readingMinutes": 6,
+        "wordCount": 1493,
+        "publishedDate": "2011-10-19",
+        "savedDate": "2026-08-16T12:48:38.831000+00:00",
+        "imageUrl": null,
+        "sourceUrl": "https://www.orwellfoundation.com/the-orwell-foundation/orwell/essays-and-other-works/you-and-the-atom-bomb/",
+        "readwiseUrl": "https://read.readwise.io/read/01m059vwxfv3d1n8rterw19d6a",
+        "summary": "This material remains under copyright and is reproduced by kind permission of the Orwell Estate and Penguin Books. Considering how likely we all are to be blown to pieces by it within the next five years, the atomic bomb has not roused so much discussion as might have been expected. The newspapers have published numerous...  <a class=\"excerpt-read-more\" href=\"https://www.orwellfoundation.com/the-orwell-foundation/orwell/essays-and-other-works/you-and-the-atom-bomb/\" title=\"ReadYou and the Atom Bomb\">Read more »</a>",
+        "whyRead": "Raakt je interesse in politieke filosofie en geopolitieke analyse — geen gedateerd Koude Oorlog-stuk, maar een tijdloze these over hoe wapentechnologie machtsverhoudingen tussen staat en individu bepaalt.",
+        "bestMoment": "analytisch",
+        "tags": [
+          "history",
+          "political philosophy"
+        ],
+        "alsoIn": [
+          "aaa-short-top-100"
+        ],
+        "memberships": [
+          {
+            "familyId": "kort",
+            "size": "top-100",
+            "position": 65
+          }
+        ]
+      },
+      {
+        "position": null,
+        "id": "01m059vqea4t02392f7364m2jr",
+        "title": "The Spike",
+        "author": "orwellfoundation.com",
+        "siteName": "The Orwell Foundation",
+        "category": "article",
+        "language": null,
+        "readingTime": "13 mins",
+        "readingMinutes": 13,
+        "wordCount": 3423,
+        "publishedDate": "2011-09-30",
+        "savedDate": "2026-08-16T12:48:33.226000+00:00",
+        "imageUrl": null,
+        "sourceUrl": "https://www.orwellfoundation.com/the-orwell-foundation/orwell/essays-and-other-works/the-spike/",
+        "readwiseUrl": "https://read.readwise.io/read/01m059vqea4t02392f7364m2jr",
+        "summary": "This material remains under copyright and is reproduced by kind permission of the Orwell Estate and Penguin Books. It was late afternoon. Forty-nine of us, forty-eight men and one woman, lay on the green waiting for the spike to open. We were too tired to talk much. We just sprawled about exhaustedly, with home-made cigarettes...  <a class=\"excerpt-read-more\" href=\"https://www.orwellfoundation.com/the-orwell-foundation/orwell/essays-and-other-works/the-spike/\" title=\"ReadThe Spike\">Read more »</a>",
+        "whyRead": "Raakt je interesse in sociologie en het essay als schrijfvorm — vroeg, sterk staaltje van Orwells persoonlijke reportagestijl over armoede en vernedering, de basis voor Down and Out in Paris and London.",
+        "bestMoment": "reflectief",
+        "tags": [
+          "arts & culture",
+          "history",
+          "sociology & social structures"
+        ],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01m059vn29v5bjn4nbhe0efecg",
+        "title": "The Proletarian Writer",
+        "author": "orwellfoundation.com",
+        "siteName": "The Orwell Foundation",
+        "category": "article",
+        "language": null,
+        "readingTime": "11 mins",
+        "readingMinutes": 11,
+        "wordCount": 2883,
+        "publishedDate": "2010-12-09",
+        "savedDate": "2026-08-16T12:48:30.793000+00:00",
+        "imageUrl": null,
+        "sourceUrl": "https://www.orwellfoundation.com/the-orwell-foundation/orwell/essays-and-other-works/the-proletarian-writer/",
+        "readwiseUrl": "https://read.readwise.io/read/01m059vn29v5bjn4nbhe0efecg",
+        "summary": "\"...for there to be what could really be called a proletarian literature the proletariat would have to be the dominant class.\"",
+        "whyRead": "Raakt je interesse in politieke filosofie, sociologie en het essay als vorm — een radiodialoog waarin Orwell scherp ontleedt of er zoiets als \"proletarische literatuur\" kan bestaan.",
+        "bestMoment": "analytisch",
+        "tags": [
+          "arts & culture",
+          "political philosophy",
+          "sociology & social structures"
+        ],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01m059vjndfmzkwh9sphxzfhc6",
+        "title": "The Prevention of Literature",
+        "author": "orwellfoundation.com",
+        "siteName": "The Orwell Foundation",
+        "category": "article",
+        "language": null,
+        "readingTime": "22 mins",
+        "readingMinutes": 22,
+        "wordCount": 5754,
+        "publishedDate": null,
+        "savedDate": "2026-08-16T12:48:28.333000+00:00",
+        "imageUrl": "https://www.orwellfoundation.com/wp-content/uploads/2019/05/wallofnames.jpg",
+        "sourceUrl": "https://www.orwellfoundation.com/the-orwell-foundation/orwell/essays-and-other-works/the-prevention-of-literature/",
+        "readwiseUrl": "https://read.readwise.io/read/01m059vjndfmzkwh9sphxzfhc6",
+        "summary": "\"No tirades against ‘individualism’ and the ‘ivory tower’, no pious platitudes to the effect that ‘true individuality is only attained through identification with the community’, can get over the fact that a bought mind is a spoiled mind.\"",
+        "whyRead": "Raakt precies je interesse in totalitarisme en het essay als vorm — Orwell laat zien hoe intellectuele vrijheid wordt uitgehold, niet alleen door censuur maar door zelfcensuur en ideologische loyaliteit.",
+        "bestMoment": "analytisch",
+        "tags": [
+          "arts & culture",
+          "political philosophy",
+          "totalitarianism & fascism"
+        ],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01m059vg5da0cktz3bq2qqea4g",
+        "title": "Spilling the Spanish Beans",
+        "author": "orwellfoundation.com",
+        "siteName": "The Orwell Foundation",
+        "category": "article",
+        "language": null,
+        "readingTime": "12 mins",
+        "readingMinutes": 12,
+        "wordCount": 3062,
+        "publishedDate": "2012-07-27",
+        "savedDate": "2026-08-16T12:48:25.773000+00:00",
+        "imageUrl": null,
+        "sourceUrl": "https://www.orwellfoundation.com/the-orwell-foundation/orwell/essays-and-other-works/spilling-the-spanish-beans-2/",
+        "readwiseUrl": "https://read.readwise.io/read/01m059vg5da0cktz3bq2qqea4g",
+        "summary": "This material remains under copyright in some jurisdictions, including the US, and is reproduced here with the kind permission of the Orwell Estate. The Orwell Foundation is an independent charity – please consider making a donation or becoming a Friend of the Foundation to help us maintain these resources for readers everywhere.  I The Spanish war has probably...  <a class=\"excerpt-read-more\" href=\"https://www.orwellfoundation.com/the-orwell-foundation/orwell/essays-and-other-works/spilling-the-spanish-beans-2/\" title=\"ReadSpilling the Spanish Beans\">Read more »</a>",
+        "whyRead": "Raakt je interesse in politieke filosofie en de analyse van totalitarisme — Orwell ontleedt hoe communistische propaganda de Spaanse revolutie van binnenuit verstikte, een scherp staaltje ideeëngeschiedenis in de praktijk.",
+        "bestMoment": "analytisch",
+        "tags": [
+          "history",
+          "political philosophy",
+          "totalitarianism & fascism"
+        ],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01m059vdx0s3ff8xbj5eh1y9x3",
+        "title": "Some Thoughts on the Common Toad",
+        "author": "orwellfoundation.com",
+        "siteName": "The Orwell Foundation",
+        "category": "article",
+        "language": null,
+        "readingTime": "8 mins",
+        "readingMinutes": 8,
+        "wordCount": 1901,
+        "publishedDate": "2011-04-12",
+        "savedDate": "2026-08-16T12:48:23.456000+00:00",
+        "imageUrl": "https://www.orwellfoundation.com/wp-content/uploads/2020/03/IMG_3979-768x1024.jpg",
+        "sourceUrl": "https://www.orwellfoundation.com/the-orwell-foundation/orwell/essays-and-other-works/some-thoughts-on-the-common-toad/",
+        "readwiseUrl": "https://read.readwise.io/read/01m059vdx0s3ff8xbj5eh1y9x3",
+        "summary": "\"Is it wicked to take a pleasure in Spring and other seasonal changes?\"",
+        "whyRead": "Raakt je interesse in personal growth & life philosophy en essay schrijven als vorm — een klein, persoonlijk essay dat laat zien hoe Orwell politieke ernst combineert met puur, ongecompliceerd natuurplezier.",
+        "bestMoment": "ontspannen",
+        "tags": [
+          "arts & culture",
+          "personal growth & life philosophy"
+        ],
+        "alsoIn": [
+          "aaa-short-top-100"
+        ],
+        "memberships": [
+          {
+            "familyId": "kort",
+            "size": "top-100",
+            "position": 94
+          }
+        ]
+      },
+      {
+        "position": null,
+        "id": "01m059vbg9k6x4z8p6198n481b",
+        "title": "Second Thoughts on James Burnham",
+        "author": "orwellfoundation.com",
+        "siteName": "The Orwell Foundation",
+        "category": "article",
+        "language": null,
+        "readingTime": "34 mins",
+        "readingMinutes": 34,
+        "wordCount": 8830,
+        "publishedDate": "2010-11-30",
+        "savedDate": "2026-08-16T12:48:20.998000+00:00",
+        "imageUrl": null,
+        "sourceUrl": "https://www.orwellfoundation.com/the-orwell-foundation/orwell/essays-and-other-works/second-thoughts-on-james-burnham/",
+        "readwiseUrl": "https://read.readwise.io/read/01m059vbg9k6x4z8p6198n481b",
+        "summary": "\"It is curious that in all his talk about the struggle for power, Burnham never stops to ask why people want power.\"",
+        "whyRead": "Raakt direct je interesse in totalitarisme & fascisme en politieke filosofie — deze analyse van Burnhams \"managerial revolution\"-theorie is een blauwdruk voor Orwell's latere 1984 en een messcherpe ontleding van hoe machtsverering intellectuelen blind maakt voor hun eigen wensdenken.",
+        "bestMoment": "analytisch",
+        "tags": [
+          "political philosophy",
+          "totalitarianism & fascism"
+        ],
+        "alsoIn": [
+          "aaa-top-100"
+        ],
+        "memberships": [
+          {
+            "familyId": "algemeen",
+            "size": "top-100",
+            "position": 45
+          }
+        ]
+      },
+      {
+        "position": null,
+        "id": "01m059v98jpw8wgvff3t63dxm4",
+        "title": "Rudyard Kipling",
+        "author": "orwellfoundation.com",
+        "siteName": "The Orwell Foundation",
+        "category": "article",
+        "language": null,
+        "readingTime": "22 mins",
+        "readingMinutes": 22,
+        "wordCount": 5700,
+        "publishedDate": "2011-01-18",
+        "savedDate": "2026-08-16T12:48:18.706000+00:00",
+        "imageUrl": "https://www.orwellfoundation.com/wp-content/uploads/2019/07/burma.jpg",
+        "sourceUrl": "https://www.orwellfoundation.com/the-orwell-foundation/orwell/essays-and-other-works/rudyard-kipling/",
+        "readwiseUrl": "https://read.readwise.io/read/01m059v98jpw8wgvff3t63dxm4",
+        "summary": "\"Kipling is in the peculiar position of having been a byword for fifty years. During five literary generations every enlightened person has despised him, and at the end of that time nine-tenths of those enlightened persons are forgotten and Kipling is in some sense still there.\"",
+        "whyRead": "Raakt je interesse in politieke filosofie, ideologieën en essay/literatuurkritiek — Orwell's genuanceerde afrekening met Kipling is een meesterklasse in het scheiden van politieke afkeer en artistieke waardering.",
+        "bestMoment": "analytisch",
+        "tags": [
+          "arts & culture",
+          "political philosophy"
+        ],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01m059v708b9ey8tjyfycwr59j",
+        "title": "Reflections on Gandhi",
+        "author": "orwellfoundation.com",
+        "siteName": "The Orwell Foundation",
+        "category": "article",
+        "language": null,
+        "readingTime": "13 mins",
+        "readingMinutes": 13,
+        "wordCount": 3441,
+        "publishedDate": "2012-01-03",
+        "savedDate": "2026-08-16T12:48:16.392000+00:00",
+        "imageUrl": null,
+        "sourceUrl": "https://www.orwellfoundation.com/the-orwell-foundation/orwell/essays-and-other-works/reflections-on-gandhi/",
+        "readwiseUrl": "https://read.readwise.io/read/01m059v708b9ey8tjyfycwr59j",
+        "summary": "This material remains under copyright and is reproduced by kind permission of the Orwell Estate and Penguin Books. Saints should always be judged guilty until they are proved innocent, but the tests that have to be applied to them are not, of course, the same in all cases. In Gandhi’s case the questions one  feels...  <a class=\"excerpt-read-more\" href=\"https://www.orwellfoundation.com/the-orwell-foundation/orwell/essays-and-other-works/reflections-on-gandhi/\" title=\"ReadReflections on Gandhi\">Read more »</a>",
+        "whyRead": "Raakt je interesse in politieke filosofie en persoonlijke levensfilosofie — Orwell's ambivalente portret van Gandhi stelt een blijvend dilemma: is heiligheid verenigbaar met menselijkheid, en houdt geweldloosheid stand tegenover totalitarisme?",
+        "bestMoment": "kritisch",
+        "tags": [
+          "personal growth & life philosophy",
+          "political philosophy"
+        ],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01m059v4r9jj9vzx30nn7cs3sr",
+        "title": "Politics vs. Literature: An examination of Gulliver’s Travels",
+        "author": "orwellfoundation.com",
+        "siteName": "The Orwell Foundation",
+        "category": "article",
+        "language": null,
+        "readingTime": "30 mins",
+        "readingMinutes": 30,
+        "wordCount": 7790,
+        "publishedDate": "2011-10-11",
+        "savedDate": "2026-08-16T12:48:14.089000+00:00",
+        "imageUrl": null,
+        "sourceUrl": "https://www.orwellfoundation.com/the-orwell-foundation/orwell/essays-and-other-works/politics-vs-literature-an-examination-of-gullivers-travels/",
+        "readwiseUrl": "https://read.readwise.io/read/01m059v4r9jj9vzx30nn7cs3sr",
+        "summary": "\"What is the relationship between agreement with a writer's opinions, and enjoyment of his work?\"",
+        "whyRead": "Raakt je interesse in politieke filosofie en essay/literatuurkritiek als vorm — Orwell laat zien hoe politieke overtuiging, esthetisch oordeel en kunstwaarde onlosmakelijk verstrengeld zijn.",
+        "bestMoment": "analytisch",
+        "tags": [
+          "arts & culture",
+          "political philosophy"
+        ],
+        "alsoIn": [
+          "aaa-top-100"
+        ],
+        "memberships": [
+          {
+            "familyId": "algemeen",
+            "size": "top-100",
+            "position": 44
+          }
+        ]
+      },
+      {
+        "position": null,
+        "id": "01m059v21gaqg3ya0m36r03km4",
+        "title": "Politics and the English Language",
+        "author": "orwellfoundation.com",
+        "siteName": "The Orwell Foundation",
+        "category": "article",
+        "language": null,
+        "readingTime": "21 mins",
+        "readingMinutes": 21,
+        "wordCount": 5498,
+        "publishedDate": "2011-02-16",
+        "savedDate": "2026-08-16T12:48:11.312000+00:00",
+        "imageUrl": "https://www.orwellfoundation.com/wp-content/uploads/2011/02/Politics-and-the-English-Language-628x1024.jpg",
+        "sourceUrl": "https://www.orwellfoundation.com/the-orwell-foundation/orwell/essays-and-other-works/politics-and-the-english-language/",
+        "readwiseUrl": "https://read.readwise.io/read/01m059v21gaqg3ya0m36r03km4",
+        "summary": "\"Political language... is designed to make lies sound truthful and murder respectable, and to give an appearance of solidity to pure wind.\"",
+        "whyRead": "Raakt direct je interesse in essay schrijven als vorm/schrijfcraft én politieke filosofie — Orwell's beroemdste stijladvies is tegelijk een scherp politiek argument over hoe vage taal denken vervangt.",
+        "bestMoment": "analytisch",
+        "tags": [
+          "arts & culture",
+          "political philosophy"
+        ],
+        "alsoIn": [
+          "aaa-top-100"
+        ],
+        "memberships": [
+          {
+            "familyId": "algemeen",
+            "size": "top-100",
+            "position": 43
+          }
+        ]
+      },
+      {
+        "position": null,
+        "id": "01m059tzwnjdjtmteh5jpa7bxz",
+        "title": "Pleasure Spots",
+        "author": "orwellfoundation.com",
+        "siteName": "The Orwell Foundation",
+        "category": "article",
+        "language": null,
+        "readingTime": "6 mins",
+        "readingMinutes": 6,
+        "wordCount": 1581,
+        "publishedDate": "2011-06-08",
+        "savedDate": "2026-08-16T12:48:09.109000+00:00",
+        "imageUrl": null,
+        "sourceUrl": "https://www.orwellfoundation.com/the-orwell-foundation/orwell/essays-and-other-works/pleasure-spots/",
+        "readwiseUrl": "https://read.readwise.io/read/01m059tzwnjdjtmteh5jpa7bxz",
+        "summary": "This material remains under copyright and is reproduced by kind permission of the Orwell Estate and Penguin Books. Some months ago I cut out of a shiny magazine some paragraphs written by a female journalist and describing the pleasure resort of the future. She had recently been spending some time at Honolulu, where the rigours...  <a class=\"excerpt-read-more\" href=\"https://www.orwellfoundation.com/the-orwell-foundation/orwell/essays-and-other-works/pleasure-spots/\" title=\"ReadPleasure Spots\">Read more »</a>",
+        "whyRead": "Raakt je interesse in personal growth & life philosophy en de sociologie van vrije tijd — Orwell's scherpe blik op mechanisatie van plezier voelt verrassend actueel in een tijdperk van doomscrolling en constante prikkels.",
+        "bestMoment": "reflectief",
+        "tags": [
+          "arts & culture",
+          "personal growth & life philosophy",
+          "sociology & social structures"
+        ],
+        "alsoIn": [
+          "aaa-short-top-100"
+        ],
+        "memberships": [
+          {
+            "familyId": "kort",
+            "size": "top-100",
+            "position": 64
+          }
+        ]
+      },
+      {
+        "position": null,
+        "id": "01m059tvvs5m2bk6b68kyd7bay",
+        "title": "Notes on Nationalism",
+        "author": "orwellfoundation.com",
+        "siteName": "The Orwell Foundation",
+        "category": "article",
+        "language": null,
+        "readingTime": "31 mins",
+        "readingMinutes": 31,
+        "wordCount": 8065,
+        "publishedDate": "2011-04-25",
+        "savedDate": "2026-08-16T12:48:04.985000+00:00",
+        "imageUrl": null,
+        "sourceUrl": "https://www.orwellfoundation.com/the-orwell-foundation/orwell/essays-and-other-works/notes-on-nationalism/",
+        "readwiseUrl": "https://read.readwise.io/read/01m059tvvs5m2bk6b68kyd7bay",
+        "summary": "\"By ‘nationalism’ I mean first of all the habit of assuming that human beings can be classified like insects and that whole blocks of millions or tens of millions of people can be confidently labelled 'good' or 'bad'.\"",
+        "whyRead": "Raakt precies je interesse in politieke filosofie en totalitarisme — een van Orwells scherpste analyses, waarin hij nationalisme herdefinieert als een psychologisch mechanisme (machtshonger plus zelfbedrog) dat communisme, fascisme, pacifisme en zionisme onder één noemer brengt.",
+        "bestMoment": "analytisch",
+        "tags": [
+          "political philosophy",
+          "totalitarianism & fascism"
+        ],
+        "alsoIn": [
+          "aaa-top-100"
+        ],
+        "memberships": [
+          {
+            "familyId": "algemeen",
+            "size": "top-100",
+            "position": 42
+          }
+        ]
+      },
+      {
+        "position": null,
+        "id": "01m059tsa0jy2myj4kn804wky1",
+        "title": "Nonsense Poetry",
+        "author": "orwellfoundation.com",
+        "siteName": "The Orwell Foundation",
+        "category": "article",
+        "language": null,
+        "readingTime": "6 mins",
+        "readingMinutes": 6,
+        "wordCount": 1390,
+        "publishedDate": "2012-02-01",
+        "savedDate": "2026-08-16T12:48:02.368000+00:00",
+        "imageUrl": null,
+        "sourceUrl": "https://www.orwellfoundation.com/the-orwell-foundation/orwell/essays-and-other-works/nonsense-poetry/",
+        "readwiseUrl": "https://read.readwise.io/read/01m059tsa0jy2myj4kn804wky1",
+        "summary": "This material remains under copyright in some jurisdictions, including the US, and is reproduced here with the kind permission of the Orwell Estate. The Orwell Foundation is an independent charity – please consider making a donation or becoming a Friend of the Foundation to help us maintain these resources for readers everywhere.  In many languages, it...  <a class=\"excerpt-read-more\" href=\"https://www.orwellfoundation.com/the-orwell-foundation/orwell/essays-and-other-works/nonsense-poetry/\" title=\"ReadNonsense Poetry\">Read more »</a>",
+        "whyRead": "Raakt je interesse in cultuurkritiek en literaire lore — Orwell duikt in het genre nonsense-poëzie via Edward Lear, en ontdekt onderweg een verrassend politiek understatement over gehoorzaamheid aan autoriteit.",
+        "bestMoment": "ontspannen",
+        "tags": [
+          "arts & culture"
+        ],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01m059tpnqyq5yy3kq6xrmf1v5",
+        "title": "My Country Right or Left",
+        "author": "orwellfoundation.com",
+        "siteName": "The Orwell Foundation",
+        "category": "article",
+        "language": null,
+        "readingTime": "9 mins",
+        "readingMinutes": 9,
+        "wordCount": 2262,
+        "publishedDate": "2011-12-19",
+        "savedDate": "2026-08-16T12:47:59.671000+00:00",
+        "imageUrl": null,
+        "sourceUrl": "https://www.orwellfoundation.com/the-orwell-foundation/orwell/essays-and-other-works/my-country-right-or-left/",
+        "readwiseUrl": "https://read.readwise.io/read/01m059tpnqyq5yy3kq6xrmf1v5",
+        "summary": "\"Contrary to popular belief, the past was not more eventful than the present.\" (My Country Right or Left, Folios of New Writing, Autumn 1940)",
+        "whyRead": "Raakt je interesse in politieke filosofie en geschiedenis — Orwell ontleedt hier zijn eigen patriottisme als socialist en verbindt persoonlijke herinneringen aan WOI met zijn steun voor verzet tegen Hitler in WOII.",
+        "bestMoment": "reflectief",
+        "tags": [
+          "history",
+          "political philosophy"
+        ],
+        "alsoIn": [
+          "aaa-short-top-100"
+        ],
+        "memberships": [
+          {
+            "familyId": "kort",
+            "size": "top-100",
+            "position": 63
+          }
+        ]
+      },
+      {
+        "position": null,
+        "id": "01m059tkzd0ez80nnyx2a2t930",
+        "title": "Just Junk – But Who Could Resist It?",
+        "author": "orwellfoundation.com",
+        "siteName": "The Orwell Foundation",
+        "category": "article",
+        "language": null,
+        "readingTime": "5 mins",
+        "readingMinutes": 5,
+        "wordCount": 1064,
+        "publishedDate": "2011-06-06",
+        "savedDate": "2026-08-16T12:47:56.909000+00:00",
+        "imageUrl": null,
+        "sourceUrl": "https://www.orwellfoundation.com/the-orwell-foundation/orwell/essays-and-other-works/just-junk-but-who-could-resist-it/",
+        "readwiseUrl": "https://read.readwise.io/read/01m059tkzd0ez80nnyx2a2t930",
+        "summary": "\"I know a shop in Tottenham-Court road where I have never, over a period of many years, seen anything that was not offensively ugly...\"",
+        "whyRead": "Raakt je interesse in essayistiek en schrijfcraft — een luchtig, persoonlijk essay waarin Orwell laat zien hoe je van een alledaags onderwerp (rommelwinkels) een scherp geobserveerd stuk proza maakt.",
+        "bestMoment": "ontspannen",
+        "tags": [
+          "arts & culture"
+        ],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01m059thh2ytr4v45ebz778hxw",
+        "title": "In Front of Your Nose",
+        "author": "orwellfoundation.com",
+        "siteName": "The Orwell Foundation",
+        "category": "article",
+        "language": null,
+        "readingTime": "7 mins",
+        "readingMinutes": 7,
+        "wordCount": 1711,
+        "publishedDate": "2010-12-09",
+        "savedDate": "2026-08-16T12:47:54.402000+00:00",
+        "imageUrl": "https://www.orwellfoundation.com/wp-content/uploads/2020/12/NUJ.jpg",
+        "sourceUrl": "https://www.orwellfoundation.com/the-orwell-foundation/orwell/essays-and-other-works/in-front-of-your-nose/",
+        "readwiseUrl": "https://read.readwise.io/read/01m059thh2ytr4v45ebz778hxw",
+        "summary": "\"To see what is in front of one's nose needs a constant struggle.\"",
+        "whyRead": "Raakt je interesse in politieke filosofie en de psychologie van zelfbedrog — Orwell legt hier de kiem van \"doublethink\" uit 1984: hoe mensen tegenstrijdige overtuigingen tegelijk vasthouden zonder het te merken.",
+        "bestMoment": "kritisch",
+        "tags": [
+          "political philosophy",
+          "totalitarianism & fascism"
+        ],
+        "alsoIn": [
+          "aaa-top-100",
+          "aaa-short-top-100"
+        ],
+        "memberships": [
+          {
+            "familyId": "algemeen",
+            "size": "top-100",
+            "position": 100
+          },
+          {
+            "familyId": "kort",
+            "size": "top-100",
+            "position": 62
+          }
+        ]
+      },
+      {
+        "position": null,
+        "id": "01m059tf2ttw02jrmmm46cmhjk",
+        "title": "Good Bad Books",
+        "author": "orwellfoundation.com",
+        "siteName": "The Orwell Foundation",
+        "category": "article",
+        "language": null,
+        "readingTime": "6 mins",
+        "readingMinutes": 6,
+        "wordCount": 1413,
+        "publishedDate": "2011-06-24",
+        "savedDate": "2026-08-16T12:47:51.898000+00:00",
+        "imageUrl": null,
+        "sourceUrl": "https://www.orwellfoundation.com/the-orwell-foundation/orwell/essays-and-other-works/good-bad-books/",
+        "readwiseUrl": "https://read.readwise.io/read/01m059tf2ttw02jrmmm46cmhjk",
+        "summary": "This material remains under copyright in the United Kingdom, Europe and elsewhere, and is reproduced by kind permission of the Orwell Estate and Penguin Books. Not long ago a publisher commissioned me to write an introduction for a reprint of a novel by Leonard Merrick. This publishing house, it appears, is going to reissue a...  <a class=\"excerpt-read-more\" href=\"https://www.orwellfoundation.com/the-orwell-foundation/orwell/essays-and-other-works/good-bad-books/\" title=\"ReadGood Bad Books\">Read more »</a>",
+        "whyRead": "Raakt je interesse in schrijfcraft en cultuurkritiek — Orwell filosofeert waarom sommige \"slechte\" boeken overleven terwijl serieuze literatuur vergeten wordt, met scherpe observaties over smaak, vakmanschap en kunst.",
+        "bestMoment": "ontspannen",
+        "tags": [
+          "arts & culture",
+          "philosophy"
+        ],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01m059tcfrtmfeh03vn5mw27yn",
+        "title": "George Orwell to Victor Gollancz, 9 May 1937",
+        "author": "orwellfoundation.com",
+        "siteName": "The Orwell Foundation",
+        "category": "article",
+        "language": null,
+        "readingTime": "2 mins",
+        "readingMinutes": 2,
+        "wordCount": 411,
+        "publishedDate": "2011-01-30",
+        "savedDate": "2026-08-16T12:47:49.240000+00:00",
+        "imageUrl": null,
+        "sourceUrl": "https://www.orwellfoundation.com/the-orwell-foundation/orwell/essays-and-other-works/george-orwell-to-victor-gollancz-9-may-1937/",
+        "readwiseUrl": "https://read.readwise.io/read/01m059tcfrtmfeh03vn5mw27yn",
+        "summary": "\"The stuff appearing in the English papers is largely the most appalling lies – more I can’t say, owing to the censorship.\"",
+        "whyRead": "Raakt je interesse in geschiedenis en de ideeëngeschiedenis van totalitarisme — dit is een direct ooggetuigenverslag uit de Spaanse Burgeroorlog, geschreven vlak voor Orwell's verwonding, en de kiem van \"Homage to Catalonia\".",
+        "bestMoment": "reflectief",
+        "tags": [
+          "history",
+          "totalitarianism & fascism"
+        ],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01m059ta2jr7jstn7cdahr41yy",
+        "title": "George Orwell to Steven Runciman, August 1920",
+        "author": "orwellfoundation.com",
+        "siteName": "The Orwell Foundation",
+        "category": "article",
+        "language": null,
+        "readingTime": "3 mins",
+        "readingMinutes": 3,
+        "wordCount": 628,
+        "publishedDate": "2011-03-18",
+        "savedDate": "2026-08-16T12:47:46.770000+00:00",
+        "imageUrl": null,
+        "sourceUrl": "https://www.orwellfoundation.com/the-orwell-foundation/orwell/essays-and-other-works/george-orwell-to-steven-runciman-august-1920/",
+        "readwiseUrl": "https://read.readwise.io/read/01m059ta2jr7jstn7cdahr41yy",
+        "summary": "Grove Terrace        Polperro RSO[1]    Cornwall. My dear Runciman[2], I have a little spare time, and I feel I must tell you about my first adventure as an amateur tramp. Like most tramps I was driven to it. When I got to a wretched little place in Devonshire, – Seaton Junction, Mynors[3], who had to...  <a class=\"excerpt-read-more\" href=\"https://www.orwellfoundation.com/the-orwell-foundation/orwell/essays-and-other-works/george-orwell-to-steven-runciman-august-1920/\" title=\"ReadGeorge Orwell to Steven Runciman, August 1920\">Read more »</a>",
+        "whyRead": "Luchtig, persoonlijk jeugddocument (Orwell was zeventien) waarin de latere fascinatie met \"tramps\" en het leven aan de onderkant van de samenleving al kiemt — een leuke aanvulling op de tramp-reportage elders in deze partij.",
+        "bestMoment": "ontspannen",
+        "tags": [
+          "biography",
+          "history"
+        ],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01m059t7cjgvc214sac3e4z08x",
+        "title": "Freedom of the Park",
+        "author": "orwellfoundation.com",
+        "siteName": "The Orwell Foundation",
+        "category": "article",
+        "language": null,
+        "readingTime": "5 mins",
+        "readingMinutes": 5,
+        "wordCount": 1106,
+        "publishedDate": "2011-12-07",
+        "savedDate": "2026-08-16T12:47:44.018000+00:00",
+        "imageUrl": "https://www.orwellfoundation.com/wp-content/uploads/2019/01/Orwell-e1548403094796.jpg",
+        "sourceUrl": "https://www.orwellfoundation.com/the-orwell-foundation/orwell/essays-and-other-works/freedom-of-the-park/",
+        "readwiseUrl": "https://read.readwise.io/read/01m059t7cjgvc214sac3e4z08x",
+        "summary": "A few weeks ago, five people who were selling papers outside Hyde Park were arrested by the police for obstruction...",
+        "whyRead": "Kort maar scherp essay over persvrijheid en willekeurige politiehandhaving tegen linkse/anarchistische pamflettenverkopers — raakt je interesse in politieke filosofie en de vraag hoe vrijheid in de praktijk wordt gewaarborgd (of juist niet).",
+        "bestMoment": "kritisch",
+        "tags": [
+          "history",
+          "political philosophy"
+        ],
+        "alsoIn": [
+          "aaa-top-100",
+          "aaa-short-top-100"
+        ],
+        "memberships": [
+          {
+            "familyId": "algemeen",
+            "size": "top-100",
+            "position": 99
+          },
+          {
+            "familyId": "kort",
+            "size": "top-100",
+            "position": 61
+          }
+        ]
+      },
+      {
+        "position": null,
+        "id": "01m059t4kq0fgjsx21x28nbdqk",
+        "title": "Freedom and Happiness (Review of ‘We’ by Yevgeny Zamyatin)",
+        "author": "orwellfoundation.com",
+        "siteName": "The Orwell Foundation",
+        "category": "article",
+        "language": null,
+        "readingTime": "8 mins",
+        "readingMinutes": 8,
+        "wordCount": 2103,
+        "publishedDate": "2010-11-29",
+        "savedDate": "2026-08-16T12:47:41.175000+00:00",
+        "imageUrl": "https://www.orwellfoundation.com/wp-content/uploads/2020/11/Screenshot_2020-11-16-The-Orwell-Foundation-orwellfoundation-•-Instagram-photos-and-videos.png",
+        "sourceUrl": "https://www.orwellfoundation.com/the-orwell-foundation/orwell/essays-and-other-works/freedom-and-happiness-review-of-we-by-yevgeny-zamyatin/",
+        "readwiseUrl": "https://read.readwise.io/read/01m059t4kq0fgjsx21x28nbdqk",
+        "summary": "\"It is in effect a study of the Machine, the genie that man has thoughtlessly let out of its bottle and cannot put back again. This is a book to look out for when an English version appears.\"",
+        "whyRead": "Essentiële achtergrond bij 1984 — Orwell bespreekt Zamyatins \"We\", de dystopie die zowel Brave New World als later 1984 inspireerde, en raakt zo direct je interesse in totalitarisme en sciencefiction als vorm van politieke reflectie.",
+        "bestMoment": "analytisch",
+        "tags": [
+          "fiction",
+          "political philosophy",
+          "totalitarianism & fascism"
+        ],
+        "alsoIn": [
+          "aaa-top-100",
+          "aaa-short-top-100"
+        ],
+        "memberships": [
+          {
+            "familyId": "algemeen",
+            "size": "top-100",
+            "position": 98
+          },
+          {
+            "familyId": "kort",
+            "size": "top-100",
+            "position": 60
+          }
+        ]
+      },
+      {
+        "position": null,
+        "id": "01m059t227vbe5b84ps9k82zpr",
+        "title": "Confessions of a Book Reviewer",
+        "author": "orwellfoundation.com",
+        "siteName": "The Orwell Foundation",
+        "category": "article",
+        "language": null,
+        "readingTime": "7 mins",
+        "readingMinutes": 7,
+        "wordCount": 1673,
+        "publishedDate": "2011-06-24",
+        "savedDate": "2026-08-16T12:47:38.566000+00:00",
+        "imageUrl": null,
+        "sourceUrl": "https://www.orwellfoundation.com/the-orwell-foundation/orwell/essays-and-other-works/confessions-of-a-book-reviewer/",
+        "readwiseUrl": "https://read.readwise.io/read/01m059t227vbe5b84ps9k82zpr",
+        "summary": "\"The best practice, it has always seemed to me, would be simply to ignore the great majority of books and to give very long reviews – 1,000 words is a bare minimum – to the few that seem to matter.\"",
+        "whyRead": "Humoristisch maar herkenbaar essay over het métier van schrijven en recenseren — raakt je interesse in essayistiek en schrijfcraft, met Orwells kenmerkende zelfspot en scherpte.",
+        "bestMoment": "ontspannen",
+        "tags": [
+          "arts & culture",
+          "writing craft"
+        ],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01m059szgmq8b5egbkgk1xe1rd",
+        "title": "Arthur Koestler",
+        "author": "orwellfoundation.com",
+        "siteName": "The Orwell Foundation",
+        "category": "article",
+        "language": null,
+        "readingTime": "18 mins",
+        "readingMinutes": 18,
+        "wordCount": 4762,
+        "publishedDate": "2011-02-14",
+        "savedDate": "2026-08-16T12:47:35.956000+00:00",
+        "imageUrl": null,
+        "sourceUrl": "https://www.orwellfoundation.com/the-orwell-foundation/orwell/essays-and-other-works/arthur-koestler/",
+        "readwiseUrl": "https://read.readwise.io/read/01m059szgmq8b5egbkgk1xe1rd",
+        "summary": "Masha Karp: Arthur Koestler – 20th century man (openDemocracy) Robert McCrum: The double life of Arthur Koestler, intellectual and sexual adventurer (The Observer) Will Skidelsky: Arthur Koestler – flawed crusader (The Observer) Will Skidelsky: The extraordinary Arthur Koestler (The Guardian) This material remains under copyright in some jurisdictions including the United States and is reproduced...  <a class=\"excerpt-read-more\" href=\"https://www.orwellfoundation.com/the-orwell-foundation/orwell/essays-and-other-works/arthur-koestler/\" title=\"ReadArthur Koestler\">Read more »</a>",
+        "whyRead": "Literaire en politiek-filosofische analyse van Arthur Koestlers werk (o.a. Darkness at Noon) die precies raakt aan je interesse in totalitarisme, revolutie en de vraag waarom mensen valse bekentenissen afleggen onder een dictatuur.",
+        "bestMoment": "analytisch",
+        "tags": [
+          "arts & culture",
+          "political philosophy",
+          "totalitarianism & fascism"
+        ],
+        "alsoIn": [
+          "aaa-top-100"
+        ],
+        "memberships": [
+          {
+            "familyId": "algemeen",
+            "size": "top-100",
+            "position": 41
+          }
+        ]
+      },
+      {
+        "position": null,
+        "id": "01m059sw0ac1kmzc8gm2tnagny",
+        "title": "Antisemitism in Britain",
+        "author": "orwellfoundation.com",
+        "siteName": "The Orwell Foundation",
+        "category": "article",
+        "language": null,
+        "readingTime": "15 mins",
+        "readingMinutes": 15,
+        "wordCount": 3934,
+        "publishedDate": "2012-01-27",
+        "savedDate": "2026-08-16T12:47:32.363000+00:00",
+        "imageUrl": null,
+        "sourceUrl": "https://www.orwellfoundation.com/the-orwell-foundation/orwell/essays-and-other-works/antisemitism-in-britain/",
+        "readwiseUrl": "https://read.readwise.io/read/01m059sw0ac1kmzc8gm2tnagny",
+        "summary": "\"It will be seen, therefore that the starting point for any investigation of antisemitism should not be ‘Why does this obviously irrational belief appeal to other people?’ but ‘Why does antisemitism appeal to me? What is there about it that I feel to be true?’\"",
+        "whyRead": "Raakt direct je interesse in politieke filosofie en nationalisme — Orwell ontleedt antisemitisme niet als incident maar als symptoom van een dieperliggende, universele ziekte: nationalisme.",
+        "bestMoment": "analytisch",
+        "tags": [
+          "political philosophy",
+          "totalitarianism & fascism"
+        ],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01m059sskxhhg3mfe39qs6r40x",
+        "title": "A Day in the Life of a Tramp",
+        "author": "orwellfoundation.com",
+        "siteName": "The Orwell Foundation",
+        "category": "article",
+        "language": null,
+        "readingTime": "12 mins",
+        "readingMinutes": 12,
+        "wordCount": 2923,
+        "publishedDate": "2011-09-30",
+        "savedDate": "2026-08-16T12:47:29.915000+00:00",
+        "imageUrl": null,
+        "sourceUrl": "https://www.orwellfoundation.com/the-orwell-foundation/orwell/essays-and-other-works/a-day-in-the-life-of-a-tramp/",
+        "readwiseUrl": "https://read.readwise.io/read/01m059sskxhhg3mfe39qs6r40x",
+        "summary": "George Orwell: Down and Out in Paris and London George Orwell: Beggars in London (Le Progrès Civique, 1929) This material remains under copyright and is reproduced by kind permission of the Orwell Estate and Penguin Books. First, what is a tramp?[1] A tramp is a native English species.  These are his distinguishing characteristics:  he has no money,...  <a class=\"excerpt-read-more\" href=\"https://www.orwellfoundation.com/the-orwell-foundation/orwell/essays-and-other-works/a-day-in-the-life-of-a-tramp/\" title=\"ReadA Day in the Life of a Tramp\">Read more »</a>",
+        "whyRead": "Vroege Orwell-reportage (1929) die raakt aan je interesse in sociologie en de geschiedenis van armoede in Engeland — een feitelijk, ongefilterd portret van de working poor van vóór \"Down and Out in Paris and London\".",
+        "bestMoment": "kritisch",
+        "tags": [
+          "history",
+          "sociology & social structures"
+        ],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01m05875k9gghhk1s1wwtpq5nj",
+        "title": "Full Product: How to master any craft in 3-5 years (an autodidact's guide)",
+        "author": "Sam @ Knowledge Lust",
+        "siteName": "Substack",
+        "category": "email",
+        "language": null,
+        "readingTime": "1 hr 15 mins",
+        "readingMinutes": 75,
+        "wordCount": 19762,
+        "publishedDate": "2026-08-16",
+        "savedDate": "2026-08-16T12:19:51.017000+00:00",
+        "imageUrl": null,
+        "sourceUrl": "mailto:reader-forwarded-email/7ea6906d55dd3f1fac6f7faa0b9637dd",
+        "readwiseUrl": "https://read.readwise.io/read/01m05875k9gghhk1s1wwtpq5nj",
+        "summary": "I don’t feel embarrassed saying this. No one makes fun of you for wanting to be a great parent.",
+        "whyRead": "Raakt je kerninteresse in PKM en zelfgestuurd leren — een uitgebreide, persoonlijke gids (20.000+ woorden) over hoe je jezelf een ambacht aanleert, geschreven door iemand die het zelf deed (van amateur-schrijver tot fulltime auteur).",
+        "bestMoment": "leergierig",
+        "tags": [
+          "learning & meta-learning",
+          "personal growth & life philosophy"
+        ],
+        "alsoIn": [],
+        "memberships": []
+      },
       {
         "position": null,
         "id": "01m03kq3qr8qy899n1ka68ftep",
@@ -13256,6 +14196,40 @@ window.TOP_ARTICLES = {
         ],
         "alsoIn": [],
         "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01m03b0vhwd52bhh3rdjhdafv2",
+        "title": "Why I Write",
+        "author": "The Orwell Foundation",
+        "siteName": "The Orwell Foundation",
+        "category": "article",
+        "language": null,
+        "readingTime": "11 mins",
+        "readingMinutes": 11,
+        "wordCount": 2773,
+        "publishedDate": "2011-06-03",
+        "savedDate": "2026-08-16T12:48:36.068000+00:00",
+        "imageUrl": "",
+        "sourceUrl": "https://www.orwellfoundation.com/the-orwell-foundation/orwell/essays-and-other-works/why-i-write/",
+        "readwiseUrl": "https://read.readwise.io/read/01m03b0vhwd52bhh3rdjhdafv2",
+        "summary": "\"What I have most wanted to do throughout the past ten years is to make political writing into an art. My starting point is always a feeling of partisanship, a sense of injustice.\"",
+        "whyRead": "Orwells klassieke essay over de drijfveren achter schrijven. Onmisbaar als tegengewicht voor instrumenteel schrijvadvies en direct relevant voor je interesse in literatuur en denken.",
+        "bestMoment": "reflectief",
+        "tags": [
+          "arts & culture",
+          "political philosophy"
+        ],
+        "alsoIn": [
+          "aaa-top-100"
+        ],
+        "memberships": [
+          {
+            "familyId": "algemeen",
+            "size": "top-100",
+            "position": 46
+          }
+        ]
       },
       {
         "position": null,
@@ -13447,7 +14421,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 91
+            "position": 97
           },
           {
             "familyId": "kort",
@@ -13549,7 +14523,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 90
+            "position": 96
           },
           {
             "familyId": "kort",
@@ -13720,7 +14694,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 89
+            "position": 95
           },
           {
             "familyId": "kort",
@@ -13873,7 +14847,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 88
+            "position": 94
           },
           {
             "familyId": "nederlands",
@@ -13961,7 +14935,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 87
+            "position": 93
           },
           {
             "familyId": "kort",
@@ -14208,16 +15182,8 @@ window.TOP_ARTICLES = {
           "philosophy",
           "sociology & social structures"
         ],
-        "alsoIn": [
-          "aaa-short-top-100"
-        ],
-        "memberships": [
-          {
-            "familyId": "kort",
-            "size": "top-100",
-            "position": 95
-          }
-        ]
+        "alsoIn": [],
+        "memberships": []
       },
       {
         "position": null,
@@ -14358,7 +15324,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 87
+            "position": 93
           }
         ]
       },
@@ -14393,7 +15359,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 86
+            "position": 92
           },
           {
             "familyId": "kort",
@@ -14432,7 +15398,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 85
+            "position": 91
           }
         ]
       },
@@ -14459,7 +15425,8 @@ window.TOP_ARTICLES = {
           "",
           "arts & culture",
           "fiction",
-          "later"
+          "later",
+          "light-reading"
         ],
         "alsoIn": [
           "aaa-luchtig-top-100"
@@ -14521,7 +15488,8 @@ window.TOP_ARTICLES = {
           "arts & culture",
           "fiction",
           "history",
-          "later"
+          "later",
+          "light-reading"
         ],
         "alsoIn": [
           "aaa-luchtig-top-100"
@@ -14583,6 +15551,7 @@ window.TOP_ARTICLES = {
         "tags": [
           "ai ethics & society",
           "arts & culture",
+          "light-reading",
           "sociology & social structures"
         ],
         "alsoIn": [
@@ -14970,7 +15939,8 @@ window.TOP_ARTICLES = {
         "whyRead": "Raakt je interesse in kunst & cultuur — een scherpe recensie van Emily Wilson (vertaler van de Odyssee) over Nolans verfilming, die de spanning tussen spektakel en de morele complexiteit van het origineel blootlegt.",
         "bestMoment": "ontspannen",
         "tags": [
-          "arts & culture"
+          "arts & culture",
+          "light-reading"
         ],
         "alsoIn": [
           "aaa-luchtig-top-100"
@@ -15092,7 +16062,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 86
+            "position": 92
           }
         ]
       },
@@ -15179,7 +16149,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 84
+            "position": 90
           },
           {
             "familyId": "kort",
@@ -15219,7 +16189,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 83
+            "position": 89
           },
           {
             "familyId": "kort",
@@ -15249,7 +16219,8 @@ window.TOP_ARTICLES = {
         "bestMoment": "ontspannen",
         "tags": [
           "arts & culture",
-          "history"
+          "history",
+          "light-reading"
         ],
         "alsoIn": [
           "aaa-luchtig-top-100"
@@ -15310,6 +16281,7 @@ window.TOP_ARTICLES = {
         "bestMoment": "geconcentreerd",
         "tags": [
           "fiction",
+          "pdf-top-10",
           "philosophy",
           "political philosophy"
         ],
@@ -15366,7 +16338,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 82
+            "position": 88
           },
           {
             "familyId": "nederlands",
@@ -15417,6 +16389,7 @@ window.TOP_ARTICLES = {
         "tags": [
           "fiction",
           "history",
+          "light-reading",
           "philosophy"
         ],
         "alsoIn": [
@@ -15580,7 +16553,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 81
+            "position": 87
           },
           {
             "familyId": "kort",
@@ -15742,7 +16715,6 @@ window.TOP_ARTICLES = {
         ],
         "alsoIn": [
           "aaa-dutch-top-100",
-          "aaa-short-top-100",
           "aaa-short-dutch-top-10",
           "aaa-short-dutch-top-100"
         ],
@@ -15751,11 +16723,6 @@ window.TOP_ARTICLES = {
             "familyId": "nederlands",
             "size": "top-100",
             "position": 14
-          },
-          {
-            "familyId": "kort",
-            "size": "top-100",
-            "position": 94
           },
           {
             "familyId": "kort-nederlands",
@@ -15875,7 +16842,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 80
+            "position": 86
           },
           {
             "familyId": "kort",
@@ -16110,7 +17077,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 85
+            "position": 91
           }
         ]
       },
@@ -16243,7 +17210,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 79
+            "position": 85
           },
           {
             "familyId": "kort",
@@ -16339,7 +17306,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 78
+            "position": 84
           },
           {
             "familyId": "kort",
@@ -16839,7 +17806,8 @@ window.TOP_ARTICLES = {
           "personal growth & life philosophy",
           "personal-growth-life-philosophy",
           "philosophy",
-          "technology"
+          "technology",
+          "video-top-10"
         ],
         "alsoIn": [
           "video-top-10",
@@ -16925,7 +17893,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 93
+            "position": 100
           }
         ]
       },
@@ -16990,7 +17958,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 77
+            "position": 83
           },
           {
             "familyId": "kort",
@@ -17256,7 +18224,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 92
+            "position": 99
           }
         ]
       },
@@ -17291,7 +18259,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 76
+            "position": 82
           },
           {
             "familyId": "kort",
@@ -17333,7 +18301,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 75
+            "position": 81
           },
           {
             "familyId": "kort",
@@ -17374,7 +18342,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 91
+            "position": 98
           }
         ]
       },
@@ -17534,7 +18502,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 74
+            "position": 80
           },
           {
             "familyId": "kort",
@@ -17930,7 +18898,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 73
+            "position": 79
           },
           {
             "familyId": "kort",
@@ -18250,6 +19218,7 @@ window.TOP_ARTICLES = {
         "tags": [
           "arts & culture",
           "history",
+          "light-reading",
           "personal growth & life philosophy"
         ],
         "alsoIn": [
@@ -18320,7 +19289,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 90
+            "position": 97
           },
           {
             "familyId": "kort-nederlands",
@@ -18445,7 +19414,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 72
+            "position": 78
           }
         ]
       },
@@ -18540,7 +19509,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 83
+            "position": 89
           }
         ]
       },
@@ -18629,7 +19598,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 82
+            "position": 88
           }
         ]
       },
@@ -18681,6 +19650,7 @@ window.TOP_ARTICLES = {
         "bestMoment": "ontspannen",
         "tags": [
           "learning & meta-learning",
+          "light-reading",
           "personal growth & life philosophy"
         ],
         "alsoIn": [
@@ -18806,7 +19776,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 71
+            "position": 77
           }
         ]
       },
@@ -18842,7 +19812,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 70
+            "position": 76
           },
           {
             "familyId": "kort",
@@ -18990,7 +19960,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 69
+            "position": 75
           },
           {
             "familyId": "kort",
@@ -19093,7 +20063,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 68
+            "position": 74
           },
           {
             "familyId": "kort",
@@ -19323,7 +20293,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 67
+            "position": 73
           },
           {
             "familyId": "kort",
@@ -19493,6 +20463,7 @@ window.TOP_ARTICLES = {
         "tags": [
           "arts & culture",
           "fiction",
+          "light-reading",
           "sociology & social structures"
         ],
         "alsoIn": [
@@ -19514,7 +20485,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 81
+            "position": 87
           },
           {
             "familyId": "kort-nederlands",
@@ -19829,7 +20800,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 66
+            "position": 72
           },
           {
             "familyId": "kort",
@@ -20007,7 +20978,8 @@ window.TOP_ARTICLES = {
         "tags": [
           "ai ethics & society",
           "business & startups",
-          "technology"
+          "technology",
+          "video-top-10"
         ],
         "alsoIn": [
           "video-top-10",
@@ -20832,7 +21804,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 80
+            "position": 86
           }
         ]
       },
@@ -20868,7 +21840,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 79
+            "position": 85
           }
         ]
       },
@@ -20904,7 +21876,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 89
+            "position": 96
           }
         ]
       },
@@ -20993,7 +21965,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 78
+            "position": 84
           }
         ]
       },
@@ -21249,6 +22221,7 @@ window.TOP_ARTICLES = {
         "bestMoment": "ontspannen",
         "tags": [
           "behavioral psychology & coaching",
+          "light-reading",
           "personal growth & life philosophy",
           "sociology & social structures"
         ],
@@ -21354,7 +22327,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 88
+            "position": 95
           }
         ]
       },
@@ -21472,7 +22445,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 65
+            "position": 71
           },
           {
             "familyId": "kort",
@@ -21567,6 +22540,7 @@ window.TOP_ARTICLES = {
         "tags": [
           "arts & culture",
           "fantasy & science fiction",
+          "light-reading",
           "philosophy"
         ],
         "alsoIn": [
@@ -21655,7 +22629,8 @@ window.TOP_ARTICLES = {
         "tags": [
           "arts & culture",
           "geography & maps",
-          "history"
+          "history",
+          "light-reading"
         ],
         "alsoIn": [
           "aaa-luchtig-top-100"
@@ -21700,7 +22675,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 64
+            "position": 70
           },
           {
             "familyId": "kort",
@@ -21865,6 +22840,7 @@ window.TOP_ARTICLES = {
         "bestMoment": "kritisch",
         "tags": [
           "ai ethics & society",
+          "pdf-top-10",
           "programming & software",
           "sociology & inequality"
         ],
@@ -21970,7 +22946,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 63
+            "position": 69
           }
         ]
       },
@@ -22041,7 +23017,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 62
+            "position": 68
           },
           {
             "familyId": "kort",
@@ -22305,7 +23281,8 @@ window.TOP_ARTICLES = {
         "bestMoment": "ontspannen",
         "tags": [
           "food & cooking",
-          "health & wellness"
+          "health & wellness",
+          "light-reading"
         ],
         "alsoIn": [
           "aaa-luchtig-top-100"
@@ -22652,7 +23629,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 77
+            "position": 83
           }
         ]
       },
@@ -22688,7 +23665,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 61
+            "position": 67
           },
           {
             "familyId": "kort",
@@ -22728,7 +23705,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 76
+            "position": 82
           }
         ]
       },
@@ -22765,7 +23742,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 60
+            "position": 66
           },
           {
             "familyId": "kort",
@@ -22922,7 +23899,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 59
+            "position": 65
           },
           {
             "familyId": "kort",
@@ -23033,6 +24010,7 @@ window.TOP_ARTICLES = {
         "tags": [
           "current affairs & politics",
           "economics",
+          "light-reading",
           "sociology & inequality"
         ],
         "alsoIn": [
@@ -23117,7 +24095,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 58
+            "position": 64
           },
           {
             "familyId": "kort",
@@ -23246,7 +24224,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 57
+            "position": 63
           },
           {
             "familyId": "kort",
@@ -23340,7 +24318,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 75
+            "position": 81
           }
         ]
       },
@@ -23437,7 +24415,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 74
+            "position": 80
           }
         ]
       },
@@ -23463,7 +24441,8 @@ window.TOP_ARTICLES = {
         "tags": [
           "ai & machine learning",
           "ai ethics & society",
-          "cognitive science"
+          "cognitive science",
+          "video-top-10"
         ],
         "alsoIn": [
           "video-top-10",
@@ -23619,6 +24598,7 @@ window.TOP_ARTICLES = {
         "tags": [
           "arts & culture",
           "history",
+          "light-reading",
           "political philosophy"
         ],
         "alsoIn": [
@@ -23658,6 +24638,7 @@ window.TOP_ARTICLES = {
         "whyRead": "Raakt je interesse in filosofie en gedragspsychologie — Maslow's grondleggende werk over menselijke motivatie en de hiërarchie van behoeften. Een van de meest invloedrijke psychologieboeken van de 20e eeuw, en de basis voor vrijwel alle latere humanistische psychologie.",
         "bestMoment": "analytisch",
         "tags": [
+          "pdf-top-10",
           "philosophy",
           "psychology & behavior"
         ],
@@ -24070,7 +25051,8 @@ window.TOP_ARTICLES = {
         "tags": [
           "ai & machine learning",
           "arts & culture",
-          "programming & software"
+          "programming & software",
+          "video-top-10"
         ],
         "alsoIn": [
           "video-top-10",
@@ -24246,6 +25228,7 @@ window.TOP_ARTICLES = {
         "tags": [
           "arts & culture",
           "history",
+          "light-reading",
           "political philosophy"
         ],
         "alsoIn": [
@@ -24529,7 +25512,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 56
+            "position": 62
           },
           {
             "familyId": "nederlands",
@@ -24698,6 +25681,7 @@ window.TOP_ARTICLES = {
         "whyRead": "Raakt je interesse in filosofie, AI-ethiek en maatschappij: Heidegger biedt een onmisbare taal om technologie niet als neutraal gereedschap maar als wereldbeeld te onderzoeken. Zijn onderscheid tussen poiesis en Enframing maakt hedendaagse AI-, data- en efficiëntielogica scherper bespreekbaar.",
         "bestMoment": "analytisch",
         "tags": [
+          "pdf-top-10",
           "philosophy",
           "technology"
         ],
@@ -24738,6 +25722,7 @@ window.TOP_ARTICLES = {
         "whyRead": "Raakt je interesse in technologiekritiek — Wendell Berry's iconische essay waarom hij geen computer koopt: een verdediging van eenvoud, lokale economie en ambacht.",
         "bestMoment": "reflectief",
         "tags": [
+          "pdf-top-10",
           "philosophy",
           "programming & software"
         ],
@@ -24778,6 +25763,7 @@ window.TOP_ARTICLES = {
         "whyRead": "Raakt je interesse in technologiekritiek en filosofie — Berry's antwoord op feministische critica van zijn 'no computer'-essay; een bredere verdediging van zijn wereldvisie.",
         "bestMoment": "analytisch",
         "tags": [
+          "pdf-top-10",
           "philosophy",
           "programming & software"
         ],
@@ -24819,6 +25805,7 @@ window.TOP_ARTICLES = {
         "bestMoment": "analytisch",
         "tags": [
           "arts & culture",
+          "pdf-top-10",
           "philosophy",
           "political philosophy"
         ],
@@ -24871,7 +25858,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 55
+            "position": 61
           },
           {
             "familyId": "kort",
@@ -24926,6 +25913,7 @@ window.TOP_ARTICLES = {
         "whyRead": "Raakt je interesse in filosofie en politieke/morele theorie: Murdoch verschuift ethiek van autonome wil naar aandacht, werkelijkheid en zelfoverstijging. Deze lange, uitzonderlijk rijke tekst verbindt Plato, kunst, liefde en nederigheid tot een bruikbaar tegenbeeld van individualistische moraal.",
         "bestMoment": "geconcentreerd",
         "tags": [
+          "pdf-top-10",
           "philosophy"
         ],
         "alsoIn": [
@@ -24976,7 +25964,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 73
+            "position": 79
           }
         ]
       },
@@ -25070,6 +26058,7 @@ window.TOP_ARTICLES = {
         "tags": [
           "arts & culture",
           "learning & meta-learning",
+          "light-reading",
           "sociology & inequality"
         ],
         "alsoIn": [
@@ -25120,7 +26109,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 54
+            "position": 60
           },
           {
             "familyId": "kort",
@@ -25160,7 +26149,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 72
+            "position": 78
           }
         ]
       },
@@ -25195,7 +26184,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 71
+            "position": 77
           }
         ]
       },
@@ -25248,7 +26237,8 @@ window.TOP_ARTICLES = {
         "tags": [
           "philosophy",
           "political philosophy",
-          "sociology & inequality"
+          "sociology & inequality",
+          "video-top-10"
         ],
         "alsoIn": [
           "video-top-10",
@@ -25288,7 +26278,8 @@ window.TOP_ARTICLES = {
         "bestMoment": "geconcentreerd",
         "tags": [
           "personal growth & life philosophy",
-          "philosophy"
+          "philosophy",
+          "video-top-10"
         ],
         "alsoIn": [
           "video-top-10",
@@ -25424,7 +26415,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 84
+            "position": 90
           }
         ]
       },
@@ -25599,6 +26590,7 @@ window.TOP_ARTICLES = {
         "tags": [
           "games & game studies",
           "health & wellness",
+          "light-reading",
           "psychology & behavior"
         ],
         "alsoIn": [
@@ -25789,7 +26781,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 70
+            "position": 76
           }
         ]
       },
@@ -26075,7 +27067,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 53
+            "position": 59
           },
           {
             "familyId": "kort",
@@ -26228,7 +27220,8 @@ window.TOP_ARTICLES = {
         "tags": [
           "arts & culture",
           "history",
-          "philosophy"
+          "philosophy",
+          "video-top-10"
         ],
         "alsoIn": [
           "video-top-10",
@@ -26306,7 +27299,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 52
+            "position": 58
           },
           {
             "familyId": "kort",
@@ -26336,7 +27329,8 @@ window.TOP_ARTICLES = {
         "bestMoment": "ontspannen",
         "tags": [
           "arts & culture",
-          "internet & platforms"
+          "internet & platforms",
+          "light-reading"
         ],
         "alsoIn": [
           "aaa-luchtig-top-100"
@@ -26371,7 +27365,8 @@ window.TOP_ARTICLES = {
         "tags": [
           "fiction",
           "history",
-          "learning & meta-learning"
+          "learning & meta-learning",
+          "light-reading"
         ],
         "alsoIn": [
           "aaa-luchtig-top-10",
@@ -26510,7 +27505,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 51
+            "position": 57
           },
           {
             "familyId": "kort",
@@ -26551,7 +27546,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 50
+            "position": 56
           },
           {
             "familyId": "kort",
@@ -26591,7 +27586,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 69
+            "position": 75
           }
         ]
       },
@@ -26924,7 +27919,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 67
+            "position": 73
           }
         ]
       },
@@ -27012,7 +28007,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 66
+            "position": 72
           }
         ]
       },
@@ -27102,7 +28097,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 49
+            "position": 55
           },
           {
             "familyId": "kort",
@@ -27214,16 +28209,8 @@ window.TOP_ARTICLES = {
           "political philosophy",
           "sociology & social structures"
         ],
-        "alsoIn": [
-          "aaa-top-100"
-        ],
-        "memberships": [
-          {
-            "familyId": "algemeen",
-            "size": "top-100",
-            "position": 100
-          }
-        ]
+        "alsoIn": [],
+        "memberships": []
       },
       {
         "position": null,
@@ -27250,19 +28237,13 @@ window.TOP_ARTICLES = {
           "sociology & inequality"
         ],
         "alsoIn": [
-          "aaa-top-100",
           "aaa-short-top-100"
         ],
         "memberships": [
           {
-            "familyId": "algemeen",
-            "size": "top-100",
-            "position": 99
-          },
-          {
             "familyId": "kort",
             "size": "top-100",
-            "position": 65
+            "position": 71
           }
         ]
       },
@@ -27430,7 +28411,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 68
+            "position": 74
           }
         ]
       },
@@ -27466,7 +28447,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 48
+            "position": 54
           },
           {
             "familyId": "kort",
@@ -27755,7 +28736,8 @@ window.TOP_ARTICLES = {
         "tags": [
           "ai & machine learning",
           "learning & meta-learning",
-          "programming & software"
+          "programming & software",
+          "video-top-10"
         ],
         "alsoIn": [
           "video-top-10",
@@ -27795,7 +28777,8 @@ window.TOP_ARTICLES = {
         "bestMoment": "leergierig",
         "tags": [
           "ai & machine learning",
-          "learning & meta-learning"
+          "learning & meta-learning",
+          "video-top-10"
         ],
         "alsoIn": [
           "video-top-10",
@@ -27863,16 +28846,10 @@ window.TOP_ARTICLES = {
           "political philosophy"
         ],
         "alsoIn": [
-          "aaa-top-100",
           "aaa-dutch-top-10",
           "aaa-dutch-top-100"
         ],
         "memberships": [
-          {
-            "familyId": "algemeen",
-            "size": "top-100",
-            "position": 98
-          },
           {
             "familyId": "nederlands",
             "size": "top-10",
@@ -27997,16 +28974,8 @@ window.TOP_ARTICLES = {
           "economics",
           "philosophy"
         ],
-        "alsoIn": [
-          "aaa-short-top-100"
-        ],
-        "memberships": [
-          {
-            "familyId": "kort",
-            "size": "top-100",
-            "position": 100
-          }
-        ]
+        "alsoIn": [],
+        "memberships": []
       },
       {
         "position": null,
@@ -28040,7 +29009,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 47
+            "position": 53
           },
           {
             "familyId": "kort",
@@ -28169,7 +29138,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 46
+            "position": 52
           }
         ]
       },
@@ -28198,19 +29167,13 @@ window.TOP_ARTICLES = {
           "writing & essays"
         ],
         "alsoIn": [
-          "aaa-top-100",
           "aaa-short-top-100"
         ],
         "memberships": [
           {
-            "familyId": "algemeen",
-            "size": "top-100",
-            "position": 97
-          },
-          {
             "familyId": "kort",
             "size": "top-100",
-            "position": 64
+            "position": 70
           }
         ]
       },
@@ -28275,7 +29238,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 45
+            "position": 51
           },
           {
             "familyId": "nederlands",
@@ -28355,16 +29318,10 @@ window.TOP_ARTICLES = {
           "political philosophy"
         ],
         "alsoIn": [
-          "aaa-top-100",
           "aaa-dutch-top-10",
           "aaa-dutch-top-100"
         ],
         "memberships": [
-          {
-            "familyId": "algemeen",
-            "size": "top-100",
-            "position": 96
-          },
           {
             "familyId": "nederlands",
             "size": "top-10",
@@ -28516,19 +29473,13 @@ window.TOP_ARTICLES = {
           "parenting & care"
         ],
         "alsoIn": [
-          "aaa-top-100",
           "aaa-short-top-100"
         ],
         "memberships": [
           {
-            "familyId": "algemeen",
-            "size": "top-100",
-            "position": 95
-          },
-          {
             "familyId": "kort",
             "size": "top-100",
-            "position": 63
+            "position": 69
           }
         ]
       },
@@ -28633,6 +29584,7 @@ window.TOP_ARTICLES = {
         "bestMoment": "kritisch",
         "tags": [
           "internet & platforms",
+          "pdf-top-10",
           "programming & software",
           "sociology & inequality"
         ],
@@ -28674,7 +29626,8 @@ window.TOP_ARTICLES = {
         "bestMoment": "analytisch",
         "tags": [
           "ai ethics & society",
-          "programming & software"
+          "programming & software",
+          "video-top-10"
         ],
         "alsoIn": [
           "video-top-10",
@@ -28742,7 +29695,8 @@ window.TOP_ARTICLES = {
         "tags": [
           "arts & culture",
           "fiction",
-          "learning & meta-learning"
+          "learning & meta-learning",
+          "light-reading"
         ],
         "alsoIn": [
           "aaa-luchtig-top-100"
@@ -28776,6 +29730,7 @@ window.TOP_ARTICLES = {
         "bestMoment": "analytisch",
         "tags": [
           "learning & meta-learning",
+          "pdf-top-10",
           "philosophy",
           "tools & workflows"
         ],
@@ -28817,6 +29772,7 @@ window.TOP_ARTICLES = {
         "bestMoment": "ontspannen",
         "tags": [
           "learning & meta-learning",
+          "light-reading",
           "programming & software",
           "sociology & inequality"
         ],
@@ -28855,16 +29811,8 @@ window.TOP_ARTICLES = {
           "personal growth & life philosophy",
           "writing & essays"
         ],
-        "alsoIn": [
-          "aaa-short-top-100"
-        ],
-        "memberships": [
-          {
-            "familyId": "kort",
-            "size": "top-100",
-            "position": 99
-          }
-        ]
+        "alsoIn": [],
+        "memberships": []
       },
       {
         "position": null,
@@ -28890,16 +29838,8 @@ window.TOP_ARTICLES = {
           "psychology & behavior",
           "writing & essays"
         ],
-        "alsoIn": [
-          "aaa-short-top-100"
-        ],
-        "memberships": [
-          {
-            "familyId": "kort",
-            "size": "top-100",
-            "position": 98
-          }
-        ]
+        "alsoIn": [],
+        "memberships": []
       },
       {
         "position": null,
@@ -28961,19 +29901,13 @@ window.TOP_ARTICLES = {
           "writing & essays"
         ],
         "alsoIn": [
-          "aaa-top-100",
           "aaa-short-top-100"
         ],
         "memberships": [
           {
-            "familyId": "algemeen",
-            "size": "top-100",
-            "position": 94
-          },
-          {
             "familyId": "kort",
             "size": "top-100",
-            "position": 62
+            "position": 68
           }
         ]
       },
@@ -29002,19 +29936,13 @@ window.TOP_ARTICLES = {
           "writing & essays"
         ],
         "alsoIn": [
-          "aaa-top-100",
           "aaa-short-top-100"
         ],
         "memberships": [
           {
-            "familyId": "algemeen",
-            "size": "top-100",
-            "position": 93
-          },
-          {
             "familyId": "kort",
             "size": "top-100",
-            "position": 61
+            "position": 67
           }
         ]
       },
@@ -29049,7 +29977,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 44
+            "position": 50
           },
           {
             "familyId": "kort",
@@ -29125,7 +30053,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 43
+            "position": 49
           },
           {
             "familyId": "kort",
@@ -29267,7 +30195,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 42
+            "position": 48
           },
           {
             "familyId": "kort",
@@ -29299,16 +30227,8 @@ window.TOP_ARTICLES = {
           "climate & environment",
           "history"
         ],
-        "alsoIn": [
-          "aaa-short-top-100"
-        ],
-        "memberships": [
-          {
-            "familyId": "kort",
-            "size": "top-100",
-            "position": 97
-          }
-        ]
+        "alsoIn": [],
+        "memberships": []
       },
       {
         "position": null,
@@ -29444,7 +30364,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 41
+            "position": 47
           },
           {
             "familyId": "kort",
@@ -29477,16 +30397,8 @@ window.TOP_ARTICLES = {
           "fiction",
           "tools & workflows"
         ],
-        "alsoIn": [
-          "aaa-short-top-100"
-        ],
-        "memberships": [
-          {
-            "familyId": "kort",
-            "size": "top-100",
-            "position": 96
-          }
-        ]
+        "alsoIn": [],
+        "memberships": []
       },
       {
         "position": null,
@@ -29644,6 +30556,7 @@ window.TOP_ARTICLES = {
         "whyRead": "Raakt je kerninteresse in Hannah Arendt en politieke filosofie — een sleutelessay over wat vrijheid werkelijk betekent als politieke categorie.",
         "bestMoment": "analytisch",
         "tags": [
+          "boek-top-10",
           "history",
           "political philosophy",
           "writing & essays"
@@ -30242,6 +31155,7 @@ window.TOP_ARTICLES = {
         "whyRead": "Raakt je interesse in leren en PKM — Kadavy herformuleert productiviteit als energiebeheer in plaats van tijdbeheer, met directe relevantie voor creatief en intellectueel werk.",
         "bestMoment": "leergierig",
         "tags": [
+          "boek-top-10",
           "learning & meta-learning",
           "personal growth & life philosophy",
           "political philosophy"
@@ -30387,6 +31301,7 @@ window.TOP_ARTICLES = {
         "whyRead": "Raakt je kerninteresse in PKM — Ahrens legt de Zettelkasten-methode uit als een denksysteem, niet slechts als notitiesysteem.",
         "bestMoment": "analytisch",
         "tags": [
+          "boek-top-10",
           "learning & meta-learning",
           "pkm & note-taking",
           "writing & essays"
@@ -30498,6 +31413,7 @@ window.TOP_ARTICLES = {
         "whyRead": "Raakt je interesse in PKM en kennisbeheer; dit boek legt de principes van het Zettelkasten-systeem uit in een digitale context — direct relevant voor je Obsidian-workflow.",
         "bestMoment": "leergierig",
         "tags": [
+          "boek-top-10",
           "learning & meta-learning",
           "pkm & note-taking",
           "tools & workflows"
@@ -30610,6 +31526,7 @@ window.TOP_ARTICLES = {
         "bestMoment": "leergierig",
         "tags": [
           "arts & culture",
+          "boek-top-10",
           "business & work",
           "tools & workflows"
         ],
@@ -30650,6 +31567,7 @@ window.TOP_ARTICLES = {
         "whyRead": "Raakt je interesse in geschiedenis en politieke filosofie; een compacte maar diepgaande inleiding op de Verlichting als intellectuele beweging met blijvende invloed op politiek en wetenschap.",
         "bestMoment": "analytisch",
         "tags": [
+          "boek-top-10",
           "history",
           "philosophy",
           "writing & essays"
@@ -30725,6 +31643,7 @@ window.TOP_ARTICLES = {
         "whyRead": "Raakt je interesse in filosofie en persoonlijke groei; dit essay van Emerson is een van de invloedrijkste pleidooien voor individualisme en vertrouwen op eigen oordeel ooit geschreven.",
         "bestMoment": "reflectief",
         "tags": [
+          "boek-top-10",
           "personal growth & life philosophy",
           "philosophy",
           "sociology & inequality"
@@ -30766,6 +31685,7 @@ window.TOP_ARTICLES = {
         "whyRead": "Raakt je interesse in leren en kennismanagement; mind mapping als visueel gereedschap voor het organiseren van gedachten en informatie.",
         "bestMoment": "leergierig",
         "tags": [
+          "boek-top-10",
           "learning & meta-learning",
           "pkm & note-taking",
           "writing & essays"
@@ -30841,6 +31761,7 @@ window.TOP_ARTICLES = {
         "whyRead": "Raakt je interesse in politieke filosofie en geschiedenis; Thoreau's essay is het fundament van het moderne concept van geweldloze burgerlijke ongehoorzaamheid, invloedrijk op Gandhi en Martin Luther King.",
         "bestMoment": "analytisch",
         "tags": [
+          "boek-top-10",
           "current affairs & politics",
           "history",
           "political philosophy"
@@ -31089,6 +32010,7 @@ window.TOP_ARTICLES = {
         "whyRead": "Raakt je interesse in filosofie en persoonlijke groei; Walden is Thoreau's klassieke verslag van zijn experiment in zelfvoorziening — tijdloos in zijn kritiek op consumptie en materialisme.",
         "bestMoment": "reflectief",
         "tags": [
+          "boek-top-10",
           "personal growth & life philosophy",
           "philosophy",
           "political philosophy"
@@ -31162,19 +32084,13 @@ window.TOP_ARTICLES = {
           "personal growth & life philosophy"
         ],
         "alsoIn": [
-          "aaa-top-100",
           "aaa-short-top-100"
         ],
         "memberships": [
           {
-            "familyId": "algemeen",
-            "size": "top-100",
-            "position": 92
-          },
-          {
             "familyId": "kort",
             "size": "top-100",
-            "position": 60
+            "position": 66
           }
         ]
       },
@@ -31430,68 +32346,68 @@ window.TOP_ARTICLES = {
           "position": 12
         },
         {
+          "id": "01m059szgmq8b5egbkgk1xe1rd",
+          "title": "Arthur Koestler",
+          "position": 13
+        },
+        {
+          "id": "01m059tvvs5m2bk6b68kyd7bay",
+          "title": "Notes on Nationalism",
+          "position": 14
+        },
+        {
+          "id": "01m059v21gaqg3ya0m36r03km4",
+          "title": "Politics and the English Language",
+          "position": 15
+        },
+        {
+          "id": "01m059v4r9jj9vzx30nn7cs3sr",
+          "title": "Politics vs. Literature: An examination of Gulliver’s Travels",
+          "position": 16
+        },
+        {
+          "id": "01m059vbg9k6x4z8p6198n481b",
+          "title": "Second Thoughts on James Burnham",
+          "position": 17
+        },
+        {
+          "id": "01m03b0vhwd52bhh3rdjhdafv2",
+          "title": "Why I Write",
+          "position": 18
+        },
+        {
           "id": "01kt72hwt9asrzwwx70ybxyabe",
           "title": "How Love Became Just Another Thing to Optimize",
-          "position": 13
+          "position": 19
         },
         {
           "id": "01kvarejkjdc6y2cjp2d0ewgkd",
           "title": "The Desecration of Man - Say No to Nietzsche",
-          "position": 14
+          "position": 20
         },
         {
           "id": "01kvh7ec1tezr2vy9bqgsm6an4",
           "title": "Is There a Science of Writing?",
-          "position": 15
+          "position": 21
         },
         {
           "id": "01kvjbgrqsftb77gs496c0p12t",
           "title": "If the First Apocalypse Doesn’t Get You, the Second One Will",
-          "position": 16
+          "position": 22
         },
         {
           "id": "01kvtqy4rffwdb1t73t37netda",
           "title": "Antwoorden op vragen die niet gesteld worden",
-          "position": 17
+          "position": 23
         },
         {
           "id": "01kvwwdq8bhy9m3x614gmtn41d",
           "title": "Andrew Stanton: Storytelling Secrets from the Writer of Toy Story 5",
-          "position": 18
+          "position": 24
         },
         {
           "id": "01kwfk5q2rtfm9enggaybd07zq",
           "title": "David Sedaris: Lessons From Decades of Writing",
-          "position": 19
-        },
-        {
-          "id": "01kxdxaytaf6tm6ntqnc9vdw18",
-          "title": "Apophenia and Manufactured Desire",
-          "position": 20
-        },
-        {
-          "id": "01kxpg8mpkegghvbz5w71ne86v",
-          "title": "Against \"Stochastic Terrorism\"",
-          "position": 21
-        },
-        {
-          "id": "01kxy1qnae4npandc4x9mv4aw0",
-          "title": "To Understand Elon Musk, You Have to Understand This ’60s Sci-Fi Novel",
-          "position": 22
-        },
-        {
-          "id": "01kxzghzvbjtnr20f8vwmwc8s5",
-          "title": "Letters of Last Resort",
-          "position": 23
-        },
-        {
-          "id": "01ky6y112ahhdfz7zdrw7w1jkc",
-          "title": "Fish farts, dead elephants, and total institutions in wildlife conservation",
-          "position": 24
-        },
-        {
-          "id": "01ky7qe9p9qwtpk49bzc4pqqhk",
-          "title": "Normal Accidents: Living with High-Risk Technologies",
           "position": 25
         }
       ]
@@ -31536,93 +32452,93 @@ window.TOP_ARTICLES = {
           "position": 7
         },
         {
+          "id": "01m059szgmq8b5egbkgk1xe1rd",
+          "title": "Arthur Koestler",
+          "position": 8
+        },
+        {
+          "id": "01m059tvvs5m2bk6b68kyd7bay",
+          "title": "Notes on Nationalism",
+          "position": 9
+        },
+        {
+          "id": "01m059v21gaqg3ya0m36r03km4",
+          "title": "Politics and the English Language",
+          "position": 10
+        },
+        {
+          "id": "01m059v4r9jj9vzx30nn7cs3sr",
+          "title": "Politics vs. Literature: An examination of Gulliver’s Travels",
+          "position": 11
+        },
+        {
+          "id": "01m059vbg9k6x4z8p6198n481b",
+          "title": "Second Thoughts on James Burnham",
+          "position": 12
+        },
+        {
+          "id": "01m03b0vhwd52bhh3rdjhdafv2",
+          "title": "Why I Write",
+          "position": 13
+        },
+        {
           "id": "01j8s9z9xg4shgce5z167zc7fn",
           "title": "📰 Food as Currency - by Eleanor Konik - Manuscriptions\n📰 Food as Currency",
-          "position": 8
+          "position": 14
         },
         {
           "id": "01jjmt3derk62gvm51m286870b",
           "title": "🎓 On Famines: why and how they happen. To who?",
-          "position": 9
+          "position": 15
         },
         {
           "id": "01k7qbgbanjkbvetnkfd47vkrz",
           "title": "How I wrote \"Looking for Alice\"",
-          "position": 10
+          "position": 16
         },
         {
           "id": "01k7qbgpmxd9gskhw16jx5b8yk",
           "title": "Popular education in Sweden: much more than you wanted to know",
-          "position": 11
+          "position": 17
         },
         {
           "id": "01krn1jdcn6b450yv1z0j92tz3",
           "title": "The Radical Sunzi",
-          "position": 12
+          "position": 18
         },
         {
           "id": "01kxy1qnae4npandc4x9mv4aw0",
           "title": "To Understand Elon Musk, You Have to Understand This ’60s Sci-Fi Novel",
-          "position": 13
+          "position": 19
         },
         {
           "id": "01ky7qe9p9qwtpk49bzc4pqqhk",
           "title": "Normal Accidents: Living with High-Risk Technologies",
-          "position": 14
-        },
-        {
-          "id": "01k4hz4tpj7wyg13z1mrad20g8",
-          "title": "Longread: Chantal Mouffe – Over het politieke",
-          "position": 15
-        },
-        {
-          "id": "01k7qbg40qvbeqszm5nr2wpmyz",
-          "title": "Dostoevsky as lover",
-          "position": 16
-        },
-        {
-          "id": "01kchxs90kb1qw9xk8rkcz4418",
-          "title": "The Sovereignty Of Good",
-          "position": 17
-        },
-        {
-          "id": "01kd1cajacdxy2n33rqkrn2rwq",
-          "title": "Feminism, The Body, And The Machine",
-          "position": 18
-        },
-        {
-          "id": "01kd1canjswg2k0ey5cgtz3fa4",
-          "title": "Why I Am Not Going To Buy A Computer",
-          "position": 19
-        },
-        {
-          "id": "01kd1cbjc3rzw7es7ef6rd6w6j",
-          "title": "The Question Concerning Technology",
           "position": 20
         },
         {
-          "id": "01kf916mwdxkdydep3wwes334d",
-          "title": "Alessandro Manzoni’s “The Betrothed,” Reconsidered | The New Yorker",
+          "id": "01m059t4kq0fgjsx21x28nbdqk",
+          "title": "Freedom and Happiness (Review of ‘We’ by Yevgeny Zamyatin)",
           "position": 21
         },
         {
-          "id": "01khqrhk77ztjy4d5gg6qsvwgr",
-          "title": "Present Tense Technology",
+          "id": "01m059t7cjgvc214sac3e4z08x",
+          "title": "Freedom of the Park",
           "position": 22
         },
         {
-          "id": "01ky7msw17jmgj3v5mv7nf7h6q",
-          "title": "In-context Learning and Induction Heads",
+          "id": "01m059thh2ytr4v45ebz778hxw",
+          "title": "In Front of Your Nose",
           "position": 23
         },
         {
-          "id": "01ky7rnb3ej3419mmtg3q5ay7f",
-          "title": "The Worst Mistake in the History of the Human Race",
+          "id": "01m059tpnqyq5yy3kq6xrmf1v5",
+          "title": "My Country Right or Left",
           "position": 24
         },
         {
-          "id": "01ky7rxntf6dz2x70h2w6vgtqr",
-          "title": "The Height Gap | The New Yorker",
+          "id": "01m059tzwnjdjtmteh5jpa7bxz",
+          "title": "Pleasure Spots",
           "position": 25
         }
       ]
