@@ -1,6 +1,6 @@
 // Automatisch gegenereerd door scripts/build-data.mjs — niet handmatig bewerken.
 window.TOP_ARTICLES = {
-  "generatedAt": "2026-08-16T19:15:06.789Z",
+  "generatedAt": "2026-08-16T20:20:05.318Z",
   "families": [
     {
       "id": "algemeen",
@@ -1493,7 +1493,10 @@ window.TOP_ARTICLES = {
                 "arts & culture",
                 "political philosophy"
               ],
-              "alsoIn": []
+              "alsoIn": [
+                "aaa-luchtig-top-10",
+                "aaa-luchtig-top-100"
+              ]
             },
             {
               "position": 44,
@@ -1516,9 +1519,13 @@ window.TOP_ARTICLES = {
               "bestMoment": "analytisch",
               "tags": [
                 "arts & culture",
+                "light-reading",
                 "political philosophy"
               ],
-              "alsoIn": []
+              "alsoIn": [
+                "aaa-luchtig-top-10",
+                "aaa-luchtig-top-100"
+              ]
             },
             {
               "position": 45,
@@ -7269,9 +7276,13 @@ window.TOP_ARTICLES = {
               "bestMoment": "ontspannen",
               "tags": [
                 "arts & culture",
+                "light-reading",
                 "personal growth & life philosophy"
               ],
-              "alsoIn": []
+              "alsoIn": [
+                "aaa-luchtig-top-10",
+                "aaa-luchtig-top-100"
+              ]
             },
             {
               "position": 95,
@@ -8452,6 +8463,63 @@ window.TOP_ARTICLES = {
             },
             {
               "position": 3,
+              "id": "01m059v21gaqg3ya0m36r03km4",
+              "title": "Politics and the English Language",
+              "author": "orwellfoundation.com",
+              "siteName": "The Orwell Foundation",
+              "category": "article",
+              "language": null,
+              "readingTime": "21 mins",
+              "readingMinutes": 21,
+              "wordCount": 5498,
+              "publishedDate": "2011-02-16",
+              "savedDate": "2026-08-16T12:48:11.312000+00:00",
+              "imageUrl": "https://www.orwellfoundation.com/wp-content/uploads/2011/02/Politics-and-the-English-Language-628x1024.jpg",
+              "sourceUrl": "https://www.orwellfoundation.com/the-orwell-foundation/orwell/essays-and-other-works/politics-and-the-english-language/",
+              "readwiseUrl": "https://read.readwise.io/read/01m059v21gaqg3ya0m36r03km4",
+              "summary": "\"Political language... is designed to make lies sound truthful and murder respectable, and to give an appearance of solidity to pure wind.\"",
+              "whyRead": "Raakt direct je interesse in essay schrijven als vorm/schrijfcraft én politieke filosofie — Orwell's beroemdste stijladvies is tegelijk een scherp politiek argument over hoe vage taal denken vervangt.",
+              "bestMoment": "analytisch",
+              "tags": [
+                "arts & culture",
+                "political philosophy"
+              ],
+              "alsoIn": [
+                "aaa-top-100",
+                "aaa-luchtig-top-100"
+              ]
+            },
+            {
+              "position": 4,
+              "id": "01m059v4r9jj9vzx30nn7cs3sr",
+              "title": "Politics vs. Literature: An examination of Gulliver’s Travels",
+              "author": "orwellfoundation.com",
+              "siteName": "The Orwell Foundation",
+              "category": "article",
+              "language": null,
+              "readingTime": "30 mins",
+              "readingMinutes": 30,
+              "wordCount": 7790,
+              "publishedDate": "2011-10-11",
+              "savedDate": "2026-08-16T12:48:14.089000+00:00",
+              "imageUrl": null,
+              "sourceUrl": "https://www.orwellfoundation.com/the-orwell-foundation/orwell/essays-and-other-works/politics-vs-literature-an-examination-of-gullivers-travels/",
+              "readwiseUrl": "https://read.readwise.io/read/01m059v4r9jj9vzx30nn7cs3sr",
+              "summary": "\"What is the relationship between agreement with a writer's opinions, and enjoyment of his work?\"",
+              "whyRead": "Raakt je interesse in politieke filosofie en essay/literatuurkritiek als vorm — Orwell laat zien hoe politieke overtuiging, esthetisch oordeel en kunstwaarde onlosmakelijk verstrengeld zijn.",
+              "bestMoment": "analytisch",
+              "tags": [
+                "arts & culture",
+                "light-reading",
+                "political philosophy"
+              ],
+              "alsoIn": [
+                "aaa-top-100",
+                "aaa-luchtig-top-100"
+              ]
+            },
+            {
+              "position": 5,
               "id": "01kf916mwdxkdydep3wwes334d",
               "title": "Alessandro Manzoni’s “The Betrothed,” Reconsidered | The New Yorker",
               "author": "Joan Acocella",
@@ -8480,7 +8548,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 4,
+              "position": 6,
               "id": "01kj5a1mnca55881qyj3jzm64b",
               "title": "The Library of Lost Maps",
               "author": "Brian Klaas",
@@ -8509,7 +8577,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 5,
+              "position": 7,
               "id": "01krm5d32nfhsa44jvbq4s6nny",
               "title": "📚 Fear, War, & God: Post-Rationalist Philosophy... in SPAAAAAACE",
               "author": "Eleanor Konik",
@@ -8538,7 +8606,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 6,
+              "position": 8,
               "id": "01ktv2sxayxrqj6yzvyhjes6tf",
               "title": "Leeslijst mei 2026",
               "author": "Kauthar",
@@ -8573,87 +8641,28 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 7,
-              "id": "01k7tw6vrkda5hp5070ra2wqm6",
-              "title": "Five SFF Stories That Shed Light on Obscure History",
-              "author": "Eleanor Konik",
-              "siteName": "Reactor",
-              "category": "article",
-              "language": "Engels",
-              "readingTime": "6 mins",
-              "readingMinutes": 6,
-              "wordCount": 1464,
-              "publishedDate": "2021-03-31",
-              "savedDate": "2025-10-18T05:20:49.940000+00:00",
-              "imageUrl": "https://reactormag.com/wp-content/uploads/2021/03/Obscure-History-in-SFF.png",
-              "sourceUrl": "https://reactormag.com/five-sff-stories-that-shed-light-on-obscure-history/",
-              "readwiseUrl": "https://read.readwise.io/read/01k7tw6vrkda5hp5070ra2wqm6",
-              "summary": "Speculative fiction often borrows from obscure or surprising bits of real history to deepen its worlds. Examples include gods as sacred stones, powerful harem-born women acting as kingmakers, and naming or guest-host customs drawn from ancient cultures. These echoes help readers learn about and empathize with past societies.",
-              "whyRead": "SFF als poort naar vergeten geschiedenis – vijf concrete aanbevelingen.",
-              "bestMoment": "ontspannen",
-              "tags": [
-                "fiction",
-                "history",
-                "learning & meta-learning",
-                "light-reading"
-              ],
-              "alsoIn": [
-                "aaa-luchtig-top-100"
-              ]
-            },
-            {
-              "position": 8,
-              "id": "01kaen0f4sd6p0wsrv0fw7320f",
-              "title": "🌲 The Best \"Gamified X\" App is a GAME",
-              "author": "Eleanor Konik",
-              "siteName": "Manuscriptions",
-              "category": "rss",
-              "language": "Engels",
-              "readingTime": "7 mins",
-              "readingMinutes": 7,
-              "wordCount": 1770,
-              "publishedDate": "2025-11-19",
-              "savedDate": "2025-11-19T18:11:09.666000+00:00",
-              "imageUrl": "https://substack-post-media.s3.amazonaws.com/public/images/c6bf58b3-76e8-4dbe-a5af-c296d047d6a1_1344x896.png",
-              "sourceUrl": "https://www.eleanorkonik.com/p/the-best-gamified-x-app-is-a-game",
-              "readwiseUrl": "https://read.readwise.io/read/01kaen0f4sd6p0wsrv0fw7320f",
-              "summary": "Real games work better than “gamified” apps for learning and habits.  \nPokémon Go gets her walking, exploring, and meeting people, with handy maps and quick, fun rewards.  \nIt boosts her energy and output more than tracking apps, so she calls it her top productivity app.",
-              "whyRead": "Konik's essay over Pokémon Go als bewegingsinstrument biedt een interessante gedragspsychologische lens op gamification en motivatie.",
-              "bestMoment": "ontspannen",
-              "tags": [
-                "games & game studies",
-                "health & wellness",
-                "light-reading",
-                "psychology & behavior"
-              ],
-              "alsoIn": [
-                "aaa-luchtig-top-100"
-              ]
-            },
-            {
               "position": 9,
-              "id": "01kcfca0wrxztgk2sqe31khzbr",
-              "title": "Now Watch Me Read | The New Yorker",
-              "author": "Brady Brickner-Wood",
-              "siteName": "The New Yorker",
+              "id": "01m059v98jpw8wgvff3t63dxm4",
+              "title": "Rudyard Kipling",
+              "author": "orwellfoundation.com",
+              "siteName": "The Orwell Foundation",
               "category": "article",
-              "language": "Engels",
-              "readingTime": "8 mins",
-              "readingMinutes": 8,
-              "wordCount": 2014,
-              "publishedDate": "2025-12-02",
-              "savedDate": "2025-12-14T21:29:46.649000+00:00",
-              "imageUrl": "https://media.newyorker.com/photos/69273519f982d57f3b61c362/16:9/w_1280,c_limit/performative%20reading.png",
-              "sourceUrl": "https://www.newyorker.com/culture/the-lede/performative-reading",
-              "readwiseUrl": "https://read.readwise.io/read/01kcfca0wrxztgk2sqe31khzbr",
-              "summary": "Online “performative reading” is when people use books as props to signal intelligence or attract attention. Social media turns sincere acts into staged performances, making real reading seem suspect. This trend reflects deeper worries about declining attention, authenticity, and the loss of slow, serious reading.",
-              "whyRead": "Raakt je interesse in cultuur en sociologie — The New Yorker over 'performatief lezen': boeken zichtbaar bij zich dragen als identiteitssignaal.",
-              "bestMoment": "ontspannen",
+              "language": null,
+              "readingTime": "22 mins",
+              "readingMinutes": 22,
+              "wordCount": 5700,
+              "publishedDate": "2011-01-18",
+              "savedDate": "2026-08-16T12:48:18.706000+00:00",
+              "imageUrl": "https://www.orwellfoundation.com/wp-content/uploads/2019/07/burma.jpg",
+              "sourceUrl": "https://www.orwellfoundation.com/the-orwell-foundation/orwell/essays-and-other-works/rudyard-kipling/",
+              "readwiseUrl": "https://read.readwise.io/read/01m059v98jpw8wgvff3t63dxm4",
+              "summary": "\"Kipling is in the peculiar position of having been a byword for fifty years. During five literary generations every enlightened person has despised him, and at the end of that time nine-tenths of those enlightened persons are forgotten and Kipling is in some sense still there.\"",
+              "whyRead": "Raakt je interesse in politieke filosofie, ideologieën en essay/literatuurkritiek — Orwell's genuanceerde afrekening met Kipling is een meesterklasse in het scheiden van politieke afkeer en artistieke waardering.",
+              "bestMoment": "analytisch",
               "tags": [
                 "arts & culture",
-                "learning & meta-learning",
                 "light-reading",
-                "sociology & inequality"
+                "political philosophy"
               ],
               "alsoIn": [
                 "aaa-luchtig-top-100"
@@ -8661,30 +8670,30 @@ window.TOP_ARTICLES = {
             },
             {
               "position": 10,
-              "id": "01krnyr9cxy0rhqzt148zy5p99",
-              "title": "Good conversations have lots of doorknobs",
-              "author": "Adam Mastroianni",
-              "siteName": "experimental-history.com",
+              "id": "01m059vdx0s3ff8xbj5eh1y9x3",
+              "title": "Some Thoughts on the Common Toad",
+              "author": "orwellfoundation.com",
+              "siteName": "The Orwell Foundation",
               "category": "article",
-              "language": "Engels",
-              "readingTime": "6 mins",
-              "readingMinutes": 6,
-              "wordCount": 1551,
-              "publishedDate": "2022-02-23",
-              "savedDate": "2026-05-15T13:55:56.878000+00:00",
-              "imageUrl": "https://substackcdn.com/image/fetch/$s_!49hf!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fb787cd30-e319-48b3-baee-2c44909674c1_1688x1178.jpeg",
-              "sourceUrl": "https://www.experimental-history.com/p/good-conversations-have-lots-of-doorknobs?r=1r0y5d&utm_medium=ios&triedRedirect=true",
-              "readwiseUrl": "https://read.readwise.io/read/01krnyr9cxy0rhqzt148zy5p99",
-              "summary": "Or \"Spiderman Is My Boyfriend\"",
-              "whyRead": "Raakt je interesse in behavioral psychology, sociologie en essayistische stijl: Mastroianni maakt conversatievaardigheid concreet via improvisatie en het idee van affordances. Shortlistwaardig door de combinatie van humor, onderzoek en een bruikbaar sociaal model.",
+              "language": null,
+              "readingTime": "8 mins",
+              "readingMinutes": 8,
+              "wordCount": 1901,
+              "publishedDate": "2011-04-12",
+              "savedDate": "2026-08-16T12:48:23.456000+00:00",
+              "imageUrl": "https://www.orwellfoundation.com/wp-content/uploads/2020/03/IMG_3979-768x1024.jpg",
+              "sourceUrl": "https://www.orwellfoundation.com/the-orwell-foundation/orwell/essays-and-other-works/some-thoughts-on-the-common-toad/",
+              "readwiseUrl": "https://read.readwise.io/read/01m059vdx0s3ff8xbj5eh1y9x3",
+              "summary": "\"Is it wicked to take a pleasure in Spring and other seasonal changes?\"",
+              "whyRead": "Raakt je interesse in personal growth & life philosophy en essay schrijven als vorm — een klein, persoonlijk essay dat laat zien hoe Orwell politieke ernst combineert met puur, ongecompliceerd natuurplezier.",
               "bestMoment": "ontspannen",
               "tags": [
-                "behavioral psychology & coaching",
+                "arts & culture",
                 "light-reading",
-                "personal growth & life philosophy",
-                "sociology & social structures"
+                "personal growth & life philosophy"
               ],
               "alsoIn": [
+                "aaa-short-top-100",
                 "aaa-luchtig-top-100"
               ]
             }
@@ -8755,6 +8764,63 @@ window.TOP_ARTICLES = {
             },
             {
               "position": 3,
+              "id": "01m059v21gaqg3ya0m36r03km4",
+              "title": "Politics and the English Language",
+              "author": "orwellfoundation.com",
+              "siteName": "The Orwell Foundation",
+              "category": "article",
+              "language": null,
+              "readingTime": "21 mins",
+              "readingMinutes": 21,
+              "wordCount": 5498,
+              "publishedDate": "2011-02-16",
+              "savedDate": "2026-08-16T12:48:11.312000+00:00",
+              "imageUrl": "https://www.orwellfoundation.com/wp-content/uploads/2011/02/Politics-and-the-English-Language-628x1024.jpg",
+              "sourceUrl": "https://www.orwellfoundation.com/the-orwell-foundation/orwell/essays-and-other-works/politics-and-the-english-language/",
+              "readwiseUrl": "https://read.readwise.io/read/01m059v21gaqg3ya0m36r03km4",
+              "summary": "\"Political language... is designed to make lies sound truthful and murder respectable, and to give an appearance of solidity to pure wind.\"",
+              "whyRead": "Raakt direct je interesse in essay schrijven als vorm/schrijfcraft én politieke filosofie — Orwell's beroemdste stijladvies is tegelijk een scherp politiek argument over hoe vage taal denken vervangt.",
+              "bestMoment": "analytisch",
+              "tags": [
+                "arts & culture",
+                "political philosophy"
+              ],
+              "alsoIn": [
+                "aaa-top-100",
+                "aaa-luchtig-top-10"
+              ]
+            },
+            {
+              "position": 4,
+              "id": "01m059v4r9jj9vzx30nn7cs3sr",
+              "title": "Politics vs. Literature: An examination of Gulliver’s Travels",
+              "author": "orwellfoundation.com",
+              "siteName": "The Orwell Foundation",
+              "category": "article",
+              "language": null,
+              "readingTime": "30 mins",
+              "readingMinutes": 30,
+              "wordCount": 7790,
+              "publishedDate": "2011-10-11",
+              "savedDate": "2026-08-16T12:48:14.089000+00:00",
+              "imageUrl": null,
+              "sourceUrl": "https://www.orwellfoundation.com/the-orwell-foundation/orwell/essays-and-other-works/politics-vs-literature-an-examination-of-gullivers-travels/",
+              "readwiseUrl": "https://read.readwise.io/read/01m059v4r9jj9vzx30nn7cs3sr",
+              "summary": "\"What is the relationship between agreement with a writer's opinions, and enjoyment of his work?\"",
+              "whyRead": "Raakt je interesse in politieke filosofie en essay/literatuurkritiek als vorm — Orwell laat zien hoe politieke overtuiging, esthetisch oordeel en kunstwaarde onlosmakelijk verstrengeld zijn.",
+              "bestMoment": "analytisch",
+              "tags": [
+                "arts & culture",
+                "light-reading",
+                "political philosophy"
+              ],
+              "alsoIn": [
+                "aaa-top-100",
+                "aaa-luchtig-top-10"
+              ]
+            },
+            {
+              "position": 5,
               "id": "01kf916mwdxkdydep3wwes334d",
               "title": "Alessandro Manzoni’s “The Betrothed,” Reconsidered | The New Yorker",
               "author": "Joan Acocella",
@@ -8783,7 +8849,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 4,
+              "position": 6,
               "id": "01kj5a1mnca55881qyj3jzm64b",
               "title": "The Library of Lost Maps",
               "author": "Brian Klaas",
@@ -8812,7 +8878,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 5,
+              "position": 7,
               "id": "01krm5d32nfhsa44jvbq4s6nny",
               "title": "📚 Fear, War, & God: Post-Rationalist Philosophy... in SPAAAAAACE",
               "author": "Eleanor Konik",
@@ -8841,7 +8907,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 6,
+              "position": 8,
               "id": "01ktv2sxayxrqj6yzvyhjes6tf",
               "title": "Leeslijst mei 2026",
               "author": "Kauthar",
@@ -8876,7 +8942,172 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 7,
+              "position": 9,
+              "id": "01m059v98jpw8wgvff3t63dxm4",
+              "title": "Rudyard Kipling",
+              "author": "orwellfoundation.com",
+              "siteName": "The Orwell Foundation",
+              "category": "article",
+              "language": null,
+              "readingTime": "22 mins",
+              "readingMinutes": 22,
+              "wordCount": 5700,
+              "publishedDate": "2011-01-18",
+              "savedDate": "2026-08-16T12:48:18.706000+00:00",
+              "imageUrl": "https://www.orwellfoundation.com/wp-content/uploads/2019/07/burma.jpg",
+              "sourceUrl": "https://www.orwellfoundation.com/the-orwell-foundation/orwell/essays-and-other-works/rudyard-kipling/",
+              "readwiseUrl": "https://read.readwise.io/read/01m059v98jpw8wgvff3t63dxm4",
+              "summary": "\"Kipling is in the peculiar position of having been a byword for fifty years. During five literary generations every enlightened person has despised him, and at the end of that time nine-tenths of those enlightened persons are forgotten and Kipling is in some sense still there.\"",
+              "whyRead": "Raakt je interesse in politieke filosofie, ideologieën en essay/literatuurkritiek — Orwell's genuanceerde afrekening met Kipling is een meesterklasse in het scheiden van politieke afkeer en artistieke waardering.",
+              "bestMoment": "analytisch",
+              "tags": [
+                "arts & culture",
+                "light-reading",
+                "political philosophy"
+              ],
+              "alsoIn": [
+                "aaa-luchtig-top-10"
+              ]
+            },
+            {
+              "position": 10,
+              "id": "01m059vdx0s3ff8xbj5eh1y9x3",
+              "title": "Some Thoughts on the Common Toad",
+              "author": "orwellfoundation.com",
+              "siteName": "The Orwell Foundation",
+              "category": "article",
+              "language": null,
+              "readingTime": "8 mins",
+              "readingMinutes": 8,
+              "wordCount": 1901,
+              "publishedDate": "2011-04-12",
+              "savedDate": "2026-08-16T12:48:23.456000+00:00",
+              "imageUrl": "https://www.orwellfoundation.com/wp-content/uploads/2020/03/IMG_3979-768x1024.jpg",
+              "sourceUrl": "https://www.orwellfoundation.com/the-orwell-foundation/orwell/essays-and-other-works/some-thoughts-on-the-common-toad/",
+              "readwiseUrl": "https://read.readwise.io/read/01m059vdx0s3ff8xbj5eh1y9x3",
+              "summary": "\"Is it wicked to take a pleasure in Spring and other seasonal changes?\"",
+              "whyRead": "Raakt je interesse in personal growth & life philosophy en essay schrijven als vorm — een klein, persoonlijk essay dat laat zien hoe Orwell politieke ernst combineert met puur, ongecompliceerd natuurplezier.",
+              "bestMoment": "ontspannen",
+              "tags": [
+                "arts & culture",
+                "light-reading",
+                "personal growth & life philosophy"
+              ],
+              "alsoIn": [
+                "aaa-short-top-100",
+                "aaa-luchtig-top-10"
+              ]
+            },
+            {
+              "position": 11,
+              "id": "01m059vjndfmzkwh9sphxzfhc6",
+              "title": "The Prevention of Literature",
+              "author": "orwellfoundation.com",
+              "siteName": "The Orwell Foundation",
+              "category": "article",
+              "language": null,
+              "readingTime": "22 mins",
+              "readingMinutes": 22,
+              "wordCount": 5754,
+              "publishedDate": null,
+              "savedDate": "2026-08-16T12:48:28.333000+00:00",
+              "imageUrl": "https://www.orwellfoundation.com/wp-content/uploads/2019/05/wallofnames.jpg",
+              "sourceUrl": "https://www.orwellfoundation.com/the-orwell-foundation/orwell/essays-and-other-works/the-prevention-of-literature/",
+              "readwiseUrl": "https://read.readwise.io/read/01m059vjndfmzkwh9sphxzfhc6",
+              "summary": "\"No tirades against ‘individualism’ and the ‘ivory tower’, no pious platitudes to the effect that ‘true individuality is only attained through identification with the community’, can get over the fact that a bought mind is a spoiled mind.\"",
+              "whyRead": "Raakt precies je interesse in totalitarisme en het essay als vorm — Orwell laat zien hoe intellectuele vrijheid wordt uitgehold, niet alleen door censuur maar door zelfcensuur en ideologische loyaliteit.",
+              "bestMoment": "analytisch",
+              "tags": [
+                "arts & culture",
+                "light-reading",
+                "political philosophy",
+                "totalitarianism & fascism"
+              ],
+              "alsoIn": []
+            },
+            {
+              "position": 12,
+              "id": "01m059vn29v5bjn4nbhe0efecg",
+              "title": "The Proletarian Writer",
+              "author": "orwellfoundation.com",
+              "siteName": "The Orwell Foundation",
+              "category": "article",
+              "language": null,
+              "readingTime": "11 mins",
+              "readingMinutes": 11,
+              "wordCount": 2883,
+              "publishedDate": "2010-12-09",
+              "savedDate": "2026-08-16T12:48:30.793000+00:00",
+              "imageUrl": null,
+              "sourceUrl": "https://www.orwellfoundation.com/the-orwell-foundation/orwell/essays-and-other-works/the-proletarian-writer/",
+              "readwiseUrl": "https://read.readwise.io/read/01m059vn29v5bjn4nbhe0efecg",
+              "summary": "\"...for there to be what could really be called a proletarian literature the proletariat would have to be the dominant class.\"",
+              "whyRead": "Raakt je interesse in politieke filosofie, sociologie en het essay als vorm — een radiodialoog waarin Orwell scherp ontleedt of er zoiets als \"proletarische literatuur\" kan bestaan.",
+              "bestMoment": "analytisch",
+              "tags": [
+                "arts & culture",
+                "light-reading",
+                "political philosophy",
+                "sociology & social structures"
+              ],
+              "alsoIn": []
+            },
+            {
+              "position": 13,
+              "id": "01m059vqea4t02392f7364m2jr",
+              "title": "The Spike",
+              "author": "orwellfoundation.com",
+              "siteName": "The Orwell Foundation",
+              "category": "article",
+              "language": null,
+              "readingTime": "13 mins",
+              "readingMinutes": 13,
+              "wordCount": 3423,
+              "publishedDate": "2011-09-30",
+              "savedDate": "2026-08-16T12:48:33.226000+00:00",
+              "imageUrl": null,
+              "sourceUrl": "https://www.orwellfoundation.com/the-orwell-foundation/orwell/essays-and-other-works/the-spike/",
+              "readwiseUrl": "https://read.readwise.io/read/01m059vqea4t02392f7364m2jr",
+              "summary": "This material remains under copyright and is reproduced by kind permission of the Orwell Estate and Penguin Books. It was late afternoon. Forty-nine of us, forty-eight men and one woman, lay on the green waiting for the spike to open. We were too tired to talk much. We just sprawled about exhaustedly, with home-made cigarettes...  <a class=\"excerpt-read-more\" href=\"https://www.orwellfoundation.com/the-orwell-foundation/orwell/essays-and-other-works/the-spike/\" title=\"ReadThe Spike\">Read more »</a>",
+              "whyRead": "Raakt je interesse in sociologie en het essay als schrijfvorm — vroeg, sterk staaltje van Orwells persoonlijke reportagestijl over armoede en vernedering, de basis voor Down and Out in Paris and London.",
+              "bestMoment": "reflectief",
+              "tags": [
+                "arts & culture",
+                "history",
+                "light-reading",
+                "sociology & social structures"
+              ],
+              "alsoIn": []
+            },
+            {
+              "position": 14,
+              "id": "01m05be2mdpdf3vg9xy5xr0kcz",
+              "title": "The Art of Donald McGill",
+              "author": "orwellfoundation.com",
+              "siteName": "The Orwell Foundation",
+              "category": "article",
+              "language": null,
+              "readingTime": "16 mins",
+              "readingMinutes": 16,
+              "wordCount": 4128,
+              "publishedDate": "2010-10-20",
+              "savedDate": "2026-08-16T13:16:03.085000+00:00",
+              "imageUrl": null,
+              "sourceUrl": "https://www.orwellfoundation.com/the-orwell-foundation/orwell/essays-and-other-works/the-art-of-donald-mcgill/",
+              "readwiseUrl": "https://read.readwise.io/read/01m05be2mdpdf3vg9xy5xr0kcz",
+              "summary": "This material remains under copyright in some jurisdictions, including the United States, and is reproduced here with the kind assistance of the Orwell Estate.  Who does not know the ‘comics’ of the cheap stationers’ windows, the penny or twopenny coloured postcards with their endless succession of fat women in tight bathing-dresses and their crude drawing...  <a class=\"excerpt-read-more\" href=\"https://www.orwellfoundation.com/the-orwell-foundation/orwell/essays-and-other-works/the-art-of-donald-mcgill/\" title=\"ReadThe Art of Donald McGill\">Read more »</a>",
+              "whyRead": "Raakt je interesse in cultuurgeschiedenis en Orwell als essayist — hij ontleedt hier op zijn kenmerkend scherpe, persoonlijke manier volkscultuur (komische ansichtkaarten) als spiegel van maatschappelijke moraal.",
+              "bestMoment": "ontspannen",
+              "tags": [
+                "arts & culture",
+                "light-reading",
+                "philosophy",
+                "sociology & social structures"
+              ],
+              "alsoIn": []
+            },
+            {
+              "position": 15,
               "id": "01k7tw6vrkda5hp5070ra2wqm6",
               "title": "Five SFF Stories That Shed Light on Obscure History",
               "author": "Eleanor Konik",
@@ -8900,12 +9131,10 @@ window.TOP_ARTICLES = {
                 "learning & meta-learning",
                 "light-reading"
               ],
-              "alsoIn": [
-                "aaa-luchtig-top-10"
-              ]
+              "alsoIn": []
             },
             {
-              "position": 8,
+              "position": 16,
               "id": "01kaen0f4sd6p0wsrv0fw7320f",
               "title": "🌲 The Best \"Gamified X\" App is a GAME",
               "author": "Eleanor Konik",
@@ -8929,12 +9158,10 @@ window.TOP_ARTICLES = {
                 "light-reading",
                 "psychology & behavior"
               ],
-              "alsoIn": [
-                "aaa-luchtig-top-10"
-              ]
+              "alsoIn": []
             },
             {
-              "position": 9,
+              "position": 17,
               "id": "01kcfca0wrxztgk2sqe31khzbr",
               "title": "Now Watch Me Read | The New Yorker",
               "author": "Brady Brickner-Wood",
@@ -8958,12 +9185,10 @@ window.TOP_ARTICLES = {
                 "light-reading",
                 "sociology & inequality"
               ],
-              "alsoIn": [
-                "aaa-luchtig-top-10"
-              ]
+              "alsoIn": []
             },
             {
-              "position": 10,
+              "position": 18,
               "id": "01krnyr9cxy0rhqzt148zy5p99",
               "title": "Good conversations have lots of doorknobs",
               "author": "Adam Mastroianni",
@@ -8987,12 +9212,10 @@ window.TOP_ARTICLES = {
                 "personal growth & life philosophy",
                 "sociology & social structures"
               ],
-              "alsoIn": [
-                "aaa-luchtig-top-10"
-              ]
+              "alsoIn": []
             },
             {
-              "position": 11,
+              "position": 19,
               "id": "01kyyg3mxmb2pwc6yarn1kf8tn",
               "title": "All the Horrifying Things We Do to Our Books",
               "author": "Miller’s Book Review 📚",
@@ -9018,7 +9241,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 12,
+              "position": 20,
               "id": "01kz8zwnxp6tqjavp4bcdvgq9p",
               "title": "He Sold 55 Million Books, but His Government Wouldn’t Let Him Publish",
               "author": "Miller’s Book Review 📚",
@@ -9046,7 +9269,33 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 13,
+              "position": 21,
+              "id": "01m059tf2ttw02jrmmm46cmhjk",
+              "title": "Good Bad Books",
+              "author": "orwellfoundation.com",
+              "siteName": "The Orwell Foundation",
+              "category": "article",
+              "language": null,
+              "readingTime": "6 mins",
+              "readingMinutes": 6,
+              "wordCount": 1413,
+              "publishedDate": "2011-06-24",
+              "savedDate": "2026-08-16T12:47:51.898000+00:00",
+              "imageUrl": null,
+              "sourceUrl": "https://www.orwellfoundation.com/the-orwell-foundation/orwell/essays-and-other-works/good-bad-books/",
+              "readwiseUrl": "https://read.readwise.io/read/01m059tf2ttw02jrmmm46cmhjk",
+              "summary": "This material remains under copyright in the United Kingdom, Europe and elsewhere, and is reproduced by kind permission of the Orwell Estate and Penguin Books. Not long ago a publisher commissioned me to write an introduction for a reprint of a novel by Leonard Merrick. This publishing house, it appears, is going to reissue a...  <a class=\"excerpt-read-more\" href=\"https://www.orwellfoundation.com/the-orwell-foundation/orwell/essays-and-other-works/good-bad-books/\" title=\"ReadGood Bad Books\">Read more »</a>",
+              "whyRead": "Raakt je interesse in schrijfcraft en cultuurkritiek — Orwell filosofeert waarom sommige \"slechte\" boeken overleven terwijl serieuze literatuur vergeten wordt, met scherpe observaties over smaak, vakmanschap en kunst.",
+              "bestMoment": "ontspannen",
+              "tags": [
+                "arts & culture",
+                "light-reading",
+                "philosophy"
+              ],
+              "alsoIn": []
+            },
+            {
+              "position": 22,
               "id": "01jkxyd6vfh2jexjbtgjr59px7",
               "title": "How to live without your phone",
               "author": "Sam Kriss",
@@ -9073,7 +9322,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 14,
+              "position": 23,
               "id": "01krkc3v2q8zmh2h2qpsw9prxw",
               "title": "📗 Harpers Ferry during the Civil War",
               "author": "Eleanor Konik",
@@ -9100,7 +9349,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 15,
+              "position": 24,
               "id": "01kwkpvx062dytw4zfh294psvb",
               "title": "Heilige plekken dichtbij: Der Herrgott van Bentheim",
               "author": "De Ongelooflijke",
@@ -9131,7 +9380,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 16,
+              "position": 25,
               "id": "01kz84cd6qp18k7dfpv9b4khjc",
               "title": "⦿ Roden: 116 — Oooohhh Summer, How Much Risk Is a Useful Amount of Risk?",
               "author": "Craig Mod's Delivery Service",
@@ -9158,7 +9407,85 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 17,
+              "position": 26,
+              "id": "01m059ta2jr7jstn7cdahr41yy",
+              "title": "George Orwell to Steven Runciman, August 1920",
+              "author": "orwellfoundation.com",
+              "siteName": "The Orwell Foundation",
+              "category": "article",
+              "language": null,
+              "readingTime": "3 mins",
+              "readingMinutes": 3,
+              "wordCount": 628,
+              "publishedDate": "2011-03-18",
+              "savedDate": "2026-08-16T12:47:46.770000+00:00",
+              "imageUrl": null,
+              "sourceUrl": "https://www.orwellfoundation.com/the-orwell-foundation/orwell/essays-and-other-works/george-orwell-to-steven-runciman-august-1920/",
+              "readwiseUrl": "https://read.readwise.io/read/01m059ta2jr7jstn7cdahr41yy",
+              "summary": "Grove Terrace        Polperro RSO[1]    Cornwall. My dear Runciman[2], I have a little spare time, and I feel I must tell you about my first adventure as an amateur tramp. Like most tramps I was driven to it. When I got to a wretched little place in Devonshire, – Seaton Junction, Mynors[3], who had to...  <a class=\"excerpt-read-more\" href=\"https://www.orwellfoundation.com/the-orwell-foundation/orwell/essays-and-other-works/george-orwell-to-steven-runciman-august-1920/\" title=\"ReadGeorge Orwell to Steven Runciman, August 1920\">Read more »</a>",
+              "whyRead": "Luchtig, persoonlijk jeugddocument (Orwell was zeventien) waarin de latere fascinatie met \"tramps\" en het leven aan de onderkant van de samenleving al kiemt — een leuke aanvulling op de tramp-reportage elders in deze partij.",
+              "bestMoment": "ontspannen",
+              "tags": [
+                "biography",
+                "history",
+                "light-reading"
+              ],
+              "alsoIn": []
+            },
+            {
+              "position": 27,
+              "id": "01m059vzb20f0sy9sr2h2140d5",
+              "title": "Your Questions Answered: Wigan Pier",
+              "author": "orwellfoundation.com",
+              "siteName": "The Orwell Foundation",
+              "category": "article",
+              "language": null,
+              "readingTime": "2 mins",
+              "readingMinutes": 2,
+              "wordCount": 352,
+              "publishedDate": "2011-01-30",
+              "savedDate": "2026-08-16T12:48:41.314000+00:00",
+              "imageUrl": null,
+              "sourceUrl": "https://www.orwellfoundation.com/the-orwell-foundation/orwell/essays-and-other-works/your-questions-answered-wigan-pier/",
+              "readwiseUrl": "https://read.readwise.io/read/01m059vzb20f0sy9sr2h2140d5",
+              "summary": "This is a transcript of a BBC Overseas Service broadcast, 2 December 1943 COLIN WILLS: I am going to try some more of these trick questions on somebody else in another programme. And now we’ve got time for just one more question, asked by Sergeant Salt and Signalman McGrath serving in India. They say: ‘How...  <a class=\"excerpt-read-more\" href=\"https://www.orwellfoundation.com/the-orwell-foundation/orwell/essays-and-other-works/your-questions-answered-wigan-pier/\" title=\"ReadYour Questions Answered: Wigan Pier\">Read more »</a>",
+              "whyRead": "Kort en luchtig, maar raakt je interesse in Orwells non-fictie en schrijfcraft — een BBC-radiofragment waarin hij zelf de mythe rond zijn beroemde boektitel ontkracht.",
+              "bestMoment": "ontspannen",
+              "tags": [
+                "arts & culture",
+                "history",
+                "light-reading"
+              ],
+              "alsoIn": []
+            },
+            {
+              "position": 28,
+              "id": "01m059t227vbe5b84ps9k82zpr",
+              "title": "Confessions of a Book Reviewer",
+              "author": "orwellfoundation.com",
+              "siteName": "The Orwell Foundation",
+              "category": "article",
+              "language": null,
+              "readingTime": "7 mins",
+              "readingMinutes": 7,
+              "wordCount": 1673,
+              "publishedDate": "2011-06-24",
+              "savedDate": "2026-08-16T12:47:38.566000+00:00",
+              "imageUrl": null,
+              "sourceUrl": "https://www.orwellfoundation.com/the-orwell-foundation/orwell/essays-and-other-works/confessions-of-a-book-reviewer/",
+              "readwiseUrl": "https://read.readwise.io/read/01m059t227vbe5b84ps9k82zpr",
+              "summary": "\"The best practice, it has always seemed to me, would be simply to ignore the great majority of books and to give very long reviews – 1,000 words is a bare minimum – to the few that seem to matter.\"",
+              "whyRead": "Humoristisch maar herkenbaar essay over het métier van schrijven en recenseren — raakt je interesse in essayistiek en schrijfcraft, met Orwells kenmerkende zelfspot en scherpte.",
+              "bestMoment": "ontspannen",
+              "tags": [
+                "arts & culture",
+                "light-reading",
+                "writing craft"
+              ],
+              "alsoIn": []
+            },
+            {
+              "position": 29,
               "id": "01jvczv0xt002cjqyry0966s20",
               "title": "📚 Reading Roundup: Chunky Books",
               "author": "Eleanor Konik",
@@ -9185,7 +9512,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 18,
+              "position": 30,
               "id": "01kz9c349w1qjetrtf2m7v9ttr",
               "title": "Every book I read in July",
               "author": "Sam @ Knowledge Lust",
@@ -9213,7 +9540,32 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 19,
+              "position": 31,
+              "id": "01m059tsa0jy2myj4kn804wky1",
+              "title": "Nonsense Poetry",
+              "author": "orwellfoundation.com",
+              "siteName": "The Orwell Foundation",
+              "category": "article",
+              "language": null,
+              "readingTime": "6 mins",
+              "readingMinutes": 6,
+              "wordCount": 1390,
+              "publishedDate": "2012-02-01",
+              "savedDate": "2026-08-16T12:48:02.368000+00:00",
+              "imageUrl": null,
+              "sourceUrl": "https://www.orwellfoundation.com/the-orwell-foundation/orwell/essays-and-other-works/nonsense-poetry/",
+              "readwiseUrl": "https://read.readwise.io/read/01m059tsa0jy2myj4kn804wky1",
+              "summary": "This material remains under copyright in some jurisdictions, including the US, and is reproduced here with the kind permission of the Orwell Estate. The Orwell Foundation is an independent charity – please consider making a donation or becoming a Friend of the Foundation to help us maintain these resources for readers everywhere.  In many languages, it...  <a class=\"excerpt-read-more\" href=\"https://www.orwellfoundation.com/the-orwell-foundation/orwell/essays-and-other-works/nonsense-poetry/\" title=\"ReadNonsense Poetry\">Read more »</a>",
+              "whyRead": "Raakt je interesse in cultuurkritiek en literaire lore — Orwell duikt in het genre nonsense-poëzie via Edward Lear, en ontdekt onderweg een verrassend politiek understatement over gehoorzaamheid aan autoriteit.",
+              "bestMoment": "ontspannen",
+              "tags": [
+                "arts & culture",
+                "light-reading"
+              ],
+              "alsoIn": []
+            },
+            {
+              "position": 32,
               "id": "01k7twangrpxzxxt4v2pwf34n5",
               "title": "Fearful Folklore: The Rake, and Why Monsters Take Certain Shapes",
               "author": "Ghost Horses Writing Page",
@@ -9239,7 +9591,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 20,
+              "position": 33,
               "id": "01kqfrh21ph0xe1wbqw4y4zwsf",
               "title": "🥘 The Konik Method for Making Delicious Food",
               "author": "Eleanor Konik",
@@ -9265,7 +9617,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 21,
+              "position": 34,
               "id": "01kz4ncpay31e5wvhykxyg66kj",
               "title": "An Uncomplicated Man",
               "author": "Emily Wilson",
@@ -9290,7 +9642,32 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 22,
+              "position": 35,
+              "id": "01m059tkzd0ez80nnyx2a2t930",
+              "title": "Just Junk – But Who Could Resist It?",
+              "author": "orwellfoundation.com",
+              "siteName": "The Orwell Foundation",
+              "category": "article",
+              "language": null,
+              "readingTime": "5 mins",
+              "readingMinutes": 5,
+              "wordCount": 1064,
+              "publishedDate": "2011-06-06",
+              "savedDate": "2026-08-16T12:47:56.909000+00:00",
+              "imageUrl": null,
+              "sourceUrl": "https://www.orwellfoundation.com/the-orwell-foundation/orwell/essays-and-other-works/just-junk-but-who-could-resist-it/",
+              "readwiseUrl": "https://read.readwise.io/read/01m059tkzd0ez80nnyx2a2t930",
+              "summary": "\"I know a shop in Tottenham-Court road where I have never, over a period of many years, seen anything that was not offensively ugly...\"",
+              "whyRead": "Raakt je interesse in essayistiek en schrijfcraft — een luchtig, persoonlijk essay waarin Orwell laat zien hoe je van een alledaags onderwerp (rommelwinkels) een scherp geobserveerd stuk proza maakt.",
+              "bestMoment": "ontspannen",
+              "tags": [
+                "arts & culture",
+                "light-reading"
+              ],
+              "alsoIn": []
+            },
+            {
+              "position": 36,
               "id": "01kvyswh8ggabb27phjks81a5f",
               "title": "Escaping Flatland meetups summer 2026: times and places",
               "author": "Henrik Karlsson",
@@ -10396,6 +10773,7 @@ window.TOP_ARTICLES = {
               "whyRead": "Raakt je interesse in wetenschap en cultuurgeschiedenis; Bryson beschrijft de hele wetenschapsgeschiedenis met humor en verwondering, van atomen tot menselijke evolutie.",
               "bestMoment": "ontspannen",
               "tags": [
+                "light-reading",
                 "personal growth & life philosophy",
                 "popular science",
                 "writing & essays"
@@ -10424,6 +10802,7 @@ window.TOP_ARTICLES = {
               "tags": [
                 "cognitive science",
                 "health & wellness",
+                "light-reading",
                 "writing & essays"
               ],
               "alsoIn": []
@@ -10526,7 +10905,8 @@ window.TOP_ARTICLES = {
               "bestMoment": "ontspannen",
               "tags": [
                 "fiction",
-                "history"
+                "history",
+                "light-reading"
               ],
               "alsoIn": []
             },
@@ -10956,6 +11336,7 @@ window.TOP_ARTICLES = {
               "bestMoment": "ontspannen",
               "tags": [
                 "business & work",
+                "light-reading",
                 "personal growth & life philosophy",
                 "psychology & behavior"
               ],
@@ -11009,6 +11390,7 @@ window.TOP_ARTICLES = {
               "tags": [
                 "ai ethics & society",
                 "business & work",
+                "light-reading",
                 "psychology & behavior"
               ],
               "alsoIn": []
@@ -11187,6 +11569,7 @@ window.TOP_ARTICLES = {
               "tags": [
                 "health & wellness",
                 "learning & meta-learning",
+                "light-reading",
                 "psychology & behavior"
               ],
               "alsoIn": []
@@ -11239,6 +11622,7 @@ window.TOP_ARTICLES = {
               "tags": [
                 "cognitive science",
                 "learning & meta-learning",
+                "light-reading",
                 "personal growth & life philosophy"
               ],
               "alsoIn": []
@@ -11315,6 +11699,7 @@ window.TOP_ARTICLES = {
               "bestMoment": "ontspannen",
               "tags": [
                 "fiction",
+                "light-reading",
                 "popular science"
               ],
               "alsoIn": []
@@ -11415,6 +11800,7 @@ window.TOP_ARTICLES = {
               "whyRead": "Raakt je interesse in wetenschap en betekenis — Tim Urban schrijft essays die complex zijn en grappig tegelijk, met diepe conceptuele diepgang.",
               "bestMoment": "ontspannen",
               "tags": [
+                "light-reading",
                 "personal growth & life philosophy",
                 "popular science"
               ],
@@ -13317,11 +13703,20 @@ window.TOP_ARTICLES = {
         "bestMoment": "ontspannen",
         "tags": [
           "arts & culture",
+          "light-reading",
           "philosophy",
           "sociology & social structures"
         ],
-        "alsoIn": [],
-        "memberships": []
+        "alsoIn": [
+          "aaa-luchtig-top-100"
+        ],
+        "memberships": [
+          {
+            "familyId": "luchtig",
+            "size": "top-100",
+            "position": 14
+          }
+        ]
       },
       {
         "position": null,
@@ -13344,10 +13739,19 @@ window.TOP_ARTICLES = {
         "bestMoment": "ontspannen",
         "tags": [
           "arts & culture",
-          "history"
+          "history",
+          "light-reading"
         ],
-        "alsoIn": [],
-        "memberships": []
+        "alsoIn": [
+          "aaa-luchtig-top-100"
+        ],
+        "memberships": [
+          {
+            "familyId": "luchtig",
+            "size": "top-100",
+            "position": 27
+          }
+        ]
       },
       {
         "position": null,
@@ -13405,10 +13809,19 @@ window.TOP_ARTICLES = {
         "tags": [
           "arts & culture",
           "history",
+          "light-reading",
           "sociology & social structures"
         ],
-        "alsoIn": [],
-        "memberships": []
+        "alsoIn": [
+          "aaa-luchtig-top-100"
+        ],
+        "memberships": [
+          {
+            "familyId": "luchtig",
+            "size": "top-100",
+            "position": 13
+          }
+        ]
       },
       {
         "position": null,
@@ -13431,11 +13844,20 @@ window.TOP_ARTICLES = {
         "bestMoment": "analytisch",
         "tags": [
           "arts & culture",
+          "light-reading",
           "political philosophy",
           "sociology & social structures"
         ],
-        "alsoIn": [],
-        "memberships": []
+        "alsoIn": [
+          "aaa-luchtig-top-100"
+        ],
+        "memberships": [
+          {
+            "familyId": "luchtig",
+            "size": "top-100",
+            "position": 12
+          }
+        ]
       },
       {
         "position": null,
@@ -13458,11 +13880,20 @@ window.TOP_ARTICLES = {
         "bestMoment": "analytisch",
         "tags": [
           "arts & culture",
+          "light-reading",
           "political philosophy",
           "totalitarianism & fascism"
         ],
-        "alsoIn": [],
-        "memberships": []
+        "alsoIn": [
+          "aaa-luchtig-top-100"
+        ],
+        "memberships": [
+          {
+            "familyId": "luchtig",
+            "size": "top-100",
+            "position": 11
+          }
+        ]
       },
       {
         "position": null,
@@ -13512,16 +13943,29 @@ window.TOP_ARTICLES = {
         "bestMoment": "ontspannen",
         "tags": [
           "arts & culture",
+          "light-reading",
           "personal growth & life philosophy"
         ],
         "alsoIn": [
-          "aaa-short-top-100"
+          "aaa-short-top-100",
+          "aaa-luchtig-top-10",
+          "aaa-luchtig-top-100"
         ],
         "memberships": [
           {
             "familyId": "kort",
             "size": "top-100",
             "position": 94
+          },
+          {
+            "familyId": "luchtig",
+            "size": "top-10",
+            "position": 10
+          },
+          {
+            "familyId": "luchtig",
+            "size": "top-100",
+            "position": 10
           }
         ]
       },
@@ -13580,10 +14024,25 @@ window.TOP_ARTICLES = {
         "bestMoment": "analytisch",
         "tags": [
           "arts & culture",
+          "light-reading",
           "political philosophy"
         ],
-        "alsoIn": [],
-        "memberships": []
+        "alsoIn": [
+          "aaa-luchtig-top-10",
+          "aaa-luchtig-top-100"
+        ],
+        "memberships": [
+          {
+            "familyId": "luchtig",
+            "size": "top-10",
+            "position": 9
+          },
+          {
+            "familyId": "luchtig",
+            "size": "top-100",
+            "position": 9
+          }
+        ]
       },
       {
         "position": null,
@@ -13632,16 +14091,29 @@ window.TOP_ARTICLES = {
         "bestMoment": "analytisch",
         "tags": [
           "arts & culture",
+          "light-reading",
           "political philosophy"
         ],
         "alsoIn": [
-          "aaa-top-100"
+          "aaa-top-100",
+          "aaa-luchtig-top-10",
+          "aaa-luchtig-top-100"
         ],
         "memberships": [
           {
             "familyId": "algemeen",
             "size": "top-100",
             "position": 44
+          },
+          {
+            "familyId": "luchtig",
+            "size": "top-10",
+            "position": 4
+          },
+          {
+            "familyId": "luchtig",
+            "size": "top-100",
+            "position": 4
           }
         ]
       },
@@ -13669,13 +14141,25 @@ window.TOP_ARTICLES = {
           "political philosophy"
         ],
         "alsoIn": [
-          "aaa-top-100"
+          "aaa-top-100",
+          "aaa-luchtig-top-10",
+          "aaa-luchtig-top-100"
         ],
         "memberships": [
           {
             "familyId": "algemeen",
             "size": "top-100",
             "position": 43
+          },
+          {
+            "familyId": "luchtig",
+            "size": "top-10",
+            "position": 3
+          },
+          {
+            "familyId": "luchtig",
+            "size": "top-100",
+            "position": 3
           }
         ]
       },
@@ -13768,10 +14252,19 @@ window.TOP_ARTICLES = {
         "whyRead": "Raakt je interesse in cultuurkritiek en literaire lore — Orwell duikt in het genre nonsense-poëzie via Edward Lear, en ontdekt onderweg een verrassend politiek understatement over gehoorzaamheid aan autoriteit.",
         "bestMoment": "ontspannen",
         "tags": [
-          "arts & culture"
+          "arts & culture",
+          "light-reading"
         ],
-        "alsoIn": [],
-        "memberships": []
+        "alsoIn": [
+          "aaa-luchtig-top-100"
+        ],
+        "memberships": [
+          {
+            "familyId": "luchtig",
+            "size": "top-100",
+            "position": 31
+          }
+        ]
       },
       {
         "position": null,
@@ -13827,10 +14320,19 @@ window.TOP_ARTICLES = {
         "whyRead": "Raakt je interesse in essayistiek en schrijfcraft — een luchtig, persoonlijk essay waarin Orwell laat zien hoe je van een alledaags onderwerp (rommelwinkels) een scherp geobserveerd stuk proza maakt.",
         "bestMoment": "ontspannen",
         "tags": [
-          "arts & culture"
+          "arts & culture",
+          "light-reading"
         ],
-        "alsoIn": [],
-        "memberships": []
+        "alsoIn": [
+          "aaa-luchtig-top-100"
+        ],
+        "memberships": [
+          {
+            "familyId": "luchtig",
+            "size": "top-100",
+            "position": 35
+          }
+        ]
       },
       {
         "position": null,
@@ -13893,10 +14395,19 @@ window.TOP_ARTICLES = {
         "bestMoment": "ontspannen",
         "tags": [
           "arts & culture",
+          "light-reading",
           "philosophy"
         ],
-        "alsoIn": [],
-        "memberships": []
+        "alsoIn": [
+          "aaa-luchtig-top-100"
+        ],
+        "memberships": [
+          {
+            "familyId": "luchtig",
+            "size": "top-100",
+            "position": 21
+          }
+        ]
       },
       {
         "position": null,
@@ -13945,10 +14456,19 @@ window.TOP_ARTICLES = {
         "bestMoment": "ontspannen",
         "tags": [
           "biography",
-          "history"
+          "history",
+          "light-reading"
         ],
-        "alsoIn": [],
-        "memberships": []
+        "alsoIn": [
+          "aaa-luchtig-top-100"
+        ],
+        "memberships": [
+          {
+            "familyId": "luchtig",
+            "size": "top-100",
+            "position": 26
+          }
+        ]
       },
       {
         "position": null,
@@ -14052,10 +14572,19 @@ window.TOP_ARTICLES = {
         "bestMoment": "ontspannen",
         "tags": [
           "arts & culture",
+          "light-reading",
           "writing craft"
         ],
-        "alsoIn": [],
-        "memberships": []
+        "alsoIn": [
+          "aaa-luchtig-top-100"
+        ],
+        "memberships": [
+          {
+            "familyId": "luchtig",
+            "size": "top-100",
+            "position": 28
+          }
+        ]
       },
       {
         "position": null,
@@ -15435,7 +15964,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 18
+            "position": 30
           }
         ]
       },
@@ -15498,7 +16027,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 12
+            "position": 20
           }
         ]
       },
@@ -15561,7 +16090,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 16
+            "position": 25
           }
         ]
       },
@@ -15949,7 +16478,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 21
+            "position": 34
           }
         ]
       },
@@ -16229,7 +16758,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 11
+            "position": 19
           }
         ]
       },
@@ -19236,7 +19765,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 15
+            "position": 24
           },
           {
             "familyId": "luchtig-nederlands",
@@ -19660,7 +20189,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 22
+            "position": 36
           }
         ]
       },
@@ -20500,12 +21029,12 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-10",
-            "position": 6
+            "position": 8
           },
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 6
+            "position": 8
           },
           {
             "familyId": "luchtig-nederlands",
@@ -22226,19 +22755,13 @@ window.TOP_ARTICLES = {
           "sociology & social structures"
         ],
         "alsoIn": [
-          "aaa-luchtig-top-10",
           "aaa-luchtig-top-100"
         ],
         "memberships": [
           {
             "familyId": "luchtig",
-            "size": "top-10",
-            "position": 10
-          },
-          {
-            "familyId": "luchtig",
             "size": "top-100",
-            "position": 10
+            "position": 18
           }
         ]
       },
@@ -22551,12 +23074,12 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-10",
-            "position": 5
+            "position": 7
           },
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 5
+            "position": 7
           }
         ]
       },
@@ -22639,7 +23162,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 14
+            "position": 23
           }
         ]
       },
@@ -23291,7 +23814,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 20
+            "position": 33
           }
         ]
       },
@@ -24609,12 +25132,12 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-10",
-            "position": 4
+            "position": 6
           },
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 4
+            "position": 6
           }
         ]
       },
@@ -25239,12 +25762,12 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-10",
-            "position": 3
+            "position": 5
           },
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 3
+            "position": 5
           }
         ]
       },
@@ -26062,19 +26585,13 @@ window.TOP_ARTICLES = {
           "sociology & inequality"
         ],
         "alsoIn": [
-          "aaa-luchtig-top-10",
           "aaa-luchtig-top-100"
         ],
         "memberships": [
           {
             "familyId": "luchtig",
-            "size": "top-10",
-            "position": 9
-          },
-          {
-            "familyId": "luchtig",
             "size": "top-100",
-            "position": 9
+            "position": 17
           }
         ]
       },
@@ -26594,19 +27111,13 @@ window.TOP_ARTICLES = {
           "psychology & behavior"
         ],
         "alsoIn": [
-          "aaa-luchtig-top-10",
           "aaa-luchtig-top-100"
         ],
         "memberships": [
           {
             "familyId": "luchtig",
-            "size": "top-10",
-            "position": 8
-          },
-          {
-            "familyId": "luchtig",
             "size": "top-100",
-            "position": 8
+            "position": 16
           }
         ]
       },
@@ -27339,7 +27850,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 19
+            "position": 32
           }
         ]
       },
@@ -27369,19 +27880,13 @@ window.TOP_ARTICLES = {
           "light-reading"
         ],
         "alsoIn": [
-          "aaa-luchtig-top-10",
           "aaa-luchtig-top-100"
         ],
         "memberships": [
           {
             "familyId": "luchtig",
-            "size": "top-10",
-            "position": 7
-          },
-          {
-            "familyId": "luchtig",
             "size": "top-100",
-            "position": 7
+            "position": 15
           }
         ]
       },
@@ -29705,7 +30210,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 17
+            "position": 29
           }
         ]
       },
@@ -29783,7 +30288,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 13
+            "position": 22
           }
         ]
       },
@@ -30876,6 +31381,7 @@ window.TOP_ARTICLES = {
         "whyRead": "Raakt je interesse in wetenschap en betekenis — Tim Urban schrijft essays die complex zijn en grappig tegelijk, met diepe conceptuele diepgang.",
         "bestMoment": "ontspannen",
         "tags": [
+          "light-reading",
           "personal growth & life philosophy",
           "popular science"
         ],
@@ -30912,6 +31418,7 @@ window.TOP_ARTICLES = {
         "tags": [
           "cognitive science",
           "learning & meta-learning",
+          "light-reading",
           "personal growth & life philosophy"
         ],
         "alsoIn": [
@@ -30982,6 +31489,7 @@ window.TOP_ARTICLES = {
         "tags": [
           "ai ethics & society",
           "business & work",
+          "light-reading",
           "psychology & behavior"
         ],
         "alsoIn": [
@@ -31052,6 +31560,7 @@ window.TOP_ARTICLES = {
         "tags": [
           "health & wellness",
           "learning & meta-learning",
+          "light-reading",
           "psychology & behavior"
         ],
         "alsoIn": [
@@ -31087,6 +31596,7 @@ window.TOP_ARTICLES = {
         "tags": [
           "cognitive science",
           "health & wellness",
+          "light-reading",
           "writing & essays"
         ],
         "alsoIn": [
@@ -31267,6 +31777,7 @@ window.TOP_ARTICLES = {
         "bestMoment": "ontspannen",
         "tags": [
           "business & work",
+          "light-reading",
           "personal growth & life philosophy",
           "psychology & behavior"
         ],
@@ -31873,7 +32384,8 @@ window.TOP_ARTICLES = {
         "bestMoment": "ontspannen",
         "tags": [
           "fiction",
-          "history"
+          "history",
+          "light-reading"
         ],
         "alsoIn": [
           "boek-top-100"
@@ -31907,6 +32419,7 @@ window.TOP_ARTICLES = {
         "bestMoment": "ontspannen",
         "tags": [
           "fiction",
+          "light-reading",
           "popular science"
         ],
         "alsoIn": [
@@ -31940,6 +32453,7 @@ window.TOP_ARTICLES = {
         "whyRead": "Raakt je interesse in wetenschap en cultuurgeschiedenis; Bryson beschrijft de hele wetenschapsgeschiedenis met humor en verwondering, van atomen tot menselijke evolutie.",
         "bestMoment": "ontspannen",
         "tags": [
+          "light-reading",
           "personal growth & life philosophy",
           "popular science",
           "writing & essays"
@@ -32235,48 +32749,48 @@ window.TOP_ARTICLES = {
           "position": 16
         },
         {
+          "id": "01m059v21gaqg3ya0m36r03km4",
+          "title": "Politics and the English Language",
+          "position": 17
+        },
+        {
+          "id": "01m059v4r9jj9vzx30nn7cs3sr",
+          "title": "Politics vs. Literature: An examination of Gulliver’s Travels",
+          "position": 18
+        },
+        {
           "id": "01j60f108dfd1k8q12ah4cmp16",
           "title": "Hunting",
-          "position": 17
+          "position": 19
         },
         {
           "id": "01j8s9z9xg4shgce5z167zc7fn",
           "title": "📰 Food as Currency - by Eleanor Konik - Manuscriptions\n📰 Food as Currency",
-          "position": 18
+          "position": 20
         },
         {
           "id": "01jjmt3derk62gvm51m286870b",
           "title": "🎓 On Famines: why and how they happen. To who?",
-          "position": 19
+          "position": 21
         },
         {
           "id": "01jjxdnzz04ees7fytca2rnntw",
           "title": "🎓 Maritime Empires",
-          "position": 20
+          "position": 22
         },
         {
           "id": "01k1mhw46shwzk87214g7gtc9w",
           "title": "Het begin van een oplossing",
-          "position": 21
+          "position": 23
         },
         {
           "id": "01k3wpn5ak9v4pmtc85h462cav",
           "title": "On the pleasure of reading private notebooks",
-          "position": 22
+          "position": 24
         },
         {
           "id": "01k72qx64tdvkryenrbd5g81px",
           "title": "The Dire State of Contemporary Western Philosophy",
-          "position": 23
-        },
-        {
-          "id": "01k7j6j6mdje8x3v1jt8hqaba4",
-          "title": "The Mimetic Trap",
-          "position": 24
-        },
-        {
-          "id": "01k7qbgbanjkbvetnkfd47vkrz",
-          "title": "How I wrote \"Looking for Alice\"",
           "position": 25
         }
       ]
