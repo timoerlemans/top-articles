@@ -19,6 +19,15 @@ export const SEQUENCE_ORDER = [
   "luchtig-nederlands",
 ];
 
+const LIGHT_TOPIC_TAGS = new Set([
+  "arts & culture",
+  "fiction",
+  "games",
+  "food & cooking",
+  "sports & recreation",
+  "entertainment & pop culture",
+]);
+
 const TIER_ORDER = { hoog: 0, midden: 1, laag: 2 };
 const COMPONENT_KEYS = [
   "kerninteresse",
@@ -86,7 +95,7 @@ export function sequencesForDocument(doc) {
   if (!sequences.has("boek")) {
     const tags = new Set(tagsFor(doc));
     const lightReading = tags.has("light-reading") || [...tags].some((tag) =>
-      /^luchtig-\d{3,4}$/.test(tag) || tag === "aaa-luchtig-top-10" || tag === "aaa-luchtig-top-100"
+      /^luchtig-\d{3,4}$/.test(tag) || tag === "aaa-luchtig-top-10" || tag === "aaa-luchtig-top-100" || LIGHT_TOPIC_TAGS.has(tag)
     );
     if (lightReading) {
       sequences.add("luchtig");

@@ -88,6 +88,28 @@ test("een pdf is niet strikt exclusief en mag wel in luchtig belanden", () => {
   );
 });
 
+test("een lichte onderwerptag zoals fiction classificeert ook zonder light-reading-tag als luchtig", () => {
+  assert.ok(sequencesForDocument(document({ tags: { fiction: {} } })).includes("luchtig"));
+});
+
+test("een onderwerptag buiten de lichte kernset classificeert niet als luchtig", () => {
+  assert.ok(!sequencesForDocument(document({ tags: { "political philosophy": {} } })).includes("luchtig"));
+});
+
+test("een boek met een lichte onderwerptag zoals games hoort nog steeds strikt alleen in boek", () => {
+  assert.deepEqual(
+    sequencesForDocument(document({ category: "epub", tags: { games: {} } })),
+    ["boek"]
+  );
+});
+
+test("een NL-document met een lichte onderwerptag krijgt ook luchtig-nederlands", () => {
+  assert.deepEqual(
+    sequencesForDocument(document({ tags: { fiction: {}, dutch: {} } })),
+    ["lees", "dutch", "luchtig", "luchtig-nederlands"]
+  );
+});
+
 test("gebruikt language en expliciete taaltags zonder tekstheuristiek", () => {
   assert.equal(detectDutch(document({ language: "nl", title: "The history of ideas" })), true);
   assert.equal(detectDutch(document({ language: "en", tags: { dutch: {} }, title: "De geschiedenis" })), false);
