@@ -74,6 +74,17 @@ test("classificeert light-reading in beide luchtig-reeksen", () => {
   assert.ok(sequencesForDocument(document({ tags: { "luchtig-0007": {} } })).includes("luchtig"));
 });
 
+test("een boek belandt nooit in luchtig of luchtig-nederlands, ook niet met light-reading-signalen", () => {
+  assert.deepEqual(
+    sequencesForDocument(document({ category: "epub", tags: { "light-reading": {}, dutch: {} } })),
+    ["boek"]
+  );
+  assert.deepEqual(
+    sequencesForDocument(document({ category: "pdf", tags: { "luchtig-0007": {} } })),
+    ["boek"]
+  );
+});
+
 test("gebruikt language en expliciete taaltags zonder tekstheuristiek", () => {
   assert.equal(detectDutch(document({ language: "nl", title: "The history of ideas" })), true);
   assert.equal(detectDutch(document({ language: "en", tags: { dutch: {} }, title: "De geschiedenis" })), false);

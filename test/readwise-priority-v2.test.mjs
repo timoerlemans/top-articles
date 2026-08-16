@@ -140,3 +140,26 @@ test("bepaalt reeksen onafhankelijk en laat boeken nooit in lees toe", () => {
   assert.equal(scorePriorityDocument(document({ reading_time: "0 mins" })).components.leeskans, 5);
   assert.ok(sequencesForDocument(document({ reading_time: "0 mins" })).includes("short"));
 });
+
+test("een boek zit strikt alleen in de boek-reeks, ook met Nederlandse taal of korte leestijd", () => {
+  assert.deepEqual(
+    sequencesForDocument(document({
+      category: "epub",
+      reading_time: "7 mins",
+      tags: { nederlands: {} },
+    })),
+    ["boek"]
+  );
+  assert.deepEqual(
+    sequencesForDocument(document({
+      category: "pdf",
+      reading_time: "5 mins",
+      language: "nl",
+    })),
+    ["boek"]
+  );
+  assert.deepEqual(
+    sequencesForDocument(document({ category: "article", tags: { books: {}, dutch: {} } })),
+    ["boek"]
+  );
+});

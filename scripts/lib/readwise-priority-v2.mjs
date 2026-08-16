@@ -243,8 +243,8 @@ export function sequencesForDocument(doc) {
   if (category === "video") sequences.push("video");
   if (book) sequences.push("boek");
   if (!book && ["article", "email", "rss"].includes(category)) sequences.push("lees");
-  if (dutch) sequences.push("dutch");
-  if (short) sequences.push("short");
-  if (short && dutch) sequences.push("short-dutch");
+  if (!book && dutch) sequences.push("dutch");
+  if (!book && short) sequences.push("short");
+  if (!book && short && dutch) sequences.push("short-dutch");
   return SEQUENCE_ORDER.filter((sequence) => sequences.includes(sequence));
 }

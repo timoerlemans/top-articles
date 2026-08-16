@@ -1,6 +1,6 @@
 // Automatisch gegenereerd door scripts/build-data.mjs — niet handmatig bewerken.
 window.TOP_ARTICLE_PRIORITY = {
-  "generatedAt": "2026-08-16T11:54:25.075Z",
+  "generatedAt": "2026-08-16T12:19:27.349Z",
   "model": "readwise-priority-v3",
   "scope": "later",
   "items": {
@@ -41,44 +41,6 @@ window.TOP_ARTICLE_PRIORITY = {
       "positions": {
         "lees": 335,
         "short": 158
-      },
-      "actualPositions": {}
-    },
-    "01m03kpqxjt0xfp279arhh8ay6": {
-      "baseScore": 85,
-      "adjustment": 0,
-      "adjustmentReason": null,
-      "score": 85,
-      "tier": "hoog",
-      "components": {
-        "kerninteresse": 45,
-        "diepgang": 20,
-        "persoonlijke_bruikbaarheid": 10,
-        "leeskans": 0,
-        "onderscheidende_duurzame_waarde": 10,
-        "aftrek": 0
-      },
-      "rationale": {
-        "kerninteresse": [
-          "Minstens twee kerndomeinen: filosofie, ideologie."
-        ],
-        "diepgang": [
-          "PDF geldt als diepgaand formaat."
-        ],
-        "persoonlijke_bruikbaarheid": [
-          "Indirect bruikbaar via een kerndomein."
-        ],
-        "leeskans": [],
-        "onderscheidende_duurzame_waarde": [
-          "PDF heeft duurzame waarde."
-        ],
-        "aftrek": []
-      },
-      "sequences": [
-        "boek"
-      ],
-      "positions": {
-        "boek": 27
       },
       "actualPositions": {}
     },
@@ -158,7 +120,7 @@ window.TOP_ARTICLE_PRIORITY = {
       ],
       "positions": {
         "lees": 319,
-        "dutch": 33
+        "dutch": 25
       },
       "actualPositions": {
         "lees": 362,
@@ -201,7 +163,7 @@ window.TOP_ARTICLE_PRIORITY = {
       ],
       "positions": {
         "lees": 359,
-        "dutch": 41,
+        "dutch": 29,
         "short": 178,
         "short-dutch": 17
       },
@@ -252,7 +214,7 @@ window.TOP_ARTICLE_PRIORITY = {
       ],
       "positions": {
         "lees": 250,
-        "dutch": 27,
+        "dutch": 19,
         "short": 146,
         "short-dutch": 13
       },
@@ -303,7 +265,7 @@ window.TOP_ARTICLE_PRIORITY = {
       ],
       "positions": {
         "lees": 249,
-        "dutch": 26,
+        "dutch": 18,
         "short": 145,
         "short-dutch": 12
       },
@@ -440,7 +402,7 @@ window.TOP_ARTICLE_PRIORITY = {
       ],
       "positions": {
         "lees": 318,
-        "dutch": 32
+        "dutch": 24
       },
       "actualPositions": {
         "lees": 357,
@@ -567,7 +529,7 @@ window.TOP_ARTICLE_PRIORITY = {
       ],
       "positions": {
         "lees": 401,
-        "dutch": 49,
+        "dutch": 33,
         "short": 194,
         "short-dutch": 20
       },
@@ -612,7 +574,7 @@ window.TOP_ARTICLE_PRIORITY = {
       ],
       "positions": {
         "lees": 397,
-        "dutch": 48
+        "dutch": 32
       },
       "actualPositions": {
         "lees": 432,
@@ -918,7 +880,7 @@ window.TOP_ARTICLE_PRIORITY = {
       ],
       "positions": {
         "lees": 88,
-        "dutch": 10,
+        "dutch": 6,
         "short": 56,
         "short-dutch": 5
       },
@@ -1052,7 +1014,7 @@ window.TOP_ARTICLE_PRIORITY = {
       ],
       "positions": {
         "lees": 381,
-        "dutch": 42,
+        "dutch": 30,
         "short": 189,
         "short-dutch": 18
       },
@@ -1305,7 +1267,7 @@ window.TOP_ARTICLE_PRIORITY = {
       ],
       "positions": {
         "lees": 414,
-        "dutch": 50,
+        "dutch": 34,
         "short": 207,
         "short-dutch": 21
       },
@@ -1698,7 +1660,7 @@ window.TOP_ARTICLE_PRIORITY = {
       "positions": {
         "lees": 413,
         "short": 206,
-        "luchtig": 27
+        "luchtig": 18
       },
       "actualPositions": {
         "lees": 427,
@@ -1782,7 +1744,7 @@ window.TOP_ARTICLE_PRIORITY = {
       "positions": {
         "lees": 242,
         "short": 138,
-        "luchtig": 15
+        "luchtig": 12
       },
       "actualPositions": {
         "lees": 342,
@@ -1864,7 +1826,7 @@ window.TOP_ARTICLE_PRIORITY = {
       ],
       "positions": {
         "lees": 312,
-        "luchtig": 19
+        "luchtig": 16
       },
       "actualPositions": {
         "lees": 341,
@@ -2383,7 +2345,7 @@ window.TOP_ARTICLE_PRIORITY = {
         "boek"
       ],
       "positions": {
-        "boek": 83
+        "boek": 82
       },
       "actualPositions": {
         "boek": 88
@@ -2421,7 +2383,7 @@ window.TOP_ARTICLE_PRIORITY = {
       ],
       "positions": {
         "lees": 428,
-        "luchtig": 30
+        "luchtig": 21
       },
       "actualPositions": {
         "lees": 416,
@@ -2811,7 +2773,7 @@ window.TOP_ARTICLE_PRIORITY = {
       "positions": {
         "lees": 239,
         "short": 135,
-        "luchtig": 14
+        "luchtig": 11
       },
       "actualPositions": {
         "lees": 332,
@@ -2942,7 +2904,7 @@ window.TOP_ARTICLE_PRIORITY = {
       ],
       "positions": {
         "lees": 82,
-        "dutch": 9,
+        "dutch": 5,
         "short": 51,
         "short-dutch": 4
       },
@@ -2989,7 +2951,7 @@ window.TOP_ARTICLE_PRIORITY = {
       ],
       "positions": {
         "lees": 39,
-        "luchtig": 4
+        "luchtig": 2
       },
       "actualPositions": {
         "lees": 154,
@@ -3274,7 +3236,7 @@ window.TOP_ARTICLE_PRIORITY = {
       ],
       "positions": {
         "lees": 14,
-        "dutch": 4,
+        "dutch": 1,
         "short": 13,
         "short-dutch": 1
       },
@@ -3363,7 +3325,7 @@ window.TOP_ARTICLE_PRIORITY = {
       ],
       "positions": {
         "lees": 197,
-        "dutch": 22,
+        "dutch": 14,
         "short": 94,
         "short-dutch": 8
       },
@@ -3410,7 +3372,7 @@ window.TOP_ARTICLE_PRIORITY = {
       ],
       "positions": {
         "lees": 37,
-        "dutch": 6
+        "dutch": 2
       },
       "actualPositions": {
         "lees": 150,
@@ -3536,7 +3498,7 @@ window.TOP_ARTICLE_PRIORITY = {
         "boek"
       ],
       "positions": {
-        "boek": 57
+        "boek": 56
       },
       "actualPositions": {
         "boek": 55
@@ -3949,7 +3911,7 @@ window.TOP_ARTICLE_PRIORITY = {
         "boek"
       ],
       "positions": {
-        "boek": 82
+        "boek": 81
       },
       "actualPositions": {
         "boek": 87
@@ -4235,7 +4197,7 @@ window.TOP_ARTICLE_PRIORITY = {
         "boek"
       ],
       "positions": {
-        "boek": 81
+        "boek": 80
       },
       "actualPositions": {
         "boek": 86
@@ -4273,7 +4235,7 @@ window.TOP_ARTICLE_PRIORITY = {
         "boek"
       ],
       "positions": {
-        "boek": 80
+        "boek": 79
       },
       "actualPositions": {
         "boek": 85
@@ -4311,7 +4273,7 @@ window.TOP_ARTICLE_PRIORITY = {
         "boek"
       ],
       "positions": {
-        "boek": 79
+        "boek": 78
       },
       "actualPositions": {
         "boek": 84
@@ -4425,7 +4387,7 @@ window.TOP_ARTICLE_PRIORITY = {
         "boek"
       ],
       "positions": {
-        "boek": 102
+        "boek": 101
       },
       "actualPositions": {
         "boek": 101
@@ -4506,7 +4468,7 @@ window.TOP_ARTICLE_PRIORITY = {
         "boek"
       ],
       "positions": {
-        "boek": 78
+        "boek": 77
       },
       "actualPositions": {
         "boek": 83
@@ -4544,7 +4506,7 @@ window.TOP_ARTICLE_PRIORITY = {
         "boek"
       ],
       "positions": {
-        "boek": 77
+        "boek": 76
       },
       "actualPositions": {
         "boek": 82
@@ -4584,7 +4546,7 @@ window.TOP_ARTICLE_PRIORITY = {
         "boek"
       ],
       "positions": {
-        "boek": 56
+        "boek": 55
       },
       "actualPositions": {
         "boek": 54
@@ -4780,7 +4742,7 @@ window.TOP_ARTICLE_PRIORITY = {
         "boek"
       ],
       "positions": {
-        "boek": 76
+        "boek": 75
       },
       "actualPositions": {
         "boek": 81
@@ -5495,7 +5457,7 @@ window.TOP_ARTICLE_PRIORITY = {
         "boek"
       ],
       "positions": {
-        "boek": 55
+        "boek": 54
       },
       "actualPositions": {
         "boek": 53
@@ -5936,7 +5898,7 @@ window.TOP_ARTICLE_PRIORITY = {
         "boek"
       ],
       "positions": {
-        "boek": 68
+        "boek": 67
       },
       "actualPositions": {
         "boek": 80
@@ -5972,7 +5934,7 @@ window.TOP_ARTICLE_PRIORITY = {
         "boek"
       ],
       "positions": {
-        "boek": 101
+        "boek": 100
       },
       "actualPositions": {
         "boek": 100
@@ -6014,7 +5976,7 @@ window.TOP_ARTICLE_PRIORITY = {
       ],
       "positions": {
         "lees": 392,
-        "dutch": 47,
+        "dutch": 31,
         "short": 193,
         "short-dutch": 19
       },
@@ -6488,7 +6450,7 @@ window.TOP_ARTICLE_PRIORITY = {
       ],
       "positions": {
         "lees": 229,
-        "dutch": 25,
+        "dutch": 17,
         "short": 125,
         "short-dutch": 11
       },
@@ -6577,9 +6539,9 @@ window.TOP_ARTICLE_PRIORITY = {
       ],
       "positions": {
         "lees": 303,
-        "dutch": 31,
-        "luchtig": 18,
-        "luchtig-nederlands": 4
+        "dutch": 23,
+        "luchtig": 15,
+        "luchtig-nederlands": 2
       },
       "actualPositions": {
         "lees": 302,
@@ -6626,7 +6588,7 @@ window.TOP_ARTICLE_PRIORITY = {
       ],
       "positions": {
         "lees": 191,
-        "dutch": 21,
+        "dutch": 13,
         "short": 90,
         "short-dutch": 7
       },
@@ -6877,7 +6839,7 @@ window.TOP_ARTICLE_PRIORITY = {
         "boek"
       ],
       "positions": {
-        "boek": 67
+        "boek": 66
       },
       "actualPositions": {
         "boek": 79
@@ -7129,7 +7091,7 @@ window.TOP_ARTICLE_PRIORITY = {
       "positions": {
         "lees": 433,
         "short": 211,
-        "luchtig": 31
+        "luchtig": 22
       },
       "actualPositions": {
         "lees": 405,
@@ -8049,7 +8011,7 @@ window.TOP_ARTICLE_PRIORITY = {
       ],
       "positions": {
         "lees": 223,
-        "dutch": 24,
+        "dutch": 16,
         "short": 119,
         "short-dutch": 10
       },
@@ -8184,7 +8146,7 @@ window.TOP_ARTICLE_PRIORITY = {
       ],
       "positions": {
         "lees": 327,
-        "dutch": 38,
+        "dutch": 27,
         "short": 151,
         "short-dutch": 15
       },
@@ -8237,11 +8199,11 @@ window.TOP_ARTICLE_PRIORITY = {
       ],
       "positions": {
         "lees": 146,
-        "dutch": 20,
+        "dutch": 12,
         "short": 81,
         "short-dutch": 6,
-        "luchtig": 9,
-        "luchtig-nederlands": 3
+        "luchtig": 6,
+        "luchtig-nederlands": 1
       },
       "actualPositions": {
         "lees": 111,
@@ -8415,7 +8377,7 @@ window.TOP_ARTICLE_PRIORITY = {
       ],
       "positions": {
         "lees": 222,
-        "dutch": 23,
+        "dutch": 15,
         "short": 118,
         "short-dutch": 9
       },
@@ -8586,7 +8548,7 @@ window.TOP_ARTICLE_PRIORITY = {
       ],
       "positions": {
         "lees": 348,
-        "dutch": 40,
+        "dutch": 28,
         "short": 168,
         "short-dutch": 16
       },
@@ -8758,7 +8720,7 @@ window.TOP_ARTICLE_PRIORITY = {
       ],
       "positions": {
         "lees": 326,
-        "dutch": 37,
+        "dutch": 26,
         "short": 150,
         "short-dutch": 14
       },
@@ -9415,7 +9377,7 @@ window.TOP_ARTICLE_PRIORITY = {
         "boek"
       ],
       "positions": {
-        "boek": 100
+        "boek": 99
       },
       "actualPositions": {
         "boek": 99
@@ -9533,7 +9495,7 @@ window.TOP_ARTICLE_PRIORITY = {
       ],
       "positions": {
         "lees": 141,
-        "dutch": 19
+        "dutch": 11
       },
       "actualPositions": {
         "lees": 104,
@@ -10662,7 +10624,7 @@ window.TOP_ARTICLE_PRIORITY = {
       "positions": {
         "lees": 216,
         "short": 112,
-        "luchtig": 13
+        "luchtig": 10
       },
       "actualPositions": {
         "lees": 250,
@@ -11068,7 +11030,7 @@ window.TOP_ARTICLE_PRIORITY = {
       ],
       "positions": {
         "lees": 134,
-        "luchtig": 8
+        "luchtig": 5
       },
       "actualPositions": {
         "lees": 92,
@@ -11156,7 +11118,7 @@ window.TOP_ARTICLE_PRIORITY = {
       ],
       "positions": {
         "lees": 282,
-        "luchtig": 17
+        "luchtig": 14
       },
       "actualPositions": {
         "lees": 243,
@@ -11441,7 +11403,7 @@ window.TOP_ARTICLE_PRIORITY = {
         "boek"
       ],
       "positions": {
-        "boek": 34
+        "boek": 33
       },
       "actualPositions": {
         "boek": 48
@@ -11893,7 +11855,7 @@ window.TOP_ARTICLE_PRIORITY = {
       ],
       "positions": {
         "lees": 130,
-        "dutch": 18
+        "dutch": 10
       },
       "actualPositions": {
         "lees": 81,
@@ -11972,7 +11934,7 @@ window.TOP_ARTICLE_PRIORITY = {
       ],
       "positions": {
         "lees": 420,
-        "luchtig": 29
+        "luchtig": 20
       },
       "actualPositions": {
         "lees": 385,
@@ -12928,7 +12890,7 @@ window.TOP_ARTICLE_PRIORITY = {
       ],
       "positions": {
         "lees": 24,
-        "luchtig": 3
+        "luchtig": 1
       },
       "actualPositions": {
         "lees": 70,
@@ -13090,7 +13052,7 @@ window.TOP_ARTICLE_PRIORITY = {
         "boek"
       ],
       "positions": {
-        "boek": 99
+        "boek": 98
       },
       "actualPositions": {
         "boek": 98
@@ -13539,7 +13501,7 @@ window.TOP_ARTICLE_PRIORITY = {
         "boek"
       ],
       "positions": {
-        "boek": 75
+        "boek": 74
       },
       "actualPositions": {
         "boek": 78
@@ -13664,7 +13626,7 @@ window.TOP_ARTICLE_PRIORITY = {
       ],
       "positions": {
         "lees": 120,
-        "luchtig": 7
+        "luchtig": 4
       },
       "actualPositions": {
         "lees": 61,
@@ -13705,7 +13667,7 @@ window.TOP_ARTICLE_PRIORITY = {
         "boek"
       ],
       "positions": {
-        "boek": 33
+        "boek": 32
       },
       "actualPositions": {
         "boek": 45
@@ -13910,7 +13872,7 @@ window.TOP_ARTICLE_PRIORITY = {
         "boek"
       ],
       "positions": {
-        "boek": 54
+        "boek": 53
       },
       "actualPositions": {
         "boek": 44
@@ -14185,7 +14147,7 @@ window.TOP_ARTICLE_PRIORITY = {
         "boek"
       ],
       "positions": {
-        "boek": 98
+        "boek": 97
       },
       "actualPositions": {
         "boek": 77
@@ -14470,7 +14432,7 @@ window.TOP_ARTICLE_PRIORITY = {
       ],
       "positions": {
         "lees": 117,
-        "luchtig": 6
+        "luchtig": 3
       },
       "actualPositions": {
         "lees": 56,
@@ -14547,7 +14509,7 @@ window.TOP_ARTICLE_PRIORITY = {
         "boek"
       ],
       "positions": {
-        "boek": 97
+        "boek": 96
       },
       "actualPositions": {
         "boek": 97
@@ -14840,7 +14802,7 @@ window.TOP_ARTICLE_PRIORITY = {
       ],
       "positions": {
         "lees": 56,
-        "dutch": 8,
+        "dutch": 4,
         "short": 28,
         "short-dutch": 3
       },
@@ -14972,7 +14934,7 @@ window.TOP_ARTICLE_PRIORITY = {
       ],
       "positions": {
         "lees": 114,
-        "dutch": 17
+        "dutch": 9
       },
       "actualPositions": {
         "lees": 50,
@@ -15013,7 +14975,7 @@ window.TOP_ARTICLE_PRIORITY = {
         "boek"
       ],
       "positions": {
-        "boek": 53
+        "boek": 52
       },
       "actualPositions": {
         "boek": 43
@@ -15053,7 +15015,7 @@ window.TOP_ARTICLE_PRIORITY = {
         "boek"
       ],
       "positions": {
-        "boek": 52
+        "boek": 51
       },
       "actualPositions": {
         "boek": 42
@@ -15093,7 +15055,7 @@ window.TOP_ARTICLE_PRIORITY = {
         "boek"
       ],
       "positions": {
-        "boek": 51
+        "boek": 50
       },
       "actualPositions": {
         "boek": 41
@@ -15254,7 +15216,7 @@ window.TOP_ARTICLE_PRIORITY = {
         "boek"
       ],
       "positions": {
-        "boek": 50
+        "boek": 49
       },
       "actualPositions": {
         "boek": 39
@@ -15379,7 +15341,7 @@ window.TOP_ARTICLE_PRIORITY = {
         "boek"
       ],
       "positions": {
-        "boek": 49
+        "boek": 48
       },
       "actualPositions": {
         "boek": 38
@@ -15425,7 +15387,7 @@ window.TOP_ARTICLE_PRIORITY = {
       "positions": {
         "lees": 211,
         "short": 107,
-        "luchtig": 12
+        "luchtig": 9
       },
       "actualPositions": {
         "lees": 210,
@@ -15721,7 +15683,7 @@ window.TOP_ARTICLE_PRIORITY = {
         "boek"
       ],
       "positions": {
-        "boek": 74
+        "boek": 73
       },
       "actualPositions": {
         "boek": 76
@@ -15851,7 +15813,7 @@ window.TOP_ARTICLE_PRIORITY = {
         "boek"
       ],
       "positions": {
-        "boek": 59
+        "boek": 58
       },
       "actualPositions": {
         "boek": 75
@@ -16057,7 +16019,7 @@ window.TOP_ARTICLE_PRIORITY = {
       "positions": {
         "lees": 209,
         "short": 105,
-        "luchtig": 11
+        "luchtig": 8
       },
       "actualPositions": {
         "lees": 206,
@@ -16191,7 +16153,7 @@ window.TOP_ARTICLE_PRIORITY = {
       ],
       "positions": {
         "lees": 267,
-        "dutch": 30
+        "dutch": 22
       },
       "actualPositions": {
         "lees": 204,
@@ -16800,12 +16762,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "aftrek": []
       },
       "sequences": [
-        "boek",
-        "dutch"
+        "boek"
       ],
       "positions": {
-        "boek": 48,
-        "dutch": 16
+        "boek": 47
       },
       "actualPositions": {
         "boek": 37,
@@ -16848,7 +16808,7 @@ window.TOP_ARTICLE_PRIORITY = {
       ],
       "positions": {
         "lees": 264,
-        "dutch": 29
+        "dutch": 21
       },
       "actualPositions": {
         "lees": 200,
@@ -17010,7 +16970,7 @@ window.TOP_ARTICLE_PRIORITY = {
       ],
       "positions": {
         "lees": 418,
-        "luchtig": 28
+        "luchtig": 19
       },
       "actualPositions": {
         "lees": 375,
@@ -17057,7 +17017,7 @@ window.TOP_ARTICLE_PRIORITY = {
       "positions": {
         "lees": 207,
         "short": 103,
-        "luchtig": 10
+        "luchtig": 7
       },
       "actualPositions": {
         "lees": 199,
@@ -17172,12 +17132,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "aftrek": []
       },
       "sequences": [
-        "boek",
-        "dutch"
+        "boek"
       ],
       "positions": {
-        "boek": 96,
-        "dutch": 46
+        "boek": 95
       },
       "actualPositions": {
         "boek": 96,
@@ -17393,7 +17351,7 @@ window.TOP_ARTICLE_PRIORITY = {
       ],
       "positions": {
         "lees": 263,
-        "dutch": 28
+        "dutch": 20
       },
       "actualPositions": {
         "lees": 196,
@@ -18563,7 +18521,7 @@ window.TOP_ARTICLE_PRIORITY = {
         "boek"
       ],
       "positions": {
-        "boek": 95
+        "boek": 94
       },
       "actualPositions": {
         "boek": 95
@@ -18643,7 +18601,7 @@ window.TOP_ARTICLE_PRIORITY = {
         "boek"
       ],
       "positions": {
-        "boek": 47
+        "boek": 46
       },
       "actualPositions": {
         "boek": 35
@@ -18679,7 +18637,7 @@ window.TOP_ARTICLE_PRIORITY = {
         "boek"
       ],
       "positions": {
-        "boek": 94
+        "boek": 93
       },
       "actualPositions": {
         "boek": 94
@@ -18754,12 +18712,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "aftrek": []
       },
       "sequences": [
-        "boek",
-        "dutch"
+        "boek"
       ],
       "positions": {
-        "boek": 66,
-        "dutch": 36
+        "boek": 65
       },
       "actualPositions": {
         "boek": 74,
@@ -18920,7 +18876,7 @@ window.TOP_ARTICLE_PRIORITY = {
       ],
       "positions": {
         "lees": 98,
-        "dutch": 15
+        "dutch": 8
       },
       "actualPositions": {
         "lees": 17,
@@ -18954,12 +18910,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "aftrek": []
       },
       "sequences": [
-        "boek",
-        "dutch"
+        "boek"
       ],
       "positions": {
-        "boek": 93,
-        "dutch": 45
+        "boek": 92
       },
       "actualPositions": {
         "boek": 93,
@@ -19424,7 +19378,7 @@ window.TOP_ARTICLE_PRIORITY = {
       ],
       "positions": {
         "lees": 45,
-        "dutch": 7,
+        "dutch": 3,
         "short": 18,
         "short-dutch": 2
       },
@@ -19509,7 +19463,7 @@ window.TOP_ARTICLE_PRIORITY = {
       ],
       "positions": {
         "lees": 96,
-        "dutch": 14
+        "dutch": 7
       },
       "actualPositions": {
         "lees": 11,
@@ -19550,7 +19504,7 @@ window.TOP_ARTICLE_PRIORITY = {
         "boek"
       ],
       "positions": {
-        "boek": 46
+        "boek": 45
       },
       "actualPositions": {
         "boek": 34
@@ -19879,7 +19833,7 @@ window.TOP_ARTICLE_PRIORITY = {
         "boek"
       ],
       "positions": {
-        "boek": 45
+        "boek": 44
       },
       "actualPositions": {
         "boek": 33,
@@ -19992,7 +19946,7 @@ window.TOP_ARTICLE_PRIORITY = {
       "positions": {
         "lees": 402,
         "short": 195,
-        "luchtig": 26
+        "luchtig": 17
       },
       "actualPositions": {
         "lees": 363,
@@ -20076,7 +20030,7 @@ window.TOP_ARTICLE_PRIORITY = {
       ],
       "positions": {
         "lees": 251,
-        "luchtig": 16
+        "luchtig": 13
       },
       "actualPositions": {
         "lees": 174,
@@ -20373,12 +20327,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "aftrek": []
       },
       "sequences": [
-        "boek",
-        "dutch"
+        "boek"
       ],
       "positions": {
-        "boek": 44,
-        "dutch": 13
+        "boek": 43
       },
       "actualPositions": {
         "boek": 31,
@@ -20459,12 +20411,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "aftrek": []
       },
       "sequences": [
-        "boek",
-        "dutch"
+        "boek"
       ],
       "positions": {
-        "boek": 65,
-        "dutch": 35
+        "boek": 64
       },
       "actualPositions": {
         "boek": 73,
@@ -20501,7 +20451,7 @@ window.TOP_ARTICLE_PRIORITY = {
         "boek"
       ],
       "positions": {
-        "boek": 92
+        "boek": 91
       },
       "actualPositions": {
         "boek": 72
@@ -20541,7 +20491,7 @@ window.TOP_ARTICLE_PRIORITY = {
         "boek"
       ],
       "positions": {
-        "boek": 32
+        "boek": 31
       },
       "actualPositions": {
         "boek": 30
@@ -20667,7 +20617,7 @@ window.TOP_ARTICLE_PRIORITY = {
         "boek"
       ],
       "positions": {
-        "boek": 91
+        "boek": 90
       },
       "actualPositions": {
         "boek": 71
@@ -20707,7 +20657,7 @@ window.TOP_ARTICLE_PRIORITY = {
         "boek"
       ],
       "positions": {
-        "boek": 43
+        "boek": 42
       },
       "actualPositions": {
         "boek": 29
@@ -20747,7 +20697,7 @@ window.TOP_ARTICLE_PRIORITY = {
         "boek"
       ],
       "positions": {
-        "boek": 42
+        "boek": 41
       },
       "actualPositions": {
         "boek": 28
@@ -20875,7 +20825,7 @@ window.TOP_ARTICLE_PRIORITY = {
         "boek"
       ],
       "positions": {
-        "boek": 41
+        "boek": 40
       },
       "actualPositions": {
         "boek": 27
@@ -20915,7 +20865,7 @@ window.TOP_ARTICLE_PRIORITY = {
         "boek"
       ],
       "positions": {
-        "boek": 40
+        "boek": 39
       },
       "actualPositions": {
         "boek": 26
@@ -20955,7 +20905,7 @@ window.TOP_ARTICLE_PRIORITY = {
         "boek"
       ],
       "positions": {
-        "boek": 39
+        "boek": 38
       },
       "actualPositions": {
         "boek": 25
@@ -20992,12 +20942,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "aftrek": []
       },
       "sequences": [
-        "boek",
-        "dutch"
+        "boek"
       ],
       "positions": {
-        "boek": 38,
-        "dutch": 12
+        "boek": 37
       },
       "actualPositions": {
         "boek": 24,
@@ -21035,12 +20983,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "aftrek": []
       },
       "sequences": [
-        "boek",
-        "dutch"
+        "boek"
       ],
       "positions": {
-        "boek": 7,
-        "dutch": 1
+        "boek": 7
       },
       "actualPositions": {
         "boek": 23,
@@ -21119,7 +21065,7 @@ window.TOP_ARTICLE_PRIORITY = {
         "boek"
       ],
       "positions": {
-        "boek": 73
+        "boek": 72
       },
       "actualPositions": {
         "boek": 70
@@ -21159,7 +21105,7 @@ window.TOP_ARTICLE_PRIORITY = {
         "boek"
       ],
       "positions": {
-        "boek": 31
+        "boek": 30
       },
       "actualPositions": {
         "boek": 21
@@ -21196,12 +21142,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "aftrek": []
       },
       "sequences": [
-        "boek",
-        "dutch"
+        "boek"
       ],
       "positions": {
-        "boek": 17,
-        "dutch": 3
+        "boek": 17
       },
       "actualPositions": {
         "boek": 20,
@@ -21242,7 +21186,7 @@ window.TOP_ARTICLE_PRIORITY = {
         "boek"
       ],
       "positions": {
-        "boek": 30
+        "boek": 29
       },
       "actualPositions": {
         "boek": 19
@@ -21277,12 +21221,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "aftrek": []
       },
       "sequences": [
-        "boek",
-        "dutch"
+        "boek"
       ],
       "positions": {
-        "boek": 64,
-        "dutch": 34
+        "boek": 63
       },
       "actualPositions": {
         "boek": 69,
@@ -21319,7 +21261,7 @@ window.TOP_ARTICLE_PRIORITY = {
         "boek"
       ],
       "positions": {
-        "boek": 90
+        "boek": 89
       },
       "actualPositions": {
         "boek": 92
@@ -21355,7 +21297,7 @@ window.TOP_ARTICLE_PRIORITY = {
         "boek"
       ],
       "positions": {
-        "boek": 89
+        "boek": 88
       },
       "actualPositions": {
         "boek": 68
@@ -21388,12 +21330,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "aftrek": []
       },
       "sequences": [
-        "boek",
-        "luchtig"
+        "boek"
       ],
       "positions": {
-        "boek": 88,
-        "luchtig": 25
+        "boek": 87
       },
       "actualPositions": {
         "boek": 67,
@@ -21429,12 +21369,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "aftrek": []
       },
       "sequences": [
-        "boek",
-        "luchtig"
+        "boek"
       ],
       "positions": {
-        "boek": 72,
-        "luchtig": 23
+        "boek": 71
       },
       "actualPositions": {
         "boek": 66,
@@ -21473,7 +21411,7 @@ window.TOP_ARTICLE_PRIORITY = {
         "boek"
       ],
       "positions": {
-        "boek": 71
+        "boek": 70
       },
       "actualPositions": {
         "boek": 65
@@ -21508,12 +21446,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "aftrek": []
       },
       "sequences": [
-        "boek",
-        "luchtig"
+        "boek"
       ],
       "positions": {
-        "boek": 63,
-        "luchtig": 21
+        "boek": 62
       },
       "actualPositions": {
         "boek": 64,
@@ -21589,12 +21525,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "aftrek": []
       },
       "sequences": [
-        "boek",
-        "luchtig"
+        "boek"
       ],
       "positions": {
-        "boek": 70,
-        "luchtig": 22
+        "boek": 69
       },
       "actualPositions": {
         "boek": 63,
@@ -21632,12 +21566,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "aftrek": []
       },
       "sequences": [
-        "boek",
-        "luchtig"
+        "boek"
       ],
       "positions": {
-        "boek": 29,
-        "luchtig": 2
+        "boek": 28
       },
       "actualPositions": {
         "boek": 17,
@@ -21678,7 +21610,7 @@ window.TOP_ARTICLE_PRIORITY = {
         "boek"
       ],
       "positions": {
-        "boek": 37
+        "boek": 36
       },
       "actualPositions": {
         "boek": 16
@@ -21756,7 +21688,7 @@ window.TOP_ARTICLE_PRIORITY = {
         "boek"
       ],
       "positions": {
-        "boek": 62
+        "boek": 61
       },
       "actualPositions": {
         "boek": 62
@@ -21796,7 +21728,7 @@ window.TOP_ARTICLE_PRIORITY = {
         "boek"
       ],
       "positions": {
-        "boek": 36
+        "boek": 35
       },
       "actualPositions": {
         "boek": 14
@@ -21831,12 +21763,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "aftrek": []
       },
       "sequences": [
-        "boek",
-        "luchtig"
+        "boek"
       ],
       "positions": {
-        "boek": 61,
-        "luchtig": 20
+        "boek": 60
       },
       "actualPositions": {
         "boek": 61,
@@ -22033,7 +21963,7 @@ window.TOP_ARTICLE_PRIORITY = {
         "boek"
       ],
       "positions": {
-        "boek": 87
+        "boek": 86
       },
       "actualPositions": {
         "boek": 60
@@ -22191,7 +22121,7 @@ window.TOP_ARTICLE_PRIORITY = {
         "boek"
       ],
       "positions": {
-        "boek": 60
+        "boek": 59
       },
       "actualPositions": {
         "boek": 59
@@ -22307,7 +22237,7 @@ window.TOP_ARTICLE_PRIORITY = {
         "boek"
       ],
       "positions": {
-        "boek": 86
+        "boek": 85
       },
       "actualPositions": {
         "boek": 91
@@ -22387,7 +22317,7 @@ window.TOP_ARTICLE_PRIORITY = {
         "boek"
       ],
       "positions": {
-        "boek": 58
+        "boek": 57
       },
       "actualPositions": {
         "boek": 58
@@ -22420,12 +22350,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "aftrek": []
       },
       "sequences": [
-        "boek",
-        "dutch"
+        "boek"
       ],
       "positions": {
-        "boek": 85,
-        "dutch": 44
+        "boek": 84
       },
       "actualPositions": {
         "boek": 90,
@@ -22463,16 +22391,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "aftrek": []
       },
       "sequences": [
-        "boek",
-        "dutch",
-        "luchtig",
-        "luchtig-nederlands"
+        "boek"
       ],
       "positions": {
-        "boek": 35,
-        "dutch": 11,
-        "luchtig": 5,
-        "luchtig-nederlands": 2
+        "boek": 34
       },
       "actualPositions": {
         "boek": 3,
@@ -22508,16 +22430,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "aftrek": []
       },
       "sequences": [
-        "boek",
-        "dutch",
-        "luchtig",
-        "luchtig-nederlands"
+        "boek"
       ],
       "positions": {
-        "boek": 84,
-        "dutch": 43,
-        "luchtig": 24,
-        "luchtig-nederlands": 5
+        "boek": 83
       },
       "actualPositions": {
         "boek": 89,
@@ -22557,16 +22473,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "aftrek": []
       },
       "sequences": [
-        "boek",
-        "dutch",
-        "luchtig",
-        "luchtig-nederlands"
+        "boek"
       ],
       "positions": {
-        "boek": 28,
-        "dutch": 5,
-        "luchtig": 1,
-        "luchtig-nederlands": 1
+        "boek": 27
       },
       "actualPositions": {
         "boek": 2,
@@ -22604,12 +22514,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "aftrek": []
       },
       "sequences": [
-        "boek",
-        "dutch"
+        "boek"
       ],
       "positions": {
-        "boek": 69,
-        "dutch": 39
+        "boek": 68
       },
       "actualPositions": {
         "boek": 57,
@@ -22647,12 +22555,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "aftrek": []
       },
       "sequences": [
-        "boek",
-        "dutch"
+        "boek"
       ],
       "positions": {
-        "boek": 10,
-        "dutch": 2
+        "boek": 10
       },
       "actualPositions": {
         "boek": 1,
