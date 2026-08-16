@@ -2,6 +2,10 @@
   "use strict";
 
   const data = window.TOP_ARTICLES;
+  const priorityData = window.TOP_ARTICLE_PRIORITY;
+  const priorityAvailable = priorityData?.model === "readwise-priority-v3" &&
+    priorityData?.scope === "later" && priorityData?.items && typeof priorityData.items === "object";
+  const priorityItems = priorityAvailable ? priorityData.items : {};
 
   const families = data ? data.families : [];
   const catalogItems = data?.catalog?.items ?? [];
@@ -10,12 +14,16 @@
   const sizeToggleEl = document.getElementById("size-toggle");
   const discoverControlsEl = document.getElementById("discover-controls");
   const discoverListChipsEl = document.getElementById("discover-list-chips");
+  const priorityControlsEl = document.getElementById("priority-controls");
+  const prioritySequenceChipsEl = document.getElementById("priority-sequence-chips");
+  const priorityErrorEl = document.getElementById("priority-error");
   const readingTimeFilterEl = document.getElementById("reading-time-filter");
   const listEl = document.getElementById("item-list");
   const emptyEl = document.getElementById("empty-state");
   const searchEl = document.getElementById("search");
   const generatedAtEl = document.getElementById("generated-at");
   const sortChipListEl = document.getElementById("sort-chip-list");
+  const sortFieldEl = document.getElementById("sort-field");
   const languageFilterEl = document.getElementById("language-filter");
   const categoryFilterEl = document.getElementById("category-filter");
   const moodFilterEl = document.getElementById("mood-filter");
@@ -71,16 +79,37 @@
 
   const SIZE_LABEL = { "top-10": "Top 10", "top-100": "Top 100" };
 
+  const PRIORITY_SEQUENCES = [
+    { id: "lees", label: "Lezen" },
+    { id: "boek", label: "Boeken" },
+    { id: "video", label: "Video" },
+    { id: "dutch", label: "Nederlands" },
+    { id: "short", label: "Kort" },
+    { id: "short-dutch", label: "Kort NL" },
+    { id: "luchtig", label: "Luchtig" },
+    { id: "luchtig-nederlands", label: "Luchtig NL" },
+  ];
+
+  const PRIORITY_COMPONENT_LABELS = {
+    kerninteresse: "Kerninteresse",
+    diepgang: "Diepgang",
+    persoonlijke_bruikbaarheid: "Persoonlijke bruikbaarheid",
+    leeskans: "Leeskans",
+    onderscheidende_duurzame_waarde: "Duurzame waarde",
+    aftrek: "Aftrek",
+  };
+
   const DEFAULT_SORT_DIR = { score: "desc", position: "asc", saved: "desc", published: "desc", title: "asc" };
 
   const SORT_FIELDS = ["score", "position", "saved", "published", "title"];
-  const SORT_LABELS = { score: "Score", position: "Readwise", saved: "Toegevoegd", published: "Gepubliceerd", title: "Titel" };
+  const SORT_LABELS = { score: "Prioriteitsscore", position: "Positie", saved: "Toegevoegd", published: "Gepubliceerd", title: "Titel" };
 
   const state = {
     familyId: families[0]?.id ?? null,
     size: "top-10",
     view: "toplists",
     discoverListId: "consensus",
+    prioritySequence: "lees",
     query: "",
     sort: "score",
     sortDir: DEFAULT_SORT_DIR.score,
@@ -110,6 +139,10 @@
   }
 
   const CATALOG_INDEX = new Map(catalogItems.map((item) => [item.id, item]));
+
+  function priorityFor(item) {
+    return item?.priority ?? priorityItems[item?.id] ?? null;
+  }
 
   function catalogOrTopItems() {
     return catalogItems.length > 0
@@ -193,6 +226,11 @@
       if (size === "catalogus" || derivedLists[size]) state.discoverListId = size;
       return;
     }
+    if (familyId === "leesvolgorde") {
+      state.view = "priority";
+      if (PRIORITY_SEQUENCES.some(({ id }) => id === size)) state.prioritySequence = size;
+      return;
+    }
     state.view = "toplists";
     if (familyId && families.some((f) => f.id === familyId)) {
       state.familyId = familyId;
@@ -205,7 +243,9 @@
   function stateToHash() {
     const next = state.view === "discover"
       ? `#/ontdek/${state.discoverListId}`
-      : `#/${state.familyId}/${state.size}`;
+      : state.view === "priority"
+        ? `#/leesvolgorde/${state.prioritySequence}`
+        : `#/${state.familyId}/${state.size}`;
     if (location.hash !== next) {
       history.replaceState(null, "", next);
     }
@@ -244,6 +284,20 @@
       tabsEl.appendChild(btn);
     }
 
+    const priorityBtn = document.createElement("button");
+    priorityBtn.type = "button";
+    priorityBtn.className = "tab";
+    priorityBtn.textContent = "Leesvolgorde";
+    priorityBtn.setAttribute("role", "tab");
+    priorityBtn.setAttribute("aria-selected", String(state.view === "priority"));
+    priorityBtn.addEventListener("click", () => {
+      state.view = "priority";
+      clearAllFilters();
+      stateToHash();
+      render();
+    });
+    tabsEl.appendChild(priorityBtn);
+
     const discoverBtn = document.createElement("button");
     discoverBtn.type = "button";
     discoverBtn.className = "tab";
@@ -260,7 +314,7 @@
   }
 
   function renderSizeToggle() {
-    sizeToggleEl.hidden = state.view === "discover";
+    sizeToggleEl.hidden = state.view === "discover" || state.view === "priority";
     for (const btn of sizeToggleEl.querySelectorAll("button")) {
       const isActive = btn.dataset.size === state.size;
       btn.setAttribute("aria-selected", String(isActive));
@@ -299,6 +353,45 @@
     readingTimeFilterEl.value = state.readingTime;
   }
 
+  function priorityCount(sequence) {
+    return Object.values(priorityItems).filter((item) => item.sequences?.includes(sequence)).length;
+  }
+
+  function renderPriorityControls() {
+    const active = state.view === "priority";
+    priorityControlsEl.hidden = !active;
+    sortFieldEl.hidden = active;
+    if (!active) {
+      searchEl.placeholder = "Zoek in alle lijsten…";
+      searchEl.setAttribute("aria-label", "Zoek in alle toplijsten");
+      return;
+    }
+
+    const activeSequence = prioritySequenceLabel(state.prioritySequence).toLowerCase();
+    searchEl.placeholder = `Zoek binnen ${activeSequence}…`;
+    searchEl.setAttribute("aria-label", `Zoek binnen de reeks ${activeSequence}`);
+
+    priorityErrorEl.hidden = priorityAvailable;
+    prioritySequenceChipsEl.textContent = "";
+    if (!priorityAvailable) return;
+
+    for (const sequence of PRIORITY_SEQUENCES) {
+      const button = document.createElement("button");
+      button.type = "button";
+      const selected = state.prioritySequence === sequence.id;
+      button.className = selected ? "sort-chip active" : "sort-chip";
+      button.setAttribute("aria-pressed", String(selected));
+      button.textContent = `${sequence.label} (${priorityCount(sequence.id)})`;
+      button.addEventListener("click", () => {
+        state.prioritySequence = sequence.id;
+        lastScopeKey = null;
+        stateToHash();
+        render();
+      });
+      prioritySequenceChipsEl.appendChild(button);
+    }
+  }
+
   let allTags = [];
   let lastScopeKey = null;
 
@@ -307,6 +400,7 @@
   // heen), anders alleen de items van de actieve tab + Top10/100.
   function getScopeItems() {
     const query = state.query.trim().toLowerCase();
+    if (state.view === "priority") return getPriorityItems();
     if (query.length > 0) {
       return catalogOrTopItems();
     }
@@ -321,6 +415,22 @@
     const list = derivedLists[state.discoverListId];
     if (!list) return [];
     return list.items.map((entry) => ({ ...CATALOG_INDEX.get(entry.id), ...entry })).filter((item) => item.id);
+  }
+
+  function getPriorityItems() {
+    if (!priorityAvailable) return [];
+    return Object.entries(priorityItems)
+      .filter(([, priority]) => Number.isInteger(priority.positions?.[state.prioritySequence]))
+      .map(([id, priority]) => {
+        const catalogItem = CATALOG_INDEX.get(id) ?? GLOBAL_INDEX.get(id)?.item;
+        return catalogItem ? {
+          ...catalogItem,
+          priority,
+          priorityPosition: priority.positions[state.prioritySequence],
+        } : null;
+      })
+      .filter(Boolean)
+      .sort((a, b) => a.priorityPosition - b.priorityPosition);
   }
 
   function resetSelectOptions(selectEl) {
@@ -629,6 +739,15 @@
     wrap.className = "badges";
     let any = false;
 
+    const priority = priorityFor(item);
+    if (priority) {
+      const span = document.createElement("span");
+      span.className = `badge priority-badge priority-${priority.tier}`;
+      span.textContent = `Prioriteit: ${priority.tier} · ${priority.score}`;
+      wrap.appendChild(span);
+      any = true;
+    }
+
     if (isSearchMode) {
       const entry = GLOBAL_INDEX.get(item.id);
       const positions = entry ? entry.tagPositions : new Map();
@@ -650,6 +769,68 @@
     }
 
     return any ? wrap : null;
+  }
+
+  function prioritySequenceLabel(sequenceId) {
+    return PRIORITY_SEQUENCES.find(({ id }) => id === sequenceId)?.label ?? sequenceId;
+  }
+
+  function buildPriorityDetails(item) {
+    const priority = priorityFor(item);
+    if (!priority) return null;
+
+    const details = document.createElement("details");
+    details.className = "priority-breakdown";
+
+    const summary = document.createElement("summary");
+    summary.textContent = `Prioriteitsscore ${priority.score}/100 · tier ${priority.tier}`;
+    details.appendChild(summary);
+
+    const intro = document.createElement("p");
+    intro.className = "priority-order-note";
+    intro.textContent = "Een hogere score staat altijd hoger. Alleen bij exact gelijke score staat het oudste opgeslagen artikel vooraan.";
+    details.appendChild(intro);
+
+    const total = document.createElement("p");
+    total.className = "priority-total";
+    const correction = priority.adjustment > 0 ? `+${priority.adjustment}` : String(priority.adjustment ?? 0);
+    total.textContent = priority.adjustment
+      ? `Basisscore ${priority.baseScore} · handmatige correctie ${correction} (${priority.adjustmentReason}) · eindscore ${priority.score}`
+      : `Basisscore en eindscore ${priority.score}`;
+    details.appendChild(total);
+
+    const components = document.createElement("dl");
+    components.className = "priority-components";
+    for (const [key, label] of Object.entries(PRIORITY_COMPONENT_LABELS)) {
+      const term = document.createElement("dt");
+      term.textContent = label;
+      const description = document.createElement("dd");
+      const value = priority.components[key];
+      const scoreText = value > 0 ? `+${value}` : String(value);
+      const reasons = priority.rationale[key] ?? [];
+      description.textContent = reasons.length > 0 ? `${scoreText} — ${reasons.join(" ")}` : `${scoreText} — niet van toepassing`;
+      components.append(term, description);
+    }
+    details.appendChild(components);
+
+    const positions = Object.entries(priority.positions ?? {});
+    if (positions.length > 0) {
+      const p = document.createElement("p");
+      p.className = "priority-positions";
+      p.textContent = `Aanbevolen posities: ${positions.map(([sequence, position]) => `${prioritySequenceLabel(sequence)} #${position}`).join(" · ")}`;
+      details.appendChild(p);
+    }
+    const drift = positions.filter(([sequence, position]) => priority.actualPositions?.[sequence] !== position);
+    if (drift.length > 0) {
+      const p = document.createElement("p");
+      p.className = "priority-sync-warning";
+      p.textContent = `Niet gesynchroniseerd: ${drift.map(([sequence, desired]) => {
+        const actual = priority.actualPositions?.[sequence];
+        return `${prioritySequenceLabel(sequence)} gewenst #${desired}, actueel ${Number.isInteger(actual) ? `#${actual}` : "geen tag"}`;
+      }).join(" · ")}`;
+      details.appendChild(p);
+    }
+    return details;
   }
 
   function buildNote(item) {
@@ -697,7 +878,7 @@
     return wrap;
   }
 
-  function buildItem(item, { isSearchMode }) {
+  function buildItem(item, { isSearchMode, isPriorityView = false }) {
     const li = document.createElement("li");
     li.className = "item";
 
@@ -707,7 +888,9 @@
 
     const position = document.createElement("span");
     position.className = "position-badge";
-    position.textContent = isSearchMode ? "•" : String(item.scorePosition ?? item.position ?? "•");
+    position.textContent = isPriorityView
+      ? String(item.priorityPosition ?? "•")
+      : isSearchMode ? "•" : String(item.position ?? "•");
     media.appendChild(position);
 
     li.appendChild(media);
@@ -731,21 +914,8 @@
     meta.textContent = metaLine(item);
     body.appendChild(meta);
 
-    if (item.scoreBreakdown) {
-      const score = document.createElement("p");
-      score.className = "item-score";
-      const originalPosition = item.originalPosition ?? item.position;
-      const parts = [`Score ${Math.round(item.score)}`];
-      if (Number.isFinite(originalPosition)) parts.push(`Readwise #${originalPosition}`);
-      parts.push(`basis ${Math.round(item.scoreBreakdown.base)}`);
-      if (item.scoreBreakdown.override) {
-        const sign = item.scoreBreakdown.override > 0 ? "+" : "";
-        parts.push(`correctie ${sign}${item.scoreBreakdown.override}`);
-      }
-      if (item.forceIncluded) parts.push("handmatig opgenomen");
-      score.textContent = parts.join(" · ");
-      body.appendChild(score);
-    }
+    const priorityDetails = buildPriorityDetails(item);
+    if (priorityDetails) body.appendChild(priorityDetails);
 
     if (item.summary) {
       const summary = document.createElement("p");
@@ -809,7 +979,10 @@
   function compareEntries(sortKey) {
     switch (sortKey) {
       case "score":
-        return (a, b) => (a.item.score ?? Number.NEGATIVE_INFINITY) - (b.item.score ?? Number.NEGATIVE_INFINITY);
+        return (a, b) =>
+          (priorityFor(a.item)?.score ?? Number.NEGATIVE_INFINITY) - (priorityFor(b.item)?.score ?? Number.NEGATIVE_INFINITY) ||
+          timeValue(b.item.savedDate) - timeValue(a.item.savedDate) ||
+          (b.item.id ?? "").localeCompare(a.item.id ?? "");
       case "saved":
         return (a, b) => timeValue(a.item.savedDate) - timeValue(b.item.savedDate);
       case "published":
@@ -833,14 +1006,17 @@
 
   function renderList() {
     const query = state.query.trim().toLowerCase();
-    const isSearchMode = query.length > 0;
+    const isPriorityView = state.view === "priority";
+    const isSearchMode = query.length > 0 && !isPriorityView;
 
     // Filteropties (taal/type/moment/tags) alleen herberekenen wanneer de
     // scope daadwerkelijk wijzigt (andere tab/grootte, of overgang
     // zoeken-aan/uit) — niet bij elke toetsaanslag in het zoekveld.
-    const scopeKey = isSearchMode ? "search" : state.view === "discover"
-      ? `discover|${state.discoverListId}`
-      : `${state.familyId}|${state.size}`;
+    const scopeKey = isPriorityView
+      ? `priority|${state.prioritySequence}`
+      : isSearchMode ? "search" : state.view === "discover"
+        ? `discover|${state.discoverListId}`
+        : `${state.familyId}|${state.size}`;
     if (scopeKey !== lastScopeKey) {
       lastScopeKey = scopeKey;
       populateFilterOptions();
@@ -849,14 +1025,18 @@
     searchScopeNoteEl.hidden = !isSearchMode;
 
     let normalized;
-    if (isSearchMode) {
+    if (isPriorityView) {
+      normalized = getPriorityItems()
+        .filter((item) => itemMatchesQuery(item, query))
+        .map((item) => ({ item, sortPosition: item.priorityPosition }));
+    } else if (isSearchMode) {
       normalized = catalogOrTopItems()
         .filter((item) => itemMatchesQuery(item, query))
-        .map((item) => ({ item, sortPosition: item.scorePosition ?? bestPosition(GLOBAL_INDEX.get(item.id) ?? { tagPositions: new Map([['fallback', Number.MAX_SAFE_INTEGER]]) }) }));
+        .map((item) => ({ item, sortPosition: bestPosition(GLOBAL_INDEX.get(item.id) ?? { tagPositions: new Map([['fallback', Number.MAX_SAFE_INTEGER]]) }) }));
     } else if (state.view === "discover") {
       normalized = getDiscoverItems().map((item, index) => ({
         item,
-        sortPosition: item.scorePosition ?? index + 1,
+        sortPosition: item.position ?? index + 1,
       }));
     } else {
       const family = findFamily(state.familyId);
@@ -873,14 +1053,14 @@
       return true;
     });
 
-    const sorted = sortNormalized(filtered);
+    const sorted = isPriorityView ? filtered : sortNormalized(filtered);
 
     listEl.textContent = "";
     emptyEl.hidden = sorted.length > 0;
 
     const fragment = document.createDocumentFragment();
     for (const { item } of sorted) {
-      fragment.appendChild(buildItem(item, { isSearchMode }));
+      fragment.appendChild(buildItem(item, { isSearchMode, isPriorityView }));
     }
     listEl.appendChild(fragment);
 
@@ -891,6 +1071,7 @@
     renderTabs();
     renderSizeToggle();
     renderDiscoverControls();
+    renderPriorityControls();
     renderList();
   }
 

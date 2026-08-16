@@ -46,15 +46,6 @@ test("de gegenereerde data bevat de luchtig-families met doorlopende posities", 
       Array.from(family.lists["top-100"].items, ({ position }) => position),
       Array.from({ length: expected.top100Length }, (_, index) => index + 1)
     );
-    assert.ok(
-      family.lists["top-100"].items.every(
-        ({ originalPosition, score, scorePosition, scoreBreakdown }) =>
-          Number.isInteger(originalPosition) &&
-          Number.isFinite(score) &&
-          Number.isInteger(scorePosition) &&
-          scoreBreakdown
-      ),
-      `scorevelden ontbreken voor ${expected.id}`
-    );
+    assert.ok(family.lists["top-100"].items.every(({ position }) => Number.isInteger(position)));
   }
 });

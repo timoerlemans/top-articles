@@ -19,6 +19,33 @@
   <div class="discover-list-chips" id="discover-list-chips" role="group" aria-label="Ontdek-lijst"></div>
 </section>
 
+<section class="priority-controls" id="priority-controls" hidden aria-label="Berekende leesvolgorde">
+  <div class="priority-sequence-chips" id="priority-sequence-chips" role="group" aria-label="Leesreeks"></div>
+  <p class="priority-error" id="priority-error" role="status" hidden>
+    De prioriteitsgegevens konden niet worden geladen. De bestaande toplijsten blijven beschikbaar.
+  </p>
+  <details class="priority-explainer" id="priority-explainer">
+    <summary>Hoe werkt deze leesvolgorde?</summary>
+    <div class="priority-explainer-body">
+      <p>
+        Alleen documenten in Readwise Reader <strong>later</strong> tellen mee. De prioriteitsscore van
+        0–100 bestaat uit kerninteresse, diepgang, persoonlijke bruikbaarheid, leeskans,
+        onderscheidende duurzame waarde en eventuele aftrek.
+      </p>
+      <p>
+        Een <strong>hogere score staat altijd hoger</strong>. Alleen bij een exact gelijke score staat
+        de oudste <code>saved_at</code> eerst; het document-ID is de laatste vaste tie-breaker.
+        De tiers hoog 70–100, midden 40–69 en laag 0–39 zijn alleen informatieve labels.
+      </p>
+      <p>
+        Nederlandse taalherkenning bepaalt alleen de aparte Nederlandse reeksen en heeft geen invloed
+        op de score. Dezelfde <strong>Prioriteitsscore</strong> bepaalt de volgorde van alle
+        toplijsten, de leesreeksen, Consensus, Nieuw en Tijdloos.
+      </p>
+    </div>
+  </details>
+</section>
+
 <div class="controls">
   <div class="size-toggle" id="size-toggle" role="tablist" aria-label="Lijstgrootte">
     <button type="button" data-size="top-10" role="tab">Top 10</button>
@@ -50,7 +77,7 @@
   />
 
   <div class="filters">
-    <div class="filter-field">
+    <div class="filter-field" id="sort-field">
       <span id="sort-label">Sorteren</span>
       <div class="sort-chip-list" id="sort-chip-list" role="group" aria-labelledby="sort-label"></div>
     </div>
@@ -103,7 +130,8 @@
   <p>Gegenereerd uit <a href="https://readwise.io/read" rel="noopener">Readwise Reader</a>. Broncode op GitHub.</p>
 </footer>
 
-<script src="data/data.js"></script>
+  <script src="data/score.js"></script>
+  <script src="data/data.js"></script>
 <script src="app.js"></script>
 </body>
 </html>

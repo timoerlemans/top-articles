@@ -6,6 +6,9 @@
   "type": "module",
   "scripts": {
     "build": "node scripts/build-data.mjs",
+    "priority:plan": "node scripts/priority-cli.mjs plan",
+    "priority:apply": "node scripts/priority-cli.mjs apply",
+    "priority:verify": "node scripts/priority-cli.mjs verify",
     "test": "node --test test/*.test.mjs"
   }
 }

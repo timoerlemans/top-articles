@@ -2,30 +2,37 @@
 
 Statisch overzicht van persoonlijke Readwise-toplijsten, met directe links naar Readwise Reader.
 Naast de bestaande families Algemeen, Nederlands, Kort, Kort & NL, Luchtig, Luchtig & NL en
-Boeken bevat de app een actieve catalogus en scoregestuurde ontdeklijsten.
+Boeken bevat de app een actieve catalogus, scoregestuurde ontdeklijsten en een zelfstandige
+berekende leesvolgorde voor documenten in Reader `later`.
 
 Geen framework of bundler: `index.html` + `styles.css` + `app.js` renderen uit `data/data.js`, een
 gegenereerd bestand dat wordt gecommit. `data/data.js` bevat toplijsten, een catalogus van alle
-actieve Reader-documenten (`new` en `later`) en de afgeleide lijsten Consensus, Nieuw en
+actieve Reader-documenten in `later` en de afgeleide lijsten Consensus, Nieuw en
 Tijdloos. Het bevat geen ruwe `notes`: alleen titel, auteur, samenvatting, leestijd,
 publicatie-/toevoegdatum, taal (afgeleid uit een kleine vaste set taal-tags), een korte
 "waarom lezen"/"beste moment"-notitie, afbeelding en links.
 
-`data/score.js` is bewust **niet gegenereerd**. Daar staan de standaardgewichten en optionele
-correcties per document-ID en lijst. Een correctie is lijstspecifiek, bijvoorbeeld:
+`data/score.js` wordt tegelijk gegenereerd en bevat `readwise-priority-v3` voor alle actuele
+`later`-documenten. Per document staan daarin de basis- en eindscore van 0–100, tier, zes
+scorecomponenten, een eventuele handmatige correctie, mensleesbare redenen, reeksindeling en
+gewenste plus actuele positie per reeks. Alle lijsten sorteren op hoogste eindscore, daarna bij
+gelijke score op oudste `saved_at` en ten slotte op document-ID.
 
-```js
-overrides: {
-  "document-id": {
-    "algemeen:top-100": { adjustment: 15 },
-    consensus: { adjustment: 20 },
-    nieuw: { exclude: true },
-  },
+Handmatige correcties gelden in alle lijsten tegelijk en staan in
+`config/readwise-priority-overrides.json`, bijvoorbeeld:
+
+```json
+{
+  "version": 1,
+  "items": {
+    "document-id": { "adjustment": 10, "reason": "Tijdelijk hogere prioriteit" }
+  }
 }
 ```
 
-De app hersorteert bestaande lijsten op score, maar toont altijd de oorspronkelijke
-Readwise-positie. Scoring wijzigt nooit Reader-tags, ordinale posities of andere Reader-metadata.
+De build wijzigt nooit Reader-tags. Nederlandse taalherkenning bepaalt alleen de afzonderlijke
+Dutch-reeksen en levert geen scorepunten op. Tagwijzigingen verlopen uitsluitend via een aparte
+proefrun en synchronisatie na expliciete bevestiging.
 
 ## Lokaal verversen
 
@@ -33,7 +40,7 @@ Vereist een ingelogde [`@readwise/cli`](https://www.npmjs.com/package/@readwise/
 (`readwise login`).
 
 ```bash
-npm run build   # haalt toplijsten + actieve catalogus op en schrijft data/data.js
+npm run build   # haalt actuele later-data op en schrijft data/data.js + data/score.js
 npm test        # controleert scorelogica en gegenereerde datastructuur
 ```
 
