@@ -31,3 +31,13 @@ test("mobiel gebruikt een inklapbaar tweekolomsmenu en uitgelijnde sorteerknoppe
   );
   assert.match(mobileCss, /\.filter-field select\s*\{[^}]*width:\s*100%[^}]*min-height:\s*44px/s);
 });
+
+test("discover-controls en size-toggle blijven echt verborgen als het hidden-attribuut aan staat", async () => {
+  const css = await cssPromise;
+  // .discover-controls en .size-toggle zetten zelf display:flex, wat de
+  // ingebouwde UA-regel [hidden]{display:none} overschrijft zodra het
+  // hidden-attribuut door app.js wordt gezet — zonder expliciete
+  // [hidden]-override blijft het element zichtbaar (en klikbaar, maar inert).
+  assert.match(css, /\.discover-controls\[hidden\]\s*\{[^}]*display:\s*none/s);
+  assert.match(css, /\.size-toggle\[hidden\]\s*\{[^}]*display:\s*none/s);
+});

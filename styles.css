@@ -82,6 +82,10 @@ body {
   display: none;
 }
 
+.discover-controls[hidden] {
+  display: none;
+}
+
 .discover-controls {
   display: flex;
   align-items: end;
@@ -183,6 +187,10 @@ body {
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
+}
+
+.size-toggle[hidden] {
+  display: none;
 }
 
 .size-toggle {

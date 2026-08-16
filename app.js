@@ -280,8 +280,12 @@
         ? `#/leesvolgorde/${state.prioritySequence}`
         : `#/${state.familyId}/${state.size}`;
     const search = filtersToParams().toString();
-    const next = (search ? `?${search}` : "") + hashPart;
-    if (location.search + location.hash !== next) {
+    // Expliciet location.pathname meesturen is nodig: een pad-loze referentie
+    // als "#/..." resolveert relatief aan de HUIDIGE url (RFC 3986 §5.3) en
+    // erft dan de bestaande querystring over, ook als search hier leeg is —
+    // zonder pathname blijft een net gewist filter dus in de URL staan.
+    const next = location.pathname + (search ? `?${search}` : "") + hashPart;
+    if (location.pathname + location.search + location.hash !== next) {
       history.replaceState(null, "", next);
     }
   }
@@ -384,9 +388,9 @@
   function renderDiscoverControls() {
     const active = state.view === "discover";
     discoverControlsEl.hidden = !active;
+    discoverListChipsEl.textContent = "";
     if (!active) return;
 
-    discoverListChipsEl.textContent = "";
     const choices = [
       { id: "catalogus", label: "Catalogus" },
       ...Object.values(derivedLists).map((list) => ({ id: list.id, label: list.label })),
