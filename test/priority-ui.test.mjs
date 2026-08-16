@@ -35,3 +35,16 @@ test("de pagina bevat toegankelijke responsieve menu- en sorteringsbediening", a
   assert.match(html, /id="sort-select"/);
   assert.match(html, /id="sort-direction"[^>]*aria-label=/s);
 });
+
+test("de browsercode beheert mobiel menu en desktopsortering vanuit dezelfde state", async () => {
+  const source = await readFile(new URL("../app.js", import.meta.url), "utf8");
+
+  assert.match(source, /function setMobileMenuOpen\(/);
+  assert.match(source, /mobileMenuToggleEl\.setAttribute\("aria-expanded"/);
+  assert.match(source, /tabsEl\.classList\.toggle\("mobile-open"/);
+  assert.match(source, /event\.key === "Escape"/);
+  assert.match(source, /mobileMenuToggleEl\.focus\(\)/);
+  assert.match(source, /sortSelectEl\.addEventListener\("change"/);
+  assert.match(source, /sortDirectionEl\.addEventListener\("click"/);
+  assert.match(source, /closeMobileMenu\(\);[\s\S]*stateToHash\(\);[\s\S]*render\(\);/);
+});

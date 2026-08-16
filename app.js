@@ -11,6 +11,8 @@
   const catalogItems = data?.catalog?.items ?? [];
   const derivedLists = data?.derivedLists ?? {};
   const tabsEl = document.getElementById("family-tabs");
+  const mobileMenuToggleEl = document.getElementById("mobile-menu-toggle");
+  const mobileMenuLabelEl = document.getElementById("mobile-menu-label");
   const sizeToggleEl = document.getElementById("size-toggle");
   const discoverControlsEl = document.getElementById("discover-controls");
   const discoverListChipsEl = document.getElementById("discover-list-chips");
@@ -23,6 +25,8 @@
   const searchEl = document.getElementById("search");
   const generatedAtEl = document.getElementById("generated-at");
   const sortChipListEl = document.getElementById("sort-chip-list");
+  const sortSelectEl = document.getElementById("sort-select");
+  const sortDirectionEl = document.getElementById("sort-direction");
   const sortFieldEl = document.getElementById("sort-field");
   const languageFilterEl = document.getElementById("language-filter");
   const categoryFilterEl = document.getElementById("category-filter");
@@ -265,8 +269,25 @@
     readingTimeFilterEl.value = "";
   }
 
+  function activeMenuLabel() {
+    if (state.view === "priority") return "Leesvolgorde";
+    if (state.view === "discover") return "Ontdek";
+    return findFamily(state.familyId)?.label ?? "Menu";
+  }
+
+  function setMobileMenuOpen(open, { restoreFocus = false } = {}) {
+    mobileMenuToggleEl.setAttribute("aria-expanded", String(open));
+    tabsEl.classList.toggle("mobile-open", open);
+    if (restoreFocus) mobileMenuToggleEl.focus();
+  }
+
+  function closeMobileMenu() {
+    setMobileMenuOpen(false);
+  }
+
   function renderTabs() {
     tabsEl.textContent = "";
+    mobileMenuLabelEl.textContent = activeMenuLabel();
     for (const family of families) {
       const btn = document.createElement("button");
       btn.type = "button";
@@ -278,6 +299,7 @@
         state.view = "toplists";
         state.familyId = family.id;
         clearAllFilters();
+        closeMobileMenu();
         stateToHash();
         render();
       });
@@ -293,6 +315,7 @@
     priorityBtn.addEventListener("click", () => {
       state.view = "priority";
       clearAllFilters();
+      closeMobileMenu();
       stateToHash();
       render();
     });
@@ -307,6 +330,7 @@
     discoverBtn.addEventListener("click", () => {
       state.view = "discover";
       clearAllFilters();
+      closeMobileMenu();
       stateToHash();
       render();
     });
@@ -559,6 +583,19 @@
 
       sortChipListEl.appendChild(btn);
     }
+
+    if (sortSelectEl.options.length === 0) {
+      for (const field of SORT_FIELDS) {
+        const option = document.createElement("option");
+        option.value = field;
+        option.textContent = SORT_LABELS[field];
+        sortSelectEl.appendChild(option);
+      }
+    }
+    sortSelectEl.value = state.sort;
+    sortDirectionEl.textContent = state.sortDir === "desc" ? "↓" : "↑";
+    const directionLabel = state.sortDir === "desc" ? "aflopend" : "oplopend";
+    sortDirectionEl.setAttribute("aria-label", `Sorteerrichting ${directionLabel}; klik om te wijzigen`);
   }
 
   function buildActiveFilterChip(label, onRemove) {
@@ -1074,6 +1111,30 @@
     renderPriorityControls();
     renderList();
   }
+
+  mobileMenuToggleEl.addEventListener("click", () => {
+    const open = mobileMenuToggleEl.getAttribute("aria-expanded") !== "true";
+    setMobileMenuOpen(open);
+  });
+
+  document.addEventListener("keydown", (event) => {
+    if (event.key === "Escape" && mobileMenuToggleEl.getAttribute("aria-expanded") === "true") {
+      setMobileMenuOpen(false, { restoreFocus: true });
+    }
+  });
+
+  sortSelectEl.addEventListener("change", () => {
+    state.sort = sortSelectEl.value;
+    state.sortDir = DEFAULT_SORT_DIR[state.sort] ?? "asc";
+    renderSortChips();
+    renderList();
+  });
+
+  sortDirectionEl.addEventListener("click", () => {
+    state.sortDir = state.sortDir === "desc" ? "asc" : "desc";
+    renderSortChips();
+    renderList();
+  });
 
   toggleSearchFiltersEl.addEventListener("click", () => {
     const expanded = toggleSearchFiltersEl.getAttribute("aria-expanded") === "true";
