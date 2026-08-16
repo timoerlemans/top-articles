@@ -1,6 +1,6 @@
 // Automatisch gegenereerd door scripts/build-data.mjs — niet handmatig bewerken.
 window.TOP_ARTICLES = {
-  "generatedAt": "2026-08-16T20:23:39.970Z",
+  "generatedAt": "2026-08-16T20:30:13.659Z",
   "families": [
     {
       "id": "algemeen",
@@ -1046,6 +1046,7 @@ window.TOP_ARTICLES = {
               "bestMoment": "geconcentreerd",
               "tags": [
                 "arts & culture",
+                "light-reading",
                 "philosophy",
                 "sociology & inequality"
               ],
@@ -2238,6 +2239,7 @@ window.TOP_ARTICLES = {
               "tags": [
                 "arts & culture",
                 "learning & meta-learning",
+                "light-reading",
                 "personal growth & life philosophy"
               ],
               "alsoIn": [
@@ -2350,6 +2352,7 @@ window.TOP_ARTICLES = {
               "bestMoment": "analytisch",
               "tags": [
                 "arts & culture",
+                "light-reading",
                 "philosophy",
                 "political philosophy"
               ],
@@ -2380,6 +2383,7 @@ window.TOP_ARTICLES = {
               "tags": [
                 "arts & culture",
                 "learning & meta-learning",
+                "light-reading",
                 "research papers & academia"
               ],
               "alsoIn": [
@@ -2409,6 +2413,7 @@ window.TOP_ARTICLES = {
               "tags": [
                 "fiction",
                 "history",
+                "light-reading",
                 "political philosophy"
               ],
               "alsoIn": [
@@ -2466,6 +2471,7 @@ window.TOP_ARTICLES = {
               "tags": [
                 "arts & culture",
                 "learning & meta-learning",
+                "light-reading",
                 "professional development"
               ],
               "alsoIn": [
@@ -2494,6 +2500,7 @@ window.TOP_ARTICLES = {
               "tags": [
                 "arts & culture",
                 "learning & meta-learning",
+                "light-reading",
                 "professional development"
               ],
               "alsoIn": [
@@ -2575,6 +2582,7 @@ window.TOP_ARTICLES = {
               "bestMoment": "analytisch",
               "tags": [
                 "fiction",
+                "light-reading",
                 "linked-from-readwise",
                 "political philosophy",
                 "technology"
@@ -5814,6 +5822,7 @@ window.TOP_ARTICLES = {
               "bestMoment": "analytisch",
               "tags": [
                 "arts & culture",
+                "light-reading",
                 "philosophy",
                 "political philosophy"
               ],
@@ -5844,6 +5853,7 @@ window.TOP_ARTICLES = {
               "tags": [
                 "arts & culture",
                 "learning & meta-learning",
+                "light-reading",
                 "research papers & academia"
               ],
               "alsoIn": [
@@ -5873,6 +5883,7 @@ window.TOP_ARTICLES = {
               "tags": [
                 "fiction",
                 "history",
+                "light-reading",
                 "political philosophy"
               ],
               "alsoIn": [
@@ -5983,6 +5994,7 @@ window.TOP_ARTICLES = {
               "bestMoment": "analytisch",
               "tags": [
                 "fiction",
+                "light-reading",
                 "linked-from-readwise",
                 "political philosophy",
                 "technology"
@@ -7226,6 +7238,7 @@ window.TOP_ARTICLES = {
               "tags": [
                 "arts & culture",
                 "learning & meta-learning",
+                "light-reading",
                 "professional development"
               ],
               "alsoIn": [
@@ -7469,6 +7482,7 @@ window.TOP_ARTICLES = {
               "bestMoment": "analytisch",
               "tags": [
                 "fiction",
+                "light-reading",
                 "linked-from-readwise",
                 "political philosophy",
                 "technology"
@@ -8569,6 +8583,7 @@ window.TOP_ARTICLES = {
               "bestMoment": "geconcentreerd",
               "tags": [
                 "fiction",
+                "light-reading",
                 "pdf-top-10",
                 "philosophy",
                 "political philosophy"
@@ -8659,6 +8674,7 @@ window.TOP_ARTICLES = {
               "bestMoment": "geconcentreerd",
               "tags": [
                 "arts & culture",
+                "light-reading",
                 "philosophy",
                 "sociology & inequality"
               ],
@@ -8874,6 +8890,7 @@ window.TOP_ARTICLES = {
               "bestMoment": "geconcentreerd",
               "tags": [
                 "fiction",
+                "light-reading",
                 "pdf-top-10",
                 "philosophy",
                 "political philosophy"
@@ -8964,6 +8981,7 @@ window.TOP_ARTICLES = {
               "bestMoment": "geconcentreerd",
               "tags": [
                 "arts & culture",
+                "light-reading",
                 "philosophy",
                 "sociology & inequality"
               ],
@@ -9227,6 +9245,7 @@ window.TOP_ARTICLES = {
               "tags": [
                 "arts & culture",
                 "learning & meta-learning",
+                "light-reading",
                 "personal growth & life philosophy"
               ],
               "alsoIn": [
@@ -9254,6 +9273,7 @@ window.TOP_ARTICLES = {
               "bestMoment": "analytisch",
               "tags": [
                 "arts & culture",
+                "light-reading",
                 "philosophy",
                 "political philosophy"
               ],
@@ -9284,6 +9304,7 @@ window.TOP_ARTICLES = {
               "tags": [
                 "arts & culture",
                 "learning & meta-learning",
+                "light-reading",
                 "research papers & academia"
               ],
               "alsoIn": [
@@ -9313,6 +9334,7 @@ window.TOP_ARTICLES = {
               "tags": [
                 "fiction",
                 "history",
+                "light-reading",
                 "political philosophy"
               ],
               "alsoIn": [
@@ -9342,6 +9364,7 @@ window.TOP_ARTICLES = {
               "tags": [
                 "arts & culture",
                 "learning & meta-learning",
+                "light-reading",
                 "professional development"
               ],
               "alsoIn": [
@@ -9370,6 +9393,7 @@ window.TOP_ARTICLES = {
               "tags": [
                 "arts & culture",
                 "learning & meta-learning",
+                "light-reading",
                 "professional development"
               ],
               "alsoIn": [
@@ -9397,6 +9421,7 @@ window.TOP_ARTICLES = {
               "bestMoment": "analytisch",
               "tags": [
                 "fiction",
+                "light-reading",
                 "linked-from-readwise",
                 "political philosophy",
                 "technology"
@@ -9910,6 +9935,7 @@ window.TOP_ARTICLES = {
               "tags": [
                 "arts & culture",
                 "learning & meta-learning",
+                "light-reading",
                 "professional development"
               ],
               "alsoIn": [
@@ -10205,6 +10231,7 @@ window.TOP_ARTICLES = {
               "bestMoment": "reflectief",
               "tags": [
                 "arts & culture",
+                "light-reading",
                 "philosophy",
                 "science"
               ],
@@ -10231,6 +10258,7 @@ window.TOP_ARTICLES = {
               "bestMoment": "analytisch",
               "tags": [
                 "fiction",
+                "light-reading",
                 "linked-from-readwise",
                 "political philosophy",
                 "technology"
@@ -10445,6 +10473,7 @@ window.TOP_ARTICLES = {
               "bestMoment": "reflectief",
               "tags": [
                 "arts & culture",
+                "light-reading",
                 "personal growth & life philosophy",
                 "sociology & inequality"
               ],
@@ -10499,6 +10528,7 @@ window.TOP_ARTICLES = {
               "tags": [
                 "arts & culture",
                 "learning & meta-learning",
+                "light-reading",
                 "philosophy"
               ],
               "alsoIn": []
@@ -10524,6 +10554,7 @@ window.TOP_ARTICLES = {
               "bestMoment": "reflectief",
               "tags": [
                 "arts & culture",
+                "light-reading",
                 "personal growth & life philosophy",
                 "sociology & social structures"
               ],
@@ -10551,6 +10582,7 @@ window.TOP_ARTICLES = {
               "tags": [
                 "arts & culture",
                 "learning & meta-learning",
+                "light-reading",
                 "philosophy"
               ],
               "alsoIn": []
@@ -10577,6 +10609,7 @@ window.TOP_ARTICLES = {
               "tags": [
                 "arts & culture",
                 "later",
+                "light-reading",
                 "philosophy",
                 "technology"
               ],
@@ -10604,6 +10637,7 @@ window.TOP_ARTICLES = {
               "tags": [
                 "arts & culture",
                 "fiction",
+                "light-reading",
                 "philosophy"
               ],
               "alsoIn": []
@@ -10867,6 +10901,7 @@ window.TOP_ARTICLES = {
               "bestMoment": "analytisch",
               "tags": [
                 "arts & culture",
+                "light-reading",
                 "sociology & inequality"
               ],
               "alsoIn": []
@@ -10893,6 +10928,7 @@ window.TOP_ARTICLES = {
               "tags": [
                 "arts & culture",
                 "learning & meta-learning",
+                "light-reading",
                 "sociology & inequality"
               ],
               "alsoIn": []
@@ -10971,6 +11007,7 @@ window.TOP_ARTICLES = {
               "bestMoment": null,
               "tags": [
                 "arts & culture",
+                "light-reading",
                 "science",
                 "sociology & social structures"
               ],
@@ -10997,6 +11034,7 @@ window.TOP_ARTICLES = {
               "bestMoment": null,
               "tags": [
                 "arts & culture",
+                "light-reading",
                 "personal growth & life philosophy",
                 "technology"
               ],
@@ -11023,6 +11061,7 @@ window.TOP_ARTICLES = {
               "bestMoment": "reflectief",
               "tags": [
                 "arts & culture",
+                "light-reading",
                 "personal growth & life philosophy",
                 "philosophy"
               ],
@@ -11049,6 +11088,7 @@ window.TOP_ARTICLES = {
               "bestMoment": "reflectief",
               "tags": [
                 "arts & culture",
+                "light-reading",
                 "personal growth & life philosophy",
                 "philosophy"
               ],
@@ -11075,6 +11115,7 @@ window.TOP_ARTICLES = {
               "bestMoment": "reflectief",
               "tags": [
                 "arts & culture",
+                "light-reading",
                 "personal growth & life philosophy",
                 "philosophy"
               ],
@@ -11102,7 +11143,8 @@ window.TOP_ARTICLES = {
               "tags": [
                 "arts & culture",
                 "business & startups",
-                "history"
+                "history",
+                "light-reading"
               ],
               "alsoIn": []
             },
@@ -11380,6 +11422,7 @@ window.TOP_ARTICLES = {
               "tags": [
                 "arts & culture",
                 "fiction",
+                "light-reading",
                 "professional development"
               ],
               "alsoIn": []
@@ -11406,6 +11449,7 @@ window.TOP_ARTICLES = {
               "tags": [
                 "ai ethics & society",
                 "fiction",
+                "light-reading",
                 "linked-from-readwise",
                 "research papers & academia"
               ],
@@ -11435,6 +11479,7 @@ window.TOP_ARTICLES = {
               "tags": [
                 "arts & culture",
                 "learning & meta-learning",
+                "light-reading",
                 "personal growth & life philosophy"
               ],
               "alsoIn": []
@@ -11461,6 +11506,7 @@ window.TOP_ARTICLES = {
               "tags": [
                 "arts & culture",
                 "learning & meta-learning",
+                "light-reading",
                 "professional development"
               ],
               "alsoIn": []
@@ -11487,6 +11533,7 @@ window.TOP_ARTICLES = {
               "tags": [
                 "arts & culture",
                 "learning & meta-learning",
+                "light-reading",
                 "professional development"
               ],
               "alsoIn": []
@@ -14255,6 +14302,7 @@ window.TOP_ARTICLES = {
               "bestMoment": "geconcentreerd",
               "tags": [
                 "fiction",
+                "light-reading",
                 "pdf-top-10",
                 "philosophy",
                 "political philosophy"
@@ -14548,6 +14596,7 @@ window.TOP_ARTICLES = {
               "bestMoment": "geconcentreerd",
               "tags": [
                 "fiction",
+                "light-reading",
                 "pdf-top-10",
                 "philosophy",
                 "political philosophy"
@@ -14903,6 +14952,7 @@ window.TOP_ARTICLES = {
               "tags": [
                 "ai ethics & society",
                 "fiction",
+                "light-reading",
                 "linked-from-readwise",
                 "research papers & academia"
               ],
@@ -18925,6 +18975,7 @@ window.TOP_ARTICLES = {
         "bestMoment": "geconcentreerd",
         "tags": [
           "fiction",
+          "light-reading",
           "pdf-top-10",
           "philosophy",
           "political philosophy"
@@ -19615,6 +19666,7 @@ window.TOP_ARTICLES = {
         "tags": [
           "arts & culture",
           "fiction",
+          "light-reading",
           "philosophy"
         ],
         "alsoIn": [
@@ -19676,6 +19728,7 @@ window.TOP_ARTICLES = {
         "tags": [
           "arts & culture",
           "later",
+          "light-reading",
           "philosophy",
           "technology"
         ],
@@ -20520,6 +20573,7 @@ window.TOP_ARTICLES = {
         "tags": [
           "ai ethics & society",
           "fiction",
+          "light-reading",
           "linked-from-readwise",
           "research papers & academia"
         ],
@@ -20813,6 +20867,7 @@ window.TOP_ARTICLES = {
         "tags": [
           "arts & culture",
           "learning & meta-learning",
+          "light-reading",
           "linked-from-readwise",
           "personal growth & life philosophy"
         ],
@@ -20967,6 +21022,7 @@ window.TOP_ARTICLES = {
         "bestMoment": "analytisch",
         "tags": [
           "fiction",
+          "light-reading",
           "linked-from-readwise",
           "political philosophy",
           "technology"
@@ -21015,6 +21071,7 @@ window.TOP_ARTICLES = {
         "bestMoment": "analytisch",
         "tags": [
           "fiction",
+          "light-reading",
           "linked-from-readwise",
           "political philosophy",
           "technology"
@@ -21249,6 +21306,7 @@ window.TOP_ARTICLES = {
         "bestMoment": "reflectief",
         "tags": [
           "arts & culture",
+          "light-reading",
           "philosophy",
           "science"
         ],
@@ -21285,7 +21343,8 @@ window.TOP_ARTICLES = {
         "tags": [
           "arts & culture",
           "fiction",
-          "learning & meta-learning"
+          "learning & meta-learning",
+          "light-reading"
         ],
         "alsoIn": [],
         "memberships": []
@@ -22076,6 +22135,7 @@ window.TOP_ARTICLES = {
         "tags": [
           "arts & culture",
           "fiction",
+          "light-reading",
           "personal growth & life philosophy"
         ],
         "alsoIn": [],
@@ -22103,6 +22163,7 @@ window.TOP_ARTICLES = {
         "tags": [
           "arts & culture",
           "learning & meta-learning",
+          "light-reading",
           "professional development"
         ],
         "alsoIn": [
@@ -22204,6 +22265,7 @@ window.TOP_ARTICLES = {
         "tags": [
           "arts & culture",
           "learning & meta-learning",
+          "light-reading",
           "professional development"
         ],
         "alsoIn": [
@@ -22245,6 +22307,7 @@ window.TOP_ARTICLES = {
         "tags": [
           "arts & culture",
           "learning & meta-learning",
+          "light-reading",
           "philosophy"
         ],
         "alsoIn": [
@@ -22422,6 +22485,7 @@ window.TOP_ARTICLES = {
         "bestMoment": "reflectief",
         "tags": [
           "arts & culture",
+          "light-reading",
           "personal growth & life philosophy",
           "sociology & social structures"
         ],
@@ -22458,7 +22522,8 @@ window.TOP_ARTICLES = {
         "tags": [
           "arts & culture",
           "business & startups",
-          "history"
+          "history",
+          "light-reading"
         ],
         "alsoIn": [
           "aaa-luchtig-top-100"
@@ -22493,6 +22558,7 @@ window.TOP_ARTICLES = {
         "tags": [
           "arts & culture",
           "learning & meta-learning",
+          "light-reading",
           "professional development"
         ],
         "alsoIn": [
@@ -22655,6 +22721,7 @@ window.TOP_ARTICLES = {
         "tags": [
           "arts & culture",
           "learning & meta-learning",
+          "light-reading",
           "personal growth & life philosophy"
         ],
         "alsoIn": [],
@@ -22682,6 +22749,7 @@ window.TOP_ARTICLES = {
         "tags": [
           "fiction",
           "history",
+          "light-reading",
           "political philosophy"
         ],
         "alsoIn": [
@@ -22791,6 +22859,7 @@ window.TOP_ARTICLES = {
         "tags": [
           "arts & culture",
           "learning & meta-learning",
+          "light-reading",
           "research papers & academia"
         ],
         "alsoIn": [
@@ -22919,6 +22988,7 @@ window.TOP_ARTICLES = {
         "tags": [
           "arts & culture",
           "learning & meta-learning",
+          "light-reading",
           "linked-from-readwise"
         ],
         "alsoIn": [],
@@ -23026,6 +23096,7 @@ window.TOP_ARTICLES = {
         "bestMoment": "analytisch",
         "tags": [
           "arts & culture",
+          "light-reading",
           "philosophy",
           "political philosophy"
         ],
@@ -23121,6 +23192,7 @@ window.TOP_ARTICLES = {
         "tags": [
           "arts & culture",
           "learning & meta-learning",
+          "light-reading",
           "professional development"
         ],
         "alsoIn": [
@@ -23583,6 +23655,7 @@ window.TOP_ARTICLES = {
         "tags": [
           "arts & culture",
           "fiction",
+          "light-reading",
           "professional development"
         ],
         "alsoIn": [
@@ -23683,6 +23756,7 @@ window.TOP_ARTICLES = {
         "bestMoment": "reflectief",
         "tags": [
           "arts & culture",
+          "light-reading",
           "personal growth & life philosophy",
           "philosophy"
         ],
@@ -23936,6 +24010,7 @@ window.TOP_ARTICLES = {
         "tags": [
           "arts & culture",
           "learning & meta-learning",
+          "light-reading",
           "professional development"
         ],
         "alsoIn": [
@@ -24236,7 +24311,8 @@ window.TOP_ARTICLES = {
         "tags": [
           "arts & culture",
           "fiction",
-          "learning & meta-learning"
+          "learning & meta-learning",
+          "light-reading"
         ],
         "alsoIn": [],
         "memberships": []
@@ -24326,6 +24402,7 @@ window.TOP_ARTICLES = {
         "bestMoment": "reflectief",
         "tags": [
           "arts & culture",
+          "light-reading",
           "personal growth & life philosophy",
           "philosophy"
         ],
@@ -24362,6 +24439,7 @@ window.TOP_ARTICLES = {
         "tags": [
           "arts & culture",
           "learning & meta-learning",
+          "light-reading",
           "personal growth & life philosophy"
         ],
         "alsoIn": [
@@ -24423,6 +24501,7 @@ window.TOP_ARTICLES = {
         "bestMoment": "reflectief",
         "tags": [
           "arts & culture",
+          "light-reading",
           "personal growth & life philosophy",
           "philosophy"
         ],
@@ -24701,6 +24780,7 @@ window.TOP_ARTICLES = {
         "bestMoment": null,
         "tags": [
           "arts & culture",
+          "light-reading",
           "personal growth & life philosophy",
           "technology"
         ],
@@ -24941,6 +25021,7 @@ window.TOP_ARTICLES = {
         "tags": [
           "arts & culture",
           "learning & meta-learning",
+          "light-reading",
           "philosophy"
         ],
         "alsoIn": [
@@ -25100,6 +25181,7 @@ window.TOP_ARTICLES = {
         "bestMoment": null,
         "tags": [
           "arts & culture",
+          "light-reading",
           "science",
           "sociology & social structures"
         ],
@@ -25599,6 +25681,7 @@ window.TOP_ARTICLES = {
         "tags": [
           "arts & culture",
           "learning & meta-learning",
+          "light-reading",
           "sociology & inequality"
         ],
         "alsoIn": [
@@ -25729,6 +25812,7 @@ window.TOP_ARTICLES = {
         "bestMoment": "reflectief",
         "tags": [
           "arts & culture",
+          "light-reading",
           "personal growth & life philosophy",
           "sociology & inequality"
         ],
@@ -25765,6 +25849,7 @@ window.TOP_ARTICLES = {
         "tags": [
           "arts & culture",
           "learning & meta-learning",
+          "light-reading",
           "personal growth & life philosophy"
         ],
         "alsoIn": [
@@ -25951,6 +26036,7 @@ window.TOP_ARTICLES = {
         "bestMoment": "geconcentreerd",
         "tags": [
           "arts & culture",
+          "light-reading",
           "philosophy",
           "sociology & inequality"
         ],
@@ -26101,6 +26187,7 @@ window.TOP_ARTICLES = {
         "bestMoment": "analytisch",
         "tags": [
           "arts & culture",
+          "light-reading",
           "sociology & inequality"
         ],
         "alsoIn": [
