@@ -24,14 +24,14 @@ test("de gegenereerde data bevat de luchtig-families met doorlopende posities", 
       top10Tag: "aaa-luchtig-top-10",
       top100Tag: "aaa-luchtig-top-100",
       top10Length: 10,
-      top100Length: 22,
+      top100Length: 100,
     },
     {
       id: "luchtig-nederlands",
       top10Tag: "aaa-luchtig-nederlands-top-10",
       top100Tag: "aaa-luchtig-nederlands-top-100",
-      top10Length: 2,
-      top100Length: 2,
+      top10Length: 4,
+      top100Length: 4,
     },
   ];
 

@@ -1,6 +1,6 @@
 // Automatisch gegenereerd door scripts/build-data.mjs — niet handmatig bewerken.
 window.TOP_ARTICLES = {
-  "generatedAt": "2026-08-16T20:30:13.659Z",
+  "generatedAt": "2026-08-17T06:09:25.024Z",
   "families": [
     {
       "id": "algemeen",
@@ -33,6 +33,7 @@ window.TOP_ARTICLES = {
               "bestMoment": "reflectief",
               "tags": [
                 "arts & culture",
+                "light-reading",
                 "philosophy",
                 "writing & essays"
               ],
@@ -337,6 +338,7 @@ window.TOP_ARTICLES = {
               "bestMoment": "reflectief",
               "tags": [
                 "arts & culture",
+                "light-reading",
                 "philosophy",
                 "writing & essays"
               ],
@@ -933,6 +935,7 @@ window.TOP_ARTICLES = {
               "bestMoment": "reflectief",
               "tags": [
                 "arts & culture",
+                "light-reading",
                 "sociology & inequality",
                 "writing & essays"
               ],
@@ -1786,6 +1789,7 @@ window.TOP_ARTICLES = {
               "tags": [
                 "arts & culture",
                 "learning & meta-learning",
+                "light-reading",
                 "tools & workflows"
               ],
               "alsoIn": [
@@ -1871,6 +1875,7 @@ window.TOP_ARTICLES = {
               "tags": [
                 "arts & culture",
                 "learning & meta-learning",
+                "light-reading",
                 "tools & workflows"
               ],
               "alsoIn": [
@@ -1955,6 +1960,7 @@ window.TOP_ARTICLES = {
               "bestMoment": "kritisch",
               "tags": [
                 "arts & culture",
+                "light-reading",
                 "philosophy",
                 "sociology & inequality"
               ],
@@ -4046,6 +4052,7 @@ window.TOP_ARTICLES = {
               "bestMoment": "kritisch",
               "tags": [
                 "arts & culture",
+                "light-reading",
                 "sociology & inequality"
               ],
               "alsoIn": [
@@ -4112,31 +4119,6 @@ window.TOP_ARTICLES = {
             },
             {
               "position": 24,
-              "id": "01kzx9z52qd31z7fyy315ebs7d",
-              "title": "Free Will Isn't An Illusion, But The Feeling Of It Is (Sometimes)",
-              "author": "Tommy Blanchard from Cognitive Wonderland",
-              "siteName": "Substack",
-              "category": "email",
-              "language": "Nederlands",
-              "readingTime": "13 mins",
-              "readingMinutes": 13,
-              "wordCount": 3205,
-              "publishedDate": "2026-08-13",
-              "savedDate": "2026-08-13T10:16:30.039000+00:00",
-              "imageUrl": null,
-              "sourceUrl": "mailto:reader-forwarded-email/f0d60a84843ad1f93f442b0ba058240e",
-              "readwiseUrl": "https://read.readwise.io/read/01kzx9z52qd31z7fyy315ebs7d",
-              "summary": "There’s a common idea that neuroscience disproves free will. If we know the mechanisms behind our decisions, it’s thought, then there’s no room for us to be the cause of our actions.",
-              "whyRead": "Raakt je interesse in filosofie van de geest en cognitieve wetenschap. Dit is een ongewoon heldere verdediging van compatibilisme die serieus neemt dat zelfkennis feilbaar is, zonder daaruit te concluderen dat handelingsvermogen verdwijnt.",
-              "bestMoment": "analytisch",
-              "tags": [
-                "philosophy",
-                "science"
-              ],
-              "alsoIn": []
-            },
-            {
-              "position": 25,
               "id": "01m02v2mszvk3cjaw44d26cmvx",
               "title": "Het zachte tegengif heet verwondering",
               "author": "Sabine Winters",
@@ -4167,7 +4149,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 26,
+              "position": 25,
               "id": "01kt43yge3yh7na9s1pgccyc4b",
               "title": "Universiteiten verspillen kostbaar rendement",
               "author": "Sophie van Gool",
@@ -4194,7 +4176,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 27,
+              "position": 26,
               "id": "01ktxgxw7cxp7caqpe7w230ne4",
               "title": "Klagende supermarkten",
               "author": "Rode Cijfers",
@@ -4221,7 +4203,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 28,
+              "position": 27,
               "id": "01kt8j5yakk29s0cg4w3wnywn8",
               "title": "Deze zeven vragen geven je werk een ziel",
               "author": "Simon van Teutem",
@@ -4248,7 +4230,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 29,
+              "position": 28,
               "id": "01m02agqvzjjczjgfrjqd8qyqj",
               "title": "De enige AI-skill die er echt toe doet",
               "author": "AI Report",
@@ -4276,7 +4258,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 30,
+              "position": 29,
               "id": "01kzds50ngmgn4d833k9cj9dp2",
               "title": "Wie bepaalt of jouw werk “AI slop” is?",
               "author": "Saskia en Alinda van her/ai",
@@ -4304,7 +4286,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 31,
+              "position": 30,
               "id": "01kxfv166ahh2jwz1pr03kevc9",
               "title": "Stel kritische vragen bij het AI-evangelie",
               "author": "Sophie van Gool",
@@ -4330,7 +4312,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 32,
+              "position": 31,
               "id": "01kzr4dqeqcac4srvc6vvdppez",
               "title": "Hij wilde een plekje bij de spinningles. Zijn AI hackte de sportschool",
               "author": "AI Report",
@@ -4356,38 +4338,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 33,
-              "id": "01kzs2rg4k74qvmpceqbwav3ae",
-              "title": "The Book is a Book, not Disembodied Information",
-              "author": "Nassim Nicholas Taleb",
-              "siteName": "Substack",
-              "category": "email",
-              "language": "Nederlands",
-              "readingTime": "4 mins",
-              "readingMinutes": 4,
-              "wordCount": 839,
-              "publishedDate": "2026-08-11",
-              "savedDate": "2026-08-11T18:53:34.228000+00:00",
-              "imageUrl": null,
-              "sourceUrl": "mailto:reader-forwarded-email/f2b3d4dc6526b924ca567149d48005c2",
-              "readwiseUrl": "https://read.readwise.io/read/01kzs2rg4k74qvmpceqbwav3ae",
-              "summary": "Definition: Dimension overtruncation is a form of Procrustean-bed reduction in which the simplification of an object, phenomenon, or process proceeds beyond the level that can be justified without material loss.",
-              "whyRead": "Raakt rechtstreeks je interesse in lezen, fysieke boeken en kennisbeheer. Taleb formuleert een bruikbare waarschuwing tegen het reduceren van een boek tot louter overdraagbare tekst, al is zijn stelling bewust polemisch.",
-              "bestMoment": "reflectief",
-              "tags": [
-                "arts & culture",
-                "learning & meta-learning",
-                "light-reading",
-                "personal growth & life philosophy"
-              ],
-              "alsoIn": [
-                "aaa-short-dutch-top-100",
-                "aaa-luchtig-nederlands-top-10",
-                "aaa-luchtig-nederlands-top-100"
-              ]
-            },
-            {
-              "position": 34,
+              "position": 32,
               "id": "01kzdbf87h4fzk1m5hz1zgh27t",
               "title": "De ideologische no-brainer voor het kabinet",
               "author": "Rode Cijfers",
@@ -4449,6 +4400,7 @@ window.TOP_ARTICLES = {
               "bestMoment": "reflectief",
               "tags": [
                 "arts & culture",
+                "light-reading",
                 "philosophy",
                 "writing & essays"
               ],
@@ -4754,6 +4706,7 @@ window.TOP_ARTICLES = {
               "bestMoment": "reflectief",
               "tags": [
                 "arts & culture",
+                "light-reading",
                 "philosophy",
                 "writing & essays"
               ],
@@ -5285,6 +5238,7 @@ window.TOP_ARTICLES = {
               "tags": [
                 "arts & culture",
                 "learning & meta-learning",
+                "light-reading",
                 "tools & workflows"
               ],
               "alsoIn": [
@@ -5370,6 +5324,7 @@ window.TOP_ARTICLES = {
               "tags": [
                 "arts & culture",
                 "learning & meta-learning",
+                "light-reading",
                 "tools & workflows"
               ],
               "alsoIn": [
@@ -5454,6 +5409,7 @@ window.TOP_ARTICLES = {
               "bestMoment": "kritisch",
               "tags": [
                 "arts & culture",
+                "light-reading",
                 "philosophy",
                 "sociology & inequality"
               ],
@@ -6639,6 +6595,7 @@ window.TOP_ARTICLES = {
               "tags": [
                 "arts & culture",
                 "business & work",
+                "light-reading",
                 "writing & essays"
               ],
               "alsoIn": [
@@ -6719,6 +6676,7 @@ window.TOP_ARTICLES = {
               "tags": [
                 "arts & culture",
                 "learning & meta-learning",
+                "light-reading",
                 "writing & essays"
               ],
               "alsoIn": [
@@ -6772,6 +6730,7 @@ window.TOP_ARTICLES = {
               "bestMoment": "reflectief",
               "tags": [
                 "arts & culture",
+                "light-reading",
                 "personal growth & life philosophy",
                 "writing & essays"
               ],
@@ -6852,6 +6811,7 @@ window.TOP_ARTICLES = {
               "bestMoment": "reflectief",
               "tags": [
                 "arts & culture",
+                "light-reading",
                 "personal growth & life philosophy",
                 "writing & essays"
               ],
@@ -6907,6 +6867,7 @@ window.TOP_ARTICLES = {
               "tags": [
                 "arts & culture",
                 "learning & meta-learning",
+                "light-reading",
                 "writing & essays"
               ],
               "alsoIn": [
@@ -6961,6 +6922,7 @@ window.TOP_ARTICLES = {
               "tags": [
                 "arts & culture",
                 "learning & meta-learning",
+                "light-reading",
                 "writing & essays"
               ],
               "alsoIn": [
@@ -7041,6 +7003,7 @@ window.TOP_ARTICLES = {
               "tags": [
                 "arts & culture",
                 "economics",
+                "light-reading",
                 "writing & essays"
               ],
               "alsoIn": [
@@ -7068,6 +7031,7 @@ window.TOP_ARTICLES = {
               "bestMoment": "reflectief",
               "tags": [
                 "arts & culture",
+                "light-reading",
                 "personal growth & life philosophy",
                 "writing & essays"
               ],
@@ -7267,6 +7231,7 @@ window.TOP_ARTICLES = {
               "tags": [
                 "arts & culture",
                 "learning & meta-learning",
+                "light-reading",
                 "parenting & care"
               ],
               "alsoIn": [
@@ -8428,37 +8393,6 @@ window.TOP_ARTICLES = {
             },
             {
               "position": 20,
-              "id": "01kzs2rg4k74qvmpceqbwav3ae",
-              "title": "The Book is a Book, not Disembodied Information",
-              "author": "Nassim Nicholas Taleb",
-              "siteName": "Substack",
-              "category": "email",
-              "language": "Nederlands",
-              "readingTime": "4 mins",
-              "readingMinutes": 4,
-              "wordCount": 839,
-              "publishedDate": "2026-08-11",
-              "savedDate": "2026-08-11T18:53:34.228000+00:00",
-              "imageUrl": null,
-              "sourceUrl": "mailto:reader-forwarded-email/f2b3d4dc6526b924ca567149d48005c2",
-              "readwiseUrl": "https://read.readwise.io/read/01kzs2rg4k74qvmpceqbwav3ae",
-              "summary": "Definition: Dimension overtruncation is a form of Procrustean-bed reduction in which the simplification of an object, phenomenon, or process proceeds beyond the level that can be justified without material loss.",
-              "whyRead": "Raakt rechtstreeks je interesse in lezen, fysieke boeken en kennisbeheer. Taleb formuleert een bruikbare waarschuwing tegen het reduceren van een boek tot louter overdraagbare tekst, al is zijn stelling bewust polemisch.",
-              "bestMoment": "reflectief",
-              "tags": [
-                "arts & culture",
-                "learning & meta-learning",
-                "light-reading",
-                "personal growth & life philosophy"
-              ],
-              "alsoIn": [
-                "aaa-dutch-top-100",
-                "aaa-luchtig-nederlands-top-10",
-                "aaa-luchtig-nederlands-top-100"
-              ]
-            },
-            {
-              "position": 21,
               "id": "01kzdbf87h4fzk1m5hz1zgh27t",
               "title": "De ideologische no-brainer voor het kabinet",
               "author": "Rode Cijfers",
@@ -8520,6 +8454,7 @@ window.TOP_ARTICLES = {
               "bestMoment": "reflectief",
               "tags": [
                 "arts & culture",
+                "light-reading",
                 "philosophy",
                 "writing & essays"
               ],
@@ -8552,6 +8487,7 @@ window.TOP_ARTICLES = {
               "bestMoment": "analytisch",
               "tags": [
                 "arts & culture",
+                "light-reading",
                 "pdf-top-10",
                 "philosophy",
                 "political philosophy"
@@ -8615,6 +8551,7 @@ window.TOP_ARTICLES = {
               "bestMoment": "reflectief",
               "tags": [
                 "arts & culture",
+                "light-reading",
                 "sociology & inequality",
                 "writing & essays"
               ],
@@ -8827,6 +8764,7 @@ window.TOP_ARTICLES = {
               "bestMoment": "reflectief",
               "tags": [
                 "arts & culture",
+                "light-reading",
                 "philosophy",
                 "writing & essays"
               ],
@@ -8859,6 +8797,7 @@ window.TOP_ARTICLES = {
               "bestMoment": "analytisch",
               "tags": [
                 "arts & culture",
+                "light-reading",
                 "pdf-top-10",
                 "philosophy",
                 "political philosophy"
@@ -8922,6 +8861,7 @@ window.TOP_ARTICLES = {
               "bestMoment": "reflectief",
               "tags": [
                 "arts & culture",
+                "light-reading",
                 "sociology & inequality",
                 "writing & essays"
               ],
@@ -9158,6 +9098,7 @@ window.TOP_ARTICLES = {
               "tags": [
                 "arts & culture",
                 "learning & meta-learning",
+                "light-reading",
                 "tools & workflows"
               ],
               "alsoIn": [
@@ -9187,6 +9128,7 @@ window.TOP_ARTICLES = {
               "tags": [
                 "arts & culture",
                 "learning & meta-learning",
+                "light-reading",
                 "tools & workflows"
               ],
               "alsoIn": [
@@ -9215,6 +9157,7 @@ window.TOP_ARTICLES = {
               "bestMoment": "kritisch",
               "tags": [
                 "arts & culture",
+                "light-reading",
                 "philosophy",
                 "sociology & inequality"
               ],
@@ -9540,6 +9483,7 @@ window.TOP_ARTICLES = {
               "tags": [
                 "arts & culture",
                 "business & work",
+                "light-reading",
                 "writing & essays"
               ],
               "alsoIn": [
@@ -9568,6 +9512,7 @@ window.TOP_ARTICLES = {
               "tags": [
                 "arts & culture",
                 "learning & meta-learning",
+                "light-reading",
                 "writing & essays"
               ],
               "alsoIn": [
@@ -9595,6 +9540,7 @@ window.TOP_ARTICLES = {
               "bestMoment": "reflectief",
               "tags": [
                 "arts & culture",
+                "light-reading",
                 "personal growth & life philosophy",
                 "writing & essays"
               ],
@@ -9623,6 +9569,7 @@ window.TOP_ARTICLES = {
               "bestMoment": "reflectief",
               "tags": [
                 "arts & culture",
+                "light-reading",
                 "personal growth & life philosophy",
                 "writing & essays"
               ],
@@ -9652,6 +9599,7 @@ window.TOP_ARTICLES = {
               "tags": [
                 "arts & culture",
                 "history",
+                "light-reading",
                 "philosophy",
                 "video-top-10"
               ],
@@ -9682,6 +9630,7 @@ window.TOP_ARTICLES = {
               "tags": [
                 "arts & culture",
                 "history",
+                "light-reading",
                 "philosophy"
               ],
               "alsoIn": []
@@ -9708,6 +9657,7 @@ window.TOP_ARTICLES = {
               "tags": [
                 "arts & culture",
                 "learning & meta-learning",
+                "light-reading",
                 "writing & essays"
               ],
               "alsoIn": [
@@ -9736,6 +9686,7 @@ window.TOP_ARTICLES = {
               "tags": [
                 "arts & culture",
                 "learning & meta-learning",
+                "light-reading",
                 "writing & essays"
               ],
               "alsoIn": [
@@ -9818,6 +9769,7 @@ window.TOP_ARTICLES = {
               "tags": [
                 "arts & culture",
                 "economics",
+                "light-reading",
                 "writing & essays"
               ],
               "alsoIn": [
@@ -9845,6 +9797,7 @@ window.TOP_ARTICLES = {
               "bestMoment": "reflectief",
               "tags": [
                 "arts & culture",
+                "light-reading",
                 "personal growth & life philosophy",
                 "writing & essays"
               ],
@@ -9964,6 +9917,7 @@ window.TOP_ARTICLES = {
               "tags": [
                 "arts & culture",
                 "learning & meta-learning",
+                "light-reading",
                 "parenting & care"
               ],
               "alsoIn": [
@@ -10154,6 +10108,7 @@ window.TOP_ARTICLES = {
               "tags": [
                 "arts & culture",
                 "history",
+                "light-reading",
                 "popular science"
               ],
               "alsoIn": []
@@ -10180,6 +10135,7 @@ window.TOP_ARTICLES = {
               "tags": [
                 "adhd & neurodivergence",
                 "arts & culture",
+                "light-reading",
                 "writing & essays"
               ],
               "alsoIn": []
@@ -10205,6 +10161,7 @@ window.TOP_ARTICLES = {
               "bestMoment": "reflectief",
               "tags": [
                 "arts & culture",
+                "light-reading",
                 "personal growth & life philosophy",
                 "writing & essays"
               ],
@@ -10289,6 +10246,7 @@ window.TOP_ARTICLES = {
               "tags": [
                 "economics",
                 "fiction",
+                "light-reading",
                 "tools & workflows"
               ],
               "alsoIn": []
@@ -10315,6 +10273,7 @@ window.TOP_ARTICLES = {
               "tags": [
                 "arts & culture",
                 "economics",
+                "light-reading",
                 "philosophy"
               ],
               "alsoIn": []
@@ -10368,6 +10327,7 @@ window.TOP_ARTICLES = {
               "tags": [
                 "arts & culture",
                 "economics",
+                "light-reading",
                 "sociology & inequality"
               ],
               "alsoIn": []
@@ -10421,6 +10381,7 @@ window.TOP_ARTICLES = {
               "tags": [
                 "arts & culture",
                 "learning & meta-learning",
+                "light-reading",
                 "philosophy"
               ],
               "alsoIn": []
@@ -10796,6 +10757,7 @@ window.TOP_ARTICLES = {
               "bestMoment": "analytisch",
               "tags": [
                 "arts & culture",
+                "light-reading",
                 "sociology & inequality"
               ],
               "alsoIn": []
@@ -10821,6 +10783,7 @@ window.TOP_ARTICLES = {
               "bestMoment": "analytisch",
               "tags": [
                 "arts & culture",
+                "light-reading",
                 "philosophy"
               ],
               "alsoIn": []
@@ -10846,6 +10809,7 @@ window.TOP_ARTICLES = {
               "bestMoment": "analytisch",
               "tags": [
                 "arts & culture",
+                "light-reading",
                 "philosophy",
                 "popular science"
               ],
@@ -10872,6 +10836,7 @@ window.TOP_ARTICLES = {
               "bestMoment": "kritisch",
               "tags": [
                 "arts & culture",
+                "light-reading",
                 "sociology & inequality"
               ],
               "alsoIn": [
@@ -10982,6 +10947,7 @@ window.TOP_ARTICLES = {
               "tags": [
                 "arts & culture",
                 "learning & meta-learning",
+                "light-reading",
                 "philosophy"
               ],
               "alsoIn": []
@@ -11314,7 +11280,8 @@ window.TOP_ARTICLES = {
               "tags": [
                 "arts & culture",
                 "cognitive science",
-                "learning & meta-learning"
+                "learning & meta-learning",
+                "light-reading"
               ],
               "alsoIn": []
             },
@@ -11392,6 +11359,7 @@ window.TOP_ARTICLES = {
               "tags": [
                 "ai & machine learning",
                 "arts & culture",
+                "light-reading",
                 "programming & software",
                 "video-top-10"
               ],
@@ -11660,6 +11628,7 @@ window.TOP_ARTICLES = {
               "bestMoment": "kritisch",
               "tags": [
                 "arts & culture",
+                "light-reading",
                 "sociology & inequality"
               ],
               "alsoIn": [
@@ -11727,37 +11696,6 @@ window.TOP_ARTICLES = {
               "alsoIn": [
                 "aaa-dutch-top-100",
                 "aaa-luchtig-top-100",
-                "aaa-luchtig-nederlands-top-100"
-              ]
-            },
-            {
-              "position": 5,
-              "id": "01kzs2rg4k74qvmpceqbwav3ae",
-              "title": "The Book is a Book, not Disembodied Information",
-              "author": "Nassim Nicholas Taleb",
-              "siteName": "Substack",
-              "category": "email",
-              "language": "Nederlands",
-              "readingTime": "4 mins",
-              "readingMinutes": 4,
-              "wordCount": 839,
-              "publishedDate": "2026-08-11",
-              "savedDate": "2026-08-11T18:53:34.228000+00:00",
-              "imageUrl": null,
-              "sourceUrl": "mailto:reader-forwarded-email/f2b3d4dc6526b924ca567149d48005c2",
-              "readwiseUrl": "https://read.readwise.io/read/01kzs2rg4k74qvmpceqbwav3ae",
-              "summary": "Definition: Dimension overtruncation is a form of Procrustean-bed reduction in which the simplification of an object, phenomenon, or process proceeds beyond the level that can be justified without material loss.",
-              "whyRead": "Raakt rechtstreeks je interesse in lezen, fysieke boeken en kennisbeheer. Taleb formuleert een bruikbare waarschuwing tegen het reduceren van een boek tot louter overdraagbare tekst, al is zijn stelling bewust polemisch.",
-              "bestMoment": "reflectief",
-              "tags": [
-                "arts & culture",
-                "learning & meta-learning",
-                "light-reading",
-                "personal growth & life philosophy"
-              ],
-              "alsoIn": [
-                "aaa-dutch-top-100",
-                "aaa-short-dutch-top-100",
                 "aaa-luchtig-nederlands-top-100"
               ]
             }
@@ -11821,6 +11759,7 @@ window.TOP_ARTICLES = {
               "bestMoment": "kritisch",
               "tags": [
                 "arts & culture",
+                "light-reading",
                 "sociology & inequality"
               ],
               "alsoIn": [
@@ -11888,37 +11827,6 @@ window.TOP_ARTICLES = {
               "alsoIn": [
                 "aaa-dutch-top-100",
                 "aaa-luchtig-top-100",
-                "aaa-luchtig-nederlands-top-10"
-              ]
-            },
-            {
-              "position": 5,
-              "id": "01kzs2rg4k74qvmpceqbwav3ae",
-              "title": "The Book is a Book, not Disembodied Information",
-              "author": "Nassim Nicholas Taleb",
-              "siteName": "Substack",
-              "category": "email",
-              "language": "Nederlands",
-              "readingTime": "4 mins",
-              "readingMinutes": 4,
-              "wordCount": 839,
-              "publishedDate": "2026-08-11",
-              "savedDate": "2026-08-11T18:53:34.228000+00:00",
-              "imageUrl": null,
-              "sourceUrl": "mailto:reader-forwarded-email/f2b3d4dc6526b924ca567149d48005c2",
-              "readwiseUrl": "https://read.readwise.io/read/01kzs2rg4k74qvmpceqbwav3ae",
-              "summary": "Definition: Dimension overtruncation is a form of Procrustean-bed reduction in which the simplification of an object, phenomenon, or process proceeds beyond the level that can be justified without material loss.",
-              "whyRead": "Raakt rechtstreeks je interesse in lezen, fysieke boeken en kennisbeheer. Taleb formuleert een bruikbare waarschuwing tegen het reduceren van een boek tot louter overdraagbare tekst, al is zijn stelling bewust polemisch.",
-              "bestMoment": "reflectief",
-              "tags": [
-                "arts & culture",
-                "learning & meta-learning",
-                "light-reading",
-                "personal growth & life philosophy"
-              ],
-              "alsoIn": [
-                "aaa-dutch-top-100",
-                "aaa-short-dutch-top-100",
                 "aaa-luchtig-nederlands-top-10"
               ]
             }
@@ -14271,6 +14179,7 @@ window.TOP_ARTICLES = {
               "bestMoment": "analytisch",
               "tags": [
                 "arts & culture",
+                "light-reading",
                 "pdf-top-10",
                 "philosophy",
                 "political philosophy"
@@ -14565,6 +14474,7 @@ window.TOP_ARTICLES = {
               "bestMoment": "analytisch",
               "tags": [
                 "arts & culture",
+                "light-reading",
                 "pdf-top-10",
                 "philosophy",
                 "political philosophy"
@@ -15206,6 +15116,7 @@ window.TOP_ARTICLES = {
               "tags": [
                 "arts & culture",
                 "history",
+                "light-reading",
                 "philosophy",
                 "video-top-10"
               ],
@@ -15379,6 +15290,7 @@ window.TOP_ARTICLES = {
               "tags": [
                 "ai & machine learning",
                 "arts & culture",
+                "light-reading",
                 "programming & software",
                 "video-top-10"
               ],
@@ -15502,6 +15414,7 @@ window.TOP_ARTICLES = {
               "tags": [
                 "arts & culture",
                 "history",
+                "light-reading",
                 "philosophy",
                 "video-top-10"
               ],
@@ -15675,6 +15588,7 @@ window.TOP_ARTICLES = {
               "tags": [
                 "ai & machine learning",
                 "arts & culture",
+                "light-reading",
                 "programming & software",
                 "video-top-10"
               ],
@@ -16898,7 +16812,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "nederlands",
             "size": "top-100",
-            "position": 25
+            "position": 24
           },
           {
             "familyId": "luchtig",
@@ -16949,7 +16863,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "nederlands",
             "size": "top-100",
-            "position": 29
+            "position": 28
           },
           {
             "familyId": "kort-nederlands",
@@ -17115,7 +17029,7 @@ window.TOP_ARTICLES = {
         "author": "Tommy Blanchard from Cognitive Wonderland",
         "siteName": "Substack",
         "category": "email",
-        "language": "Nederlands",
+        "language": null,
         "readingTime": "13 mins",
         "readingMinutes": 13,
         "wordCount": 3205,
@@ -17131,16 +17045,8 @@ window.TOP_ARTICLES = {
           "philosophy",
           "science"
         ],
-        "alsoIn": [
-          "aaa-dutch-top-100"
-        ],
-        "memberships": [
-          {
-            "familyId": "nederlands",
-            "size": "top-100",
-            "position": 24
-          }
-        ]
+        "alsoIn": [],
+        "memberships": []
       },
       {
         "position": null,
@@ -17218,7 +17124,7 @@ window.TOP_ARTICLES = {
         "author": "Nassim Nicholas Taleb",
         "siteName": "Substack",
         "category": "email",
-        "language": "Nederlands",
+        "language": null,
         "readingTime": "4 mins",
         "readingMinutes": 4,
         "wordCount": 839,
@@ -17236,34 +17142,8 @@ window.TOP_ARTICLES = {
           "light-reading",
           "personal growth & life philosophy"
         ],
-        "alsoIn": [
-          "aaa-dutch-top-100",
-          "aaa-short-dutch-top-100",
-          "aaa-luchtig-nederlands-top-10",
-          "aaa-luchtig-nederlands-top-100"
-        ],
-        "memberships": [
-          {
-            "familyId": "nederlands",
-            "size": "top-100",
-            "position": 33
-          },
-          {
-            "familyId": "kort-nederlands",
-            "size": "top-100",
-            "position": 20
-          },
-          {
-            "familyId": "luchtig-nederlands",
-            "size": "top-10",
-            "position": 5
-          },
-          {
-            "familyId": "luchtig-nederlands",
-            "size": "top-100",
-            "position": 5
-          }
-        ]
+        "alsoIn": [],
+        "memberships": []
       },
       {
         "position": null,
@@ -17296,7 +17176,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "nederlands",
             "size": "top-100",
-            "position": 32
+            "position": 31
           }
         ]
       },
@@ -17650,7 +17530,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "nederlands",
             "size": "top-100",
-            "position": 30
+            "position": 29
           },
           {
             "familyId": "kort-nederlands",
@@ -17842,12 +17722,12 @@ window.TOP_ARTICLES = {
           {
             "familyId": "nederlands",
             "size": "top-100",
-            "position": 34
+            "position": 32
           },
           {
             "familyId": "kort-nederlands",
             "size": "top-100",
-            "position": 21
+            "position": 20
           }
         ]
       },
@@ -21589,7 +21469,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "nederlands",
             "size": "top-100",
-            "position": 31
+            "position": 30
           },
           {
             "familyId": "kort-nederlands",
@@ -23262,7 +23142,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "nederlands",
             "size": "top-100",
-            "position": 27
+            "position": 26
           },
           {
             "familyId": "kort-nederlands",
@@ -23583,7 +23463,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "nederlands",
             "size": "top-100",
-            "position": 28
+            "position": 27
           },
           {
             "familyId": "kort-nederlands",
@@ -23726,7 +23606,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "nederlands",
             "size": "top-100",
-            "position": 26
+            "position": 25
           },
           {
             "familyId": "kort-nederlands",
@@ -26250,6 +26130,7 @@ window.TOP_ARTICLES = {
         "tags": [
           "arts & culture",
           "business & work",
+          "light-reading",
           "personal growth & life philosophy"
         ],
         "alsoIn": [],
@@ -26525,6 +26406,7 @@ window.TOP_ARTICLES = {
         "bestMoment": "reflectief",
         "tags": [
           "arts & culture",
+          "light-reading",
           "personal growth & life philosophy",
           "writing & essays"
         ],
@@ -26560,6 +26442,7 @@ window.TOP_ARTICLES = {
         "bestMoment": "reflectief",
         "tags": [
           "arts & culture",
+          "light-reading",
           "personal growth & life philosophy",
           "writing & essays"
         ],
@@ -26643,6 +26526,7 @@ window.TOP_ARTICLES = {
         "tags": [
           "arts & culture",
           "economics",
+          "light-reading",
           "writing & essays"
         ],
         "alsoIn": [
@@ -27628,6 +27512,7 @@ window.TOP_ARTICLES = {
         "tags": [
           "arts & culture",
           "learning & meta-learning",
+          "light-reading",
           "philosophy"
         ],
         "alsoIn": [
@@ -27742,6 +27627,7 @@ window.TOP_ARTICLES = {
         "bestMoment": "reflectief",
         "tags": [
           "arts & culture",
+          "light-reading",
           "sociology & inequality",
           "writing & essays"
         ],
@@ -27958,6 +27844,7 @@ window.TOP_ARTICLES = {
         "tags": [
           "arts & culture",
           "internet & platforms",
+          "light-reading",
           "personal growth & life philosophy"
         ],
         "alsoIn": [],
@@ -28018,6 +27905,7 @@ window.TOP_ARTICLES = {
         "tags": [
           "ai & machine learning",
           "arts & culture",
+          "light-reading",
           "programming & software",
           "video-top-10"
         ],
@@ -28772,6 +28660,7 @@ window.TOP_ARTICLES = {
         "bestMoment": "analytisch",
         "tags": [
           "arts & culture",
+          "light-reading",
           "pdf-top-10",
           "philosophy",
           "political philosophy"
@@ -28867,6 +28756,7 @@ window.TOP_ARTICLES = {
         "bestMoment": "analytisch",
         "tags": [
           "arts & culture",
+          "light-reading",
           "programming & software"
         ],
         "alsoIn": [],
@@ -28934,6 +28824,7 @@ window.TOP_ARTICLES = {
         "tags": [
           "arts & culture",
           "learning & meta-learning",
+          "light-reading",
           "writing & essays"
         ],
         "alsoIn": [
@@ -29154,6 +29045,7 @@ window.TOP_ARTICLES = {
         "tags": [
           "arts & culture",
           "learning & meta-learning",
+          "light-reading",
           "writing & essays"
         ],
         "alsoIn": [
@@ -29195,6 +29087,7 @@ window.TOP_ARTICLES = {
         "tags": [
           "arts & culture",
           "learning & meta-learning",
+          "light-reading",
           "philosophy"
         ],
         "alsoIn": [
@@ -29399,6 +29292,7 @@ window.TOP_ARTICLES = {
         "tags": [
           "arts & culture",
           "learning & meta-learning",
+          "light-reading",
           "parenting & care"
         ],
         "alsoIn": [
@@ -29625,6 +29519,7 @@ window.TOP_ARTICLES = {
         "tags": [
           "arts & culture",
           "economics",
+          "light-reading",
           "sociology & inequality"
         ],
         "alsoIn": [
@@ -29862,6 +29757,7 @@ window.TOP_ARTICLES = {
         "tags": [
           "arts & culture",
           "history",
+          "light-reading",
           "philosophy"
         ],
         "alsoIn": [
@@ -29986,6 +29882,7 @@ window.TOP_ARTICLES = {
         "tags": [
           "arts & culture",
           "learning & meta-learning",
+          "light-reading",
           "popular science"
         ],
         "alsoIn": [],
@@ -30065,6 +29962,7 @@ window.TOP_ARTICLES = {
         "bestMoment": "kritisch",
         "tags": [
           "arts & culture",
+          "light-reading",
           "philosophy",
           "sociology & inequality"
         ],
@@ -30113,7 +30011,8 @@ window.TOP_ARTICLES = {
         "tags": [
           "arts & culture",
           "cognitive science",
-          "learning & meta-learning"
+          "learning & meta-learning",
+          "light-reading"
         ],
         "alsoIn": [
           "aaa-luchtig-top-100"
@@ -30208,6 +30107,7 @@ window.TOP_ARTICLES = {
         "bestMoment": "kritisch",
         "tags": [
           "arts & culture",
+          "light-reading",
           "sociology & inequality"
         ],
         "alsoIn": [
@@ -30261,6 +30161,7 @@ window.TOP_ARTICLES = {
         "tags": [
           "arts & culture",
           "history",
+          "light-reading",
           "philosophy",
           "video-top-10"
         ],
@@ -30440,6 +30341,7 @@ window.TOP_ARTICLES = {
         "tags": [
           "adhd & neurodivergence",
           "arts & culture",
+          "light-reading",
           "writing & essays"
         ],
         "alsoIn": [
@@ -30577,6 +30479,7 @@ window.TOP_ARTICLES = {
         "tags": [
           "arts & culture",
           "learning & meta-learning",
+          "light-reading",
           "tools & workflows"
         ],
         "alsoIn": [
@@ -30623,6 +30526,7 @@ window.TOP_ARTICLES = {
         "bestMoment": "reflectief",
         "tags": [
           "arts & culture",
+          "light-reading",
           "personal growth & life philosophy",
           "writing & essays"
         ],
@@ -31050,6 +30954,7 @@ window.TOP_ARTICLES = {
         "bestMoment": "reflectief",
         "tags": [
           "arts & culture",
+          "light-reading",
           "personal growth & life philosophy",
           "writing & essays"
         ],
@@ -31354,6 +31259,7 @@ window.TOP_ARTICLES = {
         "bestMoment": "analytisch",
         "tags": [
           "arts & culture",
+          "light-reading",
           "philosophy",
           "popular science"
         ],
@@ -31389,6 +31295,7 @@ window.TOP_ARTICLES = {
         "bestMoment": "analytisch",
         "tags": [
           "arts & culture",
+          "light-reading",
           "philosophy"
         ],
         "alsoIn": [
@@ -32047,6 +31954,7 @@ window.TOP_ARTICLES = {
         "tags": [
           "arts & culture",
           "economics",
+          "light-reading",
           "philosophy"
         ],
         "alsoIn": [
@@ -32082,6 +31990,7 @@ window.TOP_ARTICLES = {
         "tags": [
           "arts & culture",
           "learning & meta-learning",
+          "light-reading",
           "tools & workflows"
         ],
         "alsoIn": [
@@ -32191,6 +32100,7 @@ window.TOP_ARTICLES = {
         "tags": [
           "arts & culture",
           "history",
+          "light-reading",
           "popular science"
         ],
         "alsoIn": [
@@ -32261,6 +32171,7 @@ window.TOP_ARTICLES = {
         "tags": [
           "arts & culture",
           "learning & meta-learning",
+          "light-reading",
           "writing & essays"
         ],
         "alsoIn": [
@@ -32301,6 +32212,7 @@ window.TOP_ARTICLES = {
         "bestMoment": "analytisch",
         "tags": [
           "arts & culture",
+          "light-reading",
           "sociology & inequality"
         ],
         "alsoIn": [
@@ -32615,6 +32527,7 @@ window.TOP_ARTICLES = {
         "bestMoment": "analytisch",
         "tags": [
           "arts & culture",
+          "light-reading",
           "personal growth & life philosophy"
         ],
         "alsoIn": [],
@@ -32669,6 +32582,7 @@ window.TOP_ARTICLES = {
         "tags": [
           "arts & culture",
           "cognitive science",
+          "light-reading",
           "personal growth & life philosophy"
         ],
         "alsoIn": [],
@@ -32779,6 +32693,7 @@ window.TOP_ARTICLES = {
         "tags": [
           "arts & culture",
           "learning & meta-learning",
+          "light-reading",
           "personal growth & life philosophy"
         ],
         "alsoIn": [],
@@ -33036,6 +32951,7 @@ window.TOP_ARTICLES = {
         "tags": [
           "arts & culture",
           "business & work",
+          "light-reading",
           "writing & essays"
         ],
         "alsoIn": [
@@ -33504,6 +33420,7 @@ window.TOP_ARTICLES = {
         "tags": [
           "economics",
           "fiction",
+          "light-reading",
           "tools & workflows"
         ],
         "alsoIn": [
@@ -35241,6 +35158,7 @@ window.TOP_ARTICLES = {
         "bestMoment": "reflectief",
         "tags": [
           "arts & culture",
+          "light-reading",
           "philosophy",
           "writing & essays"
         ],
