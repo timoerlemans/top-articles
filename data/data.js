@@ -1,6 +1,6 @@
 // Automatisch gegenereerd door scripts/build-data.mjs — niet handmatig bewerken.
 window.TOP_ARTICLES = {
-  "generatedAt": "2026-08-18T06:37:47.922Z",
+  "generatedAt": "2026-08-19T06:38:36.384Z",
   "families": [
     {
       "id": "algemeen",
@@ -10230,6 +10230,31 @@ window.TOP_ARTICLES = {
             },
             {
               "position": 52,
+              "id": "01m07zpehf3761wmknmsknqwsa",
+              "title": "How Books Can Build a World and Shape a Culture",
+              "author": "Miller’s Book Review 📚",
+              "siteName": "Substack",
+              "category": "email",
+              "language": null,
+              "readingTime": "23 mins",
+              "readingMinutes": 23,
+              "wordCount": 5866,
+              "publishedDate": "2026-08-17",
+              "savedDate": "2026-08-17T13:48:37.808000+00:00",
+              "imageUrl": null,
+              "sourceUrl": "mailto:reader-forwarded-email/7feb9fd95e8ee502a6dbb9858b948d9b",
+              "readwiseUrl": "https://read.readwise.io/read/01m07zpehf3761wmknmsknqwsa",
+              "summary": "We created books and our books created us. I’m excited to share an interview I did with Nicholas Kotar where we discuss that dynamic.",
+              "whyRead": "Rijk interview over boeken als technologie, canonvorming en de relatie tussen informatie en waarheid — sluit direct aan bij je interesse in filosofie, PKM en de rol van LLM's als \"verheerlijkte index\".",
+              "bestMoment": "analytisch",
+              "tags": [
+                "arts & culture",
+                "philosophy"
+              ],
+              "alsoIn": []
+            },
+            {
+              "position": 53,
               "id": "01j6011fk1gbvn0q705v2wmmah",
               "title": "Five Unconventional Economic Systems as Imagined in SFF",
               "author": "Eleanor Konik",
@@ -10256,7 +10281,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 53,
+              "position": 54,
               "id": "01k3wpv85qh52sj9ffa8rrz1bm",
               "title": "Chromatic Rebel #2: why is the West so color-minimalist?",
               "author": "María Castro Jiménez",
@@ -10283,7 +10308,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 54,
+              "position": 55,
               "id": "01k7tw6vrkda5hp5070ra2wqm6",
               "title": "Five SFF Stories That Shed Light on Obscure History",
               "author": "Eleanor Konik",
@@ -10310,7 +10335,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 55,
+              "position": 56,
               "id": "01kaecmp565yrjt89z6qhc3ydq",
               "title": "Why Did Wealth Stop Building Beautiful Things?",
               "author": "The Culturist",
@@ -10337,7 +10362,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 56,
+              "position": 57,
               "id": "01kaen0f4sd6p0wsrv0fw7320f",
               "title": "🌲 The Best \"Gamified X\" App is a GAME",
               "author": "Eleanor Konik",
@@ -10364,7 +10389,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 57,
+              "position": 58,
               "id": "01kc53chv8ebh5cygqaf76fwt0",
               "title": "🌲 Familiarity with the Western Canon is Surprisingly Reassuring",
               "author": "Eleanor Konik",
@@ -10391,7 +10416,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 58,
+              "position": 59,
               "id": "01kcfca0wrxztgk2sqe31khzbr",
               "title": "Now Watch Me Read | The New Yorker",
               "author": "Brady Brickner-Wood",
@@ -10418,7 +10443,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 59,
+              "position": 60,
               "id": "01kqy8wyp8f7z6nqcby6ajbnm4",
               "title": "The world reveals itself to those who travel by foot",
               "author": "Henrik Karlsson",
@@ -10445,7 +10470,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 60,
+              "position": 61,
               "id": "01krnyr9cxy0rhqzt148zy5p99",
               "title": "Good conversations have lots of doorknobs",
               "author": "Adam Mastroianni",
@@ -10472,7 +10497,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 61,
+              "position": 62,
               "id": "01krqmh4tqphysje012p59hxec",
               "title": "Novels Tell Us Who We Are",
               "author": "Carl Hendrick from The Learning Dispatch",
@@ -10499,7 +10524,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 62,
+              "position": 63,
               "id": "01kvwytrrghvckwz0stdxe2mgw",
               "title": "Week 15, 16, 17, 18: Zuid-Holland",
               "author": "Holly en Roos",
@@ -10526,7 +10551,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 63,
+              "position": 64,
               "id": "01kw4djwahhwy93y8hrkg48wmd",
               "title": "Literature: The Ultimate Answer to the Algorithm",
               "author": "Miller’s Book Review 📚",
@@ -10553,7 +10578,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 64,
+              "position": 65,
               "id": "01kyhnw0sy3wcsr7adg43eb2bg",
               "title": "Final Thoughts on 'Pattern Recognition'",
               "author": "Jared Henderson from Commonplace Philosophy",
@@ -10581,7 +10606,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 65,
+              "position": 66,
               "id": "01kypsfm35qdf9z4ncsvxx0hm3",
               "title": "Both Converted, One Wrote 22 Novels, the Other Burned Her Books",
               "author": "Miller’s Book Review 📚",
@@ -10608,7 +10633,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 66,
+              "position": 67,
               "id": "01kyyg3mxmb2pwc6yarn1kf8tn",
               "title": "All the Horrifying Things We Do to Our Books",
               "author": "Miller’s Book Review 📚",
@@ -10634,7 +10659,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 67,
+              "position": 68,
               "id": "01kz8zwnxp6tqjavp4bcdvgq9p",
               "title": "He Sold 55 Million Books, but His Government Wouldn’t Let Him Publish",
               "author": "Miller’s Book Review 📚",
@@ -10662,7 +10687,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 68,
+              "position": 69,
               "id": "01kzdq8ybspgj5w8sr4zpbdxza",
               "title": "What You Won't Learn About the Odyssey from a Movie",
               "author": "honest-broker.com",
@@ -10688,7 +10713,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 69,
+              "position": 70,
               "id": "01m059tf2ttw02jrmmm46cmhjk",
               "title": "Good Bad Books",
               "author": "orwellfoundation.com",
@@ -10714,7 +10739,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 70,
+              "position": 71,
               "id": "01jkxyd6vfh2jexjbtgjr59px7",
               "title": "How to live without your phone",
               "author": "Sam Kriss",
@@ -10741,7 +10766,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 71,
+              "position": 72,
               "id": "01k1zt7ng2zc217ta0t2k2sw4w",
               "title": "Book Review: Fussell On Class",
               "author": "Scott Alexander",
@@ -10767,7 +10792,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 72,
+              "position": 73,
               "id": "01k79j3sbpnyfey0vh07484wts",
               "title": "David Hume vs literature",
               "author": "Katie Ebner-Landy",
@@ -10793,7 +10818,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 73,
+              "position": 74,
               "id": "01k79j53ce8b15nrkktnb0hz2g",
               "title": "The idea of nothing pushes at the limits of thought, spawning paradoxes that have long nourished art, philosophy, and science",
               "author": "Victoria Wohl",
@@ -10820,7 +10845,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 74,
+              "position": 75,
               "id": "01k80nvw2z9d40qq24hveszqrw",
               "title": "De hel van het gelijke",
               "author": "Marian Donner",
@@ -10850,7 +10875,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 75,
+              "position": 76,
               "id": "01kqgd25gt91afe9a1fyavnccq",
               "title": "The dawn of the post-literate society",
               "author": "James Marriott",
@@ -10876,7 +10901,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 76,
+              "position": 77,
               "id": "01krand4e1q4d32afr5ntawm7j",
               "title": "Serious Reading Was Always a Minority Sport",
               "author": "Joel J Miller",
@@ -10903,7 +10928,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 77,
+              "position": 78,
               "id": "01krkc3v2q8zmh2h2qpsw9prxw",
               "title": "📗 Harpers Ferry during the Civil War",
               "author": "Eleanor Konik",
@@ -10930,7 +10955,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 78,
+              "position": 79,
               "id": "01kj3kaebxx42ca13fgz6a52fq",
               "title": "Taste for Makers",
               "author": "Paul Graham",
@@ -10957,7 +10982,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 79,
+              "position": 80,
               "id": "01krnygf4vzmx848dav851nhrg",
               "title": "The Decline of Deviance",
               "author": "Adam Mastroianni",
@@ -10984,7 +11009,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 80,
+              "position": 81,
               "id": "01krtfz54rb8r6bs4x84h6sdhs",
               "title": "Go quietly public on the internet",
               "author": "Carolyn Yoo",
@@ -11011,7 +11036,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 81,
+              "position": 82,
               "id": "01ks2b50wxejwag42nf6rnrq6d",
               "title": "Love is to be invested in someone’s continual expansion",
               "author": "Henrik Karlsson",
@@ -11038,7 +11063,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 82,
+              "position": 83,
               "id": "01ks5wkeam3nzf67r9bh537enm",
               "title": "Alone, Finally",
               "author": "Tamara",
@@ -11065,7 +11090,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 83,
+              "position": 84,
               "id": "01kt3yrv65xm5w5crnf6ycy3rr",
               "title": "People are too big to fit inside our heads",
               "author": "Henrik Karlsson",
@@ -11092,7 +11117,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 84,
+              "position": 85,
               "id": "01kvwx52bzyv06aez48fr5fm5d",
               "title": "50 Years of Creative Destruction in the Book World",
               "author": "Miller’s Book Review 📚",
@@ -11119,7 +11144,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 85,
+              "position": 86,
               "id": "01kwkpvx062dytw4zfh294psvb",
               "title": "Heilige plekken dichtbij: Der Herrgott van Bentheim",
               "author": "De Ongelooflijke",
@@ -11150,7 +11175,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 86,
+              "position": 87,
               "id": "01kz84cd6qp18k7dfpv9b4khjc",
               "title": "⦿ Roden: 116 — Oooohhh Summer, How Much Risk Is a Useful Amount of Risk?",
               "author": "Craig Mod's Delivery Service",
@@ -11177,7 +11202,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 87,
+              "position": 88,
               "id": "01kzb0cxjx9j8cd81x881xt9e8",
               "title": "Thoughts on Christopher Nolan's Odyssey",
               "author": "email.kjbm.odysseaspx.com",
@@ -11205,7 +11230,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 88,
+              "position": 89,
               "id": "01kzdq8xjrrnenwj328s9ydvpc",
               "title": "A Final Review of Nolan's Odyssey",
               "author": "cbrobertson.substack.com",
@@ -11232,7 +11257,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 89,
+              "position": 90,
               "id": "01m02v2mszvk3cjaw44d26cmvx",
               "title": "Het zachte tegengif heet verwondering",
               "author": "Sabine Winters",
@@ -11263,7 +11288,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 90,
+              "position": 91,
               "id": "01k8mt3nxj5957w8xd95q2j0sz",
               "title": "My Lifetime Reading Plan",
               "author": "Ted Gioia",
@@ -11290,7 +11315,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 91,
+              "position": 92,
               "id": "01m059ta2jr7jstn7cdahr41yy",
               "title": "George Orwell to Steven Runciman, August 1920",
               "author": "orwellfoundation.com",
@@ -11316,7 +11341,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 92,
+              "position": 93,
               "id": "01m059vzb20f0sy9sr2h2140d5",
               "title": "Your Questions Answered: Wigan Pier",
               "author": "orwellfoundation.com",
@@ -11342,7 +11367,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 93,
+              "position": 94,
               "id": "01kgdfp777bge0tsbfpzway43h",
               "title": "Why Designers Can No Longer Trust the Design Process",
               "author": "Hatch Conference",
@@ -11373,7 +11398,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 94,
+              "position": 95,
               "id": "01kt6y5gvdz397bca43fnn2tqd",
               "title": "Noah Hawley: How He Wrote Fargo",
               "author": "David Perell",
@@ -11400,7 +11425,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 95,
+              "position": 96,
               "id": "01ky7jr6me70wqs7yfq5jchx8q",
               "title": "StoryScope: Investigating idiosyncrasies in AI fiction",
               "author": "Jenna Russell; Rishanth Rajendhran; Chau Minh Pham; Mohit Iyyer; John Wieting",
@@ -11430,7 +11455,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 96,
+              "position": 97,
               "id": "01ks3b1323hmp09eaygeqsbjrk",
               "title": "how to have a dialogue with the books you read",
               "author": "Ru",
@@ -11457,7 +11482,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 97,
+              "position": 98,
               "id": "01ksn9qmay1erty7g5cha7xgmj",
               "title": "Why I Don’t Write Every Day",
               "author": "Mike Fisher",
@@ -11484,7 +11509,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 98,
+              "position": 99,
               "id": "01kv5rsmp92qndagvyzwzjshd3",
               "title": "The hidden structure behind great essays",
               "author": "A Mug of Insights",
@@ -11511,7 +11536,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 99,
+              "position": 100,
               "id": "01kzqw4kvwej9b61vspym25d0e",
               "title": "On having more interesting ideas, pt. 2",
               "author": "Henrik Karlsson",
@@ -11534,32 +11559,6 @@ window.TOP_ARTICLES = {
                 "learning & meta-learning",
                 "light-reading",
                 "personal growth & life philosophy"
-              ],
-              "alsoIn": []
-            },
-            {
-              "position": 100,
-              "id": "01m059t227vbe5b84ps9k82zpr",
-              "title": "Confessions of a Book Reviewer",
-              "author": "orwellfoundation.com",
-              "siteName": "The Orwell Foundation",
-              "category": "article",
-              "language": null,
-              "readingTime": "7 mins",
-              "readingMinutes": 7,
-              "wordCount": 1673,
-              "publishedDate": "2011-06-24",
-              "savedDate": "2026-08-16T12:47:38.566000+00:00",
-              "imageUrl": null,
-              "sourceUrl": "https://www.orwellfoundation.com/the-orwell-foundation/orwell/essays-and-other-works/confessions-of-a-book-reviewer/",
-              "readwiseUrl": "https://read.readwise.io/read/01m059t227vbe5b84ps9k82zpr",
-              "summary": "\"The best practice, it has always seemed to me, would be simply to ignore the great majority of books and to give very long reviews – 1,000 words is a bare minimum – to the few that seem to matter.\"",
-              "whyRead": "Humoristisch maar herkenbaar essay over het métier van schrijven en recenseren — raakt je interesse in essayistiek en schrijfcraft, met Orwells kenmerkende zelfspot en scherpte.",
-              "bestMoment": "ontspannen",
-              "tags": [
-                "arts & culture",
-                "light-reading",
-                "writing craft"
               ],
               "alsoIn": []
             }
@@ -15775,6 +15774,143 @@ window.TOP_ARTICLES = {
     "items": [
       {
         "position": null,
+        "id": "01m0abenxwjayhx9jmhxvr9ekf",
+        "title": "School is geen opvang, maar waarom eigenlijk niet?",
+        "author": "Sophie van Gool",
+        "siteName": "Substack",
+        "category": "email",
+        "language": null,
+        "readingTime": "3 mins",
+        "readingMinutes": 3,
+        "wordCount": 677,
+        "publishedDate": "2026-08-18",
+        "savedDate": "2026-08-18T11:52:35.004000+00:00",
+        "imageUrl": null,
+        "sourceUrl": "mailto:reader-forwarded-email/ff29ae2ec886668a700e67b14437e7ee",
+        "readwiseUrl": "https://read.readwise.io/read/01m0abenxwjayhx9jmhxvr9ekf",
+        "summary": "Mijn naam is Sophie en ik schrijf wekelijks een column in Het Financieele Dagblad over economie, ouderschap, arbeidsmarkt, ongelijkheid, kinderopvang, feminisme en meer. Heb je tips of ideeën?",
+        "whyRead": "Scherpe Nederlandse column over de arbitraire scheiding tussen onderwijs (publiek, non-profit) en kinderopvang (marktwerking, winstgedreven) — raakt direct je interesse in ouderschap, sociologie en de Nederlandse arbeidsmarkt/verzorgingsstaat.",
+        "bestMoment": "kritisch",
+        "tags": [
+          "current affairs & politics",
+          "sociology & social structures"
+        ],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01m0899ydg6jvf8qtyzvs9qdms",
+        "title": "Do we need a catastrophe to reduce inequality?",
+        "author": "Brian Klaas",
+        "siteName": "Substack",
+        "category": "email",
+        "language": null,
+        "readingTime": "6 mins",
+        "readingMinutes": 6,
+        "wordCount": 1408,
+        "publishedDate": "2026-08-17",
+        "savedDate": "2026-08-17T16:36:33.840000+00:00",
+        "imageUrl": null,
+        "sourceUrl": "mailto:reader-forwarded-email/11aff9cf192bbeb795aec739491f9447",
+        "readwiseUrl": "https://read.readwise.io/read/01m0899ydg6jvf8qtyzvs9qdms",
+        "summary": "Thank you for reading The Garden of Forking Paths. Much of this edition is for paid subscribers only, so please consider upgrading for just $5/month or $50/year.",
+        "whyRead": "Raakt je interesse in geschiedenis en economie — een scherp essay over Walter Scheidels these dat ongelijkheid in de geschiedenis vrijwel alleen daalt door catastrofes, niet door beleid.",
+        "bestMoment": "analytisch",
+        "tags": [
+          "economics",
+          "history"
+        ],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01m084fq71p8p2cev7k6j37ysw",
+        "title": "How to Make a Marriage Proposal",
+        "author": "Ted Gioia",
+        "siteName": "Substack",
+        "category": "email",
+        "language": null,
+        "readingTime": "8 mins",
+        "readingMinutes": 8,
+        "wordCount": 1863,
+        "publishedDate": "2026-08-17",
+        "savedDate": "2026-08-17T15:12:20.193000+00:00",
+        "imageUrl": null,
+        "sourceUrl": "mailto:reader-forwarded-email/a3d20a8689aa25c94cbe8a40634ef1bc",
+        "readwiseUrl": "https://read.readwise.io/read/01m084fq71p8p2cev7k6j37ysw",
+        "summary": "I resided in Palo Alto back then, caught up in a mad and hectic time of life—balancing multiple vocations (music, writing, teaching, business).",
+        "whyRead": "Persoonlijk, essayistisch stuk van Ted Gioia over zijn eigen aanzoek 35 jaar geleden — een moment van reflectie op liefde en betekenis, precies de mix van diepgang en persoonlijke stem die je waardeert.",
+        "bestMoment": "reflectief",
+        "tags": [
+          "personal growth & life philosophy"
+        ],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01m07zpehf3761wmknmsknqwsa",
+        "title": "How Books Can Build a World and Shape a Culture",
+        "author": "Miller’s Book Review 📚",
+        "siteName": "Substack",
+        "category": "email",
+        "language": null,
+        "readingTime": "23 mins",
+        "readingMinutes": 23,
+        "wordCount": 5866,
+        "publishedDate": "2026-08-17",
+        "savedDate": "2026-08-17T13:48:37.808000+00:00",
+        "imageUrl": null,
+        "sourceUrl": "mailto:reader-forwarded-email/7feb9fd95e8ee502a6dbb9858b948d9b",
+        "readwiseUrl": "https://read.readwise.io/read/01m07zpehf3761wmknmsknqwsa",
+        "summary": "We created books and our books created us. I’m excited to share an interview I did with Nicholas Kotar where we discuss that dynamic.",
+        "whyRead": "Rijk interview over boeken als technologie, canonvorming en de relatie tussen informatie en waarheid — sluit direct aan bij je interesse in filosofie, PKM en de rol van LLM's als \"verheerlijkte index\".",
+        "bestMoment": "analytisch",
+        "tags": [
+          "arts & culture",
+          "philosophy"
+        ],
+        "alsoIn": [
+          "aaa-luchtig-top-100"
+        ],
+        "memberships": [
+          {
+            "familyId": "luchtig",
+            "size": "top-100",
+            "position": 52
+          }
+        ]
+      },
+      {
+        "position": null,
+        "id": "01m07w3763hgy2d4qhv8vy3qjf",
+        "title": "Why has sociology become so politicised?",
+        "author": "Lionel Page from Optimally Irrational",
+        "siteName": "Substack",
+        "category": "email",
+        "language": null,
+        "readingTime": "19 mins",
+        "readingMinutes": 19,
+        "wordCount": 4817,
+        "publishedDate": "2026-08-17",
+        "savedDate": "2026-08-17T12:45:41.955000+00:00",
+        "imageUrl": null,
+        "sourceUrl": "mailto:reader-forwarded-email/c905129763f0797fc8ce70d1c789c336",
+        "readwiseUrl": "https://read.readwise.io/read/01m07w3763hgy2d4qhv8vy3qjf",
+        "summary": "Recent events, from the widely criticised interview of the president of the US Anthropological Association to the scandal that unfolded around the late Jason Arday, a sociologist of education at Cambridge, have put the spotlight on a discipline in a state of strife.",
+        "whyRead": "Scherp analytisch essay over waarom sociologie epistemisch zwakker staat dan economie en psychologie — precies de combinatie van sociologie, wetenschapsfilosofie en kritische analyse die je waardeert.",
+        "bestMoment": "analytisch",
+        "tags": [
+          "research papers & academia",
+          "sociology & social structures"
+        ],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
         "id": "01m07vc44sxraja6grgwxkcqsq",
         "title": "Technics And Civilization",
         "author": "Lewis Mumford",
@@ -16135,7 +16271,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 92
+            "position": 93
           }
         ]
       },
@@ -16765,7 +16901,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 69
+            "position": 70
           }
         ]
       },
@@ -16826,7 +16962,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 91
+            "position": 92
           }
         ]
       },
@@ -16942,16 +17078,8 @@ window.TOP_ARTICLES = {
           "light-reading",
           "writing craft"
         ],
-        "alsoIn": [
-          "aaa-luchtig-top-100"
-        ],
-        "memberships": [
-          {
-            "familyId": "luchtig",
-            "size": "top-100",
-            "position": 100
-          }
-        ]
+        "alsoIn": [],
+        "memberships": []
       },
       {
         "position": null,
@@ -17187,7 +17315,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 89
+            "position": 90
           },
           {
             "familyId": "luchtig-nederlands",
@@ -17582,7 +17710,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 99
+            "position": 100
           }
         ]
       },
@@ -17940,7 +18068,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 68
+            "position": 69
           }
         ]
       },
@@ -17976,7 +18104,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 88
+            "position": 89
           }
         ]
       },
@@ -18241,7 +18369,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 87
+            "position": 88
           }
         ]
       },
@@ -18448,7 +18576,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 67
+            "position": 68
           }
         ]
       },
@@ -18512,7 +18640,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 86
+            "position": 87
           }
         ]
       },
@@ -19173,7 +19301,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 66
+            "position": 67
           }
         ]
       },
@@ -19926,7 +20054,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 65
+            "position": 66
           }
         ]
       },
@@ -19989,7 +20117,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 64
+            "position": 65
           }
         ]
       },
@@ -20835,7 +20963,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 95
+            "position": 96
           },
           {
             "familyId": "pdfs",
@@ -22268,7 +22396,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 85
+            "position": 86
           },
           {
             "familyId": "luchtig-nederlands",
@@ -22592,7 +22720,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 63
+            "position": 64
           }
         ]
       },
@@ -22771,7 +22899,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 62
+            "position": 63
           }
         ]
       },
@@ -22807,7 +22935,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 84
+            "position": 85
           }
         ]
       },
@@ -23477,7 +23605,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 98
+            "position": 99
           }
         ]
       },
@@ -23940,7 +24068,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 94
+            "position": 95
           }
         ]
       },
@@ -24042,7 +24170,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 83
+            "position": 84
           }
         ]
       },
@@ -24295,7 +24423,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 97
+            "position": 98
           }
         ]
       },
@@ -24688,7 +24816,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 82
+            "position": 83
           }
         ]
       },
@@ -24724,7 +24852,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 96
+            "position": 97
           }
         ]
       },
@@ -24787,7 +24915,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 81
+            "position": 82
           }
         ]
       },
@@ -25066,7 +25194,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 80
+            "position": 81
           }
         ]
       },
@@ -25306,7 +25434,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 61
+            "position": 62
           }
         ]
       },
@@ -25404,7 +25532,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 60
+            "position": 61
           }
         ]
       },
@@ -25467,7 +25595,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 79
+            "position": 80
           }
         ]
       },
@@ -25802,7 +25930,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 77
+            "position": 78
           }
         ]
       },
@@ -25960,7 +26088,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 76
+            "position": 77
           }
         ]
       },
@@ -26092,7 +26220,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 59
+            "position": 60
           }
         ]
       },
@@ -26466,7 +26594,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 75
+            "position": 76
           }
         ]
       },
@@ -27905,7 +28033,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 78
+            "position": 79
           }
         ]
       },
@@ -28301,7 +28429,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 93
+            "position": 94
           },
           {
             "familyId": "videos",
@@ -29320,7 +29448,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 58
+            "position": 59
           }
         ]
       },
@@ -29473,7 +29601,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 57
+            "position": 58
           }
         ]
       },
@@ -29869,7 +29997,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 56
+            "position": 57
           }
         ]
       },
@@ -29905,7 +30033,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 55
+            "position": 56
           }
         ]
       },
@@ -30397,7 +30525,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 90
+            "position": 91
           }
         ]
       },
@@ -30501,7 +30629,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 74
+            "position": 75
           },
           {
             "familyId": "luchtig-nederlands",
@@ -30691,7 +30819,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 54
+            "position": 55
           }
         ]
       },
@@ -31646,7 +31774,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 73
+            "position": 74
           }
         ]
       },
@@ -31681,7 +31809,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 72
+            "position": 73
           }
         ]
       },
@@ -32340,7 +32468,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 53
+            "position": 54
           }
         ]
       },
@@ -32598,7 +32726,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 71
+            "position": 72
           }
         ]
       },
@@ -33170,7 +33298,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 70
+            "position": 71
           }
         ]
       },
@@ -33799,7 +33927,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 52
+            "position": 53
           }
         ]
       },
