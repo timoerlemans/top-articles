@@ -1,6 +1,6 @@
 // Automatisch gegenereerd door scripts/build-data.mjs — niet handmatig bewerken.
 window.TOP_ARTICLES = {
-  "generatedAt": "2026-08-19T06:38:36.384Z",
+  "generatedAt": "2026-08-20T06:39:47.271Z",
   "families": [
     {
       "id": "algemeen",
@@ -10249,6 +10249,7 @@ window.TOP_ARTICLES = {
               "bestMoment": "analytisch",
               "tags": [
                 "arts & culture",
+                "light-reading",
                 "philosophy"
               ],
               "alsoIn": []
@@ -10740,6 +10741,32 @@ window.TOP_ARTICLES = {
             },
             {
               "position": 71,
+              "id": "01m0b1s4v68rpr0xny1y8jvgyj",
+              "title": "The Gaslighting of Parasite",
+              "author": "Tyler Cowen",
+              "siteName": "Marginal REVOLUTION",
+              "category": "article",
+              "language": null,
+              "readingTime": "5 mins",
+              "readingMinutes": 5,
+              "wordCount": 1143,
+              "publishedDate": "2020-06-25",
+              "savedDate": "2026-08-18T18:22:46.631000+00:00",
+              "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/81iQLZujrlL._SL1500_.jpg",
+              "sourceUrl": "https://marginalrevolution.com/marginalrevolution/2020/06/the-gaslighting-of-parasite.html",
+              "readwiseUrl": "https://read.readwise.io/read/01m0b1s4v68rpr0xny1y8jvgyj",
+              "summary": "I am late to this but Parasite, now available on streaming services, is the most willfully misinterpreted movie that I have ever seen. The conventional interpretation is so obviously wrong that I cannot but think that it is anything but a collective gaslighting. The conventional interpretation is that the film is about inequality and on […]",
+              "whyRead": "Prikkelende contrarian filmanalyse die de gangbare interpretatie van Parasite op zijn kop zet — sluit aan bij je interesse in film als cultuurvorm en thematische analyse.",
+              "bestMoment": "kritisch",
+              "tags": [
+                "arts & culture",
+                "entertainment & pop culture",
+                "light-reading"
+              ],
+              "alsoIn": []
+            },
+            {
+              "position": 72,
               "id": "01jkxyd6vfh2jexjbtgjr59px7",
               "title": "How to live without your phone",
               "author": "Sam Kriss",
@@ -10766,7 +10793,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 72,
+              "position": 73,
               "id": "01k1zt7ng2zc217ta0t2k2sw4w",
               "title": "Book Review: Fussell On Class",
               "author": "Scott Alexander",
@@ -10792,7 +10819,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 73,
+              "position": 74,
               "id": "01k79j3sbpnyfey0vh07484wts",
               "title": "David Hume vs literature",
               "author": "Katie Ebner-Landy",
@@ -10818,7 +10845,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 74,
+              "position": 75,
               "id": "01k79j53ce8b15nrkktnb0hz2g",
               "title": "The idea of nothing pushes at the limits of thought, spawning paradoxes that have long nourished art, philosophy, and science",
               "author": "Victoria Wohl",
@@ -10845,7 +10872,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 75,
+              "position": 76,
               "id": "01k80nvw2z9d40qq24hveszqrw",
               "title": "De hel van het gelijke",
               "author": "Marian Donner",
@@ -10875,7 +10902,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 76,
+              "position": 77,
               "id": "01kqgd25gt91afe9a1fyavnccq",
               "title": "The dawn of the post-literate society",
               "author": "James Marriott",
@@ -10901,7 +10928,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 77,
+              "position": 78,
               "id": "01krand4e1q4d32afr5ntawm7j",
               "title": "Serious Reading Was Always a Minority Sport",
               "author": "Joel J Miller",
@@ -10928,7 +10955,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 78,
+              "position": 79,
               "id": "01krkc3v2q8zmh2h2qpsw9prxw",
               "title": "📗 Harpers Ferry during the Civil War",
               "author": "Eleanor Konik",
@@ -10955,7 +10982,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 79,
+              "position": 80,
               "id": "01kj3kaebxx42ca13fgz6a52fq",
               "title": "Taste for Makers",
               "author": "Paul Graham",
@@ -10982,7 +11009,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 80,
+              "position": 81,
               "id": "01krnygf4vzmx848dav851nhrg",
               "title": "The Decline of Deviance",
               "author": "Adam Mastroianni",
@@ -11009,7 +11036,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 81,
+              "position": 82,
               "id": "01krtfz54rb8r6bs4x84h6sdhs",
               "title": "Go quietly public on the internet",
               "author": "Carolyn Yoo",
@@ -11036,7 +11063,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 82,
+              "position": 83,
               "id": "01ks2b50wxejwag42nf6rnrq6d",
               "title": "Love is to be invested in someone’s continual expansion",
               "author": "Henrik Karlsson",
@@ -11063,7 +11090,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 83,
+              "position": 84,
               "id": "01ks5wkeam3nzf67r9bh537enm",
               "title": "Alone, Finally",
               "author": "Tamara",
@@ -11090,7 +11117,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 84,
+              "position": 85,
               "id": "01kt3yrv65xm5w5crnf6ycy3rr",
               "title": "People are too big to fit inside our heads",
               "author": "Henrik Karlsson",
@@ -11117,7 +11144,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 85,
+              "position": 86,
               "id": "01kvwx52bzyv06aez48fr5fm5d",
               "title": "50 Years of Creative Destruction in the Book World",
               "author": "Miller’s Book Review 📚",
@@ -11144,7 +11171,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 86,
+              "position": 87,
               "id": "01kwkpvx062dytw4zfh294psvb",
               "title": "Heilige plekken dichtbij: Der Herrgott van Bentheim",
               "author": "De Ongelooflijke",
@@ -11175,7 +11202,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 87,
+              "position": 88,
               "id": "01kz84cd6qp18k7dfpv9b4khjc",
               "title": "⦿ Roden: 116 — Oooohhh Summer, How Much Risk Is a Useful Amount of Risk?",
               "author": "Craig Mod's Delivery Service",
@@ -11202,7 +11229,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 88,
+              "position": 89,
               "id": "01kzb0cxjx9j8cd81x881xt9e8",
               "title": "Thoughts on Christopher Nolan's Odyssey",
               "author": "email.kjbm.odysseaspx.com",
@@ -11230,7 +11257,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 89,
+              "position": 90,
               "id": "01kzdq8xjrrnenwj328s9ydvpc",
               "title": "A Final Review of Nolan's Odyssey",
               "author": "cbrobertson.substack.com",
@@ -11257,7 +11284,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 90,
+              "position": 91,
               "id": "01m02v2mszvk3cjaw44d26cmvx",
               "title": "Het zachte tegengif heet verwondering",
               "author": "Sabine Winters",
@@ -11288,7 +11315,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 91,
+              "position": 92,
               "id": "01k8mt3nxj5957w8xd95q2j0sz",
               "title": "My Lifetime Reading Plan",
               "author": "Ted Gioia",
@@ -11315,7 +11342,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 92,
+              "position": 93,
               "id": "01m059ta2jr7jstn7cdahr41yy",
               "title": "George Orwell to Steven Runciman, August 1920",
               "author": "orwellfoundation.com",
@@ -11341,7 +11368,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 93,
+              "position": 94,
               "id": "01m059vzb20f0sy9sr2h2140d5",
               "title": "Your Questions Answered: Wigan Pier",
               "author": "orwellfoundation.com",
@@ -11367,7 +11394,32 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 94,
+              "position": 95,
+              "id": "01m0aph10yf5zdstrrs85vesb4",
+              "title": "I like 'em thick",
+              "author": "Adam Mastroianni",
+              "siteName": "Substack",
+              "category": "email",
+              "language": null,
+              "readingTime": "14 mins",
+              "readingMinutes": 14,
+              "wordCount": 3568,
+              "publishedDate": "2026-08-18",
+              "savedDate": "2026-08-18T15:06:06.239000+00:00",
+              "imageUrl": null,
+              "sourceUrl": "mailto:reader-forwarded-email/f9fb9dc2bc26126267f2670a0fd1e755",
+              "readwiseUrl": "https://read.readwise.io/read/01m0aph10yf5zdstrrs85vesb4",
+              "summary": "I owe an apology to every English teacher I ever had. I always assumed that so-called “great” literature was a hoax, a punishment inflicted upon adolescents for the crime of being young.",
+              "whyRead": "Raakt je interesse in essay schrijven en kunstkritiek — een scherp, met humor doorspekt essay van Adam Mastroianni over wat \"dikke\" (thick) kunst onderscheidt van slop, met concrete criteria die ook op AI-gegenereerde content toepasbaar zijn.",
+              "bestMoment": "analytisch",
+              "tags": [
+                "arts & culture",
+                "personal growth & life philosophy"
+              ],
+              "alsoIn": []
+            },
+            {
+              "position": 96,
               "id": "01kgdfp777bge0tsbfpzway43h",
               "title": "Why Designers Can No Longer Trust the Design Process",
               "author": "Hatch Conference",
@@ -11398,7 +11450,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 95,
+              "position": 97,
               "id": "01kt6y5gvdz397bca43fnn2tqd",
               "title": "Noah Hawley: How He Wrote Fargo",
               "author": "David Perell",
@@ -11425,7 +11477,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 96,
+              "position": 98,
               "id": "01ky7jr6me70wqs7yfq5jchx8q",
               "title": "StoryScope: Investigating idiosyncrasies in AI fiction",
               "author": "Jenna Russell; Rishanth Rajendhran; Chau Minh Pham; Mohit Iyyer; John Wieting",
@@ -11455,7 +11507,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 97,
+              "position": 99,
               "id": "01ks3b1323hmp09eaygeqsbjrk",
               "title": "how to have a dialogue with the books you read",
               "author": "Ru",
@@ -11482,7 +11534,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 98,
+              "position": 100,
               "id": "01ksn9qmay1erty7g5cha7xgmj",
               "title": "Why I Don’t Write Every Day",
               "author": "Mike Fisher",
@@ -11505,60 +11557,6 @@ window.TOP_ARTICLES = {
                 "learning & meta-learning",
                 "light-reading",
                 "professional development"
-              ],
-              "alsoIn": []
-            },
-            {
-              "position": 99,
-              "id": "01kv5rsmp92qndagvyzwzjshd3",
-              "title": "The hidden structure behind great essays",
-              "author": "A Mug of Insights",
-              "siteName": "Ghost - The Professional Publishing Platform",
-              "category": "email",
-              "language": "Engels",
-              "readingTime": "6 mins",
-              "readingMinutes": 6,
-              "wordCount": 1538,
-              "publishedDate": "2026-06-15",
-              "savedDate": "2026-06-15T13:51:04.393000+00:00",
-              "imageUrl": null,
-              "sourceUrl": "mailto:reader-forwarded-email/383aa8e957e8a44667635b94020d18a6",
-              "readwiseUrl": "https://read.readwise.io/read/01kv5rsmp92qndagvyzwzjshd3",
-              "summary": "However, my guide today is all about the larger perspective shifts you need to make the nitty-gritties work.",
-              "whyRead": "Raakt je interesse in essay schrijven en leren: Robin Waldun maakt van long-form essays geen lijstje trucjes, maar een structuur voor persoonlijke perspectiefverschuiving. De meerwaarde zit in de koppeling tussen ervaring, idee en transformatie.",
-              "bestMoment": "geïnspireerd",
-              "tags": [
-                "arts & culture",
-                "learning & meta-learning",
-                "light-reading",
-                "professional development"
-              ],
-              "alsoIn": []
-            },
-            {
-              "position": 100,
-              "id": "01kzqw4kvwej9b61vspym25d0e",
-              "title": "On having more interesting ideas, pt. 2",
-              "author": "Henrik Karlsson",
-              "siteName": "Substack",
-              "category": "email",
-              "language": "Engels",
-              "readingTime": "8 mins",
-              "readingMinutes": 8,
-              "wordCount": 1937,
-              "publishedDate": "2026-08-11",
-              "savedDate": "2026-08-11T07:38:36.796000+00:00",
-              "imageUrl": null,
-              "sourceUrl": "mailto:reader-forwarded-email/613660ed6d9b871aba458213c98909b0",
-              "readwiseUrl": "https://read.readwise.io/read/01kzqw4kvwej9b61vspym25d0e",
-              "summary": "I wrote some thoughts about how to have more interesting ideas two years ago. Since then I have had the privilege of talking about the idea craft with several people who are better at it than I am.",
-              "whyRead": "Raakt rechtstreeks je interesse in essay schrijven, creativiteit en leerstrategieën. Karlsson biedt geen formule, maar een reeks spanningsvolle werkwijzen die helpen om niet op de eerste, conventionele gedachte te blijven steken.",
-              "bestMoment": "geïnspireerd",
-              "tags": [
-                "arts & culture",
-                "learning & meta-learning",
-                "light-reading",
-                "personal growth & life philosophy"
               ],
               "alsoIn": []
             }
@@ -15774,6 +15772,753 @@ window.TOP_ARTICLES = {
     "items": [
       {
         "position": null,
+        "id": "01m0d3d78wgvnkknrrbjnmta59",
+        "title": "The Life Cycle of Medical Ideas",
+        "author": "slatestarcodex.com",
+        "siteName": "Slate Star Codex",
+        "category": "article",
+        "language": null,
+        "readingTime": "7 mins",
+        "readingMinutes": 7,
+        "wordCount": 1805,
+        "publishedDate": "2013-09-13",
+        "savedDate": "2026-08-19T13:29:41.916000+00:00",
+        "imageUrl": "https://slatestarcodex.com/wp-content/themes/two_column_pujugama/images/codex_spotlight.png",
+        "sourceUrl": "https://slatestarcodex.com/2013/09/12/the-life-cycle-of-medical-ideas/",
+        "readwiseUrl": "https://read.readwise.io/read/01m0d3d78wgvnkknrrbjnmta59",
+        "summary": "I. About five years ago, an Italian surgeon with the unlikely name of Dr. Zamboni posited the theory that multiple sclerosis was caused by blockages in venous return from the brain causing various …",
+        "whyRead": "Raakt je interesse in wetenschap — Scott Alexander over de grijze zone tussen bewezen en alternatieve geneeskunde, aan de hand van drie casussen uit hetzelfde jaar; sluit direct aan bij het psychiatrie-cluster in je bibliotheek.",
+        "bestMoment": "analytisch",
+        "tags": [
+          "health & wellness",
+          "science"
+        ],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01m0d2tn3xcmjp5hpxgn0tsvxw",
+        "title": "Universal Love, Said The Cactus Person",
+        "author": "slatestarcodex.com",
+        "siteName": "Slate Star Codex",
+        "category": "article",
+        "language": null,
+        "readingTime": "11 mins",
+        "readingMinutes": 11,
+        "wordCount": 2773,
+        "publishedDate": "2015-04-22",
+        "savedDate": "2026-08-19T13:19:33.501000+00:00",
+        "imageUrl": "https://slatestarcodex.com/wp-content/themes/two_column_pujugama/images/codex_spotlight.png",
+        "sourceUrl": "https://slatestarcodex.com/2015/04/21/universal-love-said-the-cactus-person/",
+        "readwiseUrl": "https://read.readwise.io/read/01m0d2tn3xcmjp5hpxgn0tsvxw",
+        "summary": "“Universal love,” said the cactus person. “Transcendent joy,” said the big green bat. “Right,” I said. “I’m absolutely in favor of both those things.…",
+        "whyRead": "Raakt je interesse in filosofie — een surrealistisch kort verhaal (aangehaald in het mysticisme-essay) dat op een absurdistische manier de spanning tussen rationaliteit en mystieke \"verlichting\" uitspeelt.",
+        "bestMoment": "reflectief",
+        "tags": [
+          "personal growth & life philosophy",
+          "philosophy"
+        ],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01m0d2tm1p4rb50n7zfv96x6hc",
+        "title": "Psychotropic Base Rates: The Argument From Antibiotics",
+        "author": "slatestarcodex.com",
+        "siteName": "Slate Star Codex",
+        "category": "article",
+        "language": null,
+        "readingTime": "3 mins",
+        "readingMinutes": 3,
+        "wordCount": 552,
+        "publishedDate": "2014-07-17",
+        "savedDate": "2026-08-19T13:19:32.407000+00:00",
+        "imageUrl": "https://slatestarcodex.com/wp-content/themes/two_column_pujugama/images/codex_spotlight.png",
+        "sourceUrl": "https://slatestarcodex.com/2014/07/17/psychotropic-base-rates-the-argument-from-antibiotics/",
+        "readwiseUrl": "https://read.readwise.io/read/01m0d2tm1p4rb50n7zfv96x6hc",
+        "summary": "The obscure antiprotozoal drug suramin has the prettiest molecular structure I’ve ever seen. It also has some evidence as a potential treatment for autism based on a cell danger response mode…",
+        "whyRead": "Kort maar krachtig essay dat raakt aan je interesse in wetenschap — een verrassende basisratio-redenering over waarom willekeurige medicijnen zo vaak psychiatrische effecten blijken te hebben.",
+        "bestMoment": "analytisch",
+        "tags": [
+          "health & wellness",
+          "science"
+        ],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01m0d2tjzgp8v752d1sv2e2tyx",
+        "title": "SSRIs: Much More Than You Wanted To Know",
+        "author": "slatestarcodex.com",
+        "siteName": "Slate Star Codex",
+        "category": "article",
+        "language": null,
+        "readingTime": "31 mins",
+        "readingMinutes": 31,
+        "wordCount": 8157,
+        "publishedDate": "2014-07-08",
+        "savedDate": "2026-08-19T13:19:31.312000+00:00",
+        "imageUrl": "https://slatestarcodex.com/wp-content/themes/two_column_pujugama/images/codex_spotlight.png",
+        "sourceUrl": "https://slatestarcodex.com/2014/07/07/ssris-much-more-than-you-wanted-to-know/",
+        "readwiseUrl": "https://read.readwise.io/read/01m0d2tjzgp8v752d1sv2e2tyx",
+        "summary": "The claim that “SSRIs don’t work” or “SSRIs are mostly just placebo” is most commonly associated with Irving Kirsch, a man with the awesome job title of “Associa…",
+        "whyRead": "Raakt je interesse in wetenschap en gezondheid — een grondige, sceptische ontleding van het SSRI-effectiviteitsdebat, met dezelfde nuchtere statistische stijl als de andere Scott Alexander-essays in je bibliotheek.",
+        "bestMoment": "analytisch",
+        "tags": [
+          "health & wellness",
+          "science"
+        ],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01m0d2tj3vhenhk8v11j38qvp5",
+        "title": "The Most Important Article On Psychiatry You Will Ever Read",
+        "author": "thelastpsychiatrist.com",
+        "siteName": "The Last Psychiatrist",
+        "category": "article",
+        "language": null,
+        "readingTime": "7 mins",
+        "readingMinutes": 7,
+        "wordCount": 1850,
+        "publishedDate": "2007-07-10",
+        "savedDate": "2026-08-19T13:19:30.427000+00:00",
+        "imageUrl": "https://thelastpsychiatrist.com/images/fountain.JPG",
+        "sourceUrl": "http://thelastpsychiatrist.com/2007/07/the_most_important_article_on.html",
+        "readwiseUrl": "https://read.readwise.io/read/01m0d2tj3vhenhk8v11j38qvp5",
+        "summary": "You know those white dashed lines separating the lanes in a highway? How long are they?",
+        "whyRead": "Raakt je interesse in wetenschap — een informele maar scherpe uitleg van receptorfarmacologie, aangehaald in het ketamine-essay als duiding van dosis-responscurves.",
+        "bestMoment": "analytisch",
+        "tags": [
+          "health & wellness",
+          "science"
+        ],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01m0cy7g495j5g6ggxjrxc2np8",
+        "title": "Waarom ik na m'n vakantie niet naar mijn e-mail kijk",
+        "author": "Roland Grootenboer",
+        "siteName": "substack.com",
+        "category": "rss",
+        "language": null,
+        "readingTime": "3 mins",
+        "readingMinutes": 3,
+        "wordCount": 707,
+        "publishedDate": "2026-08-19",
+        "savedDate": "2026-08-19T11:59:08.498000+00:00",
+        "imageUrl": "https://images.unsplash.com/photo-1596437305602-180ec122b0b0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzMDAzMzh8MHwxfHNlYXJjaHwxMXx8dGVyc2NoZWxsaW5nfGVufDB8fHx8MTc4NzEyNzAzOXww&ixlib=rb-4.1.0&q=80&w=1080",
+        "sourceUrl": "https://rolooo.substack.com/p/waarom-ik-na-mn-vakantie-niet-naar",
+        "readwiseUrl": "https://read.readwise.io/read/01m0cy7g495j5g6ggxjrxc2np8",
+        "summary": "Back to work: dit is mijn ritueel voor een vliegende start",
+        "whyRead": "Nederlandstalige nieuwsbrief die direct aansluit bij herkenbare werkritueel-thematiek — praktische tips voor een rustige herstart na vakantie, zonder oppervlakkige productiviteitstips.",
+        "bestMoment": "ontspannen",
+        "tags": [
+          "personal growth & life philosophy",
+          "professional development"
+        ],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01m0cw5p7z6d6n3c7ynvnvz494",
+        "title": "Ketamine Research In A New Light",
+        "author": "slatestarcodex.com",
+        "siteName": "Slate Star Codex",
+        "category": "article",
+        "language": null,
+        "readingTime": "6 mins",
+        "readingMinutes": 6,
+        "wordCount": 1532,
+        "publishedDate": "2016-06-08",
+        "savedDate": "2026-08-19T11:23:15.071000+00:00",
+        "imageUrl": "https://slatestarcodex.com/wp-content/themes/two_column_pujugama/images/codex_spotlight.png",
+        "sourceUrl": "https://slatestarcodex.com/2016/06/07/ketamine-research-in-a-new-light/",
+        "readwiseUrl": "https://read.readwise.io/read/01m0cw5p7z6d6n3c7ynvnvz494",
+        "summary": "[Preliminary drawing of very far-out conclusions from research that hasn’t even been 100% confirmed yet] A few weeks ago, Nature published a bombshell study showing that ketamine’s anti…",
+        "whyRead": "Raakt je interesse in wetenschap en de manier waarop psychiatrisch onderzoek zichzelf (niet) corrigeert — Scott Alexander ontleedt hoe een baanbrekende Nature-studie het ketamine-verhaal op zijn kop zet.",
+        "bestMoment": "analytisch",
+        "tags": [
+          "health & wellness",
+          "science"
+        ],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01m0cw5nb62yzppht12pqv4qby",
+        "title": "What Is Depression, Anyway?: The Synapse Hypothesis",
+        "author": "slatestarcodex.com",
+        "siteName": "Slate Star Codex",
+        "category": "article",
+        "language": null,
+        "readingTime": "8 mins",
+        "readingMinutes": 8,
+        "wordCount": 2015,
+        "publishedDate": "2017-06-13",
+        "savedDate": "2026-08-19T11:23:14.150000+00:00",
+        "imageUrl": "https://slatestarcodex.com/wp-content/themes/two_column_pujugama/images/codex_spotlight.png",
+        "sourceUrl": "https://slatestarcodex.com/2017/06/13/what-is-depression-anyway-the-synapse-hypothesis/",
+        "readwiseUrl": "https://read.readwise.io/read/01m0cw5nb62yzppht12pqv4qby",
+        "summary": "I. The problem with depression research isn’t that we don’t have any leads on what causes depression. It’s that we have so many leads on what causes depression that we don’t…",
+        "whyRead": "Vervolg op het ketamine-essay uit dezelfde SSC-reeks — raakt je interesse in wetenschap en in hoe losse klinische aanwijzingen tot één samenhangende theorie kunnen worden gesmeed.",
+        "bestMoment": "analytisch",
+        "tags": [
+          "health & wellness",
+          "science"
+        ],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01m0cw5m98jtgwrvetaz80rgv0",
+        "title": "Your Strength as a Rationalist",
+        "author": "lesswrong.com",
+        "siteName": "lesswrong.com",
+        "category": "article",
+        "language": null,
+        "readingTime": "3 mins",
+        "readingMinutes": 3,
+        "wordCount": 748,
+        "publishedDate": "2007-08-11",
+        "savedDate": "2026-08-19T11:23:13.065000+00:00",
+        "imageUrl": "https://res.cloudinary.com/lesswrong-2-0/image/upload/v1654295382/new_mississippi_river_fjdmww.jpg",
+        "sourceUrl": "http://lesswrong.com/lw/if/your_strength_as_a_rationalist/",
+        "readwiseUrl": "https://read.readwise.io/read/01m0cw5m98jtgwrvetaz80rgv0",
+        "summary": "The following happened to me in an IRC chatroom, long enough ago that I was still hanging around in IRC chatrooms. Time has fuzzed the memory and my report may be imprecise. …",
+        "whyRead": "Kort, klassiek Yudkowsky-essay over epistemische waakzaamheid — sluit direct aan bij je interesse in filosofie en rationeel denken, en vormt een mooie tegenhanger van de Bayes-/illusie-essays uit dezelfde batch.",
+        "bestMoment": "reflectief",
+        "tags": [
+          "learning & meta-learning",
+          "philosophy"
+        ],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01m0cw5keb80tk63pfkmhvkxyf",
+        "title": "AI has much to offer humanity. It could also wreak terrible harm. It must be controlled",
+        "author": "theguardian.com",
+        "siteName": "the Guardian",
+        "category": "article",
+        "language": null,
+        "readingTime": "5 mins",
+        "readingMinutes": 5,
+        "wordCount": 1071,
+        "publishedDate": "2023-04-02",
+        "savedDate": "2026-08-19T11:23:12.203000+00:00",
+        "imageUrl": "https://i.guim.co.uk/img/media/63269341070b0935aa25ac4f5dec918048d8bd52/2_0_10663_6400/master/10663.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdG8tb3BpbmlvbnMucG5n&enable=upscale&s=d25c84d56f7d061ed068c713cf89549c",
+        "sourceUrl": "https://www.theguardian.com/commentisfree/2023/apr/02/ai-much-to-offer-humanity-could-wreak-terrible-harm-must-be-controlled",
+        "readwiseUrl": "https://read.readwise.io/read/01m0cw5keb80tk63pfkmhvkxyf",
+        "summary": "Systems with abilities exceeding human capacity have been let loose. If big tech firms refuse to see the risks governments must step in",
+        "whyRead": "Raakt je kerninteresse in AI en de maatschappelijke/ethische reflectie daarop — Stuart Russell (AI-onderzoeker, ook onderwerp van het interview verderop in deze batch) pleit voor regulering vlak na de release van GPT-4.",
+        "bestMoment": "kritisch",
+        "tags": [
+          "ai ethics & society",
+          "technology"
+        ],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01m0cw5jj79htrsnbqxj1qmn9x",
+        "title": "The Link Between Autism and Trans Identity",
+        "author": "theatlantic.com",
+        "siteName": "The Atlantic",
+        "category": "article",
+        "language": null,
+        "readingTime": "6 mins",
+        "readingMinutes": 6,
+        "wordCount": 1535,
+        "publishedDate": "2016-11-15",
+        "savedDate": "2026-08-19T11:23:11.303000+00:00",
+        "imageUrl": "https://cdn.theatlantic.com/thumbor/mKOI9ENLX3r1oIuJkYQioVzSmWU=/0x125:3000x1813/960x540/media/img/mt/2016/11/GettyImages_56452324/original.jpg",
+        "sourceUrl": "https://www.theatlantic.com/health/archive/2016/11/the-link-between-autism-and-trans-identity/507509/",
+        "readwiseUrl": "https://read.readwise.io/read/01m0cw5jj79htrsnbqxj1qmn9x",
+        "summary": "The link between autism and trans identity",
+        "whyRead": "Aangehaald in het optische-illusies-essay uit deze batch over autisme en waarneming — raakt je interesse in neurodivergentie en sociale structuren, met een schrijnend persoonlijk verhaal als kern.",
+        "bestMoment": "kritisch",
+        "tags": [
+          "adhd & neurodivergence",
+          "sociology & social structures"
+        ],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01m0cw5hr65m0xpvcrnsccmw12",
+        "title": "Mysticism and Pattern-Matching",
+        "author": "slatestarcodex.com",
+        "siteName": "Slate Star Codex",
+        "category": "article",
+        "language": null,
+        "readingTime": "8 mins",
+        "readingMinutes": 8,
+        "wordCount": 1895,
+        "publishedDate": "2015-08-28",
+        "savedDate": "2026-08-19T11:23:10.471000+00:00",
+        "imageUrl": "https://slatestarcodex.com/wp-content/themes/two_column_pujugama/images/codex_spotlight.png",
+        "sourceUrl": "https://slatestarcodex.com/2015/08/28/mysticism-and-pattern-matching/",
+        "readwiseUrl": "https://read.readwise.io/read/01m0cw5hr65m0xpvcrnsccmw12",
+        "summary": "[Epistemic status: Total conjecture.] One of the things that got me interested in psychiatry was the sheer weirdness of the human brain’s failure modes. We all hear that the brain is like a c…",
+        "whyRead": "Aangehaald in zowel het Bayes- als het illusie-essay uit deze batch — raakt je interesse in wetenschap en filosofie met een speculatieve maar meeslepende verklaring voor mystieke ervaringen via pattern-matching.",
+        "bestMoment": "analytisch",
+        "tags": [
+          "philosophy",
+          "science"
+        ],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01m0c7sfw5q75aqsa96vxf5a69",
+        "title": "Why I'm Staying Out Of The Substack Religion Debate",
+        "author": "Astral Codex Ten",
+        "siteName": "Substack",
+        "category": "email",
+        "language": null,
+        "readingTime": "13 mins",
+        "readingMinutes": 13,
+        "wordCount": 3380,
+        "publishedDate": "2026-08-19",
+        "savedDate": "2026-08-19T05:27:03.813000+00:00",
+        "imageUrl": null,
+        "sourceUrl": "mailto:reader-forwarded-email/b5fb7277ec53c9f5a9a7d47f25a93393",
+        "readwiseUrl": "https://read.readwise.io/read/01m0c7sfw5q75aqsa96vxf5a69",
+        "summary": "Matthew Adelstein (aka Bentham’s Bulldog) and Richard Chappell debate the existence of God.",
+        "whyRead": "Scott Alexanders \"aliens veroorzaakten Napoleon\"-analogie is een van de scherpste illustraties van hoe je verklaringen met machtige verborgen entiteiten preventief zou moeten diskwalificeren — sterke match met je interesse in filosofie en epistemologie.",
+        "bestMoment": "analytisch",
+        "tags": [
+          "philosophy"
+        ],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01m0b3f8s0jtjdq0cwv622x3rt",
+        "title": "You Are Not a Parrot",
+        "author": "nymag.com",
+        "siteName": "Intelligencer",
+        "category": "article",
+        "language": null,
+        "readingTime": "24 mins",
+        "readingMinutes": 24,
+        "wordCount": 6353,
+        "publishedDate": "2023-03-01",
+        "savedDate": "2026-08-18T18:52:20.128000+00:00",
+        "imageUrl": "https://pyxis.nymag.com/v1/imgs/920/1f7/2fa484190172e09ac140a16b232a4d6533-0523FEA-AIEthics--IAN7000-flat.1x.rsocial.w1200.jpg",
+        "sourceUrl": "https://nymag.com/intelligencer/article/ai-artificial-intelligence-chatbots-emily-m-bender.html",
+        "readwiseUrl": "https://read.readwise.io/read/01m0b3f8s0jtjdq0cwv622x3rt",
+        "summary": "And a chatbot is not a human. And a linguist named Emily M. Bender is very worried what will happen when we forget this.",
+        "whyRead": "Profiel van Emily Bender, bedenker van de term stochastic parrot — een scherpe filosofische en linguïstische tegenwicht tegen AI-hype, met een verontrustende anekdote die laat zien hoe ver de vermenselijking van chatbots al gaat.",
+        "bestMoment": "kritisch",
+        "tags": [
+          "ai ethics & society",
+          "philosophy"
+        ],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01m0b3f7rhy6g2a30jk32kz1g0",
+        "title": "What Keeps a Leading AI Scientist Up At Night",
+        "author": "nymag.com",
+        "siteName": "Intelligencer",
+        "category": "article",
+        "language": null,
+        "readingTime": "11 mins",
+        "readingMinutes": 11,
+        "wordCount": 2675,
+        "publishedDate": "2023-04-17",
+        "savedDate": "2026-08-18T18:52:19.089000+00:00",
+        "imageUrl": "https://pyxis.nymag.com/v1/imgs/a56/114/34580d9d154822963fae177c5287dda948-AI---.1x.rsocial.w1200.jpg",
+        "sourceUrl": "https://nymag.com/intelligencer/2023/04/ai-doesnt-need-consciousness-to-be-frightening.html",
+        "readwiseUrl": "https://read.readwise.io/read/01m0b3f7rhy6g2a30jk32kz1g0",
+        "summary": "Artificial intelligence legend Stuart Russell worries that programmers have already lost track of what their creations can do.",
+        "whyRead": "Nuchter tegengeluid in het AI-risico-debat van iemand die het standaardleerboek over AI schreef — relevant voor je interesse in AI-ethiek zonder in hype of paniek te vervallen.",
+        "bestMoment": "analytisch",
+        "tags": [
+          "ai ethics & society",
+          "technology"
+        ],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01m0b3f6wsd73cy3dc4nzhsavv",
+        "title": "Can We Link Perception And Cognition?",
+        "author": "slatestarcodex.com",
+        "siteName": "Slate Star Codex",
+        "category": "article",
+        "language": null,
+        "readingTime": "4 mins",
+        "readingMinutes": 4,
+        "wordCount": 895,
+        "publishedDate": "2017-07-14",
+        "savedDate": "2026-08-18T18:52:18.201000+00:00",
+        "imageUrl": "https://slatestarcodex.com/wp-content/themes/two_column_pujugama/images/codex_spotlight.png",
+        "sourceUrl": "https://slatestarcodex.com/2017/07/14/can-we-link-perception-and-cognition/",
+        "readwiseUrl": "https://read.readwise.io/read/01m0b3f6wsd73cy3dc4nzhsavv",
+        "summary": "Last month I talked a little bit about the Hollow Mask Illusion as a clue to the Bayesian operations going on “below the hood” in the brain. Today I want to go a little bit deeper into …",
+        "whyRead": "Raakt je interesse in wetenschap en filosofie — Scott Alexander onderzoekt of perceptie-illusies een venster bieden op onderliggende cognitieve stijlen en zelfs politieke overtuigingen.",
+        "bestMoment": "analytisch",
+        "tags": [
+          "philosophy",
+          "science"
+        ],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01m0b3f62sb716wyqk6tqva87v",
+        "title": "Why Are Transgender People Immune To Optical Illusions?",
+        "author": "slatestarcodex.com",
+        "siteName": "Slate Star Codex",
+        "category": "article",
+        "language": null,
+        "readingTime": "10 mins",
+        "readingMinutes": 10,
+        "wordCount": 2632,
+        "publishedDate": "2017-06-29",
+        "savedDate": "2026-08-18T18:52:17.369000+00:00",
+        "imageUrl": "https://slatestarcodex.com/wp-content/themes/two_column_pujugama/images/codex_spotlight.png",
+        "sourceUrl": "https://slatestarcodex.com/2017/06/28/why-are-transgender-people-immune-to-optical-illusions/",
+        "readwiseUrl": "https://read.readwise.io/read/01m0b3f62sb716wyqk6tqva87v",
+        "summary": "[Epistemic status: So, so speculative. Don’t take any of this seriously until it’s replicated and endorsed by other people.] I. If you’ve ever wanted to see a glitch in the Matrix…",
+        "whyRead": "Speculatief maar goed onderbouwd essay dat neurowetenschap, genderidentiteit en de Bayesiaanse hersenhypothese met elkaar verbindt — sterk raakvlak met je interesse in wetenschap en neurodiversiteit.",
+        "bestMoment": "analytisch",
+        "tags": [
+          "adhd & neurodivergence",
+          "science"
+        ],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01m0b3f56gwerhja7mext6qpv8",
+        "title": "It’s Bayes All The Way Up",
+        "author": "slatestarcodex.com",
+        "siteName": "Slate Star Codex",
+        "category": "article",
+        "language": null,
+        "readingTime": "14 mins",
+        "readingMinutes": 14,
+        "wordCount": 3521,
+        "publishedDate": "2016-09-12",
+        "savedDate": "2026-08-18T18:52:16.464000+00:00",
+        "imageUrl": "https://slatestarcodex.com/wp-content/themes/two_column_pujugama/images/codex_spotlight.png",
+        "sourceUrl": "https://slatestarcodex.com/2016/09/12/its-bayes-all-the-way-up/",
+        "readwiseUrl": "https://read.readwise.io/read/01m0b3f56gwerhja7mext6qpv8",
+        "summary": "[Epistemic status: Very speculative. I am not a neuroscientist and apologize for any misinterpretation of the papers involved.",
+        "whyRead": "Toegankelijke uitleg van hoe het Bayesiaanse-brein-model schizofrenie, autisme en drugservaringen kan verklaren via twee neurotransmittersystemen — een mooie aanvulling op de twee vorige SSC-stukken over illusies en gender.",
+        "bestMoment": "analytisch",
+        "tags": [
+          "adhd & neurodivergence",
+          "science"
+        ],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01m0b3f4900e215a7feb8a1c0c",
+        "title": "Mean Images",
+        "author": "newleftreview.org",
+        "siteName": "Sidecar",
+        "category": "article",
+        "language": null,
+        "readingTime": "18 mins",
+        "readingMinutes": 18,
+        "wordCount": 4578,
+        "publishedDate": "2023-04-28",
+        "savedDate": "2026-08-18T18:52:15.519000+00:00",
+        "imageUrl": "https://newleftreview.org/media/W1siZiIsIjIwMjMvMDQvMjgvMzUxZmVqaDZsN19DYXJkX3RlbXBsYXRlLnBuZyJdXQ?sha=4bfc36ae16410ad7",
+        "sourceUrl": "https://newleftreview.org/issues/ii140/articles/hito-steyerl-mean-images",
+        "readwiseUrl": "https://read.readwise.io/read/01m0b3f4900e215a7feb8a1c0c",
+        "summary": "An artist considers a new form of machinic representation: the statistical rendering of large datasets, indexed to the probable rather than the real of photography; to the uncanny composite rather than the abstraction of the graph.",
+        "whyRead": "Scherp essay dat AI-beeldgeneratie ontleedt als statistische gemiddelden met wortels in Galtons eugenetica en verbindt aan verborgen microwerk-uitbuiting — sterke match met je interesse in AI-ethiek.",
+        "bestMoment": "kritisch",
+        "tags": [
+          "ai ethics & society",
+          "arts & culture"
+        ],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01m0b1s6fv0ge2d9mdj3xrabzj",
+        "title": "Not all AI-generated poetry is easy to identify",
+        "author": "Brian Porter, Edouard Machery",
+        "siteName": "Nature",
+        "category": "article",
+        "language": null,
+        "readingTime": "29 mins",
+        "readingMinutes": 29,
+        "wordCount": 7554,
+        "publishedDate": "2024-11-14",
+        "savedDate": "2026-08-18T18:22:48.315000+00:00",
+        "imageUrl": "https://media.springernature.com/m685/springer-static/image/art%3A10.1038%2Fs41598-024-76900-1/MediaObjects/41598_2024_76900_Fig1_HTML.png",
+        "sourceUrl": "https://www.nature.com/articles/s41598-024-76900-1",
+        "readwiseUrl": "https://read.readwise.io/read/01m0b1s6fv0ge2d9mdj3xrabzj",
+        "summary": "As AI-generated text continues to evolve, distinguishing it from human-authored content has become increasingly difficult. This study examined whether non-expert readers could reliably differentiate between AI-generated poems and those written by well-known human poets. We conducted two experiments with non-expert poetry readers and found that participants performed below chance levels in identifying AI-generated poems (46.6% accuracy, χ2(1, N = 16,340) = 75.13, p &lt; 0.0001). Notably, participants were more likely to judge AI-generated poems as human-authored than actual human-authored poems (χ2(2, N = 16,340) = 247.04, p &lt; 0.0001). We found that AI-generated poems were rated more favorably in qualities such as rhythm and beauty, and that this contributed to their mistaken identification as human-authored. Our findings suggest that participants employed shared yet flawed heuristics to differentiate AI from human poetry: the simplicity of AI-generated poems may be easier for non-experts to understand, leading them to prefer AI-generated poetry and misinterpret the complexity of human poems as incoherence generated by AI.",
+        "whyRead": "Verrassend onderzoek: mensen herkennen AI-gedichten niet alleen niet, ze beoordelen ze zelfs vaker als \"menselijker\" dan echte gedichten van bekende dichters. Sluit aan bij je interesse in AI-ethiek en onderzoek.",
+        "bestMoment": "analytisch",
+        "tags": [
+          "ai ethics & society",
+          "research papers & academia"
+        ],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01m0b1s5m0by88b9h7k9f802kz",
+        "title": "What A.I. Art Spiral Images Tell Us",
+        "author": "Max Read",
+        "siteName": "substack.com",
+        "category": "article",
+        "language": null,
+        "readingTime": "6 mins",
+        "readingMinutes": 6,
+        "wordCount": 1348,
+        "publishedDate": "2023-10-27",
+        "savedDate": "2026-08-18T18:22:47.424000+00:00",
+        "imageUrl": "https://substackcdn.com/image/fetch/w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa36503ee-17dd-4897-96c2-00f3655f24be_1792x1792.jpeg",
+        "sourceUrl": "https://maxread.substack.com/p/what-ai-art-spiral-images-tell-us",
+        "readwiseUrl": "https://read.readwise.io/read/01m0b1s5m0by88b9h7k9f802kz",
+        "summary": "On \"controlism\"",
+        "whyRead": "Scherpe cultuurkritiek op AI-kunst en het kitsch-begrip, met een precieze analyse van waarom AI-beelden naar het gemiddelde convergeren — sluit aan bij je interesse in AI-ethiek en kunst als cultuurvorm.",
+        "bestMoment": "kritisch",
+        "tags": [
+          "ai ethics & society",
+          "arts & culture",
+          "light-reading"
+        ],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01m0b1s4v68rpr0xny1y8jvgyj",
+        "title": "The Gaslighting of Parasite",
+        "author": "Tyler Cowen",
+        "siteName": "Marginal REVOLUTION",
+        "category": "article",
+        "language": null,
+        "readingTime": "5 mins",
+        "readingMinutes": 5,
+        "wordCount": 1143,
+        "publishedDate": "2020-06-25",
+        "savedDate": "2026-08-18T18:22:46.631000+00:00",
+        "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/81iQLZujrlL._SL1500_.jpg",
+        "sourceUrl": "https://marginalrevolution.com/marginalrevolution/2020/06/the-gaslighting-of-parasite.html",
+        "readwiseUrl": "https://read.readwise.io/read/01m0b1s4v68rpr0xny1y8jvgyj",
+        "summary": "I am late to this but Parasite, now available on streaming services, is the most willfully misinterpreted movie that I have ever seen. The conventional interpretation is so obviously wrong that I cannot but think that it is anything but a collective gaslighting. The conventional interpretation is that the film is about inequality and on […]",
+        "whyRead": "Prikkelende contrarian filmanalyse die de gangbare interpretatie van Parasite op zijn kop zet — sluit aan bij je interesse in film als cultuurvorm en thematische analyse.",
+        "bestMoment": "kritisch",
+        "tags": [
+          "arts & culture",
+          "entertainment & pop culture",
+          "light-reading"
+        ],
+        "alsoIn": [
+          "aaa-luchtig-top-100"
+        ],
+        "memberships": [
+          {
+            "familyId": "luchtig",
+            "size": "top-100",
+            "position": 71
+          }
+        ]
+      },
+      {
+        "position": null,
+        "id": "01m0b1s3qh56jmhvyktd4qszbv",
+        "title": "When the Threat of A.I. Is an Insult",
+        "author": "John Herrman",
+        "siteName": "Intelligencer",
+        "category": "article",
+        "language": null,
+        "readingTime": "4 mins",
+        "readingMinutes": 4,
+        "wordCount": 985,
+        "publishedDate": "2023-05-08",
+        "savedDate": "2026-08-18T18:22:45.489000+00:00",
+        "imageUrl": "https://pyxis.nymag.com/v1/imgs/632/ef9/955f8b96cdc1f33c7aa230d9036fd17a22-wga-strike-ai-sign.1x.rsocial.w1200.jpg",
+        "sourceUrl": "https://nymag.com/intelligencer/2023/05/when-the-threat-of-ai-is-an-insult.html",
+        "readwiseUrl": "https://read.readwise.io/read/01m0b1s3qh56jmhvyktd4qszbv",
+        "summary": "Regardless of what AI actually is or will do, people are already using the specter of AI to disparage or intimidate other people.",
+        "whyRead": "Rake analyse van hoe AI wordt ingezet als politiek wapen en online dreiging — niet over wat AI kan, maar over wat mensen ermee willen zeggen. Sluit aan bij je interesse in AI-ethiek en sociale structuren.",
+        "bestMoment": "kritisch",
+        "tags": [
+          "ai ethics & society",
+          "current affairs & politics"
+        ],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01m0b1s2dc3bep7yc7t5bze75s",
+        "title": "Book Review: Surfing Uncertainty",
+        "author": "Scott Alexander",
+        "siteName": "Slate Star Codex",
+        "category": "article",
+        "language": null,
+        "readingTime": "24 mins",
+        "readingMinutes": 24,
+        "wordCount": 6276,
+        "publishedDate": "2017-09-06",
+        "savedDate": "2026-08-18T18:22:44.140000+00:00",
+        "imageUrl": "https://slatestarcodex.com/wp-content/themes/two_column_pujugama/images/codex_spotlight.png",
+        "sourceUrl": "https://slatestarcodex.com/2017/09/05/book-review-surfing-uncertainty/",
+        "readwiseUrl": "https://read.readwise.io/read/01m0b1s2dc3bep7yc7t5bze75s",
+        "summary": "[Related to: It’s Bayes All The Way Up, Why Are Transgender People Immune To Optical Illusions?, Can We Link Perception And Cognition?] I. Sometimes I have the fantasy of being able to glut m…",
+        "whyRead": "Toegankelijke maar diepgaande uitleg van de Predictive Processing-theorie van het brein — een van de weinige echt unificerende theorieën in de neurowetenschap. Past bij je interesse in filosofie en wetenschap die verwondert.",
+        "bestMoment": "analytisch",
+        "tags": [
+          "philosophy",
+          "science"
+        ],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01m0b1s05hhzaks852j6fne2cx",
+        "title": "How Did You Do On The AI Art Turing Test?",
+        "author": "Scott Alexander",
+        "siteName": "astralcodexten.com",
+        "category": "article",
+        "language": null,
+        "readingTime": "13 mins",
+        "readingMinutes": 13,
+        "wordCount": 3257,
+        "publishedDate": null,
+        "savedDate": "2026-08-18T18:22:41.838000+00:00",
+        "imageUrl": "https://substackcdn.com/image/fetch/w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8aba102b-5739-4fd7-8d6c-d479c702f253_1510x983.png",
+        "sourceUrl": "https://www.astralcodexten.com/p/how-did-you-do-on-the-ai-art-turing",
+        "readwiseUrl": "https://read.readwise.io/read/01m0b1s05hhzaks852j6fne2cx",
+        "summary": "...",
+        "whyRead": "Scott Alexanders eigen AI-kunst Turing-test met 11.000 deelnemers — grappig, scherp en zelfkritisch over wat het zegt over menselijke kunstsmaak. Goede tegenhanger van het Nature-onderzoek over AI-poëzie.",
+        "bestMoment": "ontspannen",
+        "tags": [
+          "ai ethics & society",
+          "arts & culture",
+          "light-reading"
+        ],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01m0b106qfhmdg1tz5stvzg7s3",
+        "title": "People prefer A.I. art because people prefer bad art",
+        "author": "Max Read",
+        "siteName": "substack.com",
+        "category": "article",
+        "language": null,
+        "readingTime": "8 mins",
+        "readingMinutes": 8,
+        "wordCount": 1990,
+        "publishedDate": "2024-11-22",
+        "savedDate": "2026-08-18T18:09:09.359000+00:00",
+        "imageUrl": "https://substackcdn.com/image/fetch/w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F6c6bf81e-710b-4eb7-a82f-63855dac69d4_1482x728.png",
+        "sourceUrl": "https://maxread.substack.com/p/people-prefer-ai-art-because-people",
+        "readwiseUrl": "https://read.readwise.io/read/01m0b106qfhmdg1tz5stvzg7s3",
+        "summary": "Understanding the \"AI Art Turing Test\"",
+        "whyRead": "Raakt je interesse in AI en kunst — een kritische, goed beargumenteerde tegenreactie op het \"AI Art Turing Test\"-experiment van Scott Alexander, die laat zien waarom mensen AI-kunst prefereren: niet omdat het beter is, maar omdat het kitsch is.",
+        "bestMoment": "kritisch",
+        "tags": [
+          "ai ethics & society",
+          "arts & culture",
+          "light-reading"
+        ],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01m0b105sfej59qwg42vqq0cqt",
+        "title": "What Makes Art Great?",
+        "author": "Nabeel S. Qureshi",
+        "siteName": "substack.com",
+        "category": "article",
+        "language": null,
+        "readingTime": "17 mins",
+        "readingMinutes": 17,
+        "wordCount": 4475,
+        "publishedDate": "2026-05-03",
+        "savedDate": "2026-08-18T18:09:08.399000+00:00",
+        "imageUrl": "https://substackcdn.com/image/fetch/$s_!aph7!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F59d7c90e-e065-43d3-b908-b835691aa8fc_695x537.png",
+        "sourceUrl": "https://nabeelqu.substack.com/p/what-makes-art-great",
+        "readwiseUrl": "https://read.readwise.io/read/01m0b105sfej59qwg42vqq0cqt",
+        "summary": "Some notes toward an answer",
+        "whyRead": "Raakt je interesse in kunst/esthetiek en AI — een scherp essay dat probeert te definiëren wat grote kunst objectief onderscheidt van AI-slop, met concrete voorbeelden uit Shakespeare, Chartres en Sonnet 15.",
+        "bestMoment": "analytisch",
+        "tags": [
+          "ai ethics & society",
+          "arts & culture"
+        ],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01m0aph10yf5zdstrrs85vesb4",
+        "title": "I like 'em thick",
+        "author": "Adam Mastroianni",
+        "siteName": "Substack",
+        "category": "email",
+        "language": null,
+        "readingTime": "14 mins",
+        "readingMinutes": 14,
+        "wordCount": 3568,
+        "publishedDate": "2026-08-18",
+        "savedDate": "2026-08-18T15:06:06.239000+00:00",
+        "imageUrl": null,
+        "sourceUrl": "mailto:reader-forwarded-email/f9fb9dc2bc26126267f2670a0fd1e755",
+        "readwiseUrl": "https://read.readwise.io/read/01m0aph10yf5zdstrrs85vesb4",
+        "summary": "I owe an apology to every English teacher I ever had. I always assumed that so-called “great” literature was a hoax, a punishment inflicted upon adolescents for the crime of being young.",
+        "whyRead": "Raakt je interesse in essay schrijven en kunstkritiek — een scherp, met humor doorspekt essay van Adam Mastroianni over wat \"dikke\" (thick) kunst onderscheidt van slop, met concrete criteria die ook op AI-gegenereerde content toepasbaar zijn.",
+        "bestMoment": "analytisch",
+        "tags": [
+          "arts & culture",
+          "personal growth & life philosophy"
+        ],
+        "alsoIn": [
+          "aaa-luchtig-top-100"
+        ],
+        "memberships": [
+          {
+            "familyId": "luchtig",
+            "size": "top-100",
+            "position": 95
+          }
+        ]
+      },
+      {
+        "position": null,
         "id": "01m0abenxwjayhx9jmhxvr9ekf",
         "title": "School is geen opvang, maar waarom eigenlijk niet?",
         "author": "Sophie van Gool",
@@ -15870,6 +16615,7 @@ window.TOP_ARTICLES = {
         "bestMoment": "analytisch",
         "tags": [
           "arts & culture",
+          "light-reading",
           "philosophy"
         ],
         "alsoIn": [
@@ -16271,7 +17017,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 93
+            "position": 94
           }
         ]
       },
@@ -16962,7 +17708,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 92
+            "position": 93
           }
         ]
       },
@@ -17315,7 +18061,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 90
+            "position": 91
           },
           {
             "familyId": "luchtig-nederlands",
@@ -17703,16 +18449,8 @@ window.TOP_ARTICLES = {
           "light-reading",
           "personal growth & life philosophy"
         ],
-        "alsoIn": [
-          "aaa-luchtig-top-100"
-        ],
-        "memberships": [
-          {
-            "familyId": "luchtig",
-            "size": "top-100",
-            "position": 100
-          }
-        ]
+        "alsoIn": [],
+        "memberships": []
       },
       {
         "position": null,
@@ -18104,7 +18842,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 89
+            "position": 90
           }
         ]
       },
@@ -18369,7 +19107,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 88
+            "position": 89
           }
         ]
       },
@@ -18640,7 +19378,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 87
+            "position": 88
           }
         ]
       },
@@ -20963,7 +21701,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 96
+            "position": 98
           },
           {
             "familyId": "pdfs",
@@ -22396,7 +23134,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 86
+            "position": 87
           },
           {
             "familyId": "luchtig-nederlands",
@@ -22935,7 +23673,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 85
+            "position": 86
           }
         ]
       },
@@ -23598,16 +24336,8 @@ window.TOP_ARTICLES = {
           "light-reading",
           "professional development"
         ],
-        "alsoIn": [
-          "aaa-luchtig-top-100"
-        ],
-        "memberships": [
-          {
-            "familyId": "luchtig",
-            "size": "top-100",
-            "position": 99
-          }
-        ]
+        "alsoIn": [],
+        "memberships": []
       },
       {
         "position": null,
@@ -24068,7 +24798,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 95
+            "position": 97
           }
         ]
       },
@@ -24170,7 +24900,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 84
+            "position": 85
           }
         ]
       },
@@ -24423,7 +25153,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 98
+            "position": 100
           }
         ]
       },
@@ -24816,7 +25546,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 83
+            "position": 84
           }
         ]
       },
@@ -24852,7 +25582,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 97
+            "position": 99
           }
         ]
       },
@@ -24915,7 +25645,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 82
+            "position": 83
           }
         ]
       },
@@ -25194,7 +25924,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 81
+            "position": 82
           }
         ]
       },
@@ -25595,7 +26325,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 80
+            "position": 81
           }
         ]
       },
@@ -25930,7 +26660,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 78
+            "position": 79
           }
         ]
       },
@@ -26088,7 +26818,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 77
+            "position": 78
           }
         ]
       },
@@ -26594,7 +27324,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 76
+            "position": 77
           }
         ]
       },
@@ -28033,7 +28763,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 79
+            "position": 80
           }
         ]
       },
@@ -28429,7 +29159,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 94
+            "position": 96
           },
           {
             "familyId": "videos",
@@ -30525,7 +31255,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 91
+            "position": 92
           }
         ]
       },
@@ -30629,7 +31359,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 75
+            "position": 76
           },
           {
             "familyId": "luchtig-nederlands",
@@ -31774,7 +32504,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 74
+            "position": 75
           }
         ]
       },
@@ -31809,7 +32539,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 73
+            "position": 74
           }
         ]
       },
@@ -32726,7 +33456,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 72
+            "position": 73
           }
         ]
       },
@@ -33298,7 +34028,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 71
+            "position": 72
           }
         ]
       },
