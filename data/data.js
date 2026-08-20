@@ -1,6 +1,6 @@
 // Automatisch gegenereerd door scripts/build-data.mjs — niet handmatig bewerken.
 window.TOP_ARTICLES = {
-  "generatedAt": "2026-08-20T06:39:47.271Z",
+  "generatedAt": "2026-08-20T16:19:29.545Z",
   "families": [
     {
       "id": "algemeen",
@@ -77,6 +77,66 @@ window.TOP_ARTICLES = {
             },
             {
               "position": 3,
+              "id": "01hzvrj5se18gb9dy70r9hcq2f",
+              "title": "🌲 When computers are less efficient than analog methods",
+              "author": "Eleanor Konik",
+              "siteName": "Obsidian Iceberg",
+              "category": "article",
+              "language": "Engels",
+              "readingTime": "7 mins",
+              "readingMinutes": 7,
+              "wordCount": 1754,
+              "publishedDate": null,
+              "savedDate": "2024-06-08T11:08:27.823000+00:00",
+              "imageUrl": "https://substackcdn.com/image/fetch/w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F148b9806-e16e-4471-af99-3e72c20af244_1344x896.png",
+              "sourceUrl": "https://www.eleanorkonik.com/p/when-computers-are-less-efficient?utm_source=post-email-title&publication_id=1974188&post_id=145140035&utm_campaign=email-post-title&isFreemail=true&r=1r0y5d&triedRedirect=true&utm_medium=email",
+              "readwiseUrl": "https://read.readwise.io/read/01hzvrj5se18gb9dy70r9hcq2f",
+              "summary": "Analog notetaking methods, like bullet journals and paper trackers, can be more effective and less distracting than using computers, especially in certain situations like meetings and personal organization. While digital tools offer many benefits, analog methods can provide a focused, efficient way to manage tasks and track important information without the distractions of technology. Embracing analog approaches, such as writing on paper, can be practical, mindful, and even beneficial for mental well-being in a world filled with digital distractions.",
+              "whyRead": "Raakt je interesse in PKM en kennisbeheer — een nuchtere, eerlijke verdediging van analoge methoden (bullet journals) zonder evangelisme, vanuit echte use cases.",
+              "bestMoment": "ontspannen",
+              "tags": [
+                "learning & meta-learning",
+                "personal growth & life philosophy",
+                "pkm & note-taking"
+              ],
+              "alsoIn": [
+                "aaa-top-100",
+                "aaa-short-top-10",
+                "aaa-short-top-100"
+              ]
+            },
+            {
+              "position": 4,
+              "id": "01j5b8c9ze5tvy3xr8axp67j8v",
+              "title": "🌲 Prompt engineering gave me empathy for my bosses",
+              "author": "Eleanor Konik",
+              "siteName": "Obsidian Iceberg",
+              "category": "article",
+              "language": "Engels",
+              "readingTime": "8 mins",
+              "readingMinutes": 8,
+              "wordCount": 1980,
+              "publishedDate": null,
+              "savedDate": "2024-08-15T14:51:58.319000+00:00",
+              "imageUrl": "https://substackcdn.com/image/fetch/w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F001c216a-1d58-4012-be52-2d2093793ea1_2688x1792.png",
+              "sourceUrl": "https://www.eleanorkonik.com/p/prompt-engineering-gave-me-empathy",
+              "readwiseUrl": "https://read.readwise.io/read/01j5b8c9ze5tvy3xr8axp67j8v",
+              "summary": "Prompt engineering helped the author improve communication with bosses by focusing on concise and impactful messaging. By understanding and addressing feedback, the author enhanced their conversational patterns and empathy towards others. Utilizing large language models for communication refinement highlighted the importance of clear, direct communication to convey key information effectively.",
+              "whyRead": "Raakt je interesse in PKM, AI en schrijven — Eleanor Konik (kwaliteitscontrole bij Readwise) ontdekt hoe prompt engineering haar inzicht geeft in hoe managers omgaan met communicatiepatronen.",
+              "bestMoment": "reflectief",
+              "tags": [
+                "ai & machine learning",
+                "learning & meta-learning",
+                "programming & software"
+              ],
+              "alsoIn": [
+                "aaa-top-100",
+                "aaa-short-top-10",
+                "aaa-short-top-100"
+              ]
+            },
+            {
+              "position": 5,
               "id": "01k7j6h8fj3ck0twxcq6abjm9v",
               "title": "4 Books to Self-Study Political Philosophy (as a Beginner)",
               "author": "Sam Rinko",
@@ -106,7 +166,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 4,
+              "position": 6,
               "id": "01k7pn06k2e9msrrk7d0c39bn6",
               "title": "Why & how I take reading notes by hand",
               "author": "Sam Rinko",
@@ -136,7 +196,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 5,
+              "position": 7,
               "id": "01k7pn0gythp69p15376f659gx",
               "title": "Interdisciplinary Deep Reads: Using 1 Classic Novel to Self-Study Multiple Humanities",
               "author": "Sam Rinko",
@@ -166,7 +226,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 6,
+              "position": 8,
               "id": "01kadvkbmp8yd44q125hyw9nrz",
               "title": "The paradox is that when I accept myself just as I am, I change",
               "author": "Henrik Karlsson",
@@ -196,7 +256,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 7,
+              "position": 9,
               "id": "01kbfj8h0ds5fz6sa9b7vdeh3n",
               "title": "Just and loving seeing",
               "author": "Henrik Karlsson",
@@ -225,7 +285,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 8,
+              "position": 10,
               "id": "01kdanxpg3e3pp8stwtmfr7p79",
               "title": "Taking your education into your own hands",
               "author": "Jared Henderson",
@@ -247,66 +307,6 @@ window.TOP_ARTICLES = {
                 "learning & meta-learning",
                 "personal growth & life philosophy",
                 "writing & essays"
-              ],
-              "alsoIn": [
-                "aaa-top-100",
-                "aaa-short-top-10",
-                "aaa-short-top-100"
-              ]
-            },
-            {
-              "position": 9,
-              "id": "01khxyazzfph3etb69en1bhzgw",
-              "title": "Stop Meeting Students Where They Are",
-              "author": "Walt Hunter",
-              "siteName": "The Atlantic",
-              "category": "article",
-              "language": null,
-              "readingTime": "9 mins",
-              "readingMinutes": 9,
-              "wordCount": 2298,
-              "publishedDate": "2026-02-02",
-              "savedDate": "2026-02-20T16:32:44.015000+00:00",
-              "imageUrl": "https://cdn.theatlantic.com/thumbor/oqqf3ICqMRxtYrJEU2MWryHodMk=/0x0:2000x1125/960x540/media/img/mt/2026/01/ChallengingBooks_3/original.png",
-              "sourceUrl": "https://www.theatlantic.com/ideas/2026/02/youth-reading-books-professors/685825/&ref=wiseup.readwise.io",
-              "readwiseUrl": "https://read.readwise.io/read/01khxyazzfph3etb69en1bhzgw",
-              "summary": "The author feared students wouldn’t read hard books, but assigned them anyway. The students did the reading, struggled, learned, and found their voices. Teachers should stop lowering the bar and assign whole books to build real readers.",
-              "whyRead": "Raakt je interesse in leren en onderwijs — een essay dat pleit voor hogere verwachtingen als daad van respect voor studenten.",
-              "bestMoment": "analytisch",
-              "tags": [
-                "learning & meta-learning",
-                "philosophy",
-                "writing & essays"
-              ],
-              "alsoIn": [
-                "aaa-top-100",
-                "aaa-short-top-10",
-                "aaa-short-top-100"
-              ]
-            },
-            {
-              "position": 10,
-              "id": "01kmdth41cmczffw0kk28vchct",
-              "title": "Differently free",
-              "author": "Henrik Karlsson",
-              "siteName": "Substack",
-              "category": "email",
-              "language": "Engels",
-              "readingTime": "6 mins",
-              "readingMinutes": 6,
-              "wordCount": 1587,
-              "publishedDate": "2026-03-23",
-              "savedDate": "2026-03-23T17:05:25.036000+00:00",
-              "imageUrl": null,
-              "sourceUrl": "mailto:reader-forwarded-email/d08c4e67be09d86a00a6922d55992dc2",
-              "readwiseUrl": "https://read.readwise.io/read/01kmdth41cmczffw0kk28vchct",
-              "summary": "Henrik travels from his remote island to Copenhagen to record a podcast with his friend Jackson, whose different kind of freedom helps him see new possibilities.  \nHe talks about his grandfather Nils, a quiet, selfless man who spent his life caring for others and shaped Henrik’s atheism and values.  \nHenrik believes each person has a unique contribution to make, and that we should use our lives to increase complexity, connection, and goodness in the universe.",
-              "whyRead": "Raakt je interesse in filosofie en essayistisch schrijven — Karlssons reflectie op 'differently free' mensen (Venkatesh Rao) is een elegant idee dat raakt aan vrijheid, blinde vlekken en de waarde van intellectuele gemeenschap.",
-              "bestMoment": "reflectief",
-              "tags": [
-                "personal growth & life philosophy",
-                "philosophy",
-                "political philosophy"
               ],
               "alsoIn": [
                 "aaa-top-100",
@@ -384,6 +384,66 @@ window.TOP_ARTICLES = {
             },
             {
               "position": 3,
+              "id": "01hzvrj5se18gb9dy70r9hcq2f",
+              "title": "🌲 When computers are less efficient than analog methods",
+              "author": "Eleanor Konik",
+              "siteName": "Obsidian Iceberg",
+              "category": "article",
+              "language": "Engels",
+              "readingTime": "7 mins",
+              "readingMinutes": 7,
+              "wordCount": 1754,
+              "publishedDate": null,
+              "savedDate": "2024-06-08T11:08:27.823000+00:00",
+              "imageUrl": "https://substackcdn.com/image/fetch/w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F148b9806-e16e-4471-af99-3e72c20af244_1344x896.png",
+              "sourceUrl": "https://www.eleanorkonik.com/p/when-computers-are-less-efficient?utm_source=post-email-title&publication_id=1974188&post_id=145140035&utm_campaign=email-post-title&isFreemail=true&r=1r0y5d&triedRedirect=true&utm_medium=email",
+              "readwiseUrl": "https://read.readwise.io/read/01hzvrj5se18gb9dy70r9hcq2f",
+              "summary": "Analog notetaking methods, like bullet journals and paper trackers, can be more effective and less distracting than using computers, especially in certain situations like meetings and personal organization. While digital tools offer many benefits, analog methods can provide a focused, efficient way to manage tasks and track important information without the distractions of technology. Embracing analog approaches, such as writing on paper, can be practical, mindful, and even beneficial for mental well-being in a world filled with digital distractions.",
+              "whyRead": "Raakt je interesse in PKM en kennisbeheer — een nuchtere, eerlijke verdediging van analoge methoden (bullet journals) zonder evangelisme, vanuit echte use cases.",
+              "bestMoment": "ontspannen",
+              "tags": [
+                "learning & meta-learning",
+                "personal growth & life philosophy",
+                "pkm & note-taking"
+              ],
+              "alsoIn": [
+                "aaa-top-10",
+                "aaa-short-top-10",
+                "aaa-short-top-100"
+              ]
+            },
+            {
+              "position": 4,
+              "id": "01j5b8c9ze5tvy3xr8axp67j8v",
+              "title": "🌲 Prompt engineering gave me empathy for my bosses",
+              "author": "Eleanor Konik",
+              "siteName": "Obsidian Iceberg",
+              "category": "article",
+              "language": "Engels",
+              "readingTime": "8 mins",
+              "readingMinutes": 8,
+              "wordCount": 1980,
+              "publishedDate": null,
+              "savedDate": "2024-08-15T14:51:58.319000+00:00",
+              "imageUrl": "https://substackcdn.com/image/fetch/w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F001c216a-1d58-4012-be52-2d2093793ea1_2688x1792.png",
+              "sourceUrl": "https://www.eleanorkonik.com/p/prompt-engineering-gave-me-empathy",
+              "readwiseUrl": "https://read.readwise.io/read/01j5b8c9ze5tvy3xr8axp67j8v",
+              "summary": "Prompt engineering helped the author improve communication with bosses by focusing on concise and impactful messaging. By understanding and addressing feedback, the author enhanced their conversational patterns and empathy towards others. Utilizing large language models for communication refinement highlighted the importance of clear, direct communication to convey key information effectively.",
+              "whyRead": "Raakt je interesse in PKM, AI en schrijven — Eleanor Konik (kwaliteitscontrole bij Readwise) ontdekt hoe prompt engineering haar inzicht geeft in hoe managers omgaan met communicatiepatronen.",
+              "bestMoment": "reflectief",
+              "tags": [
+                "ai & machine learning",
+                "learning & meta-learning",
+                "programming & software"
+              ],
+              "alsoIn": [
+                "aaa-top-10",
+                "aaa-short-top-10",
+                "aaa-short-top-100"
+              ]
+            },
+            {
+              "position": 5,
               "id": "01k7j6h8fj3ck0twxcq6abjm9v",
               "title": "4 Books to Self-Study Political Philosophy (as a Beginner)",
               "author": "Sam Rinko",
@@ -413,7 +473,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 4,
+              "position": 6,
               "id": "01k7pn06k2e9msrrk7d0c39bn6",
               "title": "Why & how I take reading notes by hand",
               "author": "Sam Rinko",
@@ -443,7 +503,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 5,
+              "position": 7,
               "id": "01k7pn0gythp69p15376f659gx",
               "title": "Interdisciplinary Deep Reads: Using 1 Classic Novel to Self-Study Multiple Humanities",
               "author": "Sam Rinko",
@@ -473,7 +533,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 6,
+              "position": 8,
               "id": "01kadvkbmp8yd44q125hyw9nrz",
               "title": "The paradox is that when I accept myself just as I am, I change",
               "author": "Henrik Karlsson",
@@ -503,7 +563,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 7,
+              "position": 9,
               "id": "01kbfj8h0ds5fz6sa9b7vdeh3n",
               "title": "Just and loving seeing",
               "author": "Henrik Karlsson",
@@ -532,7 +592,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 8,
+              "position": 10,
               "id": "01kdanxpg3e3pp8stwtmfr7p79",
               "title": "Taking your education into your own hands",
               "author": "Jared Henderson",
@@ -562,7 +622,38 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 9,
+              "position": 11,
+              "id": "01kf0p1x4zzc3hqf55wqyngafr",
+              "title": "On the preparations before writing an essay",
+              "author": "Henrik Karlsson",
+              "siteName": "Substack",
+              "category": "email",
+              "language": "Engels",
+              "readingTime": "8 mins",
+              "readingMinutes": 8,
+              "wordCount": 2007,
+              "publishedDate": "2026-01-15",
+              "savedDate": "2026-01-15T11:18:35.423000+00:00",
+              "imageUrl": null,
+              "sourceUrl": "mailto:reader-forwarded-email/be26eefff765a8e8d36d86b94368e5ea",
+              "readwiseUrl": "https://read.readwise.io/read/01kf0p1x4zzc3hqf55wqyngafr",
+              "summary": "- Treat essay prep like filming a doc: gather lots of rough, detailed prose before editing.\n- He mines journals, talks, quotes, and AI searches, then rapidly tests openings and stories.\n- Example and updates: one essay fused taped stories with an old Aristotle draft; there’s a fierce island storm, a planned Andalucia trip, a found Grothendieck translation, and he’s reading Magic Mountain.",
+              "whyRead": "Henrik Karlsson over de voorbereiding op essay schrijven — waardevol voor je interesse in schrijven, creativiteit en kennisverwerking.",
+              "bestMoment": "geconcentreerd",
+              "tags": [
+                "ai & machine learning",
+                "arts & culture",
+                "learning & meta-learning",
+                "light-reading"
+              ],
+              "alsoIn": [
+                "aaa-short-top-100",
+                "aaa-luchtig-top-10",
+                "aaa-luchtig-top-100"
+              ]
+            },
+            {
+              "position": 12,
               "id": "01khxyazzfph3etb69en1bhzgw",
               "title": "Stop Meeting Students Where They Are",
               "author": "Walt Hunter",
@@ -586,13 +677,11 @@ window.TOP_ARTICLES = {
                 "writing & essays"
               ],
               "alsoIn": [
-                "aaa-top-10",
-                "aaa-short-top-10",
                 "aaa-short-top-100"
               ]
             },
             {
-              "position": 10,
+              "position": 13,
               "id": "01kmdth41cmczffw0kk28vchct",
               "title": "Differently free",
               "author": "Henrik Karlsson",
@@ -616,13 +705,11 @@ window.TOP_ARTICLES = {
                 "political philosophy"
               ],
               "alsoIn": [
-                "aaa-top-10",
-                "aaa-short-top-10",
                 "aaa-short-top-100"
               ]
             },
             {
-              "position": 11,
+              "position": 14,
               "id": "01kne8gk826f5e57n34h317pqw",
               "title": "Stoicism as philosophy of well-being and happiness: Making the case for an academic, as well as wider, Stoic renaissance",
               "author": "stoicismtoday.substack.com",
@@ -648,7 +735,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 12,
+              "position": 15,
               "id": "01krm2x81z150qk5a5y9mezss5",
               "title": "How to Prioritize Your Intellectual Life",
               "author": "andrewbharker.substack.com",
@@ -676,7 +763,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 13,
+              "position": 16,
               "id": "01ks96dy2nfby7cyd152ev2a9k",
               "title": "Bureaucracy Isn't Broken. That's the Problem.",
               "author": "Sven Brodmerkel | Off-Script At Work",
@@ -704,7 +791,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 14,
+              "position": 17,
               "id": "01kst1g8cff3ab77qteg0q834j",
               "title": "‘Metrics create hermeneutical injustice'",
               "author": "Jared Henderson from Commonplace Philosophy",
@@ -732,7 +819,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 15,
+              "position": 18,
               "id": "01kysnmckrgernh72bvvz2eprz",
               "title": "Minister van Digitale Zaken: hoe het kan werken",
               "author": "berthub.eu",
@@ -764,7 +851,33 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 16,
+              "position": 19,
+              "id": "01j2dfzgeq6ee7txhr651dabe4",
+              "title": "🌲 A Personal Take on Using LLMs",
+              "author": "Eleanor Konik",
+              "siteName": "engineerscodex.com",
+              "category": "article",
+              "language": "Engels",
+              "readingTime": "10 mins",
+              "readingMinutes": 10,
+              "wordCount": 2451,
+              "publishedDate": null,
+              "savedDate": "2024-07-10T04:56:10.967000+00:00",
+              "imageUrl": "https://substackcdn.com/image/fetch/w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1c269199-2d8a-4d11-8a38-fec09ad6eac2_1344x896.png",
+              "sourceUrl": "https://email.mg-d1.substack.com/c/eJxs0M2u2yAQBeCnMTtbwxhss2DRTV7DGszcBAWDy0-jvH2lVFW7uOvRnPPpHNT4nsvb1iMXHh1V9mO_KscovJ2Ng-1YBFu5ImilUSvBJ4W43zlxocZ-p_bvOuNqxMMapb7UaiSykYvGGTYwBOgWoHXWG4tgEVDBCkauUkmc5unwbibUgKuaN6N5esj0U6seBgXnffRyqt3VRsdzOvIpQt2_Cn8stpXOItpHa1cd5h8D3ga8vV6viSNTyuWZU_h8DXi7BrzReHGpOVEcGz15zGnsNaT7GONZxdXdfuTz7Cm0986JXGT_p-PqLoaDWshpD95Ksyq5baLYv7RBQZNQpxRF7c7nk0Ky_ytE-27pXrl8AkFvC8CixS-LvwMAAP__k1KGAQ",
+              "readwiseUrl": "https://read.readwise.io/read/01j2dfzgeq6ee7txhr651dabe4",
+              "summary": "The author shares their experience using AI tools for writing and research, including summarizing sources and generating story ideas for children. They find AI suggestions helpful for staying focused and motivated in writing, but note limitations in longform writing and prose quality. Overall, the author highlights the usefulness of AI tools for specific tasks like summarization and generating targeted content.",
+              "whyRead": "Raakt je interesse in AI en PKM; een eerlijke persoonlijke reflectie op LLM-gebruik met nuance over wat ze goed en slecht doen.",
+              "bestMoment": "ontspannen",
+              "tags": [
+                "ai & machine learning",
+                "ai ethics & society",
+                "learning & meta-learning"
+              ],
+              "alsoIn": []
+            },
+            {
+              "position": 20,
               "id": "01jkh2wm4v4j610egp7kxf4m8k",
               "title": "Rationality is an underrated way to be authentic",
               "author": "Henrik Karlsson",
@@ -790,7 +903,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 17,
+              "position": 21,
               "id": "01k2ysk13dwk1ftz5jvez1y54s",
               "title": "Letter #89. On Being a Trustful, Autonomy-Supportive Parent",
               "author": "Peter Gray",
@@ -816,7 +929,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 18,
+              "position": 22,
               "id": "01k72qvbmwd9xp0k233cv5qgw2",
               "title": "A blog post is a very long and complex search query to find fascinating people and make them route interesting stuff to your inbox",
               "author": "Henrik Karlsson",
@@ -842,7 +955,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 19,
+              "position": 23,
               "id": "01k9c2mfzdvrnpxt293kgn3rn8",
               "title": "When is it better to think without words?",
               "author": "Henrik Karlsson",
@@ -868,7 +981,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 20,
+              "position": 24,
               "id": "01kak55ckqqc68k61t1z10mcs6",
               "title": "No, religion isn't required for morality",
               "author": "Lionel Page from Optimally Irrational",
@@ -893,7 +1006,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 21,
+              "position": 25,
               "id": "01kchd9839msv2vt5ymys66kv4",
               "title": "Why I am not a Modern Stoic",
               "author": "Jared Henderson from Commonplace Philosophy",
@@ -918,7 +1031,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 22,
+              "position": 26,
               "id": "01ke8078ppphvc7nr28ecay5nf",
               "title": "Let a thousand societies bloom",
               "author": "eth.limo",
@@ -944,7 +1057,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 23,
+              "position": 27,
               "id": "01khr5h2d75yj0yt1v6seck4nt",
               "title": "On the compulsion to make art",
               "author": "Henrik Karlsson",
@@ -974,7 +1087,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 24,
+              "position": 28,
               "id": "01kkejgakdb8n1a7k1bketbfm5",
               "title": "📗 REVIEW: Rise & Reign of Mammals by Steve Brusatte",
               "author": "Eleanor Konik",
@@ -1000,7 +1113,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 25,
+              "position": 29,
               "id": "01kmbp17grppjmpxqfsq4z3zy7",
               "title": "Sucker",
               "author": "McKay Coppins",
@@ -1030,7 +1143,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 26,
+              "position": 30,
               "id": "01kmmsmygjapx4f6gb2bhxds2j",
               "title": "We Haven’t Seen the Worst of What Gambling Will Do to American Sports and Politics",
               "author": "Derek Thompson",
@@ -1058,7 +1171,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 27,
+              "position": 31,
               "id": "01kqqh8gp2nh0d0c859h61yths",
               "title": "The Society of the Spectacle",
               "author": "Guy Debord",
@@ -1088,7 +1201,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 28,
+              "position": 32,
               "id": "01kqqh8j20ty05q1atmpm9gscn",
               "title": "Liberalism, Ultraleftism, or Mass Action?",
               "author": "Peter Camejo",
@@ -1114,7 +1227,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 29,
+              "position": 33,
               "id": "01kqqh8nz7876rgha8kpnx0k54",
               "title": "The Coup in Chile",
               "author": "Ralph Miliband",
@@ -1140,7 +1253,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 30,
+              "position": 34,
               "id": "01kqwezb39fwf93qzkzhny5gm5",
               "title": "THE USEFULNESS OF USELESS KNOWLEDGE",
               "author": "Abraham Flexner",
@@ -1166,7 +1279,33 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 31,
+              "position": 35,
+              "id": "01kr190hdc36xn9y5edjsm74fx",
+              "title": "📚 Neat Stuff I Read in April 2026",
+              "author": "Eleanor Konik",
+              "siteName": "Manuscriptions",
+              "category": "rss",
+              "language": "Engels",
+              "readingTime": "12 mins",
+              "readingMinutes": 12,
+              "wordCount": 3108,
+              "publishedDate": "2026-05-07",
+              "savedDate": "2026-05-07T13:11:06.996000+00:00",
+              "imageUrl": "https://substackcdn.com/image/fetch/$s_!GrE0!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F818b76c1-2c3a-437e-9154-3ce59951106c_1264x848.png",
+              "sourceUrl": "https://www.eleanorkonik.com/p/neat-stuff-i-read-in-april-2026",
+              "readwiseUrl": "https://read.readwise.io/read/01kr190hdc36xn9y5edjsm74fx",
+              "summary": "On \"doing your own research\" in the AI age, messy economics in fiction, & what funerals do to African households. Also: the airline wars, vending-machine money laundering, & breakthrus in health sci.",
+              "whyRead": "Dit raakt veel van je kerninteresses tegelijk: AI en onderzoek, PKM/sensemaking, geschiedenis, sociologie, fictie als denkinstrument en infrastructuur. De meerwaarde zit niet in één diep argument, maar in Koniks curatie met duidelijke persoonlijke stem en veel mogelijke vervolgleesroutes.",
+              "bestMoment": "leergierig",
+              "tags": [
+                "ai & machine learning",
+                "sociology & inequality",
+                "writing & essays"
+              ],
+              "alsoIn": []
+            },
+            {
+              "position": 36,
               "id": "01krmzw6cw28m1y55ds9qrsxjf",
               "title": "Cities and Ambition",
               "author": "paulgraham.com",
@@ -1193,7 +1332,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 32,
+              "position": 37,
               "id": "01krpd5465ts11g8szys682dfj",
               "title": "Shame them, shun them, ban them, beat them!",
               "author": "Adam Mastroianni",
@@ -1219,7 +1358,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 33,
+              "position": 38,
               "id": "01krt94dn0eh8859xw7s0t2vgm",
               "title": "The Simulation Has Collapsed",
               "author": "Mike Brock",
@@ -1245,7 +1384,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 34,
+              "position": 39,
               "id": "01kvhbzvsdz71gdn2329t023sp",
               "title": "So, what is morality?",
               "author": "Lionel Page from Optimally Irrational",
@@ -1271,7 +1410,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 35,
+              "position": 40,
               "id": "01kwm2c48x698f162vev3xqyy2",
               "title": "The Knowledge Machine: How Irrationality Created Modern Science",
               "author": "R.W. Richey from We Are Not Saved",
@@ -1297,7 +1436,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 36,
+              "position": 41,
               "id": "01kxr18pz677fa7xqfav7sp2dp",
               "title": "Capitalism: A Ghost Story",
               "author": "dawn.com",
@@ -1324,7 +1463,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 37,
+              "position": 42,
               "id": "01ky6y0z3wkzmdhty7gq3qa1wz",
               "title": "So, what is morality?",
               "author": "optimallyirrational.com",
@@ -1351,7 +1490,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 38,
+              "position": 43,
               "id": "01kyab47vf7vat0n76fpwrgrj6",
               "title": "Your Book Review: Breakdown In Pakistan",
               "author": "Astral Codex Ten",
@@ -1378,7 +1517,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 39,
+              "position": 44,
               "id": "01kysnkmqq07z6nwe6wtvhtkxy",
               "title": "Data en de Democratische Rechtsorde",
               "author": "berthub.eu",
@@ -1407,7 +1546,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 40,
+              "position": 45,
               "id": "01kysnmbwt86e2fk3axtde57h4",
               "title": "Keynote opening Digital Commons EDIC: Moving beyond the Digital Uncommons",
               "author": "berthub.eu",
@@ -1433,7 +1572,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 41,
+              "position": 46,
               "id": "01kyxa2yd57szp13ha57708606",
               "title": "Your Book Review: The Epic Of Gilgamesh",
               "author": "Astral Codex Ten",
@@ -1463,7 +1602,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 42,
+              "position": 47,
               "id": "01m059szgmq8b5egbkgk1xe1rd",
               "title": "Arthur Koestler",
               "author": "orwellfoundation.com",
@@ -1493,7 +1632,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 43,
+              "position": 48,
               "id": "01m059tvvs5m2bk6b68kyd7bay",
               "title": "Notes on Nationalism",
               "author": "orwellfoundation.com",
@@ -1518,7 +1657,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 44,
+              "position": 49,
               "id": "01m059v21gaqg3ya0m36r03km4",
               "title": "Politics and the English Language",
               "author": "orwellfoundation.com",
@@ -1547,7 +1686,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 45,
+              "position": 50,
               "id": "01m059v4r9jj9vzx30nn7cs3sr",
               "title": "Politics vs. Literature: An examination of Gulliver’s Travels",
               "author": "orwellfoundation.com",
@@ -1571,12 +1710,11 @@ window.TOP_ARTICLES = {
                 "political philosophy"
               ],
               "alsoIn": [
-                "aaa-luchtig-top-10",
                 "aaa-luchtig-top-100"
               ]
             },
             {
-              "position": 46,
+              "position": 51,
               "id": "01m059vbg9k6x4z8p6198n481b",
               "title": "Second Thoughts on James Burnham",
               "author": "orwellfoundation.com",
@@ -1601,7 +1739,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 47,
+              "position": 52,
               "id": "01m03b0vhwd52bhh3rdjhdafv2",
               "title": "Why I Write",
               "author": "The Orwell Foundation",
@@ -1629,7 +1767,85 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 48,
+              "position": 53,
+              "id": "01m0f295dxr46cfakg2cev3c1d",
+              "title": "The Scientist Who Lived with Dozens of Children from the Pacific Islands | The New Yorker",
+              "author": "newyorker.com",
+              "siteName": "The New Yorker",
+              "category": "article",
+              "language": null,
+              "readingTime": "52 mins",
+              "readingMinutes": 52,
+              "wordCount": 13527,
+              "publishedDate": "2026-08-17",
+              "savedDate": "2026-08-20T07:48:29.245000+00:00",
+              "imageUrl": "https://media.newyorker.com/photos/6a7b6c041e8efb2b26665651/16:9/w_1280,c_limit/r49677.jpg",
+              "sourceUrl": "https://www.newyorker.com/magazine/2026/08/24/the-scientist-who-lived-with-dozens-of-children-from-the-south-pacific",
+              "readwiseUrl": "https://read.readwise.io/read/01m0f295dxr46cfakg2cev3c1d",
+              "summary": "Carleton Gajdusek won the Nobel for his work on a disease in Papua New Guinea. But his biggest experiment was on the children he took back to the U.S. ",
+              "whyRead": "Raakt je interesse in geschiedenis en sociologie — een verbijsterend, grondig onderzoeksverhaal over wetenschappelijke exploitatie: Nobelprijswinnaar Gajdusek nam tientallen kinderen uit Papoea-Nieuw-Guinea mee naar de VS als onderdeel van een informeel \"experiment\", met verstrekkende persoonlijke en maatschappelijke gevolgen tot op de dag van vandaag.",
+              "bestMoment": "kritisch",
+              "tags": [
+                "history",
+                "linked-from-readwise",
+                "science",
+                "sociology & social structures"
+              ],
+              "alsoIn": []
+            },
+            {
+              "position": 54,
+              "id": "01m0f5thx0x9f1rpdvj5r64m3m",
+              "title": "Meditations On Moloch",
+              "author": "slatestarcodexabridged.com",
+              "siteName": "slatestarcodexabridged.com",
+              "category": "article",
+              "language": null,
+              "readingTime": "55 mins",
+              "readingMinutes": 55,
+              "wordCount": 14313,
+              "publishedDate": "2014-07-30",
+              "savedDate": "2026-08-20T08:50:24.798000+00:00",
+              "imageUrl": null,
+              "sourceUrl": "https://www.slatestarcodexabridged.com/Meditations-On-Moloch",
+              "readwiseUrl": "https://read.readwise.io/read/01m0f5thx0x9f1rpdvj5r64m3m",
+              "summary": "Moloch whose eyes are a thousand blind windows! Moloch whose skyscrapers stand in the long streets like endless Jehovahs!",
+              "whyRead": "Raakt je interesse in politieke filosofie en AI-ethiek — dit is het canonieke rationalist-essay over \"multipolaire vallen\": situaties waarin iedereen een systeem haat maar niemand er unilateraal uit kan stappen (concurrentie, evolutie, kapitalisme, wapenwedlopen). Bouwt via game theory naar een van de invloedrijkste hedendaagse argumenten voor AI-existentieel risico.",
+              "bestMoment": "analytisch",
+              "tags": [
+                "ai ethics & society",
+                "philosophy",
+                "political philosophy"
+              ],
+              "alsoIn": []
+            },
+            {
+              "position": 55,
+              "id": "01m0f7mwvh8ay32g66bb7rfsaj",
+              "title": "Who Was Friedrich Nietzsche? His Life And Works",
+              "author": "themicrophilosopher.com",
+              "siteName": "The Micro-Philosopher",
+              "category": "article",
+              "language": null,
+              "readingTime": "14 mins",
+              "readingMinutes": 14,
+              "wordCount": 3567,
+              "publishedDate": "2026-04-15",
+              "savedDate": "2026-08-20T09:22:16.560000+00:00",
+              "imageUrl": "https://substackcdn.com/image/fetch/$s_!KTkJ!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F65d7d714-66a8-4c3d-9394-93f4b9b01005_1226x714.png",
+              "sourceUrl": "https://themicrophilosopher.com/p/nietzsches-life-and-works",
+              "readwiseUrl": "https://read.readwise.io/read/01m0f7mwvh8ay32g66bb7rfsaj",
+              "summary": "Introduce yourself to one of history's most popular (and controversial) thinkers",
+              "whyRead": "Raakt je interesse in filosofie met een compacte, goed geschreven biografie van Nietzsche die leven, werk en receptiegeschiedenis in samenhang brengt, inclusief zijn ondubbelzinnige afkeer van antisemitisme.",
+              "bestMoment": "analytisch",
+              "tags": [
+                "linked-from-readwise",
+                "philosophy"
+              ],
+              "alsoIn": []
+            },
+            {
+              "position": 56,
               "id": "01j60f108dfd1k8q12ah4cmp16",
               "title": "Hunting",
               "author": "Eleanor Konik",
@@ -1657,7 +1873,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 49,
+              "position": 57,
               "id": "01j8s9z9xg4shgce5z167zc7fn",
               "title": "📰 Food as Currency - by Eleanor Konik - Manuscriptions\n📰 Food as Currency",
               "author": "Eleanor Konik",
@@ -1685,7 +1901,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 50,
+              "position": 58,
               "id": "01jjmt3derk62gvm51m286870b",
               "title": "🎓 On Famines: why and how they happen. To who?",
               "author": "Eleanor Konik",
@@ -1713,7 +1929,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 51,
+              "position": 59,
               "id": "01jjxdnzz04ees7fytca2rnntw",
               "title": "🎓 Maritime Empires",
               "author": "Eleanor Konik",
@@ -1740,7 +1956,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 52,
+              "position": 60,
               "id": "01k1mhw46shwzk87214g7gtc9w",
               "title": "Het begin van een oplossing",
               "author": "Kees Verhoeven",
@@ -1771,7 +1987,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 53,
+              "position": 61,
               "id": "01k2p3a6277wff8a1nvfes1ek4",
               "title": "How to Be a Good Intelligence Analyst - by Santi Ruiz",
               "author": "Santi Ruiz",
@@ -1797,7 +2013,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 54,
+              "position": 62,
               "id": "01k3wpn5ak9v4pmtc85h462cav",
               "title": "On the pleasure of reading private notebooks",
               "author": "Henrik Karlsson",
@@ -1827,7 +2043,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 55,
+              "position": 63,
               "id": "01k72qx64tdvkryenrbd5g81px",
               "title": "The Dire State of Contemporary Western Philosophy",
               "author": "Nathan Ormond",
@@ -1855,7 +2071,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 56,
+              "position": 64,
               "id": "01k7j6j6mdje8x3v1jt8hqaba4",
               "title": "The Mimetic Trap",
               "author": "The One Percent Rule",
@@ -1883,7 +2099,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 57,
+              "position": 65,
               "id": "01k7qbgbanjkbvetnkfd47vkrz",
               "title": "How I wrote \"Looking for Alice\"",
               "author": "Henrik Karlsson",
@@ -1913,7 +2129,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 58,
+              "position": 66,
               "id": "01k7qbgpmxd9gskhw16jx5b8yk",
               "title": "Popular education in Sweden: much more than you wanted to know",
               "author": "Henrik Karlsson",
@@ -1941,7 +2157,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 59,
+              "position": 67,
               "id": "01k7xjhe96qxhs9bkr4qahjk09",
               "title": "How to Become as Well-Read as John Adams: 8 Tips From his Reading Life",
               "author": "Samuel",
@@ -1969,7 +2185,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 60,
+              "position": 68,
               "id": "01k8v9cz0ah2x4qddn265e4cnt",
               "title": "Everything Is Television",
               "author": "Derek Thompson",
@@ -1999,7 +2215,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 61,
+              "position": 69,
               "id": "01kcb7n6kftwmca7m6dgprpkwf",
               "title": "Anarchism, explained",
               "author": "Andrew Lee",
@@ -2026,7 +2242,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 62,
+              "position": 70,
               "id": "01kd1c7k90p8p5bknmbm09abwv",
               "title": "The World in Which We Live - Nassim Nicholas Taleb",
               "author": "Substack",
@@ -2054,7 +2270,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 63,
+              "position": 71,
               "id": "01kdnzthe611p0c38ts9j702s2",
               "title": "De verleiding van de kettingzaag",
               "author": "NRC Handelsblad",
@@ -2085,7 +2301,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 64,
+              "position": 72,
               "id": "01kkh2jn3p93nsh9nvbpe1w0vk",
               "title": "Rugged Spirituality",
               "author": "Andrew Taggart",
@@ -2113,7 +2329,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 65,
+              "position": 73,
               "id": "01km0ha2tggzmd2y5yjpqbycj5",
               "title": "🎓 On Geldings and the 'Natural' Social Order of Horses",
               "author": "Eleanor Konik",
@@ -2141,7 +2357,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 66,
+              "position": 74,
               "id": "01kmfmvdnqhec7daqp6x47pr85",
               "title": "On the proper use of arguments",
               "author": "Massimo Pigliucci at Figs in Winter",
@@ -2168,7 +2384,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 67,
+              "position": 75,
               "id": "01kmr5kh5wjyr899wkg9skt4f7",
               "title": "Simone Weil Explains the Manosphere",
               "author": "Joe from Unsolicited Advice",
@@ -2197,7 +2413,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 68,
+              "position": 76,
               "id": "01kmwmt7f9jtm6j0gb6pnda9zk",
               "title": "Philosophy of Science",
               "author": "Joseph Rahi",
@@ -2225,7 +2441,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 69,
+              "position": 77,
               "id": "01kqsnmx2rdcaktjvwsjmmq2cn",
               "title": "The games we want to be playing",
               "author": "Jared Henderson from Commonplace Philosophy",
@@ -2253,7 +2469,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 70,
+              "position": 78,
               "id": "01kqwf46h1tackak8werthsvy5",
               "title": "Henrik Karlsson: The Writing Process Nobody Teaches You",
               "author": "David Perell",
@@ -2282,7 +2498,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 71,
+              "position": 79,
               "id": "01krkbe7701j87vmw7wrs54h8m",
               "title": "They Are Putting A Black Hole Inside Your Head",
               "author": "Paul Musso",
@@ -2310,7 +2526,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 72,
+              "position": 80,
               "id": "01krn1jdcn6b450yv1z0j92tz3",
               "title": "The Radical Sunzi",
               "author": "scholars-stage.org",
@@ -2339,7 +2555,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 73,
+              "position": 81,
               "id": "01kt72hwt9asrzwwx70ybxyabe",
               "title": "How Love Became Just Another Thing to Optimize",
               "author": "Philosophize This! from Philosophize This!",
@@ -2367,7 +2583,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 74,
+              "position": 82,
               "id": "01kvarejkjdc6y2cjp2d0ewgkd",
               "title": "The Desecration of Man - Say No to Nietzsche",
               "author": "R.W. Richey from We Are Not Saved",
@@ -2397,7 +2613,44 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 75,
+              "position": 83,
+              "id": "01kvcgsfekyqqc5b9t3nmrge8m",
+              "title": "Hoera, het is Waterloodag!",
+              "author": "De Ongelooflijke",
+              "siteName": "Substack",
+              "category": "email",
+              "language": "Nederlands",
+              "readingTime": "8 mins",
+              "readingMinutes": 8,
+              "wordCount": 1935,
+              "publishedDate": "2026-06-18",
+              "savedDate": "2026-06-18T04:45:51.444000+00:00",
+              "imageUrl": null,
+              "sourceUrl": "mailto:reader-forwarded-email/9063dc73da1b3f69c5087334680b7b3a",
+              "readwiseUrl": "https://read.readwise.io/read/01kvcgsfekyqqc5b9t3nmrge8m",
+              "summary": "Meer dan honderd jaar was 18 juni in Nederland een nationale feestdag, ter herinnering aan de Slag bij Waterloo (1815): de dag waarop Napoleon definitief werd verslagen en de geschiedenis van Nederland en Europa een beslissende wending nam.",
+              "whyRead": "Raakt je interesse in Europese geschiedenis en collectief geheugen: zeven veldslagen worden niet alleen militair, maar ook cultureel en identitair geduid. De meerwaarde zit in de combinatie van geschiedenis, mythevorming en historische verbeelding.",
+              "bestMoment": "ontspannen",
+              "tags": [
+                "arts & culture",
+                "history",
+                "later",
+                "light-reading",
+                "sociology & social structures"
+              ],
+              "alsoIn": [
+                "aaa-dutch-top-10",
+                "aaa-dutch-top-100",
+                "aaa-short-top-100",
+                "aaa-short-dutch-top-10",
+                "aaa-short-dutch-top-100",
+                "aaa-luchtig-top-100",
+                "aaa-luchtig-nederlands-top-10",
+                "aaa-luchtig-nederlands-top-100"
+              ]
+            },
+            {
+              "position": 84,
               "id": "01kvh7ec1tezr2vy9bqgsm6an4",
               "title": "Is There a Science of Writing?",
               "author": "Carl Hendrick from The Learning Dispatch",
@@ -2427,7 +2680,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 76,
+              "position": 85,
               "id": "01kvjbgrqsftb77gs496c0p12t",
               "title": "If the First Apocalypse Doesn’t Get You, the Second One Will",
               "author": "Miller’s Book Review 📚",
@@ -2457,7 +2710,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 77,
+              "position": 86,
               "id": "01kvtqy4rffwdb1t73t37netda",
               "title": "Antwoorden op vragen die niet gesteld worden",
               "author": "Kauthar",
@@ -2485,7 +2738,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 78,
+              "position": 87,
               "id": "01kvwwdq8bhy9m3x614gmtn41d",
               "title": "Andrew Stanton: Storytelling Secrets from the Writer of Toy Story 5",
               "author": "David Perell",
@@ -2514,7 +2767,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 79,
+              "position": 88,
               "id": "01kwfk5q2rtfm9enggaybd07zq",
               "title": "David Sedaris: Lessons From Decades of Writing",
               "author": "David Perell",
@@ -2543,7 +2796,38 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 80,
+              "position": 89,
+              "id": "01kx66q5d0pg8whe75n7qr82td",
+              "title": "Count Binface and the Politics of Ridicule",
+              "author": "Brian Klaas",
+              "siteName": "Substack",
+              "category": "email",
+              "language": "Engels",
+              "readingTime": "8 mins",
+              "readingMinutes": 8,
+              "wordCount": 1940,
+              "publishedDate": "2026-07-10",
+              "savedDate": "2026-07-10T14:25:46.912000+00:00",
+              "imageUrl": null,
+              "sourceUrl": "mailto:reader-forwarded-email/7154c0dec7aab7aedef90cb1e3549036",
+              "readwiseUrl": "https://read.readwise.io/read/01kx66q5d0pg8whe75n7qr82td",
+              "summary": "Thanks for reading The Garden of Forking Paths. This edition is for everyone, but if you value my writing, please consider upgrading to a paid subscription for just $5/month or $50/year.",
+              "whyRead": "Raakt je interesse in politiek als cultuurvorm: Brian Klaas gebruikt Count Binface waarschijnlijk om spot, absurditeit en macht serieus te analyseren. De meerwaarde zit in ridicule als democratisch of populistisch instrument.",
+              "bestMoment": "ontspannen",
+              "tags": [
+                "arts & culture",
+                "current affairs & politics",
+                "later",
+                "light-reading",
+                "political philosophy"
+              ],
+              "alsoIn": [
+                "aaa-short-top-100",
+                "aaa-luchtig-top-100"
+              ]
+            },
+            {
+              "position": 90,
               "id": "01kxdxaytaf6tm6ntqnc9vdw18",
               "title": "Apophenia and Manufactured Desire",
               "author": "Jared Henderson from Commonplace Philosophy",
@@ -2570,7 +2854,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 81,
+              "position": 91,
               "id": "01kxpg8mpkegghvbz5w71ne86v",
               "title": "Against \"Stochastic Terrorism\"",
               "author": "Astral Codex Ten",
@@ -2597,7 +2881,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 82,
+              "position": 92,
               "id": "01kxy1qnae4npandc4x9mv4aw0",
               "title": "To Understand Elon Musk, You Have to Understand This ’60s Sci-Fi Novel",
               "author": "jacobin.com",
@@ -2628,7 +2912,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 83,
+              "position": 93,
               "id": "01kxzghzvbjtnr20f8vwmwc8s5",
               "title": "Letters of Last Resort",
               "author": "Brian Klaas",
@@ -2655,7 +2939,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 84,
+              "position": 94,
               "id": "01ky6y112ahhdfz7zdrw7w1jkc",
               "title": "Fish farts, dead elephants, and total institutions in wildlife conservation",
               "author": "projectcroak.com",
@@ -2684,7 +2968,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 85,
+              "position": 95,
               "id": "01ky7qe9p9qwtpk49bzc4pqqhk",
               "title": "Normal Accidents: Living with High-Risk Technologies",
               "author": "blog.jcx.au",
@@ -2712,7 +2996,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 86,
+              "position": 96,
               "id": "01ky7y54f3cb0xcxn9nyexpkzw",
               "title": "When philosophers and the public disagree",
               "author": "Jared Henderson from Commonplace Philosophy",
@@ -2739,7 +3023,38 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 87,
+              "position": 97,
+              "id": "01kycfev2jfr2v5x5pqr2scxz7",
+              "title": "How to Win a Billion Dollars and Ruin Your Life",
+              "author": "Miller’s Book Review 📚",
+              "siteName": "Substack",
+              "category": "email",
+              "language": "Engels",
+              "readingTime": "5 mins",
+              "readingMinutes": 5,
+              "wordCount": 1249,
+              "publishedDate": "2026-07-25",
+              "savedDate": "2026-07-25T11:09:39.795000+00:00",
+              "imageUrl": null,
+              "sourceUrl": "mailto:reader-forwarded-email/c3fe10e11ea986437105f911800c098d",
+              "readwiseUrl": "https://read.readwise.io/read/01kycfev2jfr2v5x5pqr2scxz7",
+              "summary": "The great myths are always with us. “The ‘Iliad’ is only great because all life is a battle, the ‘Odyssey’ because all life is a journey, the Book of Job because all life is a riddle,” said G.",
+              "whyRead": "Raakt je interesse in fictie, mythes en cultuurkritiek: deze review laat zien hoe een hedendaagse satire Icarus, Phaethon en Cassandra gebruikt voor rijkdom, status en politieke ambitie.",
+              "bestMoment": "ontspannen",
+              "tags": [
+                "arts & culture",
+                "fiction",
+                "later",
+                "light-reading",
+                "political philosophy"
+              ],
+              "alsoIn": [
+                "aaa-short-top-100",
+                "aaa-luchtig-top-100"
+              ]
+            },
+            {
+              "position": 98,
               "id": "01kysnj4rgn2xvk4wh8pqj831w",
               "title": "The Disappearing Body",
               "author": "plough.com",
@@ -2767,7 +3082,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 88,
+              "position": 99,
               "id": "01kysnn7synbp4djg1ph3zrhdh",
               "title": "It is no longer safe to move our governments and societies to US clouds",
               "author": "berthub.eu",
@@ -2795,7 +3110,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 89,
+              "position": 100,
               "id": "01kyxvjcj0396b5z5w8bcz634q",
               "title": "De atheïst die de bekendste verdediger van het christendom werd",
               "author": "De Ongelooflijke",
@@ -2824,316 +3139,6 @@ window.TOP_ARTICLES = {
                 "aaa-short-top-100",
                 "aaa-short-dutch-top-10",
                 "aaa-short-dutch-top-100"
-              ]
-            },
-            {
-              "position": 90,
-              "id": "01kyz1s71etfwt2wgr2zhqrr4k",
-              "title": "Who Was the Last Roman Emperor?",
-              "author": "Evan Þ from Papyrus Rampant",
-              "siteName": "Substack",
-              "category": "email",
-              "language": null,
-              "readingTime": "9 mins",
-              "readingMinutes": 9,
-              "wordCount": 2140,
-              "publishedDate": "2026-08-01",
-              "savedDate": "2026-08-01T16:16:13.871000+00:00",
-              "imageUrl": null,
-              "sourceUrl": "mailto:reader-forwarded-email/5cd14cd6692e8e74b84da9f0c19af74b",
-              "readwiseUrl": "https://read.readwise.io/read/01kyz1s71etfwt2wgr2zhqrr4k",
-              "summary": "Or, that’s the story historians tell us.",
-              "whyRead": "Raakt je interesse in ideeëngeschiedenis en West-Europese geschiedenis: een speelse maar serieuze ontleding van wie nog aanspraak kan maken op de titel ‘laatste Romeinse keizer’.",
-              "bestMoment": "analytisch",
-              "tags": [
-                "history",
-                "political philosophy"
-              ],
-              "alsoIn": [
-                "aaa-short-top-100"
-              ]
-            },
-            {
-              "position": 91,
-              "id": "01kz0k2hbcfqf2z9fpk12rqtz5",
-              "title": "De talenten-tax",
-              "author": "Jona van Loenen",
-              "siteName": "Substack",
-              "category": "email",
-              "language": null,
-              "readingTime": "6 mins",
-              "readingMinutes": 6,
-              "wordCount": 1544,
-              "publishedDate": "2026-08-02",
-              "savedDate": "2026-08-02T06:37:39.565000+00:00",
-              "imageUrl": null,
-              "sourceUrl": "mailto:reader-forwarded-email/c6056c8ec038e2d5b9a9d6040be4bd5e",
-              "readwiseUrl": "https://read.readwise.io/read/01kz0k2hbcfqf2z9fpk12rqtz5",
-              "summary": "Hij had nooit wiskundige bewijzen leren opschrijven. Hij haalde zijn wiskunde, zei hij zelf, van een godin die in zijn dromen op zijn tong zou schrijven.",
-              "whyRead": "Raakt je interesse in politieke filosofie, economie en ongelijkheid: een toegankelijk gedachte-experiment over de rechtvaardigheid van beloning voor aangeboren talent.",
-              "bestMoment": "kritisch",
-              "tags": [
-                "economics",
-                "political philosophy"
-              ],
-              "alsoIn": [
-                "aaa-short-top-100"
-              ]
-            },
-            {
-              "position": 92,
-              "id": "01kz9q1etvj82wyb44kpaj3r3c",
-              "title": "Mark Forsyth: Stop Writing Like They Taught You in School",
-              "author": "David Perell",
-              "siteName": "Substack",
-              "category": "email",
-              "language": null,
-              "readingTime": "37 mins",
-              "readingMinutes": 37,
-              "wordCount": 9758,
-              "publishedDate": "2026-08-05",
-              "savedDate": "2026-08-05T19:40:08.411000+00:00",
-              "imageUrl": null,
-              "sourceUrl": "mailto:reader-forwarded-email/0b0025aaa7e0b1a87a1c4a819edae833",
-              "readwiseUrl": "https://read.readwise.io/read/01kz9q1etvj82wyb44kpaj3r3c",
-              "summary": "Alpha School is what I wish existed back then.",
-              "whyRead": "Interview met schrijver Mark Forsyth over retorische technieken en schrijfcraft — raakt direct je interesse in het essay als vorm en het schrijfproces van auteurs.",
-              "bestMoment": "geïnspireerd",
-              "tags": [
-                "arts & culture",
-                "light-reading",
-                "professional development"
-              ],
-              "alsoIn": [
-                "aaa-luchtig-top-100"
-              ]
-            },
-            {
-              "position": 93,
-              "id": "01kzakhrdw8m862yfhsmva3z11",
-              "title": "Open Questions On Open Weights",
-              "author": "Astral Codex Ten",
-              "siteName": "Substack",
-              "category": "email",
-              "language": null,
-              "readingTime": "7 mins",
-              "readingMinutes": 7,
-              "wordCount": 1597,
-              "publishedDate": "2026-08-06",
-              "savedDate": "2026-08-06T03:58:22.652000+00:00",
-              "imageUrl": null,
-              "sourceUrl": "mailto:reader-forwarded-email/86547aa9a5700ab64a795c3fc57c1807",
-              "readwiseUrl": "https://read.readwise.io/read/01kzakhrdw8m862yfhsmva3z11",
-              "summary": "Open weights AI is like open-source software, where the creator makes the raw code publicly available for free download.",
-              "whyRead": "Raakt je kerninteresse in AI-ethiek en politieke filosofie — een genuanceerd essay over de spanning tussen open-source AI, veiligheidsrisico's en politieke haalbaarheid.",
-              "bestMoment": "kritisch",
-              "tags": [
-                "ai ethics & society",
-                "political philosophy"
-              ],
-              "alsoIn": [
-                "aaa-short-top-100"
-              ]
-            },
-            {
-              "position": 94,
-              "id": "01kzeczgpr5fr1w5znnf4m2b9v",
-              "title": "A Lebanese Technology Transfer",
-              "author": "Nassim Nicholas Taleb",
-              "siteName": "Substack",
-              "category": "email",
-              "language": "Engels",
-              "readingTime": "6 mins",
-              "readingMinutes": 6,
-              "wordCount": 1533,
-              "publishedDate": "2026-08-07",
-              "savedDate": "2026-08-07T15:20:31.192000+00:00",
-              "imageUrl": null,
-              "sourceUrl": "mailto:reader-forwarded-email/417e337d1bc17b9b64a866b952aff59b",
-              "readwiseUrl": "https://read.readwise.io/read/01kzeczgpr5fr1w5znnf4m2b9v",
-              "summary": "I would like to repeat an aphorism that Lebanon has twice the qualities found in the Mediterranean world, but twice the flaws.",
-              "whyRead": "Raakt je interesse in filosofie, geschiedenis en economie: Taleb gebruikt Libanons instorting om verborgen risico, moral hazard en sociale antifragiliteit samen te denken. Vooral waardevol als essayistische lens op hoe schijnbare stabiliteit systemen juist broos kan maken.",
-              "bestMoment": "analytisch",
-              "tags": [
-                "economics",
-                "history",
-                "philosophy"
-              ],
-              "alsoIn": [
-                "aaa-short-top-100"
-              ]
-            },
-            {
-              "position": 95,
-              "id": "01kzjk22zxkgrvftgdtdvj01rq",
-              "title": "Twintig seconden waar ik me diep voor schaam",
-              "author": "Jona van Loenen",
-              "siteName": "Substack",
-              "category": "email",
-              "language": "Nederlands",
-              "readingTime": "9 mins",
-              "readingMinutes": 9,
-              "wordCount": 2122,
-              "publishedDate": "2026-08-09",
-              "savedDate": "2026-08-09T06:23:44.637000+00:00",
-              "imageUrl": null,
-              "sourceUrl": "mailto:reader-forwarded-email/d6f314a85583cfa5b9175a9ac4ec73f8",
-              "readwiseUrl": "https://read.readwise.io/read/01kzjk22zxkgrvftgdtdvj01rq",
-              "summary": "Ik was bezig met het afronden van de laatste versie van het laatste hoofdstuk van mijn nieuwe boek. In alle eerlijkheid was dat niet alleen dinsdag.",
-              "whyRead": "Een persoonlijk, helder essay over AI als verleiding om precies het soort inspanning uit te besteden waar vaardigheid, trots en betekenis uit groeien. Sterke tegenhanger voor een puur productiviteitskader.",
-              "bestMoment": "reflectief",
-              "tags": [
-                "ai ethics",
-                "personal",
-                "philosophy"
-              ],
-              "alsoIn": [
-                "aaa-dutch-top-10",
-                "aaa-dutch-top-100",
-                "aaa-short-top-100",
-                "aaa-short-dutch-top-10",
-                "aaa-short-dutch-top-100"
-              ]
-            },
-            {
-              "position": 96,
-              "id": "01kzp09j3vmc15v2atpvpkbrpe",
-              "title": "The Eotechnic Phase",
-              "author": "Jared Henderson from Commonplace Philosophy",
-              "siteName": "Substack",
-              "category": "email",
-              "language": "Engels",
-              "readingTime": "8 mins",
-              "readingMinutes": 8,
-              "wordCount": 1922,
-              "publishedDate": "2026-08-10",
-              "savedDate": "2026-08-10T14:12:44.284000+00:00",
-              "imageUrl": null,
-              "sourceUrl": "mailto:reader-forwarded-email/75bb0d9a005a81492ae2b28d56793594",
-              "readwiseUrl": "https://read.readwise.io/read/01kzp09j3vmc15v2atpvpkbrpe",
-              "summary": "When I started to read Mumford, I read the title of this chapter as the ‘The Ecotechnic Phase’—this is wrong, and I was adding an extra ‘c’.",
-              "whyRead": "Raakt je kerninteresse in filosofie, technologie en ideeëngeschiedenis. Henderson leest Mumford niet als onaantastbare geschiedschrijving, maar als een provocerend model voor hoe materialen en technieken onze ideeën over tijd, kennis en menselijkheid vormen.",
-              "bestMoment": "analytisch",
-              "tags": [
-                "history",
-                "philosophy",
-                "technology"
-              ],
-              "alsoIn": [
-                "aaa-short-top-100"
-              ]
-            },
-            {
-              "position": 97,
-              "id": "01kztvesqhd0vhbkmcxqrevkhs",
-              "title": "🎓 On the Harem Origin Story of Turkish Coffee Reading",
-              "author": "Eleanor Konik",
-              "siteName": "Substack",
-              "category": "email",
-              "language": "Engels",
-              "readingTime": "7 mins",
-              "readingMinutes": 7,
-              "wordCount": 1699,
-              "publishedDate": "2026-08-12",
-              "savedDate": "2026-08-12T11:24:25.202000+00:00",
-              "imageUrl": null,
-              "sourceUrl": "mailto:reader-forwarded-email/967515133beea759a9ac30bac2ce9ab5",
-              "readwiseUrl": "https://read.readwise.io/read/01kztvesqhd0vhbkmcxqrevkhs",
-              "summary": "A friend recently pinged me about a claim about Turkish coffee reading that has been making the rounds (most recently as a TIL post).",
-              "whyRead": "Raakt je interesse in cultuurgeschiedenis, sociale rituelen en kritisch bronnenwerk. Konik ontleedt een aanlokkelijk oorsprongsverhaal zonder het sociale nut van de praktijk weg te verklaren.",
-              "bestMoment": "analytisch",
-              "tags": [
-                "history",
-                "later",
-                "sociology & social structures"
-              ],
-              "alsoIn": [
-                "aaa-short-top-100"
-              ]
-            },
-            {
-              "position": 98,
-              "id": "01kzyk5xjcvj2qxd5hm0mbrrp2",
-              "title": "How to self-educate with the heart and ferocity of a 19th-century cotton-weaver",
-              "author": "Sam @ Knowledge Lust",
-              "siteName": "Substack",
-              "category": "email",
-              "language": "Engels",
-              "readingTime": "6 mins",
-              "readingMinutes": 6,
-              "wordCount": 1590,
-              "publishedDate": "2026-08-13",
-              "savedDate": "2026-08-13T22:16:43.341000+00:00",
-              "imageUrl": null,
-              "sourceUrl": "mailto:reader-forwarded-email/19b690e75419e3a768c7d8ffc4ac12d3",
-              "readwiseUrl": "https://read.readwise.io/read/01kzyk5xjcvj2qxd5hm0mbrrp2",
-              "summary": "According to data from The Hot Dog and Sausage Council (I’m happy this exists), the average household eats around 70 hot dogs per year (1. 33 per week).",
-              "whyRead": "Raakt je kerninteresses in zelfgestuurd leren, geschiedenis en essayistisch denken. Deze levendige bespreking van Jonathan Rose laat zien hoe Britse arbeiders boeken, debat en wederzijdse discipline benutten als emancipatoire praktijk.",
-              "bestMoment": "leergierig",
-              "tags": [
-                "history",
-                "learning & meta-learning",
-                "philosophy"
-              ],
-              "alsoIn": [
-                "aaa-short-top-100"
-              ]
-            },
-            {
-              "position": 99,
-              "id": "01m059t4kq0fgjsx21x28nbdqk",
-              "title": "Freedom and Happiness (Review of ‘We’ by Yevgeny Zamyatin)",
-              "author": "orwellfoundation.com",
-              "siteName": "The Orwell Foundation",
-              "category": "article",
-              "language": null,
-              "readingTime": "8 mins",
-              "readingMinutes": 8,
-              "wordCount": 2103,
-              "publishedDate": "2010-11-29",
-              "savedDate": "2026-08-16T12:47:41.175000+00:00",
-              "imageUrl": "https://www.orwellfoundation.com/wp-content/uploads/2020/11/Screenshot_2020-11-16-The-Orwell-Foundation-orwellfoundation-•-Instagram-photos-and-videos.png",
-              "sourceUrl": "https://www.orwellfoundation.com/the-orwell-foundation/orwell/essays-and-other-works/freedom-and-happiness-review-of-we-by-yevgeny-zamyatin/",
-              "readwiseUrl": "https://read.readwise.io/read/01m059t4kq0fgjsx21x28nbdqk",
-              "summary": "\"It is in effect a study of the Machine, the genie that man has thoughtlessly let out of its bottle and cannot put back again. This is a book to look out for when an English version appears.\"",
-              "whyRead": "Essentiële achtergrond bij 1984 — Orwell bespreekt Zamyatins \"We\", de dystopie die zowel Brave New World als later 1984 inspireerde, en raakt zo direct je interesse in totalitarisme en sciencefiction als vorm van politieke reflectie.",
-              "bestMoment": "analytisch",
-              "tags": [
-                "fiction",
-                "light-reading",
-                "political philosophy",
-                "totalitarianism & fascism"
-              ],
-              "alsoIn": [
-                "aaa-short-top-100",
-                "aaa-luchtig-top-100"
-              ]
-            },
-            {
-              "position": 100,
-              "id": "01m059t7cjgvc214sac3e4z08x",
-              "title": "Freedom of the Park",
-              "author": "orwellfoundation.com",
-              "siteName": "The Orwell Foundation",
-              "category": "article",
-              "language": null,
-              "readingTime": "5 mins",
-              "readingMinutes": 5,
-              "wordCount": 1106,
-              "publishedDate": "2011-12-07",
-              "savedDate": "2026-08-16T12:47:44.018000+00:00",
-              "imageUrl": "https://www.orwellfoundation.com/wp-content/uploads/2019/01/Orwell-e1548403094796.jpg",
-              "sourceUrl": "https://www.orwellfoundation.com/the-orwell-foundation/orwell/essays-and-other-works/freedom-of-the-park/",
-              "readwiseUrl": "https://read.readwise.io/read/01m059t7cjgvc214sac3e4z08x",
-              "summary": "A few weeks ago, five people who were selling papers outside Hyde Park were arrested by the police for obstruction...",
-              "whyRead": "Kort maar scherp essay over persvrijheid en willekeurige politiehandhaving tegen linkse/anarchistische pamflettenverkopers — raakt je interesse in politieke filosofie en de vraag hoe vrijheid in de praktijk wordt gewaarborgd (of juist niet).",
-              "bestMoment": "kritisch",
-              "tags": [
-                "history",
-                "political philosophy"
-              ],
-              "alsoIn": [
-                "aaa-short-top-100"
               ]
             }
           ]
@@ -3275,6 +3280,43 @@ window.TOP_ARTICLES = {
             },
             {
               "position": 5,
+              "id": "01kvcgsfekyqqc5b9t3nmrge8m",
+              "title": "Hoera, het is Waterloodag!",
+              "author": "De Ongelooflijke",
+              "siteName": "Substack",
+              "category": "email",
+              "language": "Nederlands",
+              "readingTime": "8 mins",
+              "readingMinutes": 8,
+              "wordCount": 1935,
+              "publishedDate": "2026-06-18",
+              "savedDate": "2026-06-18T04:45:51.444000+00:00",
+              "imageUrl": null,
+              "sourceUrl": "mailto:reader-forwarded-email/9063dc73da1b3f69c5087334680b7b3a",
+              "readwiseUrl": "https://read.readwise.io/read/01kvcgsfekyqqc5b9t3nmrge8m",
+              "summary": "Meer dan honderd jaar was 18 juni in Nederland een nationale feestdag, ter herinnering aan de Slag bij Waterloo (1815): de dag waarop Napoleon definitief werd verslagen en de geschiedenis van Nederland en Europa een beslissende wending nam.",
+              "whyRead": "Raakt je interesse in Europese geschiedenis en collectief geheugen: zeven veldslagen worden niet alleen militair, maar ook cultureel en identitair geduid. De meerwaarde zit in de combinatie van geschiedenis, mythevorming en historische verbeelding.",
+              "bestMoment": "ontspannen",
+              "tags": [
+                "arts & culture",
+                "history",
+                "later",
+                "light-reading",
+                "sociology & social structures"
+              ],
+              "alsoIn": [
+                "aaa-top-100",
+                "aaa-dutch-top-100",
+                "aaa-short-top-100",
+                "aaa-short-dutch-top-10",
+                "aaa-short-dutch-top-100",
+                "aaa-luchtig-top-100",
+                "aaa-luchtig-nederlands-top-10",
+                "aaa-luchtig-nederlands-top-100"
+              ]
+            },
+            {
+              "position": 6,
               "id": "01kyxvjcj0396b5z5w8bcz634q",
               "title": "De atheïst die de bekendste verdediger van het christendom werd",
               "author": "De Ongelooflijke",
@@ -3306,7 +3348,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 6,
+              "position": 7,
               "id": "01kzjk22zxkgrvftgdtdvj01rq",
               "title": "Twintig seconden waar ik me diep voor schaam",
               "author": "Jona van Loenen",
@@ -3330,7 +3372,6 @@ window.TOP_ARTICLES = {
                 "philosophy"
               ],
               "alsoIn": [
-                "aaa-top-100",
                 "aaa-dutch-top-100",
                 "aaa-short-top-100",
                 "aaa-short-dutch-top-10",
@@ -3338,7 +3379,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 7,
+              "position": 8,
               "id": "01k0787yxz912x1kgykz88ngts",
               "title": "Tijd voor solidariteit",
               "author": "Wetenschappelijk Bureau Groenlinks",
@@ -3366,7 +3407,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 8,
+              "position": 9,
               "id": "01k4hz4tpj7wyg13z1mrad20g8",
               "title": "Longread: Chantal Mouffe – Over het politieke",
               "author": "Philipp Kocks",
@@ -3392,7 +3433,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 9,
+              "position": 10,
               "id": "01kd66gdx0xhsnk7nxcsvfcgpa",
               "title": "Een tijd van monsters: waarom de beste mensen niet meer de top bereiken",
               "author": "Rutger Bregman",
@@ -3413,34 +3454,6 @@ window.TOP_ARTICLES = {
               "tags": [
                 "political philosophy",
                 "sociology & inequality"
-              ],
-              "alsoIn": [
-                "aaa-dutch-top-100"
-              ]
-            },
-            {
-              "position": 10,
-              "id": "01kqj7zfv4pjw25bctmdrswe18",
-              "title": "Waarom de Nederlandse democratie in de jaren ’30 niet ten onder ging",
-              "author": "De Ongelooflijke",
-              "siteName": "Substack",
-              "category": "email",
-              "language": "Nederlands",
-              "readingTime": "12 mins",
-              "readingMinutes": 12,
-              "wordCount": 3142,
-              "publishedDate": "2026-05-01",
-              "savedDate": "2026-05-01T17:04:30.564000+00:00",
-              "imageUrl": null,
-              "sourceUrl": "mailto:reader-forwarded-email/907a5ff8cbaf5b8a27a7b8049463267e",
-              "readwiseUrl": "https://read.readwise.io/read/01kqj7zfv4pjw25bctmdrswe18",
-              "summary": "De jaren dertig van de vorige eeuw, waren jaren van crises: economische rampspoed, politieke onrust en zelfs gewelddadige revoluties.",
-              "whyRead": "Essay van historicus Beatrice de Graaf over waarom Nederland in de jaren '30 — anders dan Duitsland, Oostenrijk en Frankrijk — de democratie wist te bewaren ondanks extremisme van links en rechts. Scherpe these, historische diepgang, vergelijkend perspectief. Relevant nu extremisme opnieuw oplaait.",
-              "bestMoment": "Rustig lezen, vraagt concentratie. Goed voor een avond.",
-              "tags": [
-                "history",
-                "political philosophy",
-                "totalitarianism & fascism"
               ],
               "alsoIn": [
                 "aaa-dutch-top-100"
@@ -3576,6 +3589,43 @@ window.TOP_ARTICLES = {
             },
             {
               "position": 5,
+              "id": "01kvcgsfekyqqc5b9t3nmrge8m",
+              "title": "Hoera, het is Waterloodag!",
+              "author": "De Ongelooflijke",
+              "siteName": "Substack",
+              "category": "email",
+              "language": "Nederlands",
+              "readingTime": "8 mins",
+              "readingMinutes": 8,
+              "wordCount": 1935,
+              "publishedDate": "2026-06-18",
+              "savedDate": "2026-06-18T04:45:51.444000+00:00",
+              "imageUrl": null,
+              "sourceUrl": "mailto:reader-forwarded-email/9063dc73da1b3f69c5087334680b7b3a",
+              "readwiseUrl": "https://read.readwise.io/read/01kvcgsfekyqqc5b9t3nmrge8m",
+              "summary": "Meer dan honderd jaar was 18 juni in Nederland een nationale feestdag, ter herinnering aan de Slag bij Waterloo (1815): de dag waarop Napoleon definitief werd verslagen en de geschiedenis van Nederland en Europa een beslissende wending nam.",
+              "whyRead": "Raakt je interesse in Europese geschiedenis en collectief geheugen: zeven veldslagen worden niet alleen militair, maar ook cultureel en identitair geduid. De meerwaarde zit in de combinatie van geschiedenis, mythevorming en historische verbeelding.",
+              "bestMoment": "ontspannen",
+              "tags": [
+                "arts & culture",
+                "history",
+                "later",
+                "light-reading",
+                "sociology & social structures"
+              ],
+              "alsoIn": [
+                "aaa-top-100",
+                "aaa-dutch-top-10",
+                "aaa-short-top-100",
+                "aaa-short-dutch-top-10",
+                "aaa-short-dutch-top-100",
+                "aaa-luchtig-top-100",
+                "aaa-luchtig-nederlands-top-10",
+                "aaa-luchtig-nederlands-top-100"
+              ]
+            },
+            {
+              "position": 6,
               "id": "01kyxvjcj0396b5z5w8bcz634q",
               "title": "De atheïst die de bekendste verdediger van het christendom werd",
               "author": "De Ongelooflijke",
@@ -3607,7 +3657,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 6,
+              "position": 7,
               "id": "01kzjk22zxkgrvftgdtdvj01rq",
               "title": "Twintig seconden waar ik me diep voor schaam",
               "author": "Jona van Loenen",
@@ -3631,7 +3681,6 @@ window.TOP_ARTICLES = {
                 "philosophy"
               ],
               "alsoIn": [
-                "aaa-top-100",
                 "aaa-dutch-top-10",
                 "aaa-short-top-100",
                 "aaa-short-dutch-top-10",
@@ -3639,7 +3688,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 7,
+              "position": 8,
               "id": "01k0787yxz912x1kgykz88ngts",
               "title": "Tijd voor solidariteit",
               "author": "Wetenschappelijk Bureau Groenlinks",
@@ -3667,7 +3716,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 8,
+              "position": 9,
               "id": "01k4hz4tpj7wyg13z1mrad20g8",
               "title": "Longread: Chantal Mouffe – Over het politieke",
               "author": "Philipp Kocks",
@@ -3693,7 +3742,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 9,
+              "position": 10,
               "id": "01kd66gdx0xhsnk7nxcsvfcgpa",
               "title": "Een tijd van monsters: waarom de beste mensen niet meer de top bereiken",
               "author": "Rutger Bregman",
@@ -3720,7 +3769,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 10,
+              "position": 11,
               "id": "01kqj7zfv4pjw25bctmdrswe18",
               "title": "Waarom de Nederlandse democratie in de jaren ’30 niet ten onder ging",
               "author": "De Ongelooflijke",
@@ -3743,12 +3792,10 @@ window.TOP_ARTICLES = {
                 "political philosophy",
                 "totalitarianism & fascism"
               ],
-              "alsoIn": [
-                "aaa-dutch-top-10"
-              ]
+              "alsoIn": []
             },
             {
-              "position": 11,
+              "position": 12,
               "id": "01ksc75pt8qjpzxtda00x3dba8",
               "title": "Waarom komen politici met steeds meer weg?",
               "author": "Dieuwertje Kuijpers",
@@ -3774,7 +3821,39 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 12,
+              "position": 13,
+              "id": "01kt9sbc2hgkymt9expprgkgdp",
+              "title": "In de Apocalyps is de vrouw een teken van hoop",
+              "author": "De Ongelooflijke",
+              "siteName": "Substack",
+              "category": "email",
+              "language": "Nederlands",
+              "readingTime": "11 mins",
+              "readingMinutes": 11,
+              "wordCount": 2806,
+              "publishedDate": "2026-06-04",
+              "savedDate": "2026-06-04T17:02:01.298000+00:00",
+              "imageUrl": null,
+              "sourceUrl": "mailto:reader-forwarded-email/1b764fdf5abd46623c037fd1ff273434",
+              "readwiseUrl": "https://read.readwise.io/read/01kt9sbc2hgkymt9expprgkgdp",
+              "summary": "Meestal wordt de Apocalyps geassocieerd met chaos, oorlog en vernietiging; het einde der tijden en de ondergang van de wereld.",
+              "whyRead": "Raakt je interesse in cultuurgeschiedenis, religieuze beeldtaal en kunst als ideeënwereld: een rijk essay over de apocalyptische vrouw als hoopmotief in plaats van alleen rampsymbool.",
+              "bestMoment": "geconcentreerd",
+              "tags": [
+                "arts & culture",
+                "history",
+                "later",
+                "light-reading",
+                "philosophy"
+              ],
+              "alsoIn": [
+                "aaa-luchtig-top-100",
+                "aaa-luchtig-nederlands-top-10",
+                "aaa-luchtig-nederlands-top-100"
+              ]
+            },
+            {
+              "position": 14,
               "id": "01ktv2sxayxrqj6yzvyhjes6tf",
               "title": "Leeslijst mei 2026",
               "author": "Kauthar",
@@ -3799,7 +3878,6 @@ window.TOP_ARTICLES = {
                 "sociology & social structures"
               ],
               "alsoIn": [
-                "aaa-short-top-100",
                 "aaa-short-dutch-top-10",
                 "aaa-short-dutch-top-100",
                 "aaa-luchtig-top-100",
@@ -3808,7 +3886,40 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 13,
+              "position": 15,
+              "id": "01kvm92m2s24rdpdw5hm665kgj",
+              "title": "De opkomst van culturele rage bait",
+              "author": "Doortje Smithuijsen",
+              "siteName": "Substack",
+              "category": "email",
+              "language": "Nederlands",
+              "readingTime": "2 mins",
+              "readingMinutes": 2,
+              "wordCount": 496,
+              "publishedDate": "2026-06-21",
+              "savedDate": "2026-06-21T05:04:57.946000+00:00",
+              "imageUrl": null,
+              "sourceUrl": "mailto:reader-forwarded-email/ac7fa1c3619097e1654ca4969360d4ae",
+              "readwiseUrl": "https://read.readwise.io/read/01kvm92m2s24rdpdw5hm665kgj",
+              "summary": "Afgelopen week ging ik ondanks mijn horror-haat in mijn eentje naar Obsession - de film over een jongen die wenst dat zijn crush Nikki ook verliefd wordt op hem, met alle gevolgen van dien.",
+              "whyRead": "Raakt je interesse in cultuurkritiek en mediavormen: Smithuijsen leest Gen Z-horror en TikTok-reactiecultuur als symptoom van culturele rage bait. De meerwaarde zit in het idee dat ook 'hoge' cultuur steeds vaker op platte emotie en reactiecircuits wordt ontworpen.",
+              "bestMoment": "kritisch",
+              "tags": [
+                "arts & culture",
+                "entertainment & pop culture",
+                "light-reading",
+                "sociology & social structures"
+              ],
+              "alsoIn": [
+                "aaa-short-dutch-top-10",
+                "aaa-short-dutch-top-100",
+                "aaa-luchtig-top-100",
+                "aaa-luchtig-nederlands-top-10",
+                "aaa-luchtig-nederlands-top-100"
+              ]
+            },
+            {
+              "position": 16,
               "id": "01kwkbvg7b538ndb8mhrw8b12z",
               "title": "Mazzucato rekent af met strategie van Draghi, Wennink en het kabinet",
               "author": "Rode Cijfers",
@@ -3832,13 +3943,12 @@ window.TOP_ARTICLES = {
                 "sociology & social structures"
               ],
               "alsoIn": [
-                "aaa-short-top-100",
                 "aaa-short-dutch-top-10",
                 "aaa-short-dutch-top-100"
               ]
             },
             {
-              "position": 14,
+              "position": 17,
               "id": "01kysnkny4jr6ej2jh6n05ex8q",
               "title": "Het Curieuze Artikel 73 van de AIVD en MIVD",
               "author": "berthub.eu",
@@ -3867,7 +3977,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 15,
+              "position": 18,
               "id": "01ktds007mazvkk5bn9zrdybw0",
               "title": "Big oil vindt zichzelf heel zielig",
               "author": "Jelmer Mommers",
@@ -3891,12 +4001,11 @@ window.TOP_ARTICLES = {
                 "sociology & social structures"
               ],
               "alsoIn": [
-                "aaa-short-dutch-top-10",
                 "aaa-short-dutch-top-100"
               ]
             },
             {
-              "position": 16,
+              "position": 19,
               "id": "01kv7gpdvwcvk4359brzpxqmes",
               "title": "Waarom zeggen vrienden zo vaak af?",
               "author": "Lena Bril",
@@ -3920,12 +4029,11 @@ window.TOP_ARTICLES = {
                 "sociology & social structures"
               ],
               "alsoIn": [
-                "aaa-short-dutch-top-10",
                 "aaa-short-dutch-top-100"
               ]
             },
             {
-              "position": 17,
+              "position": 20,
               "id": "01kwnr6f6a3gb801eapyrbp6q2",
               "title": "Honderd vliegtuigcrashes in één week: wat is hier aan de hand?",
               "author": "Jelmer Mommers",
@@ -3953,7 +4061,103 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 18,
+              "position": 21,
+              "id": "01kwreqfypckk54fws5c65whwp",
+              "title": "Niemand wil het, toch doen we het allemaal",
+              "author": "Jona van Loenen",
+              "siteName": "Substack",
+              "category": "email",
+              "language": "Nederlands",
+              "readingTime": "7 mins",
+              "readingMinutes": 7,
+              "wordCount": 1653,
+              "publishedDate": "2026-07-05",
+              "savedDate": "2026-07-05T06:16:24.278000+00:00",
+              "imageUrl": null,
+              "sourceUrl": "mailto:reader-forwarded-email/d03e98c83b42f95bce803f121327a74f",
+              "readwiseUrl": "https://read.readwise.io/read/01kwreqfypckk54fws5c65whwp",
+              "summary": "Normaal neem ik de metro terug naar huis, voor de simpele reden dat ik geen zin heb om die (zware) tassen te dragen.",
+              "whyRead": "Nederlandstalig persoonlijk essay met alledaagse insteek; mogelijk interessant door stem, herkenning en reflectie op gedrag dat niemand wil maar iedereen toch doet. Bewaren als lichte essayistische Nederlandse cultuurreflectie.",
+              "bestMoment": "ontspannen",
+              "tags": [
+                "arts & culture",
+                "light-reading",
+                "personal growth & life philosophy",
+                "sociology & social structures"
+              ],
+              "alsoIn": [
+                "aaa-short-dutch-top-100",
+                "aaa-luchtig-top-100",
+                "aaa-luchtig-nederlands-top-10",
+                "aaa-luchtig-nederlands-top-100"
+              ]
+            },
+            {
+              "position": 22,
+              "id": "01kxabe372k5htmjxz8bxdan0f",
+              "title": "Privéchefs zijn extreem algoritmevriendelijk",
+              "author": "Doortje Smithuijsen",
+              "siteName": "Substack",
+              "category": "email",
+              "language": "Nederlands",
+              "readingTime": "5 mins",
+              "readingMinutes": 5,
+              "wordCount": 1122,
+              "publishedDate": "2026-07-12",
+              "savedDate": "2026-07-12T05:05:10.371000+00:00",
+              "imageUrl": null,
+              "sourceUrl": "mailto:reader-forwarded-email/1eee5fd801287b43f486157c5a05455c",
+              "readwiseUrl": "https://read.readwise.io/read/01kxabe372k5htmjxz8bxdan0f",
+              "summary": "De laatste tijd zit ik in een nieuw algoritme: dat van privéchefs.",
+              "whyRead": "Raakt je interesse in cultuur als vorm van sociale analyse: privechefs worden bekeken als algoritmisch aantrekkelijk statussymbool. De meerwaarde zit waarschijnlijk in de observatie van smaak, rijkdom en platformlogica.",
+              "bestMoment": "ontspannen",
+              "tags": [
+                "arts & culture",
+                "later",
+                "light-reading",
+                "sociology & social structures"
+              ],
+              "alsoIn": [
+                "aaa-short-dutch-top-100",
+                "aaa-luchtig-top-100",
+                "aaa-luchtig-nederlands-top-10",
+                "aaa-luchtig-nederlands-top-100"
+              ]
+            },
+            {
+              "position": 23,
+              "id": "01kyejqrpkrb3a9zqk5a7k4n5f",
+              "title": "Jetten-1 is geen regering. Het is een situationship.",
+              "author": "Jona van Loenen",
+              "siteName": "Substack",
+              "category": "email",
+              "language": "Nederlands",
+              "readingTime": "6 mins",
+              "readingMinutes": 6,
+              "wordCount": 1547,
+              "publishedDate": "2026-07-26",
+              "savedDate": "2026-07-26T06:45:26.868000+00:00",
+              "imageUrl": null,
+              "sourceUrl": "mailto:reader-forwarded-email/10e2d6a1c4a4b04f8ef0a919503aa291",
+              "readwiseUrl": "https://read.readwise.io/read/01kyejqrpkrb3a9zqk5a7k4n5f",
+              "summary": "Dit is voor het verhaal even belangrijk om te weten: deze vriend is een geboren en getogen Rotterdammer. Hij is opgegroeid in Kralingen, en is daar nooit meer weggegaan.",
+              "whyRead": "Raakt je interesse in Nederlandse politiek en essayistische analyse: de situationship-metafoor maakt de vrijblijvende logica van een meerderheidsarme regering tastbaar.",
+              "bestMoment": "kritisch",
+              "tags": [
+                "arts & culture",
+                "current affairs & politics",
+                "later",
+                "light-reading",
+                "sociology & social structures"
+              ],
+              "alsoIn": [
+                "aaa-short-dutch-top-100",
+                "aaa-luchtig-nederlands-top-10",
+                "aaa-luchtig-nederlands-top-100"
+              ]
+            },
+            {
+              "position": 24,
               "id": "01kzzst7bzmyrpwmespcekhf7k",
               "title": "Er is straks niets dat AI niet beter kan. Behalve mens zijn.",
               "author": "Saskia en Alinda van her/ai",
@@ -3981,7 +4185,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 19,
+              "position": 25,
               "id": "01m01yc8rqy3yyyab16j5exq6t",
               "title": "Populair klimaatbeleid: dit zijn de bouwstenen",
               "author": "Jelmer Mommers",
@@ -4009,7 +4213,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 20,
+              "position": 26,
               "id": "01k7q03xx8pwem577zgy47b0zk",
               "title": "Nederland is inderdaad niet kapot. Maar sluit je ogen niet voor onrecht",
               "author": "Tim 'S Jongers",
@@ -4034,7 +4238,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 21,
+              "position": 27,
               "id": "01k80nvw2z9d40qq24hveszqrw",
               "title": "De hel van het gelijke",
               "author": "Marian Donner",
@@ -4058,13 +4262,12 @@ window.TOP_ARTICLES = {
                 "sociology & inequality"
               ],
               "alsoIn": [
-                "aaa-luchtig-top-100",
                 "aaa-luchtig-nederlands-top-10",
                 "aaa-luchtig-nederlands-top-100"
               ]
             },
             {
-              "position": 22,
+              "position": 28,
               "id": "01kadgjv79tav4g56e89rykjte",
               "title": "Een wereld waarmee we in contact staan, is een wereld vol magie",
               "author": "Bregje Hofstede",
@@ -4089,7 +4292,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 23,
+              "position": 29,
               "id": "01kwkpvx062dytw4zfh294psvb",
               "title": "Heilige plekken dichtbij: Der Herrgott van Bentheim",
               "author": "De Ongelooflijke",
@@ -4114,13 +4317,12 @@ window.TOP_ARTICLES = {
                 "personal growth & life philosophy"
               ],
               "alsoIn": [
-                "aaa-luchtig-top-100",
                 "aaa-luchtig-nederlands-top-10",
                 "aaa-luchtig-nederlands-top-100"
               ]
             },
             {
-              "position": 24,
+              "position": 30,
               "id": "01m02v2mszvk3cjaw44d26cmvx",
               "title": "Het zachte tegengif heet verwondering",
               "author": "Sabine Winters",
@@ -4145,13 +4347,41 @@ window.TOP_ARTICLES = {
                 "philosophy"
               ],
               "alsoIn": [
-                "aaa-luchtig-top-100",
                 "aaa-luchtig-nederlands-top-10",
                 "aaa-luchtig-nederlands-top-100"
               ]
             },
             {
-              "position": 25,
+              "position": 31,
+              "id": "01ks7vbkd0mgft31fpf06jbv90",
+              "title": "Een gele kanarie van 195 euro",
+              "author": "Alexander Klöpping & Ernst-Jan Pfauth",
+              "siteName": "Substack",
+              "category": "email",
+              "language": "Nederlands",
+              "readingTime": "3 mins",
+              "readingMinutes": 3,
+              "wordCount": 734,
+              "publishedDate": "2026-05-22",
+              "savedDate": "2026-05-22T12:42:55.265000+00:00",
+              "imageUrl": null,
+              "sourceUrl": "mailto:reader-forwarded-email/a1ecb0124fe5bef5475462038be62e11",
+              "readwiseUrl": "https://read.readwise.io/read/01ks7vbkd0mgft31fpf06jbv90",
+              "summary": "Een memoir waarin de schrijver wél kan schrijven.",
+              "whyRead": "Lichte weekendtips-mail met cultuur-, streaming- en gadgetaanbevelingen. De enige echt inhoudelijke haak is de verwijzing naar Alex Mayyasi/Derek Thompson over de economische logica achter eenzaamheid: digitaal vermaak schaalt goedkoop, terwijl sociale plekken arbeidsintensief en duurder worden.",
+              "bestMoment": "licht / weekend",
+              "tags": [
+                "arts & culture",
+                "light-reading",
+                "sociology & social structures"
+              ],
+              "alsoIn": [
+                "aaa-short-dutch-top-100",
+                "aaa-luchtig-nederlands-top-100"
+              ]
+            },
+            {
+              "position": 32,
               "id": "01kt43yge3yh7na9s1pgccyc4b",
               "title": "Universiteiten verspillen kostbaar rendement",
               "author": "Sophie van Gool",
@@ -4178,7 +4408,37 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 26,
+              "position": 33,
+              "id": "01ktbxxr50k86jtqphyhdp1eyc",
+              "title": "De blauwe Ferrari van Jony Ive",
+              "author": "Alexander Klöpping & Ernst-Jan Pfauth",
+              "siteName": "Substack",
+              "category": "email",
+              "language": "Nederlands",
+              "readingTime": "3 mins",
+              "readingMinutes": 3,
+              "wordCount": 654,
+              "publishedDate": "2026-06-05",
+              "savedDate": "2026-06-05T13:00:26.656000+00:00",
+              "imageUrl": null,
+              "sourceUrl": "mailto:reader-forwarded-email/688da72a0be45c4884c39fd7bc5241d1",
+              "readwiseUrl": "https://read.readwise.io/read/01ktbxxr50k86jtqphyhdp1eyc",
+              "summary": "Ferrari smeekt petrolheads om deze auto níét te kopen. Echt waar: de marketingbaas zegt tegen z'n trouwe klanten dat de nieuwe elektrische Luce niet voor hen bedoeld is.",
+              "whyRead": "Raakt je interesse in technologie en media alleen als lichte roundup; er staan een paar aardige signalen in, maar te weinig diepte om actief te bewaren.",
+              "bestMoment": "ontspannen",
+              "tags": [
+                "archiveren",
+                "entertainment & pop culture",
+                "light-reading",
+                "technology"
+              ],
+              "alsoIn": [
+                "aaa-short-dutch-top-100",
+                "aaa-luchtig-nederlands-top-100"
+              ]
+            },
+            {
+              "position": 34,
               "id": "01ktxgxw7cxp7caqpe7w230ne4",
               "title": "Klagende supermarkten",
               "author": "Rode Cijfers",
@@ -4205,7 +4465,67 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 27,
+              "position": 35,
+              "id": "01kty3nmapqw3y4ypnbbgrm2t3",
+              "title": "De FIFA-idents zijn fantastisch",
+              "author": "Alexander Klöpping & Ernst-Jan Pfauth",
+              "siteName": "Substack",
+              "category": "email",
+              "language": "Nederlands",
+              "readingTime": "3 mins",
+              "readingMinutes": 3,
+              "wordCount": 727,
+              "publishedDate": "2026-06-12",
+              "savedDate": "2026-06-12T14:27:11.830000+00:00",
+              "imageUrl": null,
+              "sourceUrl": "mailto:reader-forwarded-email/f3e5d8fd83a1e9390912adb388785448",
+              "readwiseUrl": "https://read.readwise.io/read/01kty3nmapqw3y4ypnbbgrm2t3",
+              "summary": "Eerst een eed, dan het feestje.",
+              "whyRead": "Raakt licht je interesse in cultuur, sport en mediavormen: dit is een weekendlijstje met een paar interessante haakjes over Stanford, de sociale functie van feestjes en de politieke lading van WK's. De meerwaarde zit vooral in de links naar Simon Kuper, Derek Thompson en de Cruijff-docu.",
+              "bestMoment": "ontspannen",
+              "tags": [
+                "arts & culture",
+                "light-reading",
+                "sociology & social structures",
+                "sports & recreation"
+              ],
+              "alsoIn": [
+                "aaa-short-dutch-top-100",
+                "aaa-luchtig-nederlands-top-100"
+              ]
+            },
+            {
+              "position": 36,
+              "id": "01kvfsv00xheeeezwr4g8hm52h",
+              "title": "Dé telefoon zonder social media",
+              "author": "Alexander Klöpping & Ernst-Jan Pfauth",
+              "siteName": "Substack",
+              "category": "email",
+              "language": "Nederlands",
+              "readingTime": "4 mins",
+              "readingMinutes": 4,
+              "wordCount": 845,
+              "publishedDate": "2026-06-19",
+              "savedDate": "2026-06-19T11:21:41.662000+00:00",
+              "imageUrl": null,
+              "sourceUrl": "mailto:reader-forwarded-email/cf569162413724326ec904187b9c2931",
+              "readwiseUrl": "https://read.readwise.io/read/01kvfsv00xheeeezwr4g8hm52h",
+              "summary": "Elke week geven Alexander Klöpping en Ernst-Jan Pfauth vijf tips om het weekend mee in te gaan. Deze week schoof tv-verslaggever Alex Mazereeuw weer aan voor onze maandelijkse televisieaflevering.",
+              "whyRead": "Raakt je interesse in technologie, aandacht en Nederlandse mediacultuur: POM combineert een socialmediavrije telefoon met observaties over podcastzoekmachines en tv als spiegelpaleis. De meerwaarde zit in de signalen, niet in één diep betoog.",
+              "bestMoment": "ontspannen",
+              "tags": [
+                "arts & culture",
+                "entertainment & pop culture",
+                "light-reading",
+                "technology"
+              ],
+              "alsoIn": [
+                "aaa-short-dutch-top-100",
+                "aaa-luchtig-nederlands-top-100"
+              ]
+            },
+            {
+              "position": 37,
               "id": "01kt8j5yakk29s0cg4w3wnywn8",
               "title": "Deze zeven vragen geven je werk een ziel",
               "author": "Simon van Teutem",
@@ -4232,7 +4552,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 28,
+              "position": 38,
               "id": "01m02agqvzjjczjgfrjqd8qyqj",
               "title": "De enige AI-skill die er echt toe doet",
               "author": "AI Report",
@@ -4260,7 +4580,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 29,
+              "position": 39,
               "id": "01kzds50ngmgn4d833k9cj9dp2",
               "title": "Wie bepaalt of jouw werk “AI slop” is?",
               "author": "Saskia en Alinda van her/ai",
@@ -4288,7 +4608,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 30,
+              "position": 40,
               "id": "01kxfv166ahh2jwz1pr03kevc9",
               "title": "Stel kritische vragen bij het AI-evangelie",
               "author": "Sophie van Gool",
@@ -4314,7 +4634,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 31,
+              "position": 41,
               "id": "01kzr4dqeqcac4srvc6vvdppez",
               "title": "Hij wilde een plekje bij de spinningles. Zijn AI hackte de sportschool",
               "author": "AI Report",
@@ -4340,7 +4660,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 32,
+              "position": 42,
               "id": "01kzdbf87h4fzk1m5hz1zgh27t",
               "title": "De ideologische no-brainer voor het kabinet",
               "author": "Rode Cijfers",
@@ -4365,6 +4685,124 @@ window.TOP_ARTICLES = {
               ],
               "alsoIn": [
                 "aaa-short-dutch-top-100"
+              ]
+            },
+            {
+              "position": 43,
+              "id": "01kshptdc5njqdmnehkxr4arfb",
+              "title": "Een walgelijke man",
+              "author": "Fouad El Hamdaoui",
+              "siteName": "Substack",
+              "category": "email",
+              "language": "Nederlands",
+              "readingTime": "2 mins",
+              "readingMinutes": 2,
+              "wordCount": 462,
+              "publishedDate": "2026-05-26",
+              "savedDate": "2026-05-26T08:36:02.054000+00:00",
+              "imageUrl": null,
+              "sourceUrl": "mailto:reader-forwarded-email/a10f2d38f6ef61984f2a14c198105623",
+              "readwiseUrl": "https://read.readwise.io/read/01kshptdc5njqdmnehkxr4arfb",
+              "summary": "Ik-verteller beschrijft een depressieve man met suïcidale gedachten die ondanks een 'perfect plaatje' leeg en walgend is — de twist: de man is hijzelf, in de badkamerspiegel.",
+              "whyRead": "Kort en krachtig Nederlands prozastuk met een scherpe twist: een ogenschijnlijk objectieve blik op andermans depressie en doodsverlangen blijkt uiteindelijk een zelfportret in de spiegel. Sterke stem en beklijvende beeldspraak over hoe suïcidale gedachten de waarneming van de wereld vervormen.",
+              "bestMoment": "reflectief",
+              "tags": [
+                "arts & culture",
+                "health & wellness",
+                "light-reading",
+                "personal growth & life philosophy"
+              ],
+              "alsoIn": [
+                "aaa-short-dutch-top-100",
+                "aaa-luchtig-nederlands-top-100"
+              ]
+            },
+            {
+              "position": 44,
+              "id": "01kt7kjd4zr8ba59xcpfvmxdfz",
+              "title": "Week 14: kop en staart",
+              "author": "Holly en Roos",
+              "siteName": "Substack",
+              "category": "email",
+              "language": "Nederlands",
+              "readingTime": "5 mins",
+              "readingMinutes": 5,
+              "wordCount": 1193,
+              "publishedDate": "2026-06-03",
+              "savedDate": "2026-06-03T20:42:31.455000+00:00",
+              "imageUrl": null,
+              "sourceUrl": "mailto:reader-forwarded-email/ef98889d4b0749d6aa86a66140526e19",
+              "readwiseUrl": "https://read.readwise.io/read/01kt7kjd4zr8ba59xcpfvmxdfz",
+              "summary": "Ik loop weer eens achter. Met deze blogs dan.",
+              "whyRead": "Raakt je voorkeur voor reflectieve essays met persoonlijke anekdote: een wandelverslag dat eigenlijk gaat over vertragen, afhankelijkheid en het vinden van verhaalvorm.",
+              "bestMoment": "ontspannen",
+              "tags": [
+                "arts & culture",
+                "light-reading",
+                "personal growth & life philosophy"
+              ],
+              "alsoIn": [
+                "aaa-short-dutch-top-100",
+                "aaa-luchtig-nederlands-top-100"
+              ]
+            },
+            {
+              "position": 45,
+              "id": "01kwnpartfb70amv2acccwcsr1",
+              "title": "Vijf muggen in mijn klamboe",
+              "author": "Dorien.Bot",
+              "siteName": "Substack",
+              "category": "email",
+              "language": "Nederlands",
+              "readingTime": "1 min",
+              "readingMinutes": 1,
+              "wordCount": 200,
+              "publishedDate": "2026-07-04",
+              "savedDate": "2026-07-04T04:31:32.687000+00:00",
+              "imageUrl": null,
+              "sourceUrl": "mailto:reader-forwarded-email/84c36bd5582d3b64326bd54530a924e5",
+              "readwiseUrl": "https://read.readwise.io/read/01kwnpartfb70amv2acccwcsr1",
+              "summary": null,
+              "whyRead": "Zeer korte Nederlandstalige persoonlijke tekst; mogelijk charmant als miniatuur, maar te klein en contextarm voor de leesstapel. Vastleggen is genoeg, daarna archiveren.",
+              "bestMoment": "ontspannen",
+              "tags": [
+                "arts & culture",
+                "light-reading",
+                "personal growth & life philosophy"
+              ],
+              "alsoIn": [
+                "aaa-short-dutch-top-100",
+                "aaa-luchtig-nederlands-top-100"
+              ]
+            },
+            {
+              "position": 46,
+              "id": "01m01v1rmpqh6acc6t5t8cdy21",
+              "title": "Was ik maar iets meer robotesk",
+              "author": "Dorien.Bot",
+              "siteName": "Substack",
+              "category": "email",
+              "language": "Nederlands",
+              "readingTime": "1 min",
+              "readingMinutes": 1,
+              "wordCount": 202,
+              "publishedDate": "2026-08-15",
+              "savedDate": "2026-08-15T04:31:59.126000+00:00",
+              "imageUrl": null,
+              "sourceUrl": "mailto:reader-forwarded-email/2ec413816edffa53c071aa10b7604a1a",
+              "readwiseUrl": "https://read.readwise.io/read/01m01v1rmpqh6acc6t5t8cdy21",
+              "summary": null,
+              "whyRead": "Een luchtig, raak gedicht over productiviteitsdwang en aandacht. De humor werkt als kleine tegenstem bij de neiging om zelfs vijf minuten verwondering over een geparkeerde truck als verlies te behandelen.",
+              "bestMoment": "ontspannen",
+              "tags": [
+                "arts & culture",
+                "later",
+                "light-reading",
+                "personal growth & life philosophy"
+              ],
+              "alsoIn": [
+                "aaa-short-dutch-top-100",
+                "aaa-luchtig-nederlands-top-100"
               ]
             }
           ]
@@ -4446,6 +4884,66 @@ window.TOP_ARTICLES = {
             },
             {
               "position": 3,
+              "id": "01hzvrj5se18gb9dy70r9hcq2f",
+              "title": "🌲 When computers are less efficient than analog methods",
+              "author": "Eleanor Konik",
+              "siteName": "Obsidian Iceberg",
+              "category": "article",
+              "language": "Engels",
+              "readingTime": "7 mins",
+              "readingMinutes": 7,
+              "wordCount": 1754,
+              "publishedDate": null,
+              "savedDate": "2024-06-08T11:08:27.823000+00:00",
+              "imageUrl": "https://substackcdn.com/image/fetch/w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F148b9806-e16e-4471-af99-3e72c20af244_1344x896.png",
+              "sourceUrl": "https://www.eleanorkonik.com/p/when-computers-are-less-efficient?utm_source=post-email-title&publication_id=1974188&post_id=145140035&utm_campaign=email-post-title&isFreemail=true&r=1r0y5d&triedRedirect=true&utm_medium=email",
+              "readwiseUrl": "https://read.readwise.io/read/01hzvrj5se18gb9dy70r9hcq2f",
+              "summary": "Analog notetaking methods, like bullet journals and paper trackers, can be more effective and less distracting than using computers, especially in certain situations like meetings and personal organization. While digital tools offer many benefits, analog methods can provide a focused, efficient way to manage tasks and track important information without the distractions of technology. Embracing analog approaches, such as writing on paper, can be practical, mindful, and even beneficial for mental well-being in a world filled with digital distractions.",
+              "whyRead": "Raakt je interesse in PKM en kennisbeheer — een nuchtere, eerlijke verdediging van analoge methoden (bullet journals) zonder evangelisme, vanuit echte use cases.",
+              "bestMoment": "ontspannen",
+              "tags": [
+                "learning & meta-learning",
+                "personal growth & life philosophy",
+                "pkm & note-taking"
+              ],
+              "alsoIn": [
+                "aaa-top-10",
+                "aaa-top-100",
+                "aaa-short-top-100"
+              ]
+            },
+            {
+              "position": 4,
+              "id": "01j5b8c9ze5tvy3xr8axp67j8v",
+              "title": "🌲 Prompt engineering gave me empathy for my bosses",
+              "author": "Eleanor Konik",
+              "siteName": "Obsidian Iceberg",
+              "category": "article",
+              "language": "Engels",
+              "readingTime": "8 mins",
+              "readingMinutes": 8,
+              "wordCount": 1980,
+              "publishedDate": null,
+              "savedDate": "2024-08-15T14:51:58.319000+00:00",
+              "imageUrl": "https://substackcdn.com/image/fetch/w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F001c216a-1d58-4012-be52-2d2093793ea1_2688x1792.png",
+              "sourceUrl": "https://www.eleanorkonik.com/p/prompt-engineering-gave-me-empathy",
+              "readwiseUrl": "https://read.readwise.io/read/01j5b8c9ze5tvy3xr8axp67j8v",
+              "summary": "Prompt engineering helped the author improve communication with bosses by focusing on concise and impactful messaging. By understanding and addressing feedback, the author enhanced their conversational patterns and empathy towards others. Utilizing large language models for communication refinement highlighted the importance of clear, direct communication to convey key information effectively.",
+              "whyRead": "Raakt je interesse in PKM, AI en schrijven — Eleanor Konik (kwaliteitscontrole bij Readwise) ontdekt hoe prompt engineering haar inzicht geeft in hoe managers omgaan met communicatiepatronen.",
+              "bestMoment": "reflectief",
+              "tags": [
+                "ai & machine learning",
+                "learning & meta-learning",
+                "programming & software"
+              ],
+              "alsoIn": [
+                "aaa-top-10",
+                "aaa-top-100",
+                "aaa-short-top-100"
+              ]
+            },
+            {
+              "position": 5,
               "id": "01k7j6h8fj3ck0twxcq6abjm9v",
               "title": "4 Books to Self-Study Political Philosophy (as a Beginner)",
               "author": "Sam Rinko",
@@ -4475,7 +4973,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 4,
+              "position": 6,
               "id": "01k7pn06k2e9msrrk7d0c39bn6",
               "title": "Why & how I take reading notes by hand",
               "author": "Sam Rinko",
@@ -4505,7 +5003,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 5,
+              "position": 7,
               "id": "01k7pn0gythp69p15376f659gx",
               "title": "Interdisciplinary Deep Reads: Using 1 Classic Novel to Self-Study Multiple Humanities",
               "author": "Sam Rinko",
@@ -4535,7 +5033,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 6,
+              "position": 8,
               "id": "01kadvkbmp8yd44q125hyw9nrz",
               "title": "The paradox is that when I accept myself just as I am, I change",
               "author": "Henrik Karlsson",
@@ -4565,7 +5063,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 7,
+              "position": 9,
               "id": "01kbfj8h0ds5fz6sa9b7vdeh3n",
               "title": "Just and loving seeing",
               "author": "Henrik Karlsson",
@@ -4594,7 +5092,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 8,
+              "position": 10,
               "id": "01kdanxpg3e3pp8stwtmfr7p79",
               "title": "Taking your education into your own hands",
               "author": "Jared Henderson",
@@ -4616,66 +5114,6 @@ window.TOP_ARTICLES = {
                 "learning & meta-learning",
                 "personal growth & life philosophy",
                 "writing & essays"
-              ],
-              "alsoIn": [
-                "aaa-top-10",
-                "aaa-top-100",
-                "aaa-short-top-100"
-              ]
-            },
-            {
-              "position": 9,
-              "id": "01khxyazzfph3etb69en1bhzgw",
-              "title": "Stop Meeting Students Where They Are",
-              "author": "Walt Hunter",
-              "siteName": "The Atlantic",
-              "category": "article",
-              "language": null,
-              "readingTime": "9 mins",
-              "readingMinutes": 9,
-              "wordCount": 2298,
-              "publishedDate": "2026-02-02",
-              "savedDate": "2026-02-20T16:32:44.015000+00:00",
-              "imageUrl": "https://cdn.theatlantic.com/thumbor/oqqf3ICqMRxtYrJEU2MWryHodMk=/0x0:2000x1125/960x540/media/img/mt/2026/01/ChallengingBooks_3/original.png",
-              "sourceUrl": "https://www.theatlantic.com/ideas/2026/02/youth-reading-books-professors/685825/&ref=wiseup.readwise.io",
-              "readwiseUrl": "https://read.readwise.io/read/01khxyazzfph3etb69en1bhzgw",
-              "summary": "The author feared students wouldn’t read hard books, but assigned them anyway. The students did the reading, struggled, learned, and found their voices. Teachers should stop lowering the bar and assign whole books to build real readers.",
-              "whyRead": "Raakt je interesse in leren en onderwijs — een essay dat pleit voor hogere verwachtingen als daad van respect voor studenten.",
-              "bestMoment": "analytisch",
-              "tags": [
-                "learning & meta-learning",
-                "philosophy",
-                "writing & essays"
-              ],
-              "alsoIn": [
-                "aaa-top-10",
-                "aaa-top-100",
-                "aaa-short-top-100"
-              ]
-            },
-            {
-              "position": 10,
-              "id": "01kmdth41cmczffw0kk28vchct",
-              "title": "Differently free",
-              "author": "Henrik Karlsson",
-              "siteName": "Substack",
-              "category": "email",
-              "language": "Engels",
-              "readingTime": "6 mins",
-              "readingMinutes": 6,
-              "wordCount": 1587,
-              "publishedDate": "2026-03-23",
-              "savedDate": "2026-03-23T17:05:25.036000+00:00",
-              "imageUrl": null,
-              "sourceUrl": "mailto:reader-forwarded-email/d08c4e67be09d86a00a6922d55992dc2",
-              "readwiseUrl": "https://read.readwise.io/read/01kmdth41cmczffw0kk28vchct",
-              "summary": "Henrik travels from his remote island to Copenhagen to record a podcast with his friend Jackson, whose different kind of freedom helps him see new possibilities.  \nHe talks about his grandfather Nils, a quiet, selfless man who spent his life caring for others and shaped Henrik’s atheism and values.  \nHenrik believes each person has a unique contribution to make, and that we should use our lives to increase complexity, connection, and goodness in the universe.",
-              "whyRead": "Raakt je interesse in filosofie en essayistisch schrijven — Karlssons reflectie op 'differently free' mensen (Venkatesh Rao) is een elegant idee dat raakt aan vrijheid, blinde vlekken en de waarde van intellectuele gemeenschap.",
-              "bestMoment": "reflectief",
-              "tags": [
-                "personal growth & life philosophy",
-                "philosophy",
-                "political philosophy"
               ],
               "alsoIn": [
                 "aaa-top-10",
@@ -4753,6 +5191,66 @@ window.TOP_ARTICLES = {
             },
             {
               "position": 3,
+              "id": "01hzvrj5se18gb9dy70r9hcq2f",
+              "title": "🌲 When computers are less efficient than analog methods",
+              "author": "Eleanor Konik",
+              "siteName": "Obsidian Iceberg",
+              "category": "article",
+              "language": "Engels",
+              "readingTime": "7 mins",
+              "readingMinutes": 7,
+              "wordCount": 1754,
+              "publishedDate": null,
+              "savedDate": "2024-06-08T11:08:27.823000+00:00",
+              "imageUrl": "https://substackcdn.com/image/fetch/w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F148b9806-e16e-4471-af99-3e72c20af244_1344x896.png",
+              "sourceUrl": "https://www.eleanorkonik.com/p/when-computers-are-less-efficient?utm_source=post-email-title&publication_id=1974188&post_id=145140035&utm_campaign=email-post-title&isFreemail=true&r=1r0y5d&triedRedirect=true&utm_medium=email",
+              "readwiseUrl": "https://read.readwise.io/read/01hzvrj5se18gb9dy70r9hcq2f",
+              "summary": "Analog notetaking methods, like bullet journals and paper trackers, can be more effective and less distracting than using computers, especially in certain situations like meetings and personal organization. While digital tools offer many benefits, analog methods can provide a focused, efficient way to manage tasks and track important information without the distractions of technology. Embracing analog approaches, such as writing on paper, can be practical, mindful, and even beneficial for mental well-being in a world filled with digital distractions.",
+              "whyRead": "Raakt je interesse in PKM en kennisbeheer — een nuchtere, eerlijke verdediging van analoge methoden (bullet journals) zonder evangelisme, vanuit echte use cases.",
+              "bestMoment": "ontspannen",
+              "tags": [
+                "learning & meta-learning",
+                "personal growth & life philosophy",
+                "pkm & note-taking"
+              ],
+              "alsoIn": [
+                "aaa-top-10",
+                "aaa-top-100",
+                "aaa-short-top-10"
+              ]
+            },
+            {
+              "position": 4,
+              "id": "01j5b8c9ze5tvy3xr8axp67j8v",
+              "title": "🌲 Prompt engineering gave me empathy for my bosses",
+              "author": "Eleanor Konik",
+              "siteName": "Obsidian Iceberg",
+              "category": "article",
+              "language": "Engels",
+              "readingTime": "8 mins",
+              "readingMinutes": 8,
+              "wordCount": 1980,
+              "publishedDate": null,
+              "savedDate": "2024-08-15T14:51:58.319000+00:00",
+              "imageUrl": "https://substackcdn.com/image/fetch/w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F001c216a-1d58-4012-be52-2d2093793ea1_2688x1792.png",
+              "sourceUrl": "https://www.eleanorkonik.com/p/prompt-engineering-gave-me-empathy",
+              "readwiseUrl": "https://read.readwise.io/read/01j5b8c9ze5tvy3xr8axp67j8v",
+              "summary": "Prompt engineering helped the author improve communication with bosses by focusing on concise and impactful messaging. By understanding and addressing feedback, the author enhanced their conversational patterns and empathy towards others. Utilizing large language models for communication refinement highlighted the importance of clear, direct communication to convey key information effectively.",
+              "whyRead": "Raakt je interesse in PKM, AI en schrijven — Eleanor Konik (kwaliteitscontrole bij Readwise) ontdekt hoe prompt engineering haar inzicht geeft in hoe managers omgaan met communicatiepatronen.",
+              "bestMoment": "reflectief",
+              "tags": [
+                "ai & machine learning",
+                "learning & meta-learning",
+                "programming & software"
+              ],
+              "alsoIn": [
+                "aaa-top-10",
+                "aaa-top-100",
+                "aaa-short-top-10"
+              ]
+            },
+            {
+              "position": 5,
               "id": "01k7j6h8fj3ck0twxcq6abjm9v",
               "title": "4 Books to Self-Study Political Philosophy (as a Beginner)",
               "author": "Sam Rinko",
@@ -4782,7 +5280,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 4,
+              "position": 6,
               "id": "01k7pn06k2e9msrrk7d0c39bn6",
               "title": "Why & how I take reading notes by hand",
               "author": "Sam Rinko",
@@ -4812,7 +5310,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 5,
+              "position": 7,
               "id": "01k7pn0gythp69p15376f659gx",
               "title": "Interdisciplinary Deep Reads: Using 1 Classic Novel to Self-Study Multiple Humanities",
               "author": "Sam Rinko",
@@ -4842,7 +5340,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 6,
+              "position": 8,
               "id": "01kadvkbmp8yd44q125hyw9nrz",
               "title": "The paradox is that when I accept myself just as I am, I change",
               "author": "Henrik Karlsson",
@@ -4872,7 +5370,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 7,
+              "position": 9,
               "id": "01kbfj8h0ds5fz6sa9b7vdeh3n",
               "title": "Just and loving seeing",
               "author": "Henrik Karlsson",
@@ -4901,7 +5399,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 8,
+              "position": 10,
               "id": "01kdanxpg3e3pp8stwtmfr7p79",
               "title": "Taking your education into your own hands",
               "author": "Jared Henderson",
@@ -4931,7 +5429,38 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 9,
+              "position": 11,
+              "id": "01kf0p1x4zzc3hqf55wqyngafr",
+              "title": "On the preparations before writing an essay",
+              "author": "Henrik Karlsson",
+              "siteName": "Substack",
+              "category": "email",
+              "language": "Engels",
+              "readingTime": "8 mins",
+              "readingMinutes": 8,
+              "wordCount": 2007,
+              "publishedDate": "2026-01-15",
+              "savedDate": "2026-01-15T11:18:35.423000+00:00",
+              "imageUrl": null,
+              "sourceUrl": "mailto:reader-forwarded-email/be26eefff765a8e8d36d86b94368e5ea",
+              "readwiseUrl": "https://read.readwise.io/read/01kf0p1x4zzc3hqf55wqyngafr",
+              "summary": "- Treat essay prep like filming a doc: gather lots of rough, detailed prose before editing.\n- He mines journals, talks, quotes, and AI searches, then rapidly tests openings and stories.\n- Example and updates: one essay fused taped stories with an old Aristotle draft; there’s a fierce island storm, a planned Andalucia trip, a found Grothendieck translation, and he’s reading Magic Mountain.",
+              "whyRead": "Henrik Karlsson over de voorbereiding op essay schrijven — waardevol voor je interesse in schrijven, creativiteit en kennisverwerking.",
+              "bestMoment": "geconcentreerd",
+              "tags": [
+                "ai & machine learning",
+                "arts & culture",
+                "learning & meta-learning",
+                "light-reading"
+              ],
+              "alsoIn": [
+                "aaa-top-100",
+                "aaa-luchtig-top-10",
+                "aaa-luchtig-top-100"
+              ]
+            },
+            {
+              "position": 12,
               "id": "01khxyazzfph3etb69en1bhzgw",
               "title": "Stop Meeting Students Where They Are",
               "author": "Walt Hunter",
@@ -4955,13 +5484,11 @@ window.TOP_ARTICLES = {
                 "writing & essays"
               ],
               "alsoIn": [
-                "aaa-top-10",
-                "aaa-top-100",
-                "aaa-short-top-10"
+                "aaa-top-100"
               ]
             },
             {
-              "position": 10,
+              "position": 13,
               "id": "01kmdth41cmczffw0kk28vchct",
               "title": "Differently free",
               "author": "Henrik Karlsson",
@@ -4985,13 +5512,11 @@ window.TOP_ARTICLES = {
                 "political philosophy"
               ],
               "alsoIn": [
-                "aaa-top-10",
-                "aaa-top-100",
-                "aaa-short-top-10"
+                "aaa-top-100"
               ]
             },
             {
-              "position": 11,
+              "position": 14,
               "id": "01krm2x81z150qk5a5y9mezss5",
               "title": "How to Prioritize Your Intellectual Life",
               "author": "andrewbharker.substack.com",
@@ -5019,7 +5544,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 12,
+              "position": 15,
               "id": "01ks96dy2nfby7cyd152ev2a9k",
               "title": "Bureaucracy Isn't Broken. That's the Problem.",
               "author": "Sven Brodmerkel | Off-Script At Work",
@@ -5047,7 +5572,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 13,
+              "position": 16,
               "id": "01kst1g8cff3ab77qteg0q834j",
               "title": "‘Metrics create hermeneutical injustice'",
               "author": "Jared Henderson from Commonplace Philosophy",
@@ -5075,7 +5600,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 14,
+              "position": 17,
               "id": "01kysnmckrgernh72bvvz2eprz",
               "title": "Minister van Digitale Zaken: hoe het kan werken",
               "author": "berthub.eu",
@@ -5107,7 +5632,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 15,
+              "position": 18,
               "id": "01j60f108dfd1k8q12ah4cmp16",
               "title": "Hunting",
               "author": "Eleanor Konik",
@@ -5135,7 +5660,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 16,
+              "position": 19,
               "id": "01j8s9z9xg4shgce5z167zc7fn",
               "title": "📰 Food as Currency - by Eleanor Konik - Manuscriptions\n📰 Food as Currency",
               "author": "Eleanor Konik",
@@ -5163,7 +5688,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 17,
+              "position": 20,
               "id": "01jjmt3derk62gvm51m286870b",
               "title": "🎓 On Famines: why and how they happen. To who?",
               "author": "Eleanor Konik",
@@ -5191,7 +5716,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 18,
+              "position": 21,
               "id": "01jjxdnzz04ees7fytca2rnntw",
               "title": "🎓 Maritime Empires",
               "author": "Eleanor Konik",
@@ -5218,7 +5743,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 19,
+              "position": 22,
               "id": "01k1mhw46shwzk87214g7gtc9w",
               "title": "Het begin van een oplossing",
               "author": "Kees Verhoeven",
@@ -5249,7 +5774,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 20,
+              "position": 23,
               "id": "01k3wpn5ak9v4pmtc85h462cav",
               "title": "On the pleasure of reading private notebooks",
               "author": "Henrik Karlsson",
@@ -5279,7 +5804,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 21,
+              "position": 24,
               "id": "01k72qx64tdvkryenrbd5g81px",
               "title": "The Dire State of Contemporary Western Philosophy",
               "author": "Nathan Ormond",
@@ -5307,7 +5832,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 22,
+              "position": 25,
               "id": "01k7j6j6mdje8x3v1jt8hqaba4",
               "title": "The Mimetic Trap",
               "author": "The One Percent Rule",
@@ -5335,7 +5860,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 23,
+              "position": 26,
               "id": "01k7qbgbanjkbvetnkfd47vkrz",
               "title": "How I wrote \"Looking for Alice\"",
               "author": "Henrik Karlsson",
@@ -5365,7 +5890,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 24,
+              "position": 27,
               "id": "01k7qbgpmxd9gskhw16jx5b8yk",
               "title": "Popular education in Sweden: much more than you wanted to know",
               "author": "Henrik Karlsson",
@@ -5393,7 +5918,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 25,
+              "position": 28,
               "id": "01k7xjhe96qxhs9bkr4qahjk09",
               "title": "How to Become as Well-Read as John Adams: 8 Tips From his Reading Life",
               "author": "Samuel",
@@ -5421,7 +5946,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 26,
+              "position": 29,
               "id": "01k8v9cz0ah2x4qddn265e4cnt",
               "title": "Everything Is Television",
               "author": "Derek Thompson",
@@ -5451,7 +5976,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 27,
+              "position": 30,
               "id": "01kcb7n6kftwmca7m6dgprpkwf",
               "title": "Anarchism, explained",
               "author": "Andrew Lee",
@@ -5478,7 +6003,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 28,
+              "position": 31,
               "id": "01kd1c7k90p8p5bknmbm09abwv",
               "title": "The World in Which We Live - Nassim Nicholas Taleb",
               "author": "Substack",
@@ -5506,7 +6031,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 29,
+              "position": 32,
               "id": "01kdnzthe611p0c38ts9j702s2",
               "title": "De verleiding van de kettingzaag",
               "author": "NRC Handelsblad",
@@ -5537,7 +6062,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 30,
+              "position": 33,
               "id": "01kkh2jn3p93nsh9nvbpe1w0vk",
               "title": "Rugged Spirituality",
               "author": "Andrew Taggart",
@@ -5565,7 +6090,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 31,
+              "position": 34,
               "id": "01km0ha2tggzmd2y5yjpqbycj5",
               "title": "🎓 On Geldings and the 'Natural' Social Order of Horses",
               "author": "Eleanor Konik",
@@ -5593,7 +6118,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 32,
+              "position": 35,
               "id": "01kmfmvdnqhec7daqp6x47pr85",
               "title": "On the proper use of arguments",
               "author": "Massimo Pigliucci at Figs in Winter",
@@ -5620,7 +6145,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 33,
+              "position": 36,
               "id": "01kmr5kh5wjyr899wkg9skt4f7",
               "title": "Simone Weil Explains the Manosphere",
               "author": "Joe from Unsolicited Advice",
@@ -5649,7 +6174,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 34,
+              "position": 37,
               "id": "01kmwmt7f9jtm6j0gb6pnda9zk",
               "title": "Philosophy of Science",
               "author": "Joseph Rahi",
@@ -5677,7 +6202,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 35,
+              "position": 38,
               "id": "01kqsnmx2rdcaktjvwsjmmq2cn",
               "title": "The games we want to be playing",
               "author": "Jared Henderson from Commonplace Philosophy",
@@ -5705,7 +6230,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 36,
+              "position": 39,
               "id": "01krkbe7701j87vmw7wrs54h8m",
               "title": "They Are Putting A Black Hole Inside Your Head",
               "author": "Paul Musso",
@@ -5733,7 +6258,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 37,
+              "position": 40,
               "id": "01krn1jdcn6b450yv1z0j92tz3",
               "title": "The Radical Sunzi",
               "author": "scholars-stage.org",
@@ -5762,7 +6287,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 38,
+              "position": 41,
               "id": "01kt72hwt9asrzwwx70ybxyabe",
               "title": "How Love Became Just Another Thing to Optimize",
               "author": "Philosophize This! from Philosophize This!",
@@ -5790,7 +6315,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 39,
+              "position": 42,
               "id": "01kvarejkjdc6y2cjp2d0ewgkd",
               "title": "The Desecration of Man - Say No to Nietzsche",
               "author": "R.W. Richey from We Are Not Saved",
@@ -5820,7 +6345,44 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 40,
+              "position": 43,
+              "id": "01kvcgsfekyqqc5b9t3nmrge8m",
+              "title": "Hoera, het is Waterloodag!",
+              "author": "De Ongelooflijke",
+              "siteName": "Substack",
+              "category": "email",
+              "language": "Nederlands",
+              "readingTime": "8 mins",
+              "readingMinutes": 8,
+              "wordCount": 1935,
+              "publishedDate": "2026-06-18",
+              "savedDate": "2026-06-18T04:45:51.444000+00:00",
+              "imageUrl": null,
+              "sourceUrl": "mailto:reader-forwarded-email/9063dc73da1b3f69c5087334680b7b3a",
+              "readwiseUrl": "https://read.readwise.io/read/01kvcgsfekyqqc5b9t3nmrge8m",
+              "summary": "Meer dan honderd jaar was 18 juni in Nederland een nationale feestdag, ter herinnering aan de Slag bij Waterloo (1815): de dag waarop Napoleon definitief werd verslagen en de geschiedenis van Nederland en Europa een beslissende wending nam.",
+              "whyRead": "Raakt je interesse in Europese geschiedenis en collectief geheugen: zeven veldslagen worden niet alleen militair, maar ook cultureel en identitair geduid. De meerwaarde zit in de combinatie van geschiedenis, mythevorming en historische verbeelding.",
+              "bestMoment": "ontspannen",
+              "tags": [
+                "arts & culture",
+                "history",
+                "later",
+                "light-reading",
+                "sociology & social structures"
+              ],
+              "alsoIn": [
+                "aaa-top-100",
+                "aaa-dutch-top-10",
+                "aaa-dutch-top-100",
+                "aaa-short-dutch-top-10",
+                "aaa-short-dutch-top-100",
+                "aaa-luchtig-top-100",
+                "aaa-luchtig-nederlands-top-10",
+                "aaa-luchtig-nederlands-top-100"
+              ]
+            },
+            {
+              "position": 44,
               "id": "01kvh7ec1tezr2vy9bqgsm6an4",
               "title": "Is There a Science of Writing?",
               "author": "Carl Hendrick from The Learning Dispatch",
@@ -5850,7 +6412,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 41,
+              "position": 45,
               "id": "01kvjbgrqsftb77gs496c0p12t",
               "title": "If the First Apocalypse Doesn’t Get You, the Second One Will",
               "author": "Miller’s Book Review 📚",
@@ -5880,7 +6442,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 42,
+              "position": 46,
               "id": "01kvtqy4rffwdb1t73t37netda",
               "title": "Antwoorden op vragen die niet gesteld worden",
               "author": "Kauthar",
@@ -5908,7 +6470,38 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 43,
+              "position": 47,
+              "id": "01kx66q5d0pg8whe75n7qr82td",
+              "title": "Count Binface and the Politics of Ridicule",
+              "author": "Brian Klaas",
+              "siteName": "Substack",
+              "category": "email",
+              "language": "Engels",
+              "readingTime": "8 mins",
+              "readingMinutes": 8,
+              "wordCount": 1940,
+              "publishedDate": "2026-07-10",
+              "savedDate": "2026-07-10T14:25:46.912000+00:00",
+              "imageUrl": null,
+              "sourceUrl": "mailto:reader-forwarded-email/7154c0dec7aab7aedef90cb1e3549036",
+              "readwiseUrl": "https://read.readwise.io/read/01kx66q5d0pg8whe75n7qr82td",
+              "summary": "Thanks for reading The Garden of Forking Paths. This edition is for everyone, but if you value my writing, please consider upgrading to a paid subscription for just $5/month or $50/year.",
+              "whyRead": "Raakt je interesse in politiek als cultuurvorm: Brian Klaas gebruikt Count Binface waarschijnlijk om spot, absurditeit en macht serieus te analyseren. De meerwaarde zit in ridicule als democratisch of populistisch instrument.",
+              "bestMoment": "ontspannen",
+              "tags": [
+                "arts & culture",
+                "current affairs & politics",
+                "later",
+                "light-reading",
+                "political philosophy"
+              ],
+              "alsoIn": [
+                "aaa-top-100",
+                "aaa-luchtig-top-100"
+              ]
+            },
+            {
+              "position": 48,
               "id": "01kxdxaytaf6tm6ntqnc9vdw18",
               "title": "Apophenia and Manufactured Desire",
               "author": "Jared Henderson from Commonplace Philosophy",
@@ -5935,7 +6528,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 44,
+              "position": 49,
               "id": "01kxpg8mpkegghvbz5w71ne86v",
               "title": "Against \"Stochastic Terrorism\"",
               "author": "Astral Codex Ten",
@@ -5962,7 +6555,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 45,
+              "position": 50,
               "id": "01kxy1qnae4npandc4x9mv4aw0",
               "title": "To Understand Elon Musk, You Have to Understand This ’60s Sci-Fi Novel",
               "author": "jacobin.com",
@@ -5993,7 +6586,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 46,
+              "position": 51,
               "id": "01kxzghzvbjtnr20f8vwmwc8s5",
               "title": "Letters of Last Resort",
               "author": "Brian Klaas",
@@ -6020,7 +6613,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 47,
+              "position": 52,
               "id": "01ky6y112ahhdfz7zdrw7w1jkc",
               "title": "Fish farts, dead elephants, and total institutions in wildlife conservation",
               "author": "projectcroak.com",
@@ -6049,7 +6642,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 48,
+              "position": 53,
               "id": "01ky7qe9p9qwtpk49bzc4pqqhk",
               "title": "Normal Accidents: Living with High-Risk Technologies",
               "author": "blog.jcx.au",
@@ -6077,7 +6670,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 49,
+              "position": 54,
               "id": "01ky7y54f3cb0xcxn9nyexpkzw",
               "title": "When philosophers and the public disagree",
               "author": "Jared Henderson from Commonplace Philosophy",
@@ -6104,7 +6697,38 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 50,
+              "position": 55,
+              "id": "01kycfev2jfr2v5x5pqr2scxz7",
+              "title": "How to Win a Billion Dollars and Ruin Your Life",
+              "author": "Miller’s Book Review 📚",
+              "siteName": "Substack",
+              "category": "email",
+              "language": "Engels",
+              "readingTime": "5 mins",
+              "readingMinutes": 5,
+              "wordCount": 1249,
+              "publishedDate": "2026-07-25",
+              "savedDate": "2026-07-25T11:09:39.795000+00:00",
+              "imageUrl": null,
+              "sourceUrl": "mailto:reader-forwarded-email/c3fe10e11ea986437105f911800c098d",
+              "readwiseUrl": "https://read.readwise.io/read/01kycfev2jfr2v5x5pqr2scxz7",
+              "summary": "The great myths are always with us. “The ‘Iliad’ is only great because all life is a battle, the ‘Odyssey’ because all life is a journey, the Book of Job because all life is a riddle,” said G.",
+              "whyRead": "Raakt je interesse in fictie, mythes en cultuurkritiek: deze review laat zien hoe een hedendaagse satire Icarus, Phaethon en Cassandra gebruikt voor rijkdom, status en politieke ambitie.",
+              "bestMoment": "ontspannen",
+              "tags": [
+                "arts & culture",
+                "fiction",
+                "later",
+                "light-reading",
+                "political philosophy"
+              ],
+              "alsoIn": [
+                "aaa-top-100",
+                "aaa-luchtig-top-100"
+              ]
+            },
+            {
+              "position": 56,
               "id": "01kysnj4rgn2xvk4wh8pqj831w",
               "title": "The Disappearing Body",
               "author": "plough.com",
@@ -6132,7 +6756,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 51,
+              "position": 57,
               "id": "01kysnn7synbp4djg1ph3zrhdh",
               "title": "It is no longer safe to move our governments and societies to US clouds",
               "author": "berthub.eu",
@@ -6160,7 +6784,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 52,
+              "position": 58,
               "id": "01kyxvjcj0396b5z5w8bcz634q",
               "title": "De atheïst die de bekendste verdediger van het christendom werd",
               "author": "De Ongelooflijke",
@@ -6192,7 +6816,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 53,
+              "position": 59,
               "id": "01kyz1s71etfwt2wgr2zhqrr4k",
               "title": "Who Was the Last Roman Emperor?",
               "author": "Evan Þ from Papyrus Rampant",
@@ -6214,12 +6838,10 @@ window.TOP_ARTICLES = {
                 "history",
                 "political philosophy"
               ],
-              "alsoIn": [
-                "aaa-top-100"
-              ]
+              "alsoIn": []
             },
             {
-              "position": 54,
+              "position": 60,
               "id": "01kz0k2hbcfqf2z9fpk12rqtz5",
               "title": "De talenten-tax",
               "author": "Jona van Loenen",
@@ -6241,12 +6863,10 @@ window.TOP_ARTICLES = {
                 "economics",
                 "political philosophy"
               ],
-              "alsoIn": [
-                "aaa-top-100"
-              ]
+              "alsoIn": []
             },
             {
-              "position": 55,
+              "position": 61,
               "id": "01kzakhrdw8m862yfhsmva3z11",
               "title": "Open Questions On Open Weights",
               "author": "Astral Codex Ten",
@@ -6268,12 +6888,10 @@ window.TOP_ARTICLES = {
                 "ai ethics & society",
                 "political philosophy"
               ],
-              "alsoIn": [
-                "aaa-top-100"
-              ]
+              "alsoIn": []
             },
             {
-              "position": 56,
+              "position": 62,
               "id": "01kzeczgpr5fr1w5znnf4m2b9v",
               "title": "A Lebanese Technology Transfer",
               "author": "Nassim Nicholas Taleb",
@@ -6296,12 +6914,10 @@ window.TOP_ARTICLES = {
                 "history",
                 "philosophy"
               ],
-              "alsoIn": [
-                "aaa-top-100"
-              ]
+              "alsoIn": []
             },
             {
-              "position": 57,
+              "position": 63,
               "id": "01kzjk22zxkgrvftgdtdvj01rq",
               "title": "Twintig seconden waar ik me diep voor schaam",
               "author": "Jona van Loenen",
@@ -6325,7 +6941,6 @@ window.TOP_ARTICLES = {
                 "philosophy"
               ],
               "alsoIn": [
-                "aaa-top-100",
                 "aaa-dutch-top-10",
                 "aaa-dutch-top-100",
                 "aaa-short-dutch-top-10",
@@ -6333,7 +6948,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 58,
+              "position": 64,
               "id": "01kzp09j3vmc15v2atpvpkbrpe",
               "title": "The Eotechnic Phase",
               "author": "Jared Henderson from Commonplace Philosophy",
@@ -6356,12 +6971,10 @@ window.TOP_ARTICLES = {
                 "philosophy",
                 "technology"
               ],
-              "alsoIn": [
-                "aaa-top-100"
-              ]
+              "alsoIn": []
             },
             {
-              "position": 59,
+              "position": 65,
               "id": "01kztvesqhd0vhbkmcxqrevkhs",
               "title": "🎓 On the Harem Origin Story of Turkish Coffee Reading",
               "author": "Eleanor Konik",
@@ -6384,12 +6997,10 @@ window.TOP_ARTICLES = {
                 "later",
                 "sociology & social structures"
               ],
-              "alsoIn": [
-                "aaa-top-100"
-              ]
+              "alsoIn": []
             },
             {
-              "position": 60,
+              "position": 66,
               "id": "01kzyk5xjcvj2qxd5hm0mbrrp2",
               "title": "How to self-educate with the heart and ferocity of a 19th-century cotton-weaver",
               "author": "Sam @ Knowledge Lust",
@@ -6412,12 +7023,10 @@ window.TOP_ARTICLES = {
                 "learning & meta-learning",
                 "philosophy"
               ],
-              "alsoIn": [
-                "aaa-top-100"
-              ]
+              "alsoIn": []
             },
             {
-              "position": 61,
+              "position": 67,
               "id": "01m059t4kq0fgjsx21x28nbdqk",
               "title": "Freedom and Happiness (Review of ‘We’ by Yevgeny Zamyatin)",
               "author": "orwellfoundation.com",
@@ -6442,12 +7051,11 @@ window.TOP_ARTICLES = {
                 "totalitarianism & fascism"
               ],
               "alsoIn": [
-                "aaa-top-100",
                 "aaa-luchtig-top-100"
               ]
             },
             {
-              "position": 62,
+              "position": 68,
               "id": "01m059t7cjgvc214sac3e4z08x",
               "title": "Freedom of the Park",
               "author": "orwellfoundation.com",
@@ -6469,12 +7077,10 @@ window.TOP_ARTICLES = {
                 "history",
                 "political philosophy"
               ],
-              "alsoIn": [
-                "aaa-top-100"
-              ]
+              "alsoIn": []
             },
             {
-              "position": 63,
+              "position": 69,
               "id": "01m059thh2ytr4v45ebz778hxw",
               "title": "In Front of Your Nose",
               "author": "orwellfoundation.com",
@@ -6499,7 +7105,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 64,
+              "position": 70,
               "id": "01m059tpnqyq5yy3kq6xrmf1v5",
               "title": "My Country Right or Left",
               "author": "orwellfoundation.com",
@@ -6524,7 +7130,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 65,
+              "position": 71,
               "id": "01m059tzwnjdjtmteh5jpa7bxz",
               "title": "Pleasure Spots",
               "author": "orwellfoundation.com",
@@ -6553,7 +7159,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 66,
+              "position": 72,
               "id": "01m059vwxfv3d1n8rterw19d6a",
               "title": "You and the Atom Bomb",
               "author": "orwellfoundation.com",
@@ -6578,7 +7184,63 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 67,
+              "position": 73,
+              "id": "01m0f29337jsph1jwqq3njdbkc",
+              "title": "In de bioscoop blijkt dat we eer belangrijker vinden dan je zou denken",
+              "author": "nrc.nl",
+              "siteName": "NRC",
+              "category": "article",
+              "language": null,
+              "readingTime": "7 mins",
+              "readingMinutes": 7,
+              "wordCount": 1710,
+              "publishedDate": "2026-08-14",
+              "savedDate": "2026-08-20T07:48:26.855000+00:00",
+              "imageUrl": "https://images.nrc.nl/ZTi2r5x5jLrJe9JXb8qjYTCWqgg=/1200x627/smart/filters:no_upscale()/s3/static.nrc.nl/wp-content/uploads/2026/08/13085908/web-140826OPI_2035858516_Opinie_debat_BasHeijne_Odysseus_Cyprian.jpg",
+              "sourceUrl": "https://www.nrc.nl/nieuws/2026/08/14/in-de-bioscoop-blijkt-dat-we-eer-belangrijker-vinden-dan-je-zou-denken-a4934331",
+              "readwiseUrl": "https://read.readwise.io/read/01m0f29337jsph1jwqq3njdbkc",
+              "summary": "Helden: Kranten raken niet uitgeschreven over The Odyssey, terwijl in Frankrijk een epos over Charles de Gaulle een grote hit is. De overeenkomst, schrijft Bas Heijne, is dat beide werken óók gaan over het schurend onbehagen van onze tijd.",
+              "whyRead": "Nederlandstalig essay van Bas Heijne (NRC) dat raakt aan je interesse in politieke filosofie en cultuurkritiek — een scherpe analyse van \"eer\" en moreel kapitaal via twee actuele films (Nolans Odyssey, Baudry's De Gaulle), met een directe lijn naar hedendaags politiek opportunisme.",
+              "bestMoment": "analytisch",
+              "tags": [
+                "arts & culture",
+                "current affairs & politics",
+                "light-reading",
+                "linked-from-readwise",
+                "political philosophy"
+              ],
+              "alsoIn": [
+                "aaa-luchtig-top-100"
+              ]
+            },
+            {
+              "position": 74,
+              "id": "01m0f29ch1s56e1xcc8fjkq8q2",
+              "title": "Why We Dislike AI Writing",
+              "author": "gilescrouch.substack.com",
+              "siteName": "substack.com",
+              "category": "article",
+              "language": null,
+              "readingTime": "6 mins",
+              "readingMinutes": 6,
+              "wordCount": 1564,
+              "publishedDate": "2026-06-01",
+              "savedDate": "2026-08-20T07:48:36.513000+00:00",
+              "imageUrl": "https://substackcdn.com/image/fetch/$s_!N4CJ!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F94026ec2-d990-44a6-8f87-f43f483a413a_546x445.png",
+              "sourceUrl": "https://gilescrouch.substack.com/p/why-we-dislike-ai-writing",
+              "readwiseUrl": "https://read.readwise.io/read/01m0f29ch1s56e1xcc8fjkq8q2",
+              "summary": "AI writing might be fluent, but it isn’t, well, “us” and other reasons we don’t care for AI written content. In fact, it’s ancient.",
+              "whyRead": "Raakt direct je interesse in AI-ethiek en filosofie — een origineel essay dat via Marcel Mauss' gift-economytheorie en Mary Douglas' \"matter out of place\" verklaart waarom we AI-geschreven tekst afwijzen, ook als we hem niet kunnen detecteren.",
+              "bestMoment": "analytisch",
+              "tags": [
+                "ai ethics & society",
+                "linked-from-readwise",
+                "philosophy"
+              ],
+              "alsoIn": []
+            },
+            {
+              "position": 75,
               "id": "01hy0x9z444qrsk7bb6acc5svn",
               "title": "Reading challenging books with kids is fun and probably useful",
               "author": "Henrik Karlsson",
@@ -6604,7 +7266,117 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 68,
+              "position": 76,
+              "id": "01j2dfz6ypvj2efevyamk72ga3",
+              "title": "🌲 Takeaways on efficiency, passive learning, & optimization",
+              "author": "Eleanor Konik",
+              "siteName": "engineerscodex.com",
+              "category": "article",
+              "language": "Engels",
+              "readingTime": "7 mins",
+              "readingMinutes": 7,
+              "wordCount": 1661,
+              "publishedDate": null,
+              "savedDate": "2024-07-10T04:56:01.238000+00:00",
+              "imageUrl": "https://substackcdn.com/image/fetch/w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fbd4126e3-19b2-459d-bc38-a3762eae05f4_1344x896.png",
+              "sourceUrl": "https://email.mg-d1.substack.com/c/eJxs0E0O2yAQBeDTmJ0t_rEXLLrJNawBJgkKBpefRL59pVRVu-h6NO99eh46Pkq9bPOl4uygYZjH2TAlEqzYHF29JmiZ4VRJxZUkeEBM-wMzVugYduh_r4KbjTwtDUEYCt5rA3eNmiojtg2oBqGVkY5EyymX1NCNGSYZX8TigxPAFeVGinVTuDxZ_qnkiJOkx2MObGnDtQ7-tfhykNj2e8WvxfY6kCT77P1sk_gx8dvEb5_PZ8GEkEt9lRy_XxO_nRO_dXghfOBqc8kz3u_RR8z-mk9oLb5xTgg1x_wg53C7L8cxcuzXjhlcwvC77hwuRQ89lrzHYNlmJFtXUu0f5SRpZ7QtOZE2XCgHxGz_BZH-v9FHw_oNpGrVlGpF3pb_CgAA__8XNIui",
+              "readwiseUrl": "https://read.readwise.io/read/01j2dfz6ypvj2efevyamk72ga3",
+              "summary": "The text discusses the importance of efficiency, passive learning, and optimization in personal productivity and note-taking methods. The author emphasizes the value of learning passively, front-loading knowledge, and optimizing note-taking processes to suit individual needs and goals. It also highlights the idea that notes should focus on storing valuable insights and information that may not be easily found through online searches.",
+              "whyRead": "Raakt je interesse in PKM; een persoonlijke reflectie die de obsessie met systemen relativeert en echt beschrijft hoe een werkend systeem eruitziet.",
+              "bestMoment": "reflectief",
+              "tags": [
+                "learning & meta-learning",
+                "pkm & note-taking",
+                "tools & workflows"
+              ],
+              "alsoIn": []
+            },
+            {
+              "position": 77,
+              "id": "01j421m304fbn5rwfh0a9bpzp3",
+              "title": "Fear as a Game",
+              "author": "Cheri Lucas Rowlands",
+              "siteName": "Longreads",
+              "category": "article",
+              "language": "Engels",
+              "readingTime": "2 mins",
+              "readingMinutes": 2,
+              "wordCount": 322,
+              "publishedDate": "2024-07-29",
+              "savedDate": "2024-07-30T14:45:01.572000+00:00",
+              "imageUrl": "",
+              "sourceUrl": "https://longreads.com/2024/07/29/fear-as-a-game/?mc_cid=0ae1072586",
+              "readwiseUrl": "https://read.readwise.io/read/01j421m304fbn5rwfh0a9bpzp3",
+              "summary": "The essay \"Fear as a Game\" by Elisa Gabbert explores why some people enjoy thrilling and risky experiences, like roller coasters and scary movies. Gabbert reflects on her own fear of heights and distinguishes between anxiety and fear, noting that fear can be activating while anxiety often leads to paralysis. She wonders if experiencing fear from a distance could be beneficial, as it allows us to confront real threats without immediate danger.",
+              "whyRead": "Raakt je interesse in essays met een persoonlijke stem — Elisa Gabbert reflecteert over angst, spel en luxe-angst als filosofisch fenomeen.",
+              "bestMoment": "reflectief",
+              "tags": [
+                "arts & culture",
+                "light-reading",
+                "personal growth & life philosophy",
+                "writing & essays"
+              ],
+              "alsoIn": [
+                "aaa-luchtig-top-100"
+              ]
+            },
+            {
+              "position": 78,
+              "id": "01j6ft003zzdp1gdw7j9qc1dnr",
+              "title": "🌲 The Value of Consistent Naming Conventions\n🌲 The Value of Consistent Naming Conventions",
+              "author": "Eleanor Konik",
+              "siteName": "Obsidian Iceberg",
+              "category": "article",
+              "language": "Engels",
+              "readingTime": "5 mins",
+              "readingMinutes": 5,
+              "wordCount": 1292,
+              "publishedDate": "2022-02-17",
+              "savedDate": "2024-08-29T19:32:28.929000+00:00",
+              "imageUrl": "https://substackcdn.com/image/fetch/w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ffd03db18-7828-4dff-8d94-83260be7d3e1_2000x1335.jpeg",
+              "sourceUrl": "https://www.eleanorkonik.com/consistent-naming/",
+              "readwiseUrl": "https://read.readwise.io/read/01j6ft003zzdp1gdw7j9qc1dnr",
+              "summary": "Naming conventions are essential for organizing files efficiently and quickly accessing information. They provide valuable context about a file's content before it is opened. Leveraging naming conventions can enhance personal knowledge management and improve sensemaking.",
+              "whyRead": "Raakt je interesse in PKM en kennisbeheer — waarom consistente naamgeving in je notitiesysteem zorgt voor betere terugvindbaarheid en verbindingen.",
+              "bestMoment": "leergierig",
+              "tags": [
+                "learning & meta-learning",
+                "personal growth & life philosophy",
+                "pkm & note-taking"
+              ],
+              "alsoIn": []
+            },
+            {
+              "position": 79,
+              "id": "01jkgy1x7yacy66ys284ddq8yw",
+              "title": "Why do most popular science books suck?",
+              "author": "Erik Hoel",
+              "siteName": "theintrinsicperspective.com",
+              "category": "article",
+              "language": "Engels",
+              "readingTime": "7 mins",
+              "readingMinutes": 7,
+              "wordCount": 1818,
+              "publishedDate": "2021-09-22",
+              "savedDate": "2025-02-07T19:26:43.967000+00:00",
+              "imageUrl": "https://substackcdn.com/image/fetch/w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fc302a864-c554-42d2-b720-eac132f97fa1_642x583.png",
+              "sourceUrl": "https://www.theintrinsicperspective.com/p/why-do-most-popular-science-books",
+              "readwiseUrl": "https://read.readwise.io/read/01jkgy1x7yacy66ys284ddq8yw",
+              "summary": "Most popular science books are often unoriginal and overhyped, lacking fresh ideas or true excitement. The author argues that the best nonfiction books tend to be written by amateurs who explore ideas outside traditional academic boundaries. Embracing a playful and interdisciplinary approach can lead to more engaging and meaningful science writing.",
+              "whyRead": "Waarom de meeste populairwetenschappelijke boeken tegenvallen — een scherpe analyse.",
+              "bestMoment": "kritisch",
+              "tags": [
+                "arts & culture",
+                "learning & meta-learning",
+                "light-reading",
+                "writing & essays"
+              ],
+              "alsoIn": [
+                "aaa-luchtig-top-100"
+              ]
+            },
+            {
+              "position": 80,
               "id": "01jkh2vn8hfm2b2ys7eefgrw9h",
               "title": "Advice for a friend who wants to start a blog",
               "author": "Henrik Karlsson",
@@ -6633,7 +7405,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 69,
+              "position": 81,
               "id": "01jkh2w2capy38f589kqkvyt4s",
               "title": "A funny thing about curiosity",
               "author": "Henrik Karlsson",
@@ -6659,7 +7431,33 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 70,
+              "position": 82,
+              "id": "01jkh2yf7hahdnt87t68w0f1f5",
+              "title": "On shortcuts and longcuts",
+              "author": "Henrik Karlsson",
+              "siteName": "henrikkarlsson.xyz",
+              "category": "article",
+              "language": "Engels",
+              "readingTime": "5 mins",
+              "readingMinutes": 5,
+              "wordCount": 1134,
+              "publishedDate": "2024-05-07",
+              "savedDate": "2025-02-07T20:52:13.766000+00:00",
+              "imageUrl": "https://substackcdn.com/image/fetch/w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F4d208cc5-4f81-46ea-980a-3212b7bde5e5_1024x939.png",
+              "sourceUrl": "https://www.henrikkarlsson.xyz/p/on-shortcuts-and-longcuts?r=1r0y5d&utm_medium=ios&triedRedirect=true",
+              "readwiseUrl": "https://read.readwise.io/read/01jkh2yf7hahdnt87t68w0f1f5",
+              "summary": "The author discusses the idea of creating \"longcuts\" in design and writing to encourage exploration and deeper experiences, rather than simply paving shortcuts for convenience. By making paths that lead to overlooked areas, people can discover beauty and engage in meaningful activities. This approach can transform how individuals perceive their relationships and surroundings, fostering a richer connection to the world.",
+              "whyRead": "Raakt essay schrijven, leren en levensfilosofie. Karlsson draait de gebruikelijke efficiëntielogica om: waardevol werk leidt je niet sneller naar een bekend doel, maar maakt een omweg begaanbaar waar je anders nooit zou komen.",
+              "bestMoment": "geïnspireerd",
+              "tags": [
+                "learning & meta-learning",
+                "personal growth & life philosophy",
+                "writing & essays"
+              ],
+              "alsoIn": []
+            },
+            {
+              "position": 83,
               "id": "01jzmk1agxw641yh3b3tv2szzv",
               "title": "Self-Directed Education: What Is It and How Does It Work?",
               "author": "Peter Gray",
@@ -6685,7 +7483,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 71,
+              "position": 84,
               "id": "01k2p37kkgn4hk8dn1qxb870qd",
               "title": "How to Teach Textual Criticism To Fifth-Graders",
               "author": "nephew jonathan",
@@ -6714,7 +7512,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 72,
+              "position": 85,
               "id": "01k79j7ef2nh8tmgv41f9k6az3",
               "title": "What do Japan’s hikikomori reveal about our lonely world?",
               "author": "Alain Julian",
@@ -6740,7 +7538,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 73,
+              "position": 86,
               "id": "01k7j6p8a88r4t4zarr6pqya82",
               "title": "Writing as communion",
               "author": "Henrik Karlsson",
@@ -6769,7 +7567,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 74,
+              "position": 87,
               "id": "01k7k3prk0rm6qjzvbp9gyevxz",
               "title": "Rumination vs. Reflection: How to Tell the Difference in Your Journal",
               "author": "Bryant Del Toro",
@@ -6795,7 +7593,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 75,
+              "position": 88,
               "id": "01k72qy7j5511yee7tvcwrch9f",
               "title": "How to Self-Study Literature with Small Daily, Weekly, and Monthly Habits",
               "author": "Sam Rinko",
@@ -6821,7 +7619,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 76,
+              "position": 89,
               "id": "01k7qbg40qvbeqszm5nr2wpmyz",
               "title": "Dostoevsky as lover",
               "author": "Henrik Karlsson",
@@ -6850,7 +7648,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 77,
+              "position": 90,
               "id": "01ka6v10fx7nxzbf0dm43dk6ed",
               "title": "🌲 The Konik Method For Maintaining Sane Task Lists",
               "author": "Eleanor Konik",
@@ -6876,7 +7674,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 78,
+              "position": 91,
               "id": "01kc53cvnp2fqe09v8vmbym5mx",
               "title": "🎓 On Teleportation & Understanding via Writing",
               "author": "Eleanor Konik",
@@ -6905,7 +7703,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 79,
+              "position": 92,
               "id": "01kc76cxv4wkv0smbz1k9y6qxs",
               "title": "Reflections on my first year writing full time",
               "author": "Henrik Karlsson",
@@ -6931,7 +7729,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 80,
+              "position": 93,
               "id": "01kchxs5s6y615eazs4hhqgm7h",
               "title": "A list of books and essays that I love",
               "author": "Henrik Karlsson",
@@ -6960,7 +7758,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 81,
+              "position": 94,
               "id": "01kke05x4vzym7fgxd32d5ze4c",
               "title": "Some relationships deepen when you tell the truth and some end",
               "author": "Henrik Karlsson",
@@ -6986,7 +7784,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 82,
+              "position": 95,
               "id": "01kkh0wb88xpy71r3pc97jgpn4",
               "title": "Treat your to-read pile like a river, not a bucket",
               "author": "Oliver Burkeman",
@@ -7012,7 +7810,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 83,
+              "position": 96,
               "id": "01kmsrjw7b8q2k5fb547bxerv2",
               "title": "The Death of Spotify: Why Streaming is Minutes Away From Being Obsolete",
               "author": "Joel Gouveia",
@@ -7041,7 +7839,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 84,
+              "position": 97,
               "id": "01kn4c4mv24kk2vjxqcn0y6efj",
               "title": "Days are enormous",
               "author": "Henrik Karlsson",
@@ -7070,7 +7868,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 85,
+              "position": 98,
               "id": "01krtexkxa2w3kf6d07h8t2ndr",
               "title": "The heyday of the writing-first practitioner",
               "author": "every.to",
@@ -7097,7 +7895,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 86,
+              "position": 99,
               "id": "01krtrbnj1rtn0p7gt8fatgj7p",
               "title": "Whose Ideas Count?",
               "author": "Sven Brodmerkel (PhD)",
@@ -7124,7 +7922,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 87,
+              "position": 100,
               "id": "01krtrc68m499tqp0qe471vq9c",
               "title": "The Speed Trap of Modern Thought",
               "author": "Sven Brodmerkel (PhD)",
@@ -7147,367 +7945,6 @@ window.TOP_ARTICLES = {
                 "intellectual-loneliness",
                 "professional development",
                 "sociology & social structures"
-              ],
-              "alsoIn": []
-            },
-            {
-              "position": 88,
-              "id": "01ktv2sxayxrqj6yzvyhjes6tf",
-              "title": "Leeslijst mei 2026",
-              "author": "Kauthar",
-              "siteName": "Substack",
-              "category": "email",
-              "language": "Nederlands",
-              "readingTime": "7 mins",
-              "readingMinutes": 7,
-              "wordCount": 1651,
-              "publishedDate": "2026-06-11",
-              "savedDate": "2026-06-11T10:14:20.254000+00:00",
-              "imageUrl": null,
-              "sourceUrl": "mailto:reader-forwarded-email/a0c00dcc2081fdba85fa1cc1b61f0134",
-              "readwiseUrl": "https://read.readwise.io/read/01ktv2sxayxrqj6yzvyhjes6tf",
-              "summary": "Lieke Marsman, schrijver, dichter, denker. Op 3 juni 2026 kwam de dood haar halen, maar haar woorden zullen altijd blijven.",
-              "whyRead": "Raakt literatuur, Nederlandse cultuur, politieke rechtvaardigheid en moederschap: deze leeslijst is geen droge boekenopsomming, maar een persoonlijk-culturele route langs dood, verzet, sociale rechtvaardigheid en de politiek van ouderschap. Vooral waardevol door de stem en de korte oordelen bij elk boek.",
-              "bestMoment": "ontspannen",
-              "tags": [
-                "arts & culture",
-                "fiction",
-                "light-reading",
-                "sociology & social structures"
-              ],
-              "alsoIn": [
-                "aaa-dutch-top-100",
-                "aaa-short-dutch-top-10",
-                "aaa-short-dutch-top-100",
-                "aaa-luchtig-top-100",
-                "aaa-luchtig-nederlands-top-10",
-                "aaa-luchtig-nederlands-top-100"
-              ]
-            },
-            {
-              "position": 89,
-              "id": "01kw3yjp92dh7r7qzk3bja513n",
-              "title": "Dismantling Authenticity",
-              "author": "Sven Brodmerkel | Off-Script At Work",
-              "siteName": "Substack",
-              "category": "email",
-              "language": null,
-              "readingTime": "9 mins",
-              "readingMinutes": 9,
-              "wordCount": 2347,
-              "publishedDate": "2026-06-27",
-              "savedDate": "2026-06-27T07:09:21.058000+00:00",
-              "imageUrl": null,
-              "sourceUrl": "mailto:reader-forwarded-email/82bbc446c64d1066d4add992799f186c",
-              "readwiseUrl": "https://read.readwise.io/read/01kw3yjp92dh7r7qzk3bja513n",
-              "summary": "A four-part series about authenticity at work, why “being yourself” is more complicated than it sounds, and a couple of things (and tools) introverted and neurodivergent professionals might find helpful.",
-              "whyRead": "Raakt ADHD/neurodivergentie, werkcultuur en taalfilosofie: Brodmerkel laat zien hoe 'authenticiteit' op werk vaak geen vrijheid maar normhandhaving betekent. De meerwaarde zit in het alternatief: alignment en tactische legibility in plaats van eindeloos maskeren of onveilig transparant zijn.",
-              "bestMoment": "analytisch",
-              "tags": [
-                "adhd & neurodivergence",
-                "professional development",
-                "sociology & social structures"
-              ],
-              "alsoIn": []
-            },
-            {
-              "position": 90,
-              "id": "01kw5smp76n3se61jv02c1zzx9",
-              "title": "Why Writing Feels So Unnatural",
-              "author": "A Mug of Insights",
-              "siteName": "Ghost - The Professional Publishing Platform",
-              "category": "email",
-              "language": null,
-              "readingTime": "3 mins",
-              "readingMinutes": 3,
-              "wordCount": 703,
-              "publishedDate": "2026-06-28",
-              "savedDate": "2026-06-28T00:21:32.519000+00:00",
-              "imageUrl": null,
-              "sourceUrl": "mailto:reader-forwarded-email/f9760eea704aab45d0f79814ff43ac23",
-              "readwiseUrl": "https://read.readwise.io/read/01kw5smp76n3se61jv02c1zzx9",
-              "summary": "The interview, according to her, was a 2-hour-long treasure trove for aspiring graphic designers.",
-              "whyRead": "Raakt je interesse in essay schrijven en leren: Waldun maakt concreet waarom schrijven onnatuurlijk voelt en koppelt dat aan Pinkers idee dat gedachten niet lineair ontstaan. De meerwaarde zit in schrijven als techniek voor denken, niet als vage expressie.",
-              "bestMoment": "leergierig",
-              "tags": [
-                "arts & culture",
-                "learning & meta-learning",
-                "light-reading",
-                "professional development"
-              ],
-              "alsoIn": [
-                "aaa-luchtig-top-100"
-              ]
-            },
-            {
-              "position": 91,
-              "id": "01kbdw3w0vrspnk8yzrfxypq51",
-              "title": "The Quiet Collapse of Reading—and the Only Real Solution",
-              "author": "Joel J Miller",
-              "siteName": "millersbookreview.com",
-              "category": "article",
-              "language": "Engels",
-              "readingTime": "6 mins",
-              "readingMinutes": 6,
-              "wordCount": 1479,
-              "publishedDate": "2025-05-14",
-              "savedDate": "2026-07-21T12:37:25.965000+00:00",
-              "imageUrl": "https://substackcdn.com/image/fetch/w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F5e776ade-a695-43e4-97bd-165f540b379b_935x637.jpeg",
-              "sourceUrl": "https://www.millersbookreview.com/p/quiet-collapse-of-reading-and-the-only-real-solution",
-              "readwiseUrl": "https://read.readwise.io/read/01kbdw3w0vrspnk8yzrfxypq51",
-              "summary": "Fewer Americans, especially kids and men, are reading books today than a decade ago. Schools assign less whole-text reading and students spend far less time reading, creating a downward spiral of skill and interest. The fix is simple: parents and adults should read more in front of children and make reading visible and enjoyable.",
-              "whyRead": "Als fervent lezer alarmerende data over het verval van leesvaardigheid – en wat er aan te doen is.",
-              "bestMoment": "reflectief",
-              "tags": [
-                "arts & culture",
-                "learning & meta-learning",
-                "light-reading",
-                "parenting & care"
-              ],
-              "alsoIn": [
-                "aaa-luchtig-top-100"
-              ]
-            },
-            {
-              "position": 92,
-              "id": "01kye6cwzsz29j9v1g53fzfy45",
-              "title": "“We Know. It’s Fine.”",
-              "author": "Sven Brodmerkel | Off-Script At Work",
-              "siteName": "Substack",
-              "category": "email",
-              "language": null,
-              "readingTime": "5 mins",
-              "readingMinutes": 5,
-              "wordCount": 1103,
-              "publishedDate": "2026-07-26",
-              "savedDate": "2026-07-26T03:09:47.897000+00:00",
-              "imageUrl": null,
-              "sourceUrl": "mailto:reader-forwarded-email/9a35150d0917395a7410c1bc1a63d9a6",
-              "readwiseUrl": "https://read.readwise.io/read/01kye6cwzsz29j9v1g53fzfy45",
-              "summary": "It’s 9:47 on a Wednesday, and a colleague is two minutes into explaining a scheduling conflict they already emailed everyone about.",
-              "whyRead": "Raakt je interesse in neurodivergentie en werk: het essay geeft taal aan de subtiele norm dat ADHD of autisme welkom is zolang het niet te zichtbaar of belastend wordt.",
-              "bestMoment": "reflectief",
-              "tags": [
-                "adhd & neurodivergence",
-                "professional development",
-                "sociology & social structures"
-              ],
-              "alsoIn": []
-            },
-            {
-              "position": 93,
-              "id": "01kz3n3vtt34z9nte888xtbp8q",
-              "title": "Rethinking the C-Word",
-              "author": "Sven Brodmerkel | Off-Script At Work",
-              "siteName": "Substack",
-              "category": "email",
-              "language": null,
-              "readingTime": "4 mins",
-              "readingMinutes": 4,
-              "wordCount": 1027,
-              "publishedDate": "2026-08-03",
-              "savedDate": "2026-08-03T11:11:03.515000+00:00",
-              "imageUrl": null,
-              "sourceUrl": "mailto:reader-forwarded-email/412d097024c92b270426d2e3eda82106",
-              "readwiseUrl": "https://read.readwise.io/read/01kz3n3vtt34z9nte888xtbp8q",
-              "summary": "There it is again: the c-word. It’s the term management reaches for when something has gone sideways and nobody wants to name what, specifically, broke.",
-              "whyRead": "Raakt je interesse in werk, communicatie en denken: een helder essay dat het vage managementwoord ‘communicatie’ weer inhoudelijk maakt.",
-              "bestMoment": "kritisch",
-              "tags": [
-                "later",
-                "philosophy",
-                "professional development"
-              ],
-              "alsoIn": []
-            },
-            {
-              "position": 94,
-              "id": "01kzb03e63j61yhndn4jkh2v66",
-              "title": "Rethinking the C-Word",
-              "author": "Sven Brodmerkel | Off-Script At Work",
-              "siteName": "Substack",
-              "category": "email",
-              "language": null,
-              "readingTime": "5 mins",
-              "readingMinutes": 5,
-              "wordCount": 1323,
-              "publishedDate": "2026-08-06",
-              "savedDate": "2026-08-06T07:37:44.900000+00:00",
-              "imageUrl": null,
-              "sourceUrl": "mailto:reader-forwarded-email/cf887ff614604bf2afa1ee2cfe191ccd",
-              "readwiseUrl": "https://read.readwise.io/read/01kzb03e63j61yhndn4jkh2v66",
-              "summary": "I said no. Every substantive point on the agenda had already been covered, at least in my opinion.",
-              "whyRead": "Essay dat vergaderrituelen (stand-ups, town halls, functioneringsgesprekken) analyseert via communicatietheorie — raakt je interesse in sociologie/organisatiestructuren en biedt een concreet, herbruikbaar denkkader voor werk.",
-              "bestMoment": "analytisch",
-              "tags": [
-                "professional development",
-                "sociology & social structures"
-              ],
-              "alsoIn": []
-            },
-            {
-              "position": 95,
-              "id": "01m059vdx0s3ff8xbj5eh1y9x3",
-              "title": "Some Thoughts on the Common Toad",
-              "author": "orwellfoundation.com",
-              "siteName": "The Orwell Foundation",
-              "category": "article",
-              "language": null,
-              "readingTime": "8 mins",
-              "readingMinutes": 8,
-              "wordCount": 1901,
-              "publishedDate": "2011-04-12",
-              "savedDate": "2026-08-16T12:48:23.456000+00:00",
-              "imageUrl": "https://www.orwellfoundation.com/wp-content/uploads/2020/03/IMG_3979-768x1024.jpg",
-              "sourceUrl": "https://www.orwellfoundation.com/the-orwell-foundation/orwell/essays-and-other-works/some-thoughts-on-the-common-toad/",
-              "readwiseUrl": "https://read.readwise.io/read/01m059vdx0s3ff8xbj5eh1y9x3",
-              "summary": "\"Is it wicked to take a pleasure in Spring and other seasonal changes?\"",
-              "whyRead": "Raakt je interesse in personal growth & life philosophy en essay schrijven als vorm — een klein, persoonlijk essay dat laat zien hoe Orwell politieke ernst combineert met puur, ongecompliceerd natuurplezier.",
-              "bestMoment": "ontspannen",
-              "tags": [
-                "arts & culture",
-                "light-reading",
-                "personal growth & life philosophy"
-              ],
-              "alsoIn": [
-                "aaa-luchtig-top-100"
-              ]
-            },
-            {
-              "position": 96,
-              "id": "01krn89rppb35h90y58egserkm",
-              "title": "The Conservative Attack on Empathy",
-              "author": "theatlantic.com",
-              "siteName": "The Atlantic",
-              "category": "article",
-              "language": null,
-              "readingTime": "5 mins",
-              "readingMinutes": 5,
-              "wordCount": 1139,
-              "publishedDate": "2025-06-30",
-              "savedDate": "2026-05-15T07:23:32.437000+00:00",
-              "imageUrl": "https://cdn.theatlantic.com/thumbor/itMCHka7Xhn4ctJSY5hjMfT36Jw=/0x0:2880x1620/960x540/media/img/mt/2025/06/toxic_empathy_4/original.jpg",
-              "sourceUrl": "https://www.theatlantic.com/ideas/archive/2025/06/toxic-empathy-weakness/683355/",
-              "readwiseUrl": "https://read.readwise.io/read/01krn89rppb35h90y58egserkm",
-              "summary": "“The toxic-empathy rhetorical framework, built for producing peace of mind for conservative debaters, threatens to render Christians insensitive to moral demands of Christianity that run contrary to conservative preferences,” @ebruenig writes:",
-              "whyRead": "Sterk relevant voor politieke filosofie, religieuze moraal en hedendaagse rechtse retoriek: Bruenig fileert hoe 'toxic empathy' wordt gebruikt om morele verplichtingen te neutraliseren.",
-              "bestMoment": "kritisch",
-              "tags": [
-                "current affairs & politics",
-                "linked-from-readwise",
-                "political philosophy"
-              ],
-              "alsoIn": []
-            },
-            {
-              "position": 97,
-              "id": "01krtrbe7xpgnmyq707xyfa6dw",
-              "title": "Intellectual Loneliness: A Field Guide",
-              "author": "Sven Brodmerkel (PhD)",
-              "siteName": "Off-Script At Work",
-              "category": "article",
-              "language": "Engels",
-              "readingTime": "4 mins",
-              "readingMinutes": 4,
-              "wordCount": 1037,
-              "publishedDate": "2026-04-07",
-              "savedDate": "2026-05-17T10:40:16.571000+00:00",
-              "imageUrl": "https://images.unsplash.com/photo-1592466489969-a14677dbf2a8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzMDAzMzh8MHwxfHNlYXJjaHwzMTB8fGxvbmVsaW5lc3N8ZW58MHx8fHwxNzc1NTM3NzY2fDA&ixlib=rb-4.1.0&q=80&w=1080",
-              "sourceUrl": "https://svenbrodmerkel.substack.com/p/intellectual-loneliness-a-field-guide-b3e?utm_campaign=post&utm_medium=web&triedRedirect=true",
-              "readwiseUrl": "https://read.readwise.io/read/01krtrbe7xpgnmyq707xyfa6dw",
-              "summary": "Deel 2 van Brodmerkels serie over intellectuele eenzaamheid. Introduceert 'intellectuele verwaarlozing' als kindertijdse oorsprong: wanneer de cognitieve wereld van een kind niet wordt gespiegeld door volwassenen, leert het kind dat bepaalde gedachten geen ontvanger vinden. Dit wordt een automatisme — 'don't bring the full thing' — dat in volwassenheid aanvoelt als identiteit. Cognitie wil gezelschap: zonder dialogische ontmoeting ontstaan chronische gewoonten van zelf-inperking. Op lange termijn versmalt creativiteit tot productiviteit, verwondering tot prestatie. Herstel ligt in het opnieuw ontdekken van echte interlocutie — vriendschappen, mentorrelaties, asynchrone dialoog — als cognitieve voeding.",
-              "whyRead": null,
-              "bestMoment": null,
-              "tags": [
-                "adhd & neurodivergence",
-                "intellectual-loneliness",
-                "philosophy",
-                "sociology & social structures"
-              ],
-              "alsoIn": []
-            },
-            {
-              "position": 98,
-              "id": "01kwkbvg7b538ndb8mhrw8b12z",
-              "title": "Mazzucato rekent af met strategie van Draghi, Wennink en het kabinet",
-              "author": "Rode Cijfers",
-              "siteName": "Substack",
-              "category": "email",
-              "language": "Nederlands",
-              "readingTime": "4 mins",
-              "readingMinutes": 4,
-              "wordCount": 949,
-              "publishedDate": "2026-07-03",
-              "savedDate": "2026-07-03T06:49:57.739000+00:00",
-              "imageUrl": null,
-              "sourceUrl": "mailto:reader-forwarded-email/f53bcf62a5e9049d60dd272011f386a4",
-              "readwiseUrl": "https://read.readwise.io/read/01kwkbvg7b538ndb8mhrw8b12z",
-              "summary": "Afgelopen week was het weer eens raak. Consultancybureau McKinsey kopte dat Europa de kostenoorlog met China hopeloos verliest.",
-              "whyRead": "Raakt je interesses in economie, ongelijkheid en politieke economie: Mazzucato's kritiek draait de Draghi/Wennink-diagnose om van 'te weinig kapitaal' naar 'verkeerd gestuurd kapitaal'. Sterk shortlist-materiaal door de Nederlandse en Europese beleidslaag.",
-              "bestMoment": "analytisch",
-              "tags": [
-                "economics",
-                "political philosophy",
-                "sociology & social structures"
-              ],
-              "alsoIn": [
-                "aaa-dutch-top-100",
-                "aaa-short-dutch-top-10",
-                "aaa-short-dutch-top-100"
-              ]
-            },
-            {
-              "position": 99,
-              "id": "01kxy1qkwpt5xkmvy06pz6bqvr",
-              "title": "Technology and Barbarism",
-              "author": "amazon.com",
-              "siteName": "amazon.com",
-              "category": "article",
-              "language": null,
-              "readingTime": "2 mins",
-              "readingMinutes": 2,
-              "wordCount": 331,
-              "publishedDate": "2026-02-24",
-              "savedDate": "2026-07-19T20:40:25.149000+00:00",
-              "imageUrl": "https://m.media-amazon.com/images/I/41X9oO-Y7ZL._SY445_SX342_FMwebp_.jpg",
-              "sourceUrl": "https://www.amazon.com/dp/1662603185?ref_=ppx_hzod_title_dt_b_fed_asin_title_0_0&utm_source=substack&utm_medium=email",
-              "readwiseUrl": "https://read.readwise.io/read/01kxy1qkwpt5xkmvy06pz6bqvr",
-              "summary": "Technology and Barbarism: or: how billionaires will save us from the end of the world [Nieva, Michel, Bery, Rahul] on Amazon.com. *FREE* shipping on qualifying offers. Technology and Barbarism: or: how billionaires will save us from the end of the world",
-              "whyRead": "Raakt je interesse in technologie, sciencefiction als cultuurvorm en politieke filosofie: deze essaybundel onderzoekt hoe technologische verbeelding, kapitalisme en ideeën over het menselijke elkaar vormen.",
-              "bestMoment": "analytisch",
-              "tags": [
-                "fiction",
-                "light-reading",
-                "linked-from-readwise",
-                "political philosophy",
-                "technology"
-              ],
-              "alsoIn": [
-                "aaa-luchtig-top-100"
-              ]
-            },
-            {
-              "position": 100,
-              "id": "01ky09ekmjq5ncqpcbbkx4n7db",
-              "title": "🎙️#16 Benjamin Studebaker: Why the Revolution Isn't Coming",
-              "author": "The Living Philosophy",
-              "siteName": "Substack",
-              "category": "email",
-              "language": null,
-              "readingTime": "2 mins",
-              "readingMinutes": 2,
-              "wordCount": 525,
-              "publishedDate": "2026-07-20",
-              "savedDate": "2026-07-20T17:33:47.538000+00:00",
-              "imageUrl": null,
-              "sourceUrl": "mailto:reader-forwarded-email/490725a9fbc9578e74f410770240ae6e",
-              "readwiseUrl": "https://read.readwise.io/read/01ky09ekmjq5ncqpcbbkx4n7db",
-              "summary": "Benjamin Studebaker is a political theorist with a PhD from Cambridge whose work cuts against the grain of almost every revolutionary and reformist story on offer.",
-              "whyRead": "Raakt je interesse in politieke filosofie: Studebaker zet zich af tegen zowel revolutionaire als reformistische vanzelfsprekendheden.",
-              "bestMoment": "analytisch",
-              "tags": [
-                "philosophy",
-                "political philosophy"
               ],
               "alsoIn": []
             }
@@ -7621,6 +8058,43 @@ window.TOP_ARTICLES = {
             },
             {
               "position": 4,
+              "id": "01kvcgsfekyqqc5b9t3nmrge8m",
+              "title": "Hoera, het is Waterloodag!",
+              "author": "De Ongelooflijke",
+              "siteName": "Substack",
+              "category": "email",
+              "language": "Nederlands",
+              "readingTime": "8 mins",
+              "readingMinutes": 8,
+              "wordCount": 1935,
+              "publishedDate": "2026-06-18",
+              "savedDate": "2026-06-18T04:45:51.444000+00:00",
+              "imageUrl": null,
+              "sourceUrl": "mailto:reader-forwarded-email/9063dc73da1b3f69c5087334680b7b3a",
+              "readwiseUrl": "https://read.readwise.io/read/01kvcgsfekyqqc5b9t3nmrge8m",
+              "summary": "Meer dan honderd jaar was 18 juni in Nederland een nationale feestdag, ter herinnering aan de Slag bij Waterloo (1815): de dag waarop Napoleon definitief werd verslagen en de geschiedenis van Nederland en Europa een beslissende wending nam.",
+              "whyRead": "Raakt je interesse in Europese geschiedenis en collectief geheugen: zeven veldslagen worden niet alleen militair, maar ook cultureel en identitair geduid. De meerwaarde zit in de combinatie van geschiedenis, mythevorming en historische verbeelding.",
+              "bestMoment": "ontspannen",
+              "tags": [
+                "arts & culture",
+                "history",
+                "later",
+                "light-reading",
+                "sociology & social structures"
+              ],
+              "alsoIn": [
+                "aaa-top-100",
+                "aaa-dutch-top-10",
+                "aaa-dutch-top-100",
+                "aaa-short-top-100",
+                "aaa-short-dutch-top-100",
+                "aaa-luchtig-top-100",
+                "aaa-luchtig-nederlands-top-10",
+                "aaa-luchtig-nederlands-top-100"
+              ]
+            },
+            {
+              "position": 5,
               "id": "01kyxvjcj0396b5z5w8bcz634q",
               "title": "De atheïst die de bekendste verdediger van het christendom werd",
               "author": "De Ongelooflijke",
@@ -7652,7 +8126,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 5,
+              "position": 6,
               "id": "01kzjk22zxkgrvftgdtdvj01rq",
               "title": "Twintig seconden waar ik me diep voor schaam",
               "author": "Jona van Loenen",
@@ -7676,7 +8150,6 @@ window.TOP_ARTICLES = {
                 "philosophy"
               ],
               "alsoIn": [
-                "aaa-top-100",
                 "aaa-dutch-top-10",
                 "aaa-dutch-top-100",
                 "aaa-short-top-100",
@@ -7684,7 +8157,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 6,
+              "position": 7,
               "id": "01ktv2sxayxrqj6yzvyhjes6tf",
               "title": "Leeslijst mei 2026",
               "author": "Kauthar",
@@ -7710,7 +8183,6 @@ window.TOP_ARTICLES = {
               ],
               "alsoIn": [
                 "aaa-dutch-top-100",
-                "aaa-short-top-100",
                 "aaa-short-dutch-top-100",
                 "aaa-luchtig-top-100",
                 "aaa-luchtig-nederlands-top-10",
@@ -7718,7 +8190,40 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 7,
+              "position": 8,
+              "id": "01kvm92m2s24rdpdw5hm665kgj",
+              "title": "De opkomst van culturele rage bait",
+              "author": "Doortje Smithuijsen",
+              "siteName": "Substack",
+              "category": "email",
+              "language": "Nederlands",
+              "readingTime": "2 mins",
+              "readingMinutes": 2,
+              "wordCount": 496,
+              "publishedDate": "2026-06-21",
+              "savedDate": "2026-06-21T05:04:57.946000+00:00",
+              "imageUrl": null,
+              "sourceUrl": "mailto:reader-forwarded-email/ac7fa1c3619097e1654ca4969360d4ae",
+              "readwiseUrl": "https://read.readwise.io/read/01kvm92m2s24rdpdw5hm665kgj",
+              "summary": "Afgelopen week ging ik ondanks mijn horror-haat in mijn eentje naar Obsession - de film over een jongen die wenst dat zijn crush Nikki ook verliefd wordt op hem, met alle gevolgen van dien.",
+              "whyRead": "Raakt je interesse in cultuurkritiek en mediavormen: Smithuijsen leest Gen Z-horror en TikTok-reactiecultuur als symptoom van culturele rage bait. De meerwaarde zit in het idee dat ook 'hoge' cultuur steeds vaker op platte emotie en reactiecircuits wordt ontworpen.",
+              "bestMoment": "kritisch",
+              "tags": [
+                "arts & culture",
+                "entertainment & pop culture",
+                "light-reading",
+                "sociology & social structures"
+              ],
+              "alsoIn": [
+                "aaa-dutch-top-100",
+                "aaa-short-dutch-top-100",
+                "aaa-luchtig-top-100",
+                "aaa-luchtig-nederlands-top-10",
+                "aaa-luchtig-nederlands-top-100"
+              ]
+            },
+            {
+              "position": 9,
               "id": "01kwkbvg7b538ndb8mhrw8b12z",
               "title": "Mazzucato rekent af met strategie van Draghi, Wennink en het kabinet",
               "author": "Rode Cijfers",
@@ -7743,12 +8248,11 @@ window.TOP_ARTICLES = {
               ],
               "alsoIn": [
                 "aaa-dutch-top-100",
-                "aaa-short-top-100",
                 "aaa-short-dutch-top-100"
               ]
             },
             {
-              "position": 8,
+              "position": 10,
               "id": "01kysnkny4jr6ej2jh6n05ex8q",
               "title": "Het Curieuze Artikel 73 van de AIVD en MIVD",
               "author": "berthub.eu",
@@ -7770,64 +8274,6 @@ window.TOP_ARTICLES = {
                 "current affairs & politics",
                 "political philosophy",
                 "technology"
-              ],
-              "alsoIn": [
-                "aaa-dutch-top-100",
-                "aaa-short-dutch-top-100"
-              ]
-            },
-            {
-              "position": 9,
-              "id": "01ktds007mazvkk5bn9zrdybw0",
-              "title": "Big oil vindt zichzelf heel zielig",
-              "author": "Jelmer Mommers",
-              "siteName": "De Correspondent",
-              "category": "email",
-              "language": "Nederlands",
-              "readingTime": "6 mins",
-              "readingMinutes": 6,
-              "wordCount": 1582,
-              "publishedDate": "2026-06-06",
-              "savedDate": "2026-06-06T06:12:46.453000+00:00",
-              "imageUrl": null,
-              "sourceUrl": "mailto:reader-forwarded-email/8b3b853d609eb07aec3436a813266a13",
-              "readwiseUrl": "https://read.readwise.io/read/01ktds007mazvkk5bn9zrdybw0",
-              "summary": "Welkom bij mijn nieuwsbrief over klimaatpolitiek die werkt. Deze editie gaat over eerlijkheid – of het gebrek daaraan.",
-              "whyRead": "Raakt Nederlandse politiek, klimaatbeleid en sociale rechtvaardigheid: Mommers verbindt fossiele bedrijfsmacht, draagvlak voor klimaatbeleid en eerlijkheidsgevoel bij burgers op een concrete Nederlandse manier.",
-              "bestMoment": "kritisch",
-              "tags": [
-                "current affairs & politics",
-                "environment & sustainability",
-                "sociology & social structures"
-              ],
-              "alsoIn": [
-                "aaa-dutch-top-100",
-                "aaa-short-dutch-top-100"
-              ]
-            },
-            {
-              "position": 10,
-              "id": "01kv7gpdvwcvk4359brzpxqmes",
-              "title": "Waarom zeggen vrienden zo vaak af?",
-              "author": "Lena Bril",
-              "siteName": "Substack",
-              "category": "email",
-              "language": "Nederlands",
-              "readingTime": "6 mins",
-              "readingMinutes": 6,
-              "wordCount": 1583,
-              "publishedDate": "2026-06-16",
-              "savedDate": "2026-06-16T06:07:59.357000+00:00",
-              "imageUrl": null,
-              "sourceUrl": "mailto:reader-forwarded-email/222baea9bdf1a39ca6dcd8a4d9a2f818",
-              "readwiseUrl": "https://read.readwise.io/read/01kv7gpdvwcvk4359brzpxqmes",
-              "summary": "Dat gevoel wordt gedempt door de ‘❤️‍🩹’ en de berichtjes in de boekenclubgroepsapp (op Signal, welteverstaan).",
-              "whyRead": null,
-              "bestMoment": "reflectief",
-              "tags": [
-                "behavioral psychology & coaching",
-                "personal growth & life philosophy",
-                "sociology & social structures"
               ],
               "alsoIn": [
                 "aaa-dutch-top-100",
@@ -7935,6 +8381,43 @@ window.TOP_ARTICLES = {
             },
             {
               "position": 4,
+              "id": "01kvcgsfekyqqc5b9t3nmrge8m",
+              "title": "Hoera, het is Waterloodag!",
+              "author": "De Ongelooflijke",
+              "siteName": "Substack",
+              "category": "email",
+              "language": "Nederlands",
+              "readingTime": "8 mins",
+              "readingMinutes": 8,
+              "wordCount": 1935,
+              "publishedDate": "2026-06-18",
+              "savedDate": "2026-06-18T04:45:51.444000+00:00",
+              "imageUrl": null,
+              "sourceUrl": "mailto:reader-forwarded-email/9063dc73da1b3f69c5087334680b7b3a",
+              "readwiseUrl": "https://read.readwise.io/read/01kvcgsfekyqqc5b9t3nmrge8m",
+              "summary": "Meer dan honderd jaar was 18 juni in Nederland een nationale feestdag, ter herinnering aan de Slag bij Waterloo (1815): de dag waarop Napoleon definitief werd verslagen en de geschiedenis van Nederland en Europa een beslissende wending nam.",
+              "whyRead": "Raakt je interesse in Europese geschiedenis en collectief geheugen: zeven veldslagen worden niet alleen militair, maar ook cultureel en identitair geduid. De meerwaarde zit in de combinatie van geschiedenis, mythevorming en historische verbeelding.",
+              "bestMoment": "ontspannen",
+              "tags": [
+                "arts & culture",
+                "history",
+                "later",
+                "light-reading",
+                "sociology & social structures"
+              ],
+              "alsoIn": [
+                "aaa-top-100",
+                "aaa-dutch-top-10",
+                "aaa-dutch-top-100",
+                "aaa-short-top-100",
+                "aaa-short-dutch-top-10",
+                "aaa-luchtig-top-100",
+                "aaa-luchtig-nederlands-top-10",
+                "aaa-luchtig-nederlands-top-100"
+              ]
+            },
+            {
+              "position": 5,
               "id": "01kyxvjcj0396b5z5w8bcz634q",
               "title": "De atheïst die de bekendste verdediger van het christendom werd",
               "author": "De Ongelooflijke",
@@ -7966,7 +8449,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 5,
+              "position": 6,
               "id": "01kzjk22zxkgrvftgdtdvj01rq",
               "title": "Twintig seconden waar ik me diep voor schaam",
               "author": "Jona van Loenen",
@@ -7990,7 +8473,6 @@ window.TOP_ARTICLES = {
                 "philosophy"
               ],
               "alsoIn": [
-                "aaa-top-100",
                 "aaa-dutch-top-10",
                 "aaa-dutch-top-100",
                 "aaa-short-top-100",
@@ -7998,7 +8480,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 6,
+              "position": 7,
               "id": "01ktv2sxayxrqj6yzvyhjes6tf",
               "title": "Leeslijst mei 2026",
               "author": "Kauthar",
@@ -8024,7 +8506,6 @@ window.TOP_ARTICLES = {
               ],
               "alsoIn": [
                 "aaa-dutch-top-100",
-                "aaa-short-top-100",
                 "aaa-short-dutch-top-10",
                 "aaa-luchtig-top-100",
                 "aaa-luchtig-nederlands-top-10",
@@ -8032,7 +8513,40 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 7,
+              "position": 8,
+              "id": "01kvm92m2s24rdpdw5hm665kgj",
+              "title": "De opkomst van culturele rage bait",
+              "author": "Doortje Smithuijsen",
+              "siteName": "Substack",
+              "category": "email",
+              "language": "Nederlands",
+              "readingTime": "2 mins",
+              "readingMinutes": 2,
+              "wordCount": 496,
+              "publishedDate": "2026-06-21",
+              "savedDate": "2026-06-21T05:04:57.946000+00:00",
+              "imageUrl": null,
+              "sourceUrl": "mailto:reader-forwarded-email/ac7fa1c3619097e1654ca4969360d4ae",
+              "readwiseUrl": "https://read.readwise.io/read/01kvm92m2s24rdpdw5hm665kgj",
+              "summary": "Afgelopen week ging ik ondanks mijn horror-haat in mijn eentje naar Obsession - de film over een jongen die wenst dat zijn crush Nikki ook verliefd wordt op hem, met alle gevolgen van dien.",
+              "whyRead": "Raakt je interesse in cultuurkritiek en mediavormen: Smithuijsen leest Gen Z-horror en TikTok-reactiecultuur als symptoom van culturele rage bait. De meerwaarde zit in het idee dat ook 'hoge' cultuur steeds vaker op platte emotie en reactiecircuits wordt ontworpen.",
+              "bestMoment": "kritisch",
+              "tags": [
+                "arts & culture",
+                "entertainment & pop culture",
+                "light-reading",
+                "sociology & social structures"
+              ],
+              "alsoIn": [
+                "aaa-dutch-top-100",
+                "aaa-short-dutch-top-10",
+                "aaa-luchtig-top-100",
+                "aaa-luchtig-nederlands-top-10",
+                "aaa-luchtig-nederlands-top-100"
+              ]
+            },
+            {
+              "position": 9,
               "id": "01kwkbvg7b538ndb8mhrw8b12z",
               "title": "Mazzucato rekent af met strategie van Draghi, Wennink en het kabinet",
               "author": "Rode Cijfers",
@@ -8057,12 +8571,11 @@ window.TOP_ARTICLES = {
               ],
               "alsoIn": [
                 "aaa-dutch-top-100",
-                "aaa-short-top-100",
                 "aaa-short-dutch-top-10"
               ]
             },
             {
-              "position": 8,
+              "position": 10,
               "id": "01kysnkny4jr6ej2jh6n05ex8q",
               "title": "Het Curieuze Artikel 73 van de AIVD en MIVD",
               "author": "berthub.eu",
@@ -8091,7 +8604,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 9,
+              "position": 11,
               "id": "01ktds007mazvkk5bn9zrdybw0",
               "title": "Big oil vindt zichzelf heel zielig",
               "author": "Jelmer Mommers",
@@ -8115,12 +8628,11 @@ window.TOP_ARTICLES = {
                 "sociology & social structures"
               ],
               "alsoIn": [
-                "aaa-dutch-top-100",
-                "aaa-short-dutch-top-10"
+                "aaa-dutch-top-100"
               ]
             },
             {
-              "position": 10,
+              "position": 12,
               "id": "01kv7gpdvwcvk4359brzpxqmes",
               "title": "Waarom zeggen vrienden zo vaak af?",
               "author": "Lena Bril",
@@ -8144,12 +8656,11 @@ window.TOP_ARTICLES = {
                 "sociology & social structures"
               ],
               "alsoIn": [
-                "aaa-dutch-top-100",
-                "aaa-short-dutch-top-10"
+                "aaa-dutch-top-100"
               ]
             },
             {
-              "position": 11,
+              "position": 13,
               "id": "01kwnr6f6a3gb801eapyrbp6q2",
               "title": "Honderd vliegtuigcrashes in één week: wat is hier aan de hand?",
               "author": "Jelmer Mommers",
@@ -8177,7 +8688,103 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 12,
+              "position": 14,
+              "id": "01kwreqfypckk54fws5c65whwp",
+              "title": "Niemand wil het, toch doen we het allemaal",
+              "author": "Jona van Loenen",
+              "siteName": "Substack",
+              "category": "email",
+              "language": "Nederlands",
+              "readingTime": "7 mins",
+              "readingMinutes": 7,
+              "wordCount": 1653,
+              "publishedDate": "2026-07-05",
+              "savedDate": "2026-07-05T06:16:24.278000+00:00",
+              "imageUrl": null,
+              "sourceUrl": "mailto:reader-forwarded-email/d03e98c83b42f95bce803f121327a74f",
+              "readwiseUrl": "https://read.readwise.io/read/01kwreqfypckk54fws5c65whwp",
+              "summary": "Normaal neem ik de metro terug naar huis, voor de simpele reden dat ik geen zin heb om die (zware) tassen te dragen.",
+              "whyRead": "Nederlandstalig persoonlijk essay met alledaagse insteek; mogelijk interessant door stem, herkenning en reflectie op gedrag dat niemand wil maar iedereen toch doet. Bewaren als lichte essayistische Nederlandse cultuurreflectie.",
+              "bestMoment": "ontspannen",
+              "tags": [
+                "arts & culture",
+                "light-reading",
+                "personal growth & life philosophy",
+                "sociology & social structures"
+              ],
+              "alsoIn": [
+                "aaa-dutch-top-100",
+                "aaa-luchtig-top-100",
+                "aaa-luchtig-nederlands-top-10",
+                "aaa-luchtig-nederlands-top-100"
+              ]
+            },
+            {
+              "position": 15,
+              "id": "01kxabe372k5htmjxz8bxdan0f",
+              "title": "Privéchefs zijn extreem algoritmevriendelijk",
+              "author": "Doortje Smithuijsen",
+              "siteName": "Substack",
+              "category": "email",
+              "language": "Nederlands",
+              "readingTime": "5 mins",
+              "readingMinutes": 5,
+              "wordCount": 1122,
+              "publishedDate": "2026-07-12",
+              "savedDate": "2026-07-12T05:05:10.371000+00:00",
+              "imageUrl": null,
+              "sourceUrl": "mailto:reader-forwarded-email/1eee5fd801287b43f486157c5a05455c",
+              "readwiseUrl": "https://read.readwise.io/read/01kxabe372k5htmjxz8bxdan0f",
+              "summary": "De laatste tijd zit ik in een nieuw algoritme: dat van privéchefs.",
+              "whyRead": "Raakt je interesse in cultuur als vorm van sociale analyse: privechefs worden bekeken als algoritmisch aantrekkelijk statussymbool. De meerwaarde zit waarschijnlijk in de observatie van smaak, rijkdom en platformlogica.",
+              "bestMoment": "ontspannen",
+              "tags": [
+                "arts & culture",
+                "later",
+                "light-reading",
+                "sociology & social structures"
+              ],
+              "alsoIn": [
+                "aaa-dutch-top-100",
+                "aaa-luchtig-top-100",
+                "aaa-luchtig-nederlands-top-10",
+                "aaa-luchtig-nederlands-top-100"
+              ]
+            },
+            {
+              "position": 16,
+              "id": "01kyejqrpkrb3a9zqk5a7k4n5f",
+              "title": "Jetten-1 is geen regering. Het is een situationship.",
+              "author": "Jona van Loenen",
+              "siteName": "Substack",
+              "category": "email",
+              "language": "Nederlands",
+              "readingTime": "6 mins",
+              "readingMinutes": 6,
+              "wordCount": 1547,
+              "publishedDate": "2026-07-26",
+              "savedDate": "2026-07-26T06:45:26.868000+00:00",
+              "imageUrl": null,
+              "sourceUrl": "mailto:reader-forwarded-email/10e2d6a1c4a4b04f8ef0a919503aa291",
+              "readwiseUrl": "https://read.readwise.io/read/01kyejqrpkrb3a9zqk5a7k4n5f",
+              "summary": "Dit is voor het verhaal even belangrijk om te weten: deze vriend is een geboren en getogen Rotterdammer. Hij is opgegroeid in Kralingen, en is daar nooit meer weggegaan.",
+              "whyRead": "Raakt je interesse in Nederlandse politiek en essayistische analyse: de situationship-metafoor maakt de vrijblijvende logica van een meerderheidsarme regering tastbaar.",
+              "bestMoment": "kritisch",
+              "tags": [
+                "arts & culture",
+                "current affairs & politics",
+                "later",
+                "light-reading",
+                "sociology & social structures"
+              ],
+              "alsoIn": [
+                "aaa-dutch-top-100",
+                "aaa-luchtig-nederlands-top-10",
+                "aaa-luchtig-nederlands-top-100"
+              ]
+            },
+            {
+              "position": 17,
               "id": "01kzzst7bzmyrpwmespcekhf7k",
               "title": "Er is straks niets dat AI niet beter kan. Behalve mens zijn.",
               "author": "Saskia en Alinda van her/ai",
@@ -8205,7 +8812,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 13,
+              "position": 18,
               "id": "01m01yc8rqy3yyyab16j5exq6t",
               "title": "Populair klimaatbeleid: dit zijn de bouwstenen",
               "author": "Jelmer Mommers",
@@ -8233,7 +8840,36 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 14,
+              "position": 19,
+              "id": "01ks7vbkd0mgft31fpf06jbv90",
+              "title": "Een gele kanarie van 195 euro",
+              "author": "Alexander Klöpping & Ernst-Jan Pfauth",
+              "siteName": "Substack",
+              "category": "email",
+              "language": "Nederlands",
+              "readingTime": "3 mins",
+              "readingMinutes": 3,
+              "wordCount": 734,
+              "publishedDate": "2026-05-22",
+              "savedDate": "2026-05-22T12:42:55.265000+00:00",
+              "imageUrl": null,
+              "sourceUrl": "mailto:reader-forwarded-email/a1ecb0124fe5bef5475462038be62e11",
+              "readwiseUrl": "https://read.readwise.io/read/01ks7vbkd0mgft31fpf06jbv90",
+              "summary": "Een memoir waarin de schrijver wél kan schrijven.",
+              "whyRead": "Lichte weekendtips-mail met cultuur-, streaming- en gadgetaanbevelingen. De enige echt inhoudelijke haak is de verwijzing naar Alex Mayyasi/Derek Thompson over de economische logica achter eenzaamheid: digitaal vermaak schaalt goedkoop, terwijl sociale plekken arbeidsintensief en duurder worden.",
+              "bestMoment": "licht / weekend",
+              "tags": [
+                "arts & culture",
+                "light-reading",
+                "sociology & social structures"
+              ],
+              "alsoIn": [
+                "aaa-dutch-top-100",
+                "aaa-luchtig-nederlands-top-100"
+              ]
+            },
+            {
+              "position": 20,
               "id": "01kt43yge3yh7na9s1pgccyc4b",
               "title": "Universiteiten verspillen kostbaar rendement",
               "author": "Sophie van Gool",
@@ -8260,7 +8896,37 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 15,
+              "position": 21,
+              "id": "01ktbxxr50k86jtqphyhdp1eyc",
+              "title": "De blauwe Ferrari van Jony Ive",
+              "author": "Alexander Klöpping & Ernst-Jan Pfauth",
+              "siteName": "Substack",
+              "category": "email",
+              "language": "Nederlands",
+              "readingTime": "3 mins",
+              "readingMinutes": 3,
+              "wordCount": 654,
+              "publishedDate": "2026-06-05",
+              "savedDate": "2026-06-05T13:00:26.656000+00:00",
+              "imageUrl": null,
+              "sourceUrl": "mailto:reader-forwarded-email/688da72a0be45c4884c39fd7bc5241d1",
+              "readwiseUrl": "https://read.readwise.io/read/01ktbxxr50k86jtqphyhdp1eyc",
+              "summary": "Ferrari smeekt petrolheads om deze auto níét te kopen. Echt waar: de marketingbaas zegt tegen z'n trouwe klanten dat de nieuwe elektrische Luce niet voor hen bedoeld is.",
+              "whyRead": "Raakt je interesse in technologie en media alleen als lichte roundup; er staan een paar aardige signalen in, maar te weinig diepte om actief te bewaren.",
+              "bestMoment": "ontspannen",
+              "tags": [
+                "archiveren",
+                "entertainment & pop culture",
+                "light-reading",
+                "technology"
+              ],
+              "alsoIn": [
+                "aaa-dutch-top-100",
+                "aaa-luchtig-nederlands-top-100"
+              ]
+            },
+            {
+              "position": 22,
               "id": "01ktxgxw7cxp7caqpe7w230ne4",
               "title": "Klagende supermarkten",
               "author": "Rode Cijfers",
@@ -8287,7 +8953,67 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 16,
+              "position": 23,
+              "id": "01kty3nmapqw3y4ypnbbgrm2t3",
+              "title": "De FIFA-idents zijn fantastisch",
+              "author": "Alexander Klöpping & Ernst-Jan Pfauth",
+              "siteName": "Substack",
+              "category": "email",
+              "language": "Nederlands",
+              "readingTime": "3 mins",
+              "readingMinutes": 3,
+              "wordCount": 727,
+              "publishedDate": "2026-06-12",
+              "savedDate": "2026-06-12T14:27:11.830000+00:00",
+              "imageUrl": null,
+              "sourceUrl": "mailto:reader-forwarded-email/f3e5d8fd83a1e9390912adb388785448",
+              "readwiseUrl": "https://read.readwise.io/read/01kty3nmapqw3y4ypnbbgrm2t3",
+              "summary": "Eerst een eed, dan het feestje.",
+              "whyRead": "Raakt licht je interesse in cultuur, sport en mediavormen: dit is een weekendlijstje met een paar interessante haakjes over Stanford, de sociale functie van feestjes en de politieke lading van WK's. De meerwaarde zit vooral in de links naar Simon Kuper, Derek Thompson en de Cruijff-docu.",
+              "bestMoment": "ontspannen",
+              "tags": [
+                "arts & culture",
+                "light-reading",
+                "sociology & social structures",
+                "sports & recreation"
+              ],
+              "alsoIn": [
+                "aaa-dutch-top-100",
+                "aaa-luchtig-nederlands-top-100"
+              ]
+            },
+            {
+              "position": 24,
+              "id": "01kvfsv00xheeeezwr4g8hm52h",
+              "title": "Dé telefoon zonder social media",
+              "author": "Alexander Klöpping & Ernst-Jan Pfauth",
+              "siteName": "Substack",
+              "category": "email",
+              "language": "Nederlands",
+              "readingTime": "4 mins",
+              "readingMinutes": 4,
+              "wordCount": 845,
+              "publishedDate": "2026-06-19",
+              "savedDate": "2026-06-19T11:21:41.662000+00:00",
+              "imageUrl": null,
+              "sourceUrl": "mailto:reader-forwarded-email/cf569162413724326ec904187b9c2931",
+              "readwiseUrl": "https://read.readwise.io/read/01kvfsv00xheeeezwr4g8hm52h",
+              "summary": "Elke week geven Alexander Klöpping en Ernst-Jan Pfauth vijf tips om het weekend mee in te gaan. Deze week schoof tv-verslaggever Alex Mazereeuw weer aan voor onze maandelijkse televisieaflevering.",
+              "whyRead": "Raakt je interesse in technologie, aandacht en Nederlandse mediacultuur: POM combineert een socialmediavrije telefoon met observaties over podcastzoekmachines en tv als spiegelpaleis. De meerwaarde zit in de signalen, niet in één diep betoog.",
+              "bestMoment": "ontspannen",
+              "tags": [
+                "arts & culture",
+                "entertainment & pop culture",
+                "light-reading",
+                "technology"
+              ],
+              "alsoIn": [
+                "aaa-dutch-top-100",
+                "aaa-luchtig-nederlands-top-100"
+              ]
+            },
+            {
+              "position": 25,
               "id": "01kt8j5yakk29s0cg4w3wnywn8",
               "title": "Deze zeven vragen geven je werk een ziel",
               "author": "Simon van Teutem",
@@ -8314,7 +9040,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 17,
+              "position": 26,
               "id": "01m02agqvzjjczjgfrjqd8qyqj",
               "title": "De enige AI-skill die er echt toe doet",
               "author": "AI Report",
@@ -8342,7 +9068,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 18,
+              "position": 27,
               "id": "01kzds50ngmgn4d833k9cj9dp2",
               "title": "Wie bepaalt of jouw werk “AI slop” is?",
               "author": "Saskia en Alinda van her/ai",
@@ -8370,7 +9096,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 19,
+              "position": 28,
               "id": "01kxfv166ahh2jwz1pr03kevc9",
               "title": "Stel kritische vragen bij het AI-evangelie",
               "author": "Sophie van Gool",
@@ -8396,7 +9122,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 20,
+              "position": 29,
               "id": "01kzdbf87h4fzk1m5hz1zgh27t",
               "title": "De ideologische no-brainer voor het kabinet",
               "author": "Rode Cijfers",
@@ -8421,6 +9147,124 @@ window.TOP_ARTICLES = {
               ],
               "alsoIn": [
                 "aaa-dutch-top-100"
+              ]
+            },
+            {
+              "position": 30,
+              "id": "01kshptdc5njqdmnehkxr4arfb",
+              "title": "Een walgelijke man",
+              "author": "Fouad El Hamdaoui",
+              "siteName": "Substack",
+              "category": "email",
+              "language": "Nederlands",
+              "readingTime": "2 mins",
+              "readingMinutes": 2,
+              "wordCount": 462,
+              "publishedDate": "2026-05-26",
+              "savedDate": "2026-05-26T08:36:02.054000+00:00",
+              "imageUrl": null,
+              "sourceUrl": "mailto:reader-forwarded-email/a10f2d38f6ef61984f2a14c198105623",
+              "readwiseUrl": "https://read.readwise.io/read/01kshptdc5njqdmnehkxr4arfb",
+              "summary": "Ik-verteller beschrijft een depressieve man met suïcidale gedachten die ondanks een 'perfect plaatje' leeg en walgend is — de twist: de man is hijzelf, in de badkamerspiegel.",
+              "whyRead": "Kort en krachtig Nederlands prozastuk met een scherpe twist: een ogenschijnlijk objectieve blik op andermans depressie en doodsverlangen blijkt uiteindelijk een zelfportret in de spiegel. Sterke stem en beklijvende beeldspraak over hoe suïcidale gedachten de waarneming van de wereld vervormen.",
+              "bestMoment": "reflectief",
+              "tags": [
+                "arts & culture",
+                "health & wellness",
+                "light-reading",
+                "personal growth & life philosophy"
+              ],
+              "alsoIn": [
+                "aaa-dutch-top-100",
+                "aaa-luchtig-nederlands-top-100"
+              ]
+            },
+            {
+              "position": 31,
+              "id": "01kt7kjd4zr8ba59xcpfvmxdfz",
+              "title": "Week 14: kop en staart",
+              "author": "Holly en Roos",
+              "siteName": "Substack",
+              "category": "email",
+              "language": "Nederlands",
+              "readingTime": "5 mins",
+              "readingMinutes": 5,
+              "wordCount": 1193,
+              "publishedDate": "2026-06-03",
+              "savedDate": "2026-06-03T20:42:31.455000+00:00",
+              "imageUrl": null,
+              "sourceUrl": "mailto:reader-forwarded-email/ef98889d4b0749d6aa86a66140526e19",
+              "readwiseUrl": "https://read.readwise.io/read/01kt7kjd4zr8ba59xcpfvmxdfz",
+              "summary": "Ik loop weer eens achter. Met deze blogs dan.",
+              "whyRead": "Raakt je voorkeur voor reflectieve essays met persoonlijke anekdote: een wandelverslag dat eigenlijk gaat over vertragen, afhankelijkheid en het vinden van verhaalvorm.",
+              "bestMoment": "ontspannen",
+              "tags": [
+                "arts & culture",
+                "light-reading",
+                "personal growth & life philosophy"
+              ],
+              "alsoIn": [
+                "aaa-dutch-top-100",
+                "aaa-luchtig-nederlands-top-100"
+              ]
+            },
+            {
+              "position": 32,
+              "id": "01kwnpartfb70amv2acccwcsr1",
+              "title": "Vijf muggen in mijn klamboe",
+              "author": "Dorien.Bot",
+              "siteName": "Substack",
+              "category": "email",
+              "language": "Nederlands",
+              "readingTime": "1 min",
+              "readingMinutes": 1,
+              "wordCount": 200,
+              "publishedDate": "2026-07-04",
+              "savedDate": "2026-07-04T04:31:32.687000+00:00",
+              "imageUrl": null,
+              "sourceUrl": "mailto:reader-forwarded-email/84c36bd5582d3b64326bd54530a924e5",
+              "readwiseUrl": "https://read.readwise.io/read/01kwnpartfb70amv2acccwcsr1",
+              "summary": null,
+              "whyRead": "Zeer korte Nederlandstalige persoonlijke tekst; mogelijk charmant als miniatuur, maar te klein en contextarm voor de leesstapel. Vastleggen is genoeg, daarna archiveren.",
+              "bestMoment": "ontspannen",
+              "tags": [
+                "arts & culture",
+                "light-reading",
+                "personal growth & life philosophy"
+              ],
+              "alsoIn": [
+                "aaa-dutch-top-100",
+                "aaa-luchtig-nederlands-top-100"
+              ]
+            },
+            {
+              "position": 33,
+              "id": "01m01v1rmpqh6acc6t5t8cdy21",
+              "title": "Was ik maar iets meer robotesk",
+              "author": "Dorien.Bot",
+              "siteName": "Substack",
+              "category": "email",
+              "language": "Nederlands",
+              "readingTime": "1 min",
+              "readingMinutes": 1,
+              "wordCount": 202,
+              "publishedDate": "2026-08-15",
+              "savedDate": "2026-08-15T04:31:59.126000+00:00",
+              "imageUrl": null,
+              "sourceUrl": "mailto:reader-forwarded-email/2ec413816edffa53c071aa10b7604a1a",
+              "readwiseUrl": "https://read.readwise.io/read/01m01v1rmpqh6acc6t5t8cdy21",
+              "summary": null,
+              "whyRead": "Een luchtig, raak gedicht over productiviteitsdwang en aandacht. De humor werkt als kleine tegenstem bij de neiging om zelfs vijf minuten verwondering over een geparkeerde truck als verlies te behandelen.",
+              "bestMoment": "ontspannen",
+              "tags": [
+                "arts & culture",
+                "later",
+                "light-reading",
+                "personal growth & life philosophy"
+              ],
+              "alsoIn": [
+                "aaa-dutch-top-100",
+                "aaa-luchtig-nederlands-top-100"
               ]
             }
           ]
@@ -8504,6 +9348,37 @@ window.TOP_ARTICLES = {
             },
             {
               "position": 3,
+              "id": "01kf0p1x4zzc3hqf55wqyngafr",
+              "title": "On the preparations before writing an essay",
+              "author": "Henrik Karlsson",
+              "siteName": "Substack",
+              "category": "email",
+              "language": "Engels",
+              "readingTime": "8 mins",
+              "readingMinutes": 8,
+              "wordCount": 2007,
+              "publishedDate": "2026-01-15",
+              "savedDate": "2026-01-15T11:18:35.423000+00:00",
+              "imageUrl": null,
+              "sourceUrl": "mailto:reader-forwarded-email/be26eefff765a8e8d36d86b94368e5ea",
+              "readwiseUrl": "https://read.readwise.io/read/01kf0p1x4zzc3hqf55wqyngafr",
+              "summary": "- Treat essay prep like filming a doc: gather lots of rough, detailed prose before editing.\n- He mines journals, talks, quotes, and AI searches, then rapidly tests openings and stories.\n- Example and updates: one essay fused taped stories with an old Aristotle draft; there’s a fierce island storm, a planned Andalucia trip, a found Grothendieck translation, and he’s reading Magic Mountain.",
+              "whyRead": "Henrik Karlsson over de voorbereiding op essay schrijven — waardevol voor je interesse in schrijven, creativiteit en kennisverwerking.",
+              "bestMoment": "geconcentreerd",
+              "tags": [
+                "ai & machine learning",
+                "arts & culture",
+                "learning & meta-learning",
+                "light-reading"
+              ],
+              "alsoIn": [
+                "aaa-top-100",
+                "aaa-short-top-100",
+                "aaa-luchtig-top-100"
+              ]
+            },
+            {
+              "position": 4,
               "id": "01kyxyqrfvk85easc927qpwtns",
               "title": "The Ones Who Walk Away From Omelas",
               "author": "Ursula K Le Guin",
@@ -8535,7 +9410,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 4,
+              "position": 5,
               "id": "01khr5h2d75yj0yt1v6seck4nt",
               "title": "On the compulsion to make art",
               "author": "Henrik Karlsson",
@@ -8565,7 +9440,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 5,
+              "position": 6,
               "id": "01kmbp17grppjmpxqfsq4z3zy7",
               "title": "Sucker",
               "author": "McKay Coppins",
@@ -8595,7 +9470,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 6,
+              "position": 7,
               "id": "01kqqh8gp2nh0d0c859h61yths",
               "title": "The Society of the Spectacle",
               "author": "Guy Debord",
@@ -8625,7 +9500,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 7,
+              "position": 8,
               "id": "01kyxa2yd57szp13ha57708606",
               "title": "Your Book Review: The Epic Of Gilgamesh",
               "author": "Astral Codex Ten",
@@ -8655,7 +9530,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 8,
+              "position": 9,
               "id": "01m059szgmq8b5egbkgk1xe1rd",
               "title": "Arthur Koestler",
               "author": "orwellfoundation.com",
@@ -8685,7 +9560,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 9,
+              "position": 10,
               "id": "01m059v21gaqg3ya0m36r03km4",
               "title": "Politics and the English Language",
               "author": "orwellfoundation.com",
@@ -8702,35 +9577,6 @@ window.TOP_ARTICLES = {
               "readwiseUrl": "https://read.readwise.io/read/01m059v21gaqg3ya0m36r03km4",
               "summary": "\"Political language... is designed to make lies sound truthful and murder respectable, and to give an appearance of solidity to pure wind.\"",
               "whyRead": "Raakt direct je interesse in essay schrijven als vorm/schrijfcraft én politieke filosofie — Orwell's beroemdste stijladvies is tegelijk een scherp politiek argument over hoe vage taal denken vervangt.",
-              "bestMoment": "analytisch",
-              "tags": [
-                "arts & culture",
-                "light-reading",
-                "political philosophy"
-              ],
-              "alsoIn": [
-                "aaa-top-100",
-                "aaa-luchtig-top-100"
-              ]
-            },
-            {
-              "position": 10,
-              "id": "01m059v4r9jj9vzx30nn7cs3sr",
-              "title": "Politics vs. Literature: An examination of Gulliver’s Travels",
-              "author": "orwellfoundation.com",
-              "siteName": "The Orwell Foundation",
-              "category": "article",
-              "language": null,
-              "readingTime": "30 mins",
-              "readingMinutes": 30,
-              "wordCount": 7790,
-              "publishedDate": "2011-10-11",
-              "savedDate": "2026-08-16T12:48:14.089000+00:00",
-              "imageUrl": null,
-              "sourceUrl": "https://www.orwellfoundation.com/the-orwell-foundation/orwell/essays-and-other-works/politics-vs-literature-an-examination-of-gullivers-travels/",
-              "readwiseUrl": "https://read.readwise.io/read/01m059v4r9jj9vzx30nn7cs3sr",
-              "summary": "\"What is the relationship between agreement with a writer's opinions, and enjoyment of his work?\"",
-              "whyRead": "Raakt je interesse in politieke filosofie en essay/literatuurkritiek als vorm — Orwell laat zien hoe politieke overtuiging, esthetisch oordeel en kunstwaarde onlosmakelijk verstrengeld zijn.",
               "bestMoment": "analytisch",
               "tags": [
                 "arts & culture",
@@ -8814,6 +9660,37 @@ window.TOP_ARTICLES = {
             },
             {
               "position": 3,
+              "id": "01kf0p1x4zzc3hqf55wqyngafr",
+              "title": "On the preparations before writing an essay",
+              "author": "Henrik Karlsson",
+              "siteName": "Substack",
+              "category": "email",
+              "language": "Engels",
+              "readingTime": "8 mins",
+              "readingMinutes": 8,
+              "wordCount": 2007,
+              "publishedDate": "2026-01-15",
+              "savedDate": "2026-01-15T11:18:35.423000+00:00",
+              "imageUrl": null,
+              "sourceUrl": "mailto:reader-forwarded-email/be26eefff765a8e8d36d86b94368e5ea",
+              "readwiseUrl": "https://read.readwise.io/read/01kf0p1x4zzc3hqf55wqyngafr",
+              "summary": "- Treat essay prep like filming a doc: gather lots of rough, detailed prose before editing.\n- He mines journals, talks, quotes, and AI searches, then rapidly tests openings and stories.\n- Example and updates: one essay fused taped stories with an old Aristotle draft; there’s a fierce island storm, a planned Andalucia trip, a found Grothendieck translation, and he’s reading Magic Mountain.",
+              "whyRead": "Henrik Karlsson over de voorbereiding op essay schrijven — waardevol voor je interesse in schrijven, creativiteit en kennisverwerking.",
+              "bestMoment": "geconcentreerd",
+              "tags": [
+                "ai & machine learning",
+                "arts & culture",
+                "learning & meta-learning",
+                "light-reading"
+              ],
+              "alsoIn": [
+                "aaa-top-100",
+                "aaa-short-top-100",
+                "aaa-luchtig-top-10"
+              ]
+            },
+            {
+              "position": 4,
               "id": "01kyxyqrfvk85easc927qpwtns",
               "title": "The Ones Who Walk Away From Omelas",
               "author": "Ursula K Le Guin",
@@ -8845,7 +9722,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 4,
+              "position": 5,
               "id": "01khr5h2d75yj0yt1v6seck4nt",
               "title": "On the compulsion to make art",
               "author": "Henrik Karlsson",
@@ -8875,7 +9752,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 5,
+              "position": 6,
               "id": "01kmbp17grppjmpxqfsq4z3zy7",
               "title": "Sucker",
               "author": "McKay Coppins",
@@ -8905,7 +9782,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 6,
+              "position": 7,
               "id": "01kqqh8gp2nh0d0c859h61yths",
               "title": "The Society of the Spectacle",
               "author": "Guy Debord",
@@ -8935,7 +9812,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 7,
+              "position": 8,
               "id": "01kyxa2yd57szp13ha57708606",
               "title": "Your Book Review: The Epic Of Gilgamesh",
               "author": "Astral Codex Ten",
@@ -8965,7 +9842,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 8,
+              "position": 9,
               "id": "01m059szgmq8b5egbkgk1xe1rd",
               "title": "Arthur Koestler",
               "author": "orwellfoundation.com",
@@ -8995,7 +9872,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 9,
+              "position": 10,
               "id": "01m059v21gaqg3ya0m36r03km4",
               "title": "Politics and the English Language",
               "author": "orwellfoundation.com",
@@ -9024,7 +9901,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 10,
+              "position": 11,
               "id": "01m059v4r9jj9vzx30nn7cs3sr",
               "title": "Politics vs. Literature: An examination of Gulliver’s Travels",
               "author": "orwellfoundation.com",
@@ -9048,12 +9925,11 @@ window.TOP_ARTICLES = {
                 "political philosophy"
               ],
               "alsoIn": [
-                "aaa-top-100",
-                "aaa-luchtig-top-10"
+                "aaa-top-100"
               ]
             },
             {
-              "position": 11,
+              "position": 12,
               "id": "01m03b0vhwd52bhh3rdjhdafv2",
               "title": "Why I Write",
               "author": "The Orwell Foundation",
@@ -9081,7 +9957,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 12,
+              "position": 13,
               "id": "01k3wpn5ak9v4pmtc85h462cav",
               "title": "On the pleasure of reading private notebooks",
               "author": "Henrik Karlsson",
@@ -9111,7 +9987,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 13,
+              "position": 14,
               "id": "01k7qbgbanjkbvetnkfd47vkrz",
               "title": "How I wrote \"Looking for Alice\"",
               "author": "Henrik Karlsson",
@@ -9141,7 +10017,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 14,
+              "position": 15,
               "id": "01k8v9cz0ah2x4qddn265e4cnt",
               "title": "Everything Is Television",
               "author": "Derek Thompson",
@@ -9171,7 +10047,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 15,
+              "position": 16,
               "id": "01kqwf46h1tackak8werthsvy5",
               "title": "Henrik Karlsson: The Writing Process Nobody Teaches You",
               "author": "David Perell",
@@ -9200,7 +10076,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 16,
+              "position": 17,
               "id": "01kvarejkjdc6y2cjp2d0ewgkd",
               "title": "The Desecration of Man - Say No to Nietzsche",
               "author": "R.W. Richey from We Are Not Saved",
@@ -9230,7 +10106,44 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 17,
+              "position": 18,
+              "id": "01kvcgsfekyqqc5b9t3nmrge8m",
+              "title": "Hoera, het is Waterloodag!",
+              "author": "De Ongelooflijke",
+              "siteName": "Substack",
+              "category": "email",
+              "language": "Nederlands",
+              "readingTime": "8 mins",
+              "readingMinutes": 8,
+              "wordCount": 1935,
+              "publishedDate": "2026-06-18",
+              "savedDate": "2026-06-18T04:45:51.444000+00:00",
+              "imageUrl": null,
+              "sourceUrl": "mailto:reader-forwarded-email/9063dc73da1b3f69c5087334680b7b3a",
+              "readwiseUrl": "https://read.readwise.io/read/01kvcgsfekyqqc5b9t3nmrge8m",
+              "summary": "Meer dan honderd jaar was 18 juni in Nederland een nationale feestdag, ter herinnering aan de Slag bij Waterloo (1815): de dag waarop Napoleon definitief werd verslagen en de geschiedenis van Nederland en Europa een beslissende wending nam.",
+              "whyRead": "Raakt je interesse in Europese geschiedenis en collectief geheugen: zeven veldslagen worden niet alleen militair, maar ook cultureel en identitair geduid. De meerwaarde zit in de combinatie van geschiedenis, mythevorming en historische verbeelding.",
+              "bestMoment": "ontspannen",
+              "tags": [
+                "arts & culture",
+                "history",
+                "later",
+                "light-reading",
+                "sociology & social structures"
+              ],
+              "alsoIn": [
+                "aaa-top-100",
+                "aaa-dutch-top-10",
+                "aaa-dutch-top-100",
+                "aaa-short-top-100",
+                "aaa-short-dutch-top-10",
+                "aaa-short-dutch-top-100",
+                "aaa-luchtig-nederlands-top-10",
+                "aaa-luchtig-nederlands-top-100"
+              ]
+            },
+            {
+              "position": 19,
               "id": "01kvh7ec1tezr2vy9bqgsm6an4",
               "title": "Is There a Science of Writing?",
               "author": "Carl Hendrick from The Learning Dispatch",
@@ -9260,7 +10173,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 18,
+              "position": 20,
               "id": "01kvjbgrqsftb77gs496c0p12t",
               "title": "If the First Apocalypse Doesn’t Get You, the Second One Will",
               "author": "Miller’s Book Review 📚",
@@ -9290,7 +10203,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 19,
+              "position": 21,
               "id": "01kvwwdq8bhy9m3x614gmtn41d",
               "title": "Andrew Stanton: Storytelling Secrets from the Writer of Toy Story 5",
               "author": "David Perell",
@@ -9319,7 +10232,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 20,
+              "position": 22,
               "id": "01kwfk5q2rtfm9enggaybd07zq",
               "title": "David Sedaris: Lessons From Decades of Writing",
               "author": "David Perell",
@@ -9348,7 +10261,38 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 21,
+              "position": 23,
+              "id": "01kx66q5d0pg8whe75n7qr82td",
+              "title": "Count Binface and the Politics of Ridicule",
+              "author": "Brian Klaas",
+              "siteName": "Substack",
+              "category": "email",
+              "language": "Engels",
+              "readingTime": "8 mins",
+              "readingMinutes": 8,
+              "wordCount": 1940,
+              "publishedDate": "2026-07-10",
+              "savedDate": "2026-07-10T14:25:46.912000+00:00",
+              "imageUrl": null,
+              "sourceUrl": "mailto:reader-forwarded-email/7154c0dec7aab7aedef90cb1e3549036",
+              "readwiseUrl": "https://read.readwise.io/read/01kx66q5d0pg8whe75n7qr82td",
+              "summary": "Thanks for reading The Garden of Forking Paths. This edition is for everyone, but if you value my writing, please consider upgrading to a paid subscription for just $5/month or $50/year.",
+              "whyRead": "Raakt je interesse in politiek als cultuurvorm: Brian Klaas gebruikt Count Binface waarschijnlijk om spot, absurditeit en macht serieus te analyseren. De meerwaarde zit in ridicule als democratisch of populistisch instrument.",
+              "bestMoment": "ontspannen",
+              "tags": [
+                "arts & culture",
+                "current affairs & politics",
+                "later",
+                "light-reading",
+                "political philosophy"
+              ],
+              "alsoIn": [
+                "aaa-top-100",
+                "aaa-short-top-100"
+              ]
+            },
+            {
+              "position": 24,
               "id": "01kxy1qnae4npandc4x9mv4aw0",
               "title": "To Understand Elon Musk, You Have to Understand This ’60s Sci-Fi Novel",
               "author": "jacobin.com",
@@ -9379,7 +10323,38 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 22,
+              "position": 25,
+              "id": "01kycfev2jfr2v5x5pqr2scxz7",
+              "title": "How to Win a Billion Dollars and Ruin Your Life",
+              "author": "Miller’s Book Review 📚",
+              "siteName": "Substack",
+              "category": "email",
+              "language": "Engels",
+              "readingTime": "5 mins",
+              "readingMinutes": 5,
+              "wordCount": 1249,
+              "publishedDate": "2026-07-25",
+              "savedDate": "2026-07-25T11:09:39.795000+00:00",
+              "imageUrl": null,
+              "sourceUrl": "mailto:reader-forwarded-email/c3fe10e11ea986437105f911800c098d",
+              "readwiseUrl": "https://read.readwise.io/read/01kycfev2jfr2v5x5pqr2scxz7",
+              "summary": "The great myths are always with us. “The ‘Iliad’ is only great because all life is a battle, the ‘Odyssey’ because all life is a journey, the Book of Job because all life is a riddle,” said G.",
+              "whyRead": "Raakt je interesse in fictie, mythes en cultuurkritiek: deze review laat zien hoe een hedendaagse satire Icarus, Phaethon en Cassandra gebruikt voor rijkdom, status en politieke ambitie.",
+              "bestMoment": "ontspannen",
+              "tags": [
+                "arts & culture",
+                "fiction",
+                "later",
+                "light-reading",
+                "political philosophy"
+              ],
+              "alsoIn": [
+                "aaa-top-100",
+                "aaa-short-top-100"
+              ]
+            },
+            {
+              "position": 26,
               "id": "01kz9q1etvj82wyb44kpaj3r3c",
               "title": "Mark Forsyth: Stop Writing Like They Taught You in School",
               "author": "David Perell",
@@ -9402,12 +10377,10 @@ window.TOP_ARTICLES = {
                 "light-reading",
                 "professional development"
               ],
-              "alsoIn": [
-                "aaa-top-100"
-              ]
+              "alsoIn": []
             },
             {
-              "position": 23,
+              "position": 27,
               "id": "01m059t4kq0fgjsx21x28nbdqk",
               "title": "Freedom and Happiness (Review of ‘We’ by Yevgeny Zamyatin)",
               "author": "orwellfoundation.com",
@@ -9432,12 +10405,11 @@ window.TOP_ARTICLES = {
                 "totalitarianism & fascism"
               ],
               "alsoIn": [
-                "aaa-top-100",
                 "aaa-short-top-100"
               ]
             },
             {
-              "position": 24,
+              "position": 28,
               "id": "01m059tzwnjdjtmteh5jpa7bxz",
               "title": "Pleasure Spots",
               "author": "orwellfoundation.com",
@@ -9466,7 +10438,121 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 25,
+              "position": 29,
+              "id": "01m0d9rt9b3a66m87wr62cjx7g",
+              "title": "Elif Shafak and Robert Macfarlane: Two Novelists Have an Epic Conversation",
+              "author": "David Perell",
+              "siteName": "Substack",
+              "category": "email",
+              "language": null,
+              "readingTime": "31 mins",
+              "readingMinutes": 31,
+              "wordCount": 8201,
+              "publishedDate": "2026-08-19",
+              "savedDate": "2026-08-19T15:20:53.291000+00:00",
+              "imageUrl": null,
+              "sourceUrl": "mailto:reader-forwarded-email/1bdc336a822b7b7a219c525962aaf22c",
+              "readwiseUrl": "https://read.readwise.io/read/01m0d9rt9b3a66m87wr62cjx7g",
+              "summary": "Alpha School is what I wish existed back then.",
+              "whyRead": "Raakt je interesse in essay schrijven en filosofie — een dicht, associatief gesprek tussen twee grote schrijvers over taal, aandacht, natuur en de motivatie om te schrijven.",
+              "bestMoment": "geconcentreerd",
+              "tags": [
+                "arts & culture",
+                "light-reading",
+                "philosophy"
+              ],
+              "alsoIn": []
+            },
+            {
+              "position": 30,
+              "id": "01m0f29337jsph1jwqq3njdbkc",
+              "title": "In de bioscoop blijkt dat we eer belangrijker vinden dan je zou denken",
+              "author": "nrc.nl",
+              "siteName": "NRC",
+              "category": "article",
+              "language": null,
+              "readingTime": "7 mins",
+              "readingMinutes": 7,
+              "wordCount": 1710,
+              "publishedDate": "2026-08-14",
+              "savedDate": "2026-08-20T07:48:26.855000+00:00",
+              "imageUrl": "https://images.nrc.nl/ZTi2r5x5jLrJe9JXb8qjYTCWqgg=/1200x627/smart/filters:no_upscale()/s3/static.nrc.nl/wp-content/uploads/2026/08/13085908/web-140826OPI_2035858516_Opinie_debat_BasHeijne_Odysseus_Cyprian.jpg",
+              "sourceUrl": "https://www.nrc.nl/nieuws/2026/08/14/in-de-bioscoop-blijkt-dat-we-eer-belangrijker-vinden-dan-je-zou-denken-a4934331",
+              "readwiseUrl": "https://read.readwise.io/read/01m0f29337jsph1jwqq3njdbkc",
+              "summary": "Helden: Kranten raken niet uitgeschreven over The Odyssey, terwijl in Frankrijk een epos over Charles de Gaulle een grote hit is. De overeenkomst, schrijft Bas Heijne, is dat beide werken óók gaan over het schurend onbehagen van onze tijd.",
+              "whyRead": "Nederlandstalig essay van Bas Heijne (NRC) dat raakt aan je interesse in politieke filosofie en cultuurkritiek — een scherpe analyse van \"eer\" en moreel kapitaal via twee actuele films (Nolans Odyssey, Baudry's De Gaulle), met een directe lijn naar hedendaags politiek opportunisme.",
+              "bestMoment": "analytisch",
+              "tags": [
+                "arts & culture",
+                "current affairs & politics",
+                "light-reading",
+                "linked-from-readwise",
+                "political philosophy"
+              ],
+              "alsoIn": [
+                "aaa-short-top-100"
+              ]
+            },
+            {
+              "position": 31,
+              "id": "01j421m304fbn5rwfh0a9bpzp3",
+              "title": "Fear as a Game",
+              "author": "Cheri Lucas Rowlands",
+              "siteName": "Longreads",
+              "category": "article",
+              "language": "Engels",
+              "readingTime": "2 mins",
+              "readingMinutes": 2,
+              "wordCount": 322,
+              "publishedDate": "2024-07-29",
+              "savedDate": "2024-07-30T14:45:01.572000+00:00",
+              "imageUrl": "",
+              "sourceUrl": "https://longreads.com/2024/07/29/fear-as-a-game/?mc_cid=0ae1072586",
+              "readwiseUrl": "https://read.readwise.io/read/01j421m304fbn5rwfh0a9bpzp3",
+              "summary": "The essay \"Fear as a Game\" by Elisa Gabbert explores why some people enjoy thrilling and risky experiences, like roller coasters and scary movies. Gabbert reflects on her own fear of heights and distinguishes between anxiety and fear, noting that fear can be activating while anxiety often leads to paralysis. She wonders if experiencing fear from a distance could be beneficial, as it allows us to confront real threats without immediate danger.",
+              "whyRead": "Raakt je interesse in essays met een persoonlijke stem — Elisa Gabbert reflecteert over angst, spel en luxe-angst als filosofisch fenomeen.",
+              "bestMoment": "reflectief",
+              "tags": [
+                "arts & culture",
+                "light-reading",
+                "personal growth & life philosophy",
+                "writing & essays"
+              ],
+              "alsoIn": [
+                "aaa-short-top-100"
+              ]
+            },
+            {
+              "position": 32,
+              "id": "01jkgy1x7yacy66ys284ddq8yw",
+              "title": "Why do most popular science books suck?",
+              "author": "Erik Hoel",
+              "siteName": "theintrinsicperspective.com",
+              "category": "article",
+              "language": "Engels",
+              "readingTime": "7 mins",
+              "readingMinutes": 7,
+              "wordCount": 1818,
+              "publishedDate": "2021-09-22",
+              "savedDate": "2025-02-07T19:26:43.967000+00:00",
+              "imageUrl": "https://substackcdn.com/image/fetch/w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fc302a864-c554-42d2-b720-eac132f97fa1_642x583.png",
+              "sourceUrl": "https://www.theintrinsicperspective.com/p/why-do-most-popular-science-books",
+              "readwiseUrl": "https://read.readwise.io/read/01jkgy1x7yacy66ys284ddq8yw",
+              "summary": "Most popular science books are often unoriginal and overhyped, lacking fresh ideas or true excitement. The author argues that the best nonfiction books tend to be written by amateurs who explore ideas outside traditional academic boundaries. Embracing a playful and interdisciplinary approach can lead to more engaging and meaningful science writing.",
+              "whyRead": "Waarom de meeste populairwetenschappelijke boeken tegenvallen — een scherpe analyse.",
+              "bestMoment": "kritisch",
+              "tags": [
+                "arts & culture",
+                "learning & meta-learning",
+                "light-reading",
+                "writing & essays"
+              ],
+              "alsoIn": [
+                "aaa-short-top-100"
+              ]
+            },
+            {
+              "position": 33,
               "id": "01jkh2vn8hfm2b2ys7eefgrw9h",
               "title": "Advice for a friend who wants to start a blog",
               "author": "Henrik Karlsson",
@@ -9495,7 +10581,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 26,
+              "position": 34,
               "id": "01k2p37kkgn4hk8dn1qxb870qd",
               "title": "How to Teach Textual Criticism To Fifth-Graders",
               "author": "nephew jonathan",
@@ -9524,7 +10610,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 27,
+              "position": 35,
               "id": "01k7j6p8a88r4t4zarr6pqya82",
               "title": "Writing as communion",
               "author": "Henrik Karlsson",
@@ -9553,7 +10639,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 28,
+              "position": 36,
               "id": "01k7qbg40qvbeqszm5nr2wpmyz",
               "title": "Dostoevsky as lover",
               "author": "Henrik Karlsson",
@@ -9582,7 +10668,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 29,
+              "position": 37,
               "id": "01k7zy55f0v2sdenq3zpyskqt2",
               "title": "How Did The World Get So Ugly?",
               "author": "The Cultural Tutor | Sheehan Quirke",
@@ -9613,7 +10699,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 30,
+              "position": 38,
               "id": "01k9p5pa1athkkdm2j2nxfhf26",
               "title": "A Modest Proposal for Life After Death",
               "author": "Brian Klaas",
@@ -9640,7 +10726,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 31,
+              "position": 39,
               "id": "01kc53cvnp2fqe09v8vmbym5mx",
               "title": "🎓 On Teleportation & Understanding via Writing",
               "author": "Eleanor Konik",
@@ -9669,7 +10755,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 32,
+              "position": 40,
               "id": "01kchxs5s6y615eazs4hhqgm7h",
               "title": "A list of books and essays that I love",
               "author": "Henrik Karlsson",
@@ -9698,7 +10784,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 33,
+              "position": 41,
               "id": "01kf916mwdxkdydep3wwes334d",
               "title": "Alessandro Manzoni’s “The Betrothed,” Reconsidered | The New Yorker",
               "author": "Joan Acocella",
@@ -9725,7 +10811,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 34,
+              "position": 42,
               "id": "01kj5a1mnca55881qyj3jzm64b",
               "title": "The Library of Lost Maps",
               "author": "Brian Klaas",
@@ -9752,7 +10838,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 35,
+              "position": 43,
               "id": "01kmsrjw7b8q2k5fb547bxerv2",
               "title": "The Death of Spotify: Why Streaming is Minutes Away From Being Obsolete",
               "author": "Joel Gouveia",
@@ -9781,7 +10867,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 36,
+              "position": 44,
               "id": "01kn4c4mv24kk2vjxqcn0y6efj",
               "title": "Days are enormous",
               "author": "Henrik Karlsson",
@@ -9810,7 +10896,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 37,
+              "position": 45,
               "id": "01krm5d32nfhsa44jvbq4s6nny",
               "title": "📚 Fear, War, & God: Post-Rationalist Philosophy... in SPAAAAAACE",
               "author": "Eleanor Konik",
@@ -9837,7 +10923,65 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 38,
+              "position": 46,
+              "id": "01ksspmmztsr8pd0zq5k2pcnke",
+              "title": "The Wrong Fight over AI and Writing",
+              "author": "Miller’s Book Review 📚",
+              "siteName": "Substack",
+              "category": "email",
+              "language": "Engels",
+              "readingTime": "8 mins",
+              "readingMinutes": 8,
+              "wordCount": 1870,
+              "publishedDate": "2026-05-29",
+              "savedDate": "2026-05-29T11:06:48.698000+00:00",
+              "imageUrl": null,
+              "sourceUrl": "mailto:reader-forwarded-email/baf3115d9ed82bf69d604b32922b0762",
+              "readwiseUrl": "https://read.readwise.io/read/01ksspmmztsr8pd0zq5k2pcnke",
+              "summary": "A writer expostulating on truth in the age of AI used AI for his research and inadvertently passed off a bunch of bogus—that is to say, untrue—information in the process.",
+              "whyRead": null,
+              "bestMoment": "kritisch",
+              "tags": [
+                "ai ethics & society",
+                "arts & culture",
+                "light-reading"
+              ],
+              "alsoIn": []
+            },
+            {
+              "position": 47,
+              "id": "01kt9sbc2hgkymt9expprgkgdp",
+              "title": "In de Apocalyps is de vrouw een teken van hoop",
+              "author": "De Ongelooflijke",
+              "siteName": "Substack",
+              "category": "email",
+              "language": "Nederlands",
+              "readingTime": "11 mins",
+              "readingMinutes": 11,
+              "wordCount": 2806,
+              "publishedDate": "2026-06-04",
+              "savedDate": "2026-06-04T17:02:01.298000+00:00",
+              "imageUrl": null,
+              "sourceUrl": "mailto:reader-forwarded-email/1b764fdf5abd46623c037fd1ff273434",
+              "readwiseUrl": "https://read.readwise.io/read/01kt9sbc2hgkymt9expprgkgdp",
+              "summary": "Meestal wordt de Apocalyps geassocieerd met chaos, oorlog en vernietiging; het einde der tijden en de ondergang van de wereld.",
+              "whyRead": "Raakt je interesse in cultuurgeschiedenis, religieuze beeldtaal en kunst als ideeënwereld: een rijk essay over de apocalyptische vrouw als hoopmotief in plaats van alleen rampsymbool.",
+              "bestMoment": "geconcentreerd",
+              "tags": [
+                "arts & culture",
+                "history",
+                "later",
+                "light-reading",
+                "philosophy"
+              ],
+              "alsoIn": [
+                "aaa-dutch-top-100",
+                "aaa-luchtig-nederlands-top-10",
+                "aaa-luchtig-nederlands-top-100"
+              ]
+            },
+            {
+              "position": 48,
               "id": "01ktv2sxayxrqj6yzvyhjes6tf",
               "title": "Leeslijst mei 2026",
               "author": "Kauthar",
@@ -9863,7 +11007,6 @@ window.TOP_ARTICLES = {
               ],
               "alsoIn": [
                 "aaa-dutch-top-100",
-                "aaa-short-top-100",
                 "aaa-short-dutch-top-10",
                 "aaa-short-dutch-top-100",
                 "aaa-luchtig-nederlands-top-10",
@@ -9871,7 +11014,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 39,
+              "position": 49,
               "id": "01kw5smp76n3se61jv02c1zzx9",
               "title": "Why Writing Feels So Unnatural",
               "author": "A Mug of Insights",
@@ -9895,12 +11038,10 @@ window.TOP_ARTICLES = {
                 "light-reading",
                 "professional development"
               ],
-              "alsoIn": [
-                "aaa-short-top-100"
-              ]
+              "alsoIn": []
             },
             {
-              "position": 40,
+              "position": 50,
               "id": "01kbdw3w0vrspnk8yzrfxypq51",
               "title": "The Quiet Collapse of Reading—and the Only Real Solution",
               "author": "Joel J Miller",
@@ -9924,12 +11065,10 @@ window.TOP_ARTICLES = {
                 "light-reading",
                 "parenting & care"
               ],
-              "alsoIn": [
-                "aaa-short-top-100"
-              ]
+              "alsoIn": []
             },
             {
-              "position": 41,
+              "position": 51,
               "id": "01m059v98jpw8wgvff3t63dxm4",
               "title": "Rudyard Kipling",
               "author": "orwellfoundation.com",
@@ -9955,7 +11094,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 42,
+              "position": 52,
               "id": "01m059vdx0s3ff8xbj5eh1y9x3",
               "title": "Some Thoughts on the Common Toad",
               "author": "orwellfoundation.com",
@@ -9978,12 +11117,10 @@ window.TOP_ARTICLES = {
                 "light-reading",
                 "personal growth & life philosophy"
               ],
-              "alsoIn": [
-                "aaa-short-top-100"
-              ]
+              "alsoIn": []
             },
             {
-              "position": 43,
+              "position": 53,
               "id": "01m059vjndfmzkwh9sphxzfhc6",
               "title": "The Prevention of Literature",
               "author": "orwellfoundation.com",
@@ -10010,7 +11147,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 44,
+              "position": 54,
               "id": "01m059vn29v5bjn4nbhe0efecg",
               "title": "The Proletarian Writer",
               "author": "orwellfoundation.com",
@@ -10037,7 +11174,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 45,
+              "position": 55,
               "id": "01m059vqea4t02392f7364m2jr",
               "title": "The Spike",
               "author": "orwellfoundation.com",
@@ -10064,7 +11201,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 46,
+              "position": 56,
               "id": "01m05be2mdpdf3vg9xy5xr0kcz",
               "title": "The Art of Donald McGill",
               "author": "orwellfoundation.com",
@@ -10091,7 +11228,60 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 47,
+              "position": 57,
+              "id": "01m0d55v1be0bcsmx7xczarntk",
+              "title": "That’s the Deal: What Rankles You Most About AI Prose?",
+              "author": "Miller’s Book Review 📚",
+              "siteName": "Substack",
+              "category": "email",
+              "language": null,
+              "readingTime": "8 mins",
+              "readingMinutes": 8,
+              "wordCount": 1979,
+              "publishedDate": "2026-08-19",
+              "savedDate": "2026-08-19T14:00:37.164000+00:00",
+              "imageUrl": null,
+              "sourceUrl": "mailto:reader-forwarded-email/c568a0e35086e30fedcf4b55cbce56e2",
+              "readwiseUrl": "https://read.readwise.io/read/01m0d55v1be0bcsmx7xczarntk",
+              "summary": "It’s a good thing the brouhaha about AI writing is finally blowing over. I keed, I keed; it’s hotter than ever.",
+              "whyRead": "Raakt direct je interesse in AI en essay schrijven — een scherpe analyse van waarom AI-proza ons teleurstelt, ook als het technisch prima is, via het concept van de gift economy.",
+              "bestMoment": "analytisch",
+              "tags": [
+                "ai ethics & society",
+                "arts & culture",
+                "light-reading"
+              ],
+              "alsoIn": []
+            },
+            {
+              "position": 58,
+              "id": "01j60ew3kgknk776nphjxvz9ph",
+              "title": "Envy: the Vestige of a Miserable World",
+              "author": "Brian Chau",
+              "siteName": "fromthenew.world",
+              "category": "article",
+              "language": "Engels",
+              "readingTime": "4 mins",
+              "readingMinutes": 4,
+              "wordCount": 1000,
+              "publishedDate": null,
+              "savedDate": "2024-08-23T20:29:30.609000+00:00",
+              "imageUrl": "https://substackcdn.com/image/fetch/w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F86417932-853a-47df-b5c6-ec2f990371de_663x1000.jpeg",
+              "sourceUrl": "https://www.fromthenew.world/p/the-morality-of-envy-is-a-remnant",
+              "readwiseUrl": "https://read.readwise.io/read/01j60ew3kgknk776nphjxvz9ph",
+              "summary": "The book \"Hierarchy in the Forest\" by Christopher Boehm explores the evolution of egalitarianism in human societies and contrasts it with hierarchical structures seen in chimps. Boehm argues that true egalitarianism involves a unique form of hierarchy based on anti-hierarchical sentiments. The book also delves into the concept of humiliation rituals in both ancient and modern societies, shedding light on the darker aspects of enforced equality.",
+              "whyRead": "Raakt je interesse in filosofie en sociologie — een provocatieve recensie van Christopher Boehm's 'Hierarchy in the Forest' over de evolutie van egalitarisme.",
+              "bestMoment": "analytisch",
+              "tags": [
+                "arts & culture",
+                "light-reading",
+                "philosophy",
+                "sociology & inequality"
+              ],
+              "alsoIn": []
+            },
+            {
+              "position": 59,
               "id": "01k2p3vgyxd3egkpvn5y6r2d7n",
               "title": "Genetics and Eugenics in Frank Herbert’s Dune-verse",
               "author": "Gwern Branwen",
@@ -10118,7 +11308,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 48,
+              "position": 60,
               "id": "01k7shq7r399ekxt6pavj3t3aa",
               "title": "Could autism explain Virginia Woolf’s unique voice? Her extraordinary eye for detail and connections suggests it might",
               "author": "Aeon Magazine",
@@ -10145,7 +11335,34 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 49,
+              "position": 61,
+              "id": "01kec58fp6ep87fc5qnf8swc20",
+              "title": "Being creative requires taking risks",
+              "author": "Henrik Karlsson",
+              "siteName": "Substack",
+              "category": "email",
+              "language": "Engels",
+              "readingTime": "11 mins",
+              "readingMinutes": 11,
+              "wordCount": 2720,
+              "publishedDate": "2026-01-07",
+              "savedDate": "2026-01-07T12:00:16.582000+00:00",
+              "imageUrl": null,
+              "sourceUrl": "mailto:reader-forwarded-email/7a31935774c2366a16a2e13224dcf3da",
+              "readwiseUrl": "https://read.readwise.io/read/01kec58fp6ep87fc5qnf8swc20",
+              "summary": "People and AIs slip into “mode collapse,” repeating safe habits and losing novelty.  \nTo stay interesting, seek new input, write a lot, and accept risk even when rewards drop.  \nThe author weighs options and will try small, scary projects while still earning to pay bills.",
+              "whyRead": "Essay over creativiteit als risico-nemen — relevant voor je interesse in schrijven, persoonlijke groei en het doorbreken van middelmatigheid.",
+              "bestMoment": "geïnspireerd",
+              "tags": [
+                "arts & culture",
+                "light-reading",
+                "personal growth & life philosophy",
+                "writing & essays"
+              ],
+              "alsoIn": []
+            },
+            {
+              "position": 62,
               "id": "01knaa433mz4v5rtkbat739xjg",
               "title": "How I learned to just fucking write",
               "author": "kieran cutting",
@@ -10172,7 +11389,67 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 50,
+              "position": 63,
+              "id": "01ksftktanvm593t6d9871cmm4",
+              "title": "This week: a long walk on a beach, and ancient Roman graffiti.",
+              "author": "Tom Scott",
+              "siteName": null,
+              "category": "email",
+              "language": "Engels",
+              "readingTime": "3 mins",
+              "readingMinutes": 3,
+              "wordCount": 533,
+              "publishedDate": "2026-05-25",
+              "savedDate": "2026-05-25T15:03:51.381000+00:00",
+              "imageUrl": null,
+              "sourceUrl": "mailto:reader-forwarded-email/62457fc82f71f7bc4ea7096170e9317c",
+              "readwiseUrl": "https://read.readwise.io/read/01ksftktanvm593t6d9871cmm4",
+              "summary": "And finally, on TikTok: I have no context for this inspection of industrial steel in the central belt of China, but I think that's the point. (Alternate link for desktop.",
+              "whyRead": "Alleen nuttig als lichte link-oogst rond cultuur, geschiedenis en internetcuriosa; de sterkste haak is het Hoplite Experiment als toegankelijke vorm van experimentele geschiedenis.",
+              "bestMoment": "ontspannen",
+              "tags": [
+                "arts & culture",
+                "entertainment & pop culture",
+                "history",
+                "light-reading"
+              ],
+              "alsoIn": []
+            },
+            {
+              "position": 64,
+              "id": "01kvm92m2s24rdpdw5hm665kgj",
+              "title": "De opkomst van culturele rage bait",
+              "author": "Doortje Smithuijsen",
+              "siteName": "Substack",
+              "category": "email",
+              "language": "Nederlands",
+              "readingTime": "2 mins",
+              "readingMinutes": 2,
+              "wordCount": 496,
+              "publishedDate": "2026-06-21",
+              "savedDate": "2026-06-21T05:04:57.946000+00:00",
+              "imageUrl": null,
+              "sourceUrl": "mailto:reader-forwarded-email/ac7fa1c3619097e1654ca4969360d4ae",
+              "readwiseUrl": "https://read.readwise.io/read/01kvm92m2s24rdpdw5hm665kgj",
+              "summary": "Afgelopen week ging ik ondanks mijn horror-haat in mijn eentje naar Obsession - de film over een jongen die wenst dat zijn crush Nikki ook verliefd wordt op hem, met alle gevolgen van dien.",
+              "whyRead": "Raakt je interesse in cultuurkritiek en mediavormen: Smithuijsen leest Gen Z-horror en TikTok-reactiecultuur als symptoom van culturele rage bait. De meerwaarde zit in het idee dat ook 'hoge' cultuur steeds vaker op platte emotie en reactiecircuits wordt ontworpen.",
+              "bestMoment": "kritisch",
+              "tags": [
+                "arts & culture",
+                "entertainment & pop culture",
+                "light-reading",
+                "sociology & social structures"
+              ],
+              "alsoIn": [
+                "aaa-dutch-top-100",
+                "aaa-short-dutch-top-10",
+                "aaa-short-dutch-top-100",
+                "aaa-luchtig-nederlands-top-10",
+                "aaa-luchtig-nederlands-top-100"
+              ]
+            },
+            {
+              "position": 65,
               "id": "01kxn6sfvvpwapf12145w6x7sv",
               "title": "Essays In Support of the Null Hypothesis",
               "author": "Tommy Blanchard from Cognitive Wonderland",
@@ -10199,7 +11476,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 51,
+              "position": 66,
               "id": "01kxy1qkwpt5xkmvy06pz6bqvr",
               "title": "Technology and Barbarism",
               "author": "amazon.com",
@@ -10224,12 +11501,10 @@ window.TOP_ARTICLES = {
                 "political philosophy",
                 "technology"
               ],
-              "alsoIn": [
-                "aaa-short-top-100"
-              ]
+              "alsoIn": []
             },
             {
-              "position": 52,
+              "position": 67,
               "id": "01m07zpehf3761wmknmsknqwsa",
               "title": "How Books Can Build a World and Shape a Culture",
               "author": "Miller’s Book Review 📚",
@@ -10255,7 +11530,34 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 53,
+              "position": 68,
+              "id": "01hv97p0qv2rsh6attfeq439nj",
+              "title": "Working in Public",
+              "author": "Awesome.",
+              "siteName": "Chris Coyier",
+              "category": "article",
+              "language": null,
+              "readingTime": "4 mins",
+              "readingMinutes": 4,
+              "wordCount": 899,
+              "publishedDate": "2012-09-23",
+              "savedDate": "2024-04-12T13:24:20.860000+00:00",
+              "imageUrl": "data:image/svg+xml,👨‍💻",
+              "sourceUrl": "https://chriscoyier.net/2012/09/23/working-in-public/",
+              "readwiseUrl": "https://read.readwise.io/read/01hv97p0qv2rsh6attfeq439nj",
+              "summary": "The text discusses the concept of \"working in public,\" which involves sharing insights and processes related to one's work in a public or open manner. The author shares their own experiences with this idea, such as recording screencasts and redesigning a website publicly. Various examples are provided, including recording conversations, time-lapse videos of work processes, and public music performances. The text also explores the authenticity of working in public and the potential for creating a platform to showcase such examples. Additionally, it touches on the appeal of watching others work in different fields and the value of gaining insight into their processes.",
+              "whyRead": "Raakt je interesse in schrijfcraft en vakmanschap — Chris Coyier's essayistische verkenning van het concept 'werken in het openbaar'.",
+              "bestMoment": "reflectief",
+              "tags": [
+                "arts & culture",
+                "business & work",
+                "light-reading",
+                "writing & essays"
+              ],
+              "alsoIn": []
+            },
+            {
+              "position": 69,
               "id": "01j6011fk1gbvn0q705v2wmmah",
               "title": "Five Unconventional Economic Systems as Imagined in SFF",
               "author": "Eleanor Konik",
@@ -10282,7 +11584,34 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 54,
+              "position": 70,
+              "id": "01j6w5apk81pg023z5m7xd6v5b",
+              "title": "Mihai Rosca's Reviews > King, Warrior, Magician, Lover: Rediscovering the Archetypes of the Mature Masculine",
+              "author": "Robert L. Moore",
+              "siteName": "goodreads.com",
+              "category": "article",
+              "language": "Engels",
+              "readingTime": "8 mins",
+              "readingMinutes": 8,
+              "wordCount": 1899,
+              "publishedDate": "2020-03-15",
+              "savedDate": "2024-09-03T14:41:27.144000+00:00",
+              "imageUrl": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1384259565i/91781._UY630_SR1200,630_.jpg",
+              "sourceUrl": "https://www.goodreads.com/review/show/1743322065",
+              "readwiseUrl": "https://read.readwise.io/read/01j6w5apk81pg023z5m7xd6v5b",
+              "summary": "Mihai Rosca enjoyed \"King, Warrior, Magician, Lover,\" a book by Robert L. Moore that explores archetypes of mature masculinity. He found it insightful for understanding behaviors and inner struggles through archetypes like the King and the Lover. The book emphasizes the importance of integrating these archetypes to realize one's potential and lead a fulfilling life.",
+              "whyRead": "Raakt je interesse in filosofie en persoonlijke ontwikkeling — Jungiaanse mannelijke archetypen als lens op volwassenheid en psychologische rijping.",
+              "bestMoment": "reflectief",
+              "tags": [
+                "arts & culture",
+                "light-reading",
+                "personal growth & life philosophy",
+                "philosophy"
+              ],
+              "alsoIn": []
+            },
+            {
+              "position": 71,
               "id": "01k3wpv85qh52sj9ffa8rrz1bm",
               "title": "Chromatic Rebel #2: why is the West so color-minimalist?",
               "author": "María Castro Jiménez",
@@ -10309,7 +11638,33 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 55,
+              "position": 72,
+              "id": "01k722dxfn8b3bkt741xrmf0a2",
+              "title": "📚 Neat Stuff I Read in September 2025",
+              "author": "Eleanor Konik",
+              "siteName": "Manuscriptions",
+              "category": "rss",
+              "language": "Engels",
+              "readingTime": "8 mins",
+              "readingMinutes": 8,
+              "wordCount": 2098,
+              "publishedDate": "2025-10-08",
+              "savedDate": "2025-10-08T14:08:28.734000+00:00",
+              "imageUrl": "https://substack-post-media.s3.amazonaws.com/public/images/d1074b72-8427-4f61-8a4b-609fe74fd6cd_1344x896.png",
+              "sourceUrl": "https://www.eleanorkonik.com/p/neat-stuff-i-read-in-september-2025",
+              "readwiseUrl": "https://read.readwise.io/read/01k722dxfn8b3bkt741xrmf0a2",
+              "summary": "Eleanor Konik shares interesting reads from September 2025 that inspired her stories and drawings. Topics include self-improvement, psychology, history, and books about science and culture. She hopes readers find something useful and invites them to share their own favorite reads.",
+              "whyRead": "Maandelijks leesoverzicht september 2025 — wat iemand las en wat eruit sprong.",
+              "bestMoment": "ontspannen",
+              "tags": [
+                "arts & culture",
+                "learning & meta-learning",
+                "light-reading"
+              ],
+              "alsoIn": []
+            },
+            {
+              "position": 73,
               "id": "01k7tw6vrkda5hp5070ra2wqm6",
               "title": "Five SFF Stories That Shed Light on Obscure History",
               "author": "Eleanor Konik",
@@ -10336,7 +11691,34 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 56,
+              "position": 74,
+              "id": "01k8b4z89x7bjhpp69rbbemnet",
+              "title": "Tales from Toddlerhood",
+              "author": "Tim Urban",
+              "siteName": "Wait But Why",
+              "category": "article",
+              "language": "Engels",
+              "readingTime": "6 mins",
+              "readingMinutes": 6,
+              "wordCount": 1550,
+              "publishedDate": "2025-10-24",
+              "savedDate": "2025-10-24T13:01:48.734000+00:00",
+              "imageUrl": "https://waitbutwhy.com/wp-content/uploads/2025/10/FEATURE-FB.png",
+              "sourceUrl": "https://waitbutwhy.com/2025/10/toddler.html?utm_source=convertkit&utm_medium=email&utm_campaign=NEW+POST%3A+Tales+from+Toddlerhood+-+19453225",
+              "readwiseUrl": "https://read.readwise.io/read/01k8b4z89x7bjhpp69rbbemnet",
+              "summary": "Tim Urban describes the weird, joyful, and exhausting reality of living with a toddler. Toddlers are brilliant and baffling, selfish and funny, and they reshape your days in small, unpredictable ways. His parenting approach is simple: spend focused time, encourage curiosity, and don’t sweat perfection.",
+              "whyRead": "Tim Urban (Wait But Why) keert terug na 2,5 jaar zwijgen – persoonlijk en verrassend teer.",
+              "bestMoment": "reflectief",
+              "tags": [
+                "arts & culture",
+                "light-reading",
+                "personal growth & life philosophy",
+                "urbanism & mobility"
+              ],
+              "alsoIn": []
+            },
+            {
+              "position": 75,
               "id": "01kaecmp565yrjt89z6qhc3ydq",
               "title": "Why Did Wealth Stop Building Beautiful Things?",
               "author": "The Culturist",
@@ -10363,7 +11745,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 57,
+              "position": 76,
               "id": "01kaen0f4sd6p0wsrv0fw7320f",
               "title": "🌲 The Best \"Gamified X\" App is a GAME",
               "author": "Eleanor Konik",
@@ -10390,7 +11772,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 58,
+              "position": 77,
               "id": "01kc53chv8ebh5cygqaf76fwt0",
               "title": "🌲 Familiarity with the Western Canon is Surprisingly Reassuring",
               "author": "Eleanor Konik",
@@ -10417,7 +11799,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 59,
+              "position": 78,
               "id": "01kcfca0wrxztgk2sqe31khzbr",
               "title": "Now Watch Me Read | The New Yorker",
               "author": "Brady Brickner-Wood",
@@ -10444,7 +11826,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 60,
+              "position": 79,
               "id": "01kqy8wyp8f7z6nqcby6ajbnm4",
               "title": "The world reveals itself to those who travel by foot",
               "author": "Henrik Karlsson",
@@ -10471,7 +11853,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 61,
+              "position": 80,
               "id": "01krnyr9cxy0rhqzt148zy5p99",
               "title": "Good conversations have lots of doorknobs",
               "author": "Adam Mastroianni",
@@ -10498,7 +11880,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 62,
+              "position": 81,
               "id": "01krqmh4tqphysje012p59hxec",
               "title": "Novels Tell Us Who We Are",
               "author": "Carl Hendrick from The Learning Dispatch",
@@ -10525,7 +11907,169 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 63,
+              "position": 82,
+              "id": "01ks2w2tk5ar80phj3pj90bjsw",
+              "title": "The Guardian's 100 Best English-Language Books and the Funny Thing about Lists",
+              "author": "Jared Henderson from Commonplace Philosophy",
+              "siteName": "Substack",
+              "category": "email",
+              "language": "Engels",
+              "readingTime": "9 mins",
+              "readingMinutes": 9,
+              "wordCount": 2343,
+              "publishedDate": "2026-05-20",
+              "savedDate": "2026-05-20T14:19:24.133000+00:00",
+              "imageUrl": null,
+              "sourceUrl": "mailto:reader-forwarded-email/fc840bfeee5429e9775b6ce0a56e1291",
+              "readwiseUrl": "https://read.readwise.io/read/01ks2w2tk5ar80phj3pj90bjsw",
+              "summary": "There is a genre of videos and articles that consists of making lists.",
+              "whyRead": "Het essay legt scherp bloot waarom geaggregeerde lijsten saai zijn en individuele smaak juist zo onthullend — met directe verbinding aan filosofische concepten over metrificatie en profilicity.",
+              "bestMoment": "reflectief",
+              "tags": [
+                "arts & culture",
+                "fiction",
+                "light-reading",
+                "philosophy"
+              ],
+              "alsoIn": []
+            },
+            {
+              "position": 83,
+              "id": "01ksa4rg8aaab5rf5v3x3xd1mb",
+              "title": "Books I'm excited about",
+              "author": "Charles Duhigg",
+              "siteName": null,
+              "category": "email",
+              "language": "Engels",
+              "readingTime": "2 mins",
+              "readingMinutes": 2,
+              "wordCount": 520,
+              "publishedDate": "2026-05-23",
+              "savedDate": "2026-05-23T10:05:44.074000+00:00",
+              "imageUrl": null,
+              "sourceUrl": "mailto:reader-forwarded-email/215be820d469f3573ad153b75c6e23e7",
+              "readwiseUrl": "https://read.readwise.io/read/01ksa4rg8aaab5rf5v3x3xd1mb",
+              "summary": "A Hollywood super agent describing celebrity tantrums? Stories of financial hijinks amid A-list bumbleheads?",
+              "whyRead": "Korte boeken- en podcastlijst van Charles Duhigg met enkele potentieel interessante titels rond sociale verbinding, beperkingen, dystopische fictie, moderne mannelijkheid en biologische oorlog.\nWaarom skippen: Dit is vooral een aanbevelingenmail met teasers en kooplinks; er zit nauwelijks eigen analyse of essayistische uitwerking in.",
+              "bestMoment": "signalerend",
+              "tags": [
+                "arts & culture",
+                "fiction",
+                "light-reading",
+                "sociology & social structures"
+              ],
+              "alsoIn": []
+            },
+            {
+              "position": 84,
+              "id": "01ksatzj8qqdm55ebbkc4588ft",
+              "title": "Short Reviews for May 2026",
+              "author": "Evan Þ from Papyrus Rampant",
+              "siteName": "Substack",
+              "category": "email",
+              "language": "Engels",
+              "readingTime": "5 mins",
+              "readingMinutes": 5,
+              "wordCount": 1114,
+              "publishedDate": "2026-05-23",
+              "savedDate": "2026-05-23T16:34:04.183000+00:00",
+              "imageUrl": null,
+              "sourceUrl": "mailto:reader-forwarded-email/f7ba37b9e5a4a47c29a3e35a42b515b1",
+              "readwiseUrl": "https://read.readwise.io/read/01ksatzj8qqdm55ebbkc4588ft",
+              "summary": "This is a very long book. It needs to be, to have a hope of doing justice to the plethora of characters and worldbuilding Shannon wrote in her sweeping one-volume epic fantasy.",
+              "whyRead": "Korte, toegankelijke boekennotities over fantasy, historische fictie, Amerikaanse geschiedenis en Mary Todd Lincoln. Vooral bruikbaar als snelle bron voor leeskeuzes en als klein vergelijkingspunt bij fantasy-worldbuilding.\nWaarom skippen: De stukken blijven compacte mini-reviews; er is weinig essayistische uitwerking of bredere analyse voorbij de boekoordelen zelf.",
+              "bestMoment": "licht analytisch",
+              "tags": [
+                "arts & culture",
+                "fiction",
+                "history",
+                "light-reading"
+              ],
+              "alsoIn": []
+            },
+            {
+              "position": 85,
+              "id": "01ksgpayydne30egggw4npszj1",
+              "title": "Annihilation – A (Very French) Biography of the \"Last Man\"",
+              "author": "R.W. Richey from We Are Not Saved",
+              "siteName": "Substack",
+              "category": "email",
+              "language": "Engels",
+              "readingTime": "6 mins",
+              "readingMinutes": 6,
+              "wordCount": 1350,
+              "publishedDate": "2026-05-25",
+              "savedDate": "2026-05-25T23:08:21.326000+00:00",
+              "imageUrl": null,
+              "sourceUrl": "mailto:reader-forwarded-email/73a41a676c88b27e8cc90d93fd4e1d04",
+              "readwiseUrl": "https://read.readwise.io/read/01ksgpayydne30egggw4npszj1",
+              "summary": "Houellebecq is a well-known French author, and this book felt very French to me. What does that mean?",
+              "whyRead": "Korte maar inhoudelijke bespreking van Houellebecqs Annihilation als melancholische roman over ouder worden, leegte, sterfelijkheid en de Last Man. Relevant voor filosofie, Europese literatuur en fictie als diagnose van moderne betekenisarmoede.",
+              "bestMoment": "reflectief",
+              "tags": [
+                "arts & culture",
+                "fiction",
+                "light-reading",
+                "philosophy"
+              ],
+              "alsoIn": []
+            },
+            {
+              "position": 86,
+              "id": "01ktejkb5739yv3ra0666qr32v",
+              "title": "Poor Bastard: Henry Fielding’s Triumphant ‘Tom Jones’",
+              "author": "Miller’s Book Review 📚",
+              "siteName": "Substack",
+              "category": "email",
+              "language": "Engels",
+              "readingTime": "9 mins",
+              "readingMinutes": 9,
+              "wordCount": 2150,
+              "publishedDate": "2026-06-06",
+              "savedDate": "2026-06-06T13:40:14.631000+00:00",
+              "imageUrl": null,
+              "sourceUrl": "mailto:reader-forwarded-email/db2bccb6817b32e4eceea312ce9ecf60",
+              "readwiseUrl": "https://read.readwise.io/read/01ktejkb5739yv3ra0666qr32v",
+              "summary": "When Tom Jones first appeared in 1749, it had immediate fans and immediate foes.",
+              "whyRead": "Raakt je interesse in literatuur als cultuurvorm: Miller bespreekt Tom Jones als moreel ambigue, technisch briljante roman en gebruikt de receptiegeschiedenis om de spanning tussen fatsoen en deugd zichtbaar te maken.",
+              "bestMoment": "ontspannen",
+              "tags": [
+                "arts & culture",
+                "fiction",
+                "history",
+                "later",
+                "light-reading"
+              ],
+              "alsoIn": []
+            },
+            {
+              "position": 87,
+              "id": "01kvamre3nhre408596w2e8d3s",
+              "title": "Candice Millard and the Revival of History as Literature",
+              "author": "Miller’s Book Review 📚",
+              "siteName": "Substack",
+              "category": "email",
+              "language": "Engels",
+              "readingTime": "7 mins",
+              "readingMinutes": 7,
+              "wordCount": 1759,
+              "publishedDate": "2026-06-17",
+              "savedDate": "2026-06-17T11:16:42.741000+00:00",
+              "imageUrl": null,
+              "sourceUrl": "mailto:reader-forwarded-email/79b4f72b5c9d12fa3e600284af64c21f",
+              "readwiseUrl": "https://read.readwise.io/read/01kvamre3nhre408596w2e8d3s",
+              "summary": "Historian Candice Millard spins yarns that would have made stellar Victorian adventure books for boys; they have certainly sparked a lust for adventure that lingers in me.",
+              "whyRead": "Raakt je interesse in geschiedenis en essayistische non-fictie: dit stuk verdedigt Candice Millard als voorbeeld van geschiedenis die literair, toegankelijk en toch inhoudelijk serieus is. De meerwaarde zit in de koppeling tussen Victoriaanse verteltraditie, avontuur en moderne publieksgeschiedenis.",
+              "bestMoment": "ontspannen",
+              "tags": [
+                "arts & culture",
+                "history",
+                "light-reading"
+              ],
+              "alsoIn": []
+            },
+            {
+              "position": 88,
               "id": "01kvwytrrghvckwz0stdxe2mgw",
               "title": "Week 15, 16, 17, 18: Zuid-Holland",
               "author": "Holly en Roos",
@@ -10552,7 +12096,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 64,
+              "position": 89,
               "id": "01kw4djwahhwy93y8hrkg48wmd",
               "title": "Literature: The Ultimate Answer to the Algorithm",
               "author": "Miller’s Book Review 📚",
@@ -10579,984 +12123,309 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 65,
-              "id": "01kyhnw0sy3wcsr7adg43eb2bg",
-              "title": "Final Thoughts on 'Pattern Recognition'",
-              "author": "Jared Henderson from Commonplace Philosophy",
-              "siteName": "Substack",
-              "category": "email",
-              "language": "Engels",
-              "readingTime": "6 mins",
-              "readingMinutes": 6,
-              "wordCount": 1375,
-              "publishedDate": "2026-07-27",
-              "savedDate": "2026-07-27T11:37:55.263000+00:00",
-              "imageUrl": null,
-              "sourceUrl": "mailto:reader-forwarded-email/5524a77ca62447b9d9299b9d8c937d5e",
-              "readwiseUrl": "https://read.readwise.io/read/01kyhnw0sy3wcsr7adg43eb2bg",
-              "summary": "Next month, we’ll be reading Technics & Civilization as part of the philosophy of technology book club.",
-              "whyRead": "Raakt je interesse in filosofie, technologie en cultuur: een kritische lezing van Gibson over branding, authenticiteit en de verschraling van online gemeenschappen.",
-              "bestMoment": "reflectief",
-              "tags": [
-                "arts & culture",
-                "later",
-                "light-reading",
-                "philosophy",
-                "technology"
-              ],
-              "alsoIn": []
-            },
-            {
-              "position": 66,
-              "id": "01kypsfm35qdf9z4ncsvxx0hm3",
-              "title": "Both Converted, One Wrote 22 Novels, the Other Burned Her Books",
-              "author": "Miller’s Book Review 📚",
-              "siteName": "Substack",
-              "category": "email",
-              "language": "Engels",
-              "readingTime": "6 mins",
-              "readingMinutes": 6,
-              "wordCount": 1377,
-              "publishedDate": "2026-07-29",
-              "savedDate": "2026-07-29T11:17:15.494000+00:00",
-              "imageUrl": null,
-              "sourceUrl": "mailto:reader-forwarded-email/fefce0e864b436e3d7c0d493dc3fe524",
-              "readwiseUrl": "https://read.readwise.io/read/01kypsfm35qdf9z4ncsvxx0hm3",
-              "summary": "Hopped up on speed to lose weight and getting nowhere near enough calories to sustain a grown woman, in the early 1950s Muriel Spark was on a path to become several things other than an acclaimed novelist.",
-              "whyRead": "Raakt je interesse in literatuur als cultuur- en denkvorm: een rijk dubbelportret over geloof, artistieke identiteit en twee tegengestelde levens na bekering.",
-              "bestMoment": "reflectief",
-              "tags": [
-                "arts & culture",
-                "fiction",
-                "light-reading",
-                "philosophy"
-              ],
-              "alsoIn": []
-            },
-            {
-              "position": 67,
-              "id": "01kyyg3mxmb2pwc6yarn1kf8tn",
-              "title": "All the Horrifying Things We Do to Our Books",
-              "author": "Miller’s Book Review 📚",
-              "siteName": "Substack",
-              "category": "email",
-              "language": null,
-              "readingTime": "8 mins",
-              "readingMinutes": 8,
-              "wordCount": 2080,
-              "publishedDate": "2026-08-01",
-              "savedDate": "2026-08-01T11:07:21.397000+00:00",
-              "imageUrl": null,
-              "sourceUrl": "mailto:reader-forwarded-email/c15abe40d1bb86ea281564ec50747bb9",
-              "readwiseUrl": "https://read.readwise.io/read/01kyyg3mxmb2pwc6yarn1kf8tn",
-              "summary": "When author Norman Mailer gave J. Michael Lennon his book Advertisements for Myself, the copy was missing more than a hundred pages.",
-              "whyRead": "Raakt je interesse in boeken en cultuurgeschiedenis: een geestig essay over de spanning tussen boeken als gebruiksvoorwerp en als eerbiedwaardig object.",
-              "bestMoment": "ontspannen",
-              "tags": [
-                "arts & culture",
-                "history",
-                "light-reading"
-              ],
-              "alsoIn": []
-            },
-            {
-              "position": 68,
-              "id": "01kz8zwnxp6tqjavp4bcdvgq9p",
-              "title": "He Sold 55 Million Books, but His Government Wouldn’t Let Him Publish",
-              "author": "Miller’s Book Review 📚",
-              "siteName": "Substack",
-              "category": "email",
-              "language": null,
-              "readingTime": "6 mins",
-              "readingMinutes": 6,
-              "wordCount": 1426,
-              "publishedDate": "2026-08-05",
-              "savedDate": "2026-08-05T12:55:34.583000+00:00",
-              "imageUrl": null,
-              "sourceUrl": "mailto:reader-forwarded-email/aa0c7f622ce2fce99476bba1bec06c8a",
-              "readwiseUrl": "https://read.readwise.io/read/01kz8zwnxp6tqjavp4bcdvgq9p",
-              "summary": "By the time he died in 1981, Seishi Yokomizo had sold over 55 million copies of his detective novels.",
-              "whyRead": "Raakt je interesse in literatuur als cultuurvorm en ideeëngeschiedenis: een levendig portret van hoe Japanse detectivefictie onder oorlogscensuur werd onderdrukt en daarna een eigen vorm vond.",
-              "bestMoment": "ontspannen",
-              "tags": [
-                "arts & culture",
-                "fiction",
-                "history",
-                "later",
-                "light-reading"
-              ],
-              "alsoIn": []
-            },
-            {
-              "position": 69,
-              "id": "01kzdq8ybspgj5w8sr4zpbdxza",
-              "title": "What You Won't Learn About the Odyssey from a Movie",
-              "author": "honest-broker.com",
-              "siteName": "honest-broker.com",
-              "category": "article",
-              "language": "Engels",
-              "readingTime": "6 mins",
-              "readingMinutes": 6,
-              "wordCount": 1530,
-              "publishedDate": "2026-07-06",
-              "savedDate": "2026-08-07T09:01:11.417000+00:00",
-              "imageUrl": "https://substackcdn.com/image/fetch/$s_!eVTl!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F01dfdc10-c7b0-49da-a080-320d88fda872_2056x1121.jpeg",
-              "sourceUrl": "https://www.honest-broker.com/p/what-you-wont-learn-about-the-odyssey?utm_source=profile&utm_medium=reader2",
-              "readwiseUrl": "https://read.readwise.io/read/01kzdq8ybspgj5w8sr4zpbdxza",
-              "summary": "Christopher Nolan's film version makes its debut in London today",
-              "whyRead": "Raakt je interesse in klassieke filosofie en cultuurgeschiedenis: Gioia herstelt de Odyssee als levende, muzikale performance in plaats van een statisch schoolboek. Het essay opent bovendien een mooie vraag naar wat film wel en niet kan vertalen.",
-              "bestMoment": "geïnspireerd",
-              "tags": [
-                "arts & culture",
-                "history",
-                "light-reading"
-              ],
-              "alsoIn": []
-            },
-            {
-              "position": 70,
-              "id": "01m059tf2ttw02jrmmm46cmhjk",
-              "title": "Good Bad Books",
-              "author": "orwellfoundation.com",
-              "siteName": "The Orwell Foundation",
-              "category": "article",
-              "language": null,
-              "readingTime": "6 mins",
-              "readingMinutes": 6,
-              "wordCount": 1413,
-              "publishedDate": "2011-06-24",
-              "savedDate": "2026-08-16T12:47:51.898000+00:00",
-              "imageUrl": null,
-              "sourceUrl": "https://www.orwellfoundation.com/the-orwell-foundation/orwell/essays-and-other-works/good-bad-books/",
-              "readwiseUrl": "https://read.readwise.io/read/01m059tf2ttw02jrmmm46cmhjk",
-              "summary": "This material remains under copyright in the United Kingdom, Europe and elsewhere, and is reproduced by kind permission of the Orwell Estate and Penguin Books. Not long ago a publisher commissioned me to write an introduction for a reprint of a novel by Leonard Merrick. This publishing house, it appears, is going to reissue a...  <a class=\"excerpt-read-more\" href=\"https://www.orwellfoundation.com/the-orwell-foundation/orwell/essays-and-other-works/good-bad-books/\" title=\"ReadGood Bad Books\">Read more »</a>",
-              "whyRead": "Raakt je interesse in schrijfcraft en cultuurkritiek — Orwell filosofeert waarom sommige \"slechte\" boeken overleven terwijl serieuze literatuur vergeten wordt, met scherpe observaties over smaak, vakmanschap en kunst.",
-              "bestMoment": "ontspannen",
-              "tags": [
-                "arts & culture",
-                "light-reading",
-                "philosophy"
-              ],
-              "alsoIn": []
-            },
-            {
-              "position": 71,
-              "id": "01m0b1s4v68rpr0xny1y8jvgyj",
-              "title": "The Gaslighting of Parasite",
-              "author": "Tyler Cowen",
-              "siteName": "Marginal REVOLUTION",
-              "category": "article",
-              "language": null,
-              "readingTime": "5 mins",
-              "readingMinutes": 5,
-              "wordCount": 1143,
-              "publishedDate": "2020-06-25",
-              "savedDate": "2026-08-18T18:22:46.631000+00:00",
-              "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/81iQLZujrlL._SL1500_.jpg",
-              "sourceUrl": "https://marginalrevolution.com/marginalrevolution/2020/06/the-gaslighting-of-parasite.html",
-              "readwiseUrl": "https://read.readwise.io/read/01m0b1s4v68rpr0xny1y8jvgyj",
-              "summary": "I am late to this but Parasite, now available on streaming services, is the most willfully misinterpreted movie that I have ever seen. The conventional interpretation is so obviously wrong that I cannot but think that it is anything but a collective gaslighting. The conventional interpretation is that the film is about inequality and on […]",
-              "whyRead": "Prikkelende contrarian filmanalyse die de gangbare interpretatie van Parasite op zijn kop zet — sluit aan bij je interesse in film als cultuurvorm en thematische analyse.",
-              "bestMoment": "kritisch",
-              "tags": [
-                "arts & culture",
-                "entertainment & pop culture",
-                "light-reading"
-              ],
-              "alsoIn": []
-            },
-            {
-              "position": 72,
-              "id": "01jkxyd6vfh2jexjbtgjr59px7",
-              "title": "How to live without your phone",
-              "author": "Sam Kriss",
-              "siteName": "substack.com",
-              "category": "article",
-              "language": "Engels",
-              "readingTime": "24 mins",
-              "readingMinutes": 24,
-              "wordCount": 6314,
-              "publishedDate": null,
-              "savedDate": "2025-02-12T20:43:01.530000+00:00",
-              "imageUrl": "https://substackcdn.com/image/fetch/w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1d054189-34ed-49db-b599-db25cb9c20bc_1280x1188.jpeg",
-              "sourceUrl": "https://samkriss.substack.com/p/how-to-live-without-your-phone?r=1r0y5d&utm_medium=ios&triedRedirect=true",
-              "readwiseUrl": "https://read.readwise.io/read/01jkxyd6vfh2jexjbtgjr59px7",
-              "summary": "The author reflects on the impact of living without a smartphone for forty days. They highlight the role of smartphones in muting anxieties and the struggle to break the habit of constantly checking the phone. Despite challenges, the experience led to increased reading and a realization of the pervasive phone use in society.",
-              "whyRead": "Sam Kriss' literaire verslag van 40 dagen zonder smartphone — scherpe culturele kritiek die verder gaat dan de gebruikelijke how-to.",
-              "bestMoment": "ontspannen",
-              "tags": [
-                "learning & meta-learning",
-                "light-reading",
-                "programming & software",
-                "sociology & inequality"
-              ],
-              "alsoIn": []
-            },
-            {
-              "position": 73,
-              "id": "01k1zt7ng2zc217ta0t2k2sw4w",
-              "title": "Book Review: Fussell On Class",
-              "author": "Scott Alexander",
-              "siteName": "astralcodexten.com",
-              "category": "article",
-              "language": "Engels",
-              "readingTime": "20 mins",
-              "readingMinutes": 20,
-              "wordCount": 5217,
-              "publishedDate": null,
-              "savedDate": "2025-08-06T13:48:20.354000+00:00",
-              "imageUrl": "https://substackcdn.com/image/fetch/w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F2f5f63a8-fd0b-4c99-be08-416ccb534a06_770x515.jpeg",
-              "sourceUrl": "https://www.astralcodexten.com/p/book-review-fussell-on-class",
-              "readwiseUrl": "https://read.readwise.io/read/01k1zt7ng2zc217ta0t2k2sw4w",
-              "summary": "The text discusses Paul Fussell's views on class distinctions in American society, highlighting the nuances between upper, upper-middle, and middle classes based on cultural cues and behaviors. Fussell emphasizes how class influences preferences, behaviors, and societal perceptions, shedding light on the complexities of social stratification. The analysis also touches on the evolution of class distinctions over time and the impact of cultural shifts on defining social status.",
-              "whyRead": "Scott Alexander bespreekt Fussell's klassenanalyse van Amerika — klasse als cultureel en gedragsmatig fenomeen.",
-              "bestMoment": "analytisch",
-              "tags": [
-                "arts & culture",
-                "light-reading",
-                "sociology & inequality"
-              ],
-              "alsoIn": []
-            },
-            {
-              "position": 74,
-              "id": "01k79j3sbpnyfey0vh07484wts",
-              "title": "David Hume vs literature",
-              "author": "Katie Ebner-Landy",
-              "siteName": "Aeon",
-              "category": "article",
-              "language": "Engels",
-              "readingTime": "16 mins",
-              "readingMinutes": 16,
-              "wordCount": 4227,
-              "publishedDate": "2025-09-11",
-              "savedDate": "2025-10-11T11:57:18.070000+00:00",
-              "imageUrl": "https://images.aeonmedia.co/images/8a79c8e3-81b0-4be1-9f68-f0d44dba1ffc/essay-david-allan-the-connoisseurs.jpg?width=1200&quality=75&format=auto",
-              "sourceUrl": "https://aeon.co/essays/how-david-hume-split-literature-from-philosophy",
-              "readwiseUrl": "https://read.readwise.io/read/01k79j3sbpnyfey0vh07484wts",
-              "summary": "Hume split literature from philosophy by dismissing character sketches as a proper method for moral thought. Before him, Theophrastus and his imitators taught ethics by painting vivid types of virtues and vices. Remembering that tradition shows literature can reveal moral truths and change how we behave.",
-              "whyRead": "Over de spanning tussen Humes empirisme en de literatuur als bron van kennis.",
-              "bestMoment": "analytisch",
-              "tags": [
-                "arts & culture",
-                "light-reading",
-                "philosophy"
-              ],
-              "alsoIn": []
-            },
-            {
-              "position": 75,
-              "id": "01k79j53ce8b15nrkktnb0hz2g",
-              "title": "The idea of nothing pushes at the limits of thought, spawning paradoxes that have long nourished art, philosophy, and science",
-              "author": "Victoria Wohl",
-              "siteName": "Aeon",
-              "category": "article",
-              "language": "Engels",
-              "readingTime": "15 mins",
-              "readingMinutes": 15,
-              "wordCount": 3914,
-              "publishedDate": "2025-10-03",
-              "savedDate": "2025-10-11T11:58:01.102000+00:00",
-              "imageUrl": "https://images.aeonmedia.co/images/99d3a057-069c-4061-9d07-5b63297fd25e/this-51_006_00.jpg?width=1200&quality=75&format=auto",
-              "sourceUrl": "https://aeon.co/essays/how-nothing-has-inspired-art-and-science-for-millennia",
-              "readwiseUrl": "https://read.readwise.io/read/01k79j53ce8b15nrkktnb0hz2g",
-              "summary": "Artists and philosophers show that trying to represent nothing turns it into something. Ancient thinkers disagree: Parmenides denies nothing, while Democritus makes the void part of reality. The debate forces new ways to think about being, nonbeing and how we speak about them.",
-              "whyRead": "Essay over het concept 'niets' — filosofisch, natuurkundig en existentieel.",
-              "bestMoment": "analytisch",
-              "tags": [
-                "arts & culture",
-                "light-reading",
-                "philosophy",
-                "popular science"
-              ],
-              "alsoIn": []
-            },
-            {
-              "position": 76,
-              "id": "01k80nvw2z9d40qq24hveszqrw",
-              "title": "De hel van het gelijke",
-              "author": "Marian Donner",
-              "siteName": "De Groene Amsterdammer",
-              "category": "article",
-              "language": "Nederlands",
-              "readingTime": "14 mins",
-              "readingMinutes": 14,
-              "wordCount": 3710,
-              "publishedDate": "2024-06-11",
-              "savedDate": "2025-10-20T11:25:24.958000+00:00",
-              "imageUrl": "https://www.groene.nl/uploads/image/file/000/041/588/small_crop-83c871e3-8505-45b1-beba-57f0b87a13ae.jpg",
-              "sourceUrl": "https://www.groene.nl/artikel/de-hel-van-het-gelijke",
-              "readwiseUrl": "https://read.readwise.io/read/01k80nvw2z9d40qq24hveszqrw",
-              "summary": "Merken en massaproductie maken de wereld steeds eender en benauwend.  \nNaomi Klein waarschuwt dat bedrijven en platforms cultuur en verschil wegvagen, waardoor een globale claustrofobie ontstaat.  \nTegelijk toont ze dat verzet mogelijk is via directe, vrije acties en collectieve creativiteit.",
-              "whyRead": "De Groene Amsterdammer over de hel van het identieke – consumentisme, No Logo en Fight Club als lens.",
-              "bestMoment": "kritisch",
-              "tags": [
-                "arts & culture",
-                "light-reading",
-                "sociology & inequality"
-              ],
-              "alsoIn": [
-                "aaa-dutch-top-100",
-                "aaa-luchtig-nederlands-top-10",
-                "aaa-luchtig-nederlands-top-100"
-              ]
-            },
-            {
-              "position": 77,
-              "id": "01kqgd25gt91afe9a1fyavnccq",
-              "title": "The dawn of the post-literate society",
-              "author": "James Marriott",
-              "siteName": "substack.com",
-              "category": "article",
-              "language": "Engels",
-              "readingTime": "19 mins",
-              "readingMinutes": 19,
-              "wordCount": 5007,
-              "publishedDate": "2025-09-19",
-              "savedDate": "2026-04-30T23:54:52.315000+00:00",
-              "imageUrl": "https://substackcdn.com/image/fetch/$s_!k_mw!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F3d285455-461b-44ac-ae33-79fc301d4d5a_500x310.jpeg",
-              "sourceUrl": "https://jmarriott.substack.com/p/the-dawn-of-the-post-literate-society-aa1?utm_source=substack&utm_medium=email",
-              "readwiseUrl": "https://read.readwise.io/read/01kqgd25gt91afe9a1fyavnccq",
-              "summary": "And the end of civilisation",
-              "whyRead": "Raakt je interesse in cultuurgeschiedenis, sociologie, politieke filosofie en leren — Marriott verbindt de leesrevolutie aan de voorwaarden voor kritisch denken en democratische zelfbesturing, en stelt daar de cognitieve en politieke prikkels van het schermtijdperk tegenover.",
-              "bestMoment": "analytisch",
-              "tags": [
-                "arts & culture",
-                "light-reading",
-                "sociology & inequality"
-              ],
-              "alsoIn": []
-            },
-            {
-              "position": 78,
-              "id": "01krand4e1q4d32afr5ntawm7j",
-              "title": "Serious Reading Was Always a Minority Sport",
-              "author": "Joel J Miller",
-              "siteName": "millersbookreview.com",
-              "category": "article",
-              "language": "Engels",
-              "readingTime": "14 mins",
-              "readingMinutes": 14,
-              "wordCount": 3589,
-              "publishedDate": "2026-05-09",
-              "savedDate": "2026-05-11T04:40:55.416000+00:00",
-              "imageUrl": "https://substackcdn.com/image/fetch/$s_!j2EG!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fbc38bfb5-386f-4dfe-9a0e-9c7392836047_1829x1240.jpeg",
-              "sourceUrl": "https://www.millersbookreview.com/p/serious-reading-was-always-a-minority-sport-the-literary-and-the-unliterary?r=1r0y5d&utm_medium=ios&triedRedirect=true",
-              "readwiseUrl": "https://read.readwise.io/read/01krand4e1q4d32afr5ntawm7j",
-              "summary": "Rumors of the Book’s Demise Misunderstand Who Really Reads to Begin With",
-              "whyRead": "Raakt je interesse in literaire cultuur en lezen — een reflectief essay dat de paniek over 'leesdaling' deconstrueert via C.S. Lewis's onderscheid tussen literary en unliterary lezers. Minder neerslachtig dan de statistieken suggereren.",
-              "bestMoment": "analytisch",
-              "tags": [
-                "arts & culture",
-                "learning & meta-learning",
-                "light-reading",
-                "sociology & inequality"
-              ],
-              "alsoIn": []
-            },
-            {
-              "position": 79,
-              "id": "01krkc3v2q8zmh2h2qpsw9prxw",
-              "title": "📗 Harpers Ferry during the Civil War",
-              "author": "Eleanor Konik",
-              "siteName": "Substack",
-              "category": "email",
-              "language": "Engels",
-              "readingTime": "14 mins",
-              "readingMinutes": 14,
-              "wordCount": 3676,
-              "publishedDate": "2026-05-14",
-              "savedDate": "2026-05-14T13:51:43.703000+00:00",
-              "imageUrl": null,
-              "sourceUrl": "mailto:reader-forwarded-email/9382113117945f3213e13c76f95aafc2",
-              "readwiseUrl": "https://read.readwise.io/read/01krkc3v2q8zmh2h2qpsw9prxw",
-              "summary": "A lot of Civil War books I’ve seen around are about a leader, a battle, or a regiment. I picked up Chester G.",
-              "whyRead": "Levendige boekreview over Harpers Ferry tijdens de Amerikaanse Burgeroorlog, met sterke aandacht voor plaats, infrastructuur en de menselijke details van oorlog. Interessant als geografisch-historische case, maar minder kernachtig voor je voorkeur voor West-Europese geschiedenis.",
-              "bestMoment": "ontspannen",
-              "tags": [
-                "arts & culture",
-                "geography & maps",
-                "history",
-                "light-reading"
-              ],
-              "alsoIn": []
-            },
-            {
-              "position": 80,
-              "id": "01kj3kaebxx42ca13fgz6a52fq",
-              "title": "Taste for Makers",
-              "author": "Paul Graham",
-              "siteName": "paulgraham.com",
-              "category": "article",
-              "language": null,
-              "readingTime": "17 mins",
-              "readingMinutes": 17,
-              "wordCount": 4345,
-              "publishedDate": "2002-02-14",
-              "savedDate": "2026-05-15T05:25:54.983000+00:00",
-              "imageUrl": "https://readwise-assets.s3.amazonaws.com/media/wisereads/articles/taste-for-makers/cover_image.webp",
-              "sourceUrl": "https://paulgraham.com/taste.html",
-              "readwiseUrl": "https://read.readwise.io/read/01kj3kaebxx42ca13fgz6a52fq",
-              "summary": "Beauty is real and shared across fields, and it guides better making.  \nGood design is simple, timeless, solves the right problem, looks easy but is hard, and echoes nature, symmetry, and suggestion.  \nWe improve by revising, learning from others, using constraints, and boldly fixing what feels ugly.",
-              "whyRead": "Raakt je interesse in filosofie en esthetiek — Paul Graham's klassieke essay over wat goed design tijdloos maakt.",
-              "bestMoment": "analytisch",
-              "tags": [
-                "arts & culture",
-                "learning & meta-learning",
-                "light-reading",
-                "philosophy"
-              ],
-              "alsoIn": []
-            },
-            {
-              "position": 81,
-              "id": "01krnygf4vzmx848dav851nhrg",
-              "title": "The Decline of Deviance",
-              "author": "Adam Mastroianni",
-              "siteName": "experimental-history.com",
-              "category": "article",
-              "language": "Engels",
-              "readingTime": "18 mins",
-              "readingMinutes": 18,
-              "wordCount": 4741,
-              "publishedDate": "2025-10-28",
-              "savedDate": "2026-05-15T13:51:40.633000+00:00",
-              "imageUrl": "https://substackcdn.com/image/fetch/$s_!ct9q!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8d788070-ccb5-4cf6-8c1f-f8ee02fca241_1678x1167.jpeg",
-              "sourceUrl": "https://www.experimental-history.com/p/the-decline-of-deviance?r=1r0y5d&utm_medium=ios&triedRedirect=true",
-              "readwiseUrl": "https://read.readwise.io/read/01krnygf4vzmx848dav851nhrg",
-              "summary": "Where has all the weirdness gone?",
-              "whyRead": null,
-              "bestMoment": null,
-              "tags": [
-                "arts & culture",
-                "light-reading",
-                "science",
-                "sociology & social structures"
-              ],
-              "alsoIn": []
-            },
-            {
-              "position": 82,
-              "id": "01krtfz54rb8r6bs4x84h6sdhs",
-              "title": "Go quietly public on the internet",
-              "author": "Carolyn Yoo",
-              "siteName": "substack.com",
-              "category": "article",
-              "language": "Engels",
-              "readingTime": "6 mins",
-              "readingMinutes": 6,
-              "wordCount": 1506,
-              "publishedDate": "2026-05-08",
-              "savedDate": "2026-05-17T08:13:45.416000+00:00",
-              "imageUrl": "https://substackcdn.com/image/fetch/$s_!5AZe!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc6f09c3e-66e4-4e37-b2c0-4765fdf5bd40_1100x825.jpeg",
-              "sourceUrl": "https://cyoo.substack.com/p/quietly-public-on-the-internet?r=1r0y5d&utm_medium=ios&triedRedirect=true",
-              "readwiseUrl": "https://read.readwise.io/read/01krtfz54rb8r6bs4x84h6sdhs",
-              "summary": "Carolyn Yoo introduceert het concept 'quietly public': online bestaan vanuit een eigen digitale wereld (blog, digital garden, website) in plaats van via sociale media-platforms. Je stelt zelf de normen voor wat openbaar en privé is, verbindt je via gedeelde interesses met kleinschalige gemeenschappen, en zet sociale media alleen optioneel in bij grote lanceringen. Als introvert en neurodivergent persoon wil ze online zijn zoals ze in het echte leven is — zacht, nieuwsgierig, niet performatief.",
-              "whyRead": null,
-              "bestMoment": null,
-              "tags": [
-                "arts & culture",
-                "light-reading",
-                "personal growth & life philosophy",
-                "technology"
-              ],
-              "alsoIn": []
-            },
-            {
-              "position": 83,
-              "id": "01ks2b50wxejwag42nf6rnrq6d",
-              "title": "Love is to be invested in someone’s continual expansion",
-              "author": "Henrik Karlsson",
-              "siteName": "Substack",
-              "category": "email",
-              "language": null,
-              "readingTime": "14 mins",
-              "readingMinutes": 14,
-              "wordCount": 3529,
-              "publishedDate": "2026-05-20",
-              "savedDate": "2026-05-20T09:23:30.334000+00:00",
-              "imageUrl": null,
-              "sourceUrl": "mailto:reader-forwarded-email/716a0de87fc73d562acf557a2e26fc5f",
-              "readwiseUrl": "https://read.readwise.io/read/01ks2b50wxejwag42nf6rnrq6d",
-              "summary": "This is the fifth part of a series on relationships begun with “Looking for Alice” (which is about how I met my wife Johanna), “Dostoevsky as lover” (about our early years together), “Relationships are coevolutionary loops,” and “When I accept myself as I am, I change.",
-              "whyRead": "Raakt je interesse in filosofie, persoonlijke groei en het essay als denk-vorm. Henrik Karlsson onderzoekt liefde niet als gevoel of plicht, maar als wederzijdse uitbreiding van wat je kunt waarderen en zien.",
-              "bestMoment": "reflectief",
-              "tags": [
-                "arts & culture",
-                "light-reading",
-                "personal growth & life philosophy",
-                "philosophy"
-              ],
-              "alsoIn": []
-            },
-            {
-              "position": 84,
-              "id": "01ks5wkeam3nzf67r9bh537enm",
-              "title": "Alone, Finally",
-              "author": "Tamara",
-              "siteName": "substack.com",
-              "category": "article",
-              "language": "Engels",
-              "readingTime": "11 mins",
-              "readingMinutes": 11,
-              "wordCount": 2846,
-              "publishedDate": "2026-05-06",
-              "savedDate": "2026-05-21T18:26:11.840000+00:00",
-              "imageUrl": "https://substackcdn.com/image/fetch/$s_!OXPE!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F4451fb33-5861-4044-8b7f-e8104a302240_1025x539.jpeg",
-              "sourceUrl": "https://museguided.substack.com/p/alone-finally?r=1r0y5d&utm_medium=ios&triedRedirect=true",
-              "readwiseUrl": "https://read.readwise.io/read/01ks5wkeam3nzf67r9bh537enm",
-              "summary": "The contradictory pleasures of inhabiting yourself",
-              "whyRead": "Dit essay raakt je interesse in filosofie, essayistische schrijfkunst en persoonlijke groei: het herwaardeert solitude als een vorm van aandacht, autonomie en onbemiddeld denken. De tekst is vooral sterk waar hij het individuele innerlijke leven met culturele en gendergebonden verwachtingen verbindt.",
-              "bestMoment": "reflectief",
-              "tags": [
-                "arts & culture",
-                "light-reading",
-                "personal growth & life philosophy",
-                "philosophy"
-              ],
-              "alsoIn": []
-            },
-            {
-              "position": 85,
-              "id": "01kt3yrv65xm5w5crnf6ycy3rr",
-              "title": "People are too big to fit inside our heads",
-              "author": "Henrik Karlsson",
-              "siteName": "Substack",
-              "category": "email",
-              "language": "Engels",
-              "readingTime": "14 mins",
-              "readingMinutes": 14,
-              "wordCount": 3553,
-              "publishedDate": "2026-06-02",
-              "savedDate": "2026-06-02T10:41:19.045000+00:00",
-              "imageUrl": null,
-              "sourceUrl": "mailto:reader-forwarded-email/1acc44fb3fcea81c1c8ce834a077f932",
-              "readwiseUrl": "https://read.readwise.io/read/01kt3yrv65xm5w5crnf6ycy3rr",
-              "summary": "In 2023, I wrote an essay about the early years of Johanna’s and my relationship.",
-              "whyRead": "Sterk Henrik-stuk over Bakhtin, Dostoevsky, Buber en echte dialoog: mensen blijven groter dan onze ideeën over hen. Past direct bij filosofie, literatuur, relaties en essayistische reflectie; er is al een Dostoevsky-notitie in de vault, maar dit voegt vooral een praktisch relationeel frame toe.",
-              "bestMoment": "reflectief",
-              "tags": [
-                "arts & culture",
-                "light-reading",
-                "personal growth & life philosophy",
-                "philosophy"
-              ],
-              "alsoIn": []
-            },
-            {
-              "position": 86,
-              "id": "01kvwx52bzyv06aez48fr5fm5d",
-              "title": "50 Years of Creative Destruction in the Book World",
-              "author": "Miller’s Book Review 📚",
-              "siteName": "Substack",
-              "category": "email",
-              "language": null,
-              "readingTime": "13 mins",
-              "readingMinutes": 13,
-              "wordCount": 3298,
-              "publishedDate": "2026-06-24",
-              "savedDate": "2026-06-24T13:29:45.088000+00:00",
-              "imageUrl": null,
-              "sourceUrl": "mailto:reader-forwarded-email/a72830fdb5dcd9e3f9f9ca3000c1d984",
-              "readwiseUrl": "https://read.readwise.io/read/01kvwx52bzyv06aez48fr5fm5d",
-              "summary": "I’m mostly bullish on reading, readers, books, publishing, the whole package. Are reading habits changing?",
-              "whyRead": "Breed historisch essay over vijftig jaar ontwrichting in de boekenwereld.",
-              "bestMoment": "geconcentreerd",
-              "tags": [
-                "arts & culture",
-                "business & startups",
-                "history",
-                "light-reading"
-              ],
-              "alsoIn": []
-            },
-            {
-              "position": 87,
-              "id": "01kwkpvx062dytw4zfh294psvb",
-              "title": "Heilige plekken dichtbij: Der Herrgott van Bentheim",
-              "author": "De Ongelooflijke",
-              "siteName": "Substack",
-              "category": "email",
-              "language": "Nederlands",
-              "readingTime": "17 mins",
-              "readingMinutes": 17,
-              "wordCount": 4420,
-              "publishedDate": "2026-07-03",
-              "savedDate": "2026-07-03T10:02:25.159000+00:00",
-              "imageUrl": null,
-              "sourceUrl": "mailto:reader-forwarded-email/e67d6e50411cb74f596daf74d736e27f",
-              "readwiseUrl": "https://read.readwise.io/read/01kwkpvx062dytw4zfh294psvb",
-              "summary": "Pelgrimeren is populair – Santiago de Compostela ontving in 2025 meer gasten dan ooit. Maar niet iedereen heeft het geld, de tijd en het lijf om de huisdeur achter zich dicht te trekken en te gaan.",
-              "whyRead": "Nederlandstalige longread met duidelijke stem, religiegeschiedenis, Twents landschap en cultuurgeschiedenis; precies het soort essay waarin plek, verhaal en idee elkaar dragen. De meerwaarde zit in de combinatie van pelgrimage, middeleeuwse geschiedenis, lokale geografie en reflectieve toon.",
-              "bestMoment": "ontspannen",
-              "tags": [
-                "arts & culture",
-                "history",
-                "light-reading",
-                "personal growth & life philosophy"
-              ],
-              "alsoIn": [
-                "aaa-dutch-top-100",
-                "aaa-luchtig-nederlands-top-10",
-                "aaa-luchtig-nederlands-top-100"
-              ]
-            },
-            {
-              "position": 88,
-              "id": "01kz84cd6qp18k7dfpv9b4khjc",
-              "title": "⦿ Roden: 116 — Oooohhh Summer, How Much Risk Is a Useful Amount of Risk?",
-              "author": "Craig Mod's Delivery Service",
-              "siteName": null,
-              "category": "email",
-              "language": "Engels",
-              "readingTime": "19 mins",
-              "readingMinutes": 19,
-              "wordCount": 4776,
-              "publishedDate": "2026-08-04",
-              "savedDate": "2026-08-05T04:54:49.815000+00:00",
-              "imageUrl": null,
-              "sourceUrl": "mailto:reader-forwarded-email/0ad5f84f081956389b1232f3f0836302",
-              "readwiseUrl": "https://read.readwise.io/read/01kz84cd6qp18k7dfpv9b4khjc",
-              "summary": "There is sweat and then there is s-w-e-a-t and the out-of-doorsness in Japan is presently a natural machine that produces nothing but sweat and sweat and sweat and swelter.",
-              "whyRead": "Een essayistische vergelijking van Tokio en New York die raakt aan sociologie, stedelijke cultuur en AI: hoe regels, risico en publieke ruimte bepalen of een stad menselijk en levendig voelt.",
-              "bestMoment": "ontspannen",
-              "tags": [
-                "ai ethics & society",
-                "arts & culture",
-                "light-reading",
-                "sociology & social structures"
-              ],
-              "alsoIn": []
-            },
-            {
-              "position": 89,
-              "id": "01kzb0cxjx9j8cd81x881xt9e8",
-              "title": "Thoughts on Christopher Nolan's Odyssey",
-              "author": "email.kjbm.odysseaspx.com",
-              "siteName": "odysseaspx.com",
-              "category": "article",
-              "language": "Engels",
-              "readingTime": "20 mins",
-              "readingMinutes": 20,
-              "wordCount": 5068,
-              "publishedDate": "2026-08-05",
-              "savedDate": "2026-08-06T07:42:55.581000+00:00",
-              "imageUrl": "https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/file-uploads/sites/2148819667/images/a10d718-34bb-480-33cb-2ffba3e0d4b6_2_-_Thoughts_on_the_Odyssey.jpg",
-              "sourceUrl": "https://email.kjbm.odysseaspx.com/c/eJxskM2O2yAUhZ_GbCpHcDEYL1i0aiN13Qew-LnEzNjgAp40b191kpGqUZZ853Cu9Jl9n5PZUL-aF2NjX1suGEpOrfZ7yf5wLeZEvGaeAzCCmo1KTEJxJghuJq6zxzW-YbnN0euBj2xSUtJRPtLoNTChYFJU0gfbsFZzwbnddtR3ZEs23pnaHpWCNR_F4dP_FX8fmO7hBzrs-9qPf69vn8aeJYsOlnk5OsumMAkEjhxMsIOh6GgILpCogYKkigo2cSb4KSgawApmAkhnjegG-vpit1P2t1rR1P3PyeWNrHppba8d_9rBuYPz9Xr9VOngbNd86eAMfVvycVla7XPqU15Nqv29fCMfniomj2X2eTMx6Wcni178trRLxG6gAdGfChp_jRVPMZOCLu4RU3u3OdJJcTEIRmpsD8GDUmySciRN_4oNv_z83gH_D79p-BsAAP__B-y7eQ",
-              "readwiseUrl": "https://read.readwise.io/read/01kzb0cxjx9j8cd81x881xt9e8",
-              "summary": "A review and analysis of Christopher Nolan's successful 2026 movie: The Odyssey, exploring themes, criticisms, and strengths.",
-              "whyRead": "Een uitgebreide, kritische filmanalyse die Homerus als maatstaf gebruikt in plaats van Nolan alleen als regisseur te beoordelen. Interessant naast andere Odyssey-essays vanwege de focus op geweld, karakter en gastvrijheid.",
-              "bestMoment": "analytisch",
-              "tags": [
-                "arts & culture",
-                "later",
-                "light-reading",
-                "linked-from-readwise",
-                "philosophy"
-              ],
-              "alsoIn": []
-            },
-            {
               "position": 90,
-              "id": "01kzdq8xjrrnenwj328s9ydvpc",
-              "title": "A Final Review of Nolan's Odyssey",
-              "author": "cbrobertson.substack.com",
-              "siteName": "substack.com",
-              "category": "article",
-              "language": "Engels",
-              "readingTime": "13 mins",
-              "readingMinutes": 13,
-              "wordCount": 3433,
-              "publishedDate": "2026-07-22",
-              "savedDate": "2026-08-07T09:01:10.615000+00:00",
-              "imageUrl": "https://substackcdn.com/image/fetch/$s_!2f4D!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F05da7abd-34fb-4bd0-84c2-87bba348c3ce_3840x2560.webp",
-              "sourceUrl": "https://cbrobertson.substack.com/p/a-final-review-of-nolans-odyssey",
-              "readwiseUrl": "https://read.readwise.io/read/01kzdq8xjrrnenwj328s9ydvpc",
-              "summary": "The Apocalyptic Vision of a Post-Xenia World",
-              "whyRead": "Een serieuze cultuurkritische lezing van Nolans Odyssey die aansluit bij je interesse in klassieke filosofie en mythologie. Vooral bruikbaar als tegenwicht voor loutere filmrecensies.",
-              "bestMoment": "analytisch",
+              "id": "01kw4zh122v8djscsxaaq42ke7",
+              "title": "My Hugo Ballot 2: Best Novel & others",
+              "author": "Evan Þ from Papyrus Rampant",
+              "siteName": "Substack",
+              "category": "email",
+              "language": null,
+              "readingTime": "7 mins",
+              "readingMinutes": 7,
+              "wordCount": 1699,
+              "publishedDate": "2026-06-27",
+              "savedDate": "2026-06-27T16:45:09.571000+00:00",
+              "imageUrl": null,
+              "sourceUrl": "mailto:reader-forwarded-email/6cce7b772f065f99411cfeaa89d6d16d",
+              "readwiseUrl": "https://read.readwise.io/read/01kw4zh122v8djscsxaaq42ke7",
+              "summary": "Best Novel being best known makes sense, given that science fiction and fantasy novels are much more popular than shorter form. In fact, the traditional market for shorter-form fiction has collapsed.",
+              "whyRead": "Raakt fantasy/sciencefiction en cultuur rond awards: dit is een persoonlijke Hugo-ballot met korte evaluaties van romans, gedichten en related work. De meerwaarde zit in signalen voor mogelijke SF/F-leeskeuzes.",
+              "bestMoment": "ontspannen",
               "tags": [
                 "arts & culture",
-                "later",
-                "light-reading",
-                "philosophy"
+                "fiction",
+                "games",
+                "light-reading"
               ],
               "alsoIn": []
             },
             {
               "position": 91,
-              "id": "01m02v2mszvk3cjaw44d26cmvx",
-              "title": "Het zachte tegengif heet verwondering",
-              "author": "Sabine Winters",
-              "siteName": "Substack",
+              "id": "01kw9qrshp1ne8jsbwy0wqv2z6",
+              "title": "How To Add Texture To Your Non-Fiction Writing",
+              "author": "A Mug of Insights",
+              "siteName": "Ghost - The Professional Publishing Platform",
               "category": "email",
-              "language": "Nederlands",
-              "readingTime": "24 mins",
-              "readingMinutes": 24,
-              "wordCount": 6125,
-              "publishedDate": "2026-08-15",
-              "savedDate": "2026-08-15T13:51:42.400000+00:00",
+              "language": "Engels",
+              "readingTime": "7 mins",
+              "readingMinutes": 7,
+              "wordCount": 1669,
+              "publishedDate": "2026-06-29",
+              "savedDate": "2026-06-29T13:05:47.575000+00:00",
               "imageUrl": null,
-              "sourceUrl": "mailto:reader-forwarded-email/a92a20561de41a45813c159e461adb63",
-              "readwiseUrl": "https://read.readwise.io/read/01m02v2mszvk3cjaw44d26cmvx",
-              "summary": "Dit essay blijft openbaar toegankelijk. Heeft dit schrijven je op de een of andere manier geïnspireerd of misschien tot nadenken aangezet?",
-              "whyRead": "Raakt je kerninteresses in filosofie, politieke betrokkenheid, kunst en sciencefiction als denkruimte. Winters verbindt Arendt, epistemische emoties, Le Guin en film tot een eigenzinnig pleidooi voor verwondering als aandacht én handelingsvermogen.",
-              "bestMoment": "reflectief",
+              "sourceUrl": "mailto:reader-forwarded-email/b480713581a060c43f8e9f9463e92225",
+              "readwiseUrl": "https://read.readwise.io/read/01kw9qrshp1ne8jsbwy0wqv2z6",
+              "summary": "Robin Waldun analyseert Gladwell's schrijftechniek via 'The Ketchup Conundrum' (New Yorker, 2004). Drie technieken voor textuur in non-fictie: (1) begin met een onverwachte opening die pas later aansluit op het hoofdonderwerp; (2) onderzoek als je schrijft — laat nieuwsgierigheid leiden, niet een vooraf vastgesteld plan; (3) begin en eindig met hetzelfde verhaal, maar vanuit een nieuw perspectief. Kernidee: een essay is een poging te denken op de pagina (essayer = proberen), niet een presentatie van kant-en-klare gedachten.",
+              "whyRead": null,
+              "bestMoment": null,
               "tags": [
                 "arts & culture",
+                "later",
                 "light-reading",
-                "personal growth & life philosophy",
-                "philosophy"
+                "personal growth & life philosophy"
               ],
-              "alsoIn": [
-                "aaa-dutch-top-100",
-                "aaa-luchtig-nederlands-top-10",
-                "aaa-luchtig-nederlands-top-100"
-              ]
+              "alsoIn": []
             },
             {
               "position": 92,
-              "id": "01k8mt3nxj5957w8xd95q2j0sz",
-              "title": "My Lifetime Reading Plan",
-              "author": "Ted Gioia",
-              "siteName": "honest-broker.com",
-              "category": "article",
+              "id": "01kwpkn77cd2c8e0g3rppkq0q2",
+              "title": "Fake World: Everything You Think Is a Lie",
+              "author": "Miller’s Book Review 📚",
+              "siteName": "Substack",
+              "category": "email",
               "language": "Engels",
-              "readingTime": "13 mins",
-              "readingMinutes": 13,
-              "wordCount": 3215,
-              "publishedDate": "2023-04-29",
-              "savedDate": "2025-10-28T07:04:23.623000+00:00",
-              "imageUrl": "https://substackcdn.com/image/fetch/$s_!At0j!,w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F403df6ec-398f-4b9e-8278-f178be7d572d_1280x974.jpeg",
-              "sourceUrl": "https://www.honest-broker.com/p/my-lifetime-reading-plan?r=1r0y5d&utm_medium=ios&triedRedirect=true",
-              "readwiseUrl": "https://read.readwise.io/read/01k8mt3nxj5957w8xd95q2j0sz",
-              "summary": "Ted Gioia taught himself a broad, deep education by reading intensely and deliberately over many years.  \nHe favored slow, challenging books for mind-expansion, kept careful reading lists, and filled gaps systematically.  \nHis lifetime reading plan shaped his inner life more than his career and made him unusually well read.",
-              "whyRead": "Ted Gioia deelt zijn decennialange, radicale zelfopleiding via boeken — inspirerende blauwdruk voor serieuze lezers met PKM-ambities.",
-              "bestMoment": "geïnspireerd",
+              "readingTime": "7 mins",
+              "readingMinutes": 7,
+              "wordCount": 1594,
+              "publishedDate": "2026-07-04",
+              "savedDate": "2026-07-04T13:04:03.820000+00:00",
+              "imageUrl": null,
+              "sourceUrl": "mailto:reader-forwarded-email/deb1e7e55ec964a6e092002bb0b184e9",
+              "readwiseUrl": "https://read.readwise.io/read/01kwpkn77cd2c8e0g3rppkq0q2",
+              "summary": "George Orwell imagined that novels could be manufactured without writing.",
+              "whyRead": "Raakt AI, cultuurkritiek en de productie van nepwerkelijkheid: precies het gebied waar technologie en essayistische maatschappijanalyse elkaar kruisen. Bewaren voor een korte, scherpe reflectie op synthetische media en vertrouwen.",
+              "bestMoment": "kritisch",
               "tags": [
+                "ai ethics & society",
                 "arts & culture",
-                "cognitive science",
-                "learning & meta-learning",
-                "light-reading"
+                "light-reading",
+                "technology"
               ],
               "alsoIn": []
             },
             {
               "position": 93,
-              "id": "01m059ta2jr7jstn7cdahr41yy",
-              "title": "George Orwell to Steven Runciman, August 1920",
-              "author": "orwellfoundation.com",
-              "siteName": "The Orwell Foundation",
-              "category": "article",
-              "language": null,
-              "readingTime": "3 mins",
-              "readingMinutes": 3,
-              "wordCount": 628,
-              "publishedDate": "2011-03-18",
-              "savedDate": "2026-08-16T12:47:46.770000+00:00",
+              "id": "01kwreqfypckk54fws5c65whwp",
+              "title": "Niemand wil het, toch doen we het allemaal",
+              "author": "Jona van Loenen",
+              "siteName": "Substack",
+              "category": "email",
+              "language": "Nederlands",
+              "readingTime": "7 mins",
+              "readingMinutes": 7,
+              "wordCount": 1653,
+              "publishedDate": "2026-07-05",
+              "savedDate": "2026-07-05T06:16:24.278000+00:00",
               "imageUrl": null,
-              "sourceUrl": "https://www.orwellfoundation.com/the-orwell-foundation/orwell/essays-and-other-works/george-orwell-to-steven-runciman-august-1920/",
-              "readwiseUrl": "https://read.readwise.io/read/01m059ta2jr7jstn7cdahr41yy",
-              "summary": "Grove Terrace        Polperro RSO[1]    Cornwall. My dear Runciman[2], I have a little spare time, and I feel I must tell you about my first adventure as an amateur tramp. Like most tramps I was driven to it. When I got to a wretched little place in Devonshire, – Seaton Junction, Mynors[3], who had to...  <a class=\"excerpt-read-more\" href=\"https://www.orwellfoundation.com/the-orwell-foundation/orwell/essays-and-other-works/george-orwell-to-steven-runciman-august-1920/\" title=\"ReadGeorge Orwell to Steven Runciman, August 1920\">Read more »</a>",
-              "whyRead": "Luchtig, persoonlijk jeugddocument (Orwell was zeventien) waarin de latere fascinatie met \"tramps\" en het leven aan de onderkant van de samenleving al kiemt — een leuke aanvulling op de tramp-reportage elders in deze partij.",
-              "bestMoment": "ontspannen",
-              "tags": [
-                "biography",
-                "history",
-                "light-reading"
-              ],
-              "alsoIn": []
-            },
-            {
-              "position": 94,
-              "id": "01m059vzb20f0sy9sr2h2140d5",
-              "title": "Your Questions Answered: Wigan Pier",
-              "author": "orwellfoundation.com",
-              "siteName": "The Orwell Foundation",
-              "category": "article",
-              "language": null,
-              "readingTime": "2 mins",
-              "readingMinutes": 2,
-              "wordCount": 352,
-              "publishedDate": "2011-01-30",
-              "savedDate": "2026-08-16T12:48:41.314000+00:00",
-              "imageUrl": null,
-              "sourceUrl": "https://www.orwellfoundation.com/the-orwell-foundation/orwell/essays-and-other-works/your-questions-answered-wigan-pier/",
-              "readwiseUrl": "https://read.readwise.io/read/01m059vzb20f0sy9sr2h2140d5",
-              "summary": "This is a transcript of a BBC Overseas Service broadcast, 2 December 1943 COLIN WILLS: I am going to try some more of these trick questions on somebody else in another programme. And now we’ve got time for just one more question, asked by Sergeant Salt and Signalman McGrath serving in India. They say: ‘How...  <a class=\"excerpt-read-more\" href=\"https://www.orwellfoundation.com/the-orwell-foundation/orwell/essays-and-other-works/your-questions-answered-wigan-pier/\" title=\"ReadYour Questions Answered: Wigan Pier\">Read more »</a>",
-              "whyRead": "Kort en luchtig, maar raakt je interesse in Orwells non-fictie en schrijfcraft — een BBC-radiofragment waarin hij zelf de mythe rond zijn beroemde boektitel ontkracht.",
+              "sourceUrl": "mailto:reader-forwarded-email/d03e98c83b42f95bce803f121327a74f",
+              "readwiseUrl": "https://read.readwise.io/read/01kwreqfypckk54fws5c65whwp",
+              "summary": "Normaal neem ik de metro terug naar huis, voor de simpele reden dat ik geen zin heb om die (zware) tassen te dragen.",
+              "whyRead": "Nederlandstalig persoonlijk essay met alledaagse insteek; mogelijk interessant door stem, herkenning en reflectie op gedrag dat niemand wil maar iedereen toch doet. Bewaren als lichte essayistische Nederlandse cultuurreflectie.",
               "bestMoment": "ontspannen",
               "tags": [
                 "arts & culture",
-                "history",
-                "light-reading"
+                "light-reading",
+                "personal growth & life philosophy",
+                "sociology & social structures"
+              ],
+              "alsoIn": [
+                "aaa-dutch-top-100",
+                "aaa-short-dutch-top-100",
+                "aaa-luchtig-nederlands-top-10",
+                "aaa-luchtig-nederlands-top-100"
+              ]
+            },
+            {
+              "position": 94,
+              "id": "01kwvx3a3qze1p5e1yj36ejr6w",
+              "title": "\"Everything, today, is to some extent the reflection of something else\"",
+              "author": "Jared Henderson from Commonplace Philosophy",
+              "siteName": "Substack",
+              "category": "email",
+              "language": "Engels",
+              "readingTime": "7 mins",
+              "readingMinutes": 7,
+              "wordCount": 1597,
+              "publishedDate": "2026-07-06",
+              "savedDate": "2026-07-06T14:25:14.872000+00:00",
+              "imageUrl": null,
+              "sourceUrl": "mailto:reader-forwarded-email/053b0a33a9f552ecc071eb27111e2077",
+              "readwiseUrl": "https://read.readwise.io/read/01kwvx3a3qze1p5e1yj36ejr6w",
+              "summary": "I picked Pattern Recognition for our book club for a few reasons. First, I like to read science fiction, and I think it’s refreshing to read fiction between dense works of philosophy.",
+              "whyRead": "Combinatie van filosofische analyse en sciencefiction-duiding (Gibsons Pattern Recognition) rond branding, simulacra en de onmogelijkheid van een gedeelde cultuurtoekomst.",
+              "bestMoment": "reflectief",
+              "tags": [
+                "fiction",
+                "light-reading",
+                "philosophy"
               ],
               "alsoIn": []
             },
             {
               "position": 95,
-              "id": "01m0aph10yf5zdstrrs85vesb4",
-              "title": "I like 'em thick",
-              "author": "Adam Mastroianni",
-              "siteName": "Substack",
+              "id": "01kwvzcp697n18jy871bj3rj77",
+              "title": "This week: bells! Plus a clever word game and a cursed font.",
+              "author": "Tom Scott",
+              "siteName": null,
               "category": "email",
               "language": null,
-              "readingTime": "14 mins",
-              "readingMinutes": 14,
-              "wordCount": 3568,
-              "publishedDate": "2026-08-18",
-              "savedDate": "2026-08-18T15:06:06.239000+00:00",
+              "readingTime": "3 mins",
+              "readingMinutes": 3,
+              "wordCount": 565,
+              "publishedDate": "2026-07-06",
+              "savedDate": "2026-07-06T15:05:19.306000+00:00",
               "imageUrl": null,
-              "sourceUrl": "mailto:reader-forwarded-email/f9fb9dc2bc26126267f2670a0fd1e755",
-              "readwiseUrl": "https://read.readwise.io/read/01m0aph10yf5zdstrrs85vesb4",
-              "summary": "I owe an apology to every English teacher I ever had. I always assumed that so-called “great” literature was a hoax, a punishment inflicted upon adolescents for the crime of being young.",
-              "whyRead": "Raakt je interesse in essay schrijven en kunstkritiek — een scherp, met humor doorspekt essay van Adam Mastroianni over wat \"dikke\" (thick) kunst onderscheidt van slop, met concrete criteria die ook op AI-gegenereerde content toepasbaar zijn.",
-              "bestMoment": "analytisch",
+              "sourceUrl": "mailto:reader-forwarded-email/ef9d40736334c2c4fdc84c57986c2cb4",
+              "readwiseUrl": "https://read.readwise.io/read/01kwvzcp697n18jy871bj3rj77",
+              "summary": "And finally: one man fails repeatedly to guess the character. (Strong language.",
+              "whyRead": "Raakt je interesse in toegankelijke wetenschap, technologiecuriositeiten en lichte internetcultuur via Tom Scotts selectie van video's, puzzels en educatieve links. De meerwaarde is vooral serendipiteit: een paar losse ontdekkingen, geen diep essay.",
+              "bestMoment": "ontspannen",
               "tags": [
-                "arts & culture",
-                "personal growth & life philosophy"
+                "entertainment & pop culture",
+                "light-reading",
+                "science",
+                "technology"
               ],
               "alsoIn": []
             },
             {
               "position": 96,
-              "id": "01kgdfp777bge0tsbfpzway43h",
-              "title": "Why Designers Can No Longer Trust the Design Process",
-              "author": "Hatch Conference",
-              "siteName": "YouTube",
-              "category": "video",
-              "language": "Engels",
-              "readingTime": null,
-              "readingMinutes": null,
-              "wordCount": null,
-              "publishedDate": "2025-12-28",
-              "savedDate": "2026-02-01T20:53:10.504000+00:00",
-              "imageUrl": "https://i.ytimg.com/vi/4u94juYwLLM/maxresdefault.jpg?v=694d6af7",
-              "sourceUrl": "https://youtube.com/watch/?v=4u94juYwLLM",
-              "readwiseUrl": "https://read.readwise.io/read/01kgdfp777bge0tsbfpzway43h",
-              "summary": "The old step-by-step design process doesn’t fit today’s AI-driven tools and changing roles. Great work comes from care, fast prototyping, and strong intuition to choose and curate, not rigid steps. Designers should trust themselves, explore new capabilities, and tailor the process to each project.",
-              "whyRead": "Raakt je interesse in technologie en design — Jenny Wen (Design Lead bij Anthropic, voormalig Director of Design bij Figma) over hoe het klassieke designproces tekortschiet in een AI-gedreven wereld.",
-              "bestMoment": "analytisch",
-              "tags": [
-                "ai & machine learning",
-                "arts & culture",
-                "light-reading",
-                "programming & software",
-                "video-top-10"
-              ],
-              "alsoIn": [
-                "video-top-10",
-                "video-top-100"
-              ]
-            },
-            {
-              "position": 97,
-              "id": "01kt6y5gvdz397bca43fnn2tqd",
-              "title": "Noah Hawley: How He Wrote Fargo",
-              "author": "David Perell",
+              "id": "01kx8dy64p4xqjvp7asc8v98jk",
+              "title": "Best Way to See the Renaissance? Get the Panoramic View",
+              "author": "Miller’s Book Review 📚",
               "siteName": "Substack",
               "category": "email",
               "language": "Engels",
-              "readingTime": "43 mins",
-              "readingMinutes": 43,
-              "wordCount": 11377,
-              "publishedDate": "2026-06-03",
-              "savedDate": "2026-06-03T14:28:29.166000+00:00",
+              "readingTime": "7 mins",
+              "readingMinutes": 7,
+              "wordCount": 1756,
+              "publishedDate": "2026-07-11",
+              "savedDate": "2026-07-11T11:10:25.943000+00:00",
               "imageUrl": null,
-              "sourceUrl": "mailto:reader-forwarded-email/4a00ff0f88f8d187f8f24bbb47efbb10",
-              "readwiseUrl": "https://read.readwise.io/read/01kt6y5gvdz397bca43fnn2tqd",
-              "summary": "Noah Hawley has written books, movies, and TV shows like Alien Earth and Fargo. He's been successful not just because he's a talented writer, but also because he's a consummate professional.",
-              "whyRead": "Sterke match met schrijfcraft, film/series als cultuurvorm en makersprocessen: Hawley praat concreet over thema, plot, genre, sound design, writers' rooms en de zakelijke kant van creatief werk. De transcriptie is lang, maar rijk genoeg om als naslagstuk te bewaren voor narratief denken en professioneel schrijverschap.",
-              "bestMoment": "geconcentreerd",
+              "sourceUrl": "mailto:reader-forwarded-email/af55efe035245658f38a28263962926a",
+              "readwiseUrl": "https://read.readwise.io/read/01kx8dy64p4xqjvp7asc8v98jk",
+              "summary": "Historians can ply their trade countless ways, depending on their sources, interests, and audience.",
+              "whyRead": "Raakt je interesse in cultuurgeschiedenis: een panoramische kijk op de Renaissance kan helpen om kunst, politiek, religie en kennisontwikkeling als systeem te zien. De meerwaarde zit in overzicht boven losse biografieen.",
+              "bestMoment": "ontspannen",
               "tags": [
                 "arts & culture",
-                "fiction",
-                "light-reading",
-                "professional development"
+                "history",
+                "later",
+                "light-reading"
               ],
               "alsoIn": []
             },
             {
-              "position": 98,
-              "id": "01ky7jr6me70wqs7yfq5jchx8q",
-              "title": "StoryScope: Investigating idiosyncrasies in AI fiction",
-              "author": "Jenna Russell; Rishanth Rajendhran; Chau Minh Pham; Mohit Iyyer; John Wieting",
-              "siteName": "readwise-upload-pdf",
-              "category": "pdf",
-              "language": "Engels",
-              "readingTime": "52 mins",
-              "readingMinutes": 52,
-              "wordCount": 13592,
-              "publishedDate": null,
-              "savedDate": "2026-07-23T13:31:00.110000+00:00",
+              "position": 97,
+              "id": "01kxabe372k5htmjxz8bxdan0f",
+              "title": "Privéchefs zijn extreem algoritmevriendelijk",
+              "author": "Doortje Smithuijsen",
+              "siteName": "Substack",
+              "category": "email",
+              "language": "Nederlands",
+              "readingTime": "5 mins",
+              "readingMinutes": 5,
+              "wordCount": 1122,
+              "publishedDate": "2026-07-12",
+              "savedDate": "2026-07-12T05:05:10.371000+00:00",
               "imageUrl": null,
-              "sourceUrl": "https://arxiv.org/pdf/2604.03136",
-              "readwiseUrl": "https://read.readwise.io/read/01ky7jr6me70wqs7yfq5jchx8q",
-              "summary": null,
-              "whyRead": "Dit paper verbindt AI, auteurschap en literatuur met een interpreteerbare methode in plaats van alleen stijlherkenning. Het biedt een stevig empirisch vertrekpunt voor reflectie op originaliteit en AI-fictie.",
-              "bestMoment": "analytisch",
+              "sourceUrl": "mailto:reader-forwarded-email/1eee5fd801287b43f486157c5a05455c",
+              "readwiseUrl": "https://read.readwise.io/read/01kxabe372k5htmjxz8bxdan0f",
+              "summary": "De laatste tijd zit ik in een nieuw algoritme: dat van privéchefs.",
+              "whyRead": "Raakt je interesse in cultuur als vorm van sociale analyse: privechefs worden bekeken als algoritmisch aantrekkelijk statussymbool. De meerwaarde zit waarschijnlijk in de observatie van smaak, rijkdom en platformlogica.",
+              "bestMoment": "ontspannen",
               "tags": [
-                "ai ethics & society",
-                "fiction",
+                "arts & culture",
+                "later",
                 "light-reading",
-                "linked-from-readwise",
-                "research papers & academia"
+                "sociology & social structures"
               ],
               "alsoIn": [
-                "pdf-top-100"
+                "aaa-dutch-top-100",
+                "aaa-short-dutch-top-100",
+                "aaa-luchtig-nederlands-top-10",
+                "aaa-luchtig-nederlands-top-100"
               ]
             },
             {
-              "position": 99,
-              "id": "01ks3b1323hmp09eaygeqsbjrk",
-              "title": "how to have a dialogue with the books you read",
-              "author": "Ru",
-              "siteName": "substack.com",
-              "category": "article",
-              "language": null,
-              "readingTime": "6 mins",
-              "readingMinutes": 6,
-              "wordCount": 1536,
-              "publishedDate": "2026-05-20",
-              "savedDate": "2026-05-20T18:40:35.838000+00:00",
-              "imageUrl": "https://substackcdn.com/image/fetch/$s_!1Sj2!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1c62e5c3-f4c8-4e96-96b5-64ff07851713_916x731.png",
-              "sourceUrl": "https://rubygagotoku.substack.com/p/how-to-have-a-dialogue-with-the-books?r=1r0y5d&utm_medium=ios&triedRedirect=true",
-              "readwiseUrl": "https://read.readwise.io/read/01ks3b1323hmp09eaygeqsbjrk",
-              "summary": "Ru schrijft over waarom leesnotities bijhouden zo waardevol is — als middel om beter te schrijven, beter te lezen, en een persoonlijk archief op te bouwen. Ze geeft drie niveaus van vragen ('starting points', 'thinking harder', 'galaxy brain time') die je als gesprekspartner bij een boek kunt gebruiken. Centrale boodschap: leesnotities zijn een dagboek van wie je was toen je las, en spelenderwijs schrijven levert meer op dan je verwacht.",
-              "whyRead": "Raakt direct je interesse in PKM, leren en essayistisch lezen: leesnotities worden hier niet als administratie gezien, maar als gesprek met boeken en als dagboek van je denkontwikkeling. Extra waardevol door de concrete vragen die je kunt hergebruiken in Obsidian.",
-              "bestMoment": "leergierig",
+              "position": 98,
+              "id": "01kxjrmc56n9mg2wfecsfebj0g",
+              "title": "Before You Panic About That Atlantic Reading Piece",
+              "author": "Miller’s Book Review 📚",
+              "siteName": "Substack",
+              "category": "email",
+              "language": "Engels",
+              "readingTime": "7 mins",
+              "readingMinutes": 7,
+              "wordCount": 1746,
+              "publishedDate": "2026-07-15",
+              "savedDate": "2026-07-15T11:29:43.079000+00:00",
+              "imageUrl": null,
+              "sourceUrl": "mailto:reader-forwarded-email/1444c5b913968840029b3c8e3c38e624",
+              "readwiseUrl": "https://read.readwise.io/read/01kxjrmc56n9mg2wfecsfebj0g",
+              "summary": "“In 1958,” Rose Horowitch informs us in a lengthy and grim prognosis of reading habits published in the Atlantic, “the English translation of Boris Pasternak’s Doctor Zhivago was the best-selling novel of the year.",
+              "whyRead": "Raakt je interesse in essaycultuur en lezen als cultuurvorm: het stuk fileert de neiging om het verleden te romantiseren wanneer we ons zorgen maken over dalende leesgewoonten. De waarde zit vooral in het concrete voorbeeld van survivor bias in literaire geschiedenis.",
+              "bestMoment": "ontspannen",
               "tags": [
                 "arts & culture",
+                "history",
                 "learning & meta-learning",
+                "light-reading"
+              ],
+              "alsoIn": []
+            },
+            {
+              "position": 99,
+              "id": "01ky04rrda8nam4ym00qqfep0b",
+              "title": "\"It's more the way it is now than it's ever been\"",
+              "author": "Jared Henderson from Commonplace Philosophy",
+              "siteName": "Substack",
+              "category": "email",
+              "language": null,
+              "readingTime": "7 mins",
+              "readingMinutes": 7,
+              "wordCount": 1853,
+              "publishedDate": "2026-07-20",
+              "savedDate": "2026-07-20T16:11:57.226000+00:00",
+              "imageUrl": null,
+              "sourceUrl": "mailto:reader-forwarded-email/5174e1a9b61e92d2f2655f1fecb942e8",
+              "readwiseUrl": "https://read.readwise.io/read/01ky04rrda8nam4ym00qqfep0b",
+              "summary": "In the Zoom call on Friday, I boldly declared that I was sure that Dorotea was a red herring, that she had nothing to do with the burnt Rickson’s jacket, and that we would discover that she was motivated only by professional jealousy.",
+              "whyRead": "Filosofische zijsprong over Charles Taylor's 'Ethics of Authenticity' en 'medieval correspondences': Gibson laat personage Cayce merken (Patagonia, Supreme, Prada) zien als de nieuwe gedeelde symbolische taal die vroeger door kunst en religie werd vervuld. Ook een zijspoor over de Lonelygirl15-hoax (2006) als parallel met 'de footage' in de roman, en een lezersreactie over de aandachtseconomie en onze behoefte aan patronen/betekenis.\nWaarom skippen: Het grootste deel is plotbespreking (Dorotea, het verbrande jasje, de Zoom-call, 'de footage') van deel III van een lopende boekbespreking over Pattern Recognition — alleen goed te volgen met kennis van het boek of eerdere delen. De filosofische zijsprong over merken-als-taal is kort en ingebed, onvoldoende zelfstandig voor een losse leeservaring.",
+              "bestMoment": "ontspannen",
+              "tags": [
+                "archiveren",
+                "fiction",
                 "light-reading",
-                "personal growth & life philosophy"
+                "philosophy"
               ],
               "alsoIn": []
             },
             {
               "position": 100,
-              "id": "01ksn9qmay1erty7g5cha7xgmj",
-              "title": "Why I Don’t Write Every Day",
-              "author": "Mike Fisher",
-              "siteName": "substack.com",
+              "id": "01ky6y0c8yacchgqayg8gt7hgz",
+              "title": "Remembering Indonesia from my grandpa",
+              "author": "melaniehsieh.substack.com",
+              "siteName": "Melanie Hsieh",
               "category": "article",
               "language": "Engels",
-              "readingTime": "7 mins",
-              "readingMinutes": 7,
-              "wordCount": 1798,
-              "publishedDate": "2026-05-27",
-              "savedDate": "2026-05-27T18:04:17.011000+00:00",
-              "imageUrl": "https://substackcdn.com/image/fetch/$s_!r7dM!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F2f043dd2-47bc-4fca-bac3-c26da223af04_1536x1024.png",
-              "sourceUrl": "https://mikefisher.substack.com/p/why-i-dont-write-every-day?r=1r0y5d&utm_medium=ios&triedRedirect=true",
-              "readwiseUrl": "https://read.readwise.io/read/01ksn9qmay1erty7g5cha7xgmj",
-              "summary": "And why that works for me",
-              "whyRead": "Raakt je interesse in schrijven, leren en productdenken: Fisher verdedigt incubatie als volwaardige discipline naast dagelijkse output.",
-              "bestMoment": "leergierig",
+              "readingTime": "9 mins",
+              "readingMinutes": 9,
+              "wordCount": 2338,
+              "publishedDate": "2026-06-23",
+              "savedDate": "2026-07-23T07:28:27.858000+00:00",
+              "imageUrl": "https://substackcdn.com/image/fetch/$s_!akrk!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F97d68e4f-d4b7-4747-857b-64ca1e83c253_4032x3024.jpeg",
+              "sourceUrl": "https://melaniehsieh.substack.com/p/remembering-indonesia-from-my-grandpa?utm_source=substack&utm_medium=email",
+              "readwiseUrl": "https://read.readwise.io/read/01ky6y0c8yacchgqayg8gt7hgz",
+              "summary": "What do my grandparents’ history mean to me? How should I hold onto their stories?",
+              "whyRead": "Een zintuiglijk en terughoudend familie-essay waarin Indonesische, Chinese en Hongkongse geschiedenis niet als les maar als herinnering, stilte en lichamelijke nabijheid wordt doorgegeven.",
+              "bestMoment": "reflectief",
               "tags": [
                 "arts & culture",
-                "learning & meta-learning",
+                "history",
                 "light-reading",
-                "professional development"
+                "linked-from-readwise",
+                "personal growth & life philosophy"
               ],
               "alsoIn": []
             }
@@ -11576,6 +12445,75 @@ window.TOP_ARTICLES = {
           "items": [
             {
               "position": 1,
+              "id": "01kvcgsfekyqqc5b9t3nmrge8m",
+              "title": "Hoera, het is Waterloodag!",
+              "author": "De Ongelooflijke",
+              "siteName": "Substack",
+              "category": "email",
+              "language": "Nederlands",
+              "readingTime": "8 mins",
+              "readingMinutes": 8,
+              "wordCount": 1935,
+              "publishedDate": "2026-06-18",
+              "savedDate": "2026-06-18T04:45:51.444000+00:00",
+              "imageUrl": null,
+              "sourceUrl": "mailto:reader-forwarded-email/9063dc73da1b3f69c5087334680b7b3a",
+              "readwiseUrl": "https://read.readwise.io/read/01kvcgsfekyqqc5b9t3nmrge8m",
+              "summary": "Meer dan honderd jaar was 18 juni in Nederland een nationale feestdag, ter herinnering aan de Slag bij Waterloo (1815): de dag waarop Napoleon definitief werd verslagen en de geschiedenis van Nederland en Europa een beslissende wending nam.",
+              "whyRead": "Raakt je interesse in Europese geschiedenis en collectief geheugen: zeven veldslagen worden niet alleen militair, maar ook cultureel en identitair geduid. De meerwaarde zit in de combinatie van geschiedenis, mythevorming en historische verbeelding.",
+              "bestMoment": "ontspannen",
+              "tags": [
+                "arts & culture",
+                "history",
+                "later",
+                "light-reading",
+                "sociology & social structures"
+              ],
+              "alsoIn": [
+                "aaa-top-100",
+                "aaa-dutch-top-10",
+                "aaa-dutch-top-100",
+                "aaa-short-top-100",
+                "aaa-short-dutch-top-10",
+                "aaa-short-dutch-top-100",
+                "aaa-luchtig-top-100",
+                "aaa-luchtig-nederlands-top-100"
+              ]
+            },
+            {
+              "position": 2,
+              "id": "01kt9sbc2hgkymt9expprgkgdp",
+              "title": "In de Apocalyps is de vrouw een teken van hoop",
+              "author": "De Ongelooflijke",
+              "siteName": "Substack",
+              "category": "email",
+              "language": "Nederlands",
+              "readingTime": "11 mins",
+              "readingMinutes": 11,
+              "wordCount": 2806,
+              "publishedDate": "2026-06-04",
+              "savedDate": "2026-06-04T17:02:01.298000+00:00",
+              "imageUrl": null,
+              "sourceUrl": "mailto:reader-forwarded-email/1b764fdf5abd46623c037fd1ff273434",
+              "readwiseUrl": "https://read.readwise.io/read/01kt9sbc2hgkymt9expprgkgdp",
+              "summary": "Meestal wordt de Apocalyps geassocieerd met chaos, oorlog en vernietiging; het einde der tijden en de ondergang van de wereld.",
+              "whyRead": "Raakt je interesse in cultuurgeschiedenis, religieuze beeldtaal en kunst als ideeënwereld: een rijk essay over de apocalyptische vrouw als hoopmotief in plaats van alleen rampsymbool.",
+              "bestMoment": "geconcentreerd",
+              "tags": [
+                "arts & culture",
+                "history",
+                "later",
+                "light-reading",
+                "philosophy"
+              ],
+              "alsoIn": [
+                "aaa-dutch-top-100",
+                "aaa-luchtig-top-100",
+                "aaa-luchtig-nederlands-top-100"
+              ]
+            },
+            {
+              "position": 3,
               "id": "01ktv2sxayxrqj6yzvyhjes6tf",
               "title": "Leeslijst mei 2026",
               "author": "Kauthar",
@@ -11601,7 +12539,6 @@ window.TOP_ARTICLES = {
               ],
               "alsoIn": [
                 "aaa-dutch-top-100",
-                "aaa-short-top-100",
                 "aaa-short-dutch-top-10",
                 "aaa-short-dutch-top-100",
                 "aaa-luchtig-top-100",
@@ -11609,7 +12546,136 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 2,
+              "position": 4,
+              "id": "01kvm92m2s24rdpdw5hm665kgj",
+              "title": "De opkomst van culturele rage bait",
+              "author": "Doortje Smithuijsen",
+              "siteName": "Substack",
+              "category": "email",
+              "language": "Nederlands",
+              "readingTime": "2 mins",
+              "readingMinutes": 2,
+              "wordCount": 496,
+              "publishedDate": "2026-06-21",
+              "savedDate": "2026-06-21T05:04:57.946000+00:00",
+              "imageUrl": null,
+              "sourceUrl": "mailto:reader-forwarded-email/ac7fa1c3619097e1654ca4969360d4ae",
+              "readwiseUrl": "https://read.readwise.io/read/01kvm92m2s24rdpdw5hm665kgj",
+              "summary": "Afgelopen week ging ik ondanks mijn horror-haat in mijn eentje naar Obsession - de film over een jongen die wenst dat zijn crush Nikki ook verliefd wordt op hem, met alle gevolgen van dien.",
+              "whyRead": "Raakt je interesse in cultuurkritiek en mediavormen: Smithuijsen leest Gen Z-horror en TikTok-reactiecultuur als symptoom van culturele rage bait. De meerwaarde zit in het idee dat ook 'hoge' cultuur steeds vaker op platte emotie en reactiecircuits wordt ontworpen.",
+              "bestMoment": "kritisch",
+              "tags": [
+                "arts & culture",
+                "entertainment & pop culture",
+                "light-reading",
+                "sociology & social structures"
+              ],
+              "alsoIn": [
+                "aaa-dutch-top-100",
+                "aaa-short-dutch-top-10",
+                "aaa-short-dutch-top-100",
+                "aaa-luchtig-top-100",
+                "aaa-luchtig-nederlands-top-100"
+              ]
+            },
+            {
+              "position": 5,
+              "id": "01kwreqfypckk54fws5c65whwp",
+              "title": "Niemand wil het, toch doen we het allemaal",
+              "author": "Jona van Loenen",
+              "siteName": "Substack",
+              "category": "email",
+              "language": "Nederlands",
+              "readingTime": "7 mins",
+              "readingMinutes": 7,
+              "wordCount": 1653,
+              "publishedDate": "2026-07-05",
+              "savedDate": "2026-07-05T06:16:24.278000+00:00",
+              "imageUrl": null,
+              "sourceUrl": "mailto:reader-forwarded-email/d03e98c83b42f95bce803f121327a74f",
+              "readwiseUrl": "https://read.readwise.io/read/01kwreqfypckk54fws5c65whwp",
+              "summary": "Normaal neem ik de metro terug naar huis, voor de simpele reden dat ik geen zin heb om die (zware) tassen te dragen.",
+              "whyRead": "Nederlandstalig persoonlijk essay met alledaagse insteek; mogelijk interessant door stem, herkenning en reflectie op gedrag dat niemand wil maar iedereen toch doet. Bewaren als lichte essayistische Nederlandse cultuurreflectie.",
+              "bestMoment": "ontspannen",
+              "tags": [
+                "arts & culture",
+                "light-reading",
+                "personal growth & life philosophy",
+                "sociology & social structures"
+              ],
+              "alsoIn": [
+                "aaa-dutch-top-100",
+                "aaa-short-dutch-top-100",
+                "aaa-luchtig-top-100",
+                "aaa-luchtig-nederlands-top-100"
+              ]
+            },
+            {
+              "position": 6,
+              "id": "01kxabe372k5htmjxz8bxdan0f",
+              "title": "Privéchefs zijn extreem algoritmevriendelijk",
+              "author": "Doortje Smithuijsen",
+              "siteName": "Substack",
+              "category": "email",
+              "language": "Nederlands",
+              "readingTime": "5 mins",
+              "readingMinutes": 5,
+              "wordCount": 1122,
+              "publishedDate": "2026-07-12",
+              "savedDate": "2026-07-12T05:05:10.371000+00:00",
+              "imageUrl": null,
+              "sourceUrl": "mailto:reader-forwarded-email/1eee5fd801287b43f486157c5a05455c",
+              "readwiseUrl": "https://read.readwise.io/read/01kxabe372k5htmjxz8bxdan0f",
+              "summary": "De laatste tijd zit ik in een nieuw algoritme: dat van privéchefs.",
+              "whyRead": "Raakt je interesse in cultuur als vorm van sociale analyse: privechefs worden bekeken als algoritmisch aantrekkelijk statussymbool. De meerwaarde zit waarschijnlijk in de observatie van smaak, rijkdom en platformlogica.",
+              "bestMoment": "ontspannen",
+              "tags": [
+                "arts & culture",
+                "later",
+                "light-reading",
+                "sociology & social structures"
+              ],
+              "alsoIn": [
+                "aaa-dutch-top-100",
+                "aaa-short-dutch-top-100",
+                "aaa-luchtig-top-100",
+                "aaa-luchtig-nederlands-top-100"
+              ]
+            },
+            {
+              "position": 7,
+              "id": "01kyejqrpkrb3a9zqk5a7k4n5f",
+              "title": "Jetten-1 is geen regering. Het is een situationship.",
+              "author": "Jona van Loenen",
+              "siteName": "Substack",
+              "category": "email",
+              "language": "Nederlands",
+              "readingTime": "6 mins",
+              "readingMinutes": 6,
+              "wordCount": 1547,
+              "publishedDate": "2026-07-26",
+              "savedDate": "2026-07-26T06:45:26.868000+00:00",
+              "imageUrl": null,
+              "sourceUrl": "mailto:reader-forwarded-email/10e2d6a1c4a4b04f8ef0a919503aa291",
+              "readwiseUrl": "https://read.readwise.io/read/01kyejqrpkrb3a9zqk5a7k4n5f",
+              "summary": "Dit is voor het verhaal even belangrijk om te weten: deze vriend is een geboren en getogen Rotterdammer. Hij is opgegroeid in Kralingen, en is daar nooit meer weggegaan.",
+              "whyRead": "Raakt je interesse in Nederlandse politiek en essayistische analyse: de situationship-metafoor maakt de vrijblijvende logica van een meerderheidsarme regering tastbaar.",
+              "bestMoment": "kritisch",
+              "tags": [
+                "arts & culture",
+                "current affairs & politics",
+                "later",
+                "light-reading",
+                "sociology & social structures"
+              ],
+              "alsoIn": [
+                "aaa-dutch-top-100",
+                "aaa-short-dutch-top-100",
+                "aaa-luchtig-nederlands-top-100"
+              ]
+            },
+            {
+              "position": 8,
               "id": "01k80nvw2z9d40qq24hveszqrw",
               "title": "De hel van het gelijke",
               "author": "Marian Donner",
@@ -11634,12 +12700,11 @@ window.TOP_ARTICLES = {
               ],
               "alsoIn": [
                 "aaa-dutch-top-100",
-                "aaa-luchtig-top-100",
                 "aaa-luchtig-nederlands-top-100"
               ]
             },
             {
-              "position": 3,
+              "position": 9,
               "id": "01kwkpvx062dytw4zfh294psvb",
               "title": "Heilige plekken dichtbij: Der Herrgott van Bentheim",
               "author": "De Ongelooflijke",
@@ -11665,12 +12730,11 @@ window.TOP_ARTICLES = {
               ],
               "alsoIn": [
                 "aaa-dutch-top-100",
-                "aaa-luchtig-top-100",
                 "aaa-luchtig-nederlands-top-100"
               ]
             },
             {
-              "position": 4,
+              "position": 10,
               "id": "01m02v2mszvk3cjaw44d26cmvx",
               "title": "Het zachte tegengif heet verwondering",
               "author": "Sabine Winters",
@@ -11696,7 +12760,6 @@ window.TOP_ARTICLES = {
               ],
               "alsoIn": [
                 "aaa-dutch-top-100",
-                "aaa-luchtig-top-100",
                 "aaa-luchtig-nederlands-top-100"
               ]
             }
@@ -11707,6 +12770,75 @@ window.TOP_ARTICLES = {
           "items": [
             {
               "position": 1,
+              "id": "01kvcgsfekyqqc5b9t3nmrge8m",
+              "title": "Hoera, het is Waterloodag!",
+              "author": "De Ongelooflijke",
+              "siteName": "Substack",
+              "category": "email",
+              "language": "Nederlands",
+              "readingTime": "8 mins",
+              "readingMinutes": 8,
+              "wordCount": 1935,
+              "publishedDate": "2026-06-18",
+              "savedDate": "2026-06-18T04:45:51.444000+00:00",
+              "imageUrl": null,
+              "sourceUrl": "mailto:reader-forwarded-email/9063dc73da1b3f69c5087334680b7b3a",
+              "readwiseUrl": "https://read.readwise.io/read/01kvcgsfekyqqc5b9t3nmrge8m",
+              "summary": "Meer dan honderd jaar was 18 juni in Nederland een nationale feestdag, ter herinnering aan de Slag bij Waterloo (1815): de dag waarop Napoleon definitief werd verslagen en de geschiedenis van Nederland en Europa een beslissende wending nam.",
+              "whyRead": "Raakt je interesse in Europese geschiedenis en collectief geheugen: zeven veldslagen worden niet alleen militair, maar ook cultureel en identitair geduid. De meerwaarde zit in de combinatie van geschiedenis, mythevorming en historische verbeelding.",
+              "bestMoment": "ontspannen",
+              "tags": [
+                "arts & culture",
+                "history",
+                "later",
+                "light-reading",
+                "sociology & social structures"
+              ],
+              "alsoIn": [
+                "aaa-top-100",
+                "aaa-dutch-top-10",
+                "aaa-dutch-top-100",
+                "aaa-short-top-100",
+                "aaa-short-dutch-top-10",
+                "aaa-short-dutch-top-100",
+                "aaa-luchtig-top-100",
+                "aaa-luchtig-nederlands-top-10"
+              ]
+            },
+            {
+              "position": 2,
+              "id": "01kt9sbc2hgkymt9expprgkgdp",
+              "title": "In de Apocalyps is de vrouw een teken van hoop",
+              "author": "De Ongelooflijke",
+              "siteName": "Substack",
+              "category": "email",
+              "language": "Nederlands",
+              "readingTime": "11 mins",
+              "readingMinutes": 11,
+              "wordCount": 2806,
+              "publishedDate": "2026-06-04",
+              "savedDate": "2026-06-04T17:02:01.298000+00:00",
+              "imageUrl": null,
+              "sourceUrl": "mailto:reader-forwarded-email/1b764fdf5abd46623c037fd1ff273434",
+              "readwiseUrl": "https://read.readwise.io/read/01kt9sbc2hgkymt9expprgkgdp",
+              "summary": "Meestal wordt de Apocalyps geassocieerd met chaos, oorlog en vernietiging; het einde der tijden en de ondergang van de wereld.",
+              "whyRead": "Raakt je interesse in cultuurgeschiedenis, religieuze beeldtaal en kunst als ideeënwereld: een rijk essay over de apocalyptische vrouw als hoopmotief in plaats van alleen rampsymbool.",
+              "bestMoment": "geconcentreerd",
+              "tags": [
+                "arts & culture",
+                "history",
+                "later",
+                "light-reading",
+                "philosophy"
+              ],
+              "alsoIn": [
+                "aaa-dutch-top-100",
+                "aaa-luchtig-top-100",
+                "aaa-luchtig-nederlands-top-10"
+              ]
+            },
+            {
+              "position": 3,
               "id": "01ktv2sxayxrqj6yzvyhjes6tf",
               "title": "Leeslijst mei 2026",
               "author": "Kauthar",
@@ -11732,7 +12864,6 @@ window.TOP_ARTICLES = {
               ],
               "alsoIn": [
                 "aaa-dutch-top-100",
-                "aaa-short-top-100",
                 "aaa-short-dutch-top-10",
                 "aaa-short-dutch-top-100",
                 "aaa-luchtig-top-100",
@@ -11740,7 +12871,136 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 2,
+              "position": 4,
+              "id": "01kvm92m2s24rdpdw5hm665kgj",
+              "title": "De opkomst van culturele rage bait",
+              "author": "Doortje Smithuijsen",
+              "siteName": "Substack",
+              "category": "email",
+              "language": "Nederlands",
+              "readingTime": "2 mins",
+              "readingMinutes": 2,
+              "wordCount": 496,
+              "publishedDate": "2026-06-21",
+              "savedDate": "2026-06-21T05:04:57.946000+00:00",
+              "imageUrl": null,
+              "sourceUrl": "mailto:reader-forwarded-email/ac7fa1c3619097e1654ca4969360d4ae",
+              "readwiseUrl": "https://read.readwise.io/read/01kvm92m2s24rdpdw5hm665kgj",
+              "summary": "Afgelopen week ging ik ondanks mijn horror-haat in mijn eentje naar Obsession - de film over een jongen die wenst dat zijn crush Nikki ook verliefd wordt op hem, met alle gevolgen van dien.",
+              "whyRead": "Raakt je interesse in cultuurkritiek en mediavormen: Smithuijsen leest Gen Z-horror en TikTok-reactiecultuur als symptoom van culturele rage bait. De meerwaarde zit in het idee dat ook 'hoge' cultuur steeds vaker op platte emotie en reactiecircuits wordt ontworpen.",
+              "bestMoment": "kritisch",
+              "tags": [
+                "arts & culture",
+                "entertainment & pop culture",
+                "light-reading",
+                "sociology & social structures"
+              ],
+              "alsoIn": [
+                "aaa-dutch-top-100",
+                "aaa-short-dutch-top-10",
+                "aaa-short-dutch-top-100",
+                "aaa-luchtig-top-100",
+                "aaa-luchtig-nederlands-top-10"
+              ]
+            },
+            {
+              "position": 5,
+              "id": "01kwreqfypckk54fws5c65whwp",
+              "title": "Niemand wil het, toch doen we het allemaal",
+              "author": "Jona van Loenen",
+              "siteName": "Substack",
+              "category": "email",
+              "language": "Nederlands",
+              "readingTime": "7 mins",
+              "readingMinutes": 7,
+              "wordCount": 1653,
+              "publishedDate": "2026-07-05",
+              "savedDate": "2026-07-05T06:16:24.278000+00:00",
+              "imageUrl": null,
+              "sourceUrl": "mailto:reader-forwarded-email/d03e98c83b42f95bce803f121327a74f",
+              "readwiseUrl": "https://read.readwise.io/read/01kwreqfypckk54fws5c65whwp",
+              "summary": "Normaal neem ik de metro terug naar huis, voor de simpele reden dat ik geen zin heb om die (zware) tassen te dragen.",
+              "whyRead": "Nederlandstalig persoonlijk essay met alledaagse insteek; mogelijk interessant door stem, herkenning en reflectie op gedrag dat niemand wil maar iedereen toch doet. Bewaren als lichte essayistische Nederlandse cultuurreflectie.",
+              "bestMoment": "ontspannen",
+              "tags": [
+                "arts & culture",
+                "light-reading",
+                "personal growth & life philosophy",
+                "sociology & social structures"
+              ],
+              "alsoIn": [
+                "aaa-dutch-top-100",
+                "aaa-short-dutch-top-100",
+                "aaa-luchtig-top-100",
+                "aaa-luchtig-nederlands-top-10"
+              ]
+            },
+            {
+              "position": 6,
+              "id": "01kxabe372k5htmjxz8bxdan0f",
+              "title": "Privéchefs zijn extreem algoritmevriendelijk",
+              "author": "Doortje Smithuijsen",
+              "siteName": "Substack",
+              "category": "email",
+              "language": "Nederlands",
+              "readingTime": "5 mins",
+              "readingMinutes": 5,
+              "wordCount": 1122,
+              "publishedDate": "2026-07-12",
+              "savedDate": "2026-07-12T05:05:10.371000+00:00",
+              "imageUrl": null,
+              "sourceUrl": "mailto:reader-forwarded-email/1eee5fd801287b43f486157c5a05455c",
+              "readwiseUrl": "https://read.readwise.io/read/01kxabe372k5htmjxz8bxdan0f",
+              "summary": "De laatste tijd zit ik in een nieuw algoritme: dat van privéchefs.",
+              "whyRead": "Raakt je interesse in cultuur als vorm van sociale analyse: privechefs worden bekeken als algoritmisch aantrekkelijk statussymbool. De meerwaarde zit waarschijnlijk in de observatie van smaak, rijkdom en platformlogica.",
+              "bestMoment": "ontspannen",
+              "tags": [
+                "arts & culture",
+                "later",
+                "light-reading",
+                "sociology & social structures"
+              ],
+              "alsoIn": [
+                "aaa-dutch-top-100",
+                "aaa-short-dutch-top-100",
+                "aaa-luchtig-top-100",
+                "aaa-luchtig-nederlands-top-10"
+              ]
+            },
+            {
+              "position": 7,
+              "id": "01kyejqrpkrb3a9zqk5a7k4n5f",
+              "title": "Jetten-1 is geen regering. Het is een situationship.",
+              "author": "Jona van Loenen",
+              "siteName": "Substack",
+              "category": "email",
+              "language": "Nederlands",
+              "readingTime": "6 mins",
+              "readingMinutes": 6,
+              "wordCount": 1547,
+              "publishedDate": "2026-07-26",
+              "savedDate": "2026-07-26T06:45:26.868000+00:00",
+              "imageUrl": null,
+              "sourceUrl": "mailto:reader-forwarded-email/10e2d6a1c4a4b04f8ef0a919503aa291",
+              "readwiseUrl": "https://read.readwise.io/read/01kyejqrpkrb3a9zqk5a7k4n5f",
+              "summary": "Dit is voor het verhaal even belangrijk om te weten: deze vriend is een geboren en getogen Rotterdammer. Hij is opgegroeid in Kralingen, en is daar nooit meer weggegaan.",
+              "whyRead": "Raakt je interesse in Nederlandse politiek en essayistische analyse: de situationship-metafoor maakt de vrijblijvende logica van een meerderheidsarme regering tastbaar.",
+              "bestMoment": "kritisch",
+              "tags": [
+                "arts & culture",
+                "current affairs & politics",
+                "later",
+                "light-reading",
+                "sociology & social structures"
+              ],
+              "alsoIn": [
+                "aaa-dutch-top-100",
+                "aaa-short-dutch-top-100",
+                "aaa-luchtig-nederlands-top-10"
+              ]
+            },
+            {
+              "position": 8,
               "id": "01k80nvw2z9d40qq24hveszqrw",
               "title": "De hel van het gelijke",
               "author": "Marian Donner",
@@ -11765,12 +13025,11 @@ window.TOP_ARTICLES = {
               ],
               "alsoIn": [
                 "aaa-dutch-top-100",
-                "aaa-luchtig-top-100",
                 "aaa-luchtig-nederlands-top-10"
               ]
             },
             {
-              "position": 3,
+              "position": 9,
               "id": "01kwkpvx062dytw4zfh294psvb",
               "title": "Heilige plekken dichtbij: Der Herrgott van Bentheim",
               "author": "De Ongelooflijke",
@@ -11796,12 +13055,11 @@ window.TOP_ARTICLES = {
               ],
               "alsoIn": [
                 "aaa-dutch-top-100",
-                "aaa-luchtig-top-100",
                 "aaa-luchtig-nederlands-top-10"
               ]
             },
             {
-              "position": 4,
+              "position": 10,
               "id": "01m02v2mszvk3cjaw44d26cmvx",
               "title": "Het zachte tegengif heet verwondering",
               "author": "Sabine Winters",
@@ -11827,8 +13085,244 @@ window.TOP_ARTICLES = {
               ],
               "alsoIn": [
                 "aaa-dutch-top-100",
-                "aaa-luchtig-top-100",
                 "aaa-luchtig-nederlands-top-10"
+              ]
+            },
+            {
+              "position": 11,
+              "id": "01ks7vbkd0mgft31fpf06jbv90",
+              "title": "Een gele kanarie van 195 euro",
+              "author": "Alexander Klöpping & Ernst-Jan Pfauth",
+              "siteName": "Substack",
+              "category": "email",
+              "language": "Nederlands",
+              "readingTime": "3 mins",
+              "readingMinutes": 3,
+              "wordCount": 734,
+              "publishedDate": "2026-05-22",
+              "savedDate": "2026-05-22T12:42:55.265000+00:00",
+              "imageUrl": null,
+              "sourceUrl": "mailto:reader-forwarded-email/a1ecb0124fe5bef5475462038be62e11",
+              "readwiseUrl": "https://read.readwise.io/read/01ks7vbkd0mgft31fpf06jbv90",
+              "summary": "Een memoir waarin de schrijver wél kan schrijven.",
+              "whyRead": "Lichte weekendtips-mail met cultuur-, streaming- en gadgetaanbevelingen. De enige echt inhoudelijke haak is de verwijzing naar Alex Mayyasi/Derek Thompson over de economische logica achter eenzaamheid: digitaal vermaak schaalt goedkoop, terwijl sociale plekken arbeidsintensief en duurder worden.",
+              "bestMoment": "licht / weekend",
+              "tags": [
+                "arts & culture",
+                "light-reading",
+                "sociology & social structures"
+              ],
+              "alsoIn": [
+                "aaa-dutch-top-100",
+                "aaa-short-dutch-top-100"
+              ]
+            },
+            {
+              "position": 12,
+              "id": "01ktbxxr50k86jtqphyhdp1eyc",
+              "title": "De blauwe Ferrari van Jony Ive",
+              "author": "Alexander Klöpping & Ernst-Jan Pfauth",
+              "siteName": "Substack",
+              "category": "email",
+              "language": "Nederlands",
+              "readingTime": "3 mins",
+              "readingMinutes": 3,
+              "wordCount": 654,
+              "publishedDate": "2026-06-05",
+              "savedDate": "2026-06-05T13:00:26.656000+00:00",
+              "imageUrl": null,
+              "sourceUrl": "mailto:reader-forwarded-email/688da72a0be45c4884c39fd7bc5241d1",
+              "readwiseUrl": "https://read.readwise.io/read/01ktbxxr50k86jtqphyhdp1eyc",
+              "summary": "Ferrari smeekt petrolheads om deze auto níét te kopen. Echt waar: de marketingbaas zegt tegen z'n trouwe klanten dat de nieuwe elektrische Luce niet voor hen bedoeld is.",
+              "whyRead": "Raakt je interesse in technologie en media alleen als lichte roundup; er staan een paar aardige signalen in, maar te weinig diepte om actief te bewaren.",
+              "bestMoment": "ontspannen",
+              "tags": [
+                "archiveren",
+                "entertainment & pop culture",
+                "light-reading",
+                "technology"
+              ],
+              "alsoIn": [
+                "aaa-dutch-top-100",
+                "aaa-short-dutch-top-100"
+              ]
+            },
+            {
+              "position": 13,
+              "id": "01kty3nmapqw3y4ypnbbgrm2t3",
+              "title": "De FIFA-idents zijn fantastisch",
+              "author": "Alexander Klöpping & Ernst-Jan Pfauth",
+              "siteName": "Substack",
+              "category": "email",
+              "language": "Nederlands",
+              "readingTime": "3 mins",
+              "readingMinutes": 3,
+              "wordCount": 727,
+              "publishedDate": "2026-06-12",
+              "savedDate": "2026-06-12T14:27:11.830000+00:00",
+              "imageUrl": null,
+              "sourceUrl": "mailto:reader-forwarded-email/f3e5d8fd83a1e9390912adb388785448",
+              "readwiseUrl": "https://read.readwise.io/read/01kty3nmapqw3y4ypnbbgrm2t3",
+              "summary": "Eerst een eed, dan het feestje.",
+              "whyRead": "Raakt licht je interesse in cultuur, sport en mediavormen: dit is een weekendlijstje met een paar interessante haakjes over Stanford, de sociale functie van feestjes en de politieke lading van WK's. De meerwaarde zit vooral in de links naar Simon Kuper, Derek Thompson en de Cruijff-docu.",
+              "bestMoment": "ontspannen",
+              "tags": [
+                "arts & culture",
+                "light-reading",
+                "sociology & social structures",
+                "sports & recreation"
+              ],
+              "alsoIn": [
+                "aaa-dutch-top-100",
+                "aaa-short-dutch-top-100"
+              ]
+            },
+            {
+              "position": 14,
+              "id": "01kvfsv00xheeeezwr4g8hm52h",
+              "title": "Dé telefoon zonder social media",
+              "author": "Alexander Klöpping & Ernst-Jan Pfauth",
+              "siteName": "Substack",
+              "category": "email",
+              "language": "Nederlands",
+              "readingTime": "4 mins",
+              "readingMinutes": 4,
+              "wordCount": 845,
+              "publishedDate": "2026-06-19",
+              "savedDate": "2026-06-19T11:21:41.662000+00:00",
+              "imageUrl": null,
+              "sourceUrl": "mailto:reader-forwarded-email/cf569162413724326ec904187b9c2931",
+              "readwiseUrl": "https://read.readwise.io/read/01kvfsv00xheeeezwr4g8hm52h",
+              "summary": "Elke week geven Alexander Klöpping en Ernst-Jan Pfauth vijf tips om het weekend mee in te gaan. Deze week schoof tv-verslaggever Alex Mazereeuw weer aan voor onze maandelijkse televisieaflevering.",
+              "whyRead": "Raakt je interesse in technologie, aandacht en Nederlandse mediacultuur: POM combineert een socialmediavrije telefoon met observaties over podcastzoekmachines en tv als spiegelpaleis. De meerwaarde zit in de signalen, niet in één diep betoog.",
+              "bestMoment": "ontspannen",
+              "tags": [
+                "arts & culture",
+                "entertainment & pop culture",
+                "light-reading",
+                "technology"
+              ],
+              "alsoIn": [
+                "aaa-dutch-top-100",
+                "aaa-short-dutch-top-100"
+              ]
+            },
+            {
+              "position": 15,
+              "id": "01kshptdc5njqdmnehkxr4arfb",
+              "title": "Een walgelijke man",
+              "author": "Fouad El Hamdaoui",
+              "siteName": "Substack",
+              "category": "email",
+              "language": "Nederlands",
+              "readingTime": "2 mins",
+              "readingMinutes": 2,
+              "wordCount": 462,
+              "publishedDate": "2026-05-26",
+              "savedDate": "2026-05-26T08:36:02.054000+00:00",
+              "imageUrl": null,
+              "sourceUrl": "mailto:reader-forwarded-email/a10f2d38f6ef61984f2a14c198105623",
+              "readwiseUrl": "https://read.readwise.io/read/01kshptdc5njqdmnehkxr4arfb",
+              "summary": "Ik-verteller beschrijft een depressieve man met suïcidale gedachten die ondanks een 'perfect plaatje' leeg en walgend is — de twist: de man is hijzelf, in de badkamerspiegel.",
+              "whyRead": "Kort en krachtig Nederlands prozastuk met een scherpe twist: een ogenschijnlijk objectieve blik op andermans depressie en doodsverlangen blijkt uiteindelijk een zelfportret in de spiegel. Sterke stem en beklijvende beeldspraak over hoe suïcidale gedachten de waarneming van de wereld vervormen.",
+              "bestMoment": "reflectief",
+              "tags": [
+                "arts & culture",
+                "health & wellness",
+                "light-reading",
+                "personal growth & life philosophy"
+              ],
+              "alsoIn": [
+                "aaa-dutch-top-100",
+                "aaa-short-dutch-top-100"
+              ]
+            },
+            {
+              "position": 16,
+              "id": "01kt7kjd4zr8ba59xcpfvmxdfz",
+              "title": "Week 14: kop en staart",
+              "author": "Holly en Roos",
+              "siteName": "Substack",
+              "category": "email",
+              "language": "Nederlands",
+              "readingTime": "5 mins",
+              "readingMinutes": 5,
+              "wordCount": 1193,
+              "publishedDate": "2026-06-03",
+              "savedDate": "2026-06-03T20:42:31.455000+00:00",
+              "imageUrl": null,
+              "sourceUrl": "mailto:reader-forwarded-email/ef98889d4b0749d6aa86a66140526e19",
+              "readwiseUrl": "https://read.readwise.io/read/01kt7kjd4zr8ba59xcpfvmxdfz",
+              "summary": "Ik loop weer eens achter. Met deze blogs dan.",
+              "whyRead": "Raakt je voorkeur voor reflectieve essays met persoonlijke anekdote: een wandelverslag dat eigenlijk gaat over vertragen, afhankelijkheid en het vinden van verhaalvorm.",
+              "bestMoment": "ontspannen",
+              "tags": [
+                "arts & culture",
+                "light-reading",
+                "personal growth & life philosophy"
+              ],
+              "alsoIn": [
+                "aaa-dutch-top-100",
+                "aaa-short-dutch-top-100"
+              ]
+            },
+            {
+              "position": 17,
+              "id": "01kwnpartfb70amv2acccwcsr1",
+              "title": "Vijf muggen in mijn klamboe",
+              "author": "Dorien.Bot",
+              "siteName": "Substack",
+              "category": "email",
+              "language": "Nederlands",
+              "readingTime": "1 min",
+              "readingMinutes": 1,
+              "wordCount": 200,
+              "publishedDate": "2026-07-04",
+              "savedDate": "2026-07-04T04:31:32.687000+00:00",
+              "imageUrl": null,
+              "sourceUrl": "mailto:reader-forwarded-email/84c36bd5582d3b64326bd54530a924e5",
+              "readwiseUrl": "https://read.readwise.io/read/01kwnpartfb70amv2acccwcsr1",
+              "summary": null,
+              "whyRead": "Zeer korte Nederlandstalige persoonlijke tekst; mogelijk charmant als miniatuur, maar te klein en contextarm voor de leesstapel. Vastleggen is genoeg, daarna archiveren.",
+              "bestMoment": "ontspannen",
+              "tags": [
+                "arts & culture",
+                "light-reading",
+                "personal growth & life philosophy"
+              ],
+              "alsoIn": [
+                "aaa-dutch-top-100",
+                "aaa-short-dutch-top-100"
+              ]
+            },
+            {
+              "position": 18,
+              "id": "01m01v1rmpqh6acc6t5t8cdy21",
+              "title": "Was ik maar iets meer robotesk",
+              "author": "Dorien.Bot",
+              "siteName": "Substack",
+              "category": "email",
+              "language": "Nederlands",
+              "readingTime": "1 min",
+              "readingMinutes": 1,
+              "wordCount": 202,
+              "publishedDate": "2026-08-15",
+              "savedDate": "2026-08-15T04:31:59.126000+00:00",
+              "imageUrl": null,
+              "sourceUrl": "mailto:reader-forwarded-email/2ec413816edffa53c071aa10b7604a1a",
+              "readwiseUrl": "https://read.readwise.io/read/01m01v1rmpqh6acc6t5t8cdy21",
+              "summary": null,
+              "whyRead": "Een luchtig, raak gedicht over productiviteitsdwang en aandacht. De humor werkt als kleine tegenstem bij de neiging om zelfs vijf minuten verwondering over een geparkeerde truck als verlies te behandelen.",
+              "bestMoment": "ontspannen",
+              "tags": [
+                "arts & culture",
+                "later",
+                "light-reading",
+                "personal growth & life philosophy"
+              ],
+              "alsoIn": [
+                "aaa-dutch-top-100",
+                "aaa-short-dutch-top-100"
               ]
             }
           ]
@@ -14919,9 +16413,7 @@ window.TOP_ARTICLES = {
                 "linked-from-readwise",
                 "research papers & academia"
               ],
-              "alsoIn": [
-                "aaa-luchtig-top-100"
-              ]
+              "alsoIn": []
             },
             {
               "position": 19,
@@ -15348,7 +16840,6 @@ window.TOP_ARTICLES = {
                 "video-top-10"
               ],
               "alsoIn": [
-                "aaa-luchtig-top-100",
                 "video-top-100"
               ]
             },
@@ -15646,7 +17137,6 @@ window.TOP_ARTICLES = {
                 "video-top-10"
               ],
               "alsoIn": [
-                "aaa-luchtig-top-100",
                 "video-top-10"
               ]
             },
@@ -15770,6 +17260,892 @@ window.TOP_ARTICLES = {
   ],
   "catalog": {
     "items": [
+      {
+        "position": null,
+        "id": "01m0f8xm0wprsekah2acf4fx7j",
+        "title": "How To Make Life Interesting Again And Escape The Dopamine Economy",
+        "author": "themicrophilosopher.substack.com",
+        "siteName": "substack.com",
+        "category": "article",
+        "language": null,
+        "readingTime": "14 mins",
+        "readingMinutes": 14,
+        "wordCount": 3601,
+        "publishedDate": "2025-11-17",
+        "savedDate": "2026-08-20T09:44:31.001000+00:00",
+        "imageUrl": "https://substackcdn.com/image/fetch/$s_!2otw!,w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff7779a2e-9601-4ff5-a2ac-1251c57d3b6e_3002x1792.png",
+        "sourceUrl": "https://themicrophilosopher.substack.com/p/how-to-make-life-interesting-again",
+        "readwiseUrl": "https://read.readwise.io/read/01m0f8xm0wprsekah2acf4fx7j",
+        "summary": "We are living through a mass distraction event that threatens to make human life completely uninteresting",
+        "whyRead": "Raakt je interesse in filosofie - Musso combineert Nietzsches laatste mens en Hegels kunstfilosofie tot het concept Dark Value, als tegenwicht tegen wat hij de Dopamine Economy noemt.",
+        "bestMoment": "analytisch",
+        "tags": [
+          "linked-from-readwise",
+          "philosophy"
+        ],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01m0f8xjnf41tb5r5q6pywfkje",
+        "title": "How To Reprogram Your Mind",
+        "author": "themicrophilosopher.substack.com",
+        "siteName": "substack.com",
+        "category": "article",
+        "language": null,
+        "readingTime": "13 mins",
+        "readingMinutes": 13,
+        "wordCount": 3340,
+        "publishedDate": "2025-12-15",
+        "savedDate": "2026-08-20T09:44:29.615000+00:00",
+        "imageUrl": "https://substackcdn.com/image/fetch/$s_!9IVe!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff71f915c-ca0d-4e13-9720-4b2d5fd1cae1_1500x1250.png",
+        "sourceUrl": "https://themicrophilosopher.substack.com/p/how-to-reprogram-your-mind",
+        "readwiseUrl": "https://read.readwise.io/read/01m0f8xjnf41tb5r5q6pywfkje",
+        "summary": "It is harder than ever to perform the deep self-work we need to change our lives, but there is hope...",
+        "whyRead": "Raakt je interesse in filosofie en persoonlijke groei - Musso gebruikt John C. Lillys biocomputer-metafoor om uit te leggen waarom diep zelfonderzoek nu moeilijker is dan ooit, en wat daar wel tegenop helpt.",
+        "bestMoment": "reflectief",
+        "tags": [
+          "linked-from-readwise",
+          "personal growth & life philosophy",
+          "philosophy"
+        ],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01m0f8xgfgrxrp4peeznqsnnz7",
+        "title": "If You Don't Understand Anyone Else's Worldview, Then You Don't Understand Your Own",
+        "author": "themicrophilosopher.substack.com",
+        "siteName": "substack.com",
+        "category": "article",
+        "language": null,
+        "readingTime": "9 mins",
+        "readingMinutes": 9,
+        "wordCount": 2348,
+        "publishedDate": "2025-05-29",
+        "savedDate": "2026-08-20T09:44:27.376000+00:00",
+        "imageUrl": "https://substackcdn.com/image/fetch/$s_!_LvV!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F5cc44f0e-1837-4a14-be00-c9de074648bc_769x450.png",
+        "sourceUrl": "https://themicrophilosopher.substack.com/p/if-you-dont-understand-anyone-elses",
+        "readwiseUrl": "https://read.readwise.io/read/01m0f8xgfgrxrp4peeznqsnnz7",
+        "summary": "Everyone inherits a worldview from birth (whether they realize it or not)",
+        "whyRead": "Raakt je interesse in filosofie - Musso beargumenteert dat je je eigen wereldbeeld pas echt begrijpt als je serieus de tijd neemt om andere wereldbeelden te bestuderen, en reikt de birthview-genealogie aan als praktische methode.",
+        "bestMoment": "analytisch",
+        "tags": [
+          "linked-from-readwise",
+          "philosophy"
+        ],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01m0f7n644wg7rjzghc836t9ad",
+        "title": "Beyond Good And Evil: Week 2",
+        "author": "themicrophilosopher.com",
+        "siteName": "The Micro-Philosopher",
+        "category": "article",
+        "language": null,
+        "readingTime": "12 mins",
+        "readingMinutes": 12,
+        "wordCount": 3149,
+        "publishedDate": "2026-04-23",
+        "savedDate": "2026-08-20T09:22:26.053000+00:00",
+        "imageUrl": "https://substackcdn.com/image/fetch/$s_!Gxc9!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F555fb55a-6c18-4733-86ed-d0caa21583fb_816x1220.png",
+        "sourceUrl": "https://themicrophilosopher.com/p/on-the-prejudices-of-the-philosophers-5a6",
+        "readwiseUrl": "https://read.readwise.io/read/01m0f7n644wg7rjzghc836t9ad",
+        "summary": "What if truth is overrated? A guide to Part I of Beyond Good And Evil",
+        "whyRead": "Raakt je kerninteresse in filosofie — een compacte, toegankelijke doorwerking van Nietzsches Beyond Good and Evil (deel I, secties 1, 4 en 6) door iemand die de tekst zelf serieus heeft doorleefd.",
+        "bestMoment": "analytisch",
+        "tags": [
+          "linked-from-readwise",
+          "philosophy"
+        ],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01m0f7n54g084vrq9cwa4veha9",
+        "title": "The Hidden Source Of Human Anxiety",
+        "author": "themicrophilosopher.com",
+        "siteName": "The Micro-Philosopher",
+        "category": "article",
+        "language": null,
+        "readingTime": "13 mins",
+        "readingMinutes": 13,
+        "wordCount": 3394,
+        "publishedDate": "2026-03-10",
+        "savedDate": "2026-08-20T09:22:25.040000+00:00",
+        "imageUrl": "https://substackcdn.com/image/fetch/$s_!Fja4!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F6cf64eff-2964-49e4-963c-96fdca0da299_676x886.png",
+        "sourceUrl": "https://themicrophilosopher.com/p/the-hidden-source-of-human-anxiety",
+        "readwiseUrl": "https://read.readwise.io/read/01m0f7n54g084vrq9cwa4veha9",
+        "summary": "The true source of anxiety is human existence itself.",
+        "whyRead": "Sterke, toegankelijke Heidegger-doorwerking (Being and Time) over das Man, angst en authenticiteit — raakt je filosofie-interesse en heeft een scherpe literaire opening via Holden Caulfield uit The Catcher in the Rye.",
+        "bestMoment": "analytisch",
+        "tags": [
+          "linked-from-readwise",
+          "philosophy"
+        ],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01m0f7n30c9arq8kzsb4g7dq58",
+        "title": "Philosophy Isn't Useless, Philosophers Have Just Failed To Make It Useful",
+        "author": "themicrophilosopher.com",
+        "siteName": "The Micro-Philosopher",
+        "category": "article",
+        "language": null,
+        "readingTime": "17 mins",
+        "readingMinutes": 17,
+        "wordCount": 4379,
+        "publishedDate": "2026-02-15",
+        "savedDate": "2026-08-20T09:22:22.860000+00:00",
+        "imageUrl": "https://substackcdn.com/image/fetch/$s_!sKqi!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fe367985b-ed71-4abe-adda-f1485c438852_668x952.png",
+        "sourceUrl": "https://themicrophilosopher.com/p/they-will-never-teach-this-in-a-university",
+        "readwiseUrl": "https://read.readwise.io/read/01m0f7n30c9arq8kzsb4g7dq58",
+        "summary": "Why so many philosophers have failed to teach philosophy in a way that is actually useful, and what I decided to do about it...",
+        "whyRead": "Deels essay, deels cursuswerving, maar het essay-gedeelte bevat een scherpe diagnose van waarom academische filosofie mensen niet helpt hun leven te sturen, met een genuanceerde kritiek op James Clear (Atomic Habits) en de Socratische methode als tegenmodel. Raakt je interesse in filosofie en persoonlijke ontwikkeling.",
+        "bestMoment": "reflectief",
+        "tags": [
+          "linked-from-readwise",
+          "philosophy"
+        ],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01m0f7n1vtpf6kh2stzqy55h8a",
+        "title": "Why Philosophy Is Not Like Tylenol",
+        "author": "themicrophilosopher.com",
+        "siteName": "The Micro-Philosopher",
+        "category": "article",
+        "language": null,
+        "readingTime": "6 mins",
+        "readingMinutes": 6,
+        "wordCount": 1558,
+        "publishedDate": "2025-10-31",
+        "savedDate": "2026-08-20T09:22:21.690000+00:00",
+        "imageUrl": "https://substackcdn.com/image/fetch/$s_!1LxG!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fefc0a949-d2ce-4566-903e-92c50c0bf035_940x788.png",
+        "sourceUrl": "https://themicrophilosopher.com/p/why-philosophy-is-not-like-tylenol",
+        "readwiseUrl": "https://read.readwise.io/read/01m0f7n1vtpf6kh2stzqy55h8a",
+        "summary": "Philosophy Isn't Useless, We Just Aren't Taught How To Use It",
+        "whyRead": "Raakt je interesse in filosofie met een scherpe, compacte redenering over waarom mensen filosofie afdoen als nutteloos, terwijl ze onbewust voortdurend leunen op filosofische aannames.",
+        "bestMoment": "analytisch",
+        "tags": [
+          "linked-from-readwise",
+          "philosophy"
+        ],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01m0f7mzdbtp4sa5541apkzewk",
+        "title": "The Reason You Feel Lost In The World: Heidegger on Authenticity and Death (Part I)",
+        "author": "themicrophilosopher.com",
+        "siteName": "The Micro-Philosopher",
+        "category": "article",
+        "language": null,
+        "readingTime": "12 mins",
+        "readingMinutes": 12,
+        "wordCount": 2952,
+        "publishedDate": "2026-02-13",
+        "savedDate": "2026-08-20T09:22:19.177000+00:00",
+        "imageUrl": "https://substackcdn.com/image/fetch/$s_!nHfY!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fad4a56d9-bb5e-41b7-b7d5-b576fe96b58d_1080x1350.png",
+        "sourceUrl": "https://themicrophilosopher.com/p/the-reason-you-feel-lost-in-the-world",
+        "readwiseUrl": "https://read.readwise.io/read/01m0f7mzdbtp4sa5541apkzewk",
+        "summary": "The world you were born into has changed and is never coming back, but everything will be okay if you learn how to live authentically...",
+        "whyRead": "Raakt je interesse in filosofie (Heidegger) met een toegankelijke introductie op thrownness en inauthenticiteit, herkenbaar verpakt in een gevoel van vervreemding van de moderne wereld.",
+        "bestMoment": "reflectief",
+        "tags": [
+          "linked-from-readwise",
+          "philosophy"
+        ],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01m0f7my4hnsxedrnasyh8q2av",
+        "title": "How To Survive Your Own Death",
+        "author": "themicrophilosopher.com",
+        "siteName": "The Micro-Philosopher",
+        "category": "article",
+        "language": null,
+        "readingTime": "3 mins",
+        "readingMinutes": 3,
+        "wordCount": 606,
+        "publishedDate": "2026-06-12",
+        "savedDate": "2026-08-20T09:22:17.871000+00:00",
+        "imageUrl": "https://substackcdn.com/image/fetch/$s_!zxZD!,w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-video.s3.amazonaws.com%2Fvideo_upload%2Fpost%2F201679103%2F47dc5ffd-08c6-4feb-9ba7-7c5b433036dc%2Ftranscoded-1781224744.png",
+        "sourceUrl": "https://themicrophilosopher.com/p/how-to-survive-your-own-death",
+        "readwiseUrl": "https://read.readwise.io/read/01m0f7my4hnsxedrnasyh8q2av",
+        "summary": "A conversation with Dr. Iain Thomson on what death really means in Heidegger's Being and Time",
+        "whyRead": "Raakt je interesse in filosofie (Heidegger) met een verrassende, precieze uitleg van een van de moeilijkste concepten uit Being and Time via een gesprek met Heidegger-kenner Iain Thomson.",
+        "bestMoment": "analytisch",
+        "tags": [
+          "linked-from-readwise",
+          "philosophy"
+        ],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01m0f7mwvh8ay32g66bb7rfsaj",
+        "title": "Who Was Friedrich Nietzsche? His Life And Works",
+        "author": "themicrophilosopher.com",
+        "siteName": "The Micro-Philosopher",
+        "category": "article",
+        "language": null,
+        "readingTime": "14 mins",
+        "readingMinutes": 14,
+        "wordCount": 3567,
+        "publishedDate": "2026-04-15",
+        "savedDate": "2026-08-20T09:22:16.560000+00:00",
+        "imageUrl": "https://substackcdn.com/image/fetch/$s_!KTkJ!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F65d7d714-66a8-4c3d-9394-93f4b9b01005_1226x714.png",
+        "sourceUrl": "https://themicrophilosopher.com/p/nietzsches-life-and-works",
+        "readwiseUrl": "https://read.readwise.io/read/01m0f7mwvh8ay32g66bb7rfsaj",
+        "summary": "Introduce yourself to one of history's most popular (and controversial) thinkers",
+        "whyRead": "Raakt je interesse in filosofie met een compacte, goed geschreven biografie van Nietzsche die leven, werk en receptiegeschiedenis in samenhang brengt, inclusief zijn ondubbelzinnige afkeer van antisemitisme.",
+        "bestMoment": "analytisch",
+        "tags": [
+          "linked-from-readwise",
+          "philosophy"
+        ],
+        "alsoIn": [
+          "aaa-top-100"
+        ],
+        "memberships": [
+          {
+            "familyId": "algemeen",
+            "size": "top-100",
+            "position": 55
+          }
+        ]
+      },
+      {
+        "position": null,
+        "id": "01m0f7mvnryfzw7jn517zpadtz",
+        "title": "Why All Philosophies Fail Except Your Own",
+        "author": "themicrophilosopher.com",
+        "siteName": "The Micro-Philosopher",
+        "category": "article",
+        "language": null,
+        "readingTime": "6 mins",
+        "readingMinutes": 6,
+        "wordCount": 1457,
+        "publishedDate": "2026-01-01",
+        "savedDate": "2026-08-20T09:22:15.352000+00:00",
+        "imageUrl": "https://substackcdn.com/image/fetch/$s_!cDYA!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F3cb10615-0371-4f30-b3da-110025c9351e_1500x750.png",
+        "sourceUrl": "https://themicrophilosopher.com/p/why-all-philosophies-fail-except",
+        "readwiseUrl": "https://read.readwise.io/read/01m0f7mvnryfzw7jn517zpadtz",
+        "summary": "Creating your own philosophy of life is the price of human freedom",
+        "whyRead": "Raakt je interesse in filosofie met een heldere redenering, gebouwd op Sartre, over waarom geen enkel groot filosofisch systeem je ooit ontslaat van de plicht om zelf te kiezen hoe te leven.",
+        "bestMoment": "analytisch",
+        "tags": [
+          "linked-from-readwise",
+          "philosophy"
+        ],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01m0f7mt8jz6b1bgmxcp0bpqk0",
+        "title": "The Existential Basis Of Human Empathy",
+        "author": "themicrophilosopher.com",
+        "siteName": "The Micro-Philosopher",
+        "category": "article",
+        "language": null,
+        "readingTime": "5 mins",
+        "readingMinutes": 5,
+        "wordCount": 1181,
+        "publishedDate": "2026-01-23",
+        "savedDate": "2026-08-20T09:22:13.904000+00:00",
+        "imageUrl": "https://substackcdn.com/image/fetch/$s_!J0-Z!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F08c5fee2-bbe5-4693-b489-f8a76b114a37_1590x1432.png",
+        "sourceUrl": "https://themicrophilosopher.com/p/the-existential-basis-of-human-empathy",
+        "readwiseUrl": "https://read.readwise.io/read/01m0f7mt8jz6b1bgmxcp0bpqk0",
+        "summary": "Every human being is thrown into a world they did not choose, forced to accept a reality program in order to survive, and left dealing with the consequences",
+        "whyRead": "Raakt je interesse in filosofie met een origineel argument voor empathie dat niet op biologie of gedeelde ervaring rust, maar op het existentiële feit dat ieder mens zonder keuze in een reality program geboren wordt.",
+        "bestMoment": "reflectief",
+        "tags": [
+          "linked-from-readwise",
+          "philosophy"
+        ],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01m0f7mr3d4nt8zxpgk4859aw8",
+        "title": "How To Fall In Love With Philosophy (And Life)",
+        "author": "themicrophilosopher.com",
+        "siteName": "The Micro-Philosopher",
+        "category": "article",
+        "language": null,
+        "readingTime": "19 mins",
+        "readingMinutes": 19,
+        "wordCount": 4924,
+        "publishedDate": "2026-02-18",
+        "savedDate": "2026-08-20T09:22:11.693000+00:00",
+        "imageUrl": "https://substackcdn.com/image/fetch/$s_!XvyB!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F3bfcd635-0289-48a4-8b8b-92de87d32890_1013x841.jpeg",
+        "sourceUrl": "https://themicrophilosopher.com/p/how-to-fall-in-love-with-philosophy",
+        "readwiseUrl": "https://read.readwise.io/read/01m0f7mr3d4nt8zxpgk4859aw8",
+        "summary": "I have been studying philosophy for 17 years and I have never felt more passionate about learning, teaching, and discussing ideas with others.",
+        "whyRead": "Raakt je interesse in filosofie en persoonlijke groei - een intellectuele autobiografie van Paul Musso over hoe hij van gameverslaafde tiener via een confronterende leraar en een zware PhD uiteindelijk een eigen filosofieschool oprichtte.",
+        "bestMoment": "reflectief",
+        "tags": [
+          "linked-from-readwise",
+          "personal growth & life philosophy",
+          "philosophy"
+        ],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01m0f63b282v5tc5yajbtgwann",
+        "title": "An Alien God",
+        "author": "greaterwrong.com",
+        "siteName": "greaterwrong.com",
+        "category": "article",
+        "language": null,
+        "readingTime": "10 mins",
+        "readingMinutes": 10,
+        "wordCount": 2521,
+        "publishedDate": "2007-11-01",
+        "savedDate": "2026-08-20T08:55:12.712000+00:00",
+        "imageUrl": null,
+        "sourceUrl": "https://www.greaterwrong.com/lw/kr/an_alien_god/",
+        "readwiseUrl": "https://read.readwise.io/read/01m0f63b282v5tc5yajbtgwann",
+        "summary": "\"A curious aspect of the theory of evolution,\" said Jacques Monod, \"is that everybody thinks he understands it.\" A human being, looking at the natural world, sees a thousand times purpose.  A rabbit's legs, built and articulated for running; a fox's jaws, built and articulated for tearing.  But what you see is not exactly what is there... In the days before Darwin, the cause of all this apparent purposefulness was a very great puzzle unto science.  The Goddists said \"God did it\", because you get 50 bonus points each time you use the word \"God\" in a sentence.  Yet perhaps I'm being unfair.  In the days before Darwin, it seemed like a much more reasonable hypothesis.  Find a watch in the desert, said William Paley, and you can infer the existence of a watchmaker.",
+        "whyRead": "Raakt je kerninteresse in filosofie en wetenschap — Yudkowsky's beroemde essay herformuleert evolutie als een \"vreemde, buitenaardse god\" zonder ontwerp of mededogen, en legt bloot hoe mensen onbewust teleologische verklaringen (een \"Evolution Fairy\") in de wetenschap smokkelen. Achtergrond bij het monarchie/Gnon-debat in \"Meditations on Moloch\".",
+        "bestMoment": "analytisch",
+        "tags": [
+          "philosophy",
+          "science"
+        ],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01m0f5thx0x9f1rpdvj5r64m3m",
+        "title": "Meditations On Moloch",
+        "author": "slatestarcodexabridged.com",
+        "siteName": "slatestarcodexabridged.com",
+        "category": "article",
+        "language": null,
+        "readingTime": "55 mins",
+        "readingMinutes": 55,
+        "wordCount": 14313,
+        "publishedDate": "2014-07-30",
+        "savedDate": "2026-08-20T08:50:24.798000+00:00",
+        "imageUrl": null,
+        "sourceUrl": "https://www.slatestarcodexabridged.com/Meditations-On-Moloch",
+        "readwiseUrl": "https://read.readwise.io/read/01m0f5thx0x9f1rpdvj5r64m3m",
+        "summary": "Moloch whose eyes are a thousand blind windows! Moloch whose skyscrapers stand in the long streets like endless Jehovahs!",
+        "whyRead": "Raakt je interesse in politieke filosofie en AI-ethiek — dit is het canonieke rationalist-essay over \"multipolaire vallen\": situaties waarin iedereen een systeem haat maar niemand er unilateraal uit kan stappen (concurrentie, evolutie, kapitalisme, wapenwedlopen). Bouwt via game theory naar een van de invloedrijkste hedendaagse argumenten voor AI-existentieel risico.",
+        "bestMoment": "analytisch",
+        "tags": [
+          "ai ethics & society",
+          "philosophy",
+          "political philosophy"
+        ],
+        "alsoIn": [
+          "aaa-top-100"
+        ],
+        "memberships": [
+          {
+            "familyId": "algemeen",
+            "size": "top-100",
+            "position": 54
+          }
+        ]
+      },
+      {
+        "position": null,
+        "id": "01m0f29ch1s56e1xcc8fjkq8q2",
+        "title": "Why We Dislike AI Writing",
+        "author": "gilescrouch.substack.com",
+        "siteName": "substack.com",
+        "category": "article",
+        "language": null,
+        "readingTime": "6 mins",
+        "readingMinutes": 6,
+        "wordCount": 1564,
+        "publishedDate": "2026-06-01",
+        "savedDate": "2026-08-20T07:48:36.513000+00:00",
+        "imageUrl": "https://substackcdn.com/image/fetch/$s_!N4CJ!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F94026ec2-d990-44a6-8f87-f43f483a413a_546x445.png",
+        "sourceUrl": "https://gilescrouch.substack.com/p/why-we-dislike-ai-writing",
+        "readwiseUrl": "https://read.readwise.io/read/01m0f29ch1s56e1xcc8fjkq8q2",
+        "summary": "AI writing might be fluent, but it isn’t, well, “us” and other reasons we don’t care for AI written content. In fact, it’s ancient.",
+        "whyRead": "Raakt direct je interesse in AI-ethiek en filosofie — een origineel essay dat via Marcel Mauss' gift-economytheorie en Mary Douglas' \"matter out of place\" verklaart waarom we AI-geschreven tekst afwijzen, ook als we hem niet kunnen detecteren.",
+        "bestMoment": "analytisch",
+        "tags": [
+          "ai ethics & society",
+          "linked-from-readwise",
+          "philosophy"
+        ],
+        "alsoIn": [
+          "aaa-short-top-100"
+        ],
+        "memberships": [
+          {
+            "familyId": "kort",
+            "size": "top-100",
+            "position": 74
+          }
+        ]
+      },
+      {
+        "position": null,
+        "id": "01m0f29bh8tbrbeqsqaw55spr4",
+        "title": "The unofficial class teaching students how to ‘rule the world’",
+        "author": "stanforddaily.com",
+        "siteName": "The Stanford Daily",
+        "category": "article",
+        "language": null,
+        "readingTime": "8 mins",
+        "readingMinutes": 8,
+        "wordCount": 2094,
+        "publishedDate": "2026-05-21",
+        "savedDate": "2026-08-20T07:48:35.495000+00:00",
+        "imageUrl": "https://stanforddaily.com/wp-content/uploads/2026/05/img_5691_720.jpg",
+        "sourceUrl": "https://stanforddaily.com/2026/05/21/teaching-students-how-to-rule-world/",
+        "readwiseUrl": "https://read.readwise.io/read/01m0f29bh8tbrbeqsqaw55spr4",
+        "summary": "Each year, 12 students are selected through an exclusive interview process to join a cohort focused on understanding and leveraging systems of power.",
+        "whyRead": "Raakt je interesse in sociologie en machtsstructuren — een onderzoeksverhaal over een informele, invitation-only Stanford-cursus die studenten traint in het \"hacken\" van machtsstructuren, met een schimmige cultus-achtige dynamiek rond de oprichter.",
+        "bestMoment": "kritisch",
+        "tags": [
+          "business & startups",
+          "linked-from-readwise",
+          "sociology & social structures"
+        ],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01m0f2994rt6gmm80h9g6s9fny",
+        "title": "Anatomy of a Sex Scandal | The New Yorker",
+        "author": "newyorker.com",
+        "siteName": "The New Yorker",
+        "category": "article",
+        "language": null,
+        "readingTime": "14 mins",
+        "readingMinutes": 14,
+        "wordCount": 3561,
+        "publishedDate": "2026-08-17",
+        "savedDate": "2026-08-20T07:48:33.048000+00:00",
+        "imageUrl": "https://media.newyorker.com/photos/6a7ce39765eea136488c63d8/16:9/w_1280,c_limit/r49734.jpg",
+        "sourceUrl": "https://www.newyorker.com/magazine/2026/08/24/a-scandal-in-konigsberg-christopher-clark-book-review",
+        "readwiseUrl": "https://read.readwise.io/read/01m0f2994rt6gmm80h9g6s9fny",
+        "summary": "What a nineteenth-century uproar reveals about our zeal for public shaming—and the truths that get trampled along the way.",
+        "whyRead": "Raakt direct je interesse in filosofie en geschiedenis — een Adam Gopnik-achtig New Yorker-essay dat via een obscuur 19e-eeuws Pruisisch sekteschandaal een tijdloos filosofisch debat opent tussen Kant en Benjamin Constant over privacy, waarheid en publieke verontwaardiging, met heldere lijnen naar hedendaagse schandaaldynamiek.",
+        "bestMoment": "analytisch",
+        "tags": [
+          "history",
+          "linked-from-readwise",
+          "philosophy",
+          "political philosophy"
+        ],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01m0f2973kcszx7tky6qdcpx6j",
+        "title": "How Far Will the Trump Administration Go to Deport Mahmoud Khalil? | The New Yorker",
+        "author": "newyorker.com",
+        "siteName": "The New Yorker",
+        "category": "article",
+        "language": null,
+        "readingTime": "27 mins",
+        "readingMinutes": 27,
+        "wordCount": 6960,
+        "publishedDate": "2026-08-17",
+        "savedDate": "2026-08-20T07:48:30.963000+00:00",
+        "imageUrl": "https://media.newyorker.com/photos/6a7b6c041e8efb2b2666564d/16:9/w_1280,c_limit/r49842.jpg",
+        "sourceUrl": "https://www.newyorker.com/magazine/2026/08/24/how-far-will-the-trump-administration-go-to-deport-mahmoud-khalil",
+        "readwiseUrl": "https://read.readwise.io/read/01m0f2973kcszx7tky6qdcpx6j",
+        "summary": "Khalil protested Israel as a student at Columbia. Now he’s on the verge of being kicked out of the country.",
+        "whyRead": "Raakt je interesse in politieke filosofie en actualiteit — een indringend New Yorker-onderzoeksstuk over de deportatiezaak tegen Mahmoud Khalil, dat de spanning blootlegt tussen constitutionele bescherming en de feitelijke grenzen van presidentiële macht.",
+        "bestMoment": "kritisch",
+        "tags": [
+          "current affairs & politics",
+          "linked-from-readwise",
+          "political philosophy"
+        ],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01m0f295dxr46cfakg2cev3c1d",
+        "title": "The Scientist Who Lived with Dozens of Children from the Pacific Islands | The New Yorker",
+        "author": "newyorker.com",
+        "siteName": "The New Yorker",
+        "category": "article",
+        "language": null,
+        "readingTime": "52 mins",
+        "readingMinutes": 52,
+        "wordCount": 13527,
+        "publishedDate": "2026-08-17",
+        "savedDate": "2026-08-20T07:48:29.245000+00:00",
+        "imageUrl": "https://media.newyorker.com/photos/6a7b6c041e8efb2b26665651/16:9/w_1280,c_limit/r49677.jpg",
+        "sourceUrl": "https://www.newyorker.com/magazine/2026/08/24/the-scientist-who-lived-with-dozens-of-children-from-the-south-pacific",
+        "readwiseUrl": "https://read.readwise.io/read/01m0f295dxr46cfakg2cev3c1d",
+        "summary": "Carleton Gajdusek won the Nobel for his work on a disease in Papua New Guinea. But his biggest experiment was on the children he took back to the U.S. ",
+        "whyRead": "Raakt je interesse in geschiedenis en sociologie — een verbijsterend, grondig onderzoeksverhaal over wetenschappelijke exploitatie: Nobelprijswinnaar Gajdusek nam tientallen kinderen uit Papoea-Nieuw-Guinea mee naar de VS als onderdeel van een informeel \"experiment\", met verstrekkende persoonlijke en maatschappelijke gevolgen tot op de dag van vandaag.",
+        "bestMoment": "kritisch",
+        "tags": [
+          "history",
+          "linked-from-readwise",
+          "science",
+          "sociology & social structures"
+        ],
+        "alsoIn": [
+          "aaa-top-100"
+        ],
+        "memberships": [
+          {
+            "familyId": "algemeen",
+            "size": "top-100",
+            "position": 53
+          }
+        ]
+      },
+      {
+        "position": null,
+        "id": "01m0f294h9fwx2hprdakmx3q95",
+        "title": "Democratie in verval? De democratie werkt juist prima (alleen vinden progressieven dat niet leuk)",
+        "author": "decorrespondent.nl",
+        "siteName": "De Correspondent",
+        "category": "article",
+        "language": null,
+        "readingTime": "17 mins",
+        "readingMinutes": 17,
+        "wordCount": 4350,
+        "publishedDate": "2026-07-24",
+        "savedDate": "2026-08-20T07:48:28.326000+00:00",
+        "imageUrl": "https://useruploads.cdn-decorrespondent.nl/image/M9BYDTt4DHDNEm2OF12GQwaVnQk=/1590x1060/dc-useruploads-images/6a906f97edb84bcf8bba2af1cf4d6034.jpg",
+        "sourceUrl": "https://decorrespondent.nl/17145/democratie-in-verval-de-democratie-werkt-juist-prima-alleen-vinden-progressieven-dat-niet-leuk/018ddf4a-c98c-00e0-32b6-c2570ef74795",
+        "readwiseUrl": "https://read.readwise.io/read/01m0f294h9fwx2hprdakmx3q95",
+        "summary": "In een vertegenwoordigende democratie zullen populaire standpunten vroeg of laat vertegenwoordigd worden. Steun voor minder migratie was onder kiezers allang normaal, nu is het dat ook onder politici. Al vinden progressieven het pijnlijk, de democratie is dus niet stuk.",
+        "whyRead": "Nederlandstalig, sterk analytisch essay over de Nederlandse en Duitse politieke situatie — raakt direct je interesse in politieke filosofie en sociologie. Beargumenteert dat de opkomst van radicaal-rechts geen \"normalisering\" is maar een correctie van een parlement dat structureel restrictiever migratiebeleid negeerde dan de kiezer wilde.",
+        "bestMoment": "kritisch",
+        "tags": [
+          "current affairs & politics",
+          "linked-from-readwise",
+          "political philosophy",
+          "sociology & social structures"
+        ],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01m0f29337jsph1jwqq3njdbkc",
+        "title": "In de bioscoop blijkt dat we eer belangrijker vinden dan je zou denken",
+        "author": "nrc.nl",
+        "siteName": "NRC",
+        "category": "article",
+        "language": null,
+        "readingTime": "7 mins",
+        "readingMinutes": 7,
+        "wordCount": 1710,
+        "publishedDate": "2026-08-14",
+        "savedDate": "2026-08-20T07:48:26.855000+00:00",
+        "imageUrl": "https://images.nrc.nl/ZTi2r5x5jLrJe9JXb8qjYTCWqgg=/1200x627/smart/filters:no_upscale()/s3/static.nrc.nl/wp-content/uploads/2026/08/13085908/web-140826OPI_2035858516_Opinie_debat_BasHeijne_Odysseus_Cyprian.jpg",
+        "sourceUrl": "https://www.nrc.nl/nieuws/2026/08/14/in-de-bioscoop-blijkt-dat-we-eer-belangrijker-vinden-dan-je-zou-denken-a4934331",
+        "readwiseUrl": "https://read.readwise.io/read/01m0f29337jsph1jwqq3njdbkc",
+        "summary": "Helden: Kranten raken niet uitgeschreven over The Odyssey, terwijl in Frankrijk een epos over Charles de Gaulle een grote hit is. De overeenkomst, schrijft Bas Heijne, is dat beide werken óók gaan over het schurend onbehagen van onze tijd.",
+        "whyRead": "Nederlandstalig essay van Bas Heijne (NRC) dat raakt aan je interesse in politieke filosofie en cultuurkritiek — een scherpe analyse van \"eer\" en moreel kapitaal via twee actuele films (Nolans Odyssey, Baudry's De Gaulle), met een directe lijn naar hedendaags politiek opportunisme.",
+        "bestMoment": "analytisch",
+        "tags": [
+          "arts & culture",
+          "current affairs & politics",
+          "light-reading",
+          "linked-from-readwise",
+          "political philosophy"
+        ],
+        "alsoIn": [
+          "aaa-short-top-100",
+          "aaa-luchtig-top-100"
+        ],
+        "memberships": [
+          {
+            "familyId": "kort",
+            "size": "top-100",
+            "position": 73
+          },
+          {
+            "familyId": "luchtig",
+            "size": "top-100",
+            "position": 30
+          }
+        ]
+      },
+      {
+        "position": null,
+        "id": "01m0ezqxt8wzc2szp19yqq6n3x",
+        "title": "Communication Is … Practice",
+        "author": "Sven Brodmerkel | Off-Script At Work",
+        "siteName": "Substack",
+        "category": "email",
+        "language": null,
+        "readingTime": "4 mins",
+        "readingMinutes": 4,
+        "wordCount": 1020,
+        "publishedDate": "2026-08-20",
+        "savedDate": "2026-08-20T07:04:07.240000+00:00",
+        "imageUrl": null,
+        "sourceUrl": "mailto:reader-forwarded-email/3485cee5e780633beb925e45b4e5503f",
+        "readwiseUrl": "https://read.readwise.io/read/01m0ezqxt8wzc2szp19yqq6n3x",
+        "summary": "“She’s just a natural communicator.",
+        "whyRead": "Raakt je interesse in filosofie en persoonlijke groei — een compact essay dat 'natuurlijk communicatietalent' herkadert als aangeleerde praktijk in plaats van aangeboren eigenschap, met een expliciete link naar laat-gediagnosticeerde/neurodivergente professionals.",
+        "bestMoment": "reflectief",
+        "tags": [
+          "linked-from-readwise",
+          "personal growth & life philosophy",
+          "philosophy"
+        ],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01m0eke5wqdgapqm4m0exz8bz6",
+        "title": "Goudklompjes",
+        "author": "Simon van Teutem",
+        "siteName": "Substack",
+        "category": "email",
+        "language": null,
+        "readingTime": "4 mins",
+        "readingMinutes": 4,
+        "wordCount": 806,
+        "publishedDate": "2026-08-20",
+        "savedDate": "2026-08-20T03:29:04.919000+00:00",
+        "imageUrl": null,
+        "sourceUrl": "mailto:reader-forwarded-email/33a1d11e44fc2747697b22b7a7956558",
+        "readwiseUrl": "https://read.readwise.io/read/01m0eke5wqdgapqm4m0exz8bz6",
+        "summary": "Een tijdje terug logeerde ik een week bij m'n beste vriend van de middelbare school. Als pubers losten we de grote vragen des levens op onder het tl-licht van Lale Döner.",
+        "whyRead": "Raakt je voorkeur voor essayistische, persoonlijke reflectie — een scherp geschreven Nederlandstalig stuk over vriendschap en agendaprioriteiten, met een knipoog naar de discussie over vooruitgang en democratie.",
+        "bestMoment": "reflectief",
+        "tags": [
+          "personal growth & life philosophy"
+        ],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01m0e4pj03mgc8d7bn0m16c65x",
+        "title": "\"Life of M\" Is Rachel Cusk's Weakest Novel Yet",
+        "author": "New Yorker Substack",
+        "siteName": "Substack",
+        "category": "email",
+        "language": null,
+        "readingTime": "2 mins",
+        "readingMinutes": 2,
+        "wordCount": 408,
+        "publishedDate": "2026-08-19",
+        "savedDate": "2026-08-19T23:11:30.819000+00:00",
+        "imageUrl": null,
+        "sourceUrl": "mailto:reader-forwarded-email/19da5ea9d715f16a9d7aa09e35d2610d",
+        "readwiseUrl": "https://read.readwise.io/read/01m0e4pj03mgc8d7bn0m16c65x",
+        "summary": "Each week, our editors select a New Yorker story for you to read: something timely, something important, or something unexpected—or even, perhaps, all three.",
+        "whyRead": "Voor liefhebbers van scherpe literaire kritiek — een essay over Rachel Cusks levenslange project om het romanpersonage te ontmantelen, en of haar nieuwste boek \"Life of M\" daarin slaagt.",
+        "bestMoment": "ontspannen",
+        "tags": [
+          "arts & culture",
+          "fiction",
+          "light-reading"
+        ],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01m0dzzn4qg7qw4e18apatwh29",
+        "title": "The Odyssey — Something Like a Review",
+        "author": "Jared Henderson from Commonplace Philosophy",
+        "siteName": "Substack",
+        "category": "email",
+        "language": null,
+        "readingTime": "6 mins",
+        "readingMinutes": 6,
+        "wordCount": 1334,
+        "publishedDate": "2026-08-19",
+        "savedDate": "2026-08-19T21:49:06.072000+00:00",
+        "imageUrl": null,
+        "sourceUrl": "mailto:reader-forwarded-email/ee72e92a88bcaf325cf45185e70c910f",
+        "readwiseUrl": "https://read.readwise.io/read/01m0dzzn4qg7qw4e18apatwh29",
+        "summary": "My favorite adaptation of The Odyssey is O Brother, Where Art Thou? It is not a faithful adaptation; the Coen Brothers take many liberties with the story.",
+        "whyRead": "Raakt je interesse in films/series als cultuurvorm — een scherpe, goed beargumenteerde recensie die de Nolan-verfilming van De Odyssee tegen zowel het bronmateriaal als een geslaagde adaptatie (O Brother, Where Art Thou?) afzet.",
+        "bestMoment": "kritisch",
+        "tags": [
+          "arts & culture",
+          "light-reading"
+        ],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01m0dvrfnhbaxez1gxzf8mm2cw",
+        "title": "How To Actually Read Hard Books",
+        "author": "Paul Musso",
+        "siteName": "The Micro-Philosopher",
+        "category": "article",
+        "language": null,
+        "readingTime": "12 mins",
+        "readingMinutes": 12,
+        "wordCount": 3004,
+        "publishedDate": "2026-03-27",
+        "savedDate": "2026-08-19T20:35:16.786000+00:00",
+        "imageUrl": "https://substackcdn.com/image/fetch/$s_!eFM2!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fab255e96-20e6-4ca0-af09-c212e83b5fab_1080x1350.png",
+        "sourceUrl": "https://themicrophilosopher.com/p/how-to-actually-read-hard-books?ref=wiseup.readwise.io",
+        "readwiseUrl": "https://read.readwise.io/read/01m0dvrfnhbaxez1gxzf8mm2cw",
+        "summary": "Learn the reading system I used to go from being bored by Harry Potter to enjoying complex philosophy books.",
+        "whyRead": "Raakt je interesse in leren & meta-leren — een concreet, toepasbaar systeem om vast te lopen bij moeilijke boeken (filosofie, klassiekers) te doorbreken, precies het soort diepgaand leesproces dat bij zelfgestuurd leren past.",
+        "bestMoment": "leergierig",
+        "tags": [
+          "learning & meta-learning"
+        ],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01m0dhvhvd3rtvvsyz61gex2fb",
+        "title": "Stanford's Secret Course on How to Rule the World",
+        "author": "Ted Gioia",
+        "siteName": "Substack",
+        "category": "email",
+        "language": null,
+        "readingTime": "8 mins",
+        "readingMinutes": 8,
+        "wordCount": 1912,
+        "publishedDate": "2026-08-19",
+        "savedDate": "2026-08-19T17:42:11.565000+00:00",
+        "imageUrl": null,
+        "sourceUrl": "mailto:reader-forwarded-email/39a1c9a7ac693e0d52af2d3998691810",
+        "readwiseUrl": "https://read.readwise.io/read/01m0dhvhvd3rtvvsyz61gex2fb",
+        "summary": "When I was a student, years ago, I heard about a secret Stanford class that wasn’t listed in the course catalogue.",
+        "whyRead": "Raakt je interesse in AI-ethiek/tech-oligarchie en maatschappijkritiek — Ted Gioia legt een scherpe lijn van een geheime, alleen-voor-elite Stanford-cursus (\"Rule\") naar effective altruism en de recente fraudezaak rond Phoebe Gates (dochter van Bill Gates).",
+        "bestMoment": "kritisch",
+        "tags": [
+          "ai ethics & society",
+          "current affairs & politics"
+        ],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01m0db85phkv3bnf58tec1mbc1",
+        "title": "How I deep read classic novels",
+        "author": "Sam @ Knowledge Lust",
+        "siteName": "Substack",
+        "category": "email",
+        "language": null,
+        "readingTime": "17 mins",
+        "readingMinutes": 17,
+        "wordCount": 4403,
+        "publishedDate": "2026-08-19",
+        "savedDate": "2026-08-19T15:46:45.073000+00:00",
+        "imageUrl": null,
+        "sourceUrl": "mailto:reader-forwarded-email/5fdc2fde5321a8bd6359b85565dbdada",
+        "readwiseUrl": "https://read.readwise.io/read/01m0db85phkv3bnf58tec1mbc1",
+        "summary": "Or maybe you were, but like me, you were too busy doodling stick figures or daydreaming about a particularly cute classmate to listen to your teacher’s lecture on the value of historical context or why every reader—scholar or not—should try to interpret a classic novel in their own words.",
+        "whyRead": "Raakt direct je interesse in leerstrategieën en zelfgestuurd leren — negen concrete technieken om klassieke literatuur dieper te lezen, van literaire commonplace books tot topical reading.",
+        "bestMoment": "leergierig",
+        "tags": [
+          "arts & culture",
+          "learning & meta-learning",
+          "light-reading"
+        ],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01m0d9rt9b3a66m87wr62cjx7g",
+        "title": "Elif Shafak and Robert Macfarlane: Two Novelists Have an Epic Conversation",
+        "author": "David Perell",
+        "siteName": "Substack",
+        "category": "email",
+        "language": null,
+        "readingTime": "31 mins",
+        "readingMinutes": 31,
+        "wordCount": 8201,
+        "publishedDate": "2026-08-19",
+        "savedDate": "2026-08-19T15:20:53.291000+00:00",
+        "imageUrl": null,
+        "sourceUrl": "mailto:reader-forwarded-email/1bdc336a822b7b7a219c525962aaf22c",
+        "readwiseUrl": "https://read.readwise.io/read/01m0d9rt9b3a66m87wr62cjx7g",
+        "summary": "Alpha School is what I wish existed back then.",
+        "whyRead": "Raakt je interesse in essay schrijven en filosofie — een dicht, associatief gesprek tussen twee grote schrijvers over taal, aandacht, natuur en de motivatie om te schrijven.",
+        "bestMoment": "geconcentreerd",
+        "tags": [
+          "arts & culture",
+          "light-reading",
+          "philosophy"
+        ],
+        "alsoIn": [
+          "aaa-luchtig-top-100"
+        ],
+        "memberships": [
+          {
+            "familyId": "luchtig",
+            "size": "top-100",
+            "position": 29
+          }
+        ]
+      },
+      {
+        "position": null,
+        "id": "01m0d55v1be0bcsmx7xczarntk",
+        "title": "That’s the Deal: What Rankles You Most About AI Prose?",
+        "author": "Miller’s Book Review 📚",
+        "siteName": "Substack",
+        "category": "email",
+        "language": null,
+        "readingTime": "8 mins",
+        "readingMinutes": 8,
+        "wordCount": 1979,
+        "publishedDate": "2026-08-19",
+        "savedDate": "2026-08-19T14:00:37.164000+00:00",
+        "imageUrl": null,
+        "sourceUrl": "mailto:reader-forwarded-email/c568a0e35086e30fedcf4b55cbce56e2",
+        "readwiseUrl": "https://read.readwise.io/read/01m0d55v1be0bcsmx7xczarntk",
+        "summary": "It’s a good thing the brouhaha about AI writing is finally blowing over. I keed, I keed; it’s hotter than ever.",
+        "whyRead": "Raakt direct je interesse in AI en essay schrijven — een scherpe analyse van waarom AI-proza ons teleurstelt, ook als het technisch prima is, via het concept van de gift economy.",
+        "bestMoment": "analytisch",
+        "tags": [
+          "ai ethics & society",
+          "arts & culture",
+          "light-reading"
+        ],
+        "alsoIn": [
+          "aaa-luchtig-top-100"
+        ],
+        "memberships": [
+          {
+            "familyId": "luchtig",
+            "size": "top-100",
+            "position": 57
+          }
+        ]
+      },
       {
         "position": null,
         "id": "01m0d3d78wgvnkknrrbjnmta59",
@@ -16258,7 +18634,8 @@ window.TOP_ARTICLES = {
         "bestMoment": "kritisch",
         "tags": [
           "ai ethics & society",
-          "arts & culture"
+          "arts & culture",
+          "light-reading"
         ],
         "alsoIn": [],
         "memberships": []
@@ -16340,16 +18717,8 @@ window.TOP_ARTICLES = {
           "entertainment & pop culture",
           "light-reading"
         ],
-        "alsoIn": [
-          "aaa-luchtig-top-100"
-        ],
-        "memberships": [
-          {
-            "familyId": "luchtig",
-            "size": "top-100",
-            "position": 71
-          }
-        ]
+        "alsoIn": [],
+        "memberships": []
       },
       {
         "position": null,
@@ -16478,7 +18847,8 @@ window.TOP_ARTICLES = {
         "bestMoment": "analytisch",
         "tags": [
           "ai ethics & society",
-          "arts & culture"
+          "arts & culture",
+          "light-reading"
         ],
         "alsoIn": [],
         "memberships": []
@@ -16504,18 +18874,11 @@ window.TOP_ARTICLES = {
         "bestMoment": "analytisch",
         "tags": [
           "arts & culture",
+          "light-reading",
           "personal growth & life philosophy"
         ],
-        "alsoIn": [
-          "aaa-luchtig-top-100"
-        ],
-        "memberships": [
-          {
-            "familyId": "luchtig",
-            "size": "top-100",
-            "position": 95
-          }
-        ]
+        "alsoIn": [],
+        "memberships": []
       },
       {
         "position": null,
@@ -16625,7 +18988,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 52
+            "position": 67
           }
         ]
       },
@@ -16982,7 +19345,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 46
+            "position": 56
           }
         ]
       },
@@ -17010,16 +19373,8 @@ window.TOP_ARTICLES = {
           "history",
           "light-reading"
         ],
-        "alsoIn": [
-          "aaa-luchtig-top-100"
-        ],
-        "memberships": [
-          {
-            "familyId": "luchtig",
-            "size": "top-100",
-            "position": 94
-          }
-        ]
+        "alsoIn": [],
+        "memberships": []
       },
       {
         "position": null,
@@ -17051,7 +19406,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 66
+            "position": 72
           }
         ]
       },
@@ -17087,7 +19442,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 45
+            "position": 55
           }
         ]
       },
@@ -17123,7 +19478,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 44
+            "position": 54
           }
         ]
       },
@@ -17159,7 +19514,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 43
+            "position": 53
           }
         ]
       },
@@ -17215,19 +19570,13 @@ window.TOP_ARTICLES = {
           "personal growth & life philosophy"
         ],
         "alsoIn": [
-          "aaa-short-top-100",
           "aaa-luchtig-top-100"
         ],
         "memberships": [
           {
-            "familyId": "kort",
-            "size": "top-100",
-            "position": 95
-          },
-          {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 42
+            "position": 52
           }
         ]
       },
@@ -17261,7 +19610,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 46
+            "position": 51
           }
         ]
       },
@@ -17296,7 +19645,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 41
+            "position": 51
           }
         ]
       },
@@ -17352,24 +19701,18 @@ window.TOP_ARTICLES = {
         ],
         "alsoIn": [
           "aaa-top-100",
-          "aaa-luchtig-top-10",
           "aaa-luchtig-top-100"
         ],
         "memberships": [
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 45
-          },
-          {
-            "familyId": "luchtig",
-            "size": "top-10",
-            "position": 10
+            "position": 50
           },
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 10
+            "position": 11
           }
         ]
       },
@@ -17406,17 +19749,17 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 44
+            "position": 49
           },
           {
             "familyId": "luchtig",
             "size": "top-10",
-            "position": 9
+            "position": 10
           },
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 9
+            "position": 10
           }
         ]
       },
@@ -17453,12 +19796,12 @@ window.TOP_ARTICLES = {
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 65
+            "position": 71
           },
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 24
+            "position": 28
           }
         ]
       },
@@ -17492,7 +19835,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 43
+            "position": 48
           }
         ]
       },
@@ -17552,7 +19895,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 64
+            "position": 70
           }
         ]
       },
@@ -17612,7 +19955,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 63
+            "position": 69
           }
         ]
       },
@@ -17640,16 +19983,8 @@ window.TOP_ARTICLES = {
           "light-reading",
           "philosophy"
         ],
-        "alsoIn": [
-          "aaa-luchtig-top-100"
-        ],
-        "memberships": [
-          {
-            "familyId": "luchtig",
-            "size": "top-100",
-            "position": 70
-          }
-        ]
+        "alsoIn": [],
+        "memberships": []
       },
       {
         "position": null,
@@ -17701,16 +20036,8 @@ window.TOP_ARTICLES = {
           "history",
           "light-reading"
         ],
-        "alsoIn": [
-          "aaa-luchtig-top-100"
-        ],
-        "memberships": [
-          {
-            "familyId": "luchtig",
-            "size": "top-100",
-            "position": 93
-          }
-        ]
+        "alsoIn": [],
+        "memberships": []
       },
       {
         "position": null,
@@ -17736,19 +20063,13 @@ window.TOP_ARTICLES = {
           "political philosophy"
         ],
         "alsoIn": [
-          "aaa-top-100",
           "aaa-short-top-100"
         ],
         "memberships": [
           {
-            "familyId": "algemeen",
-            "size": "top-100",
-            "position": 100
-          },
-          {
             "familyId": "kort",
             "size": "top-100",
-            "position": 62
+            "position": 68
           }
         ]
       },
@@ -17778,25 +20099,19 @@ window.TOP_ARTICLES = {
           "totalitarianism & fascism"
         ],
         "alsoIn": [
-          "aaa-top-100",
           "aaa-short-top-100",
           "aaa-luchtig-top-100"
         ],
         "memberships": [
           {
-            "familyId": "algemeen",
-            "size": "top-100",
-            "position": 99
-          },
-          {
             "familyId": "kort",
             "size": "top-100",
-            "position": 61
+            "position": 67
           },
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 23
+            "position": 27
           }
         ]
       },
@@ -17861,17 +20176,17 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 42
+            "position": 47
           },
           {
             "familyId": "luchtig",
             "size": "top-10",
-            "position": 8
+            "position": 9
           },
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 8
+            "position": 9
           }
         ]
       },
@@ -18012,12 +20327,12 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 47
+            "position": 52
           },
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 11
+            "position": 12
           }
         ]
       },
@@ -18048,7 +20363,6 @@ window.TOP_ARTICLES = {
         ],
         "alsoIn": [
           "aaa-dutch-top-100",
-          "aaa-luchtig-top-100",
           "aaa-luchtig-nederlands-top-10",
           "aaa-luchtig-nederlands-top-100"
         ],
@@ -18056,24 +20370,48 @@ window.TOP_ARTICLES = {
           {
             "familyId": "nederlands",
             "size": "top-100",
-            "position": 24
-          },
-          {
-            "familyId": "luchtig",
-            "size": "top-100",
-            "position": 91
+            "position": 30
           },
           {
             "familyId": "luchtig-nederlands",
             "size": "top-10",
-            "position": 4
+            "position": 10
           },
           {
             "familyId": "luchtig-nederlands",
             "size": "top-100",
-            "position": 4
+            "position": 10
           }
         ]
+      },
+      {
+        "position": null,
+        "id": "01m02jh1k0evfrf816t7ws501a",
+        "title": "I Quit One of Literature’s Greatest Novels",
+        "author": "Miller’s Book Review 📚",
+        "siteName": "Substack",
+        "category": "email",
+        "language": "Engels",
+        "readingTime": "8 mins",
+        "readingMinutes": 8,
+        "wordCount": 1858,
+        "publishedDate": "2026-08-15",
+        "savedDate": "2026-08-15T11:22:17.056000+00:00",
+        "imageUrl": null,
+        "sourceUrl": "mailto:reader-forwarded-email/adbffb25b019e79b2a3a6316f5e68c01",
+        "readwiseUrl": "https://read.readwise.io/read/01m02jh1k0evfrf816t7ws501a",
+        "summary": "To great public shame and personal consternation, I’ve decided to punt The Life and Opinions of Tristram Shandy back to the TBR for a future me. DNF, know what I mean?",
+        "whyRead": "Raakt je interesse in lezen, leren en essayistische reflectie. Miller biedt een bevrijdend maar niet gemakzuchtig kader voor stoppen met een boek: de lezer heeft zeggenschap, én de plicht een werk een eerlijke kans te geven.",
+        "bestMoment": "reflectief",
+        "tags": [
+          "arts & culture",
+          "later",
+          "learning & meta-learning",
+          "light-reading",
+          "personal growth & life philosophy"
+        ],
+        "alsoIn": [],
+        "memberships": []
       },
       {
         "position": null,
@@ -18107,12 +20445,12 @@ window.TOP_ARTICLES = {
           {
             "familyId": "nederlands",
             "size": "top-100",
-            "position": 28
+            "position": 38
           },
           {
             "familyId": "kort-nederlands",
             "size": "top-100",
-            "position": 17
+            "position": 26
           }
         ]
       },
@@ -18148,14 +20486,89 @@ window.TOP_ARTICLES = {
           {
             "familyId": "nederlands",
             "size": "top-100",
-            "position": 19
+            "position": 25
           },
           {
             "familyId": "kort-nederlands",
             "size": "top-100",
-            "position": 13
+            "position": 18
           }
         ]
+      },
+      {
+        "position": null,
+        "id": "01m01v1rmpqh6acc6t5t8cdy21",
+        "title": "Was ik maar iets meer robotesk",
+        "author": "Dorien.Bot",
+        "siteName": "Substack",
+        "category": "email",
+        "language": "Nederlands",
+        "readingTime": "1 min",
+        "readingMinutes": 1,
+        "wordCount": 202,
+        "publishedDate": "2026-08-15",
+        "savedDate": "2026-08-15T04:31:59.126000+00:00",
+        "imageUrl": null,
+        "sourceUrl": "mailto:reader-forwarded-email/2ec413816edffa53c071aa10b7604a1a",
+        "readwiseUrl": "https://read.readwise.io/read/01m01v1rmpqh6acc6t5t8cdy21",
+        "summary": null,
+        "whyRead": "Een luchtig, raak gedicht over productiviteitsdwang en aandacht. De humor werkt als kleine tegenstem bij de neiging om zelfs vijf minuten verwondering over een geparkeerde truck als verlies te behandelen.",
+        "bestMoment": "ontspannen",
+        "tags": [
+          "arts & culture",
+          "later",
+          "light-reading",
+          "personal growth & life philosophy"
+        ],
+        "alsoIn": [
+          "aaa-dutch-top-100",
+          "aaa-short-dutch-top-100",
+          "aaa-luchtig-nederlands-top-100"
+        ],
+        "memberships": [
+          {
+            "familyId": "nederlands",
+            "size": "top-100",
+            "position": 46
+          },
+          {
+            "familyId": "kort-nederlands",
+            "size": "top-100",
+            "position": 33
+          },
+          {
+            "familyId": "luchtig-nederlands",
+            "size": "top-100",
+            "position": 18
+          }
+        ]
+      },
+      {
+        "position": null,
+        "id": "01m00mj66ngc2ek9j21wsj0q4a",
+        "title": "What Are You Favorite New Movies, Music, Books, and TV Series?",
+        "author": "Ted Gioia",
+        "siteName": "Substack",
+        "category": "email",
+        "language": "Engels",
+        "readingTime": "1 min",
+        "readingMinutes": 1,
+        "wordCount": 166,
+        "publishedDate": "2026-08-14",
+        "savedDate": "2026-08-14T17:19:22.837000+00:00",
+        "imageUrl": null,
+        "sourceUrl": "mailto:reader-forwarded-email/f83d24f3f61ec1c505d254c9984d50af",
+        "readwiseUrl": "https://read.readwise.io/read/01m00mj66ngc2ek9j21wsj0q4a",
+        "summary": "The theme today is the best recent movies, music, books, TV series, etc. We do this periodically, and I’m always rewarded with your excellent suggestions.",
+        "whyRead": "Korte open oproep van Ted Gioia aan zijn lezers om recente culturele ontdekkingen te delen; alleen bewaren als je de commentaren wilt uitpluizen.",
+        "bestMoment": "ontspannen",
+        "tags": [
+          "archiveren",
+          "arts & culture",
+          "light-reading"
+        ],
+        "alsoIn": [],
+        "memberships": []
       },
       {
         "position": null,
@@ -18189,12 +20602,12 @@ window.TOP_ARTICLES = {
           {
             "familyId": "nederlands",
             "size": "top-100",
-            "position": 18
+            "position": 24
           },
           {
             "familyId": "kort-nederlands",
             "size": "top-100",
-            "position": 12
+            "position": 17
           }
         ]
       },
@@ -18223,19 +20636,13 @@ window.TOP_ARTICLES = {
           "philosophy"
         ],
         "alsoIn": [
-          "aaa-top-100",
           "aaa-short-top-100"
         ],
         "memberships": [
           {
-            "familyId": "algemeen",
-            "size": "top-100",
-            "position": 98
-          },
-          {
             "familyId": "kort",
             "size": "top-100",
-            "position": 60
+            "position": 66
           }
         ]
       },
@@ -18294,6 +20701,34 @@ window.TOP_ARTICLES = {
       },
       {
         "position": null,
+        "id": "01kzvppwrdd73n89vk3nbadrm4",
+        "title": "Reese Witherspoon and Me",
+        "author": "Ted Gioia",
+        "siteName": "Substack",
+        "category": "email",
+        "language": "Engels",
+        "readingTime": "3 mins",
+        "readingMinutes": 3,
+        "wordCount": 635,
+        "publishedDate": "2026-08-12",
+        "savedDate": "2026-08-12T19:20:41.998000+00:00",
+        "imageUrl": null,
+        "sourceUrl": "mailto:reader-forwarded-email/6eebeb023b6f1d39ac0d2a2931afdb36",
+        "readwiseUrl": "https://read.readwise.io/read/01kzvppwrdd73n89vk3nbadrm4",
+        "summary": "Give Reese some credit—she clearly knows my book and describes it in painful detail. Okay, her email was a bit bland and verbose, but Ms.",
+        "whyRead": "Raakt je interesse in cultuurkritiek en AI als je Ted Gioia’s droge ironie waardeert. De kern is een grap over generieke, vermoedelijk geautomatiseerde Hollywood-benaderingen, gevolgd door een snelle momentopname van groeiende weerstand tegen AI-slop.",
+        "bestMoment": "ontspannen",
+        "tags": [
+          "ai ethics & society",
+          "arts & culture",
+          "later",
+          "light-reading"
+        ],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
         "id": "01kztvesqhd0vhbkmcxqrevkhs",
         "title": "🎓 On the Harem Origin Story of Turkish Coffee Reading",
         "author": "Eleanor Konik",
@@ -18317,19 +20752,13 @@ window.TOP_ARTICLES = {
           "sociology & social structures"
         ],
         "alsoIn": [
-          "aaa-top-100",
           "aaa-short-top-100"
         ],
         "memberships": [
           {
-            "familyId": "algemeen",
-            "size": "top-100",
-            "position": 97
-          },
-          {
             "familyId": "kort",
             "size": "top-100",
-            "position": 59
+            "position": 65
           }
         ]
       },
@@ -18420,7 +20849,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "nederlands",
             "size": "top-100",
-            "position": 31
+            "position": 41
           }
         ]
       },
@@ -18477,19 +20906,13 @@ window.TOP_ARTICLES = {
           "technology"
         ],
         "alsoIn": [
-          "aaa-top-100",
           "aaa-short-top-100"
         ],
         "memberships": [
           {
-            "familyId": "algemeen",
-            "size": "top-100",
-            "position": 96
-          },
-          {
             "familyId": "kort",
             "size": "top-100",
-            "position": 58
+            "position": 64
           }
         ]
       },
@@ -18626,7 +21049,6 @@ window.TOP_ARTICLES = {
           "philosophy"
         ],
         "alsoIn": [
-          "aaa-top-100",
           "aaa-dutch-top-10",
           "aaa-dutch-top-100",
           "aaa-short-top-100",
@@ -18635,34 +21057,29 @@ window.TOP_ARTICLES = {
         ],
         "memberships": [
           {
-            "familyId": "algemeen",
-            "size": "top-100",
-            "position": 95
-          },
-          {
             "familyId": "nederlands",
             "size": "top-10",
-            "position": 6
+            "position": 7
           },
           {
             "familyId": "nederlands",
             "size": "top-100",
-            "position": 6
+            "position": 7
           },
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 57
+            "position": 63
           },
           {
             "familyId": "kort-nederlands",
             "size": "top-10",
-            "position": 5
+            "position": 6
           },
           {
             "familyId": "kort-nederlands",
             "size": "top-100",
-            "position": 5
+            "position": 6
           }
         ]
       },
@@ -18718,19 +21135,13 @@ window.TOP_ARTICLES = {
           "philosophy"
         ],
         "alsoIn": [
-          "aaa-top-100",
           "aaa-short-top-100"
         ],
         "memberships": [
           {
-            "familyId": "algemeen",
-            "size": "top-100",
-            "position": 94
-          },
-          {
             "familyId": "kort",
             "size": "top-100",
-            "position": 56
+            "position": 62
           }
         ]
       },
@@ -18766,12 +21177,12 @@ window.TOP_ARTICLES = {
           {
             "familyId": "nederlands",
             "size": "top-100",
-            "position": 29
+            "position": 39
           },
           {
             "familyId": "kort-nederlands",
             "size": "top-100",
-            "position": 18
+            "position": 27
           }
         ]
       },
@@ -18799,16 +21210,8 @@ window.TOP_ARTICLES = {
           "history",
           "light-reading"
         ],
-        "alsoIn": [
-          "aaa-luchtig-top-100"
-        ],
-        "memberships": [
-          {
-            "familyId": "luchtig",
-            "size": "top-100",
-            "position": 69
-          }
-        ]
+        "alsoIn": [],
+        "memberships": []
       },
       {
         "position": null,
@@ -18835,16 +21238,8 @@ window.TOP_ARTICLES = {
           "light-reading",
           "philosophy"
         ],
-        "alsoIn": [
-          "aaa-luchtig-top-100"
-        ],
-        "memberships": [
-          {
-            "familyId": "luchtig",
-            "size": "top-100",
-            "position": 90
-          }
-        ]
+        "alsoIn": [],
+        "memberships": []
       },
       {
         "position": null,
@@ -18958,12 +21353,12 @@ window.TOP_ARTICLES = {
           {
             "familyId": "nederlands",
             "size": "top-100",
-            "position": 32
+            "position": 42
           },
           {
             "familyId": "kort-nederlands",
             "size": "top-100",
-            "position": 20
+            "position": 29
           }
         ]
       },
@@ -19100,16 +21495,8 @@ window.TOP_ARTICLES = {
           "linked-from-readwise",
           "philosophy"
         ],
-        "alsoIn": [
-          "aaa-luchtig-top-100"
-        ],
-        "memberships": [
-          {
-            "familyId": "luchtig",
-            "size": "top-100",
-            "position": 89
-          }
-        ]
+        "alsoIn": [],
+        "memberships": []
       },
       {
         "position": null,
@@ -19134,16 +21521,8 @@ window.TOP_ARTICLES = {
           "professional development",
           "sociology & social structures"
         ],
-        "alsoIn": [
-          "aaa-short-top-100"
-        ],
-        "memberships": [
-          {
-            "familyId": "kort",
-            "size": "top-100",
-            "position": 94
-          }
-        ]
+        "alsoIn": [],
+        "memberships": []
       },
       {
         "position": null,
@@ -19169,21 +21548,42 @@ window.TOP_ARTICLES = {
           "political philosophy"
         ],
         "alsoIn": [
-          "aaa-top-100",
           "aaa-short-top-100"
         ],
         "memberships": [
           {
-            "familyId": "algemeen",
-            "size": "top-100",
-            "position": 93
-          },
-          {
             "familyId": "kort",
             "size": "top-100",
-            "position": 55
+            "position": 61
           }
         ]
+      },
+      {
+        "position": null,
+        "id": "01kza38rqfwe47ma17xz9m0tsq",
+        "title": "How Emily Wilson Made Homer Modern",
+        "author": "New Yorker Substack",
+        "siteName": "Substack",
+        "category": "email",
+        "language": "Engels",
+        "readingTime": "2 mins",
+        "readingMinutes": 2,
+        "wordCount": 340,
+        "publishedDate": "2026-08-05",
+        "savedDate": "2026-08-05T23:13:50.832000+00:00",
+        "imageUrl": null,
+        "sourceUrl": "mailto:reader-forwarded-email/b754de91fa5e0836e8ec816cca34a24e",
+        "readwiseUrl": "https://read.readwise.io/read/01kza38rqfwe47ma17xz9m0tsq",
+        "summary": "Each week, our editors select a New Yorker story for you to read: something timely, something important, or something unexpected—or even, perhaps, all three.",
+        "whyRead": "Korte terugblik op een geprezen profiel van Emily Wilson, de eerste vrouwelijke vertaler van de Odyssee — raakt je interesse in klassieke literatuur en cultuurgeschiedenis, al is dit slechts een teaser van het volledige profiel.",
+        "bestMoment": "ontspannen",
+        "tags": [
+          "arts & culture",
+          "history",
+          "light-reading"
+        ],
+        "alsoIn": [],
+        "memberships": []
       },
       {
         "position": null,
@@ -19210,19 +21610,13 @@ window.TOP_ARTICLES = {
           "professional development"
         ],
         "alsoIn": [
-          "aaa-top-100",
           "aaa-luchtig-top-100"
         ],
         "memberships": [
           {
-            "familyId": "algemeen",
-            "size": "top-100",
-            "position": 92
-          },
-          {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 22
+            "position": 26
           }
         ]
       },
@@ -19307,16 +21701,8 @@ window.TOP_ARTICLES = {
           "later",
           "light-reading"
         ],
-        "alsoIn": [
-          "aaa-luchtig-top-100"
-        ],
-        "memberships": [
-          {
-            "familyId": "luchtig",
-            "size": "top-100",
-            "position": 68
-          }
-        ]
+        "alsoIn": [],
+        "memberships": []
       },
       {
         "position": null,
@@ -19371,16 +21757,8 @@ window.TOP_ARTICLES = {
           "light-reading",
           "sociology & social structures"
         ],
-        "alsoIn": [
-          "aaa-luchtig-top-100"
-        ],
-        "memberships": [
-          {
-            "familyId": "luchtig",
-            "size": "top-100",
-            "position": 88
-          }
-        ]
+        "alsoIn": [],
+        "memberships": []
       },
       {
         "position": null,
@@ -19865,16 +22243,8 @@ window.TOP_ARTICLES = {
           "philosophy",
           "professional development"
         ],
-        "alsoIn": [
-          "aaa-short-top-100"
-        ],
-        "memberships": [
-          {
-            "familyId": "kort",
-            "size": "top-100",
-            "position": 93
-          }
-        ]
+        "alsoIn": [],
+        "memberships": []
       },
       {
         "position": null,
@@ -19952,19 +22322,13 @@ window.TOP_ARTICLES = {
           "political philosophy"
         ],
         "alsoIn": [
-          "aaa-top-100",
           "aaa-short-top-100"
         ],
         "memberships": [
           {
-            "familyId": "algemeen",
-            "size": "top-100",
-            "position": 91
-          },
-          {
             "familyId": "kort",
             "size": "top-100",
-            "position": 54
+            "position": 60
           }
         ]
       },
@@ -19992,19 +22356,13 @@ window.TOP_ARTICLES = {
           "political philosophy"
         ],
         "alsoIn": [
-          "aaa-top-100",
           "aaa-short-top-100"
         ],
         "memberships": [
           {
-            "familyId": "algemeen",
-            "size": "top-100",
-            "position": 90
-          },
-          {
             "familyId": "kort",
             "size": "top-100",
-            "position": 53
+            "position": 59
           }
         ]
       },
@@ -20032,16 +22390,8 @@ window.TOP_ARTICLES = {
           "history",
           "light-reading"
         ],
-        "alsoIn": [
-          "aaa-luchtig-top-100"
-        ],
-        "memberships": [
-          {
-            "familyId": "luchtig",
-            "size": "top-100",
-            "position": 67
-          }
-        ]
+        "alsoIn": [],
+        "memberships": []
       },
       {
         "position": null,
@@ -20106,12 +22456,12 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-10",
-            "position": 3
+            "position": 4
           },
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 3
+            "position": 4
           },
           {
             "familyId": "pdfs",
@@ -20161,32 +22511,32 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 89
+            "position": 100
           },
           {
             "familyId": "nederlands",
             "size": "top-10",
-            "position": 5
+            "position": 6
           },
           {
             "familyId": "nederlands",
             "size": "top-100",
-            "position": 5
+            "position": 6
           },
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 52
+            "position": 58
           },
           {
             "familyId": "kort-nederlands",
             "size": "top-10",
-            "position": 4
+            "position": 5
           },
           {
             "familyId": "kort-nederlands",
             "size": "top-100",
-            "position": 4
+            "position": 5
           }
         ]
       },
@@ -20224,17 +22574,17 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 41
+            "position": 46
           },
           {
             "familyId": "luchtig",
             "size": "top-10",
-            "position": 7
+            "position": 8
           },
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 7
+            "position": 8
           }
         ]
       },
@@ -20376,12 +22726,12 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 88
+            "position": 99
           },
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 51
+            "position": 57
           }
         ]
       },
@@ -20448,7 +22798,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 15
+            "position": 18
           },
           {
             "familyId": "nederlands",
@@ -20463,7 +22813,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 14
+            "position": 17
           },
           {
             "familyId": "kort-nederlands",
@@ -20508,7 +22858,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 40
+            "position": 45
           }
         ]
       },
@@ -20545,17 +22895,17 @@ window.TOP_ARTICLES = {
           {
             "familyId": "nederlands",
             "size": "top-100",
-            "position": 14
+            "position": 17
           },
           {
             "familyId": "kort-nederlands",
             "size": "top-10",
-            "position": 8
+            "position": 10
           },
           {
             "familyId": "kort-nederlands",
             "size": "top-100",
-            "position": 8
+            "position": 10
           }
         ]
       },
@@ -20592,7 +22942,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 39
+            "position": 44
           },
           {
             "familyId": "nederlands",
@@ -20665,12 +23015,12 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 87
+            "position": 98
           },
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 50
+            "position": 56
           }
         ]
       },
@@ -20785,16 +23135,8 @@ window.TOP_ARTICLES = {
           "light-reading",
           "philosophy"
         ],
-        "alsoIn": [
-          "aaa-luchtig-top-100"
-        ],
-        "memberships": [
-          {
-            "familyId": "luchtig",
-            "size": "top-100",
-            "position": 66
-          }
-        ]
+        "alsoIn": [],
+        "memberships": []
       },
       {
         "position": null,
@@ -20848,16 +23190,8 @@ window.TOP_ARTICLES = {
           "philosophy",
           "technology"
         ],
-        "alsoIn": [
-          "aaa-luchtig-top-100"
-        ],
-        "memberships": [
-          {
-            "familyId": "luchtig",
-            "size": "top-100",
-            "position": 65
-          }
-        ]
+        "alsoIn": [],
+        "memberships": []
       },
       {
         "position": null,
@@ -20889,6 +23223,89 @@ window.TOP_ARTICLES = {
       },
       {
         "position": null,
+        "id": "01kyejqrpkrb3a9zqk5a7k4n5f",
+        "title": "Jetten-1 is geen regering. Het is een situationship.",
+        "author": "Jona van Loenen",
+        "siteName": "Substack",
+        "category": "email",
+        "language": "Nederlands",
+        "readingTime": "6 mins",
+        "readingMinutes": 6,
+        "wordCount": 1547,
+        "publishedDate": "2026-07-26",
+        "savedDate": "2026-07-26T06:45:26.868000+00:00",
+        "imageUrl": null,
+        "sourceUrl": "mailto:reader-forwarded-email/10e2d6a1c4a4b04f8ef0a919503aa291",
+        "readwiseUrl": "https://read.readwise.io/read/01kyejqrpkrb3a9zqk5a7k4n5f",
+        "summary": "Dit is voor het verhaal even belangrijk om te weten: deze vriend is een geboren en getogen Rotterdammer. Hij is opgegroeid in Kralingen, en is daar nooit meer weggegaan.",
+        "whyRead": "Raakt je interesse in Nederlandse politiek en essayistische analyse: de situationship-metafoor maakt de vrijblijvende logica van een meerderheidsarme regering tastbaar.",
+        "bestMoment": "kritisch",
+        "tags": [
+          "arts & culture",
+          "current affairs & politics",
+          "later",
+          "light-reading",
+          "sociology & social structures"
+        ],
+        "alsoIn": [
+          "aaa-dutch-top-100",
+          "aaa-short-dutch-top-100",
+          "aaa-luchtig-nederlands-top-10",
+          "aaa-luchtig-nederlands-top-100"
+        ],
+        "memberships": [
+          {
+            "familyId": "nederlands",
+            "size": "top-100",
+            "position": 23
+          },
+          {
+            "familyId": "kort-nederlands",
+            "size": "top-100",
+            "position": 16
+          },
+          {
+            "familyId": "luchtig-nederlands",
+            "size": "top-10",
+            "position": 7
+          },
+          {
+            "familyId": "luchtig-nederlands",
+            "size": "top-100",
+            "position": 7
+          }
+        ]
+      },
+      {
+        "position": null,
+        "id": "01kyecz4d85v3458hk05y2eksd",
+        "title": "Niemand weet wat aperitivo precies is",
+        "author": "Doortje Smithuijsen",
+        "siteName": "Substack",
+        "category": "email",
+        "language": null,
+        "readingTime": "2 mins",
+        "readingMinutes": 2,
+        "wordCount": 485,
+        "publishedDate": "2026-07-26",
+        "savedDate": "2026-07-26T05:04:36.777000+00:00",
+        "imageUrl": null,
+        "sourceUrl": "mailto:reader-forwarded-email/ca93ac47c7a48735efee9a87eff2714b",
+        "readwiseUrl": "https://read.readwise.io/read/01kyecz4d85v3458hk05y2eksd",
+        "summary": "Hi allemaal, momenteel houd ik me in Zuid Italië bezig met grote levensvragen zoals: bij welke strandtent zullen we vandaag lunchen, welke bikini zal ik daarheen aandoen en hoe vroeg is te vroeg om vervolgens met aperitivo te beginnen.",
+        "whyRead": "lichte, deels betaalmuur-afgeschermde cultuurbrief over Italiaans nieuws, film en lifestyletrends; te fragmentarisch voor duurzame leeswaarde.",
+        "bestMoment": "ontspannen",
+        "tags": [
+          "archiveren",
+          "arts & culture",
+          "entertainment & pop culture",
+          "light-reading"
+        ],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
         "id": "01kye6cwzsz29j9v1g53fzfy45",
         "title": "“We Know. It’s Fine.”",
         "author": "Sven Brodmerkel | Off-Script At Work",
@@ -20911,14 +23328,55 @@ window.TOP_ARTICLES = {
           "professional development",
           "sociology & social structures"
         ],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01kycfev2jfr2v5x5pqr2scxz7",
+        "title": "How to Win a Billion Dollars and Ruin Your Life",
+        "author": "Miller’s Book Review 📚",
+        "siteName": "Substack",
+        "category": "email",
+        "language": "Engels",
+        "readingTime": "5 mins",
+        "readingMinutes": 5,
+        "wordCount": 1249,
+        "publishedDate": "2026-07-25",
+        "savedDate": "2026-07-25T11:09:39.795000+00:00",
+        "imageUrl": null,
+        "sourceUrl": "mailto:reader-forwarded-email/c3fe10e11ea986437105f911800c098d",
+        "readwiseUrl": "https://read.readwise.io/read/01kycfev2jfr2v5x5pqr2scxz7",
+        "summary": "The great myths are always with us. “The ‘Iliad’ is only great because all life is a battle, the ‘Odyssey’ because all life is a journey, the Book of Job because all life is a riddle,” said G.",
+        "whyRead": "Raakt je interesse in fictie, mythes en cultuurkritiek: deze review laat zien hoe een hedendaagse satire Icarus, Phaethon en Cassandra gebruikt voor rijkdom, status en politieke ambitie.",
+        "bestMoment": "ontspannen",
+        "tags": [
+          "arts & culture",
+          "fiction",
+          "later",
+          "light-reading",
+          "political philosophy"
+        ],
         "alsoIn": [
-          "aaa-short-top-100"
+          "aaa-top-100",
+          "aaa-short-top-100",
+          "aaa-luchtig-top-100"
         ],
         "memberships": [
           {
+            "familyId": "algemeen",
+            "size": "top-100",
+            "position": 97
+          },
+          {
             "familyId": "kort",
             "size": "top-100",
-            "position": 92
+            "position": 55
+          },
+          {
+            "familyId": "luchtig",
+            "size": "top-100",
+            "position": 25
           }
         ]
       },
@@ -20981,7 +23439,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 38
+            "position": 43
           }
         ]
       },
@@ -21022,6 +23480,33 @@ window.TOP_ARTICLES = {
       },
       {
         "position": null,
+        "id": "01ky972zwy30bpq13n8b1sw7sw",
+        "title": "De mythe van de kunstenaar met alle tijd",
+        "author": "Intentioneel Leven",
+        "siteName": "Substack",
+        "category": "email",
+        "language": null,
+        "readingTime": "4 mins",
+        "readingMinutes": 4,
+        "wordCount": 872,
+        "publishedDate": "2026-07-24",
+        "savedDate": "2026-07-24T04:45:39.615000+00:00",
+        "imageUrl": null,
+        "sourceUrl": "mailto:reader-forwarded-email/a4ce9d8663d7869f4b4023fd77dfc410",
+        "readwiseUrl": "https://read.readwise.io/read/01ky972zwy30bpq13n8b1sw7sw",
+        "summary": "Hi! Leuk dat je weer meeleest.",
+        "whyRead": "Kort archief-highlight dat met Mozarts eigen brief laat zien dat drukte geen teken is van zinvol werk — een compact maar herkenbaar inzicht over tijd vinden voor creatief werk tussen verplichtingen door.",
+        "bestMoment": "reflectief",
+        "tags": [
+          "arts & culture",
+          "light-reading",
+          "personal growth & life philosophy"
+        ],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
         "id": "01ky7y54f3cb0xcxn9nyexpkzw",
         "title": "When philosophers and the public disagree",
         "author": "Jared Henderson from Commonplace Philosophy",
@@ -21051,12 +23536,12 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 86
+            "position": 96
           },
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 49
+            "position": 54
           }
         ]
       },
@@ -21147,12 +23632,12 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 85
+            "position": 95
           },
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 48
+            "position": 53
           }
         ]
       },
@@ -21542,6 +24027,34 @@ window.TOP_ARTICLES = {
       },
       {
         "position": null,
+        "id": "01ky7jrgh9rannrgmbg1nwxyxb",
+        "title": "It's rude to show AI output to people",
+        "author": "distantprovince.by",
+        "siteName": "distantprovince.by",
+        "category": "article",
+        "language": "Engels",
+        "readingTime": "4 mins",
+        "readingMinutes": 4,
+        "wordCount": 831,
+        "publishedDate": null,
+        "savedDate": "2026-07-23T13:31:10.249000+00:00",
+        "imageUrl": "https://distantprovince.by/preview/ai-war.jpg",
+        "sourceUrl": "https://distantprovince.by/posts/its-rude-to-show-ai-output-to-people/",
+        "readwiseUrl": "https://read.readwise.io/read/01ky7jrgh9rannrgmbg1nwxyxb",
+        "summary": "Feeding slop is an act of war",
+        "whyRead": "Een scherp, essayistisch pleidooi voor omgangsvormen rond AI-gegenereerde tekst. Het raakt AI & maatschappij en gebruikt Blindsight als sterke denkoefening over aandacht, auteurschap en verantwoordelijkheid.",
+        "bestMoment": "kritisch",
+        "tags": [
+          "ai ethics & society",
+          "fiction",
+          "light-reading",
+          "linked-from-readwise"
+        ],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
         "id": "01ky7jrg1n7trqqbw2b1914kmc",
         "title": "The deep roots of our egalitarian psychology",
         "author": "optimallyirrational.com",
@@ -21625,6 +24138,34 @@ window.TOP_ARTICLES = {
       },
       {
         "position": null,
+        "id": "01ky7jr9fzhv4h5e988f76rxth",
+        "title": "Has AI Already Killed How-To Nonfiction? Sales Trends, My Personal Data, and What It Might Mean for the Future",
+        "author": "tim.blog",
+        "siteName": "The Blog of Author Tim Ferriss",
+        "category": "article",
+        "language": "Engels",
+        "readingTime": "8 mins",
+        "readingMinutes": 8,
+        "wordCount": 2018,
+        "publishedDate": "2026-06-12",
+        "savedDate": "2026-07-23T13:31:03.039000+00:00",
+        "imageUrl": null,
+        "sourceUrl": "https://tim.blog/2026/06/12/has-ai-already-killed-nonfiction/",
+        "readwiseUrl": "https://read.readwise.io/read/01ky7jr9fzhv4h5e988f76rxth",
+        "summary": "My head has been spinning after getting a spreadsheet roughly a week ago. Before we dive into my dirty laundry, let’s state the obvious: millions of people have a vague sense that AI is changing things. And LLMs sure are convenient for getting answers quickly. My team and I use Claude and other tools daily. […]",
+        "whyRead": "Dit persoonlijke, cijfermatige essay onderzoekt hoe generatieve AI de economie van instructieve non-fictie en andere adviesformats verandert. Relevant als scherpe, goed leesbare reflectie op AI, media en de waarde van een eigen stem.",
+        "bestMoment": "reflectief",
+        "tags": [
+          "ai ethics & society",
+          "arts & culture",
+          "light-reading",
+          "linked-from-readwise"
+        ],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
         "id": "01ky7jr7b2vzxpcgjrbkj0w8ek",
         "title": "Harvard Professor: Why Nothing Feels Real Anymore - Arthur Brooks",
         "author": "youtube.com",
@@ -21694,21 +24235,101 @@ window.TOP_ARTICLES = {
           "research papers & academia"
         ],
         "alsoIn": [
-          "aaa-luchtig-top-100",
           "pdf-top-100"
         ],
         "memberships": [
-          {
-            "familyId": "luchtig",
-            "size": "top-100",
-            "position": 98
-          },
           {
             "familyId": "pdfs",
             "size": "top-100",
             "position": 18
           }
         ]
+      },
+      {
+        "position": null,
+        "id": "01ky6y1kzn6rvqmzqvj41ks8m0",
+        "title": "They're Made Out of Weights",
+        "author": "maxleiter.com",
+        "siteName": "Max Leiter's website",
+        "category": "article",
+        "language": null,
+        "readingTime": "4 mins",
+        "readingMinutes": 4,
+        "wordCount": 938,
+        "publishedDate": "2026-06-03",
+        "savedDate": "2026-07-23T07:29:08.512000+00:00",
+        "imageUrl": "https://maxleiter.com/blog/weights/opengraph-image-3lcqvo?e0d2238ac8899640",
+        "sourceUrl": "https://maxleiter.com/blog/weights?utm_source=substack&utm_medium=email",
+        "readwiseUrl": "https://read.readwise.io/read/01ky6y1kzn6rvqmzqvj41ks8m0",
+        "summary": "with apologies to Terry Bisson",
+        "whyRead": "Dit korte stuk is een origineel homage aan Terry Bissons \"They're Made of Meat\", nu toegepast op AI-taalmodellen — het raakt zowel AI & ethiek als fictie/SF-analyse.",
+        "bestMoment": "reflectief",
+        "tags": [
+          "ai ethics & society",
+          "fiction",
+          "light-reading",
+          "linked-from-readwise"
+        ],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01ky6y1g55qsprt9r2h4jm394c",
+        "title": "My Jewish Culture",
+        "author": "american-innocence.com",
+        "siteName": "American Innocence by Anna Gát",
+        "category": "article",
+        "language": null,
+        "readingTime": "7 mins",
+        "readingMinutes": 7,
+        "wordCount": 1656,
+        "publishedDate": "2026-07-08",
+        "savedDate": "2026-07-23T07:29:04.610000+00:00",
+        "imageUrl": "https://substackcdn.com/image/fetch/$s_!j1cN!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F53acdf38-fb02-4d25-8679-50289de1d636_2050x986.png",
+        "sourceUrl": "https://american-innocence.com/p/my-jewish-culture?utm_source=substack&utm_medium=email",
+        "readwiseUrl": "https://read.readwise.io/read/01ky6y1g55qsprt9r2h4jm394c",
+        "summary": "What is in your head.",
+        "whyRead": "Persoonlijk essay van Anna Gát (oprichter Interintellect) over hoe Joodse cultuur voor haar identiteit, gemeenschap en intellectueel leven vormgeeft — reflectieve diepgang rond identiteit, diaspora en cultuurgeschiedenis.",
+        "bestMoment": "reflectief",
+        "tags": [
+          "arts & culture",
+          "light-reading",
+          "linked-from-readwise",
+          "personal growth & life philosophy",
+          "sociology & social structures"
+        ],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01ky6y16248j11hb1j0sv13b5t",
+        "title": "Grieving in America",
+        "author": "american-innocence.com",
+        "siteName": "American Innocence by Anna Gát",
+        "category": "article",
+        "language": null,
+        "readingTime": "6 mins",
+        "readingMinutes": 6,
+        "wordCount": 1587,
+        "publishedDate": "2025-09-13",
+        "savedDate": "2026-07-23T07:28:54.275000+00:00",
+        "imageUrl": "https://substackcdn.com/image/fetch/$s_!lqpm!,w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8c48c94f-d9c1-481f-9c47-c9107580a09b_1131x618.png",
+        "sourceUrl": "https://american-innocence.com/p/grieving-in-america?utm_source=substack&utm_medium=email",
+        "readwiseUrl": "https://read.readwise.io/read/01ky6y16248j11hb1j0sv13b5t",
+        "summary": "Big spaces. Broken hearts.",
+        "whyRead": "Intens persoonlijk en literair geschreven rouwessay dat het overlijden van haar vader verbindt met de ontworteling van haar immigrantenbestaan in Amerika — sterke stem, treffende beeldspraak en een universeel thema (verlies) dat blijft raken ongeacht geografische context.",
+        "bestMoment": "reflectief",
+        "tags": [
+          "arts & culture",
+          "light-reading",
+          "linked-from-readwise",
+          "personal growth & life philosophy",
+          "philosophy"
+        ],
+        "alsoIn": [],
+        "memberships": []
       },
       {
         "position": null,
@@ -21798,12 +24419,12 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 84
+            "position": 94
           },
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 47
+            "position": 52
           }
         ]
       },
@@ -21839,9 +24460,36 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 37
+            "position": 42
           }
         ]
+      },
+      {
+        "position": null,
+        "id": "01ky6y0xvxqe84zhr9dnj4b5cg",
+        "title": "Toilets as a Religious Experience",
+        "author": "blog.alexrinehart.net",
+        "siteName": "From The Hart",
+        "category": "article",
+        "language": "Engels",
+        "readingTime": "3 mins",
+        "readingMinutes": 3,
+        "wordCount": 563,
+        "publishedDate": "2026-07-15",
+        "savedDate": "2026-07-23T07:28:45.867000+00:00",
+        "imageUrl": null,
+        "sourceUrl": "https://blog.alexrinehart.net/posts/toilets-as-a-religious-experience/?utm_source=substack&utm_medium=email",
+        "readwiseUrl": "https://read.readwise.io/read/01ky6y0xvxqe84zhr9dnj4b5cg",
+        "summary": "I’d like to start by saying that under normal circumstances I would not publish what follows under my own name. Wouldn’t do it! But, I’ve been awarded an honorable mention for this piece by Adam Mastroianni of Experimental History, and that’s a lot like getting a single point on the board. On the balance between a single fake internet point and my own shame and self-respect, well. You’re reading this, aren’t you? Answers that nicely.",
+        "whyRead": "Een korte, schaamteloos persoonlijke komische miniatuur over angst, reizen en een onverwacht letterlijk religieuze opluchting. De vertelstem en timing zijn sterk, maar er zit nauwelijks een bredere reflectie achter.",
+        "bestMoment": "ontspannen",
+        "tags": [
+          "arts & culture",
+          "light-reading",
+          "linked-from-readwise"
+        ],
+        "alsoIn": [],
+        "memberships": []
       },
       {
         "position": null,
@@ -21894,6 +24542,34 @@ window.TOP_ARTICLES = {
           "linked-from-readwise",
           "philosophy",
           "sociology & social structures"
+        ],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01ky6y0qmjfq005jxq0a8tvtw8",
+        "title": "Was a Story That Just Won a Literary Prize A.I.-Generated?",
+        "author": "nytimes.com",
+        "siteName": "New York Times",
+        "category": "article",
+        "language": "Engels",
+        "readingTime": "5 mins",
+        "readingMinutes": 5,
+        "wordCount": 1156,
+        "publishedDate": "2026-05-20",
+        "savedDate": "2026-07-23T07:28:39.496000+00:00",
+        "imageUrl": "https://static01.nyt.com/images/2026/05/20/multimedia/20TBR-AI-Granta-gfkm/20TBR-AI-Granta-gfkm-facebookJumbo.jpg",
+        "sourceUrl": "https://www.nytimes.com/2026/05/20/books/ai-fiction-contest-granta.html?utm_source=substack&utm_medium=email",
+        "readwiseUrl": "https://read.readwise.io/read/01ky6y0qmjfq005jxq0a8tvtw8",
+        "summary": "A respected literary magazine has published an award-winning short story many readers believe to be generated by artificial intelligence. Experts aren’t all so sure.",
+        "whyRead": "Een concrete casus op het snijvlak van AI, literatuur en institutionele zorgplicht. Het artikel laat zien waarom onzekere AI-detectie niet alleen een technisch, maar ook een sociaal en cultureel probleem is.",
+        "bestMoment": "kritisch",
+        "tags": [
+          "ai ethics & society",
+          "arts & culture",
+          "light-reading",
+          "linked-from-readwise"
         ],
         "alsoIn": [],
         "memberships": []
@@ -22011,6 +24687,70 @@ window.TOP_ARTICLES = {
       },
       {
         "position": null,
+        "id": "01ky6y0c8yacchgqayg8gt7hgz",
+        "title": "Remembering Indonesia from my grandpa",
+        "author": "melaniehsieh.substack.com",
+        "siteName": "Melanie Hsieh",
+        "category": "article",
+        "language": "Engels",
+        "readingTime": "9 mins",
+        "readingMinutes": 9,
+        "wordCount": 2338,
+        "publishedDate": "2026-06-23",
+        "savedDate": "2026-07-23T07:28:27.858000+00:00",
+        "imageUrl": "https://substackcdn.com/image/fetch/$s_!akrk!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F97d68e4f-d4b7-4747-857b-64ca1e83c253_4032x3024.jpeg",
+        "sourceUrl": "https://melaniehsieh.substack.com/p/remembering-indonesia-from-my-grandpa?utm_source=substack&utm_medium=email",
+        "readwiseUrl": "https://read.readwise.io/read/01ky6y0c8yacchgqayg8gt7hgz",
+        "summary": "What do my grandparents’ history mean to me? How should I hold onto their stories?",
+        "whyRead": "Een zintuiglijk en terughoudend familie-essay waarin Indonesische, Chinese en Hongkongse geschiedenis niet als les maar als herinnering, stilte en lichamelijke nabijheid wordt doorgegeven.",
+        "bestMoment": "reflectief",
+        "tags": [
+          "arts & culture",
+          "history",
+          "light-reading",
+          "linked-from-readwise",
+          "personal growth & life philosophy"
+        ],
+        "alsoIn": [
+          "aaa-luchtig-top-100"
+        ],
+        "memberships": [
+          {
+            "familyId": "luchtig",
+            "size": "top-100",
+            "position": 100
+          }
+        ]
+      },
+      {
+        "position": null,
+        "id": "01ky2j8fcsjaz2j5myvxgfba8c",
+        "title": "Blog Jamboree 2026: The Winners",
+        "author": "Adam Mastroianni",
+        "siteName": "Substack",
+        "category": "email",
+        "language": null,
+        "readingTime": "5 mins",
+        "readingMinutes": 5,
+        "wordCount": 1094,
+        "publishedDate": "2026-07-21",
+        "savedDate": "2026-07-21T14:46:12.633000+00:00",
+        "imageUrl": null,
+        "sourceUrl": "mailto:reader-forwarded-email/c8929bbfccc46e6d3a8ee71f8523e7cb",
+        "readwiseUrl": "https://read.readwise.io/read/01ky2j8fcsjaz2j5myvxgfba8c",
+        "summary": "For the first time, I ran all potential winners through Pangram, which is an AI-writing detector. ¹ So according to the machine (and to my ear), all of the winners are 100% human-written.",
+        "whyRead": "Mastroianni's jaarlijkse blogwedstrijd toont sterke voorbeelden van het 'effort post'-genre en illustreert hoe AI-detectie (Pangram) een rol begint te spelen bij het waarborgen van menselijke authenticiteit in schrijfcompetities.",
+        "bestMoment": "geïnspireerd",
+        "tags": [
+          "ai ethics & society",
+          "arts & culture",
+          "light-reading"
+        ],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
         "id": "01ky1dg1x4a52g9xbbhyc5d7xn",
         "title": "Ongelijke zorg begint nog steeds in de wieg",
         "author": "Sophie van Gool",
@@ -22058,16 +24798,72 @@ window.TOP_ARTICLES = {
           "philosophy",
           "political philosophy"
         ],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01ky04rrda8nam4ym00qqfep0b",
+        "title": "\"It's more the way it is now than it's ever been\"",
+        "author": "Jared Henderson from Commonplace Philosophy",
+        "siteName": "Substack",
+        "category": "email",
+        "language": null,
+        "readingTime": "7 mins",
+        "readingMinutes": 7,
+        "wordCount": 1853,
+        "publishedDate": "2026-07-20",
+        "savedDate": "2026-07-20T16:11:57.226000+00:00",
+        "imageUrl": null,
+        "sourceUrl": "mailto:reader-forwarded-email/5174e1a9b61e92d2f2655f1fecb942e8",
+        "readwiseUrl": "https://read.readwise.io/read/01ky04rrda8nam4ym00qqfep0b",
+        "summary": "In the Zoom call on Friday, I boldly declared that I was sure that Dorotea was a red herring, that she had nothing to do with the burnt Rickson’s jacket, and that we would discover that she was motivated only by professional jealousy.",
+        "whyRead": "Filosofische zijsprong over Charles Taylor's 'Ethics of Authenticity' en 'medieval correspondences': Gibson laat personage Cayce merken (Patagonia, Supreme, Prada) zien als de nieuwe gedeelde symbolische taal die vroeger door kunst en religie werd vervuld. Ook een zijspoor over de Lonelygirl15-hoax (2006) als parallel met 'de footage' in de roman, en een lezersreactie over de aandachtseconomie en onze behoefte aan patronen/betekenis.\nWaarom skippen: Het grootste deel is plotbespreking (Dorotea, het verbrande jasje, de Zoom-call, 'de footage') van deel III van een lopende boekbespreking over Pattern Recognition — alleen goed te volgen met kennis van het boek of eerdere delen. De filosofische zijsprong over merken-als-taal is kort en ingebed, onvoldoende zelfstandig voor een losse leeservaring.",
+        "bestMoment": "ontspannen",
+        "tags": [
+          "archiveren",
+          "fiction",
+          "light-reading",
+          "philosophy"
+        ],
         "alsoIn": [
-          "aaa-short-top-100"
+          "aaa-luchtig-top-100"
         ],
         "memberships": [
           {
-            "familyId": "kort",
+            "familyId": "luchtig",
             "size": "top-100",
-            "position": 100
+            "position": 99
           }
         ]
+      },
+      {
+        "position": null,
+        "id": "01kxzwh5h47k1af92j784c5zvv",
+        "title": "3 Books That Completely Changed The Way I Write",
+        "author": "A Mug of Insights",
+        "siteName": "Ghost - The Professional Publishing Platform",
+        "category": "email",
+        "language": null,
+        "readingTime": "5 mins",
+        "readingMinutes": 5,
+        "wordCount": 1121,
+        "publishedDate": "2026-07-20",
+        "savedDate": "2026-07-20T13:47:59.909000+00:00",
+        "imageUrl": null,
+        "sourceUrl": "mailto:reader-forwarded-email/6e93676dc7ebd67fea0e8f733a0e1d53",
+        "readwiseUrl": "https://read.readwise.io/read/01kxzwh5h47k1af92j784c5zvv",
+        "summary": "Earlier this week, I started researching a post titled: how to outwrite AI and what I thought was a 1500-word letter quickly ballooned into a 3000-word mess.",
+        "whyRead": "Praktisch stappenplan voor wie worstelt met schrijven: begin met een schrijfproject (zoals een micro-essay) als diagnose-instrument, en gebruik gerichte boeken om specifieke zwaktes (compositie, logica, retoriek) te verhelpen.",
+        "bestMoment": "geïnspireerd",
+        "tags": [
+          "arts & culture",
+          "later",
+          "learning & meta-learning",
+          "light-reading"
+        ],
+        "alsoIn": [],
+        "memberships": []
       },
       {
         "position": null,
@@ -22100,12 +24896,12 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 83
+            "position": 93
           },
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 46
+            "position": 51
           }
         ]
       },
@@ -22144,17 +24940,17 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 82
+            "position": 92
           },
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 45
+            "position": 50
           },
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 21
+            "position": 24
           }
         ]
       },
@@ -22185,21 +24981,70 @@ window.TOP_ARTICLES = {
           "technology"
         ],
         "alsoIn": [
-          "aaa-short-top-100",
           "aaa-luchtig-top-100"
         ],
         "memberships": [
           {
-            "familyId": "kort",
-            "size": "top-100",
-            "position": 99
-          },
-          {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 51
+            "position": 66
           }
         ]
+      },
+      {
+        "position": null,
+        "id": "01kxv1e0y86z0rxym83kqvk11c",
+        "title": "Short Reviews for July 2026",
+        "author": "Evan Þ from Papyrus Rampant",
+        "siteName": "Substack",
+        "category": "email",
+        "language": null,
+        "readingTime": "5 mins",
+        "readingMinutes": 5,
+        "wordCount": 1078,
+        "publishedDate": "2026-07-18",
+        "savedDate": "2026-07-18T16:37:27.625000+00:00",
+        "imageUrl": null,
+        "sourceUrl": "mailto:reader-forwarded-email/8348e39b553cc64c7c449889a4d3b304",
+        "readwiseUrl": "https://read.readwise.io/read/01kxv1e0y86z0rxym83kqvk11c",
+        "summary": "I’m reading through a lot of historian Mark E. Neely’s books about the Civil War, and this’s perhaps the most traditional history book I’ve read so far of his.",
+        "whyRead": "Vier korte, persoonlijke boekbesprekingen (Lincoln-biografie, vroegmiddeleeuws Wales, een Buchan-spionageroman en een kinderfantasyprequel) met scherpe observaties over spanning tussen ideaal en pragmatiek, en over wat een boek wel/niet synthetiseert.",
+        "bestMoment": "ontspannen",
+        "tags": [
+          "fiction",
+          "history",
+          "light-reading"
+        ],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01kxteh0w2b3cxcbwv20ds3rnn",
+        "title": "Split Screen: ‘Children of Men’ as Both Book and Film",
+        "author": "Miller’s Book Review 📚",
+        "siteName": "Substack",
+        "category": "email",
+        "language": null,
+        "readingTime": "7 mins",
+        "readingMinutes": 7,
+        "wordCount": 1824,
+        "publishedDate": "2026-07-18",
+        "savedDate": "2026-07-18T11:07:02.915000+00:00",
+        "imageUrl": null,
+        "sourceUrl": "mailto:reader-forwarded-email/862e02c00a2af99f272cca454e2d1b5c",
+        "readwiseUrl": "https://read.readwise.io/read/01kxteh0w2b3cxcbwv20ds3rnn",
+        "summary": "As the social-media storm instigated by director Christopher Nolan’s adaptation of The Odyssey reveals, the connection between books and their transmutation into movies is usually tenuous, sometimes treacherous, and people have .",
+        "whyRead": "Raakt je interesse in films en sciencefiction als cultuurvorm: een vergelijkende lezing van Children of Men laat zien hoe adaptaties dezelfde dystopie politiek en moreel anders kunnen laten spreken.",
+        "bestMoment": "ontspannen",
+        "tags": [
+          "arts & culture",
+          "fiction",
+          "later",
+          "light-reading"
+        ],
+        "alsoIn": [],
+        "memberships": []
       },
       {
         "position": null,
@@ -22253,6 +25098,33 @@ window.TOP_ARTICLES = {
             "position": 1
           }
         ]
+      },
+      {
+        "position": null,
+        "id": "01kxsqwp29h2rw9abx4ptaf1jk",
+        "title": "Ik heb een ideetje!",
+        "author": "Dorien.Bot",
+        "siteName": "Substack",
+        "category": "email",
+        "language": null,
+        "readingTime": "1 min",
+        "readingMinutes": 1,
+        "wordCount": 213,
+        "publishedDate": "2026-07-18",
+        "savedDate": "2026-07-18T04:31:27.818000+00:00",
+        "imageUrl": null,
+        "sourceUrl": "mailto:reader-forwarded-email/7596d5fa16ca95044305eddf343d718b",
+        "readwiseUrl": "https://read.readwise.io/read/01kxsqwp29h2rw9abx4ptaf1jk",
+        "summary": null,
+        "whyRead": "Kort, luchtig rijmgedicht over het idee om een dagje niet mee te doen — leuk als voorbeeld van speelse Nederlandse taalgrappen (verkleinwoorden op -tje).",
+        "bestMoment": "ontspannen",
+        "tags": [
+          "arts & culture",
+          "light-reading",
+          "personal growth & life philosophy"
+        ],
+        "alsoIn": [],
+        "memberships": []
       },
       {
         "position": null,
@@ -22355,9 +25227,36 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 36
+            "position": 41
           }
         ]
+      },
+      {
+        "position": null,
+        "id": "01kxq69jsxxmy5fqx81twtbvpy",
+        "title": "Je hebt geen perfecte routine nodig",
+        "author": "Intentioneel Leven",
+        "siteName": "Substack",
+        "category": "email",
+        "language": null,
+        "readingTime": "4 mins",
+        "readingMinutes": 4,
+        "wordCount": 797,
+        "publishedDate": "2026-07-17",
+        "savedDate": "2026-07-17T04:45:27.230000+00:00",
+        "imageUrl": null,
+        "sourceUrl": "mailto:reader-forwarded-email/0a84fe49643c6a6fd76515717c95c3c9",
+        "readwiseUrl": "https://read.readwise.io/read/01kxq69jsxxmy5fqx81twtbvpy",
+        "summary": "Hi! Leuk dat je weer meeleest.",
+        "whyRead": "Raakt je interesse in schrijfprocessen en intentioneel leven: Anne Rice wordt gebruikt als voorbeeld van flexibele routine in plaats van rigide optimalisatie. De promotionele laag is aanwezig, maar de kern is bruikbaar voor creatief werk.",
+        "bestMoment": "reflectief",
+        "tags": [
+          "arts & culture",
+          "light-reading",
+          "personal growth & life philosophy"
+        ],
+        "alsoIn": [],
+        "memberships": []
       },
       {
         "position": null,
@@ -22390,12 +25289,12 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 81
+            "position": 91
           },
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 44
+            "position": 49
           }
         ]
       },
@@ -22458,7 +25357,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 50
+            "position": 65
           }
         ]
       },
@@ -22486,6 +25385,33 @@ window.TOP_ARTICLES = {
           "fiction",
           "learning & meta-learning",
           "light-reading"
+        ],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01kxk1p9p14yah265krgprpkzc",
+        "title": "The great big five-week comedown",
+        "author": "Courtney Maum from Before and After the Book Deal",
+        "siteName": "Substack",
+        "category": "email",
+        "language": "Engels",
+        "readingTime": "5 mins",
+        "readingMinutes": 5,
+        "wordCount": 1120,
+        "publishedDate": "2026-07-15",
+        "savedDate": "2026-07-15T14:08:03.265000+00:00",
+        "imageUrl": null,
+        "sourceUrl": "mailto:reader-forwarded-email/3970a3f09eb7e9910aa92ffd556c504e",
+        "readwiseUrl": "https://read.readwise.io/read/01kxk1p9p14yah265krgprpkzc",
+        "summary": "In my guidebook for authors to the publishing industry, Before & After the Book Deal, I have a section called “The Great Big First-Book Comedown.",
+        "whyRead": "Persoonlijk schrijversessay over de leegte na publicatie, rouw en opnieuw beginnen met schrijven. Raakt essay schrijven en het emotionele werk achter een boek, met genoeg stem om later nog eens terug te lezen.",
+        "bestMoment": "reflectief",
+        "tags": [
+          "arts & culture",
+          "light-reading",
+          "personal growth & life philosophy"
         ],
         "alsoIn": [],
         "memberships": []
@@ -22522,6 +25448,42 @@ window.TOP_ARTICLES = {
             "familyId": "boeken",
             "size": "top-100",
             "position": 23
+          }
+        ]
+      },
+      {
+        "position": null,
+        "id": "01kxjrmc56n9mg2wfecsfebj0g",
+        "title": "Before You Panic About That Atlantic Reading Piece",
+        "author": "Miller’s Book Review 📚",
+        "siteName": "Substack",
+        "category": "email",
+        "language": "Engels",
+        "readingTime": "7 mins",
+        "readingMinutes": 7,
+        "wordCount": 1746,
+        "publishedDate": "2026-07-15",
+        "savedDate": "2026-07-15T11:29:43.079000+00:00",
+        "imageUrl": null,
+        "sourceUrl": "mailto:reader-forwarded-email/1444c5b913968840029b3c8e3c38e624",
+        "readwiseUrl": "https://read.readwise.io/read/01kxjrmc56n9mg2wfecsfebj0g",
+        "summary": "“In 1958,” Rose Horowitch informs us in a lengthy and grim prognosis of reading habits published in the Atlantic, “the English translation of Boris Pasternak’s Doctor Zhivago was the best-selling novel of the year.",
+        "whyRead": "Raakt je interesse in essaycultuur en lezen als cultuurvorm: het stuk fileert de neiging om het verleden te romantiseren wanneer we ons zorgen maken over dalende leesgewoonten. De waarde zit vooral in het concrete voorbeeld van survivor bias in literaire geschiedenis.",
+        "bestMoment": "ontspannen",
+        "tags": [
+          "arts & culture",
+          "history",
+          "learning & meta-learning",
+          "light-reading"
+        ],
+        "alsoIn": [
+          "aaa-luchtig-top-100"
+        ],
+        "memberships": [
+          {
+            "familyId": "luchtig",
+            "size": "top-100",
+            "position": 98
           }
         ]
       },
@@ -22730,12 +25692,12 @@ window.TOP_ARTICLES = {
           {
             "familyId": "nederlands",
             "size": "top-100",
-            "position": 30
+            "position": 40
           },
           {
             "familyId": "kort-nederlands",
             "size": "top-100",
-            "position": 19
+            "position": 28
           }
         ]
       },
@@ -22796,12 +25758,12 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 80
+            "position": 90
           },
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 43
+            "position": 48
           }
         ]
       },
@@ -22860,6 +25822,102 @@ window.TOP_ARTICLES = {
       },
       {
         "position": null,
+        "id": "01kxabe372k5htmjxz8bxdan0f",
+        "title": "Privéchefs zijn extreem algoritmevriendelijk",
+        "author": "Doortje Smithuijsen",
+        "siteName": "Substack",
+        "category": "email",
+        "language": "Nederlands",
+        "readingTime": "5 mins",
+        "readingMinutes": 5,
+        "wordCount": 1122,
+        "publishedDate": "2026-07-12",
+        "savedDate": "2026-07-12T05:05:10.371000+00:00",
+        "imageUrl": null,
+        "sourceUrl": "mailto:reader-forwarded-email/1eee5fd801287b43f486157c5a05455c",
+        "readwiseUrl": "https://read.readwise.io/read/01kxabe372k5htmjxz8bxdan0f",
+        "summary": "De laatste tijd zit ik in een nieuw algoritme: dat van privéchefs.",
+        "whyRead": "Raakt je interesse in cultuur als vorm van sociale analyse: privechefs worden bekeken als algoritmisch aantrekkelijk statussymbool. De meerwaarde zit waarschijnlijk in de observatie van smaak, rijkdom en platformlogica.",
+        "bestMoment": "ontspannen",
+        "tags": [
+          "arts & culture",
+          "later",
+          "light-reading",
+          "sociology & social structures"
+        ],
+        "alsoIn": [
+          "aaa-dutch-top-100",
+          "aaa-short-dutch-top-100",
+          "aaa-luchtig-top-100",
+          "aaa-luchtig-nederlands-top-10",
+          "aaa-luchtig-nederlands-top-100"
+        ],
+        "memberships": [
+          {
+            "familyId": "nederlands",
+            "size": "top-100",
+            "position": 22
+          },
+          {
+            "familyId": "kort-nederlands",
+            "size": "top-100",
+            "position": 15
+          },
+          {
+            "familyId": "luchtig",
+            "size": "top-100",
+            "position": 97
+          },
+          {
+            "familyId": "luchtig-nederlands",
+            "size": "top-10",
+            "position": 6
+          },
+          {
+            "familyId": "luchtig-nederlands",
+            "size": "top-100",
+            "position": 6
+          }
+        ]
+      },
+      {
+        "position": null,
+        "id": "01kx8dy64p4xqjvp7asc8v98jk",
+        "title": "Best Way to See the Renaissance? Get the Panoramic View",
+        "author": "Miller’s Book Review 📚",
+        "siteName": "Substack",
+        "category": "email",
+        "language": "Engels",
+        "readingTime": "7 mins",
+        "readingMinutes": 7,
+        "wordCount": 1756,
+        "publishedDate": "2026-07-11",
+        "savedDate": "2026-07-11T11:10:25.943000+00:00",
+        "imageUrl": null,
+        "sourceUrl": "mailto:reader-forwarded-email/af55efe035245658f38a28263962926a",
+        "readwiseUrl": "https://read.readwise.io/read/01kx8dy64p4xqjvp7asc8v98jk",
+        "summary": "Historians can ply their trade countless ways, depending on their sources, interests, and audience.",
+        "whyRead": "Raakt je interesse in cultuurgeschiedenis: een panoramische kijk op de Renaissance kan helpen om kunst, politiek, religie en kennisontwikkeling als systeem te zien. De meerwaarde zit in overzicht boven losse biografieen.",
+        "bestMoment": "ontspannen",
+        "tags": [
+          "arts & culture",
+          "history",
+          "later",
+          "light-reading"
+        ],
+        "alsoIn": [
+          "aaa-luchtig-top-100"
+        ],
+        "memberships": [
+          {
+            "familyId": "luchtig",
+            "size": "top-100",
+            "position": 96
+          }
+        ]
+      },
+      {
+        "position": null,
         "id": "01kx6d1bhhznxgbxdh0rba1snj",
         "title": "A \"Homemade\" Prison Education: How Malcolm X Became Malcolm X",
         "author": "Sam @ Knowledge Lust",
@@ -22884,6 +25942,55 @@ window.TOP_ARTICLES = {
         ],
         "alsoIn": [],
         "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01kx66q5d0pg8whe75n7qr82td",
+        "title": "Count Binface and the Politics of Ridicule",
+        "author": "Brian Klaas",
+        "siteName": "Substack",
+        "category": "email",
+        "language": "Engels",
+        "readingTime": "8 mins",
+        "readingMinutes": 8,
+        "wordCount": 1940,
+        "publishedDate": "2026-07-10",
+        "savedDate": "2026-07-10T14:25:46.912000+00:00",
+        "imageUrl": null,
+        "sourceUrl": "mailto:reader-forwarded-email/7154c0dec7aab7aedef90cb1e3549036",
+        "readwiseUrl": "https://read.readwise.io/read/01kx66q5d0pg8whe75n7qr82td",
+        "summary": "Thanks for reading The Garden of Forking Paths. This edition is for everyone, but if you value my writing, please consider upgrading to a paid subscription for just $5/month or $50/year.",
+        "whyRead": "Raakt je interesse in politiek als cultuurvorm: Brian Klaas gebruikt Count Binface waarschijnlijk om spot, absurditeit en macht serieus te analyseren. De meerwaarde zit in ridicule als democratisch of populistisch instrument.",
+        "bestMoment": "ontspannen",
+        "tags": [
+          "arts & culture",
+          "current affairs & politics",
+          "later",
+          "light-reading",
+          "political philosophy"
+        ],
+        "alsoIn": [
+          "aaa-top-100",
+          "aaa-short-top-100",
+          "aaa-luchtig-top-100"
+        ],
+        "memberships": [
+          {
+            "familyId": "algemeen",
+            "size": "top-100",
+            "position": 89
+          },
+          {
+            "familyId": "kort",
+            "size": "top-100",
+            "position": 47
+          },
+          {
+            "familyId": "luchtig",
+            "size": "top-100",
+            "position": 23
+          }
+        ]
       },
       {
         "position": null,
@@ -22966,6 +26073,105 @@ window.TOP_ARTICLES = {
       },
       {
         "position": null,
+        "id": "01kwy84xrmk8pft1avwy7cser7",
+        "title": "MIRA",
+        "author": "link.mail.beehiiv.com",
+        "siteName": "Capital Gains",
+        "category": "article",
+        "language": "Engels",
+        "readingTime": "1 min",
+        "readingMinutes": 1,
+        "wordCount": 108,
+        "publishedDate": null,
+        "savedDate": "2026-07-07T12:16:50.963000+00:00",
+        "imageUrl": null,
+        "sourceUrl": "https://link.mail.beehiiv.com/v1/c/vKz74n4YC5pvbGtFG0cp2G%2BPrCVeqMmIe6j54m2poj0X6BCu4o1yKoNoSgsD%0AKiU%2BCqBCAKbmslGFZnD2gT4bhtLlMO1PyMcZ4X0%2FvBX8ZL9Gn%2FTtAll%2FFOea%0A3evrfvn4AQrzxjjZg0sLonigTuh9RVROJL9hHbO7o42BG0sJ6l6te4umDZlI%0AbVo0MWjE46x%2B43zsLbJ8tuo8Pa6Dj4TecQ%3D%3D%0A/54667a6a11074976",
+        "readwiseUrl": "https://read.readwise.io/read/01kwy84xrmk8pft1avwy7cser7",
+        "summary": "Trained on 10k hours of gameplay collected with publicly available bots, MIRA learns the dynamics of a four-player game.",
+        "whyRead": "Korte aankondiging van MIRA, een AI-wereldmodel van General Intuition en Kyutai (met Epic Games) dat getraind is op gameplay-data en real-time een vierspeler-game simuleert.",
+        "bestMoment": "geïnspireerd",
+        "tags": [
+          "games",
+          "light-reading",
+          "linked-from-readwise",
+          "technology"
+        ],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01kwvzcp697n18jy871bj3rj77",
+        "title": "This week: bells! Plus a clever word game and a cursed font.",
+        "author": "Tom Scott",
+        "siteName": null,
+        "category": "email",
+        "language": null,
+        "readingTime": "3 mins",
+        "readingMinutes": 3,
+        "wordCount": 565,
+        "publishedDate": "2026-07-06",
+        "savedDate": "2026-07-06T15:05:19.306000+00:00",
+        "imageUrl": null,
+        "sourceUrl": "mailto:reader-forwarded-email/ef9d40736334c2c4fdc84c57986c2cb4",
+        "readwiseUrl": "https://read.readwise.io/read/01kwvzcp697n18jy871bj3rj77",
+        "summary": "And finally: one man fails repeatedly to guess the character. (Strong language.",
+        "whyRead": "Raakt je interesse in toegankelijke wetenschap, technologiecuriositeiten en lichte internetcultuur via Tom Scotts selectie van video's, puzzels en educatieve links. De meerwaarde is vooral serendipiteit: een paar losse ontdekkingen, geen diep essay.",
+        "bestMoment": "ontspannen",
+        "tags": [
+          "entertainment & pop culture",
+          "light-reading",
+          "science",
+          "technology"
+        ],
+        "alsoIn": [
+          "aaa-luchtig-top-100"
+        ],
+        "memberships": [
+          {
+            "familyId": "luchtig",
+            "size": "top-100",
+            "position": 95
+          }
+        ]
+      },
+      {
+        "position": null,
+        "id": "01kwvx3a3qze1p5e1yj36ejr6w",
+        "title": "\"Everything, today, is to some extent the reflection of something else\"",
+        "author": "Jared Henderson from Commonplace Philosophy",
+        "siteName": "Substack",
+        "category": "email",
+        "language": "Engels",
+        "readingTime": "7 mins",
+        "readingMinutes": 7,
+        "wordCount": 1597,
+        "publishedDate": "2026-07-06",
+        "savedDate": "2026-07-06T14:25:14.872000+00:00",
+        "imageUrl": null,
+        "sourceUrl": "mailto:reader-forwarded-email/053b0a33a9f552ecc071eb27111e2077",
+        "readwiseUrl": "https://read.readwise.io/read/01kwvx3a3qze1p5e1yj36ejr6w",
+        "summary": "I picked Pattern Recognition for our book club for a few reasons. First, I like to read science fiction, and I think it’s refreshing to read fiction between dense works of philosophy.",
+        "whyRead": "Combinatie van filosofische analyse en sciencefiction-duiding (Gibsons Pattern Recognition) rond branding, simulacra en de onmogelijkheid van een gedeelde cultuurtoekomst.",
+        "bestMoment": "reflectief",
+        "tags": [
+          "fiction",
+          "light-reading",
+          "philosophy"
+        ],
+        "alsoIn": [
+          "aaa-luchtig-top-100"
+        ],
+        "memberships": [
+          {
+            "familyId": "luchtig",
+            "size": "top-100",
+            "position": 94
+          }
+        ]
+      },
+      {
+        "position": null,
         "id": "01kwsqdppe1f2dfz26vn8szkbt",
         "title": "How to cultivate a rewarding intellectual life (outside of school)",
         "author": "Sam @ Knowledge Lust",
@@ -22993,6 +26199,66 @@ window.TOP_ARTICLES = {
       },
       {
         "position": null,
+        "id": "01kwreqfypckk54fws5c65whwp",
+        "title": "Niemand wil het, toch doen we het allemaal",
+        "author": "Jona van Loenen",
+        "siteName": "Substack",
+        "category": "email",
+        "language": "Nederlands",
+        "readingTime": "7 mins",
+        "readingMinutes": 7,
+        "wordCount": 1653,
+        "publishedDate": "2026-07-05",
+        "savedDate": "2026-07-05T06:16:24.278000+00:00",
+        "imageUrl": null,
+        "sourceUrl": "mailto:reader-forwarded-email/d03e98c83b42f95bce803f121327a74f",
+        "readwiseUrl": "https://read.readwise.io/read/01kwreqfypckk54fws5c65whwp",
+        "summary": "Normaal neem ik de metro terug naar huis, voor de simpele reden dat ik geen zin heb om die (zware) tassen te dragen.",
+        "whyRead": "Nederlandstalig persoonlijk essay met alledaagse insteek; mogelijk interessant door stem, herkenning en reflectie op gedrag dat niemand wil maar iedereen toch doet. Bewaren als lichte essayistische Nederlandse cultuurreflectie.",
+        "bestMoment": "ontspannen",
+        "tags": [
+          "arts & culture",
+          "light-reading",
+          "personal growth & life philosophy",
+          "sociology & social structures"
+        ],
+        "alsoIn": [
+          "aaa-dutch-top-100",
+          "aaa-short-dutch-top-100",
+          "aaa-luchtig-top-100",
+          "aaa-luchtig-nederlands-top-10",
+          "aaa-luchtig-nederlands-top-100"
+        ],
+        "memberships": [
+          {
+            "familyId": "nederlands",
+            "size": "top-100",
+            "position": 21
+          },
+          {
+            "familyId": "kort-nederlands",
+            "size": "top-100",
+            "position": 14
+          },
+          {
+            "familyId": "luchtig",
+            "size": "top-100",
+            "position": 93
+          },
+          {
+            "familyId": "luchtig-nederlands",
+            "size": "top-10",
+            "position": 5
+          },
+          {
+            "familyId": "luchtig-nederlands",
+            "size": "top-100",
+            "position": 5
+          }
+        ]
+      },
+      {
+        "position": null,
         "id": "01kwragbn5fwjf0dvfyfvwvne8",
         "title": "The incredible story of Benjamin Lay: abolitionist, vegan, and centuries ahead of his time",
         "author": "Rutger Bregman",
@@ -23017,6 +26283,42 @@ window.TOP_ARTICLES = {
         ],
         "alsoIn": [],
         "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01kwpkn77cd2c8e0g3rppkq0q2",
+        "title": "Fake World: Everything You Think Is a Lie",
+        "author": "Miller’s Book Review 📚",
+        "siteName": "Substack",
+        "category": "email",
+        "language": "Engels",
+        "readingTime": "7 mins",
+        "readingMinutes": 7,
+        "wordCount": 1594,
+        "publishedDate": "2026-07-04",
+        "savedDate": "2026-07-04T13:04:03.820000+00:00",
+        "imageUrl": null,
+        "sourceUrl": "mailto:reader-forwarded-email/deb1e7e55ec964a6e092002bb0b184e9",
+        "readwiseUrl": "https://read.readwise.io/read/01kwpkn77cd2c8e0g3rppkq0q2",
+        "summary": "George Orwell imagined that novels could be manufactured without writing.",
+        "whyRead": "Raakt AI, cultuurkritiek en de productie van nepwerkelijkheid: precies het gebied waar technologie en essayistische maatschappijanalyse elkaar kruisen. Bewaren voor een korte, scherpe reflectie op synthetische media en vertrouwen.",
+        "bestMoment": "kritisch",
+        "tags": [
+          "ai ethics & society",
+          "arts & culture",
+          "light-reading",
+          "technology"
+        ],
+        "alsoIn": [
+          "aaa-luchtig-top-100"
+        ],
+        "memberships": [
+          {
+            "familyId": "luchtig",
+            "size": "top-100",
+            "position": 92
+          }
+        ]
       },
       {
         "position": null,
@@ -23050,12 +26352,59 @@ window.TOP_ARTICLES = {
           {
             "familyId": "nederlands",
             "size": "top-100",
-            "position": 17
+            "position": 20
           },
           {
             "familyId": "kort-nederlands",
             "size": "top-100",
-            "position": 11
+            "position": 13
+          }
+        ]
+      },
+      {
+        "position": null,
+        "id": "01kwnpartfb70amv2acccwcsr1",
+        "title": "Vijf muggen in mijn klamboe",
+        "author": "Dorien.Bot",
+        "siteName": "Substack",
+        "category": "email",
+        "language": "Nederlands",
+        "readingTime": "1 min",
+        "readingMinutes": 1,
+        "wordCount": 200,
+        "publishedDate": "2026-07-04",
+        "savedDate": "2026-07-04T04:31:32.687000+00:00",
+        "imageUrl": null,
+        "sourceUrl": "mailto:reader-forwarded-email/84c36bd5582d3b64326bd54530a924e5",
+        "readwiseUrl": "https://read.readwise.io/read/01kwnpartfb70amv2acccwcsr1",
+        "summary": null,
+        "whyRead": "Zeer korte Nederlandstalige persoonlijke tekst; mogelijk charmant als miniatuur, maar te klein en contextarm voor de leesstapel. Vastleggen is genoeg, daarna archiveren.",
+        "bestMoment": "ontspannen",
+        "tags": [
+          "arts & culture",
+          "light-reading",
+          "personal growth & life philosophy"
+        ],
+        "alsoIn": [
+          "aaa-dutch-top-100",
+          "aaa-short-dutch-top-100",
+          "aaa-luchtig-nederlands-top-100"
+        ],
+        "memberships": [
+          {
+            "familyId": "nederlands",
+            "size": "top-100",
+            "position": 45
+          },
+          {
+            "familyId": "kort-nederlands",
+            "size": "top-100",
+            "position": 32
+          },
+          {
+            "familyId": "luchtig-nederlands",
+            "size": "top-100",
+            "position": 17
           }
         ]
       },
@@ -23090,7 +26439,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 35
+            "position": 40
           }
         ]
       },
@@ -23121,7 +26470,6 @@ window.TOP_ARTICLES = {
         ],
         "alsoIn": [
           "aaa-dutch-top-100",
-          "aaa-luchtig-top-100",
           "aaa-luchtig-nederlands-top-10",
           "aaa-luchtig-nederlands-top-100"
         ],
@@ -23129,22 +26477,17 @@ window.TOP_ARTICLES = {
           {
             "familyId": "nederlands",
             "size": "top-100",
-            "position": 23
-          },
-          {
-            "familyId": "luchtig",
-            "size": "top-100",
-            "position": 87
+            "position": 29
           },
           {
             "familyId": "luchtig-nederlands",
             "size": "top-10",
-            "position": 3
+            "position": 9
           },
           {
             "familyId": "luchtig-nederlands",
             "size": "top-100",
-            "position": 3
+            "position": 9
           }
         ]
       },
@@ -23174,7 +26517,6 @@ window.TOP_ARTICLES = {
         ],
         "alsoIn": [
           "aaa-dutch-top-100",
-          "aaa-short-top-100",
           "aaa-short-dutch-top-10",
           "aaa-short-dutch-top-100"
         ],
@@ -23182,22 +26524,17 @@ window.TOP_ARTICLES = {
           {
             "familyId": "nederlands",
             "size": "top-100",
-            "position": 13
-          },
-          {
-            "familyId": "kort",
-            "size": "top-100",
-            "position": 98
+            "position": 16
           },
           {
             "familyId": "kort-nederlands",
             "size": "top-10",
-            "position": 7
+            "position": 9
           },
           {
             "familyId": "kort-nederlands",
             "size": "top-100",
-            "position": 7
+            "position": 9
           }
         ]
       },
@@ -23315,12 +26652,12 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 79
+            "position": 88
           },
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 20
+            "position": 22
           }
         ]
       },
@@ -23345,6 +26682,33 @@ window.TOP_ARTICLES = {
         "bestMoment": "leergierig",
         "tags": [
           "professional development"
+        ],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01kwep76wff66pe5krewmawmr5",
+        "title": "Kurt Vonnegut’s Ambivalent War on AI",
+        "author": "Miller’s Book Review 📚",
+        "siteName": "Substack",
+        "category": "email",
+        "language": "Engels",
+        "readingTime": "8 mins",
+        "readingMinutes": 8,
+        "wordCount": 1957,
+        "publishedDate": "2026-07-01",
+        "savedDate": "2026-07-01T11:14:54.992000+00:00",
+        "imageUrl": null,
+        "sourceUrl": "mailto:reader-forwarded-email/74b85ee48f465a524c62904c52dd466c",
+        "readwiseUrl": "https://read.readwise.io/read/01kwep76wff66pe5krewmawmr5",
+        "summary": "When Paul Proteus, director of the Ilium Works, brings a stray cat into his state-of-the-art factory to hunt mice, the feline startles, flees, and is accidentally electrocuted—zap!",
+        "whyRead": "Vonneguts debuutroman Player Piano is een vroege literaire verkenning van automatisering en menselijke waardigheid, met directe raakvlakken met hedendaagse AI-ethiek en filosofische reflectie op technologie.",
+        "bestMoment": "reflectief",
+        "tags": [
+          "ai ethics & society",
+          "fiction",
+          "light-reading"
         ],
         "alsoIn": [],
         "memberships": []
@@ -23386,6 +26750,71 @@ window.TOP_ARTICLES = {
       },
       {
         "position": null,
+        "id": "01kw9qrshp1ne8jsbwy0wqv2z6",
+        "title": "How To Add Texture To Your Non-Fiction Writing",
+        "author": "A Mug of Insights",
+        "siteName": "Ghost - The Professional Publishing Platform",
+        "category": "email",
+        "language": "Engels",
+        "readingTime": "7 mins",
+        "readingMinutes": 7,
+        "wordCount": 1669,
+        "publishedDate": "2026-06-29",
+        "savedDate": "2026-06-29T13:05:47.575000+00:00",
+        "imageUrl": null,
+        "sourceUrl": "mailto:reader-forwarded-email/b480713581a060c43f8e9f9463e92225",
+        "readwiseUrl": "https://read.readwise.io/read/01kw9qrshp1ne8jsbwy0wqv2z6",
+        "summary": "Robin Waldun analyseert Gladwell's schrijftechniek via 'The Ketchup Conundrum' (New Yorker, 2004). Drie technieken voor textuur in non-fictie: (1) begin met een onverwachte opening die pas later aansluit op het hoofdonderwerp; (2) onderzoek als je schrijft — laat nieuwsgierigheid leiden, niet een vooraf vastgesteld plan; (3) begin en eindig met hetzelfde verhaal, maar vanuit een nieuw perspectief. Kernidee: een essay is een poging te denken op de pagina (essayer = proberen), niet een presentatie van kant-en-klare gedachten.",
+        "whyRead": null,
+        "bestMoment": null,
+        "tags": [
+          "arts & culture",
+          "later",
+          "light-reading",
+          "personal growth & life philosophy"
+        ],
+        "alsoIn": [
+          "aaa-luchtig-top-100"
+        ],
+        "memberships": [
+          {
+            "familyId": "luchtig",
+            "size": "top-100",
+            "position": 91
+          }
+        ]
+      },
+      {
+        "position": null,
+        "id": "01kw76h6n00mvk1xfjx08rs0n1",
+        "title": "Our next book: Pattern Recognition by William Gibson",
+        "author": "Jared Henderson from Commonplace Philosophy",
+        "siteName": "Substack",
+        "category": "email",
+        "language": null,
+        "readingTime": "2 mins",
+        "readingMinutes": 2,
+        "wordCount": 291,
+        "publishedDate": "2026-06-28",
+        "savedDate": "2026-06-28T13:26:04.192000+00:00",
+        "imageUrl": null,
+        "sourceUrl": "mailto:reader-forwarded-email/bbc0bd42114435f6a3f584c75e0e9568",
+        "readwiseUrl": "https://read.readwise.io/read/01kw76h6n00mvk1xfjx08rs0n1",
+        "summary": "Tomorrow, we’ll conclude our discussion of Charles Taylor’s The Ethics of Authenticity. We’ll have a members-only Zoom call on July 5 at 3 PM Eastern to end our discussion.",
+        "whyRead": "Raakt je interesse in sciencefiction, filosofie en cultuurkritiek: Henderson kiest William Gibsons Pattern Recognition als brug tussen data, betekenis en interpretatie. De meerwaarde zit vooral in de leescontext, niet in dit korte aankondigingsstuk zelf.",
+        "bestMoment": "ontspannen",
+        "tags": [
+          "arts & culture",
+          "fiction",
+          "later",
+          "light-reading",
+          "philosophy"
+        ],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
         "id": "01kw5smp76n3se61jv02c1zzx9",
         "title": "Why Writing Feels So Unnatural",
         "author": "A Mug of Insights",
@@ -23410,19 +26839,49 @@ window.TOP_ARTICLES = {
           "professional development"
         ],
         "alsoIn": [
-          "aaa-short-top-100",
           "aaa-luchtig-top-100"
         ],
         "memberships": [
           {
-            "familyId": "kort",
+            "familyId": "luchtig",
             "size": "top-100",
-            "position": 90
-          },
+            "position": 49
+          }
+        ]
+      },
+      {
+        "position": null,
+        "id": "01kw4zh122v8djscsxaaq42ke7",
+        "title": "My Hugo Ballot 2: Best Novel & others",
+        "author": "Evan Þ from Papyrus Rampant",
+        "siteName": "Substack",
+        "category": "email",
+        "language": null,
+        "readingTime": "7 mins",
+        "readingMinutes": 7,
+        "wordCount": 1699,
+        "publishedDate": "2026-06-27",
+        "savedDate": "2026-06-27T16:45:09.571000+00:00",
+        "imageUrl": null,
+        "sourceUrl": "mailto:reader-forwarded-email/6cce7b772f065f99411cfeaa89d6d16d",
+        "readwiseUrl": "https://read.readwise.io/read/01kw4zh122v8djscsxaaq42ke7",
+        "summary": "Best Novel being best known makes sense, given that science fiction and fantasy novels are much more popular than shorter form. In fact, the traditional market for shorter-form fiction has collapsed.",
+        "whyRead": "Raakt fantasy/sciencefiction en cultuur rond awards: dit is een persoonlijke Hugo-ballot met korte evaluaties van romans, gedichten en related work. De meerwaarde zit in signalen voor mogelijke SF/F-leeskeuzes.",
+        "bestMoment": "ontspannen",
+        "tags": [
+          "arts & culture",
+          "fiction",
+          "games",
+          "light-reading"
+        ],
+        "alsoIn": [
+          "aaa-luchtig-top-100"
+        ],
+        "memberships": [
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 39
+            "position": 90
           }
         ]
       },
@@ -23458,7 +26917,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 64
+            "position": 89
           }
         ]
       },
@@ -23513,16 +26972,8 @@ window.TOP_ARTICLES = {
           "professional development",
           "sociology & social structures"
         ],
-        "alsoIn": [
-          "aaa-short-top-100"
-        ],
-        "memberships": [
-          {
-            "familyId": "kort",
-            "size": "top-100",
-            "position": 89
-          }
-        ]
+        "alsoIn": [],
+        "memberships": []
       },
       {
         "position": null,
@@ -23637,7 +27088,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 63
+            "position": 88
           }
         ]
       },
@@ -23666,16 +27117,8 @@ window.TOP_ARTICLES = {
           "history",
           "light-reading"
         ],
-        "alsoIn": [
-          "aaa-luchtig-top-100"
-        ],
-        "memberships": [
-          {
-            "familyId": "luchtig",
-            "size": "top-100",
-            "position": 86
-          }
-        ]
+        "alsoIn": [],
+        "memberships": []
       },
       {
         "position": null,
@@ -23710,12 +27153,12 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 78
+            "position": 87
           },
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 19
+            "position": 21
           }
         ]
       },
@@ -23751,14 +27194,71 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 77
+            "position": 86
           },
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 42
+            "position": 46
           }
         ]
+      },
+      {
+        "position": null,
+        "id": "01kvtk9ek1p96k8467vhgknx4z",
+        "title": "The most wonderful thing that happened to Tommy McHugh",
+        "author": "Adam Mastroianni",
+        "siteName": "Substack",
+        "category": "email",
+        "language": null,
+        "readingTime": "11 mins",
+        "readingMinutes": 11,
+        "wordCount": 2675,
+        "publishedDate": "2026-06-23",
+        "savedDate": "2026-06-23T15:58:54.049000+00:00",
+        "imageUrl": null,
+        "sourceUrl": "mailto:reader-forwarded-email/5e43fb44847692d61fb8ba6635747245",
+        "readwiseUrl": "https://read.readwise.io/read/01kvtk9ek1p96k8467vhgknx4z",
+        "summary": "A British man named Tommy McHugh was on the toilet pooping when apparently he strained too hard, had a stroke, and woke up in the hospital.",
+        "whyRead": "Brede linkpost met opmerkelijke wetenschap, cultuur, AI, literatuur en maatschappelijke observaties.",
+        "bestMoment": "ontspannen",
+        "tags": [
+          "ai ethics & society",
+          "arts & culture",
+          "later",
+          "light-reading",
+          "science"
+        ],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01kvsdvfdqp5rzvjnn3w85xqfm",
+        "title": "ZEVENEN-FOKKING-DERTIG",
+        "author": "Fouad El Hamdaoui",
+        "siteName": "Substack",
+        "category": "email",
+        "language": null,
+        "readingTime": "5 mins",
+        "readingMinutes": 5,
+        "wordCount": 1079,
+        "publishedDate": "2026-06-23",
+        "savedDate": "2026-06-23T05:04:38.839000+00:00",
+        "imageUrl": null,
+        "sourceUrl": "mailto:reader-forwarded-email/f60c2b58c141b6568203afbb5d74076f",
+        "readwiseUrl": "https://read.readwise.io/read/01kvsdvfdqp5rzvjnn3w85xqfm",
+        "summary": "Ik verjaarde. Zevenen-fokking-dertig.",
+        "whyRead": "Raakt je interesse in persoonlijke essays met stem: Fouad maakt van een verjaardagsdag een klein verhaal over somberte, gezin, ongemak en onverwachte levenslust. De meerwaarde zit in de toon: rauw, grappig en toch teder.",
+        "bestMoment": "reflectief",
+        "tags": [
+          "arts & culture",
+          "later",
+          "light-reading",
+          "personal growth & life philosophy"
+        ],
+        "alsoIn": [],
+        "memberships": []
       },
       {
         "position": null,
@@ -23810,6 +27310,34 @@ window.TOP_ARTICLES = {
           "personal growth & life philosophy",
           "philosophy",
           "technology"
+        ],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01kvqpz87r2405dv9qtg7vfx47",
+        "title": "The Micro-Essay: How To Never Run Out Of Things To Write About",
+        "author": "A Mug of Insights",
+        "siteName": "Ghost - The Professional Publishing Platform",
+        "category": "email",
+        "language": null,
+        "readingTime": "6 mins",
+        "readingMinutes": 6,
+        "wordCount": 1490,
+        "publishedDate": "2026-06-22",
+        "savedDate": "2026-06-22T13:05:30.873000+00:00",
+        "imageUrl": null,
+        "sourceUrl": "mailto:reader-forwarded-email/3a986e3153a00e3acd23f86d519b45b7",
+        "readwiseUrl": "https://read.readwise.io/read/01kvqpz87r2405dv9qtg7vfx47",
+        "summary": "In my experience, the best way to provide value is to help real people solve real problems, and after sifting through my inbox on Sunday, I realised that my best advice comes from my email replies to people who write to me.",
+        "whyRead": "Raakt je interesse in essay schrijven, zelfgestuurd leren en schrijfcraft: Waldun maakt van schrijfblokkade geen inspiratieprobleem maar een trainbare mind-page connection. De meerwaarde zit in de kleine, uitvoerbare vorm: een wekelijkse micro-essay met 100-150 woorden per dag.",
+        "bestMoment": "leergierig",
+        "tags": [
+          "arts & culture",
+          "learning & meta-learning",
+          "light-reading",
+          "professional development"
         ],
         "alsoIn": [],
         "memberships": []
@@ -23870,6 +27398,128 @@ window.TOP_ARTICLES = {
       },
       {
         "position": null,
+        "id": "01kvm92m2s24rdpdw5hm665kgj",
+        "title": "De opkomst van culturele rage bait",
+        "author": "Doortje Smithuijsen",
+        "siteName": "Substack",
+        "category": "email",
+        "language": "Nederlands",
+        "readingTime": "2 mins",
+        "readingMinutes": 2,
+        "wordCount": 496,
+        "publishedDate": "2026-06-21",
+        "savedDate": "2026-06-21T05:04:57.946000+00:00",
+        "imageUrl": null,
+        "sourceUrl": "mailto:reader-forwarded-email/ac7fa1c3619097e1654ca4969360d4ae",
+        "readwiseUrl": "https://read.readwise.io/read/01kvm92m2s24rdpdw5hm665kgj",
+        "summary": "Afgelopen week ging ik ondanks mijn horror-haat in mijn eentje naar Obsession - de film over een jongen die wenst dat zijn crush Nikki ook verliefd wordt op hem, met alle gevolgen van dien.",
+        "whyRead": "Raakt je interesse in cultuurkritiek en mediavormen: Smithuijsen leest Gen Z-horror en TikTok-reactiecultuur als symptoom van culturele rage bait. De meerwaarde zit in het idee dat ook 'hoge' cultuur steeds vaker op platte emotie en reactiecircuits wordt ontworpen.",
+        "bestMoment": "kritisch",
+        "tags": [
+          "arts & culture",
+          "entertainment & pop culture",
+          "light-reading",
+          "sociology & social structures"
+        ],
+        "alsoIn": [
+          "aaa-dutch-top-100",
+          "aaa-short-dutch-top-10",
+          "aaa-short-dutch-top-100",
+          "aaa-luchtig-top-100",
+          "aaa-luchtig-nederlands-top-10",
+          "aaa-luchtig-nederlands-top-100"
+        ],
+        "memberships": [
+          {
+            "familyId": "nederlands",
+            "size": "top-100",
+            "position": 15
+          },
+          {
+            "familyId": "kort-nederlands",
+            "size": "top-10",
+            "position": 8
+          },
+          {
+            "familyId": "kort-nederlands",
+            "size": "top-100",
+            "position": 8
+          },
+          {
+            "familyId": "luchtig",
+            "size": "top-100",
+            "position": 64
+          },
+          {
+            "familyId": "luchtig-nederlands",
+            "size": "top-10",
+            "position": 4
+          },
+          {
+            "familyId": "luchtig-nederlands",
+            "size": "top-100",
+            "position": 4
+          }
+        ]
+      },
+      {
+        "position": null,
+        "id": "01kvjxf10abr48cgyg351gvcfm",
+        "title": "Short Reviews for June 2026",
+        "author": "Evan Þ from Papyrus Rampant",
+        "siteName": "Substack",
+        "category": "email",
+        "language": "Engels",
+        "readingTime": "5 mins",
+        "readingMinutes": 5,
+        "wordCount": 1062,
+        "publishedDate": "2026-06-20",
+        "savedDate": "2026-06-20T16:22:47.051000+00:00",
+        "imageUrl": null,
+        "sourceUrl": "mailto:reader-forwarded-email/4b3c5850cb80bca308c1ce2a1eac0c75",
+        "readwiseUrl": "https://read.readwise.io/read/01kvjxf10abr48cgyg351gvcfm",
+        "summary": "I learned so much about Bowditch’s life here, and about the social world he lived in.",
+        "whyRead": "Raakt je interesse in geschiedenis, sciencefiction en boekencultuur: Evan Þ geeft korte, smaakbewuste reviews met genoeg context om te bepalen wat verder lezen waard is. De meerwaarde zit vooral in de combinatie van sociale geschiedenis en speculative fiction.",
+        "bestMoment": "ontspannen",
+        "tags": [
+          "arts & culture",
+          "fiction",
+          "history",
+          "light-reading"
+        ],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01kvjhwyhc8ajne0mcg2sbdnew",
+        "title": "Why Nothing We Say Sounds Original",
+        "author": "A Mug of Insights",
+        "siteName": "Ghost - The Professional Publishing Platform",
+        "category": "email",
+        "language": "Engels",
+        "readingTime": "3 mins",
+        "readingMinutes": 3,
+        "wordCount": 710,
+        "publishedDate": "2026-06-20",
+        "savedDate": "2026-06-20T13:00:40.365000+00:00",
+        "imageUrl": null,
+        "sourceUrl": "mailto:reader-forwarded-email/6736353df7306391ee31a765d810d292",
+        "readwiseUrl": "https://read.readwise.io/read/01kvjhwyhc8ajne0mcg2sbdnew",
+        "summary": "A birthday card sounds stupidly simple. Just write your heart out!",
+        "whyRead": "Raakt je interesse in essay schrijven en taal als denkpraktijk: Robin Waldun gebruikt cliches niet alleen als stijlprobleem, maar als sociaal hulpmiddel en beperking tegelijk. De meerwaarde zit in de praktische les: begin bij gedeelde taal, maar geef er iets persoonlijks aan terug.",
+        "bestMoment": "reflectief",
+        "tags": [
+          "arts & culture",
+          "learning & meta-learning",
+          "light-reading",
+          "personal growth & life philosophy"
+        ],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
         "id": "01kvjbgrqsftb77gs496c0p12t",
         "title": "If the First Apocalypse Doesn’t Get You, the Second One Will",
         "author": "Miller’s Book Review 📚",
@@ -23902,17 +27552,17 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 76
+            "position": 85
           },
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 41
+            "position": 45
           },
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 18
+            "position": 20
           }
         ]
       },
@@ -23974,7 +27624,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 34
+            "position": 39
           }
         ]
       },
@@ -24012,17 +27662,17 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 75
+            "position": 84
           },
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 40
+            "position": 44
           },
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 17
+            "position": 19
           }
         ]
       },
@@ -24079,6 +27729,54 @@ window.TOP_ARTICLES = {
         ],
         "alsoIn": [],
         "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01kvfsv00xheeeezwr4g8hm52h",
+        "title": "Dé telefoon zonder social media",
+        "author": "Alexander Klöpping & Ernst-Jan Pfauth",
+        "siteName": "Substack",
+        "category": "email",
+        "language": "Nederlands",
+        "readingTime": "4 mins",
+        "readingMinutes": 4,
+        "wordCount": 845,
+        "publishedDate": "2026-06-19",
+        "savedDate": "2026-06-19T11:21:41.662000+00:00",
+        "imageUrl": null,
+        "sourceUrl": "mailto:reader-forwarded-email/cf569162413724326ec904187b9c2931",
+        "readwiseUrl": "https://read.readwise.io/read/01kvfsv00xheeeezwr4g8hm52h",
+        "summary": "Elke week geven Alexander Klöpping en Ernst-Jan Pfauth vijf tips om het weekend mee in te gaan. Deze week schoof tv-verslaggever Alex Mazereeuw weer aan voor onze maandelijkse televisieaflevering.",
+        "whyRead": "Raakt je interesse in technologie, aandacht en Nederlandse mediacultuur: POM combineert een socialmediavrije telefoon met observaties over podcastzoekmachines en tv als spiegelpaleis. De meerwaarde zit in de signalen, niet in één diep betoog.",
+        "bestMoment": "ontspannen",
+        "tags": [
+          "arts & culture",
+          "entertainment & pop culture",
+          "light-reading",
+          "technology"
+        ],
+        "alsoIn": [
+          "aaa-dutch-top-100",
+          "aaa-short-dutch-top-100",
+          "aaa-luchtig-nederlands-top-100"
+        ],
+        "memberships": [
+          {
+            "familyId": "nederlands",
+            "size": "top-100",
+            "position": 36
+          },
+          {
+            "familyId": "kort-nederlands",
+            "size": "top-100",
+            "position": 24
+          },
+          {
+            "familyId": "luchtig-nederlands",
+            "size": "top-100",
+            "position": 14
+          }
+        ]
       },
       {
         "position": null,
@@ -24191,6 +27889,91 @@ window.TOP_ARTICLES = {
       },
       {
         "position": null,
+        "id": "01kvcgsfekyqqc5b9t3nmrge8m",
+        "title": "Hoera, het is Waterloodag!",
+        "author": "De Ongelooflijke",
+        "siteName": "Substack",
+        "category": "email",
+        "language": "Nederlands",
+        "readingTime": "8 mins",
+        "readingMinutes": 8,
+        "wordCount": 1935,
+        "publishedDate": "2026-06-18",
+        "savedDate": "2026-06-18T04:45:51.444000+00:00",
+        "imageUrl": null,
+        "sourceUrl": "mailto:reader-forwarded-email/9063dc73da1b3f69c5087334680b7b3a",
+        "readwiseUrl": "https://read.readwise.io/read/01kvcgsfekyqqc5b9t3nmrge8m",
+        "summary": "Meer dan honderd jaar was 18 juni in Nederland een nationale feestdag, ter herinnering aan de Slag bij Waterloo (1815): de dag waarop Napoleon definitief werd verslagen en de geschiedenis van Nederland en Europa een beslissende wending nam.",
+        "whyRead": "Raakt je interesse in Europese geschiedenis en collectief geheugen: zeven veldslagen worden niet alleen militair, maar ook cultureel en identitair geduid. De meerwaarde zit in de combinatie van geschiedenis, mythevorming en historische verbeelding.",
+        "bestMoment": "ontspannen",
+        "tags": [
+          "arts & culture",
+          "history",
+          "later",
+          "light-reading",
+          "sociology & social structures"
+        ],
+        "alsoIn": [
+          "aaa-top-100",
+          "aaa-dutch-top-10",
+          "aaa-dutch-top-100",
+          "aaa-short-top-100",
+          "aaa-short-dutch-top-10",
+          "aaa-short-dutch-top-100",
+          "aaa-luchtig-top-100",
+          "aaa-luchtig-nederlands-top-10",
+          "aaa-luchtig-nederlands-top-100"
+        ],
+        "memberships": [
+          {
+            "familyId": "algemeen",
+            "size": "top-100",
+            "position": 83
+          },
+          {
+            "familyId": "nederlands",
+            "size": "top-10",
+            "position": 5
+          },
+          {
+            "familyId": "nederlands",
+            "size": "top-100",
+            "position": 5
+          },
+          {
+            "familyId": "kort",
+            "size": "top-100",
+            "position": 43
+          },
+          {
+            "familyId": "kort-nederlands",
+            "size": "top-10",
+            "position": 4
+          },
+          {
+            "familyId": "kort-nederlands",
+            "size": "top-100",
+            "position": 4
+          },
+          {
+            "familyId": "luchtig",
+            "size": "top-100",
+            "position": 18
+          },
+          {
+            "familyId": "luchtig-nederlands",
+            "size": "top-10",
+            "position": 1
+          },
+          {
+            "familyId": "luchtig-nederlands",
+            "size": "top-100",
+            "position": 1
+          }
+        ]
+      },
+      {
+        "position": null,
         "id": "01kvb7knk133sgyjvgj9j9cbzv",
         "title": "Your problem isn’t willpower",
         "author": "Scott Young",
@@ -24250,17 +28033,52 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 74
+            "position": 82
           },
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 39
+            "position": 42
           },
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 16
+            "position": 17
+          }
+        ]
+      },
+      {
+        "position": null,
+        "id": "01kvamre3nhre408596w2e8d3s",
+        "title": "Candice Millard and the Revival of History as Literature",
+        "author": "Miller’s Book Review 📚",
+        "siteName": "Substack",
+        "category": "email",
+        "language": "Engels",
+        "readingTime": "7 mins",
+        "readingMinutes": 7,
+        "wordCount": 1759,
+        "publishedDate": "2026-06-17",
+        "savedDate": "2026-06-17T11:16:42.741000+00:00",
+        "imageUrl": null,
+        "sourceUrl": "mailto:reader-forwarded-email/79b4f72b5c9d12fa3e600284af64c21f",
+        "readwiseUrl": "https://read.readwise.io/read/01kvamre3nhre408596w2e8d3s",
+        "summary": "Historian Candice Millard spins yarns that would have made stellar Victorian adventure books for boys; they have certainly sparked a lust for adventure that lingers in me.",
+        "whyRead": "Raakt je interesse in geschiedenis en essayistische non-fictie: dit stuk verdedigt Candice Millard als voorbeeld van geschiedenis die literair, toegankelijk en toch inhoudelijk serieus is. De meerwaarde zit in de koppeling tussen Victoriaanse verteltraditie, avontuur en moderne publieksgeschiedenis.",
+        "bestMoment": "ontspannen",
+        "tags": [
+          "arts & culture",
+          "history",
+          "light-reading"
+        ],
+        "alsoIn": [
+          "aaa-luchtig-top-100"
+        ],
+        "memberships": [
+          {
+            "familyId": "luchtig",
+            "size": "top-100",
+            "position": 87
           }
         ]
       },
@@ -24290,26 +28108,48 @@ window.TOP_ARTICLES = {
         ],
         "alsoIn": [
           "aaa-dutch-top-100",
-          "aaa-short-dutch-top-10",
           "aaa-short-dutch-top-100"
         ],
         "memberships": [
           {
             "familyId": "nederlands",
             "size": "top-100",
-            "position": 16
-          },
-          {
-            "familyId": "kort-nederlands",
-            "size": "top-10",
-            "position": 10
+            "position": 19
           },
           {
             "familyId": "kort-nederlands",
             "size": "top-100",
-            "position": 10
+            "position": 12
           }
         ]
+      },
+      {
+        "position": null,
+        "id": "01kv5x076n9sa5tc05ahev8ba3",
+        "title": "This week: ferrets! a telescope! and Tech Dif returns!",
+        "author": "Tom Scott",
+        "siteName": null,
+        "category": "email",
+        "language": "Engels",
+        "readingTime": "2 mins",
+        "readingMinutes": 2,
+        "wordCount": 475,
+        "publishedDate": "2026-06-15",
+        "savedDate": "2026-06-15T15:04:34.262000+00:00",
+        "imageUrl": null,
+        "sourceUrl": "mailto:reader-forwarded-email/3a52eb074ee4c1af6c486b834ed9fa76",
+        "readwiseUrl": "https://read.readwise.io/read/01kv5x076n9sa5tc05ahev8ba3",
+        "summary": "And finally, on TikTok: an impeccably performed musical joke. (Alternate link for desktop.",
+        "whyRead": null,
+        "bestMoment": null,
+        "tags": [
+          "arts & culture",
+          "entertainment & pop culture",
+          "light-reading",
+          "science"
+        ],
+        "alsoIn": [],
+        "memberships": []
       },
       {
         "position": null,
@@ -24366,6 +28206,82 @@ window.TOP_ARTICLES = {
       },
       {
         "position": null,
+        "id": "01kv0aj76tamztf0tt4cd00zvt",
+        "title": "Why I’m Still Reading ‘Problematic’ Children’s Books to My Daughter",
+        "author": "Miller’s Book Review 📚",
+        "siteName": "Substack",
+        "category": "email",
+        "language": "Engels",
+        "readingTime": "6 mins",
+        "readingMinutes": 6,
+        "wordCount": 1485,
+        "publishedDate": "2026-06-13",
+        "savedDate": "2026-06-13T11:06:08.987000+00:00",
+        "imageUrl": null,
+        "sourceUrl": "mailto:reader-forwarded-email/634119df6be1b92bf5254975eb79edd2",
+        "readwiseUrl": "https://read.readwise.io/read/01kv0aj76tamztf0tt4cd00zvt",
+        "summary": "I love reading to my daughter, but I had to make a change. Naomi is seven now.",
+        "whyRead": "Raakt je interesse in ouderschap, literatuur en cultuurdebat: Miller verdedigt samen lezen als oefening in aandacht en moreel leren, niet als zuiverheidstest op elk kinderboek. De meerwaarde zit in de verbinding tussen klassieke jeugdliteratuur, cancel-discussies en concreet ouderschap.",
+        "bestMoment": "reflectief",
+        "tags": [
+          "arts & culture",
+          "fiction",
+          "light-reading",
+          "personal growth & life philosophy"
+        ],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01kty3nmapqw3y4ypnbbgrm2t3",
+        "title": "De FIFA-idents zijn fantastisch",
+        "author": "Alexander Klöpping & Ernst-Jan Pfauth",
+        "siteName": "Substack",
+        "category": "email",
+        "language": "Nederlands",
+        "readingTime": "3 mins",
+        "readingMinutes": 3,
+        "wordCount": 727,
+        "publishedDate": "2026-06-12",
+        "savedDate": "2026-06-12T14:27:11.830000+00:00",
+        "imageUrl": null,
+        "sourceUrl": "mailto:reader-forwarded-email/f3e5d8fd83a1e9390912adb388785448",
+        "readwiseUrl": "https://read.readwise.io/read/01kty3nmapqw3y4ypnbbgrm2t3",
+        "summary": "Eerst een eed, dan het feestje.",
+        "whyRead": "Raakt licht je interesse in cultuur, sport en mediavormen: dit is een weekendlijstje met een paar interessante haakjes over Stanford, de sociale functie van feestjes en de politieke lading van WK's. De meerwaarde zit vooral in de links naar Simon Kuper, Derek Thompson en de Cruijff-docu.",
+        "bestMoment": "ontspannen",
+        "tags": [
+          "arts & culture",
+          "light-reading",
+          "sociology & social structures",
+          "sports & recreation"
+        ],
+        "alsoIn": [
+          "aaa-dutch-top-100",
+          "aaa-short-dutch-top-100",
+          "aaa-luchtig-nederlands-top-100"
+        ],
+        "memberships": [
+          {
+            "familyId": "nederlands",
+            "size": "top-100",
+            "position": 35
+          },
+          {
+            "familyId": "kort-nederlands",
+            "size": "top-100",
+            "position": 23
+          },
+          {
+            "familyId": "luchtig-nederlands",
+            "size": "top-100",
+            "position": 13
+          }
+        ]
+      },
+      {
+        "position": null,
         "id": "01ktxgxw7cxp7caqpe7w230ne4",
         "title": "Klagende supermarkten",
         "author": "Rode Cijfers",
@@ -24395,14 +28311,43 @@ window.TOP_ARTICLES = {
           {
             "familyId": "nederlands",
             "size": "top-100",
-            "position": 26
+            "position": 34
           },
           {
             "familyId": "kort-nederlands",
             "size": "top-100",
-            "position": 15
+            "position": 22
           }
         ]
+      },
+      {
+        "position": null,
+        "id": "01ktv2w7h35y7h76gp5qk5ddfg",
+        "title": "The Poetry of Math",
+        "author": "Tommy Blanchard from Cognitive Wonderland",
+        "siteName": "Substack",
+        "category": "email",
+        "language": "Engels",
+        "readingTime": "7 mins",
+        "readingMinutes": 7,
+        "wordCount": 1750,
+        "publishedDate": "2026-06-11",
+        "savedDate": "2026-06-11T10:15:36.227000+00:00",
+        "imageUrl": null,
+        "sourceUrl": "mailto:reader-forwarded-email/656b35f52a64613aa0f8f0e7e3198476",
+        "readwiseUrl": "https://read.readwise.io/read/01ktv2w7h35y7h76gp5qk5ddfg",
+        "summary": "Filippo Brunelleschi was a 15th century Italian architect, designer, and sculptor. He had a huge influence on Renaissance architecture, and is sometimes considered the first modern engineer.",
+        "whyRead": "Raakt je interesse in toegankelijke wetenschap, leren en het verbinden van disciplines: wiskunde wordt hier niet als droog rekenen behandeld, maar als een manier om verborgen overeenkomsten te zien. De combinatie van Renaissancekunst, astronomie, analogie en poëzie maakt het een sterke reflectieve uitlegtekst.",
+        "bestMoment": "analytisch",
+        "tags": [
+          "arts & culture",
+          "later",
+          "learning & meta-learning",
+          "light-reading",
+          "science"
+        ],
+        "alsoIn": [],
+        "memberships": []
       },
       {
         "position": null,
@@ -24431,7 +28376,6 @@ window.TOP_ARTICLES = {
         ],
         "alsoIn": [
           "aaa-dutch-top-100",
-          "aaa-short-top-100",
           "aaa-short-dutch-top-10",
           "aaa-short-dutch-top-100",
           "aaa-luchtig-top-100",
@@ -24442,37 +28386,32 @@ window.TOP_ARTICLES = {
           {
             "familyId": "nederlands",
             "size": "top-100",
-            "position": 12
-          },
-          {
-            "familyId": "kort",
-            "size": "top-100",
-            "position": 88
+            "position": 14
           },
           {
             "familyId": "kort-nederlands",
             "size": "top-10",
-            "position": 6
+            "position": 7
           },
           {
             "familyId": "kort-nederlands",
             "size": "top-100",
-            "position": 6
+            "position": 7
           },
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 38
+            "position": 48
           },
           {
             "familyId": "luchtig-nederlands",
             "size": "top-10",
-            "position": 1
+            "position": 3
           },
           {
             "familyId": "luchtig-nederlands",
             "size": "top-100",
-            "position": 1
+            "position": 3
           }
         ]
       },
@@ -24559,6 +28498,100 @@ window.TOP_ARTICLES = {
       },
       {
         "position": null,
+        "id": "01ktejkb5739yv3ra0666qr32v",
+        "title": "Poor Bastard: Henry Fielding’s Triumphant ‘Tom Jones’",
+        "author": "Miller’s Book Review 📚",
+        "siteName": "Substack",
+        "category": "email",
+        "language": "Engels",
+        "readingTime": "9 mins",
+        "readingMinutes": 9,
+        "wordCount": 2150,
+        "publishedDate": "2026-06-06",
+        "savedDate": "2026-06-06T13:40:14.631000+00:00",
+        "imageUrl": null,
+        "sourceUrl": "mailto:reader-forwarded-email/db2bccb6817b32e4eceea312ce9ecf60",
+        "readwiseUrl": "https://read.readwise.io/read/01ktejkb5739yv3ra0666qr32v",
+        "summary": "When Tom Jones first appeared in 1749, it had immediate fans and immediate foes.",
+        "whyRead": "Raakt je interesse in literatuur als cultuurvorm: Miller bespreekt Tom Jones als moreel ambigue, technisch briljante roman en gebruikt de receptiegeschiedenis om de spanning tussen fatsoen en deugd zichtbaar te maken.",
+        "bestMoment": "ontspannen",
+        "tags": [
+          "arts & culture",
+          "fiction",
+          "history",
+          "later",
+          "light-reading"
+        ],
+        "alsoIn": [
+          "aaa-luchtig-top-100"
+        ],
+        "memberships": [
+          {
+            "familyId": "luchtig",
+            "size": "top-100",
+            "position": 86
+          }
+        ]
+      },
+      {
+        "position": null,
+        "id": "01ktegbj41h187jv5phdfjn0wd",
+        "title": "It Took Me 10 Years To Figure This Out",
+        "author": "A Mug of Insights",
+        "siteName": "Ghost - The Professional Publishing Platform",
+        "category": "email",
+        "language": "Engels",
+        "readingTime": "3 mins",
+        "readingMinutes": 3,
+        "wordCount": 782,
+        "publishedDate": "2026-06-06",
+        "savedDate": "2026-06-06T13:01:02.465000+00:00",
+        "imageUrl": null,
+        "sourceUrl": "mailto:reader-forwarded-email/5808862453faa5df56fb3d367aec4bd9",
+        "readwiseUrl": "https://read.readwise.io/read/01ktegbj41h187jv5phdfjn0wd",
+        "summary": "Last week, I finalised the edits of my book with Bloomsbury Academic, and all I needed was a stamp of approval before it goes to print.",
+        "whyRead": "Raakt leren, schrijven en persoonlijke levensfilosofie: Robin Waldun maakt een bekend inzicht concreet via boekpublicatie, karate en het alledaagse ritme achter prestaties.",
+        "bestMoment": "reflectief",
+        "tags": [
+          "arts & culture",
+          "later",
+          "learning & meta-learning",
+          "light-reading",
+          "personal growth & life philosophy"
+        ],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01ktdt607e4smamm9591b0b9d2",
+        "title": "Netflix, Spotify and the Jay Shetty podcast deal",
+        "author": "variety.com",
+        "siteName": "Variety",
+        "category": "article",
+        "language": "Engels",
+        "readingTime": "3 mins",
+        "readingMinutes": 3,
+        "wordCount": 649,
+        "publishedDate": "2026-05-27",
+        "savedDate": "2026-06-06T06:33:31.532000+00:00",
+        "imageUrl": "https://variety.com/wp-content/uploads/2026/05/Jay-Shetty.png?w=1000&h=563&crop=1",
+        "sourceUrl": "https://variety.com/2026/digital/news/jay-shetty-on-purpose-netflix-spotify-podcast-deal-1236759705/?utm_source=substack&utm_medium=email#:~:text=Netflix%2C%20Spotify%20Acquire%20Jay%20Shetty%20On%20Purpose%20Podcast%20in%20%24100M%20Deal",
+        "readwiseUrl": "https://read.readwise.io/read/01ktdt607e4smamm9591b0b9d2",
+        "summary": "The video version of Jay Shetty's 'On Purpose' podcast is coming exclusively to Netflix and Spotify under a multiyear deal worth more than $100 million.",
+        "whyRead": "Raakt heel licht aan technologie en mediaplatforms: het laat zien hoe Netflix en Spotify podcastvideo als entertainmentfranchise inkopen, maar het blijft vooral zakelijk entertainmentnieuws.",
+        "bestMoment": "kritisch",
+        "tags": [
+          "entertainment & pop culture",
+          "light-reading",
+          "linked-from-readwise",
+          "technology"
+        ],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
         "id": "01ktds007mazvkk5bn9zrdybw0",
         "title": "Big oil vindt zichzelf heel zielig",
         "author": "Jelmer Mommers",
@@ -24583,24 +28616,18 @@ window.TOP_ARTICLES = {
         ],
         "alsoIn": [
           "aaa-dutch-top-100",
-          "aaa-short-dutch-top-10",
           "aaa-short-dutch-top-100"
         ],
         "memberships": [
           {
             "familyId": "nederlands",
             "size": "top-100",
-            "position": 15
-          },
-          {
-            "familyId": "kort-nederlands",
-            "size": "top-10",
-            "position": 9
+            "position": 18
           },
           {
             "familyId": "kort-nederlands",
             "size": "top-100",
-            "position": 9
+            "position": 11
           }
         ]
       },
@@ -24632,6 +28659,54 @@ window.TOP_ARTICLES = {
       },
       {
         "position": null,
+        "id": "01ktbxxr50k86jtqphyhdp1eyc",
+        "title": "De blauwe Ferrari van Jony Ive",
+        "author": "Alexander Klöpping & Ernst-Jan Pfauth",
+        "siteName": "Substack",
+        "category": "email",
+        "language": "Nederlands",
+        "readingTime": "3 mins",
+        "readingMinutes": 3,
+        "wordCount": 654,
+        "publishedDate": "2026-06-05",
+        "savedDate": "2026-06-05T13:00:26.656000+00:00",
+        "imageUrl": null,
+        "sourceUrl": "mailto:reader-forwarded-email/688da72a0be45c4884c39fd7bc5241d1",
+        "readwiseUrl": "https://read.readwise.io/read/01ktbxxr50k86jtqphyhdp1eyc",
+        "summary": "Ferrari smeekt petrolheads om deze auto níét te kopen. Echt waar: de marketingbaas zegt tegen z'n trouwe klanten dat de nieuwe elektrische Luce niet voor hen bedoeld is.",
+        "whyRead": "Raakt je interesse in technologie en media alleen als lichte roundup; er staan een paar aardige signalen in, maar te weinig diepte om actief te bewaren.",
+        "bestMoment": "ontspannen",
+        "tags": [
+          "archiveren",
+          "entertainment & pop culture",
+          "light-reading",
+          "technology"
+        ],
+        "alsoIn": [
+          "aaa-dutch-top-100",
+          "aaa-short-dutch-top-100",
+          "aaa-luchtig-nederlands-top-100"
+        ],
+        "memberships": [
+          {
+            "familyId": "nederlands",
+            "size": "top-100",
+            "position": 33
+          },
+          {
+            "familyId": "kort-nederlands",
+            "size": "top-100",
+            "position": 21
+          },
+          {
+            "familyId": "luchtig-nederlands",
+            "size": "top-100",
+            "position": 12
+          }
+        ]
+      },
+      {
+        "position": null,
         "id": "01ktbgtqg35v2jdk8hnh5s11pg",
         "title": "Retro-Tech Parenting",
         "author": "havenweb.org",
@@ -24657,6 +28732,61 @@ window.TOP_ARTICLES = {
         ],
         "alsoIn": [],
         "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01kt9sbc2hgkymt9expprgkgdp",
+        "title": "In de Apocalyps is de vrouw een teken van hoop",
+        "author": "De Ongelooflijke",
+        "siteName": "Substack",
+        "category": "email",
+        "language": "Nederlands",
+        "readingTime": "11 mins",
+        "readingMinutes": 11,
+        "wordCount": 2806,
+        "publishedDate": "2026-06-04",
+        "savedDate": "2026-06-04T17:02:01.298000+00:00",
+        "imageUrl": null,
+        "sourceUrl": "mailto:reader-forwarded-email/1b764fdf5abd46623c037fd1ff273434",
+        "readwiseUrl": "https://read.readwise.io/read/01kt9sbc2hgkymt9expprgkgdp",
+        "summary": "Meestal wordt de Apocalyps geassocieerd met chaos, oorlog en vernietiging; het einde der tijden en de ondergang van de wereld.",
+        "whyRead": "Raakt je interesse in cultuurgeschiedenis, religieuze beeldtaal en kunst als ideeënwereld: een rijk essay over de apocalyptische vrouw als hoopmotief in plaats van alleen rampsymbool.",
+        "bestMoment": "geconcentreerd",
+        "tags": [
+          "arts & culture",
+          "history",
+          "later",
+          "light-reading",
+          "philosophy"
+        ],
+        "alsoIn": [
+          "aaa-dutch-top-100",
+          "aaa-luchtig-top-100",
+          "aaa-luchtig-nederlands-top-10",
+          "aaa-luchtig-nederlands-top-100"
+        ],
+        "memberships": [
+          {
+            "familyId": "nederlands",
+            "size": "top-100",
+            "position": 13
+          },
+          {
+            "familyId": "luchtig",
+            "size": "top-100",
+            "position": 47
+          },
+          {
+            "familyId": "luchtig-nederlands",
+            "size": "top-10",
+            "position": 2
+          },
+          {
+            "familyId": "luchtig-nederlands",
+            "size": "top-100",
+            "position": 2
+          }
+        ]
       },
       {
         "position": null,
@@ -24716,10 +28846,57 @@ window.TOP_ARTICLES = {
           {
             "familyId": "nederlands",
             "size": "top-100",
-            "position": 27
+            "position": 37
           },
           {
             "familyId": "kort-nederlands",
+            "size": "top-100",
+            "position": 25
+          }
+        ]
+      },
+      {
+        "position": null,
+        "id": "01kt7kjd4zr8ba59xcpfvmxdfz",
+        "title": "Week 14: kop en staart",
+        "author": "Holly en Roos",
+        "siteName": "Substack",
+        "category": "email",
+        "language": "Nederlands",
+        "readingTime": "5 mins",
+        "readingMinutes": 5,
+        "wordCount": 1193,
+        "publishedDate": "2026-06-03",
+        "savedDate": "2026-06-03T20:42:31.455000+00:00",
+        "imageUrl": null,
+        "sourceUrl": "mailto:reader-forwarded-email/ef98889d4b0749d6aa86a66140526e19",
+        "readwiseUrl": "https://read.readwise.io/read/01kt7kjd4zr8ba59xcpfvmxdfz",
+        "summary": "Ik loop weer eens achter. Met deze blogs dan.",
+        "whyRead": "Raakt je voorkeur voor reflectieve essays met persoonlijke anekdote: een wandelverslag dat eigenlijk gaat over vertragen, afhankelijkheid en het vinden van verhaalvorm.",
+        "bestMoment": "ontspannen",
+        "tags": [
+          "arts & culture",
+          "light-reading",
+          "personal growth & life philosophy"
+        ],
+        "alsoIn": [
+          "aaa-dutch-top-100",
+          "aaa-short-dutch-top-100",
+          "aaa-luchtig-nederlands-top-100"
+        ],
+        "memberships": [
+          {
+            "familyId": "nederlands",
+            "size": "top-100",
+            "position": 44
+          },
+          {
+            "familyId": "kort-nederlands",
+            "size": "top-100",
+            "position": 31
+          },
+          {
+            "familyId": "luchtig-nederlands",
             "size": "top-100",
             "position": 16
           }
@@ -24757,12 +28934,12 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 73
+            "position": 81
           },
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 38
+            "position": 41
           }
         ]
       },
@@ -24791,16 +28968,36 @@ window.TOP_ARTICLES = {
           "light-reading",
           "professional development"
         ],
-        "alsoIn": [
-          "aaa-luchtig-top-100"
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01kt6qdyh1y6x3qgtft0vd05eb",
+        "title": "Open Thread: Your Summer Reading?",
+        "author": "Miller’s Book Review 📚",
+        "siteName": "Substack",
+        "category": "email",
+        "language": "Engels",
+        "readingTime": "3 mins",
+        "readingMinutes": 3,
+        "wordCount": 605,
+        "publishedDate": "2026-06-03",
+        "savedDate": "2026-06-03T12:30:45.282000+00:00",
+        "imageUrl": null,
+        "sourceUrl": "mailto:reader-forwarded-email/5b099698728f6b1443dd8aab2a32dde6",
+        "readwiseUrl": "https://read.readwise.io/read/01kt6qdyh1y6x3qgtft0vd05eb",
+        "summary": "The guide “recommended not only fake books such as Tidewater Dreams by Isabel Allende and The Last Algorithm by Andy Weir, but also imaginary titles from authors Brit Bennett, Taylor Jenkins Reid, Min Jin Lee and Rebecca Makkai,” reported the Washington Post.",
+        "whyRead": "Raakt je interesse in literatuur, canonvorming en AI als culturele frictie: een lichte maar bruikbare leeslijst die tegelijk laat zien waarom persoonlijke, menselijke curatie waarde houdt.",
+        "bestMoment": "ontspannen",
+        "tags": [
+          "ai ethics & society",
+          "arts & culture",
+          "fiction",
+          "light-reading"
         ],
-        "memberships": [
-          {
-            "familyId": "luchtig",
-            "size": "top-100",
-            "position": 97
-          }
-        ]
+        "alsoIn": [],
+        "memberships": []
       },
       {
         "position": null,
@@ -24859,12 +29056,12 @@ window.TOP_ARTICLES = {
           {
             "familyId": "nederlands",
             "size": "top-100",
-            "position": 25
+            "position": 32
           },
           {
             "familyId": "kort-nederlands",
             "size": "top-100",
-            "position": 14
+            "position": 20
           }
         ]
       },
@@ -24893,16 +29090,8 @@ window.TOP_ARTICLES = {
           "personal growth & life philosophy",
           "philosophy"
         ],
-        "alsoIn": [
-          "aaa-luchtig-top-100"
-        ],
-        "memberships": [
-          {
-            "familyId": "luchtig",
-            "size": "top-100",
-            "position": 85
-          }
-        ]
+        "alsoIn": [],
+        "memberships": []
       },
       {
         "position": null,
@@ -24927,6 +29116,62 @@ window.TOP_ARTICLES = {
           "adhd & neurodivergence",
           "professional development",
           "sociology & social structures"
+        ],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01kt1vftcr1sbpe7eyaq1th1cx",
+        "title": "This week: levers! quicksand! and a game about sound.",
+        "author": "Tom Scott",
+        "siteName": null,
+        "category": "email",
+        "language": "Engels",
+        "readingTime": "3 mins",
+        "readingMinutes": 3,
+        "wordCount": 539,
+        "publishedDate": "2026-06-01",
+        "savedDate": "2026-06-01T15:05:28.729000+00:00",
+        "imageUrl": null,
+        "sourceUrl": "mailto:reader-forwarded-email/5283fec8a8e6214c0a5528546fbd6329",
+        "readwiseUrl": "https://read.readwise.io/read/01kt1vftcr1sbpe7eyaq1th1cx",
+        "summary": "And finally, on TikTok: It looks like a magic trick. It's actually a slapstick routine.",
+        "whyRead": "Lichte Tom Scott-linkdigest met enkele curieuze science/tech/cultuur-links, vooral Lorem Ipsum, quicksand, 3D-geprinte treinfluiten en een toonhoogte-webgame.",
+        "bestMoment": "ontspannen",
+        "tags": [
+          "games",
+          "light-reading",
+          "science",
+          "technology"
+        ],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01kt1kx6fw5yk6bfkt8ahab2q5",
+        "title": "What are your favorite books?",
+        "author": "Jared Henderson from Commonplace Philosophy",
+        "siteName": "Substack",
+        "category": "email",
+        "language": "Engels",
+        "readingTime": "2 mins",
+        "readingMinutes": 2,
+        "wordCount": 429,
+        "publishedDate": "2026-06-01",
+        "savedDate": "2026-06-01T12:52:58.493000+00:00",
+        "imageUrl": null,
+        "sourceUrl": "mailto:reader-forwarded-email/24fcaa0cd9897ed554a7ea80721bdbc7",
+        "readwiseUrl": "https://read.readwise.io/read/01kt1kx6fw5yk6bfkt8ahab2q5",
+        "summary": "As I was drifting off to sleep last night, an idea came to me.",
+        "whyRead": "Alleen relevant als context bij Commonplace Philosophy: Jared Henderson verzamelt favoriete en minst favoriete boeken van zijn lezers, mede als voorbereiding rond de boekclub over Charles Taylors The Ethics of Authenticity.",
+        "bestMoment": "overslaan",
+        "tags": [
+          "arts & culture",
+          "fiction",
+          "light-reading",
+          "philosophy"
         ],
         "alsoIn": [],
         "memberships": []
@@ -24972,6 +29217,34 @@ window.TOP_ARTICLES = {
             "position": 4
           }
         ]
+      },
+      {
+        "position": null,
+        "id": "01kswfhg0kr3e4b06hbarqhxk3",
+        "title": "The Humanist Protocols Pt. 1: Pay Attention To The World",
+        "author": "A Mug of Insights",
+        "siteName": "Ghost - The Professional Publishing Platform",
+        "category": "email",
+        "language": "Engels",
+        "readingTime": "7 mins",
+        "readingMinutes": 7,
+        "wordCount": 1716,
+        "publishedDate": "2026-05-30",
+        "savedDate": "2026-05-30T13:00:28.564000+00:00",
+        "imageUrl": null,
+        "sourceUrl": "mailto:reader-forwarded-email/8ee2cf31ef72c6d52b89aa209957e377",
+        "readwiseUrl": "https://read.readwise.io/read/01kswfhg0kr3e4b06hbarqhxk3",
+        "summary": "And I'm super happy to announce that the A Mug of Insights podcast is back! You can now tune into the latest episode: Struggle To Put Thoughts On Paper?",
+        "whyRead": "Raakt humanisme, aandacht en schrijven: 'pay attention to the world' sluit aan bij essayistisch denken en leren kijken.",
+        "bestMoment": "reflectief",
+        "tags": [
+          "arts & culture",
+          "learning & meta-learning",
+          "light-reading",
+          "personal growth & life philosophy"
+        ],
+        "alsoIn": [],
+        "memberships": []
       },
       {
         "position": null,
@@ -25032,12 +29305,47 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 14
+            "position": 17
           },
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 13
+            "position": 16
+          }
+        ]
+      },
+      {
+        "position": null,
+        "id": "01ksspmmztsr8pd0zq5k2pcnke",
+        "title": "The Wrong Fight over AI and Writing",
+        "author": "Miller’s Book Review 📚",
+        "siteName": "Substack",
+        "category": "email",
+        "language": "Engels",
+        "readingTime": "8 mins",
+        "readingMinutes": 8,
+        "wordCount": 1870,
+        "publishedDate": "2026-05-29",
+        "savedDate": "2026-05-29T11:06:48.698000+00:00",
+        "imageUrl": null,
+        "sourceUrl": "mailto:reader-forwarded-email/baf3115d9ed82bf69d604b32922b0762",
+        "readwiseUrl": "https://read.readwise.io/read/01ksspmmztsr8pd0zq5k2pcnke",
+        "summary": "A writer expostulating on truth in the age of AI used AI for his research and inadvertently passed off a bunch of bogus—that is to say, untrue—information in the process.",
+        "whyRead": null,
+        "bestMoment": "kritisch",
+        "tags": [
+          "ai ethics & society",
+          "arts & culture",
+          "light-reading"
+        ],
+        "alsoIn": [
+          "aaa-luchtig-top-100"
+        ],
+        "memberships": [
+          {
+            "familyId": "luchtig",
+            "size": "top-100",
+            "position": 46
           }
         ]
       },
@@ -25146,16 +29454,8 @@ window.TOP_ARTICLES = {
           "light-reading",
           "professional development"
         ],
-        "alsoIn": [
-          "aaa-luchtig-top-100"
-        ],
-        "memberships": [
-          {
-            "familyId": "luchtig",
-            "size": "top-100",
-            "position": 100
-          }
-        ]
+        "alsoIn": [],
+        "memberships": []
       },
       {
         "position": null,
@@ -25179,6 +29479,34 @@ window.TOP_ARTICLES = {
         "tags": [
           "personal growth & life philosophy",
           "sociology & social structures"
+        ],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01ksmj9hx2gtpq5spdfq0f7v37",
+        "title": "3 Ways to Make New Stuff Happen",
+        "author": "Miller’s Book Review 📚",
+        "siteName": "Substack",
+        "category": "email",
+        "language": "Engels",
+        "readingTime": "12 mins",
+        "readingMinutes": 12,
+        "wordCount": 2924,
+        "publishedDate": "2026-05-27",
+        "savedDate": "2026-05-27T11:14:38.627000+00:00",
+        "imageUrl": null,
+        "sourceUrl": "mailto:reader-forwarded-email/ec9c8659ceb9f5e587e9df1ea4b25bfd",
+        "readwiseUrl": "https://read.readwise.io/read/01ksmj9hx2gtpq5spdfq0f7v37",
+        "summary": "One of the fascinating experiences afforded by reading biographies comes when noticing similarities between the lives of wildly disparate people.",
+        "whyRead": "Het artikel destilleert drie structurele patronen uit vier ogenschijnlijk ongelijksoortige innovatoren — een lens die helpt nadenken over hoe radicale ideeën doorbreken in elk domein.",
+        "bestMoment": "Rustig moment, als je nadenkt over eigen projecten of ideeën die stoeien met tegenwind.",
+        "tags": [
+          "arts & culture",
+          "history",
+          "light-reading",
+          "personal growth & life philosophy"
         ],
         "alsoIn": [],
         "memberships": []
@@ -25212,6 +29540,82 @@ window.TOP_ARTICLES = {
       },
       {
         "position": null,
+        "id": "01ksk56be6jt4ad5g5kabzatjc",
+        "title": "🎨 The 3 hidden rules of good taste",
+        "author": "Daniel Pink",
+        "siteName": "Substack",
+        "category": "email",
+        "language": "Engels",
+        "readingTime": "3 mins",
+        "readingMinutes": 3,
+        "wordCount": 569,
+        "publishedDate": "2026-05-26",
+        "savedDate": "2026-05-26T22:06:27.782000+00:00",
+        "imageUrl": null,
+        "sourceUrl": "mailto:reader-forwarded-email/e26ce84cb9d3d2c38fdcf2c19fd6be32",
+        "readwiseUrl": "https://read.readwise.io/read/01ksk56be6jt4ad5g5kabzatjc",
+        "summary": "Feeling a twinge of wanderlust but not eager to brave airport security?",
+        "whyRead": "Pink stelt dat smaak — het vermogen te weten wat goed is en waarom — de bepalende vaardigheid wordt in het AI-tijdperk, een stelling die raakt aan AI-ethiek en creatieve autonomie.",
+        "bestMoment": "geïnspireerd",
+        "tags": [
+          "ai ethics & society",
+          "arts & culture",
+          "light-reading",
+          "personal growth & life philosophy"
+        ],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01kshptdc5njqdmnehkxr4arfb",
+        "title": "Een walgelijke man",
+        "author": "Fouad El Hamdaoui",
+        "siteName": "Substack",
+        "category": "email",
+        "language": "Nederlands",
+        "readingTime": "2 mins",
+        "readingMinutes": 2,
+        "wordCount": 462,
+        "publishedDate": "2026-05-26",
+        "savedDate": "2026-05-26T08:36:02.054000+00:00",
+        "imageUrl": null,
+        "sourceUrl": "mailto:reader-forwarded-email/a10f2d38f6ef61984f2a14c198105623",
+        "readwiseUrl": "https://read.readwise.io/read/01kshptdc5njqdmnehkxr4arfb",
+        "summary": "Ik-verteller beschrijft een depressieve man met suïcidale gedachten die ondanks een 'perfect plaatje' leeg en walgend is — de twist: de man is hijzelf, in de badkamerspiegel.",
+        "whyRead": "Kort en krachtig Nederlands prozastuk met een scherpe twist: een ogenschijnlijk objectieve blik op andermans depressie en doodsverlangen blijkt uiteindelijk een zelfportret in de spiegel. Sterke stem en beklijvende beeldspraak over hoe suïcidale gedachten de waarneming van de wereld vervormen.",
+        "bestMoment": "reflectief",
+        "tags": [
+          "arts & culture",
+          "health & wellness",
+          "light-reading",
+          "personal growth & life philosophy"
+        ],
+        "alsoIn": [
+          "aaa-dutch-top-100",
+          "aaa-short-dutch-top-100",
+          "aaa-luchtig-nederlands-top-100"
+        ],
+        "memberships": [
+          {
+            "familyId": "nederlands",
+            "size": "top-100",
+            "position": 43
+          },
+          {
+            "familyId": "kort-nederlands",
+            "size": "top-100",
+            "position": 30
+          },
+          {
+            "familyId": "luchtig-nederlands",
+            "size": "top-100",
+            "position": 15
+          }
+        ]
+      },
+      {
+        "position": null,
         "id": "01kshk7y38tttq6h11fb76xmzd",
         "title": "The Story Forms Before the Meeting Starts",
         "author": "Sven Brodmerkel | Off-Script At Work",
@@ -25232,6 +29636,42 @@ window.TOP_ARTICLES = {
         "tags": [],
         "alsoIn": [],
         "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01ksgpayydne30egggw4npszj1",
+        "title": "Annihilation – A (Very French) Biography of the \"Last Man\"",
+        "author": "R.W. Richey from We Are Not Saved",
+        "siteName": "Substack",
+        "category": "email",
+        "language": "Engels",
+        "readingTime": "6 mins",
+        "readingMinutes": 6,
+        "wordCount": 1350,
+        "publishedDate": "2026-05-25",
+        "savedDate": "2026-05-25T23:08:21.326000+00:00",
+        "imageUrl": null,
+        "sourceUrl": "mailto:reader-forwarded-email/73a41a676c88b27e8cc90d93fd4e1d04",
+        "readwiseUrl": "https://read.readwise.io/read/01ksgpayydne30egggw4npszj1",
+        "summary": "Houellebecq is a well-known French author, and this book felt very French to me. What does that mean?",
+        "whyRead": "Korte maar inhoudelijke bespreking van Houellebecqs Annihilation als melancholische roman over ouder worden, leegte, sterfelijkheid en de Last Man. Relevant voor filosofie, Europese literatuur en fictie als diagnose van moderne betekenisarmoede.",
+        "bestMoment": "reflectief",
+        "tags": [
+          "arts & culture",
+          "fiction",
+          "light-reading",
+          "philosophy"
+        ],
+        "alsoIn": [
+          "aaa-luchtig-top-100"
+        ],
+        "memberships": [
+          {
+            "familyId": "luchtig",
+            "size": "top-100",
+            "position": 85
+          }
+        ]
       },
       {
         "position": null,
@@ -25259,6 +29699,42 @@ window.TOP_ARTICLES = {
         ],
         "alsoIn": [],
         "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01ksftktanvm593t6d9871cmm4",
+        "title": "This week: a long walk on a beach, and ancient Roman graffiti.",
+        "author": "Tom Scott",
+        "siteName": null,
+        "category": "email",
+        "language": "Engels",
+        "readingTime": "3 mins",
+        "readingMinutes": 3,
+        "wordCount": 533,
+        "publishedDate": "2026-05-25",
+        "savedDate": "2026-05-25T15:03:51.381000+00:00",
+        "imageUrl": null,
+        "sourceUrl": "mailto:reader-forwarded-email/62457fc82f71f7bc4ea7096170e9317c",
+        "readwiseUrl": "https://read.readwise.io/read/01ksftktanvm593t6d9871cmm4",
+        "summary": "And finally, on TikTok: I have no context for this inspection of industrial steel in the central belt of China, but I think that's the point. (Alternate link for desktop.",
+        "whyRead": "Alleen nuttig als lichte link-oogst rond cultuur, geschiedenis en internetcuriosa; de sterkste haak is het Hoplite Experiment als toegankelijke vorm van experimentele geschiedenis.",
+        "bestMoment": "ontspannen",
+        "tags": [
+          "arts & culture",
+          "entertainment & pop culture",
+          "history",
+          "light-reading"
+        ],
+        "alsoIn": [
+          "aaa-luchtig-top-100"
+        ],
+        "memberships": [
+          {
+            "familyId": "luchtig",
+            "size": "top-100",
+            "position": 63
+          }
+        ]
       },
       {
         "position": null,
@@ -25418,7 +29894,43 @@ window.TOP_ARTICLES = {
           {
             "familyId": "nederlands",
             "size": "top-100",
-            "position": 11
+            "position": 12
+          }
+        ]
+      },
+      {
+        "position": null,
+        "id": "01ksatzj8qqdm55ebbkc4588ft",
+        "title": "Short Reviews for May 2026",
+        "author": "Evan Þ from Papyrus Rampant",
+        "siteName": "Substack",
+        "category": "email",
+        "language": "Engels",
+        "readingTime": "5 mins",
+        "readingMinutes": 5,
+        "wordCount": 1114,
+        "publishedDate": "2026-05-23",
+        "savedDate": "2026-05-23T16:34:04.183000+00:00",
+        "imageUrl": null,
+        "sourceUrl": "mailto:reader-forwarded-email/f7ba37b9e5a4a47c29a3e35a42b515b1",
+        "readwiseUrl": "https://read.readwise.io/read/01ksatzj8qqdm55ebbkc4588ft",
+        "summary": "This is a very long book. It needs to be, to have a hope of doing justice to the plethora of characters and worldbuilding Shannon wrote in her sweeping one-volume epic fantasy.",
+        "whyRead": "Korte, toegankelijke boekennotities over fantasy, historische fictie, Amerikaanse geschiedenis en Mary Todd Lincoln. Vooral bruikbaar als snelle bron voor leeskeuzes en als klein vergelijkingspunt bij fantasy-worldbuilding.\nWaarom skippen: De stukken blijven compacte mini-reviews; er is weinig essayistische uitwerking of bredere analyse voorbij de boekoordelen zelf.",
+        "bestMoment": "licht analytisch",
+        "tags": [
+          "arts & culture",
+          "fiction",
+          "history",
+          "light-reading"
+        ],
+        "alsoIn": [
+          "aaa-luchtig-top-100"
+        ],
+        "memberships": [
+          {
+            "familyId": "luchtig",
+            "size": "top-100",
+            "position": 84
           }
         ]
       },
@@ -25452,6 +29964,42 @@ window.TOP_ARTICLES = {
       },
       {
         "position": null,
+        "id": "01ksa4rg8aaab5rf5v3x3xd1mb",
+        "title": "Books I'm excited about",
+        "author": "Charles Duhigg",
+        "siteName": null,
+        "category": "email",
+        "language": "Engels",
+        "readingTime": "2 mins",
+        "readingMinutes": 2,
+        "wordCount": 520,
+        "publishedDate": "2026-05-23",
+        "savedDate": "2026-05-23T10:05:44.074000+00:00",
+        "imageUrl": null,
+        "sourceUrl": "mailto:reader-forwarded-email/215be820d469f3573ad153b75c6e23e7",
+        "readwiseUrl": "https://read.readwise.io/read/01ksa4rg8aaab5rf5v3x3xd1mb",
+        "summary": "A Hollywood super agent describing celebrity tantrums? Stories of financial hijinks amid A-list bumbleheads?",
+        "whyRead": "Korte boeken- en podcastlijst van Charles Duhigg met enkele potentieel interessante titels rond sociale verbinding, beperkingen, dystopische fictie, moderne mannelijkheid en biologische oorlog.\nWaarom skippen: Dit is vooral een aanbevelingenmail met teasers en kooplinks; er zit nauwelijks eigen analyse of essayistische uitwerking in.",
+        "bestMoment": "signalerend",
+        "tags": [
+          "arts & culture",
+          "fiction",
+          "light-reading",
+          "sociology & social structures"
+        ],
+        "alsoIn": [
+          "aaa-luchtig-top-100"
+        ],
+        "memberships": [
+          {
+            "familyId": "luchtig",
+            "size": "top-100",
+            "position": 83
+          }
+        ]
+      },
+      {
+        "position": null,
         "id": "01ks96dy2nfby7cyd152ev2a9k",
         "title": "Bureaucracy Isn't Broken. That's the Problem.",
         "author": "Sven Brodmerkel | Off-Script At Work",
@@ -25482,12 +30030,12 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 13
+            "position": 16
           },
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 12
+            "position": 15
           }
         ]
       },
@@ -25516,6 +30064,53 @@ window.TOP_ARTICLES = {
       },
       {
         "position": null,
+        "id": "01ks7vbkd0mgft31fpf06jbv90",
+        "title": "Een gele kanarie van 195 euro",
+        "author": "Alexander Klöpping & Ernst-Jan Pfauth",
+        "siteName": "Substack",
+        "category": "email",
+        "language": "Nederlands",
+        "readingTime": "3 mins",
+        "readingMinutes": 3,
+        "wordCount": 734,
+        "publishedDate": "2026-05-22",
+        "savedDate": "2026-05-22T12:42:55.265000+00:00",
+        "imageUrl": null,
+        "sourceUrl": "mailto:reader-forwarded-email/a1ecb0124fe5bef5475462038be62e11",
+        "readwiseUrl": "https://read.readwise.io/read/01ks7vbkd0mgft31fpf06jbv90",
+        "summary": "Een memoir waarin de schrijver wél kan schrijven.",
+        "whyRead": "Lichte weekendtips-mail met cultuur-, streaming- en gadgetaanbevelingen. De enige echt inhoudelijke haak is de verwijzing naar Alex Mayyasi/Derek Thompson over de economische logica achter eenzaamheid: digitaal vermaak schaalt goedkoop, terwijl sociale plekken arbeidsintensief en duurder worden.",
+        "bestMoment": "licht / weekend",
+        "tags": [
+          "arts & culture",
+          "light-reading",
+          "sociology & social structures"
+        ],
+        "alsoIn": [
+          "aaa-dutch-top-100",
+          "aaa-short-dutch-top-100",
+          "aaa-luchtig-nederlands-top-100"
+        ],
+        "memberships": [
+          {
+            "familyId": "nederlands",
+            "size": "top-100",
+            "position": 31
+          },
+          {
+            "familyId": "kort-nederlands",
+            "size": "top-100",
+            "position": 19
+          },
+          {
+            "familyId": "luchtig-nederlands",
+            "size": "top-100",
+            "position": 11
+          }
+        ]
+      },
+      {
+        "position": null,
         "id": "01ks5wkeam3nzf67r9bh537enm",
         "title": "Alone, Finally",
         "author": "Tamara",
@@ -25539,16 +30134,8 @@ window.TOP_ARTICLES = {
           "personal growth & life philosophy",
           "philosophy"
         ],
-        "alsoIn": [
-          "aaa-luchtig-top-100"
-        ],
-        "memberships": [
-          {
-            "familyId": "luchtig",
-            "size": "top-100",
-            "position": 84
-          }
-        ]
+        "alsoIn": [],
+        "memberships": []
       },
       {
         "position": null,
@@ -25575,16 +30162,8 @@ window.TOP_ARTICLES = {
           "light-reading",
           "personal growth & life philosophy"
         ],
-        "alsoIn": [
-          "aaa-luchtig-top-100"
-        ],
-        "memberships": [
-          {
-            "familyId": "luchtig",
-            "size": "top-100",
-            "position": 99
-          }
-        ]
+        "alsoIn": [],
+        "memberships": []
       },
       {
         "position": null,
@@ -25615,6 +30194,42 @@ window.TOP_ARTICLES = {
       },
       {
         "position": null,
+        "id": "01ks2w2tk5ar80phj3pj90bjsw",
+        "title": "The Guardian's 100 Best English-Language Books and the Funny Thing about Lists",
+        "author": "Jared Henderson from Commonplace Philosophy",
+        "siteName": "Substack",
+        "category": "email",
+        "language": "Engels",
+        "readingTime": "9 mins",
+        "readingMinutes": 9,
+        "wordCount": 2343,
+        "publishedDate": "2026-05-20",
+        "savedDate": "2026-05-20T14:19:24.133000+00:00",
+        "imageUrl": null,
+        "sourceUrl": "mailto:reader-forwarded-email/fc840bfeee5429e9775b6ce0a56e1291",
+        "readwiseUrl": "https://read.readwise.io/read/01ks2w2tk5ar80phj3pj90bjsw",
+        "summary": "There is a genre of videos and articles that consists of making lists.",
+        "whyRead": "Het essay legt scherp bloot waarom geaggregeerde lijsten saai zijn en individuele smaak juist zo onthullend — met directe verbinding aan filosofische concepten over metrificatie en profilicity.",
+        "bestMoment": "reflectief",
+        "tags": [
+          "arts & culture",
+          "fiction",
+          "light-reading",
+          "philosophy"
+        ],
+        "alsoIn": [
+          "aaa-luchtig-top-100"
+        ],
+        "memberships": [
+          {
+            "familyId": "luchtig",
+            "size": "top-100",
+            "position": 82
+          }
+        ]
+      },
+      {
+        "position": null,
         "id": "01ks2b50wxejwag42nf6rnrq6d",
         "title": "Love is to be invested in someone’s continual expansion",
         "author": "Henrik Karlsson",
@@ -25638,16 +30253,8 @@ window.TOP_ARTICLES = {
           "personal growth & life philosophy",
           "philosophy"
         ],
-        "alsoIn": [
-          "aaa-luchtig-top-100"
-        ],
-        "memberships": [
-          {
-            "familyId": "luchtig",
-            "size": "top-100",
-            "position": 83
-          }
-        ]
+        "alsoIn": [],
+        "memberships": []
       },
       {
         "position": null,
@@ -25816,7 +30423,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 87
+            "position": 100
           }
         ]
       },
@@ -25852,7 +30459,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 86
+            "position": 99
           }
         ]
       },
@@ -25881,16 +30488,8 @@ window.TOP_ARTICLES = {
           "philosophy",
           "sociology & social structures"
         ],
-        "alsoIn": [
-          "aaa-short-top-100"
-        ],
-        "memberships": [
-          {
-            "familyId": "kort",
-            "size": "top-100",
-            "position": 97
-          }
-        ]
+        "alsoIn": [],
+        "memberships": []
       },
       {
         "position": null,
@@ -25917,16 +30516,8 @@ window.TOP_ARTICLES = {
           "personal growth & life philosophy",
           "technology"
         ],
-        "alsoIn": [
-          "aaa-luchtig-top-100"
-        ],
-        "memberships": [
-          {
-            "familyId": "luchtig",
-            "size": "top-100",
-            "position": 82
-          }
-        ]
+        "alsoIn": [],
+        "memberships": []
       },
       {
         "position": null,
@@ -25986,7 +30577,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 85
+            "position": 98
           }
         ]
       },
@@ -26075,7 +30666,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 33
+            "position": 38
           }
         ]
       },
@@ -26164,7 +30755,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 62
+            "position": 81
           }
         ]
       },
@@ -26199,7 +30790,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 32
+            "position": 37
           }
         ]
       },
@@ -26262,7 +30853,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 61
+            "position": 80
           }
         ]
       },
@@ -26318,16 +30909,8 @@ window.TOP_ARTICLES = {
           "science",
           "sociology & social structures"
         ],
-        "alsoIn": [
-          "aaa-luchtig-top-100"
-        ],
-        "memberships": [
-          {
-            "familyId": "luchtig",
-            "size": "top-100",
-            "position": 81
-          }
-        ]
+        "alsoIn": [],
+        "memberships": []
       },
       {
         "position": null,
@@ -26353,16 +30936,8 @@ window.TOP_ARTICLES = {
           "linked-from-readwise",
           "political philosophy"
         ],
-        "alsoIn": [
-          "aaa-short-top-100"
-        ],
-        "memberships": [
-          {
-            "familyId": "kort",
-            "size": "top-100",
-            "position": 96
-          }
-        ]
+        "alsoIn": [],
+        "memberships": []
       },
       {
         "position": null,
@@ -26478,12 +31053,12 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 72
+            "position": 80
           },
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 37
+            "position": 40
           }
         ]
       },
@@ -26547,7 +31122,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 31
+            "position": 36
           }
         ]
       },
@@ -26583,7 +31158,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 37
+            "position": 45
           }
         ]
       },
@@ -26619,12 +31194,12 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 12
+            "position": 15
           },
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 11
+            "position": 14
           }
         ]
       },
@@ -26653,16 +31228,8 @@ window.TOP_ARTICLES = {
           "history",
           "light-reading"
         ],
-        "alsoIn": [
-          "aaa-luchtig-top-100"
-        ],
-        "memberships": [
-          {
-            "familyId": "luchtig",
-            "size": "top-100",
-            "position": 79
-          }
-        ]
+        "alsoIn": [],
+        "memberships": []
       },
       {
         "position": null,
@@ -26696,12 +31263,12 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 71
+            "position": 79
           },
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 36
+            "position": 39
           }
         ]
       },
@@ -26811,16 +31378,8 @@ window.TOP_ARTICLES = {
           "light-reading",
           "sociology & inequality"
         ],
-        "alsoIn": [
-          "aaa-luchtig-top-100"
-        ],
-        "memberships": [
-          {
-            "familyId": "luchtig",
-            "size": "top-100",
-            "position": 78
-          }
-        ]
+        "alsoIn": [],
+        "memberships": []
       },
       {
         "position": null,
@@ -26920,6 +31479,64 @@ window.TOP_ARTICLES = {
       },
       {
         "position": null,
+        "id": "01kr190hdc36xn9y5edjsm74fx",
+        "title": "📚 Neat Stuff I Read in April 2026",
+        "author": "Eleanor Konik",
+        "siteName": "Manuscriptions",
+        "category": "rss",
+        "language": "Engels",
+        "readingTime": "12 mins",
+        "readingMinutes": 12,
+        "wordCount": 3108,
+        "publishedDate": "2026-05-07",
+        "savedDate": "2026-05-07T13:11:06.996000+00:00",
+        "imageUrl": "https://substackcdn.com/image/fetch/$s_!GrE0!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F818b76c1-2c3a-437e-9154-3ce59951106c_1264x848.png",
+        "sourceUrl": "https://www.eleanorkonik.com/p/neat-stuff-i-read-in-april-2026",
+        "readwiseUrl": "https://read.readwise.io/read/01kr190hdc36xn9y5edjsm74fx",
+        "summary": "On \"doing your own research\" in the AI age, messy economics in fiction, & what funerals do to African households. Also: the airline wars, vending-machine money laundering, & breakthrus in health sci.",
+        "whyRead": "Dit raakt veel van je kerninteresses tegelijk: AI en onderzoek, PKM/sensemaking, geschiedenis, sociologie, fictie als denkinstrument en infrastructuur. De meerwaarde zit niet in één diep argument, maar in Koniks curatie met duidelijke persoonlijke stem en veel mogelijke vervolgleesroutes.",
+        "bestMoment": "leergierig",
+        "tags": [
+          "ai & machine learning",
+          "sociology & inequality",
+          "writing & essays"
+        ],
+        "alsoIn": [
+          "aaa-top-100"
+        ],
+        "memberships": [
+          {
+            "familyId": "algemeen",
+            "size": "top-100",
+            "position": 35
+          }
+        ]
+      },
+      {
+        "position": null,
+        "id": "01kr18hzm9k2ntycxctghxwne6",
+        "title": "📚 Neat Stuff I Read in April 2026",
+        "author": "Eleanor Konik",
+        "siteName": "Substack",
+        "category": "email",
+        "language": "Engels",
+        "readingTime": "12 mins",
+        "readingMinutes": 12,
+        "wordCount": 3138,
+        "publishedDate": "2026-05-07",
+        "savedDate": "2026-05-07T13:03:13.033000+00:00",
+        "imageUrl": null,
+        "sourceUrl": "mailto:reader-forwarded-email/2dffa879823a10e48314821e92f41e0b",
+        "readwiseUrl": "https://read.readwise.io/read/01kr18hzm9k2ntycxctghxwne6",
+        "summary": "April was a busy month, y’all. I read a ton (Substack says this email may get truncated because of the length, sorry!",
+        "whyRead": "Inhoudelijk dezelfde Konik-digest als de RSS-versie die net op later is gezet. De relevante waarde zit al in dat andere Reader-item met highlights en triagenotitie.",
+        "bestMoment": "leergierig",
+        "tags": [],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
         "id": "01kqy8wyp8f7z6nqcby6ajbnm4",
         "title": "The world reveals itself to those who travel by foot",
         "author": "Henrik Karlsson",
@@ -26950,7 +31567,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 60
+            "position": 79
           }
         ]
       },
@@ -26987,12 +31604,12 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 70
+            "position": 78
           },
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 15
+            "position": 16
           }
         ]
       },
@@ -27027,7 +31644,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 30
+            "position": 34
           }
         ]
       },
@@ -27063,12 +31680,12 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 69
+            "position": 77
           },
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 35
+            "position": 38
           }
         ]
       },
@@ -27103,7 +31720,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 29
+            "position": 33
           }
         ]
       },
@@ -27138,7 +31755,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 28
+            "position": 32
           }
         ]
       },
@@ -27176,17 +31793,17 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 27
+            "position": 31
           },
           {
             "familyId": "luchtig",
             "size": "top-10",
-            "position": 6
+            "position": 7
           },
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 6
+            "position": 7
           }
         ]
       },
@@ -27254,6 +31871,34 @@ window.TOP_ARTICLES = {
       },
       {
         "position": null,
+        "id": "01kqmaaxrcfyceawsmsqnhaq9b",
+        "title": "The 12 New Books to Enliven Spring and Summer",
+        "author": "Adam Grant, Granted",
+        "siteName": "Substack",
+        "category": "email",
+        "language": "Engels",
+        "readingTime": "2 mins",
+        "readingMinutes": 2,
+        "wordCount": 363,
+        "publishedDate": "2026-05-02",
+        "savedDate": "2026-05-02T12:24:11.276000+00:00",
+        "imageUrl": null,
+        "sourceUrl": "mailto:reader-forwarded-email/f6db6333ebe8004e5700434114acc88e",
+        "readwiseUrl": "https://read.readwise.io/read/01kqmaaxrcfyceawsmsqnhaq9b",
+        "summary": "That’s the promise of the new releases on my reading list for spring and summer. They explore how we can build a better future, accomplish great things, and enhance our mental and physical health.",
+        "whyRead": null,
+        "bestMoment": null,
+        "tags": [
+          "arts & culture",
+          "health & wellness",
+          "light-reading",
+          "personal growth & life philosophy"
+        ],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
         "id": "01kqj7zfv4pjw25bctmdrswe18",
         "title": "Waarom de Nederlandse democratie in de jaren ’30 niet ten onder ging",
         "author": "De Ongelooflijke",
@@ -27277,19 +31922,13 @@ window.TOP_ARTICLES = {
           "totalitarianism & fascism"
         ],
         "alsoIn": [
-          "aaa-dutch-top-10",
           "aaa-dutch-top-100"
         ],
         "memberships": [
           {
             "familyId": "nederlands",
-            "size": "top-10",
-            "position": 10
-          },
-          {
-            "familyId": "nederlands",
             "size": "top-100",
-            "position": 10
+            "position": 11
           }
         ]
       },
@@ -27317,16 +31956,8 @@ window.TOP_ARTICLES = {
           "light-reading",
           "sociology & inequality"
         ],
-        "alsoIn": [
-          "aaa-luchtig-top-100"
-        ],
-        "memberships": [
-          {
-            "familyId": "luchtig",
-            "size": "top-100",
-            "position": 77
-          }
-        ]
+        "alsoIn": [],
+        "memberships": []
       },
       {
         "position": null,
@@ -27410,6 +32041,29 @@ window.TOP_ARTICLES = {
       },
       {
         "position": null,
+        "id": "01kptnavtmxc08pexmv6yxmavz",
+        "title": "🎓 How Organisms Rewrite Bodies Without Changing Genes",
+        "author": "Eleanor Konik",
+        "siteName": "Substack",
+        "category": "email",
+        "language": "Engels",
+        "readingTime": "9 mins",
+        "readingMinutes": 9,
+        "wordCount": 2381,
+        "publishedDate": "2026-04-22",
+        "savedDate": "2026-04-22T13:16:08.405000+00:00",
+        "imageUrl": null,
+        "sourceUrl": "mailto:reader-forwarded-email/91c9447942dbf0cf48e1533af79932f8",
+        "readwiseUrl": "https://read.readwise.io/read/01kptnavtmxc08pexmv6yxmavz",
+        "summary": "When I wrote about how locusts cause famines, I included a quick aside about octopuses and water temperature.",
+        "whyRead": null,
+        "bestMoment": null,
+        "tags": [],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
         "id": "01kpe68f3bbm3ntfqf6t3dy7z9",
         "title": "What All Philosophers Get Wrong (according to Nietzsche)",
         "author": "Joe from Unsolicited Advice",
@@ -27431,6 +32085,29 @@ window.TOP_ARTICLES = {
           "learning & meta-learning",
           "philosophy"
         ],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01kpb376s2jb8650wvd5n8mszj",
+        "title": "💰 Some stuff I'm surprisingly happy I bought in 2025",
+        "author": "Eleanor Konik",
+        "siteName": "Substack",
+        "category": "email",
+        "language": "Engels",
+        "readingTime": "7 mins",
+        "readingMinutes": 7,
+        "wordCount": 1781,
+        "publishedDate": "2026-04-16",
+        "savedDate": "2026-04-16T12:10:57.698000+00:00",
+        "imageUrl": null,
+        "sourceUrl": "mailto:reader-forwarded-email/58407b416a75f7337181768d99e0747a",
+        "readwiseUrl": "https://read.readwise.io/read/01kpb376s2jb8650wvd5n8mszj",
+        "summary": "Normally I review books and articles, but as part of the tax prep process I spent some time reviewing my purchases from 2025, and reflected on what I’m glad I bought and what I wish I’d skipped.",
+        "whyRead": null,
+        "bestMoment": null,
+        "tags": [],
         "alsoIn": [],
         "memberships": []
       },
@@ -27541,6 +32218,29 @@ window.TOP_ARTICLES = {
       },
       {
         "position": null,
+        "id": "01knpkrv3w8wsbhpd6qs67fkd1",
+        "title": "📗 On Building a Vocabulary for Discussing Network Effects",
+        "author": "Eleanor Konik",
+        "siteName": "Substack",
+        "category": "email",
+        "language": "Engels",
+        "readingTime": "15 mins",
+        "readingMinutes": 15,
+        "wordCount": 3745,
+        "publishedDate": "2026-04-08",
+        "savedDate": "2026-04-08T13:16:09.724000+00:00",
+        "imageUrl": null,
+        "sourceUrl": "mailto:reader-forwarded-email/d6ee8a8e3bdf60078918ae62e3ef80ea",
+        "readwiseUrl": "https://read.readwise.io/read/01knpkrv3w8wsbhpd6qs67fkd1",
+        "summary": "I read The Cold Start Problem for the same reason I read and reviewed Certain to Win — I wanted to understand business better now that I work for a startup instead of a school system.",
+        "whyRead": null,
+        "bestMoment": null,
+        "tags": [],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
         "id": "01knfqr56swt9kpxge8j63ver2",
         "title": "Technology Weakens Our Minds. We Can Fix This.",
         "author": "Cal Newport",
@@ -27622,7 +32322,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 11
+            "position": 14
           }
         ]
       },
@@ -27658,7 +32358,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 49
+            "position": 62
           }
         ]
       },
@@ -27695,12 +32395,12 @@ window.TOP_ARTICLES = {
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 84
+            "position": 97
           },
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 36
+            "position": 44
           }
         ]
       },
@@ -27736,12 +32436,12 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 68
+            "position": 76
           },
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 34
+            "position": 37
           }
         ]
       },
@@ -27778,12 +32478,12 @@ window.TOP_ARTICLES = {
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 83
+            "position": 96
           },
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 35
+            "position": 43
           }
         ]
       },
@@ -27820,12 +32520,12 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 67
+            "position": 75
           },
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 33
+            "position": 36
           }
         ]
       },
@@ -27888,7 +32588,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 26
+            "position": 30
           }
         ]
       },
@@ -27977,12 +32677,12 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 66
+            "position": 74
           },
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 32
+            "position": 35
           }
         ]
       },
@@ -28011,31 +32711,19 @@ window.TOP_ARTICLES = {
           "political philosophy"
         ],
         "alsoIn": [
-          "aaa-top-10",
           "aaa-top-100",
-          "aaa-short-top-10",
           "aaa-short-top-100"
         ],
         "memberships": [
           {
             "familyId": "algemeen",
-            "size": "top-10",
-            "position": 10
-          },
-          {
-            "familyId": "algemeen",
             "size": "top-100",
-            "position": 10
-          },
-          {
-            "familyId": "kort",
-            "size": "top-10",
-            "position": 10
+            "position": 13
           },
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 10
+            "position": 13
           }
         ]
       },
@@ -28100,17 +32788,17 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 25
+            "position": 29
           },
           {
             "familyId": "luchtig",
             "size": "top-10",
-            "position": 5
+            "position": 6
           },
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 5
+            "position": 6
           }
         ]
       },
@@ -28173,12 +32861,12 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 65
+            "position": 73
           },
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 31
+            "position": 34
           }
         ]
       },
@@ -28302,12 +32990,12 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 64
+            "position": 72
           },
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 30
+            "position": 33
           }
         ]
       },
@@ -28396,7 +33084,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 82
+            "position": 95
           }
         ]
       },
@@ -28458,7 +33146,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 24
+            "position": 28
           }
         ]
       },
@@ -28493,7 +33181,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 81
+            "position": 94
           }
         ]
       },
@@ -28686,7 +33374,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 34
+            "position": 42
           }
         ]
       },
@@ -28756,16 +33444,8 @@ window.TOP_ARTICLES = {
           "light-reading",
           "philosophy"
         ],
-        "alsoIn": [
-          "aaa-luchtig-top-100"
-        ],
-        "memberships": [
-          {
-            "familyId": "luchtig",
-            "size": "top-100",
-            "position": 80
-          }
-        ]
+        "alsoIn": [],
+        "memberships": []
       },
       {
         "position": null,
@@ -28792,31 +33472,19 @@ window.TOP_ARTICLES = {
           "writing & essays"
         ],
         "alsoIn": [
-          "aaa-top-10",
           "aaa-top-100",
-          "aaa-short-top-10",
           "aaa-short-top-100"
         ],
         "memberships": [
           {
             "familyId": "algemeen",
-            "size": "top-10",
-            "position": 9
-          },
-          {
-            "familyId": "algemeen",
             "size": "top-100",
-            "position": 9
-          },
-          {
-            "familyId": "kort",
-            "size": "top-10",
-            "position": 9
+            "position": 12
           },
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 9
+            "position": 12
           }
         ]
       },
@@ -28843,6 +33511,32 @@ window.TOP_ARTICLES = {
           "learning & meta-learning",
           "philosophy",
           "political philosophy"
+        ],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01khrd3s7hysvjvgdtsh1jc8ht",
+        "title": "🌲 Extract Value From the \"Process\" Layer of Your Notes",
+        "author": "Eleanor Konik",
+        "siteName": "Manuscriptions",
+        "category": "rss",
+        "language": "Engels",
+        "readingTime": "10 mins",
+        "readingMinutes": 10,
+        "wordCount": 2389,
+        "publishedDate": "2026-02-18",
+        "savedDate": "2026-02-18T12:55:26.777000+00:00",
+        "imageUrl": "https://substackcdn.com/image/fetch/$s_!iejp!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8584b7de-9a3f-4e12-ab57-1154df04ae8f_1344x896.png",
+        "sourceUrl": "https://www.eleanorkonik.com/p/extract-value-from-the-process-layer",
+        "readwiseUrl": "https://read.readwise.io/read/01khrd3s7hysvjvgdtsh1jc8ht",
+        "summary": "Most note tools show what you know, not how you got there.  \nA context graph would track your process—reading, highlighting, linking, drafting—where the real learning lives.  \nBy unifying traces across tools and feeding results back, you can spot patterns, fix habits, and turn knowledge into action.",
+        "whyRead": "Direct relevant voor je PKM-praktijk met Obsidian en Readwise — Eleanor Konik introduceert het concept 'context graph' als uitbreiding op de kennisgraaf: niet alleen wát je weet, maar hóé je het leerde.",
+        "bestMoment": "analytisch",
+        "tags": [
+          "learning & meta-learning",
+          "technology"
         ],
         "alsoIn": [],
         "memberships": []
@@ -28881,17 +33575,17 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 23
+            "position": 27
           },
           {
             "familyId": "luchtig",
             "size": "top-10",
-            "position": 4
+            "position": 5
           },
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 4
+            "position": 5
           }
         ]
       },
@@ -29151,16 +33845,10 @@ window.TOP_ARTICLES = {
           "video-top-10"
         ],
         "alsoIn": [
-          "aaa-luchtig-top-100",
           "video-top-10",
           "video-top-100"
         ],
         "memberships": [
-          {
-            "familyId": "luchtig",
-            "size": "top-100",
-            "position": 96
-          },
           {
             "familyId": "videos",
             "size": "top-10",
@@ -29340,7 +34028,61 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 33
+            "position": 41
+          }
+        ]
+      },
+      {
+        "position": null,
+        "id": "01kf0p1x4zzc3hqf55wqyngafr",
+        "title": "On the preparations before writing an essay",
+        "author": "Henrik Karlsson",
+        "siteName": "Substack",
+        "category": "email",
+        "language": "Engels",
+        "readingTime": "8 mins",
+        "readingMinutes": 8,
+        "wordCount": 2007,
+        "publishedDate": "2026-01-15",
+        "savedDate": "2026-01-15T11:18:35.423000+00:00",
+        "imageUrl": null,
+        "sourceUrl": "mailto:reader-forwarded-email/be26eefff765a8e8d36d86b94368e5ea",
+        "readwiseUrl": "https://read.readwise.io/read/01kf0p1x4zzc3hqf55wqyngafr",
+        "summary": "- Treat essay prep like filming a doc: gather lots of rough, detailed prose before editing.\n- He mines journals, talks, quotes, and AI searches, then rapidly tests openings and stories.\n- Example and updates: one essay fused taped stories with an old Aristotle draft; there’s a fierce island storm, a planned Andalucia trip, a found Grothendieck translation, and he’s reading Magic Mountain.",
+        "whyRead": "Henrik Karlsson over de voorbereiding op essay schrijven — waardevol voor je interesse in schrijven, creativiteit en kennisverwerking.",
+        "bestMoment": "geconcentreerd",
+        "tags": [
+          "ai & machine learning",
+          "arts & culture",
+          "learning & meta-learning",
+          "light-reading"
+        ],
+        "alsoIn": [
+          "aaa-top-100",
+          "aaa-short-top-100",
+          "aaa-luchtig-top-10",
+          "aaa-luchtig-top-100"
+        ],
+        "memberships": [
+          {
+            "familyId": "algemeen",
+            "size": "top-100",
+            "position": 11
+          },
+          {
+            "familyId": "kort",
+            "size": "top-100",
+            "position": 11
+          },
+          {
+            "familyId": "luchtig",
+            "size": "top-10",
+            "position": 3
+          },
+          {
+            "familyId": "luchtig",
+            "size": "top-100",
+            "position": 3
           }
         ]
       },
@@ -29487,6 +34229,42 @@ window.TOP_ARTICLES = {
       },
       {
         "position": null,
+        "id": "01kec58fp6ep87fc5qnf8swc20",
+        "title": "Being creative requires taking risks",
+        "author": "Henrik Karlsson",
+        "siteName": "Substack",
+        "category": "email",
+        "language": "Engels",
+        "readingTime": "11 mins",
+        "readingMinutes": 11,
+        "wordCount": 2720,
+        "publishedDate": "2026-01-07",
+        "savedDate": "2026-01-07T12:00:16.582000+00:00",
+        "imageUrl": null,
+        "sourceUrl": "mailto:reader-forwarded-email/7a31935774c2366a16a2e13224dcf3da",
+        "readwiseUrl": "https://read.readwise.io/read/01kec58fp6ep87fc5qnf8swc20",
+        "summary": "People and AIs slip into “mode collapse,” repeating safe habits and losing novelty.  \nTo stay interesting, seek new input, write a lot, and accept risk even when rewards drop.  \nThe author weighs options and will try small, scary projects while still earning to pay bills.",
+        "whyRead": "Essay over creativiteit als risico-nemen — relevant voor je interesse in schrijven, persoonlijke groei en het doorbreken van middelmatigheid.",
+        "bestMoment": "geïnspireerd",
+        "tags": [
+          "arts & culture",
+          "light-reading",
+          "personal growth & life philosophy",
+          "writing & essays"
+        ],
+        "alsoIn": [
+          "aaa-luchtig-top-100"
+        ],
+        "memberships": [
+          {
+            "familyId": "luchtig",
+            "size": "top-100",
+            "position": 61
+          }
+        ]
+      },
+      {
+        "position": null,
         "id": "01ke8078ppphvc7nr28ecay5nf",
         "title": "Let a thousand societies bloom",
         "author": "eth.limo",
@@ -29516,7 +34294,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 22
+            "position": 26
           }
         ]
       },
@@ -29608,7 +34386,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 63
+            "position": 71
           },
           {
             "familyId": "nederlands",
@@ -29623,7 +34401,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 29
+            "position": 32
           },
           {
             "familyId": "kort-nederlands",
@@ -29698,22 +34476,22 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-10",
-            "position": 8
+            "position": 10
           },
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 8
+            "position": 10
           },
           {
             "familyId": "kort",
             "size": "top-10",
-            "position": 8
+            "position": 10
           },
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 8
+            "position": 10
           }
         ]
       },
@@ -29748,12 +34526,12 @@ window.TOP_ARTICLES = {
           {
             "familyId": "nederlands",
             "size": "top-10",
-            "position": 9
+            "position": 10
           },
           {
             "familyId": "nederlands",
             "size": "top-100",
-            "position": 9
+            "position": 10
           }
         ]
       },
@@ -29960,12 +34738,12 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 62
+            "position": 70
           },
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 28
+            "position": 31
           }
         ]
       },
@@ -30069,12 +34847,12 @@ window.TOP_ARTICLES = {
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 80
+            "position": 93
           },
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 32
+            "position": 40
           }
         ]
       },
@@ -30108,7 +34886,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 21
+            "position": 25
           }
         ]
       },
@@ -30178,7 +34956,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 59
+            "position": 78
           }
         ]
       },
@@ -30213,12 +34991,12 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 61
+            "position": 69
           },
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 27
+            "position": 30
           }
         ]
       },
@@ -30253,7 +35031,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 79
+            "position": 92
           }
         ]
       },
@@ -30290,12 +35068,12 @@ window.TOP_ARTICLES = {
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 78
+            "position": 91
           },
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 31
+            "position": 39
           }
         ]
       },
@@ -30331,7 +35109,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 58
+            "position": 77
           }
         ]
       },
@@ -30485,22 +35263,22 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-10",
-            "position": 7
+            "position": 9
           },
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 7
+            "position": 9
           },
           {
             "familyId": "kort",
             "size": "top-10",
-            "position": 7
+            "position": 9
           },
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 7
+            "position": 9
           }
         ]
       },
@@ -30530,19 +35308,13 @@ window.TOP_ARTICLES = {
           "parenting & care"
         ],
         "alsoIn": [
-          "aaa-short-top-100",
           "aaa-luchtig-top-100"
         ],
         "memberships": [
           {
-            "familyId": "kort",
-            "size": "top-100",
-            "position": 91
-          },
-          {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 40
+            "position": 50
           }
         ]
       },
@@ -30691,7 +35463,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 20
+            "position": 24
           }
         ]
       },
@@ -30727,7 +35499,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 57
+            "position": 76
           }
         ]
       },
@@ -30763,7 +35535,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 56
+            "position": 75
           }
         ]
       },
@@ -30801,22 +35573,22 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-10",
-            "position": 6
+            "position": 8
           },
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 6
+            "position": 8
           },
           {
             "familyId": "kort",
             "size": "top-10",
-            "position": 6
+            "position": 8
           },
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 6
+            "position": 8
           }
         ]
       },
@@ -30850,7 +35622,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "nederlands",
             "size": "top-100",
-            "position": 22
+            "position": 28
           }
         ]
       },
@@ -30911,7 +35683,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 77
+            "position": 90
           }
         ]
       },
@@ -31001,7 +35773,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 30
+            "position": 38
           }
         ]
       },
@@ -31090,7 +35862,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 19
+            "position": 23
           }
         ]
       },
@@ -31209,17 +35981,17 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 60
+            "position": 68
           },
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 26
+            "position": 29
           },
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 14
+            "position": 15
           }
         ]
       },
@@ -31248,16 +36020,8 @@ window.TOP_ARTICLES = {
           "learning & meta-learning",
           "light-reading"
         ],
-        "alsoIn": [
-          "aaa-luchtig-top-100"
-        ],
-        "memberships": [
-          {
-            "familyId": "luchtig",
-            "size": "top-100",
-            "position": 92
-          }
-        ]
+        "alsoIn": [],
+        "memberships": []
       },
       {
         "position": null,
@@ -31285,6 +36049,42 @@ window.TOP_ARTICLES = {
         ],
         "alsoIn": [],
         "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01k8b4z89x7bjhpp69rbbemnet",
+        "title": "Tales from Toddlerhood",
+        "author": "Tim Urban",
+        "siteName": "Wait But Why",
+        "category": "article",
+        "language": "Engels",
+        "readingTime": "6 mins",
+        "readingMinutes": 6,
+        "wordCount": 1550,
+        "publishedDate": "2025-10-24",
+        "savedDate": "2025-10-24T13:01:48.734000+00:00",
+        "imageUrl": "https://waitbutwhy.com/wp-content/uploads/2025/10/FEATURE-FB.png",
+        "sourceUrl": "https://waitbutwhy.com/2025/10/toddler.html?utm_source=convertkit&utm_medium=email&utm_campaign=NEW+POST%3A+Tales+from+Toddlerhood+-+19453225",
+        "readwiseUrl": "https://read.readwise.io/read/01k8b4z89x7bjhpp69rbbemnet",
+        "summary": "Tim Urban describes the weird, joyful, and exhausting reality of living with a toddler. Toddlers are brilliant and baffling, selfish and funny, and they reshape your days in small, unpredictable ways. His parenting approach is simple: spend focused time, encourage curiosity, and don’t sweat perfection.",
+        "whyRead": "Tim Urban (Wait But Why) keert terug na 2,5 jaar zwijgen – persoonlijk en verrassend teer.",
+        "bestMoment": "reflectief",
+        "tags": [
+          "arts & culture",
+          "light-reading",
+          "personal growth & life philosophy",
+          "urbanism & mobility"
+        ],
+        "alsoIn": [
+          "aaa-luchtig-top-100"
+        ],
+        "memberships": [
+          {
+            "familyId": "luchtig",
+            "size": "top-100",
+            "position": 74
+          }
+        ]
       },
       {
         "position": null,
@@ -31322,6 +36122,59 @@ window.TOP_ARTICLES = {
       },
       {
         "position": null,
+        "id": "01k88qtghw02svtk5dsdk9cye7",
+        "title": "🎓 When Perseverance Gets People Pointlessly Killed",
+        "author": "Eleanor Konik",
+        "siteName": "Manuscriptions",
+        "category": "rss",
+        "language": "Engels",
+        "readingTime": "11 mins",
+        "readingMinutes": 11,
+        "wordCount": 2816,
+        "publishedDate": "2025-10-23",
+        "savedDate": "2025-10-23T14:33:29.988000+00:00",
+        "imageUrl": "https://substack-post-media.s3.amazonaws.com/public/images/71df29bd-abdd-4b53-9412-6ab131c9b51d_1344x896.png",
+        "sourceUrl": "https://www.eleanorkonik.com/p/when-perseverance-gets-people-killed",
+        "readwiseUrl": "https://read.readwise.io/read/01k88qtghw02svtk5dsdk9cye7",
+        "summary": "Britain’s Navy kidnapped sailors and even frail veterans to crew HMS Wager for a risky treasure hunt. Leaders refused to quit, mistaking stubbornness for courage despite clear warnings. The result was starvation, chaos, and needless death—a lesson to stop doomed plans.",
+        "whyRead": "Over HMS Wager en wanneer doorzetten mensen zinloos doodt – scherpe les over quitting.",
+        "bestMoment": "analytisch",
+        "tags": [
+          "behavioral psychology & coaching",
+          "history"
+        ],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01k88fp60409w7wsaz01a69vq4",
+        "title": "When is better to think without words?",
+        "author": "Henrik Karlsson",
+        "siteName": "Substack",
+        "category": "email",
+        "language": "Engels",
+        "readingTime": "11 mins",
+        "readingMinutes": 11,
+        "wordCount": 2763,
+        "publishedDate": "2025-10-23",
+        "savedDate": "2025-10-23T12:11:22.500000+00:00",
+        "imageUrl": null,
+        "sourceUrl": "mailto:reader-forwarded-email/6a97a837d5ede80a6c0febe94b10f291",
+        "readwiseUrl": "https://read.readwise.io/read/01k88fp60409w7wsaz01a69vq4",
+        "summary": "Many experts solve hard problems using vague, wordless thoughts.  \nThis mode is fast and rich but error-prone, while writing slows you down, exposes gaps, and builds solid steps.  \nBest is to switch modes: explore wordlessly, then write to test, refine, and remember.",
+        "whyRead": "Over wanneer denken zonder woorden beter werkt – relevant voor creatief en intuitief denken.",
+        "bestMoment": "reflectief",
+        "tags": [
+          "learning & meta-learning",
+          "philosophy",
+          "programming & software"
+        ],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
         "id": "01k80nvw2z9d40qq24hveszqrw",
         "title": "De hel van het gelijke",
         "author": "Marian Donner",
@@ -31346,7 +36199,6 @@ window.TOP_ARTICLES = {
         ],
         "alsoIn": [
           "aaa-dutch-top-100",
-          "aaa-luchtig-top-100",
           "aaa-luchtig-nederlands-top-10",
           "aaa-luchtig-nederlands-top-100"
         ],
@@ -31354,22 +36206,17 @@ window.TOP_ARTICLES = {
           {
             "familyId": "nederlands",
             "size": "top-100",
-            "position": 21
-          },
-          {
-            "familyId": "luchtig",
-            "size": "top-100",
-            "position": 76
+            "position": 27
           },
           {
             "familyId": "luchtig-nederlands",
             "size": "top-10",
-            "position": 2
+            "position": 8
           },
           {
             "familyId": "luchtig-nederlands",
             "size": "top-100",
-            "position": 2
+            "position": 8
           }
         ]
       },
@@ -31408,7 +36255,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 29
+            "position": 37
           },
           {
             "familyId": "videos",
@@ -31481,12 +36328,12 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 59
+            "position": 67
           },
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 25
+            "position": 28
           }
         ]
       },
@@ -31549,7 +36396,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 55
+            "position": 73
           }
         ]
       },
@@ -31585,7 +36432,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 48
+            "position": 60
           }
         ]
       },
@@ -31682,12 +36529,12 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 58
+            "position": 66
           },
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 24
+            "position": 27
           }
         ]
       },
@@ -31725,17 +36572,17 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 57
+            "position": 65
           },
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 23
+            "position": 26
           },
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 13
+            "position": 14
           }
         ]
       },
@@ -31772,12 +36619,12 @@ window.TOP_ARTICLES = {
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 76
+            "position": 89
           },
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 28
+            "position": 36
           }
         ]
       },
@@ -31837,7 +36684,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "nederlands",
             "size": "top-100",
-            "position": 20
+            "position": 26
           }
         ]
       },
@@ -31929,22 +36776,22 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-10",
-            "position": 5
+            "position": 7
           },
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 5
+            "position": 7
           },
           {
             "familyId": "kort",
             "size": "top-10",
-            "position": 5
+            "position": 7
           },
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 5
+            "position": 7
           }
         ]
       },
@@ -31982,22 +36829,22 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-10",
-            "position": 4
+            "position": 6
           },
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 4
+            "position": 6
           },
           {
             "familyId": "kort",
             "size": "top-10",
-            "position": 4
+            "position": 6
           },
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 4
+            "position": 6
           }
         ]
       },
@@ -32110,7 +36957,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 74
+            "position": 87
           }
         ]
       },
@@ -32200,12 +37047,12 @@ window.TOP_ARTICLES = {
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 73
+            "position": 86
           },
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 27
+            "position": 35
           }
         ]
       },
@@ -32295,12 +37142,12 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 56
+            "position": 64
           },
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 22
+            "position": 25
           }
         ]
       },
@@ -32338,22 +37185,22 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-10",
-            "position": 3
+            "position": 5
           },
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 3
+            "position": 5
           },
           {
             "familyId": "kort",
             "size": "top-10",
-            "position": 3
+            "position": 5
           },
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 3
+            "position": 5
           }
         ]
       },
@@ -32441,7 +37288,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 72
+            "position": 85
           }
         ]
       },
@@ -32497,16 +37344,8 @@ window.TOP_ARTICLES = {
           "philosophy",
           "popular science"
         ],
-        "alsoIn": [
-          "aaa-luchtig-top-100"
-        ],
-        "memberships": [
-          {
-            "familyId": "luchtig",
-            "size": "top-100",
-            "position": 75
-          }
-        ]
+        "alsoIn": [],
+        "memberships": []
       },
       {
         "position": null,
@@ -32532,16 +37371,8 @@ window.TOP_ARTICLES = {
           "light-reading",
           "philosophy"
         ],
-        "alsoIn": [
-          "aaa-luchtig-top-100"
-        ],
-        "memberships": [
-          {
-            "familyId": "luchtig",
-            "size": "top-100",
-            "position": 74
-          }
-        ]
+        "alsoIn": [],
+        "memberships": []
       },
       {
         "position": null,
@@ -32627,7 +37458,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 75
+            "position": 88
           }
         ]
       },
@@ -32663,14 +37494,39 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 55
+            "position": 63
           },
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 21
+            "position": 24
           }
         ]
+      },
+      {
+        "position": null,
+        "id": "01k72qwtwgewmnhakeak5q21jb",
+        "title": "How I read",
+        "author": "Henrik Karlsson",
+        "siteName": "henrikkarlsson.xyz",
+        "category": "article",
+        "language": "Engels",
+        "readingTime": "11 mins",
+        "readingMinutes": 11,
+        "wordCount": 2682,
+        "publishedDate": "2025-10-01",
+        "savedDate": "2025-10-08T20:23:40.688000+00:00",
+        "imageUrl": "https://substackcdn.com/image/fetch/$s_!UC1-!,w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F0139428e-197d-4ddd-9b98-87b3ca62ed07_1072x1637.webp",
+        "sourceUrl": "https://www.henrikkarlsson.xyz/p/how-i-read?lli=1&utm_source=%2Finbox%2Fsaved&utm_medium=reader2",
+        "readwiseUrl": "https://read.readwise.io/read/01k72qwtwgewmnhakeak5q21jb",
+        "summary": "Henrik Karlsson describes two reading modes: pleasure reading and \"chasing\" reading, where you read to answer a specific question and be transformed.  \nChasing means choosing few books worth deep thinking, taking notes, and connecting ideas across authors and time.  \nBuilding reading stamina and sometimes using tools (like LLMs) lets you tackle harder books and steadily change how you think.",
+        "whyRead": "Raakt je interesse in PKM en zelfgestuurd leren: Karlsson behandelt lezen als een actieve praktijk die je denken daadwerkelijk herstructureert. Zijn essay combineert scherpe heuristieken met een overtuigende, essayistische kijk op selectie, aandacht en verwerking.",
+        "bestMoment": "leergierig",
+        "tags": [
+          "learning & meta-learning"
+        ],
+        "alsoIn": [],
+        "memberships": []
       },
       {
         "position": null,
@@ -32703,7 +37559,42 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 18
+            "position": 22
+          }
+        ]
+      },
+      {
+        "position": null,
+        "id": "01k722dxfn8b3bkt741xrmf0a2",
+        "title": "📚 Neat Stuff I Read in September 2025",
+        "author": "Eleanor Konik",
+        "siteName": "Manuscriptions",
+        "category": "rss",
+        "language": "Engels",
+        "readingTime": "8 mins",
+        "readingMinutes": 8,
+        "wordCount": 2098,
+        "publishedDate": "2025-10-08",
+        "savedDate": "2025-10-08T14:08:28.734000+00:00",
+        "imageUrl": "https://substack-post-media.s3.amazonaws.com/public/images/d1074b72-8427-4f61-8a4b-609fe74fd6cd_1344x896.png",
+        "sourceUrl": "https://www.eleanorkonik.com/p/neat-stuff-i-read-in-september-2025",
+        "readwiseUrl": "https://read.readwise.io/read/01k722dxfn8b3bkt741xrmf0a2",
+        "summary": "Eleanor Konik shares interesting reads from September 2025 that inspired her stories and drawings. Topics include self-improvement, psychology, history, and books about science and culture. She hopes readers find something useful and invites them to share their own favorite reads.",
+        "whyRead": "Maandelijks leesoverzicht september 2025 — wat iemand las en wat eruit sprong.",
+        "bestMoment": "ontspannen",
+        "tags": [
+          "arts & culture",
+          "learning & meta-learning",
+          "light-reading"
+        ],
+        "alsoIn": [
+          "aaa-luchtig-top-100"
+        ],
+        "memberships": [
+          {
+            "familyId": "luchtig",
+            "size": "top-100",
+            "position": 72
           }
         ]
       },
@@ -32725,6 +37616,31 @@ window.TOP_ARTICLES = {
         "readwiseUrl": "https://read.readwise.io/read/01k6tkhw3brdgtmvkr57x8vvdw",
         "summary": "Henrik Karlsson describes \"chasing\" reading: reading with a question to transform your thinking. He selects few books deeply, thinks hard about them, and takes notes to integrate ideas. Reading is a skill built with steady practice and focused effort.",
         "whyRead": "Raakt je interesse in leren, PKM en zelfgestuurd denken. Karlsson biedt geen leeslijst maar een veeleisend, concreet model voor lezen als onderzoek: vragen najagen, perspectieven laten botsen en de opbrengst actief verwerken.",
+        "bestMoment": "leergierig",
+        "tags": [
+          "learning & meta-learning"
+        ],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01k6fz5rsg2srv5tpaxg4nwz0y",
+        "title": "🌲 The Konik Method for Organizing Electronic Notes",
+        "author": "Eleanor Konik",
+        "siteName": "Obsidian Iceberg",
+        "category": "rss",
+        "language": "Engels",
+        "readingTime": "13 mins",
+        "readingMinutes": 13,
+        "wordCount": 3347,
+        "publishedDate": "2025-10-01",
+        "savedDate": "2025-10-01T13:25:16.281000+00:00",
+        "imageUrl": "https://substack-post-media.s3.amazonaws.com/public/images/b4cd435c-33e5-4bee-a3b6-453007052344_1344x896.png",
+        "sourceUrl": "https://www.eleanorkonik.com/p/the-konik-method-for-organizing-electronic",
+        "readwiseUrl": "https://read.readwise.io/read/01k6fz5rsg2srv5tpaxg4nwz0y",
+        "summary": "Eleanor Konik updates her simple note-taking method using AI to organize and summarize long reading materials. She collects key insights while reading and uses AI tools to create clear, actionable summaries. This process helps her manage large notes efficiently and write better content.",
+        "whyRead": "De Konik-methode voor elektronische notities — tijdloos systeem voor kennisorganisatie.",
         "bestMoment": "leergierig",
         "tags": [
           "learning & meta-learning"
@@ -33069,12 +37985,12 @@ window.TOP_ARTICLES = {
           {
             "familyId": "nederlands",
             "size": "top-10",
-            "position": 8
+            "position": 9
           },
           {
             "familyId": "nederlands",
             "size": "top-100",
-            "position": 8
+            "position": 9
           }
         ]
       },
@@ -33198,7 +38114,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 54
+            "position": 71
           }
         ]
       },
@@ -33236,17 +38152,17 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 54
+            "position": 62
           },
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 20
+            "position": 23
           },
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 12
+            "position": 13
           }
         ]
       },
@@ -33308,7 +38224,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 17
+            "position": 21
           }
         ]
       },
@@ -33344,7 +38260,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 47
+            "position": 59
           }
         ]
       },
@@ -33379,7 +38295,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 53
+            "position": 61
           }
         ]
       },
@@ -33416,12 +38332,12 @@ window.TOP_ARTICLES = {
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 71
+            "position": 84
           },
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 26
+            "position": 34
           }
         ]
       },
@@ -33449,16 +38365,8 @@ window.TOP_ARTICLES = {
           "light-reading",
           "sociology & inequality"
         ],
-        "alsoIn": [
-          "aaa-luchtig-top-100"
-        ],
-        "memberships": [
-          {
-            "familyId": "luchtig",
-            "size": "top-100",
-            "position": 73
-          }
-        ]
+        "alsoIn": [],
+        "memberships": []
       },
       {
         "position": null,
@@ -33495,7 +38403,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 52
+            "position": 60
           },
           {
             "familyId": "nederlands",
@@ -33510,7 +38418,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 19
+            "position": 22
           },
           {
             "familyId": "kort-nederlands",
@@ -33582,12 +38490,12 @@ window.TOP_ARTICLES = {
           {
             "familyId": "nederlands",
             "size": "top-10",
-            "position": 7
+            "position": 8
           },
           {
             "familyId": "nederlands",
             "size": "top-100",
-            "position": 7
+            "position": 8
           }
         ]
       },
@@ -33736,7 +38644,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 70
+            "position": 83
           }
         ]
       },
@@ -34021,14 +38929,41 @@ window.TOP_ARTICLES = {
           "programming & software",
           "sociology & inequality"
         ],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01jkh2yf7hahdnt87t68w0f1f5",
+        "title": "On shortcuts and longcuts",
+        "author": "Henrik Karlsson",
+        "siteName": "henrikkarlsson.xyz",
+        "category": "article",
+        "language": "Engels",
+        "readingTime": "5 mins",
+        "readingMinutes": 5,
+        "wordCount": 1134,
+        "publishedDate": "2024-05-07",
+        "savedDate": "2025-02-07T20:52:13.766000+00:00",
+        "imageUrl": "https://substackcdn.com/image/fetch/w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F4d208cc5-4f81-46ea-980a-3212b7bde5e5_1024x939.png",
+        "sourceUrl": "https://www.henrikkarlsson.xyz/p/on-shortcuts-and-longcuts?r=1r0y5d&utm_medium=ios&triedRedirect=true",
+        "readwiseUrl": "https://read.readwise.io/read/01jkh2yf7hahdnt87t68w0f1f5",
+        "summary": "The author discusses the idea of creating \"longcuts\" in design and writing to encourage exploration and deeper experiences, rather than simply paving shortcuts for convenience. By making paths that lead to overlooked areas, people can discover beauty and engage in meaningful activities. This approach can transform how individuals perceive their relationships and surroundings, fostering a richer connection to the world.",
+        "whyRead": "Raakt essay schrijven, leren en levensfilosofie. Karlsson draait de gebruikelijke efficiëntielogica om: waardevol werk leidt je niet sneller naar een bekend doel, maar maakt een omweg begaanbaar waar je anders nooit zou komen.",
+        "bestMoment": "geïnspireerd",
+        "tags": [
+          "learning & meta-learning",
+          "personal growth & life philosophy",
+          "writing & essays"
+        ],
         "alsoIn": [
-          "aaa-luchtig-top-100"
+          "aaa-short-top-100"
         ],
         "memberships": [
           {
-            "familyId": "luchtig",
+            "familyId": "kort",
             "size": "top-100",
-            "position": 72
+            "position": 82
           }
         ]
       },
@@ -34117,7 +39052,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 16
+            "position": 20
           }
         ]
       },
@@ -34152,7 +39087,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 69
+            "position": 81
           }
         ]
       },
@@ -34189,12 +39124,54 @@ window.TOP_ARTICLES = {
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 68
+            "position": 80
           },
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 25
+            "position": 33
+          }
+        ]
+      },
+      {
+        "position": null,
+        "id": "01jkgy1x7yacy66ys284ddq8yw",
+        "title": "Why do most popular science books suck?",
+        "author": "Erik Hoel",
+        "siteName": "theintrinsicperspective.com",
+        "category": "article",
+        "language": "Engels",
+        "readingTime": "7 mins",
+        "readingMinutes": 7,
+        "wordCount": 1818,
+        "publishedDate": "2021-09-22",
+        "savedDate": "2025-02-07T19:26:43.967000+00:00",
+        "imageUrl": "https://substackcdn.com/image/fetch/w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fc302a864-c554-42d2-b720-eac132f97fa1_642x583.png",
+        "sourceUrl": "https://www.theintrinsicperspective.com/p/why-do-most-popular-science-books",
+        "readwiseUrl": "https://read.readwise.io/read/01jkgy1x7yacy66ys284ddq8yw",
+        "summary": "Most popular science books are often unoriginal and overhyped, lacking fresh ideas or true excitement. The author argues that the best nonfiction books tend to be written by amateurs who explore ideas outside traditional academic boundaries. Embracing a playful and interdisciplinary approach can lead to more engaging and meaningful science writing.",
+        "whyRead": "Waarom de meeste populairwetenschappelijke boeken tegenvallen — een scherpe analyse.",
+        "bestMoment": "kritisch",
+        "tags": [
+          "arts & culture",
+          "learning & meta-learning",
+          "light-reading",
+          "writing & essays"
+        ],
+        "alsoIn": [
+          "aaa-short-top-100",
+          "aaa-luchtig-top-100"
+        ],
+        "memberships": [
+          {
+            "familyId": "kort",
+            "size": "top-100",
+            "position": 79
+          },
+          {
+            "familyId": "luchtig",
+            "size": "top-100",
+            "position": 32
           }
         ]
       },
@@ -34229,12 +39206,12 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 51
+            "position": 59
           },
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 18
+            "position": 21
           }
         ]
       },
@@ -34305,12 +39282,12 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 50
+            "position": 58
           },
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 17
+            "position": 20
           }
         ]
       },
@@ -34447,12 +39424,12 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 49
+            "position": 57
           },
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 16
+            "position": 19
           }
         ]
       },
@@ -34518,6 +39495,42 @@ window.TOP_ARTICLES = {
       },
       {
         "position": null,
+        "id": "01j6w5apk81pg023z5m7xd6v5b",
+        "title": "Mihai Rosca's Reviews > King, Warrior, Magician, Lover: Rediscovering the Archetypes of the Mature Masculine",
+        "author": "Robert L. Moore",
+        "siteName": "goodreads.com",
+        "category": "article",
+        "language": "Engels",
+        "readingTime": "8 mins",
+        "readingMinutes": 8,
+        "wordCount": 1899,
+        "publishedDate": "2020-03-15",
+        "savedDate": "2024-09-03T14:41:27.144000+00:00",
+        "imageUrl": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1384259565i/91781._UY630_SR1200,630_.jpg",
+        "sourceUrl": "https://www.goodreads.com/review/show/1743322065",
+        "readwiseUrl": "https://read.readwise.io/read/01j6w5apk81pg023z5m7xd6v5b",
+        "summary": "Mihai Rosca enjoyed \"King, Warrior, Magician, Lover,\" a book by Robert L. Moore that explores archetypes of mature masculinity. He found it insightful for understanding behaviors and inner struggles through archetypes like the King and the Lover. The book emphasizes the importance of integrating these archetypes to realize one's potential and lead a fulfilling life.",
+        "whyRead": "Raakt je interesse in filosofie en persoonlijke ontwikkeling — Jungiaanse mannelijke archetypen als lens op volwassenheid en psychologische rijping.",
+        "bestMoment": "reflectief",
+        "tags": [
+          "arts & culture",
+          "light-reading",
+          "personal growth & life philosophy",
+          "philosophy"
+        ],
+        "alsoIn": [
+          "aaa-luchtig-top-100"
+        ],
+        "memberships": [
+          {
+            "familyId": "luchtig",
+            "size": "top-100",
+            "position": 70
+          }
+        ]
+      },
+      {
+        "position": null,
         "id": "01j6q1n1v6s769rr1vxcs8ztd1",
         "title": "How to Live on 24 Hours a Day",
         "author": "Arnold Bennett",
@@ -34547,6 +39560,41 @@ window.TOP_ARTICLES = {
             "familyId": "boeken",
             "size": "top-100",
             "position": 37
+          }
+        ]
+      },
+      {
+        "position": null,
+        "id": "01j6ft003zzdp1gdw7j9qc1dnr",
+        "title": "🌲 The Value of Consistent Naming Conventions\n🌲 The Value of Consistent Naming Conventions",
+        "author": "Eleanor Konik",
+        "siteName": "Obsidian Iceberg",
+        "category": "article",
+        "language": "Engels",
+        "readingTime": "5 mins",
+        "readingMinutes": 5,
+        "wordCount": 1292,
+        "publishedDate": "2022-02-17",
+        "savedDate": "2024-08-29T19:32:28.929000+00:00",
+        "imageUrl": "https://substackcdn.com/image/fetch/w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ffd03db18-7828-4dff-8d94-83260be7d3e1_2000x1335.jpeg",
+        "sourceUrl": "https://www.eleanorkonik.com/consistent-naming/",
+        "readwiseUrl": "https://read.readwise.io/read/01j6ft003zzdp1gdw7j9qc1dnr",
+        "summary": "Naming conventions are essential for organizing files efficiently and quickly accessing information. They provide valuable context about a file's content before it is opened. Leveraging naming conventions can enhance personal knowledge management and improve sensemaking.",
+        "whyRead": "Raakt je interesse in PKM en kennisbeheer — waarom consistente naamgeving in je notitiesysteem zorgt voor betere terugvindbaarheid en verbindingen.",
+        "bestMoment": "leergierig",
+        "tags": [
+          "learning & meta-learning",
+          "personal growth & life philosophy",
+          "pkm & note-taking"
+        ],
+        "alsoIn": [
+          "aaa-short-top-100"
+        ],
+        "memberships": [
+          {
+            "familyId": "kort",
+            "size": "top-100",
+            "position": 78
           }
         ]
       },
@@ -34616,12 +39664,48 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 48
+            "position": 56
           },
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 15
+            "position": 18
+          }
+        ]
+      },
+      {
+        "position": null,
+        "id": "01j60ew3kgknk776nphjxvz9ph",
+        "title": "Envy: the Vestige of a Miserable World",
+        "author": "Brian Chau",
+        "siteName": "fromthenew.world",
+        "category": "article",
+        "language": "Engels",
+        "readingTime": "4 mins",
+        "readingMinutes": 4,
+        "wordCount": 1000,
+        "publishedDate": null,
+        "savedDate": "2024-08-23T20:29:30.609000+00:00",
+        "imageUrl": "https://substackcdn.com/image/fetch/w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F86417932-853a-47df-b5c6-ec2f990371de_663x1000.jpeg",
+        "sourceUrl": "https://www.fromthenew.world/p/the-morality-of-envy-is-a-remnant",
+        "readwiseUrl": "https://read.readwise.io/read/01j60ew3kgknk776nphjxvz9ph",
+        "summary": "The book \"Hierarchy in the Forest\" by Christopher Boehm explores the evolution of egalitarianism in human societies and contrasts it with hierarchical structures seen in chimps. Boehm argues that true egalitarianism involves a unique form of hierarchy based on anti-hierarchical sentiments. The book also delves into the concept of humiliation rituals in both ancient and modern societies, shedding light on the darker aspects of enforced equality.",
+        "whyRead": "Raakt je interesse in filosofie en sociologie — een provocatieve recensie van Christopher Boehm's 'Hierarchy in the Forest' over de evolutie van egalitarisme.",
+        "bestMoment": "analytisch",
+        "tags": [
+          "arts & culture",
+          "light-reading",
+          "philosophy",
+          "sociology & inequality"
+        ],
+        "alsoIn": [
+          "aaa-luchtig-top-100"
+        ],
+        "memberships": [
+          {
+            "familyId": "luchtig",
+            "size": "top-100",
+            "position": 58
           }
         ]
       },
@@ -34657,7 +39741,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 53
+            "position": 69
           }
         ]
       },
@@ -34694,6 +39778,86 @@ window.TOP_ARTICLES = {
             "position": 35
           }
         ]
+      },
+      {
+        "position": null,
+        "id": "01j5b8c9ze5tvy3xr8axp67j8v",
+        "title": "🌲 Prompt engineering gave me empathy for my bosses",
+        "author": "Eleanor Konik",
+        "siteName": "Obsidian Iceberg",
+        "category": "article",
+        "language": "Engels",
+        "readingTime": "8 mins",
+        "readingMinutes": 8,
+        "wordCount": 1980,
+        "publishedDate": null,
+        "savedDate": "2024-08-15T14:51:58.319000+00:00",
+        "imageUrl": "https://substackcdn.com/image/fetch/w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F001c216a-1d58-4012-be52-2d2093793ea1_2688x1792.png",
+        "sourceUrl": "https://www.eleanorkonik.com/p/prompt-engineering-gave-me-empathy",
+        "readwiseUrl": "https://read.readwise.io/read/01j5b8c9ze5tvy3xr8axp67j8v",
+        "summary": "Prompt engineering helped the author improve communication with bosses by focusing on concise and impactful messaging. By understanding and addressing feedback, the author enhanced their conversational patterns and empathy towards others. Utilizing large language models for communication refinement highlighted the importance of clear, direct communication to convey key information effectively.",
+        "whyRead": "Raakt je interesse in PKM, AI en schrijven — Eleanor Konik (kwaliteitscontrole bij Readwise) ontdekt hoe prompt engineering haar inzicht geeft in hoe managers omgaan met communicatiepatronen.",
+        "bestMoment": "reflectief",
+        "tags": [
+          "ai & machine learning",
+          "learning & meta-learning",
+          "programming & software"
+        ],
+        "alsoIn": [
+          "aaa-top-10",
+          "aaa-top-100",
+          "aaa-short-top-10",
+          "aaa-short-top-100"
+        ],
+        "memberships": [
+          {
+            "familyId": "algemeen",
+            "size": "top-10",
+            "position": 4
+          },
+          {
+            "familyId": "algemeen",
+            "size": "top-100",
+            "position": 4
+          },
+          {
+            "familyId": "kort",
+            "size": "top-10",
+            "position": 4
+          },
+          {
+            "familyId": "kort",
+            "size": "top-100",
+            "position": 4
+          }
+        ]
+      },
+      {
+        "position": null,
+        "id": "01j5b8562r7tgbzdtp838byce2",
+        "title": "📚 Thinking rigorously, with tools, lists, & agency",
+        "author": "Eleanor Konik",
+        "siteName": "Obsidian Iceberg",
+        "category": "article",
+        "language": "Engels",
+        "readingTime": "3 mins",
+        "readingMinutes": 3,
+        "wordCount": 694,
+        "publishedDate": null,
+        "savedDate": "2024-08-15T14:48:04.953000+00:00",
+        "imageUrl": "https://substackcdn.com/image/fetch/w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F266e4f66-6529-48f1-b590-4a4ce06a8381_1344x896.png",
+        "sourceUrl": "https://www.eleanorkonik.com/p/thinking-rigorously-with-tools-lists",
+        "readwiseUrl": "https://read.readwise.io/read/01j5b8562r7tgbzdtp838byce2",
+        "summary": "The text discusses the author's recent readings on problem-solving, AI tools, and centaurs. It also touches on the importance of rigorous thinking and the author's reflections on changing careers. Lastly, it mentions recommendations for useful tools and the author's interest in discovering more insightful readings.",
+        "whyRead": "Raakt je interesse in PKM en leren — Eleanor Konik's reading roundup met micro-reviews over kennisuitbesteding, rigoreus denken, AI-tools en — verrassend hoogtepunt — wat centauren ons leren over systems thinking.",
+        "bestMoment": "ontspannen",
+        "tags": [
+          "ai & machine learning",
+          "learning & meta-learning",
+          "programming & software"
+        ],
+        "alsoIn": [],
+        "memberships": []
       },
       {
         "position": null,
@@ -34794,6 +39958,48 @@ window.TOP_ARTICLES = {
             "familyId": "boeken",
             "size": "top-100",
             "position": 32
+          }
+        ]
+      },
+      {
+        "position": null,
+        "id": "01j421m304fbn5rwfh0a9bpzp3",
+        "title": "Fear as a Game",
+        "author": "Cheri Lucas Rowlands",
+        "siteName": "Longreads",
+        "category": "article",
+        "language": "Engels",
+        "readingTime": "2 mins",
+        "readingMinutes": 2,
+        "wordCount": 322,
+        "publishedDate": "2024-07-29",
+        "savedDate": "2024-07-30T14:45:01.572000+00:00",
+        "imageUrl": "",
+        "sourceUrl": "https://longreads.com/2024/07/29/fear-as-a-game/?mc_cid=0ae1072586",
+        "readwiseUrl": "https://read.readwise.io/read/01j421m304fbn5rwfh0a9bpzp3",
+        "summary": "The essay \"Fear as a Game\" by Elisa Gabbert explores why some people enjoy thrilling and risky experiences, like roller coasters and scary movies. Gabbert reflects on her own fear of heights and distinguishes between anxiety and fear, noting that fear can be activating while anxiety often leads to paralysis. She wonders if experiencing fear from a distance could be beneficial, as it allows us to confront real threats without immediate danger.",
+        "whyRead": "Raakt je interesse in essays met een persoonlijke stem — Elisa Gabbert reflecteert over angst, spel en luxe-angst als filosofisch fenomeen.",
+        "bestMoment": "reflectief",
+        "tags": [
+          "arts & culture",
+          "light-reading",
+          "personal growth & life philosophy",
+          "writing & essays"
+        ],
+        "alsoIn": [
+          "aaa-short-top-100",
+          "aaa-luchtig-top-100"
+        ],
+        "memberships": [
+          {
+            "familyId": "kort",
+            "size": "top-100",
+            "position": 77
+          },
+          {
+            "familyId": "luchtig",
+            "size": "top-100",
+            "position": 31
           }
         ]
       },
@@ -35046,6 +40252,103 @@ window.TOP_ARTICLES = {
             "position": 48
           }
         ]
+      },
+      {
+        "position": null,
+        "id": "01j2dfzgeq6ee7txhr651dabe4",
+        "title": "🌲 A Personal Take on Using LLMs",
+        "author": "Eleanor Konik",
+        "siteName": "engineerscodex.com",
+        "category": "article",
+        "language": "Engels",
+        "readingTime": "10 mins",
+        "readingMinutes": 10,
+        "wordCount": 2451,
+        "publishedDate": null,
+        "savedDate": "2024-07-10T04:56:10.967000+00:00",
+        "imageUrl": "https://substackcdn.com/image/fetch/w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1c269199-2d8a-4d11-8a38-fec09ad6eac2_1344x896.png",
+        "sourceUrl": "https://email.mg-d1.substack.com/c/eJxs0M2u2yAQBeCnMTtbwxhss2DRTV7DGszcBAWDy0-jvH2lVFW7uOvRnPPpHNT4nsvb1iMXHh1V9mO_KscovJ2Ng-1YBFu5ImilUSvBJ4W43zlxocZ-p_bvOuNqxMMapb7UaiSykYvGGTYwBOgWoHXWG4tgEVDBCkauUkmc5unwbibUgKuaN6N5esj0U6seBgXnffRyqt3VRsdzOvIpQt2_Cn8stpXOItpHa1cd5h8D3ga8vV6viSNTyuWZU_h8DXi7BrzReHGpOVEcGz15zGnsNaT7GONZxdXdfuTz7Cm0986JXGT_p-PqLoaDWshpD95Ksyq5baLYv7RBQZNQpxRF7c7nk0Ky_ytE-27pXrl8AkFvC8CixS-LvwMAAP__k1KGAQ",
+        "readwiseUrl": "https://read.readwise.io/read/01j2dfzgeq6ee7txhr651dabe4",
+        "summary": "The author shares their experience using AI tools for writing and research, including summarizing sources and generating story ideas for children. They find AI suggestions helpful for staying focused and motivated in writing, but note limitations in longform writing and prose quality. Overall, the author highlights the usefulness of AI tools for specific tasks like summarization and generating targeted content.",
+        "whyRead": "Raakt je interesse in AI en PKM; een eerlijke persoonlijke reflectie op LLM-gebruik met nuance over wat ze goed en slecht doen.",
+        "bestMoment": "ontspannen",
+        "tags": [
+          "ai & machine learning",
+          "ai ethics & society",
+          "learning & meta-learning"
+        ],
+        "alsoIn": [
+          "aaa-top-100"
+        ],
+        "memberships": [
+          {
+            "familyId": "algemeen",
+            "size": "top-100",
+            "position": 19
+          }
+        ]
+      },
+      {
+        "position": null,
+        "id": "01j2dfz6ypvj2efevyamk72ga3",
+        "title": "🌲 Takeaways on efficiency, passive learning, & optimization",
+        "author": "Eleanor Konik",
+        "siteName": "engineerscodex.com",
+        "category": "article",
+        "language": "Engels",
+        "readingTime": "7 mins",
+        "readingMinutes": 7,
+        "wordCount": 1661,
+        "publishedDate": null,
+        "savedDate": "2024-07-10T04:56:01.238000+00:00",
+        "imageUrl": "https://substackcdn.com/image/fetch/w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fbd4126e3-19b2-459d-bc38-a3762eae05f4_1344x896.png",
+        "sourceUrl": "https://email.mg-d1.substack.com/c/eJxs0E0O2yAQBeDTmJ0t_rEXLLrJNawBJgkKBpefRL59pVRVu-h6NO99eh46Pkq9bPOl4uygYZjH2TAlEqzYHF29JmiZ4VRJxZUkeEBM-wMzVugYduh_r4KbjTwtDUEYCt5rA3eNmiojtg2oBqGVkY5EyymX1NCNGSYZX8TigxPAFeVGinVTuDxZ_qnkiJOkx2MObGnDtQ7-tfhykNj2e8WvxfY6kCT77P1sk_gx8dvEb5_PZ8GEkEt9lRy_XxO_nRO_dXghfOBqc8kz3u_RR8z-mk9oLb5xTgg1x_wg53C7L8cxcuzXjhlcwvC77hwuRQ89lrzHYNlmJFtXUu0f5SRpZ7QtOZE2XCgHxGz_BZH-v9FHw_oNpGrVlGpF3pb_CgAA__8XNIui",
+        "readwiseUrl": "https://read.readwise.io/read/01j2dfz6ypvj2efevyamk72ga3",
+        "summary": "The text discusses the importance of efficiency, passive learning, and optimization in personal productivity and note-taking methods. The author emphasizes the value of learning passively, front-loading knowledge, and optimizing note-taking processes to suit individual needs and goals. It also highlights the idea that notes should focus on storing valuable insights and information that may not be easily found through online searches.",
+        "whyRead": "Raakt je interesse in PKM; een persoonlijke reflectie die de obsessie met systemen relativeert en echt beschrijft hoe een werkend systeem eruitziet.",
+        "bestMoment": "reflectief",
+        "tags": [
+          "learning & meta-learning",
+          "pkm & note-taking",
+          "tools & workflows"
+        ],
+        "alsoIn": [
+          "aaa-short-top-100"
+        ],
+        "memberships": [
+          {
+            "familyId": "kort",
+            "size": "top-100",
+            "position": 76
+          }
+        ]
+      },
+      {
+        "position": null,
+        "id": "01j2dfyynr1192t9ynbygt6h02",
+        "title": "🌲The Konik Method for Making Useful Notes",
+        "author": "Eleanor Konik",
+        "siteName": "engineerscodex.com",
+        "category": "article",
+        "language": "Engels",
+        "readingTime": "27 mins",
+        "readingMinutes": 27,
+        "wordCount": 6950,
+        "publishedDate": null,
+        "savedDate": "2024-07-10T04:55:52.760000+00:00",
+        "imageUrl": "https://substackcdn.com/image/fetch/w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F84d2d635-fad2-486e-b5ca-6e3e62863da7_2000x1287.jpeg",
+        "sourceUrl": "https://email.mg-d1.substack.com/c/eJxskLuu3CAYhJ_GdLbgNxi7oEizr2Fx-Vmj5eJwyeq8faSNoqQ47Yxm5tNY3fFZ6pdqtlScjW7o5nE3jJE4tR6G7nYjqJgEKrgAwQkmHeL5xIxVd3Sn7v_cFeRBLiX9Loz1uK1eeAS_79YzlHYDt1ngkgQFFDiV9GCScQbLulhnVg2CguTrfghcLpZ_Cj7CxGl6zo4tbZjWtX0ttiQS2ukrflhUrwNJVFfvd5vWHxM8Jni83-8FI-pc6qvk8ElN8LgnePQL5482J-xXcbMvdU76FfJzzqVjI_cwpy0pjRz614lZm4juz849TAxW91DyGZxih-Rs30lVf_EmTjujbcmRtGFcSTpk9T8J6d-9PRrWTyEV-0bpJsgvBb8DAAD__wDFiWc",
+        "readwiseUrl": "https://read.readwise.io/read/01j2dfyynr1192t9ynbygt6h02",
+        "summary": "Eleanor Konik shares her method for making and using useful notes, which involves jotting down key information from conversations and meetings and later refining them for easy reference. She emphasizes the importance of creating logs and indexes to organize information for quick access when needed. Konik also utilizes tools like Readwise to save insightful content for later review and integrates her highlights and annotations to streamline her note-taking process.",
+        "whyRead": "Raakt je interesse in PKM en Obsidian; de meest complete beschrijving van Koniks werkstroom, inclusief Readwise-integratie en \"Zettelizer\" script.",
+        "bestMoment": "leergierig",
+        "tags": [
+          "learning & meta-learning",
+          "pkm & note-taking",
+          "tools & workflows"
+        ],
+        "alsoIn": [],
+        "memberships": []
       },
       {
         "position": null,
@@ -36297,6 +41600,59 @@ window.TOP_ARTICLES = {
       },
       {
         "position": null,
+        "id": "01hzvrj5se18gb9dy70r9hcq2f",
+        "title": "🌲 When computers are less efficient than analog methods",
+        "author": "Eleanor Konik",
+        "siteName": "Obsidian Iceberg",
+        "category": "article",
+        "language": "Engels",
+        "readingTime": "7 mins",
+        "readingMinutes": 7,
+        "wordCount": 1754,
+        "publishedDate": null,
+        "savedDate": "2024-06-08T11:08:27.823000+00:00",
+        "imageUrl": "https://substackcdn.com/image/fetch/w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F148b9806-e16e-4471-af99-3e72c20af244_1344x896.png",
+        "sourceUrl": "https://www.eleanorkonik.com/p/when-computers-are-less-efficient?utm_source=post-email-title&publication_id=1974188&post_id=145140035&utm_campaign=email-post-title&isFreemail=true&r=1r0y5d&triedRedirect=true&utm_medium=email",
+        "readwiseUrl": "https://read.readwise.io/read/01hzvrj5se18gb9dy70r9hcq2f",
+        "summary": "Analog notetaking methods, like bullet journals and paper trackers, can be more effective and less distracting than using computers, especially in certain situations like meetings and personal organization. While digital tools offer many benefits, analog methods can provide a focused, efficient way to manage tasks and track important information without the distractions of technology. Embracing analog approaches, such as writing on paper, can be practical, mindful, and even beneficial for mental well-being in a world filled with digital distractions.",
+        "whyRead": "Raakt je interesse in PKM en kennisbeheer — een nuchtere, eerlijke verdediging van analoge methoden (bullet journals) zonder evangelisme, vanuit echte use cases.",
+        "bestMoment": "ontspannen",
+        "tags": [
+          "learning & meta-learning",
+          "personal growth & life philosophy",
+          "pkm & note-taking"
+        ],
+        "alsoIn": [
+          "aaa-top-10",
+          "aaa-top-100",
+          "aaa-short-top-10",
+          "aaa-short-top-100"
+        ],
+        "memberships": [
+          {
+            "familyId": "algemeen",
+            "size": "top-10",
+            "position": 3
+          },
+          {
+            "familyId": "algemeen",
+            "size": "top-100",
+            "position": 3
+          },
+          {
+            "familyId": "kort",
+            "size": "top-10",
+            "position": 3
+          },
+          {
+            "familyId": "kort",
+            "size": "top-100",
+            "position": 3
+          }
+        ]
+      },
+      {
+        "position": null,
         "id": "01hz9sx57zhs6famn519gxxtne",
         "title": "📚 Advice from Parenting Books, for Everyone",
         "author": "Eleanor Konik",
@@ -36353,7 +41709,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 67
+            "position": 75
           }
         ]
       },
@@ -36422,6 +41778,42 @@ window.TOP_ARTICLES = {
             "position": 1
           }
         ]
+      },
+      {
+        "position": null,
+        "id": "01hv97p0qv2rsh6attfeq439nj",
+        "title": "Working in Public",
+        "author": "Awesome.",
+        "siteName": "Chris Coyier",
+        "category": "article",
+        "language": null,
+        "readingTime": "4 mins",
+        "readingMinutes": 4,
+        "wordCount": 899,
+        "publishedDate": "2012-09-23",
+        "savedDate": "2024-04-12T13:24:20.860000+00:00",
+        "imageUrl": "data:image/svg+xml,👨‍💻",
+        "sourceUrl": "https://chriscoyier.net/2012/09/23/working-in-public/",
+        "readwiseUrl": "https://read.readwise.io/read/01hv97p0qv2rsh6attfeq439nj",
+        "summary": "The text discusses the concept of \"working in public,\" which involves sharing insights and processes related to one's work in a public or open manner. The author shares their own experiences with this idea, such as recording screencasts and redesigning a website publicly. Various examples are provided, including recording conversations, time-lapse videos of work processes, and public music performances. The text also explores the authenticity of working in public and the potential for creating a platform to showcase such examples. Additionally, it touches on the appeal of watching others work in different fields and the value of gaining insight into their processes.",
+        "whyRead": "Raakt je interesse in schrijfcraft en vakmanschap — Chris Coyier's essayistische verkenning van het concept 'werken in het openbaar'.",
+        "bestMoment": "reflectief",
+        "tags": [
+          "arts & culture",
+          "business & work",
+          "light-reading",
+          "writing & essays"
+        ],
+        "alsoIn": [
+          "aaa-luchtig-top-100"
+        ],
+        "memberships": [
+          {
+            "familyId": "luchtig",
+            "size": "top-100",
+            "position": 68
+          }
+        ]
       }
     ]
   },
@@ -36441,118 +41833,118 @@ window.TOP_ARTICLES = {
           "position": 2
         },
         {
+          "id": "01hzvrj5se18gb9dy70r9hcq2f",
+          "title": "🌲 When computers are less efficient than analog methods",
+          "position": 3
+        },
+        {
+          "id": "01j5b8c9ze5tvy3xr8axp67j8v",
+          "title": "🌲 Prompt engineering gave me empathy for my bosses",
+          "position": 4
+        },
+        {
           "id": "01k7j6h8fj3ck0twxcq6abjm9v",
           "title": "4 Books to Self-Study Political Philosophy (as a Beginner)",
-          "position": 3
+          "position": 5
         },
         {
           "id": "01k7pn06k2e9msrrk7d0c39bn6",
           "title": "Why & how I take reading notes by hand",
-          "position": 4
+          "position": 6
         },
         {
           "id": "01k7pn0gythp69p15376f659gx",
           "title": "Interdisciplinary Deep Reads: Using 1 Classic Novel to Self-Study Multiple Humanities",
-          "position": 5
+          "position": 7
         },
         {
           "id": "01kadvkbmp8yd44q125hyw9nrz",
           "title": "The paradox is that when I accept myself just as I am, I change",
-          "position": 6
+          "position": 8
         },
         {
           "id": "01kbfj8h0ds5fz6sa9b7vdeh3n",
           "title": "Just and loving seeing",
-          "position": 7
+          "position": 9
         },
         {
           "id": "01kd1cae7sbstaj4vhva4dsbxr",
           "title": "The Work Of Art In The Age Of Mechanical Reproduction",
-          "position": 8
+          "position": 10
         },
         {
           "id": "01kdanxpg3e3pp8stwtmfr7p79",
           "title": "Taking your education into your own hands",
-          "position": 9
+          "position": 11
+        },
+        {
+          "id": "01kf0p1x4zzc3hqf55wqyngafr",
+          "title": "On the preparations before writing an essay",
+          "position": 12
         },
         {
           "id": "01khxyazzfph3etb69en1bhzgw",
           "title": "Stop Meeting Students Where They Are",
-          "position": 10
+          "position": 13
         },
         {
           "id": "01kmdth41cmczffw0kk28vchct",
           "title": "Differently free",
-          "position": 11
+          "position": 14
         },
         {
           "id": "01krm2x81z150qk5a5y9mezss5",
           "title": "How to Prioritize Your Intellectual Life",
-          "position": 12
+          "position": 15
         },
         {
           "id": "01ks96dy2nfby7cyd152ev2a9k",
           "title": "Bureaucracy Isn't Broken. That's the Problem.",
-          "position": 13
+          "position": 16
         },
         {
           "id": "01kst1g8cff3ab77qteg0q834j",
           "title": "‘Metrics create hermeneutical injustice'",
-          "position": 14
+          "position": 17
         },
         {
           "id": "01kysnmckrgernh72bvvz2eprz",
           "title": "Minister van Digitale Zaken: hoe het kan werken",
-          "position": 15
+          "position": 18
         },
         {
           "id": "01kyxyqrfvk85easc927qpwtns",
           "title": "The Ones Who Walk Away From Omelas",
-          "position": 16
+          "position": 19
         },
         {
           "id": "01khr5h2d75yj0yt1v6seck4nt",
           "title": "On the compulsion to make art",
-          "position": 17
+          "position": 20
         },
         {
           "id": "01kmbp17grppjmpxqfsq4z3zy7",
           "title": "Sucker",
-          "position": 18
+          "position": 21
         },
         {
           "id": "01kqqh8gp2nh0d0c859h61yths",
           "title": "The Society of the Spectacle",
-          "position": 19
+          "position": 22
         },
         {
           "id": "01kysnkmqq07z6nwe6wtvhtkxy",
           "title": "Data en de Democratische Rechtsorde",
-          "position": 20
+          "position": 23
         },
         {
           "id": "01kyxa2yd57szp13ha57708606",
           "title": "Your Book Review: The Epic Of Gilgamesh",
-          "position": 21
+          "position": 24
         },
         {
           "id": "01m059szgmq8b5egbkgk1xe1rd",
           "title": "Arthur Koestler",
-          "position": 22
-        },
-        {
-          "id": "01m059v21gaqg3ya0m36r03km4",
-          "title": "Politics and the English Language",
-          "position": 23
-        },
-        {
-          "id": "01m059v4r9jj9vzx30nn7cs3sr",
-          "title": "Politics vs. Literature: An examination of Gulliver’s Travels",
-          "position": 24
-        },
-        {
-          "id": "01m03b0vhwd52bhh3rdjhdafv2",
-          "title": "Why I Write",
           "position": 25
         }
       ]
@@ -36662,28 +42054,28 @@ window.TOP_ARTICLES = {
           "position": 20
         },
         {
+          "id": "01m0f295dxr46cfakg2cev3c1d",
+          "title": "The Scientist Who Lived with Dozens of Children from the Pacific Islands | The New Yorker",
+          "position": 21
+        },
+        {
+          "id": "01m0f5thx0x9f1rpdvj5r64m3m",
+          "title": "Meditations On Moloch",
+          "position": 22
+        },
+        {
+          "id": "01m0f7mwvh8ay32g66bb7rfsaj",
+          "title": "Who Was Friedrich Nietzsche? His Life And Works",
+          "position": 23
+        },
+        {
           "id": "01kt72hwt9asrzwwx70ybxyabe",
           "title": "How Love Became Just Another Thing to Optimize",
-          "position": 21
+          "position": 24
         },
         {
           "id": "01kvarejkjdc6y2cjp2d0ewgkd",
           "title": "The Desecration of Man - Say No to Nietzsche",
-          "position": 22
-        },
-        {
-          "id": "01kvh7ec1tezr2vy9bqgsm6an4",
-          "title": "Is There a Science of Writing?",
-          "position": 23
-        },
-        {
-          "id": "01kvjbgrqsftb77gs496c0p12t",
-          "title": "If the First Apocalypse Doesn’t Get You, the Second One Will",
-          "position": 24
-        },
-        {
-          "id": "01kvtqy4rffwdb1t73t37netda",
-          "title": "Antwoorden op vragen die niet gesteld worden",
           "position": 25
         }
       ]
@@ -36763,58 +42155,58 @@ window.TOP_ARTICLES = {
           "position": 14
         },
         {
+          "id": "01m0f5thx0x9f1rpdvj5r64m3m",
+          "title": "Meditations On Moloch",
+          "position": 15
+        },
+        {
           "id": "01j8s9z9xg4shgce5z167zc7fn",
           "title": "📰 Food as Currency - by Eleanor Konik - Manuscriptions\n📰 Food as Currency",
-          "position": 15
+          "position": 16
         },
         {
           "id": "01jjmt3derk62gvm51m286870b",
           "title": "🎓 On Famines: why and how they happen. To who?",
-          "position": 16
+          "position": 17
         },
         {
           "id": "01k7qbgbanjkbvetnkfd47vkrz",
           "title": "How I wrote \"Looking for Alice\"",
-          "position": 17
+          "position": 18
         },
         {
           "id": "01k7qbgpmxd9gskhw16jx5b8yk",
           "title": "Popular education in Sweden: much more than you wanted to know",
-          "position": 18
+          "position": 19
         },
         {
           "id": "01krn1jdcn6b450yv1z0j92tz3",
           "title": "The Radical Sunzi",
-          "position": 19
+          "position": 20
         },
         {
           "id": "01kxy1qnae4npandc4x9mv4aw0",
           "title": "To Understand Elon Musk, You Have to Understand This ’60s Sci-Fi Novel",
-          "position": 20
+          "position": 21
         },
         {
           "id": "01ky7qe9p9qwtpk49bzc4pqqhk",
           "title": "Normal Accidents: Living with High-Risk Technologies",
-          "position": 21
+          "position": 22
         },
         {
           "id": "01m059t4kq0fgjsx21x28nbdqk",
           "title": "Freedom and Happiness (Review of ‘We’ by Yevgeny Zamyatin)",
-          "position": 22
+          "position": 23
         },
         {
           "id": "01m059t7cjgvc214sac3e4z08x",
           "title": "Freedom of the Park",
-          "position": 23
+          "position": 24
         },
         {
           "id": "01m059thh2ytr4v45ebz778hxw",
           "title": "In Front of Your Nose",
-          "position": 24
-        },
-        {
-          "id": "01m059tpnqyq5yy3kq6xrmf1v5",
-          "title": "My Country Right or Left",
           "position": 25
         }
       ]

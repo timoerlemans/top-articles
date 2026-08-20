@@ -1,9 +1,1309 @@
 // Automatisch gegenereerd door scripts/build-data.mjs — niet handmatig bewerken.
 window.TOP_ARTICLE_PRIORITY = {
-  "generatedAt": "2026-08-20T06:39:47.271Z",
+  "generatedAt": "2026-08-20T16:19:29.545Z",
   "model": "readwise-priority-v3",
   "scope": "later",
   "items": {
+    "01m0f8xm0wprsekah2acf4fx7j": {
+      "baseScore": 55,
+      "adjustment": 0,
+      "adjustmentReason": null,
+      "score": 55,
+      "tier": "midden",
+      "components": {
+        "kerninteresse": 30,
+        "diepgang": 10,
+        "persoonlijke_bruikbaarheid": 10,
+        "leeskans": 0,
+        "onderscheidende_duurzame_waarde": 5,
+        "aftrek": 0
+      },
+      "rationale": {
+        "kerninteresse": [
+          "Eén kerndomein: filosofie."
+        ],
+        "diepgang": [
+          "3.601 woorden."
+        ],
+        "persoonlijke_bruikbaarheid": [
+          "Indirect bruikbaar via een kerndomein."
+        ],
+        "leeskans": [],
+        "onderscheidende_duurzame_waarde": [
+          "Minstens 1.200 woorden."
+        ],
+        "aftrek": []
+      },
+      "sequences": [
+        "lees"
+      ],
+      "positions": {
+        "lees": 432
+      },
+      "actualPositions": {
+        "lees": 432
+      }
+    },
+    "01m0f8xjnf41tb5r5q6pywfkje": {
+      "baseScore": 55,
+      "adjustment": 0,
+      "adjustmentReason": null,
+      "score": 55,
+      "tier": "midden",
+      "components": {
+        "kerninteresse": 30,
+        "diepgang": 10,
+        "persoonlijke_bruikbaarheid": 10,
+        "leeskans": 0,
+        "onderscheidende_duurzame_waarde": 5,
+        "aftrek": 0
+      },
+      "rationale": {
+        "kerninteresse": [
+          "Eén kerndomein: filosofie."
+        ],
+        "diepgang": [
+          "3.340 woorden."
+        ],
+        "persoonlijke_bruikbaarheid": [
+          "Indirect bruikbaar via een kerndomein."
+        ],
+        "leeskans": [],
+        "onderscheidende_duurzame_waarde": [
+          "Minstens 1.200 woorden."
+        ],
+        "aftrek": []
+      },
+      "sequences": [
+        "lees"
+      ],
+      "positions": {
+        "lees": 431
+      },
+      "actualPositions": {
+        "lees": 431
+      }
+    },
+    "01m0f8xgfgrxrp4peeznqsnnz7": {
+      "baseScore": 60,
+      "adjustment": 0,
+      "adjustmentReason": null,
+      "score": 60,
+      "tier": "midden",
+      "components": {
+        "kerninteresse": 30,
+        "diepgang": 10,
+        "persoonlijke_bruikbaarheid": 10,
+        "leeskans": 5,
+        "onderscheidende_duurzame_waarde": 5,
+        "aftrek": 0
+      },
+      "rationale": {
+        "kerninteresse": [
+          "Eén kerndomein: filosofie."
+        ],
+        "diepgang": [
+          "2.348 woorden."
+        ],
+        "persoonlijke_bruikbaarheid": [
+          "Indirect bruikbaar via een kerndomein."
+        ],
+        "leeskans": [
+          "Korte leestijd: 9 minuten."
+        ],
+        "onderscheidende_duurzame_waarde": [
+          "Minstens 1.200 woorden."
+        ],
+        "aftrek": []
+      },
+      "sequences": [
+        "lees",
+        "short"
+      ],
+      "positions": {
+        "lees": 345,
+        "short": 210
+      },
+      "actualPositions": {
+        "lees": 345,
+        "short": 210
+      }
+    },
+    "01m0f7n644wg7rjzghc836t9ad": {
+      "baseScore": 55,
+      "adjustment": 0,
+      "adjustmentReason": null,
+      "score": 55,
+      "tier": "midden",
+      "components": {
+        "kerninteresse": 30,
+        "diepgang": 10,
+        "persoonlijke_bruikbaarheid": 10,
+        "leeskans": 0,
+        "onderscheidende_duurzame_waarde": 5,
+        "aftrek": 0
+      },
+      "rationale": {
+        "kerninteresse": [
+          "Eén kerndomein: filosofie."
+        ],
+        "diepgang": [
+          "3.149 woorden."
+        ],
+        "persoonlijke_bruikbaarheid": [
+          "Indirect bruikbaar via een kerndomein."
+        ],
+        "leeskans": [],
+        "onderscheidende_duurzame_waarde": [
+          "Minstens 1.200 woorden."
+        ],
+        "aftrek": []
+      },
+      "sequences": [
+        "lees"
+      ],
+      "positions": {
+        "lees": 430
+      },
+      "actualPositions": {
+        "lees": 430
+      }
+    },
+    "01m0f7n54g084vrq9cwa4veha9": {
+      "baseScore": 55,
+      "adjustment": 0,
+      "adjustmentReason": null,
+      "score": 55,
+      "tier": "midden",
+      "components": {
+        "kerninteresse": 30,
+        "diepgang": 10,
+        "persoonlijke_bruikbaarheid": 10,
+        "leeskans": 0,
+        "onderscheidende_duurzame_waarde": 5,
+        "aftrek": 0
+      },
+      "rationale": {
+        "kerninteresse": [
+          "Eén kerndomein: filosofie."
+        ],
+        "diepgang": [
+          "3.394 woorden."
+        ],
+        "persoonlijke_bruikbaarheid": [
+          "Indirect bruikbaar via een kerndomein."
+        ],
+        "leeskans": [],
+        "onderscheidende_duurzame_waarde": [
+          "Minstens 1.200 woorden."
+        ],
+        "aftrek": []
+      },
+      "sequences": [
+        "lees"
+      ],
+      "positions": {
+        "lees": 429
+      },
+      "actualPositions": {
+        "lees": 429
+      }
+    },
+    "01m0f7n30c9arq8kzsb4g7dq58": {
+      "baseScore": 55,
+      "adjustment": 0,
+      "adjustmentReason": null,
+      "score": 55,
+      "tier": "midden",
+      "components": {
+        "kerninteresse": 30,
+        "diepgang": 10,
+        "persoonlijke_bruikbaarheid": 10,
+        "leeskans": 0,
+        "onderscheidende_duurzame_waarde": 5,
+        "aftrek": 0
+      },
+      "rationale": {
+        "kerninteresse": [
+          "Eén kerndomein: filosofie."
+        ],
+        "diepgang": [
+          "4.379 woorden."
+        ],
+        "persoonlijke_bruikbaarheid": [
+          "Indirect bruikbaar via een kerndomein."
+        ],
+        "leeskans": [],
+        "onderscheidende_duurzame_waarde": [
+          "Minstens 1.200 woorden."
+        ],
+        "aftrek": []
+      },
+      "sequences": [
+        "lees"
+      ],
+      "positions": {
+        "lees": 428
+      },
+      "actualPositions": {
+        "lees": 428
+      }
+    },
+    "01m0f7n1vtpf6kh2stzqy55h8a": {
+      "baseScore": 60,
+      "adjustment": 0,
+      "adjustmentReason": null,
+      "score": 60,
+      "tier": "midden",
+      "components": {
+        "kerninteresse": 30,
+        "diepgang": 10,
+        "persoonlijke_bruikbaarheid": 10,
+        "leeskans": 5,
+        "onderscheidende_duurzame_waarde": 5,
+        "aftrek": 0
+      },
+      "rationale": {
+        "kerninteresse": [
+          "Eén kerndomein: filosofie."
+        ],
+        "diepgang": [
+          "1.558 woorden."
+        ],
+        "persoonlijke_bruikbaarheid": [
+          "Indirect bruikbaar via een kerndomein."
+        ],
+        "leeskans": [
+          "Korte leestijd: 6 minuten."
+        ],
+        "onderscheidende_duurzame_waarde": [
+          "Minstens 1.200 woorden."
+        ],
+        "aftrek": []
+      },
+      "sequences": [
+        "lees",
+        "short"
+      ],
+      "positions": {
+        "lees": 344,
+        "short": 209
+      },
+      "actualPositions": {
+        "lees": 344,
+        "short": 209
+      }
+    },
+    "01m0f7mzdbtp4sa5541apkzewk": {
+      "baseScore": 55,
+      "adjustment": 0,
+      "adjustmentReason": null,
+      "score": 55,
+      "tier": "midden",
+      "components": {
+        "kerninteresse": 30,
+        "diepgang": 10,
+        "persoonlijke_bruikbaarheid": 10,
+        "leeskans": 0,
+        "onderscheidende_duurzame_waarde": 5,
+        "aftrek": 0
+      },
+      "rationale": {
+        "kerninteresse": [
+          "Eén kerndomein: filosofie."
+        ],
+        "diepgang": [
+          "2.952 woorden."
+        ],
+        "persoonlijke_bruikbaarheid": [
+          "Indirect bruikbaar via een kerndomein."
+        ],
+        "leeskans": [],
+        "onderscheidende_duurzame_waarde": [
+          "Minstens 1.200 woorden."
+        ],
+        "aftrek": []
+      },
+      "sequences": [
+        "lees"
+      ],
+      "positions": {
+        "lees": 427
+      },
+      "actualPositions": {
+        "lees": 427
+      }
+    },
+    "01m0f7my4hnsxedrnasyh8q2av": {
+      "baseScore": 50,
+      "adjustment": 0,
+      "adjustmentReason": null,
+      "score": 50,
+      "tier": "midden",
+      "components": {
+        "kerninteresse": 30,
+        "diepgang": 0,
+        "persoonlijke_bruikbaarheid": 10,
+        "leeskans": 5,
+        "onderscheidende_duurzame_waarde": 5,
+        "aftrek": 0
+      },
+      "rationale": {
+        "kerninteresse": [
+          "Eén kerndomein: filosofie."
+        ],
+        "diepgang": [],
+        "persoonlijke_bruikbaarheid": [
+          "Indirect bruikbaar via een kerndomein."
+        ],
+        "leeskans": [
+          "Korte leestijd: 3 minuten."
+        ],
+        "onderscheidende_duurzame_waarde": [
+          "Aansluiting bij een kerndomein."
+        ],
+        "aftrek": []
+      },
+      "sequences": [
+        "lees",
+        "short"
+      ],
+      "positions": {
+        "lees": 473,
+        "short": 245
+      },
+      "actualPositions": {
+        "lees": 473,
+        "short": 245
+      }
+    },
+    "01m0f7mwvh8ay32g66bb7rfsaj": {
+      "baseScore": 80,
+      "adjustment": 0,
+      "adjustmentReason": null,
+      "score": 80,
+      "tier": "hoog",
+      "components": {
+        "kerninteresse": 45,
+        "diepgang": 10,
+        "persoonlijke_bruikbaarheid": 20,
+        "leeskans": 0,
+        "onderscheidende_duurzame_waarde": 5,
+        "aftrek": 0
+      },
+      "rationale": {
+        "kerninteresse": [
+          "Minstens twee kerndomeinen: filosofie, geschiedenis."
+        ],
+        "diepgang": [
+          "3.567 woorden."
+        ],
+        "persoonlijke_bruikbaarheid": [
+          "Waarom lezen noemt: werk."
+        ],
+        "leeskans": [],
+        "onderscheidende_duurzame_waarde": [
+          "Minstens 1.200 woorden."
+        ],
+        "aftrek": []
+      },
+      "sequences": [
+        "lees"
+      ],
+      "positions": {
+        "lees": 55
+      },
+      "actualPositions": {
+        "lees": 55
+      }
+    },
+    "01m0f7mvnryfzw7jn517zpadtz": {
+      "baseScore": 60,
+      "adjustment": 0,
+      "adjustmentReason": null,
+      "score": 60,
+      "tier": "midden",
+      "components": {
+        "kerninteresse": 30,
+        "diepgang": 10,
+        "persoonlijke_bruikbaarheid": 10,
+        "leeskans": 5,
+        "onderscheidende_duurzame_waarde": 5,
+        "aftrek": 0
+      },
+      "rationale": {
+        "kerninteresse": [
+          "Eén kerndomein: filosofie."
+        ],
+        "diepgang": [
+          "1.457 woorden."
+        ],
+        "persoonlijke_bruikbaarheid": [
+          "Indirect bruikbaar via een kerndomein."
+        ],
+        "leeskans": [
+          "Korte leestijd: 6 minuten."
+        ],
+        "onderscheidende_duurzame_waarde": [
+          "Minstens 1.200 woorden."
+        ],
+        "aftrek": []
+      },
+      "sequences": [
+        "lees",
+        "short"
+      ],
+      "positions": {
+        "lees": 343,
+        "short": 208
+      },
+      "actualPositions": {
+        "lees": 343,
+        "short": 208
+      }
+    },
+    "01m0f7mt8jz6b1bgmxcp0bpqk0": {
+      "baseScore": 50,
+      "adjustment": 0,
+      "adjustmentReason": null,
+      "score": 50,
+      "tier": "midden",
+      "components": {
+        "kerninteresse": 30,
+        "diepgang": 0,
+        "persoonlijke_bruikbaarheid": 10,
+        "leeskans": 5,
+        "onderscheidende_duurzame_waarde": 5,
+        "aftrek": 0
+      },
+      "rationale": {
+        "kerninteresse": [
+          "Eén kerndomein: filosofie."
+        ],
+        "diepgang": [],
+        "persoonlijke_bruikbaarheid": [
+          "Indirect bruikbaar via een kerndomein."
+        ],
+        "leeskans": [
+          "Korte leestijd: 5 minuten."
+        ],
+        "onderscheidende_duurzame_waarde": [
+          "Aansluiting bij een kerndomein."
+        ],
+        "aftrek": []
+      },
+      "sequences": [
+        "lees",
+        "short"
+      ],
+      "positions": {
+        "lees": 472,
+        "short": 244
+      },
+      "actualPositions": {
+        "lees": 472,
+        "short": 244
+      }
+    },
+    "01m0f7mr3d4nt8zxpgk4859aw8": {
+      "baseScore": 55,
+      "adjustment": 0,
+      "adjustmentReason": null,
+      "score": 55,
+      "tier": "midden",
+      "components": {
+        "kerninteresse": 30,
+        "diepgang": 10,
+        "persoonlijke_bruikbaarheid": 10,
+        "leeskans": 0,
+        "onderscheidende_duurzame_waarde": 5,
+        "aftrek": 0
+      },
+      "rationale": {
+        "kerninteresse": [
+          "Eén kerndomein: filosofie."
+        ],
+        "diepgang": [
+          "4.924 woorden."
+        ],
+        "persoonlijke_bruikbaarheid": [
+          "Indirect bruikbaar via een kerndomein."
+        ],
+        "leeskans": [],
+        "onderscheidende_duurzame_waarde": [
+          "Minstens 1.200 woorden."
+        ],
+        "aftrek": []
+      },
+      "sequences": [
+        "lees"
+      ],
+      "positions": {
+        "lees": 426
+      },
+      "actualPositions": {
+        "lees": 426
+      }
+    },
+    "01m0f63b282v5tc5yajbtgwann": {
+      "baseScore": 55,
+      "adjustment": 0,
+      "adjustmentReason": null,
+      "score": 55,
+      "tier": "midden",
+      "components": {
+        "kerninteresse": 30,
+        "diepgang": 10,
+        "persoonlijke_bruikbaarheid": 10,
+        "leeskans": 0,
+        "onderscheidende_duurzame_waarde": 5,
+        "aftrek": 0
+      },
+      "rationale": {
+        "kerninteresse": [
+          "Eén kerndomein: filosofie."
+        ],
+        "diepgang": [
+          "2.521 woorden."
+        ],
+        "persoonlijke_bruikbaarheid": [
+          "Indirect bruikbaar via een kerndomein."
+        ],
+        "leeskans": [],
+        "onderscheidende_duurzame_waarde": [
+          "Minstens 1.200 woorden."
+        ],
+        "aftrek": []
+      },
+      "sequences": [
+        "lees"
+      ],
+      "positions": {
+        "lees": 425
+      },
+      "actualPositions": {
+        "lees": 425
+      }
+    },
+    "01m0f5thx0x9f1rpdvj5r64m3m": {
+      "baseScore": 80,
+      "adjustment": 0,
+      "adjustmentReason": null,
+      "score": 80,
+      "tier": "hoog",
+      "components": {
+        "kerninteresse": 45,
+        "diepgang": 20,
+        "persoonlijke_bruikbaarheid": 10,
+        "leeskans": 0,
+        "onderscheidende_duurzame_waarde": 5,
+        "aftrek": 0
+      },
+      "rationale": {
+        "kerninteresse": [
+          "Minstens twee kerndomeinen: filosofie, ideologie."
+        ],
+        "diepgang": [
+          "14.313 woorden."
+        ],
+        "persoonlijke_bruikbaarheid": [
+          "Indirect bruikbaar via een kerndomein."
+        ],
+        "leeskans": [],
+        "onderscheidende_duurzame_waarde": [
+          "Minstens 1.200 woorden."
+        ],
+        "aftrek": []
+      },
+      "sequences": [
+        "lees"
+      ],
+      "positions": {
+        "lees": 54
+      },
+      "actualPositions": {
+        "lees": 54
+      }
+    },
+    "01m0f29ch1s56e1xcc8fjkq8q2": {
+      "baseScore": 75,
+      "adjustment": 0,
+      "adjustmentReason": null,
+      "score": 75,
+      "tier": "hoog",
+      "components": {
+        "kerninteresse": 45,
+        "diepgang": 10,
+        "persoonlijke_bruikbaarheid": 10,
+        "leeskans": 5,
+        "onderscheidende_duurzame_waarde": 5,
+        "aftrek": 0
+      },
+      "rationale": {
+        "kerninteresse": [
+          "Minstens twee kerndomeinen: filosofie, schrijven."
+        ],
+        "diepgang": [
+          "1.564 woorden."
+        ],
+        "persoonlijke_bruikbaarheid": [
+          "Indirect bruikbaar via een kerndomein."
+        ],
+        "leeskans": [
+          "Korte leestijd: 6 minuten."
+        ],
+        "onderscheidende_duurzame_waarde": [
+          "Minstens 1.200 woorden."
+        ],
+        "aftrek": []
+      },
+      "sequences": [
+        "lees",
+        "short"
+      ],
+      "positions": {
+        "lees": 118,
+        "short": 74
+      },
+      "actualPositions": {
+        "lees": 118,
+        "short": 74
+      }
+    },
+    "01m0f29bh8tbrbeqsqaw55spr4": {
+      "baseScore": 60,
+      "adjustment": 0,
+      "adjustmentReason": null,
+      "score": 60,
+      "tier": "midden",
+      "components": {
+        "kerninteresse": 30,
+        "diepgang": 10,
+        "persoonlijke_bruikbaarheid": 10,
+        "leeskans": 5,
+        "onderscheidende_duurzame_waarde": 5,
+        "aftrek": 0
+      },
+      "rationale": {
+        "kerninteresse": [
+          "Eén kerndomein: sociologie."
+        ],
+        "diepgang": [
+          "2.094 woorden."
+        ],
+        "persoonlijke_bruikbaarheid": [
+          "Indirect bruikbaar via een kerndomein."
+        ],
+        "leeskans": [
+          "Korte leestijd: 8 minuten."
+        ],
+        "onderscheidende_duurzame_waarde": [
+          "Minstens 1.200 woorden."
+        ],
+        "aftrek": []
+      },
+      "sequences": [
+        "lees",
+        "short"
+      ],
+      "positions": {
+        "lees": 342,
+        "short": 207
+      },
+      "actualPositions": {
+        "lees": 342,
+        "short": 207
+      }
+    },
+    "01m0f2994rt6gmm80h9g6s9fny": {
+      "baseScore": 70,
+      "adjustment": 0,
+      "adjustmentReason": null,
+      "score": 70,
+      "tier": "hoog",
+      "components": {
+        "kerninteresse": 45,
+        "diepgang": 10,
+        "persoonlijke_bruikbaarheid": 10,
+        "leeskans": 0,
+        "onderscheidende_duurzame_waarde": 5,
+        "aftrek": 0
+      },
+      "rationale": {
+        "kerninteresse": [
+          "Minstens twee kerndomeinen: filosofie, ideologie, geschiedenis."
+        ],
+        "diepgang": [
+          "3.561 woorden."
+        ],
+        "persoonlijke_bruikbaarheid": [
+          "Indirect bruikbaar via een kerndomein."
+        ],
+        "leeskans": [],
+        "onderscheidende_duurzame_waarde": [
+          "Minstens 1.200 woorden."
+        ],
+        "aftrek": []
+      },
+      "sequences": [
+        "lees"
+      ],
+      "positions": {
+        "lees": 218
+      },
+      "actualPositions": {
+        "lees": 218
+      }
+    },
+    "01m0f2973kcszx7tky6qdcpx6j": {
+      "baseScore": 70,
+      "adjustment": 0,
+      "adjustmentReason": null,
+      "score": 70,
+      "tier": "hoog",
+      "components": {
+        "kerninteresse": 45,
+        "diepgang": 10,
+        "persoonlijke_bruikbaarheid": 10,
+        "leeskans": 0,
+        "onderscheidende_duurzame_waarde": 5,
+        "aftrek": 0
+      },
+      "rationale": {
+        "kerninteresse": [
+          "Minstens twee kerndomeinen: filosofie, ideologie."
+        ],
+        "diepgang": [
+          "6.960 woorden."
+        ],
+        "persoonlijke_bruikbaarheid": [
+          "Indirect bruikbaar via een kerndomein."
+        ],
+        "leeskans": [],
+        "onderscheidende_duurzame_waarde": [
+          "Minstens 1.200 woorden."
+        ],
+        "aftrek": []
+      },
+      "sequences": [
+        "lees"
+      ],
+      "positions": {
+        "lees": 217
+      },
+      "actualPositions": {
+        "lees": 217
+      }
+    },
+    "01m0f295dxr46cfakg2cev3c1d": {
+      "baseScore": 80,
+      "adjustment": 0,
+      "adjustmentReason": null,
+      "score": 80,
+      "tier": "hoog",
+      "components": {
+        "kerninteresse": 45,
+        "diepgang": 20,
+        "persoonlijke_bruikbaarheid": 10,
+        "leeskans": 0,
+        "onderscheidende_duurzame_waarde": 5,
+        "aftrek": 0
+      },
+      "rationale": {
+        "kerninteresse": [
+          "Minstens twee kerndomeinen: geschiedenis, sociologie."
+        ],
+        "diepgang": [
+          "13.527 woorden."
+        ],
+        "persoonlijke_bruikbaarheid": [
+          "Indirect bruikbaar via een kerndomein."
+        ],
+        "leeskans": [],
+        "onderscheidende_duurzame_waarde": [
+          "Minstens 1.200 woorden."
+        ],
+        "aftrek": []
+      },
+      "sequences": [
+        "lees"
+      ],
+      "positions": {
+        "lees": 53
+      },
+      "actualPositions": {
+        "lees": 53
+      }
+    },
+    "01m0f294h9fwx2hprdakmx3q95": {
+      "baseScore": 70,
+      "adjustment": 0,
+      "adjustmentReason": null,
+      "score": 70,
+      "tier": "hoog",
+      "components": {
+        "kerninteresse": 45,
+        "diepgang": 10,
+        "persoonlijke_bruikbaarheid": 10,
+        "leeskans": 0,
+        "onderscheidende_duurzame_waarde": 5,
+        "aftrek": 0
+      },
+      "rationale": {
+        "kerninteresse": [
+          "Minstens twee kerndomeinen: filosofie, ideologie, sociologie."
+        ],
+        "diepgang": [
+          "4.350 woorden."
+        ],
+        "persoonlijke_bruikbaarheid": [
+          "Indirect bruikbaar via een kerndomein."
+        ],
+        "leeskans": [],
+        "onderscheidende_duurzame_waarde": [
+          "Minstens 1.200 woorden."
+        ],
+        "aftrek": []
+      },
+      "sequences": [
+        "lees"
+      ],
+      "positions": {
+        "lees": 216
+      },
+      "actualPositions": {
+        "lees": 216
+      }
+    },
+    "01m0f29337jsph1jwqq3njdbkc": {
+      "baseScore": 75,
+      "adjustment": 0,
+      "adjustmentReason": null,
+      "score": 75,
+      "tier": "hoog",
+      "components": {
+        "kerninteresse": 45,
+        "diepgang": 10,
+        "persoonlijke_bruikbaarheid": 10,
+        "leeskans": 5,
+        "onderscheidende_duurzame_waarde": 5,
+        "aftrek": 0
+      },
+      "rationale": {
+        "kerninteresse": [
+          "Minstens twee kerndomeinen: filosofie, ideologie."
+        ],
+        "diepgang": [
+          "1.710 woorden."
+        ],
+        "persoonlijke_bruikbaarheid": [
+          "Indirect bruikbaar via een kerndomein."
+        ],
+        "leeskans": [
+          "Korte leestijd: 7 minuten."
+        ],
+        "onderscheidende_duurzame_waarde": [
+          "Minstens 1.200 woorden."
+        ],
+        "aftrek": []
+      },
+      "sequences": [
+        "lees",
+        "short",
+        "luchtig"
+      ],
+      "positions": {
+        "lees": 117,
+        "short": 73,
+        "luchtig": 30
+      },
+      "actualPositions": {
+        "lees": 117,
+        "short": 73,
+        "luchtig": 30
+      }
+    },
+    "01m0ezqxt8wzc2szp19yqq6n3x": {
+      "baseScore": 60,
+      "adjustment": 0,
+      "adjustmentReason": null,
+      "score": 60,
+      "tier": "midden",
+      "components": {
+        "kerninteresse": 30,
+        "diepgang": 10,
+        "persoonlijke_bruikbaarheid": 10,
+        "leeskans": 5,
+        "onderscheidende_duurzame_waarde": 5,
+        "aftrek": 0
+      },
+      "rationale": {
+        "kerninteresse": [
+          "Eén kerndomein: filosofie."
+        ],
+        "diepgang": [
+          "Verdiepend signaal in de tekst: essay."
+        ],
+        "persoonlijke_bruikbaarheid": [
+          "Indirect bruikbaar via een kerndomein."
+        ],
+        "leeskans": [
+          "Korte leestijd: 4 minuten."
+        ],
+        "onderscheidende_duurzame_waarde": [
+          "Aansluiting bij een kerndomein."
+        ],
+        "aftrek": []
+      },
+      "sequences": [
+        "lees",
+        "short"
+      ],
+      "positions": {
+        "lees": 341,
+        "short": 206
+      },
+      "actualPositions": {
+        "lees": 341,
+        "short": 206
+      }
+    },
+    "01m0eke5wqdgapqm4m0exz8bz6": {
+      "baseScore": 5,
+      "adjustment": 0,
+      "adjustmentReason": null,
+      "score": 5,
+      "tier": "laag",
+      "components": {
+        "kerninteresse": 0,
+        "diepgang": 0,
+        "persoonlijke_bruikbaarheid": 0,
+        "leeskans": 5,
+        "onderscheidende_duurzame_waarde": 0,
+        "aftrek": 0
+      },
+      "rationale": {
+        "kerninteresse": [],
+        "diepgang": [],
+        "persoonlijke_bruikbaarheid": [],
+        "leeskans": [
+          "Korte leestijd: 4 minuten."
+        ],
+        "onderscheidende_duurzame_waarde": [],
+        "aftrek": []
+      },
+      "sequences": [
+        "lees",
+        "short"
+      ],
+      "positions": {
+        "lees": 635,
+        "short": 349
+      },
+      "actualPositions": {
+        "lees": 635,
+        "short": 349
+      }
+    },
+    "01m0e4pj03mgc8d7bn0m16c65x": {
+      "baseScore": 15,
+      "adjustment": 0,
+      "adjustmentReason": null,
+      "score": 15,
+      "tier": "laag",
+      "components": {
+        "kerninteresse": 0,
+        "diepgang": 10,
+        "persoonlijke_bruikbaarheid": 0,
+        "leeskans": 5,
+        "onderscheidende_duurzame_waarde": 0,
+        "aftrek": 0
+      },
+      "rationale": {
+        "kerninteresse": [],
+        "diepgang": [
+          "Verdiepend signaal in de tekst: essay."
+        ],
+        "persoonlijke_bruikbaarheid": [],
+        "leeskans": [
+          "Korte leestijd: 2 minuten."
+        ],
+        "onderscheidende_duurzame_waarde": [],
+        "aftrek": []
+      },
+      "sequences": [
+        "lees",
+        "short",
+        "luchtig"
+      ],
+      "positions": {
+        "lees": 622,
+        "short": 336,
+        "luchtig": 210
+      },
+      "actualPositions": {
+        "lees": 622,
+        "short": 336,
+        "luchtig": 210
+      }
+    },
+    "01m0dzzn4qg7qw4e18apatwh29": {
+      "baseScore": 20,
+      "adjustment": 0,
+      "adjustmentReason": null,
+      "score": 20,
+      "tier": "laag",
+      "components": {
+        "kerninteresse": 0,
+        "diepgang": 10,
+        "persoonlijke_bruikbaarheid": 0,
+        "leeskans": 5,
+        "onderscheidende_duurzame_waarde": 5,
+        "aftrek": 0
+      },
+      "rationale": {
+        "kerninteresse": [],
+        "diepgang": [
+          "1.334 woorden."
+        ],
+        "persoonlijke_bruikbaarheid": [],
+        "leeskans": [
+          "Korte leestijd: 6 minuten."
+        ],
+        "onderscheidende_duurzame_waarde": [
+          "Minstens 1.200 woorden."
+        ],
+        "aftrek": []
+      },
+      "sequences": [
+        "lees",
+        "short",
+        "luchtig"
+      ],
+      "positions": {
+        "lees": 598,
+        "short": 332,
+        "luchtig": 203
+      },
+      "actualPositions": {
+        "lees": 598,
+        "short": 332,
+        "luchtig": 203
+      }
+    },
+    "01m0dvrfnhbaxez1gxzf8mm2cw": {
+      "baseScore": 55,
+      "adjustment": 0,
+      "adjustmentReason": null,
+      "score": 55,
+      "tier": "midden",
+      "components": {
+        "kerninteresse": 30,
+        "diepgang": 10,
+        "persoonlijke_bruikbaarheid": 10,
+        "leeskans": 0,
+        "onderscheidende_duurzame_waarde": 5,
+        "aftrek": 0
+      },
+      "rationale": {
+        "kerninteresse": [
+          "Eén kerndomein: filosofie."
+        ],
+        "diepgang": [
+          "3.004 woorden."
+        ],
+        "persoonlijke_bruikbaarheid": [
+          "Indirect bruikbaar via een kerndomein."
+        ],
+        "leeskans": [],
+        "onderscheidende_duurzame_waarde": [
+          "Minstens 1.200 woorden."
+        ],
+        "aftrek": []
+      },
+      "sequences": [
+        "lees"
+      ],
+      "positions": {
+        "lees": 424
+      },
+      "actualPositions": {
+        "lees": 424
+      }
+    },
+    "01m0dhvhvd3rtvvsyz61gex2fb": {
+      "baseScore": 35,
+      "adjustment": 0,
+      "adjustmentReason": null,
+      "score": 35,
+      "tier": "laag",
+      "components": {
+        "kerninteresse": 15,
+        "diepgang": 10,
+        "persoonlijke_bruikbaarheid": 0,
+        "leeskans": 5,
+        "onderscheidende_duurzame_waarde": 5,
+        "aftrek": 0
+      },
+      "rationale": {
+        "kerninteresse": [
+          "Alleen een aangrenzend onderwerp."
+        ],
+        "diepgang": [
+          "1.912 woorden."
+        ],
+        "persoonlijke_bruikbaarheid": [],
+        "leeskans": [
+          "Korte leestijd: 8 minuten."
+        ],
+        "onderscheidende_duurzame_waarde": [
+          "Minstens 1.200 woorden."
+        ],
+        "aftrek": []
+      },
+      "sequences": [
+        "lees",
+        "short"
+      ],
+      "positions": {
+        "lees": 537,
+        "short": 291
+      },
+      "actualPositions": {
+        "lees": 537,
+        "short": 291
+      }
+    },
+    "01m0db85phkv3bnf58tec1mbc1": {
+      "baseScore": 15,
+      "adjustment": 0,
+      "adjustmentReason": null,
+      "score": 15,
+      "tier": "laag",
+      "components": {
+        "kerninteresse": 0,
+        "diepgang": 10,
+        "persoonlijke_bruikbaarheid": 0,
+        "leeskans": 0,
+        "onderscheidende_duurzame_waarde": 5,
+        "aftrek": 0
+      },
+      "rationale": {
+        "kerninteresse": [],
+        "diepgang": [
+          "4.403 woorden."
+        ],
+        "persoonlijke_bruikbaarheid": [],
+        "leeskans": [],
+        "onderscheidende_duurzame_waarde": [
+          "Minstens 1.200 woorden."
+        ],
+        "aftrek": []
+      },
+      "sequences": [
+        "lees",
+        "luchtig"
+      ],
+      "positions": {
+        "lees": 621,
+        "luchtig": 209
+      },
+      "actualPositions": {
+        "lees": 621,
+        "luchtig": 209
+      }
+    },
+    "01m0d9rt9b3a66m87wr62cjx7g": {
+      "baseScore": 75,
+      "adjustment": 0,
+      "adjustmentReason": null,
+      "score": 75,
+      "tier": "hoog",
+      "components": {
+        "kerninteresse": 30,
+        "diepgang": 20,
+        "persoonlijke_bruikbaarheid": 20,
+        "leeskans": 0,
+        "onderscheidende_duurzame_waarde": 5,
+        "aftrek": 0
+      },
+      "rationale": {
+        "kerninteresse": [
+          "Eén kerndomein: filosofie."
+        ],
+        "diepgang": [
+          "8.201 woorden."
+        ],
+        "persoonlijke_bruikbaarheid": [
+          "Waarom lezen noemt: schrijven."
+        ],
+        "leeskans": [],
+        "onderscheidende_duurzame_waarde": [
+          "Minstens 1.200 woorden."
+        ],
+        "aftrek": []
+      },
+      "sequences": [
+        "lees",
+        "luchtig"
+      ],
+      "positions": {
+        "lees": 116,
+        "luchtig": 29
+      },
+      "actualPositions": {
+        "lees": 116,
+        "luchtig": 29
+      }
+    },
+    "01m0d55v1be0bcsmx7xczarntk": {
+      "baseScore": 70,
+      "adjustment": 0,
+      "adjustmentReason": null,
+      "score": 70,
+      "tier": "hoog",
+      "components": {
+        "kerninteresse": 30,
+        "diepgang": 10,
+        "persoonlijke_bruikbaarheid": 20,
+        "leeskans": 5,
+        "onderscheidende_duurzame_waarde": 5,
+        "aftrek": 0
+      },
+      "rationale": {
+        "kerninteresse": [
+          "Eén kerndomein: schrijven."
+        ],
+        "diepgang": [
+          "1.979 woorden."
+        ],
+        "persoonlijke_bruikbaarheid": [
+          "Waarom lezen noemt: schrijven."
+        ],
+        "leeskans": [
+          "Korte leestijd: 8 minuten."
+        ],
+        "onderscheidende_duurzame_waarde": [
+          "Minstens 1.200 woorden."
+        ],
+        "aftrek": []
+      },
+      "sequences": [
+        "lees",
+        "short",
+        "luchtig"
+      ],
+      "positions": {
+        "lees": 215,
+        "short": 110,
+        "luchtig": 57
+      },
+      "actualPositions": {
+        "lees": 215,
+        "short": 110,
+        "luchtig": 57
+      }
+    },
     "01m0d3d78wgvnkknrrbjnmta59": {
       "baseScore": 20,
       "adjustment": 0,
@@ -37,12 +1337,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 479,
-        "short": 241
+        "lees": 597,
+        "short": 331
       },
       "actualPositions": {
-        "lees": 474,
-        "short": 241
+        "lees": 597,
+        "short": 331
       }
     },
     "01m0d2tn3xcmjp5hpxgn0tsvxw": {
@@ -79,10 +1379,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 359
+        "lees": 423
       },
       "actualPositions": {
-        "lees": 357
+        "lees": 423
       }
     },
     "01m0d2tm1p4rb50n7zfv96x6hc": {
@@ -116,12 +1416,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 499,
-        "short": 244
+        "lees": 620,
+        "short": 335
       },
       "actualPositions": {
-        "lees": 494,
-        "short": 244
+        "lees": 620,
+        "short": 335
       }
     },
     "01m0d2tjzgp8v752d1sv2e2tyx": {
@@ -154,10 +1454,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 458
+        "lees": 568
       },
       "actualPositions": {
-        "lees": 453
+        "lees": 568
       }
     },
     "01m0d2tj3vhenhk8v11j38qvp5": {
@@ -193,12 +1493,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 478,
-        "short": 240
+        "lees": 596,
+        "short": 330
       },
       "actualPositions": {
-        "lees": 473,
-        "short": 240
+        "lees": 596,
+        "short": 330
       }
     },
     "01m0cy7g495j5g6ggxjrxc2np8": {
@@ -232,12 +1532,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 457,
-        "short": 220
+        "lees": 567,
+        "short": 302
       },
       "actualPositions": {
-        "lees": 452,
-        "short": 220
+        "lees": 567,
+        "short": 302
       }
     },
     "01m0cw5p7z6d6n3c7ynvnvz494": {
@@ -273,12 +1573,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 477,
-        "short": 239
+        "lees": 595,
+        "short": 329
       },
       "actualPositions": {
-        "lees": 472,
-        "short": 239
+        "lees": 595,
+        "short": 329
       }
     },
     "01m0cw5nb62yzppht12pqv4qby": {
@@ -314,12 +1614,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 476,
-        "short": 238
+        "lees": 594,
+        "short": 328
       },
       "actualPositions": {
-        "lees": 471,
-        "short": 238
+        "lees": 594,
+        "short": 328
       }
     },
     "01m0cw5m98jtgwrvetaz80rgv0": {
@@ -359,12 +1659,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 283,
-        "short": 162
+        "lees": 340,
+        "short": 205
       },
       "actualPositions": {
-        "lees": 283,
-        "short": 162
+        "lees": 340,
+        "short": 205
       }
     },
     "01m0cw5keb80tk63pfkmhvkxyf": {
@@ -398,12 +1698,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 475,
-        "short": 237
+        "lees": 593,
+        "short": 327
       },
       "actualPositions": {
-        "lees": 470,
-        "short": 237
+        "lees": 593,
+        "short": 327
       }
     },
     "01m0cw5jj79htrsnbqxj1qmn9x": {
@@ -443,12 +1743,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 282,
-        "short": 161
+        "lees": 339,
+        "short": 204
       },
       "actualPositions": {
-        "lees": 282,
-        "short": 161
+        "lees": 339,
+        "short": 204
       }
     },
     "01m0cw5hr65m0xpvcrnsccmw12": {
@@ -488,12 +1788,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 281,
-        "short": 160
+        "lees": 338,
+        "short": 203
       },
       "actualPositions": {
-        "lees": 281,
-        "short": 160
+        "lees": 338,
+        "short": 203
       }
     },
     "01m0c7sfw5q75aqsa96vxf5a69": {
@@ -530,10 +1830,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 358
+        "lees": 422
       },
       "actualPositions": {
-        "lees": 356
+        "lees": 422
       }
     },
     "01m0b3f8s0jtjdq0cwv622x3rt": {
@@ -570,9 +1870,11 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 357
+        "lees": 421
       },
-      "actualPositions": {}
+      "actualPositions": {
+        "lees": 421
+      }
     },
     "01m0b3f7rhy6g2a30jk32kz1g0": {
       "baseScore": 55,
@@ -608,10 +1910,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 356
+        "lees": 420
       },
       "actualPositions": {
-        "lees": 355
+        "lees": 420
       }
     },
     "01m0b3f6wsd73cy3dc4nzhsavv": {
@@ -649,12 +1951,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 380,
-        "short": 177
+        "lees": 471,
+        "short": 243
       },
       "actualPositions": {
-        "lees": 377,
-        "short": 177
+        "lees": 471,
+        "short": 243
       }
     },
     "01m0b3f62sb716wyqk6tqva87v": {
@@ -687,10 +1989,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 498
+        "lees": 619
       },
       "actualPositions": {
-        "lees": 493
+        "lees": 619
       }
     },
     "01m0b3f56gwerhja7mext6qpv8": {
@@ -723,10 +2025,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 497
+        "lees": 618
       },
       "actualPositions": {
-        "lees": 492
+        "lees": 618
       }
     },
     "01m0b3f4900e215a7feb8a1c0c": {
@@ -762,10 +2064,13 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 452,
-        "luchtig": 116
+        "lees": 559,
+        "luchtig": 185
       },
-      "actualPositions": {}
+      "actualPositions": {
+        "lees": 559,
+        "luchtig": 185
+      }
     },
     "01m0b1s6fv0ge2d9mdj3xrabzj": {
       "baseScore": 45,
@@ -799,10 +2104,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 385
+        "lees": 478
       },
       "actualPositions": {
-        "lees": 382
+        "lees": 478
       }
     },
     "01m0b1s5m0by88b9h7k9f802kz": {
@@ -841,14 +2146,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 433,
-        "short": 213,
-        "luchtig": 112
+        "lees": 536,
+        "short": 290,
+        "luchtig": 179
       },
       "actualPositions": {
-        "lees": 430,
-        "short": 213,
-        "luchtig": 111
+        "lees": 536,
+        "short": 290,
+        "luchtig": 179
       }
     },
     "01m0b1s4v68rpr0xny1y8jvgyj": {
@@ -889,14 +2194,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 280,
-        "short": 159,
-        "luchtig": 71
+        "lees": 337,
+        "short": 202,
+        "luchtig": 110
       },
       "actualPositions": {
-        "lees": 280,
-        "short": 159,
-        "luchtig": 71
+        "lees": 337,
+        "short": 202,
+        "luchtig": 110
       }
     },
     "01m0b1s3qh56jmhvyktd4qszbv": {
@@ -932,12 +2237,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 451,
-        "short": 217
+        "lees": 558,
+        "short": 296
       },
       "actualPositions": {
-        "lees": 447,
-        "short": 217
+        "lees": 558,
+        "short": 296
       }
     },
     "01m0b1s2dc3bep7yc7t5bze75s": {
@@ -974,9 +2279,11 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 355
+        "lees": 419
       },
-      "actualPositions": {}
+      "actualPositions": {
+        "lees": 419
+      }
     },
     "01m0b1s05hhzaks852j6fne2cx": {
       "baseScore": 30,
@@ -1011,12 +2318,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 450,
-        "luchtig": 115
+        "lees": 557,
+        "luchtig": 184
       },
       "actualPositions": {
-        "lees": 446,
-        "luchtig": 113
+        "lees": 557,
+        "luchtig": 184
       }
     },
     "01m0b106qfhmdg1tz5stvzg7s3": {
@@ -1055,14 +2362,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 432,
-        "short": 212,
-        "luchtig": 111
+        "lees": 535,
+        "short": 289,
+        "luchtig": 178
       },
       "actualPositions": {
-        "lees": 429,
-        "short": 212,
-        "luchtig": 110
+        "lees": 535,
+        "short": 289,
+        "luchtig": 178
       }
     },
     "01m0b105sfej59qwg42vqq0cqt": {
@@ -1098,10 +2405,13 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 449,
-        "luchtig": 114
+        "lees": 556,
+        "luchtig": 183
       },
-      "actualPositions": {}
+      "actualPositions": {
+        "lees": 556,
+        "luchtig": 183
+      }
     },
     "01m0aph10yf5zdstrrs85vesb4": {
       "baseScore": 50,
@@ -1138,10 +2448,13 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 379,
-        "luchtig": 95
+        "lees": 470,
+        "luchtig": 153
       },
-      "actualPositions": {}
+      "actualPositions": {
+        "lees": 470,
+        "luchtig": 153
+      }
     },
     "01m0abenxwjayhx9jmhxvr9ekf": {
       "baseScore": 60,
@@ -1178,12 +2491,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 279,
-        "short": 158
+        "lees": 336,
+        "short": 201
       },
       "actualPositions": {
-        "lees": 279,
-        "short": 158
+        "lees": 336,
+        "short": 201
       }
     },
     "01m0899ydg6jvf8qtyzvs9qdms": {
@@ -1223,12 +2536,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 278,
-        "short": 157
+        "lees": 335,
+        "short": 200
       },
       "actualPositions": {
-        "lees": 278,
-        "short": 157
+        "lees": 335,
+        "short": 200
       }
     },
     "01m084fq71p8p2cev7k6j37ysw": {
@@ -1268,12 +2581,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 277,
-        "short": 156
+        "lees": 334,
+        "short": 199
       },
       "actualPositions": {
-        "lees": 277,
-        "short": 156
+        "lees": 334,
+        "short": 199
       }
     },
     "01m07zpehf3761wmknmsknqwsa": {
@@ -1311,12 +2624,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 225,
-        "luchtig": 52
+        "lees": 257,
+        "luchtig": 67
       },
       "actualPositions": {
-        "lees": 225,
-        "luchtig": 52
+        "lees": 257,
+        "luchtig": 67
       }
     },
     "01m07w3763hgy2d4qhv8vy3qjf": {
@@ -1353,10 +2666,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 192
+        "lees": 214
       },
       "actualPositions": {
-        "lees": 192
+        "lees": 214
       }
     },
     "01m07vc44sxraja6grgwxkcqsq": {
@@ -1433,10 +2746,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 354
+        "lees": 418
       },
       "actualPositions": {
-        "lees": 354
+        "lees": 418
       }
     },
     "01m072s3cz3yqa6wp8g8f7hfvg": {
@@ -1472,12 +2785,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 474,
-        "short": 236
+        "lees": 592,
+        "short": 326
       },
       "actualPositions": {
-        "lees": 469,
-        "short": 236
+        "lees": 592,
+        "short": 326
       }
     },
     "01m072s3abc2a6pk01kgrv73my": {
@@ -1513,12 +2826,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 408,
-        "short": 199
+        "lees": 505,
+        "short": 271
       },
       "actualPositions": {
-        "lees": 405,
-        "short": 199
+        "lees": 505,
+        "short": 271
       }
     },
     "01m072s385a6fzhtgze3b0htyj": {
@@ -1552,12 +2865,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 496,
-        "short": 243
+        "lees": 617,
+        "short": 334
       },
       "actualPositions": {
-        "lees": 491,
-        "short": 243
+        "lees": 617,
+        "short": 334
       }
     },
     "01m072ky3hd19z38m5kyk2fcqy": {
@@ -1636,10 +2949,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "short": 219
+        "short": 301
       },
       "actualPositions": {
-        "short": 219
+        "short": 301
       }
     },
     "01m072keryngnm1c9yrmmc2mkn": {
@@ -1712,10 +3025,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 353
+        "lees": 417
       },
       "actualPositions": {
-        "lees": 353
+        "lees": 417
       }
     },
     "01m072jr0k249sen2da87ta5ra": {
@@ -1752,10 +3065,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 378
+        "lees": 469
       },
       "actualPositions": {
-        "lees": 376
+        "lees": 469
       }
     },
     "01m05be2mdpdf3vg9xy5xr0kcz": {
@@ -1793,12 +3106,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 191,
-        "luchtig": 46
+        "lees": 213,
+        "luchtig": 56
       },
       "actualPositions": {
-        "lees": 191,
-        "luchtig": 46
+        "lees": 213,
+        "luchtig": 56
       }
     },
     "01m059vzb20f0sy9sr2h2140d5": {
@@ -1837,14 +3150,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 377,
-        "short": 176,
-        "luchtig": 94
+        "lees": 468,
+        "short": 242,
+        "luchtig": 152
       },
       "actualPositions": {
-        "lees": 375,
-        "short": 176,
-        "luchtig": 94
+        "lees": 468,
+        "short": 242,
+        "luchtig": 152
       }
     },
     "01m059vwxfv3d1n8rterw19d6a": {
@@ -1884,12 +3197,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 104,
-        "short": 66
+        "lees": 115,
+        "short": 72
       },
       "actualPositions": {
-        "lees": 104,
-        "short": 66
+        "lees": 115,
+        "short": 72
       }
     },
     "01m059vqea4t02392f7364m2jr": {
@@ -1927,12 +3240,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 190,
-        "luchtig": 45
+        "lees": 212,
+        "luchtig": 55
       },
       "actualPositions": {
-        "lees": 190,
-        "luchtig": 45
+        "lees": 212,
+        "luchtig": 55
       }
     },
     "01m059vn29v5bjn4nbhe0efecg": {
@@ -1970,12 +3283,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 189,
-        "luchtig": 44
+        "lees": 211,
+        "luchtig": 54
       },
       "actualPositions": {
-        "lees": 189,
-        "luchtig": 44
+        "lees": 211,
+        "luchtig": 54
       }
     },
     "01m059vjndfmzkwh9sphxzfhc6": {
@@ -2013,12 +3326,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 188,
-        "luchtig": 43
+        "lees": 210,
+        "luchtig": 53
       },
       "actualPositions": {
-        "lees": 188,
-        "luchtig": 43
+        "lees": 210,
+        "luchtig": 53
       }
     },
     "01m059vg5da0cktz3bq2qqea4g": {
@@ -2055,10 +3368,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 187
+        "lees": 209
       },
       "actualPositions": {
-        "lees": 187
+        "lees": 209
       }
     },
     "01m059vdx0s3ff8xbj5eh1y9x3": {
@@ -2099,14 +3412,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 186,
-        "short": 95,
-        "luchtig": 42
+        "lees": 208,
+        "short": 109,
+        "luchtig": 52
       },
       "actualPositions": {
-        "lees": 186,
-        "short": 95,
-        "luchtig": 42
+        "lees": 208,
+        "short": 109,
+        "luchtig": 52
       }
     },
     "01m059vbg9k6x4z8p6198n481b": {
@@ -2143,10 +3456,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 46
+        "lees": 51
       },
       "actualPositions": {
-        "lees": 46
+        "lees": 51
       }
     },
     "01m059v98jpw8wgvff3t63dxm4": {
@@ -2184,12 +3497,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 185,
-        "luchtig": 41
+        "lees": 207,
+        "luchtig": 51
       },
       "actualPositions": {
-        "lees": 185,
-        "luchtig": 41
+        "lees": 207,
+        "luchtig": 51
       }
     },
     "01m059v708b9ey8tjyfycwr59j": {
@@ -2226,10 +3539,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 184
+        "lees": 206
       },
       "actualPositions": {
-        "lees": 184
+        "lees": 206
       }
     },
     "01m059v4r9jj9vzx30nn7cs3sr": {
@@ -2267,12 +3580,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 45,
-        "luchtig": 10
+        "lees": 50,
+        "luchtig": 11
       },
       "actualPositions": {
-        "lees": 45,
-        "luchtig": 10
+        "lees": 50,
+        "luchtig": 11
       }
     },
     "01m059v21gaqg3ya0m36r03km4": {
@@ -2310,12 +3623,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 44,
-        "luchtig": 9
+        "lees": 49,
+        "luchtig": 10
       },
       "actualPositions": {
-        "lees": 44,
-        "luchtig": 9
+        "lees": 49,
+        "luchtig": 10
       }
     },
     "01m059tzwnjdjtmteh5jpa7bxz": {
@@ -2356,14 +3669,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 103,
-        "short": 65,
-        "luchtig": 24
+        "lees": 114,
+        "short": 71,
+        "luchtig": 28
       },
       "actualPositions": {
-        "lees": 103,
-        "short": 65,
-        "luchtig": 24
+        "lees": 114,
+        "short": 71,
+        "luchtig": 28
       }
     },
     "01m059tvvs5m2bk6b68kyd7bay": {
@@ -2400,10 +3713,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 43
+        "lees": 48
       },
       "actualPositions": {
-        "lees": 43
+        "lees": 48
       }
     },
     "01m059tsa0jy2myj4kn804wky1": {
@@ -2440,14 +3753,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 473,
-        "short": 235,
-        "luchtig": 124
+        "lees": 591,
+        "short": 325,
+        "luchtig": 202
       },
       "actualPositions": {
-        "lees": 468,
-        "short": 235,
-        "luchtig": 121
+        "lees": 591,
+        "short": 325,
+        "luchtig": 202
       }
     },
     "01m059tpnqyq5yy3kq6xrmf1v5": {
@@ -2487,12 +3800,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 102,
-        "short": 64
+        "lees": 113,
+        "short": 70
       },
       "actualPositions": {
-        "lees": 102,
-        "short": 64
+        "lees": 113,
+        "short": 70
       }
     },
     "01m059tkzd0ez80nnyx2a2t930": {
@@ -2527,14 +3840,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 495,
-        "short": 242,
-        "luchtig": 129
+        "lees": 616,
+        "short": 333,
+        "luchtig": 208
       },
       "actualPositions": {
-        "lees": 490,
-        "short": 242,
-        "luchtig": 126
+        "lees": 616,
+        "short": 333,
+        "luchtig": 208
       }
     },
     "01m059thh2ytr4v45ebz778hxw": {
@@ -2574,12 +3887,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 101,
-        "short": 63
+        "lees": 112,
+        "short": 69
       },
       "actualPositions": {
-        "lees": 101,
-        "short": 63
+        "lees": 112,
+        "short": 69
       }
     },
     "01m059tf2ttw02jrmmm46cmhjk": {
@@ -2620,14 +3933,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 276,
-        "short": 155,
-        "luchtig": 70
+        "lees": 333,
+        "short": 198,
+        "luchtig": 109
       },
       "actualPositions": {
-        "lees": 276,
-        "short": 155,
-        "luchtig": 70
+        "lees": 333,
+        "short": 198,
+        "luchtig": 109
       }
     },
     "01m059tcfrtmfeh03vn5mw27yn": {
@@ -2665,12 +3978,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 224,
-        "short": 104
+        "lees": 256,
+        "short": 122
       },
       "actualPositions": {
-        "lees": 224,
-        "short": 104
+        "lees": 256,
+        "short": 122
       }
     },
     "01m059ta2jr7jstn7cdahr41yy": {
@@ -2709,14 +4022,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 376,
-        "short": 175,
-        "luchtig": 93
+        "lees": 467,
+        "short": 241,
+        "luchtig": 151
       },
       "actualPositions": {
-        "lees": 374,
-        "short": 175,
-        "luchtig": 93
+        "lees": 467,
+        "short": 241,
+        "luchtig": 151
       }
     },
     "01m059t7cjgvc214sac3e4z08x": {
@@ -2756,12 +4069,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 100,
-        "short": 62
+        "lees": 111,
+        "short": 68
       },
       "actualPositions": {
-        "lees": 100,
-        "short": 62
+        "lees": 111,
+        "short": 68
       }
     },
     "01m059t4kq0fgjsx21x28nbdqk": {
@@ -2802,14 +4115,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 99,
-        "short": 61,
-        "luchtig": 23
+        "lees": 110,
+        "short": 67,
+        "luchtig": 27
       },
       "actualPositions": {
-        "lees": 99,
-        "short": 61,
-        "luchtig": 23
+        "lees": 110,
+        "short": 67,
+        "luchtig": 27
       }
     },
     "01m059t227vbe5b84ps9k82zpr": {
@@ -2848,14 +4161,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 407,
-        "short": 198,
-        "luchtig": 103
+        "lees": 504,
+        "short": 270,
+        "luchtig": 165
       },
       "actualPositions": {
-        "lees": 404,
-        "short": 198,
-        "luchtig": 102
+        "lees": 504,
+        "short": 270,
+        "luchtig": 165
       }
     },
     "01m059szgmq8b5egbkgk1xe1rd": {
@@ -2893,12 +4206,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 42,
-        "luchtig": 8
+        "lees": 47,
+        "luchtig": 9
       },
       "actualPositions": {
-        "lees": 42,
-        "luchtig": 8
+        "lees": 47,
+        "luchtig": 9
       }
     },
     "01m059sw0ac1kmzc8gm2tnagny": {
@@ -2935,10 +4248,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 183
+        "lees": 205
       },
       "actualPositions": {
-        "lees": 183
+        "lees": 205
       }
     },
     "01m059sskxhhg3mfe39qs6r40x": {
@@ -2975,10 +4288,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 182
+        "lees": 204
       },
       "actualPositions": {
-        "lees": 182
+        "lees": 204
       }
     },
     "01m05875k9gghhk1s1wwtpq5nj": {
@@ -3013,10 +4326,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 384
+        "lees": 477
       },
       "actualPositions": {
-        "lees": 381
+        "lees": 477
       }
     },
     "01m03kq3qr8qy899n1ka68ftep": {
@@ -3054,12 +4367,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 375,
-        "short": 174
+        "lees": 466,
+        "short": 240
       },
       "actualPositions": {
-        "lees": 373,
-        "short": 174
+        "lees": 466,
+        "short": 240
       }
     },
     "01m03b0vhwd52bhh3rdjhdafv2": {
@@ -3097,12 +4410,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 47,
-        "luchtig": 11
+        "lees": 52,
+        "luchtig": 12
       },
       "actualPositions": {
-        "lees": 47,
-        "luchtig": 11
+        "lees": 52,
+        "luchtig": 12
       }
     },
     "01m02v2mszvk3cjaw44d26cmvx": {
@@ -3142,16 +4455,62 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig-nederlands"
       ],
       "positions": {
-        "lees": 352,
-        "dutch": 24,
-        "luchtig": 91,
-        "luchtig-nederlands": 4
+        "lees": 416,
+        "dutch": 30,
+        "luchtig": 131,
+        "luchtig-nederlands": 10
       },
       "actualPositions": {
-        "lees": 352,
-        "dutch": 24,
-        "luchtig": 91,
-        "luchtig-nederlands": 4
+        "lees": 416,
+        "dutch": 30,
+        "luchtig": 131,
+        "luchtig-nederlands": 10
+      }
+    },
+    "01m02jh1k0evfrf816t7ws501a": {
+      "baseScore": 40,
+      "adjustment": 0,
+      "adjustmentReason": null,
+      "score": 40,
+      "tier": "midden",
+      "components": {
+        "kerninteresse": 0,
+        "diepgang": 10,
+        "persoonlijke_bruikbaarheid": 20,
+        "leeskans": 5,
+        "onderscheidende_duurzame_waarde": 5,
+        "aftrek": 0
+      },
+      "rationale": {
+        "kerninteresse": [],
+        "diepgang": [
+          "1.858 woorden."
+        ],
+        "persoonlijke_bruikbaarheid": [
+          "Waarom lezen noemt: werk."
+        ],
+        "leeskans": [
+          "Korte leestijd: 8 minuten."
+        ],
+        "onderscheidende_duurzame_waarde": [
+          "Minstens 1.200 woorden."
+        ],
+        "aftrek": []
+      },
+      "sequences": [
+        "lees",
+        "short",
+        "luchtig"
+      ],
+      "positions": {
+        "lees": 503,
+        "short": 269,
+        "luchtig": 164
+      },
+      "actualPositions": {
+        "lees": 503,
+        "short": 269,
+        "luchtig": 164
       }
     },
     "01m02agqvzjjczjgfrjqd8qyqj": {
@@ -3189,16 +4548,16 @@ window.TOP_ARTICLE_PRIORITY = {
         "short-dutch"
       ],
       "positions": {
-        "lees": 406,
-        "dutch": 28,
-        "short": 197,
-        "short-dutch": 17
+        "lees": 502,
+        "dutch": 38,
+        "short": 268,
+        "short-dutch": 26
       },
       "actualPositions": {
-        "lees": 403,
-        "dutch": 28,
-        "short": 197,
-        "short-dutch": 17
+        "lees": 502,
+        "dutch": 38,
+        "short": 268,
+        "short-dutch": 26
       }
     },
     "01m01yc8rqy3yyyab16j5exq6t": {
@@ -3240,16 +4599,105 @@ window.TOP_ARTICLE_PRIORITY = {
         "short-dutch"
       ],
       "positions": {
-        "lees": 275,
-        "dutch": 19,
-        "short": 154,
-        "short-dutch": 13
+        "lees": 332,
+        "dutch": 25,
+        "short": 197,
+        "short-dutch": 18
       },
       "actualPositions": {
-        "lees": 275,
-        "dutch": 19,
-        "short": 154,
-        "short-dutch": 13
+        "lees": 332,
+        "dutch": 25,
+        "short": 197,
+        "short-dutch": 18
+      }
+    },
+    "01m01v1rmpqh6acc6t5t8cdy21": {
+      "baseScore": 5,
+      "adjustment": 0,
+      "adjustmentReason": null,
+      "score": 5,
+      "tier": "laag",
+      "components": {
+        "kerninteresse": 0,
+        "diepgang": 0,
+        "persoonlijke_bruikbaarheid": 0,
+        "leeskans": 5,
+        "onderscheidende_duurzame_waarde": 0,
+        "aftrek": 0
+      },
+      "rationale": {
+        "kerninteresse": [],
+        "diepgang": [],
+        "persoonlijke_bruikbaarheid": [],
+        "leeskans": [
+          "Korte leestijd: 1 minuten."
+        ],
+        "onderscheidende_duurzame_waarde": [],
+        "aftrek": []
+      },
+      "sequences": [
+        "lees",
+        "dutch",
+        "short",
+        "short-dutch",
+        "luchtig",
+        "luchtig-nederlands"
+      ],
+      "positions": {
+        "lees": 634,
+        "dutch": 46,
+        "short": 348,
+        "short-dutch": 33,
+        "luchtig": 220,
+        "luchtig-nederlands": 18
+      },
+      "actualPositions": {
+        "lees": 634,
+        "dutch": 46,
+        "short": 348,
+        "short-dutch": 33,
+        "luchtig": 220,
+        "luchtig-nederlands": 18
+      }
+    },
+    "01m00mj66ngc2ek9j21wsj0q4a": {
+      "baseScore": 5,
+      "adjustment": 0,
+      "adjustmentReason": null,
+      "score": 5,
+      "tier": "laag",
+      "components": {
+        "kerninteresse": 0,
+        "diepgang": 0,
+        "persoonlijke_bruikbaarheid": 0,
+        "leeskans": 5,
+        "onderscheidende_duurzame_waarde": 0,
+        "aftrek": 0
+      },
+      "rationale": {
+        "kerninteresse": [],
+        "diepgang": [],
+        "persoonlijke_bruikbaarheid": [],
+        "leeskans": [
+          "Korte leestijd: 1 minuten."
+        ],
+        "onderscheidende_duurzame_waarde": [],
+        "aftrek": []
+      },
+      "sequences": [
+        "lees",
+        "short",
+        "luchtig"
+      ],
+      "positions": {
+        "lees": 633,
+        "short": 347,
+        "luchtig": 219
+      },
+      "actualPositions": {
+        "lees": 633,
+        "short": 347,
+        "luchtig": 219
       }
     },
     "01kzzst7bzmyrpwmespcekhf7k": {
@@ -3291,16 +4739,16 @@ window.TOP_ARTICLE_PRIORITY = {
         "short-dutch"
       ],
       "positions": {
-        "lees": 274,
-        "dutch": 18,
-        "short": 153,
-        "short-dutch": 12
+        "lees": 331,
+        "dutch": 24,
+        "short": 196,
+        "short-dutch": 17
       },
       "actualPositions": {
-        "lees": 274,
-        "dutch": 18,
-        "short": 153,
-        "short-dutch": 12
+        "lees": 331,
+        "dutch": 24,
+        "short": 196,
+        "short-dutch": 17
       }
     },
     "01kzyk5xjcvj2qxd5hm0mbrrp2": {
@@ -3340,12 +4788,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 98,
-        "short": 60
+        "lees": 109,
+        "short": 66
       },
       "actualPositions": {
-        "lees": 98,
-        "short": 60
+        "lees": 109,
+        "short": 66
       }
     },
     "01kzybws8jda8wgv7y3wmckfam": {
@@ -3385,12 +4833,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 273,
-        "short": 152
+        "lees": 330,
+        "short": 195
       },
       "actualPositions": {
-        "lees": 273,
-        "short": 152
+        "lees": 330,
+        "short": 195
       }
     },
     "01kzx9z52qd31z7fyy315ebs7d": {
@@ -3427,10 +4875,52 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 351
+        "lees": 415
       },
       "actualPositions": {
-        "lees": 351
+        "lees": 415
+      }
+    },
+    "01kzvppwrdd73n89vk3nbadrm4": {
+      "baseScore": 20,
+      "adjustment": 0,
+      "adjustmentReason": null,
+      "score": 20,
+      "tier": "laag",
+      "components": {
+        "kerninteresse": 15,
+        "diepgang": 0,
+        "persoonlijke_bruikbaarheid": 0,
+        "leeskans": 5,
+        "onderscheidende_duurzame_waarde": 0,
+        "aftrek": 0
+      },
+      "rationale": {
+        "kerninteresse": [
+          "Alleen een aangrenzend onderwerp."
+        ],
+        "diepgang": [],
+        "persoonlijke_bruikbaarheid": [],
+        "leeskans": [
+          "Korte leestijd: 3 minuten."
+        ],
+        "onderscheidende_duurzame_waarde": [],
+        "aftrek": []
+      },
+      "sequences": [
+        "lees",
+        "short",
+        "luchtig"
+      ],
+      "positions": {
+        "lees": 590,
+        "short": 324,
+        "luchtig": 201
+      },
+      "actualPositions": {
+        "lees": 590,
+        "short": 324,
+        "luchtig": 201
       }
     },
     "01kztvesqhd0vhbkmcxqrevkhs": {
@@ -3470,12 +4960,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 97,
-        "short": 59
+        "lees": 108,
+        "short": 65
       },
       "actualPositions": {
-        "lees": 97,
-        "short": 59
+        "lees": 108,
+        "short": 65
       }
     },
     "01kztttkt90nq4m1ps2mwt76v6": {
@@ -3512,14 +5002,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 472,
-        "short": 234,
-        "luchtig": 123
+        "lees": 589,
+        "short": 323,
+        "luchtig": 200
       },
       "actualPositions": {
-        "lees": 467,
-        "short": 234,
-        "luchtig": 120
+        "lees": 589,
+        "short": 323,
+        "luchtig": 200
       }
     },
     "01kzs2rg4k74qvmpceqbwav3ae": {
@@ -3554,14 +5044,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 456,
-        "short": 218,
-        "luchtig": 119
+        "lees": 566,
+        "short": 300,
+        "luchtig": 191
       },
       "actualPositions": {
-        "lees": 451,
-        "short": 218,
-        "luchtig": 116
+        "lees": 566,
+        "short": 300,
+        "luchtig": 191
       }
     },
     "01kzr4dqeqcac4srvc6vvdppez": {
@@ -3597,12 +5087,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "dutch"
       ],
       "positions": {
-        "lees": 448,
-        "dutch": 31
+        "lees": 555,
+        "dutch": 41
       },
       "actualPositions": {
-        "lees": 445,
-        "dutch": 31
+        "lees": 555,
+        "dutch": 41
       }
     },
     "01kzqw4kvwej9b61vspym25d0e": {
@@ -3641,14 +5131,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 405,
-        "short": 196,
-        "luchtig": 102
+        "lees": 501,
+        "short": 267,
+        "luchtig": 163
       },
       "actualPositions": {
-        "lees": 402,
-        "short": 196,
-        "luchtig": 101
+        "lees": 501,
+        "short": 267,
+        "luchtig": 163
       }
     },
     "01kzp09j3vmc15v2atpvpkbrpe": {
@@ -3688,12 +5178,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 96,
-        "short": 58
+        "lees": 107,
+        "short": 64
       },
       "actualPositions": {
-        "lees": 96,
-        "short": 58
+        "lees": 107,
+        "short": 64
       }
     },
     "01kzm4bdy2jfathy0z2sp6maf2": {
@@ -3730,10 +5220,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 350
+        "lees": 414
       },
       "actualPositions": {
-        "lees": 350
+        "lees": 414
       }
     },
     "01kzks8gpjbgtxar87yh5esb02": {
@@ -3771,12 +5261,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 374,
-        "short": 173
+        "lees": 465,
+        "short": 239
       },
       "actualPositions": {
-        "lees": 372,
-        "short": 173
+        "lees": 465,
+        "short": 239
       }
     },
     "01kzks5qkzbprr9awnp29vvk7g": {
@@ -3816,12 +5306,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 272,
-        "short": 151
+        "lees": 329,
+        "short": 194
       },
       "actualPositions": {
-        "lees": 272,
-        "short": 151
+        "lees": 329,
+        "short": 194
       }
     },
     "01kzka3mb479td6k9sc95kkxv4": {
@@ -3859,12 +5349,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 431,
-        "short": 211
+        "lees": 534,
+        "short": 288
       },
       "actualPositions": {
-        "lees": 428,
-        "short": 211
+        "lees": 534,
+        "short": 288
       }
     },
     "01kzjk22zxkgrvftgdtdvj01rq": {
@@ -3906,16 +5396,16 @@ window.TOP_ARTICLE_PRIORITY = {
         "short-dutch"
       ],
       "positions": {
-        "lees": 95,
-        "dutch": 6,
-        "short": 57,
-        "short-dutch": 5
+        "lees": 106,
+        "dutch": 7,
+        "short": 63,
+        "short-dutch": 6
       },
       "actualPositions": {
-        "lees": 95,
-        "dutch": 6,
-        "short": 57,
-        "short-dutch": 5
+        "lees": 106,
+        "dutch": 7,
+        "short": 63,
+        "short-dutch": 6
       }
     },
     "01kzgpy5b1rbxq3wqmejcys8zm": {
@@ -3952,10 +5442,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 349
+        "lees": 413
       },
       "actualPositions": {
-        "lees": 349
+        "lees": 413
       }
     },
     "01kzeczgpr5fr1w5znnf4m2b9v": {
@@ -3995,12 +5485,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 94,
-        "short": 56
+        "lees": 105,
+        "short": 62
       },
       "actualPositions": {
-        "lees": 94,
-        "short": 56
+        "lees": 105,
+        "short": 62
       }
     },
     "01kzds50ngmgn4d833k9cj9dp2": {
@@ -4040,16 +5530,16 @@ window.TOP_ARTICLE_PRIORITY = {
         "short-dutch"
       ],
       "positions": {
-        "lees": 430,
-        "dutch": 29,
-        "short": 210,
-        "short-dutch": 18
+        "lees": 533,
+        "dutch": 39,
+        "short": 287,
+        "short-dutch": 27
       },
       "actualPositions": {
-        "lees": 427,
-        "dutch": 29,
-        "short": 210,
-        "short-dutch": 18
+        "lees": 533,
+        "dutch": 39,
+        "short": 287,
+        "short-dutch": 27
       }
     },
     "01kzdq8ybspgj5w8sr4zpbdxza": {
@@ -4090,14 +5580,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 271,
-        "short": 150,
-        "luchtig": 69
+        "lees": 328,
+        "short": 193,
+        "luchtig": 108
       },
       "actualPositions": {
-        "lees": 271,
-        "short": 150,
-        "luchtig": 69
+        "lees": 328,
+        "short": 193,
+        "luchtig": 108
       }
     },
     "01kzdq8xjrrnenwj328s9ydvpc": {
@@ -4135,12 +5625,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 348,
-        "luchtig": 90
+        "lees": 412,
+        "luchtig": 130
       },
       "actualPositions": {
-        "lees": 348,
-        "luchtig": 90
+        "lees": 412,
+        "luchtig": 130
       }
     },
     "01kzdq8vkjn9a8emm2nef7bdh1": {
@@ -4180,12 +5670,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 270,
-        "short": 149
+        "lees": 327,
+        "short": 192
       },
       "actualPositions": {
-        "lees": 270,
-        "short": 149
+        "lees": 327,
+        "short": 192
       }
     },
     "01kzdq8tj0zzrzaw85rd37s6xf": {
@@ -4222,10 +5712,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 347
+        "lees": 411
       },
       "actualPositions": {
-        "lees": 347
+        "lees": 411
       }
     },
     "01kzdq8sfxq0gzhmywzbn9ty9e": {
@@ -4260,10 +5750,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 447
+        "lees": 554
       },
       "actualPositions": {
-        "lees": 444
+        "lees": 554
       }
     },
     "01kzdbf87h4fzk1m5hz1zgh27t": {
@@ -4299,16 +5789,16 @@ window.TOP_ARTICLE_PRIORITY = {
         "short-dutch"
       ],
       "positions": {
-        "lees": 471,
-        "dutch": 32,
-        "short": 233,
-        "short-dutch": 20
+        "lees": 588,
+        "dutch": 42,
+        "short": 322,
+        "short-dutch": 29
       },
       "actualPositions": {
-        "lees": 466,
-        "dutch": 32,
-        "short": 233,
-        "short-dutch": 20
+        "lees": 588,
+        "dutch": 42,
+        "short": 322,
+        "short-dutch": 29
       }
     },
     "01kzd8qn7n646xh31vsssz5wcx": {
@@ -4346,12 +5836,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 223,
-        "short": 103
+        "lees": 255,
+        "short": 121
       },
       "actualPositions": {
-        "lees": 223,
-        "short": 103
+        "lees": 255,
+        "short": 121
       }
     },
     "01kzbmed4w58b2gg8qpgdb9q4c": {
@@ -4391,12 +5881,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 269,
-        "short": 148
+        "lees": 326,
+        "short": 191
       },
       "actualPositions": {
-        "lees": 269,
-        "short": 148
+        "lees": 326,
+        "short": 191
       }
     },
     "01kzbjy9gdq4xntetmwztrtgtv": {
@@ -4434,12 +5924,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 404,
-        "short": 195
+        "lees": 500,
+        "short": 266
       },
       "actualPositions": {
-        "lees": 401,
-        "short": 195
+        "lees": 500,
+        "short": 266
       }
     },
     "01kzb96tb0zsjse9g5hpa4xgm4": {
@@ -4479,12 +5969,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 268,
-        "short": 147
+        "lees": 325,
+        "short": 190
       },
       "actualPositions": {
-        "lees": 268,
-        "short": 147
+        "lees": 325,
+        "short": 190
       }
     },
     "01kzb0cxjx9j8cd81x881xt9e8": {
@@ -4522,12 +6012,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 346,
-        "luchtig": 89
+        "lees": 410,
+        "luchtig": 129
       },
       "actualPositions": {
-        "lees": 346,
-        "luchtig": 89
+        "lees": 410,
+        "luchtig": 129
       }
     },
     "01kzb03e63j61yhndn4jkh2v66": {
@@ -4567,12 +6057,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 181,
-        "short": 94
+        "lees": 203,
+        "short": 108
       },
       "actualPositions": {
-        "lees": 181,
-        "short": 94
+        "lees": 203,
+        "short": 108
       }
     },
     "01kzakhrdw8m862yfhsmva3z11": {
@@ -4612,12 +6102,58 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 93,
-        "short": 55
+        "lees": 104,
+        "short": 61
       },
       "actualPositions": {
-        "lees": 93,
-        "short": 55
+        "lees": 104,
+        "short": 61
+      }
+    },
+    "01kza38rqfwe47ma17xz9m0tsq": {
+      "baseScore": 50,
+      "adjustment": 0,
+      "adjustmentReason": null,
+      "score": 50,
+      "tier": "midden",
+      "components": {
+        "kerninteresse": 30,
+        "diepgang": 0,
+        "persoonlijke_bruikbaarheid": 10,
+        "leeskans": 5,
+        "onderscheidende_duurzame_waarde": 5,
+        "aftrek": 0
+      },
+      "rationale": {
+        "kerninteresse": [
+          "Eén kerndomein: geschiedenis."
+        ],
+        "diepgang": [],
+        "persoonlijke_bruikbaarheid": [
+          "Indirect bruikbaar via een kerndomein."
+        ],
+        "leeskans": [
+          "Korte leestijd: 2 minuten."
+        ],
+        "onderscheidende_duurzame_waarde": [
+          "Aansluiting bij een kerndomein."
+        ],
+        "aftrek": []
+      },
+      "sequences": [
+        "lees",
+        "short",
+        "luchtig"
+      ],
+      "positions": {
+        "lees": 464,
+        "short": 238,
+        "luchtig": 150
+      },
+      "actualPositions": {
+        "lees": 464,
+        "short": 238,
+        "luchtig": 150
       }
     },
     "01kz9q1etvj82wyb44kpaj3r3c": {
@@ -4655,12 +6191,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 92,
-        "luchtig": 22
+        "lees": 103,
+        "luchtig": 26
       },
       "actualPositions": {
-        "lees": 92,
-        "luchtig": 22
+        "lees": 103,
+        "luchtig": 26
       }
     },
     "01kz9c349w1qjetrtf2m7v9ttr": {
@@ -4697,14 +6233,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 470,
-        "short": 232,
-        "luchtig": 122
+        "lees": 587,
+        "short": 321,
+        "luchtig": 199
       },
       "actualPositions": {
-        "lees": 465,
-        "short": 232,
-        "luchtig": 119
+        "lees": 587,
+        "short": 321,
+        "luchtig": 199
       }
     },
     "01kz96t63anbs2x8jgs2txcc9s": {
@@ -4737,10 +6273,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 494
+        "lees": 615
       },
       "actualPositions": {
-        "lees": 489
+        "lees": 615
       }
     },
     "01kz8zwnxp6tqjavp4bcdvgq9p": {
@@ -4781,14 +6317,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 267,
-        "short": 146,
-        "luchtig": 68
+        "lees": 324,
+        "short": 189,
+        "luchtig": 107
       },
       "actualPositions": {
-        "lees": 267,
-        "short": 146,
-        "luchtig": 68
+        "lees": 324,
+        "short": 189,
+        "luchtig": 107
       }
     },
     "01kz8tdjr2y2pwzm7032w80p43": {
@@ -4824,12 +6360,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 429,
-        "luchtig": 110
+        "lees": 532,
+        "luchtig": 177
       },
       "actualPositions": {
-        "lees": 426,
-        "luchtig": 109
+        "lees": 532,
+        "luchtig": 177
       }
     },
     "01kz84cd6qp18k7dfpv9b4khjc": {
@@ -4867,12 +6403,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 345,
-        "luchtig": 88
+        "lees": 409,
+        "luchtig": 128
       },
       "actualPositions": {
-        "lees": 345,
-        "luchtig": 88
+        "lees": 409,
+        "luchtig": 128
       }
     },
     "01kz82xdjjgrnyqf2bgfgaehd9": {
@@ -4912,12 +6448,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 266,
-        "short": 145
+        "lees": 323,
+        "short": 188
       },
       "actualPositions": {
-        "lees": 266,
-        "short": 145
+        "lees": 323,
+        "short": 188
       }
     },
     "01kz6ed2bfhqw1ksddzhkn7nv0": {
@@ -4955,12 +6491,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 428,
-        "short": 209
+        "lees": 531,
+        "short": 286
       },
       "actualPositions": {
-        "lees": 425,
-        "short": 209
+        "lees": 531,
+        "short": 286
       }
     },
     "01kz6ed1sa2y2kwxs775125q31": {
@@ -4998,12 +6534,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 373,
-        "short": 172
+        "lees": 463,
+        "short": 237
       },
       "actualPositions": {
-        "lees": 371,
-        "short": 172
+        "lees": 463,
+        "short": 237
       }
     },
     "01kz6ecwzhtf8eaynr9sx4ss7a": {
@@ -5040,10 +6576,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 344
+        "lees": 408
       },
       "actualPositions": {
-        "lees": 344
+        "lees": 408
       }
     },
     "01kz6ect0wg6e4xcxasm10sk5g": {
@@ -5077,12 +6613,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 469,
-        "short": 231
+        "lees": 586,
+        "short": 320
       },
       "actualPositions": {
-        "lees": 464,
-        "short": 231
+        "lees": 586,
+        "short": 320
       }
     },
     "01kz69ad56sjrd4e3q43gheyq6": {
@@ -5116,12 +6652,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 468,
-        "short": 230
+        "lees": 585,
+        "short": 319
       },
       "actualPositions": {
-        "lees": 463,
-        "short": 230
+        "lees": 585,
+        "short": 319
       }
     },
     "01kz69a8qypwqt460jxm9pk4r8": {
@@ -5156,10 +6692,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 446
+        "lees": 553
       },
       "actualPositions": {
-        "lees": 443
+        "lees": 553
       }
     },
     "01kz69a3spachapgt877dw9cxs": {
@@ -5197,12 +6733,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 372,
-        "short": 171
+        "lees": 462,
+        "short": 236
       },
       "actualPositions": {
-        "lees": 370,
-        "short": 171
+        "lees": 462,
+        "short": 236
       }
     },
     "01kz5hxxx355g7zdmhn22jhs3a": {
@@ -5236,12 +6772,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 467,
-        "short": 229
+        "lees": 584,
+        "short": 318
       },
       "actualPositions": {
-        "lees": 462,
-        "short": 229
+        "lees": 584,
+        "short": 318
       }
     },
     "01kz5hxrqak5nz3t8a2kwv5zhj": {
@@ -5274,14 +6810,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 504,
-        "short": 249,
-        "luchtig": 132
+        "lees": 632,
+        "short": 346,
+        "luchtig": 218
       },
       "actualPositions": {
-        "lees": 499,
-        "short": 249,
-        "luchtig": 129
+        "lees": 632,
+        "short": 346,
+        "luchtig": 218
       }
     },
     "01kz4wdxrxyjpr3qbg0042hady": {
@@ -5316,10 +6852,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 445
+        "lees": 552
       },
       "actualPositions": {
-        "lees": 442
+        "lees": 552
       }
     },
     "01kz4nmz78jyvw6r2c5t42twxt": {
@@ -5352,10 +6888,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 493
+        "lees": 614
       },
       "actualPositions": {
-        "lees": 488
+        "lees": 614
       }
     },
     "01kz4nfbmznfm4bgfs8zac2x39": {
@@ -5427,12 +6963,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 492,
-        "luchtig": 128
+        "lees": 613,
+        "luchtig": 207
       },
       "actualPositions": {
-        "lees": 487,
-        "luchtig": 125
+        "lees": 613,
+        "luchtig": 207
       }
     },
     "01kz4nb1rvgwbacrqkqpzcw6my": {
@@ -5469,10 +7005,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 343
+        "lees": 407
       },
       "actualPositions": {
-        "lees": 343
+        "lees": 407
       }
     },
     "01kz3vmxyyz45h60v9psp9ea3t": {
@@ -5510,12 +7046,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 403,
-        "short": 194
+        "lees": 499,
+        "short": 265
       },
       "actualPositions": {
-        "lees": 400,
-        "short": 194
+        "lees": 499,
+        "short": 265
       }
     },
     "01kz3nr3jzajrcg02622ggr47y": {
@@ -5555,12 +7091,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 265,
-        "short": 144
+        "lees": 322,
+        "short": 187
       },
       "actualPositions": {
-        "lees": 265,
-        "short": 144
+        "lees": 322,
+        "short": 187
       }
     },
     "01kz3n3vtt34z9nte888xtbp8q": {
@@ -5600,12 +7136,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 180,
-        "short": 93
+        "lees": 202,
+        "short": 107
       },
       "actualPositions": {
-        "lees": 180,
-        "short": 93
+        "lees": 202,
+        "short": 107
       }
     },
     "01kz22xyvfe3c1r5nxtznwpm2q": {
@@ -5642,10 +7178,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 179
+        "lees": 201
       },
       "actualPositions": {
-        "lees": 179
+        "lees": 201
       }
     },
     "01kz1sn0npf6d2a1sccnqyaz67": {
@@ -5680,10 +7216,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 427
+        "lees": 530
       },
       "actualPositions": {
-        "lees": 424
+        "lees": 530
       }
     },
     "01kz0k2hbcfqf2z9fpk12rqtz5": {
@@ -5723,12 +7259,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 91,
-        "short": 54
+        "lees": 102,
+        "short": 60
       },
       "actualPositions": {
-        "lees": 91,
-        "short": 54
+        "lees": 102,
+        "short": 60
       }
     },
     "01kyz1s71etfwt2wgr2zhqrr4k": {
@@ -5768,12 +7304,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 90,
-        "short": 53
+        "lees": 101,
+        "short": 59
       },
       "actualPositions": {
-        "lees": 90,
-        "short": 53
+        "lees": 101,
+        "short": 59
       }
     },
     "01kyyg3mxmb2pwc6yarn1kf8tn": {
@@ -5814,14 +7350,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 264,
-        "short": 143,
-        "luchtig": 67
+        "lees": 321,
+        "short": 186,
+        "luchtig": 106
       },
       "actualPositions": {
-        "lees": 264,
-        "short": 143,
-        "luchtig": 67
+        "lees": 321,
+        "short": 186,
+        "luchtig": 106
       }
     },
     "01kyy1z2njt280geg81vv0be2q": {
@@ -5859,12 +7395,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 402,
-        "short": 193
+        "lees": 498,
+        "short": 264
       },
       "actualPositions": {
-        "lees": 399,
-        "short": 193
+        "lees": 498,
+        "short": 264
       }
     },
     "01kyxyqrfvk85easc927qpwtns": {
@@ -5903,11 +7439,11 @@ window.TOP_ARTICLE_PRIORITY = {
       ],
       "positions": {
         "pdf": 3,
-        "luchtig": 3
+        "luchtig": 4
       },
       "actualPositions": {
         "pdf": 3,
-        "luchtig": 3
+        "luchtig": 4
       }
     },
     "01kyxvjcj0396b5z5w8bcz634q": {
@@ -5949,16 +7485,16 @@ window.TOP_ARTICLE_PRIORITY = {
         "short-dutch"
       ],
       "positions": {
-        "lees": 89,
-        "dutch": 5,
-        "short": 52,
-        "short-dutch": 4
+        "lees": 100,
+        "dutch": 6,
+        "short": 58,
+        "short-dutch": 5
       },
       "actualPositions": {
-        "lees": 89,
-        "dutch": 5,
-        "short": 52,
-        "short-dutch": 4
+        "lees": 100,
+        "dutch": 6,
+        "short": 58,
+        "short-dutch": 5
       }
     },
     "01kyxa2yd57szp13ha57708606": {
@@ -5996,12 +7532,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 41,
-        "luchtig": 7
+        "lees": 46,
+        "luchtig": 8
       },
       "actualPositions": {
-        "lees": 41,
-        "luchtig": 7
+        "lees": 46,
+        "luchtig": 8
       }
     },
     "01kytmk5cvj8xqxhw4h55qhgbj": {
@@ -6039,12 +7575,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 371,
-        "short": 170
+        "lees": 461,
+        "short": 235
       },
       "actualPositions": {
-        "lees": 369,
-        "short": 170
+        "lees": 461,
+        "short": 235
       }
     },
     "01kysnpk8azvdg0fmar8118yy0": {
@@ -6077,10 +7613,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 491
+        "lees": 612
       },
       "actualPositions": {
-        "lees": 486
+        "lees": 612
       }
     },
     "01kysnpjbzmxbkrjfbxzssm9ke": {
@@ -6113,10 +7649,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 490
+        "lees": 611
       },
       "actualPositions": {
-        "lees": 485
+        "lees": 611
       }
     },
     "01kysnp46np6phr3stfajdsjk8": {
@@ -6151,10 +7687,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 401
+        "lees": 497
       },
       "actualPositions": {
-        "lees": 398
+        "lees": 497
       }
     },
     "01kysnn7synbp4djg1ph3zrhdh": {
@@ -6194,12 +7730,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 88,
-        "short": 51
+        "lees": 99,
+        "short": 57
       },
       "actualPositions": {
-        "lees": 88,
-        "short": 51
+        "lees": 99,
+        "short": 57
       }
     },
     "01kysnmzyzeanxfpxfh2f655nr": {
@@ -6236,10 +7772,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 222
+        "lees": 254
       },
       "actualPositions": {
-        "lees": 222
+        "lees": 254
       }
     },
     "01kysnmckrgernh72bvvz2eprz": {
@@ -6281,15 +7817,15 @@ window.TOP_ARTICLE_PRIORITY = {
         "short-dutch"
       ],
       "positions": {
-        "lees": 15,
+        "lees": 18,
         "dutch": 1,
-        "short": 14,
+        "short": 17,
         "short-dutch": 1
       },
       "actualPositions": {
-        "lees": 15,
+        "lees": 18,
         "dutch": 1,
-        "short": 14,
+        "short": 17,
         "short-dutch": 1
       }
     },
@@ -6327,10 +7863,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 40
+        "lees": 45
       },
       "actualPositions": {
-        "lees": 40
+        "lees": 45
       }
     },
     "01kysnkny4jr6ej2jh6n05ex8q": {
@@ -6370,16 +7906,16 @@ window.TOP_ARTICLE_PRIORITY = {
         "short-dutch"
       ],
       "positions": {
-        "lees": 221,
-        "dutch": 14,
-        "short": 102,
-        "short-dutch": 8
+        "lees": 253,
+        "dutch": 17,
+        "short": 120,
+        "short-dutch": 10
       },
       "actualPositions": {
-        "lees": 221,
-        "dutch": 14,
-        "short": 102,
-        "short-dutch": 8
+        "lees": 253,
+        "dutch": 17,
+        "short": 120,
+        "short-dutch": 10
       }
     },
     "01kysnkmqq07z6nwe6wtvhtkxy": {
@@ -6417,11 +7953,11 @@ window.TOP_ARTICLE_PRIORITY = {
         "dutch"
       ],
       "positions": {
-        "lees": 39,
+        "lees": 44,
         "dutch": 2
       },
       "actualPositions": {
-        "lees": 39,
+        "lees": 44,
         "dutch": 2
       }
     },
@@ -6459,10 +7995,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 178
+        "lees": 200
       },
       "actualPositions": {
-        "lees": 178
+        "lees": 200
       }
     },
     "01kysnj4rgn2xvk4wh8pqj831w": {
@@ -6502,12 +8038,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 87,
-        "short": 50
+        "lees": 98,
+        "short": 56
       },
       "actualPositions": {
-        "lees": 87,
-        "short": 50
+        "lees": 98,
+        "short": 56
       }
     },
     "01kysfkr91ztafaydtna4raq0r": {
@@ -6580,10 +8116,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 489
+        "lees": 610
       },
       "actualPositions": {
-        "lees": 484
+        "lees": 610
       }
     },
     "01kys88s7qtngkzgfv4eyvcqxm": {
@@ -6623,12 +8159,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 263,
-        "short": 142
+        "lees": 320,
+        "short": 185
       },
       "actualPositions": {
-        "lees": 263,
-        "short": 142
+        "lees": 320,
+        "short": 185
       }
     },
     "01kypsfm35qdf9z4ncsvxx0hm3": {
@@ -6669,14 +8205,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 262,
-        "short": 141,
-        "luchtig": 66
+        "lees": 319,
+        "short": 184,
+        "luchtig": 105
       },
       "actualPositions": {
-        "lees": 262,
-        "short": 141,
-        "luchtig": 66
+        "lees": 319,
+        "short": 184,
+        "luchtig": 105
       }
     },
     "01kypmvmsdprb2gbyf9297m2jb": {
@@ -6711,10 +8247,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 426
+        "lees": 529
       },
       "actualPositions": {
-        "lees": 423
+        "lees": 529
       }
     },
     "01kyhnw0sy3wcsr7adg43eb2bg": {
@@ -6755,14 +8291,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 261,
-        "short": 140,
-        "luchtig": 65
+        "lees": 318,
+        "short": 183,
+        "luchtig": 104
       },
       "actualPositions": {
-        "lees": 261,
-        "short": 140,
-        "luchtig": 65
+        "lees": 318,
+        "short": 183,
+        "luchtig": 104
       }
     },
     "01kyexyg0m6s4a4nddcw8mm63e": {
@@ -6799,10 +8335,113 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 177
+        "lees": 199
       },
       "actualPositions": {
-        "lees": 177
+        "lees": 199
+      }
+    },
+    "01kyejqrpkrb3a9zqk5a7k4n5f": {
+      "baseScore": 60,
+      "adjustment": 0,
+      "adjustmentReason": null,
+      "score": 60,
+      "tier": "midden",
+      "components": {
+        "kerninteresse": 30,
+        "diepgang": 10,
+        "persoonlijke_bruikbaarheid": 10,
+        "leeskans": 5,
+        "onderscheidende_duurzame_waarde": 5,
+        "aftrek": 0
+      },
+      "rationale": {
+        "kerninteresse": [
+          "Eén kerndomein: sociologie."
+        ],
+        "diepgang": [
+          "1.547 woorden."
+        ],
+        "persoonlijke_bruikbaarheid": [
+          "Indirect bruikbaar via een kerndomein."
+        ],
+        "leeskans": [
+          "Korte leestijd: 6 minuten."
+        ],
+        "onderscheidende_duurzame_waarde": [
+          "Minstens 1.200 woorden."
+        ],
+        "aftrek": []
+      },
+      "sequences": [
+        "lees",
+        "dutch",
+        "short",
+        "short-dutch",
+        "luchtig",
+        "luchtig-nederlands"
+      ],
+      "positions": {
+        "lees": 317,
+        "dutch": 23,
+        "short": 182,
+        "short-dutch": 16,
+        "luchtig": 103,
+        "luchtig-nederlands": 7
+      },
+      "actualPositions": {
+        "lees": 317,
+        "dutch": 23,
+        "short": 182,
+        "short-dutch": 16,
+        "luchtig": 103,
+        "luchtig-nederlands": 7
+      }
+    },
+    "01kyecz4d85v3458hk05y2eksd": {
+      "baseScore": 50,
+      "adjustment": 0,
+      "adjustmentReason": null,
+      "score": 50,
+      "tier": "midden",
+      "components": {
+        "kerninteresse": 30,
+        "diepgang": 0,
+        "persoonlijke_bruikbaarheid": 10,
+        "leeskans": 5,
+        "onderscheidende_duurzame_waarde": 5,
+        "aftrek": 0
+      },
+      "rationale": {
+        "kerninteresse": [
+          "Eén kerndomein: cultuur_games_film."
+        ],
+        "diepgang": [],
+        "persoonlijke_bruikbaarheid": [
+          "Indirect bruikbaar via een kerndomein."
+        ],
+        "leeskans": [
+          "Korte leestijd: 2 minuten."
+        ],
+        "onderscheidende_duurzame_waarde": [
+          "Aansluiting bij een kerndomein."
+        ],
+        "aftrek": []
+      },
+      "sequences": [
+        "lees",
+        "short",
+        "luchtig"
+      ],
+      "positions": {
+        "lees": 460,
+        "short": 234,
+        "luchtig": 149
+      },
+      "actualPositions": {
+        "lees": 460,
+        "short": 234,
+        "luchtig": 149
       }
     },
     "01kye6cwzsz29j9v1g53fzfy45": {
@@ -6842,12 +8481,60 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 176,
-        "short": 92
+        "lees": 198,
+        "short": 106
       },
       "actualPositions": {
-        "lees": 176,
-        "short": 92
+        "lees": 198,
+        "short": 106
+      }
+    },
+    "01kycfev2jfr2v5x5pqr2scxz7": {
+      "baseScore": 75,
+      "adjustment": 0,
+      "adjustmentReason": null,
+      "score": 75,
+      "tier": "hoog",
+      "components": {
+        "kerninteresse": 45,
+        "diepgang": 10,
+        "persoonlijke_bruikbaarheid": 10,
+        "leeskans": 5,
+        "onderscheidende_duurzame_waarde": 5,
+        "aftrek": 0
+      },
+      "rationale": {
+        "kerninteresse": [
+          "Minstens twee kerndomeinen: filosofie, ideologie."
+        ],
+        "diepgang": [
+          "1.249 woorden."
+        ],
+        "persoonlijke_bruikbaarheid": [
+          "Indirect bruikbaar via een kerndomein."
+        ],
+        "leeskans": [
+          "Korte leestijd: 5 minuten."
+        ],
+        "onderscheidende_duurzame_waarde": [
+          "Minstens 1.200 woorden."
+        ],
+        "aftrek": []
+      },
+      "sequences": [
+        "lees",
+        "short",
+        "luchtig"
+      ],
+      "positions": {
+        "lees": 97,
+        "short": 55,
+        "luchtig": 25
+      },
+      "actualPositions": {
+        "lees": 97,
+        "short": 55,
+        "luchtig": 25
       }
     },
     "01kyahjepdw40gz095ewf05r80": {
@@ -6884,10 +8571,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 175
+        "lees": 197
       },
       "actualPositions": {
-        "lees": 175
+        "lees": 197
       }
     },
     "01kyab47vf7vat0n76fpwrgrj6": {
@@ -6924,10 +8611,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 38
+        "lees": 43
       },
       "actualPositions": {
-        "lees": 38
+        "lees": 43
       }
     },
     "01ky9h8ag25gnvtqwtnwk0m1k4": {
@@ -6968,6 +8655,48 @@ window.TOP_ARTICLE_PRIORITY = {
         "pdf": 24
       }
     },
+    "01ky972zwy30bpq13n8b1sw7sw": {
+      "baseScore": 25,
+      "adjustment": 0,
+      "adjustmentReason": null,
+      "score": 25,
+      "tier": "laag",
+      "components": {
+        "kerninteresse": 0,
+        "diepgang": 0,
+        "persoonlijke_bruikbaarheid": 20,
+        "leeskans": 5,
+        "onderscheidende_duurzame_waarde": 0,
+        "aftrek": 0
+      },
+      "rationale": {
+        "kerninteresse": [],
+        "diepgang": [],
+        "persoonlijke_bruikbaarheid": [
+          "Waarom lezen noemt: werk."
+        ],
+        "leeskans": [
+          "Korte leestijd: 4 minuten."
+        ],
+        "onderscheidende_duurzame_waarde": [],
+        "aftrek": []
+      },
+      "sequences": [
+        "lees",
+        "short",
+        "luchtig"
+      ],
+      "positions": {
+        "lees": 565,
+        "short": 299,
+        "luchtig": 190
+      },
+      "actualPositions": {
+        "lees": 565,
+        "short": 299,
+        "luchtig": 190
+      }
+    },
     "01ky7y54f3cb0xcxn9nyexpkzw": {
       "baseScore": 75,
       "adjustment": 0,
@@ -7005,12 +8734,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 86,
-        "short": 49
+        "lees": 96,
+        "short": 54
       },
       "actualPositions": {
-        "lees": 86,
-        "short": 49
+        "lees": 96,
+        "short": 54
       }
     },
     "01ky7rxntf6dz2x70h2w6vgtqr": {
@@ -7047,10 +8776,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 174
+        "lees": 196
       },
       "actualPositions": {
-        "lees": 174
+        "lees": 196
       }
     },
     "01ky7rnb3ej3419mmtg3q5ay7f": {
@@ -7087,10 +8816,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 173
+        "lees": 195
       },
       "actualPositions": {
-        "lees": 173
+        "lees": 195
       }
     },
     "01ky7qe9p9qwtpk49bzc4pqqhk": {
@@ -7130,12 +8859,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 85,
-        "short": 48
+        "lees": 95,
+        "short": 53
       },
       "actualPositions": {
-        "lees": 85,
-        "short": 48
+        "lees": 95,
+        "short": 53
       }
     },
     "01ky7pzxyrez4t2fwfa1cddbw9": {
@@ -7170,10 +8899,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 444
+        "lees": 551
       },
       "actualPositions": {
-        "lees": 441
+        "lees": 551
       }
     },
     "01ky7n2t9kh67a9rabta0hwczs": {
@@ -7210,10 +8939,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 342
+        "lees": 406
       },
       "actualPositions": {
-        "lees": 342
+        "lees": 406
       }
     },
     "01ky7n1payjs47v58cfqd47w6z": {
@@ -7364,10 +9093,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 172
+        "lees": 194
       },
       "actualPositions": {
-        "lees": 172
+        "lees": 194
       }
     },
     "01ky7msvp0ngc4st73axard7qv": {
@@ -7402,10 +9131,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 383
+        "lees": 476
       },
       "actualPositions": {
-        "lees": 380
+        "lees": 476
       }
     },
     "01ky7mstrf89d3yb8qgzjpajrb": {
@@ -7479,12 +9208,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 370,
-        "short": 169
+        "lees": 459,
+        "short": 233
       },
       "actualPositions": {
-        "lees": 368,
-        "short": 169
+        "lees": 459,
+        "short": 233
       }
     },
     "01ky7md09dzgwfh5dxnz8yjwbc": {
@@ -7603,6 +9332,48 @@ window.TOP_ARTICLE_PRIORITY = {
         "pdf": 13
       }
     },
+    "01ky7jrgh9rannrgmbg1nwxyxb": {
+      "baseScore": 20,
+      "adjustment": 0,
+      "adjustmentReason": null,
+      "score": 20,
+      "tier": "laag",
+      "components": {
+        "kerninteresse": 15,
+        "diepgang": 0,
+        "persoonlijke_bruikbaarheid": 0,
+        "leeskans": 5,
+        "onderscheidende_duurzame_waarde": 0,
+        "aftrek": 0
+      },
+      "rationale": {
+        "kerninteresse": [
+          "Alleen een aangrenzend onderwerp."
+        ],
+        "diepgang": [],
+        "persoonlijke_bruikbaarheid": [],
+        "leeskans": [
+          "Korte leestijd: 4 minuten."
+        ],
+        "onderscheidende_duurzame_waarde": [],
+        "aftrek": []
+      },
+      "sequences": [
+        "lees",
+        "short",
+        "luchtig"
+      ],
+      "positions": {
+        "lees": 583,
+        "short": 317,
+        "luchtig": 198
+      },
+      "actualPositions": {
+        "lees": 583,
+        "short": 317,
+        "luchtig": 198
+      }
+    },
     "01ky7jrg1n7trqqbw2b1914kmc": {
       "baseScore": 70,
       "adjustment": 0,
@@ -7637,10 +9408,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 171
+        "lees": 193
       },
       "actualPositions": {
-        "lees": 171
+        "lees": 193
       }
     },
     "01ky7jrfefqkv3180t6q9eqbjk": {
@@ -7677,10 +9448,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 170
+        "lees": 192
       },
       "actualPositions": {
-        "lees": 170
+        "lees": 192
       }
     },
     "01ky7jrexxwmsfs69nz3te7s86": {
@@ -7717,10 +9488,56 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 169
+        "lees": 191
       },
       "actualPositions": {
-        "lees": 169
+        "lees": 191
+      }
+    },
+    "01ky7jr9fzhv4h5e988f76rxth": {
+      "baseScore": 35,
+      "adjustment": 0,
+      "adjustmentReason": null,
+      "score": 35,
+      "tier": "laag",
+      "components": {
+        "kerninteresse": 15,
+        "diepgang": 10,
+        "persoonlijke_bruikbaarheid": 0,
+        "leeskans": 5,
+        "onderscheidende_duurzame_waarde": 5,
+        "aftrek": 0
+      },
+      "rationale": {
+        "kerninteresse": [
+          "Alleen een aangrenzend onderwerp."
+        ],
+        "diepgang": [
+          "2.018 woorden."
+        ],
+        "persoonlijke_bruikbaarheid": [],
+        "leeskans": [
+          "Korte leestijd: 8 minuten."
+        ],
+        "onderscheidende_duurzame_waarde": [
+          "Minstens 1.200 woorden."
+        ],
+        "aftrek": []
+      },
+      "sequences": [
+        "lees",
+        "short",
+        "luchtig"
+      ],
+      "positions": {
+        "lees": 528,
+        "short": 285,
+        "luchtig": 176
+      },
+      "actualPositions": {
+        "lees": 528,
+        "short": 285,
+        "luchtig": 176
       }
     },
     "01ky7jr7b2vzxpcgjrbkj0w8ek": {
@@ -7795,11 +9612,151 @@ window.TOP_ARTICLE_PRIORITY = {
       ],
       "positions": {
         "pdf": 18,
-        "luchtig": 98
+        "luchtig": 156
       },
       "actualPositions": {
         "pdf": 18,
-        "luchtig": 97
+        "luchtig": 156
+      }
+    },
+    "01ky6y1kzn6rvqmzqvj41ks8m0": {
+      "baseScore": 30,
+      "adjustment": 0,
+      "adjustmentReason": null,
+      "score": 30,
+      "tier": "laag",
+      "components": {
+        "kerninteresse": 15,
+        "diepgang": 10,
+        "persoonlijke_bruikbaarheid": 0,
+        "leeskans": 5,
+        "onderscheidende_duurzame_waarde": 0,
+        "aftrek": 0
+      },
+      "rationale": {
+        "kerninteresse": [
+          "Alleen een aangrenzend onderwerp."
+        ],
+        "diepgang": [
+          "Verdiepend signaal in de tekst: analyse."
+        ],
+        "persoonlijke_bruikbaarheid": [],
+        "leeskans": [
+          "Korte leestijd: 4 minuten."
+        ],
+        "onderscheidende_duurzame_waarde": [],
+        "aftrek": []
+      },
+      "sequences": [
+        "lees",
+        "short",
+        "luchtig"
+      ],
+      "positions": {
+        "lees": 550,
+        "short": 295,
+        "luchtig": 182
+      },
+      "actualPositions": {
+        "lees": 550,
+        "short": 295,
+        "luchtig": 182
+      }
+    },
+    "01ky6y1g55qsprt9r2h4jm394c": {
+      "baseScore": 60,
+      "adjustment": 0,
+      "adjustmentReason": null,
+      "score": 60,
+      "tier": "midden",
+      "components": {
+        "kerninteresse": 30,
+        "diepgang": 10,
+        "persoonlijke_bruikbaarheid": 10,
+        "leeskans": 5,
+        "onderscheidende_duurzame_waarde": 5,
+        "aftrek": 0
+      },
+      "rationale": {
+        "kerninteresse": [
+          "Eén kerndomein: sociologie."
+        ],
+        "diepgang": [
+          "1.656 woorden."
+        ],
+        "persoonlijke_bruikbaarheid": [
+          "Indirect bruikbaar via een kerndomein."
+        ],
+        "leeskans": [
+          "Korte leestijd: 7 minuten."
+        ],
+        "onderscheidende_duurzame_waarde": [
+          "Minstens 1.200 woorden."
+        ],
+        "aftrek": []
+      },
+      "sequences": [
+        "lees",
+        "short",
+        "luchtig"
+      ],
+      "positions": {
+        "lees": 316,
+        "short": 181,
+        "luchtig": 102
+      },
+      "actualPositions": {
+        "lees": 316,
+        "short": 181,
+        "luchtig": 102
+      }
+    },
+    "01ky6y16248j11hb1j0sv13b5t": {
+      "baseScore": 60,
+      "adjustment": 0,
+      "adjustmentReason": null,
+      "score": 60,
+      "tier": "midden",
+      "components": {
+        "kerninteresse": 30,
+        "diepgang": 10,
+        "persoonlijke_bruikbaarheid": 10,
+        "leeskans": 5,
+        "onderscheidende_duurzame_waarde": 5,
+        "aftrek": 0
+      },
+      "rationale": {
+        "kerninteresse": [
+          "Eén kerndomein: filosofie."
+        ],
+        "diepgang": [
+          "1.587 woorden."
+        ],
+        "persoonlijke_bruikbaarheid": [
+          "Indirect bruikbaar via een kerndomein."
+        ],
+        "leeskans": [
+          "Korte leestijd: 6 minuten."
+        ],
+        "onderscheidende_duurzame_waarde": [
+          "Minstens 1.200 woorden."
+        ],
+        "aftrek": []
+      },
+      "sequences": [
+        "lees",
+        "short",
+        "luchtig"
+      ],
+      "positions": {
+        "lees": 315,
+        "short": 180,
+        "luchtig": 101
+      },
+      "actualPositions": {
+        "lees": 315,
+        "short": 180,
+        "luchtig": 101
       }
     },
     "01ky6y14z2k839g46kyyn7vba1": {
@@ -7837,12 +9794,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 220,
-        "short": 101
+        "lees": 252,
+        "short": 119
       },
       "actualPositions": {
-        "lees": 220,
-        "short": 101
+        "lees": 252,
+        "short": 119
       }
     },
     "01ky6y11rnw2se0aen1ywm2q8w": {
@@ -7879,10 +9836,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 341
+        "lees": 405
       },
       "actualPositions": {
-        "lees": 341
+        "lees": 405
       }
     },
     "01ky6y112ahhdfz7zdrw7w1jkc": {
@@ -7922,12 +9879,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 84,
-        "short": 47
+        "lees": 94,
+        "short": 52
       },
       "actualPositions": {
-        "lees": 84,
-        "short": 47
+        "lees": 94,
+        "short": 52
       }
     },
     "01ky6y0z3wkzmdhty7gq3qa1wz": {
@@ -7964,10 +9921,56 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 37
+        "lees": 42
       },
       "actualPositions": {
-        "lees": 37
+        "lees": 42
+      }
+    },
+    "01ky6y0xvxqe84zhr9dnj4b5cg": {
+      "baseScore": 50,
+      "adjustment": 0,
+      "adjustmentReason": null,
+      "score": 50,
+      "tier": "midden",
+      "components": {
+        "kerninteresse": 30,
+        "diepgang": 0,
+        "persoonlijke_bruikbaarheid": 10,
+        "leeskans": 5,
+        "onderscheidende_duurzame_waarde": 5,
+        "aftrek": 0
+      },
+      "rationale": {
+        "kerninteresse": [
+          "Eén kerndomein: geschiedenis."
+        ],
+        "diepgang": [],
+        "persoonlijke_bruikbaarheid": [
+          "Indirect bruikbaar via een kerndomein."
+        ],
+        "leeskans": [
+          "Korte leestijd: 3 minuten."
+        ],
+        "onderscheidende_duurzame_waarde": [
+          "Aansluiting bij een kerndomein."
+        ],
+        "aftrek": []
+      },
+      "sequences": [
+        "lees",
+        "short",
+        "luchtig"
+      ],
+      "positions": {
+        "lees": 458,
+        "short": 232,
+        "luchtig": 148
+      },
+      "actualPositions": {
+        "lees": 458,
+        "short": 232,
+        "luchtig": 148
       }
     },
     "01ky6y0vpey9hnw6ynvksnnn0j": {
@@ -8004,10 +10007,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 340
+        "lees": 404
       },
       "actualPositions": {
-        "lees": 340
+        "lees": 404
       }
     },
     "01ky6y0rhhn83s070ndp1ds299": {
@@ -8044,10 +10047,56 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 168
+        "lees": 190
       },
       "actualPositions": {
-        "lees": 168
+        "lees": 190
+      }
+    },
+    "01ky6y0qmjfq005jxq0a8tvtw8": {
+      "baseScore": 50,
+      "adjustment": 0,
+      "adjustmentReason": null,
+      "score": 50,
+      "tier": "midden",
+      "components": {
+        "kerninteresse": 30,
+        "diepgang": 0,
+        "persoonlijke_bruikbaarheid": 10,
+        "leeskans": 5,
+        "onderscheidende_duurzame_waarde": 5,
+        "aftrek": 0
+      },
+      "rationale": {
+        "kerninteresse": [
+          "Eén kerndomein: ai_ethiek."
+        ],
+        "diepgang": [],
+        "persoonlijke_bruikbaarheid": [
+          "Indirect bruikbaar via een kerndomein."
+        ],
+        "leeskans": [
+          "Korte leestijd: 5 minuten."
+        ],
+        "onderscheidende_duurzame_waarde": [
+          "Aansluiting bij een kerndomein."
+        ],
+        "aftrek": []
+      },
+      "sequences": [
+        "lees",
+        "short",
+        "luchtig"
+      ],
+      "positions": {
+        "lees": 457,
+        "short": 231,
+        "luchtig": 147
+      },
+      "actualPositions": {
+        "lees": 457,
+        "short": 231,
+        "luchtig": 147
       }
     },
     "01ky6y0nhqr5zvg2wnj7d1hre9": {
@@ -8084,10 +10133,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 167
+        "lees": 189
       },
       "actualPositions": {
-        "lees": 167
+        "lees": 189
       }
     },
     "01ky6y0m8j0tnyke57d6q3ehaa": {
@@ -8127,12 +10176,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 260,
-        "short": 139
+        "lees": 314,
+        "short": 179
       },
       "actualPositions": {
-        "lees": 260,
-        "short": 139
+        "lees": 314,
+        "short": 179
       }
     },
     "01ky6y0j4yaxqm3hxn6dmtg3cd": {
@@ -8166,12 +10215,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 455,
-        "luchtig": 118
+        "lees": 564,
+        "luchtig": 189
       },
       "actualPositions": {
-        "lees": 450,
-        "luchtig": 115
+        "lees": 564,
+        "luchtig": 189
       }
     },
     "01ky6y0ffj0t71kter8gv25vx3": {
@@ -8208,10 +10257,104 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 166
+        "lees": 188
       },
       "actualPositions": {
-        "lees": 166
+        "lees": 188
+      }
+    },
+    "01ky6y0c8yacchgqayg8gt7hgz": {
+      "baseScore": 60,
+      "adjustment": 0,
+      "adjustmentReason": null,
+      "score": 60,
+      "tier": "midden",
+      "components": {
+        "kerninteresse": 30,
+        "diepgang": 10,
+        "persoonlijke_bruikbaarheid": 10,
+        "leeskans": 5,
+        "onderscheidende_duurzame_waarde": 5,
+        "aftrek": 0
+      },
+      "rationale": {
+        "kerninteresse": [
+          "Eén kerndomein: geschiedenis."
+        ],
+        "diepgang": [
+          "2.338 woorden."
+        ],
+        "persoonlijke_bruikbaarheid": [
+          "Indirect bruikbaar via een kerndomein."
+        ],
+        "leeskans": [
+          "Korte leestijd: 9 minuten."
+        ],
+        "onderscheidende_duurzame_waarde": [
+          "Minstens 1.200 woorden."
+        ],
+        "aftrek": []
+      },
+      "sequences": [
+        "lees",
+        "short",
+        "luchtig"
+      ],
+      "positions": {
+        "lees": 313,
+        "short": 178,
+        "luchtig": 100
+      },
+      "actualPositions": {
+        "lees": 313,
+        "short": 178,
+        "luchtig": 100
+      }
+    },
+    "01ky2j8fcsjaz2j5myvxgfba8c": {
+      "baseScore": 50,
+      "adjustment": 0,
+      "adjustmentReason": null,
+      "score": 50,
+      "tier": "midden",
+      "components": {
+        "kerninteresse": 30,
+        "diepgang": 0,
+        "persoonlijke_bruikbaarheid": 10,
+        "leeskans": 5,
+        "onderscheidende_duurzame_waarde": 5,
+        "aftrek": 0
+      },
+      "rationale": {
+        "kerninteresse": [
+          "Eén kerndomein: schrijven."
+        ],
+        "diepgang": [],
+        "persoonlijke_bruikbaarheid": [
+          "Indirect bruikbaar via een kerndomein."
+        ],
+        "leeskans": [
+          "Korte leestijd: 5 minuten."
+        ],
+        "onderscheidende_duurzame_waarde": [
+          "Aansluiting bij een kerndomein."
+        ],
+        "aftrek": []
+      },
+      "sequences": [
+        "lees",
+        "short",
+        "luchtig"
+      ],
+      "positions": {
+        "lees": 456,
+        "short": 230,
+        "luchtig": 146
+      },
+      "actualPositions": {
+        "lees": 456,
+        "short": 230,
+        "luchtig": 146
       }
     },
     "01ky1dg1x4a52g9xbbhyc5d7xn": {
@@ -8251,12 +10394,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 259,
-        "short": 138
+        "lees": 312,
+        "short": 177
       },
       "actualPositions": {
-        "lees": 259,
-        "short": 138
+        "lees": 312,
+        "short": 177
       }
     },
     "01ky09ekmjq5ncqpcbbkx4n7db": {
@@ -8294,12 +10437,106 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 219,
-        "short": 100
+        "lees": 251,
+        "short": 118
       },
       "actualPositions": {
-        "lees": 219,
-        "short": 100
+        "lees": 251,
+        "short": 118
+      }
+    },
+    "01ky04rrda8nam4ym00qqfep0b": {
+      "baseScore": 60,
+      "adjustment": 0,
+      "adjustmentReason": null,
+      "score": 60,
+      "tier": "midden",
+      "components": {
+        "kerninteresse": 30,
+        "diepgang": 10,
+        "persoonlijke_bruikbaarheid": 10,
+        "leeskans": 5,
+        "onderscheidende_duurzame_waarde": 5,
+        "aftrek": 0
+      },
+      "rationale": {
+        "kerninteresse": [
+          "Eén kerndomein: filosofie."
+        ],
+        "diepgang": [
+          "1.853 woorden."
+        ],
+        "persoonlijke_bruikbaarheid": [
+          "Indirect bruikbaar via een kerndomein."
+        ],
+        "leeskans": [
+          "Korte leestijd: 7 minuten."
+        ],
+        "onderscheidende_duurzame_waarde": [
+          "Minstens 1.200 woorden."
+        ],
+        "aftrek": []
+      },
+      "sequences": [
+        "lees",
+        "short",
+        "luchtig"
+      ],
+      "positions": {
+        "lees": 311,
+        "short": 176,
+        "luchtig": 99
+      },
+      "actualPositions": {
+        "lees": 311,
+        "short": 176,
+        "luchtig": 99
+      }
+    },
+    "01kxzwh5h47k1af92j784c5zvv": {
+      "baseScore": 50,
+      "adjustment": 0,
+      "adjustmentReason": null,
+      "score": 50,
+      "tier": "midden",
+      "components": {
+        "kerninteresse": 15,
+        "diepgang": 10,
+        "persoonlijke_bruikbaarheid": 20,
+        "leeskans": 5,
+        "onderscheidende_duurzame_waarde": 0,
+        "aftrek": 0
+      },
+      "rationale": {
+        "kerninteresse": [
+          "Alleen een aangrenzend onderwerp."
+        ],
+        "diepgang": [
+          "Verdiepend signaal in de tekst: essay."
+        ],
+        "persoonlijke_bruikbaarheid": [
+          "Waarom lezen noemt: schrijven."
+        ],
+        "leeskans": [
+          "Korte leestijd: 5 minuten."
+        ],
+        "onderscheidende_duurzame_waarde": [],
+        "aftrek": []
+      },
+      "sequences": [
+        "lees",
+        "short",
+        "luchtig"
+      ],
+      "positions": {
+        "lees": 455,
+        "short": 229,
+        "luchtig": 145
+      },
+      "actualPositions": {
+        "lees": 455,
+        "short": 229,
+        "luchtig": 145
       }
     },
     "01kxzghzvbjtnr20f8vwmwc8s5": {
@@ -8339,12 +10576,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 83,
-        "short": 46
+        "lees": 93,
+        "short": 51
       },
       "actualPositions": {
-        "lees": 83,
-        "short": 46
+        "lees": 93,
+        "short": 51
       }
     },
     "01kxy1qnae4npandc4x9mv4aw0": {
@@ -8385,14 +10622,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 82,
-        "short": 45,
-        "luchtig": 21
+        "lees": 92,
+        "short": 50,
+        "luchtig": 24
       },
       "actualPositions": {
-        "lees": 82,
-        "short": 45,
-        "luchtig": 21
+        "lees": 92,
+        "short": 50,
+        "luchtig": 24
       }
     },
     "01kxy1qkwpt5xkmvy06pz6bqvr": {
@@ -8431,14 +10668,106 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 218,
-        "short": 99,
-        "luchtig": 51
+        "lees": 250,
+        "short": 117,
+        "luchtig": 66
       },
       "actualPositions": {
-        "lees": 218,
-        "short": 99,
-        "luchtig": 51
+        "lees": 250,
+        "short": 117,
+        "luchtig": 66
+      }
+    },
+    "01kxv1e0y86z0rxym83kqvk11c": {
+      "baseScore": 50,
+      "adjustment": 0,
+      "adjustmentReason": null,
+      "score": 50,
+      "tier": "midden",
+      "components": {
+        "kerninteresse": 30,
+        "diepgang": 0,
+        "persoonlijke_bruikbaarheid": 10,
+        "leeskans": 5,
+        "onderscheidende_duurzame_waarde": 5,
+        "aftrek": 0
+      },
+      "rationale": {
+        "kerninteresse": [
+          "Eén kerndomein: geschiedenis."
+        ],
+        "diepgang": [],
+        "persoonlijke_bruikbaarheid": [
+          "Indirect bruikbaar via een kerndomein."
+        ],
+        "leeskans": [
+          "Korte leestijd: 5 minuten."
+        ],
+        "onderscheidende_duurzame_waarde": [
+          "Aansluiting bij een kerndomein."
+        ],
+        "aftrek": []
+      },
+      "sequences": [
+        "lees",
+        "short",
+        "luchtig"
+      ],
+      "positions": {
+        "lees": 454,
+        "short": 228,
+        "luchtig": 144
+      },
+      "actualPositions": {
+        "lees": 454,
+        "short": 228,
+        "luchtig": 144
+      }
+    },
+    "01kxteh0w2b3cxcbwv20ds3rnn": {
+      "baseScore": 35,
+      "adjustment": 0,
+      "adjustmentReason": null,
+      "score": 35,
+      "tier": "laag",
+      "components": {
+        "kerninteresse": 15,
+        "diepgang": 10,
+        "persoonlijke_bruikbaarheid": 0,
+        "leeskans": 5,
+        "onderscheidende_duurzame_waarde": 5,
+        "aftrek": 0
+      },
+      "rationale": {
+        "kerninteresse": [
+          "Alleen een aangrenzend onderwerp."
+        ],
+        "diepgang": [
+          "1.824 woorden."
+        ],
+        "persoonlijke_bruikbaarheid": [],
+        "leeskans": [
+          "Korte leestijd: 7 minuten."
+        ],
+        "onderscheidende_duurzame_waarde": [
+          "Minstens 1.200 woorden."
+        ],
+        "aftrek": []
+      },
+      "sequences": [
+        "lees",
+        "short",
+        "luchtig"
+      ],
+      "positions": {
+        "lees": 527,
+        "short": 284,
+        "luchtig": 175
+      },
+      "actualPositions": {
+        "lees": 527,
+        "short": 284,
+        "luchtig": 175
       }
     },
     "01kxt2ck3racyjkf19zhr9e0cr": {
@@ -8484,6 +10813,46 @@ window.TOP_ARTICLE_PRIORITY = {
       "actualPositions": {
         "lees": 1,
         "short": 1
+      }
+    },
+    "01kxsqwp29h2rw9abx4ptaf1jk": {
+      "baseScore": 5,
+      "adjustment": 0,
+      "adjustmentReason": null,
+      "score": 5,
+      "tier": "laag",
+      "components": {
+        "kerninteresse": 0,
+        "diepgang": 0,
+        "persoonlijke_bruikbaarheid": 0,
+        "leeskans": 5,
+        "onderscheidende_duurzame_waarde": 0,
+        "aftrek": 0
+      },
+      "rationale": {
+        "kerninteresse": [],
+        "diepgang": [],
+        "persoonlijke_bruikbaarheid": [],
+        "leeskans": [
+          "Korte leestijd: 1 minuten."
+        ],
+        "onderscheidende_duurzame_waarde": [],
+        "aftrek": []
+      },
+      "sequences": [
+        "lees",
+        "short",
+        "luchtig"
+      ],
+      "positions": {
+        "lees": 631,
+        "short": 345,
+        "luchtig": 217
+      },
+      "actualPositions": {
+        "lees": 631,
+        "short": 345,
+        "luchtig": 217
       }
     },
     "01kxrwf09cedgmcejrqnnjbdbn": {
@@ -8560,10 +10929,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 339
+        "lees": 403
       },
       "actualPositions": {
-        "lees": 339
+        "lees": 403
       }
     },
     "01kxr18pz677fa7xqfav7sp2dp": {
@@ -8600,10 +10969,52 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 36
+        "lees": 41
       },
       "actualPositions": {
-        "lees": 36
+        "lees": 41
+      }
+    },
+    "01kxq69jsxxmy5fqx81twtbvpy": {
+      "baseScore": 25,
+      "adjustment": 0,
+      "adjustmentReason": null,
+      "score": 25,
+      "tier": "laag",
+      "components": {
+        "kerninteresse": 0,
+        "diepgang": 0,
+        "persoonlijke_bruikbaarheid": 20,
+        "leeskans": 5,
+        "onderscheidende_duurzame_waarde": 0,
+        "aftrek": 0
+      },
+      "rationale": {
+        "kerninteresse": [],
+        "diepgang": [],
+        "persoonlijke_bruikbaarheid": [
+          "Waarom lezen noemt: werk."
+        ],
+        "leeskans": [
+          "Korte leestijd: 4 minuten."
+        ],
+        "onderscheidende_duurzame_waarde": [],
+        "aftrek": []
+      },
+      "sequences": [
+        "lees",
+        "short",
+        "luchtig"
+      ],
+      "positions": {
+        "lees": 563,
+        "short": 298,
+        "luchtig": 188
+      },
+      "actualPositions": {
+        "lees": 563,
+        "short": 298,
+        "luchtig": 188
       }
     },
     "01kxpg8mpkegghvbz5w71ne86v": {
@@ -8643,12 +11054,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 81,
-        "short": 44
+        "lees": 91,
+        "short": 49
       },
       "actualPositions": {
-        "lees": 81,
-        "short": 44
+        "lees": 91,
+        "short": 49
       }
     },
     "01kxnb62h0xcdf2fckgrcrcp1v": {
@@ -8685,10 +11096,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 164
+        "lees": 186
       },
       "actualPositions": {
-        "lees": 164
+        "lees": 186
       }
     },
     "01kxn6sfvvpwapf12145w6x7sv": {
@@ -8726,12 +11137,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 217,
-        "luchtig": 50
+        "lees": 249,
+        "luchtig": 65
       },
       "actualPositions": {
-        "lees": 217,
-        "luchtig": 50
+        "lees": 249,
+        "luchtig": 65
       }
     },
     "01kxk3f7s0grvb82q3cfa7rxwa": {
@@ -8765,12 +11176,56 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 454,
-        "luchtig": 117
+        "lees": 562,
+        "luchtig": 187
       },
       "actualPositions": {
-        "lees": 449,
-        "luchtig": 114
+        "lees": 562,
+        "luchtig": 187
+      }
+    },
+    "01kxk1p9p14yah265krgprpkzc": {
+      "baseScore": 35,
+      "adjustment": 0,
+      "adjustmentReason": null,
+      "score": 35,
+      "tier": "laag",
+      "components": {
+        "kerninteresse": 0,
+        "diepgang": 10,
+        "persoonlijke_bruikbaarheid": 20,
+        "leeskans": 5,
+        "onderscheidende_duurzame_waarde": 0,
+        "aftrek": 0
+      },
+      "rationale": {
+        "kerninteresse": [],
+        "diepgang": [
+          "Verdiepend signaal in de tekst: essay."
+        ],
+        "persoonlijke_bruikbaarheid": [
+          "Waarom lezen noemt: werk."
+        ],
+        "leeskans": [
+          "Korte leestijd: 5 minuten."
+        ],
+        "onderscheidende_duurzame_waarde": [],
+        "aftrek": []
+      },
+      "sequences": [
+        "lees",
+        "short",
+        "luchtig"
+      ],
+      "positions": {
+        "lees": 526,
+        "short": 283,
+        "luchtig": 174
+      },
+      "actualPositions": {
+        "lees": 526,
+        "short": 283,
+        "luchtig": 174
       }
     },
     "01kxk0f5xscnb3hqq0r0r6s3xc": {
@@ -8811,6 +11266,54 @@ window.TOP_ARTICLE_PRIORITY = {
       },
       "actualPositions": {
         "boek": 23
+      }
+    },
+    "01kxjrmc56n9mg2wfecsfebj0g": {
+      "baseScore": 60,
+      "adjustment": 0,
+      "adjustmentReason": null,
+      "score": 60,
+      "tier": "midden",
+      "components": {
+        "kerninteresse": 30,
+        "diepgang": 10,
+        "persoonlijke_bruikbaarheid": 10,
+        "leeskans": 5,
+        "onderscheidende_duurzame_waarde": 5,
+        "aftrek": 0
+      },
+      "rationale": {
+        "kerninteresse": [
+          "Eén kerndomein: geschiedenis."
+        ],
+        "diepgang": [
+          "1.746 woorden."
+        ],
+        "persoonlijke_bruikbaarheid": [
+          "Indirect bruikbaar via een kerndomein."
+        ],
+        "leeskans": [
+          "Korte leestijd: 7 minuten."
+        ],
+        "onderscheidende_duurzame_waarde": [
+          "Minstens 1.200 woorden."
+        ],
+        "aftrek": []
+      },
+      "sequences": [
+        "lees",
+        "short",
+        "luchtig"
+      ],
+      "positions": {
+        "lees": 310,
+        "short": 175,
+        "luchtig": 98
+      },
+      "actualPositions": {
+        "lees": 310,
+        "short": 175,
+        "luchtig": 98
       }
     },
     "01kxh3dc0gn9f96vqa7s1t9fnw": {
@@ -9042,16 +11545,16 @@ window.TOP_ARTICLE_PRIORITY = {
         "short-dutch"
       ],
       "positions": {
-        "lees": 443,
-        "dutch": 30,
-        "short": 216,
-        "short-dutch": 19
+        "lees": 549,
+        "dutch": 40,
+        "short": 294,
+        "short-dutch": 28
       },
       "actualPositions": {
-        "lees": 440,
-        "dutch": 30,
-        "short": 216,
-        "short-dutch": 19
+        "lees": 549,
+        "dutch": 40,
+        "short": 294,
+        "short-dutch": 28
       }
     },
     "01kxdxc6p0ak362egdgc5y858j": {
@@ -9089,12 +11592,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 425,
-        "short": 208
+        "lees": 525,
+        "short": 282
       },
       "actualPositions": {
-        "lees": 422,
-        "short": 208
+        "lees": 525,
+        "short": 282
       }
     },
     "01kxdxaytaf6tm6ntqnc9vdw18": {
@@ -9134,12 +11637,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 80,
-        "short": 43
+        "lees": 90,
+        "short": 48
       },
       "actualPositions": {
-        "lees": 80,
-        "short": 43
+        "lees": 90,
+        "short": 48
       }
     },
     "01kxc0erjj2ab1baa55px4kpye": {
@@ -9179,12 +11682,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 258,
-        "short": 137
+        "lees": 309,
+        "short": 174
       },
       "actualPositions": {
-        "lees": 258,
-        "short": 137
+        "lees": 309,
+        "short": 174
       }
     },
     "01kxc0c7xf8ksb9n8m8z8j5d0c": {
@@ -9221,10 +11724,115 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 216
+        "lees": 248
       },
       "actualPositions": {
-        "lees": 216
+        "lees": 248
+      }
+    },
+    "01kxabe372k5htmjxz8bxdan0f": {
+      "baseScore": 60,
+      "adjustment": 0,
+      "adjustmentReason": null,
+      "score": 60,
+      "tier": "midden",
+      "components": {
+        "kerninteresse": 30,
+        "diepgang": 10,
+        "persoonlijke_bruikbaarheid": 10,
+        "leeskans": 5,
+        "onderscheidende_duurzame_waarde": 5,
+        "aftrek": 0
+      },
+      "rationale": {
+        "kerninteresse": [
+          "Eén kerndomein: sociologie."
+        ],
+        "diepgang": [
+          "Verdiepend signaal in de tekst: analyse."
+        ],
+        "persoonlijke_bruikbaarheid": [
+          "Indirect bruikbaar via een kerndomein."
+        ],
+        "leeskans": [
+          "Korte leestijd: 5 minuten."
+        ],
+        "onderscheidende_duurzame_waarde": [
+          "Aansluiting bij een kerndomein."
+        ],
+        "aftrek": []
+      },
+      "sequences": [
+        "lees",
+        "dutch",
+        "short",
+        "short-dutch",
+        "luchtig",
+        "luchtig-nederlands"
+      ],
+      "positions": {
+        "lees": 308,
+        "dutch": 22,
+        "short": 173,
+        "short-dutch": 15,
+        "luchtig": 97,
+        "luchtig-nederlands": 6
+      },
+      "actualPositions": {
+        "lees": 308,
+        "dutch": 22,
+        "short": 173,
+        "short-dutch": 15,
+        "luchtig": 97,
+        "luchtig-nederlands": 6
+      }
+    },
+    "01kx8dy64p4xqjvp7asc8v98jk": {
+      "baseScore": 60,
+      "adjustment": 0,
+      "adjustmentReason": null,
+      "score": 60,
+      "tier": "midden",
+      "components": {
+        "kerninteresse": 30,
+        "diepgang": 10,
+        "persoonlijke_bruikbaarheid": 10,
+        "leeskans": 5,
+        "onderscheidende_duurzame_waarde": 5,
+        "aftrek": 0
+      },
+      "rationale": {
+        "kerninteresse": [
+          "Eén kerndomein: geschiedenis."
+        ],
+        "diepgang": [
+          "1.756 woorden."
+        ],
+        "persoonlijke_bruikbaarheid": [
+          "Indirect bruikbaar via een kerndomein."
+        ],
+        "leeskans": [
+          "Korte leestijd: 7 minuten."
+        ],
+        "onderscheidende_duurzame_waarde": [
+          "Minstens 1.200 woorden."
+        ],
+        "aftrek": []
+      },
+      "sequences": [
+        "lees",
+        "short",
+        "luchtig"
+      ],
+      "positions": {
+        "lees": 307,
+        "short": 172,
+        "luchtig": 96
+      },
+      "actualPositions": {
+        "lees": 307,
+        "short": 172,
+        "luchtig": 96
       }
     },
     "01kx6d1bhhznxgbxdh0rba1snj": {
@@ -9261,10 +11869,58 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 163
+        "lees": 185
       },
       "actualPositions": {
-        "lees": 163
+        "lees": 185
+      }
+    },
+    "01kx66q5d0pg8whe75n7qr82td": {
+      "baseScore": 75,
+      "adjustment": 0,
+      "adjustmentReason": null,
+      "score": 75,
+      "tier": "hoog",
+      "components": {
+        "kerninteresse": 45,
+        "diepgang": 10,
+        "persoonlijke_bruikbaarheid": 10,
+        "leeskans": 5,
+        "onderscheidende_duurzame_waarde": 5,
+        "aftrek": 0
+      },
+      "rationale": {
+        "kerninteresse": [
+          "Minstens twee kerndomeinen: filosofie, ideologie, schrijven."
+        ],
+        "diepgang": [
+          "1.940 woorden."
+        ],
+        "persoonlijke_bruikbaarheid": [
+          "Indirect bruikbaar via een kerndomein."
+        ],
+        "leeskans": [
+          "Korte leestijd: 8 minuten."
+        ],
+        "onderscheidende_duurzame_waarde": [
+          "Minstens 1.200 woorden."
+        ],
+        "aftrek": []
+      },
+      "sequences": [
+        "lees",
+        "short",
+        "luchtig"
+      ],
+      "positions": {
+        "lees": 89,
+        "short": 47,
+        "luchtig": 23
+      },
+      "actualPositions": {
+        "lees": 89,
+        "short": 47,
+        "luchtig": 23
       }
     },
     "01kx362wervvtvsmcr6aq07a5t": {
@@ -9304,12 +11960,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 257,
-        "short": 136
+        "lees": 306,
+        "short": 171
       },
       "actualPositions": {
-        "lees": 257,
-        "short": 136
+        "lees": 306,
+        "short": 171
       }
     },
     "01kx187j6fsdhx3v99a4np0dwe": {
@@ -9346,10 +12002,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 338
+        "lees": 402
       },
       "actualPositions": {
-        "lees": 338
+        "lees": 402
       }
     },
     "01kx083m8fqj198stjqcd4te6r": {
@@ -9389,12 +12045,154 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 256,
-        "short": 135
+        "lees": 305,
+        "short": 170
       },
       "actualPositions": {
-        "lees": 256,
-        "short": 135
+        "lees": 305,
+        "short": 170
+      }
+    },
+    "01kwy84xrmk8pft1avwy7cser7": {
+      "baseScore": 50,
+      "adjustment": 0,
+      "adjustmentReason": null,
+      "score": 50,
+      "tier": "midden",
+      "components": {
+        "kerninteresse": 30,
+        "diepgang": 0,
+        "persoonlijke_bruikbaarheid": 10,
+        "leeskans": 5,
+        "onderscheidende_duurzame_waarde": 5,
+        "aftrek": 0
+      },
+      "rationale": {
+        "kerninteresse": [
+          "Eén kerndomein: cultuur_games_film."
+        ],
+        "diepgang": [],
+        "persoonlijke_bruikbaarheid": [
+          "Indirect bruikbaar via een kerndomein."
+        ],
+        "leeskans": [
+          "Korte leestijd: 1 minuten."
+        ],
+        "onderscheidende_duurzame_waarde": [
+          "Aansluiting bij een kerndomein."
+        ],
+        "aftrek": []
+      },
+      "sequences": [
+        "lees",
+        "short",
+        "luchtig"
+      ],
+      "positions": {
+        "lees": 453,
+        "short": 227,
+        "luchtig": 143
+      },
+      "actualPositions": {
+        "lees": 453,
+        "short": 227,
+        "luchtig": 143
+      }
+    },
+    "01kwvzcp697n18jy871bj3rj77": {
+      "baseScore": 60,
+      "adjustment": 0,
+      "adjustmentReason": null,
+      "score": 60,
+      "tier": "midden",
+      "components": {
+        "kerninteresse": 30,
+        "diepgang": 10,
+        "persoonlijke_bruikbaarheid": 10,
+        "leeskans": 5,
+        "onderscheidende_duurzame_waarde": 5,
+        "aftrek": 0
+      },
+      "rationale": {
+        "kerninteresse": [
+          "Eén kerndomein: cultuur_games_film."
+        ],
+        "diepgang": [
+          "Verdiepend signaal in de tekst: essay."
+        ],
+        "persoonlijke_bruikbaarheid": [
+          "Indirect bruikbaar via een kerndomein."
+        ],
+        "leeskans": [
+          "Korte leestijd: 3 minuten."
+        ],
+        "onderscheidende_duurzame_waarde": [
+          "Aansluiting bij een kerndomein."
+        ],
+        "aftrek": []
+      },
+      "sequences": [
+        "lees",
+        "short",
+        "luchtig"
+      ],
+      "positions": {
+        "lees": 304,
+        "short": 169,
+        "luchtig": 95
+      },
+      "actualPositions": {
+        "lees": 304,
+        "short": 169,
+        "luchtig": 95
+      }
+    },
+    "01kwvx3a3qze1p5e1yj36ejr6w": {
+      "baseScore": 60,
+      "adjustment": 0,
+      "adjustmentReason": null,
+      "score": 60,
+      "tier": "midden",
+      "components": {
+        "kerninteresse": 30,
+        "diepgang": 10,
+        "persoonlijke_bruikbaarheid": 10,
+        "leeskans": 5,
+        "onderscheidende_duurzame_waarde": 5,
+        "aftrek": 0
+      },
+      "rationale": {
+        "kerninteresse": [
+          "Eén kerndomein: filosofie."
+        ],
+        "diepgang": [
+          "1.597 woorden."
+        ],
+        "persoonlijke_bruikbaarheid": [
+          "Indirect bruikbaar via een kerndomein."
+        ],
+        "leeskans": [
+          "Korte leestijd: 7 minuten."
+        ],
+        "onderscheidende_duurzame_waarde": [
+          "Minstens 1.200 woorden."
+        ],
+        "aftrek": []
+      },
+      "sequences": [
+        "lees",
+        "short",
+        "luchtig"
+      ],
+      "positions": {
+        "lees": 303,
+        "short": 168,
+        "luchtig": 94
+      },
+      "actualPositions": {
+        "lees": 303,
+        "short": 168,
+        "luchtig": 94
       }
     },
     "01kwsqdppe1f2dfz26vn8szkbt": {
@@ -9431,10 +12229,67 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 337
+        "lees": 401
       },
       "actualPositions": {
-        "lees": 337
+        "lees": 401
+      }
+    },
+    "01kwreqfypckk54fws5c65whwp": {
+      "baseScore": 60,
+      "adjustment": 0,
+      "adjustmentReason": null,
+      "score": 60,
+      "tier": "midden",
+      "components": {
+        "kerninteresse": 30,
+        "diepgang": 10,
+        "persoonlijke_bruikbaarheid": 10,
+        "leeskans": 5,
+        "onderscheidende_duurzame_waarde": 5,
+        "aftrek": 0
+      },
+      "rationale": {
+        "kerninteresse": [
+          "Eén kerndomein: sociologie."
+        ],
+        "diepgang": [
+          "1.653 woorden."
+        ],
+        "persoonlijke_bruikbaarheid": [
+          "Indirect bruikbaar via een kerndomein."
+        ],
+        "leeskans": [
+          "Korte leestijd: 7 minuten."
+        ],
+        "onderscheidende_duurzame_waarde": [
+          "Minstens 1.200 woorden."
+        ],
+        "aftrek": []
+      },
+      "sequences": [
+        "lees",
+        "dutch",
+        "short",
+        "short-dutch",
+        "luchtig",
+        "luchtig-nederlands"
+      ],
+      "positions": {
+        "lees": 302,
+        "dutch": 21,
+        "short": 167,
+        "short-dutch": 14,
+        "luchtig": 93,
+        "luchtig-nederlands": 5
+      },
+      "actualPositions": {
+        "lees": 302,
+        "dutch": 21,
+        "short": 167,
+        "short-dutch": 14,
+        "luchtig": 93,
+        "luchtig-nederlands": 5
       }
     },
     "01kwragbn5fwjf0dvfyfvwvne8": {
@@ -9471,10 +12326,58 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 162
+        "lees": 184
       },
       "actualPositions": {
-        "lees": 162
+        "lees": 184
+      }
+    },
+    "01kwpkn77cd2c8e0g3rppkq0q2": {
+      "baseScore": 60,
+      "adjustment": 0,
+      "adjustmentReason": null,
+      "score": 60,
+      "tier": "midden",
+      "components": {
+        "kerninteresse": 30,
+        "diepgang": 10,
+        "persoonlijke_bruikbaarheid": 10,
+        "leeskans": 5,
+        "onderscheidende_duurzame_waarde": 5,
+        "aftrek": 0
+      },
+      "rationale": {
+        "kerninteresse": [
+          "Eén kerndomein: schrijven."
+        ],
+        "diepgang": [
+          "1.594 woorden."
+        ],
+        "persoonlijke_bruikbaarheid": [
+          "Indirect bruikbaar via een kerndomein."
+        ],
+        "leeskans": [
+          "Korte leestijd: 7 minuten."
+        ],
+        "onderscheidende_duurzame_waarde": [
+          "Minstens 1.200 woorden."
+        ],
+        "aftrek": []
+      },
+      "sequences": [
+        "lees",
+        "short",
+        "luchtig"
+      ],
+      "positions": {
+        "lees": 301,
+        "short": 166,
+        "luchtig": 92
+      },
+      "actualPositions": {
+        "lees": 301,
+        "short": 166,
+        "luchtig": 92
       }
     },
     "01kwnr6f6a3gb801eapyrbp6q2": {
@@ -9516,16 +12419,65 @@ window.TOP_ARTICLE_PRIORITY = {
         "short-dutch"
       ],
       "positions": {
-        "lees": 255,
-        "dutch": 17,
-        "short": 134,
-        "short-dutch": 11
+        "lees": 300,
+        "dutch": 20,
+        "short": 165,
+        "short-dutch": 13
       },
       "actualPositions": {
-        "lees": 255,
-        "dutch": 17,
-        "short": 134,
-        "short-dutch": 11
+        "lees": 300,
+        "dutch": 20,
+        "short": 165,
+        "short-dutch": 13
+      }
+    },
+    "01kwnpartfb70amv2acccwcsr1": {
+      "baseScore": 5,
+      "adjustment": 0,
+      "adjustmentReason": null,
+      "score": 5,
+      "tier": "laag",
+      "components": {
+        "kerninteresse": 0,
+        "diepgang": 0,
+        "persoonlijke_bruikbaarheid": 0,
+        "leeskans": 5,
+        "onderscheidende_duurzame_waarde": 0,
+        "aftrek": 0
+      },
+      "rationale": {
+        "kerninteresse": [],
+        "diepgang": [],
+        "persoonlijke_bruikbaarheid": [],
+        "leeskans": [
+          "Korte leestijd: 1 minuten."
+        ],
+        "onderscheidende_duurzame_waarde": [],
+        "aftrek": []
+      },
+      "sequences": [
+        "lees",
+        "dutch",
+        "short",
+        "short-dutch",
+        "luchtig",
+        "luchtig-nederlands"
+      ],
+      "positions": {
+        "lees": 630,
+        "dutch": 45,
+        "short": 344,
+        "short-dutch": 32,
+        "luchtig": 216,
+        "luchtig-nederlands": 17
+      },
+      "actualPositions": {
+        "lees": 630,
+        "dutch": 45,
+        "short": 344,
+        "short-dutch": 32,
+        "luchtig": 216,
+        "luchtig-nederlands": 17
       }
     },
     "01kwm2c48x698f162vev3xqyy2": {
@@ -9562,10 +12514,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 35
+        "lees": 40
       },
       "actualPositions": {
-        "lees": 35
+        "lees": 40
       }
     },
     "01kwkpvx062dytw4zfh294psvb": {
@@ -9605,16 +12557,16 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig-nederlands"
       ],
       "positions": {
-        "lees": 336,
-        "dutch": 23,
-        "luchtig": 87,
-        "luchtig-nederlands": 3
+        "lees": 400,
+        "dutch": 29,
+        "luchtig": 127,
+        "luchtig-nederlands": 9
       },
       "actualPositions": {
-        "lees": 336,
-        "dutch": 23,
-        "luchtig": 87,
-        "luchtig-nederlands": 3
+        "lees": 400,
+        "dutch": 29,
+        "luchtig": 127,
+        "luchtig-nederlands": 9
       }
     },
     "01kwkbvg7b538ndb8mhrw8b12z": {
@@ -9654,16 +12606,16 @@ window.TOP_ARTICLE_PRIORITY = {
         "short-dutch"
       ],
       "positions": {
-        "lees": 215,
-        "dutch": 13,
-        "short": 98,
-        "short-dutch": 7
+        "lees": 247,
+        "dutch": 16,
+        "short": 116,
+        "short-dutch": 9
       },
       "actualPositions": {
-        "lees": 215,
-        "dutch": 13,
-        "short": 98,
-        "short-dutch": 7
+        "lees": 247,
+        "dutch": 16,
+        "short": 116,
+        "short-dutch": 9
       }
     },
     "01kwhk0msf7rez58fdy5a579nq": {
@@ -9703,12 +12655,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 254,
-        "short": 133
+        "lees": 299,
+        "short": 164
       },
       "actualPositions": {
-        "lees": 254,
-        "short": 133
+        "lees": 299,
+        "short": 164
       }
     },
     "01kwgtzbakxnx83f8txktj9t89": {
@@ -9746,12 +12698,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 399,
-        "short": 191
+        "lees": 495,
+        "short": 262
       },
       "actualPositions": {
-        "lees": 396,
-        "short": 191
+        "lees": 495,
+        "short": 262
       }
     },
     "01kwfwzck1451we2tjq3zssye3": {
@@ -9784,14 +12736,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 503,
-        "short": 248,
-        "luchtig": 131
+        "lees": 629,
+        "short": 343,
+        "luchtig": 215
       },
       "actualPositions": {
-        "lees": 498,
-        "short": 248,
-        "luchtig": 128
+        "lees": 629,
+        "short": 343,
+        "luchtig": 215
       }
     },
     "01kwfk5q2rtfm9enggaybd07zq": {
@@ -9829,12 +12781,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 79,
-        "luchtig": 20
+        "lees": 88,
+        "luchtig": 22
       },
       "actualPositions": {
-        "lees": 79,
-        "luchtig": 20
+        "lees": 88,
+        "luchtig": 22
       }
     },
     "01kwew3ggzgdtrxk6c255tdtcz": {
@@ -9872,12 +12824,58 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 398,
-        "short": 190
+        "lees": 494,
+        "short": 261
       },
       "actualPositions": {
-        "lees": 395,
-        "short": 190
+        "lees": 494,
+        "short": 261
+      }
+    },
+    "01kwep76wff66pe5krewmawmr5": {
+      "baseScore": 35,
+      "adjustment": 0,
+      "adjustmentReason": null,
+      "score": 35,
+      "tier": "laag",
+      "components": {
+        "kerninteresse": 15,
+        "diepgang": 10,
+        "persoonlijke_bruikbaarheid": 0,
+        "leeskans": 5,
+        "onderscheidende_duurzame_waarde": 5,
+        "aftrek": 0
+      },
+      "rationale": {
+        "kerninteresse": [
+          "Alleen een aangrenzend onderwerp."
+        ],
+        "diepgang": [
+          "1.957 woorden."
+        ],
+        "persoonlijke_bruikbaarheid": [],
+        "leeskans": [
+          "Korte leestijd: 8 minuten."
+        ],
+        "onderscheidende_duurzame_waarde": [
+          "Minstens 1.200 woorden."
+        ],
+        "aftrek": []
+      },
+      "sequences": [
+        "lees",
+        "short",
+        "luchtig"
+      ],
+      "positions": {
+        "lees": 524,
+        "short": 281,
+        "luchtig": 173
+      },
+      "actualPositions": {
+        "lees": 524,
+        "short": 281,
+        "luchtig": 173
       }
     },
     "01kwaadj8686tk3pzbr7wd9axw": {
@@ -9918,6 +12916,100 @@ window.TOP_ARTICLE_PRIORITY = {
         "boek": 51
       }
     },
+    "01kw9qrshp1ne8jsbwy0wqv2z6": {
+      "baseScore": 60,
+      "adjustment": 0,
+      "adjustmentReason": null,
+      "score": 60,
+      "tier": "midden",
+      "components": {
+        "kerninteresse": 30,
+        "diepgang": 10,
+        "persoonlijke_bruikbaarheid": 10,
+        "leeskans": 5,
+        "onderscheidende_duurzame_waarde": 5,
+        "aftrek": 0
+      },
+      "rationale": {
+        "kerninteresse": [
+          "Eén kerndomein: schrijven."
+        ],
+        "diepgang": [
+          "1.669 woorden."
+        ],
+        "persoonlijke_bruikbaarheid": [
+          "Indirect bruikbaar via een kerndomein."
+        ],
+        "leeskans": [
+          "Korte leestijd: 7 minuten."
+        ],
+        "onderscheidende_duurzame_waarde": [
+          "Minstens 1.200 woorden."
+        ],
+        "aftrek": []
+      },
+      "sequences": [
+        "lees",
+        "short",
+        "luchtig"
+      ],
+      "positions": {
+        "lees": 298,
+        "short": 163,
+        "luchtig": 91
+      },
+      "actualPositions": {
+        "lees": 298,
+        "short": 163,
+        "luchtig": 91
+      }
+    },
+    "01kw76h6n00mvk1xfjx08rs0n1": {
+      "baseScore": 50,
+      "adjustment": 0,
+      "adjustmentReason": null,
+      "score": 50,
+      "tier": "midden",
+      "components": {
+        "kerninteresse": 30,
+        "diepgang": 0,
+        "persoonlijke_bruikbaarheid": 10,
+        "leeskans": 5,
+        "onderscheidende_duurzame_waarde": 5,
+        "aftrek": 0
+      },
+      "rationale": {
+        "kerninteresse": [
+          "Eén kerndomein: filosofie."
+        ],
+        "diepgang": [],
+        "persoonlijke_bruikbaarheid": [
+          "Indirect bruikbaar via een kerndomein."
+        ],
+        "leeskans": [
+          "Korte leestijd: 2 minuten."
+        ],
+        "onderscheidende_duurzame_waarde": [
+          "Aansluiting bij een kerndomein."
+        ],
+        "aftrek": []
+      },
+      "sequences": [
+        "lees",
+        "short",
+        "luchtig"
+      ],
+      "positions": {
+        "lees": 452,
+        "short": 226,
+        "luchtig": 142
+      },
+      "actualPositions": {
+        "lees": 452,
+        "short": 226,
+        "luchtig": 142
+      }
+    },
     "01kw5smp76n3se61jv02c1zzx9": {
       "baseScore": 70,
       "adjustment": 0,
@@ -9956,14 +13048,62 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 161,
-        "short": 90,
-        "luchtig": 39
+        "lees": 183,
+        "short": 104,
+        "luchtig": 49
       },
       "actualPositions": {
-        "lees": 161,
-        "short": 90,
-        "luchtig": 39
+        "lees": 183,
+        "short": 104,
+        "luchtig": 49
+      }
+    },
+    "01kw4zh122v8djscsxaaq42ke7": {
+      "baseScore": 60,
+      "adjustment": 0,
+      "adjustmentReason": null,
+      "score": 60,
+      "tier": "midden",
+      "components": {
+        "kerninteresse": 30,
+        "diepgang": 10,
+        "persoonlijke_bruikbaarheid": 10,
+        "leeskans": 5,
+        "onderscheidende_duurzame_waarde": 5,
+        "aftrek": 0
+      },
+      "rationale": {
+        "kerninteresse": [
+          "Eén kerndomein: cultuur_games_film."
+        ],
+        "diepgang": [
+          "1.699 woorden."
+        ],
+        "persoonlijke_bruikbaarheid": [
+          "Indirect bruikbaar via een kerndomein."
+        ],
+        "leeskans": [
+          "Korte leestijd: 7 minuten."
+        ],
+        "onderscheidende_duurzame_waarde": [
+          "Minstens 1.200 woorden."
+        ],
+        "aftrek": []
+      },
+      "sequences": [
+        "lees",
+        "short",
+        "luchtig"
+      ],
+      "positions": {
+        "lees": 297,
+        "short": 162,
+        "luchtig": 90
+      },
+      "actualPositions": {
+        "lees": 297,
+        "short": 162,
+        "luchtig": 90
       }
     },
     "01kw4djwahhwy93y8hrkg48wmd": {
@@ -10004,14 +13144,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 253,
-        "short": 132,
-        "luchtig": 64
+        "lees": 296,
+        "short": 161,
+        "luchtig": 89
       },
       "actualPositions": {
-        "lees": 253,
-        "short": 132,
-        "luchtig": 64
+        "lees": 296,
+        "short": 161,
+        "luchtig": 89
       }
     },
     "01kw4avt5cex86dndrehb65a7y": {
@@ -10046,10 +13186,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 382
+        "lees": 475
       },
       "actualPositions": {
-        "lees": 379
+        "lees": 475
       }
     },
     "01kw3yjp92dh7r7qzk3bja513n": {
@@ -10089,12 +13229,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 160,
-        "short": 89
+        "lees": 182,
+        "short": 103
       },
       "actualPositions": {
-        "lees": 160,
-        "short": 89
+        "lees": 182,
+        "short": 103
       }
     },
     "01kvz4a3c91wbj122e4kgtg1vp": {
@@ -10131,10 +13271,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 335
+        "lees": 399
       },
       "actualPositions": {
-        "lees": 335
+        "lees": 399
       }
     },
     "01kvyswh8ggabb27phjks81a5f": {
@@ -10167,14 +13307,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 502,
-        "short": 247,
-        "luchtig": 130
+        "lees": 628,
+        "short": 342,
+        "luchtig": 214
       },
       "actualPositions": {
-        "lees": 497,
-        "short": 247,
-        "luchtig": 127
+        "lees": 628,
+        "short": 342,
+        "luchtig": 214
       }
     },
     "01kvy9nncb1wdp5tq4q7mv1p11": {
@@ -10211,10 +13351,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 334
+        "lees": 398
       },
       "actualPositions": {
-        "lees": 334
+        "lees": 398
       }
     },
     "01kvwytrrghvckwz0stdxe2mgw": {
@@ -10255,14 +13395,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 252,
-        "short": 131,
-        "luchtig": 63
+        "lees": 295,
+        "short": 160,
+        "luchtig": 88
       },
       "actualPositions": {
-        "lees": 252,
-        "short": 131,
-        "luchtig": 63
+        "lees": 295,
+        "short": 160,
+        "luchtig": 88
       }
     },
     "01kvwx52bzyv06aez48fr5fm5d": {
@@ -10300,12 +13440,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 333,
-        "luchtig": 86
+        "lees": 397,
+        "luchtig": 126
       },
       "actualPositions": {
-        "lees": 333,
-        "luchtig": 86
+        "lees": 397,
+        "luchtig": 126
       }
     },
     "01kvwwdq8bhy9m3x614gmtn41d": {
@@ -10343,12 +13483,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 78,
-        "luchtig": 19
+        "lees": 87,
+        "luchtig": 21
       },
       "actualPositions": {
-        "lees": 78,
-        "luchtig": 19
+        "lees": 87,
+        "luchtig": 21
       }
     },
     "01kvtqy4rffwdb1t73t37netda": {
@@ -10388,12 +13528,93 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 77,
-        "short": 42
+        "lees": 86,
+        "short": 46
       },
       "actualPositions": {
-        "lees": 77,
-        "short": 42
+        "lees": 86,
+        "short": 46
+      }
+    },
+    "01kvtk9ek1p96k8467vhgknx4z": {
+      "baseScore": 30,
+      "adjustment": 0,
+      "adjustmentReason": null,
+      "score": 30,
+      "tier": "laag",
+      "components": {
+        "kerninteresse": 15,
+        "diepgang": 10,
+        "persoonlijke_bruikbaarheid": 0,
+        "leeskans": 0,
+        "onderscheidende_duurzame_waarde": 5,
+        "aftrek": 0
+      },
+      "rationale": {
+        "kerninteresse": [
+          "Alleen een aangrenzend onderwerp."
+        ],
+        "diepgang": [
+          "2.675 woorden."
+        ],
+        "persoonlijke_bruikbaarheid": [],
+        "leeskans": [],
+        "onderscheidende_duurzame_waarde": [
+          "Minstens 1.200 woorden."
+        ],
+        "aftrek": []
+      },
+      "sequences": [
+        "lees",
+        "luchtig"
+      ],
+      "positions": {
+        "lees": 548,
+        "luchtig": 181
+      },
+      "actualPositions": {
+        "lees": 548,
+        "luchtig": 181
+      }
+    },
+    "01kvsdvfdqp5rzvjnn3w85xqfm": {
+      "baseScore": 5,
+      "adjustment": 0,
+      "adjustmentReason": null,
+      "score": 5,
+      "tier": "laag",
+      "components": {
+        "kerninteresse": 0,
+        "diepgang": 0,
+        "persoonlijke_bruikbaarheid": 0,
+        "leeskans": 5,
+        "onderscheidende_duurzame_waarde": 0,
+        "aftrek": 0
+      },
+      "rationale": {
+        "kerninteresse": [],
+        "diepgang": [],
+        "persoonlijke_bruikbaarheid": [],
+        "leeskans": [
+          "Korte leestijd: 5 minuten."
+        ],
+        "onderscheidende_duurzame_waarde": [],
+        "aftrek": []
+      },
+      "sequences": [
+        "lees",
+        "short",
+        "luchtig"
+      ],
+      "positions": {
+        "lees": 627,
+        "short": 341,
+        "luchtig": 213
+      },
+      "actualPositions": {
+        "lees": 627,
+        "short": 341,
+        "luchtig": 213
       }
     },
     "01kvryy6f1y6vjf4qacv0avmne": {
@@ -10428,10 +13649,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 442
+        "lees": 547
       },
       "actualPositions": {
-        "lees": 439
+        "lees": 547
       }
     },
     "01kvqqkejdb7cjbt7xksn8qw6y": {
@@ -10468,10 +13689,56 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 332
+        "lees": 396
       },
       "actualPositions": {
-        "lees": 332
+        "lees": 396
+      }
+    },
+    "01kvqpz87r2405dv9qtg7vfx47": {
+      "baseScore": 40,
+      "adjustment": 0,
+      "adjustmentReason": null,
+      "score": 40,
+      "tier": "midden",
+      "components": {
+        "kerninteresse": 0,
+        "diepgang": 10,
+        "persoonlijke_bruikbaarheid": 20,
+        "leeskans": 5,
+        "onderscheidende_duurzame_waarde": 5,
+        "aftrek": 0
+      },
+      "rationale": {
+        "kerninteresse": [],
+        "diepgang": [
+          "1.490 woorden."
+        ],
+        "persoonlijke_bruikbaarheid": [
+          "Direct bruikbare tag: professional development."
+        ],
+        "leeskans": [
+          "Korte leestijd: 6 minuten."
+        ],
+        "onderscheidende_duurzame_waarde": [
+          "Minstens 1.200 woorden."
+        ],
+        "aftrek": []
+      },
+      "sequences": [
+        "lees",
+        "short",
+        "luchtig"
+      ],
+      "positions": {
+        "lees": 493,
+        "short": 260,
+        "luchtig": 162
+      },
+      "actualPositions": {
+        "lees": 493,
+        "short": 260,
+        "luchtig": 162
       }
     },
     "01kvq9e83ygea63a0hpsq7zsk8": {
@@ -10506,10 +13773,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 424
+        "lees": 523
       },
       "actualPositions": {
-        "lees": 421
+        "lees": 523
       }
     },
     "01kvnt5qg1fchd5f12m7d679mg": {
@@ -10548,14 +13815,159 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 423,
-        "short": 207,
-        "luchtig": 109
+        "lees": 522,
+        "short": 280,
+        "luchtig": 172
       },
       "actualPositions": {
-        "lees": 420,
-        "short": 207,
-        "luchtig": 108
+        "lees": 522,
+        "short": 280,
+        "luchtig": 172
+      }
+    },
+    "01kvm92m2s24rdpdw5hm665kgj": {
+      "baseScore": 65,
+      "adjustment": 0,
+      "adjustmentReason": null,
+      "score": 65,
+      "tier": "midden",
+      "components": {
+        "kerninteresse": 45,
+        "diepgang": 0,
+        "persoonlijke_bruikbaarheid": 10,
+        "leeskans": 5,
+        "onderscheidende_duurzame_waarde": 5,
+        "aftrek": 0
+      },
+      "rationale": {
+        "kerninteresse": [
+          "Minstens twee kerndomeinen: sociologie, cultuur_games_film."
+        ],
+        "diepgang": [],
+        "persoonlijke_bruikbaarheid": [
+          "Indirect bruikbaar via een kerndomein."
+        ],
+        "leeskans": [
+          "Korte leestijd: 2 minuten."
+        ],
+        "onderscheidende_duurzame_waarde": [
+          "Aansluiting bij een kerndomein."
+        ],
+        "aftrek": []
+      },
+      "sequences": [
+        "lees",
+        "dutch",
+        "short",
+        "short-dutch",
+        "luchtig",
+        "luchtig-nederlands"
+      ],
+      "positions": {
+        "lees": 246,
+        "dutch": 15,
+        "short": 115,
+        "short-dutch": 8,
+        "luchtig": 64,
+        "luchtig-nederlands": 4
+      },
+      "actualPositions": {
+        "lees": 246,
+        "dutch": 15,
+        "short": 115,
+        "short-dutch": 8,
+        "luchtig": 64,
+        "luchtig-nederlands": 4
+      }
+    },
+    "01kvjxf10abr48cgyg351gvcfm": {
+      "baseScore": 50,
+      "adjustment": 0,
+      "adjustmentReason": null,
+      "score": 50,
+      "tier": "midden",
+      "components": {
+        "kerninteresse": 30,
+        "diepgang": 0,
+        "persoonlijke_bruikbaarheid": 10,
+        "leeskans": 5,
+        "onderscheidende_duurzame_waarde": 5,
+        "aftrek": 0
+      },
+      "rationale": {
+        "kerninteresse": [
+          "Eén kerndomein: geschiedenis."
+        ],
+        "diepgang": [],
+        "persoonlijke_bruikbaarheid": [
+          "Indirect bruikbaar via een kerndomein."
+        ],
+        "leeskans": [
+          "Korte leestijd: 5 minuten."
+        ],
+        "onderscheidende_duurzame_waarde": [
+          "Aansluiting bij een kerndomein."
+        ],
+        "aftrek": []
+      },
+      "sequences": [
+        "lees",
+        "short",
+        "luchtig"
+      ],
+      "positions": {
+        "lees": 451,
+        "short": 225,
+        "luchtig": 141
+      },
+      "actualPositions": {
+        "lees": 451,
+        "short": 225,
+        "luchtig": 141
+      }
+    },
+    "01kvjhwyhc8ajne0mcg2sbdnew": {
+      "baseScore": 35,
+      "adjustment": 0,
+      "adjustmentReason": null,
+      "score": 35,
+      "tier": "laag",
+      "components": {
+        "kerninteresse": 0,
+        "diepgang": 10,
+        "persoonlijke_bruikbaarheid": 20,
+        "leeskans": 5,
+        "onderscheidende_duurzame_waarde": 0,
+        "aftrek": 0
+      },
+      "rationale": {
+        "kerninteresse": [],
+        "diepgang": [
+          "Verdiepend signaal in de tekst: essay."
+        ],
+        "persoonlijke_bruikbaarheid": [
+          "Waarom lezen noemt: schrijven."
+        ],
+        "leeskans": [
+          "Korte leestijd: 3 minuten."
+        ],
+        "onderscheidende_duurzame_waarde": [],
+        "aftrek": []
+      },
+      "sequences": [
+        "lees",
+        "short",
+        "luchtig"
+      ],
+      "positions": {
+        "lees": 521,
+        "short": 279,
+        "luchtig": 171
+      },
+      "actualPositions": {
+        "lees": 521,
+        "short": 279,
+        "luchtig": 171
       }
     },
     "01kvjbgrqsftb77gs496c0p12t": {
@@ -10596,14 +14008,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 76,
-        "short": 41,
-        "luchtig": 18
+        "lees": 85,
+        "short": 45,
+        "luchtig": 20
       },
       "actualPositions": {
-        "lees": 76,
-        "short": 41,
-        "luchtig": 18
+        "lees": 85,
+        "short": 45,
+        "luchtig": 20
       }
     },
     "01kvhdf8kqbvctbnxfrt4r3nr5": {
@@ -10641,12 +14053,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 397,
-        "short": 189
+        "lees": 492,
+        "short": 259
       },
       "actualPositions": {
-        "lees": 394,
-        "short": 189
+        "lees": 492,
+        "short": 259
       }
     },
     "01kvhbzvsdz71gdn2329t023sp": {
@@ -10683,10 +14095,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 34
+        "lees": 39
       },
       "actualPositions": {
-        "lees": 34
+        "lees": 39
       }
     },
     "01kvh7ec1tezr2vy9bqgsm6an4": {
@@ -10727,14 +14139,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 75,
-        "short": 40,
-        "luchtig": 17
+        "lees": 84,
+        "short": 44,
+        "luchtig": 19
       },
       "actualPositions": {
-        "lees": 75,
-        "short": 40,
-        "luchtig": 17
+        "lees": 84,
+        "short": 44,
+        "luchtig": 19
       }
     },
     "01kvgbz10w91f5abd60mc24m4g": {
@@ -10771,10 +14183,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 369
+        "lees": 450
       },
       "actualPositions": {
-        "lees": 367
+        "lees": 450
       }
     },
     "01kvgakgatt08e2qpyayjn518f": {
@@ -10814,12 +14226,67 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 251,
-        "short": 130
+        "lees": 294,
+        "short": 159
       },
       "actualPositions": {
-        "lees": 251,
-        "short": 130
+        "lees": 294,
+        "short": 159
+      }
+    },
+    "01kvfsv00xheeeezwr4g8hm52h": {
+      "baseScore": 50,
+      "adjustment": 0,
+      "adjustmentReason": null,
+      "score": 50,
+      "tier": "midden",
+      "components": {
+        "kerninteresse": 30,
+        "diepgang": 0,
+        "persoonlijke_bruikbaarheid": 10,
+        "leeskans": 5,
+        "onderscheidende_duurzame_waarde": 5,
+        "aftrek": 0
+      },
+      "rationale": {
+        "kerninteresse": [
+          "Eén kerndomein: cultuur_games_film."
+        ],
+        "diepgang": [],
+        "persoonlijke_bruikbaarheid": [
+          "Indirect bruikbaar via een kerndomein."
+        ],
+        "leeskans": [
+          "Korte leestijd: 4 minuten."
+        ],
+        "onderscheidende_duurzame_waarde": [
+          "Aansluiting bij een kerndomein."
+        ],
+        "aftrek": []
+      },
+      "sequences": [
+        "lees",
+        "dutch",
+        "short",
+        "short-dutch",
+        "luchtig",
+        "luchtig-nederlands"
+      ],
+      "positions": {
+        "lees": 449,
+        "dutch": 36,
+        "short": 224,
+        "short-dutch": 24,
+        "luchtig": 140,
+        "luchtig-nederlands": 14
+      },
+      "actualPositions": {
+        "lees": 449,
+        "dutch": 36,
+        "short": 224,
+        "short-dutch": 24,
+        "luchtig": 140,
+        "luchtig-nederlands": 14
       }
     },
     "01kve1n3t0jy98p6s5qqxnrq1c": {
@@ -10856,10 +14323,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 331
+        "lees": 395
       },
       "actualPositions": {
-        "lees": 331
+        "lees": 395
       }
     },
     "01kve1n2sjrps7hpqdrs60zj8t": {
@@ -10895,12 +14362,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 422,
-        "luchtig": 108
+        "lees": 520,
+        "luchtig": 170
       },
       "actualPositions": {
-        "lees": 419,
-        "luchtig": 107
+        "lees": 520,
+        "luchtig": 170
       }
     },
     "01kvdagajpxgafjmbx8mxhecqq": {
@@ -10940,12 +14407,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 250,
-        "short": 129
+        "lees": 293,
+        "short": 158
       },
       "actualPositions": {
-        "lees": 250,
-        "short": 129
+        "lees": 293,
+        "short": 158
       }
     },
     "01kvcrmaw54bese7ww1vf68che": {
@@ -10980,10 +14447,67 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 421
+        "lees": 519
       },
       "actualPositions": {
-        "lees": 418
+        "lees": 519
+      }
+    },
+    "01kvcgsfekyqqc5b9t3nmrge8m": {
+      "baseScore": 75,
+      "adjustment": 0,
+      "adjustmentReason": null,
+      "score": 75,
+      "tier": "hoog",
+      "components": {
+        "kerninteresse": 45,
+        "diepgang": 10,
+        "persoonlijke_bruikbaarheid": 10,
+        "leeskans": 5,
+        "onderscheidende_duurzame_waarde": 5,
+        "aftrek": 0
+      },
+      "rationale": {
+        "kerninteresse": [
+          "Minstens twee kerndomeinen: geschiedenis, sociologie."
+        ],
+        "diepgang": [
+          "1.935 woorden."
+        ],
+        "persoonlijke_bruikbaarheid": [
+          "Indirect bruikbaar via een kerndomein."
+        ],
+        "leeskans": [
+          "Korte leestijd: 8 minuten."
+        ],
+        "onderscheidende_duurzame_waarde": [
+          "Minstens 1.200 woorden."
+        ],
+        "aftrek": []
+      },
+      "sequences": [
+        "lees",
+        "dutch",
+        "short",
+        "short-dutch",
+        "luchtig",
+        "luchtig-nederlands"
+      ],
+      "positions": {
+        "lees": 83,
+        "dutch": 5,
+        "short": 43,
+        "short-dutch": 4,
+        "luchtig": 18,
+        "luchtig-nederlands": 1
+      },
+      "actualPositions": {
+        "lees": 83,
+        "dutch": 5,
+        "short": 43,
+        "short-dutch": 4,
+        "luchtig": 18,
+        "luchtig-nederlands": 1
       }
     },
     "01kvb7knk133sgyjvgj9j9cbzv": {
@@ -11015,12 +14539,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 501,
-        "short": 246
+        "lees": 626,
+        "short": 340
       },
       "actualPositions": {
-        "lees": 496,
-        "short": 246
+        "lees": 626,
+        "short": 340
       }
     },
     "01kvarejkjdc6y2cjp2d0ewgkd": {
@@ -11061,14 +14585,62 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 74,
-        "short": 39,
-        "luchtig": 16
+        "lees": 82,
+        "short": 42,
+        "luchtig": 17
       },
       "actualPositions": {
-        "lees": 74,
-        "short": 39,
-        "luchtig": 16
+        "lees": 82,
+        "short": 42,
+        "luchtig": 17
+      }
+    },
+    "01kvamre3nhre408596w2e8d3s": {
+      "baseScore": 60,
+      "adjustment": 0,
+      "adjustmentReason": null,
+      "score": 60,
+      "tier": "midden",
+      "components": {
+        "kerninteresse": 30,
+        "diepgang": 10,
+        "persoonlijke_bruikbaarheid": 10,
+        "leeskans": 5,
+        "onderscheidende_duurzame_waarde": 5,
+        "aftrek": 0
+      },
+      "rationale": {
+        "kerninteresse": [
+          "Eén kerndomein: geschiedenis."
+        ],
+        "diepgang": [
+          "1.759 woorden."
+        ],
+        "persoonlijke_bruikbaarheid": [
+          "Indirect bruikbaar via een kerndomein."
+        ],
+        "leeskans": [
+          "Korte leestijd: 7 minuten."
+        ],
+        "onderscheidende_duurzame_waarde": [
+          "Minstens 1.200 woorden."
+        ],
+        "aftrek": []
+      },
+      "sequences": [
+        "lees",
+        "short",
+        "luchtig"
+      ],
+      "positions": {
+        "lees": 292,
+        "short": 157,
+        "luchtig": 87
+      },
+      "actualPositions": {
+        "lees": 292,
+        "short": 157,
+        "luchtig": 87
       }
     },
     "01kv7gpdvwcvk4359brzpxqmes": {
@@ -11110,16 +14682,62 @@ window.TOP_ARTICLE_PRIORITY = {
         "short-dutch"
       ],
       "positions": {
-        "lees": 249,
-        "dutch": 16,
-        "short": 128,
-        "short-dutch": 10
+        "lees": 291,
+        "dutch": 19,
+        "short": 156,
+        "short-dutch": 12
       },
       "actualPositions": {
-        "lees": 249,
-        "dutch": 16,
-        "short": 128,
-        "short-dutch": 10
+        "lees": 291,
+        "dutch": 19,
+        "short": 156,
+        "short-dutch": 12
+      }
+    },
+    "01kv5x076n9sa5tc05ahev8ba3": {
+      "baseScore": 50,
+      "adjustment": 0,
+      "adjustmentReason": null,
+      "score": 50,
+      "tier": "midden",
+      "components": {
+        "kerninteresse": 30,
+        "diepgang": 0,
+        "persoonlijke_bruikbaarheid": 10,
+        "leeskans": 5,
+        "onderscheidende_duurzame_waarde": 5,
+        "aftrek": 0
+      },
+      "rationale": {
+        "kerninteresse": [
+          "Eén kerndomein: cultuur_games_film."
+        ],
+        "diepgang": [],
+        "persoonlijke_bruikbaarheid": [
+          "Indirect bruikbaar via een kerndomein."
+        ],
+        "leeskans": [
+          "Korte leestijd: 2 minuten."
+        ],
+        "onderscheidende_duurzame_waarde": [
+          "Aansluiting bij een kerndomein."
+        ],
+        "aftrek": []
+      },
+      "sequences": [
+        "lees",
+        "short",
+        "luchtig"
+      ],
+      "positions": {
+        "lees": 448,
+        "short": 223,
+        "luchtig": 139
+      },
+      "actualPositions": {
+        "lees": 448,
+        "short": 223,
+        "luchtig": 139
       }
     },
     "01kv5rsmp92qndagvyzwzjshd3": {
@@ -11158,14 +14776,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 396,
-        "short": 188,
-        "luchtig": 101
+        "lees": 491,
+        "short": 258,
+        "luchtig": 161
       },
       "actualPositions": {
-        "lees": 393,
-        "short": 188,
-        "luchtig": 100
+        "lees": 491,
+        "short": 258,
+        "luchtig": 161
       }
     },
     "01kv589pm45sfg8kv5jfxznh6g": {
@@ -11203,12 +14821,113 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 368,
-        "short": 168
+        "lees": 447,
+        "short": 222
       },
       "actualPositions": {
-        "lees": 366,
-        "short": 168
+        "lees": 447,
+        "short": 222
+      }
+    },
+    "01kv0aj76tamztf0tt4cd00zvt": {
+      "baseScore": 40,
+      "adjustment": 0,
+      "adjustmentReason": null,
+      "score": 40,
+      "tier": "midden",
+      "components": {
+        "kerninteresse": 0,
+        "diepgang": 10,
+        "persoonlijke_bruikbaarheid": 20,
+        "leeskans": 5,
+        "onderscheidende_duurzame_waarde": 5,
+        "aftrek": 0
+      },
+      "rationale": {
+        "kerninteresse": [],
+        "diepgang": [
+          "1.485 woorden."
+        ],
+        "persoonlijke_bruikbaarheid": [
+          "Waarom lezen noemt: ouderschap."
+        ],
+        "leeskans": [
+          "Korte leestijd: 6 minuten."
+        ],
+        "onderscheidende_duurzame_waarde": [
+          "Minstens 1.200 woorden."
+        ],
+        "aftrek": []
+      },
+      "sequences": [
+        "lees",
+        "short",
+        "luchtig"
+      ],
+      "positions": {
+        "lees": 490,
+        "short": 257,
+        "luchtig": 160
+      },
+      "actualPositions": {
+        "lees": 490,
+        "short": 257,
+        "luchtig": 160
+      }
+    },
+    "01kty3nmapqw3y4ypnbbgrm2t3": {
+      "baseScore": 50,
+      "adjustment": 0,
+      "adjustmentReason": null,
+      "score": 50,
+      "tier": "midden",
+      "components": {
+        "kerninteresse": 30,
+        "diepgang": 0,
+        "persoonlijke_bruikbaarheid": 10,
+        "leeskans": 5,
+        "onderscheidende_duurzame_waarde": 5,
+        "aftrek": 0
+      },
+      "rationale": {
+        "kerninteresse": [
+          "Eén kerndomein: sociologie."
+        ],
+        "diepgang": [],
+        "persoonlijke_bruikbaarheid": [
+          "Indirect bruikbaar via een kerndomein."
+        ],
+        "leeskans": [
+          "Korte leestijd: 3 minuten."
+        ],
+        "onderscheidende_duurzame_waarde": [
+          "Aansluiting bij een kerndomein."
+        ],
+        "aftrek": []
+      },
+      "sequences": [
+        "lees",
+        "dutch",
+        "short",
+        "short-dutch",
+        "luchtig",
+        "luchtig-nederlands"
+      ],
+      "positions": {
+        "lees": 446,
+        "dutch": 35,
+        "short": 221,
+        "short-dutch": 23,
+        "luchtig": 138,
+        "luchtig-nederlands": 13
+      },
+      "actualPositions": {
+        "lees": 446,
+        "dutch": 35,
+        "short": 221,
+        "short-dutch": 23,
+        "luchtig": 138,
+        "luchtig-nederlands": 13
       }
     },
     "01ktxgxw7cxp7caqpe7w230ne4": {
@@ -11248,16 +14967,60 @@ window.TOP_ARTICLE_PRIORITY = {
         "short-dutch"
       ],
       "positions": {
-        "lees": 367,
-        "dutch": 26,
-        "short": 167,
-        "short-dutch": 15
+        "lees": 445,
+        "dutch": 34,
+        "short": 220,
+        "short-dutch": 22
       },
       "actualPositions": {
-        "lees": 365,
-        "dutch": 26,
-        "short": 167,
-        "short-dutch": 15
+        "lees": 445,
+        "dutch": 34,
+        "short": 220,
+        "short-dutch": 22
+      }
+    },
+    "01ktv2w7h35y7h76gp5qk5ddfg": {
+      "baseScore": 20,
+      "adjustment": 0,
+      "adjustmentReason": null,
+      "score": 20,
+      "tier": "laag",
+      "components": {
+        "kerninteresse": 0,
+        "diepgang": 10,
+        "persoonlijke_bruikbaarheid": 0,
+        "leeskans": 5,
+        "onderscheidende_duurzame_waarde": 5,
+        "aftrek": 0
+      },
+      "rationale": {
+        "kerninteresse": [],
+        "diepgang": [
+          "1.750 woorden."
+        ],
+        "persoonlijke_bruikbaarheid": [],
+        "leeskans": [
+          "Korte leestijd: 7 minuten."
+        ],
+        "onderscheidende_duurzame_waarde": [
+          "Minstens 1.200 woorden."
+        ],
+        "aftrek": []
+      },
+      "sequences": [
+        "lees",
+        "short",
+        "luchtig"
+      ],
+      "positions": {
+        "lees": 582,
+        "short": 316,
+        "luchtig": 197
+      },
+      "actualPositions": {
+        "lees": 582,
+        "short": 316,
+        "luchtig": 197
       }
     },
     "01ktv2sxayxrqj6yzvyhjes6tf": {
@@ -11301,20 +15064,20 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig-nederlands"
       ],
       "positions": {
-        "lees": 159,
-        "dutch": 12,
-        "short": 88,
-        "short-dutch": 6,
-        "luchtig": 38,
-        "luchtig-nederlands": 1
+        "lees": 181,
+        "dutch": 14,
+        "short": 102,
+        "short-dutch": 7,
+        "luchtig": 48,
+        "luchtig-nederlands": 3
       },
       "actualPositions": {
-        "lees": 159,
-        "dutch": 12,
-        "short": 88,
-        "short-dutch": 6,
-        "luchtig": 38,
-        "luchtig-nederlands": 1
+        "lees": 181,
+        "dutch": 14,
+        "short": 102,
+        "short-dutch": 7,
+        "luchtig": 48,
+        "luchtig-nederlands": 3
       }
     },
     "01ktnkd8gctpytce8pvke8za97": {
@@ -11352,12 +15115,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 420,
-        "short": 206
+        "lees": 518,
+        "short": 278
       },
       "actualPositions": {
-        "lees": 417,
-        "short": 206
+        "lees": 518,
+        "short": 278
       }
     },
     "01ktkgz3hkkcn6x6th4335ns7m": {
@@ -11394,10 +15157,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 330
+        "lees": 394
       },
       "actualPositions": {
-        "lees": 330
+        "lees": 394
       }
     },
     "01ktgfjcsqe7ppchg01q0v0b3k": {
@@ -11434,10 +15197,146 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 329
+        "lees": 393
       },
       "actualPositions": {
-        "lees": 329
+        "lees": 393
+      }
+    },
+    "01ktejkb5739yv3ra0666qr32v": {
+      "baseScore": 60,
+      "adjustment": 0,
+      "adjustmentReason": null,
+      "score": 60,
+      "tier": "midden",
+      "components": {
+        "kerninteresse": 30,
+        "diepgang": 10,
+        "persoonlijke_bruikbaarheid": 10,
+        "leeskans": 5,
+        "onderscheidende_duurzame_waarde": 5,
+        "aftrek": 0
+      },
+      "rationale": {
+        "kerninteresse": [
+          "Eén kerndomein: geschiedenis."
+        ],
+        "diepgang": [
+          "2.150 woorden."
+        ],
+        "persoonlijke_bruikbaarheid": [
+          "Indirect bruikbaar via een kerndomein."
+        ],
+        "leeskans": [
+          "Korte leestijd: 9 minuten."
+        ],
+        "onderscheidende_duurzame_waarde": [
+          "Minstens 1.200 woorden."
+        ],
+        "aftrek": []
+      },
+      "sequences": [
+        "lees",
+        "short",
+        "luchtig"
+      ],
+      "positions": {
+        "lees": 290,
+        "short": 155,
+        "luchtig": 86
+      },
+      "actualPositions": {
+        "lees": 290,
+        "short": 155,
+        "luchtig": 86
+      }
+    },
+    "01ktegbj41h187jv5phdfjn0wd": {
+      "baseScore": 25,
+      "adjustment": 0,
+      "adjustmentReason": null,
+      "score": 25,
+      "tier": "laag",
+      "components": {
+        "kerninteresse": 0,
+        "diepgang": 0,
+        "persoonlijke_bruikbaarheid": 20,
+        "leeskans": 5,
+        "onderscheidende_duurzame_waarde": 0,
+        "aftrek": 0
+      },
+      "rationale": {
+        "kerninteresse": [],
+        "diepgang": [],
+        "persoonlijke_bruikbaarheid": [
+          "Waarom lezen noemt: schrijven."
+        ],
+        "leeskans": [
+          "Korte leestijd: 3 minuten."
+        ],
+        "onderscheidende_duurzame_waarde": [],
+        "aftrek": []
+      },
+      "sequences": [
+        "lees",
+        "short",
+        "luchtig"
+      ],
+      "positions": {
+        "lees": 561,
+        "short": 297,
+        "luchtig": 186
+      },
+      "actualPositions": {
+        "lees": 561,
+        "short": 297,
+        "luchtig": 186
+      }
+    },
+    "01ktdt607e4smamm9591b0b9d2": {
+      "baseScore": 50,
+      "adjustment": 0,
+      "adjustmentReason": null,
+      "score": 50,
+      "tier": "midden",
+      "components": {
+        "kerninteresse": 30,
+        "diepgang": 0,
+        "persoonlijke_bruikbaarheid": 10,
+        "leeskans": 5,
+        "onderscheidende_duurzame_waarde": 5,
+        "aftrek": 0
+      },
+      "rationale": {
+        "kerninteresse": [
+          "Eén kerndomein: cultuur_games_film."
+        ],
+        "diepgang": [],
+        "persoonlijke_bruikbaarheid": [
+          "Indirect bruikbaar via een kerndomein."
+        ],
+        "leeskans": [
+          "Korte leestijd: 3 minuten."
+        ],
+        "onderscheidende_duurzame_waarde": [
+          "Aansluiting bij een kerndomein."
+        ],
+        "aftrek": []
+      },
+      "sequences": [
+        "lees",
+        "short",
+        "luchtig"
+      ],
+      "positions": {
+        "lees": 444,
+        "short": 219,
+        "luchtig": 137
+      },
+      "actualPositions": {
+        "lees": 444,
+        "short": 219,
+        "luchtig": 137
       }
     },
     "01ktds007mazvkk5bn9zrdybw0": {
@@ -11479,16 +15378,16 @@ window.TOP_ARTICLE_PRIORITY = {
         "short-dutch"
       ],
       "positions": {
-        "lees": 248,
-        "dutch": 15,
-        "short": 127,
-        "short-dutch": 9
+        "lees": 289,
+        "dutch": 18,
+        "short": 154,
+        "short-dutch": 11
       },
       "actualPositions": {
-        "lees": 248,
-        "dutch": 15,
-        "short": 127,
-        "short-dutch": 9
+        "lees": 289,
+        "dutch": 18,
+        "short": 154,
+        "short-dutch": 11
       }
     },
     "01ktc8xc2yj17jm5hf96e12crc": {
@@ -11522,12 +15421,67 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 466,
-        "short": 228
+        "lees": 581,
+        "short": 315
       },
       "actualPositions": {
-        "lees": 461,
-        "short": 228
+        "lees": 581,
+        "short": 315
+      }
+    },
+    "01ktbxxr50k86jtqphyhdp1eyc": {
+      "baseScore": 50,
+      "adjustment": 0,
+      "adjustmentReason": null,
+      "score": 50,
+      "tier": "midden",
+      "components": {
+        "kerninteresse": 30,
+        "diepgang": 0,
+        "persoonlijke_bruikbaarheid": 10,
+        "leeskans": 5,
+        "onderscheidende_duurzame_waarde": 5,
+        "aftrek": 0
+      },
+      "rationale": {
+        "kerninteresse": [
+          "Eén kerndomein: cultuur_games_film."
+        ],
+        "diepgang": [],
+        "persoonlijke_bruikbaarheid": [
+          "Indirect bruikbaar via een kerndomein."
+        ],
+        "leeskans": [
+          "Korte leestijd: 3 minuten."
+        ],
+        "onderscheidende_duurzame_waarde": [
+          "Aansluiting bij een kerndomein."
+        ],
+        "aftrek": []
+      },
+      "sequences": [
+        "lees",
+        "dutch",
+        "short",
+        "short-dutch",
+        "luchtig",
+        "luchtig-nederlands"
+      ],
+      "positions": {
+        "lees": 443,
+        "dutch": 33,
+        "short": 218,
+        "short-dutch": 21,
+        "luchtig": 136,
+        "luchtig-nederlands": 12
+      },
+      "actualPositions": {
+        "lees": 443,
+        "dutch": 33,
+        "short": 218,
+        "short-dutch": 21,
+        "luchtig": 136,
+        "luchtig-nederlands": 12
       }
     },
     "01ktbgtqg35v2jdk8hnh5s11pg": {
@@ -11565,12 +15519,61 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 247,
-        "short": 126
+        "lees": 288,
+        "short": 153
       },
       "actualPositions": {
-        "lees": 247,
-        "short": 126
+        "lees": 288,
+        "short": 153
+      }
+    },
+    "01kt9sbc2hgkymt9expprgkgdp": {
+      "baseScore": 70,
+      "adjustment": 0,
+      "adjustmentReason": null,
+      "score": 70,
+      "tier": "hoog",
+      "components": {
+        "kerninteresse": 45,
+        "diepgang": 10,
+        "persoonlijke_bruikbaarheid": 10,
+        "leeskans": 0,
+        "onderscheidende_duurzame_waarde": 5,
+        "aftrek": 0
+      },
+      "rationale": {
+        "kerninteresse": [
+          "Minstens twee kerndomeinen: filosofie, geschiedenis."
+        ],
+        "diepgang": [
+          "2.806 woorden."
+        ],
+        "persoonlijke_bruikbaarheid": [
+          "Indirect bruikbaar via een kerndomein."
+        ],
+        "leeskans": [],
+        "onderscheidende_duurzame_waarde": [
+          "Minstens 1.200 woorden."
+        ],
+        "aftrek": []
+      },
+      "sequences": [
+        "lees",
+        "dutch",
+        "luchtig",
+        "luchtig-nederlands"
+      ],
+      "positions": {
+        "lees": 180,
+        "dutch": 13,
+        "luchtig": 47,
+        "luchtig-nederlands": 2
+      },
+      "actualPositions": {
+        "lees": 180,
+        "dutch": 13,
+        "luchtig": 47,
+        "luchtig-nederlands": 2
       }
     },
     "01kt925h38tcqnhvxm7f32yeqe": {
@@ -11607,10 +15610,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 328
+        "lees": 392
       },
       "actualPositions": {
-        "lees": 328
+        "lees": 392
       }
     },
     "01kt8j5yakk29s0cg4w3wnywn8": {
@@ -11650,16 +15653,65 @@ window.TOP_ARTICLE_PRIORITY = {
         "short-dutch"
       ],
       "positions": {
-        "lees": 395,
-        "dutch": 27,
-        "short": 187,
-        "short-dutch": 16
+        "lees": 489,
+        "dutch": 37,
+        "short": 256,
+        "short-dutch": 25
       },
       "actualPositions": {
-        "lees": 392,
-        "dutch": 27,
-        "short": 187,
-        "short-dutch": 16
+        "lees": 489,
+        "dutch": 37,
+        "short": 256,
+        "short-dutch": 25
+      }
+    },
+    "01kt7kjd4zr8ba59xcpfvmxdfz": {
+      "baseScore": 5,
+      "adjustment": 0,
+      "adjustmentReason": null,
+      "score": 5,
+      "tier": "laag",
+      "components": {
+        "kerninteresse": 0,
+        "diepgang": 0,
+        "persoonlijke_bruikbaarheid": 0,
+        "leeskans": 5,
+        "onderscheidende_duurzame_waarde": 0,
+        "aftrek": 0
+      },
+      "rationale": {
+        "kerninteresse": [],
+        "diepgang": [],
+        "persoonlijke_bruikbaarheid": [],
+        "leeskans": [
+          "Korte leestijd: 5 minuten."
+        ],
+        "onderscheidende_duurzame_waarde": [],
+        "aftrek": []
+      },
+      "sequences": [
+        "lees",
+        "dutch",
+        "short",
+        "short-dutch",
+        "luchtig",
+        "luchtig-nederlands"
+      ],
+      "positions": {
+        "lees": 625,
+        "dutch": 44,
+        "short": 339,
+        "short-dutch": 31,
+        "luchtig": 212,
+        "luchtig-nederlands": 16
+      },
+      "actualPositions": {
+        "lees": 625,
+        "dutch": 44,
+        "short": 339,
+        "short-dutch": 31,
+        "luchtig": 212,
+        "luchtig-nederlands": 16
       }
     },
     "01kt72hwt9asrzwwx70ybxyabe": {
@@ -11699,12 +15751,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 73,
-        "short": 38
+        "lees": 81,
+        "short": 41
       },
       "actualPositions": {
-        "lees": 73,
-        "short": 38
+        "lees": 81,
+        "short": 41
       }
     },
     "01kt6y5gvdz397bca43fnn2tqd": {
@@ -11740,12 +15792,54 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 381,
-        "luchtig": 97
+        "lees": 474,
+        "luchtig": 155
       },
       "actualPositions": {
-        "lees": 378,
-        "luchtig": 96
+        "lees": 474,
+        "luchtig": 155
+      }
+    },
+    "01kt6qdyh1y6x3qgtft0vd05eb": {
+      "baseScore": 20,
+      "adjustment": 0,
+      "adjustmentReason": null,
+      "score": 20,
+      "tier": "laag",
+      "components": {
+        "kerninteresse": 15,
+        "diepgang": 0,
+        "persoonlijke_bruikbaarheid": 0,
+        "leeskans": 5,
+        "onderscheidende_duurzame_waarde": 0,
+        "aftrek": 0
+      },
+      "rationale": {
+        "kerninteresse": [
+          "Alleen een aangrenzend onderwerp."
+        ],
+        "diepgang": [],
+        "persoonlijke_bruikbaarheid": [],
+        "leeskans": [
+          "Korte leestijd: 3 minuten."
+        ],
+        "onderscheidende_duurzame_waarde": [],
+        "aftrek": []
+      },
+      "sequences": [
+        "lees",
+        "short",
+        "luchtig"
+      ],
+      "positions": {
+        "lees": 580,
+        "short": 314,
+        "luchtig": 196
+      },
+      "actualPositions": {
+        "lees": 580,
+        "short": 314,
+        "luchtig": 196
       }
     },
     "01kt48nachk49100hbdvv2zqdr": {
@@ -11782,10 +15876,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 158
+        "lees": 179
       },
       "actualPositions": {
-        "lees": 158
+        "lees": 179
       }
     },
     "01kt43yge3yh7na9s1pgccyc4b": {
@@ -11825,16 +15919,16 @@ window.TOP_ARTICLE_PRIORITY = {
         "short-dutch"
       ],
       "positions": {
-        "lees": 366,
-        "dutch": 25,
-        "short": 166,
-        "short-dutch": 14
+        "lees": 442,
+        "dutch": 32,
+        "short": 217,
+        "short-dutch": 20
       },
       "actualPositions": {
-        "lees": 364,
-        "dutch": 25,
-        "short": 166,
-        "short-dutch": 14
+        "lees": 442,
+        "dutch": 32,
+        "short": 217,
+        "short-dutch": 20
       }
     },
     "01kt3yrv65xm5w5crnf6ycy3rr": {
@@ -11872,12 +15966,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 327,
-        "luchtig": 85
+        "lees": 391,
+        "luchtig": 125
       },
       "actualPositions": {
-        "lees": 327,
-        "luchtig": 85
+        "lees": 391,
+        "luchtig": 125
       }
     },
     "01kt3pyfje0y9z49fzqmtkjsse": {
@@ -11914,10 +16008,102 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 214
+        "lees": 245
       },
       "actualPositions": {
-        "lees": 214
+        "lees": 245
+      }
+    },
+    "01kt1vftcr1sbpe7eyaq1th1cx": {
+      "baseScore": 50,
+      "adjustment": 0,
+      "adjustmentReason": null,
+      "score": 50,
+      "tier": "midden",
+      "components": {
+        "kerninteresse": 30,
+        "diepgang": 0,
+        "persoonlijke_bruikbaarheid": 10,
+        "leeskans": 5,
+        "onderscheidende_duurzame_waarde": 5,
+        "aftrek": 0
+      },
+      "rationale": {
+        "kerninteresse": [
+          "Eén kerndomein: cultuur_games_film."
+        ],
+        "diepgang": [],
+        "persoonlijke_bruikbaarheid": [
+          "Indirect bruikbaar via een kerndomein."
+        ],
+        "leeskans": [
+          "Korte leestijd: 3 minuten."
+        ],
+        "onderscheidende_duurzame_waarde": [
+          "Aansluiting bij een kerndomein."
+        ],
+        "aftrek": []
+      },
+      "sequences": [
+        "lees",
+        "short",
+        "luchtig"
+      ],
+      "positions": {
+        "lees": 441,
+        "short": 216,
+        "luchtig": 135
+      },
+      "actualPositions": {
+        "lees": 441,
+        "short": 216,
+        "luchtig": 135
+      }
+    },
+    "01kt1kx6fw5yk6bfkt8ahab2q5": {
+      "baseScore": 50,
+      "adjustment": 0,
+      "adjustmentReason": null,
+      "score": 50,
+      "tier": "midden",
+      "components": {
+        "kerninteresse": 30,
+        "diepgang": 0,
+        "persoonlijke_bruikbaarheid": 10,
+        "leeskans": 5,
+        "onderscheidende_duurzame_waarde": 5,
+        "aftrek": 0
+      },
+      "rationale": {
+        "kerninteresse": [
+          "Eén kerndomein: filosofie."
+        ],
+        "diepgang": [],
+        "persoonlijke_bruikbaarheid": [
+          "Indirect bruikbaar via een kerndomein."
+        ],
+        "leeskans": [
+          "Korte leestijd: 2 minuten."
+        ],
+        "onderscheidende_duurzame_waarde": [
+          "Aansluiting bij een kerndomein."
+        ],
+        "aftrek": []
+      },
+      "sequences": [
+        "lees",
+        "short",
+        "luchtig"
+      ],
+      "positions": {
+        "lees": 440,
+        "short": 215,
+        "luchtig": 134
+      },
+      "actualPositions": {
+        "lees": 440,
+        "short": 215,
+        "luchtig": 134
       }
     },
     "01ksztqyqrbf3hq420f9q12d7m": {
@@ -11958,6 +16144,52 @@ window.TOP_ARTICLE_PRIORITY = {
         "video": 4
       }
     },
+    "01kswfhg0kr3e4b06hbarqhxk3": {
+      "baseScore": 40,
+      "adjustment": 0,
+      "adjustmentReason": null,
+      "score": 40,
+      "tier": "midden",
+      "components": {
+        "kerninteresse": 0,
+        "diepgang": 10,
+        "persoonlijke_bruikbaarheid": 20,
+        "leeskans": 5,
+        "onderscheidende_duurzame_waarde": 5,
+        "aftrek": 0
+      },
+      "rationale": {
+        "kerninteresse": [],
+        "diepgang": [
+          "1.716 woorden."
+        ],
+        "persoonlijke_bruikbaarheid": [
+          "Waarom lezen noemt: schrijven."
+        ],
+        "leeskans": [
+          "Korte leestijd: 7 minuten."
+        ],
+        "onderscheidende_duurzame_waarde": [
+          "Minstens 1.200 woorden."
+        ],
+        "aftrek": []
+      },
+      "sequences": [
+        "lees",
+        "short",
+        "luchtig"
+      ],
+      "positions": {
+        "lees": 488,
+        "short": 255,
+        "luchtig": 159
+      },
+      "actualPositions": {
+        "lees": 488,
+        "short": 255,
+        "luchtig": 159
+      }
+    },
     "01ksvxarfqbzdwmx01pct93tvr": {
       "baseScore": 60,
       "adjustment": 0,
@@ -11995,12 +16227,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 246,
-        "short": 125
+        "lees": 287,
+        "short": 152
       },
       "actualPositions": {
-        "lees": 246,
-        "short": 125
+        "lees": 287,
+        "short": 152
       }
     },
     "01kst1g8cff3ab77qteg0q834j": {
@@ -12040,12 +16272,60 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 14,
-        "short": 13
+        "lees": 17,
+        "short": 16
       },
       "actualPositions": {
-        "lees": 14,
-        "short": 13
+        "lees": 17,
+        "short": 16
+      }
+    },
+    "01ksspmmztsr8pd0zq5k2pcnke": {
+      "baseScore": 70,
+      "adjustment": 0,
+      "adjustmentReason": null,
+      "score": 70,
+      "tier": "hoog",
+      "components": {
+        "kerninteresse": 30,
+        "diepgang": 10,
+        "persoonlijke_bruikbaarheid": 20,
+        "leeskans": 5,
+        "onderscheidende_duurzame_waarde": 5,
+        "aftrek": 0
+      },
+      "rationale": {
+        "kerninteresse": [
+          "Eén kerndomein: schrijven."
+        ],
+        "diepgang": [
+          "1.870 woorden."
+        ],
+        "persoonlijke_bruikbaarheid": [
+          "Waarom lezen noemt: schrijven."
+        ],
+        "leeskans": [
+          "Korte leestijd: 8 minuten."
+        ],
+        "onderscheidende_duurzame_waarde": [
+          "Minstens 1.200 woorden."
+        ],
+        "aftrek": []
+      },
+      "sequences": [
+        "lees",
+        "short",
+        "luchtig"
+      ],
+      "positions": {
+        "lees": 178,
+        "short": 101,
+        "luchtig": 46
+      },
+      "actualPositions": {
+        "lees": 178,
+        "short": 101,
+        "luchtig": 46
       }
     },
     "01ksr6nhhy6e1edpv55ttasqh8": {
@@ -12083,12 +16363,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 365,
-        "short": 165
+        "lees": 439,
+        "short": 214
       },
       "actualPositions": {
-        "lees": 363,
-        "short": 165
+        "lees": 439,
+        "short": 214
       }
     },
     "01ksqkk435sxw70yrsebqe07gn": {
@@ -12126,12 +16406,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 394,
-        "short": 186
+        "lees": 487,
+        "short": 254
       },
       "actualPositions": {
-        "lees": 391,
-        "short": 186
+        "lees": 487,
+        "short": 254
       }
     },
     "01ksq126c0q6kp4qwstx59c0q3": {
@@ -12164,10 +16444,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 488
+        "lees": 609
       },
       "actualPositions": {
-        "lees": 483
+        "lees": 609
       }
     },
     "01ksn9qmay1erty7g5cha7xgmj": {
@@ -12206,14 +16486,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 393,
-        "short": 185,
-        "luchtig": 100
+        "lees": 486,
+        "short": 253,
+        "luchtig": 158
       },
       "actualPositions": {
-        "lees": 390,
-        "short": 185,
-        "luchtig": 99
+        "lees": 486,
+        "short": 253,
+        "luchtig": 158
       }
     },
     "01ksn0g5e07cstvdhjbzkb0a5f": {
@@ -12253,12 +16533,55 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 245,
-        "short": 124
+        "lees": 286,
+        "short": 151
       },
       "actualPositions": {
-        "lees": 245,
-        "short": 124
+        "lees": 286,
+        "short": 151
+      }
+    },
+    "01ksmj9hx2gtpq5spdfq0f7v37": {
+      "baseScore": 55,
+      "adjustment": 0,
+      "adjustmentReason": null,
+      "score": 55,
+      "tier": "midden",
+      "components": {
+        "kerninteresse": 30,
+        "diepgang": 10,
+        "persoonlijke_bruikbaarheid": 10,
+        "leeskans": 0,
+        "onderscheidende_duurzame_waarde": 5,
+        "aftrek": 0
+      },
+      "rationale": {
+        "kerninteresse": [
+          "Eén kerndomein: geschiedenis."
+        ],
+        "diepgang": [
+          "2.924 woorden."
+        ],
+        "persoonlijke_bruikbaarheid": [
+          "Indirect bruikbaar via een kerndomein."
+        ],
+        "leeskans": [],
+        "onderscheidende_duurzame_waarde": [
+          "Minstens 1.200 woorden."
+        ],
+        "aftrek": []
+      },
+      "sequences": [
+        "lees",
+        "luchtig"
+      ],
+      "positions": {
+        "lees": 390,
+        "luchtig": 124
+      },
+      "actualPositions": {
+        "lees": 390,
+        "luchtig": 124
       }
     },
     "01ksm8dq8gdfk1tjx34hv61bd9": {
@@ -12295,10 +16618,101 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 157
+        "lees": 177
       },
       "actualPositions": {
-        "lees": 157
+        "lees": 177
+      }
+    },
+    "01ksk56be6jt4ad5g5kabzatjc": {
+      "baseScore": 20,
+      "adjustment": 0,
+      "adjustmentReason": null,
+      "score": 20,
+      "tier": "laag",
+      "components": {
+        "kerninteresse": 15,
+        "diepgang": 0,
+        "persoonlijke_bruikbaarheid": 0,
+        "leeskans": 5,
+        "onderscheidende_duurzame_waarde": 0,
+        "aftrek": 0
+      },
+      "rationale": {
+        "kerninteresse": [
+          "Alleen een aangrenzend onderwerp."
+        ],
+        "diepgang": [],
+        "persoonlijke_bruikbaarheid": [],
+        "leeskans": [
+          "Korte leestijd: 3 minuten."
+        ],
+        "onderscheidende_duurzame_waarde": [],
+        "aftrek": []
+      },
+      "sequences": [
+        "lees",
+        "short",
+        "luchtig"
+      ],
+      "positions": {
+        "lees": 579,
+        "short": 313,
+        "luchtig": 195
+      },
+      "actualPositions": {
+        "lees": 579,
+        "short": 313,
+        "luchtig": 195
+      }
+    },
+    "01kshptdc5njqdmnehkxr4arfb": {
+      "baseScore": 5,
+      "adjustment": 0,
+      "adjustmentReason": null,
+      "score": 5,
+      "tier": "laag",
+      "components": {
+        "kerninteresse": 0,
+        "diepgang": 0,
+        "persoonlijke_bruikbaarheid": 0,
+        "leeskans": 5,
+        "onderscheidende_duurzame_waarde": 0,
+        "aftrek": 0
+      },
+      "rationale": {
+        "kerninteresse": [],
+        "diepgang": [],
+        "persoonlijke_bruikbaarheid": [],
+        "leeskans": [
+          "Korte leestijd: 2 minuten."
+        ],
+        "onderscheidende_duurzame_waarde": [],
+        "aftrek": []
+      },
+      "sequences": [
+        "lees",
+        "dutch",
+        "short",
+        "short-dutch",
+        "luchtig",
+        "luchtig-nederlands"
+      ],
+      "positions": {
+        "lees": 624,
+        "dutch": 43,
+        "short": 338,
+        "short-dutch": 30,
+        "luchtig": 211,
+        "luchtig-nederlands": 15
+      },
+      "actualPositions": {
+        "lees": 624,
+        "dutch": 43,
+        "short": 338,
+        "short-dutch": 30,
+        "luchtig": 211,
+        "luchtig-nederlands": 15
       }
     },
     "01kshk7y38tttq6h11fb76xmzd": {
@@ -12331,10 +16745,58 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 487
+        "lees": 608
       },
       "actualPositions": {
-        "lees": 482
+        "lees": 608
+      }
+    },
+    "01ksgpayydne30egggw4npszj1": {
+      "baseScore": 60,
+      "adjustment": 0,
+      "adjustmentReason": null,
+      "score": 60,
+      "tier": "midden",
+      "components": {
+        "kerninteresse": 30,
+        "diepgang": 10,
+        "persoonlijke_bruikbaarheid": 10,
+        "leeskans": 5,
+        "onderscheidende_duurzame_waarde": 5,
+        "aftrek": 0
+      },
+      "rationale": {
+        "kerninteresse": [
+          "Eén kerndomein: filosofie."
+        ],
+        "diepgang": [
+          "1.350 woorden."
+        ],
+        "persoonlijke_bruikbaarheid": [
+          "Indirect bruikbaar via een kerndomein."
+        ],
+        "leeskans": [
+          "Korte leestijd: 6 minuten."
+        ],
+        "onderscheidende_duurzame_waarde": [
+          "Minstens 1.200 woorden."
+        ],
+        "aftrek": []
+      },
+      "sequences": [
+        "lees",
+        "short",
+        "luchtig"
+      ],
+      "positions": {
+        "lees": 285,
+        "short": 150,
+        "luchtig": 85
+      },
+      "actualPositions": {
+        "lees": 285,
+        "short": 150,
+        "luchtig": 85
       }
     },
     "01ksfv1fevrgxt37j74d1engk1": {
@@ -12371,10 +16833,56 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 156
+        "lees": 176
       },
       "actualPositions": {
-        "lees": 156
+        "lees": 176
+      }
+    },
+    "01ksftktanvm593t6d9871cmm4": {
+      "baseScore": 65,
+      "adjustment": 0,
+      "adjustmentReason": null,
+      "score": 65,
+      "tier": "midden",
+      "components": {
+        "kerninteresse": 45,
+        "diepgang": 0,
+        "persoonlijke_bruikbaarheid": 10,
+        "leeskans": 5,
+        "onderscheidende_duurzame_waarde": 5,
+        "aftrek": 0
+      },
+      "rationale": {
+        "kerninteresse": [
+          "Minstens twee kerndomeinen: geschiedenis, cultuur_games_film."
+        ],
+        "diepgang": [],
+        "persoonlijke_bruikbaarheid": [
+          "Indirect bruikbaar via een kerndomein."
+        ],
+        "leeskans": [
+          "Korte leestijd: 3 minuten."
+        ],
+        "onderscheidende_duurzame_waarde": [
+          "Aansluiting bij een kerndomein."
+        ],
+        "aftrek": []
+      },
+      "sequences": [
+        "lees",
+        "short",
+        "luchtig"
+      ],
+      "positions": {
+        "lees": 244,
+        "short": 114,
+        "luchtig": 63
+      },
+      "actualPositions": {
+        "lees": 244,
+        "short": 114,
+        "luchtig": 63
       }
     },
     "01ksfmp69w60w813kk00xf6a9a": {
@@ -12411,10 +16919,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 155
+        "lees": 175
       },
       "actualPositions": {
-        "lees": 155
+        "lees": 175
       }
     },
     "01ksdspbay70y5s5pef9grpats": {
@@ -12450,12 +16958,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 441,
-        "short": 215
+        "lees": 546,
+        "short": 293
       },
       "actualPositions": {
-        "lees": 438,
-        "short": 215
+        "lees": 546,
+        "short": 293
       }
     },
     "01ksdsnsw2mbeb6y7y17ghhey9": {
@@ -12528,10 +17036,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 326
+        "lees": 389
       },
       "actualPositions": {
-        "lees": 326
+        "lees": 389
       }
     },
     "01ksdgm26rq58wtjgaqg75tyfv": {
@@ -12564,10 +17072,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 486
+        "lees": 607
       },
       "actualPositions": {
-        "lees": 481
+        "lees": 607
       }
     },
     "01ksc75pt8qjpzxtda00x3dba8": {
@@ -12605,12 +17113,60 @@ window.TOP_ARTICLE_PRIORITY = {
         "dutch"
       ],
       "positions": {
-        "lees": 154,
-        "dutch": 11
+        "lees": 174,
+        "dutch": 12
       },
       "actualPositions": {
-        "lees": 154,
-        "dutch": 11
+        "lees": 174,
+        "dutch": 12
+      }
+    },
+    "01ksatzj8qqdm55ebbkc4588ft": {
+      "baseScore": 60,
+      "adjustment": 0,
+      "adjustmentReason": null,
+      "score": 60,
+      "tier": "midden",
+      "components": {
+        "kerninteresse": 30,
+        "diepgang": 10,
+        "persoonlijke_bruikbaarheid": 10,
+        "leeskans": 5,
+        "onderscheidende_duurzame_waarde": 5,
+        "aftrek": 0
+      },
+      "rationale": {
+        "kerninteresse": [
+          "Eén kerndomein: geschiedenis."
+        ],
+        "diepgang": [
+          "Verdiepend signaal in de tekst: analyse."
+        ],
+        "persoonlijke_bruikbaarheid": [
+          "Indirect bruikbaar via een kerndomein."
+        ],
+        "leeskans": [
+          "Korte leestijd: 5 minuten."
+        ],
+        "onderscheidende_duurzame_waarde": [
+          "Aansluiting bij een kerndomein."
+        ],
+        "aftrek": []
+      },
+      "sequences": [
+        "lees",
+        "short",
+        "luchtig"
+      ],
+      "positions": {
+        "lees": 284,
+        "short": 149,
+        "luchtig": 84
+      },
+      "actualPositions": {
+        "lees": 284,
+        "short": 149,
+        "luchtig": 84
       }
     },
     "01ksa8bkjxff0w96rm5ttz0f6f": {
@@ -12646,12 +17202,60 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 440,
-        "luchtig": 113
+        "lees": 545,
+        "luchtig": 180
       },
       "actualPositions": {
-        "lees": 437,
-        "luchtig": 112
+        "lees": 545,
+        "luchtig": 180
+      }
+    },
+    "01ksa4rg8aaab5rf5v3x3xd1mb": {
+      "baseScore": 60,
+      "adjustment": 0,
+      "adjustmentReason": null,
+      "score": 60,
+      "tier": "midden",
+      "components": {
+        "kerninteresse": 30,
+        "diepgang": 10,
+        "persoonlijke_bruikbaarheid": 10,
+        "leeskans": 5,
+        "onderscheidende_duurzame_waarde": 5,
+        "aftrek": 0
+      },
+      "rationale": {
+        "kerninteresse": [
+          "Eén kerndomein: sociologie."
+        ],
+        "diepgang": [
+          "Verdiepend signaal in de tekst: analyse."
+        ],
+        "persoonlijke_bruikbaarheid": [
+          "Indirect bruikbaar via een kerndomein."
+        ],
+        "leeskans": [
+          "Korte leestijd: 2 minuten."
+        ],
+        "onderscheidende_duurzame_waarde": [
+          "Aansluiting bij een kerndomein."
+        ],
+        "aftrek": []
+      },
+      "sequences": [
+        "lees",
+        "short",
+        "luchtig"
+      ],
+      "positions": {
+        "lees": 283,
+        "short": 148,
+        "luchtig": 83
+      },
+      "actualPositions": {
+        "lees": 283,
+        "short": 148,
+        "luchtig": 83
       }
     },
     "01ks96dy2nfby7cyd152ev2a9k": {
@@ -12691,12 +17295,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 13,
-        "short": 12
+        "lees": 16,
+        "short": 15
       },
       "actualPositions": {
-        "lees": 13,
-        "short": 12
+        "lees": 16,
+        "short": 15
       }
     },
     "01ks842fba0s6wb4jy3ksz1mh3": {
@@ -12729,10 +17333,65 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 485
+        "lees": 606
       },
       "actualPositions": {
-        "lees": 480
+        "lees": 606
+      }
+    },
+    "01ks7vbkd0mgft31fpf06jbv90": {
+      "baseScore": 50,
+      "adjustment": 0,
+      "adjustmentReason": null,
+      "score": 50,
+      "tier": "midden",
+      "components": {
+        "kerninteresse": 30,
+        "diepgang": 0,
+        "persoonlijke_bruikbaarheid": 10,
+        "leeskans": 5,
+        "onderscheidende_duurzame_waarde": 5,
+        "aftrek": 0
+      },
+      "rationale": {
+        "kerninteresse": [
+          "Eén kerndomein: sociologie."
+        ],
+        "diepgang": [],
+        "persoonlijke_bruikbaarheid": [
+          "Indirect bruikbaar via een kerndomein."
+        ],
+        "leeskans": [
+          "Korte leestijd: 3 minuten."
+        ],
+        "onderscheidende_duurzame_waarde": [
+          "Aansluiting bij een kerndomein."
+        ],
+        "aftrek": []
+      },
+      "sequences": [
+        "lees",
+        "dutch",
+        "short",
+        "short-dutch",
+        "luchtig",
+        "luchtig-nederlands"
+      ],
+      "positions": {
+        "lees": 438,
+        "dutch": 31,
+        "short": 213,
+        "short-dutch": 19,
+        "luchtig": 133,
+        "luchtig-nederlands": 11
+      },
+      "actualPositions": {
+        "lees": 438,
+        "dutch": 31,
+        "short": 213,
+        "short-dutch": 19,
+        "luchtig": 133,
+        "luchtig-nederlands": 11
       }
     },
     "01ks5wkeam3nzf67r9bh537enm": {
@@ -12770,12 +17429,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 325,
-        "luchtig": 84
+        "lees": 388,
+        "luchtig": 123
       },
       "actualPositions": {
-        "lees": 325,
-        "luchtig": 84
+        "lees": 388,
+        "luchtig": 123
       }
     },
     "01ks3b1323hmp09eaygeqsbjrk": {
@@ -12814,14 +17473,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 392,
-        "short": 184,
-        "luchtig": 99
+        "lees": 485,
+        "short": 252,
+        "luchtig": 157
       },
       "actualPositions": {
-        "lees": 389,
-        "short": 184,
-        "luchtig": 98
+        "lees": 485,
+        "short": 252,
+        "luchtig": 157
       }
     },
     "01ks306x1mtfw67yhggdkdwhbx": {
@@ -12858,10 +17517,58 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 153
+        "lees": 173
       },
       "actualPositions": {
-        "lees": 153
+        "lees": 173
+      }
+    },
+    "01ks2w2tk5ar80phj3pj90bjsw": {
+      "baseScore": 60,
+      "adjustment": 0,
+      "adjustmentReason": null,
+      "score": 60,
+      "tier": "midden",
+      "components": {
+        "kerninteresse": 30,
+        "diepgang": 10,
+        "persoonlijke_bruikbaarheid": 10,
+        "leeskans": 5,
+        "onderscheidende_duurzame_waarde": 5,
+        "aftrek": 0
+      },
+      "rationale": {
+        "kerninteresse": [
+          "Eén kerndomein: filosofie."
+        ],
+        "diepgang": [
+          "2.343 woorden."
+        ],
+        "persoonlijke_bruikbaarheid": [
+          "Indirect bruikbaar via een kerndomein."
+        ],
+        "leeskans": [
+          "Korte leestijd: 9 minuten."
+        ],
+        "onderscheidende_duurzame_waarde": [
+          "Minstens 1.200 woorden."
+        ],
+        "aftrek": []
+      },
+      "sequences": [
+        "lees",
+        "short",
+        "luchtig"
+      ],
+      "positions": {
+        "lees": 282,
+        "short": 147,
+        "luchtig": 82
+      },
+      "actualPositions": {
+        "lees": 282,
+        "short": 147,
+        "luchtig": 82
       }
     },
     "01ks2b50wxejwag42nf6rnrq6d": {
@@ -12899,12 +17606,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 324,
-        "luchtig": 83
+        "lees": 387,
+        "luchtig": 122
       },
       "actualPositions": {
-        "lees": 324,
-        "luchtig": 83
+        "lees": 387,
+        "luchtig": 122
       }
     },
     "01ks0n4s93c7rt3rwdfgvrgw8y": {
@@ -12940,12 +17647,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 465,
-        "short": 227
+        "lees": 578,
+        "short": 312
       },
       "actualPositions": {
-        "lees": 460,
-        "short": 227
+        "lees": 578,
+        "short": 312
       }
     },
     "01ks0eq0r3x8h0fgzzn289mazj": {
@@ -12977,12 +17684,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 500,
-        "short": 245
+        "lees": 623,
+        "short": 337
       },
       "actualPositions": {
-        "lees": 495,
-        "short": 245
+        "lees": 623,
+        "short": 337
       }
     },
     "01ks0epa8kspp83kh75k75rxss": {
@@ -13020,12 +17727,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 391,
-        "short": 183
+        "lees": 484,
+        "short": 251
       },
       "actualPositions": {
-        "lees": 388,
-        "short": 183
+        "lees": 484,
+        "short": 251
       }
     },
     "01krxb0g22xzayb39n9z9h286g": {
@@ -13062,10 +17769,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 323
+        "lees": 386
       },
       "actualPositions": {
-        "lees": 323
+        "lees": 386
       }
     },
     "01krtrt7kmjn4w5c51genbrkzk": {
@@ -13102,10 +17809,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 364
+        "lees": 437
       },
       "actualPositions": {
-        "lees": 362
+        "lees": 437
       }
     },
     "01krtrc68m499tqp0qe471vq9c": {
@@ -13145,12 +17852,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 152,
-        "short": 87
+        "lees": 172,
+        "short": 100
       },
       "actualPositions": {
-        "lees": 152,
-        "short": 87
+        "lees": 172,
+        "short": 100
       }
     },
     "01krtrbnj1rtn0p7gt8fatgj7p": {
@@ -13190,12 +17897,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 151,
-        "short": 86
+        "lees": 171,
+        "short": 99
       },
       "actualPositions": {
-        "lees": 151,
-        "short": 86
+        "lees": 171,
+        "short": 99
       }
     },
     "01krtrbe7xpgnmyq707xyfa6dw": {
@@ -13233,12 +17940,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 213,
-        "short": 97
+        "lees": 243,
+        "short": 113
       },
       "actualPositions": {
-        "lees": 213,
-        "short": 97
+        "lees": 243,
+        "short": 113
       }
     },
     "01krtfz54rb8r6bs4x84h6sdhs": {
@@ -13279,14 +17986,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 322,
-        "short": 164,
-        "luchtig": 82
+        "lees": 385,
+        "short": 212,
+        "luchtig": 121
       },
       "actualPositions": {
-        "lees": 322,
-        "short": 164,
-        "luchtig": 82
+        "lees": 385,
+        "short": 212,
+        "luchtig": 121
       }
     },
     "01krtfwg9tch5d3yrjgdte28sf": {
@@ -13324,12 +18031,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 390,
-        "short": 182
+        "lees": 483,
+        "short": 250
       },
       "actualPositions": {
-        "lees": 387,
-        "short": 182
+        "lees": 483,
+        "short": 250
       }
     },
     "01krtexkxa2w3kf6d07h8t2ndr": {
@@ -13369,12 +18076,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 150,
-        "short": 85
+        "lees": 170,
+        "short": 98
       },
       "actualPositions": {
-        "lees": 150,
-        "short": 85
+        "lees": 170,
+        "short": 98
       }
     },
     "01krtdtyp5dvaxqsj7ted9sha0": {
@@ -13414,12 +18121,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 244,
-        "short": 123
+        "lees": 281,
+        "short": 146
       },
       "actualPositions": {
-        "lees": 244,
-        "short": 123
+        "lees": 281,
+        "short": 146
       }
     },
     "01krt95bsf7mgc928phr833z7r": {
@@ -13456,10 +18163,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 212
+        "lees": 242
       },
       "actualPositions": {
-        "lees": 212
+        "lees": 242
       }
     },
     "01krt94dn0eh8859xw7s0t2vgm": {
@@ -13496,10 +18203,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 33
+        "lees": 38
       },
       "actualPositions": {
-        "lees": 33
+        "lees": 38
       }
     },
     "01krt93n5eyfjbk9sbrygpdvy2": {
@@ -13537,12 +18244,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 389,
-        "short": 181
+        "lees": 482,
+        "short": 249
       },
       "actualPositions": {
-        "lees": 386,
-        "short": 181
+        "lees": 482,
+        "short": 249
       }
     },
     "01krt8npt3e31xxm22d0stjbbp": {
@@ -13579,10 +18286,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 149
+        "lees": 169
       },
       "actualPositions": {
-        "lees": 149
+        "lees": 169
       }
     },
     "01krqmh4tqphysje012p59hxec": {
@@ -13623,14 +18330,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 243,
-        "short": 122,
-        "luchtig": 62
+        "lees": 280,
+        "short": 145,
+        "luchtig": 81
       },
       "actualPositions": {
-        "lees": 243,
-        "short": 122,
-        "luchtig": 62
+        "lees": 280,
+        "short": 145,
+        "luchtig": 81
       }
     },
     "01krpd5465ts11g8szys682dfj": {
@@ -13667,10 +18374,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 32
+        "lees": 37
       },
       "actualPositions": {
-        "lees": 32
+        "lees": 37
       }
     },
     "01krnywe1ad1sgdc1h2jst7nf3": {
@@ -13707,10 +18414,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 321
+        "lees": 384
       },
       "actualPositions": {
-        "lees": 321
+        "lees": 384
       }
     },
     "01krnyr9cxy0rhqzt148zy5p99": {
@@ -13751,14 +18458,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 242,
-        "short": 121,
-        "luchtig": 61
+        "lees": 279,
+        "short": 144,
+        "luchtig": 80
       },
       "actualPositions": {
-        "lees": 242,
-        "short": 121,
-        "luchtig": 61
+        "lees": 279,
+        "short": 144,
+        "luchtig": 80
       }
     },
     "01krnyk5tprj87papxsrwn6rr6": {
@@ -13795,10 +18502,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 320
+        "lees": 383
       },
       "actualPositions": {
-        "lees": 320
+        "lees": 383
       }
     },
     "01krnygf4vzmx848dav851nhrg": {
@@ -13836,12 +18543,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 319,
-        "luchtig": 81
+        "lees": 382,
+        "luchtig": 120
       },
       "actualPositions": {
-        "lees": 319,
-        "luchtig": 81
+        "lees": 382,
+        "luchtig": 120
       }
     },
     "01krn89rppb35h90y58egserkm": {
@@ -13879,12 +18586,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 211,
-        "short": 96
+        "lees": 241,
+        "short": 112
       },
       "actualPositions": {
-        "lees": 211,
-        "short": 96
+        "lees": 241,
+        "short": 112
       }
     },
     "01krn89pg8ygg43xyqr4b5fzeq": {
@@ -13921,10 +18628,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 318
+        "lees": 381
       },
       "actualPositions": {
-        "lees": 318
+        "lees": 381
       }
     },
     "01krn89n78cs05f51mt1ygjnpg": {
@@ -13957,10 +18664,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 439
+        "lees": 544
       },
       "actualPositions": {
-        "lees": 436
+        "lees": 544
       }
     },
     "01krn7wk7s2g93zw72g9ay47xs": {
@@ -13997,10 +18704,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 148
+        "lees": 168
       },
       "actualPositions": {
-        "lees": 148
+        "lees": 168
       }
     },
     "01krn1jdcn6b450yv1z0j92tz3": {
@@ -14040,12 +18747,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 72,
-        "short": 37
+        "lees": 80,
+        "short": 40
       },
       "actualPositions": {
-        "lees": 72,
-        "short": 37
+        "lees": 80,
+        "short": 40
       }
     },
     "01krmzwafvfaac9xjpgfsvsvyb": {
@@ -14080,10 +18787,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 419
+        "lees": 517
       },
       "actualPositions": {
-        "lees": 416
+        "lees": 517
       }
     },
     "01krmzw6cw28m1y55ds9qrsxjf": {
@@ -14120,10 +18827,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 31
+        "lees": 36
       },
       "actualPositions": {
-        "lees": 31
+        "lees": 36
       }
     },
     "01krm5d32nfhsa44jvbq4s6nny": {
@@ -14161,12 +18868,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 147,
-        "luchtig": 37
+        "lees": 167,
+        "luchtig": 45
       },
       "actualPositions": {
-        "lees": 147,
-        "luchtig": 37
+        "lees": 167,
+        "luchtig": 45
       }
     },
     "01krm2x81z150qk5a5y9mezss5": {
@@ -14206,12 +18913,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 12,
-        "short": 11
+        "lees": 15,
+        "short": 14
       },
       "actualPositions": {
-        "lees": 12,
-        "short": 11
+        "lees": 15,
+        "short": 14
       }
     },
     "01krkc3v2q8zmh2h2qpsw9prxw": {
@@ -14249,12 +18956,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 315,
-        "luchtig": 79
+        "lees": 378,
+        "luchtig": 118
       },
       "actualPositions": {
-        "lees": 315,
-        "luchtig": 79
+        "lees": 378,
+        "luchtig": 118
       }
     },
     "01krkbe7701j87vmw7wrs54h8m": {
@@ -14294,12 +19001,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 71,
-        "short": 36
+        "lees": 79,
+        "short": 39
       },
       "actualPositions": {
-        "lees": 71,
-        "short": 36
+        "lees": 79,
+        "short": 39
       }
     },
     "01krefe28wdgb44e596j89ytj4": {
@@ -14336,10 +19043,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 146
+        "lees": 166
       },
       "actualPositions": {
-        "lees": 146
+        "lees": 166
       }
     },
     "01krc4rtfkcpwmtkkf10kqqeen": {
@@ -14374,10 +19081,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 418
+        "lees": 516
       },
       "actualPositions": {
-        "lees": 415
+        "lees": 516
       }
     },
     "01krbezjtx0zph0kpthrse5kr3": {
@@ -14414,10 +19121,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 145
+        "lees": 165
       },
       "actualPositions": {
-        "lees": 145
+        "lees": 165
       }
     },
     "01krand4e1q4d32afr5ntawm7j": {
@@ -14455,12 +19162,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 314,
-        "luchtig": 78
+        "lees": 377,
+        "luchtig": 117
       },
       "actualPositions": {
-        "lees": 314,
-        "luchtig": 78
+        "lees": 377,
+        "luchtig": 117
       }
     },
     "01kr6d6wfsrmmgq31q6w8b6fdk": {
@@ -14496,12 +19203,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 438,
-        "short": 214
+        "lees": 543,
+        "short": 292
       },
       "actualPositions": {
-        "lees": 435,
-        "short": 214
+        "lees": 543,
+        "short": 292
       }
     },
     "01kr407cqy79xnqva0edrx5kj8": {
@@ -14578,10 +19285,86 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 316
+        "lees": 379
       },
       "actualPositions": {
-        "lees": 316
+        "lees": 379
+      }
+    },
+    "01kr190hdc36xn9y5edjsm74fx": {
+      "baseScore": 80,
+      "adjustment": 0,
+      "adjustmentReason": null,
+      "score": 80,
+      "tier": "hoog",
+      "components": {
+        "kerninteresse": 45,
+        "diepgang": 10,
+        "persoonlijke_bruikbaarheid": 20,
+        "leeskans": 0,
+        "onderscheidende_duurzame_waarde": 5,
+        "aftrek": 0
+      },
+      "rationale": {
+        "kerninteresse": [
+          "Minstens twee kerndomeinen: ai_ethiek, sociologie, schrijven."
+        ],
+        "diepgang": [
+          "3.108 woorden."
+        ],
+        "persoonlijke_bruikbaarheid": [
+          "Direct bruikbare tag: writing & essays."
+        ],
+        "leeskans": [],
+        "onderscheidende_duurzame_waarde": [
+          "Minstens 1.200 woorden."
+        ],
+        "aftrek": []
+      },
+      "sequences": [
+        "lees"
+      ],
+      "positions": {
+        "lees": 35
+      },
+      "actualPositions": {
+        "lees": 35
+      }
+    },
+    "01kr18hzm9k2ntycxctghxwne6": {
+      "baseScore": 15,
+      "adjustment": 0,
+      "adjustmentReason": null,
+      "score": 15,
+      "tier": "laag",
+      "components": {
+        "kerninteresse": 0,
+        "diepgang": 10,
+        "persoonlijke_bruikbaarheid": 0,
+        "leeskans": 0,
+        "onderscheidende_duurzame_waarde": 5,
+        "aftrek": 0
+      },
+      "rationale": {
+        "kerninteresse": [],
+        "diepgang": [
+          "3.138 woorden."
+        ],
+        "persoonlijke_bruikbaarheid": [],
+        "leeskans": [],
+        "onderscheidende_duurzame_waarde": [
+          "Minstens 1.200 woorden."
+        ],
+        "aftrek": []
+      },
+      "sequences": [
+        "lees"
+      ],
+      "positions": {
+        "lees": 605
+      },
+      "actualPositions": {
+        "lees": 605
       }
     },
     "01kqy8wyp8f7z6nqcby6ajbnm4": {
@@ -14622,14 +19405,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 241,
-        "short": 120,
-        "luchtig": 60
+        "lees": 278,
+        "short": 143,
+        "luchtig": 79
       },
       "actualPositions": {
-        "lees": 241,
-        "short": 120,
-        "luchtig": 60
+        "lees": 278,
+        "short": 143,
+        "luchtig": 79
       }
     },
     "01kqwf46h1tackak8werthsvy5": {
@@ -14667,12 +19450,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 70,
-        "luchtig": 15
+        "lees": 78,
+        "luchtig": 16
       },
       "actualPositions": {
-        "lees": 70,
-        "luchtig": 15
+        "lees": 78,
+        "luchtig": 16
       }
     },
     "01kqwezb39fwf93qzkzhny5gm5": {
@@ -14709,10 +19492,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 30
+        "lees": 34
       },
       "actualPositions": {
-        "lees": 30
+        "lees": 34
       }
     },
     "01kqsnmx2rdcaktjvwsjmmq2cn": {
@@ -14752,12 +19535,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 69,
-        "short": 35
+        "lees": 77,
+        "short": 38
       },
       "actualPositions": {
-        "lees": 69,
-        "short": 35
+        "lees": 77,
+        "short": 38
       }
     },
     "01kqqh8nz7876rgha8kpnx0k54": {
@@ -14794,10 +19577,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 29
+        "lees": 33
       },
       "actualPositions": {
-        "lees": 29
+        "lees": 33
       }
     },
     "01kqqh8j20ty05q1atmpm9gscn": {
@@ -14834,10 +19617,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 28
+        "lees": 32
       },
       "actualPositions": {
-        "lees": 28
+        "lees": 32
       }
     },
     "01kqqh8gp2nh0d0c859h61yths": {
@@ -14875,12 +19658,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 27,
-        "luchtig": 6
+        "lees": 31,
+        "luchtig": 7
       },
       "actualPositions": {
-        "lees": 27,
-        "luchtig": 6
+        "lees": 31,
+        "luchtig": 7
       }
     },
     "01kqqh8fb86d2x37amv63jrtc1": {
@@ -14917,10 +19700,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 144
+        "lees": 164
       },
       "actualPositions": {
-        "lees": 144
+        "lees": 164
       }
     },
     "01kqn2zjmevdr865h4ah7q46ca": {
@@ -14963,6 +19746,48 @@ window.TOP_ARTICLE_PRIORITY = {
         "boek": 19
       }
     },
+    "01kqmaaxrcfyceawsmsqnhaq9b": {
+      "baseScore": 20,
+      "adjustment": 0,
+      "adjustmentReason": null,
+      "score": 20,
+      "tier": "laag",
+      "components": {
+        "kerninteresse": 15,
+        "diepgang": 0,
+        "persoonlijke_bruikbaarheid": 0,
+        "leeskans": 5,
+        "onderscheidende_duurzame_waarde": 0,
+        "aftrek": 0
+      },
+      "rationale": {
+        "kerninteresse": [
+          "Alleen een aangrenzend onderwerp."
+        ],
+        "diepgang": [],
+        "persoonlijke_bruikbaarheid": [],
+        "leeskans": [
+          "Korte leestijd: 2 minuten."
+        ],
+        "onderscheidende_duurzame_waarde": [],
+        "aftrek": []
+      },
+      "sequences": [
+        "lees",
+        "short",
+        "luchtig"
+      ],
+      "positions": {
+        "lees": 577,
+        "short": 311,
+        "luchtig": 194
+      },
+      "actualPositions": {
+        "lees": 577,
+        "short": 311,
+        "luchtig": 194
+      }
+    },
     "01kqj7zfv4pjw25bctmdrswe18": {
       "baseScore": 70,
       "adjustment": 0,
@@ -14998,12 +19823,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "dutch"
       ],
       "positions": {
-        "lees": 143,
-        "dutch": 10
+        "lees": 163,
+        "dutch": 11
       },
       "actualPositions": {
-        "lees": 143,
-        "dutch": 10
+        "lees": 163,
+        "dutch": 11
       }
     },
     "01kqgd25gt91afe9a1fyavnccq": {
@@ -15041,12 +19866,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 312,
-        "luchtig": 77
+        "lees": 375,
+        "luchtig": 116
       },
       "actualPositions": {
-        "lees": 312,
-        "luchtig": 77
+        "lees": 375,
+        "luchtig": 116
       }
     },
     "01kqfrh21ph0xe1wbqw4y4zwsf": {
@@ -15080,12 +19905,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 484,
-        "luchtig": 127
+        "lees": 604,
+        "luchtig": 206
       },
       "actualPositions": {
-        "lees": 479,
-        "luchtig": 124
+        "lees": 604,
+        "luchtig": 206
       }
     },
     "01kq70sakyjftgpgyhz32m16nq": {
@@ -15121,12 +19946,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 417,
-        "luchtig": 107
+        "lees": 515,
+        "luchtig": 169
       },
       "actualPositions": {
-        "lees": 414,
-        "luchtig": 106
+        "lees": 515,
+        "luchtig": 169
       }
     },
     "01kptngaeqvkwcgsrq7y4c6y80": {
@@ -15162,12 +19987,53 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 464,
-        "short": 226
+        "lees": 576,
+        "short": 310
       },
       "actualPositions": {
-        "lees": 459,
-        "short": 226
+        "lees": 576,
+        "short": 310
+      }
+    },
+    "01kptnavtmxc08pexmv6yxmavz": {
+      "baseScore": 20,
+      "adjustment": 0,
+      "adjustmentReason": null,
+      "score": 20,
+      "tier": "laag",
+      "components": {
+        "kerninteresse": 0,
+        "diepgang": 10,
+        "persoonlijke_bruikbaarheid": 0,
+        "leeskans": 5,
+        "onderscheidende_duurzame_waarde": 5,
+        "aftrek": 0
+      },
+      "rationale": {
+        "kerninteresse": [],
+        "diepgang": [
+          "2.381 woorden."
+        ],
+        "persoonlijke_bruikbaarheid": [],
+        "leeskans": [
+          "Korte leestijd: 9 minuten."
+        ],
+        "onderscheidende_duurzame_waarde": [
+          "Minstens 1.200 woorden."
+        ],
+        "aftrek": []
+      },
+      "sequences": [
+        "lees",
+        "short"
+      ],
+      "positions": {
+        "lees": 575,
+        "short": 309
+      },
+      "actualPositions": {
+        "lees": 575,
+        "short": 309
       }
     },
     "01kpe68f3bbm3ntfqf6t3dy7z9": {
@@ -15204,10 +20070,51 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 311
+        "lees": 374
       },
       "actualPositions": {
-        "lees": 311
+        "lees": 374
+      }
+    },
+    "01kpb376s2jb8650wvd5n8mszj": {
+      "baseScore": 20,
+      "adjustment": 0,
+      "adjustmentReason": null,
+      "score": 20,
+      "tier": "laag",
+      "components": {
+        "kerninteresse": 0,
+        "diepgang": 10,
+        "persoonlijke_bruikbaarheid": 0,
+        "leeskans": 5,
+        "onderscheidende_duurzame_waarde": 5,
+        "aftrek": 0
+      },
+      "rationale": {
+        "kerninteresse": [],
+        "diepgang": [
+          "1.781 woorden."
+        ],
+        "persoonlijke_bruikbaarheid": [],
+        "leeskans": [
+          "Korte leestijd: 7 minuten."
+        ],
+        "onderscheidende_duurzame_waarde": [
+          "Minstens 1.200 woorden."
+        ],
+        "aftrek": []
+      },
+      "sequences": [
+        "lees",
+        "short"
+      ],
+      "positions": {
+        "lees": 574,
+        "short": 308
+      },
+      "actualPositions": {
+        "lees": 574,
+        "short": 308
       }
     },
     "01kp4sz3c9smvcr240we5prsqa": {
@@ -15244,10 +20151,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 310
+        "lees": 373
       },
       "actualPositions": {
-        "lees": 310
+        "lees": 373
       }
     },
     "01kp2j39t59t9wy3bcs6m4q3c0": {
@@ -15284,10 +20191,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 210
+        "lees": 240
       },
       "actualPositions": {
-        "lees": 210
+        "lees": 240
       }
     },
     "01knsnf05g0aq5ecm2bdsh9rjx": {
@@ -15325,12 +20232,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 240,
-        "short": 119
+        "lees": 277,
+        "short": 142
       },
       "actualPositions": {
-        "lees": 240,
-        "short": 119
+        "lees": 277,
+        "short": 142
       }
     },
     "01knpm0f55scn4zw9p43g7aw7c": {
@@ -15367,10 +20274,46 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 142
+        "lees": 162
       },
       "actualPositions": {
-        "lees": 142
+        "lees": 162
+      }
+    },
+    "01knpkrv3w8wsbhpd6qs67fkd1": {
+      "baseScore": 15,
+      "adjustment": 0,
+      "adjustmentReason": null,
+      "score": 15,
+      "tier": "laag",
+      "components": {
+        "kerninteresse": 0,
+        "diepgang": 10,
+        "persoonlijke_bruikbaarheid": 0,
+        "leeskans": 0,
+        "onderscheidende_duurzame_waarde": 5,
+        "aftrek": 0
+      },
+      "rationale": {
+        "kerninteresse": [],
+        "diepgang": [
+          "3.745 woorden."
+        ],
+        "persoonlijke_bruikbaarheid": [],
+        "leeskans": [],
+        "onderscheidende_duurzame_waarde": [
+          "Minstens 1.200 woorden."
+        ],
+        "aftrek": []
+      },
+      "sequences": [
+        "lees"
+      ],
+      "positions": {
+        "lees": 603
+      },
+      "actualPositions": {
+        "lees": 603
       }
     },
     "01knfqr56swt9kpxge8j63ver2": {
@@ -15407,10 +20350,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 363
+        "lees": 436
       },
       "actualPositions": {
-        "lees": 361
+        "lees": 436
       }
     },
     "01knefpm3ae2ew1jrq9twtjc1w": {
@@ -15450,12 +20393,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 309,
-        "short": 163
+        "lees": 372,
+        "short": 211
       },
       "actualPositions": {
-        "lees": 309,
-        "short": 163
+        "lees": 372,
+        "short": 211
       }
     },
     "01kne8gk826f5e57n34h317pqw": {
@@ -15492,10 +20435,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 11
+        "lees": 14
       },
       "actualPositions": {
-        "lees": 11
+        "lees": 14
       }
     },
     "01knaa433mz4v5rtkbat739xjg": {
@@ -15533,12 +20476,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 209,
-        "luchtig": 49
+        "lees": 239,
+        "luchtig": 62
       },
       "actualPositions": {
-        "lees": 209,
-        "luchtig": 49
+        "lees": 239,
+        "luchtig": 62
       }
     },
     "01kn4c4mv24kk2vjxqcn0y6efj": {
@@ -15579,14 +20522,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 141,
-        "short": 84,
-        "luchtig": 36
+        "lees": 161,
+        "short": 97,
+        "luchtig": 44
       },
       "actualPositions": {
-        "lees": 141,
-        "short": 84,
-        "luchtig": 36
+        "lees": 161,
+        "short": 97,
+        "luchtig": 44
       }
     },
     "01kmwmt7f9jtm6j0gb6pnda9zk": {
@@ -15626,12 +20569,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 68,
-        "short": 34
+        "lees": 76,
+        "short": 37
       },
       "actualPositions": {
-        "lees": 68,
-        "short": 34
+        "lees": 76,
+        "short": 37
       }
     },
     "01kmsrjw7b8q2k5fb547bxerv2": {
@@ -15672,14 +20615,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 140,
-        "short": 83,
-        "luchtig": 35
+        "lees": 160,
+        "short": 96,
+        "luchtig": 43
       },
       "actualPositions": {
-        "lees": 140,
-        "short": 83,
-        "luchtig": 35
+        "lees": 160,
+        "short": 96,
+        "luchtig": 43
       }
     },
     "01kmr5kh5wjyr899wkg9skt4f7": {
@@ -15719,12 +20662,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 67,
-        "short": 33
+        "lees": 75,
+        "short": 36
       },
       "actualPositions": {
-        "lees": 67,
-        "short": 33
+        "lees": 75,
+        "short": 36
       }
     },
     "01kmn987xgaz6v9h2qdg08ef4h": {
@@ -15761,10 +20704,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 139
+        "lees": 159
       },
       "actualPositions": {
-        "lees": 139
+        "lees": 159
       }
     },
     "01kmmsmygjapx4f6gb2bhxds2j": {
@@ -15801,10 +20744,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 26
+        "lees": 30
       },
       "actualPositions": {
-        "lees": 26
+        "lees": 30
       }
     },
     "01kmmphbfkkpw5wdebg7qqdkft": {
@@ -15837,10 +20780,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 483
+        "lees": 602
       },
       "actualPositions": {
-        "lees": 478
+        "lees": 602
       }
     },
     "01kmjjs1nc96hg1tq02gmgh657": {
@@ -15877,10 +20820,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 208
+        "lees": 238
       },
       "actualPositions": {
-        "lees": 208
+        "lees": 238
       }
     },
     "01kmfmvdnqhec7daqp6x47pr85": {
@@ -15920,12 +20863,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 66,
-        "short": 32
+        "lees": 74,
+        "short": 35
       },
       "actualPositions": {
-        "lees": 66,
-        "short": 32
+        "lees": 74,
+        "short": 35
       }
     },
     "01kmdth41cmczffw0kk28vchct": {
@@ -15965,12 +20908,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 10,
-        "short": 10
+        "lees": 13,
+        "short": 13
       },
       "actualPositions": {
-        "lees": 10,
-        "short": 10
+        "lees": 13,
+        "short": 13
       }
     },
     "01kmbp240j81t2q7hgkj3dvykm": {
@@ -16007,10 +20950,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 362
+        "lees": 435
       },
       "actualPositions": {
-        "lees": 360
+        "lees": 435
       }
     },
     "01kmbp17grppjmpxqfsq4z3zy7": {
@@ -16048,12 +20991,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 25,
-        "luchtig": 5
+        "lees": 29,
+        "luchtig": 6
       },
       "actualPositions": {
-        "lees": 25,
-        "luchtig": 5
+        "lees": 29,
+        "luchtig": 6
       }
     },
     "01km3b9chws2ekph09cwaskqdk": {
@@ -16090,10 +21033,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 308
+        "lees": 371
       },
       "actualPositions": {
-        "lees": 308
+        "lees": 371
       }
     },
     "01km0ha2tggzmd2y5yjpqbycj5": {
@@ -16133,12 +21076,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 65,
-        "short": 31
+        "lees": 73,
+        "short": 34
       },
       "actualPositions": {
-        "lees": 65,
-        "short": 31
+        "lees": 73,
+        "short": 34
       }
     },
     "01kkywk73spedc9dzv05fv6s3a": {
@@ -16175,10 +21118,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 313
+        "lees": 376
       },
       "actualPositions": {
-        "lees": 313
+        "lees": 376
       }
     },
     "01kksm80zx4vk4cskkm9r0nddv": {
@@ -16251,10 +21194,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 307
+        "lees": 370
       },
       "actualPositions": {
-        "lees": 307
+        "lees": 370
       }
     },
     "01kkh2jn3p93nsh9nvbpe1w0vk": {
@@ -16292,12 +21235,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 64,
-        "short": 30
+        "lees": 72,
+        "short": 33
       },
       "actualPositions": {
-        "lees": 64,
-        "short": 30
+        "lees": 72,
+        "short": 33
       }
     },
     "01kkh1rvw2jw6hwht8p7dw0qrm": {
@@ -16334,10 +21277,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 137
+        "lees": 157
       },
       "actualPositions": {
-        "lees": 137
+        "lees": 157
       }
     },
     "01kkh0x5pfdsj6615b1gvhghsp": {
@@ -16374,10 +21317,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 207
+        "lees": 237
       },
       "actualPositions": {
-        "lees": 207
+        "lees": 237
       }
     },
     "01kkh0wb88xpy71r3pc97jgpn4": {
@@ -16417,12 +21360,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 138,
-        "short": 82
+        "lees": 158,
+        "short": 95
       },
       "actualPositions": {
-        "lees": 138,
-        "short": 82
+        "lees": 158,
+        "short": 95
       }
     },
     "01kkeq8y2jazj0q127exrvve9d": {
@@ -16459,10 +21402,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 206
+        "lees": 236
       },
       "actualPositions": {
-        "lees": 206
+        "lees": 236
       }
     },
     "01kkejgakdb8n1a7k1bketbfm5": {
@@ -16499,10 +21442,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 24
+        "lees": 28
       },
       "actualPositions": {
-        "lees": 24
+        "lees": 28
       }
     },
     "01kke05x4vzym7fgxd32d5ze4c": {
@@ -16542,12 +21485,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 136,
-        "short": 81
+        "lees": 156,
+        "short": 94
       },
       "actualPositions": {
-        "lees": 136,
-        "short": 81
+        "lees": 156,
+        "short": 94
       }
     },
     "01kk7n7kz1yznwg3mx0jgvjk6d": {
@@ -16622,10 +21565,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 135
+        "lees": 155
       },
       "actualPositions": {
-        "lees": 135
+        "lees": 155
       }
     },
     "01kjnmsk3mmpayj96rpj8s8fv4": {
@@ -16700,10 +21643,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 134
+        "lees": 154
       },
       "actualPositions": {
-        "lees": 134
+        "lees": 154
       }
     },
     "01kjcvz5kpdvdpehtkcr8qz2we": {
@@ -16741,12 +21684,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 388,
-        "short": 180
+        "lees": 481,
+        "short": 248
       },
       "actualPositions": {
-        "lees": 385,
-        "short": 180
+        "lees": 481,
+        "short": 248
       }
     },
     "01kj5a1mnca55881qyj3jzm64b": {
@@ -16784,12 +21727,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 133,
-        "luchtig": 34
+        "lees": 153,
+        "luchtig": 42
       },
       "actualPositions": {
-        "lees": 133,
-        "luchtig": 34
+        "lees": 153,
+        "luchtig": 42
       }
     },
     "01kj59ew6gb91gscpt8f7htspq": {
@@ -16867,12 +21810,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 317,
-        "luchtig": 80
+        "lees": 380,
+        "luchtig": 119
       },
       "actualPositions": {
-        "lees": 317,
-        "luchtig": 80
+        "lees": 380,
+        "luchtig": 119
       }
     },
     "01khxyazzfph3etb69en1bhzgw": {
@@ -16912,12 +21855,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 9,
-        "short": 9
+        "lees": 12,
+        "short": 12
       },
       "actualPositions": {
-        "lees": 9,
-        "short": 9
+        "lees": 12,
+        "short": 12
       }
     },
     "01khvzn1mps4eaj3f4147k0wn2": {
@@ -16954,10 +21897,50 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 132
+        "lees": 152
       },
       "actualPositions": {
-        "lees": 132
+        "lees": 152
+      }
+    },
+    "01khrd3s7hysvjvgdtsh1jc8ht": {
+      "baseScore": 65,
+      "adjustment": 0,
+      "adjustmentReason": null,
+      "score": 65,
+      "tier": "midden",
+      "components": {
+        "kerninteresse": 30,
+        "diepgang": 10,
+        "persoonlijke_bruikbaarheid": 20,
+        "leeskans": 0,
+        "onderscheidende_duurzame_waarde": 5,
+        "aftrek": 0
+      },
+      "rationale": {
+        "kerninteresse": [
+          "Eén kerndomein: pkm."
+        ],
+        "diepgang": [
+          "2.389 woorden."
+        ],
+        "persoonlijke_bruikbaarheid": [
+          "Waarom lezen noemt: pkm."
+        ],
+        "leeskans": [],
+        "onderscheidende_duurzame_waarde": [
+          "Minstens 1.200 woorden."
+        ],
+        "aftrek": []
+      },
+      "sequences": [
+        "lees"
+      ],
+      "positions": {
+        "lees": 235
+      },
+      "actualPositions": {
+        "lees": 235
       }
     },
     "01khr5h2d75yj0yt1v6seck4nt": {
@@ -16995,12 +21978,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 23,
-        "luchtig": 4
+        "lees": 27,
+        "luchtig": 5
       },
       "actualPositions": {
-        "lees": 23,
-        "luchtig": 4
+        "lees": 27,
+        "luchtig": 5
       }
     },
     "01khqrhk77ztjy4d5gg6qsvwgr": {
@@ -17077,10 +22060,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 306
+        "lees": 369
       },
       "actualPositions": {
-        "lees": 306
+        "lees": 369
       }
     },
     "01kh21jz7hcqnr464y85z2zcv5": {
@@ -17117,10 +22100,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 205
+        "lees": 234
       },
       "actualPositions": {
-        "lees": 205
+        "lees": 234
       }
     },
     "01kh21heygqzs3nyqp7svzjd6m": {
@@ -17157,10 +22140,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 305
+        "lees": 368
       },
       "actualPositions": {
-        "lees": 305
+        "lees": 368
       }
     },
     "01kh21gbg96keszh9q8c0vcr1y": {
@@ -17193,10 +22176,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 453
+        "lees": 560
       },
       "actualPositions": {
-        "lees": 448
+        "lees": 560
       }
     },
     "01kh1ypdtsb1f1nafttcy8qdmn": {
@@ -17233,10 +22216,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 304
+        "lees": 367
       },
       "actualPositions": {
-        "lees": 304
+        "lees": 367
       }
     },
     "01kgscvzdt9g81j4bkj7pq96cm": {
@@ -17275,14 +22258,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 416,
-        "short": 205,
-        "luchtig": 106
+        "lees": 514,
+        "short": 277,
+        "luchtig": 168
       },
       "actualPositions": {
-        "lees": 413,
-        "short": 205,
-        "luchtig": 105
+        "lees": 514,
+        "short": 277,
+        "luchtig": 168
       }
     },
     "01kgdfpy0f0pts3sax7x38mdqc": {
@@ -17355,11 +22338,11 @@ window.TOP_ARTICLE_PRIORITY = {
       ],
       "positions": {
         "video": 7,
-        "luchtig": 96
+        "luchtig": 154
       },
       "actualPositions": {
         "video": 7,
-        "luchtig": 95
+        "luchtig": 154
       }
     },
     "01kgdfmswp6rwxspftxzm0yr3n": {
@@ -17396,10 +22379,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 204
+        "lees": 233
       },
       "actualPositions": {
-        "lees": 204
+        "lees": 233
       }
     },
     "01kg37pvr9h6wrpn78e1hrq4cv": {
@@ -17436,10 +22419,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 203
+        "lees": 232
       },
       "actualPositions": {
-        "lees": 203
+        "lees": 232
       }
     },
     "01kg2bfknxdbdtasxyva7fdma3": {
@@ -17476,10 +22459,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 131
+        "lees": 151
       },
       "actualPositions": {
-        "lees": 131
+        "lees": 151
       }
     },
     "01kfgapc0zx7qj7f9fn65c6d13": {
@@ -17516,10 +22499,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 202
+        "lees": 231
       },
       "actualPositions": {
-        "lees": 202
+        "lees": 231
       }
     },
     "01kfb2gw90wdpy96gedqddd1kd": {
@@ -17559,12 +22542,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 239,
-        "short": 118
+        "lees": 276,
+        "short": 141
       },
       "actualPositions": {
-        "lees": 239,
-        "short": 118
+        "lees": 276,
+        "short": 141
       }
     },
     "01kf916mwdxkdydep3wwes334d": {
@@ -17602,12 +22585,60 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 130,
-        "luchtig": 33
+        "lees": 150,
+        "luchtig": 41
       },
       "actualPositions": {
-        "lees": 130,
-        "luchtig": 33
+        "lees": 150,
+        "luchtig": 41
+      }
+    },
+    "01kf0p1x4zzc3hqf55wqyngafr": {
+      "baseScore": 85,
+      "adjustment": 0,
+      "adjustmentReason": null,
+      "score": 85,
+      "tier": "hoog",
+      "components": {
+        "kerninteresse": 45,
+        "diepgang": 10,
+        "persoonlijke_bruikbaarheid": 20,
+        "leeskans": 5,
+        "onderscheidende_duurzame_waarde": 5,
+        "aftrek": 0
+      },
+      "rationale": {
+        "kerninteresse": [
+          "Minstens twee kerndomeinen: ai_ethiek, schrijven."
+        ],
+        "diepgang": [
+          "2.007 woorden."
+        ],
+        "persoonlijke_bruikbaarheid": [
+          "Waarom lezen noemt: schrijven."
+        ],
+        "leeskans": [
+          "Korte leestijd: 8 minuten."
+        ],
+        "onderscheidende_duurzame_waarde": [
+          "Minstens 1.200 woorden."
+        ],
+        "aftrek": []
+      },
+      "sequences": [
+        "lees",
+        "short",
+        "luchtig"
+      ],
+      "positions": {
+        "lees": 11,
+        "short": 11,
+        "luchtig": 3
+      },
+      "actualPositions": {
+        "lees": 11,
+        "short": 11,
+        "luchtig": 3
       }
     },
     "01keyjrqgd6xh0svcy2ce3bb6e": {
@@ -17644,10 +22675,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 303
+        "lees": 366
       },
       "actualPositions": {
-        "lees": 303
+        "lees": 366
       }
     },
     "01keqeq7nyxjpnsd031e66kmej": {
@@ -17720,10 +22751,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 129
+        "lees": 149
       },
       "actualPositions": {
-        "lees": 129
+        "lees": 149
       }
     },
     "01keht5gn85sygznbg0h2ngzsm": {
@@ -17761,12 +22792,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 387,
-        "short": 179
+        "lees": 480,
+        "short": 247
       },
       "actualPositions": {
-        "lees": 384,
-        "short": 179
+        "lees": 480,
+        "short": 247
       }
     },
     "01keht1gqezsve77swk4vykjge": {
@@ -17806,12 +22837,55 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 238,
-        "short": 117
+        "lees": 275,
+        "short": 140
       },
       "actualPositions": {
-        "lees": 238,
-        "short": 117
+        "lees": 275,
+        "short": 140
+      }
+    },
+    "01kec58fp6ep87fc5qnf8swc20": {
+      "baseScore": 65,
+      "adjustment": 0,
+      "adjustmentReason": null,
+      "score": 65,
+      "tier": "midden",
+      "components": {
+        "kerninteresse": 30,
+        "diepgang": 10,
+        "persoonlijke_bruikbaarheid": 20,
+        "leeskans": 0,
+        "onderscheidende_duurzame_waarde": 5,
+        "aftrek": 0
+      },
+      "rationale": {
+        "kerninteresse": [
+          "Eén kerndomein: schrijven."
+        ],
+        "diepgang": [
+          "2.720 woorden."
+        ],
+        "persoonlijke_bruikbaarheid": [
+          "Direct bruikbare tag: writing & essays."
+        ],
+        "leeskans": [],
+        "onderscheidende_duurzame_waarde": [
+          "Minstens 1.200 woorden."
+        ],
+        "aftrek": []
+      },
+      "sequences": [
+        "lees",
+        "luchtig"
+      ],
+      "positions": {
+        "lees": 230,
+        "luchtig": 61
+      },
+      "actualPositions": {
+        "lees": 230,
+        "luchtig": 61
       }
     },
     "01ke8078ppphvc7nr28ecay5nf": {
@@ -17848,10 +22922,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 22
+        "lees": 26
       },
       "actualPositions": {
-        "lees": 22
+        "lees": 26
       }
     },
     "01kdxv1xsjwc4jwtscs3re07w1": {
@@ -17885,12 +22959,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 463,
-        "short": 225
+        "lees": 573,
+        "short": 307
       },
       "actualPositions": {
-        "lees": 458,
-        "short": 225
+        "lees": 573,
+        "short": 307
       }
     },
     "01kdxv1h9j3retf2p61qp4p125": {
@@ -17927,10 +23001,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 302
+        "lees": 365
       },
       "actualPositions": {
-        "lees": 302
+        "lees": 365
       }
     },
     "01kdnzthe611p0c38ts9j702s2": {
@@ -17972,15 +23046,15 @@ window.TOP_ARTICLE_PRIORITY = {
         "short-dutch"
       ],
       "positions": {
-        "lees": 63,
+        "lees": 71,
         "dutch": 4,
-        "short": 29,
+        "short": 32,
         "short-dutch": 3
       },
       "actualPositions": {
-        "lees": 63,
+        "lees": 71,
         "dutch": 4,
-        "short": 29,
+        "short": 32,
         "short-dutch": 3
       }
     },
@@ -18018,10 +23092,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 128
+        "lees": 148
       },
       "actualPositions": {
-        "lees": 128
+        "lees": 148
       }
     },
     "01kdanxpg3e3pp8stwtmfr7p79": {
@@ -18061,12 +23135,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 8,
-        "short": 8
+        "lees": 10,
+        "short": 10
       },
       "actualPositions": {
-        "lees": 8,
-        "short": 8
+        "lees": 10,
+        "short": 10
       }
     },
     "01kd66gdx0xhsnk7nxcsvfcgpa": {
@@ -18104,12 +23178,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "dutch"
       ],
       "positions": {
-        "lees": 127,
-        "dutch": 9
+        "lees": 147,
+        "dutch": 10
       },
       "actualPositions": {
-        "lees": 127,
-        "dutch": 9
+        "lees": 147,
+        "dutch": 10
       }
     },
     "01kd1cbjc3rzw7es7ef6rd6w6j": {
@@ -18312,12 +23386,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 62,
-        "short": 28
+        "lees": 70,
+        "short": 31
       },
       "actualPositions": {
-        "lees": 62,
-        "short": 28
+        "lees": 70,
+        "short": 31
       }
     },
     "01kd1c67023ftnzvzgrk7pd31m": {
@@ -18351,12 +23425,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "short": 250,
-        "luchtig": 133
+        "short": 350,
+        "luchtig": 221
       },
       "actualPositions": {
-        "short": 250,
-        "luchtig": 130
+        "short": 350,
+        "luchtig": 221
       }
     },
     "01kchxs90kb1qw9xk8rkcz4418": {
@@ -18437,14 +23511,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 126,
-        "short": 80,
-        "luchtig": 32
+        "lees": 146,
+        "short": 93,
+        "luchtig": 40
       },
       "actualPositions": {
-        "lees": 126,
-        "short": 80,
-        "luchtig": 32
+        "lees": 146,
+        "short": 93,
+        "luchtig": 40
       }
     },
     "01kchd9839msv2vt5ymys66kv4": {
@@ -18481,10 +23555,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 21
+        "lees": 25
       },
       "actualPositions": {
-        "lees": 21
+        "lees": 25
       }
     },
     "01kcfce24153fpqayz3qftq7ch": {
@@ -18565,14 +23639,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 237,
-        "short": 116,
-        "luchtig": 59
+        "lees": 274,
+        "short": 139,
+        "luchtig": 78
       },
       "actualPositions": {
-        "lees": 237,
-        "short": 116,
-        "luchtig": 59
+        "lees": 274,
+        "short": 139,
+        "luchtig": 78
       }
     },
     "01kcb7n6kftwmca7m6dgprpkwf": {
@@ -18612,12 +23686,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 61,
-        "short": 27
+        "lees": 69,
+        "short": 30
       },
       "actualPositions": {
-        "lees": 61,
-        "short": 27
+        "lees": 69,
+        "short": 30
       }
     },
     "01kc76cxv4wkv0smbz1k9y6qxs": {
@@ -18657,12 +23731,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 125,
-        "short": 79
+        "lees": 145,
+        "short": 92
       },
       "actualPositions": {
-        "lees": 125,
-        "short": 79
+        "lees": 145,
+        "short": 92
       }
     },
     "01kc53cvnp2fqe09v8vmbym5mx": {
@@ -18703,14 +23777,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 124,
-        "short": 78,
-        "luchtig": 31
+        "lees": 144,
+        "short": 91,
+        "luchtig": 39
       },
       "actualPositions": {
-        "lees": 124,
-        "short": 78,
-        "luchtig": 31
+        "lees": 144,
+        "short": 91,
+        "luchtig": 39
       }
     },
     "01kc53chv8ebh5cygqaf76fwt0": {
@@ -18751,14 +23825,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 236,
-        "short": 115,
-        "luchtig": 58
+        "lees": 273,
+        "short": 138,
+        "luchtig": 77
       },
       "actualPositions": {
-        "lees": 236,
-        "short": 115,
-        "luchtig": 58
+        "lees": 273,
+        "short": 138,
+        "luchtig": 77
       }
     },
     "01kc3qh6f73jpx7bkeq1j800wh": {
@@ -18912,12 +23986,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 7,
-        "short": 7
+        "lees": 9,
+        "short": 9
       },
       "actualPositions": {
-        "lees": 7,
-        "short": 7
+        "lees": 9,
+        "short": 9
       }
     },
     "01kbdw3w0vrspnk8yzrfxypq51": {
@@ -18958,14 +24032,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 165,
-        "short": 91,
-        "luchtig": 40
+        "lees": 187,
+        "short": 105,
+        "luchtig": 50
       },
       "actualPositions": {
-        "lees": 165,
-        "short": 91,
-        "luchtig": 40
+        "lees": 187,
+        "short": 105,
+        "luchtig": 50
       }
     },
     "01kbdw2b09ytrrk61f18889see": {
@@ -19042,10 +24116,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 301
+        "lees": 364
       },
       "actualPositions": {
-        "lees": 301
+        "lees": 364
       }
     },
     "01kasc4y3agzhv7mp7294keys2": {
@@ -19082,10 +24156,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 201
+        "lees": 229
       },
       "actualPositions": {
-        "lees": 201
+        "lees": 229
       }
     },
     "01kasc4pne8zck7kwatefv1jxq": {
@@ -19122,10 +24196,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 123
+        "lees": 143
       },
       "actualPositions": {
-        "lees": 123
+        "lees": 143
       }
     },
     "01kak55ckqqc68k61t1z10mcs6": {
@@ -19162,10 +24236,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 20
+        "lees": 24
       },
       "actualPositions": {
-        "lees": 20
+        "lees": 24
       }
     },
     "01kaen0f4sd6p0wsrv0fw7320f": {
@@ -19206,14 +24280,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 235,
-        "short": 114,
-        "luchtig": 57
+        "lees": 272,
+        "short": 137,
+        "luchtig": 76
       },
       "actualPositions": {
-        "lees": 235,
-        "short": 114,
-        "luchtig": 57
+        "lees": 272,
+        "short": 137,
+        "luchtig": 76
       }
     },
     "01kaecmp565yrjt89z6qhc3ydq": {
@@ -19254,14 +24328,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 234,
-        "short": 113,
-        "luchtig": 56
+        "lees": 271,
+        "short": 136,
+        "luchtig": 75
       },
       "actualPositions": {
-        "lees": 234,
-        "short": 113,
-        "luchtig": 56
+        "lees": 271,
+        "short": 136,
+        "luchtig": 75
       }
     },
     "01kadvkbmp8yd44q125hyw9nrz": {
@@ -19301,12 +24375,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 6,
-        "short": 6
+        "lees": 8,
+        "short": 8
       },
       "actualPositions": {
-        "lees": 6,
-        "short": 6
+        "lees": 8,
+        "short": 8
       }
     },
     "01kadgjv79tav4g56e89rykjte": {
@@ -19344,12 +24418,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "dutch"
       ],
       "positions": {
-        "lees": 300,
-        "dutch": 22
+        "lees": 363,
+        "dutch": 28
       },
       "actualPositions": {
-        "lees": 300,
-        "dutch": 22
+        "lees": 363,
+        "dutch": 28
       }
     },
     "01kacg6vhze0snam0cv2cv2feh": {
@@ -19384,10 +24458,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 436
+        "lees": 541
       },
       "actualPositions": {
-        "lees": 433
+        "lees": 541
       }
     },
     "01ka6v10fx7nxzbf0dm43dk6ed": {
@@ -19427,12 +24501,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 122,
-        "short": 77
+        "lees": 142,
+        "short": 90
       },
       "actualPositions": {
-        "lees": 122,
-        "short": 77
+        "lees": 142,
+        "short": 90
       }
     },
     "01k9sb94dxvqfb0jptdvr2q6xf": {
@@ -19469,10 +24543,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 299
+        "lees": 362
       },
       "actualPositions": {
-        "lees": 299
+        "lees": 362
       }
     },
     "01k9q3yjaq9z5z5pxh7kxw4qdf": {
@@ -19510,12 +24584,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 415,
-        "short": 204
+        "lees": 513,
+        "short": 276
       },
       "actualPositions": {
-        "lees": 412,
-        "short": 204
+        "lees": 513,
+        "short": 276
       }
     },
     "01k9p5pa1athkkdm2j2nxfhf26": {
@@ -19553,12 +24627,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 121,
-        "luchtig": 30
+        "lees": 141,
+        "luchtig": 38
       },
       "actualPositions": {
-        "lees": 121,
-        "luchtig": 30
+        "lees": 141,
+        "luchtig": 38
       }
     },
     "01k9p5nb9st3hpnvvmmxr5c2jf": {
@@ -19595,10 +24669,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 298
+        "lees": 361
       },
       "actualPositions": {
-        "lees": 298
+        "lees": 361
       }
     },
     "01k9c2mrq9mfde3nhj6k1pxte8": {
@@ -19635,10 +24709,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 120
+        "lees": 140
       },
       "actualPositions": {
-        "lees": 120
+        "lees": 140
       }
     },
     "01k9c2mfzdvrnpxt293kgn3rn8": {
@@ -19675,10 +24749,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 19
+        "lees": 23
       },
       "actualPositions": {
-        "lees": 19
+        "lees": 23
       }
     },
     "01k9c2m2378gry7p1fwdc078jd": {
@@ -19715,14 +24789,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 414,
-        "short": 203,
-        "luchtig": 105
+        "lees": 512,
+        "short": 275,
+        "luchtig": 167
       },
       "actualPositions": {
-        "lees": 411,
-        "short": 203,
-        "luchtig": 104
+        "lees": 512,
+        "short": 275,
+        "luchtig": 167
       }
     },
     "01k9c2jzjpkejt3bc7v3p3p3d0": {
@@ -19759,10 +24833,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 119
+        "lees": 139
       },
       "actualPositions": {
-        "lees": 119
+        "lees": 139
       }
     },
     "01k948t6xdcbnnhr9cdvppa534": {
@@ -19798,12 +24872,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 400,
-        "short": 192
+        "lees": 496,
+        "short": 263
       },
       "actualPositions": {
-        "lees": 397,
-        "short": 192
+        "lees": 496,
+        "short": 263
       }
     },
     "01k8v9cz0ah2x4qddn265e4cnt": {
@@ -19844,14 +24918,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 60,
-        "short": 26,
-        "luchtig": 14
+        "lees": 68,
+        "short": 29,
+        "luchtig": 15
       },
       "actualPositions": {
-        "lees": 60,
-        "short": 26,
-        "luchtig": 14
+        "lees": 68,
+        "short": 29,
+        "luchtig": 15
       }
     },
     "01k8mt3nxj5957w8xd95q2j0sz": {
@@ -19889,12 +24963,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 361,
-        "luchtig": 92
+        "lees": 434,
+        "luchtig": 132
       },
       "actualPositions": {
-        "lees": 359,
-        "luchtig": 92
+        "lees": 434,
+        "luchtig": 132
       }
     },
     "01k8czt2j7ngy6e3nt06r2kv7h": {
@@ -19929,10 +25003,58 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 435
+        "lees": 540
       },
       "actualPositions": {
-        "lees": 432
+        "lees": 540
+      }
+    },
+    "01k8b4z89x7bjhpp69rbbemnet": {
+      "baseScore": 60,
+      "adjustment": 0,
+      "adjustmentReason": null,
+      "score": 60,
+      "tier": "midden",
+      "components": {
+        "kerninteresse": 30,
+        "diepgang": 10,
+        "persoonlijke_bruikbaarheid": 10,
+        "leeskans": 5,
+        "onderscheidende_duurzame_waarde": 5,
+        "aftrek": 0
+      },
+      "rationale": {
+        "kerninteresse": [
+          "Eén kerndomein: zorgouderschap."
+        ],
+        "diepgang": [
+          "1.550 woorden."
+        ],
+        "persoonlijke_bruikbaarheid": [
+          "Indirect bruikbaar via een kerndomein."
+        ],
+        "leeskans": [
+          "Korte leestijd: 6 minuten."
+        ],
+        "onderscheidende_duurzame_waarde": [
+          "Minstens 1.200 woorden."
+        ],
+        "aftrek": []
+      },
+      "sequences": [
+        "lees",
+        "short",
+        "luchtig"
+      ],
+      "positions": {
+        "lees": 270,
+        "short": 135,
+        "luchtig": 74
+      },
+      "actualPositions": {
+        "lees": 270,
+        "short": 135,
+        "luchtig": 74
       }
     },
     "01k8982yc86fjcjhr0h7yctwh2": {
@@ -19975,6 +25097,86 @@ window.TOP_ARTICLE_PRIORITY = {
         "boek": 41
       }
     },
+    "01k88qtghw02svtk5dsdk9cye7": {
+      "baseScore": 55,
+      "adjustment": 0,
+      "adjustmentReason": null,
+      "score": 55,
+      "tier": "midden",
+      "components": {
+        "kerninteresse": 30,
+        "diepgang": 10,
+        "persoonlijke_bruikbaarheid": 10,
+        "leeskans": 0,
+        "onderscheidende_duurzame_waarde": 5,
+        "aftrek": 0
+      },
+      "rationale": {
+        "kerninteresse": [
+          "Eén kerndomein: geschiedenis."
+        ],
+        "diepgang": [
+          "2.816 woorden."
+        ],
+        "persoonlijke_bruikbaarheid": [
+          "Indirect bruikbaar via een kerndomein."
+        ],
+        "leeskans": [],
+        "onderscheidende_duurzame_waarde": [
+          "Minstens 1.200 woorden."
+        ],
+        "aftrek": []
+      },
+      "sequences": [
+        "lees"
+      ],
+      "positions": {
+        "lees": 360
+      },
+      "actualPositions": {
+        "lees": 360
+      }
+    },
+    "01k88fp60409w7wsaz01a69vq4": {
+      "baseScore": 70,
+      "adjustment": 0,
+      "adjustmentReason": null,
+      "score": 70,
+      "tier": "hoog",
+      "components": {
+        "kerninteresse": 45,
+        "diepgang": 10,
+        "persoonlijke_bruikbaarheid": 10,
+        "leeskans": 0,
+        "onderscheidende_duurzame_waarde": 5,
+        "aftrek": 0
+      },
+      "rationale": {
+        "kerninteresse": [
+          "Minstens twee kerndomeinen: filosofie, schrijven."
+        ],
+        "diepgang": [
+          "2.763 woorden."
+        ],
+        "persoonlijke_bruikbaarheid": [
+          "Indirect bruikbaar via een kerndomein."
+        ],
+        "leeskans": [],
+        "onderscheidende_duurzame_waarde": [
+          "Minstens 1.200 woorden."
+        ],
+        "aftrek": []
+      },
+      "sequences": [
+        "lees"
+      ],
+      "positions": {
+        "lees": 138
+      },
+      "actualPositions": {
+        "lees": 138
+      }
+    },
     "01k80nvw2z9d40qq24hveszqrw": {
       "baseScore": 55,
       "adjustment": 0,
@@ -20012,16 +25214,16 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig-nederlands"
       ],
       "positions": {
-        "lees": 297,
-        "dutch": 21,
-        "luchtig": 76,
-        "luchtig-nederlands": 2
+        "lees": 359,
+        "dutch": 27,
+        "luchtig": 115,
+        "luchtig-nederlands": 8
       },
       "actualPositions": {
-        "lees": 297,
-        "dutch": 21,
-        "luchtig": 76,
-        "luchtig-nederlands": 2
+        "lees": 359,
+        "dutch": 27,
+        "luchtig": 115,
+        "luchtig-nederlands": 8
       }
     },
     "01k7zy55f0v2sdenq3zpyskqt2": {
@@ -20060,11 +25262,11 @@ window.TOP_ARTICLE_PRIORITY = {
       ],
       "positions": {
         "video": 1,
-        "luchtig": 29
+        "luchtig": 37
       },
       "actualPositions": {
         "video": 1,
-        "luchtig": 29
+        "luchtig": 37
       }
     },
     "01k7xkcp63y5bjsxg3fykwtwg0": {
@@ -20099,10 +25301,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 437
+        "lees": 542
       },
       "actualPositions": {
-        "lees": 434
+        "lees": 542
       }
     },
     "01k7xjhe96qxhs9bkr4qahjk09": {
@@ -20142,12 +25344,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 59,
-        "short": 25
+        "lees": 67,
+        "short": 28
       },
       "actualPositions": {
-        "lees": 59,
-        "short": 25
+        "lees": 67,
+        "short": 28
       }
     },
     "01k7twangrpxzxxt4v2pwf34n5": {
@@ -20181,12 +25383,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 482,
-        "luchtig": 126
+        "lees": 601,
+        "luchtig": 205
       },
       "actualPositions": {
-        "lees": 477,
-        "luchtig": 123
+        "lees": 601,
+        "luchtig": 205
       }
     },
     "01k7tw6vrkda5hp5070ra2wqm6": {
@@ -20227,14 +25429,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 233,
-        "short": 112,
-        "luchtig": 55
+        "lees": 269,
+        "short": 134,
+        "luchtig": 73
       },
       "actualPositions": {
-        "lees": 233,
-        "short": 112,
-        "luchtig": 55
+        "lees": 269,
+        "short": 134,
+        "luchtig": 73
       }
     },
     "01k7shq7r399ekxt6pavj3t3aa": {
@@ -20272,12 +25474,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 200,
-        "luchtig": 48
+        "lees": 228,
+        "luchtig": 60
       },
       "actualPositions": {
-        "lees": 200,
-        "luchtig": 48
+        "lees": 228,
+        "luchtig": 60
       }
     },
     "01k7shpmfgw8jtf6wrbs6k64cg": {
@@ -20314,10 +25516,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 118
+        "lees": 137
       },
       "actualPositions": {
-        "lees": 118
+        "lees": 137
       }
     },
     "01k7rktczvt1p4nx2bqf9gqas2": {
@@ -20391,12 +25593,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 58,
-        "short": 24
+        "lees": 66,
+        "short": 27
       },
       "actualPositions": {
-        "lees": 58,
-        "short": 24
+        "lees": 66,
+        "short": 27
       }
     },
     "01k7qbgbanjkbvetnkfd47vkrz": {
@@ -20437,14 +25639,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 57,
-        "short": 23,
-        "luchtig": 13
+        "lees": 65,
+        "short": 26,
+        "luchtig": 14
       },
       "actualPositions": {
-        "lees": 57,
-        "short": 23,
-        "luchtig": 13
+        "lees": 65,
+        "short": 26,
+        "luchtig": 14
       }
     },
     "01k7qbg40qvbeqszm5nr2wpmyz": {
@@ -20485,14 +25687,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 117,
-        "short": 76,
-        "luchtig": 28
+        "lees": 136,
+        "short": 89,
+        "luchtig": 36
       },
       "actualPositions": {
-        "lees": 117,
-        "short": 76,
-        "luchtig": 28
+        "lees": 136,
+        "short": 89,
+        "luchtig": 36
       }
     },
     "01k7q0d9savbq060ffg136x06q": {
@@ -20529,10 +25731,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 199
+        "lees": 227
       },
       "actualPositions": {
-        "lees": 199
+        "lees": 227
       }
     },
     "01k7q03xx8pwem577zgy47b0zk": {
@@ -20570,12 +25772,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "dutch"
       ],
       "positions": {
-        "lees": 296,
-        "dutch": 20
+        "lees": 358,
+        "dutch": 26
       },
       "actualPositions": {
-        "lees": 296,
-        "dutch": 20
+        "lees": 358,
+        "dutch": 26
       }
     },
     "01k7pn0vvd97x0psc7xcd4s8ar": {
@@ -20615,12 +25817,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 232,
-        "short": 111
+        "lees": 268,
+        "short": 133
       },
       "actualPositions": {
-        "lees": 232,
-        "short": 111
+        "lees": 268,
+        "short": 133
       }
     },
     "01k7pn0mh5xrx35sxe5rxp84qg": {
@@ -20657,10 +25859,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 198
+        "lees": 226
       },
       "actualPositions": {
-        "lees": 198
+        "lees": 226
       }
     },
     "01k7pn0gythp69p15376f659gx": {
@@ -20700,12 +25902,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 5,
-        "short": 5
+        "lees": 7,
+        "short": 7
       },
       "actualPositions": {
-        "lees": 5,
-        "short": 5
+        "lees": 7,
+        "short": 7
       }
     },
     "01k7pn06k2e9msrrk7d0c39bn6": {
@@ -20745,12 +25947,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 4,
-        "short": 4
+        "lees": 6,
+        "short": 6
       },
       "actualPositions": {
-        "lees": 4,
-        "short": 4
+        "lees": 6,
+        "short": 6
       }
     },
     "01k7pmvk8cbcxxqmskt58bp1bp": {
@@ -20785,10 +25987,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 434
+        "lees": 539
       },
       "actualPositions": {
-        "lees": 415
+        "lees": 539
       }
     },
     "01k7pmvc94p82aaz3ptdqbyecc": {
@@ -20825,10 +26027,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 295
+        "lees": 357
       },
       "actualPositions": {
-        "lees": 286
+        "lees": 357
       }
     },
     "01k7pmv9rbnagv4wwvky6h97ak": {
@@ -20864,12 +26066,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 462,
-        "short": 224
+        "lees": 572,
+        "short": 306
       },
       "actualPositions": {
-        "lees": 437,
-        "short": 212
+        "lees": 572,
+        "short": 306
       }
     },
     "01k7k3prk0rm6qjzvbp9gyevxz": {
@@ -20909,12 +26111,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 115,
-        "short": 74
+        "lees": 134,
+        "short": 87
       },
       "actualPositions": {
-        "lees": 115,
-        "short": 74
+        "lees": 134,
+        "short": 87
       }
     },
     "01k7j7kfz1ry02n8frp21d6ajm": {
@@ -20950,12 +26152,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 413,
-        "short": 202
+        "lees": 511,
+        "short": 274
       },
       "actualPositions": {
-        "lees": 396,
-        "short": 194
+        "lees": 511,
+        "short": 274
       }
     },
     "01k7j7kckky4q9rkzk7btj3d04": {
@@ -20995,12 +26197,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 231,
-        "short": 110
+        "lees": 267,
+        "short": 132
       },
       "actualPositions": {
-        "lees": 229,
-        "short": 110
+        "lees": 267,
+        "short": 132
       }
     },
     "01k7j6p8a88r4t4zarr6pqya82": {
@@ -21041,14 +26243,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 114,
-        "short": 73,
-        "luchtig": 27
+        "lees": 133,
+        "short": 86,
+        "luchtig": 35
       },
       "actualPositions": {
-        "lees": 114,
-        "short": 73,
-        "luchtig": 27
+        "lees": 133,
+        "short": 86,
+        "luchtig": 35
       }
     },
     "01k7j6p2ymgbcqfynfms8kva3r": {
@@ -21085,10 +26287,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 360
+        "lees": 433
       },
       "actualPositions": {
-        "lees": 346
+        "lees": 433
       }
     },
     "01k7j6nyeb06gx7dcdxjaqp5ps": {
@@ -21125,10 +26327,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 294
+        "lees": 356
       },
       "actualPositions": {
-        "lees": 285
+        "lees": 356
       }
     },
     "01k7j6j6mdje8x3v1jt8hqaba4": {
@@ -21168,12 +26370,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 56,
-        "short": 22
+        "lees": 64,
+        "short": 25
       },
       "actualPositions": {
-        "lees": 56,
-        "short": 22
+        "lees": 64,
+        "short": 25
       }
     },
     "01k7j6h8fj3ck0twxcq6abjm9v": {
@@ -21213,12 +26415,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 3,
-        "short": 3
+        "lees": 5,
+        "short": 5
       },
       "actualPositions": {
-        "lees": 3,
-        "short": 3
+        "lees": 5,
+        "short": 5
       }
     },
     "01k7h9szzyxzgn4ywcv20zas73": {
@@ -21255,10 +26457,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 293
+        "lees": 355
       },
       "actualPositions": {
-        "lees": 284
+        "lees": 355
       }
     },
     "01k79jpktendqfmctt5zh9rrxy": {
@@ -21295,10 +26497,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 113
+        "lees": 132
       },
       "actualPositions": {
-        "lees": 113
+        "lees": 132
       }
     },
     "01k79j7ef2nh8tmgv41f9k6az3": {
@@ -21338,12 +26540,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 112,
-        "short": 72
+        "lees": 131,
+        "short": 85
       },
       "actualPositions": {
-        "lees": 112,
-        "short": 72
+        "lees": 131,
+        "short": 85
       }
     },
     "01k79j5baegrsw57aqahg9jn8p": {
@@ -21380,10 +26582,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 292
+        "lees": 354
       },
       "actualPositions": {
-        "lees": 283
+        "lees": 354
       }
     },
     "01k79j53ce8b15nrkktnb0hz2g": {
@@ -21421,12 +26623,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 291,
-        "luchtig": 75
+        "lees": 353,
+        "luchtig": 114
       },
       "actualPositions": {
-        "lees": 282,
-        "luchtig": 73
+        "lees": 353,
+        "luchtig": 114
       }
     },
     "01k79j3sbpnyfey0vh07484wts": {
@@ -21464,12 +26666,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 290,
-        "luchtig": 74
+        "lees": 352,
+        "luchtig": 113
       },
       "actualPositions": {
-        "lees": 281,
-        "luchtig": 72
+        "lees": 352,
+        "luchtig": 113
       }
     },
     "01k72r1jf868qpymm1gf2zwces": {
@@ -21506,10 +26708,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 289
+        "lees": 351
       },
       "actualPositions": {
-        "lees": 280
+        "lees": 351
       }
     },
     "01k72r0j3bseajxttfvvytz2vt": {
@@ -21546,10 +26748,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 288
+        "lees": 350
       },
       "actualPositions": {
-        "lees": 279
+        "lees": 350
       }
     },
     "01k72qy7j5511yee7tvcwrch9f": {
@@ -21589,12 +26791,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 116,
-        "short": 75
+        "lees": 135,
+        "short": 88
       },
       "actualPositions": {
-        "lees": 116,
-        "short": 75
+        "lees": 135,
+        "short": 88
       }
     },
     "01k72qx64tdvkryenrbd5g81px": {
@@ -21634,12 +26836,50 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 55,
-        "short": 21
+        "lees": 63,
+        "short": 24
       },
       "actualPositions": {
-        "lees": 55,
-        "short": 21
+        "lees": 63,
+        "short": 24
+      }
+    },
+    "01k72qwtwgewmnhakeak5q21jb": {
+      "baseScore": 35,
+      "adjustment": 0,
+      "adjustmentReason": null,
+      "score": 35,
+      "tier": "laag",
+      "components": {
+        "kerninteresse": 0,
+        "diepgang": 10,
+        "persoonlijke_bruikbaarheid": 20,
+        "leeskans": 0,
+        "onderscheidende_duurzame_waarde": 5,
+        "aftrek": 0
+      },
+      "rationale": {
+        "kerninteresse": [],
+        "diepgang": [
+          "2.682 woorden."
+        ],
+        "persoonlijke_bruikbaarheid": [
+          "Waarom lezen noemt: pkm."
+        ],
+        "leeskans": [],
+        "onderscheidende_duurzame_waarde": [
+          "Minstens 1.200 woorden."
+        ],
+        "aftrek": []
+      },
+      "sequences": [
+        "lees"
+      ],
+      "positions": {
+        "lees": 510
+      },
+      "actualPositions": {
+        "lees": 510
       }
     },
     "01k72qvbmwd9xp0k233cv5qgw2": {
@@ -21676,10 +26916,58 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 18
+        "lees": 22
       },
       "actualPositions": {
-        "lees": 18
+        "lees": 22
+      }
+    },
+    "01k722dxfn8b3bkt741xrmf0a2": {
+      "baseScore": 60,
+      "adjustment": 0,
+      "adjustmentReason": null,
+      "score": 60,
+      "tier": "midden",
+      "components": {
+        "kerninteresse": 30,
+        "diepgang": 10,
+        "persoonlijke_bruikbaarheid": 10,
+        "leeskans": 5,
+        "onderscheidende_duurzame_waarde": 5,
+        "aftrek": 0
+      },
+      "rationale": {
+        "kerninteresse": [
+          "Eén kerndomein: geschiedenis."
+        ],
+        "diepgang": [
+          "2.098 woorden."
+        ],
+        "persoonlijke_bruikbaarheid": [
+          "Indirect bruikbaar via een kerndomein."
+        ],
+        "leeskans": [
+          "Korte leestijd: 8 minuten."
+        ],
+        "onderscheidende_duurzame_waarde": [
+          "Minstens 1.200 woorden."
+        ],
+        "aftrek": []
+      },
+      "sequences": [
+        "lees",
+        "short",
+        "luchtig"
+      ],
+      "positions": {
+        "lees": 266,
+        "short": 131,
+        "luchtig": 72
+      },
+      "actualPositions": {
+        "lees": 266,
+        "short": 131,
+        "luchtig": 72
       }
     },
     "01k6tkhw3brdgtmvkr57x8vvdw": {
@@ -21714,10 +27002,48 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 412
+        "lees": 509
       },
       "actualPositions": {
-        "lees": 395
+        "lees": 509
+      }
+    },
+    "01k6fz5rsg2srv5tpaxg4nwz0y": {
+      "baseScore": 30,
+      "adjustment": 0,
+      "adjustmentReason": null,
+      "score": 30,
+      "tier": "laag",
+      "components": {
+        "kerninteresse": 15,
+        "diepgang": 10,
+        "persoonlijke_bruikbaarheid": 0,
+        "leeskans": 0,
+        "onderscheidende_duurzame_waarde": 5,
+        "aftrek": 0
+      },
+      "rationale": {
+        "kerninteresse": [
+          "Alleen een aangrenzend onderwerp."
+        ],
+        "diepgang": [
+          "3.347 woorden."
+        ],
+        "persoonlijke_bruikbaarheid": [],
+        "leeskans": [],
+        "onderscheidende_duurzame_waarde": [
+          "Minstens 1.200 woorden."
+        ],
+        "aftrek": []
+      },
+      "sequences": [
+        "lees"
+      ],
+      "positions": {
+        "lees": 538
+      },
+      "actualPositions": {
+        "lees": 538
       }
     },
     "01k5r4d6q3vkqnk8tn09k2eqrd": {
@@ -21906,10 +27232,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 196
+        "lees": 224
       },
       "actualPositions": {
-        "lees": 195
+        "lees": 224
       }
     },
     "01k4z6fmjcf1ffwdqjh2hf4j5k": {
@@ -22062,10 +27388,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 287
+        "lees": 349
       },
       "actualPositions": {
-        "lees": 278
+        "lees": 349
       }
     },
     "01k4hz4tpj7wyg13z1mrad20g8": {
@@ -22103,12 +27429,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "dutch"
       ],
       "positions": {
-        "lees": 111,
-        "dutch": 8
+        "lees": 130,
+        "dutch": 9
       },
       "actualPositions": {
-        "lees": 111,
-        "dutch": 8
+        "lees": 130,
+        "dutch": 9
       }
     },
     "01k4d2kxngyzjt0vzg9sav4hbn": {
@@ -22182,12 +27508,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 411,
-        "short": 201
+        "lees": 508,
+        "short": 273
       },
       "actualPositions": {
-        "lees": 394,
-        "short": 193
+        "lees": 508,
+        "short": 273
       }
     },
     "01k3wpyfpp0bc9yjaw7bstekjx": {
@@ -22224,10 +27550,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 286
+        "lees": 348
       },
       "actualPositions": {
-        "lees": 277
+        "lees": 348
       }
     },
     "01k3wpv85qh52sj9ffa8rrz1bm": {
@@ -22268,14 +27594,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 230,
-        "short": 109,
-        "luchtig": 54
+        "lees": 265,
+        "short": 130,
+        "luchtig": 71
       },
       "actualPositions": {
-        "lees": 228,
-        "short": 109,
-        "luchtig": 53
+        "lees": 265,
+        "short": 130,
+        "luchtig": 71
       }
     },
     "01k3wpn5ak9v4pmtc85h462cav": {
@@ -22316,14 +27642,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 54,
-        "short": 20,
-        "luchtig": 12
+        "lees": 62,
+        "short": 23,
+        "luchtig": 13
       },
       "actualPositions": {
-        "lees": 54,
-        "short": 20,
-        "luchtig": 12
+        "lees": 62,
+        "short": 23,
+        "luchtig": 13
       }
     },
     "01k3wpfb4zn321xcw2nhpdsg8y": {
@@ -22360,10 +27686,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 197
+        "lees": 225
       },
       "actualPositions": {
-        "lees": 196
+        "lees": 225
       }
     },
     "01k2ysk13dwk1ftz5jvez1y54s": {
@@ -22400,10 +27726,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 17
+        "lees": 21
       },
       "actualPositions": {
-        "lees": 17
+        "lees": 21
       }
     },
     "01k2p3vgyxd3egkpvn5y6r2d7n": {
@@ -22441,12 +27767,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 195,
-        "luchtig": 47
+        "lees": 223,
+        "luchtig": 59
       },
       "actualPositions": {
-        "lees": 194,
-        "luchtig": 47
+        "lees": 223,
+        "luchtig": 59
       }
     },
     "01k2p3a6277wff8a1nvfes1ek4": {
@@ -22483,10 +27809,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 53
+        "lees": 61
       },
       "actualPositions": {
-        "lees": 53
+        "lees": 61
       }
     },
     "01k2p37kkgn4hk8dn1qxb870qd": {
@@ -22527,14 +27853,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 110,
-        "short": 71,
-        "luchtig": 26
+        "lees": 129,
+        "short": 84,
+        "luchtig": 34
       },
       "actualPositions": {
-        "lees": 110,
-        "short": 71,
-        "luchtig": 26
+        "lees": 129,
+        "short": 84,
+        "luchtig": 34
       }
     },
     "01k1zt7ng2zc217ta0t2k2sw4w": {
@@ -22572,12 +27898,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 285,
-        "luchtig": 73
+        "lees": 347,
+        "luchtig": 112
       },
       "actualPositions": {
-        "lees": 276,
-        "luchtig": 71
+        "lees": 347,
+        "luchtig": 112
       }
     },
     "01k1mhw46shwzk87214g7gtc9w": {
@@ -22619,15 +27945,15 @@ window.TOP_ARTICLE_PRIORITY = {
         "short-dutch"
       ],
       "positions": {
-        "lees": 52,
+        "lees": 60,
         "dutch": 3,
-        "short": 19,
+        "short": 22,
         "short-dutch": 2
       },
       "actualPositions": {
-        "lees": 52,
+        "lees": 60,
         "dutch": 3,
-        "short": 19,
+        "short": 22,
         "short-dutch": 2
       }
     },
@@ -22663,10 +27989,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 410
+        "lees": 507
       },
       "actualPositions": {
-        "lees": 393
+        "lees": 507
       }
     },
     "01k0787yxz912x1kgykz88ngts": {
@@ -22704,12 +28030,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "dutch"
       ],
       "positions": {
-        "lees": 109,
-        "dutch": 7
+        "lees": 128,
+        "dutch": 8
       },
       "actualPositions": {
-        "lees": 109,
-        "dutch": 7
+        "lees": 128,
+        "dutch": 8
       }
     },
     "01k04hd67cscrapj1n35btr6tg": {
@@ -22785,12 +28111,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 461,
-        "short": 223
+        "lees": 571,
+        "short": 305
       },
       "actualPositions": {
-        "lees": 436,
-        "short": 211
+        "lees": 571,
+        "short": 305
       }
     },
     "01jzy0xx9bjk00qxnqctjshbm7": {
@@ -22828,12 +28154,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 386,
-        "short": 178
+        "lees": 479,
+        "short": 246
       },
       "actualPositions": {
-        "lees": 369,
-        "short": 170
+        "lees": 479,
+        "short": 246
       }
     },
     "01jzwt59ntrbztk0p3f62y5ch6": {
@@ -22866,10 +28192,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 481
+        "lees": 600
       },
       "actualPositions": {
-        "lees": 451
+        "lees": 600
       }
     },
     "01jzmk1agxw641yh3b3tv2szzv": {
@@ -22909,12 +28235,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 108,
-        "short": 70
+        "lees": 127,
+        "short": 83
       },
       "actualPositions": {
-        "lees": 108,
-        "short": 70
+        "lees": 127,
+        "short": 83
       }
     },
     "01jzcf5rmffgqrvmgwmetbyp06": {
@@ -22951,14 +28277,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 460,
-        "short": 222,
-        "luchtig": 121
+        "lees": 570,
+        "short": 304,
+        "luchtig": 193
       },
       "actualPositions": {
-        "lees": 435,
-        "short": 210,
-        "luchtig": 113
+        "lees": 570,
+        "short": 304,
+        "luchtig": 193
       }
     },
     "01jzcewgkt8vr8w5y9c16rq55v": {
@@ -22995,10 +28321,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 194
+        "lees": 222
       },
       "actualPositions": {
-        "lees": 193
+        "lees": 222
       }
     },
     "01jz37xephe1y33mze30r9cr16": {
@@ -23037,14 +28363,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 409,
-        "short": 200,
-        "luchtig": 104
+        "lees": 506,
+        "short": 272,
+        "luchtig": 166
       },
       "actualPositions": {
-        "lees": 392,
-        "short": 192,
-        "luchtig": 101
+        "lees": 506,
+        "short": 272,
+        "luchtig": 166
       }
     },
     "01jz08nhqrpfqsgm5c62dpcq3w": {
@@ -23152,12 +28478,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 480,
-        "luchtig": 125
+        "lees": 599,
+        "luchtig": 204
       },
       "actualPositions": {
-        "lees": 450,
-        "luchtig": 117
+        "lees": 599,
+        "luchtig": 204
       }
     },
     "01jvczv0xt002cjqyry0966s20": {
@@ -23194,14 +28520,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 459,
-        "short": 221,
-        "luchtig": 120
+        "lees": 569,
+        "short": 303,
+        "luchtig": 192
       },
       "actualPositions": {
-        "lees": 434,
-        "short": 209,
-        "luchtig": 112
+        "lees": 569,
+        "short": 303,
+        "luchtig": 192
       }
     },
     "01jvajbknykyp0g0rgns58p80k": {
@@ -23279,12 +28605,57 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 284,
-        "luchtig": 72
+        "lees": 346,
+        "luchtig": 111
       },
       "actualPositions": {
-        "lees": 275,
-        "luchtig": 70
+        "lees": 346,
+        "luchtig": 111
+      }
+    },
+    "01jkh2yf7hahdnt87t68w0f1f5": {
+      "baseScore": 70,
+      "adjustment": 0,
+      "adjustmentReason": null,
+      "score": 70,
+      "tier": "hoog",
+      "components": {
+        "kerninteresse": 30,
+        "diepgang": 10,
+        "persoonlijke_bruikbaarheid": 20,
+        "leeskans": 5,
+        "onderscheidende_duurzame_waarde": 5,
+        "aftrek": 0
+      },
+      "rationale": {
+        "kerninteresse": [
+          "Eén kerndomein: schrijven."
+        ],
+        "diepgang": [
+          "Verdiepend signaal in de tekst: essay."
+        ],
+        "persoonlijke_bruikbaarheid": [
+          "Direct bruikbare tag: writing & essays."
+        ],
+        "leeskans": [
+          "Korte leestijd: 5 minuten."
+        ],
+        "onderscheidende_duurzame_waarde": [
+          "Aansluiting bij een kerndomein."
+        ],
+        "aftrek": []
+      },
+      "sequences": [
+        "lees",
+        "short"
+      ],
+      "positions": {
+        "lees": 126,
+        "short": 82
+      },
+      "actualPositions": {
+        "lees": 126,
+        "short": 82
       }
     },
     "01jkh2y807mf11z5s9q0gv13jq": {
@@ -23322,12 +28693,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 229,
-        "short": 108
+        "lees": 264,
+        "short": 129
       },
       "actualPositions": {
-        "lees": 227,
-        "short": 108
+        "lees": 264,
+        "short": 129
       }
     },
     "01jkh2xxjf9pw3j0kkgtww5chq": {
@@ -23365,12 +28736,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 228,
-        "short": 107
+        "lees": 263,
+        "short": 128
       },
       "actualPositions": {
-        "lees": 226,
-        "short": 107
+        "lees": 263,
+        "short": 128
       }
     },
     "01jkh2wm4v4j610egp7kxf4m8k": {
@@ -23407,10 +28778,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 16
+        "lees": 20
       },
       "actualPositions": {
-        "lees": 16
+        "lees": 20
       }
     },
     "01jkh2w2capy38f589kqkvyt4s": {
@@ -23450,12 +28821,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 107,
-        "short": 69
+        "lees": 125,
+        "short": 81
       },
       "actualPositions": {
-        "lees": 107,
-        "short": 69
+        "lees": 125,
+        "short": 81
       }
     },
     "01jkh2vn8hfm2b2ys7eefgrw9h": {
@@ -23496,14 +28867,62 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 106,
-        "short": 68,
-        "luchtig": 25
+        "lees": 124,
+        "short": 80,
+        "luchtig": 33
       },
       "actualPositions": {
-        "lees": 106,
-        "short": 68,
-        "luchtig": 25
+        "lees": 124,
+        "short": 80,
+        "luchtig": 33
+      }
+    },
+    "01jkgy1x7yacy66ys284ddq8yw": {
+      "baseScore": 70,
+      "adjustment": 0,
+      "adjustmentReason": null,
+      "score": 70,
+      "tier": "hoog",
+      "components": {
+        "kerninteresse": 30,
+        "diepgang": 10,
+        "persoonlijke_bruikbaarheid": 20,
+        "leeskans": 5,
+        "onderscheidende_duurzame_waarde": 5,
+        "aftrek": 0
+      },
+      "rationale": {
+        "kerninteresse": [
+          "Eén kerndomein: schrijven."
+        ],
+        "diepgang": [
+          "1.818 woorden."
+        ],
+        "persoonlijke_bruikbaarheid": [
+          "Direct bruikbare tag: writing & essays."
+        ],
+        "leeskans": [
+          "Korte leestijd: 7 minuten."
+        ],
+        "onderscheidende_duurzame_waarde": [
+          "Minstens 1.200 woorden."
+        ],
+        "aftrek": []
+      },
+      "sequences": [
+        "lees",
+        "short",
+        "luchtig"
+      ],
+      "positions": {
+        "lees": 123,
+        "short": 79,
+        "luchtig": 32
+      },
+      "actualPositions": {
+        "lees": 123,
+        "short": 79,
+        "luchtig": 32
       }
     },
     "01jjxdnzz04ees7fytca2rnntw": {
@@ -23541,12 +28960,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 51,
-        "short": 18
+        "lees": 59,
+        "short": 21
       },
       "actualPositions": {
-        "lees": 51,
-        "short": 18
+        "lees": 59,
+        "short": 21
       }
     },
     "01jjp69txapfggvjvr95mrfp46": {
@@ -23626,12 +29045,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 50,
-        "short": 17
+        "lees": 58,
+        "short": 20
       },
       "actualPositions": {
-        "lees": 50,
-        "short": 17
+        "lees": 58,
+        "short": 20
       }
     },
     "01jjc89qwjr4ry5xp4wneehw5x": {
@@ -23785,12 +29204,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 49,
-        "short": 16
+        "lees": 57,
+        "short": 19
       },
       "actualPositions": {
-        "lees": 49,
-        "short": 16
+        "lees": 57,
+        "short": 19
       }
     },
     "01j8s9z19n0zz9b09z7jh8xz38": {
@@ -23830,12 +29249,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 227,
-        "short": 106
+        "lees": 262,
+        "short": 127
       },
       "actualPositions": {
-        "lees": 225,
-        "short": 106
+        "lees": 262,
+        "short": 127
       }
     },
     "01j7x2qde4aaycp5jtn9b23jqh": {
@@ -23872,6 +29291,54 @@ window.TOP_ARTICLE_PRIORITY = {
       },
       "actualPositions": {
         "boek": 66
+      }
+    },
+    "01j6w5apk81pg023z5m7xd6v5b": {
+      "baseScore": 60,
+      "adjustment": 0,
+      "adjustmentReason": null,
+      "score": 60,
+      "tier": "midden",
+      "components": {
+        "kerninteresse": 30,
+        "diepgang": 10,
+        "persoonlijke_bruikbaarheid": 10,
+        "leeskans": 5,
+        "onderscheidende_duurzame_waarde": 5,
+        "aftrek": 0
+      },
+      "rationale": {
+        "kerninteresse": [
+          "Eén kerndomein: filosofie."
+        ],
+        "diepgang": [
+          "1.899 woorden."
+        ],
+        "persoonlijke_bruikbaarheid": [
+          "Indirect bruikbaar via een kerndomein."
+        ],
+        "leeskans": [
+          "Korte leestijd: 8 minuten."
+        ],
+        "onderscheidende_duurzame_waarde": [
+          "Minstens 1.200 woorden."
+        ],
+        "aftrek": []
+      },
+      "sequences": [
+        "lees",
+        "short",
+        "luchtig"
+      ],
+      "positions": {
+        "lees": 261,
+        "short": 126,
+        "luchtig": 70
+      },
+      "actualPositions": {
+        "lees": 261,
+        "short": 126,
+        "luchtig": 70
       }
     },
     "01j6q1n1v6s769rr1vxcs8ztd1": {
@@ -23912,6 +29379,51 @@ window.TOP_ARTICLE_PRIORITY = {
       },
       "actualPositions": {
         "boek": 37
+      }
+    },
+    "01j6ft003zzdp1gdw7j9qc1dnr": {
+      "baseScore": 70,
+      "adjustment": 0,
+      "adjustmentReason": null,
+      "score": 70,
+      "tier": "hoog",
+      "components": {
+        "kerninteresse": 30,
+        "diepgang": 10,
+        "persoonlijke_bruikbaarheid": 20,
+        "leeskans": 5,
+        "onderscheidende_duurzame_waarde": 5,
+        "aftrek": 0
+      },
+      "rationale": {
+        "kerninteresse": [
+          "Eén kerndomein: pkm."
+        ],
+        "diepgang": [
+          "1.292 woorden."
+        ],
+        "persoonlijke_bruikbaarheid": [
+          "Direct bruikbare tag: pkm & note-taking."
+        ],
+        "leeskans": [
+          "Korte leestijd: 5 minuten."
+        ],
+        "onderscheidende_duurzame_waarde": [
+          "Minstens 1.200 woorden."
+        ],
+        "aftrek": []
+      },
+      "sequences": [
+        "lees",
+        "short"
+      ],
+      "positions": {
+        "lees": 122,
+        "short": 78
+      },
+      "actualPositions": {
+        "lees": 122,
+        "short": 78
       }
     },
     "01j6f8r2v0xj1cgdnf7pqxqjyz": {
@@ -23989,12 +29501,58 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 48,
-        "short": 15
+        "lees": 56,
+        "short": 18
       },
       "actualPositions": {
-        "lees": 48,
-        "short": 15
+        "lees": 56,
+        "short": 18
+      }
+    },
+    "01j60ew3kgknk776nphjxvz9ph": {
+      "baseScore": 65,
+      "adjustment": 0,
+      "adjustmentReason": null,
+      "score": 65,
+      "tier": "midden",
+      "components": {
+        "kerninteresse": 45,
+        "diepgang": 0,
+        "persoonlijke_bruikbaarheid": 10,
+        "leeskans": 5,
+        "onderscheidende_duurzame_waarde": 5,
+        "aftrek": 0
+      },
+      "rationale": {
+        "kerninteresse": [
+          "Minstens twee kerndomeinen: filosofie, sociologie."
+        ],
+        "diepgang": [],
+        "persoonlijke_bruikbaarheid": [
+          "Indirect bruikbaar via een kerndomein."
+        ],
+        "leeskans": [
+          "Korte leestijd: 4 minuten."
+        ],
+        "onderscheidende_duurzame_waarde": [
+          "Aansluiting bij een kerndomein."
+        ],
+        "aftrek": []
+      },
+      "sequences": [
+        "lees",
+        "short",
+        "luchtig"
+      ],
+      "positions": {
+        "lees": 221,
+        "short": 111,
+        "luchtig": 58
+      },
+      "actualPositions": {
+        "lees": 221,
+        "short": 111,
+        "luchtig": 58
       }
     },
     "01j6011fk1gbvn0q705v2wmmah": {
@@ -24035,14 +29593,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 226,
-        "short": 105,
-        "luchtig": 53
+        "lees": 260,
+        "short": 125,
+        "luchtig": 69
       },
       "actualPositions": {
-        "lees": 224,
-        "short": 105,
-        "luchtig": 52
+        "lees": 260,
+        "short": 125,
+        "luchtig": 69
       }
     },
     "01j5m80ektv0bcx45xmy2a5kdy": {
@@ -24083,6 +29641,94 @@ window.TOP_ARTICLE_PRIORITY = {
       },
       "actualPositions": {
         "boek": 35
+      }
+    },
+    "01j5b8c9ze5tvy3xr8axp67j8v": {
+      "baseScore": 85,
+      "adjustment": 0,
+      "adjustmentReason": null,
+      "score": 85,
+      "tier": "hoog",
+      "components": {
+        "kerninteresse": 45,
+        "diepgang": 10,
+        "persoonlijke_bruikbaarheid": 20,
+        "leeskans": 5,
+        "onderscheidende_duurzame_waarde": 5,
+        "aftrek": 0
+      },
+      "rationale": {
+        "kerninteresse": [
+          "Minstens twee kerndomeinen: ai_ethiek, pkm."
+        ],
+        "diepgang": [
+          "1.980 woorden."
+        ],
+        "persoonlijke_bruikbaarheid": [
+          "Waarom lezen noemt: schrijven."
+        ],
+        "leeskans": [
+          "Korte leestijd: 8 minuten."
+        ],
+        "onderscheidende_duurzame_waarde": [
+          "Minstens 1.200 woorden."
+        ],
+        "aftrek": []
+      },
+      "sequences": [
+        "lees",
+        "short"
+      ],
+      "positions": {
+        "lees": 4,
+        "short": 4
+      },
+      "actualPositions": {
+        "lees": 4,
+        "short": 4
+      }
+    },
+    "01j5b8562r7tgbzdtp838byce2": {
+      "baseScore": 60,
+      "adjustment": 0,
+      "adjustmentReason": null,
+      "score": 60,
+      "tier": "midden",
+      "components": {
+        "kerninteresse": 30,
+        "diepgang": 0,
+        "persoonlijke_bruikbaarheid": 20,
+        "leeskans": 5,
+        "onderscheidende_duurzame_waarde": 5,
+        "aftrek": 0
+      },
+      "rationale": {
+        "kerninteresse": [
+          "Eén kerndomein: ai_ethiek."
+        ],
+        "diepgang": [],
+        "persoonlijke_bruikbaarheid": [
+          "Waarom lezen noemt: pkm."
+        ],
+        "leeskans": [
+          "Korte leestijd: 3 minuten."
+        ],
+        "onderscheidende_duurzame_waarde": [
+          "Aansluiting bij een kerndomein."
+        ],
+        "aftrek": []
+      },
+      "sequences": [
+        "lees",
+        "short"
+      ],
+      "positions": {
+        "lees": 259,
+        "short": 124
+      },
+      "actualPositions": {
+        "lees": 259,
+        "short": 124
       }
     },
     "01j422azr657ycnf0hesy20s0f": {
@@ -24203,6 +29849,54 @@ window.TOP_ARTICLE_PRIORITY = {
       },
       "actualPositions": {
         "boek": 32
+      }
+    },
+    "01j421m304fbn5rwfh0a9bpzp3": {
+      "baseScore": 70,
+      "adjustment": 0,
+      "adjustmentReason": null,
+      "score": 70,
+      "tier": "hoog",
+      "components": {
+        "kerninteresse": 30,
+        "diepgang": 10,
+        "persoonlijke_bruikbaarheid": 20,
+        "leeskans": 5,
+        "onderscheidende_duurzame_waarde": 5,
+        "aftrek": 0
+      },
+      "rationale": {
+        "kerninteresse": [
+          "Eén kerndomein: schrijven."
+        ],
+        "diepgang": [
+          "Verdiepend signaal in de tekst: essay."
+        ],
+        "persoonlijke_bruikbaarheid": [
+          "Direct bruikbare tag: writing & essays."
+        ],
+        "leeskans": [
+          "Korte leestijd: 2 minuten."
+        ],
+        "onderscheidende_duurzame_waarde": [
+          "Aansluiting bij een kerndomein."
+        ],
+        "aftrek": []
+      },
+      "sequences": [
+        "lees",
+        "short",
+        "luchtig"
+      ],
+      "positions": {
+        "lees": 121,
+        "short": 77,
+        "luchtig": 31
+      },
+      "actualPositions": {
+        "lees": 121,
+        "short": 77,
+        "luchtig": 31
       }
     },
     "01j3xagwbegqfdev85fvd1v6f7": {
@@ -24479,6 +30173,131 @@ window.TOP_ARTICLE_PRIORITY = {
       },
       "actualPositions": {
         "boek": 48
+      }
+    },
+    "01j2dfzgeq6ee7txhr651dabe4": {
+      "baseScore": 80,
+      "adjustment": 0,
+      "adjustmentReason": null,
+      "score": 80,
+      "tier": "hoog",
+      "components": {
+        "kerninteresse": 45,
+        "diepgang": 10,
+        "persoonlijke_bruikbaarheid": 20,
+        "leeskans": 0,
+        "onderscheidende_duurzame_waarde": 5,
+        "aftrek": 0
+      },
+      "rationale": {
+        "kerninteresse": [
+          "Minstens twee kerndomeinen: ai_ethiek, schrijven."
+        ],
+        "diepgang": [
+          "2.451 woorden."
+        ],
+        "persoonlijke_bruikbaarheid": [
+          "Waarom lezen noemt: pkm."
+        ],
+        "leeskans": [],
+        "onderscheidende_duurzame_waarde": [
+          "Minstens 1.200 woorden."
+        ],
+        "aftrek": []
+      },
+      "sequences": [
+        "lees"
+      ],
+      "positions": {
+        "lees": 19
+      },
+      "actualPositions": {
+        "lees": 19
+      }
+    },
+    "01j2dfz6ypvj2efevyamk72ga3": {
+      "baseScore": 70,
+      "adjustment": 0,
+      "adjustmentReason": null,
+      "score": 70,
+      "tier": "hoog",
+      "components": {
+        "kerninteresse": 30,
+        "diepgang": 10,
+        "persoonlijke_bruikbaarheid": 20,
+        "leeskans": 5,
+        "onderscheidende_duurzame_waarde": 5,
+        "aftrek": 0
+      },
+      "rationale": {
+        "kerninteresse": [
+          "Eén kerndomein: pkm."
+        ],
+        "diepgang": [
+          "1.661 woorden."
+        ],
+        "persoonlijke_bruikbaarheid": [
+          "Direct bruikbare tag: pkm & note-taking."
+        ],
+        "leeskans": [
+          "Korte leestijd: 7 minuten."
+        ],
+        "onderscheidende_duurzame_waarde": [
+          "Minstens 1.200 woorden."
+        ],
+        "aftrek": []
+      },
+      "sequences": [
+        "lees",
+        "short"
+      ],
+      "positions": {
+        "lees": 120,
+        "short": 76
+      },
+      "actualPositions": {
+        "lees": 120,
+        "short": 76
+      }
+    },
+    "01j2dfyynr1192t9ynbygt6h02": {
+      "baseScore": 65,
+      "adjustment": 0,
+      "adjustmentReason": null,
+      "score": 65,
+      "tier": "midden",
+      "components": {
+        "kerninteresse": 30,
+        "diepgang": 10,
+        "persoonlijke_bruikbaarheid": 20,
+        "leeskans": 0,
+        "onderscheidende_duurzame_waarde": 5,
+        "aftrek": 0
+      },
+      "rationale": {
+        "kerninteresse": [
+          "Eén kerndomein: pkm."
+        ],
+        "diepgang": [
+          "6.950 woorden."
+        ],
+        "persoonlijke_bruikbaarheid": [
+          "Direct bruikbare tag: pkm & note-taking."
+        ],
+        "leeskans": [],
+        "onderscheidende_duurzame_waarde": [
+          "Minstens 1.200 woorden."
+        ],
+        "aftrek": []
+      },
+      "sequences": [
+        "lees"
+      ],
+      "positions": {
+        "lees": 220
+      },
+      "actualPositions": {
+        "lees": 220
       }
     },
     "01j29d3vyb3g8h2zwk7t0gcyrs": {
@@ -25797,6 +31616,51 @@ window.TOP_ARTICLE_PRIORITY = {
         "boek": 9
       }
     },
+    "01hzvrj5se18gb9dy70r9hcq2f": {
+      "baseScore": 85,
+      "adjustment": 0,
+      "adjustmentReason": null,
+      "score": 85,
+      "tier": "hoog",
+      "components": {
+        "kerninteresse": 45,
+        "diepgang": 10,
+        "persoonlijke_bruikbaarheid": 20,
+        "leeskans": 5,
+        "onderscheidende_duurzame_waarde": 5,
+        "aftrek": 0
+      },
+      "rationale": {
+        "kerninteresse": [
+          "Minstens twee kerndomeinen: schrijven, pkm."
+        ],
+        "diepgang": [
+          "1.754 woorden."
+        ],
+        "persoonlijke_bruikbaarheid": [
+          "Direct bruikbare tag: pkm & note-taking."
+        ],
+        "leeskans": [
+          "Korte leestijd: 7 minuten."
+        ],
+        "onderscheidende_duurzame_waarde": [
+          "Minstens 1.200 woorden."
+        ],
+        "aftrek": []
+      },
+      "sequences": [
+        "lees",
+        "short"
+      ],
+      "positions": {
+        "lees": 3,
+        "short": 3
+      },
+      "actualPositions": {
+        "lees": 3,
+        "short": 3
+      }
+    },
     "01hz9sx57zhs6famn519gxxtne": {
       "baseScore": 65,
       "adjustment": 0,
@@ -25831,10 +31695,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 193
+        "lees": 219
       },
       "actualPositions": {
-        "lees": 192
+        "lees": 219
       }
     },
     "01hy0x9z444qrsk7bb6acc5svn": {
@@ -25874,12 +31738,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 105,
-        "short": 67
+        "lees": 119,
+        "short": 75
       },
       "actualPositions": {
-        "lees": 105,
-        "short": 67
+        "lees": 119,
+        "short": 75
       }
     },
     "01hy0x9kzsbaa85nvwr8dfamc4": {
@@ -25928,6 +31792,52 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees": 2,
         "short": 2,
         "luchtig": 1
+      }
+    },
+    "01hv97p0qv2rsh6attfeq439nj": {
+      "baseScore": 60,
+      "adjustment": 0,
+      "adjustmentReason": null,
+      "score": 60,
+      "tier": "midden",
+      "components": {
+        "kerninteresse": 30,
+        "diepgang": 0,
+        "persoonlijke_bruikbaarheid": 20,
+        "leeskans": 5,
+        "onderscheidende_duurzame_waarde": 5,
+        "aftrek": 0
+      },
+      "rationale": {
+        "kerninteresse": [
+          "Eén kerndomein: schrijven."
+        ],
+        "diepgang": [],
+        "persoonlijke_bruikbaarheid": [
+          "Direct bruikbare tag: business & work."
+        ],
+        "leeskans": [
+          "Korte leestijd: 4 minuten."
+        ],
+        "onderscheidende_duurzame_waarde": [
+          "Aansluiting bij een kerndomein."
+        ],
+        "aftrek": []
+      },
+      "sequences": [
+        "lees",
+        "short",
+        "luchtig"
+      ],
+      "positions": {
+        "lees": 258,
+        "short": 123,
+        "luchtig": 68
+      },
+      "actualPositions": {
+        "lees": 258,
+        "short": 123,
+        "luchtig": 68
       }
     }
   }
