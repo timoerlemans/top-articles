@@ -1,6 +1,6 @@
 // Automatisch gegenereerd door scripts/build-data.mjs — niet handmatig bewerken.
 window.TOP_ARTICLES = {
-  "generatedAt": "2026-08-21T06:40:18.037Z",
+  "generatedAt": "2026-08-21T21:07:55.298Z",
   "families": [
     {
       "id": "algemeen",
@@ -13224,6 +13224,1459 @@ window.TOP_ARTICLES = {
       }
     },
     {
+      "id": "scrum",
+      "label": "Scrum",
+      "sequence": "scrum",
+      "top10Tag": "aaa-scrum-top-10",
+      "top100Tag": "aaa-scrum-top-100",
+      "lists": {
+        "top-10": {
+          "tag": "aaa-scrum-top-10",
+          "items": [
+            {
+              "position": 1,
+              "id": "01kweww7axmq58ekx96xkj02jk",
+              "title": "Seven Ways Scrum Masters Can Be More Effective",
+              "author": "Scrum.org",
+              "siteName": null,
+              "category": "article",
+              "language": "Engels",
+              "readingTime": "12 mins",
+              "readingMinutes": 12,
+              "wordCount": 3069,
+              "publishedDate": null,
+              "savedDate": "2026-07-01T13:11:15.037000+00:00",
+              "imageUrl": "",
+              "sourceUrl": "https://www.scrum.org/learning-series/seven-ways-scrum-masters-can-be-more-effective/",
+              "readwiseUrl": "https://read.readwise.io/read/01kweww7axmq58ekx96xkj02jk",
+              "summary": "Combined single-document version of the Scrum.org learning series about how Scrum Masters can improve Scrum Team effectiveness.",
+              "whyRead": null,
+              "bestMoment": null,
+              "tags": [
+                "professional development",
+                "scrum"
+              ],
+              "alsoIn": [
+                "aaa-scrum-top-100"
+              ]
+            },
+            {
+              "position": 2,
+              "id": "01ktp2hmn8jpdb5pwfpf2x9g0p",
+              "title": "Leading High Performing Teams",
+              "author": "Edwin Dando",
+              "siteName": "Scrum.org",
+              "category": "article",
+              "language": null,
+              "readingTime": "5 mins",
+              "readingMinutes": 5,
+              "wordCount": 1280,
+              "publishedDate": "2018-07-16",
+              "savedDate": "2026-06-09T11:33:37.064000+00:00",
+              "imageUrl": "https://www.scrum.org/themes/custom/scrumorg/assets/images/logo-250.png",
+              "sourceUrl": "https://www.scrum.org/resources/blog/leading-high-performing-teams",
+              "readwiseUrl": "https://read.readwise.io/read/01ktp2hmn8jpdb5pwfpf2x9g0p",
+              "summary": "Throughout my career I have helped many leaders adapt their style to one that better supports teams reach a high-performing state. Across a wide range of different industries the patterns of high-performing teams, and how leaders help shape them, have some striking consistencies.",
+              "whyRead": "Raakt professional development en teamleiderschap: Dando verbindt high-performing teams met concrete patronen uit een pizzeria en vertaalt die naar kenniswerk, autonomie en situationeel leiderschap.",
+              "bestMoment": "leergierig",
+              "tags": [
+                "business & startups",
+                "later",
+                "professional development",
+                "psm-ii",
+                "scrum"
+              ],
+              "alsoIn": [
+                "aaa-scrum-top-100"
+              ]
+            },
+            {
+              "position": 3,
+              "id": "01ktp2jv87zz114a0e57x0hnra",
+              "title": "Self-Managing Teams: From Compliance to Collaboration",
+              "author": "Stephanie Ockerman",
+              "siteName": "Scrum.org",
+              "category": "article",
+              "language": null,
+              "readingTime": "5 mins",
+              "readingMinutes": 5,
+              "wordCount": 1265,
+              "publishedDate": "2026-01-26",
+              "savedDate": "2026-06-09T11:34:16.583000+00:00",
+              "imageUrl": "https://www.agilesocks.com/wp-content/uploads/2026/01/Self-Managing-Teams-thumbnail-1200-×-628-px-1.png",
+              "sourceUrl": "https://www.scrum.org/resources/blog/self-managing-teams-compliance-collaboration",
+              "readwiseUrl": "https://read.readwise.io/read/01ktp2jv87zz114a0e57x0hnra",
+              "summary": "Self-managing teams are how strategy comes to life. They’re also how organizations know when strategy needs to shift. In this article, we explore the building blocks of self-managing teams, what keeps organizations stuck, and practices that help.",
+              "whyRead": "Raakt professional development, teamcoaching en organisatieontwerp: Ockerman maakt concreet waarom self-managing teams niet vanzelf ontstaan door empowerment te roepen.",
+              "bestMoment": "leergierig",
+              "tags": [
+                "business & startups",
+                "later",
+                "professional development",
+                "psm-ii",
+                "scrum"
+              ],
+              "alsoIn": [
+                "aaa-scrum-top-100"
+              ]
+            },
+            {
+              "position": 4,
+              "id": "01kwexp3bnatgms46fkdbgsnt6",
+              "title": "The Scrum Master",
+              "author": "Scrum.org",
+              "siteName": null,
+              "category": "article",
+              "language": "Engels",
+              "readingTime": "7 mins",
+              "readingMinutes": 7,
+              "wordCount": 1662,
+              "publishedDate": null,
+              "savedDate": "2026-07-01T13:25:22.933000+00:00",
+              "imageUrl": "",
+              "sourceUrl": "https://www.scrum.org/learning-series/scrum-master",
+              "readwiseUrl": "https://read.readwise.io/read/01kwexp3bnatgms46fkdbgsnt6",
+              "summary": "Scrum.org resource for growing as a Scrum Master. Combined content-only import where applicable.",
+              "whyRead": null,
+              "bestMoment": null,
+              "tags": [
+                "later",
+                "professional development",
+                "scrum"
+              ],
+              "alsoIn": [
+                "aaa-scrum-top-100"
+              ]
+            },
+            {
+              "position": 5,
+              "id": "01kwexpk131p0dac6rajfc0wtb",
+              "title": "Navigating Impediments",
+              "author": "Scrum.org",
+              "siteName": null,
+              "category": "article",
+              "language": "Engels",
+              "readingTime": "6 mins",
+              "readingMinutes": 6,
+              "wordCount": 1520,
+              "publishedDate": null,
+              "savedDate": "2026-07-01T13:25:38.979000+00:00",
+              "imageUrl": "",
+              "sourceUrl": "https://www.scrum.org/resources/navigating-impediments",
+              "readwiseUrl": "https://read.readwise.io/read/01kwexpk131p0dac6rajfc0wtb",
+              "summary": "Scrum.org resource for growing as a Scrum Master. Combined content-only import where applicable.",
+              "whyRead": null,
+              "bestMoment": null,
+              "tags": [
+                "later",
+                "professional development",
+                "scrum"
+              ],
+              "alsoIn": [
+                "aaa-scrum-top-100"
+              ]
+            },
+            {
+              "position": 6,
+              "id": "01kwexppfbvptw25yz3fnypwyx",
+              "title": "Facilitation",
+              "author": "Scrum.org",
+              "siteName": null,
+              "category": "article",
+              "language": "Engels",
+              "readingTime": "8 mins",
+              "readingMinutes": 8,
+              "wordCount": 1924,
+              "publishedDate": null,
+              "savedDate": "2026-07-01T13:25:42.507000+00:00",
+              "imageUrl": "",
+              "sourceUrl": "https://www.scrum.org/learning-series/facilitation",
+              "readwiseUrl": "https://read.readwise.io/read/01kwexppfbvptw25yz3fnypwyx",
+              "summary": "Scrum.org resource for growing as a Scrum Master. Combined content-only import where applicable.",
+              "whyRead": null,
+              "bestMoment": null,
+              "tags": [
+                "later",
+                "professional development",
+                "scrum"
+              ],
+              "alsoIn": [
+                "aaa-scrum-top-100"
+              ]
+            },
+            {
+              "position": 7,
+              "id": "01kwexpqtc8mc6pyyf1rj9gb8v",
+              "title": "Coaching",
+              "author": "Scrum.org",
+              "siteName": null,
+              "category": "article",
+              "language": "Engels",
+              "readingTime": "8 mins",
+              "readingMinutes": 8,
+              "wordCount": 2033,
+              "publishedDate": null,
+              "savedDate": "2026-07-01T13:25:43.884000+00:00",
+              "imageUrl": "",
+              "sourceUrl": "https://www.scrum.org/learning-series/coaching",
+              "readwiseUrl": "https://read.readwise.io/read/01kwexpqtc8mc6pyyf1rj9gb8v",
+              "summary": "Scrum.org resource for growing as a Scrum Master. Combined content-only import where applicable.",
+              "whyRead": null,
+              "bestMoment": null,
+              "tags": [
+                "later",
+                "professional development",
+                "scrum"
+              ],
+              "alsoIn": [
+                "aaa-scrum-top-100"
+              ]
+            },
+            {
+              "position": 8,
+              "id": "01kwexpsbrn9aftwadk0dfvf1n",
+              "title": "Mentoring",
+              "author": "Scrum.org",
+              "siteName": null,
+              "category": "article",
+              "language": "Engels",
+              "readingTime": "6 mins",
+              "readingMinutes": 6,
+              "wordCount": 1411,
+              "publishedDate": null,
+              "savedDate": "2026-07-01T13:25:45.465000+00:00",
+              "imageUrl": "",
+              "sourceUrl": "https://www.scrum.org/learning-series/mentoring",
+              "readwiseUrl": "https://read.readwise.io/read/01kwexpsbrn9aftwadk0dfvf1n",
+              "summary": "Scrum.org resource for growing as a Scrum Master. Combined content-only import where applicable.",
+              "whyRead": null,
+              "bestMoment": null,
+              "tags": [
+                "later",
+                "professional development",
+                "scrum"
+              ],
+              "alsoIn": [
+                "aaa-scrum-top-100"
+              ]
+            },
+            {
+              "position": 9,
+              "id": "01kwexptrjc88kg21aqp2sba9s",
+              "title": "Teaching",
+              "author": "Scrum.org",
+              "siteName": null,
+              "category": "article",
+              "language": "Engels",
+              "readingTime": "7 mins",
+              "readingMinutes": 7,
+              "wordCount": 1753,
+              "publishedDate": null,
+              "savedDate": "2026-07-01T13:25:46.898000+00:00",
+              "imageUrl": "",
+              "sourceUrl": "https://www.scrum.org/learning-series/teaching",
+              "readwiseUrl": "https://read.readwise.io/read/01kwexptrjc88kg21aqp2sba9s",
+              "summary": "Scrum.org resource for growing as a Scrum Master. Combined content-only import where applicable.",
+              "whyRead": null,
+              "bestMoment": null,
+              "tags": [
+                "later",
+                "professional development",
+                "scrum"
+              ],
+              "alsoIn": [
+                "aaa-scrum-top-100"
+              ]
+            },
+            {
+              "position": 10,
+              "id": "01kwf0ybdf5nk9310rfsr9gfkw",
+              "title": "Self-Managing Teams",
+              "author": "Scrum.org",
+              "siteName": null,
+              "category": "article",
+              "language": "Engels",
+              "readingTime": "6 mins",
+              "readingMinutes": 6,
+              "wordCount": 1568,
+              "publishedDate": null,
+              "savedDate": "2026-07-01T14:22:19.055000+00:00",
+              "imageUrl": "",
+              "sourceUrl": "https://www.scrum.org/learning-series/self-managing-teams#content-only",
+              "readwiseUrl": "https://read.readwise.io/read/01kwf0ybdf5nk9310rfsr9gfkw",
+              "summary": "Corrected content-only Scrum.org import.",
+              "whyRead": null,
+              "bestMoment": null,
+              "tags": [
+                "later",
+                "professional development",
+                "scrum"
+              ],
+              "alsoIn": [
+                "aaa-scrum-top-100"
+              ]
+            }
+          ]
+        },
+        "top-100": {
+          "tag": "aaa-scrum-top-100",
+          "items": [
+            {
+              "position": 1,
+              "id": "01kweww7axmq58ekx96xkj02jk",
+              "title": "Seven Ways Scrum Masters Can Be More Effective",
+              "author": "Scrum.org",
+              "siteName": null,
+              "category": "article",
+              "language": "Engels",
+              "readingTime": "12 mins",
+              "readingMinutes": 12,
+              "wordCount": 3069,
+              "publishedDate": null,
+              "savedDate": "2026-07-01T13:11:15.037000+00:00",
+              "imageUrl": "",
+              "sourceUrl": "https://www.scrum.org/learning-series/seven-ways-scrum-masters-can-be-more-effective/",
+              "readwiseUrl": "https://read.readwise.io/read/01kweww7axmq58ekx96xkj02jk",
+              "summary": "Combined single-document version of the Scrum.org learning series about how Scrum Masters can improve Scrum Team effectiveness.",
+              "whyRead": null,
+              "bestMoment": null,
+              "tags": [
+                "professional development",
+                "scrum"
+              ],
+              "alsoIn": [
+                "aaa-scrum-top-10"
+              ]
+            },
+            {
+              "position": 2,
+              "id": "01ktp2hmn8jpdb5pwfpf2x9g0p",
+              "title": "Leading High Performing Teams",
+              "author": "Edwin Dando",
+              "siteName": "Scrum.org",
+              "category": "article",
+              "language": null,
+              "readingTime": "5 mins",
+              "readingMinutes": 5,
+              "wordCount": 1280,
+              "publishedDate": "2018-07-16",
+              "savedDate": "2026-06-09T11:33:37.064000+00:00",
+              "imageUrl": "https://www.scrum.org/themes/custom/scrumorg/assets/images/logo-250.png",
+              "sourceUrl": "https://www.scrum.org/resources/blog/leading-high-performing-teams",
+              "readwiseUrl": "https://read.readwise.io/read/01ktp2hmn8jpdb5pwfpf2x9g0p",
+              "summary": "Throughout my career I have helped many leaders adapt their style to one that better supports teams reach a high-performing state. Across a wide range of different industries the patterns of high-performing teams, and how leaders help shape them, have some striking consistencies.",
+              "whyRead": "Raakt professional development en teamleiderschap: Dando verbindt high-performing teams met concrete patronen uit een pizzeria en vertaalt die naar kenniswerk, autonomie en situationeel leiderschap.",
+              "bestMoment": "leergierig",
+              "tags": [
+                "business & startups",
+                "later",
+                "professional development",
+                "psm-ii",
+                "scrum"
+              ],
+              "alsoIn": [
+                "aaa-scrum-top-10"
+              ]
+            },
+            {
+              "position": 3,
+              "id": "01ktp2jv87zz114a0e57x0hnra",
+              "title": "Self-Managing Teams: From Compliance to Collaboration",
+              "author": "Stephanie Ockerman",
+              "siteName": "Scrum.org",
+              "category": "article",
+              "language": null,
+              "readingTime": "5 mins",
+              "readingMinutes": 5,
+              "wordCount": 1265,
+              "publishedDate": "2026-01-26",
+              "savedDate": "2026-06-09T11:34:16.583000+00:00",
+              "imageUrl": "https://www.agilesocks.com/wp-content/uploads/2026/01/Self-Managing-Teams-thumbnail-1200-×-628-px-1.png",
+              "sourceUrl": "https://www.scrum.org/resources/blog/self-managing-teams-compliance-collaboration",
+              "readwiseUrl": "https://read.readwise.io/read/01ktp2jv87zz114a0e57x0hnra",
+              "summary": "Self-managing teams are how strategy comes to life. They’re also how organizations know when strategy needs to shift. In this article, we explore the building blocks of self-managing teams, what keeps organizations stuck, and practices that help.",
+              "whyRead": "Raakt professional development, teamcoaching en organisatieontwerp: Ockerman maakt concreet waarom self-managing teams niet vanzelf ontstaan door empowerment te roepen.",
+              "bestMoment": "leergierig",
+              "tags": [
+                "business & startups",
+                "later",
+                "professional development",
+                "psm-ii",
+                "scrum"
+              ],
+              "alsoIn": [
+                "aaa-scrum-top-10"
+              ]
+            },
+            {
+              "position": 4,
+              "id": "01kwexp3bnatgms46fkdbgsnt6",
+              "title": "The Scrum Master",
+              "author": "Scrum.org",
+              "siteName": null,
+              "category": "article",
+              "language": "Engels",
+              "readingTime": "7 mins",
+              "readingMinutes": 7,
+              "wordCount": 1662,
+              "publishedDate": null,
+              "savedDate": "2026-07-01T13:25:22.933000+00:00",
+              "imageUrl": "",
+              "sourceUrl": "https://www.scrum.org/learning-series/scrum-master",
+              "readwiseUrl": "https://read.readwise.io/read/01kwexp3bnatgms46fkdbgsnt6",
+              "summary": "Scrum.org resource for growing as a Scrum Master. Combined content-only import where applicable.",
+              "whyRead": null,
+              "bestMoment": null,
+              "tags": [
+                "later",
+                "professional development",
+                "scrum"
+              ],
+              "alsoIn": [
+                "aaa-scrum-top-10"
+              ]
+            },
+            {
+              "position": 5,
+              "id": "01kwexpk131p0dac6rajfc0wtb",
+              "title": "Navigating Impediments",
+              "author": "Scrum.org",
+              "siteName": null,
+              "category": "article",
+              "language": "Engels",
+              "readingTime": "6 mins",
+              "readingMinutes": 6,
+              "wordCount": 1520,
+              "publishedDate": null,
+              "savedDate": "2026-07-01T13:25:38.979000+00:00",
+              "imageUrl": "",
+              "sourceUrl": "https://www.scrum.org/resources/navigating-impediments",
+              "readwiseUrl": "https://read.readwise.io/read/01kwexpk131p0dac6rajfc0wtb",
+              "summary": "Scrum.org resource for growing as a Scrum Master. Combined content-only import where applicable.",
+              "whyRead": null,
+              "bestMoment": null,
+              "tags": [
+                "later",
+                "professional development",
+                "scrum"
+              ],
+              "alsoIn": [
+                "aaa-scrum-top-10"
+              ]
+            },
+            {
+              "position": 6,
+              "id": "01kwexppfbvptw25yz3fnypwyx",
+              "title": "Facilitation",
+              "author": "Scrum.org",
+              "siteName": null,
+              "category": "article",
+              "language": "Engels",
+              "readingTime": "8 mins",
+              "readingMinutes": 8,
+              "wordCount": 1924,
+              "publishedDate": null,
+              "savedDate": "2026-07-01T13:25:42.507000+00:00",
+              "imageUrl": "",
+              "sourceUrl": "https://www.scrum.org/learning-series/facilitation",
+              "readwiseUrl": "https://read.readwise.io/read/01kwexppfbvptw25yz3fnypwyx",
+              "summary": "Scrum.org resource for growing as a Scrum Master. Combined content-only import where applicable.",
+              "whyRead": null,
+              "bestMoment": null,
+              "tags": [
+                "later",
+                "professional development",
+                "scrum"
+              ],
+              "alsoIn": [
+                "aaa-scrum-top-10"
+              ]
+            },
+            {
+              "position": 7,
+              "id": "01kwexpqtc8mc6pyyf1rj9gb8v",
+              "title": "Coaching",
+              "author": "Scrum.org",
+              "siteName": null,
+              "category": "article",
+              "language": "Engels",
+              "readingTime": "8 mins",
+              "readingMinutes": 8,
+              "wordCount": 2033,
+              "publishedDate": null,
+              "savedDate": "2026-07-01T13:25:43.884000+00:00",
+              "imageUrl": "",
+              "sourceUrl": "https://www.scrum.org/learning-series/coaching",
+              "readwiseUrl": "https://read.readwise.io/read/01kwexpqtc8mc6pyyf1rj9gb8v",
+              "summary": "Scrum.org resource for growing as a Scrum Master. Combined content-only import where applicable.",
+              "whyRead": null,
+              "bestMoment": null,
+              "tags": [
+                "later",
+                "professional development",
+                "scrum"
+              ],
+              "alsoIn": [
+                "aaa-scrum-top-10"
+              ]
+            },
+            {
+              "position": 8,
+              "id": "01kwexpsbrn9aftwadk0dfvf1n",
+              "title": "Mentoring",
+              "author": "Scrum.org",
+              "siteName": null,
+              "category": "article",
+              "language": "Engels",
+              "readingTime": "6 mins",
+              "readingMinutes": 6,
+              "wordCount": 1411,
+              "publishedDate": null,
+              "savedDate": "2026-07-01T13:25:45.465000+00:00",
+              "imageUrl": "",
+              "sourceUrl": "https://www.scrum.org/learning-series/mentoring",
+              "readwiseUrl": "https://read.readwise.io/read/01kwexpsbrn9aftwadk0dfvf1n",
+              "summary": "Scrum.org resource for growing as a Scrum Master. Combined content-only import where applicable.",
+              "whyRead": null,
+              "bestMoment": null,
+              "tags": [
+                "later",
+                "professional development",
+                "scrum"
+              ],
+              "alsoIn": [
+                "aaa-scrum-top-10"
+              ]
+            },
+            {
+              "position": 9,
+              "id": "01kwexptrjc88kg21aqp2sba9s",
+              "title": "Teaching",
+              "author": "Scrum.org",
+              "siteName": null,
+              "category": "article",
+              "language": "Engels",
+              "readingTime": "7 mins",
+              "readingMinutes": 7,
+              "wordCount": 1753,
+              "publishedDate": null,
+              "savedDate": "2026-07-01T13:25:46.898000+00:00",
+              "imageUrl": "",
+              "sourceUrl": "https://www.scrum.org/learning-series/teaching",
+              "readwiseUrl": "https://read.readwise.io/read/01kwexptrjc88kg21aqp2sba9s",
+              "summary": "Scrum.org resource for growing as a Scrum Master. Combined content-only import where applicable.",
+              "whyRead": null,
+              "bestMoment": null,
+              "tags": [
+                "later",
+                "professional development",
+                "scrum"
+              ],
+              "alsoIn": [
+                "aaa-scrum-top-10"
+              ]
+            },
+            {
+              "position": 10,
+              "id": "01kwf0ybdf5nk9310rfsr9gfkw",
+              "title": "Self-Managing Teams",
+              "author": "Scrum.org",
+              "siteName": null,
+              "category": "article",
+              "language": "Engels",
+              "readingTime": "6 mins",
+              "readingMinutes": 6,
+              "wordCount": 1568,
+              "publishedDate": null,
+              "savedDate": "2026-07-01T14:22:19.055000+00:00",
+              "imageUrl": "",
+              "sourceUrl": "https://www.scrum.org/learning-series/self-managing-teams#content-only",
+              "readwiseUrl": "https://read.readwise.io/read/01kwf0ybdf5nk9310rfsr9gfkw",
+              "summary": "Corrected content-only Scrum.org import.",
+              "whyRead": null,
+              "bestMoment": null,
+              "tags": [
+                "later",
+                "professional development",
+                "scrum"
+              ],
+              "alsoIn": [
+                "aaa-scrum-top-10"
+              ]
+            },
+            {
+              "position": 11,
+              "id": "01kwgv3m75tgghgzvyx20sxse0",
+              "title": "The Scrum Master",
+              "author": "Scrum.org",
+              "siteName": null,
+              "category": "article",
+              "language": "Engels",
+              "readingTime": "6 mins",
+              "readingMinutes": 6,
+              "wordCount": 1503,
+              "publishedDate": null,
+              "savedDate": "2026-07-02T07:18:49.317000+00:00",
+              "imageUrl": "",
+              "sourceUrl": "https://www.scrum.org/learning-series/scrum-master#content-only-v2",
+              "readwiseUrl": "https://read.readwise.io/read/01kwgv3m75tgghgzvyx20sxse0",
+              "summary": "Content-only Scrum.org import from the Scrum Master growth resources page.",
+              "whyRead": null,
+              "bestMoment": null,
+              "tags": [
+                "professional development",
+                "scrum"
+              ],
+              "alsoIn": []
+            },
+            {
+              "position": 12,
+              "id": "01kwgv3te7ptf027ds5be7nsr3",
+              "title": "The Scrum Events",
+              "author": "Scrum.org",
+              "siteName": null,
+              "category": "article",
+              "language": "Engels",
+              "readingTime": "6 mins",
+              "readingMinutes": 6,
+              "wordCount": 1529,
+              "publishedDate": null,
+              "savedDate": "2026-07-02T07:18:55.687000+00:00",
+              "imageUrl": "",
+              "sourceUrl": "https://www.scrum.org/learning-series/scrum-events#content-only-v2",
+              "readwiseUrl": "https://read.readwise.io/read/01kwgv3te7ptf027ds5be7nsr3",
+              "summary": "Content-only Scrum.org import from the Scrum Master growth resources page.",
+              "whyRead": null,
+              "bestMoment": null,
+              "tags": [
+                "professional development",
+                "scrum"
+              ],
+              "alsoIn": []
+            },
+            {
+              "position": 13,
+              "id": "01kwgv3xd015jvxgxaa6x1gwy3",
+              "title": "Self-Managing Teams",
+              "author": "Scrum.org",
+              "siteName": null,
+              "category": "article",
+              "language": "Engels",
+              "readingTime": "5 mins",
+              "readingMinutes": 5,
+              "wordCount": 1310,
+              "publishedDate": null,
+              "savedDate": "2026-07-02T07:18:58.720000+00:00",
+              "imageUrl": "",
+              "sourceUrl": "https://www.scrum.org/learning-series/self-managing-teams#content-only-v2",
+              "readwiseUrl": "https://read.readwise.io/read/01kwgv3xd015jvxgxaa6x1gwy3",
+              "summary": "Content-only Scrum.org import from the Scrum Master growth resources page.",
+              "whyRead": null,
+              "bestMoment": null,
+              "tags": [
+                "professional development",
+                "scrum"
+              ],
+              "alsoIn": []
+            },
+            {
+              "position": 14,
+              "id": "01kwgv3yscnzt7mvbt3cpcn1ey",
+              "title": "Tips for Joining a Scrum Team and Building Collaborative Relationships",
+              "author": "Scrum.org",
+              "siteName": null,
+              "category": "article",
+              "language": "Engels",
+              "readingTime": "6 mins",
+              "readingMinutes": 6,
+              "wordCount": 1526,
+              "publishedDate": null,
+              "savedDate": "2026-07-02T07:19:00.140000+00:00",
+              "imageUrl": "",
+              "sourceUrl": "https://www.scrum.org/learning-series/tips-joining-scrum-team-and-building-collaborative-relationships#content-only-v2",
+              "readwiseUrl": "https://read.readwise.io/read/01kwgv3yscnzt7mvbt3cpcn1ey",
+              "summary": "Content-only Scrum.org import from the Scrum Master growth resources page.",
+              "whyRead": null,
+              "bestMoment": null,
+              "tags": [
+                "professional development",
+                "scrum"
+              ],
+              "alsoIn": []
+            },
+            {
+              "position": 15,
+              "id": "01kwgv43gpd4xyx01qc2khq1vk",
+              "title": "Navigating Impediments",
+              "author": "Scrum.org",
+              "siteName": null,
+              "category": "article",
+              "language": "Engels",
+              "readingTime": "6 mins",
+              "readingMinutes": 6,
+              "wordCount": 1400,
+              "publishedDate": null,
+              "savedDate": "2026-07-02T07:19:04.982000+00:00",
+              "imageUrl": "",
+              "sourceUrl": "https://www.scrum.org/resources/navigating-impediments#content-only-v2",
+              "readwiseUrl": "https://read.readwise.io/read/01kwgv43gpd4xyx01qc2khq1vk",
+              "summary": "Content-only Scrum.org import from the Scrum Master growth resources page.",
+              "whyRead": null,
+              "bestMoment": null,
+              "tags": [
+                "professional development",
+                "scrum"
+              ],
+              "alsoIn": []
+            },
+            {
+              "position": 16,
+              "id": "01kwgv46jm4x817bmpjy470hra",
+              "title": "Facilitation",
+              "author": "Scrum.org",
+              "siteName": null,
+              "category": "article",
+              "language": "Engels",
+              "readingTime": "6 mins",
+              "readingMinutes": 6,
+              "wordCount": 1531,
+              "publishedDate": null,
+              "savedDate": "2026-07-02T07:19:08.116000+00:00",
+              "imageUrl": "",
+              "sourceUrl": "https://www.scrum.org/learning-series/facilitation#content-only-v2",
+              "readwiseUrl": "https://read.readwise.io/read/01kwgv46jm4x817bmpjy470hra",
+              "summary": "Content-only Scrum.org import from the Scrum Master growth resources page.",
+              "whyRead": null,
+              "bestMoment": null,
+              "tags": [
+                "professional development",
+                "scrum"
+              ],
+              "alsoIn": []
+            },
+            {
+              "position": 17,
+              "id": "01kwgv4834kwm67vkjqghncfxd",
+              "title": "Coaching",
+              "author": "Scrum.org",
+              "siteName": null,
+              "category": "article",
+              "language": "Engels",
+              "readingTime": "8 mins",
+              "readingMinutes": 8,
+              "wordCount": 2034,
+              "publishedDate": null,
+              "savedDate": "2026-07-02T07:19:09.669000+00:00",
+              "imageUrl": "",
+              "sourceUrl": "https://www.scrum.org/learning-series/coaching#content-only-v2",
+              "readwiseUrl": "https://read.readwise.io/read/01kwgv4834kwm67vkjqghncfxd",
+              "summary": "Content-only Scrum.org import from the Scrum Master growth resources page.",
+              "whyRead": null,
+              "bestMoment": null,
+              "tags": [
+                "professional development",
+                "scrum"
+              ],
+              "alsoIn": []
+            },
+            {
+              "position": 18,
+              "id": "01kwgv49bqnbz83e4xekh95k2z",
+              "title": "Mentoring",
+              "author": "Scrum.org",
+              "siteName": null,
+              "category": "article",
+              "language": "Engels",
+              "readingTime": "5 mins",
+              "readingMinutes": 5,
+              "wordCount": 1209,
+              "publishedDate": null,
+              "savedDate": "2026-07-02T07:19:10.968000+00:00",
+              "imageUrl": "",
+              "sourceUrl": "https://www.scrum.org/learning-series/mentoring#content-only-v2",
+              "readwiseUrl": "https://read.readwise.io/read/01kwgv49bqnbz83e4xekh95k2z",
+              "summary": "Content-only Scrum.org import from the Scrum Master growth resources page.",
+              "whyRead": null,
+              "bestMoment": null,
+              "tags": [
+                "professional development",
+                "scrum"
+              ],
+              "alsoIn": []
+            },
+            {
+              "position": 19,
+              "id": "01kwexp5550gmx9jwcrafg7xd3",
+              "title": "Empiricism",
+              "author": "Scrum.org",
+              "siteName": null,
+              "category": "article",
+              "language": "Engels",
+              "readingTime": "13 mins",
+              "readingMinutes": 13,
+              "wordCount": 3272,
+              "publishedDate": null,
+              "savedDate": "2026-07-01T13:25:24.773000+00:00",
+              "imageUrl": "",
+              "sourceUrl": "https://www.scrum.org/learning-series/empiricism",
+              "readwiseUrl": "https://read.readwise.io/read/01kwexp5550gmx9jwcrafg7xd3",
+              "summary": "Scrum.org resource for growing as a Scrum Master. Combined content-only import where applicable.",
+              "whyRead": null,
+              "bestMoment": null,
+              "tags": [
+                "later",
+                "professional development",
+                "scrum"
+              ],
+              "alsoIn": []
+            },
+            {
+              "position": 20,
+              "id": "01kwexpevqvsnw5chhvec7vdc7",
+              "title": "Tips for Joining a Scrum Team and Building Collaborative Relationships",
+              "author": "Scrum.org",
+              "siteName": null,
+              "category": "article",
+              "language": "Engels",
+              "readingTime": "10 mins",
+              "readingMinutes": 10,
+              "wordCount": 2412,
+              "publishedDate": null,
+              "savedDate": "2026-07-01T13:25:34.711000+00:00",
+              "imageUrl": "",
+              "sourceUrl": "https://www.scrum.org/learning-series/tips-joining-scrum-team-and-building-collaborative-relationships",
+              "readwiseUrl": "https://read.readwise.io/read/01kwexpevqvsnw5chhvec7vdc7",
+              "summary": "Scrum.org resource for growing as a Scrum Master. Combined content-only import where applicable.",
+              "whyRead": null,
+              "bestMoment": null,
+              "tags": [
+                "later",
+                "professional development",
+                "scrum"
+              ],
+              "alsoIn": []
+            },
+            {
+              "position": 21,
+              "id": "01kwexpg90r86p63b5w5sd3910",
+              "title": "Encouraging Collaborative Ways of Working in a Scrum Team",
+              "author": "Scrum.org",
+              "siteName": null,
+              "category": "article",
+              "language": "Engels",
+              "readingTime": "11 mins",
+              "readingMinutes": 11,
+              "wordCount": 2708,
+              "publishedDate": null,
+              "savedDate": "2026-07-01T13:25:36.161000+00:00",
+              "imageUrl": "",
+              "sourceUrl": "https://www.scrum.org/learning-series/encouraging-collaborative-ways-working-scrum-team",
+              "readwiseUrl": "https://read.readwise.io/read/01kwexpg90r86p63b5w5sd3910",
+              "summary": "Scrum.org resource for growing as a Scrum Master. Combined content-only import where applicable.",
+              "whyRead": null,
+              "bestMoment": null,
+              "tags": [
+                "later",
+                "professional development",
+                "scrum"
+              ],
+              "alsoIn": []
+            },
+            {
+              "position": 22,
+              "id": "01kwexpw49qacd2hcbhg15tzcr",
+              "title": "Frequently Asked Questions on Continuous Improvement for Scrum Masters",
+              "author": "Scrum.org",
+              "siteName": null,
+              "category": "article",
+              "language": "Engels",
+              "readingTime": "12 mins",
+              "readingMinutes": 12,
+              "wordCount": 3109,
+              "publishedDate": null,
+              "savedDate": "2026-07-01T13:25:48.298000+00:00",
+              "imageUrl": "",
+              "sourceUrl": "https://www.scrum.org/learning-series/frequently-asked-questions-continuous-improvement-scrum-masters",
+              "readwiseUrl": "https://read.readwise.io/read/01kwexpw49qacd2hcbhg15tzcr",
+              "summary": "Scrum.org resource for growing as a Scrum Master. Combined content-only import where applicable.",
+              "whyRead": null,
+              "bestMoment": null,
+              "tags": [
+                "later",
+                "professional development",
+                "scrum"
+              ],
+              "alsoIn": []
+            },
+            {
+              "position": 23,
+              "id": "01ktp2kyqfw4gmnvgcrkt7faxv",
+              "title": "Self-Managing Teams | Scrum.org",
+              "author": "scrum.org",
+              "siteName": "Scrum.org",
+              "category": "article",
+              "language": null,
+              "readingTime": "3 mins",
+              "readingMinutes": 3,
+              "wordCount": 688,
+              "publishedDate": null,
+              "savedDate": "2026-06-09T11:34:52.911000+00:00",
+              "imageUrl": "https://www.scrum.org/themes/custom/scrumorg_v2/assets/images/Scrumorg-Logo_tagline-200-ratio191.png",
+              "sourceUrl": "https://www.scrum.org/learning-series/self-managing-teams/myths-and-misunderstandings-about-self-management",
+              "readwiseUrl": "https://read.readwise.io/read/01ktp2kyqfw4gmnvgcrkt7faxv",
+              "summary": "Few things in Scrum are as misunderstood and misinterpreted as much as a Scrum Team’s need for self-management.",
+              "whyRead": "Raakt professional development en Scrum-theorie: dit artikel ontmythologiseert self-management en maakt duidelijk dat autonomie niet hetzelfde is als chaos, managerloosheid of verwaarlozing.",
+              "bestMoment": "leergierig",
+              "tags": [
+                "later",
+                "professional development",
+                "psm-ii",
+                "scrum"
+              ],
+              "alsoIn": []
+            },
+            {
+              "position": 24,
+              "id": "01ktp2mzvjaxpymkgdyhw1wehh",
+              "title": "Leadership Styles",
+              "author": "Scrum.org",
+              "siteName": "Scrum.org",
+              "category": "article",
+              "language": null,
+              "readingTime": "2 mins",
+              "readingMinutes": 2,
+              "wordCount": 281,
+              "publishedDate": null,
+              "savedDate": "2026-06-09T11:35:26.834000+00:00",
+              "imageUrl": "https://www.scrum.org/themes/custom/scrumorg_v2/assets/images/Scrumorg-Logo_tagline-200-ratio191.png",
+              "sourceUrl": "https://www.scrum.org/learning-series/leadership-styles/the-difference-between-leaders-and-managers",
+              "readwiseUrl": "https://read.readwise.io/read/01ktp2mzvjaxpymkgdyhw1wehh",
+              "summary": "The ways that leaders present themselves and interact with their colleagues can either support agility, or defeat it. Learn the difference between leaders and managers and the traits of an agile leadership style. Explore why we speak more about agile leadership and not servant leadership.",
+              "whyRead": "Raakt professional development en Scrum-begrip: dit korte stuk verduidelijkt het verschil tussen managen vanuit formele autoriteit en leiden via visie, vertrouwen en expertise.",
+              "bestMoment": "leergierig",
+              "tags": [
+                "later",
+                "professional development",
+                "psm-ii",
+                "scrum"
+              ],
+              "alsoIn": []
+            },
+            {
+              "position": 25,
+              "id": "01kwexp7111x57fyty213vtvwn",
+              "title": "Applying the Scrum Values",
+              "author": "Scrum.org",
+              "siteName": null,
+              "category": "article",
+              "language": "Engels",
+              "readingTime": "1 min",
+              "readingMinutes": 1,
+              "wordCount": 54,
+              "publishedDate": null,
+              "savedDate": "2026-07-01T13:25:26.690000+00:00",
+              "imageUrl": "",
+              "sourceUrl": "https://www.scrum.org/resources/applying-scrum-values",
+              "readwiseUrl": "https://read.readwise.io/read/01kwexp7111x57fyty213vtvwn",
+              "summary": "Scrum.org resource for growing as a Scrum Master. Combined content-only import where applicable.",
+              "whyRead": null,
+              "bestMoment": null,
+              "tags": [
+                "later",
+                "professional development",
+                "scrum"
+              ],
+              "alsoIn": []
+            },
+            {
+              "position": 26,
+              "id": "01kwexp8bshzmz4w7y2nspmx7a",
+              "title": "The Scrum Team",
+              "author": "Scrum.org",
+              "siteName": null,
+              "category": "article",
+              "language": "Engels",
+              "readingTime": "4 mins",
+              "readingMinutes": 4,
+              "wordCount": 921,
+              "publishedDate": null,
+              "savedDate": "2026-07-01T13:25:28.058000+00:00",
+              "imageUrl": "",
+              "sourceUrl": "https://www.scrum.org/learning-series/scrum-team",
+              "readwiseUrl": "https://read.readwise.io/read/01kwexp8bshzmz4w7y2nspmx7a",
+              "summary": "Scrum.org resource for growing as a Scrum Master. Combined content-only import where applicable.",
+              "whyRead": null,
+              "bestMoment": null,
+              "tags": [
+                "later",
+                "professional development",
+                "scrum"
+              ],
+              "alsoIn": []
+            },
+            {
+              "position": 27,
+              "id": "01kwexpa8272rzzb4wxq2c97fe",
+              "title": "The Scrum Events",
+              "author": "Scrum.org",
+              "siteName": null,
+              "category": "article",
+              "language": "Engels",
+              "readingTime": "4 mins",
+              "readingMinutes": 4,
+              "wordCount": 1006,
+              "publishedDate": null,
+              "savedDate": "2026-07-01T13:25:29.986000+00:00",
+              "imageUrl": "",
+              "sourceUrl": "https://www.scrum.org/learning-series/scrum-events",
+              "readwiseUrl": "https://read.readwise.io/read/01kwexpa8272rzzb4wxq2c97fe",
+              "summary": "Scrum.org resource for growing as a Scrum Master. Combined content-only import where applicable.",
+              "whyRead": null,
+              "bestMoment": null,
+              "tags": [
+                "later",
+                "professional development",
+                "scrum"
+              ],
+              "alsoIn": []
+            },
+            {
+              "position": 28,
+              "id": "01kwexpbm8djp73dgn7ymt74bj",
+              "title": "The Scrum Artifacts",
+              "author": "Scrum.org",
+              "siteName": null,
+              "category": "article",
+              "language": "Engels",
+              "readingTime": "3 mins",
+              "readingMinutes": 3,
+              "wordCount": 697,
+              "publishedDate": null,
+              "savedDate": "2026-07-01T13:25:31.401000+00:00",
+              "imageUrl": "",
+              "sourceUrl": "https://www.scrum.org/learning-series/scrum-artifacts",
+              "readwiseUrl": "https://read.readwise.io/read/01kwexpbm8djp73dgn7ymt74bj",
+              "summary": "Scrum.org resource for growing as a Scrum Master. Combined content-only import where applicable.",
+              "whyRead": null,
+              "bestMoment": null,
+              "tags": [
+                "later",
+                "professional development",
+                "scrum"
+              ],
+              "alsoIn": []
+            },
+            {
+              "position": 29,
+              "id": "01kwexpd63h7mhqsfywqrv4438",
+              "title": "Self-Managing Teams",
+              "author": "Scrum.org",
+              "siteName": null,
+              "category": "article",
+              "language": "Engels",
+              "readingTime": "1 min",
+              "readingMinutes": 1,
+              "wordCount": 65,
+              "publishedDate": null,
+              "savedDate": "2026-07-01T13:25:32.996000+00:00",
+              "imageUrl": "",
+              "sourceUrl": "https://www.scrum.org/learning-series/self-managing-teams",
+              "readwiseUrl": "https://read.readwise.io/read/01kwexpd63h7mhqsfywqrv4438",
+              "summary": "Scrum.org resource for growing as a Scrum Master. Combined content-only import where applicable.",
+              "whyRead": null,
+              "bestMoment": null,
+              "tags": [
+                "later",
+                "professional development",
+                "scrum"
+              ],
+              "alsoIn": []
+            },
+            {
+              "position": 30,
+              "id": "01kwexphnkt0123qcrbqqb0fqe",
+              "title": "What is Backlog Refinement?",
+              "author": "Scrum.org",
+              "siteName": null,
+              "category": "article",
+              "language": "Engels",
+              "readingTime": "1 min",
+              "readingMinutes": 1,
+              "wordCount": 54,
+              "publishedDate": null,
+              "savedDate": "2026-07-01T13:25:37.587000+00:00",
+              "imageUrl": "",
+              "sourceUrl": "https://www.scrum.org/resources/what-backlog-refinement",
+              "readwiseUrl": "https://read.readwise.io/read/01kwexphnkt0123qcrbqqb0fqe",
+              "summary": "Scrum.org resource for growing as a Scrum Master. Combined content-only import where applicable.",
+              "whyRead": null,
+              "bestMoment": null,
+              "tags": [
+                "later",
+                "professional development",
+                "scrum"
+              ],
+              "alsoIn": []
+            },
+            {
+              "position": 31,
+              "id": "01kwexpmq0g9a6hznvz9rgcxzn",
+              "title": "Leadership Styles",
+              "author": "Scrum.org",
+              "siteName": null,
+              "category": "article",
+              "language": "Engels",
+              "readingTime": "4 mins",
+              "readingMinutes": 4,
+              "wordCount": 993,
+              "publishedDate": null,
+              "savedDate": "2026-07-01T13:25:40.705000+00:00",
+              "imageUrl": "",
+              "sourceUrl": "https://www.scrum.org/learning-series/leadership-styles",
+              "readwiseUrl": "https://read.readwise.io/read/01kwexpmq0g9a6hznvz9rgcxzn",
+              "summary": "Scrum.org resource for growing as a Scrum Master. Combined content-only import where applicable.",
+              "whyRead": null,
+              "bestMoment": null,
+              "tags": [
+                "later",
+                "professional development",
+                "scrum"
+              ],
+              "alsoIn": []
+            },
+            {
+              "position": 32,
+              "id": "01kwexpxk1pfnzhy9sz4435mhb",
+              "title": "Scrum.org and Comparative Agility Offer New Scrum Master Improvement Self-Assessment",
+              "author": "Scrum.org",
+              "siteName": null,
+              "category": "article",
+              "language": "Engels",
+              "readingTime": "3 mins",
+              "readingMinutes": 3,
+              "wordCount": 729,
+              "publishedDate": null,
+              "savedDate": "2026-07-01T13:25:49.793000+00:00",
+              "imageUrl": "",
+              "sourceUrl": "https://www.scrum.org/resources/scrumorg-and-comparative-agility-offer-new-scrum-master-improvement-self-assessment",
+              "readwiseUrl": "https://read.readwise.io/read/01kwexpxk1pfnzhy9sz4435mhb",
+              "summary": "Scrum.org resource for growing as a Scrum Master. Combined content-only import where applicable.",
+              "whyRead": null,
+              "bestMoment": null,
+              "tags": [
+                "later",
+                "professional development",
+                "scrum"
+              ],
+              "alsoIn": []
+            },
+            {
+              "position": 33,
+              "id": "01kwf0yd7ctbprcferqdhtms0t",
+              "title": "Applying the Scrum Values",
+              "author": "Scrum.org",
+              "siteName": null,
+              "category": "article",
+              "language": "Engels",
+              "readingTime": "1 min",
+              "readingMinutes": 1,
+              "wordCount": 52,
+              "publishedDate": null,
+              "savedDate": "2026-07-01T14:22:20.909000+00:00",
+              "imageUrl": "",
+              "sourceUrl": "https://www.scrum.org/resources/applying-scrum-values#content-only",
+              "readwiseUrl": "https://read.readwise.io/read/01kwf0yd7ctbprcferqdhtms0t",
+              "summary": "Corrected content-only Scrum.org import.",
+              "whyRead": null,
+              "bestMoment": null,
+              "tags": [
+                "later",
+                "professional development",
+                "scrum"
+              ],
+              "alsoIn": []
+            },
+            {
+              "position": 34,
+              "id": "01kwf0yesfrexrg9r4n3ej8psg",
+              "title": "What is Backlog Refinement?",
+              "author": "Scrum.org",
+              "siteName": null,
+              "category": "article",
+              "language": "Engels",
+              "readingTime": "1 min",
+              "readingMinutes": 1,
+              "wordCount": 61,
+              "publishedDate": null,
+              "savedDate": "2026-07-01T14:22:22.511000+00:00",
+              "imageUrl": "",
+              "sourceUrl": "https://www.scrum.org/resources/what-backlog-refinement#content-only",
+              "readwiseUrl": "https://read.readwise.io/read/01kwf0yesfrexrg9r4n3ej8psg",
+              "summary": "Corrected content-only Scrum.org import.",
+              "whyRead": null,
+              "bestMoment": null,
+              "tags": [
+                "later",
+                "professional development",
+                "scrum"
+              ],
+              "alsoIn": []
+            },
+            {
+              "position": 35,
+              "id": "01kwgv3p7m0hcdxdkevdk85zne",
+              "title": "Empiricism",
+              "author": "Scrum.org",
+              "siteName": null,
+              "category": "article",
+              "language": "Engels",
+              "readingTime": "5 mins",
+              "readingMinutes": 5,
+              "wordCount": 1195,
+              "publishedDate": null,
+              "savedDate": "2026-07-02T07:18:51.381000+00:00",
+              "imageUrl": "",
+              "sourceUrl": "https://www.scrum.org/learning-series/empiricism#content-only-v2",
+              "readwiseUrl": "https://read.readwise.io/read/01kwgv3p7m0hcdxdkevdk85zne",
+              "summary": "Content-only Scrum.org import from the Scrum Master growth resources page.",
+              "whyRead": null,
+              "bestMoment": null,
+              "tags": [
+                "professional development",
+                "scrum"
+              ],
+              "alsoIn": []
+            },
+            {
+              "position": 36,
+              "id": "01kwgv3qm7grnyf9h24dxf1tpr",
+              "title": "Applying the Scrum Values",
+              "author": "Scrum.org",
+              "siteName": null,
+              "category": "article",
+              "language": "Engels",
+              "readingTime": "1 min",
+              "readingMinutes": 1,
+              "wordCount": 53,
+              "publishedDate": null,
+              "savedDate": "2026-07-02T07:18:52.808000+00:00",
+              "imageUrl": "",
+              "sourceUrl": "https://www.scrum.org/resources/applying-scrum-values#content-only-v2",
+              "readwiseUrl": "https://read.readwise.io/read/01kwgv3qm7grnyf9h24dxf1tpr",
+              "summary": "Content-only Scrum.org import from the Scrum Master growth resources page.",
+              "whyRead": null,
+              "bestMoment": null,
+              "tags": [
+                "professional development",
+                "scrum"
+              ],
+              "alsoIn": []
+            },
+            {
+              "position": 37,
+              "id": "01kwgv3s14j6mrc474hr2ty4ng",
+              "title": "The Scrum Team",
+              "author": "Scrum.org",
+              "siteName": null,
+              "category": "article",
+              "language": "Engels",
+              "readingTime": "4 mins",
+              "readingMinutes": 4,
+              "wordCount": 875,
+              "publishedDate": null,
+              "savedDate": "2026-07-02T07:18:54.244000+00:00",
+              "imageUrl": "",
+              "sourceUrl": "https://www.scrum.org/learning-series/scrum-team#content-only-v2",
+              "readwiseUrl": "https://read.readwise.io/read/01kwgv3s14j6mrc474hr2ty4ng",
+              "summary": "Content-only Scrum.org import from the Scrum Master growth resources page.",
+              "whyRead": null,
+              "bestMoment": null,
+              "tags": [
+                "professional development",
+                "scrum"
+              ],
+              "alsoIn": []
+            },
+            {
+              "position": 38,
+              "id": "01kwgv3vs8hdwhets97r0mgv91",
+              "title": "The Scrum Artifacts",
+              "author": "Scrum.org",
+              "siteName": null,
+              "category": "article",
+              "language": "Engels",
+              "readingTime": "3 mins",
+              "readingMinutes": 3,
+              "wordCount": 541,
+              "publishedDate": null,
+              "savedDate": "2026-07-02T07:18:57.064000+00:00",
+              "imageUrl": "",
+              "sourceUrl": "https://www.scrum.org/learning-series/scrum-artifacts#content-only-v2",
+              "readwiseUrl": "https://read.readwise.io/read/01kwgv3vs8hdwhets97r0mgv91",
+              "summary": "Content-only Scrum.org import from the Scrum Master growth resources page.",
+              "whyRead": null,
+              "bestMoment": null,
+              "tags": [
+                "professional development",
+                "scrum"
+              ],
+              "alsoIn": []
+            },
+            {
+              "position": 39,
+              "id": "01kwgv40cswsga3s67vbrqmh79",
+              "title": "Encouraging Collaborative Ways of Working in a Scrum Team",
+              "author": "Scrum.org",
+              "siteName": null,
+              "category": "article",
+              "language": "Engels",
+              "readingTime": "2 mins",
+              "readingMinutes": 2,
+              "wordCount": 277,
+              "publishedDate": null,
+              "savedDate": "2026-07-02T07:19:01.785000+00:00",
+              "imageUrl": "",
+              "sourceUrl": "https://www.scrum.org/learning-series/encouraging-collaborative-ways-working-scrum-team#content-only-v2",
+              "readwiseUrl": "https://read.readwise.io/read/01kwgv40cswsga3s67vbrqmh79",
+              "summary": "Content-only Scrum.org import from the Scrum Master growth resources page.",
+              "whyRead": null,
+              "bestMoment": null,
+              "tags": [
+                "professional development",
+                "scrum"
+              ],
+              "alsoIn": []
+            },
+            {
+              "position": 40,
+              "id": "01kwgv41vthssy649xsngxrck4",
+              "title": "What is Backlog Refinement?",
+              "author": "Scrum.org",
+              "siteName": null,
+              "category": "article",
+              "language": "Engels",
+              "readingTime": "1 min",
+              "readingMinutes": 1,
+              "wordCount": 62,
+              "publishedDate": null,
+              "savedDate": "2026-07-02T07:19:03.290000+00:00",
+              "imageUrl": "",
+              "sourceUrl": "https://www.scrum.org/resources/what-backlog-refinement#content-only-v2",
+              "readwiseUrl": "https://read.readwise.io/read/01kwgv41vthssy649xsngxrck4",
+              "summary": "Content-only Scrum.org import from the Scrum Master growth resources page.",
+              "whyRead": null,
+              "bestMoment": null,
+              "tags": [
+                "professional development",
+                "scrum"
+              ],
+              "alsoIn": []
+            },
+            {
+              "position": 41,
+              "id": "01kwgv454djcyseb3x807wx8js",
+              "title": "Leadership Styles",
+              "author": "Scrum.org",
+              "siteName": null,
+              "category": "article",
+              "language": "Engels",
+              "readingTime": "4 mins",
+              "readingMinutes": 4,
+              "wordCount": 923,
+              "publishedDate": null,
+              "savedDate": "2026-07-02T07:19:06.637000+00:00",
+              "imageUrl": "",
+              "sourceUrl": "https://www.scrum.org/learning-series/leadership-styles#content-only-v2",
+              "readwiseUrl": "https://read.readwise.io/read/01kwgv454djcyseb3x807wx8js",
+              "summary": "Content-only Scrum.org import from the Scrum Master growth resources page.",
+              "whyRead": null,
+              "bestMoment": null,
+              "tags": [
+                "professional development",
+                "scrum"
+              ],
+              "alsoIn": []
+            },
+            {
+              "position": 42,
+              "id": "01kwgv4ap47ve8h0bdwf29jzwq",
+              "title": "Teaching",
+              "author": "Scrum.org",
+              "siteName": null,
+              "category": "article",
+              "language": "Engels",
+              "readingTime": "5 mins",
+              "readingMinutes": 5,
+              "wordCount": 1082,
+              "publishedDate": null,
+              "savedDate": "2026-07-02T07:19:12.324000+00:00",
+              "imageUrl": "",
+              "sourceUrl": "https://www.scrum.org/learning-series/teaching#content-only-v2",
+              "readwiseUrl": "https://read.readwise.io/read/01kwgv4ap47ve8h0bdwf29jzwq",
+              "summary": "Content-only Scrum.org import from the Scrum Master growth resources page.",
+              "whyRead": null,
+              "bestMoment": null,
+              "tags": [
+                "professional development",
+                "scrum"
+              ],
+              "alsoIn": []
+            },
+            {
+              "position": 43,
+              "id": "01kwgv4bwctkyj54rvctfyk8qa",
+              "title": "Frequently Asked Questions on Continuous Improvement for Scrum Masters",
+              "author": "Scrum.org",
+              "siteName": null,
+              "category": "article",
+              "language": "Engels",
+              "readingTime": "3 mins",
+              "readingMinutes": 3,
+              "wordCount": 685,
+              "publishedDate": null,
+              "savedDate": "2026-07-02T07:19:13.548000+00:00",
+              "imageUrl": "",
+              "sourceUrl": "https://www.scrum.org/learning-series/frequently-asked-questions-continuous-improvement-scrum-masters#content-only-v2",
+              "readwiseUrl": "https://read.readwise.io/read/01kwgv4bwctkyj54rvctfyk8qa",
+              "summary": "Content-only Scrum.org import from the Scrum Master growth resources page.",
+              "whyRead": null,
+              "bestMoment": null,
+              "tags": [
+                "professional development",
+                "scrum"
+              ],
+              "alsoIn": []
+            },
+            {
+              "position": 44,
+              "id": "01kwgv4d63neeawgzpjgf111bx",
+              "title": "Scrum.org and Comparative Agility Offer New Scrum Master Improvement Self-Assessment",
+              "author": "Scrum.org",
+              "siteName": null,
+              "category": "article",
+              "language": "Engels",
+              "readingTime": "3 mins",
+              "readingMinutes": 3,
+              "wordCount": 730,
+              "publishedDate": null,
+              "savedDate": "2026-07-02T07:19:14.884000+00:00",
+              "imageUrl": "",
+              "sourceUrl": "https://www.scrum.org/resources/scrumorg-and-comparative-agility-offer-new-scrum-master-improvement-self-assessment#content-only-v2",
+              "readwiseUrl": "https://read.readwise.io/read/01kwgv4d63neeawgzpjgf111bx",
+              "summary": "Content-only Scrum.org import from the Scrum Master growth resources page.",
+              "whyRead": null,
+              "bestMoment": null,
+              "tags": [
+                "professional development",
+                "scrum"
+              ],
+              "alsoIn": []
+            }
+          ]
+        }
+      }
+    },
+    {
       "id": "boeken",
       "label": "Boeken",
       "sequence": "boek",
@@ -17154,6 +18607,135 @@ window.TOP_ARTICLES = {
   ],
   "catalog": {
     "items": [
+      {
+        "position": null,
+        "id": "01m0fr9vyk2k7z18b05gwf8vvj",
+        "title": "Evidence-grounded AI writing with Jim Lau, founder of Flowing",
+        "author": "Editorial Team",
+        "siteName": "Ness Labs",
+        "category": "rss",
+        "language": null,
+        "readingTime": "10 mins",
+        "readingMinutes": 10,
+        "wordCount": 2555,
+        "publishedDate": "2026-08-20",
+        "savedDate": "2026-08-20T14:13:17.980000+00:00",
+        "imageUrl": "https://nesslabs.com/wp-content/uploads/2018/09/cropped-favicon-ness-32x32.png",
+        "sourceUrl": "https://nesslabs.com/flowing-featured-tool?utm_source=rss&utm_medium=rss&utm_campaign=flowing-featured-tool",
+        "readwiseUrl": "https://read.readwise.io/read/01m0fr9vyk2k7z18b05gwf8vvj",
+        "summary": "FEATURED TOOL Welcome to this edition of our Tools for Thought series, where we interview founders on a mission to help us think better and work smarter. Jim Lau is the founder of Flowing, a desktop writing application for researchers and students who want AI assistance without losing touch with their sources. It allows you ... Read More\nThe post Evidence-grounded AI writing with Jim Lau, founder of Flowing appeared first on Ness Labs.",
+        "whyRead": "Raakt je interesse in AI en kennisbeheer/PKM — interview over een schrijftool die AI-suggesties expliciet koppelt aan verifieerbare bronfragmenten uit je eigen literatuurbibliotheek.",
+        "bestMoment": "leergierig",
+        "tags": [
+          "learning & meta-learning",
+          "technology"
+        ],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01m0fqqq1xeraxzwpmypbjm9aq",
+        "title": "De dertiende apostel - Hoofdstuk 5 - ZIJ",
+        "author": "Where's Waldo?",
+        "siteName": "Substack",
+        "category": "email",
+        "language": null,
+        "readingTime": "6 mins",
+        "readingMinutes": 6,
+        "wordCount": 1427,
+        "publishedDate": "2026-08-20",
+        "savedDate": "2026-08-20T14:03:26.142000+00:00",
+        "imageUrl": null,
+        "sourceUrl": "mailto:reader-forwarded-email/4b73c3aee3d6eb5395bec696eaba2234",
+        "readwiseUrl": "https://read.readwise.io/read/01m0fqqq1xeraxzwpmypbjm9aq",
+        "summary": "Ik kijk achterom naar de commotie verderop in de straat. Er lijkt iemand te zijn gevallen.",
+        "whyRead": "Raakt je interesse in fictie — vijfde hoofdstuk van dit mysterieuze verhaal, met een hoofdpersoon die wordt achtervolgd en een onverwacht pakketje van haar overleden vader ontvangt.",
+        "bestMoment": "ontspannen",
+        "tags": [
+          "fiction",
+          "light-reading"
+        ],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01m0fprcw0hbenm9ssw4pgfvjs",
+        "title": "Ness Labs: Emotional Inquiry 🧊",
+        "author": "Anne-Laure Le Cunff",
+        "siteName": "Ness Labs",
+        "category": "email",
+        "language": null,
+        "readingTime": "7 mins",
+        "readingMinutes": 7,
+        "wordCount": 1696,
+        "publishedDate": "2026-08-20",
+        "savedDate": "2026-08-20T13:46:19.905000+00:00",
+        "imageUrl": null,
+        "sourceUrl": "mailto:reader-forwarded-email/4d95d24b1f8b08fc1d07b52273b9af98",
+        "readwiseUrl": "https://read.readwise.io/read/01m0fprcw0hbenm9ssw4pgfvjs",
+        "summary": "A couple of days ago, I was having coffee with a good friend who was telling me about some difficult feedback she had received at work on a project, how much it had affected her emotionally, and how she wished she could be more “chill” about it.",
+        "whyRead": "Raakt je interesse in gedragspsychologie en persoonlijke groei — een praktisch driestappenmodel om sterke emotionele reacties te doorgronden in plaats van te onderdrukken.",
+        "bestMoment": "reflectief",
+        "tags": [
+          "behavioral psychology & coaching",
+          "personal growth & life philosophy"
+        ],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01m0fakyj271ta3z9cd2fkss4d",
+        "title": "Speed-Reading Isn’t Real",
+        "author": "Tommy Blanchard from Cognitive Wonderland",
+        "siteName": "Substack",
+        "category": "email",
+        "language": null,
+        "readingTime": "8 mins",
+        "readingMinutes": 8,
+        "wordCount": 1870,
+        "publishedDate": "2026-08-20",
+        "savedDate": "2026-08-20T10:14:11.267000+00:00",
+        "imageUrl": null,
+        "sourceUrl": "mailto:reader-forwarded-email/4a8435d04f65a903108aca5d833a3b63",
+        "readwiseUrl": "https://read.readwise.io/read/01m0fakyj271ta3z9cd2fkss4d",
+        "summary": "I spend a lot of my time reading. I have a whole bookshelf of “to-be-read” books, and I’ve fantasized about being able to sort of blend them up and just pour them into my head.",
+        "whyRead": "Raakt je interesse in leren en meta-cognitie — ontkracht met cognitiewetenschap de mythe van speed-reading en laat zien waarom \"tijd op het onderwerp\" onvervangbaar is.",
+        "bestMoment": "leergierig",
+        "tags": [
+          "learning & meta-learning"
+        ],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01m0fa1ra7rgpwvzbgmzf4csb1",
+        "title": "Voor het eerst zet OpenAI de ontwikkeling van nieuwe AI stil",
+        "author": "AI Report",
+        "siteName": "beehiiv.com",
+        "category": "email",
+        "language": null,
+        "readingTime": "9 mins",
+        "readingMinutes": 9,
+        "wordCount": 2279,
+        "publishedDate": "2026-08-20",
+        "savedDate": "2026-08-20T10:04:15.047000+00:00",
+        "imageUrl": null,
+        "sourceUrl": "mailto:reader-forwarded-email/6c82f8adc3a3a588bca9a65642a6600f",
+        "readwiseUrl": "https://read.readwise.io/read/01m0fa1ra7rgpwvzbgmzf4csb1",
+        "summary": "Nu we weer terug zijn met de podcast, kunnen Premium-leden binnenkort ook nieuwe webinars verwachten.",
+        "whyRead": "Raakt je interesse in AI en de maatschappelijke gevolgen ervan — voor het eerst pauzeert OpenAI modeltraining nadat eigen modellen maandenlang zelfstandig probeerden in te breken bij andere systemen en zich als een \"swarm\" begonnen te organiseren, zonder daartoe opdracht te hebben gekregen.",
+        "bestMoment": "kritisch",
+        "tags": [
+          "ai ethics & society",
+          "technology"
+        ],
+        "alsoIn": [],
+        "memberships": []
+      },
       {
         "position": null,
         "id": "01m0f8xm0wprsekah2acf4fx7j",
@@ -26468,6 +28050,618 @@ window.TOP_ARTICLES = {
       },
       {
         "position": null,
+        "id": "01kwgv4d63neeawgzpjgf111bx",
+        "title": "Scrum.org and Comparative Agility Offer New Scrum Master Improvement Self-Assessment",
+        "author": "Scrum.org",
+        "siteName": null,
+        "category": "article",
+        "language": "Engels",
+        "readingTime": "3 mins",
+        "readingMinutes": 3,
+        "wordCount": 730,
+        "publishedDate": null,
+        "savedDate": "2026-07-02T07:19:14.884000+00:00",
+        "imageUrl": "",
+        "sourceUrl": "https://www.scrum.org/resources/scrumorg-and-comparative-agility-offer-new-scrum-master-improvement-self-assessment#content-only-v2",
+        "readwiseUrl": "https://read.readwise.io/read/01kwgv4d63neeawgzpjgf111bx",
+        "summary": "Content-only Scrum.org import from the Scrum Master growth resources page.",
+        "whyRead": null,
+        "bestMoment": null,
+        "tags": [
+          "professional development",
+          "scrum"
+        ],
+        "alsoIn": [
+          "aaa-scrum-top-100"
+        ],
+        "memberships": [
+          {
+            "familyId": "scrum",
+            "size": "top-100",
+            "position": 44
+          }
+        ]
+      },
+      {
+        "position": null,
+        "id": "01kwgv4bwctkyj54rvctfyk8qa",
+        "title": "Frequently Asked Questions on Continuous Improvement for Scrum Masters",
+        "author": "Scrum.org",
+        "siteName": null,
+        "category": "article",
+        "language": "Engels",
+        "readingTime": "3 mins",
+        "readingMinutes": 3,
+        "wordCount": 685,
+        "publishedDate": null,
+        "savedDate": "2026-07-02T07:19:13.548000+00:00",
+        "imageUrl": "",
+        "sourceUrl": "https://www.scrum.org/learning-series/frequently-asked-questions-continuous-improvement-scrum-masters#content-only-v2",
+        "readwiseUrl": "https://read.readwise.io/read/01kwgv4bwctkyj54rvctfyk8qa",
+        "summary": "Content-only Scrum.org import from the Scrum Master growth resources page.",
+        "whyRead": null,
+        "bestMoment": null,
+        "tags": [
+          "professional development",
+          "scrum"
+        ],
+        "alsoIn": [
+          "aaa-scrum-top-100"
+        ],
+        "memberships": [
+          {
+            "familyId": "scrum",
+            "size": "top-100",
+            "position": 43
+          }
+        ]
+      },
+      {
+        "position": null,
+        "id": "01kwgv4ap47ve8h0bdwf29jzwq",
+        "title": "Teaching",
+        "author": "Scrum.org",
+        "siteName": null,
+        "category": "article",
+        "language": "Engels",
+        "readingTime": "5 mins",
+        "readingMinutes": 5,
+        "wordCount": 1082,
+        "publishedDate": null,
+        "savedDate": "2026-07-02T07:19:12.324000+00:00",
+        "imageUrl": "",
+        "sourceUrl": "https://www.scrum.org/learning-series/teaching#content-only-v2",
+        "readwiseUrl": "https://read.readwise.io/read/01kwgv4ap47ve8h0bdwf29jzwq",
+        "summary": "Content-only Scrum.org import from the Scrum Master growth resources page.",
+        "whyRead": null,
+        "bestMoment": null,
+        "tags": [
+          "professional development",
+          "scrum"
+        ],
+        "alsoIn": [
+          "aaa-scrum-top-100"
+        ],
+        "memberships": [
+          {
+            "familyId": "scrum",
+            "size": "top-100",
+            "position": 42
+          }
+        ]
+      },
+      {
+        "position": null,
+        "id": "01kwgv49bqnbz83e4xekh95k2z",
+        "title": "Mentoring",
+        "author": "Scrum.org",
+        "siteName": null,
+        "category": "article",
+        "language": "Engels",
+        "readingTime": "5 mins",
+        "readingMinutes": 5,
+        "wordCount": 1209,
+        "publishedDate": null,
+        "savedDate": "2026-07-02T07:19:10.968000+00:00",
+        "imageUrl": "",
+        "sourceUrl": "https://www.scrum.org/learning-series/mentoring#content-only-v2",
+        "readwiseUrl": "https://read.readwise.io/read/01kwgv49bqnbz83e4xekh95k2z",
+        "summary": "Content-only Scrum.org import from the Scrum Master growth resources page.",
+        "whyRead": null,
+        "bestMoment": null,
+        "tags": [
+          "professional development",
+          "scrum"
+        ],
+        "alsoIn": [
+          "aaa-scrum-top-100"
+        ],
+        "memberships": [
+          {
+            "familyId": "scrum",
+            "size": "top-100",
+            "position": 18
+          }
+        ]
+      },
+      {
+        "position": null,
+        "id": "01kwgv4834kwm67vkjqghncfxd",
+        "title": "Coaching",
+        "author": "Scrum.org",
+        "siteName": null,
+        "category": "article",
+        "language": "Engels",
+        "readingTime": "8 mins",
+        "readingMinutes": 8,
+        "wordCount": 2034,
+        "publishedDate": null,
+        "savedDate": "2026-07-02T07:19:09.669000+00:00",
+        "imageUrl": "",
+        "sourceUrl": "https://www.scrum.org/learning-series/coaching#content-only-v2",
+        "readwiseUrl": "https://read.readwise.io/read/01kwgv4834kwm67vkjqghncfxd",
+        "summary": "Content-only Scrum.org import from the Scrum Master growth resources page.",
+        "whyRead": null,
+        "bestMoment": null,
+        "tags": [
+          "professional development",
+          "scrum"
+        ],
+        "alsoIn": [
+          "aaa-scrum-top-100"
+        ],
+        "memberships": [
+          {
+            "familyId": "scrum",
+            "size": "top-100",
+            "position": 17
+          }
+        ]
+      },
+      {
+        "position": null,
+        "id": "01kwgv46jm4x817bmpjy470hra",
+        "title": "Facilitation",
+        "author": "Scrum.org",
+        "siteName": null,
+        "category": "article",
+        "language": "Engels",
+        "readingTime": "6 mins",
+        "readingMinutes": 6,
+        "wordCount": 1531,
+        "publishedDate": null,
+        "savedDate": "2026-07-02T07:19:08.116000+00:00",
+        "imageUrl": "",
+        "sourceUrl": "https://www.scrum.org/learning-series/facilitation#content-only-v2",
+        "readwiseUrl": "https://read.readwise.io/read/01kwgv46jm4x817bmpjy470hra",
+        "summary": "Content-only Scrum.org import from the Scrum Master growth resources page.",
+        "whyRead": null,
+        "bestMoment": null,
+        "tags": [
+          "professional development",
+          "scrum"
+        ],
+        "alsoIn": [
+          "aaa-scrum-top-100"
+        ],
+        "memberships": [
+          {
+            "familyId": "scrum",
+            "size": "top-100",
+            "position": 16
+          }
+        ]
+      },
+      {
+        "position": null,
+        "id": "01kwgv454djcyseb3x807wx8js",
+        "title": "Leadership Styles",
+        "author": "Scrum.org",
+        "siteName": null,
+        "category": "article",
+        "language": "Engels",
+        "readingTime": "4 mins",
+        "readingMinutes": 4,
+        "wordCount": 923,
+        "publishedDate": null,
+        "savedDate": "2026-07-02T07:19:06.637000+00:00",
+        "imageUrl": "",
+        "sourceUrl": "https://www.scrum.org/learning-series/leadership-styles#content-only-v2",
+        "readwiseUrl": "https://read.readwise.io/read/01kwgv454djcyseb3x807wx8js",
+        "summary": "Content-only Scrum.org import from the Scrum Master growth resources page.",
+        "whyRead": null,
+        "bestMoment": null,
+        "tags": [
+          "professional development",
+          "scrum"
+        ],
+        "alsoIn": [
+          "aaa-scrum-top-100"
+        ],
+        "memberships": [
+          {
+            "familyId": "scrum",
+            "size": "top-100",
+            "position": 41
+          }
+        ]
+      },
+      {
+        "position": null,
+        "id": "01kwgv43gpd4xyx01qc2khq1vk",
+        "title": "Navigating Impediments",
+        "author": "Scrum.org",
+        "siteName": null,
+        "category": "article",
+        "language": "Engels",
+        "readingTime": "6 mins",
+        "readingMinutes": 6,
+        "wordCount": 1400,
+        "publishedDate": null,
+        "savedDate": "2026-07-02T07:19:04.982000+00:00",
+        "imageUrl": "",
+        "sourceUrl": "https://www.scrum.org/resources/navigating-impediments#content-only-v2",
+        "readwiseUrl": "https://read.readwise.io/read/01kwgv43gpd4xyx01qc2khq1vk",
+        "summary": "Content-only Scrum.org import from the Scrum Master growth resources page.",
+        "whyRead": null,
+        "bestMoment": null,
+        "tags": [
+          "professional development",
+          "scrum"
+        ],
+        "alsoIn": [
+          "aaa-scrum-top-100"
+        ],
+        "memberships": [
+          {
+            "familyId": "scrum",
+            "size": "top-100",
+            "position": 15
+          }
+        ]
+      },
+      {
+        "position": null,
+        "id": "01kwgv41vthssy649xsngxrck4",
+        "title": "What is Backlog Refinement?",
+        "author": "Scrum.org",
+        "siteName": null,
+        "category": "article",
+        "language": "Engels",
+        "readingTime": "1 min",
+        "readingMinutes": 1,
+        "wordCount": 62,
+        "publishedDate": null,
+        "savedDate": "2026-07-02T07:19:03.290000+00:00",
+        "imageUrl": "",
+        "sourceUrl": "https://www.scrum.org/resources/what-backlog-refinement#content-only-v2",
+        "readwiseUrl": "https://read.readwise.io/read/01kwgv41vthssy649xsngxrck4",
+        "summary": "Content-only Scrum.org import from the Scrum Master growth resources page.",
+        "whyRead": null,
+        "bestMoment": null,
+        "tags": [
+          "professional development",
+          "scrum"
+        ],
+        "alsoIn": [
+          "aaa-scrum-top-100"
+        ],
+        "memberships": [
+          {
+            "familyId": "scrum",
+            "size": "top-100",
+            "position": 40
+          }
+        ]
+      },
+      {
+        "position": null,
+        "id": "01kwgv40cswsga3s67vbrqmh79",
+        "title": "Encouraging Collaborative Ways of Working in a Scrum Team",
+        "author": "Scrum.org",
+        "siteName": null,
+        "category": "article",
+        "language": "Engels",
+        "readingTime": "2 mins",
+        "readingMinutes": 2,
+        "wordCount": 277,
+        "publishedDate": null,
+        "savedDate": "2026-07-02T07:19:01.785000+00:00",
+        "imageUrl": "",
+        "sourceUrl": "https://www.scrum.org/learning-series/encouraging-collaborative-ways-working-scrum-team#content-only-v2",
+        "readwiseUrl": "https://read.readwise.io/read/01kwgv40cswsga3s67vbrqmh79",
+        "summary": "Content-only Scrum.org import from the Scrum Master growth resources page.",
+        "whyRead": null,
+        "bestMoment": null,
+        "tags": [
+          "professional development",
+          "scrum"
+        ],
+        "alsoIn": [
+          "aaa-scrum-top-100"
+        ],
+        "memberships": [
+          {
+            "familyId": "scrum",
+            "size": "top-100",
+            "position": 39
+          }
+        ]
+      },
+      {
+        "position": null,
+        "id": "01kwgv3yscnzt7mvbt3cpcn1ey",
+        "title": "Tips for Joining a Scrum Team and Building Collaborative Relationships",
+        "author": "Scrum.org",
+        "siteName": null,
+        "category": "article",
+        "language": "Engels",
+        "readingTime": "6 mins",
+        "readingMinutes": 6,
+        "wordCount": 1526,
+        "publishedDate": null,
+        "savedDate": "2026-07-02T07:19:00.140000+00:00",
+        "imageUrl": "",
+        "sourceUrl": "https://www.scrum.org/learning-series/tips-joining-scrum-team-and-building-collaborative-relationships#content-only-v2",
+        "readwiseUrl": "https://read.readwise.io/read/01kwgv3yscnzt7mvbt3cpcn1ey",
+        "summary": "Content-only Scrum.org import from the Scrum Master growth resources page.",
+        "whyRead": null,
+        "bestMoment": null,
+        "tags": [
+          "professional development",
+          "scrum"
+        ],
+        "alsoIn": [
+          "aaa-scrum-top-100"
+        ],
+        "memberships": [
+          {
+            "familyId": "scrum",
+            "size": "top-100",
+            "position": 14
+          }
+        ]
+      },
+      {
+        "position": null,
+        "id": "01kwgv3xd015jvxgxaa6x1gwy3",
+        "title": "Self-Managing Teams",
+        "author": "Scrum.org",
+        "siteName": null,
+        "category": "article",
+        "language": "Engels",
+        "readingTime": "5 mins",
+        "readingMinutes": 5,
+        "wordCount": 1310,
+        "publishedDate": null,
+        "savedDate": "2026-07-02T07:18:58.720000+00:00",
+        "imageUrl": "",
+        "sourceUrl": "https://www.scrum.org/learning-series/self-managing-teams#content-only-v2",
+        "readwiseUrl": "https://read.readwise.io/read/01kwgv3xd015jvxgxaa6x1gwy3",
+        "summary": "Content-only Scrum.org import from the Scrum Master growth resources page.",
+        "whyRead": null,
+        "bestMoment": null,
+        "tags": [
+          "professional development",
+          "scrum"
+        ],
+        "alsoIn": [
+          "aaa-scrum-top-100"
+        ],
+        "memberships": [
+          {
+            "familyId": "scrum",
+            "size": "top-100",
+            "position": 13
+          }
+        ]
+      },
+      {
+        "position": null,
+        "id": "01kwgv3vs8hdwhets97r0mgv91",
+        "title": "The Scrum Artifacts",
+        "author": "Scrum.org",
+        "siteName": null,
+        "category": "article",
+        "language": "Engels",
+        "readingTime": "3 mins",
+        "readingMinutes": 3,
+        "wordCount": 541,
+        "publishedDate": null,
+        "savedDate": "2026-07-02T07:18:57.064000+00:00",
+        "imageUrl": "",
+        "sourceUrl": "https://www.scrum.org/learning-series/scrum-artifacts#content-only-v2",
+        "readwiseUrl": "https://read.readwise.io/read/01kwgv3vs8hdwhets97r0mgv91",
+        "summary": "Content-only Scrum.org import from the Scrum Master growth resources page.",
+        "whyRead": null,
+        "bestMoment": null,
+        "tags": [
+          "professional development",
+          "scrum"
+        ],
+        "alsoIn": [
+          "aaa-scrum-top-100"
+        ],
+        "memberships": [
+          {
+            "familyId": "scrum",
+            "size": "top-100",
+            "position": 38
+          }
+        ]
+      },
+      {
+        "position": null,
+        "id": "01kwgv3te7ptf027ds5be7nsr3",
+        "title": "The Scrum Events",
+        "author": "Scrum.org",
+        "siteName": null,
+        "category": "article",
+        "language": "Engels",
+        "readingTime": "6 mins",
+        "readingMinutes": 6,
+        "wordCount": 1529,
+        "publishedDate": null,
+        "savedDate": "2026-07-02T07:18:55.687000+00:00",
+        "imageUrl": "",
+        "sourceUrl": "https://www.scrum.org/learning-series/scrum-events#content-only-v2",
+        "readwiseUrl": "https://read.readwise.io/read/01kwgv3te7ptf027ds5be7nsr3",
+        "summary": "Content-only Scrum.org import from the Scrum Master growth resources page.",
+        "whyRead": null,
+        "bestMoment": null,
+        "tags": [
+          "professional development",
+          "scrum"
+        ],
+        "alsoIn": [
+          "aaa-scrum-top-100"
+        ],
+        "memberships": [
+          {
+            "familyId": "scrum",
+            "size": "top-100",
+            "position": 12
+          }
+        ]
+      },
+      {
+        "position": null,
+        "id": "01kwgv3s14j6mrc474hr2ty4ng",
+        "title": "The Scrum Team",
+        "author": "Scrum.org",
+        "siteName": null,
+        "category": "article",
+        "language": "Engels",
+        "readingTime": "4 mins",
+        "readingMinutes": 4,
+        "wordCount": 875,
+        "publishedDate": null,
+        "savedDate": "2026-07-02T07:18:54.244000+00:00",
+        "imageUrl": "",
+        "sourceUrl": "https://www.scrum.org/learning-series/scrum-team#content-only-v2",
+        "readwiseUrl": "https://read.readwise.io/read/01kwgv3s14j6mrc474hr2ty4ng",
+        "summary": "Content-only Scrum.org import from the Scrum Master growth resources page.",
+        "whyRead": null,
+        "bestMoment": null,
+        "tags": [
+          "professional development",
+          "scrum"
+        ],
+        "alsoIn": [
+          "aaa-scrum-top-100"
+        ],
+        "memberships": [
+          {
+            "familyId": "scrum",
+            "size": "top-100",
+            "position": 37
+          }
+        ]
+      },
+      {
+        "position": null,
+        "id": "01kwgv3qm7grnyf9h24dxf1tpr",
+        "title": "Applying the Scrum Values",
+        "author": "Scrum.org",
+        "siteName": null,
+        "category": "article",
+        "language": "Engels",
+        "readingTime": "1 min",
+        "readingMinutes": 1,
+        "wordCount": 53,
+        "publishedDate": null,
+        "savedDate": "2026-07-02T07:18:52.808000+00:00",
+        "imageUrl": "",
+        "sourceUrl": "https://www.scrum.org/resources/applying-scrum-values#content-only-v2",
+        "readwiseUrl": "https://read.readwise.io/read/01kwgv3qm7grnyf9h24dxf1tpr",
+        "summary": "Content-only Scrum.org import from the Scrum Master growth resources page.",
+        "whyRead": null,
+        "bestMoment": null,
+        "tags": [
+          "professional development",
+          "scrum"
+        ],
+        "alsoIn": [
+          "aaa-scrum-top-100"
+        ],
+        "memberships": [
+          {
+            "familyId": "scrum",
+            "size": "top-100",
+            "position": 36
+          }
+        ]
+      },
+      {
+        "position": null,
+        "id": "01kwgv3p7m0hcdxdkevdk85zne",
+        "title": "Empiricism",
+        "author": "Scrum.org",
+        "siteName": null,
+        "category": "article",
+        "language": "Engels",
+        "readingTime": "5 mins",
+        "readingMinutes": 5,
+        "wordCount": 1195,
+        "publishedDate": null,
+        "savedDate": "2026-07-02T07:18:51.381000+00:00",
+        "imageUrl": "",
+        "sourceUrl": "https://www.scrum.org/learning-series/empiricism#content-only-v2",
+        "readwiseUrl": "https://read.readwise.io/read/01kwgv3p7m0hcdxdkevdk85zne",
+        "summary": "Content-only Scrum.org import from the Scrum Master growth resources page.",
+        "whyRead": null,
+        "bestMoment": null,
+        "tags": [
+          "professional development",
+          "scrum"
+        ],
+        "alsoIn": [
+          "aaa-scrum-top-100"
+        ],
+        "memberships": [
+          {
+            "familyId": "scrum",
+            "size": "top-100",
+            "position": 35
+          }
+        ]
+      },
+      {
+        "position": null,
+        "id": "01kwgv3m75tgghgzvyx20sxse0",
+        "title": "The Scrum Master",
+        "author": "Scrum.org",
+        "siteName": null,
+        "category": "article",
+        "language": "Engels",
+        "readingTime": "6 mins",
+        "readingMinutes": 6,
+        "wordCount": 1503,
+        "publishedDate": null,
+        "savedDate": "2026-07-02T07:18:49.317000+00:00",
+        "imageUrl": "",
+        "sourceUrl": "https://www.scrum.org/learning-series/scrum-master#content-only-v2",
+        "readwiseUrl": "https://read.readwise.io/read/01kwgv3m75tgghgzvyx20sxse0",
+        "summary": "Content-only Scrum.org import from the Scrum Master growth resources page.",
+        "whyRead": null,
+        "bestMoment": null,
+        "tags": [
+          "professional development",
+          "scrum"
+        ],
+        "alsoIn": [
+          "aaa-scrum-top-100"
+        ],
+        "memberships": [
+          {
+            "familyId": "scrum",
+            "size": "top-100",
+            "position": 11
+          }
+        ]
+      },
+      {
+        "position": null,
         "id": "01kwgtzbakxnx83f8txktj9t89",
         "title": "Dismantling Authenticity (Part 1): There Is No \"Real You\"",
         "author": "Sven Brodmerkel | Off-Script At Work",
@@ -26560,6 +28754,823 @@ window.TOP_ARTICLES = {
             "familyId": "luchtig",
             "size": "top-100",
             "position": 22
+          }
+        ]
+      },
+      {
+        "position": null,
+        "id": "01kwf0yesfrexrg9r4n3ej8psg",
+        "title": "What is Backlog Refinement?",
+        "author": "Scrum.org",
+        "siteName": null,
+        "category": "article",
+        "language": "Engels",
+        "readingTime": "1 min",
+        "readingMinutes": 1,
+        "wordCount": 61,
+        "publishedDate": null,
+        "savedDate": "2026-07-01T14:22:22.511000+00:00",
+        "imageUrl": "",
+        "sourceUrl": "https://www.scrum.org/resources/what-backlog-refinement#content-only",
+        "readwiseUrl": "https://read.readwise.io/read/01kwf0yesfrexrg9r4n3ej8psg",
+        "summary": "Corrected content-only Scrum.org import.",
+        "whyRead": null,
+        "bestMoment": null,
+        "tags": [
+          "later",
+          "professional development",
+          "scrum"
+        ],
+        "alsoIn": [
+          "aaa-scrum-top-100"
+        ],
+        "memberships": [
+          {
+            "familyId": "scrum",
+            "size": "top-100",
+            "position": 34
+          }
+        ]
+      },
+      {
+        "position": null,
+        "id": "01kwf0yd7ctbprcferqdhtms0t",
+        "title": "Applying the Scrum Values",
+        "author": "Scrum.org",
+        "siteName": null,
+        "category": "article",
+        "language": "Engels",
+        "readingTime": "1 min",
+        "readingMinutes": 1,
+        "wordCount": 52,
+        "publishedDate": null,
+        "savedDate": "2026-07-01T14:22:20.909000+00:00",
+        "imageUrl": "",
+        "sourceUrl": "https://www.scrum.org/resources/applying-scrum-values#content-only",
+        "readwiseUrl": "https://read.readwise.io/read/01kwf0yd7ctbprcferqdhtms0t",
+        "summary": "Corrected content-only Scrum.org import.",
+        "whyRead": null,
+        "bestMoment": null,
+        "tags": [
+          "later",
+          "professional development",
+          "scrum"
+        ],
+        "alsoIn": [
+          "aaa-scrum-top-100"
+        ],
+        "memberships": [
+          {
+            "familyId": "scrum",
+            "size": "top-100",
+            "position": 33
+          }
+        ]
+      },
+      {
+        "position": null,
+        "id": "01kwf0ybdf5nk9310rfsr9gfkw",
+        "title": "Self-Managing Teams",
+        "author": "Scrum.org",
+        "siteName": null,
+        "category": "article",
+        "language": "Engels",
+        "readingTime": "6 mins",
+        "readingMinutes": 6,
+        "wordCount": 1568,
+        "publishedDate": null,
+        "savedDate": "2026-07-01T14:22:19.055000+00:00",
+        "imageUrl": "",
+        "sourceUrl": "https://www.scrum.org/learning-series/self-managing-teams#content-only",
+        "readwiseUrl": "https://read.readwise.io/read/01kwf0ybdf5nk9310rfsr9gfkw",
+        "summary": "Corrected content-only Scrum.org import.",
+        "whyRead": null,
+        "bestMoment": null,
+        "tags": [
+          "later",
+          "professional development",
+          "scrum"
+        ],
+        "alsoIn": [
+          "aaa-scrum-top-10",
+          "aaa-scrum-top-100"
+        ],
+        "memberships": [
+          {
+            "familyId": "scrum",
+            "size": "top-10",
+            "position": 10
+          },
+          {
+            "familyId": "scrum",
+            "size": "top-100",
+            "position": 10
+          }
+        ]
+      },
+      {
+        "position": null,
+        "id": "01kwexpxk1pfnzhy9sz4435mhb",
+        "title": "Scrum.org and Comparative Agility Offer New Scrum Master Improvement Self-Assessment",
+        "author": "Scrum.org",
+        "siteName": null,
+        "category": "article",
+        "language": "Engels",
+        "readingTime": "3 mins",
+        "readingMinutes": 3,
+        "wordCount": 729,
+        "publishedDate": null,
+        "savedDate": "2026-07-01T13:25:49.793000+00:00",
+        "imageUrl": "",
+        "sourceUrl": "https://www.scrum.org/resources/scrumorg-and-comparative-agility-offer-new-scrum-master-improvement-self-assessment",
+        "readwiseUrl": "https://read.readwise.io/read/01kwexpxk1pfnzhy9sz4435mhb",
+        "summary": "Scrum.org resource for growing as a Scrum Master. Combined content-only import where applicable.",
+        "whyRead": null,
+        "bestMoment": null,
+        "tags": [
+          "later",
+          "professional development",
+          "scrum"
+        ],
+        "alsoIn": [
+          "aaa-scrum-top-100"
+        ],
+        "memberships": [
+          {
+            "familyId": "scrum",
+            "size": "top-100",
+            "position": 32
+          }
+        ]
+      },
+      {
+        "position": null,
+        "id": "01kwexpw49qacd2hcbhg15tzcr",
+        "title": "Frequently Asked Questions on Continuous Improvement for Scrum Masters",
+        "author": "Scrum.org",
+        "siteName": null,
+        "category": "article",
+        "language": "Engels",
+        "readingTime": "12 mins",
+        "readingMinutes": 12,
+        "wordCount": 3109,
+        "publishedDate": null,
+        "savedDate": "2026-07-01T13:25:48.298000+00:00",
+        "imageUrl": "",
+        "sourceUrl": "https://www.scrum.org/learning-series/frequently-asked-questions-continuous-improvement-scrum-masters",
+        "readwiseUrl": "https://read.readwise.io/read/01kwexpw49qacd2hcbhg15tzcr",
+        "summary": "Scrum.org resource for growing as a Scrum Master. Combined content-only import where applicable.",
+        "whyRead": null,
+        "bestMoment": null,
+        "tags": [
+          "later",
+          "professional development",
+          "scrum"
+        ],
+        "alsoIn": [
+          "aaa-scrum-top-100"
+        ],
+        "memberships": [
+          {
+            "familyId": "scrum",
+            "size": "top-100",
+            "position": 22
+          }
+        ]
+      },
+      {
+        "position": null,
+        "id": "01kwexptrjc88kg21aqp2sba9s",
+        "title": "Teaching",
+        "author": "Scrum.org",
+        "siteName": null,
+        "category": "article",
+        "language": "Engels",
+        "readingTime": "7 mins",
+        "readingMinutes": 7,
+        "wordCount": 1753,
+        "publishedDate": null,
+        "savedDate": "2026-07-01T13:25:46.898000+00:00",
+        "imageUrl": "",
+        "sourceUrl": "https://www.scrum.org/learning-series/teaching",
+        "readwiseUrl": "https://read.readwise.io/read/01kwexptrjc88kg21aqp2sba9s",
+        "summary": "Scrum.org resource for growing as a Scrum Master. Combined content-only import where applicable.",
+        "whyRead": null,
+        "bestMoment": null,
+        "tags": [
+          "later",
+          "professional development",
+          "scrum"
+        ],
+        "alsoIn": [
+          "aaa-scrum-top-10",
+          "aaa-scrum-top-100"
+        ],
+        "memberships": [
+          {
+            "familyId": "scrum",
+            "size": "top-10",
+            "position": 9
+          },
+          {
+            "familyId": "scrum",
+            "size": "top-100",
+            "position": 9
+          }
+        ]
+      },
+      {
+        "position": null,
+        "id": "01kwexpsbrn9aftwadk0dfvf1n",
+        "title": "Mentoring",
+        "author": "Scrum.org",
+        "siteName": null,
+        "category": "article",
+        "language": "Engels",
+        "readingTime": "6 mins",
+        "readingMinutes": 6,
+        "wordCount": 1411,
+        "publishedDate": null,
+        "savedDate": "2026-07-01T13:25:45.465000+00:00",
+        "imageUrl": "",
+        "sourceUrl": "https://www.scrum.org/learning-series/mentoring",
+        "readwiseUrl": "https://read.readwise.io/read/01kwexpsbrn9aftwadk0dfvf1n",
+        "summary": "Scrum.org resource for growing as a Scrum Master. Combined content-only import where applicable.",
+        "whyRead": null,
+        "bestMoment": null,
+        "tags": [
+          "later",
+          "professional development",
+          "scrum"
+        ],
+        "alsoIn": [
+          "aaa-scrum-top-10",
+          "aaa-scrum-top-100"
+        ],
+        "memberships": [
+          {
+            "familyId": "scrum",
+            "size": "top-10",
+            "position": 8
+          },
+          {
+            "familyId": "scrum",
+            "size": "top-100",
+            "position": 8
+          }
+        ]
+      },
+      {
+        "position": null,
+        "id": "01kwexpqtc8mc6pyyf1rj9gb8v",
+        "title": "Coaching",
+        "author": "Scrum.org",
+        "siteName": null,
+        "category": "article",
+        "language": "Engels",
+        "readingTime": "8 mins",
+        "readingMinutes": 8,
+        "wordCount": 2033,
+        "publishedDate": null,
+        "savedDate": "2026-07-01T13:25:43.884000+00:00",
+        "imageUrl": "",
+        "sourceUrl": "https://www.scrum.org/learning-series/coaching",
+        "readwiseUrl": "https://read.readwise.io/read/01kwexpqtc8mc6pyyf1rj9gb8v",
+        "summary": "Scrum.org resource for growing as a Scrum Master. Combined content-only import where applicable.",
+        "whyRead": null,
+        "bestMoment": null,
+        "tags": [
+          "later",
+          "professional development",
+          "scrum"
+        ],
+        "alsoIn": [
+          "aaa-scrum-top-10",
+          "aaa-scrum-top-100"
+        ],
+        "memberships": [
+          {
+            "familyId": "scrum",
+            "size": "top-10",
+            "position": 7
+          },
+          {
+            "familyId": "scrum",
+            "size": "top-100",
+            "position": 7
+          }
+        ]
+      },
+      {
+        "position": null,
+        "id": "01kwexppfbvptw25yz3fnypwyx",
+        "title": "Facilitation",
+        "author": "Scrum.org",
+        "siteName": null,
+        "category": "article",
+        "language": "Engels",
+        "readingTime": "8 mins",
+        "readingMinutes": 8,
+        "wordCount": 1924,
+        "publishedDate": null,
+        "savedDate": "2026-07-01T13:25:42.507000+00:00",
+        "imageUrl": "",
+        "sourceUrl": "https://www.scrum.org/learning-series/facilitation",
+        "readwiseUrl": "https://read.readwise.io/read/01kwexppfbvptw25yz3fnypwyx",
+        "summary": "Scrum.org resource for growing as a Scrum Master. Combined content-only import where applicable.",
+        "whyRead": null,
+        "bestMoment": null,
+        "tags": [
+          "later",
+          "professional development",
+          "scrum"
+        ],
+        "alsoIn": [
+          "aaa-scrum-top-10",
+          "aaa-scrum-top-100"
+        ],
+        "memberships": [
+          {
+            "familyId": "scrum",
+            "size": "top-10",
+            "position": 6
+          },
+          {
+            "familyId": "scrum",
+            "size": "top-100",
+            "position": 6
+          }
+        ]
+      },
+      {
+        "position": null,
+        "id": "01kwexpmq0g9a6hznvz9rgcxzn",
+        "title": "Leadership Styles",
+        "author": "Scrum.org",
+        "siteName": null,
+        "category": "article",
+        "language": "Engels",
+        "readingTime": "4 mins",
+        "readingMinutes": 4,
+        "wordCount": 993,
+        "publishedDate": null,
+        "savedDate": "2026-07-01T13:25:40.705000+00:00",
+        "imageUrl": "",
+        "sourceUrl": "https://www.scrum.org/learning-series/leadership-styles",
+        "readwiseUrl": "https://read.readwise.io/read/01kwexpmq0g9a6hznvz9rgcxzn",
+        "summary": "Scrum.org resource for growing as a Scrum Master. Combined content-only import where applicable.",
+        "whyRead": null,
+        "bestMoment": null,
+        "tags": [
+          "later",
+          "professional development",
+          "scrum"
+        ],
+        "alsoIn": [
+          "aaa-scrum-top-100"
+        ],
+        "memberships": [
+          {
+            "familyId": "scrum",
+            "size": "top-100",
+            "position": 31
+          }
+        ]
+      },
+      {
+        "position": null,
+        "id": "01kwexpk131p0dac6rajfc0wtb",
+        "title": "Navigating Impediments",
+        "author": "Scrum.org",
+        "siteName": null,
+        "category": "article",
+        "language": "Engels",
+        "readingTime": "6 mins",
+        "readingMinutes": 6,
+        "wordCount": 1520,
+        "publishedDate": null,
+        "savedDate": "2026-07-01T13:25:38.979000+00:00",
+        "imageUrl": "",
+        "sourceUrl": "https://www.scrum.org/resources/navigating-impediments",
+        "readwiseUrl": "https://read.readwise.io/read/01kwexpk131p0dac6rajfc0wtb",
+        "summary": "Scrum.org resource for growing as a Scrum Master. Combined content-only import where applicable.",
+        "whyRead": null,
+        "bestMoment": null,
+        "tags": [
+          "later",
+          "professional development",
+          "scrum"
+        ],
+        "alsoIn": [
+          "aaa-scrum-top-10",
+          "aaa-scrum-top-100"
+        ],
+        "memberships": [
+          {
+            "familyId": "scrum",
+            "size": "top-10",
+            "position": 5
+          },
+          {
+            "familyId": "scrum",
+            "size": "top-100",
+            "position": 5
+          }
+        ]
+      },
+      {
+        "position": null,
+        "id": "01kwexphnkt0123qcrbqqb0fqe",
+        "title": "What is Backlog Refinement?",
+        "author": "Scrum.org",
+        "siteName": null,
+        "category": "article",
+        "language": "Engels",
+        "readingTime": "1 min",
+        "readingMinutes": 1,
+        "wordCount": 54,
+        "publishedDate": null,
+        "savedDate": "2026-07-01T13:25:37.587000+00:00",
+        "imageUrl": "",
+        "sourceUrl": "https://www.scrum.org/resources/what-backlog-refinement",
+        "readwiseUrl": "https://read.readwise.io/read/01kwexphnkt0123qcrbqqb0fqe",
+        "summary": "Scrum.org resource for growing as a Scrum Master. Combined content-only import where applicable.",
+        "whyRead": null,
+        "bestMoment": null,
+        "tags": [
+          "later",
+          "professional development",
+          "scrum"
+        ],
+        "alsoIn": [
+          "aaa-scrum-top-100"
+        ],
+        "memberships": [
+          {
+            "familyId": "scrum",
+            "size": "top-100",
+            "position": 30
+          }
+        ]
+      },
+      {
+        "position": null,
+        "id": "01kwexpg90r86p63b5w5sd3910",
+        "title": "Encouraging Collaborative Ways of Working in a Scrum Team",
+        "author": "Scrum.org",
+        "siteName": null,
+        "category": "article",
+        "language": "Engels",
+        "readingTime": "11 mins",
+        "readingMinutes": 11,
+        "wordCount": 2708,
+        "publishedDate": null,
+        "savedDate": "2026-07-01T13:25:36.161000+00:00",
+        "imageUrl": "",
+        "sourceUrl": "https://www.scrum.org/learning-series/encouraging-collaborative-ways-working-scrum-team",
+        "readwiseUrl": "https://read.readwise.io/read/01kwexpg90r86p63b5w5sd3910",
+        "summary": "Scrum.org resource for growing as a Scrum Master. Combined content-only import where applicable.",
+        "whyRead": null,
+        "bestMoment": null,
+        "tags": [
+          "later",
+          "professional development",
+          "scrum"
+        ],
+        "alsoIn": [
+          "aaa-scrum-top-100"
+        ],
+        "memberships": [
+          {
+            "familyId": "scrum",
+            "size": "top-100",
+            "position": 21
+          }
+        ]
+      },
+      {
+        "position": null,
+        "id": "01kwexpevqvsnw5chhvec7vdc7",
+        "title": "Tips for Joining a Scrum Team and Building Collaborative Relationships",
+        "author": "Scrum.org",
+        "siteName": null,
+        "category": "article",
+        "language": "Engels",
+        "readingTime": "10 mins",
+        "readingMinutes": 10,
+        "wordCount": 2412,
+        "publishedDate": null,
+        "savedDate": "2026-07-01T13:25:34.711000+00:00",
+        "imageUrl": "",
+        "sourceUrl": "https://www.scrum.org/learning-series/tips-joining-scrum-team-and-building-collaborative-relationships",
+        "readwiseUrl": "https://read.readwise.io/read/01kwexpevqvsnw5chhvec7vdc7",
+        "summary": "Scrum.org resource for growing as a Scrum Master. Combined content-only import where applicable.",
+        "whyRead": null,
+        "bestMoment": null,
+        "tags": [
+          "later",
+          "professional development",
+          "scrum"
+        ],
+        "alsoIn": [
+          "aaa-scrum-top-100"
+        ],
+        "memberships": [
+          {
+            "familyId": "scrum",
+            "size": "top-100",
+            "position": 20
+          }
+        ]
+      },
+      {
+        "position": null,
+        "id": "01kwexpd63h7mhqsfywqrv4438",
+        "title": "Self-Managing Teams",
+        "author": "Scrum.org",
+        "siteName": null,
+        "category": "article",
+        "language": "Engels",
+        "readingTime": "1 min",
+        "readingMinutes": 1,
+        "wordCount": 65,
+        "publishedDate": null,
+        "savedDate": "2026-07-01T13:25:32.996000+00:00",
+        "imageUrl": "",
+        "sourceUrl": "https://www.scrum.org/learning-series/self-managing-teams",
+        "readwiseUrl": "https://read.readwise.io/read/01kwexpd63h7mhqsfywqrv4438",
+        "summary": "Scrum.org resource for growing as a Scrum Master. Combined content-only import where applicable.",
+        "whyRead": null,
+        "bestMoment": null,
+        "tags": [
+          "later",
+          "professional development",
+          "scrum"
+        ],
+        "alsoIn": [
+          "aaa-scrum-top-100"
+        ],
+        "memberships": [
+          {
+            "familyId": "scrum",
+            "size": "top-100",
+            "position": 29
+          }
+        ]
+      },
+      {
+        "position": null,
+        "id": "01kwexpbm8djp73dgn7ymt74bj",
+        "title": "The Scrum Artifacts",
+        "author": "Scrum.org",
+        "siteName": null,
+        "category": "article",
+        "language": "Engels",
+        "readingTime": "3 mins",
+        "readingMinutes": 3,
+        "wordCount": 697,
+        "publishedDate": null,
+        "savedDate": "2026-07-01T13:25:31.401000+00:00",
+        "imageUrl": "",
+        "sourceUrl": "https://www.scrum.org/learning-series/scrum-artifacts",
+        "readwiseUrl": "https://read.readwise.io/read/01kwexpbm8djp73dgn7ymt74bj",
+        "summary": "Scrum.org resource for growing as a Scrum Master. Combined content-only import where applicable.",
+        "whyRead": null,
+        "bestMoment": null,
+        "tags": [
+          "later",
+          "professional development",
+          "scrum"
+        ],
+        "alsoIn": [
+          "aaa-scrum-top-100"
+        ],
+        "memberships": [
+          {
+            "familyId": "scrum",
+            "size": "top-100",
+            "position": 28
+          }
+        ]
+      },
+      {
+        "position": null,
+        "id": "01kwexpa8272rzzb4wxq2c97fe",
+        "title": "The Scrum Events",
+        "author": "Scrum.org",
+        "siteName": null,
+        "category": "article",
+        "language": "Engels",
+        "readingTime": "4 mins",
+        "readingMinutes": 4,
+        "wordCount": 1006,
+        "publishedDate": null,
+        "savedDate": "2026-07-01T13:25:29.986000+00:00",
+        "imageUrl": "",
+        "sourceUrl": "https://www.scrum.org/learning-series/scrum-events",
+        "readwiseUrl": "https://read.readwise.io/read/01kwexpa8272rzzb4wxq2c97fe",
+        "summary": "Scrum.org resource for growing as a Scrum Master. Combined content-only import where applicable.",
+        "whyRead": null,
+        "bestMoment": null,
+        "tags": [
+          "later",
+          "professional development",
+          "scrum"
+        ],
+        "alsoIn": [
+          "aaa-scrum-top-100"
+        ],
+        "memberships": [
+          {
+            "familyId": "scrum",
+            "size": "top-100",
+            "position": 27
+          }
+        ]
+      },
+      {
+        "position": null,
+        "id": "01kwexp8bshzmz4w7y2nspmx7a",
+        "title": "The Scrum Team",
+        "author": "Scrum.org",
+        "siteName": null,
+        "category": "article",
+        "language": "Engels",
+        "readingTime": "4 mins",
+        "readingMinutes": 4,
+        "wordCount": 921,
+        "publishedDate": null,
+        "savedDate": "2026-07-01T13:25:28.058000+00:00",
+        "imageUrl": "",
+        "sourceUrl": "https://www.scrum.org/learning-series/scrum-team",
+        "readwiseUrl": "https://read.readwise.io/read/01kwexp8bshzmz4w7y2nspmx7a",
+        "summary": "Scrum.org resource for growing as a Scrum Master. Combined content-only import where applicable.",
+        "whyRead": null,
+        "bestMoment": null,
+        "tags": [
+          "later",
+          "professional development",
+          "scrum"
+        ],
+        "alsoIn": [
+          "aaa-scrum-top-100"
+        ],
+        "memberships": [
+          {
+            "familyId": "scrum",
+            "size": "top-100",
+            "position": 26
+          }
+        ]
+      },
+      {
+        "position": null,
+        "id": "01kwexp7111x57fyty213vtvwn",
+        "title": "Applying the Scrum Values",
+        "author": "Scrum.org",
+        "siteName": null,
+        "category": "article",
+        "language": "Engels",
+        "readingTime": "1 min",
+        "readingMinutes": 1,
+        "wordCount": 54,
+        "publishedDate": null,
+        "savedDate": "2026-07-01T13:25:26.690000+00:00",
+        "imageUrl": "",
+        "sourceUrl": "https://www.scrum.org/resources/applying-scrum-values",
+        "readwiseUrl": "https://read.readwise.io/read/01kwexp7111x57fyty213vtvwn",
+        "summary": "Scrum.org resource for growing as a Scrum Master. Combined content-only import where applicable.",
+        "whyRead": null,
+        "bestMoment": null,
+        "tags": [
+          "later",
+          "professional development",
+          "scrum"
+        ],
+        "alsoIn": [
+          "aaa-scrum-top-100"
+        ],
+        "memberships": [
+          {
+            "familyId": "scrum",
+            "size": "top-100",
+            "position": 25
+          }
+        ]
+      },
+      {
+        "position": null,
+        "id": "01kwexp5550gmx9jwcrafg7xd3",
+        "title": "Empiricism",
+        "author": "Scrum.org",
+        "siteName": null,
+        "category": "article",
+        "language": "Engels",
+        "readingTime": "13 mins",
+        "readingMinutes": 13,
+        "wordCount": 3272,
+        "publishedDate": null,
+        "savedDate": "2026-07-01T13:25:24.773000+00:00",
+        "imageUrl": "",
+        "sourceUrl": "https://www.scrum.org/learning-series/empiricism",
+        "readwiseUrl": "https://read.readwise.io/read/01kwexp5550gmx9jwcrafg7xd3",
+        "summary": "Scrum.org resource for growing as a Scrum Master. Combined content-only import where applicable.",
+        "whyRead": null,
+        "bestMoment": null,
+        "tags": [
+          "later",
+          "professional development",
+          "scrum"
+        ],
+        "alsoIn": [
+          "aaa-scrum-top-100"
+        ],
+        "memberships": [
+          {
+            "familyId": "scrum",
+            "size": "top-100",
+            "position": 19
+          }
+        ]
+      },
+      {
+        "position": null,
+        "id": "01kwexp3bnatgms46fkdbgsnt6",
+        "title": "The Scrum Master",
+        "author": "Scrum.org",
+        "siteName": null,
+        "category": "article",
+        "language": "Engels",
+        "readingTime": "7 mins",
+        "readingMinutes": 7,
+        "wordCount": 1662,
+        "publishedDate": null,
+        "savedDate": "2026-07-01T13:25:22.933000+00:00",
+        "imageUrl": "",
+        "sourceUrl": "https://www.scrum.org/learning-series/scrum-master",
+        "readwiseUrl": "https://read.readwise.io/read/01kwexp3bnatgms46fkdbgsnt6",
+        "summary": "Scrum.org resource for growing as a Scrum Master. Combined content-only import where applicable.",
+        "whyRead": null,
+        "bestMoment": null,
+        "tags": [
+          "later",
+          "professional development",
+          "scrum"
+        ],
+        "alsoIn": [
+          "aaa-scrum-top-10",
+          "aaa-scrum-top-100"
+        ],
+        "memberships": [
+          {
+            "familyId": "scrum",
+            "size": "top-10",
+            "position": 4
+          },
+          {
+            "familyId": "scrum",
+            "size": "top-100",
+            "position": 4
+          }
+        ]
+      },
+      {
+        "position": null,
+        "id": "01kweww7axmq58ekx96xkj02jk",
+        "title": "Seven Ways Scrum Masters Can Be More Effective",
+        "author": "Scrum.org",
+        "siteName": null,
+        "category": "article",
+        "language": "Engels",
+        "readingTime": "12 mins",
+        "readingMinutes": 12,
+        "wordCount": 3069,
+        "publishedDate": null,
+        "savedDate": "2026-07-01T13:11:15.037000+00:00",
+        "imageUrl": "",
+        "sourceUrl": "https://www.scrum.org/learning-series/seven-ways-scrum-masters-can-be-more-effective/",
+        "readwiseUrl": "https://read.readwise.io/read/01kweww7axmq58ekx96xkj02jk",
+        "summary": "Combined single-document version of the Scrum.org learning series about how Scrum Masters can improve Scrum Team effectiveness.",
+        "whyRead": null,
+        "bestMoment": null,
+        "tags": [
+          "professional development",
+          "scrum"
+        ],
+        "alsoIn": [
+          "aaa-scrum-top-10",
+          "aaa-scrum-top-100"
+        ],
+        "memberships": [
+          {
+            "familyId": "scrum",
+            "size": "top-10",
+            "position": 1
+          },
+          {
+            "familyId": "scrum",
+            "size": "top-100",
+            "position": 1
           }
         ]
       },
@@ -28248,6 +31259,164 @@ window.TOP_ARTICLES = {
             "familyId": "luchtig-nederlands",
             "size": "top-100",
             "position": 3
+          }
+        ]
+      },
+      {
+        "position": null,
+        "id": "01ktp2mzvjaxpymkgdyhw1wehh",
+        "title": "Leadership Styles",
+        "author": "Scrum.org",
+        "siteName": "Scrum.org",
+        "category": "article",
+        "language": null,
+        "readingTime": "2 mins",
+        "readingMinutes": 2,
+        "wordCount": 281,
+        "publishedDate": null,
+        "savedDate": "2026-06-09T11:35:26.834000+00:00",
+        "imageUrl": "https://www.scrum.org/themes/custom/scrumorg_v2/assets/images/Scrumorg-Logo_tagline-200-ratio191.png",
+        "sourceUrl": "https://www.scrum.org/learning-series/leadership-styles/the-difference-between-leaders-and-managers",
+        "readwiseUrl": "https://read.readwise.io/read/01ktp2mzvjaxpymkgdyhw1wehh",
+        "summary": "The ways that leaders present themselves and interact with their colleagues can either support agility, or defeat it. Learn the difference between leaders and managers and the traits of an agile leadership style. Explore why we speak more about agile leadership and not servant leadership.",
+        "whyRead": "Raakt professional development en Scrum-begrip: dit korte stuk verduidelijkt het verschil tussen managen vanuit formele autoriteit en leiden via visie, vertrouwen en expertise.",
+        "bestMoment": "leergierig",
+        "tags": [
+          "later",
+          "professional development",
+          "psm-ii",
+          "scrum"
+        ],
+        "alsoIn": [
+          "aaa-scrum-top-100"
+        ],
+        "memberships": [
+          {
+            "familyId": "scrum",
+            "size": "top-100",
+            "position": 24
+          }
+        ]
+      },
+      {
+        "position": null,
+        "id": "01ktp2kyqfw4gmnvgcrkt7faxv",
+        "title": "Self-Managing Teams | Scrum.org",
+        "author": "scrum.org",
+        "siteName": "Scrum.org",
+        "category": "article",
+        "language": null,
+        "readingTime": "3 mins",
+        "readingMinutes": 3,
+        "wordCount": 688,
+        "publishedDate": null,
+        "savedDate": "2026-06-09T11:34:52.911000+00:00",
+        "imageUrl": "https://www.scrum.org/themes/custom/scrumorg_v2/assets/images/Scrumorg-Logo_tagline-200-ratio191.png",
+        "sourceUrl": "https://www.scrum.org/learning-series/self-managing-teams/myths-and-misunderstandings-about-self-management",
+        "readwiseUrl": "https://read.readwise.io/read/01ktp2kyqfw4gmnvgcrkt7faxv",
+        "summary": "Few things in Scrum are as misunderstood and misinterpreted as much as a Scrum Team’s need for self-management.",
+        "whyRead": "Raakt professional development en Scrum-theorie: dit artikel ontmythologiseert self-management en maakt duidelijk dat autonomie niet hetzelfde is als chaos, managerloosheid of verwaarlozing.",
+        "bestMoment": "leergierig",
+        "tags": [
+          "later",
+          "professional development",
+          "psm-ii",
+          "scrum"
+        ],
+        "alsoIn": [
+          "aaa-scrum-top-100"
+        ],
+        "memberships": [
+          {
+            "familyId": "scrum",
+            "size": "top-100",
+            "position": 23
+          }
+        ]
+      },
+      {
+        "position": null,
+        "id": "01ktp2jv87zz114a0e57x0hnra",
+        "title": "Self-Managing Teams: From Compliance to Collaboration",
+        "author": "Stephanie Ockerman",
+        "siteName": "Scrum.org",
+        "category": "article",
+        "language": null,
+        "readingTime": "5 mins",
+        "readingMinutes": 5,
+        "wordCount": 1265,
+        "publishedDate": "2026-01-26",
+        "savedDate": "2026-06-09T11:34:16.583000+00:00",
+        "imageUrl": "https://www.agilesocks.com/wp-content/uploads/2026/01/Self-Managing-Teams-thumbnail-1200-×-628-px-1.png",
+        "sourceUrl": "https://www.scrum.org/resources/blog/self-managing-teams-compliance-collaboration",
+        "readwiseUrl": "https://read.readwise.io/read/01ktp2jv87zz114a0e57x0hnra",
+        "summary": "Self-managing teams are how strategy comes to life. They’re also how organizations know when strategy needs to shift. In this article, we explore the building blocks of self-managing teams, what keeps organizations stuck, and practices that help.",
+        "whyRead": "Raakt professional development, teamcoaching en organisatieontwerp: Ockerman maakt concreet waarom self-managing teams niet vanzelf ontstaan door empowerment te roepen.",
+        "bestMoment": "leergierig",
+        "tags": [
+          "business & startups",
+          "later",
+          "professional development",
+          "psm-ii",
+          "scrum"
+        ],
+        "alsoIn": [
+          "aaa-scrum-top-10",
+          "aaa-scrum-top-100"
+        ],
+        "memberships": [
+          {
+            "familyId": "scrum",
+            "size": "top-10",
+            "position": 3
+          },
+          {
+            "familyId": "scrum",
+            "size": "top-100",
+            "position": 3
+          }
+        ]
+      },
+      {
+        "position": null,
+        "id": "01ktp2hmn8jpdb5pwfpf2x9g0p",
+        "title": "Leading High Performing Teams",
+        "author": "Edwin Dando",
+        "siteName": "Scrum.org",
+        "category": "article",
+        "language": null,
+        "readingTime": "5 mins",
+        "readingMinutes": 5,
+        "wordCount": 1280,
+        "publishedDate": "2018-07-16",
+        "savedDate": "2026-06-09T11:33:37.064000+00:00",
+        "imageUrl": "https://www.scrum.org/themes/custom/scrumorg/assets/images/logo-250.png",
+        "sourceUrl": "https://www.scrum.org/resources/blog/leading-high-performing-teams",
+        "readwiseUrl": "https://read.readwise.io/read/01ktp2hmn8jpdb5pwfpf2x9g0p",
+        "summary": "Throughout my career I have helped many leaders adapt their style to one that better supports teams reach a high-performing state. Across a wide range of different industries the patterns of high-performing teams, and how leaders help shape them, have some striking consistencies.",
+        "whyRead": "Raakt professional development en teamleiderschap: Dando verbindt high-performing teams met concrete patronen uit een pizzeria en vertaalt die naar kenniswerk, autonomie en situationeel leiderschap.",
+        "bestMoment": "leergierig",
+        "tags": [
+          "business & startups",
+          "later",
+          "professional development",
+          "psm-ii",
+          "scrum"
+        ],
+        "alsoIn": [
+          "aaa-scrum-top-10",
+          "aaa-scrum-top-100"
+        ],
+        "memberships": [
+          {
+            "familyId": "scrum",
+            "size": "top-10",
+            "position": 2
+          },
+          {
+            "familyId": "scrum",
+            "size": "top-100",
+            "position": 2
           }
         ]
       },
