@@ -31,7 +31,7 @@ test("de gegenereerde data bevat de luchtig-families met doorlopende posities", 
       top10Tag: "aaa-luchtig-nederlands-top-10",
       top100Tag: "aaa-luchtig-nederlands-top-100",
       top10Length: 10,
-      top100Length: 18,
+      top100Length: 17,
     },
   ];
 
