@@ -17,6 +17,7 @@ export const SEQUENCE_ORDER = [
   "short-dutch",
   "luchtig",
   "luchtig-nederlands",
+  "scrum",
 ];
 
 const LIGHT_TOPIC_TAGS = new Set([
@@ -27,6 +28,8 @@ const LIGHT_TOPIC_TAGS = new Set([
   "sports & recreation",
   "entertainment & pop culture",
 ]);
+
+const SCRUM_TAGS = new Set(["scrum", "agile"]);
 
 const TIER_ORDER = { hoog: 0, midden: 1, laag: 2 };
 const COMPONENT_KEYS = [
@@ -101,6 +104,7 @@ export function sequencesForDocument(doc) {
       sequences.add("luchtig");
       if (detectDutch(doc)) sequences.add("luchtig-nederlands");
     }
+    if ([...tags].some((tag) => SCRUM_TAGS.has(tag))) sequences.add("scrum");
   }
   return SEQUENCE_ORDER.filter((sequence) => sequences.has(sequence));
 }

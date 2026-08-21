@@ -46,7 +46,9 @@ taaltags en curatietags als `must-read`/`shortlist` worden eruit gefilterd, zie
   `config/readwise-priority-overrides.json` (`{ version: 1, items: { "<doc-id>": { adjustment, reason } } }`,
   reden verplicht bij niet-nul adjustment), tier-indeling (hoog ≥70, midden ≥40, laag <40), en
   `sequencesForDocument` — bepaalt in welke van de `SEQUENCE_ORDER`-reeksen (video, boek, pdf,
-  lees, dutch, short, short-dutch, luchtig, luchtig-nederlands) een document hoort.
+  lees, dutch, short, short-dutch, luchtig, luchtig-nederlands, scrum) een document hoort.
+  De `scrum`-reeks is, net als `luchtig`, topic-gebaseerd: een document met de tag `scrum` of
+  `agile` hoort erin (boeken uitgezonderd).
   **Boeken/EPUB's horen strikt alleen in de `boek`-reeks**, nooit gecombineerd met andere reeksen
   — dit wordt hard afgedwongen in `validatePriorityExport`.
 - `buildPriorityExport` berekent per document score + reeksen + positie-per-reeks, en valideert

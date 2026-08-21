@@ -94,6 +94,7 @@
     { id: "short-dutch", label: "Kort NL" },
     { id: "luchtig", label: "Luchtig" },
     { id: "luchtig-nederlands", label: "Luchtig NL" },
+    { id: "scrum", label: "Scrum" },
   ];
 
   const PRIORITY_COMPONENT_LABELS = {

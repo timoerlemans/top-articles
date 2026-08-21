@@ -110,6 +110,21 @@ test("een NL-document met een lichte onderwerptag krijgt ook luchtig-nederlands"
   );
 });
 
+test("een document met de tag scrum of agile classificeert als scrum, naast de reguliere reeksen", () => {
+  assert.deepEqual(
+    sequencesForDocument(document({ tags: { scrum: {} } })),
+    ["lees", "scrum"]
+  );
+  assert.ok(sequencesForDocument(document({ tags: { agile: {} } })).includes("scrum"));
+});
+
+test("een boek met de tag scrum hoort nog steeds strikt alleen in boek", () => {
+  assert.deepEqual(
+    sequencesForDocument(document({ category: "epub", tags: { scrum: {} } })),
+    ["boek"]
+  );
+});
+
 test("gebruikt language en expliciete taaltags zonder tekstheuristiek", () => {
   assert.equal(detectDutch(document({ language: "nl", title: "The history of ideas" })), true);
   assert.equal(detectDutch(document({ language: "en", tags: { dutch: {} }, title: "De geschiedenis" })), false);
