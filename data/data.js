@@ -1,6 +1,6 @@
 // Automatisch gegenereerd door scripts/build-data.mjs — niet handmatig bewerken.
 window.TOP_ARTICLES = {
-  "generatedAt": "2026-08-22T06:34:09.761Z",
+  "generatedAt": "2026-08-22T07:38:55.653Z",
   "families": [
     {
       "id": "algemeen",
@@ -19268,8 +19268,7 @@ window.TOP_ARTICLES = {
               "bestMoment": "leergierig",
               "tags": [
                 "ai ethics & society",
-                "technology",
-                "video-top-10"
+                "technology"
               ],
               "alsoIn": []
             },
@@ -22639,8 +22638,7 @@ window.TOP_ARTICLES = {
         "bestMoment": "leergierig",
         "tags": [
           "ai ethics & society",
-          "technology",
-          "video-top-10"
+          "technology"
         ],
         "alsoIn": [
           "video-top-100"
