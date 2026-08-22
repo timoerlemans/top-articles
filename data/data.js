@@ -1,6 +1,6 @@
 // Automatisch gegenereerd door scripts/build-data.mjs — niet handmatig bewerken.
 window.TOP_ARTICLES = {
-  "generatedAt": "2026-08-22T07:38:55.653Z",
+  "generatedAt": "2026-08-22T07:45:06.506Z",
   "families": [
     {
       "id": "algemeen",
@@ -13259,24 +13259,25 @@ window.TOP_ARTICLES = {
             },
             {
               "position": 2,
-              "id": "01kweww7axmq58ekx96xkj02jk",
-              "title": "Seven Ways Scrum Masters Can Be More Effective",
+              "id": "01kwexptrjc88kg21aqp2sba9s",
+              "title": "Teaching",
               "author": "Scrum.org",
               "siteName": null,
               "category": "article",
               "language": "Engels",
-              "readingTime": "12 mins",
-              "readingMinutes": 12,
-              "wordCount": 3069,
+              "readingTime": "7 mins",
+              "readingMinutes": 7,
+              "wordCount": 1753,
               "publishedDate": null,
-              "savedDate": "2026-07-01T13:11:15.037000+00:00",
+              "savedDate": "2026-07-01T13:25:46.898000+00:00",
               "imageUrl": "",
-              "sourceUrl": "https://www.scrum.org/learning-series/seven-ways-scrum-masters-can-be-more-effective/",
-              "readwiseUrl": "https://read.readwise.io/read/01kweww7axmq58ekx96xkj02jk",
-              "summary": "Combined single-document version of the Scrum.org learning series about how Scrum Masters can improve Scrum Team effectiveness.",
+              "sourceUrl": "https://www.scrum.org/learning-series/teaching",
+              "readwiseUrl": "https://read.readwise.io/read/01kwexptrjc88kg21aqp2sba9s",
+              "summary": "Scrum.org's Professional Scrum competency on teaching: defines what teaching is, three core principles (learners learn differently, design around outcomes, assess impact), five teaching methods (lecture, self-study, hands-on, assignment-based, experiential learning), and the traits of an effective teacher (humility, subject knowledge, patience, empathy, adaptability).",
               "whyRead": null,
               "bestMoment": null,
               "tags": [
+                "later",
                 "professional development",
                 "scrum"
               ],
@@ -13360,7 +13361,7 @@ window.TOP_ARTICLES = {
               "imageUrl": "",
               "sourceUrl": "https://www.scrum.org/learning-series/scrum-master",
               "readwiseUrl": "https://read.readwise.io/read/01kwexp3bnatgms46fkdbgsnt6",
-              "summary": "Scrum.org resource for growing as a Scrum Master. Combined content-only import where applicable.",
+              "summary": "Scrum.org's core description of the Scrum Master accountability: how they serve the Scrum Team, the Product Owner and the organization, plus a rundown of common myths — Scrum Police, team manager, project manager, team admin, must be technical, removes all impediments, facilitates every event, certification equals effectiveness.",
               "whyRead": null,
               "bestMoment": null,
               "tags": [
@@ -13388,7 +13389,7 @@ window.TOP_ARTICLES = {
               "imageUrl": "",
               "sourceUrl": "https://www.scrum.org/resources/navigating-impediments",
               "readwiseUrl": "https://read.readwise.io/read/01kwexpk131p0dac6rajfc0wtb",
-              "summary": "Scrum.org resource for growing as a Scrum Master. Combined content-only import where applicable.",
+              "summary": "Defines impediments and who is responsible for raising them, when they should surface (Daily Scrum, Sprint Retrospective), and why a Scrum Master should coach the team to resolve most impediments themselves rather than removing everything personally — with a practical identify/visualize/encourage-ownership approach.",
               "whyRead": null,
               "bestMoment": null,
               "tags": [
@@ -13416,7 +13417,7 @@ window.TOP_ARTICLES = {
               "imageUrl": "",
               "sourceUrl": "https://www.scrum.org/learning-series/facilitation",
               "readwiseUrl": "https://read.readwise.io/read/01kwexppfbvptw25yz3fnypwyx",
-              "summary": "Scrum.org resource for growing as a Scrum Master. Combined content-only import where applicable.",
+              "summary": "Scrum.org's competency on facilitation: five facilitation principles (participatory, healthy, transparency, process, purposeful), the traits of an effective facilitator, and how good facilitation shapes each Scrum event — Daily Scrum, Sprint Planning, Sprint Review and Sprint Retrospective.",
               "whyRead": null,
               "bestMoment": null,
               "tags": [
@@ -13444,7 +13445,7 @@ window.TOP_ARTICLES = {
               "imageUrl": "",
               "sourceUrl": "https://www.scrum.org/learning-series/coaching",
               "readwiseUrl": "https://read.readwise.io/read/01kwexpqtc8mc6pyyf1rj9gb8v",
-              "summary": "Scrum.org resource for growing as a Scrum Master. Combined content-only import where applicable.",
+              "summary": "Scrum.org's competency on coaching: distinguishes the \"Agile Coach\" role from the discipline of coaching, defines coaching principles (intentional, neutral, agreed, systemic, ethical) and skills (active listening, powerful questions, reframing, working with silence), and shows how a coaching stance applies within each Scrum event.",
               "whyRead": null,
               "bestMoment": null,
               "tags": [
@@ -13472,7 +13473,7 @@ window.TOP_ARTICLES = {
               "imageUrl": "",
               "sourceUrl": "https://www.scrum.org/learning-series/mentoring",
               "readwiseUrl": "https://read.readwise.io/read/01kwexpsbrn9aftwadk0dfvf1n",
-              "summary": "Scrum.org resource for growing as a Scrum Master. Combined content-only import where applicable.",
+              "summary": "Scrum.org's competency on mentoring: contrasts formal company-sponsored mentorship with informal and ad hoc mentoring, lays out five principles (connection, intentional, active, clear, limited), the traits of a good mentor, and concrete examples of mentoring relationships both within and outside a Scrum Team.",
               "whyRead": null,
               "bestMoment": null,
               "tags": [
@@ -13486,21 +13487,21 @@ window.TOP_ARTICLES = {
             },
             {
               "position": 10,
-              "id": "01kwexptrjc88kg21aqp2sba9s",
-              "title": "Teaching",
+              "id": "01kwf0ybdf5nk9310rfsr9gfkw",
+              "title": "Self-Managing Teams",
               "author": "Scrum.org",
               "siteName": null,
               "category": "article",
               "language": "Engels",
-              "readingTime": "7 mins",
-              "readingMinutes": 7,
-              "wordCount": 1753,
+              "readingTime": "6 mins",
+              "readingMinutes": 6,
+              "wordCount": 1568,
               "publishedDate": null,
-              "savedDate": "2026-07-01T13:25:46.898000+00:00",
+              "savedDate": "2026-07-01T14:22:19.055000+00:00",
               "imageUrl": "",
-              "sourceUrl": "https://www.scrum.org/learning-series/teaching",
-              "readwiseUrl": "https://read.readwise.io/read/01kwexptrjc88kg21aqp2sba9s",
-              "summary": "Scrum.org resource for growing as a Scrum Master. Combined content-only import where applicable.",
+              "sourceUrl": "https://www.scrum.org/learning-series/self-managing-teams#content-only",
+              "readwiseUrl": "https://read.readwise.io/read/01kwf0ybdf5nk9310rfsr9gfkw",
+              "summary": "Corrected content-only Scrum.org import.",
               "whyRead": null,
               "bestMoment": null,
               "tags": [
@@ -13545,24 +13546,25 @@ window.TOP_ARTICLES = {
             },
             {
               "position": 2,
-              "id": "01kweww7axmq58ekx96xkj02jk",
-              "title": "Seven Ways Scrum Masters Can Be More Effective",
+              "id": "01kwexptrjc88kg21aqp2sba9s",
+              "title": "Teaching",
               "author": "Scrum.org",
               "siteName": null,
               "category": "article",
               "language": "Engels",
-              "readingTime": "12 mins",
-              "readingMinutes": 12,
-              "wordCount": 3069,
+              "readingTime": "7 mins",
+              "readingMinutes": 7,
+              "wordCount": 1753,
               "publishedDate": null,
-              "savedDate": "2026-07-01T13:11:15.037000+00:00",
+              "savedDate": "2026-07-01T13:25:46.898000+00:00",
               "imageUrl": "",
-              "sourceUrl": "https://www.scrum.org/learning-series/seven-ways-scrum-masters-can-be-more-effective/",
-              "readwiseUrl": "https://read.readwise.io/read/01kweww7axmq58ekx96xkj02jk",
-              "summary": "Combined single-document version of the Scrum.org learning series about how Scrum Masters can improve Scrum Team effectiveness.",
+              "sourceUrl": "https://www.scrum.org/learning-series/teaching",
+              "readwiseUrl": "https://read.readwise.io/read/01kwexptrjc88kg21aqp2sba9s",
+              "summary": "Scrum.org's Professional Scrum competency on teaching: defines what teaching is, three core principles (learners learn differently, design around outcomes, assess impact), five teaching methods (lecture, self-study, hands-on, assignment-based, experiential learning), and the traits of an effective teacher (humility, subject knowledge, patience, empathy, adaptability).",
               "whyRead": null,
               "bestMoment": null,
               "tags": [
+                "later",
                 "professional development",
                 "scrum"
               ],
@@ -13646,7 +13648,7 @@ window.TOP_ARTICLES = {
               "imageUrl": "",
               "sourceUrl": "https://www.scrum.org/learning-series/scrum-master",
               "readwiseUrl": "https://read.readwise.io/read/01kwexp3bnatgms46fkdbgsnt6",
-              "summary": "Scrum.org resource for growing as a Scrum Master. Combined content-only import where applicable.",
+              "summary": "Scrum.org's core description of the Scrum Master accountability: how they serve the Scrum Team, the Product Owner and the organization, plus a rundown of common myths — Scrum Police, team manager, project manager, team admin, must be technical, removes all impediments, facilitates every event, certification equals effectiveness.",
               "whyRead": null,
               "bestMoment": null,
               "tags": [
@@ -13674,7 +13676,7 @@ window.TOP_ARTICLES = {
               "imageUrl": "",
               "sourceUrl": "https://www.scrum.org/resources/navigating-impediments",
               "readwiseUrl": "https://read.readwise.io/read/01kwexpk131p0dac6rajfc0wtb",
-              "summary": "Scrum.org resource for growing as a Scrum Master. Combined content-only import where applicable.",
+              "summary": "Defines impediments and who is responsible for raising them, when they should surface (Daily Scrum, Sprint Retrospective), and why a Scrum Master should coach the team to resolve most impediments themselves rather than removing everything personally — with a practical identify/visualize/encourage-ownership approach.",
               "whyRead": null,
               "bestMoment": null,
               "tags": [
@@ -13702,7 +13704,7 @@ window.TOP_ARTICLES = {
               "imageUrl": "",
               "sourceUrl": "https://www.scrum.org/learning-series/facilitation",
               "readwiseUrl": "https://read.readwise.io/read/01kwexppfbvptw25yz3fnypwyx",
-              "summary": "Scrum.org resource for growing as a Scrum Master. Combined content-only import where applicable.",
+              "summary": "Scrum.org's competency on facilitation: five facilitation principles (participatory, healthy, transparency, process, purposeful), the traits of an effective facilitator, and how good facilitation shapes each Scrum event — Daily Scrum, Sprint Planning, Sprint Review and Sprint Retrospective.",
               "whyRead": null,
               "bestMoment": null,
               "tags": [
@@ -13730,7 +13732,7 @@ window.TOP_ARTICLES = {
               "imageUrl": "",
               "sourceUrl": "https://www.scrum.org/learning-series/coaching",
               "readwiseUrl": "https://read.readwise.io/read/01kwexpqtc8mc6pyyf1rj9gb8v",
-              "summary": "Scrum.org resource for growing as a Scrum Master. Combined content-only import where applicable.",
+              "summary": "Scrum.org's competency on coaching: distinguishes the \"Agile Coach\" role from the discipline of coaching, defines coaching principles (intentional, neutral, agreed, systemic, ethical) and skills (active listening, powerful questions, reframing, working with silence), and shows how a coaching stance applies within each Scrum event.",
               "whyRead": null,
               "bestMoment": null,
               "tags": [
@@ -13758,7 +13760,7 @@ window.TOP_ARTICLES = {
               "imageUrl": "",
               "sourceUrl": "https://www.scrum.org/learning-series/mentoring",
               "readwiseUrl": "https://read.readwise.io/read/01kwexpsbrn9aftwadk0dfvf1n",
-              "summary": "Scrum.org resource for growing as a Scrum Master. Combined content-only import where applicable.",
+              "summary": "Scrum.org's competency on mentoring: contrasts formal company-sponsored mentorship with informal and ad hoc mentoring, lays out five principles (connection, intentional, active, clear, limited), the traits of a good mentor, and concrete examples of mentoring relationships both within and outside a Scrum Team.",
               "whyRead": null,
               "bestMoment": null,
               "tags": [
@@ -13772,34 +13774,6 @@ window.TOP_ARTICLES = {
             },
             {
               "position": 10,
-              "id": "01kwexptrjc88kg21aqp2sba9s",
-              "title": "Teaching",
-              "author": "Scrum.org",
-              "siteName": null,
-              "category": "article",
-              "language": "Engels",
-              "readingTime": "7 mins",
-              "readingMinutes": 7,
-              "wordCount": 1753,
-              "publishedDate": null,
-              "savedDate": "2026-07-01T13:25:46.898000+00:00",
-              "imageUrl": "",
-              "sourceUrl": "https://www.scrum.org/learning-series/teaching",
-              "readwiseUrl": "https://read.readwise.io/read/01kwexptrjc88kg21aqp2sba9s",
-              "summary": "Scrum.org resource for growing as a Scrum Master. Combined content-only import where applicable.",
-              "whyRead": null,
-              "bestMoment": null,
-              "tags": [
-                "later",
-                "professional development",
-                "scrum"
-              ],
-              "alsoIn": [
-                "aaa-scrum-top-10"
-              ]
-            },
-            {
-              "position": 11,
               "id": "01kwf0ybdf5nk9310rfsr9gfkw",
               "title": "Self-Managing Teams",
               "author": "Scrum.org",
@@ -13822,10 +13796,12 @@ window.TOP_ARTICLES = {
                 "professional development",
                 "scrum"
               ],
-              "alsoIn": []
+              "alsoIn": [
+                "aaa-scrum-top-10"
+              ]
             },
             {
-              "position": 12,
+              "position": 11,
               "id": "01kwgv3m75tgghgzvyx20sxse0",
               "title": "The Scrum Master",
               "author": "Scrum.org",
@@ -13850,7 +13826,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 13,
+              "position": 12,
               "id": "01kwgv3te7ptf027ds5be7nsr3",
               "title": "The Scrum Events",
               "author": "Scrum.org",
@@ -13875,7 +13851,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 14,
+              "position": 13,
               "id": "01kwgv3xd015jvxgxaa6x1gwy3",
               "title": "Self-Managing Teams",
               "author": "Scrum.org",
@@ -13900,7 +13876,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 15,
+              "position": 14,
               "id": "01kwgv3yscnzt7mvbt3cpcn1ey",
               "title": "Tips for Joining a Scrum Team and Building Collaborative Relationships",
               "author": "Scrum.org",
@@ -13925,7 +13901,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 16,
+              "position": 15,
               "id": "01kwgv43gpd4xyx01qc2khq1vk",
               "title": "Navigating Impediments",
               "author": "Scrum.org",
@@ -13950,7 +13926,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 17,
+              "position": 16,
               "id": "01kwgv46jm4x817bmpjy470hra",
               "title": "Facilitation",
               "author": "Scrum.org",
@@ -13975,7 +13951,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 18,
+              "position": 17,
               "id": "01kwgv4834kwm67vkjqghncfxd",
               "title": "Coaching",
               "author": "Scrum.org",
@@ -14000,7 +13976,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 19,
+              "position": 18,
               "id": "01kwgv49bqnbz83e4xekh95k2z",
               "title": "Mentoring",
               "author": "Scrum.org",
@@ -14025,7 +14001,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 20,
+              "position": 19,
               "id": "01m0k2vz633g5ymgt2gt9qgv09",
               "title": "The Unlicensed Therapists of Tech",
               "author": "Kaisa Martiskainen",
@@ -14050,7 +14026,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 21,
+              "position": 20,
               "id": "01m0k2y8k9jpzx9ca7hmq5ajh6",
               "title": "Are Scrum Masters Too Much Overhead?",
               "author": "Maarten Dalmijn",
@@ -14074,7 +14050,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 22,
+              "position": 21,
               "id": "01m0k3a1phe9yh3dacdg5cknj6",
               "title": "The Scrum Master Job Still Exists. It Depends Where You're Sitting",
               "author": "Vibhor Chandel",
@@ -14099,7 +14075,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 23,
+              "position": 22,
               "id": "01m0k3aq7jasftab9kwgnqr6mm",
               "title": "How to close a never ending discussion",
               "author": "Vibhor Chandel",
@@ -14123,7 +14099,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 24,
+              "position": 23,
               "id": "01m0k3b9rdcttsyv4bd0n575k5",
               "title": "It Doesn't Matter.",
               "author": "David Pereira",
@@ -14148,7 +14124,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 25,
+              "position": 24,
               "id": "01m0k3c5bpzqs90951nw1g61t3",
               "title": "Difficult Product Owner? Here’s What to Do When You Have No Authority Over Them",
               "author": "Dejan Majkic",
@@ -14173,7 +14149,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 26,
+              "position": 25,
               "id": "01m0k2sst961mrbjhqmgtjsgep",
               "title": "The Downfall of the Scrum Master Role: A Change Agent's Perspective",
               "author": "Scrum.org",
@@ -14197,7 +14173,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 27,
+              "position": 26,
               "id": "01m0kk39ej35nn1j1xszgypca2",
               "title": "Linking Every User Story to the Product Goal",
               "author": "vibhorchandel.com",
@@ -14221,7 +14197,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 28,
+              "position": 27,
               "id": "01kwew3a21msfp9j00h4t73qat",
               "title": "What Does an Agile Coach Actually Do?",
               "author": "Scrum Facilitators",
@@ -14246,7 +14222,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 29,
+              "position": 28,
               "id": "01kwew3bj4a2ynh5yf1e6pxbsf",
               "title": "What is Agile? A Practical Guide for Teams Ready to Work Differently",
               "author": "Scrum Facilitators",
@@ -14271,7 +14247,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 30,
+              "position": 29,
               "id": "01kwew3ggzgdtrxk6c255tdtcz",
               "title": "Sprint Goal in Scrum: A Comprehensive Guide with Examples",
               "author": "Scrum Facilitators",
@@ -14289,6 +14265,31 @@ window.TOP_ARTICLES = {
               "summary": "What is a Sprint Goal? A complete guide on defining effective goals in Scrum. Boost team focus with our examples and expert tips.",
               "whyRead": "Raakt je Scrum Master-werk sterk: Sprint Goals zijn een praktisch stuurmiddel voor focus, stakeholdergesprekken en teamautonomie.",
               "bestMoment": "leergierig",
+              "tags": [
+                "professional development",
+                "scrum"
+              ],
+              "alsoIn": []
+            },
+            {
+              "position": 30,
+              "id": "01kweww7axmq58ekx96xkj02jk",
+              "title": "Seven Ways Scrum Masters Can Be More Effective",
+              "author": "Scrum.org",
+              "siteName": null,
+              "category": "article",
+              "language": "Engels",
+              "readingTime": "12 mins",
+              "readingMinutes": 12,
+              "wordCount": 3069,
+              "publishedDate": null,
+              "savedDate": "2026-07-01T13:11:15.037000+00:00",
+              "imageUrl": "",
+              "sourceUrl": "https://www.scrum.org/learning-series/seven-ways-scrum-masters-can-be-more-effective/",
+              "readwiseUrl": "https://read.readwise.io/read/01kweww7axmq58ekx96xkj02jk",
+              "summary": "Distinguishes efficiency from effectiveness, then lists seven concrete ways a Scrum Master can increase Scrum Team effectiveness: enabling Scrum's purpose, focusing on goals, living the Scrum Values, enabling stakeholder feedback, removing obstacles, instilling self-management, and encouraging continuous improvement.",
+              "whyRead": null,
+              "bestMoment": null,
               "tags": [
                 "professional development",
                 "scrum"
@@ -19932,7 +19933,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 27
+            "position": 26
           }
         ]
       },
@@ -20072,7 +20073,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 25
+            "position": 24
           }
         ]
       },
@@ -20106,7 +20107,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 24
+            "position": 23
           }
         ]
       },
@@ -20139,7 +20140,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 23
+            "position": 22
           }
         ]
       },
@@ -20173,7 +20174,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 22
+            "position": 21
           }
         ]
       },
@@ -20264,7 +20265,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 21
+            "position": 20
           }
         ]
       },
@@ -20331,7 +20332,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 20
+            "position": 19
           }
         ]
       },
@@ -20364,7 +20365,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 26
+            "position": 25
           }
         ]
       },
@@ -30093,7 +30094,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 19
+            "position": 18
           }
         ]
       },
@@ -30127,7 +30128,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 18
+            "position": 17
           }
         ]
       },
@@ -30161,7 +30162,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 17
+            "position": 16
           }
         ]
       },
@@ -30229,7 +30230,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 16
+            "position": 15
           }
         ]
       },
@@ -30331,7 +30332,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 15
+            "position": 14
           }
         ]
       },
@@ -30365,7 +30366,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 14
+            "position": 13
           }
         ]
       },
@@ -30433,7 +30434,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 13
+            "position": 12
           }
         ]
       },
@@ -30569,7 +30570,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 12
+            "position": 11
           }
         ]
       },
@@ -30765,13 +30766,19 @@ window.TOP_ARTICLES = {
           "scrum"
         ],
         "alsoIn": [
+          "aaa-scrum-top-10",
           "aaa-scrum-top-100"
         ],
         "memberships": [
           {
             "familyId": "scrum",
+            "size": "top-10",
+            "position": 10
+          },
+          {
+            "familyId": "scrum",
             "size": "top-100",
-            "position": 11
+            "position": 10
           }
         ]
       },
@@ -30861,7 +30868,7 @@ window.TOP_ARTICLES = {
         "imageUrl": "",
         "sourceUrl": "https://www.scrum.org/learning-series/teaching",
         "readwiseUrl": "https://read.readwise.io/read/01kwexptrjc88kg21aqp2sba9s",
-        "summary": "Scrum.org resource for growing as a Scrum Master. Combined content-only import where applicable.",
+        "summary": "Scrum.org's Professional Scrum competency on teaching: defines what teaching is, three core principles (learners learn differently, design around outcomes, assess impact), five teaching methods (lecture, self-study, hands-on, assignment-based, experiential learning), and the traits of an effective teacher (humility, subject knowledge, patience, empathy, adaptability).",
         "whyRead": null,
         "bestMoment": null,
         "tags": [
@@ -30877,12 +30884,12 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-10",
-            "position": 10
+            "position": 2
           },
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 10
+            "position": 2
           }
         ]
       },
@@ -30902,7 +30909,7 @@ window.TOP_ARTICLES = {
         "imageUrl": "",
         "sourceUrl": "https://www.scrum.org/learning-series/mentoring",
         "readwiseUrl": "https://read.readwise.io/read/01kwexpsbrn9aftwadk0dfvf1n",
-        "summary": "Scrum.org resource for growing as a Scrum Master. Combined content-only import where applicable.",
+        "summary": "Scrum.org's competency on mentoring: contrasts formal company-sponsored mentorship with informal and ad hoc mentoring, lays out five principles (connection, intentional, active, clear, limited), the traits of a good mentor, and concrete examples of mentoring relationships both within and outside a Scrum Team.",
         "whyRead": null,
         "bestMoment": null,
         "tags": [
@@ -30943,7 +30950,7 @@ window.TOP_ARTICLES = {
         "imageUrl": "",
         "sourceUrl": "https://www.scrum.org/learning-series/coaching",
         "readwiseUrl": "https://read.readwise.io/read/01kwexpqtc8mc6pyyf1rj9gb8v",
-        "summary": "Scrum.org resource for growing as a Scrum Master. Combined content-only import where applicable.",
+        "summary": "Scrum.org's competency on coaching: distinguishes the \"Agile Coach\" role from the discipline of coaching, defines coaching principles (intentional, neutral, agreed, systemic, ethical) and skills (active listening, powerful questions, reframing, working with silence), and shows how a coaching stance applies within each Scrum event.",
         "whyRead": null,
         "bestMoment": null,
         "tags": [
@@ -30984,7 +30991,7 @@ window.TOP_ARTICLES = {
         "imageUrl": "",
         "sourceUrl": "https://www.scrum.org/learning-series/facilitation",
         "readwiseUrl": "https://read.readwise.io/read/01kwexppfbvptw25yz3fnypwyx",
-        "summary": "Scrum.org resource for growing as a Scrum Master. Combined content-only import where applicable.",
+        "summary": "Scrum.org's competency on facilitation: five facilitation principles (participatory, healthy, transparency, process, purposeful), the traits of an effective facilitator, and how good facilitation shapes each Scrum event — Daily Scrum, Sprint Planning, Sprint Review and Sprint Retrospective.",
         "whyRead": null,
         "bestMoment": null,
         "tags": [
@@ -31060,7 +31067,7 @@ window.TOP_ARTICLES = {
         "imageUrl": "",
         "sourceUrl": "https://www.scrum.org/resources/navigating-impediments",
         "readwiseUrl": "https://read.readwise.io/read/01kwexpk131p0dac6rajfc0wtb",
-        "summary": "Scrum.org resource for growing as a Scrum Master. Combined content-only import where applicable.",
+        "summary": "Defines impediments and who is responsible for raising them, when they should surface (Daily Scrum, Sprint Retrospective), and why a Scrum Master should coach the team to resolve most impediments themselves rather than removing everything personally — with a practical identify/visualize/encourage-ownership approach.",
         "whyRead": null,
         "bestMoment": null,
         "tags": [
@@ -31416,7 +31423,7 @@ window.TOP_ARTICLES = {
         "imageUrl": "",
         "sourceUrl": "https://www.scrum.org/learning-series/scrum-master",
         "readwiseUrl": "https://read.readwise.io/read/01kwexp3bnatgms46fkdbgsnt6",
-        "summary": "Scrum.org resource for growing as a Scrum Master. Combined content-only import where applicable.",
+        "summary": "Scrum.org's core description of the Scrum Master accountability: how they serve the Scrum Team, the Product Owner and the organization, plus a rundown of common myths — Scrum Police, team manager, project manager, team admin, must be technical, removes all impediments, facilitates every event, certification equals effectiveness.",
         "whyRead": null,
         "bestMoment": null,
         "tags": [
@@ -31457,7 +31464,7 @@ window.TOP_ARTICLES = {
         "imageUrl": "",
         "sourceUrl": "https://www.scrum.org/learning-series/seven-ways-scrum-masters-can-be-more-effective/",
         "readwiseUrl": "https://read.readwise.io/read/01kweww7axmq58ekx96xkj02jk",
-        "summary": "Combined single-document version of the Scrum.org learning series about how Scrum Masters can improve Scrum Team effectiveness.",
+        "summary": "Distinguishes efficiency from effectiveness, then lists seven concrete ways a Scrum Master can increase Scrum Team effectiveness: enabling Scrum's purpose, focusing on goals, living the Scrum Values, enabling stakeholder feedback, removing obstacles, instilling self-management, and encouraging continuous improvement.",
         "whyRead": null,
         "bestMoment": null,
         "tags": [
@@ -31465,19 +31472,13 @@ window.TOP_ARTICLES = {
           "scrum"
         ],
         "alsoIn": [
-          "aaa-scrum-top-10",
           "aaa-scrum-top-100"
         ],
         "memberships": [
           {
             "familyId": "scrum",
-            "size": "top-10",
-            "position": 2
-          },
-          {
-            "familyId": "scrum",
             "size": "top-100",
-            "position": 2
+            "position": 30
           }
         ]
       },
@@ -31511,7 +31512,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 30
+            "position": 29
           }
         ]
       },
@@ -31579,7 +31580,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 29
+            "position": 28
           }
         ]
       },
@@ -31613,7 +31614,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 28
+            "position": 27
           }
         ]
       },
