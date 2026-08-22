@@ -21,6 +21,13 @@ function option(name, fallback = null) {
   return index >= 0 ? process.argv[index + 1] ?? fallback : fallback;
 }
 
+function renderProgressBar(current, total, width = 30) {
+  const filled = Math.round((current / total) * width);
+  const bar = "#".repeat(filled) + "-".repeat(width - filled);
+  const pct = Math.round((current / total) * 100);
+  process.stdout.write(`\r[${bar}] ${current}/${total} (${pct}%)`);
+}
+
 async function fetchLocation(location) {
   const documents = [];
   let cursor = null;
@@ -91,7 +98,9 @@ async function applyCommand() {
     await runReadwise([command, "--document-id", operation.documentId, "--tag-names", operation.tag]);
     journal.completed.push(operation);
     await writeJson(journalPath, journal);
+    renderProgressBar(journal.completed.length, livePlan.operations.length);
   }
+  process.stdout.write("\n");
 
   const verification = await createPlan(plan.generatedAt, { cleanupAll: plan.scope === "all-locations" });
   if (verification.operations.length !== 0) throw new Error(`Live verificatie vond nog ${verification.operations.length} tagoperaties`);
