@@ -1,6 +1,6 @@
 // Automatisch gegenereerd door scripts/build-data.mjs — niet handmatig bewerken.
 window.TOP_ARTICLES = {
-  "generatedAt": "2026-08-21T22:26:05.427Z",
+  "generatedAt": "2026-08-22T06:34:09.761Z",
   "families": [
     {
       "id": "algemeen",
@@ -7210,6 +7210,31 @@ window.TOP_ARTICLES = {
             },
             {
               "position": 75,
+              "id": "01m0k3emvr4ceh6rc4xqdeyt3p",
+              "title": "Educated Beyond Common Sense",
+              "author": "Frederick Alexander",
+              "siteName": "The Gadfly",
+              "category": "article",
+              "language": null,
+              "readingTime": "6 mins",
+              "readingMinutes": 6,
+              "wordCount": 1373,
+              "publishedDate": "2026-08-18",
+              "savedDate": "2026-08-21T21:25:55.118000+00:00",
+              "imageUrl": "https://substackcdn.com/image/fetch/$s_!y8Cv!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F6746d9b1-eba7-4dee-9cc1-ee14ba3cae09_987x740.jpeg",
+              "sourceUrl": "https://www.gadflynotes.com/p/educated-beyond-common-sense?utm_source=direct&r=1r0y5d&utm_campaign=post-expanded-share&utm_medium=post%20viewer&triedRedirect=true",
+              "readwiseUrl": "https://read.readwise.io/read/01m0k3emvr4ceh6rc4xqdeyt3p",
+              "summary": "How the confidently stupid captured our institutions.",
+              "whyRead": "Raakt je interesse in politieke ideologieën en maatschappijkritiek — een scherp geformuleerd, eenzijdig polemisch essay over hoe een \"progressieve managerial class\" instituties zou kapen via jargon en morele chantage.",
+              "bestMoment": "kritisch",
+              "tags": [
+                "current affairs & politics",
+                "political philosophy"
+              ],
+              "alsoIn": []
+            },
+            {
+              "position": 76,
               "id": "01hy0x9z444qrsk7bb6acc5svn",
               "title": "Reading challenging books with kids is fun and probably useful",
               "author": "Henrik Karlsson",
@@ -7235,7 +7260,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 76,
+              "position": 77,
               "id": "01j2dfz6ypvj2efevyamk72ga3",
               "title": "🌲 Takeaways on efficiency, passive learning, & optimization",
               "author": "Eleanor Konik",
@@ -7261,7 +7286,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 77,
+              "position": 78,
               "id": "01j421m304fbn5rwfh0a9bpzp3",
               "title": "Fear as a Game",
               "author": "Cheri Lucas Rowlands",
@@ -7290,7 +7315,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 78,
+              "position": 79,
               "id": "01j6ft003zzdp1gdw7j9qc1dnr",
               "title": "🌲 The Value of Consistent Naming Conventions\n🌲 The Value of Consistent Naming Conventions",
               "author": "Eleanor Konik",
@@ -7316,7 +7341,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 79,
+              "position": 80,
               "id": "01jkgy1x7yacy66ys284ddq8yw",
               "title": "Why do most popular science books suck?",
               "author": "Erik Hoel",
@@ -7345,7 +7370,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 80,
+              "position": 81,
               "id": "01jkh2vn8hfm2b2ys7eefgrw9h",
               "title": "Advice for a friend who wants to start a blog",
               "author": "Henrik Karlsson",
@@ -7374,7 +7399,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 81,
+              "position": 82,
               "id": "01jkh2w2capy38f589kqkvyt4s",
               "title": "A funny thing about curiosity",
               "author": "Henrik Karlsson",
@@ -7400,7 +7425,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 82,
+              "position": 83,
               "id": "01jkh2yf7hahdnt87t68w0f1f5",
               "title": "On shortcuts and longcuts",
               "author": "Henrik Karlsson",
@@ -7426,7 +7451,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 83,
+              "position": 84,
               "id": "01jzmk1agxw641yh3b3tv2szzv",
               "title": "Self-Directed Education: What Is It and How Does It Work?",
               "author": "Peter Gray",
@@ -7452,7 +7477,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 84,
+              "position": 85,
               "id": "01k2p37kkgn4hk8dn1qxb870qd",
               "title": "How to Teach Textual Criticism To Fifth-Graders",
               "author": "nephew jonathan",
@@ -7481,7 +7506,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 85,
+              "position": 86,
               "id": "01k79j7ef2nh8tmgv41f9k6az3",
               "title": "What do Japan’s hikikomori reveal about our lonely world?",
               "author": "Alain Julian",
@@ -7507,7 +7532,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 86,
+              "position": 87,
               "id": "01k7j6p8a88r4t4zarr6pqya82",
               "title": "Writing as communion",
               "author": "Henrik Karlsson",
@@ -7536,7 +7561,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 87,
+              "position": 88,
               "id": "01k7k3prk0rm6qjzvbp9gyevxz",
               "title": "Rumination vs. Reflection: How to Tell the Difference in Your Journal",
               "author": "Bryant Del Toro",
@@ -7562,7 +7587,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 88,
+              "position": 89,
               "id": "01k72qy7j5511yee7tvcwrch9f",
               "title": "How to Self-Study Literature with Small Daily, Weekly, and Monthly Habits",
               "author": "Sam Rinko",
@@ -7588,7 +7613,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 89,
+              "position": 90,
               "id": "01k7qbg40qvbeqszm5nr2wpmyz",
               "title": "Dostoevsky as lover",
               "author": "Henrik Karlsson",
@@ -7617,7 +7642,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 90,
+              "position": 91,
               "id": "01ka6v10fx7nxzbf0dm43dk6ed",
               "title": "🌲 The Konik Method For Maintaining Sane Task Lists",
               "author": "Eleanor Konik",
@@ -7643,7 +7668,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 91,
+              "position": 92,
               "id": "01kc53cvnp2fqe09v8vmbym5mx",
               "title": "🎓 On Teleportation & Understanding via Writing",
               "author": "Eleanor Konik",
@@ -7672,7 +7697,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 92,
+              "position": 93,
               "id": "01kc76cxv4wkv0smbz1k9y6qxs",
               "title": "Reflections on my first year writing full time",
               "author": "Henrik Karlsson",
@@ -7698,7 +7723,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 93,
+              "position": 94,
               "id": "01kchxs5s6y615eazs4hhqgm7h",
               "title": "A list of books and essays that I love",
               "author": "Henrik Karlsson",
@@ -7727,7 +7752,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 94,
+              "position": 95,
               "id": "01kke05x4vzym7fgxd32d5ze4c",
               "title": "Some relationships deepen when you tell the truth and some end",
               "author": "Henrik Karlsson",
@@ -7753,7 +7778,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 95,
+              "position": 96,
               "id": "01kkh0wb88xpy71r3pc97jgpn4",
               "title": "Treat your to-read pile like a river, not a bucket",
               "author": "Oliver Burkeman",
@@ -7779,7 +7804,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 96,
+              "position": 97,
               "id": "01kmsrjw7b8q2k5fb547bxerv2",
               "title": "The Death of Spotify: Why Streaming is Minutes Away From Being Obsolete",
               "author": "Joel Gouveia",
@@ -7808,7 +7833,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 97,
+              "position": 98,
               "id": "01kn4c4mv24kk2vjxqcn0y6efj",
               "title": "Days are enormous",
               "author": "Henrik Karlsson",
@@ -7837,7 +7862,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 98,
+              "position": 99,
               "id": "01krtexkxa2w3kf6d07h8t2ndr",
               "title": "The heyday of the writing-first practitioner",
               "author": "every.to",
@@ -7864,7 +7889,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 99,
+              "position": 100,
               "id": "01krtrbnj1rtn0p7gt8fatgj7p",
               "title": "Whose Ideas Count?",
               "author": "Sven Brodmerkel (PhD)",
@@ -7880,33 +7905,6 @@ window.TOP_ARTICLES = {
               "sourceUrl": "https://svenbrodmerkel.substack.com/p/whose-ideas-count?utm_campaign=post&utm_medium=web&triedRedirect=true",
               "readwiseUrl": "https://read.readwise.io/read/01krtrbnj1rtn0p7gt8fatgj7p",
               "summary": "Inclusief brainstormen via betere formats pakt slechts de helft van het probleem aan — de andere helft is macht. Drie aanhoudende faalpatronen: statusdominantie (airtime gaat naar senioren), interpretatieve controle (wie bepaalt wat 'goed' klinkt), en credit drift (idee van A wordt toegeschreven aan B). De brainstorm functioneert onbewust als audition — niet voor ideeën, maar voor wie eruitziet als leiderschap. Credit drift is geen interpersoonlijke wrijving maar een talentontwikkelingsprobleem dat promotiebesluiten stuurt. Oplossing: 'power-aware brainstorming' — roterende facilitering, expliciete attributie, power mapping vooraf, en een benoemde bucket voor onzegbare ideeën.",
-              "whyRead": null,
-              "bestMoment": null,
-              "tags": [
-                "adhd & neurodivergence",
-                "intellectual-loneliness",
-                "professional development",
-                "sociology & social structures"
-              ],
-              "alsoIn": []
-            },
-            {
-              "position": 100,
-              "id": "01krtrc68m499tqp0qe471vq9c",
-              "title": "The Speed Trap of Modern Thought",
-              "author": "Sven Brodmerkel (PhD)",
-              "siteName": "Off-Script At Work",
-              "category": "article",
-              "language": "Engels",
-              "readingTime": "6 mins",
-              "readingMinutes": 6,
-              "wordCount": 1512,
-              "publishedDate": "2026-04-13",
-              "savedDate": "2026-05-17T10:40:41.169000+00:00",
-              "imageUrl": "https://images.unsplash.com/photo-1436262513933-a0b06755c784?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzMDAzMzh8MHwxfHNlYXJjaHwxMTl8fHJhbmRvbXxlbnwwfHx8fDE3NzYwNDg0NzJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
-              "sourceUrl": "https://svenbrodmerkel.substack.com/p/the-speed-trap-of-modern-thought?utm_campaign=post&utm_medium=web&triedRedirect=true",
-              "readwiseUrl": "https://read.readwise.io/read/01krtrc68m499tqp0qe471vq9c",
-              "summary": "Brodmerkel betoogt dat intellectuele eenzaamheid op de werkvloer vooral een kwestie van tempo is: organisaties bouwen systemen die snelheid belonen en zo diepgang structureel weren. De oplossing ligt in het scheiden van sense-making en decision-making, het bouwen van asynchrone ruimte, en het herstellen van intellectuele wederkerigheid via nieuwsgierigheid. Voor individuen: leer zelf-compressie te onderscheiden van het oprecht lezen van de kamer.",
               "whyRead": null,
               "bestMoment": null,
               "tags": [
@@ -13235,6 +13233,32 @@ window.TOP_ARTICLES = {
           "items": [
             {
               "position": 1,
+              "id": "01m0k3hr0fm2zdqmg55xb8dnb0",
+              "title": "If AI Can Replace Your Scrummaster, You Never Had a Scrummaster",
+              "author": "Erwin Verweij",
+              "siteName": "Agile Viking Galaxy",
+              "category": "article",
+              "language": null,
+              "readingTime": "6 mins",
+              "readingMinutes": 6,
+              "wordCount": 1459,
+              "publishedDate": "2026-08-13",
+              "savedDate": "2026-08-21T21:27:36.719000+00:00",
+              "imageUrl": "https://substackcdn.com/image/fetch/$s_!qJNZ!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F5da4be90-839a-48b2-9ae6-9b7437e05676_1683x935.png",
+              "sourceUrl": "https://agileviking.substack.com/p/if-ai-can-replace-your-scrummaster?utm_source=direct&r=1r0y5d&utm_campaign=post-expanded-share&utm_medium=post%20viewer",
+              "readwiseUrl": "https://read.readwise.io/read/01m0k3hr0fm2zdqmg55xb8dnb0",
+              "summary": "Why artificial intelligence will not kill Agile coaching, but may finally remove the administrative theatre that has been impersonating it",
+              "whyRead": "Raakt je interesse in scrum en agile coaching — scherp onderscheid tussen wat AI wél kan overnemen (ceremonie-administratie) en wat niet (psychologische veiligheid, macht, vertrouwen).",
+              "bestMoment": "analytisch",
+              "tags": [
+                "scrum"
+              ],
+              "alsoIn": [
+                "aaa-scrum-top-100"
+              ]
+            },
+            {
+              "position": 2,
               "id": "01kweww7axmq58ekx96xkj02jk",
               "title": "Seven Ways Scrum Masters Can Be More Effective",
               "author": "Scrum.org",
@@ -13261,7 +13285,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 2,
+              "position": 3,
               "id": "01ktp2hmn8jpdb5pwfpf2x9g0p",
               "title": "Leading High Performing Teams",
               "author": "Edwin Dando",
@@ -13291,7 +13315,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 3,
+              "position": 4,
               "id": "01ktp2jv87zz114a0e57x0hnra",
               "title": "Self-Managing Teams: From Compliance to Collaboration",
               "author": "Stephanie Ockerman",
@@ -13321,7 +13345,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 4,
+              "position": 5,
               "id": "01kwexp3bnatgms46fkdbgsnt6",
               "title": "The Scrum Master",
               "author": "Scrum.org",
@@ -13349,7 +13373,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 5,
+              "position": 6,
               "id": "01kwexpk131p0dac6rajfc0wtb",
               "title": "Navigating Impediments",
               "author": "Scrum.org",
@@ -13377,7 +13401,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 6,
+              "position": 7,
               "id": "01kwexppfbvptw25yz3fnypwyx",
               "title": "Facilitation",
               "author": "Scrum.org",
@@ -13405,7 +13429,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 7,
+              "position": 8,
               "id": "01kwexpqtc8mc6pyyf1rj9gb8v",
               "title": "Coaching",
               "author": "Scrum.org",
@@ -13433,7 +13457,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 8,
+              "position": 9,
               "id": "01kwexpsbrn9aftwadk0dfvf1n",
               "title": "Mentoring",
               "author": "Scrum.org",
@@ -13461,7 +13485,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 9,
+              "position": 10,
               "id": "01kwexptrjc88kg21aqp2sba9s",
               "title": "Teaching",
               "author": "Scrum.org",
@@ -13477,34 +13501,6 @@ window.TOP_ARTICLES = {
               "sourceUrl": "https://www.scrum.org/learning-series/teaching",
               "readwiseUrl": "https://read.readwise.io/read/01kwexptrjc88kg21aqp2sba9s",
               "summary": "Scrum.org resource for growing as a Scrum Master. Combined content-only import where applicable.",
-              "whyRead": null,
-              "bestMoment": null,
-              "tags": [
-                "later",
-                "professional development",
-                "scrum"
-              ],
-              "alsoIn": [
-                "aaa-scrum-top-100"
-              ]
-            },
-            {
-              "position": 10,
-              "id": "01kwf0ybdf5nk9310rfsr9gfkw",
-              "title": "Self-Managing Teams",
-              "author": "Scrum.org",
-              "siteName": null,
-              "category": "article",
-              "language": "Engels",
-              "readingTime": "6 mins",
-              "readingMinutes": 6,
-              "wordCount": 1568,
-              "publishedDate": null,
-              "savedDate": "2026-07-01T14:22:19.055000+00:00",
-              "imageUrl": "",
-              "sourceUrl": "https://www.scrum.org/learning-series/self-managing-teams#content-only",
-              "readwiseUrl": "https://read.readwise.io/read/01kwf0ybdf5nk9310rfsr9gfkw",
-              "summary": "Corrected content-only Scrum.org import.",
               "whyRead": null,
               "bestMoment": null,
               "tags": [
@@ -13523,6 +13519,32 @@ window.TOP_ARTICLES = {
           "items": [
             {
               "position": 1,
+              "id": "01m0k3hr0fm2zdqmg55xb8dnb0",
+              "title": "If AI Can Replace Your Scrummaster, You Never Had a Scrummaster",
+              "author": "Erwin Verweij",
+              "siteName": "Agile Viking Galaxy",
+              "category": "article",
+              "language": null,
+              "readingTime": "6 mins",
+              "readingMinutes": 6,
+              "wordCount": 1459,
+              "publishedDate": "2026-08-13",
+              "savedDate": "2026-08-21T21:27:36.719000+00:00",
+              "imageUrl": "https://substackcdn.com/image/fetch/$s_!qJNZ!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F5da4be90-839a-48b2-9ae6-9b7437e05676_1683x935.png",
+              "sourceUrl": "https://agileviking.substack.com/p/if-ai-can-replace-your-scrummaster?utm_source=direct&r=1r0y5d&utm_campaign=post-expanded-share&utm_medium=post%20viewer",
+              "readwiseUrl": "https://read.readwise.io/read/01m0k3hr0fm2zdqmg55xb8dnb0",
+              "summary": "Why artificial intelligence will not kill Agile coaching, but may finally remove the administrative theatre that has been impersonating it",
+              "whyRead": "Raakt je interesse in scrum en agile coaching — scherp onderscheid tussen wat AI wél kan overnemen (ceremonie-administratie) en wat niet (psychologische veiligheid, macht, vertrouwen).",
+              "bestMoment": "analytisch",
+              "tags": [
+                "scrum"
+              ],
+              "alsoIn": [
+                "aaa-scrum-top-10"
+              ]
+            },
+            {
+              "position": 2,
               "id": "01kweww7axmq58ekx96xkj02jk",
               "title": "Seven Ways Scrum Masters Can Be More Effective",
               "author": "Scrum.org",
@@ -13549,7 +13571,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 2,
+              "position": 3,
               "id": "01ktp2hmn8jpdb5pwfpf2x9g0p",
               "title": "Leading High Performing Teams",
               "author": "Edwin Dando",
@@ -13579,7 +13601,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 3,
+              "position": 4,
               "id": "01ktp2jv87zz114a0e57x0hnra",
               "title": "Self-Managing Teams: From Compliance to Collaboration",
               "author": "Stephanie Ockerman",
@@ -13609,7 +13631,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 4,
+              "position": 5,
               "id": "01kwexp3bnatgms46fkdbgsnt6",
               "title": "The Scrum Master",
               "author": "Scrum.org",
@@ -13637,7 +13659,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 5,
+              "position": 6,
               "id": "01kwexpk131p0dac6rajfc0wtb",
               "title": "Navigating Impediments",
               "author": "Scrum.org",
@@ -13665,7 +13687,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 6,
+              "position": 7,
               "id": "01kwexppfbvptw25yz3fnypwyx",
               "title": "Facilitation",
               "author": "Scrum.org",
@@ -13693,7 +13715,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 7,
+              "position": 8,
               "id": "01kwexpqtc8mc6pyyf1rj9gb8v",
               "title": "Coaching",
               "author": "Scrum.org",
@@ -13721,7 +13743,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 8,
+              "position": 9,
               "id": "01kwexpsbrn9aftwadk0dfvf1n",
               "title": "Mentoring",
               "author": "Scrum.org",
@@ -13749,7 +13771,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 9,
+              "position": 10,
               "id": "01kwexptrjc88kg21aqp2sba9s",
               "title": "Teaching",
               "author": "Scrum.org",
@@ -13777,7 +13799,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 10,
+              "position": 11,
               "id": "01kwf0ybdf5nk9310rfsr9gfkw",
               "title": "Self-Managing Teams",
               "author": "Scrum.org",
@@ -13800,12 +13822,10 @@ window.TOP_ARTICLES = {
                 "professional development",
                 "scrum"
               ],
-              "alsoIn": [
-                "aaa-scrum-top-10"
-              ]
+              "alsoIn": []
             },
             {
-              "position": 11,
+              "position": 12,
               "id": "01kwgv3m75tgghgzvyx20sxse0",
               "title": "The Scrum Master",
               "author": "Scrum.org",
@@ -13830,7 +13850,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 12,
+              "position": 13,
               "id": "01kwgv3te7ptf027ds5be7nsr3",
               "title": "The Scrum Events",
               "author": "Scrum.org",
@@ -13855,7 +13875,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 13,
+              "position": 14,
               "id": "01kwgv3xd015jvxgxaa6x1gwy3",
               "title": "Self-Managing Teams",
               "author": "Scrum.org",
@@ -13880,7 +13900,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 14,
+              "position": 15,
               "id": "01kwgv3yscnzt7mvbt3cpcn1ey",
               "title": "Tips for Joining a Scrum Team and Building Collaborative Relationships",
               "author": "Scrum.org",
@@ -13905,7 +13925,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 15,
+              "position": 16,
               "id": "01kwgv43gpd4xyx01qc2khq1vk",
               "title": "Navigating Impediments",
               "author": "Scrum.org",
@@ -13930,7 +13950,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 16,
+              "position": 17,
               "id": "01kwgv46jm4x817bmpjy470hra",
               "title": "Facilitation",
               "author": "Scrum.org",
@@ -13955,7 +13975,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 17,
+              "position": 18,
               "id": "01kwgv4834kwm67vkjqghncfxd",
               "title": "Coaching",
               "author": "Scrum.org",
@@ -13980,7 +14000,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 18,
+              "position": 19,
               "id": "01kwgv49bqnbz83e4xekh95k2z",
               "title": "Mentoring",
               "author": "Scrum.org",
@@ -14005,7 +14025,278 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 19,
+              "position": 20,
+              "id": "01m0k2vz633g5ymgt2gt9qgv09",
+              "title": "The Unlicensed Therapists of Tech",
+              "author": "Kaisa Martiskainen",
+              "siteName": "Code Like A Girl",
+              "category": "article",
+              "language": null,
+              "readingTime": "8 mins",
+              "readingMinutes": 8,
+              "wordCount": 2090,
+              "publishedDate": "2026-03-04",
+              "savedDate": "2026-08-21T21:15:43.169000+00:00",
+              "imageUrl": "https://substackcdn.com/image/fetch/$s_!rs8Q!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F0b70b417-f84a-42de-b9e8-460a6bfe0c4d_1536x1024.png",
+              "sourceUrl": "https://codelikeagirl.substack.com/p/the-unlicensed-therapists-of-tech?utm_source=direct&r=1r0y5d&utm_campaign=post-expanded-share&utm_medium=post%20viewer",
+              "readwiseUrl": "https://read.readwise.io/read/01m0k2vz633g5ymgt2gt9qgv09",
+              "summary": "From observing code to observing people, we are doing the work no one sees",
+              "whyRead": "Raakt je interesse in scrum en professionele ontwikkeling — persoonlijk, essayistisch verslag van een oud-Scrum Master over de onzichtbare emotionele arbeid achter servant leadership.",
+              "bestMoment": "reflectief",
+              "tags": [
+                "professional development",
+                "scrum"
+              ],
+              "alsoIn": []
+            },
+            {
+              "position": 21,
+              "id": "01m0k2y8k9jpzx9ca7hmq5ajh6",
+              "title": "Are Scrum Masters Too Much Overhead?",
+              "author": "Maarten Dalmijn",
+              "siteName": "mdalmijn.com",
+              "category": "article",
+              "language": null,
+              "readingTime": "6 mins",
+              "readingMinutes": 6,
+              "wordCount": 1549,
+              "publishedDate": null,
+              "savedDate": "2026-08-21T21:16:58.258000+00:00",
+              "imageUrl": "https://substackcdn.com/image/fetch/w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd89ec789-94e4-4098-b4de-5c0224eb7978_640x334.jpeg",
+              "sourceUrl": "https://mdalmijn.com/p/are-scrum-masters-too-much-overhead?utm_source=direct&r=1r0y5d&utm_campaign=post-expanded-share&utm_medium=post%20viewer&triedRedirect=true",
+              "readwiseUrl": "https://read.readwise.io/read/01m0k2y8k9jpzx9ca7hmq5ajh6",
+              "summary": "The Unfortunate Tendency of Scrum Masters to Make Scrum Overimportant",
+              "whyRead": "Prikkelende Scrum-opinie die het bestaan van een aparte Scrum Master-rol ter discussie stelt aan de hand van een Ultimate Frisbee-analogie (spelers als hun eigen scheidsrechter) — relevant voor wie zich met Scrum/Agile-praktijk en teaminrichting bezighoudt.",
+              "bestMoment": "kritisch",
+              "tags": [
+                "scrum"
+              ],
+              "alsoIn": []
+            },
+            {
+              "position": 22,
+              "id": "01m0k3a1phe9yh3dacdg5cknj6",
+              "title": "The Scrum Master Job Still Exists. It Depends Where You're Sitting",
+              "author": "Vibhor Chandel",
+              "siteName": "vibhorchandel.com",
+              "category": "article",
+              "language": null,
+              "readingTime": "9 mins",
+              "readingMinutes": 9,
+              "wordCount": 2191,
+              "publishedDate": "2026-08-06",
+              "savedDate": "2026-08-21T21:23:24.418000+00:00",
+              "imageUrl": "https://substackcdn.com/image/fetch/$s_!Qgtf!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8fb3b124-0699-4e31-805e-5939c1149921_1449x562.webp",
+              "sourceUrl": "https://www.vibhorchandel.com/p/the-scrum-master-job-still-exists?utm_source=direct&r=1r0y5d&utm_campaign=post-expanded-share&utm_medium=post%20viewer&triedRedirect=true",
+              "readwiseUrl": "https://read.readwise.io/read/01m0k3a1phe9yh3dacdg5cknj6",
+              "summary": "I searched 120 live job postings across India, UK, Canada, and the US. Here's what I found.",
+              "whyRead": "Beroepsmatig relevant als Scrum Master — data-gedreven analyse van hoe de rol per regio (VS, VK, India) verschillend evolueert, met concreet advies over carrièrerichting.",
+              "bestMoment": "analytisch",
+              "tags": [
+                "professional development",
+                "scrum"
+              ],
+              "alsoIn": []
+            },
+            {
+              "position": 23,
+              "id": "01m0k3aq7jasftab9kwgnqr6mm",
+              "title": "How to close a never ending discussion",
+              "author": "Vibhor Chandel",
+              "siteName": "vibhorchandel.com",
+              "category": "article",
+              "language": null,
+              "readingTime": "7 mins",
+              "readingMinutes": 7,
+              "wordCount": 1727,
+              "publishedDate": "2026-08-13",
+              "savedDate": "2026-08-21T21:23:46.470000+00:00",
+              "imageUrl": "https://substackcdn.com/image/fetch/$s_!0hhv!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F0e250344-93c1-4ab3-8cc5-19189cd20611_1533x989.png",
+              "sourceUrl": "https://www.vibhorchandel.com/p/how-to-close-a-never-ending-discussion?utm_source=direct&r=1r0y5d&utm_campaign=post-expanded-share&utm_medium=post%20viewer&triedRedirect=true",
+              "readwiseUrl": "https://read.readwise.io/read/01m0k3aq7jasftab9kwgnqr6mm",
+              "summary": "A Facilitator's Guide to Closing Discussions That Keep Circling",
+              "whyRead": "Beroepsmatig relevant als Scrum Master — een concrete, stapsgewijze afsluittechniek voor discussies die blijven circelen.",
+              "bestMoment": "leergierig",
+              "tags": [
+                "scrum"
+              ],
+              "alsoIn": []
+            },
+            {
+              "position": 24,
+              "id": "01m0k3b9rdcttsyv4bd0n575k5",
+              "title": "It Doesn't Matter.",
+              "author": "David Pereira",
+              "siteName": "substack.com",
+              "category": "article",
+              "language": null,
+              "readingTime": "6 mins",
+              "readingMinutes": 6,
+              "wordCount": 1446,
+              "publishedDate": "2026-08-04",
+              "savedDate": "2026-08-21T21:24:05.517000+00:00",
+              "imageUrl": "https://substackcdn.com/image/fetch/$s_!915V!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff833d60d-6d92-448c-b98b-a31b0e02d858_1456x1048.png",
+              "sourceUrl": "https://dpereira.substack.com/p/it-doesnt-matter?utm_source=direct&r=1r0y5d&utm_campaign=post-expanded-share&utm_medium=post%20viewer",
+              "readwiseUrl": "https://read.readwise.io/read/01m0k3b9rdcttsyv4bd0n575k5",
+              "summary": "The lesson I learned at 21, and forgot later.",
+              "whyRead": "Raakt scrum/agile en professionele ontwikkeling — persoonlijke reflectie over waarom framework-dogmatisme (Scrum, user stories, \"de juiste manier\") minder waardevol is dan aanpassingsvermogen aan je eigen context.",
+              "bestMoment": "reflectief",
+              "tags": [
+                "professional development",
+                "scrum"
+              ],
+              "alsoIn": []
+            },
+            {
+              "position": 25,
+              "id": "01m0k3c5bpzqs90951nw1g61t3",
+              "title": "Difficult Product Owner? Here’s What to Do When You Have No Authority Over Them",
+              "author": "Dejan Majkic",
+              "siteName": "whatisscrum.org Newsletter",
+              "category": "article",
+              "language": null,
+              "readingTime": "7 mins",
+              "readingMinutes": 7,
+              "wordCount": 1795,
+              "publishedDate": "2026-08-14",
+              "savedDate": "2026-08-21T21:24:35.688000+00:00",
+              "imageUrl": "https://substackcdn.com/image/fetch/$s_!oRjt!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fae87eb50-c810-448d-9e0c-e73ec93bbd16_1280x720.jpeg",
+              "sourceUrl": "https://dejanmajkic.substack.com/p/difficult-product-owner-heres-what?utm_source=direct&r=1r0y5d&utm_campaign=post-expanded-share&utm_medium=post%20viewer",
+              "readwiseUrl": "https://read.readwise.io/read/01m0k3c5bpzqs90951nw1g61t3",
+              "summary": "Here's a practical, no-fluff way for Scrum Masters to handle a difficult PO without formal authority.",
+              "whyRead": "Beroepsmatig relevant als Scrum Master — praktisch kader voor het omgaan met een Product Owner over wie je geen formele autoriteit hebt.",
+              "bestMoment": "leergierig",
+              "tags": [
+                "professional development",
+                "scrum"
+              ],
+              "alsoIn": []
+            },
+            {
+              "position": 26,
+              "id": "01m0k2sst961mrbjhqmgtjsgep",
+              "title": "The Downfall of the Scrum Master Role: A Change Agent's Perspective",
+              "author": "Scrum.org",
+              "siteName": "Scrum.org",
+              "category": "article",
+              "language": null,
+              "readingTime": "8 mins",
+              "readingMinutes": 8,
+              "wordCount": 1858,
+              "publishedDate": "2025-05-05",
+              "savedDate": "2026-08-22T01:59:18.585000+00:00",
+              "imageUrl": "https://scrumorg-website-prod.s3.amazonaws.com/drupal/inline-images/hand-3067236_640.jpg",
+              "sourceUrl": "https://www.scrum.org/resources/blog/downfall-scrum-master-role-change-agents-perspective",
+              "readwiseUrl": "https://read.readwise.io/read/01m0k2sst961mrbjhqmgtjsgep",
+              "summary": "The Untold Story: How the Revolutionary Scrum Master Role Lost Its Way Once envisioned as transformative change agents, Scrum Masters have increasingly become mere meeting facilitators in many organizations. Drawing from two decades of experience guiding agile transformations, this article exposes the critical factors behind this troubling evolution—from certification factories to fundamental leadership misunderstandings. Discover why the reduction of this dynamic role to ceremony management represents just 1% of its true potential, and learn how organizations are unwittingly setting their Scrum Masters up for failure through contradictory structures and impossible expectations.",
+              "whyRead": "Beroepsmatig relevant als Scrum Master — een ervaren agile transformatie-consultant analyseert waarom de Scrum Master-rol is verworden tot ceremonie-facilitator en wat daarvoor nodig is om te herstellen.",
+              "bestMoment": "analytisch",
+              "tags": [
+                "scrum"
+              ],
+              "alsoIn": []
+            },
+            {
+              "position": 27,
+              "id": "01m0kk39ej35nn1j1xszgypca2",
+              "title": "Linking Every User Story to the Product Goal",
+              "author": "vibhorchandel.com",
+              "siteName": "vibhorchandel.com",
+              "category": "article",
+              "language": null,
+              "readingTime": "6 mins",
+              "readingMinutes": 6,
+              "wordCount": 1348,
+              "publishedDate": "2025-09-28",
+              "savedDate": "2026-08-22T01:59:20.274000+00:00",
+              "imageUrl": "https://substackcdn.com/image/fetch/$s_!jpj1!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fef2c9b84-57f4-453e-bbc3-a28d8d7f72b5_1456x882.png",
+              "sourceUrl": "https://www.vibhorchandel.com/p/linking-every-user-story-to-the-product-goal",
+              "readwiseUrl": "https://read.readwise.io/read/01m0kk39ej35nn1j1xszgypca2",
+              "summary": "A small habit that keeps the whole Scrum Team laser-focused on outcomes, not output.",
+              "whyRead": "Raakt scrum & agile werken direct — een praktisch, goed onderbouwd stuk over waarom en hoe je user stories expliciet koppelt aan het Product Goal, met een concrete 3-stappen-methode.",
+              "bestMoment": "leergierig",
+              "tags": [
+                "scrum"
+              ],
+              "alsoIn": []
+            },
+            {
+              "position": 28,
+              "id": "01kwew3a21msfp9j00h4t73qat",
+              "title": "What Does an Agile Coach Actually Do?",
+              "author": "Scrum Facilitators",
+              "siteName": null,
+              "category": "article",
+              "language": "Engels",
+              "readingTime": "7 mins",
+              "readingMinutes": 7,
+              "wordCount": 1836,
+              "publishedDate": "2026-06-17",
+              "savedDate": "2026-08-22T05:39:28.496000+00:00",
+              "imageUrl": "",
+              "sourceUrl": "https://www.scrumfacilitators.com/en/knowledge/agile-coach",
+              "readwiseUrl": "https://read.readwise.io/read/01kwew3a21msfp9j00h4t73qat",
+              "summary": "Find out what an agile coach really does, how coaching differs from teaching, and what skills you need to help teams think differently about their work.",
+              "whyRead": "Raakt je Scrum Master-werk direct: het maakt het verschil tussen coaching, teaching en mentoring praktisch en helpt scherper kiezen welke houding een situatie vraagt.",
+              "bestMoment": "leergierig",
+              "tags": [
+                "professional development",
+                "scrum"
+              ],
+              "alsoIn": []
+            },
+            {
+              "position": 29,
+              "id": "01kwew3bj4a2ynh5yf1e6pxbsf",
+              "title": "What is Agile? A Practical Guide for Teams Ready to Work Differently",
+              "author": "Scrum Facilitators",
+              "siteName": null,
+              "category": "article",
+              "language": "Engels",
+              "readingTime": "6 mins",
+              "readingMinutes": 6,
+              "wordCount": 1471,
+              "publishedDate": "2026-06-16",
+              "savedDate": "2026-08-22T05:39:53.456000+00:00",
+              "imageUrl": "",
+              "sourceUrl": "https://www.scrumfacilitators.com/en/knowledge/What-is-Agile",
+              "readwiseUrl": "https://read.readwise.io/read/01kwew3bj4a2ynh5yf1e6pxbsf",
+              "summary": "Discover what Agile really means, how it works in practice, and what separates teams that live it from teams that just talk about it. Start your Agile training.",
+              "whyRead": "Raakt je werkcontext rond Scrum en agile: het is een toegankelijke uitleg van agile als andere manier van denken over onzeker werk, niet als proceslabel.",
+              "bestMoment": "leergierig",
+              "tags": [
+                "professional development",
+                "scrum"
+              ],
+              "alsoIn": []
+            },
+            {
+              "position": 30,
+              "id": "01kwew3ggzgdtrxk6c255tdtcz",
+              "title": "Sprint Goal in Scrum: A Comprehensive Guide with Examples",
+              "author": "Scrum Facilitators",
+              "siteName": null,
+              "category": "article",
+              "language": "Engels",
+              "readingTime": "8 mins",
+              "readingMinutes": 8,
+              "wordCount": 2004,
+              "publishedDate": "2026-01-27",
+              "savedDate": "2026-08-22T05:40:39.942000+00:00",
+              "imageUrl": "",
+              "sourceUrl": "https://www.scrumfacilitators.com/en/knowledge/sprint-goal-in-scrum-a-comprehensive-guide-with-examples",
+              "readwiseUrl": "https://read.readwise.io/read/01kwew3ggzgdtrxk6c255tdtcz",
+              "summary": "What is a Sprint Goal? A complete guide on defining effective goals in Scrum. Boost team focus with our examples and expert tips.",
+              "whyRead": "Raakt je Scrum Master-werk sterk: Sprint Goals zijn een praktisch stuurmiddel voor focus, stakeholdergesprekken en teamautonomie.",
+              "bestMoment": "leergierig",
+              "tags": [
+                "professional development",
+                "scrum"
+              ],
+              "alsoIn": []
+            },
+            {
+              "position": 31,
               "id": "01kwexp5550gmx9jwcrafg7xd3",
               "title": "Empiricism",
               "author": "Scrum.org",
@@ -14031,7 +14322,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 20,
+              "position": 32,
               "id": "01kwexpevqvsnw5chhvec7vdc7",
               "title": "Tips for Joining a Scrum Team and Building Collaborative Relationships",
               "author": "Scrum.org",
@@ -14057,7 +14348,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 21,
+              "position": 33,
               "id": "01kwexpg90r86p63b5w5sd3910",
               "title": "Encouraging Collaborative Ways of Working in a Scrum Team",
               "author": "Scrum.org",
@@ -14083,7 +14374,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 22,
+              "position": 34,
               "id": "01kwexpw49qacd2hcbhg15tzcr",
               "title": "Frequently Asked Questions on Continuous Improvement for Scrum Masters",
               "author": "Scrum.org",
@@ -14109,7 +14400,59 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 23,
+              "position": 35,
+              "id": "01m0kk41832n0tav3gjxdhask9",
+              "title": "Agile is 25: Which Practices Still Work in 2026 and Which Don't?",
+              "author": "vibhorchandel.com",
+              "siteName": "vibhorchandel.com",
+              "category": "article",
+              "language": null,
+              "readingTime": "13 mins",
+              "readingMinutes": 13,
+              "wordCount": 3382,
+              "publishedDate": "2026-07-12",
+              "savedDate": "2026-08-22T01:59:44.643000+00:00",
+              "imageUrl": "https://substackcdn.com/image/fetch/$s_!Dxau!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F9ed85dc2-9437-4f5b-b199-272633de2abf_2620x1086.jpeg",
+              "sourceUrl": "https://www.vibhorchandel.com/p/agile-is-25-which-practices-still-make-sense",
+              "readwiseUrl": "https://read.readwise.io/read/01m0kk41832n0tav3gjxdhask9",
+              "summary": "A practical framework for separating useful Agile practices from rituals that no longer serve the team.",
+              "whyRead": "Kerninteresse scrum & agile werken, en een uitzonderlijk grondige, kritische audit van 25 jaar Agile-praktijk — precies het soort analytisch essay met een duidelijke stem, geen oppervlakkige listicle.",
+              "bestMoment": "analytisch",
+              "tags": [
+                "scrum"
+              ],
+              "alsoIn": []
+            },
+            {
+              "position": 36,
+              "id": "01m0kztar8p0q02aet41a6xn7w",
+              "title": "Real World Agility EXPLAINED: Nick Brown’s Hard-Earned Lessons",
+              "author": "Scrum Facilitators",
+              "siteName": "YouTube",
+              "category": "video",
+              "language": null,
+              "readingTime": null,
+              "readingMinutes": null,
+              "wordCount": null,
+              "publishedDate": "2025-05-14",
+              "savedDate": "2026-08-22T05:41:38.185000+00:00",
+              "imageUrl": "https://i.ytimg.com/vi/yD2srH_dsyc/sddefault.jpg",
+              "sourceUrl": "https://www.youtube.com/watch?v=yD2srH_dsyc&list=PL8g6psFkuAKP3aFyGUTD6cPJ3Dp2S4QXi",
+              "readwiseUrl": "https://read.readwise.io/read/01m0kztar8p0q02aet41a6xn7w",
+              "summary": "Agile looks easy on paper. But in the real world? It’s a different story.\n\nIn this interview, we sit down with Nick Brown, author of Real World Agility, to unpack what it really takes to lead agile teams in complex environments. From Royal Mail to PwC, Nick shares his career journey and the lessons that shaped his approach to practical agility.\n\nIf you’ve ever struggled to apply agile frameworks in messy, real-life situations, this conversation is a must-watch.\n\n👉 Subscribe for more expert interviews on leadership and delivery\n👉 Learn more about agile training and storytelling for business: https://www.scrumfacilitators.com/\n\n⏱️ Chapters\n\n00:00 Welcome back & intro\n02:28 Early challenges with agile in the field\n04:54 What theory misses in real-world delivery\n07:25 Why agile doesn’t have to be complex\n09:44 Rethinking agile from a leadership lens\n12:16 Practical tips Nick hopes teams apply\n14:41 Expecting imperfection in agile teams\n16:57 How to validate what’s working\n19:26 Real-world tools Nick still uses\n21:49 Delivery thinking that actually works\n22:34 Final thoughts & wrap-up",
+              "whyRead": "Raakt scrum & agile werken direct — een diepgaand interview met Nick Brown (auteur van \"Real World Agility\") over waarom eerlijke faalverhalen waardevoller zijn dan gepolijste frameworks, en waarom cultuur het fundament van agile teams is.",
+              "bestMoment": "analytisch",
+              "tags": [
+                "scrum",
+                "video-top-10"
+              ],
+              "alsoIn": [
+                "video-top-10",
+                "video-top-100"
+              ]
+            },
+            {
+              "position": 37,
               "id": "01ktp2kyqfw4gmnvgcrkt7faxv",
               "title": "Self-Managing Teams | Scrum.org",
               "author": "scrum.org",
@@ -14136,7 +14479,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 24,
+              "position": 38,
               "id": "01ktp2mzvjaxpymkgdyhw1wehh",
               "title": "Leadership Styles",
               "author": "Scrum.org",
@@ -14163,7 +14506,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 25,
+              "position": 39,
               "id": "01kwexp7111x57fyty213vtvwn",
               "title": "Applying the Scrum Values",
               "author": "Scrum.org",
@@ -14189,7 +14532,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 26,
+              "position": 40,
               "id": "01kwexp8bshzmz4w7y2nspmx7a",
               "title": "The Scrum Team",
               "author": "Scrum.org",
@@ -14215,7 +14558,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 27,
+              "position": 41,
               "id": "01kwexpa8272rzzb4wxq2c97fe",
               "title": "The Scrum Events",
               "author": "Scrum.org",
@@ -14241,7 +14584,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 28,
+              "position": 42,
               "id": "01kwexpbm8djp73dgn7ymt74bj",
               "title": "The Scrum Artifacts",
               "author": "Scrum.org",
@@ -14267,7 +14610,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 29,
+              "position": 43,
               "id": "01kwexpd63h7mhqsfywqrv4438",
               "title": "Self-Managing Teams",
               "author": "Scrum.org",
@@ -14293,7 +14636,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 30,
+              "position": 44,
               "id": "01kwexphnkt0123qcrbqqb0fqe",
               "title": "What is Backlog Refinement?",
               "author": "Scrum.org",
@@ -14319,7 +14662,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 31,
+              "position": 45,
               "id": "01kwexpmq0g9a6hznvz9rgcxzn",
               "title": "Leadership Styles",
               "author": "Scrum.org",
@@ -14345,7 +14688,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 32,
+              "position": 46,
               "id": "01kwexpxk1pfnzhy9sz4435mhb",
               "title": "Scrum.org and Comparative Agility Offer New Scrum Master Improvement Self-Assessment",
               "author": "Scrum.org",
@@ -14371,7 +14714,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 33,
+              "position": 47,
               "id": "01kwf0yd7ctbprcferqdhtms0t",
               "title": "Applying the Scrum Values",
               "author": "Scrum.org",
@@ -14397,7 +14740,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 34,
+              "position": 48,
               "id": "01kwf0yesfrexrg9r4n3ej8psg",
               "title": "What is Backlog Refinement?",
               "author": "Scrum.org",
@@ -14423,7 +14766,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 35,
+              "position": 49,
               "id": "01kwgv3p7m0hcdxdkevdk85zne",
               "title": "Empiricism",
               "author": "Scrum.org",
@@ -14448,7 +14791,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 36,
+              "position": 50,
               "id": "01kwgv3qm7grnyf9h24dxf1tpr",
               "title": "Applying the Scrum Values",
               "author": "Scrum.org",
@@ -14473,7 +14816,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 37,
+              "position": 51,
               "id": "01kwgv3s14j6mrc474hr2ty4ng",
               "title": "The Scrum Team",
               "author": "Scrum.org",
@@ -14498,7 +14841,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 38,
+              "position": 52,
               "id": "01kwgv3vs8hdwhets97r0mgv91",
               "title": "The Scrum Artifacts",
               "author": "Scrum.org",
@@ -14523,7 +14866,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 39,
+              "position": 53,
               "id": "01kwgv40cswsga3s67vbrqmh79",
               "title": "Encouraging Collaborative Ways of Working in a Scrum Team",
               "author": "Scrum.org",
@@ -14548,7 +14891,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 40,
+              "position": 54,
               "id": "01kwgv41vthssy649xsngxrck4",
               "title": "What is Backlog Refinement?",
               "author": "Scrum.org",
@@ -14573,7 +14916,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 41,
+              "position": 55,
               "id": "01kwgv454djcyseb3x807wx8js",
               "title": "Leadership Styles",
               "author": "Scrum.org",
@@ -14598,7 +14941,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 42,
+              "position": 56,
               "id": "01kwgv4ap47ve8h0bdwf29jzwq",
               "title": "Teaching",
               "author": "Scrum.org",
@@ -14623,7 +14966,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 43,
+              "position": 57,
               "id": "01kwgv4bwctkyj54rvctfyk8qa",
               "title": "Frequently Asked Questions on Continuous Improvement for Scrum Masters",
               "author": "Scrum.org",
@@ -14648,7 +14991,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 44,
+              "position": 58,
               "id": "01kwgv4d63neeawgzpjgf111bx",
               "title": "Scrum.org and Comparative Agility Offer New Scrum Master Improvement Self-Assessment",
               "author": "Scrum.org",
@@ -14671,6 +15014,335 @@ window.TOP_ARTICLES = {
                 "scrum"
               ],
               "alsoIn": []
+            },
+            {
+              "position": 59,
+              "id": "01m0k2s7g79gx8117m76a8rqmh",
+              "title": "The Return of the Scrum Master",
+              "author": "Maarten Dalmijn",
+              "siteName": "mdalmijn.com",
+              "category": "article",
+              "language": null,
+              "readingTime": "2 mins",
+              "readingMinutes": 2,
+              "wordCount": 434,
+              "publishedDate": "2025-05-08",
+              "savedDate": "2026-08-21T21:14:13.287000+00:00",
+              "imageUrl": "https://substackcdn.com/image/fetch/w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F0e5e2b7c-47d0-4ac7-ab45-559ee974391b_1024x1536.png",
+              "sourceUrl": "https://mdalmijn.com/p/the-return-of-the-scrum-master?utm_source=direct&r=1r0y5d&utm_campaign=post-expanded-share&utm_medium=post%20viewer&triedRedirect=true",
+              "readwiseUrl": "https://read.readwise.io/read/01m0k2s7g79gx8117m76a8rqmh",
+              "summary": "What Happens After the Downfall of the Scrum Master Role?",
+              "whyRead": "Beroepsmatig relevant tegengeluid — een felle, contrarian reactie op het \"downfall\"-stuk van Scrum.org: niet de implementatie is het probleem, maar de Scrum Master-rol zelf.",
+              "bestMoment": "kritisch",
+              "tags": [
+                "scrum"
+              ],
+              "alsoIn": []
+            },
+            {
+              "position": 60,
+              "id": "01m0k2xdt0xamb4cd7cr6j5vhx",
+              "title": "The Scrum Master Way: Four Levers That Drive Team Growth",
+              "author": "Agile Classrooms",
+              "siteName": "Agile Classrooms",
+              "category": "article",
+              "language": null,
+              "readingTime": "3 mins",
+              "readingMinutes": 3,
+              "wordCount": 588,
+              "publishedDate": null,
+              "savedDate": "2026-08-21T21:16:30.912000+00:00",
+              "imageUrl": "https://s3.us-west-2.amazonaws.com/content.podia.com/zl2zgbe4fggwsjwustca1u7vih32",
+              "sourceUrl": "https://learn.agileclassrooms.com/blog/scrum-master-levers-team-growth",
+              "readwiseUrl": "https://read.readwise.io/read/01m0k2xdt0xamb4cd7cr6j5vhx",
+              "summary": "Learn the four high-leverage actions great Scrum Masters use to help teams deliver, improve, and grow. Simple, repeatable, and immediately usable.",
+              "whyRead": "Raakt je werk als Scrum Master direct — een compact, bruikbaar model met vier focusgebieden voor je dagelijkse coaching.",
+              "bestMoment": "leergierig",
+              "tags": [
+                "scrum"
+              ],
+              "alsoIn": []
+            },
+            {
+              "position": 61,
+              "id": "01m0k356bsanzb1ar3yx9740v2",
+              "title": "Reimagine Scrum",
+              "author": "Tobias Mayer",
+              "siteName": "Outskirts",
+              "category": "article",
+              "language": null,
+              "readingTime": "2 mins",
+              "readingMinutes": 2,
+              "wordCount": 394,
+              "publishedDate": "2026-08-17",
+              "savedDate": "2026-08-21T21:20:45.431000+00:00",
+              "imageUrl": "https://substackcdn.com/image/fetch/$s_!KlU-!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F4bddfa3b-a6cb-4d24-a460-516e94cef863_876x412.jpeg",
+              "sourceUrl": "https://tobiasmayer.substack.com/p/reimagine-scrum?utm_source=direct&r=1r0y5d&utm_campaign=post-expanded-share&utm_medium=post%20viewer",
+              "readwiseUrl": "https://read.readwise.io/read/01m0k356bsanzb1ar3yx9740v2",
+              "summary": "Why artefacts are not essential, values should never be imposed, and more...",
+              "whyRead": "Beroepsmatig relevant als Scrum Master — een contrarian, jargon-vrije herformulering van Scrum die de officiële terminologie (pillars, events, accountabilities) ter discussie stelt.",
+              "bestMoment": "analytisch",
+              "tags": [
+                "scrum"
+              ],
+              "alsoIn": []
+            },
+            {
+              "position": 62,
+              "id": "01m0kk38p4qwk0xrbjj01g52ck",
+              "title": "6 Steps to Effectively Manage Product Backlog\n6 Steps to Effectively Manage Product Backlog",
+              "author": "vibhorchandel.com",
+              "siteName": "vibhorchandel.com",
+              "category": "article",
+              "language": null,
+              "readingTime": "2 mins",
+              "readingMinutes": 2,
+              "wordCount": 422,
+              "publishedDate": "2023-10-05",
+              "savedDate": "2026-08-22T01:59:19.492000+00:00",
+              "imageUrl": "https://substackcdn.com/image/fetch/w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F86bade29-1b3f-4446-8bfd-2a35d6bf81fc_1920x1080.jpeg",
+              "sourceUrl": "https://www.vibhorchandel.com/p/6-steps-to-effectively-manage-product",
+              "readwiseUrl": "https://read.readwise.io/read/01m0kk38p4qwk0xrbjj01g52ck",
+              "summary": "Part 5 of my 7 part training series on Foundational Scrum Master skills",
+              "whyRead": "Raakt scrum & agile werken — deel 5 van een trainingsreeks over Scrum Master-vaardigheden, met een helder onderscheid tussen Backlog Refinement en Backlog Management.",
+              "bestMoment": "leergierig",
+              "tags": [
+                "scrum"
+              ],
+              "alsoIn": []
+            },
+            {
+              "position": 63,
+              "id": "01kwew3egmmcfwxc3wnmfp373y",
+              "title": "Scrum Meaning - Usage, and the Path to Professionalism",
+              "author": "Scrum Facilitators",
+              "siteName": null,
+              "category": "article",
+              "language": "Engels",
+              "readingTime": "2 mins",
+              "readingMinutes": 2,
+              "wordCount": 429,
+              "publishedDate": "2026-01-27",
+              "savedDate": "2026-08-22T05:40:16.977000+00:00",
+              "imageUrl": "",
+              "sourceUrl": "https://www.scrumfacilitators.com/en/knowledge/scrum-meaning",
+              "readwiseUrl": "https://read.readwise.io/read/01kwew3egmmcfwxc3wnmfp373y",
+              "summary": "What is the Scrum meaning? Discover how Scrum helps deliver value, manages complexity, and moves teams from mechanical process to professionalism",
+              "whyRead": "Raakt je behoefte om Scrum begrippen helder te kunnen uitleggen: het verbindt de herkomst van het woord met professionaliteit en empirisch werken.",
+              "bestMoment": "leergierig",
+              "tags": [
+                "professional development",
+                "scrum"
+              ],
+              "alsoIn": []
+            },
+            {
+              "position": 64,
+              "id": "01m0kztgwcc1d43t3sdahzhg08",
+              "title": "Can a Scrum Master Transition to a Delivery Manager? Here's the Truth",
+              "author": "Scrum Facilitators",
+              "siteName": "YouTube",
+              "category": "video",
+              "language": null,
+              "readingTime": null,
+              "readingMinutes": null,
+              "wordCount": null,
+              "publishedDate": "2025-01-17",
+              "savedDate": "2026-08-22T05:41:44.460000+00:00",
+              "imageUrl": "https://i.ytimg.com/vi/7OVQ2vLk8S4/sddefault.jpg",
+              "sourceUrl": "https://www.youtube.com/watch?v=7OVQ2vLk8S4&list=PL8g6psFkuAKP3aFyGUTD6cPJ3Dp2S4QXi&index=2",
+              "readwiseUrl": "https://read.readwise.io/read/01m0kztgwcc1d43t3sdahzhg08",
+              "summary": "Can a Scrum Master also serve as a Delivery Manager? This question has sparked plenty of debate in Agile circles. In this video, we dive deep into the similarities and differences between these two pivotal roles, sharing expert insights and practical advice to help you navigate the overlap. Whether you’re a Scrum Master exploring career growth or an organization wondering about role clarity, this discussion will shed light on the topic.\n\n🔥 What You'll Learn:\n\nKey differences between Scrum Master and Delivery Manager roles\nSituations where the roles might overlap\nChallenges and benefits of combining these roles\nReal-world insights from Agile experts Steve Traps and Andy Hiles\nWe’ll unpack the myths, explore career paths, and discuss whether combining these roles can truly work. Don’t miss this engaging conversation!\n\n👉 Like, comment, and subscribe for more insights on Agile practices, Scrum, and leadership roles in modern organizations!",
+              "whyRead": "Raakt je interesse in scrum & agile werken — een informeel maar scherp gesprek over de vraag of Scrum Masters delivery managers moeten worden, met een concrete verklaring waarom de rol onder druk staat.",
+              "bestMoment": "analytisch",
+              "tags": [
+                "scrum"
+              ],
+              "alsoIn": [
+                "video-top-100"
+              ]
+            },
+            {
+              "position": 65,
+              "id": "01m0kztthka4bcp3a2mfxww828",
+              "title": "Are Scrum Masters in DANGER? 5 Ways to Prove Your Value!",
+              "author": "Scrum Facilitators",
+              "siteName": "YouTube",
+              "category": "video",
+              "language": null,
+              "readingTime": null,
+              "readingMinutes": null,
+              "wordCount": null,
+              "publishedDate": "2024-12-16",
+              "savedDate": "2026-08-22T05:41:54.356000+00:00",
+              "imageUrl": "https://i.ytimg.com/vi/OfRKW_1ClFM/sddefault.jpg",
+              "sourceUrl": "https://www.youtube.com/watch?v=OfRKW_1ClFM&list=PL8g6psFkuAKP3aFyGUTD6cPJ3Dp2S4QXi&index=4",
+              "readwiseUrl": "https://read.readwise.io/read/01m0kztthka4bcp3a2mfxww828",
+              "summary": "Are Scrum Masters Losing Their Edge? Discover the 5 Key Measures to Demonstrate Your Value!\n\nIn today’s Agile landscape, Scrum Masters are under immense pressure to prove their worth. From layoffs to questions about the role's relevance, it's time to tackle these challenges head-on.\n\nIn this video, Steve Trapps and Andy Hiles dive into the top 5 measures every Scrum Master must use to showcase their value:\n\nCycle Time – Track how quickly your team delivers value.\nSprint Goals – Ensure your team achieves valuable, outcome-driven goals.\nDefinition of Workflow – Create clarity and consistency in how work is done.\nRelease Predictability – Deliver high-quality products on time, every time.\nDefinition of Done – Maintain and improve quality with clear standards.\nThese critical Scrum Master practices will help you:\n\nImprove team performance.\nDrive stakeholder confidence with Agile metrics like cycle time.\nDemonstrate your team's ability to deliver consistent, high-quality results.\nWhether you’re a seasoned Scrum Master or just starting, this video is packed with actionable insights to help you navigate today’s Agile challenges.\n\n👉 Watch now and transform how you lead your team!\n\nSubscribe for more practical tips on Scrum, Agile, and team productivity.",
+              "whyRead": "Raakt je interesse in scrum & agile werken — een praktisch, beroepsmatig direct toepasbaar raamwerk van vijf meetbare manieren om als Scrum Master je waarde aan een organisatie aan te tonen.",
+              "bestMoment": "analytisch",
+              "tags": [
+                "scrum"
+              ],
+              "alsoIn": [
+                "video-top-100"
+              ]
+            },
+            {
+              "position": 66,
+              "id": "01m0kzv38gdmh51b4kzqg40mw9",
+              "title": "Are You OVERLOOKING These Critical Scrum Master Practices?",
+              "author": "Scrum Facilitators",
+              "siteName": "YouTube",
+              "category": "video",
+              "language": null,
+              "readingTime": null,
+              "readingMinutes": null,
+              "wordCount": null,
+              "publishedDate": "2024-12-13",
+              "savedDate": "2026-08-22T05:42:03.280000+00:00",
+              "imageUrl": "https://i.ytimg.com/vi/0hko9gthZVU/sddefault.jpg",
+              "sourceUrl": "https://www.youtube.com/watch?v=0hko9gthZVU&list=PL8g6psFkuAKP3aFyGUTD6cPJ3Dp2S4QXi&index=5",
+              "readwiseUrl": "https://read.readwise.io/read/01m0kzv38gdmh51b4kzqg40mw9",
+              "summary": "As a Certified Scrum Master, are you certain you’re leveraging Scrum metrics and sprint planning to their fullest potential? 🧩 Many Scrum Masters overlook crucial practices that can drastically enhance their team’s Agile success. Could you be one of them?\n\nIn this video, we’ll dive deep into:\n\nEffective sprint planning techniques to keep your team aligned.\nThe power of Scrum metrics and how to use them for better decision-making.\nProven strategies to overcome common challenges faced by Scrum Masters.\nWhether you’re new to Scrum or an experienced practitioner, these actionable tips will help you build confidence, drive productivity, and revolutionize your team’s performance.\n\nReady to uncover the critical Scrum Master practices that could take your team to the next level? Watch now and start mastering the tools of Agile success today! 🚀\n\nDon’t forget to like, comment, and subscribe for more expert tips on becoming a top-performing Scrum Master.",
+              "whyRead": "Raakt je interesse in scrum & agile werken — drie concrete, vaak vergeten Scrum Master-praktijken (definition of done, teamrelaties, refinement) met scherpe, direct toepasbare adviezen.",
+              "bestMoment": "analytisch",
+              "tags": [
+                "scrum"
+              ],
+              "alsoIn": [
+                "video-top-100"
+              ]
+            },
+            {
+              "position": 67,
+              "id": "01m0kzvbj6t6crzagc9kw1n43f",
+              "title": "3 Game-Changing Lessons I Wish I Knew Earlier as a #ScrumMaster",
+              "author": "Scrum Facilitators",
+              "siteName": "YouTube",
+              "category": "video",
+              "language": null,
+              "readingTime": null,
+              "readingMinutes": null,
+              "wordCount": null,
+              "publishedDate": "2024-11-12",
+              "savedDate": "2026-08-22T05:42:11.782000+00:00",
+              "imageUrl": "https://i.ytimg.com/vi/opFHnCa4wJ0/sddefault.jpg",
+              "sourceUrl": "https://www.youtube.com/watch?v=opFHnCa4wJ0&list=PL8g6psFkuAKP3aFyGUTD6cPJ3Dp2S4QXi&index=10",
+              "readwiseUrl": "https://read.readwise.io/read/01m0kzvbj6t6crzagc9kw1n43f",
+              "summary": "If I'd known these three insights from the start, my journey as a Scrum Master would have been a whole lot smoother! In this video, join me (Andy Hiles) and Steve Trapps as we dive into the hard-won lessons that every Scrum Master can benefit from-whether you're just starting out or years into your role.\n\n🔑 What You'll Learn:\n\nMetrics Matter - How the right metrics can back up your gut feeling, leading to better conversations and decisions.\nRelationship Building - Why connecting with people outside your immediate team makes a big difference.\nScrum Isn't Everything - Knowing when to adapt, and why Scrum may not always be the perfect fit.\n\nThese lessons have shaped our approach to Scrum and Agile coaching, and we're excited to share them with you! What's a lesson you wish you'd known earlier? Let us know in the comments!\n\n⏰ Time Stamps \n\n00:00 - Intro\n00:33 - Metrics\n03:52 - Relationships\n05:42 - Scrum Isn't Everything\n09:21 - Conclusion\n\n#ScrumMaster #Agile #Metrics #TeamBuilding #AgileMindset #scrumalliance #kanban",
+              "whyRead": "Raakt je interesse in scrum & agile werken — twee ervaren scrum.org-trainers delen drie lessen die ze vroeg in hun carrière hadden willen kennen, met een verrassend eerlijke relativering van scrum zelf als laatste les.",
+              "bestMoment": "analytisch",
+              "tags": [
+                "scrum"
+              ],
+              "alsoIn": [
+                "video-top-100"
+              ]
+            },
+            {
+              "position": 68,
+              "id": "01m0kzvhp90e4w4ycfaqv26f31",
+              "title": "5 Scrum Master Mistakes You MUST Avoid!",
+              "author": "Scrum Facilitators",
+              "siteName": "YouTube",
+              "category": "video",
+              "language": null,
+              "readingTime": null,
+              "readingMinutes": null,
+              "wordCount": null,
+              "publishedDate": "2024-10-04",
+              "savedDate": "2026-08-22T05:42:18.057000+00:00",
+              "imageUrl": "https://i.ytimg.com/vi/EmM__UN64Ms/sddefault.jpg",
+              "sourceUrl": "https://www.youtube.com/watch?v=EmM__UN64Ms&list=PL8g6psFkuAKP3aFyGUTD6cPJ3Dp2S4QXi&index=15",
+              "readwiseUrl": "https://read.readwise.io/read/01m0kzvhp90e4w4ycfaqv26f31",
+              "summary": "Avoid these 5 Scrum Master mistakes that can hold back your team’s success! In this video, we discuss critical missteps Scrum Masters make, like quoting the Scrum Guide too literally, trying to fix every problem, and more. \n\nMaster these common mistakes to improve your leadership and Agile process.\n\nWe’ll also explore:\n\nWhen not to fix every problem as a Scrum Master.\nHow over-facilitating can hurt your team’s delivery.\nThe danger of managing your team purely through metrics.\n\nCurious about the full details? \n\nWatch now to learn how these insights can make you a more effective Scrum Master and drive Agile success!\n\nFor in-depth training and expert-led courses, visit\nhttps://www.scrumfacilitators.com\n\n👉 Subscribe for more Scrum and Agile leadership tips.\n👉 Watch next: https://youtu.be/gpyB58-wGnI\n\n#ScrumMaster #AgileLeadership #ProjectManagement #ScrumMistakes #TeamFacilitation",
+              "whyRead": "Raakt je interesse in scrum & agile werken — vijf herkenbare valkuilen voor Scrum Masters, scherp en zelfkritisch gebracht (inclusief eigen anekdotes) binnen een bewust strak getimede 15-minutenformat.",
+              "bestMoment": "analytisch",
+              "tags": [
+                "scrum"
+              ],
+              "alsoIn": [
+                "video-top-100"
+              ]
+            },
+            {
+              "position": 69,
+              "id": "01m0kzwkwp6cjx5m2jn5stztex",
+              "title": "Scrum 101 Series - Episode 8 - Sprint Retrospective",
+              "author": "Scrum Facilitators",
+              "siteName": "YouTube",
+              "category": "video",
+              "language": null,
+              "readingTime": null,
+              "readingMinutes": null,
+              "wordCount": null,
+              "publishedDate": "2025-04-14",
+              "savedDate": "2026-08-22T05:42:53.079000+00:00",
+              "imageUrl": "https://i.ytimg.com/vi/M25SKIApyts/hqdefault.jpg?v=67fd0d2a",
+              "sourceUrl": "https://www.youtube.com/watch?v=M25SKIApyts&list=PL8g6psFkuAKPagwlAfRRawCuC_mAk-oLP&index=8",
+              "readwiseUrl": "https://read.readwise.io/read/01m0kzwkwp6cjx5m2jn5stztex",
+              "summary": "Scrum is easy to understand and difficult to Master.\n\nLet Steve and Ziryan explore how you ensure the Scrum Team looks forward to the Sprint Retrospective.\n\n#Scrum101 \n#scrum \n#scrummaster \n#Sprint",
+              "whyRead": "Raakt je interesse in scrum & agile werken — een diepgaande webinar-aflevering (Scrum Facilitators) over de sprint retrospective, met veel nuance over veelgemaakte misverstanden en praktische tips, inclusief live Q&A met kijkers.",
+              "bestMoment": "analytisch",
+              "tags": [
+                "scrum"
+              ],
+              "alsoIn": [
+                "video-top-100"
+              ]
+            },
+            {
+              "position": 70,
+              "id": "01m0kzws6tp6edn1k4t1dmr1rq",
+              "title": "Scrum 101 Series - Episode 2 - Product Owner",
+              "author": "Scrum Facilitators",
+              "siteName": "YouTube",
+              "category": "video",
+              "language": null,
+              "readingTime": null,
+              "readingMinutes": null,
+              "wordCount": null,
+              "publishedDate": "2025-02-03",
+              "savedDate": "2026-08-22T05:42:58.523000+00:00",
+              "imageUrl": "https://i.ytimg.com/vi/dr0kb9GBw_I/sddefault.jpg?sqp=-oaymwEmCIAFEOAD8quKqQMa8AEB-AH-CYAC0AWKAgwIABABGGUgUShTMA8=&rs=AOn4CLBFk2tbFHYtMlj_XPNb3kdEPKTrtg",
+              "sourceUrl": "https://www.youtube.com/watch?v=dr0kb9GBw_I&list=PL8g6psFkuAKPagwlAfRRawCuC_mAk-oLP&index=2",
+              "readwiseUrl": "https://read.readwise.io/read/01m0kzws6tp6edn1k4t1dmr1rq",
+              "summary": "As we continue with our Scrum 101 series, we delve into the accountability of the Product Owner. What should they be focusing on, what conversations should they have and with who.\n\nJoin us for 30 mins presentation, then 30 minutes of open discussion helping people to address their issues with Product Ownership\n\n#scrum #productowner #agile",
+              "whyRead": "Raakt je interesse in scrum & agile werken — een livestream-aflevering (Scrum Facilitators) volledig gewijd aan de rol van Product Owner, met veel publieksvragen over schaalvraagstukken (meerdere product owners, dependencies, project managers) die in de praktijk lastig zijn.",
+              "bestMoment": "analytisch",
+              "tags": [
+                "scrum"
+              ],
+              "alsoIn": [
+                "video-top-100"
+              ]
+            },
+            {
+              "position": 71,
+              "id": "01m0kzx60n6y7mjy1342dw0ynp",
+              "title": "Scrum 101 Series - Episode 3 - Scrum Master",
+              "author": "Scrum Facilitators",
+              "siteName": "YouTube",
+              "category": "video",
+              "language": null,
+              "readingTime": null,
+              "readingMinutes": null,
+              "wordCount": null,
+              "publishedDate": "2024-07-19",
+              "savedDate": "2026-08-22T05:43:11.637000+00:00",
+              "imageUrl": "https://i.ytimg.com/vi/NPbW7k8SyxU/sddefault.jpg?v=66f318a5",
+              "sourceUrl": "https://www.youtube.com/watch?v=NPbW7k8SyxU&list=PL8g6psFkuAKPagwlAfRRawCuC_mAk-oLP&index=3",
+              "readwiseUrl": "https://read.readwise.io/read/01m0kzx60n6y7mjy1342dw0ynp",
+              "summary": "Lets talk about what a Scrum Master should be doing.\n\nIn 30 minutes Ziryan and Steve explore the true intention of the Scrum Master\n\n#scrum #scrummaster #101 #psm #PSMIII #PSMII",
+              "whyRead": "Raakt je interesse in scrum & agile werken — een livestream-aflevering (Scrum Facilitators) die de rol van de Scrum Master herdefinieert vanuit de accountabilities in de scrum guide, met scherpe kritiek op hoe de rol in de praktijk vaak verwatert.",
+              "bestMoment": "analytisch",
+              "tags": [
+                "scrum"
+              ],
+              "alsoIn": [
+                "video-top-100"
+              ]
             }
           ]
         }
@@ -18252,29 +18924,29 @@ window.TOP_ARTICLES = {
             },
             {
               "position": 10,
-              "id": "01m072keryngnm1c9yrmmc2mkn",
-              "title": "Netflix CPTO on AI and the future of product and tech roles | Elizabeth Stone",
-              "author": "Lenny's Podcast",
+              "id": "01m0kztar8p0q02aet41a6xn7w",
+              "title": "Real World Agility EXPLAINED: Nick Brown’s Hard-Earned Lessons",
+              "author": "Scrum Facilitators",
               "siteName": "YouTube",
               "category": "video",
               "language": null,
               "readingTime": null,
               "readingMinutes": null,
               "wordCount": null,
-              "publishedDate": "2026-07-19",
-              "savedDate": "2026-08-17T05:20:11.038000+00:00",
-              "imageUrl": "https://i.ytimg.com/vi/t0GiTyz4syY/sddefault.jpg",
-              "sourceUrl": "https://youtube.com/watch/?v=t0GiTyz4syY",
-              "readwiseUrl": "https://read.readwise.io/read/01m072keryngnm1c9yrmmc2mkn",
-              "summary": "Elizabeth Stone is the Chief Product and Technology Officer (CPTO) at Netflix, where she oversees Engineering, Product, and Design. Since her first appearance on the podcast two years ago—which remained my second-most-popular episode for more than a year—she has expanded her role to lead product, in addition to engineering. Before Netflix, Elizabeth was VP of Science at Lyft, Chief Operating Officer at Nuna, an economist at Analysis Group, and a trader at Merrill Lynch.\n\n*In our in-depth conversation, we discuss:*\n1. Why “systems thinking” is now the most important skill she looks for\n2. How to manage the flood of AI-generated output without losing quality or signal\n3. How Netflix thinks about AI fluency as a universal expectation rather than a level-specific skill\n4. What “excellence as an operating system” means\n\n*Brought to you by:*\nWorkOS—Make your app enterprise-ready, with SSO, SCIM, RBAC, and more: https://workos.com/lenny\nMercury—Radically different banking, now with Command: https://mercury.com/\n\n*Episode transcript:* https://www.lennysnewsletter.com/p/netflix-cpto-on-ai-and-the-future\n*Archive of all Lenny's Podcast transcripts:* https://www.dropbox.com/scl/fo/yxi4s2w998p1gvtpu4193/AMdNPR8AOw0lMklwtnC0TrQ?rlkey=j06x0nipoti519e0xgm23zsn9&st=ahz0fj11&dl=0\n\n*Where to find Elizabeth Stone:*\n• LinkedIn: https://www.linkedin.com/in/elizabeth-stone-608a754\n\n*Where to find Lenny:*\n• Newsletter: https://www.lennysnewsletter.com\n• X: https://twitter.com/lennysan\n• LinkedIn: https://www.linkedin.com/in/lennyrachitsky/\n\n*In this episode, we cover:*\n(00:00) Introduction\n(02:25) AI and role confusion: the storming phase before the forming phase\n(07:36) How roles have changed in the past two and a half years\n(11:55) Will functions survive? The case for craft specialism\n(13:26) What Netflix is hiring more of—and less of\n(17:22) Why systems thinking is the rising skill across every function\n(20:20) Is the design process dead?\n(22:08) Skills trending down\n(28:33) AI flue...",
-              "whyRead": "Netflix' Chief Product & Technology Officer over welke vaardigheden AI juist niet overbodig maakt.",
-              "bestMoment": "leergierig",
+              "publishedDate": "2025-05-14",
+              "savedDate": "2026-08-22T05:41:38.185000+00:00",
+              "imageUrl": "https://i.ytimg.com/vi/yD2srH_dsyc/sddefault.jpg",
+              "sourceUrl": "https://www.youtube.com/watch?v=yD2srH_dsyc&list=PL8g6psFkuAKP3aFyGUTD6cPJ3Dp2S4QXi",
+              "readwiseUrl": "https://read.readwise.io/read/01m0kztar8p0q02aet41a6xn7w",
+              "summary": "Agile looks easy on paper. But in the real world? It’s a different story.\n\nIn this interview, we sit down with Nick Brown, author of Real World Agility, to unpack what it really takes to lead agile teams in complex environments. From Royal Mail to PwC, Nick shares his career journey and the lessons that shaped his approach to practical agility.\n\nIf you’ve ever struggled to apply agile frameworks in messy, real-life situations, this conversation is a must-watch.\n\n👉 Subscribe for more expert interviews on leadership and delivery\n👉 Learn more about agile training and storytelling for business: https://www.scrumfacilitators.com/\n\n⏱️ Chapters\n\n00:00 Welcome back & intro\n02:28 Early challenges with agile in the field\n04:54 What theory misses in real-world delivery\n07:25 Why agile doesn’t have to be complex\n09:44 Rethinking agile from a leadership lens\n12:16 Practical tips Nick hopes teams apply\n14:41 Expecting imperfection in agile teams\n16:57 How to validate what’s working\n19:26 Real-world tools Nick still uses\n21:49 Delivery thinking that actually works\n22:34 Final thoughts & wrap-up",
+              "whyRead": "Raakt scrum & agile werken direct — een diepgaand interview met Nick Brown (auteur van \"Real World Agility\") over waarom eerlijke faalverhalen waardevoller zijn dan gepolijste frameworks, en waarom cultuur het fundament van agile teams is.",
+              "bestMoment": "analytisch",
               "tags": [
-                "ai ethics & society",
-                "technology",
+                "scrum",
                 "video-top-10"
               ],
               "alsoIn": [
+                "aaa-scrum-top-100",
                 "video-top-100"
               ]
             }
@@ -18549,6 +19221,34 @@ window.TOP_ARTICLES = {
             },
             {
               "position": 10,
+              "id": "01m0kztar8p0q02aet41a6xn7w",
+              "title": "Real World Agility EXPLAINED: Nick Brown’s Hard-Earned Lessons",
+              "author": "Scrum Facilitators",
+              "siteName": "YouTube",
+              "category": "video",
+              "language": null,
+              "readingTime": null,
+              "readingMinutes": null,
+              "wordCount": null,
+              "publishedDate": "2025-05-14",
+              "savedDate": "2026-08-22T05:41:38.185000+00:00",
+              "imageUrl": "https://i.ytimg.com/vi/yD2srH_dsyc/sddefault.jpg",
+              "sourceUrl": "https://www.youtube.com/watch?v=yD2srH_dsyc&list=PL8g6psFkuAKP3aFyGUTD6cPJ3Dp2S4QXi",
+              "readwiseUrl": "https://read.readwise.io/read/01m0kztar8p0q02aet41a6xn7w",
+              "summary": "Agile looks easy on paper. But in the real world? It’s a different story.\n\nIn this interview, we sit down with Nick Brown, author of Real World Agility, to unpack what it really takes to lead agile teams in complex environments. From Royal Mail to PwC, Nick shares his career journey and the lessons that shaped his approach to practical agility.\n\nIf you’ve ever struggled to apply agile frameworks in messy, real-life situations, this conversation is a must-watch.\n\n👉 Subscribe for more expert interviews on leadership and delivery\n👉 Learn more about agile training and storytelling for business: https://www.scrumfacilitators.com/\n\n⏱️ Chapters\n\n00:00 Welcome back & intro\n02:28 Early challenges with agile in the field\n04:54 What theory misses in real-world delivery\n07:25 Why agile doesn’t have to be complex\n09:44 Rethinking agile from a leadership lens\n12:16 Practical tips Nick hopes teams apply\n14:41 Expecting imperfection in agile teams\n16:57 How to validate what’s working\n19:26 Real-world tools Nick still uses\n21:49 Delivery thinking that actually works\n22:34 Final thoughts & wrap-up",
+              "whyRead": "Raakt scrum & agile werken direct — een diepgaand interview met Nick Brown (auteur van \"Real World Agility\") over waarom eerlijke faalverhalen waardevoller zijn dan gepolijste frameworks, en waarom cultuur het fundament van agile teams is.",
+              "bestMoment": "analytisch",
+              "tags": [
+                "scrum",
+                "video-top-10"
+              ],
+              "alsoIn": [
+                "aaa-scrum-top-100",
+                "video-top-10"
+              ]
+            },
+            {
+              "position": 11,
               "id": "01m072keryngnm1c9yrmmc2mkn",
               "title": "Netflix CPTO on AI and the future of product and tech roles | Elizabeth Stone",
               "author": "Lenny's Podcast",
@@ -18571,12 +19271,218 @@ window.TOP_ARTICLES = {
                 "technology",
                 "video-top-10"
               ],
+              "alsoIn": []
+            },
+            {
+              "position": 12,
+              "id": "01m0kztgwcc1d43t3sdahzhg08",
+              "title": "Can a Scrum Master Transition to a Delivery Manager? Here's the Truth",
+              "author": "Scrum Facilitators",
+              "siteName": "YouTube",
+              "category": "video",
+              "language": null,
+              "readingTime": null,
+              "readingMinutes": null,
+              "wordCount": null,
+              "publishedDate": "2025-01-17",
+              "savedDate": "2026-08-22T05:41:44.460000+00:00",
+              "imageUrl": "https://i.ytimg.com/vi/7OVQ2vLk8S4/sddefault.jpg",
+              "sourceUrl": "https://www.youtube.com/watch?v=7OVQ2vLk8S4&list=PL8g6psFkuAKP3aFyGUTD6cPJ3Dp2S4QXi&index=2",
+              "readwiseUrl": "https://read.readwise.io/read/01m0kztgwcc1d43t3sdahzhg08",
+              "summary": "Can a Scrum Master also serve as a Delivery Manager? This question has sparked plenty of debate in Agile circles. In this video, we dive deep into the similarities and differences between these two pivotal roles, sharing expert insights and practical advice to help you navigate the overlap. Whether you’re a Scrum Master exploring career growth or an organization wondering about role clarity, this discussion will shed light on the topic.\n\n🔥 What You'll Learn:\n\nKey differences between Scrum Master and Delivery Manager roles\nSituations where the roles might overlap\nChallenges and benefits of combining these roles\nReal-world insights from Agile experts Steve Traps and Andy Hiles\nWe’ll unpack the myths, explore career paths, and discuss whether combining these roles can truly work. Don’t miss this engaging conversation!\n\n👉 Like, comment, and subscribe for more insights on Agile practices, Scrum, and leadership roles in modern organizations!",
+              "whyRead": "Raakt je interesse in scrum & agile werken — een informeel maar scherp gesprek over de vraag of Scrum Masters delivery managers moeten worden, met een concrete verklaring waarom de rol onder druk staat.",
+              "bestMoment": "analytisch",
+              "tags": [
+                "scrum"
+              ],
               "alsoIn": [
-                "video-top-10"
+                "aaa-scrum-top-100"
               ]
             },
             {
-              "position": 11,
+              "position": 13,
+              "id": "01m0kztthka4bcp3a2mfxww828",
+              "title": "Are Scrum Masters in DANGER? 5 Ways to Prove Your Value!",
+              "author": "Scrum Facilitators",
+              "siteName": "YouTube",
+              "category": "video",
+              "language": null,
+              "readingTime": null,
+              "readingMinutes": null,
+              "wordCount": null,
+              "publishedDate": "2024-12-16",
+              "savedDate": "2026-08-22T05:41:54.356000+00:00",
+              "imageUrl": "https://i.ytimg.com/vi/OfRKW_1ClFM/sddefault.jpg",
+              "sourceUrl": "https://www.youtube.com/watch?v=OfRKW_1ClFM&list=PL8g6psFkuAKP3aFyGUTD6cPJ3Dp2S4QXi&index=4",
+              "readwiseUrl": "https://read.readwise.io/read/01m0kztthka4bcp3a2mfxww828",
+              "summary": "Are Scrum Masters Losing Their Edge? Discover the 5 Key Measures to Demonstrate Your Value!\n\nIn today’s Agile landscape, Scrum Masters are under immense pressure to prove their worth. From layoffs to questions about the role's relevance, it's time to tackle these challenges head-on.\n\nIn this video, Steve Trapps and Andy Hiles dive into the top 5 measures every Scrum Master must use to showcase their value:\n\nCycle Time – Track how quickly your team delivers value.\nSprint Goals – Ensure your team achieves valuable, outcome-driven goals.\nDefinition of Workflow – Create clarity and consistency in how work is done.\nRelease Predictability – Deliver high-quality products on time, every time.\nDefinition of Done – Maintain and improve quality with clear standards.\nThese critical Scrum Master practices will help you:\n\nImprove team performance.\nDrive stakeholder confidence with Agile metrics like cycle time.\nDemonstrate your team's ability to deliver consistent, high-quality results.\nWhether you’re a seasoned Scrum Master or just starting, this video is packed with actionable insights to help you navigate today’s Agile challenges.\n\n👉 Watch now and transform how you lead your team!\n\nSubscribe for more practical tips on Scrum, Agile, and team productivity.",
+              "whyRead": "Raakt je interesse in scrum & agile werken — een praktisch, beroepsmatig direct toepasbaar raamwerk van vijf meetbare manieren om als Scrum Master je waarde aan een organisatie aan te tonen.",
+              "bestMoment": "analytisch",
+              "tags": [
+                "scrum"
+              ],
+              "alsoIn": [
+                "aaa-scrum-top-100"
+              ]
+            },
+            {
+              "position": 14,
+              "id": "01m0kzv38gdmh51b4kzqg40mw9",
+              "title": "Are You OVERLOOKING These Critical Scrum Master Practices?",
+              "author": "Scrum Facilitators",
+              "siteName": "YouTube",
+              "category": "video",
+              "language": null,
+              "readingTime": null,
+              "readingMinutes": null,
+              "wordCount": null,
+              "publishedDate": "2024-12-13",
+              "savedDate": "2026-08-22T05:42:03.280000+00:00",
+              "imageUrl": "https://i.ytimg.com/vi/0hko9gthZVU/sddefault.jpg",
+              "sourceUrl": "https://www.youtube.com/watch?v=0hko9gthZVU&list=PL8g6psFkuAKP3aFyGUTD6cPJ3Dp2S4QXi&index=5",
+              "readwiseUrl": "https://read.readwise.io/read/01m0kzv38gdmh51b4kzqg40mw9",
+              "summary": "As a Certified Scrum Master, are you certain you’re leveraging Scrum metrics and sprint planning to their fullest potential? 🧩 Many Scrum Masters overlook crucial practices that can drastically enhance their team’s Agile success. Could you be one of them?\n\nIn this video, we’ll dive deep into:\n\nEffective sprint planning techniques to keep your team aligned.\nThe power of Scrum metrics and how to use them for better decision-making.\nProven strategies to overcome common challenges faced by Scrum Masters.\nWhether you’re new to Scrum or an experienced practitioner, these actionable tips will help you build confidence, drive productivity, and revolutionize your team’s performance.\n\nReady to uncover the critical Scrum Master practices that could take your team to the next level? Watch now and start mastering the tools of Agile success today! 🚀\n\nDon’t forget to like, comment, and subscribe for more expert tips on becoming a top-performing Scrum Master.",
+              "whyRead": "Raakt je interesse in scrum & agile werken — drie concrete, vaak vergeten Scrum Master-praktijken (definition of done, teamrelaties, refinement) met scherpe, direct toepasbare adviezen.",
+              "bestMoment": "analytisch",
+              "tags": [
+                "scrum"
+              ],
+              "alsoIn": [
+                "aaa-scrum-top-100"
+              ]
+            },
+            {
+              "position": 15,
+              "id": "01m0kzvbj6t6crzagc9kw1n43f",
+              "title": "3 Game-Changing Lessons I Wish I Knew Earlier as a #ScrumMaster",
+              "author": "Scrum Facilitators",
+              "siteName": "YouTube",
+              "category": "video",
+              "language": null,
+              "readingTime": null,
+              "readingMinutes": null,
+              "wordCount": null,
+              "publishedDate": "2024-11-12",
+              "savedDate": "2026-08-22T05:42:11.782000+00:00",
+              "imageUrl": "https://i.ytimg.com/vi/opFHnCa4wJ0/sddefault.jpg",
+              "sourceUrl": "https://www.youtube.com/watch?v=opFHnCa4wJ0&list=PL8g6psFkuAKP3aFyGUTD6cPJ3Dp2S4QXi&index=10",
+              "readwiseUrl": "https://read.readwise.io/read/01m0kzvbj6t6crzagc9kw1n43f",
+              "summary": "If I'd known these three insights from the start, my journey as a Scrum Master would have been a whole lot smoother! In this video, join me (Andy Hiles) and Steve Trapps as we dive into the hard-won lessons that every Scrum Master can benefit from-whether you're just starting out or years into your role.\n\n🔑 What You'll Learn:\n\nMetrics Matter - How the right metrics can back up your gut feeling, leading to better conversations and decisions.\nRelationship Building - Why connecting with people outside your immediate team makes a big difference.\nScrum Isn't Everything - Knowing when to adapt, and why Scrum may not always be the perfect fit.\n\nThese lessons have shaped our approach to Scrum and Agile coaching, and we're excited to share them with you! What's a lesson you wish you'd known earlier? Let us know in the comments!\n\n⏰ Time Stamps \n\n00:00 - Intro\n00:33 - Metrics\n03:52 - Relationships\n05:42 - Scrum Isn't Everything\n09:21 - Conclusion\n\n#ScrumMaster #Agile #Metrics #TeamBuilding #AgileMindset #scrumalliance #kanban",
+              "whyRead": "Raakt je interesse in scrum & agile werken — twee ervaren scrum.org-trainers delen drie lessen die ze vroeg in hun carrière hadden willen kennen, met een verrassend eerlijke relativering van scrum zelf als laatste les.",
+              "bestMoment": "analytisch",
+              "tags": [
+                "scrum"
+              ],
+              "alsoIn": [
+                "aaa-scrum-top-100"
+              ]
+            },
+            {
+              "position": 16,
+              "id": "01m0kzvhp90e4w4ycfaqv26f31",
+              "title": "5 Scrum Master Mistakes You MUST Avoid!",
+              "author": "Scrum Facilitators",
+              "siteName": "YouTube",
+              "category": "video",
+              "language": null,
+              "readingTime": null,
+              "readingMinutes": null,
+              "wordCount": null,
+              "publishedDate": "2024-10-04",
+              "savedDate": "2026-08-22T05:42:18.057000+00:00",
+              "imageUrl": "https://i.ytimg.com/vi/EmM__UN64Ms/sddefault.jpg",
+              "sourceUrl": "https://www.youtube.com/watch?v=EmM__UN64Ms&list=PL8g6psFkuAKP3aFyGUTD6cPJ3Dp2S4QXi&index=15",
+              "readwiseUrl": "https://read.readwise.io/read/01m0kzvhp90e4w4ycfaqv26f31",
+              "summary": "Avoid these 5 Scrum Master mistakes that can hold back your team’s success! In this video, we discuss critical missteps Scrum Masters make, like quoting the Scrum Guide too literally, trying to fix every problem, and more. \n\nMaster these common mistakes to improve your leadership and Agile process.\n\nWe’ll also explore:\n\nWhen not to fix every problem as a Scrum Master.\nHow over-facilitating can hurt your team’s delivery.\nThe danger of managing your team purely through metrics.\n\nCurious about the full details? \n\nWatch now to learn how these insights can make you a more effective Scrum Master and drive Agile success!\n\nFor in-depth training and expert-led courses, visit\nhttps://www.scrumfacilitators.com\n\n👉 Subscribe for more Scrum and Agile leadership tips.\n👉 Watch next: https://youtu.be/gpyB58-wGnI\n\n#ScrumMaster #AgileLeadership #ProjectManagement #ScrumMistakes #TeamFacilitation",
+              "whyRead": "Raakt je interesse in scrum & agile werken — vijf herkenbare valkuilen voor Scrum Masters, scherp en zelfkritisch gebracht (inclusief eigen anekdotes) binnen een bewust strak getimede 15-minutenformat.",
+              "bestMoment": "analytisch",
+              "tags": [
+                "scrum"
+              ],
+              "alsoIn": [
+                "aaa-scrum-top-100"
+              ]
+            },
+            {
+              "position": 17,
+              "id": "01m0kzwkwp6cjx5m2jn5stztex",
+              "title": "Scrum 101 Series - Episode 8 - Sprint Retrospective",
+              "author": "Scrum Facilitators",
+              "siteName": "YouTube",
+              "category": "video",
+              "language": null,
+              "readingTime": null,
+              "readingMinutes": null,
+              "wordCount": null,
+              "publishedDate": "2025-04-14",
+              "savedDate": "2026-08-22T05:42:53.079000+00:00",
+              "imageUrl": "https://i.ytimg.com/vi/M25SKIApyts/hqdefault.jpg?v=67fd0d2a",
+              "sourceUrl": "https://www.youtube.com/watch?v=M25SKIApyts&list=PL8g6psFkuAKPagwlAfRRawCuC_mAk-oLP&index=8",
+              "readwiseUrl": "https://read.readwise.io/read/01m0kzwkwp6cjx5m2jn5stztex",
+              "summary": "Scrum is easy to understand and difficult to Master.\n\nLet Steve and Ziryan explore how you ensure the Scrum Team looks forward to the Sprint Retrospective.\n\n#Scrum101 \n#scrum \n#scrummaster \n#Sprint",
+              "whyRead": "Raakt je interesse in scrum & agile werken — een diepgaande webinar-aflevering (Scrum Facilitators) over de sprint retrospective, met veel nuance over veelgemaakte misverstanden en praktische tips, inclusief live Q&A met kijkers.",
+              "bestMoment": "analytisch",
+              "tags": [
+                "scrum"
+              ],
+              "alsoIn": [
+                "aaa-scrum-top-100"
+              ]
+            },
+            {
+              "position": 18,
+              "id": "01m0kzws6tp6edn1k4t1dmr1rq",
+              "title": "Scrum 101 Series - Episode 2 - Product Owner",
+              "author": "Scrum Facilitators",
+              "siteName": "YouTube",
+              "category": "video",
+              "language": null,
+              "readingTime": null,
+              "readingMinutes": null,
+              "wordCount": null,
+              "publishedDate": "2025-02-03",
+              "savedDate": "2026-08-22T05:42:58.523000+00:00",
+              "imageUrl": "https://i.ytimg.com/vi/dr0kb9GBw_I/sddefault.jpg?sqp=-oaymwEmCIAFEOAD8quKqQMa8AEB-AH-CYAC0AWKAgwIABABGGUgUShTMA8=&rs=AOn4CLBFk2tbFHYtMlj_XPNb3kdEPKTrtg",
+              "sourceUrl": "https://www.youtube.com/watch?v=dr0kb9GBw_I&list=PL8g6psFkuAKPagwlAfRRawCuC_mAk-oLP&index=2",
+              "readwiseUrl": "https://read.readwise.io/read/01m0kzws6tp6edn1k4t1dmr1rq",
+              "summary": "As we continue with our Scrum 101 series, we delve into the accountability of the Product Owner. What should they be focusing on, what conversations should they have and with who.\n\nJoin us for 30 mins presentation, then 30 minutes of open discussion helping people to address their issues with Product Ownership\n\n#scrum #productowner #agile",
+              "whyRead": "Raakt je interesse in scrum & agile werken — een livestream-aflevering (Scrum Facilitators) volledig gewijd aan de rol van Product Owner, met veel publieksvragen over schaalvraagstukken (meerdere product owners, dependencies, project managers) die in de praktijk lastig zijn.",
+              "bestMoment": "analytisch",
+              "tags": [
+                "scrum"
+              ],
+              "alsoIn": [
+                "aaa-scrum-top-100"
+              ]
+            },
+            {
+              "position": 19,
+              "id": "01m0kzx60n6y7mjy1342dw0ynp",
+              "title": "Scrum 101 Series - Episode 3 - Scrum Master",
+              "author": "Scrum Facilitators",
+              "siteName": "YouTube",
+              "category": "video",
+              "language": null,
+              "readingTime": null,
+              "readingMinutes": null,
+              "wordCount": null,
+              "publishedDate": "2024-07-19",
+              "savedDate": "2026-08-22T05:43:11.637000+00:00",
+              "imageUrl": "https://i.ytimg.com/vi/NPbW7k8SyxU/sddefault.jpg?v=66f318a5",
+              "sourceUrl": "https://www.youtube.com/watch?v=NPbW7k8SyxU&list=PL8g6psFkuAKPagwlAfRRawCuC_mAk-oLP&index=3",
+              "readwiseUrl": "https://read.readwise.io/read/01m0kzx60n6y7mjy1342dw0ynp",
+              "summary": "Lets talk about what a Scrum Master should be doing.\n\nIn 30 minutes Ziryan and Steve explore the true intention of the Scrum Master\n\n#scrum #scrummaster #101 #psm #PSMIII #PSMII",
+              "whyRead": "Raakt je interesse in scrum & agile werken — een livestream-aflevering (Scrum Facilitators) die de rol van de Scrum Master herdefinieert vanuit de accountabilities in de scrum guide, met scherpe kritiek op hoe de rol in de praktijk vaak verwatert.",
+              "bestMoment": "analytisch",
+              "tags": [
+                "scrum"
+              ],
+              "alsoIn": [
+                "aaa-scrum-top-100"
+              ]
+            },
+            {
+              "position": 20,
               "id": "01jz08k6qxtb6j3ag61pe6z9cg",
               "title": "Andrej Karpathy: Software Is Changing (Again)",
               "author": "Y Combinator",
@@ -18607,6 +19513,1021 @@ window.TOP_ARTICLES = {
   ],
   "catalog": {
     "items": [
+      {
+        "position": null,
+        "id": "01m0kzx60n6y7mjy1342dw0ynp",
+        "title": "Scrum 101 Series - Episode 3 - Scrum Master",
+        "author": "Scrum Facilitators",
+        "siteName": "YouTube",
+        "category": "video",
+        "language": null,
+        "readingTime": null,
+        "readingMinutes": null,
+        "wordCount": null,
+        "publishedDate": "2024-07-19",
+        "savedDate": "2026-08-22T05:43:11.637000+00:00",
+        "imageUrl": "https://i.ytimg.com/vi/NPbW7k8SyxU/sddefault.jpg?v=66f318a5",
+        "sourceUrl": "https://www.youtube.com/watch?v=NPbW7k8SyxU&list=PL8g6psFkuAKPagwlAfRRawCuC_mAk-oLP&index=3",
+        "readwiseUrl": "https://read.readwise.io/read/01m0kzx60n6y7mjy1342dw0ynp",
+        "summary": "Lets talk about what a Scrum Master should be doing.\n\nIn 30 minutes Ziryan and Steve explore the true intention of the Scrum Master\n\n#scrum #scrummaster #101 #psm #PSMIII #PSMII",
+        "whyRead": "Raakt je interesse in scrum & agile werken — een livestream-aflevering (Scrum Facilitators) die de rol van de Scrum Master herdefinieert vanuit de accountabilities in de scrum guide, met scherpe kritiek op hoe de rol in de praktijk vaak verwatert.",
+        "bestMoment": "analytisch",
+        "tags": [
+          "scrum"
+        ],
+        "alsoIn": [
+          "aaa-scrum-top-100",
+          "video-top-100"
+        ],
+        "memberships": [
+          {
+            "familyId": "scrum",
+            "size": "top-100",
+            "position": 71
+          },
+          {
+            "familyId": "videos",
+            "size": "top-100",
+            "position": 19
+          }
+        ]
+      },
+      {
+        "position": null,
+        "id": "01m0kzws6tp6edn1k4t1dmr1rq",
+        "title": "Scrum 101 Series - Episode 2 - Product Owner",
+        "author": "Scrum Facilitators",
+        "siteName": "YouTube",
+        "category": "video",
+        "language": null,
+        "readingTime": null,
+        "readingMinutes": null,
+        "wordCount": null,
+        "publishedDate": "2025-02-03",
+        "savedDate": "2026-08-22T05:42:58.523000+00:00",
+        "imageUrl": "https://i.ytimg.com/vi/dr0kb9GBw_I/sddefault.jpg?sqp=-oaymwEmCIAFEOAD8quKqQMa8AEB-AH-CYAC0AWKAgwIABABGGUgUShTMA8=&rs=AOn4CLBFk2tbFHYtMlj_XPNb3kdEPKTrtg",
+        "sourceUrl": "https://www.youtube.com/watch?v=dr0kb9GBw_I&list=PL8g6psFkuAKPagwlAfRRawCuC_mAk-oLP&index=2",
+        "readwiseUrl": "https://read.readwise.io/read/01m0kzws6tp6edn1k4t1dmr1rq",
+        "summary": "As we continue with our Scrum 101 series, we delve into the accountability of the Product Owner. What should they be focusing on, what conversations should they have and with who.\n\nJoin us for 30 mins presentation, then 30 minutes of open discussion helping people to address their issues with Product Ownership\n\n#scrum #productowner #agile",
+        "whyRead": "Raakt je interesse in scrum & agile werken — een livestream-aflevering (Scrum Facilitators) volledig gewijd aan de rol van Product Owner, met veel publieksvragen over schaalvraagstukken (meerdere product owners, dependencies, project managers) die in de praktijk lastig zijn.",
+        "bestMoment": "analytisch",
+        "tags": [
+          "scrum"
+        ],
+        "alsoIn": [
+          "aaa-scrum-top-100",
+          "video-top-100"
+        ],
+        "memberships": [
+          {
+            "familyId": "scrum",
+            "size": "top-100",
+            "position": 70
+          },
+          {
+            "familyId": "videos",
+            "size": "top-100",
+            "position": 18
+          }
+        ]
+      },
+      {
+        "position": null,
+        "id": "01m0kzwkwp6cjx5m2jn5stztex",
+        "title": "Scrum 101 Series - Episode 8 - Sprint Retrospective",
+        "author": "Scrum Facilitators",
+        "siteName": "YouTube",
+        "category": "video",
+        "language": null,
+        "readingTime": null,
+        "readingMinutes": null,
+        "wordCount": null,
+        "publishedDate": "2025-04-14",
+        "savedDate": "2026-08-22T05:42:53.079000+00:00",
+        "imageUrl": "https://i.ytimg.com/vi/M25SKIApyts/hqdefault.jpg?v=67fd0d2a",
+        "sourceUrl": "https://www.youtube.com/watch?v=M25SKIApyts&list=PL8g6psFkuAKPagwlAfRRawCuC_mAk-oLP&index=8",
+        "readwiseUrl": "https://read.readwise.io/read/01m0kzwkwp6cjx5m2jn5stztex",
+        "summary": "Scrum is easy to understand and difficult to Master.\n\nLet Steve and Ziryan explore how you ensure the Scrum Team looks forward to the Sprint Retrospective.\n\n#Scrum101 \n#scrum \n#scrummaster \n#Sprint",
+        "whyRead": "Raakt je interesse in scrum & agile werken — een diepgaande webinar-aflevering (Scrum Facilitators) over de sprint retrospective, met veel nuance over veelgemaakte misverstanden en praktische tips, inclusief live Q&A met kijkers.",
+        "bestMoment": "analytisch",
+        "tags": [
+          "scrum"
+        ],
+        "alsoIn": [
+          "aaa-scrum-top-100",
+          "video-top-100"
+        ],
+        "memberships": [
+          {
+            "familyId": "scrum",
+            "size": "top-100",
+            "position": 69
+          },
+          {
+            "familyId": "videos",
+            "size": "top-100",
+            "position": 17
+          }
+        ]
+      },
+      {
+        "position": null,
+        "id": "01m0kzvhp90e4w4ycfaqv26f31",
+        "title": "5 Scrum Master Mistakes You MUST Avoid!",
+        "author": "Scrum Facilitators",
+        "siteName": "YouTube",
+        "category": "video",
+        "language": null,
+        "readingTime": null,
+        "readingMinutes": null,
+        "wordCount": null,
+        "publishedDate": "2024-10-04",
+        "savedDate": "2026-08-22T05:42:18.057000+00:00",
+        "imageUrl": "https://i.ytimg.com/vi/EmM__UN64Ms/sddefault.jpg",
+        "sourceUrl": "https://www.youtube.com/watch?v=EmM__UN64Ms&list=PL8g6psFkuAKP3aFyGUTD6cPJ3Dp2S4QXi&index=15",
+        "readwiseUrl": "https://read.readwise.io/read/01m0kzvhp90e4w4ycfaqv26f31",
+        "summary": "Avoid these 5 Scrum Master mistakes that can hold back your team’s success! In this video, we discuss critical missteps Scrum Masters make, like quoting the Scrum Guide too literally, trying to fix every problem, and more. \n\nMaster these common mistakes to improve your leadership and Agile process.\n\nWe’ll also explore:\n\nWhen not to fix every problem as a Scrum Master.\nHow over-facilitating can hurt your team’s delivery.\nThe danger of managing your team purely through metrics.\n\nCurious about the full details? \n\nWatch now to learn how these insights can make you a more effective Scrum Master and drive Agile success!\n\nFor in-depth training and expert-led courses, visit\nhttps://www.scrumfacilitators.com\n\n👉 Subscribe for more Scrum and Agile leadership tips.\n👉 Watch next: https://youtu.be/gpyB58-wGnI\n\n#ScrumMaster #AgileLeadership #ProjectManagement #ScrumMistakes #TeamFacilitation",
+        "whyRead": "Raakt je interesse in scrum & agile werken — vijf herkenbare valkuilen voor Scrum Masters, scherp en zelfkritisch gebracht (inclusief eigen anekdotes) binnen een bewust strak getimede 15-minutenformat.",
+        "bestMoment": "analytisch",
+        "tags": [
+          "scrum"
+        ],
+        "alsoIn": [
+          "aaa-scrum-top-100",
+          "video-top-100"
+        ],
+        "memberships": [
+          {
+            "familyId": "scrum",
+            "size": "top-100",
+            "position": 68
+          },
+          {
+            "familyId": "videos",
+            "size": "top-100",
+            "position": 16
+          }
+        ]
+      },
+      {
+        "position": null,
+        "id": "01m0kzvbj6t6crzagc9kw1n43f",
+        "title": "3 Game-Changing Lessons I Wish I Knew Earlier as a #ScrumMaster",
+        "author": "Scrum Facilitators",
+        "siteName": "YouTube",
+        "category": "video",
+        "language": null,
+        "readingTime": null,
+        "readingMinutes": null,
+        "wordCount": null,
+        "publishedDate": "2024-11-12",
+        "savedDate": "2026-08-22T05:42:11.782000+00:00",
+        "imageUrl": "https://i.ytimg.com/vi/opFHnCa4wJ0/sddefault.jpg",
+        "sourceUrl": "https://www.youtube.com/watch?v=opFHnCa4wJ0&list=PL8g6psFkuAKP3aFyGUTD6cPJ3Dp2S4QXi&index=10",
+        "readwiseUrl": "https://read.readwise.io/read/01m0kzvbj6t6crzagc9kw1n43f",
+        "summary": "If I'd known these three insights from the start, my journey as a Scrum Master would have been a whole lot smoother! In this video, join me (Andy Hiles) and Steve Trapps as we dive into the hard-won lessons that every Scrum Master can benefit from-whether you're just starting out or years into your role.\n\n🔑 What You'll Learn:\n\nMetrics Matter - How the right metrics can back up your gut feeling, leading to better conversations and decisions.\nRelationship Building - Why connecting with people outside your immediate team makes a big difference.\nScrum Isn't Everything - Knowing when to adapt, and why Scrum may not always be the perfect fit.\n\nThese lessons have shaped our approach to Scrum and Agile coaching, and we're excited to share them with you! What's a lesson you wish you'd known earlier? Let us know in the comments!\n\n⏰ Time Stamps \n\n00:00 - Intro\n00:33 - Metrics\n03:52 - Relationships\n05:42 - Scrum Isn't Everything\n09:21 - Conclusion\n\n#ScrumMaster #Agile #Metrics #TeamBuilding #AgileMindset #scrumalliance #kanban",
+        "whyRead": "Raakt je interesse in scrum & agile werken — twee ervaren scrum.org-trainers delen drie lessen die ze vroeg in hun carrière hadden willen kennen, met een verrassend eerlijke relativering van scrum zelf als laatste les.",
+        "bestMoment": "analytisch",
+        "tags": [
+          "scrum"
+        ],
+        "alsoIn": [
+          "aaa-scrum-top-100",
+          "video-top-100"
+        ],
+        "memberships": [
+          {
+            "familyId": "scrum",
+            "size": "top-100",
+            "position": 67
+          },
+          {
+            "familyId": "videos",
+            "size": "top-100",
+            "position": 15
+          }
+        ]
+      },
+      {
+        "position": null,
+        "id": "01m0kzv38gdmh51b4kzqg40mw9",
+        "title": "Are You OVERLOOKING These Critical Scrum Master Practices?",
+        "author": "Scrum Facilitators",
+        "siteName": "YouTube",
+        "category": "video",
+        "language": null,
+        "readingTime": null,
+        "readingMinutes": null,
+        "wordCount": null,
+        "publishedDate": "2024-12-13",
+        "savedDate": "2026-08-22T05:42:03.280000+00:00",
+        "imageUrl": "https://i.ytimg.com/vi/0hko9gthZVU/sddefault.jpg",
+        "sourceUrl": "https://www.youtube.com/watch?v=0hko9gthZVU&list=PL8g6psFkuAKP3aFyGUTD6cPJ3Dp2S4QXi&index=5",
+        "readwiseUrl": "https://read.readwise.io/read/01m0kzv38gdmh51b4kzqg40mw9",
+        "summary": "As a Certified Scrum Master, are you certain you’re leveraging Scrum metrics and sprint planning to their fullest potential? 🧩 Many Scrum Masters overlook crucial practices that can drastically enhance their team’s Agile success. Could you be one of them?\n\nIn this video, we’ll dive deep into:\n\nEffective sprint planning techniques to keep your team aligned.\nThe power of Scrum metrics and how to use them for better decision-making.\nProven strategies to overcome common challenges faced by Scrum Masters.\nWhether you’re new to Scrum or an experienced practitioner, these actionable tips will help you build confidence, drive productivity, and revolutionize your team’s performance.\n\nReady to uncover the critical Scrum Master practices that could take your team to the next level? Watch now and start mastering the tools of Agile success today! 🚀\n\nDon’t forget to like, comment, and subscribe for more expert tips on becoming a top-performing Scrum Master.",
+        "whyRead": "Raakt je interesse in scrum & agile werken — drie concrete, vaak vergeten Scrum Master-praktijken (definition of done, teamrelaties, refinement) met scherpe, direct toepasbare adviezen.",
+        "bestMoment": "analytisch",
+        "tags": [
+          "scrum"
+        ],
+        "alsoIn": [
+          "aaa-scrum-top-100",
+          "video-top-100"
+        ],
+        "memberships": [
+          {
+            "familyId": "scrum",
+            "size": "top-100",
+            "position": 66
+          },
+          {
+            "familyId": "videos",
+            "size": "top-100",
+            "position": 14
+          }
+        ]
+      },
+      {
+        "position": null,
+        "id": "01m0kztthka4bcp3a2mfxww828",
+        "title": "Are Scrum Masters in DANGER? 5 Ways to Prove Your Value!",
+        "author": "Scrum Facilitators",
+        "siteName": "YouTube",
+        "category": "video",
+        "language": null,
+        "readingTime": null,
+        "readingMinutes": null,
+        "wordCount": null,
+        "publishedDate": "2024-12-16",
+        "savedDate": "2026-08-22T05:41:54.356000+00:00",
+        "imageUrl": "https://i.ytimg.com/vi/OfRKW_1ClFM/sddefault.jpg",
+        "sourceUrl": "https://www.youtube.com/watch?v=OfRKW_1ClFM&list=PL8g6psFkuAKP3aFyGUTD6cPJ3Dp2S4QXi&index=4",
+        "readwiseUrl": "https://read.readwise.io/read/01m0kztthka4bcp3a2mfxww828",
+        "summary": "Are Scrum Masters Losing Their Edge? Discover the 5 Key Measures to Demonstrate Your Value!\n\nIn today’s Agile landscape, Scrum Masters are under immense pressure to prove their worth. From layoffs to questions about the role's relevance, it's time to tackle these challenges head-on.\n\nIn this video, Steve Trapps and Andy Hiles dive into the top 5 measures every Scrum Master must use to showcase their value:\n\nCycle Time – Track how quickly your team delivers value.\nSprint Goals – Ensure your team achieves valuable, outcome-driven goals.\nDefinition of Workflow – Create clarity and consistency in how work is done.\nRelease Predictability – Deliver high-quality products on time, every time.\nDefinition of Done – Maintain and improve quality with clear standards.\nThese critical Scrum Master practices will help you:\n\nImprove team performance.\nDrive stakeholder confidence with Agile metrics like cycle time.\nDemonstrate your team's ability to deliver consistent, high-quality results.\nWhether you’re a seasoned Scrum Master or just starting, this video is packed with actionable insights to help you navigate today’s Agile challenges.\n\n👉 Watch now and transform how you lead your team!\n\nSubscribe for more practical tips on Scrum, Agile, and team productivity.",
+        "whyRead": "Raakt je interesse in scrum & agile werken — een praktisch, beroepsmatig direct toepasbaar raamwerk van vijf meetbare manieren om als Scrum Master je waarde aan een organisatie aan te tonen.",
+        "bestMoment": "analytisch",
+        "tags": [
+          "scrum"
+        ],
+        "alsoIn": [
+          "aaa-scrum-top-100",
+          "video-top-100"
+        ],
+        "memberships": [
+          {
+            "familyId": "scrum",
+            "size": "top-100",
+            "position": 65
+          },
+          {
+            "familyId": "videos",
+            "size": "top-100",
+            "position": 13
+          }
+        ]
+      },
+      {
+        "position": null,
+        "id": "01m0kztgwcc1d43t3sdahzhg08",
+        "title": "Can a Scrum Master Transition to a Delivery Manager? Here's the Truth",
+        "author": "Scrum Facilitators",
+        "siteName": "YouTube",
+        "category": "video",
+        "language": null,
+        "readingTime": null,
+        "readingMinutes": null,
+        "wordCount": null,
+        "publishedDate": "2025-01-17",
+        "savedDate": "2026-08-22T05:41:44.460000+00:00",
+        "imageUrl": "https://i.ytimg.com/vi/7OVQ2vLk8S4/sddefault.jpg",
+        "sourceUrl": "https://www.youtube.com/watch?v=7OVQ2vLk8S4&list=PL8g6psFkuAKP3aFyGUTD6cPJ3Dp2S4QXi&index=2",
+        "readwiseUrl": "https://read.readwise.io/read/01m0kztgwcc1d43t3sdahzhg08",
+        "summary": "Can a Scrum Master also serve as a Delivery Manager? This question has sparked plenty of debate in Agile circles. In this video, we dive deep into the similarities and differences between these two pivotal roles, sharing expert insights and practical advice to help you navigate the overlap. Whether you’re a Scrum Master exploring career growth or an organization wondering about role clarity, this discussion will shed light on the topic.\n\n🔥 What You'll Learn:\n\nKey differences between Scrum Master and Delivery Manager roles\nSituations where the roles might overlap\nChallenges and benefits of combining these roles\nReal-world insights from Agile experts Steve Traps and Andy Hiles\nWe’ll unpack the myths, explore career paths, and discuss whether combining these roles can truly work. Don’t miss this engaging conversation!\n\n👉 Like, comment, and subscribe for more insights on Agile practices, Scrum, and leadership roles in modern organizations!",
+        "whyRead": "Raakt je interesse in scrum & agile werken — een informeel maar scherp gesprek over de vraag of Scrum Masters delivery managers moeten worden, met een concrete verklaring waarom de rol onder druk staat.",
+        "bestMoment": "analytisch",
+        "tags": [
+          "scrum"
+        ],
+        "alsoIn": [
+          "aaa-scrum-top-100",
+          "video-top-100"
+        ],
+        "memberships": [
+          {
+            "familyId": "scrum",
+            "size": "top-100",
+            "position": 64
+          },
+          {
+            "familyId": "videos",
+            "size": "top-100",
+            "position": 12
+          }
+        ]
+      },
+      {
+        "position": null,
+        "id": "01m0kztar8p0q02aet41a6xn7w",
+        "title": "Real World Agility EXPLAINED: Nick Brown’s Hard-Earned Lessons",
+        "author": "Scrum Facilitators",
+        "siteName": "YouTube",
+        "category": "video",
+        "language": null,
+        "readingTime": null,
+        "readingMinutes": null,
+        "wordCount": null,
+        "publishedDate": "2025-05-14",
+        "savedDate": "2026-08-22T05:41:38.185000+00:00",
+        "imageUrl": "https://i.ytimg.com/vi/yD2srH_dsyc/sddefault.jpg",
+        "sourceUrl": "https://www.youtube.com/watch?v=yD2srH_dsyc&list=PL8g6psFkuAKP3aFyGUTD6cPJ3Dp2S4QXi",
+        "readwiseUrl": "https://read.readwise.io/read/01m0kztar8p0q02aet41a6xn7w",
+        "summary": "Agile looks easy on paper. But in the real world? It’s a different story.\n\nIn this interview, we sit down with Nick Brown, author of Real World Agility, to unpack what it really takes to lead agile teams in complex environments. From Royal Mail to PwC, Nick shares his career journey and the lessons that shaped his approach to practical agility.\n\nIf you’ve ever struggled to apply agile frameworks in messy, real-life situations, this conversation is a must-watch.\n\n👉 Subscribe for more expert interviews on leadership and delivery\n👉 Learn more about agile training and storytelling for business: https://www.scrumfacilitators.com/\n\n⏱️ Chapters\n\n00:00 Welcome back & intro\n02:28 Early challenges with agile in the field\n04:54 What theory misses in real-world delivery\n07:25 Why agile doesn’t have to be complex\n09:44 Rethinking agile from a leadership lens\n12:16 Practical tips Nick hopes teams apply\n14:41 Expecting imperfection in agile teams\n16:57 How to validate what’s working\n19:26 Real-world tools Nick still uses\n21:49 Delivery thinking that actually works\n22:34 Final thoughts & wrap-up",
+        "whyRead": "Raakt scrum & agile werken direct — een diepgaand interview met Nick Brown (auteur van \"Real World Agility\") over waarom eerlijke faalverhalen waardevoller zijn dan gepolijste frameworks, en waarom cultuur het fundament van agile teams is.",
+        "bestMoment": "analytisch",
+        "tags": [
+          "scrum",
+          "video-top-10"
+        ],
+        "alsoIn": [
+          "aaa-scrum-top-100",
+          "video-top-10",
+          "video-top-100"
+        ],
+        "memberships": [
+          {
+            "familyId": "scrum",
+            "size": "top-100",
+            "position": 36
+          },
+          {
+            "familyId": "videos",
+            "size": "top-10",
+            "position": 10
+          },
+          {
+            "familyId": "videos",
+            "size": "top-100",
+            "position": 10
+          }
+        ]
+      },
+      {
+        "position": null,
+        "id": "01m0kk41832n0tav3gjxdhask9",
+        "title": "Agile is 25: Which Practices Still Work in 2026 and Which Don't?",
+        "author": "vibhorchandel.com",
+        "siteName": "vibhorchandel.com",
+        "category": "article",
+        "language": null,
+        "readingTime": "13 mins",
+        "readingMinutes": 13,
+        "wordCount": 3382,
+        "publishedDate": "2026-07-12",
+        "savedDate": "2026-08-22T01:59:44.643000+00:00",
+        "imageUrl": "https://substackcdn.com/image/fetch/$s_!Dxau!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F9ed85dc2-9437-4f5b-b199-272633de2abf_2620x1086.jpeg",
+        "sourceUrl": "https://www.vibhorchandel.com/p/agile-is-25-which-practices-still-make-sense",
+        "readwiseUrl": "https://read.readwise.io/read/01m0kk41832n0tav3gjxdhask9",
+        "summary": "A practical framework for separating useful Agile practices from rituals that no longer serve the team.",
+        "whyRead": "Kerninteresse scrum & agile werken, en een uitzonderlijk grondige, kritische audit van 25 jaar Agile-praktijk — precies het soort analytisch essay met een duidelijke stem, geen oppervlakkige listicle.",
+        "bestMoment": "analytisch",
+        "tags": [
+          "scrum"
+        ],
+        "alsoIn": [
+          "aaa-scrum-top-100"
+        ],
+        "memberships": [
+          {
+            "familyId": "scrum",
+            "size": "top-100",
+            "position": 35
+          }
+        ]
+      },
+      {
+        "position": null,
+        "id": "01m0kk39ej35nn1j1xszgypca2",
+        "title": "Linking Every User Story to the Product Goal",
+        "author": "vibhorchandel.com",
+        "siteName": "vibhorchandel.com",
+        "category": "article",
+        "language": null,
+        "readingTime": "6 mins",
+        "readingMinutes": 6,
+        "wordCount": 1348,
+        "publishedDate": "2025-09-28",
+        "savedDate": "2026-08-22T01:59:20.274000+00:00",
+        "imageUrl": "https://substackcdn.com/image/fetch/$s_!jpj1!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fef2c9b84-57f4-453e-bbc3-a28d8d7f72b5_1456x882.png",
+        "sourceUrl": "https://www.vibhorchandel.com/p/linking-every-user-story-to-the-product-goal",
+        "readwiseUrl": "https://read.readwise.io/read/01m0kk39ej35nn1j1xszgypca2",
+        "summary": "A small habit that keeps the whole Scrum Team laser-focused on outcomes, not output.",
+        "whyRead": "Raakt scrum & agile werken direct — een praktisch, goed onderbouwd stuk over waarom en hoe je user stories expliciet koppelt aan het Product Goal, met een concrete 3-stappen-methode.",
+        "bestMoment": "leergierig",
+        "tags": [
+          "scrum"
+        ],
+        "alsoIn": [
+          "aaa-scrum-top-100"
+        ],
+        "memberships": [
+          {
+            "familyId": "scrum",
+            "size": "top-100",
+            "position": 27
+          }
+        ]
+      },
+      {
+        "position": null,
+        "id": "01m0kk38p4qwk0xrbjj01g52ck",
+        "title": "6 Steps to Effectively Manage Product Backlog\n6 Steps to Effectively Manage Product Backlog",
+        "author": "vibhorchandel.com",
+        "siteName": "vibhorchandel.com",
+        "category": "article",
+        "language": null,
+        "readingTime": "2 mins",
+        "readingMinutes": 2,
+        "wordCount": 422,
+        "publishedDate": "2023-10-05",
+        "savedDate": "2026-08-22T01:59:19.492000+00:00",
+        "imageUrl": "https://substackcdn.com/image/fetch/w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F86bade29-1b3f-4446-8bfd-2a35d6bf81fc_1920x1080.jpeg",
+        "sourceUrl": "https://www.vibhorchandel.com/p/6-steps-to-effectively-manage-product",
+        "readwiseUrl": "https://read.readwise.io/read/01m0kk38p4qwk0xrbjj01g52ck",
+        "summary": "Part 5 of my 7 part training series on Foundational Scrum Master skills",
+        "whyRead": "Raakt scrum & agile werken — deel 5 van een trainingsreeks over Scrum Master-vaardigheden, met een helder onderscheid tussen Backlog Refinement en Backlog Management.",
+        "bestMoment": "leergierig",
+        "tags": [
+          "scrum"
+        ],
+        "alsoIn": [
+          "aaa-scrum-top-100"
+        ],
+        "memberships": [
+          {
+            "familyId": "scrum",
+            "size": "top-100",
+            "position": 62
+          }
+        ]
+      },
+      {
+        "position": null,
+        "id": "01m0k3hr0fm2zdqmg55xb8dnb0",
+        "title": "If AI Can Replace Your Scrummaster, You Never Had a Scrummaster",
+        "author": "Erwin Verweij",
+        "siteName": "Agile Viking Galaxy",
+        "category": "article",
+        "language": null,
+        "readingTime": "6 mins",
+        "readingMinutes": 6,
+        "wordCount": 1459,
+        "publishedDate": "2026-08-13",
+        "savedDate": "2026-08-21T21:27:36.719000+00:00",
+        "imageUrl": "https://substackcdn.com/image/fetch/$s_!qJNZ!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F5da4be90-839a-48b2-9ae6-9b7437e05676_1683x935.png",
+        "sourceUrl": "https://agileviking.substack.com/p/if-ai-can-replace-your-scrummaster?utm_source=direct&r=1r0y5d&utm_campaign=post-expanded-share&utm_medium=post%20viewer",
+        "readwiseUrl": "https://read.readwise.io/read/01m0k3hr0fm2zdqmg55xb8dnb0",
+        "summary": "Why artificial intelligence will not kill Agile coaching, but may finally remove the administrative theatre that has been impersonating it",
+        "whyRead": "Raakt je interesse in scrum en agile coaching — scherp onderscheid tussen wat AI wél kan overnemen (ceremonie-administratie) en wat niet (psychologische veiligheid, macht, vertrouwen).",
+        "bestMoment": "analytisch",
+        "tags": [
+          "scrum"
+        ],
+        "alsoIn": [
+          "aaa-scrum-top-10",
+          "aaa-scrum-top-100"
+        ],
+        "memberships": [
+          {
+            "familyId": "scrum",
+            "size": "top-10",
+            "position": 1
+          },
+          {
+            "familyId": "scrum",
+            "size": "top-100",
+            "position": 1
+          }
+        ]
+      },
+      {
+        "position": null,
+        "id": "01m0k3emvr4ceh6rc4xqdeyt3p",
+        "title": "Educated Beyond Common Sense",
+        "author": "Frederick Alexander",
+        "siteName": "The Gadfly",
+        "category": "article",
+        "language": null,
+        "readingTime": "6 mins",
+        "readingMinutes": 6,
+        "wordCount": 1373,
+        "publishedDate": "2026-08-18",
+        "savedDate": "2026-08-21T21:25:55.118000+00:00",
+        "imageUrl": "https://substackcdn.com/image/fetch/$s_!y8Cv!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F6746d9b1-eba7-4dee-9cc1-ee14ba3cae09_987x740.jpeg",
+        "sourceUrl": "https://www.gadflynotes.com/p/educated-beyond-common-sense?utm_source=direct&r=1r0y5d&utm_campaign=post-expanded-share&utm_medium=post%20viewer&triedRedirect=true",
+        "readwiseUrl": "https://read.readwise.io/read/01m0k3emvr4ceh6rc4xqdeyt3p",
+        "summary": "How the confidently stupid captured our institutions.",
+        "whyRead": "Raakt je interesse in politieke ideologieën en maatschappijkritiek — een scherp geformuleerd, eenzijdig polemisch essay over hoe een \"progressieve managerial class\" instituties zou kapen via jargon en morele chantage.",
+        "bestMoment": "kritisch",
+        "tags": [
+          "current affairs & politics",
+          "political philosophy"
+        ],
+        "alsoIn": [
+          "aaa-short-top-100"
+        ],
+        "memberships": [
+          {
+            "familyId": "kort",
+            "size": "top-100",
+            "position": 75
+          }
+        ]
+      },
+      {
+        "position": null,
+        "id": "01m0k3c5bpzqs90951nw1g61t3",
+        "title": "Difficult Product Owner? Here’s What to Do When You Have No Authority Over Them",
+        "author": "Dejan Majkic",
+        "siteName": "whatisscrum.org Newsletter",
+        "category": "article",
+        "language": null,
+        "readingTime": "7 mins",
+        "readingMinutes": 7,
+        "wordCount": 1795,
+        "publishedDate": "2026-08-14",
+        "savedDate": "2026-08-21T21:24:35.688000+00:00",
+        "imageUrl": "https://substackcdn.com/image/fetch/$s_!oRjt!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fae87eb50-c810-448d-9e0c-e73ec93bbd16_1280x720.jpeg",
+        "sourceUrl": "https://dejanmajkic.substack.com/p/difficult-product-owner-heres-what?utm_source=direct&r=1r0y5d&utm_campaign=post-expanded-share&utm_medium=post%20viewer",
+        "readwiseUrl": "https://read.readwise.io/read/01m0k3c5bpzqs90951nw1g61t3",
+        "summary": "Here's a practical, no-fluff way for Scrum Masters to handle a difficult PO without formal authority.",
+        "whyRead": "Beroepsmatig relevant als Scrum Master — praktisch kader voor het omgaan met een Product Owner over wie je geen formele autoriteit hebt.",
+        "bestMoment": "leergierig",
+        "tags": [
+          "professional development",
+          "scrum"
+        ],
+        "alsoIn": [
+          "aaa-scrum-top-100"
+        ],
+        "memberships": [
+          {
+            "familyId": "scrum",
+            "size": "top-100",
+            "position": 25
+          }
+        ]
+      },
+      {
+        "position": null,
+        "id": "01m0k3b9rdcttsyv4bd0n575k5",
+        "title": "It Doesn't Matter.",
+        "author": "David Pereira",
+        "siteName": "substack.com",
+        "category": "article",
+        "language": null,
+        "readingTime": "6 mins",
+        "readingMinutes": 6,
+        "wordCount": 1446,
+        "publishedDate": "2026-08-04",
+        "savedDate": "2026-08-21T21:24:05.517000+00:00",
+        "imageUrl": "https://substackcdn.com/image/fetch/$s_!915V!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff833d60d-6d92-448c-b98b-a31b0e02d858_1456x1048.png",
+        "sourceUrl": "https://dpereira.substack.com/p/it-doesnt-matter?utm_source=direct&r=1r0y5d&utm_campaign=post-expanded-share&utm_medium=post%20viewer",
+        "readwiseUrl": "https://read.readwise.io/read/01m0k3b9rdcttsyv4bd0n575k5",
+        "summary": "The lesson I learned at 21, and forgot later.",
+        "whyRead": "Raakt scrum/agile en professionele ontwikkeling — persoonlijke reflectie over waarom framework-dogmatisme (Scrum, user stories, \"de juiste manier\") minder waardevol is dan aanpassingsvermogen aan je eigen context.",
+        "bestMoment": "reflectief",
+        "tags": [
+          "professional development",
+          "scrum"
+        ],
+        "alsoIn": [
+          "aaa-scrum-top-100"
+        ],
+        "memberships": [
+          {
+            "familyId": "scrum",
+            "size": "top-100",
+            "position": 24
+          }
+        ]
+      },
+      {
+        "position": null,
+        "id": "01m0k3aq7jasftab9kwgnqr6mm",
+        "title": "How to close a never ending discussion",
+        "author": "Vibhor Chandel",
+        "siteName": "vibhorchandel.com",
+        "category": "article",
+        "language": null,
+        "readingTime": "7 mins",
+        "readingMinutes": 7,
+        "wordCount": 1727,
+        "publishedDate": "2026-08-13",
+        "savedDate": "2026-08-21T21:23:46.470000+00:00",
+        "imageUrl": "https://substackcdn.com/image/fetch/$s_!0hhv!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F0e250344-93c1-4ab3-8cc5-19189cd20611_1533x989.png",
+        "sourceUrl": "https://www.vibhorchandel.com/p/how-to-close-a-never-ending-discussion?utm_source=direct&r=1r0y5d&utm_campaign=post-expanded-share&utm_medium=post%20viewer&triedRedirect=true",
+        "readwiseUrl": "https://read.readwise.io/read/01m0k3aq7jasftab9kwgnqr6mm",
+        "summary": "A Facilitator's Guide to Closing Discussions That Keep Circling",
+        "whyRead": "Beroepsmatig relevant als Scrum Master — een concrete, stapsgewijze afsluittechniek voor discussies die blijven circelen.",
+        "bestMoment": "leergierig",
+        "tags": [
+          "scrum"
+        ],
+        "alsoIn": [
+          "aaa-scrum-top-100"
+        ],
+        "memberships": [
+          {
+            "familyId": "scrum",
+            "size": "top-100",
+            "position": 23
+          }
+        ]
+      },
+      {
+        "position": null,
+        "id": "01m0k3a1phe9yh3dacdg5cknj6",
+        "title": "The Scrum Master Job Still Exists. It Depends Where You're Sitting",
+        "author": "Vibhor Chandel",
+        "siteName": "vibhorchandel.com",
+        "category": "article",
+        "language": null,
+        "readingTime": "9 mins",
+        "readingMinutes": 9,
+        "wordCount": 2191,
+        "publishedDate": "2026-08-06",
+        "savedDate": "2026-08-21T21:23:24.418000+00:00",
+        "imageUrl": "https://substackcdn.com/image/fetch/$s_!Qgtf!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8fb3b124-0699-4e31-805e-5939c1149921_1449x562.webp",
+        "sourceUrl": "https://www.vibhorchandel.com/p/the-scrum-master-job-still-exists?utm_source=direct&r=1r0y5d&utm_campaign=post-expanded-share&utm_medium=post%20viewer&triedRedirect=true",
+        "readwiseUrl": "https://read.readwise.io/read/01m0k3a1phe9yh3dacdg5cknj6",
+        "summary": "I searched 120 live job postings across India, UK, Canada, and the US. Here's what I found.",
+        "whyRead": "Beroepsmatig relevant als Scrum Master — data-gedreven analyse van hoe de rol per regio (VS, VK, India) verschillend evolueert, met concreet advies over carrièrerichting.",
+        "bestMoment": "analytisch",
+        "tags": [
+          "professional development",
+          "scrum"
+        ],
+        "alsoIn": [
+          "aaa-scrum-top-100"
+        ],
+        "memberships": [
+          {
+            "familyId": "scrum",
+            "size": "top-100",
+            "position": 22
+          }
+        ]
+      },
+      {
+        "position": null,
+        "id": "01m0k356bsanzb1ar3yx9740v2",
+        "title": "Reimagine Scrum",
+        "author": "Tobias Mayer",
+        "siteName": "Outskirts",
+        "category": "article",
+        "language": null,
+        "readingTime": "2 mins",
+        "readingMinutes": 2,
+        "wordCount": 394,
+        "publishedDate": "2026-08-17",
+        "savedDate": "2026-08-21T21:20:45.431000+00:00",
+        "imageUrl": "https://substackcdn.com/image/fetch/$s_!KlU-!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F4bddfa3b-a6cb-4d24-a460-516e94cef863_876x412.jpeg",
+        "sourceUrl": "https://tobiasmayer.substack.com/p/reimagine-scrum?utm_source=direct&r=1r0y5d&utm_campaign=post-expanded-share&utm_medium=post%20viewer",
+        "readwiseUrl": "https://read.readwise.io/read/01m0k356bsanzb1ar3yx9740v2",
+        "summary": "Why artefacts are not essential, values should never be imposed, and more...",
+        "whyRead": "Beroepsmatig relevant als Scrum Master — een contrarian, jargon-vrije herformulering van Scrum die de officiële terminologie (pillars, events, accountabilities) ter discussie stelt.",
+        "bestMoment": "analytisch",
+        "tags": [
+          "scrum"
+        ],
+        "alsoIn": [
+          "aaa-scrum-top-100"
+        ],
+        "memberships": [
+          {
+            "familyId": "scrum",
+            "size": "top-100",
+            "position": 61
+          }
+        ]
+      },
+      {
+        "position": null,
+        "id": "01m0k32kq7qr9pqe0hk9pc5ctx",
+        "title": "How to Do Spec-Driven Development - by Gregor Ojstersek",
+        "author": "Substack",
+        "siteName": "eng-leadership.com",
+        "category": "article",
+        "language": null,
+        "readingTime": "9 mins",
+        "readingMinutes": 9,
+        "wordCount": 2371,
+        "publishedDate": "2024-11-30",
+        "savedDate": "2026-08-21T21:19:20.733000+00:00",
+        "imageUrl": "https://substackcdn.com/image/fetch/$s_!J201!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ffd011e33-237f-44da-bc76-0f56f6b38211_1600x820.jpeg",
+        "sourceUrl": "https://newsletter.eng-leadership.com/p/how-to-do-spec-driven-development",
+        "readwiseUrl": "https://read.readwise.io/read/01m0k32kq7qr9pqe0hk9pc5ctx",
+        "summary": "The workflow AI-native teams use to build complex software. This is how they do it!",
+        "whyRead": "Raakt je interesse in software engineering en AI-workflows — een concreet, praktisch beschreven proces (spike → referentie-implementatie → spec → testplan → implementatieplan) voor AI-native teams.",
+        "bestMoment": "leergierig",
+        "tags": [
+          "technology"
+        ],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01m0k2y8k9jpzx9ca7hmq5ajh6",
+        "title": "Are Scrum Masters Too Much Overhead?",
+        "author": "Maarten Dalmijn",
+        "siteName": "mdalmijn.com",
+        "category": "article",
+        "language": null,
+        "readingTime": "6 mins",
+        "readingMinutes": 6,
+        "wordCount": 1549,
+        "publishedDate": null,
+        "savedDate": "2026-08-21T21:16:58.258000+00:00",
+        "imageUrl": "https://substackcdn.com/image/fetch/w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd89ec789-94e4-4098-b4de-5c0224eb7978_640x334.jpeg",
+        "sourceUrl": "https://mdalmijn.com/p/are-scrum-masters-too-much-overhead?utm_source=direct&r=1r0y5d&utm_campaign=post-expanded-share&utm_medium=post%20viewer&triedRedirect=true",
+        "readwiseUrl": "https://read.readwise.io/read/01m0k2y8k9jpzx9ca7hmq5ajh6",
+        "summary": "The Unfortunate Tendency of Scrum Masters to Make Scrum Overimportant",
+        "whyRead": "Prikkelende Scrum-opinie die het bestaan van een aparte Scrum Master-rol ter discussie stelt aan de hand van een Ultimate Frisbee-analogie (spelers als hun eigen scheidsrechter) — relevant voor wie zich met Scrum/Agile-praktijk en teaminrichting bezighoudt.",
+        "bestMoment": "kritisch",
+        "tags": [
+          "scrum"
+        ],
+        "alsoIn": [
+          "aaa-scrum-top-100"
+        ],
+        "memberships": [
+          {
+            "familyId": "scrum",
+            "size": "top-100",
+            "position": 21
+          }
+        ]
+      },
+      {
+        "position": null,
+        "id": "01m0k2xdt0xamb4cd7cr6j5vhx",
+        "title": "The Scrum Master Way: Four Levers That Drive Team Growth",
+        "author": "Agile Classrooms",
+        "siteName": "Agile Classrooms",
+        "category": "article",
+        "language": null,
+        "readingTime": "3 mins",
+        "readingMinutes": 3,
+        "wordCount": 588,
+        "publishedDate": null,
+        "savedDate": "2026-08-21T21:16:30.912000+00:00",
+        "imageUrl": "https://s3.us-west-2.amazonaws.com/content.podia.com/zl2zgbe4fggwsjwustca1u7vih32",
+        "sourceUrl": "https://learn.agileclassrooms.com/blog/scrum-master-levers-team-growth",
+        "readwiseUrl": "https://read.readwise.io/read/01m0k2xdt0xamb4cd7cr6j5vhx",
+        "summary": "Learn the four high-leverage actions great Scrum Masters use to help teams deliver, improve, and grow. Simple, repeatable, and immediately usable.",
+        "whyRead": "Raakt je werk als Scrum Master direct — een compact, bruikbaar model met vier focusgebieden voor je dagelijkse coaching.",
+        "bestMoment": "leergierig",
+        "tags": [
+          "scrum"
+        ],
+        "alsoIn": [
+          "aaa-scrum-top-100"
+        ],
+        "memberships": [
+          {
+            "familyId": "scrum",
+            "size": "top-100",
+            "position": 60
+          }
+        ]
+      },
+      {
+        "position": null,
+        "id": "01m0k2vz633g5ymgt2gt9qgv09",
+        "title": "The Unlicensed Therapists of Tech",
+        "author": "Kaisa Martiskainen",
+        "siteName": "Code Like A Girl",
+        "category": "article",
+        "language": null,
+        "readingTime": "8 mins",
+        "readingMinutes": 8,
+        "wordCount": 2090,
+        "publishedDate": "2026-03-04",
+        "savedDate": "2026-08-21T21:15:43.169000+00:00",
+        "imageUrl": "https://substackcdn.com/image/fetch/$s_!rs8Q!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F0b70b417-f84a-42de-b9e8-460a6bfe0c4d_1536x1024.png",
+        "sourceUrl": "https://codelikeagirl.substack.com/p/the-unlicensed-therapists-of-tech?utm_source=direct&r=1r0y5d&utm_campaign=post-expanded-share&utm_medium=post%20viewer",
+        "readwiseUrl": "https://read.readwise.io/read/01m0k2vz633g5ymgt2gt9qgv09",
+        "summary": "From observing code to observing people, we are doing the work no one sees",
+        "whyRead": "Raakt je interesse in scrum en professionele ontwikkeling — persoonlijk, essayistisch verslag van een oud-Scrum Master over de onzichtbare emotionele arbeid achter servant leadership.",
+        "bestMoment": "reflectief",
+        "tags": [
+          "professional development",
+          "scrum"
+        ],
+        "alsoIn": [
+          "aaa-scrum-top-100"
+        ],
+        "memberships": [
+          {
+            "familyId": "scrum",
+            "size": "top-100",
+            "position": 20
+          }
+        ]
+      },
+      {
+        "position": null,
+        "id": "01m0k2sst961mrbjhqmgtjsgep",
+        "title": "The Downfall of the Scrum Master Role: A Change Agent's Perspective",
+        "author": "Scrum.org",
+        "siteName": "Scrum.org",
+        "category": "article",
+        "language": null,
+        "readingTime": "8 mins",
+        "readingMinutes": 8,
+        "wordCount": 1858,
+        "publishedDate": "2025-05-05",
+        "savedDate": "2026-08-22T01:59:18.585000+00:00",
+        "imageUrl": "https://scrumorg-website-prod.s3.amazonaws.com/drupal/inline-images/hand-3067236_640.jpg",
+        "sourceUrl": "https://www.scrum.org/resources/blog/downfall-scrum-master-role-change-agents-perspective",
+        "readwiseUrl": "https://read.readwise.io/read/01m0k2sst961mrbjhqmgtjsgep",
+        "summary": "The Untold Story: How the Revolutionary Scrum Master Role Lost Its Way Once envisioned as transformative change agents, Scrum Masters have increasingly become mere meeting facilitators in many organizations. Drawing from two decades of experience guiding agile transformations, this article exposes the critical factors behind this troubling evolution—from certification factories to fundamental leadership misunderstandings. Discover why the reduction of this dynamic role to ceremony management represents just 1% of its true potential, and learn how organizations are unwittingly setting their Scrum Masters up for failure through contradictory structures and impossible expectations.",
+        "whyRead": "Beroepsmatig relevant als Scrum Master — een ervaren agile transformatie-consultant analyseert waarom de Scrum Master-rol is verworden tot ceremonie-facilitator en wat daarvoor nodig is om te herstellen.",
+        "bestMoment": "analytisch",
+        "tags": [
+          "scrum"
+        ],
+        "alsoIn": [
+          "aaa-scrum-top-100"
+        ],
+        "memberships": [
+          {
+            "familyId": "scrum",
+            "size": "top-100",
+            "position": 26
+          }
+        ]
+      },
+      {
+        "position": null,
+        "id": "01m0k2s7g79gx8117m76a8rqmh",
+        "title": "The Return of the Scrum Master",
+        "author": "Maarten Dalmijn",
+        "siteName": "mdalmijn.com",
+        "category": "article",
+        "language": null,
+        "readingTime": "2 mins",
+        "readingMinutes": 2,
+        "wordCount": 434,
+        "publishedDate": "2025-05-08",
+        "savedDate": "2026-08-21T21:14:13.287000+00:00",
+        "imageUrl": "https://substackcdn.com/image/fetch/w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F0e5e2b7c-47d0-4ac7-ab45-559ee974391b_1024x1536.png",
+        "sourceUrl": "https://mdalmijn.com/p/the-return-of-the-scrum-master?utm_source=direct&r=1r0y5d&utm_campaign=post-expanded-share&utm_medium=post%20viewer&triedRedirect=true",
+        "readwiseUrl": "https://read.readwise.io/read/01m0k2s7g79gx8117m76a8rqmh",
+        "summary": "What Happens After the Downfall of the Scrum Master Role?",
+        "whyRead": "Beroepsmatig relevant tegengeluid — een felle, contrarian reactie op het \"downfall\"-stuk van Scrum.org: niet de implementatie is het probleem, maar de Scrum Master-rol zelf.",
+        "bestMoment": "kritisch",
+        "tags": [
+          "scrum"
+        ],
+        "alsoIn": [
+          "aaa-scrum-top-100"
+        ],
+        "memberships": [
+          {
+            "familyId": "scrum",
+            "size": "top-100",
+            "position": 59
+          }
+        ]
+      },
+      {
+        "position": null,
+        "id": "01m0jn9xeykexv7623vdc0wx3g",
+        "title": "Your Book Review: A Residence Of 21 Years In The Sandwich Islands",
+        "author": "Astral Codex Ten",
+        "siteName": "Substack",
+        "category": "email",
+        "language": null,
+        "readingTime": "32 mins",
+        "readingMinutes": 32,
+        "wordCount": 8357,
+        "publishedDate": "2026-08-21",
+        "savedDate": "2026-08-21T17:18:40.094000+00:00",
+        "imageUrl": null,
+        "sourceUrl": "mailto:reader-forwarded-email/e78f8b4811500c51efc542a8ec25c135",
+        "readwiseUrl": "https://read.readwise.io/read/01m0jn9xeykexv7623vdc0wx3g",
+        "summary": "[This is one of the finalists in the 2026 book review contest, written by an ACX reader who will remain anonymous until after voting is done.",
+        "whyRead": "ACX-boekrecensie-finalist over een negentiende-eeuwse zendeling naar Hawaï, herlezen als vroege casus van \"effectief altruïsme\" — scherpe parallellen én harde lessen over overtuiging, machtsmisbruik en cultuurbotsing.",
+        "bestMoment": "leergierig",
+        "tags": [
+          "history & civilization",
+          "religion & society"
+        ],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01m0jjn6r6k94c6e6es18zzr4f",
+        "title": "New Media is Insider Media",
+        "author": "workingtheorys.com",
+        "siteName": "workingtheorys.com",
+        "category": "article",
+        "language": null,
+        "readingTime": "9 mins",
+        "readingMinutes": 9,
+        "wordCount": 2279,
+        "publishedDate": "2026-06-10",
+        "savedDate": "2026-08-21T16:32:24.242000+00:00",
+        "imageUrl": "https://substackcdn.com/image/fetch/$s_!dyb4!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F7da55231-797e-4b91-b980-715ec365e260_750x562.webp",
+        "sourceUrl": "https://www.workingtheorys.com/p/insider-media?utm_source=substack&utm_campaign=post_embed&utm_medium=email&embedding_publication_id=2628487",
+        "readwiseUrl": "https://read.readwise.io/read/01m0jjn6r6k94c6e6es18zzr4f",
+        "summary": "Working Theory #100",
+        "whyRead": "Raakt je interesse in cultuuranalyse en technologie — een scherpe essayistische theorie over prestige, status en \"insider media\" in Silicon Valley, met een sterke eigen stem.",
+        "bestMoment": "analytisch",
+        "tags": [
+          "technology"
+        ],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01m0jjn5ac4n2mp6j2rk1nw8n3",
+        "title": "Are wildfires in Europe worse than usual?",
+        "author": "hannahritchie.substack.com",
+        "siteName": "sustainabilitybynumbers.com",
+        "category": "article",
+        "language": null,
+        "readingTime": "4 mins",
+        "readingMinutes": 4,
+        "wordCount": 944,
+        "publishedDate": "2026-08-02",
+        "savedDate": "2026-08-21T16:32:22.774000+00:00",
+        "imageUrl": "https://substackcdn.com/image/fetch/$s_!v8Zb!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa5a3c566-8c02-4a1d-9196-2c232bba6e7e_2400x1544.png",
+        "sourceUrl": "https://hannahritchie.substack.com/p/europe-wildfires-2026?utm_source=substack&utm_medium=email",
+        "readwiseUrl": "https://read.readwise.io/read/01m0jjn5ac4n2mp6j2rk1nw8n3",
+        "summary": "Several countries in Europe are having a very large wildfire year; this is offset by lower burn in the Balkans",
+        "whyRead": "Raakt je interesse in data-analyse en milieu — laat scherp zien hoe de virale claim \"Europa's rustigste bosbrandjaar\" vertekend is door Rusland mee te tellen in \"Europa\", en hoe sterk het beeld regionaal verschilt.",
+        "bestMoment": "analytisch",
+        "tags": [
+          "environment & sustainability"
+        ],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01m0hxft5xtx6vzz2m659k1399",
+        "title": "Why don't humans have tails?",
+        "author": "Brian Klaas",
+        "siteName": "Substack",
+        "category": "email",
+        "language": null,
+        "readingTime": "10 mins",
+        "readingMinutes": 10,
+        "wordCount": 2499,
+        "publishedDate": "2026-08-21",
+        "savedDate": "2026-08-21T10:22:27.517000+00:00",
+        "imageUrl": null,
+        "sourceUrl": "mailto:reader-forwarded-email/fe590bc54253a6f7a85687a58b3785a9",
+        "readwiseUrl": "https://read.readwise.io/read/01m0hxft5xtx6vzz2m659k1399",
+        "summary": "Thank you for reading The Garden of Forking Paths. If you enjoy my writing, please consider upgrading to a paid subscription for just $5 US per month or $50/year.",
+        "whyRead": "Verwonderend-wetenschappelijk essay over evolutie en genetica dat laat zien hoe toeval, niet alleen aanpassing, de mens heeft gevormd — raakt je interesse in wetenschap.",
+        "bestMoment": "leergierig",
+        "tags": [
+          "science"
+        ],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01m0hmmxya3ffztm2kkczknas8",
+        "title": "#228 - Het beste moment voor je nieuwe gelddoel, en andere tonnairtips",
+        "author": "Betering",
+        "siteName": "Substack",
+        "category": "email",
+        "language": null,
+        "readingTime": "7 mins",
+        "readingMinutes": 7,
+        "wordCount": 1845,
+        "publishedDate": "2026-08-21",
+        "savedDate": "2026-08-21T07:47:58.027000+00:00",
+        "imageUrl": null,
+        "sourceUrl": "mailto:reader-forwarded-email/0722cfdf3338c6bc3ffb4519b86595da",
+        "readwiseUrl": "https://read.readwise.io/read/01m0hmmxya3ffztm2kkczknas8",
+        "summary": "Welkom terug bij BETERING. Mijn naam is Vincent en ik schrijf over geld.",
+        "whyRead": "Persoonlijke, reflectieve column over geld en mindset — Nederlandstalig, met concrete cijfers over sparen en beleggen naast de persoonlijke verhaallijn.",
+        "bestMoment": "reflectief",
+        "tags": [
+          "personal growth & life philosophy"
+        ],
+        "alsoIn": [],
+        "memberships": []
+      },
       {
         "position": null,
         "id": "01m0fr9vyk2k7z18b05gwf8vvj",
@@ -20722,19 +22643,13 @@ window.TOP_ARTICLES = {
           "video-top-10"
         ],
         "alsoIn": [
-          "video-top-10",
           "video-top-100"
         ],
         "memberships": [
           {
             "familyId": "videos",
-            "size": "top-10",
-            "position": 10
-          },
-          {
-            "familyId": "videos",
             "size": "top-100",
-            "position": 10
+            "position": 11
           }
         ]
       },
@@ -28078,7 +29993,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 44
+            "position": 58
           }
         ]
       },
@@ -28112,7 +30027,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 43
+            "position": 57
           }
         ]
       },
@@ -28146,7 +30061,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 42
+            "position": 56
           }
         ]
       },
@@ -28180,7 +30095,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 18
+            "position": 19
           }
         ]
       },
@@ -28214,7 +30129,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 17
+            "position": 18
           }
         ]
       },
@@ -28248,7 +30163,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 16
+            "position": 17
           }
         ]
       },
@@ -28282,7 +30197,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 41
+            "position": 55
           }
         ]
       },
@@ -28316,7 +30231,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 15
+            "position": 16
           }
         ]
       },
@@ -28350,7 +30265,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 40
+            "position": 54
           }
         ]
       },
@@ -28384,7 +30299,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 39
+            "position": 53
           }
         ]
       },
@@ -28418,7 +30333,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 14
+            "position": 15
           }
         ]
       },
@@ -28452,7 +30367,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 13
+            "position": 14
           }
         ]
       },
@@ -28486,7 +30401,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 38
+            "position": 52
           }
         ]
       },
@@ -28520,7 +30435,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 12
+            "position": 13
           }
         ]
       },
@@ -28554,7 +30469,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 37
+            "position": 51
           }
         ]
       },
@@ -28588,7 +30503,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 36
+            "position": 50
           }
         ]
       },
@@ -28622,7 +30537,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 35
+            "position": 49
           }
         ]
       },
@@ -28656,7 +30571,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 11
+            "position": 12
           }
         ]
       },
@@ -28788,7 +30703,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 34
+            "position": 48
           }
         ]
       },
@@ -28823,7 +30738,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 33
+            "position": 47
           }
         ]
       },
@@ -28852,19 +30767,13 @@ window.TOP_ARTICLES = {
           "scrum"
         ],
         "alsoIn": [
-          "aaa-scrum-top-10",
           "aaa-scrum-top-100"
         ],
         "memberships": [
           {
             "familyId": "scrum",
-            "size": "top-10",
-            "position": 10
-          },
-          {
-            "familyId": "scrum",
             "size": "top-100",
-            "position": 10
+            "position": 11
           }
         ]
       },
@@ -28899,7 +30808,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 32
+            "position": 46
           }
         ]
       },
@@ -28934,7 +30843,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 22
+            "position": 34
           }
         ]
       },
@@ -28970,12 +30879,12 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-10",
-            "position": 9
+            "position": 10
           },
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 9
+            "position": 10
           }
         ]
       },
@@ -29011,12 +30920,12 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-10",
-            "position": 8
+            "position": 9
           },
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 8
+            "position": 9
           }
         ]
       },
@@ -29052,12 +30961,12 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-10",
-            "position": 7
+            "position": 8
           },
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 7
+            "position": 8
           }
         ]
       },
@@ -29093,12 +31002,12 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-10",
-            "position": 6
+            "position": 7
           },
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 6
+            "position": 7
           }
         ]
       },
@@ -29133,7 +31042,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 31
+            "position": 45
           }
         ]
       },
@@ -29169,12 +31078,12 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-10",
-            "position": 5
+            "position": 6
           },
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 5
+            "position": 6
           }
         ]
       },
@@ -29209,7 +31118,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 30
+            "position": 44
           }
         ]
       },
@@ -29244,7 +31153,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 21
+            "position": 33
           }
         ]
       },
@@ -29279,7 +31188,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 20
+            "position": 32
           }
         ]
       },
@@ -29314,7 +31223,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 29
+            "position": 43
           }
         ]
       },
@@ -29349,7 +31258,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 28
+            "position": 42
           }
         ]
       },
@@ -29384,7 +31293,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 27
+            "position": 41
           }
         ]
       },
@@ -29419,7 +31328,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 26
+            "position": 40
           }
         ]
       },
@@ -29454,7 +31363,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 25
+            "position": 39
           }
         ]
       },
@@ -29489,7 +31398,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 19
+            "position": 31
           }
         ]
       },
@@ -29525,12 +31434,12 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-10",
-            "position": 4
+            "position": 5
           },
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 4
+            "position": 5
           }
         ]
       },
@@ -29565,12 +31474,12 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-10",
-            "position": 1
+            "position": 2
           },
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 1
+            "position": 2
           }
         ]
       },
@@ -29586,7 +31495,7 @@ window.TOP_ARTICLES = {
         "readingMinutes": 8,
         "wordCount": 2004,
         "publishedDate": "2026-01-27",
-        "savedDate": "2026-07-01T12:57:45.247000+00:00",
+        "savedDate": "2026-08-22T05:40:39.942000+00:00",
         "imageUrl": "",
         "sourceUrl": "https://www.scrumfacilitators.com/en/knowledge/sprint-goal-in-scrum-a-comprehensive-guide-with-examples",
         "readwiseUrl": "https://read.readwise.io/read/01kwew3ggzgdtrxk6c255tdtcz",
@@ -29594,10 +31503,121 @@ window.TOP_ARTICLES = {
         "whyRead": "Raakt je Scrum Master-werk sterk: Sprint Goals zijn een praktisch stuurmiddel voor focus, stakeholdergesprekken en teamautonomie.",
         "bestMoment": "leergierig",
         "tags": [
-          "professional development"
+          "professional development",
+          "scrum"
         ],
-        "alsoIn": [],
-        "memberships": []
+        "alsoIn": [
+          "aaa-scrum-top-100"
+        ],
+        "memberships": [
+          {
+            "familyId": "scrum",
+            "size": "top-100",
+            "position": 30
+          }
+        ]
+      },
+      {
+        "position": null,
+        "id": "01kwew3egmmcfwxc3wnmfp373y",
+        "title": "Scrum Meaning - Usage, and the Path to Professionalism",
+        "author": "Scrum Facilitators",
+        "siteName": null,
+        "category": "article",
+        "language": "Engels",
+        "readingTime": "2 mins",
+        "readingMinutes": 2,
+        "wordCount": 429,
+        "publishedDate": "2026-01-27",
+        "savedDate": "2026-08-22T05:40:16.977000+00:00",
+        "imageUrl": "",
+        "sourceUrl": "https://www.scrumfacilitators.com/en/knowledge/scrum-meaning",
+        "readwiseUrl": "https://read.readwise.io/read/01kwew3egmmcfwxc3wnmfp373y",
+        "summary": "What is the Scrum meaning? Discover how Scrum helps deliver value, manages complexity, and moves teams from mechanical process to professionalism",
+        "whyRead": "Raakt je behoefte om Scrum begrippen helder te kunnen uitleggen: het verbindt de herkomst van het woord met professionaliteit en empirisch werken.",
+        "bestMoment": "leergierig",
+        "tags": [
+          "professional development",
+          "scrum"
+        ],
+        "alsoIn": [
+          "aaa-scrum-top-100"
+        ],
+        "memberships": [
+          {
+            "familyId": "scrum",
+            "size": "top-100",
+            "position": 63
+          }
+        ]
+      },
+      {
+        "position": null,
+        "id": "01kwew3bj4a2ynh5yf1e6pxbsf",
+        "title": "What is Agile? A Practical Guide for Teams Ready to Work Differently",
+        "author": "Scrum Facilitators",
+        "siteName": null,
+        "category": "article",
+        "language": "Engels",
+        "readingTime": "6 mins",
+        "readingMinutes": 6,
+        "wordCount": 1471,
+        "publishedDate": "2026-06-16",
+        "savedDate": "2026-08-22T05:39:53.456000+00:00",
+        "imageUrl": "",
+        "sourceUrl": "https://www.scrumfacilitators.com/en/knowledge/What-is-Agile",
+        "readwiseUrl": "https://read.readwise.io/read/01kwew3bj4a2ynh5yf1e6pxbsf",
+        "summary": "Discover what Agile really means, how it works in practice, and what separates teams that live it from teams that just talk about it. Start your Agile training.",
+        "whyRead": "Raakt je werkcontext rond Scrum en agile: het is een toegankelijke uitleg van agile als andere manier van denken over onzeker werk, niet als proceslabel.",
+        "bestMoment": "leergierig",
+        "tags": [
+          "professional development",
+          "scrum"
+        ],
+        "alsoIn": [
+          "aaa-scrum-top-100"
+        ],
+        "memberships": [
+          {
+            "familyId": "scrum",
+            "size": "top-100",
+            "position": 29
+          }
+        ]
+      },
+      {
+        "position": null,
+        "id": "01kwew3a21msfp9j00h4t73qat",
+        "title": "What Does an Agile Coach Actually Do?",
+        "author": "Scrum Facilitators",
+        "siteName": null,
+        "category": "article",
+        "language": "Engels",
+        "readingTime": "7 mins",
+        "readingMinutes": 7,
+        "wordCount": 1836,
+        "publishedDate": "2026-06-17",
+        "savedDate": "2026-08-22T05:39:28.496000+00:00",
+        "imageUrl": "",
+        "sourceUrl": "https://www.scrumfacilitators.com/en/knowledge/agile-coach",
+        "readwiseUrl": "https://read.readwise.io/read/01kwew3a21msfp9j00h4t73qat",
+        "summary": "Find out what an agile coach really does, how coaching differs from teaching, and what skills you need to help teams think differently about their work.",
+        "whyRead": "Raakt je Scrum Master-werk direct: het maakt het verschil tussen coaching, teaching en mentoring praktisch en helpt scherper kiezen welke houding een situatie vraagt.",
+        "bestMoment": "leergierig",
+        "tags": [
+          "professional development",
+          "scrum"
+        ],
+        "alsoIn": [
+          "aaa-scrum-top-100"
+        ],
+        "memberships": [
+          {
+            "familyId": "scrum",
+            "size": "top-100",
+            "position": 28
+          }
+        ]
       },
       {
         "position": null,
@@ -31294,7 +33314,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 24
+            "position": 38
           }
         ]
       },
@@ -31330,7 +33350,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 23
+            "position": 37
           }
         ]
       },
@@ -31368,12 +33388,12 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-10",
-            "position": 3
+            "position": 4
           },
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 3
+            "position": 4
           }
         ]
       },
@@ -31411,12 +33431,12 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-10",
-            "position": 2
+            "position": 3
           },
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 2
+            "position": 3
           }
         ]
       },
@@ -33433,16 +35453,8 @@ window.TOP_ARTICLES = {
           "professional development",
           "sociology & social structures"
         ],
-        "alsoIn": [
-          "aaa-short-top-100"
-        ],
-        "memberships": [
-          {
-            "familyId": "kort",
-            "size": "top-100",
-            "position": 100
-          }
-        ]
+        "alsoIn": [],
+        "memberships": []
       },
       {
         "position": null,
@@ -33476,7 +35488,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 99
+            "position": 100
           }
         ]
       },
@@ -33594,7 +35606,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 98
+            "position": 99
           }
         ]
       },
@@ -35412,7 +37424,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 97
+            "position": 98
           },
           {
             "familyId": "luchtig",
@@ -35495,7 +37507,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 96
+            "position": 97
           },
           {
             "familyId": "luchtig",
@@ -36101,7 +38113,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 95
+            "position": 96
           }
         ]
       },
@@ -36198,7 +38210,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 94
+            "position": 95
           }
         ]
       },
@@ -37864,7 +39876,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 93
+            "position": 94
           },
           {
             "familyId": "luchtig",
@@ -38048,7 +40060,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 92
+            "position": 93
           }
         ]
       },
@@ -38085,7 +40097,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 91
+            "position": 92
           },
           {
             "familyId": "luchtig",
@@ -38700,7 +40712,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 90
+            "position": 91
           }
         ]
       },
@@ -39636,7 +41648,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 89
+            "position": 90
           },
           {
             "familyId": "luchtig",
@@ -39974,7 +41986,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 87
+            "position": 88
           }
         ]
       },
@@ -40064,7 +42076,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 86
+            "position": 87
           },
           {
             "familyId": "luchtig",
@@ -40305,7 +42317,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 85
+            "position": 86
           }
         ]
       },
@@ -40475,7 +42487,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 88
+            "position": 89
           }
         ]
       },
@@ -41349,7 +43361,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 84
+            "position": 85
           },
           {
             "familyId": "luchtig",
@@ -41661,7 +43673,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 83
+            "position": 84
           }
         ]
       },
@@ -41819,7 +43831,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "videos",
             "size": "top-100",
-            "position": 11
+            "position": 20
           }
         ]
       },
@@ -41980,7 +43992,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 82
+            "position": 83
           }
         ]
       },
@@ -42104,7 +44116,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 81
+            "position": 82
           }
         ]
       },
@@ -42141,7 +44153,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 80
+            "position": 81
           },
           {
             "familyId": "luchtig",
@@ -42183,7 +44195,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 79
+            "position": 80
           },
           {
             "familyId": "luchtig",
@@ -42611,7 +44623,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 78
+            "position": 79
           }
         ]
       },
@@ -43011,7 +45023,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 77
+            "position": 78
           },
           {
             "familyId": "luchtig",
@@ -43336,7 +45348,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 76
+            "position": 77
           }
         ]
       },
@@ -44726,7 +46738,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 75
+            "position": 76
           }
         ]
       },
