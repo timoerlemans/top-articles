@@ -9,7 +9,7 @@ import { dirname, join } from "node:path";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const DATA_FILE = join(__dirname, "..", "data", "data.js");
-const MAIL_TO = "tim@oerlemans.dev"; // TIJDELIJK voor test — terugzetten naar top1articletoday@t10s.nl
+const MAIL_TO = "top1articletoday@t10s.nl";
 
 async function loadTopArticles() {
   const raw = await readFile(DATA_FILE, "utf8");
