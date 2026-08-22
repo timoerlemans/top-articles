@@ -1,0 +1,62 @@
+name: Synchroniseer Readwise-leesvolgorde
+
+on:
+  schedule:
+    - cron: "0 22 * * *" # dagelijks ~00:00 CEST (~23:00 CET — cron kent geen DST)
+  workflow_dispatch: {}
+
+permissions:
+  contents: read
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Install Readwise CLI
+        run: npm install -g @readwise/cli
+
+      - name: Log in to Readwise
+        env:
+          READWISE_TOKEN: ${{ secrets.READWISE_TOKEN }}
+        run: readwise login-with-token "$READWISE_TOKEN"
+
+      - name: Run tests
+        run: npm test
+
+      - name: Genereer prioriteitsplan
+        run: npm run priority:plan -- --output .tmp/readwise/priority-plan.json
+
+      - name: Pas plan toe
+        run: |
+          PLAN_HASH=$(jq -r '.planHash' .tmp/readwise/priority-plan.json)
+          npm run priority:apply -- --plan .tmp/readwise/priority-plan.json --confirm "$PLAN_HASH"
+
+      - name: Verifieer synchronisatie
+        run: npm run priority:verify
+
+      - name: Schrijf samenvatting
+        if: always()
+        run: |
+          if [ -f .tmp/readwise/priority-plan.json ]; then
+            {
+              echo "### Readwise-leesvolgorde synchronisatie"
+              jq -r '"- Documenten: \(.summary.documents)\n- Toevoegingen: \(.summary.additions)\n- Verwijderingen: \(.summary.removals)\n- Planhash: `\(.planHash)`"' .tmp/readwise/priority-plan.json
+            } >> "$GITHUB_STEP_SUMMARY"
+          fi
+
+      - name: Bewaar plan en journal bij falen
+        if: failure()
+        uses: actions/upload-artifact@v4
+        with:
+          name: priority-sync-debug-${{ github.run_id }}
+          path: .tmp/readwise/*.json
+          retention-days: 14
