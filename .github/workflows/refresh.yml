@@ -2,7 +2,7 @@ name: Refresh Readwise data
 
 on:
   schedule:
-    - cron: "0 6 * * *" # dagelijks om 06:00 UTC
+    - cron: "0 4 * * *" # dagelijks om 04:00 UTC (~06:00 CEST, ~05:00 CET — cron kent geen DST)
   workflow_dispatch: {}
 
 permissions:
@@ -40,3 +40,9 @@ jobs:
           git add data/data.js data/score.js
           git commit -m "chore: ververs Readwise-data"
           git push
+
+      - name: Send top-1 email
+        env:
+          RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
+          MAIL_FROM: ${{ secrets.MAIL_FROM }}
+        run: node scripts/send-top1-email.mjs
