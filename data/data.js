@@ -1,6 +1,6 @@
-// Automatisch gegenereerd door scripts/build-data.mjs — niet handmatig bewerken.
+// Automatisch gegenereerd door scripts/build-data.ts — niet handmatig bewerken.
 window.TOP_ARTICLES = {
-  "generatedAt": "2026-08-23T12:40:11.398Z",
+  "generatedAt": "2026-08-23T18:11:06.160Z",
   "families": [
     {
       "id": "algemeen",
@@ -14478,6 +14478,32 @@ window.TOP_ARTICLES = {
             },
             {
               "position": 39,
+              "id": "01m0q9g0mw4fqpnb351j8763gb",
+              "title": "The (surprising) 9 most common challenges that Product Owners face, and affect their Scrum Teams",
+              "author": "vasco",
+              "siteName": "Scrum Master Toolbox Podcast",
+              "category": "article",
+              "language": null,
+              "readingTime": "9 mins",
+              "readingMinutes": 9,
+              "wordCount": 2205,
+              "publishedDate": "2018-11-27",
+              "savedDate": "2026-08-23T12:28:29.212000+00:00",
+              "imageUrl": "https://scrum-master-toolbox.org/wp-content/uploads/2018/11/product-owner-anti-patters-scrum-master-toolbox-podcast-smells-300x215.png",
+              "sourceUrl": "https://scrum-master-toolbox.org/2018/11/blog/the-surprising-9-most-common-challenges-that-product-owners-face-and-affect-their-scrum-teams/",
+              "readwiseUrl": "https://read.readwise.io/read/01m0q9g0mw4fqpnb351j8763gb",
+              "summary": "Would you want to have a simple, collected, set of solutions (techniques and strategies) to solve the most common challenges Product Owners face? So would I! But before we can collect the solutions, we must understand the problem! That’s what I did in 2018. I asked the listeners of the Scrum Master Toolbox Podcast and … Continue reading The (surprising) 9 most common challenges that Product Owners face, and affect their Scrum Teams",
+              "whyRead": "Raakt je Scrum Master-werk: een inventaris van terugkerende Product Owner-problemen rond samenwerking, mandaat en feedback.",
+              "bestMoment": "leergierig",
+              "tags": [
+                "agile",
+                "professional development",
+                "scrum"
+              ],
+              "alsoIn": []
+            },
+            {
+              "position": 40,
               "id": "01kweww7axmq58ekx96xkj02jk",
               "title": "Seven Ways Scrum Masters Can Be More Effective",
               "author": "Scrum.org",
@@ -14502,7 +14528,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 40,
+              "position": 41,
               "id": "01kwexp5550gmx9jwcrafg7xd3",
               "title": "Empiricism",
               "author": "Scrum.org",
@@ -14528,7 +14554,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 41,
+              "position": 42,
               "id": "01kwexpevqvsnw5chhvec7vdc7",
               "title": "Tips for Joining a Scrum Team and Building Collaborative Relationships",
               "author": "Scrum.org",
@@ -14554,7 +14580,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 42,
+              "position": 43,
               "id": "01kwexpg90r86p63b5w5sd3910",
               "title": "Encouraging Collaborative Ways of Working in a Scrum Team",
               "author": "Scrum.org",
@@ -14580,7 +14606,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 43,
+              "position": 44,
               "id": "01kwexpw49qacd2hcbhg15tzcr",
               "title": "Frequently Asked Questions on Continuous Improvement for Scrum Masters",
               "author": "Scrum.org",
@@ -14606,7 +14632,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 44,
+              "position": 45,
               "id": "01m0kk41832n0tav3gjxdhask9",
               "title": "Agile is 25: Which Practices Still Work in 2026 and Which Don't?",
               "author": "vibhorchandel.com",
@@ -14630,7 +14656,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 45,
+              "position": 46,
               "id": "01m0kztar8p0q02aet41a6xn7w",
               "title": "Real World Agility EXPLAINED: Nick Brown’s Hard-Earned Lessons",
               "author": "Scrum Facilitators",
@@ -14658,7 +14684,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 46,
+              "position": 47,
               "id": "01m0phz54xkeck21gn6a362mbb",
               "title": "Are your PMs building reasoning silos?",
               "author": "Product Focus",
@@ -14683,7 +14709,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 47,
+              "position": 48,
               "id": "01m0pj0hcdzk57dgqrhngd08xm",
               "title": "How to Tell if Your Manager is Actually Good?",
               "author": "Gregor Ojstersek",
@@ -14708,7 +14734,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 48,
+              "position": 49,
               "id": "01m0pngsn5q8yqqrn2xq1w2hq5",
               "title": "To benefit from AI, your organization’s learning loops must evolve",
               "author": "uxdesign.cc",
@@ -14735,7 +14761,33 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 49,
+              "position": 50,
+              "id": "01m0q9gdtbx4wrnvzc3zr6w7q3",
+              "title": "Product Owner Anti-Patterns, and how Scrum Masters can help overcome those",
+              "author": "vasco",
+              "siteName": "Scrum Master Toolbox Podcast",
+              "category": "article",
+              "language": null,
+              "readingTime": "10 mins",
+              "readingMinutes": 10,
+              "wordCount": 2516,
+              "publishedDate": "2017-11-27",
+              "savedDate": "2026-08-23T12:28:42.700000+00:00",
+              "imageUrl": "https://scrum-master-toolbox.org/wp-content/uploads/2017/11/smells-300x214.jpg",
+              "sourceUrl": "https://scrum-master-toolbox.org/2017/11/blog/product-owner-anti-patterns-and-how-scrum-masters-can-help-overcome-those/",
+              "readwiseUrl": "https://read.readwise.io/read/01m0q9gdtbx4wrnvzc3zr6w7q3",
+              "summary": "Product Owners have an impossible job! I know, I’ve been a Product Owner. And even worse, a Product Manager transitioning to Product Owner! And even worse! I was also the Project Manager. Geeez! When I look back I am amazed I survived that phase of my career. Here’s the kicker, that was the best time … Continue reading Product Owner Anti-Patterns, and how Scrum Masters can help overcome those",
+              "whyRead": "Raakt je Scrum Master-werk: een diagnosekaart voor PO-patronen en coachingsingangen.",
+              "bestMoment": "leergierig",
+              "tags": [
+                "agile",
+                "professional development",
+                "scrum"
+              ],
+              "alsoIn": []
+            },
+            {
+              "position": 51,
               "id": "01ktp2kyqfw4gmnvgcrkt7faxv",
               "title": "Self-Managing Teams | Scrum.org",
               "author": "scrum.org",
@@ -14762,7 +14814,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 50,
+              "position": 52,
               "id": "01ktp2mzvjaxpymkgdyhw1wehh",
               "title": "Leadership Styles",
               "author": "Scrum.org",
@@ -14789,7 +14841,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 51,
+              "position": 53,
               "id": "01kwexp7111x57fyty213vtvwn",
               "title": "Applying the Scrum Values",
               "author": "Scrum.org",
@@ -14815,7 +14867,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 52,
+              "position": 54,
               "id": "01kwexp8bshzmz4w7y2nspmx7a",
               "title": "The Scrum Team",
               "author": "Scrum.org",
@@ -14841,7 +14893,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 53,
+              "position": 55,
               "id": "01kwexpa8272rzzb4wxq2c97fe",
               "title": "The Scrum Events",
               "author": "Scrum.org",
@@ -14867,7 +14919,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 54,
+              "position": 56,
               "id": "01kwexpbm8djp73dgn7ymt74bj",
               "title": "The Scrum Artifacts",
               "author": "Scrum.org",
@@ -14893,7 +14945,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 55,
+              "position": 57,
               "id": "01kwexpd63h7mhqsfywqrv4438",
               "title": "Self-Managing Teams",
               "author": "Scrum.org",
@@ -14919,7 +14971,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 56,
+              "position": 58,
               "id": "01kwexphnkt0123qcrbqqb0fqe",
               "title": "What is Backlog Refinement?",
               "author": "Scrum.org",
@@ -14945,7 +14997,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 57,
+              "position": 59,
               "id": "01kwexpmq0g9a6hznvz9rgcxzn",
               "title": "Leadership Styles",
               "author": "Scrum.org",
@@ -14971,7 +15023,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 58,
+              "position": 60,
               "id": "01kwexpxk1pfnzhy9sz4435mhb",
               "title": "Scrum.org and Comparative Agility Offer New Scrum Master Improvement Self-Assessment",
               "author": "Scrum.org",
@@ -14997,7 +15049,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 59,
+              "position": 61,
               "id": "01kwf0yd7ctbprcferqdhtms0t",
               "title": "Applying the Scrum Values",
               "author": "Scrum.org",
@@ -15023,7 +15075,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 60,
+              "position": 62,
               "id": "01kwf0yesfrexrg9r4n3ej8psg",
               "title": "What is Backlog Refinement?",
               "author": "Scrum.org",
@@ -15049,7 +15101,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 61,
+              "position": 63,
               "id": "01kwgv3p7m0hcdxdkevdk85zne",
               "title": "Empiricism",
               "author": "Scrum.org",
@@ -15074,7 +15126,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 62,
+              "position": 64,
               "id": "01kwgv3qm7grnyf9h24dxf1tpr",
               "title": "Applying the Scrum Values",
               "author": "Scrum.org",
@@ -15099,7 +15151,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 63,
+              "position": 65,
               "id": "01kwgv3s14j6mrc474hr2ty4ng",
               "title": "The Scrum Team",
               "author": "Scrum.org",
@@ -15124,7 +15176,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 64,
+              "position": 66,
               "id": "01kwgv3vs8hdwhets97r0mgv91",
               "title": "The Scrum Artifacts",
               "author": "Scrum.org",
@@ -15149,7 +15201,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 65,
+              "position": 67,
               "id": "01kwgv40cswsga3s67vbrqmh79",
               "title": "Encouraging Collaborative Ways of Working in a Scrum Team",
               "author": "Scrum.org",
@@ -15174,7 +15226,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 66,
+              "position": 68,
               "id": "01kwgv41vthssy649xsngxrck4",
               "title": "What is Backlog Refinement?",
               "author": "Scrum.org",
@@ -15199,7 +15251,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 67,
+              "position": 69,
               "id": "01kwgv454djcyseb3x807wx8js",
               "title": "Leadership Styles",
               "author": "Scrum.org",
@@ -15224,7 +15276,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 68,
+              "position": 70,
               "id": "01kwgv4ap47ve8h0bdwf29jzwq",
               "title": "Teaching",
               "author": "Scrum.org",
@@ -15249,7 +15301,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 69,
+              "position": 71,
               "id": "01kwgv4bwctkyj54rvctfyk8qa",
               "title": "Frequently Asked Questions on Continuous Improvement for Scrum Masters",
               "author": "Scrum.org",
@@ -15274,7 +15326,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 70,
+              "position": 72,
               "id": "01kwgv4d63neeawgzpjgf111bx",
               "title": "Scrum.org and Comparative Agility Offer New Scrum Master Improvement Self-Assessment",
               "author": "Scrum.org",
@@ -15299,7 +15351,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 71,
+              "position": 73,
               "id": "01m0k2s7g79gx8117m76a8rqmh",
               "title": "The Return of the Scrum Master",
               "author": "Maarten Dalmijn",
@@ -15323,7 +15375,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 72,
+              "position": 74,
               "id": "01m0k2xdt0xamb4cd7cr6j5vhx",
               "title": "The Scrum Master Way: Four Levers That Drive Team Growth",
               "author": "Agile Classrooms",
@@ -15347,7 +15399,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 73,
+              "position": 75,
               "id": "01m0k356bsanzb1ar3yx9740v2",
               "title": "Reimagine Scrum",
               "author": "Tobias Mayer",
@@ -15371,7 +15423,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 74,
+              "position": 76,
               "id": "01m0kk38p4qwk0xrbjj01g52ck",
               "title": "6 Steps to Effectively Manage Product Backlog\n6 Steps to Effectively Manage Product Backlog",
               "author": "vibhorchandel.com",
@@ -15395,7 +15447,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 75,
+              "position": 77,
               "id": "01kwew3egmmcfwxc3wnmfp373y",
               "title": "Scrum Meaning - Usage, and the Path to Professionalism",
               "author": "Scrum Facilitators",
@@ -15420,7 +15472,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 76,
+              "position": 78,
               "id": "01m0phy17feth92cc2egjbpr9m",
               "title": "Why Transformations Fail: Leadership Must Change",
               "author": "Nigel Thurlow",
@@ -15445,7 +15497,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 77,
+              "position": 79,
               "id": "01m0pngtqepnayg4ybke3rwsp4",
               "title": "“Make it easier” is not a product strategy",
               "author": "uxdesign.cc",
@@ -15471,7 +15523,59 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 78,
+              "position": 80,
+              "id": "01m0q9hvnmabn1jawm1sxwe9g0",
+              "title": "Terry Haayema: Why “Working Myself Out of a Job” Is Wrong for Scrum Masters",
+              "author": "vasco",
+              "siteName": "Scrum Master Toolbox Podcast",
+              "category": "article",
+              "language": null,
+              "readingTime": "2 mins",
+              "readingMinutes": 2,
+              "wordCount": 399,
+              "publishedDate": "2025-09-25",
+              "savedDate": "2026-08-23T12:29:29.652000+00:00",
+              "imageUrl": "https://scrum-master-toolbox.org/wp-content/uploads/2020/07/Tips-from-the-Trenches-cover-small-350x350-1-300x300.jpg",
+              "sourceUrl": "https://scrum-master-toolbox.org/2025/09/podcast/terry-haayema-why-working-myself-out-of-a-job-is-wrong-for-scrum-masters/",
+              "readwiseUrl": "https://read.readwise.io/read/01m0q9hvnmabn1jawm1sxwe9g0",
+              "summary": "“Success for a Scrum Master is to do myself out of a job… which I don’t buy into at all, because a team will always need a coach.” Terry challenges the common belief that Scrum Masters succeed by working themselves out of a job, arguing instead that teams always need coaching as they continuously improve. … Continue reading Terry Haayema: Why “Working Myself Out of a Job” Is Wrong for Scrum Masters",
+              "whyRead": "Raakt je Scrum Master-werk: een korte, mensgerichte tegenwerping tegen het idee dat je jezelf overbodig moet maken.",
+              "bestMoment": "reflectief",
+              "tags": [
+                "agile",
+                "professional development",
+                "scrum"
+              ],
+              "alsoIn": []
+            },
+            {
+              "position": 81,
+              "id": "01m0q9hxz4swmnxrnw4m01p5md",
+              "title": "Pascal Papathemelis: Selecting the Appropriate Agile Values for Organizational Impact",
+              "author": "vasco",
+              "siteName": "Scrum Master Toolbox Podcast",
+              "category": "article",
+              "language": null,
+              "readingTime": "2 mins",
+              "readingMinutes": 2,
+              "wordCount": 426,
+              "publishedDate": "2025-07-10",
+              "savedDate": "2026-08-23T12:29:32.005000+00:00",
+              "imageUrl": "https://scrum-master-toolbox.org/wp-content/uploads/2024/09/4_ShiftFromProduct_CL_COVER_Kindle.png",
+              "sourceUrl": "https://scrum-master-toolbox.org/2025/07/podcast/pascal-papathemelis-selecting-the-appropriate-agile-values-for-organizational-impact/",
+              "readwiseUrl": "https://read.readwise.io/read/01m0q9hxz4swmnxrnw4m01p5md",
+              "summary": "Pascal defines success for Scrum Masters through his recent mantra of “effectiveness over efficiency,” “outcome over output,” and “create value for the customer.” Working with a client introducing a new digital platform, he focuses on understanding the value for both the organization and end customers while minimizing confusion in the process. Pascal emphasizes the importance … Continue reading Pascal Papathemelis: Selecting the Appropriate Agile Values for Organizational Impact",
+              "whyRead": "Raakt je werk als Scrum Master: een compacte praktijkvisie op waarden boven rituelen en op klantwaarde, effectiviteit en duurzaamheid.",
+              "bestMoment": "leergierig",
+              "tags": [
+                "agile",
+                "professional development",
+                "scrum"
+              ],
+              "alsoIn": []
+            },
+            {
+              "position": 82,
               "id": "01m0kztgwcc1d43t3sdahzhg08",
               "title": "Can a Scrum Master Transition to a Delivery Manager? Here's the Truth",
               "author": "Scrum Facilitators",
@@ -15499,7 +15603,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 79,
+              "position": 83,
               "id": "01m0kztthka4bcp3a2mfxww828",
               "title": "Are Scrum Masters in DANGER? 5 Ways to Prove Your Value!",
               "author": "Scrum Facilitators",
@@ -15527,7 +15631,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 80,
+              "position": 84,
               "id": "01m0kzv38gdmh51b4kzqg40mw9",
               "title": "Are You OVERLOOKING These Critical Scrum Master Practices?",
               "author": "Scrum Facilitators",
@@ -15555,7 +15659,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 81,
+              "position": 85,
               "id": "01m0kzvbj6t6crzagc9kw1n43f",
               "title": "3 Game-Changing Lessons I Wish I Knew Earlier as a #ScrumMaster",
               "author": "Scrum Facilitators",
@@ -15583,7 +15687,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 82,
+              "position": 86,
               "id": "01m0kzvhp90e4w4ycfaqv26f31",
               "title": "5 Scrum Master Mistakes You MUST Avoid!",
               "author": "Scrum Facilitators",
@@ -15611,7 +15715,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 83,
+              "position": 87,
               "id": "01m0kzwkwp6cjx5m2jn5stztex",
               "title": "Scrum 101 Series - Episode 8 - Sprint Retrospective",
               "author": "Scrum Facilitators",
@@ -15637,7 +15741,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 84,
+              "position": 88,
               "id": "01m0kzws6tp6edn1k4t1dmr1rq",
               "title": "Scrum 101 Series - Episode 2 - Product Owner",
               "author": "Scrum Facilitators",
@@ -15663,7 +15767,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 85,
+              "position": 89,
               "id": "01m0kzx60n6y7mjy1342dw0ynp",
               "title": "Scrum 101 Series - Episode 3 - Scrum Master",
               "author": "Scrum Facilitators",
@@ -19930,6 +20034,172 @@ window.TOP_ARTICLES = {
     "items": [
       {
         "position": null,
+        "id": "01m0qanzaf93qg8k6vscgf752x",
+        "title": "Thinking of building a Personal OS with AI? Here's a guide and some considerations.",
+        "author": "Diego Bonifacino",
+        "siteName": "Creatism",
+        "category": "article",
+        "language": null,
+        "readingTime": "9 mins",
+        "readingMinutes": 9,
+        "wordCount": 2127,
+        "publishedDate": "2026-08-02",
+        "savedDate": "2026-08-23T12:49:12.971000+00:00",
+        "imageUrl": "https://substackcdn.com/image/fetch/$s_!Jovm!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb6f93157-1cac-41e3-8893-cabfdea6afaa_1456x813.webp",
+        "sourceUrl": "https://creatism.substack.com/p/thinking-of-building-a-personal-os",
+        "readwiseUrl": "https://read.readwise.io/read/01m0qanzaf93qg8k6vscgf752x",
+        "summary": "The manual from Friday's workshop: how to build a second brain with AI.",
+        "whyRead": "Voor PKM en AI: een concreet ontwerp voor een persoonlijk systeem met Obsidian.",
+        "bestMoment": "leergierig",
+        "tags": [
+          "learning & meta-learning",
+          "technology"
+        ],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01m0q9hxz4swmnxrnw4m01p5md",
+        "title": "Pascal Papathemelis: Selecting the Appropriate Agile Values for Organizational Impact",
+        "author": "vasco",
+        "siteName": "Scrum Master Toolbox Podcast",
+        "category": "article",
+        "language": null,
+        "readingTime": "2 mins",
+        "readingMinutes": 2,
+        "wordCount": 426,
+        "publishedDate": "2025-07-10",
+        "savedDate": "2026-08-23T12:29:32.005000+00:00",
+        "imageUrl": "https://scrum-master-toolbox.org/wp-content/uploads/2024/09/4_ShiftFromProduct_CL_COVER_Kindle.png",
+        "sourceUrl": "https://scrum-master-toolbox.org/2025/07/podcast/pascal-papathemelis-selecting-the-appropriate-agile-values-for-organizational-impact/",
+        "readwiseUrl": "https://read.readwise.io/read/01m0q9hxz4swmnxrnw4m01p5md",
+        "summary": "Pascal defines success for Scrum Masters through his recent mantra of “effectiveness over efficiency,” “outcome over output,” and “create value for the customer.” Working with a client introducing a new digital platform, he focuses on understanding the value for both the organization and end customers while minimizing confusion in the process. Pascal emphasizes the importance … Continue reading Pascal Papathemelis: Selecting the Appropriate Agile Values for Organizational Impact",
+        "whyRead": "Raakt je werk als Scrum Master: een compacte praktijkvisie op waarden boven rituelen en op klantwaarde, effectiviteit en duurzaamheid.",
+        "bestMoment": "leergierig",
+        "tags": [
+          "agile",
+          "professional development",
+          "scrum"
+        ],
+        "alsoIn": [
+          "aaa-scrum-top-100"
+        ],
+        "memberships": [
+          {
+            "familyId": "scrum",
+            "size": "top-100",
+            "position": 81
+          }
+        ]
+      },
+      {
+        "position": null,
+        "id": "01m0q9hvnmabn1jawm1sxwe9g0",
+        "title": "Terry Haayema: Why “Working Myself Out of a Job” Is Wrong for Scrum Masters",
+        "author": "vasco",
+        "siteName": "Scrum Master Toolbox Podcast",
+        "category": "article",
+        "language": null,
+        "readingTime": "2 mins",
+        "readingMinutes": 2,
+        "wordCount": 399,
+        "publishedDate": "2025-09-25",
+        "savedDate": "2026-08-23T12:29:29.652000+00:00",
+        "imageUrl": "https://scrum-master-toolbox.org/wp-content/uploads/2020/07/Tips-from-the-Trenches-cover-small-350x350-1-300x300.jpg",
+        "sourceUrl": "https://scrum-master-toolbox.org/2025/09/podcast/terry-haayema-why-working-myself-out-of-a-job-is-wrong-for-scrum-masters/",
+        "readwiseUrl": "https://read.readwise.io/read/01m0q9hvnmabn1jawm1sxwe9g0",
+        "summary": "“Success for a Scrum Master is to do myself out of a job… which I don’t buy into at all, because a team will always need a coach.” Terry challenges the common belief that Scrum Masters succeed by working themselves out of a job, arguing instead that teams always need coaching as they continuously improve. … Continue reading Terry Haayema: Why “Working Myself Out of a Job” Is Wrong for Scrum Masters",
+        "whyRead": "Raakt je Scrum Master-werk: een korte, mensgerichte tegenwerping tegen het idee dat je jezelf overbodig moet maken.",
+        "bestMoment": "reflectief",
+        "tags": [
+          "agile",
+          "professional development",
+          "scrum"
+        ],
+        "alsoIn": [
+          "aaa-scrum-top-100"
+        ],
+        "memberships": [
+          {
+            "familyId": "scrum",
+            "size": "top-100",
+            "position": 80
+          }
+        ]
+      },
+      {
+        "position": null,
+        "id": "01m0q9gdtbx4wrnvzc3zr6w7q3",
+        "title": "Product Owner Anti-Patterns, and how Scrum Masters can help overcome those",
+        "author": "vasco",
+        "siteName": "Scrum Master Toolbox Podcast",
+        "category": "article",
+        "language": null,
+        "readingTime": "10 mins",
+        "readingMinutes": 10,
+        "wordCount": 2516,
+        "publishedDate": "2017-11-27",
+        "savedDate": "2026-08-23T12:28:42.700000+00:00",
+        "imageUrl": "https://scrum-master-toolbox.org/wp-content/uploads/2017/11/smells-300x214.jpg",
+        "sourceUrl": "https://scrum-master-toolbox.org/2017/11/blog/product-owner-anti-patterns-and-how-scrum-masters-can-help-overcome-those/",
+        "readwiseUrl": "https://read.readwise.io/read/01m0q9gdtbx4wrnvzc3zr6w7q3",
+        "summary": "Product Owners have an impossible job! I know, I’ve been a Product Owner. And even worse, a Product Manager transitioning to Product Owner! And even worse! I was also the Project Manager. Geeez! When I look back I am amazed I survived that phase of my career. Here’s the kicker, that was the best time … Continue reading Product Owner Anti-Patterns, and how Scrum Masters can help overcome those",
+        "whyRead": "Raakt je Scrum Master-werk: een diagnosekaart voor PO-patronen en coachingsingangen.",
+        "bestMoment": "leergierig",
+        "tags": [
+          "agile",
+          "professional development",
+          "scrum"
+        ],
+        "alsoIn": [
+          "aaa-scrum-top-100"
+        ],
+        "memberships": [
+          {
+            "familyId": "scrum",
+            "size": "top-100",
+            "position": 50
+          }
+        ]
+      },
+      {
+        "position": null,
+        "id": "01m0q9g0mw4fqpnb351j8763gb",
+        "title": "The (surprising) 9 most common challenges that Product Owners face, and affect their Scrum Teams",
+        "author": "vasco",
+        "siteName": "Scrum Master Toolbox Podcast",
+        "category": "article",
+        "language": null,
+        "readingTime": "9 mins",
+        "readingMinutes": 9,
+        "wordCount": 2205,
+        "publishedDate": "2018-11-27",
+        "savedDate": "2026-08-23T12:28:29.212000+00:00",
+        "imageUrl": "https://scrum-master-toolbox.org/wp-content/uploads/2018/11/product-owner-anti-patters-scrum-master-toolbox-podcast-smells-300x215.png",
+        "sourceUrl": "https://scrum-master-toolbox.org/2018/11/blog/the-surprising-9-most-common-challenges-that-product-owners-face-and-affect-their-scrum-teams/",
+        "readwiseUrl": "https://read.readwise.io/read/01m0q9g0mw4fqpnb351j8763gb",
+        "summary": "Would you want to have a simple, collected, set of solutions (techniques and strategies) to solve the most common challenges Product Owners face? So would I! But before we can collect the solutions, we must understand the problem! That’s what I did in 2018. I asked the listeners of the Scrum Master Toolbox Podcast and … Continue reading The (surprising) 9 most common challenges that Product Owners face, and affect their Scrum Teams",
+        "whyRead": "Raakt je Scrum Master-werk: een inventaris van terugkerende Product Owner-problemen rond samenwerking, mandaat en feedback.",
+        "bestMoment": "leergierig",
+        "tags": [
+          "agile",
+          "professional development",
+          "scrum"
+        ],
+        "alsoIn": [
+          "aaa-scrum-top-100"
+        ],
+        "memberships": [
+          {
+            "familyId": "scrum",
+            "size": "top-100",
+            "position": 39
+          }
+        ]
+      },
+      {
+        "position": null,
         "id": "01m0ps8pn0f6964ekm6yse5jvr",
         "title": "In praise of zealotry",
         "author": "Aeon",
@@ -20111,7 +20381,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 77
+            "position": 79
           }
         ]
       },
@@ -20147,7 +20417,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 48
+            "position": 49
           }
         ]
       },
@@ -20403,7 +20673,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 47
+            "position": 48
           }
         ]
       },
@@ -20547,7 +20817,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 46
+            "position": 47
           }
         ]
       },
@@ -20667,7 +20937,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 76
+            "position": 78
           }
         ]
       },
@@ -21455,7 +21725,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 85
+            "position": 89
           },
           {
             "familyId": "videos",
@@ -21494,7 +21764,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 84
+            "position": 88
           },
           {
             "familyId": "videos",
@@ -21533,7 +21803,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 83
+            "position": 87
           },
           {
             "familyId": "videos",
@@ -21574,7 +21844,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 82
+            "position": 86
           },
           {
             "familyId": "videos",
@@ -21620,7 +21890,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 81
+            "position": 85
           },
           {
             "familyId": "videos",
@@ -21666,7 +21936,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 80
+            "position": 84
           },
           {
             "familyId": "videos",
@@ -21712,7 +21982,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 79
+            "position": 83
           },
           {
             "familyId": "videos",
@@ -21758,7 +22028,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 78
+            "position": 82
           },
           {
             "familyId": "videos",
@@ -21804,7 +22074,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 45
+            "position": 46
           },
           {
             "familyId": "videos",
@@ -21847,7 +22117,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 44
+            "position": 45
           }
         ]
       },
@@ -21913,7 +22183,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 74
+            "position": 76
           }
         ]
       },
@@ -22166,7 +22436,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 73
+            "position": 75
           }
         ]
       },
@@ -22257,7 +22527,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 72
+            "position": 74
           }
         ]
       },
@@ -22357,7 +22627,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 71
+            "position": 73
           }
         ]
       },
@@ -31908,7 +32178,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 70
+            "position": 72
           }
         ]
       },
@@ -31942,7 +32212,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 69
+            "position": 71
           }
         ]
       },
@@ -31976,7 +32246,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 68
+            "position": 70
           }
         ]
       },
@@ -32112,7 +32382,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 67
+            "position": 69
           }
         ]
       },
@@ -32180,7 +32450,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 66
+            "position": 68
           }
         ]
       },
@@ -32214,7 +32484,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 65
+            "position": 67
           }
         ]
       },
@@ -32316,7 +32586,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 64
+            "position": 66
           }
         ]
       },
@@ -32384,7 +32654,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 63
+            "position": 65
           }
         ]
       },
@@ -32418,7 +32688,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 62
+            "position": 64
           }
         ]
       },
@@ -32452,7 +32722,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 61
+            "position": 63
           }
         ]
       },
@@ -32618,7 +32888,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 60
+            "position": 62
           }
         ]
       },
@@ -32653,7 +32923,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 59
+            "position": 61
           }
         ]
       },
@@ -32723,7 +32993,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 58
+            "position": 60
           }
         ]
       },
@@ -32758,7 +33028,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 43
+            "position": 44
           }
         ]
       },
@@ -32957,7 +33227,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 57
+            "position": 59
           }
         ]
       },
@@ -33033,7 +33303,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 56
+            "position": 58
           }
         ]
       },
@@ -33068,7 +33338,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 42
+            "position": 43
           }
         ]
       },
@@ -33103,7 +33373,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 41
+            "position": 42
           }
         ]
       },
@@ -33138,7 +33408,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 55
+            "position": 57
           }
         ]
       },
@@ -33173,7 +33443,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 54
+            "position": 56
           }
         ]
       },
@@ -33208,7 +33478,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 53
+            "position": 55
           }
         ]
       },
@@ -33243,7 +33513,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 52
+            "position": 54
           }
         ]
       },
@@ -33278,7 +33548,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 51
+            "position": 53
           }
         ]
       },
@@ -33313,7 +33583,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 40
+            "position": 41
           }
         ]
       },
@@ -33388,7 +33658,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 39
+            "position": 40
           }
         ]
       },
@@ -33456,7 +33726,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 75
+            "position": 77
           }
         ]
       },
@@ -35223,7 +35493,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 50
+            "position": 52
           }
         ]
       },
@@ -35259,7 +35529,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 49
+            "position": 51
           }
         ]
       },
