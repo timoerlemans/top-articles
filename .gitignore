@@ -3,5 +3,7 @@ node_modules/
 .worktrees/
 .claude/
 .codex/
-dist/
+dist/*
+!dist/src/
+!dist/src/**
 .DS_Store

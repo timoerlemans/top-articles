@@ -1,67 +1,91 @@
-import { z } from "zod";
+export interface ArticleItem {
+  position: number | null;
+  id: string;
+  title: string;
+  author: string | null;
+  siteName: string | null;
+  category: string | null;
+  language: string | null;
+  readingTime: string | null;
+  readingMinutes: number | null;
+  wordCount: number | null;
+  publishedDate: string | null;
+  savedDate: string | null;
+  imageUrl: string | null;
+  sourceUrl: string | null;
+  readwiseUrl: string | null;
+  summary: string | null;
+  whyRead: string | null;
+  bestMoment: string | null;
+  tags: string[];
+  alsoIn: string[];
+  priorityPosition?: number;
+  memberships?: Array<{ familyId: string; size: string; position: number }>;
+}
 
-const nullableString = z.string().nullable();
+export interface ArticleList { tag: string; items: ArticleItem[]; }
+export interface ArticleFamily { id: string; label: string; lists: { "top-10": ArticleList; "top-100": ArticleList }; }
+export interface TopArticles { generatedAt: string; families: ArticleFamily[]; catalog: { items: ArticleItem[] }; derivedLists: Record<string, { id: string; label: string; items: Array<{ id: string; title: string; position: number }> }>; }
+export type PriorityComponentKey = "kerninteresse" | "diepgang" | "persoonlijke_bruikbaarheid" | "leeskans" | "onderscheidende_duurzame_waarde" | "aftrek";
+export interface PriorityItem { baseScore: number; adjustment: number; adjustmentReason: string | null; score: number; tier: string; components: Record<PriorityComponentKey, number>; rationale: Record<PriorityComponentKey, string[]>; sequences: string[]; positions: Record<string, number>; actualPositions: Record<string, number>; }
+export interface TopArticlePriority { generatedAt: string; model: "readwise-priority-v3"; scope: "later"; items: Record<string, PriorityItem>; }
 
-export const ArticleItemSchema = z.object({
-  position: z.number().int().nullable(),
-  id: z.string().min(1),
-  title: z.string(),
-  author: nullableString,
-  siteName: nullableString,
-  category: nullableString,
-  language: nullableString,
-  readingTime: nullableString,
-  readingMinutes: z.number().nullable(),
-  wordCount: z.number().nullable(),
-  publishedDate: nullableString,
-  savedDate: nullableString,
-  imageUrl: nullableString,
-  sourceUrl: nullableString,
-  readwiseUrl: nullableString,
-  summary: nullableString,
-  whyRead: nullableString,
-  bestMoment: nullableString,
-  tags: z.array(z.string()),
-  alsoIn: z.array(z.string()),
-}).loose();
+function isRecord(value: unknown): value is Record<string, unknown> {
+  return typeof value === "object" && value !== null;
+}
 
-const articleListSchema = z.object({ tag: z.string(), items: z.array(ArticleItemSchema) }).loose();
-const derivedListSchema = z.object({
-  id: z.string().min(1), label: z.string(),
-  items: z.array(z.object({ id: z.string().min(1), title: z.string(), position: z.number().int().positive() }).loose()),
-}).loose();
+function isNullableString(value: unknown): value is string | null {
+  return typeof value === "string" || value === null;
+}
 
-export const TopArticlesSchema = z.object({
-  generatedAt: z.string(),
-  families: z.array(z.object({
-    id: z.string().min(1), label: z.string(),
-    lists: z.object({ "top-10": articleListSchema, "top-100": articleListSchema }),
-  }).loose()).min(1),
-  catalog: z.object({ items: z.array(ArticleItemSchema) }).loose(),
-  derivedLists: z.record(z.string(), derivedListSchema),
-}).loose();
+function isArticleItem(value: unknown): value is ArticleItem {
+  if (!isRecord(value) || typeof value.id !== "string" || !value.id || typeof value.title !== "string") {
+    return false;
+  }
+  const nullableFields = ["author", "siteName", "category", "language", "readingTime", "publishedDate", "savedDate", "imageUrl", "sourceUrl", "readwiseUrl", "summary", "whyRead", "bestMoment"];
+  return (typeof value.position === "number" || value.position === null)
+    && (typeof value.readingMinutes === "number" || value.readingMinutes === null)
+    && (typeof value.wordCount === "number" || value.wordCount === null)
+    && Array.isArray(value.tags) && value.tags.every((tag) => typeof tag === "string")
+    && Array.isArray(value.alsoIn) && value.alsoIn.every((tag) => typeof tag === "string")
+    && nullableFields.every((field) => isNullableString(value[field]));
+}
 
-const priorityComponentsSchema = z.object({
-  kerninteresse: z.number(), diepgang: z.number(), persoonlijke_bruikbaarheid: z.number(),
-  leeskans: z.number(), onderscheidende_duurzame_waarde: z.number(), aftrek: z.number(),
-});
-const priorityRationaleSchema = z.object({
-  kerninteresse: z.array(z.string()), diepgang: z.array(z.string()), persoonlijke_bruikbaarheid: z.array(z.string()),
-  leeskans: z.array(z.string()), onderscheidende_duurzame_waarde: z.array(z.string()), aftrek: z.array(z.string()),
-});
+function isArticleList(value: unknown): value is ArticleList {
+  return isRecord(value) && typeof value.tag === "string" && Array.isArray(value.items) && value.items.every(isArticleItem);
+}
 
-export const PriorityItemSchema = z.object({
-  baseScore: z.number(), adjustment: z.number(), adjustmentReason: nullableString, score: z.number(), tier: z.string(),
-  components: priorityComponentsSchema, rationale: priorityRationaleSchema, sequences: z.array(z.string()),
-  positions: z.record(z.string(), z.number().int()), actualPositions: z.record(z.string(), z.number().int()),
-}).loose();
+function isPriorityItem(value: unknown): value is PriorityItem {
+  if (!isRecord(value) || typeof value.baseScore !== "number" || typeof value.adjustment !== "number" || typeof value.score !== "number" || typeof value.tier !== "string" || !isNullableString(value.adjustmentReason)) {
+    return false;
+  }
+  return isRecord(value.components) && Object.values(value.components).every((component) => typeof component === "number")
+    && isRecord(value.rationale) && Object.values(value.rationale).every((items) => Array.isArray(items) && items.every((item) => typeof item === "string"))
+    && Array.isArray(value.sequences) && value.sequences.every((sequence) => typeof sequence === "string")
+    && isRecord(value.positions) && Object.values(value.positions).every((position) => Number.isInteger(position))
+    && isRecord(value.actualPositions) && Object.values(value.actualPositions).every((position) => Number.isInteger(position));
+}
 
-export const TopArticlePrioritySchema = z.object({
-  generatedAt: z.string(), model: z.literal("readwise-priority-v3"), scope: z.literal("later"),
-  items: z.record(z.string(), PriorityItemSchema),
-}).loose();
+function isTopArticles(value: unknown): value is TopArticles {
+  if (!isRecord(value) || typeof value.generatedAt !== "string" || !Array.isArray(value.families) || !isRecord(value.catalog) || !Array.isArray(value.catalog.items) || !isRecord(value.derivedLists)) {
+    return false;
+  }
+  const families = value.families.every((family) => isRecord(family) && typeof family.id === "string" && typeof family.label === "string" && isRecord(family.lists) && isArticleList(family.lists["top-10"]) && isArticleList(family.lists["top-100"]));
+  const derivedLists = Object.values(value.derivedLists).every((list) => isRecord(list) && typeof list.id === "string" && typeof list.label === "string" && Array.isArray(list.items) && list.items.every((item) => isRecord(item) && typeof item.id === "string" && typeof item.title === "string" && Number.isInteger(item.position)));
+  return families && value.catalog.items.every(isArticleItem) && derivedLists;
+}
 
-export type ArticleItem = z.infer<typeof ArticleItemSchema>;
-export type ArticleFamily = z.infer<typeof TopArticlesSchema>["families"][number];
-export type ArticleList = ArticleFamily["lists"]["top-10"];
-export type PriorityItem = z.infer<typeof PriorityItemSchema>;
+function isTopArticlePriority(value: unknown): value is TopArticlePriority {
+  if (!isRecord(value) || typeof value.generatedAt !== "string" || value.model !== "readwise-priority-v3" || value.scope !== "later" || !isRecord(value.items)) {
+    return false;
+  }
+  return Object.values(value.items).every(isPriorityItem);
+}
+
+export function parseTopArticles(value: unknown): TopArticles | null {
+  return isTopArticles(value) ? value : null;
+}
+
+export function parseTopArticlePriority(value: unknown): TopArticlePriority | null {
+  return isTopArticlePriority(value) ? value : null;
+}

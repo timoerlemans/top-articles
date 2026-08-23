@@ -5,7 +5,8 @@ Naast de bestaande families Algemeen, Nederlands, Kort, Kort & NL, Luchtig, Luch
 Boeken bevat de app een actieve catalogus, scoregestuurde ontdeklijsten en een zelfstandige
 berekende leesvolgorde voor documenten in Reader `later`.
 
-Geen framework of bundler: `index.html` + `styles.css` + `app.js` renderen uit `data/data.js`, een
+De broncode is strict TypeScript. `tsc` schrijft de browsermodules naar
+`dist/src/`; `index.html` + `styles.css` laden die uitvoer en renderen uit `data/data.js`, een
 gegenereerd bestand dat wordt gecommit. `data/data.js` bevat toplijsten, een catalogus van alle
 actieve Reader-documenten in `later` en de afgeleide lijsten Consensus, Nieuw en
 Tijdloos. Het bevat geen ruwe `notes`: alleen titel, auteur, samenvatting, leestijd,
@@ -41,7 +42,7 @@ Vereist een ingelogde [`@readwise/cli`](https://www.npmjs.com/package/@readwise/
 
 ```bash
 npm run build   # haalt actuele later-data op en schrijft data/data.js + data/score.js
-npm test        # controleert scorelogica en gegenereerde datastructuur
+npm run check   # lint, strict typecheck en tests
 ```
 
 Open daarna `index.html` direct in de browser (geen webserver nodig).

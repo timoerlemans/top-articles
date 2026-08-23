@@ -1,4 +1,4 @@
-import { TopArticlePrioritySchema, TopArticlesSchema } from "./types/browser-data.js";
+import { parseTopArticlePriority, parseTopArticles } from "./types/browser-data.js";
 import type { ArticleFamily, ArticleItem, ArticleList, PriorityItem } from "./types/browser-data.js";
 
 type ListSize = "top-10" | "top-100";
@@ -20,11 +20,10 @@ function requiredElement<ElementType extends HTMLElement>(id: string, elementTyp
 (function () {
   "use strict";
 
-  const parsedData = TopArticlesSchema.safeParse(window.TOP_ARTICLES);
-  const parsedPriority = TopArticlePrioritySchema.safeParse(window.TOP_ARTICLE_PRIORITY);
-  const data = parsedData.success ? parsedData.data : null;
-  const priorityAvailable = parsedPriority.success;
-  const priorityItems: Readonly<Record<string, PriorityItem>> = parsedPriority.success ? parsedPriority.data.items : {};
+  const data = parseTopArticles(window.TOP_ARTICLES);
+  const priorityData = parseTopArticlePriority(window.TOP_ARTICLE_PRIORITY);
+  const priorityAvailable = priorityData !== null;
+  const priorityItems: Readonly<Record<string, PriorityItem>> = priorityData?.items ?? {};
 
   const families = data?.families ?? [];
   const catalogItems = data?.catalog?.items ?? [];
