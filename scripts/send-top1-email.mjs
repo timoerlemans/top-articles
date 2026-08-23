@@ -37,7 +37,7 @@ function buildHtml(sections, dateLabel) {
         <td style="padding: 12px 0; border-bottom: 1px solid #e5e5e5;">
           <div style="font-size: 12px; text-transform: uppercase; letter-spacing: 0.04em; color: #888;">${escapeHtml(family.label)}</div>
           <div style="font-size: 16px; margin: 4px 0;">
-            <a href="${escapeHtml(top.sourceUrl ?? top.readwiseUrl)}" style="color: #111; text-decoration: none;">${escapeHtml(top.title)}</a>
+            <a href="${escapeHtml(top.readwiseUrl)}" style="color: #111; text-decoration: none;">${escapeHtml(top.title)}</a>
           </div>
           ${top.whyRead ? `<div style="font-size: 13px; color: #555;">${escapeHtml(top.whyRead)}</div>` : ""}
         </td>
@@ -53,7 +53,7 @@ function buildHtml(sections, dateLabel) {
 
 function buildText(sections, dateLabel) {
   const lines = sections.map(({ family, top }) =>
-    `${family.label}: ${top.title}\n${top.sourceUrl ?? top.readwiseUrl}${top.whyRead ? `\n${top.whyRead}` : ""}`
+    `${family.label}: ${top.title}\n${top.readwiseUrl}${top.whyRead ? `\n${top.whyRead}` : ""}`
   );
   return `Je top-1 artikelen van vandaag (${dateLabel})\n\n${lines.join("\n\n")}\n`;
 }
