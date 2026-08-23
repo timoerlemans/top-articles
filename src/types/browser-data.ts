@@ -1,3 +1,5 @@
+import type { PrioritySequence } from "../../scripts/lib/readwise-priority-v3.js";
+
 export interface ArticleItem {
   position: number | null;
   id: string;
@@ -27,7 +29,7 @@ export interface ArticleList { tag: string; items: ArticleItem[]; }
 export interface ArticleFamily { id: string; label: string; lists: { "top-10": ArticleList; "top-100": ArticleList }; }
 export interface TopArticles { generatedAt: string; families: ArticleFamily[]; catalog: { items: ArticleItem[] }; derivedLists: Record<string, { id: string; label: string; items: Array<{ id: string; title: string; position: number }> }>; }
 export type PriorityComponentKey = "kerninteresse" | "diepgang" | "persoonlijke_bruikbaarheid" | "leeskans" | "onderscheidende_duurzame_waarde" | "aftrek";
-export interface PriorityItem { baseScore: number; adjustment: number; adjustmentReason: string | null; score: number; tier: string; components: Record<PriorityComponentKey, number>; rationale: Record<PriorityComponentKey, string[]>; sequences: string[]; positions: Record<string, number>; actualPositions: Record<string, number>; }
+export interface PriorityItem { baseScore: number; adjustment: number; adjustmentReason: string | null; score: number; tier: string; components: Record<PriorityComponentKey, number>; rationale: Record<PriorityComponentKey, string[]>; sequences: PrioritySequence[]; positions: Partial<Record<PrioritySequence, number>>; actualPositions: Partial<Record<PrioritySequence, number>>; }
 export interface TopArticlePriority { generatedAt: string; model: "readwise-priority-v3"; scope: "later"; items: Record<string, PriorityItem>; }
 
 function isRecord(value: unknown): value is Record<string, unknown> {
@@ -55,6 +57,8 @@ function isArticleList(value: unknown): value is ArticleList {
   return isRecord(value) && typeof value.tag === "string" && Array.isArray(value.items) && value.items.every(isArticleItem);
 }
 
+// Controleert alleen de vorm (string/getal), niet of sequence-ids in de bekende SEQUENCE_ORDER-set
+// zitten — data/score.js kan op een ander moment gegenereerd zijn dan de huidige TS-compilatie.
 function isPriorityItem(value: unknown): value is PriorityItem {
   if (!isRecord(value) || typeof value.baseScore !== "number" || typeof value.adjustment !== "number" || typeof value.score !== "number" || typeof value.tier !== "string" || !isNullableString(value.adjustmentReason)) {
     return false;

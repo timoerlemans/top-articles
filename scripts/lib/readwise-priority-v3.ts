@@ -9,24 +9,14 @@ import type {
   PriorityRationale,
   PriorityTier,
 } from "./readwise-priority-v2.js";
+import { SEQUENCE_ORDER } from "./priority-sequences.js";
+import type { PrioritySequence } from "./priority-sequences.js";
 
 export { detectDutch } from "./readwise-priority-v2.js";
+export { SEQUENCE_ORDER } from "./priority-sequences.js";
+export type { PrioritySequence } from "./priority-sequences.js";
 
 export const PRIORITY_MODEL = "readwise-priority-v3" as const;
-export const SEQUENCE_ORDER = [
-  "video",
-  "boek",
-  "pdf",
-  "lees",
-  "dutch",
-  "short",
-  "short-dutch",
-  "luchtig",
-  "luchtig-nederlands",
-  "scrum",
-] as const;
-
-export type PrioritySequence = (typeof SEQUENCE_ORDER)[number];
 
 export interface PriorityOverride {
   adjustment?: number | undefined;

@@ -19,6 +19,8 @@ function isArticleItem(value) {
 function isArticleList(value) {
     return isRecord(value) && typeof value.tag === "string" && Array.isArray(value.items) && value.items.every(isArticleItem);
 }
+// Controleert alleen de vorm (string/getal), niet of sequence-ids in de bekende SEQUENCE_ORDER-set
+// zitten — data/score.js kan op een ander moment gegenereerd zijn dan de huidige TS-compilatie.
 function isPriorityItem(value) {
     if (!isRecord(value) || typeof value.baseScore !== "number" || typeof value.adjustment !== "number" || typeof value.score !== "number" || typeof value.tier !== "string" || !isNullableString(value.adjustmentReason)) {
         return false;

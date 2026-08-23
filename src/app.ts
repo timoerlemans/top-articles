@@ -1,5 +1,6 @@
 import { parseTopArticlePriority, parseTopArticles } from "./types/browser-data.js";
 import type { ArticleFamily, ArticleItem, ArticleList, PriorityItem } from "./types/browser-data.js";
+import type { PrioritySequence } from "../scripts/lib/readwise-priority-v3.js";
 
 type ListSize = "top-10" | "top-100";
 type View = "toplists" | "discover" | "priority";
@@ -9,7 +10,7 @@ type ReadingTimeBucket = "up-to-5" | "6-to-10" | "11-to-20" | "21-to-60" | "over
 type IndexedItem = { item: ArticleItem; tagPositions: Map<string, number> };
 type PriorityArticle = ArticleItem & { priority: PriorityItem; priorityPosition: number };
 type NormalizedItem = { item: ArticleItem; sortPosition: number };
-type BrowserState = { familyId: string; size: ListSize; view: View; discoverListId: string; prioritySequence: string; query: string; sort: SortField; sortDir: SortDirection; language: string; category: string; mood: string; readingTime: ReadingTimeBucket | ""; tags: Set<string> };
+type BrowserState = { familyId: string; size: ListSize; view: View; discoverListId: string; prioritySequence: PrioritySequence; query: string; sort: SortField; sortDir: SortDirection; language: string; category: string; mood: string; readingTime: ReadingTimeBucket | ""; tags: Set<string> };
 
 function requiredElement<ElementType extends HTMLElement>(id: string, elementType: new () => ElementType): ElementType {
   const element = document.getElementById(id);
@@ -102,18 +103,22 @@ function requiredElement<ElementType extends HTMLElement>(id: string, elementTyp
 
   const SIZE_LABEL: Record<ListSize, string> = { "top-10": "Top 10", "top-100": "Top 100" };
 
-  const PRIORITY_SEQUENCES = [
-    { id: "lees", label: "Lezen" },
-    { id: "boek", label: "Boeken" },
-    { id: "pdf", label: "PDF's" },
-    { id: "video", label: "Video" },
-    { id: "dutch", label: "Nederlands" },
-    { id: "short", label: "Kort" },
-    { id: "short-dutch", label: "Kort NL" },
-    { id: "luchtig", label: "Luchtig" },
-    { id: "luchtig-nederlands", label: "Luchtig NL" },
-    { id: "scrum", label: "Scrum" },
+  const PRIORITY_SEQUENCE_LABELS: Record<PrioritySequence, string> = {
+    lees: "Lezen",
+    boek: "Boeken",
+    pdf: "PDF's",
+    video: "Video",
+    dutch: "Nederlands",
+    short: "Kort",
+    "short-dutch": "Kort NL",
+    luchtig: "Luchtig",
+    "luchtig-nederlands": "Luchtig NL",
+    scrum: "Scrum",
+  };
+  const PRIORITY_SEQUENCE_DISPLAY_ORDER: readonly PrioritySequence[] = [
+    "lees", "boek", "pdf", "video", "dutch", "short", "short-dutch", "luchtig", "luchtig-nederlands", "scrum",
   ];
+  const PRIORITY_SEQUENCES = PRIORITY_SEQUENCE_DISPLAY_ORDER.map((id) => ({ id, label: PRIORITY_SEQUENCE_LABELS[id] }));
 
   const PRIORITY_COMPONENT_LABELS = {
     kerninteresse: "Kerninteresse",
@@ -296,7 +301,8 @@ function requiredElement<ElementType extends HTMLElement>(id: string, elementTyp
     }
     if (familyId === "leesvolgorde") {
       state.view = "priority";
-      if (size && PRIORITY_SEQUENCES.some(({ id }) => id === size)) {state.prioritySequence = size;}
+      const matchedSequence = PRIORITY_SEQUENCES.find(({ id }) => id === size);
+      if (matchedSequence) {state.prioritySequence = matchedSequence.id;}
       return;
     }
     state.view = "toplists";
@@ -447,7 +453,7 @@ function requiredElement<ElementType extends HTMLElement>(id: string, elementTyp
     }
   }
 
-  function priorityCount(sequence: string): number {
+  function priorityCount(sequence: PrioritySequence): number {
     return Object.values(priorityItems).filter((item) => item.sequences?.includes(sequence)).length;
   }
 
@@ -936,7 +942,7 @@ function requiredElement<ElementType extends HTMLElement>(id: string, elementTyp
     }
     details.appendChild(components);
 
-    const positions = Object.entries(priority.positions ?? {});
+    const positions = Object.entries(priority.positions ?? {}) as Array<[PrioritySequence, number]>;
     if (positions.length > 0) {
       const p = document.createElement("p");
       p.className = "priority-positions";

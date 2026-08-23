@@ -1,9 +1,11 @@
 import { parseReadingMinutes } from "./reading-time.js";
 import type { ReadingTimeValue } from "./reading-time.js";
+import { BASE_SEQUENCE_ORDER } from "./priority-sequences.js";
+import type { PrioritySequenceV2 } from "./priority-sequences.js";
+
+export type { PrioritySequenceV2 } from "./priority-sequences.js";
 
 export type PriorityTier = "hoog" | "midden" | "laag";
-
-export type PrioritySequenceV2 = "video" | "boek" | "pdf" | "lees" | "dutch" | "short" | "short-dutch";
 
 export interface PriorityTagDescriptor {
   name?: string | null;
@@ -79,7 +81,7 @@ const RESEARCH_TAGS = ["research papers & academia", "history of ideas"];
 const AMERICA_MARKERS = ["united states", "u.s.", "us politics", "trump", "america", "american"];
 const DUTCH_TAGS = new Set(["dutch", "nederlands", "nl"]);
 const ENGLISH_TAGS = new Set(["english", "lang:en"]);
-const SEQUENCE_ORDER: readonly PrioritySequenceV2[] = ["video", "boek", "pdf", "lees", "dutch", "short", "short-dutch"];
+const SEQUENCE_ORDER: readonly PrioritySequenceV2[] = BASE_SEQUENCE_ORDER;
 
 function normalize(value: string | null | undefined): string {
   return (value ?? "")

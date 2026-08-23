@@ -83,18 +83,22 @@ function requiredElement(id, elementType) {
         "juli", "augustus", "september", "oktober", "november", "december",
     ];
     const SIZE_LABEL = { "top-10": "Top 10", "top-100": "Top 100" };
-    const PRIORITY_SEQUENCES = [
-        { id: "lees", label: "Lezen" },
-        { id: "boek", label: "Boeken" },
-        { id: "pdf", label: "PDF's" },
-        { id: "video", label: "Video" },
-        { id: "dutch", label: "Nederlands" },
-        { id: "short", label: "Kort" },
-        { id: "short-dutch", label: "Kort NL" },
-        { id: "luchtig", label: "Luchtig" },
-        { id: "luchtig-nederlands", label: "Luchtig NL" },
-        { id: "scrum", label: "Scrum" },
+    const PRIORITY_SEQUENCE_LABELS = {
+        lees: "Lezen",
+        boek: "Boeken",
+        pdf: "PDF's",
+        video: "Video",
+        dutch: "Nederlands",
+        short: "Kort",
+        "short-dutch": "Kort NL",
+        luchtig: "Luchtig",
+        "luchtig-nederlands": "Luchtig NL",
+        scrum: "Scrum",
+    };
+    const PRIORITY_SEQUENCE_DISPLAY_ORDER = [
+        "lees", "boek", "pdf", "video", "dutch", "short", "short-dutch", "luchtig", "luchtig-nederlands", "scrum",
     ];
+    const PRIORITY_SEQUENCES = PRIORITY_SEQUENCE_DISPLAY_ORDER.map((id) => ({ id, label: PRIORITY_SEQUENCE_LABELS[id] }));
     const PRIORITY_COMPONENT_LABELS = {
         kerninteresse: "Kerninteresse",
         diepgang: "Diepgang",
@@ -295,8 +299,9 @@ function requiredElement(id, elementType) {
         }
         if (familyId === "leesvolgorde") {
             state.view = "priority";
-            if (size && PRIORITY_SEQUENCES.some(({ id }) => id === size)) {
-                state.prioritySequence = size;
+            const matchedSequence = PRIORITY_SEQUENCES.find(({ id }) => id === size);
+            if (matchedSequence) {
+                state.prioritySequence = matchedSequence.id;
             }
             return;
         }

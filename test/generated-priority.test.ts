@@ -59,6 +59,8 @@ test("gegenereerde priority-export is geldig en sluit aan op dezelfde actieve ca
       assert.ok(currentPriority);
       assert.ok(previousPriority.score >= currentPriority.score, `${label} is niet op score gesorteerd`);
       if (previousPriority.score === currentPriority.score) {
+        assert.ok(previous.savedDate, "artikel zonder savedDate in de gegenereerde data");
+        assert.ok(current.savedDate, "artikel zonder savedDate in de gegenereerde data");
         const savedDifference = Date.parse(previous.savedDate) - Date.parse(current.savedDate);
         assert.ok(savedDifference < 0 || (savedDifference === 0 && previous.id.localeCompare(current.id) <= 0), `${label} heeft een ongeldige tie-break`);
       }
