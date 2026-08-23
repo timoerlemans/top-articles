@@ -1,6 +1,6 @@
 // Automatisch gegenereerd door scripts/build-data.mjs — niet handmatig bewerken.
 window.TOP_ARTICLES = {
-  "generatedAt": "2026-08-23T06:46:52.426Z",
+  "generatedAt": "2026-08-23T08:50:01.741Z",
   "families": [
     {
       "id": "algemeen",
@@ -13268,33 +13268,6 @@ window.TOP_ARTICLES = {
             },
             {
               "position": 3,
-              "id": "01m0pcq1572yqhmecz5cppbjf6",
-              "title": "Food for Agile Thought 558: Transformation Failure, POM Before AI, Velocity vs. Opportunity Costs, Influence and R…",
-              "author": "Stefan Wolpers",
-              "siteName": "Substack",
-              "category": "email",
-              "language": null,
-              "readingTime": "9 mins",
-              "readingMinutes": 9,
-              "wordCount": 2227,
-              "publishedDate": "2026-08-23",
-              "savedDate": "2026-08-23T04:05:30.408000+00:00",
-              "imageUrl": null,
-              "sourceUrl": "mailto:reader-forwarded-email/c766cd1b68cc8fcce298b3501364a851",
-              "readwiseUrl": "https://read.readwise.io/read/01m0pcq1572yqhmecz5cppbjf6",
-              "summary": "This week, Nigel Thurlow and Stephanie Leue tackle leadership: Thurlow analyzes patterns of failure in transformation, showing that leaders seek change only when they hold power, while Leue proposes that steady presence, not control, builds authority.",
-              "whyRead": "Raakt je rol als Scrum Master — wekelijkse Agile/AI-digest over leiderschap, productmanagement en AI-governance in organisaties.",
-              "bestMoment": "leergierig",
-              "tags": [
-                "scrum",
-                "technology"
-              ],
-              "alsoIn": [
-                "aaa-scrum-top-100"
-              ]
-            },
-            {
-              "position": 4,
               "id": "01ktp2hmn8jpdb5pwfpf2x9g0p",
               "title": "Leading High Performing Teams",
               "author": "Edwin Dando",
@@ -13324,7 +13297,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 5,
+              "position": 4,
               "id": "01ktp2jv87zz114a0e57x0hnra",
               "title": "Self-Managing Teams: From Compliance to Collaboration",
               "author": "Stephanie Ockerman",
@@ -13354,7 +13327,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 6,
+              "position": 5,
               "id": "01kwexp3bnatgms46fkdbgsnt6",
               "title": "The Scrum Master",
               "author": "Scrum.org",
@@ -13382,7 +13355,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 7,
+              "position": 6,
               "id": "01kwexpk131p0dac6rajfc0wtb",
               "title": "Navigating Impediments",
               "author": "Scrum.org",
@@ -13410,7 +13383,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 8,
+              "position": 7,
               "id": "01kwexppfbvptw25yz3fnypwyx",
               "title": "Facilitation",
               "author": "Scrum.org",
@@ -13438,7 +13411,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 9,
+              "position": 8,
               "id": "01kwexpqtc8mc6pyyf1rj9gb8v",
               "title": "Coaching",
               "author": "Scrum.org",
@@ -13466,7 +13439,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 10,
+              "position": 9,
               "id": "01kwexpsbrn9aftwadk0dfvf1n",
               "title": "Mentoring",
               "author": "Scrum.org",
@@ -13482,6 +13455,34 @@ window.TOP_ARTICLES = {
               "sourceUrl": "https://www.scrum.org/learning-series/mentoring",
               "readwiseUrl": "https://read.readwise.io/read/01kwexpsbrn9aftwadk0dfvf1n",
               "summary": "Scrum.org's competency on mentoring: contrasts formal company-sponsored mentorship with informal and ad hoc mentoring, lays out five principles (connection, intentional, active, clear, limited), the traits of a good mentor, and concrete examples of mentoring relationships both within and outside a Scrum Team.",
+              "whyRead": null,
+              "bestMoment": null,
+              "tags": [
+                "later",
+                "professional development",
+                "scrum"
+              ],
+              "alsoIn": [
+                "aaa-scrum-top-100"
+              ]
+            },
+            {
+              "position": 10,
+              "id": "01kwf0ybdf5nk9310rfsr9gfkw",
+              "title": "Self-Managing Teams",
+              "author": "Scrum.org",
+              "siteName": null,
+              "category": "article",
+              "language": "Engels",
+              "readingTime": "6 mins",
+              "readingMinutes": 6,
+              "wordCount": 1568,
+              "publishedDate": null,
+              "savedDate": "2026-07-01T14:22:19.055000+00:00",
+              "imageUrl": "",
+              "sourceUrl": "https://www.scrum.org/learning-series/self-managing-teams#content-only",
+              "readwiseUrl": "https://read.readwise.io/read/01kwf0ybdf5nk9310rfsr9gfkw",
+              "summary": "Corrected content-only Scrum.org import.",
               "whyRead": null,
               "bestMoment": null,
               "tags": [
@@ -13554,33 +13555,6 @@ window.TOP_ARTICLES = {
             },
             {
               "position": 3,
-              "id": "01m0pcq1572yqhmecz5cppbjf6",
-              "title": "Food for Agile Thought 558: Transformation Failure, POM Before AI, Velocity vs. Opportunity Costs, Influence and R…",
-              "author": "Stefan Wolpers",
-              "siteName": "Substack",
-              "category": "email",
-              "language": null,
-              "readingTime": "9 mins",
-              "readingMinutes": 9,
-              "wordCount": 2227,
-              "publishedDate": "2026-08-23",
-              "savedDate": "2026-08-23T04:05:30.408000+00:00",
-              "imageUrl": null,
-              "sourceUrl": "mailto:reader-forwarded-email/c766cd1b68cc8fcce298b3501364a851",
-              "readwiseUrl": "https://read.readwise.io/read/01m0pcq1572yqhmecz5cppbjf6",
-              "summary": "This week, Nigel Thurlow and Stephanie Leue tackle leadership: Thurlow analyzes patterns of failure in transformation, showing that leaders seek change only when they hold power, while Leue proposes that steady presence, not control, builds authority.",
-              "whyRead": "Raakt je rol als Scrum Master — wekelijkse Agile/AI-digest over leiderschap, productmanagement en AI-governance in organisaties.",
-              "bestMoment": "leergierig",
-              "tags": [
-                "scrum",
-                "technology"
-              ],
-              "alsoIn": [
-                "aaa-scrum-top-10"
-              ]
-            },
-            {
-              "position": 4,
               "id": "01ktp2hmn8jpdb5pwfpf2x9g0p",
               "title": "Leading High Performing Teams",
               "author": "Edwin Dando",
@@ -13610,7 +13584,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 5,
+              "position": 4,
               "id": "01ktp2jv87zz114a0e57x0hnra",
               "title": "Self-Managing Teams: From Compliance to Collaboration",
               "author": "Stephanie Ockerman",
@@ -13640,7 +13614,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 6,
+              "position": 5,
               "id": "01kwexp3bnatgms46fkdbgsnt6",
               "title": "The Scrum Master",
               "author": "Scrum.org",
@@ -13668,7 +13642,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 7,
+              "position": 6,
               "id": "01kwexpk131p0dac6rajfc0wtb",
               "title": "Navigating Impediments",
               "author": "Scrum.org",
@@ -13696,7 +13670,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 8,
+              "position": 7,
               "id": "01kwexppfbvptw25yz3fnypwyx",
               "title": "Facilitation",
               "author": "Scrum.org",
@@ -13724,7 +13698,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 9,
+              "position": 8,
               "id": "01kwexpqtc8mc6pyyf1rj9gb8v",
               "title": "Coaching",
               "author": "Scrum.org",
@@ -13752,7 +13726,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 10,
+              "position": 9,
               "id": "01kwexpsbrn9aftwadk0dfvf1n",
               "title": "Mentoring",
               "author": "Scrum.org",
@@ -13780,7 +13754,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 11,
+              "position": 10,
               "id": "01kwf0ybdf5nk9310rfsr9gfkw",
               "title": "Self-Managing Teams",
               "author": "Scrum.org",
@@ -13803,10 +13777,12 @@ window.TOP_ARTICLES = {
                 "professional development",
                 "scrum"
               ],
-              "alsoIn": []
+              "alsoIn": [
+                "aaa-scrum-top-10"
+              ]
             },
             {
-              "position": 12,
+              "position": 11,
               "id": "01kwgv3m75tgghgzvyx20sxse0",
               "title": "The Scrum Master",
               "author": "Scrum.org",
@@ -13831,7 +13807,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 13,
+              "position": 12,
               "id": "01kwgv3te7ptf027ds5be7nsr3",
               "title": "The Scrum Events",
               "author": "Scrum.org",
@@ -13856,7 +13832,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 14,
+              "position": 13,
               "id": "01kwgv3xd015jvxgxaa6x1gwy3",
               "title": "Self-Managing Teams",
               "author": "Scrum.org",
@@ -13881,7 +13857,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 15,
+              "position": 14,
               "id": "01kwgv3yscnzt7mvbt3cpcn1ey",
               "title": "Tips for Joining a Scrum Team and Building Collaborative Relationships",
               "author": "Scrum.org",
@@ -13906,7 +13882,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 16,
+              "position": 15,
               "id": "01kwgv43gpd4xyx01qc2khq1vk",
               "title": "Navigating Impediments",
               "author": "Scrum.org",
@@ -13931,7 +13907,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 17,
+              "position": 16,
               "id": "01kwgv46jm4x817bmpjy470hra",
               "title": "Facilitation",
               "author": "Scrum.org",
@@ -13956,7 +13932,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 18,
+              "position": 17,
               "id": "01kwgv4834kwm67vkjqghncfxd",
               "title": "Coaching",
               "author": "Scrum.org",
@@ -13981,7 +13957,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 19,
+              "position": 18,
               "id": "01kwgv49bqnbz83e4xekh95k2z",
               "title": "Mentoring",
               "author": "Scrum.org",
@@ -14006,7 +13982,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 20,
+              "position": 19,
               "id": "01m0k2vz633g5ymgt2gt9qgv09",
               "title": "The Unlicensed Therapists of Tech",
               "author": "Kaisa Martiskainen",
@@ -14031,7 +14007,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 21,
+              "position": 20,
               "id": "01m0k2y8k9jpzx9ca7hmq5ajh6",
               "title": "Are Scrum Masters Too Much Overhead?",
               "author": "Maarten Dalmijn",
@@ -14055,7 +14031,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 22,
+              "position": 21,
               "id": "01m0k3a1phe9yh3dacdg5cknj6",
               "title": "The Scrum Master Job Still Exists. It Depends Where You're Sitting",
               "author": "Vibhor Chandel",
@@ -14080,7 +14056,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 23,
+              "position": 22,
               "id": "01m0k3aq7jasftab9kwgnqr6mm",
               "title": "How to close a never ending discussion",
               "author": "Vibhor Chandel",
@@ -14104,7 +14080,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 24,
+              "position": 23,
               "id": "01m0k3b9rdcttsyv4bd0n575k5",
               "title": "It Doesn't Matter.",
               "author": "David Pereira",
@@ -14129,7 +14105,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 25,
+              "position": 24,
               "id": "01m0k3c5bpzqs90951nw1g61t3",
               "title": "Difficult Product Owner? Here’s What to Do When You Have No Authority Over Them",
               "author": "Dejan Majkic",
@@ -14154,7 +14130,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 26,
+              "position": 25,
               "id": "01m0k2sst961mrbjhqmgtjsgep",
               "title": "The Downfall of the Scrum Master Role: A Change Agent's Perspective",
               "author": "Scrum.org",
@@ -14178,7 +14154,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 27,
+              "position": 26,
               "id": "01m0kk39ej35nn1j1xszgypca2",
               "title": "Linking Every User Story to the Product Goal",
               "author": "vibhorchandel.com",
@@ -14202,7 +14178,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 28,
+              "position": 27,
               "id": "01kwew3a21msfp9j00h4t73qat",
               "title": "What Does an Agile Coach Actually Do?",
               "author": "Scrum Facilitators",
@@ -14227,7 +14203,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 29,
+              "position": 28,
               "id": "01kwew3bj4a2ynh5yf1e6pxbsf",
               "title": "What is Agile? A Practical Guide for Teams Ready to Work Differently",
               "author": "Scrum Facilitators",
@@ -14252,7 +14228,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 30,
+              "position": 29,
               "id": "01kwew3ggzgdtrxk6c255tdtcz",
               "title": "Sprint Goal in Scrum: A Comprehensive Guide with Examples",
               "author": "Scrum Facilitators",
@@ -14277,7 +14253,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 31,
+              "position": 30,
               "id": "01m0phywg61rt1ps4477xh1m80",
               "title": "The Art of Simplifying Decisions.",
               "author": "David Pereira",
@@ -14302,7 +14278,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 32,
+              "position": 31,
               "id": "01m0pmpa0re9a52xcachv6fgvz",
               "title": "Adding a feature is not the same things as improving the UX and or the UI.",
               "author": "browserlondon.com",
@@ -14327,7 +14303,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 33,
+              "position": 32,
               "id": "01m0pmpcyfd67q41p366yynwww",
               "title": "Successful iteration requires going beyond agile",
               "author": "uxdesign.cc",
@@ -14352,7 +14328,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 34,
+              "position": 33,
               "id": "01kweww7axmq58ekx96xkj02jk",
               "title": "Seven Ways Scrum Masters Can Be More Effective",
               "author": "Scrum.org",
@@ -14377,7 +14353,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 35,
+              "position": 34,
               "id": "01kwexp5550gmx9jwcrafg7xd3",
               "title": "Empiricism",
               "author": "Scrum.org",
@@ -14403,7 +14379,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 36,
+              "position": 35,
               "id": "01kwexpevqvsnw5chhvec7vdc7",
               "title": "Tips for Joining a Scrum Team and Building Collaborative Relationships",
               "author": "Scrum.org",
@@ -14429,7 +14405,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 37,
+              "position": 36,
               "id": "01kwexpg90r86p63b5w5sd3910",
               "title": "Encouraging Collaborative Ways of Working in a Scrum Team",
               "author": "Scrum.org",
@@ -14455,7 +14431,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 38,
+              "position": 37,
               "id": "01kwexpw49qacd2hcbhg15tzcr",
               "title": "Frequently Asked Questions on Continuous Improvement for Scrum Masters",
               "author": "Scrum.org",
@@ -14481,7 +14457,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 39,
+              "position": 38,
               "id": "01m0kk41832n0tav3gjxdhask9",
               "title": "Agile is 25: Which Practices Still Work in 2026 and Which Don't?",
               "author": "vibhorchandel.com",
@@ -14505,7 +14481,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 40,
+              "position": 39,
               "id": "01m0phz82jsqawszgfebvkggxm",
               "title": "No amount of velocity can shield your team from opportunity cost",
               "author": "Pavel Samsonov",
@@ -14530,7 +14506,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 41,
+              "position": 40,
               "id": "01m0pj0hcdzk57dgqrhngd08xm",
               "title": "How to Tell if Your Manager is Actually Good?",
               "author": "Gregor Ojstersek",
@@ -14555,7 +14531,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 42,
+              "position": 41,
               "id": "01m0pmpjvx6xh58ztvrxxshbqp",
               "title": "Everyone’s building faster. Now what?",
               "author": "productfocus.com",
@@ -14580,7 +14556,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 43,
+              "position": 42,
               "id": "01m0kztar8p0q02aet41a6xn7w",
               "title": "Real World Agility EXPLAINED: Nick Brown’s Hard-Earned Lessons",
               "author": "Scrum Facilitators",
@@ -14608,7 +14584,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 44,
+              "position": 43,
               "id": "01m0phz54xkeck21gn6a362mbb",
               "title": "Are your PMs building reasoning silos?",
               "author": "Product Focus",
@@ -14633,7 +14609,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 45,
+              "position": 44,
               "id": "01ktp2kyqfw4gmnvgcrkt7faxv",
               "title": "Self-Managing Teams | Scrum.org",
               "author": "scrum.org",
@@ -14660,7 +14636,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 46,
+              "position": 45,
               "id": "01ktp2mzvjaxpymkgdyhw1wehh",
               "title": "Leadership Styles",
               "author": "Scrum.org",
@@ -14687,7 +14663,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 47,
+              "position": 46,
               "id": "01kwexp7111x57fyty213vtvwn",
               "title": "Applying the Scrum Values",
               "author": "Scrum.org",
@@ -14713,7 +14689,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 48,
+              "position": 47,
               "id": "01kwexp8bshzmz4w7y2nspmx7a",
               "title": "The Scrum Team",
               "author": "Scrum.org",
@@ -14739,7 +14715,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 49,
+              "position": 48,
               "id": "01kwexpa8272rzzb4wxq2c97fe",
               "title": "The Scrum Events",
               "author": "Scrum.org",
@@ -14765,7 +14741,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 50,
+              "position": 49,
               "id": "01kwexpbm8djp73dgn7ymt74bj",
               "title": "The Scrum Artifacts",
               "author": "Scrum.org",
@@ -14791,7 +14767,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 51,
+              "position": 50,
               "id": "01kwexpd63h7mhqsfywqrv4438",
               "title": "Self-Managing Teams",
               "author": "Scrum.org",
@@ -14817,7 +14793,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 52,
+              "position": 51,
               "id": "01kwexphnkt0123qcrbqqb0fqe",
               "title": "What is Backlog Refinement?",
               "author": "Scrum.org",
@@ -14843,7 +14819,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 53,
+              "position": 52,
               "id": "01kwexpmq0g9a6hznvz9rgcxzn",
               "title": "Leadership Styles",
               "author": "Scrum.org",
@@ -14869,7 +14845,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 54,
+              "position": 53,
               "id": "01kwexpxk1pfnzhy9sz4435mhb",
               "title": "Scrum.org and Comparative Agility Offer New Scrum Master Improvement Self-Assessment",
               "author": "Scrum.org",
@@ -14895,7 +14871,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 55,
+              "position": 54,
               "id": "01kwf0yd7ctbprcferqdhtms0t",
               "title": "Applying the Scrum Values",
               "author": "Scrum.org",
@@ -14921,7 +14897,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 56,
+              "position": 55,
               "id": "01kwf0yesfrexrg9r4n3ej8psg",
               "title": "What is Backlog Refinement?",
               "author": "Scrum.org",
@@ -14947,7 +14923,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 57,
+              "position": 56,
               "id": "01kwgv3p7m0hcdxdkevdk85zne",
               "title": "Empiricism",
               "author": "Scrum.org",
@@ -14972,7 +14948,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 58,
+              "position": 57,
               "id": "01kwgv3qm7grnyf9h24dxf1tpr",
               "title": "Applying the Scrum Values",
               "author": "Scrum.org",
@@ -14997,7 +14973,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 59,
+              "position": 58,
               "id": "01kwgv3s14j6mrc474hr2ty4ng",
               "title": "The Scrum Team",
               "author": "Scrum.org",
@@ -15022,7 +14998,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 60,
+              "position": 59,
               "id": "01kwgv3vs8hdwhets97r0mgv91",
               "title": "The Scrum Artifacts",
               "author": "Scrum.org",
@@ -15047,7 +15023,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 61,
+              "position": 60,
               "id": "01kwgv40cswsga3s67vbrqmh79",
               "title": "Encouraging Collaborative Ways of Working in a Scrum Team",
               "author": "Scrum.org",
@@ -15072,7 +15048,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 62,
+              "position": 61,
               "id": "01kwgv41vthssy649xsngxrck4",
               "title": "What is Backlog Refinement?",
               "author": "Scrum.org",
@@ -15097,7 +15073,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 63,
+              "position": 62,
               "id": "01kwgv454djcyseb3x807wx8js",
               "title": "Leadership Styles",
               "author": "Scrum.org",
@@ -15122,7 +15098,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 64,
+              "position": 63,
               "id": "01kwgv4ap47ve8h0bdwf29jzwq",
               "title": "Teaching",
               "author": "Scrum.org",
@@ -15147,7 +15123,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 65,
+              "position": 64,
               "id": "01kwgv4bwctkyj54rvctfyk8qa",
               "title": "Frequently Asked Questions on Continuous Improvement for Scrum Masters",
               "author": "Scrum.org",
@@ -15172,7 +15148,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 66,
+              "position": 65,
               "id": "01kwgv4d63neeawgzpjgf111bx",
               "title": "Scrum.org and Comparative Agility Offer New Scrum Master Improvement Self-Assessment",
               "author": "Scrum.org",
@@ -15197,7 +15173,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 67,
+              "position": 66,
               "id": "01m0k2s7g79gx8117m76a8rqmh",
               "title": "The Return of the Scrum Master",
               "author": "Maarten Dalmijn",
@@ -15221,7 +15197,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 68,
+              "position": 67,
               "id": "01m0k2xdt0xamb4cd7cr6j5vhx",
               "title": "The Scrum Master Way: Four Levers That Drive Team Growth",
               "author": "Agile Classrooms",
@@ -15245,7 +15221,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 69,
+              "position": 68,
               "id": "01m0k356bsanzb1ar3yx9740v2",
               "title": "Reimagine Scrum",
               "author": "Tobias Mayer",
@@ -15269,7 +15245,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 70,
+              "position": 69,
               "id": "01m0kk38p4qwk0xrbjj01g52ck",
               "title": "6 Steps to Effectively Manage Product Backlog\n6 Steps to Effectively Manage Product Backlog",
               "author": "vibhorchandel.com",
@@ -15293,7 +15269,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 71,
+              "position": 70,
               "id": "01kwew3egmmcfwxc3wnmfp373y",
               "title": "Scrum Meaning - Usage, and the Path to Professionalism",
               "author": "Scrum Facilitators",
@@ -15318,7 +15294,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 72,
+              "position": 71,
               "id": "01m0phy17feth92cc2egjbpr9m",
               "title": "Why Transformations Fail: Leadership Must Change",
               "author": "Nigel Thurlow",
@@ -15343,7 +15319,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 73,
+              "position": 72,
               "id": "01m0kztgwcc1d43t3sdahzhg08",
               "title": "Can a Scrum Master Transition to a Delivery Manager? Here's the Truth",
               "author": "Scrum Facilitators",
@@ -15369,7 +15345,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 74,
+              "position": 73,
               "id": "01m0kztthka4bcp3a2mfxww828",
               "title": "Are Scrum Masters in DANGER? 5 Ways to Prove Your Value!",
               "author": "Scrum Facilitators",
@@ -15395,7 +15371,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 75,
+              "position": 74,
               "id": "01m0kzv38gdmh51b4kzqg40mw9",
               "title": "Are You OVERLOOKING These Critical Scrum Master Practices?",
               "author": "Scrum Facilitators",
@@ -15421,7 +15397,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 76,
+              "position": 75,
               "id": "01m0kzvbj6t6crzagc9kw1n43f",
               "title": "3 Game-Changing Lessons I Wish I Knew Earlier as a #ScrumMaster",
               "author": "Scrum Facilitators",
@@ -15447,7 +15423,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 77,
+              "position": 76,
               "id": "01m0kzvhp90e4w4ycfaqv26f31",
               "title": "5 Scrum Master Mistakes You MUST Avoid!",
               "author": "Scrum Facilitators",
@@ -15473,7 +15449,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 78,
+              "position": 77,
               "id": "01m0kzwkwp6cjx5m2jn5stztex",
               "title": "Scrum 101 Series - Episode 8 - Sprint Retrospective",
               "author": "Scrum Facilitators",
@@ -15499,7 +15475,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 79,
+              "position": 78,
               "id": "01m0kzws6tp6edn1k4t1dmr1rq",
               "title": "Scrum 101 Series - Episode 2 - Product Owner",
               "author": "Scrum Facilitators",
@@ -15525,7 +15501,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 80,
+              "position": 79,
               "id": "01m0kzx60n6y7mjy1342dw0ynp",
               "title": "Scrum 101 Series - Episode 3 - Scrum Master",
               "author": "Scrum Facilitators",
@@ -15551,7 +15527,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 81,
+              "position": 80,
               "id": "01m0pmpmcr99y0nghprb1gb0qw",
               "title": "Enshittification as Overproduction in Software, Part 1: Seeing Overproduction",
               "author": "medium.com",
@@ -19823,7 +19799,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 81
+            "position": 80
           }
         ]
       },
@@ -19857,7 +19833,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 42
+            "position": 41
           }
         ]
       },
@@ -19891,7 +19867,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 33
+            "position": 32
           }
         ]
       },
@@ -19925,7 +19901,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 32
+            "position": 31
           }
         ]
       },
@@ -20045,7 +20021,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 41
+            "position": 40
           }
         ]
       },
@@ -20155,7 +20131,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 40
+            "position": 39
           }
         ]
       },
@@ -20189,7 +20165,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 44
+            "position": 43
           }
         ]
       },
@@ -20223,7 +20199,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 31
+            "position": 30
           }
         ]
       },
@@ -20309,47 +20285,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 72
-          }
-        ]
-      },
-      {
-        "position": null,
-        "id": "01m0pcq1572yqhmecz5cppbjf6",
-        "title": "Food for Agile Thought 558: Transformation Failure, POM Before AI, Velocity vs. Opportunity Costs, Influence and R…",
-        "author": "Stefan Wolpers",
-        "siteName": "Substack",
-        "category": "email",
-        "language": null,
-        "readingTime": "9 mins",
-        "readingMinutes": 9,
-        "wordCount": 2227,
-        "publishedDate": "2026-08-23",
-        "savedDate": "2026-08-23T04:05:30.408000+00:00",
-        "imageUrl": null,
-        "sourceUrl": "mailto:reader-forwarded-email/c766cd1b68cc8fcce298b3501364a851",
-        "readwiseUrl": "https://read.readwise.io/read/01m0pcq1572yqhmecz5cppbjf6",
-        "summary": "This week, Nigel Thurlow and Stephanie Leue tackle leadership: Thurlow analyzes patterns of failure in transformation, showing that leaders seek change only when they hold power, while Leue proposes that steady presence, not control, builds authority.",
-        "whyRead": "Raakt je rol als Scrum Master — wekelijkse Agile/AI-digest over leiderschap, productmanagement en AI-governance in organisaties.",
-        "bestMoment": "leergierig",
-        "tags": [
-          "scrum",
-          "technology"
-        ],
-        "alsoIn": [
-          "aaa-scrum-top-10",
-          "aaa-scrum-top-100"
-        ],
-        "memberships": [
-          {
-            "familyId": "scrum",
-            "size": "top-10",
-            "position": 3
-          },
-          {
-            "familyId": "scrum",
-            "size": "top-100",
-            "position": 3
+            "position": 71
           }
         ]
       },
@@ -20386,58 +20322,6 @@ window.TOP_ARTICLES = {
             "position": 15
           }
         ]
-      },
-      {
-        "position": null,
-        "id": "01m0njwhaa3jrnqj6z7cvdnca2",
-        "title": "eliza on X: \"saw this and instantly switched my phone to grayscale\" / X",
-        "author": "link.mail.beehiiv.com",
-        "siteName": "Capital Gains",
-        "category": "article",
-        "language": null,
-        "readingTime": "1 min",
-        "readingMinutes": 1,
-        "wordCount": 113,
-        "publishedDate": "2025-11-26",
-        "savedDate": "2026-08-22T20:34:07.820000+00:00",
-        "imageUrl": "https://pbs.twimg.com/profile_images/1703654185064153088/XnjqqDOG_400x400.jpg",
-        "sourceUrl": "https://link.mail.beehiiv.com/v2/c/af314327a3711f8dd0f64ffc72e474ac724830d23927c0c1c8616fa6234f09013dd972380c5e1ceb4739eb2227512590e6922afe2594194d024d199202e213f9b1b3bf006007a04d01e824d4c9a5f208361957caf5fb10751bca6b43d75cb85b3db8db761c191ed547b84610ad5e440145f8bef5ca93ec4c17c96fc60ae58c38a2679cb26629201d0197c36e6630a8f035ae4fb166452c23de421c8296e0be44/1c19ac582f743133",
-        "readwiseUrl": "https://read.readwise.io/read/01m0njwhaa3jrnqj6z7cvdnca2",
-        "summary": null,
-        "whyRead": "Kort, luchtig zijspoor bij het thema schermverslaving — reactie op een AI-beeldvergelijking (Nano Banana) met de grap dat iemand hierdoor zijn telefoon op grijstinten zette.",
-        "bestMoment": "ontspannen",
-        "tags": [
-          "light-reading",
-          "technology"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01m0njweyfzgff7wm2gczbrg85",
-        "title": "grace spelman on X: \"okay i think i need to start making a serious plan for the future to be off my phone in a major way\" / X",
-        "author": "https://x.com/GraceSpelman",
-        "siteName": "Capital Gains",
-        "category": "article",
-        "language": null,
-        "readingTime": "1 min",
-        "readingMinutes": 1,
-        "wordCount": 98,
-        "publishedDate": "2025-11-26",
-        "savedDate": "2026-08-22T20:34:05.393000+00:00",
-        "imageUrl": "https://pbs.twimg.com/profile_images/1926078632482439168/h_a0vCis_400x400.jpg",
-        "sourceUrl": "https://link.mail.beehiiv.com/v2/c/e4a118f3ccaac2ab223ac552bf88bbe0b7303617c928753b2a30c9123c8bfa088b24d5e5c3e46a8364ad9da1f2262862e31eb8f02f3073a806734b1c2b0f9eb8182573170b11dc1c8ed558d2ed4e82c3340542336ea7f402fbb2a58cec32eba9d423b03f4b1a6deaacab25fba2ecf79568000aed3bfc4cd1e26bc88e3e4abd1077de4cb93fcdf59eab7c684f07fc2c999237da1f63a22d041647cceaa5443f03/f7c2d203233cb914",
-        "readwiseUrl": "https://read.readwise.io/read/01m0njweyfzgff7wm2gczbrg85",
-        "summary": "okay i think i need to start making a serious plan for the future to be off my phone in a major way",
-        "whyRead": "Kort zijspoor bij het thema schermverslaving — tweet over de wens om structureel minder telefoon te gebruiken, plus een terzijde over AI-transparantiewetgeving.",
-        "bestMoment": "ontspannen",
-        "tags": [
-          "light-reading",
-          "technology"
-        ],
-        "alsoIn": [],
-        "memberships": []
       },
       {
         "position": null,
@@ -21189,7 +21073,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 80
+            "position": 79
           },
           {
             "familyId": "videos",
@@ -21228,7 +21112,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 79
+            "position": 78
           },
           {
             "familyId": "videos",
@@ -21267,7 +21151,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 78
+            "position": 77
           },
           {
             "familyId": "videos",
@@ -21306,7 +21190,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 77
+            "position": 76
           },
           {
             "familyId": "videos",
@@ -21345,7 +21229,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 76
+            "position": 75
           },
           {
             "familyId": "videos",
@@ -21384,7 +21268,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 75
+            "position": 74
           },
           {
             "familyId": "videos",
@@ -21423,7 +21307,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 74
+            "position": 73
           },
           {
             "familyId": "videos",
@@ -21462,7 +21346,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 73
+            "position": 72
           },
           {
             "familyId": "videos",
@@ -21503,7 +21387,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 43
+            "position": 42
           },
           {
             "familyId": "videos",
@@ -21546,7 +21430,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 39
+            "position": 38
           }
         ]
       },
@@ -21579,7 +21463,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 27
+            "position": 26
           }
         ]
       },
@@ -21612,7 +21496,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 70
+            "position": 69
           }
         ]
       },
@@ -21719,7 +21603,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 25
+            "position": 24
           }
         ]
       },
@@ -21753,7 +21637,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 24
+            "position": 23
           }
         ]
       },
@@ -21786,7 +21670,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 23
+            "position": 22
           }
         ]
       },
@@ -21820,7 +21704,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 22
+            "position": 21
           }
         ]
       },
@@ -21853,7 +21737,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 69
+            "position": 68
           }
         ]
       },
@@ -21911,7 +21795,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 21
+            "position": 20
           }
         ]
       },
@@ -21944,7 +21828,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 68
+            "position": 67
           }
         ]
       },
@@ -21978,7 +21862,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 20
+            "position": 19
           }
         ]
       },
@@ -22011,7 +21895,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 26
+            "position": 25
           }
         ]
       },
@@ -22044,7 +21928,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 67
+            "position": 66
           }
         ]
       },
@@ -31614,7 +31498,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 66
+            "position": 65
           }
         ]
       },
@@ -31648,7 +31532,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 65
+            "position": 64
           }
         ]
       },
@@ -31682,7 +31566,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 64
+            "position": 63
           }
         ]
       },
@@ -31716,7 +31600,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 19
+            "position": 18
           }
         ]
       },
@@ -31750,7 +31634,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 18
+            "position": 17
           }
         ]
       },
@@ -31784,7 +31668,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 17
+            "position": 16
           }
         ]
       },
@@ -31818,7 +31702,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 63
+            "position": 62
           }
         ]
       },
@@ -31852,7 +31736,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 16
+            "position": 15
           }
         ]
       },
@@ -31886,7 +31770,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 62
+            "position": 61
           }
         ]
       },
@@ -31920,7 +31804,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 61
+            "position": 60
           }
         ]
       },
@@ -31954,7 +31838,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 15
+            "position": 14
           }
         ]
       },
@@ -31988,7 +31872,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 14
+            "position": 13
           }
         ]
       },
@@ -32022,7 +31906,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 60
+            "position": 59
           }
         ]
       },
@@ -32056,7 +31940,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 13
+            "position": 12
           }
         ]
       },
@@ -32090,7 +31974,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 59
+            "position": 58
           }
         ]
       },
@@ -32124,7 +32008,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 58
+            "position": 57
           }
         ]
       },
@@ -32158,7 +32042,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 57
+            "position": 56
           }
         ]
       },
@@ -32192,7 +32076,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 12
+            "position": 11
           }
         ]
       },
@@ -32324,7 +32208,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 56
+            "position": 55
           }
         ]
       },
@@ -32359,7 +32243,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 55
+            "position": 54
           }
         ]
       },
@@ -32388,13 +32272,19 @@ window.TOP_ARTICLES = {
           "scrum"
         ],
         "alsoIn": [
+          "aaa-scrum-top-10",
           "aaa-scrum-top-100"
         ],
         "memberships": [
           {
             "familyId": "scrum",
+            "size": "top-10",
+            "position": 10
+          },
+          {
+            "familyId": "scrum",
             "size": "top-100",
-            "position": 11
+            "position": 10
           }
         ]
       },
@@ -32429,7 +32319,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 54
+            "position": 53
           }
         ]
       },
@@ -32464,7 +32354,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 38
+            "position": 37
           }
         ]
       },
@@ -32541,12 +32431,12 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-10",
-            "position": 10
+            "position": 9
           },
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 10
+            "position": 9
           }
         ]
       },
@@ -32582,12 +32472,12 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-10",
-            "position": 9
+            "position": 8
           },
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 9
+            "position": 8
           }
         ]
       },
@@ -32623,12 +32513,12 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-10",
-            "position": 8
+            "position": 7
           },
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 8
+            "position": 7
           }
         ]
       },
@@ -32663,7 +32553,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 53
+            "position": 52
           }
         ]
       },
@@ -32699,12 +32589,12 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-10",
-            "position": 7
+            "position": 6
           },
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 7
+            "position": 6
           }
         ]
       },
@@ -32739,7 +32629,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 52
+            "position": 51
           }
         ]
       },
@@ -32774,7 +32664,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 37
+            "position": 36
           }
         ]
       },
@@ -32809,7 +32699,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 36
+            "position": 35
           }
         ]
       },
@@ -32844,7 +32734,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 51
+            "position": 50
           }
         ]
       },
@@ -32879,7 +32769,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 50
+            "position": 49
           }
         ]
       },
@@ -32914,7 +32804,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 49
+            "position": 48
           }
         ]
       },
@@ -32949,7 +32839,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 48
+            "position": 47
           }
         ]
       },
@@ -32984,7 +32874,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 47
+            "position": 46
           }
         ]
       },
@@ -33019,7 +32909,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 35
+            "position": 34
           }
         ]
       },
@@ -33055,12 +32945,12 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-10",
-            "position": 6
+            "position": 5
           },
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 6
+            "position": 5
           }
         ]
       },
@@ -33094,7 +32984,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 34
+            "position": 33
           }
         ]
       },
@@ -33128,7 +33018,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 30
+            "position": 29
           }
         ]
       },
@@ -33162,7 +33052,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 71
+            "position": 70
           }
         ]
       },
@@ -33196,7 +33086,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 29
+            "position": 28
           }
         ]
       },
@@ -33230,7 +33120,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 28
+            "position": 27
           }
         ]
       },
@@ -34929,7 +34819,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 46
+            "position": 45
           }
         ]
       },
@@ -34965,7 +34855,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 45
+            "position": 44
           }
         ]
       },
@@ -35003,12 +34893,12 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-10",
-            "position": 5
+            "position": 4
           },
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 5
+            "position": 4
           }
         ]
       },
@@ -35046,12 +34936,12 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-10",
-            "position": 4
+            "position": 3
           },
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 4
+            "position": 3
           }
         ]
       },
