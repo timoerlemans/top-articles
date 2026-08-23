@@ -9,7 +9,7 @@ import { fileURLToPath } from "node:url";
 import { dirname, join, resolve } from "node:path";
 import { z } from "zod";
 import { buildPriorityExport } from "./lib/readwise-priority-v3.js";
-import type { PriorityExportItem, PriorityOverrideMap } from "./lib/readwise-priority-v3.js";
+import type { PriorityExportItem, PriorityOverridesConfig } from "./lib/readwise-priority-v3.js";
 import { FAMILY_DEFINITIONS, buildUnifiedLists } from "./lib/unified-lists.js";
 import type { RankedUnifiedEntry, UnifiedCatalogEntry } from "./lib/unified-lists.js";
 import { parseReadingMinutes } from "./lib/reading-time.js";
@@ -104,7 +104,10 @@ const ORDINAL_TAG_PATTERN = /^[a-z]+(?:-[a-z]+)*-\d{3,4}$/i;
 
 // Curatietags (triage-workflow) zijn geen inhoudelijke interesse, dus ook uitgesloten.
 const CURATION_TAGS = new Set(["must-read", "shortlist", "short-list"]);
-const overridesSchema = z.record(z.string(), z.object({ adjustment: z.number().optional(), reason: z.string().nullable().optional() }));
+const overridesSchema = z.object({
+  version: z.literal(1),
+  items: z.record(z.string(), z.object({ adjustment: z.number().optional(), reason: z.string().nullable().optional() })),
+});
 
 function interestTagsFor(doc: ReadwiseDocument): string[] {
   const tags: string[] = [];
@@ -194,7 +197,7 @@ function toItem(doc: ReadwiseDocument, position: number | null): CatalogItem {
 async function main() {
   const laterDocs = await fetchDocumentsByLocation("later");
   const generatedAt = new Date().toISOString();
-  const overrides: PriorityOverrideMap = overridesSchema.parse(JSON.parse(await readFile(OVERRIDES_FILE, "utf8")));
+  const overrides: PriorityOverridesConfig = overridesSchema.parse(JSON.parse(await readFile(OVERRIDES_FILE, "utf8")));
   const priority = buildPriorityExport(laterDocs, { generatedAt, overrides });
   const baseCatalog = laterDocs.map((doc) => toItem(doc, null));
   type RankedCatalogItem = CatalogItem & UnifiedCatalogEntry & { priority: PriorityExportItem };

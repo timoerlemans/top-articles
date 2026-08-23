@@ -14,7 +14,7 @@ import type { PriorityJournal } from "./lib/priority-apply.js";
 import { createReadwiseRequester } from "./lib/readwise-request.js";
 import { parseReadwiseDocumentPage } from "./lib/external-schemas.js";
 import type { ReadwiseDocument } from "./lib/external-schemas.js";
-import type { PriorityOverrideMap } from "./lib/readwise-priority-v3.js";
+import type { PriorityOverridesConfig } from "./lib/readwise-priority-v3.js";
 
 const execFileAsync = promisify(execFile);
 const ROOT = resolve(dirname(fileURLToPath(import.meta.url)), "../..");
@@ -22,7 +22,10 @@ const OVERRIDES_FILE = resolve(ROOT, "config/readwise-priority-overrides.json");
 const RESPONSE_FIELDS = "title,summary,word_count,reading_time,published_date,saved_at,updated_at,category,location,reading_progress,tags,notes";
 const LOCATIONS = ["later", "new", "shortlist", "archive", "feed"] as const;
 type Location = (typeof LOCATIONS)[number];
-const overridesSchema = z.record(z.string(), z.object({ adjustment: z.number().optional(), reason: z.string().nullable().optional() }));
+const overridesSchema = z.object({
+  version: z.literal(1),
+  items: z.record(z.string(), z.object({ adjustment: z.number().optional(), reason: z.string().nullable().optional() })),
+});
 const journalSchema = z.looseObject({
   planHash: z.string(),
   startedAt: z.string(),
@@ -73,7 +76,7 @@ async function fetchLibrary({ cleanupAll = false }: { cleanupAll?: boolean } = {
   return { later, outside };
 }
 
-async function loadOverrides(): Promise<PriorityOverrideMap> {
+async function loadOverrides(): Promise<PriorityOverridesConfig> {
   const path = option("--overrides", OVERRIDES_FILE);
   if (!path) {
     throw new Error("Pad naar scorecorrecties ontbreekt");
