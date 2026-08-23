@@ -1,5 +1,7 @@
 node_modules/
 .tmp/
 .worktrees/
+.claude/
+.codex/
 dist/
 .DS_Store
