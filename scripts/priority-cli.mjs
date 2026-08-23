@@ -7,6 +7,7 @@ import { dirname, resolve } from "node:path";
 import { fileURLToPath } from "node:url";
 
 import { buildPriorityTagPlan, validatePriorityTagPlan } from "./lib/priority-tag-plan.mjs";
+import { applyPriorityOperations } from "./lib/priority-apply.mjs";
 import { createReadwiseRequester } from "./lib/readwise-request.mjs";
 
 const execFileAsync = promisify(execFile);
@@ -15,6 +16,7 @@ const OVERRIDES_FILE = resolve(ROOT, "config/readwise-priority-overrides.json");
 const RESPONSE_FIELDS = "title,summary,word_count,reading_time,published_date,saved_at,updated_at,category,location,reading_progress,tags,notes";
 const LOCATIONS = ["later", "new", "shortlist", "archive", "feed"];
 const runReadwise = createReadwiseRequester({ exec: (args) => execFileAsync("readwise", args) });
+const runReadwiseMutation = createReadwiseRequester({ exec: (args) => execFileAsync("readwise", args), retries: 0 });
 
 function option(name, fallback = null) {
   const index = process.argv.indexOf(name);
@@ -70,6 +72,15 @@ async function writeJson(path, value) {
   return absolute;
 }
 
+async function readJsonIfExists(path) {
+  try {
+    return JSON.parse(await readFile(resolve(path), "utf8"));
+  } catch (error) {
+    if (error?.code === "ENOENT") return null;
+    throw error;
+  }
+}
+
 async function planCommand() {
   const output = option("--output", ".tmp/readwise/priority-plan.json");
   const cleanupAll = process.argv.includes("--cleanup-all");
@@ -92,14 +103,22 @@ async function applyCommand() {
   if (livePlan.sourceFingerprint !== plan.sourceFingerprint) throw new Error("Readwise of de scorecorrecties zijn gewijzigd; maak een nieuwe proefrun");
 
   const journalPath = option("--journal", ".tmp/readwise/priority-apply-journal.json");
-  const journal = { planHash: plan.planHash, startedAt: new Date().toISOString(), completed: [] };
-  for (const operation of livePlan.operations) {
+  const previousJournal = await readJsonIfExists(journalPath);
+  const journal = previousJournal?.planHash === plan.planHash
+    ? previousJournal
+    : { planHash: plan.planHash, startedAt: new Date().toISOString(), completed: [], failures: [] };
+  await applyPriorityOperations({
+    operations: livePlan.operations,
+    journal,
+    execute: async (operation) => {
     const command = operation.action === "add" ? "reader-add-tags-to-document" : "reader-remove-tags-from-document";
-    await runReadwise([command, "--document-id", operation.documentId, "--tag-names", operation.tag]);
-    journal.completed.push(operation);
-    await writeJson(journalPath, journal);
-    renderProgressBar(journal.completed.length, livePlan.operations.length);
-  }
+      await runReadwiseMutation([command, "--document-id", operation.documentId, "--tag-names", operation.tag]);
+    },
+    writeJournal: async (nextJournal) => {
+      await writeJson(journalPath, nextJournal);
+      renderProgressBar(nextJournal.completed.length, livePlan.operations.length);
+    },
+  });
   process.stdout.write("\n");
 
   const verification = await createPlan(plan.generatedAt, { cleanupAll: plan.scope === "all-locations" });

@@ -11,6 +11,7 @@ export const DIRECT_DOMAIN_TAGS = {
   cultuur_games_film: ["games", "games & game studies", "film & tv analysis", "digital culture", "entertainment & pop culture"],
   pkm: ["personal knowledge management", "pkm & kennisbeheer", "pkm & note-taking", "readwise", "tools & workflows"],
   zorgouderschap: ["parenting", "parenting & care", "parenting & family", "mantelzorg", "family & relationships"],
+  agile: ["agile", "scrum"],
 };
 
 export const ADJACENT_TOPICS = [
@@ -20,11 +21,11 @@ export const ADJACENT_TOPICS = [
 
 const DIRECT_USEFULNESS_TAGS = [
   "parenting", "parenting & care", "parenting & family", "mantelzorg", "family & relationships",
-  "business & work", "career & work", "work & career", "professional development", "scrum",
+  "business & work", "career & work", "work & career", "professional development", "scrum", "agile",
   "writing", "writing & essays", "essay-writing", "personal knowledge management",
   "pkm & kennisbeheer", "pkm & note-taking",
 ];
-const USEFULNESS_WHY_WORDS = ["werk", "ouderschap", "mantelzorg", "schrijven", "kennisbeheer", "pkm", "scrum"];
+const USEFULNESS_WHY_WORDS = ["werk", "ouderschap", "mantelzorg", "schrijven", "kennisbeheer", "pkm", "scrum", "agile"];
 const DEPTH_WORDS = ["essay", "analysis", "analyse", "report", "paper", "study", "onderzoek", "rapport"];
 const RESEARCH_TAGS = ["research papers & academia", "history of ideas"];
 const AMERICA_MARKERS = ["united states", "u.s.", "us politics", "trump", "america", "american"];

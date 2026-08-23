@@ -32,10 +32,14 @@ function stableSource(documents) {
     .map((doc) => ({
       id: doc.id,
       location: doc.location ?? null,
-      reading_progress: doc.reading_progress ?? null,
-      updated_at: doc.updated_at ?? null,
       saved_at: doc.saved_at ?? null,
       category: doc.category ?? null,
+      title: doc.title ?? null,
+      summary: doc.summary ?? null,
+      notes: doc.notes ?? null,
+      word_count: doc.word_count ?? null,
+      reading_time: doc.reading_time ?? null,
+      language: doc.language ?? null,
       lightMembership: tagKeys(doc).some((tag) => tag === "light-reading" || /^luchtig-\d{3,4}$/.test(tag) || tag.startsWith("aaa-luchtig-top-")),
       tags: tagKeys(doc).filter((tag) => !isManagedOrderTag(tag) && tag !== "light-reading").sort(),
     }))

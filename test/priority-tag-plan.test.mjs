@@ -72,3 +72,17 @@ test("houdt ieder document in later in de gewenste reeksen ongeacht leesvoortgan
   });
   assert.ok(plan.changes.read.add.includes("lees-0001"));
 });
+
+test("bronfingerprint negeert Reader updated_at maar bewaakt score-invoer", () => {
+  const base = doc("stable", { tags: { agile: {} } });
+  const plan = buildPriorityTagPlan([base], [], { generatedAt: "2026-08-16T10:00:00.000Z" });
+  const onlyUpdated = buildPriorityTagPlan([
+    doc("stable", { tags: { agile: {} }, updated_at: "2026-08-17T00:00:00.000Z" }),
+  ], [], { generatedAt: "2026-08-16T10:00:00.000Z" });
+  const changedSummary = buildPriorityTagPlan([
+    doc("stable", { tags: { agile: {} }, summary: "Een andere samenvatting." }),
+  ], [], { generatedAt: "2026-08-16T10:00:00.000Z" });
+
+  assert.equal(onlyUpdated.sourceFingerprint, plan.sourceFingerprint);
+  assert.notEqual(changedSummary.sourceFingerprint, plan.sourceFingerprint);
+});

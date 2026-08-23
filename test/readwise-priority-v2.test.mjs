@@ -42,6 +42,17 @@ test("scoret twee kerndomeinen en directe persoonlijke bruikbaarheid onafhankeli
   assert.ok(result.rationale.persoonlijke_bruikbaarheid.some((reason) => reason.includes("writing")));
 });
 
+test("behandelt agile als kerninteresse met directe beroepsmatige bruikbaarheid", () => {
+  const result = scorePriorityDocument(document({
+    tags: { agile: {} },
+    word_count: 300,
+  }));
+
+  assert.equal(result.components.kerninteresse, 30);
+  assert.equal(result.components.persoonlijke_bruikbaarheid, 20);
+  assert.equal(result.score, 55);
+});
+
 test("herkent kerndomeinen en Waarom lezen in vrije tekst", () => {
   const result = scorePriorityDocument(document({
     title: "Artificial intelligence and political philosophy",
