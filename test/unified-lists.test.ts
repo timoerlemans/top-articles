@@ -1,9 +1,24 @@
 import assert from "node:assert/strict";
 import test from "node:test";
 
-import { buildUnifiedLists } from "../scripts/lib/unified-lists.mjs";
+import {
+  buildUnifiedLists,
+  type UnifiedPriority,
+} from "../scripts/lib/unified-lists.js";
 
-function item(id, score, overrides = {}) {
+type TestCatalogEntry = {
+  id: string;
+  title: string;
+  savedDate: string;
+  publishedDate: string;
+  priority: UnifiedPriority;
+};
+
+type ItemOverrides = Omit<Partial<TestCatalogEntry>, "priority"> & {
+  priority?: Partial<UnifiedPriority>;
+};
+
+function item(id: string, score: number, overrides: ItemOverrides = {}): TestCatalogEntry {
   return {
     id,
     title: id,

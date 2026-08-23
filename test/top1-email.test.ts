@@ -6,8 +6,16 @@ import { spawn } from "node:child_process";
 import test from "node:test";
 import { fileURLToPath } from "node:url";
 
-function runEmailScript(environment) {
-  return new Promise((resolve, reject) => {
+type SentMessage = { html: string; text: string };
+
+function isSentMessage(value: unknown): value is SentMessage {
+  return typeof value === "object" && value !== null
+    && "html" in value && typeof value.html === "string"
+    && "text" in value && typeof value.text === "string";
+}
+
+function runEmailScript(environment: NodeJS.ProcessEnv): Promise<void> {
+  return new Promise<void>((resolve, reject) => {
     const childEnvironment = {
       PATH: process.env.PATH,
       RESEND_API_KEY: environment.RESEND_API_KEY,
@@ -15,13 +23,19 @@ function runEmailScript(environment) {
       RESEND_OUTPUT_FILE: environment.RESEND_OUTPUT_FILE,
     };
     const child = spawn(process.execPath, [
-      "--import", new URL("./helpers/mock-resend.mjs", import.meta.url).href,
-      "scripts/send-top1-email.mjs",
+      "--import", new URL("./helpers/mock-resend.js", import.meta.url).href,
+      "scripts/send-top1-email.js",
     ], { cwd: fileURLToPath(new URL("..", import.meta.url)), env: childEnvironment });
     let stderr = "";
-    child.stderr.on("data", (chunk) => { stderr += chunk; });
+    child.stderr.on("data", (chunk: Buffer) => { stderr += chunk.toString(); });
     child.once("error", reject);
-    child.once("exit", (code) => code === 0 ? resolve() : reject(new Error(`E-mailscript stopte met code ${code}: ${stderr}`)));
+    child.once("exit", (code) => {
+      if (code === 0) {
+        resolve();
+      } else {
+        reject(new Error(`E-mailscript stopte met code ${String(code)}: ${stderr}`));
+      }
+    });
   });
 }
 
@@ -36,8 +50,9 @@ test("top-1 e-mail bevat alleen Readwise-links", async () => {
       RESEND_OUTPUT_FILE: output,
     });
 
-    const message = JSON.parse(await readFile(output, "utf8"));
-    const urls = [...message.html.matchAll(/href="([^"]+)"/g)].map((match) => match[1]);
+    const message: unknown = JSON.parse(await readFile(output, "utf8"));
+    assert.ok(isSentMessage(message), "Resend-verzoek heeft geen geldige berichtinhoud");
+    const urls = [...message.html.matchAll(/href="([^"]+)"/g)].map((match) => match[1] ?? "");
     assert.ok(urls.length > 0, "de e-mail bevat geen artikellinks");
     assert.ok(urls.every((url) => url.startsWith("https://read.readwise.io/read/")), urls.join("\n"));
     assert.match(message.text, /https:\/\/read\.readwise\.io\/read\//);

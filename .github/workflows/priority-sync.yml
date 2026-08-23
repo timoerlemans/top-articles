@@ -30,7 +30,7 @@ jobs:
         run: readwise login-with-token "$READWISE_TOKEN"
 
       - name: Run tests
-        run: npm test
+        run: npm run check
 
       - name: Genereer prioriteitsplan
         run: npm run priority:plan -- --output .tmp/readwise/priority-plan.json

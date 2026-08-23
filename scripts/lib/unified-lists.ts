@@ -1,3 +1,13 @@
+import type { PriorityPositions, PrioritySequence } from "./readwise-priority-v3.js";
+
+export interface FamilyDefinition {
+  readonly id: string;
+  readonly label: string;
+  readonly sequence: PrioritySequence;
+  readonly top10Tag: string;
+  readonly top100Tag: string;
+}
+
 export const FAMILY_DEFINITIONS = [
   { id: "algemeen", label: "Algemeen", sequence: "lees", top10Tag: "aaa-top-10", top100Tag: "aaa-top-100" },
   { id: "nederlands", label: "Nederlands", sequence: "dutch", top10Tag: "aaa-dutch-top-10", top100Tag: "aaa-dutch-top-100" },
@@ -9,11 +19,46 @@ export const FAMILY_DEFINITIONS = [
   { id: "boeken", label: "Boeken", sequence: "boek", top10Tag: "boek-top-10", top100Tag: "boek-top-100" },
   { id: "pdfs", label: "PDF's", sequence: "pdf", top10Tag: "pdf-top-10", top100Tag: "pdf-top-100" },
   { id: "videos", label: "Video's", sequence: "video", top10Tag: "video-top-10", top100Tag: "video-top-100" },
-];
+] as const satisfies readonly FamilyDefinition[];
+
+export type FamilyId = (typeof FAMILY_DEFINITIONS)[number]["id"];
+
+export interface UnifiedPriority {
+  score: number;
+  sequences: readonly PrioritySequence[];
+  positions: PriorityPositions;
+}
+
+export interface UnifiedCatalogEntry {
+  id: string;
+  savedDate?: string | null;
+  publishedDate?: string | null;
+  priority: UnifiedPriority;
+  [key: string]: unknown;
+}
+
+export type RankedUnifiedEntry<T extends UnifiedCatalogEntry = UnifiedCatalogEntry> =
+  Omit<T, "score" | "position"> & { id: string; score: number; position: number };
+
+export interface UnifiedFamilyLists<T extends UnifiedCatalogEntry = UnifiedCatalogEntry> {
+  "top-10": RankedUnifiedEntry<T>[];
+  "top-100": RankedUnifiedEntry<T>[];
+}
+
+export interface UnifiedDerivedLists<T extends UnifiedCatalogEntry = UnifiedCatalogEntry> {
+  consensus: RankedUnifiedEntry<T>[];
+  nieuw: RankedUnifiedEntry<T>[];
+  tijdloos: RankedUnifiedEntry<T>[];
+}
+
+export interface UnifiedLists<T extends UnifiedCatalogEntry = UnifiedCatalogEntry> {
+  families: Record<FamilyId, UnifiedFamilyLists<T>>;
+  derived: UnifiedDerivedLists<T>;
+}
 
 const DAY_MS = 86_400_000;
 
-function rank(entries) {
+function rank<T extends UnifiedCatalogEntry>(entries: readonly T[]): T[] {
   return [...entries].sort((a, b) =>
     b.priority.score - a.priority.score ||
     Date.parse(a.savedDate ?? "") - Date.parse(b.savedDate ?? "") ||
@@ -21,18 +66,27 @@ function rank(entries) {
   );
 }
 
-function withListPositions(entries) {
-  return rank(entries).map((entry, index) => ({ ...entry, score: entry.priority.score, position: index + 1 }));
+function withListPositions<T extends UnifiedCatalogEntry>(entries: readonly T[]): RankedUnifiedEntry<T>[] {
+  return rank(entries).map((entry, index) => (
+    { ...entry, score: entry.priority.score, position: index + 1 }
+  ));
 }
 
-export function buildUnifiedLists(catalog, generatedAt) {
-  const families = {};
-  const top100Memberships = new Map(catalog.map(({ id }) => [id, new Set()]));
+export function buildUnifiedLists<T extends UnifiedCatalogEntry>(
+  catalog: readonly T[],
+  generatedAt: string,
+): UnifiedLists<T> {
+  const families: Partial<Record<FamilyId, UnifiedFamilyLists<T>>> = {};
+  const top100Memberships = new Map<string, Set<FamilyId>>(
+    catalog.map(({ id }): [string, Set<FamilyId>] => [id, new Set<FamilyId>()]),
+  );
 
   for (const family of FAMILY_DEFINITIONS) {
     const candidates = withListPositions(catalog.filter((entry) => entry.priority.sequences.includes(family.sequence)));
     const top100 = candidates.slice(0, 100);
-    top100.forEach(({ id }) => top100Memberships.get(id)?.add(family.id));
+    top100.forEach(({ id }) => {
+      top100Memberships.get(id)?.add(family.id);
+    });
     families[family.id] = { "top-10": top100.slice(0, 10), "top-100": top100 };
   }
 
@@ -46,7 +100,7 @@ export function buildUnifiedLists(catalog, generatedAt) {
   const nonBookCatalog = catalog.filter((entry) => !entry.priority.sequences.includes("boek"));
 
   return {
-    families,
+    families: families as Record<FamilyId, UnifiedFamilyLists<T>>,
     derived: {
       consensus: withListPositions(nonBookCatalog.filter(({ id }) => (top100Memberships.get(id)?.size ?? 0) >= 2)).slice(0, 25),
       nieuw: withListPositions(nonBookCatalog.filter((entry) => {

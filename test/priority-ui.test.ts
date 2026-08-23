@@ -3,7 +3,7 @@ import { readFile } from "node:fs/promises";
 import test from "node:test";
 
 test("de pagina legt de uniforme scorevolgorde uit", async () => {
-  const html = await readFile(new URL("../index.html", import.meta.url), "utf8");
+  const html = await readFile(new URL("../../index.html", import.meta.url), "utf8");
   const visibleText = html.replace(/<[^>]+>/g, " ").replace(/\s+/g, " ");
 
   assert.match(html, /id="priority-controls"/);
@@ -15,7 +15,7 @@ test("de pagina legt de uniforme scorevolgorde uit", async () => {
 });
 
 test("de browsercode gebruikt alleen Prioriteitsscore", async () => {
-  const source = await readFile(new URL("../app.js", import.meta.url), "utf8");
+  const source = await readFile(new URL("../src/app.js", import.meta.url), "utf8");
 
   assert.match(source, /Prioriteitsscore/);
   assert.doesNotMatch(source, /Appscore/);
@@ -25,7 +25,7 @@ test("de browsercode gebruikt alleen Prioriteitsscore", async () => {
 });
 
 test("de pagina bevat toegankelijke responsieve menu- en sorteringsbediening", async () => {
-  const html = await readFile(new URL("../index.html", import.meta.url), "utf8");
+  const html = await readFile(new URL("../../index.html", import.meta.url), "utf8");
 
   assert.match(
     html,
@@ -37,7 +37,7 @@ test("de pagina bevat toegankelijke responsieve menu- en sorteringsbediening", a
 });
 
 test("de browsercode beheert mobiel menu en desktopsortering vanuit dezelfde state", async () => {
-  const source = await readFile(new URL("../app.js", import.meta.url), "utf8");
+  const source = await readFile(new URL("../src/app.js", import.meta.url), "utf8");
 
   assert.match(source, /function setMobileMenuOpen\(/);
   assert.match(source, /mobileMenuToggleEl\.setAttribute\("aria-expanded"/);

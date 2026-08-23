@@ -5,7 +5,7 @@ import { fileURLToPath } from "node:url";
 import path from "node:path";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
-const appPath = path.join(__dirname, "..", "app.js");
+const appPath = path.join(__dirname, "..", "src", "app.js");
 
 test("filtersToParams en paramsToFilters bestaan met de juiste paramnamen", async () => {
   const source = await readFile(appPath, "utf8");
@@ -17,7 +17,7 @@ test("filtersToParams en paramsToFilters bestaan met de juiste paramnamen", asyn
   assert.match(source, /params\.set\("mood",/);
   assert.match(source, /params\.set\("time",/);
   assert.match(source, /params\.append\("tags",/);
-  assert.match(source, /READING_TIME_BUCKETS/);
+  assert.match(source, /readingTimeMatches/);
 });
 
 test("hashToState leest filters uit location.search", async () => {
@@ -66,7 +66,7 @@ test("stateToHash gebruikt location.pathname zodat een leeggemaakte query-string
   // type-filter is teruggezet naar "Alle types".
   assert.match(
     source,
-    /function stateToHash\(\)[\s\S]{0,600}location\.pathname \+ \(search \? `\?\$\{search\}` : ""\) \+ hashPart/
+    /function stateToHash\(\)[\s\S]*location\.pathname \+ \(search \? `\?\$\{search\}` : ""\) \+ hashPart/
   );
 });
 
@@ -78,7 +78,7 @@ test("renderDiscoverControls wist de chip-lijst ook als de view niet actief is",
   // werken en dus "niets doen") blijven anders in de DOM staan.
   assert.match(
     source,
-    /function renderDiscoverControls\(\)\s*\{\s*const active = state\.view === "discover";\s*discoverControlsEl\.hidden = !active;\s*discoverListChipsEl\.textContent = "";\s*if \(!active\) return;/
+    /function renderDiscoverControls\(\)\s*\{\s*const active = state\.view === "discover";\s*discoverControlsEl\.hidden = !active;\s*discoverListChipsEl\.textContent = "";\s*if \(!active\)\s*\{\s*return;/
   );
 });
 

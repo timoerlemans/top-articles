@@ -3,19 +3,34 @@ import { readFile } from "node:fs/promises";
 import test from "node:test";
 import vm from "node:vm";
 
-import { validatePriorityExport } from "../scripts/lib/readwise-priority-v3.mjs";
+import { validatePriorityExport } from "../scripts/lib/readwise-priority-v3.js";
+import {
+  isGeneratedPriority,
+  isGeneratedTopArticles,
+  type GeneratedArticle,
+  type GeneratedPriority,
+  type GeneratedTopArticles,
+} from "./helpers/generated-browser-data.js";
 
-async function loadBrowserData(path, globalName) {
+async function loadBrowserData<T>(
+  path: string,
+  globalName: string,
+  isExpectedValue: (value: unknown) => value is T,
+): Promise<T> {
   const source = await readFile(new URL(path, import.meta.url), "utf8");
-  const context = { window: {} };
+  const context: { window: Record<string, unknown> } = { window: {} };
   vm.runInNewContext(source, context);
-  return context.window[globalName];
+  const value = context.window[globalName];
+  if (!isExpectedValue(value)) {
+    throw new TypeError(`${globalName} bevat een ongeldig browsercontract`);
+  }
+  return value;
 }
 
 test("gegenereerde priority-export is geldig en sluit aan op dezelfde actieve catalogus", async () => {
   const [data, priority] = await Promise.all([
-    loadBrowserData("../data/data.js", "TOP_ARTICLES"),
-    loadBrowserData("../data/score.js", "TOP_ARTICLE_PRIORITY"),
+    loadBrowserData<GeneratedTopArticles>("../../data/data.js", "TOP_ARTICLES", isGeneratedTopArticles),
+    loadBrowserData<GeneratedPriority>("../../data/score.js", "TOP_ARTICLE_PRIORITY", isGeneratedPriority),
   ]);
   const catalogById = new Map(data.catalog.items.map((item) => [item.id, item]));
 
@@ -32,12 +47,16 @@ test("gegenereerde priority-export is geldig en sluit aan op dezelfde actieve ca
     "catalogus bevat nog legacy-scorevelden"
   );
 
-  const assertPriorityOrder = (items, label) => {
+  const assertPriorityOrder = (items: GeneratedArticle[], label: string): void => {
     for (let index = 1; index < items.length; index++) {
       const previous = items[index - 1];
       const current = items[index];
+      assert.ok(previous);
+      assert.ok(current);
       const previousPriority = priority.items[previous.id];
       const currentPriority = priority.items[current.id];
+      assert.ok(previousPriority);
+      assert.ok(currentPriority);
       assert.ok(previousPriority.score >= currentPriority.score, `${label} is niet op score gesorteerd`);
       if (previousPriority.score === currentPriority.score) {
         const savedDifference = Date.parse(previous.savedDate) - Date.parse(current.savedDate);
@@ -50,7 +69,11 @@ test("gegenereerde priority-export is geldig en sluit aan op dezelfde actieve ca
     assertPriorityOrder(family.lists["top-100"].items, `${family.id}:top-100`);
   }
   for (const list of Object.values(data.derivedLists)) {
-    const items = list.items.map((entry) => ({ ...catalogById.get(entry.id), ...entry }));
+    const items = list.items.map((entry) => {
+      const catalogItem = catalogById.get(entry.id);
+      assert.ok(catalogItem, `${list.id} bevat een onbekend catalogusitem`);
+      return { ...catalogItem, ...entry };
+    });
     assertPriorityOrder(items, list.id);
   }
 });

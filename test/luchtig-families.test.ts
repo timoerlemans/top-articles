@@ -3,20 +3,26 @@ import { readFile } from "node:fs/promises";
 import test from "node:test";
 import vm from "node:vm";
 
-async function loadGeneratedData() {
-  const source = await readFile(new URL("../data/data.js", import.meta.url), "utf8");
-  const context = { window: {} };
+import { isGeneratedTopArticles, type GeneratedTopArticles } from "./helpers/generated-browser-data.js";
+
+async function loadGeneratedData(): Promise<GeneratedTopArticles> {
+  const source = await readFile(new URL("../../data/data.js", import.meta.url), "utf8");
+  const context: { window: Record<string, unknown> } = { window: {} };
   vm.runInNewContext(source, context);
-  return context.window.TOP_ARTICLES;
+  const data = context.window.TOP_ARTICLES;
+  if (!isGeneratedTopArticles(data)) {
+    throw new TypeError("TOP_ARTICLES bevat een ongeldig browsercontract");
+  }
+  return data;
 }
 
 test("de gegenereerde data bevat de luchtig-families met doorlopende posities", async () => {
   const data = await loadGeneratedData();
 
-  assert.ok(Array.isArray(data.catalog?.items), "actieve catalogus ontbreekt");
-  assert.ok(data.derivedLists?.consensus, "consensuslijst ontbreekt");
-  assert.ok(data.derivedLists?.nieuw, "nieuw-lijst ontbreekt");
-  assert.ok(data.derivedLists?.tijdloos, "tijdloos-lijst ontbreekt");
+  assert.ok(Array.isArray(data.catalog.items), "actieve catalogus ontbreekt");
+  assert.ok(data.derivedLists.consensus, "consensuslijst ontbreekt");
+  assert.ok(data.derivedLists.nieuw, "nieuw-lijst ontbreekt");
+  assert.ok(data.derivedLists.tijdloos, "tijdloos-lijst ontbreekt");
 
   const expectedFamilies = [
     {

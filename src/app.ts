@@ -1,45 +1,64 @@
+import { TopArticlePrioritySchema, TopArticlesSchema } from "./types/browser-data.js";
+import type { ArticleFamily, ArticleItem, ArticleList, PriorityItem } from "./types/browser-data.js";
+
+type ListSize = "top-10" | "top-100";
+type View = "toplists" | "discover" | "priority";
+type SortField = "score" | "position" | "saved" | "published" | "title";
+type SortDirection = "asc" | "desc";
+type ReadingTimeBucket = "up-to-5" | "6-to-10" | "11-to-20" | "21-to-60" | "over-60";
+type IndexedItem = { item: ArticleItem; tagPositions: Map<string, number> };
+type PriorityArticle = ArticleItem & { priority: PriorityItem; priorityPosition: number };
+type NormalizedItem = { item: ArticleItem; sortPosition: number };
+type BrowserState = { familyId: string; size: ListSize; view: View; discoverListId: string; prioritySequence: string; query: string; sort: SortField; sortDir: SortDirection; language: string; category: string; mood: string; readingTime: ReadingTimeBucket | ""; tags: Set<string> };
+
+function requiredElement<ElementType extends HTMLElement>(id: string, elementType: new () => ElementType): ElementType {
+  const element = document.getElementById(id);
+  if (!(element instanceof elementType)) {throw new Error(`Vereist pagina-element ontbreekt: #${id}`);}
+  return element;
+}
+
 (function () {
   "use strict";
 
-  const data = window.TOP_ARTICLES;
-  const priorityData = window.TOP_ARTICLE_PRIORITY;
-  const priorityAvailable = priorityData?.model === "readwise-priority-v3" &&
-    priorityData?.scope === "later" && priorityData?.items && typeof priorityData.items === "object";
-  const priorityItems = priorityAvailable ? priorityData.items : {};
+  const parsedData = TopArticlesSchema.safeParse(window.TOP_ARTICLES);
+  const parsedPriority = TopArticlePrioritySchema.safeParse(window.TOP_ARTICLE_PRIORITY);
+  const data = parsedData.success ? parsedData.data : null;
+  const priorityAvailable = parsedPriority.success;
+  const priorityItems: Readonly<Record<string, PriorityItem>> = parsedPriority.success ? parsedPriority.data.items : {};
 
-  const families = data ? data.families : [];
+  const families = data?.families ?? [];
   const catalogItems = data?.catalog?.items ?? [];
   const derivedLists = data?.derivedLists ?? {};
-  const tabsEl = document.getElementById("family-tabs");
-  const mobileMenuToggleEl = document.getElementById("mobile-menu-toggle");
-  const mobileMenuLabelEl = document.getElementById("mobile-menu-label");
-  const sizeToggleEl = document.getElementById("size-toggle");
-  const discoverControlsEl = document.getElementById("discover-controls");
-  const discoverListChipsEl = document.getElementById("discover-list-chips");
-  const priorityControlsEl = document.getElementById("priority-controls");
-  const prioritySequenceChipsEl = document.getElementById("priority-sequence-chips");
-  const priorityErrorEl = document.getElementById("priority-error");
-  const readingTimeFilterEl = document.getElementById("reading-time-filter");
-  const listEl = document.getElementById("item-list");
-  const listCountEl = document.getElementById("list-count");
-  const emptyEl = document.getElementById("empty-state");
-  const searchEl = document.getElementById("search");
-  const generatedAtEl = document.getElementById("generated-at");
-  const sortChipListEl = document.getElementById("sort-chip-list");
-  const sortSelectEl = document.getElementById("sort-select");
-  const sortDirectionEl = document.getElementById("sort-direction");
-  const sortFieldEl = document.getElementById("sort-field");
-  const languageFilterEl = document.getElementById("language-filter");
-  const categoryFilterEl = document.getElementById("category-filter");
-  const moodFilterEl = document.getElementById("mood-filter");
-  const tagFilterListEl = document.getElementById("tag-filter-list");
-  const searchScopeNoteEl = document.getElementById("search-scope-note");
-  const searchFiltersPanelEl = document.getElementById("search-filters-panel");
-  const toggleSearchFiltersEl = document.getElementById("toggle-search-filters");
-  const filterCountBadgeEl = document.getElementById("filter-count-badge");
-  const activeFiltersEl = document.getElementById("active-filters");
-  const activeFilterChipListEl = document.getElementById("active-filter-chip-list");
-  const clearFiltersBtnEl = document.getElementById("clear-filters-btn");
+  const tabsEl = requiredElement("family-tabs", HTMLElement);
+  const mobileMenuToggleEl = requiredElement("mobile-menu-toggle", HTMLButtonElement);
+  const mobileMenuLabelEl = requiredElement("mobile-menu-label", HTMLElement);
+  const sizeToggleEl = requiredElement("size-toggle", HTMLElement);
+  const discoverControlsEl = requiredElement("discover-controls", HTMLElement);
+  const discoverListChipsEl = requiredElement("discover-list-chips", HTMLElement);
+  const priorityControlsEl = requiredElement("priority-controls", HTMLElement);
+  const prioritySequenceChipsEl = requiredElement("priority-sequence-chips", HTMLElement);
+  const priorityErrorEl = requiredElement("priority-error", HTMLElement);
+  const readingTimeFilterEl = requiredElement("reading-time-filter", HTMLSelectElement);
+  const listEl = requiredElement("item-list", HTMLOListElement);
+  const listCountEl = requiredElement("list-count", HTMLElement);
+  const emptyEl = requiredElement("empty-state", HTMLElement);
+  const searchEl = requiredElement("search", HTMLInputElement);
+  const generatedAtEl = requiredElement("generated-at", HTMLElement);
+  const sortChipListEl = requiredElement("sort-chip-list", HTMLElement);
+  const sortSelectEl = requiredElement("sort-select", HTMLSelectElement);
+  const sortDirectionEl = requiredElement("sort-direction", HTMLButtonElement);
+  const sortFieldEl = requiredElement("sort-field", HTMLElement);
+  const languageFilterEl = requiredElement("language-filter", HTMLSelectElement);
+  const categoryFilterEl = requiredElement("category-filter", HTMLSelectElement);
+  const moodFilterEl = requiredElement("mood-filter", HTMLSelectElement);
+  const tagFilterListEl = requiredElement("tag-filter-list", HTMLElement);
+  const searchScopeNoteEl = requiredElement("search-scope-note", HTMLElement);
+  const searchFiltersPanelEl = requiredElement("search-filters-panel", HTMLElement);
+  const toggleSearchFiltersEl = requiredElement("toggle-search-filters", HTMLButtonElement);
+  const filterCountBadgeEl = requiredElement("filter-count-badge", HTMLElement);
+  const activeFiltersEl = requiredElement("active-filters", HTMLElement);
+  const activeFilterChipListEl = requiredElement("active-filter-chip-list", HTMLElement);
+  const clearFiltersBtnEl = requiredElement("clear-filters-btn", HTMLButtonElement);
 
   if (!data) {
     const li = document.createElement("li");
@@ -49,7 +68,7 @@
     return;
   }
 
-  const CATEGORY_EMOJI = {
+  const CATEGORY_EMOJI: Record<string, string> = {
     article: "📄",
     email: "✉️",
     rss: "📰",
@@ -63,7 +82,7 @@
     audiobook: "🎧",
   };
 
-  const CATEGORY_LABELS = {
+  const CATEGORY_LABELS: Record<string, string> = {
     article: "Artikel",
     email: "E-mail",
     rss: "RSS",
@@ -82,7 +101,7 @@
     "juli", "augustus", "september", "oktober", "november", "december",
   ];
 
-  const SIZE_LABEL = { "top-10": "Top 10", "top-100": "Top 100" };
+  const SIZE_LABEL: Record<ListSize, string> = { "top-10": "Top 10", "top-100": "Top 100" };
 
   const PRIORITY_SEQUENCES = [
     { id: "lees", label: "Lezen" },
@@ -105,16 +124,17 @@
     onderscheidende_duurzame_waarde: "Duurzame waarde",
     aftrek: "Aftrek",
   };
+  const PRIORITY_COMPONENT_KEYS: readonly (keyof PriorityItem["components"])[] = [
+    "kerninteresse", "diepgang", "persoonlijke_bruikbaarheid", "leeskans", "onderscheidende_duurzame_waarde", "aftrek",
+  ];
 
-  const DEFAULT_SORT_DIR = { score: "desc", position: "asc", saved: "desc", published: "desc", title: "asc" };
+  const DEFAULT_SORT_DIR: Record<SortField, SortDirection> = { score: "desc", position: "asc", saved: "desc", published: "desc", title: "asc" };
 
-  const SORT_FIELDS = ["score", "position", "saved", "published", "title"];
-  const SORT_LABELS = { score: "Prioriteitsscore", position: "Positie", saved: "Toegevoegd", published: "Gepubliceerd", title: "Titel" };
+  const SORT_FIELDS: readonly SortField[] = ["score", "position", "saved", "published", "title"];
+  const SORT_LABELS: Record<SortField, string> = { score: "Prioriteitsscore", position: "Positie", saved: "Toegevoegd", published: "Gepubliceerd", title: "Titel" };
 
-  const READING_TIME_BUCKETS = ["up-to-5", "6-to-10", "11-to-20", "21-to-60", "over-60"];
-
-  const state = {
-    familyId: families[0]?.id ?? null,
+  const state: BrowserState = {
+    familyId: families[0]?.id ?? "",
     size: "top-10",
     view: "toplists",
     discoverListId: "consensus",
@@ -126,58 +146,59 @@
     category: "",
     mood: "",
     readingTime: "",
-    tags: new Set(),
+    tags: new Set<string>(),
   };
 
   // --- Globale index: elk document eenmaal, met per toplijst-tag zijn positie. ---
   // Nodig om over alle acht toplijsten heen te kunnen zoeken/filteren, ook buiten
   // de op dit moment actieve tab/grootte.
-  const GLOBAL_INDEX = new Map();
+  const GLOBAL_INDEX = new Map<string, IndexedItem>();
+  const LIST_SIZES: readonly ListSize[] = ["top-10", "top-100"];
   for (const family of families) {
-    for (const size of ["top-10", "top-100"]) {
+    for (const size of LIST_SIZES) {
       const list = family.lists[size];
       for (const item of list.items) {
         let entry = GLOBAL_INDEX.get(item.id);
         if (!entry) {
-          entry = { item, tagPositions: new Map() };
+          entry = { item, tagPositions: new Map<string, number>() };
           GLOBAL_INDEX.set(item.id, entry);
         }
-        entry.tagPositions.set(list.tag, item.position);
+        entry.tagPositions.set(list.tag, item.position ?? Number.MAX_SAFE_INTEGER);
       }
     }
   }
 
-  const CATALOG_INDEX = new Map(catalogItems.map((item) => [item.id, item]));
+  const CATALOG_INDEX = new Map<string, ArticleItem>(catalogItems.map((item) => [item.id, item]));
 
-  function priorityFor(item) {
-    return item?.priority ?? priorityItems[item?.id] ?? null;
+  function priorityFor(item: ArticleItem): PriorityItem | null {
+    return priorityItems[item.id] ?? null;
   }
 
-  function catalogOrTopItems() {
+  function catalogOrTopItems(): ArticleItem[] {
     return catalogItems.length > 0
       ? catalogItems
       : [...GLOBAL_INDEX.values()].map((entry) => entry.item);
   }
 
-  function bestPosition(entry) {
+  function bestPosition(entry: IndexedItem): number {
     return Math.min(...entry.tagPositions.values());
   }
 
-  function readingTimeMatches(item, bucket) {
-    if (!bucket) return true;
+  function readingTimeMatches(item: ArticleItem, bucket: ReadingTimeBucket | ""): boolean {
+    if (!bucket) {return true;}
     const minutes = item.readingMinutes;
-    if (!Number.isFinite(minutes)) return false;
-    if (bucket === "up-to-5") return minutes <= 5;
-    if (bucket === "6-to-10") return minutes >= 6 && minutes <= 10;
-    if (bucket === "11-to-20") return minutes >= 11 && minutes <= 20;
-    if (bucket === "21-to-60") return minutes >= 21 && minutes <= 60;
+    if (typeof minutes !== "number" || !Number.isFinite(minutes)) {return false;}
+    if (bucket === "up-to-5") {return minutes <= 5;}
+    if (bucket === "6-to-10") {return minutes >= 6 && minutes <= 10;}
+    if (bucket === "11-to-20") {return minutes >= 11 && minutes <= 20;}
+    if (bucket === "21-to-60") {return minutes >= 21 && minutes <= 60;}
     return minutes > 60;
   }
 
   // Alleen http(s)-links worden ooit als href/src gebruikt — voorkomt javascript:-URI's
   // in data die oorspronkelijk van willekeurige, opgeslagen webpagina's afkomstig is.
-  function safeUrl(url) {
-    if (typeof url !== "string") return null;
+  function safeUrl(url: string | null | undefined): string | null {
+    if (typeof url !== "string") {return null;}
     try {
       const parsed = new URL(url, location.href);
       return parsed.protocol === "http:" || parsed.protocol === "https:" ? parsed.href : null;
@@ -186,7 +207,7 @@
     }
   }
 
-  function formatGeneratedAt(iso) {
+  function formatGeneratedAt(iso: string): string {
     try {
       const d = new Date(iso);
       return d.toLocaleString("nl-NL", {
@@ -203,28 +224,30 @@
 
   // Handmatige parsing i.p.v. toLocaleDateString: voorkomt dat een datum-only
   // ISO-string ("2023-08-16") door tijdzone-conversie een dag verschuift.
-  function formatDateOnly(dateStr) {
-    if (typeof dateStr !== "string") return null;
+  function formatDateOnly(dateStr: string | null | undefined): string | null {
+    if (typeof dateStr !== "string") {return null;}
     const match = dateStr.slice(0, 10).match(/^(\d{4})-(\d{2})-(\d{2})$/);
-    if (!match) return null;
+    if (!match) {return null;}
     const [, y, m, d] = match;
     const month = MONTHS_NL[Number(m) - 1];
-    if (!month) return null;
+    if (!month) {return null;}
     return `${Number(d)} ${month} ${y}`;
   }
 
-  function timeValue(dateStr) {
-    if (!dateStr) return Number.NEGATIVE_INFINITY;
+  function timeValue(dateStr: string | null | undefined): number {
+    if (!dateStr) {return Number.NEGATIVE_INFINITY;}
     const t = new Date(dateStr).getTime();
     return Number.isNaN(t) ? Number.NEGATIVE_INFINITY : t;
   }
 
-  function findFamily(id) {
-    return families.find((f) => f.id === id) ?? families[0];
+  function findFamily(id: string): ArticleFamily {
+    const family = families.find((candidate) => candidate.id === id) ?? families[0];
+    if (!family) {throw new Error("De artikelgegevens bevatten geen familielijst.");}
+    return family;
   }
 
-  function findList(family, size) {
-    return family.lists[size] ?? family.lists["top-10"];
+  function findList(family: ArticleFamily, size: ListSize): ArticleList {
+    return family.lists[size];
   }
 
   // Filters worden als query params bewaard zodat ze de hash-navigatie
@@ -232,49 +255,61 @@
   function filtersToParams() {
     const params = new URLSearchParams();
     const query = state.query.trim();
-    if (query) params.set("q", query);
-    if (state.language) params.set("lang", state.language);
-    if (state.category) params.set("cat", state.category);
-    if (state.mood) params.set("mood", state.mood);
-    if (state.readingTime) params.set("time", state.readingTime);
-    for (const tag of state.tags) params.append("tags", tag);
+    if (query) {params.set("q", query);}
+    if (state.language) {params.set("lang", state.language);}
+    if (state.category) {params.set("cat", state.category);}
+    if (state.mood) {params.set("mood", state.mood);}
+    if (state.readingTime) {params.set("time", state.readingTime);}
+    for (const tag of state.tags) {params.append("tags", tag);}
     return params;
   }
 
-  function paramsToFilters(params) {
+  function paramsToFilters(params: URLSearchParams): void {
     state.query = params.get("q") ?? "";
     state.language = params.get("lang") ?? "";
     state.category = params.get("cat") ?? "";
     state.mood = params.get("mood") ?? "";
     const time = params.get("time") ?? "";
-    state.readingTime = READING_TIME_BUCKETS.includes(time) ? time : "";
+    state.readingTime = isReadingTimeBucket(time) ? time : "";
     state.tags = new Set(params.getAll("tags").filter(Boolean));
   }
 
-  function hashToState() {
+  function isReadingTimeBucket(value: string): value is ReadingTimeBucket {
+    return value === "up-to-5" || value === "6-to-10" || value === "11-to-20" || value === "21-to-60" || value === "over-60";
+  }
+
+  function isListSize(value: string | undefined): value is ListSize {
+    return value === "top-10" || value === "top-100";
+  }
+
+  function isSortField(value: string): value is SortField {
+    return value === "score" || value === "position" || value === "saved" || value === "published" || value === "title";
+  }
+
+  function hashToState(): void {
     const parts = location.hash.replace(/^#\/?/, "").split("/").filter(Boolean);
     const [familyId, size] = parts;
     paramsToFilters(new URLSearchParams(location.search));
     if (familyId === "ontdek") {
       state.view = "discover";
-      if (size === "catalogus" || derivedLists[size]) state.discoverListId = size;
+      if (size && (size === "catalogus" || derivedLists[size])) {state.discoverListId = size;}
       return;
     }
     if (familyId === "leesvolgorde") {
       state.view = "priority";
-      if (PRIORITY_SEQUENCES.some(({ id }) => id === size)) state.prioritySequence = size;
+      if (size && PRIORITY_SEQUENCES.some(({ id }) => id === size)) {state.prioritySequence = size;}
       return;
     }
     state.view = "toplists";
     if (familyId && families.some((f) => f.id === familyId)) {
       state.familyId = familyId;
     }
-    if (size === "top-10" || size === "top-100") {
+    if (isListSize(size)) {
       state.size = size;
     }
   }
 
-  function stateToHash() {
+  function stateToHash(): void {
     const hashPart = state.view === "discover"
       ? `#/ontdek/${state.discoverListId}`
       : state.view === "priority"
@@ -291,7 +326,7 @@
     }
   }
 
-  function clearAllFilters() {
+  function clearAllFilters(): void {
     state.query = "";
     searchEl.value = "";
     state.language = "";
@@ -305,24 +340,24 @@
     readingTimeFilterEl.value = "";
   }
 
-  function activeMenuLabel() {
-    if (state.view === "priority") return "Leesvolgorde";
-    if (state.view === "discover") return "Ontdek";
+  function activeMenuLabel(): string {
+    if (state.view === "priority") {return "Leesvolgorde";}
+    if (state.view === "discover") {return "Ontdek";}
     return findFamily(state.familyId)?.label ?? "Menu";
   }
 
-  function setMobileMenuOpen(open, { restoreFocus = false } = {}) {
+  function setMobileMenuOpen(open: boolean, { restoreFocus = false }: { restoreFocus?: boolean } = {}): void {
     mobileMenuToggleEl.setAttribute("aria-expanded", String(open));
     mobileMenuToggleEl.setAttribute("aria-label", `Menu ${activeMenuLabel()}: ${open ? "sluiten" : "openen"}`);
     tabsEl.classList.toggle("mobile-open", open);
-    if (restoreFocus) mobileMenuToggleEl.focus();
+    if (restoreFocus) {mobileMenuToggleEl.focus();}
   }
 
-  function closeMobileMenu() {
+  function closeMobileMenu(): void {
     setMobileMenuOpen(false);
   }
 
-  function renderTabs() {
+  function renderTabs(): void {
     tabsEl.textContent = "";
     mobileMenuLabelEl.textContent = activeMenuLabel();
     const menuOpen = mobileMenuToggleEl.getAttribute("aria-expanded") === "true";
@@ -373,24 +408,26 @@
     tabsEl.appendChild(discoverBtn);
   }
 
-  function renderSizeToggle() {
+  function renderSizeToggle(): void {
     sizeToggleEl.hidden = state.view === "discover" || state.view === "priority";
     for (const btn of sizeToggleEl.querySelectorAll("button")) {
       const isActive = btn.dataset.size === state.size;
       btn.setAttribute("aria-selected", String(isActive));
       btn.onclick = () => {
-        state.size = btn.dataset.size;
+        const selectedSize = btn.dataset.size;
+        if (!isListSize(selectedSize)) {return;}
+        state.size = selectedSize;
         stateToHash();
         render();
       };
     }
   }
 
-  function renderDiscoverControls() {
+  function renderDiscoverControls(): void {
     const active = state.view === "discover";
     discoverControlsEl.hidden = !active;
     discoverListChipsEl.textContent = "";
-    if (!active) return;
+    if (!active) {return;}
 
     const choices = [
       { id: "catalogus", label: "Catalogus" },
@@ -411,11 +448,11 @@
     }
   }
 
-  function priorityCount(sequence) {
+  function priorityCount(sequence: string): number {
     return Object.values(priorityItems).filter((item) => item.sequences?.includes(sequence)).length;
   }
 
-  function renderPriorityControls() {
+  function renderPriorityControls(): void {
     const active = state.view === "priority";
     priorityControlsEl.hidden = !active;
     sortFieldEl.hidden = active;
@@ -431,7 +468,7 @@
 
     priorityErrorEl.hidden = priorityAvailable;
     prioritySequenceChipsEl.textContent = "";
-    if (!priorityAvailable) return;
+    if (!priorityAvailable) {return;}
 
     for (const sequence of PRIORITY_SEQUENCES) {
       const button = document.createElement("button");
@@ -450,35 +487,38 @@
     }
   }
 
-  let allTags = [];
-  let lastScopeKey = null;
+  let allTags: string[] = [];
+  let lastScopeKey: string | null = null;
 
   // Levert de items die de basis vormen voor filteropties: bij een actieve
   // zoekopdracht is dat de volledige dataset (zoeken werkt over alle lijsten
   // heen), anders alleen de items van de actieve tab + Top10/100.
-  function getScopeItems() {
+  function getScopeItems(): ArticleItem[] {
     const query = state.query.trim().toLowerCase();
-    if (state.view === "priority") return getPriorityItems();
+    if (state.view === "priority") {return getPriorityItems();}
     if (query.length > 0) {
       return catalogOrTopItems();
     }
-    if (state.view === "discover") return getDiscoverItems();
+    if (state.view === "discover") {return getDiscoverItems();}
     const family = findFamily(state.familyId);
     const list = findList(family, state.size);
     return list.items;
   }
 
-  function getDiscoverItems() {
-    if (state.discoverListId === "catalogus") return catalogOrTopItems();
+  function getDiscoverItems(): ArticleItem[] {
+    if (state.discoverListId === "catalogus") {return catalogOrTopItems();}
     const list = derivedLists[state.discoverListId];
-    if (!list) return [];
-    return list.items.map((entry) => ({ ...CATALOG_INDEX.get(entry.id), ...entry })).filter((item) => item.id);
+    if (!list) {return [];}
+    return list.items.flatMap((entry) => {
+      const catalogItem = CATALOG_INDEX.get(entry.id);
+      return catalogItem ? [{ ...catalogItem, ...entry }] : [];
+    });
   }
 
-  function getPriorityItems() {
-    if (!priorityAvailable) return [];
+  function getPriorityItems(): PriorityArticle[] {
+    if (!priorityAvailable) {return [];}
     return Object.entries(priorityItems)
-      .filter(([, priority]) => Number.isInteger(priority.positions?.[state.prioritySequence]))
+      .filter(([, priority]) => Number.isInteger(priority.positions[state.prioritySequence]))
       .map(([id, priority]) => {
         const catalogItem = CATALOG_INDEX.get(id) ?? GLOBAL_INDEX.get(id)?.item;
         return catalogItem ? {
@@ -487,11 +527,11 @@
           priorityPosition: priority.positions[state.prioritySequence],
         } : null;
       })
-      .filter(Boolean)
+      .filter((item): item is PriorityArticle => item !== null && item.priorityPosition !== undefined)
       .sort((a, b) => a.priorityPosition - b.priorityPosition);
   }
 
-  function resetSelectOptions(selectEl) {
+  function resetSelectOptions(selectEl: HTMLSelectElement): void {
     while (selectEl.options.length > 1) {
       selectEl.remove(1);
     }
@@ -503,15 +543,15 @@
   // de nieuwe scope vallen.
   function populateFilterOptions() {
     const items = getScopeItems();
-    const languages = new Set();
-    const categories = new Set();
-    const moods = new Set();
-    const tags = new Set();
+    const languages = new Set<string>();
+    const categories = new Set<string>();
+    const moods = new Set<string>();
+    const tags = new Set<string>();
     for (const item of items) {
-      if (item.language) languages.add(item.language);
-      if (item.category) categories.add(item.category);
-      if (item.bestMoment) moods.add(item.bestMoment);
-      for (const tag of item.tags ?? []) tags.add(tag);
+      if (item.language) {languages.add(item.language);}
+      if (item.category) {categories.add(item.category);}
+      if (item.bestMoment) {moods.add(item.bestMoment);}
+      for (const tag of item.tags ?? []) {tags.add(tag);}
     }
 
     resetSelectOptions(languageFilterEl);
@@ -540,9 +580,9 @@
 
     allTags = [...tags].sort((a, b) => a.localeCompare(b, "nl"));
 
-    if (state.language && !languages.has(state.language)) state.language = "";
-    if (state.category && !categories.has(state.category)) state.category = "";
-    if (state.mood && !moods.has(state.mood)) state.mood = "";
+    if (state.language && !languages.has(state.language)) {state.language = "";}
+    if (state.category && !categories.has(state.category)) {state.category = "";}
+    if (state.mood && !moods.has(state.mood)) {state.mood = "";}
     if (state.tags.size > 0) {
       state.tags = new Set([...state.tags].filter((t) => tags.has(t)));
     }
@@ -561,7 +601,7 @@
 
   // Klikken op een tag — in het filterpaneel of op een item — schakelt hem in de
   // OR-filterselectie (item matcht als hij minstens één geselecteerde tag heeft).
-  function toggleTagFilter(tag) {
+  function toggleTagFilter(tag: string): void {
     if (state.tags.has(tag)) {
       state.tags.delete(tag);
     } else {
@@ -581,7 +621,7 @@
       btn.className = active ? "tag-chip active" : "tag-chip";
       btn.setAttribute("aria-pressed", String(active));
       btn.textContent = tag;
-      btn.addEventListener("click", () => toggleTagFilter(tag));
+      btn.addEventListener("click", () => { toggleTagFilter(tag); });
       tagFilterListEl.appendChild(btn);
     }
   }
@@ -638,7 +678,7 @@
     sortDirectionEl.setAttribute("aria-label", `Sorteerrichting ${directionLabel}; klik om te wijzigen`);
   }
 
-  function buildActiveFilterChip(label, onRemove) {
+  function buildActiveFilterChip(label: string, onRemove: () => void): HTMLButtonElement {
     const btn = document.createElement("button");
     btn.type = "button";
     btn.className = "active-filter-chip";
@@ -752,7 +792,7 @@
     filterCountBadgeEl.textContent = String(count);
   }
 
-  function hashHue(str) {
+  function hashHue(str: string): number {
     let hash = 0;
     for (let i = 0; i < str.length; i++) {
       hash = (hash << 5) - hash + str.charCodeAt(i);
@@ -761,27 +801,27 @@
     return Math.abs(hash) % 360;
   }
 
-  function applyPlaceholderStyle(el, title) {
+  function applyPlaceholderStyle(el: HTMLElement, title: string): void {
     const hue = hashHue(title || "readwise");
     el.style.background = `linear-gradient(135deg, hsl(${hue}, 55%, 88%), hsl(${(hue + 40) % 360}, 55%, 78%))`;
   }
 
-  function metaLine(item) {
+  function metaLine(item: ArticleItem): string {
     const parts = [];
-    if (item.author) parts.push(item.author);
-    if (item.siteName) parts.push(item.siteName);
-    if (item.language) parts.push(item.language);
-    if (item.readingTime) parts.push(item.readingTime);
+    if (item.author) {parts.push(item.author);}
+    if (item.siteName) {parts.push(item.siteName);}
+    if (item.language) {parts.push(item.language);}
+    if (item.readingTime) {parts.push(item.readingTime);}
     const published = formatDateOnly(item.publishedDate);
-    if (published) parts.push(`gepubliceerd ${published}`);
+    if (published) {parts.push(`gepubliceerd ${published}`);}
     const saved = formatDateOnly(item.savedDate);
-    if (saved) parts.push(`toegevoegd ${saved}`);
+    if (saved) {parts.push(`toegevoegd ${saved}`);}
     return parts.join(" · ");
   }
 
-  function familyLabelFor(tag) {
+  function familyLabelFor(tag: string): string {
     for (const family of families) {
-      for (const size of ["top-10", "top-100"]) {
+      for (const size of LIST_SIZES) {
         if (family.lists[size].tag === tag) {
           return `${family.label} ${SIZE_LABEL[size]}`;
         }
@@ -790,8 +830,8 @@
     return tag;
   }
 
-  function buildThumb(item) {
-    const emoji = CATEGORY_EMOJI[item.category] ?? "📄";
+  function buildThumb(item: ArticleItem): HTMLElement {
+    const emoji = item.category ? CATEGORY_EMOJI[item.category] ?? "📄" : "📄";
     const imgSrc = safeUrl(item.imageUrl);
 
     function buildPlaceholder() {
@@ -811,16 +851,16 @@
     img.loading = "lazy";
     img.alt = "";
     img.src = imgSrc;
-    img.addEventListener("error", () => img.replaceWith(buildPlaceholder()), { once: true });
+    img.addEventListener("error", () => { img.replaceWith(buildPlaceholder()); }, { once: true });
     return img;
   }
 
   // In gewone (niet-zoekende) weergave: badges voor de overige lijsten waar het
   // item ook in staat. In zoekweergave: badges voor alle lijsten, met positie.
-  function buildBadges(item, isSearchMode) {
+  function buildBadges(item: ArticleItem, isSearchMode: boolean): HTMLDivElement | null {
     const wrap = document.createElement("div");
     wrap.className = "badges";
-    let any = false;
+    let hasBadges = false;
 
     const priority = priorityFor(item);
     if (priority) {
@@ -828,18 +868,18 @@
       span.className = `badge priority-badge priority-${priority.tier}`;
       span.textContent = `Prioriteit: ${priority.tier} · ${priority.score}`;
       wrap.appendChild(span);
-      any = true;
+      hasBadges = true;
     }
 
     if (isSearchMode) {
       const entry = GLOBAL_INDEX.get(item.id);
-      const positions = entry ? entry.tagPositions : new Map();
+      const positions = entry ? entry.tagPositions : new Map<string, number>();
       for (const tag of positions.keys()) {
         const span = document.createElement("span");
         span.className = "badge";
         span.textContent = `${familyLabelFor(tag)} · #${positions.get(tag)}`;
         wrap.appendChild(span);
-        any = true;
+        hasBadges = true;
       }
     } else if (item.alsoIn && item.alsoIn.length > 0) {
       for (const tag of item.alsoIn) {
@@ -847,20 +887,20 @@
         span.className = "badge";
         span.textContent = familyLabelFor(tag);
         wrap.appendChild(span);
-        any = true;
+        hasBadges = true;
       }
     }
 
-    return any ? wrap : null;
+    return hasBadges ? wrap : null;
   }
 
-  function prioritySequenceLabel(sequenceId) {
+  function prioritySequenceLabel(sequenceId: string): string {
     return PRIORITY_SEQUENCES.find(({ id }) => id === sequenceId)?.label ?? sequenceId;
   }
 
-  function buildPriorityDetails(item) {
+  function buildPriorityDetails(item: ArticleItem): HTMLDetailsElement | null {
     const priority = priorityFor(item);
-    if (!priority) return null;
+    if (!priority) {return null;}
 
     const details = document.createElement("details");
     details.className = "priority-breakdown";
@@ -884,7 +924,8 @@
 
     const components = document.createElement("dl");
     components.className = "priority-components";
-    for (const [key, label] of Object.entries(PRIORITY_COMPONENT_LABELS)) {
+    for (const key of PRIORITY_COMPONENT_KEYS) {
+      const label = PRIORITY_COMPONENT_LABELS[key];
       const term = document.createElement("dt");
       term.textContent = label;
       const description = document.createElement("dd");
@@ -916,8 +957,8 @@
     return details;
   }
 
-  function buildNote(item) {
-    if (!item.whyRead && !item.bestMoment) return null;
+  function buildNote(item: ArticleItem): HTMLDivElement | null {
+    if (!item.whyRead && !item.bestMoment) {return null;}
     const wrap = document.createElement("div");
     wrap.className = "note";
 
@@ -944,8 +985,8 @@
     return wrap;
   }
 
-  function buildTagBadges(item) {
-    if (!item.tags || item.tags.length === 0) return null;
+  function buildTagBadges(item: ArticleItem): HTMLDivElement | null {
+    if (!item.tags || item.tags.length === 0) {return null;}
     const wrap = document.createElement("div");
     wrap.className = "item-tags";
     for (const tag of item.tags) {
@@ -955,13 +996,13 @@
       btn.className = active ? "tag-chip tag-chip-sm active" : "tag-chip tag-chip-sm";
       btn.setAttribute("aria-pressed", String(active));
       btn.textContent = tag;
-      btn.addEventListener("click", () => toggleTagFilter(tag));
+      btn.addEventListener("click", () => { toggleTagFilter(tag); });
       wrap.appendChild(btn);
     }
     return wrap;
   }
 
-  function buildItem(item, { isSearchMode, isPriorityView = false }) {
+  function buildItem(item: ArticleItem, { isSearchMode, isPriorityView = false }: { isSearchMode: boolean; isPriorityView?: boolean }): HTMLLIElement {
     const li = document.createElement("li");
     li.className = "item";
 
@@ -998,7 +1039,7 @@
     body.appendChild(meta);
 
     const priorityDetails = buildPriorityDetails(item);
-    if (priorityDetails) body.appendChild(priorityDetails);
+    if (priorityDetails) {body.appendChild(priorityDetails);}
 
     if (item.summary) {
       const summary = document.createElement("p");
@@ -1027,13 +1068,13 @@
     }
 
     const note = buildNote(item);
-    if (note) body.appendChild(note);
+    if (note) {body.appendChild(note);}
 
     const tagBadges = buildTagBadges(item);
-    if (tagBadges) body.appendChild(tagBadges);
+    if (tagBadges) {body.appendChild(tagBadges);}
 
     const badges = buildBadges(item, isSearchMode);
-    if (badges) body.appendChild(badges);
+    if (badges) {body.appendChild(badges);}
 
     const sourceHref = safeUrl(item.sourceUrl);
     if (sourceHref) {
@@ -1050,8 +1091,8 @@
     return li;
   }
 
-  function itemMatchesQuery(item, query) {
-    if (!query) return true;
+  function itemMatchesQuery(item: ArticleItem, query: string): boolean {
+    if (!query) {return true;}
     const haystack = [item.title, item.author, item.siteName, ...(item.tags ?? [])]
       .filter(Boolean)
       .join(" ")
@@ -1059,7 +1100,7 @@
     return haystack.includes(query);
   }
 
-  function compareEntries(sortKey) {
+  function compareEntries(sortKey: SortField): (left: NormalizedItem, right: NormalizedItem) => number {
     switch (sortKey) {
       case "score":
         return (a, b) =>
@@ -1080,7 +1121,7 @@
 
   // Werkt op een genormaliseerde vorm { item, sortPosition } zodat zoek- en
   // lijstweergave dezelfde sorteerlogica delen zonder vormonderscheid.
-  function sortNormalized(entries) {
+  function sortNormalized(entries: NormalizedItem[]): NormalizedItem[] {
     const sorted = entries.slice();
     const compare = compareEntries(state.sort);
     sorted.sort((a, b) => (state.sortDir === "desc" ? -compare(a, b) : compare(a, b)));
@@ -1107,7 +1148,7 @@
 
     searchScopeNoteEl.hidden = !isSearchMode;
 
-    let normalized;
+    let normalized: NormalizedItem[];
     if (isPriorityView) {
       normalized = getPriorityItems()
         .filter((item) => itemMatchesQuery(item, query))
@@ -1115,7 +1156,10 @@
     } else if (isSearchMode) {
       normalized = catalogOrTopItems()
         .filter((item) => itemMatchesQuery(item, query))
-        .map((item) => ({ item, sortPosition: bestPosition(GLOBAL_INDEX.get(item.id) ?? { tagPositions: new Map([['fallback', Number.MAX_SAFE_INTEGER]]) }) }));
+        .map((item) => {
+          const entry = GLOBAL_INDEX.get(item.id);
+          return { item, sortPosition: entry ? bestPosition(entry) : Number.MAX_SAFE_INTEGER };
+        });
     } else if (state.view === "discover") {
       normalized = getDiscoverItems().map((item, index) => ({
         item,
@@ -1124,15 +1168,15 @@
     } else {
       const family = findFamily(state.familyId);
       const list = findList(family, state.size);
-      normalized = list.items.map((item) => ({ item, sortPosition: item.position }));
+      normalized = list.items.map((item, index) => ({ item, sortPosition: item.position ?? index + 1 }));
     }
 
     const filtered = normalized.filter(({ item }) => {
-      if (state.language && item.language !== state.language) return false;
-      if (state.category && item.category !== state.category) return false;
-      if (state.mood && item.bestMoment !== state.mood) return false;
-      if (!readingTimeMatches(item, state.readingTime)) return false;
-      if (state.tags.size > 0 && !(item.tags ?? []).some((t) => state.tags.has(t))) return false;
+      if (state.language && item.language !== state.language) {return false;}
+      if (state.category && item.category !== state.category) {return false;}
+      if (state.mood && item.bestMoment !== state.mood) {return false;}
+      if (!readingTimeMatches(item, state.readingTime)) {return false;}
+      if (state.tags.size > 0 && !(item.tags ?? []).some((t) => state.tags.has(t))) {return false;}
       return true;
     });
 
@@ -1172,6 +1216,7 @@
   });
 
   sortSelectEl.addEventListener("change", () => {
+    if (!isSortField(sortSelectEl.value)) {return;}
     state.sort = sortSelectEl.value;
     state.sortDir = DEFAULT_SORT_DIR[state.sort] ?? "asc";
     renderSortChips();
@@ -1188,7 +1233,7 @@
     const expanded = toggleSearchFiltersEl.getAttribute("aria-expanded") === "true";
     toggleSearchFiltersEl.setAttribute("aria-expanded", String(!expanded));
     searchFiltersPanelEl.hidden = expanded;
-    if (!expanded) searchEl.focus();
+    if (!expanded) {searchEl.focus();}
   });
 
   searchEl.addEventListener("input", () => {
@@ -1223,7 +1268,7 @@
   });
 
   readingTimeFilterEl.addEventListener("change", () => {
-    state.readingTime = readingTimeFilterEl.value;
+    state.readingTime = isReadingTimeBucket(readingTimeFilterEl.value) ? readingTimeFilterEl.value : "";
     stateToHash();
     renderList();
   });

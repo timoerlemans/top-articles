@@ -1,14 +1,28 @@
 {
   "name": "top-articles",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "private": true,
   "description": "Statisch overzicht van mijn Readwise-toplijsten, met directe links naar Readwise Reader.",
   "type": "module",
   "scripts": {
-    "build": "node scripts/build-data.mjs",
-    "priority:plan": "node scripts/priority-cli.mjs plan",
-    "priority:apply": "node scripts/priority-cli.mjs apply",
-    "priority:verify": "node scripts/priority-cli.mjs verify",
-    "test": "node --test test/*.test.mjs"
+    "compile": "tsc",
+    "typecheck": "tsc --noEmit",
+    "lint": "eslint .",
+    "check": "npm run lint && npm run typecheck && npm test",
+    "build": "npm run compile && node dist/scripts/build-data.js",
+    "priority:plan": "npm run compile && node dist/scripts/priority-cli.js plan",
+    "priority:apply": "npm run compile && node dist/scripts/priority-cli.js apply",
+    "priority:verify": "npm run compile && node dist/scripts/priority-cli.js verify",
+    "test": "npm run compile && node --test dist/test/*.test.js"
+  },
+  "dependencies": {
+    "zod": "^4.4.3"
+  },
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "@types/node": "^26.2.0",
+    "eslint": "^10.9.0",
+    "typescript": "^6.0.3",
+    "typescript-eslint": "^8.67.0"
   }
 }

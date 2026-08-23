@@ -1,13 +1,17 @@
 import assert from "node:assert/strict";
 import test from "node:test";
 
-import { detectDutch, scorePriorityDocument, sequencesForDocument } from "../scripts/lib/readwise-priority-v2.mjs";
+import {
+  detectDutch,
+  scorePriorityDocument,
+  sequencesForDocument,
+  type PriorityDocument,
+} from "../scripts/lib/readwise-priority-v2.js";
 
-function document(overrides = {}) {
+function document(overrides: Partial<PriorityDocument> = {}): PriorityDocument {
   return {
     id: "doc-1",
     title: "Een artikel",
-    author: null,
     summary: "Een inhoudelijke samenvatting.",
     word_count: 1_500,
     reading_time: "12 mins",

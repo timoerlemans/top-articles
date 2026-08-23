@@ -1,9 +1,26 @@
 import assert from "node:assert/strict";
 import test from "node:test";
 
-import { buildPriorityTagPlan, validatePriorityTagPlan } from "../scripts/lib/priority-tag-plan.mjs";
+import {
+  buildPriorityTagPlan,
+  validatePriorityTagPlan,
+  type PriorityTagChange,
+  type PriorityTagDocument,
+  type PriorityTagPlan,
+} from "../scripts/lib/priority-tag-plan.js";
 
-function doc(id, overrides = {}) {
+type TagPlanTestDocument = PriorityTagDocument & {
+  updated_at?: string;
+  reading_progress?: number;
+};
+
+function changeFor(plan: PriorityTagPlan, id: string): PriorityTagChange {
+  const change = plan.changes[id];
+  assert.ok(change, `verandering voor ${id} ontbreekt`);
+  return change;
+}
+
+function doc(id: string, overrides: Partial<TagPlanTestDocument> = {}): TagPlanTestDocument {
   return {
     id,
     title: id,
@@ -28,11 +45,13 @@ test("plant ordinale en afgeleide toplijsttags vanuit dezelfde scorepositie", ()
   ];
   const plan = buildPriorityTagPlan(documents, [], { generatedAt: "2026-08-16T10:00:00.000Z" });
 
-  assert.deepEqual(plan.changes.high.add.sort(), ["aaa-top-10", "aaa-top-100", "lees-0001"]);
-  assert.deepEqual(plan.changes.high.remove, ["lees-0002"]);
-  assert.ok(plan.changes.low.add.includes("aaa-top-100"));
-  assert.ok(plan.changes.low.add.includes("lees-0002"));
-  assert.ok(plan.changes.low.remove.includes("lees-0001"));
+  const high = changeFor(plan, "high");
+  const low = changeFor(plan, "low");
+  assert.deepEqual(high.add.sort(), ["aaa-top-10", "aaa-top-100", "lees-0001"]);
+  assert.deepEqual(high.remove, ["lees-0002"]);
+  assert.ok(low.add.includes("aaa-top-100"));
+  assert.ok(low.add.includes("lees-0002"));
+  assert.ok(low.remove.includes("lees-0001"));
   assert.equal(validatePriorityTagPlan(plan), true);
 });
 
@@ -41,28 +60,32 @@ test("migreert luchtig-lidmaatschap en ruimt beheerde tags buiten later op", () 
   const outside = [doc("archived", { location: "archive", tags: { "lees-0009": {}, "aaa-top-100": {}, philosophy: {} } })];
   const plan = buildPriorityTagPlan(later, outside, { generatedAt: "2026-08-16T10:00:00.000Z", cleanupAll: true });
 
-  assert.ok(plan.changes.light.add.includes("light-reading"));
-  assert.ok(plan.changes.light.add.includes("luchtig-001"));
-  assert.ok(plan.changes.light.add.includes("luchtig-nederlands-001"));
-  assert.deepEqual(plan.changes.archived.remove.sort(), ["aaa-top-100", "lees-0009"]);
-  assert.equal(plan.changes.archived.add.length, 0);
+  const light = changeFor(plan, "light");
+  const archived = changeFor(plan, "archived");
+  assert.ok(light.add.includes("light-reading"));
+  assert.ok(light.add.includes("luchtig-001"));
+  assert.ok(light.add.includes("luchtig-nederlands-001"));
+  assert.deepEqual(archived.remove.sort(), ["aaa-top-100", "lees-0009"]);
+  assert.equal(archived.add.length, 0);
   assert.equal(plan.scope, "all-locations");
 });
 
 test("verwijdert historische viercijferige tags uit driecijferige reeksen", () => {
   const document = doc("legacy", { tags: { dutch: {}, "dutch-0007": {} } });
   const plan = buildPriorityTagPlan([document], [], { generatedAt: "2026-08-16T10:00:00.000Z" });
-  assert.ok(plan.changes.legacy.remove.includes("dutch-0007"));
-  assert.ok(plan.changes.legacy.add.includes("dutch-001"));
+  const legacy = changeFor(plan, "legacy");
+  assert.ok(legacy.remove.includes("dutch-0007"));
+  assert.ok(legacy.add.includes("dutch-001"));
 });
 
 test("behoudt luchtig-lidmaatschap uit historische viercijferige tags", () => {
   const document = doc("light-legacy", { tags: { "luchtig-0004": {} } });
   const plan = buildPriorityTagPlan([document], [], { generatedAt: "2026-08-16T10:00:00.000Z" });
 
-  assert.ok(plan.changes["light-legacy"].add.includes("light-reading"));
-  assert.ok(plan.changes["light-legacy"].add.includes("luchtig-001"));
-  assert.ok(plan.changes["light-legacy"].remove.includes("luchtig-0004"));
+  const lightLegacy = changeFor(plan, "light-legacy");
+  assert.ok(lightLegacy.add.includes("light-reading"));
+  assert.ok(lightLegacy.add.includes("luchtig-001"));
+  assert.ok(lightLegacy.remove.includes("luchtig-0004"));
 });
 
 test("houdt ieder document in later in de gewenste reeksen ongeacht leesvoortgang", () => {
@@ -70,7 +93,7 @@ test("houdt ieder document in later in de gewenste reeksen ongeacht leesvoortgan
   const plan = buildPriorityTagPlan([read], [], {
     generatedAt: "2026-08-16T10:00:00.000Z",
   });
-  assert.ok(plan.changes.read.add.includes("lees-0001"));
+  assert.ok(changeFor(plan, "read").add.includes("lees-0001"));
 });
 
 test("bronfingerprint negeert Reader updated_at maar bewaakt score-invoer", () => {

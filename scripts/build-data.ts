@@ -6,23 +6,29 @@ import { execFile } from "node:child_process";
 import { promisify } from "node:util";
 import { mkdir, readFile, writeFile } from "node:fs/promises";
 import { fileURLToPath } from "node:url";
-import { dirname, join } from "node:path";
-import { buildPriorityExport } from "./lib/readwise-priority-v3.mjs";
-import { FAMILY_DEFINITIONS, buildUnifiedLists } from "./lib/unified-lists.mjs";
-import { parseReadingMinutes } from "./lib/reading-time.mjs";
-import { createReadwiseRequester } from "./lib/readwise-request.mjs";
+import { dirname, join, resolve } from "node:path";
+import { z } from "zod";
+import { buildPriorityExport } from "./lib/readwise-priority-v3.js";
+import type { PriorityExportItem, PriorityOverrideMap } from "./lib/readwise-priority-v3.js";
+import { FAMILY_DEFINITIONS, buildUnifiedLists } from "./lib/unified-lists.js";
+import type { RankedUnifiedEntry, UnifiedCatalogEntry } from "./lib/unified-lists.js";
+import { parseReadingMinutes } from "./lib/reading-time.js";
+import { createReadwiseRequester } from "./lib/readwise-request.js";
+import { parseReadwiseDocumentPage } from "./lib/external-schemas.js";
+import type { ReadwiseDocument } from "./lib/external-schemas.js";
 
 const execFileAsync = promisify(execFile);
 const __dirname = dirname(fileURLToPath(import.meta.url));
-const OUT_FILE = join(__dirname, "..", "data", "data.js");
-const PRIORITY_OUT_FILE = join(__dirname, "..", "data", "score.js");
-const OVERRIDES_FILE = join(__dirname, "..", "config", "readwise-priority-overrides.json");
+const ROOT = resolve(__dirname, "../..");
+const OUT_FILE = join(ROOT, "data", "data.js");
+const PRIORITY_OUT_FILE = join(ROOT, "data", "score.js");
+const OVERRIDES_FILE = join(ROOT, "config", "readwise-priority-overrides.json");
 
 const RESPONSE_FIELDS =
   "title,author,site_name,summary,word_count,reading_time,published_date,saved_at,image_url,source_url,url,category,tags,notes";
 
 // Kleine, vaste set taal-tags — bewust geen volledige taxonomie-tags in de output.
-const LANGUAGE_TAG_MAP = {
+const LANGUAGE_TAG_MAP: Readonly<Record<string, string>> = {
   dutch: "Nederlands",
   nl: "Nederlands",
   nederlands: "Nederlands",
@@ -37,8 +43,8 @@ const runReadwise = createReadwiseRequester({
   exec: (commandArgs) => execFileAsync("readwise", commandArgs),
 });
 
-async function fetchDocumentsByLocation(location) {
-  const results = [];
+async function fetchDocumentsByLocation(location: string): Promise<ReadwiseDocument[]> {
+  const results: ReadwiseDocument[] = [];
   let cursor = null;
 
   do {
@@ -52,31 +58,42 @@ async function fetchDocumentsByLocation(location) {
       RESPONSE_FIELDS,
       "--json",
     ];
-    if (cursor) args.push("--page-cursor", cursor);
+    if (cursor) {
+      args.push("--page-cursor", cursor);
+    }
 
     const { stdout } = await runReadwise(args);
-    const parsed = JSON.parse(stdout);
-    const page = Array.isArray(parsed) ? parsed : parsed.results ?? [];
-    results.push(...page);
-    cursor = Array.isArray(parsed) ? null : parsed.nextPageCursor ?? null;
+    const page = parseReadwiseDocumentPage(JSON.parse(stdout));
+    results.push(...page.documents);
+    cursor = page.nextPageCursor;
   } while (cursor);
 
   return results;
 }
 
-function tagKeys(doc) {
+function tagKeys(doc: ReadwiseDocument): string[] {
   const t = doc.tags;
-  if (!t) return [];
-  return Array.isArray(t) ? t : Object.keys(t);
+  if (!t) {
+    return [];
+  }
+  if (Array.isArray(t)) {
+    return t.filter((tag): tag is string => typeof tag === "string");
+  }
+  if (typeof t === "object") {
+    return Object.keys(t);
+  }
+  return [];
 }
 
-function languageFor(doc) {
-  const language = String(doc.language ?? "").toLowerCase().trim();
-  if (["nl", "nld", "dut", "dutch", "nederlands"].includes(language)) return "Nederlands";
-  if (["en", "eng", "english"].includes(language)) return "Engels";
+function languageFor(doc: ReadwiseDocument): string | null {
+  const language = (doc.language ?? "").toLowerCase().trim();
+  if (["nl", "nld", "dut", "dutch", "nederlands"].includes(language)) {return "Nederlands";}
+  if (["en", "eng", "english"].includes(language)) {return "Engels";}
   for (const key of tagKeys(doc)) {
     const label = LANGUAGE_TAG_MAP[key.toLowerCase()];
-    if (label) return label;
+    if (label) {
+      return label;
+    }
   }
   return null;
 }
@@ -87,14 +104,23 @@ const ORDINAL_TAG_PATTERN = /^[a-z]+(?:-[a-z]+)*-\d{3,4}$/i;
 
 // Curatietags (triage-workflow) zijn geen inhoudelijke interesse, dus ook uitgesloten.
 const CURATION_TAGS = new Set(["must-read", "shortlist", "short-list"]);
+const overridesSchema = z.record(z.string(), z.object({ adjustment: z.number().optional(), reason: z.string().nullable().optional() }));
 
-function interestTagsFor(doc) {
-  const tags = [];
+function interestTagsFor(doc: ReadwiseDocument): string[] {
+  const tags: string[] = [];
   for (const key of tagKeys(doc)) {
-    if (key.startsWith("aaa-")) continue;
-    if (ORDINAL_TAG_PATTERN.test(key)) continue;
-    if (LANGUAGE_TAG_MAP[key.toLowerCase()]) continue;
-    if (CURATION_TAGS.has(key.toLowerCase())) continue;
+    if (key.startsWith("aaa-")) {
+      continue;
+    }
+    if (ORDINAL_TAG_PATTERN.test(key)) {
+      continue;
+    }
+    if (LANGUAGE_TAG_MAP[key.toLowerCase()]) {
+      continue;
+    }
+    if (CURATION_TAGS.has(key.toLowerCase())) {
+      continue;
+    }
     tags.push(key);
   }
   return tags.sort((a, b) => a.localeCompare(b));
@@ -103,17 +129,42 @@ function interestTagsFor(doc) {
 // Notitieformaat is doorgaans:
 // "Waarom lezen: <tekst>\nBeste moment: <tekst>\n\n- bullets..."
 // We nemen bewust alleen deze twee regels over, niet de volledige triage-notitie.
-function parseNote(notes) {
-  if (!notes) return { whyRead: null, bestMoment: null };
+function parseNote(notes: string | null | undefined): { whyRead: string | null; bestMoment: string | null } {
+  if (!notes) {
+    return { whyRead: null, bestMoment: null };
+  }
   const whyMatch = notes.match(/Waarom lezen:\s*([\s\S]*?)\n\s*Beste moment:/i);
   const momentMatch = notes.match(/Beste moment:\s*([^\n]*)/i);
   return {
-    whyRead: whyMatch ? whyMatch[1].trim() : null,
-    bestMoment: momentMatch ? momentMatch[1].trim() : null,
+    whyRead: whyMatch?.[1]?.trim() ?? null,
+    bestMoment: momentMatch?.[1]?.trim() ?? null,
   };
 }
 
-function toItem(doc, position) {
+interface CatalogItem {
+  position: number | null;
+  id: string;
+  title: string;
+  author: string | null;
+  siteName: string | null;
+  category: string | null;
+  language: string | null;
+  readingTime: string | null;
+  readingMinutes: number | null;
+  wordCount: number | null;
+  publishedDate: string | null;
+  savedDate: string | null;
+  imageUrl: string | null;
+  sourceUrl: string | null;
+  readwiseUrl: string | null;
+  summary: string | null;
+  whyRead: string | null;
+  bestMoment: string | null;
+  tags: string[];
+  alsoIn: string[];
+}
+
+function toItem(doc: ReadwiseDocument, position: number | null): CatalogItem {
   const { whyRead, bestMoment } = parseNote(doc.notes);
 
   return {
@@ -143,18 +194,30 @@ function toItem(doc, position) {
 async function main() {
   const laterDocs = await fetchDocumentsByLocation("later");
   const generatedAt = new Date().toISOString();
-  const overrides = JSON.parse(await readFile(OVERRIDES_FILE, "utf8"));
+  const overrides: PriorityOverrideMap = overridesSchema.parse(JSON.parse(await readFile(OVERRIDES_FILE, "utf8")));
   const priority = buildPriorityExport(laterDocs, { generatedAt, overrides });
   const baseCatalog = laterDocs.map((doc) => toItem(doc, null));
+  type RankedCatalogItem = CatalogItem & UnifiedCatalogEntry & { priority: PriorityExportItem };
+  const rankedCatalog: RankedCatalogItem[] = baseCatalog.map((item) => {
+    const itemPriority = priority.items[item.id];
+    if (!itemPriority) {
+      throw new Error(`Prioriteit ontbreekt voor ${item.id}`);
+    }
+    return { ...item, priority: itemPriority };
+  });
   const ranked = buildUnifiedLists(
-    baseCatalog.map((item) => ({ ...item, priority: priority.items[item.id] })),
-    generatedAt
+    rankedCatalog,
+    generatedAt,
   );
   const catalogById = new Map(baseCatalog.map((item) => [item.id, item]));
-  const publicItems = (items) => items.map((entry, index) => ({
-    ...catalogById.get(entry.id),
-    position: index + 1,
-  }));
+  type PublicItem = CatalogItem & { position: number };
+  const publicItems = (items: readonly RankedUnifiedEntry<RankedCatalogItem>[]): PublicItem[] => items.map((entry, index) => {
+    const item = catalogById.get(entry.id);
+    if (!item) {
+      throw new Error(`Catalogusitem ontbreekt voor ${entry.id}`);
+    }
+    return { ...item, position: index + 1 };
+  });
   const families = FAMILY_DEFINITIONS.map((family) => ({
     ...family,
     lists: {
@@ -162,22 +225,27 @@ async function main() {
       "top-100": { tag: family.top100Tag, items: publicItems(ranked.families[family.id]["top-100"]) },
     },
   }));
-  const labels = { consensus: "Consensus", nieuw: "Nieuw", tijdloos: "Tijdloos" };
-  const derivedLists = Object.fromEntries(Object.entries(ranked.derived).map(([id, items]) => [id, {
-    id,
-    label: labels[id],
-    items: publicItems(items).map(({ position, ...item }) => ({ id: item.id, title: item.title, position })),
-  }]));
+  const labels: Readonly<Record<keyof typeof ranked.derived, string>> = { consensus: "Consensus", nieuw: "Nieuw", tijdloos: "Tijdloos" };
+  const derivedLists = Object.fromEntries(
+    (Object.keys(ranked.derived) as Array<keyof typeof ranked.derived>).map((id) => {
+      const items = ranked.derived[id];
+      return [id, {
+        id,
+        label: labels[id],
+        items: publicItems(items).map(({ position, ...item }) => ({ id: item.id, title: item.title, position })),
+      }];
+    }),
+  );
 
-  const membershipById = new Map();
-  const topTagsById = new Map();
+  const membershipById = new Map<string, Array<{ familyId: string; size: string; position: number }>>();
+  const topTagsById = new Map<string, Set<string>>();
   for (const family of families) {
     for (const [size, list] of Object.entries(family.lists)) {
       for (const item of list.items) {
         const memberships = membershipById.get(item.id) ?? [];
         memberships.push({ familyId: family.id, size, position: item.position });
         membershipById.set(item.id, memberships);
-        const topTags = topTagsById.get(item.id) ?? new Set();
+        const topTags = topTagsById.get(item.id) ?? new Set<string>();
         topTags.add(list.tag);
         topTagsById.set(item.id, topTags);
       }
@@ -185,7 +253,9 @@ async function main() {
   }
   for (const family of families) {
     for (const list of Object.values(family.lists)) {
-      for (const item of list.items) item.alsoIn = [...(topTagsById.get(item.id) ?? [])].filter((tag) => tag !== list.tag);
+      for (const item of list.items) {
+        item.alsoIn = [...(topTagsById.get(item.id) ?? [])].filter((tag) => tag !== list.tag);
+      }
     }
   }
   const catalogItems = baseCatalog.map((item) => ({
@@ -206,7 +276,7 @@ async function main() {
     .join("\n  ");
   console.log(`Toplijsten berekend:\n  ${counts}\n  later-catalogus: ${catalogItems.length}`);
 
-  const banner = `// Automatisch gegenereerd door scripts/build-data.mjs — niet handmatig bewerken.\n`;
+  const banner = `// Automatisch gegenereerd door scripts/build-data.ts — niet handmatig bewerken.\n`;
   const body = `window.TOP_ARTICLES = ${JSON.stringify(data, null, 2)};\n`;
   const priorityBody = `window.TOP_ARTICLE_PRIORITY = ${JSON.stringify(priority, null, 2)};\n`;
   await mkdir(dirname(OUT_FILE), { recursive: true });
@@ -218,7 +288,7 @@ async function main() {
   console.log(`Geschreven naar ${PRIORITY_OUT_FILE} (${Object.keys(priority.items).length} later-documenten)`);
 }
 
-main().catch((err) => {
-  console.error("Build mislukt:", err);
+main().catch((error: unknown) => {
+  console.error("Build mislukt:", error);
   process.exit(1);
 });

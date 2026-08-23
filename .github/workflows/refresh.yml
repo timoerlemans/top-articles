@@ -18,6 +18,12 @@ jobs:
         with:
           node-version: 24
 
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Check TypeScript source
+        run: npm run check
+
       - name: Install Readwise CLI
         run: npm install -g @readwise/cli
 
@@ -45,4 +51,4 @@ jobs:
         env:
           RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
           MAIL_FROM: ${{ secrets.MAIL_FROM }}
-        run: node scripts/send-top1-email.mjs
+        run: node dist/scripts/send-top1-email.js

@@ -8,9 +8,10 @@ import {
   sequencesForDocument,
   validatePriorityOverrides,
   validatePriorityExport,
-} from "../scripts/lib/readwise-priority-v3.mjs";
+} from "../scripts/lib/readwise-priority-v3.js";
+import type { PriorityDocument } from "../scripts/lib/readwise-priority-v2.js";
 
-function document(overrides = {}) {
+function document(overrides: Partial<PriorityDocument> = {}): PriorityDocument {
   return {
     id: "doc-1",
     title: "Een artikel",
@@ -18,7 +19,6 @@ function document(overrides = {}) {
     word_count: 1_500,
     reading_time: "12 mins",
     saved_at: "2026-01-01T00:00:00.000Z",
-    published_date: "2020-01-01T00:00:00.000Z",
     category: "article",
     tags: {},
     notes: "",
@@ -38,7 +38,11 @@ test("sorteert op eindscore en gebruikt saved_at alleen bij gelijke score", () =
 
   assert.equal(result.model, "readwise-priority-v3");
   assert.deepEqual(
-    ["score-80-oud-a", "score-80-oud-b", "score-80-nieuw", "score-70-oud"].map((id) => result.items[id].positions.lees),
+    ["score-80-oud-a", "score-80-oud-b", "score-80-nieuw", "score-70-oud"].map((id) => {
+      const item = result.items[id];
+      assert.ok(item);
+      return item.positions.lees;
+    }),
     [1, 2, 3, 4]
   );
 });
@@ -140,7 +144,11 @@ test("exporteert alleen later-brondocumenten en valideert werkelijke posities af
   ];
   const result = buildPriorityExport(docs, { generatedAt: "2026-08-16T10:00:00.000Z" });
 
-  assert.deepEqual(result.items.one.actualPositions, { lees: 2 });
-  assert.deepEqual(result.items.two.actualPositions, { lees: 1 });
+  const one = result.items.one;
+  const two = result.items.two;
+  assert.ok(one);
+  assert.ok(two);
+  assert.deepEqual(one.actualPositions, { lees: 2 });
+  assert.deepEqual(two.actualPositions, { lees: 1 });
   assert.equal(validatePriorityExport(result, docs), true);
 });

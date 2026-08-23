@@ -2,7 +2,7 @@ import assert from "node:assert/strict";
 import { readFile } from "node:fs/promises";
 import test from "node:test";
 
-const cssPromise = readFile(new URL("../styles.css", import.meta.url), "utf8");
+const cssPromise = readFile(new URL("../../styles.css", import.meta.url), "utf8");
 
 test("alle desktopbediening deelt een container en vijf uitgelijnde filterkolommen", async () => {
   const css = await cssPromise;
