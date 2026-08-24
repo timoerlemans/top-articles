@@ -6,6 +6,14 @@ function requiredElement(id, elementType) {
     }
     return element;
 }
+function formatBuildNumber(iso) {
+    const date = new Date(iso);
+    if (Number.isNaN(date.getTime())) {
+        return "onbekend";
+    }
+    const pad = (value) => String(value).padStart(2, "0");
+    return `${date.getUTCFullYear()}${pad(date.getUTCMonth() + 1)}${pad(date.getUTCDate())}${pad(date.getUTCHours())}${pad(date.getUTCMinutes())}${pad(date.getUTCSeconds())}`;
+}
 function registerServiceWorker() {
     if (!window.isSecureContext || !("serviceWorker" in navigator)) {
         return;
@@ -37,6 +45,7 @@ registerServiceWorker();
     const emptyEl = requiredElement("empty-state", HTMLElement);
     const searchEl = requiredElement("search", HTMLInputElement);
     const generatedAtEl = requiredElement("generated-at", HTMLElement);
+    const pwaBuildEl = requiredElement("pwa-build", HTMLElement);
     const sortChipListEl = requiredElement("sort-chip-list", HTMLElement);
     const sortSelectEl = requiredElement("sort-select", HTMLSelectElement);
     const sortDirectionEl = requiredElement("sort-direction", HTMLButtonElement);
@@ -1245,6 +1254,7 @@ registerServiceWorker();
         render();
     });
     generatedAtEl.textContent = `bijgewerkt op ${formatGeneratedAt(data.generatedAt)}`;
+    pwaBuildEl.textContent = `PWA-build ${formatBuildNumber(data.generatedAt)}`;
     renderSortChips();
     hashToState();
     stateToHash();

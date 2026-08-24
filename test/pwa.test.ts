@@ -74,3 +74,17 @@ test("frontend registreert de worker alleen in een veilige ondersteunde context"
   assert.match(app, /navigator\.serviceWorker\.register\("service-worker\.js"\)/);
   assert.match(app, /\.catch\(\(\) => undefined\)/);
 });
+
+test("footer toont een stabiel UTC-buildnummer uit de gegenereerde data", async () => {
+  const [html, app] = await Promise.all([
+    readFile(new URL("index.html", root), "utf8"),
+    readFile(new URL("dist/src/app.js", root), "utf8"),
+  ]);
+
+  assert.match(html, /id="pwa-build"/);
+  assert.match(app, /function formatBuildNumber\(iso\)/);
+  assert.match(app, /getUTCFullYear\(\)/);
+  assert.match(app, /getUTCMonth\(\) \+ 1/);
+  assert.match(app, /getUTCSeconds\(\)/);
+  assert.match(app, /pwaBuildEl\.textContent = `PWA-build \$\{formatBuildNumber\(data\.generatedAt\)\}`/);
+});
