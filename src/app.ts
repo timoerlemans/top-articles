@@ -18,6 +18,13 @@ function requiredElement<ElementType extends HTMLElement>(id: string, elementTyp
   return element;
 }
 
+function registerServiceWorker(): void {
+  if (!window.isSecureContext || !("serviceWorker" in navigator)) { return; }
+  void navigator.serviceWorker.register("service-worker.js").catch(() => undefined);
+}
+
+registerServiceWorker();
+
 (function () {
   "use strict";
 

@@ -6,6 +6,13 @@ function requiredElement(id, elementType) {
     }
     return element;
 }
+function registerServiceWorker() {
+    if (!window.isSecureContext || !("serviceWorker" in navigator)) {
+        return;
+    }
+    void navigator.serviceWorker.register("service-worker.js").catch(() => undefined);
+}
+registerServiceWorker();
 (function () {
     "use strict";
     const data = parseTopArticles(window.TOP_ARTICLES);

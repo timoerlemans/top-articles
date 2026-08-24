@@ -24,7 +24,7 @@ export default tseslint.config(
     },
   },
   {
-    ignores: [".agents/**", ".remember/**", "data/**", "dist/**", "node_modules/**", ".worktrees/**", "eslint.config.mjs"],
+    ignores: [".agents/**", ".remember/**", "data/**", "dist/**", "node_modules/**", ".worktrees/**", "eslint.config.mjs", "service-worker.js"],
   },
   {
     files: ["test/**/*.ts"],
