@@ -1,6 +1,6 @@
 // Automatisch gegenereerd door scripts/build-data.ts — niet handmatig bewerken.
 window.TOP_ARTICLES = {
-  "generatedAt": "2026-08-28T15:57:41.847Z",
+  "generatedAt": "2026-08-28T16:46:01.044Z",
   "families": [
     {
       "id": "algemeen",
@@ -16279,7 +16279,6 @@ window.TOP_ARTICLES = {
               "whyRead": "Raakt je interesse in politieke filosofie en geschiedenis; Thoreau's essay is het fundament van het moderne concept van geweldloze burgerlijke ongehoorzaamheid, invloedrijk op Gandhi en Martin Luther King.",
               "bestMoment": "analytisch",
               "tags": [
-                "boek-top-10",
                 "current affairs & politics",
                 "history",
                 "political philosophy"
@@ -16574,7 +16573,6 @@ window.TOP_ARTICLES = {
               "whyRead": "Raakt je interesse in politieke filosofie en geschiedenis; Thoreau's essay is het fundament van het moderne concept van geweldloze burgerlijke ongehoorzaamheid, invloedrijk op Gandhi en Martin Luther King.",
               "bestMoment": "analytisch",
               "tags": [
-                "boek-top-10",
                 "current affairs & politics",
                 "history",
                 "political philosophy"
@@ -17053,6 +17051,33 @@ window.TOP_ARTICLES = {
             },
             {
               "position": 29,
+              "id": "01m14b59vrnen78wazwke624cs",
+              "title": "Coachen van agile Teams",
+              "author": "Lyssa Adkins",
+              "siteName": "readwise-upload-epub",
+              "category": "epub",
+              "language": null,
+              "readingTime": "8 hrs 42 mins",
+              "readingMinutes": 522,
+              "wordCount": 138279,
+              "publishedDate": null,
+              "savedDate": "2026-08-28T14:07:42.993000+00:00",
+              "imageUrl": "https://readwise-assets.s3.amazonaws.com/media/reader/parsed_document_assets/491533536/MhyzlvA5NO2gPhn2rdhKeYJSKSjfeUfByIbChVCF_ls-cover-cover.jpg",
+              "sourceUrl": "private://read/01m14b59vrnen78wazwke624cs",
+              "readwiseUrl": "https://read.readwise.io/read/01m14b59vrnen78wazwke624cs",
+              "summary": "Coachen van agile Teams laat zien dat agile coaching minder draait om frameworks dan om het ontwikkelen van zelfbewustzijn, aandacht en\n  vertrouwen. De coach wisselt bewust tussen rollen als mentor, facilitator, leraar en conflictnavigator, zonder de verantwoordelijkheid van het\n  team over te nemen. Sterke teams ontstaan wanneer hoge verwachtingen samengaan met psychologische veiligheid, een gedeelde visie en ruimte voor\n  onderlinge verschillen. Conflict hoeft niet altijd opgelost te worden; de coach helpt het team spanningen productief te maken en triangulatie te\n  vermijden. Het einddoel is een zelfstandig team dat zichzelf kan bijsturen — een “dirigentloos strijkkwartet” — wat het boek bijzonder relevant\n  maakt voor je Scrum Master-praktijk.",
+              "whyRead": "Raakt direct je werk als Scrum Master en je interesse in agile coaching, servant leadership en teamdynamiek — dit is hét standaardwerk over de mens achter de agile coach, niet over frameworks. Adkins schrijft persoonlijk en eerlijk (inclusief haar eigen 'boetedoening' als ex-planmatig projectmanager), waardoor het meer is dan een techniekenboek.",
+              "bestMoment": "leergierig",
+              "tags": [
+                "agile",
+                "behavioral psychology & coaching",
+                "boek-top-10",
+                "professional development"
+              ],
+              "alsoIn": []
+            },
+            {
+              "position": 30,
               "id": "01j28vsd63175zdak33c46ccey",
               "title": "De druiven der gramschap",
               "author": "Steinbeck",
@@ -17078,7 +17103,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 30,
+              "position": 31,
               "id": "01j29d39ky8ne144y1vxzs5wec",
               "title": "Meditations",
               "author": "Marcus Marcus Aurelius",
@@ -17103,7 +17128,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 31,
+              "position": 32,
               "id": "01j29d3cds6c9f3v6jjbwjd0m8",
               "title": "Never Binge Again(tm): Reprogram Yourself to Think Like a Permanently Thin Person. Stop Overeating and Binge Eating and Stick to the Food Plan of Your Choice!",
               "author": "Glenn Livingston, Ph.d.",
@@ -17129,7 +17154,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 32,
+              "position": 33,
               "id": "01j422ay10wfm6whm7md7qny8s",
               "title": "Vertel me het einde",
               "author": "Valeria Luiselli",
@@ -17154,7 +17179,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 33,
+              "position": 34,
               "id": "01j422az0v87b7wzb7fx7f9r9t",
               "title": "Uitgewoond",
               "author": "Cody Hochstenbach",
@@ -17179,7 +17204,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 34,
+              "position": 35,
               "id": "01j422azr657ycnf0hesy20s0f",
               "title": "Stuurloos",
               "author": "Kustaw Bessems",
@@ -17204,7 +17229,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 35,
+              "position": 36,
               "id": "01j5m80ektv0bcx45xmy2a5kdy",
               "title": "Crime and Punishment",
               "author": "Fyodor Dostoevsky",
@@ -17229,7 +17254,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 36,
+              "position": 37,
               "id": "01j6f8r2v0xj1cgdnf7pqxqjyz",
               "title": "Candide",
               "author": "Voltaire",
@@ -17254,7 +17279,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 37,
+              "position": 38,
               "id": "01j6q1n1v6s769rr1vxcs8ztd1",
               "title": "How to Live on 24 Hours a Day",
               "author": "Arnold Bennett",
@@ -17279,7 +17304,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 38,
+              "position": 39,
               "id": "01jjp69txapfggvjvr95mrfp46",
               "title": "Co-intelligentie",
               "author": "Ethan Mollick",
@@ -17305,7 +17330,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 39,
+              "position": 40,
               "id": "01k04hd67cscrapj1n35btr6tg",
               "title": "The Inner Compass: Cultivating the Courage to Trust Yourself",
               "author": "Lawrence Yeo",
@@ -17330,7 +17355,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 40,
+              "position": 41,
               "id": "01k5r4ct2znt611x3k9c2v3bqd",
               "title": "The Road to Character",
               "author": "David Brooks",
@@ -17356,7 +17381,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 41,
+              "position": 42,
               "id": "01k8982yc86fjcjhr0h7yctwh2",
               "title": "De tweede berg",
               "author": "David Brooks",
@@ -17381,7 +17406,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 42,
+              "position": 43,
               "id": "01kcfce24153fpqayz3qftq7ch",
               "title": "Chop Wood, Carry Water: The Yoga of Work",
               "author": "Andrew Taggart",
@@ -17406,7 +17431,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 43,
+              "position": 44,
               "id": "01j29arv27jhq09z72ajwp9kjy",
               "title": "The Pathless Path: Imagining a New Story for Work and Life",
               "author": "Paul Millerd",
@@ -17432,7 +17457,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 44,
+              "position": 45,
               "id": "01j29b7tpmzr9ms5g74w2v2s5s",
               "title": "The 12 Week Year",
               "author": "Brian P. Moran",
@@ -17457,7 +17482,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 45,
+              "position": 46,
               "id": "01j29d38xxr3gp6z4x14nzw6es",
               "title": "How to Win Friends and Influence People",
               "author": "Dale Carnegie",
@@ -17484,7 +17509,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 46,
+              "position": 47,
               "id": "01j29d3aw87yzcwsjrejygem67",
               "title": "Mind Gym: Achieve More by Thinking Differently",
               "author": "Sebastian Bailey",
@@ -17510,7 +17535,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 47,
+              "position": 48,
               "id": "01j29d3fx2eh2cjm300ymbnbeg",
               "title": "The Five Dysfunctions of a Team: A Leadership Fable, 20th Anniversary Edition",
               "author": "Patrick M. Lencioni",
@@ -17537,7 +17562,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 48,
+              "position": 49,
               "id": "01j2pppkbaxn15tdt0yj02g52k",
               "title": "Het boek waarvan je baas niet wil dat je het leest",
               "author": "Roland Grootenboer",
@@ -17562,7 +17587,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 49,
+              "position": 50,
               "id": "01jjc89qwjr4ry5xp4wneehw5x",
               "title": "Ondernemingsraad voor Dummies",
               "author": "Ruben Houweling",
@@ -17586,7 +17611,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 50,
+              "position": 51,
               "id": "01k4z6fmjcf1ffwdqjh2hf4j5k",
               "title": "Diep werk: werken in een wereld vol afleiding",
               "author": "Cal Newport",
@@ -17611,7 +17636,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 51,
+              "position": 52,
               "id": "01kwaadj8686tk3pzbr7wd9axw",
               "title": "Tiny Experiments",
               "author": "Anne-Laure Le Cunff",
@@ -17637,7 +17662,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 52,
+              "position": 53,
               "id": "01kxh3cq0yd7tq672g97w9pts7",
               "title": "Rest_ Why You Get More Done When You Work Less",
               "author": "read.readwise.io",
@@ -17663,7 +17688,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 53,
+              "position": 54,
               "id": "01j28vk6sshcs4s85dctd96np2",
               "title": "Hoe we een klimaatramp kunnen vermijden",
               "author": "Bill Gates",
@@ -17689,7 +17714,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 54,
+              "position": 55,
               "id": "01j29d3dwx997fvp2v7meykqtp",
               "title": "Stop Overthinking: 23 Techniques to Relieve Stress, Stop Negative Spirals, Declutter Your Mind, and Focus on the Present",
               "author": "Nick Trenton",
@@ -17716,7 +17741,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 55,
+              "position": 56,
               "id": "01j29d3gwr2rypyn0gyfn4dym7",
               "title": "The Great Mental Models: General Thinking Concepts",
               "author": "Farnam Street",
@@ -17742,7 +17767,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 56,
+              "position": 57,
               "id": "01j29d3hp212xny83jkj13kan8",
               "title": "Think and Grow Rich",
               "author": "Napoleon Hill",
@@ -17769,7 +17794,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 57,
+              "position": 58,
               "id": "01j39ztxxknjf83wz26vwx4mz4",
               "title": "Mindset",
               "author": "Dr Carol S. Dweck",
@@ -17795,7 +17820,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 58,
+              "position": 59,
               "id": "01kc0e4wxqhr18yfp4mf49hg2n",
               "title": "Short Science Fiction",
               "author": "Isaac Asimov",
@@ -17820,7 +17845,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 59,
+              "position": 60,
               "id": "01j28vk8x6dvbnv05fex4z13dz",
               "title": "Het drielichamenprobleem",
               "author": "Cixin Liu",
@@ -17846,7 +17871,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 60,
+              "position": 61,
               "id": "01j28vse5rr7e97cxrbf3jh4h1",
               "title": "Ons feilbare denken",
               "author": "Daniel Kahneman",
@@ -17871,7 +17896,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 61,
+              "position": 62,
               "id": "01j29b7q4wm936424r1keh3kz8",
               "title": "How to Read a Book",
               "author": "Mortimer J. Adler",
@@ -17896,7 +17921,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 62,
+              "position": 63,
               "id": "01j29d3477vpv22gsyz7y1zrp7",
               "title": "Deep Nutrition: Why Your Genes Need Traditional Food",
               "author": "Catherine Shanahan, M. D.",
@@ -17922,7 +17947,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 63,
+              "position": 64,
               "id": "01j29d3tbesb7m09zyn0z78vjr",
               "title": "Wait But Why Year One: We finally figured out how to put a blog onto an e-reader",
               "author": "Tim Urban",
@@ -17948,7 +17973,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 64,
+              "position": 65,
               "id": "01j29d3v4emc1z1ap0jt2jvqfh",
               "title": "Your Brain's Not Broken",
               "author": "Tamara Phd Rosier",
@@ -17974,7 +17999,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 65,
+              "position": 66,
               "id": "01j29d3vyb3g8h2zwk7t0gcyrs",
               "title": "Your Life Can Be Better Second Edition: Using Strategies for Adult ADHD",
               "author": "Douglas A Puryear",
@@ -18000,7 +18025,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 66,
+              "position": 67,
               "id": "01j7x2qde4aaycp5jtn9b23jqh",
               "title": "The Importance of Being Earnest",
               "author": "Oscar Wilde",
@@ -18025,7 +18050,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 67,
+              "position": 68,
               "id": "01jaraxstjdzrdw2zs4r638p2v",
               "title": "Journey to the Center of the Earth",
               "author": "Jules Verne",
@@ -18049,7 +18074,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 68,
+              "position": 69,
               "id": "01k4d2kxngyzjt0vzg9sav4hbn",
               "title": "Traumasporen in lichaam, brein en geest",
               "author": "Bessel van der Kolk",
@@ -18074,7 +18099,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 69,
+              "position": 70,
               "id": "01k55qwkzkqaphvktn41xznxv2",
               "title": "Wuthering Heights",
               "author": "Emily Brontë",
@@ -18098,7 +18123,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 70,
+              "position": 71,
               "id": "01k5r4d6q3vkqnk8tn09k2eqrd",
               "title": "How to Know a Person",
               "author": "David Brooks",
@@ -18124,7 +18149,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 71,
+              "position": 72,
               "id": "01k7rktczvt1p4nx2bqf9gqas2",
               "title": "Waarom generalisten verder komen (Range)",
               "author": "David Epstein",
@@ -18149,7 +18174,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 72,
+              "position": 73,
               "id": "01keqeq7nyxjpnsd031e66kmej",
               "title": "As I Lay Dying",
               "author": "William Faulkner",
@@ -18173,7 +18198,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 73,
+              "position": 74,
               "id": "01kgdfpy0f0pts3sax7x38mdqc",
               "title": "Short Fiction",
               "author": "Mary Shelley",
@@ -18197,7 +18222,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 74,
+              "position": 75,
               "id": "01kksm80zx4vk4cskkm9r0nddv",
               "title": "On the Art of Reading",
               "author": "Arthur Quiller-Couch",
@@ -18222,7 +18247,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 75,
+              "position": 76,
               "id": "01ksdsnsw2mbeb6y7y17ghhey9",
               "title": "The Way of Excellence",
               "author": "Brad Stulberg",
@@ -18244,7 +18269,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 76,
+              "position": 77,
               "id": "01kxh3cnkmne0bwxm5vvjzsnvy",
               "title": "Rapt_ Attention and the Focused Life",
               "author": "read.readwise.io",
@@ -20271,6 +20296,68 @@ window.TOP_ARTICLES = {
   ],
   "catalog": {
     "items": [
+      {
+        "position": null,
+        "id": "01m14b59vrnen78wazwke624cs",
+        "title": "Coachen van agile Teams",
+        "author": "Lyssa Adkins",
+        "siteName": "readwise-upload-epub",
+        "category": "epub",
+        "language": null,
+        "readingTime": "8 hrs 42 mins",
+        "readingMinutes": 522,
+        "wordCount": 138279,
+        "publishedDate": null,
+        "savedDate": "2026-08-28T14:07:42.993000+00:00",
+        "imageUrl": "https://readwise-assets.s3.amazonaws.com/media/reader/parsed_document_assets/491533536/MhyzlvA5NO2gPhn2rdhKeYJSKSjfeUfByIbChVCF_ls-cover-cover.jpg",
+        "sourceUrl": "private://read/01m14b59vrnen78wazwke624cs",
+        "readwiseUrl": "https://read.readwise.io/read/01m14b59vrnen78wazwke624cs",
+        "summary": "Coachen van agile Teams laat zien dat agile coaching minder draait om frameworks dan om het ontwikkelen van zelfbewustzijn, aandacht en\n  vertrouwen. De coach wisselt bewust tussen rollen als mentor, facilitator, leraar en conflictnavigator, zonder de verantwoordelijkheid van het\n  team over te nemen. Sterke teams ontstaan wanneer hoge verwachtingen samengaan met psychologische veiligheid, een gedeelde visie en ruimte voor\n  onderlinge verschillen. Conflict hoeft niet altijd opgelost te worden; de coach helpt het team spanningen productief te maken en triangulatie te\n  vermijden. Het einddoel is een zelfstandig team dat zichzelf kan bijsturen — een “dirigentloos strijkkwartet” — wat het boek bijzonder relevant\n  maakt voor je Scrum Master-praktijk.",
+        "whyRead": "Raakt direct je werk als Scrum Master en je interesse in agile coaching, servant leadership en teamdynamiek — dit is hét standaardwerk over de mens achter de agile coach, niet over frameworks. Adkins schrijft persoonlijk en eerlijk (inclusief haar eigen 'boetedoening' als ex-planmatig projectmanager), waardoor het meer is dan een techniekenboek.",
+        "bestMoment": "leergierig",
+        "tags": [
+          "agile",
+          "behavioral psychology & coaching",
+          "boek-top-10",
+          "professional development"
+        ],
+        "alsoIn": [
+          "boek-top-100"
+        ],
+        "memberships": [
+          {
+            "familyId": "boeken",
+            "size": "top-100",
+            "position": 29
+          }
+        ]
+      },
+      {
+        "position": null,
+        "id": "01m148wj4yg1xmwqbd8rqy5yr7",
+        "title": "The Tyranny of the Marginal User",
+        "author": "Ivan Vendrov",
+        "siteName": "substack.com",
+        "category": "article",
+        "language": null,
+        "readingTime": "5 mins",
+        "readingMinutes": 5,
+        "wordCount": 1182,
+        "publishedDate": "2023-09-13",
+        "savedDate": "2026-08-28T13:27:59.393000+00:00",
+        "imageUrl": "https://substackcdn.com/image/fetch/w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F620ac008-64a0-400f-99f7-55eb6af9fd12_1330x1332.png",
+        "sourceUrl": "https://nothinghuman.substack.com/p/the-tyranny-of-the-marginal-user",
+        "readwiseUrl": "https://read.readwise.io/read/01m148wj4yg1xmwqbd8rqy5yr7",
+        "summary": "why consumer software gets worse, not better, over time",
+        "whyRead": "Raakt je interesse in technologie en maatschappelijke structuren: Vendrov legt scherp en grappig uit hoe groeimetrics en netwerkeffecten digitale producten kunnen ontdoen van gebruikersautonomie. Het is een korte, essayistische lens die ook bruikbaar is voor product- en organisatiedenken.",
+        "bestMoment": "kritisch",
+        "tags": [
+          "sociology & social structures",
+          "technology"
+        ],
+        "alsoIn": [],
+        "memberships": []
+      },
       {
         "position": null,
         "id": "01m1463q6ty4tpv1ezynjst4f5",
@@ -32955,7 +33042,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "boeken",
             "size": "top-100",
-            "position": 52
+            "position": 53
           }
         ]
       },
@@ -32990,7 +33077,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "boeken",
             "size": "top-100",
-            "position": 76
+            "position": 77
           }
         ]
       },
@@ -35580,7 +35667,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "boeken",
             "size": "top-100",
-            "position": 51
+            "position": 52
           }
         ]
       },
@@ -38747,7 +38834,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "boeken",
             "size": "top-100",
-            "position": 75
+            "position": 76
           }
         ]
       },
@@ -41877,7 +41964,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "boeken",
             "size": "top-100",
-            "position": 74
+            "position": 75
           }
         ]
       },
@@ -42753,7 +42840,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "boeken",
             "size": "top-100",
-            "position": 73
+            "position": 74
           }
         ]
       },
@@ -43086,7 +43173,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "boeken",
             "size": "top-100",
-            "position": 72
+            "position": 73
           }
         ]
       },
@@ -43851,7 +43938,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "boeken",
             "size": "top-100",
-            "position": 42
+            "position": 43
           }
         ]
       },
@@ -44136,7 +44223,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "boeken",
             "size": "top-100",
-            "position": 58
+            "position": 59
           }
         ]
       },
@@ -45018,7 +45105,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "boeken",
             "size": "top-100",
-            "position": 41
+            "position": 42
           }
         ]
       },
@@ -45346,7 +45433,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "boeken",
             "size": "top-100",
-            "position": 71
+            "position": 72
           }
         ]
       },
@@ -46496,7 +46583,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "boeken",
             "size": "top-100",
-            "position": 70
+            "position": 71
           }
         ]
       },
@@ -46565,7 +46652,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "boeken",
             "size": "top-100",
-            "position": 40
+            "position": 41
           }
         ]
       },
@@ -46598,7 +46685,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "boeken",
             "size": "top-100",
-            "position": 69
+            "position": 70
           }
         ]
       },
@@ -46659,7 +46746,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "boeken",
             "size": "top-100",
-            "position": 50
+            "position": 51
           }
         ]
       },
@@ -46834,7 +46921,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "boeken",
             "size": "top-100",
-            "position": 68
+            "position": 69
           }
         ]
       },
@@ -47333,7 +47420,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "boeken",
             "size": "top-100",
-            "position": 39
+            "position": 40
           }
         ]
       },
@@ -48050,7 +48137,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "boeken",
             "size": "top-100",
-            "position": 38
+            "position": 39
           }
         ]
       },
@@ -48124,7 +48211,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "boeken",
             "size": "top-100",
-            "position": 49
+            "position": 50
           }
         ]
       },
@@ -48157,7 +48244,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "boeken",
             "size": "top-100",
-            "position": 67
+            "position": 68
           }
         ]
       },
@@ -48293,7 +48380,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "boeken",
             "size": "top-100",
-            "position": 66
+            "position": 67
           }
         ]
       },
@@ -48363,7 +48450,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "boeken",
             "size": "top-100",
-            "position": 37
+            "position": 38
           }
         ]
       },
@@ -48432,7 +48519,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "boeken",
             "size": "top-100",
-            "position": 36
+            "position": 37
           }
         ]
       },
@@ -48579,7 +48666,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "boeken",
             "size": "top-100",
-            "position": 35
+            "position": 36
           }
         ]
       },
@@ -48693,7 +48780,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "boeken",
             "size": "top-100",
-            "position": 34
+            "position": 35
           }
         ]
       },
@@ -48727,7 +48814,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "boeken",
             "size": "top-100",
-            "position": 33
+            "position": 34
           }
         ]
       },
@@ -48761,7 +48848,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "boeken",
             "size": "top-100",
-            "position": 32
+            "position": 33
           }
         ]
       },
@@ -48915,7 +49002,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "boeken",
             "size": "top-100",
-            "position": 57
+            "position": 58
           }
         ]
       },
@@ -49053,7 +49140,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "boeken",
             "size": "top-100",
-            "position": 48
+            "position": 49
           }
         ]
       },
@@ -49185,7 +49272,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "boeken",
             "size": "top-100",
-            "position": 65
+            "position": 66
           }
         ]
       },
@@ -49220,7 +49307,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "boeken",
             "size": "top-100",
-            "position": 64
+            "position": 65
           }
         ]
       },
@@ -49255,7 +49342,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "boeken",
             "size": "top-100",
-            "position": 63
+            "position": 64
           }
         ]
       },
@@ -49291,7 +49378,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "boeken",
             "size": "top-100",
-            "position": 56
+            "position": 57
           }
         ]
       },
@@ -49326,7 +49413,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "boeken",
             "size": "top-100",
-            "position": 55
+            "position": 56
           }
         ]
       },
@@ -49362,7 +49449,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "boeken",
             "size": "top-100",
-            "position": 47
+            "position": 48
           }
         ]
       },
@@ -49433,7 +49520,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "boeken",
             "size": "top-100",
-            "position": 54
+            "position": 55
           }
         ]
       },
@@ -49504,7 +49591,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "boeken",
             "size": "top-100",
-            "position": 31
+            "position": 32
           }
         ]
       },
@@ -49581,7 +49668,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "boeken",
             "size": "top-100",
-            "position": 46
+            "position": 47
           }
         ]
       },
@@ -49615,7 +49702,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "boeken",
             "size": "top-100",
-            "position": 30
+            "position": 31
           }
         ]
       },
@@ -49651,7 +49738,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "boeken",
             "size": "top-100",
-            "position": 45
+            "position": 46
           }
         ]
       },
@@ -49840,7 +49927,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "boeken",
             "size": "top-100",
-            "position": 62
+            "position": 63
           }
         ]
       },
@@ -49993,7 +50080,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "boeken",
             "size": "top-100",
-            "position": 44
+            "position": 45
           }
         ]
       },
@@ -50104,7 +50191,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "boeken",
             "size": "top-100",
-            "position": 61
+            "position": 62
           }
         ]
       },
@@ -50128,7 +50215,6 @@ window.TOP_ARTICLES = {
         "whyRead": "Raakt je interesse in politieke filosofie en geschiedenis; Thoreau's essay is het fundament van het moderne concept van geweldloze burgerlijke ongehoorzaamheid, invloedrijk op Gandhi en Martin Luther King.",
         "bestMoment": "analytisch",
         "tags": [
-          "boek-top-10",
           "current affairs & politics",
           "history",
           "political philosophy"
@@ -50181,7 +50267,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "boeken",
             "size": "top-100",
-            "position": 43
+            "position": 44
           }
         ]
       },
@@ -50215,7 +50301,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "boeken",
             "size": "top-100",
-            "position": 60
+            "position": 61
           }
         ]
       },
@@ -50250,7 +50336,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "boeken",
             "size": "top-100",
-            "position": 29
+            "position": 30
           }
         ]
       },
@@ -50285,7 +50371,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "boeken",
             "size": "top-100",
-            "position": 59
+            "position": 60
           }
         ]
       },
@@ -50356,7 +50442,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "boeken",
             "size": "top-100",
-            "position": 53
+            "position": 54
           }
         ]
       },
