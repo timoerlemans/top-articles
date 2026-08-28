@@ -7,10 +7,12 @@ import { dirname, resolve } from "node:path";
 import { fileURLToPath } from "node:url";
 import { z } from "zod";
 
-import { buildPriorityTagPlan, validatePriorityTagPlan } from "./lib/priority-tag-plan.js";
+import { buildPriorityTagPlan, tagNames, validatePriorityTagPlan } from "./lib/priority-tag-plan.js";
 import type { PriorityTagPlan } from "./lib/priority-tag-plan.js";
-import { applyPriorityOperations } from "./lib/priority-apply.js";
-import type { PriorityJournal } from "./lib/priority-apply.js";
+import { applyPriorityDocumentUpdates } from "./lib/priority-apply.js";
+import type { DocumentBatchResult, PriorityJournal } from "./lib/priority-apply.js";
+import { buildDocumentTagUpdates, BULK_EDIT_BATCH_SIZE } from "./lib/priority-batch.js";
+import type { DocumentTagUpdate } from "./lib/priority-batch.js";
 import { createReadwiseRequester } from "./lib/readwise-request.js";
 import { parseReadwiseDocumentPage } from "./lib/external-schemas.js";
 import type { ReadwiseDocument } from "./lib/external-schemas.js";
@@ -31,6 +33,13 @@ const journalSchema = z.looseObject({
   startedAt: z.string(),
   completed: z.array(z.object({ action: z.enum(["add", "remove"]), documentId: z.string(), tag: z.string() })),
   failures: z.array(z.object({ action: z.enum(["add", "remove"]), documentId: z.string(), tag: z.string(), attempt: z.number(), at: z.string(), message: z.string() })),
+});
+const bulkEditResultSchema = z.looseObject({
+  results: z.array(z.looseObject({
+    id: z.string(),
+    success: z.boolean(),
+    error: z.union([z.string(), z.looseObject({}), z.null()]).optional(),
+  })),
 });
 const runReadwise = createReadwiseRequester({ exec: (args) => execFileAsync("readwise", args) });
 const runReadwiseMutation = createReadwiseRequester({ exec: (args) => execFileAsync("readwise", args), retries: 0 });
@@ -84,9 +93,15 @@ async function loadOverrides(): Promise<PriorityOverridesConfig> {
   return overridesSchema.parse(JSON.parse(await readFile(resolve(path), "utf8")));
 }
 
-async function createPlan(generatedAt: string | undefined, { cleanupAll = false }: { cleanupAll?: boolean } = {}): Promise<PriorityTagPlan> {
+async function createPlan(
+  generatedAt: string | undefined,
+  { cleanupAll = false }: { cleanupAll?: boolean } = {},
+): Promise<{ plan: PriorityTagPlan; documents: ReadwiseDocument[] }> {
   const [{ later, outside }, overrides] = await Promise.all([fetchLibrary({ cleanupAll }), loadOverrides()]);
-  return buildPriorityTagPlan(later, outside, { generatedAt, overrides, cleanupAll });
+  return {
+    plan: buildPriorityTagPlan(later, outside, { generatedAt, overrides, cleanupAll }),
+    documents: [...later, ...outside],
+  };
 }
 
 async function writeJson(path: string, value: unknown): Promise<string> {
@@ -113,11 +128,22 @@ async function planCommand() {
     throw new Error("Uitvoerpad ontbreekt");
   }
   const cleanupAll = process.argv.includes("--cleanup-all");
-  const plan = await createPlan(undefined, { cleanupAll });
+  const { plan } = await createPlan(undefined, { cleanupAll });
   const path = await writeJson(output, plan);
   console.log(`Proefrun: ${plan.summary.documents} documenten, ${plan.summary.additions} toevoegingen, ${plan.summary.removals} verwijderingen.`);
   console.log(`Plan: ${path}`);
   console.log(`Bevestigingshash: ${plan.planHash}`);
+}
+
+async function bulkEditTags(batch: readonly DocumentTagUpdate[]): Promise<DocumentBatchResult[]> {
+  const payload = batch.map((update) => ({ document_id: update.documentId, tags: update.tags ?? [] }));
+  const { stdout } = await runReadwiseMutation(["reader-bulk-edit-document-metadata", "--documents", JSON.stringify(payload), "--json"]);
+  const { results } = bulkEditResultSchema.parse(JSON.parse(stdout));
+  return results.map((result) => ({
+    documentId: result.id,
+    success: result.success,
+    message: typeof result.error === "string" ? result.error : result.error ? JSON.stringify(result.error) : undefined,
+  }));
 }
 
 async function applyCommand() {
@@ -131,7 +157,7 @@ async function applyCommand() {
   const plan = candidate;
   if (confirmation !== plan.planHash) {throw new Error("Bevestigingshash komt niet overeen met het plan");}
 
-  const livePlan = await createPlan(plan.generatedAt, { cleanupAll: plan.scope === "all-locations" });
+  const { plan: livePlan, documents } = await createPlan(plan.generatedAt, { cleanupAll: plan.scope === "all-locations" });
   if (livePlan.sourceFingerprint !== plan.sourceFingerprint) {throw new Error("Readwise of de scorecorrecties zijn gewijzigd; maak een nieuwe proefrun");}
 
   const journalPath = option("--journal", ".tmp/readwise/priority-apply-journal.json");
@@ -143,12 +169,23 @@ async function applyCommand() {
   const journal: PriorityJournal = parsedJournal?.success && parsedJournal.data.planHash === plan.planHash
     ? parsedJournal.data
     : { planHash: plan.planHash, startedAt: new Date().toISOString(), completed: [], failures: [] };
-  await applyPriorityOperations({
-    operations: livePlan.operations,
+  const currentTags = new Map(documents.map((doc) => [doc.id, tagNames(doc)]));
+  const updates = buildDocumentTagUpdates(livePlan.operations, currentTags);
+  console.log(
+    `Uitvoeren: ${String(livePlan.operations.length)} tagoperaties op ${String(updates.length)} documenten ` +
+    `via ~${String(Math.ceil(updates.length / BULK_EDIT_BATCH_SIZE))} bulk-calls.`,
+  );
+  await applyPriorityDocumentUpdates({
+    updates,
     journal,
-    execute: async (operation) => {
-    const command = operation.action === "add" ? "reader-add-tags-to-document" : "reader-remove-tags-from-document";
-      await runReadwiseMutation([command, "--document-id", operation.documentId, "--tag-names", operation.tag]);
+    executeBatch: bulkEditTags,
+    executeDocument: async (update) => {
+      if (update.remove.length > 0) {
+        await runReadwiseMutation(["reader-remove-tags-from-document", "--document-id", update.documentId, "--tag-names", update.remove.join(",")]);
+      }
+      if (update.add.length > 0) {
+        await runReadwiseMutation(["reader-add-tags-to-document", "--document-id", update.documentId, "--tag-names", update.add.join(",")]);
+      }
     },
     writeJournal: async (nextJournal) => {
       await writeJson(journalPath, nextJournal);
@@ -157,7 +194,7 @@ async function applyCommand() {
   });
   process.stdout.write("\n");
 
-  const verification = await createPlan(plan.generatedAt, { cleanupAll: plan.scope === "all-locations" });
+  const { plan: verification } = await createPlan(plan.generatedAt, { cleanupAll: plan.scope === "all-locations" });
   if (verification.operations.length !== 0) {throw new Error(`Live verificatie vond nog ${verification.operations.length} tagoperaties`);}
   journal.completedAt = new Date().toISOString();
   journal.verified = true;
@@ -166,7 +203,7 @@ async function applyCommand() {
 }
 
 async function verifyCommand() {
-  const plan = await createPlan(undefined, { cleanupAll: process.argv.includes("--cleanup-all") });
+  const { plan } = await createPlan(undefined, { cleanupAll: process.argv.includes("--cleanup-all") });
   if (plan.operations.length > 0) {throw new Error(`Readwise wijkt af: ${plan.operations.length} tagoperaties nodig. Draai priority:plan.`);}
   console.log("Readwise-reeksen en toplijsttags zijn volledig gesynchroniseerd.");
 }

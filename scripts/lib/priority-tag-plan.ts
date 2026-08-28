@@ -98,7 +98,8 @@ function rawTags(tags: unknown): unknown[] {
   return [];
 }
 
-function tagKeys(doc: PriorityDocument): string[] {
+/** Tagnamen zoals Readwise ze teruggeeft, met originele schrijfwijze. */
+export function tagNames(doc: PriorityDocument): string[] {
   return rawTags(doc.tags)
     .map((tag) => {
       if (typeof tag === "string") {
@@ -110,8 +111,12 @@ function tagKeys(doc: PriorityDocument): string[] {
       const name = tag.name ?? tag.key;
       return typeof name === "string" ? name : "";
     })
-    .map((tag) => tag.toLowerCase().trim())
+    .map((tag) => tag.trim())
     .filter(Boolean);
+}
+
+function tagKeys(doc: PriorityDocument): string[] {
+  return tagNames(doc).map((tag) => tag.toLowerCase());
 }
 
 export function isManagedOrderTag(tag: string): boolean {

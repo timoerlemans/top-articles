@@ -96,6 +96,16 @@ na expliciete hash-bevestiging, herberekent het live-plan vlak voor uitvoering
 er geen tagoperaties meer resteren. Voortgang wordt weggeschreven naar een journal in
 `.tmp/readwise/`.
 
+Uitvoering gebeurt gebundeld (`scripts/lib/priority-batch.ts` + `applyPriorityDocumentUpdates`):
+per batch van maximaal 50 documenten één `reader-bulk-edit-document-metadata`-call die de
+**volledige** tagset zet — die endpoint vervangt alle tags, dus de eindtagset wordt berekend als
+`(huidige tags − verwijderingen) ∪ toevoegingen` uit de tags die de live-fetch net ophaalde.
+Documenten die de bulkroute afkeurt (`success: false`), documenten zonder bekende tagset, en de
+hele run zodra de bulk-endpoint blijft falen, vallen terug op losse
+`reader-add-tags-to-document`/`reader-remove-tags-from-document`-calls per document (tags
+gebundeld via een comma-gescheiden `--tag-names`). Het journal blijft op operatieniveau, zodat
+oudere journals gewoon hervat kunnen worden.
+
 ### Frontend (`src/app.ts`, `index.html`, `styles.css`)
 
 `src/app.ts` is qua runtime-structuur nog steeds één grote top-level IIFE zonder framework, nu als
