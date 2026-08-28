@@ -1,6 +1,6 @@
 // Automatisch gegenereerd door scripts/build-data.ts — niet handmatig bewerken.
 window.TOP_ARTICLES = {
-  "generatedAt": "2026-08-28T13:39:03.272Z",
+  "generatedAt": "2026-08-28T15:45:07.080Z",
   "families": [
     {
       "id": "algemeen",
@@ -29081,7 +29081,6 @@ window.TOP_ARTICLES = {
         "whyRead": "Raakt je interesse in fictie en cultuurkritiek: een essayistisch maandoverzicht met vier boeken over abortion-ethiek, klassenongelijkheid, techno-kapitalisme en de tradwife-cultuur, met persoonlijke reflecties op elk.",
         "bestMoment": "ontspannen",
         "tags": [
-          "",
           "arts & culture",
           "fiction",
           "later",
