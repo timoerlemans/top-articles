@@ -1,6 +1,6 @@
 // Automatisch gegenereerd door scripts/build-data.ts — niet handmatig bewerken.
 window.TOP_ARTICLES = {
-  "generatedAt": "2026-08-28T16:46:01.044Z",
+  "generatedAt": "2026-08-29T06:22:46.339Z",
   "families": [
     {
       "id": "algemeen",
@@ -7644,6 +7644,35 @@ window.TOP_ARTICLES = {
             },
             {
               "position": 92,
+              "id": "01m14nb3gbkc1d5zt0q1rbjpsv",
+              "title": "Hoe Martin Luther King ‘I Have a Dream’ improviseerde",
+              "author": "De Ongelooflijke",
+              "siteName": "Substack",
+              "category": "email",
+              "language": null,
+              "readingTime": "7 mins",
+              "readingMinutes": 7,
+              "wordCount": 1847,
+              "publishedDate": "2026-08-28",
+              "savedDate": "2026-08-28T17:05:38.828000+00:00",
+              "imageUrl": null,
+              "sourceUrl": "mailto:reader-forwarded-email/6cb8b4a2d694108b24dead90903b5ee5",
+              "readwiseUrl": "https://read.readwise.io/read/01m14nb3gbkc1d5zt0q1rbjpsv",
+              "summary": "Het zijn misschien wel de bekendste woorden die de 20e eeuw heeft voortgebracht.",
+              "whyRead": "Nederlandstalige cultuurgeschiedenis over de wording van een iconische politieke rede, met aandacht voor retoriek en historische context.",
+              "bestMoment": "kritisch",
+              "tags": [
+                "arts & culture",
+                "history",
+                "light-reading",
+                "political philosophy"
+              ],
+              "alsoIn": [
+                "aaa-luchtig-top-100"
+              ]
+            },
+            {
+              "position": 93,
               "id": "01hy0x9z444qrsk7bb6acc5svn",
               "title": "Reading challenging books with kids is fun and probably useful",
               "author": "Henrik Karlsson",
@@ -7669,7 +7698,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 93,
+              "position": 94,
               "id": "01j2dfz6ypvj2efevyamk72ga3",
               "title": "🌲 Takeaways on efficiency, passive learning, & optimization",
               "author": "Eleanor Konik",
@@ -7695,7 +7724,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 94,
+              "position": 95,
               "id": "01j421m304fbn5rwfh0a9bpzp3",
               "title": "Fear as a Game",
               "author": "Cheri Lucas Rowlands",
@@ -7724,7 +7753,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 95,
+              "position": 96,
               "id": "01j6ft003zzdp1gdw7j9qc1dnr",
               "title": "🌲 The Value of Consistent Naming Conventions\n🌲 The Value of Consistent Naming Conventions",
               "author": "Eleanor Konik",
@@ -7750,7 +7779,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 96,
+              "position": 97,
               "id": "01jkgy1x7yacy66ys284ddq8yw",
               "title": "Why do most popular science books suck?",
               "author": "Erik Hoel",
@@ -7779,7 +7808,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 97,
+              "position": 98,
               "id": "01jkh2vn8hfm2b2ys7eefgrw9h",
               "title": "Advice for a friend who wants to start a blog",
               "author": "Henrik Karlsson",
@@ -7808,7 +7837,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 98,
+              "position": 99,
               "id": "01jkh2w2capy38f589kqkvyt4s",
               "title": "A funny thing about curiosity",
               "author": "Henrik Karlsson",
@@ -7834,7 +7863,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 99,
+              "position": 100,
               "id": "01jkh2yf7hahdnt87t68w0f1f5",
               "title": "On shortcuts and longcuts",
               "author": "Henrik Karlsson",
@@ -7856,32 +7885,6 @@ window.TOP_ARTICLES = {
                 "learning & meta-learning",
                 "personal growth & life philosophy",
                 "writing & essays"
-              ],
-              "alsoIn": []
-            },
-            {
-              "position": 100,
-              "id": "01jzmk1agxw641yh3b3tv2szzv",
-              "title": "Self-Directed Education: What Is It and How Does It Work?",
-              "author": "Peter Gray",
-              "siteName": "substack.com",
-              "category": "article",
-              "language": "Engels",
-              "readingTime": "9 mins",
-              "readingMinutes": 9,
-              "wordCount": 2152,
-              "publishedDate": "2025-07-07",
-              "savedDate": "2025-07-08T08:39:29.999000+00:00",
-              "imageUrl": "https://substackcdn.com/image/fetch/$s_!kx0u!,w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F3eb11939-4096-4703-8d97-490f40254bf4_1920x667.png",
-              "sourceUrl": "https://petergray.substack.com/p/self-directed-education-what-is-it?r=1r0y5d&utm_medium=ios&triedRedirect=true",
-              "readwiseUrl": "https://read.readwise.io/read/01jzmk1agxw641yh3b3tv2szzv",
-              "summary": "Self-Directed Education means learning by choosing your own activities and interests, not by following forced school rules. Children naturally learn best when they explore, play, and connect with others without pressure. This way of learning is growing because it works better and the internet makes it easier to find information and support.",
-              "whyRead": "Zelfgestuurd onderwijs — wat het is en hoe het werkt buiten traditionele structuren.",
-              "bestMoment": "leergierig",
-              "tags": [
-                "internet & platforms",
-                "learning & meta-learning",
-                "parenting & care"
               ],
               "alsoIn": []
             }
@@ -10447,6 +10450,35 @@ window.TOP_ARTICLES = {
             },
             {
               "position": 33,
+              "id": "01m14nb3gbkc1d5zt0q1rbjpsv",
+              "title": "Hoe Martin Luther King ‘I Have a Dream’ improviseerde",
+              "author": "De Ongelooflijke",
+              "siteName": "Substack",
+              "category": "email",
+              "language": null,
+              "readingTime": "7 mins",
+              "readingMinutes": 7,
+              "wordCount": 1847,
+              "publishedDate": "2026-08-28",
+              "savedDate": "2026-08-28T17:05:38.828000+00:00",
+              "imageUrl": null,
+              "sourceUrl": "mailto:reader-forwarded-email/6cb8b4a2d694108b24dead90903b5ee5",
+              "readwiseUrl": "https://read.readwise.io/read/01m14nb3gbkc1d5zt0q1rbjpsv",
+              "summary": "Het zijn misschien wel de bekendste woorden die de 20e eeuw heeft voortgebracht.",
+              "whyRead": "Nederlandstalige cultuurgeschiedenis over de wording van een iconische politieke rede, met aandacht voor retoriek en historische context.",
+              "bestMoment": "kritisch",
+              "tags": [
+                "arts & culture",
+                "history",
+                "light-reading",
+                "political philosophy"
+              ],
+              "alsoIn": [
+                "aaa-short-top-100"
+              ]
+            },
+            {
+              "position": 34,
               "id": "01j421m304fbn5rwfh0a9bpzp3",
               "title": "Fear as a Game",
               "author": "Cheri Lucas Rowlands",
@@ -10475,7 +10507,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 34,
+              "position": 35,
               "id": "01jkgy1x7yacy66ys284ddq8yw",
               "title": "Why do most popular science books suck?",
               "author": "Erik Hoel",
@@ -10504,7 +10536,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 35,
+              "position": 36,
               "id": "01jkh2vn8hfm2b2ys7eefgrw9h",
               "title": "Advice for a friend who wants to start a blog",
               "author": "Henrik Karlsson",
@@ -10533,7 +10565,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 36,
+              "position": 37,
               "id": "01k2p37kkgn4hk8dn1qxb870qd",
               "title": "How to Teach Textual Criticism To Fifth-Graders",
               "author": "nephew jonathan",
@@ -10560,7 +10592,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 37,
+              "position": 38,
               "id": "01k7j6p8a88r4t4zarr6pqya82",
               "title": "Writing as communion",
               "author": "Henrik Karlsson",
@@ -10587,7 +10619,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 38,
+              "position": 39,
               "id": "01k7qbg40qvbeqszm5nr2wpmyz",
               "title": "Dostoevsky as lover",
               "author": "Henrik Karlsson",
@@ -10614,7 +10646,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 39,
+              "position": 40,
               "id": "01k9p5pa1athkkdm2j2nxfhf26",
               "title": "A Modest Proposal for Life After Death",
               "author": "Brian Klaas",
@@ -10641,7 +10673,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 40,
+              "position": 41,
               "id": "01kc53cvnp2fqe09v8vmbym5mx",
               "title": "🎓 On Teleportation & Understanding via Writing",
               "author": "Eleanor Konik",
@@ -10668,7 +10700,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 41,
+              "position": 42,
               "id": "01kchxs5s6y615eazs4hhqgm7h",
               "title": "A list of books and essays that I love",
               "author": "Henrik Karlsson",
@@ -10695,7 +10727,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 42,
+              "position": 43,
               "id": "01kf916mwdxkdydep3wwes334d",
               "title": "Alessandro Manzoni’s “The Betrothed,” Reconsidered | The New Yorker",
               "author": "Joan Acocella",
@@ -10722,7 +10754,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 43,
+              "position": 44,
               "id": "01kj5a1mnca55881qyj3jzm64b",
               "title": "The Library of Lost Maps",
               "author": "Brian Klaas",
@@ -10749,7 +10781,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 44,
+              "position": 45,
               "id": "01kmsrjw7b8q2k5fb547bxerv2",
               "title": "The Death of Spotify: Why Streaming is Minutes Away From Being Obsolete",
               "author": "Joel Gouveia",
@@ -10776,7 +10808,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 45,
+              "position": 46,
               "id": "01kn4c4mv24kk2vjxqcn0y6efj",
               "title": "Days are enormous",
               "author": "Henrik Karlsson",
@@ -10803,7 +10835,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 46,
+              "position": 47,
               "id": "01krm5d32nfhsa44jvbq4s6nny",
               "title": "📚 Fear, War, & God: Post-Rationalist Philosophy... in SPAAAAAACE",
               "author": "Eleanor Konik",
@@ -10830,7 +10862,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 47,
+              "position": 48,
               "id": "01ksspmmztsr8pd0zq5k2pcnke",
               "title": "The Wrong Fight over AI and Writing",
               "author": "Miller’s Book Review 📚",
@@ -10856,7 +10888,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 48,
+              "position": 49,
               "id": "01kt9sbc2hgkymt9expprgkgdp",
               "title": "In de Apocalyps is de vrouw een teken van hoop",
               "author": "De Ongelooflijke",
@@ -10888,7 +10920,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 49,
+              "position": 50,
               "id": "01ktv2sxayxrqj6yzvyhjes6tf",
               "title": "Leeslijst mei 2026",
               "author": "Kauthar",
@@ -10921,7 +10953,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 50,
+              "position": 51,
               "id": "01kw5smp76n3se61jv02c1zzx9",
               "title": "Why Writing Feels So Unnatural",
               "author": "A Mug of Insights",
@@ -10948,7 +10980,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 51,
+              "position": 52,
               "id": "01kbdw3w0vrspnk8yzrfxypq51",
               "title": "The Quiet Collapse of Reading—and the Only Real Solution",
               "author": "Joel J Miller",
@@ -10975,7 +11007,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 52,
+              "position": 53,
               "id": "01m059v98jpw8wgvff3t63dxm4",
               "title": "Rudyard Kipling",
               "author": "orwellfoundation.com",
@@ -11001,7 +11033,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 53,
+              "position": 54,
               "id": "01m059vdx0s3ff8xbj5eh1y9x3",
               "title": "Some Thoughts on the Common Toad",
               "author": "orwellfoundation.com",
@@ -11027,7 +11059,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 54,
+              "position": 55,
               "id": "01m059vjndfmzkwh9sphxzfhc6",
               "title": "The Prevention of Literature",
               "author": "orwellfoundation.com",
@@ -11054,7 +11086,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 55,
+              "position": 56,
               "id": "01m059vn29v5bjn4nbhe0efecg",
               "title": "The Proletarian Writer",
               "author": "orwellfoundation.com",
@@ -11081,7 +11113,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 56,
+              "position": 57,
               "id": "01m059vqea4t02392f7364m2jr",
               "title": "The Spike",
               "author": "orwellfoundation.com",
@@ -11108,7 +11140,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 57,
+              "position": 58,
               "id": "01m05be2mdpdf3vg9xy5xr0kcz",
               "title": "The Art of Donald McGill",
               "author": "orwellfoundation.com",
@@ -11135,7 +11167,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 58,
+              "position": 59,
               "id": "01m0d55v1be0bcsmx7xczarntk",
               "title": "That’s the Deal: What Rankles You Most About AI Prose?",
               "author": "Miller’s Book Review 📚",
@@ -11161,7 +11193,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 59,
+              "position": 60,
               "id": "01m0nepgcz9yg6btdcstdnp60r",
               "title": "The Extravagant Details of Biography",
               "author": "papyrusrampant.substack.com",
@@ -11188,7 +11220,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 60,
+              "position": 61,
               "id": "01m0sqyj8vvqmt4r5dn463bak3",
               "title": "Humanists Have Done Nothing Wrong",
               "author": "Defector",
@@ -11214,7 +11246,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 61,
+              "position": 62,
               "id": "01m13bydjdttq1jnhmnt13k22z",
               "title": "Ladies of the ’80s",
               "author": "Lisa Whittington-Hill",
@@ -11241,7 +11273,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 62,
+              "position": 63,
               "id": "01j60ew3kgknk776nphjxvz9ph",
               "title": "Envy: the Vestige of a Miserable World",
               "author": "Brian Chau",
@@ -11268,7 +11300,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 63,
+              "position": 64,
               "id": "01k2p3vgyxd3egkpvn5y6r2d7n",
               "title": "Genetics and Eugenics in Frank Herbert’s Dune-verse",
               "author": "Gwern Branwen",
@@ -11295,7 +11327,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 64,
+              "position": 65,
               "id": "01k7shq7r399ekxt6pavj3t3aa",
               "title": "Could autism explain Virginia Woolf’s unique voice? Her extraordinary eye for detail and connections suggests it might",
               "author": "Aeon Magazine",
@@ -11322,7 +11354,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 65,
+              "position": 66,
               "id": "01kec58fp6ep87fc5qnf8swc20",
               "title": "Being creative requires taking risks",
               "author": "Henrik Karlsson",
@@ -11349,7 +11381,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 66,
+              "position": 67,
               "id": "01knaa433mz4v5rtkbat739xjg",
               "title": "How I learned to just fucking write",
               "author": "kieran cutting",
@@ -11376,7 +11408,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 67,
+              "position": 68,
               "id": "01ksftktanvm593t6d9871cmm4",
               "title": "This week: a long walk on a beach, and ancient Roman graffiti.",
               "author": "Tom Scott",
@@ -11403,7 +11435,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 68,
+              "position": 69,
               "id": "01kxn6sfvvpwapf12145w6x7sv",
               "title": "Essays In Support of the Null Hypothesis",
               "author": "Tommy Blanchard from Cognitive Wonderland",
@@ -11430,7 +11462,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 69,
+              "position": 70,
               "id": "01kxy1qkwpt5xkmvy06pz6bqvr",
               "title": "Technology and Barbarism",
               "author": "amazon.com",
@@ -11458,7 +11490,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 70,
+              "position": 71,
               "id": "01m07zpehf3761wmknmsknqwsa",
               "title": "How Books Can Build a World and Shape a Culture",
               "author": "Miller’s Book Review 📚",
@@ -11484,7 +11516,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 71,
+              "position": 72,
               "id": "01m10x27gxeffqvq180jqm7zpe",
               "title": "Shirley Clarke Lived Her Art to the Fullest | The New Yorker",
               "author": "Richard Brody",
@@ -11510,7 +11542,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 72,
+              "position": 73,
               "id": "01hv97p0qv2rsh6attfeq439nj",
               "title": "Working in Public",
               "author": "Awesome.",
@@ -11537,7 +11569,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 73,
+              "position": 74,
               "id": "01j6011fk1gbvn0q705v2wmmah",
               "title": "Five Unconventional Economic Systems as Imagined in SFF",
               "author": "Eleanor Konik",
@@ -11564,7 +11596,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 74,
+              "position": 75,
               "id": "01j6w5apk81pg023z5m7xd6v5b",
               "title": "Mihai Rosca's Reviews > King, Warrior, Magician, Lover: Rediscovering the Archetypes of the Mature Masculine",
               "author": "Robert L. Moore",
@@ -11591,7 +11623,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 75,
+              "position": 76,
               "id": "01k3wpv85qh52sj9ffa8rrz1bm",
               "title": "Chromatic Rebel #2: why is the West so color-minimalist?",
               "author": "María Castro Jiménez",
@@ -11618,7 +11650,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 76,
+              "position": 77,
               "id": "01k722dxfn8b3bkt741xrmf0a2",
               "title": "📚 Neat Stuff I Read in September 2025",
               "author": "Eleanor Konik",
@@ -11644,7 +11676,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 77,
+              "position": 78,
               "id": "01k7tw6vrkda5hp5070ra2wqm6",
               "title": "Five SFF Stories That Shed Light on Obscure History",
               "author": "Eleanor Konik",
@@ -11671,7 +11703,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 78,
+              "position": 79,
               "id": "01k8b4z89x7bjhpp69rbbemnet",
               "title": "Tales from Toddlerhood",
               "author": "Tim Urban",
@@ -11698,7 +11730,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 79,
+              "position": 80,
               "id": "01kaecmp565yrjt89z6qhc3ydq",
               "title": "Why Did Wealth Stop Building Beautiful Things?",
               "author": "The Culturist",
@@ -11725,7 +11757,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 80,
+              "position": 81,
               "id": "01kaen0f4sd6p0wsrv0fw7320f",
               "title": "🌲 The Best \"Gamified X\" App is a GAME",
               "author": "Eleanor Konik",
@@ -11752,7 +11784,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 81,
+              "position": 82,
               "id": "01kc53chv8ebh5cygqaf76fwt0",
               "title": "🌲 Familiarity with the Western Canon is Surprisingly Reassuring",
               "author": "Eleanor Konik",
@@ -11779,7 +11811,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 82,
+              "position": 83,
               "id": "01kcfca0wrxztgk2sqe31khzbr",
               "title": "Now Watch Me Read | The New Yorker",
               "author": "Brady Brickner-Wood",
@@ -11806,7 +11838,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 83,
+              "position": 84,
               "id": "01kqy8wyp8f7z6nqcby6ajbnm4",
               "title": "The world reveals itself to those who travel by foot",
               "author": "Henrik Karlsson",
@@ -11833,7 +11865,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 84,
+              "position": 85,
               "id": "01krnyr9cxy0rhqzt148zy5p99",
               "title": "Good conversations have lots of doorknobs",
               "author": "Adam Mastroianni",
@@ -11860,7 +11892,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 85,
+              "position": 86,
               "id": "01krqmh4tqphysje012p59hxec",
               "title": "Novels Tell Us Who We Are",
               "author": "Carl Hendrick from The Learning Dispatch",
@@ -11887,7 +11919,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 86,
+              "position": 87,
               "id": "01ks2w2tk5ar80phj3pj90bjsw",
               "title": "The Guardian's 100 Best English-Language Books and the Funny Thing about Lists",
               "author": "Jared Henderson from Commonplace Philosophy",
@@ -11914,7 +11946,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 87,
+              "position": 88,
               "id": "01ksa4rg8aaab5rf5v3x3xd1mb",
               "title": "Books I'm excited about",
               "author": "Charles Duhigg",
@@ -11941,7 +11973,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 88,
+              "position": 89,
               "id": "01ksatzj8qqdm55ebbkc4588ft",
               "title": "Short Reviews for May 2026",
               "author": "Evan Þ from Papyrus Rampant",
@@ -11968,7 +12000,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 89,
+              "position": 90,
               "id": "01ksgpayydne30egggw4npszj1",
               "title": "Annihilation – A (Very French) Biography of the \"Last Man\"",
               "author": "R.W. Richey from We Are Not Saved",
@@ -11995,7 +12027,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 90,
+              "position": 91,
               "id": "01ktejkb5739yv3ra0666qr32v",
               "title": "Poor Bastard: Henry Fielding’s Triumphant ‘Tom Jones’",
               "author": "Miller’s Book Review 📚",
@@ -12023,7 +12055,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 91,
+              "position": 92,
               "id": "01kvamre3nhre408596w2e8d3s",
               "title": "Candice Millard and the Revival of History as Literature",
               "author": "Miller’s Book Review 📚",
@@ -12049,7 +12081,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 92,
+              "position": 93,
               "id": "01kvwytrrghvckwz0stdxe2mgw",
               "title": "Week 15, 16, 17, 18: Zuid-Holland",
               "author": "Holly en Roos",
@@ -12076,7 +12108,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 93,
+              "position": 94,
               "id": "01kw4djwahhwy93y8hrkg48wmd",
               "title": "Literature: The Ultimate Answer to the Algorithm",
               "author": "Miller’s Book Review 📚",
@@ -12103,7 +12135,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 94,
+              "position": 95,
               "id": "01kw4zh122v8djscsxaaq42ke7",
               "title": "My Hugo Ballot 2: Best Novel & others",
               "author": "Evan Þ from Papyrus Rampant",
@@ -12130,7 +12162,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 95,
+              "position": 96,
               "id": "01kw9qrshp1ne8jsbwy0wqv2z6",
               "title": "How To Add Texture To Your Non-Fiction Writing",
               "author": "A Mug of Insights",
@@ -12157,7 +12189,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 96,
+              "position": 97,
               "id": "01kwpkn77cd2c8e0g3rppkq0q2",
               "title": "Fake World: Everything You Think Is a Lie",
               "author": "Miller’s Book Review 📚",
@@ -12184,7 +12216,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 97,
+              "position": 98,
               "id": "01kwreqfypckk54fws5c65whwp",
               "title": "Niemand wil het, toch doen we het allemaal",
               "author": "Jona van Loenen",
@@ -12216,7 +12248,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 98,
+              "position": 99,
               "id": "01kwvx3a3qze1p5e1yj36ejr6w",
               "title": "\"Everything, today, is to some extent the reflection of something else\"",
               "author": "Jared Henderson from Commonplace Philosophy",
@@ -12242,7 +12274,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 99,
+              "position": 100,
               "id": "01kwvzcp697n18jy871bj3rj77",
               "title": "This week: bells! Plus a clever word game and a cursed font.",
               "author": "Tom Scott",
@@ -12265,33 +12297,6 @@ window.TOP_ARTICLES = {
                 "light-reading",
                 "science",
                 "technology"
-              ],
-              "alsoIn": []
-            },
-            {
-              "position": 100,
-              "id": "01kx8dy64p4xqjvp7asc8v98jk",
-              "title": "Best Way to See the Renaissance? Get the Panoramic View",
-              "author": "Miller’s Book Review 📚",
-              "siteName": "Substack",
-              "category": "email",
-              "language": "Engels",
-              "readingTime": "7 mins",
-              "readingMinutes": 7,
-              "wordCount": 1756,
-              "publishedDate": "2026-07-11",
-              "savedDate": "2026-07-11T11:10:25.943000+00:00",
-              "imageUrl": null,
-              "sourceUrl": "mailto:reader-forwarded-email/af55efe035245658f38a28263962926a",
-              "readwiseUrl": "https://read.readwise.io/read/01kx8dy64p4xqjvp7asc8v98jk",
-              "summary": "Historians can ply their trade countless ways, depending on their sources, interests, and audience.",
-              "whyRead": "Raakt je interesse in cultuurgeschiedenis: een panoramische kijk op de Renaissance kan helpen om kunst, politiek, religie en kennisontwikkeling als systeem te zien. De meerwaarde zit in overzicht boven losse biografieen.",
-              "bestMoment": "ontspannen",
-              "tags": [
-                "arts & culture",
-                "history",
-                "later",
-                "light-reading"
               ],
               "alsoIn": []
             }
@@ -15766,6 +15771,31 @@ window.TOP_ARTICLES = {
             },
             {
               "position": 90,
+              "id": "01m161v3y3h5rmk6eev2qvkbkq",
+              "title": "Scrum and Micro-Retrospectives",
+              "author": "Dwight Kingdon",
+              "siteName": "Agile Alliance |",
+              "category": "article",
+              "language": null,
+              "readingTime": "3 mins",
+              "readingMinutes": 3,
+              "wordCount": 627,
+              "publishedDate": "2020-02-05",
+              "savedDate": "2026-08-29T06:03:20.899000+00:00",
+              "imageUrl": "https://agilealliance.org/wp-content/uploads/2020/02/scrum-micro-retrospectives.jpg",
+              "sourceUrl": "https://agilealliance.org/scrum-and-micro-retrospectives/",
+              "readwiseUrl": "https://read.readwise.io/read/01m161v3y3h5rmk6eev2qvkbkq",
+              "summary": "Dwight Kingdon explains why continual improvement can only be attained when we pause to reflect on what’s working well, what’s not working well, and make conscious decisions to adjust our practices. ",
+              "whyRead": "Raakt je professionele interesse in scrum en agile werken: een klein, direct toepasbaar patroon om verbeterideeën niet tot de formele retrospective te laten wachten.",
+              "bestMoment": "leergierig",
+              "tags": [
+                "agile",
+                "scrum"
+              ],
+              "alsoIn": []
+            },
+            {
+              "position": 91,
               "id": "01m0kztgwcc1d43t3sdahzhg08",
               "title": "Can a Scrum Master Transition to a Delivery Manager? Here's the Truth",
               "author": "Scrum Facilitators",
@@ -15793,7 +15823,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 91,
+              "position": 92,
               "id": "01m0kztthka4bcp3a2mfxww828",
               "title": "Are Scrum Masters in DANGER? 5 Ways to Prove Your Value!",
               "author": "Scrum Facilitators",
@@ -15821,7 +15851,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 92,
+              "position": 93,
               "id": "01m0kzv38gdmh51b4kzqg40mw9",
               "title": "Are You OVERLOOKING These Critical Scrum Master Practices?",
               "author": "Scrum Facilitators",
@@ -15849,7 +15879,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 93,
+              "position": 94,
               "id": "01m0kzvbj6t6crzagc9kw1n43f",
               "title": "3 Game-Changing Lessons I Wish I Knew Earlier as a #ScrumMaster",
               "author": "Scrum Facilitators",
@@ -15877,7 +15907,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 94,
+              "position": 95,
               "id": "01m0kzvhp90e4w4ycfaqv26f31",
               "title": "5 Scrum Master Mistakes You MUST Avoid!",
               "author": "Scrum Facilitators",
@@ -15905,7 +15935,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 95,
+              "position": 96,
               "id": "01m0kzwkwp6cjx5m2jn5stztex",
               "title": "Scrum 101 Series - Episode 8 - Sprint Retrospective",
               "author": "Scrum Facilitators",
@@ -15933,7 +15963,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 96,
+              "position": 97,
               "id": "01m0kzws6tp6edn1k4t1dmr1rq",
               "title": "Scrum 101 Series - Episode 2 - Product Owner",
               "author": "Scrum Facilitators",
@@ -15959,7 +15989,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 97,
+              "position": 98,
               "id": "01m0kzx60n6y7mjy1342dw0ynp",
               "title": "Scrum 101 Series - Episode 3 - Scrum Master",
               "author": "Scrum Facilitators",
@@ -16279,6 +16309,7 @@ window.TOP_ARTICLES = {
               "whyRead": "Raakt je interesse in politieke filosofie en geschiedenis; Thoreau's essay is het fundament van het moderne concept van geweldloze burgerlijke ongehoorzaamheid, invloedrijk op Gandhi en Martin Luther King.",
               "bestMoment": "analytisch",
               "tags": [
+                "boek-top-10",
                 "current affairs & politics",
                 "history",
                 "political philosophy"
@@ -16573,6 +16604,7 @@ window.TOP_ARTICLES = {
               "whyRead": "Raakt je interesse in politieke filosofie en geschiedenis; Thoreau's essay is het fundament van het moderne concept van geweldloze burgerlijke ongehoorzaamheid, invloedrijk op Gandhi en Martin Luther King.",
               "bestMoment": "analytisch",
               "tags": [
+                "boek-top-10",
                 "current affairs & politics",
                 "history",
                 "political philosophy"
@@ -17071,7 +17103,6 @@ window.TOP_ARTICLES = {
               "tags": [
                 "agile",
                 "behavioral psychology & coaching",
-                "boek-top-10",
                 "professional development"
               ],
               "alsoIn": []
@@ -20298,6 +20329,322 @@ window.TOP_ARTICLES = {
     "items": [
       {
         "position": null,
+        "id": "01m161v3y3h5rmk6eev2qvkbkq",
+        "title": "Scrum and Micro-Retrospectives",
+        "author": "Dwight Kingdon",
+        "siteName": "Agile Alliance |",
+        "category": "article",
+        "language": null,
+        "readingTime": "3 mins",
+        "readingMinutes": 3,
+        "wordCount": 627,
+        "publishedDate": "2020-02-05",
+        "savedDate": "2026-08-29T06:03:20.899000+00:00",
+        "imageUrl": "https://agilealliance.org/wp-content/uploads/2020/02/scrum-micro-retrospectives.jpg",
+        "sourceUrl": "https://agilealliance.org/scrum-and-micro-retrospectives/",
+        "readwiseUrl": "https://read.readwise.io/read/01m161v3y3h5rmk6eev2qvkbkq",
+        "summary": "Dwight Kingdon explains why continual improvement can only be attained when we pause to reflect on what’s working well, what’s not working well, and make conscious decisions to adjust our practices. ",
+        "whyRead": "Raakt je professionele interesse in scrum en agile werken: een klein, direct toepasbaar patroon om verbeterideeën niet tot de formele retrospective te laten wachten.",
+        "bestMoment": "leergierig",
+        "tags": [
+          "agile",
+          "scrum"
+        ],
+        "alsoIn": [
+          "aaa-scrum-top-100"
+        ],
+        "memberships": [
+          {
+            "familyId": "scrum",
+            "size": "top-100",
+            "position": 90
+          }
+        ]
+      },
+      {
+        "position": null,
+        "id": "01m160hktxxz3qzhj37gbkf4f6",
+        "title": "Evidence is the antidote in education",
+        "author": "Holly Korbey",
+        "siteName": "substack.com",
+        "category": "article",
+        "language": null,
+        "readingTime": "8 mins",
+        "readingMinutes": 8,
+        "wordCount": 1958,
+        "publishedDate": "2026-08-28",
+        "savedDate": "2026-08-29T05:40:40.861000+00:00",
+        "imageUrl": "https://substackcdn.com/image/fetch/$s_!iCSP!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd5f876f5-d37d-4818-8765-8fcf3a60f2f6_1080x1080.png",
+        "sourceUrl": "https://hollykorbey.substack.com/p/evidence-is-the-antidote-in-education",
+        "readwiseUrl": "https://read.readwise.io/read/01m160hktxxz3qzhj37gbkf4f6",
+        "summary": "How to break society’s fantasies of what learning is like and help more kids",
+        "whyRead": "Raakt je interesse in leren en meta-learning: dit essay laat zien hoe onderwijs kan ontsnappen aan intuïtie en smaak door bewijs over leren toegankelijk te maken.",
+        "bestMoment": "leergierig",
+        "tags": [
+          "learning & meta-learning",
+          "science"
+        ],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01m14qn510bcts8506rj1s6tma",
+        "title": "The 3 Bad Types of Humanities Professor",
+        "author": "Ted Gioia",
+        "siteName": "Substack",
+        "category": "email",
+        "language": null,
+        "readingTime": "5 mins",
+        "readingMinutes": 5,
+        "wordCount": 1137,
+        "publishedDate": "2026-08-28",
+        "savedDate": "2026-08-28T17:46:05.217000+00:00",
+        "imageUrl": null,
+        "sourceUrl": "mailto:reader-forwarded-email/5e9a95ec55aefc3ae137c1a5288bf101",
+        "readwiseUrl": "https://read.readwise.io/read/01m14qn510bcts8506rj1s6tma",
+        "summary": "I was young and raw, but passionate about arts and humanities. I possessed the fervor of a cult member recruiting newbies at the Greyhound bus station.",
+        "whyRead": "Raakt je interesse in cultuur en essayistische kritiek op onderwijs: Gioia verbindt leeservaring, canon en de rol van de docent met veel stijl.",
+        "bestMoment": "kritisch",
+        "tags": [
+          "arts & culture",
+          "light-reading",
+          "professional development"
+        ],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01m14q0dqdt94p1jsne1xgde8s",
+        "title": "Your Book Review: Thomas Urquhart’s Translation Of Rabelais",
+        "author": "Astral Codex Ten",
+        "siteName": "Substack",
+        "category": "email",
+        "language": null,
+        "readingTime": "18 mins",
+        "readingMinutes": 18,
+        "wordCount": 4653,
+        "publishedDate": "2026-08-28",
+        "savedDate": "2026-08-28T17:34:45.997000+00:00",
+        "imageUrl": null,
+        "sourceUrl": "mailto:reader-forwarded-email/5eb69a0ec0abb347d937282623f89bcf",
+        "readwiseUrl": "https://read.readwise.io/read/01m14q0dqdt94p1jsne1xgde8s",
+        "summary": "[This is one of the finalists in the 2026 book review contest, written by an ACX reader who will remain anonymous until after voting is done.",
+        "whyRead": "Raakt je interesse in cultuurgeschiedenis en literatuur; dit is een speels, diepgravend portret van een excentrieke vertaler en zijn taalplezier.",
+        "bestMoment": "ontspannen",
+        "tags": [
+          "arts & culture",
+          "fiction",
+          "history",
+          "light-reading"
+        ],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01m14pd8nh6rpczn30dfw08615",
+        "title": "Despite decades of inaction we can avert the climate Hellocene and restore the atmosphere to keep our world habitable",
+        "author": "Rob Jackson",
+        "siteName": "Aeon",
+        "category": "article",
+        "language": null,
+        "readingTime": "14 mins",
+        "readingMinutes": 14,
+        "wordCount": 3698,
+        "publishedDate": "2025-01-14",
+        "savedDate": "2026-08-28T17:24:17.998000+00:00",
+        "imageUrl": "https://images.aeonmedia.co/images/df248a60-4ae2-4496-aaaf-259c3d5c1da1/v4-rtx5gnk5.jpg?width=1200&quality=75&format=auto",
+        "sourceUrl": "https://aeon.co/essays/we-can-still-get-out-of-the-climate-hellocene-and-into-the-clear?utm_source=Aeon+Newsletter&utm_campaign=a148c00145-EMAIL_CAMPAIGN_2026_07_24_COPY_01&utm_medium=email&utm_term=0_-49ad69cbc2-838236001",
+        "readwiseUrl": "https://read.readwise.io/read/01m14pd8nh6rpczn30dfw08615",
+        "summary": "Despite decades of inaction we can avert the climate Hellocene and restore the atmosphere to keep our world habitable",
+        "whyRead": "Een urgent maar inhoudelijk klimaatessay dat ecologie, ongelijkheid en concrete systeemkeuzes samenbrengt.",
+        "bestMoment": "kritisch",
+        "tags": [
+          "environment & sustainability",
+          "science"
+        ],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01m14pczjd0j89j8fvw2tmwbnj",
+        "title": "Where did the grandeur go?",
+        "author": "Martin Parker",
+        "siteName": "Aeon",
+        "category": "article",
+        "language": null,
+        "readingTime": "13 mins",
+        "readingMinutes": 13,
+        "wordCount": 3362,
+        "publishedDate": null,
+        "savedDate": "2026-08-28T17:24:08.655000+00:00",
+        "imageUrl": "https://nu.aeon.co/images/6f0cfa95-fa3f-4a4a-8413-adecb92621bd/header_v1-essay-s69-17487.jpg",
+        "sourceUrl": "https://aeon.co/essays/superlative-projects-are-made-possible-by-great-collective-efforts?utm_source=Aeon+Newsletter&utm_campaign=a148c00145-EMAIL_CAMPAIGN_2026_07_24_COPY_01&utm_medium=email&utm_term=0_-49ad69cbc2-838236001",
+        "readwiseUrl": "https://read.readwise.io/read/01m14pczjd0j89j8fvw2tmwbnj",
+        "summary": "Superlative things were done in the past century by marshalling thousands of people in the service of a vision of the future",
+        "whyRead": "Raakt je werkinteresse in organiseren én je belangstelling voor maatschappij en toekomstbeelden; het essay vraagt hoe collectieve ambitie weer mogelijk wordt.",
+        "bestMoment": "geconcentreerd",
+        "tags": [
+          "environment & sustainability",
+          "professional development",
+          "sociology & social structures"
+        ],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01m14pbyc1cray6t9smdremqw3",
+        "title": "The vision of solarpunk: joining nature with technology in vibrantly inclusive ways to create a world that truly blooms",
+        "author": "Aeon",
+        "siteName": "Aeon",
+        "category": "article",
+        "language": null,
+        "readingTime": "14 mins",
+        "readingMinutes": 14,
+        "wordCount": 3479,
+        "publishedDate": "2026-02-10",
+        "savedDate": "2026-08-28T17:23:34.730000+00:00",
+        "imageUrl": "https://images.aeonmedia.co/images/bd08867b-48fa-4890-b90a-3fc2fc184d5b/imperial-boy-essay-v2.jpg?width=1200&quality=75&format=jpg",
+        "sourceUrl": "https://aeon.co/essays/in-solarpunk-cities-of-the-future-tech-follows-natures-lead?utm_source=Aeon+Newsletter&utm_campaign=a148c00145-EMAIL_CAMPAIGN_2026_07_24_COPY_01&utm_medium=email&utm_term=0_-49ad69cbc2-838236001",
+        "readwiseUrl": "https://read.readwise.io/read/01m14pbyc1cray6t9smdremqw3",
+        "summary": "The vision of solarpunk: joining nature with technology in vibrantly inclusive ways to create a world that truly blooms",
+        "whyRead": "Een rijke verkenning van solarpunk op het snijvlak van sciencefiction, ecologie, steden en politieke verbeelding.",
+        "bestMoment": "geïnspireerd",
+        "tags": [
+          "arts & culture",
+          "environment & sustainability",
+          "fiction",
+          "light-reading"
+        ],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01m14pbksf87sa192vb2v97mq6",
+        "title": "They have big brains, long childhoods and sociable, curious minds. So why haven’t birds developed complex culture?",
+        "author": "Antone Martinho-Truswell",
+        "siteName": "Aeon",
+        "category": "article",
+        "language": null,
+        "readingTime": "16 mins",
+        "readingMinutes": 16,
+        "wordCount": 4173,
+        "publishedDate": "2025-06-17",
+        "savedDate": "2026-08-28T17:23:23.868000+00:00",
+        "imageUrl": "https://images.aeonmedia.co/images/6ff84612-5a30-433f-a8c3-bb2f1ce47620/essay-200901072106-16-wildlife-photographer-of-the-year.jpg?width=1200&quality=75&format=auto",
+        "sourceUrl": "https://aeon.co/essays/why-birds-dont-buy-bentleys-and-we-humans-will-never-fly?utm_source=Aeon+Newsletter&utm_campaign=a148c00145-EMAIL_CAMPAIGN_2026_07_24_COPY_01&utm_medium=email&utm_term=0_-49ad69cbc2-838236001",
+        "readwiseUrl": "https://read.readwise.io/read/01m14pbksf87sa192vb2v97mq6",
+        "summary": "They have big brains, long childhoods and sociable, curious minds. So why haven’t birds developed complex culture?",
+        "whyRead": "Toegankelijke wetenschap over cultuur en cognitie die je nieuwsgierigheid naar evolutie, sociale structuren en menselijk gedrag voedt.",
+        "bestMoment": "leergierig",
+        "tags": [
+          "science",
+          "sociology & social structures"
+        ],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01m14pbbmxhsc70eww3j37crnq",
+        "title": "Natural-born existentialists",
+        "author": "Ronnie de Sousa",
+        "siteName": "Aeon",
+        "category": "article",
+        "language": null,
+        "readingTime": "15 mins",
+        "readingMinutes": 15,
+        "wordCount": 3844,
+        "publishedDate": null,
+        "savedDate": "2026-08-28T17:23:15.538000+00:00",
+        "imageUrl": "https://alpha.aeon.co/images/38603069-71ed-4a67-9008-fd9c9d5e2866/header_essay-nyc132951.jpg",
+        "sourceUrl": "https://aeon.co/essays/how-evolutionary-biology-makes-everyone-an-existentialist?utm_source=Aeon+Newsletter&utm_campaign=a148c00145-EMAIL_CAMPAIGN_2026_07_24_COPY_01&utm_medium=email&utm_term=0_-49ad69cbc2-838236001",
+        "readwiseUrl": "https://read.readwise.io/read/01m14pbbmxhsc70eww3j37crnq",
+        "summary": "Ethics cannot be based on human nature because, as evolutionary biology tells us, there is no such thing",
+        "whyRead": "Raakt je filosofische interesse met een heldere confrontatie tussen evolutie, existentialisme en de vraag wat ‘natuurlijk’ eigenlijk betekent.",
+        "bestMoment": "analytisch",
+        "tags": [
+          "philosophy",
+          "science"
+        ],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01m14pb4h7ghqhagfgb09bckxd",
+        "title": "Nietzsche shows us how to embrace our connection with nature – without denying its essential conflict, strife and suffering",
+        "author": "Aeon Magazine",
+        "siteName": "Aeon",
+        "category": "article",
+        "language": null,
+        "readingTime": "16 mins",
+        "readingMinutes": 16,
+        "wordCount": 4171,
+        "publishedDate": "2025-07-25",
+        "savedDate": "2026-08-28T17:23:08.235000+00:00",
+        "imageUrl": "https://images.aeonmedia.co/images/306608d2-2d7b-48e8-a161-69258c863a07/essay-pjx9g1.jpg?width=1200&quality=75&format=auto",
+        "sourceUrl": "https://aeon.co/essays/nietzsches-startling-provocation-youre-edible-and-delicious?utm_source=Aeon+Newsletter&utm_campaign=a148c00145-EMAIL_CAMPAIGN_2026_07_24_COPY_01&utm_medium=email&utm_term=0_-49ad69cbc2-838236001",
+        "readwiseUrl": "https://read.readwise.io/read/01m14pb4h7ghqhagfgb09bckxd",
+        "summary": "Nietzsche shows us how to embrace our connection with nature – without denying its essential conflict, strife and suffering",
+        "whyRead": "Een ongewoon Nietzsche-essay dat ecologische verwevenheid, kwetsbaarheid en menselijke uitzonderingsdrang scherp met elkaar verbindt.",
+        "bestMoment": "analytisch",
+        "tags": [
+          "environment & sustainability",
+          "philosophy"
+        ],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01m14nb3gbkc1d5zt0q1rbjpsv",
+        "title": "Hoe Martin Luther King ‘I Have a Dream’ improviseerde",
+        "author": "De Ongelooflijke",
+        "siteName": "Substack",
+        "category": "email",
+        "language": null,
+        "readingTime": "7 mins",
+        "readingMinutes": 7,
+        "wordCount": 1847,
+        "publishedDate": "2026-08-28",
+        "savedDate": "2026-08-28T17:05:38.828000+00:00",
+        "imageUrl": null,
+        "sourceUrl": "mailto:reader-forwarded-email/6cb8b4a2d694108b24dead90903b5ee5",
+        "readwiseUrl": "https://read.readwise.io/read/01m14nb3gbkc1d5zt0q1rbjpsv",
+        "summary": "Het zijn misschien wel de bekendste woorden die de 20e eeuw heeft voortgebracht.",
+        "whyRead": "Nederlandstalige cultuurgeschiedenis over de wording van een iconische politieke rede, met aandacht voor retoriek en historische context.",
+        "bestMoment": "kritisch",
+        "tags": [
+          "arts & culture",
+          "history",
+          "light-reading",
+          "political philosophy"
+        ],
+        "alsoIn": [
+          "aaa-short-top-100",
+          "aaa-luchtig-top-100"
+        ],
+        "memberships": [
+          {
+            "familyId": "kort",
+            "size": "top-100",
+            "position": 92
+          },
+          {
+            "familyId": "luchtig",
+            "size": "top-100",
+            "position": 33
+          }
+        ]
+      },
+      {
+        "position": null,
         "id": "01m14b59vrnen78wazwke624cs",
         "title": "Coachen van agile Teams",
         "author": "Lyssa Adkins",
@@ -20318,7 +20665,6 @@ window.TOP_ARTICLES = {
         "tags": [
           "agile",
           "behavioral psychology & coaching",
-          "boek-top-10",
           "professional development"
         ],
         "alsoIn": [
@@ -20837,7 +21183,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 61
+            "position": 62
           }
         ]
       },
@@ -21200,7 +21546,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 71
+            "position": 72
           }
         ]
       },
@@ -21872,7 +22218,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 60
+            "position": 61
           }
         ]
       },
@@ -23201,7 +23547,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 59
+            "position": 60
           }
         ]
       },
@@ -23621,7 +23967,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 97
+            "position": 98
           },
           {
             "familyId": "videos",
@@ -23660,7 +24006,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 96
+            "position": 97
           },
           {
             "familyId": "videos",
@@ -23701,7 +24047,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 95
+            "position": 96
           },
           {
             "familyId": "videos",
@@ -23747,7 +24093,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 94
+            "position": 95
           },
           {
             "familyId": "videos",
@@ -23793,7 +24139,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 93
+            "position": 94
           },
           {
             "familyId": "videos",
@@ -23839,7 +24185,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 92
+            "position": 93
           },
           {
             "familyId": "videos",
@@ -23885,7 +24231,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 91
+            "position": 92
           },
           {
             "familyId": "videos",
@@ -23931,7 +24277,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 90
+            "position": 91
           },
           {
             "familyId": "videos",
@@ -25671,7 +26017,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 58
+            "position": 59
           }
         ]
       },
@@ -26517,7 +26863,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 70
+            "position": 71
           }
         ]
       },
@@ -26867,7 +27213,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 57
+            "position": 58
           }
         ]
       },
@@ -26964,7 +27310,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 56
+            "position": 57
           }
         ]
       },
@@ -27000,7 +27346,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 55
+            "position": 56
           }
         ]
       },
@@ -27036,7 +27382,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 54
+            "position": 55
           }
         ]
       },
@@ -27098,7 +27444,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 53
+            "position": 54
           }
         ]
       },
@@ -27167,7 +27513,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 52
+            "position": 53
           }
         ]
       },
@@ -32467,7 +32813,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 69
+            "position": 70
           }
         ]
       },
@@ -32784,7 +33130,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 68
+            "position": 69
           }
         ]
       },
@@ -33318,16 +33664,8 @@ window.TOP_ARTICLES = {
           "later",
           "light-reading"
         ],
-        "alsoIn": [
-          "aaa-luchtig-top-100"
-        ],
-        "memberships": [
-          {
-            "familyId": "luchtig",
-            "size": "top-100",
-            "position": 100
-          }
-        ]
+        "alsoIn": [],
+        "memberships": []
       },
       {
         "position": null,
@@ -33544,7 +33882,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 99
+            "position": 100
           }
         ]
       },
@@ -33579,7 +33917,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 98
+            "position": 99
           }
         ]
       },
@@ -33656,7 +33994,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 97
+            "position": 98
           },
           {
             "familyId": "luchtig-nederlands",
@@ -33729,7 +34067,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 96
+            "position": 97
           }
         ]
       },
@@ -35703,7 +36041,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 95
+            "position": 96
           }
         ]
       },
@@ -35768,7 +36106,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 50
+            "position": 51
           }
         ]
       },
@@ -35804,7 +36142,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 94
+            "position": 95
           }
         ]
       },
@@ -35840,7 +36178,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 93
+            "position": 94
           }
         ]
       },
@@ -36011,7 +36349,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 92
+            "position": 93
           }
         ]
       },
@@ -36935,7 +37273,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 91
+            "position": 92
           }
         ]
       },
@@ -37258,7 +37596,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 49
+            "position": 50
           },
           {
             "familyId": "luchtig-nederlands",
@@ -37544,7 +37882,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 90
+            "position": 91
           }
         ]
       },
@@ -37795,7 +38133,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 48
+            "position": 49
           },
           {
             "familyId": "luchtig-nederlands",
@@ -38366,7 +38704,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 47
+            "position": 48
           }
         ]
       },
@@ -38690,7 +39028,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 89
+            "position": 90
           }
         ]
       },
@@ -38753,7 +39091,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 67
+            "position": 68
           }
         ]
       },
@@ -38951,7 +39289,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 88
+            "position": 89
           }
         ]
       },
@@ -39015,7 +39353,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 87
+            "position": 88
           }
         ]
       },
@@ -39279,7 +39617,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 86
+            "position": 87
           }
         ]
       },
@@ -39786,7 +40124,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 85
+            "position": 86
           }
         ]
       },
@@ -39884,7 +40222,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 84
+            "position": 85
           }
         ]
       },
@@ -40189,7 +40527,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 46
+            "position": 47
           }
         ]
       },
@@ -40598,7 +40936,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 83
+            "position": 84
           }
         ]
       },
@@ -41407,7 +41745,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 66
+            "position": 67
           }
         ]
       },
@@ -41443,7 +41781,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 45
+            "position": 46
           }
         ]
       },
@@ -41520,7 +41858,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 44
+            "position": 45
           }
         ]
       },
@@ -42388,7 +42726,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 43
+            "position": 44
           }
         ]
       },
@@ -43047,7 +43385,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 42
+            "position": 43
           }
         ]
       },
@@ -43290,7 +43628,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 65
+            "position": 66
           }
         ]
       },
@@ -43870,7 +44208,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 41
+            "position": 42
           }
         ]
       },
@@ -43974,7 +44312,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 82
+            "position": 83
           }
         ]
       },
@@ -44077,7 +44415,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 40
+            "position": 41
           }
         ]
       },
@@ -44113,7 +44451,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 81
+            "position": 82
           }
         ]
       },
@@ -44311,7 +44649,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 51
+            "position": 52
           }
         ]
       },
@@ -44496,7 +44834,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 80
+            "position": 81
           }
         ]
       },
@@ -44532,7 +44870,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 79
+            "position": 80
           }
         ]
       },
@@ -44762,7 +45100,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 39
+            "position": 40
           }
         ]
       },
@@ -45071,7 +45409,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 78
+            "position": 79
           }
         ]
       },
@@ -45336,7 +45674,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 77
+            "position": 78
           }
         ]
       },
@@ -45372,7 +45710,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 64
+            "position": 65
           }
         ]
       },
@@ -45558,7 +45896,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 38
+            "position": 39
           }
         ]
       },
@@ -45972,7 +46310,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 37
+            "position": 38
           }
         ]
       },
@@ -46498,7 +46836,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 76
+            "position": 77
           }
         ]
       },
@@ -47011,7 +47349,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 75
+            "position": 76
           }
         ]
       },
@@ -47157,7 +47495,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 63
+            "position": 64
           }
         ]
       },
@@ -47228,7 +47566,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 36
+            "position": 37
           }
         ]
       },
@@ -47528,16 +47866,8 @@ window.TOP_ARTICLES = {
           "learning & meta-learning",
           "parenting & care"
         ],
-        "alsoIn": [
-          "aaa-short-top-100"
-        ],
-        "memberships": [
-          {
-            "familyId": "kort",
-            "size": "top-100",
-            "position": 100
-          }
-        ]
+        "alsoIn": [],
+        "memberships": []
       },
       {
         "position": null,
@@ -47854,7 +48184,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 99
+            "position": 100
           }
         ]
       },
@@ -47978,7 +48308,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 98
+            "position": 99
           }
         ]
       },
@@ -48015,12 +48345,12 @@ window.TOP_ARTICLES = {
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 97
+            "position": 98
           },
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 35
+            "position": 36
           }
         ]
       },
@@ -48057,12 +48387,12 @@ window.TOP_ARTICLES = {
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 96
+            "position": 97
           },
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 34
+            "position": 35
           }
         ]
       },
@@ -48416,7 +48746,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 74
+            "position": 75
           }
         ]
       },
@@ -48485,7 +48815,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 95
+            "position": 96
           }
         ]
       },
@@ -48596,7 +48926,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 62
+            "position": 63
           }
         ]
       },
@@ -48632,7 +48962,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 73
+            "position": 74
           }
         ]
       },
@@ -48885,12 +49215,12 @@ window.TOP_ARTICLES = {
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 94
+            "position": 95
           },
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 33
+            "position": 34
           }
         ]
       },
@@ -49210,7 +49540,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 93
+            "position": 94
           }
         ]
       },
@@ -50215,6 +50545,7 @@ window.TOP_ARTICLES = {
         "whyRead": "Raakt je interesse in politieke filosofie en geschiedenis; Thoreau's essay is het fundament van het moderne concept van geweldloze burgerlijke ongehoorzaamheid, invloedrijk op Gandhi en Martin Luther King.",
         "bestMoment": "analytisch",
         "tags": [
+          "boek-top-10",
           "current affairs & politics",
           "history",
           "political philosophy"
@@ -50599,7 +50930,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 92
+            "position": 93
           }
         ]
       },
@@ -50635,7 +50966,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 72
+            "position": 73
           }
         ]
       }
