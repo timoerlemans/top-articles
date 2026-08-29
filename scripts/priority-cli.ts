@@ -74,7 +74,7 @@ async function fetchLocation(location: Location): Promise<ReadwiseDocument[]> {
 
 async function fetchLibrary({ cleanupAll = false }: { cleanupAll?: boolean } = {}): Promise<{ later: ReadwiseDocument[]; outside: ReadwiseDocument[] }> {
   const byLocation: Partial<Record<Location, ReadwiseDocument[]>> = {};
-  const locations: readonly Location[] = cleanupAll ? LOCATIONS : ["later"];
+  const locations: readonly Location[] = cleanupAll ? LOCATIONS : ["later", "archive"];
   for (const location of locations) {
     byLocation[location] = await fetchLocation(location);
   }
