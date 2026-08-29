@@ -1,6 +1,6 @@
 // Automatisch gegenereerd door scripts/build-data.ts — niet handmatig bewerken.
 window.TOP_ARTICLES = {
-  "generatedAt": "2026-08-29T06:22:46.339Z",
+  "generatedAt": "2026-08-29T10:53:42.093Z",
   "families": [
     {
       "id": "algemeen",
@@ -1957,6 +1957,32 @@ window.TOP_ARTICLES = {
             },
             {
               "position": 60,
+              "id": "01m161vztc9cvdz681k9e0xy49",
+              "title": "The radical reasons why you dream of making things by hand | Aeon Essays",
+              "author": "aeon.co",
+              "siteName": "Aeon",
+              "category": "article",
+              "language": null,
+              "readingTime": "18 mins",
+              "readingMinutes": 18,
+              "wordCount": 4601,
+              "publishedDate": null,
+              "savedDate": "2026-08-29T06:03:49.452000+00:00",
+              "imageUrl": "https://images.aeonmedia.co/images/320f9f78-678b-476d-be7e-9d977b7e6ead/essay-gettyimages-1142223181.jpg?width=1200&quality=75&format=jpg",
+              "sourceUrl": "https://aeon.co/essays/the-radical-reasons-why-you-dream-of-making-things-by-hand",
+              "readwiseUrl": "https://read.readwise.io/read/01m161vztc9cvdz681k9e0xy49",
+              "summary": "In the 18th century, the streets of East London were filled with flowers. Fuchsias, auriculas and star-of-Bethlehem grew from the window boxes of tall terraced houses.",
+              "whyRead": "Raakt je interesse in filosofie, maatschappelijke structuren en AI-ethiek: dit essay maakt van het verlangen naar ambacht een politieke vraag over waardig, menselijk werk. Het helpt je onderscheid maken tussen toekomstgerichte kritiek op automatisering en reactionair terugverlangen.",
+              "bestMoment": "analytisch",
+              "tags": [
+                "ai ethics & society",
+                "philosophy",
+                "sociology & social structures"
+              ],
+              "alsoIn": []
+            },
+            {
+              "position": 61,
               "id": "01j60f108dfd1k8q12ah4cmp16",
               "title": "Hunting",
               "author": "Eleanor Konik",
@@ -1984,7 +2010,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 61,
+              "position": 62,
               "id": "01j8s9z9xg4shgce5z167zc7fn",
               "title": "📰 Food as Currency - by Eleanor Konik - Manuscriptions\n📰 Food as Currency",
               "author": "Eleanor Konik",
@@ -2012,7 +2038,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 62,
+              "position": 63,
               "id": "01jjmt3derk62gvm51m286870b",
               "title": "🎓 On Famines: why and how they happen. To who?",
               "author": "Eleanor Konik",
@@ -2040,7 +2066,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 63,
+              "position": 64,
               "id": "01jjxdnzz04ees7fytca2rnntw",
               "title": "🎓 Maritime Empires",
               "author": "Eleanor Konik",
@@ -2067,7 +2093,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 64,
+              "position": 65,
               "id": "01k1mhw46shwzk87214g7gtc9w",
               "title": "Het begin van een oplossing",
               "author": "Kees Verhoeven",
@@ -2098,7 +2124,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 65,
+              "position": 66,
               "id": "01k2p3a6277wff8a1nvfes1ek4",
               "title": "How to Be a Good Intelligence Analyst - by Santi Ruiz",
               "author": "Santi Ruiz",
@@ -2124,7 +2150,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 66,
+              "position": 67,
               "id": "01k3wpn5ak9v4pmtc85h462cav",
               "title": "On the pleasure of reading private notebooks",
               "author": "Henrik Karlsson",
@@ -2154,7 +2180,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 67,
+              "position": 68,
               "id": "01k72qx64tdvkryenrbd5g81px",
               "title": "The Dire State of Contemporary Western Philosophy",
               "author": "Nathan Ormond",
@@ -2182,7 +2208,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 68,
+              "position": 69,
               "id": "01k7j6j6mdje8x3v1jt8hqaba4",
               "title": "The Mimetic Trap",
               "author": "The One Percent Rule",
@@ -2210,7 +2236,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 69,
+              "position": 70,
               "id": "01k7qbgbanjkbvetnkfd47vkrz",
               "title": "How I wrote \"Looking for Alice\"",
               "author": "Henrik Karlsson",
@@ -2240,7 +2266,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 70,
+              "position": 71,
               "id": "01k7qbgpmxd9gskhw16jx5b8yk",
               "title": "Popular education in Sweden: much more than you wanted to know",
               "author": "Henrik Karlsson",
@@ -2268,7 +2294,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 71,
+              "position": 72,
               "id": "01k7xjhe96qxhs9bkr4qahjk09",
               "title": "How to Become as Well-Read as John Adams: 8 Tips From his Reading Life",
               "author": "Samuel",
@@ -2296,7 +2322,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 72,
+              "position": 73,
               "id": "01k8v9cz0ah2x4qddn265e4cnt",
               "title": "Everything Is Television",
               "author": "Derek Thompson",
@@ -2326,7 +2352,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 73,
+              "position": 74,
               "id": "01kcb7n6kftwmca7m6dgprpkwf",
               "title": "Anarchism, explained",
               "author": "Andrew Lee",
@@ -2353,7 +2379,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 74,
+              "position": 75,
               "id": "01kd1c7k90p8p5bknmbm09abwv",
               "title": "The World in Which We Live - Nassim Nicholas Taleb",
               "author": "Substack",
@@ -2381,7 +2407,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 75,
+              "position": 76,
               "id": "01kdnzthe611p0c38ts9j702s2",
               "title": "De verleiding van de kettingzaag",
               "author": "NRC Handelsblad",
@@ -2412,7 +2438,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 76,
+              "position": 77,
               "id": "01kkh2jn3p93nsh9nvbpe1w0vk",
               "title": "Rugged Spirituality",
               "author": "Andrew Taggart",
@@ -2440,7 +2466,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 77,
+              "position": 78,
               "id": "01km0ha2tggzmd2y5yjpqbycj5",
               "title": "🎓 On Geldings and the 'Natural' Social Order of Horses",
               "author": "Eleanor Konik",
@@ -2468,7 +2494,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 78,
+              "position": 79,
               "id": "01kmfmvdnqhec7daqp6x47pr85",
               "title": "On the proper use of arguments",
               "author": "Massimo Pigliucci at Figs in Winter",
@@ -2495,7 +2521,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 79,
+              "position": 80,
               "id": "01kmr5kh5wjyr899wkg9skt4f7",
               "title": "Simone Weil Explains the Manosphere",
               "author": "Joe from Unsolicited Advice",
@@ -2524,7 +2550,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 80,
+              "position": 81,
               "id": "01kmwmt7f9jtm6j0gb6pnda9zk",
               "title": "Philosophy of Science",
               "author": "Joseph Rahi",
@@ -2552,7 +2578,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 81,
+              "position": 82,
               "id": "01kqsnmx2rdcaktjvwsjmmq2cn",
               "title": "The games we want to be playing",
               "author": "Jared Henderson from Commonplace Philosophy",
@@ -2580,7 +2606,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 82,
+              "position": 83,
               "id": "01kqwf46h1tackak8werthsvy5",
               "title": "Henrik Karlsson: The Writing Process Nobody Teaches You",
               "author": "David Perell",
@@ -2609,7 +2635,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 83,
+              "position": 84,
               "id": "01krkbe7701j87vmw7wrs54h8m",
               "title": "They Are Putting A Black Hole Inside Your Head",
               "author": "Paul Musso",
@@ -2637,7 +2663,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 84,
+              "position": 85,
               "id": "01krn1jdcn6b450yv1z0j92tz3",
               "title": "The Radical Sunzi",
               "author": "scholars-stage.org",
@@ -2666,7 +2692,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 85,
+              "position": 86,
               "id": "01kt72hwt9asrzwwx70ybxyabe",
               "title": "How Love Became Just Another Thing to Optimize",
               "author": "Philosophize This! from Philosophize This!",
@@ -2694,7 +2720,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 86,
+              "position": 87,
               "id": "01kvarejkjdc6y2cjp2d0ewgkd",
               "title": "The Desecration of Man - Say No to Nietzsche",
               "author": "R.W. Richey from We Are Not Saved",
@@ -2724,7 +2750,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 87,
+              "position": 88,
               "id": "01kvcgsfekyqqc5b9t3nmrge8m",
               "title": "Hoera, het is Waterloodag!",
               "author": "De Ongelooflijke",
@@ -2761,7 +2787,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 88,
+              "position": 89,
               "id": "01kvh7ec1tezr2vy9bqgsm6an4",
               "title": "Is There a Science of Writing?",
               "author": "Carl Hendrick from The Learning Dispatch",
@@ -2791,7 +2817,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 89,
+              "position": 90,
               "id": "01kvjbgrqsftb77gs496c0p12t",
               "title": "If the First Apocalypse Doesn’t Get You, the Second One Will",
               "author": "Miller’s Book Review 📚",
@@ -2821,7 +2847,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 90,
+              "position": 91,
               "id": "01kvtqy4rffwdb1t73t37netda",
               "title": "Antwoorden op vragen die niet gesteld worden",
               "author": "Kauthar",
@@ -2849,7 +2875,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 91,
+              "position": 92,
               "id": "01kvwwdq8bhy9m3x614gmtn41d",
               "title": "Andrew Stanton: Storytelling Secrets from the Writer of Toy Story 5",
               "author": "David Perell",
@@ -2878,7 +2904,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 92,
+              "position": 93,
               "id": "01kwfk5q2rtfm9enggaybd07zq",
               "title": "David Sedaris: Lessons From Decades of Writing",
               "author": "David Perell",
@@ -2907,7 +2933,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 93,
+              "position": 94,
               "id": "01kx66q5d0pg8whe75n7qr82td",
               "title": "Count Binface and the Politics of Ridicule",
               "author": "Brian Klaas",
@@ -2938,7 +2964,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 94,
+              "position": 95,
               "id": "01kxdxaytaf6tm6ntqnc9vdw18",
               "title": "Apophenia and Manufactured Desire",
               "author": "Jared Henderson from Commonplace Philosophy",
@@ -2965,7 +2991,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 95,
+              "position": 96,
               "id": "01kxpg8mpkegghvbz5w71ne86v",
               "title": "Against \"Stochastic Terrorism\"",
               "author": "Astral Codex Ten",
@@ -2992,7 +3018,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 96,
+              "position": 97,
               "id": "01kxy1qnae4npandc4x9mv4aw0",
               "title": "To Understand Elon Musk, You Have to Understand This ’60s Sci-Fi Novel",
               "author": "jacobin.com",
@@ -3023,7 +3049,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 97,
+              "position": 98,
               "id": "01kxzghzvbjtnr20f8vwmwc8s5",
               "title": "Letters of Last Resort",
               "author": "Brian Klaas",
@@ -3050,7 +3076,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 98,
+              "position": 99,
               "id": "01ky6y112ahhdfz7zdrw7w1jkc",
               "title": "Fish farts, dead elephants, and total institutions in wildlife conservation",
               "author": "projectcroak.com",
@@ -3079,7 +3105,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 99,
+              "position": 100,
               "id": "01ky7qe9p9qwtpk49bzc4pqqhk",
               "title": "Normal Accidents: Living with High-Risk Technologies",
               "author": "blog.jcx.au",
@@ -3101,33 +3127,6 @@ window.TOP_ARTICLES = {
                 "linked-from-readwise",
                 "sociology & social structures",
                 "technology"
-              ],
-              "alsoIn": [
-                "aaa-short-top-100"
-              ]
-            },
-            {
-              "position": 100,
-              "id": "01ky7y54f3cb0xcxn9nyexpkzw",
-              "title": "When philosophers and the public disagree",
-              "author": "Jared Henderson from Commonplace Philosophy",
-              "siteName": "Substack",
-              "category": "email",
-              "language": "Engels",
-              "readingTime": "8 mins",
-              "readingMinutes": 8,
-              "wordCount": 1927,
-              "publishedDate": "2026-07-23",
-              "savedDate": "2026-07-23T16:50:18.211000+00:00",
-              "imageUrl": null,
-              "sourceUrl": "mailto:reader-forwarded-email/f60e58787c3c831fe35889326b5c6a7c",
-              "readwiseUrl": "https://read.readwise.io/read/01ky7y54f3cb0xcxn9nyexpkzw",
-              "summary": "If you were to walk into a mathematics department and ask them if 2 + 2 =4, you would receive a uniform answer: yes, of course.",
-              "whyRead": "Henderson onderzoekt scherp waarom filosofen zo weinig consensus lijken te hebben, en laat zien dat er wél brede overeenstemming bestaat over argumentkwaliteit — een nuttig kompas voor hoe je zelf filosofische disputen kunt beoordelen.",
-              "bestMoment": "analytisch",
-              "tags": [
-                "philosophy",
-                "research papers & academia"
               ],
               "alsoIn": [
                 "aaa-short-top-100"
@@ -6650,9 +6649,7 @@ window.TOP_ARTICLES = {
                 "philosophy",
                 "research papers & academia"
               ],
-              "alsoIn": [
-                "aaa-top-100"
-              ]
+              "alsoIn": []
             },
             {
               "position": 55,
@@ -7659,7 +7656,7 @@ window.TOP_ARTICLES = {
               "sourceUrl": "mailto:reader-forwarded-email/6cb8b4a2d694108b24dead90903b5ee5",
               "readwiseUrl": "https://read.readwise.io/read/01m14nb3gbkc1d5zt0q1rbjpsv",
               "summary": "Het zijn misschien wel de bekendste woorden die de 20e eeuw heeft voortgebracht.",
-              "whyRead": "Nederlandstalige cultuurgeschiedenis over de wording van een iconische politieke rede, met aandacht voor retoriek en historische context.",
+              "whyRead": "Nederlandstalige cultuurgeschiedenis over de wording van een iconische politieke rede, met aandacht voor retoriek, gospel en burgerrechten. De analyse laat mooi zien hoe improvisatie kan steunen op jarenlange voorbereiding.",
               "bestMoment": "kritisch",
               "tags": [
                 "arts & culture",
@@ -10465,7 +10462,7 @@ window.TOP_ARTICLES = {
               "sourceUrl": "mailto:reader-forwarded-email/6cb8b4a2d694108b24dead90903b5ee5",
               "readwiseUrl": "https://read.readwise.io/read/01m14nb3gbkc1d5zt0q1rbjpsv",
               "summary": "Het zijn misschien wel de bekendste woorden die de 20e eeuw heeft voortgebracht.",
-              "whyRead": "Nederlandstalige cultuurgeschiedenis over de wording van een iconische politieke rede, met aandacht voor retoriek en historische context.",
+              "whyRead": "Nederlandstalige cultuurgeschiedenis over de wording van een iconische politieke rede, met aandacht voor retoriek, gospel en burgerrechten. De analyse laat mooi zien hoe improvisatie kan steunen op jarenlange voorbereiding.",
               "bestMoment": "kritisch",
               "tags": [
                 "arts & culture",
@@ -15786,7 +15783,7 @@ window.TOP_ARTICLES = {
               "sourceUrl": "https://agilealliance.org/scrum-and-micro-retrospectives/",
               "readwiseUrl": "https://read.readwise.io/read/01m161v3y3h5rmk6eev2qvkbkq",
               "summary": "Dwight Kingdon explains why continual improvement can only be attained when we pause to reflect on what’s working well, what’s not working well, and make conscious decisions to adjust our practices. ",
-              "whyRead": "Raakt je professionele interesse in scrum en agile werken: een klein, direct toepasbaar patroon om verbeterideeën niet tot de formele retrospective te laten wachten.",
+              "whyRead": "Raakt je professionele interesse in scrum en agile werken: een klein, direct toepasbaar patroon om verbeterideeën niet tot de formele retrospective te laten wachten. Vooral bruikbaar voor een Scrum Master die teams wil helpen sneller van inzicht naar experiment te gaan.",
               "bestMoment": "leergierig",
               "tags": [
                 "agile",
@@ -20329,6 +20326,68 @@ window.TOP_ARTICLES = {
     "items": [
       {
         "position": null,
+        "id": "01m161vztc9cvdz681k9e0xy49",
+        "title": "The radical reasons why you dream of making things by hand | Aeon Essays",
+        "author": "aeon.co",
+        "siteName": "Aeon",
+        "category": "article",
+        "language": null,
+        "readingTime": "18 mins",
+        "readingMinutes": 18,
+        "wordCount": 4601,
+        "publishedDate": null,
+        "savedDate": "2026-08-29T06:03:49.452000+00:00",
+        "imageUrl": "https://images.aeonmedia.co/images/320f9f78-678b-476d-be7e-9d977b7e6ead/essay-gettyimages-1142223181.jpg?width=1200&quality=75&format=jpg",
+        "sourceUrl": "https://aeon.co/essays/the-radical-reasons-why-you-dream-of-making-things-by-hand",
+        "readwiseUrl": "https://read.readwise.io/read/01m161vztc9cvdz681k9e0xy49",
+        "summary": "In the 18th century, the streets of East London were filled with flowers. Fuchsias, auriculas and star-of-Bethlehem grew from the window boxes of tall terraced houses.",
+        "whyRead": "Raakt je interesse in filosofie, maatschappelijke structuren en AI-ethiek: dit essay maakt van het verlangen naar ambacht een politieke vraag over waardig, menselijk werk. Het helpt je onderscheid maken tussen toekomstgerichte kritiek op automatisering en reactionair terugverlangen.",
+        "bestMoment": "analytisch",
+        "tags": [
+          "ai ethics & society",
+          "philosophy",
+          "sociology & social structures"
+        ],
+        "alsoIn": [
+          "aaa-top-100"
+        ],
+        "memberships": [
+          {
+            "familyId": "algemeen",
+            "size": "top-100",
+            "position": 60
+          }
+        ]
+      },
+      {
+        "position": null,
+        "id": "01m161vkas0effn5zs6zq6qdqh",
+        "title": "Humanity’s future remains as unthinkable as the still-uncolonised galaxy or the enduring mystery of our own births and deaths",
+        "author": "Jennifer Banks",
+        "siteName": "Aeon",
+        "category": "article",
+        "language": null,
+        "readingTime": "15 mins",
+        "readingMinutes": 15,
+        "wordCount": 3936,
+        "publishedDate": "2024-01-29",
+        "savedDate": "2026-08-29T06:03:36.664000+00:00",
+        "imageUrl": "https://images.aeonmedia.co/images/79472a2b-8f14-4c35-b34d-286d8ebbc589/essay-panos_00343005.jpg?width=1200&quality=75&format=auto",
+        "sourceUrl": "https://aeon.co/essays/the-future-of-humanism-from-toni-morrison-to-nick-bostrom",
+        "readwiseUrl": "https://read.readwise.io/read/01m161vkas0effn5zs6zq6qdqh",
+        "summary": "Humanity’s future remains as unthinkable as the still-uncolonised galaxy or the enduring mystery of our own births and deaths",
+        "whyRead": "Raakt rechtstreeks je interesse in filosofie en AI-ethiek: een scherpe vergelijking tussen pluralistisch humanisme en transhumanistische toekomstpolitiek. Het geeft taal om toekomstvisies te toetsen op vrijheid, macht, zorg en wat als menselijk leven telt.",
+        "bestMoment": "analytisch",
+        "tags": [
+          "ai ethics & society",
+          "philosophy",
+          "totalitarianism & fascism"
+        ],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
         "id": "01m161v3y3h5rmk6eev2qvkbkq",
         "title": "Scrum and Micro-Retrospectives",
         "author": "Dwight Kingdon",
@@ -20344,7 +20403,7 @@ window.TOP_ARTICLES = {
         "sourceUrl": "https://agilealliance.org/scrum-and-micro-retrospectives/",
         "readwiseUrl": "https://read.readwise.io/read/01m161v3y3h5rmk6eev2qvkbkq",
         "summary": "Dwight Kingdon explains why continual improvement can only be attained when we pause to reflect on what’s working well, what’s not working well, and make conscious decisions to adjust our practices. ",
-        "whyRead": "Raakt je professionele interesse in scrum en agile werken: een klein, direct toepasbaar patroon om verbeterideeën niet tot de formele retrospective te laten wachten.",
+        "whyRead": "Raakt je professionele interesse in scrum en agile werken: een klein, direct toepasbaar patroon om verbeterideeën niet tot de formele retrospective te laten wachten. Vooral bruikbaar voor een Scrum Master die teams wil helpen sneller van inzicht naar experiment te gaan.",
         "bestMoment": "leergierig",
         "tags": [
           "agile",
@@ -20378,7 +20437,7 @@ window.TOP_ARTICLES = {
         "sourceUrl": "https://hollykorbey.substack.com/p/evidence-is-the-antidote-in-education",
         "readwiseUrl": "https://read.readwise.io/read/01m160hktxxz3qzhj37gbkf4f6",
         "summary": "How to break society’s fantasies of what learning is like and help more kids",
-        "whyRead": "Raakt je interesse in leren en meta-learning: dit essay laat zien hoe onderwijs kan ontsnappen aan intuïtie en smaak door bewijs over leren toegankelijk te maken.",
+        "whyRead": "Raakt je interesse in leren en meta-learning: dit essay laat zien hoe onderwijs kan ontsnappen aan intuïtie en smaak door bewijs over leren publiek en praktisch bruikbaar te maken.",
         "bestMoment": "leergierig",
         "tags": [
           "learning & meta-learning",
@@ -20404,7 +20463,7 @@ window.TOP_ARTICLES = {
         "sourceUrl": "mailto:reader-forwarded-email/5e9a95ec55aefc3ae137c1a5288bf101",
         "readwiseUrl": "https://read.readwise.io/read/01m14qn510bcts8506rj1s6tma",
         "summary": "I was young and raw, but passionate about arts and humanities. I possessed the fervor of a cult member recruiting newbies at the Greyhound bus station.",
-        "whyRead": "Raakt je interesse in cultuur en essayistische kritiek op onderwijs: Gioia verbindt leeservaring, canon en de rol van de docent met veel stijl.",
+        "whyRead": "Raakt je interesse in cultuur, onderwijs en het essay als polemische vorm. Gioia schrijft geestig maar serieus over wat een docent met grote kunst kan doen.",
         "bestMoment": "kritisch",
         "tags": [
           "arts & culture",
@@ -20431,7 +20490,7 @@ window.TOP_ARTICLES = {
         "sourceUrl": "mailto:reader-forwarded-email/5eb69a0ec0abb347d937282623f89bcf",
         "readwiseUrl": "https://read.readwise.io/read/01m14q0dqdt94p1jsne1xgde8s",
         "summary": "[This is one of the finalists in the 2026 book review contest, written by an ACX reader who will remain anonymous until after voting is done.",
-        "whyRead": "Raakt je interesse in cultuurgeschiedenis en literatuur; dit is een speels, diepgravend portret van een excentrieke vertaler en zijn taalplezier.",
+        "whyRead": "Raakt je interesse in literatuurgeschiedenis, taalplezier en excentrieke makers. Dit lange portret laat zien hoe een mislukte alleskunner precies de juiste vertaler voor Rabelais werd.",
         "bestMoment": "ontspannen",
         "tags": [
           "arts & culture",
@@ -20459,7 +20518,7 @@ window.TOP_ARTICLES = {
         "sourceUrl": "https://aeon.co/essays/we-can-still-get-out-of-the-climate-hellocene-and-into-the-clear?utm_source=Aeon+Newsletter&utm_campaign=a148c00145-EMAIL_CAMPAIGN_2026_07_24_COPY_01&utm_medium=email&utm_term=0_-49ad69cbc2-838236001",
         "readwiseUrl": "https://read.readwise.io/read/01m14pd8nh6rpczn30dfw08615",
         "summary": "Despite decades of inaction we can avert the climate Hellocene and restore the atmosphere to keep our world habitable",
-        "whyRead": "Een urgent maar inhoudelijk klimaatessay dat ecologie, ongelijkheid en concrete systeemkeuzes samenbrengt.",
+        "whyRead": "Raakt je interesse in klimaat, systeemverandering en toegankelijke wetenschap. Vanuit de Amazone verbindt een klimaatonderzoeker concrete metingen met een moreel en politiek betoog over herstel.",
         "bestMoment": "kritisch",
         "tags": [
           "environment & sustainability",
@@ -20485,7 +20544,7 @@ window.TOP_ARTICLES = {
         "sourceUrl": "https://aeon.co/essays/superlative-projects-are-made-possible-by-great-collective-efforts?utm_source=Aeon+Newsletter&utm_campaign=a148c00145-EMAIL_CAMPAIGN_2026_07_24_COPY_01&utm_medium=email&utm_term=0_-49ad69cbc2-838236001",
         "readwiseUrl": "https://read.readwise.io/read/01m14pczjd0j89j8fvw2tmwbnj",
         "summary": "Superlative things were done in the past century by marshalling thousands of people in the service of a vision of the future",
-        "whyRead": "Raakt je werkinteresse in organiseren én je belangstelling voor maatschappij en toekomstbeelden; het essay vraagt hoe collectieve ambitie weer mogelijk wordt.",
+        "whyRead": "Raakt je werkinteresse in organiseren én je belangstelling voor maatschappij, wetenschap en toekomstbeelden. Parker koppelt managementkritiek aan een uitnodiging tot publieke, groene verbeelding.",
         "bestMoment": "geconcentreerd",
         "tags": [
           "environment & sustainability",
@@ -20512,8 +20571,8 @@ window.TOP_ARTICLES = {
         "sourceUrl": "https://aeon.co/essays/in-solarpunk-cities-of-the-future-tech-follows-natures-lead?utm_source=Aeon+Newsletter&utm_campaign=a148c00145-EMAIL_CAMPAIGN_2026_07_24_COPY_01&utm_medium=email&utm_term=0_-49ad69cbc2-838236001",
         "readwiseUrl": "https://read.readwise.io/read/01m14pbyc1cray6t9smdremqw3",
         "summary": "The vision of solarpunk: joining nature with technology in vibrantly inclusive ways to create a world that truly blooms",
-        "whyRead": "Een rijke verkenning van solarpunk op het snijvlak van sciencefiction, ecologie, steden en politieke verbeelding.",
-        "bestMoment": "geïnspireerd",
+        "whyRead": "Raakt je interesse in ecologie, politieke filosofie en sciencefiction als cultuurvorm. Dit toegankelijke, hoopvolle essay maakt solarpunk concreet als alternatief voor zowel techno-optimisme als nostalgisch anti-modernisme.",
+        "bestMoment": "ontspannen",
         "tags": [
           "arts & culture",
           "environment & sustainability",
@@ -20540,7 +20599,7 @@ window.TOP_ARTICLES = {
         "sourceUrl": "https://aeon.co/essays/why-birds-dont-buy-bentleys-and-we-humans-will-never-fly?utm_source=Aeon+Newsletter&utm_campaign=a148c00145-EMAIL_CAMPAIGN_2026_07_24_COPY_01&utm_medium=email&utm_term=0_-49ad69cbc2-838236001",
         "readwiseUrl": "https://read.readwise.io/read/01m14pbksf87sa192vb2v97mq6",
         "summary": "They have big brains, long childhoods and sociable, curious minds. So why haven’t birds developed complex culture?",
-        "whyRead": "Toegankelijke wetenschap over cultuur en cognitie die je nieuwsgierigheid naar evolutie, sociale structuren en menselijk gedrag voedt.",
+        "whyRead": "Raakt je interesse in wetenschap en in de sociale voorwaarden waaronder kennis zich opstapelt. Een helder evolutionair essay dat de vergelijking tussen vogels en mensen gebruikt om cultuur minder vanzelfsprekend te maken.",
         "bestMoment": "leergierig",
         "tags": [
           "science",
@@ -20566,7 +20625,7 @@ window.TOP_ARTICLES = {
         "sourceUrl": "https://aeon.co/essays/how-evolutionary-biology-makes-everyone-an-existentialist?utm_source=Aeon+Newsletter&utm_campaign=a148c00145-EMAIL_CAMPAIGN_2026_07_24_COPY_01&utm_medium=email&utm_term=0_-49ad69cbc2-838236001",
         "readwiseUrl": "https://read.readwise.io/read/01m14pbbmxhsc70eww3j37crnq",
         "summary": "Ethics cannot be based on human nature because, as evolutionary biology tells us, there is no such thing",
-        "whyRead": "Raakt je filosofische interesse met een heldere confrontatie tussen evolutie, existentialisme en de vraag wat ‘natuurlijk’ eigenlijk betekent.",
+        "whyRead": "Raakt je interesse in filosofie en evolutiedenken. Het essay gebruikt Darwin om scherp te scheiden wat de natuur verklaart van wat zij normatief kan rechtvaardigen.",
         "bestMoment": "analytisch",
         "tags": [
           "philosophy",
@@ -20592,7 +20651,7 @@ window.TOP_ARTICLES = {
         "sourceUrl": "https://aeon.co/essays/nietzsches-startling-provocation-youre-edible-and-delicious?utm_source=Aeon+Newsletter&utm_campaign=a148c00145-EMAIL_CAMPAIGN_2026_07_24_COPY_01&utm_medium=email&utm_term=0_-49ad69cbc2-838236001",
         "readwiseUrl": "https://read.readwise.io/read/01m14pb4h7ghqhagfgb09bckxd",
         "summary": "Nietzsche shows us how to embrace our connection with nature – without denying its essential conflict, strife and suffering",
-        "whyRead": "Een ongewoon Nietzsche-essay dat ecologische verwevenheid, kwetsbaarheid en menselijke uitzonderingsdrang scherp met elkaar verbindt.",
+        "whyRead": "Raakt je interesse in Nietzsche, filosofie en ecologische ethiek. Het stuk corrigeert een al te geruststellend ideaal van ‘verbondenheid met de natuur’ door kwetsbaarheid en conflict mee te denken.",
         "bestMoment": "analytisch",
         "tags": [
           "environment & sustainability",
@@ -20618,7 +20677,7 @@ window.TOP_ARTICLES = {
         "sourceUrl": "mailto:reader-forwarded-email/6cb8b4a2d694108b24dead90903b5ee5",
         "readwiseUrl": "https://read.readwise.io/read/01m14nb3gbkc1d5zt0q1rbjpsv",
         "summary": "Het zijn misschien wel de bekendste woorden die de 20e eeuw heeft voortgebracht.",
-        "whyRead": "Nederlandstalige cultuurgeschiedenis over de wording van een iconische politieke rede, met aandacht voor retoriek en historische context.",
+        "whyRead": "Nederlandstalige cultuurgeschiedenis over de wording van een iconische politieke rede, met aandacht voor retoriek, gospel en burgerrechten. De analyse laat mooi zien hoe improvisatie kan steunen op jarenlange voorbereiding.",
         "bestMoment": "kritisch",
         "tags": [
           "arts & culture",
@@ -31378,15 +31437,9 @@ window.TOP_ARTICLES = {
           "research papers & academia"
         ],
         "alsoIn": [
-          "aaa-top-100",
           "aaa-short-top-100"
         ],
         "memberships": [
-          {
-            "familyId": "algemeen",
-            "size": "top-100",
-            "position": 100
-          },
           {
             "familyId": "kort",
             "size": "top-100",
@@ -31481,7 +31534,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 99
+            "position": 100
           },
           {
             "familyId": "kort",
@@ -32261,7 +32314,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 98
+            "position": 99
           },
           {
             "familyId": "kort",
@@ -32722,7 +32775,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 97
+            "position": 98
           },
           {
             "familyId": "kort",
@@ -32766,7 +32819,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 96
+            "position": 97
           },
           {
             "familyId": "kort",
@@ -33062,7 +33115,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 95
+            "position": 96
           },
           {
             "familyId": "kort",
@@ -33523,7 +33576,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 94
+            "position": 95
           },
           {
             "familyId": "kort",
@@ -33729,7 +33782,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 93
+            "position": 94
           },
           {
             "familyId": "kort",
@@ -35015,7 +35068,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 92
+            "position": 93
           },
           {
             "familyId": "luchtig",
@@ -36414,7 +36467,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 91
+            "position": 92
           },
           {
             "familyId": "luchtig",
@@ -36455,7 +36508,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 90
+            "position": 91
           },
           {
             "familyId": "kort",
@@ -36747,7 +36800,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 89
+            "position": 90
           },
           {
             "familyId": "kort",
@@ -36857,7 +36910,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 88
+            "position": 89
           },
           {
             "familyId": "kort",
@@ -37123,7 +37176,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 87
+            "position": 88
           },
           {
             "familyId": "nederlands",
@@ -37228,7 +37281,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 86
+            "position": 87
           },
           {
             "familyId": "kort",
@@ -38293,7 +38346,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 85
+            "position": 86
           },
           {
             "familyId": "kort",
@@ -40422,7 +40475,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 84
+            "position": 85
           },
           {
             "familyId": "kort",
@@ -40632,7 +40685,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 83
+            "position": 84
           },
           {
             "familyId": "kort",
@@ -40973,7 +41026,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 82
+            "position": 83
           },
           {
             "familyId": "luchtig",
@@ -41049,7 +41102,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 81
+            "position": 82
           },
           {
             "familyId": "kort",
@@ -41817,7 +41870,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 80
+            "position": 81
           },
           {
             "familyId": "kort",
@@ -41895,7 +41948,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 79
+            "position": 80
           },
           {
             "familyId": "kort",
@@ -42052,7 +42105,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 78
+            "position": 79
           },
           {
             "familyId": "kort",
@@ -42236,7 +42289,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 77
+            "position": 78
           },
           {
             "familyId": "kort",
@@ -42365,7 +42418,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 76
+            "position": 77
           },
           {
             "familyId": "kort",
@@ -43755,7 +43808,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 75
+            "position": 76
           },
           {
             "familyId": "nederlands",
@@ -44100,7 +44153,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 74
+            "position": 75
           },
           {
             "familyId": "kort",
@@ -44347,7 +44400,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 73
+            "position": 74
           },
           {
             "familyId": "kort",
@@ -45308,7 +45361,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 72
+            "position": 73
           },
           {
             "familyId": "kort",
@@ -45606,7 +45659,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 71
+            "position": 72
           },
           {
             "familyId": "kort",
@@ -45807,7 +45860,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 70
+            "position": 71
           },
           {
             "familyId": "kort",
@@ -45850,7 +45903,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 69
+            "position": 70
           },
           {
             "familyId": "kort",
@@ -46400,7 +46453,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 68
+            "position": 69
           },
           {
             "familyId": "kort",
@@ -46736,7 +46789,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 67
+            "position": 68
           },
           {
             "familyId": "kort",
@@ -47387,7 +47440,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 66
+            "position": 67
           },
           {
             "familyId": "kort",
@@ -47530,7 +47583,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 65
+            "position": 66
           }
         ]
       },
@@ -47632,7 +47685,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 64
+            "position": 65
           },
           {
             "familyId": "nederlands",
@@ -48427,7 +48480,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 63
+            "position": 64
           },
           {
             "familyId": "kort",
@@ -48503,7 +48556,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 62
+            "position": 63
           },
           {
             "familyId": "kort",
@@ -48645,7 +48698,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 61
+            "position": 62
           },
           {
             "familyId": "kort",
@@ -48885,7 +48938,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 60
+            "position": 61
           },
           {
             "familyId": "kort",
