@@ -55,6 +55,36 @@ export interface PriorityTagPlan {
   planHash: string;
 }
 
+/** Geeft per toplijst weer welke documenten de top-10 in- of uitgaan. */
+export function formatTop10Changes(plan: PriorityTagPlan): string {
+  const changesByTag = new Map<string, { add: string[]; remove: string[] }>(
+    FAMILY_DEFINITIONS.map(({ top10Tag }) => [top10Tag, { add: [], remove: [] }]),
+  );
+
+  for (const { title, add, remove } of Object.values(plan.changes)) {
+    for (const tag of add) {
+      changesByTag.get(tag)?.add.push(title);
+    }
+    for (const tag of remove) {
+      changesByTag.get(tag)?.remove.push(title);
+    }
+  }
+
+  const sections = FAMILY_DEFINITIONS.flatMap(({ label, top10Tag }) => {
+    const change = changesByTag.get(top10Tag);
+    if (!change || (change.add.length === 0 && change.remove.length === 0)) {
+      return [];
+    }
+    return [
+      `${label}:`,
+      ...change.add.sort((a, b) => a.localeCompare(b)).map((title) => `  + ${title}`),
+      ...change.remove.sort((a, b) => a.localeCompare(b)).map((title) => `  - ${title}`),
+    ];
+  });
+
+  return sections.length > 0 ? `Top-10 gewijzigd:\n${sections.join("\n")}` : "Top-10 gewijzigd: geen wijzigingen.";
+}
+
 const TOPLIST_TAGS: ReadonlySet<string> = new Set(
   FAMILY_DEFINITIONS.flatMap(({ top10Tag, top100Tag }) => [top10Tag, top100Tag]),
 );

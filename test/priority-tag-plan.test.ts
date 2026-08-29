@@ -3,6 +3,7 @@ import test from "node:test";
 
 import {
   buildPriorityTagPlan,
+  formatTop10Changes,
   validatePriorityTagPlan,
   type PriorityTagChange,
   type PriorityTagDocument,
@@ -53,6 +54,27 @@ test("plant ordinale en afgeleide toplijsttags vanuit dezelfde scorepositie", ()
   assert.ok(low.add.includes("lees-0002"));
   assert.ok(low.remove.includes("lees-0001"));
   assert.equal(validatePriorityTagPlan(plan), true);
+});
+
+test("maakt top-10 binnenkomers en vertrekkers per lijst zichtbaar", () => {
+  const base = buildPriorityTagPlan([], [], { generatedAt: "2026-08-16T10:00:00.000Z" });
+  const plan = {
+    ...base,
+    changes: {
+      "komt-binnen": { title: "Komt binnen", add: ["aaa-top-10"], remove: [] },
+      "valt-af": { title: "Valt af", add: [], remove: ["aaa-top-10"] },
+    },
+  };
+  const output = formatTop10Changes(plan);
+  assert.match(output, /Top-10 gewijzigd:/);
+  assert.match(output, /Algemeen:/);
+  assert.match(output, /\+ Komt binnen/);
+  assert.match(output, /- Valt af/);
+});
+
+test("meldt expliciet wanneer een plan geen top-10 wijzigt", () => {
+  const plan = buildPriorityTagPlan([], [], { generatedAt: "2026-08-16T10:00:00.000Z" });
+  assert.equal(formatTop10Changes(plan), "Top-10 gewijzigd: geen wijzigingen.");
 });
 
 test("migreert luchtig-lidmaatschap en ruimt beheerde tags buiten later op", () => {
