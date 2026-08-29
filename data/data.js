@@ -1,6 +1,6 @@
 // Automatisch gegenereerd door scripts/build-data.ts — niet handmatig bewerken.
 window.TOP_ARTICLES = {
-  "generatedAt": "2026-08-29T16:16:42.985Z",
+  "generatedAt": "2026-08-29T19:24:09.154Z",
   "families": [
     {
       "id": "algemeen",
@@ -733,38 +733,6 @@ window.TOP_ARTICLES = {
             },
             {
               "position": 15,
-              "id": "01kysnmckrgernh72bvvz2eprz",
-              "title": "Minister van Digitale Zaken: hoe het kan werken",
-              "author": "berthub.eu",
-              "siteName": "Bert Hubert's writings",
-              "category": "article",
-              "language": "Nederlands",
-              "readingTime": "7 mins",
-              "readingMinutes": 7,
-              "wordCount": 1791,
-              "publishedDate": "2024-03-19",
-              "savedDate": "2026-07-30T14:07:40.661000+00:00",
-              "imageUrl": "https://berthub.eu/articles/akkermans.jpg",
-              "sourceUrl": "https://berthub.eu/articles/posts/minister-van-digitale-zaken/",
-              "readwiseUrl": "https://read.readwise.io/read/01kysnmckrgernh72bvvz2eprz",
-              "summary": "De hele korte versie: een minister voor Digitale Zaken heeft alleen zin als deze minstens evenveel doorzettingsmacht krijgt als de minister van Financiën. En het werkt ook alleen als die nieuwe minister een agenda heeft waarbij ICT veel meer is dan “iets wat je inkoopt”, maar echt een kernactiviteit wordt waar geïnnoveerd kan worden. En dat vergt een nieuwe erkenning van ICT-ambtenaren als daadwerkelijk belangrijke mensen, die aan de knoppen zitten en dingen mogen veranderen.",
-              "whyRead": "Raakt je interesse in digitale overheid: een concreet pleidooi voor een minister van Digitale Zaken met echte doorzettingsmacht.",
-              "bestMoment": "kritisch",
-              "tags": [
-                "political philosophy",
-                "professional development",
-                "technology"
-              ],
-              "alsoIn": [
-                "aaa-dutch-top-10",
-                "aaa-dutch-top-100",
-                "aaa-short-top-100",
-                "aaa-short-dutch-top-10",
-                "aaa-short-dutch-top-100"
-              ]
-            },
-            {
-              "position": 16,
               "id": "01m0k3hr0fm2zdqmg55xb8dnb0",
               "title": "If AI Can Replace Your Scrummaster, You Never Had a Scrummaster",
               "author": "Erwin Verweij",
@@ -792,7 +760,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 17,
+              "position": 16,
               "id": "01m0yzc4t547m4zm0yvgrk39xb",
               "title": "The Future of Agile Coaches: Do Large Companies Need a Standardized Agile Coach Certification and What Are the Alternatives?",
               "author": "doi.org",
@@ -823,7 +791,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 18,
+              "position": 17,
               "id": "01j2dfzgeq6ee7txhr651dabe4",
               "title": "🌲 A Personal Take on Using LLMs",
               "author": "Eleanor Konik",
@@ -849,7 +817,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 19,
+              "position": 18,
               "id": "01jkh2wm4v4j610egp7kxf4m8k",
               "title": "Rationality is an underrated way to be authentic",
               "author": "Henrik Karlsson",
@@ -875,7 +843,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 20,
+              "position": 19,
               "id": "01k2ysk13dwk1ftz5jvez1y54s",
               "title": "Letter #89. On Being a Trustful, Autonomy-Supportive Parent",
               "author": "Peter Gray",
@@ -901,7 +869,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 21,
+              "position": 20,
               "id": "01k72qvbmwd9xp0k233cv5qgw2",
               "title": "A blog post is a very long and complex search query to find fascinating people and make them route interesting stuff to your inbox",
               "author": "Henrik Karlsson",
@@ -927,7 +895,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 22,
+              "position": 21,
               "id": "01k9c2mfzdvrnpxt293kgn3rn8",
               "title": "When is it better to think without words?",
               "author": "Henrik Karlsson",
@@ -953,7 +921,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 23,
+              "position": 22,
               "id": "01kak55ckqqc68k61t1z10mcs6",
               "title": "No, religion isn't required for morality",
               "author": "Lionel Page from Optimally Irrational",
@@ -978,7 +946,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 24,
+              "position": 23,
               "id": "01kchd9839msv2vt5ymys66kv4",
               "title": "Why I am not a Modern Stoic",
               "author": "Jared Henderson from Commonplace Philosophy",
@@ -1003,7 +971,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 25,
+              "position": 24,
               "id": "01ke8078ppphvc7nr28ecay5nf",
               "title": "Let a thousand societies bloom",
               "author": "eth.limo",
@@ -1029,7 +997,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 26,
+              "position": 25,
               "id": "01khr5h2d75yj0yt1v6seck4nt",
               "title": "On the compulsion to make art",
               "author": "Henrik Karlsson",
@@ -1059,7 +1027,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 27,
+              "position": 26,
               "id": "01kkejgakdb8n1a7k1bketbfm5",
               "title": "📗 REVIEW: Rise & Reign of Mammals by Steve Brusatte",
               "author": "Eleanor Konik",
@@ -1085,7 +1053,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 28,
+              "position": 27,
               "id": "01kmbp17grppjmpxqfsq4z3zy7",
               "title": "Sucker",
               "author": "McKay Coppins",
@@ -1115,7 +1083,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 29,
+              "position": 28,
               "id": "01kmmsmygjapx4f6gb2bhxds2j",
               "title": "We Haven’t Seen the Worst of What Gambling Will Do to American Sports and Politics",
               "author": "Derek Thompson",
@@ -1143,7 +1111,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 30,
+              "position": 29,
               "id": "01knpkrv3w8wsbhpd6qs67fkd1",
               "title": "📗 On Building a Vocabulary for Discussing Network Effects",
               "author": "Eleanor Konik",
@@ -1169,7 +1137,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 31,
+              "position": 30,
               "id": "01kqqh8gp2nh0d0c859h61yths",
               "title": "The Society of the Spectacle",
               "author": "Guy Debord",
@@ -1199,7 +1167,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 32,
+              "position": 31,
               "id": "01kqqh8j20ty05q1atmpm9gscn",
               "title": "Liberalism, Ultraleftism, or Mass Action?",
               "author": "Peter Camejo",
@@ -1225,7 +1193,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 33,
+              "position": 32,
               "id": "01kqqh8nz7876rgha8kpnx0k54",
               "title": "The Coup in Chile",
               "author": "Ralph Miliband",
@@ -1251,7 +1219,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 34,
+              "position": 33,
               "id": "01kqwezb39fwf93qzkzhny5gm5",
               "title": "THE USEFULNESS OF USELESS KNOWLEDGE",
               "author": "Abraham Flexner",
@@ -1277,7 +1245,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 35,
+              "position": 34,
               "id": "01kr190hdc36xn9y5edjsm74fx",
               "title": "📚 Neat Stuff I Read in April 2026",
               "author": "Eleanor Konik",
@@ -1303,7 +1271,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 36,
+              "position": 35,
               "id": "01krmzw6cw28m1y55ds9qrsxjf",
               "title": "Cities and Ambition",
               "author": "paulgraham.com",
@@ -1330,7 +1298,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 37,
+              "position": 36,
               "id": "01krpd5465ts11g8szys682dfj",
               "title": "Shame them, shun them, ban them, beat them!",
               "author": "Adam Mastroianni",
@@ -1356,7 +1324,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 38,
+              "position": 37,
               "id": "01krt94dn0eh8859xw7s0t2vgm",
               "title": "The Simulation Has Collapsed",
               "author": "Mike Brock",
@@ -1382,7 +1350,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 39,
+              "position": 38,
               "id": "01kvhbzvsdz71gdn2329t023sp",
               "title": "So, what is morality?",
               "author": "Lionel Page from Optimally Irrational",
@@ -1408,7 +1376,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 40,
+              "position": 39,
               "id": "01kwm2c48x698f162vev3xqyy2",
               "title": "The Knowledge Machine: How Irrationality Created Modern Science",
               "author": "R.W. Richey from We Are Not Saved",
@@ -1434,7 +1402,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 41,
+              "position": 40,
               "id": "01kxr18pz677fa7xqfav7sp2dp",
               "title": "Capitalism: A Ghost Story",
               "author": "dawn.com",
@@ -1461,7 +1429,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 42,
+              "position": 41,
               "id": "01ky6y0z3wkzmdhty7gq3qa1wz",
               "title": "So, what is morality?",
               "author": "optimallyirrational.com",
@@ -1488,7 +1456,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 43,
+              "position": 42,
               "id": "01kyab47vf7vat0n76fpwrgrj6",
               "title": "Your Book Review: Breakdown In Pakistan",
               "author": "Astral Codex Ten",
@@ -1515,7 +1483,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 44,
+              "position": 43,
               "id": "01kysnkmqq07z6nwe6wtvhtkxy",
               "title": "Data en de Democratische Rechtsorde",
               "author": "berthub.eu",
@@ -1544,7 +1512,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 45,
+              "position": 44,
               "id": "01kysnmbwt86e2fk3axtde57h4",
               "title": "Keynote opening Digital Commons EDIC: Moving beyond the Digital Uncommons",
               "author": "berthub.eu",
@@ -1570,7 +1538,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 46,
+              "position": 45,
               "id": "01kyxa2yd57szp13ha57708606",
               "title": "Your Book Review: The Epic Of Gilgamesh",
               "author": "Astral Codex Ten",
@@ -1600,7 +1568,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 47,
+              "position": 46,
               "id": "01m059szgmq8b5egbkgk1xe1rd",
               "title": "Arthur Koestler",
               "author": "orwellfoundation.com",
@@ -1630,7 +1598,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 48,
+              "position": 47,
               "id": "01m059tvvs5m2bk6b68kyd7bay",
               "title": "Notes on Nationalism",
               "author": "orwellfoundation.com",
@@ -1655,7 +1623,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 49,
+              "position": 48,
               "id": "01m059v21gaqg3ya0m36r03km4",
               "title": "Politics and the English Language",
               "author": "orwellfoundation.com",
@@ -1684,7 +1652,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 50,
+              "position": 49,
               "id": "01m059v4r9jj9vzx30nn7cs3sr",
               "title": "Politics vs. Literature: An examination of Gulliver’s Travels",
               "author": "orwellfoundation.com",
@@ -1713,7 +1681,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 51,
+              "position": 50,
               "id": "01m059vbg9k6x4z8p6198n481b",
               "title": "Second Thoughts on James Burnham",
               "author": "orwellfoundation.com",
@@ -1738,7 +1706,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 52,
+              "position": 51,
               "id": "01m03b0vhwd52bhh3rdjhdafv2",
               "title": "Why I Write",
               "author": "The Orwell Foundation",
@@ -1766,7 +1734,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 53,
+              "position": 52,
               "id": "01m0f295dxr46cfakg2cev3c1d",
               "title": "The Scientist Who Lived with Dozens of Children from the Pacific Islands | The New Yorker",
               "author": "newyorker.com",
@@ -1793,7 +1761,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 54,
+              "position": 53,
               "id": "01m0f5thx0x9f1rpdvj5r64m3m",
               "title": "Meditations On Moloch",
               "author": "slatestarcodexabridged.com",
@@ -1819,7 +1787,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 55,
+              "position": 54,
               "id": "01m0f7mwvh8ay32g66bb7rfsaj",
               "title": "Who Was Friedrich Nietzsche? His Life And Works",
               "author": "themicrophilosopher.com",
@@ -1844,7 +1812,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 56,
+              "position": 55,
               "id": "01m0v38d002hs35994nqn3b993",
               "title": "Re: Re: Re: Pritchard On Liberal Happiness",
               "author": "Astral Codex Ten",
@@ -1869,7 +1837,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 57,
+              "position": 56,
               "id": "01m0yytgcbktcptzp46cf14p2x",
               "title": "The Agile Coach Role Decoded: What Agile Coaches Deliver Versus What Team Members Experience - Koumaditis - 2026 - Journal of Software: Evolution and Process - Wiley Online Library",
               "author": "onlinelibrary.wiley.com",
@@ -1898,7 +1866,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 58,
+              "position": 57,
               "id": "01m0yzc8acebxvxektbepqg0kc",
               "title": "Strengthening Large-Scale Agile Teams: The Interplay of High-Quality Relationships, Psychological Safety, and Learning From Failures",
               "author": "doi.org",
@@ -1928,7 +1896,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 59,
+              "position": 58,
               "id": "01m161vztc9cvdz681k9e0xy49",
               "title": "The radical reasons why you dream of making things by hand | Aeon Essays",
               "author": "aeon.co",
@@ -1954,7 +1922,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 60,
+              "position": 59,
               "id": "01j60f108dfd1k8q12ah4cmp16",
               "title": "Hunting",
               "author": "Eleanor Konik",
@@ -1982,7 +1950,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 61,
+              "position": 60,
               "id": "01j8s9z9xg4shgce5z167zc7fn",
               "title": "📰 Food as Currency - by Eleanor Konik - Manuscriptions\n📰 Food as Currency",
               "author": "Eleanor Konik",
@@ -2010,7 +1978,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 62,
+              "position": 61,
               "id": "01jjmt3derk62gvm51m286870b",
               "title": "🎓 On Famines: why and how they happen. To who?",
               "author": "Eleanor Konik",
@@ -2038,7 +2006,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 63,
+              "position": 62,
               "id": "01jjxdnzz04ees7fytca2rnntw",
               "title": "🎓 Maritime Empires",
               "author": "Eleanor Konik",
@@ -2065,38 +2033,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 64,
-              "id": "01k1mhw46shwzk87214g7gtc9w",
-              "title": "Het begin van een oplossing",
-              "author": "Kees Verhoeven",
-              "siteName": "substack.com",
-              "category": "article",
-              "language": "Nederlands",
-              "readingTime": "5 mins",
-              "readingMinutes": 5,
-              "wordCount": 1284,
-              "publishedDate": "2025-08-01",
-              "savedDate": "2025-08-02T04:50:34.761000+00:00",
-              "imageUrl": "https://substackcdn.com/image/fetch/$s_!1jdQ!,w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fff922e10-c0e8-426d-b217-551232d44efe_908x510.heic",
-              "sourceUrl": "https://verhoeven.substack.com/p/het-begin-van-een-oplossing?r=1r0y5d&utm_medium=ios&triedRedirect=true",
-              "readwiseUrl": "https://read.readwise.io/read/01k1mhw46shwzk87214g7gtc9w",
-              "summary": "Kees Verhoeven onderzoekt hoe we de Nederlandse democratie kunnen verbeteren door te kijken naar procedures, structuren en cultuur. Hij geeft praktische voorstellen voor verkiezingen, politieke partijen en het parlement om transparanter en effectiever te worden. Zo wil hij de democratie sterker maken voor de toekomst.",
-              "whyRead": "Kees Verhoeven over het begin van een oplossing voor de democratische crisis — concrete stappen.",
-              "bestMoment": "geïnspireerd",
-              "tags": [
-                "current affairs & politics",
-                "political philosophy"
-              ],
-              "alsoIn": [
-                "aaa-dutch-top-10",
-                "aaa-dutch-top-100",
-                "aaa-short-top-100",
-                "aaa-short-dutch-top-10",
-                "aaa-short-dutch-top-100"
-              ]
-            },
-            {
-              "position": 65,
+              "position": 63,
               "id": "01k2p3a6277wff8a1nvfes1ek4",
               "title": "How to Be a Good Intelligence Analyst - by Santi Ruiz",
               "author": "Santi Ruiz",
@@ -2122,7 +2059,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 66,
+              "position": 64,
               "id": "01k3wpn5ak9v4pmtc85h462cav",
               "title": "On the pleasure of reading private notebooks",
               "author": "Henrik Karlsson",
@@ -2152,7 +2089,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 67,
+              "position": 65,
               "id": "01k72qx64tdvkryenrbd5g81px",
               "title": "The Dire State of Contemporary Western Philosophy",
               "author": "Nathan Ormond",
@@ -2180,7 +2117,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 68,
+              "position": 66,
               "id": "01k7j6j6mdje8x3v1jt8hqaba4",
               "title": "The Mimetic Trap",
               "author": "The One Percent Rule",
@@ -2208,7 +2145,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 69,
+              "position": 67,
               "id": "01k7qbgbanjkbvetnkfd47vkrz",
               "title": "How I wrote \"Looking for Alice\"",
               "author": "Henrik Karlsson",
@@ -2238,7 +2175,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 70,
+              "position": 68,
               "id": "01k7qbgpmxd9gskhw16jx5b8yk",
               "title": "Popular education in Sweden: much more than you wanted to know",
               "author": "Henrik Karlsson",
@@ -2266,7 +2203,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 71,
+              "position": 69,
               "id": "01k7xjhe96qxhs9bkr4qahjk09",
               "title": "How to Become as Well-Read as John Adams: 8 Tips From his Reading Life",
               "author": "Samuel",
@@ -2294,7 +2231,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 72,
+              "position": 70,
               "id": "01k8v9cz0ah2x4qddn265e4cnt",
               "title": "Everything Is Television",
               "author": "Derek Thompson",
@@ -2324,7 +2261,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 73,
+              "position": 71,
               "id": "01kcb7n6kftwmca7m6dgprpkwf",
               "title": "Anarchism, explained",
               "author": "Andrew Lee",
@@ -2351,7 +2288,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 74,
+              "position": 72,
               "id": "01kd1c7k90p8p5bknmbm09abwv",
               "title": "The World in Which We Live - Nassim Nicholas Taleb",
               "author": "Substack",
@@ -2379,7 +2316,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 75,
+              "position": 73,
               "id": "01kdnzthe611p0c38ts9j702s2",
               "title": "De verleiding van de kettingzaag",
               "author": "NRC Handelsblad",
@@ -2410,7 +2347,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 76,
+              "position": 74,
               "id": "01kkh2jn3p93nsh9nvbpe1w0vk",
               "title": "Rugged Spirituality",
               "author": "Andrew Taggart",
@@ -2438,7 +2375,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 77,
+              "position": 75,
               "id": "01km0ha2tggzmd2y5yjpqbycj5",
               "title": "🎓 On Geldings and the 'Natural' Social Order of Horses",
               "author": "Eleanor Konik",
@@ -2466,7 +2403,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 78,
+              "position": 76,
               "id": "01kmfmvdnqhec7daqp6x47pr85",
               "title": "On the proper use of arguments",
               "author": "Massimo Pigliucci at Figs in Winter",
@@ -2493,7 +2430,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 79,
+              "position": 77,
               "id": "01kmr5kh5wjyr899wkg9skt4f7",
               "title": "Simone Weil Explains the Manosphere",
               "author": "Joe from Unsolicited Advice",
@@ -2522,7 +2459,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 80,
+              "position": 78,
               "id": "01kmwmt7f9jtm6j0gb6pnda9zk",
               "title": "Philosophy of Science",
               "author": "Joseph Rahi",
@@ -2550,7 +2487,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 81,
+              "position": 79,
               "id": "01kqsnmx2rdcaktjvwsjmmq2cn",
               "title": "The games we want to be playing",
               "author": "Jared Henderson from Commonplace Philosophy",
@@ -2578,7 +2515,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 82,
+              "position": 80,
               "id": "01kqwf46h1tackak8werthsvy5",
               "title": "Henrik Karlsson: The Writing Process Nobody Teaches You",
               "author": "David Perell",
@@ -2607,7 +2544,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 83,
+              "position": 81,
               "id": "01krkbe7701j87vmw7wrs54h8m",
               "title": "They Are Putting A Black Hole Inside Your Head",
               "author": "Paul Musso",
@@ -2635,7 +2572,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 84,
+              "position": 82,
               "id": "01krn1jdcn6b450yv1z0j92tz3",
               "title": "The Radical Sunzi",
               "author": "scholars-stage.org",
@@ -2664,7 +2601,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 85,
+              "position": 83,
               "id": "01kt72hwt9asrzwwx70ybxyabe",
               "title": "How Love Became Just Another Thing to Optimize",
               "author": "Philosophize This! from Philosophize This!",
@@ -2692,7 +2629,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 86,
+              "position": 84,
               "id": "01kvarejkjdc6y2cjp2d0ewgkd",
               "title": "The Desecration of Man - Say No to Nietzsche",
               "author": "R.W. Richey from We Are Not Saved",
@@ -2722,7 +2659,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 87,
+              "position": 85,
               "id": "01kvcgsfekyqqc5b9t3nmrge8m",
               "title": "Hoera, het is Waterloodag!",
               "author": "De Ongelooflijke",
@@ -2759,7 +2696,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 88,
+              "position": 86,
               "id": "01kvh7ec1tezr2vy9bqgsm6an4",
               "title": "Is There a Science of Writing?",
               "author": "Carl Hendrick from The Learning Dispatch",
@@ -2789,7 +2726,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 89,
+              "position": 87,
               "id": "01kvjbgrqsftb77gs496c0p12t",
               "title": "If the First Apocalypse Doesn’t Get You, the Second One Will",
               "author": "Miller’s Book Review 📚",
@@ -2819,7 +2756,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 90,
+              "position": 88,
               "id": "01kvtqy4rffwdb1t73t37netda",
               "title": "Antwoorden op vragen die niet gesteld worden",
               "author": "Kauthar",
@@ -2847,7 +2784,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 91,
+              "position": 89,
               "id": "01kvwwdq8bhy9m3x614gmtn41d",
               "title": "Andrew Stanton: Storytelling Secrets from the Writer of Toy Story 5",
               "author": "David Perell",
@@ -2876,7 +2813,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 92,
+              "position": 90,
               "id": "01kwfk5q2rtfm9enggaybd07zq",
               "title": "David Sedaris: Lessons From Decades of Writing",
               "author": "David Perell",
@@ -2905,7 +2842,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 93,
+              "position": 91,
               "id": "01kx66q5d0pg8whe75n7qr82td",
               "title": "Count Binface and the Politics of Ridicule",
               "author": "Brian Klaas",
@@ -2936,7 +2873,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 94,
+              "position": 92,
               "id": "01kxdxaytaf6tm6ntqnc9vdw18",
               "title": "Apophenia and Manufactured Desire",
               "author": "Jared Henderson from Commonplace Philosophy",
@@ -2963,7 +2900,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 95,
+              "position": 93,
               "id": "01kxpg8mpkegghvbz5w71ne86v",
               "title": "Against \"Stochastic Terrorism\"",
               "author": "Astral Codex Ten",
@@ -2990,7 +2927,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 96,
+              "position": 94,
               "id": "01kxy1qnae4npandc4x9mv4aw0",
               "title": "To Understand Elon Musk, You Have to Understand This ’60s Sci-Fi Novel",
               "author": "jacobin.com",
@@ -3021,7 +2958,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 97,
+              "position": 95,
               "id": "01kxzghzvbjtnr20f8vwmwc8s5",
               "title": "Letters of Last Resort",
               "author": "Brian Klaas",
@@ -3048,7 +2985,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 98,
+              "position": 96,
               "id": "01ky6y112ahhdfz7zdrw7w1jkc",
               "title": "Fish farts, dead elephants, and total institutions in wildlife conservation",
               "author": "projectcroak.com",
@@ -3077,7 +3014,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 99,
+              "position": 97,
               "id": "01ky7qe9p9qwtpk49bzc4pqqhk",
               "title": "Normal Accidents: Living with High-Risk Technologies",
               "author": "blog.jcx.au",
@@ -3105,7 +3042,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 100,
+              "position": 98,
               "id": "01ky7y54f3cb0xcxn9nyexpkzw",
               "title": "When philosophers and the public disagree",
               "author": "Jared Henderson from Commonplace Philosophy",
@@ -3130,6 +3067,65 @@ window.TOP_ARTICLES = {
               "alsoIn": [
                 "aaa-short-top-100"
               ]
+            },
+            {
+              "position": 99,
+              "id": "01kycfev2jfr2v5x5pqr2scxz7",
+              "title": "How to Win a Billion Dollars and Ruin Your Life",
+              "author": "Miller’s Book Review 📚",
+              "siteName": "Substack",
+              "category": "email",
+              "language": "Engels",
+              "readingTime": "5 mins",
+              "readingMinutes": 5,
+              "wordCount": 1249,
+              "publishedDate": "2026-07-25",
+              "savedDate": "2026-07-25T11:09:39.795000+00:00",
+              "imageUrl": null,
+              "sourceUrl": "mailto:reader-forwarded-email/c3fe10e11ea986437105f911800c098d",
+              "readwiseUrl": "https://read.readwise.io/read/01kycfev2jfr2v5x5pqr2scxz7",
+              "summary": "The great myths are always with us. “The ‘Iliad’ is only great because all life is a battle, the ‘Odyssey’ because all life is a journey, the Book of Job because all life is a riddle,” said G.",
+              "whyRead": "Raakt je interesse in fictie, mythes en cultuurkritiek: deze review laat zien hoe een hedendaagse satire Icarus, Phaethon en Cassandra gebruikt voor rijkdom, status en politieke ambitie.",
+              "bestMoment": "ontspannen",
+              "tags": [
+                "arts & culture",
+                "fiction",
+                "later",
+                "light-reading",
+                "political philosophy"
+              ],
+              "alsoIn": [
+                "aaa-short-top-100",
+                "aaa-luchtig-top-100"
+              ]
+            },
+            {
+              "position": 100,
+              "id": "01kysnj4rgn2xvk4wh8pqj831w",
+              "title": "The Disappearing Body",
+              "author": "plough.com",
+              "siteName": "Plough",
+              "category": "article",
+              "language": "Engels",
+              "readingTime": "9 mins",
+              "readingMinutes": 9,
+              "wordCount": 2187,
+              "publishedDate": "2026-07-17",
+              "savedDate": "2026-07-30T14:06:27.088000+00:00",
+              "imageUrl": "https://cdn.prod.website-files.com/675475da8b1bc1cfa37674fa/6a58e1c612b481cd10a6b6f3_SutterfieldSocial.jpg",
+              "sourceUrl": "https://www.plough.com/articles/the-disappearing-body",
+              "readwiseUrl": "https://read.readwise.io/read/01kysnj4rgn2xvk4wh8pqj831w",
+              "summary": "What have we lost with the decline in traditional burial practices? How can we give grief its ground and the body its place?",
+              "whyRead": "Raakt je interesse in rouw en betekenisgeving: een essay over wat traditionele begrafenispraktijken boden en wat er verloren kan gaan wanneer het lichaam uit beeld verdwijnt.",
+              "bestMoment": "reflectief",
+              "tags": [
+                "personal growth & life philosophy",
+                "philosophy",
+                "sociology & social structures"
+              ],
+              "alsoIn": [
+                "aaa-short-top-100"
+              ]
             }
           ]
         }
@@ -3147,38 +3143,6 @@ window.TOP_ARTICLES = {
           "items": [
             {
               "position": 1,
-              "id": "01kysnmckrgernh72bvvz2eprz",
-              "title": "Minister van Digitale Zaken: hoe het kan werken",
-              "author": "berthub.eu",
-              "siteName": "Bert Hubert's writings",
-              "category": "article",
-              "language": "Nederlands",
-              "readingTime": "7 mins",
-              "readingMinutes": 7,
-              "wordCount": 1791,
-              "publishedDate": "2024-03-19",
-              "savedDate": "2026-07-30T14:07:40.661000+00:00",
-              "imageUrl": "https://berthub.eu/articles/akkermans.jpg",
-              "sourceUrl": "https://berthub.eu/articles/posts/minister-van-digitale-zaken/",
-              "readwiseUrl": "https://read.readwise.io/read/01kysnmckrgernh72bvvz2eprz",
-              "summary": "De hele korte versie: een minister voor Digitale Zaken heeft alleen zin als deze minstens evenveel doorzettingsmacht krijgt als de minister van Financiën. En het werkt ook alleen als die nieuwe minister een agenda heeft waarbij ICT veel meer is dan “iets wat je inkoopt”, maar echt een kernactiviteit wordt waar geïnnoveerd kan worden. En dat vergt een nieuwe erkenning van ICT-ambtenaren als daadwerkelijk belangrijke mensen, die aan de knoppen zitten en dingen mogen veranderen.",
-              "whyRead": "Raakt je interesse in digitale overheid: een concreet pleidooi voor een minister van Digitale Zaken met echte doorzettingsmacht.",
-              "bestMoment": "kritisch",
-              "tags": [
-                "political philosophy",
-                "professional development",
-                "technology"
-              ],
-              "alsoIn": [
-                "aaa-top-100",
-                "aaa-dutch-top-100",
-                "aaa-short-top-100",
-                "aaa-short-dutch-top-10",
-                "aaa-short-dutch-top-100"
-              ]
-            },
-            {
-              "position": 2,
               "id": "01kysnkmqq07z6nwe6wtvhtkxy",
               "title": "Data en de Democratische Rechtsorde",
               "author": "berthub.eu",
@@ -3207,38 +3171,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 3,
-              "id": "01k1mhw46shwzk87214g7gtc9w",
-              "title": "Het begin van een oplossing",
-              "author": "Kees Verhoeven",
-              "siteName": "substack.com",
-              "category": "article",
-              "language": "Nederlands",
-              "readingTime": "5 mins",
-              "readingMinutes": 5,
-              "wordCount": 1284,
-              "publishedDate": "2025-08-01",
-              "savedDate": "2025-08-02T04:50:34.761000+00:00",
-              "imageUrl": "https://substackcdn.com/image/fetch/$s_!1jdQ!,w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fff922e10-c0e8-426d-b217-551232d44efe_908x510.heic",
-              "sourceUrl": "https://verhoeven.substack.com/p/het-begin-van-een-oplossing?r=1r0y5d&utm_medium=ios&triedRedirect=true",
-              "readwiseUrl": "https://read.readwise.io/read/01k1mhw46shwzk87214g7gtc9w",
-              "summary": "Kees Verhoeven onderzoekt hoe we de Nederlandse democratie kunnen verbeteren door te kijken naar procedures, structuren en cultuur. Hij geeft praktische voorstellen voor verkiezingen, politieke partijen en het parlement om transparanter en effectiever te worden. Zo wil hij de democratie sterker maken voor de toekomst.",
-              "whyRead": "Kees Verhoeven over het begin van een oplossing voor de democratische crisis — concrete stappen.",
-              "bestMoment": "geïnspireerd",
-              "tags": [
-                "current affairs & politics",
-                "political philosophy"
-              ],
-              "alsoIn": [
-                "aaa-top-100",
-                "aaa-dutch-top-100",
-                "aaa-short-top-100",
-                "aaa-short-dutch-top-10",
-                "aaa-short-dutch-top-100"
-              ]
-            },
-            {
-              "position": 4,
+              "position": 2,
               "id": "01kdnzthe611p0c38ts9j702s2",
               "title": "De verleiding van de kettingzaag",
               "author": "NRC Handelsblad",
@@ -3269,7 +3202,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 5,
+              "position": 3,
               "id": "01kvcgsfekyqqc5b9t3nmrge8m",
               "title": "Hoera, het is Waterloodag!",
               "author": "De Ongelooflijke",
@@ -3306,7 +3239,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 6,
+              "position": 4,
               "id": "01kyxvjcj0396b5z5w8bcz634q",
               "title": "De atheïst die de bekendste verdediger van het christendom werd",
               "author": "De Ongelooflijke",
@@ -3331,246 +3264,6 @@ window.TOP_ARTICLES = {
               ],
               "alsoIn": [
                 "aaa-dutch-top-100",
-                "aaa-short-top-100",
-                "aaa-short-dutch-top-10",
-                "aaa-short-dutch-top-100"
-              ]
-            },
-            {
-              "position": 7,
-              "id": "01kzjk22zxkgrvftgdtdvj01rq",
-              "title": "Twintig seconden waar ik me diep voor schaam",
-              "author": "Jona van Loenen",
-              "siteName": "Substack",
-              "category": "email",
-              "language": "Nederlands",
-              "readingTime": "9 mins",
-              "readingMinutes": 9,
-              "wordCount": 2122,
-              "publishedDate": "2026-08-09",
-              "savedDate": "2026-08-09T06:23:44.637000+00:00",
-              "imageUrl": null,
-              "sourceUrl": "mailto:reader-forwarded-email/d6f314a85583cfa5b9175a9ac4ec73f8",
-              "readwiseUrl": "https://read.readwise.io/read/01kzjk22zxkgrvftgdtdvj01rq",
-              "summary": "Ik was bezig met het afronden van de laatste versie van het laatste hoofdstuk van mijn nieuwe boek. In alle eerlijkheid was dat niet alleen dinsdag.",
-              "whyRead": "Een persoonlijk, helder essay over AI als verleiding om precies het soort inspanning uit te besteden waar vaardigheid, trots en betekenis uit groeien. Sterke tegenhanger voor een puur productiviteitskader.",
-              "bestMoment": "reflectief",
-              "tags": [
-                "ai ethics",
-                "personal",
-                "philosophy"
-              ],
-              "alsoIn": [
-                "aaa-dutch-top-100",
-                "aaa-short-top-100",
-                "aaa-short-dutch-top-10",
-                "aaa-short-dutch-top-100"
-              ]
-            },
-            {
-              "position": 8,
-              "id": "01k0787yxz912x1kgykz88ngts",
-              "title": "Tijd voor solidariteit",
-              "author": "Wetenschappelijk Bureau Groenlinks",
-              "siteName": "Wetenschappelijk Bureau Groenlinks",
-              "category": "article",
-              "language": "Nederlands",
-              "readingTime": "22 mins",
-              "readingMinutes": 22,
-              "wordCount": 5772,
-              "publishedDate": "2025-06-10",
-              "savedDate": "2025-07-15T14:36:27.455000+00:00",
-              "imageUrl": "https://www.wetenschappelijkbureaugroenlinks.nl/sites/wetenschappelijkbureau/files/styles/instagram/public/2025-06/Tijd%20voor%20solidariteit%20beginselprogramma.jpg?h=8f74817f&itok=c-ESuTOV",
-              "sourceUrl": "https://www.wetenschappelijkbureaugroenlinks.nl/artikelen/tijd-voor-solidariteit",
-              "readwiseUrl": "https://read.readwise.io/read/01k0787yxz912x1kgykz88ngts",
-              "summary": "The text calls for solidarity to build a fair and equal society where everyone can be themselves. It emphasizes the need for public services like healthcare and education to be accessible to all without profit motives. Together, people must unite to protect democracy, workers' rights, and the environment for a better future.",
-              "whyRead": "Beginselprogramma van GroenLinks-PvdA over solidariteit als politiek fundament — relevant voor je interesse in linkse ideologie en sociaaldemocratisch denken in Nederland.",
-              "bestMoment": "kritisch",
-              "tags": [
-                "current affairs & politics",
-                "learning & meta-learning",
-                "political philosophy"
-              ],
-              "alsoIn": [
-                "aaa-dutch-top-100"
-              ]
-            },
-            {
-              "position": 9,
-              "id": "01k4hz4tpj7wyg13z1mrad20g8",
-              "title": "Longread: Chantal Mouffe – Over het politieke",
-              "author": "Philipp Kocks",
-              "siteName": "deMens.nu",
-              "category": "article",
-              "language": "Nederlands",
-              "readingTime": "19 mins",
-              "readingMinutes": 19,
-              "wordCount": 4794,
-              "publishedDate": "2021-01-18",
-              "savedDate": "2025-09-07T11:31:53.682000+00:00",
-              "imageUrl": "https://demens.nu/wp-content/uploads/2021/01/Longread-visual.png",
-              "sourceUrl": "https://demens.nu/2021/01/18/longread-chantal-mouffe/",
-              "readwiseUrl": "https://read.readwise.io/read/01k4hz4tpj7wyg13z1mrad20g8",
-              "summary": "Chantal Mouffe zegt dat politiek conflict onvermijdelijk is.  \nZe verwerpt consensusdenken en pleit voor agonisme: legitieme, gepassioneerde confrontatie binnen democratische instellingen.  \nWordt conflict weggedrukt, dan groeit onvrede en populisme, dus democratie moet tegenstanders erkennen binnen gedeelde waarden van vrijheid en gelijkheid.",
-              "whyRead": "Raakt je interesse in politieke filosofie en de spanning tussen pluralisme, populisme en democratische instituties. Mouffe biedt een scherp begrippenkader om consensuspolitiek te toetsen zonder conflict te romantiseren.",
-              "bestMoment": "analytisch",
-              "tags": [
-                "political philosophy"
-              ],
-              "alsoIn": [
-                "aaa-dutch-top-100"
-              ]
-            },
-            {
-              "position": 10,
-              "id": "01kd66gdx0xhsnk7nxcsvfcgpa",
-              "title": "Een tijd van monsters: waarom de beste mensen niet meer de top bereiken",
-              "author": "Rutger Bregman",
-              "siteName": "De Correspondent",
-              "category": "article",
-              "language": "Nederlands",
-              "readingTime": "16 mins",
-              "readingMinutes": 16,
-              "wordCount": 4177,
-              "publishedDate": "2025-12-23",
-              "savedDate": "2025-12-23T18:10:57.056000+00:00",
-              "imageUrl": "https://useruploads.cdn-decorrespondent.nl/image/_I7wuCWdHvNy-gy8wvDvT99feRc=/1590x1060/dc-useruploads-images/e8824af0c1ab44db923d7007ee7074ec.jpg",
-              "sourceUrl": "https://decorrespondent.nl/16607/een-tijd-van-monsters-waarom-de-beste-mensen-niet-meer-de-top-bereiken/a01777b1-0224-0b60-27c9-021dcb50f36b",
-              "readwiseUrl": "https://read.readwise.io/read/01kd66gdx0xhsnk7nxcsvfcgpa",
-              "summary": "Rutger Bregman waarschuwt dat westerse leiderschap moreel is vervallen en goede mensen niet meer doorbreken.  \nHij beschrijft een verspilling van talent, groeiende zelfzucht en politieke verval vergelijkbaar met Rome of Venetië.  \nZijn oplossing is een morele revolutie waarin macht weer wordt gebruikt om goed te doen.",
-              "whyRead": "Raakt je interesse in politieke filosofie — Rutger Bregman's BBC Reith Lecture over de leiderschapscrisis: niet de slimsten, maar de meest schaamtelozen bereiken de top.",
-              "bestMoment": "analytisch",
-              "tags": [
-                "political philosophy",
-                "sociology & inequality"
-              ],
-              "alsoIn": [
-                "aaa-dutch-top-100"
-              ]
-            }
-          ]
-        },
-        "top-100": {
-          "tag": "aaa-dutch-top-100",
-          "items": [
-            {
-              "position": 1,
-              "id": "01kysnmckrgernh72bvvz2eprz",
-              "title": "Minister van Digitale Zaken: hoe het kan werken",
-              "author": "berthub.eu",
-              "siteName": "Bert Hubert's writings",
-              "category": "article",
-              "language": "Nederlands",
-              "readingTime": "7 mins",
-              "readingMinutes": 7,
-              "wordCount": 1791,
-              "publishedDate": "2024-03-19",
-              "savedDate": "2026-07-30T14:07:40.661000+00:00",
-              "imageUrl": "https://berthub.eu/articles/akkermans.jpg",
-              "sourceUrl": "https://berthub.eu/articles/posts/minister-van-digitale-zaken/",
-              "readwiseUrl": "https://read.readwise.io/read/01kysnmckrgernh72bvvz2eprz",
-              "summary": "De hele korte versie: een minister voor Digitale Zaken heeft alleen zin als deze minstens evenveel doorzettingsmacht krijgt als de minister van Financiën. En het werkt ook alleen als die nieuwe minister een agenda heeft waarbij ICT veel meer is dan “iets wat je inkoopt”, maar echt een kernactiviteit wordt waar geïnnoveerd kan worden. En dat vergt een nieuwe erkenning van ICT-ambtenaren als daadwerkelijk belangrijke mensen, die aan de knoppen zitten en dingen mogen veranderen.",
-              "whyRead": "Raakt je interesse in digitale overheid: een concreet pleidooi voor een minister van Digitale Zaken met echte doorzettingsmacht.",
-              "bestMoment": "kritisch",
-              "tags": [
-                "political philosophy",
-                "professional development",
-                "technology"
-              ],
-              "alsoIn": [
-                "aaa-top-100",
-                "aaa-dutch-top-10",
-                "aaa-short-top-100",
-                "aaa-short-dutch-top-10",
-                "aaa-short-dutch-top-100"
-              ]
-            },
-            {
-              "position": 2,
-              "id": "01kysnkmqq07z6nwe6wtvhtkxy",
-              "title": "Data en de Democratische Rechtsorde",
-              "author": "berthub.eu",
-              "siteName": "Bert Hubert's writings",
-              "category": "article",
-              "language": "Nederlands",
-              "readingTime": "38 mins",
-              "readingMinutes": 38,
-              "wordCount": 9884,
-              "publishedDate": "2025-09-28",
-              "savedDate": "2026-07-30T14:07:16.215000+00:00",
-              "imageUrl": "https://berthub.eu/articles/ddr-23.png",
-              "sourceUrl": "https://berthub.eu/articles/posts/data-democratische-rechtsorde/",
-              "readwiseUrl": "https://read.readwise.io/read/01kysnkmqq07z6nwe6wtvhtkxy",
-              "summary": "Data en de democratische rechtsorde. Ik dacht, ik begin eens goed pompeus. Bij de AIVD werkte ik mee aan het afluisteren van mensen, later heb ik daar software voor gemaakt en allemaal heel interessante dingen gedaan. Nog later weer werd ik toezichthouder van diezelfde AIVD en de MIVD en moest ik toestemming geven voor die dingen, mag je Pietje afluisteren of niet, of mag je Pietje en al zijn vrienden afluisteren, of mag je misschien heel Nederland aftappen.",
-              "whyRead": "Raakt je interesse in data en rechtsstaat: een ervaringsrijk essay over surveillance, toezicht en de democratische grenzen aan datagedreven macht.",
-              "bestMoment": "kritisch",
-              "tags": [
-                "political philosophy",
-                "sociology & social structures",
-                "technology"
-              ],
-              "alsoIn": [
-                "aaa-top-100",
-                "aaa-dutch-top-10"
-              ]
-            },
-            {
-              "position": 3,
-              "id": "01k1mhw46shwzk87214g7gtc9w",
-              "title": "Het begin van een oplossing",
-              "author": "Kees Verhoeven",
-              "siteName": "substack.com",
-              "category": "article",
-              "language": "Nederlands",
-              "readingTime": "5 mins",
-              "readingMinutes": 5,
-              "wordCount": 1284,
-              "publishedDate": "2025-08-01",
-              "savedDate": "2025-08-02T04:50:34.761000+00:00",
-              "imageUrl": "https://substackcdn.com/image/fetch/$s_!1jdQ!,w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fff922e10-c0e8-426d-b217-551232d44efe_908x510.heic",
-              "sourceUrl": "https://verhoeven.substack.com/p/het-begin-van-een-oplossing?r=1r0y5d&utm_medium=ios&triedRedirect=true",
-              "readwiseUrl": "https://read.readwise.io/read/01k1mhw46shwzk87214g7gtc9w",
-              "summary": "Kees Verhoeven onderzoekt hoe we de Nederlandse democratie kunnen verbeteren door te kijken naar procedures, structuren en cultuur. Hij geeft praktische voorstellen voor verkiezingen, politieke partijen en het parlement om transparanter en effectiever te worden. Zo wil hij de democratie sterker maken voor de toekomst.",
-              "whyRead": "Kees Verhoeven over het begin van een oplossing voor de democratische crisis — concrete stappen.",
-              "bestMoment": "geïnspireerd",
-              "tags": [
-                "current affairs & politics",
-                "political philosophy"
-              ],
-              "alsoIn": [
-                "aaa-top-100",
-                "aaa-dutch-top-10",
-                "aaa-short-top-100",
-                "aaa-short-dutch-top-10",
-                "aaa-short-dutch-top-100"
-              ]
-            },
-            {
-              "position": 4,
-              "id": "01kdnzthe611p0c38ts9j702s2",
-              "title": "De verleiding van de kettingzaag",
-              "author": "NRC Handelsblad",
-              "siteName": "NRC",
-              "category": "article",
-              "language": "Nederlands",
-              "readingTime": "9 mins",
-              "readingMinutes": 9,
-              "wordCount": 2243,
-              "publishedDate": "2025-12-25",
-              "savedDate": "2025-12-29T21:21:59.238000+00:00",
-              "imageUrl": "https://images.nrc.nl/wFtlC1eygAg9wnrwHMGMqZZkFJQ=/1200x627/smart/filters:no_upscale()/s3/static.nrc.nl/wp-content/uploads/2025/12/19080957/261225OPI_2027696901_Binnen-breed-Bas-Heijne-Anne-van-Wieren-WEB.jpg",
-              "sourceUrl": "https://www.nrc.nl/nieuws/2025/12/25/de-verleiding-van-de-kettingzaag-a4915742",
-              "readwiseUrl": "https://read.readwise.io/read/01kdnzthe611p0c38ts9j702s2",
-              "summary": "Tech‑bazen en rijke vrijheidszoekers willen regels en overheid omzeilen om hun macht en keuzes te maximaliseren.  \nDat leidt tot ongelijkheid, gehoorzaamheid aan technocratische idealen en een cultuur van woede en afbraak van de democratie.  \nHet resultaat is een gevaarlijke ontmenselijking en het grotendeels falen van beschaving en zelfbeheersing.",
-              "whyRead": "Raakt je interesse in politieke filosofie — Bas Heijne over de gevaarlijke aantrekkingskracht van 'kettingzaag'-politiek: snelle destructie als politieke verleiding.",
-              "bestMoment": "kritisch",
-              "tags": [
-                "current affairs & politics",
-                "political philosophy"
-              ],
-              "alsoIn": [
-                "aaa-top-100",
-                "aaa-dutch-top-10",
                 "aaa-short-top-100",
                 "aaa-short-dutch-top-10",
                 "aaa-short-dutch-top-100"
@@ -3578,74 +3271,6 @@ window.TOP_ARTICLES = {
             },
             {
               "position": 5,
-              "id": "01kvcgsfekyqqc5b9t3nmrge8m",
-              "title": "Hoera, het is Waterloodag!",
-              "author": "De Ongelooflijke",
-              "siteName": "Substack",
-              "category": "email",
-              "language": "Nederlands",
-              "readingTime": "8 mins",
-              "readingMinutes": 8,
-              "wordCount": 1935,
-              "publishedDate": "2026-06-18",
-              "savedDate": "2026-06-18T04:45:51.444000+00:00",
-              "imageUrl": null,
-              "sourceUrl": "mailto:reader-forwarded-email/9063dc73da1b3f69c5087334680b7b3a",
-              "readwiseUrl": "https://read.readwise.io/read/01kvcgsfekyqqc5b9t3nmrge8m",
-              "summary": "Meer dan honderd jaar was 18 juni in Nederland een nationale feestdag, ter herinnering aan de Slag bij Waterloo (1815): de dag waarop Napoleon definitief werd verslagen en de geschiedenis van Nederland en Europa een beslissende wending nam.",
-              "whyRead": "Raakt je interesse in Europese geschiedenis en collectief geheugen: zeven veldslagen worden niet alleen militair, maar ook cultureel en identitair geduid. De meerwaarde zit in de combinatie van geschiedenis, mythevorming en historische verbeelding.",
-              "bestMoment": "ontspannen",
-              "tags": [
-                "arts & culture",
-                "history",
-                "later",
-                "light-reading",
-                "sociology & social structures"
-              ],
-              "alsoIn": [
-                "aaa-top-100",
-                "aaa-dutch-top-10",
-                "aaa-short-top-100",
-                "aaa-short-dutch-top-10",
-                "aaa-short-dutch-top-100",
-                "aaa-luchtig-top-100",
-                "aaa-luchtig-nederlands-top-10",
-                "aaa-luchtig-nederlands-top-100"
-              ]
-            },
-            {
-              "position": 6,
-              "id": "01kyxvjcj0396b5z5w8bcz634q",
-              "title": "De atheïst die de bekendste verdediger van het christendom werd",
-              "author": "De Ongelooflijke",
-              "siteName": "Substack",
-              "category": "email",
-              "language": "Nederlands",
-              "readingTime": "9 mins",
-              "readingMinutes": 9,
-              "wordCount": 2302,
-              "publishedDate": "2026-08-01",
-              "savedDate": "2026-08-01T05:08:24.257000+00:00",
-              "imageUrl": null,
-              "sourceUrl": "mailto:reader-forwarded-email/363643d320a4241500df2bc54c0e90ca",
-              "readwiseUrl": "https://read.readwise.io/read/01kyxvjcj0396b5z5w8bcz634q",
-              "summary": "“Het leek op het moment waarop een mens, na een lange slaap, nog roerloos in bed ligt en zich ervan bewust wordt dat hij nu wakker is. ” Zo omschrijft C.",
-              "whyRead": "Zie de gekozen tags: dit stuk biedt een inhoudelijke ingang die aansluit op die interessegebieden.",
-              "bestMoment": "reflectief",
-              "tags": [
-                "history",
-                "later",
-                "philosophy"
-              ],
-              "alsoIn": [
-                "aaa-dutch-top-10",
-                "aaa-short-top-100",
-                "aaa-short-dutch-top-10",
-                "aaa-short-dutch-top-100"
-              ]
-            },
-            {
-              "position": 7,
               "id": "01kzjk22zxkgrvftgdtdvj01rq",
               "title": "Twintig seconden waar ik me diep voor schaam",
               "author": "Jona van Loenen",
@@ -3669,14 +3294,14 @@ window.TOP_ARTICLES = {
                 "philosophy"
               ],
               "alsoIn": [
-                "aaa-dutch-top-10",
+                "aaa-dutch-top-100",
                 "aaa-short-top-100",
                 "aaa-short-dutch-top-10",
                 "aaa-short-dutch-top-100"
               ]
             },
             {
-              "position": 8,
+              "position": 6,
               "id": "01k0787yxz912x1kgykz88ngts",
               "title": "Tijd voor solidariteit",
               "author": "Wetenschappelijk Bureau Groenlinks",
@@ -3700,11 +3325,11 @@ window.TOP_ARTICLES = {
                 "political philosophy"
               ],
               "alsoIn": [
-                "aaa-dutch-top-10"
+                "aaa-dutch-top-100"
               ]
             },
             {
-              "position": 9,
+              "position": 7,
               "id": "01k4hz4tpj7wyg13z1mrad20g8",
               "title": "Longread: Chantal Mouffe – Over het politieke",
               "author": "Philipp Kocks",
@@ -3726,11 +3351,11 @@ window.TOP_ARTICLES = {
                 "political philosophy"
               ],
               "alsoIn": [
-                "aaa-dutch-top-10"
+                "aaa-dutch-top-100"
               ]
             },
             {
-              "position": 10,
+              "position": 8,
               "id": "01kd66gdx0xhsnk7nxcsvfcgpa",
               "title": "Een tijd van monsters: waarom de beste mensen niet meer de top bereiken",
               "author": "Rutger Bregman",
@@ -3753,11 +3378,11 @@ window.TOP_ARTICLES = {
                 "sociology & inequality"
               ],
               "alsoIn": [
-                "aaa-dutch-top-10"
+                "aaa-dutch-top-100"
               ]
             },
             {
-              "position": 11,
+              "position": 9,
               "id": "01kqj7zfv4pjw25bctmdrswe18",
               "title": "Waarom de Nederlandse democratie in de jaren ’30 niet ten onder ging",
               "author": "De Ongelooflijke",
@@ -3780,10 +3405,12 @@ window.TOP_ARTICLES = {
                 "political philosophy",
                 "totalitarianism & fascism"
               ],
-              "alsoIn": []
+              "alsoIn": [
+                "aaa-dutch-top-100"
+              ]
             },
             {
-              "position": 12,
+              "position": 10,
               "id": "01ksc75pt8qjpzxtda00x3dba8",
               "title": "Waarom komen politici met steeds meer weg?",
               "author": "Dieuwertje Kuijpers",
@@ -3806,10 +3433,313 @@ window.TOP_ARTICLES = {
                 "political philosophy",
                 "sociology & social structures"
               ],
-              "alsoIn": []
+              "alsoIn": [
+                "aaa-dutch-top-100"
+              ]
+            }
+          ]
+        },
+        "top-100": {
+          "tag": "aaa-dutch-top-100",
+          "items": [
+            {
+              "position": 1,
+              "id": "01kysnkmqq07z6nwe6wtvhtkxy",
+              "title": "Data en de Democratische Rechtsorde",
+              "author": "berthub.eu",
+              "siteName": "Bert Hubert's writings",
+              "category": "article",
+              "language": "Nederlands",
+              "readingTime": "38 mins",
+              "readingMinutes": 38,
+              "wordCount": 9884,
+              "publishedDate": "2025-09-28",
+              "savedDate": "2026-07-30T14:07:16.215000+00:00",
+              "imageUrl": "https://berthub.eu/articles/ddr-23.png",
+              "sourceUrl": "https://berthub.eu/articles/posts/data-democratische-rechtsorde/",
+              "readwiseUrl": "https://read.readwise.io/read/01kysnkmqq07z6nwe6wtvhtkxy",
+              "summary": "Data en de democratische rechtsorde. Ik dacht, ik begin eens goed pompeus. Bij de AIVD werkte ik mee aan het afluisteren van mensen, later heb ik daar software voor gemaakt en allemaal heel interessante dingen gedaan. Nog later weer werd ik toezichthouder van diezelfde AIVD en de MIVD en moest ik toestemming geven voor die dingen, mag je Pietje afluisteren of niet, of mag je Pietje en al zijn vrienden afluisteren, of mag je misschien heel Nederland aftappen.",
+              "whyRead": "Raakt je interesse in data en rechtsstaat: een ervaringsrijk essay over surveillance, toezicht en de democratische grenzen aan datagedreven macht.",
+              "bestMoment": "kritisch",
+              "tags": [
+                "political philosophy",
+                "sociology & social structures",
+                "technology"
+              ],
+              "alsoIn": [
+                "aaa-top-100",
+                "aaa-dutch-top-10"
+              ]
             },
             {
-              "position": 13,
+              "position": 2,
+              "id": "01kdnzthe611p0c38ts9j702s2",
+              "title": "De verleiding van de kettingzaag",
+              "author": "NRC Handelsblad",
+              "siteName": "NRC",
+              "category": "article",
+              "language": "Nederlands",
+              "readingTime": "9 mins",
+              "readingMinutes": 9,
+              "wordCount": 2243,
+              "publishedDate": "2025-12-25",
+              "savedDate": "2025-12-29T21:21:59.238000+00:00",
+              "imageUrl": "https://images.nrc.nl/wFtlC1eygAg9wnrwHMGMqZZkFJQ=/1200x627/smart/filters:no_upscale()/s3/static.nrc.nl/wp-content/uploads/2025/12/19080957/261225OPI_2027696901_Binnen-breed-Bas-Heijne-Anne-van-Wieren-WEB.jpg",
+              "sourceUrl": "https://www.nrc.nl/nieuws/2025/12/25/de-verleiding-van-de-kettingzaag-a4915742",
+              "readwiseUrl": "https://read.readwise.io/read/01kdnzthe611p0c38ts9j702s2",
+              "summary": "Tech‑bazen en rijke vrijheidszoekers willen regels en overheid omzeilen om hun macht en keuzes te maximaliseren.  \nDat leidt tot ongelijkheid, gehoorzaamheid aan technocratische idealen en een cultuur van woede en afbraak van de democratie.  \nHet resultaat is een gevaarlijke ontmenselijking en het grotendeels falen van beschaving en zelfbeheersing.",
+              "whyRead": "Raakt je interesse in politieke filosofie — Bas Heijne over de gevaarlijke aantrekkingskracht van 'kettingzaag'-politiek: snelle destructie als politieke verleiding.",
+              "bestMoment": "kritisch",
+              "tags": [
+                "current affairs & politics",
+                "political philosophy"
+              ],
+              "alsoIn": [
+                "aaa-top-100",
+                "aaa-dutch-top-10",
+                "aaa-short-top-100",
+                "aaa-short-dutch-top-10",
+                "aaa-short-dutch-top-100"
+              ]
+            },
+            {
+              "position": 3,
+              "id": "01kvcgsfekyqqc5b9t3nmrge8m",
+              "title": "Hoera, het is Waterloodag!",
+              "author": "De Ongelooflijke",
+              "siteName": "Substack",
+              "category": "email",
+              "language": "Nederlands",
+              "readingTime": "8 mins",
+              "readingMinutes": 8,
+              "wordCount": 1935,
+              "publishedDate": "2026-06-18",
+              "savedDate": "2026-06-18T04:45:51.444000+00:00",
+              "imageUrl": null,
+              "sourceUrl": "mailto:reader-forwarded-email/9063dc73da1b3f69c5087334680b7b3a",
+              "readwiseUrl": "https://read.readwise.io/read/01kvcgsfekyqqc5b9t3nmrge8m",
+              "summary": "Meer dan honderd jaar was 18 juni in Nederland een nationale feestdag, ter herinnering aan de Slag bij Waterloo (1815): de dag waarop Napoleon definitief werd verslagen en de geschiedenis van Nederland en Europa een beslissende wending nam.",
+              "whyRead": "Raakt je interesse in Europese geschiedenis en collectief geheugen: zeven veldslagen worden niet alleen militair, maar ook cultureel en identitair geduid. De meerwaarde zit in de combinatie van geschiedenis, mythevorming en historische verbeelding.",
+              "bestMoment": "ontspannen",
+              "tags": [
+                "arts & culture",
+                "history",
+                "later",
+                "light-reading",
+                "sociology & social structures"
+              ],
+              "alsoIn": [
+                "aaa-top-100",
+                "aaa-dutch-top-10",
+                "aaa-short-top-100",
+                "aaa-short-dutch-top-10",
+                "aaa-short-dutch-top-100",
+                "aaa-luchtig-top-100",
+                "aaa-luchtig-nederlands-top-10",
+                "aaa-luchtig-nederlands-top-100"
+              ]
+            },
+            {
+              "position": 4,
+              "id": "01kyxvjcj0396b5z5w8bcz634q",
+              "title": "De atheïst die de bekendste verdediger van het christendom werd",
+              "author": "De Ongelooflijke",
+              "siteName": "Substack",
+              "category": "email",
+              "language": "Nederlands",
+              "readingTime": "9 mins",
+              "readingMinutes": 9,
+              "wordCount": 2302,
+              "publishedDate": "2026-08-01",
+              "savedDate": "2026-08-01T05:08:24.257000+00:00",
+              "imageUrl": null,
+              "sourceUrl": "mailto:reader-forwarded-email/363643d320a4241500df2bc54c0e90ca",
+              "readwiseUrl": "https://read.readwise.io/read/01kyxvjcj0396b5z5w8bcz634q",
+              "summary": "“Het leek op het moment waarop een mens, na een lange slaap, nog roerloos in bed ligt en zich ervan bewust wordt dat hij nu wakker is. ” Zo omschrijft C.",
+              "whyRead": "Zie de gekozen tags: dit stuk biedt een inhoudelijke ingang die aansluit op die interessegebieden.",
+              "bestMoment": "reflectief",
+              "tags": [
+                "history",
+                "later",
+                "philosophy"
+              ],
+              "alsoIn": [
+                "aaa-dutch-top-10",
+                "aaa-short-top-100",
+                "aaa-short-dutch-top-10",
+                "aaa-short-dutch-top-100"
+              ]
+            },
+            {
+              "position": 5,
+              "id": "01kzjk22zxkgrvftgdtdvj01rq",
+              "title": "Twintig seconden waar ik me diep voor schaam",
+              "author": "Jona van Loenen",
+              "siteName": "Substack",
+              "category": "email",
+              "language": "Nederlands",
+              "readingTime": "9 mins",
+              "readingMinutes": 9,
+              "wordCount": 2122,
+              "publishedDate": "2026-08-09",
+              "savedDate": "2026-08-09T06:23:44.637000+00:00",
+              "imageUrl": null,
+              "sourceUrl": "mailto:reader-forwarded-email/d6f314a85583cfa5b9175a9ac4ec73f8",
+              "readwiseUrl": "https://read.readwise.io/read/01kzjk22zxkgrvftgdtdvj01rq",
+              "summary": "Ik was bezig met het afronden van de laatste versie van het laatste hoofdstuk van mijn nieuwe boek. In alle eerlijkheid was dat niet alleen dinsdag.",
+              "whyRead": "Een persoonlijk, helder essay over AI als verleiding om precies het soort inspanning uit te besteden waar vaardigheid, trots en betekenis uit groeien. Sterke tegenhanger voor een puur productiviteitskader.",
+              "bestMoment": "reflectief",
+              "tags": [
+                "ai ethics",
+                "personal",
+                "philosophy"
+              ],
+              "alsoIn": [
+                "aaa-dutch-top-10",
+                "aaa-short-top-100",
+                "aaa-short-dutch-top-10",
+                "aaa-short-dutch-top-100"
+              ]
+            },
+            {
+              "position": 6,
+              "id": "01k0787yxz912x1kgykz88ngts",
+              "title": "Tijd voor solidariteit",
+              "author": "Wetenschappelijk Bureau Groenlinks",
+              "siteName": "Wetenschappelijk Bureau Groenlinks",
+              "category": "article",
+              "language": "Nederlands",
+              "readingTime": "22 mins",
+              "readingMinutes": 22,
+              "wordCount": 5772,
+              "publishedDate": "2025-06-10",
+              "savedDate": "2025-07-15T14:36:27.455000+00:00",
+              "imageUrl": "https://www.wetenschappelijkbureaugroenlinks.nl/sites/wetenschappelijkbureau/files/styles/instagram/public/2025-06/Tijd%20voor%20solidariteit%20beginselprogramma.jpg?h=8f74817f&itok=c-ESuTOV",
+              "sourceUrl": "https://www.wetenschappelijkbureaugroenlinks.nl/artikelen/tijd-voor-solidariteit",
+              "readwiseUrl": "https://read.readwise.io/read/01k0787yxz912x1kgykz88ngts",
+              "summary": "The text calls for solidarity to build a fair and equal society where everyone can be themselves. It emphasizes the need for public services like healthcare and education to be accessible to all without profit motives. Together, people must unite to protect democracy, workers' rights, and the environment for a better future.",
+              "whyRead": "Beginselprogramma van GroenLinks-PvdA over solidariteit als politiek fundament — relevant voor je interesse in linkse ideologie en sociaaldemocratisch denken in Nederland.",
+              "bestMoment": "kritisch",
+              "tags": [
+                "current affairs & politics",
+                "learning & meta-learning",
+                "political philosophy"
+              ],
+              "alsoIn": [
+                "aaa-dutch-top-10"
+              ]
+            },
+            {
+              "position": 7,
+              "id": "01k4hz4tpj7wyg13z1mrad20g8",
+              "title": "Longread: Chantal Mouffe – Over het politieke",
+              "author": "Philipp Kocks",
+              "siteName": "deMens.nu",
+              "category": "article",
+              "language": "Nederlands",
+              "readingTime": "19 mins",
+              "readingMinutes": 19,
+              "wordCount": 4794,
+              "publishedDate": "2021-01-18",
+              "savedDate": "2025-09-07T11:31:53.682000+00:00",
+              "imageUrl": "https://demens.nu/wp-content/uploads/2021/01/Longread-visual.png",
+              "sourceUrl": "https://demens.nu/2021/01/18/longread-chantal-mouffe/",
+              "readwiseUrl": "https://read.readwise.io/read/01k4hz4tpj7wyg13z1mrad20g8",
+              "summary": "Chantal Mouffe zegt dat politiek conflict onvermijdelijk is.  \nZe verwerpt consensusdenken en pleit voor agonisme: legitieme, gepassioneerde confrontatie binnen democratische instellingen.  \nWordt conflict weggedrukt, dan groeit onvrede en populisme, dus democratie moet tegenstanders erkennen binnen gedeelde waarden van vrijheid en gelijkheid.",
+              "whyRead": "Raakt je interesse in politieke filosofie en de spanning tussen pluralisme, populisme en democratische instituties. Mouffe biedt een scherp begrippenkader om consensuspolitiek te toetsen zonder conflict te romantiseren.",
+              "bestMoment": "analytisch",
+              "tags": [
+                "political philosophy"
+              ],
+              "alsoIn": [
+                "aaa-dutch-top-10"
+              ]
+            },
+            {
+              "position": 8,
+              "id": "01kd66gdx0xhsnk7nxcsvfcgpa",
+              "title": "Een tijd van monsters: waarom de beste mensen niet meer de top bereiken",
+              "author": "Rutger Bregman",
+              "siteName": "De Correspondent",
+              "category": "article",
+              "language": "Nederlands",
+              "readingTime": "16 mins",
+              "readingMinutes": 16,
+              "wordCount": 4177,
+              "publishedDate": "2025-12-23",
+              "savedDate": "2025-12-23T18:10:57.056000+00:00",
+              "imageUrl": "https://useruploads.cdn-decorrespondent.nl/image/_I7wuCWdHvNy-gy8wvDvT99feRc=/1590x1060/dc-useruploads-images/e8824af0c1ab44db923d7007ee7074ec.jpg",
+              "sourceUrl": "https://decorrespondent.nl/16607/een-tijd-van-monsters-waarom-de-beste-mensen-niet-meer-de-top-bereiken/a01777b1-0224-0b60-27c9-021dcb50f36b",
+              "readwiseUrl": "https://read.readwise.io/read/01kd66gdx0xhsnk7nxcsvfcgpa",
+              "summary": "Rutger Bregman waarschuwt dat westerse leiderschap moreel is vervallen en goede mensen niet meer doorbreken.  \nHij beschrijft een verspilling van talent, groeiende zelfzucht en politieke verval vergelijkbaar met Rome of Venetië.  \nZijn oplossing is een morele revolutie waarin macht weer wordt gebruikt om goed te doen.",
+              "whyRead": "Raakt je interesse in politieke filosofie — Rutger Bregman's BBC Reith Lecture over de leiderschapscrisis: niet de slimsten, maar de meest schaamtelozen bereiken de top.",
+              "bestMoment": "analytisch",
+              "tags": [
+                "political philosophy",
+                "sociology & inequality"
+              ],
+              "alsoIn": [
+                "aaa-dutch-top-10"
+              ]
+            },
+            {
+              "position": 9,
+              "id": "01kqj7zfv4pjw25bctmdrswe18",
+              "title": "Waarom de Nederlandse democratie in de jaren ’30 niet ten onder ging",
+              "author": "De Ongelooflijke",
+              "siteName": "Substack",
+              "category": "email",
+              "language": "Nederlands",
+              "readingTime": "12 mins",
+              "readingMinutes": 12,
+              "wordCount": 3142,
+              "publishedDate": "2026-05-01",
+              "savedDate": "2026-05-01T17:04:30.564000+00:00",
+              "imageUrl": null,
+              "sourceUrl": "mailto:reader-forwarded-email/907a5ff8cbaf5b8a27a7b8049463267e",
+              "readwiseUrl": "https://read.readwise.io/read/01kqj7zfv4pjw25bctmdrswe18",
+              "summary": "De jaren dertig van de vorige eeuw, waren jaren van crises: economische rampspoed, politieke onrust en zelfs gewelddadige revoluties.",
+              "whyRead": "Essay van historicus Beatrice de Graaf over waarom Nederland in de jaren '30 — anders dan Duitsland, Oostenrijk en Frankrijk — de democratie wist te bewaren ondanks extremisme van links en rechts. Scherpe these, historische diepgang, vergelijkend perspectief. Relevant nu extremisme opnieuw oplaait.",
+              "bestMoment": "Rustig lezen, vraagt concentratie. Goed voor een avond.",
+              "tags": [
+                "history",
+                "political philosophy",
+                "totalitarianism & fascism"
+              ],
+              "alsoIn": [
+                "aaa-dutch-top-10"
+              ]
+            },
+            {
+              "position": 10,
+              "id": "01ksc75pt8qjpzxtda00x3dba8",
+              "title": "Waarom komen politici met steeds meer weg?",
+              "author": "Dieuwertje Kuijpers",
+              "siteName": "dieuwsnieuws.nl",
+              "category": "article",
+              "language": "Nederlands",
+              "readingTime": "13 mins",
+              "readingMinutes": 13,
+              "wordCount": 3358,
+              "publishedDate": "2026-05-20",
+              "savedDate": "2026-05-24T05:26:22.711000+00:00",
+              "imageUrl": "https://substackcdn.com/image/fetch/$s_!B-ko!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff167a1a9-54e1-470e-a10b-5e7d8c69ec4b_2714x1388.jpeg",
+              "sourceUrl": "https://www.dieuwsnieuws.nl/p/majority-rule-dont-work-in-mental-institutions?r=1r0y5d&utm_medium=ios&triedRedirect=true",
+              "readwiseUrl": "https://read.readwise.io/read/01ksc75pt8qjpzxtda00x3dba8",
+              "summary": "Schaamteloosheid als politieke deugd",
+              "whyRead": "Sterke Nederlandse analyse van rechtsstaat, politieke schaamte en normerosie; raakt politieke filosofie, Nederlandse samenleving en democratische instituties direct. De stijl is polemisch maar persoonlijk genoeg om meer te zijn dan dagpolitiek.",
+              "bestMoment": "kritisch",
+              "tags": [
+                "current affairs & politics",
+                "political philosophy",
+                "sociology & social structures"
+              ],
+              "alsoIn": [
+                "aaa-dutch-top-10"
+              ]
+            },
+            {
+              "position": 11,
               "id": "01kt9sbc2hgkymt9expprgkgdp",
               "title": "In de Apocalyps is de vrouw een teken van hoop",
               "author": "De Ongelooflijke",
@@ -3841,69 +3771,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 14,
-              "id": "01ktv2sxayxrqj6yzvyhjes6tf",
-              "title": "Leeslijst mei 2026",
-              "author": "Kauthar",
-              "siteName": "Substack",
-              "category": "email",
-              "language": "Nederlands",
-              "readingTime": "7 mins",
-              "readingMinutes": 7,
-              "wordCount": 1651,
-              "publishedDate": "2026-06-11",
-              "savedDate": "2026-06-11T10:14:20.254000+00:00",
-              "imageUrl": null,
-              "sourceUrl": "mailto:reader-forwarded-email/a0c00dcc2081fdba85fa1cc1b61f0134",
-              "readwiseUrl": "https://read.readwise.io/read/01ktv2sxayxrqj6yzvyhjes6tf",
-              "summary": "Lieke Marsman, schrijver, dichter, denker. Op 3 juni 2026 kwam de dood haar halen, maar haar woorden zullen altijd blijven.",
-              "whyRead": "Raakt literatuur, Nederlandse cultuur, politieke rechtvaardigheid en moederschap: deze leeslijst is geen droge boekenopsomming, maar een persoonlijk-culturele route langs dood, verzet, sociale rechtvaardigheid en de politiek van ouderschap. Vooral waardevol door de stem en de korte oordelen bij elk boek.",
-              "bestMoment": "ontspannen",
-              "tags": [
-                "arts & culture",
-                "fiction",
-                "light-reading",
-                "sociology & social structures"
-              ],
-              "alsoIn": [
-                "aaa-short-dutch-top-10",
-                "aaa-short-dutch-top-100",
-                "aaa-luchtig-top-100",
-                "aaa-luchtig-nederlands-top-10",
-                "aaa-luchtig-nederlands-top-100"
-              ]
-            },
-            {
-              "position": 15,
-              "id": "01kwkbvg7b538ndb8mhrw8b12z",
-              "title": "Mazzucato rekent af met strategie van Draghi, Wennink en het kabinet",
-              "author": "Rode Cijfers",
-              "siteName": "Substack",
-              "category": "email",
-              "language": "Nederlands",
-              "readingTime": "4 mins",
-              "readingMinutes": 4,
-              "wordCount": 949,
-              "publishedDate": "2026-07-03",
-              "savedDate": "2026-07-03T06:49:57.739000+00:00",
-              "imageUrl": null,
-              "sourceUrl": "mailto:reader-forwarded-email/f53bcf62a5e9049d60dd272011f386a4",
-              "readwiseUrl": "https://read.readwise.io/read/01kwkbvg7b538ndb8mhrw8b12z",
-              "summary": "Afgelopen week was het weer eens raak. Consultancybureau McKinsey kopte dat Europa de kostenoorlog met China hopeloos verliest.",
-              "whyRead": "Raakt je interesses in economie, ongelijkheid en politieke economie: Mazzucato's kritiek draait de Draghi/Wennink-diagnose om van 'te weinig kapitaal' naar 'verkeerd gestuurd kapitaal'. Sterk shortlist-materiaal door de Nederlandse en Europese beleidslaag.",
-              "bestMoment": "analytisch",
-              "tags": [
-                "economics",
-                "political philosophy",
-                "sociology & social structures"
-              ],
-              "alsoIn": [
-                "aaa-short-dutch-top-10",
-                "aaa-short-dutch-top-100"
-              ]
-            },
-            {
-              "position": 16,
+              "position": 12,
               "id": "01kysnkny4jr6ej2jh6n05ex8q",
               "title": "Het Curieuze Artikel 73 van de AIVD en MIVD",
               "author": "berthub.eu",
@@ -3932,36 +3800,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 17,
-              "id": "01ktds007mazvkk5bn9zrdybw0",
-              "title": "Big oil vindt zichzelf heel zielig",
-              "author": "Jelmer Mommers",
-              "siteName": "De Correspondent",
-              "category": "email",
-              "language": "Nederlands",
-              "readingTime": "6 mins",
-              "readingMinutes": 6,
-              "wordCount": 1582,
-              "publishedDate": "2026-06-06",
-              "savedDate": "2026-06-06T06:12:46.453000+00:00",
-              "imageUrl": null,
-              "sourceUrl": "mailto:reader-forwarded-email/8b3b853d609eb07aec3436a813266a13",
-              "readwiseUrl": "https://read.readwise.io/read/01ktds007mazvkk5bn9zrdybw0",
-              "summary": "Welkom bij mijn nieuwsbrief over klimaatpolitiek die werkt. Deze editie gaat over eerlijkheid – of het gebrek daaraan.",
-              "whyRead": "Raakt Nederlandse politiek, klimaatbeleid en sociale rechtvaardigheid: Mommers verbindt fossiele bedrijfsmacht, draagvlak voor klimaatbeleid en eerlijkheidsgevoel bij burgers op een concrete Nederlandse manier.",
-              "bestMoment": "kritisch",
-              "tags": [
-                "current affairs & politics",
-                "environment & sustainability",
-                "sociology & social structures"
-              ],
-              "alsoIn": [
-                "aaa-short-dutch-top-10",
-                "aaa-short-dutch-top-100"
-              ]
-            },
-            {
-              "position": 18,
+              "position": 13,
               "id": "01kv7gpdvwcvk4359brzpxqmes",
               "title": "Waarom zeggen vrienden zo vaak af?",
               "author": "Lena Bril",
@@ -3985,11 +3824,12 @@ window.TOP_ARTICLES = {
                 "sociology & social structures"
               ],
               "alsoIn": [
+                "aaa-short-dutch-top-10",
                 "aaa-short-dutch-top-100"
               ]
             },
             {
-              "position": 19,
+              "position": 14,
               "id": "01kwnr6f6a3gb801eapyrbp6q2",
               "title": "Honderd vliegtuigcrashes in één week: wat is hier aan de hand?",
               "author": "Jelmer Mommers",
@@ -4013,11 +3853,12 @@ window.TOP_ARTICLES = {
                 "sociology & social structures"
               ],
               "alsoIn": [
+                "aaa-short-dutch-top-10",
                 "aaa-short-dutch-top-100"
               ]
             },
             {
-              "position": 20,
+              "position": 15,
               "id": "01kwreqfypckk54fws5c65whwp",
               "title": "Niemand wil het, toch doen we het allemaal",
               "author": "Jona van Loenen",
@@ -4042,6 +3883,7 @@ window.TOP_ARTICLES = {
                 "sociology & social structures"
               ],
               "alsoIn": [
+                "aaa-short-dutch-top-10",
                 "aaa-short-dutch-top-100",
                 "aaa-luchtig-top-100",
                 "aaa-luchtig-nederlands-top-10",
@@ -4049,7 +3891,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 21,
+              "position": 16,
               "id": "01kxabe372k5htmjxz8bxdan0f",
               "title": "Privéchefs zijn extreem algoritmevriendelijk",
               "author": "Doortje Smithuijsen",
@@ -4074,13 +3916,14 @@ window.TOP_ARTICLES = {
                 "sociology & social structures"
               ],
               "alsoIn": [
+                "aaa-short-dutch-top-10",
                 "aaa-short-dutch-top-100",
                 "aaa-luchtig-nederlands-top-10",
                 "aaa-luchtig-nederlands-top-100"
               ]
             },
             {
-              "position": 22,
+              "position": 17,
               "id": "01kyejqrpkrb3a9zqk5a7k4n5f",
               "title": "Jetten-1 is geen regering. Het is een situationship.",
               "author": "Jona van Loenen",
@@ -4106,13 +3949,14 @@ window.TOP_ARTICLES = {
                 "sociology & social structures"
               ],
               "alsoIn": [
+                "aaa-short-dutch-top-10",
                 "aaa-short-dutch-top-100",
                 "aaa-luchtig-nederlands-top-10",
                 "aaa-luchtig-nederlands-top-100"
               ]
             },
             {
-              "position": 23,
+              "position": 18,
               "id": "01kzzst7bzmyrpwmespcekhf7k",
               "title": "Er is straks niets dat AI niet beter kan. Behalve mens zijn.",
               "author": "Saskia en Alinda van her/ai",
@@ -4140,7 +3984,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 24,
+              "position": 19,
               "id": "01m01yc8rqy3yyyab16j5exq6t",
               "title": "Populair klimaatbeleid: dit zijn de bouwstenen",
               "author": "Jelmer Mommers",
@@ -4168,7 +4012,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 25,
+              "position": 20,
               "id": "01k7q03xx8pwem577zgy47b0zk",
               "title": "Nederland is inderdaad niet kapot. Maar sluit je ogen niet voor onrecht",
               "author": "Tim 'S Jongers",
@@ -4193,7 +4037,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 26,
+              "position": 21,
               "id": "01k80nvw2z9d40qq24hveszqrw",
               "title": "De hel van het gelijke",
               "author": "Marian Donner",
@@ -4222,7 +4066,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 27,
+              "position": 22,
               "id": "01kadgjv79tav4g56e89rykjte",
               "title": "Een wereld waarmee we in contact staan, is een wereld vol magie",
               "author": "Bregje Hofstede",
@@ -4247,7 +4091,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 28,
+              "position": 23,
               "id": "01kwkpvx062dytw4zfh294psvb",
               "title": "Heilige plekken dichtbij: Der Herrgott van Bentheim",
               "author": "De Ongelooflijke",
@@ -4277,7 +4121,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 29,
+              "position": 24,
               "id": "01m02v2mszvk3cjaw44d26cmvx",
               "title": "Het zachte tegengif heet verwondering",
               "author": "Sabine Winters",
@@ -4307,7 +4151,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 30,
+              "position": 25,
               "id": "01ks7vbkd0mgft31fpf06jbv90",
               "title": "Een gele kanarie van 195 euro",
               "author": "Alexander Klöpping & Ernst-Jan Pfauth",
@@ -4337,7 +4181,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 31,
+              "position": 26,
               "id": "01kt43yge3yh7na9s1pgccyc4b",
               "title": "Universiteiten verspillen kostbaar rendement",
               "author": "Sophie van Gool",
@@ -4364,7 +4208,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 32,
+              "position": 27,
               "id": "01ktbxxr50k86jtqphyhdp1eyc",
               "title": "De blauwe Ferrari van Jony Ive",
               "author": "Alexander Klöpping & Ernst-Jan Pfauth",
@@ -4390,11 +4234,12 @@ window.TOP_ARTICLES = {
               ],
               "alsoIn": [
                 "aaa-short-dutch-top-100",
+                "aaa-luchtig-nederlands-top-10",
                 "aaa-luchtig-nederlands-top-100"
               ]
             },
             {
-              "position": 33,
+              "position": 28,
               "id": "01ktxgxw7cxp7caqpe7w230ne4",
               "title": "Klagende supermarkten",
               "author": "Rode Cijfers",
@@ -4421,7 +4266,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 34,
+              "position": 29,
               "id": "01kty3nmapqw3y4ypnbbgrm2t3",
               "title": "De FIFA-idents zijn fantastisch",
               "author": "Alexander Klöpping & Ernst-Jan Pfauth",
@@ -4451,7 +4296,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 35,
+              "position": 30,
               "id": "01kvfsv00xheeeezwr4g8hm52h",
               "title": "Dé telefoon zonder social media",
               "author": "Alexander Klöpping & Ernst-Jan Pfauth",
@@ -4481,7 +4326,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 36,
+              "position": 31,
               "id": "01kt8j5yakk29s0cg4w3wnywn8",
               "title": "Deze zeven vragen geven je werk een ziel",
               "author": "Simon van Teutem",
@@ -4508,7 +4353,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 37,
+              "position": 32,
               "id": "01m02agqvzjjczjgfrjqd8qyqj",
               "title": "De enige AI-skill die er echt toe doet",
               "author": "AI Report",
@@ -4536,7 +4381,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 38,
+              "position": 33,
               "id": "01kzds50ngmgn4d833k9cj9dp2",
               "title": "Wie bepaalt of jouw werk “AI slop” is?",
               "author": "Saskia en Alinda van her/ai",
@@ -4564,7 +4409,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 39,
+              "position": 34,
               "id": "01kxfv166ahh2jwz1pr03kevc9",
               "title": "Stel kritische vragen bij het AI-evangelie",
               "author": "Sophie van Gool",
@@ -4590,7 +4435,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 40,
+              "position": 35,
               "id": "01kzr4dqeqcac4srvc6vvdppez",
               "title": "Hij wilde een plekje bij de spinningles. Zijn AI hackte de sportschool",
               "author": "AI Report",
@@ -4616,7 +4461,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 41,
+              "position": 36,
               "id": "01kzdbf87h4fzk1m5hz1zgh27t",
               "title": "De ideologische no-brainer voor het kabinet",
               "author": "Rode Cijfers",
@@ -4644,7 +4489,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 42,
+              "position": 37,
               "id": "01kshptdc5njqdmnehkxr4arfb",
               "title": "Een walgelijke man",
               "author": "Fouad El Hamdaoui",
@@ -4674,7 +4519,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 43,
+              "position": 38,
               "id": "01kt7kjd4zr8ba59xcpfvmxdfz",
               "title": "Week 14: kop en staart",
               "author": "Holly en Roos",
@@ -4703,7 +4548,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 44,
+              "position": 39,
               "id": "01kwnpartfb70amv2acccwcsr1",
               "title": "Vijf muggen in mijn klamboe",
               "author": "Dorien.Bot",
@@ -4732,7 +4577,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 45,
+              "position": 40,
               "id": "01m01v1rmpqh6acc6t5t8cdy21",
               "title": "Was ik maar iets meer robotesk",
               "author": "Dorien.Bot",
@@ -5470,38 +5315,6 @@ window.TOP_ARTICLES = {
             },
             {
               "position": 14,
-              "id": "01kysnmckrgernh72bvvz2eprz",
-              "title": "Minister van Digitale Zaken: hoe het kan werken",
-              "author": "berthub.eu",
-              "siteName": "Bert Hubert's writings",
-              "category": "article",
-              "language": "Nederlands",
-              "readingTime": "7 mins",
-              "readingMinutes": 7,
-              "wordCount": 1791,
-              "publishedDate": "2024-03-19",
-              "savedDate": "2026-07-30T14:07:40.661000+00:00",
-              "imageUrl": "https://berthub.eu/articles/akkermans.jpg",
-              "sourceUrl": "https://berthub.eu/articles/posts/minister-van-digitale-zaken/",
-              "readwiseUrl": "https://read.readwise.io/read/01kysnmckrgernh72bvvz2eprz",
-              "summary": "De hele korte versie: een minister voor Digitale Zaken heeft alleen zin als deze minstens evenveel doorzettingsmacht krijgt als de minister van Financiën. En het werkt ook alleen als die nieuwe minister een agenda heeft waarbij ICT veel meer is dan “iets wat je inkoopt”, maar echt een kernactiviteit wordt waar geïnnoveerd kan worden. En dat vergt een nieuwe erkenning van ICT-ambtenaren als daadwerkelijk belangrijke mensen, die aan de knoppen zitten en dingen mogen veranderen.",
-              "whyRead": "Raakt je interesse in digitale overheid: een concreet pleidooi voor een minister van Digitale Zaken met echte doorzettingsmacht.",
-              "bestMoment": "kritisch",
-              "tags": [
-                "political philosophy",
-                "professional development",
-                "technology"
-              ],
-              "alsoIn": [
-                "aaa-top-100",
-                "aaa-dutch-top-10",
-                "aaa-dutch-top-100",
-                "aaa-short-dutch-top-10",
-                "aaa-short-dutch-top-100"
-              ]
-            },
-            {
-              "position": 15,
               "id": "01m0k3hr0fm2zdqmg55xb8dnb0",
               "title": "If AI Can Replace Your Scrummaster, You Never Had a Scrummaster",
               "author": "Erwin Verweij",
@@ -5529,7 +5342,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 16,
+              "position": 15,
               "id": "01m0yzc4t547m4zm0yvgrk39xb",
               "title": "The Future of Agile Coaches: Do Large Companies Need a Standardized Agile Coach Certification and What Are the Alternatives?",
               "author": "doi.org",
@@ -5560,7 +5373,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 17,
+              "position": 16,
               "id": "01j60f108dfd1k8q12ah4cmp16",
               "title": "Hunting",
               "author": "Eleanor Konik",
@@ -5588,7 +5401,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 18,
+              "position": 17,
               "id": "01j8s9z9xg4shgce5z167zc7fn",
               "title": "📰 Food as Currency - by Eleanor Konik - Manuscriptions\n📰 Food as Currency",
               "author": "Eleanor Konik",
@@ -5616,7 +5429,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 19,
+              "position": 18,
               "id": "01jjmt3derk62gvm51m286870b",
               "title": "🎓 On Famines: why and how they happen. To who?",
               "author": "Eleanor Konik",
@@ -5644,7 +5457,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 20,
+              "position": 19,
               "id": "01jjxdnzz04ees7fytca2rnntw",
               "title": "🎓 Maritime Empires",
               "author": "Eleanor Konik",
@@ -5671,38 +5484,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 21,
-              "id": "01k1mhw46shwzk87214g7gtc9w",
-              "title": "Het begin van een oplossing",
-              "author": "Kees Verhoeven",
-              "siteName": "substack.com",
-              "category": "article",
-              "language": "Nederlands",
-              "readingTime": "5 mins",
-              "readingMinutes": 5,
-              "wordCount": 1284,
-              "publishedDate": "2025-08-01",
-              "savedDate": "2025-08-02T04:50:34.761000+00:00",
-              "imageUrl": "https://substackcdn.com/image/fetch/$s_!1jdQ!,w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fff922e10-c0e8-426d-b217-551232d44efe_908x510.heic",
-              "sourceUrl": "https://verhoeven.substack.com/p/het-begin-van-een-oplossing?r=1r0y5d&utm_medium=ios&triedRedirect=true",
-              "readwiseUrl": "https://read.readwise.io/read/01k1mhw46shwzk87214g7gtc9w",
-              "summary": "Kees Verhoeven onderzoekt hoe we de Nederlandse democratie kunnen verbeteren door te kijken naar procedures, structuren en cultuur. Hij geeft praktische voorstellen voor verkiezingen, politieke partijen en het parlement om transparanter en effectiever te worden. Zo wil hij de democratie sterker maken voor de toekomst.",
-              "whyRead": "Kees Verhoeven over het begin van een oplossing voor de democratische crisis — concrete stappen.",
-              "bestMoment": "geïnspireerd",
-              "tags": [
-                "current affairs & politics",
-                "political philosophy"
-              ],
-              "alsoIn": [
-                "aaa-top-100",
-                "aaa-dutch-top-10",
-                "aaa-dutch-top-100",
-                "aaa-short-dutch-top-10",
-                "aaa-short-dutch-top-100"
-              ]
-            },
-            {
-              "position": 22,
+              "position": 20,
               "id": "01k3wpn5ak9v4pmtc85h462cav",
               "title": "On the pleasure of reading private notebooks",
               "author": "Henrik Karlsson",
@@ -5732,7 +5514,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 23,
+              "position": 21,
               "id": "01k72qx64tdvkryenrbd5g81px",
               "title": "The Dire State of Contemporary Western Philosophy",
               "author": "Nathan Ormond",
@@ -5760,7 +5542,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 24,
+              "position": 22,
               "id": "01k7j6j6mdje8x3v1jt8hqaba4",
               "title": "The Mimetic Trap",
               "author": "The One Percent Rule",
@@ -5788,7 +5570,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 25,
+              "position": 23,
               "id": "01k7qbgbanjkbvetnkfd47vkrz",
               "title": "How I wrote \"Looking for Alice\"",
               "author": "Henrik Karlsson",
@@ -5818,7 +5600,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 26,
+              "position": 24,
               "id": "01k7qbgpmxd9gskhw16jx5b8yk",
               "title": "Popular education in Sweden: much more than you wanted to know",
               "author": "Henrik Karlsson",
@@ -5846,7 +5628,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 27,
+              "position": 25,
               "id": "01k7xjhe96qxhs9bkr4qahjk09",
               "title": "How to Become as Well-Read as John Adams: 8 Tips From his Reading Life",
               "author": "Samuel",
@@ -5874,7 +5656,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 28,
+              "position": 26,
               "id": "01k8v9cz0ah2x4qddn265e4cnt",
               "title": "Everything Is Television",
               "author": "Derek Thompson",
@@ -5904,7 +5686,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 29,
+              "position": 27,
               "id": "01kcb7n6kftwmca7m6dgprpkwf",
               "title": "Anarchism, explained",
               "author": "Andrew Lee",
@@ -5931,7 +5713,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 30,
+              "position": 28,
               "id": "01kd1c7k90p8p5bknmbm09abwv",
               "title": "The World in Which We Live - Nassim Nicholas Taleb",
               "author": "Substack",
@@ -5959,7 +5741,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 31,
+              "position": 29,
               "id": "01kdnzthe611p0c38ts9j702s2",
               "title": "De verleiding van de kettingzaag",
               "author": "NRC Handelsblad",
@@ -5990,7 +5772,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 32,
+              "position": 30,
               "id": "01kkh2jn3p93nsh9nvbpe1w0vk",
               "title": "Rugged Spirituality",
               "author": "Andrew Taggart",
@@ -6018,7 +5800,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 33,
+              "position": 31,
               "id": "01km0ha2tggzmd2y5yjpqbycj5",
               "title": "🎓 On Geldings and the 'Natural' Social Order of Horses",
               "author": "Eleanor Konik",
@@ -6046,7 +5828,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 34,
+              "position": 32,
               "id": "01kmfmvdnqhec7daqp6x47pr85",
               "title": "On the proper use of arguments",
               "author": "Massimo Pigliucci at Figs in Winter",
@@ -6073,7 +5855,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 35,
+              "position": 33,
               "id": "01kmr5kh5wjyr899wkg9skt4f7",
               "title": "Simone Weil Explains the Manosphere",
               "author": "Joe from Unsolicited Advice",
@@ -6102,7 +5884,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 36,
+              "position": 34,
               "id": "01kmwmt7f9jtm6j0gb6pnda9zk",
               "title": "Philosophy of Science",
               "author": "Joseph Rahi",
@@ -6130,7 +5912,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 37,
+              "position": 35,
               "id": "01kqsnmx2rdcaktjvwsjmmq2cn",
               "title": "The games we want to be playing",
               "author": "Jared Henderson from Commonplace Philosophy",
@@ -6158,7 +5940,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 38,
+              "position": 36,
               "id": "01krkbe7701j87vmw7wrs54h8m",
               "title": "They Are Putting A Black Hole Inside Your Head",
               "author": "Paul Musso",
@@ -6186,7 +5968,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 39,
+              "position": 37,
               "id": "01krn1jdcn6b450yv1z0j92tz3",
               "title": "The Radical Sunzi",
               "author": "scholars-stage.org",
@@ -6215,7 +5997,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 40,
+              "position": 38,
               "id": "01kt72hwt9asrzwwx70ybxyabe",
               "title": "How Love Became Just Another Thing to Optimize",
               "author": "Philosophize This! from Philosophize This!",
@@ -6243,7 +6025,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 41,
+              "position": 39,
               "id": "01kvarejkjdc6y2cjp2d0ewgkd",
               "title": "The Desecration of Man - Say No to Nietzsche",
               "author": "R.W. Richey from We Are Not Saved",
@@ -6273,7 +6055,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 42,
+              "position": 40,
               "id": "01kvcgsfekyqqc5b9t3nmrge8m",
               "title": "Hoera, het is Waterloodag!",
               "author": "De Ongelooflijke",
@@ -6310,7 +6092,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 43,
+              "position": 41,
               "id": "01kvh7ec1tezr2vy9bqgsm6an4",
               "title": "Is There a Science of Writing?",
               "author": "Carl Hendrick from The Learning Dispatch",
@@ -6340,7 +6122,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 44,
+              "position": 42,
               "id": "01kvjbgrqsftb77gs496c0p12t",
               "title": "If the First Apocalypse Doesn’t Get You, the Second One Will",
               "author": "Miller’s Book Review 📚",
@@ -6370,7 +6152,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 45,
+              "position": 43,
               "id": "01kvtqy4rffwdb1t73t37netda",
               "title": "Antwoorden op vragen die niet gesteld worden",
               "author": "Kauthar",
@@ -6398,7 +6180,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 46,
+              "position": 44,
               "id": "01kx66q5d0pg8whe75n7qr82td",
               "title": "Count Binface and the Politics of Ridicule",
               "author": "Brian Klaas",
@@ -6429,7 +6211,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 47,
+              "position": 45,
               "id": "01kxdxaytaf6tm6ntqnc9vdw18",
               "title": "Apophenia and Manufactured Desire",
               "author": "Jared Henderson from Commonplace Philosophy",
@@ -6456,7 +6238,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 48,
+              "position": 46,
               "id": "01kxpg8mpkegghvbz5w71ne86v",
               "title": "Against \"Stochastic Terrorism\"",
               "author": "Astral Codex Ten",
@@ -6483,7 +6265,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 49,
+              "position": 47,
               "id": "01kxy1qnae4npandc4x9mv4aw0",
               "title": "To Understand Elon Musk, You Have to Understand This ’60s Sci-Fi Novel",
               "author": "jacobin.com",
@@ -6514,7 +6296,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 50,
+              "position": 48,
               "id": "01kxzghzvbjtnr20f8vwmwc8s5",
               "title": "Letters of Last Resort",
               "author": "Brian Klaas",
@@ -6541,7 +6323,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 51,
+              "position": 49,
               "id": "01ky6y112ahhdfz7zdrw7w1jkc",
               "title": "Fish farts, dead elephants, and total institutions in wildlife conservation",
               "author": "projectcroak.com",
@@ -6570,7 +6352,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 52,
+              "position": 50,
               "id": "01ky7qe9p9qwtpk49bzc4pqqhk",
               "title": "Normal Accidents: Living with High-Risk Technologies",
               "author": "blog.jcx.au",
@@ -6598,7 +6380,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 53,
+              "position": 51,
               "id": "01ky7y54f3cb0xcxn9nyexpkzw",
               "title": "When philosophers and the public disagree",
               "author": "Jared Henderson from Commonplace Philosophy",
@@ -6625,7 +6407,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 54,
+              "position": 52,
               "id": "01kycfev2jfr2v5x5pqr2scxz7",
               "title": "How to Win a Billion Dollars and Ruin Your Life",
               "author": "Miller’s Book Review 📚",
@@ -6651,11 +6433,12 @@ window.TOP_ARTICLES = {
                 "political philosophy"
               ],
               "alsoIn": [
+                "aaa-top-100",
                 "aaa-luchtig-top-100"
               ]
             },
             {
-              "position": 55,
+              "position": 53,
               "id": "01kysnj4rgn2xvk4wh8pqj831w",
               "title": "The Disappearing Body",
               "author": "plough.com",
@@ -6678,10 +6461,12 @@ window.TOP_ARTICLES = {
                 "philosophy",
                 "sociology & social structures"
               ],
-              "alsoIn": []
+              "alsoIn": [
+                "aaa-top-100"
+              ]
             },
             {
-              "position": 56,
+              "position": 54,
               "id": "01kysnn7synbp4djg1ph3zrhdh",
               "title": "It is no longer safe to move our governments and societies to US clouds",
               "author": "berthub.eu",
@@ -6707,7 +6492,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 57,
+              "position": 55,
               "id": "01kyxvjcj0396b5z5w8bcz634q",
               "title": "De atheïst die de bekendste verdediger van het christendom werd",
               "author": "De Ongelooflijke",
@@ -6738,7 +6523,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 58,
+              "position": 56,
               "id": "01kyz1s71etfwt2wgr2zhqrr4k",
               "title": "Who Was the Last Roman Emperor?",
               "author": "Evan Þ from Papyrus Rampant",
@@ -6763,7 +6548,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 59,
+              "position": 57,
               "id": "01kz0k2hbcfqf2z9fpk12rqtz5",
               "title": "De talenten-tax",
               "author": "Jona van Loenen",
@@ -6788,7 +6573,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 60,
+              "position": 58,
               "id": "01kzakhrdw8m862yfhsmva3z11",
               "title": "Open Questions On Open Weights",
               "author": "Astral Codex Ten",
@@ -6813,7 +6598,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 61,
+              "position": 59,
               "id": "01kzeczgpr5fr1w5znnf4m2b9v",
               "title": "A Lebanese Technology Transfer",
               "author": "Nassim Nicholas Taleb",
@@ -6839,7 +6624,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 62,
+              "position": 60,
               "id": "01kzjk22zxkgrvftgdtdvj01rq",
               "title": "Twintig seconden waar ik me diep voor schaam",
               "author": "Jona van Loenen",
@@ -6870,7 +6655,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 63,
+              "position": 61,
               "id": "01kzp09j3vmc15v2atpvpkbrpe",
               "title": "The Eotechnic Phase",
               "author": "Jared Henderson from Commonplace Philosophy",
@@ -6896,7 +6681,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 64,
+              "position": 62,
               "id": "01kztvesqhd0vhbkmcxqrevkhs",
               "title": "🎓 On the Harem Origin Story of Turkish Coffee Reading",
               "author": "Eleanor Konik",
@@ -6922,7 +6707,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 65,
+              "position": 63,
               "id": "01kzyk5xjcvj2qxd5hm0mbrrp2",
               "title": "How to self-educate with the heart and ferocity of a 19th-century cotton-weaver",
               "author": "Sam @ Knowledge Lust",
@@ -6948,7 +6733,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 66,
+              "position": 64,
               "id": "01m059t4kq0fgjsx21x28nbdqk",
               "title": "Freedom and Happiness (Review of ‘We’ by Yevgeny Zamyatin)",
               "author": "orwellfoundation.com",
@@ -6977,7 +6762,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 67,
+              "position": 65,
               "id": "01m059t7cjgvc214sac3e4z08x",
               "title": "Freedom of the Park",
               "author": "orwellfoundation.com",
@@ -7002,7 +6787,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 68,
+              "position": 66,
               "id": "01m059thh2ytr4v45ebz778hxw",
               "title": "In Front of Your Nose",
               "author": "orwellfoundation.com",
@@ -7027,7 +6812,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 69,
+              "position": 67,
               "id": "01m059tpnqyq5yy3kq6xrmf1v5",
               "title": "My Country Right or Left",
               "author": "orwellfoundation.com",
@@ -7052,7 +6837,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 70,
+              "position": 68,
               "id": "01m059tzwnjdjtmteh5jpa7bxz",
               "title": "Pleasure Spots",
               "author": "orwellfoundation.com",
@@ -7081,7 +6866,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 71,
+              "position": 69,
               "id": "01m059vwxfv3d1n8rterw19d6a",
               "title": "You and the Atom Bomb",
               "author": "orwellfoundation.com",
@@ -7106,7 +6891,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 72,
+              "position": 70,
               "id": "01m0f29337jsph1jwqq3njdbkc",
               "title": "In de bioscoop blijkt dat we eer belangrijker vinden dan je zou denken",
               "author": "nrc.nl",
@@ -7136,7 +6921,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 73,
+              "position": 71,
               "id": "01m0f29ch1s56e1xcc8fjkq8q2",
               "title": "Why We Dislike AI Writing",
               "author": "gilescrouch.substack.com",
@@ -7162,7 +6947,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 74,
+              "position": 72,
               "id": "01m0k3emvr4ceh6rc4xqdeyt3p",
               "title": "Educated Beyond Common Sense",
               "author": "Frederick Alexander",
@@ -7187,7 +6972,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 75,
+              "position": 73,
               "id": "01m0m9hhar6fsa0z8j62knyx2f",
               "title": "Waarom Oost-Duitsland nog steeds een van de meest atheïstische regio’s ter wereld is",
               "author": "De Ongelooflijke",
@@ -7213,7 +6998,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 76,
+              "position": 74,
               "id": "01m0nd3m15a0h3jetaw2q41mzk",
               "title": "Independence Day",
               "author": "papyrusrampant.substack.com",
@@ -7239,7 +7024,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 77,
+              "position": 75,
               "id": "01m0ndx7332c6n3a0z4062eaz9",
               "title": "The First Continental Congress",
               "author": "papyrusrampant.substack.com",
@@ -7265,7 +7050,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 78,
+              "position": 76,
               "id": "01m0ndxc2xxk0btc6vjanhkj2r",
               "title": "Moving for Independence - by Evan Þ - Papyrus Rampant",
               "author": "papyrusrampant.substack.com",
@@ -7291,7 +7076,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 79,
+              "position": 77,
               "id": "01m0ndxd5hh1pa2bvp6k3ejsas",
               "title": "The Spanish-American War",
               "author": "papyrusrampant.substack.com",
@@ -7317,7 +7102,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 80,
+              "position": 78,
               "id": "01m0ndx98tc589pngh3wdq6hwk",
               "title": "The Story of Thanksgiving As a Story",
               "author": "papyrusrampant.substack.com",
@@ -7343,7 +7128,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 81,
+              "position": 79,
               "id": "01m0nepdntgs8xgdcaxbx9wcen",
               "title": "A Lawful Insurrection: The Massachusetts Provincial Congress",
               "author": "papyrusrampant.substack.com",
@@ -7369,7 +7154,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 82,
+              "position": 80,
               "id": "01m0nepfjydw8ftc888q73b4kz",
               "title": "Gaps in History",
               "author": "papyrusrampant.substack.com",
@@ -7395,7 +7180,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 83,
+              "position": 81,
               "id": "01m0nephc1vh66egvjmpcc5vwf",
               "title": "Transitions in History",
               "author": "papyrusrampant.substack.com",
@@ -7421,7 +7206,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 84,
+              "position": 82,
               "id": "01m0nepjcvwwzp4cydwdgdm8kt",
               "title": "Parliament's Missed Chance for Peace",
               "author": "papyrusrampant.substack.com",
@@ -7447,7 +7232,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 85,
+              "position": 83,
               "id": "01m0nepp5vc6tjx2jd1z4cvre6",
               "title": "From Petition to Independence",
               "author": "papyrusrampant.substack.com",
@@ -7473,7 +7258,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 86,
+              "position": 84,
               "id": "01m0nepq34v9hbtcm1z1rcjn1e",
               "title": "The Madness of Yankee Doodle",
               "author": "papyrusrampant.substack.com",
@@ -7502,7 +7287,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 87,
+              "position": 85,
               "id": "01m0nepry7rbgqh62vdcjr37a7",
               "title": "Plays, Pageants, and the Origin of the “First Thanksgiving” Story",
               "author": "smileandgun.wordpress.com",
@@ -7531,7 +7316,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 88,
+              "position": 86,
               "id": "01m0wzs6b6z6rgc49ey22ec31m",
               "title": "How Our Leisure Time Got Monetized",
               "author": "Ted Gioia",
@@ -7559,7 +7344,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 89,
+              "position": 87,
               "id": "01m142c2g5k6nqbh8r69n3gbph",
               "title": "Huurders in dure regio’s krijgen minder vaak kinderen",
               "author": "cbs.nl",
@@ -7586,7 +7371,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 90,
+              "position": 88,
               "id": "01m142c3h2s55gmk6434pbrj5h",
               "title": "‘De groeiende weerstand tegen kennis maakt het werk van adviesraden lastiger’",
               "author": "nrc.nl",
@@ -7613,7 +7398,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 91,
+              "position": 89,
               "id": "01m14nb3gbkc1d5zt0q1rbjpsv",
               "title": "Hoe Martin Luther King ‘I Have a Dream’ improviseerde",
               "author": "De Ongelooflijke",
@@ -7642,7 +7427,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 92,
+              "position": 90,
               "id": "01hy0x9z444qrsk7bb6acc5svn",
               "title": "Reading challenging books with kids is fun and probably useful",
               "author": "Henrik Karlsson",
@@ -7668,7 +7453,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 93,
+              "position": 91,
               "id": "01j2dfz6ypvj2efevyamk72ga3",
               "title": "🌲 Takeaways on efficiency, passive learning, & optimization",
               "author": "Eleanor Konik",
@@ -7694,7 +7479,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 94,
+              "position": 92,
               "id": "01j421m304fbn5rwfh0a9bpzp3",
               "title": "Fear as a Game",
               "author": "Cheri Lucas Rowlands",
@@ -7723,7 +7508,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 95,
+              "position": 93,
               "id": "01j6ft003zzdp1gdw7j9qc1dnr",
               "title": "🌲 The Value of Consistent Naming Conventions\n🌲 The Value of Consistent Naming Conventions",
               "author": "Eleanor Konik",
@@ -7749,7 +7534,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 96,
+              "position": 94,
               "id": "01jkgy1x7yacy66ys284ddq8yw",
               "title": "Why do most popular science books suck?",
               "author": "Erik Hoel",
@@ -7778,7 +7563,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 97,
+              "position": 95,
               "id": "01jkh2vn8hfm2b2ys7eefgrw9h",
               "title": "Advice for a friend who wants to start a blog",
               "author": "Henrik Karlsson",
@@ -7807,7 +7592,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 98,
+              "position": 96,
               "id": "01jkh2w2capy38f589kqkvyt4s",
               "title": "A funny thing about curiosity",
               "author": "Henrik Karlsson",
@@ -7833,7 +7618,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 99,
+              "position": 97,
               "id": "01jkh2yf7hahdnt87t68w0f1f5",
               "title": "On shortcuts and longcuts",
               "author": "Henrik Karlsson",
@@ -7859,7 +7644,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 100,
+              "position": 98,
               "id": "01jzmk1agxw641yh3b3tv2szzv",
               "title": "Self-Directed Education: What Is It and How Does It Work?",
               "author": "Peter Gray",
@@ -7883,6 +7668,61 @@ window.TOP_ARTICLES = {
                 "parenting & care"
               ],
               "alsoIn": []
+            },
+            {
+              "position": 99,
+              "id": "01k2p37kkgn4hk8dn1qxb870qd",
+              "title": "How to Teach Textual Criticism To Fifth-Graders",
+              "author": "nephew jonathan",
+              "siteName": "substack.com",
+              "category": "article",
+              "language": "Engels",
+              "readingTime": "8 mins",
+              "readingMinutes": 8,
+              "wordCount": 2087,
+              "publishedDate": "2025-07-22",
+              "savedDate": "2025-08-15T05:28:53.106000+00:00",
+              "imageUrl": "https://substackcdn.com/image/fetch/$s_!OcBy!,w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ffa26ce33-0ab5-462b-a532-a7b0663b823e_505x437.png",
+              "sourceUrl": "https://nephewjonathan.substack.com/p/how-to-teach-textual-criticism-to",
+              "readwiseUrl": "https://read.readwise.io/read/01k2p37kkgn4hk8dn1qxb870qd",
+              "summary": "The author taught fifth-graders how to do textual criticism using copies of classical texts with intentional mistakes. Students compared different versions to learn how ancient writings were copied and changed over time. This hands-on method made learning fun and helped kids understand how we know what old authors really wrote.",
+              "whyRead": "Tekstkritiek bijbrengen aan groep 7 — over literatuuronderwijs en kritisch lezen voor kinderen.",
+              "bestMoment": "leergierig",
+              "tags": [
+                "arts & culture",
+                "learning & meta-learning",
+                "light-reading",
+                "writing & essays"
+              ],
+              "alsoIn": [
+                "aaa-luchtig-top-100"
+              ]
+            },
+            {
+              "position": 100,
+              "id": "01k79j7ef2nh8tmgv41f9k6az3",
+              "title": "What do Japan’s hikikomori reveal about our lonely world?",
+              "author": "Alain Julian",
+              "siteName": "Psyche",
+              "category": "article",
+              "language": "Engels",
+              "readingTime": "8 mins",
+              "readingMinutes": 8,
+              "wordCount": 1967,
+              "publishedDate": "2025-10-09",
+              "savedDate": "2025-10-11T11:59:17.986000+00:00",
+              "imageUrl": "https://images.aeonmedia.co/images/e153a0a7-3f53-4388-8fc7-1ab034e83e72/new_it-felt-safe-here_01.jpg?top=142&left=0&cropWidth=2720&cropHeight=1530&width=1200&quality=75&format=jpg",
+              "sourceUrl": "https://psyche.co/ideas/what-do-japans-hikikomori-reveal-about-our-lonely-world",
+              "readwiseUrl": "https://read.readwise.io/read/01k79j7ef2nh8tmgv41f9k6az3",
+              "summary": "Hikikomori are people who withdraw from work and social life, often after trauma, not just lazy or weak. Rehab centers teach independence and discipline, but that can leave people feeling no more connected. Their struggles reflect wider social isolation as communities, stable jobs and belonging disappear.",
+              "whyRead": "Diepgaand portret van Japan's hikikomori-fenomeen — radicale sociale terugtrekking.",
+              "bestMoment": "analytisch",
+              "tags": [
+                "business & work",
+                "personal growth & life philosophy",
+                "sociology & inequality"
+              ],
+              "alsoIn": []
             }
           ]
         }
@@ -7900,69 +7740,6 @@ window.TOP_ARTICLES = {
           "items": [
             {
               "position": 1,
-              "id": "01kysnmckrgernh72bvvz2eprz",
-              "title": "Minister van Digitale Zaken: hoe het kan werken",
-              "author": "berthub.eu",
-              "siteName": "Bert Hubert's writings",
-              "category": "article",
-              "language": "Nederlands",
-              "readingTime": "7 mins",
-              "readingMinutes": 7,
-              "wordCount": 1791,
-              "publishedDate": "2024-03-19",
-              "savedDate": "2026-07-30T14:07:40.661000+00:00",
-              "imageUrl": "https://berthub.eu/articles/akkermans.jpg",
-              "sourceUrl": "https://berthub.eu/articles/posts/minister-van-digitale-zaken/",
-              "readwiseUrl": "https://read.readwise.io/read/01kysnmckrgernh72bvvz2eprz",
-              "summary": "De hele korte versie: een minister voor Digitale Zaken heeft alleen zin als deze minstens evenveel doorzettingsmacht krijgt als de minister van Financiën. En het werkt ook alleen als die nieuwe minister een agenda heeft waarbij ICT veel meer is dan “iets wat je inkoopt”, maar echt een kernactiviteit wordt waar geïnnoveerd kan worden. En dat vergt een nieuwe erkenning van ICT-ambtenaren als daadwerkelijk belangrijke mensen, die aan de knoppen zitten en dingen mogen veranderen.",
-              "whyRead": "Raakt je interesse in digitale overheid: een concreet pleidooi voor een minister van Digitale Zaken met echte doorzettingsmacht.",
-              "bestMoment": "kritisch",
-              "tags": [
-                "political philosophy",
-                "professional development",
-                "technology"
-              ],
-              "alsoIn": [
-                "aaa-top-100",
-                "aaa-dutch-top-10",
-                "aaa-dutch-top-100",
-                "aaa-short-top-100",
-                "aaa-short-dutch-top-100"
-              ]
-            },
-            {
-              "position": 2,
-              "id": "01k1mhw46shwzk87214g7gtc9w",
-              "title": "Het begin van een oplossing",
-              "author": "Kees Verhoeven",
-              "siteName": "substack.com",
-              "category": "article",
-              "language": "Nederlands",
-              "readingTime": "5 mins",
-              "readingMinutes": 5,
-              "wordCount": 1284,
-              "publishedDate": "2025-08-01",
-              "savedDate": "2025-08-02T04:50:34.761000+00:00",
-              "imageUrl": "https://substackcdn.com/image/fetch/$s_!1jdQ!,w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fff922e10-c0e8-426d-b217-551232d44efe_908x510.heic",
-              "sourceUrl": "https://verhoeven.substack.com/p/het-begin-van-een-oplossing?r=1r0y5d&utm_medium=ios&triedRedirect=true",
-              "readwiseUrl": "https://read.readwise.io/read/01k1mhw46shwzk87214g7gtc9w",
-              "summary": "Kees Verhoeven onderzoekt hoe we de Nederlandse democratie kunnen verbeteren door te kijken naar procedures, structuren en cultuur. Hij geeft praktische voorstellen voor verkiezingen, politieke partijen en het parlement om transparanter en effectiever te worden. Zo wil hij de democratie sterker maken voor de toekomst.",
-              "whyRead": "Kees Verhoeven over het begin van een oplossing voor de democratische crisis — concrete stappen.",
-              "bestMoment": "geïnspireerd",
-              "tags": [
-                "current affairs & politics",
-                "political philosophy"
-              ],
-              "alsoIn": [
-                "aaa-top-100",
-                "aaa-dutch-top-10",
-                "aaa-dutch-top-100",
-                "aaa-short-top-100",
-                "aaa-short-dutch-top-100"
-              ]
-            },
-            {
-              "position": 3,
               "id": "01kdnzthe611p0c38ts9j702s2",
               "title": "De verleiding van de kettingzaag",
               "author": "NRC Handelsblad",
@@ -7993,7 +7770,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 4,
+              "position": 2,
               "id": "01kvcgsfekyqqc5b9t3nmrge8m",
               "title": "Hoera, het is Waterloodag!",
               "author": "De Ongelooflijke",
@@ -8030,7 +7807,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 5,
+              "position": 3,
               "id": "01kyxvjcj0396b5z5w8bcz634q",
               "title": "De atheïst die de bekendste verdediger van het christendom werd",
               "author": "De Ongelooflijke",
@@ -8058,328 +7835,10 @@ window.TOP_ARTICLES = {
                 "aaa-dutch-top-100",
                 "aaa-short-top-100",
                 "aaa-short-dutch-top-100"
-              ]
-            },
-            {
-              "position": 6,
-              "id": "01kzjk22zxkgrvftgdtdvj01rq",
-              "title": "Twintig seconden waar ik me diep voor schaam",
-              "author": "Jona van Loenen",
-              "siteName": "Substack",
-              "category": "email",
-              "language": "Nederlands",
-              "readingTime": "9 mins",
-              "readingMinutes": 9,
-              "wordCount": 2122,
-              "publishedDate": "2026-08-09",
-              "savedDate": "2026-08-09T06:23:44.637000+00:00",
-              "imageUrl": null,
-              "sourceUrl": "mailto:reader-forwarded-email/d6f314a85583cfa5b9175a9ac4ec73f8",
-              "readwiseUrl": "https://read.readwise.io/read/01kzjk22zxkgrvftgdtdvj01rq",
-              "summary": "Ik was bezig met het afronden van de laatste versie van het laatste hoofdstuk van mijn nieuwe boek. In alle eerlijkheid was dat niet alleen dinsdag.",
-              "whyRead": "Een persoonlijk, helder essay over AI als verleiding om precies het soort inspanning uit te besteden waar vaardigheid, trots en betekenis uit groeien. Sterke tegenhanger voor een puur productiviteitskader.",
-              "bestMoment": "reflectief",
-              "tags": [
-                "ai ethics",
-                "personal",
-                "philosophy"
-              ],
-              "alsoIn": [
-                "aaa-dutch-top-10",
-                "aaa-dutch-top-100",
-                "aaa-short-top-100",
-                "aaa-short-dutch-top-100"
-              ]
-            },
-            {
-              "position": 7,
-              "id": "01ktv2sxayxrqj6yzvyhjes6tf",
-              "title": "Leeslijst mei 2026",
-              "author": "Kauthar",
-              "siteName": "Substack",
-              "category": "email",
-              "language": "Nederlands",
-              "readingTime": "7 mins",
-              "readingMinutes": 7,
-              "wordCount": 1651,
-              "publishedDate": "2026-06-11",
-              "savedDate": "2026-06-11T10:14:20.254000+00:00",
-              "imageUrl": null,
-              "sourceUrl": "mailto:reader-forwarded-email/a0c00dcc2081fdba85fa1cc1b61f0134",
-              "readwiseUrl": "https://read.readwise.io/read/01ktv2sxayxrqj6yzvyhjes6tf",
-              "summary": "Lieke Marsman, schrijver, dichter, denker. Op 3 juni 2026 kwam de dood haar halen, maar haar woorden zullen altijd blijven.",
-              "whyRead": "Raakt literatuur, Nederlandse cultuur, politieke rechtvaardigheid en moederschap: deze leeslijst is geen droge boekenopsomming, maar een persoonlijk-culturele route langs dood, verzet, sociale rechtvaardigheid en de politiek van ouderschap. Vooral waardevol door de stem en de korte oordelen bij elk boek.",
-              "bestMoment": "ontspannen",
-              "tags": [
-                "arts & culture",
-                "fiction",
-                "light-reading",
-                "sociology & social structures"
-              ],
-              "alsoIn": [
-                "aaa-dutch-top-100",
-                "aaa-short-dutch-top-100",
-                "aaa-luchtig-top-100",
-                "aaa-luchtig-nederlands-top-10",
-                "aaa-luchtig-nederlands-top-100"
-              ]
-            },
-            {
-              "position": 8,
-              "id": "01kwkbvg7b538ndb8mhrw8b12z",
-              "title": "Mazzucato rekent af met strategie van Draghi, Wennink en het kabinet",
-              "author": "Rode Cijfers",
-              "siteName": "Substack",
-              "category": "email",
-              "language": "Nederlands",
-              "readingTime": "4 mins",
-              "readingMinutes": 4,
-              "wordCount": 949,
-              "publishedDate": "2026-07-03",
-              "savedDate": "2026-07-03T06:49:57.739000+00:00",
-              "imageUrl": null,
-              "sourceUrl": "mailto:reader-forwarded-email/f53bcf62a5e9049d60dd272011f386a4",
-              "readwiseUrl": "https://read.readwise.io/read/01kwkbvg7b538ndb8mhrw8b12z",
-              "summary": "Afgelopen week was het weer eens raak. Consultancybureau McKinsey kopte dat Europa de kostenoorlog met China hopeloos verliest.",
-              "whyRead": "Raakt je interesses in economie, ongelijkheid en politieke economie: Mazzucato's kritiek draait de Draghi/Wennink-diagnose om van 'te weinig kapitaal' naar 'verkeerd gestuurd kapitaal'. Sterk shortlist-materiaal door de Nederlandse en Europese beleidslaag.",
-              "bestMoment": "analytisch",
-              "tags": [
-                "economics",
-                "political philosophy",
-                "sociology & social structures"
-              ],
-              "alsoIn": [
-                "aaa-dutch-top-100",
-                "aaa-short-dutch-top-100"
-              ]
-            },
-            {
-              "position": 9,
-              "id": "01kysnkny4jr6ej2jh6n05ex8q",
-              "title": "Het Curieuze Artikel 73 van de AIVD en MIVD",
-              "author": "berthub.eu",
-              "siteName": "Bert Hubert's writings",
-              "category": "article",
-              "language": "Nederlands",
-              "readingTime": "3 mins",
-              "readingMinutes": 3,
-              "wordCount": 574,
-              "publishedDate": "2024-01-08",
-              "savedDate": "2026-07-30T14:07:17.445000+00:00",
-              "imageUrl": "https://berthub.eu/articles/bvd.jpeg",
-              "sourceUrl": "https://berthub.eu/articles/posts/het-curieuze-artikel-73-aivd-mivd/",
-              "readwiseUrl": "https://read.readwise.io/read/01kysnkny4jr6ej2jh6n05ex8q",
-              "summary": "Vandaag groot in het nieuws, een Nederlandse AIVD agent zou een sleutelrol gespeeld hebben in het binnenbrengen van sabotagesoftware bij het Iraanse kernwapenprogramma. Nou moet me wel van het hart, dit zou op zichzelf geen schandaal moeten zijn. Iran zijn onze vrienden niet, en ik heb liever dat ze geen kernwapenprogramma hebben.\nWel wekken de artikelen van Huib Modderkolk in de Volkskrant de indruk dat politiek Den Haag niet of niet voldoende op de hoogte was van dit alles.",
-              "whyRead": "Raakt je interesse in democratische rechtsorde en toezicht: een Nederlandse casus over inlichtingenwerk, wettelijke bevoegdheden en politieke controle.",
-              "bestMoment": "kritisch",
-              "tags": [
-                "current affairs & politics",
-                "political philosophy",
-                "technology"
-              ],
-              "alsoIn": [
-                "aaa-dutch-top-100",
-                "aaa-short-dutch-top-100"
-              ]
-            },
-            {
-              "position": 10,
-              "id": "01ktds007mazvkk5bn9zrdybw0",
-              "title": "Big oil vindt zichzelf heel zielig",
-              "author": "Jelmer Mommers",
-              "siteName": "De Correspondent",
-              "category": "email",
-              "language": "Nederlands",
-              "readingTime": "6 mins",
-              "readingMinutes": 6,
-              "wordCount": 1582,
-              "publishedDate": "2026-06-06",
-              "savedDate": "2026-06-06T06:12:46.453000+00:00",
-              "imageUrl": null,
-              "sourceUrl": "mailto:reader-forwarded-email/8b3b853d609eb07aec3436a813266a13",
-              "readwiseUrl": "https://read.readwise.io/read/01ktds007mazvkk5bn9zrdybw0",
-              "summary": "Welkom bij mijn nieuwsbrief over klimaatpolitiek die werkt. Deze editie gaat over eerlijkheid – of het gebrek daaraan.",
-              "whyRead": "Raakt Nederlandse politiek, klimaatbeleid en sociale rechtvaardigheid: Mommers verbindt fossiele bedrijfsmacht, draagvlak voor klimaatbeleid en eerlijkheidsgevoel bij burgers op een concrete Nederlandse manier.",
-              "bestMoment": "kritisch",
-              "tags": [
-                "current affairs & politics",
-                "environment & sustainability",
-                "sociology & social structures"
-              ],
-              "alsoIn": [
-                "aaa-dutch-top-100",
-                "aaa-short-dutch-top-100"
-              ]
-            }
-          ]
-        },
-        "top-100": {
-          "tag": "aaa-short-dutch-top-100",
-          "items": [
-            {
-              "position": 1,
-              "id": "01kysnmckrgernh72bvvz2eprz",
-              "title": "Minister van Digitale Zaken: hoe het kan werken",
-              "author": "berthub.eu",
-              "siteName": "Bert Hubert's writings",
-              "category": "article",
-              "language": "Nederlands",
-              "readingTime": "7 mins",
-              "readingMinutes": 7,
-              "wordCount": 1791,
-              "publishedDate": "2024-03-19",
-              "savedDate": "2026-07-30T14:07:40.661000+00:00",
-              "imageUrl": "https://berthub.eu/articles/akkermans.jpg",
-              "sourceUrl": "https://berthub.eu/articles/posts/minister-van-digitale-zaken/",
-              "readwiseUrl": "https://read.readwise.io/read/01kysnmckrgernh72bvvz2eprz",
-              "summary": "De hele korte versie: een minister voor Digitale Zaken heeft alleen zin als deze minstens evenveel doorzettingsmacht krijgt als de minister van Financiën. En het werkt ook alleen als die nieuwe minister een agenda heeft waarbij ICT veel meer is dan “iets wat je inkoopt”, maar echt een kernactiviteit wordt waar geïnnoveerd kan worden. En dat vergt een nieuwe erkenning van ICT-ambtenaren als daadwerkelijk belangrijke mensen, die aan de knoppen zitten en dingen mogen veranderen.",
-              "whyRead": "Raakt je interesse in digitale overheid: een concreet pleidooi voor een minister van Digitale Zaken met echte doorzettingsmacht.",
-              "bestMoment": "kritisch",
-              "tags": [
-                "political philosophy",
-                "professional development",
-                "technology"
-              ],
-              "alsoIn": [
-                "aaa-top-100",
-                "aaa-dutch-top-10",
-                "aaa-dutch-top-100",
-                "aaa-short-top-100",
-                "aaa-short-dutch-top-10"
-              ]
-            },
-            {
-              "position": 2,
-              "id": "01k1mhw46shwzk87214g7gtc9w",
-              "title": "Het begin van een oplossing",
-              "author": "Kees Verhoeven",
-              "siteName": "substack.com",
-              "category": "article",
-              "language": "Nederlands",
-              "readingTime": "5 mins",
-              "readingMinutes": 5,
-              "wordCount": 1284,
-              "publishedDate": "2025-08-01",
-              "savedDate": "2025-08-02T04:50:34.761000+00:00",
-              "imageUrl": "https://substackcdn.com/image/fetch/$s_!1jdQ!,w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fff922e10-c0e8-426d-b217-551232d44efe_908x510.heic",
-              "sourceUrl": "https://verhoeven.substack.com/p/het-begin-van-een-oplossing?r=1r0y5d&utm_medium=ios&triedRedirect=true",
-              "readwiseUrl": "https://read.readwise.io/read/01k1mhw46shwzk87214g7gtc9w",
-              "summary": "Kees Verhoeven onderzoekt hoe we de Nederlandse democratie kunnen verbeteren door te kijken naar procedures, structuren en cultuur. Hij geeft praktische voorstellen voor verkiezingen, politieke partijen en het parlement om transparanter en effectiever te worden. Zo wil hij de democratie sterker maken voor de toekomst.",
-              "whyRead": "Kees Verhoeven over het begin van een oplossing voor de democratische crisis — concrete stappen.",
-              "bestMoment": "geïnspireerd",
-              "tags": [
-                "current affairs & politics",
-                "political philosophy"
-              ],
-              "alsoIn": [
-                "aaa-top-100",
-                "aaa-dutch-top-10",
-                "aaa-dutch-top-100",
-                "aaa-short-top-100",
-                "aaa-short-dutch-top-10"
-              ]
-            },
-            {
-              "position": 3,
-              "id": "01kdnzthe611p0c38ts9j702s2",
-              "title": "De verleiding van de kettingzaag",
-              "author": "NRC Handelsblad",
-              "siteName": "NRC",
-              "category": "article",
-              "language": "Nederlands",
-              "readingTime": "9 mins",
-              "readingMinutes": 9,
-              "wordCount": 2243,
-              "publishedDate": "2025-12-25",
-              "savedDate": "2025-12-29T21:21:59.238000+00:00",
-              "imageUrl": "https://images.nrc.nl/wFtlC1eygAg9wnrwHMGMqZZkFJQ=/1200x627/smart/filters:no_upscale()/s3/static.nrc.nl/wp-content/uploads/2025/12/19080957/261225OPI_2027696901_Binnen-breed-Bas-Heijne-Anne-van-Wieren-WEB.jpg",
-              "sourceUrl": "https://www.nrc.nl/nieuws/2025/12/25/de-verleiding-van-de-kettingzaag-a4915742",
-              "readwiseUrl": "https://read.readwise.io/read/01kdnzthe611p0c38ts9j702s2",
-              "summary": "Tech‑bazen en rijke vrijheidszoekers willen regels en overheid omzeilen om hun macht en keuzes te maximaliseren.  \nDat leidt tot ongelijkheid, gehoorzaamheid aan technocratische idealen en een cultuur van woede en afbraak van de democratie.  \nHet resultaat is een gevaarlijke ontmenselijking en het grotendeels falen van beschaving en zelfbeheersing.",
-              "whyRead": "Raakt je interesse in politieke filosofie — Bas Heijne over de gevaarlijke aantrekkingskracht van 'kettingzaag'-politiek: snelle destructie als politieke verleiding.",
-              "bestMoment": "kritisch",
-              "tags": [
-                "current affairs & politics",
-                "political philosophy"
-              ],
-              "alsoIn": [
-                "aaa-top-100",
-                "aaa-dutch-top-10",
-                "aaa-dutch-top-100",
-                "aaa-short-top-100",
-                "aaa-short-dutch-top-10"
               ]
             },
             {
               "position": 4,
-              "id": "01kvcgsfekyqqc5b9t3nmrge8m",
-              "title": "Hoera, het is Waterloodag!",
-              "author": "De Ongelooflijke",
-              "siteName": "Substack",
-              "category": "email",
-              "language": "Nederlands",
-              "readingTime": "8 mins",
-              "readingMinutes": 8,
-              "wordCount": 1935,
-              "publishedDate": "2026-06-18",
-              "savedDate": "2026-06-18T04:45:51.444000+00:00",
-              "imageUrl": null,
-              "sourceUrl": "mailto:reader-forwarded-email/9063dc73da1b3f69c5087334680b7b3a",
-              "readwiseUrl": "https://read.readwise.io/read/01kvcgsfekyqqc5b9t3nmrge8m",
-              "summary": "Meer dan honderd jaar was 18 juni in Nederland een nationale feestdag, ter herinnering aan de Slag bij Waterloo (1815): de dag waarop Napoleon definitief werd verslagen en de geschiedenis van Nederland en Europa een beslissende wending nam.",
-              "whyRead": "Raakt je interesse in Europese geschiedenis en collectief geheugen: zeven veldslagen worden niet alleen militair, maar ook cultureel en identitair geduid. De meerwaarde zit in de combinatie van geschiedenis, mythevorming en historische verbeelding.",
-              "bestMoment": "ontspannen",
-              "tags": [
-                "arts & culture",
-                "history",
-                "later",
-                "light-reading",
-                "sociology & social structures"
-              ],
-              "alsoIn": [
-                "aaa-top-100",
-                "aaa-dutch-top-10",
-                "aaa-dutch-top-100",
-                "aaa-short-top-100",
-                "aaa-short-dutch-top-10",
-                "aaa-luchtig-top-100",
-                "aaa-luchtig-nederlands-top-10",
-                "aaa-luchtig-nederlands-top-100"
-              ]
-            },
-            {
-              "position": 5,
-              "id": "01kyxvjcj0396b5z5w8bcz634q",
-              "title": "De atheïst die de bekendste verdediger van het christendom werd",
-              "author": "De Ongelooflijke",
-              "siteName": "Substack",
-              "category": "email",
-              "language": "Nederlands",
-              "readingTime": "9 mins",
-              "readingMinutes": 9,
-              "wordCount": 2302,
-              "publishedDate": "2026-08-01",
-              "savedDate": "2026-08-01T05:08:24.257000+00:00",
-              "imageUrl": null,
-              "sourceUrl": "mailto:reader-forwarded-email/363643d320a4241500df2bc54c0e90ca",
-              "readwiseUrl": "https://read.readwise.io/read/01kyxvjcj0396b5z5w8bcz634q",
-              "summary": "“Het leek op het moment waarop een mens, na een lange slaap, nog roerloos in bed ligt en zich ervan bewust wordt dat hij nu wakker is. ” Zo omschrijft C.",
-              "whyRead": "Zie de gekozen tags: dit stuk biedt een inhoudelijke ingang die aansluit op die interessegebieden.",
-              "bestMoment": "reflectief",
-              "tags": [
-                "history",
-                "later",
-                "philosophy"
-              ],
-              "alsoIn": [
-                "aaa-dutch-top-10",
-                "aaa-dutch-top-100",
-                "aaa-short-top-100",
-                "aaa-short-dutch-top-10"
-              ]
-            },
-            {
-              "position": 6,
               "id": "01kzjk22zxkgrvftgdtdvj01rq",
               "title": "Twintig seconden waar ik me diep voor schaam",
               "author": "Jona van Loenen",
@@ -8406,73 +7865,11 @@ window.TOP_ARTICLES = {
                 "aaa-dutch-top-10",
                 "aaa-dutch-top-100",
                 "aaa-short-top-100",
-                "aaa-short-dutch-top-10"
+                "aaa-short-dutch-top-100"
               ]
             },
             {
-              "position": 7,
-              "id": "01ktv2sxayxrqj6yzvyhjes6tf",
-              "title": "Leeslijst mei 2026",
-              "author": "Kauthar",
-              "siteName": "Substack",
-              "category": "email",
-              "language": "Nederlands",
-              "readingTime": "7 mins",
-              "readingMinutes": 7,
-              "wordCount": 1651,
-              "publishedDate": "2026-06-11",
-              "savedDate": "2026-06-11T10:14:20.254000+00:00",
-              "imageUrl": null,
-              "sourceUrl": "mailto:reader-forwarded-email/a0c00dcc2081fdba85fa1cc1b61f0134",
-              "readwiseUrl": "https://read.readwise.io/read/01ktv2sxayxrqj6yzvyhjes6tf",
-              "summary": "Lieke Marsman, schrijver, dichter, denker. Op 3 juni 2026 kwam de dood haar halen, maar haar woorden zullen altijd blijven.",
-              "whyRead": "Raakt literatuur, Nederlandse cultuur, politieke rechtvaardigheid en moederschap: deze leeslijst is geen droge boekenopsomming, maar een persoonlijk-culturele route langs dood, verzet, sociale rechtvaardigheid en de politiek van ouderschap. Vooral waardevol door de stem en de korte oordelen bij elk boek.",
-              "bestMoment": "ontspannen",
-              "tags": [
-                "arts & culture",
-                "fiction",
-                "light-reading",
-                "sociology & social structures"
-              ],
-              "alsoIn": [
-                "aaa-dutch-top-100",
-                "aaa-short-dutch-top-10",
-                "aaa-luchtig-top-100",
-                "aaa-luchtig-nederlands-top-10",
-                "aaa-luchtig-nederlands-top-100"
-              ]
-            },
-            {
-              "position": 8,
-              "id": "01kwkbvg7b538ndb8mhrw8b12z",
-              "title": "Mazzucato rekent af met strategie van Draghi, Wennink en het kabinet",
-              "author": "Rode Cijfers",
-              "siteName": "Substack",
-              "category": "email",
-              "language": "Nederlands",
-              "readingTime": "4 mins",
-              "readingMinutes": 4,
-              "wordCount": 949,
-              "publishedDate": "2026-07-03",
-              "savedDate": "2026-07-03T06:49:57.739000+00:00",
-              "imageUrl": null,
-              "sourceUrl": "mailto:reader-forwarded-email/f53bcf62a5e9049d60dd272011f386a4",
-              "readwiseUrl": "https://read.readwise.io/read/01kwkbvg7b538ndb8mhrw8b12z",
-              "summary": "Afgelopen week was het weer eens raak. Consultancybureau McKinsey kopte dat Europa de kostenoorlog met China hopeloos verliest.",
-              "whyRead": "Raakt je interesses in economie, ongelijkheid en politieke economie: Mazzucato's kritiek draait de Draghi/Wennink-diagnose om van 'te weinig kapitaal' naar 'verkeerd gestuurd kapitaal'. Sterk shortlist-materiaal door de Nederlandse en Europese beleidslaag.",
-              "bestMoment": "analytisch",
-              "tags": [
-                "economics",
-                "political philosophy",
-                "sociology & social structures"
-              ],
-              "alsoIn": [
-                "aaa-dutch-top-100",
-                "aaa-short-dutch-top-10"
-              ]
-            },
-            {
-              "position": 9,
+              "position": 5,
               "id": "01kysnkny4jr6ej2jh6n05ex8q",
               "title": "Het Curieuze Artikel 73 van de AIVD en MIVD",
               "author": "berthub.eu",
@@ -8497,40 +7894,11 @@ window.TOP_ARTICLES = {
               ],
               "alsoIn": [
                 "aaa-dutch-top-100",
-                "aaa-short-dutch-top-10"
+                "aaa-short-dutch-top-100"
               ]
             },
             {
-              "position": 10,
-              "id": "01ktds007mazvkk5bn9zrdybw0",
-              "title": "Big oil vindt zichzelf heel zielig",
-              "author": "Jelmer Mommers",
-              "siteName": "De Correspondent",
-              "category": "email",
-              "language": "Nederlands",
-              "readingTime": "6 mins",
-              "readingMinutes": 6,
-              "wordCount": 1582,
-              "publishedDate": "2026-06-06",
-              "savedDate": "2026-06-06T06:12:46.453000+00:00",
-              "imageUrl": null,
-              "sourceUrl": "mailto:reader-forwarded-email/8b3b853d609eb07aec3436a813266a13",
-              "readwiseUrl": "https://read.readwise.io/read/01ktds007mazvkk5bn9zrdybw0",
-              "summary": "Welkom bij mijn nieuwsbrief over klimaatpolitiek die werkt. Deze editie gaat over eerlijkheid – of het gebrek daaraan.",
-              "whyRead": "Raakt Nederlandse politiek, klimaatbeleid en sociale rechtvaardigheid: Mommers verbindt fossiele bedrijfsmacht, draagvlak voor klimaatbeleid en eerlijkheidsgevoel bij burgers op een concrete Nederlandse manier.",
-              "bestMoment": "kritisch",
-              "tags": [
-                "current affairs & politics",
-                "environment & sustainability",
-                "sociology & social structures"
-              ],
-              "alsoIn": [
-                "aaa-dutch-top-100",
-                "aaa-short-dutch-top-10"
-              ]
-            },
-            {
-              "position": 11,
+              "position": 6,
               "id": "01kv7gpdvwcvk4359brzpxqmes",
               "title": "Waarom zeggen vrienden zo vaak af?",
               "author": "Lena Bril",
@@ -8554,11 +7922,12 @@ window.TOP_ARTICLES = {
                 "sociology & social structures"
               ],
               "alsoIn": [
-                "aaa-dutch-top-100"
+                "aaa-dutch-top-100",
+                "aaa-short-dutch-top-100"
               ]
             },
             {
-              "position": 12,
+              "position": 7,
               "id": "01kwnr6f6a3gb801eapyrbp6q2",
               "title": "Honderd vliegtuigcrashes in één week: wat is hier aan de hand?",
               "author": "Jelmer Mommers",
@@ -8582,11 +7951,12 @@ window.TOP_ARTICLES = {
                 "sociology & social structures"
               ],
               "alsoIn": [
-                "aaa-dutch-top-100"
+                "aaa-dutch-top-100",
+                "aaa-short-dutch-top-100"
               ]
             },
             {
-              "position": 13,
+              "position": 8,
               "id": "01kwreqfypckk54fws5c65whwp",
               "title": "Niemand wil het, toch doen we het allemaal",
               "author": "Jona van Loenen",
@@ -8612,13 +7982,14 @@ window.TOP_ARTICLES = {
               ],
               "alsoIn": [
                 "aaa-dutch-top-100",
+                "aaa-short-dutch-top-100",
                 "aaa-luchtig-top-100",
                 "aaa-luchtig-nederlands-top-10",
                 "aaa-luchtig-nederlands-top-100"
               ]
             },
             {
-              "position": 14,
+              "position": 9,
               "id": "01kxabe372k5htmjxz8bxdan0f",
               "title": "Privéchefs zijn extreem algoritmevriendelijk",
               "author": "Doortje Smithuijsen",
@@ -8644,12 +8015,13 @@ window.TOP_ARTICLES = {
               ],
               "alsoIn": [
                 "aaa-dutch-top-100",
+                "aaa-short-dutch-top-100",
                 "aaa-luchtig-nederlands-top-10",
                 "aaa-luchtig-nederlands-top-100"
               ]
             },
             {
-              "position": 15,
+              "position": 10,
               "id": "01kyejqrpkrb3a9zqk5a7k4n5f",
               "title": "Jetten-1 is geen regering. Het is een situationship.",
               "author": "Jona van Loenen",
@@ -8676,12 +8048,333 @@ window.TOP_ARTICLES = {
               ],
               "alsoIn": [
                 "aaa-dutch-top-100",
+                "aaa-short-dutch-top-100",
+                "aaa-luchtig-nederlands-top-10",
+                "aaa-luchtig-nederlands-top-100"
+              ]
+            }
+          ]
+        },
+        "top-100": {
+          "tag": "aaa-short-dutch-top-100",
+          "items": [
+            {
+              "position": 1,
+              "id": "01kdnzthe611p0c38ts9j702s2",
+              "title": "De verleiding van de kettingzaag",
+              "author": "NRC Handelsblad",
+              "siteName": "NRC",
+              "category": "article",
+              "language": "Nederlands",
+              "readingTime": "9 mins",
+              "readingMinutes": 9,
+              "wordCount": 2243,
+              "publishedDate": "2025-12-25",
+              "savedDate": "2025-12-29T21:21:59.238000+00:00",
+              "imageUrl": "https://images.nrc.nl/wFtlC1eygAg9wnrwHMGMqZZkFJQ=/1200x627/smart/filters:no_upscale()/s3/static.nrc.nl/wp-content/uploads/2025/12/19080957/261225OPI_2027696901_Binnen-breed-Bas-Heijne-Anne-van-Wieren-WEB.jpg",
+              "sourceUrl": "https://www.nrc.nl/nieuws/2025/12/25/de-verleiding-van-de-kettingzaag-a4915742",
+              "readwiseUrl": "https://read.readwise.io/read/01kdnzthe611p0c38ts9j702s2",
+              "summary": "Tech‑bazen en rijke vrijheidszoekers willen regels en overheid omzeilen om hun macht en keuzes te maximaliseren.  \nDat leidt tot ongelijkheid, gehoorzaamheid aan technocratische idealen en een cultuur van woede en afbraak van de democratie.  \nHet resultaat is een gevaarlijke ontmenselijking en het grotendeels falen van beschaving en zelfbeheersing.",
+              "whyRead": "Raakt je interesse in politieke filosofie — Bas Heijne over de gevaarlijke aantrekkingskracht van 'kettingzaag'-politiek: snelle destructie als politieke verleiding.",
+              "bestMoment": "kritisch",
+              "tags": [
+                "current affairs & politics",
+                "political philosophy"
+              ],
+              "alsoIn": [
+                "aaa-top-100",
+                "aaa-dutch-top-10",
+                "aaa-dutch-top-100",
+                "aaa-short-top-100",
+                "aaa-short-dutch-top-10"
+              ]
+            },
+            {
+              "position": 2,
+              "id": "01kvcgsfekyqqc5b9t3nmrge8m",
+              "title": "Hoera, het is Waterloodag!",
+              "author": "De Ongelooflijke",
+              "siteName": "Substack",
+              "category": "email",
+              "language": "Nederlands",
+              "readingTime": "8 mins",
+              "readingMinutes": 8,
+              "wordCount": 1935,
+              "publishedDate": "2026-06-18",
+              "savedDate": "2026-06-18T04:45:51.444000+00:00",
+              "imageUrl": null,
+              "sourceUrl": "mailto:reader-forwarded-email/9063dc73da1b3f69c5087334680b7b3a",
+              "readwiseUrl": "https://read.readwise.io/read/01kvcgsfekyqqc5b9t3nmrge8m",
+              "summary": "Meer dan honderd jaar was 18 juni in Nederland een nationale feestdag, ter herinnering aan de Slag bij Waterloo (1815): de dag waarop Napoleon definitief werd verslagen en de geschiedenis van Nederland en Europa een beslissende wending nam.",
+              "whyRead": "Raakt je interesse in Europese geschiedenis en collectief geheugen: zeven veldslagen worden niet alleen militair, maar ook cultureel en identitair geduid. De meerwaarde zit in de combinatie van geschiedenis, mythevorming en historische verbeelding.",
+              "bestMoment": "ontspannen",
+              "tags": [
+                "arts & culture",
+                "history",
+                "later",
+                "light-reading",
+                "sociology & social structures"
+              ],
+              "alsoIn": [
+                "aaa-top-100",
+                "aaa-dutch-top-10",
+                "aaa-dutch-top-100",
+                "aaa-short-top-100",
+                "aaa-short-dutch-top-10",
+                "aaa-luchtig-top-100",
                 "aaa-luchtig-nederlands-top-10",
                 "aaa-luchtig-nederlands-top-100"
               ]
             },
             {
-              "position": 16,
+              "position": 3,
+              "id": "01kyxvjcj0396b5z5w8bcz634q",
+              "title": "De atheïst die de bekendste verdediger van het christendom werd",
+              "author": "De Ongelooflijke",
+              "siteName": "Substack",
+              "category": "email",
+              "language": "Nederlands",
+              "readingTime": "9 mins",
+              "readingMinutes": 9,
+              "wordCount": 2302,
+              "publishedDate": "2026-08-01",
+              "savedDate": "2026-08-01T05:08:24.257000+00:00",
+              "imageUrl": null,
+              "sourceUrl": "mailto:reader-forwarded-email/363643d320a4241500df2bc54c0e90ca",
+              "readwiseUrl": "https://read.readwise.io/read/01kyxvjcj0396b5z5w8bcz634q",
+              "summary": "“Het leek op het moment waarop een mens, na een lange slaap, nog roerloos in bed ligt en zich ervan bewust wordt dat hij nu wakker is. ” Zo omschrijft C.",
+              "whyRead": "Zie de gekozen tags: dit stuk biedt een inhoudelijke ingang die aansluit op die interessegebieden.",
+              "bestMoment": "reflectief",
+              "tags": [
+                "history",
+                "later",
+                "philosophy"
+              ],
+              "alsoIn": [
+                "aaa-dutch-top-10",
+                "aaa-dutch-top-100",
+                "aaa-short-top-100",
+                "aaa-short-dutch-top-10"
+              ]
+            },
+            {
+              "position": 4,
+              "id": "01kzjk22zxkgrvftgdtdvj01rq",
+              "title": "Twintig seconden waar ik me diep voor schaam",
+              "author": "Jona van Loenen",
+              "siteName": "Substack",
+              "category": "email",
+              "language": "Nederlands",
+              "readingTime": "9 mins",
+              "readingMinutes": 9,
+              "wordCount": 2122,
+              "publishedDate": "2026-08-09",
+              "savedDate": "2026-08-09T06:23:44.637000+00:00",
+              "imageUrl": null,
+              "sourceUrl": "mailto:reader-forwarded-email/d6f314a85583cfa5b9175a9ac4ec73f8",
+              "readwiseUrl": "https://read.readwise.io/read/01kzjk22zxkgrvftgdtdvj01rq",
+              "summary": "Ik was bezig met het afronden van de laatste versie van het laatste hoofdstuk van mijn nieuwe boek. In alle eerlijkheid was dat niet alleen dinsdag.",
+              "whyRead": "Een persoonlijk, helder essay over AI als verleiding om precies het soort inspanning uit te besteden waar vaardigheid, trots en betekenis uit groeien. Sterke tegenhanger voor een puur productiviteitskader.",
+              "bestMoment": "reflectief",
+              "tags": [
+                "ai ethics",
+                "personal",
+                "philosophy"
+              ],
+              "alsoIn": [
+                "aaa-dutch-top-10",
+                "aaa-dutch-top-100",
+                "aaa-short-top-100",
+                "aaa-short-dutch-top-10"
+              ]
+            },
+            {
+              "position": 5,
+              "id": "01kysnkny4jr6ej2jh6n05ex8q",
+              "title": "Het Curieuze Artikel 73 van de AIVD en MIVD",
+              "author": "berthub.eu",
+              "siteName": "Bert Hubert's writings",
+              "category": "article",
+              "language": "Nederlands",
+              "readingTime": "3 mins",
+              "readingMinutes": 3,
+              "wordCount": 574,
+              "publishedDate": "2024-01-08",
+              "savedDate": "2026-07-30T14:07:17.445000+00:00",
+              "imageUrl": "https://berthub.eu/articles/bvd.jpeg",
+              "sourceUrl": "https://berthub.eu/articles/posts/het-curieuze-artikel-73-aivd-mivd/",
+              "readwiseUrl": "https://read.readwise.io/read/01kysnkny4jr6ej2jh6n05ex8q",
+              "summary": "Vandaag groot in het nieuws, een Nederlandse AIVD agent zou een sleutelrol gespeeld hebben in het binnenbrengen van sabotagesoftware bij het Iraanse kernwapenprogramma. Nou moet me wel van het hart, dit zou op zichzelf geen schandaal moeten zijn. Iran zijn onze vrienden niet, en ik heb liever dat ze geen kernwapenprogramma hebben.\nWel wekken de artikelen van Huib Modderkolk in de Volkskrant de indruk dat politiek Den Haag niet of niet voldoende op de hoogte was van dit alles.",
+              "whyRead": "Raakt je interesse in democratische rechtsorde en toezicht: een Nederlandse casus over inlichtingenwerk, wettelijke bevoegdheden en politieke controle.",
+              "bestMoment": "kritisch",
+              "tags": [
+                "current affairs & politics",
+                "political philosophy",
+                "technology"
+              ],
+              "alsoIn": [
+                "aaa-dutch-top-100",
+                "aaa-short-dutch-top-10"
+              ]
+            },
+            {
+              "position": 6,
+              "id": "01kv7gpdvwcvk4359brzpxqmes",
+              "title": "Waarom zeggen vrienden zo vaak af?",
+              "author": "Lena Bril",
+              "siteName": "Substack",
+              "category": "email",
+              "language": "Nederlands",
+              "readingTime": "6 mins",
+              "readingMinutes": 6,
+              "wordCount": 1583,
+              "publishedDate": "2026-06-16",
+              "savedDate": "2026-06-16T06:07:59.357000+00:00",
+              "imageUrl": null,
+              "sourceUrl": "mailto:reader-forwarded-email/222baea9bdf1a39ca6dcd8a4d9a2f818",
+              "readwiseUrl": "https://read.readwise.io/read/01kv7gpdvwcvk4359brzpxqmes",
+              "summary": "Dat gevoel wordt gedempt door de ‘❤️‍🩹’ en de berichtjes in de boekenclubgroepsapp (op Signal, welteverstaan).",
+              "whyRead": null,
+              "bestMoment": "reflectief",
+              "tags": [
+                "behavioral psychology & coaching",
+                "personal growth & life philosophy",
+                "sociology & social structures"
+              ],
+              "alsoIn": [
+                "aaa-dutch-top-100",
+                "aaa-short-dutch-top-10"
+              ]
+            },
+            {
+              "position": 7,
+              "id": "01kwnr6f6a3gb801eapyrbp6q2",
+              "title": "Honderd vliegtuigcrashes in één week: wat is hier aan de hand?",
+              "author": "Jelmer Mommers",
+              "siteName": "De Correspondent",
+              "category": "email",
+              "language": "Nederlands",
+              "readingTime": "8 mins",
+              "readingMinutes": 8,
+              "wordCount": 1930,
+              "publishedDate": "2026-07-04",
+              "savedDate": "2026-07-04T05:04:08.907000+00:00",
+              "imageUrl": null,
+              "sourceUrl": "mailto:reader-forwarded-email/59e0506a77abced4047afea70a08faa5",
+              "readwiseUrl": "https://read.readwise.io/read/01kwnr6f6a3gb801eapyrbp6q2",
+              "summary": "Een van de radicaalste en naarste uitingen van klimaatverandering is dat de zomer nu fundamenteel anders voelt dan vroeger.",
+              "whyRead": "Sterke Nederlandstalige klimaatduiding van Jelmer Mommers, met een concreet beeld om de schaal van klimaatverandering invoelbaar te maken. Relevant voor milieu, maatschappij en de vraag hoe abstracte rampstatistiek een persoonlijke zomerervaring wordt.",
+              "bestMoment": "kritisch",
+              "tags": [
+                "current affairs & politics",
+                "environment & sustainability",
+                "sociology & social structures"
+              ],
+              "alsoIn": [
+                "aaa-dutch-top-100",
+                "aaa-short-dutch-top-10"
+              ]
+            },
+            {
+              "position": 8,
+              "id": "01kwreqfypckk54fws5c65whwp",
+              "title": "Niemand wil het, toch doen we het allemaal",
+              "author": "Jona van Loenen",
+              "siteName": "Substack",
+              "category": "email",
+              "language": "Nederlands",
+              "readingTime": "7 mins",
+              "readingMinutes": 7,
+              "wordCount": 1653,
+              "publishedDate": "2026-07-05",
+              "savedDate": "2026-07-05T06:16:24.278000+00:00",
+              "imageUrl": null,
+              "sourceUrl": "mailto:reader-forwarded-email/d03e98c83b42f95bce803f121327a74f",
+              "readwiseUrl": "https://read.readwise.io/read/01kwreqfypckk54fws5c65whwp",
+              "summary": "Normaal neem ik de metro terug naar huis, voor de simpele reden dat ik geen zin heb om die (zware) tassen te dragen.",
+              "whyRead": "Nederlandstalig persoonlijk essay met alledaagse insteek; mogelijk interessant door stem, herkenning en reflectie op gedrag dat niemand wil maar iedereen toch doet. Bewaren als lichte essayistische Nederlandse cultuurreflectie.",
+              "bestMoment": "ontspannen",
+              "tags": [
+                "arts & culture",
+                "light-reading",
+                "personal growth & life philosophy",
+                "sociology & social structures"
+              ],
+              "alsoIn": [
+                "aaa-dutch-top-100",
+                "aaa-short-dutch-top-10",
+                "aaa-luchtig-top-100",
+                "aaa-luchtig-nederlands-top-10",
+                "aaa-luchtig-nederlands-top-100"
+              ]
+            },
+            {
+              "position": 9,
+              "id": "01kxabe372k5htmjxz8bxdan0f",
+              "title": "Privéchefs zijn extreem algoritmevriendelijk",
+              "author": "Doortje Smithuijsen",
+              "siteName": "Substack",
+              "category": "email",
+              "language": "Nederlands",
+              "readingTime": "5 mins",
+              "readingMinutes": 5,
+              "wordCount": 1122,
+              "publishedDate": "2026-07-12",
+              "savedDate": "2026-07-12T05:05:10.371000+00:00",
+              "imageUrl": null,
+              "sourceUrl": "mailto:reader-forwarded-email/1eee5fd801287b43f486157c5a05455c",
+              "readwiseUrl": "https://read.readwise.io/read/01kxabe372k5htmjxz8bxdan0f",
+              "summary": "De laatste tijd zit ik in een nieuw algoritme: dat van privéchefs.",
+              "whyRead": "Raakt je interesse in cultuur als vorm van sociale analyse: privechefs worden bekeken als algoritmisch aantrekkelijk statussymbool. De meerwaarde zit waarschijnlijk in de observatie van smaak, rijkdom en platformlogica.",
+              "bestMoment": "ontspannen",
+              "tags": [
+                "arts & culture",
+                "later",
+                "light-reading",
+                "sociology & social structures"
+              ],
+              "alsoIn": [
+                "aaa-dutch-top-100",
+                "aaa-short-dutch-top-10",
+                "aaa-luchtig-nederlands-top-10",
+                "aaa-luchtig-nederlands-top-100"
+              ]
+            },
+            {
+              "position": 10,
+              "id": "01kyejqrpkrb3a9zqk5a7k4n5f",
+              "title": "Jetten-1 is geen regering. Het is een situationship.",
+              "author": "Jona van Loenen",
+              "siteName": "Substack",
+              "category": "email",
+              "language": "Nederlands",
+              "readingTime": "6 mins",
+              "readingMinutes": 6,
+              "wordCount": 1547,
+              "publishedDate": "2026-07-26",
+              "savedDate": "2026-07-26T06:45:26.868000+00:00",
+              "imageUrl": null,
+              "sourceUrl": "mailto:reader-forwarded-email/10e2d6a1c4a4b04f8ef0a919503aa291",
+              "readwiseUrl": "https://read.readwise.io/read/01kyejqrpkrb3a9zqk5a7k4n5f",
+              "summary": "Dit is voor het verhaal even belangrijk om te weten: deze vriend is een geboren en getogen Rotterdammer. Hij is opgegroeid in Kralingen, en is daar nooit meer weggegaan.",
+              "whyRead": "Raakt je interesse in Nederlandse politiek en essayistische analyse: de situationship-metafoor maakt de vrijblijvende logica van een meerderheidsarme regering tastbaar.",
+              "bestMoment": "kritisch",
+              "tags": [
+                "arts & culture",
+                "current affairs & politics",
+                "later",
+                "light-reading",
+                "sociology & social structures"
+              ],
+              "alsoIn": [
+                "aaa-dutch-top-100",
+                "aaa-short-dutch-top-10",
+                "aaa-luchtig-nederlands-top-10",
+                "aaa-luchtig-nederlands-top-100"
+              ]
+            },
+            {
+              "position": 11,
               "id": "01kzzst7bzmyrpwmespcekhf7k",
               "title": "Er is straks niets dat AI niet beter kan. Behalve mens zijn.",
               "author": "Saskia en Alinda van her/ai",
@@ -8709,7 +8402,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 17,
+              "position": 12,
               "id": "01m01yc8rqy3yyyab16j5exq6t",
               "title": "Populair klimaatbeleid: dit zijn de bouwstenen",
               "author": "Jelmer Mommers",
@@ -8737,7 +8430,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 18,
+              "position": 13,
               "id": "01ks7vbkd0mgft31fpf06jbv90",
               "title": "Een gele kanarie van 195 euro",
               "author": "Alexander Klöpping & Ernst-Jan Pfauth",
@@ -8767,7 +8460,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 19,
+              "position": 14,
               "id": "01kt43yge3yh7na9s1pgccyc4b",
               "title": "Universiteiten verspillen kostbaar rendement",
               "author": "Sophie van Gool",
@@ -8794,7 +8487,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 20,
+              "position": 15,
               "id": "01ktbxxr50k86jtqphyhdp1eyc",
               "title": "De blauwe Ferrari van Jony Ive",
               "author": "Alexander Klöpping & Ernst-Jan Pfauth",
@@ -8820,11 +8513,12 @@ window.TOP_ARTICLES = {
               ],
               "alsoIn": [
                 "aaa-dutch-top-100",
+                "aaa-luchtig-nederlands-top-10",
                 "aaa-luchtig-nederlands-top-100"
               ]
             },
             {
-              "position": 21,
+              "position": 16,
               "id": "01ktxgxw7cxp7caqpe7w230ne4",
               "title": "Klagende supermarkten",
               "author": "Rode Cijfers",
@@ -8851,7 +8545,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 22,
+              "position": 17,
               "id": "01kty3nmapqw3y4ypnbbgrm2t3",
               "title": "De FIFA-idents zijn fantastisch",
               "author": "Alexander Klöpping & Ernst-Jan Pfauth",
@@ -8881,7 +8575,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 23,
+              "position": 18,
               "id": "01kvfsv00xheeeezwr4g8hm52h",
               "title": "Dé telefoon zonder social media",
               "author": "Alexander Klöpping & Ernst-Jan Pfauth",
@@ -8911,7 +8605,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 24,
+              "position": 19,
               "id": "01kt8j5yakk29s0cg4w3wnywn8",
               "title": "Deze zeven vragen geven je werk een ziel",
               "author": "Simon van Teutem",
@@ -8938,7 +8632,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 25,
+              "position": 20,
               "id": "01m02agqvzjjczjgfrjqd8qyqj",
               "title": "De enige AI-skill die er echt toe doet",
               "author": "AI Report",
@@ -8966,7 +8660,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 26,
+              "position": 21,
               "id": "01kzds50ngmgn4d833k9cj9dp2",
               "title": "Wie bepaalt of jouw werk “AI slop” is?",
               "author": "Saskia en Alinda van her/ai",
@@ -8994,7 +8688,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 27,
+              "position": 22,
               "id": "01kxfv166ahh2jwz1pr03kevc9",
               "title": "Stel kritische vragen bij het AI-evangelie",
               "author": "Sophie van Gool",
@@ -9020,7 +8714,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 28,
+              "position": 23,
               "id": "01kzdbf87h4fzk1m5hz1zgh27t",
               "title": "De ideologische no-brainer voor het kabinet",
               "author": "Rode Cijfers",
@@ -9048,7 +8742,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 29,
+              "position": 24,
               "id": "01kshptdc5njqdmnehkxr4arfb",
               "title": "Een walgelijke man",
               "author": "Fouad El Hamdaoui",
@@ -9078,7 +8772,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 30,
+              "position": 25,
               "id": "01kt7kjd4zr8ba59xcpfvmxdfz",
               "title": "Week 14: kop en staart",
               "author": "Holly en Roos",
@@ -9107,7 +8801,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 31,
+              "position": 26,
               "id": "01kwnpartfb70amv2acccwcsr1",
               "title": "Vijf muggen in mijn klamboe",
               "author": "Dorien.Bot",
@@ -9136,7 +8830,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 32,
+              "position": 27,
               "id": "01m01v1rmpqh6acc6t5t8cdy21",
               "title": "Was ik maar iets meer robotesk",
               "author": "Dorien.Bot",
@@ -10215,6 +9909,7 @@ window.TOP_ARTICLES = {
                 "political philosophy"
               ],
               "alsoIn": [
+                "aaa-top-100",
                 "aaa-short-top-100"
               ]
             },
@@ -10585,7 +10280,9 @@ window.TOP_ARTICLES = {
                 "light-reading",
                 "writing & essays"
               ],
-              "alsoIn": []
+              "alsoIn": [
+                "aaa-short-top-100"
+              ]
             },
             {
               "position": 38,
@@ -10917,39 +10614,6 @@ window.TOP_ARTICLES = {
             },
             {
               "position": 50,
-              "id": "01ktv2sxayxrqj6yzvyhjes6tf",
-              "title": "Leeslijst mei 2026",
-              "author": "Kauthar",
-              "siteName": "Substack",
-              "category": "email",
-              "language": "Nederlands",
-              "readingTime": "7 mins",
-              "readingMinutes": 7,
-              "wordCount": 1651,
-              "publishedDate": "2026-06-11",
-              "savedDate": "2026-06-11T10:14:20.254000+00:00",
-              "imageUrl": null,
-              "sourceUrl": "mailto:reader-forwarded-email/a0c00dcc2081fdba85fa1cc1b61f0134",
-              "readwiseUrl": "https://read.readwise.io/read/01ktv2sxayxrqj6yzvyhjes6tf",
-              "summary": "Lieke Marsman, schrijver, dichter, denker. Op 3 juni 2026 kwam de dood haar halen, maar haar woorden zullen altijd blijven.",
-              "whyRead": "Raakt literatuur, Nederlandse cultuur, politieke rechtvaardigheid en moederschap: deze leeslijst is geen droge boekenopsomming, maar een persoonlijk-culturele route langs dood, verzet, sociale rechtvaardigheid en de politiek van ouderschap. Vooral waardevol door de stem en de korte oordelen bij elk boek.",
-              "bestMoment": "ontspannen",
-              "tags": [
-                "arts & culture",
-                "fiction",
-                "light-reading",
-                "sociology & social structures"
-              ],
-              "alsoIn": [
-                "aaa-dutch-top-100",
-                "aaa-short-dutch-top-10",
-                "aaa-short-dutch-top-100",
-                "aaa-luchtig-nederlands-top-10",
-                "aaa-luchtig-nederlands-top-100"
-              ]
-            },
-            {
-              "position": 51,
               "id": "01kw5smp76n3se61jv02c1zzx9",
               "title": "Why Writing Feels So Unnatural",
               "author": "A Mug of Insights",
@@ -10976,7 +10640,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 52,
+              "position": 51,
               "id": "01kbdw3w0vrspnk8yzrfxypq51",
               "title": "The Quiet Collapse of Reading—and the Only Real Solution",
               "author": "Joel J Miller",
@@ -11003,7 +10667,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 53,
+              "position": 52,
               "id": "01m059v98jpw8wgvff3t63dxm4",
               "title": "Rudyard Kipling",
               "author": "orwellfoundation.com",
@@ -11029,7 +10693,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 54,
+              "position": 53,
               "id": "01m059vdx0s3ff8xbj5eh1y9x3",
               "title": "Some Thoughts on the Common Toad",
               "author": "orwellfoundation.com",
@@ -11055,7 +10719,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 55,
+              "position": 54,
               "id": "01m059vjndfmzkwh9sphxzfhc6",
               "title": "The Prevention of Literature",
               "author": "orwellfoundation.com",
@@ -11082,7 +10746,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 56,
+              "position": 55,
               "id": "01m059vn29v5bjn4nbhe0efecg",
               "title": "The Proletarian Writer",
               "author": "orwellfoundation.com",
@@ -11109,7 +10773,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 57,
+              "position": 56,
               "id": "01m059vqea4t02392f7364m2jr",
               "title": "The Spike",
               "author": "orwellfoundation.com",
@@ -11136,7 +10800,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 58,
+              "position": 57,
               "id": "01m05be2mdpdf3vg9xy5xr0kcz",
               "title": "The Art of Donald McGill",
               "author": "orwellfoundation.com",
@@ -11163,7 +10827,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 59,
+              "position": 58,
               "id": "01m0d55v1be0bcsmx7xczarntk",
               "title": "That’s the Deal: What Rankles You Most About AI Prose?",
               "author": "Miller’s Book Review 📚",
@@ -11189,7 +10853,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 60,
+              "position": 59,
               "id": "01m0nepgcz9yg6btdcstdnp60r",
               "title": "The Extravagant Details of Biography",
               "author": "papyrusrampant.substack.com",
@@ -11216,7 +10880,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 61,
+              "position": 60,
               "id": "01m0sqyj8vvqmt4r5dn463bak3",
               "title": "Humanists Have Done Nothing Wrong",
               "author": "Defector",
@@ -11242,7 +10906,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 62,
+              "position": 61,
               "id": "01m13bydjdttq1jnhmnt13k22z",
               "title": "Ladies of the ’80s",
               "author": "Lisa Whittington-Hill",
@@ -11269,7 +10933,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 63,
+              "position": 62,
               "id": "01j60ew3kgknk776nphjxvz9ph",
               "title": "Envy: the Vestige of a Miserable World",
               "author": "Brian Chau",
@@ -11296,7 +10960,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 64,
+              "position": 63,
               "id": "01k2p3vgyxd3egkpvn5y6r2d7n",
               "title": "Genetics and Eugenics in Frank Herbert’s Dune-verse",
               "author": "Gwern Branwen",
@@ -11323,7 +10987,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 65,
+              "position": 64,
               "id": "01k7shq7r399ekxt6pavj3t3aa",
               "title": "Could autism explain Virginia Woolf’s unique voice? Her extraordinary eye for detail and connections suggests it might",
               "author": "Aeon Magazine",
@@ -11350,7 +11014,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 66,
+              "position": 65,
               "id": "01kec58fp6ep87fc5qnf8swc20",
               "title": "Being creative requires taking risks",
               "author": "Henrik Karlsson",
@@ -11377,7 +11041,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 67,
+              "position": 66,
               "id": "01knaa433mz4v5rtkbat739xjg",
               "title": "How I learned to just fucking write",
               "author": "kieran cutting",
@@ -11404,7 +11068,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 68,
+              "position": 67,
               "id": "01ksftktanvm593t6d9871cmm4",
               "title": "This week: a long walk on a beach, and ancient Roman graffiti.",
               "author": "Tom Scott",
@@ -11431,7 +11095,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 69,
+              "position": 68,
               "id": "01kxn6sfvvpwapf12145w6x7sv",
               "title": "Essays In Support of the Null Hypothesis",
               "author": "Tommy Blanchard from Cognitive Wonderland",
@@ -11458,7 +11122,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 70,
+              "position": 69,
               "id": "01kxy1qkwpt5xkmvy06pz6bqvr",
               "title": "Technology and Barbarism",
               "author": "amazon.com",
@@ -11486,7 +11150,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 71,
+              "position": 70,
               "id": "01m07zpehf3761wmknmsknqwsa",
               "title": "How Books Can Build a World and Shape a Culture",
               "author": "Miller’s Book Review 📚",
@@ -11512,7 +11176,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 72,
+              "position": 71,
               "id": "01m10x27gxeffqvq180jqm7zpe",
               "title": "Shirley Clarke Lived Her Art to the Fullest | The New Yorker",
               "author": "Richard Brody",
@@ -11538,7 +11202,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 73,
+              "position": 72,
               "id": "01hv97p0qv2rsh6attfeq439nj",
               "title": "Working in Public",
               "author": "Awesome.",
@@ -11565,7 +11229,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 74,
+              "position": 73,
               "id": "01j6011fk1gbvn0q705v2wmmah",
               "title": "Five Unconventional Economic Systems as Imagined in SFF",
               "author": "Eleanor Konik",
@@ -11592,7 +11256,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 75,
+              "position": 74,
               "id": "01j6w5apk81pg023z5m7xd6v5b",
               "title": "Mihai Rosca's Reviews > King, Warrior, Magician, Lover: Rediscovering the Archetypes of the Mature Masculine",
               "author": "Robert L. Moore",
@@ -11619,7 +11283,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 76,
+              "position": 75,
               "id": "01k3wpv85qh52sj9ffa8rrz1bm",
               "title": "Chromatic Rebel #2: why is the West so color-minimalist?",
               "author": "María Castro Jiménez",
@@ -11646,7 +11310,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 77,
+              "position": 76,
               "id": "01k722dxfn8b3bkt741xrmf0a2",
               "title": "📚 Neat Stuff I Read in September 2025",
               "author": "Eleanor Konik",
@@ -11672,7 +11336,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 78,
+              "position": 77,
               "id": "01k7tw6vrkda5hp5070ra2wqm6",
               "title": "Five SFF Stories That Shed Light on Obscure History",
               "author": "Eleanor Konik",
@@ -11699,7 +11363,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 79,
+              "position": 78,
               "id": "01k8b4z89x7bjhpp69rbbemnet",
               "title": "Tales from Toddlerhood",
               "author": "Tim Urban",
@@ -11726,7 +11390,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 80,
+              "position": 79,
               "id": "01kaecmp565yrjt89z6qhc3ydq",
               "title": "Why Did Wealth Stop Building Beautiful Things?",
               "author": "The Culturist",
@@ -11753,7 +11417,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 81,
+              "position": 80,
               "id": "01kaen0f4sd6p0wsrv0fw7320f",
               "title": "🌲 The Best \"Gamified X\" App is a GAME",
               "author": "Eleanor Konik",
@@ -11780,7 +11444,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 82,
+              "position": 81,
               "id": "01kc53chv8ebh5cygqaf76fwt0",
               "title": "🌲 Familiarity with the Western Canon is Surprisingly Reassuring",
               "author": "Eleanor Konik",
@@ -11807,7 +11471,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 83,
+              "position": 82,
               "id": "01kcfca0wrxztgk2sqe31khzbr",
               "title": "Now Watch Me Read | The New Yorker",
               "author": "Brady Brickner-Wood",
@@ -11834,7 +11498,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 84,
+              "position": 83,
               "id": "01kqy8wyp8f7z6nqcby6ajbnm4",
               "title": "The world reveals itself to those who travel by foot",
               "author": "Henrik Karlsson",
@@ -11861,7 +11525,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 85,
+              "position": 84,
               "id": "01krnyr9cxy0rhqzt148zy5p99",
               "title": "Good conversations have lots of doorknobs",
               "author": "Adam Mastroianni",
@@ -11888,7 +11552,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 86,
+              "position": 85,
               "id": "01krqmh4tqphysje012p59hxec",
               "title": "Novels Tell Us Who We Are",
               "author": "Carl Hendrick from The Learning Dispatch",
@@ -11915,7 +11579,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 87,
+              "position": 86,
               "id": "01ks2w2tk5ar80phj3pj90bjsw",
               "title": "The Guardian's 100 Best English-Language Books and the Funny Thing about Lists",
               "author": "Jared Henderson from Commonplace Philosophy",
@@ -11942,7 +11606,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 88,
+              "position": 87,
               "id": "01ksa4rg8aaab5rf5v3x3xd1mb",
               "title": "Books I'm excited about",
               "author": "Charles Duhigg",
@@ -11969,7 +11633,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 89,
+              "position": 88,
               "id": "01ksatzj8qqdm55ebbkc4588ft",
               "title": "Short Reviews for May 2026",
               "author": "Evan Þ from Papyrus Rampant",
@@ -11996,7 +11660,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 90,
+              "position": 89,
               "id": "01ksgpayydne30egggw4npszj1",
               "title": "Annihilation – A (Very French) Biography of the \"Last Man\"",
               "author": "R.W. Richey from We Are Not Saved",
@@ -12023,7 +11687,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 91,
+              "position": 90,
               "id": "01ktejkb5739yv3ra0666qr32v",
               "title": "Poor Bastard: Henry Fielding’s Triumphant ‘Tom Jones’",
               "author": "Miller’s Book Review 📚",
@@ -12051,7 +11715,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 92,
+              "position": 91,
               "id": "01kvamre3nhre408596w2e8d3s",
               "title": "Candice Millard and the Revival of History as Literature",
               "author": "Miller’s Book Review 📚",
@@ -12077,7 +11741,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 93,
+              "position": 92,
               "id": "01kvwytrrghvckwz0stdxe2mgw",
               "title": "Week 15, 16, 17, 18: Zuid-Holland",
               "author": "Holly en Roos",
@@ -12104,7 +11768,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 94,
+              "position": 93,
               "id": "01kw4djwahhwy93y8hrkg48wmd",
               "title": "Literature: The Ultimate Answer to the Algorithm",
               "author": "Miller’s Book Review 📚",
@@ -12131,7 +11795,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 95,
+              "position": 94,
               "id": "01kw4zh122v8djscsxaaq42ke7",
               "title": "My Hugo Ballot 2: Best Novel & others",
               "author": "Evan Þ from Papyrus Rampant",
@@ -12158,7 +11822,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 96,
+              "position": 95,
               "id": "01kw9qrshp1ne8jsbwy0wqv2z6",
               "title": "How To Add Texture To Your Non-Fiction Writing",
               "author": "A Mug of Insights",
@@ -12185,7 +11849,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 97,
+              "position": 96,
               "id": "01kwpkn77cd2c8e0g3rppkq0q2",
               "title": "Fake World: Everything You Think Is a Lie",
               "author": "Miller’s Book Review 📚",
@@ -12212,7 +11876,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 98,
+              "position": 97,
               "id": "01kwreqfypckk54fws5c65whwp",
               "title": "Niemand wil het, toch doen we het allemaal",
               "author": "Jona van Loenen",
@@ -12238,13 +11902,14 @@ window.TOP_ARTICLES = {
               ],
               "alsoIn": [
                 "aaa-dutch-top-100",
+                "aaa-short-dutch-top-10",
                 "aaa-short-dutch-top-100",
                 "aaa-luchtig-nederlands-top-10",
                 "aaa-luchtig-nederlands-top-100"
               ]
             },
             {
-              "position": 99,
+              "position": 98,
               "id": "01kwvx3a3qze1p5e1yj36ejr6w",
               "title": "\"Everything, today, is to some extent the reflection of something else\"",
               "author": "Jared Henderson from Commonplace Philosophy",
@@ -12270,7 +11935,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 100,
+              "position": 99,
               "id": "01kwvzcp697n18jy871bj3rj77",
               "title": "This week: bells! Plus a clever word game and a cursed font.",
               "author": "Tom Scott",
@@ -12293,6 +11958,33 @@ window.TOP_ARTICLES = {
                 "light-reading",
                 "science",
                 "technology"
+              ],
+              "alsoIn": []
+            },
+            {
+              "position": 100,
+              "id": "01kx8dy64p4xqjvp7asc8v98jk",
+              "title": "Best Way to See the Renaissance? Get the Panoramic View",
+              "author": "Miller’s Book Review 📚",
+              "siteName": "Substack",
+              "category": "email",
+              "language": "Engels",
+              "readingTime": "7 mins",
+              "readingMinutes": 7,
+              "wordCount": 1756,
+              "publishedDate": "2026-07-11",
+              "savedDate": "2026-07-11T11:10:25.943000+00:00",
+              "imageUrl": null,
+              "sourceUrl": "mailto:reader-forwarded-email/af55efe035245658f38a28263962926a",
+              "readwiseUrl": "https://read.readwise.io/read/01kx8dy64p4xqjvp7asc8v98jk",
+              "summary": "Historians can ply their trade countless ways, depending on their sources, interests, and audience.",
+              "whyRead": "Raakt je interesse in cultuurgeschiedenis: een panoramische kijk op de Renaissance kan helpen om kunst, politiek, religie en kennisontwikkeling als systeem te zien. De meerwaarde zit in overzicht boven losse biografieen.",
+              "bestMoment": "ontspannen",
+              "tags": [
+                "arts & culture",
+                "history",
+                "later",
+                "light-reading"
               ],
               "alsoIn": []
             }
@@ -12381,39 +12073,6 @@ window.TOP_ARTICLES = {
             },
             {
               "position": 3,
-              "id": "01ktv2sxayxrqj6yzvyhjes6tf",
-              "title": "Leeslijst mei 2026",
-              "author": "Kauthar",
-              "siteName": "Substack",
-              "category": "email",
-              "language": "Nederlands",
-              "readingTime": "7 mins",
-              "readingMinutes": 7,
-              "wordCount": 1651,
-              "publishedDate": "2026-06-11",
-              "savedDate": "2026-06-11T10:14:20.254000+00:00",
-              "imageUrl": null,
-              "sourceUrl": "mailto:reader-forwarded-email/a0c00dcc2081fdba85fa1cc1b61f0134",
-              "readwiseUrl": "https://read.readwise.io/read/01ktv2sxayxrqj6yzvyhjes6tf",
-              "summary": "Lieke Marsman, schrijver, dichter, denker. Op 3 juni 2026 kwam de dood haar halen, maar haar woorden zullen altijd blijven.",
-              "whyRead": "Raakt literatuur, Nederlandse cultuur, politieke rechtvaardigheid en moederschap: deze leeslijst is geen droge boekenopsomming, maar een persoonlijk-culturele route langs dood, verzet, sociale rechtvaardigheid en de politiek van ouderschap. Vooral waardevol door de stem en de korte oordelen bij elk boek.",
-              "bestMoment": "ontspannen",
-              "tags": [
-                "arts & culture",
-                "fiction",
-                "light-reading",
-                "sociology & social structures"
-              ],
-              "alsoIn": [
-                "aaa-dutch-top-100",
-                "aaa-short-dutch-top-10",
-                "aaa-short-dutch-top-100",
-                "aaa-luchtig-top-100",
-                "aaa-luchtig-nederlands-top-100"
-              ]
-            },
-            {
-              "position": 4,
               "id": "01kwreqfypckk54fws5c65whwp",
               "title": "Niemand wil het, toch doen we het allemaal",
               "author": "Jona van Loenen",
@@ -12439,13 +12098,14 @@ window.TOP_ARTICLES = {
               ],
               "alsoIn": [
                 "aaa-dutch-top-100",
+                "aaa-short-dutch-top-10",
                 "aaa-short-dutch-top-100",
                 "aaa-luchtig-top-100",
                 "aaa-luchtig-nederlands-top-100"
               ]
             },
             {
-              "position": 5,
+              "position": 4,
               "id": "01kxabe372k5htmjxz8bxdan0f",
               "title": "Privéchefs zijn extreem algoritmevriendelijk",
               "author": "Doortje Smithuijsen",
@@ -12471,12 +12131,13 @@ window.TOP_ARTICLES = {
               ],
               "alsoIn": [
                 "aaa-dutch-top-100",
+                "aaa-short-dutch-top-10",
                 "aaa-short-dutch-top-100",
                 "aaa-luchtig-nederlands-top-100"
               ]
             },
             {
-              "position": 6,
+              "position": 5,
               "id": "01kyejqrpkrb3a9zqk5a7k4n5f",
               "title": "Jetten-1 is geen regering. Het is een situationship.",
               "author": "Jona van Loenen",
@@ -12503,12 +12164,13 @@ window.TOP_ARTICLES = {
               ],
               "alsoIn": [
                 "aaa-dutch-top-100",
+                "aaa-short-dutch-top-10",
                 "aaa-short-dutch-top-100",
                 "aaa-luchtig-nederlands-top-100"
               ]
             },
             {
-              "position": 7,
+              "position": 6,
               "id": "01k80nvw2z9d40qq24hveszqrw",
               "title": "De hel van het gelijke",
               "author": "Marian Donner",
@@ -12537,7 +12199,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 8,
+              "position": 7,
               "id": "01kwkpvx062dytw4zfh294psvb",
               "title": "Heilige plekken dichtbij: Der Herrgott van Bentheim",
               "author": "De Ongelooflijke",
@@ -12567,7 +12229,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 9,
+              "position": 8,
               "id": "01m02v2mszvk3cjaw44d26cmvx",
               "title": "Het zachte tegengif heet verwondering",
               "author": "Sabine Winters",
@@ -12597,7 +12259,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 10,
+              "position": 9,
               "id": "01ks7vbkd0mgft31fpf06jbv90",
               "title": "Een gele kanarie van 195 euro",
               "author": "Alexander Klöpping & Ernst-Jan Pfauth",
@@ -12619,6 +12281,37 @@ window.TOP_ARTICLES = {
                 "arts & culture",
                 "light-reading",
                 "sociology & social structures"
+              ],
+              "alsoIn": [
+                "aaa-dutch-top-100",
+                "aaa-short-dutch-top-100",
+                "aaa-luchtig-nederlands-top-100"
+              ]
+            },
+            {
+              "position": 10,
+              "id": "01ktbxxr50k86jtqphyhdp1eyc",
+              "title": "De blauwe Ferrari van Jony Ive",
+              "author": "Alexander Klöpping & Ernst-Jan Pfauth",
+              "siteName": "Substack",
+              "category": "email",
+              "language": "Nederlands",
+              "readingTime": "3 mins",
+              "readingMinutes": 3,
+              "wordCount": 654,
+              "publishedDate": "2026-06-05",
+              "savedDate": "2026-06-05T13:00:26.656000+00:00",
+              "imageUrl": null,
+              "sourceUrl": "mailto:reader-forwarded-email/688da72a0be45c4884c39fd7bc5241d1",
+              "readwiseUrl": "https://read.readwise.io/read/01ktbxxr50k86jtqphyhdp1eyc",
+              "summary": "Ferrari smeekt petrolheads om deze auto níét te kopen. Echt waar: de marketingbaas zegt tegen z'n trouwe klanten dat de nieuwe elektrische Luce niet voor hen bedoeld is.",
+              "whyRead": "Raakt je interesse in technologie en media alleen als lichte roundup; er staan een paar aardige signalen in, maar te weinig diepte om actief te bewaren.",
+              "bestMoment": "ontspannen",
+              "tags": [
+                "archiveren",
+                "entertainment & pop culture",
+                "light-reading",
+                "technology"
               ],
               "alsoIn": [
                 "aaa-dutch-top-100",
@@ -12702,39 +12395,6 @@ window.TOP_ARTICLES = {
             },
             {
               "position": 3,
-              "id": "01ktv2sxayxrqj6yzvyhjes6tf",
-              "title": "Leeslijst mei 2026",
-              "author": "Kauthar",
-              "siteName": "Substack",
-              "category": "email",
-              "language": "Nederlands",
-              "readingTime": "7 mins",
-              "readingMinutes": 7,
-              "wordCount": 1651,
-              "publishedDate": "2026-06-11",
-              "savedDate": "2026-06-11T10:14:20.254000+00:00",
-              "imageUrl": null,
-              "sourceUrl": "mailto:reader-forwarded-email/a0c00dcc2081fdba85fa1cc1b61f0134",
-              "readwiseUrl": "https://read.readwise.io/read/01ktv2sxayxrqj6yzvyhjes6tf",
-              "summary": "Lieke Marsman, schrijver, dichter, denker. Op 3 juni 2026 kwam de dood haar halen, maar haar woorden zullen altijd blijven.",
-              "whyRead": "Raakt literatuur, Nederlandse cultuur, politieke rechtvaardigheid en moederschap: deze leeslijst is geen droge boekenopsomming, maar een persoonlijk-culturele route langs dood, verzet, sociale rechtvaardigheid en de politiek van ouderschap. Vooral waardevol door de stem en de korte oordelen bij elk boek.",
-              "bestMoment": "ontspannen",
-              "tags": [
-                "arts & culture",
-                "fiction",
-                "light-reading",
-                "sociology & social structures"
-              ],
-              "alsoIn": [
-                "aaa-dutch-top-100",
-                "aaa-short-dutch-top-10",
-                "aaa-short-dutch-top-100",
-                "aaa-luchtig-top-100",
-                "aaa-luchtig-nederlands-top-10"
-              ]
-            },
-            {
-              "position": 4,
               "id": "01kwreqfypckk54fws5c65whwp",
               "title": "Niemand wil het, toch doen we het allemaal",
               "author": "Jona van Loenen",
@@ -12760,13 +12420,14 @@ window.TOP_ARTICLES = {
               ],
               "alsoIn": [
                 "aaa-dutch-top-100",
+                "aaa-short-dutch-top-10",
                 "aaa-short-dutch-top-100",
                 "aaa-luchtig-top-100",
                 "aaa-luchtig-nederlands-top-10"
               ]
             },
             {
-              "position": 5,
+              "position": 4,
               "id": "01kxabe372k5htmjxz8bxdan0f",
               "title": "Privéchefs zijn extreem algoritmevriendelijk",
               "author": "Doortje Smithuijsen",
@@ -12792,12 +12453,13 @@ window.TOP_ARTICLES = {
               ],
               "alsoIn": [
                 "aaa-dutch-top-100",
+                "aaa-short-dutch-top-10",
                 "aaa-short-dutch-top-100",
                 "aaa-luchtig-nederlands-top-10"
               ]
             },
             {
-              "position": 6,
+              "position": 5,
               "id": "01kyejqrpkrb3a9zqk5a7k4n5f",
               "title": "Jetten-1 is geen regering. Het is een situationship.",
               "author": "Jona van Loenen",
@@ -12824,12 +12486,13 @@ window.TOP_ARTICLES = {
               ],
               "alsoIn": [
                 "aaa-dutch-top-100",
+                "aaa-short-dutch-top-10",
                 "aaa-short-dutch-top-100",
                 "aaa-luchtig-nederlands-top-10"
               ]
             },
             {
-              "position": 7,
+              "position": 6,
               "id": "01k80nvw2z9d40qq24hveszqrw",
               "title": "De hel van het gelijke",
               "author": "Marian Donner",
@@ -12858,7 +12521,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 8,
+              "position": 7,
               "id": "01kwkpvx062dytw4zfh294psvb",
               "title": "Heilige plekken dichtbij: Der Herrgott van Bentheim",
               "author": "De Ongelooflijke",
@@ -12888,7 +12551,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 9,
+              "position": 8,
               "id": "01m02v2mszvk3cjaw44d26cmvx",
               "title": "Het zachte tegengif heet verwondering",
               "author": "Sabine Winters",
@@ -12918,7 +12581,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 10,
+              "position": 9,
               "id": "01ks7vbkd0mgft31fpf06jbv90",
               "title": "Een gele kanarie van 195 euro",
               "author": "Alexander Klöpping & Ernst-Jan Pfauth",
@@ -12948,7 +12611,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 11,
+              "position": 10,
               "id": "01ktbxxr50k86jtqphyhdp1eyc",
               "title": "De blauwe Ferrari van Jony Ive",
               "author": "Alexander Klöpping & Ernst-Jan Pfauth",
@@ -12974,11 +12637,12 @@ window.TOP_ARTICLES = {
               ],
               "alsoIn": [
                 "aaa-dutch-top-100",
-                "aaa-short-dutch-top-100"
+                "aaa-short-dutch-top-100",
+                "aaa-luchtig-nederlands-top-10"
               ]
             },
             {
-              "position": 12,
+              "position": 11,
               "id": "01kty3nmapqw3y4ypnbbgrm2t3",
               "title": "De FIFA-idents zijn fantastisch",
               "author": "Alexander Klöpping & Ernst-Jan Pfauth",
@@ -13008,7 +12672,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 13,
+              "position": 12,
               "id": "01kvfsv00xheeeezwr4g8hm52h",
               "title": "Dé telefoon zonder social media",
               "author": "Alexander Klöpping & Ernst-Jan Pfauth",
@@ -13038,7 +12702,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 14,
+              "position": 13,
               "id": "01kshptdc5njqdmnehkxr4arfb",
               "title": "Een walgelijke man",
               "author": "Fouad El Hamdaoui",
@@ -13068,7 +12732,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 15,
+              "position": 14,
               "id": "01kt7kjd4zr8ba59xcpfvmxdfz",
               "title": "Week 14: kop en staart",
               "author": "Holly en Roos",
@@ -13097,7 +12761,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 16,
+              "position": 15,
               "id": "01kwnpartfb70amv2acccwcsr1",
               "title": "Vijf muggen in mijn klamboe",
               "author": "Dorien.Bot",
@@ -13126,7 +12790,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 17,
+              "position": 16,
               "id": "01m01v1rmpqh6acc6t5t8cdy21",
               "title": "Was ik maar iets meer robotesk",
               "author": "Dorien.Bot",
@@ -20941,7 +20605,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 59
+            "position": 58
           }
         ]
       },
@@ -21279,7 +20943,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 91
+            "position": 89
           },
           {
             "familyId": "luchtig",
@@ -21416,7 +21080,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 90
+            "position": 88
           }
         ]
       },
@@ -21452,7 +21116,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 89
+            "position": 87
           }
         ]
       },
@@ -21828,7 +21492,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 62
+            "position": 61
           }
         ]
       },
@@ -22191,7 +21855,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 72
+            "position": 71
           }
         ]
       },
@@ -22423,7 +22087,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 58
+            "position": 57
           },
           {
             "familyId": "scrum",
@@ -22472,12 +22136,12 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 17
+            "position": 16
           },
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 16
+            "position": 15
           },
           {
             "familyId": "scrum",
@@ -22524,7 +22188,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 57
+            "position": 56
           },
           {
             "familyId": "scrum",
@@ -22676,7 +22340,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 88
+            "position": 86
           },
           {
             "familyId": "luchtig",
@@ -22741,7 +22405,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 56
+            "position": 55
           }
         ]
       },
@@ -22863,7 +22527,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 61
+            "position": 60
           }
         ]
       },
@@ -23895,7 +23559,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 87
+            "position": 85
           },
           {
             "familyId": "luchtig",
@@ -23964,7 +23628,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 86
+            "position": 84
           },
           {
             "familyId": "luchtig",
@@ -24004,7 +23668,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 85
+            "position": 83
           }
         ]
       },
@@ -24121,7 +23785,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 84
+            "position": 82
           }
         ]
       },
@@ -24156,7 +23820,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 83
+            "position": 81
           }
         ]
       },
@@ -24192,7 +23856,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 60
+            "position": 59
           }
         ]
       },
@@ -24227,7 +23891,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 82
+            "position": 80
           }
         ]
       },
@@ -24262,7 +23926,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 81
+            "position": 79
           }
         ]
       },
@@ -24297,7 +23961,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 79
+            "position": 77
           }
         ]
       },
@@ -24332,7 +23996,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 78
+            "position": 76
           }
         ]
       },
@@ -24367,7 +24031,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 80
+            "position": 78
           }
         ]
       },
@@ -24429,7 +24093,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 77
+            "position": 75
           }
         ]
       },
@@ -24491,7 +24155,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 76
+            "position": 74
           }
         ]
       },
@@ -24578,7 +24242,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 75
+            "position": 73
           }
         ]
       },
@@ -25113,12 +24777,12 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 16
+            "position": 15
           },
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 15
+            "position": 14
           },
           {
             "familyId": "scrum",
@@ -25162,7 +24826,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 74
+            "position": 72
           }
         ]
       },
@@ -26045,7 +25709,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 55
+            "position": 54
           }
         ]
       },
@@ -26185,7 +25849,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 54
+            "position": 53
           }
         ]
       },
@@ -26220,7 +25884,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 73
+            "position": 71
           }
         ]
       },
@@ -26338,7 +26002,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 53
+            "position": 52
           }
         ]
       },
@@ -26404,7 +26068,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 72
+            "position": 70
           },
           {
             "familyId": "luchtig",
@@ -26662,7 +26326,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 59
+            "position": 58
           }
         ]
       },
@@ -27508,7 +27172,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 71
+            "position": 70
           }
         ]
       },
@@ -27858,7 +27522,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 58
+            "position": 57
           }
         ]
       },
@@ -27919,7 +27583,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 71
+            "position": 69
           }
         ]
       },
@@ -27955,7 +27619,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 57
+            "position": 56
           }
         ]
       },
@@ -27991,7 +27655,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 56
+            "position": 55
           }
         ]
       },
@@ -28027,7 +27691,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 55
+            "position": 54
           }
         ]
       },
@@ -28089,7 +27753,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 54
+            "position": 53
           }
         ]
       },
@@ -28123,7 +27787,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 51
+            "position": 50
           }
         ]
       },
@@ -28158,7 +27822,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 53
+            "position": 52
           }
         ]
       },
@@ -28221,7 +27885,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 50
+            "position": 49
           },
           {
             "familyId": "luchtig",
@@ -28268,7 +27932,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 49
+            "position": 48
           },
           {
             "familyId": "luchtig",
@@ -28315,7 +27979,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 70
+            "position": 68
           },
           {
             "familyId": "luchtig",
@@ -28354,7 +28018,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 48
+            "position": 47
           }
         ]
       },
@@ -28414,7 +28078,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 69
+            "position": 67
           }
         ]
       },
@@ -28474,7 +28138,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 68
+            "position": 66
           }
         ]
       },
@@ -28588,7 +28252,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 67
+            "position": 65
           }
         ]
       },
@@ -28625,7 +28289,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 66
+            "position": 64
           },
           {
             "familyId": "luchtig",
@@ -28695,7 +28359,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 47
+            "position": 46
           },
           {
             "familyId": "luchtig",
@@ -28846,7 +28510,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 52
+            "position": 51
           },
           {
             "familyId": "luchtig",
@@ -28889,17 +28553,17 @@ window.TOP_ARTICLES = {
           {
             "familyId": "nederlands",
             "size": "top-100",
-            "position": 29
+            "position": 24
           },
           {
             "familyId": "luchtig-nederlands",
             "size": "top-10",
-            "position": 9
+            "position": 8
           },
           {
             "familyId": "luchtig-nederlands",
             "size": "top-100",
-            "position": 9
+            "position": 8
           }
         ]
       },
@@ -28964,12 +28628,12 @@ window.TOP_ARTICLES = {
           {
             "familyId": "nederlands",
             "size": "top-100",
-            "position": 37
+            "position": 32
           },
           {
             "familyId": "kort-nederlands",
             "size": "top-100",
-            "position": 25
+            "position": 20
           }
         ]
       },
@@ -29005,12 +28669,12 @@ window.TOP_ARTICLES = {
           {
             "familyId": "nederlands",
             "size": "top-100",
-            "position": 24
+            "position": 19
           },
           {
             "familyId": "kort-nederlands",
             "size": "top-100",
-            "position": 17
+            "position": 12
           }
         ]
       },
@@ -29048,17 +28712,17 @@ window.TOP_ARTICLES = {
           {
             "familyId": "nederlands",
             "size": "top-100",
-            "position": 45
+            "position": 40
           },
           {
             "familyId": "kort-nederlands",
             "size": "top-100",
-            "position": 32
+            "position": 27
           },
           {
             "familyId": "luchtig-nederlands",
             "size": "top-100",
-            "position": 17
+            "position": 16
           }
         ]
       },
@@ -29121,12 +28785,12 @@ window.TOP_ARTICLES = {
           {
             "familyId": "nederlands",
             "size": "top-100",
-            "position": 23
+            "position": 18
           },
           {
             "familyId": "kort-nederlands",
             "size": "top-100",
-            "position": 16
+            "position": 11
           }
         ]
       },
@@ -29161,7 +28825,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 65
+            "position": 63
           }
         ]
       },
@@ -29277,7 +28941,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 64
+            "position": 62
           }
         ]
       },
@@ -29368,7 +29032,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "nederlands",
             "size": "top-100",
-            "position": 40
+            "position": 35
           }
         ]
       },
@@ -29431,7 +29095,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 63
+            "position": 61
           }
         ]
       },
@@ -29578,27 +29242,27 @@ window.TOP_ARTICLES = {
           {
             "familyId": "nederlands",
             "size": "top-10",
-            "position": 7
+            "position": 5
           },
           {
             "familyId": "nederlands",
             "size": "top-100",
-            "position": 7
+            "position": 5
           },
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 62
+            "position": 60
           },
           {
             "familyId": "kort-nederlands",
             "size": "top-10",
-            "position": 6
+            "position": 4
           },
           {
             "familyId": "kort-nederlands",
             "size": "top-100",
-            "position": 6
+            "position": 4
           }
         ]
       },
@@ -29660,7 +29324,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 61
+            "position": 59
           }
         ]
       },
@@ -29696,12 +29360,12 @@ window.TOP_ARTICLES = {
           {
             "familyId": "nederlands",
             "size": "top-100",
-            "position": 38
+            "position": 33
           },
           {
             "familyId": "kort-nederlands",
             "size": "top-100",
-            "position": 26
+            "position": 21
           }
         ]
       },
@@ -29872,12 +29536,12 @@ window.TOP_ARTICLES = {
           {
             "familyId": "nederlands",
             "size": "top-100",
-            "position": 41
+            "position": 36
           },
           {
             "familyId": "kort-nederlands",
             "size": "top-100",
-            "position": 28
+            "position": 23
           }
         ]
       },
@@ -30073,7 +29737,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 60
+            "position": 58
           }
         ]
       },
@@ -30846,7 +30510,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 59
+            "position": 57
           }
         ]
       },
@@ -30880,7 +30544,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 58
+            "position": 56
           }
         ]
       },
@@ -31028,27 +30692,27 @@ window.TOP_ARTICLES = {
           {
             "familyId": "nederlands",
             "size": "top-10",
-            "position": 6
+            "position": 4
           },
           {
             "familyId": "nederlands",
             "size": "top-100",
-            "position": 6
+            "position": 4
           },
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 57
+            "position": 55
           },
           {
             "familyId": "kort-nederlands",
             "size": "top-10",
-            "position": 5
+            "position": 3
           },
           {
             "familyId": "kort-nederlands",
             "size": "top-100",
-            "position": 5
+            "position": 3
           }
         ]
       },
@@ -31086,7 +30750,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 46
+            "position": 45
           },
           {
             "familyId": "luchtig",
@@ -31237,7 +30901,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 56
+            "position": 54
           }
         ]
       },
@@ -31270,71 +30934,6 @@ window.TOP_ARTICLES = {
       },
       {
         "position": null,
-        "id": "01kysnmckrgernh72bvvz2eprz",
-        "title": "Minister van Digitale Zaken: hoe het kan werken",
-        "author": "berthub.eu",
-        "siteName": "Bert Hubert's writings",
-        "category": "article",
-        "language": "Nederlands",
-        "readingTime": "7 mins",
-        "readingMinutes": 7,
-        "wordCount": 1791,
-        "publishedDate": "2024-03-19",
-        "savedDate": "2026-07-30T14:07:40.661000+00:00",
-        "imageUrl": "https://berthub.eu/articles/akkermans.jpg",
-        "sourceUrl": "https://berthub.eu/articles/posts/minister-van-digitale-zaken/",
-        "readwiseUrl": "https://read.readwise.io/read/01kysnmckrgernh72bvvz2eprz",
-        "summary": "De hele korte versie: een minister voor Digitale Zaken heeft alleen zin als deze minstens evenveel doorzettingsmacht krijgt als de minister van Financiën. En het werkt ook alleen als die nieuwe minister een agenda heeft waarbij ICT veel meer is dan “iets wat je inkoopt”, maar echt een kernactiviteit wordt waar geïnnoveerd kan worden. En dat vergt een nieuwe erkenning van ICT-ambtenaren als daadwerkelijk belangrijke mensen, die aan de knoppen zitten en dingen mogen veranderen.",
-        "whyRead": "Raakt je interesse in digitale overheid: een concreet pleidooi voor een minister van Digitale Zaken met echte doorzettingsmacht.",
-        "bestMoment": "kritisch",
-        "tags": [
-          "political philosophy",
-          "professional development",
-          "technology"
-        ],
-        "alsoIn": [
-          "aaa-top-100",
-          "aaa-dutch-top-10",
-          "aaa-dutch-top-100",
-          "aaa-short-top-100",
-          "aaa-short-dutch-top-10",
-          "aaa-short-dutch-top-100"
-        ],
-        "memberships": [
-          {
-            "familyId": "algemeen",
-            "size": "top-100",
-            "position": 15
-          },
-          {
-            "familyId": "nederlands",
-            "size": "top-10",
-            "position": 1
-          },
-          {
-            "familyId": "nederlands",
-            "size": "top-100",
-            "position": 1
-          },
-          {
-            "familyId": "kort",
-            "size": "top-100",
-            "position": 14
-          },
-          {
-            "familyId": "kort-nederlands",
-            "size": "top-10",
-            "position": 1
-          },
-          {
-            "familyId": "kort-nederlands",
-            "size": "top-100",
-            "position": 1
-          }
-        ]
-      },
-      {
-        "position": null,
         "id": "01kysnmbwt86e2fk3axtde57h4",
         "title": "Keynote opening Digital Commons EDIC: Moving beyond the Digital Uncommons",
         "author": "berthub.eu",
@@ -31364,7 +30963,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 45
+            "position": 44
           }
         ]
       },
@@ -31401,17 +31000,17 @@ window.TOP_ARTICLES = {
           {
             "familyId": "nederlands",
             "size": "top-100",
-            "position": 16
+            "position": 12
           },
           {
             "familyId": "kort-nederlands",
             "size": "top-10",
-            "position": 9
+            "position": 5
           },
           {
             "familyId": "kort-nederlands",
             "size": "top-100",
-            "position": 9
+            "position": 5
           }
         ]
       },
@@ -31448,17 +31047,17 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 44
+            "position": 43
           },
           {
             "familyId": "nederlands",
             "size": "top-10",
-            "position": 2
+            "position": 1
           },
           {
             "familyId": "nederlands",
             "size": "top-100",
-            "position": 2
+            "position": 1
           }
         ]
       },
@@ -31514,13 +31113,19 @@ window.TOP_ARTICLES = {
           "sociology & social structures"
         ],
         "alsoIn": [
+          "aaa-top-100",
           "aaa-short-top-100"
         ],
         "memberships": [
           {
+            "familyId": "algemeen",
+            "size": "top-100",
+            "position": 100
+          },
+          {
             "familyId": "kort",
             "size": "top-100",
-            "position": 55
+            "position": 53
           }
         ]
       },
@@ -31749,6 +31354,7 @@ window.TOP_ARTICLES = {
         ],
         "alsoIn": [
           "aaa-dutch-top-100",
+          "aaa-short-dutch-top-10",
           "aaa-short-dutch-top-100",
           "aaa-luchtig-nederlands-top-10",
           "aaa-luchtig-nederlands-top-100"
@@ -31757,22 +31363,27 @@ window.TOP_ARTICLES = {
           {
             "familyId": "nederlands",
             "size": "top-100",
-            "position": 22
+            "position": 17
+          },
+          {
+            "familyId": "kort-nederlands",
+            "size": "top-10",
+            "position": 10
           },
           {
             "familyId": "kort-nederlands",
             "size": "top-100",
-            "position": 15
+            "position": 10
           },
           {
             "familyId": "luchtig-nederlands",
             "size": "top-10",
-            "position": 6
+            "position": 5
           },
           {
             "familyId": "luchtig-nederlands",
             "size": "top-100",
-            "position": 6
+            "position": 5
           }
         ]
       },
@@ -31858,14 +31469,20 @@ window.TOP_ARTICLES = {
           "political philosophy"
         ],
         "alsoIn": [
+          "aaa-top-100",
           "aaa-short-top-100",
           "aaa-luchtig-top-100"
         ],
         "memberships": [
           {
+            "familyId": "algemeen",
+            "size": "top-100",
+            "position": 99
+          },
+          {
             "familyId": "kort",
             "size": "top-100",
-            "position": 54
+            "position": 52
           },
           {
             "familyId": "luchtig",
@@ -31933,7 +31550,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 43
+            "position": 42
           }
         ]
       },
@@ -32030,12 +31647,12 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 100
+            "position": 98
           },
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 53
+            "position": 51
           }
         ]
       },
@@ -32126,12 +31743,12 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 99
+            "position": 97
           },
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 52
+            "position": 50
           }
         ]
       },
@@ -32906,12 +32523,12 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 98
+            "position": 96
           },
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 51
+            "position": 49
           }
         ]
       },
@@ -32947,7 +32564,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 42
+            "position": 41
           }
         ]
       },
@@ -33367,12 +32984,12 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 97
+            "position": 95
           },
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 50
+            "position": 48
           }
         ]
       },
@@ -33411,12 +33028,12 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 96
+            "position": 94
           },
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 49
+            "position": 47
           },
           {
             "familyId": "luchtig",
@@ -33458,7 +33075,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 70
+            "position": 69
           }
         ]
       },
@@ -33645,7 +33262,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 41
+            "position": 40
           }
         ]
       },
@@ -33707,12 +33324,12 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 95
+            "position": 93
           },
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 48
+            "position": 46
           }
         ]
       },
@@ -33775,7 +33392,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 69
+            "position": 68
           }
         ]
       },
@@ -34102,12 +33719,12 @@ window.TOP_ARTICLES = {
           {
             "familyId": "nederlands",
             "size": "top-100",
-            "position": 39
+            "position": 34
           },
           {
             "familyId": "kort-nederlands",
             "size": "top-100",
-            "position": 27
+            "position": 22
           }
         ]
       },
@@ -34168,12 +33785,12 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 94
+            "position": 92
           },
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 47
+            "position": 45
           }
         ]
       },
@@ -34257,6 +33874,7 @@ window.TOP_ARTICLES = {
         ],
         "alsoIn": [
           "aaa-dutch-top-100",
+          "aaa-short-dutch-top-10",
           "aaa-short-dutch-top-100",
           "aaa-luchtig-nederlands-top-10",
           "aaa-luchtig-nederlands-top-100"
@@ -34265,22 +33883,27 @@ window.TOP_ARTICLES = {
           {
             "familyId": "nederlands",
             "size": "top-100",
-            "position": 21
+            "position": 16
+          },
+          {
+            "familyId": "kort-nederlands",
+            "size": "top-10",
+            "position": 9
           },
           {
             "familyId": "kort-nederlands",
             "size": "top-100",
-            "position": 14
+            "position": 9
           },
           {
             "familyId": "luchtig-nederlands",
             "size": "top-10",
-            "position": 5
+            "position": 4
           },
           {
             "familyId": "luchtig-nederlands",
             "size": "top-100",
-            "position": 5
+            "position": 4
           }
         ]
       },
@@ -34309,8 +33932,16 @@ window.TOP_ARTICLES = {
           "later",
           "light-reading"
         ],
-        "alsoIn": [],
-        "memberships": []
+        "alsoIn": [
+          "aaa-luchtig-top-100"
+        ],
+        "memberships": [
+          {
+            "familyId": "luchtig",
+            "size": "top-100",
+            "position": 100
+          }
+        ]
       },
       {
         "position": null,
@@ -34374,12 +34005,12 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 93
+            "position": 91
           },
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 46
+            "position": 44
           },
           {
             "familyId": "luchtig",
@@ -34527,7 +34158,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 100
+            "position": 99
           }
         ]
       },
@@ -34562,7 +34193,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 99
+            "position": 98
           }
         ]
       },
@@ -34620,6 +34251,7 @@ window.TOP_ARTICLES = {
         ],
         "alsoIn": [
           "aaa-dutch-top-100",
+          "aaa-short-dutch-top-10",
           "aaa-short-dutch-top-100",
           "aaa-luchtig-top-100",
           "aaa-luchtig-nederlands-top-10",
@@ -34629,27 +34261,32 @@ window.TOP_ARTICLES = {
           {
             "familyId": "nederlands",
             "size": "top-100",
-            "position": 20
+            "position": 15
+          },
+          {
+            "familyId": "kort-nederlands",
+            "size": "top-10",
+            "position": 8
           },
           {
             "familyId": "kort-nederlands",
             "size": "top-100",
-            "position": 13
+            "position": 8
           },
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 98
+            "position": 97
           },
           {
             "familyId": "luchtig-nederlands",
             "size": "top-10",
-            "position": 4
+            "position": 3
           },
           {
             "familyId": "luchtig-nederlands",
             "size": "top-100",
-            "position": 4
+            "position": 3
           }
         ]
       },
@@ -34712,7 +34349,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 97
+            "position": 96
           }
         ]
       },
@@ -34742,18 +34379,24 @@ window.TOP_ARTICLES = {
         ],
         "alsoIn": [
           "aaa-dutch-top-100",
+          "aaa-short-dutch-top-10",
           "aaa-short-dutch-top-100"
         ],
         "memberships": [
           {
             "familyId": "nederlands",
             "size": "top-100",
-            "position": 19
+            "position": 14
+          },
+          {
+            "familyId": "kort-nederlands",
+            "size": "top-10",
+            "position": 7
           },
           {
             "familyId": "kort-nederlands",
             "size": "top-100",
-            "position": 12
+            "position": 7
           }
         ]
       },
@@ -34790,17 +34433,17 @@ window.TOP_ARTICLES = {
           {
             "familyId": "nederlands",
             "size": "top-100",
-            "position": 44
+            "position": 39
           },
           {
             "familyId": "kort-nederlands",
             "size": "top-100",
-            "position": 31
+            "position": 26
           },
           {
             "familyId": "luchtig-nederlands",
             "size": "top-100",
-            "position": 16
+            "position": 15
           }
         ]
       },
@@ -34835,7 +34478,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 40
+            "position": 39
           }
         ]
       },
@@ -34873,64 +34516,17 @@ window.TOP_ARTICLES = {
           {
             "familyId": "nederlands",
             "size": "top-100",
-            "position": 28
+            "position": 23
           },
           {
             "familyId": "luchtig-nederlands",
             "size": "top-10",
-            "position": 8
+            "position": 7
           },
           {
             "familyId": "luchtig-nederlands",
             "size": "top-100",
-            "position": 8
-          }
-        ]
-      },
-      {
-        "position": null,
-        "id": "01kwkbvg7b538ndb8mhrw8b12z",
-        "title": "Mazzucato rekent af met strategie van Draghi, Wennink en het kabinet",
-        "author": "Rode Cijfers",
-        "siteName": "Substack",
-        "category": "email",
-        "language": "Nederlands",
-        "readingTime": "4 mins",
-        "readingMinutes": 4,
-        "wordCount": 949,
-        "publishedDate": "2026-07-03",
-        "savedDate": "2026-07-03T06:49:57.739000+00:00",
-        "imageUrl": null,
-        "sourceUrl": "mailto:reader-forwarded-email/f53bcf62a5e9049d60dd272011f386a4",
-        "readwiseUrl": "https://read.readwise.io/read/01kwkbvg7b538ndb8mhrw8b12z",
-        "summary": "Afgelopen week was het weer eens raak. Consultancybureau McKinsey kopte dat Europa de kostenoorlog met China hopeloos verliest.",
-        "whyRead": "Raakt je interesses in economie, ongelijkheid en politieke economie: Mazzucato's kritiek draait de Draghi/Wennink-diagnose om van 'te weinig kapitaal' naar 'verkeerd gestuurd kapitaal'. Sterk shortlist-materiaal door de Nederlandse en Europese beleidslaag.",
-        "bestMoment": "analytisch",
-        "tags": [
-          "economics",
-          "political philosophy",
-          "sociology & social structures"
-        ],
-        "alsoIn": [
-          "aaa-dutch-top-100",
-          "aaa-short-dutch-top-10",
-          "aaa-short-dutch-top-100"
-        ],
-        "memberships": [
-          {
-            "familyId": "nederlands",
-            "size": "top-100",
-            "position": 15
-          },
-          {
-            "familyId": "kort-nederlands",
-            "size": "top-10",
-            "position": 8
-          },
-          {
-            "familyId": "kort-nederlands",
-            "size": "top-100",
-            "position": 8
+            "position": 7
           }
         ]
       },
@@ -35660,7 +35256,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 92
+            "position": 90
           },
           {
             "familyId": "luchtig",
@@ -36686,7 +36282,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 96
+            "position": 95
           }
         ]
       },
@@ -36751,7 +36347,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 51
+            "position": 50
           }
         ]
       },
@@ -36787,7 +36383,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 95
+            "position": 94
           }
         ]
       },
@@ -36823,7 +36419,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 94
+            "position": 93
           }
         ]
       },
@@ -36994,7 +36590,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 93
+            "position": 92
           }
         ]
       },
@@ -37059,7 +36655,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 91
+            "position": 89
           },
           {
             "familyId": "luchtig",
@@ -37100,12 +36696,12 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 90
+            "position": 88
           },
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 45
+            "position": 43
           }
         ]
       },
@@ -37392,12 +36988,12 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 89
+            "position": 87
           },
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 44
+            "position": 42
           },
           {
             "familyId": "luchtig",
@@ -37464,7 +37060,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 39
+            "position": 38
           }
         ]
       },
@@ -37502,12 +37098,12 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 88
+            "position": 86
           },
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 43
+            "position": 41
           },
           {
             "familyId": "luchtig",
@@ -37604,17 +37200,17 @@ window.TOP_ARTICLES = {
           {
             "familyId": "nederlands",
             "size": "top-100",
-            "position": 35
+            "position": 30
           },
           {
             "familyId": "kort-nederlands",
             "size": "top-100",
-            "position": 23
+            "position": 18
           },
           {
             "familyId": "luchtig-nederlands",
             "size": "top-100",
-            "position": 13
+            "position": 12
           }
         ]
       },
@@ -37768,32 +37364,32 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 87
+            "position": 85
           },
           {
             "familyId": "nederlands",
             "size": "top-10",
-            "position": 5
+            "position": 3
           },
           {
             "familyId": "nederlands",
             "size": "top-100",
-            "position": 5
+            "position": 3
           },
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 42
+            "position": 40
           },
           {
             "familyId": "kort-nederlands",
             "size": "top-10",
-            "position": 4
+            "position": 2
           },
           {
             "familyId": "kort-nederlands",
             "size": "top-100",
-            "position": 4
+            "position": 2
           },
           {
             "familyId": "luchtig",
@@ -37873,12 +37469,12 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 86
+            "position": 84
           },
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 41
+            "position": 39
           },
           {
             "familyId": "luchtig",
@@ -37918,7 +37514,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 92
+            "position": 91
           }
         ]
       },
@@ -37948,18 +37544,24 @@ window.TOP_ARTICLES = {
         ],
         "alsoIn": [
           "aaa-dutch-top-100",
+          "aaa-short-dutch-top-10",
           "aaa-short-dutch-top-100"
         ],
         "memberships": [
           {
             "familyId": "nederlands",
             "size": "top-100",
-            "position": 18
+            "position": 13
+          },
+          {
+            "familyId": "kort-nederlands",
+            "size": "top-10",
+            "position": 6
           },
           {
             "familyId": "kort-nederlands",
             "size": "top-100",
-            "position": 11
+            "position": 6
           }
         ]
       },
@@ -38106,17 +37708,17 @@ window.TOP_ARTICLES = {
           {
             "familyId": "nederlands",
             "size": "top-100",
-            "position": 34
+            "position": 29
           },
           {
             "familyId": "kort-nederlands",
             "size": "top-100",
-            "position": 22
+            "position": 17
           },
           {
             "familyId": "luchtig-nederlands",
             "size": "top-100",
-            "position": 12
+            "position": 11
           }
         ]
       },
@@ -38151,12 +37753,12 @@ window.TOP_ARTICLES = {
           {
             "familyId": "nederlands",
             "size": "top-100",
-            "position": 33
+            "position": 28
           },
           {
             "familyId": "kort-nederlands",
             "size": "top-100",
-            "position": 21
+            "position": 16
           }
         ]
       },
@@ -38188,72 +37790,6 @@ window.TOP_ARTICLES = {
         ],
         "alsoIn": [],
         "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01ktv2sxayxrqj6yzvyhjes6tf",
-        "title": "Leeslijst mei 2026",
-        "author": "Kauthar",
-        "siteName": "Substack",
-        "category": "email",
-        "language": "Nederlands",
-        "readingTime": "7 mins",
-        "readingMinutes": 7,
-        "wordCount": 1651,
-        "publishedDate": "2026-06-11",
-        "savedDate": "2026-06-11T10:14:20.254000+00:00",
-        "imageUrl": null,
-        "sourceUrl": "mailto:reader-forwarded-email/a0c00dcc2081fdba85fa1cc1b61f0134",
-        "readwiseUrl": "https://read.readwise.io/read/01ktv2sxayxrqj6yzvyhjes6tf",
-        "summary": "Lieke Marsman, schrijver, dichter, denker. Op 3 juni 2026 kwam de dood haar halen, maar haar woorden zullen altijd blijven.",
-        "whyRead": "Raakt literatuur, Nederlandse cultuur, politieke rechtvaardigheid en moederschap: deze leeslijst is geen droge boekenopsomming, maar een persoonlijk-culturele route langs dood, verzet, sociale rechtvaardigheid en de politiek van ouderschap. Vooral waardevol door de stem en de korte oordelen bij elk boek.",
-        "bestMoment": "ontspannen",
-        "tags": [
-          "arts & culture",
-          "fiction",
-          "light-reading",
-          "sociology & social structures"
-        ],
-        "alsoIn": [
-          "aaa-dutch-top-100",
-          "aaa-short-dutch-top-10",
-          "aaa-short-dutch-top-100",
-          "aaa-luchtig-top-100",
-          "aaa-luchtig-nederlands-top-10",
-          "aaa-luchtig-nederlands-top-100"
-        ],
-        "memberships": [
-          {
-            "familyId": "nederlands",
-            "size": "top-100",
-            "position": 14
-          },
-          {
-            "familyId": "kort-nederlands",
-            "size": "top-10",
-            "position": 7
-          },
-          {
-            "familyId": "kort-nederlands",
-            "size": "top-100",
-            "position": 7
-          },
-          {
-            "familyId": "luchtig",
-            "size": "top-100",
-            "position": 50
-          },
-          {
-            "familyId": "luchtig-nederlands",
-            "size": "top-10",
-            "position": 3
-          },
-          {
-            "familyId": "luchtig-nederlands",
-            "size": "top-100",
-            "position": 3
-          }
-        ]
       },
       {
         "position": null,
@@ -38527,7 +38063,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 91
+            "position": 90
           }
         ]
       },
@@ -38590,53 +38126,6 @@ window.TOP_ARTICLES = {
       },
       {
         "position": null,
-        "id": "01ktds007mazvkk5bn9zrdybw0",
-        "title": "Big oil vindt zichzelf heel zielig",
-        "author": "Jelmer Mommers",
-        "siteName": "De Correspondent",
-        "category": "email",
-        "language": "Nederlands",
-        "readingTime": "6 mins",
-        "readingMinutes": 6,
-        "wordCount": 1582,
-        "publishedDate": "2026-06-06",
-        "savedDate": "2026-06-06T06:12:46.453000+00:00",
-        "imageUrl": null,
-        "sourceUrl": "mailto:reader-forwarded-email/8b3b853d609eb07aec3436a813266a13",
-        "readwiseUrl": "https://read.readwise.io/read/01ktds007mazvkk5bn9zrdybw0",
-        "summary": "Welkom bij mijn nieuwsbrief over klimaatpolitiek die werkt. Deze editie gaat over eerlijkheid – of het gebrek daaraan.",
-        "whyRead": "Raakt Nederlandse politiek, klimaatbeleid en sociale rechtvaardigheid: Mommers verbindt fossiele bedrijfsmacht, draagvlak voor klimaatbeleid en eerlijkheidsgevoel bij burgers op een concrete Nederlandse manier.",
-        "bestMoment": "kritisch",
-        "tags": [
-          "current affairs & politics",
-          "environment & sustainability",
-          "sociology & social structures"
-        ],
-        "alsoIn": [
-          "aaa-dutch-top-100",
-          "aaa-short-dutch-top-10",
-          "aaa-short-dutch-top-100"
-        ],
-        "memberships": [
-          {
-            "familyId": "nederlands",
-            "size": "top-100",
-            "position": 17
-          },
-          {
-            "familyId": "kort-nederlands",
-            "size": "top-10",
-            "position": 10
-          },
-          {
-            "familyId": "kort-nederlands",
-            "size": "top-100",
-            "position": 10
-          }
-        ]
-      },
-      {
-        "position": null,
         "id": "01ktc8xc2yj17jm5hf96e12crc",
         "title": "Focus is motivation",
         "author": "Scott Young",
@@ -38689,23 +38178,29 @@ window.TOP_ARTICLES = {
         "alsoIn": [
           "aaa-dutch-top-100",
           "aaa-short-dutch-top-100",
+          "aaa-luchtig-nederlands-top-10",
           "aaa-luchtig-nederlands-top-100"
         ],
         "memberships": [
           {
             "familyId": "nederlands",
             "size": "top-100",
-            "position": 32
+            "position": 27
           },
           {
             "familyId": "kort-nederlands",
             "size": "top-100",
-            "position": 20
+            "position": 15
+          },
+          {
+            "familyId": "luchtig-nederlands",
+            "size": "top-10",
+            "position": 10
           },
           {
             "familyId": "luchtig-nederlands",
             "size": "top-100",
-            "position": 11
+            "position": 10
           }
         ]
       },
@@ -38773,7 +38268,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "nederlands",
             "size": "top-100",
-            "position": 13
+            "position": 11
           },
           {
             "familyId": "luchtig",
@@ -38850,12 +38345,12 @@ window.TOP_ARTICLES = {
           {
             "familyId": "nederlands",
             "size": "top-100",
-            "position": 36
+            "position": 31
           },
           {
             "familyId": "kort-nederlands",
             "size": "top-100",
-            "position": 24
+            "position": 19
           }
         ]
       },
@@ -38892,17 +38387,17 @@ window.TOP_ARTICLES = {
           {
             "familyId": "nederlands",
             "size": "top-100",
-            "position": 43
+            "position": 38
           },
           {
             "familyId": "kort-nederlands",
             "size": "top-100",
-            "position": 30
+            "position": 25
           },
           {
             "familyId": "luchtig-nederlands",
             "size": "top-100",
-            "position": 15
+            "position": 14
           }
         ]
       },
@@ -38938,12 +38433,12 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 85
+            "position": 83
           },
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 40
+            "position": 38
           }
         ]
       },
@@ -39060,12 +38555,12 @@ window.TOP_ARTICLES = {
           {
             "familyId": "nederlands",
             "size": "top-100",
-            "position": 31
+            "position": 26
           },
           {
             "familyId": "kort-nederlands",
             "size": "top-100",
-            "position": 19
+            "position": 14
           }
         ]
       },
@@ -39604,17 +39099,17 @@ window.TOP_ARTICLES = {
           {
             "familyId": "nederlands",
             "size": "top-100",
-            "position": 42
+            "position": 37
           },
           {
             "familyId": "kort-nederlands",
             "size": "top-100",
-            "position": 29
+            "position": 24
           },
           {
             "familyId": "luchtig-nederlands",
             "size": "top-100",
-            "position": 14
+            "position": 13
           }
         ]
       },
@@ -39673,7 +39168,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 90
+            "position": 89
           }
         ]
       },
@@ -39736,7 +39231,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 68
+            "position": 67
           }
         ]
       },
@@ -39892,13 +39387,19 @@ window.TOP_ARTICLES = {
           "sociology & social structures"
         ],
         "alsoIn": [
+          "aaa-dutch-top-10",
           "aaa-dutch-top-100"
         ],
         "memberships": [
           {
             "familyId": "nederlands",
+            "size": "top-10",
+            "position": 10
+          },
+          {
+            "familyId": "nederlands",
             "size": "top-100",
-            "position": 12
+            "position": 10
           }
         ]
       },
@@ -39934,7 +39435,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 89
+            "position": 88
           }
         ]
       },
@@ -39998,7 +39499,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 88
+            "position": 87
           }
         ]
       },
@@ -40100,22 +39601,22 @@ window.TOP_ARTICLES = {
           {
             "familyId": "nederlands",
             "size": "top-100",
-            "position": 30
+            "position": 25
           },
           {
             "familyId": "kort-nederlands",
             "size": "top-100",
-            "position": 18
+            "position": 13
           },
           {
             "familyId": "luchtig-nederlands",
             "size": "top-10",
-            "position": 10
+            "position": 9
           },
           {
             "familyId": "luchtig-nederlands",
             "size": "top-100",
-            "position": 10
+            "position": 9
           }
         ]
       },
@@ -40262,7 +39763,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 87
+            "position": 86
           }
         ]
       },
@@ -40680,7 +40181,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 38
+            "position": 37
           }
         ]
       },
@@ -40769,7 +40270,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 86
+            "position": 85
           }
         ]
       },
@@ -40804,7 +40305,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 37
+            "position": 36
           }
         ]
       },
@@ -40867,7 +40368,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 85
+            "position": 84
           }
         ]
       },
@@ -41067,12 +40568,12 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 84
+            "position": 82
           },
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 39
+            "position": 37
           }
         ]
       },
@@ -41136,7 +40637,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 36
+            "position": 35
           }
         ]
       },
@@ -41277,12 +40778,12 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 83
+            "position": 81
           },
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 38
+            "position": 36
           }
         ]
       },
@@ -41522,7 +41023,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 35
+            "position": 34
           }
         ]
       },
@@ -41581,7 +41082,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 84
+            "position": 83
           }
         ]
       },
@@ -41618,7 +41119,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 82
+            "position": 80
           },
           {
             "familyId": "luchtig",
@@ -41658,7 +41159,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 34
+            "position": 33
           }
         ]
       },
@@ -41694,12 +41195,12 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 81
+            "position": 79
           },
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 37
+            "position": 35
           }
         ]
       },
@@ -41734,7 +41235,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 33
+            "position": 32
           }
         ]
       },
@@ -41769,7 +41270,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 32
+            "position": 31
           }
         ]
       },
@@ -41807,7 +41308,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 31
+            "position": 30
           },
           {
             "familyId": "luchtig",
@@ -41936,13 +41437,19 @@ window.TOP_ARTICLES = {
           "totalitarianism & fascism"
         ],
         "alsoIn": [
+          "aaa-dutch-top-10",
           "aaa-dutch-top-100"
         ],
         "memberships": [
           {
             "familyId": "nederlands",
+            "size": "top-10",
+            "position": 9
+          },
+          {
+            "familyId": "nederlands",
             "size": "top-100",
-            "position": 11
+            "position": 9
           }
         ]
       },
@@ -42267,7 +41774,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 30
+            "position": 29
           }
         ]
       },
@@ -42390,7 +41897,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 67
+            "position": 66
           }
         ]
       },
@@ -42462,12 +41969,12 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 80
+            "position": 78
           },
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 36
+            "position": 34
           }
         ]
       },
@@ -42540,12 +42047,12 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 79
+            "position": 77
           },
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 35
+            "position": 33
           }
         ]
       },
@@ -42608,7 +42115,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 29
+            "position": 28
           }
         ]
       },
@@ -42697,12 +42204,12 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 78
+            "position": 76
           },
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 34
+            "position": 32
           }
         ]
       },
@@ -42820,7 +42327,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 28
+            "position": 27
           },
           {
             "familyId": "luchtig",
@@ -42893,12 +42400,12 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 77
+            "position": 75
           },
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 33
+            "position": 31
           }
         ]
       },
@@ -43022,12 +42529,12 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 76
+            "position": 74
           },
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 32
+            "position": 30
           }
         ]
       },
@@ -43170,7 +42677,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 27
+            "position": 26
           }
         ]
       },
@@ -43596,7 +43103,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 26
+            "position": 25
           },
           {
             "familyId": "luchtig",
@@ -44285,7 +43792,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 66
+            "position": 65
           }
         ]
       },
@@ -44320,7 +43827,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 25
+            "position": 24
           }
         ]
       },
@@ -44412,32 +43919,32 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 75
+            "position": 73
           },
           {
             "familyId": "nederlands",
             "size": "top-10",
-            "position": 4
+            "position": 2
           },
           {
             "familyId": "nederlands",
             "size": "top-100",
-            "position": 4
+            "position": 2
           },
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 31
+            "position": 29
           },
           {
             "familyId": "kort-nederlands",
             "size": "top-10",
-            "position": 3
+            "position": 1
           },
           {
             "familyId": "kort-nederlands",
             "size": "top-100",
-            "position": 3
+            "position": 1
           }
         ]
       },
@@ -44552,12 +44059,12 @@ window.TOP_ARTICLES = {
           {
             "familyId": "nederlands",
             "size": "top-10",
-            "position": 10
+            "position": 8
           },
           {
             "familyId": "nederlands",
             "size": "top-100",
-            "position": 10
+            "position": 8
           }
         ]
       },
@@ -44757,12 +44264,12 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 74
+            "position": 72
           },
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 30
+            "position": 28
           }
         ]
       },
@@ -44899,7 +44406,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 24
+            "position": 23
           }
         ]
       },
@@ -44969,7 +44476,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 83
+            "position": 82
           }
         ]
       },
@@ -45004,12 +44511,12 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 73
+            "position": 71
           },
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 29
+            "position": 27
           }
         ]
       },
@@ -45108,7 +44615,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 82
+            "position": 81
           }
         ]
       },
@@ -45331,7 +44838,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 52
+            "position": 51
           }
         ]
       },
@@ -45480,7 +44987,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 23
+            "position": 22
           }
         ]
       },
@@ -45516,7 +45023,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 81
+            "position": 80
           }
         ]
       },
@@ -45552,7 +45059,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 80
+            "position": 79
           }
         ]
       },
@@ -45639,7 +45146,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "nederlands",
             "size": "top-100",
-            "position": 27
+            "position": 22
           }
         ]
       },
@@ -45871,7 +45378,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 22
+            "position": 21
           }
         ]
       },
@@ -45990,12 +45497,12 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 72
+            "position": 70
           },
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 28
+            "position": 26
           },
           {
             "familyId": "luchtig",
@@ -46091,7 +45598,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 79
+            "position": 78
           }
         ]
       },
@@ -46215,17 +45722,17 @@ window.TOP_ARTICLES = {
           {
             "familyId": "nederlands",
             "size": "top-100",
-            "position": 26
+            "position": 21
           },
           {
             "familyId": "luchtig-nederlands",
             "size": "top-10",
-            "position": 7
+            "position": 6
           },
           {
             "familyId": "luchtig-nederlands",
             "size": "top-100",
-            "position": 7
+            "position": 6
           }
         ]
       },
@@ -46288,12 +45795,12 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 71
+            "position": 69
           },
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 27
+            "position": 25
           }
         ]
       },
@@ -46356,7 +45863,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 78
+            "position": 77
           }
         ]
       },
@@ -46392,7 +45899,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 65
+            "position": 64
           }
         ]
       },
@@ -46489,12 +45996,12 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 70
+            "position": 68
           },
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 26
+            "position": 24
           }
         ]
       },
@@ -46532,12 +46039,12 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 69
+            "position": 67
           },
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 25
+            "position": 23
           },
           {
             "familyId": "luchtig",
@@ -46638,7 +46145,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "nederlands",
             "size": "top-100",
-            "position": 25
+            "position": 20
           }
         ]
       },
@@ -47082,12 +46589,12 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 68
+            "position": 66
           },
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 24
+            "position": 22
           }
         ]
       },
@@ -47221,8 +46728,16 @@ window.TOP_ARTICLES = {
           "personal growth & life philosophy",
           "sociology & inequality"
         ],
-        "alsoIn": [],
-        "memberships": []
+        "alsoIn": [
+          "aaa-short-top-100"
+        ],
+        "memberships": [
+          {
+            "familyId": "kort",
+            "size": "top-100",
+            "position": 100
+          }
+        ]
       },
       {
         "position": null,
@@ -47418,12 +46933,12 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 67
+            "position": 65
           },
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 23
+            "position": 21
           }
         ]
       },
@@ -47483,7 +46998,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 21
+            "position": 20
           }
         ]
       },
@@ -47518,7 +47033,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 77
+            "position": 76
           }
         ]
       },
@@ -47902,12 +47417,12 @@ window.TOP_ARTICLES = {
           {
             "familyId": "nederlands",
             "size": "top-10",
-            "position": 9
+            "position": 7
           },
           {
             "familyId": "nederlands",
             "size": "top-100",
-            "position": 9
+            "position": 7
           }
         ]
       },
@@ -48031,7 +47546,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 76
+            "position": 75
           }
         ]
       },
@@ -48069,12 +47584,12 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 66
+            "position": 64
           },
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 22
+            "position": 20
           },
           {
             "familyId": "luchtig",
@@ -48141,7 +47656,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 20
+            "position": 19
           }
         ]
       },
@@ -48177,7 +47692,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 64
+            "position": 63
           }
         ]
       },
@@ -48212,7 +47727,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 65
+            "position": 63
           }
         ]
       },
@@ -48242,9 +47757,15 @@ window.TOP_ARTICLES = {
           "writing & essays"
         ],
         "alsoIn": [
+          "aaa-short-top-100",
           "aaa-luchtig-top-100"
         ],
         "memberships": [
+          {
+            "familyId": "kort",
+            "size": "top-100",
+            "position": 99
+          },
           {
             "familyId": "luchtig",
             "size": "top-100",
@@ -48278,70 +47799,6 @@ window.TOP_ARTICLES = {
         ],
         "alsoIn": [],
         "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01k1mhw46shwzk87214g7gtc9w",
-        "title": "Het begin van een oplossing",
-        "author": "Kees Verhoeven",
-        "siteName": "substack.com",
-        "category": "article",
-        "language": "Nederlands",
-        "readingTime": "5 mins",
-        "readingMinutes": 5,
-        "wordCount": 1284,
-        "publishedDate": "2025-08-01",
-        "savedDate": "2025-08-02T04:50:34.761000+00:00",
-        "imageUrl": "https://substackcdn.com/image/fetch/$s_!1jdQ!,w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fff922e10-c0e8-426d-b217-551232d44efe_908x510.heic",
-        "sourceUrl": "https://verhoeven.substack.com/p/het-begin-van-een-oplossing?r=1r0y5d&utm_medium=ios&triedRedirect=true",
-        "readwiseUrl": "https://read.readwise.io/read/01k1mhw46shwzk87214g7gtc9w",
-        "summary": "Kees Verhoeven onderzoekt hoe we de Nederlandse democratie kunnen verbeteren door te kijken naar procedures, structuren en cultuur. Hij geeft praktische voorstellen voor verkiezingen, politieke partijen en het parlement om transparanter en effectiever te worden. Zo wil hij de democratie sterker maken voor de toekomst.",
-        "whyRead": "Kees Verhoeven over het begin van een oplossing voor de democratische crisis — concrete stappen.",
-        "bestMoment": "geïnspireerd",
-        "tags": [
-          "current affairs & politics",
-          "political philosophy"
-        ],
-        "alsoIn": [
-          "aaa-top-100",
-          "aaa-dutch-top-10",
-          "aaa-dutch-top-100",
-          "aaa-short-top-100",
-          "aaa-short-dutch-top-10",
-          "aaa-short-dutch-top-100"
-        ],
-        "memberships": [
-          {
-            "familyId": "algemeen",
-            "size": "top-100",
-            "position": 64
-          },
-          {
-            "familyId": "nederlands",
-            "size": "top-10",
-            "position": 3
-          },
-          {
-            "familyId": "nederlands",
-            "size": "top-100",
-            "position": 3
-          },
-          {
-            "familyId": "kort",
-            "size": "top-100",
-            "position": 21
-          },
-          {
-            "familyId": "kort-nederlands",
-            "size": "top-10",
-            "position": 2
-          },
-          {
-            "familyId": "kort-nederlands",
-            "size": "top-100",
-            "position": 2
-          }
-        ]
       },
       {
         "position": null,
@@ -48401,12 +47858,12 @@ window.TOP_ARTICLES = {
           {
             "familyId": "nederlands",
             "size": "top-10",
-            "position": 8
+            "position": 6
           },
           {
             "familyId": "nederlands",
             "size": "top-100",
-            "position": 8
+            "position": 6
           }
         ]
       },
@@ -48555,7 +48012,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 100
+            "position": 98
           }
         ]
       },
@@ -48874,7 +48331,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 99
+            "position": 97
           }
         ]
       },
@@ -48963,7 +48420,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 19
+            "position": 18
           }
         ]
       },
@@ -48998,7 +48455,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 98
+            "position": 96
           }
         ]
       },
@@ -49035,7 +48492,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 97
+            "position": 95
           },
           {
             "familyId": "luchtig",
@@ -49077,7 +48534,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 96
+            "position": 94
           },
           {
             "familyId": "luchtig",
@@ -49117,12 +48574,12 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 63
+            "position": 62
           },
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 20
+            "position": 19
           }
         ]
       },
@@ -49193,12 +48650,12 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 62
+            "position": 61
           },
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 19
+            "position": 18
           }
         ]
       },
@@ -49335,12 +48792,12 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 61
+            "position": 60
           },
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 18
+            "position": 17
           }
         ]
       },
@@ -49436,7 +48893,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 75
+            "position": 74
           }
         ]
       },
@@ -49505,7 +48962,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 95
+            "position": 93
           }
         ]
       },
@@ -49575,12 +49032,12 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 60
+            "position": 59
           },
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 17
+            "position": 16
           }
         ]
       },
@@ -49616,7 +49073,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 63
+            "position": 62
           }
         ]
       },
@@ -49652,7 +49109,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 74
+            "position": 73
           }
         ]
       },
@@ -49905,7 +49362,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 94
+            "position": 92
           },
           {
             "familyId": "luchtig",
@@ -50195,7 +49652,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 18
+            "position": 17
           }
         ]
       },
@@ -50230,7 +49687,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 93
+            "position": 91
           }
         ]
       },
@@ -51567,7 +51024,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 92
+            "position": 90
           }
         ]
       },
@@ -51603,7 +51060,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 73
+            "position": 72
           }
         ]
       }
@@ -51685,58 +51142,58 @@ window.TOP_ARTICLES = {
           "position": 14
         },
         {
-          "id": "01kysnmckrgernh72bvvz2eprz",
-          "title": "Minister van Digitale Zaken: hoe het kan werken",
-          "position": 15
-        },
-        {
           "id": "01kyxyqrfvk85easc927qpwtns",
           "title": "The Ones Who Walk Away From Omelas",
-          "position": 16
+          "position": 15
         },
         {
           "id": "01m0k3hr0fm2zdqmg55xb8dnb0",
           "title": "If AI Can Replace Your Scrummaster, You Never Had a Scrummaster",
-          "position": 17
+          "position": 16
         },
         {
           "id": "01m0yzc4t547m4zm0yvgrk39xb",
           "title": "The Future of Agile Coaches: Do Large Companies Need a Standardized Agile Coach Certification and What Are the Alternatives?",
-          "position": 18
+          "position": 17
         },
         {
           "id": "01khr5h2d75yj0yt1v6seck4nt",
           "title": "On the compulsion to make art",
-          "position": 19
+          "position": 18
         },
         {
           "id": "01kmbp17grppjmpxqfsq4z3zy7",
           "title": "Sucker",
-          "position": 20
+          "position": 19
         },
         {
           "id": "01kqqh8gp2nh0d0c859h61yths",
           "title": "The Society of the Spectacle",
-          "position": 21
+          "position": 20
         },
         {
           "id": "01kysnkmqq07z6nwe6wtvhtkxy",
           "title": "Data en de Democratische Rechtsorde",
-          "position": 22
+          "position": 21
         },
         {
           "id": "01kyxa2yd57szp13ha57708606",
           "title": "Your Book Review: The Epic Of Gilgamesh",
-          "position": 23
+          "position": 22
         },
         {
           "id": "01m059szgmq8b5egbkgk1xe1rd",
           "title": "Arthur Koestler",
-          "position": 24
+          "position": 23
         },
         {
           "id": "01m059v21gaqg3ya0m36r03km4",
           "title": "Politics and the English Language",
+          "position": 24
+        },
+        {
+          "id": "01m059v4r9jj9vzx30nn7cs3sr",
+          "title": "Politics vs. Literature: An examination of Gulliver’s Travels",
           "position": 25
         }
       ]
@@ -51746,128 +51203,128 @@ window.TOP_ARTICLES = {
       "label": "Nieuw",
       "items": [
         {
-          "id": "01kysnmckrgernh72bvvz2eprz",
-          "title": "Minister van Digitale Zaken: hoe het kan werken",
-          "position": 1
-        },
-        {
           "id": "01kyxyqrfvk85easc927qpwtns",
           "title": "The Ones Who Walk Away From Omelas",
-          "position": 2
+          "position": 1
         },
         {
           "id": "01m07vc44sxraja6grgwxkcqsq",
           "title": "Technics And Civilization",
-          "position": 3
+          "position": 2
         },
         {
           "id": "01m0k3hr0fm2zdqmg55xb8dnb0",
           "title": "If AI Can Replace Your Scrummaster, You Never Had a Scrummaster",
-          "position": 4
+          "position": 3
         },
         {
           "id": "01m0yzc4t547m4zm0yvgrk39xb",
           "title": "The Future of Agile Coaches: Do Large Companies Need a Standardized Agile Coach Certification and What Are the Alternatives?",
-          "position": 5
+          "position": 4
         },
         {
           "id": "01kvhbzvsdz71gdn2329t023sp",
           "title": "So, what is morality?",
-          "position": 6
+          "position": 5
         },
         {
           "id": "01kwm2c48x698f162vev3xqyy2",
           "title": "The Knowledge Machine: How Irrationality Created Modern Science",
-          "position": 7
+          "position": 6
         },
         {
           "id": "01kxr18pz677fa7xqfav7sp2dp",
           "title": "Capitalism: A Ghost Story",
-          "position": 8
+          "position": 7
         },
         {
           "id": "01ky6y0z3wkzmdhty7gq3qa1wz",
           "title": "So, what is morality?",
-          "position": 9
+          "position": 8
         },
         {
           "id": "01kyab47vf7vat0n76fpwrgrj6",
           "title": "Your Book Review: Breakdown In Pakistan",
-          "position": 10
+          "position": 9
         },
         {
           "id": "01kysnkmqq07z6nwe6wtvhtkxy",
           "title": "Data en de Democratische Rechtsorde",
-          "position": 11
+          "position": 10
         },
         {
           "id": "01kysnmbwt86e2fk3axtde57h4",
           "title": "Keynote opening Digital Commons EDIC: Moving beyond the Digital Uncommons",
-          "position": 12
+          "position": 11
         },
         {
           "id": "01kyxa2yd57szp13ha57708606",
           "title": "Your Book Review: The Epic Of Gilgamesh",
-          "position": 13
+          "position": 12
         },
         {
           "id": "01m059szgmq8b5egbkgk1xe1rd",
           "title": "Arthur Koestler",
-          "position": 14
+          "position": 13
         },
         {
           "id": "01m059tvvs5m2bk6b68kyd7bay",
           "title": "Notes on Nationalism",
-          "position": 15
+          "position": 14
         },
         {
           "id": "01m059v21gaqg3ya0m36r03km4",
           "title": "Politics and the English Language",
-          "position": 16
+          "position": 15
         },
         {
           "id": "01m059v4r9jj9vzx30nn7cs3sr",
           "title": "Politics vs. Literature: An examination of Gulliver’s Travels",
-          "position": 17
+          "position": 16
         },
         {
           "id": "01m059vbg9k6x4z8p6198n481b",
           "title": "Second Thoughts on James Burnham",
-          "position": 18
+          "position": 17
         },
         {
           "id": "01m03b0vhwd52bhh3rdjhdafv2",
           "title": "Why I Write",
-          "position": 19
+          "position": 18
         },
         {
           "id": "01m0f295dxr46cfakg2cev3c1d",
           "title": "The Scientist Who Lived with Dozens of Children from the Pacific Islands | The New Yorker",
-          "position": 20
+          "position": 19
         },
         {
           "id": "01m0f5thx0x9f1rpdvj5r64m3m",
           "title": "Meditations On Moloch",
-          "position": 21
+          "position": 20
         },
         {
           "id": "01m0f7mwvh8ay32g66bb7rfsaj",
           "title": "Who Was Friedrich Nietzsche? His Life And Works",
-          "position": 22
+          "position": 21
         },
         {
           "id": "01m0pngvw1pq8s12ss8bgyz5hj",
           "title": "2026 Survey Of The Product Management Profession",
-          "position": 23
+          "position": 22
         },
         {
           "id": "01m0v38d002hs35994nqn3b993",
           "title": "Re: Re: Re: Pritchard On Liberal Happiness",
-          "position": 24
+          "position": 23
         },
         {
           "id": "01m0yytgcbktcptzp46cf14p2x",
           "title": "The Agile Coach Role Decoded: What Agile Coaches Deliver Versus What Team Members Experience - Koumaditis - 2026 - Journal of Software: Evolution and Process - Wiley Online Library",
+          "position": 24
+        },
+        {
+          "id": "01m0yzc8acebxvxektbepqg0kc",
+          "title": "Strengthening Large-Scale Agile Teams: The Interplay of High-Quality Relationships, Psychological Safety, and Learning From Failures",
           "position": 25
         }
       ]
