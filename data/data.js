@@ -1,6 +1,6 @@
 // Automatisch gegenereerd door scripts/build-data.ts — niet handmatig bewerken.
 window.TOP_ARTICLES = {
-  "generatedAt": "2026-08-29T11:44:03.109Z",
+  "generatedAt": "2026-08-29T15:52:21.091Z",
   "families": [
     {
       "id": "algemeen",
@@ -14,36 +14,6 @@ window.TOP_ARTICLES = {
           "items": [
             {
               "position": 1,
-              "id": "01hzvrj5se18gb9dy70r9hcq2f",
-              "title": "🌲 When computers are less efficient than analog methods",
-              "author": "Eleanor Konik",
-              "siteName": "Obsidian Iceberg",
-              "category": "article",
-              "language": "Engels",
-              "readingTime": "7 mins",
-              "readingMinutes": 7,
-              "wordCount": 1754,
-              "publishedDate": null,
-              "savedDate": "2024-06-08T11:08:27.823000+00:00",
-              "imageUrl": "https://substackcdn.com/image/fetch/w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F148b9806-e16e-4471-af99-3e72c20af244_1344x896.png",
-              "sourceUrl": "https://www.eleanorkonik.com/p/when-computers-are-less-efficient?utm_source=post-email-title&publication_id=1974188&post_id=145140035&utm_campaign=email-post-title&isFreemail=true&r=1r0y5d&triedRedirect=true&utm_medium=email",
-              "readwiseUrl": "https://read.readwise.io/read/01hzvrj5se18gb9dy70r9hcq2f",
-              "summary": "Analog notetaking methods, like bullet journals and paper trackers, can be more effective and less distracting than using computers, especially in certain situations like meetings and personal organization. While digital tools offer many benefits, analog methods can provide a focused, efficient way to manage tasks and track important information without the distractions of technology. Embracing analog approaches, such as writing on paper, can be practical, mindful, and even beneficial for mental well-being in a world filled with digital distractions.",
-              "whyRead": "Raakt je interesse in PKM en kennisbeheer — een nuchtere, eerlijke verdediging van analoge methoden (bullet journals) zonder evangelisme, vanuit echte use cases.",
-              "bestMoment": "ontspannen",
-              "tags": [
-                "learning & meta-learning",
-                "personal growth & life philosophy",
-                "pkm & note-taking"
-              ],
-              "alsoIn": [
-                "aaa-top-100",
-                "aaa-short-top-10",
-                "aaa-short-top-100"
-              ]
-            },
-            {
-              "position": 2,
               "id": "01j5b8c9ze5tvy3xr8axp67j8v",
               "title": "🌲 Prompt engineering gave me empathy for my bosses",
               "author": "Eleanor Konik",
@@ -73,7 +43,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 3,
+              "position": 2,
               "id": "01k7j6h8fj3ck0twxcq6abjm9v",
               "title": "4 Books to Self-Study Political Philosophy (as a Beginner)",
               "author": "Sam Rinko",
@@ -103,7 +73,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 4,
+              "position": 3,
               "id": "01k7pn06k2e9msrrk7d0c39bn6",
               "title": "Why & how I take reading notes by hand",
               "author": "Sam Rinko",
@@ -133,7 +103,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 5,
+              "position": 4,
               "id": "01k7pn0gythp69p15376f659gx",
               "title": "Interdisciplinary Deep Reads: Using 1 Classic Novel to Self-Study Multiple Humanities",
               "author": "Sam Rinko",
@@ -163,7 +133,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 6,
+              "position": 5,
               "id": "01kadvkbmp8yd44q125hyw9nrz",
               "title": "The paradox is that when I accept myself just as I am, I change",
               "author": "Henrik Karlsson",
@@ -193,7 +163,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 7,
+              "position": 6,
               "id": "01kbfj8h0ds5fz6sa9b7vdeh3n",
               "title": "Just and loving seeing",
               "author": "Henrik Karlsson",
@@ -222,7 +192,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 8,
+              "position": 7,
               "id": "01kdanxpg3e3pp8stwtmfr7p79",
               "title": "Taking your education into your own hands",
               "author": "Jared Henderson",
@@ -252,7 +222,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 9,
+              "position": 8,
               "id": "01kf0p1x4zzc3hqf55wqyngafr",
               "title": "On the preparations before writing an essay",
               "author": "Henrik Karlsson",
@@ -285,7 +255,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 10,
+              "position": 9,
               "id": "01khxyazzfph3etb69en1bhzgw",
               "title": "Stop Meeting Students Where They Are",
               "author": "Walt Hunter",
@@ -313,316 +283,9 @@ window.TOP_ARTICLES = {
                 "aaa-short-top-10",
                 "aaa-short-top-100"
               ]
-            }
-          ]
-        },
-        "top-100": {
-          "tag": "aaa-top-100",
-          "items": [
-            {
-              "position": 1,
-              "id": "01hzvrj5se18gb9dy70r9hcq2f",
-              "title": "🌲 When computers are less efficient than analog methods",
-              "author": "Eleanor Konik",
-              "siteName": "Obsidian Iceberg",
-              "category": "article",
-              "language": "Engels",
-              "readingTime": "7 mins",
-              "readingMinutes": 7,
-              "wordCount": 1754,
-              "publishedDate": null,
-              "savedDate": "2024-06-08T11:08:27.823000+00:00",
-              "imageUrl": "https://substackcdn.com/image/fetch/w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F148b9806-e16e-4471-af99-3e72c20af244_1344x896.png",
-              "sourceUrl": "https://www.eleanorkonik.com/p/when-computers-are-less-efficient?utm_source=post-email-title&publication_id=1974188&post_id=145140035&utm_campaign=email-post-title&isFreemail=true&r=1r0y5d&triedRedirect=true&utm_medium=email",
-              "readwiseUrl": "https://read.readwise.io/read/01hzvrj5se18gb9dy70r9hcq2f",
-              "summary": "Analog notetaking methods, like bullet journals and paper trackers, can be more effective and less distracting than using computers, especially in certain situations like meetings and personal organization. While digital tools offer many benefits, analog methods can provide a focused, efficient way to manage tasks and track important information without the distractions of technology. Embracing analog approaches, such as writing on paper, can be practical, mindful, and even beneficial for mental well-being in a world filled with digital distractions.",
-              "whyRead": "Raakt je interesse in PKM en kennisbeheer — een nuchtere, eerlijke verdediging van analoge methoden (bullet journals) zonder evangelisme, vanuit echte use cases.",
-              "bestMoment": "ontspannen",
-              "tags": [
-                "learning & meta-learning",
-                "personal growth & life philosophy",
-                "pkm & note-taking"
-              ],
-              "alsoIn": [
-                "aaa-top-10",
-                "aaa-short-top-10",
-                "aaa-short-top-100"
-              ]
-            },
-            {
-              "position": 2,
-              "id": "01j5b8c9ze5tvy3xr8axp67j8v",
-              "title": "🌲 Prompt engineering gave me empathy for my bosses",
-              "author": "Eleanor Konik",
-              "siteName": "Obsidian Iceberg",
-              "category": "article",
-              "language": "Engels",
-              "readingTime": "8 mins",
-              "readingMinutes": 8,
-              "wordCount": 1980,
-              "publishedDate": null,
-              "savedDate": "2024-08-15T14:51:58.319000+00:00",
-              "imageUrl": "https://substackcdn.com/image/fetch/w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F001c216a-1d58-4012-be52-2d2093793ea1_2688x1792.png",
-              "sourceUrl": "https://www.eleanorkonik.com/p/prompt-engineering-gave-me-empathy",
-              "readwiseUrl": "https://read.readwise.io/read/01j5b8c9ze5tvy3xr8axp67j8v",
-              "summary": "Prompt engineering helped the author improve communication with bosses by focusing on concise and impactful messaging. By understanding and addressing feedback, the author enhanced their conversational patterns and empathy towards others. Utilizing large language models for communication refinement highlighted the importance of clear, direct communication to convey key information effectively.",
-              "whyRead": "Raakt je interesse in PKM, AI en schrijven — Eleanor Konik (kwaliteitscontrole bij Readwise) ontdekt hoe prompt engineering haar inzicht geeft in hoe managers omgaan met communicatiepatronen.",
-              "bestMoment": "reflectief",
-              "tags": [
-                "ai & machine learning",
-                "learning & meta-learning",
-                "programming & software"
-              ],
-              "alsoIn": [
-                "aaa-top-10",
-                "aaa-short-top-10",
-                "aaa-short-top-100"
-              ]
-            },
-            {
-              "position": 3,
-              "id": "01k7j6h8fj3ck0twxcq6abjm9v",
-              "title": "4 Books to Self-Study Political Philosophy (as a Beginner)",
-              "author": "Sam Rinko",
-              "siteName": "substack.com",
-              "category": "article",
-              "language": "Engels",
-              "readingTime": "6 mins",
-              "readingMinutes": 6,
-              "wordCount": 1455,
-              "publishedDate": "2025-10-12",
-              "savedDate": "2025-10-14T20:28:06.512000+00:00",
-              "imageUrl": "https://substackcdn.com/image/fetch/$s_!m_yp!,w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fbdb06ced-2079-4ef0-82c0-125238b226c6_500x332.png",
-              "sourceUrl": "https://samuelrinko.substack.com/p/4-books-to-self-study-political-philosophy?r=1r0y5d&utm_medium=ios",
-              "readwiseUrl": "https://read.readwise.io/read/01k7j6h8fj3ck0twxcq6abjm9v",
-              "summary": "During the pandemic the author began self-studying political philosophy to form independent views. Four accessible books—Wolff’s intro, Plato’s Five Dialogues, Machiavelli’s The Prince, and Rousseau’s works—helped him learn key ideas, terms, and debates. These books made complex arguments readable and guided further self-directed study.",
-              "whyRead": "Vier toegankelijke boeken om politieke filosofie zelf te studeren als beginner.",
-              "bestMoment": "leergierig",
-              "tags": [
-                "learning & meta-learning",
-                "political philosophy",
-                "writing & essays"
-              ],
-              "alsoIn": [
-                "aaa-top-10",
-                "aaa-short-top-10",
-                "aaa-short-top-100"
-              ]
-            },
-            {
-              "position": 4,
-              "id": "01k7pn06k2e9msrrk7d0c39bn6",
-              "title": "Why & how I take reading notes by hand",
-              "author": "Sam Rinko",
-              "siteName": "substack.com",
-              "category": "article",
-              "language": "Engels",
-              "readingTime": "7 mins",
-              "readingMinutes": 7,
-              "wordCount": 1795,
-              "publishedDate": "2025-03-15",
-              "savedDate": "2025-10-16T13:57:53.890000+00:00",
-              "imageUrl": "https://substackcdn.com/image/fetch/$s_!yvpe!,w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1b6591af-c647-4c29-9559-61ad594c870b_750x684.png",
-              "sourceUrl": "https://samuelrinko.substack.com/p/why-and-how-i-take-reading-notes",
-              "readwiseUrl": "https://read.readwise.io/read/01k7pn06k2e9msrrk7d0c39bn6",
-              "summary": "Sam Rinko switched from digital copying to hand-written, subject notebooks for reading notes.  \nWriting by hand adds friction that forces selection, slows reflection, and improves retention.  \nThe simple analog system is easier to keep up with and yields higher-quality notes for learning and writing.",
-              "whyRead": "Over handgeschreven leesnotities als filter en verdiepingstool.",
-              "bestMoment": "reflectief",
-              "tags": [
-                "learning & meta-learning",
-                "tools & workflows",
-                "writing & essays"
-              ],
-              "alsoIn": [
-                "aaa-top-10",
-                "aaa-short-top-10",
-                "aaa-short-top-100"
-              ]
-            },
-            {
-              "position": 5,
-              "id": "01k7pn0gythp69p15376f659gx",
-              "title": "Interdisciplinary Deep Reads: Using 1 Classic Novel to Self-Study Multiple Humanities",
-              "author": "Sam Rinko",
-              "siteName": "substack.com",
-              "category": "article",
-              "language": "Engels",
-              "readingTime": "3 mins",
-              "readingMinutes": 3,
-              "wordCount": 724,
-              "publishedDate": "2025-08-19",
-              "savedDate": "2025-10-16T13:58:04.506000+00:00",
-              "imageUrl": "https://substackcdn.com/image/fetch/$s_!6h47!,w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1a14b1c0-d2e3-46ff-8e72-e58da602450d_1840x1221.webp",
-              "sourceUrl": "https://samuelrinko.substack.com/p/interdisciplinary-deep-reads-why",
-              "readwiseUrl": "https://read.readwise.io/read/01k7pn0gythp69p15376f659gx",
-              "summary": "A single great novel like War and Peace can be used as the center of an interdisciplinary self-study course.  \nReading it deeply with history, philosophy, and criticism lets you learn many humanities subjects at once.  \nThe author gives a sample syllabus and encourages making a 12-week or loose DIY plan guided by curiosity.",
-              "whyRead": "Eén klassieke roman als gateway voor meerdere disciplines – interdisciplinair leren in de praktijk.",
-              "bestMoment": "leergierig",
-              "tags": [
-                "learning & meta-learning",
-                "philosophy",
-                "writing & essays"
-              ],
-              "alsoIn": [
-                "aaa-top-10",
-                "aaa-short-top-10",
-                "aaa-short-top-100"
-              ]
-            },
-            {
-              "position": 6,
-              "id": "01kadvkbmp8yd44q125hyw9nrz",
-              "title": "The paradox is that when I accept myself just as I am, I change",
-              "author": "Henrik Karlsson",
-              "siteName": "Substack",
-              "category": "email",
-              "language": "Engels",
-              "readingTime": "9 mins",
-              "readingMinutes": 9,
-              "wordCount": 2333,
-              "publishedDate": "2025-11-19",
-              "savedDate": "2025-11-19T10:47:08.695000+00:00",
-              "imageUrl": null,
-              "sourceUrl": "mailto:reader-forwarded-email/e5a837612908b111711d0156551573f7",
-              "readwiseUrl": "https://read.readwise.io/read/01kadvkbmp8yd44q125hyw9nrz",
-              "summary": "The author sees two kinds of happiness: a sharp, showy high that breeds shame, and a soft, quiet joy that feels true. Anxiety once drove him to chase thrills and approval. Loving Johanna helped him accept himself, leave performative life, and move toward what matters.",
-              "whyRead": "Een paradox uit de humanistische psychologie die direct raakt aan stoïcisme en boeddhisme — zelfacceptatie als voorwaarde voor verandering.",
-              "bestMoment": "reflectief",
-              "tags": [
-                "personal growth & life philosophy",
-                "philosophy",
-                "writing & essays"
-              ],
-              "alsoIn": [
-                "aaa-top-10",
-                "aaa-short-top-10",
-                "aaa-short-top-100"
-              ]
-            },
-            {
-              "position": 7,
-              "id": "01kbfj8h0ds5fz6sa9b7vdeh3n",
-              "title": "Just and loving seeing",
-              "author": "Henrik Karlsson",
-              "siteName": "Substack",
-              "category": "email",
-              "language": "Engels",
-              "readingTime": "9 mins",
-              "readingMinutes": 9,
-              "wordCount": 2307,
-              "publishedDate": "2025-12-02",
-              "savedDate": "2025-12-02T12:58:07.246000+00:00",
-              "imageUrl": null,
-              "sourceUrl": "mailto:reader-forwarded-email/5982fbb7feb3aafc79381d42b016f6e5",
-              "readwiseUrl": "https://read.readwise.io/read/01kbfj8h0ds5fz6sa9b7vdeh3n",
-              "summary": "The author was struck by Iris Murdoch’s “The Sovereignty of Good” and feels it may upend his beliefs.  \nMurdoch urges moving toward the Good by seeing reality clearly through “just and loving seeing” and unselfing, not by chasing abstract flourishing or authenticity/duty.  \nRight action is context-specific and revealed by clearer vision; the author will read more and invites reflections.",
-              "whyRead": "Henrik Karlsson over Iris Murdochs moraalfilosofie — 'just and loving attention' als ethisch concept raakt direct aan je interesse in filosofie en zelfkennis.",
-              "bestMoment": "reflectief",
-              "tags": [
-                "philosophy",
-                "writing & essays"
-              ],
-              "alsoIn": [
-                "aaa-top-10",
-                "aaa-short-top-10",
-                "aaa-short-top-100"
-              ]
-            },
-            {
-              "position": 8,
-              "id": "01kdanxpg3e3pp8stwtmfr7p79",
-              "title": "Taking your education into your own hands",
-              "author": "Jared Henderson",
-              "siteName": "bytebytego.com",
-              "category": "article",
-              "language": "Engels",
-              "readingTime": "6 mins",
-              "readingMinutes": 6,
-              "wordCount": 1370,
-              "publishedDate": "2025-04-09",
-              "savedDate": "2025-12-25T11:57:18.211000+00:00",
-              "imageUrl": "https://substackcdn.com/image/fetch/$s_!JjvB!,w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F7fdcb539-0e90-4a41-93c7-0575fc657676_2808x3675.jpeg",
-              "sourceUrl": "https://email.mg1.substack.com/c/eJxUkEmO6yAQQE9jdrEAM3nB4m98DYuh4vDDYDF0lNu3lKhbnW2VXr2ncqbDUepTPyC6kgB5jSV10iLQRAohxCK4QpBMiPsBGarp4HfT_2wV4-imKRF-4QQ7xdVq7equYDCW1xUYYZJwFDTFlBNKOSGcETUvs8Ir98ozgBVArjCbo7Bo1TExnA4yt2FbN-4-u5JQaPu1wqtE9zoARX3r_WzT8m-i20S3_6aCv0H2UFvJH_BEt3OiWzf3kI_Ls4x6AT-c6aHkS8i9vGflkdE57O5KSiOH_twhGxvBv4XnsDG8oT14TagQVGJU9Y9qYrgT3OYcURvWl2RC1p9ZqP--ejSorzuYK4Gx4OhL0-8AAAD___7phLU",
-              "readwiseUrl": "https://read.readwise.io/read/01kdanxpg3e3pp8stwtmfr7p79",
-              "summary": "After leaving academia, the author stopped reading philosophy and felt he had been rejected by the field. Over time he reclaimed philosophy by learning and teaching independently, writing, and making videos. He urges others to take their education into their own hands and keep learning beyond institutions.",
-              "whyRead": "Raakt je interesse in zelfgestuurd leren — Jared Henderson (filosoof/Substack) over hoe hij na zijn PhD zijn eigen curriculum opbouwde buiten de academische wereld.",
-              "bestMoment": "reflectief",
-              "tags": [
-                "learning & meta-learning",
-                "personal growth & life philosophy",
-                "writing & essays"
-              ],
-              "alsoIn": [
-                "aaa-top-10",
-                "aaa-short-top-10",
-                "aaa-short-top-100"
-              ]
-            },
-            {
-              "position": 9,
-              "id": "01kf0p1x4zzc3hqf55wqyngafr",
-              "title": "On the preparations before writing an essay",
-              "author": "Henrik Karlsson",
-              "siteName": "Substack",
-              "category": "email",
-              "language": "Engels",
-              "readingTime": "8 mins",
-              "readingMinutes": 8,
-              "wordCount": 2007,
-              "publishedDate": "2026-01-15",
-              "savedDate": "2026-01-15T11:18:35.423000+00:00",
-              "imageUrl": null,
-              "sourceUrl": "mailto:reader-forwarded-email/be26eefff765a8e8d36d86b94368e5ea",
-              "readwiseUrl": "https://read.readwise.io/read/01kf0p1x4zzc3hqf55wqyngafr",
-              "summary": "- Treat essay prep like filming a doc: gather lots of rough, detailed prose before editing.\n- He mines journals, talks, quotes, and AI searches, then rapidly tests openings and stories.\n- Example and updates: one essay fused taped stories with an old Aristotle draft; there’s a fierce island storm, a planned Andalucia trip, a found Grothendieck translation, and he’s reading Magic Mountain.",
-              "whyRead": "Henrik Karlsson over de voorbereiding op essay schrijven — waardevol voor je interesse in schrijven, creativiteit en kennisverwerking.",
-              "bestMoment": "geconcentreerd",
-              "tags": [
-                "ai & machine learning",
-                "arts & culture",
-                "learning & meta-learning",
-                "light-reading"
-              ],
-              "alsoIn": [
-                "aaa-top-10",
-                "aaa-short-top-10",
-                "aaa-short-top-100",
-                "aaa-luchtig-top-10",
-                "aaa-luchtig-top-100"
-              ]
             },
             {
               "position": 10,
-              "id": "01khxyazzfph3etb69en1bhzgw",
-              "title": "Stop Meeting Students Where They Are",
-              "author": "Walt Hunter",
-              "siteName": "The Atlantic",
-              "category": "article",
-              "language": null,
-              "readingTime": "9 mins",
-              "readingMinutes": 9,
-              "wordCount": 2298,
-              "publishedDate": "2026-02-02",
-              "savedDate": "2026-02-20T16:32:44.015000+00:00",
-              "imageUrl": "https://cdn.theatlantic.com/thumbor/oqqf3ICqMRxtYrJEU2MWryHodMk=/0x0:2000x1125/960x540/media/img/mt/2026/01/ChallengingBooks_3/original.png",
-              "sourceUrl": "https://www.theatlantic.com/ideas/2026/02/youth-reading-books-professors/685825/&ref=wiseup.readwise.io",
-              "readwiseUrl": "https://read.readwise.io/read/01khxyazzfph3etb69en1bhzgw",
-              "summary": "The author feared students wouldn’t read hard books, but assigned them anyway. The students did the reading, struggled, learned, and found their voices. Teachers should stop lowering the bar and assign whole books to build real readers.",
-              "whyRead": "Raakt je interesse in leren en onderwijs — een essay dat pleit voor hogere verwachtingen als daad van respect voor studenten.",
-              "bestMoment": "analytisch",
-              "tags": [
-                "learning & meta-learning",
-                "philosophy",
-                "writing & essays"
-              ],
-              "alsoIn": [
-                "aaa-top-10",
-                "aaa-short-top-10",
-                "aaa-short-top-100"
-              ]
-            },
-            {
-              "position": 11,
               "id": "01kmdth41cmczffw0kk28vchct",
               "title": "Differently free",
               "author": "Henrik Karlsson",
@@ -646,11 +309,320 @@ window.TOP_ARTICLES = {
                 "political philosophy"
               ],
               "alsoIn": [
+                "aaa-top-100",
+                "aaa-short-top-10",
+                "aaa-short-top-100"
+              ]
+            }
+          ]
+        },
+        "top-100": {
+          "tag": "aaa-top-100",
+          "items": [
+            {
+              "position": 1,
+              "id": "01j5b8c9ze5tvy3xr8axp67j8v",
+              "title": "🌲 Prompt engineering gave me empathy for my bosses",
+              "author": "Eleanor Konik",
+              "siteName": "Obsidian Iceberg",
+              "category": "article",
+              "language": "Engels",
+              "readingTime": "8 mins",
+              "readingMinutes": 8,
+              "wordCount": 1980,
+              "publishedDate": null,
+              "savedDate": "2024-08-15T14:51:58.319000+00:00",
+              "imageUrl": "https://substackcdn.com/image/fetch/w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F001c216a-1d58-4012-be52-2d2093793ea1_2688x1792.png",
+              "sourceUrl": "https://www.eleanorkonik.com/p/prompt-engineering-gave-me-empathy",
+              "readwiseUrl": "https://read.readwise.io/read/01j5b8c9ze5tvy3xr8axp67j8v",
+              "summary": "Prompt engineering helped the author improve communication with bosses by focusing on concise and impactful messaging. By understanding and addressing feedback, the author enhanced their conversational patterns and empathy towards others. Utilizing large language models for communication refinement highlighted the importance of clear, direct communication to convey key information effectively.",
+              "whyRead": "Raakt je interesse in PKM, AI en schrijven — Eleanor Konik (kwaliteitscontrole bij Readwise) ontdekt hoe prompt engineering haar inzicht geeft in hoe managers omgaan met communicatiepatronen.",
+              "bestMoment": "reflectief",
+              "tags": [
+                "ai & machine learning",
+                "learning & meta-learning",
+                "programming & software"
+              ],
+              "alsoIn": [
+                "aaa-top-10",
+                "aaa-short-top-10",
                 "aaa-short-top-100"
               ]
             },
             {
-              "position": 12,
+              "position": 2,
+              "id": "01k7j6h8fj3ck0twxcq6abjm9v",
+              "title": "4 Books to Self-Study Political Philosophy (as a Beginner)",
+              "author": "Sam Rinko",
+              "siteName": "substack.com",
+              "category": "article",
+              "language": "Engels",
+              "readingTime": "6 mins",
+              "readingMinutes": 6,
+              "wordCount": 1455,
+              "publishedDate": "2025-10-12",
+              "savedDate": "2025-10-14T20:28:06.512000+00:00",
+              "imageUrl": "https://substackcdn.com/image/fetch/$s_!m_yp!,w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fbdb06ced-2079-4ef0-82c0-125238b226c6_500x332.png",
+              "sourceUrl": "https://samuelrinko.substack.com/p/4-books-to-self-study-political-philosophy?r=1r0y5d&utm_medium=ios",
+              "readwiseUrl": "https://read.readwise.io/read/01k7j6h8fj3ck0twxcq6abjm9v",
+              "summary": "During the pandemic the author began self-studying political philosophy to form independent views. Four accessible books—Wolff’s intro, Plato’s Five Dialogues, Machiavelli’s The Prince, and Rousseau’s works—helped him learn key ideas, terms, and debates. These books made complex arguments readable and guided further self-directed study.",
+              "whyRead": "Vier toegankelijke boeken om politieke filosofie zelf te studeren als beginner.",
+              "bestMoment": "leergierig",
+              "tags": [
+                "learning & meta-learning",
+                "political philosophy",
+                "writing & essays"
+              ],
+              "alsoIn": [
+                "aaa-top-10",
+                "aaa-short-top-10",
+                "aaa-short-top-100"
+              ]
+            },
+            {
+              "position": 3,
+              "id": "01k7pn06k2e9msrrk7d0c39bn6",
+              "title": "Why & how I take reading notes by hand",
+              "author": "Sam Rinko",
+              "siteName": "substack.com",
+              "category": "article",
+              "language": "Engels",
+              "readingTime": "7 mins",
+              "readingMinutes": 7,
+              "wordCount": 1795,
+              "publishedDate": "2025-03-15",
+              "savedDate": "2025-10-16T13:57:53.890000+00:00",
+              "imageUrl": "https://substackcdn.com/image/fetch/$s_!yvpe!,w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1b6591af-c647-4c29-9559-61ad594c870b_750x684.png",
+              "sourceUrl": "https://samuelrinko.substack.com/p/why-and-how-i-take-reading-notes",
+              "readwiseUrl": "https://read.readwise.io/read/01k7pn06k2e9msrrk7d0c39bn6",
+              "summary": "Sam Rinko switched from digital copying to hand-written, subject notebooks for reading notes.  \nWriting by hand adds friction that forces selection, slows reflection, and improves retention.  \nThe simple analog system is easier to keep up with and yields higher-quality notes for learning and writing.",
+              "whyRead": "Over handgeschreven leesnotities als filter en verdiepingstool.",
+              "bestMoment": "reflectief",
+              "tags": [
+                "learning & meta-learning",
+                "tools & workflows",
+                "writing & essays"
+              ],
+              "alsoIn": [
+                "aaa-top-10",
+                "aaa-short-top-10",
+                "aaa-short-top-100"
+              ]
+            },
+            {
+              "position": 4,
+              "id": "01k7pn0gythp69p15376f659gx",
+              "title": "Interdisciplinary Deep Reads: Using 1 Classic Novel to Self-Study Multiple Humanities",
+              "author": "Sam Rinko",
+              "siteName": "substack.com",
+              "category": "article",
+              "language": "Engels",
+              "readingTime": "3 mins",
+              "readingMinutes": 3,
+              "wordCount": 724,
+              "publishedDate": "2025-08-19",
+              "savedDate": "2025-10-16T13:58:04.506000+00:00",
+              "imageUrl": "https://substackcdn.com/image/fetch/$s_!6h47!,w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1a14b1c0-d2e3-46ff-8e72-e58da602450d_1840x1221.webp",
+              "sourceUrl": "https://samuelrinko.substack.com/p/interdisciplinary-deep-reads-why",
+              "readwiseUrl": "https://read.readwise.io/read/01k7pn0gythp69p15376f659gx",
+              "summary": "A single great novel like War and Peace can be used as the center of an interdisciplinary self-study course.  \nReading it deeply with history, philosophy, and criticism lets you learn many humanities subjects at once.  \nThe author gives a sample syllabus and encourages making a 12-week or loose DIY plan guided by curiosity.",
+              "whyRead": "Eén klassieke roman als gateway voor meerdere disciplines – interdisciplinair leren in de praktijk.",
+              "bestMoment": "leergierig",
+              "tags": [
+                "learning & meta-learning",
+                "philosophy",
+                "writing & essays"
+              ],
+              "alsoIn": [
+                "aaa-top-10",
+                "aaa-short-top-10",
+                "aaa-short-top-100"
+              ]
+            },
+            {
+              "position": 5,
+              "id": "01kadvkbmp8yd44q125hyw9nrz",
+              "title": "The paradox is that when I accept myself just as I am, I change",
+              "author": "Henrik Karlsson",
+              "siteName": "Substack",
+              "category": "email",
+              "language": "Engels",
+              "readingTime": "9 mins",
+              "readingMinutes": 9,
+              "wordCount": 2333,
+              "publishedDate": "2025-11-19",
+              "savedDate": "2025-11-19T10:47:08.695000+00:00",
+              "imageUrl": null,
+              "sourceUrl": "mailto:reader-forwarded-email/e5a837612908b111711d0156551573f7",
+              "readwiseUrl": "https://read.readwise.io/read/01kadvkbmp8yd44q125hyw9nrz",
+              "summary": "The author sees two kinds of happiness: a sharp, showy high that breeds shame, and a soft, quiet joy that feels true. Anxiety once drove him to chase thrills and approval. Loving Johanna helped him accept himself, leave performative life, and move toward what matters.",
+              "whyRead": "Een paradox uit de humanistische psychologie die direct raakt aan stoïcisme en boeddhisme — zelfacceptatie als voorwaarde voor verandering.",
+              "bestMoment": "reflectief",
+              "tags": [
+                "personal growth & life philosophy",
+                "philosophy",
+                "writing & essays"
+              ],
+              "alsoIn": [
+                "aaa-top-10",
+                "aaa-short-top-10",
+                "aaa-short-top-100"
+              ]
+            },
+            {
+              "position": 6,
+              "id": "01kbfj8h0ds5fz6sa9b7vdeh3n",
+              "title": "Just and loving seeing",
+              "author": "Henrik Karlsson",
+              "siteName": "Substack",
+              "category": "email",
+              "language": "Engels",
+              "readingTime": "9 mins",
+              "readingMinutes": 9,
+              "wordCount": 2307,
+              "publishedDate": "2025-12-02",
+              "savedDate": "2025-12-02T12:58:07.246000+00:00",
+              "imageUrl": null,
+              "sourceUrl": "mailto:reader-forwarded-email/5982fbb7feb3aafc79381d42b016f6e5",
+              "readwiseUrl": "https://read.readwise.io/read/01kbfj8h0ds5fz6sa9b7vdeh3n",
+              "summary": "The author was struck by Iris Murdoch’s “The Sovereignty of Good” and feels it may upend his beliefs.  \nMurdoch urges moving toward the Good by seeing reality clearly through “just and loving seeing” and unselfing, not by chasing abstract flourishing or authenticity/duty.  \nRight action is context-specific and revealed by clearer vision; the author will read more and invites reflections.",
+              "whyRead": "Henrik Karlsson over Iris Murdochs moraalfilosofie — 'just and loving attention' als ethisch concept raakt direct aan je interesse in filosofie en zelfkennis.",
+              "bestMoment": "reflectief",
+              "tags": [
+                "philosophy",
+                "writing & essays"
+              ],
+              "alsoIn": [
+                "aaa-top-10",
+                "aaa-short-top-10",
+                "aaa-short-top-100"
+              ]
+            },
+            {
+              "position": 7,
+              "id": "01kdanxpg3e3pp8stwtmfr7p79",
+              "title": "Taking your education into your own hands",
+              "author": "Jared Henderson",
+              "siteName": "bytebytego.com",
+              "category": "article",
+              "language": "Engels",
+              "readingTime": "6 mins",
+              "readingMinutes": 6,
+              "wordCount": 1370,
+              "publishedDate": "2025-04-09",
+              "savedDate": "2025-12-25T11:57:18.211000+00:00",
+              "imageUrl": "https://substackcdn.com/image/fetch/$s_!JjvB!,w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F7fdcb539-0e90-4a41-93c7-0575fc657676_2808x3675.jpeg",
+              "sourceUrl": "https://email.mg1.substack.com/c/eJxUkEmO6yAQQE9jdrEAM3nB4m98DYuh4vDDYDF0lNu3lKhbnW2VXr2ncqbDUepTPyC6kgB5jSV10iLQRAohxCK4QpBMiPsBGarp4HfT_2wV4-imKRF-4QQ7xdVq7equYDCW1xUYYZJwFDTFlBNKOSGcETUvs8Ir98ozgBVArjCbo7Bo1TExnA4yt2FbN-4-u5JQaPu1wqtE9zoARX3r_WzT8m-i20S3_6aCv0H2UFvJH_BEt3OiWzf3kI_Ls4x6AT-c6aHkS8i9vGflkdE57O5KSiOH_twhGxvBv4XnsDG8oT14TagQVGJU9Y9qYrgT3OYcURvWl2RC1p9ZqP--ejSorzuYK4Gx4OhL0-8AAAD___7phLU",
+              "readwiseUrl": "https://read.readwise.io/read/01kdanxpg3e3pp8stwtmfr7p79",
+              "summary": "After leaving academia, the author stopped reading philosophy and felt he had been rejected by the field. Over time he reclaimed philosophy by learning and teaching independently, writing, and making videos. He urges others to take their education into their own hands and keep learning beyond institutions.",
+              "whyRead": "Raakt je interesse in zelfgestuurd leren — Jared Henderson (filosoof/Substack) over hoe hij na zijn PhD zijn eigen curriculum opbouwde buiten de academische wereld.",
+              "bestMoment": "reflectief",
+              "tags": [
+                "learning & meta-learning",
+                "personal growth & life philosophy",
+                "writing & essays"
+              ],
+              "alsoIn": [
+                "aaa-top-10",
+                "aaa-short-top-10",
+                "aaa-short-top-100"
+              ]
+            },
+            {
+              "position": 8,
+              "id": "01kf0p1x4zzc3hqf55wqyngafr",
+              "title": "On the preparations before writing an essay",
+              "author": "Henrik Karlsson",
+              "siteName": "Substack",
+              "category": "email",
+              "language": "Engels",
+              "readingTime": "8 mins",
+              "readingMinutes": 8,
+              "wordCount": 2007,
+              "publishedDate": "2026-01-15",
+              "savedDate": "2026-01-15T11:18:35.423000+00:00",
+              "imageUrl": null,
+              "sourceUrl": "mailto:reader-forwarded-email/be26eefff765a8e8d36d86b94368e5ea",
+              "readwiseUrl": "https://read.readwise.io/read/01kf0p1x4zzc3hqf55wqyngafr",
+              "summary": "- Treat essay prep like filming a doc: gather lots of rough, detailed prose before editing.\n- He mines journals, talks, quotes, and AI searches, then rapidly tests openings and stories.\n- Example and updates: one essay fused taped stories with an old Aristotle draft; there’s a fierce island storm, a planned Andalucia trip, a found Grothendieck translation, and he’s reading Magic Mountain.",
+              "whyRead": "Henrik Karlsson over de voorbereiding op essay schrijven — waardevol voor je interesse in schrijven, creativiteit en kennisverwerking.",
+              "bestMoment": "geconcentreerd",
+              "tags": [
+                "ai & machine learning",
+                "arts & culture",
+                "learning & meta-learning",
+                "light-reading"
+              ],
+              "alsoIn": [
+                "aaa-top-10",
+                "aaa-short-top-10",
+                "aaa-short-top-100",
+                "aaa-luchtig-top-10",
+                "aaa-luchtig-top-100"
+              ]
+            },
+            {
+              "position": 9,
+              "id": "01khxyazzfph3etb69en1bhzgw",
+              "title": "Stop Meeting Students Where They Are",
+              "author": "Walt Hunter",
+              "siteName": "The Atlantic",
+              "category": "article",
+              "language": null,
+              "readingTime": "9 mins",
+              "readingMinutes": 9,
+              "wordCount": 2298,
+              "publishedDate": "2026-02-02",
+              "savedDate": "2026-02-20T16:32:44.015000+00:00",
+              "imageUrl": "https://cdn.theatlantic.com/thumbor/oqqf3ICqMRxtYrJEU2MWryHodMk=/0x0:2000x1125/960x540/media/img/mt/2026/01/ChallengingBooks_3/original.png",
+              "sourceUrl": "https://www.theatlantic.com/ideas/2026/02/youth-reading-books-professors/685825/&ref=wiseup.readwise.io",
+              "readwiseUrl": "https://read.readwise.io/read/01khxyazzfph3etb69en1bhzgw",
+              "summary": "The author feared students wouldn’t read hard books, but assigned them anyway. The students did the reading, struggled, learned, and found their voices. Teachers should stop lowering the bar and assign whole books to build real readers.",
+              "whyRead": "Raakt je interesse in leren en onderwijs — een essay dat pleit voor hogere verwachtingen als daad van respect voor studenten.",
+              "bestMoment": "analytisch",
+              "tags": [
+                "learning & meta-learning",
+                "philosophy",
+                "writing & essays"
+              ],
+              "alsoIn": [
+                "aaa-top-10",
+                "aaa-short-top-10",
+                "aaa-short-top-100"
+              ]
+            },
+            {
+              "position": 10,
+              "id": "01kmdth41cmczffw0kk28vchct",
+              "title": "Differently free",
+              "author": "Henrik Karlsson",
+              "siteName": "Substack",
+              "category": "email",
+              "language": "Engels",
+              "readingTime": "6 mins",
+              "readingMinutes": 6,
+              "wordCount": 1587,
+              "publishedDate": "2026-03-23",
+              "savedDate": "2026-03-23T17:05:25.036000+00:00",
+              "imageUrl": null,
+              "sourceUrl": "mailto:reader-forwarded-email/d08c4e67be09d86a00a6922d55992dc2",
+              "readwiseUrl": "https://read.readwise.io/read/01kmdth41cmczffw0kk28vchct",
+              "summary": "Henrik travels from his remote island to Copenhagen to record a podcast with his friend Jackson, whose different kind of freedom helps him see new possibilities.  \nHe talks about his grandfather Nils, a quiet, selfless man who spent his life caring for others and shaped Henrik’s atheism and values.  \nHenrik believes each person has a unique contribution to make, and that we should use our lives to increase complexity, connection, and goodness in the universe.",
+              "whyRead": "Raakt je interesse in filosofie en essayistisch schrijven — Karlssons reflectie op 'differently free' mensen (Venkatesh Rao) is een elegant idee dat raakt aan vrijheid, blinde vlekken en de waarde van intellectuele gemeenschap.",
+              "bestMoment": "reflectief",
+              "tags": [
+                "personal growth & life philosophy",
+                "philosophy",
+                "political philosophy"
+              ],
+              "alsoIn": [
+                "aaa-top-10",
+                "aaa-short-top-10",
+                "aaa-short-top-100"
+              ]
+            },
+            {
+              "position": 11,
               "id": "01kne8gk826f5e57n34h317pqw",
               "title": "Stoicism as philosophy of well-being and happiness: Making the case for an academic, as well as wider, Stoic renaissance",
               "author": "stoicismtoday.substack.com",
@@ -676,7 +648,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 13,
+              "position": 12,
               "id": "01krm2x81z150qk5a5y9mezss5",
               "title": "How to Prioritize Your Intellectual Life",
               "author": "andrewbharker.substack.com",
@@ -704,7 +676,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 14,
+              "position": 13,
               "id": "01ks96dy2nfby7cyd152ev2a9k",
               "title": "Bureaucracy Isn't Broken. That's the Problem.",
               "author": "Sven Brodmerkel | Off-Script At Work",
@@ -732,7 +704,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 15,
+              "position": 14,
               "id": "01kst1g8cff3ab77qteg0q834j",
               "title": "‘Metrics create hermeneutical injustice'",
               "author": "Jared Henderson from Commonplace Philosophy",
@@ -760,7 +732,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 16,
+              "position": 15,
               "id": "01kysnmckrgernh72bvvz2eprz",
               "title": "Minister van Digitale Zaken: hoe het kan werken",
               "author": "berthub.eu",
@@ -792,7 +764,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 17,
+              "position": 16,
               "id": "01m0k3hr0fm2zdqmg55xb8dnb0",
               "title": "If AI Can Replace Your Scrummaster, You Never Had a Scrummaster",
               "author": "Erwin Verweij",
@@ -820,7 +792,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 18,
+              "position": 17,
               "id": "01m0yzc4t547m4zm0yvgrk39xb",
               "title": "The Future of Agile Coaches: Do Large Companies Need a Standardized Agile Coach Certification and What Are the Alternatives?",
               "author": "doi.org",
@@ -851,7 +823,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 19,
+              "position": 18,
               "id": "01j2dfzgeq6ee7txhr651dabe4",
               "title": "🌲 A Personal Take on Using LLMs",
               "author": "Eleanor Konik",
@@ -877,7 +849,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 20,
+              "position": 19,
               "id": "01jkh2wm4v4j610egp7kxf4m8k",
               "title": "Rationality is an underrated way to be authentic",
               "author": "Henrik Karlsson",
@@ -903,7 +875,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 21,
+              "position": 20,
               "id": "01k2ysk13dwk1ftz5jvez1y54s",
               "title": "Letter #89. On Being a Trustful, Autonomy-Supportive Parent",
               "author": "Peter Gray",
@@ -929,7 +901,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 22,
+              "position": 21,
               "id": "01k72qvbmwd9xp0k233cv5qgw2",
               "title": "A blog post is a very long and complex search query to find fascinating people and make them route interesting stuff to your inbox",
               "author": "Henrik Karlsson",
@@ -955,7 +927,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 23,
+              "position": 22,
               "id": "01k9c2mfzdvrnpxt293kgn3rn8",
               "title": "When is it better to think without words?",
               "author": "Henrik Karlsson",
@@ -981,7 +953,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 24,
+              "position": 23,
               "id": "01kak55ckqqc68k61t1z10mcs6",
               "title": "No, religion isn't required for morality",
               "author": "Lionel Page from Optimally Irrational",
@@ -1006,7 +978,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 25,
+              "position": 24,
               "id": "01kchd9839msv2vt5ymys66kv4",
               "title": "Why I am not a Modern Stoic",
               "author": "Jared Henderson from Commonplace Philosophy",
@@ -1031,7 +1003,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 26,
+              "position": 25,
               "id": "01ke8078ppphvc7nr28ecay5nf",
               "title": "Let a thousand societies bloom",
               "author": "eth.limo",
@@ -1057,7 +1029,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 27,
+              "position": 26,
               "id": "01khr5h2d75yj0yt1v6seck4nt",
               "title": "On the compulsion to make art",
               "author": "Henrik Karlsson",
@@ -1087,7 +1059,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 28,
+              "position": 27,
               "id": "01kkejgakdb8n1a7k1bketbfm5",
               "title": "📗 REVIEW: Rise & Reign of Mammals by Steve Brusatte",
               "author": "Eleanor Konik",
@@ -1113,7 +1085,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 29,
+              "position": 28,
               "id": "01kmbp17grppjmpxqfsq4z3zy7",
               "title": "Sucker",
               "author": "McKay Coppins",
@@ -1143,7 +1115,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 30,
+              "position": 29,
               "id": "01kmmsmygjapx4f6gb2bhxds2j",
               "title": "We Haven’t Seen the Worst of What Gambling Will Do to American Sports and Politics",
               "author": "Derek Thompson",
@@ -1171,7 +1143,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 31,
+              "position": 30,
               "id": "01knpkrv3w8wsbhpd6qs67fkd1",
               "title": "📗 On Building a Vocabulary for Discussing Network Effects",
               "author": "Eleanor Konik",
@@ -1197,7 +1169,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 32,
+              "position": 31,
               "id": "01kqqh8gp2nh0d0c859h61yths",
               "title": "The Society of the Spectacle",
               "author": "Guy Debord",
@@ -1227,7 +1199,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 33,
+              "position": 32,
               "id": "01kqqh8j20ty05q1atmpm9gscn",
               "title": "Liberalism, Ultraleftism, or Mass Action?",
               "author": "Peter Camejo",
@@ -1253,7 +1225,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 34,
+              "position": 33,
               "id": "01kqqh8nz7876rgha8kpnx0k54",
               "title": "The Coup in Chile",
               "author": "Ralph Miliband",
@@ -1279,7 +1251,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 35,
+              "position": 34,
               "id": "01kqwezb39fwf93qzkzhny5gm5",
               "title": "THE USEFULNESS OF USELESS KNOWLEDGE",
               "author": "Abraham Flexner",
@@ -1305,7 +1277,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 36,
+              "position": 35,
               "id": "01kr190hdc36xn9y5edjsm74fx",
               "title": "📚 Neat Stuff I Read in April 2026",
               "author": "Eleanor Konik",
@@ -1331,7 +1303,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 37,
+              "position": 36,
               "id": "01krmzw6cw28m1y55ds9qrsxjf",
               "title": "Cities and Ambition",
               "author": "paulgraham.com",
@@ -1358,7 +1330,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 38,
+              "position": 37,
               "id": "01krpd5465ts11g8szys682dfj",
               "title": "Shame them, shun them, ban them, beat them!",
               "author": "Adam Mastroianni",
@@ -1384,7 +1356,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 39,
+              "position": 38,
               "id": "01krt94dn0eh8859xw7s0t2vgm",
               "title": "The Simulation Has Collapsed",
               "author": "Mike Brock",
@@ -1410,7 +1382,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 40,
+              "position": 39,
               "id": "01kvhbzvsdz71gdn2329t023sp",
               "title": "So, what is morality?",
               "author": "Lionel Page from Optimally Irrational",
@@ -1436,7 +1408,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 41,
+              "position": 40,
               "id": "01kwm2c48x698f162vev3xqyy2",
               "title": "The Knowledge Machine: How Irrationality Created Modern Science",
               "author": "R.W. Richey from We Are Not Saved",
@@ -1462,7 +1434,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 42,
+              "position": 41,
               "id": "01kxr18pz677fa7xqfav7sp2dp",
               "title": "Capitalism: A Ghost Story",
               "author": "dawn.com",
@@ -1489,7 +1461,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 43,
+              "position": 42,
               "id": "01ky6y0z3wkzmdhty7gq3qa1wz",
               "title": "So, what is morality?",
               "author": "optimallyirrational.com",
@@ -1516,7 +1488,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 44,
+              "position": 43,
               "id": "01kyab47vf7vat0n76fpwrgrj6",
               "title": "Your Book Review: Breakdown In Pakistan",
               "author": "Astral Codex Ten",
@@ -1543,7 +1515,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 45,
+              "position": 44,
               "id": "01kysnkmqq07z6nwe6wtvhtkxy",
               "title": "Data en de Democratische Rechtsorde",
               "author": "berthub.eu",
@@ -1572,7 +1544,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 46,
+              "position": 45,
               "id": "01kysnmbwt86e2fk3axtde57h4",
               "title": "Keynote opening Digital Commons EDIC: Moving beyond the Digital Uncommons",
               "author": "berthub.eu",
@@ -1598,7 +1570,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 47,
+              "position": 46,
               "id": "01kyxa2yd57szp13ha57708606",
               "title": "Your Book Review: The Epic Of Gilgamesh",
               "author": "Astral Codex Ten",
@@ -1628,7 +1600,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 48,
+              "position": 47,
               "id": "01m059szgmq8b5egbkgk1xe1rd",
               "title": "Arthur Koestler",
               "author": "orwellfoundation.com",
@@ -1658,7 +1630,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 49,
+              "position": 48,
               "id": "01m059tvvs5m2bk6b68kyd7bay",
               "title": "Notes on Nationalism",
               "author": "orwellfoundation.com",
@@ -1683,7 +1655,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 50,
+              "position": 49,
               "id": "01m059v21gaqg3ya0m36r03km4",
               "title": "Politics and the English Language",
               "author": "orwellfoundation.com",
@@ -1712,7 +1684,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 51,
+              "position": 50,
               "id": "01m059v4r9jj9vzx30nn7cs3sr",
               "title": "Politics vs. Literature: An examination of Gulliver’s Travels",
               "author": "orwellfoundation.com",
@@ -1741,7 +1713,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 52,
+              "position": 51,
               "id": "01m059vbg9k6x4z8p6198n481b",
               "title": "Second Thoughts on James Burnham",
               "author": "orwellfoundation.com",
@@ -1766,7 +1738,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 53,
+              "position": 52,
               "id": "01m03b0vhwd52bhh3rdjhdafv2",
               "title": "Why I Write",
               "author": "The Orwell Foundation",
@@ -1794,7 +1766,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 54,
+              "position": 53,
               "id": "01m0f295dxr46cfakg2cev3c1d",
               "title": "The Scientist Who Lived with Dozens of Children from the Pacific Islands | The New Yorker",
               "author": "newyorker.com",
@@ -1821,7 +1793,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 55,
+              "position": 54,
               "id": "01m0f5thx0x9f1rpdvj5r64m3m",
               "title": "Meditations On Moloch",
               "author": "slatestarcodexabridged.com",
@@ -1847,7 +1819,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 56,
+              "position": 55,
               "id": "01m0f7mwvh8ay32g66bb7rfsaj",
               "title": "Who Was Friedrich Nietzsche? His Life And Works",
               "author": "themicrophilosopher.com",
@@ -1872,7 +1844,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 57,
+              "position": 56,
               "id": "01m0v38d002hs35994nqn3b993",
               "title": "Re: Re: Re: Pritchard On Liberal Happiness",
               "author": "Astral Codex Ten",
@@ -1897,7 +1869,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 58,
+              "position": 57,
               "id": "01m0yytgcbktcptzp46cf14p2x",
               "title": "The Agile Coach Role Decoded: What Agile Coaches Deliver Versus What Team Members Experience - Koumaditis - 2026 - Journal of Software: Evolution and Process - Wiley Online Library",
               "author": "onlinelibrary.wiley.com",
@@ -1926,7 +1898,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 59,
+              "position": 58,
               "id": "01m0yzc8acebxvxektbepqg0kc",
               "title": "Strengthening Large-Scale Agile Teams: The Interplay of High-Quality Relationships, Psychological Safety, and Learning From Failures",
               "author": "doi.org",
@@ -1956,7 +1928,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 60,
+              "position": 59,
               "id": "01m161vztc9cvdz681k9e0xy49",
               "title": "The radical reasons why you dream of making things by hand | Aeon Essays",
               "author": "aeon.co",
@@ -1982,7 +1954,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 61,
+              "position": 60,
               "id": "01j60f108dfd1k8q12ah4cmp16",
               "title": "Hunting",
               "author": "Eleanor Konik",
@@ -2010,7 +1982,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 62,
+              "position": 61,
               "id": "01j8s9z9xg4shgce5z167zc7fn",
               "title": "📰 Food as Currency - by Eleanor Konik - Manuscriptions\n📰 Food as Currency",
               "author": "Eleanor Konik",
@@ -2038,7 +2010,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 63,
+              "position": 62,
               "id": "01jjmt3derk62gvm51m286870b",
               "title": "🎓 On Famines: why and how they happen. To who?",
               "author": "Eleanor Konik",
@@ -2066,7 +2038,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 64,
+              "position": 63,
               "id": "01jjxdnzz04ees7fytca2rnntw",
               "title": "🎓 Maritime Empires",
               "author": "Eleanor Konik",
@@ -2093,7 +2065,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 65,
+              "position": 64,
               "id": "01k1mhw46shwzk87214g7gtc9w",
               "title": "Het begin van een oplossing",
               "author": "Kees Verhoeven",
@@ -2124,7 +2096,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 66,
+              "position": 65,
               "id": "01k2p3a6277wff8a1nvfes1ek4",
               "title": "How to Be a Good Intelligence Analyst - by Santi Ruiz",
               "author": "Santi Ruiz",
@@ -2150,7 +2122,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 67,
+              "position": 66,
               "id": "01k3wpn5ak9v4pmtc85h462cav",
               "title": "On the pleasure of reading private notebooks",
               "author": "Henrik Karlsson",
@@ -2180,7 +2152,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 68,
+              "position": 67,
               "id": "01k72qx64tdvkryenrbd5g81px",
               "title": "The Dire State of Contemporary Western Philosophy",
               "author": "Nathan Ormond",
@@ -2208,7 +2180,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 69,
+              "position": 68,
               "id": "01k7j6j6mdje8x3v1jt8hqaba4",
               "title": "The Mimetic Trap",
               "author": "The One Percent Rule",
@@ -2236,7 +2208,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 70,
+              "position": 69,
               "id": "01k7qbgbanjkbvetnkfd47vkrz",
               "title": "How I wrote \"Looking for Alice\"",
               "author": "Henrik Karlsson",
@@ -2266,7 +2238,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 71,
+              "position": 70,
               "id": "01k7qbgpmxd9gskhw16jx5b8yk",
               "title": "Popular education in Sweden: much more than you wanted to know",
               "author": "Henrik Karlsson",
@@ -2294,7 +2266,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 72,
+              "position": 71,
               "id": "01k7xjhe96qxhs9bkr4qahjk09",
               "title": "How to Become as Well-Read as John Adams: 8 Tips From his Reading Life",
               "author": "Samuel",
@@ -2322,7 +2294,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 73,
+              "position": 72,
               "id": "01k8v9cz0ah2x4qddn265e4cnt",
               "title": "Everything Is Television",
               "author": "Derek Thompson",
@@ -2352,7 +2324,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 74,
+              "position": 73,
               "id": "01kcb7n6kftwmca7m6dgprpkwf",
               "title": "Anarchism, explained",
               "author": "Andrew Lee",
@@ -2379,7 +2351,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 75,
+              "position": 74,
               "id": "01kd1c7k90p8p5bknmbm09abwv",
               "title": "The World in Which We Live - Nassim Nicholas Taleb",
               "author": "Substack",
@@ -2407,7 +2379,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 76,
+              "position": 75,
               "id": "01kdnzthe611p0c38ts9j702s2",
               "title": "De verleiding van de kettingzaag",
               "author": "NRC Handelsblad",
@@ -2438,7 +2410,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 77,
+              "position": 76,
               "id": "01kkh2jn3p93nsh9nvbpe1w0vk",
               "title": "Rugged Spirituality",
               "author": "Andrew Taggart",
@@ -2466,7 +2438,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 78,
+              "position": 77,
               "id": "01km0ha2tggzmd2y5yjpqbycj5",
               "title": "🎓 On Geldings and the 'Natural' Social Order of Horses",
               "author": "Eleanor Konik",
@@ -2494,7 +2466,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 79,
+              "position": 78,
               "id": "01kmfmvdnqhec7daqp6x47pr85",
               "title": "On the proper use of arguments",
               "author": "Massimo Pigliucci at Figs in Winter",
@@ -2521,7 +2493,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 80,
+              "position": 79,
               "id": "01kmr5kh5wjyr899wkg9skt4f7",
               "title": "Simone Weil Explains the Manosphere",
               "author": "Joe from Unsolicited Advice",
@@ -2550,7 +2522,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 81,
+              "position": 80,
               "id": "01kmwmt7f9jtm6j0gb6pnda9zk",
               "title": "Philosophy of Science",
               "author": "Joseph Rahi",
@@ -2578,7 +2550,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 82,
+              "position": 81,
               "id": "01kqsnmx2rdcaktjvwsjmmq2cn",
               "title": "The games we want to be playing",
               "author": "Jared Henderson from Commonplace Philosophy",
@@ -2606,7 +2578,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 83,
+              "position": 82,
               "id": "01kqwf46h1tackak8werthsvy5",
               "title": "Henrik Karlsson: The Writing Process Nobody Teaches You",
               "author": "David Perell",
@@ -2635,7 +2607,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 84,
+              "position": 83,
               "id": "01krkbe7701j87vmw7wrs54h8m",
               "title": "They Are Putting A Black Hole Inside Your Head",
               "author": "Paul Musso",
@@ -2663,7 +2635,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 85,
+              "position": 84,
               "id": "01krn1jdcn6b450yv1z0j92tz3",
               "title": "The Radical Sunzi",
               "author": "scholars-stage.org",
@@ -2692,7 +2664,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 86,
+              "position": 85,
               "id": "01kt72hwt9asrzwwx70ybxyabe",
               "title": "How Love Became Just Another Thing to Optimize",
               "author": "Philosophize This! from Philosophize This!",
@@ -2720,7 +2692,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 87,
+              "position": 86,
               "id": "01kvarejkjdc6y2cjp2d0ewgkd",
               "title": "The Desecration of Man - Say No to Nietzsche",
               "author": "R.W. Richey from We Are Not Saved",
@@ -2750,7 +2722,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 88,
+              "position": 87,
               "id": "01kvcgsfekyqqc5b9t3nmrge8m",
               "title": "Hoera, het is Waterloodag!",
               "author": "De Ongelooflijke",
@@ -2787,7 +2759,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 89,
+              "position": 88,
               "id": "01kvh7ec1tezr2vy9bqgsm6an4",
               "title": "Is There a Science of Writing?",
               "author": "Carl Hendrick from The Learning Dispatch",
@@ -2817,7 +2789,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 90,
+              "position": 89,
               "id": "01kvjbgrqsftb77gs496c0p12t",
               "title": "If the First Apocalypse Doesn’t Get You, the Second One Will",
               "author": "Miller’s Book Review 📚",
@@ -2847,7 +2819,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 91,
+              "position": 90,
               "id": "01kvtqy4rffwdb1t73t37netda",
               "title": "Antwoorden op vragen die niet gesteld worden",
               "author": "Kauthar",
@@ -2875,7 +2847,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 92,
+              "position": 91,
               "id": "01kvwwdq8bhy9m3x614gmtn41d",
               "title": "Andrew Stanton: Storytelling Secrets from the Writer of Toy Story 5",
               "author": "David Perell",
@@ -2904,7 +2876,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 93,
+              "position": 92,
               "id": "01kwfk5q2rtfm9enggaybd07zq",
               "title": "David Sedaris: Lessons From Decades of Writing",
               "author": "David Perell",
@@ -2933,7 +2905,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 94,
+              "position": 93,
               "id": "01kx66q5d0pg8whe75n7qr82td",
               "title": "Count Binface and the Politics of Ridicule",
               "author": "Brian Klaas",
@@ -2964,7 +2936,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 95,
+              "position": 94,
               "id": "01kxdxaytaf6tm6ntqnc9vdw18",
               "title": "Apophenia and Manufactured Desire",
               "author": "Jared Henderson from Commonplace Philosophy",
@@ -2991,7 +2963,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 96,
+              "position": 95,
               "id": "01kxpg8mpkegghvbz5w71ne86v",
               "title": "Against \"Stochastic Terrorism\"",
               "author": "Astral Codex Ten",
@@ -3018,7 +2990,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 97,
+              "position": 96,
               "id": "01kxy1qnae4npandc4x9mv4aw0",
               "title": "To Understand Elon Musk, You Have to Understand This ’60s Sci-Fi Novel",
               "author": "jacobin.com",
@@ -3049,7 +3021,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 98,
+              "position": 97,
               "id": "01kxzghzvbjtnr20f8vwmwc8s5",
               "title": "Letters of Last Resort",
               "author": "Brian Klaas",
@@ -3076,7 +3048,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 99,
+              "position": 98,
               "id": "01ky6y112ahhdfz7zdrw7w1jkc",
               "title": "Fish farts, dead elephants, and total institutions in wildlife conservation",
               "author": "projectcroak.com",
@@ -3105,7 +3077,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 100,
+              "position": 99,
               "id": "01ky7qe9p9qwtpk49bzc4pqqhk",
               "title": "Normal Accidents: Living with High-Risk Technologies",
               "author": "blog.jcx.au",
@@ -3127,6 +3099,33 @@ window.TOP_ARTICLES = {
                 "linked-from-readwise",
                 "sociology & social structures",
                 "technology"
+              ],
+              "alsoIn": [
+                "aaa-short-top-100"
+              ]
+            },
+            {
+              "position": 100,
+              "id": "01ky7y54f3cb0xcxn9nyexpkzw",
+              "title": "When philosophers and the public disagree",
+              "author": "Jared Henderson from Commonplace Philosophy",
+              "siteName": "Substack",
+              "category": "email",
+              "language": "Engels",
+              "readingTime": "8 mins",
+              "readingMinutes": 8,
+              "wordCount": 1927,
+              "publishedDate": "2026-07-23",
+              "savedDate": "2026-07-23T16:50:18.211000+00:00",
+              "imageUrl": null,
+              "sourceUrl": "mailto:reader-forwarded-email/f60e58787c3c831fe35889326b5c6a7c",
+              "readwiseUrl": "https://read.readwise.io/read/01ky7y54f3cb0xcxn9nyexpkzw",
+              "summary": "If you were to walk into a mathematics department and ask them if 2 + 2 =4, you would receive a uniform answer: yes, of course.",
+              "whyRead": "Henderson onderzoekt scherp waarom filosofen zo weinig consensus lijken te hebben, en laat zien dat er wél brede overeenstemming bestaat over argumentkwaliteit — een nuttig kompas voor hoe je zelf filosofische disputen kunt beoordelen.",
+              "bestMoment": "analytisch",
+              "tags": [
+                "philosophy",
+                "research papers & academia"
               ],
               "alsoIn": [
                 "aaa-short-top-100"
@@ -4778,36 +4777,6 @@ window.TOP_ARTICLES = {
           "items": [
             {
               "position": 1,
-              "id": "01hzvrj5se18gb9dy70r9hcq2f",
-              "title": "🌲 When computers are less efficient than analog methods",
-              "author": "Eleanor Konik",
-              "siteName": "Obsidian Iceberg",
-              "category": "article",
-              "language": "Engels",
-              "readingTime": "7 mins",
-              "readingMinutes": 7,
-              "wordCount": 1754,
-              "publishedDate": null,
-              "savedDate": "2024-06-08T11:08:27.823000+00:00",
-              "imageUrl": "https://substackcdn.com/image/fetch/w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F148b9806-e16e-4471-af99-3e72c20af244_1344x896.png",
-              "sourceUrl": "https://www.eleanorkonik.com/p/when-computers-are-less-efficient?utm_source=post-email-title&publication_id=1974188&post_id=145140035&utm_campaign=email-post-title&isFreemail=true&r=1r0y5d&triedRedirect=true&utm_medium=email",
-              "readwiseUrl": "https://read.readwise.io/read/01hzvrj5se18gb9dy70r9hcq2f",
-              "summary": "Analog notetaking methods, like bullet journals and paper trackers, can be more effective and less distracting than using computers, especially in certain situations like meetings and personal organization. While digital tools offer many benefits, analog methods can provide a focused, efficient way to manage tasks and track important information without the distractions of technology. Embracing analog approaches, such as writing on paper, can be practical, mindful, and even beneficial for mental well-being in a world filled with digital distractions.",
-              "whyRead": "Raakt je interesse in PKM en kennisbeheer — een nuchtere, eerlijke verdediging van analoge methoden (bullet journals) zonder evangelisme, vanuit echte use cases.",
-              "bestMoment": "ontspannen",
-              "tags": [
-                "learning & meta-learning",
-                "personal growth & life philosophy",
-                "pkm & note-taking"
-              ],
-              "alsoIn": [
-                "aaa-top-10",
-                "aaa-top-100",
-                "aaa-short-top-100"
-              ]
-            },
-            {
-              "position": 2,
               "id": "01j5b8c9ze5tvy3xr8axp67j8v",
               "title": "🌲 Prompt engineering gave me empathy for my bosses",
               "author": "Eleanor Konik",
@@ -4837,7 +4806,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 3,
+              "position": 2,
               "id": "01k7j6h8fj3ck0twxcq6abjm9v",
               "title": "4 Books to Self-Study Political Philosophy (as a Beginner)",
               "author": "Sam Rinko",
@@ -4867,7 +4836,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 4,
+              "position": 3,
               "id": "01k7pn06k2e9msrrk7d0c39bn6",
               "title": "Why & how I take reading notes by hand",
               "author": "Sam Rinko",
@@ -4897,7 +4866,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 5,
+              "position": 4,
               "id": "01k7pn0gythp69p15376f659gx",
               "title": "Interdisciplinary Deep Reads: Using 1 Classic Novel to Self-Study Multiple Humanities",
               "author": "Sam Rinko",
@@ -4927,7 +4896,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 6,
+              "position": 5,
               "id": "01kadvkbmp8yd44q125hyw9nrz",
               "title": "The paradox is that when I accept myself just as I am, I change",
               "author": "Henrik Karlsson",
@@ -4957,7 +4926,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 7,
+              "position": 6,
               "id": "01kbfj8h0ds5fz6sa9b7vdeh3n",
               "title": "Just and loving seeing",
               "author": "Henrik Karlsson",
@@ -4986,7 +4955,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 8,
+              "position": 7,
               "id": "01kdanxpg3e3pp8stwtmfr7p79",
               "title": "Taking your education into your own hands",
               "author": "Jared Henderson",
@@ -5016,7 +4985,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 9,
+              "position": 8,
               "id": "01kf0p1x4zzc3hqf55wqyngafr",
               "title": "On the preparations before writing an essay",
               "author": "Henrik Karlsson",
@@ -5049,7 +5018,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 10,
+              "position": 9,
               "id": "01khxyazzfph3etb69en1bhzgw",
               "title": "Stop Meeting Students Where They Are",
               "author": "Walt Hunter",
@@ -5077,6 +5046,36 @@ window.TOP_ARTICLES = {
                 "aaa-top-100",
                 "aaa-short-top-100"
               ]
+            },
+            {
+              "position": 10,
+              "id": "01kmdth41cmczffw0kk28vchct",
+              "title": "Differently free",
+              "author": "Henrik Karlsson",
+              "siteName": "Substack",
+              "category": "email",
+              "language": "Engels",
+              "readingTime": "6 mins",
+              "readingMinutes": 6,
+              "wordCount": 1587,
+              "publishedDate": "2026-03-23",
+              "savedDate": "2026-03-23T17:05:25.036000+00:00",
+              "imageUrl": null,
+              "sourceUrl": "mailto:reader-forwarded-email/d08c4e67be09d86a00a6922d55992dc2",
+              "readwiseUrl": "https://read.readwise.io/read/01kmdth41cmczffw0kk28vchct",
+              "summary": "Henrik travels from his remote island to Copenhagen to record a podcast with his friend Jackson, whose different kind of freedom helps him see new possibilities.  \nHe talks about his grandfather Nils, a quiet, selfless man who spent his life caring for others and shaped Henrik’s atheism and values.  \nHenrik believes each person has a unique contribution to make, and that we should use our lives to increase complexity, connection, and goodness in the universe.",
+              "whyRead": "Raakt je interesse in filosofie en essayistisch schrijven — Karlssons reflectie op 'differently free' mensen (Venkatesh Rao) is een elegant idee dat raakt aan vrijheid, blinde vlekken en de waarde van intellectuele gemeenschap.",
+              "bestMoment": "reflectief",
+              "tags": [
+                "personal growth & life philosophy",
+                "philosophy",
+                "political philosophy"
+              ],
+              "alsoIn": [
+                "aaa-top-10",
+                "aaa-top-100",
+                "aaa-short-top-100"
+              ]
             }
           ]
         },
@@ -5085,36 +5084,6 @@ window.TOP_ARTICLES = {
           "items": [
             {
               "position": 1,
-              "id": "01hzvrj5se18gb9dy70r9hcq2f",
-              "title": "🌲 When computers are less efficient than analog methods",
-              "author": "Eleanor Konik",
-              "siteName": "Obsidian Iceberg",
-              "category": "article",
-              "language": "Engels",
-              "readingTime": "7 mins",
-              "readingMinutes": 7,
-              "wordCount": 1754,
-              "publishedDate": null,
-              "savedDate": "2024-06-08T11:08:27.823000+00:00",
-              "imageUrl": "https://substackcdn.com/image/fetch/w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F148b9806-e16e-4471-af99-3e72c20af244_1344x896.png",
-              "sourceUrl": "https://www.eleanorkonik.com/p/when-computers-are-less-efficient?utm_source=post-email-title&publication_id=1974188&post_id=145140035&utm_campaign=email-post-title&isFreemail=true&r=1r0y5d&triedRedirect=true&utm_medium=email",
-              "readwiseUrl": "https://read.readwise.io/read/01hzvrj5se18gb9dy70r9hcq2f",
-              "summary": "Analog notetaking methods, like bullet journals and paper trackers, can be more effective and less distracting than using computers, especially in certain situations like meetings and personal organization. While digital tools offer many benefits, analog methods can provide a focused, efficient way to manage tasks and track important information without the distractions of technology. Embracing analog approaches, such as writing on paper, can be practical, mindful, and even beneficial for mental well-being in a world filled with digital distractions.",
-              "whyRead": "Raakt je interesse in PKM en kennisbeheer — een nuchtere, eerlijke verdediging van analoge methoden (bullet journals) zonder evangelisme, vanuit echte use cases.",
-              "bestMoment": "ontspannen",
-              "tags": [
-                "learning & meta-learning",
-                "personal growth & life philosophy",
-                "pkm & note-taking"
-              ],
-              "alsoIn": [
-                "aaa-top-10",
-                "aaa-top-100",
-                "aaa-short-top-10"
-              ]
-            },
-            {
-              "position": 2,
               "id": "01j5b8c9ze5tvy3xr8axp67j8v",
               "title": "🌲 Prompt engineering gave me empathy for my bosses",
               "author": "Eleanor Konik",
@@ -5144,7 +5113,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 3,
+              "position": 2,
               "id": "01k7j6h8fj3ck0twxcq6abjm9v",
               "title": "4 Books to Self-Study Political Philosophy (as a Beginner)",
               "author": "Sam Rinko",
@@ -5174,7 +5143,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 4,
+              "position": 3,
               "id": "01k7pn06k2e9msrrk7d0c39bn6",
               "title": "Why & how I take reading notes by hand",
               "author": "Sam Rinko",
@@ -5204,7 +5173,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 5,
+              "position": 4,
               "id": "01k7pn0gythp69p15376f659gx",
               "title": "Interdisciplinary Deep Reads: Using 1 Classic Novel to Self-Study Multiple Humanities",
               "author": "Sam Rinko",
@@ -5234,7 +5203,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 6,
+              "position": 5,
               "id": "01kadvkbmp8yd44q125hyw9nrz",
               "title": "The paradox is that when I accept myself just as I am, I change",
               "author": "Henrik Karlsson",
@@ -5264,7 +5233,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 7,
+              "position": 6,
               "id": "01kbfj8h0ds5fz6sa9b7vdeh3n",
               "title": "Just and loving seeing",
               "author": "Henrik Karlsson",
@@ -5293,7 +5262,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 8,
+              "position": 7,
               "id": "01kdanxpg3e3pp8stwtmfr7p79",
               "title": "Taking your education into your own hands",
               "author": "Jared Henderson",
@@ -5323,7 +5292,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 9,
+              "position": 8,
               "id": "01kf0p1x4zzc3hqf55wqyngafr",
               "title": "On the preparations before writing an essay",
               "author": "Henrik Karlsson",
@@ -5356,7 +5325,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 10,
+              "position": 9,
               "id": "01khxyazzfph3etb69en1bhzgw",
               "title": "Stop Meeting Students Where They Are",
               "author": "Walt Hunter",
@@ -5386,7 +5355,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 11,
+              "position": 10,
               "id": "01kmdth41cmczffw0kk28vchct",
               "title": "Differently free",
               "author": "Henrik Karlsson",
@@ -5410,11 +5379,13 @@ window.TOP_ARTICLES = {
                 "political philosophy"
               ],
               "alsoIn": [
-                "aaa-top-100"
+                "aaa-top-10",
+                "aaa-top-100",
+                "aaa-short-top-10"
               ]
             },
             {
-              "position": 12,
+              "position": 11,
               "id": "01krm2x81z150qk5a5y9mezss5",
               "title": "How to Prioritize Your Intellectual Life",
               "author": "andrewbharker.substack.com",
@@ -5442,7 +5413,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 13,
+              "position": 12,
               "id": "01ks96dy2nfby7cyd152ev2a9k",
               "title": "Bureaucracy Isn't Broken. That's the Problem.",
               "author": "Sven Brodmerkel | Off-Script At Work",
@@ -5470,7 +5441,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 14,
+              "position": 13,
               "id": "01kst1g8cff3ab77qteg0q834j",
               "title": "‘Metrics create hermeneutical injustice'",
               "author": "Jared Henderson from Commonplace Philosophy",
@@ -5498,7 +5469,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 15,
+              "position": 14,
               "id": "01kysnmckrgernh72bvvz2eprz",
               "title": "Minister van Digitale Zaken: hoe het kan werken",
               "author": "berthub.eu",
@@ -5530,7 +5501,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 16,
+              "position": 15,
               "id": "01m0k3hr0fm2zdqmg55xb8dnb0",
               "title": "If AI Can Replace Your Scrummaster, You Never Had a Scrummaster",
               "author": "Erwin Verweij",
@@ -5558,7 +5529,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 17,
+              "position": 16,
               "id": "01m0yzc4t547m4zm0yvgrk39xb",
               "title": "The Future of Agile Coaches: Do Large Companies Need a Standardized Agile Coach Certification and What Are the Alternatives?",
               "author": "doi.org",
@@ -5589,7 +5560,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 18,
+              "position": 17,
               "id": "01j60f108dfd1k8q12ah4cmp16",
               "title": "Hunting",
               "author": "Eleanor Konik",
@@ -5617,7 +5588,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 19,
+              "position": 18,
               "id": "01j8s9z9xg4shgce5z167zc7fn",
               "title": "📰 Food as Currency - by Eleanor Konik - Manuscriptions\n📰 Food as Currency",
               "author": "Eleanor Konik",
@@ -5645,7 +5616,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 20,
+              "position": 19,
               "id": "01jjmt3derk62gvm51m286870b",
               "title": "🎓 On Famines: why and how they happen. To who?",
               "author": "Eleanor Konik",
@@ -5673,7 +5644,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 21,
+              "position": 20,
               "id": "01jjxdnzz04ees7fytca2rnntw",
               "title": "🎓 Maritime Empires",
               "author": "Eleanor Konik",
@@ -5700,7 +5671,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 22,
+              "position": 21,
               "id": "01k1mhw46shwzk87214g7gtc9w",
               "title": "Het begin van een oplossing",
               "author": "Kees Verhoeven",
@@ -5731,7 +5702,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 23,
+              "position": 22,
               "id": "01k3wpn5ak9v4pmtc85h462cav",
               "title": "On the pleasure of reading private notebooks",
               "author": "Henrik Karlsson",
@@ -5761,7 +5732,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 24,
+              "position": 23,
               "id": "01k72qx64tdvkryenrbd5g81px",
               "title": "The Dire State of Contemporary Western Philosophy",
               "author": "Nathan Ormond",
@@ -5789,7 +5760,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 25,
+              "position": 24,
               "id": "01k7j6j6mdje8x3v1jt8hqaba4",
               "title": "The Mimetic Trap",
               "author": "The One Percent Rule",
@@ -5817,7 +5788,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 26,
+              "position": 25,
               "id": "01k7qbgbanjkbvetnkfd47vkrz",
               "title": "How I wrote \"Looking for Alice\"",
               "author": "Henrik Karlsson",
@@ -5847,7 +5818,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 27,
+              "position": 26,
               "id": "01k7qbgpmxd9gskhw16jx5b8yk",
               "title": "Popular education in Sweden: much more than you wanted to know",
               "author": "Henrik Karlsson",
@@ -5875,7 +5846,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 28,
+              "position": 27,
               "id": "01k7xjhe96qxhs9bkr4qahjk09",
               "title": "How to Become as Well-Read as John Adams: 8 Tips From his Reading Life",
               "author": "Samuel",
@@ -5903,7 +5874,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 29,
+              "position": 28,
               "id": "01k8v9cz0ah2x4qddn265e4cnt",
               "title": "Everything Is Television",
               "author": "Derek Thompson",
@@ -5933,7 +5904,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 30,
+              "position": 29,
               "id": "01kcb7n6kftwmca7m6dgprpkwf",
               "title": "Anarchism, explained",
               "author": "Andrew Lee",
@@ -5960,7 +5931,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 31,
+              "position": 30,
               "id": "01kd1c7k90p8p5bknmbm09abwv",
               "title": "The World in Which We Live - Nassim Nicholas Taleb",
               "author": "Substack",
@@ -5988,7 +5959,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 32,
+              "position": 31,
               "id": "01kdnzthe611p0c38ts9j702s2",
               "title": "De verleiding van de kettingzaag",
               "author": "NRC Handelsblad",
@@ -6019,7 +5990,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 33,
+              "position": 32,
               "id": "01kkh2jn3p93nsh9nvbpe1w0vk",
               "title": "Rugged Spirituality",
               "author": "Andrew Taggart",
@@ -6047,7 +6018,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 34,
+              "position": 33,
               "id": "01km0ha2tggzmd2y5yjpqbycj5",
               "title": "🎓 On Geldings and the 'Natural' Social Order of Horses",
               "author": "Eleanor Konik",
@@ -6075,7 +6046,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 35,
+              "position": 34,
               "id": "01kmfmvdnqhec7daqp6x47pr85",
               "title": "On the proper use of arguments",
               "author": "Massimo Pigliucci at Figs in Winter",
@@ -6102,7 +6073,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 36,
+              "position": 35,
               "id": "01kmr5kh5wjyr899wkg9skt4f7",
               "title": "Simone Weil Explains the Manosphere",
               "author": "Joe from Unsolicited Advice",
@@ -6131,7 +6102,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 37,
+              "position": 36,
               "id": "01kmwmt7f9jtm6j0gb6pnda9zk",
               "title": "Philosophy of Science",
               "author": "Joseph Rahi",
@@ -6159,7 +6130,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 38,
+              "position": 37,
               "id": "01kqsnmx2rdcaktjvwsjmmq2cn",
               "title": "The games we want to be playing",
               "author": "Jared Henderson from Commonplace Philosophy",
@@ -6187,7 +6158,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 39,
+              "position": 38,
               "id": "01krkbe7701j87vmw7wrs54h8m",
               "title": "They Are Putting A Black Hole Inside Your Head",
               "author": "Paul Musso",
@@ -6215,7 +6186,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 40,
+              "position": 39,
               "id": "01krn1jdcn6b450yv1z0j92tz3",
               "title": "The Radical Sunzi",
               "author": "scholars-stage.org",
@@ -6244,7 +6215,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 41,
+              "position": 40,
               "id": "01kt72hwt9asrzwwx70ybxyabe",
               "title": "How Love Became Just Another Thing to Optimize",
               "author": "Philosophize This! from Philosophize This!",
@@ -6272,7 +6243,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 42,
+              "position": 41,
               "id": "01kvarejkjdc6y2cjp2d0ewgkd",
               "title": "The Desecration of Man - Say No to Nietzsche",
               "author": "R.W. Richey from We Are Not Saved",
@@ -6302,7 +6273,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 43,
+              "position": 42,
               "id": "01kvcgsfekyqqc5b9t3nmrge8m",
               "title": "Hoera, het is Waterloodag!",
               "author": "De Ongelooflijke",
@@ -6339,7 +6310,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 44,
+              "position": 43,
               "id": "01kvh7ec1tezr2vy9bqgsm6an4",
               "title": "Is There a Science of Writing?",
               "author": "Carl Hendrick from The Learning Dispatch",
@@ -6369,7 +6340,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 45,
+              "position": 44,
               "id": "01kvjbgrqsftb77gs496c0p12t",
               "title": "If the First Apocalypse Doesn’t Get You, the Second One Will",
               "author": "Miller’s Book Review 📚",
@@ -6399,7 +6370,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 46,
+              "position": 45,
               "id": "01kvtqy4rffwdb1t73t37netda",
               "title": "Antwoorden op vragen die niet gesteld worden",
               "author": "Kauthar",
@@ -6427,7 +6398,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 47,
+              "position": 46,
               "id": "01kx66q5d0pg8whe75n7qr82td",
               "title": "Count Binface and the Politics of Ridicule",
               "author": "Brian Klaas",
@@ -6458,7 +6429,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 48,
+              "position": 47,
               "id": "01kxdxaytaf6tm6ntqnc9vdw18",
               "title": "Apophenia and Manufactured Desire",
               "author": "Jared Henderson from Commonplace Philosophy",
@@ -6485,7 +6456,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 49,
+              "position": 48,
               "id": "01kxpg8mpkegghvbz5w71ne86v",
               "title": "Against \"Stochastic Terrorism\"",
               "author": "Astral Codex Ten",
@@ -6512,7 +6483,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 50,
+              "position": 49,
               "id": "01kxy1qnae4npandc4x9mv4aw0",
               "title": "To Understand Elon Musk, You Have to Understand This ’60s Sci-Fi Novel",
               "author": "jacobin.com",
@@ -6543,7 +6514,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 51,
+              "position": 50,
               "id": "01kxzghzvbjtnr20f8vwmwc8s5",
               "title": "Letters of Last Resort",
               "author": "Brian Klaas",
@@ -6570,7 +6541,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 52,
+              "position": 51,
               "id": "01ky6y112ahhdfz7zdrw7w1jkc",
               "title": "Fish farts, dead elephants, and total institutions in wildlife conservation",
               "author": "projectcroak.com",
@@ -6599,7 +6570,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 53,
+              "position": 52,
               "id": "01ky7qe9p9qwtpk49bzc4pqqhk",
               "title": "Normal Accidents: Living with High-Risk Technologies",
               "author": "blog.jcx.au",
@@ -6627,7 +6598,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 54,
+              "position": 53,
               "id": "01ky7y54f3cb0xcxn9nyexpkzw",
               "title": "When philosophers and the public disagree",
               "author": "Jared Henderson from Commonplace Philosophy",
@@ -6649,10 +6620,12 @@ window.TOP_ARTICLES = {
                 "philosophy",
                 "research papers & academia"
               ],
-              "alsoIn": []
+              "alsoIn": [
+                "aaa-top-100"
+              ]
             },
             {
-              "position": 55,
+              "position": 54,
               "id": "01kycfev2jfr2v5x5pqr2scxz7",
               "title": "How to Win a Billion Dollars and Ruin Your Life",
               "author": "Miller’s Book Review 📚",
@@ -6682,7 +6655,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 56,
+              "position": 55,
               "id": "01kysnj4rgn2xvk4wh8pqj831w",
               "title": "The Disappearing Body",
               "author": "plough.com",
@@ -6708,7 +6681,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 57,
+              "position": 56,
               "id": "01kysnn7synbp4djg1ph3zrhdh",
               "title": "It is no longer safe to move our governments and societies to US clouds",
               "author": "berthub.eu",
@@ -6734,7 +6707,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 58,
+              "position": 57,
               "id": "01kyxvjcj0396b5z5w8bcz634q",
               "title": "De atheïst die de bekendste verdediger van het christendom werd",
               "author": "De Ongelooflijke",
@@ -6765,7 +6738,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 59,
+              "position": 58,
               "id": "01kyz1s71etfwt2wgr2zhqrr4k",
               "title": "Who Was the Last Roman Emperor?",
               "author": "Evan Þ from Papyrus Rampant",
@@ -6790,7 +6763,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 60,
+              "position": 59,
               "id": "01kz0k2hbcfqf2z9fpk12rqtz5",
               "title": "De talenten-tax",
               "author": "Jona van Loenen",
@@ -6815,7 +6788,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 61,
+              "position": 60,
               "id": "01kzakhrdw8m862yfhsmva3z11",
               "title": "Open Questions On Open Weights",
               "author": "Astral Codex Ten",
@@ -6840,7 +6813,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 62,
+              "position": 61,
               "id": "01kzeczgpr5fr1w5znnf4m2b9v",
               "title": "A Lebanese Technology Transfer",
               "author": "Nassim Nicholas Taleb",
@@ -6866,7 +6839,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 63,
+              "position": 62,
               "id": "01kzjk22zxkgrvftgdtdvj01rq",
               "title": "Twintig seconden waar ik me diep voor schaam",
               "author": "Jona van Loenen",
@@ -6897,7 +6870,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 64,
+              "position": 63,
               "id": "01kzp09j3vmc15v2atpvpkbrpe",
               "title": "The Eotechnic Phase",
               "author": "Jared Henderson from Commonplace Philosophy",
@@ -6923,7 +6896,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 65,
+              "position": 64,
               "id": "01kztvesqhd0vhbkmcxqrevkhs",
               "title": "🎓 On the Harem Origin Story of Turkish Coffee Reading",
               "author": "Eleanor Konik",
@@ -6949,7 +6922,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 66,
+              "position": 65,
               "id": "01kzyk5xjcvj2qxd5hm0mbrrp2",
               "title": "How to self-educate with the heart and ferocity of a 19th-century cotton-weaver",
               "author": "Sam @ Knowledge Lust",
@@ -6975,7 +6948,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 67,
+              "position": 66,
               "id": "01m059t4kq0fgjsx21x28nbdqk",
               "title": "Freedom and Happiness (Review of ‘We’ by Yevgeny Zamyatin)",
               "author": "orwellfoundation.com",
@@ -7004,7 +6977,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 68,
+              "position": 67,
               "id": "01m059t7cjgvc214sac3e4z08x",
               "title": "Freedom of the Park",
               "author": "orwellfoundation.com",
@@ -7029,7 +7002,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 69,
+              "position": 68,
               "id": "01m059thh2ytr4v45ebz778hxw",
               "title": "In Front of Your Nose",
               "author": "orwellfoundation.com",
@@ -7054,7 +7027,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 70,
+              "position": 69,
               "id": "01m059tpnqyq5yy3kq6xrmf1v5",
               "title": "My Country Right or Left",
               "author": "orwellfoundation.com",
@@ -7079,7 +7052,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 71,
+              "position": 70,
               "id": "01m059tzwnjdjtmteh5jpa7bxz",
               "title": "Pleasure Spots",
               "author": "orwellfoundation.com",
@@ -7108,7 +7081,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 72,
+              "position": 71,
               "id": "01m059vwxfv3d1n8rterw19d6a",
               "title": "You and the Atom Bomb",
               "author": "orwellfoundation.com",
@@ -7133,7 +7106,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 73,
+              "position": 72,
               "id": "01m0f29337jsph1jwqq3njdbkc",
               "title": "In de bioscoop blijkt dat we eer belangrijker vinden dan je zou denken",
               "author": "nrc.nl",
@@ -7163,7 +7136,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 74,
+              "position": 73,
               "id": "01m0f29ch1s56e1xcc8fjkq8q2",
               "title": "Why We Dislike AI Writing",
               "author": "gilescrouch.substack.com",
@@ -7189,7 +7162,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 75,
+              "position": 74,
               "id": "01m0k3emvr4ceh6rc4xqdeyt3p",
               "title": "Educated Beyond Common Sense",
               "author": "Frederick Alexander",
@@ -7214,7 +7187,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 76,
+              "position": 75,
               "id": "01m0m9hhar6fsa0z8j62knyx2f",
               "title": "Waarom Oost-Duitsland nog steeds een van de meest atheïstische regio’s ter wereld is",
               "author": "De Ongelooflijke",
@@ -7240,7 +7213,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 77,
+              "position": 76,
               "id": "01m0nd3m15a0h3jetaw2q41mzk",
               "title": "Independence Day",
               "author": "papyrusrampant.substack.com",
@@ -7266,7 +7239,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 78,
+              "position": 77,
               "id": "01m0ndx7332c6n3a0z4062eaz9",
               "title": "The First Continental Congress",
               "author": "papyrusrampant.substack.com",
@@ -7292,7 +7265,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 79,
+              "position": 78,
               "id": "01m0ndxc2xxk0btc6vjanhkj2r",
               "title": "Moving for Independence - by Evan Þ - Papyrus Rampant",
               "author": "papyrusrampant.substack.com",
@@ -7318,7 +7291,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 80,
+              "position": 79,
               "id": "01m0ndxd5hh1pa2bvp6k3ejsas",
               "title": "The Spanish-American War",
               "author": "papyrusrampant.substack.com",
@@ -7344,7 +7317,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 81,
+              "position": 80,
               "id": "01m0ndx98tc589pngh3wdq6hwk",
               "title": "The Story of Thanksgiving As a Story",
               "author": "papyrusrampant.substack.com",
@@ -7370,7 +7343,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 82,
+              "position": 81,
               "id": "01m0nepdntgs8xgdcaxbx9wcen",
               "title": "A Lawful Insurrection: The Massachusetts Provincial Congress",
               "author": "papyrusrampant.substack.com",
@@ -7396,7 +7369,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 83,
+              "position": 82,
               "id": "01m0nepfjydw8ftc888q73b4kz",
               "title": "Gaps in History",
               "author": "papyrusrampant.substack.com",
@@ -7422,7 +7395,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 84,
+              "position": 83,
               "id": "01m0nephc1vh66egvjmpcc5vwf",
               "title": "Transitions in History",
               "author": "papyrusrampant.substack.com",
@@ -7448,7 +7421,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 85,
+              "position": 84,
               "id": "01m0nepjcvwwzp4cydwdgdm8kt",
               "title": "Parliament's Missed Chance for Peace",
               "author": "papyrusrampant.substack.com",
@@ -7474,7 +7447,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 86,
+              "position": 85,
               "id": "01m0nepp5vc6tjx2jd1z4cvre6",
               "title": "From Petition to Independence",
               "author": "papyrusrampant.substack.com",
@@ -7500,7 +7473,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 87,
+              "position": 86,
               "id": "01m0nepq34v9hbtcm1z1rcjn1e",
               "title": "The Madness of Yankee Doodle",
               "author": "papyrusrampant.substack.com",
@@ -7529,7 +7502,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 88,
+              "position": 87,
               "id": "01m0nepry7rbgqh62vdcjr37a7",
               "title": "Plays, Pageants, and the Origin of the “First Thanksgiving” Story",
               "author": "smileandgun.wordpress.com",
@@ -7558,7 +7531,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 89,
+              "position": 88,
               "id": "01m0wzs6b6z6rgc49ey22ec31m",
               "title": "How Our Leisure Time Got Monetized",
               "author": "Ted Gioia",
@@ -7586,7 +7559,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 90,
+              "position": 89,
               "id": "01m142c2g5k6nqbh8r69n3gbph",
               "title": "Huurders in dure regio’s krijgen minder vaak kinderen",
               "author": "cbs.nl",
@@ -7613,7 +7586,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 91,
+              "position": 90,
               "id": "01m142c3h2s55gmk6434pbrj5h",
               "title": "‘De groeiende weerstand tegen kennis maakt het werk van adviesraden lastiger’",
               "author": "nrc.nl",
@@ -7640,7 +7613,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 92,
+              "position": 91,
               "id": "01m14nb3gbkc1d5zt0q1rbjpsv",
               "title": "Hoe Martin Luther King ‘I Have a Dream’ improviseerde",
               "author": "De Ongelooflijke",
@@ -7669,7 +7642,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 93,
+              "position": 92,
               "id": "01hy0x9z444qrsk7bb6acc5svn",
               "title": "Reading challenging books with kids is fun and probably useful",
               "author": "Henrik Karlsson",
@@ -7695,7 +7668,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 94,
+              "position": 93,
               "id": "01j2dfz6ypvj2efevyamk72ga3",
               "title": "🌲 Takeaways on efficiency, passive learning, & optimization",
               "author": "Eleanor Konik",
@@ -7721,7 +7694,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 95,
+              "position": 94,
               "id": "01j421m304fbn5rwfh0a9bpzp3",
               "title": "Fear as a Game",
               "author": "Cheri Lucas Rowlands",
@@ -7750,7 +7723,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 96,
+              "position": 95,
               "id": "01j6ft003zzdp1gdw7j9qc1dnr",
               "title": "🌲 The Value of Consistent Naming Conventions\n🌲 The Value of Consistent Naming Conventions",
               "author": "Eleanor Konik",
@@ -7776,7 +7749,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 97,
+              "position": 96,
               "id": "01jkgy1x7yacy66ys284ddq8yw",
               "title": "Why do most popular science books suck?",
               "author": "Erik Hoel",
@@ -7805,7 +7778,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 98,
+              "position": 97,
               "id": "01jkh2vn8hfm2b2ys7eefgrw9h",
               "title": "Advice for a friend who wants to start a blog",
               "author": "Henrik Karlsson",
@@ -7834,7 +7807,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 99,
+              "position": 98,
               "id": "01jkh2w2capy38f589kqkvyt4s",
               "title": "A funny thing about curiosity",
               "author": "Henrik Karlsson",
@@ -7860,7 +7833,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 100,
+              "position": 99,
               "id": "01jkh2yf7hahdnt87t68w0f1f5",
               "title": "On shortcuts and longcuts",
               "author": "Henrik Karlsson",
@@ -7882,6 +7855,32 @@ window.TOP_ARTICLES = {
                 "learning & meta-learning",
                 "personal growth & life philosophy",
                 "writing & essays"
+              ],
+              "alsoIn": []
+            },
+            {
+              "position": 100,
+              "id": "01jzmk1agxw641yh3b3tv2szzv",
+              "title": "Self-Directed Education: What Is It and How Does It Work?",
+              "author": "Peter Gray",
+              "siteName": "substack.com",
+              "category": "article",
+              "language": "Engels",
+              "readingTime": "9 mins",
+              "readingMinutes": 9,
+              "wordCount": 2152,
+              "publishedDate": "2025-07-07",
+              "savedDate": "2025-07-08T08:39:29.999000+00:00",
+              "imageUrl": "https://substackcdn.com/image/fetch/$s_!kx0u!,w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F3eb11939-4096-4703-8d97-490f40254bf4_1920x667.png",
+              "sourceUrl": "https://petergray.substack.com/p/self-directed-education-what-is-it?r=1r0y5d&utm_medium=ios&triedRedirect=true",
+              "readwiseUrl": "https://read.readwise.io/read/01jzmk1agxw641yh3b3tv2szzv",
+              "summary": "Self-Directed Education means learning by choosing your own activities and interests, not by following forced school rules. Children naturally learn best when they explore, play, and connect with others without pressure. This way of learning is growing because it works better and the internet makes it easier to find information and support.",
+              "whyRead": "Zelfgestuurd onderwijs — wat het is en hoe het werkt buiten traditionele structuren.",
+              "bestMoment": "leergierig",
+              "tags": [
+                "internet & platforms",
+                "learning & meta-learning",
+                "parenting & care"
               ],
               "alsoIn": []
             }
@@ -20351,6 +20350,32 @@ window.TOP_ARTICLES = {
     "items": [
       {
         "position": null,
+        "id": "01m16r14xs8h65sm0ybdkqbqx7",
+        "title": "🌲When Themed Logs are More Useful than Daily Notes",
+        "author": "Eleanor Konik",
+        "siteName": "Manuscriptions",
+        "category": "article",
+        "language": null,
+        "readingTime": "12 mins",
+        "readingMinutes": 12,
+        "wordCount": 3054,
+        "publishedDate": null,
+        "savedDate": "2026-08-29T12:31:07.194000+00:00",
+        "imageUrl": "https://substackcdn.com/image/fetch/w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Feb43bd70-399e-4dea-b186-b0b7d289de9b_2000x1335.jpeg",
+        "sourceUrl": "https://www.eleanorkonik.com/p/themed-logs-not-daily-notes",
+        "readwiseUrl": "https://read.readwise.io/read/01m16r14xs8h65sm0ybdkqbqx7",
+        "summary": "I group information by purpose, not chronology. This method allows for more focus, easier retrieval, and less context switching.",
+        "whyRead": "Raakt je interesse in PKM en persoonlijke kennisorganisatie. Konik laat overtuigend zien wanneer thematische logboeken beter werken dan een dagelijkse-notitiegewoonte.",
+        "bestMoment": "leergierig",
+        "tags": [
+          "learning & meta-learning",
+          "personal growth & life philosophy"
+        ],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
         "id": "01m16khr9mh0csxeh4ay9xwjb9",
         "title": "High Agency\nAdults Don't Exist",
         "author": "George Mack",
@@ -20371,6 +20396,85 @@ window.TOP_ARTICLES = {
         "tags": [
           "behavioral psychology & coaching",
           "personal growth & life philosophy"
+        ],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01m16kff05pzythcybfdqrbmhw",
+        "title": "Bookish Diversions: Is Anyone Reading Anything?",
+        "author": "Miller’s Book Review 📚",
+        "siteName": "Substack",
+        "category": "email",
+        "language": null,
+        "readingTime": "5 mins",
+        "readingMinutes": 5,
+        "wordCount": 1229,
+        "publishedDate": "2026-08-29",
+        "savedDate": "2026-08-29T11:11:33.381000+00:00",
+        "imageUrl": null,
+        "sourceUrl": "mailto:reader-forwarded-email/83b16c5292165b7d88ee913b89be71de",
+        "readwiseUrl": "https://read.readwise.io/read/01m16kff05pzythcybfdqrbmhw",
+        "summary": "Nobody reads anymore. We know this, right?",
+        "whyRead": "Raakt je interesse in lezen als culturele praktijk en in essayistische cultuurkritiek. De nieuwsbrief prikt door overdreven literacy-statistieken en formuleert een verdedigbare reden om aandachtig te lezen.",
+        "bestMoment": "ontspannen",
+        "tags": [
+          "arts & culture",
+          "learning & meta-learning",
+          "light-reading"
+        ],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01m16j8y0wqdf804wss6gjpt3p",
+        "title": "The Science of Learning!",
+        "author": "Charles Duhigg",
+        "siteName": null,
+        "category": "email",
+        "language": null,
+        "readingTime": "3 mins",
+        "readingMinutes": 3,
+        "wordCount": 706,
+        "publishedDate": "2026-08-29",
+        "savedDate": "2026-08-29T10:50:30.812000+00:00",
+        "imageUrl": null,
+        "sourceUrl": "mailto:reader-forwarded-email/5efdb746c672e28c7d0ab134b698f49b",
+        "readwiseUrl": "https://read.readwise.io/read/01m16j8y0wqdf804wss6gjpt3p",
+        "summary": "Study methods matter, too: Re-reading your notes helps a little, but 'effortful practice' helps a lot: Find a hard assignment and keep answering imagined questions until you can explain what's going on.",
+        "whyRead": "Raakt je interesse in leren en evidence-informed ontwikkeling. Duhigg vertaalt enkele onderwijsbevindingen naar toegankelijke vragen over wat effectief lesgeven en oefenen ondersteunt.",
+        "bestMoment": "leergierig",
+        "tags": [
+          "learning & meta-learning",
+          "science"
+        ],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01m16hk7381peeaq62zm92ky0a",
+        "title": "Talking Interest Rates with Ricardo Caballero",
+        "author": "Paul Krugman",
+        "siteName": "Substack",
+        "category": "email",
+        "language": null,
+        "readingTime": "23 mins",
+        "readingMinutes": 23,
+        "wordCount": 5914,
+        "publishedDate": "2026-08-29",
+        "savedDate": "2026-08-29T10:38:39.209000+00:00",
+        "imageUrl": null,
+        "sourceUrl": "mailto:reader-forwarded-email/f6d3993a378d1a3c34d3dc11f92a516d",
+        "readwiseUrl": "https://read.readwise.io/read/01m16hk7381peeaq62zm92ky0a",
+        "summary": "I’m spending a lot of time thinking about high interest rates, both for obvious reasons and because I’m reconsidering some of my own long-held views.",
+        "whyRead": "Raakt je interesse in economie en de maatschappelijke effecten van AI. Krugman en Caballero ontleden waarom rentes hoger blijven en hoe veilige activa, overheidsschuld en de AI-investeringsboom elkaar beïnvloeden.",
+        "bestMoment": "analytisch",
+        "tags": [
+          "economics",
+          "technology"
         ],
         "alsoIn": [],
         "memberships": []
@@ -20837,7 +20941,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 60
+            "position": 59
           }
         ]
       },
@@ -21175,7 +21279,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 92
+            "position": 91
           },
           {
             "familyId": "luchtig",
@@ -21312,7 +21416,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 91
+            "position": 90
           }
         ]
       },
@@ -21348,7 +21452,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 90
+            "position": 89
           }
         ]
       },
@@ -22319,7 +22423,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 59
+            "position": 58
           },
           {
             "familyId": "scrum",
@@ -22368,12 +22472,12 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 18
+            "position": 17
           },
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 17
+            "position": 16
           },
           {
             "familyId": "scrum",
@@ -22420,7 +22524,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 58
+            "position": 57
           },
           {
             "familyId": "scrum",
@@ -22572,7 +22676,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 89
+            "position": 88
           },
           {
             "familyId": "luchtig",
@@ -22637,7 +22741,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 57
+            "position": 56
           }
         ]
       },
@@ -23791,7 +23895,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 88
+            "position": 87
           },
           {
             "familyId": "luchtig",
@@ -23860,7 +23964,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 87
+            "position": 86
           },
           {
             "familyId": "luchtig",
@@ -23900,7 +24004,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 86
+            "position": 85
           }
         ]
       },
@@ -24017,7 +24121,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 85
+            "position": 84
           }
         ]
       },
@@ -24052,7 +24156,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 84
+            "position": 83
           }
         ]
       },
@@ -24123,7 +24227,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 83
+            "position": 82
           }
         ]
       },
@@ -24158,7 +24262,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 82
+            "position": 81
           }
         ]
       },
@@ -24193,7 +24297,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 80
+            "position": 79
           }
         ]
       },
@@ -24228,7 +24332,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 79
+            "position": 78
           }
         ]
       },
@@ -24263,7 +24367,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 81
+            "position": 80
           }
         ]
       },
@@ -24325,7 +24429,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 78
+            "position": 77
           }
         ]
       },
@@ -24387,7 +24491,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 77
+            "position": 76
           }
         ]
       },
@@ -24474,7 +24578,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 76
+            "position": 75
           }
         ]
       },
@@ -25009,12 +25113,12 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 17
+            "position": 16
           },
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 16
+            "position": 15
           },
           {
             "familyId": "scrum",
@@ -25058,7 +25162,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 75
+            "position": 74
           }
         ]
       },
@@ -25941,7 +26045,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 56
+            "position": 55
           }
         ]
       },
@@ -26081,7 +26185,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 55
+            "position": 54
           }
         ]
       },
@@ -26116,7 +26220,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 74
+            "position": 73
           }
         ]
       },
@@ -26234,7 +26338,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 54
+            "position": 53
           }
         ]
       },
@@ -26300,7 +26404,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 73
+            "position": 72
           },
           {
             "familyId": "luchtig",
@@ -27815,7 +27919,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 72
+            "position": 71
           }
         ]
       },
@@ -28019,7 +28123,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 52
+            "position": 51
           }
         ]
       },
@@ -28117,7 +28221,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 51
+            "position": 50
           },
           {
             "familyId": "luchtig",
@@ -28164,7 +28268,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 50
+            "position": 49
           },
           {
             "familyId": "luchtig",
@@ -28211,7 +28315,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 71
+            "position": 70
           },
           {
             "familyId": "luchtig",
@@ -28250,7 +28354,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 49
+            "position": 48
           }
         ]
       },
@@ -28310,7 +28414,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 70
+            "position": 69
           }
         ]
       },
@@ -28370,7 +28474,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 69
+            "position": 68
           }
         ]
       },
@@ -28484,7 +28588,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 68
+            "position": 67
           }
         ]
       },
@@ -28521,7 +28625,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 67
+            "position": 66
           },
           {
             "familyId": "luchtig",
@@ -28591,7 +28695,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 48
+            "position": 47
           },
           {
             "familyId": "luchtig",
@@ -28742,7 +28846,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 53
+            "position": 52
           },
           {
             "familyId": "luchtig",
@@ -29057,7 +29161,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 66
+            "position": 65
           }
         ]
       },
@@ -29173,7 +29277,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 65
+            "position": 64
           }
         ]
       },
@@ -29327,7 +29431,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 64
+            "position": 63
           }
         ]
       },
@@ -29484,7 +29588,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 63
+            "position": 62
           },
           {
             "familyId": "kort-nederlands",
@@ -29556,7 +29660,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 62
+            "position": 61
           }
         ]
       },
@@ -29969,7 +30073,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 61
+            "position": 60
           }
         ]
       },
@@ -30742,7 +30846,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 60
+            "position": 59
           }
         ]
       },
@@ -30776,7 +30880,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 59
+            "position": 58
           }
         ]
       },
@@ -30934,7 +31038,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 58
+            "position": 57
           },
           {
             "familyId": "kort-nederlands",
@@ -30982,7 +31086,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 47
+            "position": 46
           },
           {
             "familyId": "luchtig",
@@ -31133,7 +31237,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 57
+            "position": 56
           }
         ]
       },
@@ -31200,7 +31304,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 16
+            "position": 15
           },
           {
             "familyId": "nederlands",
@@ -31215,7 +31319,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 15
+            "position": 14
           },
           {
             "familyId": "kort-nederlands",
@@ -31260,7 +31364,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 46
+            "position": 45
           }
         ]
       },
@@ -31344,7 +31448,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 45
+            "position": 44
           },
           {
             "familyId": "nederlands",
@@ -31416,7 +31520,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 56
+            "position": 55
           }
         ]
       },
@@ -31761,7 +31865,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 55
+            "position": 54
           },
           {
             "familyId": "luchtig",
@@ -31829,7 +31933,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 44
+            "position": 43
           }
         ]
       },
@@ -31919,13 +32023,19 @@ window.TOP_ARTICLES = {
           "research papers & academia"
         ],
         "alsoIn": [
+          "aaa-top-100",
           "aaa-short-top-100"
         ],
         "memberships": [
           {
+            "familyId": "algemeen",
+            "size": "top-100",
+            "position": 100
+          },
+          {
             "familyId": "kort",
             "size": "top-100",
-            "position": 54
+            "position": 53
           }
         ]
       },
@@ -32016,12 +32126,12 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 100
+            "position": 99
           },
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 53
+            "position": 52
           }
         ]
       },
@@ -32796,12 +32906,12 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 99
+            "position": 98
           },
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 52
+            "position": 51
           }
         ]
       },
@@ -32837,7 +32947,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 43
+            "position": 42
           }
         ]
       },
@@ -33257,12 +33367,12 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 98
+            "position": 97
           },
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 51
+            "position": 50
           }
         ]
       },
@@ -33301,12 +33411,12 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 97
+            "position": 96
           },
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 50
+            "position": 49
           },
           {
             "familyId": "luchtig",
@@ -33535,7 +33645,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 42
+            "position": 41
           }
         ]
       },
@@ -33597,12 +33707,12 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 96
+            "position": 95
           },
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 49
+            "position": 48
           }
         ]
       },
@@ -34058,12 +34168,12 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 95
+            "position": 94
           },
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 48
+            "position": 47
           }
         ]
       },
@@ -34264,12 +34374,12 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 94
+            "position": 93
           },
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 47
+            "position": 46
           },
           {
             "familyId": "luchtig",
@@ -34725,7 +34835,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 41
+            "position": 40
           }
         ]
       },
@@ -35550,7 +35660,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 93
+            "position": 92
           },
           {
             "familyId": "luchtig",
@@ -36949,7 +37059,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 92
+            "position": 91
           },
           {
             "familyId": "luchtig",
@@ -36990,12 +37100,12 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 91
+            "position": 90
           },
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 46
+            "position": 45
           }
         ]
       },
@@ -37282,12 +37392,12 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 90
+            "position": 89
           },
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 45
+            "position": 44
           },
           {
             "familyId": "luchtig",
@@ -37354,7 +37464,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 40
+            "position": 39
           }
         ]
       },
@@ -37392,12 +37502,12 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 89
+            "position": 88
           },
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 44
+            "position": 43
           },
           {
             "familyId": "luchtig",
@@ -37658,7 +37768,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 88
+            "position": 87
           },
           {
             "familyId": "nederlands",
@@ -37673,7 +37783,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 43
+            "position": 42
           },
           {
             "familyId": "kort-nederlands",
@@ -37763,12 +37873,12 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 87
+            "position": 86
           },
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 42
+            "position": 41
           },
           {
             "familyId": "luchtig",
@@ -38828,12 +38938,12 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 86
+            "position": 85
           },
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 41
+            "position": 40
           }
         ]
       },
@@ -39199,12 +39309,12 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 15
+            "position": 14
           },
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 14
+            "position": 13
           }
         ]
       },
@@ -39924,12 +40034,12 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 14
+            "position": 13
           },
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 13
+            "position": 12
           }
         ]
       },
@@ -40570,7 +40680,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 39
+            "position": 38
           }
         ]
       },
@@ -40694,7 +40804,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 38
+            "position": 37
           }
         ]
       },
@@ -40957,12 +41067,12 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 85
+            "position": 84
           },
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 40
+            "position": 39
           }
         ]
       },
@@ -41026,7 +41136,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 37
+            "position": 36
           }
         ]
       },
@@ -41098,12 +41208,12 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 13
+            "position": 12
           },
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 12
+            "position": 11
           }
         ]
       },
@@ -41167,12 +41277,12 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 84
+            "position": 83
           },
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 39
+            "position": 38
           }
         ]
       },
@@ -41412,7 +41522,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 36
+            "position": 35
           }
         ]
       },
@@ -41508,7 +41618,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 83
+            "position": 82
           },
           {
             "familyId": "luchtig",
@@ -41548,7 +41658,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 35
+            "position": 34
           }
         ]
       },
@@ -41584,12 +41694,12 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 82
+            "position": 81
           },
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 38
+            "position": 37
           }
         ]
       },
@@ -41624,7 +41734,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 34
+            "position": 33
           }
         ]
       },
@@ -41659,7 +41769,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 33
+            "position": 32
           }
         ]
       },
@@ -41697,7 +41807,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 32
+            "position": 31
           },
           {
             "familyId": "luchtig",
@@ -42157,7 +42267,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 31
+            "position": 30
           }
         ]
       },
@@ -42244,7 +42354,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 12
+            "position": 11
           }
         ]
       },
@@ -42352,12 +42462,12 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 81
+            "position": 80
           },
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 37
+            "position": 36
           }
         ]
       },
@@ -42430,12 +42540,12 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 80
+            "position": 79
           },
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 36
+            "position": 35
           }
         ]
       },
@@ -42498,7 +42608,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 30
+            "position": 29
           }
         ]
       },
@@ -42587,12 +42697,12 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 79
+            "position": 78
           },
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 35
+            "position": 34
           }
         ]
       },
@@ -42621,19 +42731,31 @@ window.TOP_ARTICLES = {
           "political philosophy"
         ],
         "alsoIn": [
+          "aaa-top-10",
           "aaa-top-100",
+          "aaa-short-top-10",
           "aaa-short-top-100"
         ],
         "memberships": [
           {
             "familyId": "algemeen",
+            "size": "top-10",
+            "position": 10
+          },
+          {
+            "familyId": "algemeen",
             "size": "top-100",
-            "position": 11
+            "position": 10
+          },
+          {
+            "familyId": "kort",
+            "size": "top-10",
+            "position": 10
           },
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 11
+            "position": 10
           }
         ]
       },
@@ -42698,7 +42820,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 29
+            "position": 28
           },
           {
             "familyId": "luchtig",
@@ -42771,12 +42893,12 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 78
+            "position": 77
           },
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 34
+            "position": 33
           }
         ]
       },
@@ -42900,12 +43022,12 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 77
+            "position": 76
           },
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 33
+            "position": 32
           }
         ]
       },
@@ -43048,7 +43170,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 28
+            "position": 27
           }
         ]
       },
@@ -43368,22 +43490,22 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-10",
-            "position": 10
+            "position": 9
           },
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 10
+            "position": 9
           },
           {
             "familyId": "kort",
             "size": "top-10",
-            "position": 10
+            "position": 9
           },
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 10
+            "position": 9
           }
         ]
       },
@@ -43474,7 +43596,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 27
+            "position": 26
           },
           {
             "familyId": "luchtig",
@@ -43961,22 +44083,22 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-10",
-            "position": 9
+            "position": 8
           },
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 9
+            "position": 8
           },
           {
             "familyId": "kort",
             "size": "top-10",
-            "position": 9
+            "position": 8
           },
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 9
+            "position": 8
           },
           {
             "familyId": "luchtig",
@@ -44198,7 +44320,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 26
+            "position": 25
           }
         ]
       },
@@ -44290,7 +44412,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 76
+            "position": 75
           },
           {
             "familyId": "nederlands",
@@ -44305,7 +44427,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 32
+            "position": 31
           },
           {
             "familyId": "kort-nederlands",
@@ -44380,22 +44502,22 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-10",
-            "position": 8
+            "position": 7
           },
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 8
+            "position": 7
           },
           {
             "familyId": "kort",
             "size": "top-10",
-            "position": 8
+            "position": 7
           },
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 8
+            "position": 7
           }
         ]
       },
@@ -44635,12 +44757,12 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 75
+            "position": 74
           },
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 31
+            "position": 30
           }
         ]
       },
@@ -44777,7 +44899,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 25
+            "position": 24
           }
         ]
       },
@@ -44882,12 +45004,12 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 74
+            "position": 73
           },
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 30
+            "position": 29
           }
         ]
       },
@@ -45133,22 +45255,22 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-10",
-            "position": 7
+            "position": 6
           },
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 7
+            "position": 6
           },
           {
             "familyId": "kort",
             "size": "top-10",
-            "position": 7
+            "position": 6
           },
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 7
+            "position": 6
           }
         ]
       },
@@ -45358,7 +45480,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 24
+            "position": 23
           }
         ]
       },
@@ -45468,22 +45590,22 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-10",
-            "position": 6
+            "position": 5
           },
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 6
+            "position": 5
           },
           {
             "familyId": "kort",
             "size": "top-10",
-            "position": 6
+            "position": 5
           },
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 6
+            "position": 5
           }
         ]
       },
@@ -45749,7 +45871,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 23
+            "position": 22
           }
         ]
       },
@@ -45868,12 +45990,12 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 73
+            "position": 72
           },
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 29
+            "position": 28
           },
           {
             "familyId": "luchtig",
@@ -46166,12 +46288,12 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 72
+            "position": 71
           },
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 28
+            "position": 27
           }
         ]
       },
@@ -46367,12 +46489,12 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 71
+            "position": 70
           },
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 27
+            "position": 26
           }
         ]
       },
@@ -46410,12 +46532,12 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 70
+            "position": 69
           },
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 26
+            "position": 25
           },
           {
             "familyId": "luchtig",
@@ -46608,22 +46730,22 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-10",
-            "position": 5
+            "position": 4
           },
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 5
+            "position": 4
           },
           {
             "familyId": "kort",
             "size": "top-10",
-            "position": 5
+            "position": 4
           },
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 5
+            "position": 4
           }
         ]
       },
@@ -46661,22 +46783,22 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-10",
-            "position": 4
+            "position": 3
           },
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 4
+            "position": 3
           },
           {
             "familyId": "kort",
             "size": "top-10",
-            "position": 4
+            "position": 3
           },
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 4
+            "position": 3
           }
         ]
       },
@@ -46960,12 +47082,12 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 69
+            "position": 68
           },
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 25
+            "position": 24
           }
         ]
       },
@@ -47003,22 +47125,22 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-10",
-            "position": 3
+            "position": 2
           },
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 3
+            "position": 2
           },
           {
             "familyId": "kort",
             "size": "top-10",
-            "position": 3
+            "position": 2
           },
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 3
+            "position": 2
           }
         ]
       },
@@ -47296,12 +47418,12 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 68
+            "position": 67
           },
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 24
+            "position": 23
           }
         ]
       },
@@ -47361,7 +47483,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 22
+            "position": 21
           }
         ]
       },
@@ -47947,12 +48069,12 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 67
+            "position": 66
           },
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 23
+            "position": 22
           },
           {
             "familyId": "luchtig",
@@ -48019,7 +48141,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 21
+            "position": 20
           }
         ]
       },
@@ -48090,7 +48212,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 66
+            "position": 65
           }
         ]
       },
@@ -48192,7 +48314,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 65
+            "position": 64
           },
           {
             "familyId": "nederlands",
@@ -48207,7 +48329,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 22
+            "position": 21
           },
           {
             "familyId": "kort-nederlands",
@@ -48426,8 +48548,16 @@ window.TOP_ARTICLES = {
           "learning & meta-learning",
           "parenting & care"
         ],
-        "alsoIn": [],
-        "memberships": []
+        "alsoIn": [
+          "aaa-short-top-100"
+        ],
+        "memberships": [
+          {
+            "familyId": "kort",
+            "size": "top-100",
+            "position": 100
+          }
+        ]
       },
       {
         "position": null,
@@ -48744,7 +48874,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 100
+            "position": 99
           }
         ]
       },
@@ -48833,7 +48963,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 20
+            "position": 19
           }
         ]
       },
@@ -48868,7 +48998,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 99
+            "position": 98
           }
         ]
       },
@@ -48905,7 +49035,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 98
+            "position": 97
           },
           {
             "familyId": "luchtig",
@@ -48947,7 +49077,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 97
+            "position": 96
           },
           {
             "familyId": "luchtig",
@@ -48987,12 +49117,12 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 64
+            "position": 63
           },
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 21
+            "position": 20
           }
         ]
       },
@@ -49063,12 +49193,12 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 63
+            "position": 62
           },
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 20
+            "position": 19
           }
         ]
       },
@@ -49205,12 +49335,12 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 62
+            "position": 61
           },
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 19
+            "position": 18
           }
         ]
       },
@@ -49375,7 +49505,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 96
+            "position": 95
           }
         ]
       },
@@ -49445,12 +49575,12 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 61
+            "position": 60
           },
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 18
+            "position": 17
           }
         ]
       },
@@ -49594,22 +49724,22 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-10",
-            "position": 2
+            "position": 1
           },
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 2
+            "position": 1
           },
           {
             "familyId": "kort",
             "size": "top-10",
-            "position": 2
+            "position": 1
           },
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 2
+            "position": 1
           }
         ]
       },
@@ -49775,7 +49905,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 95
+            "position": 94
           },
           {
             "familyId": "luchtig",
@@ -50065,7 +50195,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 19
+            "position": 18
           }
         ]
       },
@@ -50100,7 +50230,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 94
+            "position": 93
           }
         ]
       },
@@ -51381,59 +51511,6 @@ window.TOP_ARTICLES = {
       },
       {
         "position": null,
-        "id": "01hzvrj5se18gb9dy70r9hcq2f",
-        "title": "🌲 When computers are less efficient than analog methods",
-        "author": "Eleanor Konik",
-        "siteName": "Obsidian Iceberg",
-        "category": "article",
-        "language": "Engels",
-        "readingTime": "7 mins",
-        "readingMinutes": 7,
-        "wordCount": 1754,
-        "publishedDate": null,
-        "savedDate": "2024-06-08T11:08:27.823000+00:00",
-        "imageUrl": "https://substackcdn.com/image/fetch/w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F148b9806-e16e-4471-af99-3e72c20af244_1344x896.png",
-        "sourceUrl": "https://www.eleanorkonik.com/p/when-computers-are-less-efficient?utm_source=post-email-title&publication_id=1974188&post_id=145140035&utm_campaign=email-post-title&isFreemail=true&r=1r0y5d&triedRedirect=true&utm_medium=email",
-        "readwiseUrl": "https://read.readwise.io/read/01hzvrj5se18gb9dy70r9hcq2f",
-        "summary": "Analog notetaking methods, like bullet journals and paper trackers, can be more effective and less distracting than using computers, especially in certain situations like meetings and personal organization. While digital tools offer many benefits, analog methods can provide a focused, efficient way to manage tasks and track important information without the distractions of technology. Embracing analog approaches, such as writing on paper, can be practical, mindful, and even beneficial for mental well-being in a world filled with digital distractions.",
-        "whyRead": "Raakt je interesse in PKM en kennisbeheer — een nuchtere, eerlijke verdediging van analoge methoden (bullet journals) zonder evangelisme, vanuit echte use cases.",
-        "bestMoment": "ontspannen",
-        "tags": [
-          "learning & meta-learning",
-          "personal growth & life philosophy",
-          "pkm & note-taking"
-        ],
-        "alsoIn": [
-          "aaa-top-10",
-          "aaa-top-100",
-          "aaa-short-top-10",
-          "aaa-short-top-100"
-        ],
-        "memberships": [
-          {
-            "familyId": "algemeen",
-            "size": "top-10",
-            "position": 1
-          },
-          {
-            "familyId": "algemeen",
-            "size": "top-100",
-            "position": 1
-          },
-          {
-            "familyId": "kort",
-            "size": "top-10",
-            "position": 1
-          },
-          {
-            "familyId": "kort",
-            "size": "top-100",
-            "position": 1
-          }
-        ]
-      },
-      {
-        "position": null,
         "id": "01hz9sx57zhs6famn519gxxtne",
         "title": "📚 Advice from Parenting Books, for Everyone",
         "author": "Eleanor Konik",
@@ -51490,7 +51567,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 93
+            "position": 92
           }
         ]
       },
@@ -51538,128 +51615,128 @@ window.TOP_ARTICLES = {
       "label": "Consensus",
       "items": [
         {
-          "id": "01hzvrj5se18gb9dy70r9hcq2f",
-          "title": "🌲 When computers are less efficient than analog methods",
-          "position": 1
-        },
-        {
           "id": "01j5b8c9ze5tvy3xr8axp67j8v",
           "title": "🌲 Prompt engineering gave me empathy for my bosses",
-          "position": 2
+          "position": 1
         },
         {
           "id": "01k7j6h8fj3ck0twxcq6abjm9v",
           "title": "4 Books to Self-Study Political Philosophy (as a Beginner)",
-          "position": 3
+          "position": 2
         },
         {
           "id": "01k7pn06k2e9msrrk7d0c39bn6",
           "title": "Why & how I take reading notes by hand",
-          "position": 4
+          "position": 3
         },
         {
           "id": "01k7pn0gythp69p15376f659gx",
           "title": "Interdisciplinary Deep Reads: Using 1 Classic Novel to Self-Study Multiple Humanities",
-          "position": 5
+          "position": 4
         },
         {
           "id": "01kadvkbmp8yd44q125hyw9nrz",
           "title": "The paradox is that when I accept myself just as I am, I change",
-          "position": 6
+          "position": 5
         },
         {
           "id": "01kbfj8h0ds5fz6sa9b7vdeh3n",
           "title": "Just and loving seeing",
-          "position": 7
+          "position": 6
         },
         {
           "id": "01kd1cae7sbstaj4vhva4dsbxr",
           "title": "The Work Of Art In The Age Of Mechanical Reproduction",
-          "position": 8
+          "position": 7
         },
         {
           "id": "01kdanxpg3e3pp8stwtmfr7p79",
           "title": "Taking your education into your own hands",
-          "position": 9
+          "position": 8
         },
         {
           "id": "01kf0p1x4zzc3hqf55wqyngafr",
           "title": "On the preparations before writing an essay",
-          "position": 10
+          "position": 9
         },
         {
           "id": "01khxyazzfph3etb69en1bhzgw",
           "title": "Stop Meeting Students Where They Are",
-          "position": 11
+          "position": 10
         },
         {
           "id": "01kmdth41cmczffw0kk28vchct",
           "title": "Differently free",
-          "position": 12
+          "position": 11
         },
         {
           "id": "01krm2x81z150qk5a5y9mezss5",
           "title": "How to Prioritize Your Intellectual Life",
-          "position": 13
+          "position": 12
         },
         {
           "id": "01ks96dy2nfby7cyd152ev2a9k",
           "title": "Bureaucracy Isn't Broken. That's the Problem.",
-          "position": 14
+          "position": 13
         },
         {
           "id": "01kst1g8cff3ab77qteg0q834j",
           "title": "‘Metrics create hermeneutical injustice'",
-          "position": 15
+          "position": 14
         },
         {
           "id": "01kysnmckrgernh72bvvz2eprz",
           "title": "Minister van Digitale Zaken: hoe het kan werken",
-          "position": 16
+          "position": 15
         },
         {
           "id": "01kyxyqrfvk85easc927qpwtns",
           "title": "The Ones Who Walk Away From Omelas",
-          "position": 17
+          "position": 16
         },
         {
           "id": "01m0k3hr0fm2zdqmg55xb8dnb0",
           "title": "If AI Can Replace Your Scrummaster, You Never Had a Scrummaster",
-          "position": 18
+          "position": 17
         },
         {
           "id": "01m0yzc4t547m4zm0yvgrk39xb",
           "title": "The Future of Agile Coaches: Do Large Companies Need a Standardized Agile Coach Certification and What Are the Alternatives?",
-          "position": 19
+          "position": 18
         },
         {
           "id": "01khr5h2d75yj0yt1v6seck4nt",
           "title": "On the compulsion to make art",
-          "position": 20
+          "position": 19
         },
         {
           "id": "01kmbp17grppjmpxqfsq4z3zy7",
           "title": "Sucker",
-          "position": 21
+          "position": 20
         },
         {
           "id": "01kqqh8gp2nh0d0c859h61yths",
           "title": "The Society of the Spectacle",
-          "position": 22
+          "position": 21
         },
         {
           "id": "01kysnkmqq07z6nwe6wtvhtkxy",
           "title": "Data en de Democratische Rechtsorde",
-          "position": 23
+          "position": 22
         },
         {
           "id": "01kyxa2yd57szp13ha57708606",
           "title": "Your Book Review: The Epic Of Gilgamesh",
-          "position": 24
+          "position": 23
         },
         {
           "id": "01m059szgmq8b5egbkgk1xe1rd",
           "title": "Arthur Koestler",
+          "position": 24
+        },
+        {
+          "id": "01m059v21gaqg3ya0m36r03km4",
+          "title": "Politics and the English Language",
           "position": 25
         }
       ]
