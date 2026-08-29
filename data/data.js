@@ -1,6 +1,6 @@
 // Automatisch gegenereerd door scripts/build-data.ts — niet handmatig bewerken.
 window.TOP_ARTICLES = {
-  "generatedAt": "2026-08-29T10:53:42.093Z",
+  "generatedAt": "2026-08-29T11:44:03.109Z",
   "families": [
     {
       "id": "algemeen",
@@ -14645,6 +14645,31 @@ window.TOP_ARTICLES = {
             },
             {
               "position": 46,
+              "id": "01m165m1ac4c8gc7vqqzppc4gg",
+              "title": "The difference between Manager and Director",
+              "author": "Nick Zylkowski",
+              "siteName": "Scaling Impact: An Engineering Leader's Perspective",
+              "category": "article",
+              "language": null,
+              "readingTime": "9 mins",
+              "readingMinutes": 9,
+              "wordCount": 2256,
+              "publishedDate": "2025-12-21",
+              "savedDate": "2026-08-29T07:09:23.085000+00:00",
+              "imageUrl": "https://substackcdn.com/image/fetch/$s_!1fIh!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F3fffe5f8-af49-4ad2-b0b0-1a06ce6fee04_1200x630.png",
+              "sourceUrl": "https://scalingimpacteng.substack.com/p/manager-director-difference-what-how-why",
+              "readwiseUrl": "https://read.readwise.io/read/01m165m1ac4c8gc7vqqzppc4gg",
+              "summary": "What actually changes when you move from manager to director? A mental model for leadership growth based on how your focus shifts from What, to How, to Why.",
+              "whyRead": "Raakt je werk als Scrum Master: het biedt een bruikbaar denkmodel voor de overgang van teamverbetering naar organisatiebrede invloed. Vooral de koppeling tussen strategie, feedbacklussen en vertrouwen is toepasbaar.",
+              "bestMoment": "leergierig",
+              "tags": [
+                "agile",
+                "professional development"
+              ],
+              "alsoIn": []
+            },
+            {
+              "position": 47,
               "id": "01kweww7axmq58ekx96xkj02jk",
               "title": "Seven Ways Scrum Masters Can Be More Effective",
               "author": "Scrum.org",
@@ -14669,7 +14694,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 47,
+              "position": 48,
               "id": "01kwexp5550gmx9jwcrafg7xd3",
               "title": "Empiricism",
               "author": "Scrum.org",
@@ -14695,7 +14720,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 48,
+              "position": 49,
               "id": "01kwexpevqvsnw5chhvec7vdc7",
               "title": "Tips for Joining a Scrum Team and Building Collaborative Relationships",
               "author": "Scrum.org",
@@ -14721,7 +14746,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 49,
+              "position": 50,
               "id": "01kwexpg90r86p63b5w5sd3910",
               "title": "Encouraging Collaborative Ways of Working in a Scrum Team",
               "author": "Scrum.org",
@@ -14747,7 +14772,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 50,
+              "position": 51,
               "id": "01kwexpw49qacd2hcbhg15tzcr",
               "title": "Frequently Asked Questions on Continuous Improvement for Scrum Masters",
               "author": "Scrum.org",
@@ -14773,7 +14798,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 51,
+              "position": 52,
               "id": "01m0kk41832n0tav3gjxdhask9",
               "title": "Agile is 25: Which Practices Still Work in 2026 and Which Don't?",
               "author": "vibhorchandel.com",
@@ -14797,7 +14822,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 52,
+              "position": 53,
               "id": "01m0kztar8p0q02aet41a6xn7w",
               "title": "Real World Agility EXPLAINED: Nick Brown’s Hard-Earned Lessons",
               "author": "Scrum Facilitators",
@@ -14825,7 +14850,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 53,
+              "position": 54,
               "id": "01m0phz54xkeck21gn6a362mbb",
               "title": "Are your PMs building reasoning silos?",
               "author": "Product Focus",
@@ -14850,7 +14875,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 54,
+              "position": 55,
               "id": "01m0pj0hcdzk57dgqrhngd08xm",
               "title": "How to Tell if Your Manager is Actually Good?",
               "author": "Gregor Ojstersek",
@@ -14875,7 +14900,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 55,
+              "position": 56,
               "id": "01m0pngsn5q8yqqrn2xq1w2hq5",
               "title": "To benefit from AI, your organization’s learning loops must evolve",
               "author": "uxdesign.cc",
@@ -14902,7 +14927,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 56,
+              "position": 57,
               "id": "01m0q9gdtbx4wrnvzc3zr6w7q3",
               "title": "Product Owner Anti-Patterns, and how Scrum Masters can help overcome those",
               "author": "vasco",
@@ -14928,7 +14953,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 57,
+              "position": 58,
               "id": "01m10p2ys6jtppvffmfvhv32pv",
               "title": "Product Owner Interview Questions for the Age of AI",
               "author": "Stefan Wolpers",
@@ -14953,7 +14978,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 58,
+              "position": 59,
               "id": "01ktp2kyqfw4gmnvgcrkt7faxv",
               "title": "Self-Managing Teams | Scrum.org",
               "author": "scrum.org",
@@ -14980,7 +15005,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 59,
+              "position": 60,
               "id": "01ktp2mzvjaxpymkgdyhw1wehh",
               "title": "Leadership Styles",
               "author": "Scrum.org",
@@ -15007,7 +15032,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 60,
+              "position": 61,
               "id": "01kwexp7111x57fyty213vtvwn",
               "title": "Applying the Scrum Values",
               "author": "Scrum.org",
@@ -15033,7 +15058,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 61,
+              "position": 62,
               "id": "01kwexp8bshzmz4w7y2nspmx7a",
               "title": "The Scrum Team",
               "author": "Scrum.org",
@@ -15059,7 +15084,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 62,
+              "position": 63,
               "id": "01kwexpa8272rzzb4wxq2c97fe",
               "title": "The Scrum Events",
               "author": "Scrum.org",
@@ -15085,7 +15110,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 63,
+              "position": 64,
               "id": "01kwexpbm8djp73dgn7ymt74bj",
               "title": "The Scrum Artifacts",
               "author": "Scrum.org",
@@ -15111,7 +15136,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 64,
+              "position": 65,
               "id": "01kwexpd63h7mhqsfywqrv4438",
               "title": "Self-Managing Teams",
               "author": "Scrum.org",
@@ -15137,7 +15162,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 65,
+              "position": 66,
               "id": "01kwexphnkt0123qcrbqqb0fqe",
               "title": "What is Backlog Refinement?",
               "author": "Scrum.org",
@@ -15163,7 +15188,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 66,
+              "position": 67,
               "id": "01kwexpmq0g9a6hznvz9rgcxzn",
               "title": "Leadership Styles",
               "author": "Scrum.org",
@@ -15189,7 +15214,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 67,
+              "position": 68,
               "id": "01kwexpxk1pfnzhy9sz4435mhb",
               "title": "Scrum.org and Comparative Agility Offer New Scrum Master Improvement Self-Assessment",
               "author": "Scrum.org",
@@ -15215,7 +15240,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 68,
+              "position": 69,
               "id": "01kwf0yd7ctbprcferqdhtms0t",
               "title": "Applying the Scrum Values",
               "author": "Scrum.org",
@@ -15241,7 +15266,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 69,
+              "position": 70,
               "id": "01kwf0yesfrexrg9r4n3ej8psg",
               "title": "What is Backlog Refinement?",
               "author": "Scrum.org",
@@ -15267,7 +15292,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 70,
+              "position": 71,
               "id": "01kwgv3p7m0hcdxdkevdk85zne",
               "title": "Empiricism",
               "author": "Scrum.org",
@@ -15292,7 +15317,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 71,
+              "position": 72,
               "id": "01kwgv3qm7grnyf9h24dxf1tpr",
               "title": "Applying the Scrum Values",
               "author": "Scrum.org",
@@ -15317,7 +15342,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 72,
+              "position": 73,
               "id": "01kwgv3s14j6mrc474hr2ty4ng",
               "title": "The Scrum Team",
               "author": "Scrum.org",
@@ -15342,7 +15367,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 73,
+              "position": 74,
               "id": "01kwgv3vs8hdwhets97r0mgv91",
               "title": "The Scrum Artifacts",
               "author": "Scrum.org",
@@ -15367,7 +15392,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 74,
+              "position": 75,
               "id": "01kwgv40cswsga3s67vbrqmh79",
               "title": "Encouraging Collaborative Ways of Working in a Scrum Team",
               "author": "Scrum.org",
@@ -15392,7 +15417,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 75,
+              "position": 76,
               "id": "01kwgv41vthssy649xsngxrck4",
               "title": "What is Backlog Refinement?",
               "author": "Scrum.org",
@@ -15417,7 +15442,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 76,
+              "position": 77,
               "id": "01kwgv454djcyseb3x807wx8js",
               "title": "Leadership Styles",
               "author": "Scrum.org",
@@ -15442,7 +15467,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 77,
+              "position": 78,
               "id": "01kwgv4ap47ve8h0bdwf29jzwq",
               "title": "Teaching",
               "author": "Scrum.org",
@@ -15467,7 +15492,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 78,
+              "position": 79,
               "id": "01kwgv4bwctkyj54rvctfyk8qa",
               "title": "Frequently Asked Questions on Continuous Improvement for Scrum Masters",
               "author": "Scrum.org",
@@ -15492,7 +15517,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 79,
+              "position": 80,
               "id": "01kwgv4d63neeawgzpjgf111bx",
               "title": "Scrum.org and Comparative Agility Offer New Scrum Master Improvement Self-Assessment",
               "author": "Scrum.org",
@@ -15517,7 +15542,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 80,
+              "position": 81,
               "id": "01m0k2s7g79gx8117m76a8rqmh",
               "title": "The Return of the Scrum Master",
               "author": "Maarten Dalmijn",
@@ -15541,7 +15566,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 81,
+              "position": 82,
               "id": "01m0k2xdt0xamb4cd7cr6j5vhx",
               "title": "The Scrum Master Way: Four Levers That Drive Team Growth",
               "author": "Agile Classrooms",
@@ -15565,7 +15590,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 82,
+              "position": 83,
               "id": "01m0k356bsanzb1ar3yx9740v2",
               "title": "Reimagine Scrum",
               "author": "Tobias Mayer",
@@ -15589,7 +15614,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 83,
+              "position": 84,
               "id": "01m0kk38p4qwk0xrbjj01g52ck",
               "title": "6 Steps to Effectively Manage Product Backlog\n6 Steps to Effectively Manage Product Backlog",
               "author": "vibhorchandel.com",
@@ -15613,7 +15638,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 84,
+              "position": 85,
               "id": "01kwew3egmmcfwxc3wnmfp373y",
               "title": "Scrum Meaning - Usage, and the Path to Professionalism",
               "author": "Scrum Facilitators",
@@ -15638,7 +15663,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 85,
+              "position": 86,
               "id": "01m0phy17feth92cc2egjbpr9m",
               "title": "Why Transformations Fail: Leadership Must Change",
               "author": "Nigel Thurlow",
@@ -15663,7 +15688,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 86,
+              "position": 87,
               "id": "01m0pngtqepnayg4ybke3rwsp4",
               "title": "“Make it easier” is not a product strategy",
               "author": "uxdesign.cc",
@@ -15689,7 +15714,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 87,
+              "position": 88,
               "id": "01m0q9hvnmabn1jawm1sxwe9g0",
               "title": "Terry Haayema: Why “Working Myself Out of a Job” Is Wrong for Scrum Masters",
               "author": "vasco",
@@ -15715,7 +15740,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 88,
+              "position": 89,
               "id": "01m0q9hxz4swmnxrnw4m01p5md",
               "title": "Pascal Papathemelis: Selecting the Appropriate Agile Values for Organizational Impact",
               "author": "vasco",
@@ -15741,7 +15766,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 89,
+              "position": 90,
               "id": "01m110gbsyqc7vv1ejwtptm5rf",
               "title": "Communication Is … Dialogue",
               "author": "Sven Brodmerkel | Off-Script At Work",
@@ -15767,7 +15792,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 90,
+              "position": 91,
               "id": "01m161v3y3h5rmk6eev2qvkbkq",
               "title": "Scrum and Micro-Retrospectives",
               "author": "Dwight Kingdon",
@@ -15792,7 +15817,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 91,
+              "position": 92,
               "id": "01m0kztgwcc1d43t3sdahzhg08",
               "title": "Can a Scrum Master Transition to a Delivery Manager? Here's the Truth",
               "author": "Scrum Facilitators",
@@ -15820,7 +15845,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 92,
+              "position": 93,
               "id": "01m0kztthka4bcp3a2mfxww828",
               "title": "Are Scrum Masters in DANGER? 5 Ways to Prove Your Value!",
               "author": "Scrum Facilitators",
@@ -15848,7 +15873,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 93,
+              "position": 94,
               "id": "01m0kzv38gdmh51b4kzqg40mw9",
               "title": "Are You OVERLOOKING These Critical Scrum Master Practices?",
               "author": "Scrum Facilitators",
@@ -15876,7 +15901,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 94,
+              "position": 95,
               "id": "01m0kzvbj6t6crzagc9kw1n43f",
               "title": "3 Game-Changing Lessons I Wish I Knew Earlier as a #ScrumMaster",
               "author": "Scrum Facilitators",
@@ -15904,7 +15929,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 95,
+              "position": 96,
               "id": "01m0kzvhp90e4w4ycfaqv26f31",
               "title": "5 Scrum Master Mistakes You MUST Avoid!",
               "author": "Scrum Facilitators",
@@ -15932,7 +15957,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 96,
+              "position": 97,
               "id": "01m0kzwkwp6cjx5m2jn5stztex",
               "title": "Scrum 101 Series - Episode 8 - Sprint Retrospective",
               "author": "Scrum Facilitators",
@@ -15960,7 +15985,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 97,
+              "position": 98,
               "id": "01m0kzws6tp6edn1k4t1dmr1rq",
               "title": "Scrum 101 Series - Episode 2 - Product Owner",
               "author": "Scrum Facilitators",
@@ -15986,7 +16011,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 98,
+              "position": 99,
               "id": "01m0kzx60n6y7mjy1342dw0ynp",
               "title": "Scrum 101 Series - Episode 3 - Scrum Master",
               "author": "Scrum Facilitators",
@@ -20326,6 +20351,463 @@ window.TOP_ARTICLES = {
     "items": [
       {
         "position": null,
+        "id": "01m16khr9mh0csxeh4ay9xwjb9",
+        "title": "High Agency\nAdults Don't Exist",
+        "author": "George Mack",
+        "siteName": "High Agency",
+        "category": "article",
+        "language": null,
+        "readingTime": "5 mins",
+        "readingMinutes": 5,
+        "wordCount": 1203,
+        "publishedDate": "2026-06-16",
+        "savedDate": "2026-08-29T11:12:48.436000+00:00",
+        "imageUrl": "https://substackcdn.com/image/fetch/$s_!F2Rg!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F3c7b237c-883e-4109-b28c-57598d5125d0_1731x909.png",
+        "sourceUrl": "https://essays.highagency.com/p/adults-dont-exist",
+        "readwiseUrl": "https://read.readwise.io/read/01m16khr9mh0csxeh4ay9xwjb9",
+        "summary": "Cure yourself of adult syndrome",
+        "whyRead": "Raakt je interesse in persoonlijke groei en gedragspsychologie. Dit korte, scherpe essay maakt onzekerheid rond autoriteit productief: je hoeft niet te wachten op toestemming om te beginnen.",
+        "bestMoment": "geïnspireerd",
+        "tags": [
+          "behavioral psychology & coaching",
+          "personal growth & life philosophy"
+        ],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01m16c4acqdqeyrmn984wt8h38",
+        "title": "Het is AI, dus ik lees het niet",
+        "author": "AI Report",
+        "siteName": "beehiiv.com",
+        "category": "email",
+        "language": null,
+        "readingTime": "10 mins",
+        "readingMinutes": 10,
+        "wordCount": 2433,
+        "publishedDate": "2026-08-29",
+        "savedDate": "2026-08-29T09:03:08.184000+00:00",
+        "imageUrl": null,
+        "sourceUrl": "mailto:reader-forwarded-email/99ab1d4d1a7734639b5e25aea61ebc14",
+        "readwiseUrl": "https://read.readwise.io/read/01m16c4acqdqeyrmn984wt8h38",
+        "summary": "Voortaan delen we op zaterdag artikelen van een van onze favoriete AI-auteurs: Alberto Romero van The Algorithmic Bridge.",
+        "whyRead": "Raakt je interesse in AI, filosofie en essayistische cultuurkritiek. Romero onderzoekt scherp wat generatieve tekst doet met aandacht, auteurschap en het stille contract tussen schrijver en lezer.",
+        "bestMoment": "kritisch",
+        "tags": [
+          "ai ethics & society",
+          "philosophy"
+        ],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01m165n8b4qpq2few1y4qzdnxk",
+        "title": "How To Push Back At Work Without Hurting Your Career",
+        "author": "Polina",
+        "siteName": "substack.com",
+        "category": "article",
+        "language": null,
+        "readingTime": "13 mins",
+        "readingMinutes": 13,
+        "wordCount": 3185,
+        "publishedDate": "2026-08-22",
+        "savedDate": "2026-08-29T07:10:03.040000+00:00",
+        "imageUrl": "https://substackcdn.com/image/fetch/$s_!C8w6!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F08a91570-1baf-4a06-9d0f-db82b06e0c15_1536x1024.png",
+        "sourceUrl": "https://polinarussell.substack.com/p/boundary-setting-at-work-guide",
+        "readwiseUrl": "https://read.readwise.io/read/01m165n8b4qpq2few1y4qzdnxk",
+        "summary": "The ultimate guide to setting boundaries with your boss, your peers, your team – and, surprisingly, yourself.",
+        "whyRead": "Raakt je werk als Scrum Master via teamdynamiek, psychologische veiligheid en heldere verwachtingen. Dit is een concrete, menselijk geschreven gids om grenzen niet als conflict maar als werkafspraak te behandelen.",
+        "bestMoment": "leergierig",
+        "tags": [
+          "behavioral psychology & coaching",
+          "professional development"
+        ],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01m165m1ac4c8gc7vqqzppc4gg",
+        "title": "The difference between Manager and Director",
+        "author": "Nick Zylkowski",
+        "siteName": "Scaling Impact: An Engineering Leader's Perspective",
+        "category": "article",
+        "language": null,
+        "readingTime": "9 mins",
+        "readingMinutes": 9,
+        "wordCount": 2256,
+        "publishedDate": "2025-12-21",
+        "savedDate": "2026-08-29T07:09:23.085000+00:00",
+        "imageUrl": "https://substackcdn.com/image/fetch/$s_!1fIh!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F3fffe5f8-af49-4ad2-b0b0-1a06ce6fee04_1200x630.png",
+        "sourceUrl": "https://scalingimpacteng.substack.com/p/manager-director-difference-what-how-why",
+        "readwiseUrl": "https://read.readwise.io/read/01m165m1ac4c8gc7vqqzppc4gg",
+        "summary": "What actually changes when you move from manager to director? A mental model for leadership growth based on how your focus shifts from What, to How, to Why.",
+        "whyRead": "Raakt je werk als Scrum Master: het biedt een bruikbaar denkmodel voor de overgang van teamverbetering naar organisatiebrede invloed. Vooral de koppeling tussen strategie, feedbacklussen en vertrouwen is toepasbaar.",
+        "bestMoment": "leergierig",
+        "tags": [
+          "agile",
+          "professional development"
+        ],
+        "alsoIn": [
+          "aaa-scrum-top-100"
+        ],
+        "memberships": [
+          {
+            "familyId": "scrum",
+            "size": "top-100",
+            "position": 46
+          }
+        ]
+      },
+      {
+        "position": null,
+        "id": "01m165gx0qnv285707t415m9cb",
+        "title": "Waarom een biertje op Lowlands meer kost dan wat Air France-KLM op jouw vliegticket verdient",
+        "author": "Ties Joosten from Nieuwsbrief van Ties Joosten",
+        "siteName": "Substack",
+        "category": "email",
+        "language": null,
+        "readingTime": "3 mins",
+        "readingMinutes": 3,
+        "wordCount": 581,
+        "publishedDate": "2026-08-29",
+        "savedDate": "2026-08-29T07:07:40.439000+00:00",
+        "imageUrl": null,
+        "sourceUrl": "mailto:reader-forwarded-email/756b0482646c0df9825e7284f266a1cb",
+        "readwiseUrl": "https://read.readwise.io/read/01m165gx0qnv285707t415m9cb",
+        "summary": "Het is zo’n bedrag dat je niet meer loslaat. 4,50 dollar.",
+        "whyRead": "Raakt je interesse in Nederlandse samenleving, economie en de ecologische prijs van luchtvaart. Het is een compacte, concrete analyse van de financiële kwetsbaarheid van KLM/Air France-KLM.",
+        "bestMoment": "kritisch",
+        "tags": [
+          "economics",
+          "environment & sustainability"
+        ],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01m164cwcm3c4m35vb5gtr66da",
+        "title": "Week ?: Go with the flow",
+        "author": "Holly en Roos",
+        "siteName": "Substack",
+        "category": "email",
+        "language": null,
+        "readingTime": "8 mins",
+        "readingMinutes": 8,
+        "wordCount": 2046,
+        "publishedDate": "2026-08-29",
+        "savedDate": "2026-08-29T06:48:00.149000+00:00",
+        "imageUrl": null,
+        "sourceUrl": "mailto:reader-forwarded-email/cabda9a30c47ca61ebdb9cda1e652dea",
+        "readwiseUrl": "https://read.readwise.io/read/01m164cwcm3c4m35vb5gtr66da",
+        "summary": "Wat een lekkere week. Zo een die voorbij vloog.",
+        "whyRead": "Nederlandstalige, essayistische reisnotitie over tempo, kwetsbaarheid en aandacht. De persoonlijke stem maakt hem passend als lichte reflectie.",
+        "bestMoment": "ontspannen",
+        "tags": [
+          "arts & culture",
+          "light-reading",
+          "personal growth & life philosophy"
+        ],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01m163anpyprdvtwnpzcq2hnfp",
+        "title": "Does life have a purpose?",
+        "author": "aeon.co",
+        "siteName": "Aeon",
+        "category": "article",
+        "language": null,
+        "readingTime": "13 mins",
+        "readingMinutes": 13,
+        "wordCount": 3374,
+        "publishedDate": null,
+        "savedDate": "2026-08-29T06:29:19.198000+00:00",
+        "imageUrl": "https://alpha.aeon.co/images/69497723-0daf-4e9a-9f35-83b699392854/header_Stegosaurus.jpg",
+        "sourceUrl": "https://aeon.co/essays/what-s-a-stegosaur-for-why-life-is-design-like",
+        "readwiseUrl": "https://read.readwise.io/read/01m163anpyprdvtwnpzcq2hnfp",
+        "summary": "Nobody expects atoms and molecules to have purposes, so why do we still think of living things in this way?",
+        "whyRead": "Raakt je interesse in filosofie en wetenschapsgeschiedenis. Het essay onderzoekt waarom wij doelgerichtheid blijven zien in levende natuur.",
+        "bestMoment": "analytisch",
+        "tags": [
+          "philosophy",
+          "science"
+        ],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01m163amy5kpaagkkm6qqpfm34",
+        "title": "To automate is human",
+        "author": "aeon.co",
+        "siteName": "Aeon",
+        "category": "article",
+        "language": null,
+        "readingTime": "14 mins",
+        "readingMinutes": 14,
+        "wordCount": 3686,
+        "publishedDate": null,
+        "savedDate": "2026-08-29T06:29:18.404000+00:00",
+        "imageUrl": "https://epsilon.aeon.co/images/f05c5b96-dafd-4f4c-bf22-dd9188e1905e/header_essay-865852046_master.jpg",
+        "sourceUrl": "https://aeon.co/essays/the-offloading-ape-the-human-is-the-beast-that-automates",
+        "readwiseUrl": "https://read.readwise.io/read/01m163amy5kpaagkkm6qqpfm34",
+        "summary": "It’s not tools, culture or communication that make humans unique but our knack for offloading dirty work onto machines",
+        "whyRead": "Raakt je interesse in filosofie, technologie en mensbeeld. Het essay volgt automatisering als onderscheidend menselijke strategie.",
+        "bestMoment": "analytisch",
+        "tags": [
+          "philosophy",
+          "technology"
+        ],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01m163am54s9xs6vjr7yet90bq",
+        "title": "Enjoying Aeon?\nHow like the kiwi we are",
+        "author": "aeon.co",
+        "siteName": "Aeon",
+        "category": "article",
+        "language": null,
+        "readingTime": "14 mins",
+        "readingMinutes": 14,
+        "wordCount": 3513,
+        "publishedDate": "2023-04-11",
+        "savedDate": "2026-08-29T06:29:17.605000+00:00",
+        "imageUrl": "https://alpha.aeon.co/images/4ace8eb7-9cad-4c95-b981-f6486b862779/header_essay-final-gettyimages-525151431.jpg",
+        "sourceUrl": "https://aeon.co/essays/how-evolution-made-humans-more-like-birds-than-other-mammals",
+        "readwiseUrl": "https://read.readwise.io/read/01m163am54s9xs6vjr7yet90bq",
+        "summary": "To understand helpless human babies, our big brains and oddly involved dads, look to the evolution of birds not mammals",
+        "whyRead": "Een toegankelijke evolutionaire omweg naar ouderschap, breinen en menselijke afhankelijkheid.",
+        "bestMoment": "leergierig",
+        "tags": [
+          "history",
+          "science"
+        ],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01m163akbj5q6nkm532qmccyc4",
+        "title": "Evolving street-smarts",
+        "author": "aeon.co",
+        "siteName": "Aeon",
+        "category": "article",
+        "language": null,
+        "readingTime": "17 mins",
+        "readingMinutes": 17,
+        "wordCount": 4444,
+        "publishedDate": null,
+        "savedDate": "2026-08-29T06:29:16.784000+00:00",
+        "imageUrl": "https://alpha.aeon.co/images/e9b6ffc0-c744-4945-8601-27b16552ff1d/header_essay-573089307_high.jpg",
+        "sourceUrl": "https://aeon.co/essays/how-city-birds-evolved-to-be-smarter-than-rural-birds",
+        "readwiseUrl": "https://read.readwise.io/read/01m163akbj5q6nkm532qmccyc4",
+        "summary": "Living among humans favours fearless problem-solvers interested in new things. That’s how city birds get smarter",
+        "whyRead": "Toegankelijke wetenschap over steden als evolutiedruk en gedrag; sluit aan bij je interesse in urbanisme.",
+        "bestMoment": "leergierig",
+        "tags": [
+          "science",
+          "sociology & social structures"
+        ],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01m163a2vaqy4v5yx9fey9gbaj",
+        "title": "Scorched Earth, 2200AD",
+        "author": "aeon.co",
+        "siteName": "Aeon",
+        "category": "article",
+        "language": null,
+        "readingTime": "8 mins",
+        "readingMinutes": 8,
+        "wordCount": 2060,
+        "publishedDate": null,
+        "savedDate": "2026-08-29T06:28:59.882000+00:00",
+        "imageUrl": "https://omicron.aeon.co/images/f1ff4cf8-e697-4e13-99a0-b261d8529118/header_sb10069772o-001.jpg",
+        "sourceUrl": "https://aeon.co/essays/welcome-to-earth-2200-ad-pop-500-million-temp-180-f",
+        "readwiseUrl": "https://read.readwise.io/read/01m163a2vaqy4v5yx9fey9gbaj",
+        "summary": "Climate change has done its worst, and now just 500 million humans remain on lifeboats in the north. How do they survive?",
+        "whyRead": "Speculatieve klimaatfictie met een duidelijke maatschappelijke vraag: welke vormen van samenleven blijven over na ecologische ontwrichting?",
+        "bestMoment": "ontspannen",
+        "tags": [
+          "environment & sustainability",
+          "fiction",
+          "light-reading"
+        ],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01m1639z7sz37w20bfrea8b18n",
+        "title": "It started as a fringe philosophical theory about humanity’s future. It’s now richly funded and increasingly dangerous",
+        "author": "aeon.co",
+        "siteName": "Aeon",
+        "category": "article",
+        "language": null,
+        "readingTime": "24 mins",
+        "readingMinutes": 24,
+        "wordCount": 6215,
+        "publishedDate": "2021-10-19",
+        "savedDate": "2026-08-29T06:28:56.183000+00:00",
+        "imageUrl": "https://images.aeonmedia.co/images/58d9e359-d77e-4d11-98b0-e1374794b4d2/essay-final-nn11440305.jpg?width=1200&quality=75&format=jpg",
+        "sourceUrl": "https://aeon.co/essays/why-longtermism-is-the-worlds-most-dangerous-secular-credo",
+        "readwiseUrl": "https://read.readwise.io/read/01m1639z7sz37w20bfrea8b18n",
+        "summary": "It started as a fringe philosophical theory about humanity’s future. It’s now richly funded and increasingly dangerous",
+        "whyRead": "Raakt je interesse in politieke filosofie, AI-ethiek en kritiek op ideologieën rond technologie.",
+        "bestMoment": "kritisch",
+        "tags": [
+          "ai ethics & society",
+          "philosophy"
+        ],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01m1639vmwrx590b3akkhkh3zb",
+        "title": "The golden quarter",
+        "author": "aeon.co",
+        "siteName": "Aeon",
+        "category": "article",
+        "language": null,
+        "readingTime": "13 mins",
+        "readingMinutes": 13,
+        "wordCount": 3242,
+        "publishedDate": null,
+        "savedDate": "2026-08-29T06:28:52.509000+00:00",
+        "imageUrl": "https://omicron.aeon.co/images/d969bda1-ab48-4f06-86bc-8f13af6f7837/header_v2-essay-hanlon-golden-.jpg",
+        "sourceUrl": "https://aeon.co/essays/has-progress-in-science-and-technology-come-to-a-halt",
+        "readwiseUrl": "https://read.readwise.io/read/01m1639vmwrx590b3akkhkh3zb",
+        "summary": "Some of our greatest cultural and technological achievements took place between 1945 and 1971. Why has progress stalled?",
+        "whyRead": "Raakt je interesse in ideeëngeschiedenis en technologie. Het essay stelt de naoorlogse groeiversnelling tegenover een vermeende stagnatie daarna.",
+        "bestMoment": "analytisch",
+        "tags": [
+          "history",
+          "science",
+          "technology"
+        ],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01m1639rejb5304748h5hhpvcb",
+        "title": "Homo gluttonous",
+        "author": "aeon.co",
+        "siteName": "Aeon",
+        "category": "article",
+        "language": null,
+        "readingTime": "10 mins",
+        "readingMinutes": 10,
+        "wordCount": 2416,
+        "publishedDate": null,
+        "savedDate": "2026-08-29T06:28:49.234000+00:00",
+        "imageUrl": "https://epsilon.aeon.co/images/185a455e-fe33-4fb0-9809-134e3f8102f2/header_essay-v2-gettyimages-515945009.jpg",
+        "sourceUrl": "https://aeon.co/essays/are-we-eating-ourselves-and-our-planet-to-extinction",
+        "readwiseUrl": "https://read.readwise.io/read/01m1639rejb5304748h5hhpvcb",
+        "summary": "Humans have evolved with little resistance to abundant, easy food. Will we gorge ourselves and our planet to death?",
+        "whyRead": "Toegankelijke evolutie- en systeemkritiek op overvloed, eetgedrag en ecologische grenzen.",
+        "bestMoment": "kritisch",
+        "tags": [
+          "environment & sustainability",
+          "health & wellness"
+        ],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01m1630mxptmhjrnsdxqkhnzc6",
+        "title": "Omens",
+        "author": "aeon.co",
+        "siteName": "Aeon",
+        "category": "article",
+        "language": null,
+        "readingTime": "31 mins",
+        "readingMinutes": 31,
+        "wordCount": 8142,
+        "publishedDate": null,
+        "savedDate": "2026-08-29T06:23:50.708000+00:00",
+        "imageUrl": "https://omicron.aeon.co/images/64104ca6-8d93-4073-9407-20ec93cdcac7/header_essay-nick-bostrom_0070.jpg",
+        "sourceUrl": "https://aeon.co/essays/will-humans-be-around-in-a-billion-years-or-a-trillion",
+        "readwiseUrl": "https://read.readwise.io/read/01m1630mxptmhjrnsdxqkhnzc6",
+        "summary": "When we peer into the fog of the deep future what do we see – human extinction or a future among the stars?",
+        "whyRead": "Raakt je interesse in filosofie, AI-ethiek en langetermijndenken. Via Nick Bostrom en de geschiedenis van uitsterving onderzoekt dit essay waarom diepe tijd zowel nuchtere voorbereiding als intellectuele bescheidenheid vraagt.",
+        "bestMoment": "geconcentreerd",
+        "tags": [
+          "ai ethics & society",
+          "linked-from-readwise",
+          "philosophy",
+          "science"
+        ],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01m1630ky8qcmnmhx9pvb5wp8g",
+        "title": "Enjoying Aeon?\nThe ethics of human extinction",
+        "author": "aeon.co",
+        "siteName": "Aeon",
+        "category": "article",
+        "language": null,
+        "readingTime": "22 mins",
+        "readingMinutes": 22,
+        "wordCount": 5619,
+        "publishedDate": "2023-02-20",
+        "savedDate": "2026-08-29T06:23:49.702000+00:00",
+        "imageUrl": "https://alpha.aeon.co/images/553301d1-da51-46be-b598-25725bfc7588/header_essay-final-of-9919.jpg",
+        "sourceUrl": "https://aeon.co/essays/what-are-the-moral-implications-of-humanity-going-extinct",
+        "readwiseUrl": "https://read.readwise.io/read/01m1630ky8qcmnmhx9pvb5wp8g",
+        "summary": "Why would it be so bad if our species came to an end? It is a question that reveals our latent values and hidden fears",
+        "whyRead": "Raakt je interesse in filosofie, AI-ethiek en politieke moraal. Het essay ontrafelt waarom ‘menselijke uitsterving’ minder eenduidig slecht is dan het publieke debat vaak suggereert.",
+        "bestMoment": "analytisch",
+        "tags": [
+          "ai ethics & society",
+          "linked-from-readwise",
+          "philosophy"
+        ],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01m1630k2gjerrfrwbx09cvjrd",
+        "title": "The tyranny of work",
+        "author": "aeon.co",
+        "siteName": "Aeon",
+        "category": "article",
+        "language": null,
+        "readingTime": "13 mins",
+        "readingMinutes": 13,
+        "wordCount": 3390,
+        "publishedDate": null,
+        "savedDate": "2026-08-29T06:23:48.816000+00:00",
+        "imageUrl": "https://nu.aeon.co/images/3b974ca4-98d7-4b8d-a4e8-75aaea08d701/header_essay-h_19_00270766.jpg",
+        "sourceUrl": "https://aeon.co/essays/how-the-work-ethic-became-a-substitute-for-good-jobs",
+        "readwiseUrl": "https://read.readwise.io/read/01m1630k2gjerrfrwbx09cvjrd",
+        "summary": "Jobs have become, for so many, a relentless, unsatisfying toil. Why then does the work ethic still hold so much sway?",
+        "whyRead": "Raakt je interesse in sociologie, maatschappelijke structuren en politieke economie: een scherp essay over hoe de arbeidsethos goede banen en zinvolle tijd kan vervangen als morele maatstaf. Het biedt een bruikbare lens voor gesprekken over werk, waardigheid en ongelijkheid.",
+        "bestMoment": "kritisch",
+        "tags": [
+          "economics",
+          "linked-from-readwise",
+          "sociology & social structures"
+        ],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
         "id": "01m161vztc9cvdz681k9e0xy49",
         "title": "The radical reasons why you dream of making things by hand | Aeon Essays",
         "author": "aeon.co",
@@ -20416,7 +20898,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 90
+            "position": 91
           }
         ]
       },
@@ -21508,7 +21990,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 89
+            "position": 90
           }
         ]
       },
@@ -21719,7 +22201,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 57
+            "position": 58
           }
         ]
       },
@@ -22390,7 +22872,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 88
+            "position": 89
           }
         ]
       },
@@ -22425,7 +22907,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 87
+            "position": 88
           }
         ]
       },
@@ -22460,7 +22942,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 56
+            "position": 57
           }
         ]
       },
@@ -22682,7 +23164,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 86
+            "position": 87
           }
         ]
       },
@@ -22718,7 +23200,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 55
+            "position": 56
           }
         ]
       },
@@ -22974,7 +23456,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 54
+            "position": 55
           }
         ]
       },
@@ -23118,7 +23600,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 53
+            "position": 54
           }
         ]
       },
@@ -23238,7 +23720,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 85
+            "position": 86
           }
         ]
       },
@@ -24026,7 +24508,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 98
+            "position": 99
           },
           {
             "familyId": "videos",
@@ -24065,7 +24547,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 97
+            "position": 98
           },
           {
             "familyId": "videos",
@@ -24106,7 +24588,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 96
+            "position": 97
           },
           {
             "familyId": "videos",
@@ -24152,7 +24634,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 95
+            "position": 96
           },
           {
             "familyId": "videos",
@@ -24198,7 +24680,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 94
+            "position": 95
           },
           {
             "familyId": "videos",
@@ -24244,7 +24726,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 93
+            "position": 94
           },
           {
             "familyId": "videos",
@@ -24290,7 +24772,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 92
+            "position": 93
           },
           {
             "familyId": "videos",
@@ -24336,7 +24818,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 91
+            "position": 92
           },
           {
             "familyId": "videos",
@@ -24382,7 +24864,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 52
+            "position": 53
           },
           {
             "familyId": "videos",
@@ -24425,7 +24907,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 51
+            "position": 52
           }
         ]
       },
@@ -24491,7 +24973,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 83
+            "position": 84
           }
         ]
       },
@@ -24744,7 +25226,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 82
+            "position": 83
           }
         ]
       },
@@ -24835,7 +25317,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 81
+            "position": 82
           }
         ]
       },
@@ -24935,7 +25417,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 80
+            "position": 81
           }
         ]
       },
@@ -34398,7 +34880,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 79
+            "position": 80
           }
         ]
       },
@@ -34432,7 +34914,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 78
+            "position": 79
           }
         ]
       },
@@ -34466,7 +34948,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 77
+            "position": 78
           }
         ]
       },
@@ -34602,7 +35084,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 76
+            "position": 77
           }
         ]
       },
@@ -34670,7 +35152,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 75
+            "position": 76
           }
         ]
       },
@@ -34704,7 +35186,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 74
+            "position": 75
           }
         ]
       },
@@ -34806,7 +35288,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 73
+            "position": 74
           }
         ]
       },
@@ -34874,7 +35356,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 72
+            "position": 73
           }
         ]
       },
@@ -34908,7 +35390,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 71
+            "position": 72
           }
         ]
       },
@@ -34942,7 +35424,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 70
+            "position": 71
           }
         ]
       },
@@ -35108,7 +35590,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 69
+            "position": 70
           }
         ]
       },
@@ -35143,7 +35625,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 68
+            "position": 69
           }
         ]
       },
@@ -35213,7 +35695,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 67
+            "position": 68
           }
         ]
       },
@@ -35248,7 +35730,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 50
+            "position": 51
           }
         ]
       },
@@ -35429,7 +35911,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 66
+            "position": 67
           }
         ]
       },
@@ -35505,7 +35987,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 65
+            "position": 66
           }
         ]
       },
@@ -35540,7 +36022,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 49
+            "position": 50
           }
         ]
       },
@@ -35575,7 +36057,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 48
+            "position": 49
           }
         ]
       },
@@ -35610,7 +36092,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 64
+            "position": 65
           }
         ]
       },
@@ -35645,7 +36127,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 63
+            "position": 64
           }
         ]
       },
@@ -35680,7 +36162,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 62
+            "position": 63
           }
         ]
       },
@@ -35715,7 +36197,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 61
+            "position": 62
           }
         ]
       },
@@ -35750,7 +36232,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 60
+            "position": 61
           }
         ]
       },
@@ -35785,7 +36267,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 47
+            "position": 48
           }
         ]
       },
@@ -35860,7 +36342,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 46
+            "position": 47
           }
         ]
       },
@@ -35928,7 +36410,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 84
+            "position": 85
           }
         ]
       },
@@ -37695,7 +38177,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 59
+            "position": 60
           }
         ]
       },
@@ -37731,7 +38213,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 58
+            "position": 59
           }
         ]
       },
@@ -44669,6 +45151,31 @@ window.TOP_ARTICLES = {
             "position": 7
           }
         ]
+      },
+      {
+        "position": null,
+        "id": "01kbe6ymfdqdbrzb4v1n7jmts2",
+        "title": "High Agency\nIn 30 Minutes",
+        "author": "George Mack",
+        "siteName": "highagency.com",
+        "category": "article",
+        "language": "Engels",
+        "readingTime": "30 mins",
+        "readingMinutes": 30,
+        "wordCount": 7760,
+        "publishedDate": "2025-03-26",
+        "savedDate": "2026-08-29T11:14:27.032000+00:00",
+        "imageUrl": "https://cdn.prod.website-files.com/67891452634f936deafd719a/67dd391d34146c33f3ed7e40_High%20Agency%20(2).png",
+        "sourceUrl": "https://www.highagency.com/?utm_source=substack&utm_medium=email",
+        "readwiseUrl": "https://read.readwise.io/read/01kbe6ymfdqdbrzb4v1n7jmts2",
+        "summary": "High agency means taking responsibility, acting decisively, and solving problems when no guide exists. It combines clear thinking, bias to action, and disagreeability. Practicing it breaks traps like vagueness, overthinking, and rumination so you can turn ideas into reality.",
+        "whyRead": "High agency is een centraal concept voor wie zijn leven actief wil vormgeven.",
+        "bestMoment": "geïnspireerd",
+        "tags": [
+          "personal growth & life philosophy"
+        ],
+        "alsoIn": [],
+        "memberships": []
       },
       {
         "position": null,
