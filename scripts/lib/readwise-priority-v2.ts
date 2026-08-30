@@ -50,8 +50,15 @@ export interface PriorityScoreResult {
 
 export const DIRECT_DOMAIN_TAGS = {
   ai_ethiek: ["ai ethics", "ai & machine learning", "artificial intelligence"],
-  filosofie: ["philosophy", "political philosophy", "ethics", "critical thinking & epistemology"],
-  ideologie: ["political ideologies", "totalitarianism & fascism", "politics & society", "political philosophy"],
+  filosofie: [
+    "philosophy", "political philosophy", "ethics", "critical thinking & epistemology",
+    "epistemology", "metaphysics",
+    "anarchism", "anarchist", "kropotkin", "bakunin", "emma goldman", "david graeber",
+    "mutual aid", "frankfurt school", "critical theory",
+    "philosophy of mind", "free will", "personal identity", "philosophy of language",
+    "existentialism", "absurdism", "nihilism", "virtue ethics", "stoicism",
+  ],
+  ideologie: ["political ideologies", "totalitarianism & fascism", "politics & society", "political philosophy", "anarchism", "anarchist"],
   geschiedenis: ["history", "history & civilization", "history of ideas"],
   sociologie: ["sociology", "sociology & inequality", "sociology & social structures", "ethics & society"],
   schrijven: ["essay-writing", "writing", "writing & essays"],
@@ -78,6 +85,10 @@ const DIRECT_USEFULNESS_TAGS = [
 const USEFULNESS_WHY_WORDS = ["werk", "ouderschap", "mantelzorg", "schrijven", "kennisbeheer", "pkm", "scrum", "agile"];
 const DEPTH_WORDS = ["essay", "analysis", "analyse", "report", "paper", "study", "onderzoek", "rapport"];
 const RESEARCH_TAGS = ["research papers & academia", "history of ideas"];
+const SATURATED_PHILOSOPHY_PHRASES = [
+  "hannah arendt", "arendt", "totalitarianism", "totalitarianism & fascism", "fascism", "authoritarianism",
+  "byung-chul han", "philosophy of technology",
+];
 const AMERICA_MARKERS = ["united states", "u.s.", "us politics", "trump", "america", "american"];
 const DUTCH_TAGS = new Set(["dutch", "nederlands", "nl"]);
 const ENGLISH_TAGS = new Set(["english", "lang:en"]);
@@ -309,6 +320,13 @@ export function scorePriorityDocument(doc: PriorityDocument): PriorityScoreResul
   if (thinOrPromotional) {
     aftrek -= 10;
     rationale.aftrek.push("Dun of promotioneel stuk.");
+  }
+  const saturatedPhrase = SATURATED_PHILOSOPHY_PHRASES.find(
+    (phrase) => tags.has(normalize(phrase)) || hasPhrase(text, phrase),
+  );
+  if (saturatedPhrase && !deepFormat && !deepTag) {
+    aftrek -= 15;
+    rationale.aftrek.push(`Verzadigd onderwerp (AI/tech-filosofie of Arendt/totalitarisme): ${saturatedPhrase}.`);
   }
 
   const components: PriorityComponents = {
