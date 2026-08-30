@@ -1,6 +1,6 @@
 // Automatisch gegenereerd door scripts/build-data.ts — niet handmatig bewerken.
 window.TOP_ARTICLES = {
-  "generatedAt": "2026-08-29T19:24:09.154Z",
+  "generatedAt": "2026-08-30T00:18:42.673Z",
   "families": [
     {
       "id": "algemeen",
@@ -7428,6 +7428,108 @@ window.TOP_ARTICLES = {
             },
             {
               "position": 90,
+              "id": "01m17hcyt40k1nn13p6cp7eyr9",
+              "title": "the tyranny of the measurable",
+              "author": "erinmerylstudy",
+              "siteName": "The Learning Lab",
+              "category": "article",
+              "language": null,
+              "readingTime": "5 mins",
+              "readingMinutes": 5,
+              "wordCount": 1289,
+              "publishedDate": "2026-07-10",
+              "savedDate": "2026-08-29T19:54:28.547000+00:00",
+              "imageUrl": "https://substackcdn.com/image/fetch/$s_!JVbg!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd9e5d3b5-3d23-488f-abc5-3677a3e62f63_480x540.jpeg",
+              "sourceUrl": "https://erinmerylstudy.substack.com/p/the-tyranny-of-the-measurable?utm_source=direct&r=1r0y5d&utm_campaign=post-expanded-share&utm_medium=post%20viewer",
+              "readwiseUrl": "https://read.readwise.io/read/01m17hcyt40k1nn13p6cp7eyr9",
+              "summary": "and why you should hate numbers",
+              "whyRead": "Raakt je interesse in filosofie en sociale structuren, en is beroepsmatig direct bruikbaar — dit is Goodhart's law als levensbeschouwing, met KPI's, velocity en dashboards als schoolvoorbeeld. Scherp materiaal voor gesprekken over flow-metrics die targets worden.",
+              "bestMoment": "analytisch",
+              "tags": [
+                "philosophy",
+                "sociology & social structures"
+              ],
+              "alsoIn": []
+            },
+            {
+              "position": 91,
+              "id": "01m17y5avkmwk706jq3d4vzxxm",
+              "title": "We Perform, Therefore We Belong: Performativity in Society",
+              "author": "New York Journal of Philosophy",
+              "siteName": "New York Journal of Philosophy",
+              "category": "article",
+              "language": null,
+              "readingTime": "9 mins",
+              "readingMinutes": 9,
+              "wordCount": 2286,
+              "publishedDate": "2026-03-18",
+              "savedDate": "2026-08-29T23:37:30.227000+00:00",
+              "imageUrl": "https://substackcdn.com/image/fetch/$s_!CAmu!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F5b0201bb-da0a-4aa1-ba1b-b34ac28b3555_1886x1166.png",
+              "sourceUrl": "https://journal.nyphilosophy.org/p/we-perform-therefore-we-belong-performativity",
+              "readwiseUrl": "https://read.readwise.io/read/01m17y5avkmwk706jq3d4vzxxm",
+              "summary": "How Performativity is a Crucial Part of Society",
+              "whyRead": "Raakt je interesse in filosofie en sociologie — een analytisch essay dat performativiteit (Gen Z-cultuur, mode, sociale media) herkadert via speltheorie, Goffman en Barthes.",
+              "bestMoment": "analytisch",
+              "tags": [
+                "philosophy",
+                "sociology & social structures"
+              ],
+              "alsoIn": []
+            },
+            {
+              "position": 92,
+              "id": "01m17y5edpc9b2z16dmwbkxaz7",
+              "title": "Existentialism in a Capitalist World",
+              "author": "Kalika Padte",
+              "siteName": "New York Journal of Philosophy",
+              "category": "article",
+              "language": null,
+              "readingTime": "6 mins",
+              "readingMinutes": 6,
+              "wordCount": 1402,
+              "publishedDate": "2026-07-15",
+              "savedDate": "2026-08-29T23:37:33.878000+00:00",
+              "imageUrl": "https://substackcdn.com/image/fetch/$s_!tB2A!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fdf305a48-57d0-4956-be65-8b799fd6a642_850x731.jpeg",
+              "sourceUrl": "https://journal.nyphilosophy.org/p/existentialism-in-a-capitalist-world",
+              "readwiseUrl": "https://read.readwise.io/read/01m17y5edpc9b2z16dmwbkxaz7",
+              "summary": "By Kalika Padte",
+              "whyRead": "Raakt je interesse in filosofie en politieke filosofie — een essayistisch pleidooi dat Sartriaans existentialisme inzet tegen de manier waarop het kapitalisme onze identiteit vooraf invult.",
+              "bestMoment": "analytisch",
+              "tags": [
+                "philosophy",
+                "political philosophy"
+              ],
+              "alsoIn": []
+            },
+            {
+              "position": 93,
+              "id": "01m17y7pmsd705vznyyfyczfxv",
+              "title": "Bulkdatasets AIVD en MIVD: de schaduw geheime dienst",
+              "author": "berthub.eu",
+              "siteName": "Bert Hubert's writings",
+              "category": "article",
+              "language": null,
+              "readingTime": "4 mins",
+              "readingMinutes": 4,
+              "wordCount": 1008,
+              "publishedDate": "2026-07-01",
+              "savedDate": "2026-08-29T23:38:47.830000+00:00",
+              "imageUrl": "https://berthub.eu/articles/c-m-X_j3b4rqnlk-unsplash.jpg",
+              "sourceUrl": "https://berthub.eu/articles/posts/de-schaduwgeheimedienst/",
+              "readwiseUrl": "https://read.readwise.io/read/01m17y7pmsd705vznyyfyczfxv",
+              "summary": "Uit een vandaag verschenen onderzoeksrapport (PDF) blijkt dat de AIVD en MIVD slordig en soms onrechtmatig omgaan met bulkdatasets.\nBulkdatasets zijn grote bestanden vol data over vaak miljoenen willekeurige mensen, data die op een of andere manier in het bezit van de diensten gekomen is. Uit het rapport:\n“De diensten kunnen bulkdatasets bijvoorbeeld verkrijgen van informanten, andere overheidsorganisaties, buitenlandse inlichtingendiensten, of tegen betaling van commerciële partijen. De diensten kunnen ook bijzondere bevoegdheden inzetten om bulkdatasets te verwerven.",
+              "whyRead": "versterkt je interesse in de Nederlandse situatie rond inlichtingendiensten — sluit direct aan bij de eerdere notitie over de nieuwe Wiv. Bert Hubert legt uit hoe AIVD en MIVD via een \"schaduwarchief\" van gekochte en gelekte bulkdata de gebruikelijke toetsingsprocedures omzeilen.",
+              "bestMoment": "kritisch",
+              "tags": [
+                "current affairs & politics",
+                "linked-from-readwise",
+                "political philosophy",
+                "technology"
+              ],
+              "alsoIn": []
+            },
+            {
+              "position": 94,
               "id": "01hy0x9z444qrsk7bb6acc5svn",
               "title": "Reading challenging books with kids is fun and probably useful",
               "author": "Henrik Karlsson",
@@ -7453,7 +7555,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 91,
+              "position": 95,
               "id": "01j2dfz6ypvj2efevyamk72ga3",
               "title": "🌲 Takeaways on efficiency, passive learning, & optimization",
               "author": "Eleanor Konik",
@@ -7479,7 +7581,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 92,
+              "position": 96,
               "id": "01j421m304fbn5rwfh0a9bpzp3",
               "title": "Fear as a Game",
               "author": "Cheri Lucas Rowlands",
@@ -7508,7 +7610,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 93,
+              "position": 97,
               "id": "01j6ft003zzdp1gdw7j9qc1dnr",
               "title": "🌲 The Value of Consistent Naming Conventions\n🌲 The Value of Consistent Naming Conventions",
               "author": "Eleanor Konik",
@@ -7534,7 +7636,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 94,
+              "position": 98,
               "id": "01jkgy1x7yacy66ys284ddq8yw",
               "title": "Why do most popular science books suck?",
               "author": "Erik Hoel",
@@ -7563,7 +7665,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 95,
+              "position": 99,
               "id": "01jkh2vn8hfm2b2ys7eefgrw9h",
               "title": "Advice for a friend who wants to start a blog",
               "author": "Henrik Karlsson",
@@ -7592,7 +7694,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 96,
+              "position": 100,
               "id": "01jkh2w2capy38f589kqkvyt4s",
               "title": "A funny thing about curiosity",
               "author": "Henrik Karlsson",
@@ -7614,113 +7716,6 @@ window.TOP_ARTICLES = {
                 "learning & meta-learning",
                 "personal growth & life philosophy",
                 "writing & essays"
-              ],
-              "alsoIn": []
-            },
-            {
-              "position": 97,
-              "id": "01jkh2yf7hahdnt87t68w0f1f5",
-              "title": "On shortcuts and longcuts",
-              "author": "Henrik Karlsson",
-              "siteName": "henrikkarlsson.xyz",
-              "category": "article",
-              "language": "Engels",
-              "readingTime": "5 mins",
-              "readingMinutes": 5,
-              "wordCount": 1134,
-              "publishedDate": "2024-05-07",
-              "savedDate": "2025-02-07T20:52:13.766000+00:00",
-              "imageUrl": "https://substackcdn.com/image/fetch/w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F4d208cc5-4f81-46ea-980a-3212b7bde5e5_1024x939.png",
-              "sourceUrl": "https://www.henrikkarlsson.xyz/p/on-shortcuts-and-longcuts?r=1r0y5d&utm_medium=ios&triedRedirect=true",
-              "readwiseUrl": "https://read.readwise.io/read/01jkh2yf7hahdnt87t68w0f1f5",
-              "summary": "The author discusses the idea of creating \"longcuts\" in design and writing to encourage exploration and deeper experiences, rather than simply paving shortcuts for convenience. By making paths that lead to overlooked areas, people can discover beauty and engage in meaningful activities. This approach can transform how individuals perceive their relationships and surroundings, fostering a richer connection to the world.",
-              "whyRead": "Raakt essay schrijven, leren en levensfilosofie. Karlsson draait de gebruikelijke efficiëntielogica om: waardevol werk leidt je niet sneller naar een bekend doel, maar maakt een omweg begaanbaar waar je anders nooit zou komen.",
-              "bestMoment": "geïnspireerd",
-              "tags": [
-                "learning & meta-learning",
-                "personal growth & life philosophy",
-                "writing & essays"
-              ],
-              "alsoIn": []
-            },
-            {
-              "position": 98,
-              "id": "01jzmk1agxw641yh3b3tv2szzv",
-              "title": "Self-Directed Education: What Is It and How Does It Work?",
-              "author": "Peter Gray",
-              "siteName": "substack.com",
-              "category": "article",
-              "language": "Engels",
-              "readingTime": "9 mins",
-              "readingMinutes": 9,
-              "wordCount": 2152,
-              "publishedDate": "2025-07-07",
-              "savedDate": "2025-07-08T08:39:29.999000+00:00",
-              "imageUrl": "https://substackcdn.com/image/fetch/$s_!kx0u!,w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F3eb11939-4096-4703-8d97-490f40254bf4_1920x667.png",
-              "sourceUrl": "https://petergray.substack.com/p/self-directed-education-what-is-it?r=1r0y5d&utm_medium=ios&triedRedirect=true",
-              "readwiseUrl": "https://read.readwise.io/read/01jzmk1agxw641yh3b3tv2szzv",
-              "summary": "Self-Directed Education means learning by choosing your own activities and interests, not by following forced school rules. Children naturally learn best when they explore, play, and connect with others without pressure. This way of learning is growing because it works better and the internet makes it easier to find information and support.",
-              "whyRead": "Zelfgestuurd onderwijs — wat het is en hoe het werkt buiten traditionele structuren.",
-              "bestMoment": "leergierig",
-              "tags": [
-                "internet & platforms",
-                "learning & meta-learning",
-                "parenting & care"
-              ],
-              "alsoIn": []
-            },
-            {
-              "position": 99,
-              "id": "01k2p37kkgn4hk8dn1qxb870qd",
-              "title": "How to Teach Textual Criticism To Fifth-Graders",
-              "author": "nephew jonathan",
-              "siteName": "substack.com",
-              "category": "article",
-              "language": "Engels",
-              "readingTime": "8 mins",
-              "readingMinutes": 8,
-              "wordCount": 2087,
-              "publishedDate": "2025-07-22",
-              "savedDate": "2025-08-15T05:28:53.106000+00:00",
-              "imageUrl": "https://substackcdn.com/image/fetch/$s_!OcBy!,w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ffa26ce33-0ab5-462b-a532-a7b0663b823e_505x437.png",
-              "sourceUrl": "https://nephewjonathan.substack.com/p/how-to-teach-textual-criticism-to",
-              "readwiseUrl": "https://read.readwise.io/read/01k2p37kkgn4hk8dn1qxb870qd",
-              "summary": "The author taught fifth-graders how to do textual criticism using copies of classical texts with intentional mistakes. Students compared different versions to learn how ancient writings were copied and changed over time. This hands-on method made learning fun and helped kids understand how we know what old authors really wrote.",
-              "whyRead": "Tekstkritiek bijbrengen aan groep 7 — over literatuuronderwijs en kritisch lezen voor kinderen.",
-              "bestMoment": "leergierig",
-              "tags": [
-                "arts & culture",
-                "learning & meta-learning",
-                "light-reading",
-                "writing & essays"
-              ],
-              "alsoIn": [
-                "aaa-luchtig-top-100"
-              ]
-            },
-            {
-              "position": 100,
-              "id": "01k79j7ef2nh8tmgv41f9k6az3",
-              "title": "What do Japan’s hikikomori reveal about our lonely world?",
-              "author": "Alain Julian",
-              "siteName": "Psyche",
-              "category": "article",
-              "language": "Engels",
-              "readingTime": "8 mins",
-              "readingMinutes": 8,
-              "wordCount": 1967,
-              "publishedDate": "2025-10-09",
-              "savedDate": "2025-10-11T11:59:17.986000+00:00",
-              "imageUrl": "https://images.aeonmedia.co/images/e153a0a7-3f53-4388-8fc7-1ab034e83e72/new_it-felt-safe-here_01.jpg?top=142&left=0&cropWidth=2720&cropHeight=1530&width=1200&quality=75&format=jpg",
-              "sourceUrl": "https://psyche.co/ideas/what-do-japans-hikikomori-reveal-about-our-lonely-world",
-              "readwiseUrl": "https://read.readwise.io/read/01k79j7ef2nh8tmgv41f9k6az3",
-              "summary": "Hikikomori are people who withdraw from work and social life, often after trauma, not just lazy or weak. Rehab centers teach independence and discipline, but that can leave people feeling no more connected. Their struggles reflect wider social isolation as communities, stable jobs and belonging disappear.",
-              "whyRead": "Diepgaand portret van Japan's hikikomori-fenomeen — radicale sociale terugtrekking.",
-              "bestMoment": "analytisch",
-              "tags": [
-                "business & work",
-                "personal growth & life philosophy",
-                "sociology & inequality"
               ],
               "alsoIn": []
             }
@@ -10280,9 +10275,7 @@ window.TOP_ARTICLES = {
                 "light-reading",
                 "writing & essays"
               ],
-              "alsoIn": [
-                "aaa-short-top-100"
-              ]
+              "alsoIn": []
             },
             {
               "position": 38,
@@ -20012,6 +20005,492 @@ window.TOP_ARTICLES = {
   ],
   "catalog": {
     "items": [
+      {
+        "position": null,
+        "id": "01m17yb7tcst6d0m8k4aq2ft80",
+        "title": "The Examined Life in the Age of Optimisation",
+        "author": "Rodney King",
+        "siteName": "New York Journal of Philosophy",
+        "category": "article",
+        "language": null,
+        "readingTime": "10 mins",
+        "readingMinutes": 10,
+        "wordCount": 2566,
+        "publishedDate": "2026-08-05",
+        "savedDate": "2026-08-29T23:40:43.722000+00:00",
+        "imageUrl": "https://substackcdn.com/image/fetch/$s_!AFAR!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Feb62e8f8-67a5-4544-8d8e-c7825624d019_1280x937.jpeg",
+        "sourceUrl": "https://journal.nyphilosophy.org/p/the-examined-life-in-the-age-of-optimisation",
+        "readwiseUrl": "https://read.readwise.io/read/01m17yb7tcst6d0m8k4aq2ft80",
+        "summary": "By Rodney King",
+        "whyRead": "Raakt je interesse in filosofie — een scherp essay over hoe optimalisatie en zelfverbetering onze omgang met betekenis hebben overgenomen, met verwijzingen naar Marcel, Han en Hadot.",
+        "bestMoment": "analytisch",
+        "tags": [
+          "personal growth & life philosophy",
+          "philosophy"
+        ],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01m17yb0acqmetaqyrrhk1pmta",
+        "title": "Being and Snoozing: Sleep and the Limits of Self-Authorship",
+        "author": "New York Journal of Philosophy",
+        "siteName": "Substack",
+        "category": "article",
+        "language": null,
+        "readingTime": "8 mins",
+        "readingMinutes": 8,
+        "wordCount": 1948,
+        "publishedDate": "2026-08-27",
+        "savedDate": "2026-08-29T23:40:36.044000+00:00",
+        "imageUrl": "https://substackcdn.com/image/fetch/$s_!peNX!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F005dc7db-d68b-4260-9a7a-a4312da5b1c0_888x1252.png",
+        "sourceUrl": "https://substack.com/@newyorkjournalofphilosophy/p-213017393",
+        "readwiseUrl": "https://read.readwise.io/read/01m17yb0acqmetaqyrrhk1pmta",
+        "summary": "By Grace Theodoly",
+        "whyRead": "Raakt je interesse in filosofie — een geestige, persoonlijke verkenning van waarom slaap zich niet laat inpassen in het verhaal van zelfsturing en productiviteit.",
+        "bestMoment": "ontspannen",
+        "tags": [
+          "light-reading",
+          "personal growth & life philosophy",
+          "philosophy"
+        ],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01m17y7pmsd705vznyyfyczfxv",
+        "title": "Bulkdatasets AIVD en MIVD: de schaduw geheime dienst",
+        "author": "berthub.eu",
+        "siteName": "Bert Hubert's writings",
+        "category": "article",
+        "language": null,
+        "readingTime": "4 mins",
+        "readingMinutes": 4,
+        "wordCount": 1008,
+        "publishedDate": "2026-07-01",
+        "savedDate": "2026-08-29T23:38:47.830000+00:00",
+        "imageUrl": "https://berthub.eu/articles/c-m-X_j3b4rqnlk-unsplash.jpg",
+        "sourceUrl": "https://berthub.eu/articles/posts/de-schaduwgeheimedienst/",
+        "readwiseUrl": "https://read.readwise.io/read/01m17y7pmsd705vznyyfyczfxv",
+        "summary": "Uit een vandaag verschenen onderzoeksrapport (PDF) blijkt dat de AIVD en MIVD slordig en soms onrechtmatig omgaan met bulkdatasets.\nBulkdatasets zijn grote bestanden vol data over vaak miljoenen willekeurige mensen, data die op een of andere manier in het bezit van de diensten gekomen is. Uit het rapport:\n“De diensten kunnen bulkdatasets bijvoorbeeld verkrijgen van informanten, andere overheidsorganisaties, buitenlandse inlichtingendiensten, of tegen betaling van commerciële partijen. De diensten kunnen ook bijzondere bevoegdheden inzetten om bulkdatasets te verwerven.",
+        "whyRead": "versterkt je interesse in de Nederlandse situatie rond inlichtingendiensten — sluit direct aan bij de eerdere notitie over de nieuwe Wiv. Bert Hubert legt uit hoe AIVD en MIVD via een \"schaduwarchief\" van gekochte en gelekte bulkdata de gebruikelijke toetsingsprocedures omzeilen.",
+        "bestMoment": "kritisch",
+        "tags": [
+          "current affairs & politics",
+          "linked-from-readwise",
+          "political philosophy",
+          "technology"
+        ],
+        "alsoIn": [
+          "aaa-short-top-100"
+        ],
+        "memberships": [
+          {
+            "familyId": "kort",
+            "size": "top-100",
+            "position": 93
+          }
+        ]
+      },
+      {
+        "position": null,
+        "id": "01m17y5hdwfckey3k6bs7bnssw",
+        "title": "AI as Simulacra",
+        "author": "New York Journal of Philosophy",
+        "siteName": "New York Journal of Philosophy",
+        "category": "article",
+        "language": null,
+        "readingTime": "17 mins",
+        "readingMinutes": 17,
+        "wordCount": 4421,
+        "publishedDate": "2026-02-11",
+        "savedDate": "2026-08-29T23:37:36.954000+00:00",
+        "imageUrl": "https://substackcdn.com/image/fetch/$s_!6mjd!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F5dc4557f-51ff-41fa-8979-16a6373d8142_750x572.jpeg",
+        "sourceUrl": "https://journal.nyphilosophy.org/p/ai-as-simulacra",
+        "readwiseUrl": "https://read.readwise.io/read/01m17y5hdwfckey3k6bs7bnssw",
+        "summary": "Why Generative AI Feels Wrong and What That Means For Us",
+        "whyRead": "Raakt je interesse in AI en filosofie — een analytische lezing van generatieve AI via Baudrillards theorie van de simulacra.",
+        "bestMoment": "analytisch",
+        "tags": [
+          "ai ethics & society",
+          "philosophy"
+        ],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01m17y5edpc9b2z16dmwbkxaz7",
+        "title": "Existentialism in a Capitalist World",
+        "author": "Kalika Padte",
+        "siteName": "New York Journal of Philosophy",
+        "category": "article",
+        "language": null,
+        "readingTime": "6 mins",
+        "readingMinutes": 6,
+        "wordCount": 1402,
+        "publishedDate": "2026-07-15",
+        "savedDate": "2026-08-29T23:37:33.878000+00:00",
+        "imageUrl": "https://substackcdn.com/image/fetch/$s_!tB2A!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fdf305a48-57d0-4956-be65-8b799fd6a642_850x731.jpeg",
+        "sourceUrl": "https://journal.nyphilosophy.org/p/existentialism-in-a-capitalist-world",
+        "readwiseUrl": "https://read.readwise.io/read/01m17y5edpc9b2z16dmwbkxaz7",
+        "summary": "By Kalika Padte",
+        "whyRead": "Raakt je interesse in filosofie en politieke filosofie — een essayistisch pleidooi dat Sartriaans existentialisme inzet tegen de manier waarop het kapitalisme onze identiteit vooraf invult.",
+        "bestMoment": "analytisch",
+        "tags": [
+          "philosophy",
+          "political philosophy"
+        ],
+        "alsoIn": [
+          "aaa-short-top-100"
+        ],
+        "memberships": [
+          {
+            "familyId": "kort",
+            "size": "top-100",
+            "position": 92
+          }
+        ]
+      },
+      {
+        "position": null,
+        "id": "01m17y5avkmwk706jq3d4vzxxm",
+        "title": "We Perform, Therefore We Belong: Performativity in Society",
+        "author": "New York Journal of Philosophy",
+        "siteName": "New York Journal of Philosophy",
+        "category": "article",
+        "language": null,
+        "readingTime": "9 mins",
+        "readingMinutes": 9,
+        "wordCount": 2286,
+        "publishedDate": "2026-03-18",
+        "savedDate": "2026-08-29T23:37:30.227000+00:00",
+        "imageUrl": "https://substackcdn.com/image/fetch/$s_!CAmu!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F5b0201bb-da0a-4aa1-ba1b-b34ac28b3555_1886x1166.png",
+        "sourceUrl": "https://journal.nyphilosophy.org/p/we-perform-therefore-we-belong-performativity",
+        "readwiseUrl": "https://read.readwise.io/read/01m17y5avkmwk706jq3d4vzxxm",
+        "summary": "How Performativity is a Crucial Part of Society",
+        "whyRead": "Raakt je interesse in filosofie en sociologie — een analytisch essay dat performativiteit (Gen Z-cultuur, mode, sociale media) herkadert via speltheorie, Goffman en Barthes.",
+        "bestMoment": "analytisch",
+        "tags": [
+          "philosophy",
+          "sociology & social structures"
+        ],
+        "alsoIn": [
+          "aaa-short-top-100"
+        ],
+        "memberships": [
+          {
+            "familyId": "kort",
+            "size": "top-100",
+            "position": 91
+          }
+        ]
+      },
+      {
+        "position": null,
+        "id": "01m17y4t5r4g7qvrmgmf0aq8ep",
+        "title": "Modern Sisyphus: The Absurdity of the Corporate World",
+        "author": "New York Journal of Philosophy",
+        "siteName": "New York Journal of Philosophy",
+        "category": "article",
+        "language": null,
+        "readingTime": "5 mins",
+        "readingMinutes": 5,
+        "wordCount": 1192,
+        "publishedDate": "2026-08-12",
+        "savedDate": "2026-08-29T23:37:13.076000+00:00",
+        "imageUrl": "https://substackcdn.com/image/fetch/$s_!_SIH!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fea11e989-960d-4eff-a5bb-f606335f5362_1216x864.png",
+        "sourceUrl": "https://journal.nyphilosophy.org/p/modern-sisyphus-the-absurdity-of",
+        "readwiseUrl": "https://read.readwise.io/read/01m17y4t5r4g7qvrmgmf0aq8ep",
+        "summary": "By Unwana Johnson",
+        "whyRead": "Raakt je interesse in filosofie — een scherp, geestig essay dat Camus' absurdisme toepast op de moderne kantoorcultuur en LinkedIn-prestatietheater.",
+        "bestMoment": "analytisch",
+        "tags": [
+          "personal growth & life philosophy",
+          "philosophy"
+        ],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01m17x1rpdmwb33e010taj33rf",
+        "title": "Kan een Amerikaans bedrijf met encryptie de Amerikaanse overheid buiten de deur houden?",
+        "author": "Bert Hubert's writings",
+        "siteName": "Bert Hubert's writings",
+        "category": "rss",
+        "language": null,
+        "readingTime": "3 mins",
+        "readingMinutes": 3,
+        "wordCount": 746,
+        "publishedDate": "2026-07-21",
+        "savedDate": "2026-08-29T23:17:49.750000+00:00",
+        "imageUrl": "https://berthub.eu/articles/favicon.ico",
+        "sourceUrl": "https://berthub.eu/articles/posts/kan-een-amerikaans-bedrijf-zo-versleutelen-dat-amerikanen-er-niet-bijkunnen/",
+        "readwiseUrl": "https://read.readwise.io/read/01m17x1rpdmwb33e010taj33rf",
+        "summary": "Het is inmiddels duidelijk dat zelfs maar deels Amerikaanse bedrijven met allerhande middelen gedwongen kunnen worden om onze data te overhandigen aan de Amerikaanse overheid.\nOok kan de dienstverlening gestaakt worden na een enkel briefje op Whitehouse.gov, wat zonder enige rechterlijke toetsing geplaatst kan worden.\nTegen deze beide dingen is met papier niets te doen. Geen speciale afspraak zal je redden uit dit probleem (dit ook volgens de Landsadvocaat).\nMaar, er is dan soms nog de hoop om de data nog wel privé te houden met speciale encryptie.",
+        "whyRead": "Raakt je interesse in technologie en digitale soevereiniteit — Hubert sloopt hier het populairste geruststellende argument in het Nederlandse cloud-debat (\"we houden de sleutels zelf\") met technische in plaats van juridische argumenten. Nederlandse context, direct bruikbaar in discussies op werk.",
+        "bestMoment": "kritisch",
+        "tags": [
+          "current affairs & politics",
+          "technology"
+        ],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01m17x1rh29c5vtzrngrxpedwn",
+        "title": "AI: Overwegingen voor wie erover gaat",
+        "author": "Bert Hubert's writings",
+        "siteName": "Bert Hubert's writings",
+        "category": "rss",
+        "language": null,
+        "readingTime": "22 mins",
+        "readingMinutes": 22,
+        "wordCount": 5693,
+        "publishedDate": "2026-07-29",
+        "savedDate": "2026-08-29T23:17:55.579000+00:00",
+        "imageUrl": "https://berthub.eu/articles/favicon.ico",
+        "sourceUrl": "https://berthub.eu/articles/posts/ai-voor-wie-erover-gaat/",
+        "readwiseUrl": "https://read.readwise.io/read/01m17x1rh29c5vtzrngrxpedwn",
+        "summary": "Onlangs presenteerde ik kort na elkaar bij het Netwerk van Publieke Dienstverleners en bij de Adviesraad Wetenschap, Technologie en Innovatie over AI. In deze twee verschillende maar korte presentaties hoopte ik wat inzichten te delen die nuttig zijn voor mensen die nu aan het stuur zitten, mensen die keuzes kunnen of moeten maken over AI-beleid.\nDit artikel is gebaseerd op deze twee verschillende presentaties. De eerste bij NPD ging over de concrete uitdagingen voor bestuurders.",
+        "whyRead": "Raakt je interesse in maatschappelijke reflectie op AI én je werk in organisaties — dit is het meest complete Nederlandse stuk over AI-beleid dat noch hype noch afserveren is. Hubert schrijft expliciet niet \"both sides\": beide kampen worden ergens boos. Direct bruikbaar als je in je organisatie het gesprek over tempo en verwachtingen moet voeren.",
+        "bestMoment": "kritisch",
+        "tags": [
+          "ai ethics & society",
+          "business & startups",
+          "technology"
+        ],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01m17wr52qrcjdjem6mbxtg5zc",
+        "title": "How Tech Loses Out over at Companies, Countries and Continents",
+        "author": "berthub.eu",
+        "siteName": "Bert Hubert's writings",
+        "category": "article",
+        "language": null,
+        "readingTime": "24 mins",
+        "readingMinutes": 24,
+        "wordCount": 6194,
+        "publishedDate": "2021-01-16",
+        "savedDate": "2026-08-29T23:12:49.751000+00:00",
+        "imageUrl": "https://berthub.eu/articles/toaster.jpg",
+        "sourceUrl": "https://berthub.eu/articles/posts/how-tech-loses-out/",
+        "readwiseUrl": "https://read.readwise.io/read/01m17wr52qrcjdjem6mbxtg5zc",
+        "summary": "Hi everyone,\nThis is a transcript of my presentation over at the European Microwave Week 2020, actually held in 2021. You can find the video here and the slides here. I’d like to thank Frank van Vliet, general chair of the EMW, for inviting me to do this talk.\nThe words have only been edited lightly - it is still presentation style, so here and there the sentences are not written like how they’d be in a more formal piece of work.",
+        "whyRead": "Raakt je interesse in technologie, sociologie/organisatiestructuren en agile werken — Hubert legt uit hoe organisaties hun technische vermogen kwijtraken door outsourcing, en wat dat betekent voor teams, talent en Europa als geheel.",
+        "bestMoment": "kritisch",
+        "tags": [
+          "business & startups",
+          "current affairs & politics",
+          "linked-from-readwise",
+          "technology"
+        ],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01m17wr4d0fg1128qew8wwab2v",
+        "title": "the purpose of a system is what it does",
+        "author": "erinmerylstudy.substack.com",
+        "siteName": "The Learning Lab",
+        "category": "article",
+        "language": null,
+        "readingTime": "5 mins",
+        "readingMinutes": 5,
+        "wordCount": 1201,
+        "publishedDate": "2026-07-07",
+        "savedDate": "2026-08-29T23:12:49.056000+00:00",
+        "imageUrl": "https://substackcdn.com/image/fetch/$s_!jB6V!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F0677aa5a-7a92-481d-ba94-9a1f7cb36cf0_734x399.jpeg",
+        "sourceUrl": "https://erinmerylstudy.substack.com/p/the-purpose-of-a-system-is-what-it",
+        "readwiseUrl": "https://read.readwise.io/read/01m17wr4d0fg1128qew8wwab2v",
+        "summary": "you included",
+        "whyRead": "Raakt je interesse in filosofie en persoonlijke levensbeschouwing — Stafford Beers systeemaforisme wordt hier van een cynisch instituutswapen omgebouwd tot een instrument voor zelfkennis. Kort, scherp geschreven, en direct bruikbaar op je eigen voornemens.",
+        "bestMoment": "reflectief",
+        "tags": [
+          "behavioral psychology & coaching",
+          "linked-from-readwise",
+          "personal growth & life philosophy",
+          "philosophy"
+        ],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01m17hd8qj17dbesjcmkseez23",
+        "title": "in defence of learning useless things",
+        "author": "erinmerylstudy",
+        "siteName": "The Learning Lab",
+        "category": "article",
+        "language": null,
+        "readingTime": "6 mins",
+        "readingMinutes": 6,
+        "wordCount": 1414,
+        "publishedDate": "2026-07-08",
+        "savedDate": "2026-08-29T19:54:38.706000+00:00",
+        "imageUrl": "https://substackcdn.com/image/fetch/$s_!dUIC!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd3a6a642-1087-489b-a05d-5fe052273057_736x987.jpeg",
+        "sourceUrl": "https://erinmerylstudy.substack.com/p/in-defence-of-learning-useless-things?utm_source=direct&r=1r0y5d&utm_campaign=post-expanded-share&utm_medium=post%20viewer",
+        "readwiseUrl": "https://read.readwise.io/read/01m17hd8qj17dbesjcmkseez23",
+        "summary": "I can tell you everything there is to know about the formation of American English and why it differs from British English.",
+        "whyRead": "Raakt je interesse in filosofie én leren/meta-learning — een essay dat de ledger-logica achter 'nut' zelf ontmantelt in plaats van er een langere terugverdientijd voor te bepleiten. Direct relevant voor hoe je je eigen lees- en kennispraktijk verantwoordt.",
+        "bestMoment": "analytisch",
+        "tags": [
+          "learning & meta-learning",
+          "philosophy"
+        ],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01m17hcyt40k1nn13p6cp7eyr9",
+        "title": "the tyranny of the measurable",
+        "author": "erinmerylstudy",
+        "siteName": "The Learning Lab",
+        "category": "article",
+        "language": null,
+        "readingTime": "5 mins",
+        "readingMinutes": 5,
+        "wordCount": 1289,
+        "publishedDate": "2026-07-10",
+        "savedDate": "2026-08-29T19:54:28.547000+00:00",
+        "imageUrl": "https://substackcdn.com/image/fetch/$s_!JVbg!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd9e5d3b5-3d23-488f-abc5-3677a3e62f63_480x540.jpeg",
+        "sourceUrl": "https://erinmerylstudy.substack.com/p/the-tyranny-of-the-measurable?utm_source=direct&r=1r0y5d&utm_campaign=post-expanded-share&utm_medium=post%20viewer",
+        "readwiseUrl": "https://read.readwise.io/read/01m17hcyt40k1nn13p6cp7eyr9",
+        "summary": "and why you should hate numbers",
+        "whyRead": "Raakt je interesse in filosofie en sociale structuren, en is beroepsmatig direct bruikbaar — dit is Goodhart's law als levensbeschouwing, met KPI's, velocity en dashboards als schoolvoorbeeld. Scherp materiaal voor gesprekken over flow-metrics die targets worden.",
+        "bestMoment": "analytisch",
+        "tags": [
+          "philosophy",
+          "sociology & social structures"
+        ],
+        "alsoIn": [
+          "aaa-short-top-100"
+        ],
+        "memberships": [
+          {
+            "familyId": "kort",
+            "size": "top-100",
+            "position": 90
+          }
+        ]
+      },
+      {
+        "position": null,
+        "id": "01m17hcnk56a235mq3sya7h5w4",
+        "title": "The Library Did Not Burn",
+        "author": "erinmerylstudy",
+        "siteName": "The Learning Lab",
+        "category": "article",
+        "language": null,
+        "readingTime": "6 mins",
+        "readingMinutes": 6,
+        "wordCount": 1480,
+        "publishedDate": "2026-07-22",
+        "savedDate": "2026-08-29T19:54:19.109000+00:00",
+        "imageUrl": "https://substackcdn.com/image/fetch/$s_!D2wR!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fe8808540-780e-45db-ab56-f779cc0c0044_1200x600.jpeg",
+        "sourceUrl": "https://erinmerylstudy.substack.com/p/the-library-did-not-burn?utm_source=direct&r=1r0y5d&utm_campaign=post-expanded-share&utm_medium=post%20viewer",
+        "readwiseUrl": "https://read.readwise.io/read/01m17hcnk56a235mq3sya7h5w4",
+        "summary": "The Library of Alexandria is popularly supposed to have burned.",
+        "whyRead": "Raakt je interesse in leren/kennisbeheer, geschiedenis én de maatschappelijke reflectie op AI — en het is een directe verdediging van wat je zelf doet met je vault: begrip bestaat alleen in de lezer, niet in de opslag.",
+        "bestMoment": "analytisch",
+        "tags": [
+          "ai ethics & society",
+          "history",
+          "learning & meta-learning"
+        ],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01m17hc9s31gyv0433ecry76qg",
+        "title": "On being a woman who wants power",
+        "author": "erinmerylstudy",
+        "siteName": "The Learning Lab",
+        "category": "article",
+        "language": null,
+        "readingTime": "10 mins",
+        "readingMinutes": 10,
+        "wordCount": 2505,
+        "publishedDate": "2026-08-17",
+        "savedDate": "2026-08-29T19:54:07.011000+00:00",
+        "imageUrl": "https://substackcdn.com/image/fetch/$s_!X0Pn!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F2d230f86-0670-49ff-ac4b-9484e9b42c21_1600x1283.webp",
+        "sourceUrl": "https://erinmerylstudy.substack.com/p/on-being-a-woman-who-wants-power?utm_source=direct&r=1r0y5d&utm_campaign=post-expanded-share&utm_medium=post%20viewer",
+        "readwiseUrl": "https://read.readwise.io/read/01m17hc9s31gyv0433ecry76qg",
+        "summary": "the juxtaposition of it all",
+        "whyRead": "Raakt je interesse in politieke filosofie en sociale structuren — een strak opgebouwd essay over macht (Weber, Russell, Plato, Foucault, Bourdieu) dat vermomd gaat als essay over gender. De 'onmisbaarheidsval' is direct herkenbaar in teamrollen en organisatiedynamiek.",
+        "bestMoment": "analytisch",
+        "tags": [
+          "philosophy",
+          "political philosophy",
+          "sociology & social structures"
+        ],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01m17e30xctjrv8e3qfrn8j2js",
+        "title": "Jouw tech of mijn tech: kies snel",
+        "author": "Bert Hubert's writings",
+        "siteName": "Bert Hubert's writings",
+        "category": "article",
+        "language": null,
+        "readingTime": "9 mins",
+        "readingMinutes": 9,
+        "wordCount": 2228,
+        "publishedDate": "2024-03-01",
+        "savedDate": "2026-08-29T18:56:37.293000+00:00",
+        "imageUrl": "https://berthub.eu/articles/Pat_Mat.jpg",
+        "sourceUrl": "https://berthub.eu/articles/posts/jouw-tech-mijn-tech/",
+        "readwiseUrl": "https://read.readwise.io/read/01m17e30xctjrv8e3qfrn8j2js",
+        "summary": "De hele korte versie: organisaties twijfelen vaak vele jaren over het uitbesteden van dingen, met name ICT. Gedurende die jaren vertrekken de goede ICT-mensen, want steeds je eigen bestaan moeten rechtvaardigen is rot. Op termijn gaat er dan weleens iets goed mis, en is de keuze daarna makkelijk: we kunnen en willen dit niet meer zelf doen. Maar door jaren te twijfelen heb je het daar zelf naar gemaakt. In dit stuk staat een lijstje criteria waarom je iets zelf zou willen blijven doen.",
+        "whyRead": "Raakt je werk als Scrum Master en je interesse in technologie, organisatieontwerp en digitale soevereiniteit. Hubert geeft een scherp Nederlands kader om bewust te kiezen wat je zelf moet beheersen en wat je kunt uitbesteden.",
+        "bestMoment": "kritisch",
+        "tags": [
+          "business & startups",
+          "current affairs & politics",
+          "technology"
+        ],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01m175k5vk8h509et0sx1bpej7",
+        "title": "Malory and the Story of King Arthur",
+        "author": "Evan Þ from Papyrus Rampant",
+        "siteName": "Substack",
+        "category": "email",
+        "language": null,
+        "readingTime": "6 mins",
+        "readingMinutes": 6,
+        "wordCount": 1480,
+        "publishedDate": "2026-08-29",
+        "savedDate": "2026-08-29T16:28:09.460000+00:00",
+        "imageUrl": null,
+        "sourceUrl": "mailto:reader-forwarded-email/7d2e4fbe5f934802cafb944a6796e3be",
+        "readwiseUrl": "https://read.readwise.io/read/01m175k5vk8h509et0sx1bpej7",
+        "summary": "Perhaps the most comprehensive telling of King Arthur stories is Le Morte D’Arthur, written by Sir Thomas Malory around 1470. It’s “the classic English-language chronicle,” in Wikipedia’s words.",
+        "whyRead": "Raakt je interesse in fantasy als cultuurvorm en ideeëngeschiedenis. Dit essay maakt van Malory’s Arthur-compilatie een toegankelijke reflectie op canonvorming, auteursmysterie en verhalen die groter zijn dan één versie.",
+        "bestMoment": "ontspannen",
+        "tags": [
+          "arts & culture",
+          "history",
+          "light-reading"
+        ],
+        "alsoIn": [],
+        "memberships": []
+      },
       {
         "position": null,
         "id": "01m16r14xs8h65sm0ybdkqbqx7",
@@ -31128,6 +31607,58 @@ window.TOP_ARTICLES = {
             "position": 53
           }
         ]
+      },
+      {
+        "position": null,
+        "id": "01kysfnmch64caw55zqjkn4td2",
+        "title": "I Will Fucking Piledrive You If You Mention AI Again",
+        "author": "ludic.mataroa.blog",
+        "siteName": "mataroa.blog",
+        "category": "article",
+        "language": "Engels",
+        "readingTime": "18 mins",
+        "readingMinutes": 18,
+        "wordCount": 4617,
+        "publishedDate": "2024-06-19",
+        "savedDate": "2026-08-29T23:38:46.397000+00:00",
+        "imageUrl": null,
+        "sourceUrl": "https://ludic.mataroa.blog/blog/i-will-fucking-piledrive-you-if-you-mention-ai-again/",
+        "readwiseUrl": "https://read.readwise.io/read/01kysfnmch64caw55zqjkn4td2",
+        "summary": "The recent innovations in the AI space, most notably those such as GPT-4, obviously have far-reaching implications for society, ranging from the utopian eliminating of drudgery, to the dystopian damage to the livelihood of artists in a capitalist society, to existential threats to humanity itself.",
+        "whyRead": "Polemisch, geestig essay van een data scientist/IT-consultant die de bedrijfs-AI-hype vanuit de praktijk ontmaskert — gefaked demo's, misleidende enquêtecijfers en het argument dat de meeste bedrijven eerst hun basis-IT op orde moeten krijgen voordat AI iets oplevert. Sluit direct aan bij AI-ethiek als kernthema en bij de voorkeur voor essays met stem en humor naast diepgang.",
+        "bestMoment": "Op een moment met ruimte voor een polemische, humoristische leeservaring — niet vlak voor een AI-strategiegesprek op werk.",
+        "tags": [
+          "ai ethics & society",
+          "business & startups"
+        ],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01kysfnf6jy1cq0eax8gwfxt5t",
+        "title": "AI Mania Is Eviscerating Global Decision-Making",
+        "author": "Nikhil Suresh",
+        "siteName": "hermit-tech",
+        "category": "article",
+        "language": "Engels",
+        "readingTime": "24 mins",
+        "readingMinutes": 24,
+        "wordCount": 6151,
+        "publishedDate": "2026-07-18",
+        "savedDate": "2026-08-29T23:38:45.705000+00:00",
+        "imageUrl": "https://hermit-tech.com/images/assets/share-img-a07c0f99bf68eb4deba4a5bc2e3b9d36.png?vsn=d",
+        "sourceUrl": "https://hermit-tech.com/blog/ai-mania-is-eviscerating-global-decisionmaking",
+        "readwiseUrl": "https://read.readwise.io/read/01kysfnf6jy1cq0eax8gwfxt5t",
+        "summary": "The reality of how much damage AI mania is doing to our ability to run institutions effectively.",
+        "whyRead": "Scherp, met stem geschreven essay van een IT-consultant die illustreert hoe AI-hype organisatorische besluitvorming ontregelt — met concrete anekdotes over gefaalde AI-projecten, exec-groepsdruk en het spel-theoretische mechanisme waardoor niemand eerlijk durft te zijn.",
+        "bestMoment": "kritisch",
+        "tags": [
+          "ai ethics & society",
+          "business & startups"
+        ],
+        "alsoIn": [],
+        "memberships": []
       },
       {
         "position": null,
@@ -46728,16 +47259,8 @@ window.TOP_ARTICLES = {
           "personal growth & life philosophy",
           "sociology & inequality"
         ],
-        "alsoIn": [
-          "aaa-short-top-100"
-        ],
-        "memberships": [
-          {
-            "familyId": "kort",
-            "size": "top-100",
-            "position": 100
-          }
-        ]
+        "alsoIn": [],
+        "memberships": []
       },
       {
         "position": null,
@@ -47757,15 +48280,9 @@ window.TOP_ARTICLES = {
           "writing & essays"
         ],
         "alsoIn": [
-          "aaa-short-top-100",
           "aaa-luchtig-top-100"
         ],
         "memberships": [
-          {
-            "familyId": "kort",
-            "size": "top-100",
-            "position": 99
-          },
           {
             "familyId": "luchtig",
             "size": "top-100",
@@ -48005,16 +48522,8 @@ window.TOP_ARTICLES = {
           "learning & meta-learning",
           "parenting & care"
         ],
-        "alsoIn": [
-          "aaa-short-top-100"
-        ],
-        "memberships": [
-          {
-            "familyId": "kort",
-            "size": "top-100",
-            "position": 98
-          }
-        ]
+        "alsoIn": [],
+        "memberships": []
       },
       {
         "position": null,
@@ -48324,16 +48833,8 @@ window.TOP_ARTICLES = {
           "personal growth & life philosophy",
           "writing & essays"
         ],
-        "alsoIn": [
-          "aaa-short-top-100"
-        ],
-        "memberships": [
-          {
-            "familyId": "kort",
-            "size": "top-100",
-            "position": 97
-          }
-        ]
+        "alsoIn": [],
+        "memberships": []
       },
       {
         "position": null,
@@ -48455,7 +48956,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 96
+            "position": 100
           }
         ]
       },
@@ -48492,7 +48993,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 95
+            "position": 99
           },
           {
             "familyId": "luchtig",
@@ -48534,7 +49035,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 94
+            "position": 98
           },
           {
             "familyId": "luchtig",
@@ -48962,7 +49463,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 93
+            "position": 97
           }
         ]
       },
@@ -49362,7 +49863,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 92
+            "position": 96
           },
           {
             "familyId": "luchtig",
@@ -49687,7 +50188,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 91
+            "position": 95
           }
         ]
       },
@@ -51024,7 +51525,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 90
+            "position": 94
           }
         ]
       },
@@ -51354,108 +51855,108 @@ window.TOP_ARTICLES = {
           "position": 4
         },
         {
+          "id": "01m0yzc4t547m4zm0yvgrk39xb",
+          "title": "The Future of Agile Coaches: Do Large Companies Need a Standardized Agile Coach Certification and What Are the Alternatives?",
+          "position": 5
+        },
+        {
           "id": "01k72qvbmwd9xp0k233cv5qgw2",
           "title": "A blog post is a very long and complex search query to find fascinating people and make them route interesting stuff to your inbox",
-          "position": 5
+          "position": 6
         },
         {
           "id": "01kj59ew6gb91gscpt8f7htspq",
           "title": "Motivation And Personality",
-          "position": 6
+          "position": 7
         },
         {
           "id": "01krmzw6cw28m1y55ds9qrsxjf",
           "title": "Cities and Ambition",
-          "position": 7
+          "position": 8
         },
         {
           "id": "01kxr18pz677fa7xqfav7sp2dp",
           "title": "Capitalism: A Ghost Story",
-          "position": 8
+          "position": 9
         },
         {
           "id": "01m059szgmq8b5egbkgk1xe1rd",
           "title": "Arthur Koestler",
-          "position": 9
+          "position": 10
         },
         {
           "id": "01m059tvvs5m2bk6b68kyd7bay",
           "title": "Notes on Nationalism",
-          "position": 10
+          "position": 11
         },
         {
           "id": "01m059v21gaqg3ya0m36r03km4",
           "title": "Politics and the English Language",
-          "position": 11
+          "position": 12
         },
         {
           "id": "01m059v4r9jj9vzx30nn7cs3sr",
           "title": "Politics vs. Literature: An examination of Gulliver’s Travels",
-          "position": 12
+          "position": 13
         },
         {
           "id": "01m059vbg9k6x4z8p6198n481b",
           "title": "Second Thoughts on James Burnham",
-          "position": 13
+          "position": 14
         },
         {
           "id": "01m03b0vhwd52bhh3rdjhdafv2",
           "title": "Why I Write",
-          "position": 14
+          "position": 15
         },
         {
           "id": "01m0f5thx0x9f1rpdvj5r64m3m",
           "title": "Meditations On Moloch",
-          "position": 15
+          "position": 16
         },
         {
           "id": "01j8s9z9xg4shgce5z167zc7fn",
           "title": "📰 Food as Currency - by Eleanor Konik - Manuscriptions\n📰 Food as Currency",
-          "position": 16
+          "position": 17
         },
         {
           "id": "01jjmt3derk62gvm51m286870b",
           "title": "🎓 On Famines: why and how they happen. To who?",
-          "position": 17
+          "position": 18
         },
         {
           "id": "01k7qbgbanjkbvetnkfd47vkrz",
           "title": "How I wrote \"Looking for Alice\"",
-          "position": 18
+          "position": 19
         },
         {
           "id": "01k7qbgpmxd9gskhw16jx5b8yk",
           "title": "Popular education in Sweden: much more than you wanted to know",
-          "position": 19
+          "position": 20
         },
         {
           "id": "01krn1jdcn6b450yv1z0j92tz3",
           "title": "The Radical Sunzi",
-          "position": 20
+          "position": 21
         },
         {
           "id": "01kxy1qnae4npandc4x9mv4aw0",
           "title": "To Understand Elon Musk, You Have to Understand This ’60s Sci-Fi Novel",
-          "position": 21
+          "position": 22
         },
         {
           "id": "01ky7qe9p9qwtpk49bzc4pqqhk",
           "title": "Normal Accidents: Living with High-Risk Technologies",
-          "position": 22
+          "position": 23
         },
         {
           "id": "01m059t4kq0fgjsx21x28nbdqk",
           "title": "Freedom and Happiness (Review of ‘We’ by Yevgeny Zamyatin)",
-          "position": 23
+          "position": 24
         },
         {
           "id": "01m059t7cjgvc214sac3e4z08x",
           "title": "Freedom of the Park",
-          "position": 24
-        },
-        {
-          "id": "01m059thh2ytr4v45ebz778hxw",
-          "title": "In Front of Your Nose",
           "position": 25
         }
       ]
