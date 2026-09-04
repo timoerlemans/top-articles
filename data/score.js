@@ -1,9 +1,1206 @@
 // Automatisch gegenereerd door scripts/build-data.ts — niet handmatig bewerken.
 window.TOP_ARTICLE_PRIORITY = {
-  "generatedAt": "2026-09-03T08:39:25.071Z",
+  "generatedAt": "2026-09-04T04:49:35.705Z",
   "model": "readwise-priority-v3",
   "scope": "later",
   "items": {
+    "01m1kbq0bfrmeeb0fp3n93jdg2": {
+      "baseScore": 60,
+      "adjustment": 0,
+      "adjustmentReason": null,
+      "score": 60,
+      "tier": "midden",
+      "components": {
+        "kerninteresse": 30,
+        "diepgang": 10,
+        "persoonlijke_bruikbaarheid": 10,
+        "leeskans": 5,
+        "onderscheidende_duurzame_waarde": 5,
+        "aftrek": 0
+      },
+      "rationale": {
+        "kerninteresse": [
+          "Eén kerndomein: filosofie."
+        ],
+        "diepgang": [
+          "1.309 woorden."
+        ],
+        "persoonlijke_bruikbaarheid": [
+          "Indirect bruikbaar via een kerndomein."
+        ],
+        "leeskans": [
+          "Korte leestijd: 5 minuten."
+        ],
+        "onderscheidende_duurzame_waarde": [
+          "Minstens 1.200 woorden."
+        ],
+        "aftrek": []
+      },
+      "sequences": [
+        "lees",
+        "short",
+        "luchtig"
+      ],
+      "positions": {
+        "lees": 610,
+        "short": 401,
+        "luchtig": 130
+      },
+      "actualPositions": {
+        "lees": 610,
+        "short": 401,
+        "luchtig": 130
+      }
+    },
+    "01m1kbpzza4hf1h9enmh5p7h0b": {
+      "baseScore": 70,
+      "adjustment": 0,
+      "adjustmentReason": null,
+      "score": 70,
+      "tier": "hoog",
+      "components": {
+        "kerninteresse": 45,
+        "diepgang": 10,
+        "persoonlijke_bruikbaarheid": 10,
+        "leeskans": 0,
+        "onderscheidende_duurzame_waarde": 5,
+        "aftrek": 0
+      },
+      "rationale": {
+        "kerninteresse": [
+          "Minstens twee kerndomeinen: filosofie, ideologie."
+        ],
+        "diepgang": [
+          "3.837 woorden."
+        ],
+        "persoonlijke_bruikbaarheid": [
+          "Indirect bruikbaar via een kerndomein."
+        ],
+        "leeskans": [],
+        "onderscheidende_duurzame_waarde": [
+          "Minstens 1.200 woorden."
+        ],
+        "aftrek": []
+      },
+      "sequences": [
+        "lees"
+      ],
+      "positions": {
+        "lees": 329
+      },
+      "actualPositions": {
+        "lees": 329
+      }
+    },
+    "01m1kbpznvd2rxx9nz0ccdbntg": {
+      "baseScore": 70,
+      "adjustment": 0,
+      "adjustmentReason": null,
+      "score": 70,
+      "tier": "hoog",
+      "components": {
+        "kerninteresse": 45,
+        "diepgang": 10,
+        "persoonlijke_bruikbaarheid": 10,
+        "leeskans": 0,
+        "onderscheidende_duurzame_waarde": 5,
+        "aftrek": 0
+      },
+      "rationale": {
+        "kerninteresse": [
+          "Minstens twee kerndomeinen: filosofie, ideologie, geschiedenis."
+        ],
+        "diepgang": [
+          "2.952 woorden."
+        ],
+        "persoonlijke_bruikbaarheid": [
+          "Indirect bruikbaar via een kerndomein."
+        ],
+        "leeskans": [],
+        "onderscheidende_duurzame_waarde": [
+          "Minstens 1.200 woorden."
+        ],
+        "aftrek": []
+      },
+      "sequences": [
+        "lees"
+      ],
+      "positions": {
+        "lees": 328
+      },
+      "actualPositions": {
+        "lees": 328
+      }
+    },
+    "01m1kbpzarzxbrkcdx8maxqykp": {
+      "baseScore": 70,
+      "adjustment": 0,
+      "adjustmentReason": null,
+      "score": 70,
+      "tier": "hoog",
+      "components": {
+        "kerninteresse": 45,
+        "diepgang": 10,
+        "persoonlijke_bruikbaarheid": 10,
+        "leeskans": 0,
+        "onderscheidende_duurzame_waarde": 5,
+        "aftrek": 0
+      },
+      "rationale": {
+        "kerninteresse": [
+          "Minstens twee kerndomeinen: filosofie, ideologie."
+        ],
+        "diepgang": [
+          "3.035 woorden."
+        ],
+        "persoonlijke_bruikbaarheid": [
+          "Indirect bruikbaar via een kerndomein."
+        ],
+        "leeskans": [],
+        "onderscheidende_duurzame_waarde": [
+          "Minstens 1.200 woorden."
+        ],
+        "aftrek": []
+      },
+      "sequences": [
+        "lees"
+      ],
+      "positions": {
+        "lees": 327
+      },
+      "actualPositions": {
+        "lees": 327
+      }
+    },
+    "01m1kbpz220vmkh9j3w778eqee": {
+      "baseScore": 60,
+      "adjustment": 0,
+      "adjustmentReason": null,
+      "score": 60,
+      "tier": "midden",
+      "components": {
+        "kerninteresse": 30,
+        "diepgang": 10,
+        "persoonlijke_bruikbaarheid": 10,
+        "leeskans": 5,
+        "onderscheidende_duurzame_waarde": 5,
+        "aftrek": 0
+      },
+      "rationale": {
+        "kerninteresse": [
+          "Eén kerndomein: filosofie."
+        ],
+        "diepgang": [
+          "Verdiepend signaal in de tekst: essay."
+        ],
+        "persoonlijke_bruikbaarheid": [
+          "Indirect bruikbaar via een kerndomein."
+        ],
+        "leeskans": [
+          "Korte leestijd: 4 minuten."
+        ],
+        "onderscheidende_duurzame_waarde": [
+          "Aansluiting bij een kerndomein."
+        ],
+        "aftrek": []
+      },
+      "sequences": [
+        "lees",
+        "short"
+      ],
+      "positions": {
+        "lees": 609,
+        "short": 400
+      },
+      "actualPositions": {
+        "lees": 609,
+        "short": 400
+      }
+    },
+    "01m1kbpynaqqfqr1cpkmar7kr1": {
+      "baseScore": 70,
+      "adjustment": 0,
+      "adjustmentReason": null,
+      "score": 70,
+      "tier": "hoog",
+      "components": {
+        "kerninteresse": 45,
+        "diepgang": 10,
+        "persoonlijke_bruikbaarheid": 10,
+        "leeskans": 0,
+        "onderscheidende_duurzame_waarde": 5,
+        "aftrek": 0
+      },
+      "rationale": {
+        "kerninteresse": [
+          "Minstens twee kerndomeinen: filosofie, ideologie, geschiedenis."
+        ],
+        "diepgang": [
+          "3.509 woorden."
+        ],
+        "persoonlijke_bruikbaarheid": [
+          "Indirect bruikbaar via een kerndomein."
+        ],
+        "leeskans": [],
+        "onderscheidende_duurzame_waarde": [
+          "Minstens 1.200 woorden."
+        ],
+        "aftrek": []
+      },
+      "sequences": [
+        "lees"
+      ],
+      "positions": {
+        "lees": 326
+      },
+      "actualPositions": {
+        "lees": 326
+      }
+    },
+    "01m1kbpyawdpxn41s7rrrpcjnh": {
+      "baseScore": 80,
+      "adjustment": 0,
+      "adjustmentReason": null,
+      "score": 80,
+      "tier": "hoog",
+      "components": {
+        "kerninteresse": 45,
+        "diepgang": 10,
+        "persoonlijke_bruikbaarheid": 20,
+        "leeskans": 0,
+        "onderscheidende_duurzame_waarde": 5,
+        "aftrek": 0
+      },
+      "rationale": {
+        "kerninteresse": [
+          "Minstens twee kerndomeinen: filosofie, ideologie, sociologie."
+        ],
+        "diepgang": [
+          "3.639 woorden."
+        ],
+        "persoonlijke_bruikbaarheid": [
+          "Direct bruikbare tag: professional development."
+        ],
+        "leeskans": [],
+        "onderscheidende_duurzame_waarde": [
+          "Minstens 1.200 woorden."
+        ],
+        "aftrek": []
+      },
+      "sequences": [
+        "lees"
+      ],
+      "positions": {
+        "lees": 55
+      },
+      "actualPositions": {
+        "lees": 55
+      }
+    },
+    "01m1kbpy0d4mhwm6pmkvkvf13z": {
+      "baseScore": 70,
+      "adjustment": 0,
+      "adjustmentReason": null,
+      "score": 70,
+      "tier": "hoog",
+      "components": {
+        "kerninteresse": 30,
+        "diepgang": 10,
+        "persoonlijke_bruikbaarheid": 20,
+        "leeskans": 5,
+        "onderscheidende_duurzame_waarde": 5,
+        "aftrek": 0
+      },
+      "rationale": {
+        "kerninteresse": [
+          "Eén kerndomein: agile."
+        ],
+        "diepgang": [
+          "1.909 woorden."
+        ],
+        "persoonlijke_bruikbaarheid": [
+          "Direct bruikbare tag: professional development."
+        ],
+        "leeskans": [
+          "Korte leestijd: 8 minuten."
+        ],
+        "onderscheidende_duurzame_waarde": [
+          "Minstens 1.200 woorden."
+        ],
+        "aftrek": []
+      },
+      "sequences": [
+        "lees",
+        "short",
+        "scrum"
+      ],
+      "positions": {
+        "lees": 325,
+        "short": 198,
+        "scrum": 58
+      },
+      "actualPositions": {
+        "lees": 325,
+        "short": 198,
+        "scrum": 58
+      }
+    },
+    "01m1kbpx1eycghefpbevje0mxr": {
+      "baseScore": 60,
+      "adjustment": 0,
+      "adjustmentReason": null,
+      "score": 60,
+      "tier": "midden",
+      "components": {
+        "kerninteresse": 30,
+        "diepgang": 10,
+        "persoonlijke_bruikbaarheid": 10,
+        "leeskans": 5,
+        "onderscheidende_duurzame_waarde": 5,
+        "aftrek": 0
+      },
+      "rationale": {
+        "kerninteresse": [
+          "Eén kerndomein: sociologie."
+        ],
+        "diepgang": [
+          "1.871 woorden."
+        ],
+        "persoonlijke_bruikbaarheid": [
+          "Indirect bruikbaar via een kerndomein."
+        ],
+        "leeskans": [
+          "Korte leestijd: 8 minuten."
+        ],
+        "onderscheidende_duurzame_waarde": [
+          "Minstens 1.200 woorden."
+        ],
+        "aftrek": []
+      },
+      "sequences": [
+        "lees",
+        "short"
+      ],
+      "positions": {
+        "lees": 608,
+        "short": 399
+      },
+      "actualPositions": {
+        "lees": 608,
+        "short": 399
+      }
+    },
+    "01m1kbpwpstcswg39t97efrfxw": {
+      "baseScore": 60,
+      "adjustment": 0,
+      "adjustmentReason": null,
+      "score": 60,
+      "tier": "midden",
+      "components": {
+        "kerninteresse": 30,
+        "diepgang": 10,
+        "persoonlijke_bruikbaarheid": 10,
+        "leeskans": 5,
+        "onderscheidende_duurzame_waarde": 5,
+        "aftrek": 0
+      },
+      "rationale": {
+        "kerninteresse": [
+          "Eén kerndomein: sociologie."
+        ],
+        "diepgang": [
+          "1.786 woorden."
+        ],
+        "persoonlijke_bruikbaarheid": [
+          "Indirect bruikbaar via een kerndomein."
+        ],
+        "leeskans": [
+          "Korte leestijd: 7 minuten."
+        ],
+        "onderscheidende_duurzame_waarde": [
+          "Minstens 1.200 woorden."
+        ],
+        "aftrek": []
+      },
+      "sequences": [
+        "lees",
+        "short"
+      ],
+      "positions": {
+        "lees": 607,
+        "short": 398
+      },
+      "actualPositions": {
+        "lees": 607,
+        "short": 398
+      }
+    },
+    "01m1kbpt57wvjypjjdwtxa9pqa": {
+      "baseScore": 30,
+      "adjustment": 0,
+      "adjustmentReason": null,
+      "score": 30,
+      "tier": "laag",
+      "components": {
+        "kerninteresse": 15,
+        "diepgang": 10,
+        "persoonlijke_bruikbaarheid": 0,
+        "leeskans": 0,
+        "onderscheidende_duurzame_waarde": 5,
+        "aftrek": 0
+      },
+      "rationale": {
+        "kerninteresse": [
+          "Alleen een aangrenzend onderwerp."
+        ],
+        "diepgang": [
+          "3.173 woorden."
+        ],
+        "persoonlijke_bruikbaarheid": [],
+        "leeskans": [],
+        "onderscheidende_duurzame_waarde": [
+          "Minstens 1.200 woorden."
+        ],
+        "aftrek": []
+      },
+      "sequences": [
+        "lees"
+      ],
+      "positions": {
+        "lees": 957
+      },
+      "actualPositions": {
+        "lees": 957
+      }
+    },
+    "01m1kbpsqpze3kxjhmb4s5syj5": {
+      "baseScore": 55,
+      "adjustment": 0,
+      "adjustmentReason": null,
+      "score": 55,
+      "tier": "midden",
+      "components": {
+        "kerninteresse": 30,
+        "diepgang": 10,
+        "persoonlijke_bruikbaarheid": 10,
+        "leeskans": 0,
+        "onderscheidende_duurzame_waarde": 5,
+        "aftrek": 0
+      },
+      "rationale": {
+        "kerninteresse": [
+          "Eén kerndomein: geschiedenis."
+        ],
+        "diepgang": [
+          "3.690 woorden."
+        ],
+        "persoonlijke_bruikbaarheid": [
+          "Indirect bruikbaar via een kerndomein."
+        ],
+        "leeskans": [],
+        "onderscheidende_duurzame_waarde": [
+          "Minstens 1.200 woorden."
+        ],
+        "aftrek": []
+      },
+      "sequences": [
+        "lees"
+      ],
+      "positions": {
+        "lees": 764
+      },
+      "actualPositions": {
+        "lees": 764
+      }
+    },
+    "01m1kbprxbsr8731rbr0ktzhg0": {
+      "baseScore": 60,
+      "adjustment": 0,
+      "adjustmentReason": null,
+      "score": 60,
+      "tier": "midden",
+      "components": {
+        "kerninteresse": 30,
+        "diepgang": 10,
+        "persoonlijke_bruikbaarheid": 10,
+        "leeskans": 5,
+        "onderscheidende_duurzame_waarde": 5,
+        "aftrek": 0
+      },
+      "rationale": {
+        "kerninteresse": [
+          "Eén kerndomein: geschiedenis."
+        ],
+        "diepgang": [
+          "2.373 woorden."
+        ],
+        "persoonlijke_bruikbaarheid": [
+          "Indirect bruikbaar via een kerndomein."
+        ],
+        "leeskans": [
+          "Korte leestijd: 9 minuten."
+        ],
+        "onderscheidende_duurzame_waarde": [
+          "Minstens 1.200 woorden."
+        ],
+        "aftrek": []
+      },
+      "sequences": [
+        "lees",
+        "short",
+        "luchtig"
+      ],
+      "positions": {
+        "lees": 606,
+        "short": 397,
+        "luchtig": 129
+      },
+      "actualPositions": {
+        "lees": 606,
+        "short": 397,
+        "luchtig": 129
+      }
+    },
+    "01m1k28grf88yycep5fpqhn5qk": {
+      "baseScore": 70,
+      "adjustment": 0,
+      "adjustmentReason": null,
+      "score": 70,
+      "tier": "hoog",
+      "components": {
+        "kerninteresse": 30,
+        "diepgang": 10,
+        "persoonlijke_bruikbaarheid": 20,
+        "leeskans": 5,
+        "onderscheidende_duurzame_waarde": 5,
+        "aftrek": 0
+      },
+      "rationale": {
+        "kerninteresse": [
+          "Eén kerndomein: agile."
+        ],
+        "diepgang": [
+          "2.220 woorden."
+        ],
+        "persoonlijke_bruikbaarheid": [
+          "Direct bruikbare tag: professional development."
+        ],
+        "leeskans": [
+          "Korte leestijd: 9 minuten."
+        ],
+        "onderscheidende_duurzame_waarde": [
+          "Minstens 1.200 woorden."
+        ],
+        "aftrek": []
+      },
+      "sequences": [
+        "lees",
+        "short",
+        "scrum"
+      ],
+      "positions": {
+        "lees": 324,
+        "short": 197,
+        "scrum": 57
+      },
+      "actualPositions": {
+        "lees": 324,
+        "short": 197,
+        "scrum": 57
+      }
+    },
+    "01m1k28fvgdf57rh4bc6vxv547": {
+      "baseScore": 30,
+      "adjustment": 0,
+      "adjustmentReason": null,
+      "score": 30,
+      "tier": "laag",
+      "components": {
+        "kerninteresse": 15,
+        "diepgang": 10,
+        "persoonlijke_bruikbaarheid": 0,
+        "leeskans": 0,
+        "onderscheidende_duurzame_waarde": 5,
+        "aftrek": 0
+      },
+      "rationale": {
+        "kerninteresse": [
+          "Alleen een aangrenzend onderwerp."
+        ],
+        "diepgang": [
+          "2.563 woorden."
+        ],
+        "persoonlijke_bruikbaarheid": [],
+        "leeskans": [],
+        "onderscheidende_duurzame_waarde": [
+          "Minstens 1.200 woorden."
+        ],
+        "aftrek": []
+      },
+      "sequences": [
+        "lees"
+      ],
+      "positions": {
+        "lees": 956
+      },
+      "actualPositions": {
+        "lees": 956
+      }
+    },
+    "01m1k28fbgbqbwtsdxds9shka7": {
+      "baseScore": 60,
+      "adjustment": 0,
+      "adjustmentReason": null,
+      "score": 60,
+      "tier": "midden",
+      "components": {
+        "kerninteresse": 30,
+        "diepgang": 10,
+        "persoonlijke_bruikbaarheid": 10,
+        "leeskans": 5,
+        "onderscheidende_duurzame_waarde": 5,
+        "aftrek": 0
+      },
+      "rationale": {
+        "kerninteresse": [
+          "Eén kerndomein: sociologie."
+        ],
+        "diepgang": [
+          "Verdiepend signaal in de tekst: essay."
+        ],
+        "persoonlijke_bruikbaarheid": [
+          "Indirect bruikbaar via een kerndomein."
+        ],
+        "leeskans": [
+          "Korte leestijd: 4 minuten."
+        ],
+        "onderscheidende_duurzame_waarde": [
+          "Aansluiting bij een kerndomein."
+        ],
+        "aftrek": []
+      },
+      "sequences": [
+        "lees",
+        "short"
+      ],
+      "positions": {
+        "lees": 605,
+        "short": 396
+      },
+      "actualPositions": {
+        "lees": 605,
+        "short": 396
+      }
+    },
+    "01m1k28e5vj9brgphvztjewayx": {
+      "baseScore": 60,
+      "adjustment": 0,
+      "adjustmentReason": null,
+      "score": 60,
+      "tier": "midden",
+      "components": {
+        "kerninteresse": 30,
+        "diepgang": 10,
+        "persoonlijke_bruikbaarheid": 10,
+        "leeskans": 5,
+        "onderscheidende_duurzame_waarde": 5,
+        "aftrek": 0
+      },
+      "rationale": {
+        "kerninteresse": [
+          "Eén kerndomein: sociologie."
+        ],
+        "diepgang": [
+          "1.360 woorden."
+        ],
+        "persoonlijke_bruikbaarheid": [
+          "Indirect bruikbaar via een kerndomein."
+        ],
+        "leeskans": [
+          "Korte leestijd: 6 minuten."
+        ],
+        "onderscheidende_duurzame_waarde": [
+          "Minstens 1.200 woorden."
+        ],
+        "aftrek": []
+      },
+      "sequences": [
+        "lees",
+        "short",
+        "luchtig"
+      ],
+      "positions": {
+        "lees": 604,
+        "short": 395,
+        "luchtig": 128
+      },
+      "actualPositions": {
+        "lees": 604,
+        "short": 395,
+        "luchtig": 128
+      }
+    },
+    "01m1k26fx8rshhxwte08wwbcba": {
+      "baseScore": 60,
+      "adjustment": 0,
+      "adjustmentReason": null,
+      "score": 60,
+      "tier": "midden",
+      "components": {
+        "kerninteresse": 30,
+        "diepgang": 0,
+        "persoonlijke_bruikbaarheid": 20,
+        "leeskans": 5,
+        "onderscheidende_duurzame_waarde": 5,
+        "aftrek": 0
+      },
+      "rationale": {
+        "kerninteresse": [
+          "Eén kerndomein: agile."
+        ],
+        "diepgang": [],
+        "persoonlijke_bruikbaarheid": [
+          "Direct bruikbare tag: professional development."
+        ],
+        "leeskans": [
+          "Korte leestijd: 3 minuten."
+        ],
+        "onderscheidende_duurzame_waarde": [
+          "Aansluiting bij een kerndomein."
+        ],
+        "aftrek": []
+      },
+      "sequences": [
+        "lees",
+        "short",
+        "scrum"
+      ],
+      "positions": {
+        "lees": 603,
+        "short": 394,
+        "scrum": 116
+      },
+      "actualPositions": {
+        "lees": 603,
+        "short": 394,
+        "scrum": 116
+      }
+    },
+    "01m1k261enfpgszhanvecwwwte": {
+      "baseScore": 60,
+      "adjustment": 0,
+      "adjustmentReason": null,
+      "score": 60,
+      "tier": "midden",
+      "components": {
+        "kerninteresse": 30,
+        "diepgang": 0,
+        "persoonlijke_bruikbaarheid": 20,
+        "leeskans": 5,
+        "onderscheidende_duurzame_waarde": 5,
+        "aftrek": 0
+      },
+      "rationale": {
+        "kerninteresse": [
+          "Eén kerndomein: agile."
+        ],
+        "diepgang": [],
+        "persoonlijke_bruikbaarheid": [
+          "Direct bruikbare tag: professional development."
+        ],
+        "leeskans": [
+          "Korte leestijd: 3 minuten."
+        ],
+        "onderscheidende_duurzame_waarde": [
+          "Aansluiting bij een kerndomein."
+        ],
+        "aftrek": []
+      },
+      "sequences": [
+        "lees",
+        "short",
+        "scrum"
+      ],
+      "positions": {
+        "lees": 602,
+        "short": 393,
+        "scrum": 115
+      },
+      "actualPositions": {
+        "lees": 602,
+        "short": 393,
+        "scrum": 115
+      }
+    },
+    "01m1k25mypt8ey2amkbe7pgwq0": {
+      "baseScore": 70,
+      "adjustment": 0,
+      "adjustmentReason": null,
+      "score": 70,
+      "tier": "hoog",
+      "components": {
+        "kerninteresse": 45,
+        "diepgang": 10,
+        "persoonlijke_bruikbaarheid": 10,
+        "leeskans": 0,
+        "onderscheidende_duurzame_waarde": 5,
+        "aftrek": 0
+      },
+      "rationale": {
+        "kerninteresse": [
+          "Minstens twee kerndomeinen: filosofie, ideologie, sociologie."
+        ],
+        "diepgang": [
+          "3.593 woorden."
+        ],
+        "persoonlijke_bruikbaarheid": [
+          "Indirect bruikbaar via een kerndomein."
+        ],
+        "leeskans": [],
+        "onderscheidende_duurzame_waarde": [
+          "Minstens 1.200 woorden."
+        ],
+        "aftrek": []
+      },
+      "sequences": [
+        "lees"
+      ],
+      "positions": {
+        "lees": 323
+      },
+      "actualPositions": {
+        "lees": 323
+      }
+    },
+    "01m1k257zsb988e0mje2xw2b4x": {
+      "baseScore": 70,
+      "adjustment": 0,
+      "adjustmentReason": null,
+      "score": 70,
+      "tier": "hoog",
+      "components": {
+        "kerninteresse": 45,
+        "diepgang": 10,
+        "persoonlijke_bruikbaarheid": 10,
+        "leeskans": 0,
+        "onderscheidende_duurzame_waarde": 5,
+        "aftrek": 0
+      },
+      "rationale": {
+        "kerninteresse": [
+          "Minstens twee kerndomeinen: filosofie, ideologie, geschiedenis."
+        ],
+        "diepgang": [
+          "3.958 woorden."
+        ],
+        "persoonlijke_bruikbaarheid": [
+          "Indirect bruikbaar via een kerndomein."
+        ],
+        "leeskans": [],
+        "onderscheidende_duurzame_waarde": [
+          "Minstens 1.200 woorden."
+        ],
+        "aftrek": []
+      },
+      "sequences": [
+        "lees"
+      ],
+      "positions": {
+        "lees": 322
+      },
+      "actualPositions": {
+        "lees": 322
+      }
+    },
+    "01m1jthk3qxpy00g5sce7mrpek": {
+      "baseScore": 60,
+      "adjustment": 0,
+      "adjustmentReason": null,
+      "score": 60,
+      "tier": "midden",
+      "components": {
+        "kerninteresse": 30,
+        "diepgang": 10,
+        "persoonlijke_bruikbaarheid": 10,
+        "leeskans": 5,
+        "onderscheidende_duurzame_waarde": 5,
+        "aftrek": 0
+      },
+      "rationale": {
+        "kerninteresse": [
+          "Eén kerndomein: filosofie."
+        ],
+        "diepgang": [
+          "1.706 woorden."
+        ],
+        "persoonlijke_bruikbaarheid": [
+          "Indirect bruikbaar via een kerndomein."
+        ],
+        "leeskans": [
+          "Korte leestijd: 7 minuten."
+        ],
+        "onderscheidende_duurzame_waarde": [
+          "Minstens 1.200 woorden."
+        ],
+        "aftrek": []
+      },
+      "sequences": [
+        "lees",
+        "short"
+      ],
+      "positions": {
+        "lees": 601,
+        "short": 392
+      },
+      "actualPositions": {
+        "lees": 601,
+        "short": 392
+      }
+    },
+    "01m1jnstmtma6kp07asge1xsk4": {
+      "baseScore": 5,
+      "adjustment": 0,
+      "adjustmentReason": null,
+      "score": 5,
+      "tier": "laag",
+      "components": {
+        "kerninteresse": 0,
+        "diepgang": 0,
+        "persoonlijke_bruikbaarheid": 0,
+        "leeskans": 5,
+        "onderscheidende_duurzame_waarde": 0,
+        "aftrek": 0
+      },
+      "rationale": {
+        "kerninteresse": [],
+        "diepgang": [],
+        "persoonlijke_bruikbaarheid": [],
+        "leeskans": [
+          "Korte leestijd: 3 minuten."
+        ],
+        "onderscheidende_duurzame_waarde": [],
+        "aftrek": []
+      },
+      "sequences": [
+        "lees",
+        "short",
+        "luchtig"
+      ],
+      "positions": {
+        "lees": 1057,
+        "short": 610,
+        "luchtig": 278
+      },
+      "actualPositions": {
+        "lees": 1057,
+        "short": 610,
+        "luchtig": 278
+      }
+    },
+    "01m1hkrczrc5ssj7w6kv4w9128": {
+      "baseScore": 45,
+      "adjustment": 0,
+      "adjustmentReason": null,
+      "score": 45,
+      "tier": "midden",
+      "components": {
+        "kerninteresse": 0,
+        "diepgang": 20,
+        "persoonlijke_bruikbaarheid": 20,
+        "leeskans": 0,
+        "onderscheidende_duurzame_waarde": 5,
+        "aftrek": 0
+      },
+      "rationale": {
+        "kerninteresse": [],
+        "diepgang": [
+          "8.745 woorden."
+        ],
+        "persoonlijke_bruikbaarheid": [
+          "Direct bruikbare tag: professional development."
+        ],
+        "leeskans": [],
+        "onderscheidende_duurzame_waarde": [
+          "Minstens 1.200 woorden."
+        ],
+        "aftrek": []
+      },
+      "sequences": [
+        "lees",
+        "luchtig"
+      ],
+      "positions": {
+        "lees": 835,
+        "luchtig": 191
+      },
+      "actualPositions": {
+        "lees": 835,
+        "luchtig": 191
+      }
+    },
+    "01m1hem41h3dm6vkde11es3e2g": {
+      "baseScore": 65,
+      "adjustment": 0,
+      "adjustmentReason": null,
+      "score": 65,
+      "tier": "midden",
+      "components": {
+        "kerninteresse": 30,
+        "diepgang": 10,
+        "persoonlijke_bruikbaarheid": 20,
+        "leeskans": 0,
+        "onderscheidende_duurzame_waarde": 5,
+        "aftrek": 0
+      },
+      "rationale": {
+        "kerninteresse": [
+          "Eén kerndomein: sociologie."
+        ],
+        "diepgang": [
+          "3.459 woorden."
+        ],
+        "persoonlijke_bruikbaarheid": [
+          "Waarom lezen noemt: werk."
+        ],
+        "leeskans": [],
+        "onderscheidende_duurzame_waarde": [
+          "Minstens 1.200 woorden."
+        ],
+        "aftrek": []
+      },
+      "sequences": [
+        "lees"
+      ],
+      "positions": {
+        "lees": 418
+      },
+      "actualPositions": {
+        "lees": 418
+      }
+    },
+    "01m1h89bw4m4zvxm1g2gmqpcx6": {
+      "baseScore": 70,
+      "adjustment": 0,
+      "adjustmentReason": null,
+      "score": 70,
+      "tier": "hoog",
+      "components": {
+        "kerninteresse": 45,
+        "diepgang": 10,
+        "persoonlijke_bruikbaarheid": 10,
+        "leeskans": 0,
+        "onderscheidende_duurzame_waarde": 5,
+        "aftrek": 0
+      },
+      "rationale": {
+        "kerninteresse": [
+          "Minstens twee kerndomeinen: geschiedenis, sociologie."
+        ],
+        "diepgang": [
+          "6.572 woorden."
+        ],
+        "persoonlijke_bruikbaarheid": [
+          "Indirect bruikbaar via een kerndomein."
+        ],
+        "leeskans": [],
+        "onderscheidende_duurzame_waarde": [
+          "Minstens 1.200 woorden."
+        ],
+        "aftrek": []
+      },
+      "sequences": [
+        "lees"
+      ],
+      "positions": {
+        "lees": 321
+      },
+      "actualPositions": {
+        "lees": 321
+      }
+    },
+    "01m1h760hbqry5em5qkvrnmnay": {
+      "baseScore": 80,
+      "adjustment": 0,
+      "adjustmentReason": null,
+      "score": 80,
+      "tier": "hoog",
+      "components": {
+        "kerninteresse": 45,
+        "diepgang": 20,
+        "persoonlijke_bruikbaarheid": 10,
+        "leeskans": 0,
+        "onderscheidende_duurzame_waarde": 5,
+        "aftrek": 0
+      },
+      "rationale": {
+        "kerninteresse": [
+          "Minstens twee kerndomeinen: filosofie, ideologie, sociologie."
+        ],
+        "diepgang": [
+          "23.396 woorden."
+        ],
+        "persoonlijke_bruikbaarheid": [
+          "Indirect bruikbaar via een kerndomein."
+        ],
+        "leeskans": [],
+        "onderscheidende_duurzame_waarde": [
+          "Minstens 1.200 woorden."
+        ],
+        "aftrek": []
+      },
+      "sequences": [
+        "lees"
+      ],
+      "positions": {
+        "lees": 54
+      },
+      "actualPositions": {
+        "lees": 54
+      }
+    },
+    "01m1h7577cw5a8pz1sm6rssatd": {
+      "baseScore": 55,
+      "adjustment": 0,
+      "adjustmentReason": null,
+      "score": 55,
+      "tier": "midden",
+      "components": {
+        "kerninteresse": 30,
+        "diepgang": 10,
+        "persoonlijke_bruikbaarheid": 10,
+        "leeskans": 0,
+        "onderscheidende_duurzame_waarde": 5,
+        "aftrek": 0
+      },
+      "rationale": {
+        "kerninteresse": [
+          "Eén kerndomein: filosofie."
+        ],
+        "diepgang": [
+          "3.597 woorden."
+        ],
+        "persoonlijke_bruikbaarheid": [
+          "Indirect bruikbaar via een kerndomein."
+        ],
+        "leeskans": [],
+        "onderscheidende_duurzame_waarde": [
+          "Minstens 1.200 woorden."
+        ],
+        "aftrek": []
+      },
+      "sequences": [
+        "lees",
+        "luchtig"
+      ],
+      "positions": {
+        "lees": 763,
+        "luchtig": 163
+      },
+      "actualPositions": {
+        "lees": 763,
+        "luchtig": 163
+      }
+    },
     "01m1gv9tz6tf601q5xsssr9266": {
       "baseScore": 40,
       "adjustment": 0,
@@ -37,12 +1234,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 848,
-        "short": 480
+        "lees": 873,
+        "short": 492
       },
       "actualPositions": {
-        "lees": 848,
-        "short": 480
+        "lees": 873,
+        "short": 492
       }
     },
     "01m1gv9qnfev9v21x544px098s": {
@@ -77,10 +1274,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 810
+        "lees": 834
       },
       "actualPositions": {
-        "lees": 810
+        "lees": 834
       }
     },
     "01m1gv9mzcs4bkz4akp5hh1w28": {
@@ -117,10 +1314,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 406
+        "lees": 417
       },
       "actualPositions": {
-        "lees": 406
+        "lees": 417
       }
     },
     "01m1gv9j9g94ch0s2gj9deh2w0": {
@@ -158,12 +1355,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 896,
-        "short": 516
+        "lees": 921,
+        "short": 528
       },
       "actualPositions": {
-        "lees": 896,
-        "short": 516
+        "lees": 921,
+        "short": 528
       }
     },
     "01m1gv9f4w5r3c1gmwvbtffmne": {
@@ -200,14 +1397,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 847,
-        "short": 479,
-        "luchtig": 198
+        "lees": 872,
+        "short": 491,
+        "luchtig": 203
       },
       "actualPositions": {
-        "lees": 847,
-        "short": 479,
-        "luchtig": 198
+        "lees": 872,
+        "short": 491,
+        "luchtig": 203
       }
     },
     "01m1gv9atc9pmec77602etsmqf": {
@@ -242,14 +1439,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 984,
-        "short": 574,
-        "luchtig": 252
+        "lees": 1011,
+        "short": 586,
+        "luchtig": 257
       },
       "actualPositions": {
-        "lees": 984,
-        "short": 574,
-        "luchtig": 252
+        "lees": 1011,
+        "short": 586,
+        "luchtig": 257
       }
     },
     "01m1gv975a3s2vss05e8r3m98f": {
@@ -287,12 +1484,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 740,
-        "luchtig": 159
+        "lees": 762,
+        "luchtig": 162
       },
       "actualPositions": {
-        "lees": 740,
-        "luchtig": 159
+        "lees": 762,
+        "luchtig": 162
       }
     },
     "01m1gv90a8vcdrjzem48ssna5m": {
@@ -333,12 +1530,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "scrum"
       ],
       "positions": {
-        "lees": 318,
+        "lees": 320,
         "short": 196,
         "scrum": 56
       },
       "actualPositions": {
-        "lees": 318,
+        "lees": 320,
         "short": 196,
         "scrum": 56
       }
@@ -379,14 +1576,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "scrum"
       ],
       "positions": {
-        "lees": 588,
-        "short": 389,
-        "scrum": 112
+        "lees": 600,
+        "short": 391,
+        "scrum": 114
       },
       "actualPositions": {
-        "lees": 588,
-        "short": 389,
-        "scrum": 112
+        "lees": 600,
+        "short": 391,
+        "scrum": 114
       }
     },
     "01m1gv8t9vhphm7qf8qjnfdvzk": {
@@ -423,10 +1620,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 317
+        "lees": 319
       },
       "actualPositions": {
-        "lees": 317
+        "lees": 319
       }
     },
     "01m1gv8q7n6gxye4kxmw3yyfnb": {
@@ -467,12 +1664,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "scrum"
       ],
       "positions": {
-        "lees": 316,
+        "lees": 318,
         "short": 195,
         "scrum": 55
       },
       "actualPositions": {
-        "lees": 316,
+        "lees": 318,
         "short": 195,
         "scrum": 55
       }
@@ -512,12 +1709,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 739,
-        "luchtig": 158
+        "lees": 761,
+        "luchtig": 161
       },
       "actualPositions": {
-        "lees": 739,
-        "luchtig": 158
+        "lees": 761,
+        "luchtig": 161
       }
     },
     "01m1gv8hnrpyh8gj9bce98d1bb": {
@@ -554,10 +1751,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 315
+        "lees": 317
       },
       "actualPositions": {
-        "lees": 315
+        "lees": 317
       }
     },
     "01m1gv8e2cse07s1k6j9bjtp57": {
@@ -594,10 +1791,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 314
+        "lees": 316
       },
       "actualPositions": {
-        "lees": 314
+        "lees": 316
       }
     },
     "01m1gv8arg0mqg0sbf8pgrc4k8": {
@@ -635,12 +1832,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 738,
-        "luchtig": 157
+        "lees": 760,
+        "luchtig": 160
       },
       "actualPositions": {
-        "lees": 738,
-        "luchtig": 157
+        "lees": 760,
+        "luchtig": 160
       }
     },
     "01m1gv87eq9k6ey8kd2y09xg15": {
@@ -681,13 +1878,13 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 587,
-        "short": 388,
+        "lees": 599,
+        "short": 390,
         "luchtig": 127
       },
       "actualPositions": {
-        "lees": 587,
-        "short": 388,
+        "lees": 599,
+        "short": 390,
         "luchtig": 127
       }
     },
@@ -727,14 +1924,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "scrum"
       ],
       "positions": {
-        "lees": 586,
-        "short": 387,
-        "scrum": 111
+        "lees": 598,
+        "short": 389,
+        "scrum": 113
       },
       "actualPositions": {
-        "lees": 586,
-        "short": 387,
-        "scrum": 111
+        "lees": 598,
+        "short": 389,
+        "scrum": 113
       }
     },
     "01m1gp4waxm0cmf0dh788j4jvv": {
@@ -772,11 +1969,11 @@ window.TOP_ARTICLE_PRIORITY = {
         "scrum"
       ],
       "positions": {
-        "lees": 148,
+        "lees": 150,
         "scrum": 8
       },
       "actualPositions": {
-        "lees": 148,
+        "lees": 150,
         "scrum": 8
       }
     },
@@ -814,10 +2011,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 737
+        "lees": 759
       },
       "actualPositions": {
-        "lees": 737
+        "lees": 759
       }
     },
     "01m1g7g8g7jx7yhp8wa5qx9j7n": {
@@ -854,10 +2051,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 736
+        "lees": 758
       },
       "actualPositions": {
-        "lees": 736
+        "lees": 758
       }
     },
     "01m1g7frm08vp4nfs7mhv7425j": {
@@ -894,10 +2091,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 405
+        "lees": 416
       },
       "actualPositions": {
-        "lees": 405
+        "lees": 416
       }
     },
     "01m1g7fa5dn2h1rgd0pv6bfp8d": {
@@ -938,12 +2135,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "scrum"
       ],
       "positions": {
-        "lees": 313,
+        "lees": 315,
         "short": 194,
         "scrum": 54
       },
       "actualPositions": {
-        "lees": 313,
+        "lees": 315,
         "short": 194,
         "scrum": 54
       }
@@ -981,12 +2178,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 846,
-        "short": 478
+        "lees": 871,
+        "short": 490
       },
       "actualPositions": {
-        "lees": 846,
-        "short": 478
+        "lees": 871,
+        "short": 490
       }
     },
     "01m1exeqvfjydcqbktsm9q674h": {
@@ -1024,12 +2221,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 895,
-        "short": 515
+        "lees": 920,
+        "short": 527
       },
       "actualPositions": {
-        "lees": 895,
-        "short": 515
+        "lees": 920,
+        "short": 527
       }
     },
     "01m1evwxk35pk2xzcnyvv1gfqq": {
@@ -1066,10 +2263,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 147
+        "lees": 149
       },
       "actualPositions": {
-        "lees": 147
+        "lees": 149
       }
     },
     "01m1er5zmps33aet8z4gxsa2ca": {
@@ -1104,14 +2301,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 983,
-        "short": 573,
-        "luchtig": 251
+        "lees": 1010,
+        "short": 585,
+        "luchtig": 256
       },
       "actualPositions": {
-        "lees": 983,
-        "short": 573,
-        "luchtig": 251
+        "lees": 1010,
+        "short": 585,
+        "luchtig": 256
       }
     },
     "01m1eqhrt9fmjkb1mr1scdv9r4": {
@@ -1192,12 +2389,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 404,
-        "short": 207
+        "lees": 415,
+        "short": 209
       },
       "actualPositions": {
-        "lees": 404,
-        "short": 207
+        "lees": 415,
+        "short": 209
       }
     },
     "01m1e8skmjh2g5z1h86r0kbcp0": {
@@ -1236,14 +2433,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 845,
-        "short": 477,
-        "luchtig": 197
+        "lees": 870,
+        "short": 489,
+        "luchtig": 202
       },
       "actualPositions": {
-        "lees": 845,
-        "short": 477,
-        "luchtig": 197
+        "lees": 870,
+        "short": 489,
+        "luchtig": 202
       }
     },
     "01m1e6mrk0cty5wjpkgv9pybb0": {
@@ -1281,12 +2478,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 735,
-        "luchtig": 156
+        "lees": 757,
+        "luchtig": 159
       },
       "actualPositions": {
-        "lees": 735,
-        "luchtig": 156
+        "lees": 757,
+        "luchtig": 159
       }
     },
     "01m1dyja0hza2k4zskrcx37qmj": {
@@ -1323,10 +2520,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 734
+        "lees": 756
       },
       "actualPositions": {
-        "lees": 734
+        "lees": 756
       }
     },
     "01m1dvk20z9eys206wpvm2y518": {
@@ -1364,12 +2561,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 798,
-        "short": 444
+        "lees": 822,
+        "short": 456
       },
       "actualPositions": {
-        "lees": 798,
-        "short": 444
+        "lees": 822,
+        "short": 456
       }
     },
     "01m1ds1r59v3khm4b851zheyg0": {
@@ -1404,10 +2601,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 930
+        "lees": 955
       },
       "actualPositions": {
-        "lees": 930
+        "lees": 955
       }
     },
     "01m1dmsfat9crf3zm3sahqjvdw": {
@@ -1447,12 +2644,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 585,
-        "short": 386
+        "lees": 597,
+        "short": 388
       },
       "actualPositions": {
-        "lees": 585,
-        "short": 386
+        "lees": 597,
+        "short": 388
       }
     },
     "01m1dmrzkxxy3dm0xac93m1mvv": {
@@ -1493,13 +2690,13 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 584,
-        "short": 385,
+        "lees": 596,
+        "short": 387,
         "luchtig": 126
       },
       "actualPositions": {
-        "lees": 584,
-        "short": 385,
+        "lees": 596,
+        "short": 387,
         "luchtig": 126
       }
     },
@@ -1538,12 +2735,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "scrum"
       ],
       "positions": {
-        "lees": 403,
-        "scrum": 71
+        "lees": 414,
+        "scrum": 73
       },
       "actualPositions": {
-        "lees": 403,
-        "scrum": 71
+        "lees": 414,
+        "scrum": 73
       }
     },
     "01m1d8cg3509zyq9bww08azyze": {
@@ -1581,11 +2778,11 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 402,
+        "lees": 413,
         "luchtig": 70
       },
       "actualPositions": {
-        "lees": 402,
+        "lees": 413,
         "luchtig": 70
       }
     },
@@ -1627,14 +2824,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 733,
-        "short": 396,
-        "luchtig": 155
+        "lees": 755,
+        "short": 408,
+        "luchtig": 158
       },
       "actualPositions": {
-        "lees": 733,
-        "short": 396,
-        "luchtig": 155
+        "lees": 755,
+        "short": 408,
+        "luchtig": 158
       }
     },
     "01m1cynghm2ated3yykpbtmh3d": {
@@ -1674,11 +2871,11 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 146,
+        "lees": 148,
         "short": 105
       },
       "actualPositions": {
-        "lees": 146,
+        "lees": 148,
         "short": 105
       }
     },
@@ -1716,14 +2913,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 982,
-        "short": 572,
-        "luchtig": 250
+        "lees": 1009,
+        "short": 584,
+        "luchtig": 255
       },
       "actualPositions": {
-        "lees": 982,
-        "short": 572,
-        "luchtig": 250
+        "lees": 1009,
+        "short": 584,
+        "luchtig": 255
       }
     },
     "01m1ckrdyh8tprrhj5bvqysbef": {
@@ -1809,12 +3006,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 894,
-        "short": 514
+        "lees": 919,
+        "short": 526
       },
       "actualPositions": {
-        "lees": 894,
-        "short": 514
+        "lees": 919,
+        "short": 526
       }
     },
     "01m1cjtk21f0amf87syxe52ymq": {
@@ -1854,12 +3051,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 583,
-        "short": 384
+        "lees": 595,
+        "short": 386
       },
       "actualPositions": {
-        "lees": 583,
-        "short": 384
+        "lees": 595,
+        "short": 386
       }
     },
     "01m1charbk855ndbzqacann0ab": {
@@ -1898,14 +3095,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "scrum"
       ],
       "positions": {
-        "lees": 582,
-        "short": 383,
-        "scrum": 110
+        "lees": 594,
+        "short": 385,
+        "scrum": 112
       },
       "actualPositions": {
-        "lees": 582,
-        "short": 383,
-        "scrum": 110
+        "lees": 594,
+        "short": 385,
+        "scrum": 112
       }
     },
     "01m1ch8k70s787jee7dta2dbvq": {
@@ -1939,12 +3136,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 1011,
-        "luchtig": 260
+        "lees": 1038,
+        "luchtig": 265
       },
       "actualPositions": {
-        "lees": 1011,
-        "luchtig": 260
+        "lees": 1038,
+        "luchtig": 265
       }
     },
     "01m1cb72ztk4pc8n0zyvdvt3vt": {
@@ -1984,12 +3181,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 581,
-        "short": 382
+        "lees": 593,
+        "short": 384
       },
       "actualPositions": {
-        "lees": 581,
-        "short": 382
+        "lees": 593,
+        "short": 384
       }
     },
     "01m1c458rwtphq21paaan5p5k9": {
@@ -2023,12 +3220,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 981,
-        "short": 571
+        "lees": 1008,
+        "short": 583
       },
       "actualPositions": {
-        "lees": 981,
-        "short": 571
+        "lees": 1008,
+        "short": 583
       }
     },
     "01m1c1zrnzsnbwzcccnzrmyqwd": {
@@ -2065,14 +3262,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 893,
-        "short": 513,
-        "luchtig": 216
+        "lees": 918,
+        "short": 525,
+        "luchtig": 221
       },
       "actualPositions": {
-        "lees": 893,
-        "short": 513,
-        "luchtig": 216
+        "lees": 918,
+        "short": 525,
+        "luchtig": 221
       }
     },
     "01m1bw8kqt5bsdhb9tssxy5kdt": {
@@ -2107,10 +3304,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 809
+        "lees": 833
       },
       "actualPositions": {
-        "lees": 809
+        "lees": 833
       }
     },
     "01m1bse64zt0k4xtb5d5m6q1b4": {
@@ -2152,12 +3349,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 808,
-        "short": 447
+        "lees": 832,
+        "short": 459
       },
       "actualPositions": {
-        "lees": 808,
-        "short": 447
+        "lees": 832,
+        "short": 459
       }
     },
     "01m1bs84w5sy1pzv392mwaem8p": {
@@ -2195,11 +3392,11 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 145,
+        "lees": 147,
         "short": 104
       },
       "actualPositions": {
-        "lees": 145,
+        "lees": 147,
         "short": 104
       }
     },
@@ -2232,12 +3429,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 1029,
-        "short": 597
+        "lees": 1056,
+        "short": 609
       },
       "actualPositions": {
-        "lees": 1029,
-        "short": 597
+        "lees": 1056,
+        "short": 609
       }
     },
     "01m1bpagg1zbf3tfxgzdxb4r7k": {
@@ -2275,12 +3472,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 892,
-        "short": 512
+        "lees": 917,
+        "short": 524
       },
       "actualPositions": {
-        "lees": 892,
-        "short": 512
+        "lees": 917,
+        "short": 524
       }
     },
     "01m1bp4q4ny6wgawq3hygdzsmk": {
@@ -2319,14 +3516,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "scrum"
       ],
       "positions": {
-        "lees": 580,
-        "short": 381,
-        "scrum": 109
+        "lees": 592,
+        "short": 383,
+        "scrum": 111
       },
       "actualPositions": {
-        "lees": 580,
-        "short": 381,
-        "scrum": 109
+        "lees": 592,
+        "short": 383,
+        "scrum": 111
       }
     },
     "01m1akkp04mmb83dhqpr0bzvgx": {
@@ -2364,12 +3561,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 891,
-        "short": 511
+        "lees": 916,
+        "short": 523
       },
       "actualPositions": {
-        "lees": 891,
-        "short": 511
+        "lees": 916,
+        "short": 523
       }
     },
     "01m19wxeysr14nnqz9tvmv2954": {
@@ -2406,10 +3603,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 732
+        "lees": 754
       },
       "actualPositions": {
-        "lees": 732
+        "lees": 754
       }
     },
     "01m19wwfpnqk8dz457a0c205e7": {
@@ -2446,10 +3643,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 312
+        "lees": 314
       },
       "actualPositions": {
-        "lees": 312
+        "lees": 314
       }
     },
     "01m19w7q0zg02grgyhrzt1bh7k": {
@@ -2484,10 +3681,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 929
+        "lees": 954
       },
       "actualPositions": {
-        "lees": 929
+        "lees": 954
       }
     },
     "01m19qh083hq0g14zw0sm2wm1h": {
@@ -2527,12 +3724,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 579,
-        "short": 380
+        "lees": 591,
+        "short": 382
       },
       "actualPositions": {
-        "lees": 579,
-        "short": 380
+        "lees": 591,
+        "short": 382
       }
     },
     "01m19pcdanate1zdv9k1w5j8rk": {
@@ -2572,12 +3769,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 578,
-        "short": 379
+        "lees": 590,
+        "short": 381
       },
       "actualPositions": {
-        "lees": 578,
-        "short": 379
+        "lees": 590,
+        "short": 381
       }
     },
     "01m19n92k4kzfxys62sysxypyw": {
@@ -2617,12 +3814,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 731,
-        "short": 395
+        "lees": 753,
+        "short": 407
       },
       "actualPositions": {
-        "lees": 731,
-        "short": 395
+        "lees": 753,
+        "short": 407
       }
     },
     "01m19n8bsh23gfhegpp12ny1a6": {
@@ -2701,10 +3898,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "short": 446
+        "short": 458
       },
       "actualPositions": {
-        "short": 446
+        "short": 458
       }
     },
     "01m19n6ck58xm3cd07fveztjaq": {
@@ -2742,12 +3939,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 797,
-        "short": 443
+        "lees": 821,
+        "short": 455
       },
       "actualPositions": {
-        "lees": 797,
-        "short": 443
+        "lees": 821,
+        "short": 455
       }
     },
     "01m19n648x8mjc6v2bnx74cpnk": {
@@ -2788,12 +3985,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 311,
+        "lees": 313,
         "short": 193,
         "luchtig": 53
       },
       "actualPositions": {
-        "lees": 311,
+        "lees": 313,
         "short": 193,
         "luchtig": 53
       }
@@ -2834,14 +4031,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "scrum"
       ],
       "positions": {
-        "lees": 577,
-        "short": 378,
-        "scrum": 108
+        "lees": 589,
+        "short": 380,
+        "scrum": 110
       },
       "actualPositions": {
-        "lees": 577,
-        "short": 378,
-        "scrum": 108
+        "lees": 589,
+        "short": 380,
+        "scrum": 110
       }
     },
     "01m197kd3ssce6vmrtft3pejh8": {
@@ -2878,10 +4075,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 310
+        "lees": 312
       },
       "actualPositions": {
-        "lees": 310
+        "lees": 312
       }
     },
     "01m197k62smshmez37ttfqgzfj": {
@@ -2919,12 +4116,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 796,
-        "short": 442
+        "lees": 820,
+        "short": 454
       },
       "actualPositions": {
-        "lees": 796,
-        "short": 442
+        "lees": 820,
+        "short": 454
       }
     },
     "01m197k0djkjvk6v165762e4ks": {
@@ -2961,10 +4158,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 309
+        "lees": 311
       },
       "actualPositions": {
-        "lees": 309
+        "lees": 311
       }
     },
     "01m197jndfs211tv74xaxyen5m": {
@@ -3001,10 +4198,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 730
+        "lees": 752
       },
       "actualPositions": {
-        "lees": 730
+        "lees": 752
       }
     },
     "01m197jhk940m6m8md40p2pdka": {
@@ -3042,12 +4239,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 795,
-        "short": 441
+        "lees": 819,
+        "short": 453
       },
       "actualPositions": {
-        "lees": 795,
-        "short": 441
+        "lees": 819,
+        "short": 453
       }
     },
     "01m197jdcbqdrakqtav2shrmvk": {
@@ -3087,12 +4284,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 576,
-        "short": 377
+        "lees": 588,
+        "short": 379
       },
       "actualPositions": {
-        "lees": 576,
-        "short": 377
+        "lees": 588,
+        "short": 379
       }
     },
     "01m197ja4fh1dhq77sqe28k56c": {
@@ -3133,13 +4330,13 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 575,
-        "short": 376,
+        "lees": 587,
+        "short": 378,
         "luchtig": 125
       },
       "actualPositions": {
-        "lees": 575,
-        "short": 376,
+        "lees": 587,
+        "short": 378,
         "luchtig": 125
       }
     },
@@ -3178,12 +4375,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 794,
-        "short": 440
+        "lees": 818,
+        "short": 452
       },
       "actualPositions": {
-        "lees": 794,
-        "short": 440
+        "lees": 818,
+        "short": 452
       }
     },
     "01m197hyzacep3c0dwmqjqpwnf": {
@@ -3223,12 +4420,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 574,
-        "short": 375
+        "lees": 586,
+        "short": 377
       },
       "actualPositions": {
-        "lees": 574,
-        "short": 375
+        "lees": 586,
+        "short": 377
       }
     },
     "01m197f1b5x4r4jc8gt8enzhne": {
@@ -3268,12 +4465,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 573,
-        "short": 374
+        "lees": 585,
+        "short": 376
       },
       "actualPositions": {
-        "lees": 573,
-        "short": 374
+        "lees": 585,
+        "short": 376
       }
     },
     "01m197ak0mwm6903bj8hq403qw": {
@@ -3313,12 +4510,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 572,
-        "short": 373
+        "lees": 584,
+        "short": 375
       },
       "actualPositions": {
-        "lees": 572,
-        "short": 373
+        "lees": 584,
+        "short": 375
       }
     },
     "01m197a17dj6fp1zb5n04c8tn9": {
@@ -3358,12 +4555,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 571,
-        "short": 372
+        "lees": 583,
+        "short": 374
       },
       "actualPositions": {
-        "lees": 571,
-        "short": 372
+        "lees": 583,
+        "short": 374
       }
     },
     "01m1979q86y6gkgvrp4gra5yy0": {
@@ -3400,10 +4597,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 308
+        "lees": 310
       },
       "actualPositions": {
-        "lees": 308
+        "lees": 310
       }
     },
     "01m1979d6en4ayk73aparj35d4": {
@@ -3440,10 +4637,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 307
+        "lees": 309
       },
       "actualPositions": {
-        "lees": 307
+        "lees": 309
       }
     },
     "01m19794a8388qq22ds04x06ss": {
@@ -3483,11 +4680,11 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 144,
+        "lees": 146,
         "short": 103
       },
       "actualPositions": {
-        "lees": 144,
+        "lees": 146,
         "short": 103
       }
     },
@@ -3528,11 +4725,11 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 143,
+        "lees": 145,
         "short": 102
       },
       "actualPositions": {
-        "lees": 143,
+        "lees": 145,
         "short": 102
       }
     },
@@ -3571,12 +4768,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 401,
-        "short": 206
+        "lees": 412,
+        "short": 208
       },
       "actualPositions": {
-        "lees": 401,
-        "short": 206
+        "lees": 412,
+        "short": 208
       }
     },
     "01m19788c8afg48qrey06vnawx": {
@@ -3616,11 +4813,11 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 142,
+        "lees": 144,
         "short": 101
       },
       "actualPositions": {
-        "lees": 142,
+        "lees": 144,
         "short": 101
       }
     },
@@ -3661,11 +4858,11 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 141,
+        "lees": 143,
         "short": 100
       },
       "actualPositions": {
-        "lees": 141,
+        "lees": 143,
         "short": 100
       }
     },
@@ -3703,10 +4900,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 306
+        "lees": 308
       },
       "actualPositions": {
-        "lees": 306
+        "lees": 308
       }
     },
     "01m1977k93d8kxyzhjrt7xvarp": {
@@ -3746,11 +4943,11 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 140,
+        "lees": 142,
         "short": 99
       },
       "actualPositions": {
-        "lees": 140,
+        "lees": 142,
         "short": 99
       }
     },
@@ -3789,12 +4986,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 793,
-        "short": 439
+        "lees": 817,
+        "short": 451
       },
       "actualPositions": {
-        "lees": 793,
-        "short": 439
+        "lees": 817,
+        "short": 451
       }
     },
     "01m1975zgkyj1y2md7pj4arejw": {
@@ -3832,12 +5029,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 792,
-        "short": 438
+        "lees": 816,
+        "short": 450
       },
       "actualPositions": {
-        "lees": 792,
-        "short": 438
+        "lees": 816,
+        "short": 450
       }
     },
     "01m1975qrhb3m8f3f3resm8p6n": {
@@ -3877,12 +5074,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 570,
-        "short": 371
+        "lees": 582,
+        "short": 373
       },
       "actualPositions": {
-        "lees": 570,
-        "short": 371
+        "lees": 582,
+        "short": 373
       }
     },
     "01m1975ekmdsc0hj34geabean3": {
@@ -3922,11 +5119,11 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 139,
+        "lees": 141,
         "short": 98
       },
       "actualPositions": {
-        "lees": 139,
+        "lees": 141,
         "short": 98
       }
     },
@@ -3964,10 +5161,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 305
+        "lees": 307
       },
       "actualPositions": {
-        "lees": 305
+        "lees": 307
       }
     },
     "01m19732mn8txyv2f737m5qpq4": {
@@ -4006,10 +5203,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 729
+        "lees": 751
       },
       "actualPositions": {
-        "lees": 729
+        "lees": 751
       }
     },
     "01m1972yq6wn0khvv5y80gzrd3": {
@@ -4048,10 +5245,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 728
+        "lees": 750
       },
       "actualPositions": {
-        "lees": 728
+        "lees": 750
       }
     },
     "01m1972tbcgs6619xxy2hgm5qp": {
@@ -4088,10 +5285,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 304
+        "lees": 306
       },
       "actualPositions": {
-        "lees": 304
+        "lees": 306
       }
     },
     "01m1972pnjscrqj7tmk991dvkm": {
@@ -4128,10 +5325,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 303
+        "lees": 305
       },
       "actualPositions": {
-        "lees": 303
+        "lees": 305
       }
     },
     "01m1972kpya3ntd4tkzykt1jx7": {
@@ -4168,10 +5365,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 727
+        "lees": 749
       },
       "actualPositions": {
-        "lees": 727
+        "lees": 749
       }
     },
     "01m1972gpg28s9nhajhcp4hnc6": {
@@ -4208,10 +5405,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 726
+        "lees": 748
       },
       "actualPositions": {
-        "lees": 726
+        "lees": 748
       }
     },
     "01m1972dqdg438zm3ks4cghfbx": {
@@ -4251,12 +5448,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 569,
-        "short": 370
+        "lees": 581,
+        "short": 372
       },
       "actualPositions": {
-        "lees": 569,
-        "short": 370
+        "lees": 581,
+        "short": 372
       }
     },
     "01m197272zsjny217g8gtsknwd": {
@@ -4293,10 +5490,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 302
+        "lees": 304
       },
       "actualPositions": {
-        "lees": 302
+        "lees": 304
       }
     },
     "01m19723d7hqw7mrk2913wry95": {
@@ -4333,10 +5530,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 301
+        "lees": 303
       },
       "actualPositions": {
-        "lees": 301
+        "lees": 303
       }
     },
     "01m1971ytvsmz2pm8p127hxqfn": {
@@ -4376,12 +5573,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 568,
-        "short": 369
+        "lees": 580,
+        "short": 371
       },
       "actualPositions": {
-        "lees": 568,
-        "short": 369
+        "lees": 580,
+        "short": 371
       }
     },
     "01m1971tmdjnkdzft86sj5r34j": {
@@ -4418,10 +5615,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 300
+        "lees": 302
       },
       "actualPositions": {
-        "lees": 300
+        "lees": 302
       }
     },
     "01m1971qjtm9zxxjhdy986922b": {
@@ -4458,10 +5655,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 299
+        "lees": 301
       },
       "actualPositions": {
-        "lees": 299
+        "lees": 301
       }
     },
     "01m1971mvxjzsyz3np8wqmv604": {
@@ -4498,10 +5695,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 400
+        "lees": 411
       },
       "actualPositions": {
-        "lees": 400
+        "lees": 411
       }
     },
     "01m1971j070aamhztgxr4k22jg": {
@@ -4539,11 +5736,11 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 298,
+        "lees": 300,
         "luchtig": 52
       },
       "actualPositions": {
-        "lees": 298,
+        "lees": 300,
         "luchtig": 52
       }
     },
@@ -4584,12 +5781,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 567,
-        "short": 368
+        "lees": 579,
+        "short": 370
       },
       "actualPositions": {
-        "lees": 567,
-        "short": 368
+        "lees": 579,
+        "short": 370
       }
     },
     "01m1971bz5r35avv7enqxfch5s": {
@@ -4629,12 +5826,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 566,
-        "short": 367
+        "lees": 578,
+        "short": 369
       },
       "actualPositions": {
-        "lees": 566,
-        "short": 367
+        "lees": 578,
+        "short": 369
       }
     },
     "01m19717jfcxxs47fnbnj5jx5q": {
@@ -4674,12 +5871,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 565,
-        "short": 366
+        "lees": 577,
+        "short": 368
       },
       "actualPositions": {
-        "lees": 565,
-        "short": 366
+        "lees": 577,
+        "short": 368
       }
     },
     "01m19714jragqgycjnw90nmer8": {
@@ -4719,12 +5916,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 564,
-        "short": 365
+        "lees": 576,
+        "short": 367
       },
       "actualPositions": {
-        "lees": 564,
-        "short": 365
+        "lees": 576,
+        "short": 367
       }
     },
     "01m19712drw0b6779r8jrnyn72": {
@@ -4764,12 +5961,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 563,
-        "short": 364
+        "lees": 575,
+        "short": 366
       },
       "actualPositions": {
-        "lees": 563,
-        "short": 364
+        "lees": 575,
+        "short": 366
       }
     },
     "01m196y8g5rsnqxf3771kmb5ep": {
@@ -4809,11 +6006,11 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 138,
+        "lees": 140,
         "short": 97
       },
       "actualPositions": {
-        "lees": 138,
+        "lees": 140,
         "short": 97
       }
     },
@@ -4854,12 +6051,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 562,
-        "short": 363
+        "lees": 574,
+        "short": 365
       },
       "actualPositions": {
-        "lees": 562,
-        "short": 363
+        "lees": 574,
+        "short": 365
       }
     },
     "01m196y1v5tgbm241dbxypkvjy": {
@@ -4899,12 +6096,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 561,
-        "short": 362
+        "lees": 573,
+        "short": 364
       },
       "actualPositions": {
-        "lees": 561,
-        "short": 362
+        "lees": 573,
+        "short": 364
       }
     },
     "01m196xws128jw4kk00f7a9s9y": {
@@ -4944,12 +6141,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 560,
-        "short": 361
+        "lees": 572,
+        "short": 363
       },
       "actualPositions": {
-        "lees": 560,
-        "short": 361
+        "lees": 572,
+        "short": 363
       }
     },
     "01m196xsq744jhvj3a6n3sp9c3": {
@@ -4989,12 +6186,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 559,
-        "short": 360
+        "lees": 571,
+        "short": 362
       },
       "actualPositions": {
-        "lees": 559,
-        "short": 360
+        "lees": 571,
+        "short": 362
       }
     },
     "01m196xpws827gy4a4qqcjkr8k": {
@@ -5034,11 +6231,11 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 137,
+        "lees": 139,
         "short": 96
       },
       "actualPositions": {
-        "lees": 137,
+        "lees": 139,
         "short": 96
       }
     },
@@ -5079,12 +6276,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 558,
-        "short": 359
+        "lees": 570,
+        "short": 361
       },
       "actualPositions": {
-        "lees": 558,
-        "short": 359
+        "lees": 570,
+        "short": 361
       }
     },
     "01m196xfdykh9fc5r0qpr33ddr": {
@@ -5124,11 +6321,11 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 136,
+        "lees": 138,
         "short": 95
       },
       "actualPositions": {
-        "lees": 136,
+        "lees": 138,
         "short": 95
       }
     },
@@ -5214,12 +6411,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 557,
-        "short": 358
+        "lees": 569,
+        "short": 360
       },
       "actualPositions": {
-        "lees": 557,
-        "short": 358
+        "lees": 569,
+        "short": 360
       }
     },
     "01m196x66wf6nnz6d88cskycyd": {
@@ -5259,12 +6456,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 556,
-        "short": 357
+        "lees": 568,
+        "short": 359
       },
       "actualPositions": {
-        "lees": 556,
-        "short": 357
+        "lees": 568,
+        "short": 359
       }
     },
     "01m196x2eff1bfza3qatyvck20": {
@@ -5304,12 +6501,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 555,
-        "short": 356
+        "lees": 567,
+        "short": 358
       },
       "actualPositions": {
-        "lees": 555,
-        "short": 356
+        "lees": 567,
+        "short": 358
       }
     },
     "01m196wzm7941m99hfab08jcs8": {
@@ -5426,10 +6623,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 725
+        "lees": 747
       },
       "actualPositions": {
-        "lees": 725
+        "lees": 747
       }
     },
     "01m196q00eaandbzs3kj7dpyt4": {
@@ -5469,11 +6666,11 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 135,
+        "lees": 137,
         "short": 94
       },
       "actualPositions": {
-        "lees": 135,
+        "lees": 137,
         "short": 94
       }
     },
@@ -5513,10 +6710,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 723
+        "lees": 745
       },
       "actualPositions": {
-        "lees": 723
+        "lees": 745
       }
     },
     "01m196pzwytzxx38my2ww2pac0": {
@@ -5554,12 +6751,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 724,
-        "luchtig": 154
+        "lees": 746,
+        "luchtig": 157
       },
       "actualPositions": {
-        "lees": 724,
-        "luchtig": 154
+        "lees": 746,
+        "luchtig": 157
       }
     },
     "01m196pzv5e41zx21a8hyxgzez": {
@@ -5594,10 +6791,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 844
+        "lees": 869
       },
       "actualPositions": {
-        "lees": 844
+        "lees": 869
       }
     },
     "01m196pzrjbc2s92x6xa3fdsyc": {
@@ -5634,10 +6831,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 297
+        "lees": 299
       },
       "actualPositions": {
-        "lees": 297
+        "lees": 299
       }
     },
     "01m196mk1zj959y2p61n0n5zt1": {
@@ -5674,10 +6871,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 722
+        "lees": 744
       },
       "actualPositions": {
-        "lees": 722
+        "lees": 744
       }
     },
     "01m196m6ne7047b6h945sjqj7j": {
@@ -5714,10 +6911,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 296
+        "lees": 298
       },
       "actualPositions": {
-        "lees": 296
+        "lees": 298
       }
     },
     "01m196kz74jyzaqjtj4yhjqw1t": {
@@ -5757,11 +6954,11 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 134,
+        "lees": 136,
         "short": 93
       },
       "actualPositions": {
-        "lees": 134,
+        "lees": 136,
         "short": 93
       }
     },
@@ -5800,11 +6997,11 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 399,
+        "lees": 410,
         "luchtig": 69
       },
       "actualPositions": {
-        "lees": 399,
+        "lees": 410,
         "luchtig": 69
       }
     },
@@ -5842,10 +7039,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 295
+        "lees": 297
       },
       "actualPositions": {
-        "lees": 295
+        "lees": 297
       }
     },
     "01m196k291zdftz62aqemwqwb6": {
@@ -5884,10 +7081,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 843
+        "lees": 868
       },
       "actualPositions": {
-        "lees": 843
+        "lees": 868
       }
     },
     "01m196jtms884wxmvj092841ht": {
@@ -5924,10 +7121,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 294
+        "lees": 296
       },
       "actualPositions": {
-        "lees": 294
+        "lees": 296
       }
     },
     "01m196jk0e699hcwrcs5bc6111": {
@@ -5964,10 +7161,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 721
+        "lees": 743
       },
       "actualPositions": {
-        "lees": 721
+        "lees": 743
       }
     },
     "01m196fnx7zptrbzsa9252s6vs": {
@@ -6003,12 +7200,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 928,
-        "luchtig": 225
+        "lees": 953,
+        "luchtig": 230
       },
       "actualPositions": {
-        "lees": 928,
-        "luchtig": 225
+        "lees": 953,
+        "luchtig": 230
       }
     },
     "01m194q83m0vbk9y4e4sv3k89t": {
@@ -6048,12 +7245,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 554,
-        "short": 355
+        "lees": 566,
+        "short": 357
       },
       "actualPositions": {
-        "lees": 554,
-        "short": 355
+        "lees": 566,
+        "short": 357
       }
     },
     "01m190ryvmd4mhcezj13x314gy": {
@@ -6091,12 +7288,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 720,
-        "luchtig": 153
+        "lees": 742,
+        "luchtig": 156
       },
       "actualPositions": {
-        "lees": 720,
-        "luchtig": 153
+        "lees": 742,
+        "luchtig": 156
       }
     },
     "01m190rj3w6h5hjz3sv7avj8hm": {
@@ -6133,10 +7330,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 398
+        "lees": 409
       },
       "actualPositions": {
-        "lees": 398
+        "lees": 409
       }
     },
     "01m190rhegf38mh52c3gz2675a": {
@@ -6173,10 +7370,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 719
+        "lees": 741
       },
       "actualPositions": {
-        "lees": 719
+        "lees": 741
       }
     },
     "01m190m9xxmmz9rje95nzenafy": {
@@ -6209,14 +7406,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 1028,
-        "short": 596,
-        "luchtig": 272
+        "lees": 1055,
+        "short": 608,
+        "luchtig": 277
       },
       "actualPositions": {
-        "lees": 1028,
-        "short": 596,
-        "luchtig": 272
+        "lees": 1055,
+        "short": 608,
+        "luchtig": 277
       }
     },
     "01m18xpsjq792p0zmee0dkn5wt": {
@@ -6253,10 +7450,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 718
+        "lees": 740
       },
       "actualPositions": {
-        "lees": 718
+        "lees": 740
       }
     },
     "01m18xpsgvjwtfc02x8hy1xydq": {
@@ -6294,12 +7491,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 790,
-        "short": 436
+        "lees": 814,
+        "short": 448
       },
       "actualPositions": {
-        "lees": 790,
-        "short": 436
+        "lees": 814,
+        "short": 448
       }
     },
     "01m18xpsexnkm60z467jw3nt1z": {
@@ -6339,12 +7536,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 553,
-        "short": 354
+        "lees": 565,
+        "short": 356
       },
       "actualPositions": {
-        "lees": 553,
-        "short": 354
+        "lees": 565,
+        "short": 356
       }
     },
     "01m18xpscenat1n72ax3jacc9n": {
@@ -6381,10 +7578,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 397
+        "lees": 408
       },
       "actualPositions": {
-        "lees": 397
+        "lees": 408
       }
     },
     "01m18xpsa6v7rw75p616xc9cc0": {
@@ -6422,12 +7619,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 791,
-        "short": 437
+        "lees": 815,
+        "short": 449
       },
       "actualPositions": {
-        "lees": 791,
-        "short": 437
+        "lees": 815,
+        "short": 449
       }
     },
     "01m18x8b9t8n3xzh9t4sv7g5w2": {
@@ -6468,13 +7665,13 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 552,
-        "short": 353,
+        "lees": 564,
+        "short": 355,
         "luchtig": 124
       },
       "actualPositions": {
-        "lees": 552,
-        "short": 353,
+        "lees": 564,
+        "short": 355,
         "luchtig": 124
       }
     },
@@ -6510,10 +7707,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 807
+        "lees": 831
       },
       "actualPositions": {
-        "lees": 807
+        "lees": 831
       }
     },
     "01m18x5tkp50nvk9xr4scqk691": {
@@ -6590,10 +7787,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 293
+        "lees": 295
       },
       "actualPositions": {
-        "lees": 293
+        "lees": 295
       }
     },
     "01m18x32vpnf7vj1gwpzsms1eb": {
@@ -6630,10 +7827,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 717
+        "lees": 739
       },
       "actualPositions": {
-        "lees": 717
+        "lees": 739
       }
     },
     "01m18wwtk0xenjggfqswwkdcq1": {
@@ -6673,11 +7870,11 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 133,
+        "lees": 135,
         "short": 92
       },
       "actualPositions": {
-        "lees": 133,
+        "lees": 135,
         "short": 92
       }
     },
@@ -6718,11 +7915,11 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 292,
+        "lees": 294,
         "short": 192
       },
       "actualPositions": {
-        "lees": 292,
+        "lees": 294,
         "short": 192
       }
     },
@@ -6765,12 +7962,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 551,
-        "short": 352
+        "lees": 563,
+        "short": 354
       },
       "actualPositions": {
-        "lees": 551,
-        "short": 352
+        "lees": 563,
+        "short": 354
       }
     },
     "01m18wc4h56bjmxbee1see9s6d": {
@@ -6809,12 +8006,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "scrum"
       ],
       "positions": {
-        "lees": 132,
+        "lees": 134,
         "short": 91,
         "scrum": 7
       },
       "actualPositions": {
-        "lees": 132,
+        "lees": 134,
         "short": 91,
         "scrum": 7
       }
@@ -6854,11 +8051,11 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 131,
+        "lees": 133,
         "short": 90
       },
       "actualPositions": {
-        "lees": 131,
+        "lees": 133,
         "short": 90
       }
     },
@@ -6900,12 +8097,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "scrum"
       ],
       "positions": {
-        "lees": 291,
+        "lees": 293,
         "short": 191,
         "scrum": 53
       },
       "actualPositions": {
-        "lees": 291,
+        "lees": 293,
         "short": 191,
         "scrum": 53
       }
@@ -6945,12 +8142,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "scrum"
       ],
       "positions": {
-        "lees": 396,
-        "scrum": 70
+        "lees": 407,
+        "scrum": 72
       },
       "actualPositions": {
-        "lees": 396,
-        "scrum": 70
+        "lees": 407,
+        "scrum": 72
       }
     },
     "01m18v73vpssrb6705y75h1dra": {
@@ -6991,12 +8188,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "scrum"
       ],
       "positions": {
-        "lees": 290,
+        "lees": 292,
         "short": 190,
         "scrum": 52
       },
       "actualPositions": {
-        "lees": 290,
+        "lees": 292,
         "short": 190,
         "scrum": 52
       }
@@ -7034,12 +8231,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 842,
-        "short": 476
+        "lees": 867,
+        "short": 488
       },
       "actualPositions": {
-        "lees": 842,
-        "short": 476
+        "lees": 867,
+        "short": 488
       }
     },
     "01m18v734wevr6fq67dpy8x5wb": {
@@ -7079,11 +8276,11 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 289,
+        "lees": 291,
         "short": 189
       },
       "actualPositions": {
-        "lees": 289,
+        "lees": 291,
         "short": 189
       }
     },
@@ -7123,14 +8320,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "scrum"
       ],
       "positions": {
-        "lees": 550,
-        "short": 351,
-        "scrum": 107
+        "lees": 562,
+        "short": 353,
+        "scrum": 109
       },
       "actualPositions": {
-        "lees": 550,
-        "short": 351,
-        "scrum": 107
+        "lees": 562,
+        "short": 353,
+        "scrum": 109
       }
     },
     "01m18v72cbd9hh1jysksrrrarx": {
@@ -7167,10 +8364,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 395
+        "lees": 406
       },
       "actualPositions": {
-        "lees": 395
+        "lees": 406
       }
     },
     "01m18v71tth06mxjgryzynrm7p": {
@@ -7205,10 +8402,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 806
+        "lees": 830
       },
       "actualPositions": {
-        "lees": 806
+        "lees": 830
       }
     },
     "01m18v478gh1q09mxpn9yy1f9m": {
@@ -7285,10 +8482,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 394
+        "lees": 405
       },
       "actualPositions": {
-        "lees": 394
+        "lees": 405
       }
     },
     "01m18jgvzs4sm7kea5gjns9p40": {
@@ -7328,11 +8525,11 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 288,
+        "lees": 290,
         "short": 188
       },
       "actualPositions": {
-        "lees": 288,
+        "lees": 290,
         "short": 188
       }
     },
@@ -7372,14 +8569,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "scrum"
       ],
       "positions": {
-        "lees": 549,
-        "short": 350,
-        "scrum": 106
+        "lees": 561,
+        "short": 352,
+        "scrum": 108
       },
       "actualPositions": {
-        "lees": 549,
-        "short": 350,
-        "scrum": 106
+        "lees": 561,
+        "short": 352,
+        "scrum": 108
       }
     },
     "01m18j8c3fqagby4exfngsgy0t": {
@@ -7420,12 +8617,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "scrum"
       ],
       "positions": {
-        "lees": 287,
+        "lees": 289,
         "short": 187,
         "scrum": 51
       },
       "actualPositions": {
-        "lees": 287,
+        "lees": 289,
         "short": 187,
         "scrum": 51
       }
@@ -7466,14 +8663,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "scrum"
       ],
       "positions": {
-        "lees": 548,
-        "short": 349,
-        "scrum": 105
+        "lees": 560,
+        "short": 351,
+        "scrum": 107
       },
       "actualPositions": {
-        "lees": 548,
-        "short": 349,
-        "scrum": 105
+        "lees": 560,
+        "short": 351,
+        "scrum": 107
       }
     },
     "01m18j8bdgtzdjeq0cvb905xw8": {
@@ -7511,12 +8708,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "scrum"
       ],
       "positions": {
-        "lees": 393,
-        "scrum": 69
+        "lees": 404,
+        "scrum": 71
       },
       "actualPositions": {
-        "lees": 393,
-        "scrum": 69
+        "lees": 404,
+        "scrum": 71
       }
     },
     "01m18j8b4g8awyeqser8pfzgt9": {
@@ -7553,10 +8750,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 789
+        "lees": 813
       },
       "actualPositions": {
-        "lees": 789
+        "lees": 813
       }
     },
     "01m18j8atgcw9bfbebjzfrnmey": {
@@ -7591,10 +8788,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 805
+        "lees": 829
       },
       "actualPositions": {
-        "lees": 805
+        "lees": 829
       }
     },
     "01m18j8ag8r16542gf341eg85s": {
@@ -7631,10 +8828,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 392
+        "lees": 403
       },
       "actualPositions": {
-        "lees": 392
+        "lees": 403
       }
     },
     "01m18dbjwne0c8j6wa7ky9amvd": {
@@ -7675,12 +8872,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "scrum"
       ],
       "positions": {
-        "lees": 286,
+        "lees": 288,
         "short": 186,
         "scrum": 50
       },
       "actualPositions": {
-        "lees": 286,
+        "lees": 288,
         "short": 186,
         "scrum": 50
       }
@@ -7719,10 +8916,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 716
+        "lees": 738
       },
       "actualPositions": {
-        "lees": 716
+        "lees": 738
       }
     },
     "01m17yb0acqmetaqyrrhk1pmta": {
@@ -7763,13 +8960,13 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 547,
-        "short": 348,
+        "lees": 559,
+        "short": 350,
         "luchtig": 123
       },
       "actualPositions": {
-        "lees": 547,
-        "short": 348,
+        "lees": 559,
+        "short": 350,
         "luchtig": 123
       }
     },
@@ -7810,11 +9007,11 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 130,
+        "lees": 132,
         "short": 89
       },
       "actualPositions": {
-        "lees": 130,
+        "lees": 132,
         "short": 89
       }
     },
@@ -7852,10 +9049,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 715
+        "lees": 737
       },
       "actualPositions": {
-        "lees": 715
+        "lees": 737
       }
     },
     "01m17y5edpc9b2z16dmwbkxaz7": {
@@ -7895,11 +9092,11 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 129,
+        "lees": 131,
         "short": 88
       },
       "actualPositions": {
-        "lees": 129,
+        "lees": 131,
         "short": 88
       }
     },
@@ -7940,11 +9137,11 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 128,
+        "lees": 130,
         "short": 87
       },
       "actualPositions": {
-        "lees": 128,
+        "lees": 130,
         "short": 87
       }
     },
@@ -7985,12 +9182,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 546,
-        "short": 347
+        "lees": 558,
+        "short": 349
       },
       "actualPositions": {
-        "lees": 546,
-        "short": 347
+        "lees": 558,
+        "short": 349
       }
     },
     "01m17x1rpdmwb33e010taj33rf": {
@@ -8026,12 +9223,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 841,
-        "short": 475
+        "lees": 866,
+        "short": 487
       },
       "actualPositions": {
-        "lees": 841,
-        "short": 475
+        "lees": 866,
+        "short": 487
       }
     },
     "01m17x1rmhg3z05ea006ybkbpv": {
@@ -8069,12 +9266,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 890,
-        "short": 510
+        "lees": 915,
+        "short": 522
       },
       "actualPositions": {
-        "lees": 890,
-        "short": 510
+        "lees": 915,
+        "short": 522
       }
     },
     "01m17x1rh29c5vtzrngrxpedwn": {
@@ -8111,10 +9308,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 788
+        "lees": 812
       },
       "actualPositions": {
-        "lees": 788
+        "lees": 812
       }
     },
     "01m17x1rb5jrqjsb66fhnf5ans": {
@@ -8151,10 +9348,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 285
+        "lees": 287
       },
       "actualPositions": {
-        "lees": 285
+        "lees": 287
       }
     },
     "01m17wr52qrcjdjem6mbxtg5zc": {
@@ -8191,10 +9388,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 391
+        "lees": 402
       },
       "actualPositions": {
-        "lees": 391
+        "lees": 402
       }
     },
     "01m17wr4d0fg1128qew8wwab2v": {
@@ -8234,12 +9431,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 545,
-        "short": 346
+        "lees": 557,
+        "short": 348
       },
       "actualPositions": {
-        "lees": 545,
-        "short": 346
+        "lees": 557,
+        "short": 348
       }
     },
     "01m17wmevv79f0hqp0j1xykrjq": {
@@ -8359,12 +9556,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 544,
-        "short": 345
+        "lees": 556,
+        "short": 347
       },
       "actualPositions": {
-        "lees": 544,
-        "short": 345
+        "lees": 556,
+        "short": 347
       }
     },
     "01m17hcyt40k1nn13p6cp7eyr9": {
@@ -8404,11 +9601,11 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 127,
+        "lees": 129,
         "short": 86
       },
       "actualPositions": {
-        "lees": 127,
+        "lees": 129,
         "short": 86
       }
     },
@@ -8449,11 +9646,11 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 284,
+        "lees": 286,
         "short": 185
       },
       "actualPositions": {
-        "lees": 284,
+        "lees": 286,
         "short": 185
       }
     },
@@ -8491,10 +9688,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 283
+        "lees": 285
       },
       "actualPositions": {
-        "lees": 283
+        "lees": 285
       }
     },
     "01m17e30xctjrv8e3qfrn8j2js": {
@@ -8534,11 +9731,11 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 282,
+        "lees": 284,
         "short": 184
       },
       "actualPositions": {
-        "lees": 282,
+        "lees": 284,
         "short": 184
       }
     },
@@ -8580,13 +9777,13 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 543,
-        "short": 344,
+        "lees": 555,
+        "short": 346,
         "luchtig": 122
       },
       "actualPositions": {
-        "lees": 543,
-        "short": 344,
+        "lees": 555,
+        "short": 346,
         "luchtig": 122
       }
     },
@@ -8622,10 +9819,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 889
+        "lees": 914
       },
       "actualPositions": {
-        "lees": 889
+        "lees": 914
       }
     },
     "01m16khr9mh0csxeh4ay9xwjb9": {
@@ -8661,12 +9858,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 980,
-        "short": 570
+        "lees": 1007,
+        "short": 582
       },
       "actualPositions": {
-        "lees": 980,
-        "short": 570
+        "lees": 1007,
+        "short": 582
       }
     },
     "01m16kff05pzythcybfdqrbmhw": {
@@ -8703,14 +9900,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 979,
-        "short": 569,
-        "luchtig": 249
+        "lees": 1006,
+        "short": 581,
+        "luchtig": 254
       },
       "actualPositions": {
-        "lees": 979,
-        "short": 569,
-        "luchtig": 249
+        "lees": 1006,
+        "short": 581,
+        "luchtig": 254
       }
     },
     "01m16j8y0wqdf804wss6gjpt3p": {
@@ -8746,12 +9943,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 925,
-        "short": 524
+        "lees": 950,
+        "short": 536
       },
       "actualPositions": {
-        "lees": 925,
-        "short": 524
+        "lees": 950,
+        "short": 536
       }
     },
     "01m16hk7381peeaq62zm92ky0a": {
@@ -8786,10 +9983,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 924
+        "lees": 949
       },
       "actualPositions": {
-        "lees": 924
+        "lees": 949
       }
     },
     "01m16c4acqdqeyrmn984wt8h38": {
@@ -8826,10 +10023,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 714
+        "lees": 736
       },
       "actualPositions": {
-        "lees": 714
+        "lees": 736
       }
     },
     "01m165n8b4qpq2few1y4qzdnxk": {
@@ -8866,10 +10063,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 390
+        "lees": 401
       },
       "actualPositions": {
-        "lees": 390
+        "lees": 401
       }
     },
     "01m165m1ac4c8gc7vqqzppc4gg": {
@@ -8910,12 +10107,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "scrum"
       ],
       "positions": {
-        "lees": 281,
+        "lees": 283,
         "short": 183,
         "scrum": 49
       },
       "actualPositions": {
-        "lees": 281,
+        "lees": 283,
         "short": 183,
         "scrum": 49
       }
@@ -8953,12 +10150,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 923,
-        "short": 523
+        "lees": 948,
+        "short": 535
       },
       "actualPositions": {
-        "lees": 923,
-        "short": 523
+        "lees": 948,
+        "short": 535
       }
     },
     "01m164cwcm3c4m35vb5gtr66da": {
@@ -8995,14 +10192,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 978,
-        "short": 568,
-        "luchtig": 248
+        "lees": 1005,
+        "short": 580,
+        "luchtig": 253
       },
       "actualPositions": {
-        "lees": 978,
-        "short": 568,
-        "luchtig": 248
+        "lees": 1005,
+        "short": 580,
+        "luchtig": 253
       }
     },
     "01m163anpyprdvtwnpzcq2hnfp": {
@@ -9039,10 +10236,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 713
+        "lees": 735
       },
       "actualPositions": {
-        "lees": 713
+        "lees": 735
       }
     },
     "01m163amy5kpaagkkm6qqpfm34": {
@@ -9079,10 +10276,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 712
+        "lees": 734
       },
       "actualPositions": {
-        "lees": 712
+        "lees": 734
       }
     },
     "01m163am54s9xs6vjr7yet90bq": {
@@ -9119,10 +10316,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 389
+        "lees": 400
       },
       "actualPositions": {
-        "lees": 389
+        "lees": 400
       }
     },
     "01m163akbj5q6nkm532qmccyc4": {
@@ -9159,10 +10356,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 711
+        "lees": 733
       },
       "actualPositions": {
-        "lees": 711
+        "lees": 733
       }
     },
     "01m163a2vaqy4v5yx9fey9gbaj": {
@@ -9201,14 +10398,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 888,
-        "short": 509,
-        "luchtig": 215
+        "lees": 913,
+        "short": 521,
+        "luchtig": 220
       },
       "actualPositions": {
-        "lees": 888,
-        "short": 509,
-        "luchtig": 215
+        "lees": 913,
+        "short": 521,
+        "luchtig": 220
       }
     },
     "01m1639z7sz37w20bfrea8b18n": {
@@ -9245,10 +10442,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 710
+        "lees": 732
       },
       "actualPositions": {
-        "lees": 710
+        "lees": 732
       }
     },
     "01m1639vmwrx590b3akkhkh3zb": {
@@ -9285,10 +10482,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 709
+        "lees": 731
       },
       "actualPositions": {
-        "lees": 709
+        "lees": 731
       }
     },
     "01m1639rejb5304748h5hhpvcb": {
@@ -9321,10 +10518,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 1010
+        "lees": 1037
       },
       "actualPositions": {
-        "lees": 1010
+        "lees": 1037
       }
     },
     "01m1630mxptmhjrnsdxqkhnzc6": {
@@ -9361,10 +10558,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 388
+        "lees": 399
       },
       "actualPositions": {
-        "lees": 388
+        "lees": 399
       }
     },
     "01m1630ky8qcmnmhx9pvb5wp8g": {
@@ -9403,10 +10600,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 708
+        "lees": 730
       },
       "actualPositions": {
-        "lees": 708
+        "lees": 730
       }
     },
     "01m1630k2gjerrfrwbx09cvjrd": {
@@ -9443,10 +10640,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 387
+        "lees": 398
       },
       "actualPositions": {
-        "lees": 387
+        "lees": 398
       }
     },
     "01m161vztc9cvdz681k9e0xy49": {
@@ -9485,10 +10682,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 386
+        "lees": 397
       },
       "actualPositions": {
-        "lees": 386
+        "lees": 397
       }
     },
     "01m161vkas0effn5zs6zq6qdqh": {
@@ -9527,10 +10724,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 707
+        "lees": 729
       },
       "actualPositions": {
-        "lees": 707
+        "lees": 729
       }
     },
     "01m161v3y3h5rmk6eev2qvkbkq": {
@@ -9569,14 +10766,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "scrum"
       ],
       "positions": {
-        "lees": 542,
-        "short": 343,
-        "scrum": 104
+        "lees": 554,
+        "short": 345,
+        "scrum": 106
       },
       "actualPositions": {
-        "lees": 542,
-        "short": 343,
-        "scrum": 104
+        "lees": 554,
+        "short": 345,
+        "scrum": 106
       }
     },
     "01m160hktxxz3qzhj37gbkf4f6": {
@@ -9614,12 +10811,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 887,
-        "short": 508
+        "lees": 912,
+        "short": 520
       },
       "actualPositions": {
-        "lees": 887,
-        "short": 508
+        "lees": 912,
+        "short": 520
       }
     },
     "01m14qn510bcts8506rj1s6tma": {
@@ -9656,14 +10853,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 886,
-        "short": 507,
-        "luchtig": 214
+        "lees": 911,
+        "short": 519,
+        "luchtig": 219
       },
       "actualPositions": {
-        "lees": 886,
-        "short": 507,
-        "luchtig": 214
+        "lees": 911,
+        "short": 519,
+        "luchtig": 219
       }
     },
     "01m14q0dqdt94p1jsne1xgde8s": {
@@ -9701,12 +10898,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 706,
-        "luchtig": 152
+        "lees": 728,
+        "luchtig": 155
       },
       "actualPositions": {
-        "lees": 706,
-        "luchtig": 152
+        "lees": 728,
+        "luchtig": 155
       }
     },
     "01m14pd8nh6rpczn30dfw08615": {
@@ -9741,10 +10938,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 922
+        "lees": 947
       },
       "actualPositions": {
-        "lees": 922
+        "lees": 947
       }
     },
     "01m14pczjd0j89j8fvw2tmwbnj": {
@@ -9781,10 +10978,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 385
+        "lees": 396
       },
       "actualPositions": {
-        "lees": 385
+        "lees": 396
       }
     },
     "01m14pbyc1cray6t9smdremqw3": {
@@ -9820,12 +11017,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 921,
-        "luchtig": 224
+        "lees": 946,
+        "luchtig": 229
       },
       "actualPositions": {
-        "lees": 921,
-        "luchtig": 224
+        "lees": 946,
+        "luchtig": 229
       }
     },
     "01m14pbksf87sa192vb2v97mq6": {
@@ -9862,10 +11059,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 705
+        "lees": 727
       },
       "actualPositions": {
-        "lees": 705
+        "lees": 727
       }
     },
     "01m14pbbmxhsc70eww3j37crnq": {
@@ -9904,10 +11101,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 704
+        "lees": 726
       },
       "actualPositions": {
-        "lees": 704
+        "lees": 726
       }
     },
     "01m14pb4h7ghqhagfgb09bckxd": {
@@ -9944,10 +11141,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 703
+        "lees": 725
       },
       "actualPositions": {
-        "lees": 703
+        "lees": 725
       }
     },
     "01m14nb3gbkc1d5zt0q1rbjpsv": {
@@ -9988,12 +11185,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 126,
+        "lees": 128,
         "short": 85,
         "luchtig": 26
       },
       "actualPositions": {
-        "lees": 126,
+        "lees": 128,
         "short": 85,
         "luchtig": 26
       }
@@ -10073,12 +11270,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 787,
-        "short": 435
+        "lees": 811,
+        "short": 447
       },
       "actualPositions": {
-        "lees": 787,
-        "short": 435
+        "lees": 811,
+        "short": 447
       }
     },
     "01m1463q6ty4tpv1ezynjst4f5": {
@@ -10119,12 +11316,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "scrum"
       ],
       "positions": {
-        "lees": 280,
+        "lees": 282,
         "short": 182,
         "scrum": 48
       },
       "actualPositions": {
-        "lees": 280,
+        "lees": 282,
         "short": 182,
         "scrum": 48
       }
@@ -10166,11 +11363,11 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 125,
+        "lees": 127,
         "short": 84
       },
       "actualPositions": {
-        "lees": 125,
+        "lees": 127,
         "short": 84
       }
     },
@@ -10211,11 +11408,11 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 124,
+        "lees": 126,
         "short": 83
       },
       "actualPositions": {
-        "lees": 124,
+        "lees": 126,
         "short": 83
       }
     },
@@ -10253,10 +11450,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 702
+        "lees": 724
       },
       "actualPositions": {
-        "lees": 702
+        "lees": 724
       }
     },
     "01m142c1qdqqfjpg2wsdnsbpq3": {
@@ -10291,10 +11488,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 804
+        "lees": 828
       },
       "actualPositions": {
-        "lees": 804
+        "lees": 828
       }
     },
     "01m142c1cz02qt754f1z00q70q": {
@@ -10332,12 +11529,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 786,
-        "short": 434
+        "lees": 810,
+        "short": 446
       },
       "actualPositions": {
-        "lees": 786,
-        "short": 434
+        "lees": 810,
+        "short": 446
       }
     },
     "01m142c0ed04n2vxevdt56fdkg": {
@@ -10411,12 +11608,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 885,
-        "short": 506
+        "lees": 910,
+        "short": 518
       },
       "actualPositions": {
-        "lees": 885,
-        "short": 506
+        "lees": 910,
+        "short": 518
       }
     },
     "01m13wag7j8xmbz23365pa31sw": {
@@ -10453,10 +11650,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 701
+        "lees": 723
       },
       "actualPositions": {
-        "lees": 701
+        "lees": 723
       }
     },
     "01m13wafve99q975xm8rfm11p2": {
@@ -10490,12 +11687,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 977,
-        "short": 567
+        "lees": 1004,
+        "short": 579
       },
       "actualPositions": {
-        "lees": 977,
-        "short": 567
+        "lees": 1004,
+        "short": 579
       }
     },
     "01m13waf2d74e6zsn6d9qrcvf5": {
@@ -10533,12 +11730,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 785,
-        "short": 433
+        "lees": 809,
+        "short": 445
       },
       "actualPositions": {
-        "lees": 785,
-        "short": 433
+        "lees": 809,
+        "short": 445
       }
     },
     "01m13wacn773j3gd1xaxy192dg": {
@@ -10574,12 +11771,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 884,
-        "luchtig": 213
+        "lees": 909,
+        "luchtig": 218
       },
       "actualPositions": {
-        "lees": 884,
-        "luchtig": 213
+        "lees": 909,
+        "luchtig": 218
       }
     },
     "01m13v7ty7pq3wgppy1aq7shnj": {
@@ -10617,12 +11814,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 784,
-        "short": 432
+        "lees": 808,
+        "short": 444
       },
       "actualPositions": {
-        "lees": 784,
-        "short": 432
+        "lees": 808,
+        "short": 444
       }
     },
     "01m13nrkgshp0c323zr7xbtdfa": {
@@ -10660,12 +11857,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 883,
-        "short": 505
+        "lees": 908,
+        "short": 517
       },
       "actualPositions": {
-        "lees": 883,
-        "short": 505
+        "lees": 908,
+        "short": 517
       }
     },
     "01m13k307yr072hj587s585m9c": {
@@ -10705,12 +11902,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 541,
-        "short": 342
+        "lees": 553,
+        "short": 344
       },
       "actualPositions": {
-        "lees": 541,
-        "short": 342
+        "lees": 553,
+        "short": 344
       }
     },
     "01m13bydjdttq1jnhmnt13k22z": {
@@ -10748,11 +11945,11 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 279,
+        "lees": 281,
         "luchtig": 51
       },
       "actualPositions": {
-        "lees": 279,
+        "lees": 281,
         "luchtig": 51
       }
     },
@@ -10794,12 +11991,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "scrum"
       ],
       "positions": {
-        "lees": 278,
+        "lees": 280,
         "short": 181,
         "scrum": 47
       },
       "actualPositions": {
-        "lees": 278,
+        "lees": 280,
         "short": 181,
         "scrum": 47
       }
@@ -10834,10 +12031,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 1009
+        "lees": 1036
       },
       "actualPositions": {
-        "lees": 1009
+        "lees": 1036
       }
     },
     "01m11wpwm53shsjj6k80yq78ed": {
@@ -10878,13 +12075,13 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 540,
-        "short": 341,
+        "lees": 552,
+        "short": 343,
         "luchtig": 121
       },
       "actualPositions": {
-        "lees": 540,
-        "short": 341,
+        "lees": 552,
+        "short": 343,
         "luchtig": 121
       }
     },
@@ -10922,14 +12119,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 976,
-        "short": 566,
-        "luchtig": 247
+        "lees": 1003,
+        "short": 578,
+        "luchtig": 252
       },
       "actualPositions": {
-        "lees": 976,
-        "short": 566,
-        "luchtig": 247
+        "lees": 1003,
+        "short": 578,
+        "luchtig": 252
       }
     },
     "01m11n9t6ec1p5vhxrw6f7zknw": {
@@ -10966,14 +12163,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 975,
-        "short": 565,
-        "luchtig": 246
+        "lees": 1002,
+        "short": 577,
+        "luchtig": 251
       },
       "actualPositions": {
-        "lees": 975,
-        "short": 565,
-        "luchtig": 246
+        "lees": 1002,
+        "short": 577,
+        "luchtig": 251
       }
     },
     "01m11bdc8mm8yp81t7sh9hxc6w": {
@@ -11008,10 +12205,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 920
+        "lees": 945
       },
       "actualPositions": {
-        "lees": 920
+        "lees": 945
       }
     },
     "01m11at16zqzhc2n4ynfbt5g66": {
@@ -11051,12 +12248,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 700,
-        "short": 394
+        "lees": 722,
+        "short": 406
       },
       "actualPositions": {
-        "lees": 700,
-        "short": 394
+        "lees": 722,
+        "short": 406
       }
     },
     "01m1146gh117nyg3tm3zp7rbmr": {
@@ -11097,12 +12294,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "scrum"
       ],
       "positions": {
-        "lees": 277,
+        "lees": 279,
         "short": 180,
         "scrum": 46
       },
       "actualPositions": {
-        "lees": 277,
+        "lees": 279,
         "short": 180,
         "scrum": 46
       }
@@ -11143,14 +12340,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "scrum"
       ],
       "positions": {
-        "lees": 539,
-        "short": 340,
-        "scrum": 103
+        "lees": 551,
+        "short": 342,
+        "scrum": 105
       },
       "actualPositions": {
-        "lees": 539,
-        "short": 340,
-        "scrum": 103
+        "lees": 551,
+        "short": 342,
+        "scrum": 105
       }
     },
     "01m10yhg1v62pzt1tqg88gy59z": {
@@ -11185,11 +12382,11 @@ window.TOP_ARTICLE_PRIORITY = {
       ],
       "positions": {
         "video": 18,
-        "luchtig": 223
+        "luchtig": 228
       },
       "actualPositions": {
         "video": 18,
-        "luchtig": 223
+        "luchtig": 228
       }
     },
     "01m10xzcrdc86fjasmm50zqha5": {
@@ -11224,10 +12421,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 919
+        "lees": 944
       },
       "actualPositions": {
-        "lees": 919
+        "lees": 944
       }
     },
     "01m10x27gxeffqvq180jqm7zpe": {
@@ -11265,11 +12462,11 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 384,
+        "lees": 395,
         "luchtig": 68
       },
       "actualPositions": {
-        "lees": 384,
+        "lees": 395,
         "luchtig": 68
       }
     },
@@ -11303,14 +12500,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 1027,
-        "short": 595,
-        "luchtig": 271
+        "lees": 1054,
+        "short": 607,
+        "luchtig": 276
       },
       "actualPositions": {
-        "lees": 1027,
-        "short": 595,
-        "luchtig": 271
+        "lees": 1054,
+        "short": 607,
+        "luchtig": 276
       }
     },
     "01m10wxd4mp5qbqye0v97t7nfn": {
@@ -11351,13 +12548,13 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 538,
-        "short": 339,
+        "lees": 550,
+        "short": 341,
         "luchtig": 120
       },
       "actualPositions": {
-        "lees": 538,
-        "short": 339,
+        "lees": 550,
+        "short": 341,
         "luchtig": 120
       }
     },
@@ -11390,12 +12587,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 1026,
-        "short": 594
+        "lees": 1053,
+        "short": 606
       },
       "actualPositions": {
-        "lees": 1026,
-        "short": 594
+        "lees": 1053,
+        "short": 606
       }
     },
     "01m10p2ys6jtppvffmfvhv32pv": {
@@ -11433,12 +12630,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "scrum"
       ],
       "positions": {
-        "lees": 383,
-        "scrum": 68
+        "lees": 394,
+        "scrum": 70
       },
       "actualPositions": {
-        "lees": 383,
-        "scrum": 68
+        "lees": 394,
+        "scrum": 70
       }
     },
     "01m10608c69a60gev7wq5m5e5p": {
@@ -11477,14 +12674,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 783,
-        "short": 431,
-        "luchtig": 182
+        "lees": 807,
+        "short": 443,
+        "luchtig": 186
       },
       "actualPositions": {
-        "lees": 783,
-        "short": 431,
-        "luchtig": 182
+        "lees": 807,
+        "short": 443,
+        "luchtig": 186
       }
     },
     "01m0zs70wqrf8nvkmrwzg9843y": {
@@ -11520,12 +12717,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 840,
-        "luchtig": 196
+        "lees": 865,
+        "luchtig": 201
       },
       "actualPositions": {
-        "lees": 840,
-        "luchtig": 196
+        "lees": 865,
+        "luchtig": 201
       }
     },
     "01m0z3600b5fe25e5067vt42dr": {
@@ -11561,12 +12758,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 839,
-        "short": 474
+        "lees": 864,
+        "short": 486
       },
       "actualPositions": {
-        "lees": 839,
-        "short": 474
+        "lees": 864,
+        "short": 486
       }
     },
     "01m0yzc8acebxvxektbepqg0kc": {
@@ -11737,10 +12934,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 699
+        "lees": 721
       },
       "actualPositions": {
-        "lees": 699
+        "lees": 721
       }
     },
     "01m0yqad4wzakafyhsx7qm2dd5": {
@@ -11778,12 +12975,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 838,
-        "short": 473
+        "lees": 863,
+        "short": 485
       },
       "actualPositions": {
-        "lees": 838,
-        "short": 473
+        "lees": 863,
+        "short": 485
       }
     },
     "01m0y3kgbt06w1htm4ey8wsvpr": {
@@ -11819,12 +13016,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 918,
-        "short": 522
+        "lees": 943,
+        "short": 534
       },
       "actualPositions": {
-        "lees": 918,
-        "short": 522
+        "lees": 943,
+        "short": 534
       }
     },
     "01m0xzvm7dw0b5df1st7njp4d5": {
@@ -11910,12 +13107,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 123,
+        "lees": 125,
         "short": 82,
         "luchtig": 25
       },
       "actualPositions": {
-        "lees": 123,
+        "lees": 125,
         "short": 82,
         "luchtig": 25
       }
@@ -11954,10 +13151,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 276
+        "lees": 278
       },
       "actualPositions": {
-        "lees": 276
+        "lees": 278
       }
     },
     "01m0v38d002hs35994nqn3b993": {
@@ -12034,10 +13231,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 275
+        "lees": 277
       },
       "actualPositions": {
-        "lees": 275
+        "lees": 277
       }
     },
     "01m0sr0dszke9gw7s9p7ap5s8a": {
@@ -12116,13 +13313,13 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 537,
-        "short": 338,
+        "lees": 549,
+        "short": 340,
         "luchtig": 119
       },
       "actualPositions": {
-        "lees": 537,
-        "short": 338,
+        "lees": 549,
+        "short": 340,
         "luchtig": 119
       }
     },
@@ -12161,11 +13358,11 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 274,
+        "lees": 276,
         "luchtig": 50
       },
       "actualPositions": {
-        "lees": 274,
+        "lees": 276,
         "luchtig": 50
       }
     },
@@ -12201,10 +13398,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 917
+        "lees": 942
       },
       "actualPositions": {
-        "lees": 917
+        "lees": 942
       }
     },
     "01m0shp666qvak9q36fphvdkhn": {
@@ -12238,12 +13435,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 940,
-        "short": 531
+        "lees": 967,
+        "short": 543
       },
       "actualPositions": {
-        "lees": 940,
-        "short": 531
+        "lees": 967,
+        "short": 543
       }
     },
     "01m0qanzaf93qg8k6vscgf752x": {
@@ -12283,12 +13480,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 698,
-        "short": 393
+        "lees": 720,
+        "short": 405
       },
       "actualPositions": {
-        "lees": 698,
-        "short": 393
+        "lees": 720,
+        "short": 405
       }
     },
     "01m0q9hxz4swmnxrnw4m01p5md": {
@@ -12327,14 +13524,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "scrum"
       ],
       "positions": {
-        "lees": 536,
-        "short": 337,
-        "scrum": 102
+        "lees": 548,
+        "short": 339,
+        "scrum": 104
       },
       "actualPositions": {
-        "lees": 536,
-        "short": 337,
-        "scrum": 102
+        "lees": 548,
+        "short": 339,
+        "scrum": 104
       }
     },
     "01m0q9hvnmabn1jawm1sxwe9g0": {
@@ -12373,14 +13570,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "scrum"
       ],
       "positions": {
-        "lees": 535,
-        "short": 336,
-        "scrum": 101
+        "lees": 547,
+        "short": 338,
+        "scrum": 103
       },
       "actualPositions": {
-        "lees": 535,
-        "short": 336,
-        "scrum": 101
+        "lees": 547,
+        "short": 338,
+        "scrum": 103
       }
     },
     "01m0q9gdtbx4wrnvzc3zr6w7q3": {
@@ -12418,12 +13615,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "scrum"
       ],
       "positions": {
-        "lees": 382,
-        "scrum": 67
+        "lees": 393,
+        "scrum": 69
       },
       "actualPositions": {
-        "lees": 382,
-        "scrum": 67
+        "lees": 393,
+        "scrum": 69
       }
     },
     "01m0q9g0mw4fqpnb351j8763gb": {
@@ -12464,12 +13661,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "scrum"
       ],
       "positions": {
-        "lees": 273,
+        "lees": 275,
         "short": 179,
         "scrum": 45
       },
       "actualPositions": {
-        "lees": 273,
+        "lees": 275,
         "short": 179,
         "scrum": 45
       }
@@ -12508,10 +13705,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 272
+        "lees": 274
       },
       "actualPositions": {
-        "lees": 272
+        "lees": 274
       }
     },
     "01m0ps7yv2hx2wxdrx1t5yj0rg": {
@@ -12552,12 +13749,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "scrum"
       ],
       "positions": {
-        "lees": 271,
+        "lees": 273,
         "short": 178,
         "scrum": 44
       },
       "actualPositions": {
-        "lees": 271,
+        "lees": 273,
         "short": 178,
         "scrum": 44
       }
@@ -12600,12 +13797,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "scrum"
       ],
       "positions": {
-        "lees": 270,
+        "lees": 272,
         "short": 177,
         "scrum": 43
       },
       "actualPositions": {
-        "lees": 270,
+        "lees": 272,
         "short": 177,
         "scrum": 43
       }
@@ -12689,14 +13886,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "scrum"
       ],
       "positions": {
-        "lees": 534,
-        "short": 335,
-        "scrum": 100
+        "lees": 546,
+        "short": 337,
+        "scrum": 102
       },
       "actualPositions": {
-        "lees": 534,
-        "short": 335,
-        "scrum": 100
+        "lees": 546,
+        "short": 337,
+        "scrum": 102
       }
     },
     "01m0pngsn5q8yqqrn2xq1w2hq5": {
@@ -12734,12 +13931,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "scrum"
       ],
       "positions": {
-        "lees": 381,
-        "scrum": 66
+        "lees": 392,
+        "scrum": 68
       },
       "actualPositions": {
-        "lees": 381,
-        "scrum": 66
+        "lees": 392,
+        "scrum": 68
       }
     },
     "01m0pmpmcr99y0nghprb1gb0qw": {
@@ -12780,12 +13977,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "scrum"
       ],
       "positions": {
-        "lees": 269,
+        "lees": 271,
         "short": 176,
         "scrum": 42
       },
       "actualPositions": {
-        "lees": 269,
+        "lees": 271,
         "short": 176,
         "scrum": 42
       }
@@ -12828,12 +14025,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "scrum"
       ],
       "positions": {
-        "lees": 268,
+        "lees": 270,
         "short": 175,
         "scrum": 41
       },
       "actualPositions": {
-        "lees": 268,
+        "lees": 270,
         "short": 175,
         "scrum": 41
       }
@@ -12876,12 +14073,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "scrum"
       ],
       "positions": {
-        "lees": 267,
+        "lees": 269,
         "short": 174,
         "scrum": 40
       },
       "actualPositions": {
-        "lees": 267,
+        "lees": 269,
         "short": 174,
         "scrum": 40
       }
@@ -12924,12 +14121,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "scrum"
       ],
       "positions": {
-        "lees": 266,
+        "lees": 268,
         "short": 173,
         "scrum": 39
       },
       "actualPositions": {
-        "lees": 266,
+        "lees": 268,
         "short": 173,
         "scrum": 39
       }
@@ -13006,10 +14203,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 916
+        "lees": 941
       },
       "actualPositions": {
-        "lees": 916
+        "lees": 941
       }
     },
     "01m0pj0mrj5pwkvvsnnhz283be": {
@@ -13047,12 +14244,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 837,
-        "short": 472
+        "lees": 862,
+        "short": 484
       },
       "actualPositions": {
-        "lees": 837,
-        "short": 472
+        "lees": 862,
+        "short": 484
       }
     },
     "01m0pj0hcdzk57dgqrhngd08xm": {
@@ -13090,12 +14287,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "scrum"
       ],
       "positions": {
-        "lees": 380,
-        "scrum": 65
+        "lees": 391,
+        "scrum": 67
       },
       "actualPositions": {
-        "lees": 380,
-        "scrum": 65
+        "lees": 391,
+        "scrum": 67
       }
     },
     "01m0pj02mr97ngjbkdz9x1ap1p": {
@@ -13130,10 +14327,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 836
+        "lees": 861
       },
       "actualPositions": {
-        "lees": 836
+        "lees": 861
       }
     },
     "01m0phzp27y7aph4qg0szhkwh6": {
@@ -13171,12 +14368,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 882,
-        "short": 504
+        "lees": 907,
+        "short": 516
       },
       "actualPositions": {
-        "lees": 882,
-        "short": 504
+        "lees": 907,
+        "short": 516
       }
     },
     "01m0phzccmt966rjavhr96najj": {
@@ -13213,10 +14410,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 379
+        "lees": 390
       },
       "actualPositions": {
-        "lees": 379
+        "lees": 390
       }
     },
     "01m0phz82jsqawszgfebvkggxm": {
@@ -13257,12 +14454,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "scrum"
       ],
       "positions": {
-        "lees": 265,
+        "lees": 267,
         "short": 172,
         "scrum": 38
       },
       "actualPositions": {
-        "lees": 265,
+        "lees": 267,
         "short": 172,
         "scrum": 38
       }
@@ -13302,12 +14499,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "scrum"
       ],
       "positions": {
-        "lees": 378,
-        "scrum": 64
+        "lees": 389,
+        "scrum": 66
       },
       "actualPositions": {
-        "lees": 378,
-        "scrum": 64
+        "lees": 389,
+        "scrum": 66
       }
     },
     "01m0phywg61rt1ps4477xh1m80": {
@@ -13348,12 +14545,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "scrum"
       ],
       "positions": {
-        "lees": 264,
+        "lees": 266,
         "short": 171,
         "scrum": 37
       },
       "actualPositions": {
-        "lees": 264,
+        "lees": 266,
         "short": 171,
         "scrum": 37
       }
@@ -13392,10 +14589,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 377
+        "lees": 388
       },
       "actualPositions": {
-        "lees": 377
+        "lees": 388
       }
     },
     "01m0phyfcrv55asdnmhwx97sr9": {
@@ -13435,12 +14632,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 696,
-        "short": 392
+        "lees": 718,
+        "short": 404
       },
       "actualPositions": {
-        "lees": 696,
-        "short": 392
+        "lees": 718,
+        "short": 404
       }
     },
     "01m0phy17feth92cc2egjbpr9m": {
@@ -13479,14 +14676,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "scrum"
       ],
       "positions": {
-        "lees": 533,
-        "short": 334,
-        "scrum": 99
+        "lees": 545,
+        "short": 336,
+        "scrum": 101
       },
       "actualPositions": {
-        "lees": 533,
-        "short": 334,
-        "scrum": 99
+        "lees": 545,
+        "short": 336,
+        "scrum": 101
       }
     },
     "01m0nksfcb49bfgcza8prxfhjm": {
@@ -13567,12 +14764,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 122,
+        "lees": 124,
         "short": 81,
         "luchtig": 24
       },
       "actualPositions": {
-        "lees": 122,
+        "lees": 124,
         "short": 81,
         "luchtig": 24
       }
@@ -13615,13 +14812,13 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 532,
-        "short": 333,
+        "lees": 544,
+        "short": 335,
         "luchtig": 118
       },
       "actualPositions": {
-        "lees": 532,
-        "short": 333,
+        "lees": 544,
+        "short": 335,
         "luchtig": 118
       }
     },
@@ -13663,12 +14860,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 121,
+        "lees": 123,
         "short": 80,
         "luchtig": 23
       },
       "actualPositions": {
-        "lees": 121,
+        "lees": 123,
         "short": 80,
         "luchtig": 23
       }
@@ -13710,11 +14907,11 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 120,
+        "lees": 122,
         "short": 79
       },
       "actualPositions": {
-        "lees": 120,
+        "lees": 122,
         "short": 79
       }
     },
@@ -13756,13 +14953,13 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 531,
-        "short": 332,
+        "lees": 543,
+        "short": 334,
         "luchtig": 117
       },
       "actualPositions": {
-        "lees": 531,
-        "short": 332,
+        "lees": 543,
+        "short": 334,
         "luchtig": 117
       }
     },
@@ -13800,10 +14997,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 263
+        "lees": 265
       },
       "actualPositions": {
-        "lees": 263
+        "lees": 265
       }
     },
     "01m0nepk6hxvzd70jd2769qtmm": {
@@ -13840,10 +15037,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 262
+        "lees": 264
       },
       "actualPositions": {
-        "lees": 262
+        "lees": 264
       }
     },
     "01m0nepjcvwwzp4cydwdgdm8kt": {
@@ -13883,11 +15080,11 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 119,
+        "lees": 121,
         "short": 78
       },
       "actualPositions": {
-        "lees": 119,
+        "lees": 121,
         "short": 78
       }
     },
@@ -13928,11 +15125,11 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 118,
+        "lees": 120,
         "short": 77
       },
       "actualPositions": {
-        "lees": 118,
+        "lees": 120,
         "short": 77
       }
     },
@@ -13974,12 +15171,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 261,
+        "lees": 263,
         "short": 170,
         "luchtig": 49
       },
       "actualPositions": {
-        "lees": 261,
+        "lees": 263,
         "short": 170,
         "luchtig": 49
       }
@@ -14021,11 +15218,11 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 117,
+        "lees": 119,
         "short": 76
       },
       "actualPositions": {
-        "lees": 117,
+        "lees": 119,
         "short": 76
       }
     },
@@ -14066,11 +15263,11 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 116,
+        "lees": 118,
         "short": 75
       },
       "actualPositions": {
-        "lees": 116,
+        "lees": 118,
         "short": 75
       }
     },
@@ -14111,11 +15308,11 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 114,
+        "lees": 116,
         "short": 73
       },
       "actualPositions": {
-        "lees": 114,
+        "lees": 116,
         "short": 73
       }
     },
@@ -14156,11 +15353,11 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 113,
+        "lees": 115,
         "short": 72
       },
       "actualPositions": {
-        "lees": 113,
+        "lees": 115,
         "short": 72
       }
     },
@@ -14201,11 +15398,11 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 115,
+        "lees": 117,
         "short": 74
       },
       "actualPositions": {
-        "lees": 115,
+        "lees": 117,
         "short": 74
       }
     },
@@ -14243,10 +15440,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 695
+        "lees": 717
       },
       "actualPositions": {
-        "lees": 695
+        "lees": 717
       }
     },
     "01m0ndx7332c6n3a0z4062eaz9": {
@@ -14286,11 +15483,11 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 112,
+        "lees": 114,
         "short": 71
       },
       "actualPositions": {
-        "lees": 112,
+        "lees": 114,
         "short": 71
       }
     },
@@ -14332,13 +15529,13 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 530,
-        "short": 331,
+        "lees": 542,
+        "short": 333,
         "luchtig": 116
       },
       "actualPositions": {
-        "lees": 530,
-        "short": 331,
+        "lees": 542,
+        "short": 333,
         "luchtig": 116
       }
     },
@@ -14379,11 +15576,11 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 111,
+        "lees": 113,
         "short": 70
       },
       "actualPositions": {
-        "lees": 111,
+        "lees": 113,
         "short": 70
       }
     },
@@ -14425,13 +15622,13 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 529,
-        "short": 330,
+        "lees": 541,
+        "short": 332,
         "luchtig": 115
       },
       "actualPositions": {
-        "lees": 529,
-        "short": 330,
+        "lees": 541,
+        "short": 332,
         "luchtig": 115
       }
     },
@@ -14469,14 +15666,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 974,
-        "short": 564,
-        "luchtig": 245
+        "lees": 1001,
+        "short": 576,
+        "luchtig": 250
       },
       "actualPositions": {
-        "lees": 974,
-        "short": 564,
-        "luchtig": 245
+        "lees": 1001,
+        "short": 576,
+        "luchtig": 250
       }
     },
     "01m0m9hhar6fsa0z8j62knyx2f": {
@@ -14518,12 +15715,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 528,
-        "short": 329
+        "lees": 540,
+        "short": 331
       },
       "actualPositions": {
-        "lees": 528,
-        "short": 329
+        "lees": 540,
+        "short": 331
       }
     },
     "01m0kzx60n6y7mjy1342dw0ynp": {
@@ -14560,11 +15757,11 @@ window.TOP_ARTICLE_PRIORITY = {
       ],
       "positions": {
         "video": 12,
-        "scrum": 120
+        "scrum": 124
       },
       "actualPositions": {
         "video": 12,
-        "scrum": 120
+        "scrum": 124
       }
     },
     "01m0kzws6tp6edn1k4t1dmr1rq": {
@@ -14601,11 +15798,11 @@ window.TOP_ARTICLE_PRIORITY = {
       ],
       "positions": {
         "video": 11,
-        "scrum": 119
+        "scrum": 123
       },
       "actualPositions": {
         "video": 11,
-        "scrum": 119
+        "scrum": 123
       }
     },
     "01m0kzwkwp6cjx5m2jn5stztex": {
@@ -14642,11 +15839,11 @@ window.TOP_ARTICLE_PRIORITY = {
       ],
       "positions": {
         "video": 10,
-        "scrum": 118
+        "scrum": 122
       },
       "actualPositions": {
         "video": 10,
-        "scrum": 118
+        "scrum": 122
       }
     },
     "01m0kzvhp90e4w4ycfaqv26f31": {
@@ -14683,11 +15880,11 @@ window.TOP_ARTICLE_PRIORITY = {
       ],
       "positions": {
         "video": 9,
-        "scrum": 117
+        "scrum": 121
       },
       "actualPositions": {
         "video": 9,
-        "scrum": 117
+        "scrum": 121
       }
     },
     "01m0kzvbj6t6crzagc9kw1n43f": {
@@ -14724,11 +15921,11 @@ window.TOP_ARTICLE_PRIORITY = {
       ],
       "positions": {
         "video": 8,
-        "scrum": 116
+        "scrum": 120
       },
       "actualPositions": {
         "video": 8,
-        "scrum": 116
+        "scrum": 120
       }
     },
     "01m0kzv38gdmh51b4kzqg40mw9": {
@@ -14765,11 +15962,11 @@ window.TOP_ARTICLE_PRIORITY = {
       ],
       "positions": {
         "video": 7,
-        "scrum": 115
+        "scrum": 119
       },
       "actualPositions": {
         "video": 7,
-        "scrum": 115
+        "scrum": 119
       }
     },
     "01m0kztthka4bcp3a2mfxww828": {
@@ -14806,11 +16003,11 @@ window.TOP_ARTICLE_PRIORITY = {
       ],
       "positions": {
         "video": 6,
-        "scrum": 114
+        "scrum": 118
       },
       "actualPositions": {
         "video": 6,
-        "scrum": 114
+        "scrum": 118
       }
     },
     "01m0kztgwcc1d43t3sdahzhg08": {
@@ -14847,11 +16044,11 @@ window.TOP_ARTICLE_PRIORITY = {
       ],
       "positions": {
         "video": 5,
-        "scrum": 113
+        "scrum": 117
       },
       "actualPositions": {
         "video": 5,
-        "scrum": 113
+        "scrum": 117
       }
     },
     "01m0kztar8p0q02aet41a6xn7w": {
@@ -14890,11 +16087,11 @@ window.TOP_ARTICLE_PRIORITY = {
       ],
       "positions": {
         "video": 1,
-        "scrum": 63
+        "scrum": 65
       },
       "actualPositions": {
         "video": 1,
-        "scrum": 63
+        "scrum": 65
       }
     },
     "01m0kk41832n0tav3gjxdhask9": {
@@ -14932,12 +16129,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "scrum"
       ],
       "positions": {
-        "lees": 376,
-        "scrum": 62
+        "lees": 387,
+        "scrum": 64
       },
       "actualPositions": {
-        "lees": 376,
-        "scrum": 62
+        "lees": 387,
+        "scrum": 64
       }
     },
     "01m0kk39ej35nn1j1xszgypca2": {
@@ -14978,12 +16175,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "scrum"
       ],
       "positions": {
-        "lees": 257,
+        "lees": 259,
         "short": 166,
         "scrum": 33
       },
       "actualPositions": {
-        "lees": 257,
+        "lees": 259,
         "short": 166,
         "scrum": 33
       }
@@ -15024,14 +16221,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "scrum"
       ],
       "positions": {
-        "lees": 526,
-        "short": 327,
-        "scrum": 97
+        "lees": 538,
+        "short": 329,
+        "scrum": 99
       },
       "actualPositions": {
-        "lees": 526,
-        "short": 327,
-        "scrum": 97
+        "lees": 538,
+        "short": 329,
+        "scrum": 99
       }
     },
     "01m0k3hr0fm2zdqmg55xb8dnb0": {
@@ -15119,11 +16316,11 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 110,
+        "lees": 112,
         "short": 69
       },
       "actualPositions": {
-        "lees": 110,
+        "lees": 112,
         "short": 69
       }
     },
@@ -15165,12 +16362,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "scrum"
       ],
       "positions": {
-        "lees": 255,
+        "lees": 257,
         "short": 164,
         "scrum": 31
       },
       "actualPositions": {
-        "lees": 255,
+        "lees": 257,
         "short": 164,
         "scrum": 31
       }
@@ -15213,12 +16410,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "scrum"
       ],
       "positions": {
-        "lees": 254,
+        "lees": 256,
         "short": 163,
         "scrum": 30
       },
       "actualPositions": {
-        "lees": 254,
+        "lees": 256,
         "short": 163,
         "scrum": 30
       }
@@ -15261,12 +16458,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "scrum"
       ],
       "positions": {
-        "lees": 253,
+        "lees": 255,
         "short": 162,
         "scrum": 29
       },
       "actualPositions": {
-        "lees": 253,
+        "lees": 255,
         "short": 162,
         "scrum": 29
       }
@@ -15309,12 +16506,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "scrum"
       ],
       "positions": {
-        "lees": 252,
+        "lees": 254,
         "short": 161,
         "scrum": 28
       },
       "actualPositions": {
-        "lees": 252,
+        "lees": 254,
         "short": 161,
         "scrum": 28
       }
@@ -15355,14 +16552,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "scrum"
       ],
       "positions": {
-        "lees": 525,
-        "short": 326,
-        "scrum": 96
+        "lees": 537,
+        "short": 328,
+        "scrum": 98
       },
       "actualPositions": {
-        "lees": 525,
-        "short": 326,
-        "scrum": 96
+        "lees": 537,
+        "short": 328,
+        "scrum": 98
       }
     },
     "01m0k32kq7qr9pqe0hk9pc5ctx": {
@@ -15400,12 +16597,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 881,
-        "short": 503
+        "lees": 906,
+        "short": 515
       },
       "actualPositions": {
-        "lees": 881,
-        "short": 503
+        "lees": 906,
+        "short": 515
       }
     },
     "01m0k2y8k9jpzx9ca7hmq5ajh6": {
@@ -15446,12 +16643,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "scrum"
       ],
       "positions": {
-        "lees": 251,
+        "lees": 253,
         "short": 160,
         "scrum": 27
       },
       "actualPositions": {
-        "lees": 251,
+        "lees": 253,
         "short": 160,
         "scrum": 27
       }
@@ -15492,14 +16689,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "scrum"
       ],
       "positions": {
-        "lees": 524,
-        "short": 325,
-        "scrum": 95
+        "lees": 536,
+        "short": 327,
+        "scrum": 97
       },
       "actualPositions": {
-        "lees": 524,
-        "short": 325,
-        "scrum": 95
+        "lees": 536,
+        "short": 327,
+        "scrum": 97
       }
     },
     "01m0k2vz633g5ymgt2gt9qgv09": {
@@ -15540,12 +16737,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "scrum"
       ],
       "positions": {
-        "lees": 250,
+        "lees": 252,
         "short": 159,
         "scrum": 26
       },
       "actualPositions": {
-        "lees": 250,
+        "lees": 252,
         "short": 159,
         "scrum": 26
       }
@@ -15588,12 +16785,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "scrum"
       ],
       "positions": {
-        "lees": 256,
+        "lees": 258,
         "short": 165,
         "scrum": 32
       },
       "actualPositions": {
-        "lees": 256,
+        "lees": 258,
         "short": 165,
         "scrum": 32
       }
@@ -15634,14 +16831,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "scrum"
       ],
       "positions": {
-        "lees": 523,
-        "short": 324,
-        "scrum": 94
+        "lees": 535,
+        "short": 326,
+        "scrum": 96
       },
       "actualPositions": {
-        "lees": 523,
-        "short": 324,
-        "scrum": 94
+        "lees": 535,
+        "short": 326,
+        "scrum": 96
       }
     },
     "01m0jn9xeykexv7623vdc0wx3g": {
@@ -15678,10 +16875,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 375
+        "lees": 386
       },
       "actualPositions": {
-        "lees": 375
+        "lees": 386
       }
     },
     "01m0jjn6r6k94c6e6es18zzr4f": {
@@ -15719,12 +16916,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 880,
-        "short": 502
+        "lees": 905,
+        "short": 514
       },
       "actualPositions": {
-        "lees": 880,
-        "short": 502
+        "lees": 905,
+        "short": 514
       }
     },
     "01m0jjn5ac4n2mp6j2rk1nw8n3": {
@@ -15758,12 +16955,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 1008,
-        "short": 579
+        "lees": 1035,
+        "short": 591
       },
       "actualPositions": {
-        "lees": 1008,
-        "short": 579
+        "lees": 1035,
+        "short": 591
       }
     },
     "01m0hxft5xtx6vzz2m659k1399": {
@@ -15800,10 +16997,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 694
+        "lees": 716
       },
       "actualPositions": {
-        "lees": 694
+        "lees": 716
       }
     },
     "01m0hmmxya3ffztm2kkczknas8": {
@@ -15839,12 +17036,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 973,
-        "short": 563
+        "lees": 1000,
+        "short": 575
       },
       "actualPositions": {
-        "lees": 973,
-        "short": 563
+        "lees": 1000,
+        "short": 575
       }
     },
     "01m0fr9vyk2k7z18b05gwf8vvj": {
@@ -15881,10 +17078,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 374
+        "lees": 385
       },
       "actualPositions": {
-        "lees": 374
+        "lees": 385
       }
     },
     "01m0fqqq1xeraxzwpmypbjm9aq": {
@@ -15921,14 +17118,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 972,
-        "short": 562,
-        "luchtig": 244
+        "lees": 999,
+        "short": 574,
+        "luchtig": 249
       },
       "actualPositions": {
-        "lees": 972,
-        "short": 562,
-        "luchtig": 244
+        "lees": 999,
+        "short": 574,
+        "luchtig": 249
       }
     },
     "01m0fprcw0hbenm9ssw4pgfvjs": {
@@ -15964,12 +17161,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 971,
-        "short": 561
+        "lees": 998,
+        "short": 573
       },
       "actualPositions": {
-        "lees": 971,
-        "short": 561
+        "lees": 998,
+        "short": 573
       }
     },
     "01m0fakyj271ta3z9cd2fkss4d": {
@@ -16005,12 +17202,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 970,
-        "short": 560
+        "lees": 997,
+        "short": 572
       },
       "actualPositions": {
-        "lees": 970,
-        "short": 560
+        "lees": 997,
+        "short": 572
       }
     },
     "01m0fa1ra7rgpwvzbgmzf4csb1": {
@@ -16048,12 +17245,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 879,
-        "short": 501
+        "lees": 904,
+        "short": 513
       },
       "actualPositions": {
-        "lees": 879,
-        "short": 501
+        "lees": 904,
+        "short": 513
       }
     },
     "01m0f8xm0wprsekah2acf4fx7j": {
@@ -16090,10 +17287,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 693
+        "lees": 715
       },
       "actualPositions": {
-        "lees": 693
+        "lees": 715
       }
     },
     "01m0f8xjnf41tb5r5q6pywfkje": {
@@ -16130,10 +17327,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 692
+        "lees": 714
       },
       "actualPositions": {
-        "lees": 692
+        "lees": 714
       }
     },
     "01m0f8xgfgrxrp4peeznqsnnz7": {
@@ -16173,12 +17370,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 522,
-        "short": 323
+        "lees": 534,
+        "short": 325
       },
       "actualPositions": {
-        "lees": 522,
-        "short": 323
+        "lees": 534,
+        "short": 325
       }
     },
     "01m0f7n644wg7rjzghc836t9ad": {
@@ -16215,10 +17412,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 691
+        "lees": 713
       },
       "actualPositions": {
-        "lees": 691
+        "lees": 713
       }
     },
     "01m0f7n54g084vrq9cwa4veha9": {
@@ -16255,10 +17452,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 690
+        "lees": 712
       },
       "actualPositions": {
-        "lees": 690
+        "lees": 712
       }
     },
     "01m0f7n30c9arq8kzsb4g7dq58": {
@@ -16295,10 +17492,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 689
+        "lees": 711
       },
       "actualPositions": {
-        "lees": 689
+        "lees": 711
       }
     },
     "01m0f7n1vtpf6kh2stzqy55h8a": {
@@ -16338,12 +17535,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 521,
-        "short": 322
+        "lees": 533,
+        "short": 324
       },
       "actualPositions": {
-        "lees": 521,
-        "short": 322
+        "lees": 533,
+        "short": 324
       }
     },
     "01m0f7mzdbtp4sa5541apkzewk": {
@@ -16380,10 +17577,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 688
+        "lees": 710
       },
       "actualPositions": {
-        "lees": 688
+        "lees": 710
       }
     },
     "01m0f7my4hnsxedrnasyh8q2av": {
@@ -16421,12 +17618,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 782,
-        "short": 430
+        "lees": 806,
+        "short": 442
       },
       "actualPositions": {
-        "lees": 782,
-        "short": 430
+        "lees": 806,
+        "short": 442
       }
     },
     "01m0f7mwvh8ay32g66bb7rfsaj": {
@@ -16506,12 +17703,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 520,
-        "short": 321
+        "lees": 532,
+        "short": 323
       },
       "actualPositions": {
-        "lees": 520,
-        "short": 321
+        "lees": 532,
+        "short": 323
       }
     },
     "01m0f7mt8jz6b1bgmxcp0bpqk0": {
@@ -16549,12 +17746,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 781,
-        "short": 429
+        "lees": 805,
+        "short": 441
       },
       "actualPositions": {
-        "lees": 781,
-        "short": 429
+        "lees": 805,
+        "short": 441
       }
     },
     "01m0f7mr3d4nt8zxpgk4859aw8": {
@@ -16591,10 +17788,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 687
+        "lees": 709
       },
       "actualPositions": {
-        "lees": 687
+        "lees": 709
       }
     },
     "01m0f63b282v5tc5yajbtgwann": {
@@ -16631,10 +17828,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 686
+        "lees": 708
       },
       "actualPositions": {
-        "lees": 686
+        "lees": 708
       }
     },
     "01m0f5thx0x9f1rpdvj5r64m3m": {
@@ -16714,11 +17911,11 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 109,
+        "lees": 111,
         "short": 68
       },
       "actualPositions": {
-        "lees": 109,
+        "lees": 111,
         "short": 68
       }
     },
@@ -16759,12 +17956,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 519,
-        "short": 320
+        "lees": 531,
+        "short": 322
       },
       "actualPositions": {
-        "lees": 519,
-        "short": 320
+        "lees": 531,
+        "short": 322
       }
     },
     "01m0f2994rt6gmm80h9g6s9fny": {
@@ -16801,10 +17998,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 249
+        "lees": 251
       },
       "actualPositions": {
-        "lees": 249
+        "lees": 251
       }
     },
     "01m0f2973kcszx7tky6qdcpx6j": {
@@ -16843,10 +18040,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 685
+        "lees": 707
       },
       "actualPositions": {
-        "lees": 685
+        "lees": 707
       }
     },
     "01m0f295dxr46cfakg2cev3c1d": {
@@ -16923,10 +18120,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 248
+        "lees": 250
       },
       "actualPositions": {
-        "lees": 248
+        "lees": 250
       }
     },
     "01m0f29337jsph1jwqq3njdbkc": {
@@ -16967,12 +18164,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 108,
+        "lees": 110,
         "short": 67,
         "luchtig": 22
       },
       "actualPositions": {
-        "lees": 108,
+        "lees": 110,
         "short": 67,
         "luchtig": 22
       }
@@ -17014,12 +18211,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 518,
-        "short": 319
+        "lees": 530,
+        "short": 321
       },
       "actualPositions": {
-        "lees": 518,
-        "short": 319
+        "lees": 530,
+        "short": 321
       }
     },
     "01m0eke5wqdgapqm4m0exz8bz6": {
@@ -17051,12 +18248,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 1025,
-        "short": 593
+        "lees": 1052,
+        "short": 605
       },
       "actualPositions": {
-        "lees": 1025,
-        "short": 593
+        "lees": 1052,
+        "short": 605
       }
     },
     "01m0e4pj03mgc8d7bn0m16c65x": {
@@ -17091,14 +18288,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 1007,
-        "short": 578,
-        "luchtig": 259
+        "lees": 1034,
+        "short": 590,
+        "luchtig": 264
       },
       "actualPositions": {
-        "lees": 1007,
-        "short": 578,
-        "luchtig": 259
+        "lees": 1034,
+        "short": 590,
+        "luchtig": 264
       }
     },
     "01m0dzzn4qg7qw4e18apatwh29": {
@@ -17135,14 +18332,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 969,
-        "short": 559,
-        "luchtig": 243
+        "lees": 996,
+        "short": 571,
+        "luchtig": 248
       },
       "actualPositions": {
-        "lees": 969,
-        "short": 559,
-        "luchtig": 243
+        "lees": 996,
+        "short": 571,
+        "luchtig": 248
       }
     },
     "01m0dvrfnhbaxez1gxzf8mm2cw": {
@@ -17179,10 +18376,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 684
+        "lees": 706
       },
       "actualPositions": {
-        "lees": 684
+        "lees": 706
       }
     },
     "01m0dhvhvd3rtvvsyz61gex2fb": {
@@ -17220,12 +18417,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 878,
-        "short": 500
+        "lees": 903,
+        "short": 512
       },
       "actualPositions": {
-        "lees": 878,
-        "short": 500
+        "lees": 903,
+        "short": 512
       }
     },
     "01m0db85phkv3bnf58tec1mbc1": {
@@ -17259,12 +18456,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 1006,
-        "luchtig": 258
+        "lees": 1033,
+        "luchtig": 263
       },
       "actualPositions": {
-        "lees": 1006,
-        "luchtig": 258
+        "lees": 1033,
+        "luchtig": 263
       }
     },
     "01m0d9rt9b3a66m87wr62cjx7g": {
@@ -17302,11 +18499,11 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 107,
+        "lees": 109,
         "luchtig": 21
       },
       "actualPositions": {
-        "lees": 107,
+        "lees": 109,
         "luchtig": 21
       }
     },
@@ -17348,12 +18545,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 247,
+        "lees": 249,
         "short": 158,
         "luchtig": 48
       },
       "actualPositions": {
-        "lees": 247,
+        "lees": 249,
         "short": 158,
         "luchtig": 48
       }
@@ -17391,12 +18588,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 968,
-        "short": 558
+        "lees": 995,
+        "short": 570
       },
       "actualPositions": {
-        "lees": 968,
-        "short": 558
+        "lees": 995,
+        "short": 570
       }
     },
     "01m0d2tn3xcmjp5hpxgn0tsvxw": {
@@ -17433,10 +18630,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 683
+        "lees": 705
       },
       "actualPositions": {
-        "lees": 683
+        "lees": 705
       }
     },
     "01m0d2tm1p4rb50n7zfv96x6hc": {
@@ -17470,12 +18667,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 1005,
-        "short": 577
+        "lees": 1032,
+        "short": 589
       },
       "actualPositions": {
-        "lees": 1005,
-        "short": 577
+        "lees": 1032,
+        "short": 589
       }
     },
     "01m0d2tjzgp8v752d1sv2e2tyx": {
@@ -17508,10 +18705,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 939
+        "lees": 966
       },
       "actualPositions": {
-        "lees": 939
+        "lees": 966
       }
     },
     "01m0d2tj3vhenhk8v11j38qvp5": {
@@ -17547,12 +18744,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 967,
-        "short": 557
+        "lees": 994,
+        "short": 569
       },
       "actualPositions": {
-        "lees": 967,
-        "short": 557
+        "lees": 994,
+        "short": 569
       }
     },
     "01m0cy7g495j5g6ggxjrxc2np8": {
@@ -17586,12 +18783,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 938,
-        "short": 530
+        "lees": 965,
+        "short": 542
       },
       "actualPositions": {
-        "lees": 938,
-        "short": 530
+        "lees": 965,
+        "short": 542
       }
     },
     "01m0cw5p7z6d6n3c7ynvnvz494": {
@@ -17627,12 +18824,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 966,
-        "short": 556
+        "lees": 993,
+        "short": 568
       },
       "actualPositions": {
-        "lees": 966,
-        "short": 556
+        "lees": 993,
+        "short": 568
       }
     },
     "01m0cw5nb62yzppht12pqv4qby": {
@@ -17668,12 +18865,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 965,
-        "short": 555
+        "lees": 992,
+        "short": 567
       },
       "actualPositions": {
-        "lees": 965,
-        "short": 555
+        "lees": 992,
+        "short": 567
       }
     },
     "01m0cw5m98jtgwrvetaz80rgv0": {
@@ -17713,12 +18910,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 517,
-        "short": 318
+        "lees": 529,
+        "short": 320
       },
       "actualPositions": {
-        "lees": 517,
-        "short": 318
+        "lees": 529,
+        "short": 320
       }
     },
     "01m0cw5keb80tk63pfkmhvkxyf": {
@@ -17752,12 +18949,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 964,
-        "short": 554
+        "lees": 991,
+        "short": 566
       },
       "actualPositions": {
-        "lees": 964,
-        "short": 554
+        "lees": 991,
+        "short": 566
       }
     },
     "01m0cw5jj79htrsnbqxj1qmn9x": {
@@ -17797,12 +18994,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 516,
-        "short": 317
+        "lees": 528,
+        "short": 319
       },
       "actualPositions": {
-        "lees": 516,
-        "short": 317
+        "lees": 528,
+        "short": 319
       }
     },
     "01m0cw5hr65m0xpvcrnsccmw12": {
@@ -17842,12 +19039,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 515,
-        "short": 316
+        "lees": 527,
+        "short": 318
       },
       "actualPositions": {
-        "lees": 515,
-        "short": 316
+        "lees": 527,
+        "short": 318
       }
     },
     "01m0c7sfw5q75aqsa96vxf5a69": {
@@ -17884,10 +19081,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 682
+        "lees": 704
       },
       "actualPositions": {
-        "lees": 682
+        "lees": 704
       }
     },
     "01m0b3f8s0jtjdq0cwv622x3rt": {
@@ -17926,10 +19123,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 681
+        "lees": 703
       },
       "actualPositions": {
-        "lees": 681
+        "lees": 703
       }
     },
     "01m0b3f7rhy6g2a30jk32kz1g0": {
@@ -17966,10 +19163,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 680
+        "lees": 702
       },
       "actualPositions": {
-        "lees": 680
+        "lees": 702
       }
     },
     "01m0b3f6wsd73cy3dc4nzhsavv": {
@@ -18007,12 +19204,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 780,
-        "short": 428
+        "lees": 804,
+        "short": 440
       },
       "actualPositions": {
-        "lees": 780,
-        "short": 428
+        "lees": 804,
+        "short": 440
       }
     },
     "01m0b3f62sb716wyqk6tqva87v": {
@@ -18045,10 +19242,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 1004
+        "lees": 1031
       },
       "actualPositions": {
-        "lees": 1004
+        "lees": 1031
       }
     },
     "01m0b3f56gwerhja7mext6qpv8": {
@@ -18081,10 +19278,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 1003
+        "lees": 1030
       },
       "actualPositions": {
-        "lees": 1003
+        "lees": 1030
       }
     },
     "01m0b3f4900e215a7feb8a1c0c": {
@@ -18120,12 +19317,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 915,
-        "luchtig": 222
+        "lees": 940,
+        "luchtig": 227
       },
       "actualPositions": {
-        "lees": 915,
-        "luchtig": 222
+        "lees": 940,
+        "luchtig": 227
       }
     },
     "01m0b1s6fv0ge2d9mdj3xrabzj": {
@@ -18160,10 +19357,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 803
+        "lees": 827
       },
       "actualPositions": {
-        "lees": 803
+        "lees": 827
       }
     },
     "01m0b1s5m0by88b9h7k9f802kz": {
@@ -18202,14 +19399,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 877,
-        "short": 499,
-        "luchtig": 212
+        "lees": 902,
+        "short": 511,
+        "luchtig": 217
       },
       "actualPositions": {
-        "lees": 877,
-        "short": 499,
-        "luchtig": 212
+        "lees": 902,
+        "short": 511,
+        "luchtig": 217
       }
     },
     "01m0b1s4v68rpr0xny1y8jvgyj": {
@@ -18250,13 +19447,13 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 514,
-        "short": 315,
+        "lees": 526,
+        "short": 317,
         "luchtig": 114
       },
       "actualPositions": {
-        "lees": 514,
-        "short": 315,
+        "lees": 526,
+        "short": 317,
         "luchtig": 114
       }
     },
@@ -18293,12 +19490,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 914,
-        "short": 521
+        "lees": 939,
+        "short": 533
       },
       "actualPositions": {
-        "lees": 914,
-        "short": 521
+        "lees": 939,
+        "short": 533
       }
     },
     "01m0b1s2dc3bep7yc7t5bze75s": {
@@ -18335,10 +19532,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 679
+        "lees": 701
       },
       "actualPositions": {
-        "lees": 679
+        "lees": 701
       }
     },
     "01m0b1s05hhzaks852j6fne2cx": {
@@ -18374,12 +19571,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 913,
-        "luchtig": 221
+        "lees": 938,
+        "luchtig": 226
       },
       "actualPositions": {
-        "lees": 913,
-        "luchtig": 221
+        "lees": 938,
+        "luchtig": 226
       }
     },
     "01m0b106qfhmdg1tz5stvzg7s3": {
@@ -18418,14 +19615,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 876,
-        "short": 498,
-        "luchtig": 211
+        "lees": 901,
+        "short": 510,
+        "luchtig": 216
       },
       "actualPositions": {
-        "lees": 876,
-        "short": 498,
-        "luchtig": 211
+        "lees": 901,
+        "short": 510,
+        "luchtig": 216
       }
     },
     "01m0b105sfej59qwg42vqq0cqt": {
@@ -18461,12 +19658,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 912,
-        "luchtig": 220
+        "lees": 937,
+        "luchtig": 225
       },
       "actualPositions": {
-        "lees": 912,
-        "luchtig": 220
+        "lees": 937,
+        "luchtig": 225
       }
     },
     "01m0aph10yf5zdstrrs85vesb4": {
@@ -18504,12 +19701,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 779,
-        "luchtig": 181
+        "lees": 803,
+        "luchtig": 185
       },
       "actualPositions": {
-        "lees": 779,
-        "luchtig": 181
+        "lees": 803,
+        "luchtig": 185
       }
     },
     "01m0abenxwjayhx9jmhxvr9ekf": {
@@ -18547,12 +19744,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 513,
-        "short": 314
+        "lees": 525,
+        "short": 316
       },
       "actualPositions": {
-        "lees": 513,
-        "short": 314
+        "lees": 525,
+        "short": 316
       }
     },
     "01m0899ydg6jvf8qtyzvs9qdms": {
@@ -18592,12 +19789,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 512,
-        "short": 313
+        "lees": 524,
+        "short": 315
       },
       "actualPositions": {
-        "lees": 512,
-        "short": 313
+        "lees": 524,
+        "short": 315
       }
     },
     "01m084fq71p8p2cev7k6j37ysw": {
@@ -18637,12 +19834,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 511,
-        "short": 312
+        "lees": 523,
+        "short": 314
       },
       "actualPositions": {
-        "lees": 511,
-        "short": 312
+        "lees": 523,
+        "short": 314
       }
     },
     "01m07zpehf3761wmknmsknqwsa": {
@@ -18680,11 +19877,11 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 373,
+        "lees": 384,
         "luchtig": 67
       },
       "actualPositions": {
-        "lees": 373,
+        "lees": 384,
         "luchtig": 67
       }
     },
@@ -18722,10 +19919,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 246
+        "lees": 248
       },
       "actualPositions": {
-        "lees": 246
+        "lees": 248
       }
     },
     "01m07vc44sxraja6grgwxkcqsq": {
@@ -18802,10 +19999,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 678
+        "lees": 700
       },
       "actualPositions": {
-        "lees": 678
+        "lees": 700
       }
     },
     "01m072s3cz3yqa6wp8g8f7hfvg": {
@@ -18841,12 +20038,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 963,
-        "short": 553
+        "lees": 990,
+        "short": 565
       },
       "actualPositions": {
-        "lees": 963,
-        "short": 553
+        "lees": 990,
+        "short": 565
       }
     },
     "01m072s3abc2a6pk01kgrv73my": {
@@ -18882,12 +20079,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 835,
-        "short": 471
+        "lees": 860,
+        "short": 483
       },
       "actualPositions": {
-        "lees": 835,
-        "short": 471
+        "lees": 860,
+        "short": 483
       }
     },
     "01m072s385a6fzhtgze3b0htyj": {
@@ -18921,12 +20118,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 1002,
-        "short": 576
+        "lees": 1029,
+        "short": 588
       },
       "actualPositions": {
-        "lees": 1002,
-        "short": 576
+        "lees": 1029,
+        "short": 588
       }
     },
     "01m072ky3hd19z38m5kyk2fcqy": {
@@ -19005,10 +20202,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "short": 529
+        "short": 541
       },
       "actualPositions": {
-        "short": 529
+        "short": 541
       }
     },
     "01m072keryngnm1c9yrmmc2mkn": {
@@ -19081,10 +20278,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 697
+        "lees": 719
       },
       "actualPositions": {
-        "lees": 697
+        "lees": 719
       }
     },
     "01m072jr0k249sen2da87ta5ra": {
@@ -19121,10 +20318,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 778
+        "lees": 802
       },
       "actualPositions": {
-        "lees": 778
+        "lees": 802
       }
     },
     "01m05be2mdpdf3vg9xy5xr0kcz": {
@@ -19164,12 +20361,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 677,
-        "luchtig": 151
+        "lees": 699,
+        "luchtig": 154
       },
       "actualPositions": {
-        "lees": 677,
-        "luchtig": 151
+        "lees": 699,
+        "luchtig": 154
       }
     },
     "01m059vzb20f0sy9sr2h2140d5": {
@@ -19208,14 +20405,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 777,
-        "short": 427,
-        "luchtig": 180
+        "lees": 801,
+        "short": 439,
+        "luchtig": 184
       },
       "actualPositions": {
-        "lees": 777,
-        "short": 427,
-        "luchtig": 180
+        "lees": 801,
+        "short": 439,
+        "luchtig": 184
       }
     },
     "01m059vwxfv3d1n8rterw19d6a": {
@@ -19257,12 +20454,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 510,
-        "short": 311
+        "lees": 522,
+        "short": 313
       },
       "actualPositions": {
-        "lees": 510,
-        "short": 311
+        "lees": 522,
+        "short": 313
       }
     },
     "01m059vqea4t02392f7364m2jr": {
@@ -19300,11 +20497,11 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 245,
+        "lees": 247,
         "luchtig": 47
       },
       "actualPositions": {
-        "lees": 245,
+        "lees": 247,
         "luchtig": 47
       }
     },
@@ -19343,11 +20540,11 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 244,
+        "lees": 246,
         "luchtig": 46
       },
       "actualPositions": {
-        "lees": 244,
+        "lees": 246,
         "luchtig": 46
       }
     },
@@ -19388,12 +20585,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 676,
-        "luchtig": 150
+        "lees": 698,
+        "luchtig": 153
       },
       "actualPositions": {
-        "lees": 676,
-        "luchtig": 150
+        "lees": 698,
+        "luchtig": 153
       }
     },
     "01m059vg5da0cktz3bq2qqea4g": {
@@ -19432,10 +20629,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 675
+        "lees": 697
       },
       "actualPositions": {
-        "lees": 675
+        "lees": 697
       }
     },
     "01m059vdx0s3ff8xbj5eh1y9x3": {
@@ -19476,12 +20673,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 243,
+        "lees": 245,
         "short": 157,
         "luchtig": 45
       },
       "actualPositions": {
-        "lees": 243,
+        "lees": 245,
         "short": 157,
         "luchtig": 45
       }
@@ -19522,10 +20719,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 371
+        "lees": 382
       },
       "actualPositions": {
-        "lees": 371
+        "lees": 382
       }
     },
     "01m059v98jpw8wgvff3t63dxm4": {
@@ -19565,12 +20762,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 674,
-        "luchtig": 149
+        "lees": 696,
+        "luchtig": 152
       },
       "actualPositions": {
-        "lees": 674,
-        "luchtig": 149
+        "lees": 696,
+        "luchtig": 152
       }
     },
     "01m059v708b9ey8tjyfycwr59j": {
@@ -19609,10 +20806,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 673
+        "lees": 695
       },
       "actualPositions": {
-        "lees": 673
+        "lees": 695
       }
     },
     "01m059v4r9jj9vzx30nn7cs3sr": {
@@ -19652,11 +20849,11 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 370,
+        "lees": 381,
         "luchtig": 65
       },
       "actualPositions": {
-        "lees": 370,
+        "lees": 381,
         "luchtig": 65
       }
     },
@@ -19697,11 +20894,11 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 369,
+        "lees": 380,
         "luchtig": 64
       },
       "actualPositions": {
-        "lees": 369,
+        "lees": 380,
         "luchtig": 64
       }
     },
@@ -19743,12 +20940,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 106,
+        "lees": 108,
         "short": 66,
         "luchtig": 20
       },
       "actualPositions": {
-        "lees": 106,
+        "lees": 108,
         "short": 66,
         "luchtig": 20
       }
@@ -19789,10 +20986,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 368
+        "lees": 379
       },
       "actualPositions": {
-        "lees": 368
+        "lees": 379
       }
     },
     "01m059tsa0jy2myj4kn804wky1": {
@@ -19829,14 +21026,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 962,
-        "short": 552,
-        "luchtig": 242
+        "lees": 989,
+        "short": 564,
+        "luchtig": 247
       },
       "actualPositions": {
-        "lees": 962,
-        "short": 552,
-        "luchtig": 242
+        "lees": 989,
+        "short": 564,
+        "luchtig": 247
       }
     },
     "01m059tpnqyq5yy3kq6xrmf1v5": {
@@ -19876,11 +21073,11 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 105,
+        "lees": 107,
         "short": 65
       },
       "actualPositions": {
-        "lees": 105,
+        "lees": 107,
         "short": 65
       }
     },
@@ -19916,14 +21113,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 1001,
-        "short": 575,
-        "luchtig": 257
+        "lees": 1028,
+        "short": 587,
+        "luchtig": 262
       },
       "actualPositions": {
-        "lees": 1001,
-        "short": 575,
-        "luchtig": 257
+        "lees": 1028,
+        "short": 587,
+        "luchtig": 262
       }
     },
     "01m059thh2ytr4v45ebz778hxw": {
@@ -19965,12 +21162,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 509,
-        "short": 310
+        "lees": 521,
+        "short": 312
       },
       "actualPositions": {
-        "lees": 509,
-        "short": 310
+        "lees": 521,
+        "short": 312
       }
     },
     "01m059tf2ttw02jrmmm46cmhjk": {
@@ -20011,13 +21208,13 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 508,
-        "short": 309,
+        "lees": 520,
+        "short": 311,
         "luchtig": 113
       },
       "actualPositions": {
-        "lees": 508,
-        "short": 309,
+        "lees": 520,
+        "short": 311,
         "luchtig": 113
       }
     },
@@ -20058,12 +21255,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 776,
-        "short": 426
+        "lees": 800,
+        "short": 438
       },
       "actualPositions": {
-        "lees": 776,
-        "short": 426
+        "lees": 800,
+        "short": 438
       }
     },
     "01m059ta2jr7jstn7cdahr41yy": {
@@ -20102,14 +21299,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 775,
-        "short": 425,
-        "luchtig": 179
+        "lees": 799,
+        "short": 437,
+        "luchtig": 183
       },
       "actualPositions": {
-        "lees": 775,
-        "short": 425,
-        "luchtig": 179
+        "lees": 799,
+        "short": 437,
+        "luchtig": 183
       }
     },
     "01m059t7cjgvc214sac3e4z08x": {
@@ -20149,11 +21346,11 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 104,
+        "lees": 106,
         "short": 64
       },
       "actualPositions": {
-        "lees": 104,
+        "lees": 106,
         "short": 64
       }
     },
@@ -20197,13 +21394,13 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 507,
-        "short": 308,
+        "lees": 519,
+        "short": 310,
         "luchtig": 112
       },
       "actualPositions": {
-        "lees": 507,
-        "short": 308,
+        "lees": 519,
+        "short": 310,
         "luchtig": 112
       }
     },
@@ -20243,14 +21440,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 834,
-        "short": 470,
-        "luchtig": 195
+        "lees": 859,
+        "short": 482,
+        "luchtig": 200
       },
       "actualPositions": {
-        "lees": 834,
-        "short": 470,
-        "luchtig": 195
+        "lees": 859,
+        "short": 482,
+        "luchtig": 200
       }
     },
     "01m059szgmq8b5egbkgk1xe1rd": {
@@ -20290,11 +21487,11 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 367,
+        "lees": 378,
         "luchtig": 63
       },
       "actualPositions": {
-        "lees": 367,
+        "lees": 378,
         "luchtig": 63
       }
     },
@@ -20334,10 +21531,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 672
+        "lees": 694
       },
       "actualPositions": {
-        "lees": 672
+        "lees": 694
       }
     },
     "01m059sskxhhg3mfe39qs6r40x": {
@@ -20374,10 +21571,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 242
+        "lees": 244
       },
       "actualPositions": {
-        "lees": 242
+        "lees": 244
       }
     },
     "01m05875k9gghhk1s1wwtpq5nj": {
@@ -20414,10 +21611,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 103
+        "lees": 105
       },
       "actualPositions": {
-        "lees": 103
+        "lees": 105
       }
     },
     "01m03kq3qr8qy899n1ka68ftep": {
@@ -20455,12 +21652,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 774,
-        "short": 424
+        "lees": 798,
+        "short": 436
       },
       "actualPositions": {
-        "lees": 774,
-        "short": 424
+        "lees": 798,
+        "short": 436
       }
     },
     "01m03b0vhwd52bhh3rdjhdafv2": {
@@ -20500,11 +21697,11 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 372,
+        "lees": 383,
         "luchtig": 66
       },
       "actualPositions": {
-        "lees": 372,
+        "lees": 383,
         "luchtig": 66
       }
     },
@@ -20547,15 +21744,15 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig-nederlands"
       ],
       "positions": {
-        "lees": 671,
+        "lees": 693,
         "dutch": 25,
-        "luchtig": 148,
+        "luchtig": 151,
         "luchtig-nederlands": 8
       },
       "actualPositions": {
-        "lees": 671,
+        "lees": 693,
         "dutch": 25,
-        "luchtig": 148,
+        "luchtig": 151,
         "luchtig-nederlands": 8
       }
     },
@@ -20595,14 +21792,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 833,
-        "short": 469,
-        "luchtig": 194
+        "lees": 858,
+        "short": 481,
+        "luchtig": 199
       },
       "actualPositions": {
-        "lees": 833,
-        "short": 469,
-        "luchtig": 194
+        "lees": 858,
+        "short": 481,
+        "luchtig": 199
       }
     },
     "01m02agqvzjjczjgfrjqd8qyqj": {
@@ -20642,15 +21839,15 @@ window.TOP_ARTICLE_PRIORITY = {
         "short-dutch"
       ],
       "positions": {
-        "lees": 506,
+        "lees": 518,
         "dutch": 17,
-        "short": 307,
+        "short": 309,
         "short-dutch": 13
       },
       "actualPositions": {
-        "lees": 506,
+        "lees": 518,
         "dutch": 17,
-        "short": 307,
+        "short": 309,
         "short-dutch": 13
       }
     },
@@ -20693,15 +21890,15 @@ window.TOP_ARTICLE_PRIORITY = {
         "short-dutch"
       ],
       "positions": {
-        "lees": 505,
+        "lees": 517,
         "dutch": 16,
-        "short": 306,
+        "short": 308,
         "short-dutch": 12
       },
       "actualPositions": {
-        "lees": 505,
+        "lees": 517,
         "dutch": 16,
-        "short": 306,
+        "short": 308,
         "short-dutch": 12
       }
     },
@@ -20738,19 +21935,19 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig-nederlands"
       ],
       "positions": {
-        "lees": 1024,
+        "lees": 1051,
         "dutch": 40,
-        "short": 592,
+        "short": 604,
         "short-dutch": 27,
-        "luchtig": 270,
+        "luchtig": 275,
         "luchtig-nederlands": 16
       },
       "actualPositions": {
-        "lees": 1024,
+        "lees": 1051,
         "dutch": 40,
-        "short": 592,
+        "short": 604,
         "short-dutch": 27,
-        "luchtig": 270,
+        "luchtig": 275,
         "luchtig-nederlands": 16
       }
     },
@@ -20784,14 +21981,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 1023,
-        "short": 591,
-        "luchtig": 269
+        "lees": 1050,
+        "short": 603,
+        "luchtig": 274
       },
       "actualPositions": {
-        "lees": 1023,
-        "short": 591,
-        "luchtig": 269
+        "lees": 1050,
+        "short": 603,
+        "luchtig": 274
       }
     },
     "01kzzst7bzmyrpwmespcekhf7k": {
@@ -20833,15 +22030,15 @@ window.TOP_ARTICLE_PRIORITY = {
         "short-dutch"
       ],
       "positions": {
-        "lees": 504,
+        "lees": 516,
         "dutch": 15,
-        "short": 305,
+        "short": 307,
         "short-dutch": 11
       },
       "actualPositions": {
-        "lees": 504,
+        "lees": 516,
         "dutch": 15,
-        "short": 305,
+        "short": 307,
         "short-dutch": 11
       }
     },
@@ -20882,11 +22079,11 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 102,
+        "lees": 104,
         "short": 63
       },
       "actualPositions": {
-        "lees": 102,
+        "lees": 104,
         "short": 63
       }
     },
@@ -20927,12 +22124,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 503,
-        "short": 304
+        "lees": 515,
+        "short": 306
       },
       "actualPositions": {
-        "lees": 503,
-        "short": 304
+        "lees": 515,
+        "short": 306
       }
     },
     "01kzx9z52qd31z7fyy315ebs7d": {
@@ -20969,10 +22166,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 670
+        "lees": 692
       },
       "actualPositions": {
-        "lees": 670
+        "lees": 692
       }
     },
     "01kzvppwrdd73n89vk3nbadrm4": {
@@ -21007,14 +22204,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 961,
-        "short": 551,
-        "luchtig": 241
+        "lees": 988,
+        "short": 563,
+        "luchtig": 246
       },
       "actualPositions": {
-        "lees": 961,
-        "short": 551,
-        "luchtig": 241
+        "lees": 988,
+        "short": 563,
+        "luchtig": 246
       }
     },
     "01kztvesqhd0vhbkmcxqrevkhs": {
@@ -21054,11 +22251,11 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 101,
+        "lees": 103,
         "short": 62
       },
       "actualPositions": {
-        "lees": 101,
+        "lees": 103,
         "short": 62
       }
     },
@@ -21096,14 +22293,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 960,
-        "short": 550,
-        "luchtig": 240
+        "lees": 987,
+        "short": 562,
+        "luchtig": 245
       },
       "actualPositions": {
-        "lees": 960,
-        "short": 550,
-        "luchtig": 240
+        "lees": 987,
+        "short": 562,
+        "luchtig": 245
       }
     },
     "01kzs2rg4k74qvmpceqbwav3ae": {
@@ -21138,14 +22335,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 937,
-        "short": 528,
-        "luchtig": 231
+        "lees": 964,
+        "short": 540,
+        "luchtig": 236
       },
       "actualPositions": {
-        "lees": 937,
-        "short": 528,
-        "luchtig": 231
+        "lees": 964,
+        "short": 540,
+        "luchtig": 236
       }
     },
     "01kzr4dqeqcac4srvc6vvdppez": {
@@ -21181,11 +22378,11 @@ window.TOP_ARTICLE_PRIORITY = {
         "dutch"
       ],
       "positions": {
-        "lees": 911,
+        "lees": 936,
         "dutch": 35
       },
       "actualPositions": {
-        "lees": 911,
+        "lees": 936,
         "dutch": 35
       }
     },
@@ -21225,14 +22422,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 832,
-        "short": 468,
-        "luchtig": 193
+        "lees": 857,
+        "short": 480,
+        "luchtig": 198
       },
       "actualPositions": {
-        "lees": 832,
-        "short": 468,
-        "luchtig": 193
+        "lees": 857,
+        "short": 480,
+        "luchtig": 198
       }
     },
     "01kzp09j3vmc15v2atpvpkbrpe": {
@@ -21272,11 +22469,11 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 100,
+        "lees": 102,
         "short": 61
       },
       "actualPositions": {
-        "lees": 100,
+        "lees": 102,
         "short": 61
       }
     },
@@ -21314,10 +22511,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 669
+        "lees": 691
       },
       "actualPositions": {
-        "lees": 669
+        "lees": 691
       }
     },
     "01kzks8gpjbgtxar87yh5esb02": {
@@ -21355,12 +22552,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 773,
-        "short": 423
+        "lees": 797,
+        "short": 435
       },
       "actualPositions": {
-        "lees": 773,
-        "short": 423
+        "lees": 797,
+        "short": 435
       }
     },
     "01kzks5qkzbprr9awnp29vvk7g": {
@@ -21400,12 +22597,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 502,
-        "short": 303
+        "lees": 514,
+        "short": 305
       },
       "actualPositions": {
-        "lees": 502,
-        "short": 303
+        "lees": 514,
+        "short": 305
       }
     },
     "01kzka3mb479td6k9sc95kkxv4": {
@@ -21443,12 +22640,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 875,
-        "short": 497
+        "lees": 900,
+        "short": 509
       },
       "actualPositions": {
-        "lees": 875,
-        "short": 497
+        "lees": 900,
+        "short": 509
       }
     },
     "01kzjk22zxkgrvftgdtdvj01rq": {
@@ -21490,13 +22687,13 @@ window.TOP_ARTICLE_PRIORITY = {
         "short-dutch"
       ],
       "positions": {
-        "lees": 99,
+        "lees": 101,
         "dutch": 4,
         "short": 60,
         "short-dutch": 4
       },
       "actualPositions": {
-        "lees": 99,
+        "lees": 101,
         "dutch": 4,
         "short": 60,
         "short-dutch": 4
@@ -21536,10 +22733,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 668
+        "lees": 690
       },
       "actualPositions": {
-        "lees": 668
+        "lees": 690
       }
     },
     "01kzeczgpr5fr1w5znnf4m2b9v": {
@@ -21579,11 +22776,11 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 98,
+        "lees": 100,
         "short": 59
       },
       "actualPositions": {
-        "lees": 98,
+        "lees": 100,
         "short": 59
       }
     },
@@ -21624,15 +22821,15 @@ window.TOP_ARTICLE_PRIORITY = {
         "short-dutch"
       ],
       "positions": {
-        "lees": 874,
+        "lees": 899,
         "dutch": 33,
-        "short": 496,
+        "short": 508,
         "short-dutch": 21
       },
       "actualPositions": {
-        "lees": 874,
+        "lees": 899,
         "dutch": 33,
-        "short": 496,
+        "short": 508,
         "short-dutch": 21
       }
     },
@@ -21674,13 +22871,13 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 501,
-        "short": 302,
+        "lees": 513,
+        "short": 304,
         "luchtig": 111
       },
       "actualPositions": {
-        "lees": 501,
-        "short": 302,
+        "lees": 513,
+        "short": 304,
         "luchtig": 111
       }
     },
@@ -21719,12 +22916,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 667,
-        "luchtig": 147
+        "lees": 689,
+        "luchtig": 150
       },
       "actualPositions": {
-        "lees": 667,
-        "luchtig": 147
+        "lees": 689,
+        "luchtig": 150
       }
     },
     "01kzdq8vkjn9a8emm2nef7bdh1": {
@@ -21764,12 +22961,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 500,
-        "short": 301
+        "lees": 512,
+        "short": 303
       },
       "actualPositions": {
-        "lees": 500,
-        "short": 301
+        "lees": 512,
+        "short": 303
       }
     },
     "01kzdq8tj0zzrzaw85rd37s6xf": {
@@ -21808,10 +23005,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 666
+        "lees": 688
       },
       "actualPositions": {
-        "lees": 666
+        "lees": 688
       }
     },
     "01kzdq8sfxq0gzhmywzbn9ty9e": {
@@ -21846,10 +23043,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 910
+        "lees": 935
       },
       "actualPositions": {
-        "lees": 910
+        "lees": 935
       }
     },
     "01kzdbf87h4fzk1m5hz1zgh27t": {
@@ -21885,15 +23082,15 @@ window.TOP_ARTICLE_PRIORITY = {
         "short-dutch"
       ],
       "positions": {
-        "lees": 959,
+        "lees": 986,
         "dutch": 36,
-        "short": 549,
+        "short": 561,
         "short-dutch": 23
       },
       "actualPositions": {
-        "lees": 959,
+        "lees": 986,
         "dutch": 36,
-        "short": 549,
+        "short": 561,
         "short-dutch": 23
       }
     },
@@ -21932,12 +23129,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 366,
-        "short": 205
+        "lees": 377,
+        "short": 207
       },
       "actualPositions": {
-        "lees": 366,
-        "short": 205
+        "lees": 377,
+        "short": 207
       }
     },
     "01kzbmed4w58b2gg8qpgdb9q4c": {
@@ -21977,12 +23174,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 499,
-        "short": 300
+        "lees": 511,
+        "short": 302
       },
       "actualPositions": {
-        "lees": 499,
-        "short": 300
+        "lees": 511,
+        "short": 302
       }
     },
     "01kzbjy9gdq4xntetmwztrtgtv": {
@@ -22020,12 +23217,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 831,
-        "short": 467
+        "lees": 856,
+        "short": 479
       },
       "actualPositions": {
-        "lees": 831,
-        "short": 467
+        "lees": 856,
+        "short": 479
       }
     },
     "01kzb96tb0zsjse9g5hpa4xgm4": {
@@ -22065,12 +23262,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 498,
-        "short": 299
+        "lees": 510,
+        "short": 301
       },
       "actualPositions": {
-        "lees": 498,
-        "short": 299
+        "lees": 510,
+        "short": 301
       }
     },
     "01kzb0cxjx9j8cd81x881xt9e8": {
@@ -22108,12 +23305,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 665,
-        "luchtig": 146
+        "lees": 687,
+        "luchtig": 149
       },
       "actualPositions": {
-        "lees": 665,
-        "luchtig": 146
+        "lees": 687,
+        "luchtig": 149
       }
     },
     "01kzb03e63j61yhndn4jkh2v66": {
@@ -22153,11 +23350,11 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 241,
+        "lees": 243,
         "short": 156
       },
       "actualPositions": {
-        "lees": 241,
+        "lees": 243,
         "short": 156
       }
     },
@@ -22198,11 +23395,11 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 97,
+        "lees": 99,
         "short": 58
       },
       "actualPositions": {
-        "lees": 97,
+        "lees": 99,
         "short": 58
       }
     },
@@ -22242,14 +23439,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 772,
-        "short": 422,
-        "luchtig": 178
+        "lees": 796,
+        "short": 434,
+        "luchtig": 182
       },
       "actualPositions": {
-        "lees": 772,
-        "short": 422,
-        "luchtig": 178
+        "lees": 796,
+        "short": 434,
+        "luchtig": 182
       }
     },
     "01kz9q1etvj82wyb44kpaj3r3c": {
@@ -22287,11 +23484,11 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 96,
+        "lees": 98,
         "luchtig": 19
       },
       "actualPositions": {
-        "lees": 96,
+        "lees": 98,
         "luchtig": 19
       }
     },
@@ -22329,14 +23526,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 958,
-        "short": 548,
-        "luchtig": 239
+        "lees": 985,
+        "short": 560,
+        "luchtig": 244
       },
       "actualPositions": {
-        "lees": 958,
-        "short": 548,
-        "luchtig": 239
+        "lees": 985,
+        "short": 560,
+        "luchtig": 244
       }
     },
     "01kz96t63anbs2x8jgs2txcc9s": {
@@ -22369,10 +23566,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 1000
+        "lees": 1027
       },
       "actualPositions": {
-        "lees": 1000
+        "lees": 1027
       }
     },
     "01kz8zwnxp6tqjavp4bcdvgq9p": {
@@ -22413,13 +23610,13 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 497,
-        "short": 298,
+        "lees": 509,
+        "short": 300,
         "luchtig": 110
       },
       "actualPositions": {
-        "lees": 497,
-        "short": 298,
+        "lees": 509,
+        "short": 300,
         "luchtig": 110
       }
     },
@@ -22456,12 +23653,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 873,
-        "luchtig": 210
+        "lees": 898,
+        "luchtig": 215
       },
       "actualPositions": {
-        "lees": 873,
-        "luchtig": 210
+        "lees": 898,
+        "luchtig": 215
       }
     },
     "01kz84cd6qp18k7dfpv9b4khjc": {
@@ -22499,12 +23696,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 664,
-        "luchtig": 145
+        "lees": 686,
+        "luchtig": 148
       },
       "actualPositions": {
-        "lees": 664,
-        "luchtig": 145
+        "lees": 686,
+        "luchtig": 148
       }
     },
     "01kz82xdjjgrnyqf2bgfgaehd9": {
@@ -22544,12 +23741,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 496,
-        "short": 297
+        "lees": 508,
+        "short": 299
       },
       "actualPositions": {
-        "lees": 496,
-        "short": 297
+        "lees": 508,
+        "short": 299
       }
     },
     "01kz6ed2bfhqw1ksddzhkn7nv0": {
@@ -22587,12 +23784,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 872,
-        "short": 495
+        "lees": 897,
+        "short": 507
       },
       "actualPositions": {
-        "lees": 872,
-        "short": 495
+        "lees": 897,
+        "short": 507
       }
     },
     "01kz6ed1sa2y2kwxs775125q31": {
@@ -22630,12 +23827,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 771,
-        "short": 421
+        "lees": 795,
+        "short": 433
       },
       "actualPositions": {
-        "lees": 771,
-        "short": 421
+        "lees": 795,
+        "short": 433
       }
     },
     "01kz6ecwzhtf8eaynr9sx4ss7a": {
@@ -22672,10 +23869,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 663
+        "lees": 685
       },
       "actualPositions": {
-        "lees": 663
+        "lees": 685
       }
     },
     "01kz6ect0wg6e4xcxasm10sk5g": {
@@ -22709,12 +23906,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 957,
-        "short": 547
+        "lees": 984,
+        "short": 559
       },
       "actualPositions": {
-        "lees": 957,
-        "short": 547
+        "lees": 984,
+        "short": 559
       }
     },
     "01kz69ad56sjrd4e3q43gheyq6": {
@@ -22748,12 +23945,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 956,
-        "short": 546
+        "lees": 983,
+        "short": 558
       },
       "actualPositions": {
-        "lees": 956,
-        "short": 546
+        "lees": 983,
+        "short": 558
       }
     },
     "01kz69a8qypwqt460jxm9pk4r8": {
@@ -22788,10 +23985,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 909
+        "lees": 934
       },
       "actualPositions": {
-        "lees": 909
+        "lees": 934
       }
     },
     "01kz69a3spachapgt877dw9cxs": {
@@ -22829,12 +24026,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 770,
-        "short": 420
+        "lees": 794,
+        "short": 432
       },
       "actualPositions": {
-        "lees": 770,
-        "short": 420
+        "lees": 794,
+        "short": 432
       }
     },
     "01kz5hxxx355g7zdmhn22jhs3a": {
@@ -22868,12 +24065,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 955,
-        "short": 545
+        "lees": 982,
+        "short": 557
       },
       "actualPositions": {
-        "lees": 955,
-        "short": 545
+        "lees": 982,
+        "short": 557
       }
     },
     "01kz5hxrqak5nz3t8a2kwv5zhj": {
@@ -22906,14 +24103,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 1022,
-        "short": 590,
-        "luchtig": 268
+        "lees": 1049,
+        "short": 602,
+        "luchtig": 273
       },
       "actualPositions": {
-        "lees": 1022,
-        "short": 590,
-        "luchtig": 268
+        "lees": 1049,
+        "short": 602,
+        "luchtig": 273
       }
     },
     "01kz4wdxrxyjpr3qbg0042hady": {
@@ -22948,10 +24145,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 908
+        "lees": 933
       },
       "actualPositions": {
-        "lees": 908
+        "lees": 933
       }
     },
     "01kz4nmz78jyvw6r2c5t42twxt": {
@@ -22984,10 +24181,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 999
+        "lees": 1026
       },
       "actualPositions": {
-        "lees": 999
+        "lees": 1026
       }
     },
     "01kz4nfbmznfm4bgfs8zac2x39": {
@@ -23059,12 +24256,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 998,
-        "luchtig": 256
+        "lees": 1025,
+        "luchtig": 261
       },
       "actualPositions": {
-        "lees": 998,
-        "luchtig": 256
+        "lees": 1025,
+        "luchtig": 261
       }
     },
     "01kz4nb1rvgwbacrqkqpzcw6my": {
@@ -23101,10 +24298,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 662
+        "lees": 684
       },
       "actualPositions": {
-        "lees": 662
+        "lees": 684
       }
     },
     "01kz3vmxyyz45h60v9psp9ea3t": {
@@ -23142,12 +24339,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 830,
-        "short": 466
+        "lees": 855,
+        "short": 478
       },
       "actualPositions": {
-        "lees": 830,
-        "short": 466
+        "lees": 855,
+        "short": 478
       }
     },
     "01kz3nr3jzajrcg02622ggr47y": {
@@ -23187,12 +24384,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 495,
-        "short": 296
+        "lees": 507,
+        "short": 298
       },
       "actualPositions": {
-        "lees": 495,
-        "short": 296
+        "lees": 507,
+        "short": 298
       }
     },
     "01kz3n3vtt34z9nte888xtbp8q": {
@@ -23232,11 +24429,11 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 240,
+        "lees": 242,
         "short": 155
       },
       "actualPositions": {
-        "lees": 240,
+        "lees": 242,
         "short": 155
       }
     },
@@ -23274,10 +24471,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 239
+        "lees": 241
       },
       "actualPositions": {
-        "lees": 239
+        "lees": 241
       }
     },
     "01kz1sn0npf6d2a1sccnqyaz67": {
@@ -23312,10 +24509,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 871
+        "lees": 896
       },
       "actualPositions": {
-        "lees": 871
+        "lees": 896
       }
     },
     "01kz0k2hbcfqf2z9fpk12rqtz5": {
@@ -23355,11 +24552,11 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 95,
+        "lees": 97,
         "short": 57
       },
       "actualPositions": {
-        "lees": 95,
+        "lees": 97,
         "short": 57
       }
     },
@@ -23400,11 +24597,11 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 94,
+        "lees": 96,
         "short": 56
       },
       "actualPositions": {
-        "lees": 94,
+        "lees": 96,
         "short": 56
       }
     },
@@ -23446,13 +24643,13 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 494,
-        "short": 295,
+        "lees": 506,
+        "short": 297,
         "luchtig": 109
       },
       "actualPositions": {
-        "lees": 494,
-        "short": 295,
+        "lees": 506,
+        "short": 297,
         "luchtig": 109
       }
     },
@@ -23491,12 +24688,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 829,
-        "short": 465
+        "lees": 854,
+        "short": 477
       },
       "actualPositions": {
-        "lees": 829,
-        "short": 465
+        "lees": 854,
+        "short": 477
       }
     },
     "01kyxyqrfvk85easc927qpwtns": {
@@ -23581,13 +24778,13 @@ window.TOP_ARTICLE_PRIORITY = {
         "short-dutch"
       ],
       "positions": {
-        "lees": 93,
+        "lees": 95,
         "dutch": 3,
         "short": 55,
         "short-dutch": 3
       },
       "actualPositions": {
-        "lees": 93,
+        "lees": 95,
         "dutch": 3,
         "short": 55,
         "short-dutch": 3
@@ -23671,12 +24868,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 769,
-        "short": 419
+        "lees": 793,
+        "short": 431
       },
       "actualPositions": {
-        "lees": 769,
-        "short": 419
+        "lees": 793,
+        "short": 431
       }
     },
     "01kysnpk8azvdg0fmar8118yy0": {
@@ -23709,10 +24906,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 997
+        "lees": 1024
       },
       "actualPositions": {
-        "lees": 997
+        "lees": 1024
       }
     },
     "01kysnpjbzmxbkrjfbxzssm9ke": {
@@ -23745,10 +24942,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 996
+        "lees": 1023
       },
       "actualPositions": {
-        "lees": 996
+        "lees": 1023
       }
     },
     "01kysnp46np6phr3stfajdsjk8": {
@@ -23783,10 +24980,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 828
+        "lees": 853
       },
       "actualPositions": {
-        "lees": 828
+        "lees": 853
       }
     },
     "01kysnn7synbp4djg1ph3zrhdh": {
@@ -23826,11 +25023,11 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 92,
+        "lees": 94,
         "short": 54
       },
       "actualPositions": {
-        "lees": 92,
+        "lees": 94,
         "short": 54
       }
     },
@@ -23868,10 +25065,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 365
+        "lees": 376
       },
       "actualPositions": {
-        "lees": 365
+        "lees": 376
       }
     },
     "01kysnmbwt86e2fk3axtde57h4": {
@@ -23951,15 +25148,15 @@ window.TOP_ARTICLE_PRIORITY = {
         "short-dutch"
       ],
       "positions": {
-        "lees": 364,
+        "lees": 375,
         "dutch": 9,
-        "short": 204,
+        "short": 206,
         "short-dutch": 5
       },
       "actualPositions": {
-        "lees": 364,
+        "lees": 375,
         "dutch": 9,
-        "short": 204,
+        "short": 206,
         "short-dutch": 5
       }
     },
@@ -24000,11 +25197,11 @@ window.TOP_ARTICLE_PRIORITY = {
         "dutch"
       ],
       "positions": {
-        "lees": 363,
+        "lees": 374,
         "dutch": 8
       },
       "actualPositions": {
-        "lees": 363,
+        "lees": 374,
         "dutch": 8
       }
     },
@@ -24042,10 +25239,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 238
+        "lees": 240
       },
       "actualPositions": {
-        "lees": 238
+        "lees": 240
       }
     },
     "01kysnj4rgn2xvk4wh8pqj831w": {
@@ -24085,11 +25282,11 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 91,
+        "lees": 93,
         "short": 53
       },
       "actualPositions": {
-        "lees": 91,
+        "lees": 93,
         "short": 53
       }
     },
@@ -24125,10 +25322,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 927
+        "lees": 952
       },
       "actualPositions": {
-        "lees": 927
+        "lees": 952
       }
     },
     "01kysfnf6jy1cq0eax8gwfxt5t": {
@@ -24163,10 +25360,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 926
+        "lees": 951
       },
       "actualPositions": {
-        "lees": 926
+        "lees": 951
       }
     },
     "01kysfkr91ztafaydtna4raq0r": {
@@ -24239,10 +25436,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 995
+        "lees": 1022
       },
       "actualPositions": {
-        "lees": 995
+        "lees": 1022
       }
     },
     "01kys88s7qtngkzgfv4eyvcqxm": {
@@ -24282,12 +25479,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 493,
-        "short": 294
+        "lees": 505,
+        "short": 296
       },
       "actualPositions": {
-        "lees": 493,
-        "short": 294
+        "lees": 505,
+        "short": 296
       }
     },
     "01kypsfm35qdf9z4ncsvxx0hm3": {
@@ -24328,13 +25525,13 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 492,
-        "short": 293,
+        "lees": 504,
+        "short": 295,
         "luchtig": 108
       },
       "actualPositions": {
-        "lees": 492,
-        "short": 293,
+        "lees": 504,
+        "short": 295,
         "luchtig": 108
       }
     },
@@ -24372,10 +25569,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 362
+        "lees": 373
       },
       "actualPositions": {
-        "lees": 362
+        "lees": 373
       }
     },
     "01kyhnw0sy3wcsr7adg43eb2bg": {
@@ -24418,14 +25615,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 802,
-        "short": 445,
-        "luchtig": 186
+        "lees": 826,
+        "short": 457,
+        "luchtig": 190
       },
       "actualPositions": {
-        "lees": 802,
-        "short": 445,
-        "luchtig": 186
+        "lees": 826,
+        "short": 457,
+        "luchtig": 190
       }
     },
     "01kyexyg0m6s4a4nddcw8mm63e": {
@@ -24462,10 +25659,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 237
+        "lees": 239
       },
       "actualPositions": {
-        "lees": 237
+        "lees": 239
       }
     },
     "01kyejqrpkrb3a9zqk5a7k4n5f": {
@@ -24509,17 +25706,17 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig-nederlands"
       ],
       "positions": {
-        "lees": 491,
+        "lees": 503,
         "dutch": 14,
-        "short": 292,
+        "short": 294,
         "short-dutch": 10,
         "luchtig": 107,
         "luchtig-nederlands": 5
       },
       "actualPositions": {
-        "lees": 491,
+        "lees": 503,
         "dutch": 14,
-        "short": 292,
+        "short": 294,
         "short-dutch": 10,
         "luchtig": 107,
         "luchtig-nederlands": 5
@@ -24561,14 +25758,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 768,
-        "short": 418,
-        "luchtig": 177
+        "lees": 792,
+        "short": 430,
+        "luchtig": 181
       },
       "actualPositions": {
-        "lees": 768,
-        "short": 418,
-        "luchtig": 177
+        "lees": 792,
+        "short": 430,
+        "luchtig": 181
       }
     },
     "01kye6cwzsz29j9v1g53fzfy45": {
@@ -24608,11 +25805,11 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 236,
+        "lees": 238,
         "short": 154
       },
       "actualPositions": {
-        "lees": 236,
+        "lees": 238,
         "short": 154
       }
     },
@@ -24654,12 +25851,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 90,
+        "lees": 92,
         "short": 52,
         "luchtig": 18
       },
       "actualPositions": {
-        "lees": 90,
+        "lees": 92,
         "short": 52,
         "luchtig": 18
       }
@@ -24698,10 +25895,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 235
+        "lees": 237
       },
       "actualPositions": {
-        "lees": 235
+        "lees": 237
       }
     },
     "01kyab47vf7vat0n76fpwrgrj6": {
@@ -24814,14 +26011,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 936,
-        "short": 527,
-        "luchtig": 230
+        "lees": 963,
+        "short": 539,
+        "luchtig": 235
       },
       "actualPositions": {
-        "lees": 936,
-        "short": 527,
-        "luchtig": 230
+        "lees": 963,
+        "short": 539,
+        "luchtig": 235
       }
     },
     "01ky7y54f3cb0xcxn9nyexpkzw": {
@@ -24861,11 +26058,11 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 89,
+        "lees": 91,
         "short": 51
       },
       "actualPositions": {
-        "lees": 89,
+        "lees": 91,
         "short": 51
       }
     },
@@ -24903,10 +26100,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 234
+        "lees": 236
       },
       "actualPositions": {
-        "lees": 234
+        "lees": 236
       }
     },
     "01ky7rnb3ej3419mmtg3q5ay7f": {
@@ -24943,10 +26140,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 233
+        "lees": 235
       },
       "actualPositions": {
-        "lees": 233
+        "lees": 235
       }
     },
     "01ky7qe9p9qwtpk49bzc4pqqhk": {
@@ -24986,11 +26183,11 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 88,
+        "lees": 90,
         "short": 50
       },
       "actualPositions": {
-        "lees": 88,
+        "lees": 90,
         "short": 50
       }
     },
@@ -25026,10 +26223,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 907
+        "lees": 932
       },
       "actualPositions": {
-        "lees": 907
+        "lees": 932
       }
     },
     "01ky7n2t9kh67a9rabta0hwczs": {
@@ -25066,10 +26263,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 661
+        "lees": 683
       },
       "actualPositions": {
-        "lees": 661
+        "lees": 683
       }
     },
     "01ky7n1payjs47v58cfqd47w6z": {
@@ -25220,10 +26417,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 232
+        "lees": 234
       },
       "actualPositions": {
-        "lees": 232
+        "lees": 234
       }
     },
     "01ky7msvp0ngc4st73axard7qv": {
@@ -25258,10 +26455,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 801
+        "lees": 825
       },
       "actualPositions": {
-        "lees": 801
+        "lees": 825
       }
     },
     "01ky7mstrf89d3yb8qgzjpajrb": {
@@ -25335,12 +26532,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 767,
-        "short": 417
+        "lees": 791,
+        "short": 429
       },
       "actualPositions": {
-        "lees": 767,
-        "short": 417
+        "lees": 791,
+        "short": 429
       }
     },
     "01ky7md09dzgwfh5dxnz8yjwbc": {
@@ -25491,14 +26688,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 954,
-        "short": 544,
-        "luchtig": 238
+        "lees": 981,
+        "short": 556,
+        "luchtig": 243
       },
       "actualPositions": {
-        "lees": 954,
-        "short": 544,
-        "luchtig": 238
+        "lees": 981,
+        "short": 556,
+        "luchtig": 243
       }
     },
     "01ky7jrg1n7trqqbw2b1914kmc": {
@@ -25535,10 +26732,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 231
+        "lees": 233
       },
       "actualPositions": {
-        "lees": 231
+        "lees": 233
       }
     },
     "01ky7jrfefqkv3180t6q9eqbjk": {
@@ -25577,10 +26774,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 660
+        "lees": 682
       },
       "actualPositions": {
-        "lees": 660
+        "lees": 682
       }
     },
     "01ky7jrexxwmsfs69nz3te7s86": {
@@ -25617,10 +26814,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 230
+        "lees": 232
       },
       "actualPositions": {
-        "lees": 230
+        "lees": 232
       }
     },
     "01ky7jr9fzhv4h5e988f76rxth": {
@@ -25659,14 +26856,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 870,
-        "short": 494,
-        "luchtig": 209
+        "lees": 895,
+        "short": 506,
+        "luchtig": 214
       },
       "actualPositions": {
-        "lees": 870,
-        "short": 494,
-        "luchtig": 209
+        "lees": 895,
+        "short": 506,
+        "luchtig": 214
       }
     },
     "01ky7jr7b2vzxpcgjrbkj0w8ek": {
@@ -25741,11 +26938,11 @@ window.TOP_ARTICLE_PRIORITY = {
       ],
       "positions": {
         "pdf": 23,
-        "luchtig": 185
+        "luchtig": 189
       },
       "actualPositions": {
         "pdf": 23,
-        "luchtig": 185
+        "luchtig": 189
       }
     },
     "01ky6y1kzn6rvqmzqvj41ks8m0": {
@@ -25782,14 +26979,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 906,
-        "short": 520,
-        "luchtig": 219
+        "lees": 931,
+        "short": 532,
+        "luchtig": 224
       },
       "actualPositions": {
-        "lees": 906,
-        "short": 520,
-        "luchtig": 219
+        "lees": 931,
+        "short": 532,
+        "luchtig": 224
       }
     },
     "01ky6y1g55qsprt9r2h4jm394c": {
@@ -25830,13 +27027,13 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 490,
-        "short": 291,
+        "lees": 502,
+        "short": 293,
         "luchtig": 106
       },
       "actualPositions": {
-        "lees": 490,
-        "short": 291,
+        "lees": 502,
+        "short": 293,
         "luchtig": 106
       }
     },
@@ -25878,13 +27075,13 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 489,
-        "short": 290,
+        "lees": 501,
+        "short": 292,
         "luchtig": 105
       },
       "actualPositions": {
-        "lees": 489,
-        "short": 290,
+        "lees": 501,
+        "short": 292,
         "luchtig": 105
       }
     },
@@ -25923,12 +27120,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 361,
-        "short": 203
+        "lees": 372,
+        "short": 205
       },
       "actualPositions": {
-        "lees": 361,
-        "short": 203
+        "lees": 372,
+        "short": 205
       }
     },
     "01ky6y11rnw2se0aen1ywm2q8w": {
@@ -25965,10 +27162,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 659
+        "lees": 681
       },
       "actualPositions": {
-        "lees": 659
+        "lees": 681
       }
     },
     "01ky6y112ahhdfz7zdrw7w1jkc": {
@@ -26010,12 +27207,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 488,
-        "short": 289
+        "lees": 500,
+        "short": 291
       },
       "actualPositions": {
-        "lees": 488,
-        "short": 289
+        "lees": 500,
+        "short": 291
       }
     },
     "01ky6y0z3wkzmdhty7gq3qa1wz": {
@@ -26094,14 +27291,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 766,
-        "short": 416,
-        "luchtig": 176
+        "lees": 790,
+        "short": 428,
+        "luchtig": 180
       },
       "actualPositions": {
-        "lees": 766,
-        "short": 416,
-        "luchtig": 176
+        "lees": 790,
+        "short": 428,
+        "luchtig": 180
       }
     },
     "01ky6y0vpey9hnw6ynvksnnn0j": {
@@ -26138,10 +27335,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 658
+        "lees": 680
       },
       "actualPositions": {
-        "lees": 658
+        "lees": 680
       }
     },
     "01ky6y0rhhn83s070ndp1ds299": {
@@ -26178,10 +27375,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 229
+        "lees": 231
       },
       "actualPositions": {
-        "lees": 229
+        "lees": 231
       }
     },
     "01ky6y0qmjfq005jxq0a8tvtw8": {
@@ -26220,14 +27417,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 765,
-        "short": 415,
-        "luchtig": 175
+        "lees": 789,
+        "short": 427,
+        "luchtig": 179
       },
       "actualPositions": {
-        "lees": 765,
-        "short": 415,
-        "luchtig": 175
+        "lees": 789,
+        "short": 427,
+        "luchtig": 179
       }
     },
     "01ky6y0nhqr5zvg2wnj7d1hre9": {
@@ -26264,10 +27461,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 228
+        "lees": 230
       },
       "actualPositions": {
-        "lees": 228
+        "lees": 230
       }
     },
     "01ky6y0m8j0tnyke57d6q3ehaa": {
@@ -26307,12 +27504,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 487,
-        "short": 288
+        "lees": 499,
+        "short": 290
       },
       "actualPositions": {
-        "lees": 487,
-        "short": 288
+        "lees": 499,
+        "short": 290
       }
     },
     "01ky6y0j4yaxqm3hxn6dmtg3cd": {
@@ -26346,12 +27543,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 935,
-        "luchtig": 229
+        "lees": 962,
+        "luchtig": 234
       },
       "actualPositions": {
-        "lees": 935,
-        "luchtig": 229
+        "lees": 962,
+        "luchtig": 234
       }
     },
     "01ky6y0ffj0t71kter8gv25vx3": {
@@ -26388,10 +27585,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 227
+        "lees": 229
       },
       "actualPositions": {
-        "lees": 227
+        "lees": 229
       }
     },
     "01ky6y0c8yacchgqayg8gt7hgz": {
@@ -26432,13 +27629,13 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 486,
-        "short": 287,
+        "lees": 498,
+        "short": 289,
         "luchtig": 104
       },
       "actualPositions": {
-        "lees": 486,
-        "short": 287,
+        "lees": 498,
+        "short": 289,
         "luchtig": 104
       }
     },
@@ -26478,14 +27675,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 764,
-        "short": 414,
-        "luchtig": 174
+        "lees": 788,
+        "short": 426,
+        "luchtig": 178
       },
       "actualPositions": {
-        "lees": 764,
-        "short": 414,
-        "luchtig": 174
+        "lees": 788,
+        "short": 426,
+        "luchtig": 178
       }
     },
     "01ky1dg1x4a52g9xbbhyc5d7xn": {
@@ -26525,12 +27722,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 485,
-        "short": 286
+        "lees": 497,
+        "short": 288
       },
       "actualPositions": {
-        "lees": 485,
-        "short": 286
+        "lees": 497,
+        "short": 288
       }
     },
     "01ky09ekmjq5ncqpcbbkx4n7db": {
@@ -26568,12 +27765,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 360,
-        "short": 202
+        "lees": 371,
+        "short": 204
       },
       "actualPositions": {
-        "lees": 360,
-        "short": 202
+        "lees": 371,
+        "short": 204
       }
     },
     "01ky04rrda8nam4ym00qqfep0b": {
@@ -26614,13 +27811,13 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 484,
-        "short": 285,
+        "lees": 496,
+        "short": 287,
         "luchtig": 103
       },
       "actualPositions": {
-        "lees": 484,
-        "short": 285,
+        "lees": 496,
+        "short": 287,
         "luchtig": 103
       }
     },
@@ -26660,14 +27857,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 763,
-        "short": 413,
-        "luchtig": 173
+        "lees": 787,
+        "short": 425,
+        "luchtig": 177
       },
       "actualPositions": {
-        "lees": 763,
-        "short": 413,
-        "luchtig": 173
+        "lees": 787,
+        "short": 425,
+        "luchtig": 177
       }
     },
     "01kxzghzvbjtnr20f8vwmwc8s5": {
@@ -26707,11 +27904,11 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 87,
+        "lees": 89,
         "short": 49
       },
       "actualPositions": {
-        "lees": 87,
+        "lees": 89,
         "short": 49
       }
     },
@@ -26753,12 +27950,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 86,
+        "lees": 88,
         "short": 48,
         "luchtig": 17
       },
       "actualPositions": {
-        "lees": 86,
+        "lees": 88,
         "short": 48,
         "luchtig": 17
       }
@@ -26799,13 +27996,13 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 359,
-        "short": 201,
+        "lees": 370,
+        "short": 203,
         "luchtig": 62
       },
       "actualPositions": {
-        "lees": 359,
-        "short": 201,
+        "lees": 370,
+        "short": 203,
         "luchtig": 62
       }
     },
@@ -26845,14 +28042,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 762,
-        "short": 412,
-        "luchtig": 172
+        "lees": 786,
+        "short": 424,
+        "luchtig": 176
       },
       "actualPositions": {
-        "lees": 762,
-        "short": 412,
-        "luchtig": 172
+        "lees": 786,
+        "short": 424,
+        "luchtig": 176
       }
     },
     "01kxteh0w2b3cxcbwv20ds3rnn": {
@@ -26891,14 +28088,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 869,
-        "short": 493,
-        "luchtig": 208
+        "lees": 894,
+        "short": 505,
+        "luchtig": 213
       },
       "actualPositions": {
-        "lees": 869,
-        "short": 493,
-        "luchtig": 208
+        "lees": 894,
+        "short": 505,
+        "luchtig": 213
       }
     },
     "01kxsqwp29h2rw9abx4ptaf1jk": {
@@ -26931,14 +28128,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 1021,
-        "short": 589,
-        "luchtig": 267
+        "lees": 1048,
+        "short": 601,
+        "luchtig": 272
       },
       "actualPositions": {
-        "lees": 1021,
-        "short": 589,
-        "luchtig": 267
+        "lees": 1048,
+        "short": 601,
+        "luchtig": 272
       }
     },
     "01kxrwf09cedgmcejrqnnjbdbn": {
@@ -27015,10 +28212,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 657
+        "lees": 679
       },
       "actualPositions": {
-        "lees": 657
+        "lees": 679
       }
     },
     "01kxr18pz677fa7xqfav7sp2dp": {
@@ -27057,10 +28254,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 358
+        "lees": 369
       },
       "actualPositions": {
-        "lees": 358
+        "lees": 369
       }
     },
     "01kxq69jsxxmy5fqx81twtbvpy": {
@@ -27095,14 +28292,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 934,
-        "short": 526,
-        "luchtig": 228
+        "lees": 961,
+        "short": 538,
+        "luchtig": 233
       },
       "actualPositions": {
-        "lees": 934,
-        "short": 526,
-        "luchtig": 228
+        "lees": 961,
+        "short": 538,
+        "luchtig": 233
       }
     },
     "01kxpg8mpkegghvbz5w71ne86v": {
@@ -27142,11 +28339,11 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 85,
+        "lees": 87,
         "short": 47
       },
       "actualPositions": {
-        "lees": 85,
+        "lees": 87,
         "short": 47
       }
     },
@@ -27184,10 +28381,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 225
+        "lees": 227
       },
       "actualPositions": {
-        "lees": 225
+        "lees": 227
       }
     },
     "01kxn6sfvvpwapf12145w6x7sv": {
@@ -27225,11 +28422,11 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 357,
+        "lees": 368,
         "luchtig": 61
       },
       "actualPositions": {
-        "lees": 357,
+        "lees": 368,
         "luchtig": 61
       }
     },
@@ -27264,12 +28461,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 933,
-        "luchtig": 227
+        "lees": 960,
+        "luchtig": 232
       },
       "actualPositions": {
-        "lees": 933,
-        "luchtig": 227
+        "lees": 960,
+        "luchtig": 232
       }
     },
     "01kxk1p9p14yah265krgprpkzc": {
@@ -27306,14 +28503,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 868,
-        "short": 492,
-        "luchtig": 207
+        "lees": 893,
+        "short": 504,
+        "luchtig": 212
       },
       "actualPositions": {
-        "lees": 868,
-        "short": 492,
-        "luchtig": 207
+        "lees": 893,
+        "short": 504,
+        "luchtig": 212
       }
     },
     "01kxk0f5xscnb3hqq0r0r6s3xc": {
@@ -27394,13 +28591,13 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 483,
-        "short": 284,
+        "lees": 495,
+        "short": 286,
         "luchtig": 102
       },
       "actualPositions": {
-        "lees": 483,
-        "short": 284,
+        "lees": 495,
+        "short": 286,
         "luchtig": 102
       }
     },
@@ -27639,15 +28836,15 @@ window.TOP_ARTICLE_PRIORITY = {
         "short-dutch"
       ],
       "positions": {
-        "lees": 905,
+        "lees": 930,
         "dutch": 34,
-        "short": 519,
+        "short": 531,
         "short-dutch": 22
       },
       "actualPositions": {
-        "lees": 905,
+        "lees": 930,
         "dutch": 34,
-        "short": 519,
+        "short": 531,
         "short-dutch": 22
       }
     },
@@ -27686,12 +28883,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 867,
-        "short": 491
+        "lees": 892,
+        "short": 503
       },
       "actualPositions": {
-        "lees": 867,
-        "short": 491
+        "lees": 892,
+        "short": 503
       }
     },
     "01kxdxaytaf6tm6ntqnc9vdw18": {
@@ -27731,11 +28928,11 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 84,
+        "lees": 86,
         "short": 46
       },
       "actualPositions": {
-        "lees": 84,
+        "lees": 86,
         "short": 46
       }
     },
@@ -27776,12 +28973,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 482,
-        "short": 283
+        "lees": 494,
+        "short": 285
       },
       "actualPositions": {
-        "lees": 482,
-        "short": 283
+        "lees": 494,
+        "short": 285
       }
     },
     "01kxc0c7xf8ksb9n8m8z8j5d0c": {
@@ -27818,10 +29015,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 356
+        "lees": 367
       },
       "actualPositions": {
-        "lees": 356
+        "lees": 367
       }
     },
     "01kxabe372k5htmjxz8bxdan0f": {
@@ -27865,17 +29062,17 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig-nederlands"
       ],
       "positions": {
-        "lees": 481,
+        "lees": 493,
         "dutch": 13,
-        "short": 282,
+        "short": 284,
         "short-dutch": 9,
         "luchtig": 101,
         "luchtig-nederlands": 4
       },
       "actualPositions": {
-        "lees": 481,
+        "lees": 493,
         "dutch": 13,
-        "short": 282,
+        "short": 284,
         "short-dutch": 9,
         "luchtig": 101,
         "luchtig-nederlands": 4
@@ -27919,13 +29116,13 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 480,
-        "short": 281,
+        "lees": 492,
+        "short": 283,
         "luchtig": 100
       },
       "actualPositions": {
-        "lees": 480,
-        "short": 281,
+        "lees": 492,
+        "short": 283,
         "luchtig": 100
       }
     },
@@ -27963,10 +29160,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 224
+        "lees": 226
       },
       "actualPositions": {
-        "lees": 224
+        "lees": 226
       }
     },
     "01kx66q5d0pg8whe75n7qr82td": {
@@ -28009,13 +29206,13 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 479,
-        "short": 280,
+        "lees": 491,
+        "short": 282,
         "luchtig": 99
       },
       "actualPositions": {
-        "lees": 479,
-        "short": 280,
+        "lees": 491,
+        "short": 282,
         "luchtig": 99
       }
     },
@@ -28056,12 +29253,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 478,
-        "short": 279
+        "lees": 490,
+        "short": 281
       },
       "actualPositions": {
-        "lees": 478,
-        "short": 279
+        "lees": 490,
+        "short": 281
       }
     },
     "01kx187j6fsdhx3v99a4np0dwe": {
@@ -28098,10 +29295,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 656
+        "lees": 678
       },
       "actualPositions": {
-        "lees": 656
+        "lees": 678
       }
     },
     "01kx083m8fqj198stjqcd4te6r": {
@@ -28141,12 +29338,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 477,
-        "short": 278
+        "lees": 489,
+        "short": 280
       },
       "actualPositions": {
-        "lees": 477,
-        "short": 278
+        "lees": 489,
+        "short": 280
       }
     },
     "01kwy84xrmk8pft1avwy7cser7": {
@@ -28185,14 +29382,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 761,
-        "short": 411,
-        "luchtig": 171
+        "lees": 785,
+        "short": 423,
+        "luchtig": 175
       },
       "actualPositions": {
-        "lees": 761,
-        "short": 411,
-        "luchtig": 171
+        "lees": 785,
+        "short": 423,
+        "luchtig": 175
       }
     },
     "01kwvzcp697n18jy871bj3rj77": {
@@ -28233,13 +29430,13 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 476,
-        "short": 277,
+        "lees": 488,
+        "short": 279,
         "luchtig": 98
       },
       "actualPositions": {
-        "lees": 476,
-        "short": 277,
+        "lees": 488,
+        "short": 279,
         "luchtig": 98
       }
     },
@@ -28281,13 +29478,13 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 475,
-        "short": 276,
+        "lees": 487,
+        "short": 278,
         "luchtig": 97
       },
       "actualPositions": {
-        "lees": 475,
-        "short": 276,
+        "lees": 487,
+        "short": 278,
         "luchtig": 97
       }
     },
@@ -28325,10 +29522,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 655
+        "lees": 677
       },
       "actualPositions": {
-        "lees": 655
+        "lees": 677
       }
     },
     "01kwreqfypckk54fws5c65whwp": {
@@ -28372,17 +29569,17 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig-nederlands"
       ],
       "positions": {
-        "lees": 474,
+        "lees": 486,
         "dutch": 12,
-        "short": 275,
+        "short": 277,
         "short-dutch": 8,
         "luchtig": 96,
         "luchtig-nederlands": 3
       },
       "actualPositions": {
-        "lees": 474,
+        "lees": 486,
         "dutch": 12,
-        "short": 275,
+        "short": 277,
         "short-dutch": 8,
         "luchtig": 96,
         "luchtig-nederlands": 3
@@ -28422,10 +29619,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 223
+        "lees": 225
       },
       "actualPositions": {
-        "lees": 223
+        "lees": 225
       }
     },
     "01kwpkn77cd2c8e0g3rppkq0q2": {
@@ -28466,13 +29663,13 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 473,
-        "short": 274,
+        "lees": 485,
+        "short": 276,
         "luchtig": 95
       },
       "actualPositions": {
-        "lees": 473,
-        "short": 274,
+        "lees": 485,
+        "short": 276,
         "luchtig": 95
       }
     },
@@ -28515,15 +29712,15 @@ window.TOP_ARTICLE_PRIORITY = {
         "short-dutch"
       ],
       "positions": {
-        "lees": 472,
+        "lees": 484,
         "dutch": 11,
-        "short": 273,
+        "short": 275,
         "short-dutch": 7
       },
       "actualPositions": {
-        "lees": 472,
+        "lees": 484,
         "dutch": 11,
-        "short": 273,
+        "short": 275,
         "short-dutch": 7
       }
     },
@@ -28560,19 +29757,19 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig-nederlands"
       ],
       "positions": {
-        "lees": 1020,
+        "lees": 1047,
         "dutch": 39,
-        "short": 588,
+        "short": 600,
         "short-dutch": 26,
-        "luchtig": 266,
+        "luchtig": 271,
         "luchtig-nederlands": 15
       },
       "actualPositions": {
-        "lees": 1020,
+        "lees": 1047,
         "dutch": 39,
-        "short": 588,
+        "short": 600,
         "short-dutch": 26,
-        "luchtig": 266,
+        "luchtig": 271,
         "luchtig-nederlands": 15
       }
     },
@@ -28653,15 +29850,15 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig-nederlands"
       ],
       "positions": {
-        "lees": 654,
+        "lees": 676,
         "dutch": 24,
-        "luchtig": 144,
+        "luchtig": 147,
         "luchtig-nederlands": 7
       },
       "actualPositions": {
-        "lees": 654,
+        "lees": 676,
         "dutch": 24,
-        "luchtig": 144,
+        "luchtig": 147,
         "luchtig-nederlands": 7
       }
     },
@@ -28702,12 +29899,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 471,
-        "short": 272
+        "lees": 483,
+        "short": 274
       },
       "actualPositions": {
-        "lees": 471,
-        "short": 272
+        "lees": 483,
+        "short": 274
       }
     },
     "01kwgv4d63neeawgzpjgf111bx": {
@@ -28746,14 +29943,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "scrum"
       ],
       "positions": {
-        "lees": 470,
-        "short": 271,
-        "scrum": 93
+        "lees": 482,
+        "short": 273,
+        "scrum": 95
       },
       "actualPositions": {
-        "lees": 470,
-        "short": 271,
-        "scrum": 93
+        "lees": 482,
+        "short": 273,
+        "scrum": 95
       }
     },
     "01kwgv4bwctkyj54rvctfyk8qa": {
@@ -28792,14 +29989,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "scrum"
       ],
       "positions": {
-        "lees": 469,
-        "short": 270,
-        "scrum": 92
+        "lees": 481,
+        "short": 272,
+        "scrum": 94
       },
       "actualPositions": {
-        "lees": 469,
-        "short": 270,
-        "scrum": 92
+        "lees": 481,
+        "short": 272,
+        "scrum": 94
       }
     },
     "01kwgv4ap47ve8h0bdwf29jzwq": {
@@ -28838,14 +30035,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "scrum"
       ],
       "positions": {
-        "lees": 468,
-        "short": 269,
-        "scrum": 91
+        "lees": 480,
+        "short": 271,
+        "scrum": 93
       },
       "actualPositions": {
-        "lees": 468,
-        "short": 269,
-        "scrum": 91
+        "lees": 480,
+        "short": 271,
+        "scrum": 93
       }
     },
     "01kwgv49bqnbz83e4xekh95k2z": {
@@ -28886,12 +30083,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "scrum"
       ],
       "positions": {
-        "lees": 222,
+        "lees": 224,
         "short": 152,
         "scrum": 25
       },
       "actualPositions": {
-        "lees": 222,
+        "lees": 224,
         "short": 152,
         "scrum": 25
       }
@@ -28934,12 +30131,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "scrum"
       ],
       "positions": {
-        "lees": 221,
+        "lees": 223,
         "short": 151,
         "scrum": 24
       },
       "actualPositions": {
-        "lees": 221,
+        "lees": 223,
         "short": 151,
         "scrum": 24
       }
@@ -28982,12 +30179,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "scrum"
       ],
       "positions": {
-        "lees": 220,
+        "lees": 222,
         "short": 150,
         "scrum": 23
       },
       "actualPositions": {
-        "lees": 220,
+        "lees": 222,
         "short": 150,
         "scrum": 23
       }
@@ -29028,14 +30225,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "scrum"
       ],
       "positions": {
-        "lees": 467,
-        "short": 268,
-        "scrum": 90
+        "lees": 479,
+        "short": 270,
+        "scrum": 92
       },
       "actualPositions": {
-        "lees": 467,
-        "short": 268,
-        "scrum": 90
+        "lees": 479,
+        "short": 270,
+        "scrum": 92
       }
     },
     "01kwgv43gpd4xyx01qc2khq1vk": {
@@ -29076,12 +30273,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "scrum"
       ],
       "positions": {
-        "lees": 219,
+        "lees": 221,
         "short": 149,
         "scrum": 22
       },
       "actualPositions": {
-        "lees": 219,
+        "lees": 221,
         "short": 149,
         "scrum": 22
       }
@@ -29122,14 +30319,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "scrum"
       ],
       "positions": {
-        "lees": 466,
-        "short": 267,
-        "scrum": 89
+        "lees": 478,
+        "short": 269,
+        "scrum": 91
       },
       "actualPositions": {
-        "lees": 466,
-        "short": 267,
-        "scrum": 89
+        "lees": 478,
+        "short": 269,
+        "scrum": 91
       }
     },
     "01kwgv40cswsga3s67vbrqmh79": {
@@ -29168,14 +30365,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "scrum"
       ],
       "positions": {
-        "lees": 465,
-        "short": 266,
-        "scrum": 88
+        "lees": 477,
+        "short": 268,
+        "scrum": 90
       },
       "actualPositions": {
-        "lees": 465,
-        "short": 266,
-        "scrum": 88
+        "lees": 477,
+        "short": 268,
+        "scrum": 90
       }
     },
     "01kwgv3yscnzt7mvbt3cpcn1ey": {
@@ -29216,12 +30413,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "scrum"
       ],
       "positions": {
-        "lees": 218,
+        "lees": 220,
         "short": 148,
         "scrum": 21
       },
       "actualPositions": {
-        "lees": 218,
+        "lees": 220,
         "short": 148,
         "scrum": 21
       }
@@ -29264,12 +30461,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "scrum"
       ],
       "positions": {
-        "lees": 217,
+        "lees": 219,
         "short": 147,
         "scrum": 20
       },
       "actualPositions": {
-        "lees": 217,
+        "lees": 219,
         "short": 147,
         "scrum": 20
       }
@@ -29310,14 +30507,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "scrum"
       ],
       "positions": {
-        "lees": 464,
-        "short": 265,
-        "scrum": 87
+        "lees": 476,
+        "short": 267,
+        "scrum": 89
       },
       "actualPositions": {
-        "lees": 464,
-        "short": 265,
-        "scrum": 87
+        "lees": 476,
+        "short": 267,
+        "scrum": 89
       }
     },
     "01kwgv3te7ptf027ds5be7nsr3": {
@@ -29358,12 +30555,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "scrum"
       ],
       "positions": {
-        "lees": 216,
+        "lees": 218,
         "short": 146,
         "scrum": 19
       },
       "actualPositions": {
-        "lees": 216,
+        "lees": 218,
         "short": 146,
         "scrum": 19
       }
@@ -29404,14 +30601,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "scrum"
       ],
       "positions": {
-        "lees": 463,
-        "short": 264,
-        "scrum": 86
+        "lees": 475,
+        "short": 266,
+        "scrum": 88
       },
       "actualPositions": {
-        "lees": 463,
-        "short": 264,
-        "scrum": 86
+        "lees": 475,
+        "short": 266,
+        "scrum": 88
       }
     },
     "01kwgv3qm7grnyf9h24dxf1tpr": {
@@ -29450,14 +30647,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "scrum"
       ],
       "positions": {
-        "lees": 462,
-        "short": 263,
-        "scrum": 85
+        "lees": 474,
+        "short": 265,
+        "scrum": 87
       },
       "actualPositions": {
-        "lees": 462,
-        "short": 263,
-        "scrum": 85
+        "lees": 474,
+        "short": 265,
+        "scrum": 87
       }
     },
     "01kwgv3p7m0hcdxdkevdk85zne": {
@@ -29496,14 +30693,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "scrum"
       ],
       "positions": {
-        "lees": 461,
-        "short": 262,
-        "scrum": 84
+        "lees": 473,
+        "short": 264,
+        "scrum": 86
       },
       "actualPositions": {
-        "lees": 461,
-        "short": 262,
-        "scrum": 84
+        "lees": 473,
+        "short": 264,
+        "scrum": 86
       }
     },
     "01kwgv3m75tgghgzvyx20sxse0": {
@@ -29544,12 +30741,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "scrum"
       ],
       "positions": {
-        "lees": 215,
+        "lees": 217,
         "short": 145,
         "scrum": 18
       },
       "actualPositions": {
-        "lees": 215,
+        "lees": 217,
         "short": 145,
         "scrum": 18
       }
@@ -29591,11 +30788,11 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 214,
+        "lees": 216,
         "short": 144
       },
       "actualPositions": {
-        "lees": 214,
+        "lees": 216,
         "short": 144
       }
     },
@@ -29629,14 +30826,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 1019,
-        "short": 587,
-        "luchtig": 265
+        "lees": 1046,
+        "short": 599,
+        "luchtig": 270
       },
       "actualPositions": {
-        "lees": 1019,
-        "short": 587,
-        "luchtig": 265
+        "lees": 1046,
+        "short": 599,
+        "luchtig": 270
       }
     },
     "01kwfk5q2rtfm9enggaybd07zq": {
@@ -29674,11 +30871,11 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 83,
+        "lees": 85,
         "luchtig": 16
       },
       "actualPositions": {
-        "lees": 83,
+        "lees": 85,
         "luchtig": 16
       }
     },
@@ -29718,14 +30915,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "scrum"
       ],
       "positions": {
-        "lees": 460,
-        "short": 261,
-        "scrum": 83
+        "lees": 472,
+        "short": 263,
+        "scrum": 85
       },
       "actualPositions": {
-        "lees": 460,
-        "short": 261,
-        "scrum": 83
+        "lees": 472,
+        "short": 263,
+        "scrum": 85
       }
     },
     "01kwf0yd7ctbprcferqdhtms0t": {
@@ -29764,14 +30961,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "scrum"
       ],
       "positions": {
-        "lees": 459,
-        "short": 260,
-        "scrum": 82
+        "lees": 471,
+        "short": 262,
+        "scrum": 84
       },
       "actualPositions": {
-        "lees": 459,
-        "short": 260,
-        "scrum": 82
+        "lees": 471,
+        "short": 262,
+        "scrum": 84
       }
     },
     "01kwf0ybdf5nk9310rfsr9gfkw": {
@@ -29812,12 +31009,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "scrum"
       ],
       "positions": {
-        "lees": 213,
+        "lees": 215,
         "short": 143,
         "scrum": 17
       },
       "actualPositions": {
-        "lees": 213,
+        "lees": 215,
         "short": 143,
         "scrum": 17
       }
@@ -29858,14 +31055,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "scrum"
       ],
       "positions": {
-        "lees": 458,
-        "short": 259,
-        "scrum": 81
+        "lees": 470,
+        "short": 261,
+        "scrum": 83
       },
       "actualPositions": {
-        "lees": 458,
-        "short": 259,
-        "scrum": 81
+        "lees": 470,
+        "short": 261,
+        "scrum": 83
       }
     },
     "01kwexpw49qacd2hcbhg15tzcr": {
@@ -29903,12 +31100,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "scrum"
       ],
       "positions": {
-        "lees": 355,
-        "scrum": 61
+        "lees": 366,
+        "scrum": 63
       },
       "actualPositions": {
-        "lees": 355,
-        "scrum": 61
+        "lees": 366,
+        "scrum": 63
       }
     },
     "01kwexptrjc88kg21aqp2sba9s": {
@@ -29949,12 +31146,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "scrum"
       ],
       "positions": {
-        "lees": 212,
+        "lees": 214,
         "short": 142,
         "scrum": 16
       },
       "actualPositions": {
-        "lees": 212,
+        "lees": 214,
         "short": 142,
         "scrum": 16
       }
@@ -29997,12 +31194,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "scrum"
       ],
       "positions": {
-        "lees": 211,
+        "lees": 213,
         "short": 141,
         "scrum": 15
       },
       "actualPositions": {
-        "lees": 211,
+        "lees": 213,
         "short": 141,
         "scrum": 15
       }
@@ -30045,12 +31242,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "scrum"
       ],
       "positions": {
-        "lees": 210,
+        "lees": 212,
         "short": 140,
         "scrum": 14
       },
       "actualPositions": {
-        "lees": 210,
+        "lees": 212,
         "short": 140,
         "scrum": 14
       }
@@ -30093,12 +31290,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "scrum"
       ],
       "positions": {
-        "lees": 209,
+        "lees": 211,
         "short": 139,
         "scrum": 13
       },
       "actualPositions": {
-        "lees": 209,
+        "lees": 211,
         "short": 139,
         "scrum": 13
       }
@@ -30139,14 +31336,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "scrum"
       ],
       "positions": {
-        "lees": 457,
-        "short": 258,
-        "scrum": 80
+        "lees": 469,
+        "short": 260,
+        "scrum": 82
       },
       "actualPositions": {
-        "lees": 457,
-        "short": 258,
-        "scrum": 80
+        "lees": 469,
+        "short": 260,
+        "scrum": 82
       }
     },
     "01kwexpk131p0dac6rajfc0wtb": {
@@ -30187,12 +31384,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "scrum"
       ],
       "positions": {
-        "lees": 208,
+        "lees": 210,
         "short": 138,
         "scrum": 12
       },
       "actualPositions": {
-        "lees": 208,
+        "lees": 210,
         "short": 138,
         "scrum": 12
       }
@@ -30233,14 +31430,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "scrum"
       ],
       "positions": {
-        "lees": 456,
-        "short": 257,
-        "scrum": 79
+        "lees": 468,
+        "short": 259,
+        "scrum": 81
       },
       "actualPositions": {
-        "lees": 456,
-        "short": 257,
-        "scrum": 79
+        "lees": 468,
+        "short": 259,
+        "scrum": 81
       }
     },
     "01kwexpg90r86p63b5w5sd3910": {
@@ -30278,12 +31475,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "scrum"
       ],
       "positions": {
-        "lees": 354,
-        "scrum": 60
+        "lees": 365,
+        "scrum": 62
       },
       "actualPositions": {
-        "lees": 354,
-        "scrum": 60
+        "lees": 365,
+        "scrum": 62
       }
     },
     "01kwexpevqvsnw5chhvec7vdc7": {
@@ -30321,12 +31518,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "scrum"
       ],
       "positions": {
-        "lees": 353,
-        "scrum": 59
+        "lees": 364,
+        "scrum": 61
       },
       "actualPositions": {
-        "lees": 353,
-        "scrum": 59
+        "lees": 364,
+        "scrum": 61
       }
     },
     "01kwexpd63h7mhqsfywqrv4438": {
@@ -30365,14 +31562,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "scrum"
       ],
       "positions": {
-        "lees": 455,
-        "short": 256,
-        "scrum": 78
+        "lees": 467,
+        "short": 258,
+        "scrum": 80
       },
       "actualPositions": {
-        "lees": 455,
-        "short": 256,
-        "scrum": 78
+        "lees": 467,
+        "short": 258,
+        "scrum": 80
       }
     },
     "01kwexpbm8djp73dgn7ymt74bj": {
@@ -30411,14 +31608,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "scrum"
       ],
       "positions": {
-        "lees": 454,
-        "short": 255,
-        "scrum": 77
+        "lees": 466,
+        "short": 257,
+        "scrum": 79
       },
       "actualPositions": {
-        "lees": 454,
-        "short": 255,
-        "scrum": 77
+        "lees": 466,
+        "short": 257,
+        "scrum": 79
       }
     },
     "01kwexpa8272rzzb4wxq2c97fe": {
@@ -30457,14 +31654,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "scrum"
       ],
       "positions": {
-        "lees": 453,
-        "short": 254,
-        "scrum": 76
+        "lees": 465,
+        "short": 256,
+        "scrum": 78
       },
       "actualPositions": {
-        "lees": 453,
-        "short": 254,
-        "scrum": 76
+        "lees": 465,
+        "short": 256,
+        "scrum": 78
       }
     },
     "01kwexp8bshzmz4w7y2nspmx7a": {
@@ -30503,14 +31700,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "scrum"
       ],
       "positions": {
-        "lees": 452,
-        "short": 253,
-        "scrum": 75
+        "lees": 464,
+        "short": 255,
+        "scrum": 77
       },
       "actualPositions": {
-        "lees": 452,
-        "short": 253,
-        "scrum": 75
+        "lees": 464,
+        "short": 255,
+        "scrum": 77
       }
     },
     "01kwexp7111x57fyty213vtvwn": {
@@ -30549,14 +31746,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "scrum"
       ],
       "positions": {
-        "lees": 451,
-        "short": 252,
-        "scrum": 74
+        "lees": 463,
+        "short": 254,
+        "scrum": 76
       },
       "actualPositions": {
-        "lees": 451,
-        "short": 252,
-        "scrum": 74
+        "lees": 463,
+        "short": 254,
+        "scrum": 76
       }
     },
     "01kwexp5550gmx9jwcrafg7xd3": {
@@ -30594,12 +31791,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "scrum"
       ],
       "positions": {
-        "lees": 352,
-        "scrum": 58
+        "lees": 363,
+        "scrum": 60
       },
       "actualPositions": {
-        "lees": 352,
-        "scrum": 58
+        "lees": 363,
+        "scrum": 60
       }
     },
     "01kwexp3bnatgms46fkdbgsnt6": {
@@ -30640,12 +31837,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "scrum"
       ],
       "positions": {
-        "lees": 207,
+        "lees": 209,
         "short": 137,
         "scrum": 11
       },
       "actualPositions": {
-        "lees": 207,
+        "lees": 209,
         "short": 137,
         "scrum": 11
       }
@@ -30685,12 +31882,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "scrum"
       ],
       "positions": {
-        "lees": 351,
-        "scrum": 57
+        "lees": 362,
+        "scrum": 59
       },
       "actualPositions": {
-        "lees": 351,
-        "scrum": 57
+        "lees": 362,
+        "scrum": 59
       }
     },
     "01kwew3ggzgdtrxk6c255tdtcz": {
@@ -30731,12 +31928,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "scrum"
       ],
       "positions": {
-        "lees": 260,
+        "lees": 262,
         "short": 169,
         "scrum": 36
       },
       "actualPositions": {
-        "lees": 260,
+        "lees": 262,
         "short": 169,
         "scrum": 36
       }
@@ -30777,14 +31974,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "scrum"
       ],
       "positions": {
-        "lees": 527,
-        "short": 328,
-        "scrum": 98
+        "lees": 539,
+        "short": 330,
+        "scrum": 100
       },
       "actualPositions": {
-        "lees": 527,
-        "short": 328,
-        "scrum": 98
+        "lees": 539,
+        "short": 330,
+        "scrum": 100
       }
     },
     "01kwew3bj4a2ynh5yf1e6pxbsf": {
@@ -30825,12 +32022,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "scrum"
       ],
       "positions": {
-        "lees": 259,
+        "lees": 261,
         "short": 168,
         "scrum": 35
       },
       "actualPositions": {
-        "lees": 259,
+        "lees": 261,
         "short": 168,
         "scrum": 35
       }
@@ -30873,12 +32070,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "scrum"
       ],
       "positions": {
-        "lees": 258,
+        "lees": 260,
         "short": 167,
         "scrum": 34
       },
       "actualPositions": {
-        "lees": 258,
+        "lees": 260,
         "short": 167,
         "scrum": 34
       }
@@ -30919,14 +32116,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 866,
-        "short": 490,
-        "luchtig": 206
+        "lees": 891,
+        "short": 502,
+        "luchtig": 211
       },
       "actualPositions": {
-        "lees": 866,
-        "short": 490,
-        "luchtig": 206
+        "lees": 891,
+        "short": 502,
+        "luchtig": 211
       }
     },
     "01kwaadj8686tk3pzbr7wd9axw": {
@@ -31007,13 +32204,13 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 450,
-        "short": 251,
+        "lees": 462,
+        "short": 253,
         "luchtig": 94
       },
       "actualPositions": {
-        "lees": 450,
-        "short": 251,
+        "lees": 462,
+        "short": 253,
         "luchtig": 94
       }
     },
@@ -31053,14 +32250,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 760,
-        "short": 410,
-        "luchtig": 170
+        "lees": 784,
+        "short": 422,
+        "luchtig": 174
       },
       "actualPositions": {
-        "lees": 760,
-        "short": 410,
-        "luchtig": 170
+        "lees": 784,
+        "short": 422,
+        "luchtig": 174
       }
     },
     "01kw5smp76n3se61jv02c1zzx9": {
@@ -31101,12 +32298,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 206,
+        "lees": 208,
         "short": 136,
         "luchtig": 43
       },
       "actualPositions": {
-        "lees": 206,
+        "lees": 208,
         "short": 136,
         "luchtig": 43
       }
@@ -31149,13 +32346,13 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 449,
-        "short": 250,
+        "lees": 461,
+        "short": 252,
         "luchtig": 93
       },
       "actualPositions": {
-        "lees": 449,
-        "short": 250,
+        "lees": 461,
+        "short": 252,
         "luchtig": 93
       }
     },
@@ -31197,13 +32394,13 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 448,
-        "short": 249,
+        "lees": 460,
+        "short": 251,
         "luchtig": 92
       },
       "actualPositions": {
-        "lees": 448,
-        "short": 249,
+        "lees": 460,
+        "short": 251,
         "luchtig": 92
       }
     },
@@ -31239,10 +32436,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 800
+        "lees": 824
       },
       "actualPositions": {
-        "lees": 800
+        "lees": 824
       }
     },
     "01kw3yjp92dh7r7qzk3bja513n": {
@@ -31282,11 +32479,11 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 205,
+        "lees": 207,
         "short": 135
       },
       "actualPositions": {
-        "lees": 205,
+        "lees": 207,
         "short": 135
       }
     },
@@ -31324,10 +32521,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 653
+        "lees": 675
       },
       "actualPositions": {
-        "lees": 653
+        "lees": 675
       }
     },
     "01kvyswh8ggabb27phjks81a5f": {
@@ -31360,14 +32557,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 1018,
-        "short": 586,
-        "luchtig": 264
+        "lees": 1045,
+        "short": 598,
+        "luchtig": 269
       },
       "actualPositions": {
-        "lees": 1018,
-        "short": 586,
-        "luchtig": 264
+        "lees": 1045,
+        "short": 598,
+        "luchtig": 269
       }
     },
     "01kvy9nncb1wdp5tq4q7mv1p11": {
@@ -31404,10 +32601,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 652
+        "lees": 674
       },
       "actualPositions": {
-        "lees": 652
+        "lees": 674
       }
     },
     "01kvwytrrghvckwz0stdxe2mgw": {
@@ -31448,13 +32645,13 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 447,
-        "short": 248,
+        "lees": 459,
+        "short": 250,
         "luchtig": 91
       },
       "actualPositions": {
-        "lees": 447,
-        "short": 248,
+        "lees": 459,
+        "short": 250,
         "luchtig": 91
       }
     },
@@ -31493,12 +32690,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 651,
-        "luchtig": 143
+        "lees": 673,
+        "luchtig": 146
       },
       "actualPositions": {
-        "lees": 651,
-        "luchtig": 143
+        "lees": 673,
+        "luchtig": 146
       }
     },
     "01kvwwdq8bhy9m3x614gmtn41d": {
@@ -31536,11 +32733,11 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 82,
+        "lees": 84,
         "luchtig": 15
       },
       "actualPositions": {
-        "lees": 82,
+        "lees": 84,
         "luchtig": 15
       }
     },
@@ -31581,11 +32778,11 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 81,
+        "lees": 83,
         "short": 45
       },
       "actualPositions": {
-        "lees": 81,
+        "lees": 83,
         "short": 45
       }
     },
@@ -31622,12 +32819,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 904,
-        "luchtig": 218
+        "lees": 929,
+        "luchtig": 223
       },
       "actualPositions": {
-        "lees": 904,
-        "luchtig": 218
+        "lees": 929,
+        "luchtig": 223
       }
     },
     "01kvsdvfdqp5rzvjnn3w85xqfm": {
@@ -31660,14 +32857,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 1017,
-        "short": 585,
-        "luchtig": 263
+        "lees": 1044,
+        "short": 597,
+        "luchtig": 268
       },
       "actualPositions": {
-        "lees": 1017,
-        "short": 585,
-        "luchtig": 263
+        "lees": 1044,
+        "short": 597,
+        "luchtig": 268
       }
     },
     "01kvryy6f1y6vjf4qacv0avmne": {
@@ -31702,10 +32899,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 903
+        "lees": 928
       },
       "actualPositions": {
-        "lees": 903
+        "lees": 928
       }
     },
     "01kvqqkejdb7cjbt7xksn8qw6y": {
@@ -31742,10 +32939,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 650
+        "lees": 672
       },
       "actualPositions": {
-        "lees": 650
+        "lees": 672
       }
     },
     "01kvqpz87r2405dv9qtg7vfx47": {
@@ -31784,14 +32981,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 826,
-        "short": 463,
-        "luchtig": 192
+        "lees": 851,
+        "short": 475,
+        "luchtig": 197
       },
       "actualPositions": {
-        "lees": 826,
-        "short": 463,
-        "luchtig": 192
+        "lees": 851,
+        "short": 475,
+        "luchtig": 197
       }
     },
     "01kvq9e83ygea63a0hpsq7zsk8": {
@@ -31828,10 +33025,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 350
+        "lees": 361
       },
       "actualPositions": {
-        "lees": 350
+        "lees": 361
       }
     },
     "01kvnt5qg1fchd5f12m7d679mg": {
@@ -31870,14 +33067,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 865,
-        "short": 489,
-        "luchtig": 205
+        "lees": 890,
+        "short": 501,
+        "luchtig": 210
       },
       "actualPositions": {
-        "lees": 865,
-        "short": 489,
-        "luchtig": 205
+        "lees": 890,
+        "short": 501,
+        "luchtig": 210
       }
     },
     "01kvjxf10abr48cgyg351gvcfm": {
@@ -31916,14 +33113,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 759,
-        "short": 409,
-        "luchtig": 169
+        "lees": 783,
+        "short": 421,
+        "luchtig": 173
       },
       "actualPositions": {
-        "lees": 759,
-        "short": 409,
-        "luchtig": 169
+        "lees": 783,
+        "short": 421,
+        "luchtig": 173
       }
     },
     "01kvjhwyhc8ajne0mcg2sbdnew": {
@@ -31960,14 +33157,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 864,
-        "short": 488,
-        "luchtig": 204
+        "lees": 889,
+        "short": 500,
+        "luchtig": 209
       },
       "actualPositions": {
-        "lees": 864,
-        "short": 488,
-        "luchtig": 204
+        "lees": 889,
+        "short": 500,
+        "luchtig": 209
       }
     },
     "01kvjbgrqsftb77gs496c0p12t": {
@@ -32008,12 +33205,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 80,
+        "lees": 82,
         "short": 44,
         "luchtig": 14
       },
       "actualPositions": {
-        "lees": 80,
+        "lees": 82,
         "short": 44,
         "luchtig": 14
       }
@@ -32053,12 +33250,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 825,
-        "short": 462
+        "lees": 850,
+        "short": 474
       },
       "actualPositions": {
-        "lees": 825,
-        "short": 462
+        "lees": 850,
+        "short": 474
       }
     },
     "01kvhbzvsdz71gdn2329t023sp": {
@@ -32139,12 +33336,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 79,
+        "lees": 81,
         "short": 43,
         "luchtig": 13
       },
       "actualPositions": {
-        "lees": 79,
+        "lees": 81,
         "short": 43,
         "luchtig": 13
       }
@@ -32183,10 +33380,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 758
+        "lees": 782
       },
       "actualPositions": {
-        "lees": 758
+        "lees": 782
       }
     },
     "01kvgakgatt08e2qpyayjn518f": {
@@ -32226,12 +33423,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 446,
-        "short": 247
+        "lees": 458,
+        "short": 249
       },
       "actualPositions": {
-        "lees": 446,
-        "short": 247
+        "lees": 458,
+        "short": 249
       }
     },
     "01kvfsv00xheeeezwr4g8hm52h": {
@@ -32273,19 +33470,19 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig-nederlands"
       ],
       "positions": {
-        "lees": 757,
+        "lees": 781,
         "dutch": 31,
-        "short": 408,
+        "short": 420,
         "short-dutch": 19,
-        "luchtig": 168,
+        "luchtig": 172,
         "luchtig-nederlands": 12
       },
       "actualPositions": {
-        "lees": 757,
+        "lees": 781,
         "dutch": 31,
-        "short": 408,
+        "short": 420,
         "short-dutch": 19,
-        "luchtig": 168,
+        "luchtig": 172,
         "luchtig-nederlands": 12
       }
     },
@@ -32323,10 +33520,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 649
+        "lees": 671
       },
       "actualPositions": {
-        "lees": 649
+        "lees": 671
       }
     },
     "01kve1n2sjrps7hpqdrs60zj8t": {
@@ -32362,12 +33559,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 863,
-        "luchtig": 203
+        "lees": 888,
+        "luchtig": 208
       },
       "actualPositions": {
-        "lees": 863,
-        "luchtig": 203
+        "lees": 888,
+        "luchtig": 208
       }
     },
     "01kvdagajpxgafjmbx8mxhecqq": {
@@ -32407,12 +33604,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 445,
-        "short": 246
+        "lees": 457,
+        "short": 248
       },
       "actualPositions": {
-        "lees": 445,
-        "short": 246
+        "lees": 457,
+        "short": 248
       }
     },
     "01kvcrmaw54bese7ww1vf68che": {
@@ -32447,10 +33644,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 862
+        "lees": 887
       },
       "actualPositions": {
-        "lees": 862
+        "lees": 887
       }
     },
     "01kvcgsfekyqqc5b9t3nmrge8m": {
@@ -32494,7 +33691,7 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig-nederlands"
       ],
       "positions": {
-        "lees": 78,
+        "lees": 80,
         "dutch": 2,
         "short": 42,
         "short-dutch": 2,
@@ -32502,7 +33699,7 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig-nederlands": 1
       },
       "actualPositions": {
-        "lees": 78,
+        "lees": 80,
         "dutch": 2,
         "short": 42,
         "short-dutch": 2,
@@ -32539,12 +33736,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 1016,
-        "short": 584
+        "lees": 1043,
+        "short": 596
       },
       "actualPositions": {
-        "lees": 1016,
-        "short": 584
+        "lees": 1043,
+        "short": 596
       }
     },
     "01kvarejkjdc6y2cjp2d0ewgkd": {
@@ -32585,12 +33782,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 77,
+        "lees": 79,
         "short": 41,
         "luchtig": 11
       },
       "actualPositions": {
-        "lees": 77,
+        "lees": 79,
         "short": 41,
         "luchtig": 11
       }
@@ -32633,13 +33830,13 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 444,
-        "short": 245,
+        "lees": 456,
+        "short": 247,
         "luchtig": 90
       },
       "actualPositions": {
-        "lees": 444,
-        "short": 245,
+        "lees": 456,
+        "short": 247,
         "luchtig": 90
       }
     },
@@ -32682,15 +33879,15 @@ window.TOP_ARTICLE_PRIORITY = {
         "short-dutch"
       ],
       "positions": {
-        "lees": 443,
+        "lees": 455,
         "dutch": 10,
-        "short": 244,
+        "short": 246,
         "short-dutch": 6
       },
       "actualPositions": {
-        "lees": 443,
+        "lees": 455,
         "dutch": 10,
-        "short": 244,
+        "short": 246,
         "short-dutch": 6
       }
     },
@@ -32730,14 +33927,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 756,
-        "short": 407,
-        "luchtig": 167
+        "lees": 780,
+        "short": 419,
+        "luchtig": 171
       },
       "actualPositions": {
-        "lees": 756,
-        "short": 407,
-        "luchtig": 167
+        "lees": 780,
+        "short": 419,
+        "luchtig": 171
       }
     },
     "01kv5rsmp92qndagvyzwzjshd3": {
@@ -32776,14 +33973,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 824,
-        "short": 461,
-        "luchtig": 191
+        "lees": 849,
+        "short": 473,
+        "luchtig": 196
       },
       "actualPositions": {
-        "lees": 824,
-        "short": 461,
-        "luchtig": 191
+        "lees": 849,
+        "short": 473,
+        "luchtig": 196
       }
     },
     "01kv589pm45sfg8kv5jfxznh6g": {
@@ -32821,12 +34018,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 755,
-        "short": 406
+        "lees": 779,
+        "short": 418
       },
       "actualPositions": {
-        "lees": 755,
-        "short": 406
+        "lees": 779,
+        "short": 418
       }
     },
     "01kv0aj76tamztf0tt4cd00zvt": {
@@ -32865,14 +34062,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 823,
-        "short": 460,
-        "luchtig": 190
+        "lees": 848,
+        "short": 472,
+        "luchtig": 195
       },
       "actualPositions": {
-        "lees": 823,
-        "short": 460,
-        "luchtig": 190
+        "lees": 848,
+        "short": 472,
+        "luchtig": 195
       }
     },
     "01kty3nmapqw3y4ypnbbgrm2t3": {
@@ -32914,19 +34111,19 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig-nederlands"
       ],
       "positions": {
-        "lees": 754,
+        "lees": 778,
         "dutch": 30,
-        "short": 405,
+        "short": 417,
         "short-dutch": 18,
-        "luchtig": 166,
+        "luchtig": 170,
         "luchtig-nederlands": 11
       },
       "actualPositions": {
-        "lees": 754,
+        "lees": 778,
         "dutch": 30,
-        "short": 405,
+        "short": 417,
         "short-dutch": 18,
-        "luchtig": 166,
+        "luchtig": 170,
         "luchtig-nederlands": 11
       }
     },
@@ -32967,15 +34164,15 @@ window.TOP_ARTICLE_PRIORITY = {
         "short-dutch"
       ],
       "positions": {
-        "lees": 753,
+        "lees": 777,
         "dutch": 29,
-        "short": 404,
+        "short": 416,
         "short-dutch": 17
       },
       "actualPositions": {
-        "lees": 753,
+        "lees": 777,
         "dutch": 29,
-        "short": 404,
+        "short": 416,
         "short-dutch": 17
       }
     },
@@ -33013,14 +34210,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 953,
-        "short": 543,
-        "luchtig": 237
+        "lees": 980,
+        "short": 555,
+        "luchtig": 242
       },
       "actualPositions": {
-        "lees": 953,
-        "short": 543,
-        "luchtig": 237
+        "lees": 980,
+        "short": 555,
+        "luchtig": 242
       }
     },
     "01ktp2mzvjaxpymkgdyhw1wehh": {
@@ -33059,14 +34256,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "scrum"
       ],
       "positions": {
-        "lees": 442,
-        "short": 243,
-        "scrum": 73
+        "lees": 454,
+        "short": 245,
+        "scrum": 75
       },
       "actualPositions": {
-        "lees": 442,
-        "short": 243,
-        "scrum": 73
+        "lees": 454,
+        "short": 245,
+        "scrum": 75
       }
     },
     "01ktp2kyqfw4gmnvgcrkt7faxv": {
@@ -33105,14 +34302,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "scrum"
       ],
       "positions": {
-        "lees": 441,
-        "short": 242,
-        "scrum": 72
+        "lees": 453,
+        "short": 244,
+        "scrum": 74
       },
       "actualPositions": {
-        "lees": 441,
-        "short": 242,
-        "scrum": 72
+        "lees": 453,
+        "short": 244,
+        "scrum": 74
       }
     },
     "01ktp2jv87zz114a0e57x0hnra": {
@@ -33153,12 +34350,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "scrum"
       ],
       "positions": {
-        "lees": 204,
+        "lees": 206,
         "short": 134,
         "scrum": 10
       },
       "actualPositions": {
-        "lees": 204,
+        "lees": 206,
         "short": 134,
         "scrum": 10
       }
@@ -33201,12 +34398,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "scrum"
       ],
       "positions": {
-        "lees": 203,
+        "lees": 205,
         "short": 133,
         "scrum": 9
       },
       "actualPositions": {
-        "lees": 203,
+        "lees": 205,
         "short": 133,
         "scrum": 9
       }
@@ -33246,12 +34443,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 861,
-        "short": 487
+        "lees": 886,
+        "short": 499
       },
       "actualPositions": {
-        "lees": 861,
-        "short": 487
+        "lees": 886,
+        "short": 499
       }
     },
     "01ktkgz3hkkcn6x6th4335ns7m": {
@@ -33288,10 +34485,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 648
+        "lees": 670
       },
       "actualPositions": {
-        "lees": 648
+        "lees": 670
       }
     },
     "01ktgfjcsqe7ppchg01q0v0b3k": {
@@ -33328,10 +34525,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 647
+        "lees": 669
       },
       "actualPositions": {
-        "lees": 647
+        "lees": 669
       }
     },
     "01ktejkb5739yv3ra0666qr32v": {
@@ -33372,13 +34569,13 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 440,
-        "short": 241,
+        "lees": 452,
+        "short": 243,
         "luchtig": 89
       },
       "actualPositions": {
-        "lees": 440,
-        "short": 241,
+        "lees": 452,
+        "short": 243,
         "luchtig": 89
       }
     },
@@ -33414,14 +34611,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 932,
-        "short": 525,
-        "luchtig": 226
+        "lees": 959,
+        "short": 537,
+        "luchtig": 231
       },
       "actualPositions": {
-        "lees": 932,
-        "short": 525,
-        "luchtig": 226
+        "lees": 959,
+        "short": 537,
+        "luchtig": 231
       }
     },
     "01ktdt607e4smamm9591b0b9d2": {
@@ -33460,14 +34657,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 752,
-        "short": 403,
-        "luchtig": 165
+        "lees": 776,
+        "short": 415,
+        "luchtig": 169
       },
       "actualPositions": {
-        "lees": 752,
-        "short": 403,
-        "luchtig": 165
+        "lees": 776,
+        "short": 415,
+        "luchtig": 169
       }
     },
     "01ktc8xc2yj17jm5hf96e12crc": {
@@ -33501,12 +34698,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 952,
-        "short": 542
+        "lees": 979,
+        "short": 554
       },
       "actualPositions": {
-        "lees": 952,
-        "short": 542
+        "lees": 979,
+        "short": 554
       }
     },
     "01ktbxxr50k86jtqphyhdp1eyc": {
@@ -33548,19 +34745,19 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig-nederlands"
       ],
       "positions": {
-        "lees": 751,
+        "lees": 775,
         "dutch": 28,
-        "short": 402,
+        "short": 414,
         "short-dutch": 16,
-        "luchtig": 164,
+        "luchtig": 168,
         "luchtig-nederlands": 10
       },
       "actualPositions": {
-        "lees": 751,
+        "lees": 775,
         "dutch": 28,
-        "short": 402,
+        "short": 414,
         "short-dutch": 16,
-        "luchtig": 164,
+        "luchtig": 168,
         "luchtig-nederlands": 10
       }
     },
@@ -33599,12 +34796,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 439,
-        "short": 240
+        "lees": 451,
+        "short": 242
       },
       "actualPositions": {
-        "lees": 439,
-        "short": 240
+        "lees": 451,
+        "short": 242
       }
     },
     "01kt9sbc2hgkymt9expprgkgdp": {
@@ -33644,13 +34841,13 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig-nederlands"
       ],
       "positions": {
-        "lees": 202,
+        "lees": 204,
         "dutch": 7,
         "luchtig": 42,
         "luchtig-nederlands": 2
       },
       "actualPositions": {
-        "lees": 202,
+        "lees": 204,
         "dutch": 7,
         "luchtig": 42,
         "luchtig-nederlands": 2
@@ -33690,10 +34887,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 646
+        "lees": 668
       },
       "actualPositions": {
-        "lees": 646
+        "lees": 668
       }
     },
     "01kt8j5yakk29s0cg4w3wnywn8": {
@@ -33733,15 +34930,15 @@ window.TOP_ARTICLE_PRIORITY = {
         "short-dutch"
       ],
       "positions": {
-        "lees": 822,
+        "lees": 847,
         "dutch": 32,
-        "short": 459,
+        "short": 471,
         "short-dutch": 20
       },
       "actualPositions": {
-        "lees": 822,
+        "lees": 847,
         "dutch": 32,
-        "short": 459,
+        "short": 471,
         "short-dutch": 20
       }
     },
@@ -33778,19 +34975,19 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig-nederlands"
       ],
       "positions": {
-        "lees": 1015,
+        "lees": 1042,
         "dutch": 38,
-        "short": 583,
+        "short": 595,
         "short-dutch": 25,
-        "luchtig": 262,
+        "luchtig": 267,
         "luchtig-nederlands": 14
       },
       "actualPositions": {
-        "lees": 1015,
+        "lees": 1042,
         "dutch": 38,
-        "short": 583,
+        "short": 595,
         "short-dutch": 25,
-        "luchtig": 262,
+        "luchtig": 267,
         "luchtig-nederlands": 14
       }
     },
@@ -33831,11 +35028,11 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 76,
+        "lees": 78,
         "short": 40
       },
       "actualPositions": {
-        "lees": 76,
+        "lees": 78,
         "short": 40
       }
     },
@@ -33872,12 +35069,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 799,
-        "luchtig": 184
+        "lees": 823,
+        "luchtig": 188
       },
       "actualPositions": {
-        "lees": 799,
-        "luchtig": 184
+        "lees": 823,
+        "luchtig": 188
       }
     },
     "01kt6qdyh1y6x3qgtft0vd05eb": {
@@ -33912,14 +35109,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 951,
-        "short": 541,
-        "luchtig": 236
+        "lees": 978,
+        "short": 553,
+        "luchtig": 241
       },
       "actualPositions": {
-        "lees": 951,
-        "short": 541,
-        "luchtig": 236
+        "lees": 978,
+        "short": 553,
+        "luchtig": 241
       }
     },
     "01kt48nachk49100hbdvv2zqdr": {
@@ -33956,10 +35153,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 201
+        "lees": 203
       },
       "actualPositions": {
-        "lees": 201
+        "lees": 203
       }
     },
     "01kt43yge3yh7na9s1pgccyc4b": {
@@ -33999,15 +35196,15 @@ window.TOP_ARTICLE_PRIORITY = {
         "short-dutch"
       ],
       "positions": {
-        "lees": 750,
+        "lees": 774,
         "dutch": 27,
-        "short": 401,
+        "short": 413,
         "short-dutch": 15
       },
       "actualPositions": {
-        "lees": 750,
+        "lees": 774,
         "dutch": 27,
-        "short": 401,
+        "short": 413,
         "short-dutch": 15
       }
     },
@@ -34046,12 +35243,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 645,
-        "luchtig": 142
+        "lees": 667,
+        "luchtig": 145
       },
       "actualPositions": {
-        "lees": 645,
-        "luchtig": 142
+        "lees": 667,
+        "luchtig": 145
       }
     },
     "01kt3pyfje0y9z49fzqmtkjsse": {
@@ -34088,10 +35285,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 349
+        "lees": 360
       },
       "actualPositions": {
-        "lees": 349
+        "lees": 360
       }
     },
     "01kt1vftcr1sbpe7eyaq1th1cx": {
@@ -34130,14 +35327,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 749,
-        "short": 400,
-        "luchtig": 163
+        "lees": 773,
+        "short": 412,
+        "luchtig": 167
       },
       "actualPositions": {
-        "lees": 749,
-        "short": 400,
-        "luchtig": 163
+        "lees": 773,
+        "short": 412,
+        "luchtig": 167
       }
     },
     "01kt1kx6fw5yk6bfkt8ahab2q5": {
@@ -34176,14 +35373,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 748,
-        "short": 399,
-        "luchtig": 162
+        "lees": 772,
+        "short": 411,
+        "luchtig": 166
       },
       "actualPositions": {
-        "lees": 748,
-        "short": 399,
-        "luchtig": 162
+        "lees": 772,
+        "short": 411,
+        "luchtig": 166
       }
     },
     "01ksztqyqrbf3hq420f9q12d7m": {
@@ -34260,14 +35457,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 821,
-        "short": 458,
-        "luchtig": 189
+        "lees": 846,
+        "short": 470,
+        "luchtig": 194
       },
       "actualPositions": {
-        "lees": 821,
-        "short": 458,
-        "luchtig": 189
+        "lees": 846,
+        "short": 470,
+        "luchtig": 194
       }
     },
     "01ksvxarfqbzdwmx01pct93tvr": {
@@ -34307,12 +35504,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 438,
-        "short": 239
+        "lees": 450,
+        "short": 241
       },
       "actualPositions": {
-        "lees": 438,
-        "short": 239
+        "lees": 450,
+        "short": 241
       }
     },
     "01kst1g8cff3ab77qteg0q834j": {
@@ -34398,12 +35595,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 200,
+        "lees": 202,
         "short": 132,
         "luchtig": 41
       },
       "actualPositions": {
-        "lees": 200,
+        "lees": 202,
         "short": 132,
         "luchtig": 41
       }
@@ -34443,12 +35640,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 747,
-        "short": 398
+        "lees": 771,
+        "short": 410
       },
       "actualPositions": {
-        "lees": 747,
-        "short": 398
+        "lees": 771,
+        "short": 410
       }
     },
     "01ksqkk435sxw70yrsebqe07gn": {
@@ -34486,12 +35683,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 820,
-        "short": 457
+        "lees": 845,
+        "short": 469
       },
       "actualPositions": {
-        "lees": 820,
-        "short": 457
+        "lees": 845,
+        "short": 469
       }
     },
     "01ksq126c0q6kp4qwstx59c0q3": {
@@ -34524,10 +35721,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 994
+        "lees": 1021
       },
       "actualPositions": {
-        "lees": 994
+        "lees": 1021
       }
     },
     "01ksn9qmay1erty7g5cha7xgmj": {
@@ -34566,14 +35763,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 819,
-        "short": 456,
-        "luchtig": 188
+        "lees": 844,
+        "short": 468,
+        "luchtig": 193
       },
       "actualPositions": {
-        "lees": 819,
-        "short": 456,
-        "luchtig": 188
+        "lees": 844,
+        "short": 468,
+        "luchtig": 193
       }
     },
     "01ksn0g5e07cstvdhjbzkb0a5f": {
@@ -34613,12 +35810,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 437,
-        "short": 238
+        "lees": 449,
+        "short": 240
       },
       "actualPositions": {
-        "lees": 437,
-        "short": 238
+        "lees": 449,
+        "short": 240
       }
     },
     "01ksmj9hx2gtpq5spdfq0f7v37": {
@@ -34656,12 +35853,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 644,
-        "luchtig": 141
+        "lees": 666,
+        "luchtig": 144
       },
       "actualPositions": {
-        "lees": 644,
-        "luchtig": 141
+        "lees": 666,
+        "luchtig": 144
       }
     },
     "01ksm8dq8gdfk1tjx34hv61bd9": {
@@ -34698,10 +35895,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 199
+        "lees": 201
       },
       "actualPositions": {
-        "lees": 199
+        "lees": 201
       }
     },
     "01ksk56be6jt4ad5g5kabzatjc": {
@@ -34736,14 +35933,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 950,
-        "short": 540,
-        "luchtig": 235
+        "lees": 977,
+        "short": 552,
+        "luchtig": 240
       },
       "actualPositions": {
-        "lees": 950,
-        "short": 540,
-        "luchtig": 235
+        "lees": 977,
+        "short": 552,
+        "luchtig": 240
       }
     },
     "01kshptdc5njqdmnehkxr4arfb": {
@@ -34779,19 +35976,19 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig-nederlands"
       ],
       "positions": {
-        "lees": 1014,
+        "lees": 1041,
         "dutch": 37,
-        "short": 582,
+        "short": 594,
         "short-dutch": 24,
-        "luchtig": 261,
+        "luchtig": 266,
         "luchtig-nederlands": 13
       },
       "actualPositions": {
-        "lees": 1014,
+        "lees": 1041,
         "dutch": 37,
-        "short": 582,
+        "short": 594,
         "short-dutch": 24,
-        "luchtig": 261,
+        "luchtig": 266,
         "luchtig-nederlands": 13
       }
     },
@@ -34825,10 +36022,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 993
+        "lees": 1020
       },
       "actualPositions": {
-        "lees": 993
+        "lees": 1020
       }
     },
     "01ksgpayydne30egggw4npszj1": {
@@ -34869,13 +36066,13 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 436,
-        "short": 237,
+        "lees": 448,
+        "short": 239,
         "luchtig": 88
       },
       "actualPositions": {
-        "lees": 436,
-        "short": 237,
+        "lees": 448,
+        "short": 239,
         "luchtig": 88
       }
     },
@@ -34913,10 +36110,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 198
+        "lees": 200
       },
       "actualPositions": {
-        "lees": 198
+        "lees": 200
       }
     },
     "01ksftktanvm593t6d9871cmm4": {
@@ -34955,13 +36152,13 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 348,
-        "short": 200,
+        "lees": 359,
+        "short": 202,
         "luchtig": 60
       },
       "actualPositions": {
-        "lees": 348,
-        "short": 200,
+        "lees": 359,
+        "short": 202,
         "luchtig": 60
       }
     },
@@ -34999,10 +36196,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 197
+        "lees": 199
       },
       "actualPositions": {
-        "lees": 197
+        "lees": 199
       }
     },
     "01ksdspbay70y5s5pef9grpats": {
@@ -35038,12 +36235,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 902,
-        "short": 518
+        "lees": 927,
+        "short": 530
       },
       "actualPositions": {
-        "lees": 902,
-        "short": 518
+        "lees": 927,
+        "short": 530
       }
     },
     "01ksdsnsw2mbeb6y7y17ghhey9": {
@@ -35116,10 +36313,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 643
+        "lees": 665
       },
       "actualPositions": {
-        "lees": 643
+        "lees": 665
       }
     },
     "01ksdgm26rq58wtjgaqg75tyfv": {
@@ -35152,10 +36349,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 992
+        "lees": 1019
       },
       "actualPositions": {
-        "lees": 992
+        "lees": 1019
       }
     },
     "01ksc75pt8qjpzxtda00x3dba8": {
@@ -35193,11 +36390,11 @@ window.TOP_ARTICLE_PRIORITY = {
         "dutch"
       ],
       "positions": {
-        "lees": 196,
+        "lees": 198,
         "dutch": 6
       },
       "actualPositions": {
-        "lees": 196,
+        "lees": 198,
         "dutch": 6
       }
     },
@@ -35239,13 +36436,13 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 435,
-        "short": 236,
+        "lees": 447,
+        "short": 238,
         "luchtig": 87
       },
       "actualPositions": {
-        "lees": 435,
-        "short": 236,
+        "lees": 447,
+        "short": 238,
         "luchtig": 87
       }
     },
@@ -35282,12 +36479,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 901,
-        "luchtig": 217
+        "lees": 926,
+        "luchtig": 222
       },
       "actualPositions": {
-        "lees": 901,
-        "luchtig": 217
+        "lees": 926,
+        "luchtig": 222
       }
     },
     "01ksa4rg8aaab5rf5v3x3xd1mb": {
@@ -35328,13 +36525,13 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 434,
-        "short": 235,
+        "lees": 446,
+        "short": 237,
         "luchtig": 86
       },
       "actualPositions": {
-        "lees": 434,
-        "short": 235,
+        "lees": 446,
+        "short": 237,
         "luchtig": 86
       }
     },
@@ -35413,10 +36610,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 991
+        "lees": 1018
       },
       "actualPositions": {
-        "lees": 991
+        "lees": 1018
       }
     },
     "01ks7vbkd0mgft31fpf06jbv90": {
@@ -35458,19 +36655,19 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig-nederlands"
       ],
       "positions": {
-        "lees": 746,
+        "lees": 770,
         "dutch": 26,
-        "short": 397,
+        "short": 409,
         "short-dutch": 14,
-        "luchtig": 161,
+        "luchtig": 165,
         "luchtig-nederlands": 9
       },
       "actualPositions": {
-        "lees": 746,
+        "lees": 770,
         "dutch": 26,
-        "short": 397,
+        "short": 409,
         "short-dutch": 14,
-        "luchtig": 161,
+        "luchtig": 165,
         "luchtig-nederlands": 9
       }
     },
@@ -35509,12 +36706,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 642,
-        "luchtig": 140
+        "lees": 664,
+        "luchtig": 143
       },
       "actualPositions": {
-        "lees": 642,
-        "luchtig": 140
+        "lees": 664,
+        "luchtig": 143
       }
     },
     "01ks4x3trnj452tc0tmezwjcej": {
@@ -35546,12 +36743,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 1013,
-        "short": 581
+        "lees": 1040,
+        "short": 593
       },
       "actualPositions": {
-        "lees": 1013,
-        "short": 581
+        "lees": 1040,
+        "short": 593
       }
     },
     "01ks3b1323hmp09eaygeqsbjrk": {
@@ -35590,14 +36787,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 818,
-        "short": 455,
-        "luchtig": 187
+        "lees": 843,
+        "short": 467,
+        "luchtig": 192
       },
       "actualPositions": {
-        "lees": 818,
-        "short": 455,
-        "luchtig": 187
+        "lees": 843,
+        "short": 467,
+        "luchtig": 192
       }
     },
     "01ks306x1mtfw67yhggdkdwhbx": {
@@ -35634,10 +36831,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 195
+        "lees": 197
       },
       "actualPositions": {
-        "lees": 195
+        "lees": 197
       }
     },
     "01ks2w2tk5ar80phj3pj90bjsw": {
@@ -35678,13 +36875,13 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 433,
-        "short": 234,
+        "lees": 445,
+        "short": 236,
         "luchtig": 85
       },
       "actualPositions": {
-        "lees": 433,
-        "short": 234,
+        "lees": 445,
+        "short": 236,
         "luchtig": 85
       }
     },
@@ -35723,12 +36920,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 641,
-        "luchtig": 139
+        "lees": 663,
+        "luchtig": 142
       },
       "actualPositions": {
-        "lees": 641,
-        "luchtig": 139
+        "lees": 663,
+        "luchtig": 142
       }
     },
     "01ks0n4s93c7rt3rwdfgvrgw8y": {
@@ -35764,12 +36961,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 949,
-        "short": 539
+        "lees": 976,
+        "short": 551
       },
       "actualPositions": {
-        "lees": 949,
-        "short": 539
+        "lees": 976,
+        "short": 551
       }
     },
     "01ks0eq0r3x8h0fgzzn289mazj": {
@@ -35801,12 +36998,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 1012,
-        "short": 580
+        "lees": 1039,
+        "short": 592
       },
       "actualPositions": {
-        "lees": 1012,
-        "short": 580
+        "lees": 1039,
+        "short": 592
       }
     },
     "01ks0epa8kspp83kh75k75rxss": {
@@ -35844,12 +37041,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 817,
-        "short": 454
+        "lees": 842,
+        "short": 466
       },
       "actualPositions": {
-        "lees": 817,
-        "short": 454
+        "lees": 842,
+        "short": 466
       }
     },
     "01krxb0g22xzayb39n9z9h286g": {
@@ -35886,10 +37083,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 640
+        "lees": 662
       },
       "actualPositions": {
-        "lees": 640
+        "lees": 662
       }
     },
     "01krtrt7kmjn4w5c51genbrkzk": {
@@ -35926,10 +37123,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 745
+        "lees": 769
       },
       "actualPositions": {
-        "lees": 745
+        "lees": 769
       }
     },
     "01krtrc68m499tqp0qe471vq9c": {
@@ -35969,11 +37166,11 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 194,
+        "lees": 196,
         "short": 131
       },
       "actualPositions": {
-        "lees": 194,
+        "lees": 196,
         "short": 131
       }
     },
@@ -36014,11 +37211,11 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 193,
+        "lees": 195,
         "short": 130
       },
       "actualPositions": {
-        "lees": 193,
+        "lees": 195,
         "short": 130
       }
     },
@@ -36057,12 +37254,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 347,
-        "short": 199
+        "lees": 358,
+        "short": 201
       },
       "actualPositions": {
-        "lees": 347,
-        "short": 199
+        "lees": 358,
+        "short": 201
       }
     },
     "01krtfz54rb8r6bs4x84h6sdhs": {
@@ -36103,14 +37300,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 639,
-        "short": 391,
-        "luchtig": 138
+        "lees": 661,
+        "short": 403,
+        "luchtig": 141
       },
       "actualPositions": {
-        "lees": 639,
-        "short": 391,
-        "luchtig": 138
+        "lees": 661,
+        "short": 403,
+        "luchtig": 141
       }
     },
     "01krtfwg9tch5d3yrjgdte28sf": {
@@ -36148,12 +37345,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 816,
-        "short": 453
+        "lees": 841,
+        "short": 465
       },
       "actualPositions": {
-        "lees": 816,
-        "short": 453
+        "lees": 841,
+        "short": 465
       }
     },
     "01krtexkxa2w3kf6d07h8t2ndr": {
@@ -36193,11 +37390,11 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 192,
+        "lees": 194,
         "short": 129
       },
       "actualPositions": {
-        "lees": 192,
+        "lees": 194,
         "short": 129
       }
     },
@@ -36238,12 +37435,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 432,
-        "short": 233
+        "lees": 444,
+        "short": 235
       },
       "actualPositions": {
-        "lees": 432,
-        "short": 233
+        "lees": 444,
+        "short": 235
       }
     },
     "01krt95bsf7mgc928phr833z7r": {
@@ -36280,10 +37477,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 346
+        "lees": 357
       },
       "actualPositions": {
-        "lees": 346
+        "lees": 357
       }
     },
     "01krt94dn0eh8859xw7s0t2vgm": {
@@ -36322,10 +37519,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 345
+        "lees": 356
       },
       "actualPositions": {
-        "lees": 345
+        "lees": 356
       }
     },
     "01krt93n5eyfjbk9sbrygpdvy2": {
@@ -36363,12 +37560,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 815,
-        "short": 452
+        "lees": 840,
+        "short": 464
       },
       "actualPositions": {
-        "lees": 815,
-        "short": 452
+        "lees": 840,
+        "short": 464
       }
     },
     "01krt8npt3e31xxm22d0stjbbp": {
@@ -36407,10 +37604,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 638
+        "lees": 660
       },
       "actualPositions": {
-        "lees": 638
+        "lees": 660
       }
     },
     "01krqmh4tqphysje012p59hxec": {
@@ -36451,13 +37648,13 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 431,
-        "short": 232,
+        "lees": 443,
+        "short": 234,
         "luchtig": 84
       },
       "actualPositions": {
-        "lees": 431,
-        "short": 232,
+        "lees": 443,
+        "short": 234,
         "luchtig": 84
       }
     },
@@ -36535,10 +37732,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 637
+        "lees": 659
       },
       "actualPositions": {
-        "lees": 637
+        "lees": 659
       }
     },
     "01krnyr9cxy0rhqzt148zy5p99": {
@@ -36579,13 +37776,13 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 430,
-        "short": 231,
+        "lees": 442,
+        "short": 233,
         "luchtig": 83
       },
       "actualPositions": {
-        "lees": 430,
-        "short": 231,
+        "lees": 442,
+        "short": 233,
         "luchtig": 83
       }
     },
@@ -36623,10 +37820,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 636
+        "lees": 658
       },
       "actualPositions": {
-        "lees": 636
+        "lees": 658
       }
     },
     "01krnygf4vzmx848dav851nhrg": {
@@ -36664,12 +37861,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 635,
-        "luchtig": 137
+        "lees": 657,
+        "luchtig": 140
       },
       "actualPositions": {
-        "lees": 635,
-        "luchtig": 137
+        "lees": 657,
+        "luchtig": 140
       }
     },
     "01krn89rppb35h90y58egserkm": {
@@ -36707,12 +37904,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 344,
-        "short": 198
+        "lees": 355,
+        "short": 200
       },
       "actualPositions": {
-        "lees": 344,
-        "short": 198
+        "lees": 355,
+        "short": 200
       }
     },
     "01krn89pg8ygg43xyqr4b5fzeq": {
@@ -36749,10 +37946,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 634
+        "lees": 656
       },
       "actualPositions": {
-        "lees": 634
+        "lees": 656
       }
     },
     "01krn89n78cs05f51mt1ygjnpg": {
@@ -36785,10 +37982,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 900
+        "lees": 925
       },
       "actualPositions": {
-        "lees": 900
+        "lees": 925
       }
     },
     "01krn7wk7s2g93zw72g9ay47xs": {
@@ -36825,10 +38022,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 191
+        "lees": 193
       },
       "actualPositions": {
-        "lees": 191
+        "lees": 193
       }
     },
     "01krn1jdcn6b450yv1z0j92tz3": {
@@ -36868,11 +38065,11 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 75,
+        "lees": 77,
         "short": 39
       },
       "actualPositions": {
-        "lees": 75,
+        "lees": 77,
         "short": 39
       }
     },
@@ -36908,10 +38105,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 860
+        "lees": 885
       },
       "actualPositions": {
-        "lees": 860
+        "lees": 885
       }
     },
     "01krmzw6cw28m1y55ds9qrsxjf": {
@@ -36989,11 +38186,11 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 190,
+        "lees": 192,
         "luchtig": 40
       },
       "actualPositions": {
-        "lees": 190,
+        "lees": 192,
         "luchtig": 40
       }
     },
@@ -37077,12 +38274,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 631,
-        "luchtig": 135
+        "lees": 653,
+        "luchtig": 138
       },
       "actualPositions": {
-        "lees": 631,
-        "luchtig": 135
+        "lees": 653,
+        "luchtig": 138
       }
     },
     "01krkbe7701j87vmw7wrs54h8m": {
@@ -37122,11 +38319,11 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 74,
+        "lees": 76,
         "short": 38
       },
       "actualPositions": {
-        "lees": 74,
+        "lees": 76,
         "short": 38
       }
     },
@@ -37166,10 +38363,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 630
+        "lees": 652
       },
       "actualPositions": {
-        "lees": 630
+        "lees": 652
       }
     },
     "01krc4rtfkcpwmtkkf10kqqeen": {
@@ -37204,10 +38401,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 859
+        "lees": 884
       },
       "actualPositions": {
-        "lees": 859
+        "lees": 884
       }
     },
     "01krbezjtx0zph0kpthrse5kr3": {
@@ -37244,10 +38441,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 189
+        "lees": 191
       },
       "actualPositions": {
-        "lees": 189
+        "lees": 191
       }
     },
     "01krand4e1q4d32afr5ntawm7j": {
@@ -37285,12 +38482,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 629,
-        "luchtig": 134
+        "lees": 651,
+        "luchtig": 137
       },
       "actualPositions": {
-        "lees": 629,
-        "luchtig": 134
+        "lees": 651,
+        "luchtig": 137
       }
     },
     "01kr6d6wfsrmmgq31q6w8b6fdk": {
@@ -37326,12 +38523,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 899,
-        "short": 517
+        "lees": 924,
+        "short": 529
       },
       "actualPositions": {
-        "lees": 899,
-        "short": 517
+        "lees": 924,
+        "short": 529
       }
     },
     "01kr407cqy79xnqva0edrx5kj8": {
@@ -37408,10 +38605,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 632
+        "lees": 654
       },
       "actualPositions": {
-        "lees": 632
+        "lees": 654
       }
     },
     "01kr190hdc36xn9y5edjsm74fx": {
@@ -37484,10 +38681,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 990
+        "lees": 1017
       },
       "actualPositions": {
-        "lees": 990
+        "lees": 1017
       }
     },
     "01kqy8wyp8f7z6nqcby6ajbnm4": {
@@ -37528,13 +38725,13 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 429,
-        "short": 230,
+        "lees": 441,
+        "short": 232,
         "luchtig": 82
       },
       "actualPositions": {
-        "lees": 429,
-        "short": 230,
+        "lees": 441,
+        "short": 232,
         "luchtig": 82
       }
     },
@@ -37615,11 +38812,11 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 73,
+        "lees": 75,
         "short": 37
       },
       "actualPositions": {
-        "lees": 73,
+        "lees": 75,
         "short": 37
       }
     },
@@ -37659,10 +38856,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 343
+        "lees": 354
       },
       "actualPositions": {
-        "lees": 343
+        "lees": 354
       }
     },
     "01kqqh8j20ty05q1atmpm9gscn": {
@@ -37701,10 +38898,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 342
+        "lees": 353
       },
       "actualPositions": {
-        "lees": 342
+        "lees": 353
       }
     },
     "01kqqh8gp2nh0d0c859h61yths": {
@@ -37744,11 +38941,11 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 341,
+        "lees": 352,
         "luchtig": 59
       },
       "actualPositions": {
-        "lees": 341,
+        "lees": 352,
         "luchtig": 59
       }
     },
@@ -37786,10 +38983,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 188
+        "lees": 190
       },
       "actualPositions": {
-        "lees": 188
+        "lees": 190
       }
     },
     "01kqn2zjmevdr865h4ah7q46ca": {
@@ -37864,14 +39061,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 948,
-        "short": 538,
-        "luchtig": 234
+        "lees": 975,
+        "short": 550,
+        "luchtig": 239
       },
       "actualPositions": {
-        "lees": 948,
-        "short": 538,
-        "luchtig": 234
+        "lees": 975,
+        "short": 550,
+        "luchtig": 239
       }
     },
     "01kqj7zfv4pjw25bctmdrswe18": {
@@ -37911,11 +39108,11 @@ window.TOP_ARTICLE_PRIORITY = {
         "dutch"
       ],
       "positions": {
-        "lees": 627,
+        "lees": 649,
         "dutch": 23
       },
       "actualPositions": {
-        "lees": 627,
+        "lees": 649,
         "dutch": 23
       }
     },
@@ -37954,12 +39151,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 626,
-        "luchtig": 133
+        "lees": 648,
+        "luchtig": 136
       },
       "actualPositions": {
-        "lees": 626,
-        "luchtig": 133
+        "lees": 648,
+        "luchtig": 136
       }
     },
     "01kqfrh21ph0xe1wbqw4y4zwsf": {
@@ -37993,12 +39190,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 989,
-        "luchtig": 255
+        "lees": 1016,
+        "luchtig": 260
       },
       "actualPositions": {
-        "lees": 989,
-        "luchtig": 255
+        "lees": 1016,
+        "luchtig": 260
       }
     },
     "01kq70sakyjftgpgyhz32m16nq": {
@@ -38034,12 +39231,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 858,
-        "luchtig": 202
+        "lees": 883,
+        "luchtig": 207
       },
       "actualPositions": {
-        "lees": 858,
-        "luchtig": 202
+        "lees": 883,
+        "luchtig": 207
       }
     },
     "01kptngaeqvkwcgsrq7y4c6y80": {
@@ -38075,12 +39272,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 947,
-        "short": 537
+        "lees": 974,
+        "short": 549
       },
       "actualPositions": {
-        "lees": 947,
-        "short": 537
+        "lees": 974,
+        "short": 549
       }
     },
     "01kptnavtmxc08pexmv6yxmavz": {
@@ -38116,12 +39313,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 946,
-        "short": 536
+        "lees": 973,
+        "short": 548
       },
       "actualPositions": {
-        "lees": 946,
-        "short": 536
+        "lees": 973,
+        "short": 548
       }
     },
     "01kpe68f3bbm3ntfqf6t3dy7z9": {
@@ -38158,10 +39355,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 625
+        "lees": 647
       },
       "actualPositions": {
-        "lees": 625
+        "lees": 647
       }
     },
     "01kpb376s2jb8650wvd5n8mszj": {
@@ -38199,12 +39396,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 814,
-        "short": 451
+        "lees": 839,
+        "short": 463
       },
       "actualPositions": {
-        "lees": 814,
-        "short": 451
+        "lees": 839,
+        "short": 463
       }
     },
     "01kp4sz3c9smvcr240we5prsqa": {
@@ -38243,10 +39440,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 624
+        "lees": 646
       },
       "actualPositions": {
-        "lees": 624
+        "lees": 646
       }
     },
     "01kp2j39t59t9wy3bcs6m4q3c0": {
@@ -38283,10 +39480,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 340
+        "lees": 351
       },
       "actualPositions": {
-        "lees": 340
+        "lees": 351
       }
     },
     "01knsnf05g0aq5ecm2bdsh9rjx": {
@@ -38324,12 +39521,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 428,
-        "short": 229
+        "lees": 440,
+        "short": 231
       },
       "actualPositions": {
-        "lees": 428,
-        "short": 229
+        "lees": 440,
+        "short": 231
       }
     },
     "01knpm0f55scn4zw9p43g7aw7c": {
@@ -38366,10 +39563,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 187
+        "lees": 189
       },
       "actualPositions": {
-        "lees": 187
+        "lees": 189
       }
     },
     "01knpkrv3w8wsbhpd6qs67fkd1": {
@@ -38446,10 +39643,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 744
+        "lees": 768
       },
       "actualPositions": {
-        "lees": 744
+        "lees": 768
       }
     },
     "01knefpm3ae2ew1jrq9twtjc1w": {
@@ -38489,12 +39686,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 623,
-        "short": 390
+        "lees": 645,
+        "short": 402
       },
       "actualPositions": {
-        "lees": 623,
-        "short": 390
+        "lees": 645,
+        "short": 402
       }
     },
     "01kne8gk826f5e57n34h317pqw": {
@@ -38572,11 +39769,11 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 339,
+        "lees": 350,
         "luchtig": 58
       },
       "actualPositions": {
-        "lees": 339,
+        "lees": 350,
         "luchtig": 58
       }
     },
@@ -38618,12 +39815,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 186,
+        "lees": 188,
         "short": 128,
         "luchtig": 39
       },
       "actualPositions": {
-        "lees": 186,
+        "lees": 188,
         "short": 128,
         "luchtig": 39
       }
@@ -38665,11 +39862,11 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 72,
+        "lees": 74,
         "short": 36
       },
       "actualPositions": {
-        "lees": 72,
+        "lees": 74,
         "short": 36
       }
     },
@@ -38711,12 +39908,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 185,
+        "lees": 187,
         "short": 127,
         "luchtig": 38
       },
       "actualPositions": {
-        "lees": 185,
+        "lees": 187,
         "short": 127,
         "luchtig": 38
       }
@@ -38758,11 +39955,11 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 71,
+        "lees": 73,
         "short": 35
       },
       "actualPositions": {
-        "lees": 71,
+        "lees": 73,
         "short": 35
       }
     },
@@ -38800,10 +39997,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 184
+        "lees": 186
       },
       "actualPositions": {
-        "lees": 184
+        "lees": 186
       }
     },
     "01kmmsmygjapx4f6gb2bhxds2j": {
@@ -38876,10 +40073,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 988
+        "lees": 1015
       },
       "actualPositions": {
-        "lees": 988
+        "lees": 1015
       }
     },
     "01kmjjs1nc96hg1tq02gmgh657": {
@@ -38916,10 +40113,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 338
+        "lees": 349
       },
       "actualPositions": {
-        "lees": 338
+        "lees": 349
       }
     },
     "01kmfmvdnqhec7daqp6x47pr85": {
@@ -38959,11 +40156,11 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 70,
+        "lees": 72,
         "short": 34
       },
       "actualPositions": {
-        "lees": 70,
+        "lees": 72,
         "short": 34
       }
     },
@@ -39046,10 +40243,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 743
+        "lees": 767
       },
       "actualPositions": {
-        "lees": 743
+        "lees": 767
       }
     },
     "01kmbp17grppjmpxqfsq4z3zy7": {
@@ -39129,10 +40326,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 621
+        "lees": 643
       },
       "actualPositions": {
-        "lees": 621
+        "lees": 643
       }
     },
     "01km0ha2tggzmd2y5yjpqbycj5": {
@@ -39172,11 +40369,11 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 69,
+        "lees": 71,
         "short": 33
       },
       "actualPositions": {
-        "lees": 69,
+        "lees": 71,
         "short": 33
       }
     },
@@ -39214,10 +40411,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 628
+        "lees": 650
       },
       "actualPositions": {
-        "lees": 628
+        "lees": 650
       }
     },
     "01kksm80zx4vk4cskkm9r0nddv": {
@@ -39290,10 +40487,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 620
+        "lees": 642
       },
       "actualPositions": {
-        "lees": 620
+        "lees": 642
       }
     },
     "01kkh2jn3p93nsh9nvbpe1w0vk": {
@@ -39331,11 +40528,11 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 68,
+        "lees": 70,
         "short": 32
       },
       "actualPositions": {
-        "lees": 68,
+        "lees": 70,
         "short": 32
       }
     },
@@ -39373,10 +40570,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 182
+        "lees": 184
       },
       "actualPositions": {
-        "lees": 182
+        "lees": 184
       }
     },
     "01kkh0x5pfdsj6615b1gvhghsp": {
@@ -39413,10 +40610,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 337
+        "lees": 348
       },
       "actualPositions": {
-        "lees": 337
+        "lees": 348
       }
     },
     "01kkh0wb88xpy71r3pc97jgpn4": {
@@ -39456,11 +40653,11 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 183,
+        "lees": 185,
         "short": 126
       },
       "actualPositions": {
-        "lees": 183,
+        "lees": 185,
         "short": 126
       }
     },
@@ -39498,10 +40695,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 336
+        "lees": 347
       },
       "actualPositions": {
-        "lees": 336
+        "lees": 347
       }
     },
     "01kkejgakdb8n1a7k1bketbfm5": {
@@ -39581,11 +40778,11 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 181,
+        "lees": 183,
         "short": 125
       },
       "actualPositions": {
-        "lees": 181,
+        "lees": 183,
         "short": 125
       }
     },
@@ -39661,10 +40858,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 180
+        "lees": 182
       },
       "actualPositions": {
-        "lees": 180
+        "lees": 182
       }
     },
     "01kjnmsk3mmpayj96rpj8s8fv4": {
@@ -39739,10 +40936,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 179
+        "lees": 181
       },
       "actualPositions": {
-        "lees": 179
+        "lees": 181
       }
     },
     "01kjcvz5kpdvdpehtkcr8qz2we": {
@@ -39780,12 +40977,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 813,
-        "short": 450
+        "lees": 838,
+        "short": 462
       },
       "actualPositions": {
-        "lees": 813,
-        "short": 450
+        "lees": 838,
+        "short": 462
       }
     },
     "01kj5a1mnca55881qyj3jzm64b": {
@@ -39823,11 +41020,11 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 178,
+        "lees": 180,
         "luchtig": 37
       },
       "actualPositions": {
-        "lees": 178,
+        "lees": 180,
         "luchtig": 37
       }
     },
@@ -39906,12 +41103,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 633,
-        "luchtig": 136
+        "lees": 655,
+        "luchtig": 139
       },
       "actualPositions": {
-        "lees": 633,
-        "luchtig": 136
+        "lees": 655,
+        "luchtig": 139
       }
     },
     "01khxyazzfph3etb69en1bhzgw": {
@@ -39995,10 +41192,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 619
+        "lees": 641
       },
       "actualPositions": {
-        "lees": 619
+        "lees": 641
       }
     },
     "01khrd3s7hysvjvgdtsh1jc8ht": {
@@ -40035,10 +41232,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 335
+        "lees": 346
       },
       "actualPositions": {
-        "lees": 335
+        "lees": 346
       }
     },
     "01khr5h2d75yj0yt1v6seck4nt": {
@@ -40158,10 +41355,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 618
+        "lees": 640
       },
       "actualPositions": {
-        "lees": 618
+        "lees": 640
       }
     },
     "01kh21jz7hcqnr464y85z2zcv5": {
@@ -40198,10 +41395,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 334
+        "lees": 345
       },
       "actualPositions": {
-        "lees": 334
+        "lees": 345
       }
     },
     "01kh21heygqzs3nyqp7svzjd6m": {
@@ -40238,10 +41435,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 617
+        "lees": 639
       },
       "actualPositions": {
-        "lees": 617
+        "lees": 639
       }
     },
     "01kh21gbg96keszh9q8c0vcr1y": {
@@ -40274,10 +41471,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 931
+        "lees": 958
       },
       "actualPositions": {
-        "lees": 931
+        "lees": 958
       }
     },
     "01kh1ypdtsb1f1nafttcy8qdmn": {
@@ -40314,10 +41511,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 616
+        "lees": 638
       },
       "actualPositions": {
-        "lees": 616
+        "lees": 638
       }
     },
     "01kgscvzdt9g81j4bkj7pq96cm": {
@@ -40356,14 +41553,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 857,
-        "short": 486,
-        "luchtig": 201
+        "lees": 882,
+        "short": 498,
+        "luchtig": 206
       },
       "actualPositions": {
-        "lees": 857,
-        "short": 486,
-        "luchtig": 201
+        "lees": 882,
+        "short": 498,
+        "luchtig": 206
       }
     },
     "01kgdfpy0f0pts3sax7x38mdqc": {
@@ -40436,11 +41633,11 @@ window.TOP_ARTICLE_PRIORITY = {
       ],
       "positions": {
         "video": 15,
-        "luchtig": 183
+        "luchtig": 187
       },
       "actualPositions": {
         "video": 15,
-        "luchtig": 183
+        "luchtig": 187
       }
     },
     "01kgdfmswp6rwxspftxzm0yr3n": {
@@ -40477,10 +41674,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 333
+        "lees": 344
       },
       "actualPositions": {
-        "lees": 333
+        "lees": 344
       }
     },
     "01kg37pvr9h6wrpn78e1hrq4cv": {
@@ -40519,10 +41716,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 332
+        "lees": 343
       },
       "actualPositions": {
-        "lees": 332
+        "lees": 343
       }
     },
     "01kg2bfknxdbdtasxyva7fdma3": {
@@ -40559,10 +41756,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 177
+        "lees": 179
       },
       "actualPositions": {
-        "lees": 177
+        "lees": 179
       }
     },
     "01kfgapc0zx7qj7f9fn65c6d13": {
@@ -40599,10 +41796,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 331
+        "lees": 342
       },
       "actualPositions": {
-        "lees": 331
+        "lees": 342
       }
     },
     "01kfb2gw90wdpy96gedqddd1kd": {
@@ -40642,12 +41839,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 427,
-        "short": 228
+        "lees": 439,
+        "short": 230
       },
       "actualPositions": {
-        "lees": 427,
-        "short": 228
+        "lees": 439,
+        "short": 230
       }
     },
     "01kf916mwdxkdydep3wwes334d": {
@@ -40685,11 +41882,11 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 176,
+        "lees": 178,
         "luchtig": 36
       },
       "actualPositions": {
-        "lees": 176,
+        "lees": 178,
         "luchtig": 36
       }
     },
@@ -40775,10 +41972,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 615
+        "lees": 637
       },
       "actualPositions": {
-        "lees": 615
+        "lees": 637
       }
     },
     "01keqeq7nyxjpnsd031e66kmej": {
@@ -40855,10 +42052,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 175
+        "lees": 177
       },
       "actualPositions": {
-        "lees": 175
+        "lees": 177
       }
     },
     "01keht5gn85sygznbg0h2ngzsm": {
@@ -40896,12 +42093,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 812,
-        "short": 449
+        "lees": 837,
+        "short": 461
       },
       "actualPositions": {
-        "lees": 812,
-        "short": 449
+        "lees": 837,
+        "short": 461
       }
     },
     "01keht1gqezsve77swk4vykjge": {
@@ -40941,12 +42138,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 426,
-        "short": 227
+        "lees": 438,
+        "short": 229
       },
       "actualPositions": {
-        "lees": 426,
-        "short": 227
+        "lees": 438,
+        "short": 229
       }
     },
     "01kec58fp6ep87fc5qnf8swc20": {
@@ -40984,11 +42181,11 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 330,
+        "lees": 341,
         "luchtig": 57
       },
       "actualPositions": {
-        "lees": 330,
+        "lees": 341,
         "luchtig": 57
       }
     },
@@ -41063,12 +42260,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 945,
-        "short": 535
+        "lees": 972,
+        "short": 547
       },
       "actualPositions": {
-        "lees": 945,
-        "short": 535
+        "lees": 972,
+        "short": 547
       }
     },
     "01kdxv1h9j3retf2p61qp4p125": {
@@ -41105,10 +42302,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 614
+        "lees": 636
       },
       "actualPositions": {
-        "lees": 614
+        "lees": 636
       }
     },
     "01kdnzthe611p0c38ts9j702s2": {
@@ -41150,13 +42347,13 @@ window.TOP_ARTICLE_PRIORITY = {
         "short-dutch"
       ],
       "positions": {
-        "lees": 67,
+        "lees": 69,
         "dutch": 1,
         "short": 31,
         "short-dutch": 1
       },
       "actualPositions": {
-        "lees": 67,
+        "lees": 69,
         "dutch": 1,
         "short": 31,
         "short-dutch": 1
@@ -41196,10 +42393,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 174
+        "lees": 176
       },
       "actualPositions": {
-        "lees": 174
+        "lees": 176
       }
     },
     "01kdanxpg3e3pp8stwtmfr7p79": {
@@ -41241,11 +42438,11 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 173,
+        "lees": 175,
         "short": 124
       },
       "actualPositions": {
-        "lees": 173,
+        "lees": 175,
         "short": 124
       }
     },
@@ -41286,11 +42483,11 @@ window.TOP_ARTICLE_PRIORITY = {
         "dutch"
       ],
       "positions": {
-        "lees": 613,
+        "lees": 635,
         "dutch": 22
       },
       "actualPositions": {
-        "lees": 613,
+        "lees": 635,
         "dutch": 22
       }
     },
@@ -41494,11 +42691,11 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 66,
+        "lees": 68,
         "short": 30
       },
       "actualPositions": {
-        "lees": 66,
+        "lees": 68,
         "short": 30
       }
     },
@@ -41533,12 +42730,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "short": 598,
-        "luchtig": 273
+        "short": 611,
+        "luchtig": 279
       },
       "actualPositions": {
-        "short": 598,
-        "luchtig": 273
+        "short": 611,
+        "luchtig": 279
       }
     },
     "01kchxs90kb1qw9xk8rkcz4418": {
@@ -41619,12 +42816,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 172,
+        "lees": 174,
         "short": 123,
         "luchtig": 35
       },
       "actualPositions": {
-        "lees": 172,
+        "lees": 174,
         "short": 123,
         "luchtig": 35
       }
@@ -41747,13 +42944,13 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 425,
-        "short": 226,
+        "lees": 437,
+        "short": 228,
         "luchtig": 81
       },
       "actualPositions": {
-        "lees": 425,
-        "short": 226,
+        "lees": 437,
+        "short": 228,
         "luchtig": 81
       }
     },
@@ -41796,12 +42993,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 424,
-        "short": 225
+        "lees": 436,
+        "short": 227
       },
       "actualPositions": {
-        "lees": 424,
-        "short": 225
+        "lees": 436,
+        "short": 227
       }
     },
     "01kc76cxv4wkv0smbz1k9y6qxs": {
@@ -41841,11 +43038,11 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 171,
+        "lees": 173,
         "short": 122
       },
       "actualPositions": {
-        "lees": 171,
+        "lees": 173,
         "short": 122
       }
     },
@@ -41887,12 +43084,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 170,
+        "lees": 172,
         "short": 121,
         "luchtig": 34
       },
       "actualPositions": {
-        "lees": 170,
+        "lees": 172,
         "short": 121,
         "luchtig": 34
       }
@@ -41935,13 +43132,13 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 423,
-        "short": 224,
+        "lees": 435,
+        "short": 226,
         "luchtig": 80
       },
       "actualPositions": {
-        "lees": 423,
-        "short": 224,
+        "lees": 435,
+        "short": 226,
         "luchtig": 80
       }
     },
@@ -42134,10 +43331,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 941
+        "lees": 968
       },
       "actualPositions": {
-        "lees": 941
+        "lees": 968
       }
     },
     "01kbdw3w0vrspnk8yzrfxypq51": {
@@ -42178,12 +43375,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 226,
+        "lees": 228,
         "short": 153,
         "luchtig": 44
       },
       "actualPositions": {
-        "lees": 226,
+        "lees": 228,
         "short": 153,
         "luchtig": 44
       }
@@ -42262,10 +43459,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 612
+        "lees": 634
       },
       "actualPositions": {
-        "lees": 612
+        "lees": 634
       }
     },
     "01kasc4y3agzhv7mp7294keys2": {
@@ -42302,10 +43499,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 329
+        "lees": 340
       },
       "actualPositions": {
-        "lees": 329
+        "lees": 340
       }
     },
     "01kasc4pne8zck7kwatefv1jxq": {
@@ -42342,10 +43539,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 169
+        "lees": 171
       },
       "actualPositions": {
-        "lees": 169
+        "lees": 171
       }
     },
     "01kak55ckqqc68k61t1z10mcs6": {
@@ -42426,13 +43623,13 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 422,
-        "short": 223,
+        "lees": 434,
+        "short": 225,
         "luchtig": 79
       },
       "actualPositions": {
-        "lees": 422,
-        "short": 223,
+        "lees": 434,
+        "short": 225,
         "luchtig": 79
       }
     },
@@ -42474,13 +43671,13 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 421,
-        "short": 222,
+        "lees": 433,
+        "short": 224,
         "luchtig": 78
       },
       "actualPositions": {
-        "lees": 421,
-        "short": 222,
+        "lees": 433,
+        "short": 224,
         "luchtig": 78
       }
     },
@@ -42564,11 +43761,11 @@ window.TOP_ARTICLE_PRIORITY = {
         "dutch"
       ],
       "positions": {
-        "lees": 611,
+        "lees": 633,
         "dutch": 21
       },
       "actualPositions": {
-        "lees": 611,
+        "lees": 633,
         "dutch": 21
       }
     },
@@ -42606,10 +43803,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 610
+        "lees": 632
       },
       "actualPositions": {
-        "lees": 610
+        "lees": 632
       }
     },
     "01ka6v10fx7nxzbf0dm43dk6ed": {
@@ -42649,11 +43846,11 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 168,
+        "lees": 170,
         "short": 120
       },
       "actualPositions": {
-        "lees": 168,
+        "lees": 170,
         "short": 120
       }
     },
@@ -42691,10 +43888,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 609
+        "lees": 631
       },
       "actualPositions": {
-        "lees": 609
+        "lees": 631
       }
     },
     "01k9q3yjaq9z5z5pxh7kxw4qdf": {
@@ -42732,12 +43929,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 856,
-        "short": 485
+        "lees": 881,
+        "short": 497
       },
       "actualPositions": {
-        "lees": 856,
-        "short": 485
+        "lees": 881,
+        "short": 497
       }
     },
     "01k9p5pa1athkkdm2j2nxfhf26": {
@@ -42775,11 +43972,11 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 167,
+        "lees": 169,
         "luchtig": 33
       },
       "actualPositions": {
-        "lees": 167,
+        "lees": 169,
         "luchtig": 33
       }
     },
@@ -42817,10 +44014,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 608
+        "lees": 630
       },
       "actualPositions": {
-        "lees": 608
+        "lees": 630
       }
     },
     "01k9c2mrq9mfde3nhj6k1pxte8": {
@@ -42859,10 +44056,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 607
+        "lees": 629
       },
       "actualPositions": {
-        "lees": 607
+        "lees": 629
       }
     },
     "01k9c2mfzdvrnpxt293kgn3rn8": {
@@ -42939,14 +44136,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 855,
-        "short": 484,
-        "luchtig": 200
+        "lees": 880,
+        "short": 496,
+        "luchtig": 205
       },
       "actualPositions": {
-        "lees": 855,
-        "short": 484,
-        "luchtig": 200
+        "lees": 880,
+        "short": 496,
+        "luchtig": 205
       }
     },
     "01k9c2jzjpkejt3bc7v3p3p3d0": {
@@ -42983,10 +44180,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 166
+        "lees": 168
       },
       "actualPositions": {
-        "lees": 166
+        "lees": 168
       }
     },
     "01k948t6xdcbnnhr9cdvppa534": {
@@ -43022,12 +44219,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 827,
-        "short": 464
+        "lees": 852,
+        "short": 476
       },
       "actualPositions": {
-        "lees": 827,
-        "short": 464
+        "lees": 852,
+        "short": 476
       }
     },
     "01k8v9cz0ah2x4qddn265e4cnt": {
@@ -43068,12 +44265,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 65,
+        "lees": 67,
         "short": 29,
         "luchtig": 10
       },
       "actualPositions": {
-        "lees": 65,
+        "lees": 67,
         "short": 29,
         "luchtig": 10
       }
@@ -43113,12 +44310,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 742,
-        "luchtig": 160
+        "lees": 766,
+        "luchtig": 164
       },
       "actualPositions": {
-        "lees": 742,
-        "luchtig": 160
+        "lees": 766,
+        "luchtig": 164
       }
     },
     "01k8czt2j7ngy6e3nt06r2kv7h": {
@@ -43153,10 +44350,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 898
+        "lees": 923
       },
       "actualPositions": {
-        "lees": 898
+        "lees": 923
       }
     },
     "01k8b4z89x7bjhpp69rbbemnet": {
@@ -43197,13 +44394,13 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 420,
-        "short": 221,
+        "lees": 432,
+        "short": 223,
         "luchtig": 77
       },
       "actualPositions": {
-        "lees": 420,
-        "short": 221,
+        "lees": 432,
+        "short": 223,
         "luchtig": 77
       }
     },
@@ -43281,10 +44478,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 606
+        "lees": 628
       },
       "actualPositions": {
-        "lees": 606
+        "lees": 628
       }
     },
     "01k88fp60409w7wsaz01a69vq4": {
@@ -43321,10 +44518,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 165
+        "lees": 167
       },
       "actualPositions": {
-        "lees": 165
+        "lees": 167
       }
     },
     "01k80nvw2z9d40qq24hveszqrw": {
@@ -43364,15 +44561,15 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig-nederlands"
       ],
       "positions": {
-        "lees": 605,
+        "lees": 627,
         "dutch": 20,
-        "luchtig": 132,
+        "luchtig": 135,
         "luchtig-nederlands": 6
       },
       "actualPositions": {
-        "lees": 605,
+        "lees": 627,
         "dutch": 20,
-        "luchtig": 132,
+        "luchtig": 135,
         "luchtig-nederlands": 6
       }
     },
@@ -43410,10 +44607,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 622
+        "lees": 644
       },
       "actualPositions": {
-        "lees": 622
+        "lees": 644
       }
     },
     "01k7xjhe96qxhs9bkr4qahjk09": {
@@ -43453,11 +44650,11 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 64,
+        "lees": 66,
         "short": 28
       },
       "actualPositions": {
-        "lees": 64,
+        "lees": 66,
         "short": 28
       }
     },
@@ -43492,12 +44689,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 987,
-        "luchtig": 254
+        "lees": 1014,
+        "luchtig": 259
       },
       "actualPositions": {
-        "lees": 987,
-        "luchtig": 254
+        "lees": 1014,
+        "luchtig": 259
       }
     },
     "01k7tw6vrkda5hp5070ra2wqm6": {
@@ -43538,13 +44735,13 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 419,
-        "short": 220,
+        "lees": 431,
+        "short": 222,
         "luchtig": 76
       },
       "actualPositions": {
-        "lees": 419,
-        "short": 220,
+        "lees": 431,
+        "short": 222,
         "luchtig": 76
       }
     },
@@ -43583,11 +44780,11 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 328,
+        "lees": 339,
         "luchtig": 56
       },
       "actualPositions": {
-        "lees": 328,
+        "lees": 339,
         "luchtig": 56
       }
     },
@@ -43625,10 +44822,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 164
+        "lees": 166
       },
       "actualPositions": {
-        "lees": 164
+        "lees": 166
       }
     },
     "01k7rktczvt1p4nx2bqf9gqas2": {
@@ -43702,11 +44899,11 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 63,
+        "lees": 65,
         "short": 27
       },
       "actualPositions": {
-        "lees": 63,
+        "lees": 65,
         "short": 27
       }
     },
@@ -43748,12 +44945,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 62,
+        "lees": 64,
         "short": 26,
         "luchtig": 9
       },
       "actualPositions": {
-        "lees": 62,
+        "lees": 64,
         "short": 26,
         "luchtig": 9
       }
@@ -43796,12 +44993,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 163,
+        "lees": 165,
         "short": 119,
         "luchtig": 32
       },
       "actualPositions": {
-        "lees": 163,
+        "lees": 165,
         "short": 119,
         "luchtig": 32
       }
@@ -43840,10 +45037,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 327
+        "lees": 338
       },
       "actualPositions": {
-        "lees": 327
+        "lees": 338
       }
     },
     "01k7q03xx8pwem577zgy47b0zk": {
@@ -43881,11 +45078,11 @@ window.TOP_ARTICLE_PRIORITY = {
         "dutch"
       ],
       "positions": {
-        "lees": 604,
+        "lees": 626,
         "dutch": 19
       },
       "actualPositions": {
-        "lees": 604,
+        "lees": 626,
         "dutch": 19
       }
     },
@@ -43926,12 +45123,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 418,
-        "short": 219
+        "lees": 430,
+        "short": 221
       },
       "actualPositions": {
-        "lees": 418,
-        "short": 219
+        "lees": 430,
+        "short": 221
       }
     },
     "01k7pn0mh5xrx35sxe5rxp84qg": {
@@ -43968,10 +45165,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 326
+        "lees": 337
       },
       "actualPositions": {
-        "lees": 326
+        "lees": 337
       }
     },
     "01k7pn0gythp69p15376f659gx": {
@@ -44098,10 +45295,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 603
+        "lees": 625
       },
       "actualPositions": {
-        "lees": 603
+        "lees": 625
       }
     },
     "01k7pmvc94p82aaz3ptdqbyecc": {
@@ -44138,10 +45335,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 602
+        "lees": 624
       },
       "actualPositions": {
-        "lees": 602
+        "lees": 624
       }
     },
     "01k7pmv9rbnagv4wwvky6h97ak": {
@@ -44181,12 +45378,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 417,
-        "short": 218
+        "lees": 429,
+        "short": 220
       },
       "actualPositions": {
-        "lees": 417,
-        "short": 218
+        "lees": 429,
+        "short": 220
       }
     },
     "01k7k3prk0rm6qjzvbp9gyevxz": {
@@ -44226,11 +45423,11 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 161,
+        "lees": 163,
         "short": 117
       },
       "actualPositions": {
-        "lees": 161,
+        "lees": 163,
         "short": 117
       }
     },
@@ -44267,12 +45464,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 854,
-        "short": 483
+        "lees": 879,
+        "short": 495
       },
       "actualPositions": {
-        "lees": 854,
-        "short": 483
+        "lees": 879,
+        "short": 495
       }
     },
     "01k7j7kckky4q9rkzk7btj3d04": {
@@ -44312,12 +45509,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 416,
-        "short": 217
+        "lees": 428,
+        "short": 219
       },
       "actualPositions": {
-        "lees": 416,
-        "short": 217
+        "lees": 428,
+        "short": 219
       }
     },
     "01k7j6p8a88r4t4zarr6pqya82": {
@@ -44358,12 +45555,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 160,
+        "lees": 162,
         "short": 116,
         "luchtig": 31
       },
       "actualPositions": {
-        "lees": 160,
+        "lees": 162,
         "short": 116,
         "luchtig": 31
       }
@@ -44402,10 +45599,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 741
+        "lees": 765
       },
       "actualPositions": {
-        "lees": 741
+        "lees": 765
       }
     },
     "01k7j6nyeb06gx7dcdxjaqp5ps": {
@@ -44442,10 +45639,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 601
+        "lees": 623
       },
       "actualPositions": {
-        "lees": 601
+        "lees": 623
       }
     },
     "01k7j6j6mdje8x3v1jt8hqaba4": {
@@ -44485,11 +45682,11 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 61,
+        "lees": 63,
         "short": 25
       },
       "actualPositions": {
-        "lees": 61,
+        "lees": 63,
         "short": 25
       }
     },
@@ -44572,10 +45769,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 600
+        "lees": 622
       },
       "actualPositions": {
-        "lees": 600
+        "lees": 622
       }
     },
     "01k79jpktendqfmctt5zh9rrxy": {
@@ -44614,10 +45811,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 599
+        "lees": 621
       },
       "actualPositions": {
-        "lees": 599
+        "lees": 621
       }
     },
     "01k79j7ef2nh8tmgv41f9k6az3": {
@@ -44657,11 +45854,11 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 159,
+        "lees": 161,
         "short": 115
       },
       "actualPositions": {
-        "lees": 159,
+        "lees": 161,
         "short": 115
       }
     },
@@ -44699,10 +45896,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 598
+        "lees": 620
       },
       "actualPositions": {
-        "lees": 598
+        "lees": 620
       }
     },
     "01k79j53ce8b15nrkktnb0hz2g": {
@@ -44740,12 +45937,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 597,
-        "luchtig": 131
+        "lees": 619,
+        "luchtig": 134
       },
       "actualPositions": {
-        "lees": 597,
-        "luchtig": 131
+        "lees": 619,
+        "luchtig": 134
       }
     },
     "01k79j3sbpnyfey0vh07484wts": {
@@ -44783,12 +45980,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 596,
-        "luchtig": 130
+        "lees": 618,
+        "luchtig": 133
       },
       "actualPositions": {
-        "lees": 596,
-        "luchtig": 130
+        "lees": 618,
+        "luchtig": 133
       }
     },
     "01k72r1jf868qpymm1gf2zwces": {
@@ -44825,10 +46022,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 595
+        "lees": 617
       },
       "actualPositions": {
-        "lees": 595
+        "lees": 617
       }
     },
     "01k72r0j3bseajxttfvvytz2vt": {
@@ -44865,10 +46062,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 594
+        "lees": 616
       },
       "actualPositions": {
-        "lees": 594
+        "lees": 616
       }
     },
     "01k72qy7j5511yee7tvcwrch9f": {
@@ -44908,11 +46105,11 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 162,
+        "lees": 164,
         "short": 118
       },
       "actualPositions": {
-        "lees": 162,
+        "lees": 164,
         "short": 118
       }
     },
@@ -44953,11 +46150,11 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 60,
+        "lees": 62,
         "short": 24
       },
       "actualPositions": {
-        "lees": 60,
+        "lees": 62,
         "short": 24
       }
     },
@@ -44993,10 +46190,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 853
+        "lees": 878
       },
       "actualPositions": {
-        "lees": 853
+        "lees": 878
       }
     },
     "01k72qvbmwd9xp0k233cv5qgw2": {
@@ -45077,13 +46274,13 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 415,
-        "short": 216,
+        "lees": 427,
+        "short": 218,
         "luchtig": 75
       },
       "actualPositions": {
-        "lees": 415,
-        "short": 216,
+        "lees": 427,
+        "short": 218,
         "luchtig": 75
       }
     },
@@ -45119,10 +46316,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 852
+        "lees": 877
       },
       "actualPositions": {
-        "lees": 852
+        "lees": 877
       }
     },
     "01k6fz5rsg2srv5tpaxg4nwz0y": {
@@ -45157,10 +46354,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 897
+        "lees": 922
       },
       "actualPositions": {
-        "lees": 897
+        "lees": 922
       }
     },
     "01k5r4d6q3vkqnk8tn09k2eqrd": {
@@ -45353,10 +46550,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 324
+        "lees": 335
       },
       "actualPositions": {
-        "lees": 324
+        "lees": 335
       }
     },
     "01k4z6fmjcf1ffwdqjh2hf4j5k": {
@@ -45509,10 +46706,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 593
+        "lees": 615
       },
       "actualPositions": {
-        "lees": 593
+        "lees": 615
       }
     },
     "01k4hz4tpj7wyg13z1mrad20g8": {
@@ -45552,11 +46749,11 @@ window.TOP_ARTICLE_PRIORITY = {
         "dutch"
       ],
       "positions": {
-        "lees": 592,
+        "lees": 614,
         "dutch": 18
       },
       "actualPositions": {
-        "lees": 592,
+        "lees": 614,
         "dutch": 18
       }
     },
@@ -45631,12 +46828,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 851,
-        "short": 482
+        "lees": 876,
+        "short": 494
       },
       "actualPositions": {
-        "lees": 851,
-        "short": 482
+        "lees": 876,
+        "short": 494
       }
     },
     "01k3wpyfpp0bc9yjaw7bstekjx": {
@@ -45673,10 +46870,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 591
+        "lees": 613
       },
       "actualPositions": {
-        "lees": 591
+        "lees": 613
       }
     },
     "01k3wpv85qh52sj9ffa8rrz1bm": {
@@ -45717,13 +46914,13 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 414,
-        "short": 215,
+        "lees": 426,
+        "short": 217,
         "luchtig": 74
       },
       "actualPositions": {
-        "lees": 414,
-        "short": 215,
+        "lees": 426,
+        "short": 217,
         "luchtig": 74
       }
     },
@@ -45765,12 +46962,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 59,
+        "lees": 61,
         "short": 23,
         "luchtig": 8
       },
       "actualPositions": {
-        "lees": 59,
+        "lees": 61,
         "short": 23,
         "luchtig": 8
       }
@@ -45809,10 +47006,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 325
+        "lees": 336
       },
       "actualPositions": {
-        "lees": 325
+        "lees": 336
       }
     },
     "01k2ysk13dwk1ftz5jvez1y54s": {
@@ -45890,11 +47087,11 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 323,
+        "lees": 334,
         "luchtig": 55
       },
       "actualPositions": {
-        "lees": 323,
+        "lees": 334,
         "luchtig": 55
       }
     },
@@ -45932,10 +47129,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 58
+        "lees": 60
       },
       "actualPositions": {
-        "lees": 58
+        "lees": 60
       }
     },
     "01k2p37kkgn4hk8dn1qxb870qd": {
@@ -45976,12 +47173,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 158,
+        "lees": 160,
         "short": 114,
         "luchtig": 30
       },
       "actualPositions": {
-        "lees": 158,
+        "lees": 160,
         "short": 114,
         "luchtig": 30
       }
@@ -46021,12 +47218,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 590,
-        "luchtig": 129
+        "lees": 612,
+        "luchtig": 132
       },
       "actualPositions": {
-        "lees": 590,
-        "luchtig": 129
+        "lees": 612,
+        "luchtig": 132
       }
     },
     "01k0c5nyx4q6rc2159tm58632q": {
@@ -46061,10 +47258,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 850
+        "lees": 875
       },
       "actualPositions": {
-        "lees": 850
+        "lees": 875
       }
     },
     "01k0787yxz912x1kgykz88ngts": {
@@ -46102,11 +47299,11 @@ window.TOP_ARTICLE_PRIORITY = {
         "dutch"
       ],
       "positions": {
-        "lees": 157,
+        "lees": 159,
         "dutch": 5
       },
       "actualPositions": {
-        "lees": 157,
+        "lees": 159,
         "dutch": 5
       }
     },
@@ -46183,12 +47380,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 944,
-        "short": 534
+        "lees": 971,
+        "short": 546
       },
       "actualPositions": {
-        "lees": 944,
-        "short": 534
+        "lees": 971,
+        "short": 546
       }
     },
     "01jzy0xx9bjk00qxnqctjshbm7": {
@@ -46226,12 +47423,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 811,
-        "short": 448
+        "lees": 836,
+        "short": 460
       },
       "actualPositions": {
-        "lees": 811,
-        "short": 448
+        "lees": 836,
+        "short": 460
       }
     },
     "01jzwt59ntrbztk0p3f62y5ch6": {
@@ -46264,10 +47461,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 986
+        "lees": 1013
       },
       "actualPositions": {
-        "lees": 986
+        "lees": 1013
       }
     },
     "01jzmk1agxw641yh3b3tv2szzv": {
@@ -46307,11 +47504,11 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 156,
+        "lees": 158,
         "short": 113
       },
       "actualPositions": {
-        "lees": 156,
+        "lees": 158,
         "short": 113
       }
     },
@@ -46349,14 +47546,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 943,
-        "short": 533,
-        "luchtig": 233
+        "lees": 970,
+        "short": 545,
+        "luchtig": 238
       },
       "actualPositions": {
-        "lees": 943,
-        "short": 533,
-        "luchtig": 233
+        "lees": 970,
+        "short": 545,
+        "luchtig": 238
       }
     },
     "01jzcewgkt8vr8w5y9c16rq55v": {
@@ -46393,10 +47590,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 322
+        "lees": 333
       },
       "actualPositions": {
-        "lees": 322
+        "lees": 333
       }
     },
     "01jz37xephe1y33mze30r9cr16": {
@@ -46435,14 +47632,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 849,
-        "short": 481,
-        "luchtig": 199
+        "lees": 874,
+        "short": 493,
+        "luchtig": 204
       },
       "actualPositions": {
-        "lees": 849,
-        "short": 481,
-        "luchtig": 199
+        "lees": 874,
+        "short": 493,
+        "luchtig": 204
       }
     },
     "01jz08nhqrpfqsgm5c62dpcq3w": {
@@ -46550,12 +47747,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 985,
-        "luchtig": 253
+        "lees": 1012,
+        "luchtig": 258
       },
       "actualPositions": {
-        "lees": 985,
-        "luchtig": 253
+        "lees": 1012,
+        "luchtig": 258
       }
     },
     "01jvczv0xt002cjqyry0966s20": {
@@ -46592,14 +47789,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 942,
-        "short": 532,
-        "luchtig": 232
+        "lees": 969,
+        "short": 544,
+        "luchtig": 237
       },
       "actualPositions": {
-        "lees": 942,
-        "short": 532,
-        "luchtig": 232
+        "lees": 969,
+        "short": 544,
+        "luchtig": 237
       }
     },
     "01jvajbknykyp0g0rgns58p80k": {
@@ -46677,12 +47874,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 589,
-        "luchtig": 128
+        "lees": 611,
+        "luchtig": 131
       },
       "actualPositions": {
-        "lees": 589,
-        "luchtig": 128
+        "lees": 611,
+        "luchtig": 131
       }
     },
     "01jkh2yf7hahdnt87t68w0f1f5": {
@@ -46722,11 +47919,11 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 155,
+        "lees": 157,
         "short": 112
       },
       "actualPositions": {
-        "lees": 155,
+        "lees": 157,
         "short": 112
       }
     },
@@ -46765,12 +47962,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 413,
-        "short": 214
+        "lees": 425,
+        "short": 216
       },
       "actualPositions": {
-        "lees": 413,
-        "short": 214
+        "lees": 425,
+        "short": 216
       }
     },
     "01jkh2xxjf9pw3j0kkgtww5chq": {
@@ -46808,12 +48005,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 412,
-        "short": 213
+        "lees": 424,
+        "short": 215
       },
       "actualPositions": {
-        "lees": 412,
-        "short": 213
+        "lees": 424,
+        "short": 215
       }
     },
     "01jkh2wm4v4j610egp7kxf4m8k": {
@@ -46939,12 +48136,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 154,
+        "lees": 156,
         "short": 111,
         "luchtig": 29
       },
       "actualPositions": {
-        "lees": 154,
+        "lees": 156,
         "short": 111,
         "luchtig": 29
       }
@@ -46987,12 +48184,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 153,
+        "lees": 155,
         "short": 110,
         "luchtig": 28
       },
       "actualPositions": {
-        "lees": 153,
+        "lees": 155,
         "short": 110,
         "luchtig": 28
       }
@@ -47032,11 +48229,11 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 57,
+        "lees": 59,
         "short": 22
       },
       "actualPositions": {
-        "lees": 57,
+        "lees": 59,
         "short": 22
       }
     },
@@ -47117,11 +48314,11 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 56,
+        "lees": 58,
         "short": 21
       },
       "actualPositions": {
-        "lees": 56,
+        "lees": 58,
         "short": 21
       }
     },
@@ -47276,11 +48473,11 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 55,
+        "lees": 57,
         "short": 20
       },
       "actualPositions": {
-        "lees": 55,
+        "lees": 57,
         "short": 20
       }
     },
@@ -47321,12 +48518,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 411,
-        "short": 212
+        "lees": 423,
+        "short": 214
       },
       "actualPositions": {
-        "lees": 411,
-        "short": 212
+        "lees": 423,
+        "short": 214
       }
     },
     "01j7x2qde4aaycp5jtn9b23jqh": {
@@ -47403,13 +48600,13 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 410,
-        "short": 211,
+        "lees": 422,
+        "short": 213,
         "luchtig": 73
       },
       "actualPositions": {
-        "lees": 410,
-        "short": 211,
+        "lees": 422,
+        "short": 213,
         "luchtig": 73
       }
     },
@@ -47490,11 +48687,11 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 152,
+        "lees": 154,
         "short": 109
       },
       "actualPositions": {
-        "lees": 152,
+        "lees": 154,
         "short": 109
       }
     },
@@ -47573,11 +48770,11 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 54,
+        "lees": 56,
         "short": 19
       },
       "actualPositions": {
-        "lees": 54,
+        "lees": 56,
         "short": 19
       }
     },
@@ -47617,13 +48814,13 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 321,
-        "short": 197,
+        "lees": 332,
+        "short": 199,
         "luchtig": 54
       },
       "actualPositions": {
-        "lees": 321,
-        "short": 197,
+        "lees": 332,
+        "short": 199,
         "luchtig": 54
       }
     },
@@ -47665,13 +48862,13 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 409,
-        "short": 210,
+        "lees": 421,
+        "short": 212,
         "luchtig": 72
       },
       "actualPositions": {
-        "lees": 409,
-        "short": 210,
+        "lees": 421,
+        "short": 212,
         "luchtig": 72
       }
     },
@@ -47795,12 +48992,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 408,
-        "short": 209
+        "lees": 420,
+        "short": 211
       },
       "actualPositions": {
-        "lees": 408,
-        "short": 209
+        "lees": 420,
+        "short": 211
       }
     },
     "01j422azr657ycnf0hesy20s0f": {
@@ -47961,12 +49158,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 151,
+        "lees": 153,
         "short": 108,
         "luchtig": 27
       },
       "actualPositions": {
-        "lees": 151,
+        "lees": 153,
         "short": 108,
         "luchtig": 27
       }
@@ -48324,11 +49521,11 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 150,
+        "lees": 152,
         "short": 107
       },
       "actualPositions": {
-        "lees": 150,
+        "lees": 152,
         "short": 107
       }
     },
@@ -48366,10 +49563,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 320
+        "lees": 331
       },
       "actualPositions": {
-        "lees": 320
+        "lees": 331
       }
     },
     "01j29d3vyb3g8h2zwk7t0gcyrs": {
@@ -49726,10 +50923,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 319
+        "lees": 330
       },
       "actualPositions": {
-        "lees": 319
+        "lees": 330
       }
     },
     "01hy0x9z444qrsk7bb6acc5svn": {
@@ -49769,11 +50966,11 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 149,
+        "lees": 151,
         "short": 106
       },
       "actualPositions": {
-        "lees": 149,
+        "lees": 151,
         "short": 106
       }
     },
@@ -49813,13 +51010,13 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 407,
-        "short": 208,
+        "lees": 419,
+        "short": 210,
         "luchtig": 71
       },
       "actualPositions": {
-        "lees": 407,
-        "short": 208,
+        "lees": 419,
+        "short": 210,
         "luchtig": 71
       }
     }
