@@ -1,6 +1,6 @@
 // Automatisch gegenereerd door scripts/build-data.ts — niet handmatig bewerken.
 window.TOP_ARTICLES = {
-  "generatedAt": "2026-09-04T08:36:09.191Z",
+  "generatedAt": "2026-09-04T11:27:39.043Z",
   "families": [
     {
       "id": "algemeen",
@@ -11274,6 +11274,7 @@ window.TOP_ARTICLES = {
               "bestMoment": "leergierig",
               "tags": [
                 "arts & culture",
+                "light-reading",
                 "linked-from-readwise",
                 "personal growth & life philosophy",
                 "philosophy"
@@ -20347,6 +20348,59 @@ window.TOP_ARTICLES = {
     "items": [
       {
         "position": null,
+        "id": "01m1nws0v0cg5b29exkhvvhy80",
+        "title": "Two Hours a Week",
+        "author": "Greg Pallone: The Long Ride",
+        "siteName": "Greg Pallone: The Long Ride",
+        "category": "article",
+        "language": null,
+        "readingTime": "5 mins",
+        "readingMinutes": 5,
+        "wordCount": 1185,
+        "publishedDate": "2026-09-01",
+        "savedDate": "2026-09-04T09:42:40.158000+00:00",
+        "imageUrl": "https://substackcdn.com/image/fetch/$s_!5CX1!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F2be13771-7a09-445a-9450-68cc5541acf2_4288x2848.jpeg",
+        "sourceUrl": "https://gregpallone.substack.com/p/two-hours-a-week",
+        "readwiseUrl": "https://read.readwise.io/read/01m1nws0v0cg5b29exkhvvhy80",
+        "summary": "Harvard just published its largest-ever study on strength training and longevity. Here is what it found — and what it means for the rest of us.",
+        "whyRead": "Raakt je interesse in gezondheid en wetenschap: een groot onderzoek maakt concreet hoeveel weerstandstraining naast aerobe beweging met een lang leven te maken heeft. De meerwaarde zit in de combinatie van dose-response-cijfers, praktische vertaling en expliciete onderzoeksbeperkingen; het is geen individueel trainingsadvies.",
+        "bestMoment": "leergierig",
+        "tags": [
+          "health & wellness",
+          "science"
+        ],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01m1nqm60pgjd8t038epgyyskx",
+        "title": "de woestijn",
+        "author": "Lisa | hartwerk",
+        "siteName": "Substack",
+        "category": "email",
+        "language": null,
+        "readingTime": "3 mins",
+        "readingMinutes": 3,
+        "wordCount": 588,
+        "publishedDate": "2026-09-04",
+        "savedDate": "2026-09-04T08:12:38.806000+00:00",
+        "imageUrl": null,
+        "sourceUrl": "mailto:reader-forwarded-email/037b7bbd8be4193860859e9d83649bb6",
+        "readwiseUrl": "https://read.readwise.io/read/01m1nqm60pgjd8t038epgyyskx",
+        "summary": "Ik realiseer me ineens dat ik verdwaald ben. En dat ik altijd al verdwaald ben geweest.",
+        "whyRead": "Raakt je interesse in persoonlijke groei en levensfilosofie: dit Nederlandstalige, beeldende essay geeft taal aan richtingloosheid, het verlangen naar houvast en emotionele verharding. De meerwaarde zit in de woestijnmetafoor, waarin niet gevonden worden uiteindelijk verschuift naar het omarmen van de eigen innerlijke ruimte.",
+        "bestMoment": "reflectief",
+        "tags": [
+          "arts & culture",
+          "light-reading",
+          "personal growth & life philosophy"
+        ],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
         "id": "01m1nbt8x3a1cgym3xj65xn8hm",
         "title": "People pleasen is egoïstisch",
         "author": "Intentioneel Leven",
@@ -20482,7 +20536,8 @@ window.TOP_ARTICLES = {
         "tags": [
           "arts & culture",
           "history",
-          "learning & meta-learning"
+          "learning & meta-learning",
+          "light-reading"
         ],
         "alsoIn": [],
         "memberships": []
@@ -20509,6 +20564,7 @@ window.TOP_ARTICLES = {
         "tags": [
           "arts & culture",
           "environment & sustainability",
+          "light-reading",
           "personal growth & life philosophy"
         ],
         "alsoIn": [],
@@ -20686,6 +20742,7 @@ window.TOP_ARTICLES = {
         "bestMoment": "analytisch",
         "tags": [
           "arts & culture",
+          "light-reading",
           "personal growth & life philosophy",
           "philosophy"
         ],
@@ -21620,6 +21677,7 @@ window.TOP_ARTICLES = {
         "bestMoment": "leergierig",
         "tags": [
           "arts & culture",
+          "light-reading",
           "linked-from-readwise",
           "personal growth & life philosophy",
           "philosophy"
