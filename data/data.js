@@ -1,6 +1,6 @@
 // Automatisch gegenereerd door scripts/build-data.ts — niet handmatig bewerken.
 window.TOP_ARTICLES = {
-  "generatedAt": "2026-09-05T08:09:18.400Z",
+  "generatedAt": "2026-09-05T12:08:05.140Z",
   "families": [
     {
       "id": "algemeen",
@@ -11336,6 +11336,7 @@ window.TOP_ARTICLES = {
                 "arts & culture",
                 "fiction",
                 "history",
+                "light-reading",
                 "linked-from-readwise"
               ],
               "alsoIn": []
@@ -21294,6 +21295,7 @@ window.TOP_ARTICLES = {
           "arts & culture",
           "fiction",
           "history",
+          "light-reading",
           "linked-from-readwise"
         ],
         "alsoIn": [
