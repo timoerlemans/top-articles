@@ -56,6 +56,14 @@ test("plant ordinale en afgeleide toplijsttags vanuit dezelfde scorepositie", ()
   assert.equal(validatePriorityTagPlan(plan), true);
 });
 
+test("plant development-reeksen met ordinale tags en toplijsttags", () => {
+  const plan = buildPriorityTagPlan([doc("dev", { tags: { "software development": {}, "front-end development": {} } })], []);
+  const change = changeFor(plan, "dev");
+  for (const tag of ["software-development-001", "front-end-development-001", "aaa-software-development-top-10", "aaa-software-development-top-100", "aaa-front-end-development-top-10", "aaa-front-end-development-top-100"]) {
+    assert.ok(change.add.includes(tag), `ontbrekende tag: ${tag}`);
+  }
+});
+
 test("maakt top-10 binnenkomers en vertrekkers per lijst zichtbaar", () => {
   const base = buildPriorityTagPlan([], [], { generatedAt: "2026-08-16T10:00:00.000Z" });
   const plan = {

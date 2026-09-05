@@ -129,6 +129,19 @@ test("een boek met de tag scrum hoort nog steeds strikt alleen in boek", () => {
   );
 });
 
+test("classificeert development-onderwerptags in hun eigen reeksen", () => {
+  for (const tag of ["software development", "software-development", "programming & software"]) {
+    assert.deepEqual(sequencesForDocument(document({ tags: { [tag]: {} } })), ["lees", "software-development"]);
+  }
+  for (const tag of ["front-end development", "frontend development", "front end development", "front-end-development"]) {
+    assert.deepEqual(sequencesForDocument(document({ tags: { [tag]: {} } })), ["lees", "front-end-development"]);
+  }
+  assert.deepEqual(sequencesForDocument(document({ tags: { "software development": {}, "front-end development": {} } })),
+    ["lees", "software-development", "front-end-development"]);
+  assert.deepEqual(sequencesForDocument(document({ category: "epub", tags: { "software development": {}, "front-end development": {} } })), ["boek"]);
+  assert.deepEqual(sequencesForDocument(document({ tags: { "professional development": {} } })), ["lees"]);
+});
+
 test("gebruikt language en expliciete taaltags zonder tekstheuristiek", () => {
   assert.equal(detectDutch(document({ language: "nl", title: "The history of ideas" })), true);
   assert.equal(detectDutch(document({ language: "en", tags: { dutch: {} }, title: "De geschiedenis" })), false);

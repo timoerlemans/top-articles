@@ -31,6 +31,13 @@ Handmatige correcties gelden in alle lijsten tegelijk en staan in
 }
 ```
 
+De onderwerpreeksen Software development en Front-end development hebben elk eigen top-10- en
+top-100-lijsten en genummerde tags (`software-development-001` en `front-end-development-001`).
+Software development herkent `software development`, `software-development` en `programming & software`.
+Front-end development herkent `front-end development`, `frontend development`, `front end development`
+en `front-end-development`. Een document met tags voor beide onderwerpen komt in beide reeksen;
+boeken blijven uitsluitend in de boekenreeks.
+
 De build wijzigt nooit Reader-tags. Nederlandse taalherkenning bepaalt alleen de afzonderlijke
 Dutch-reeksen en levert geen scorepunten op. Tagwijzigingen verlopen uitsluitend via een aparte
 proefrun en synchronisatie na expliciete bevestiging.

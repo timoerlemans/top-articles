@@ -129,9 +129,12 @@ registerServiceWorker();
     luchtig: "Luchtig",
     "luchtig-nederlands": "Luchtig NL",
     scrum: "Scrum",
+    "software-development": "Software development",
+    "front-end-development": "Front-end development",
   };
   const PRIORITY_SEQUENCE_DISPLAY_ORDER: readonly PrioritySequence[] = [
     "lees", "boek", "pdf", "video", "dutch", "short", "short-dutch", "luchtig", "luchtig-nederlands", "scrum",
+    "software-development", "front-end-development",
   ];
   const PRIORITY_SEQUENCES = PRIORITY_SEQUENCE_DISPLAY_ORDER.map((id) => ({ id, label: PRIORITY_SEQUENCE_LABELS[id] }));
 

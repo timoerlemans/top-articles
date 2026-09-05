@@ -80,6 +80,8 @@ const LIGHT_TOPIC_TAGS = new Set([
 ]);
 
 const SCRUM_TAGS = new Set(["scrum", "agile"]);
+const SOFTWARE_DEVELOPMENT_TAGS = new Set(["software development", "software-development", "programming & software"]);
+const FRONT_END_DEVELOPMENT_TAGS = new Set(["front-end development", "frontend development", "front end development", "front-end-development"]);
 
 const COMPONENT_KEYS = [
   "kerninteresse",
@@ -225,6 +227,12 @@ export function sequencesForDocument(doc: PriorityDocument): PrioritySequence[] 
     }
     if ([...tags].some((tag) => SCRUM_TAGS.has(tag))) {
       sequences.add("scrum");
+    }
+    if ([...tags].some((tag) => SOFTWARE_DEVELOPMENT_TAGS.has(tag))) {
+      sequences.add("software-development");
+    }
+    if ([...tags].some((tag) => FRONT_END_DEVELOPMENT_TAGS.has(tag))) {
+      sequences.add("front-end-development");
     }
   }
   return SEQUENCE_ORDER.filter((sequence) => sequences.has(sequence));
