@@ -1,6 +1,6 @@
 // Automatisch gegenereerd door scripts/build-data.ts — niet handmatig bewerken.
 window.TOP_ARTICLES = {
-  "generatedAt": "2026-09-05T12:08:47.890Z",
+  "generatedAt": "2026-09-05T12:12:05.182Z",
   "families": [
     {
       "id": "algemeen",
