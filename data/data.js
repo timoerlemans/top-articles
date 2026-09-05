@@ -1,6 +1,6 @@
 // Automatisch gegenereerd door scripts/build-data.ts — niet handmatig bewerken.
 window.TOP_ARTICLES = {
-  "generatedAt": "2026-09-04T11:27:39.043Z",
+  "generatedAt": "2026-09-05T08:09:18.400Z",
   "families": [
     {
       "id": "algemeen",
@@ -2283,7 +2283,6 @@ window.TOP_ARTICLES = {
               ],
               "alsoIn": [
                 "aaa-short-top-100",
-                "aaa-luchtig-top-10",
                 "aaa-luchtig-top-100"
               ]
             },
@@ -5859,7 +5858,6 @@ window.TOP_ARTICLES = {
               ],
               "alsoIn": [
                 "aaa-top-100",
-                "aaa-luchtig-top-10",
                 "aaa-luchtig-top-100"
               ]
             },
@@ -9056,6 +9054,39 @@ window.TOP_ARTICLES = {
             },
             {
               "position": 4,
+              "id": "01m1p5faqxp49r9sfcfk83yaf1",
+              "title": "Notes On Camp",
+              "author": "Susan Sontag",
+              "siteName": null,
+              "category": "pdf",
+              "language": null,
+              "readingTime": "23 mins",
+              "readingMinutes": 23,
+              "wordCount": 6052,
+              "publishedDate": "2010-12-15",
+              "savedDate": "2026-09-04T12:14:39.870000+00:00",
+              "imageUrl": "https://readwise-assets.s3.amazonaws.com/media/reader/parsed_document_assets/404275264/5-bMlWginkGORvDlFXjHeqC2WSjLFNwO2gcXBv5A9OM-cove_Cz7nYf6.png",
+              "sourceUrl": "http://www.marginalutility.org/wp-content/uploads/2011/03/05.-Sontag-Notes-on-Camp-60KB.pdf",
+              "readwiseUrl": "https://read.readwise.io/read/01m1p5faqxp49r9sfcfk83yaf1",
+              "summary": null,
+              "whyRead": "Sontags canonieke essay beschrijft camp als een zelfstandige esthetische sensibiliteit: liefde voor artificie, overdrijving, stijl en mislukte ernst. Het is relevant voor je interesse in kunst- en cultuurinterpretatie omdat het laat zien hoe smaak niet alleen oordeelt, maar ook nieuwe manieren van genieten en begrijpen opent.",
+              "bestMoment": "geïnspireerd",
+              "tags": [
+                "arts & culture",
+                "light-reading",
+                "linked-from-readwise",
+                "pdf-top-10",
+                "philosophy",
+                "sociology & social structures"
+              ],
+              "alsoIn": [
+                "aaa-luchtig-top-100",
+                "pdf-top-10",
+                "pdf-top-100"
+              ]
+            },
+            {
+              "position": 5,
               "id": "01khr5h2d75yj0yt1v6seck4nt",
               "title": "On the compulsion to make art",
               "author": "Henrik Karlsson",
@@ -9085,7 +9116,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 5,
+              "position": 6,
               "id": "01kmbp17grppjmpxqfsq4z3zy7",
               "title": "Sucker",
               "author": "McKay Coppins",
@@ -9115,7 +9146,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 6,
+              "position": 7,
               "id": "01kyxa2yd57szp13ha57708606",
               "title": "Your Book Review: The Epic Of Gilgamesh",
               "author": "Astral Codex Ten",
@@ -9145,7 +9176,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 7,
+              "position": 8,
               "id": "01m1eqhrt9fmjkb1mr1scdv9r4",
               "title": "There's a place for everyone",
               "author": "Adam Mastroianni",
@@ -9176,7 +9207,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 8,
+              "position": 9,
               "id": "01k3wpn5ak9v4pmtc85h462cav",
               "title": "On the pleasure of reading private notebooks",
               "author": "Henrik Karlsson",
@@ -9207,7 +9238,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 9,
+              "position": 10,
               "id": "01k7qbgbanjkbvetnkfd47vkrz",
               "title": "How I wrote \"Looking for Alice\"",
               "author": "Henrik Karlsson",
@@ -9230,37 +9261,6 @@ window.TOP_ARTICLES = {
                 "learning & meta-learning",
                 "light-reading",
                 "tools & workflows"
-              ],
-              "alsoIn": [
-                "aaa-top-100",
-                "aaa-short-top-100",
-                "aaa-luchtig-top-100"
-              ]
-            },
-            {
-              "position": 10,
-              "id": "01k8v9cz0ah2x4qddn265e4cnt",
-              "title": "Everything Is Television",
-              "author": "Derek Thompson",
-              "siteName": "derekthompson.org",
-              "category": "article",
-              "language": "Engels",
-              "readingTime": "9 mins",
-              "readingMinutes": 9,
-              "wordCount": 2278,
-              "publishedDate": "2025-10-10",
-              "savedDate": "2025-10-31T17:47:36.501000+00:00",
-              "imageUrl": "https://substackcdn.com/image/fetch/$s_!XE9X!,w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F707c7327-31a7-4ed2-ab2d-af440e3b45ea_878x861.jpeg",
-              "sourceUrl": "https://www.derekthompson.org/p/why-everything-became-television",
-              "readwiseUrl": "https://read.readwise.io/read/01k8v9cz0ah2x4qddn265e4cnt",
-              "summary": "Media of all kinds are turning into nonstop streams of short videos like television.  \nThis shift, driven by algorithms and platforms, favors distraction, spectacle, and shallow attention.  \nAs everything adopts TV’s grammar, our solitude, deep focus, and inward meaning are eroded.",
-              "whyRead": "Derek Thompson over hoe alle content zich transformeert naar televisie-logica – scherpe mediatheorie.",
-              "bestMoment": "kritisch",
-              "tags": [
-                "arts & culture",
-                "light-reading",
-                "philosophy",
-                "sociology & inequality"
               ],
               "alsoIn": [
                 "aaa-top-100",
@@ -9374,6 +9374,39 @@ window.TOP_ARTICLES = {
             },
             {
               "position": 4,
+              "id": "01m1p5faqxp49r9sfcfk83yaf1",
+              "title": "Notes On Camp",
+              "author": "Susan Sontag",
+              "siteName": null,
+              "category": "pdf",
+              "language": null,
+              "readingTime": "23 mins",
+              "readingMinutes": 23,
+              "wordCount": 6052,
+              "publishedDate": "2010-12-15",
+              "savedDate": "2026-09-04T12:14:39.870000+00:00",
+              "imageUrl": "https://readwise-assets.s3.amazonaws.com/media/reader/parsed_document_assets/404275264/5-bMlWginkGORvDlFXjHeqC2WSjLFNwO2gcXBv5A9OM-cove_Cz7nYf6.png",
+              "sourceUrl": "http://www.marginalutility.org/wp-content/uploads/2011/03/05.-Sontag-Notes-on-Camp-60KB.pdf",
+              "readwiseUrl": "https://read.readwise.io/read/01m1p5faqxp49r9sfcfk83yaf1",
+              "summary": null,
+              "whyRead": "Sontags canonieke essay beschrijft camp als een zelfstandige esthetische sensibiliteit: liefde voor artificie, overdrijving, stijl en mislukte ernst. Het is relevant voor je interesse in kunst- en cultuurinterpretatie omdat het laat zien hoe smaak niet alleen oordeelt, maar ook nieuwe manieren van genieten en begrijpen opent.",
+              "bestMoment": "geïnspireerd",
+              "tags": [
+                "arts & culture",
+                "light-reading",
+                "linked-from-readwise",
+                "pdf-top-10",
+                "philosophy",
+                "sociology & social structures"
+              ],
+              "alsoIn": [
+                "aaa-luchtig-top-10",
+                "pdf-top-10",
+                "pdf-top-100"
+              ]
+            },
+            {
+              "position": 5,
               "id": "01khr5h2d75yj0yt1v6seck4nt",
               "title": "On the compulsion to make art",
               "author": "Henrik Karlsson",
@@ -9403,7 +9436,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 5,
+              "position": 6,
               "id": "01kmbp17grppjmpxqfsq4z3zy7",
               "title": "Sucker",
               "author": "McKay Coppins",
@@ -9433,7 +9466,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 6,
+              "position": 7,
               "id": "01kyxa2yd57szp13ha57708606",
               "title": "Your Book Review: The Epic Of Gilgamesh",
               "author": "Astral Codex Ten",
@@ -9463,7 +9496,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 7,
+              "position": 8,
               "id": "01m1eqhrt9fmjkb1mr1scdv9r4",
               "title": "There's a place for everyone",
               "author": "Adam Mastroianni",
@@ -9494,7 +9527,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 8,
+              "position": 9,
               "id": "01k3wpn5ak9v4pmtc85h462cav",
               "title": "On the pleasure of reading private notebooks",
               "author": "Henrik Karlsson",
@@ -9525,7 +9558,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 9,
+              "position": 10,
               "id": "01k7qbgbanjkbvetnkfd47vkrz",
               "title": "How I wrote \"Looking for Alice\"",
               "author": "Henrik Karlsson",
@@ -9556,7 +9589,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 10,
+              "position": 11,
               "id": "01k8v9cz0ah2x4qddn265e4cnt",
               "title": "Everything Is Television",
               "author": "Derek Thompson",
@@ -9582,12 +9615,11 @@ window.TOP_ARTICLES = {
               ],
               "alsoIn": [
                 "aaa-top-100",
-                "aaa-short-top-100",
-                "aaa-luchtig-top-10"
+                "aaa-short-top-100"
               ]
             },
             {
-              "position": 11,
+              "position": 12,
               "id": "01kvarejkjdc6y2cjp2d0ewgkd",
               "title": "The Desecration of Man - Say No to Nietzsche",
               "author": "R.W. Richey from We Are Not Saved",
@@ -9617,7 +9649,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 12,
+              "position": 13,
               "id": "01kvcgsfekyqqc5b9t3nmrge8m",
               "title": "Hoera, het is Waterloodag!",
               "author": "De Ongelooflijke",
@@ -9654,7 +9686,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 13,
+              "position": 14,
               "id": "01kvh7ec1tezr2vy9bqgsm6an4",
               "title": "Is There a Science of Writing?",
               "author": "Carl Hendrick from The Learning Dispatch",
@@ -9684,7 +9716,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 14,
+              "position": 15,
               "id": "01kvjbgrqsftb77gs496c0p12t",
               "title": "If the First Apocalypse Doesn’t Get You, the Second One Will",
               "author": "Miller’s Book Review 📚",
@@ -9714,7 +9746,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 15,
+              "position": 16,
               "id": "01kvwwdq8bhy9m3x614gmtn41d",
               "title": "Andrew Stanton: Storytelling Secrets from the Writer of Toy Story 5",
               "author": "David Perell",
@@ -9743,7 +9775,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 16,
+              "position": 17,
               "id": "01kwfk5q2rtfm9enggaybd07zq",
               "title": "David Sedaris: Lessons From Decades of Writing",
               "author": "David Perell",
@@ -9772,7 +9804,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 17,
+              "position": 18,
               "id": "01kxy1qnae4npandc4x9mv4aw0",
               "title": "To Understand Elon Musk, You Have to Understand This ’60s Sci-Fi Novel",
               "author": "jacobin.com",
@@ -9803,7 +9835,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 18,
+              "position": 19,
               "id": "01kycfev2jfr2v5x5pqr2scxz7",
               "title": "How to Win a Billion Dollars and Ruin Your Life",
               "author": "Miller’s Book Review 📚",
@@ -9834,7 +9866,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 19,
+              "position": 20,
               "id": "01kz9q1etvj82wyb44kpaj3r3c",
               "title": "Mark Forsyth: Stop Writing Like They Taught You in School",
               "author": "David Perell",
@@ -9860,7 +9892,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 20,
+              "position": 21,
               "id": "01m059tzwnjdjtmteh5jpa7bxz",
               "title": "Pleasure Spots",
               "author": "orwellfoundation.com",
@@ -9889,7 +9921,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 21,
+              "position": 22,
               "id": "01m0d9rt9b3a66m87wr62cjx7g",
               "title": "Elif Shafak and Robert Macfarlane: Two Novelists Have an Epic Conversation",
               "author": "David Perell",
@@ -9915,7 +9947,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 22,
+              "position": 23,
               "id": "01m0f29337jsph1jwqq3njdbkc",
               "title": "In de bioscoop blijkt dat we eer belangrijker vinden dan je zou denken",
               "author": "nrc.nl",
@@ -9945,7 +9977,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 23,
+              "position": 24,
               "id": "01m0nepq34v9hbtcm1z1rcjn1e",
               "title": "The Madness of Yankee Doodle",
               "author": "papyrusrampant.substack.com",
@@ -9974,7 +10006,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 24,
+              "position": 25,
               "id": "01m0nepry7rbgqh62vdcjr37a7",
               "title": "Plays, Pageants, and the Origin of the “First Thanksgiving” Story",
               "author": "smileandgun.wordpress.com",
@@ -10003,7 +10035,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 25,
+              "position": 26,
               "id": "01m0wzs6b6z6rgc49ey22ec31m",
               "title": "How Our Leisure Time Got Monetized",
               "author": "Ted Gioia",
@@ -10031,7 +10063,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 26,
+              "position": 27,
               "id": "01m14nb3gbkc1d5zt0q1rbjpsv",
               "title": "Hoe Martin Luther King ‘I Have a Dream’ improviseerde",
               "author": "De Ongelooflijke",
@@ -10060,7 +10092,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 27,
+              "position": 28,
               "id": "01j421m304fbn5rwfh0a9bpzp3",
               "title": "Fear as a Game",
               "author": "Cheri Lucas Rowlands",
@@ -10087,7 +10119,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 28,
+              "position": 29,
               "id": "01jkgy1x7yacy66ys284ddq8yw",
               "title": "Why do most popular science books suck?",
               "author": "Erik Hoel",
@@ -10114,7 +10146,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 29,
+              "position": 30,
               "id": "01jkh2vn8hfm2b2ys7eefgrw9h",
               "title": "Advice for a friend who wants to start a blog",
               "author": "Henrik Karlsson",
@@ -10141,7 +10173,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 30,
+              "position": 31,
               "id": "01k2p37kkgn4hk8dn1qxb870qd",
               "title": "How to Teach Textual Criticism To Fifth-Graders",
               "author": "nephew jonathan",
@@ -10168,7 +10200,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 31,
+              "position": 32,
               "id": "01k7j6p8a88r4t4zarr6pqya82",
               "title": "Writing as communion",
               "author": "Henrik Karlsson",
@@ -10195,7 +10227,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 32,
+              "position": 33,
               "id": "01k7qbg40qvbeqszm5nr2wpmyz",
               "title": "Dostoevsky as lover",
               "author": "Henrik Karlsson",
@@ -10222,7 +10254,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 33,
+              "position": 34,
               "id": "01k9p5pa1athkkdm2j2nxfhf26",
               "title": "A Modest Proposal for Life After Death",
               "author": "Brian Klaas",
@@ -10249,7 +10281,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 34,
+              "position": 35,
               "id": "01kc53cvnp2fqe09v8vmbym5mx",
               "title": "🎓 On Teleportation & Understanding via Writing",
               "author": "Eleanor Konik",
@@ -10276,7 +10308,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 35,
+              "position": 36,
               "id": "01kchxs5s6y615eazs4hhqgm7h",
               "title": "A list of books and essays that I love",
               "author": "Henrik Karlsson",
@@ -10303,7 +10335,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 36,
+              "position": 37,
               "id": "01kf916mwdxkdydep3wwes334d",
               "title": "Alessandro Manzoni’s “The Betrothed,” Reconsidered | The New Yorker",
               "author": "Joan Acocella",
@@ -10330,7 +10362,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 37,
+              "position": 38,
               "id": "01kj5a1mnca55881qyj3jzm64b",
               "title": "The Library of Lost Maps",
               "author": "Brian Klaas",
@@ -10357,7 +10389,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 38,
+              "position": 39,
               "id": "01kmsrjw7b8q2k5fb547bxerv2",
               "title": "The Death of Spotify: Why Streaming is Minutes Away From Being Obsolete",
               "author": "Joel Gouveia",
@@ -10384,7 +10416,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 39,
+              "position": 40,
               "id": "01kn4c4mv24kk2vjxqcn0y6efj",
               "title": "Days are enormous",
               "author": "Henrik Karlsson",
@@ -10411,7 +10443,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 40,
+              "position": 41,
               "id": "01krm5d32nfhsa44jvbq4s6nny",
               "title": "📚 Fear, War, & God: Post-Rationalist Philosophy... in SPAAAAAACE",
               "author": "Eleanor Konik",
@@ -10439,7 +10471,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 41,
+              "position": 42,
               "id": "01ksspmmztsr8pd0zq5k2pcnke",
               "title": "The Wrong Fight over AI and Writing",
               "author": "Miller’s Book Review 📚",
@@ -10465,7 +10497,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 42,
+              "position": 43,
               "id": "01kt9sbc2hgkymt9expprgkgdp",
               "title": "In de Apocalyps is de vrouw een teken van hoop",
               "author": "De Ongelooflijke",
@@ -10498,7 +10530,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 43,
+              "position": 44,
               "id": "01kw5smp76n3se61jv02c1zzx9",
               "title": "Why Writing Feels So Unnatural",
               "author": "A Mug of Insights",
@@ -10525,7 +10557,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 44,
+              "position": 45,
               "id": "01kbdw3w0vrspnk8yzrfxypq51",
               "title": "The Quiet Collapse of Reading—and the Only Real Solution",
               "author": "Joel J Miller",
@@ -10552,7 +10584,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 45,
+              "position": 46,
               "id": "01m059vdx0s3ff8xbj5eh1y9x3",
               "title": "Some Thoughts on the Common Toad",
               "author": "orwellfoundation.com",
@@ -10578,7 +10610,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 46,
+              "position": 47,
               "id": "01m059vn29v5bjn4nbhe0efecg",
               "title": "The Proletarian Writer",
               "author": "orwellfoundation.com",
@@ -10605,7 +10637,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 47,
+              "position": 48,
               "id": "01m059vqea4t02392f7364m2jr",
               "title": "The Spike",
               "author": "orwellfoundation.com",
@@ -10632,7 +10664,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 48,
+              "position": 49,
               "id": "01m0d55v1be0bcsmx7xczarntk",
               "title": "That’s the Deal: What Rankles You Most About AI Prose?",
               "author": "Miller’s Book Review 📚",
@@ -10658,7 +10690,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 49,
+              "position": 50,
               "id": "01m0nepgcz9yg6btdcstdnp60r",
               "title": "The Extravagant Details of Biography",
               "author": "papyrusrampant.substack.com",
@@ -10685,7 +10717,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 50,
+              "position": 51,
               "id": "01m0sqyj8vvqmt4r5dn463bak3",
               "title": "Humanists Have Done Nothing Wrong",
               "author": "Defector",
@@ -10712,7 +10744,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 51,
+              "position": 52,
               "id": "01m13bydjdttq1jnhmnt13k22z",
               "title": "Ladies of the ’80s",
               "author": "Lisa Whittington-Hill",
@@ -10739,7 +10771,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 52,
+              "position": 53,
               "id": "01m1971j070aamhztgxr4k22jg",
               "title": "A Serious House | The Point Magazine",
               "author": "James Chappel",
@@ -10766,7 +10798,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 53,
+              "position": 54,
               "id": "01m19n648x8mjc6v2bnx74cpnk",
               "title": "The Golden Rule for Becoming a Better Writer",
               "author": "T. R. Napper",
@@ -10792,7 +10824,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 54,
+              "position": 55,
               "id": "01j60ew3kgknk776nphjxvz9ph",
               "title": "Envy: the Vestige of a Miserable World",
               "author": "Brian Chau",
@@ -10819,7 +10851,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 55,
+              "position": 56,
               "id": "01k2p3vgyxd3egkpvn5y6r2d7n",
               "title": "Genetics and Eugenics in Frank Herbert’s Dune-verse",
               "author": "Gwern Branwen",
@@ -10846,7 +10878,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 56,
+              "position": 57,
               "id": "01k7shq7r399ekxt6pavj3t3aa",
               "title": "Could autism explain Virginia Woolf’s unique voice? Her extraordinary eye for detail and connections suggests it might",
               "author": "Aeon Magazine",
@@ -10873,7 +10905,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 57,
+              "position": 58,
               "id": "01kec58fp6ep87fc5qnf8swc20",
               "title": "Being creative requires taking risks",
               "author": "Henrik Karlsson",
@@ -10900,7 +10932,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 58,
+              "position": 59,
               "id": "01knaa433mz4v5rtkbat739xjg",
               "title": "How I learned to just fucking write",
               "author": "kieran cutting",
@@ -10927,7 +10959,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 59,
+              "position": 60,
               "id": "01kqqh8gp2nh0d0c859h61yths",
               "title": "The Society of the Spectacle",
               "author": "Guy Debord",
@@ -10960,7 +10992,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 60,
+              "position": 61,
               "id": "01ksftktanvm593t6d9871cmm4",
               "title": "This week: a long walk on a beach, and ancient Roman graffiti.",
               "author": "Tom Scott",
@@ -10987,7 +11019,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 61,
+              "position": 62,
               "id": "01kxn6sfvvpwapf12145w6x7sv",
               "title": "Essays In Support of the Null Hypothesis",
               "author": "Tommy Blanchard from Cognitive Wonderland",
@@ -11014,7 +11046,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 62,
+              "position": 63,
               "id": "01kxy1qkwpt5xkmvy06pz6bqvr",
               "title": "Technology and Barbarism",
               "author": "amazon.com",
@@ -11042,7 +11074,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 63,
+              "position": 64,
               "id": "01m059szgmq8b5egbkgk1xe1rd",
               "title": "Arthur Koestler",
               "author": "orwellfoundation.com",
@@ -11069,7 +11101,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 64,
+              "position": 65,
               "id": "01m059v21gaqg3ya0m36r03km4",
               "title": "Politics and the English Language",
               "author": "orwellfoundation.com",
@@ -11096,7 +11128,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 65,
+              "position": 66,
               "id": "01m059v4r9jj9vzx30nn7cs3sr",
               "title": "Politics vs. Literature: An examination of Gulliver’s Travels",
               "author": "orwellfoundation.com",
@@ -11123,7 +11155,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 66,
+              "position": 67,
               "id": "01m03b0vhwd52bhh3rdjhdafv2",
               "title": "Why I Write",
               "author": "The Orwell Foundation",
@@ -11150,7 +11182,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 67,
+              "position": 68,
               "id": "01m07zpehf3761wmknmsknqwsa",
               "title": "How Books Can Build a World and Shape a Culture",
               "author": "Miller’s Book Review 📚",
@@ -11176,7 +11208,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 68,
+              "position": 69,
               "id": "01m10x27gxeffqvq180jqm7zpe",
               "title": "Shirley Clarke Lived Her Art to the Fullest | The New Yorker",
               "author": "Richard Brody",
@@ -11202,7 +11234,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 69,
+              "position": 70,
               "id": "01m196kp6abxyvdb4z7st8fvxd",
               "title": "Plato and the Poets",
               "author": "Boston Review",
@@ -11228,7 +11260,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 70,
+              "position": 71,
               "id": "01m1d8cg3509zyq9bww08azyze",
               "title": "Whither Writing (A Ten-Year Retrospective)",
               "author": "R.W. Richey from We Are Not Saved",
@@ -11254,7 +11286,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 71,
+              "position": 72,
               "id": "01m1kpjvpkpjy10c0zp09d0hty",
               "title": "How to be useless",
               "author": "psyche.co",
@@ -11282,7 +11314,34 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 72,
+              "position": 73,
+              "id": "01m1pyvabgbtrpfw7ep29vv3n4",
+              "title": "Your Book Review: The Tale Of Genji",
+              "author": "Astral Codex Ten",
+              "siteName": "Substack",
+              "category": "email",
+              "language": null,
+              "readingTime": "37 mins",
+              "readingMinutes": 37,
+              "wordCount": 9711,
+              "publishedDate": "2026-09-04",
+              "savedDate": "2026-09-04T19:38:07.088000+00:00",
+              "imageUrl": null,
+              "sourceUrl": "mailto:reader-forwarded-email/efffcb0f349bfa4d430a1d61eaba84cf",
+              "readwiseUrl": "https://read.readwise.io/read/01m1pyvabgbtrpfw7ep29vv3n4",
+              "summary": "[This is one of the finalists in the 2026 book review contest, written by an ACX reader who will remain anonymous until after voting is done.",
+              "whyRead": "Raakt je interesse in literatuur, geschiedenis, cultuur en vertalen; deze leeservaring maakt zichtbaar hoeveel context nodig is om The Tale of Genji te begrijpen.",
+              "bestMoment": "analytisch",
+              "tags": [
+                "arts & culture",
+                "fiction",
+                "history",
+                "linked-from-readwise"
+              ],
+              "alsoIn": []
+            },
+            {
+              "position": 74,
               "id": "01hv97p0qv2rsh6attfeq439nj",
               "title": "Working in Public",
               "author": "Awesome.",
@@ -11309,7 +11368,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 73,
+              "position": 75,
               "id": "01j6011fk1gbvn0q705v2wmmah",
               "title": "Five Unconventional Economic Systems as Imagined in SFF",
               "author": "Eleanor Konik",
@@ -11336,7 +11395,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 74,
+              "position": 76,
               "id": "01j6w5apk81pg023z5m7xd6v5b",
               "title": "Mihai Rosca's Reviews > King, Warrior, Magician, Lover: Rediscovering the Archetypes of the Mature Masculine",
               "author": "Robert L. Moore",
@@ -11363,7 +11422,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 75,
+              "position": 77,
               "id": "01k3wpv85qh52sj9ffa8rrz1bm",
               "title": "Chromatic Rebel #2: why is the West so color-minimalist?",
               "author": "María Castro Jiménez",
@@ -11390,7 +11449,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 76,
+              "position": 78,
               "id": "01k722dxfn8b3bkt741xrmf0a2",
               "title": "📚 Neat Stuff I Read in September 2025",
               "author": "Eleanor Konik",
@@ -11416,7 +11475,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 77,
+              "position": 79,
               "id": "01k7tw6vrkda5hp5070ra2wqm6",
               "title": "Five SFF Stories That Shed Light on Obscure History",
               "author": "Eleanor Konik",
@@ -11443,7 +11502,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 78,
+              "position": 80,
               "id": "01k8b4z89x7bjhpp69rbbemnet",
               "title": "Tales from Toddlerhood",
               "author": "Tim Urban",
@@ -11470,7 +11529,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 79,
+              "position": 81,
               "id": "01kaecmp565yrjt89z6qhc3ydq",
               "title": "Why Did Wealth Stop Building Beautiful Things?",
               "author": "The Culturist",
@@ -11497,7 +11556,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 80,
+              "position": 82,
               "id": "01kaen0f4sd6p0wsrv0fw7320f",
               "title": "🌲 The Best \"Gamified X\" App is a GAME",
               "author": "Eleanor Konik",
@@ -11524,7 +11583,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 81,
+              "position": 83,
               "id": "01kc53chv8ebh5cygqaf76fwt0",
               "title": "🌲 Familiarity with the Western Canon is Surprisingly Reassuring",
               "author": "Eleanor Konik",
@@ -11552,7 +11611,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 82,
+              "position": 84,
               "id": "01kcfca0wrxztgk2sqe31khzbr",
               "title": "Now Watch Me Read | The New Yorker",
               "author": "Brady Brickner-Wood",
@@ -11579,7 +11638,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 83,
+              "position": 85,
               "id": "01kqy8wyp8f7z6nqcby6ajbnm4",
               "title": "The world reveals itself to those who travel by foot",
               "author": "Henrik Karlsson",
@@ -11606,7 +11665,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 84,
+              "position": 86,
               "id": "01krnyr9cxy0rhqzt148zy5p99",
               "title": "Good conversations have lots of doorknobs",
               "author": "Adam Mastroianni",
@@ -11633,7 +11692,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 85,
+              "position": 87,
               "id": "01krqmh4tqphysje012p59hxec",
               "title": "Novels Tell Us Who We Are",
               "author": "Carl Hendrick from The Learning Dispatch",
@@ -11660,7 +11719,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 86,
+              "position": 88,
               "id": "01ks2w2tk5ar80phj3pj90bjsw",
               "title": "The Guardian's 100 Best English-Language Books and the Funny Thing about Lists",
               "author": "Jared Henderson from Commonplace Philosophy",
@@ -11687,7 +11746,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 87,
+              "position": 89,
               "id": "01ksa4rg8aaab5rf5v3x3xd1mb",
               "title": "Books I'm excited about",
               "author": "Charles Duhigg",
@@ -11714,7 +11773,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 88,
+              "position": 90,
               "id": "01ksatzj8qqdm55ebbkc4588ft",
               "title": "Short Reviews for May 2026",
               "author": "Evan Þ from Papyrus Rampant",
@@ -11741,7 +11800,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 89,
+              "position": 91,
               "id": "01ksgpayydne30egggw4npszj1",
               "title": "Annihilation – A (Very French) Biography of the \"Last Man\"",
               "author": "R.W. Richey from We Are Not Saved",
@@ -11768,7 +11827,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 90,
+              "position": 92,
               "id": "01ktejkb5739yv3ra0666qr32v",
               "title": "Poor Bastard: Henry Fielding’s Triumphant ‘Tom Jones’",
               "author": "Miller’s Book Review 📚",
@@ -11796,7 +11855,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 91,
+              "position": 93,
               "id": "01kvamre3nhre408596w2e8d3s",
               "title": "Candice Millard and the Revival of History as Literature",
               "author": "Miller’s Book Review 📚",
@@ -11822,7 +11881,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 92,
+              "position": 94,
               "id": "01kvwytrrghvckwz0stdxe2mgw",
               "title": "Week 15, 16, 17, 18: Zuid-Holland",
               "author": "Holly en Roos",
@@ -11849,7 +11908,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 93,
+              "position": 95,
               "id": "01kw4djwahhwy93y8hrkg48wmd",
               "title": "Literature: The Ultimate Answer to the Algorithm",
               "author": "Miller’s Book Review 📚",
@@ -11876,7 +11935,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 94,
+              "position": 96,
               "id": "01kw4zh122v8djscsxaaq42ke7",
               "title": "My Hugo Ballot 2: Best Novel & others",
               "author": "Evan Þ from Papyrus Rampant",
@@ -11903,7 +11962,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 95,
+              "position": 97,
               "id": "01kw9qrshp1ne8jsbwy0wqv2z6",
               "title": "How To Add Texture To Your Non-Fiction Writing",
               "author": "A Mug of Insights",
@@ -11930,7 +11989,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 96,
+              "position": 98,
               "id": "01kwpkn77cd2c8e0g3rppkq0q2",
               "title": "Fake World: Everything You Think Is a Lie",
               "author": "Miller’s Book Review 📚",
@@ -11957,7 +12016,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 97,
+              "position": 99,
               "id": "01kwreqfypckk54fws5c65whwp",
               "title": "Niemand wil het, toch doen we het allemaal",
               "author": "Jona van Loenen",
@@ -11990,7 +12049,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 98,
+              "position": 100,
               "id": "01kwvx3a3qze1p5e1yj36ejr6w",
               "title": "\"Everything, today, is to some extent the reflection of something else\"",
               "author": "Jared Henderson from Commonplace Philosophy",
@@ -12012,62 +12071,6 @@ window.TOP_ARTICLES = {
                 "fiction",
                 "light-reading",
                 "philosophy"
-              ],
-              "alsoIn": []
-            },
-            {
-              "position": 99,
-              "id": "01kwvzcp697n18jy871bj3rj77",
-              "title": "This week: bells! Plus a clever word game and a cursed font.",
-              "author": "Tom Scott",
-              "siteName": null,
-              "category": "email",
-              "language": null,
-              "readingTime": "3 mins",
-              "readingMinutes": 3,
-              "wordCount": 565,
-              "publishedDate": "2026-07-06",
-              "savedDate": "2026-07-06T15:05:19.306000+00:00",
-              "imageUrl": null,
-              "sourceUrl": "mailto:reader-forwarded-email/ef9d40736334c2c4fdc84c57986c2cb4",
-              "readwiseUrl": "https://read.readwise.io/read/01kwvzcp697n18jy871bj3rj77",
-              "summary": "And finally: one man fails repeatedly to guess the character. (Strong language.",
-              "whyRead": "Raakt je interesse in toegankelijke wetenschap, technologiecuriositeiten en lichte internetcultuur via Tom Scotts selectie van video's, puzzels en educatieve links. De meerwaarde is vooral serendipiteit: een paar losse ontdekkingen, geen diep essay.",
-              "bestMoment": "ontspannen",
-              "tags": [
-                "entertainment & pop culture",
-                "light-reading",
-                "science",
-                "technology"
-              ],
-              "alsoIn": []
-            },
-            {
-              "position": 100,
-              "id": "01kx66q5d0pg8whe75n7qr82td",
-              "title": "Count Binface and the Politics of Ridicule",
-              "author": "Brian Klaas",
-              "siteName": "Substack",
-              "category": "email",
-              "language": "Engels",
-              "readingTime": "8 mins",
-              "readingMinutes": 8,
-              "wordCount": 1940,
-              "publishedDate": "2026-07-10",
-              "savedDate": "2026-07-10T14:25:46.912000+00:00",
-              "imageUrl": null,
-              "sourceUrl": "mailto:reader-forwarded-email/7154c0dec7aab7aedef90cb1e3549036",
-              "readwiseUrl": "https://read.readwise.io/read/01kx66q5d0pg8whe75n7qr82td",
-              "summary": "Thanks for reading The Garden of Forking Paths. This edition is for everyone, but if you value my writing, please consider upgrading to a paid subscription for just $5/month or $50/year.",
-              "whyRead": "Raakt je interesse in politiek als cultuurvorm: Brian Klaas gebruikt Count Binface waarschijnlijk om spot, absurditeit en macht serieus te analyseren. De meerwaarde zit in ridicule als democratisch of populistisch instrument.",
-              "bestMoment": "ontspannen",
-              "tags": [
-                "arts & culture",
-                "current affairs & politics",
-                "later",
-                "light-reading",
-                "political philosophy",
-                "totalitarianism & fascism"
               ],
               "alsoIn": []
             }
@@ -15115,6 +15118,35 @@ window.TOP_ARTICLES = {
             },
             {
               "position": 73,
+              "id": "01m1q39qk4sszq3hzn43ttbnxy",
+              "title": "Style Tiles and How They Work",
+              "author": "alistapart.com",
+              "siteName": "A List Apart",
+              "category": "article",
+              "language": null,
+              "readingTime": "8 mins",
+              "readingMinutes": 8,
+              "wordCount": 1901,
+              "publishedDate": "2012-03-27",
+              "savedDate": "2026-09-04T20:55:53.700000+00:00",
+              "imageUrl": "https://i1.wp.com/alistapart.com/wp-content/uploads/2013/01/ALA347_styletiles_300.png?fit=1200%2C615&ssl=1",
+              "sourceUrl": "http://www.alistapart.com/articles/style-tiles-and-how-they-work/",
+              "readwiseUrl": "https://read.readwise.io/read/01m1q39qk4sszq3hzn43ttbnxy",
+              "summary": "How do you involve your client in a successful design process? Many of our processes date back to print design and advertising. It’s time we evolved our deliverables to make clients a more ac…",
+              "whyRead": "Raakt je kerninteresse in front-end software development via de wisselwerking tussen content, UX en techniek, en je bredere interesse in software development; style tiles bieden een concrete werkvorm om stakeholders vroeg te betrekken, voorkeuren te verhelderen en responsive ontwerp als systeem te bespreken.",
+              "bestMoment": "leergierig",
+              "tags": [
+                "agile",
+                "front-end software development",
+                "linked-from-readwise",
+                "professional development",
+                "software development",
+                "technology"
+              ],
+              "alsoIn": []
+            },
+            {
+              "position": 74,
               "id": "01kweww7axmq58ekx96xkj02jk",
               "title": "Seven Ways Scrum Masters Can Be More Effective",
               "author": "Scrum.org",
@@ -15139,7 +15171,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 74,
+              "position": 75,
               "id": "01kwexp5550gmx9jwcrafg7xd3",
               "title": "Empiricism",
               "author": "Scrum.org",
@@ -15165,7 +15197,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 75,
+              "position": 76,
               "id": "01kwexpevqvsnw5chhvec7vdc7",
               "title": "Tips for Joining a Scrum Team and Building Collaborative Relationships",
               "author": "Scrum.org",
@@ -15191,7 +15223,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 76,
+              "position": 77,
               "id": "01kwexpg90r86p63b5w5sd3910",
               "title": "Encouraging Collaborative Ways of Working in a Scrum Team",
               "author": "Scrum.org",
@@ -15217,7 +15249,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 77,
+              "position": 78,
               "id": "01kwexpw49qacd2hcbhg15tzcr",
               "title": "Frequently Asked Questions on Continuous Improvement for Scrum Masters",
               "author": "Scrum.org",
@@ -15243,7 +15275,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 78,
+              "position": 79,
               "id": "01m0kk41832n0tav3gjxdhask9",
               "title": "Agile is 25: Which Practices Still Work in 2026 and Which Don't?",
               "author": "vibhorchandel.com",
@@ -15267,7 +15299,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 79,
+              "position": 80,
               "id": "01m0kztar8p0q02aet41a6xn7w",
               "title": "Real World Agility EXPLAINED: Nick Brown’s Hard-Earned Lessons",
               "author": "Scrum Facilitators",
@@ -15295,7 +15327,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 80,
+              "position": 81,
               "id": "01m0phz54xkeck21gn6a362mbb",
               "title": "Are your PMs building reasoning silos?",
               "author": "Product Focus",
@@ -15320,7 +15352,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 81,
+              "position": 82,
               "id": "01m0pj0hcdzk57dgqrhngd08xm",
               "title": "How to Tell if Your Manager is Actually Good?",
               "author": "Gregor Ojstersek",
@@ -15345,7 +15377,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 82,
+              "position": 83,
               "id": "01m0pngsn5q8yqqrn2xq1w2hq5",
               "title": "To benefit from AI, your organization’s learning loops must evolve",
               "author": "uxdesign.cc",
@@ -15372,7 +15404,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 83,
+              "position": 84,
               "id": "01m0q9gdtbx4wrnvzc3zr6w7q3",
               "title": "Product Owner Anti-Patterns, and how Scrum Masters can help overcome those",
               "author": "vasco",
@@ -15398,7 +15430,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 84,
+              "position": 85,
               "id": "01m10p2ys6jtppvffmfvhv32pv",
               "title": "Product Owner Interview Questions for the Age of AI",
               "author": "Stefan Wolpers",
@@ -15423,7 +15455,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 85,
+              "position": 86,
               "id": "01m18j8bdgtzdjeq0cvb905xw8",
               "title": "Human judgment doesn't leave the software factory. It relocates.",
               "author": "addyosmani.com",
@@ -15451,7 +15483,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 86,
+              "position": 87,
               "id": "01m18v749bgejt8n415145znvv",
               "title": "Improve Team Collaboration with the Washing Instructions Canvas",
               "author": "fearlessculture.design",
@@ -15477,7 +15509,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 87,
+              "position": 88,
               "id": "01m1dmr0pbqvwrd7skef05r9q8",
               "title": "InfoQ Culture and Methods Trends Report - 2026",
               "author": "Vanessa Formicola",
@@ -15503,7 +15535,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 88,
+              "position": 89,
               "id": "01m1kppm13bn0d0w70hxcjf9tw",
               "title": "Happiness Metric",
               "author": "scrumbook.org.datasenter.no",
@@ -15530,7 +15562,34 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 89,
+              "position": 90,
+              "id": "01m1p73a3z76hwhn4t9qqvpdch",
+              "title": "The Single-Page-App Morality Play",
+              "author": "baldurbjarnason.com",
+              "siteName": "baldurbjarnason.com",
+              "category": "article",
+              "language": null,
+              "readingTime": "15 mins",
+              "readingMinutes": 15,
+              "wordCount": 3929,
+              "publishedDate": "2021-09-06",
+              "savedDate": "2026-09-04T12:43:03.167000+00:00",
+              "imageUrl": "https://www.baldurbjarnason.com/icon.png",
+              "sourceUrl": "https://www.baldurbjarnason.com/2021/single-page-app-morality-play/",
+              "readwiseUrl": "https://read.readwise.io/read/01m1p73a3z76hwhn4t9qqvpdch",
+              "summary": "Progress in web development is meaningless if nobody can sustain it.",
+              "whyRead": "Raakt je interesse in front-end software development; Raakt je interesse in technologie én agile team- en organisatieontwikkeling, met directe relevantie voor je werk als Scrum Master. De meerwaarde is dat dit essay een SPA/MPA-keuze herkadert als een vraag over scope, managementkwaliteit en herstelcapaciteit van teams.",
+              "bestMoment": "analytisch",
+              "tags": [
+                "agile",
+                "front-end software development",
+                "linked-from-readwise",
+                "software development"
+              ],
+              "alsoIn": []
+            },
+            {
+              "position": 91,
               "id": "01ktp2kyqfw4gmnvgcrkt7faxv",
               "title": "Self-Managing Teams | Scrum.org",
               "author": "scrum.org",
@@ -15557,7 +15616,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 90,
+              "position": 92,
               "id": "01ktp2mzvjaxpymkgdyhw1wehh",
               "title": "Leadership Styles",
               "author": "Scrum.org",
@@ -15584,7 +15643,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 91,
+              "position": 93,
               "id": "01kwexp7111x57fyty213vtvwn",
               "title": "Applying the Scrum Values",
               "author": "Scrum.org",
@@ -15610,7 +15669,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 92,
+              "position": 94,
               "id": "01kwexp8bshzmz4w7y2nspmx7a",
               "title": "The Scrum Team",
               "author": "Scrum.org",
@@ -15636,7 +15695,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 93,
+              "position": 95,
               "id": "01kwexpa8272rzzb4wxq2c97fe",
               "title": "The Scrum Events",
               "author": "Scrum.org",
@@ -15662,7 +15721,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 94,
+              "position": 96,
               "id": "01kwexpbm8djp73dgn7ymt74bj",
               "title": "The Scrum Artifacts",
               "author": "Scrum.org",
@@ -15688,7 +15747,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 95,
+              "position": 97,
               "id": "01kwexpd63h7mhqsfywqrv4438",
               "title": "Self-Managing Teams",
               "author": "Scrum.org",
@@ -15714,7 +15773,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 96,
+              "position": 98,
               "id": "01kwexphnkt0123qcrbqqb0fqe",
               "title": "What is Backlog Refinement?",
               "author": "Scrum.org",
@@ -15740,7 +15799,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 97,
+              "position": 99,
               "id": "01kwexpmq0g9a6hznvz9rgcxzn",
               "title": "Leadership Styles",
               "author": "Scrum.org",
@@ -15766,7 +15825,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 98,
+              "position": 100,
               "id": "01kwexpxk1pfnzhy9sz4435mhb",
               "title": "Scrum.org and Comparative Agility Offer New Scrum Master Improvement Self-Assessment",
               "author": "Scrum.org",
@@ -15782,58 +15841,6 @@ window.TOP_ARTICLES = {
               "sourceUrl": "https://www.scrum.org/resources/scrumorg-and-comparative-agility-offer-new-scrum-master-improvement-self-assessment",
               "readwiseUrl": "https://read.readwise.io/read/01kwexpxk1pfnzhy9sz4435mhb",
               "summary": "Scrum.org resource for growing as a Scrum Master. Combined content-only import where applicable.",
-              "whyRead": null,
-              "bestMoment": null,
-              "tags": [
-                "later",
-                "professional development",
-                "scrum"
-              ],
-              "alsoIn": []
-            },
-            {
-              "position": 99,
-              "id": "01kwf0yd7ctbprcferqdhtms0t",
-              "title": "Applying the Scrum Values",
-              "author": "Scrum.org",
-              "siteName": null,
-              "category": "article",
-              "language": "Engels",
-              "readingTime": "1 min",
-              "readingMinutes": 1,
-              "wordCount": 52,
-              "publishedDate": null,
-              "savedDate": "2026-07-01T14:22:20.909000+00:00",
-              "imageUrl": "",
-              "sourceUrl": "https://www.scrum.org/resources/applying-scrum-values#content-only",
-              "readwiseUrl": "https://read.readwise.io/read/01kwf0yd7ctbprcferqdhtms0t",
-              "summary": "Corrected content-only Scrum.org import.",
-              "whyRead": null,
-              "bestMoment": null,
-              "tags": [
-                "later",
-                "professional development",
-                "scrum"
-              ],
-              "alsoIn": []
-            },
-            {
-              "position": 100,
-              "id": "01kwf0yesfrexrg9r4n3ej8psg",
-              "title": "What is Backlog Refinement?",
-              "author": "Scrum.org",
-              "siteName": null,
-              "category": "article",
-              "language": "Engels",
-              "readingTime": "1 min",
-              "readingMinutes": 1,
-              "wordCount": 61,
-              "publishedDate": null,
-              "savedDate": "2026-07-01T14:22:22.511000+00:00",
-              "imageUrl": "",
-              "sourceUrl": "https://www.scrum.org/resources/what-backlog-refinement#content-only",
-              "readwiseUrl": "https://read.readwise.io/read/01kwf0yesfrexrg9r4n3ej8psg",
-              "summary": "Corrected content-only Scrum.org import.",
               "whyRead": null,
               "bestMoment": null,
               "tags": [
@@ -18428,6 +18435,39 @@ window.TOP_ARTICLES = {
             },
             {
               "position": 7,
+              "id": "01m1p5faqxp49r9sfcfk83yaf1",
+              "title": "Notes On Camp",
+              "author": "Susan Sontag",
+              "siteName": null,
+              "category": "pdf",
+              "language": null,
+              "readingTime": "23 mins",
+              "readingMinutes": 23,
+              "wordCount": 6052,
+              "publishedDate": "2010-12-15",
+              "savedDate": "2026-09-04T12:14:39.870000+00:00",
+              "imageUrl": "https://readwise-assets.s3.amazonaws.com/media/reader/parsed_document_assets/404275264/5-bMlWginkGORvDlFXjHeqC2WSjLFNwO2gcXBv5A9OM-cove_Cz7nYf6.png",
+              "sourceUrl": "http://www.marginalutility.org/wp-content/uploads/2011/03/05.-Sontag-Notes-on-Camp-60KB.pdf",
+              "readwiseUrl": "https://read.readwise.io/read/01m1p5faqxp49r9sfcfk83yaf1",
+              "summary": null,
+              "whyRead": "Sontags canonieke essay beschrijft camp als een zelfstandige esthetische sensibiliteit: liefde voor artificie, overdrijving, stijl en mislukte ernst. Het is relevant voor je interesse in kunst- en cultuurinterpretatie omdat het laat zien hoe smaak niet alleen oordeelt, maar ook nieuwe manieren van genieten en begrijpen opent.",
+              "bestMoment": "geïnspireerd",
+              "tags": [
+                "arts & culture",
+                "light-reading",
+                "linked-from-readwise",
+                "pdf-top-10",
+                "philosophy",
+                "sociology & social structures"
+              ],
+              "alsoIn": [
+                "aaa-luchtig-top-10",
+                "aaa-luchtig-top-100",
+                "pdf-top-100"
+              ]
+            },
+            {
+              "position": 8,
               "id": "01kj59ew6gb91gscpt8f7htspq",
               "title": "Motivation And Personality",
               "author": "Abraham H. Maslow",
@@ -18457,7 +18497,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 8,
+              "position": 9,
               "id": "01kr407cqy79xnqva0edrx5kj8",
               "title": "The Future Of Everything Is Lies, I Guess",
               "author": "Kyle Kingsbury",
@@ -18486,7 +18526,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 9,
+              "position": 10,
               "id": "01m0pngvw1pq8s12ss8bgyz5hj",
               "title": "2026 Survey Of The Product Management Profession",
               "author": "Product Focus",
@@ -18514,35 +18554,6 @@ window.TOP_ARTICLES = {
               "alsoIn": [
                 "aaa-scrum-top-10",
                 "aaa-scrum-top-100",
-                "pdf-top-100"
-              ]
-            },
-            {
-              "position": 10,
-              "id": "01jz08nhqrpfqsgm5c62dpcq3w",
-              "title": "De Prijs Van Gratis Internet",
-              "author": "David Redeker",
-              "siteName": "rathenau.nl",
-              "category": "pdf",
-              "language": null,
-              "readingTime": "2 hrs 54 mins",
-              "readingMinutes": 174,
-              "wordCount": 45924,
-              "publishedDate": "2025-05-27",
-              "savedDate": "2025-06-30T11:13:29.848000+00:00",
-              "imageUrl": "https://readwise-assets.s3.amazonaws.com/media/reader/parsed_document_assets/329804376/68XQp43i0P859PSA_2XOTuNPiiizlWN9HCEtghjm5cw-cove_ByuZBUC.png",
-              "sourceUrl": "https://www.rathenau.nl/sites/default/files/2025-06/De_prijs_van_gratis_internet_Rathenau_Instituut.pdf",
-              "readwiseUrl": "https://read.readwise.io/read/01jz08nhqrpfqsgm5c62dpcq3w",
-              "summary": null,
-              "whyRead": "Raakt je interesse in technologie, politieke filosofie en sociologie: dit recente Rathenau-rapport maakt de machts- en waardekwesties achter het ‘gratis’ internet concreet en vertaalt ze naar beleidskeuzes.",
-              "bestMoment": "kritisch",
-              "tags": [
-                "internet & platforms",
-                "pdf-top-10",
-                "programming & software",
-                "sociology & inequality"
-              ],
-              "alsoIn": [
                 "pdf-top-100"
               ]
             }
@@ -18740,6 +18751,39 @@ window.TOP_ARTICLES = {
             },
             {
               "position": 7,
+              "id": "01m1p5faqxp49r9sfcfk83yaf1",
+              "title": "Notes On Camp",
+              "author": "Susan Sontag",
+              "siteName": null,
+              "category": "pdf",
+              "language": null,
+              "readingTime": "23 mins",
+              "readingMinutes": 23,
+              "wordCount": 6052,
+              "publishedDate": "2010-12-15",
+              "savedDate": "2026-09-04T12:14:39.870000+00:00",
+              "imageUrl": "https://readwise-assets.s3.amazonaws.com/media/reader/parsed_document_assets/404275264/5-bMlWginkGORvDlFXjHeqC2WSjLFNwO2gcXBv5A9OM-cove_Cz7nYf6.png",
+              "sourceUrl": "http://www.marginalutility.org/wp-content/uploads/2011/03/05.-Sontag-Notes-on-Camp-60KB.pdf",
+              "readwiseUrl": "https://read.readwise.io/read/01m1p5faqxp49r9sfcfk83yaf1",
+              "summary": null,
+              "whyRead": "Sontags canonieke essay beschrijft camp als een zelfstandige esthetische sensibiliteit: liefde voor artificie, overdrijving, stijl en mislukte ernst. Het is relevant voor je interesse in kunst- en cultuurinterpretatie omdat het laat zien hoe smaak niet alleen oordeelt, maar ook nieuwe manieren van genieten en begrijpen opent.",
+              "bestMoment": "geïnspireerd",
+              "tags": [
+                "arts & culture",
+                "light-reading",
+                "linked-from-readwise",
+                "pdf-top-10",
+                "philosophy",
+                "sociology & social structures"
+              ],
+              "alsoIn": [
+                "aaa-luchtig-top-10",
+                "aaa-luchtig-top-100",
+                "pdf-top-10"
+              ]
+            },
+            {
+              "position": 8,
               "id": "01kj59ew6gb91gscpt8f7htspq",
               "title": "Motivation And Personality",
               "author": "Abraham H. Maslow",
@@ -18769,7 +18813,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 8,
+              "position": 9,
               "id": "01kr407cqy79xnqva0edrx5kj8",
               "title": "The Future Of Everything Is Lies, I Guess",
               "author": "Kyle Kingsbury",
@@ -18798,7 +18842,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 9,
+              "position": 10,
               "id": "01m0pngvw1pq8s12ss8bgyz5hj",
               "title": "2026 Survey Of The Product Management Profession",
               "author": "Product Focus",
@@ -18830,7 +18874,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 10,
+              "position": 11,
               "id": "01jz08nhqrpfqsgm5c62dpcq3w",
               "title": "De Prijs Van Gratis Internet",
               "author": "David Redeker",
@@ -18850,16 +18894,13 @@ window.TOP_ARTICLES = {
               "bestMoment": "kritisch",
               "tags": [
                 "internet & platforms",
-                "pdf-top-10",
                 "programming & software",
                 "sociology & inequality"
               ],
-              "alsoIn": [
-                "pdf-top-10"
-              ]
+              "alsoIn": []
             },
             {
-              "position": 11,
+              "position": 12,
               "id": "01kchxs90kb1qw9xk8rkcz4418",
               "title": "The Sovereignty Of Good",
               "author": "Iris Murdoch",
@@ -18885,7 +18926,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 12,
+              "position": 13,
               "id": "01kd1cajacdxy2n33rqkrn2rwq",
               "title": "Feminism, The Body, And The Machine",
               "author": "Wendell Berry",
@@ -18910,7 +18951,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 13,
+              "position": 14,
               "id": "01kd1canjswg2k0ey5cgtz3fa4",
               "title": "Why I Am Not Going To Buy A Computer",
               "author": "Wendell Berry",
@@ -18935,7 +18976,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 14,
+              "position": 15,
               "id": "01kd1cbjc3rzw7es7ef6rd6w6j",
               "title": "The Question Concerning Technology",
               "author": "Martin Heidegger",
@@ -18961,7 +19002,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 15,
+              "position": 16,
               "id": "01khqrhk77ztjy4d5gg6qsvwgr",
               "title": "Present Tense Technology",
               "author": "David F. Noble",
@@ -18986,7 +19027,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 16,
+              "position": 17,
               "id": "01ky7mcy22aeqm3pq5dr9a4rjz",
               "title": "Tell me about yourself: LLMs are aware of their learned behaviors",
               "author": "Jan Betley, Xuchan Bao, Martín Soto, Anna Sztyber-Betley, James Chua, Owain Evans",
@@ -19012,7 +19053,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 17,
+              "position": 18,
               "id": "01kysfkr91ztafaydtna4raq0r",
               "title": "The Origins Of Modern Color Science",
               "author": "J. D. Mollon",
@@ -19037,7 +19078,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 18,
+              "position": 19,
               "id": "01m0nksfcb49bfgcza8prxfhjm",
               "title": "The Question Concerning Technology",
               "author": "Martin Heidegger",
@@ -19063,7 +19104,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 19,
+              "position": 20,
               "id": "01m1ksck131wxjczgefy8dj5ef",
               "title": "A History Of Edison'S West Orange Laboratory 1887-1931",
               "author": "A.J. Millard",
@@ -19089,7 +19130,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 20,
+              "position": 21,
               "id": "01kbdw2b09ytrrk61f18889see",
               "title": "Building An AI-Native Engineering Team",
               "author": "OpenAI",
@@ -19114,7 +19155,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 21,
+              "position": 22,
               "id": "01m072ky3hd19z38m5kyk2fcqy",
               "title": "2607.29380",
               "author": "",
@@ -19139,7 +19180,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 22,
+              "position": 23,
               "id": "01m0pm37sr949rr3fgckwhf8m9",
               "title": "The Value Of Bosses",
               "author": "Edward P. Lazear, Kathryn L. Shaw, Christopher T. Stanton",
@@ -19164,7 +19205,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 23,
+              "position": 24,
               "id": "01kjnmsk3mmpayj96rpj8s8fv4",
               "title": "Evaluating AGENTS.md: Are Repository-Level Context Files Helpful for Coding Agents?",
               "author": "Thibaud Gloaguen; Niels Mündler; Mark Müller; Veselin Raychev; Martin Vechev",
@@ -19189,7 +19230,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 24,
+              "position": 25,
               "id": "01ky7jr6me70wqs7yfq5jchx8q",
               "title": "StoryScope: Investigating idiosyncrasies in AI fiction",
               "author": "Jenna Russell; Rishanth Rajendhran; Chau Minh Pham; Mohit Iyyer; John Wieting",
@@ -19217,7 +19258,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 25,
+              "position": 26,
               "id": "01ky7mcz01hrz2ja1p82wrk6jk",
               "title": "Self-Interpretability: LLMs Can Describe Complex Internal Processes that Drive Their Decisions",
               "author": "Dillon Plunkett; Adam Morris; Keerthi Reddy; Jorge Morales",
@@ -19243,7 +19284,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 26,
+              "position": 27,
               "id": "01ky7md09dzgwfh5dxnz8yjwbc",
               "title": "Simple Mechanistic Explanations for Out-Of-Context Reasoning",
               "author": "Atticus Wang; Joshua Engels; Oliver Clive-Griffin; Senthooran Rajamanoharan; Neel Nanda",
@@ -19270,7 +19311,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 27,
+              "position": 28,
               "id": "01ky7n1m4wjtsmccgtth3jjdt6",
               "title": "Language Models Don’t Always Say What They Think: Unfaithful Explanations in Chain-of-Thought Prompting",
               "author": "Miles Turpin, Julian Michael, Ethan Perez, Samuel R. Bowman",
@@ -19296,7 +19337,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 28,
+              "position": 29,
               "id": "01ky7n1ncnw133vvdvxahrfabp",
               "title": "Alignment faking in large language models",
               "author": "Ryan Greenblatt, Carson Denison, Benjamin Wright, Fabien Roger, Monte MacDiarmid, Sam Marks, Johannes Treutlein, Tim Belonax, Jack Chen, David Duvenaud, Akbir Khan, Julian Michael, Sören Mindermann, Ethan Perez, Linda Petrini, Jonathan Uesato, Jar...",
@@ -19322,7 +19363,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 29,
+              "position": 30,
               "id": "01ky7n1payjs47v58cfqd47w6z",
               "title": "Auditing language models for hidden objectives",
               "author": "Samuel Marks, Johannes Treutlein, Trenton Bricken, Jack Lindsey, Jonathan Marcus, Siddharth Mishra-Sharma, Daniel Ziegler, Emmanuel Ameisen, Joshua Batson, Tim Belonax, Samuel R. Bowman, Shan Carter, Brian Chen, Hoagy Cunningham, Carson Denison, F...",
@@ -19348,7 +19389,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 30,
+              "position": 31,
               "id": "01ky9h8ag25gnvtqwtnwk0m1k4",
               "title": "ImageNet Classification With Deep Convolutional Neural Networks",
               "author": "Alex Krizhevsky, Ilya Sutskever, Geoffrey E. Hinton",
@@ -19374,7 +19415,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 31,
+              "position": 32,
               "id": "01kz4nfbmznfm4bgfs8zac2x39",
               "title": "Position: LLMs Can’t Jump",
               "author": "Tom Zahavy",
@@ -19399,7 +19440,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 32,
+              "position": 33,
               "id": "01m0sr0dszke9gw7s9p7ap5s8a",
               "title": "Terra Incognita: The Economics Of A Shrinking World",
               "author": "Jesús Fernández-Villaverde, Patrick Norrick",
@@ -19424,7 +19465,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 33,
+              "position": 34,
               "id": "01m142c0ed04n2vxevdt56fdkg",
               "title": "Hitte-economie",
               "author": "Hans Stegeman, Joeri de Wilde, Ernst Hobma",
@@ -19451,7 +19492,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 34,
+              "position": 35,
               "id": "01m19n8bsh23gfhegpp12ny1a6",
               "title": "Mathematics in the age of AI",
               "author": "Terence Tao",
@@ -19477,7 +19518,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 35,
+              "position": 36,
               "id": "01ky7mstrf89d3yb8qgzjpajrb",
               "title": "The Standard Model from String Theory",
               "author": "© Fernando Marchesano, Gary Shiu, Timo Weigand",
@@ -20348,6 +20389,2974 @@ window.TOP_ARTICLES = {
     "items": [
       {
         "position": null,
+        "id": "01m1qrpd5gceesywwc4xbbs2d9",
+        "title": "Use of ALT texts in IMGs",
+        "author": "htmlhelp.com",
+        "siteName": "htmlhelp.com",
+        "category": "article",
+        "language": null,
+        "readingTime": "15 mins",
+        "readingMinutes": 15,
+        "wordCount": 3908,
+        "publishedDate": "1995-12-01",
+        "savedDate": "2026-09-05T03:09:49.104000+00:00",
+        "imageUrl": null,
+        "sourceUrl": "http://www.htmlhelp.com/feature/art3.htm",
+        "readwiseUrl": "https://read.readwise.io/read/01m1qrpd5gceesywwc4xbbs2d9",
+        "summary": "The Web Design Group's Feature Article, by Alan Flavell, discusses the proper use of ALT texts in IMGs.",
+        "whyRead": "Raakt je kerninteresse in front-end software development, vooral toegankelijke interfaces; dit uitvoerige stuk maakt duidelijk waarom alt-tekst een functioneel alternatief voor een afbeelding is en niet simpelweg een visuele beschrijving.",
+        "bestMoment": "analytisch",
+        "tags": [
+          "accessibility",
+          "front-end software development",
+          "linked-from-readwise",
+          "software development"
+        ],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01m1qrp6wdzy5kr91gg4hj37pt",
+        "title": "A tale of two viewports — part two",
+        "author": "quirksmode.org",
+        "siteName": "quirksmode.org",
+        "category": "article",
+        "language": null,
+        "readingTime": "9 mins",
+        "readingMinutes": 9,
+        "wordCount": 2282,
+        "publishedDate": null,
+        "savedDate": "2026-09-05T03:09:42.669000+00:00",
+        "imageUrl": null,
+        "sourceUrl": "http://www.quirksmode.org/mobile/viewports2.html",
+        "readwiseUrl": "https://read.readwise.io/read/01m1qrp6wdzy5kr91gg4hj37pt",
+        "summary": "Many thanks to Grace Kloba (Google), David Storey and Anne van Kesteren (Opera), Mike O'Malley (Microsoft), Kartikaya Gupta and George Staikos (RIM), and Mark Finkle (Mozilla) for reviewing earlier versions of this piece and providing me with valuable feedback.",
+        "whyRead": "Raakt je kerninteresse in front-end software development, vooral browser- en UI-architectuur; dit technische essay geeft een helder model voor het verschil tussen layout viewport en visual viewport op mobiele browsers.",
+        "bestMoment": "geconcentreerd",
+        "tags": [
+          "front-end software development",
+          "linked-from-readwise",
+          "software development",
+          "technology"
+        ],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01m1qrp1nvvb0t0wzyfwdws8kr",
+        "title": "A new Device Adaptation spec",
+        "author": "quirksmode.org",
+        "siteName": "quirksmode.org",
+        "category": "article",
+        "language": null,
+        "readingTime": "12 mins",
+        "readingMinutes": 12,
+        "wordCount": 3049,
+        "publishedDate": "2015-09-30",
+        "savedDate": "2026-09-05T03:09:37.339000+00:00",
+        "imageUrl": "https://quirksmode.org/pix/logo_quirksmode_twitter.png",
+        "sourceUrl": "http://www.quirksmode.org/blog/archives/2015/09/a_new_device_ad.html",
+        "readwiseUrl": "https://read.readwise.io/read/01m1qrp1nvvb0t0wzyfwdws8kr",
+        "summary": "Back in April I lamented numerous problems and vaguenesses in the current W3C Device Adaptation spec.",
+        "whyRead": "Raakt je kerninteresse in front-end software development, vooral browsergedrag, responsive design en toegankelijkheid; dit diepgaande stuk ontleedt de Device Adaptation-spec aan de hand van viewports, zoom, fixed positioning en device-pixel-ratio.",
+        "bestMoment": "geconcentreerd",
+        "tags": [
+          "front-end software development",
+          "linked-from-readwise",
+          "software development",
+          "technology"
+        ],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01m1qrnz1tyypq2d643p9jn0kn",
+        "title": "What Is Mobile-First Responsive Web Design?",
+        "author": "bradfrost.com",
+        "siteName": "Brad Frost",
+        "category": "article",
+        "language": null,
+        "readingTime": "6 mins",
+        "readingMinutes": 6,
+        "wordCount": 1574,
+        "publishedDate": "2011-06-19",
+        "savedDate": "2026-09-05T03:09:34.640000+00:00",
+        "imageUrl": "https://bradfrost.com/wp-content/uploads/2011/06/real_web.jpg",
+        "sourceUrl": "https://bradfrost.com/blog/web/mobile-first-responsive-web-design/",
+        "readwiseUrl": "https://read.readwise.io/read/01m1qrnz1tyypq2d643p9jn0kn",
+        "summary": "Mobile-First Responsive Web Design is a combination of philosophies/strategies, and ultimately boils down to a broader application of good ol' web best practices.  As the digital landscape gets increasingly complex, we need to design experiences that work across the entire spectrum of digital device",
+        "whyRead": "Raakt je kerninteresse in front-end software development via mobile-first, responsive design en progressive enhancement; dit toegankelijke stuk verbindt technische patronen aan content, gebruikerscontext en toekomstbestendige webarchitectuur.",
+        "bestMoment": "leergierig",
+        "tags": [
+          "front-end software development",
+          "linked-from-readwise",
+          "software development",
+          "technology"
+        ],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01m1qrnsp8504wg5mrzsdap9rh",
+        "title": "Of Sites and Apps",
+        "author": "tripleodeon.com",
+        "siteName": "tripleodeon.com",
+        "category": "article",
+        "language": null,
+        "readingTime": "10 mins",
+        "readingMinutes": 10,
+        "wordCount": 2605,
+        "publishedDate": "2011-09-11",
+        "savedDate": "2026-09-05T03:09:29.160000+00:00",
+        "imageUrl": null,
+        "sourceUrl": "http://tripleodeon.com/2011/09/of-sites-and-apps/",
+        "readwiseUrl": "https://read.readwise.io/read/01m1qrnsp8504wg5mrzsdap9rh",
+        "summary": "But does an established distinction exist between the two genres of experience? Not as far as I know.",
+        "whyRead": "Raakt je bredere interesse in software development en je kerninteresse in front-end architectuur; dit essay zoekt een bruikbare grens tussen website en webapp zonder te vervallen in een simplistische “one true way”.",
+        "bestMoment": "analytisch",
+        "tags": [
+          "front-end software development",
+          "linked-from-readwise",
+          "software development",
+          "technology"
+        ],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01m1qrnm32e32se2m8gp9bvx2m",
+        "title": "Content Strategy: The Philosophy of Data",
+        "author": "boxesandarrows.com",
+        "siteName": "Boxes and Arrows",
+        "category": "article",
+        "language": null,
+        "readingTime": "7 mins",
+        "readingMinutes": 7,
+        "wordCount": 1639,
+        "publishedDate": "2007-03-27",
+        "savedDate": "2026-09-05T03:09:23.426000+00:00",
+        "imageUrl": "https://boxesandarrows.com/files/banda/content-strategy-the/helloworld.jpg",
+        "sourceUrl": "http://www.boxesandarrows.com/view/content-strategy-the",
+        "readwiseUrl": "https://read.readwise.io/read/01m1qrnm32e32se2m8gp9bvx2m",
+        "summary": "As interactions proliferate, so does the content that supports them. Why should software professionals take a step back and examine their content from a philosophical perch? Rachel Lovinger takes a look at content strategy and the benefits of its perspectives.",
+        "whyRead": "Raakt je kerninteresse in front-end software development en je bredere interesse in software development; dit essay verbindt contentstrategie aan informatiearchitectuur, metadata, CMS’en en de vraag hoe digitale inhoud betekenisvol en herbruikbaar wordt.",
+        "bestMoment": "analytisch",
+        "tags": [
+          "front-end software development",
+          "linked-from-readwise",
+          "professional development",
+          "software development"
+        ],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01m1q5n7sb6ar9nn4wsdbg35g6",
+        "title": "The Discipline of Content Strategy",
+        "author": "alistapart.com",
+        "siteName": "A List Apart",
+        "category": "article",
+        "language": null,
+        "readingTime": "5 mins",
+        "readingMinutes": 5,
+        "wordCount": 1147,
+        "publishedDate": "2008-12-17",
+        "savedDate": "2026-09-04T21:37:07.883000+00:00",
+        "imageUrl": "https://i0.wp.com/alistapart.com/wp-content/uploads/2013/01/ALA274_consthalvorsen_300.png?fit=1200%2C719&ssl=1",
+        "sourceUrl": "https://www.alistapart.com/articles/thedisciplineofcontentstrategy",
+        "readwiseUrl": "https://read.readwise.io/read/01m1q5n7sb6ar9nn4wsdbg35g6",
+        "summary": "It’s time to stop pretending content is somebody else’s problem. If content strategy is all that stands between us and the next fix-it-later copy draft or beautifully polished but meani…",
+        "whyRead": "Raakt je kerninteresse in front-end software development via de wisselwerking tussen content, UX en techniek, en je bredere interesse in software development; dit essay maakt scherp waarom content geen restpost is maar een strategisch product met eigen verantwoordelijkheid, onderhoud en governance.",
+        "bestMoment": "leergierig",
+        "tags": [
+          "front-end software development",
+          "linked-from-readwise",
+          "professional development",
+          "software development",
+          "technology"
+        ],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01m1q5n57zhgtn6p8m3xawv0gd",
+        "title": "For a Future-Friendly Web",
+        "author": "bradfrost.com",
+        "siteName": "Brad Frost",
+        "category": "article",
+        "language": null,
+        "readingTime": "3 mins",
+        "readingMinutes": 3,
+        "wordCount": 776,
+        "publishedDate": "2011-10-02",
+        "savedDate": "2026-09-04T21:37:05.279000+00:00",
+        "imageUrl": "https://bradfrost.com/wp-content/uploads/2011/10/65.png",
+        "sourceUrl": "http://bradfrost.com/blog/web/for-a-future-friendly-web",
+        "readwiseUrl": "https://read.readwise.io/read/01m1q5n57zhgtn6p8m3xawv0gd",
+        "summary": "We need to start thinking and acting in a more future-friendly way when approaching web design. The diversity of web-enabled devices is increasing at an alarming rate. We have to rethink our content and the contexts in which our content is viewed.",
+        "whyRead": "Raakt je kerninteresse in front-end software development, vooral webtechniek en browsergedrag, en je bredere interesse in software development; dit visionaire stuk geeft een bruikbaar kader om ontwerpen voor onvoorspelbare apparaten, contexten en gebruikssituaties toekomstvriendelijk te maken.",
+        "bestMoment": "leergierig",
+        "tags": [
+          "front-end software development",
+          "linked-from-readwise",
+          "professional development",
+          "software development",
+          "technology"
+        ],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01m1q5n2mfrkmzrfsvf4zsc99q",
+        "title": "Responsive Web Design: Missing the Point",
+        "author": "bradfrost.com",
+        "siteName": "Brad Frost",
+        "category": "article",
+        "language": null,
+        "readingTime": "4 mins",
+        "readingMinutes": 4,
+        "wordCount": 942,
+        "publishedDate": "2012-03-19",
+        "savedDate": "2026-09-04T21:37:02.607000+00:00",
+        "imageUrl": "https://bradfrost.com/wp-content/uploads/2012/03/02.png",
+        "sourceUrl": "http://bradfrost.com/blog/web/responsive-web-design-missing-the-point",
+        "readwiseUrl": "https://read.readwise.io/read/01m1q5n2mfrkmzrfsvf4zsc99q",
+        "summary": "Alex Mangini touched on something I think is extremely important. In his post, Why Is Responsive Design Such a Big Deal? Seriously...You Tell Me, he asks:\n\nDo you really need to serve your “mobile” visitors a different layout based on your current content?\n\nShort answer: no. Like Jason Grigsby r",
+        "whyRead": "Raakt je kerninteresse in front-end software development, vooral webtechniek en browsergedrag, en je bredere interesse in software development; dit essay prikt door de hype rond responsive design heen en koppelt techniek aan het echte doel: bruikbare ervaringen in uiteenlopende contexten.",
+        "bestMoment": "leergierig",
+        "tags": [
+          "front-end software development",
+          "linked-from-readwise",
+          "professional development",
+          "software development",
+          "technology"
+        ],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01m1q5mmmtp4bapv8zdc44zcvg",
+        "title": "Put Your Content in My Pocket",
+        "author": "alistapart.com",
+        "siteName": "A List Apart",
+        "category": "article",
+        "language": null,
+        "readingTime": "13 mins",
+        "readingMinutes": 13,
+        "wordCount": 3333,
+        "publishedDate": "2007-09-10",
+        "savedDate": "2026-09-04T21:36:48.283000+00:00",
+        "imageUrl": "https://i0.wp.com/alistapart.com/wp-content/uploads/2012/07/iphone-viewing.jpg?fit=540%2C244&ssl=1",
+        "sourceUrl": "http://www.alistapart.com/articles/putyourcontentinmypocket",
+        "readwiseUrl": "https://read.readwise.io/read/01m1q5mmmtp4bapv8zdc44zcvg",
+        "summary": "In this first of two articles on bringing your content to the iPhone, the Iconfactory’s Craig Hockenberry offers detailed guidance on tuning your site for the hot new phone, and making change…",
+        "whyRead": "Raakt je kerninteresse in front-end software development, vooral toegankelijke interfaces, en je bredere interesse in software development; ondanks de verouderde iPhone-context blijft het stuk nuttig als geschiedenis van mobile-first denken en incrementeel verbeteren.",
+        "bestMoment": "leergierig",
+        "tags": [
+          "accessibility",
+          "front-end software development",
+          "linked-from-readwise",
+          "professional development",
+          "software development",
+          "technology"
+        ],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01m1q5mj32wmmzv65nwajcxaf3",
+        "title": "Pocket-Sized Design: Taking Your Website to the Small Screen",
+        "author": "alistapart.com",
+        "siteName": "A List Apart",
+        "category": "article",
+        "language": null,
+        "readingTime": "8 mins",
+        "readingMinutes": 8,
+        "wordCount": 1929,
+        "publishedDate": "2004-08-31",
+        "savedDate": "2026-09-04T21:36:45.664000+00:00",
+        "imageUrl": "https://s0.wp.com/_si/?t=eyJpbWciOiJodHRwczpcL1wvaTAud3AuY29tXC9hbGlzdGFwYXJ0LmNvbVwvd3AtY29udGVudFwvdXBsb2Fkc1wvMjAxOVwvMDNcL2Nyb3BwZWQtaWNvbl9uYXZpZ2F0aW9uLWxhdXJlbC01MTIuanBnP2ZpdD01MTIlMkM1MTImcXVhbGl0eT04OSZzc2w9MSIsInR4dCI6IkEgTGlzdCBBcGFydCIsInRlbXBsYXRlIjoiZWRnZSIsImZvbnQiOiIiLCJibG9nX2lkIjoxNTgwOTQ3MjZ9.0oP5GNj3vHR_yLJaXkr_AaWMuS_ItN_HPB-deU1HBBgMQ",
+        "sourceUrl": "http://www.alistapart.com/articles/pocket",
+        "readwiseUrl": "https://read.readwise.io/read/01m1q5mj32wmmzv65nwajcxaf3",
+        "summary": "Among the many websites that are out there, few are standards-compliant. Among those few, only a handful sport style sheets adjusted to the needs of handheld devices. Of those which do offer stylin…",
+        "whyRead": "Raakt je kerninteresse in front-end software development, vooral toegankelijke interfaces, en je bredere interesse in software development; dit oude handheld-essay biedt nog steeds een helder denkraam voor ontwerpen onder fysieke, netwerk- en interactiebeperkingen.",
+        "bestMoment": "leergierig",
+        "tags": [
+          "accessibility",
+          "front-end software development",
+          "linked-from-readwise",
+          "professional development",
+          "software development",
+          "technology"
+        ],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01m1q5m9vhm08fmy9zy1fz09cs",
+        "title": "Sub-Pixel Problems in CSS",
+        "author": "ejohn.org",
+        "siteName": "johnresig.com",
+        "category": "article",
+        "language": null,
+        "readingTime": "3 mins",
+        "readingMinutes": 3,
+        "wordCount": 767,
+        "publishedDate": "2008-01-22",
+        "savedDate": "2026-09-04T21:36:37.234000+00:00",
+        "imageUrl": null,
+        "sourceUrl": "http://ejohn.org/blog/sub-pixel-problems-in-css",
+        "readwiseUrl": "https://read.readwise.io/read/01m1q5m9vhm08fmy9zy1fz09cs",
+        "summary": "The problem lies in the fact that each div should be, approximately, 12.",
+        "whyRead": "Raakt je kerninteresse in front-end software development, vooral webtechniek en browsergedrag, en je bredere interesse in software development; deze kleine CSS-casus laat zien hoe ogenschijnlijk simpele layouts botsen met afronding, rendering en onvolledig gespecificeerde standaarden.",
+        "bestMoment": "analytisch",
+        "tags": [
+          "front-end software development",
+          "linked-from-readwise",
+          "professional development",
+          "software development",
+          "technology"
+        ],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01m1q5m76kf897skswb68b4ybj",
+        "title": "A Dao of Web Design",
+        "author": "alistapart.com",
+        "siteName": "A List Apart",
+        "category": "article",
+        "language": null,
+        "readingTime": "14 mins",
+        "readingMinutes": 14,
+        "wordCount": 3645,
+        "publishedDate": "2000-04-07",
+        "savedDate": "2026-09-04T21:36:34.515000+00:00",
+        "imageUrl": "https://i0.wp.com/alistapart.com/wp-content/uploads/2019/03/cropped-icon_navigation-laurel-512.jpg?fit=512%2C512&ssl=1",
+        "sourceUrl": "http://www.alistapart.com/articles/dao",
+        "readwiseUrl": "https://read.readwise.io/read/01m1q5m76kf897skswb68b4ybj",
+        "summary": "Web designers often bemoan the malleable nature of the web, which seems to defy our efforts at strict control over layout and typography. But maybe the problem is not the web. Maybe the problem is …",
+        "whyRead": "Raakt je kerninteresse in front-end software development, vooral toegankelijke interfaces, en je bredere interesse in software development; dit essay gebruikt het daoïstische idee van flexibiliteit om een fundamentele ontwerpkeuze te onderzoeken: probeer je de webpagina te beheersen, of ontwerp je voor de aard van het medium?",
+        "bestMoment": "reflectief",
+        "tags": [
+          "accessibility",
+          "front-end software development",
+          "linked-from-readwise",
+          "philosophy",
+          "software development",
+          "technology"
+        ],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01m1q3nmf91k0pq3kq0q75pcp1",
+        "title": "Fluid Grids",
+        "author": "alistapart.com",
+        "siteName": "A List Apart",
+        "category": "article",
+        "language": null,
+        "readingTime": "12 mins",
+        "readingMinutes": 12,
+        "wordCount": 3009,
+        "publishedDate": "2009-03-04",
+        "savedDate": "2026-09-04T21:02:23.721000+00:00",
+        "imageUrl": "https://i0.wp.com/alistapart.com/wp-content/uploads/2013/01/ALA279_fluidgrid_300.png?fit=1200%2C488&ssl=1",
+        "sourceUrl": "http://www.alistapart.com/articles/fluidgrids/",
+        "readwiseUrl": "https://read.readwise.io/read/01m1q3nmf91k0pq3kq0q75pcp1",
+        "summary": "How awesome would it be if you could combine the aesthetic rigor and clarity of fixed-width, grid-based layouts with the device- and screen size independence and user-focused flexibility of fluid l…",
+        "whyRead": "Raakt je kerninteresse in front-end software development, vooral webtechniek en browsergedrag, en je bredere interesse in software development; het essay laat zien hoe je een vast ontwerp kunt vertalen naar een flexibele ervaring die rekening houdt met verschillende schermen en gebruikerscontexten.",
+        "bestMoment": "leergierig",
+        "tags": [
+          "front-end software development",
+          "linked-from-readwise",
+          "professional development",
+          "software development",
+          "technology"
+        ],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01m1q3nhahbg0j0jg7zckg8hg6",
+        "title": "Fluid Images",
+        "author": "unstoppablerobotninja.com",
+        "siteName": "unstoppablerobotninja.com",
+        "category": "article",
+        "language": null,
+        "readingTime": "14 mins",
+        "readingMinutes": 14,
+        "wordCount": 3542,
+        "publishedDate": "2009-04-17",
+        "savedDate": "2026-09-04T21:02:20.495000+00:00",
+        "imageUrl": null,
+        "sourceUrl": "http://unstoppablerobotninja.com/entry/fluid-images",
+        "readwiseUrl": "https://read.readwise.io/read/01m1q3nhahbg0j0jg7zckg8hg6",
+        "summary": "Fluid Images is an entry on Unstoppable Robot Ninja, Ethan Marcotte’s website.",
+        "whyRead": "Raakt je kerninteresse in front-end software development, vooral webtechniek en browsergedrag, en je bredere interesse in software development; dit essay laat zien hoe een ogenschijnlijk simpele responsive regel botst met beeldkwaliteit, browsergedrag en bandbreedte.",
+        "bestMoment": "leergierig",
+        "tags": [
+          "front-end software development",
+          "linked-from-readwise",
+          "professional development",
+          "software development",
+          "technology"
+        ],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01m1q3n5fwfb2sda34zb59ka8p",
+        "title": "First, Understand Your Screen",
+        "author": "tripleodeon.com",
+        "siteName": "tripleodeon.com",
+        "category": "article",
+        "language": null,
+        "readingTime": "18 mins",
+        "readingMinutes": 18,
+        "wordCount": 4601,
+        "publishedDate": "2011-12-01",
+        "savedDate": "2026-09-04T21:02:08.381000+00:00",
+        "imageUrl": null,
+        "sourceUrl": "http://tripleodeon.com/2011/12/first-understand-your-screen/",
+        "readwiseUrl": "https://read.readwise.io/read/01m1q3n5fwfb2sda34zb59ka8p",
+        "summary": "But how best to measure it? And what are we measuring anyway?",
+        "whyRead": "Raakt je kerninteresse in front-end software development, vooral webtechniek en browsergedrag, en je bredere interesse in software development; deze testgerichte duik maakt duidelijk waarom responsive gedrag niet veilig uit één intuïtieve schermmaat of browser-API valt af te leiden.",
+        "bestMoment": "analytisch",
+        "tags": [
+          "front-end software development",
+          "linked-from-readwise",
+          "professional development",
+          "software development",
+          "technology"
+        ],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01m1q3avpkng20xp40evb3sd7x",
+        "title": "Web Standards Trifle",
+        "author": "stuffandnonsense.co.uk",
+        "siteName": "stuffandnonsense.co.uk",
+        "category": "article",
+        "language": null,
+        "readingTime": "7 mins",
+        "readingMinutes": 7,
+        "wordCount": 1633,
+        "publishedDate": "2005-02-23",
+        "savedDate": "2026-09-04T20:56:30.676000+00:00",
+        "imageUrl": "https://stuffandnonsense.co.uk/images/img-share.webp",
+        "sourceUrl": "http://www.stuffandnonsense.co.uk/archives/web_standards_trifle.html",
+        "readwiseUrl": "https://read.readwise.io/read/01m1q3avpkng20xp40evb3sd7x",
+        "summary": "Almost once a week during meetings with clients or prospective clients, I need to explain the concept of web standards. Sometimes it’s during a pitch, and always to a non-technical person who knows little or nothing about anything remotely ‘webby.’ I have…",
+        "whyRead": "Raakt je kerninteresse in front-end software development, vooral webtechniek en browsergedrag, en je bredere interesse in software development; deze speelse metafoor maakt webstandaarden begrijpelijk voor niet-technische klanten en laat tegelijk zien hoe een webstack in lagen samenhangt.",
+        "bestMoment": "ontspannen",
+        "tags": [
+          "front-end software development",
+          "light-reading",
+          "linked-from-readwise",
+          "professional development",
+          "software development",
+          "technology"
+        ],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01m1q3apz296jkrexs5knjaqxf",
+        "title": "Strategic Content Management",
+        "author": "alistapart.com",
+        "siteName": "A List Apart",
+        "category": "article",
+        "language": null,
+        "readingTime": "12 mins",
+        "readingMinutes": 12,
+        "wordCount": 2958,
+        "publishedDate": "2010-09-07",
+        "savedDate": "2026-09-04T20:56:25.826000+00:00",
+        "imageUrl": "https://i0.wp.com/alistapart.com/wp-content/uploads/2013/01/ALA313_cms_300.png?fit=1200%2C616&ssl=1",
+        "sourceUrl": "http://www.alistapart.com/articles/strategic-content-management",
+        "readwiseUrl": "https://read.readwise.io/read/01m1q3apz296jkrexs5knjaqxf",
+        "summary": "Any web project more complex than a blog requires custom CMS design work. It’s tempting to use familiar tools and try to shoehorn content in—but we can’t select the appropriate to…",
+        "whyRead": "Raakt je kerninteresse in front-end software development via de wisselwerking tussen content, UX en techniek, en je bredere interesse in software development; dit essay geeft een menselijk besliskader voor CMS-keuzes waarin content, redactiewerk en technische haalbaarheid samen worden ontworpen.",
+        "bestMoment": "analytisch",
+        "tags": [
+          "front-end software development",
+          "linked-from-readwise",
+          "professional development",
+          "software development",
+          "technology"
+        ],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01m1q3a6kzaqg7nbd7c5btqga6",
+        "title": "Design Systems",
+        "author": "24ways.org",
+        "siteName": "24ways.org",
+        "category": "article",
+        "language": null,
+        "readingTime": "6 mins",
+        "readingMinutes": 6,
+        "wordCount": 1486,
+        "publishedDate": "2021-12-12",
+        "savedDate": "2026-09-04T20:56:09.087000+00:00",
+        "imageUrl": "https://cloud.24ways.org/authors/laurakalbag280.jpg",
+        "sourceUrl": "http://24ways.org/2012/design-systems/",
+        "readwiseUrl": "https://read.readwise.io/read/01m1q3a6kzaqg7nbd7c5btqga6",
+        "summary": "Laura Kalbag beckons us in from the cold wastelands of transitional, device-rooted layouts to warm our toes at the hearth of a more systematic way of working.",
+        "whyRead": "Raakt je kerninteresse in front-end software development via de wisselwerking tussen content, UX en techniek, en je bredere interesse in software development; dit essay verbindt responsive design aan een herbruikbaar systeem van componenten, content en beslisregels in plaats van losse schermcomps.",
+        "bestMoment": "analytisch",
+        "tags": [
+          "front-end software development",
+          "linked-from-readwise",
+          "professional development",
+          "software development",
+          "technology"
+        ],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01m1q3a33tajs6z8x9f3pmvraf",
+        "title": "Responsive Deliverables",
+        "author": "daverupert.com",
+        "siteName": "daverupert.com",
+        "category": "article",
+        "language": null,
+        "readingTime": "3 mins",
+        "readingMinutes": 3,
+        "wordCount": 609,
+        "publishedDate": "2013-04-02",
+        "savedDate": "2026-09-04T20:56:05.498000+00:00",
+        "imageUrl": "https://daverupert.com/images/global/newshammericon.png",
+        "sourceUrl": "http://daverupert.com/2013/04/responsive-deliverables/",
+        "readwiseUrl": "https://read.readwise.io/read/01m1q3a33tajs6z8x9f3pmvraf",
+        "summary": "In a world of growing front-end complexity, what are we handing off to clients?",
+        "whyRead": "Raakt je kerninteresse in front-end software development via de wisselwerking tussen content, UX en techniek, en je bredere interesse in software development; dit stuk vertaalt responsive complexity naar een praktisch model voor herbruikbare componenten en levende opleveringen.",
+        "bestMoment": "leergierig",
+        "tags": [
+          "front-end software development",
+          "linked-from-readwise",
+          "professional development",
+          "software development",
+          "technology"
+        ],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01m1q39qk4sszq3hzn43ttbnxy",
+        "title": "Style Tiles and How They Work",
+        "author": "alistapart.com",
+        "siteName": "A List Apart",
+        "category": "article",
+        "language": null,
+        "readingTime": "8 mins",
+        "readingMinutes": 8,
+        "wordCount": 1901,
+        "publishedDate": "2012-03-27",
+        "savedDate": "2026-09-04T20:55:53.700000+00:00",
+        "imageUrl": "https://i1.wp.com/alistapart.com/wp-content/uploads/2013/01/ALA347_styletiles_300.png?fit=1200%2C615&ssl=1",
+        "sourceUrl": "http://www.alistapart.com/articles/style-tiles-and-how-they-work/",
+        "readwiseUrl": "https://read.readwise.io/read/01m1q39qk4sszq3hzn43ttbnxy",
+        "summary": "How do you involve your client in a successful design process? Many of our processes date back to print design and advertising. It’s time we evolved our deliverables to make clients a more ac…",
+        "whyRead": "Raakt je kerninteresse in front-end software development via de wisselwerking tussen content, UX en techniek, en je bredere interesse in software development; style tiles bieden een concrete werkvorm om stakeholders vroeg te betrekken, voorkeuren te verhelderen en responsive ontwerp als systeem te bespreken.",
+        "bestMoment": "leergierig",
+        "tags": [
+          "agile",
+          "front-end software development",
+          "linked-from-readwise",
+          "professional development",
+          "software development",
+          "technology"
+        ],
+        "alsoIn": [
+          "aaa-scrum-top-100"
+        ],
+        "memberships": [
+          {
+            "familyId": "scrum",
+            "size": "top-100",
+            "position": 73
+          }
+        ]
+      },
+      {
+        "position": null,
+        "id": "01m1q39ktf04jfxetw06bqg9j6",
+        "title": "Replacing Presentations With Conversations",
+        "author": "winwithoutpitching.com",
+        "siteName": "Win Without Pitching",
+        "category": "article",
+        "language": null,
+        "readingTime": "21 mins",
+        "readingMinutes": 21,
+        "wordCount": 5387,
+        "publishedDate": "2018-08-02",
+        "savedDate": "2026-09-04T20:55:49.839000+00:00",
+        "imageUrl": "https://s30558.pcdn.co/wp-content/uploads/2018/08/fi-replacing-presentations-with-conversations.jpg",
+        "sourceUrl": "http://www.winwithoutpitching.com/presentations-or-conversations",
+        "readwiseUrl": "https://read.readwise.io/read/01m1q39ktf04jfxetw06bqg9j6",
+        "summary": "Learn to replace the big reveal with smaller reveals and recognize that presenting is often a selfish craving and simply not necessary. Ask questions & listen.",
+        "whyRead": "Raakt je interesse in professioneel samenwerken, faciliteren en gedragspsychologie; deze podcasttranscriptie onderzoekt hoe “presenteren” soms vooral de behoefte van de expert dient en hoe een gesprek betere samenwerking oplevert.",
+        "bestMoment": "reflectief",
+        "tags": [
+          "behavioral psychology & coaching",
+          "business & startups",
+          "linked-from-readwise",
+          "professional development"
+        ],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01m1q39c2bg52c45zpapazahcw",
+        "title": "How do you figure?",
+        "author": "scottohara.me",
+        "siteName": "scottohara.me",
+        "category": "article",
+        "language": null,
+        "readingTime": "8 mins",
+        "readingMinutes": 8,
+        "wordCount": 1970,
+        "publishedDate": "2019-01-20",
+        "savedDate": "2026-09-04T20:55:41.900000+00:00",
+        "imageUrl": null,
+        "sourceUrl": "https://www.scottohara.me/blog/2019/01/21/how-do-you-figure.html",
+        "readwiseUrl": "https://read.readwise.io/read/01m1q39c2bg52c45zpapazahcw",
+        "summary": "Introduced as part of HTML5, the figure and figcaption elements are meant to create a meaningful markup structure that:  provides a descriptive label to a pi...",
+        "whyRead": "Raakt je kerninteresse in front-end software development, vooral toegankelijke interfaces, en je bredere interesse in software development; dit stuk geeft een precies, praktijkgericht onderscheid tussen semantische HTML, alt-tekst en de rol van figcaptions voor screenreaders.",
+        "bestMoment": "analytisch",
+        "tags": [
+          "accessibility",
+          "front-end software development",
+          "linked-from-readwise",
+          "professional development",
+          "software development",
+          "technology"
+        ],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01m1q397npt8pd2zgh8kkyx7g7",
+        "title": "Accessible JavaScript JavaScript Event Handlers",
+        "author": "webaim.org",
+        "siteName": "webaim.org",
+        "category": "article",
+        "language": null,
+        "readingTime": "5 mins",
+        "readingMinutes": 5,
+        "wordCount": 1140,
+        "publishedDate": "2020-06-27",
+        "savedDate": "2026-09-04T20:55:37.398000+00:00",
+        "imageUrl": null,
+        "sourceUrl": "https://webaim.org/techniques/javascript/eventhandlers",
+        "readwiseUrl": "https://read.readwise.io/read/01m1q397npt8pd2zgh8kkyx7g7",
+        "summary": "Event handlers are triggered by a browser or user event - such as when the page loads, when the user clicks the mouse, or when the time is 8AM.",
+        "whyRead": "Raakt je kerninteresse in front-end software development, vooral toegankelijke interfaces, en je bredere interesse in software development; dit WebAIM-overzicht maakt het verschil tussen apparaatafhankelijke en apparaat-onafhankelijke JavaScript-interactie concreet.",
+        "bestMoment": "leergierig",
+        "tags": [
+          "accessibility",
+          "front-end software development",
+          "linked-from-readwise",
+          "professional development",
+          "software development",
+          "technology"
+        ],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01m1q393yn5qpbe7gv7dq3eqv9",
+        "title": "The Resurgence of ZoomText and Window-Eyes",
+        "author": "webaim.org",
+        "siteName": "webaim.org",
+        "category": "article",
+        "language": null,
+        "readingTime": "3 mins",
+        "readingMinutes": 3,
+        "wordCount": 777,
+        "publishedDate": "2015-08-28",
+        "savedDate": "2026-09-04T20:55:33.589000+00:00",
+        "imageUrl": "https://webaim.org/blog/media/ZoomTextWE.png",
+        "sourceUrl": "https://webaim.org/blog/resurgence-of-zoomtext-and-window-eyes/",
+        "readwiseUrl": "https://read.readwise.io/read/01m1q393yn5qpbe7gv7dq3eqv9",
+        "summary": "Reported usage of ZoomText as respondents’ primary screen reader skyrocketed in the last 18 months from 1. 3% in January 2014 to 22.",
+        "whyRead": "Raakt je kerninteresse in front-end software development, vooral toegankelijke interfaces, en je bredere interesse in software development; deze WebAIM-survey laat zien hoe aannames van accessibility-professionals kunnen afwijken van het bredere gebruikersveld en welke hulpmiddelen je in tests moet meenemen.",
+        "bestMoment": "analytisch",
+        "tags": [
+          "accessibility",
+          "front-end software development",
+          "linked-from-readwise",
+          "professional development",
+          "software development",
+          "technology"
+        ],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01m1q390dztmd4j11zvffv4685",
+        "title": "AJAX MAssive Storage System (AMASS)",
+        "author": "codinginparadise.org",
+        "siteName": "codinginparadise.org",
+        "category": "article",
+        "language": null,
+        "readingTime": "5 mins",
+        "readingMinutes": 5,
+        "wordCount": 1114,
+        "publishedDate": "2005-10-17",
+        "savedDate": "2026-09-04T20:55:29.983000+00:00",
+        "imageUrl": "http://codinginparadise.org/projects/storage/resources/screenshot_flash_dialog.png",
+        "sourceUrl": "http://codinginparadise.org/weblog/2005/10/amass-ajax-massive-storage-system.html",
+        "readwiseUrl": "https://read.readwise.io/read/01m1q390dztmd4j11zvffv4685",
+        "summary": "On Sunday I finished the README and instructions for working with AMASS, the AJAX MAssive Storage System that makes it possible to permanently store large amounts of data on the client-side of browsers, opening the door to new kinds of AJAX applications.",
+        "whyRead": "Raakt je kerninteresse in front-end software development, vooral webtechniek en browsergedrag, en je bredere interesse in software development; deze README uit 2005 laat historisch zien hoe ontwikkelaars persistent client-side storage probeerden te bouwen vóór de huidige browser-API’s.",
+        "bestMoment": "leergierig",
+        "tags": [
+          "front-end software development",
+          "history",
+          "linked-from-readwise",
+          "professional development",
+          "software development",
+          "technology"
+        ],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01m1q38vt13z682y665ms9k4xv",
+        "title": "Beyond HTML5: Database APIs and the Road to IndexedDB",
+        "author": "hacks.mozilla.org",
+        "siteName": "Mozilla Hacks – the Web developer blog",
+        "category": "article",
+        "language": null,
+        "readingTime": "4 mins",
+        "readingMinutes": 4,
+        "wordCount": 858,
+        "publishedDate": "2010-06-01",
+        "savedDate": "2026-09-04T20:55:25.249000+00:00",
+        "imageUrl": "https://hacks.mozilla.org/wp-content/themes/Hax/img/hacks-meta-image.jpg",
+        "sourceUrl": "http://hacks.mozilla.org/2010/06/beyond-html5-database-apis-and-the-road-to-indexeddb/",
+        "readwiseUrl": "https://read.readwise.io/read/01m1q38vt13z682y665ms9k4xv",
+        "summary": "IndexedDB is an evolving web standard for the storage of significant amounts of structured data in the browser and for high performance searches on this data using indexes. Mozilla has ...",
+        "whyRead": "Raakt je kerninteresse in front-end software development, vooral webtechniek en browsergedrag, en je bredere interesse in software development; dit Mozilla-essay laat zien hoe API-ontwerp, standaardisering en ontwikkelaarservaring samen de keuze voor IndexedDB boven Web SQL Database vormden.",
+        "bestMoment": "analytisch",
+        "tags": [
+          "front-end software development",
+          "history",
+          "linked-from-readwise",
+          "professional development",
+          "software development",
+          "technology"
+        ],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01m1q38ff85hf5x3wm3f495r1d",
+        "title": "Powers of 10: Time Scales in User Experience",
+        "author": "nngroup.com",
+        "siteName": "Nielsen Norman Group",
+        "category": "article",
+        "language": null,
+        "readingTime": "8 mins",
+        "readingMinutes": 8,
+        "wordCount": 1918,
+        "publishedDate": "2009-10-04",
+        "savedDate": "2026-09-04T20:55:12.616000+00:00",
+        "imageUrl": "https://media.nngroup.com/media/articles/opengraph_images/Slide080.png",
+        "sourceUrl": "http://www.nngroup.com/articles/powers-of-10-time-scales-in-ux/",
+        "readwiseUrl": "https://read.readwise.io/read/01m1q38ff85hf5x3wm3f495r1d",
+        "summary": "From 0.1 seconds to 10 years or more, user interface design has many different timeframes, and each has its own particular usability issues.",
+        "whyRead": "Raakt je kerninteresse in front-end software development, vooral UI/UX, interactie en performance, en je bredere interesse in software development; het artikel maakt duidelijk dat elke interactie meerdere tijdschalen heeft, van directe feedback tot jarenlange expertise.",
+        "bestMoment": "analytisch",
+        "tags": [
+          "behavioral psychology & coaching",
+          "front-end software development",
+          "linked-from-readwise",
+          "professional development",
+          "software development",
+          "technology"
+        ],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01m1q387kecjnv4ddq8tgyy4h2",
+        "title": "When the UI Is Too Fast",
+        "author": "nngroup.com",
+        "siteName": "Nielsen Norman Group",
+        "category": "article",
+        "language": null,
+        "readingTime": "4 mins",
+        "readingMinutes": 4,
+        "wordCount": 922,
+        "publishedDate": "2013-07-08",
+        "savedDate": "2026-09-04T20:55:04.558000+00:00",
+        "imageUrl": "https://media.nngroup.com/media/articles/opengraph_images/Slide32too-fast-ux.png",
+        "sourceUrl": "http://www.nngroup.com/articles/too-fast-ux/",
+        "readwiseUrl": "https://read.readwise.io/read/01m1q387kecjnv4ddq8tgyy4h2",
+        "summary": "Users might overlook things that change too fast — and even when they do notice, changeable screen elements are harder to understand in a limited timeframe.",
+        "whyRead": "Raakt je kerninteresse in front-end software development, vooral UI/UX, interactie en performance, en je bredere interesse in software development; het artikel onderzoekt de zeldzame maar belangrijke situatie waarin een interface sneller verandert dan mensen kunnen waarnemen of begrijpen.",
+        "bestMoment": "analytisch",
+        "tags": [
+          "behavioral psychology & coaching",
+          "front-end software development",
+          "linked-from-readwise",
+          "professional development",
+          "software development",
+          "technology"
+        ],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01m1q3843s7mw9phd6jqg71nt9",
+        "title": "Website Response Times",
+        "author": "nngroup.com",
+        "siteName": "Nielsen Norman Group",
+        "category": "article",
+        "language": null,
+        "readingTime": "5 mins",
+        "readingMinutes": 5,
+        "wordCount": 1118,
+        "publishedDate": "2010-06-20",
+        "savedDate": "2026-09-04T20:55:00.986000+00:00",
+        "imageUrl": "https://media.nngroup.com/media/articles/opengraph_images/Slide024.png",
+        "sourceUrl": "http://www.nngroup.com/articles/website-response-times/",
+        "readwiseUrl": "https://read.readwise.io/read/01m1q3843s7mw9phd6jqg71nt9",
+        "summary": "Slow page rendering today is typically caused by server delays or overly fancy page widgets, not by big images. Users still hate slow sites and don't hesitate telling us.",
+        "whyRead": "Raakt je kerninteresse in front-end software development, vooral UI/UX, interactie en performance, en je bredere interesse in software development; dit artikel verbindt responstijd aan controle, betrokkenheid en conversie, en actualiseert klassieke usability-richtlijnen voor moderne websites.",
+        "bestMoment": "analytisch",
+        "tags": [
+          "behavioral psychology & coaching",
+          "front-end software development",
+          "linked-from-readwise",
+          "professional development",
+          "software development",
+          "technology"
+        ],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01m1pyvabgbtrpfw7ep29vv3n4",
+        "title": "Your Book Review: The Tale Of Genji",
+        "author": "Astral Codex Ten",
+        "siteName": "Substack",
+        "category": "email",
+        "language": null,
+        "readingTime": "37 mins",
+        "readingMinutes": 37,
+        "wordCount": 9711,
+        "publishedDate": "2026-09-04",
+        "savedDate": "2026-09-04T19:38:07.088000+00:00",
+        "imageUrl": null,
+        "sourceUrl": "mailto:reader-forwarded-email/efffcb0f349bfa4d430a1d61eaba84cf",
+        "readwiseUrl": "https://read.readwise.io/read/01m1pyvabgbtrpfw7ep29vv3n4",
+        "summary": "[This is one of the finalists in the 2026 book review contest, written by an ACX reader who will remain anonymous until after voting is done.",
+        "whyRead": "Raakt je interesse in literatuur, geschiedenis, cultuur en vertalen; deze leeservaring maakt zichtbaar hoeveel context nodig is om The Tale of Genji te begrijpen.",
+        "bestMoment": "analytisch",
+        "tags": [
+          "arts & culture",
+          "fiction",
+          "history",
+          "linked-from-readwise"
+        ],
+        "alsoIn": [
+          "aaa-luchtig-top-100"
+        ],
+        "memberships": [
+          {
+            "familyId": "luchtig",
+            "size": "top-100",
+            "position": 73
+          }
+        ]
+      },
+      {
+        "position": null,
+        "id": "01m1ptj29cwr9k2jg48w4nvz74",
+        "title": "Response Times: The 3 Important Limits",
+        "author": "useit.com",
+        "siteName": "Nielsen Norman Group",
+        "category": "article",
+        "language": null,
+        "readingTime": "5 mins",
+        "readingMinutes": 5,
+        "wordCount": 1243,
+        "publishedDate": "1993-01-01",
+        "savedDate": "2026-09-04T18:23:09.612000+00:00",
+        "imageUrl": "https://media.nngroup.com/media/articles/opengraph_images/SocialMediaPosts_20-30_jpw_09.png",
+        "sourceUrl": "http://www.useit.com/papers/responsetime.html",
+        "readwiseUrl": "https://read.readwise.io/read/01m1ptj29cwr9k2jg48w4nvz74",
+        "summary": "How users react to delays in a user interface, whether website or application. The 3 main response time limits are determined by human perceptual abilities.",
+        "whyRead": "Raakt je interesse in front-end software development en gebruiksvriendelijk ontwerpen; dit klassieke kader vertaalt responstijd naar concrete keuzes in UI-feedback, waargenomen controle en performance.",
+        "bestMoment": "leergierig",
+        "tags": [
+          "front-end software development",
+          "linked-from-readwise",
+          "professional development",
+          "software development"
+        ],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01m1pthdcp99j31wnm2pqwxmbw",
+        "title": "10 fascinating facts about the white cane",
+        "author": "perkins.org",
+        "siteName": "Perkins School for the Blind",
+        "category": "article",
+        "language": null,
+        "readingTime": "3 mins",
+        "readingMinutes": 3,
+        "wordCount": 582,
+        "publishedDate": "2023-10-01",
+        "savedDate": "2026-09-04T18:22:48.215000+00:00",
+        "imageUrl": "https://www.perkins.org/wp-content/uploads/1970/01/White20Cane20Day20Blog.jpg",
+        "sourceUrl": "https://www.perkins.org/stories/10-fascinating-facts-about-the-white-cane",
+        "readwiseUrl": "https://read.readwise.io/read/01m1pthdcp99j31wnm2pqwxmbw",
+        "summary": "Canes offer safety, confidence and independence - but here are 10 little-known facts about the iconic white cane that might surprise you.",
+        "whyRead": "Raakt je interesse in toegankelijkheid en de menselijke kant van technologie; zijdelings is dit relevant voor front-end software development omdat het laat zien hoe hulpmiddelen techniek, oriëntatie en zelfstandigheid verbinden.",
+        "bestMoment": "ontspannen",
+        "tags": [
+          "health & wellness",
+          "light-reading",
+          "linked-from-readwise",
+          "technology"
+        ],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01m1pth6508fttt01aae45rwtk",
+        "title": "Screen Reader User Survey #7 Results",
+        "author": "webaim.org",
+        "siteName": "webaim.org",
+        "category": "article",
+        "language": null,
+        "readingTime": "13 mins",
+        "readingMinutes": 13,
+        "wordCount": 3375,
+        "publishedDate": "2017-12-21",
+        "savedDate": "2026-09-04T18:22:40.798000+00:00",
+        "imageUrl": null,
+        "sourceUrl": "https://webaim.org/projects/screenreadersurvey7/",
+        "readwiseUrl": "https://read.readwise.io/read/01m1pth6508fttt01aae45rwtk",
+        "summary": "In October 2017, WebAIM surveyed preferences of screen reader users. We received 1792 valid responses.",
+        "whyRead": "Raakt je interesse in front-end software development en toegankelijkheid; de survey vertaalt echte ervaringen van screenreadergebruikers naar concrete lessen voor HTML-structuur, browserkeuzes, mobiele interfaces en testpraktijk.",
+        "bestMoment": "analytisch",
+        "tags": [
+          "front-end software development",
+          "linked-from-readwise",
+          "professional development",
+          "software development"
+        ],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01m1ptghcfvreqe0a796mr3f0z",
+        "title": "Skip Navigation Links",
+        "author": "webaim.org",
+        "siteName": "webaim.org",
+        "category": "article",
+        "language": null,
+        "readingTime": "6 mins",
+        "readingMinutes": 6,
+        "wordCount": 1385,
+        "publishedDate": "2021-09-22",
+        "savedDate": "2026-09-04T18:22:19.535000+00:00",
+        "imageUrl": null,
+        "sourceUrl": "https://webaim.org/techniques/skipnav/",
+        "readwiseUrl": "https://read.readwise.io/read/01m1ptghcfvreqe0a796mr3f0z",
+        "summary": "On most pages, keyboard and screen reader users must navigate a long list of navigation links and other elements before ever arriving at the main content.",
+        "whyRead": "Raakt je interesse in front-end software development en toegankelijke interfaces; skiplinks zijn een klein, direct toepasbaar voorbeeld van hoe bronvolgorde, focusbeheer en CSS samenkomen voor toetsenbordgebruikers.",
+        "bestMoment": "leergierig",
+        "tags": [
+          "front-end software development",
+          "linked-from-readwise",
+          "professional development",
+          "software development"
+        ],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01m1ptg9wcvpkqrzx443whsykj",
+        "title": "Alternative Text",
+        "author": "webaim.org",
+        "siteName": "webaim.org",
+        "category": "article",
+        "language": null,
+        "readingTime": "11 mins",
+        "readingMinutes": 11,
+        "wordCount": 2777,
+        "publishedDate": "2021-10-19",
+        "savedDate": "2026-09-04T18:22:11.852000+00:00",
+        "imageUrl": null,
+        "sourceUrl": "https://webaim.org/techniques/alttext/",
+        "readwiseUrl": "https://read.readwise.io/read/01m1ptg9wcvpkqrzx443whsykj",
+        "summary": "Although technology is getting better at recognizing what an image depicts, algorithms alone cannot understand what an image means within the context of the overall page.",
+        "whyRead": "Raakt je interesse in front-end software development en webtoegankelijkheid; dit stuk geeft een praktisch besliskader voor alt-tekst dat betekenis en functie centraal zet, in plaats van een afbeelding alleen maar te beschrijven.",
+        "bestMoment": "leergierig",
+        "tags": [
+          "front-end software development",
+          "linked-from-readwise",
+          "professional development",
+          "software development"
+        ],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01m1ptfq6n7znzk0138s4tevv1",
+        "title": "Element Collages",
+        "author": "danielmall.com",
+        "siteName": "danielmall.com",
+        "category": "article",
+        "language": null,
+        "readingTime": "2 mins",
+        "readingMinutes": 2,
+        "wordCount": 474,
+        "publishedDate": null,
+        "savedDate": "2026-09-04T18:21:52.725000+00:00",
+        "imageUrl": null,
+        "sourceUrl": "http://danielmall.com/articles/rif-element-collages/",
+        "readwiseUrl": "https://read.readwise.io/read/01m1ptfq6n7znzk0138s4tevv1",
+        "summary": "Reading Is Fundamental Element Collages",
+        "whyRead": "Raakt je interesse in software development en ontwerp als vak en in essayistische schrijfprocessen; het element-collageconcept biedt een tastbare tussenstap tussen abstracte wireframes en een uitgewerkte pagina.",
+        "bestMoment": "geïnspireerd",
+        "tags": [
+          "light-reading",
+          "linked-from-readwise",
+          "professional development",
+          "technology"
+        ],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01m1ptfghydywhq0tw628kbsgp",
+        "title": "The Responsive Mobile Entertainment Weekly Site",
+        "author": "danielmall.com",
+        "siteName": "danielmall.com",
+        "category": "article",
+        "language": null,
+        "readingTime": "4 mins",
+        "readingMinutes": 4,
+        "wordCount": 836,
+        "publishedDate": null,
+        "savedDate": "2026-09-04T18:21:45.918000+00:00",
+        "imageUrl": "http://danielmall.com/articles/responsive-mobile-entertainment-weekly/ew-mobile-fb.png",
+        "sourceUrl": "http://danielmall.com/articles/responsive-mobile-entertainment-weekly/",
+        "readwiseUrl": "https://read.readwise.io/read/01m1ptfghydywhq0tw628kbsgp",
+        "summary": "New work on a responsive mobile site for Entertainment Weekly.",
+        "whyRead": "Raakt je interesse in software development en ontwerpwerk, samenwerking en iteratief werken; de Entertainment Weekly-case laat zien hoe strategie, stijl, code en architectuur parallel tot één responsive product komen.",
+        "bestMoment": "geïnspireerd",
+        "tags": [
+          "linked-from-readwise",
+          "professional development",
+          "technology"
+        ],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01m1ptfcmvhqkgwddjtrydpv12",
+        "title": "Establishing Design Direction",
+        "author": "bradfrost.com",
+        "siteName": "Brad Frost",
+        "category": "article",
+        "language": null,
+        "readingTime": "5 mins",
+        "readingMinutes": 5,
+        "wordCount": 1109,
+        "publishedDate": "2013-10-03",
+        "savedDate": "2026-09-04T18:21:41.915000+00:00",
+        "imageUrl": "http://bradfrost.com/wp-content/uploads/2013/10/foodbank-20-second.jpg",
+        "sourceUrl": "http://bradfrost.com/blog/post/establishing-design-direction/",
+        "readwiseUrl": "https://read.readwise.io/read/01m1ptfcmvhqkgwddjtrydpv12",
+        "summary": "Design is hard. Aesthetics are subjective, and all the people involved in a design project all have unique perspectives that result in strong opinions about what content and functionality should be prioritized.\n\nAs part of our open redesign of the Greater Pittsburgh Community Food Bank, we wanted",
+        "whyRead": "Raakt je interesse in software development en agile samenwerking en faciliteren; deze case geeft concrete werkvormen om stakeholders gezamenlijk prioriteiten en ontwerp richting te laten ontdekken.",
+        "bestMoment": "leergierig",
+        "tags": [
+          "linked-from-readwise",
+          "professional development",
+          "technology"
+        ],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01m1ptf0ecar9pdjbmmmqgzxgb",
+        "title": "The Post-PSD Era",
+        "author": "danielmall.com",
+        "siteName": "danielmall.com",
+        "category": "article",
+        "language": null,
+        "readingTime": "4 mins",
+        "readingMinutes": 4,
+        "wordCount": 865,
+        "publishedDate": null,
+        "savedDate": "2026-09-04T18:21:29.420000+00:00",
+        "imageUrl": null,
+        "sourceUrl": "http://danielmall.com/articles/the-post-psd-era/",
+        "readwiseUrl": "https://read.readwise.io/read/01m1ptf0ecar9pdjbmmmqgzxgb",
+        "summary": "The Post-PSD Era: A problem of expectations",
+        "whyRead": "Raakt je interesse in software development en samenwerking en professioneel ontwerpwerk; het essay laat zien hoe een verkeerd verwachtingspatroon rond pixel-perfect comps detaildiscussies en slechte samenwerking uitlokt.",
+        "bestMoment": "reflectief",
+        "tags": [
+          "linked-from-readwise",
+          "professional development",
+          "technology"
+        ],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01m1ptew1kmsww5mc9bbkkg26x",
+        "title": "Atomic Design",
+        "author": "bradfrost.com",
+        "siteName": "Brad Frost",
+        "category": "article",
+        "language": null,
+        "readingTime": "5 mins",
+        "readingMinutes": 5,
+        "wordCount": 1324,
+        "publishedDate": "2013-06-10",
+        "savedDate": "2026-09-04T18:21:24.916000+00:00",
+        "imageUrl": "http://bradfrost.com/wp-content/uploads/2012/11/Screen-Shot-2012-11-13-at-5.15.05-PM.png",
+        "sourceUrl": "http://bradfrost.com/blog/post/atomic-web-design/",
+        "readwiseUrl": "https://read.readwise.io/read/01m1ptew1kmsww5mc9bbkkg26x",
+        "summary": "Hey there! I wrote a book called Atomic Design that dives into this topic in more detail, which you can buy as an ebook.\nWe’re not designing pages, we’re designing systems of components.—Stephen Hay\nAs the craft of Web design continues to evolve, we're recognizing the need to develop thoughtful de",
+        "whyRead": "Raakt je interesse in front-end software development en ontwerp als systeem; Atomic Design biedt een helder vocabulaire om van losse interface-onderdelen naar schaalbare patronen te werken.",
+        "bestMoment": "leergierig",
+        "tags": [
+          "front-end software development",
+          "linked-from-readwise",
+          "professional development",
+          "software development"
+        ],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01m1pter2682rxp6qjba8zz56g",
+        "title": "Development Is Design",
+        "author": "bradfrost.com",
+        "siteName": "Brad Frost",
+        "category": "article",
+        "language": null,
+        "readingTime": "4 mins",
+        "readingMinutes": 4,
+        "wordCount": 835,
+        "publishedDate": "2013-10-07",
+        "savedDate": "2026-09-04T18:21:20.838000+00:00",
+        "imageUrl": "https://bradfrost.com/wp-content/uploads/2013/09/startup.jpg",
+        "sourceUrl": "http://bradfrost.com/blog/post/development-is-design/",
+        "readwiseUrl": "https://read.readwise.io/read/01m1pter2682rxp6qjba8zz56g",
+        "summary": "I recently received this email from a startup:\n\n\nWe're a startup in San Francisco looking to launch a 5-page website this October. We would deliver all wireframes, web content, and design PSDs. We just need a front-end pro to develop the site. While the site is straightforward, we do have high de",
+        "whyRead": "Raakt je interesse in front-end software development en samenwerking en professioneel ontwerpwerk; het essay verdedigt front-endontwikkeling als onderdeel van het ontwerp in plaats van een uitvoerstap na de beslissing.",
+        "bestMoment": "reflectief",
+        "tags": [
+          "front-end software development",
+          "linked-from-readwise",
+          "professional development",
+          "software development"
+        ],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01m1pteat342mvst3ac1rh3m9j",
+        "title": "Responsive Images: How they Almost Worked and What We Need",
+        "author": "alistapart.com",
+        "siteName": "A List Apart",
+        "category": "article",
+        "language": null,
+        "readingTime": "8 mins",
+        "readingMinutes": 8,
+        "wordCount": 2115,
+        "publishedDate": "2012-01-31",
+        "savedDate": "2026-09-04T18:21:07.267000+00:00",
+        "imageUrl": "https://i0.wp.com/alistapart.com/wp-content/uploads/2013/01/ALA343_respimages_300.png?fit=646%2C1163&ssl=1",
+        "sourceUrl": "http://www.alistapart.com/articles/responsive-images-how-they-almost-worked-and-what-we-need/",
+        "readwiseUrl": "https://read.readwise.io/read/01m1pteat342mvst3ac1rh3m9j",
+        "summary": "With a mobile-first responsive design approach, if any part of the process breaks down, your user can still receive a representative image and avoid an unnecessarily large request on a device that …",
+        "whyRead": "Raakt je interesse in front-end software development en technologie en progressive enhancement; dit essay laat via een mislukte responsive-imagestrategie zien waarom robuuste fallbacks en semantische markup belangrijker zijn dan een slimme truc.",
+        "bestMoment": "leergierig",
+        "tags": [
+          "front-end software development",
+          "linked-from-readwise",
+          "professional development",
+          "software development"
+        ],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01m1pte2ggm4we1zm4q8c70b0s",
+        "title": "Responsive Web Design",
+        "author": "alistapart.com",
+        "siteName": "A List Apart",
+        "category": "article",
+        "language": null,
+        "readingTime": "9 mins",
+        "readingMinutes": 9,
+        "wordCount": 2199,
+        "publishedDate": "2010-05-25",
+        "savedDate": "2026-09-04T18:20:58.768000+00:00",
+        "imageUrl": "https://alistapart.com/wp-content/uploads/2013/01/ALA306_respdesign_300.png?fit=1920%2C878",
+        "sourceUrl": "http://www.alistapart.com/articles/responsive-web-design/",
+        "readwiseUrl": "https://read.readwise.io/read/01m1pte2ggm4we1zm4q8c70b0s",
+        "summary": "Designers have coveted print for its precision layouts, lamenting the varying user contexts on the web that compromise their designs. Ethan Marcotte advocates we shift our design thinking to approp…",
+        "whyRead": "Raakt je interesse in front-end software development en technologie en ontwerpfilosofie; dit klassieke essay verschuift responsive design van apparaat-specifieke sites naar een ontwerp dat met context en schermruimte meebeweegt.",
+        "bestMoment": "leergierig",
+        "tags": [
+          "front-end software development",
+          "linked-from-readwise",
+          "professional development",
+          "software development"
+        ],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01m1ptdtpgacgz9tkd640axtse",
+        "title": "Future-Ready Content",
+        "author": "alistapart.com",
+        "siteName": "A List Apart",
+        "category": "article",
+        "language": null,
+        "readingTime": "9 mins",
+        "readingMinutes": 9,
+        "wordCount": 2244,
+        "publishedDate": "2012-02-28",
+        "savedDate": "2026-09-04T18:20:50.766000+00:00",
+        "imageUrl": "https://alistapart.com/wp-content/uploads/2013/01/ALA345_fureadcontent_300.png?fit=1920%2C904",
+        "sourceUrl": "http://www.alistapart.com/articles/future-ready-content/",
+        "readwiseUrl": "https://read.readwise.io/read/01m1ptdtpgacgz9tkd640axtse",
+        "summary": "The future is flexible, and we’re bending with it. From responsive web design to futurefriend.ly thinking, we’re moving quickly toward a web that’s more fluid, less fixed, and mor…",
+        "whyRead": "Raakt je interesse in front-end software development en kennisbeheer, technologie en betekenisvol structureren; dit essay verbindt contentstrategie aan de vraag hoe informatie over apparaten, kanalen en toekomstige contexten kan blijven leven.",
+        "bestMoment": "analytisch",
+        "tags": [
+          "front-end software development",
+          "linked-from-readwise",
+          "professional development",
+          "software development"
+        ],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01m1ptdj86p7kfx8pxd7t0fw7y",
+        "title": "Understanding Progressive Enhancement",
+        "author": "alistapart.com",
+        "siteName": "A List Apart",
+        "category": "article",
+        "language": null,
+        "readingTime": "5 mins",
+        "readingMinutes": 5,
+        "wordCount": 1158,
+        "publishedDate": "2008-10-07",
+        "savedDate": "2026-09-04T18:20:42.118000+00:00",
+        "imageUrl": "https://i0.wp.com/alistapart.com/wp-content/uploads/2013/01/ALA269_progenhan_300.png?fit=646%2C1110&ssl=1",
+        "sourceUrl": "http://www.alistapart.com/articles/understandingprogressiveenhancement",
+        "readwiseUrl": "https://read.readwise.io/read/01m1ptdj86p7kfx8pxd7t0fw7y",
+        "summary": "Steven Champeon turned web development upside down, and created an instant best practice of standards-based design, when he introduced the notion of designing for content and experience instead of …",
+        "whyRead": "Raakt je interesse in front-end software development en technologie en ontwerpfilosofie; progressive enhancement biedt een eenvoudig denkkader om content als vaste basis te nemen en stijl en interactie laag voor laag toe te voegen.",
+        "bestMoment": "leergierig",
+        "tags": [
+          "front-end software development",
+          "linked-from-readwise",
+          "professional development",
+          "software development"
+        ],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01m1pkcy3mwn5efd7wb4mm674v",
+        "title": "Debuggable JavaScript in Production with Source Maps",
+        "author": "blog.sentry.io",
+        "siteName": "Sentry",
+        "category": "article",
+        "language": null,
+        "readingTime": "5 mins",
+        "readingMinutes": 5,
+        "wordCount": 1290,
+        "publishedDate": "2015-10-29",
+        "savedDate": "2026-09-04T16:18:01.461000+00:00",
+        "imageUrl": "https://blog.sentry.io/_astro/debuggable-javascript-with-source-maps.RlyqABOv.png",
+        "sourceUrl": "https://blog.sentry.io/2015/10/29/debuggable-javascript-with-source-maps.html",
+        "readwiseUrl": "https://read.readwise.io/read/01m1pkcy3mwn5efd7wb4mm674v",
+        "summary": "Today, the code you use to write your application isn’t the same code used to deploy it. Learn more here about using source maps to debug in production.",
+        "whyRead": "Raakt je interesse in front-end software development en programmeren, webperformance en onderhoudbare tooling; de meerwaarde is een praktische uitleg van source maps voor productie-debugging zonder gebruikers extra runtimekosten te geven.",
+        "bestMoment": "leergierig",
+        "tags": [
+          "front-end software development",
+          "linked-from-readwise",
+          "professional development",
+          "software development"
+        ],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01m1pkcqybtrart8abs9dmmcqd",
+        "title": "Principles of Design",
+        "author": "w3.org",
+        "siteName": "W3C",
+        "category": "article",
+        "language": null,
+        "readingTime": "5 mins",
+        "readingMinutes": 5,
+        "wordCount": 1304,
+        "publishedDate": "2013-03-04",
+        "savedDate": "2026-09-04T16:17:55.147000+00:00",
+        "imageUrl": null,
+        "sourceUrl": "https://www.w3.org/DesignIssues/Principles.html",
+        "readwiseUrl": "https://read.readwise.io/read/01m1pkcqybtrart8abs9dmmcqd",
+        "summary": "Again and again we fall back on the folklore of the principles of good design. Sometimes I need a URI for them so this is started as collection of them.",
+        "whyRead": "Raakt je interesse in front-end software development en technologie, softwarearchitectuur en de ideeën achter het web; de meerwaarde is een compacte verzameling ontwerpprincipes over eenvoud, modulariteit, tolerantie en decentralisatie.",
+        "bestMoment": "analytisch",
+        "tags": [
+          "front-end software development",
+          "linked-from-readwise",
+          "professional development",
+          "software development"
+        ],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01m1pkcmdmv93epp6nrb29me5b",
+        "title": "The problem with single page applications",
+        "author": "adamsilver.io",
+        "siteName": "Adamsilver.io",
+        "category": "article",
+        "language": null,
+        "readingTime": "5 mins",
+        "readingMinutes": 5,
+        "wordCount": 1149,
+        "publishedDate": "2014-08-10",
+        "savedDate": "2026-09-04T16:17:51.540000+00:00",
+        "imageUrl": "https://res.cloudinary.com/dvxq0kpvh/image/upload/w_1280,h_720,q_100/l_text:Inter-Bold.ttf_85_letter_spacing_-1.2:The%20problem%20with%20single%20page%20applications,co_rgb:ffffff,c_fit,w_1000,h_300/fl_layer_apply,g_south_west,x_100,y_160/l_text:Inter-Regular.ttf_40:Adam%20Silver,co_rgb:eff6ff,c_fit,w_1400/fl_layer_apply,g_south_west,x_100,y_90/card5.png",
+        "sourceUrl": "https://adamsilver.io/blog/the-disadvantages-of-single-page-applications/",
+        "readwiseUrl": "https://read.readwise.io/read/01m1pkcmdmv93epp6nrb29me5b",
+        "summary": "Single page applications promise a better experience. This is rarely the case. Find out why in this article.",
+        "whyRead": "Raakt je interesse in front-end software development en webarchitectuur, progressive enhancement en toegankelijke software; de meerwaarde is een scherpe inventaris van wat browsers al goed doen en SPA's opnieuw moeten bouwen.",
+        "bestMoment": "analytisch",
+        "tags": [
+          "front-end software development",
+          "linked-from-readwise",
+          "professional development",
+          "software development"
+        ],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01m1pkcexjhs5ns2gq20ztn8dt",
+        "title": "Thinking differently about progressive enhancement",
+        "author": "adamsilver.io",
+        "siteName": "Adamsilver.io",
+        "category": "article",
+        "language": null,
+        "readingTime": "4 mins",
+        "readingMinutes": 4,
+        "wordCount": 917,
+        "publishedDate": "2018-10-06",
+        "savedDate": "2026-09-04T16:17:45.906000+00:00",
+        "imageUrl": "https://ogkit.dev/img/UyotvKNk.jpeg?url=https%3A%2F%2Fadamsilver.io%2Fblog%2Fthinking-differently-about-progressive-enhancement%2F",
+        "sourceUrl": "https://adamsilver.io/blog/thinking-differently-about-progressive-enhancement/",
+        "readwiseUrl": "https://read.readwise.io/read/01m1pkcexjhs5ns2gq20ztn8dt",
+        "summary": "A lot of people think progressive enhancement means more work and lesser experiences. This isn't actually true.",
+        "whyRead": "Raakt je interesse in front-end software development en progressive enhancement, toegankelijke technologie en onderhoudbare webarchitectuur; de meerwaarde is een concreet patroon om rijke interfaces te bouwen zonder gebruikers met oudere browsers uit te sluiten.",
+        "bestMoment": "leergierig",
+        "tags": [
+          "front-end software development",
+          "linked-from-readwise",
+          "professional development",
+          "software development"
+        ],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01m1pkc8bwv06rv0yze3kyfn24",
+        "title": "#LatencyTipOfTheDay: You can't average percentiles. Period.",
+        "author": "latencytipoftheday.blogspot.com",
+        "siteName": "latencytipoftheday.blogspot.com",
+        "category": "article",
+        "language": null,
+        "readingTime": "3 mins",
+        "readingMinutes": 3,
+        "wordCount": 652,
+        "publishedDate": "2014-06-18",
+        "savedDate": "2026-09-04T16:17:39.197000+00:00",
+        "imageUrl": null,
+        "sourceUrl": "http://latencytipoftheday.blogspot.com/2014/06/latencytipoftheday-you-cant-average.html",
+        "readwiseUrl": "https://read.readwise.io/read/01m1pkc8bwv06rv0yze3kyfn24",
+        "summary": "I run into the following situation way too often:    You have some means of measuring and collecting latency, and you want to report on it's...",
+        "whyRead": "Raakt je interesse in front-end software development en webperformance, metrics en professioneel softwarewerk; de meerwaarde is een scherpe waarschuwing tegen het verkeerd aggregeren van percentielen.",
+        "bestMoment": "analytisch",
+        "tags": [
+          "front-end software development",
+          "linked-from-readwise",
+          "professional development",
+          "software development"
+        ],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01m1pkbwp8yhkmvyn4v9hw8p0p",
+        "title": "For a Future-Friendly Web",
+        "author": "alistapart.com",
+        "siteName": "A List Apart",
+        "category": "article",
+        "language": null,
+        "readingTime": "9 mins",
+        "readingMinutes": 9,
+        "wordCount": 2203,
+        "publishedDate": "2012-03-13",
+        "savedDate": "2026-09-04T16:17:27.240000+00:00",
+        "imageUrl": "https://i0.wp.com/alistapart.com/wp-content/uploads/2013/01/ALA346_futfriend_300.png?fit=641%2C1200&ssl=1",
+        "sourceUrl": "http://alistapart.com/article/for-a-future-friendly-web",
+        "readwiseUrl": "https://read.readwise.io/read/01m1pkbwp8yhkmvyn4v9hw8p0p",
+        "summary": "It is time to move toward a future-friendly web. Our current device landscape is a plethora of desktops, laptops, netbooks, tablets, feature phones, smartphones, and more, but this is just the begi…",
+        "whyRead": "Raakt je interesse in front-end software development; Past direct bij je werk rond webarchitectuur, progressive enhancement en duurzame ontwerpkeuzes; het artikel verbindt contentstrategie, responsive design en technische veerkracht.",
+        "bestMoment": "analytisch",
+        "tags": [
+          "front-end software development",
+          "linked-from-readwise",
+          "professional development",
+          "software development"
+        ],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01m1pkbsyqx3cxesvp346tnad9",
+        "title": "Techcrunch",
+        "author": "bradfrost.com",
+        "siteName": "Brad Frost",
+        "category": "article",
+        "language": null,
+        "readingTime": "9 mins",
+        "readingMinutes": 9,
+        "wordCount": 2295,
+        "publishedDate": "2013-11-18",
+        "savedDate": "2026-09-04T16:17:24.439000+00:00",
+        "imageUrl": "http://bradfrost.com/wp-content/uploads/2013/11/tc.jpg",
+        "sourceUrl": "https://bradfrost.com/blog/post/techcrunch/",
+        "readwiseUrl": "https://read.readwise.io/read/01m1pkbsyqx3cxesvp346tnad9",
+        "summary": "Earlier this year I had the amazing opportunity to create a responsive site for TechCrunch.\n\n\n\nI got shot out of a cannon at the beginning of 2013. I had been contemplating going out on my own for a while, so I decided to reach out to the great Josh Clark for career advice. In addition to provid",
+        "whyRead": "Raakt je interesse in front-end software development; Sluit nauw aan op je interesse in design systems, atomic design en werkbare ontwerp-/ontwikkelprocessen; deze case laat zien hoe een responsive redesign in samenwerking wordt opgebouwd.",
+        "bestMoment": "leergierig",
+        "tags": [
+          "front-end software development",
+          "linked-from-readwise",
+          "professional development",
+          "software development"
+        ],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01m1pc8pm613zjdbpcr12zqv1a",
+        "title": "Screen Reader User Survey #8 Results",
+        "author": "webaim.org",
+        "siteName": "webaim.org",
+        "category": "article",
+        "language": null,
+        "readingTime": "10 mins",
+        "readingMinutes": 10,
+        "wordCount": 2632,
+        "publishedDate": "2019-09-27",
+        "savedDate": "2026-09-04T14:13:22.694000+00:00",
+        "imageUrl": null,
+        "sourceUrl": "https://webaim.org/projects/screenreadersurvey8/",
+        "readwiseUrl": "https://read.readwise.io/read/01m1pc8pm613zjdbpcr12zqv1a",
+        "summary": "In August - September 2019, WebAIM surveyed preferences of screen reader users. We received 1224 valid responses.",
+        "whyRead": "Raakt je interesse in front-end software development; Raakt je interesse in technologie, toegankelijkheid en de sociale gevolgen van webontwerp. Deze WebAIM-survey geeft concrete cijfers over hoe screenreadergebruikers websites ervaren, waar toegankelijkheidswerk tekortschiet en waarom technische aannames over “de gebruiker” riskant zijn.",
+        "bestMoment": "analytisch",
+        "tags": [
+          "front-end software development",
+          "linked-from-readwise",
+          "professional development",
+          "software development"
+        ],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01m1pc8cz444y77ecj8rn0s6jj",
+        "title": "Support Vs Optimization",
+        "author": "bradfrost.com",
+        "siteName": "Brad Frost",
+        "category": "article",
+        "language": null,
+        "readingTime": "6 mins",
+        "readingMinutes": 6,
+        "wordCount": 1460,
+        "publishedDate": "2011-12-20",
+        "savedDate": "2026-09-04T14:13:12.804000+00:00",
+        "imageUrl": "https://bradfrost.com/wp-content/uploads/2011/12/34-Brad-Frosts-conflicted-copy-2011-09-11.png",
+        "sourceUrl": "https://bradfrost.com/blog/mobile/support-vs-optimization/",
+        "readwiseUrl": "https://read.readwise.io/read/01m1pc8cz444y77ecj8rn0s6jj",
+        "summary": "A few things usually happen when I bring up the existence of mobile devices/browsers that aren’t iOS and Android. First, people give me a blank stare. Then they respond, “Well...fuck them”. (I’m not just being cheeky here, this sentiment has been expressed to me on multiple occasions.)\n\nAs more co",
+        "whyRead": "Raakt je interesse in front-end software development; Raakt je interesse in technologie, webperformance en de maatschappelijke belofte van het web. Brad Frost maakt het onderscheid tussen “ondersteunen” en “optimaliseren” concreet: niet elk apparaat hoeft pixelperfect te zijn, maar iedereen die je site wil gebruiken verdient een functionele ervaring.",
+        "bestMoment": "leergierig",
+        "tags": [
+          "front-end software development",
+          "linked-from-readwise",
+          "professional development",
+          "software development"
+        ],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01m1pc896pdtvkq4831tk0tr17",
+        "title": "Page Weight Matters",
+        "author": "blog.chriszacharias.com",
+        "siteName": "Chris Zacharias on Svbtle",
+        "category": "article",
+        "language": null,
+        "readingTime": "3 mins",
+        "readingMinutes": 3,
+        "wordCount": 645,
+        "publishedDate": "2012-12-21",
+        "savedDate": "2026-09-04T14:13:08.948000+00:00",
+        "imageUrl": "https://svbtleusercontent.com/jNQtBCPhv8peLFG1YKJCER03170xsuap_large.png",
+        "sourceUrl": "http://blog.chriszacharias.com/page-weight-matters",
+        "readwiseUrl": "https://read.readwise.io/read/01m1pc896pdtvkq4831tk0tr17",
+        "summary": "Three years ago, while I was a web developer at YouTube, one of the senior engineers began a rant about the page weight of the video watch page being far too large. The page had ballooned to as high as 1.2MB and dozens of requests. This engineer... | Chris Zacharias | Founder of imgix. YCombinator alum. Ex-YouTuber. Studied New Media at RIT.",
+        "whyRead": "Raakt je interesse in front-end software development; Raakt je interesse in technologie, webperformance en de maatschappelijke kant van digitale toegang. De “Feather”-casus laat zien hoe een performance-optimalisatie eerst slechtere gemiddelden lijkt op te leveren, maar in werkelijkheid nieuwe gebruikers en regio’s bereikbaar maakt.",
+        "bestMoment": "analytisch",
+        "tags": [
+          "front-end software development",
+          "linked-from-readwise",
+          "professional development",
+          "software development"
+        ],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01m1pc861g5awwjn3cj8x4v14t",
+        "title": "2016 - the year of web streams",
+        "author": "jakearchibald.com",
+        "siteName": "jakearchibald.com",
+        "category": "article",
+        "language": null,
+        "readingTime": "12 mins",
+        "readingMinutes": 12,
+        "wordCount": 2991,
+        "publishedDate": "2016-01-25",
+        "savedDate": "2026-09-04T14:13:05.710000+00:00",
+        "imageUrl": "https://jakearchibald.com/c/post-6f6fca83.png",
+        "sourceUrl": "https://jakearchibald.com/2016/streams-ftw/",
+        "readwiseUrl": "https://read.readwise.io/read/01m1pc861g5awwjn3cj8x4v14t",
+        "summary": "Using web streams to process network data, transcode MPEG to GIF, & slash page render times.",
+        "whyRead": "Raakt je interesse in front-end software development; Raakt je interesse in technologie, webperformance en conceptueel programmeren. Jake Archibald legt uit waarom streams niet alleen een API-detail zijn, maar een manier om netwerkwerk, verwerking en rendering parallel te laten verlopen — precies het soort architectuurkeuze dat de ervaren snelheid van een webapp bepaalt.",
+        "bestMoment": "analytisch",
+        "tags": [
+          "front-end software development",
+          "linked-from-readwise",
+          "professional development",
+          "software development"
+        ],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01m1pc81g41h0xyjd267t26nv8",
+        "title": "Fun hacks for faster content",
+        "author": "jakearchibald.com",
+        "siteName": "jakearchibald.com",
+        "category": "article",
+        "language": null,
+        "readingTime": "5 mins",
+        "readingMinutes": 5,
+        "wordCount": 1100,
+        "publishedDate": "2016-12-06",
+        "savedDate": "2026-09-04T14:13:01.060000+00:00",
+        "imageUrl": "https://jakearchibald.com/c/diagram-a0bdba1e.png",
+        "sourceUrl": "https://jakearchibald.com/2016/fun-hacks-faster-content/",
+        "readwiseUrl": "https://read.readwise.io/read/01m1pc81g41h0xyjd267t26nv8",
+        "summary": "Using iframes and document.write to improve performance of content loading.",
+        "whyRead": "Raakt je interesse in front-end software development; Raakt je interesse in webperformance, progressive enhancement en de architectuurkritiek op SPA’s. Dit essay maakt zichtbaar dat browsers al streaming renderen, maar dat client-side navigatie die winst vaak wegprogrammeert — een bruikbaar argument om eenvoud en meetbare gebruikerswaarde mee te wegen.",
+        "bestMoment": "analytisch",
+        "tags": [
+          "front-end software development",
+          "linked-from-readwise",
+          "professional development",
+          "software development"
+        ],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01m1pc7vnnk9e86sew4myjsr7n",
+        "title": "Everything You Know About Latency Is Wrong",
+        "author": "bravenewgeek.com",
+        "siteName": "Brave New Geek",
+        "category": "article",
+        "language": null,
+        "readingTime": "11 mins",
+        "readingMinutes": 11,
+        "wordCount": 2691,
+        "publishedDate": "2015-12-12",
+        "savedDate": "2026-09-04T14:12:55.093000+00:00",
+        "imageUrl": "https://bravenewgeek.com/wp-content/uploads/2015/10/Screen-Shot-2015-10-04-at-4.32.24-PM.png",
+        "sourceUrl": "https://bravenewgeek.com/everything-you-know-about-latency-is-wrong/",
+        "readwiseUrl": "https://read.readwise.io/read/01m1pc7vnnk9e86sew4myjsr7n",
+        "summary": "Okay, maybe not everything you know about latency is wrong. But now that I have your attention, we can talk about why the tools and methodologies you use to measure and reason about latency are lik…",
+        "whyRead": "Raakt je interesse in front-end software development; Raakt je interesse in webperformance, betrouwbaarheid en meetbare gebruikerservaring. Dit essay laat zien waarom gangbare latency-metrics en benchmarks een systeem veel gezonder kunnen laten lijken dan het werkelijk is — een waardevolle waarschuwing voor technische en productbeslissingen.",
+        "bestMoment": "analytisch",
+        "tags": [
+          "front-end software development",
+          "linked-from-readwise",
+          "professional development",
+          "software development"
+        ],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01m1pc7mtmdxzb7dgkk30sj9cn",
+        "title": "The Lost Art of Progressive HTML Rendering",
+        "author": "blog.codinghorror.com",
+        "siteName": "Coding Horror",
+        "category": "article",
+        "language": null,
+        "readingTime": "2 mins",
+        "readingMinutes": 2,
+        "wordCount": 414,
+        "publishedDate": "2005-11-14",
+        "savedDate": "2026-09-04T14:12:48.084000+00:00",
+        "imageUrl": "https://blog.codinghorror.com/content/images/2025/06/6a0120a85dcdae970b0128776fd74e970c-pi.gif",
+        "sourceUrl": "https://blog.codinghorror.com/the-lost-art-of-progressive-html-rendering/",
+        "readwiseUrl": "https://read.readwise.io/read/01m1pc7mtmdxzb7dgkk30sj9cn",
+        "summary": "One thing I dislike about ASP.NET is that it renders the entire web page in memory before sending one single byte of that page to the browser. Consider an ASP.NET page with an embedded DataGrid that relies on ten complex database queries over 15 seconds. Why can’t",
+        "whyRead": "Raakt je interesse in front-end software development en webperformance, progressive enhancement en de kwaliteit van digitale gebruikerservaringen. Dit korte essay herinnert eraan dat gebruikers al iets moeten kunnen zien terwijl de server nog werkt; architectuurkeuzes die wachten afdwingen voelen voor hen als een lege of defecte pagina.",
+        "bestMoment": "leergierig",
+        "tags": [
+          "front-end software development",
+          "linked-from-readwise",
+          "professional development",
+          "software development"
+        ],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01m1pc7fdpfh7wg782tb035r64",
+        "title": "JavaScript isn’t always available and it’s not the user’s fault",
+        "author": "adamsilver.io",
+        "siteName": "Adamsilver.io",
+        "category": "article",
+        "language": null,
+        "readingTime": "4 mins",
+        "readingMinutes": 4,
+        "wordCount": 840,
+        "publishedDate": "2019-11-03",
+        "savedDate": "2026-09-04T14:12:42.548000+00:00",
+        "imageUrl": "https://adamsilver.io/assets/images/card.png",
+        "sourceUrl": "https://adamsilver.io/blog/javascript-isnt-always-available-and-its-not-the-users-fault/",
+        "readwiseUrl": "https://read.readwise.io/read/01m1pc7fdpfh7wg782tb035r64",
+        "summary": "JavaScript fails to work for lots of people. Learn why that is as well as how to combat it in this article.",
+        "whyRead": "Raakt je interesse in front-end software development; Raakt je interesse in technologie, toegankelijkheid en de maatschappelijke verantwoordelijkheid van webontwerp. Dit essay maakt een cruciale nuance zichtbaar: mensen ervaren een site zonder JavaScript vaak door storingen, incompatibiliteit of netwerkbeperkingen, niet omdat ze daar bewust voor kiezen.",
+        "bestMoment": "kritisch",
+        "tags": [
+          "front-end software development",
+          "linked-from-readwise",
+          "professional development",
+          "software development"
+        ],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01m1pc72x702cayjqqyg82aer8",
+        "title": "You can't reason about big balls of mud.",
+        "author": "lethain.com",
+        "siteName": "lethain.com",
+        "category": "article",
+        "language": null,
+        "readingTime": "2 mins",
+        "readingMinutes": 2,
+        "wordCount": 400,
+        "publishedDate": "2018-05-23",
+        "savedDate": "2026-09-04T14:12:29.735000+00:00",
+        "imageUrl": "https://lethain.com/static/author.png",
+        "sourceUrl": "https://lethain.com/reasoning-about-big-balls-of-mud/",
+        "readwiseUrl": "https://read.readwise.io/read/01m1pc72x702cayjqqyg82aer8",
+        "summary": "Big balls of mud appear to have properties, but they don’t. Throw it all away? It’s not so dire. You can extend large property-less systems. It’s a matter of switching from abstract to empirical reasoning.",
+        "whyRead": "Raakt je interesse in software development; Raakt je interesse in softwarearchitectuur, organisatiegroei en het verbeteren van complexe systemen. Dit essay biedt een nuchtere werkwijze voor systemen waarvan de bedoelde eigenschappen door uitzonderingen en technische schuld niet meer betrouwbaar zijn.",
+        "bestMoment": "analytisch",
+        "tags": [
+          "linked-from-readwise",
+          "professional development",
+          "sociology & social structures",
+          "software development"
+        ],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01m1pc6r0jpyb953v8afqdfbxm",
+        "title": "Computers can be understood",
+        "author": "blog.nelhage.com",
+        "siteName": "nelhage.com",
+        "category": "article",
+        "language": null,
+        "readingTime": "14 mins",
+        "readingMinutes": 14,
+        "wordCount": 3604,
+        "publishedDate": "2020-02-16",
+        "savedDate": "2026-09-04T14:12:18.578000+00:00",
+        "imageUrl": null,
+        "sourceUrl": "https://blog.nelhage.com/post/computers-can-be-understood/",
+        "readwiseUrl": "https://read.readwise.io/read/01m1pc6r0jpyb953v8afqdfbxm",
+        "summary": "This post attempts to describe a mindset I’ve come to realize I bring to essentially all of my work with software.",
+        "whyRead": "Raakt je interesse in software development; Raakt je interesse in leren, software en het ontwikkelen van technisch vakmanschap. Nelson Elhage beschrijft een krachtige werkhouding — computers zijn complex maar begrijpelijk — en corrigeert die meteen met de waarschuwing dat begrip geen doel op zichzelf mag worden.",
+        "bestMoment": "leergierig",
+        "tags": [
+          "learning & meta-learning",
+          "linked-from-readwise",
+          "professional development",
+          "software development"
+        ],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01m1pc6mc50zmmjyq5jzna30ek",
+        "title": "Virtual DOM is pure overhead",
+        "author": "svelte.dev",
+        "siteName": "svelte.dev",
+        "category": "article",
+        "language": null,
+        "readingTime": "5 mins",
+        "readingMinutes": 5,
+        "wordCount": 1113,
+        "publishedDate": "2018-12-27",
+        "savedDate": "2026-09-04T14:12:14.854000+00:00",
+        "imageUrl": "https://svelte.dev/images/twitter-card.png",
+        "sourceUrl": "https://svelte.dev/blog/virtual-dom-is-pure-overhead",
+        "readwiseUrl": "https://read.readwise.io/read/01m1pc6mc50zmmjyq5jzna30ek",
+        "summary": "If you've used JavaScript frameworks in the last few years, you've probably heard the phrase 'the virtual DOM is fast', often said to mean that it's faster than the real DOM.",
+        "whyRead": "Raakt je interesse in front-end software development; Raakt je interesse in webtechnologie, performance en de trade-offs achter frameworkkeuzes. Rich Harris ontkracht niet dat de virtual DOM vaak snel genoeg is, maar maakt duidelijk welke extra runtime-arbeid zij kost en waarom een compiler als Svelte die arbeid vooraf kan vermijden.",
+        "bestMoment": "kritisch",
+        "tags": [
+          "front-end software development",
+          "linked-from-readwise",
+          "professional development",
+          "software development"
+        ],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01m1pc6gr3vhv7xva2751hmj1n",
+        "title": "Second-guessing the modern web",
+        "author": "macwright.org",
+        "siteName": "macwright.com",
+        "category": "article",
+        "language": null,
+        "readingTime": "8 mins",
+        "readingMinutes": 8,
+        "wordCount": 1954,
+        "publishedDate": "2020-05-10",
+        "savedDate": "2026-09-04T14:12:11.139000+00:00",
+        "imageUrl": null,
+        "sourceUrl": "https://macwright.org/2020/05/10/spa-fatigue.html",
+        "readwiseUrl": "https://read.readwise.io/read/01m1pc6gr3vhv7xva2751hmj1n",
+        "summary": "What if everyone's wrong?",
+        "whyRead": "Raakt je interesse in front-end software development; Raakt je interesse in webarchitectuur, performance en de vraag wanneer complexiteit werkelijk waarde toevoegt. MacWright onderzoekt React/SPA als patroon — inclusief de legitieme voordelen — en laat zien hoeveel optimalisaties nodig zijn om het voor niet-interactieve sites op het oude webniveau te brengen.",
+        "bestMoment": "kritisch",
+        "tags": [
+          "front-end software development",
+          "linked-from-readwise",
+          "professional development",
+          "software development"
+        ],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01m1pc6crkfe0x9qmnq149gmh0",
+        "title": "🌟 When everything's important, nothing is! 🌟",
+        "author": "aerotwist.com",
+        "siteName": "aerotwist.com",
+        "category": "article",
+        "language": null,
+        "readingTime": "11 mins",
+        "readingMinutes": 11,
+        "wordCount": 2729,
+        "publishedDate": "2016-12-10",
+        "savedDate": "2026-09-04T14:12:07.059000+00:00",
+        "imageUrl": null,
+        "sourceUrl": "https://aerotwist.com/blog/when-everything-is-important-nothing-is/",
+        "readwiseUrl": "https://read.readwise.io/read/01m1pc6crkfe0x9qmnq149gmh0",
+        "summary": "Update 2016-12-12: Some folks aren’t happy with the SSR’d code in the test, because it wasn’t generated the idiomatic way.",
+        "whyRead": "Raakt je interesse in front-end software development; Raakt je interesse in webperformance, frontendarchitectuur en de vraag hoe gebruikers aandacht en interactie ervaren. Alex Russell laat met historische metingen en duidelijke caveats zien dat snelle eerste pixels niet genoeg zijn wanneer framework-boot de main thread blokkeert.",
+        "bestMoment": "analytisch",
+        "tags": [
+          "front-end software development",
+          "linked-from-readwise",
+          "professional development",
+          "software development"
+        ],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01m1pc60dtd1f8namv5yhwjpsr",
+        "title": "Reconnecting",
+        "author": "kryogenix.org",
+        "siteName": "as days pass by",
+        "category": "article",
+        "language": null,
+        "readingTime": "4 mins",
+        "readingMinutes": 4,
+        "wordCount": 983,
+        "publishedDate": "2014-09-22",
+        "savedDate": "2026-09-04T14:11:54.424000+00:00",
+        "imageUrl": "https://www.kryogenix.org/days/2014/09/22/reconnecting/index.html.og_image.png",
+        "sourceUrl": "http://www.kryogenix.org/days/2014/09/22/reconnecting/",
+        "readwiseUrl": "https://read.readwise.io/read/01m1pc60dtd1f8namv5yhwjpsr",
+        "summary": "A post by Stuart Langridge (sil)",
+        "whyRead": "Raakt je interesse in front-end software development; Raakt je interesse in webarchitectuur, progressive enhancement en de spanning tussen robuustheid en offline bruikbaarheid. Stuart Langridge maakt het debat preciezer: server-first voorkomt veel JavaScript-falen, maar een internetafhankelijke serverapp faalt juist in tunnels, slechte wifi en dure verbindingen.",
+        "bestMoment": "kritisch",
+        "tags": [
+          "front-end software development",
+          "linked-from-readwise",
+          "professional development",
+          "software development"
+        ],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01m1pc5ty6322rn2cg1cjtt21p",
+        "title": "Fundamentally connected",
+        "author": "kryogenix.org",
+        "siteName": "as days pass by",
+        "category": "article",
+        "language": null,
+        "readingTime": "5 mins",
+        "readingMinutes": 5,
+        "wordCount": 1226,
+        "publishedDate": "2014-09-19",
+        "savedDate": "2026-09-04T14:11:48.807000+00:00",
+        "imageUrl": "https://www.kryogenix.org/days/2014/09/19/fundamentally-connected/index.html.og_image.png",
+        "sourceUrl": "http://www.kryogenix.org/days/2014/09/19/fundamentally-connected/",
+        "readwiseUrl": "https://read.readwise.io/read/01m1pc5ty6322rn2cg1cjtt21p",
+        "summary": "A post by Stuart Langridge (sil)",
+        "whyRead": "Raakt je interesse in front-end software development; Raakt je interesse in webarchitectuur, toegankelijkheid en de politieke betekenis van platformkeuzes. Stuart Langridge verdedigt JavaScript als universele lijm van het web, maar gebruikt dat debat vooral om een bredere norm te formuleren: ontwerp betekenisvolle ervaringen voor uiteenlopende browsers, apparaten en capaciteiten.",
+        "bestMoment": "reflectief",
+        "tags": [
+          "front-end software development",
+          "linked-from-readwise",
+          "professional development",
+          "software development"
+        ],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01m1pc5k1q6bd3ywk10j54kee5",
+        "title": "Missed Connections",
+        "author": "aaron-gustafson.com",
+        "siteName": "aaron-gustafson.com",
+        "category": "article",
+        "language": null,
+        "readingTime": "9 mins",
+        "readingMinutes": 9,
+        "wordCount": 2355,
+        "publishedDate": "2014-09-19",
+        "savedDate": "2026-09-04T14:11:40.725000+00:00",
+        "imageUrl": "https://res.cloudinary.com/aarongustafson/image/upload/w_1280,h_669,c_fill,q_auto,f_auto/w_760,c_fit,co_rgb:2C2825,g_south_west,x_480,y_205,l_text:Source%20Serif%20Pro_72_700_line_spacing_-18:Missed%20Connections/w_760,c_fit,co_rgb:505050,g_north_west,x_480,y_505,l_text:Open%20Sans_36_light_line_spacing_-5:%2523web-design%20%2523web-development%20%2523javascript/share-card",
+        "sourceUrl": "http://aaron-gustafson.com/notebook/2014/missed-connections/",
+        "readwiseUrl": "https://read.readwise.io/read/01m1pc5k1q6bd3ywk10j54kee5",
+        "summary": "Earlier today, Stuart Langridge—who I worked with on WaSP’s DOM Scripting Task Force and have the utmost respect for—published a blog response to my last post. In it, he made some good points I wanted to highlight, but he also misunderstood one thing I said and managed to avoid addressing the core of my argument. As comments aren’t enabled on his site, I thought I’d respond here.",
+        "whyRead": "Raakt je interesse in front-end software development; Raakt je interesse in webstandaarden, fault tolerance en inclusieve gebruikerservaringen. Aaron Gustafson antwoordt op de kritiek op client-side JavaScript door de verborgen afhankelijkheid centraal te zetten: ontwikkelaars bepalen niet of, wanneer en onder welke omstandigheden de code uiteindelijk draait.",
+        "bestMoment": "kritisch",
+        "tags": [
+          "front-end software development",
+          "linked-from-readwise",
+          "professional development",
+          "software development"
+        ],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01m1pc5f5k3dtmre7wp8bedmr3",
+        "title": "A Fundamental Disconnect",
+        "author": "aaron-gustafson.com",
+        "siteName": "aaron-gustafson.com",
+        "category": "article",
+        "language": null,
+        "readingTime": "4 mins",
+        "readingMinutes": 4,
+        "wordCount": 800,
+        "publishedDate": "2014-09-13",
+        "savedDate": "2026-09-04T14:11:36.755000+00:00",
+        "imageUrl": "https://res.cloudinary.com/aarongustafson/image/upload/w_1280,h_669,c_fill,q_auto,f_auto/w_760,c_fit,co_rgb:2C2825,g_south_west,x_480,y_205,l_text:Source%20Serif%20Pro_72_700_line_spacing_-18:A%20Fundamental%20Disconnect/w_760,c_fit,co_rgb:505050,g_north_west,x_480,y_505,l_text:Open%20Sans_36_light_line_spacing_-5:%2523web-design%20%2523web-development%20%2523javascript/share-card",
+        "sourceUrl": "http://aaron-gustafson.com/notebook/2014/a-fundamental-disconnect/",
+        "readwiseUrl": "https://read.readwise.io/read/01m1pc5f5k3dtmre7wp8bedmr3",
+        "summary": "Yesterday at BlendConf, Scott Hanselman gave a fantastically-entertaining keynote entitled “JavaScript, The Cloud, and the rise of the New Virtual Machine.” In it, he chronicled all of the ways Web development and deployment has changed—for the better—over the years. He also boldly declared that JavaScript is now, effectively, a virtual machine in the browser.",
+        "whyRead": "Raakt je interesse in front-end software development; Raakt je interesse in webarchitectuur, toegankelijkheid en de sociale gevolgen van digitale infrastructuur. Dit essay maakt duidelijk waarom het open web niet behandeld kan worden als een gecontroleerde runtime en waarom progressive enhancement een praktische én inclusieve ontwerpfilosofie blijft.",
+        "bestMoment": "kritisch",
+        "tags": [
+          "front-end software development",
+          "linked-from-readwise",
+          "professional development",
+          "software development"
+        ],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01m1pc5bft2s8qqbgsbptmv6my",
+        "title": "The Cost of Javascript Frameworks",
+        "author": "timkadlec.com",
+        "siteName": "timkadlec.com",
+        "category": "article",
+        "language": null,
+        "readingTime": "12 mins",
+        "readingMinutes": 12,
+        "wordCount": 2968,
+        "publishedDate": "2020-04-21",
+        "savedDate": "2026-09-04T14:11:32.986000+00:00",
+        "imageUrl": null,
+        "sourceUrl": "https://timkadlec.com/remembers/2020-04-21-the-cost-of-javascript-frameworks/",
+        "readwiseUrl": "https://read.readwise.io/read/01m1pc5bft2s8qqbgsbptmv6my",
+        "summary": "And we are shipping an increasingly high amount.",
+        "whyRead": "Raakt je interesse in front-end software development; Raakt je interesse in webperformance, toegankelijkheid en de verborgen kosten van frontendarchitectuur. Tim Kadlec koppelt HTTP Archive-data aan een normatieve vraag: een framework hoort niet alleen ontwikkelaarscomfort te leveren, maar ook een betere uitgangspositie voor de mensen die de site gebruiken.",
+        "bestMoment": "kritisch",
+        "tags": [
+          "front-end software development",
+          "linked-from-readwise",
+          "professional development",
+          "software development"
+        ],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01m1pc576k50j01bhxhbrpm83v",
+        "title": "Why Efficient Hydration in JavaScript Frameworks is so Challenging",
+        "author": "dev.to",
+        "siteName": "DEV Community",
+        "category": "article",
+        "language": null,
+        "readingTime": "9 mins",
+        "readingMinutes": 9,
+        "wordCount": 2223,
+        "publishedDate": "2022-02-03",
+        "savedDate": "2026-09-04T14:11:28.595000+00:00",
+        "imageUrl": "https://media2.dev.to/dynamic/image/width=1000,height=500,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Flqisgld0xxx7djak3367.jpg",
+        "sourceUrl": "https://dev.to/this-is-learning/why-efficient-hydration-in-javascript-frameworks-is-so-challenging-1ca3",
+        "readwiseUrl": "https://read.readwise.io/read/01m1pc576k50j01bhxhbrpm83v",
+        "summary": "Hydration is the name given to the process in JavaScript frameworks to initializing the page in the...",
+        "whyRead": "Raakt je interesse in front-end software development; Raakt je interesse in frontendarchitectuur, webperformance en de trade-offs tussen SPA’s en klassieke webpatronen. Dit overzicht ontleedt hydration als verborgen tweede render en vergelijkt statische routes, progressive hydration, islands, out-of-order hydration en server components.",
+        "bestMoment": "analytisch",
+        "tags": [
+          "front-end software development",
+          "linked-from-readwise",
+          "professional development",
+          "software development"
+        ],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01m1pc52whmcp71rdn2f2d01qb",
+        "title": "Ain’t no party like a third party",
+        "author": "adactio.com",
+        "siteName": "adactio.com",
+        "category": "article",
+        "language": null,
+        "readingTime": "3 mins",
+        "readingMinutes": 3,
+        "wordCount": 603,
+        "publishedDate": "2021-12-09",
+        "savedDate": "2026-09-04T14:11:24.177000+00:00",
+        "imageUrl": "https://adactio.com/images/photo-300.jpg",
+        "sourceUrl": "https://adactio.com/articles/18676",
+        "readwiseUrl": "https://read.readwise.io/read/01m1pc52whmcp71rdn2f2d01qb",
+        "summary": "This was originally published on CSS Tricks in December 2021 as part of a year-end round-up of responses to the question “What is one thing people can do to make their website bettter?”",
+        "whyRead": "Raakt je interesse in front-end software development; Raakt je interesse in technologie, privacy en de sociale verhoudingen achter digitale infrastructuur. Deze polemische Adactio-bijdrage verbindt third-party scripts aan tracking, arbitrary code execution en arbeidsmacht: een technische keuze is ook een keuze over wie controle krijgt.",
+        "bestMoment": "kritisch",
+        "tags": [
+          "front-end software development",
+          "linked-from-readwise",
+          "sociology & social structures",
+          "software development"
+        ],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01m1p8zt55y0s49egf2jx5y33t",
+        "title": "Colocation",
+        "author": "kentcdodds.com",
+        "siteName": "kentcdodds.com",
+        "category": "article",
+        "language": null,
+        "readingTime": "6 mins",
+        "readingMinutes": 6,
+        "wordCount": 1461,
+        "publishedDate": "2019-06-17",
+        "savedDate": "2026-09-04T13:16:05.669000+00:00",
+        "imageUrl": "https://kentcdodds.com/img/social?type=2&title=Colocation&preTitle=Check+out+this+article&img=unsplash%2Fphoto-1444703686981-a3abbc4d4fe3&url=kentcdodds.com%2Fblog%2Fcolocation",
+        "sourceUrl": "https://kentcdodds.com/blog/colocation",
+        "readwiseUrl": "https://read.readwise.io/read/01m1p8zt55y0s49egf2jx5y33t",
+        "summary": "Maintainability through colocation",
+        "whyRead": "Raakt je interesse in software development en technologie en onderhoudbare software; de meerwaarde is een eenvoudige heuristiek voor codebase-structuur.",
+        "bestMoment": "leergierig",
+        "tags": [
+          "front-end software development",
+          "learning & meta-learning",
+          "linked-from-readwise",
+          "software development"
+        ],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01m1p7tvytpqfewp92vat08xw8",
+        "title": "How large DOM sizes affect interactivity, and what you can do about it",
+        "author": "web.dev",
+        "siteName": "web.dev",
+        "category": "article",
+        "language": null,
+        "readingTime": "7 mins",
+        "readingMinutes": 7,
+        "wordCount": 1835,
+        "publishedDate": "2023-05-09",
+        "savedDate": "2026-09-04T12:55:55.097000+00:00",
+        "imageUrl": null,
+        "sourceUrl": "https://web.dev/articles/dom-size-and-interactivity",
+        "readwiseUrl": "https://read.readwise.io/read/01m1p7tvytpqfewp92vat08xw8",
+        "summary": "Large DOM sizes can be a factor in whether interactions are fast or not. Learn more about the relationship between DOM size and INP, and what you can do to reduce DOM size and other ways to limit rendering work when your page has lots of DOM elements.",
+        "whyRead": "Raakt je interesse in front-end software development en webperformance en responsieve interfaces; de meerwaarde is een concrete koppeling tussen DOM-omvang en interactiekosten.",
+        "bestMoment": "leergierig",
+        "tags": [
+          "front-end software development",
+          "linked-from-readwise",
+          "professional development",
+          "software development"
+        ],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01m1p7tppsy5qeyt4m808ekcgx",
+        "title": "High-performance input handling on the web",
+        "author": "nolanlawson.com",
+        "siteName": "Read the Tea Leaves",
+        "category": "article",
+        "language": null,
+        "readingTime": "6 mins",
+        "readingMinutes": 6,
+        "wordCount": 1439,
+        "publishedDate": "2019-08-11",
+        "savedDate": "2026-09-04T12:55:49.721000+00:00",
+        "imageUrl": "https://nolanwlawson.files.wordpress.com/2019/08/screenshot-from-2019-08-10-12-52-15-1.png",
+        "sourceUrl": "https://nolanlawson.com/2019/08/11/high-performance-input-handling-on-the-web/",
+        "readwiseUrl": "https://read.readwise.io/read/01m1p7tppsy5qeyt4m808ekcgx",
+        "summary": "Update: In a follow-up post, I explore some of the subtleties across browsers in how they fire input events. There is a class of UI performance problems that arise from the following situation: An …",
+        "whyRead": "Raakt je interesse in front-end software development en browser-rendering en webperformance; de meerwaarde is een bruikbaar patroon voor het afhandelen van frequente input-events.",
+        "bestMoment": "leergierig",
+        "tags": [
+          "front-end software development",
+          "linked-from-readwise",
+          "professional development",
+          "software development"
+        ],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01m1p7tkmqc28dqvf7shg3rwek",
+        "title": "Service Workers: an Introduction",
+        "author": "developers.google.com",
+        "siteName": "Google for Developers",
+        "category": "article",
+        "language": null,
+        "readingTime": "12 mins",
+        "readingMinutes": 12,
+        "wordCount": 3020,
+        "publishedDate": "2021-06-23",
+        "savedDate": "2026-09-04T12:55:46.583000+00:00",
+        "imageUrl": "https://developers.google.com/web/images/social-webfu-16x9.png",
+        "sourceUrl": "https://developers.google.com/web/fundamentals/primers/service-workers/",
+        "readwiseUrl": "https://read.readwise.io/read/01m1p7tkmqc28dqvf7shg3rwek",
+        "summary": "Rich offline experiences, periodic background syncs, push notifications&mdash;functionality that would normally require a native application&mdash;are coming to the web. Service workers provide the technical foundation that all these features rely on.",
+        "whyRead": "Raakt je interesse in front-end software development en progressive web apps en netwerkbetrouwbaarheid; de meerwaarde is een helder model voor service workers, caching en offline gedrag.",
+        "bestMoment": "leergierig",
+        "tags": [
+          "front-end software development",
+          "linked-from-readwise",
+          "professional development",
+          "software development"
+        ],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01m1p7tfxyq3w5rfsn2343evmr",
+        "title": "Service Workers and PWAs: It's About Reliable Performance, Not \"Offline\"",
+        "author": "infrequently.org",
+        "siteName": "Infrequently Noted",
+        "category": "article",
+        "language": null,
+        "readingTime": "3 mins",
+        "readingMinutes": 3,
+        "wordCount": 606,
+        "publishedDate": "2016-05-04",
+        "savedDate": "2026-09-04T12:55:42.782000+00:00",
+        "imageUrl": "https://infrequently.org/assets/images/alex_500px.jpg",
+        "sourceUrl": "https://infrequently.org/2016/05/service-workers-and-pwas-its-about-reliable-performance-not-offline/",
+        "readwiseUrl": "https://read.readwise.io/read/01m1p7tfxyq3w5rfsn2343evmr",
+        "summary": "Alex Russell on browsers, standards, and the process of progress.",
+        "whyRead": "Raakt je interesse in front-end software development en betrouwbare webapps en performance; de meerwaarde is een kritische herformulering van PWA's rond betrouwbaarheid in plaats van alleen offline gebruik.",
+        "bestMoment": "analytisch",
+        "tags": [
+          "front-end software development",
+          "linked-from-readwise",
+          "professional development",
+          "software development"
+        ],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01m1p7t768p214ge05dyrmmm08",
+        "title": "User-centric performance metrics",
+        "author": "developers.google.com",
+        "siteName": "Google for Developers",
+        "category": "article",
+        "language": null,
+        "readingTime": "5 mins",
+        "readingMinutes": 5,
+        "wordCount": 1276,
+        "publishedDate": "2022-05-11",
+        "savedDate": "2026-09-04T12:55:33.832000+00:00",
+        "imageUrl": "https://web-dev.imgix.net/image/FNkVSAX8UDTTQWQkKftSgGe9clO2/uZ3hQS2EPrA9csOgkoXI.png?auto=format&fit=max&w=1200&fm=auto",
+        "sourceUrl": "https://developers.google.com/web/fundamentals/performance/user-centric-performance-metrics",
+        "readwiseUrl": "https://read.readwise.io/read/01m1p7t768p214ge05dyrmmm08",
+        "summary": "User-centric performance metrics are a critical tool in understanding and improving the experience of your site in a way that benefits real users. ",
+        "whyRead": "Raakt je interesse in front-end software development en meetbare webperformance; de meerwaarde is een gebruikersgericht kader voor labtests, velddata en betekenisvolle metrics.",
+        "bestMoment": "leergierig",
+        "tags": [
+          "front-end software development",
+          "linked-from-readwise",
+          "professional development",
+          "software development"
+        ],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01m1p7skymwn1dbj14qd2xx2a4",
+        "title": "Compilers are the New Frameworks",
+        "author": "tomdale.net",
+        "siteName": "tomdale.net",
+        "category": "article",
+        "language": null,
+        "readingTime": "2 mins",
+        "readingMinutes": 2,
+        "wordCount": 488,
+        "publishedDate": "2017-09-05",
+        "savedDate": "2026-09-04T12:55:14.130000+00:00",
+        "imageUrl": null,
+        "sourceUrl": "https://tomdale.net/2017/09/compilers-are-the-new-frameworks/",
+        "readwiseUrl": "https://read.readwise.io/read/01m1p7skymwn1dbj14qd2xx2a4",
+        "summary": "My current \"investment thesis\" is that what we call web frameworks are\ntransforming from runtime libraries into optimizing compilers. When it comes to\neking performance out of hand-authored JavaScript and accompanying runtime\nlibraries, we've reached the point of diminishing returns.",
+        "whyRead": "Raakt je interesse in front-end software development en compile-time optimalisatie en frontend-architectuur; de meerwaarde is een denkkader waarin frameworks steeds meer als compilers werken.",
+        "bestMoment": "analytisch",
+        "tags": [
+          "front-end software development",
+          "linked-from-readwise",
+          "professional development",
+          "software development"
+        ],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01m1p7s3qfheqrwhjt58z1t5c0",
+        "title": "Page Lifecycle API",
+        "author": "developers.google.com",
+        "siteName": "Google for Developers",
+        "category": "article",
+        "language": null,
+        "readingTime": "18 mins",
+        "readingMinutes": 18,
+        "wordCount": 4648,
+        "publishedDate": "2018-07-24",
+        "savedDate": "2026-09-04T12:54:57.519000+00:00",
+        "imageUrl": "https://wd.imgix.net/image/foR0vJZKULb5AGJExlazy1xYDgI2/xvNiBdV0ZwwLUE4SEdbf.png?auto=format&w=1521",
+        "sourceUrl": "https://developers.google.com/web/updates/2018/07/page-lifecycle-api",
+        "readwiseUrl": "https://read.readwise.io/read/01m1p7s3qfheqrwhjt58z1t5c0",
+        "summary": "The Page Lifecycle API brings app lifecycle features common on mobile operating systems to the web. Browsers are now able to safely freeze and discard background pages to conserve resources, and developers can safely handle these interventions without affecting the user experience.",
+        "whyRead": "Raakt je interesse in front-end software development; Raakt je interesse in technologie en webperformance, met directe waarde voor betrouwbare webapps op mobiele en resource-beperkte apparaten. De meerwaarde zit in het lifecyclemodel en de concrete keuzes rond state opslaan, bfcache en het vermijden van onbetrouwbare unload-events.",
+        "bestMoment": "geconcentreerd",
+        "tags": [
+          "front-end software development",
+          "linked-from-readwise",
+          "professional development",
+          "software development"
+        ],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01m1p7nxnhh4j001458qw06n22",
+        "title": "Making the world’s fastest website, and other mistakes",
+        "author": "dev.to",
+        "siteName": "DEV Community",
+        "category": "article",
+        "language": null,
+        "readingTime": "7 mins",
+        "readingMinutes": 7,
+        "wordCount": 1823,
+        "publishedDate": "2022-03-15",
+        "savedDate": "2026-09-04T12:53:13.006000+00:00",
+        "imageUrl": "https://media2.dev.to/dynamic/image/width=1000,height=500,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Frix9oblwajfxxrtwc9xk.jpg",
+        "sourceUrl": "https://dev.to/tigt/making-the-worlds-fastest-website-and-other-mistakes-56na",
+        "readwiseUrl": "https://read.readwise.io/read/01m1p7nxnhh4j001458qw06n22",
+        "summary": "Crazed developer attempts real ecommerce without front-end JavaScript to prove that y’all playin’",
+        "whyRead": "Raakt je interesse in front-end software development; Raakt je interesse in technologie, webperformance en conceptueel programmeren. De meerwaarde is de combinatie van een persoonlijk verhaal, harde performancebudgetten en een kritische blik op hoe frameworks, SSR en third-parties de gebruikerservaring beïnvloeden.",
+        "bestMoment": "geconcentreerd",
+        "tags": [
+          "front-end software development",
+          "linked-from-readwise",
+          "professional development",
+          "software development"
+        ],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01m1p7414hg20qvstgwygjwdhv",
+        "title": "Be progressive",
+        "author": "adactio.com",
+        "siteName": "adactio.com",
+        "category": "article",
+        "language": null,
+        "readingTime": "8 mins",
+        "readingMinutes": 8,
+        "wordCount": 1949,
+        "publishedDate": "2014-10-23",
+        "savedDate": "2026-09-04T12:43:26.737000+00:00",
+        "imageUrl": "https://adactio.com/images/photo-300.jpg",
+        "sourceUrl": "https://adactio.com/journal/7706",
+        "readwiseUrl": "https://read.readwise.io/read/01m1p7414hg20qvstgwygjwdhv",
+        "summary": "Progressive enhancement, developer convenience, and isomorphic JavaScript.",
+        "whyRead": "Raakt je interesse in front-end software development; Raakt je interesse in technologie, webarchitectuur en de maatschappelijke belofte van het web: brede toegang boven ontwikkelaarsgemak. De meerwaarde is een genuanceerd essay dat progressive enhancement niet als dogma presenteert, maar de echte kosten rond offline werking, codehergebruik en server/client-scheiding laat zien.",
+        "bestMoment": "analytisch",
+        "tags": [
+          "front-end software development",
+          "linked-from-readwise",
+          "professional development",
+          "software development"
+        ],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01m1p73x8174nrsabkgnv1tenw",
+        "title": "Maybe you don’t need that SPA",
+        "author": "medium.com",
+        "siteName": "Medium",
+        "category": "article",
+        "language": null,
+        "readingTime": "6 mins",
+        "readingMinutes": 6,
+        "wordCount": 1478,
+        "publishedDate": "2020-05-12",
+        "savedDate": "2026-09-04T12:43:22.751000+00:00",
+        "imageUrl": "https://miro.medium.com/max/1200/1*DUWijqG1FUW2bxR1LnwVRQ.png",
+        "sourceUrl": "https://medium.com/@mlrawlings/maybe-you-dont-need-that-spa-f2c659bc7fec",
+        "readwiseUrl": "https://read.readwise.io/read/01m1p73x8174nrsabkgnv1tenw",
+        "summary": "There’s an article by Tom MacWright that’s been gaining some attention in the twitter-verse:  Second-guessing the modern web. I’d…",
+        "whyRead": "Raakt je interesse in front-end software development; Raakt je interesse in technologie, webperformance en de architectuur achter componentframeworks. De meerwaarde is een concreet alternatief voor de standaard-SPA: compile-time analyse die server-only code weglaat en hydration fijnmaziger maakt.",
+        "bestMoment": "analytisch",
+        "tags": [
+          "front-end software development",
+          "learning & meta-learning",
+          "linked-from-readwise",
+          "software development"
+        ],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01m1p73qevkcgcsjxr33bk03xs",
+        "title": "Systems that defy detailed understanding",
+        "author": "blog.nelhage.com",
+        "siteName": "nelhage.com",
+        "category": "article",
+        "language": null,
+        "readingTime": "11 mins",
+        "readingMinutes": 11,
+        "wordCount": 2749,
+        "publishedDate": "2020-02-22",
+        "savedDate": "2026-09-04T12:43:16.828000+00:00",
+        "imageUrl": null,
+        "sourceUrl": "https://blog.nelhage.com/post/systems-that-defy-understanding/",
+        "readwiseUrl": "https://read.readwise.io/read/01m1p73qevkcgcsjxr33bk03xs",
+        "summary": "Last week, I wrote about the mindset that computer systems can be understood, and behaviors can be explained, if we’re willing to dig deep enough into the stack of abstractions our software is built atop.",
+        "whyRead": "Raakt je interesse in software development; Raakt je interesse in technologie, systems thinking en leren omgaan met complexe systemen. De meerwaarde is een volwassen aanvulling op diep begrip: weten wanneer je moet modelleren en debuggen, en wanneer je beter empirisch observeert, instrumenteert en de fouttolerantielaag versterkt.",
+        "bestMoment": "analytisch",
+        "tags": [
+          "learning & meta-learning",
+          "linked-from-readwise",
+          "professional development",
+          "software development"
+        ],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01m1p73hjrqhr72t1vwh8ny5b0",
+        "title": "Memory leaks: the forgotten side of web performance",
+        "author": "nolanlawson.com",
+        "siteName": "Read the Tea Leaves",
+        "category": "article",
+        "language": null,
+        "readingTime": "9 mins",
+        "readingMinutes": 9,
+        "wordCount": 2200,
+        "publishedDate": "2022-01-05",
+        "savedDate": "2026-09-04T12:43:10.807000+00:00",
+        "imageUrl": "https://nolanwlawson.files.wordpress.com/2022/01/screenshot-from-2022-01-05-07-42-06.png",
+        "sourceUrl": "https://nolanlawson.com/2022/01/05/memory-leaks-the-forgotten-side-of-web-performance/",
+        "readwiseUrl": "https://read.readwise.io/read/01m1p73hjrqhr72t1vwh8ny5b0",
+        "summary": "I’ve researched and learned enough about client-side memory leaks to know that most web developers aren’t worrying about them too much. If a web app leaks 5 MB on every interaction, but…",
+        "whyRead": "Raakt je interesse in front-end software development; Raakt je interesse in technologie, webperformance en vakmanschap in software. De meerwaarde is de scherpe prioritering: memory leaks zijn vaak onzichtbaar, moeilijk te diagnosticeren en uiteindelijk eenvoudig te repareren, waardoor preventie veel goedkoper kan zijn dan crisiswerk.",
+        "bestMoment": "analytisch",
+        "tags": [
+          "front-end software development",
+          "linked-from-readwise",
+          "professional development",
+          "software development"
+        ],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01m1p73e78g88e21p5pm8ccfy4",
+        "title": "The weirdly obscure art of Streamed HTML",
+        "author": "dev.to",
+        "siteName": "DEV Community",
+        "category": "article",
+        "language": null,
+        "readingTime": "9 mins",
+        "readingMinutes": 9,
+        "wordCount": 2247,
+        "publishedDate": "2022-03-15",
+        "savedDate": "2026-09-04T12:43:07.368000+00:00",
+        "imageUrl": "https://media2.dev.to/dynamic/image/width=1000,height=500,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fjqs50vvpgkt08zsrgckw.jpg",
+        "sourceUrl": "https://dev.to/tigt/the-weirdly-obscure-art-of-streamed-html-4gc2",
+        "readwiseUrl": "https://read.readwise.io/read/01m1p73e78g88e21p5pm8ccfy4",
+        "summary": "Literally “one weird trick” to massively improve Time To First Byte",
+        "whyRead": "Raakt je interesse in front-end software development; Raakt je interesse in technologie, webperformance en de vraag of een SPA werkelijk nodig is. De meerwaarde is een persoonlijk performanceonderzoek dat laat zien hoe API-latency, teamgrenzen, TTFB en streaming samen een architectuurkeuze bepalen.",
+        "bestMoment": "geconcentreerd",
+        "tags": [
+          "front-end software development",
+          "linked-from-readwise",
+          "professional development",
+          "software development"
+        ],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01m1p73a3z76hwhn4t9qqvpdch",
+        "title": "The Single-Page-App Morality Play",
+        "author": "baldurbjarnason.com",
+        "siteName": "baldurbjarnason.com",
+        "category": "article",
+        "language": null,
+        "readingTime": "15 mins",
+        "readingMinutes": 15,
+        "wordCount": 3929,
+        "publishedDate": "2021-09-06",
+        "savedDate": "2026-09-04T12:43:03.167000+00:00",
+        "imageUrl": "https://www.baldurbjarnason.com/icon.png",
+        "sourceUrl": "https://www.baldurbjarnason.com/2021/single-page-app-morality-play/",
+        "readwiseUrl": "https://read.readwise.io/read/01m1p73a3z76hwhn4t9qqvpdch",
+        "summary": "Progress in web development is meaningless if nobody can sustain it.",
+        "whyRead": "Raakt je interesse in front-end software development; Raakt je interesse in technologie én agile team- en organisatieontwikkeling, met directe relevantie voor je werk als Scrum Master. De meerwaarde is dat dit essay een SPA/MPA-keuze herkadert als een vraag over scope, managementkwaliteit en herstelcapaciteit van teams.",
+        "bestMoment": "analytisch",
+        "tags": [
+          "agile",
+          "front-end software development",
+          "linked-from-readwise",
+          "software development"
+        ],
+        "alsoIn": [
+          "aaa-scrum-top-100"
+        ],
+        "memberships": [
+          {
+            "familyId": "scrum",
+            "size": "top-100",
+            "position": 90
+          }
+        ]
+      },
+      {
+        "position": null,
+        "id": "01m1p736502zyy8y32xxb4e3ns",
+        "title": "Accessibility and Low-Powered Devices",
+        "author": "bradfrost.com",
+        "siteName": "Brad Frost",
+        "category": "article",
+        "language": null,
+        "readingTime": "2 mins",
+        "readingMinutes": 2,
+        "wordCount": 480,
+        "publishedDate": "2015-04-09",
+        "savedDate": "2026-09-04T12:42:59.104000+00:00",
+        "imageUrl": "https://bradfrost.com/wp-content/uploads/2015/04/FullSizeRender-2-e1428540964654.jpg",
+        "sourceUrl": "https://bradfrost.com/blog/post/accessibility-and-low-powered-devices/",
+        "readwiseUrl": "https://read.readwise.io/read/01m1p736502zyy8y32xxb4e3ns",
+        "summary": "My wife's cousin suffers from debilitating migraines. She's done everything to reduce the migraines' frequency, from dramatically altering her diet, to trying every available medical treatment, to even moving several times to different climates. Because of her condition, she has to minimize time spe",
+        "whyRead": "Raakt je interesse in front-end software development en technologie, toegankelijkheid en de maatschappelijke kant van webperformance. De meerwaarde is het concrete perspectief van iemand die door migraine en lichtgevoeligheid bewust een zwak e-ink-apparaat gebruikt; daardoor wordt “ondersteunen” breder dan optimaliseren voor de standaardgebruiker.",
+        "bestMoment": "reflectief",
+        "tags": [
+          "front-end software development",
+          "linked-from-readwise",
+          "professional development",
+          "software development"
+        ],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01m1p7327vfsy0dqn6zk81hgja",
+        "title": "What I’ve learned about accessibility in SPAs",
+        "author": "nolanlawson.com",
+        "siteName": "Read the Tea Leaves",
+        "category": "article",
+        "language": null,
+        "readingTime": "9 mins",
+        "readingMinutes": 9,
+        "wordCount": 2318,
+        "publishedDate": "2019-11-05",
+        "savedDate": "2026-09-04T12:42:55.099000+00:00",
+        "imageUrl": "https://nolanwlawson.files.wordpress.com/2019/11/screen-shot-2019-11-03-at-9.00.38-am.png",
+        "sourceUrl": "https://nolanlawson.com/2019/11/05/what-ive-learned-about-accessibility-in-spas/",
+        "readwiseUrl": "https://read.readwise.io/read/01m1p7327vfsy0dqn6zk81hgja",
+        "summary": "Over the past year or so, I’ve learned a lot about accessibility, mostly thanks to working on Pinafore, which is a Single Page App (SPA). In this post, I’d like to share some of the hig…",
+        "whyRead": "Raakt je interesse in front-end software development; Raakt je interesse in technologie, toegankelijkheid en kwaliteitsgericht webdevelopment. De meerwaarde is een praktijkverhaal waarin semantische HTML, SPA-focusbeheer, screenreader-tests en integratietests als één ontwerpvraagstuk worden behandeld.",
+        "bestMoment": "leergierig",
+        "tags": [
+          "front-end software development",
+          "linked-from-readwise",
+          "professional development",
+          "software development"
+        ],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01m1p72yy9zjg54475qj1y9f2q",
+        "title": "Techniques to make a web app load fast, even on a feature phone",
+        "author": "web.dev",
+        "siteName": "web.dev",
+        "category": "article",
+        "language": null,
+        "readingTime": "10 mins",
+        "readingMinutes": 10,
+        "wordCount": 2581,
+        "publishedDate": "2021-05-19",
+        "savedDate": "2026-09-04T12:42:51.721000+00:00",
+        "imageUrl": "https://web-dev.imgix.net/image/admin/14VzGmCgR470nlhPy3Fv.jpg?auto=format&fit=max&w=1200&fm=auto",
+        "sourceUrl": "https://web.dev/load-faster-like-proxx/",
+        "readwiseUrl": "https://read.readwise.io/read/01m1p72yy9zjg54475qj1y9f2q",
+        "summary": "Feature phones are making a resurgence and are popular, especially in emerging markets where 2G is the norm. Here are our learnings from making PROXX, a mobile Minesweeper clone, load fast on feature phones on 2G. ",
+        "whyRead": "Raakt je interesse in front-end software development en webperformance, progressive enhancement en inclusieve technologie; de meerwaarde is een concrete casus met meetbare optimalisaties voor trage apparaten.",
+        "bestMoment": "geconcentreerd",
+        "tags": [
+          "front-end software development",
+          "linked-from-readwise",
+          "professional development",
+          "software development"
+        ],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01m1p5faqxp49r9sfcfk83yaf1",
+        "title": "Notes On Camp",
+        "author": "Susan Sontag",
+        "siteName": null,
+        "category": "pdf",
+        "language": null,
+        "readingTime": "23 mins",
+        "readingMinutes": 23,
+        "wordCount": 6052,
+        "publishedDate": "2010-12-15",
+        "savedDate": "2026-09-04T12:14:39.870000+00:00",
+        "imageUrl": "https://readwise-assets.s3.amazonaws.com/media/reader/parsed_document_assets/404275264/5-bMlWginkGORvDlFXjHeqC2WSjLFNwO2gcXBv5A9OM-cove_Cz7nYf6.png",
+        "sourceUrl": "http://www.marginalutility.org/wp-content/uploads/2011/03/05.-Sontag-Notes-on-Camp-60KB.pdf",
+        "readwiseUrl": "https://read.readwise.io/read/01m1p5faqxp49r9sfcfk83yaf1",
+        "summary": null,
+        "whyRead": "Sontags canonieke essay beschrijft camp als een zelfstandige esthetische sensibiliteit: liefde voor artificie, overdrijving, stijl en mislukte ernst. Het is relevant voor je interesse in kunst- en cultuurinterpretatie omdat het laat zien hoe smaak niet alleen oordeelt, maar ook nieuwe manieren van genieten en begrijpen opent.",
+        "bestMoment": "geïnspireerd",
+        "tags": [
+          "arts & culture",
+          "light-reading",
+          "linked-from-readwise",
+          "pdf-top-10",
+          "philosophy",
+          "sociology & social structures"
+        ],
+        "alsoIn": [
+          "aaa-luchtig-top-10",
+          "aaa-luchtig-top-100",
+          "pdf-top-10",
+          "pdf-top-100"
+        ],
+        "memberships": [
+          {
+            "familyId": "luchtig",
+            "size": "top-10",
+            "position": 4
+          },
+          {
+            "familyId": "luchtig",
+            "size": "top-100",
+            "position": 4
+          },
+          {
+            "familyId": "pdfs",
+            "size": "top-10",
+            "position": 7
+          },
+          {
+            "familyId": "pdfs",
+            "size": "top-100",
+            "position": 7
+          }
+        ]
+      },
+      {
+        "position": null,
+        "id": "01m1p5f7bdm2mncbb7rdp82hp7",
+        "title": "Back/forward cache",
+        "author": "web.dev",
+        "siteName": "web.dev",
+        "category": "article",
+        "language": null,
+        "readingTime": "11 mins",
+        "readingMinutes": 11,
+        "wordCount": 2857,
+        "publishedDate": "2020-11-10",
+        "savedDate": "2026-09-04T12:14:36.397000+00:00",
+        "imageUrl": "https://web-dev.imgix.net/image/admin/Qoeb8x3a11BdGgRzYJbY.png?auto=format&fit=max&w=1200&fm=auto",
+        "sourceUrl": "https://web.dev/bfcache/",
+        "readwiseUrl": "https://read.readwise.io/read/01m1p5f7bdm2mncbb7rdp82hp7",
+        "summary": "Learn how to optimize your pages for instant loads when using the browser's back and forward buttons. ",
+        "whyRead": "Raakt je interesse in front-end software development; Dit web.dev-artikel legt uit hoe de back/forward cache volledige pagina-snapshots gebruikt om navigaties vrijwel onmiddellijk te maken. Het is een nuttige technische casus over hoe browsergedrag, lifecycle-events en performance-analytics samenhangen.",
+        "bestMoment": "leergierig",
+        "tags": [
+          "front-end software development",
+          "linked-from-readwise",
+          "professional development",
+          "software development"
+        ],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01m1p5exa8z0nt57n3tfggpebv",
+        "title": "Routing: I’m not smart enough for a SPA",
+        "author": "dev.to",
+        "siteName": "DEV Community",
+        "category": "article",
+        "language": null,
+        "readingTime": "10 mins",
+        "readingMinutes": 10,
+        "wordCount": 2625,
+        "publishedDate": "2022-04-19",
+        "savedDate": "2026-09-04T12:14:26.120000+00:00",
+        "imageUrl": "https://media2.dev.to/dynamic/image/width=1000,height=500,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fqfd0dzv2j6c7ozes38za.png",
+        "sourceUrl": "https://dev.to/tigt/routing-im-not-smart-enough-for-a-spa-5hki",
+        "readwiseUrl": "https://read.readwise.io/read/01m1p5exa8z0nt57n3tfggpebv",
+        "summary": "Retreating to classic navigation may be cowardice, but it’s INFORMED cowardice",
+        "whyRead": "Raakt je interesse in front-end software development; Dit essay onderzoekt met opvallend veel aandacht voor toegankelijkheid, veiligheid en fouttolerantie waarom een SPA niet automatisch de beste keuze is. Het biedt een bruikbaar denkkader voor de afweging tussen snelle eerste ladingen en soepelere vervolginteracties.",
+        "bestMoment": "kritisch",
+        "tags": [
+          "front-end software development",
+          "linked-from-readwise",
+          "professional development",
+          "software development"
+        ],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01m1p5enqhqpmapttqja6kd4n2",
+        "title": "Can You Afford It?: Real-world Web Performance Budgets",
+        "author": "infrequently.org",
+        "siteName": "Infrequently Noted",
+        "category": "article",
+        "language": null,
+        "readingTime": "14 mins",
+        "readingMinutes": 14,
+        "wordCount": 3659,
+        "publishedDate": "2017-10-22",
+        "savedDate": "2026-09-04T12:14:18.351000+00:00",
+        "imageUrl": "https://infrequently.org/assets/images/alex_500px.jpg",
+        "sourceUrl": "https://infrequently.org/2017/10/can-you-afford-it-real-world-web-performance-budgets/",
+        "readwiseUrl": "https://read.readwise.io/read/01m1p5enqhqpmapttqja6kd4n2",
+        "summary": "Alex Russell on browsers, standards, and the process of progress.",
+        "whyRead": "Raakt je interesse in front-end software development; Dit essay verbindt webperformance aan productresultaat, teamgezondheid en besluitvorming. Het laat met een concreet baseline-model zien hoe performance budgets voorkomen dat technische keuzes en regressies pas zichtbaar worden wanneer een productcrisis ontstaat.",
+        "bestMoment": "analytisch",
+        "tags": [
+          "front-end software development",
+          "linked-from-readwise",
+          "professional development",
+          "software development"
+        ],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01m1p5e6p6ww72hepd01ts9y9c",
+        "title": "Why We're Breaking Up with CSS-in-JS",
+        "author": "dev.to",
+        "siteName": "DEV Community",
+        "category": "article",
+        "language": null,
+        "readingTime": "13 mins",
+        "readingMinutes": 13,
+        "wordCount": 3274,
+        "publishedDate": "2022-10-16",
+        "savedDate": "2026-09-04T12:14:02.950000+00:00",
+        "imageUrl": "https://media2.dev.to/dynamic/image/width=1000,height=500,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fcur8epdr8pkzebm7vutz.png",
+        "sourceUrl": "https://dev.to/srmagura/why-were-breaking-up-wiht-css-in-js-4g9b",
+        "readwiseUrl": "https://read.readwise.io/read/01m1p5e6p6ww72hepd01ts9y9c",
+        "summary": "Hi, I'm Sam — software engineer at Spot and the 2nd most active maintainer of Emotion, a...",
+        "whyRead": "Raakt je interesse in front-end software development; Dit essay van een Emotion-maintainer onderzoekt waarom een team runtime CSS-in-JS verruilde voor Sass Modules en utility classes. Het verbindt developer experience aan concrete runtimekosten, waardoor het een goede casus is voor het toetsen van toolingclaims aan gebruikersperformance.",
+        "bestMoment": "kritisch",
+        "tags": [
+          "front-end software development",
+          "linked-from-readwise",
+          "professional development",
+          "software development"
+        ],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01m1p470j3kcmd7srqg5enza7f",
+        "title": "Style performance and concurrent rendering",
+        "author": "nolanlawson.com",
+        "siteName": "Read the Tea Leaves",
+        "category": "article",
+        "language": null,
+        "readingTime": "5 mins",
+        "readingMinutes": 5,
+        "wordCount": 1200,
+        "publishedDate": "2022-10-22",
+        "savedDate": "2026-09-04T11:52:38.723000+00:00",
+        "imageUrl": "https://nolanwlawson.files.wordpress.com/2022/10/screenshot-from-2022-10-22-08-02-21.png?w=1200",
+        "sourceUrl": "https://nolanlawson.com/2022/10/22/style-performance-and-concurrent-rendering/",
+        "readwiseUrl": "https://read.readwise.io/read/01m1p470j3kcmd7srqg5enza7f",
+        "summary": "I was fascinated recently by “Why we’re breaking up with CSS-in-JS” by Sam Magura. It’s a great overview of some of the benefits and downsides of the “CSS-in-JS”…",
+        "whyRead": "Raakt je interesse in front-end software development; Raakt je interesse in technologie en conceptueel programmeren: Nolan Lawson laat met benchmarks zien hoe CSS-in-JS en Reacts concurrent rendering onverwacht hoge style-kosten kunnen veroorzaken. De meerwaarde zit in een concreet performance-model dat het verschil tussen responsiviteit en snelheid zichtbaar maakt.",
+        "bestMoment": "analytisch",
+        "tags": [
+          "front-end software development",
+          "linked-from-readwise",
+          "professional development",
+          "software development"
+        ],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01m1p46xq969712f75kbt0s5f0",
+        "title": "Using AI to Migrate from Lit to React",
+        "author": "viget.com",
+        "siteName": "https://www.viget.com",
+        "category": "article",
+        "language": null,
+        "readingTime": "6 mins",
+        "readingMinutes": 6,
+        "wordCount": 1375,
+        "publishedDate": "2026-08-17",
+        "savedDate": "2026-09-04T11:52:35.817000+00:00",
+        "imageUrl": "https://svc.assets.viget.com/eyJidWNrZXQiOiJ2Z3QtdmlnZXRjb20tYWxsLWFzc2V0cyIsImtleSI6IlNjcmVlbnNob3QtMjAyNS0wOC0wMS1hdC0xMS4xNC40Mi1BTS5wbmciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjEyMDAsImhlaWdodCI6NjAwLCJmaXQiOiJjb3ZlciJ9LCJ3aXRoTWV0YWRhdGEiOnRydWUsInRvRm9ybWF0IjoicG5nIiwicG5nIjp7ImNvbXByZXNzaW9uTGV2ZWwiOjIsInByb2dyZXNzaXZlIjpmYWxzZX19fQ==?signature=6df0db12097e2866453c5a96d994f034cf9143bf170ee01952fa9ff3ee3754e1",
+        "sourceUrl": "https://www.viget.com/articles/using-ai-to-migrate-from-lit-to-react",
+        "readwiseUrl": "https://read.readwise.io/read/01m1p46xq969712f75kbt0s5f0",
+        "summary": "On a recent project, we needed to change from Lit.js to React to meet new infrastructure requirements without changing the launch deadline. We used AI to make the migration, which cut the time from months to a few weeks.",
+        "whyRead": "Raakt je interesse in front-end software development; Raakt je interesse in AI, technologie en professioneel vakmanschap: dit praktijkartikel laat zien hoe AI een frameworkmigratie versnelt zonder de verantwoordelijkheid voor kwaliteit weg te nemen. De meerwaarde zit in een concreet werkproces met plannen, kleine proefmigraties, tests en visuele QA.",
+        "bestMoment": "leergierig",
+        "tags": [
+          "ai ethics & society",
+          "front-end software development",
+          "linked-from-readwise",
+          "software development"
+        ],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01m1p46tkw2fp087th9qdg88fg",
+        "title": "The \"Developer Experience\" Bait-and-Switch",
+        "author": "infrequently.org",
+        "siteName": "Infrequently Noted",
+        "category": "article",
+        "language": null,
+        "readingTime": "7 mins",
+        "readingMinutes": 7,
+        "wordCount": 1734,
+        "publishedDate": "2018-09-11",
+        "savedDate": "2026-09-04T11:52:32.636000+00:00",
+        "imageUrl": "/wp-content/uploads/2018/09/http_archive_js_bytes_chart.jpg",
+        "sourceUrl": "https://infrequently.org/2018/09/the-developer-experience-bait-and-switch/",
+        "readwiseUrl": "https://read.readwise.io/read/01m1p46tkw2fp087th9qdg88fg",
+        "summary": "We cannot continue to use as much JavaScript as is now normal and expect the web to flourish. At the same time, most developers experience no constraint on their use of JS...until it's too late. Lightweight, effective tools are here, but we're stuck in a rhetorical rut. We need to reset our conversation about 'developer experience' to factor in the asymmetric cost of JS.",
+        "whyRead": "Raakt je interesse in software development; Raakt je interesse in technologie, sociale structuren en professioneel vakmanschap: dit essay ontleedt hoe “developer experience” de kosten voor gebruikers kan verbergen. De meerwaarde zit in een scherpe, evidence-based kritiek op JavaScript-zwaarte, prestatiebudgets en het afwentelen van technische keuzes op mensen met minder krachtige apparaten of netwerken.",
+        "bestMoment": "kritisch",
+        "tags": [
+          "linked-from-readwise",
+          "professional development",
+          "sociology & social structures",
+          "software development"
+        ],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01m1p424hd64wzmwbebm14qgnp",
+        "title": "Taste Is the Talent of the Future",
+        "author": "kaguura.substack.com",
+        "siteName": "The Write Path",
+        "category": "article",
+        "language": null,
+        "readingTime": "10 mins",
+        "readingMinutes": 10,
+        "wordCount": 2479,
+        "publishedDate": "2026-01-25",
+        "savedDate": "2026-09-04T11:49:58.955000+00:00",
+        "imageUrl": "https://substackcdn.com/image/fetch/$s_!ptjP!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F5658a141-45d9-45d3-9c34-3329d49ee997_1600x900.png",
+        "sourceUrl": "https://kaguura.substack.com/p/taste-is-the-talent-of-the-future-283",
+        "readwiseUrl": "https://read.readwise.io/read/01m1p424hd64wzmwbebm14qgnp",
+        "summary": "Why everything on social media sounds identical, how model collapse is flattening culture, and the 5 practices that build genuine taste",
+        "whyRead": "Raakt je interesse in AI, cultuur en zelfgestuurd leren: Kaguura Gichuru verbindt smaak — het kunnen herkennen en verdedigen van kwaliteit — aan oefening, culturele context en de opkomst van generatieve AI. De meerwaarde zit in een essayistische uitleg van waarom frictie, mislukking en bewuste curatie nodig blijven wanneer productie vrijwel gratis wordt.",
+        "bestMoment": "analytisch",
+        "tags": [
+          "ai ethics & society",
+          "arts & culture",
+          "learning & meta-learning",
+          "light-reading",
+          "linked-from-readwise"
+        ],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01m1p41e19rj8hqkynyfycpj6x",
+        "title": "The asteroid currently hitting frontend web development",
+        "author": "Nolan Lawson in",
+        "siteName": "Read the Tea Leaves",
+        "category": "article",
+        "language": null,
+        "readingTime": "10 mins",
+        "readingMinutes": 10,
+        "wordCount": 2428,
+        "publishedDate": "2026-08-23",
+        "savedDate": "2026-09-04T11:49:35.913000+00:00",
+        "imageUrl": "https://nolanlawson.com/wp-content/uploads/2025/01/favicon.png?w=32",
+        "sourceUrl": "https://nolanlawson.com/2026/08/23/the-asteroid-currently-hitting-frontend-web-development/",
+        "readwiseUrl": "https://read.readwise.io/read/01m1p41e19rj8hqkynyfycpj6x",
+        "summary": "A lot of the educators I admire in the frontend web space seem to be either bowing out or dialing back their efforts: Axel Rauschmayer, Salma Alam-Naylor, Josh W. Comeau, to name a few. Other well-…",
+        "whyRead": "Raakt je interesse in front-end software development; Raakt je interesse in AI, technologie en professioneel vakmanschap: Nolan Lawson onderzoekt wat AI-agents betekenen voor frontendontwikkeling, webstandaarden en de overdracht van expertise. De meerwaarde zit in de combinatie van technische voorbeelden, een nuchtere blik op kwaliteitsrisico's en een persoonlijke reflectie op een vakgebied dat snel verandert.",
+        "bestMoment": "kritisch",
+        "tags": [
+          "ai ethics & society",
+          "front-end software development",
+          "software development"
+        ],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01m1p3883n0dvnseabpmfkdt3y",
+        "title": "AI Won't Steal Your Job, You'll Hand It Over",
+        "author": "kaguura.substack.com",
+        "siteName": "The Write Path",
+        "category": "article",
+        "language": null,
+        "readingTime": "6 mins",
+        "readingMinutes": 6,
+        "wordCount": 1494,
+        "publishedDate": "2026-08-02",
+        "savedDate": "2026-09-04T11:35:50.645000+00:00",
+        "imageUrl": "https://substackcdn.com/image/fetch/$s_!1xss!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F0e780937-0d80-4bcd-a3bb-a0bfcfa5a55f_2400x1350.png",
+        "sourceUrl": "https://kaguura.substack.com/p/ai-wont-steal-your-job-youll-hand",
+        "readwiseUrl": "https://read.readwise.io/read/01m1p3883n0dvnseabpmfkdt3y",
+        "summary": "The counterintuitive economics of automation, and what it means for the work you do",
+        "whyRead": "Raakt je interesse in AI, economie en de toekomst van werk: dit essay gebruikt Jevons' paradox om uit te leggen waarom efficiëntere AI niet vanzelf minder cognitief werk betekent. De meerwaarde zit in een toegankelijk model voor de gevolgen van goedkope softwareproductie, menselijke beoordeling en verantwoordelijkheid.",
+        "bestMoment": "analytisch",
+        "tags": [
+          "ai ethics & society",
+          "economics",
+          "linked-from-readwise",
+          "professional development"
+        ],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01m1nxmawbs1m6743sfe3scvhc",
+        "title": "How to Turn An Idea Into an Essay (in 4 hours)",
+        "author": "Kaguura Gichuru",
+        "siteName": "The Write Path",
+        "category": "article",
+        "language": null,
+        "readingTime": "7 mins",
+        "readingMinutes": 7,
+        "wordCount": 1632,
+        "publishedDate": "2026-08-23",
+        "savedDate": "2026-09-04T09:57:35.169000+00:00",
+        "imageUrl": "https://substackcdn.com/image/fetch/$s_!n7zo!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb2fa0bb2-17b5-4e8e-a817-23cb9e93e37b_1600x900.png",
+        "sourceUrl": "https://kaguura.substack.com/p/how-to-write-an-essay",
+        "readwiseUrl": "https://read.readwise.io/read/01m1nxmawbs1m6743sfe3scvhc",
+        "summary": "A practical system for turning scattered thoughts into something worth reading",
+        "whyRead": "Raakt je interesse in essay schrijven en kennisbeheer: Kaguura Gichuru maakt van schrijven een vorm van preproductie, met een duidelijke these, bestemming en route voor de lezer. De meerwaarde is een concreet raamwerk dat ideeën selecteert, argumenten structureert en stijlkeuzes koppelt aan aandacht en leesplezier.",
+        "bestMoment": "leergierig",
+        "tags": [
+          "arts & culture",
+          "learning & meta-learning",
+          "light-reading"
+        ],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
         "id": "01m1nws0v0cg5b29exkhvvhy80",
         "title": "Two Hours a Week",
         "author": "Greg Pallone: The Long Ride",
@@ -20504,12 +23513,12 @@ window.TOP_ARTICLES = {
         "sourceUrl": "https://www.infoq.com/news/2026/09/human-reviews-AI-era/",
         "readwiseUrl": "https://read.readwise.io/read/01m1nbje7rssfyfzakc00nv9ja",
         "summary": "Mandatory AI checks paired with manual spikes for complex changes keep developers sharp. Teams can boost velocity by skipping peer reviews on low-risk PRs and using AI approvals, provided most developers are code owners and teams are small.",
-        "whyRead": "Raakt je interesse in AI, agile softwareontwikkeling en leren: dit stuk verbindt AI-code reviews aan het behoud van menselijk begrip en vakmanschap. Het geeft een bruikbaar kader voor de vraag hoeveel reviewwerk je kunt automatiseren zonder cognitieve schuld en verlies van architecturaal overzicht op te bouwen.",
+        "whyRead": "Raakt je interesse in software development; Raakt je interesse in AI, agile softwareontwikkeling en leren: dit stuk verbindt AI-code reviews aan het behoud van menselijk begrip en vakmanschap. Het geeft een bruikbaar kader voor de vraag hoeveel reviewwerk je kunt automatiseren zonder cognitieve schuld en verlies van architecturaal overzicht op te bouwen.",
         "bestMoment": "leergierig",
         "tags": [
           "agile",
           "ai ethics & society",
-          "technology"
+          "software development"
         ],
         "alsoIn": [],
         "memberships": []
@@ -20663,7 +23672,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "pdfs",
             "size": "top-100",
-            "position": 19
+            "position": 20
           }
         ]
       },
@@ -21328,7 +24337,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 88
+            "position": 89
           }
         ]
       },
@@ -21689,7 +24698,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 71
+            "position": 72
           }
         ]
       },
@@ -23467,12 +26476,12 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-10",
-            "position": 7
+            "position": 8
           },
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 7
+            "position": 8
           }
         ]
       },
@@ -23721,7 +26730,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 87
+            "position": 88
           }
         ]
       },
@@ -23756,7 +26765,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 70
+            "position": 71
           }
         ]
       },
@@ -24449,7 +27458,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "pdfs",
             "size": "top-100",
-            "position": 34
+            "position": 35
           }
         ]
       },
@@ -24536,7 +27545,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 53
+            "position": 54
           }
         ]
       },
@@ -25638,7 +28647,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 52
+            "position": 53
           }
         ]
       },
@@ -26468,7 +29477,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 69
+            "position": 70
           }
         ]
       },
@@ -27282,7 +30291,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 86
+            "position": 87
           }
         ]
       },
@@ -27671,7 +30680,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 85
+            "position": 86
           }
         ]
       },
@@ -29358,7 +32367,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 26
+            "position": 27
           }
         ]
       },
@@ -29653,7 +32662,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "pdfs",
             "size": "top-100",
-            "position": 33
+            "position": 34
           }
         ]
       },
@@ -29910,7 +32919,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 51
+            "position": 52
           }
         ]
       },
@@ -30266,7 +33275,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 68
+            "position": 69
           }
         ]
       },
@@ -30380,7 +33389,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 84
+            "position": 85
           }
         ]
       },
@@ -30770,7 +33779,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 25
+            "position": 26
           }
         ]
       },
@@ -30891,7 +33900,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "pdfs",
             "size": "top-100",
-            "position": 32
+            "position": 33
           }
         ]
       },
@@ -30954,7 +33963,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 50
+            "position": 51
           }
         ]
       },
@@ -31121,7 +34130,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 83
+            "position": 84
           }
         ]
       },
@@ -31303,12 +34312,12 @@ window.TOP_ARTICLES = {
           {
             "familyId": "pdfs",
             "size": "top-10",
-            "position": 9
+            "position": 10
           },
           {
             "familyId": "pdfs",
             "size": "top-100",
-            "position": 9
+            "position": 10
           }
         ]
       },
@@ -31371,7 +34380,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 82
+            "position": 83
           }
         ]
       },
@@ -31541,7 +34550,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "pdfs",
             "size": "top-100",
-            "position": 22
+            "position": 23
           }
         ]
       },
@@ -31627,7 +34636,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 81
+            "position": 82
           }
         ]
       },
@@ -31771,7 +34780,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 80
+            "position": 81
           }
         ]
       },
@@ -31918,7 +34927,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "pdfs",
             "size": "top-100",
-            "position": 18
+            "position": 19
           }
         ]
       },
@@ -31960,7 +34969,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 24
+            "position": 25
           }
         ]
       },
@@ -32029,7 +35038,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 23
+            "position": 24
           }
         ]
       },
@@ -32252,7 +35261,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 49
+            "position": 50
           }
         ]
       },
@@ -32972,7 +35981,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 79
+            "position": 80
           },
           {
             "familyId": "videos",
@@ -33015,7 +36024,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 78
+            "position": 79
           }
         ]
       },
@@ -34399,7 +37408,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 22
+            "position": 23
           }
         ]
       },
@@ -34617,7 +37626,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 21
+            "position": 22
           }
         ]
       },
@@ -34652,7 +37661,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 48
+            "position": 49
           }
         ]
       },
@@ -35503,7 +38512,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 67
+            "position": 68
           }
         ]
       },
@@ -35709,7 +38718,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "pdfs",
             "size": "top-100",
-            "position": 21
+            "position": 22
           }
         ]
       },
@@ -35938,7 +38947,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 47
+            "position": 48
           }
         ]
       },
@@ -35974,7 +38983,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 46
+            "position": 47
           }
         ]
       },
@@ -36065,7 +39074,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 45
+            "position": 46
           }
         ]
       },
@@ -36182,7 +39191,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 65
+            "position": 66
           }
         ]
       },
@@ -36218,7 +39227,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 64
+            "position": 65
           }
         ]
       },
@@ -36260,7 +39269,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 20
+            "position": 21
           }
         ]
       },
@@ -36604,7 +39613,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 63
+            "position": 64
           }
         ]
       },
@@ -36746,7 +39755,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 66
+            "position": 67
           }
         ]
       },
@@ -38041,7 +41050,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 19
+            "position": 20
           }
         ]
       },
@@ -38535,7 +41544,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "pdfs",
             "size": "top-100",
-            "position": 31
+            "position": 32
           }
         ]
       },
@@ -39016,12 +42025,12 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-10",
-            "position": 6
+            "position": 7
           },
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 6
+            "position": 7
           }
         ]
       },
@@ -39479,7 +42488,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "pdfs",
             "size": "top-100",
-            "position": 17
+            "position": 18
           }
         ]
       },
@@ -39809,7 +42818,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 18
+            "position": 19
           }
         ]
       },
@@ -39907,7 +42916,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "pdfs",
             "size": "top-100",
-            "position": 30
+            "position": 31
           }
         ]
       },
@@ -40161,7 +43170,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "pdfs",
             "size": "top-100",
-            "position": 29
+            "position": 30
           }
         ]
       },
@@ -40196,7 +43205,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "pdfs",
             "size": "top-100",
-            "position": 28
+            "position": 29
           }
         ]
       },
@@ -40231,7 +43240,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "pdfs",
             "size": "top-100",
-            "position": 27
+            "position": 28
           }
         ]
       },
@@ -40322,7 +43331,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "pdfs",
             "size": "top-100",
-            "position": 35
+            "position": 36
           }
         ]
       },
@@ -40385,7 +43394,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "pdfs",
             "size": "top-100",
-            "position": 26
+            "position": 27
           }
         ]
       },
@@ -40420,7 +43429,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "pdfs",
             "size": "top-100",
-            "position": 25
+            "position": 26
           }
         ]
       },
@@ -40455,7 +43464,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "pdfs",
             "size": "top-100",
-            "position": 16
+            "position": 17
           }
         ]
       },
@@ -40674,7 +43683,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "pdfs",
             "size": "top-100",
-            "position": 24
+            "position": 25
           }
         ]
       },
@@ -41360,7 +44369,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 17
+            "position": 18
           }
         ]
       },
@@ -41397,7 +44406,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 62
+            "position": 63
           }
         ]
       },
@@ -41710,7 +44719,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 61
+            "position": 62
           }
         ]
       },
@@ -42329,16 +45338,8 @@ window.TOP_ARTICLES = {
           "political philosophy",
           "totalitarianism & fascism"
         ],
-        "alsoIn": [
-          "aaa-luchtig-top-100"
-        ],
-        "memberships": [
-          {
-            "familyId": "luchtig",
-            "size": "top-100",
-            "position": 100
-          }
-        ]
+        "alsoIn": [],
+        "memberships": []
       },
       {
         "position": null,
@@ -42472,16 +45473,8 @@ window.TOP_ARTICLES = {
           "science",
           "technology"
         ],
-        "alsoIn": [
-          "aaa-luchtig-top-100"
-        ],
-        "memberships": [
-          {
-            "familyId": "luchtig",
-            "size": "top-100",
-            "position": 99
-          }
-        ]
+        "alsoIn": [],
+        "memberships": []
       },
       {
         "position": null,
@@ -42514,7 +45507,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 98
+            "position": 100
           }
         ]
       },
@@ -42597,7 +45590,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 97
+            "position": 99
           },
           {
             "familyId": "luchtig-nederlands",
@@ -42670,7 +45663,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 96
+            "position": 98
           }
         ]
       },
@@ -43504,7 +46497,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 16
+            "position": 17
           }
         ]
       },
@@ -43532,16 +46525,8 @@ window.TOP_ARTICLES = {
           "professional development",
           "scrum"
         ],
-        "alsoIn": [
-          "aaa-scrum-top-100"
-        ],
-        "memberships": [
-          {
-            "familyId": "scrum",
-            "size": "top-100",
-            "position": 100
-          }
-        ]
+        "alsoIn": [],
+        "memberships": []
       },
       {
         "position": null,
@@ -43567,16 +46552,8 @@ window.TOP_ARTICLES = {
           "professional development",
           "scrum"
         ],
-        "alsoIn": [
-          "aaa-scrum-top-100"
-        ],
-        "memberships": [
-          {
-            "familyId": "scrum",
-            "size": "top-100",
-            "position": 99
-          }
-        ]
+        "alsoIn": [],
+        "memberships": []
       },
       {
         "position": null,
@@ -43644,7 +46621,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 98
+            "position": 100
           }
         ]
       },
@@ -43679,7 +46656,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 77
+            "position": 78
           }
         ]
       },
@@ -43854,7 +46831,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 97
+            "position": 99
           }
         ]
       },
@@ -43924,7 +46901,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 96
+            "position": 98
           }
         ]
       },
@@ -43959,7 +46936,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 76
+            "position": 77
           }
         ]
       },
@@ -43994,7 +46971,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 75
+            "position": 76
           }
         ]
       },
@@ -44029,7 +47006,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 95
+            "position": 97
           }
         ]
       },
@@ -44064,7 +47041,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 94
+            "position": 96
           }
         ]
       },
@@ -44099,7 +47076,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 93
+            "position": 95
           }
         ]
       },
@@ -44134,7 +47111,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 92
+            "position": 94
           }
         ]
       },
@@ -44169,7 +47146,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 91
+            "position": 93
           }
         ]
       },
@@ -44204,7 +47181,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 74
+            "position": 75
           }
         ]
       },
@@ -44273,7 +47250,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 73
+            "position": 74
           }
         ]
       },
@@ -44500,7 +47477,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 95
+            "position": 97
           }
         ]
       },
@@ -44565,7 +47542,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 43
+            "position": 44
           }
         ]
       },
@@ -44601,7 +47578,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 94
+            "position": 96
           }
         ]
       },
@@ -44637,7 +47614,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 93
+            "position": 95
           }
         ]
       },
@@ -44809,7 +47786,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 92
+            "position": 94
           }
         ]
       },
@@ -44879,7 +47856,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 15
+            "position": 16
           }
         ]
       },
@@ -45220,7 +48197,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 14
+            "position": 15
           }
         ]
       },
@@ -45331,7 +48308,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 13
+            "position": 14
           }
         ]
       },
@@ -45618,7 +48595,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 12
+            "position": 13
           },
           {
             "familyId": "luchtig-nederlands",
@@ -45703,7 +48680,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 11
+            "position": 12
           }
         ]
       },
@@ -45738,7 +48715,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 91
+            "position": 93
           }
         ]
       },
@@ -46053,7 +49030,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 90
+            "position": 92
           }
         ]
       },
@@ -46089,7 +49066,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 89
+            "position": 91
           }
         ]
       },
@@ -46290,7 +49267,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 90
+            "position": 92
           }
         ]
       },
@@ -46506,7 +49483,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 42
+            "position": 43
           },
           {
             "familyId": "luchtig-nederlands",
@@ -47079,7 +50056,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 41
+            "position": 42
           }
         ]
       },
@@ -47403,7 +50380,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 89
+            "position": 91
           }
         ]
       },
@@ -47466,7 +50443,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 60
+            "position": 61
           }
         ]
       },
@@ -47670,7 +50647,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 88
+            "position": 90
           }
         ]
       },
@@ -47734,7 +50711,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 87
+            "position": 89
           }
         ]
       },
@@ -47999,7 +50976,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 86
+            "position": 88
           }
         ]
       },
@@ -48500,7 +51477,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 85
+            "position": 87
           }
         ]
       },
@@ -48598,7 +51575,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 84
+            "position": 86
           }
         ]
       },
@@ -48904,7 +51881,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 40
+            "position": 41
           }
         ]
       },
@@ -49187,12 +52164,12 @@ window.TOP_ARTICLES = {
           {
             "familyId": "pdfs",
             "size": "top-10",
-            "position": 8
+            "position": 9
           },
           {
             "familyId": "pdfs",
             "size": "top-100",
-            "position": 8
+            "position": 9
           }
         ]
       },
@@ -49313,7 +52290,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 83
+            "position": 85
           }
         ]
       },
@@ -49487,7 +52464,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 59
+            "position": 60
           }
         ]
       },
@@ -50069,7 +53046,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 58
+            "position": 59
           }
         ]
       },
@@ -50105,7 +53082,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 39
+            "position": 40
           }
         ]
       },
@@ -50184,7 +53161,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 38
+            "position": 39
           }
         ]
       },
@@ -50509,12 +53486,12 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-10",
-            "position": 5
+            "position": 6
           },
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 5
+            "position": 6
           }
         ]
       },
@@ -50980,7 +53957,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "pdfs",
             "size": "top-100",
-            "position": 23
+            "position": 24
           }
         ]
       },
@@ -51071,7 +54048,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 37
+            "position": 38
           }
         ]
       },
@@ -51109,12 +54086,12 @@ window.TOP_ARTICLES = {
           {
             "familyId": "pdfs",
             "size": "top-10",
-            "position": 7
+            "position": 8
           },
           {
             "familyId": "pdfs",
             "size": "top-100",
-            "position": 7
+            "position": 8
           }
         ]
       },
@@ -51293,12 +54270,12 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-10",
-            "position": 4
+            "position": 5
           },
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 4
+            "position": 5
           }
         ]
       },
@@ -51332,7 +54309,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "pdfs",
             "size": "top-100",
-            "position": 15
+            "position": 16
           }
         ]
       },
@@ -51737,7 +54714,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 36
+            "position": 37
           }
         ]
       },
@@ -51982,7 +54959,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 57
+            "position": 58
           }
         ]
       },
@@ -52264,7 +55241,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "pdfs",
             "size": "top-100",
-            "position": 14
+            "position": 15
           }
         ]
       },
@@ -52298,7 +55275,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "pdfs",
             "size": "top-100",
-            "position": 13
+            "position": 14
           }
         ]
       },
@@ -52332,7 +55309,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "pdfs",
             "size": "top-100",
-            "position": 12
+            "position": 13
           }
         ]
       },
@@ -52492,7 +55469,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "pdfs",
             "size": "top-100",
-            "position": 11
+            "position": 12
           }
         ]
       },
@@ -52528,7 +55505,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 35
+            "position": 36
           }
         ]
       },
@@ -52634,7 +55611,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 82
+            "position": 84
           }
         ]
       },
@@ -52725,7 +55702,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 34
+            "position": 35
           }
         ]
       },
@@ -52762,7 +55739,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 81
+            "position": 83
           }
         ]
       },
@@ -52992,7 +55969,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 44
+            "position": 45
           }
         ]
       },
@@ -53026,7 +56003,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "pdfs",
             "size": "top-100",
-            "position": 20
+            "position": 21
           }
         ]
       },
@@ -53179,7 +56156,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 80
+            "position": 82
           }
         ]
       },
@@ -53215,7 +56192,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 79
+            "position": 81
           }
         ]
       },
@@ -53446,7 +56423,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 33
+            "position": 34
           }
         ]
       },
@@ -53651,7 +56628,6 @@ window.TOP_ARTICLES = {
         "alsoIn": [
           "aaa-top-100",
           "aaa-short-top-100",
-          "aaa-luchtig-top-10",
           "aaa-luchtig-top-100"
         ],
         "memberships": [
@@ -53667,13 +56643,8 @@ window.TOP_ARTICLES = {
           },
           {
             "familyId": "luchtig",
-            "size": "top-10",
-            "position": 10
-          },
-          {
-            "familyId": "luchtig",
             "size": "top-100",
-            "position": 10
+            "position": 11
           }
         ]
       },
@@ -53764,7 +56735,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 78
+            "position": 80
           }
         ]
       },
@@ -54034,7 +57005,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 77
+            "position": 79
           }
         ]
       },
@@ -54070,7 +57041,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 56
+            "position": 57
           }
         ]
       },
@@ -54221,12 +57192,12 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-10",
-            "position": 9
+            "position": 10
           },
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 9
+            "position": 10
           }
         ]
       },
@@ -54262,7 +57233,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 32
+            "position": 33
           }
         ]
       },
@@ -54678,7 +57649,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 31
+            "position": 32
           }
         ]
       },
@@ -55210,7 +58181,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 76
+            "position": 78
           }
         ]
       },
@@ -55732,7 +58703,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 75
+            "position": 77
           }
         ]
       },
@@ -55781,12 +58752,12 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-10",
-            "position": 8
+            "position": 9
           },
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 8
+            "position": 9
           }
         ]
       },
@@ -55884,7 +58855,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 55
+            "position": 56
           }
         ]
       },
@@ -55955,7 +58926,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 30
+            "position": 31
           }
         ]
       },
@@ -56297,24 +59268,17 @@ window.TOP_ARTICLES = {
         "bestMoment": "kritisch",
         "tags": [
           "internet & platforms",
-          "pdf-top-10",
           "programming & software",
           "sociology & inequality"
         ],
         "alsoIn": [
-          "pdf-top-10",
           "pdf-top-100"
         ],
         "memberships": [
           {
             "familyId": "pdfs",
-            "size": "top-10",
-            "position": 10
-          },
-          {
-            "familyId": "pdfs",
             "size": "top-100",
-            "position": 10
+            "position": 11
           }
         ]
       },
@@ -56682,7 +59646,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 29
+            "position": 30
           }
         ]
       },
@@ -56718,7 +59682,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 28
+            "position": 29
           }
         ]
       },
@@ -57074,7 +60038,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 74
+            "position": 76
           }
         ]
       },
@@ -57247,7 +60211,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 54
+            "position": 55
           }
         ]
       },
@@ -57283,7 +60247,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 73
+            "position": 75
           }
         ]
       },
@@ -57536,7 +60500,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 27
+            "position": 28
           }
         ]
       },
@@ -59248,7 +62212,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 72
+            "position": 74
           }
         ]
       }
@@ -59365,23 +62329,23 @@ window.TOP_ARTICLES = {
           "position": 21
         },
         {
+          "id": "01m1p5faqxp49r9sfcfk83yaf1",
+          "title": "Notes On Camp",
+          "position": 22
+        },
+        {
           "id": "01khr5h2d75yj0yt1v6seck4nt",
           "title": "On the compulsion to make art",
-          "position": 22
+          "position": 23
         },
         {
           "id": "01kmbp17grppjmpxqfsq4z3zy7",
           "title": "Sucker",
-          "position": 23
+          "position": 24
         },
         {
           "id": "01kyxa2yd57szp13ha57708606",
           "title": "Your Book Review: The Epic Of Gilgamesh",
-          "position": 24
-        },
-        {
-          "id": "01m0pngvw1pq8s12ss8bgyz5hj",
-          "title": "2026 Survey Of The Product Management Profession",
           "position": 25
         }
       ]
@@ -59446,73 +62410,73 @@ window.TOP_ARTICLES = {
           "position": 11
         },
         {
+          "id": "01m1p5faqxp49r9sfcfk83yaf1",
+          "title": "Notes On Camp",
+          "position": 12
+        },
+        {
           "id": "01kvhbzvsdz71gdn2329t023sp",
           "title": "So, what is morality?",
-          "position": 12
+          "position": 13
         },
         {
           "id": "01kwm2c48x698f162vev3xqyy2",
           "title": "The Knowledge Machine: How Irrationality Created Modern Science",
-          "position": 13
+          "position": 14
         },
         {
           "id": "01ky6y0z3wkzmdhty7gq3qa1wz",
           "title": "So, what is morality?",
-          "position": 14
+          "position": 15
         },
         {
           "id": "01kyab47vf7vat0n76fpwrgrj6",
           "title": "Your Book Review: Breakdown In Pakistan",
-          "position": 15
+          "position": 16
         },
         {
           "id": "01kysnmbwt86e2fk3axtde57h4",
           "title": "Keynote opening Digital Commons EDIC: Moving beyond the Digital Uncommons",
-          "position": 16
+          "position": 17
         },
         {
           "id": "01kyxa2yd57szp13ha57708606",
           "title": "Your Book Review: The Epic Of Gilgamesh",
-          "position": 17
+          "position": 18
         },
         {
           "id": "01m0f295dxr46cfakg2cev3c1d",
           "title": "The Scientist Who Lived with Dozens of Children from the Pacific Islands | The New Yorker",
-          "position": 18
+          "position": 19
         },
         {
           "id": "01m0f7mwvh8ay32g66bb7rfsaj",
           "title": "Who Was Friedrich Nietzsche? His Life And Works",
-          "position": 19
+          "position": 20
         },
         {
           "id": "01m0pngvw1pq8s12ss8bgyz5hj",
           "title": "2026 Survey Of The Product Management Profession",
-          "position": 20
+          "position": 21
         },
         {
           "id": "01m0v38d002hs35994nqn3b993",
           "title": "Re: Re: Re: Pritchard On Liberal Happiness",
-          "position": 21
+          "position": 22
         },
         {
           "id": "01m0yytgcbktcptzp46cf14p2x",
           "title": "The Agile Coach Role Decoded: What Agile Coaches Deliver Versus What Team Members Experience - Koumaditis - 2026 - Journal of Software: Evolution and Process - Wiley Online Library",
-          "position": 22
+          "position": 23
         },
         {
           "id": "01m0yzc8acebxvxektbepqg0kc",
           "title": "Strengthening Large-Scale Agile Teams: The Interplay of High-Quality Relationships, Psychological Safety, and Learning From Failures",
-          "position": 23
+          "position": 24
         },
         {
           "id": "01m18v478gh1q09mxpn9yy1f9m",
           "title": "The choices we make about AI now are critical | Bill Gates",
-          "position": 24
-        },
-        {
-          "id": "01m196wv3n2x3k1nnxbynjm8zt",
-          "title": "Critical Thinking: What is it to be a Critical Thinker?",
           "position": 25
         }
       ]
@@ -59552,98 +62516,98 @@ window.TOP_ARTICLES = {
           "position": 6
         },
         {
+          "id": "01m1p5faqxp49r9sfcfk83yaf1",
+          "title": "Notes On Camp",
+          "position": 7
+        },
+        {
           "id": "01k72qvbmwd9xp0k233cv5qgw2",
           "title": "A blog post is a very long and complex search query to find fascinating people and make them route interesting stuff to your inbox",
-          "position": 7
+          "position": 8
         },
         {
           "id": "01kj59ew6gb91gscpt8f7htspq",
           "title": "Motivation And Personality",
-          "position": 8
+          "position": 9
         },
         {
           "id": "01krmzw6cw28m1y55ds9qrsxjf",
           "title": "Cities and Ambition",
-          "position": 9
+          "position": 10
         },
         {
           "id": "01m196wv3n2x3k1nnxbynjm8zt",
           "title": "Critical Thinking: What is it to be a Critical Thinker?",
-          "position": 10
+          "position": 11
         },
         {
           "id": "01m196wzm7941m99hfab08jcs8",
           "title": "Arguments: Why Do You Believe What You Believe?",
-          "position": 11
+          "position": 12
         },
         {
           "id": "01m0f5thx0x9f1rpdvj5r64m3m",
           "title": "Meditations On Moloch",
-          "position": 12
+          "position": 13
         },
         {
           "id": "01m1kscbbmwsztsc5xam17y12g",
           "title": "Why Teams Don’t Work",
-          "position": 13
+          "position": 14
         },
         {
           "id": "01j8s9z9xg4shgce5z167zc7fn",
           "title": "📰 Food as Currency - by Eleanor Konik - Manuscriptions\n📰 Food as Currency",
-          "position": 14
+          "position": 15
         },
         {
           "id": "01jjmt3derk62gvm51m286870b",
           "title": "🎓 On Famines: why and how they happen. To who?",
-          "position": 15
+          "position": 16
         },
         {
           "id": "01k7qbgbanjkbvetnkfd47vkrz",
           "title": "How I wrote \"Looking for Alice\"",
-          "position": 16
+          "position": 17
         },
         {
           "id": "01k7qbgpmxd9gskhw16jx5b8yk",
           "title": "Popular education in Sweden: much more than you wanted to know",
-          "position": 17
+          "position": 18
         },
         {
           "id": "01krn1jdcn6b450yv1z0j92tz3",
           "title": "The Radical Sunzi",
-          "position": 18
+          "position": 19
         },
         {
           "id": "01kxy1qnae4npandc4x9mv4aw0",
           "title": "To Understand Elon Musk, You Have to Understand This ’60s Sci-Fi Novel",
-          "position": 19
+          "position": 20
         },
         {
           "id": "01ky7qe9p9qwtpk49bzc4pqqhk",
           "title": "Normal Accidents: Living with High-Risk Technologies",
-          "position": 20
+          "position": 21
         },
         {
           "id": "01m059t7cjgvc214sac3e4z08x",
           "title": "Freedom of the Park",
-          "position": 21
+          "position": 22
         },
         {
           "id": "01m059tpnqyq5yy3kq6xrmf1v5",
           "title": "My Country Right or Left",
-          "position": 22
+          "position": 23
         },
         {
           "id": "01m059tzwnjdjtmteh5jpa7bxz",
           "title": "Pleasure Spots",
-          "position": 23
+          "position": 24
         },
         {
           "id": "01m0ndx98tc589pngh3wdq6hwk",
           "title": "The Story of Thanksgiving As a Story",
-          "position": 24
-        },
-        {
-          "id": "01m0nepfjydw8ftc888q73b4kz",
-          "title": "Gaps in History",
           "position": 25
         }
       ]
