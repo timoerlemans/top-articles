@@ -1,6 +1,6 @@
 // Automatisch gegenereerd door scripts/build-data.ts — niet handmatig bewerken.
 window.TOP_ARTICLES = {
-  "generatedAt": "2026-09-05T12:19:24.823Z",
+  "generatedAt": "2026-09-06T08:26:41.344Z",
   "families": [
     {
       "id": "algemeen",
@@ -23539,6 +23539,7 @@ window.TOP_ARTICLES = {
         "bestMoment": "reflectief",
         "tags": [
           "arts & culture",
+          "light-reading",
           "personal growth & life philosophy",
           "philosophy"
         ],
