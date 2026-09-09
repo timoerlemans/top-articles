@@ -57,20 +57,24 @@ moet dan wel al gecompileerd zijn (`npm run compile`, of al aanwezig via git, zi
 Haalt alle Reader-documenten in `later` op, en bouwt per document een schoon item (titel, auteur,
 samenvatting, leestijd, datums, taal, "waarom lezen"/"beste moment" uit `notes`, tags). Ruwe
 `notes`-tekst en volledige taxonomie-tags komen nooit in de output — alleen de twee geparste
-notitieregels en een gefilterde interesse-tagset (structuurtags als `lees-0001`/`dutch-0012`,
-taaltags en curatietags als `must-read`/`shortlist` worden eruit gefilterd, zie
-`ORDINAL_TAG_PATTERN`/`CURATION_TAGS`/`LANGUAGE_TAG_MAP`).
+notitieregels en een gecanonicaliseerde interesse-tagset. Structuurtags als
+`lees-0001`/`dutch-0012`, taaltags, workflowtags en lijsttags worden eruit gefilterd; bekende
+historische aliassen worden naar canonieke tags gemapt in `scripts/lib/readwise-tags.ts`.
 
 ### Scoring & reeksen (`scripts/lib/readwise-priority-v2.ts` + `-v3.ts`)
 
-- v2 bevat de basisscorelogica (`scorePriorityDocument`, zes componenten, Nederlands-detectie).
+- v2 bevat de basisscorelogica (`scorePriorityDocument`, zeven componenten inclusief een
+  Nederlandse-taalbonus, Nederlands-detectie).
 - v3 wrapt v2 en voegt toe: handmatige correcties uit
   `config/readwise-priority-overrides.json` (`{ version: 1, items: { "<doc-id>": { adjustment, reason } } }`,
   reden verplicht bij niet-nul adjustment), tier-indeling (hoog ≥70, midden ≥40, laag <40), en
   `sequencesForDocument` — bepaalt in welke van de `SEQUENCE_ORDER`-reeksen (video, boek, pdf,
   lees, dutch, short, short-dutch, luchtig, luchtig-nederlands, scrum) een document hoort.
-  De `scrum`-reeks is, net als `luchtig`, topic-gebaseerd: een document met de tag `scrum` of
-  `agile` hoort erin (boeken uitgezonderd).
+  De `scrum`-reeks is, net als `luchtig`, topic-gebaseerd: een document met de tag `scrum`,
+  `agile` of `agile & scrum` hoort erin (boeken uitgezonderd). `accessibility` activeert de
+  front-end-development-reeks. Agile-subtags als `team coaching`, `facilitation`,
+  `organizational culture`, `product management` en `flow & delivery` tellen mee als directe
+  beroepsmatige kerninteresse.
   **Boeken/EPUB's horen strikt alleen in de `boek`-reeks**, nooit gecombineerd met andere reeksen
   — dit wordt hard afgedwongen in `validatePriorityExport`.
 - `buildPriorityExport` berekent per document score + reeksen + positie-per-reeks, en valideert
@@ -122,7 +126,8 @@ relatie met de TS-compilatie.
 
 - `config/readwise-priority-overrides.json` is de enige plek voor handmatige scorecorrecties —
   wijzigingen hier gelden in alle lijsten tegelijk (algemene score, niet per familie).
-- Nederlandse taalherkenning bepaalt alleen de Dutch-reeksen; ze levert geen scorepunten op.
+- Nederlandse taalherkenning bepaalt de Dutch-reeksen en geeft Nederlandstalige documenten vijf
+  scorepunten.
 - `data/data.js` en `data/score.js` worden zowel lokaal (`npm run build`) als dagelijks via
   `.github/workflows/refresh.yml` gegenereerd en direct gecommit — verwacht regelmatig
   "chore: ververs Readwise-data"-commits in de geschiedenis die geen inhoudelijke code wijzigen.

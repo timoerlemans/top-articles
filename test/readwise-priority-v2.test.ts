@@ -40,6 +40,7 @@ test("scoret twee kerndomeinen en directe persoonlijke bruikbaarheid onafhankeli
     persoonlijke_bruikbaarheid: 20,
     leeskans: 0,
     onderscheidende_duurzame_waarde: 5,
+    nederlandse_taal: 0,
     aftrek: 0,
   });
   assert.ok(result.rationale.kerninteresse.some((reason) => reason.includes("filosofie")));
@@ -57,6 +58,27 @@ test("behandelt agile als kerninteresse met directe beroepsmatige bruikbaarheid"
   assert.equal(result.score, 55);
 });
 
+test("behandelt agile-subtopics als kerninteresse met directe beroepsmatige bruikbaarheid", () => {
+  for (const tag of ["team coaching", "facilitation", "organizational culture", "product management", "flow & delivery"]) {
+    const result = scorePriorityDocument(document({
+      tags: { [tag]: {} },
+      word_count: 300,
+    }));
+
+    assert.equal(result.components.kerninteresse, 30, tag);
+    assert.equal(result.components.persoonlijke_bruikbaarheid, 20, tag);
+  }
+});
+
+test("geeft Nederlandstalige documenten vijf expliciete bonuspunten", () => {
+  const english = scorePriorityDocument(document({ language: "en" }));
+  const dutch = scorePriorityDocument(document({ language: "nl" }));
+
+  assert.equal(dutch.components.nederlandse_taal, 5);
+  assert.equal(dutch.score, english.score + 5);
+  assert.match(dutch.rationale.nederlandse_taal[0] ?? "", /Nederlandstalig/);
+});
+
 test("herkent kerndomeinen en Waarom lezen in vrije tekst", () => {
   const result = scorePriorityDocument(document({
     title: "Artificial intelligence and political philosophy",
@@ -72,6 +94,7 @@ test("herkent kerndomeinen en Waarom lezen in vrije tekst", () => {
     persoonlijke_bruikbaarheid: 20,
     leeskans: 5,
     onderscheidende_duurzame_waarde: 5,
+    nederlandse_taal: 0,
     aftrek: 0,
   });
   assert.equal(result.score, 85);
@@ -114,7 +137,7 @@ test("behandelt ontbrekende word_count niet als een dun stuk van nul woorden", (
   assert.equal(result.components.aftrek, 0);
 });
 
-test("kent maximale diepgang en duurzame waarde toe aan EPUB zonder Nederlandse bonus", () => {
+test("kent maximale diepgang en duurzame waarde toe aan EPUB met Nederlandse bonus", () => {
   const result = scorePriorityDocument(document({
     category: "epub",
     tags: { dutch: {} },
@@ -124,7 +147,7 @@ test("kent maximale diepgang en duurzame waarde toe aan EPUB zonder Nederlandse 
   assert.equal(result.components.diepgang, 20);
   assert.equal(result.components.onderscheidende_duurzame_waarde, 10);
   assert.equal(result.components.kerninteresse, 0);
-  assert.equal(result.score, 30);
+  assert.equal(result.score, 35);
 });
 
 test("taaldetectie volgt language en daarna expliciete tags", () => {

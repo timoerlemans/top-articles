@@ -25,6 +25,7 @@ window.TOP_ARTICLE_PRIORITY = {
         persoonlijkeBruikbaarheid: 0,
         leeskans: 0,
         duurzameWaarde: 0,
+        nederlandseTaal: 0,
         aftrek: 0
       },
       sequences: ["lees"],

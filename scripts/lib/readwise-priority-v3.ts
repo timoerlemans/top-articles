@@ -79,9 +79,11 @@ const LIGHT_TOPIC_TAGS = new Set([
   "entertainment & pop culture",
 ]);
 
-const SCRUM_TAGS = new Set(["scrum", "agile"]);
+const SCRUM_TAGS = new Set(["scrum", "agile", "agile & scrum"]);
 const SOFTWARE_DEVELOPMENT_TAGS = new Set(["software development", "software-development", "programming & software"]);
-const FRONT_END_DEVELOPMENT_TAGS = new Set(["front-end development", "frontend development", "front end development", "front-end-development"]);
+const FRONT_END_DEVELOPMENT_TAGS = new Set([
+  "front-end development", "frontend development", "front end development", "front-end-development", "accessibility",
+]);
 
 const COMPONENT_KEYS = [
   "kerninteresse",
@@ -89,8 +91,10 @@ const COMPONENT_KEYS = [
   "persoonlijke_bruikbaarheid",
   "leeskans",
   "onderscheidende_duurzame_waarde",
+  "nederlandse_taal",
   "aftrek",
 ] as const satisfies readonly (keyof PriorityComponents)[];
+const LEGACY_COMPONENT_KEYS = COMPONENT_KEYS.filter((key) => key !== "nederlandse_taal");
 
 function isRecord(value: unknown): value is Record<string, unknown> {
   return typeof value === "object" && value !== null;
@@ -373,7 +377,10 @@ export function validatePriorityExport(
       throw new Error(`Ongeldige tier voor ${id}`);
     }
     const components = item.components;
-    if (!isRecord(components) || COMPONENT_KEYS.some((key) => !isFiniteNumber(components[key]))) {
+    // Oude ingecheckte exports hadden nog geen Nederlandse-taalcomponent. Nieuwe
+    // exports bevatten die altijd; oude snapshots blijven leesbaar tot de volgende build.
+    if (!isRecord(components) || LEGACY_COMPONENT_KEYS.some((key) => !isFiniteNumber(components[key])) ||
+      (components.nederlandse_taal !== undefined && !isFiniteNumber(components.nederlandse_taal))) {
       throw new Error(`Ongeldige componenten voor ${id}`);
     }
     if (!Array.isArray(item.sequences) || new Set(item.sequences).size !== item.sequences.length) {

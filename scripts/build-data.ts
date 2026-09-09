@@ -15,6 +15,7 @@ import type { RankedUnifiedEntry, UnifiedCatalogEntry } from "./lib/unified-list
 import { parseReadingMinutes } from "./lib/reading-time.js";
 import { createReadwiseRequester } from "./lib/readwise-request.js";
 import { parseReadwiseDocumentPage } from "./lib/external-schemas.js";
+import { canonicalInterestTags } from "./lib/readwise-tags.js";
 import type { ReadwiseDocument } from "./lib/external-schemas.js";
 
 const execFileAsync = promisify(execFile);
@@ -98,35 +99,13 @@ function languageFor(doc: ReadwiseDocument): string | null {
   return null;
 }
 
-// Ordinale positietags (lees-0001, dutch-0012, short-dutch-0003, ...) zijn structuur,
-// geen interesse-tags — die sluiten we hier uit, net als de aaa-toplijsttags en taal-tags.
-const ORDINAL_TAG_PATTERN = /^[a-z]+(?:-[a-z]+)*-\d{3,4}$/i;
-
-// Curatietags (triage-workflow) zijn geen inhoudelijke interesse, dus ook uitgesloten.
-const CURATION_TAGS = new Set(["must-read", "shortlist", "short-list"]);
 const overridesSchema = z.object({
   version: z.literal(1),
   items: z.record(z.string(), z.object({ adjustment: z.number().optional(), reason: z.string().nullable().optional() })),
 });
 
 function interestTagsFor(doc: ReadwiseDocument): string[] {
-  const tags: string[] = [];
-  for (const key of tagKeys(doc)) {
-    if (key.startsWith("aaa-")) {
-      continue;
-    }
-    if (ORDINAL_TAG_PATTERN.test(key)) {
-      continue;
-    }
-    if (LANGUAGE_TAG_MAP[key.toLowerCase()]) {
-      continue;
-    }
-    if (CURATION_TAGS.has(key.toLowerCase())) {
-      continue;
-    }
-    tags.push(key);
-  }
-  return tags.sort((a, b) => a.localeCompare(b));
+  return canonicalInterestTags(tagKeys(doc));
 }
 
 // Notitieformaat is doorgaans:

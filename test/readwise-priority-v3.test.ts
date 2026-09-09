@@ -120,6 +120,7 @@ test("een document met de tag scrum of agile classificeert als scrum, naast de r
     ["lees", "scrum"]
   );
   assert.ok(sequencesForDocument(document({ tags: { agile: {} } })).includes("scrum"));
+  assert.ok(sequencesForDocument(document({ tags: { "agile & scrum": {} } })).includes("scrum"));
 });
 
 test("een boek met de tag scrum hoort nog steeds strikt alleen in boek", () => {
@@ -140,6 +141,13 @@ test("classificeert development-onderwerptags in hun eigen reeksen", () => {
     ["lees", "software-development", "front-end-development"]);
   assert.deepEqual(sequencesForDocument(document({ category: "epub", tags: { "software development": {}, "front-end development": {} } })), ["boek"]);
   assert.deepEqual(sequencesForDocument(document({ tags: { "professional development": {} } })), ["lees"]);
+});
+
+test("classificeert accessibility als front-end-onderwerp", () => {
+  assert.deepEqual(
+    sequencesForDocument(document({ tags: { accessibility: {} } })),
+    ["lees", "front-end-development"]
+  );
 });
 
 test("gebruikt language en expliciete taaltags zonder tekstheuristiek", () => {

@@ -38,9 +38,10 @@ Front-end development herkent `front-end development`, `frontend development`, `
 en `front-end-development`. Een document met tags voor beide onderwerpen komt in beide reeksen;
 boeken blijven uitsluitend in de boekenreeks.
 
-De build wijzigt nooit Reader-tags. Nederlandse taalherkenning bepaalt alleen de afzonderlijke
-Dutch-reeksen en levert geen scorepunten op. Tagwijzigingen verlopen uitsluitend via een aparte
-proefrun en synchronisatie na expliciete bevestiging.
+De build wijzigt nooit Reader-tags. Nederlandse taalherkenning bepaalt de afzonderlijke
+Dutch-reeksen en geeft Nederlandstalige documenten vijf scorepunten. Inhoudstags worden bij export gecanonicaliseerd;
+workflow-, lijst- en positietags komen niet in de app-filter terecht. Tagwijzigingen verlopen
+uitsluitend via een aparte proefrun en synchronisatie na expliciete bevestiging.
 
 ## Lokaal verversen
 

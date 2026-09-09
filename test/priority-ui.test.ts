@@ -11,7 +11,7 @@ test("de pagina legt de uniforme scorevolgorde uit", async () => {
   assert.match(html, /id="priority-explainer"/);
   assert.match(visibleText, /hogere score.*hoger/i);
   assert.match(visibleText, /gelijke score.*oudste.*saved_at/i);
-  assert.match(visibleText, /Nederlandse.*geen invloed.*score/i);
+  assert.match(visibleText, /Nederlandse.*bonus.*score/i);
 });
 
 test("de browsercode gebruikt alleen Prioriteitsscore", async () => {

@@ -6,7 +6,7 @@ Gebruik `readwise-priority-v3` als enige rangscore voor alle app-lijsten en alle
 
 ## Volgorde en correcties
 
-Sorteer overal op eindscore aflopend, daarna `saved_at` oplopend en ten slotte document-ID. Tiers zijn informatieve labels. De zes bestaande scorecomponenten vormen de basisscore. Een getrackte, gehele handmatige correctie met verplichte reden levert de eindscore binnen 0–100 en geldt in alle lijsten.
+Sorteer overal op eindscore aflopend, daarna `saved_at` oplopend en ten slotte document-ID. Tiers zijn informatieve labels. De zeven scorecomponenten, inclusief vijf punten voor Nederlandstalige documenten, vormen de basisscore. Een getrackte, gehele handmatige correctie met verplichte reden levert de eindscore binnen 0–100 en geldt in alle lijsten.
 
 ## Reeksen en lijsten
 

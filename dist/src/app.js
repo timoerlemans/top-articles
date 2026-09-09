@@ -124,10 +124,11 @@ registerServiceWorker();
         persoonlijke_bruikbaarheid: "Persoonlijke bruikbaarheid",
         leeskans: "Leeskans",
         onderscheidende_duurzame_waarde: "Duurzame waarde",
+        nederlandse_taal: "Nederlandse taal",
         aftrek: "Aftrek",
     };
     const PRIORITY_COMPONENT_KEYS = [
-        "kerninteresse", "diepgang", "persoonlijke_bruikbaarheid", "leeskans", "onderscheidende_duurzame_waarde", "aftrek",
+        "kerninteresse", "diepgang", "persoonlijke_bruikbaarheid", "leeskans", "onderscheidende_duurzame_waarde", "nederlandse_taal", "aftrek",
     ];
     const DEFAULT_SORT_DIR = { score: "desc", position: "asc", saved: "desc", published: "desc", title: "asc" };
     const SORT_FIELDS = ["score", "position", "saved", "published", "title"];
@@ -926,7 +927,7 @@ registerServiceWorker();
             const term = document.createElement("dt");
             term.textContent = label;
             const description = document.createElement("dd");
-            const value = priority.components[key];
+            const value = priority.components[key] ?? 0;
             const scoreText = value > 0 ? `+${value}` : String(value);
             const reasons = priority.rationale[key] ?? [];
             description.textContent = reasons.length > 0 ? `${scoreText} — ${reasons.join(" ")}` : `${scoreText} — niet van toepassing`;

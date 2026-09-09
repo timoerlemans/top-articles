@@ -34,6 +34,7 @@ export interface PriorityComponents {
   persoonlijke_bruikbaarheid: number;
   leeskans: number;
   onderscheidende_duurzame_waarde: number;
+  nederlandse_taal: number;
   aftrek: number;
 }
 
@@ -66,7 +67,10 @@ export const DIRECT_DOMAIN_TAGS = {
   cultuur_games_film: ["games", "games & game studies", "film & tv analysis", "digital culture", "entertainment & pop culture"],
   pkm: ["personal knowledge management", "pkm & kennisbeheer", "pkm & note-taking", "readwise", "tools & workflows"],
   zorgouderschap: ["parenting", "parenting & care", "parenting & family", "mantelzorg", "family & relationships"],
-  agile: ["agile", "scrum"],
+  agile: [
+    "agile", "scrum", "agile & scrum", "team coaching", "facilitation", "organizational culture",
+    "product management", "flow & delivery",
+  ],
 } as const satisfies Record<string, readonly string[]>;
 
 export type DirectDomain = keyof typeof DIRECT_DOMAIN_TAGS;
@@ -79,6 +83,7 @@ export const ADJACENT_TOPICS: readonly string[] = [
 const DIRECT_USEFULNESS_TAGS = [
   "parenting", "parenting & care", "parenting & family", "mantelzorg", "family & relationships",
   "business & work", "career & work", "work & career", "professional development", "scrum", "agile",
+  "team coaching", "facilitation", "organizational culture", "product management", "flow & delivery",
   "writing", "writing & essays", "essay-writing", "personal knowledge management",
   "pkm & kennisbeheer", "pkm & note-taking",
 ];
@@ -92,6 +97,7 @@ const SATURATED_PHILOSOPHY_PHRASES = [
 const AMERICA_MARKERS = ["united states", "u.s.", "us politics", "trump", "america", "american"];
 const DUTCH_TAGS = new Set(["dutch", "nederlands", "nl"]);
 const ENGLISH_TAGS = new Set(["english", "lang:en"]);
+const DUTCH_SCORE_BONUS = 5;
 const SEQUENCE_ORDER: readonly PrioritySequenceV2[] = BASE_SEQUENCE_ORDER;
 
 function normalize(value: string | null | undefined): string {
@@ -223,12 +229,14 @@ export function scorePriorityDocument(doc: PriorityDocument): PriorityScoreResul
   const category = categoryFor(doc);
   const domains = matchedDomains(doc);
   const hasAdjacent = domains.length === 0 && matchesVocabulary(doc, ADJACENT_TOPICS);
+  const dutch = detectDutch(doc);
   const rationale: PriorityRationale = {
     kerninteresse: [],
     diepgang: [],
     persoonlijke_bruikbaarheid: [],
     leeskans: [],
     onderscheidende_duurzame_waarde: [],
+    nederlandse_taal: [],
     aftrek: [],
   };
 
@@ -305,6 +313,11 @@ export function scorePriorityDocument(doc: PriorityDocument): PriorityScoreResul
     );
   }
 
+  const nederlandse_taal = dutch ? DUTCH_SCORE_BONUS : 0;
+  if (dutch) {
+    rationale.nederlandse_taal.push("Nederlandstalig document: +5 bonuspunten.");
+  }
+
   let aftrek = 0;
   const hasUsMarker = AMERICA_MARKERS.some((marker) => tags.has(normalize(marker)) || hasPhrase(text, marker));
   if (tags.has("current affairs") && hasUsMarker && domains.length === 0) {
@@ -335,6 +348,7 @@ export function scorePriorityDocument(doc: PriorityDocument): PriorityScoreResul
     persoonlijke_bruikbaarheid,
     leeskans,
     onderscheidende_duurzame_waarde,
+    nederlandse_taal,
     aftrek,
   };
   const score = clampScore(
@@ -343,6 +357,7 @@ export function scorePriorityDocument(doc: PriorityDocument): PriorityScoreResul
     components.persoonlijke_bruikbaarheid +
     components.leeskans +
     components.onderscheidende_duurzame_waarde +
+    components.nederlandse_taal +
     components.aftrek,
   );
 
