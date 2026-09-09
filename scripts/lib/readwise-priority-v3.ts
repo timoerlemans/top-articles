@@ -74,6 +74,7 @@ const LIGHT_TOPIC_TAGS = new Set([
   "arts & culture",
   "fiction",
   "games",
+  "health & wellness",
   "food & cooking",
   "sports & recreation",
   "entertainment & pop culture",

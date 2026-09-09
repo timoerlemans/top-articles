@@ -92,8 +92,17 @@ test("een pdf is niet strikt exclusief en mag wel in luchtig belanden", () => {
   );
 });
 
-test("een lichte onderwerptag zoals fiction classificeert ook zonder light-reading-tag als luchtig", () => {
-  assert.ok(sequencesForDocument(document({ tags: { fiction: {} } })).includes("luchtig"));
+test("classificeert alle canonieke luchtige onderwerptags ook zonder light-reading-tag als luchtig", () => {
+  for (const tag of [
+    "fiction",
+    "games",
+    "health & wellness",
+    "food & cooking",
+    "sports & recreation",
+    "entertainment & pop culture",
+  ]) {
+    assert.ok(sequencesForDocument(document({ tags: { [tag]: {} } })).includes("luchtig"), `luchtig ontbreekt voor ${tag}`);
+  }
 });
 
 test("een onderwerptag buiten de lichte kernset classificeert niet als luchtig", () => {
