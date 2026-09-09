@@ -1,6 +1,6 @@
 // Automatisch gegenereerd door scripts/build-data.ts — niet handmatig bewerken.
 window.TOP_ARTICLES = {
-  "generatedAt": "2026-09-08T08:41:35.773Z",
+  "generatedAt": "2026-09-09T04:47:58.860Z",
   "families": [
     {
       "id": "algemeen",
@@ -747,34 +747,6 @@ window.TOP_ARTICLES = {
             },
             {
               "position": 15,
-              "id": "01m0k3hr0fm2zdqmg55xb8dnb0",
-              "title": "If AI Can Replace Your Scrummaster, You Never Had a Scrummaster",
-              "author": "Erwin Verweij",
-              "siteName": "Agile Viking Galaxy",
-              "category": "article",
-              "language": null,
-              "readingTime": "6 mins",
-              "readingMinutes": 6,
-              "wordCount": 1459,
-              "publishedDate": "2026-08-13",
-              "savedDate": "2026-08-21T21:27:36.719000+00:00",
-              "imageUrl": "https://substackcdn.com/image/fetch/$s_!qJNZ!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F5da4be90-839a-48b2-9ae6-9b7437e05676_1683x935.png",
-              "sourceUrl": "https://agileviking.substack.com/p/if-ai-can-replace-your-scrummaster?utm_source=direct&r=1r0y5d&utm_campaign=post-expanded-share&utm_medium=post%20viewer",
-              "readwiseUrl": "https://read.readwise.io/read/01m0k3hr0fm2zdqmg55xb8dnb0",
-              "summary": "Why artificial intelligence will not kill Agile coaching, but may finally remove the administrative theatre that has been impersonating it",
-              "whyRead": "Raakt je interesse in scrum en agile coaching — scherp onderscheid tussen wat AI wél kan overnemen (ceremonie-administratie) en wat niet (psychologische veiligheid, macht, vertrouwen).",
-              "bestMoment": "analytisch",
-              "tags": [
-                "scrum"
-              ],
-              "alsoIn": [
-                "aaa-short-top-100",
-                "aaa-scrum-top-10",
-                "aaa-scrum-top-100"
-              ]
-            },
-            {
-              "position": 16,
               "id": "01m0xzvm7dw0b5df1st7njp4d5",
               "title": "Depression plays for the draw",
               "author": "Jared Henderson from Commonplace Philosophy",
@@ -801,7 +773,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 17,
+              "position": 16,
               "id": "01m0yzc4t547m4zm0yvgrk39xb",
               "title": "The Future of Agile Coaches: Do Large Companies Need a Standardized Agile Coach Certification and What Are the Alternatives?",
               "author": "doi.org",
@@ -832,7 +804,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 18,
+              "position": 17,
               "id": "01m18x5tkp50nvk9xr4scqk691",
               "title": "Tales of rebellion against externally-opaque meritocracies",
               "author": "Steven Byrnes",
@@ -863,7 +835,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 19,
+              "position": 18,
               "id": "01m196xchg8p7w1j7b5f3y5f7h",
               "title": "Karl Marx’s Conception of Alienation",
               "author": "Author Dan Lowe",
@@ -890,7 +862,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 20,
+              "position": 19,
               "id": "01m1ckrdyh8tprrhj5bvqysbef",
               "title": "Who are your jaguar hunters?",
               "author": "Afonso Franco",
@@ -920,7 +892,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 21,
+              "position": 20,
               "id": "01m1k4njhg2tq0hr2s2c7q8mc2",
               "title": "The First Broken Window",
               "author": "Erwin Verweij from Agile Viking Galaxy",
@@ -950,7 +922,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 22,
+              "position": 21,
               "id": "01m1zvm6gs1fej0qfpx176aftk",
               "title": "My unsung hero of science: Harriet Taylor Mill, the radical feminist philosopher who lived in the shadow of her husband",
               "author": "Helen McCabe",
@@ -976,6 +948,36 @@ window.TOP_ARTICLES = {
               ],
               "alsoIn": [
                 "aaa-short-top-100"
+              ]
+            },
+            {
+              "position": 22,
+              "id": "01m1zz7a3yxy2nte35hssybary",
+              "title": "Continuous Product Discovery — Product Talk",
+              "author": "producttalk.org",
+              "siteName": "Product Talk",
+              "category": "article",
+              "language": null,
+              "readingTime": "8 mins",
+              "readingMinutes": 8,
+              "wordCount": 1888,
+              "publishedDate": "2021-08-18",
+              "savedDate": "2026-09-08T07:37:49.950000+00:00",
+              "imageUrl": "https://www.producttalk.org/wp-content/uploads/2021/08/discovery-and-delivery.jpeg",
+              "sourceUrl": "https://www.producttalk.org/2021/08/product-discovery/",
+              "readwiseUrl": "https://read.readwise.io/read/01m1zz7a3yxy2nte35hssybary",
+              "summary": "Product discovery is a hot topic in the product world. This article covers what it is, the history and evolution, and today's best practices.",
+              "whyRead": "Raakt je werk als Scrum Master en je interesse in productontwikkeling; het artikel ordent product discovery rond uitkomsten, klantinzichten en voortdurende leerloops in plaats van rond losse projecten.",
+              "bestMoment": "leergierig",
+              "tags": [
+                "agile",
+                "business & startups",
+                "professional development"
+              ],
+              "alsoIn": [
+                "aaa-short-top-100",
+                "aaa-scrum-top-10",
+                "aaa-scrum-top-100"
               ]
             },
             {
@@ -5388,34 +5390,6 @@ window.TOP_ARTICLES = {
             },
             {
               "position": 14,
-              "id": "01m0k3hr0fm2zdqmg55xb8dnb0",
-              "title": "If AI Can Replace Your Scrummaster, You Never Had a Scrummaster",
-              "author": "Erwin Verweij",
-              "siteName": "Agile Viking Galaxy",
-              "category": "article",
-              "language": null,
-              "readingTime": "6 mins",
-              "readingMinutes": 6,
-              "wordCount": 1459,
-              "publishedDate": "2026-08-13",
-              "savedDate": "2026-08-21T21:27:36.719000+00:00",
-              "imageUrl": "https://substackcdn.com/image/fetch/$s_!qJNZ!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F5da4be90-839a-48b2-9ae6-9b7437e05676_1683x935.png",
-              "sourceUrl": "https://agileviking.substack.com/p/if-ai-can-replace-your-scrummaster?utm_source=direct&r=1r0y5d&utm_campaign=post-expanded-share&utm_medium=post%20viewer",
-              "readwiseUrl": "https://read.readwise.io/read/01m0k3hr0fm2zdqmg55xb8dnb0",
-              "summary": "Why artificial intelligence will not kill Agile coaching, but may finally remove the administrative theatre that has been impersonating it",
-              "whyRead": "Raakt je interesse in scrum en agile coaching — scherp onderscheid tussen wat AI wél kan overnemen (ceremonie-administratie) en wat niet (psychologische veiligheid, macht, vertrouwen).",
-              "bestMoment": "analytisch",
-              "tags": [
-                "scrum"
-              ],
-              "alsoIn": [
-                "aaa-top-100",
-                "aaa-scrum-top-10",
-                "aaa-scrum-top-100"
-              ]
-            },
-            {
-              "position": 15,
               "id": "01m0xzvm7dw0b5df1st7njp4d5",
               "title": "Depression plays for the draw",
               "author": "Jared Henderson from Commonplace Philosophy",
@@ -5442,7 +5416,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 16,
+              "position": 15,
               "id": "01m0yzc4t547m4zm0yvgrk39xb",
               "title": "The Future of Agile Coaches: Do Large Companies Need a Standardized Agile Coach Certification and What Are the Alternatives?",
               "author": "doi.org",
@@ -5473,7 +5447,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 17,
+              "position": 16,
               "id": "01m196xchg8p7w1j7b5f3y5f7h",
               "title": "Karl Marx’s Conception of Alienation",
               "author": "Author Dan Lowe",
@@ -5500,7 +5474,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 18,
+              "position": 17,
               "id": "01m1ckrdyh8tprrhj5bvqysbef",
               "title": "Who are your jaguar hunters?",
               "author": "Afonso Franco",
@@ -5530,7 +5504,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 19,
+              "position": 18,
               "id": "01m1k4njhg2tq0hr2s2c7q8mc2",
               "title": "The First Broken Window",
               "author": "Erwin Verweij from Agile Viking Galaxy",
@@ -5560,7 +5534,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 20,
+              "position": 19,
               "id": "01m1zvm6gs1fej0qfpx176aftk",
               "title": "My unsung hero of science: Harriet Taylor Mill, the radical feminist philosopher who lived in the shadow of her husband",
               "author": "Helen McCabe",
@@ -5586,6 +5560,36 @@ window.TOP_ARTICLES = {
               ],
               "alsoIn": [
                 "aaa-top-100"
+              ]
+            },
+            {
+              "position": 20,
+              "id": "01m1zz7a3yxy2nte35hssybary",
+              "title": "Continuous Product Discovery — Product Talk",
+              "author": "producttalk.org",
+              "siteName": "Product Talk",
+              "category": "article",
+              "language": null,
+              "readingTime": "8 mins",
+              "readingMinutes": 8,
+              "wordCount": 1888,
+              "publishedDate": "2021-08-18",
+              "savedDate": "2026-09-08T07:37:49.950000+00:00",
+              "imageUrl": "https://www.producttalk.org/wp-content/uploads/2021/08/discovery-and-delivery.jpeg",
+              "sourceUrl": "https://www.producttalk.org/2021/08/product-discovery/",
+              "readwiseUrl": "https://read.readwise.io/read/01m1zz7a3yxy2nte35hssybary",
+              "summary": "Product discovery is a hot topic in the product world. This article covers what it is, the history and evolution, and today's best practices.",
+              "whyRead": "Raakt je werk als Scrum Master en je interesse in productontwikkeling; het artikel ordent product discovery rond uitkomsten, klantinzichten en voortdurende leerloops in plaats van rond losse projecten.",
+              "bestMoment": "leergierig",
+              "tags": [
+                "agile",
+                "business & startups",
+                "professional development"
+              ],
+              "alsoIn": [
+                "aaa-top-100",
+                "aaa-scrum-top-10",
+                "aaa-scrum-top-100"
               ]
             },
             {
@@ -10108,6 +10112,33 @@ window.TOP_ARTICLES = {
             },
             {
               "position": 28,
+              "id": "01m207r5gtkhknjq6ezh237a4s",
+              "title": "The Thief Who Wanted to Save the World",
+              "author": "Longreads",
+              "siteName": "Longreads",
+              "category": "rss",
+              "language": null,
+              "readingTime": "9 mins",
+              "readingMinutes": 9,
+              "wordCount": 2320,
+              "publishedDate": "2026-09-08",
+              "savedDate": "2026-09-08T10:06:47.906000+00:00",
+              "imageUrl": "https://i0.wp.com/longreads.com/wp-content/uploads/2026/09/bleeding-hearts-2.jpg?fit=1024%2C683&amp;quality=89&amp;ssl=1",
+              "sourceUrl": "https://longreads.com/2026/09/08/austria-robbery-atavist-magazine/",
+              "readwiseUrl": "https://read.readwise.io/read/01m207r5gtkhknjq6ezh237a4s",
+              "summary": "\"An ex-cop pulled off the largest armed robbery in Austria’s history, with his friend’s mistress as his accomplice. But he wasn’t trying to get rich. He wanted to be a real-life Robin Hood.\"",
+              "whyRead": "Raakt je interesse in geschiedenis, cultuur en morele paradoxen; deze longread vertelt een uitzonderlijk waargebeurd verhaal over misdaad, liefdadigheid en de vraag wanneer goede bedoelingen ontsporen.",
+              "bestMoment": "ontspannen",
+              "tags": [
+                "arts & culture",
+                "history",
+                "light-reading",
+                "sociology & social structures"
+              ],
+              "alsoIn": []
+            },
+            {
+              "position": 29,
               "id": "01j421m304fbn5rwfh0a9bpzp3",
               "title": "Fear as a Game",
               "author": "Cheri Lucas Rowlands",
@@ -10134,7 +10165,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 29,
+              "position": 30,
               "id": "01jkgy1x7yacy66ys284ddq8yw",
               "title": "Why do most popular science books suck?",
               "author": "Erik Hoel",
@@ -10161,7 +10192,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 30,
+              "position": 31,
               "id": "01jkh2vn8hfm2b2ys7eefgrw9h",
               "title": "Advice for a friend who wants to start a blog",
               "author": "Henrik Karlsson",
@@ -10188,7 +10219,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 31,
+              "position": 32,
               "id": "01k2p37kkgn4hk8dn1qxb870qd",
               "title": "How to Teach Textual Criticism To Fifth-Graders",
               "author": "nephew jonathan",
@@ -10215,7 +10246,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 32,
+              "position": 33,
               "id": "01k7j6p8a88r4t4zarr6pqya82",
               "title": "Writing as communion",
               "author": "Henrik Karlsson",
@@ -10242,7 +10273,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 33,
+              "position": 34,
               "id": "01k7qbg40qvbeqszm5nr2wpmyz",
               "title": "Dostoevsky as lover",
               "author": "Henrik Karlsson",
@@ -10269,7 +10300,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 34,
+              "position": 35,
               "id": "01k9p5pa1athkkdm2j2nxfhf26",
               "title": "A Modest Proposal for Life After Death",
               "author": "Brian Klaas",
@@ -10296,7 +10327,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 35,
+              "position": 36,
               "id": "01kc53cvnp2fqe09v8vmbym5mx",
               "title": "🎓 On Teleportation & Understanding via Writing",
               "author": "Eleanor Konik",
@@ -10323,7 +10354,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 36,
+              "position": 37,
               "id": "01kchxs5s6y615eazs4hhqgm7h",
               "title": "A list of books and essays that I love",
               "author": "Henrik Karlsson",
@@ -10350,7 +10381,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 37,
+              "position": 38,
               "id": "01kf916mwdxkdydep3wwes334d",
               "title": "Alessandro Manzoni’s “The Betrothed,” Reconsidered | The New Yorker",
               "author": "Joan Acocella",
@@ -10377,7 +10408,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 38,
+              "position": 39,
               "id": "01kj5a1mnca55881qyj3jzm64b",
               "title": "The Library of Lost Maps",
               "author": "Brian Klaas",
@@ -10404,7 +10435,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 39,
+              "position": 40,
               "id": "01kmsrjw7b8q2k5fb547bxerv2",
               "title": "The Death of Spotify: Why Streaming is Minutes Away From Being Obsolete",
               "author": "Joel Gouveia",
@@ -10431,7 +10462,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 40,
+              "position": 41,
               "id": "01kn4c4mv24kk2vjxqcn0y6efj",
               "title": "Days are enormous",
               "author": "Henrik Karlsson",
@@ -10458,7 +10489,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 41,
+              "position": 42,
               "id": "01krm5d32nfhsa44jvbq4s6nny",
               "title": "📚 Fear, War, & God: Post-Rationalist Philosophy... in SPAAAAAACE",
               "author": "Eleanor Konik",
@@ -10486,7 +10517,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 42,
+              "position": 43,
               "id": "01ksspmmztsr8pd0zq5k2pcnke",
               "title": "The Wrong Fight over AI and Writing",
               "author": "Miller’s Book Review 📚",
@@ -10512,7 +10543,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 43,
+              "position": 44,
               "id": "01kt9sbc2hgkymt9expprgkgdp",
               "title": "In de Apocalyps is de vrouw een teken van hoop",
               "author": "De Ongelooflijke",
@@ -10545,7 +10576,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 44,
+              "position": 45,
               "id": "01kw5smp76n3se61jv02c1zzx9",
               "title": "Why Writing Feels So Unnatural",
               "author": "A Mug of Insights",
@@ -10572,7 +10603,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 45,
+              "position": 46,
               "id": "01kbdw3w0vrspnk8yzrfxypq51",
               "title": "The Quiet Collapse of Reading—and the Only Real Solution",
               "author": "Joel J Miller",
@@ -10599,7 +10630,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 46,
+              "position": 47,
               "id": "01m059vdx0s3ff8xbj5eh1y9x3",
               "title": "Some Thoughts on the Common Toad",
               "author": "orwellfoundation.com",
@@ -10625,7 +10656,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 47,
+              "position": 48,
               "id": "01m059vn29v5bjn4nbhe0efecg",
               "title": "The Proletarian Writer",
               "author": "orwellfoundation.com",
@@ -10652,7 +10683,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 48,
+              "position": 49,
               "id": "01m059vqea4t02392f7364m2jr",
               "title": "The Spike",
               "author": "orwellfoundation.com",
@@ -10679,7 +10710,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 49,
+              "position": 50,
               "id": "01m0d55v1be0bcsmx7xczarntk",
               "title": "That’s the Deal: What Rankles You Most About AI Prose?",
               "author": "Miller’s Book Review 📚",
@@ -10705,7 +10736,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 50,
+              "position": 51,
               "id": "01m0nepgcz9yg6btdcstdnp60r",
               "title": "The Extravagant Details of Biography",
               "author": "papyrusrampant.substack.com",
@@ -10732,7 +10763,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 51,
+              "position": 52,
               "id": "01m0sqyj8vvqmt4r5dn463bak3",
               "title": "Humanists Have Done Nothing Wrong",
               "author": "Defector",
@@ -10759,7 +10790,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 52,
+              "position": 53,
               "id": "01m13bydjdttq1jnhmnt13k22z",
               "title": "Ladies of the ’80s",
               "author": "Lisa Whittington-Hill",
@@ -10786,7 +10817,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 53,
+              "position": 54,
               "id": "01m1971j070aamhztgxr4k22jg",
               "title": "A Serious House | The Point Magazine",
               "author": "James Chappel",
@@ -10813,7 +10844,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 54,
+              "position": 55,
               "id": "01m19n648x8mjc6v2bnx74cpnk",
               "title": "The Golden Rule for Becoming a Better Writer",
               "author": "T. R. Napper",
@@ -10839,7 +10870,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 55,
+              "position": 56,
               "id": "01m1tw8t22s6fc27h7zb9zgpte",
               "title": "De grootste bedreiging voor onze christelijke cultuur? Een lege boekenkast",
               "author": "deongelooflijke.substack.com",
@@ -10867,7 +10898,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 56,
+              "position": 57,
               "id": "01m1v3gmjamae3pe9yj4zdykh4",
               "title": "Culture clash",
               "author": "Sam Dresser",
@@ -10894,7 +10925,34 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 57,
+              "position": 58,
+              "id": "01m2093q7bj4j3wk3fzpev5jkw",
+              "title": "Hoe het christendom onze cultuur vormde",
+              "author": "De Ongelooflijke",
+              "siteName": "Substack",
+              "category": "email",
+              "language": null,
+              "readingTime": "17 mins",
+              "readingMinutes": 17,
+              "wordCount": 4268,
+              "publishedDate": "2026-09-08",
+              "savedDate": "2026-09-08T10:30:38.060000+00:00",
+              "imageUrl": null,
+              "sourceUrl": "mailto:reader-forwarded-email/1b784208e87f781deb9ff22e16547e8f",
+              "readwiseUrl": "https://read.readwise.io/read/01m2093q7bj4j3wk3fzpev5jkw",
+              "summary": "Het lijkt soms alsof we de weg kwijt zijn en alsof onze cultuur zich in een midlifecrisis bevindt.",
+              "whyRead": "Raakt je interesse in ideeëngeschiedenis, cultuur en politieke waarden; deze Nederlandstalige boekinleiding onderzoekt hoe tweeduizend jaar christendom doorwerken in wetten, kunst, taal en ons wereldbeeld.",
+              "bestMoment": "analytisch",
+              "tags": [
+                "arts & culture",
+                "history",
+                "light-reading",
+                "philosophy"
+              ],
+              "alsoIn": []
+            },
+            {
+              "position": 59,
               "id": "01j60ew3kgknk776nphjxvz9ph",
               "title": "Envy: the Vestige of a Miserable World",
               "author": "Brian Chau",
@@ -10921,7 +10979,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 58,
+              "position": 60,
               "id": "01k2p3vgyxd3egkpvn5y6r2d7n",
               "title": "Genetics and Eugenics in Frank Herbert’s Dune-verse",
               "author": "Gwern Branwen",
@@ -10948,7 +11006,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 59,
+              "position": 61,
               "id": "01k7shq7r399ekxt6pavj3t3aa",
               "title": "Could autism explain Virginia Woolf’s unique voice? Her extraordinary eye for detail and connections suggests it might",
               "author": "Aeon Magazine",
@@ -10975,7 +11033,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 60,
+              "position": 62,
               "id": "01kec58fp6ep87fc5qnf8swc20",
               "title": "Being creative requires taking risks",
               "author": "Henrik Karlsson",
@@ -11002,7 +11060,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 61,
+              "position": 63,
               "id": "01knaa433mz4v5rtkbat739xjg",
               "title": "How I learned to just fucking write",
               "author": "kieran cutting",
@@ -11029,7 +11087,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 62,
+              "position": 64,
               "id": "01kqqh8gp2nh0d0c859h61yths",
               "title": "The Society of the Spectacle",
               "author": "Guy Debord",
@@ -11062,7 +11120,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 63,
+              "position": 65,
               "id": "01ksftktanvm593t6d9871cmm4",
               "title": "This week: a long walk on a beach, and ancient Roman graffiti.",
               "author": "Tom Scott",
@@ -11089,7 +11147,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 64,
+              "position": 66,
               "id": "01kxn6sfvvpwapf12145w6x7sv",
               "title": "Essays In Support of the Null Hypothesis",
               "author": "Tommy Blanchard from Cognitive Wonderland",
@@ -11116,7 +11174,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 65,
+              "position": 67,
               "id": "01kxy1qkwpt5xkmvy06pz6bqvr",
               "title": "Technology and Barbarism",
               "author": "amazon.com",
@@ -11144,7 +11202,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 66,
+              "position": 68,
               "id": "01m059szgmq8b5egbkgk1xe1rd",
               "title": "Arthur Koestler",
               "author": "orwellfoundation.com",
@@ -11171,7 +11229,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 67,
+              "position": 69,
               "id": "01m059v21gaqg3ya0m36r03km4",
               "title": "Politics and the English Language",
               "author": "orwellfoundation.com",
@@ -11198,7 +11256,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 68,
+              "position": 70,
               "id": "01m059v4r9jj9vzx30nn7cs3sr",
               "title": "Politics vs. Literature: An examination of Gulliver’s Travels",
               "author": "orwellfoundation.com",
@@ -11225,7 +11283,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 69,
+              "position": 71,
               "id": "01m03b0vhwd52bhh3rdjhdafv2",
               "title": "Why I Write",
               "author": "The Orwell Foundation",
@@ -11252,7 +11310,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 70,
+              "position": 72,
               "id": "01m07zpehf3761wmknmsknqwsa",
               "title": "How Books Can Build a World and Shape a Culture",
               "author": "Miller’s Book Review 📚",
@@ -11278,7 +11336,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 71,
+              "position": 73,
               "id": "01m10x27gxeffqvq180jqm7zpe",
               "title": "Shirley Clarke Lived Her Art to the Fullest | The New Yorker",
               "author": "Richard Brody",
@@ -11304,7 +11362,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 72,
+              "position": 74,
               "id": "01m196kp6abxyvdb4z7st8fvxd",
               "title": "Plato and the Poets",
               "author": "Boston Review",
@@ -11330,7 +11388,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 73,
+              "position": 75,
               "id": "01m1d8cg3509zyq9bww08azyze",
               "title": "Whither Writing (A Ten-Year Retrospective)",
               "author": "R.W. Richey from We Are Not Saved",
@@ -11356,7 +11414,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 74,
+              "position": 76,
               "id": "01m1kpjvpkpjy10c0zp09d0hty",
               "title": "How to be useless",
               "author": "psyche.co",
@@ -11384,7 +11442,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 75,
+              "position": 77,
               "id": "01m1pyvabgbtrpfw7ep29vv3n4",
               "title": "Your Book Review: The Tale Of Genji",
               "author": "Astral Codex Ten",
@@ -11412,7 +11470,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 76,
+              "position": 78,
               "id": "01hv97p0qv2rsh6attfeq439nj",
               "title": "Working in Public",
               "author": "Awesome.",
@@ -11439,7 +11497,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 77,
+              "position": 79,
               "id": "01j6011fk1gbvn0q705v2wmmah",
               "title": "Five Unconventional Economic Systems as Imagined in SFF",
               "author": "Eleanor Konik",
@@ -11466,7 +11524,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 78,
+              "position": 80,
               "id": "01j6w5apk81pg023z5m7xd6v5b",
               "title": "Mihai Rosca's Reviews > King, Warrior, Magician, Lover: Rediscovering the Archetypes of the Mature Masculine",
               "author": "Robert L. Moore",
@@ -11493,7 +11551,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 79,
+              "position": 81,
               "id": "01k3wpv85qh52sj9ffa8rrz1bm",
               "title": "Chromatic Rebel #2: why is the West so color-minimalist?",
               "author": "María Castro Jiménez",
@@ -11520,7 +11578,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 80,
+              "position": 82,
               "id": "01k722dxfn8b3bkt741xrmf0a2",
               "title": "📚 Neat Stuff I Read in September 2025",
               "author": "Eleanor Konik",
@@ -11546,7 +11604,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 81,
+              "position": 83,
               "id": "01k7tw6vrkda5hp5070ra2wqm6",
               "title": "Five SFF Stories That Shed Light on Obscure History",
               "author": "Eleanor Konik",
@@ -11573,7 +11631,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 82,
+              "position": 84,
               "id": "01k8b4z89x7bjhpp69rbbemnet",
               "title": "Tales from Toddlerhood",
               "author": "Tim Urban",
@@ -11600,7 +11658,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 83,
+              "position": 85,
               "id": "01kaecmp565yrjt89z6qhc3ydq",
               "title": "Why Did Wealth Stop Building Beautiful Things?",
               "author": "The Culturist",
@@ -11627,7 +11685,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 84,
+              "position": 86,
               "id": "01kaen0f4sd6p0wsrv0fw7320f",
               "title": "🌲 The Best \"Gamified X\" App is a GAME",
               "author": "Eleanor Konik",
@@ -11654,7 +11712,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 85,
+              "position": 87,
               "id": "01kc53chv8ebh5cygqaf76fwt0",
               "title": "🌲 Familiarity with the Western Canon is Surprisingly Reassuring",
               "author": "Eleanor Konik",
@@ -11682,7 +11740,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 86,
+              "position": 88,
               "id": "01kcfca0wrxztgk2sqe31khzbr",
               "title": "Now Watch Me Read | The New Yorker",
               "author": "Brady Brickner-Wood",
@@ -11709,7 +11767,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 87,
+              "position": 89,
               "id": "01kqy8wyp8f7z6nqcby6ajbnm4",
               "title": "The world reveals itself to those who travel by foot",
               "author": "Henrik Karlsson",
@@ -11736,7 +11794,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 88,
+              "position": 90,
               "id": "01krnyr9cxy0rhqzt148zy5p99",
               "title": "Good conversations have lots of doorknobs",
               "author": "Adam Mastroianni",
@@ -11763,7 +11821,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 89,
+              "position": 91,
               "id": "01krqmh4tqphysje012p59hxec",
               "title": "Novels Tell Us Who We Are",
               "author": "Carl Hendrick from The Learning Dispatch",
@@ -11790,7 +11848,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 90,
+              "position": 92,
               "id": "01ks2w2tk5ar80phj3pj90bjsw",
               "title": "The Guardian's 100 Best English-Language Books and the Funny Thing about Lists",
               "author": "Jared Henderson from Commonplace Philosophy",
@@ -11817,7 +11875,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 91,
+              "position": 93,
               "id": "01ksa4rg8aaab5rf5v3x3xd1mb",
               "title": "Books I'm excited about",
               "author": "Charles Duhigg",
@@ -11844,7 +11902,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 92,
+              "position": 94,
               "id": "01ksatzj8qqdm55ebbkc4588ft",
               "title": "Short Reviews for May 2026",
               "author": "Evan Þ from Papyrus Rampant",
@@ -11871,7 +11929,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 93,
+              "position": 95,
               "id": "01ksgpayydne30egggw4npszj1",
               "title": "Annihilation – A (Very French) Biography of the \"Last Man\"",
               "author": "R.W. Richey from We Are Not Saved",
@@ -11898,7 +11956,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 94,
+              "position": 96,
               "id": "01ktejkb5739yv3ra0666qr32v",
               "title": "Poor Bastard: Henry Fielding’s Triumphant ‘Tom Jones’",
               "author": "Miller’s Book Review 📚",
@@ -11926,7 +11984,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 95,
+              "position": 97,
               "id": "01kvamre3nhre408596w2e8d3s",
               "title": "Candice Millard and the Revival of History as Literature",
               "author": "Miller’s Book Review 📚",
@@ -11952,7 +12010,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 96,
+              "position": 98,
               "id": "01kvwytrrghvckwz0stdxe2mgw",
               "title": "Week 15, 16, 17, 18: Zuid-Holland",
               "author": "Holly en Roos",
@@ -11979,7 +12037,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 97,
+              "position": 99,
               "id": "01kw4djwahhwy93y8hrkg48wmd",
               "title": "Literature: The Ultimate Answer to the Algorithm",
               "author": "Miller’s Book Review 📚",
@@ -12006,7 +12064,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 98,
+              "position": 100,
               "id": "01kw4zh122v8djscsxaaq42ke7",
               "title": "My Hugo Ballot 2: Best Novel & others",
               "author": "Evan Þ from Papyrus Rampant",
@@ -12029,60 +12087,6 @@ window.TOP_ARTICLES = {
                 "fiction",
                 "games",
                 "light-reading"
-              ],
-              "alsoIn": []
-            },
-            {
-              "position": 99,
-              "id": "01kw9qrshp1ne8jsbwy0wqv2z6",
-              "title": "How To Add Texture To Your Non-Fiction Writing",
-              "author": "A Mug of Insights",
-              "siteName": "Ghost - The Professional Publishing Platform",
-              "category": "email",
-              "language": "Engels",
-              "readingTime": "7 mins",
-              "readingMinutes": 7,
-              "wordCount": 1669,
-              "publishedDate": "2026-06-29",
-              "savedDate": "2026-06-29T13:05:47.575000+00:00",
-              "imageUrl": null,
-              "sourceUrl": "mailto:reader-forwarded-email/b480713581a060c43f8e9f9463e92225",
-              "readwiseUrl": "https://read.readwise.io/read/01kw9qrshp1ne8jsbwy0wqv2z6",
-              "summary": "Robin Waldun analyseert Gladwell's schrijftechniek via 'The Ketchup Conundrum' (New Yorker, 2004). Drie technieken voor textuur in non-fictie: (1) begin met een onverwachte opening die pas later aansluit op het hoofdonderwerp; (2) onderzoek als je schrijft — laat nieuwsgierigheid leiden, niet een vooraf vastgesteld plan; (3) begin en eindig met hetzelfde verhaal, maar vanuit een nieuw perspectief. Kernidee: een essay is een poging te denken op de pagina (essayer = proberen), niet een presentatie van kant-en-klare gedachten.",
-              "whyRead": null,
-              "bestMoment": null,
-              "tags": [
-                "arts & culture",
-                "later",
-                "light-reading",
-                "personal growth & life philosophy"
-              ],
-              "alsoIn": []
-            },
-            {
-              "position": 100,
-              "id": "01kwpkn77cd2c8e0g3rppkq0q2",
-              "title": "Fake World: Everything You Think Is a Lie",
-              "author": "Miller’s Book Review 📚",
-              "siteName": "Substack",
-              "category": "email",
-              "language": "Engels",
-              "readingTime": "7 mins",
-              "readingMinutes": 7,
-              "wordCount": 1594,
-              "publishedDate": "2026-07-04",
-              "savedDate": "2026-07-04T13:04:03.820000+00:00",
-              "imageUrl": null,
-              "sourceUrl": "mailto:reader-forwarded-email/deb1e7e55ec964a6e092002bb0b184e9",
-              "readwiseUrl": "https://read.readwise.io/read/01kwpkn77cd2c8e0g3rppkq0q2",
-              "summary": "George Orwell imagined that novels could be manufactured without writing.",
-              "whyRead": "Raakt AI, cultuurkritiek en de productie van nepwerkelijkheid: precies het gebied waar technologie en essayistische maatschappijanalyse elkaar kruisen. Bewaren voor een korte, scherpe reflectie op synthetische media en vertrouwen.",
-              "bestMoment": "kritisch",
-              "tags": [
-                "ai ethics & society",
-                "arts & culture",
-                "light-reading",
-                "technology"
               ],
               "alsoIn": []
             }
@@ -12937,34 +12941,6 @@ window.TOP_ARTICLES = {
           "items": [
             {
               "position": 1,
-              "id": "01m0k3hr0fm2zdqmg55xb8dnb0",
-              "title": "If AI Can Replace Your Scrummaster, You Never Had a Scrummaster",
-              "author": "Erwin Verweij",
-              "siteName": "Agile Viking Galaxy",
-              "category": "article",
-              "language": null,
-              "readingTime": "6 mins",
-              "readingMinutes": 6,
-              "wordCount": 1459,
-              "publishedDate": "2026-08-13",
-              "savedDate": "2026-08-21T21:27:36.719000+00:00",
-              "imageUrl": "https://substackcdn.com/image/fetch/$s_!qJNZ!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F5da4be90-839a-48b2-9ae6-9b7437e05676_1683x935.png",
-              "sourceUrl": "https://agileviking.substack.com/p/if-ai-can-replace-your-scrummaster?utm_source=direct&r=1r0y5d&utm_campaign=post-expanded-share&utm_medium=post%20viewer",
-              "readwiseUrl": "https://read.readwise.io/read/01m0k3hr0fm2zdqmg55xb8dnb0",
-              "summary": "Why artificial intelligence will not kill Agile coaching, but may finally remove the administrative theatre that has been impersonating it",
-              "whyRead": "Raakt je interesse in scrum en agile coaching — scherp onderscheid tussen wat AI wél kan overnemen (ceremonie-administratie) en wat niet (psychologische veiligheid, macht, vertrouwen).",
-              "bestMoment": "analytisch",
-              "tags": [
-                "scrum"
-              ],
-              "alsoIn": [
-                "aaa-top-100",
-                "aaa-short-top-100",
-                "aaa-scrum-top-100"
-              ]
-            },
-            {
-              "position": 2,
               "id": "01m0yzc4t547m4zm0yvgrk39xb",
               "title": "The Future of Agile Coaches: Do Large Companies Need a Standardized Agile Coach Certification and What Are the Alternatives?",
               "author": "doi.org",
@@ -12995,7 +12971,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 3,
+              "position": 2,
               "id": "01m1ckrdyh8tprrhj5bvqysbef",
               "title": "Who are your jaguar hunters?",
               "author": "Afonso Franco",
@@ -13025,7 +13001,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 4,
+              "position": 3,
               "id": "01m1k4njhg2tq0hr2s2c7q8mc2",
               "title": "The First Broken Window",
               "author": "Erwin Verweij from Agile Viking Galaxy",
@@ -13055,6 +13031,36 @@ window.TOP_ARTICLES = {
               ]
             },
             {
+              "position": 4,
+              "id": "01m1zz7a3yxy2nte35hssybary",
+              "title": "Continuous Product Discovery — Product Talk",
+              "author": "producttalk.org",
+              "siteName": "Product Talk",
+              "category": "article",
+              "language": null,
+              "readingTime": "8 mins",
+              "readingMinutes": 8,
+              "wordCount": 1888,
+              "publishedDate": "2021-08-18",
+              "savedDate": "2026-09-08T07:37:49.950000+00:00",
+              "imageUrl": "https://www.producttalk.org/wp-content/uploads/2021/08/discovery-and-delivery.jpeg",
+              "sourceUrl": "https://www.producttalk.org/2021/08/product-discovery/",
+              "readwiseUrl": "https://read.readwise.io/read/01m1zz7a3yxy2nte35hssybary",
+              "summary": "Product discovery is a hot topic in the product world. This article covers what it is, the history and evolution, and today's best practices.",
+              "whyRead": "Raakt je werk als Scrum Master en je interesse in productontwikkeling; het artikel ordent product discovery rond uitkomsten, klantinzichten en voortdurende leerloops in plaats van rond losse projecten.",
+              "bestMoment": "leergierig",
+              "tags": [
+                "agile",
+                "business & startups",
+                "professional development"
+              ],
+              "alsoIn": [
+                "aaa-top-100",
+                "aaa-short-top-100",
+                "aaa-scrum-top-100"
+              ]
+            },
+            {
               "position": 5,
               "id": "01m0pngvw1pq8s12ss8bgyz5hj",
               "title": "2026 Survey Of The Product Management Profession",
@@ -13076,7 +13082,6 @@ window.TOP_ARTICLES = {
               "tags": [
                 "agile",
                 "linked-from-readwise",
-                "pdf-top-10",
                 "professional development",
                 "technology"
               ],
@@ -13238,34 +13243,6 @@ window.TOP_ARTICLES = {
           "items": [
             {
               "position": 1,
-              "id": "01m0k3hr0fm2zdqmg55xb8dnb0",
-              "title": "If AI Can Replace Your Scrummaster, You Never Had a Scrummaster",
-              "author": "Erwin Verweij",
-              "siteName": "Agile Viking Galaxy",
-              "category": "article",
-              "language": null,
-              "readingTime": "6 mins",
-              "readingMinutes": 6,
-              "wordCount": 1459,
-              "publishedDate": "2026-08-13",
-              "savedDate": "2026-08-21T21:27:36.719000+00:00",
-              "imageUrl": "https://substackcdn.com/image/fetch/$s_!qJNZ!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F5da4be90-839a-48b2-9ae6-9b7437e05676_1683x935.png",
-              "sourceUrl": "https://agileviking.substack.com/p/if-ai-can-replace-your-scrummaster?utm_source=direct&r=1r0y5d&utm_campaign=post-expanded-share&utm_medium=post%20viewer",
-              "readwiseUrl": "https://read.readwise.io/read/01m0k3hr0fm2zdqmg55xb8dnb0",
-              "summary": "Why artificial intelligence will not kill Agile coaching, but may finally remove the administrative theatre that has been impersonating it",
-              "whyRead": "Raakt je interesse in scrum en agile coaching — scherp onderscheid tussen wat AI wél kan overnemen (ceremonie-administratie) en wat niet (psychologische veiligheid, macht, vertrouwen).",
-              "bestMoment": "analytisch",
-              "tags": [
-                "scrum"
-              ],
-              "alsoIn": [
-                "aaa-top-100",
-                "aaa-short-top-100",
-                "aaa-scrum-top-10"
-              ]
-            },
-            {
-              "position": 2,
               "id": "01m0yzc4t547m4zm0yvgrk39xb",
               "title": "The Future of Agile Coaches: Do Large Companies Need a Standardized Agile Coach Certification and What Are the Alternatives?",
               "author": "doi.org",
@@ -13296,7 +13273,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 3,
+              "position": 2,
               "id": "01m1ckrdyh8tprrhj5bvqysbef",
               "title": "Who are your jaguar hunters?",
               "author": "Afonso Franco",
@@ -13326,7 +13303,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 4,
+              "position": 3,
               "id": "01m1k4njhg2tq0hr2s2c7q8mc2",
               "title": "The First Broken Window",
               "author": "Erwin Verweij from Agile Viking Galaxy",
@@ -13356,6 +13333,36 @@ window.TOP_ARTICLES = {
               ]
             },
             {
+              "position": 4,
+              "id": "01m1zz7a3yxy2nte35hssybary",
+              "title": "Continuous Product Discovery — Product Talk",
+              "author": "producttalk.org",
+              "siteName": "Product Talk",
+              "category": "article",
+              "language": null,
+              "readingTime": "8 mins",
+              "readingMinutes": 8,
+              "wordCount": 1888,
+              "publishedDate": "2021-08-18",
+              "savedDate": "2026-09-08T07:37:49.950000+00:00",
+              "imageUrl": "https://www.producttalk.org/wp-content/uploads/2021/08/discovery-and-delivery.jpeg",
+              "sourceUrl": "https://www.producttalk.org/2021/08/product-discovery/",
+              "readwiseUrl": "https://read.readwise.io/read/01m1zz7a3yxy2nte35hssybary",
+              "summary": "Product discovery is a hot topic in the product world. This article covers what it is, the history and evolution, and today's best practices.",
+              "whyRead": "Raakt je werk als Scrum Master en je interesse in productontwikkeling; het artikel ordent product discovery rond uitkomsten, klantinzichten en voortdurende leerloops in plaats van rond losse projecten.",
+              "bestMoment": "leergierig",
+              "tags": [
+                "agile",
+                "business & startups",
+                "professional development"
+              ],
+              "alsoIn": [
+                "aaa-top-100",
+                "aaa-short-top-100",
+                "aaa-scrum-top-10"
+              ]
+            },
+            {
               "position": 5,
               "id": "01m0pngvw1pq8s12ss8bgyz5hj",
               "title": "2026 Survey Of The Product Management Profession",
@@ -13377,7 +13384,6 @@ window.TOP_ARTICLES = {
               "tags": [
                 "agile",
                 "linked-from-readwise",
-                "pdf-top-10",
                 "professional development",
                 "technology"
               ],
@@ -15262,6 +15268,58 @@ window.TOP_ARTICLES = {
             },
             {
               "position": 78,
+              "id": "01m1zz6kmexdx2c1dcegqjzeva",
+              "title": "Opportunity Mapping — Product Talk",
+              "author": "producttalk.org",
+              "siteName": "Product Talk",
+              "category": "article",
+              "language": null,
+              "readingTime": "9 mins",
+              "readingMinutes": 9,
+              "wordCount": 2287,
+              "publishedDate": "2020-07-08",
+              "savedDate": "2026-09-08T07:37:26.926000+00:00",
+              "imageUrl": "https://www.producttalk.org/wp-content/uploads/2022/03/Opportunity_Solution_Tree_copy.jpg",
+              "sourceUrl": "https://www.producttalk.org/2020/07/opportunity-mapping/",
+              "readwiseUrl": "https://read.readwise.io/read/01m1zz6kmexdx2c1dcegqjzeva",
+              "summary": "Have you heard? My new book Continuous Discovery Habits is now available. Get the product trio's guide to a structured and sustainable approach to continuous discovery. The following is an […]",
+              "whyRead": "Raakt je werk als Scrum Master en je interesse in product discovery; opportunity mapping biedt een bruikbaar denkmodel om klantproblemen te structureren en prioriteiten aan gewenste uitkomsten te koppelen.",
+              "bestMoment": "leergierig",
+              "tags": [
+                "agile",
+                "business & startups",
+                "professional development"
+              ],
+              "alsoIn": []
+            },
+            {
+              "position": 79,
+              "id": "01m1zz7f9eqj3hmaee464gw72n",
+              "title": "Liberating Structures",
+              "author": "liberatingstructures.com",
+              "siteName": "liberatingstructures.com",
+              "category": "article",
+              "language": null,
+              "readingTime": "6 mins",
+              "readingMinutes": 6,
+              "wordCount": 1451,
+              "publishedDate": "2022-12-06",
+              "savedDate": "2026-09-08T07:37:55.246000+00:00",
+              "imageUrl": null,
+              "sourceUrl": "https://www.liberatingstructures.com",
+              "readwiseUrl": "https://read.readwise.io/read/01m1zz7f9eqj3hmaee464gw72n",
+              "summary": "liberating structures, social invention.net, microstructures, disruptive innovation, behavior change, collaboration, social invention, diffusion of innovation, strategy, transformation, heuristics, complexity science, emergence",
+              "whyRead": "Raakt je werk als Scrum Master en je interesse in agile teamdynamiek; dit repertoire laat zien hoe kleine ontwerpkeuzes deelname, vertrouwen en gedeeld eigenaarschap in groepen kunnen vergroten.",
+              "bestMoment": "leergierig",
+              "tags": [
+                "agile",
+                "learning & meta-learning",
+                "professional development"
+              ],
+              "alsoIn": []
+            },
+            {
+              "position": 80,
               "id": "01kweww7axmq58ekx96xkj02jk",
               "title": "Seven Ways Scrum Masters Can Be More Effective",
               "author": "Scrum.org",
@@ -15286,7 +15344,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 79,
+              "position": 81,
               "id": "01kwexp5550gmx9jwcrafg7xd3",
               "title": "Empiricism",
               "author": "Scrum.org",
@@ -15312,7 +15370,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 80,
+              "position": 82,
               "id": "01kwexpevqvsnw5chhvec7vdc7",
               "title": "Tips for Joining a Scrum Team and Building Collaborative Relationships",
               "author": "Scrum.org",
@@ -15338,7 +15396,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 81,
+              "position": 83,
               "id": "01kwexpg90r86p63b5w5sd3910",
               "title": "Encouraging Collaborative Ways of Working in a Scrum Team",
               "author": "Scrum.org",
@@ -15364,7 +15422,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 82,
+              "position": 84,
               "id": "01kwexpw49qacd2hcbhg15tzcr",
               "title": "Frequently Asked Questions on Continuous Improvement for Scrum Masters",
               "author": "Scrum.org",
@@ -15390,7 +15448,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 83,
+              "position": 85,
               "id": "01m0kk41832n0tav3gjxdhask9",
               "title": "Agile is 25: Which Practices Still Work in 2026 and Which Don't?",
               "author": "vibhorchandel.com",
@@ -15414,7 +15472,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 84,
+              "position": 86,
               "id": "01m0kztar8p0q02aet41a6xn7w",
               "title": "Real World Agility EXPLAINED: Nick Brown’s Hard-Earned Lessons",
               "author": "Scrum Facilitators",
@@ -15442,7 +15500,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 85,
+              "position": 87,
               "id": "01m0phz54xkeck21gn6a362mbb",
               "title": "Are your PMs building reasoning silos?",
               "author": "Product Focus",
@@ -15467,7 +15525,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 86,
+              "position": 88,
               "id": "01m0pj0hcdzk57dgqrhngd08xm",
               "title": "How to Tell if Your Manager is Actually Good?",
               "author": "Gregor Ojstersek",
@@ -15492,7 +15550,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 87,
+              "position": 89,
               "id": "01m0pngsn5q8yqqrn2xq1w2hq5",
               "title": "To benefit from AI, your organization’s learning loops must evolve",
               "author": "uxdesign.cc",
@@ -15519,7 +15577,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 88,
+              "position": 90,
               "id": "01m0q9gdtbx4wrnvzc3zr6w7q3",
               "title": "Product Owner Anti-Patterns, and how Scrum Masters can help overcome those",
               "author": "vasco",
@@ -15545,7 +15603,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 89,
+              "position": 91,
               "id": "01m10p2ys6jtppvffmfvhv32pv",
               "title": "Product Owner Interview Questions for the Age of AI",
               "author": "Stefan Wolpers",
@@ -15570,7 +15628,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 90,
+              "position": 92,
               "id": "01m18j8bdgtzdjeq0cvb905xw8",
               "title": "Human judgment doesn't leave the software factory. It relocates.",
               "author": "addyosmani.com",
@@ -15598,7 +15656,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 91,
+              "position": 93,
               "id": "01m18v749bgejt8n415145znvv",
               "title": "Improve Team Collaboration with the Washing Instructions Canvas",
               "author": "fearlessculture.design",
@@ -15624,7 +15682,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 92,
+              "position": 94,
               "id": "01m1dmr0pbqvwrd7skef05r9q8",
               "title": "InfoQ Culture and Methods Trends Report - 2026",
               "author": "Vanessa Formicola",
@@ -15650,7 +15708,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 93,
+              "position": 95,
               "id": "01m1kppm13bn0d0w70hxcjf9tw",
               "title": "Happiness Metric",
               "author": "scrumbook.org.datasenter.no",
@@ -15677,7 +15735,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 94,
+              "position": 96,
               "id": "01m1p73a3z76hwhn4t9qqvpdch",
               "title": "The Single-Page-App Morality Play",
               "author": "baldurbjarnason.com",
@@ -15706,7 +15764,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 95,
+              "position": 97,
               "id": "01m1zvs6zarc4w1cwf7w1sc7ef",
               "title": "Building Bridges for Corporate Agility — Yuliia Pieskova",
               "author": "agilealliance.org",
@@ -15733,7 +15791,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 96,
+              "position": 98,
               "id": "01ktp2kyqfw4gmnvgcrkt7faxv",
               "title": "Self-Managing Teams | Scrum.org",
               "author": "scrum.org",
@@ -15760,7 +15818,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 97,
+              "position": 99,
               "id": "01ktp2mzvjaxpymkgdyhw1wehh",
               "title": "Leadership Styles",
               "author": "Scrum.org",
@@ -15787,7 +15845,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 98,
+              "position": 100,
               "id": "01kwexp7111x57fyty213vtvwn",
               "title": "Applying the Scrum Values",
               "author": "Scrum.org",
@@ -15802,58 +15860,6 @@ window.TOP_ARTICLES = {
               "imageUrl": "",
               "sourceUrl": "https://www.scrum.org/resources/applying-scrum-values",
               "readwiseUrl": "https://read.readwise.io/read/01kwexp7111x57fyty213vtvwn",
-              "summary": "Scrum.org resource for growing as a Scrum Master. Combined content-only import where applicable.",
-              "whyRead": null,
-              "bestMoment": null,
-              "tags": [
-                "later",
-                "professional development",
-                "scrum"
-              ],
-              "alsoIn": []
-            },
-            {
-              "position": 99,
-              "id": "01kwexp8bshzmz4w7y2nspmx7a",
-              "title": "The Scrum Team",
-              "author": "Scrum.org",
-              "siteName": null,
-              "category": "article",
-              "language": "Engels",
-              "readingTime": "4 mins",
-              "readingMinutes": 4,
-              "wordCount": 921,
-              "publishedDate": null,
-              "savedDate": "2026-07-01T13:25:28.058000+00:00",
-              "imageUrl": "",
-              "sourceUrl": "https://www.scrum.org/learning-series/scrum-team",
-              "readwiseUrl": "https://read.readwise.io/read/01kwexp8bshzmz4w7y2nspmx7a",
-              "summary": "Scrum.org resource for growing as a Scrum Master. Combined content-only import where applicable.",
-              "whyRead": null,
-              "bestMoment": null,
-              "tags": [
-                "later",
-                "professional development",
-                "scrum"
-              ],
-              "alsoIn": []
-            },
-            {
-              "position": 100,
-              "id": "01kwexpa8272rzzb4wxq2c97fe",
-              "title": "The Scrum Events",
-              "author": "Scrum.org",
-              "siteName": null,
-              "category": "article",
-              "language": "Engels",
-              "readingTime": "4 mins",
-              "readingMinutes": 4,
-              "wordCount": 1006,
-              "publishedDate": null,
-              "savedDate": "2026-07-01T13:25:29.986000+00:00",
-              "imageUrl": "",
-              "sourceUrl": "https://www.scrum.org/learning-series/scrum-events",
-              "readwiseUrl": "https://read.readwise.io/read/01kwexpa8272rzzb4wxq2c97fe",
               "summary": "Scrum.org resource for growing as a Scrum Master. Combined content-only import where applicable.",
               "whyRead": null,
               "bestMoment": null,
@@ -21618,6 +21624,7 @@ window.TOP_ARTICLES = {
               "bestMoment": "analytisch",
               "tags": [
                 "linked-from-readwise",
+                "pdf-top-10",
                 "philosophy",
                 "political philosophy"
               ],
@@ -21932,6 +21939,7 @@ window.TOP_ARTICLES = {
               "bestMoment": "analytisch",
               "tags": [
                 "linked-from-readwise",
+                "pdf-top-10",
                 "philosophy",
                 "political philosophy"
               ],
@@ -22022,7 +22030,6 @@ window.TOP_ARTICLES = {
               "tags": [
                 "agile",
                 "linked-from-readwise",
-                "pdf-top-10",
                 "professional development",
                 "technology"
               ],
@@ -23678,6 +23685,309 @@ window.TOP_ARTICLES = {
     "items": [
       {
         "position": null,
+        "id": "01m20j2ssrjqszkwfnk49mr0d0",
+        "title": "The Great Reading Recession",
+        "author": "Carl Hendrick from The Learning Dispatch",
+        "siteName": "Substack",
+        "category": "email",
+        "language": null,
+        "readingTime": "6 mins",
+        "readingMinutes": 6,
+        "wordCount": 1435,
+        "publishedDate": "2026-09-08",
+        "savedDate": "2026-09-08T13:07:25.112000+00:00",
+        "imageUrl": null,
+        "sourceUrl": "mailto:reader-forwarded-email/6207258c50a8783780f51ecf259eaf14",
+        "readwiseUrl": "https://read.readwise.io/read/01m20j2ssrjqszkwfnk49mr0d0",
+        "summary": "This morning I read through the latest PISA results (an international test of 15 year olds in maths, reading and science) and it has to be said that the headline findings are grim.",
+        "whyRead": null,
+        "bestMoment": null,
+        "tags": [
+          "learning & meta-learning",
+          "science",
+          "sociology & social structures"
+        ],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01m20fc2m6mqmmfgfjv7b2ccff",
+        "title": "God Help Us, Let’s Try To Learn About Mechanistic Interpretability Techniques",
+        "author": "Astral Codex Ten",
+        "siteName": "Substack",
+        "category": "email",
+        "language": null,
+        "readingTime": "19 mins",
+        "readingMinutes": 19,
+        "wordCount": 4808,
+        "publishedDate": "2026-09-08",
+        "savedDate": "2026-09-08T12:20:03.334000+00:00",
+        "imageUrl": null,
+        "sourceUrl": "mailto:reader-forwarded-email/797abff1b41f555b7e0f8de1b2b44227",
+        "readwiseUrl": "https://read.readwise.io/read/01m20fc2m6mqmmfgfjv7b2ccff",
+        "summary": "But a neural network is just a set of simulated neurons on a computer.",
+        "whyRead": "Raakt je interesse in AI-ethiek en technische AI-uitleg; dit essay geeft een toegankelijke kaart van mechanistic interpretability en laat tegelijk zien waarom interpretatie geen eenvoudige transparantieoplossing is.",
+        "bestMoment": "analytisch",
+        "tags": [
+          "ai ethics & society",
+          "science",
+          "technology"
+        ],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01m2093q7bj4j3wk3fzpev5jkw",
+        "title": "Hoe het christendom onze cultuur vormde",
+        "author": "De Ongelooflijke",
+        "siteName": "Substack",
+        "category": "email",
+        "language": null,
+        "readingTime": "17 mins",
+        "readingMinutes": 17,
+        "wordCount": 4268,
+        "publishedDate": "2026-09-08",
+        "savedDate": "2026-09-08T10:30:38.060000+00:00",
+        "imageUrl": null,
+        "sourceUrl": "mailto:reader-forwarded-email/1b784208e87f781deb9ff22e16547e8f",
+        "readwiseUrl": "https://read.readwise.io/read/01m2093q7bj4j3wk3fzpev5jkw",
+        "summary": "Het lijkt soms alsof we de weg kwijt zijn en alsof onze cultuur zich in een midlifecrisis bevindt.",
+        "whyRead": "Raakt je interesse in ideeëngeschiedenis, cultuur en politieke waarden; deze Nederlandstalige boekinleiding onderzoekt hoe tweeduizend jaar christendom doorwerken in wetten, kunst, taal en ons wereldbeeld.",
+        "bestMoment": "analytisch",
+        "tags": [
+          "arts & culture",
+          "history",
+          "light-reading",
+          "philosophy"
+        ],
+        "alsoIn": [
+          "aaa-luchtig-top-100"
+        ],
+        "memberships": [
+          {
+            "familyId": "luchtig",
+            "size": "top-100",
+            "position": 58
+          }
+        ]
+      },
+      {
+        "position": null,
+        "id": "01m207r5gtkhknjq6ezh237a4s",
+        "title": "The Thief Who Wanted to Save the World",
+        "author": "Longreads",
+        "siteName": "Longreads",
+        "category": "rss",
+        "language": null,
+        "readingTime": "9 mins",
+        "readingMinutes": 9,
+        "wordCount": 2320,
+        "publishedDate": "2026-09-08",
+        "savedDate": "2026-09-08T10:06:47.906000+00:00",
+        "imageUrl": "https://i0.wp.com/longreads.com/wp-content/uploads/2026/09/bleeding-hearts-2.jpg?fit=1024%2C683&amp;quality=89&amp;ssl=1",
+        "sourceUrl": "https://longreads.com/2026/09/08/austria-robbery-atavist-magazine/",
+        "readwiseUrl": "https://read.readwise.io/read/01m207r5gtkhknjq6ezh237a4s",
+        "summary": "\"An ex-cop pulled off the largest armed robbery in Austria’s history, with his friend’s mistress as his accomplice. But he wasn’t trying to get rich. He wanted to be a real-life Robin Hood.\"",
+        "whyRead": "Raakt je interesse in geschiedenis, cultuur en morele paradoxen; deze longread vertelt een uitzonderlijk waargebeurd verhaal over misdaad, liefdadigheid en de vraag wanneer goede bedoelingen ontsporen.",
+        "bestMoment": "ontspannen",
+        "tags": [
+          "arts & culture",
+          "history",
+          "light-reading",
+          "sociology & social structures"
+        ],
+        "alsoIn": [
+          "aaa-luchtig-top-100"
+        ],
+        "memberships": [
+          {
+            "familyId": "luchtig",
+            "size": "top-100",
+            "position": 28
+          }
+        ]
+      },
+      {
+        "position": null,
+        "id": "01m207ft7eg6e7bs2bf66ww0an",
+        "title": "Vijf ideeën om je telefoontijd te temperen",
+        "author": "Lars Tummers - Werknotities",
+        "siteName": "Substack",
+        "category": "email",
+        "language": null,
+        "readingTime": "7 mins",
+        "readingMinutes": 7,
+        "wordCount": 1688,
+        "publishedDate": "2026-09-08",
+        "savedDate": "2026-09-08T10:02:17.199000+00:00",
+        "imageUrl": null,
+        "sourceUrl": "mailto:reader-forwarded-email/cca459bfb74cdb69a8850e7b7b560237",
+        "readwiseUrl": "https://read.readwise.io/read/01m207ft7eg6e7bs2bf66ww0an",
+        "summary": "Hugo: Lars schrijft in zijn nieuwsbrief Werknotities op een zeer toegankelijke en energiegevende manier over werkgeluk.",
+        "whyRead": "Raakt je interesse in gedrag, aandacht en welzijn; deze Nederlandstalige nieuwsbrief vertaalt het probleem van overmatig telefoongebruik naar omgevingsontwerp in plaats van een beroep op wilskracht.",
+        "bestMoment": "leergierig",
+        "tags": [
+          "behavioral psychology & coaching",
+          "health & wellness",
+          "personal growth & life philosophy"
+        ],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01m1zz7f9eqj3hmaee464gw72n",
+        "title": "Liberating Structures",
+        "author": "liberatingstructures.com",
+        "siteName": "liberatingstructures.com",
+        "category": "article",
+        "language": null,
+        "readingTime": "6 mins",
+        "readingMinutes": 6,
+        "wordCount": 1451,
+        "publishedDate": "2022-12-06",
+        "savedDate": "2026-09-08T07:37:55.246000+00:00",
+        "imageUrl": null,
+        "sourceUrl": "https://www.liberatingstructures.com",
+        "readwiseUrl": "https://read.readwise.io/read/01m1zz7f9eqj3hmaee464gw72n",
+        "summary": "liberating structures, social invention.net, microstructures, disruptive innovation, behavior change, collaboration, social invention, diffusion of innovation, strategy, transformation, heuristics, complexity science, emergence",
+        "whyRead": "Raakt je werk als Scrum Master en je interesse in agile teamdynamiek; dit repertoire laat zien hoe kleine ontwerpkeuzes deelname, vertrouwen en gedeeld eigenaarschap in groepen kunnen vergroten.",
+        "bestMoment": "leergierig",
+        "tags": [
+          "agile",
+          "learning & meta-learning",
+          "professional development"
+        ],
+        "alsoIn": [
+          "aaa-scrum-top-100"
+        ],
+        "memberships": [
+          {
+            "familyId": "scrum",
+            "size": "top-100",
+            "position": 79
+          }
+        ]
+      },
+      {
+        "position": null,
+        "id": "01m1zz7a3yxy2nte35hssybary",
+        "title": "Continuous Product Discovery — Product Talk",
+        "author": "producttalk.org",
+        "siteName": "Product Talk",
+        "category": "article",
+        "language": null,
+        "readingTime": "8 mins",
+        "readingMinutes": 8,
+        "wordCount": 1888,
+        "publishedDate": "2021-08-18",
+        "savedDate": "2026-09-08T07:37:49.950000+00:00",
+        "imageUrl": "https://www.producttalk.org/wp-content/uploads/2021/08/discovery-and-delivery.jpeg",
+        "sourceUrl": "https://www.producttalk.org/2021/08/product-discovery/",
+        "readwiseUrl": "https://read.readwise.io/read/01m1zz7a3yxy2nte35hssybary",
+        "summary": "Product discovery is a hot topic in the product world. This article covers what it is, the history and evolution, and today's best practices.",
+        "whyRead": "Raakt je werk als Scrum Master en je interesse in productontwikkeling; het artikel ordent product discovery rond uitkomsten, klantinzichten en voortdurende leerloops in plaats van rond losse projecten.",
+        "bestMoment": "leergierig",
+        "tags": [
+          "agile",
+          "business & startups",
+          "professional development"
+        ],
+        "alsoIn": [
+          "aaa-top-100",
+          "aaa-short-top-100",
+          "aaa-scrum-top-10",
+          "aaa-scrum-top-100"
+        ],
+        "memberships": [
+          {
+            "familyId": "algemeen",
+            "size": "top-100",
+            "position": 22
+          },
+          {
+            "familyId": "kort",
+            "size": "top-100",
+            "position": 20
+          },
+          {
+            "familyId": "scrum",
+            "size": "top-10",
+            "position": 4
+          },
+          {
+            "familyId": "scrum",
+            "size": "top-100",
+            "position": 4
+          }
+        ]
+      },
+      {
+        "position": null,
+        "id": "01m1zz72bzwavwm70st2rtvg31",
+        "title": "The Product Trio — Product Talk",
+        "author": "producttalk.org",
+        "siteName": "Product Talk",
+        "category": "article",
+        "language": null,
+        "readingTime": "3 mins",
+        "readingMinutes": 3,
+        "wordCount": 670,
+        "publishedDate": "2021-05-05",
+        "savedDate": "2026-09-08T07:37:42.014000+00:00",
+        "imageUrl": "https://www.producttalk.org/wp-content/uploads/2021/05/the-trio.jpeg",
+        "sourceUrl": "https://www.producttalk.org/2021/05/product-trio/",
+        "readwiseUrl": "https://read.readwise.io/read/01m1zz72bzwavwm70st2rtvg31",
+        "summary": "Have you heard? My new book Continuous Discovery Habits is now available. Get the product trio's guide to a structured and sustainable approach to continuous discovery. One of my goals for 2021 is to create short explainer videos for key concepts related to continuous discovery. This is my first one. I’d love to hear what […]",
+        "whyRead": "Raakt je werk als Scrum Master en je interesse in productteams; deze korte uitleg maakt concreet hoe product, design en engineering samen betere beslissingen kunnen nemen.",
+        "bestMoment": "leergierig",
+        "tags": [
+          "agile",
+          "business & startups",
+          "professional development"
+        ],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01m1zz6kmexdx2c1dcegqjzeva",
+        "title": "Opportunity Mapping — Product Talk",
+        "author": "producttalk.org",
+        "siteName": "Product Talk",
+        "category": "article",
+        "language": null,
+        "readingTime": "9 mins",
+        "readingMinutes": 9,
+        "wordCount": 2287,
+        "publishedDate": "2020-07-08",
+        "savedDate": "2026-09-08T07:37:26.926000+00:00",
+        "imageUrl": "https://www.producttalk.org/wp-content/uploads/2022/03/Opportunity_Solution_Tree_copy.jpg",
+        "sourceUrl": "https://www.producttalk.org/2020/07/opportunity-mapping/",
+        "readwiseUrl": "https://read.readwise.io/read/01m1zz6kmexdx2c1dcegqjzeva",
+        "summary": "Have you heard? My new book Continuous Discovery Habits is now available. Get the product trio's guide to a structured and sustainable approach to continuous discovery. The following is an […]",
+        "whyRead": "Raakt je werk als Scrum Master en je interesse in product discovery; opportunity mapping biedt een bruikbaar denkmodel om klantproblemen te structureren en prioriteiten aan gewenste uitkomsten te koppelen.",
+        "bestMoment": "leergierig",
+        "tags": [
+          "agile",
+          "business & startups",
+          "professional development"
+        ],
+        "alsoIn": [
+          "aaa-scrum-top-100"
+        ],
+        "memberships": [
+          {
+            "familyId": "scrum",
+            "size": "top-100",
+            "position": 78
+          }
+        ]
+      },
+      {
+        "position": null,
         "id": "01m1zw960p4kkmnen89d68wjdp",
         "title": "Customer Interviews: How to Recruit, What to Ask, and How to Synthesize What You Learn",
         "author": "producttalk.org",
@@ -23855,7 +24165,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 95
+            "position": 97
           }
         ]
       },
@@ -23880,6 +24190,7 @@ window.TOP_ARTICLES = {
         "bestMoment": "analytisch",
         "tags": [
           "linked-from-readwise",
+          "pdf-top-10",
           "philosophy",
           "political philosophy"
         ],
@@ -23961,12 +24272,12 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 22
+            "position": 21
           },
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 20
+            "position": 19
           }
         ]
       },
@@ -25394,7 +25705,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 56
+            "position": 57
           }
         ]
       },
@@ -25491,7 +25802,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 55
+            "position": 56
           }
         ]
       },
@@ -26751,7 +27062,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 75
+            "position": 77
           }
         ]
       },
@@ -28601,7 +28912,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 94
+            "position": 96
           },
           {
             "familyId": "software-development",
@@ -30119,7 +30430,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 93
+            "position": 95
           }
         ]
       },
@@ -30480,7 +30791,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 74
+            "position": 76
           }
         ]
       },
@@ -31010,22 +31321,22 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 21
+            "position": 20
           },
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 19
+            "position": 18
           },
           {
             "familyId": "scrum",
             "size": "top-10",
-            "position": 4
+            "position": 3
           },
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 4
+            "position": 3
           }
         ]
       },
@@ -32512,7 +32823,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 92
+            "position": 94
           }
         ]
       },
@@ -32547,7 +32858,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 73
+            "position": 75
           }
         ]
       },
@@ -32667,22 +32978,22 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 20
+            "position": 19
           },
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 18
+            "position": 17
           },
           {
             "familyId": "scrum",
             "size": "top-10",
-            "position": 3
+            "position": 2
           },
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 3
+            "position": 2
           }
         ]
       },
@@ -33327,7 +33638,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 54
+            "position": 55
           }
         ]
       },
@@ -34421,7 +34732,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 53
+            "position": 54
           }
         ]
       },
@@ -34821,12 +35132,12 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 19
+            "position": 18
           },
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 17
+            "position": 16
           }
         ]
       },
@@ -35251,7 +35562,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 72
+            "position": 74
           }
         ]
       },
@@ -35757,7 +36068,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 18
+            "position": 17
           }
         ]
       },
@@ -36065,7 +36376,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 91
+            "position": 93
           }
         ]
       },
@@ -36454,7 +36765,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 90
+            "position": 92
           }
         ]
       },
@@ -38693,7 +39004,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 52
+            "position": 53
           }
         ]
       },
@@ -39049,7 +39360,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 71
+            "position": 73
           }
         ]
       },
@@ -39163,7 +39474,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 89
+            "position": 91
           }
         ]
       },
@@ -39330,22 +39641,22 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 17
+            "position": 16
           },
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 16
+            "position": 15
           },
           {
             "familyId": "scrum",
             "size": "top-10",
-            "position": 2
+            "position": 1
           },
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 2
+            "position": 1
           }
         ]
       },
@@ -39507,12 +39818,12 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 16
+            "position": 15
           },
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 15
+            "position": 14
           }
         ]
       },
@@ -39737,7 +40048,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 51
+            "position": 52
           }
         ]
       },
@@ -39904,7 +40215,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 88
+            "position": 90
           }
         ]
       },
@@ -40062,7 +40373,6 @@ window.TOP_ARTICLES = {
         "tags": [
           "agile",
           "linked-from-readwise",
-          "pdf-top-10",
           "professional development",
           "technology"
         ],
@@ -40148,7 +40458,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 87
+            "position": 89
           }
         ]
       },
@@ -40404,7 +40714,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 86
+            "position": 88
           }
         ]
       },
@@ -40548,7 +40858,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 85
+            "position": 87
           }
         ]
       },
@@ -41029,7 +41339,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 50
+            "position": 51
           }
         ]
       },
@@ -41749,7 +42059,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 84
+            "position": 86
           },
           {
             "familyId": "videos",
@@ -41792,7 +42102,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 83
+            "position": 85
           }
         ]
       },
@@ -41853,57 +42163,6 @@ window.TOP_ARTICLES = {
         ],
         "alsoIn": [],
         "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01m0k3hr0fm2zdqmg55xb8dnb0",
-        "title": "If AI Can Replace Your Scrummaster, You Never Had a Scrummaster",
-        "author": "Erwin Verweij",
-        "siteName": "Agile Viking Galaxy",
-        "category": "article",
-        "language": null,
-        "readingTime": "6 mins",
-        "readingMinutes": 6,
-        "wordCount": 1459,
-        "publishedDate": "2026-08-13",
-        "savedDate": "2026-08-21T21:27:36.719000+00:00",
-        "imageUrl": "https://substackcdn.com/image/fetch/$s_!qJNZ!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F5da4be90-839a-48b2-9ae6-9b7437e05676_1683x935.png",
-        "sourceUrl": "https://agileviking.substack.com/p/if-ai-can-replace-your-scrummaster?utm_source=direct&r=1r0y5d&utm_campaign=post-expanded-share&utm_medium=post%20viewer",
-        "readwiseUrl": "https://read.readwise.io/read/01m0k3hr0fm2zdqmg55xb8dnb0",
-        "summary": "Why artificial intelligence will not kill Agile coaching, but may finally remove the administrative theatre that has been impersonating it",
-        "whyRead": "Raakt je interesse in scrum en agile coaching — scherp onderscheid tussen wat AI wél kan overnemen (ceremonie-administratie) en wat niet (psychologische veiligheid, macht, vertrouwen).",
-        "bestMoment": "analytisch",
-        "tags": [
-          "scrum"
-        ],
-        "alsoIn": [
-          "aaa-top-100",
-          "aaa-short-top-100",
-          "aaa-scrum-top-10",
-          "aaa-scrum-top-100"
-        ],
-        "memberships": [
-          {
-            "familyId": "algemeen",
-            "size": "top-100",
-            "position": 15
-          },
-          {
-            "familyId": "kort",
-            "size": "top-100",
-            "position": 14
-          },
-          {
-            "familyId": "scrum",
-            "size": "top-10",
-            "position": 1
-          },
-          {
-            "familyId": "scrum",
-            "size": "top-100",
-            "position": 1
-          }
-        ]
       },
       {
         "position": null,
@@ -43429,7 +43688,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 49
+            "position": 50
           }
         ]
       },
@@ -44280,7 +44539,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 70
+            "position": 72
           }
         ]
       },
@@ -44715,7 +44974,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 48
+            "position": 49
           }
         ]
       },
@@ -44751,7 +45010,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 47
+            "position": 48
           }
         ]
       },
@@ -44842,7 +45101,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 46
+            "position": 47
           }
         ]
       },
@@ -44959,7 +45218,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 68
+            "position": 70
           }
         ]
       },
@@ -44995,7 +45254,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 67
+            "position": 69
           }
         ]
       },
@@ -45381,7 +45640,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 66
+            "position": 68
           }
         ]
       },
@@ -45523,7 +45782,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 69
+            "position": 71
           }
         ]
       },
@@ -50168,7 +50427,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 65
+            "position": 67
           }
         ]
       },
@@ -50481,7 +50740,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 64
+            "position": 66
           }
         ]
       },
@@ -51404,16 +51663,8 @@ window.TOP_ARTICLES = {
           "light-reading",
           "technology"
         ],
-        "alsoIn": [
-          "aaa-luchtig-top-100"
-        ],
-        "memberships": [
-          {
-            "familyId": "luchtig",
-            "size": "top-100",
-            "position": 100
-          }
-        ]
+        "alsoIn": [],
+        "memberships": []
       },
       {
         "position": null,
@@ -52396,7 +52647,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 82
+            "position": 84
           }
         ]
       },
@@ -52660,7 +52911,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 81
+            "position": 83
           }
         ]
       },
@@ -52695,7 +52946,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 80
+            "position": 82
           }
         ]
       },
@@ -52777,16 +53028,8 @@ window.TOP_ARTICLES = {
           "professional development",
           "scrum"
         ],
-        "alsoIn": [
-          "aaa-scrum-top-100"
-        ],
-        "memberships": [
-          {
-            "familyId": "scrum",
-            "size": "top-100",
-            "position": 100
-          }
-        ]
+        "alsoIn": [],
+        "memberships": []
       },
       {
         "position": null,
@@ -52812,16 +53055,8 @@ window.TOP_ARTICLES = {
           "professional development",
           "scrum"
         ],
-        "alsoIn": [
-          "aaa-scrum-top-100"
-        ],
-        "memberships": [
-          {
-            "familyId": "scrum",
-            "size": "top-100",
-            "position": 99
-          }
-        ]
+        "alsoIn": [],
+        "memberships": []
       },
       {
         "position": null,
@@ -52854,7 +53089,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 98
+            "position": 100
           }
         ]
       },
@@ -52889,7 +53124,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 79
+            "position": 81
           }
         ]
       },
@@ -52958,7 +53193,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 78
+            "position": 80
           }
         ]
       },
@@ -53178,16 +53413,8 @@ window.TOP_ARTICLES = {
           "light-reading",
           "personal growth & life philosophy"
         ],
-        "alsoIn": [
-          "aaa-luchtig-top-100"
-        ],
-        "memberships": [
-          {
-            "familyId": "luchtig",
-            "size": "top-100",
-            "position": 99
-          }
-        ]
+        "alsoIn": [],
+        "memberships": []
       },
       {
         "position": null,
@@ -53250,7 +53477,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 44
+            "position": 45
           }
         ]
       },
@@ -53286,7 +53513,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 98
+            "position": 100
           }
         ]
       },
@@ -53322,7 +53549,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 97
+            "position": 99
           }
         ]
       },
@@ -53494,7 +53721,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 96
+            "position": 98
           }
         ]
       },
@@ -54423,7 +54650,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 95
+            "position": 97
           }
         ]
       },
@@ -54738,7 +54965,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 97
+            "position": 99
           }
         ]
       },
@@ -54774,7 +55001,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 96
+            "position": 98
           }
         ]
       },
@@ -54969,7 +55196,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 94
+            "position": 96
           }
         ]
       },
@@ -55185,7 +55412,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 43
+            "position": 44
           },
           {
             "familyId": "luchtig-nederlands",
@@ -55758,7 +55985,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 42
+            "position": 43
           }
         ]
       },
@@ -56082,7 +56309,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 93
+            "position": 95
           }
         ]
       },
@@ -56145,7 +56372,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 63
+            "position": 65
           }
         ]
       },
@@ -56349,7 +56576,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 92
+            "position": 94
           }
         ]
       },
@@ -56413,7 +56640,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 91
+            "position": 93
           }
         ]
       },
@@ -56678,7 +56905,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 90
+            "position": 92
           }
         ]
       },
@@ -57179,7 +57406,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 89
+            "position": 91
           }
         ]
       },
@@ -57277,7 +57504,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 88
+            "position": 90
           }
         ]
       },
@@ -57591,7 +57818,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 41
+            "position": 42
           }
         ]
       },
@@ -58012,7 +58239,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 87
+            "position": 89
           }
         ]
       },
@@ -58198,7 +58425,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 62
+            "position": 64
           }
         ]
       },
@@ -58788,7 +59015,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 61
+            "position": 63
           }
         ]
       },
@@ -58824,7 +59051,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 40
+            "position": 41
           }
         ]
       },
@@ -58903,7 +59130,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 39
+            "position": 40
           }
         ]
       },
@@ -59804,7 +60031,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 38
+            "position": 39
           }
         ]
       },
@@ -60504,7 +60731,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 37
+            "position": 38
           }
         ]
       },
@@ -60765,7 +60992,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 60
+            "position": 62
           }
         ]
       },
@@ -61347,7 +61574,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 36
+            "position": 37
           }
         ]
       },
@@ -61453,7 +61680,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 86
+            "position": 88
           }
         ]
       },
@@ -61544,7 +61771,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 35
+            "position": 36
           }
         ]
       },
@@ -61581,7 +61808,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 85
+            "position": 87
           }
         ]
       },
@@ -61811,7 +62038,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 45
+            "position": 46
           }
         ]
       },
@@ -62006,7 +62233,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 84
+            "position": 86
           }
         ]
       },
@@ -62042,7 +62269,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 83
+            "position": 85
           }
         ]
       },
@@ -62281,7 +62508,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 34
+            "position": 35
           }
         ]
       },
@@ -62593,7 +62820,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 82
+            "position": 84
           }
         ]
       },
@@ -62877,7 +63104,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 81
+            "position": 83
           }
         ]
       },
@@ -62913,7 +63140,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 59
+            "position": 61
           }
         ]
       },
@@ -63105,7 +63332,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 33
+            "position": 34
           }
         ]
       },
@@ -63521,7 +63748,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 32
+            "position": 33
           }
         ]
       },
@@ -64069,7 +64296,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 80
+            "position": 82
           }
         ]
       },
@@ -64597,7 +64824,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 79
+            "position": 81
           }
         ]
       },
@@ -64749,7 +64976,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 58
+            "position": 60
           }
         ]
       },
@@ -64820,7 +65047,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 31
+            "position": 32
           }
         ]
       },
@@ -65560,7 +65787,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 30
+            "position": 31
           }
         ]
       },
@@ -65596,7 +65823,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 29
+            "position": 30
           }
         ]
       },
@@ -65952,7 +66179,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 78
+            "position": 80
           }
         ]
       },
@@ -66125,7 +66352,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 57
+            "position": 59
           }
         ]
       },
@@ -66161,7 +66388,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 77
+            "position": 79
           }
         ]
       },
@@ -66434,7 +66661,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 28
+            "position": 29
           }
         ]
       },
@@ -68146,7 +68373,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 76
+            "position": 78
           }
         ]
       }
@@ -68233,43 +68460,43 @@ window.TOP_ARTICLES = {
           "position": 15
         },
         {
-          "id": "01m0k3hr0fm2zdqmg55xb8dnb0",
-          "title": "If AI Can Replace Your Scrummaster, You Never Had a Scrummaster",
-          "position": 16
-        },
-        {
           "id": "01m0xzvm7dw0b5df1st7njp4d5",
           "title": "Depression plays for the draw",
-          "position": 17
+          "position": 16
         },
         {
           "id": "01m0yzc4t547m4zm0yvgrk39xb",
           "title": "The Future of Agile Coaches: Do Large Companies Need a Standardized Agile Coach Certification and What Are the Alternatives?",
-          "position": 18
+          "position": 17
         },
         {
           "id": "01m196xchg8p7w1j7b5f3y5f7h",
           "title": "Karl Marx’s Conception of Alienation",
-          "position": 19
+          "position": 18
         },
         {
           "id": "01m1ckrdyh8tprrhj5bvqysbef",
           "title": "Who are your jaguar hunters?",
-          "position": 20
+          "position": 19
         },
         {
           "id": "01m1k4njhg2tq0hr2s2c7q8mc2",
           "title": "The First Broken Window",
-          "position": 21
+          "position": 20
         },
         {
           "id": "01m1p5faqxp49r9sfcfk83yaf1",
           "title": "Notes On Camp",
-          "position": 22
+          "position": 21
         },
         {
           "id": "01m1zvm6gs1fej0qfpx176aftk",
           "title": "My unsung hero of science: Harriet Taylor Mill, the radical feminist philosopher who lived in the shadow of her husband",
+          "position": 22
+        },
+        {
+          "id": "01m1zz7a3yxy2nte35hssybary",
+          "title": "Continuous Product Discovery — Product Talk",
           "position": 23
         },
         {
@@ -68299,63 +68526,63 @@ window.TOP_ARTICLES = {
           "position": 2
         },
         {
-          "id": "01m0k3hr0fm2zdqmg55xb8dnb0",
-          "title": "If AI Can Replace Your Scrummaster, You Never Had a Scrummaster",
-          "position": 3
-        },
-        {
           "id": "01m0xzvm7dw0b5df1st7njp4d5",
           "title": "Depression plays for the draw",
-          "position": 4
+          "position": 3
         },
         {
           "id": "01m0yzc4t547m4zm0yvgrk39xb",
           "title": "The Future of Agile Coaches: Do Large Companies Need a Standardized Agile Coach Certification and What Are the Alternatives?",
-          "position": 5
+          "position": 4
         },
         {
           "id": "01m17wk25n5e583ck9pheb21wm",
           "title": "Basic Income And Labor Supply: Evidence From An Rct In Germany",
-          "position": 6
+          "position": 5
         },
         {
           "id": "01m17wmevv79f0hqp0j1xykrjq",
           "title": "The Employment Effects Of A Guaranteed Income: Experimental Evidence From Two U.S. States",
-          "position": 7
+          "position": 6
         },
         {
           "id": "01m18x5tkp50nvk9xr4scqk691",
           "title": "Tales of rebellion against externally-opaque meritocracies",
-          "position": 8
+          "position": 7
         },
         {
           "id": "01m196xchg8p7w1j7b5f3y5f7h",
           "title": "Karl Marx’s Conception of Alienation",
-          "position": 9
+          "position": 8
         },
         {
           "id": "01m1ckrdyh8tprrhj5bvqysbef",
           "title": "Who are your jaguar hunters?",
-          "position": 10
+          "position": 9
         },
         {
           "id": "01m1k4njhg2tq0hr2s2c7q8mc2",
           "title": "The First Broken Window",
-          "position": 11
+          "position": 10
         },
         {
           "id": "01m1p5faqxp49r9sfcfk83yaf1",
           "title": "Notes On Camp",
-          "position": 12
+          "position": 11
         },
         {
           "id": "01m1zvm6gs1fej0qfpx176aftk",
           "title": "My unsung hero of science: Harriet Taylor Mill, the radical feminist philosopher who lived in the shadow of her husband",
-          "position": 13
+          "position": 12
         },
         {
           "id": "01m1zvs2vragng388fm30ef3xx",
           "title": "On Liberty",
+          "position": 13
+        },
+        {
+          "id": "01m1zz7a3yxy2nte35hssybary",
+          "title": "Continuous Product Discovery — Product Talk",
           "position": 14
         },
         {
@@ -68460,88 +68687,88 @@ window.TOP_ARTICLES = {
           "position": 8
         },
         {
+          "id": "01m1zz7a3yxy2nte35hssybary",
+          "title": "Continuous Product Discovery — Product Talk",
+          "position": 9
+        },
+        {
           "id": "01k72qvbmwd9xp0k233cv5qgw2",
           "title": "A blog post is a very long and complex search query to find fascinating people and make them route interesting stuff to your inbox",
-          "position": 9
+          "position": 10
         },
         {
           "id": "01kj59ew6gb91gscpt8f7htspq",
           "title": "Motivation And Personality",
-          "position": 10
+          "position": 11
         },
         {
           "id": "01krmzw6cw28m1y55ds9qrsxjf",
           "title": "Cities and Ambition",
-          "position": 11
+          "position": 12
         },
         {
           "id": "01m196wv3n2x3k1nnxbynjm8zt",
           "title": "Critical Thinking: What is it to be a Critical Thinker?",
-          "position": 12
+          "position": 13
         },
         {
           "id": "01m196wzm7941m99hfab08jcs8",
           "title": "Arguments: Why Do You Believe What You Believe?",
-          "position": 13
+          "position": 14
         },
         {
           "id": "01m0f5thx0x9f1rpdvj5r64m3m",
           "title": "Meditations On Moloch",
-          "position": 14
+          "position": 15
         },
         {
           "id": "01m1kscbbmwsztsc5xam17y12g",
           "title": "Why Teams Don’t Work",
-          "position": 15
+          "position": 16
         },
         {
           "id": "01j8s9z9xg4shgce5z167zc7fn",
           "title": "📰 Food as Currency - by Eleanor Konik - Manuscriptions\n📰 Food as Currency",
-          "position": 16
+          "position": 17
         },
         {
           "id": "01jjmt3derk62gvm51m286870b",
           "title": "🎓 On Famines: why and how they happen. To who?",
-          "position": 17
+          "position": 18
         },
         {
           "id": "01k7qbgbanjkbvetnkfd47vkrz",
           "title": "How I wrote \"Looking for Alice\"",
-          "position": 18
+          "position": 19
         },
         {
           "id": "01k7qbgpmxd9gskhw16jx5b8yk",
           "title": "Popular education in Sweden: much more than you wanted to know",
-          "position": 19
+          "position": 20
         },
         {
           "id": "01krn1jdcn6b450yv1z0j92tz3",
           "title": "The Radical Sunzi",
-          "position": 20
+          "position": 21
         },
         {
           "id": "01kxy1qnae4npandc4x9mv4aw0",
           "title": "To Understand Elon Musk, You Have to Understand This ’60s Sci-Fi Novel",
-          "position": 21
+          "position": 22
         },
         {
           "id": "01ky7qe9p9qwtpk49bzc4pqqhk",
           "title": "Normal Accidents: Living with High-Risk Technologies",
-          "position": 22
+          "position": 23
         },
         {
           "id": "01m059t7cjgvc214sac3e4z08x",
           "title": "Freedom of the Park",
-          "position": 23
+          "position": 24
         },
         {
           "id": "01m059tpnqyq5yy3kq6xrmf1v5",
           "title": "My Country Right or Left",
-          "position": 24
-        },
-        {
-          "id": "01m059tzwnjdjtmteh5jpa7bxz",
-          "title": "Pleasure Spots",
           "position": 25
         }
       ]
