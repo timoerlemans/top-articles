@@ -1,6 +1,6 @@
 // Automatisch gegenereerd door scripts/build-data.ts — niet handmatig bewerken.
 window.TOP_ARTICLES = {
-  "generatedAt": "2026-09-09T08:45:54.773Z",
+  "generatedAt": "2026-09-09T11:47:06.699Z",
   "families": [
     {
       "id": "algemeen",
@@ -248,8 +248,7 @@ window.TOP_ARTICLES = {
               "tags": [
                 "ai & machine learning",
                 "arts & culture",
-                "learning & meta-learning",
-                "light-reading"
+                "learning & meta-learning"
               ],
               "alsoIn": [
                 "aaa-top-100",
@@ -560,8 +559,7 @@ window.TOP_ARTICLES = {
               "tags": [
                 "ai & machine learning",
                 "arts & culture",
-                "learning & meta-learning",
-                "light-reading"
+                "learning & meta-learning"
               ],
               "alsoIn": [
                 "aaa-top-10",
@@ -793,7 +791,6 @@ window.TOP_ARTICLES = {
               "bestMoment": "analytisch",
               "tags": [
                 "agile",
-                "linked-from-readwise",
                 "professional development",
                 "research papers & academia"
               ],
@@ -923,35 +920,6 @@ window.TOP_ARTICLES = {
             },
             {
               "position": 21,
-              "id": "01m1zvm6gs1fej0qfpx176aftk",
-              "title": "My unsung hero of science: Harriet Taylor Mill, the radical feminist philosopher who lived in the shadow of her husband",
-              "author": "Helen McCabe",
-              "siteName": "The Conversation",
-              "category": "article",
-              "language": null,
-              "readingTime": "4 mins",
-              "readingMinutes": 4,
-              "wordCount": 1043,
-              "publishedDate": "2026-09-03",
-              "savedDate": "2026-09-08T06:34:57.945000+00:00",
-              "imageUrl": "https://images.theconversation.com/files/757175/original/file-20260901-60-sse0ig.jpeg?ixlib=rb-4.1.1&rect=0%2C453%2C4537%2C2268&q=45&auto=format&w=1356&h=668&fit=crop",
-              "sourceUrl": "https://theconversation.com/my-unsung-hero-of-science-harriet-taylor-mill-the-radical-feminist-philosopher-who-lived-in-the-shadow-of-her-husband-290875",
-              "readwiseUrl": "https://read.readwise.io/read/01m1zvm6gs1fej0qfpx176aftk",
-              "summary": "Taylor Mill cut to the heart of issues in political thought such as patriarchy, socio-economic justice and freedom.",
-              "whyRead": null,
-              "bestMoment": null,
-              "tags": [
-                "feminism & gender",
-                "history of ideas",
-                "political philosophy",
-                "sociology & social structures"
-              ],
-              "alsoIn": [
-                "aaa-short-top-100"
-              ]
-            },
-            {
-              "position": 22,
               "id": "01m1zz7a3yxy2nte35hssybary",
               "title": "Continuous Product Discovery — Product Talk",
               "author": "producttalk.org",
@@ -981,32 +949,63 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 23,
-              "id": "01m227yg7yamdn2qq40a45gr71",
-              "title": "The AI4Agile Practitioners Report 2026",
-              "author": "Scrum.org",
-              "siteName": "Scrum.org",
+              "position": 22,
+              "id": "01m1zz7f9eqj3hmaee464gw72n",
+              "title": "Liberating Structures",
+              "author": "liberatingstructures.com",
+              "siteName": "liberatingstructures.com",
               "category": "article",
               "language": null,
-              "readingTime": "4 mins",
-              "readingMinutes": 4,
-              "wordCount": 814,
-              "publishedDate": "2026-02-08",
-              "savedDate": "2026-09-09T04:48:47.358000+00:00",
-              "imageUrl": "https://age-of-product.com/wp-content/uploads/ai4agile-pratitioners-report-2026-1536x768.jpg",
-              "sourceUrl": "https://www.scrum.org/resources/blog/ai4agile-practitioners-report-2026",
-              "readwiseUrl": "https://read.readwise.io/read/01m227yg7yamdn2qq40a45gr71",
-              "summary": "83% of Agile practitioners use AI, but most spend 10% or less of their time with it; learn more! By PST Stefan Wolpers.",
+              "readingTime": "6 mins",
+              "readingMinutes": 6,
+              "wordCount": 1451,
+              "publishedDate": "2022-12-06",
+              "savedDate": "2026-09-08T07:37:55.246000+00:00",
+              "imageUrl": null,
+              "sourceUrl": "https://www.liberatingstructures.com",
+              "readwiseUrl": "https://read.readwise.io/read/01m1zz7f9eqj3hmaee464gw72n",
+              "summary": "liberating structures, social invention.net, microstructures, disruptive innovation, behavior change, collaboration, social invention, diffusion of innovation, strategy, transformation, heuristics, complexity science, emergence",
+              "whyRead": "Raakt je werk als Scrum Master en je interesse in agile teamdynamiek; dit repertoire laat zien hoe kleine ontwerpkeuzes deelname, vertrouwen en gedeeld eigenaarschap in groepen kunnen vergroten.",
+              "bestMoment": "leergierig",
+              "tags": [
+                "agile",
+                "professional development",
+                "sociology & social structures"
+              ],
+              "alsoIn": [
+                "aaa-short-top-100",
+                "aaa-scrum-top-10",
+                "aaa-scrum-top-100"
+              ]
+            },
+            {
+              "position": 23,
+              "id": "01m2265g0kyk1003t9x2hsdzw8",
+              "title": "Communication Is … Ritual",
+              "author": "Sven Brodmerkel (PhD)",
+              "siteName": "Off-Script At Work",
+              "category": "article",
+              "language": null,
+              "readingTime": "5 mins",
+              "readingMinutes": 5,
+              "wordCount": 1283,
+              "publishedDate": "2026-08-06",
+              "savedDate": "2026-09-09T04:17:39.353000+00:00",
+              "imageUrl": "https://images.unsplash.com/photo-1533638446853-a05ab34984f9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzMDAzMzh8MHwxfHNlYXJjaHw4N3x8cml0dWFsfGVufDB8fHx8MTc4NTk4MDAwNHww&ixlib=rb-4.1.0&q=80&w=1080",
+              "sourceUrl": "https://svenbrodmerkel.substack.com/p/rethinking-the-c-word-3ae?utm_source=substack&utm_campaign=post_embed&utm_medium=email&embedding_publication_id=7244866",
+              "readwiseUrl": "https://read.readwise.io/read/01m2265g0kyk1003t9x2hsdzw8",
+              "summary": "#1 of the \"Rethinking the C-Word\"-series",
               "whyRead": null,
               "bestMoment": null,
               "tags": [
-                "agile & scrum",
-                "ai ethics & society",
-                "artificial intelligence",
-                "professional development"
+                "agile",
+                "professional development",
+                "sociology & social structures"
               ],
               "alsoIn": [
-                "aaa-short-top-100"
+                "aaa-short-top-100",
+                "aaa-scrum-top-10",
+                "aaa-scrum-top-100"
               ]
             },
             {
@@ -1197,1192 +1196,6 @@ window.TOP_ARTICLES = {
             },
             {
               "position": 31,
-              "id": "01ke8078ppphvc7nr28ecay5nf",
-              "title": "Let a thousand societies bloom",
-              "author": "eth.limo",
-              "siteName": "eth.limo",
-              "category": "article",
-              "language": "Engels",
-              "readingTime": "33 mins",
-              "readingMinutes": 33,
-              "wordCount": 8591,
-              "publishedDate": "2025-12-17",
-              "savedDate": "2026-01-05T21:15:16.056000+00:00",
-              "imageUrl": "http://vitalik.ca/images/icon.png",
-              "sourceUrl": "https://vitalik.eth.limo/general/2025/12/17/societies.html?__readwiseLocation=&utm_source=substack&utm_medium=email",
-              "readwiseUrl": "https://read.readwise.io/read/01ke8078ppphvc7nr28ecay5nf",
-              "summary": "People should be free to form many new societies, from online tribes to experimental cities, so culture and governance can be tried in different ways.  \nSmaller, focused communities (\"tribes\" or \"zones\") let people build deep shared values and test better rules using tech and local autonomy.  \nMore diverse, competing societies would spread opportunity, boost innovation, and give people real choice in how they live.",
-              "whyRead": "Raakt je interesse in politieke filosofie — een lang essay over radicale pluraliteit: duizenden nieuwe gemeenschappen, steden en samenlevingen via technologie.",
-              "bestMoment": "analytisch",
-              "tags": [
-                "metaphysics",
-                "political philosophy",
-                "programming & software",
-                "sociology & inequality"
-              ],
-              "alsoIn": [
-                "aaa-software-development-top-10",
-                "aaa-software-development-top-100"
-              ]
-            },
-            {
-              "position": 32,
-              "id": "01khr5h2d75yj0yt1v6seck4nt",
-              "title": "On the compulsion to make art",
-              "author": "Henrik Karlsson",
-              "siteName": "Substack",
-              "category": "email",
-              "language": "Engels",
-              "readingTime": "10 mins",
-              "readingMinutes": 10,
-              "wordCount": 2438,
-              "publishedDate": "2026-02-18",
-              "savedDate": "2026-02-18T10:42:56.551000+00:00",
-              "imageUrl": null,
-              "sourceUrl": "mailto:reader-forwarded-email/26b3866211e1c3f98b78ad8810c52cdd",
-              "readwiseUrl": "https://read.readwise.io/read/01khr5h2d75yj0yt1v6seck4nt",
-              "summary": "An island sculptor worked tirelessly, despite poverty, carving stone and bending clay because he had to make art.  \nHis forms echoed the wild land—often sexual, like cave art—and he believed they would endure for millennia.  \nOver decades, his making fused with the place, reshaping it and reminding the author that the urge to create is normal.",
-              "whyRead": "Raakt je interesse in kunst als levensvorm — een essayistisch portret van een beeldhouwer die in bittere armoede doorzette, en de vraag wat mensen drijft om te maken ook als niemand het ziet.",
-              "bestMoment": "reflectief",
-              "tags": [
-                "arts & culture",
-                "light-reading",
-                "sociology & inequality",
-                "writing & essays"
-              ],
-              "alsoIn": [
-                "aaa-luchtig-top-10",
-                "aaa-luchtig-top-100"
-              ]
-            },
-            {
-              "position": 33,
-              "id": "01kkejgakdb8n1a7k1bketbfm5",
-              "title": "📗 REVIEW: Rise & Reign of Mammals by Steve Brusatte",
-              "author": "Eleanor Konik",
-              "siteName": "Manuscriptions",
-              "category": "rss",
-              "language": "Engels",
-              "readingTime": "11 mins",
-              "readingMinutes": 11,
-              "wordCount": 2673,
-              "publishedDate": "2026-03-11",
-              "savedDate": "2026-03-11T13:48:39.989000+00:00",
-              "imageUrl": "https://substack-post-media.s3.amazonaws.com/public/images/c8f6a7a6-d549-49f1-be9c-692c95fd8b58_1344x896.png",
-              "sourceUrl": "https://www.eleanorkonik.com/p/review-rise-and-reign-of-mammals",
-              "readwiseUrl": "https://read.readwise.io/read/01kkejgakdb8n1a7k1bketbfm5",
-              "summary": "This review explains how Brusatte’s book shows mammals evolved unique jaws, brains, and senses that helped them survive and thrive after dinosaurs.  \nIt describes how new DNA evidence reshaped the mammal family tree and highlights dramatic examples like walking whales and fossil beds.  \nThe book ends by linking mammal evolution to humans, extinction debates, and our huge impact on modern animal life.",
-              "whyRead": "Boeiend voor je interesse in wetenschap en geschiedenis — een grondige recensie van Brusatte's 'Rise and Reign of the Mammals' die laat zien hoe tandevolutie zoogdieren hun ecologische dominantie gaf.",
-              "bestMoment": "leergierig",
-              "tags": [
-                "history",
-                "parenting & care",
-                "popular science"
-              ],
-              "alsoIn": []
-            },
-            {
-              "position": 34,
-              "id": "01kmbp17grppjmpxqfsq4z3zy7",
-              "title": "Sucker",
-              "author": "McKay Coppins",
-              "siteName": "The Atlantic",
-              "category": "article",
-              "language": null,
-              "readingTime": "52 mins",
-              "readingMinutes": 52,
-              "wordCount": 13697,
-              "publishedDate": "2026-03-12",
-              "savedDate": "2026-03-22T21:08:21.145000+00:00",
-              "imageUrl": "https://cdn.theatlantic.com/thumbor/3FLysCzT5TUxxftKuq7fC50kN8U=/638x0:2557x2399/648x810/media/img/2026/03/04/Atlantic_Gambling_Final_01_WEBHP/original.png",
-              "sourceUrl": "https://theatlantic.com/magazine/2026/04/online-sports-betting-app-addiction/686061/",
-              "readwiseUrl": "https://read.readwise.io/read/01kmbp17grppjmpxqfsq4z3zy7",
-              "summary": "The writer starts casually betting on sports and soon becomes deeply caught up in gambling apps and parlays. His habit begins to affect his family, his sleep, and his kids’ understanding of money and sports. He ends with big losses and warns that widespread sports betting harms people and threatens the integrity of games and society.",
-              "whyRead": "Raakt je interesse in sociologie en actuele maatschappij — een ongewoon eerlijk first-person journalistiek experiment over hoe de sportweddindustrie mensen verleidt en verslaaft.",
-              "bestMoment": "ontspannen",
-              "tags": [
-                "current affairs & politics",
-                "economics",
-                "light-reading",
-                "sociology & inequality"
-              ],
-              "alsoIn": [
-                "aaa-luchtig-top-10",
-                "aaa-luchtig-top-100"
-              ]
-            },
-            {
-              "position": 35,
-              "id": "01kmmsmygjapx4f6gb2bhxds2j",
-              "title": "We Haven’t Seen the Worst of What Gambling Will Do to American Sports and Politics",
-              "author": "Derek Thompson",
-              "siteName": "Substack",
-              "category": "email",
-              "language": "Engels",
-              "readingTime": "10 mins",
-              "readingMinutes": 10,
-              "wordCount": 2576,
-              "publishedDate": "2026-03-26",
-              "savedDate": "2026-03-26T10:04:42.898000+00:00",
-              "imageUrl": null,
-              "sourceUrl": "mailto:reader-forwarded-email/6f01394f5886768f60bda7dbd9ec6224",
-              "readwiseUrl": "https://read.readwise.io/read/01kmmsmygjapx4f6gb2bhxds2j",
-              "summary": "Legal gambling is spreading quickly from sports into politics and world events.  \nThe author warns this boom fuels addiction, threats, cheating, and loss of trust in games and news.  \nIf everything becomes a bet, people may see the world as rigged by hidden gamblers, leading to deep cynicism.",
-              "whyRead": "Thompson verbindt drie concrete affaires (gerigde honkbalpitches, oorlogsweddenschappen op Polymarket, bedreigde journalisten) aan Alasdair MacIntyres these dat de markt de laatste gedeelde moraal is geworden nu religie en gemeenschap zijn weggevallen.",
-              "bestMoment": "analytisch",
-              "tags": [
-                "current affairs & politics",
-                "political philosophy",
-                "sociology & inequality",
-                "sociology & social structures",
-                "writing & essays"
-              ],
-              "alsoIn": []
-            },
-            {
-              "position": 36,
-              "id": "01knpkrv3w8wsbhpd6qs67fkd1",
-              "title": "📗 On Building a Vocabulary for Discussing Network Effects",
-              "author": "Eleanor Konik",
-              "siteName": "Substack",
-              "category": "email",
-              "language": "Engels",
-              "readingTime": "15 mins",
-              "readingMinutes": 15,
-              "wordCount": 3745,
-              "publishedDate": "2026-04-08",
-              "savedDate": "2026-04-08T13:16:09.724000+00:00",
-              "imageUrl": null,
-              "sourceUrl": "mailto:reader-forwarded-email/d6ee8a8e3bdf60078918ae62e3ef80ea",
-              "readwiseUrl": "https://read.readwise.io/read/01knpkrv3w8wsbhpd6qs67fkd1",
-              "summary": "I read The Cold Start Problem for the same reason I read and reviewed Certain to Win — I wanted to understand business better now that I work for a startup instead of a school system.",
-              "whyRead": "Raakt je professionele ontwikkeling, Scrum Master-werk en interesse in sociale structuren: dit geeft een bruikbare taal voor hoe groepen, platforms en instituties op gang komen en vastlopen.",
-              "bestMoment": "analytisch",
-              "tags": [
-                "business & startups",
-                "professional development",
-                "sociology & social structures"
-              ],
-              "alsoIn": []
-            },
-            {
-              "position": 37,
-              "id": "01kqwezb39fwf93qzkzhny5gm5",
-              "title": "THE USEFULNESS OF USELESS KNOWLEDGE",
-              "author": "Abraham Flexner",
-              "siteName": "readwise-upload-pdf",
-              "category": "article",
-              "language": null,
-              "readingTime": "21 mins",
-              "readingMinutes": 21,
-              "wordCount": 5378,
-              "publishedDate": null,
-              "savedDate": "2026-05-05T16:19:10.774000+00:00",
-              "imageUrl": "https://library.uab.edu/images/reynolds-finley/collections/medical-greats/FlexnerAbraham_lg.jpg",
-              "sourceUrl": "https://readwise.io/reader/document_raw_content/6405758",
-              "readwiseUrl": "https://read.readwise.io/read/01kqwezb39fwf93qzkzhny5gm5",
-              "summary": "",
-              "whyRead": "Raakt je interesse in filosofie, wetenschapsgeschiedenis en kennisbeheer: Flexner verdedigt ‘nutteloze’ nieuwsgierigheid als bron van zowel menselijke vrijheid als onverwachte maatschappelijke doorbraken.",
-              "bestMoment": "analytisch",
-              "tags": [
-                "history",
-                "philosophy",
-                "popular science"
-              ],
-              "alsoIn": []
-            },
-            {
-              "position": 38,
-              "id": "01kr190hdc36xn9y5edjsm74fx",
-              "title": "📚 Neat Stuff I Read in April 2026",
-              "author": "Eleanor Konik",
-              "siteName": "Manuscriptions",
-              "category": "rss",
-              "language": "Engels",
-              "readingTime": "12 mins",
-              "readingMinutes": 12,
-              "wordCount": 3108,
-              "publishedDate": "2026-05-07",
-              "savedDate": "2026-05-07T13:11:06.996000+00:00",
-              "imageUrl": "https://substackcdn.com/image/fetch/$s_!GrE0!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F818b76c1-2c3a-437e-9154-3ce59951106c_1264x848.png",
-              "sourceUrl": "https://www.eleanorkonik.com/p/neat-stuff-i-read-in-april-2026",
-              "readwiseUrl": "https://read.readwise.io/read/01kr190hdc36xn9y5edjsm74fx",
-              "summary": "On \"doing your own research\" in the AI age, messy economics in fiction, & what funerals do to African households. Also: the airline wars, vending-machine money laundering, & breakthrus in health sci.",
-              "whyRead": "Dit raakt veel van je kerninteresses tegelijk: AI en onderzoek, PKM/sensemaking, geschiedenis, sociologie, fictie als denkinstrument en infrastructuur. De meerwaarde zit niet in één diep argument, maar in Koniks curatie met duidelijke persoonlijke stem en veel mogelijke vervolgleesroutes.",
-              "bestMoment": "leergierig",
-              "tags": [
-                "ai & machine learning",
-                "sociology & inequality",
-                "writing & essays"
-              ],
-              "alsoIn": []
-            },
-            {
-              "position": 39,
-              "id": "01krmzw6cw28m1y55ds9qrsxjf",
-              "title": "Cities and Ambition",
-              "author": "paulgraham.com",
-              "siteName": "paulgraham.com",
-              "category": "article",
-              "language": null,
-              "readingTime": "14 mins",
-              "readingMinutes": 14,
-              "wordCount": 3612,
-              "publishedDate": "2008-05-14",
-              "savedDate": "2026-05-15T04:56:19.101000+00:00",
-              "imageUrl": null,
-              "sourceUrl": "https://www.paulgraham.com/cities.html",
-              "readwiseUrl": "https://read.readwise.io/read/01krmzw6cw28m1y55ds9qrsxjf",
-              "summary": "The surprising thing is how different these messages can be. New York tells you, above all: you should make more money.",
-              "whyRead": "Sterk essay over steden als omgevingen die bepaalde vormen van ambitie versterken. Shortlist, omdat het urbanisme, sociologie, schrijven en zelfvorming verbindt in een heldere, herbruikbare denkvorm.",
-              "bestMoment": "reflectief",
-              "tags": [
-                "linked-from-readwise",
-                "sociology & inequality",
-                "urbanism & mobility",
-                "writing & essays"
-              ],
-              "alsoIn": []
-            },
-            {
-              "position": 40,
-              "id": "01krpd5465ts11g8szys682dfj",
-              "title": "Shame them, shun them, ban them, beat them!",
-              "author": "Adam Mastroianni",
-              "siteName": "experimental-history.com",
-              "category": "article",
-              "language": "Engels",
-              "readingTime": "11 mins",
-              "readingMinutes": 11,
-              "wordCount": 2771,
-              "publishedDate": "2026-05-12",
-              "savedDate": "2026-05-15T18:07:37.581000+00:00",
-              "imageUrl": "https://substackcdn.com/image/fetch/$s_!Q7EN!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fbcef721b-7aca-442e-815a-33caec2e316e_1280x985.jpeg",
-              "sourceUrl": "https://www.experimental-history.com/p/shame-them-shun-them-ban-them-beat?r=1r0y5d&utm_medium=ios&triedRedirect=true",
-              "readwiseUrl": "https://read.readwise.io/read/01krpd5465ts11g8szys682dfj",
-              "summary": "Regels veranderen gedrag niet als mensen de onderliggende waarden niet delen. Via drie cases (de Sovjet-grondwet van 1936, de replicatiecrisis in de wetenschap, bodycams bij politie) laat Mastroianni zien dat regelgeving steeds faalt als de motivatie ontbreekt. Hij introduceert twee mechanismen van echte verandering: de 'crock pot' (langzame absorptie van normen via omgeving) en de 'lightning bolt' (plotselinge, memorabele ervaring). De kern: vraag niet 'hoe laten we mensen het goede doen?' maar 'hoe zorgen we dat mensen het goede willen?' — want zonder de wil helpt geen enkele regelgeving.",
-              "whyRead": null,
-              "bestMoment": null,
-              "tags": [
-                "behavioral psychology & coaching",
-                "philosophy",
-                "research papers & academia"
-              ],
-              "alsoIn": []
-            },
-            {
-              "position": 41,
-              "id": "01kvhbzvsdz71gdn2329t023sp",
-              "title": "So, what is morality?",
-              "author": "Lionel Page from Optimally Irrational",
-              "siteName": "Substack",
-              "category": "email",
-              "language": "Engels",
-              "readingTime": "28 mins",
-              "readingMinutes": 28,
-              "wordCount": 7285,
-              "publishedDate": "2026-06-20",
-              "savedDate": "2026-06-20T01:58:09.965000+00:00",
-              "imageUrl": null,
-              "sourceUrl": "mailto:reader-forwarded-email/b2b27be7b58f1413f2d301b3152bd06d",
-              "readwiseUrl": "https://read.readwise.io/read/01kvhbzvsdz71gdn2329t023sp",
-              "summary": "In his Histories, Herodotus recounts how, in the late sixth or early fifth century BCE, King Darius I of Persia asked the Greeks at his court what price would persuade them to eat their fathers’ dead bodies.",
-              "whyRead": "Raakt je kerninteresse in filosofie en sociale structuren: Lionel Page biedt een naturalistische theorie van moraal als conventie voor samenwerking. De meerwaarde zit in de koppeling van Hume, speltheorie, evolutionaire samenwerking, macht en morele intuïties.",
-              "bestMoment": "geconcentreerd",
-              "tags": [
-                "metaphysics",
-                "philosophy",
-                "political philosophy",
-                "sociology & social structures"
-              ],
-              "alsoIn": []
-            },
-            {
-              "position": 42,
-              "id": "01kwm2c48x698f162vev3xqyy2",
-              "title": "The Knowledge Machine: How Irrationality Created Modern Science",
-              "author": "R.W. Richey from We Are Not Saved",
-              "siteName": "Substack",
-              "category": "email",
-              "language": "Engels",
-              "readingTime": "32 mins",
-              "readingMinutes": 32,
-              "wordCount": 8401,
-              "publishedDate": "2026-07-03",
-              "savedDate": "2026-07-03T13:23:31.229000+00:00",
-              "imageUrl": null,
-              "sourceUrl": "mailto:reader-forwarded-email/95bea3d51405d264e4b76ccdede46ac8",
-              "readwiseUrl": "https://read.readwise.io/read/01kwm2c48x698f162vev3xqyy2",
-              "summary": "This was my entry to the 2026 ACX Book Review Contest. Given that it was, sadly, judged inadequate to the high standards of the ACX readership, I must now inflict it on you.",
-              "whyRead": "Sterke match met wetenschap, filosofie en ideeëngeschiedenis: Richey bespreekt Strevens' stelling dat moderne wetenschap werkt door een smalle, bijna onnatuurlijke empirische discipline. Shortlistwaardig door de essayvorm en de brug naar Popper, Kuhn, Bacon, Newton, replicatiecrisis en AI.",
-              "bestMoment": "geconcentreerd",
-              "tags": [
-                "history",
-                "metaphysics",
-                "philosophy",
-                "science"
-              ],
-              "alsoIn": []
-            },
-            {
-              "position": 43,
-              "id": "01ky6y0z3wkzmdhty7gq3qa1wz",
-              "title": "So, what is morality?",
-              "author": "optimallyirrational.com",
-              "siteName": "optimallyirrational.com",
-              "category": "article",
-              "language": "Engels",
-              "readingTime": "28 mins",
-              "readingMinutes": 28,
-              "wordCount": 7316,
-              "publishedDate": "2026-06-20",
-              "savedDate": "2026-07-23T07:28:47.148000+00:00",
-              "imageUrl": "https://substackcdn.com/image/fetch/$s_!B008!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd1e19532-8fac-4b31-8303-e1d0b8bfc024_1182x591.png",
-              "sourceUrl": "https://www.optimallyirrational.com/p/so-what-is-morality?utm_source=substack&utm_medium=email",
-              "readwiseUrl": "https://read.readwise.io/read/01ky6y0z3wkzmdhty7gq3qa1wz",
-              "summary": "Clear answers to some of moral philosophy’s deepest questions",
-              "whyRead": "Een toegankelijk maar diepgaand alternatief voor moreel absolutisme dat moraal als sociaal contract, samenwerking en machtsverhouding verklaart. Het verbindt filosofie, speltheorie en sociologie op een manier die goed aansluit bij politieke filosofie.",
-              "bestMoment": "analytisch",
-              "tags": [
-                "linked-from-readwise",
-                "metaphysics",
-                "philosophy",
-                "political philosophy",
-                "sociology & social structures"
-              ],
-              "alsoIn": []
-            },
-            {
-              "position": 44,
-              "id": "01kyab47vf7vat0n76fpwrgrj6",
-              "title": "Your Book Review: Breakdown In Pakistan",
-              "author": "Astral Codex Ten",
-              "siteName": "Substack",
-              "category": "email",
-              "language": "Engels",
-              "readingTime": "28 mins",
-              "readingMinutes": 28,
-              "wordCount": 7158,
-              "publishedDate": "2026-07-24",
-              "savedDate": "2026-07-24T15:15:29.263000+00:00",
-              "imageUrl": null,
-              "sourceUrl": "mailto:reader-forwarded-email/f32d3232163d9d1f75e4b5ec070bef3f",
-              "readwiseUrl": "https://read.readwise.io/read/01kyab47vf7vat0n76fpwrgrj6",
-              "summary": "[This is one of the finalists in the 2026 book review contest, written by an ACX reader who will remain anonymous until after voting is done.",
-              "whyRead": "Raakt je interesse in instituties, ongelijkheid en politieke economie: deze review laat zien hoe meetbare buitenlandse hulp lokale organisaties kan uithollen.",
-              "bestMoment": "analytisch",
-              "tags": [
-                "economics",
-                "later",
-                "political philosophy",
-                "sociology & social structures"
-              ],
-              "alsoIn": []
-            },
-            {
-              "position": 45,
-              "id": "01kysnmbwt86e2fk3axtde57h4",
-              "title": "Keynote opening Digital Commons EDIC: Moving beyond the Digital Uncommons",
-              "author": "berthub.eu",
-              "siteName": "Bert Hubert's writings",
-              "category": "article",
-              "language": "Engels",
-              "readingTime": "32 mins",
-              "readingMinutes": 32,
-              "wordCount": 8411,
-              "publishedDate": "2025-12-14",
-              "savedDate": "2026-07-30T14:07:39.930000+00:00",
-              "imageUrl": "https://berthub.eu/articles/edic-opening.jpeg",
-              "sourceUrl": "https://berthub.eu/articles/posts/keynote-opening-digital-commons-edic-eu/",
-              "readwiseUrl": "https://read.readwise.io/read/01kysnmbwt86e2fk3axtde57h4",
-              "summary": "Last Thursday, 11th of December, saw the launch of the new Digital Commons European Digital Infrastructure Consortium. In attendance were delegations from the launching member states (and the observers). Also present were the many forefathers (and mothers) of this initiative.\nOf particular note, the launch also included demonstrations of LaSuite software from France, as well as the OpenDesk software from Germany. The Dutch government showcased their amalgamated suite MijnBureau, which joins parts of the German and French initiatives.",
-              "whyRead": "Raakt je interesse in digitale soevereiniteit en Europese samenwerking: een keynote over digital commons als alternatief voor versnipperde, afhankelijke publieke IT.",
-              "bestMoment": "analytisch",
-              "tags": [
-                "political philosophy",
-                "sociology & social structures",
-                "technology"
-              ],
-              "alsoIn": []
-            },
-            {
-              "position": 46,
-              "id": "01kyxa2yd57szp13ha57708606",
-              "title": "Your Book Review: The Epic Of Gilgamesh",
-              "author": "Astral Codex Ten",
-              "siteName": "Substack",
-              "category": "email",
-              "language": "Engels",
-              "readingTime": "44 mins",
-              "readingMinutes": 44,
-              "wordCount": 11530,
-              "publishedDate": "2026-07-31",
-              "savedDate": "2026-08-01T00:02:52.453000+00:00",
-              "imageUrl": null,
-              "sourceUrl": "mailto:reader-forwarded-email/8fbcb745572258843f21b2de54a72f93",
-              "readwiseUrl": "https://read.readwise.io/read/01kyxa2yd57szp13ha57708606",
-              "summary": "[This is one of the finalists in the 2026 book review contest, written by an ACX reader who will remain anonymous until after voting is done.",
-              "whyRead": "Zie de gekozen tags: dit stuk biedt een inhoudelijke ingang die aansluit op die interessegebieden.",
-              "bestMoment": "ontspannen",
-              "tags": [
-                "fiction",
-                "history",
-                "light-reading",
-                "philosophy"
-              ],
-              "alsoIn": [
-                "aaa-luchtig-top-10",
-                "aaa-luchtig-top-100"
-              ]
-            },
-            {
-              "position": 47,
-              "id": "01m0f295dxr46cfakg2cev3c1d",
-              "title": "The Scientist Who Lived with Dozens of Children from the Pacific Islands | The New Yorker",
-              "author": "newyorker.com",
-              "siteName": "The New Yorker",
-              "category": "article",
-              "language": null,
-              "readingTime": "52 mins",
-              "readingMinutes": 52,
-              "wordCount": 13527,
-              "publishedDate": "2026-08-17",
-              "savedDate": "2026-08-20T07:48:29.245000+00:00",
-              "imageUrl": "https://media.newyorker.com/photos/6a7b6c041e8efb2b26665651/16:9/w_1280,c_limit/r49677.jpg",
-              "sourceUrl": "https://www.newyorker.com/magazine/2026/08/24/the-scientist-who-lived-with-dozens-of-children-from-the-south-pacific",
-              "readwiseUrl": "https://read.readwise.io/read/01m0f295dxr46cfakg2cev3c1d",
-              "summary": "Carleton Gajdusek won the Nobel for his work on a disease in Papua New Guinea. But his biggest experiment was on the children he took back to the U.S. ",
-              "whyRead": "Raakt je interesse in geschiedenis en sociologie — een verbijsterend, grondig onderzoeksverhaal over wetenschappelijke exploitatie: Nobelprijswinnaar Gajdusek nam tientallen kinderen uit Papoea-Nieuw-Guinea mee naar de VS als onderdeel van een informeel \"experiment\", met verstrekkende persoonlijke en maatschappelijke gevolgen tot op de dag van vandaag.",
-              "bestMoment": "kritisch",
-              "tags": [
-                "history",
-                "linked-from-readwise",
-                "science",
-                "sociology & social structures"
-              ],
-              "alsoIn": []
-            },
-            {
-              "position": 48,
-              "id": "01m0f7mwvh8ay32g66bb7rfsaj",
-              "title": "Who Was Friedrich Nietzsche? His Life And Works",
-              "author": "themicrophilosopher.com",
-              "siteName": "The Micro-Philosopher",
-              "category": "article",
-              "language": null,
-              "readingTime": "14 mins",
-              "readingMinutes": 14,
-              "wordCount": 3567,
-              "publishedDate": "2026-04-15",
-              "savedDate": "2026-08-20T09:22:16.560000+00:00",
-              "imageUrl": "https://substackcdn.com/image/fetch/$s_!KTkJ!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F65d7d714-66a8-4c3d-9394-93f4b9b01005_1226x714.png",
-              "sourceUrl": "https://themicrophilosopher.com/p/nietzsches-life-and-works",
-              "readwiseUrl": "https://read.readwise.io/read/01m0f7mwvh8ay32g66bb7rfsaj",
-              "summary": "Introduce yourself to one of history's most popular (and controversial) thinkers",
-              "whyRead": "Raakt je interesse in filosofie met een compacte, goed geschreven biografie van Nietzsche die leven, werk en receptiegeschiedenis in samenhang brengt, inclusief zijn ondubbelzinnige afkeer van antisemitisme.",
-              "bestMoment": "analytisch",
-              "tags": [
-                "existentialism",
-                "linked-from-readwise",
-                "nihilism",
-                "philosophy"
-              ],
-              "alsoIn": []
-            },
-            {
-              "position": 49,
-              "id": "01m0v38d002hs35994nqn3b993",
-              "title": "Re: Re: Re: Pritchard On Liberal Happiness",
-              "author": "Astral Codex Ten",
-              "siteName": "Substack",
-              "category": "email",
-              "language": null,
-              "readingTime": "35 mins",
-              "readingMinutes": 35,
-              "wordCount": 9030,
-              "publishedDate": "2026-08-24",
-              "savedDate": "2026-08-24T23:56:25.984000+00:00",
-              "imageUrl": null,
-              "sourceUrl": "mailto:reader-forwarded-email/a550f9c7c4a9135232ed8230d8095f72",
-              "readwiseUrl": "https://read.readwise.io/read/01m0v38d002hs35994nqn3b993",
-              "summary": "In early July, Cassie Pritchard argued on Twitter that liberalism had failed; it bet the farm on economic progress making people happier, but although it delivered impressive economic progress, happiness had failed to follow.",
-              "whyRead": "Raakt politieke filosofie en economie. Astral Codex Ten onderzoekt de spanning tussen materiële vooruitgang en de vraag of liberalisme mensen daadwerkelijk gelukkiger maakt.",
-              "bestMoment": "analytisch",
-              "tags": [
-                "economics",
-                "political philosophy",
-                "virtue ethics"
-              ],
-              "alsoIn": []
-            },
-            {
-              "position": 50,
-              "id": "01m0yytgcbktcptzp46cf14p2x",
-              "title": "The Agile Coach Role Decoded: What Agile Coaches Deliver Versus What Team Members Experience - Koumaditis - 2026 - Journal of Software: Evolution and Process - Wiley Online Library",
-              "author": "onlinelibrary.wiley.com",
-              "siteName": "Wiley Online Library",
-              "category": "article",
-              "language": null,
-              "readingTime": "39 mins",
-              "readingMinutes": 39,
-              "wordCount": 10208,
-              "publishedDate": null,
-              "savedDate": "2026-08-26T11:55:54.123000+00:00",
-              "imageUrl": "https://onlinelibrary.wiley.com/cms/asset/9c442a64-643d-4619-8b72-4cfe8f700c1f/smr.v38.4.cover.jpg?trick=1787745358769",
-              "sourceUrl": "https://onlinelibrary.wiley.com/doi/10.1002/smr.70107",
-              "readwiseUrl": "https://read.readwise.io/read/01m0yytgcbktcptzp46cf14p2x",
-              "summary": "As organizations increasingly adopt agile methodologies to navigate digital transformation, the role of the agile coach has emerged as a critical yet ambiguously defined element of success.",
-              "whyRead": "Raakt je werk als Scrum Master en je interesse in agile coaching als beroepspraktijk. Dit recente open-access onderzoek vergelijkt wat coaches zeggen te doen met wat teamleden daadwerkelijk ervaren — precies de frictie waar rolhelderheid en coachingcontracten het verschil maken.",
-              "bestMoment": "analytisch",
-              "tags": [
-                "agile",
-                "research papers & academia",
-                "scrum"
-              ],
-              "alsoIn": [
-                "aaa-scrum-top-10",
-                "aaa-scrum-top-100"
-              ]
-            },
-            {
-              "position": 51,
-              "id": "01m0yzc8acebxvxektbepqg0kc",
-              "title": "Strengthening Large-Scale Agile Teams: The Interplay of High-Quality Relationships, Psychological Safety, and Learning From Failures",
-              "author": "doi.org",
-              "siteName": "copernicus.org",
-              "category": "article",
-              "language": null,
-              "readingTime": "40 mins",
-              "readingMinutes": 40,
-              "wordCount": 10561,
-              "publishedDate": null,
-              "savedDate": "2026-08-26T12:05:35.692000+00:00",
-              "imageUrl": "https://onlinelibrary.wiley.com/cms/asset/5dfa72b9-8857-4713-a5b9-0cb63877eb06/smr2759-toc-0001-m.jpg?trick=1787745948434",
-              "sourceUrl": "https://doi.org/10.1002/smr.2759",
-              "readwiseUrl": "https://read.readwise.io/read/01m0yzc8acebxvxektbepqg0kc",
-              "summary": "Agile methods have become a standard practice within software industry, with organizations increasingly adopting large-scale agile (LSA) frameworks.",
-              "whyRead": "Raakt je werk als Scrum Master en je interesse in grootschalig agile werken. Dit empirische onderzoek maakt psychologische veiligheid concreet als schakel tussen relaties, leren van fouten en teamprestaties.",
-              "bestMoment": "analytisch",
-              "tags": [
-                "agile",
-                "linked-from-readwise",
-                "research papers & academia",
-                "scrum"
-              ],
-              "alsoIn": [
-                "aaa-scrum-top-10",
-                "aaa-scrum-top-100"
-              ]
-            },
-            {
-              "position": 52,
-              "id": "01m196wv3n2x3k1nnxbynjm8zt",
-              "title": "Critical Thinking: What is it to be a Critical Thinker?",
-              "author": "Conspiracy Theories",
-              "siteName": "1000-Word Philosophy: An Introductory Anthology",
-              "category": "article",
-              "language": null,
-              "readingTime": "10 mins",
-              "readingMinutes": 10,
-              "wordCount": 2432,
-              "publishedDate": "2021-09-28",
-              "savedDate": "2026-08-30T11:29:23.573000+00:00",
-              "imageUrl": "https://1000wordphilosophy.files.wordpress.com/2021/09/critical-thinking-know-the-facts.jpg",
-              "sourceUrl": "https://1000wordphilosophy.com/2021/09/28/critical-thinking/",
-              "readwiseUrl": "https://read.readwise.io/read/01m196wv3n2x3k1nnxbynjm8zt",
-              "summary": "An introduction to the theory and practice of critical thinking: what is it to be a critical thinker?",
-              "whyRead": "Raakt je interesse in filosofie en kritisch denken — een compacte, toegankelijke uitleg van wat kritisch denken werkelijk inhoudt, met directe raakvlakken met bias-bewustzijn en oordeelsvorming die je ook als Scrum Master goed kunt gebruiken.",
-              "bestMoment": "analytisch",
-              "tags": [
-                "philosophy"
-              ],
-              "alsoIn": []
-            },
-            {
-              "position": 53,
-              "id": "01m196wzm7941m99hfab08jcs8",
-              "title": "Arguments: Why Do You Believe What You Believe?",
-              "author": "Email Address:",
-              "siteName": "1000-Word Philosophy: An Introductory Anthology",
-              "category": "article",
-              "language": null,
-              "readingTime": "14 mins",
-              "readingMinutes": 14,
-              "wordCount": 3531,
-              "publishedDate": "2022-12-28",
-              "savedDate": "2026-08-30T11:29:28.197000+00:00",
-              "imageUrl": "https://1000wordphilosophy.files.wordpress.com/2022/12/holygrail026.jpg",
-              "sourceUrl": "https://1000wordphilosophy.com/2022/12/28/arguments/",
-              "readwiseUrl": "https://read.readwise.io/read/01m196wzm7941m99hfab08jcs8",
-              "summary": "This essay is an introduction to what arguments are and how they can be good or bad.",
-              "whyRead": "Raakt je interesse in filosofie — een heldere basisintroductie in argumentatieleer (premissen, conclusies, geldigheid, sterkte, soundness) die je meteen kunt toepassen bij het doorgronden en beoordelen van andermans redeneringen, ook in je werk als Scrum Master.",
-              "bestMoment": "analytisch",
-              "tags": [
-                "philosophy"
-              ],
-              "alsoIn": []
-            },
-            {
-              "position": 54,
-              "id": "01m0f5thx0x9f1rpdvj5r64m3m",
-              "title": "Meditations On Moloch",
-              "author": "slatestarcodexabridged.com",
-              "siteName": "slatestarcodexabridged.com",
-              "category": "article",
-              "language": null,
-              "readingTime": "55 mins",
-              "readingMinutes": 55,
-              "wordCount": 14313,
-              "publishedDate": "2014-07-30",
-              "savedDate": "2026-08-30T11:40:39.456000+00:00",
-              "imageUrl": null,
-              "sourceUrl": "https://www.slatestarcodexabridged.com/Meditations-On-Moloch",
-              "readwiseUrl": "https://read.readwise.io/read/01m0f5thx0x9f1rpdvj5r64m3m",
-              "summary": "Moloch whose eyes are a thousand blind windows! Moloch whose skyscrapers stand in the long streets like endless Jehovahs!",
-              "whyRead": "Raakt je interesse in politieke filosofie en AI-ethiek — dit is het canonieke rationalist-essay over \"multipolaire vallen\": situaties waarin iedereen een systeem haat maar niemand er unilateraal uit kan stappen (concurrentie, evolutie, kapitalisme, wapenwedlopen). Bouwt via game theory naar een van de invloedrijkste hedendaagse argumenten voor AI-existentieel risico.",
-              "bestMoment": "analytisch",
-              "tags": [
-                "ai ethics & society",
-                "philosophy",
-                "philosophy of mind",
-                "political philosophy"
-              ],
-              "alsoIn": []
-            },
-            {
-              "position": 55,
-              "id": "01m1eqhrt9fmjkb1mr1scdv9r4",
-              "title": "There's a place for everyone",
-              "author": "Adam Mastroianni",
-              "siteName": "Substack",
-              "category": "email",
-              "language": null,
-              "readingTime": "12 mins",
-              "readingMinutes": 12,
-              "wordCount": 3104,
-              "publishedDate": "2026-09-01",
-              "savedDate": "2026-09-01T14:56:38.730000+00:00",
-              "imageUrl": null,
-              "sourceUrl": "mailto:reader-forwarded-email/7143364473dd6f0af7f37f3f52b25b6c",
-              "readwiseUrl": "https://read.readwise.io/read/01m1eqhrt9fmjkb1mr1scdv9r4",
-              "summary": "I'm off this week, so I'm re-upping this post from two years ago. If you want more fresh Experimental History content, check out last week's MYSTERY POST, \"Actually Good Advice\": https://www.",
-              "whyRead": "Raakt je interesse in zingeving, sociale structuren en werk: Mastroianni verdedigt het idee dat iedereen ergens kan passen, via de diversiteit van menselijke voorkeuren, lokale niches en de maatschappelijke kosten van verkeerd geplaatste mensen. De geestige voorbeelden maken een serieus punt over belonging, loopbaan en gemeenschap toegankelijk.",
-              "bestMoment": "reflectief",
-              "tags": [
-                "arts & culture",
-                "light-reading",
-                "personal growth & life philosophy",
-                "professional development",
-                "sociology & social structures"
-              ],
-              "alsoIn": [
-                "aaa-luchtig-top-10",
-                "aaa-luchtig-top-100"
-              ]
-            },
-            {
-              "position": 56,
-              "id": "01m1h760hbqry5em5qkvrnmnay",
-              "title": "A Mississippi death penalty jury was seated with one Black juror - Mississippi Today",
-              "author": "mississippitoday.org",
-              "siteName": "Mississippi Today",
-              "category": "article",
-              "language": null,
-              "readingTime": "1 hr 29 mins",
-              "readingMinutes": 89,
-              "wordCount": 23396,
-              "publishedDate": "2026-03-12",
-              "savedDate": "2026-09-02T14:08:19.499000+00:00",
-              "imageUrl": "https://cdn.mississippitoday.org/uploads/2026/03/21223840/MT-Batson-Case-FeatImage-ForSocial-03.jpg",
-              "sourceUrl": "https://mississippitoday.org/2026/03/12/mississippi-death-penalty-jury-selection/?src=longreads",
-              "readwiseUrl": "https://read.readwise.io/read/01m1h760hbqry5em5qkvrnmnay",
-              "summary": "We use our own and third-party cookies and similar technologies to enhance and personalize your experience, analyze use of our website, and conduct marketing.",
-              "whyRead": "Raakt je interesse in politieke filosofie en sociale structuren: dit onderzoeksverhaal laat concreet zien hoe rassendiscriminatie in juryselectie, de doodstraf en institutionele macht samenkomen. De Amerikaanse context is specifiek, maar de analyse van procedurele schijnneutraliteit en hoge beroepsdrempels is breder relevant.",
-              "bestMoment": "kritisch",
-              "tags": [
-                "current affairs & politics",
-                "political philosophy",
-                "sociology & social structures"
-              ],
-              "alsoIn": []
-            },
-            {
-              "position": 57,
-              "id": "01m1kbpyawdpxn41s7rrrpcjnh",
-              "title": "Pluck versus luck",
-              "author": "aeon.co",
-              "siteName": "Aeon",
-              "category": "article",
-              "language": null,
-              "readingTime": "14 mins",
-              "readingMinutes": 14,
-              "wordCount": 3639,
-              "publishedDate": null,
-              "savedDate": "2026-09-03T10:05:57.465000+00:00",
-              "imageUrl": "https://alpha.aeon.co/images/22b959a3-a806-468a-86e0-651098100150/header_essay-4a31645u.jpg",
-              "sourceUrl": "https://aeon.co/essays/pluck-and-hard-work-or-luck-of-birth-two-stories-one-man",
-              "readwiseUrl": "https://read.readwise.io/read/01m1kbpyawdpxn41s7rrrpcjnh",
-              "summary": "Meritocracy emphasises the power of the individual to overcome obstacles, but the real story is quite a different one",
-              "whyRead": "Raakt je interesse in sociologie, politieke filosofie en professionele ontwikkeling: dit persoonlijke tweeluik ontleedt de meritocratie vanuit het verschil tussen een succesverhaal over inzet en een eerlijker verhaal over afkomst, connecties en structuur. De meerwaarde zit in de autobiografische ontmaskering van hoe elite-onderwijs en cultureel kapitaal carrièrekansen opstapelen.",
-              "bestMoment": "kritisch",
-              "tags": [
-                "linked-from-readwise",
-                "political philosophy",
-                "professional development",
-                "sociology & social structures"
-              ],
-              "alsoIn": []
-            },
-            {
-              "position": 58,
-              "id": "01m1kscbbmwsztsc5xam17y12g",
-              "title": "Why Teams Don’t Work",
-              "author": "hbr.org",
-              "siteName": "Harvard Business Review",
-              "category": "article",
-              "language": null,
-              "readingTime": "14 mins",
-              "readingMinutes": 14,
-              "wordCount": 3510,
-              "publishedDate": "2009-05-01",
-              "savedDate": "2026-09-03T14:04:50.420000+00:00",
-              "imageUrl": "https://hbr.org/resources/images/hbr_opengraph_940x490.png",
-              "sourceUrl": "https://hbr.org/2009/05/why-teams-dont-work",
-              "readwiseUrl": "https://read.readwise.io/read/01m1kscbbmwsztsc5xam17y12g",
-              "summary": "Reprint: R0905H Interviewed by Diane Coutu The belief that teams make us more creative and productive—and are the best way to get things done—is deeply entrenched. But Hackman, a professor of organizational psychology at Harvard and a leading expert on teams, is having none of it. Research, he says, consistently shows that teams underperform despite all their extra resources. In an interview with senior editor Diane Coutu, Hackman explains where teams go wrong. Shockingly, most of the time members don’t agree on what the team is supposed to be doing or even on who is on the team. The belief that bigger is better also compounds problems; as a team grows, the effort needed to manage links between members increases almost exponentially. Leaders need to be ruthless about defining teams and keeping them small (fewer than 10 members), and some individuals (like team destroyers) should simply be forced off. The leader also must set a compelling direction for the team—but in so doing, may encounter intense resistance that puts him or her at great risk. Hackman explores other fallacies about teams—for instance, that teams whose members have been together a long time become stale. In fact, research reveals that new teams make 50% more mistakes than established teams. To avoid complacency, though, every team needs a deviant—someone who is willing to make waves and open up the group to more ideas. Unfortunately, such individuals often get thrown off the team, robbing it of its chance to be magical. Leaders can’t make a team do well. However, by being disciplined about how a team is set up and managed, instituting the right support systems, and providing coaching in group processes, they can increase the likelihood that a team will be great.",
-              "whyRead": "Om Tim’s Scrum- en teamwerkpraktijk te spiegelen aan Hackmans waarschuwing dat teams niet vanzelf beter presteren dan individuen.",
-              "bestMoment": "kritisch",
-              "tags": [
-                "behavioral psychology & coaching",
-                "professional development",
-                "sociology & social structures"
-              ],
-              "alsoIn": []
-            },
-            {
-              "position": 59,
-              "id": "01m1nbjzntew83f16xt14m9r2w",
-              "title": "There is always a demand for more jobs. But what makes a job good? For that, Immanuel Kant has an answer",
-              "author": "Tyler Re",
-              "siteName": "Aeon",
-              "category": "article",
-              "language": null,
-              "readingTime": "13 mins",
-              "readingMinutes": 13,
-              "wordCount": 3243,
-              "publishedDate": "2023-09-18",
-              "savedDate": "2026-09-04T04:42:16.635000+00:00",
-              "imageUrl": "https://alpha.aeon.co/images/67195fee-de62-477c-ba09-b8355322babd/header_essay-panos_00080785.jpg",
-              "sourceUrl": "https://aeon.co/essays/what-kant-can-teach-us-about-work-on-the-problem-with-jobs",
-              "readwiseUrl": "https://read.readwise.io/read/01m1nbjzntew83f16xt14m9r2w",
-              "summary": "There is always a demand for more jobs. But what makes a job good? For that, Immanuel Kant has an answer",
-              "whyRead": "Raakt je interesse in filosofie, sociale structuren en professioneel werken: via Kant onderzoekt dit essay wanneer werk méér is dan een middel voor inkomen. Het biedt een scherp begrippenkader voor autonomie, vakmanschap en de manier waarop management het oordeel van werknemers kan beperken.",
-              "bestMoment": "analytisch",
-              "tags": [
-                "philosophy",
-                "professional development",
-                "sociology & social structures"
-              ],
-              "alsoIn": []
-            },
-            {
-              "position": 60,
-              "id": "01m18v478gh1q09mxpn9yy1f9m",
-              "title": "The choices we make about AI now are critical | Bill Gates",
-              "author": "Bill Gates",
-              "siteName": "gatesnotes.com",
-              "category": "article",
-              "language": null,
-              "readingTime": "23 mins",
-              "readingMinutes": 23,
-              "wordCount": 5864,
-              "publishedDate": null,
-              "savedDate": "2026-09-06T19:40:34.546000+00:00",
-              "imageUrl": "https://images.gatesnotes.com/12514eb8-7b51-008e-41a9-512542cf683b/f93f0cc8-be6d-4e33-870b-ab6d546576f1/AI-Article-08.19.2026-Share-Image-1200x630.jpg",
-              "sourceUrl": "https://www.gatesnotes.com/a-turbulent-ai-era-and-critical-choices-to-make",
-              "readwiseUrl": "https://read.readwise.io/read/01m18v478gh1q09mxpn9yy1f9m",
-              "summary": "AI will either be the greatest equalizer ever invented, or the worst source of injustice. We need to start planning now so it makes the world a fairer place.",
-              "whyRead": "Raakt je interesse in AI, politieke filosofie en maatschappelijke structuren: Gates formuleert een breed politiek programma voor een AI-transitie waarin werk, ongelijkheid, publieke instituties en menselijke relaties tegelijk op het spel staan. Het is een uitgesproken positie van een invloedrijke techfiguur, dus vooral waardevol als uitgangspunt voor kritische vergelijking.",
-              "bestMoment": "kritisch",
-              "tags": [
-                "ai ethics & society",
-                "political philosophy",
-                "sociology & social structures"
-              ],
-              "alsoIn": []
-            },
-            {
-              "position": 61,
-              "id": "01j60f108dfd1k8q12ah4cmp16",
-              "title": "Hunting",
-              "author": "Eleanor Konik",
-              "siteName": "Obsidian Iceberg",
-              "category": "article",
-              "language": "Engels",
-              "readingTime": "3 mins",
-              "readingMinutes": 3,
-              "wordCount": 663,
-              "publishedDate": null,
-              "savedDate": "2024-08-23T20:32:11.022000+00:00",
-              "imageUrl": "https://substackcdn.com/image/fetch/w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fab8568b0-3e60-477c-8638-b4dcf7840453_2000x1333.jpeg",
-              "sourceUrl": "https://www.eleanorkonik.com/p/hunting",
-              "readwiseUrl": "https://read.readwise.io/read/01j60f108dfd1k8q12ah4cmp16",
-              "summary": "Hunting has played a significant role in human history, but it is often overlooked in fiction. Research shows that both men and women have participated in hunting throughout different cultures and eras, with various methods and motivations. Interestingly, successful hunting can enhance testosterone levels in fathers, indicating a strong connection between hunting and family provision.",
-              "whyRead": "Raakt je interesse in geschiedenis — een compacte research-roundup over jachtpraktijken door de menselijke geschiedenis, vol verrassende details.",
-              "bestMoment": "leergierig",
-              "tags": [
-                "history",
-                "parenting & care",
-                "popular science"
-              ],
-              "alsoIn": [
-                "aaa-short-top-100"
-              ]
-            },
-            {
-              "position": 62,
-              "id": "01j8s9z9xg4shgce5z167zc7fn",
-              "title": "📰 Food as Currency - by Eleanor Konik - Manuscriptions\n📰 Food as Currency",
-              "author": "Eleanor Konik",
-              "siteName": "Obsidian Iceberg",
-              "category": "article",
-              "language": "Engels",
-              "readingTime": "5 mins",
-              "readingMinutes": 5,
-              "wordCount": 1244,
-              "publishedDate": "2023-01-11",
-              "savedDate": "2024-09-27T08:36:16.945000+00:00",
-              "imageUrl": "https://substackcdn.com/image/fetch/w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb498cb82-acdb-4bc6-9aa5-26df2469c015_1536x1024.png",
-              "sourceUrl": "https://www.eleanorkonik.com/food-as-currency",
-              "readwiseUrl": "https://read.readwise.io/read/01j8s9z9xg4shgce5z167zc7fn",
-              "summary": "The rise of agriculture was influenced by feast culture, where large communal meals helped early societies become more self-sufficient and innovative. Food, such as rice, flour, and cacao, often served as a form of currency in various cultures, demonstrating its importance in trade and social status. This shows that economies can thrive even without traditional money, as food itself can be a tangible marker of wealth and power.",
-              "whyRead": "Raakt je interesse in geschiedenis en economie — fascinerende verkenning van voedsel als valuta in verschillende beschavingen.",
-              "bestMoment": "leergierig",
-              "tags": [
-                "economics",
-                "history",
-                "political philosophy"
-              ],
-              "alsoIn": [
-                "aaa-short-top-100"
-              ]
-            },
-            {
-              "position": 63,
-              "id": "01jjmt3derk62gvm51m286870b",
-              "title": "🎓 On Famines: why and how they happen. To who?",
-              "author": "Eleanor Konik",
-              "siteName": "Obsidian Iceberg",
-              "category": "article",
-              "language": "Engels",
-              "readingTime": "6 mins",
-              "readingMinutes": 6,
-              "wordCount": 1420,
-              "publishedDate": "2023-02-01",
-              "savedDate": "2025-01-27T21:18:54.937000+00:00",
-              "imageUrl": "https://substackcdn.com/image/fetch/w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F69facf4c-1e69-4fcd-8fc1-fe90461c9cec_1536x1024.png",
-              "sourceUrl": "https://www.eleanorkonik.com/p/on-famines",
-              "readwiseUrl": "https://read.readwise.io/read/01jjmt3derk62gvm51m286870b",
-              "summary": "Famines in agrarian societies can result from poor governance, war, and weather, often impacting peasants the hardest. Contrary to common belief, hunter-gatherer societies experience less famine due to their flexibility and smaller populations. Historical examples, like the 1984 Ethiopian famine, show how high taxes and market pressures can exacerbate food crises for subsistence farmers.",
-              "whyRead": "Raakt je interesse in geschiedenis — een verrassend essay met contra-intuïtieve inzichten over wie hongersnoden treft en waarom ze ontstaan.",
-              "bestMoment": "leergierig",
-              "tags": [
-                "current affairs & politics",
-                "history",
-                "sociology & inequality"
-              ],
-              "alsoIn": [
-                "aaa-short-top-100"
-              ]
-            },
-            {
-              "position": 64,
-              "id": "01jjxdnzz04ees7fytca2rnntw",
-              "title": "🎓 Maritime Empires",
-              "author": "Eleanor Konik",
-              "siteName": "Obsidian Iceberg",
-              "category": "article",
-              "language": "Engels",
-              "readingTime": "1 min",
-              "readingMinutes": 1,
-              "wordCount": 77,
-              "publishedDate": null,
-              "savedDate": "2025-01-31T05:35:02.114000+00:00",
-              "imageUrl": "https://substackcdn.com/image/fetch/w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa0f84749-1e0a-4cf2-ad4e-fe8e0450d889_1024x618.jpeg",
-              "sourceUrl": "https://www.eleanorkonik.com/p/maritime-empires-phoenician-gap",
-              "readwiseUrl": "https://read.readwise.io/read/01jjxdnzz04ees7fytca2rnntw",
-              "summary": "The text discusses the importance of maritime empires, particularly the Phoenicians, in shaping Western cultures. It highlights how these civilizations influenced Greece and provided resources to Egypt. The author emphasizes that we often overlook the contributions of these earlier maritime societies.",
-              "whyRead": "Maritieme imperia — een historische verkenning van de Fenicische en andere zeemachten.",
-              "bestMoment": "leergierig",
-              "tags": [
-                "history",
-                "writing & essays"
-              ],
-              "alsoIn": [
-                "aaa-short-top-100"
-              ]
-            },
-            {
-              "position": 65,
-              "id": "01k2p3a6277wff8a1nvfes1ek4",
-              "title": "How to Be a Good Intelligence Analyst - by Santi Ruiz",
-              "author": "Santi Ruiz",
-              "siteName": "statecraft.pub",
-              "category": "article",
-              "language": "Engels",
-              "readingTime": "29 mins",
-              "readingMinutes": 29,
-              "wordCount": 7544,
-              "publishedDate": "2025-08-07",
-              "savedDate": "2025-08-15T05:30:17.545000+00:00",
-              "imageUrl": "https://substackcdn.com/image/fetch/$s_!txhu!,w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-video.s3.amazonaws.com%2Fvideo_upload%2Fpost%2F170289824%2F0e30be90-006d-42f8-a20b-eb6ab7bba90a%2Ftranscoded-1754517131.png",
-              "sourceUrl": "https://www.statecraft.pub/p/how-to-be-a-good-intelligence-analyst?triedRedirect=true",
-              "readwiseUrl": "https://read.readwise.io/read/01k2p3a6277wff8a1nvfes1ek4",
-              "summary": "American intelligence struggles because analysts and policymakers don't communicate well and policymakers have short attention spans.  \nThe community lacks formal methods, clear priorities, and incentives to keep skilled analysts focused and learning.  \nFixes include freeing analysts from busywork, training policymakers to be better consumers, and building better careers and processes.",
-              "whyRead": "Hoe je een goede inlichtingenanalist wordt — een gids voor analytisch denken en oordelen.",
-              "bestMoment": "leergierig",
-              "tags": [
-                "business & work",
-                "learning & meta-learning",
-                "sociology & inequality"
-              ],
-              "alsoIn": []
-            },
-            {
-              "position": 66,
-              "id": "01k3wpn5ak9v4pmtc85h462cav",
-              "title": "On the pleasure of reading private notebooks",
-              "author": "Henrik Karlsson",
-              "siteName": "henrikkarlsson.xyz",
-              "category": "article",
-              "language": "Engels",
-              "readingTime": "7 mins",
-              "readingMinutes": 7,
-              "wordCount": 1714,
-              "publishedDate": "2025-05-28",
-              "savedDate": "2025-08-30T05:19:28.597000+00:00",
-              "imageUrl": "https://substackcdn.com/image/fetch/w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd4aadbe1-9b2c-4054-90e5-ba5e5394e77e_1000x714.jpeg",
-              "sourceUrl": "https://www.henrikkarlsson.xyz/p/private-notebooks",
-              "readwiseUrl": "https://read.readwise.io/read/01k3wpn5ak9v4pmtc85h462cav",
-              "summary": "Many of my favorite books are private notebooks that were never meant for publication, like Kafka's diary and Sei Shōnagon's Pillow Book. I enjoy reading these because the authors are less censored and reveal their genuine thoughts, making the writing feel more intimate and real. Private notes show the messy, creative process of thinking, which is often missing from polished published works.",
-              "whyRead": "Over het plezier van het lezen van privénotebooks — dagboeken, notitieboeken en het intieme denken.",
-              "bestMoment": "reflectief",
-              "tags": [
-                "arts & culture",
-                "learning & meta-learning",
-                "light-reading",
-                "tools & workflows"
-              ],
-              "alsoIn": [
-                "aaa-short-top-100",
-                "aaa-luchtig-top-10",
-                "aaa-luchtig-top-100"
-              ]
-            },
-            {
-              "position": 67,
-              "id": "01k72qx64tdvkryenrbd5g81px",
-              "title": "The Dire State of Contemporary Western Philosophy",
-              "author": "Nathan Ormond",
-              "siteName": "Nathan Ormond",
-              "category": "article",
-              "language": "Engels",
-              "readingTime": "6 mins",
-              "readingMinutes": 6,
-              "wordCount": 1329,
-              "publishedDate": "2025-09-24",
-              "savedDate": "2025-10-08T20:23:52.218000+00:00",
-              "imageUrl": "https://substackcdn.com/image/fetch/$s_!bLWT!,w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F7c06d55f-21cd-4376-91c7-40d6657a6023_1023x533.webp",
-              "sourceUrl": "https://nathanormond.substack.com/p/the-dire-state-of-contemporary-western?utm_source=%2Finbox%2Fsaved&utm_medium=reader2",
-              "readwiseUrl": "https://read.readwise.io/read/01k72qx64tdvkryenrbd5g81px",
-              "summary": "Nathan Ormond argues contemporary Western philosophy is broken by university and publishing incentives that reward style over substance. Philosophers often trade prestige, puzzles, and showmanship instead of solving real ethical, political, or communal problems. This system wastes talent and trains students to value status and spectacle over practical impact.",
-              "whyRead": "Diagnose van de staat van de hedendaagse westerse filosofie — wat ontbreekt en waarom.",
-              "bestMoment": "kritisch",
-              "tags": [
-                "frankfurt school",
-                "philosophy",
-                "political philosophy",
-                "tools & workflows"
-              ],
-              "alsoIn": [
-                "aaa-short-top-100"
-              ]
-            },
-            {
-              "position": 68,
-              "id": "01k7j6j6mdje8x3v1jt8hqaba4",
-              "title": "The Mimetic Trap",
-              "author": "The One Percent Rule",
-              "siteName": "substack.com",
-              "category": "article",
-              "language": "Engels",
-              "readingTime": "7 mins",
-              "readingMinutes": 7,
-              "wordCount": 1670,
-              "publishedDate": "2025-02-07",
-              "savedDate": "2025-10-14T20:28:37.389000+00:00",
-              "imageUrl": "https://substackcdn.com/image/fetch/$s_!-02v!,w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa5775fb4-892b-463c-91a5-e09a33f8da4f_1370x900.jpeg",
-              "sourceUrl": "https://onepercentrule.substack.com/p/the-mimetic-trap?r=1r0y5d&utm_medium=ios",
-              "readwiseUrl": "https://read.readwise.io/read/01k7j6j6mdje8x3v1jt8hqaba4",
-              "summary": "People copy what others want, so our desires are shaped by imitation. This mimetic urge can cause rivalry, social harms, and online contagion. But if we choose better role models, imitation can drive cooperation and positive change.",
-              "whyRead": "Over de mimetische val – we leren door imitatie, maar wie we imiteren bepaalt wie we worden.",
-              "bestMoment": "analytisch",
-              "tags": [
-                "personal growth & life philosophy",
-                "philosophy",
-                "sociology & inequality"
-              ],
-              "alsoIn": [
-                "aaa-short-top-100"
-              ]
-            },
-            {
-              "position": 69,
-              "id": "01k7qbgbanjkbvetnkfd47vkrz",
-              "title": "How I wrote \"Looking for Alice\"",
-              "author": "Henrik Karlsson",
-              "siteName": "bytebytego.com",
-              "category": "article",
-              "language": "Engels",
-              "readingTime": "3 mins",
-              "readingMinutes": 3,
-              "wordCount": 629,
-              "publishedDate": "2023-05-30",
-              "savedDate": "2025-10-16T20:31:11.702000+00:00",
-              "imageUrl": "https://substackcdn.com/image/fetch/$s_!DzZb!,w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1312c236-513c-41a1-897e-d0c3c01967dc_1450x1529.jpeg",
-              "sourceUrl": "https://email.mg1.substack.com/c/eJxM0M0OnSAUBOCnkZ2GH1HvgkU39zXM4XBQKoIBrL19-qZt2nQ9ycyXQWi05fIxD0XMJzFn-CxxtoyMmCc-SbnwF6MTQlw3SlSgkVuh_ZdyJdhuuFKo_UJoZzdbBHDklVcgxpfQnjsWjORSCy4mobSSy6CGRWiOiOQXOc1awyDHr4CH1d3Iz00M9ba1AR4D5pOFuvpCvyWmlZtYNHtrV-3Ul06-O_l-nmfYKZVwHFBirTkN3z8_Ovm-Ovne89OH_im5UR9zPkLaep9LDzEgseu2K-bzvFNon5US2Ejuz8p12xgQWshpDc4ooUYhWDF_bd3Im-B1SJHV27p8QkiGKsIV0uYjtAjJsfbv4LtS-VUkuF4mzifNvhn5MwAA__9vYoFf",
-              "readwiseUrl": "https://read.readwise.io/read/01k7qbgbanjkbvetnkfd47vkrz",
-              "summary": "Henrik Karlsson explains how his essay \"Looking for Alice\" began from a real conversation and a sudden urge to write. He describes the fast, messy drafting process and how resistance can signal a strong idea. He shares this case study to show the small, specific choices behind writing.",
-              "whyRead": "Henrik Karlsson legt uit hoe hij 'Looking for Alice' schreef – zeldzame inkijk in het creatieve proces.",
-              "bestMoment": "reflectief",
-              "tags": [
-                "arts & culture",
-                "learning & meta-learning",
-                "light-reading",
-                "tools & workflows"
-              ],
-              "alsoIn": [
-                "aaa-short-top-100",
-                "aaa-luchtig-top-10",
-                "aaa-luchtig-top-100"
-              ]
-            },
-            {
-              "position": 70,
-              "id": "01k7qbgpmxd9gskhw16jx5b8yk",
-              "title": "Popular education in Sweden: much more than you wanted to know",
-              "author": "Henrik Karlsson",
-              "siteName": "bytebytego.com",
-              "category": "article",
-              "language": "Engels",
-              "readingTime": "5 mins",
-              "readingMinutes": 5,
-              "wordCount": 1134,
-              "publishedDate": "2022-05-17",
-              "savedDate": "2025-10-16T20:31:23.295000+00:00",
-              "imageUrl": "https://substackcdn.com/image/fetch/$s_!Ecyl!,w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F7509e0da-7c87-4ff8-9733-a4a983c26d9b_990x780.jpeg",
-              "sourceUrl": "https://email.mg1.substack.com/c/eJxMkD2u2zAQhE8jdhaWlEjpFSzS-BrCarm2GfFH4E8U5_TBy0OCFFMNZubDEDZ-5vK2FwfKkYWzsChadsFWLgaMUit8CI7ow_bkxAUbuw3bfy5MUrwsL_SgeUFgA04hm2kBhwt9zMYRoBbeKlBagjRy0pNax2lcpQYi4seqzKI1jmr-jnTsepghPuVY-14b0jFSjsLX7VH4D4ltpbMI9tXaWYfp26Dug7pf1zW-OBV_HFhCrTmNP9-_BnU_P5XPHrDc2HXC5nO6-XSrFztOt9jpJc6-b5Rj7Mm398YJ98Dua-jse_Bfqc07O8lpllIU-xdvmKFJqGMKovbd5Yg-Wa6Ep0_PR8AWMDnR_n3cK5fPIgl6NQBGix9W_Q4AAP__xgCCfA",
-              "readwiseUrl": "https://read.readwise.io/read/01k7qbgpmxd9gskhw16jx5b8yk",
-              "summary": "The author grew up surrounded by Sweden’s vast network of self-organized learning centers and misses them. These folk education institutions (folkbildning) grew from 19th-century movements and folk high schools to teach practical skills, discussion, and personal development. They helped ordinary people gain the knowledge and confidence to shape modern democratic society.",
-              "whyRead": "Henrik Karlsson over het Zweedse volksonderwijs – een verrassend rijke traditie van informeel leren.",
-              "bestMoment": "leergierig",
-              "tags": [
-                "history",
-                "learning & meta-learning",
-                "writing & essays"
-              ],
-              "alsoIn": [
-                "aaa-short-top-100"
-              ]
-            },
-            {
-              "position": 71,
-              "id": "01k7xjhe96qxhs9bkr4qahjk09",
-              "title": "How to Become as Well-Read as John Adams: 8 Tips From his Reading Life",
-              "author": "Samuel",
-              "siteName": "Knowledge Lust",
-              "category": "article",
-              "language": "Engels",
-              "readingTime": "5 mins",
-              "readingMinutes": 5,
-              "wordCount": 1109,
-              "publishedDate": "2024-05-24",
-              "savedDate": "2025-10-19T06:29:34.120000+00:00",
-              "imageUrl": "https://knowledgelust.com/wp-content/uploads/2024/05/library-of-congress-DbXVYHi9wYo-unsplash-1-813x1024.jpg",
-              "sourceUrl": "https://knowledgelust.com/how-to-become-as-well-read-as-john-adams-8-tips-from-his-reading-life/",
-              "readwiseUrl": "https://read.readwise.io/read/01k7xjhe96qxhs9bkr4qahjk09",
-              "summary": "John Adams read widely and deeply, becoming a self-taught expert across many subjects.  \nHe used habits like carrying poetry, marking margins, and intense study of key books to learn.  \nAdams believed broad reading builds personal wisdom and a healthy democracy.",
-              "whyRead": "Acht lessen uit het leesleven van John Adams – een van de meest belezenste presidenten in de geschiedenis.",
-              "bestMoment": "leergierig",
-              "tags": [
-                "history",
-                "learning & meta-learning",
-                "political philosophy"
-              ],
-              "alsoIn": [
-                "aaa-short-top-100"
-              ]
-            },
-            {
-              "position": 72,
-              "id": "01k8v9cz0ah2x4qddn265e4cnt",
-              "title": "Everything Is Television",
-              "author": "Derek Thompson",
-              "siteName": "derekthompson.org",
-              "category": "article",
-              "language": "Engels",
-              "readingTime": "9 mins",
-              "readingMinutes": 9,
-              "wordCount": 2278,
-              "publishedDate": "2025-10-10",
-              "savedDate": "2025-10-31T17:47:36.501000+00:00",
-              "imageUrl": "https://substackcdn.com/image/fetch/$s_!XE9X!,w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F707c7327-31a7-4ed2-ab2d-af440e3b45ea_878x861.jpeg",
-              "sourceUrl": "https://www.derekthompson.org/p/why-everything-became-television",
-              "readwiseUrl": "https://read.readwise.io/read/01k8v9cz0ah2x4qddn265e4cnt",
-              "summary": "Media of all kinds are turning into nonstop streams of short videos like television.  \nThis shift, driven by algorithms and platforms, favors distraction, spectacle, and shallow attention.  \nAs everything adopts TV’s grammar, our solitude, deep focus, and inward meaning are eroded.",
-              "whyRead": "Derek Thompson over hoe alle content zich transformeert naar televisie-logica – scherpe mediatheorie.",
-              "bestMoment": "kritisch",
-              "tags": [
-                "arts & culture",
-                "light-reading",
-                "philosophy",
-                "sociology & inequality"
-              ],
-              "alsoIn": [
-                "aaa-short-top-100",
-                "aaa-luchtig-top-100"
-              ]
-            },
-            {
-              "position": 73,
-              "id": "01kd1c7k90p8p5bknmbm09abwv",
-              "title": "The World in Which We Live - Nassim Nicholas Taleb",
-              "author": "Substack",
-              "siteName": "Substack",
-              "category": "article",
-              "language": "Engels",
-              "readingTime": "9 mins",
-              "readingMinutes": 9,
-              "wordCount": 2213,
-              "publishedDate": null,
-              "savedDate": "2025-12-21T21:14:46.945000+00:00",
-              "imageUrl": "https://substackcdn.com/image/fetch/$s_!_6i6!,w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1752b104-50d6-4bf7-8a85-fb32f4a35c3a_760x456.png",
-              "sourceUrl": "https://substack.com/@nntaleb/p-174276181",
-              "readwiseUrl": "https://read.readwise.io/read/01kd1c7k90p8p5bknmbm09abwv",
-              "summary": "Modern hyper-connectivity concentrates wealth and power, creating a technofeudal world where a few capture most gains.  \nFast-growing countries like China outpace stagnant, debt-laden West due to different stages on the S-curve of development.  \nGrowing government reach and migration tensions complicate governance, forcing hard choices about debt, growth, and localism.",
-              "whyRead": "Raakt je interesse in economie en politieke filosofie — Nassim Taleb's zeven punten over de moderne wereld: van technofeodaisme tot Black Swan-kwetsbaarheid.",
-              "bestMoment": "analytisch",
-              "tags": [
-                "current affairs & politics",
-                "economics",
-                "political philosophy"
-              ],
-              "alsoIn": [
-                "aaa-short-top-100"
-              ]
-            },
-            {
-              "position": 74,
               "id": "01kdnzthe611p0c38ts9j702s2",
               "title": "De verleiding van de kettingzaag",
               "author": "NRC Handelsblad",
@@ -2414,7 +1227,1306 @@ window.TOP_ARTICLES = {
               ]
             },
             {
+              "position": 32,
+              "id": "01ke8078ppphvc7nr28ecay5nf",
+              "title": "Let a thousand societies bloom",
+              "author": "eth.limo",
+              "siteName": "eth.limo",
+              "category": "article",
+              "language": "Engels",
+              "readingTime": "33 mins",
+              "readingMinutes": 33,
+              "wordCount": 8591,
+              "publishedDate": "2025-12-17",
+              "savedDate": "2026-01-05T21:15:16.056000+00:00",
+              "imageUrl": "http://vitalik.ca/images/icon.png",
+              "sourceUrl": "https://vitalik.eth.limo/general/2025/12/17/societies.html?__readwiseLocation=&utm_source=substack&utm_medium=email",
+              "readwiseUrl": "https://read.readwise.io/read/01ke8078ppphvc7nr28ecay5nf",
+              "summary": "People should be free to form many new societies, from online tribes to experimental cities, so culture and governance can be tried in different ways.  \nSmaller, focused communities (\"tribes\" or \"zones\") let people build deep shared values and test better rules using tech and local autonomy.  \nMore diverse, competing societies would spread opportunity, boost innovation, and give people real choice in how they live.",
+              "whyRead": "Raakt je interesse in politieke filosofie — een lang essay over radicale pluraliteit: duizenden nieuwe gemeenschappen, steden en samenlevingen via technologie.",
+              "bestMoment": "analytisch",
+              "tags": [
+                "metaphysics",
+                "political philosophy",
+                "programming & software",
+                "sociology & inequality"
+              ],
+              "alsoIn": [
+                "aaa-software-development-top-10",
+                "aaa-software-development-top-100"
+              ]
+            },
+            {
+              "position": 33,
+              "id": "01khr5h2d75yj0yt1v6seck4nt",
+              "title": "On the compulsion to make art",
+              "author": "Henrik Karlsson",
+              "siteName": "Substack",
+              "category": "email",
+              "language": "Engels",
+              "readingTime": "10 mins",
+              "readingMinutes": 10,
+              "wordCount": 2438,
+              "publishedDate": "2026-02-18",
+              "savedDate": "2026-02-18T10:42:56.551000+00:00",
+              "imageUrl": null,
+              "sourceUrl": "mailto:reader-forwarded-email/26b3866211e1c3f98b78ad8810c52cdd",
+              "readwiseUrl": "https://read.readwise.io/read/01khr5h2d75yj0yt1v6seck4nt",
+              "summary": "An island sculptor worked tirelessly, despite poverty, carving stone and bending clay because he had to make art.  \nHis forms echoed the wild land—often sexual, like cave art—and he believed they would endure for millennia.  \nOver decades, his making fused with the place, reshaping it and reminding the author that the urge to create is normal.",
+              "whyRead": "Raakt je interesse in kunst als levensvorm — een essayistisch portret van een beeldhouwer die in bittere armoede doorzette, en de vraag wat mensen drijft om te maken ook als niemand het ziet.",
+              "bestMoment": "reflectief",
+              "tags": [
+                "arts & culture",
+                "sociology & inequality",
+                "writing & essays"
+              ],
+              "alsoIn": [
+                "aaa-luchtig-top-10",
+                "aaa-luchtig-top-100"
+              ]
+            },
+            {
+              "position": 34,
+              "id": "01kkejgakdb8n1a7k1bketbfm5",
+              "title": "📗 REVIEW: Rise & Reign of Mammals by Steve Brusatte",
+              "author": "Eleanor Konik",
+              "siteName": "Manuscriptions",
+              "category": "rss",
+              "language": "Engels",
+              "readingTime": "11 mins",
+              "readingMinutes": 11,
+              "wordCount": 2673,
+              "publishedDate": "2026-03-11",
+              "savedDate": "2026-03-11T13:48:39.989000+00:00",
+              "imageUrl": "https://substack-post-media.s3.amazonaws.com/public/images/c8f6a7a6-d549-49f1-be9c-692c95fd8b58_1344x896.png",
+              "sourceUrl": "https://www.eleanorkonik.com/p/review-rise-and-reign-of-mammals",
+              "readwiseUrl": "https://read.readwise.io/read/01kkejgakdb8n1a7k1bketbfm5",
+              "summary": "This review explains how Brusatte’s book shows mammals evolved unique jaws, brains, and senses that helped them survive and thrive after dinosaurs.  \nIt describes how new DNA evidence reshaped the mammal family tree and highlights dramatic examples like walking whales and fossil beds.  \nThe book ends by linking mammal evolution to humans, extinction debates, and our huge impact on modern animal life.",
+              "whyRead": "Boeiend voor je interesse in wetenschap en geschiedenis — een grondige recensie van Brusatte's 'Rise and Reign of the Mammals' die laat zien hoe tandevolutie zoogdieren hun ecologische dominantie gaf.",
+              "bestMoment": "leergierig",
+              "tags": [
+                "history",
+                "parenting & care",
+                "popular science"
+              ],
+              "alsoIn": []
+            },
+            {
+              "position": 35,
+              "id": "01kmbp17grppjmpxqfsq4z3zy7",
+              "title": "Sucker",
+              "author": "McKay Coppins",
+              "siteName": "The Atlantic",
+              "category": "article",
+              "language": null,
+              "readingTime": "52 mins",
+              "readingMinutes": 52,
+              "wordCount": 13697,
+              "publishedDate": "2026-03-12",
+              "savedDate": "2026-03-22T21:08:21.145000+00:00",
+              "imageUrl": "https://cdn.theatlantic.com/thumbor/3FLysCzT5TUxxftKuq7fC50kN8U=/638x0:2557x2399/648x810/media/img/2026/03/04/Atlantic_Gambling_Final_01_WEBHP/original.png",
+              "sourceUrl": "https://theatlantic.com/magazine/2026/04/online-sports-betting-app-addiction/686061/",
+              "readwiseUrl": "https://read.readwise.io/read/01kmbp17grppjmpxqfsq4z3zy7",
+              "summary": "The writer starts casually betting on sports and soon becomes deeply caught up in gambling apps and parlays. His habit begins to affect his family, his sleep, and his kids’ understanding of money and sports. He ends with big losses and warns that widespread sports betting harms people and threatens the integrity of games and society.",
+              "whyRead": "Raakt je interesse in sociologie en actuele maatschappij — een ongewoon eerlijk first-person journalistiek experiment over hoe de sportweddindustrie mensen verleidt en verslaaft.",
+              "bestMoment": "ontspannen",
+              "tags": [
+                "current affairs & politics",
+                "economics",
+                "sociology & inequality"
+              ],
+              "alsoIn": [
+                "aaa-luchtig-top-10",
+                "aaa-luchtig-top-100"
+              ]
+            },
+            {
+              "position": 36,
+              "id": "01kmmsmygjapx4f6gb2bhxds2j",
+              "title": "We Haven’t Seen the Worst of What Gambling Will Do to American Sports and Politics",
+              "author": "Derek Thompson",
+              "siteName": "Substack",
+              "category": "email",
+              "language": "Engels",
+              "readingTime": "10 mins",
+              "readingMinutes": 10,
+              "wordCount": 2576,
+              "publishedDate": "2026-03-26",
+              "savedDate": "2026-03-26T10:04:42.898000+00:00",
+              "imageUrl": null,
+              "sourceUrl": "mailto:reader-forwarded-email/6f01394f5886768f60bda7dbd9ec6224",
+              "readwiseUrl": "https://read.readwise.io/read/01kmmsmygjapx4f6gb2bhxds2j",
+              "summary": "Legal gambling is spreading quickly from sports into politics and world events.  \nThe author warns this boom fuels addiction, threats, cheating, and loss of trust in games and news.  \nIf everything becomes a bet, people may see the world as rigged by hidden gamblers, leading to deep cynicism.",
+              "whyRead": "Thompson verbindt drie concrete affaires (gerigde honkbalpitches, oorlogsweddenschappen op Polymarket, bedreigde journalisten) aan Alasdair MacIntyres these dat de markt de laatste gedeelde moraal is geworden nu religie en gemeenschap zijn weggevallen.",
+              "bestMoment": "analytisch",
+              "tags": [
+                "current affairs & politics",
+                "political philosophy",
+                "sociology & inequality",
+                "sociology & social structures",
+                "writing & essays"
+              ],
+              "alsoIn": []
+            },
+            {
+              "position": 37,
+              "id": "01knpkrv3w8wsbhpd6qs67fkd1",
+              "title": "📗 On Building a Vocabulary for Discussing Network Effects",
+              "author": "Eleanor Konik",
+              "siteName": "Substack",
+              "category": "email",
+              "language": "Engels",
+              "readingTime": "15 mins",
+              "readingMinutes": 15,
+              "wordCount": 3745,
+              "publishedDate": "2026-04-08",
+              "savedDate": "2026-04-08T13:16:09.724000+00:00",
+              "imageUrl": null,
+              "sourceUrl": "mailto:reader-forwarded-email/d6ee8a8e3bdf60078918ae62e3ef80ea",
+              "readwiseUrl": "https://read.readwise.io/read/01knpkrv3w8wsbhpd6qs67fkd1",
+              "summary": "I read The Cold Start Problem for the same reason I read and reviewed Certain to Win — I wanted to understand business better now that I work for a startup instead of a school system.",
+              "whyRead": "Raakt je professionele ontwikkeling, Scrum Master-werk en interesse in sociale structuren: dit geeft een bruikbare taal voor hoe groepen, platforms en instituties op gang komen en vastlopen.",
+              "bestMoment": "analytisch",
+              "tags": [
+                "business & startups",
+                "professional development",
+                "sociology & social structures"
+              ],
+              "alsoIn": []
+            },
+            {
+              "position": 38,
+              "id": "01kqwezb39fwf93qzkzhny5gm5",
+              "title": "THE USEFULNESS OF USELESS KNOWLEDGE",
+              "author": "Abraham Flexner",
+              "siteName": "readwise-upload-pdf",
+              "category": "article",
+              "language": null,
+              "readingTime": "21 mins",
+              "readingMinutes": 21,
+              "wordCount": 5378,
+              "publishedDate": null,
+              "savedDate": "2026-05-05T16:19:10.774000+00:00",
+              "imageUrl": "https://library.uab.edu/images/reynolds-finley/collections/medical-greats/FlexnerAbraham_lg.jpg",
+              "sourceUrl": "https://readwise.io/reader/document_raw_content/6405758",
+              "readwiseUrl": "https://read.readwise.io/read/01kqwezb39fwf93qzkzhny5gm5",
+              "summary": "",
+              "whyRead": "Raakt je interesse in filosofie, wetenschapsgeschiedenis en kennisbeheer: Flexner verdedigt ‘nutteloze’ nieuwsgierigheid als bron van zowel menselijke vrijheid als onverwachte maatschappelijke doorbraken.",
+              "bestMoment": "analytisch",
+              "tags": [
+                "history",
+                "philosophy",
+                "popular science"
+              ],
+              "alsoIn": []
+            },
+            {
+              "position": 39,
+              "id": "01kr190hdc36xn9y5edjsm74fx",
+              "title": "📚 Neat Stuff I Read in April 2026",
+              "author": "Eleanor Konik",
+              "siteName": "Manuscriptions",
+              "category": "rss",
+              "language": "Engels",
+              "readingTime": "12 mins",
+              "readingMinutes": 12,
+              "wordCount": 3108,
+              "publishedDate": "2026-05-07",
+              "savedDate": "2026-05-07T13:11:06.996000+00:00",
+              "imageUrl": "https://substackcdn.com/image/fetch/$s_!GrE0!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F818b76c1-2c3a-437e-9154-3ce59951106c_1264x848.png",
+              "sourceUrl": "https://www.eleanorkonik.com/p/neat-stuff-i-read-in-april-2026",
+              "readwiseUrl": "https://read.readwise.io/read/01kr190hdc36xn9y5edjsm74fx",
+              "summary": "On \"doing your own research\" in the AI age, messy economics in fiction, & what funerals do to African households. Also: the airline wars, vending-machine money laundering, & breakthrus in health sci.",
+              "whyRead": "Dit raakt veel van je kerninteresses tegelijk: AI en onderzoek, PKM/sensemaking, geschiedenis, sociologie, fictie als denkinstrument en infrastructuur. De meerwaarde zit niet in één diep argument, maar in Koniks curatie met duidelijke persoonlijke stem en veel mogelijke vervolgleesroutes.",
+              "bestMoment": "leergierig",
+              "tags": [
+                "ai & machine learning",
+                "sociology & inequality",
+                "writing & essays"
+              ],
+              "alsoIn": []
+            },
+            {
+              "position": 40,
+              "id": "01krmzw6cw28m1y55ds9qrsxjf",
+              "title": "Cities and Ambition",
+              "author": "paulgraham.com",
+              "siteName": "paulgraham.com",
+              "category": "article",
+              "language": null,
+              "readingTime": "14 mins",
+              "readingMinutes": 14,
+              "wordCount": 3612,
+              "publishedDate": "2008-05-14",
+              "savedDate": "2026-05-15T04:56:19.101000+00:00",
+              "imageUrl": null,
+              "sourceUrl": "https://www.paulgraham.com/cities.html",
+              "readwiseUrl": "https://read.readwise.io/read/01krmzw6cw28m1y55ds9qrsxjf",
+              "summary": "The surprising thing is how different these messages can be. New York tells you, above all: you should make more money.",
+              "whyRead": "Sterk essay over steden als omgevingen die bepaalde vormen van ambitie versterken. Shortlist, omdat het urbanisme, sociologie, schrijven en zelfvorming verbindt in een heldere, herbruikbare denkvorm.",
+              "bestMoment": "reflectief",
+              "tags": [
+                "sociology & inequality",
+                "urbanism & mobility",
+                "writing & essays"
+              ],
+              "alsoIn": []
+            },
+            {
+              "position": 41,
+              "id": "01krpd5465ts11g8szys682dfj",
+              "title": "Shame them, shun them, ban them, beat them!",
+              "author": "Adam Mastroianni",
+              "siteName": "experimental-history.com",
+              "category": "article",
+              "language": "Engels",
+              "readingTime": "11 mins",
+              "readingMinutes": 11,
+              "wordCount": 2771,
+              "publishedDate": "2026-05-12",
+              "savedDate": "2026-05-15T18:07:37.581000+00:00",
+              "imageUrl": "https://substackcdn.com/image/fetch/$s_!Q7EN!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fbcef721b-7aca-442e-815a-33caec2e316e_1280x985.jpeg",
+              "sourceUrl": "https://www.experimental-history.com/p/shame-them-shun-them-ban-them-beat?r=1r0y5d&utm_medium=ios&triedRedirect=true",
+              "readwiseUrl": "https://read.readwise.io/read/01krpd5465ts11g8szys682dfj",
+              "summary": "Regels veranderen gedrag niet als mensen de onderliggende waarden niet delen. Via drie cases (de Sovjet-grondwet van 1936, de replicatiecrisis in de wetenschap, bodycams bij politie) laat Mastroianni zien dat regelgeving steeds faalt als de motivatie ontbreekt. Hij introduceert twee mechanismen van echte verandering: de 'crock pot' (langzame absorptie van normen via omgeving) en de 'lightning bolt' (plotselinge, memorabele ervaring). De kern: vraag niet 'hoe laten we mensen het goede doen?' maar 'hoe zorgen we dat mensen het goede willen?' — want zonder de wil helpt geen enkele regelgeving.",
+              "whyRead": null,
+              "bestMoment": null,
+              "tags": [
+                "behavioral psychology & coaching",
+                "philosophy",
+                "research papers & academia"
+              ],
+              "alsoIn": []
+            },
+            {
+              "position": 42,
+              "id": "01kvcgsfekyqqc5b9t3nmrge8m",
+              "title": "Hoera, het is Waterloodag!",
+              "author": "De Ongelooflijke",
+              "siteName": "Substack",
+              "category": "email",
+              "language": "Nederlands",
+              "readingTime": "8 mins",
+              "readingMinutes": 8,
+              "wordCount": 1935,
+              "publishedDate": "2026-06-18",
+              "savedDate": "2026-06-18T04:45:51.444000+00:00",
+              "imageUrl": null,
+              "sourceUrl": "mailto:reader-forwarded-email/9063dc73da1b3f69c5087334680b7b3a",
+              "readwiseUrl": "https://read.readwise.io/read/01kvcgsfekyqqc5b9t3nmrge8m",
+              "summary": "Meer dan honderd jaar was 18 juni in Nederland een nationale feestdag, ter herinnering aan de Slag bij Waterloo (1815): de dag waarop Napoleon definitief werd verslagen en de geschiedenis van Nederland en Europa een beslissende wending nam.",
+              "whyRead": "Raakt je interesse in Europese geschiedenis en collectief geheugen: zeven veldslagen worden niet alleen militair, maar ook cultureel en identitair geduid. De meerwaarde zit in de combinatie van geschiedenis, mythevorming en historische verbeelding.",
+              "bestMoment": "ontspannen",
+              "tags": [
+                "arts & culture",
+                "history",
+                "sociology & social structures"
+              ],
+              "alsoIn": [
+                "aaa-dutch-top-10",
+                "aaa-dutch-top-100",
+                "aaa-short-top-100",
+                "aaa-short-dutch-top-10",
+                "aaa-short-dutch-top-100",
+                "aaa-luchtig-top-10",
+                "aaa-luchtig-top-100",
+                "aaa-luchtig-nederlands-top-10",
+                "aaa-luchtig-nederlands-top-100"
+              ]
+            },
+            {
+              "position": 43,
+              "id": "01kvhbzvsdz71gdn2329t023sp",
+              "title": "So, what is morality?",
+              "author": "Lionel Page from Optimally Irrational",
+              "siteName": "Substack",
+              "category": "email",
+              "language": "Engels",
+              "readingTime": "28 mins",
+              "readingMinutes": 28,
+              "wordCount": 7285,
+              "publishedDate": "2026-06-20",
+              "savedDate": "2026-06-20T01:58:09.965000+00:00",
+              "imageUrl": null,
+              "sourceUrl": "mailto:reader-forwarded-email/b2b27be7b58f1413f2d301b3152bd06d",
+              "readwiseUrl": "https://read.readwise.io/read/01kvhbzvsdz71gdn2329t023sp",
+              "summary": "In his Histories, Herodotus recounts how, in the late sixth or early fifth century BCE, King Darius I of Persia asked the Greeks at his court what price would persuade them to eat their fathers’ dead bodies.",
+              "whyRead": "Raakt je kerninteresse in filosofie en sociale structuren: Lionel Page biedt een naturalistische theorie van moraal als conventie voor samenwerking. De meerwaarde zit in de koppeling van Hume, speltheorie, evolutionaire samenwerking, macht en morele intuïties.",
+              "bestMoment": "geconcentreerd",
+              "tags": [
+                "metaphysics",
+                "philosophy",
+                "political philosophy",
+                "sociology & social structures"
+              ],
+              "alsoIn": []
+            },
+            {
+              "position": 44,
+              "id": "01kwm2c48x698f162vev3xqyy2",
+              "title": "The Knowledge Machine: How Irrationality Created Modern Science",
+              "author": "R.W. Richey from We Are Not Saved",
+              "siteName": "Substack",
+              "category": "email",
+              "language": "Engels",
+              "readingTime": "32 mins",
+              "readingMinutes": 32,
+              "wordCount": 8401,
+              "publishedDate": "2026-07-03",
+              "savedDate": "2026-07-03T13:23:31.229000+00:00",
+              "imageUrl": null,
+              "sourceUrl": "mailto:reader-forwarded-email/95bea3d51405d264e4b76ccdede46ac8",
+              "readwiseUrl": "https://read.readwise.io/read/01kwm2c48x698f162vev3xqyy2",
+              "summary": "This was my entry to the 2026 ACX Book Review Contest. Given that it was, sadly, judged inadequate to the high standards of the ACX readership, I must now inflict it on you.",
+              "whyRead": "Sterke match met wetenschap, filosofie en ideeëngeschiedenis: Richey bespreekt Strevens' stelling dat moderne wetenschap werkt door een smalle, bijna onnatuurlijke empirische discipline. Shortlistwaardig door de essayvorm en de brug naar Popper, Kuhn, Bacon, Newton, replicatiecrisis en AI.",
+              "bestMoment": "geconcentreerd",
+              "tags": [
+                "history",
+                "metaphysics",
+                "philosophy",
+                "science"
+              ],
+              "alsoIn": []
+            },
+            {
+              "position": 45,
+              "id": "01ky6y0z3wkzmdhty7gq3qa1wz",
+              "title": "So, what is morality?",
+              "author": "optimallyirrational.com",
+              "siteName": "optimallyirrational.com",
+              "category": "article",
+              "language": "Engels",
+              "readingTime": "28 mins",
+              "readingMinutes": 28,
+              "wordCount": 7316,
+              "publishedDate": "2026-06-20",
+              "savedDate": "2026-07-23T07:28:47.148000+00:00",
+              "imageUrl": "https://substackcdn.com/image/fetch/$s_!B008!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd1e19532-8fac-4b31-8303-e1d0b8bfc024_1182x591.png",
+              "sourceUrl": "https://www.optimallyirrational.com/p/so-what-is-morality?utm_source=substack&utm_medium=email",
+              "readwiseUrl": "https://read.readwise.io/read/01ky6y0z3wkzmdhty7gq3qa1wz",
+              "summary": "Clear answers to some of moral philosophy’s deepest questions",
+              "whyRead": "Een toegankelijk maar diepgaand alternatief voor moreel absolutisme dat moraal als sociaal contract, samenwerking en machtsverhouding verklaart. Het verbindt filosofie, speltheorie en sociologie op een manier die goed aansluit bij politieke filosofie.",
+              "bestMoment": "analytisch",
+              "tags": [
+                "metaphysics",
+                "philosophy",
+                "political philosophy",
+                "sociology & social structures"
+              ],
+              "alsoIn": []
+            },
+            {
+              "position": 46,
+              "id": "01kyab47vf7vat0n76fpwrgrj6",
+              "title": "Your Book Review: Breakdown In Pakistan",
+              "author": "Astral Codex Ten",
+              "siteName": "Substack",
+              "category": "email",
+              "language": "Engels",
+              "readingTime": "28 mins",
+              "readingMinutes": 28,
+              "wordCount": 7158,
+              "publishedDate": "2026-07-24",
+              "savedDate": "2026-07-24T15:15:29.263000+00:00",
+              "imageUrl": null,
+              "sourceUrl": "mailto:reader-forwarded-email/f32d3232163d9d1f75e4b5ec070bef3f",
+              "readwiseUrl": "https://read.readwise.io/read/01kyab47vf7vat0n76fpwrgrj6",
+              "summary": "[This is one of the finalists in the 2026 book review contest, written by an ACX reader who will remain anonymous until after voting is done.",
+              "whyRead": "Raakt je interesse in instituties, ongelijkheid en politieke economie: deze review laat zien hoe meetbare buitenlandse hulp lokale organisaties kan uithollen.",
+              "bestMoment": "analytisch",
+              "tags": [
+                "economics",
+                "political philosophy",
+                "sociology & social structures"
+              ],
+              "alsoIn": []
+            },
+            {
+              "position": 47,
+              "id": "01kysnmbwt86e2fk3axtde57h4",
+              "title": "Keynote opening Digital Commons EDIC: Moving beyond the Digital Uncommons",
+              "author": "berthub.eu",
+              "siteName": "Bert Hubert's writings",
+              "category": "article",
+              "language": "Engels",
+              "readingTime": "32 mins",
+              "readingMinutes": 32,
+              "wordCount": 8411,
+              "publishedDate": "2025-12-14",
+              "savedDate": "2026-07-30T14:07:39.930000+00:00",
+              "imageUrl": "https://berthub.eu/articles/edic-opening.jpeg",
+              "sourceUrl": "https://berthub.eu/articles/posts/keynote-opening-digital-commons-edic-eu/",
+              "readwiseUrl": "https://read.readwise.io/read/01kysnmbwt86e2fk3axtde57h4",
+              "summary": "Last Thursday, 11th of December, saw the launch of the new Digital Commons European Digital Infrastructure Consortium. In attendance were delegations from the launching member states (and the observers). Also present were the many forefathers (and mothers) of this initiative.\nOf particular note, the launch also included demonstrations of LaSuite software from France, as well as the OpenDesk software from Germany. The Dutch government showcased their amalgamated suite MijnBureau, which joins parts of the German and French initiatives.",
+              "whyRead": "Raakt je interesse in digitale soevereiniteit en Europese samenwerking: een keynote over digital commons als alternatief voor versnipperde, afhankelijke publieke IT.",
+              "bestMoment": "analytisch",
+              "tags": [
+                "political philosophy",
+                "sociology & social structures",
+                "technology"
+              ],
+              "alsoIn": []
+            },
+            {
+              "position": 48,
+              "id": "01kyxa2yd57szp13ha57708606",
+              "title": "Your Book Review: The Epic Of Gilgamesh",
+              "author": "Astral Codex Ten",
+              "siteName": "Substack",
+              "category": "email",
+              "language": "Engels",
+              "readingTime": "44 mins",
+              "readingMinutes": 44,
+              "wordCount": 11530,
+              "publishedDate": "2026-07-31",
+              "savedDate": "2026-08-01T00:02:52.453000+00:00",
+              "imageUrl": null,
+              "sourceUrl": "mailto:reader-forwarded-email/8fbcb745572258843f21b2de54a72f93",
+              "readwiseUrl": "https://read.readwise.io/read/01kyxa2yd57szp13ha57708606",
+              "summary": "[This is one of the finalists in the 2026 book review contest, written by an ACX reader who will remain anonymous until after voting is done.",
+              "whyRead": "Zie de gekozen tags: dit stuk biedt een inhoudelijke ingang die aansluit op die interessegebieden.",
+              "bestMoment": "ontspannen",
+              "tags": [
+                "fiction",
+                "history",
+                "philosophy"
+              ],
+              "alsoIn": [
+                "aaa-luchtig-top-10",
+                "aaa-luchtig-top-100"
+              ]
+            },
+            {
+              "position": 49,
+              "id": "01kyxvjcj0396b5z5w8bcz634q",
+              "title": "De atheïst die de bekendste verdediger van het christendom werd",
+              "author": "De Ongelooflijke",
+              "siteName": "Substack",
+              "category": "email",
+              "language": "Nederlands",
+              "readingTime": "9 mins",
+              "readingMinutes": 9,
+              "wordCount": 2302,
+              "publishedDate": "2026-08-01",
+              "savedDate": "2026-08-01T05:08:24.257000+00:00",
+              "imageUrl": null,
+              "sourceUrl": "mailto:reader-forwarded-email/363643d320a4241500df2bc54c0e90ca",
+              "readwiseUrl": "https://read.readwise.io/read/01kyxvjcj0396b5z5w8bcz634q",
+              "summary": "“Het leek op het moment waarop een mens, na een lange slaap, nog roerloos in bed ligt en zich ervan bewust wordt dat hij nu wakker is. ” Zo omschrijft C.",
+              "whyRead": "Zie de gekozen tags: dit stuk biedt een inhoudelijke ingang die aansluit op die interessegebieden.",
+              "bestMoment": "reflectief",
+              "tags": [
+                "history",
+                "philosophy"
+              ],
+              "alsoIn": [
+                "aaa-dutch-top-10",
+                "aaa-dutch-top-100",
+                "aaa-short-top-100",
+                "aaa-short-dutch-top-10",
+                "aaa-short-dutch-top-100"
+              ]
+            },
+            {
+              "position": 50,
+              "id": "01kzjk22zxkgrvftgdtdvj01rq",
+              "title": "Twintig seconden waar ik me diep voor schaam",
+              "author": "Jona van Loenen",
+              "siteName": "Substack",
+              "category": "email",
+              "language": "Nederlands",
+              "readingTime": "9 mins",
+              "readingMinutes": 9,
+              "wordCount": 2122,
+              "publishedDate": "2026-08-09",
+              "savedDate": "2026-08-09T06:23:44.637000+00:00",
+              "imageUrl": null,
+              "sourceUrl": "mailto:reader-forwarded-email/d6f314a85583cfa5b9175a9ac4ec73f8",
+              "readwiseUrl": "https://read.readwise.io/read/01kzjk22zxkgrvftgdtdvj01rq",
+              "summary": "Ik was bezig met het afronden van de laatste versie van het laatste hoofdstuk van mijn nieuwe boek. In alle eerlijkheid was dat niet alleen dinsdag.",
+              "whyRead": "Een persoonlijk, helder essay over AI als verleiding om precies het soort inspanning uit te besteden waar vaardigheid, trots en betekenis uit groeien. Sterke tegenhanger voor een puur productiviteitskader.",
+              "bestMoment": "reflectief",
+              "tags": [
+                "ai ethics",
+                "personal",
+                "philosophy"
+              ],
+              "alsoIn": [
+                "aaa-dutch-top-10",
+                "aaa-dutch-top-100",
+                "aaa-short-top-100",
+                "aaa-short-dutch-top-10",
+                "aaa-short-dutch-top-100"
+              ]
+            },
+            {
+              "position": 51,
+              "id": "01m0f295dxr46cfakg2cev3c1d",
+              "title": "The Scientist Who Lived with Dozens of Children from the Pacific Islands | The New Yorker",
+              "author": "newyorker.com",
+              "siteName": "The New Yorker",
+              "category": "article",
+              "language": null,
+              "readingTime": "52 mins",
+              "readingMinutes": 52,
+              "wordCount": 13527,
+              "publishedDate": "2026-08-17",
+              "savedDate": "2026-08-20T07:48:29.245000+00:00",
+              "imageUrl": "https://media.newyorker.com/photos/6a7b6c041e8efb2b26665651/16:9/w_1280,c_limit/r49677.jpg",
+              "sourceUrl": "https://www.newyorker.com/magazine/2026/08/24/the-scientist-who-lived-with-dozens-of-children-from-the-south-pacific",
+              "readwiseUrl": "https://read.readwise.io/read/01m0f295dxr46cfakg2cev3c1d",
+              "summary": "Carleton Gajdusek won the Nobel for his work on a disease in Papua New Guinea. But his biggest experiment was on the children he took back to the U.S. ",
+              "whyRead": "Raakt je interesse in geschiedenis en sociologie — een verbijsterend, grondig onderzoeksverhaal over wetenschappelijke exploitatie: Nobelprijswinnaar Gajdusek nam tientallen kinderen uit Papoea-Nieuw-Guinea mee naar de VS als onderdeel van een informeel \"experiment\", met verstrekkende persoonlijke en maatschappelijke gevolgen tot op de dag van vandaag.",
+              "bestMoment": "kritisch",
+              "tags": [
+                "history",
+                "science",
+                "sociology & social structures"
+              ],
+              "alsoIn": []
+            },
+            {
+              "position": 52,
+              "id": "01m0f7mwvh8ay32g66bb7rfsaj",
+              "title": "Who Was Friedrich Nietzsche? His Life And Works",
+              "author": "themicrophilosopher.com",
+              "siteName": "The Micro-Philosopher",
+              "category": "article",
+              "language": null,
+              "readingTime": "14 mins",
+              "readingMinutes": 14,
+              "wordCount": 3567,
+              "publishedDate": "2026-04-15",
+              "savedDate": "2026-08-20T09:22:16.560000+00:00",
+              "imageUrl": "https://substackcdn.com/image/fetch/$s_!KTkJ!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F65d7d714-66a8-4c3d-9394-93f4b9b01005_1226x714.png",
+              "sourceUrl": "https://themicrophilosopher.com/p/nietzsches-life-and-works",
+              "readwiseUrl": "https://read.readwise.io/read/01m0f7mwvh8ay32g66bb7rfsaj",
+              "summary": "Introduce yourself to one of history's most popular (and controversial) thinkers",
+              "whyRead": "Raakt je interesse in filosofie met een compacte, goed geschreven biografie van Nietzsche die leven, werk en receptiegeschiedenis in samenhang brengt, inclusief zijn ondubbelzinnige afkeer van antisemitisme.",
+              "bestMoment": "analytisch",
+              "tags": [
+                "existentialism",
+                "nihilism",
+                "philosophy"
+              ],
+              "alsoIn": []
+            },
+            {
+              "position": 53,
+              "id": "01m0v38d002hs35994nqn3b993",
+              "title": "Re: Re: Re: Pritchard On Liberal Happiness",
+              "author": "Astral Codex Ten",
+              "siteName": "Substack",
+              "category": "email",
+              "language": null,
+              "readingTime": "35 mins",
+              "readingMinutes": 35,
+              "wordCount": 9030,
+              "publishedDate": "2026-08-24",
+              "savedDate": "2026-08-24T23:56:25.984000+00:00",
+              "imageUrl": null,
+              "sourceUrl": "mailto:reader-forwarded-email/a550f9c7c4a9135232ed8230d8095f72",
+              "readwiseUrl": "https://read.readwise.io/read/01m0v38d002hs35994nqn3b993",
+              "summary": "In early July, Cassie Pritchard argued on Twitter that liberalism had failed; it bet the farm on economic progress making people happier, but although it delivered impressive economic progress, happiness had failed to follow.",
+              "whyRead": "Raakt politieke filosofie en economie. Astral Codex Ten onderzoekt de spanning tussen materiële vooruitgang en de vraag of liberalisme mensen daadwerkelijk gelukkiger maakt.",
+              "bestMoment": "analytisch",
+              "tags": [
+                "economics",
+                "political philosophy",
+                "virtue ethics"
+              ],
+              "alsoIn": []
+            },
+            {
+              "position": 54,
+              "id": "01m0yytgcbktcptzp46cf14p2x",
+              "title": "The Agile Coach Role Decoded: What Agile Coaches Deliver Versus What Team Members Experience - Koumaditis - 2026 - Journal of Software: Evolution and Process - Wiley Online Library",
+              "author": "onlinelibrary.wiley.com",
+              "siteName": "Wiley Online Library",
+              "category": "article",
+              "language": null,
+              "readingTime": "39 mins",
+              "readingMinutes": 39,
+              "wordCount": 10208,
+              "publishedDate": null,
+              "savedDate": "2026-08-26T11:55:54.123000+00:00",
+              "imageUrl": "https://onlinelibrary.wiley.com/cms/asset/9c442a64-643d-4619-8b72-4cfe8f700c1f/smr.v38.4.cover.jpg?trick=1787745358769",
+              "sourceUrl": "https://onlinelibrary.wiley.com/doi/10.1002/smr.70107",
+              "readwiseUrl": "https://read.readwise.io/read/01m0yytgcbktcptzp46cf14p2x",
+              "summary": "As organizations increasingly adopt agile methodologies to navigate digital transformation, the role of the agile coach has emerged as a critical yet ambiguously defined element of success.",
+              "whyRead": "Raakt je werk als Scrum Master en je interesse in agile coaching als beroepspraktijk. Dit recente open-access onderzoek vergelijkt wat coaches zeggen te doen met wat teamleden daadwerkelijk ervaren — precies de frictie waar rolhelderheid en coachingcontracten het verschil maken.",
+              "bestMoment": "analytisch",
+              "tags": [
+                "agile",
+                "research papers & academia",
+                "scrum"
+              ],
+              "alsoIn": [
+                "aaa-scrum-top-10",
+                "aaa-scrum-top-100"
+              ]
+            },
+            {
+              "position": 55,
+              "id": "01m0yzc8acebxvxektbepqg0kc",
+              "title": "Strengthening Large-Scale Agile Teams: The Interplay of High-Quality Relationships, Psychological Safety, and Learning From Failures",
+              "author": "doi.org",
+              "siteName": "copernicus.org",
+              "category": "article",
+              "language": null,
+              "readingTime": "40 mins",
+              "readingMinutes": 40,
+              "wordCount": 10561,
+              "publishedDate": null,
+              "savedDate": "2026-08-26T12:05:35.692000+00:00",
+              "imageUrl": "https://onlinelibrary.wiley.com/cms/asset/5dfa72b9-8857-4713-a5b9-0cb63877eb06/smr2759-toc-0001-m.jpg?trick=1787745948434",
+              "sourceUrl": "https://doi.org/10.1002/smr.2759",
+              "readwiseUrl": "https://read.readwise.io/read/01m0yzc8acebxvxektbepqg0kc",
+              "summary": "Agile methods have become a standard practice within software industry, with organizations increasingly adopting large-scale agile (LSA) frameworks.",
+              "whyRead": "Raakt je werk als Scrum Master en je interesse in grootschalig agile werken. Dit empirische onderzoek maakt psychologische veiligheid concreet als schakel tussen relaties, leren van fouten en teamprestaties.",
+              "bestMoment": "analytisch",
+              "tags": [
+                "agile",
+                "research papers & academia",
+                "scrum"
+              ],
+              "alsoIn": [
+                "aaa-scrum-top-10",
+                "aaa-scrum-top-100"
+              ]
+            },
+            {
+              "position": 56,
+              "id": "01m196wv3n2x3k1nnxbynjm8zt",
+              "title": "Critical Thinking: What is it to be a Critical Thinker?",
+              "author": "Conspiracy Theories",
+              "siteName": "1000-Word Philosophy: An Introductory Anthology",
+              "category": "article",
+              "language": null,
+              "readingTime": "10 mins",
+              "readingMinutes": 10,
+              "wordCount": 2432,
+              "publishedDate": "2021-09-28",
+              "savedDate": "2026-08-30T11:29:23.573000+00:00",
+              "imageUrl": "https://1000wordphilosophy.files.wordpress.com/2021/09/critical-thinking-know-the-facts.jpg",
+              "sourceUrl": "https://1000wordphilosophy.com/2021/09/28/critical-thinking/",
+              "readwiseUrl": "https://read.readwise.io/read/01m196wv3n2x3k1nnxbynjm8zt",
+              "summary": "An introduction to the theory and practice of critical thinking: what is it to be a critical thinker?",
+              "whyRead": "Raakt je interesse in filosofie en kritisch denken — een compacte, toegankelijke uitleg van wat kritisch denken werkelijk inhoudt, met directe raakvlakken met bias-bewustzijn en oordeelsvorming die je ook als Scrum Master goed kunt gebruiken.",
+              "bestMoment": "analytisch",
+              "tags": [
+                "philosophy"
+              ],
+              "alsoIn": []
+            },
+            {
+              "position": 57,
+              "id": "01m196wzm7941m99hfab08jcs8",
+              "title": "Arguments: Why Do You Believe What You Believe?",
+              "author": "Email Address:",
+              "siteName": "1000-Word Philosophy: An Introductory Anthology",
+              "category": "article",
+              "language": null,
+              "readingTime": "14 mins",
+              "readingMinutes": 14,
+              "wordCount": 3531,
+              "publishedDate": "2022-12-28",
+              "savedDate": "2026-08-30T11:29:28.197000+00:00",
+              "imageUrl": "https://1000wordphilosophy.files.wordpress.com/2022/12/holygrail026.jpg",
+              "sourceUrl": "https://1000wordphilosophy.com/2022/12/28/arguments/",
+              "readwiseUrl": "https://read.readwise.io/read/01m196wzm7941m99hfab08jcs8",
+              "summary": "This essay is an introduction to what arguments are and how they can be good or bad.",
+              "whyRead": "Raakt je interesse in filosofie — een heldere basisintroductie in argumentatieleer (premissen, conclusies, geldigheid, sterkte, soundness) die je meteen kunt toepassen bij het doorgronden en beoordelen van andermans redeneringen, ook in je werk als Scrum Master.",
+              "bestMoment": "analytisch",
+              "tags": [
+                "philosophy"
+              ],
+              "alsoIn": []
+            },
+            {
+              "position": 58,
+              "id": "01m0f5thx0x9f1rpdvj5r64m3m",
+              "title": "Meditations On Moloch",
+              "author": "slatestarcodexabridged.com",
+              "siteName": "slatestarcodexabridged.com",
+              "category": "article",
+              "language": null,
+              "readingTime": "55 mins",
+              "readingMinutes": 55,
+              "wordCount": 14313,
+              "publishedDate": "2014-07-30",
+              "savedDate": "2026-08-30T11:40:39.456000+00:00",
+              "imageUrl": null,
+              "sourceUrl": "https://www.slatestarcodexabridged.com/Meditations-On-Moloch",
+              "readwiseUrl": "https://read.readwise.io/read/01m0f5thx0x9f1rpdvj5r64m3m",
+              "summary": "Moloch whose eyes are a thousand blind windows! Moloch whose skyscrapers stand in the long streets like endless Jehovahs!",
+              "whyRead": "Raakt je interesse in politieke filosofie en AI-ethiek — dit is het canonieke rationalist-essay over \"multipolaire vallen\": situaties waarin iedereen een systeem haat maar niemand er unilateraal uit kan stappen (concurrentie, evolutie, kapitalisme, wapenwedlopen). Bouwt via game theory naar een van de invloedrijkste hedendaagse argumenten voor AI-existentieel risico.",
+              "bestMoment": "analytisch",
+              "tags": [
+                "ai ethics & society",
+                "philosophy",
+                "philosophy of mind",
+                "political philosophy"
+              ],
+              "alsoIn": []
+            },
+            {
+              "position": 59,
+              "id": "01m1eqhrt9fmjkb1mr1scdv9r4",
+              "title": "There's a place for everyone",
+              "author": "Adam Mastroianni",
+              "siteName": "Substack",
+              "category": "email",
+              "language": null,
+              "readingTime": "12 mins",
+              "readingMinutes": 12,
+              "wordCount": 3104,
+              "publishedDate": "2026-09-01",
+              "savedDate": "2026-09-01T14:56:38.730000+00:00",
+              "imageUrl": null,
+              "sourceUrl": "mailto:reader-forwarded-email/7143364473dd6f0af7f37f3f52b25b6c",
+              "readwiseUrl": "https://read.readwise.io/read/01m1eqhrt9fmjkb1mr1scdv9r4",
+              "summary": "I'm off this week, so I'm re-upping this post from two years ago. If you want more fresh Experimental History content, check out last week's MYSTERY POST, \"Actually Good Advice\": https://www.",
+              "whyRead": "Raakt je interesse in zingeving, sociale structuren en werk: Mastroianni verdedigt het idee dat iedereen ergens kan passen, via de diversiteit van menselijke voorkeuren, lokale niches en de maatschappelijke kosten van verkeerd geplaatste mensen. De geestige voorbeelden maken een serieus punt over belonging, loopbaan en gemeenschap toegankelijk.",
+              "bestMoment": "reflectief",
+              "tags": [
+                "arts & culture",
+                "personal growth & life philosophy",
+                "professional development",
+                "sociology & social structures"
+              ],
+              "alsoIn": [
+                "aaa-luchtig-top-10",
+                "aaa-luchtig-top-100"
+              ]
+            },
+            {
+              "position": 60,
+              "id": "01m1h760hbqry5em5qkvrnmnay",
+              "title": "A Mississippi death penalty jury was seated with one Black juror - Mississippi Today",
+              "author": "mississippitoday.org",
+              "siteName": "Mississippi Today",
+              "category": "article",
+              "language": null,
+              "readingTime": "1 hr 29 mins",
+              "readingMinutes": 89,
+              "wordCount": 23396,
+              "publishedDate": "2026-03-12",
+              "savedDate": "2026-09-02T14:08:19.499000+00:00",
+              "imageUrl": "https://cdn.mississippitoday.org/uploads/2026/03/21223840/MT-Batson-Case-FeatImage-ForSocial-03.jpg",
+              "sourceUrl": "https://mississippitoday.org/2026/03/12/mississippi-death-penalty-jury-selection/?src=longreads",
+              "readwiseUrl": "https://read.readwise.io/read/01m1h760hbqry5em5qkvrnmnay",
+              "summary": "We use our own and third-party cookies and similar technologies to enhance and personalize your experience, analyze use of our website, and conduct marketing.",
+              "whyRead": "Raakt je interesse in politieke filosofie en sociale structuren: dit onderzoeksverhaal laat concreet zien hoe rassendiscriminatie in juryselectie, de doodstraf en institutionele macht samenkomen. De Amerikaanse context is specifiek, maar de analyse van procedurele schijnneutraliteit en hoge beroepsdrempels is breder relevant.",
+              "bestMoment": "kritisch",
+              "tags": [
+                "current affairs & politics",
+                "political philosophy",
+                "sociology & social structures"
+              ],
+              "alsoIn": []
+            },
+            {
+              "position": 61,
+              "id": "01m1kbpyawdpxn41s7rrrpcjnh",
+              "title": "Pluck versus luck",
+              "author": "aeon.co",
+              "siteName": "Aeon",
+              "category": "article",
+              "language": null,
+              "readingTime": "14 mins",
+              "readingMinutes": 14,
+              "wordCount": 3639,
+              "publishedDate": null,
+              "savedDate": "2026-09-03T10:05:57.465000+00:00",
+              "imageUrl": "https://alpha.aeon.co/images/22b959a3-a806-468a-86e0-651098100150/header_essay-4a31645u.jpg",
+              "sourceUrl": "https://aeon.co/essays/pluck-and-hard-work-or-luck-of-birth-two-stories-one-man",
+              "readwiseUrl": "https://read.readwise.io/read/01m1kbpyawdpxn41s7rrrpcjnh",
+              "summary": "Meritocracy emphasises the power of the individual to overcome obstacles, but the real story is quite a different one",
+              "whyRead": "Raakt je interesse in sociologie, politieke filosofie en professionele ontwikkeling: dit persoonlijke tweeluik ontleedt de meritocratie vanuit het verschil tussen een succesverhaal over inzet en een eerlijker verhaal over afkomst, connecties en structuur. De meerwaarde zit in de autobiografische ontmaskering van hoe elite-onderwijs en cultureel kapitaal carrièrekansen opstapelen.",
+              "bestMoment": "kritisch",
+              "tags": [
+                "political philosophy",
+                "professional development",
+                "sociology & social structures"
+              ],
+              "alsoIn": []
+            },
+            {
+              "position": 62,
+              "id": "01m1kscbbmwsztsc5xam17y12g",
+              "title": "Why Teams Don’t Work",
+              "author": "hbr.org",
+              "siteName": "Harvard Business Review",
+              "category": "article",
+              "language": null,
+              "readingTime": "14 mins",
+              "readingMinutes": 14,
+              "wordCount": 3510,
+              "publishedDate": "2009-05-01",
+              "savedDate": "2026-09-03T14:04:50.420000+00:00",
+              "imageUrl": "https://hbr.org/resources/images/hbr_opengraph_940x490.png",
+              "sourceUrl": "https://hbr.org/2009/05/why-teams-dont-work",
+              "readwiseUrl": "https://read.readwise.io/read/01m1kscbbmwsztsc5xam17y12g",
+              "summary": "Reprint: R0905H Interviewed by Diane Coutu The belief that teams make us more creative and productive—and are the best way to get things done—is deeply entrenched. But Hackman, a professor of organizational psychology at Harvard and a leading expert on teams, is having none of it. Research, he says, consistently shows that teams underperform despite all their extra resources. In an interview with senior editor Diane Coutu, Hackman explains where teams go wrong. Shockingly, most of the time members don’t agree on what the team is supposed to be doing or even on who is on the team. The belief that bigger is better also compounds problems; as a team grows, the effort needed to manage links between members increases almost exponentially. Leaders need to be ruthless about defining teams and keeping them small (fewer than 10 members), and some individuals (like team destroyers) should simply be forced off. The leader also must set a compelling direction for the team—but in so doing, may encounter intense resistance that puts him or her at great risk. Hackman explores other fallacies about teams—for instance, that teams whose members have been together a long time become stale. In fact, research reveals that new teams make 50% more mistakes than established teams. To avoid complacency, though, every team needs a deviant—someone who is willing to make waves and open up the group to more ideas. Unfortunately, such individuals often get thrown off the team, robbing it of its chance to be magical. Leaders can’t make a team do well. However, by being disciplined about how a team is set up and managed, instituting the right support systems, and providing coaching in group processes, they can increase the likelihood that a team will be great.",
+              "whyRead": "Om Tim’s Scrum- en teamwerkpraktijk te spiegelen aan Hackmans waarschuwing dat teams niet vanzelf beter presteren dan individuen.",
+              "bestMoment": "kritisch",
+              "tags": [
+                "behavioral psychology & coaching",
+                "professional development",
+                "sociology & social structures"
+              ],
+              "alsoIn": []
+            },
+            {
+              "position": 63,
+              "id": "01m1nbjzntew83f16xt14m9r2w",
+              "title": "There is always a demand for more jobs. But what makes a job good? For that, Immanuel Kant has an answer",
+              "author": "Tyler Re",
+              "siteName": "Aeon",
+              "category": "article",
+              "language": null,
+              "readingTime": "13 mins",
+              "readingMinutes": 13,
+              "wordCount": 3243,
+              "publishedDate": "2023-09-18",
+              "savedDate": "2026-09-04T04:42:16.635000+00:00",
+              "imageUrl": "https://alpha.aeon.co/images/67195fee-de62-477c-ba09-b8355322babd/header_essay-panos_00080785.jpg",
+              "sourceUrl": "https://aeon.co/essays/what-kant-can-teach-us-about-work-on-the-problem-with-jobs",
+              "readwiseUrl": "https://read.readwise.io/read/01m1nbjzntew83f16xt14m9r2w",
+              "summary": "There is always a demand for more jobs. But what makes a job good? For that, Immanuel Kant has an answer",
+              "whyRead": "Raakt je interesse in filosofie, sociale structuren en professioneel werken: via Kant onderzoekt dit essay wanneer werk méér is dan een middel voor inkomen. Het biedt een scherp begrippenkader voor autonomie, vakmanschap en de manier waarop management het oordeel van werknemers kan beperken.",
+              "bestMoment": "analytisch",
+              "tags": [
+                "philosophy",
+                "professional development",
+                "sociology & social structures"
+              ],
+              "alsoIn": []
+            },
+            {
+              "position": 64,
+              "id": "01m18v478gh1q09mxpn9yy1f9m",
+              "title": "The choices we make about AI now are critical | Bill Gates",
+              "author": "Bill Gates",
+              "siteName": "gatesnotes.com",
+              "category": "article",
+              "language": null,
+              "readingTime": "23 mins",
+              "readingMinutes": 23,
+              "wordCount": 5864,
+              "publishedDate": null,
+              "savedDate": "2026-09-06T19:40:34.546000+00:00",
+              "imageUrl": "https://images.gatesnotes.com/12514eb8-7b51-008e-41a9-512542cf683b/f93f0cc8-be6d-4e33-870b-ab6d546576f1/AI-Article-08.19.2026-Share-Image-1200x630.jpg",
+              "sourceUrl": "https://www.gatesnotes.com/a-turbulent-ai-era-and-critical-choices-to-make",
+              "readwiseUrl": "https://read.readwise.io/read/01m18v478gh1q09mxpn9yy1f9m",
+              "summary": "AI will either be the greatest equalizer ever invented, or the worst source of injustice. We need to start planning now so it makes the world a fairer place.",
+              "whyRead": "Raakt je interesse in AI, politieke filosofie en maatschappelijke structuren: Gates formuleert een breed politiek programma voor een AI-transitie waarin werk, ongelijkheid, publieke instituties en menselijke relaties tegelijk op het spel staan. Het is een uitgesproken positie van een invloedrijke techfiguur, dus vooral waardevol als uitgangspunt voor kritische vergelijking.",
+              "bestMoment": "kritisch",
+              "tags": [
+                "ai ethics & society",
+                "political philosophy",
+                "sociology & social structures"
+              ],
+              "alsoIn": []
+            },
+            {
+              "position": 65,
+              "id": "01j60f108dfd1k8q12ah4cmp16",
+              "title": "Hunting",
+              "author": "Eleanor Konik",
+              "siteName": "Obsidian Iceberg",
+              "category": "article",
+              "language": "Engels",
+              "readingTime": "3 mins",
+              "readingMinutes": 3,
+              "wordCount": 663,
+              "publishedDate": null,
+              "savedDate": "2024-08-23T20:32:11.022000+00:00",
+              "imageUrl": "https://substackcdn.com/image/fetch/w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fab8568b0-3e60-477c-8638-b4dcf7840453_2000x1333.jpeg",
+              "sourceUrl": "https://www.eleanorkonik.com/p/hunting",
+              "readwiseUrl": "https://read.readwise.io/read/01j60f108dfd1k8q12ah4cmp16",
+              "summary": "Hunting has played a significant role in human history, but it is often overlooked in fiction. Research shows that both men and women have participated in hunting throughout different cultures and eras, with various methods and motivations. Interestingly, successful hunting can enhance testosterone levels in fathers, indicating a strong connection between hunting and family provision.",
+              "whyRead": "Raakt je interesse in geschiedenis — een compacte research-roundup over jachtpraktijken door de menselijke geschiedenis, vol verrassende details.",
+              "bestMoment": "leergierig",
+              "tags": [
+                "history",
+                "parenting & care",
+                "popular science"
+              ],
+              "alsoIn": [
+                "aaa-short-top-100"
+              ]
+            },
+            {
+              "position": 66,
+              "id": "01j8s9z9xg4shgce5z167zc7fn",
+              "title": "📰 Food as Currency - by Eleanor Konik - Manuscriptions\n📰 Food as Currency",
+              "author": "Eleanor Konik",
+              "siteName": "Obsidian Iceberg",
+              "category": "article",
+              "language": "Engels",
+              "readingTime": "5 mins",
+              "readingMinutes": 5,
+              "wordCount": 1244,
+              "publishedDate": "2023-01-11",
+              "savedDate": "2024-09-27T08:36:16.945000+00:00",
+              "imageUrl": "https://substackcdn.com/image/fetch/w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb498cb82-acdb-4bc6-9aa5-26df2469c015_1536x1024.png",
+              "sourceUrl": "https://www.eleanorkonik.com/food-as-currency",
+              "readwiseUrl": "https://read.readwise.io/read/01j8s9z9xg4shgce5z167zc7fn",
+              "summary": "The rise of agriculture was influenced by feast culture, where large communal meals helped early societies become more self-sufficient and innovative. Food, such as rice, flour, and cacao, often served as a form of currency in various cultures, demonstrating its importance in trade and social status. This shows that economies can thrive even without traditional money, as food itself can be a tangible marker of wealth and power.",
+              "whyRead": "Raakt je interesse in geschiedenis en economie — fascinerende verkenning van voedsel als valuta in verschillende beschavingen.",
+              "bestMoment": "leergierig",
+              "tags": [
+                "economics",
+                "history",
+                "political philosophy"
+              ],
+              "alsoIn": [
+                "aaa-short-top-100"
+              ]
+            },
+            {
+              "position": 67,
+              "id": "01jjmt3derk62gvm51m286870b",
+              "title": "🎓 On Famines: why and how they happen. To who?",
+              "author": "Eleanor Konik",
+              "siteName": "Obsidian Iceberg",
+              "category": "article",
+              "language": "Engels",
+              "readingTime": "6 mins",
+              "readingMinutes": 6,
+              "wordCount": 1420,
+              "publishedDate": "2023-02-01",
+              "savedDate": "2025-01-27T21:18:54.937000+00:00",
+              "imageUrl": "https://substackcdn.com/image/fetch/w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F69facf4c-1e69-4fcd-8fc1-fe90461c9cec_1536x1024.png",
+              "sourceUrl": "https://www.eleanorkonik.com/p/on-famines",
+              "readwiseUrl": "https://read.readwise.io/read/01jjmt3derk62gvm51m286870b",
+              "summary": "Famines in agrarian societies can result from poor governance, war, and weather, often impacting peasants the hardest. Contrary to common belief, hunter-gatherer societies experience less famine due to their flexibility and smaller populations. Historical examples, like the 1984 Ethiopian famine, show how high taxes and market pressures can exacerbate food crises for subsistence farmers.",
+              "whyRead": "Raakt je interesse in geschiedenis — een verrassend essay met contra-intuïtieve inzichten over wie hongersnoden treft en waarom ze ontstaan.",
+              "bestMoment": "leergierig",
+              "tags": [
+                "current affairs & politics",
+                "history",
+                "sociology & inequality"
+              ],
+              "alsoIn": [
+                "aaa-short-top-100"
+              ]
+            },
+            {
+              "position": 68,
+              "id": "01jjxdnzz04ees7fytca2rnntw",
+              "title": "🎓 Maritime Empires",
+              "author": "Eleanor Konik",
+              "siteName": "Obsidian Iceberg",
+              "category": "article",
+              "language": "Engels",
+              "readingTime": "1 min",
+              "readingMinutes": 1,
+              "wordCount": 77,
+              "publishedDate": null,
+              "savedDate": "2025-01-31T05:35:02.114000+00:00",
+              "imageUrl": "https://substackcdn.com/image/fetch/w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa0f84749-1e0a-4cf2-ad4e-fe8e0450d889_1024x618.jpeg",
+              "sourceUrl": "https://www.eleanorkonik.com/p/maritime-empires-phoenician-gap",
+              "readwiseUrl": "https://read.readwise.io/read/01jjxdnzz04ees7fytca2rnntw",
+              "summary": "The text discusses the importance of maritime empires, particularly the Phoenicians, in shaping Western cultures. It highlights how these civilizations influenced Greece and provided resources to Egypt. The author emphasizes that we often overlook the contributions of these earlier maritime societies.",
+              "whyRead": "Maritieme imperia — een historische verkenning van de Fenicische en andere zeemachten.",
+              "bestMoment": "leergierig",
+              "tags": [
+                "history",
+                "writing & essays"
+              ],
+              "alsoIn": [
+                "aaa-short-top-100"
+              ]
+            },
+            {
+              "position": 69,
+              "id": "01k0787yxz912x1kgykz88ngts",
+              "title": "Tijd voor solidariteit",
+              "author": "Wetenschappelijk Bureau Groenlinks",
+              "siteName": "Wetenschappelijk Bureau Groenlinks",
+              "category": "article",
+              "language": "Nederlands",
+              "readingTime": "22 mins",
+              "readingMinutes": 22,
+              "wordCount": 5772,
+              "publishedDate": "2025-06-10",
+              "savedDate": "2025-07-15T14:36:27.455000+00:00",
+              "imageUrl": "https://www.wetenschappelijkbureaugroenlinks.nl/sites/wetenschappelijkbureau/files/styles/instagram/public/2025-06/Tijd%20voor%20solidariteit%20beginselprogramma.jpg?h=8f74817f&itok=c-ESuTOV",
+              "sourceUrl": "https://www.wetenschappelijkbureaugroenlinks.nl/artikelen/tijd-voor-solidariteit",
+              "readwiseUrl": "https://read.readwise.io/read/01k0787yxz912x1kgykz88ngts",
+              "summary": "The text calls for solidarity to build a fair and equal society where everyone can be themselves. It emphasizes the need for public services like healthcare and education to be accessible to all without profit motives. Together, people must unite to protect democracy, workers' rights, and the environment for a better future.",
+              "whyRead": "Beginselprogramma van GroenLinks-PvdA over solidariteit als politiek fundament — relevant voor je interesse in linkse ideologie en sociaaldemocratisch denken in Nederland.",
+              "bestMoment": "kritisch",
+              "tags": [
+                "current affairs & politics",
+                "learning & meta-learning",
+                "political philosophy"
+              ],
+              "alsoIn": [
+                "aaa-dutch-top-10",
+                "aaa-dutch-top-100"
+              ]
+            },
+            {
+              "position": 70,
+              "id": "01k2p3a6277wff8a1nvfes1ek4",
+              "title": "How to Be a Good Intelligence Analyst - by Santi Ruiz",
+              "author": "Santi Ruiz",
+              "siteName": "statecraft.pub",
+              "category": "article",
+              "language": "Engels",
+              "readingTime": "29 mins",
+              "readingMinutes": 29,
+              "wordCount": 7544,
+              "publishedDate": "2025-08-07",
+              "savedDate": "2025-08-15T05:30:17.545000+00:00",
+              "imageUrl": "https://substackcdn.com/image/fetch/$s_!txhu!,w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-video.s3.amazonaws.com%2Fvideo_upload%2Fpost%2F170289824%2F0e30be90-006d-42f8-a20b-eb6ab7bba90a%2Ftranscoded-1754517131.png",
+              "sourceUrl": "https://www.statecraft.pub/p/how-to-be-a-good-intelligence-analyst?triedRedirect=true",
+              "readwiseUrl": "https://read.readwise.io/read/01k2p3a6277wff8a1nvfes1ek4",
+              "summary": "American intelligence struggles because analysts and policymakers don't communicate well and policymakers have short attention spans.  \nThe community lacks formal methods, clear priorities, and incentives to keep skilled analysts focused and learning.  \nFixes include freeing analysts from busywork, training policymakers to be better consumers, and building better careers and processes.",
+              "whyRead": "Hoe je een goede inlichtingenanalist wordt — een gids voor analytisch denken en oordelen.",
+              "bestMoment": "leergierig",
+              "tags": [
+                "business & work",
+                "learning & meta-learning",
+                "sociology & inequality"
+              ],
+              "alsoIn": []
+            },
+            {
+              "position": 71,
+              "id": "01k3wpn5ak9v4pmtc85h462cav",
+              "title": "On the pleasure of reading private notebooks",
+              "author": "Henrik Karlsson",
+              "siteName": "henrikkarlsson.xyz",
+              "category": "article",
+              "language": "Engels",
+              "readingTime": "7 mins",
+              "readingMinutes": 7,
+              "wordCount": 1714,
+              "publishedDate": "2025-05-28",
+              "savedDate": "2025-08-30T05:19:28.597000+00:00",
+              "imageUrl": "https://substackcdn.com/image/fetch/w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd4aadbe1-9b2c-4054-90e5-ba5e5394e77e_1000x714.jpeg",
+              "sourceUrl": "https://www.henrikkarlsson.xyz/p/private-notebooks",
+              "readwiseUrl": "https://read.readwise.io/read/01k3wpn5ak9v4pmtc85h462cav",
+              "summary": "Many of my favorite books are private notebooks that were never meant for publication, like Kafka's diary and Sei Shōnagon's Pillow Book. I enjoy reading these because the authors are less censored and reveal their genuine thoughts, making the writing feel more intimate and real. Private notes show the messy, creative process of thinking, which is often missing from polished published works.",
+              "whyRead": "Over het plezier van het lezen van privénotebooks — dagboeken, notitieboeken en het intieme denken.",
+              "bestMoment": "reflectief",
+              "tags": [
+                "arts & culture",
+                "learning & meta-learning",
+                "tools & workflows"
+              ],
+              "alsoIn": [
+                "aaa-short-top-100",
+                "aaa-luchtig-top-10",
+                "aaa-luchtig-top-100"
+              ]
+            },
+            {
+              "position": 72,
+              "id": "01k72qx64tdvkryenrbd5g81px",
+              "title": "The Dire State of Contemporary Western Philosophy",
+              "author": "Nathan Ormond",
+              "siteName": "Nathan Ormond",
+              "category": "article",
+              "language": "Engels",
+              "readingTime": "6 mins",
+              "readingMinutes": 6,
+              "wordCount": 1329,
+              "publishedDate": "2025-09-24",
+              "savedDate": "2025-10-08T20:23:52.218000+00:00",
+              "imageUrl": "https://substackcdn.com/image/fetch/$s_!bLWT!,w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F7c06d55f-21cd-4376-91c7-40d6657a6023_1023x533.webp",
+              "sourceUrl": "https://nathanormond.substack.com/p/the-dire-state-of-contemporary-western?utm_source=%2Finbox%2Fsaved&utm_medium=reader2",
+              "readwiseUrl": "https://read.readwise.io/read/01k72qx64tdvkryenrbd5g81px",
+              "summary": "Nathan Ormond argues contemporary Western philosophy is broken by university and publishing incentives that reward style over substance. Philosophers often trade prestige, puzzles, and showmanship instead of solving real ethical, political, or communal problems. This system wastes talent and trains students to value status and spectacle over practical impact.",
+              "whyRead": "Diagnose van de staat van de hedendaagse westerse filosofie — wat ontbreekt en waarom.",
+              "bestMoment": "kritisch",
+              "tags": [
+                "frankfurt school",
+                "philosophy",
+                "political philosophy",
+                "tools & workflows"
+              ],
+              "alsoIn": [
+                "aaa-short-top-100"
+              ]
+            },
+            {
+              "position": 73,
+              "id": "01k7j6j6mdje8x3v1jt8hqaba4",
+              "title": "The Mimetic Trap",
+              "author": "The One Percent Rule",
+              "siteName": "substack.com",
+              "category": "article",
+              "language": "Engels",
+              "readingTime": "7 mins",
+              "readingMinutes": 7,
+              "wordCount": 1670,
+              "publishedDate": "2025-02-07",
+              "savedDate": "2025-10-14T20:28:37.389000+00:00",
+              "imageUrl": "https://substackcdn.com/image/fetch/$s_!-02v!,w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa5775fb4-892b-463c-91a5-e09a33f8da4f_1370x900.jpeg",
+              "sourceUrl": "https://onepercentrule.substack.com/p/the-mimetic-trap?r=1r0y5d&utm_medium=ios",
+              "readwiseUrl": "https://read.readwise.io/read/01k7j6j6mdje8x3v1jt8hqaba4",
+              "summary": "People copy what others want, so our desires are shaped by imitation. This mimetic urge can cause rivalry, social harms, and online contagion. But if we choose better role models, imitation can drive cooperation and positive change.",
+              "whyRead": "Over de mimetische val – we leren door imitatie, maar wie we imiteren bepaalt wie we worden.",
+              "bestMoment": "analytisch",
+              "tags": [
+                "personal growth & life philosophy",
+                "philosophy",
+                "sociology & inequality"
+              ],
+              "alsoIn": [
+                "aaa-short-top-100"
+              ]
+            },
+            {
+              "position": 74,
+              "id": "01k7qbgbanjkbvetnkfd47vkrz",
+              "title": "How I wrote \"Looking for Alice\"",
+              "author": "Henrik Karlsson",
+              "siteName": "bytebytego.com",
+              "category": "article",
+              "language": "Engels",
+              "readingTime": "3 mins",
+              "readingMinutes": 3,
+              "wordCount": 629,
+              "publishedDate": "2023-05-30",
+              "savedDate": "2025-10-16T20:31:11.702000+00:00",
+              "imageUrl": "https://substackcdn.com/image/fetch/$s_!DzZb!,w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1312c236-513c-41a1-897e-d0c3c01967dc_1450x1529.jpeg",
+              "sourceUrl": "https://email.mg1.substack.com/c/eJxM0M0OnSAUBOCnkZ2GH1HvgkU39zXM4XBQKoIBrL19-qZt2nQ9ycyXQWi05fIxD0XMJzFn-CxxtoyMmCc-SbnwF6MTQlw3SlSgkVuh_ZdyJdhuuFKo_UJoZzdbBHDklVcgxpfQnjsWjORSCy4mobSSy6CGRWiOiOQXOc1awyDHr4CH1d3Iz00M9ba1AR4D5pOFuvpCvyWmlZtYNHtrV-3Ul06-O_l-nmfYKZVwHFBirTkN3z8_Ovm-Ovne89OH_im5UR9zPkLaep9LDzEgseu2K-bzvFNon5US2Ejuz8p12xgQWshpDc4ooUYhWDF_bd3Im-B1SJHV27p8QkiGKsIV0uYjtAjJsfbv4LtS-VUkuF4mzifNvhn5MwAA__9vYoFf",
+              "readwiseUrl": "https://read.readwise.io/read/01k7qbgbanjkbvetnkfd47vkrz",
+              "summary": "Henrik Karlsson explains how his essay \"Looking for Alice\" began from a real conversation and a sudden urge to write. He describes the fast, messy drafting process and how resistance can signal a strong idea. He shares this case study to show the small, specific choices behind writing.",
+              "whyRead": "Henrik Karlsson legt uit hoe hij 'Looking for Alice' schreef – zeldzame inkijk in het creatieve proces.",
+              "bestMoment": "reflectief",
+              "tags": [
+                "arts & culture",
+                "learning & meta-learning",
+                "tools & workflows"
+              ],
+              "alsoIn": [
+                "aaa-short-top-100",
+                "aaa-luchtig-top-100"
+              ]
+            },
+            {
               "position": 75,
+              "id": "01k7qbgpmxd9gskhw16jx5b8yk",
+              "title": "Popular education in Sweden: much more than you wanted to know",
+              "author": "Henrik Karlsson",
+              "siteName": "bytebytego.com",
+              "category": "article",
+              "language": "Engels",
+              "readingTime": "5 mins",
+              "readingMinutes": 5,
+              "wordCount": 1134,
+              "publishedDate": "2022-05-17",
+              "savedDate": "2025-10-16T20:31:23.295000+00:00",
+              "imageUrl": "https://substackcdn.com/image/fetch/$s_!Ecyl!,w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F7509e0da-7c87-4ff8-9733-a4a983c26d9b_990x780.jpeg",
+              "sourceUrl": "https://email.mg1.substack.com/c/eJxMkD2u2zAQhE8jdhaWlEjpFSzS-BrCarm2GfFH4E8U5_TBy0OCFFMNZubDEDZ-5vK2FwfKkYWzsChadsFWLgaMUit8CI7ow_bkxAUbuw3bfy5MUrwsL_SgeUFgA04hm2kBhwt9zMYRoBbeKlBagjRy0pNax2lcpQYi4seqzKI1jmr-jnTsepghPuVY-14b0jFSjsLX7VH4D4ltpbMI9tXaWYfp26Dug7pf1zW-OBV_HFhCrTmNP9-_BnU_P5XPHrDc2HXC5nO6-XSrFztOt9jpJc6-b5Rj7Mm398YJ98Dua-jse_Bfqc07O8lpllIU-xdvmKFJqGMKovbd5Yg-Wa6Ep0_PR8AWMDnR_n3cK5fPIgl6NQBGix9W_Q4AAP__xgCCfA",
+              "readwiseUrl": "https://read.readwise.io/read/01k7qbgpmxd9gskhw16jx5b8yk",
+              "summary": "The author grew up surrounded by Sweden’s vast network of self-organized learning centers and misses them. These folk education institutions (folkbildning) grew from 19th-century movements and folk high schools to teach practical skills, discussion, and personal development. They helped ordinary people gain the knowledge and confidence to shape modern democratic society.",
+              "whyRead": "Henrik Karlsson over het Zweedse volksonderwijs – een verrassend rijke traditie van informeel leren.",
+              "bestMoment": "leergierig",
+              "tags": [
+                "history",
+                "learning & meta-learning",
+                "writing & essays"
+              ],
+              "alsoIn": [
+                "aaa-short-top-100"
+              ]
+            },
+            {
+              "position": 76,
+              "id": "01k7xjhe96qxhs9bkr4qahjk09",
+              "title": "How to Become as Well-Read as John Adams: 8 Tips From his Reading Life",
+              "author": "Samuel",
+              "siteName": "Knowledge Lust",
+              "category": "article",
+              "language": "Engels",
+              "readingTime": "5 mins",
+              "readingMinutes": 5,
+              "wordCount": 1109,
+              "publishedDate": "2024-05-24",
+              "savedDate": "2025-10-19T06:29:34.120000+00:00",
+              "imageUrl": "https://knowledgelust.com/wp-content/uploads/2024/05/library-of-congress-DbXVYHi9wYo-unsplash-1-813x1024.jpg",
+              "sourceUrl": "https://knowledgelust.com/how-to-become-as-well-read-as-john-adams-8-tips-from-his-reading-life/",
+              "readwiseUrl": "https://read.readwise.io/read/01k7xjhe96qxhs9bkr4qahjk09",
+              "summary": "John Adams read widely and deeply, becoming a self-taught expert across many subjects.  \nHe used habits like carrying poetry, marking margins, and intense study of key books to learn.  \nAdams believed broad reading builds personal wisdom and a healthy democracy.",
+              "whyRead": "Acht lessen uit het leesleven van John Adams – een van de meest belezenste presidenten in de geschiedenis.",
+              "bestMoment": "leergierig",
+              "tags": [
+                "history",
+                "learning & meta-learning",
+                "political philosophy"
+              ],
+              "alsoIn": [
+                "aaa-short-top-100"
+              ]
+            },
+            {
+              "position": 77,
+              "id": "01k8v9cz0ah2x4qddn265e4cnt",
+              "title": "Everything Is Television",
+              "author": "Derek Thompson",
+              "siteName": "derekthompson.org",
+              "category": "article",
+              "language": "Engels",
+              "readingTime": "9 mins",
+              "readingMinutes": 9,
+              "wordCount": 2278,
+              "publishedDate": "2025-10-10",
+              "savedDate": "2025-10-31T17:47:36.501000+00:00",
+              "imageUrl": "https://substackcdn.com/image/fetch/$s_!XE9X!,w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F707c7327-31a7-4ed2-ab2d-af440e3b45ea_878x861.jpeg",
+              "sourceUrl": "https://www.derekthompson.org/p/why-everything-became-television",
+              "readwiseUrl": "https://read.readwise.io/read/01k8v9cz0ah2x4qddn265e4cnt",
+              "summary": "Media of all kinds are turning into nonstop streams of short videos like television.  \nThis shift, driven by algorithms and platforms, favors distraction, spectacle, and shallow attention.  \nAs everything adopts TV’s grammar, our solitude, deep focus, and inward meaning are eroded.",
+              "whyRead": "Derek Thompson over hoe alle content zich transformeert naar televisie-logica – scherpe mediatheorie.",
+              "bestMoment": "kritisch",
+              "tags": [
+                "arts & culture",
+                "philosophy",
+                "sociology & inequality"
+              ],
+              "alsoIn": [
+                "aaa-short-top-100",
+                "aaa-luchtig-top-100"
+              ]
+            },
+            {
+              "position": 78,
+              "id": "01kd1c7k90p8p5bknmbm09abwv",
+              "title": "The World in Which We Live - Nassim Nicholas Taleb",
+              "author": "Substack",
+              "siteName": "Substack",
+              "category": "article",
+              "language": "Engels",
+              "readingTime": "9 mins",
+              "readingMinutes": 9,
+              "wordCount": 2213,
+              "publishedDate": null,
+              "savedDate": "2025-12-21T21:14:46.945000+00:00",
+              "imageUrl": "https://substackcdn.com/image/fetch/$s_!_6i6!,w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1752b104-50d6-4bf7-8a85-fb32f4a35c3a_760x456.png",
+              "sourceUrl": "https://substack.com/@nntaleb/p-174276181",
+              "readwiseUrl": "https://read.readwise.io/read/01kd1c7k90p8p5bknmbm09abwv",
+              "summary": "Modern hyper-connectivity concentrates wealth and power, creating a technofeudal world where a few capture most gains.  \nFast-growing countries like China outpace stagnant, debt-laden West due to different stages on the S-curve of development.  \nGrowing government reach and migration tensions complicate governance, forcing hard choices about debt, growth, and localism.",
+              "whyRead": "Raakt je interesse in economie en politieke filosofie — Nassim Taleb's zeven punten over de moderne wereld: van technofeodaisme tot Black Swan-kwetsbaarheid.",
+              "bestMoment": "analytisch",
+              "tags": [
+                "current affairs & politics",
+                "economics",
+                "political philosophy"
+              ],
+              "alsoIn": [
+                "aaa-short-top-100"
+              ]
+            },
+            {
+              "position": 79,
               "id": "01kkh2jn3p93nsh9nvbpe1w0vk",
               "title": "Rugged Spirituality",
               "author": "Andrew Taggart",
@@ -2443,7 +2555,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 76,
+              "position": 80,
               "id": "01km0ha2tggzmd2y5yjpqbycj5",
               "title": "🎓 On Geldings and the 'Natural' Social Order of Horses",
               "author": "Eleanor Konik",
@@ -2471,7 +2583,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 77,
+              "position": 81,
               "id": "01kmfmvdnqhec7daqp6x47pr85",
               "title": "On the proper use of arguments",
               "author": "Massimo Pigliucci at Figs in Winter",
@@ -2500,7 +2612,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 78,
+              "position": 82,
               "id": "01kmr5kh5wjyr899wkg9skt4f7",
               "title": "Simone Weil Explains the Manosphere",
               "author": "Joe from Unsolicited Advice",
@@ -2529,7 +2641,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 79,
+              "position": 83,
               "id": "01kmwmt7f9jtm6j0gb6pnda9zk",
               "title": "Philosophy of Science",
               "author": "Joseph Rahi",
@@ -2559,7 +2671,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 80,
+              "position": 84,
               "id": "01kqsnmx2rdcaktjvwsjmmq2cn",
               "title": "The games we want to be playing",
               "author": "Jared Henderson from Commonplace Philosophy",
@@ -2589,7 +2701,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 81,
+              "position": 85,
               "id": "01krkbe7701j87vmw7wrs54h8m",
               "title": "They Are Putting A Black Hole Inside Your Head",
               "author": "Paul Musso",
@@ -2617,7 +2729,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 82,
+              "position": 86,
               "id": "01krn1jdcn6b450yv1z0j92tz3",
               "title": "The Radical Sunzi",
               "author": "scholars-stage.org",
@@ -2637,7 +2749,6 @@ window.TOP_ARTICLES = {
               "bestMoment": "analytisch",
               "tags": [
                 "history",
-                "linked-from-readwise",
                 "political ideologies",
                 "political philosophy"
               ],
@@ -2646,7 +2757,36 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 83,
+              "position": 87,
+              "id": "01ksc75pt8qjpzxtda00x3dba8",
+              "title": "Waarom komen politici met steeds meer weg?",
+              "author": "Dieuwertje Kuijpers",
+              "siteName": "dieuwsnieuws.nl",
+              "category": "article",
+              "language": "Nederlands",
+              "readingTime": "13 mins",
+              "readingMinutes": 13,
+              "wordCount": 3358,
+              "publishedDate": "2026-05-20",
+              "savedDate": "2026-05-24T05:26:22.711000+00:00",
+              "imageUrl": "https://substackcdn.com/image/fetch/$s_!B-ko!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff167a1a9-54e1-470e-a10b-5e7d8c69ec4b_2714x1388.jpeg",
+              "sourceUrl": "https://www.dieuwsnieuws.nl/p/majority-rule-dont-work-in-mental-institutions?r=1r0y5d&utm_medium=ios&triedRedirect=true",
+              "readwiseUrl": "https://read.readwise.io/read/01ksc75pt8qjpzxtda00x3dba8",
+              "summary": "Schaamteloosheid als politieke deugd",
+              "whyRead": "Sterke Nederlandse analyse van rechtsstaat, politieke schaamte en normerosie; raakt politieke filosofie, Nederlandse samenleving en democratische instituties direct. De stijl is polemisch maar persoonlijk genoeg om meer te zijn dan dagpolitiek.",
+              "bestMoment": "kritisch",
+              "tags": [
+                "current affairs & politics",
+                "political philosophy",
+                "sociology & social structures"
+              ],
+              "alsoIn": [
+                "aaa-dutch-top-10",
+                "aaa-dutch-top-100"
+              ]
+            },
+            {
+              "position": 88,
               "id": "01kt72hwt9asrzwwx70ybxyabe",
               "title": "How Love Became Just Another Thing to Optimize",
               "author": "Philosophize This! from Philosophize This!",
@@ -2675,7 +2815,39 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 84,
+              "position": 89,
+              "id": "01kt9sbc2hgkymt9expprgkgdp",
+              "title": "In de Apocalyps is de vrouw een teken van hoop",
+              "author": "De Ongelooflijke",
+              "siteName": "Substack",
+              "category": "email",
+              "language": "Nederlands",
+              "readingTime": "11 mins",
+              "readingMinutes": 11,
+              "wordCount": 2806,
+              "publishedDate": "2026-06-04",
+              "savedDate": "2026-06-04T17:02:01.298000+00:00",
+              "imageUrl": null,
+              "sourceUrl": "mailto:reader-forwarded-email/1b764fdf5abd46623c037fd1ff273434",
+              "readwiseUrl": "https://read.readwise.io/read/01kt9sbc2hgkymt9expprgkgdp",
+              "summary": "Meestal wordt de Apocalyps geassocieerd met chaos, oorlog en vernietiging; het einde der tijden en de ondergang van de wereld.",
+              "whyRead": "Raakt je interesse in cultuurgeschiedenis, religieuze beeldtaal en kunst als ideeënwereld: een rijk essay over de apocalyptische vrouw als hoopmotief in plaats van alleen rampsymbool.",
+              "bestMoment": "geconcentreerd",
+              "tags": [
+                "arts & culture",
+                "history",
+                "philosophy"
+              ],
+              "alsoIn": [
+                "aaa-dutch-top-10",
+                "aaa-dutch-top-100",
+                "aaa-luchtig-top-100",
+                "aaa-luchtig-nederlands-top-10",
+                "aaa-luchtig-nederlands-top-100"
+              ]
+            },
+            {
+              "position": 90,
               "id": "01kvarejkjdc6y2cjp2d0ewgkd",
               "title": "The Desecration of Man - Say No to Nietzsche",
               "author": "R.W. Richey from We Are Not Saved",
@@ -2695,7 +2867,6 @@ window.TOP_ARTICLES = {
               "bestMoment": "analytisch",
               "tags": [
                 "arts & culture",
-                "light-reading",
                 "philosophy",
                 "political philosophy"
               ],
@@ -2705,44 +2876,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 85,
-              "id": "01kvcgsfekyqqc5b9t3nmrge8m",
-              "title": "Hoera, het is Waterloodag!",
-              "author": "De Ongelooflijke",
-              "siteName": "Substack",
-              "category": "email",
-              "language": "Nederlands",
-              "readingTime": "8 mins",
-              "readingMinutes": 8,
-              "wordCount": 1935,
-              "publishedDate": "2026-06-18",
-              "savedDate": "2026-06-18T04:45:51.444000+00:00",
-              "imageUrl": null,
-              "sourceUrl": "mailto:reader-forwarded-email/9063dc73da1b3f69c5087334680b7b3a",
-              "readwiseUrl": "https://read.readwise.io/read/01kvcgsfekyqqc5b9t3nmrge8m",
-              "summary": "Meer dan honderd jaar was 18 juni in Nederland een nationale feestdag, ter herinnering aan de Slag bij Waterloo (1815): de dag waarop Napoleon definitief werd verslagen en de geschiedenis van Nederland en Europa een beslissende wending nam.",
-              "whyRead": "Raakt je interesse in Europese geschiedenis en collectief geheugen: zeven veldslagen worden niet alleen militair, maar ook cultureel en identitair geduid. De meerwaarde zit in de combinatie van geschiedenis, mythevorming en historische verbeelding.",
-              "bestMoment": "ontspannen",
-              "tags": [
-                "arts & culture",
-                "history",
-                "later",
-                "light-reading",
-                "sociology & social structures"
-              ],
-              "alsoIn": [
-                "aaa-dutch-top-10",
-                "aaa-dutch-top-100",
-                "aaa-short-top-100",
-                "aaa-short-dutch-top-10",
-                "aaa-short-dutch-top-100",
-                "aaa-luchtig-top-100",
-                "aaa-luchtig-nederlands-top-10",
-                "aaa-luchtig-nederlands-top-100"
-              ]
-            },
-            {
-              "position": 86,
+              "position": 91,
               "id": "01kvh7ec1tezr2vy9bqgsm6an4",
               "title": "Is There a Science of Writing?",
               "author": "Carl Hendrick from The Learning Dispatch",
@@ -2763,7 +2897,6 @@ window.TOP_ARTICLES = {
               "tags": [
                 "arts & culture",
                 "learning & meta-learning",
-                "light-reading",
                 "research papers & academia"
               ],
               "alsoIn": [
@@ -2772,7 +2905,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 87,
+              "position": 92,
               "id": "01kvjbgrqsftb77gs496c0p12t",
               "title": "If the First Apocalypse Doesn’t Get You, the Second One Will",
               "author": "Miller’s Book Review 📚",
@@ -2793,7 +2926,6 @@ window.TOP_ARTICLES = {
               "tags": [
                 "fiction",
                 "history",
-                "light-reading",
                 "political philosophy"
               ],
               "alsoIn": [
@@ -2802,7 +2934,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 88,
+              "position": 93,
               "id": "01kvtqy4rffwdb1t73t37netda",
               "title": "Antwoorden op vragen die niet gesteld worden",
               "author": "Kauthar",
@@ -2830,7 +2962,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 89,
+              "position": 94,
               "id": "01kvwwdq8bhy9m3x614gmtn41d",
               "title": "Andrew Stanton: Storytelling Secrets from the Writer of Toy Story 5",
               "author": "David Perell",
@@ -2851,7 +2983,6 @@ window.TOP_ARTICLES = {
               "tags": [
                 "arts & culture",
                 "learning & meta-learning",
-                "light-reading",
                 "professional development"
               ],
               "alsoIn": [
@@ -2859,7 +2990,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 90,
+              "position": 95,
               "id": "01kwfk5q2rtfm9enggaybd07zq",
               "title": "David Sedaris: Lessons From Decades of Writing",
               "author": "David Perell",
@@ -2880,7 +3011,6 @@ window.TOP_ARTICLES = {
               "tags": [
                 "arts & culture",
                 "learning & meta-learning",
-                "light-reading",
                 "professional development"
               ],
               "alsoIn": [
@@ -2888,7 +3018,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 91,
+              "position": 96,
               "id": "01kxdxaytaf6tm6ntqnc9vdw18",
               "title": "Apophenia and Manufactured Desire",
               "author": "Jared Henderson from Commonplace Philosophy",
@@ -2915,7 +3045,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 92,
+              "position": 97,
               "id": "01kxpg8mpkegghvbz5w71ne86v",
               "title": "Against \"Stochastic Terrorism\"",
               "author": "Astral Codex Ten",
@@ -2942,7 +3072,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 93,
+              "position": 98,
               "id": "01kxy1qnae4npandc4x9mv4aw0",
               "title": "To Understand Elon Musk, You Have to Understand This ’60s Sci-Fi Novel",
               "author": "jacobin.com",
@@ -2962,8 +3092,6 @@ window.TOP_ARTICLES = {
               "bestMoment": "analytisch",
               "tags": [
                 "fiction",
-                "light-reading",
-                "linked-from-readwise",
                 "political philosophy",
                 "technology"
               ],
@@ -2973,7 +3101,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 94,
+              "position": 99,
               "id": "01kxzghzvbjtnr20f8vwmwc8s5",
               "title": "Letters of Last Resort",
               "author": "Brian Klaas",
@@ -3000,7 +3128,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 95,
+              "position": 100,
               "id": "01ky7qe9p9qwtpk49bzc4pqqhk",
               "title": "Normal Accidents: Living with High-Risk Technologies",
               "author": "blog.jcx.au",
@@ -3019,159 +3147,11 @@ window.TOP_ARTICLES = {
               "whyRead": "Dit is een toegankelijke, scherp geformuleerde ingang tot Charles Perrows theorie van normal accidents: een bruikbaar denkkader voor AI, infrastructuur en organisaties waar complexiteit zelf risico produceert. De koppeling met hindsight bias en perverse veiligheidsprikkels geeft het essay extra maatschappelijke diepgang.",
               "bestMoment": "analytisch",
               "tags": [
-                "linked-from-readwise",
                 "sociology & social structures",
                 "technology"
               ],
               "alsoIn": [
                 "aaa-short-top-100"
-              ]
-            },
-            {
-              "position": 96,
-              "id": "01ky7y54f3cb0xcxn9nyexpkzw",
-              "title": "When philosophers and the public disagree",
-              "author": "Jared Henderson from Commonplace Philosophy",
-              "siteName": "Substack",
-              "category": "email",
-              "language": "Engels",
-              "readingTime": "8 mins",
-              "readingMinutes": 8,
-              "wordCount": 1927,
-              "publishedDate": "2026-07-23",
-              "savedDate": "2026-07-23T16:50:18.211000+00:00",
-              "imageUrl": null,
-              "sourceUrl": "mailto:reader-forwarded-email/f60e58787c3c831fe35889326b5c6a7c",
-              "readwiseUrl": "https://read.readwise.io/read/01ky7y54f3cb0xcxn9nyexpkzw",
-              "summary": "If you were to walk into a mathematics department and ask them if 2 + 2 =4, you would receive a uniform answer: yes, of course.",
-              "whyRead": "Henderson onderzoekt scherp waarom filosofen zo weinig consensus lijken te hebben, en laat zien dat er wél brede overeenstemming bestaat over argumentkwaliteit — een nuttig kompas voor hoe je zelf filosofische disputen kunt beoordelen.",
-              "bestMoment": "analytisch",
-              "tags": [
-                "epistemology",
-                "philosophy",
-                "research papers & academia"
-              ],
-              "alsoIn": [
-                "aaa-short-top-100"
-              ]
-            },
-            {
-              "position": 97,
-              "id": "01kycfev2jfr2v5x5pqr2scxz7",
-              "title": "How to Win a Billion Dollars and Ruin Your Life",
-              "author": "Miller’s Book Review 📚",
-              "siteName": "Substack",
-              "category": "email",
-              "language": "Engels",
-              "readingTime": "5 mins",
-              "readingMinutes": 5,
-              "wordCount": 1249,
-              "publishedDate": "2026-07-25",
-              "savedDate": "2026-07-25T11:09:39.795000+00:00",
-              "imageUrl": null,
-              "sourceUrl": "mailto:reader-forwarded-email/c3fe10e11ea986437105f911800c098d",
-              "readwiseUrl": "https://read.readwise.io/read/01kycfev2jfr2v5x5pqr2scxz7",
-              "summary": "The great myths are always with us. “The ‘Iliad’ is only great because all life is a battle, the ‘Odyssey’ because all life is a journey, the Book of Job because all life is a riddle,” said G.",
-              "whyRead": "Raakt je interesse in fictie, mythes en cultuurkritiek: deze review laat zien hoe een hedendaagse satire Icarus, Phaethon en Cassandra gebruikt voor rijkdom, status en politieke ambitie.",
-              "bestMoment": "ontspannen",
-              "tags": [
-                "arts & culture",
-                "fiction",
-                "later",
-                "light-reading",
-                "political philosophy"
-              ],
-              "alsoIn": [
-                "aaa-short-top-100",
-                "aaa-luchtig-top-100"
-              ]
-            },
-            {
-              "position": 98,
-              "id": "01kysnj4rgn2xvk4wh8pqj831w",
-              "title": "The Disappearing Body",
-              "author": "plough.com",
-              "siteName": "Plough",
-              "category": "article",
-              "language": "Engels",
-              "readingTime": "9 mins",
-              "readingMinutes": 9,
-              "wordCount": 2187,
-              "publishedDate": "2026-07-17",
-              "savedDate": "2026-07-30T14:06:27.088000+00:00",
-              "imageUrl": "https://cdn.prod.website-files.com/675475da8b1bc1cfa37674fa/6a58e1c612b481cd10a6b6f3_SutterfieldSocial.jpg",
-              "sourceUrl": "https://www.plough.com/articles/the-disappearing-body",
-              "readwiseUrl": "https://read.readwise.io/read/01kysnj4rgn2xvk4wh8pqj831w",
-              "summary": "What have we lost with the decline in traditional burial practices? How can we give grief its ground and the body its place?",
-              "whyRead": "Raakt je interesse in rouw en betekenisgeving: een essay over wat traditionele begrafenispraktijken boden en wat er verloren kan gaan wanneer het lichaam uit beeld verdwijnt.",
-              "bestMoment": "reflectief",
-              "tags": [
-                "personal growth & life philosophy",
-                "philosophy",
-                "sociology & social structures"
-              ],
-              "alsoIn": [
-                "aaa-short-top-100"
-              ]
-            },
-            {
-              "position": 99,
-              "id": "01kysnn7synbp4djg1ph3zrhdh",
-              "title": "It is no longer safe to move our governments and societies to US clouds",
-              "author": "berthub.eu",
-              "siteName": "Bert Hubert's writings",
-              "category": "article",
-              "language": "Engels",
-              "readingTime": "4 mins",
-              "readingMinutes": 4,
-              "wordCount": 980,
-              "publishedDate": "2025-02-23",
-              "savedDate": "2026-07-30T14:08:08.511000+00:00",
-              "imageUrl": "https://berthub.eu/articles/google-ip.png",
-              "sourceUrl": "https://berthub.eu/articles/posts/you-can-no-longer-base-your-government-and-society-on-us-clouds/",
-              "readwiseUrl": "https://read.readwise.io/read/01kysnn7synbp4djg1ph3zrhdh",
-              "summary": "The very short version: it is madness to continue transferring the running of European societies and governments to American clouds. Not only is it a terrible idea given the kind of things the “King of America” keeps saying, the legal sophistry used to justify such transfers, like the nonsense letter the Dutch cabinet sent last week, has now been invalidated by Trump himself. And why are we doing this? Convenience.",
-              "whyRead": "Raakt je interesse in Europese samenleving, technologie en politieke filosofie: een scherp essay over digitale afhankelijkheid van Amerikaanse clouds als democratisch en strategisch risico.",
-              "bestMoment": "kritisch",
-              "tags": [
-                "political philosophy",
-                "sociology & social structures",
-                "technology"
-              ],
-              "alsoIn": [
-                "aaa-short-top-100"
-              ]
-            },
-            {
-              "position": 100,
-              "id": "01kyxvjcj0396b5z5w8bcz634q",
-              "title": "De atheïst die de bekendste verdediger van het christendom werd",
-              "author": "De Ongelooflijke",
-              "siteName": "Substack",
-              "category": "email",
-              "language": "Nederlands",
-              "readingTime": "9 mins",
-              "readingMinutes": 9,
-              "wordCount": 2302,
-              "publishedDate": "2026-08-01",
-              "savedDate": "2026-08-01T05:08:24.257000+00:00",
-              "imageUrl": null,
-              "sourceUrl": "mailto:reader-forwarded-email/363643d320a4241500df2bc54c0e90ca",
-              "readwiseUrl": "https://read.readwise.io/read/01kyxvjcj0396b5z5w8bcz634q",
-              "summary": "“Het leek op het moment waarop een mens, na een lange slaap, nog roerloos in bed ligt en zich ervan bewust wordt dat hij nu wakker is. ” Zo omschrijft C.",
-              "whyRead": "Zie de gekozen tags: dit stuk biedt een inhoudelijke ingang die aansluit op die interessegebieden.",
-              "bestMoment": "reflectief",
-              "tags": [
-                "history",
-                "later",
-                "philosophy"
-              ],
-              "alsoIn": [
-                "aaa-dutch-top-10",
-                "aaa-dutch-top-100",
-                "aaa-short-top-100",
-                "aaa-short-dutch-top-10",
-                "aaa-short-dutch-top-100"
               ]
             }
           ]
@@ -3242,8 +3222,6 @@ window.TOP_ARTICLES = {
               "tags": [
                 "arts & culture",
                 "history",
-                "later",
-                "light-reading",
                 "sociology & social structures"
               ],
               "alsoIn": [
@@ -3252,6 +3230,7 @@ window.TOP_ARTICLES = {
                 "aaa-short-top-100",
                 "aaa-short-dutch-top-10",
                 "aaa-short-dutch-top-100",
+                "aaa-luchtig-top-10",
                 "aaa-luchtig-top-100",
                 "aaa-luchtig-nederlands-top-10",
                 "aaa-luchtig-nederlands-top-100"
@@ -3278,7 +3257,6 @@ window.TOP_ARTICLES = {
               "bestMoment": "reflectief",
               "tags": [
                 "history",
-                "later",
                 "philosophy"
               ],
               "alsoIn": [
@@ -3314,6 +3292,7 @@ window.TOP_ARTICLES = {
                 "philosophy"
               ],
               "alsoIn": [
+                "aaa-top-100",
                 "aaa-dutch-top-100",
                 "aaa-short-top-100",
                 "aaa-short-dutch-top-10",
@@ -3345,6 +3324,7 @@ window.TOP_ARTICLES = {
                 "political philosophy"
               ],
               "alsoIn": [
+                "aaa-top-100",
                 "aaa-dutch-top-100"
               ]
             },
@@ -3373,6 +3353,7 @@ window.TOP_ARTICLES = {
                 "sociology & social structures"
               ],
               "alsoIn": [
+                "aaa-top-100",
                 "aaa-dutch-top-100"
               ]
             },
@@ -3398,11 +3379,10 @@ window.TOP_ARTICLES = {
               "tags": [
                 "arts & culture",
                 "history",
-                "later",
-                "light-reading",
                 "philosophy"
               ],
               "alsoIn": [
+                "aaa-top-100",
                 "aaa-dutch-top-100",
                 "aaa-luchtig-top-100",
                 "aaa-luchtig-nederlands-top-10",
@@ -3557,8 +3537,6 @@ window.TOP_ARTICLES = {
               "tags": [
                 "arts & culture",
                 "history",
-                "later",
-                "light-reading",
                 "sociology & social structures"
               ],
               "alsoIn": [
@@ -3567,6 +3545,7 @@ window.TOP_ARTICLES = {
                 "aaa-short-top-100",
                 "aaa-short-dutch-top-10",
                 "aaa-short-dutch-top-100",
+                "aaa-luchtig-top-10",
                 "aaa-luchtig-top-100",
                 "aaa-luchtig-nederlands-top-10",
                 "aaa-luchtig-nederlands-top-100"
@@ -3593,7 +3572,6 @@ window.TOP_ARTICLES = {
               "bestMoment": "reflectief",
               "tags": [
                 "history",
-                "later",
                 "philosophy"
               ],
               "alsoIn": [
@@ -3629,6 +3607,7 @@ window.TOP_ARTICLES = {
                 "philosophy"
               ],
               "alsoIn": [
+                "aaa-top-100",
                 "aaa-dutch-top-10",
                 "aaa-short-top-100",
                 "aaa-short-dutch-top-10",
@@ -3660,6 +3639,7 @@ window.TOP_ARTICLES = {
                 "political philosophy"
               ],
               "alsoIn": [
+                "aaa-top-100",
                 "aaa-dutch-top-10"
               ]
             },
@@ -3688,6 +3668,7 @@ window.TOP_ARTICLES = {
                 "sociology & social structures"
               ],
               "alsoIn": [
+                "aaa-top-100",
                 "aaa-dutch-top-10"
               ]
             },
@@ -3713,11 +3694,10 @@ window.TOP_ARTICLES = {
               "tags": [
                 "arts & culture",
                 "history",
-                "later",
-                "light-reading",
                 "philosophy"
               ],
               "alsoIn": [
+                "aaa-top-100",
                 "aaa-dutch-top-10",
                 "aaa-luchtig-top-100",
                 "aaa-luchtig-nederlands-top-10",
@@ -3863,13 +3843,13 @@ window.TOP_ARTICLES = {
               "bestMoment": "ontspannen",
               "tags": [
                 "arts & culture",
-                "light-reading",
                 "personal growth & life philosophy",
                 "sociology & social structures"
               ],
               "alsoIn": [
                 "aaa-short-dutch-top-10",
                 "aaa-short-dutch-top-100",
+                "aaa-luchtig-top-100",
                 "aaa-luchtig-nederlands-top-10",
                 "aaa-luchtig-nederlands-top-100"
               ]
@@ -3895,13 +3875,12 @@ window.TOP_ARTICLES = {
               "bestMoment": "ontspannen",
               "tags": [
                 "arts & culture",
-                "later",
-                "light-reading",
                 "sociology & social structures"
               ],
               "alsoIn": [
                 "aaa-short-dutch-top-10",
                 "aaa-short-dutch-top-100",
+                "aaa-luchtig-top-100",
                 "aaa-luchtig-nederlands-top-10",
                 "aaa-luchtig-nederlands-top-100"
               ]
@@ -3928,13 +3907,12 @@ window.TOP_ARTICLES = {
               "tags": [
                 "arts & culture",
                 "current affairs & politics",
-                "later",
-                "light-reading",
                 "sociology & social structures"
               ],
               "alsoIn": [
                 "aaa-short-dutch-top-10",
                 "aaa-short-dutch-top-100",
+                "aaa-luchtig-top-100",
                 "aaa-luchtig-nederlands-top-10",
                 "aaa-luchtig-nederlands-top-100"
               ]
@@ -4096,10 +4074,10 @@ window.TOP_ARTICLES = {
               "bestMoment": "kritisch",
               "tags": [
                 "arts & culture",
-                "light-reading",
                 "sociology & inequality"
               ],
               "alsoIn": [
+                "aaa-luchtig-top-100",
                 "aaa-luchtig-nederlands-top-10",
                 "aaa-luchtig-nederlands-top-100"
               ]
@@ -4203,7 +4181,6 @@ window.TOP_ARTICLES = {
               "tags": [
                 "arts & culture",
                 "history",
-                "light-reading",
                 "personal growth & life philosophy"
               ],
               "alsoIn": [
@@ -4233,7 +4210,6 @@ window.TOP_ARTICLES = {
               "tags": [
                 "arts & culture",
                 "epistemology",
-                "light-reading",
                 "personal growth & life philosophy",
                 "philosophy",
                 "totalitarianism & fascism"
@@ -4264,7 +4240,6 @@ window.TOP_ARTICLES = {
               "bestMoment": "licht / weekend",
               "tags": [
                 "arts & culture",
-                "light-reading",
                 "sociology & social structures"
               ],
               "alsoIn": [
@@ -4320,9 +4295,7 @@ window.TOP_ARTICLES = {
               "whyRead": "Raakt je interesse in technologie en media alleen als lichte roundup; er staan een paar aardige signalen in, maar te weinig diepte om actief te bewaren.",
               "bestMoment": "ontspannen",
               "tags": [
-                "archiveren",
                 "entertainment & pop culture",
-                "light-reading",
                 "technology"
               ],
               "alsoIn": [
@@ -4379,7 +4352,6 @@ window.TOP_ARTICLES = {
               "bestMoment": "ontspannen",
               "tags": [
                 "arts & culture",
-                "light-reading",
                 "sociology & social structures",
                 "sports & recreation"
               ],
@@ -4410,7 +4382,6 @@ window.TOP_ARTICLES = {
               "tags": [
                 "arts & culture",
                 "entertainment & pop culture",
-                "light-reading",
                 "technology"
               ],
               "alsoIn": [
@@ -4466,7 +4437,6 @@ window.TOP_ARTICLES = {
               "bestMoment": "kritisch",
               "tags": [
                 "ai ethics & society",
-                "later",
                 "technology"
               ],
               "alsoIn": [
@@ -4546,8 +4516,7 @@ window.TOP_ARTICLES = {
               "bestMoment": "kritisch",
               "tags": [
                 "current affairs & politics",
-                "economics",
-                "later"
+                "economics"
               ],
               "alsoIn": [
                 "aaa-short-dutch-top-100"
@@ -4575,7 +4544,6 @@ window.TOP_ARTICLES = {
               "tags": [
                 "arts & culture",
                 "health & wellness",
-                "light-reading",
                 "personal growth & life philosophy"
               ],
               "alsoIn": [
@@ -4604,7 +4572,6 @@ window.TOP_ARTICLES = {
               "bestMoment": "ontspannen",
               "tags": [
                 "arts & culture",
-                "light-reading",
                 "personal growth & life philosophy"
               ],
               "alsoIn": [
@@ -4633,7 +4600,6 @@ window.TOP_ARTICLES = {
               "bestMoment": "ontspannen",
               "tags": [
                 "arts & culture",
-                "light-reading",
                 "personal growth & life philosophy"
               ],
               "alsoIn": [
@@ -4662,8 +4628,6 @@ window.TOP_ARTICLES = {
               "bestMoment": "ontspannen",
               "tags": [
                 "arts & culture",
-                "later",
-                "light-reading",
                 "personal growth & life philosophy"
               ],
               "alsoIn": [
@@ -4921,8 +4885,7 @@ window.TOP_ARTICLES = {
               "tags": [
                 "ai & machine learning",
                 "arts & culture",
-                "learning & meta-learning",
-                "light-reading"
+                "learning & meta-learning"
               ],
               "alsoIn": [
                 "aaa-top-10",
@@ -5233,8 +5196,7 @@ window.TOP_ARTICLES = {
               "tags": [
                 "ai & machine learning",
                 "arts & culture",
-                "learning & meta-learning",
-                "light-reading"
+                "learning & meta-learning"
               ],
               "alsoIn": [
                 "aaa-top-10",
@@ -5438,7 +5400,6 @@ window.TOP_ARTICLES = {
               "bestMoment": "analytisch",
               "tags": [
                 "agile",
-                "linked-from-readwise",
                 "professional development",
                 "research papers & academia"
               ],
@@ -5537,35 +5498,6 @@ window.TOP_ARTICLES = {
             },
             {
               "position": 19,
-              "id": "01m1zvm6gs1fej0qfpx176aftk",
-              "title": "My unsung hero of science: Harriet Taylor Mill, the radical feminist philosopher who lived in the shadow of her husband",
-              "author": "Helen McCabe",
-              "siteName": "The Conversation",
-              "category": "article",
-              "language": null,
-              "readingTime": "4 mins",
-              "readingMinutes": 4,
-              "wordCount": 1043,
-              "publishedDate": "2026-09-03",
-              "savedDate": "2026-09-08T06:34:57.945000+00:00",
-              "imageUrl": "https://images.theconversation.com/files/757175/original/file-20260901-60-sse0ig.jpeg?ixlib=rb-4.1.1&rect=0%2C453%2C4537%2C2268&q=45&auto=format&w=1356&h=668&fit=crop",
-              "sourceUrl": "https://theconversation.com/my-unsung-hero-of-science-harriet-taylor-mill-the-radical-feminist-philosopher-who-lived-in-the-shadow-of-her-husband-290875",
-              "readwiseUrl": "https://read.readwise.io/read/01m1zvm6gs1fej0qfpx176aftk",
-              "summary": "Taylor Mill cut to the heart of issues in political thought such as patriarchy, socio-economic justice and freedom.",
-              "whyRead": null,
-              "bestMoment": null,
-              "tags": [
-                "feminism & gender",
-                "history of ideas",
-                "political philosophy",
-                "sociology & social structures"
-              ],
-              "alsoIn": [
-                "aaa-top-100"
-              ]
-            },
-            {
-              "position": 20,
               "id": "01m1zz7a3yxy2nte35hssybary",
               "title": "Continuous Product Discovery — Product Talk",
               "author": "producttalk.org",
@@ -5595,380 +5527,67 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 21,
-              "id": "01m227yg7yamdn2qq40a45gr71",
-              "title": "The AI4Agile Practitioners Report 2026",
-              "author": "Scrum.org",
-              "siteName": "Scrum.org",
+              "position": 20,
+              "id": "01m1zz7f9eqj3hmaee464gw72n",
+              "title": "Liberating Structures",
+              "author": "liberatingstructures.com",
+              "siteName": "liberatingstructures.com",
               "category": "article",
               "language": null,
-              "readingTime": "4 mins",
-              "readingMinutes": 4,
-              "wordCount": 814,
-              "publishedDate": "2026-02-08",
-              "savedDate": "2026-09-09T04:48:47.358000+00:00",
-              "imageUrl": "https://age-of-product.com/wp-content/uploads/ai4agile-pratitioners-report-2026-1536x768.jpg",
-              "sourceUrl": "https://www.scrum.org/resources/blog/ai4agile-practitioners-report-2026",
-              "readwiseUrl": "https://read.readwise.io/read/01m227yg7yamdn2qq40a45gr71",
-              "summary": "83% of Agile practitioners use AI, but most spend 10% or less of their time with it; learn more! By PST Stefan Wolpers.",
+              "readingTime": "6 mins",
+              "readingMinutes": 6,
+              "wordCount": 1451,
+              "publishedDate": "2022-12-06",
+              "savedDate": "2026-09-08T07:37:55.246000+00:00",
+              "imageUrl": null,
+              "sourceUrl": "https://www.liberatingstructures.com",
+              "readwiseUrl": "https://read.readwise.io/read/01m1zz7f9eqj3hmaee464gw72n",
+              "summary": "liberating structures, social invention.net, microstructures, disruptive innovation, behavior change, collaboration, social invention, diffusion of innovation, strategy, transformation, heuristics, complexity science, emergence",
+              "whyRead": "Raakt je werk als Scrum Master en je interesse in agile teamdynamiek; dit repertoire laat zien hoe kleine ontwerpkeuzes deelname, vertrouwen en gedeeld eigenaarschap in groepen kunnen vergroten.",
+              "bestMoment": "leergierig",
+              "tags": [
+                "agile",
+                "professional development",
+                "sociology & social structures"
+              ],
+              "alsoIn": [
+                "aaa-top-100",
+                "aaa-scrum-top-10",
+                "aaa-scrum-top-100"
+              ]
+            },
+            {
+              "position": 21,
+              "id": "01m2265g0kyk1003t9x2hsdzw8",
+              "title": "Communication Is … Ritual",
+              "author": "Sven Brodmerkel (PhD)",
+              "siteName": "Off-Script At Work",
+              "category": "article",
+              "language": null,
+              "readingTime": "5 mins",
+              "readingMinutes": 5,
+              "wordCount": 1283,
+              "publishedDate": "2026-08-06",
+              "savedDate": "2026-09-09T04:17:39.353000+00:00",
+              "imageUrl": "https://images.unsplash.com/photo-1533638446853-a05ab34984f9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzMDAzMzh8MHwxfHNlYXJjaHw4N3x8cml0dWFsfGVufDB8fHx8MTc4NTk4MDAwNHww&ixlib=rb-4.1.0&q=80&w=1080",
+              "sourceUrl": "https://svenbrodmerkel.substack.com/p/rethinking-the-c-word-3ae?utm_source=substack&utm_campaign=post_embed&utm_medium=email&embedding_publication_id=7244866",
+              "readwiseUrl": "https://read.readwise.io/read/01m2265g0kyk1003t9x2hsdzw8",
+              "summary": "#1 of the \"Rethinking the C-Word\"-series",
               "whyRead": null,
               "bestMoment": null,
               "tags": [
-                "agile & scrum",
-                "ai ethics & society",
-                "artificial intelligence",
-                "professional development"
+                "agile",
+                "professional development",
+                "sociology & social structures"
               ],
               "alsoIn": [
-                "aaa-top-100"
+                "aaa-top-100",
+                "aaa-scrum-top-10",
+                "aaa-scrum-top-100"
               ]
             },
             {
               "position": 22,
-              "id": "01j60f108dfd1k8q12ah4cmp16",
-              "title": "Hunting",
-              "author": "Eleanor Konik",
-              "siteName": "Obsidian Iceberg",
-              "category": "article",
-              "language": "Engels",
-              "readingTime": "3 mins",
-              "readingMinutes": 3,
-              "wordCount": 663,
-              "publishedDate": null,
-              "savedDate": "2024-08-23T20:32:11.022000+00:00",
-              "imageUrl": "https://substackcdn.com/image/fetch/w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fab8568b0-3e60-477c-8638-b4dcf7840453_2000x1333.jpeg",
-              "sourceUrl": "https://www.eleanorkonik.com/p/hunting",
-              "readwiseUrl": "https://read.readwise.io/read/01j60f108dfd1k8q12ah4cmp16",
-              "summary": "Hunting has played a significant role in human history, but it is often overlooked in fiction. Research shows that both men and women have participated in hunting throughout different cultures and eras, with various methods and motivations. Interestingly, successful hunting can enhance testosterone levels in fathers, indicating a strong connection between hunting and family provision.",
-              "whyRead": "Raakt je interesse in geschiedenis — een compacte research-roundup over jachtpraktijken door de menselijke geschiedenis, vol verrassende details.",
-              "bestMoment": "leergierig",
-              "tags": [
-                "history",
-                "parenting & care",
-                "popular science"
-              ],
-              "alsoIn": [
-                "aaa-top-100"
-              ]
-            },
-            {
-              "position": 23,
-              "id": "01j8s9z9xg4shgce5z167zc7fn",
-              "title": "📰 Food as Currency - by Eleanor Konik - Manuscriptions\n📰 Food as Currency",
-              "author": "Eleanor Konik",
-              "siteName": "Obsidian Iceberg",
-              "category": "article",
-              "language": "Engels",
-              "readingTime": "5 mins",
-              "readingMinutes": 5,
-              "wordCount": 1244,
-              "publishedDate": "2023-01-11",
-              "savedDate": "2024-09-27T08:36:16.945000+00:00",
-              "imageUrl": "https://substackcdn.com/image/fetch/w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb498cb82-acdb-4bc6-9aa5-26df2469c015_1536x1024.png",
-              "sourceUrl": "https://www.eleanorkonik.com/food-as-currency",
-              "readwiseUrl": "https://read.readwise.io/read/01j8s9z9xg4shgce5z167zc7fn",
-              "summary": "The rise of agriculture was influenced by feast culture, where large communal meals helped early societies become more self-sufficient and innovative. Food, such as rice, flour, and cacao, often served as a form of currency in various cultures, demonstrating its importance in trade and social status. This shows that economies can thrive even without traditional money, as food itself can be a tangible marker of wealth and power.",
-              "whyRead": "Raakt je interesse in geschiedenis en economie — fascinerende verkenning van voedsel als valuta in verschillende beschavingen.",
-              "bestMoment": "leergierig",
-              "tags": [
-                "economics",
-                "history",
-                "political philosophy"
-              ],
-              "alsoIn": [
-                "aaa-top-100"
-              ]
-            },
-            {
-              "position": 24,
-              "id": "01jjmt3derk62gvm51m286870b",
-              "title": "🎓 On Famines: why and how they happen. To who?",
-              "author": "Eleanor Konik",
-              "siteName": "Obsidian Iceberg",
-              "category": "article",
-              "language": "Engels",
-              "readingTime": "6 mins",
-              "readingMinutes": 6,
-              "wordCount": 1420,
-              "publishedDate": "2023-02-01",
-              "savedDate": "2025-01-27T21:18:54.937000+00:00",
-              "imageUrl": "https://substackcdn.com/image/fetch/w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F69facf4c-1e69-4fcd-8fc1-fe90461c9cec_1536x1024.png",
-              "sourceUrl": "https://www.eleanorkonik.com/p/on-famines",
-              "readwiseUrl": "https://read.readwise.io/read/01jjmt3derk62gvm51m286870b",
-              "summary": "Famines in agrarian societies can result from poor governance, war, and weather, often impacting peasants the hardest. Contrary to common belief, hunter-gatherer societies experience less famine due to their flexibility and smaller populations. Historical examples, like the 1984 Ethiopian famine, show how high taxes and market pressures can exacerbate food crises for subsistence farmers.",
-              "whyRead": "Raakt je interesse in geschiedenis — een verrassend essay met contra-intuïtieve inzichten over wie hongersnoden treft en waarom ze ontstaan.",
-              "bestMoment": "leergierig",
-              "tags": [
-                "current affairs & politics",
-                "history",
-                "sociology & inequality"
-              ],
-              "alsoIn": [
-                "aaa-top-100"
-              ]
-            },
-            {
-              "position": 25,
-              "id": "01jjxdnzz04ees7fytca2rnntw",
-              "title": "🎓 Maritime Empires",
-              "author": "Eleanor Konik",
-              "siteName": "Obsidian Iceberg",
-              "category": "article",
-              "language": "Engels",
-              "readingTime": "1 min",
-              "readingMinutes": 1,
-              "wordCount": 77,
-              "publishedDate": null,
-              "savedDate": "2025-01-31T05:35:02.114000+00:00",
-              "imageUrl": "https://substackcdn.com/image/fetch/w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa0f84749-1e0a-4cf2-ad4e-fe8e0450d889_1024x618.jpeg",
-              "sourceUrl": "https://www.eleanorkonik.com/p/maritime-empires-phoenician-gap",
-              "readwiseUrl": "https://read.readwise.io/read/01jjxdnzz04ees7fytca2rnntw",
-              "summary": "The text discusses the importance of maritime empires, particularly the Phoenicians, in shaping Western cultures. It highlights how these civilizations influenced Greece and provided resources to Egypt. The author emphasizes that we often overlook the contributions of these earlier maritime societies.",
-              "whyRead": "Maritieme imperia — een historische verkenning van de Fenicische en andere zeemachten.",
-              "bestMoment": "leergierig",
-              "tags": [
-                "history",
-                "writing & essays"
-              ],
-              "alsoIn": [
-                "aaa-top-100"
-              ]
-            },
-            {
-              "position": 26,
-              "id": "01k3wpn5ak9v4pmtc85h462cav",
-              "title": "On the pleasure of reading private notebooks",
-              "author": "Henrik Karlsson",
-              "siteName": "henrikkarlsson.xyz",
-              "category": "article",
-              "language": "Engels",
-              "readingTime": "7 mins",
-              "readingMinutes": 7,
-              "wordCount": 1714,
-              "publishedDate": "2025-05-28",
-              "savedDate": "2025-08-30T05:19:28.597000+00:00",
-              "imageUrl": "https://substackcdn.com/image/fetch/w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd4aadbe1-9b2c-4054-90e5-ba5e5394e77e_1000x714.jpeg",
-              "sourceUrl": "https://www.henrikkarlsson.xyz/p/private-notebooks",
-              "readwiseUrl": "https://read.readwise.io/read/01k3wpn5ak9v4pmtc85h462cav",
-              "summary": "Many of my favorite books are private notebooks that were never meant for publication, like Kafka's diary and Sei Shōnagon's Pillow Book. I enjoy reading these because the authors are less censored and reveal their genuine thoughts, making the writing feel more intimate and real. Private notes show the messy, creative process of thinking, which is often missing from polished published works.",
-              "whyRead": "Over het plezier van het lezen van privénotebooks — dagboeken, notitieboeken en het intieme denken.",
-              "bestMoment": "reflectief",
-              "tags": [
-                "arts & culture",
-                "learning & meta-learning",
-                "light-reading",
-                "tools & workflows"
-              ],
-              "alsoIn": [
-                "aaa-top-100",
-                "aaa-luchtig-top-10",
-                "aaa-luchtig-top-100"
-              ]
-            },
-            {
-              "position": 27,
-              "id": "01k72qx64tdvkryenrbd5g81px",
-              "title": "The Dire State of Contemporary Western Philosophy",
-              "author": "Nathan Ormond",
-              "siteName": "Nathan Ormond",
-              "category": "article",
-              "language": "Engels",
-              "readingTime": "6 mins",
-              "readingMinutes": 6,
-              "wordCount": 1329,
-              "publishedDate": "2025-09-24",
-              "savedDate": "2025-10-08T20:23:52.218000+00:00",
-              "imageUrl": "https://substackcdn.com/image/fetch/$s_!bLWT!,w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F7c06d55f-21cd-4376-91c7-40d6657a6023_1023x533.webp",
-              "sourceUrl": "https://nathanormond.substack.com/p/the-dire-state-of-contemporary-western?utm_source=%2Finbox%2Fsaved&utm_medium=reader2",
-              "readwiseUrl": "https://read.readwise.io/read/01k72qx64tdvkryenrbd5g81px",
-              "summary": "Nathan Ormond argues contemporary Western philosophy is broken by university and publishing incentives that reward style over substance. Philosophers often trade prestige, puzzles, and showmanship instead of solving real ethical, political, or communal problems. This system wastes talent and trains students to value status and spectacle over practical impact.",
-              "whyRead": "Diagnose van de staat van de hedendaagse westerse filosofie — wat ontbreekt en waarom.",
-              "bestMoment": "kritisch",
-              "tags": [
-                "frankfurt school",
-                "philosophy",
-                "political philosophy",
-                "tools & workflows"
-              ],
-              "alsoIn": [
-                "aaa-top-100"
-              ]
-            },
-            {
-              "position": 28,
-              "id": "01k7j6j6mdje8x3v1jt8hqaba4",
-              "title": "The Mimetic Trap",
-              "author": "The One Percent Rule",
-              "siteName": "substack.com",
-              "category": "article",
-              "language": "Engels",
-              "readingTime": "7 mins",
-              "readingMinutes": 7,
-              "wordCount": 1670,
-              "publishedDate": "2025-02-07",
-              "savedDate": "2025-10-14T20:28:37.389000+00:00",
-              "imageUrl": "https://substackcdn.com/image/fetch/$s_!-02v!,w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa5775fb4-892b-463c-91a5-e09a33f8da4f_1370x900.jpeg",
-              "sourceUrl": "https://onepercentrule.substack.com/p/the-mimetic-trap?r=1r0y5d&utm_medium=ios",
-              "readwiseUrl": "https://read.readwise.io/read/01k7j6j6mdje8x3v1jt8hqaba4",
-              "summary": "People copy what others want, so our desires are shaped by imitation. This mimetic urge can cause rivalry, social harms, and online contagion. But if we choose better role models, imitation can drive cooperation and positive change.",
-              "whyRead": "Over de mimetische val – we leren door imitatie, maar wie we imiteren bepaalt wie we worden.",
-              "bestMoment": "analytisch",
-              "tags": [
-                "personal growth & life philosophy",
-                "philosophy",
-                "sociology & inequality"
-              ],
-              "alsoIn": [
-                "aaa-top-100"
-              ]
-            },
-            {
-              "position": 29,
-              "id": "01k7qbgbanjkbvetnkfd47vkrz",
-              "title": "How I wrote \"Looking for Alice\"",
-              "author": "Henrik Karlsson",
-              "siteName": "bytebytego.com",
-              "category": "article",
-              "language": "Engels",
-              "readingTime": "3 mins",
-              "readingMinutes": 3,
-              "wordCount": 629,
-              "publishedDate": "2023-05-30",
-              "savedDate": "2025-10-16T20:31:11.702000+00:00",
-              "imageUrl": "https://substackcdn.com/image/fetch/$s_!DzZb!,w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1312c236-513c-41a1-897e-d0c3c01967dc_1450x1529.jpeg",
-              "sourceUrl": "https://email.mg1.substack.com/c/eJxM0M0OnSAUBOCnkZ2GH1HvgkU39zXM4XBQKoIBrL19-qZt2nQ9ycyXQWi05fIxD0XMJzFn-CxxtoyMmCc-SbnwF6MTQlw3SlSgkVuh_ZdyJdhuuFKo_UJoZzdbBHDklVcgxpfQnjsWjORSCy4mobSSy6CGRWiOiOQXOc1awyDHr4CH1d3Iz00M9ba1AR4D5pOFuvpCvyWmlZtYNHtrV-3Ul06-O_l-nmfYKZVwHFBirTkN3z8_Ovm-Ovne89OH_im5UR9zPkLaep9LDzEgseu2K-bzvFNon5US2Ejuz8p12xgQWshpDc4ooUYhWDF_bd3Im-B1SJHV27p8QkiGKsIV0uYjtAjJsfbv4LtS-VUkuF4mzifNvhn5MwAA__9vYoFf",
-              "readwiseUrl": "https://read.readwise.io/read/01k7qbgbanjkbvetnkfd47vkrz",
-              "summary": "Henrik Karlsson explains how his essay \"Looking for Alice\" began from a real conversation and a sudden urge to write. He describes the fast, messy drafting process and how resistance can signal a strong idea. He shares this case study to show the small, specific choices behind writing.",
-              "whyRead": "Henrik Karlsson legt uit hoe hij 'Looking for Alice' schreef – zeldzame inkijk in het creatieve proces.",
-              "bestMoment": "reflectief",
-              "tags": [
-                "arts & culture",
-                "learning & meta-learning",
-                "light-reading",
-                "tools & workflows"
-              ],
-              "alsoIn": [
-                "aaa-top-100",
-                "aaa-luchtig-top-10",
-                "aaa-luchtig-top-100"
-              ]
-            },
-            {
-              "position": 30,
-              "id": "01k7qbgpmxd9gskhw16jx5b8yk",
-              "title": "Popular education in Sweden: much more than you wanted to know",
-              "author": "Henrik Karlsson",
-              "siteName": "bytebytego.com",
-              "category": "article",
-              "language": "Engels",
-              "readingTime": "5 mins",
-              "readingMinutes": 5,
-              "wordCount": 1134,
-              "publishedDate": "2022-05-17",
-              "savedDate": "2025-10-16T20:31:23.295000+00:00",
-              "imageUrl": "https://substackcdn.com/image/fetch/$s_!Ecyl!,w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F7509e0da-7c87-4ff8-9733-a4a983c26d9b_990x780.jpeg",
-              "sourceUrl": "https://email.mg1.substack.com/c/eJxMkD2u2zAQhE8jdhaWlEjpFSzS-BrCarm2GfFH4E8U5_TBy0OCFFMNZubDEDZ-5vK2FwfKkYWzsChadsFWLgaMUit8CI7ow_bkxAUbuw3bfy5MUrwsL_SgeUFgA04hm2kBhwt9zMYRoBbeKlBagjRy0pNax2lcpQYi4seqzKI1jmr-jnTsepghPuVY-14b0jFSjsLX7VH4D4ltpbMI9tXaWYfp26Dug7pf1zW-OBV_HFhCrTmNP9-_BnU_P5XPHrDc2HXC5nO6-XSrFztOt9jpJc6-b5Rj7Mm398YJ98Dua-jse_Bfqc07O8lpllIU-xdvmKFJqGMKovbd5Yg-Wa6Ep0_PR8AWMDnR_n3cK5fPIgl6NQBGix9W_Q4AAP__xgCCfA",
-              "readwiseUrl": "https://read.readwise.io/read/01k7qbgpmxd9gskhw16jx5b8yk",
-              "summary": "The author grew up surrounded by Sweden’s vast network of self-organized learning centers and misses them. These folk education institutions (folkbildning) grew from 19th-century movements and folk high schools to teach practical skills, discussion, and personal development. They helped ordinary people gain the knowledge and confidence to shape modern democratic society.",
-              "whyRead": "Henrik Karlsson over het Zweedse volksonderwijs – een verrassend rijke traditie van informeel leren.",
-              "bestMoment": "leergierig",
-              "tags": [
-                "history",
-                "learning & meta-learning",
-                "writing & essays"
-              ],
-              "alsoIn": [
-                "aaa-top-100"
-              ]
-            },
-            {
-              "position": 31,
-              "id": "01k7xjhe96qxhs9bkr4qahjk09",
-              "title": "How to Become as Well-Read as John Adams: 8 Tips From his Reading Life",
-              "author": "Samuel",
-              "siteName": "Knowledge Lust",
-              "category": "article",
-              "language": "Engels",
-              "readingTime": "5 mins",
-              "readingMinutes": 5,
-              "wordCount": 1109,
-              "publishedDate": "2024-05-24",
-              "savedDate": "2025-10-19T06:29:34.120000+00:00",
-              "imageUrl": "https://knowledgelust.com/wp-content/uploads/2024/05/library-of-congress-DbXVYHi9wYo-unsplash-1-813x1024.jpg",
-              "sourceUrl": "https://knowledgelust.com/how-to-become-as-well-read-as-john-adams-8-tips-from-his-reading-life/",
-              "readwiseUrl": "https://read.readwise.io/read/01k7xjhe96qxhs9bkr4qahjk09",
-              "summary": "John Adams read widely and deeply, becoming a self-taught expert across many subjects.  \nHe used habits like carrying poetry, marking margins, and intense study of key books to learn.  \nAdams believed broad reading builds personal wisdom and a healthy democracy.",
-              "whyRead": "Acht lessen uit het leesleven van John Adams – een van de meest belezenste presidenten in de geschiedenis.",
-              "bestMoment": "leergierig",
-              "tags": [
-                "history",
-                "learning & meta-learning",
-                "political philosophy"
-              ],
-              "alsoIn": [
-                "aaa-top-100"
-              ]
-            },
-            {
-              "position": 32,
-              "id": "01k8v9cz0ah2x4qddn265e4cnt",
-              "title": "Everything Is Television",
-              "author": "Derek Thompson",
-              "siteName": "derekthompson.org",
-              "category": "article",
-              "language": "Engels",
-              "readingTime": "9 mins",
-              "readingMinutes": 9,
-              "wordCount": 2278,
-              "publishedDate": "2025-10-10",
-              "savedDate": "2025-10-31T17:47:36.501000+00:00",
-              "imageUrl": "https://substackcdn.com/image/fetch/$s_!XE9X!,w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F707c7327-31a7-4ed2-ab2d-af440e3b45ea_878x861.jpeg",
-              "sourceUrl": "https://www.derekthompson.org/p/why-everything-became-television",
-              "readwiseUrl": "https://read.readwise.io/read/01k8v9cz0ah2x4qddn265e4cnt",
-              "summary": "Media of all kinds are turning into nonstop streams of short videos like television.  \nThis shift, driven by algorithms and platforms, favors distraction, spectacle, and shallow attention.  \nAs everything adopts TV’s grammar, our solitude, deep focus, and inward meaning are eroded.",
-              "whyRead": "Derek Thompson over hoe alle content zich transformeert naar televisie-logica – scherpe mediatheorie.",
-              "bestMoment": "kritisch",
-              "tags": [
-                "arts & culture",
-                "light-reading",
-                "philosophy",
-                "sociology & inequality"
-              ],
-              "alsoIn": [
-                "aaa-top-100",
-                "aaa-luchtig-top-100"
-              ]
-            },
-            {
-              "position": 33,
-              "id": "01kd1c7k90p8p5bknmbm09abwv",
-              "title": "The World in Which We Live - Nassim Nicholas Taleb",
-              "author": "Substack",
-              "siteName": "Substack",
-              "category": "article",
-              "language": "Engels",
-              "readingTime": "9 mins",
-              "readingMinutes": 9,
-              "wordCount": 2213,
-              "publishedDate": null,
-              "savedDate": "2025-12-21T21:14:46.945000+00:00",
-              "imageUrl": "https://substackcdn.com/image/fetch/$s_!_6i6!,w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1752b104-50d6-4bf7-8a85-fb32f4a35c3a_760x456.png",
-              "sourceUrl": "https://substack.com/@nntaleb/p-174276181",
-              "readwiseUrl": "https://read.readwise.io/read/01kd1c7k90p8p5bknmbm09abwv",
-              "summary": "Modern hyper-connectivity concentrates wealth and power, creating a technofeudal world where a few capture most gains.  \nFast-growing countries like China outpace stagnant, debt-laden West due to different stages on the S-curve of development.  \nGrowing government reach and migration tensions complicate governance, forcing hard choices about debt, growth, and localism.",
-              "whyRead": "Raakt je interesse in economie en politieke filosofie — Nassim Taleb's zeven punten over de moderne wereld: van technofeodaisme tot Black Swan-kwetsbaarheid.",
-              "bestMoment": "analytisch",
-              "tags": [
-                "current affairs & politics",
-                "economics",
-                "political philosophy"
-              ],
-              "alsoIn": [
-                "aaa-top-100"
-              ]
-            },
-            {
-              "position": 34,
               "id": "01kdnzthe611p0c38ts9j702s2",
               "title": "De verleiding van de kettingzaag",
               "author": "NRC Handelsblad",
@@ -6000,7 +5619,446 @@ window.TOP_ARTICLES = {
               ]
             },
             {
+              "position": 23,
+              "id": "01kvcgsfekyqqc5b9t3nmrge8m",
+              "title": "Hoera, het is Waterloodag!",
+              "author": "De Ongelooflijke",
+              "siteName": "Substack",
+              "category": "email",
+              "language": "Nederlands",
+              "readingTime": "8 mins",
+              "readingMinutes": 8,
+              "wordCount": 1935,
+              "publishedDate": "2026-06-18",
+              "savedDate": "2026-06-18T04:45:51.444000+00:00",
+              "imageUrl": null,
+              "sourceUrl": "mailto:reader-forwarded-email/9063dc73da1b3f69c5087334680b7b3a",
+              "readwiseUrl": "https://read.readwise.io/read/01kvcgsfekyqqc5b9t3nmrge8m",
+              "summary": "Meer dan honderd jaar was 18 juni in Nederland een nationale feestdag, ter herinnering aan de Slag bij Waterloo (1815): de dag waarop Napoleon definitief werd verslagen en de geschiedenis van Nederland en Europa een beslissende wending nam.",
+              "whyRead": "Raakt je interesse in Europese geschiedenis en collectief geheugen: zeven veldslagen worden niet alleen militair, maar ook cultureel en identitair geduid. De meerwaarde zit in de combinatie van geschiedenis, mythevorming en historische verbeelding.",
+              "bestMoment": "ontspannen",
+              "tags": [
+                "arts & culture",
+                "history",
+                "sociology & social structures"
+              ],
+              "alsoIn": [
+                "aaa-top-100",
+                "aaa-dutch-top-10",
+                "aaa-dutch-top-100",
+                "aaa-short-dutch-top-10",
+                "aaa-short-dutch-top-100",
+                "aaa-luchtig-top-10",
+                "aaa-luchtig-top-100",
+                "aaa-luchtig-nederlands-top-10",
+                "aaa-luchtig-nederlands-top-100"
+              ]
+            },
+            {
+              "position": 24,
+              "id": "01kyxvjcj0396b5z5w8bcz634q",
+              "title": "De atheïst die de bekendste verdediger van het christendom werd",
+              "author": "De Ongelooflijke",
+              "siteName": "Substack",
+              "category": "email",
+              "language": "Nederlands",
+              "readingTime": "9 mins",
+              "readingMinutes": 9,
+              "wordCount": 2302,
+              "publishedDate": "2026-08-01",
+              "savedDate": "2026-08-01T05:08:24.257000+00:00",
+              "imageUrl": null,
+              "sourceUrl": "mailto:reader-forwarded-email/363643d320a4241500df2bc54c0e90ca",
+              "readwiseUrl": "https://read.readwise.io/read/01kyxvjcj0396b5z5w8bcz634q",
+              "summary": "“Het leek op het moment waarop een mens, na een lange slaap, nog roerloos in bed ligt en zich ervan bewust wordt dat hij nu wakker is. ” Zo omschrijft C.",
+              "whyRead": "Zie de gekozen tags: dit stuk biedt een inhoudelijke ingang die aansluit op die interessegebieden.",
+              "bestMoment": "reflectief",
+              "tags": [
+                "history",
+                "philosophy"
+              ],
+              "alsoIn": [
+                "aaa-top-100",
+                "aaa-dutch-top-10",
+                "aaa-dutch-top-100",
+                "aaa-short-dutch-top-10",
+                "aaa-short-dutch-top-100"
+              ]
+            },
+            {
+              "position": 25,
+              "id": "01kzjk22zxkgrvftgdtdvj01rq",
+              "title": "Twintig seconden waar ik me diep voor schaam",
+              "author": "Jona van Loenen",
+              "siteName": "Substack",
+              "category": "email",
+              "language": "Nederlands",
+              "readingTime": "9 mins",
+              "readingMinutes": 9,
+              "wordCount": 2122,
+              "publishedDate": "2026-08-09",
+              "savedDate": "2026-08-09T06:23:44.637000+00:00",
+              "imageUrl": null,
+              "sourceUrl": "mailto:reader-forwarded-email/d6f314a85583cfa5b9175a9ac4ec73f8",
+              "readwiseUrl": "https://read.readwise.io/read/01kzjk22zxkgrvftgdtdvj01rq",
+              "summary": "Ik was bezig met het afronden van de laatste versie van het laatste hoofdstuk van mijn nieuwe boek. In alle eerlijkheid was dat niet alleen dinsdag.",
+              "whyRead": "Een persoonlijk, helder essay over AI als verleiding om precies het soort inspanning uit te besteden waar vaardigheid, trots en betekenis uit groeien. Sterke tegenhanger voor een puur productiviteitskader.",
+              "bestMoment": "reflectief",
+              "tags": [
+                "ai ethics",
+                "personal",
+                "philosophy"
+              ],
+              "alsoIn": [
+                "aaa-top-100",
+                "aaa-dutch-top-10",
+                "aaa-dutch-top-100",
+                "aaa-short-dutch-top-10",
+                "aaa-short-dutch-top-100"
+              ]
+            },
+            {
+              "position": 26,
+              "id": "01j60f108dfd1k8q12ah4cmp16",
+              "title": "Hunting",
+              "author": "Eleanor Konik",
+              "siteName": "Obsidian Iceberg",
+              "category": "article",
+              "language": "Engels",
+              "readingTime": "3 mins",
+              "readingMinutes": 3,
+              "wordCount": 663,
+              "publishedDate": null,
+              "savedDate": "2024-08-23T20:32:11.022000+00:00",
+              "imageUrl": "https://substackcdn.com/image/fetch/w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fab8568b0-3e60-477c-8638-b4dcf7840453_2000x1333.jpeg",
+              "sourceUrl": "https://www.eleanorkonik.com/p/hunting",
+              "readwiseUrl": "https://read.readwise.io/read/01j60f108dfd1k8q12ah4cmp16",
+              "summary": "Hunting has played a significant role in human history, but it is often overlooked in fiction. Research shows that both men and women have participated in hunting throughout different cultures and eras, with various methods and motivations. Interestingly, successful hunting can enhance testosterone levels in fathers, indicating a strong connection between hunting and family provision.",
+              "whyRead": "Raakt je interesse in geschiedenis — een compacte research-roundup over jachtpraktijken door de menselijke geschiedenis, vol verrassende details.",
+              "bestMoment": "leergierig",
+              "tags": [
+                "history",
+                "parenting & care",
+                "popular science"
+              ],
+              "alsoIn": [
+                "aaa-top-100"
+              ]
+            },
+            {
+              "position": 27,
+              "id": "01j8s9z9xg4shgce5z167zc7fn",
+              "title": "📰 Food as Currency - by Eleanor Konik - Manuscriptions\n📰 Food as Currency",
+              "author": "Eleanor Konik",
+              "siteName": "Obsidian Iceberg",
+              "category": "article",
+              "language": "Engels",
+              "readingTime": "5 mins",
+              "readingMinutes": 5,
+              "wordCount": 1244,
+              "publishedDate": "2023-01-11",
+              "savedDate": "2024-09-27T08:36:16.945000+00:00",
+              "imageUrl": "https://substackcdn.com/image/fetch/w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb498cb82-acdb-4bc6-9aa5-26df2469c015_1536x1024.png",
+              "sourceUrl": "https://www.eleanorkonik.com/food-as-currency",
+              "readwiseUrl": "https://read.readwise.io/read/01j8s9z9xg4shgce5z167zc7fn",
+              "summary": "The rise of agriculture was influenced by feast culture, where large communal meals helped early societies become more self-sufficient and innovative. Food, such as rice, flour, and cacao, often served as a form of currency in various cultures, demonstrating its importance in trade and social status. This shows that economies can thrive even without traditional money, as food itself can be a tangible marker of wealth and power.",
+              "whyRead": "Raakt je interesse in geschiedenis en economie — fascinerende verkenning van voedsel als valuta in verschillende beschavingen.",
+              "bestMoment": "leergierig",
+              "tags": [
+                "economics",
+                "history",
+                "political philosophy"
+              ],
+              "alsoIn": [
+                "aaa-top-100"
+              ]
+            },
+            {
+              "position": 28,
+              "id": "01jjmt3derk62gvm51m286870b",
+              "title": "🎓 On Famines: why and how they happen. To who?",
+              "author": "Eleanor Konik",
+              "siteName": "Obsidian Iceberg",
+              "category": "article",
+              "language": "Engels",
+              "readingTime": "6 mins",
+              "readingMinutes": 6,
+              "wordCount": 1420,
+              "publishedDate": "2023-02-01",
+              "savedDate": "2025-01-27T21:18:54.937000+00:00",
+              "imageUrl": "https://substackcdn.com/image/fetch/w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F69facf4c-1e69-4fcd-8fc1-fe90461c9cec_1536x1024.png",
+              "sourceUrl": "https://www.eleanorkonik.com/p/on-famines",
+              "readwiseUrl": "https://read.readwise.io/read/01jjmt3derk62gvm51m286870b",
+              "summary": "Famines in agrarian societies can result from poor governance, war, and weather, often impacting peasants the hardest. Contrary to common belief, hunter-gatherer societies experience less famine due to their flexibility and smaller populations. Historical examples, like the 1984 Ethiopian famine, show how high taxes and market pressures can exacerbate food crises for subsistence farmers.",
+              "whyRead": "Raakt je interesse in geschiedenis — een verrassend essay met contra-intuïtieve inzichten over wie hongersnoden treft en waarom ze ontstaan.",
+              "bestMoment": "leergierig",
+              "tags": [
+                "current affairs & politics",
+                "history",
+                "sociology & inequality"
+              ],
+              "alsoIn": [
+                "aaa-top-100"
+              ]
+            },
+            {
+              "position": 29,
+              "id": "01jjxdnzz04ees7fytca2rnntw",
+              "title": "🎓 Maritime Empires",
+              "author": "Eleanor Konik",
+              "siteName": "Obsidian Iceberg",
+              "category": "article",
+              "language": "Engels",
+              "readingTime": "1 min",
+              "readingMinutes": 1,
+              "wordCount": 77,
+              "publishedDate": null,
+              "savedDate": "2025-01-31T05:35:02.114000+00:00",
+              "imageUrl": "https://substackcdn.com/image/fetch/w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa0f84749-1e0a-4cf2-ad4e-fe8e0450d889_1024x618.jpeg",
+              "sourceUrl": "https://www.eleanorkonik.com/p/maritime-empires-phoenician-gap",
+              "readwiseUrl": "https://read.readwise.io/read/01jjxdnzz04ees7fytca2rnntw",
+              "summary": "The text discusses the importance of maritime empires, particularly the Phoenicians, in shaping Western cultures. It highlights how these civilizations influenced Greece and provided resources to Egypt. The author emphasizes that we often overlook the contributions of these earlier maritime societies.",
+              "whyRead": "Maritieme imperia — een historische verkenning van de Fenicische en andere zeemachten.",
+              "bestMoment": "leergierig",
+              "tags": [
+                "history",
+                "writing & essays"
+              ],
+              "alsoIn": [
+                "aaa-top-100"
+              ]
+            },
+            {
+              "position": 30,
+              "id": "01k3wpn5ak9v4pmtc85h462cav",
+              "title": "On the pleasure of reading private notebooks",
+              "author": "Henrik Karlsson",
+              "siteName": "henrikkarlsson.xyz",
+              "category": "article",
+              "language": "Engels",
+              "readingTime": "7 mins",
+              "readingMinutes": 7,
+              "wordCount": 1714,
+              "publishedDate": "2025-05-28",
+              "savedDate": "2025-08-30T05:19:28.597000+00:00",
+              "imageUrl": "https://substackcdn.com/image/fetch/w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd4aadbe1-9b2c-4054-90e5-ba5e5394e77e_1000x714.jpeg",
+              "sourceUrl": "https://www.henrikkarlsson.xyz/p/private-notebooks",
+              "readwiseUrl": "https://read.readwise.io/read/01k3wpn5ak9v4pmtc85h462cav",
+              "summary": "Many of my favorite books are private notebooks that were never meant for publication, like Kafka's diary and Sei Shōnagon's Pillow Book. I enjoy reading these because the authors are less censored and reveal their genuine thoughts, making the writing feel more intimate and real. Private notes show the messy, creative process of thinking, which is often missing from polished published works.",
+              "whyRead": "Over het plezier van het lezen van privénotebooks — dagboeken, notitieboeken en het intieme denken.",
+              "bestMoment": "reflectief",
+              "tags": [
+                "arts & culture",
+                "learning & meta-learning",
+                "tools & workflows"
+              ],
+              "alsoIn": [
+                "aaa-top-100",
+                "aaa-luchtig-top-10",
+                "aaa-luchtig-top-100"
+              ]
+            },
+            {
+              "position": 31,
+              "id": "01k72qx64tdvkryenrbd5g81px",
+              "title": "The Dire State of Contemporary Western Philosophy",
+              "author": "Nathan Ormond",
+              "siteName": "Nathan Ormond",
+              "category": "article",
+              "language": "Engels",
+              "readingTime": "6 mins",
+              "readingMinutes": 6,
+              "wordCount": 1329,
+              "publishedDate": "2025-09-24",
+              "savedDate": "2025-10-08T20:23:52.218000+00:00",
+              "imageUrl": "https://substackcdn.com/image/fetch/$s_!bLWT!,w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F7c06d55f-21cd-4376-91c7-40d6657a6023_1023x533.webp",
+              "sourceUrl": "https://nathanormond.substack.com/p/the-dire-state-of-contemporary-western?utm_source=%2Finbox%2Fsaved&utm_medium=reader2",
+              "readwiseUrl": "https://read.readwise.io/read/01k72qx64tdvkryenrbd5g81px",
+              "summary": "Nathan Ormond argues contemporary Western philosophy is broken by university and publishing incentives that reward style over substance. Philosophers often trade prestige, puzzles, and showmanship instead of solving real ethical, political, or communal problems. This system wastes talent and trains students to value status and spectacle over practical impact.",
+              "whyRead": "Diagnose van de staat van de hedendaagse westerse filosofie — wat ontbreekt en waarom.",
+              "bestMoment": "kritisch",
+              "tags": [
+                "frankfurt school",
+                "philosophy",
+                "political philosophy",
+                "tools & workflows"
+              ],
+              "alsoIn": [
+                "aaa-top-100"
+              ]
+            },
+            {
+              "position": 32,
+              "id": "01k7j6j6mdje8x3v1jt8hqaba4",
+              "title": "The Mimetic Trap",
+              "author": "The One Percent Rule",
+              "siteName": "substack.com",
+              "category": "article",
+              "language": "Engels",
+              "readingTime": "7 mins",
+              "readingMinutes": 7,
+              "wordCount": 1670,
+              "publishedDate": "2025-02-07",
+              "savedDate": "2025-10-14T20:28:37.389000+00:00",
+              "imageUrl": "https://substackcdn.com/image/fetch/$s_!-02v!,w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa5775fb4-892b-463c-91a5-e09a33f8da4f_1370x900.jpeg",
+              "sourceUrl": "https://onepercentrule.substack.com/p/the-mimetic-trap?r=1r0y5d&utm_medium=ios",
+              "readwiseUrl": "https://read.readwise.io/read/01k7j6j6mdje8x3v1jt8hqaba4",
+              "summary": "People copy what others want, so our desires are shaped by imitation. This mimetic urge can cause rivalry, social harms, and online contagion. But if we choose better role models, imitation can drive cooperation and positive change.",
+              "whyRead": "Over de mimetische val – we leren door imitatie, maar wie we imiteren bepaalt wie we worden.",
+              "bestMoment": "analytisch",
+              "tags": [
+                "personal growth & life philosophy",
+                "philosophy",
+                "sociology & inequality"
+              ],
+              "alsoIn": [
+                "aaa-top-100"
+              ]
+            },
+            {
+              "position": 33,
+              "id": "01k7qbgbanjkbvetnkfd47vkrz",
+              "title": "How I wrote \"Looking for Alice\"",
+              "author": "Henrik Karlsson",
+              "siteName": "bytebytego.com",
+              "category": "article",
+              "language": "Engels",
+              "readingTime": "3 mins",
+              "readingMinutes": 3,
+              "wordCount": 629,
+              "publishedDate": "2023-05-30",
+              "savedDate": "2025-10-16T20:31:11.702000+00:00",
+              "imageUrl": "https://substackcdn.com/image/fetch/$s_!DzZb!,w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1312c236-513c-41a1-897e-d0c3c01967dc_1450x1529.jpeg",
+              "sourceUrl": "https://email.mg1.substack.com/c/eJxM0M0OnSAUBOCnkZ2GH1HvgkU39zXM4XBQKoIBrL19-qZt2nQ9ycyXQWi05fIxD0XMJzFn-CxxtoyMmCc-SbnwF6MTQlw3SlSgkVuh_ZdyJdhuuFKo_UJoZzdbBHDklVcgxpfQnjsWjORSCy4mobSSy6CGRWiOiOQXOc1awyDHr4CH1d3Iz00M9ba1AR4D5pOFuvpCvyWmlZtYNHtrV-3Ul06-O_l-nmfYKZVwHFBirTkN3z8_Ovm-Ovne89OH_im5UR9zPkLaep9LDzEgseu2K-bzvFNon5US2Ejuz8p12xgQWshpDc4ooUYhWDF_bd3Im-B1SJHV27p8QkiGKsIV0uYjtAjJsfbv4LtS-VUkuF4mzifNvhn5MwAA__9vYoFf",
+              "readwiseUrl": "https://read.readwise.io/read/01k7qbgbanjkbvetnkfd47vkrz",
+              "summary": "Henrik Karlsson explains how his essay \"Looking for Alice\" began from a real conversation and a sudden urge to write. He describes the fast, messy drafting process and how resistance can signal a strong idea. He shares this case study to show the small, specific choices behind writing.",
+              "whyRead": "Henrik Karlsson legt uit hoe hij 'Looking for Alice' schreef – zeldzame inkijk in het creatieve proces.",
+              "bestMoment": "reflectief",
+              "tags": [
+                "arts & culture",
+                "learning & meta-learning",
+                "tools & workflows"
+              ],
+              "alsoIn": [
+                "aaa-top-100",
+                "aaa-luchtig-top-100"
+              ]
+            },
+            {
+              "position": 34,
+              "id": "01k7qbgpmxd9gskhw16jx5b8yk",
+              "title": "Popular education in Sweden: much more than you wanted to know",
+              "author": "Henrik Karlsson",
+              "siteName": "bytebytego.com",
+              "category": "article",
+              "language": "Engels",
+              "readingTime": "5 mins",
+              "readingMinutes": 5,
+              "wordCount": 1134,
+              "publishedDate": "2022-05-17",
+              "savedDate": "2025-10-16T20:31:23.295000+00:00",
+              "imageUrl": "https://substackcdn.com/image/fetch/$s_!Ecyl!,w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F7509e0da-7c87-4ff8-9733-a4a983c26d9b_990x780.jpeg",
+              "sourceUrl": "https://email.mg1.substack.com/c/eJxMkD2u2zAQhE8jdhaWlEjpFSzS-BrCarm2GfFH4E8U5_TBy0OCFFMNZubDEDZ-5vK2FwfKkYWzsChadsFWLgaMUit8CI7ow_bkxAUbuw3bfy5MUrwsL_SgeUFgA04hm2kBhwt9zMYRoBbeKlBagjRy0pNax2lcpQYi4seqzKI1jmr-jnTsepghPuVY-14b0jFSjsLX7VH4D4ltpbMI9tXaWYfp26Dug7pf1zW-OBV_HFhCrTmNP9-_BnU_P5XPHrDc2HXC5nO6-XSrFztOt9jpJc6-b5Rj7Mm398YJ98Dua-jse_Bfqc07O8lpllIU-xdvmKFJqGMKovbd5Yg-Wa6Ep0_PR8AWMDnR_n3cK5fPIgl6NQBGix9W_Q4AAP__xgCCfA",
+              "readwiseUrl": "https://read.readwise.io/read/01k7qbgpmxd9gskhw16jx5b8yk",
+              "summary": "The author grew up surrounded by Sweden’s vast network of self-organized learning centers and misses them. These folk education institutions (folkbildning) grew from 19th-century movements and folk high schools to teach practical skills, discussion, and personal development. They helped ordinary people gain the knowledge and confidence to shape modern democratic society.",
+              "whyRead": "Henrik Karlsson over het Zweedse volksonderwijs – een verrassend rijke traditie van informeel leren.",
+              "bestMoment": "leergierig",
+              "tags": [
+                "history",
+                "learning & meta-learning",
+                "writing & essays"
+              ],
+              "alsoIn": [
+                "aaa-top-100"
+              ]
+            },
+            {
               "position": 35,
+              "id": "01k7xjhe96qxhs9bkr4qahjk09",
+              "title": "How to Become as Well-Read as John Adams: 8 Tips From his Reading Life",
+              "author": "Samuel",
+              "siteName": "Knowledge Lust",
+              "category": "article",
+              "language": "Engels",
+              "readingTime": "5 mins",
+              "readingMinutes": 5,
+              "wordCount": 1109,
+              "publishedDate": "2024-05-24",
+              "savedDate": "2025-10-19T06:29:34.120000+00:00",
+              "imageUrl": "https://knowledgelust.com/wp-content/uploads/2024/05/library-of-congress-DbXVYHi9wYo-unsplash-1-813x1024.jpg",
+              "sourceUrl": "https://knowledgelust.com/how-to-become-as-well-read-as-john-adams-8-tips-from-his-reading-life/",
+              "readwiseUrl": "https://read.readwise.io/read/01k7xjhe96qxhs9bkr4qahjk09",
+              "summary": "John Adams read widely and deeply, becoming a self-taught expert across many subjects.  \nHe used habits like carrying poetry, marking margins, and intense study of key books to learn.  \nAdams believed broad reading builds personal wisdom and a healthy democracy.",
+              "whyRead": "Acht lessen uit het leesleven van John Adams – een van de meest belezenste presidenten in de geschiedenis.",
+              "bestMoment": "leergierig",
+              "tags": [
+                "history",
+                "learning & meta-learning",
+                "political philosophy"
+              ],
+              "alsoIn": [
+                "aaa-top-100"
+              ]
+            },
+            {
+              "position": 36,
+              "id": "01k8v9cz0ah2x4qddn265e4cnt",
+              "title": "Everything Is Television",
+              "author": "Derek Thompson",
+              "siteName": "derekthompson.org",
+              "category": "article",
+              "language": "Engels",
+              "readingTime": "9 mins",
+              "readingMinutes": 9,
+              "wordCount": 2278,
+              "publishedDate": "2025-10-10",
+              "savedDate": "2025-10-31T17:47:36.501000+00:00",
+              "imageUrl": "https://substackcdn.com/image/fetch/$s_!XE9X!,w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F707c7327-31a7-4ed2-ab2d-af440e3b45ea_878x861.jpeg",
+              "sourceUrl": "https://www.derekthompson.org/p/why-everything-became-television",
+              "readwiseUrl": "https://read.readwise.io/read/01k8v9cz0ah2x4qddn265e4cnt",
+              "summary": "Media of all kinds are turning into nonstop streams of short videos like television.  \nThis shift, driven by algorithms and platforms, favors distraction, spectacle, and shallow attention.  \nAs everything adopts TV’s grammar, our solitude, deep focus, and inward meaning are eroded.",
+              "whyRead": "Derek Thompson over hoe alle content zich transformeert naar televisie-logica – scherpe mediatheorie.",
+              "bestMoment": "kritisch",
+              "tags": [
+                "arts & culture",
+                "philosophy",
+                "sociology & inequality"
+              ],
+              "alsoIn": [
+                "aaa-top-100",
+                "aaa-luchtig-top-100"
+              ]
+            },
+            {
+              "position": 37,
+              "id": "01kd1c7k90p8p5bknmbm09abwv",
+              "title": "The World in Which We Live - Nassim Nicholas Taleb",
+              "author": "Substack",
+              "siteName": "Substack",
+              "category": "article",
+              "language": "Engels",
+              "readingTime": "9 mins",
+              "readingMinutes": 9,
+              "wordCount": 2213,
+              "publishedDate": null,
+              "savedDate": "2025-12-21T21:14:46.945000+00:00",
+              "imageUrl": "https://substackcdn.com/image/fetch/$s_!_6i6!,w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1752b104-50d6-4bf7-8a85-fb32f4a35c3a_760x456.png",
+              "sourceUrl": "https://substack.com/@nntaleb/p-174276181",
+              "readwiseUrl": "https://read.readwise.io/read/01kd1c7k90p8p5bknmbm09abwv",
+              "summary": "Modern hyper-connectivity concentrates wealth and power, creating a technofeudal world where a few capture most gains.  \nFast-growing countries like China outpace stagnant, debt-laden West due to different stages on the S-curve of development.  \nGrowing government reach and migration tensions complicate governance, forcing hard choices about debt, growth, and localism.",
+              "whyRead": "Raakt je interesse in economie en politieke filosofie — Nassim Taleb's zeven punten over de moderne wereld: van technofeodaisme tot Black Swan-kwetsbaarheid.",
+              "bestMoment": "analytisch",
+              "tags": [
+                "current affairs & politics",
+                "economics",
+                "political philosophy"
+              ],
+              "alsoIn": [
+                "aaa-top-100"
+              ]
+            },
+            {
+              "position": 38,
               "id": "01kkh2jn3p93nsh9nvbpe1w0vk",
               "title": "Rugged Spirituality",
               "author": "Andrew Taggart",
@@ -6029,7 +6087,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 36,
+              "position": 39,
               "id": "01km0ha2tggzmd2y5yjpqbycj5",
               "title": "🎓 On Geldings and the 'Natural' Social Order of Horses",
               "author": "Eleanor Konik",
@@ -6057,7 +6115,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 37,
+              "position": 40,
               "id": "01kmfmvdnqhec7daqp6x47pr85",
               "title": "On the proper use of arguments",
               "author": "Massimo Pigliucci at Figs in Winter",
@@ -6086,7 +6144,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 38,
+              "position": 41,
               "id": "01kmr5kh5wjyr899wkg9skt4f7",
               "title": "Simone Weil Explains the Manosphere",
               "author": "Joe from Unsolicited Advice",
@@ -6115,7 +6173,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 39,
+              "position": 42,
               "id": "01kmwmt7f9jtm6j0gb6pnda9zk",
               "title": "Philosophy of Science",
               "author": "Joseph Rahi",
@@ -6145,7 +6203,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 40,
+              "position": 43,
               "id": "01kqsnmx2rdcaktjvwsjmmq2cn",
               "title": "The games we want to be playing",
               "author": "Jared Henderson from Commonplace Philosophy",
@@ -6175,7 +6233,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 41,
+              "position": 44,
               "id": "01krkbe7701j87vmw7wrs54h8m",
               "title": "They Are Putting A Black Hole Inside Your Head",
               "author": "Paul Musso",
@@ -6203,7 +6261,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 42,
+              "position": 45,
               "id": "01krn1jdcn6b450yv1z0j92tz3",
               "title": "The Radical Sunzi",
               "author": "scholars-stage.org",
@@ -6223,7 +6281,6 @@ window.TOP_ARTICLES = {
               "bestMoment": "analytisch",
               "tags": [
                 "history",
-                "linked-from-readwise",
                 "political ideologies",
                 "political philosophy"
               ],
@@ -6232,7 +6289,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 43,
+              "position": 46,
               "id": "01kt72hwt9asrzwwx70ybxyabe",
               "title": "How Love Became Just Another Thing to Optimize",
               "author": "Philosophize This! from Philosophize This!",
@@ -6261,7 +6318,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 44,
+              "position": 47,
               "id": "01kvarejkjdc6y2cjp2d0ewgkd",
               "title": "The Desecration of Man - Say No to Nietzsche",
               "author": "R.W. Richey from We Are Not Saved",
@@ -6281,7 +6338,6 @@ window.TOP_ARTICLES = {
               "bestMoment": "analytisch",
               "tags": [
                 "arts & culture",
-                "light-reading",
                 "philosophy",
                 "political philosophy"
               ],
@@ -6291,44 +6347,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 45,
-              "id": "01kvcgsfekyqqc5b9t3nmrge8m",
-              "title": "Hoera, het is Waterloodag!",
-              "author": "De Ongelooflijke",
-              "siteName": "Substack",
-              "category": "email",
-              "language": "Nederlands",
-              "readingTime": "8 mins",
-              "readingMinutes": 8,
-              "wordCount": 1935,
-              "publishedDate": "2026-06-18",
-              "savedDate": "2026-06-18T04:45:51.444000+00:00",
-              "imageUrl": null,
-              "sourceUrl": "mailto:reader-forwarded-email/9063dc73da1b3f69c5087334680b7b3a",
-              "readwiseUrl": "https://read.readwise.io/read/01kvcgsfekyqqc5b9t3nmrge8m",
-              "summary": "Meer dan honderd jaar was 18 juni in Nederland een nationale feestdag, ter herinnering aan de Slag bij Waterloo (1815): de dag waarop Napoleon definitief werd verslagen en de geschiedenis van Nederland en Europa een beslissende wending nam.",
-              "whyRead": "Raakt je interesse in Europese geschiedenis en collectief geheugen: zeven veldslagen worden niet alleen militair, maar ook cultureel en identitair geduid. De meerwaarde zit in de combinatie van geschiedenis, mythevorming en historische verbeelding.",
-              "bestMoment": "ontspannen",
-              "tags": [
-                "arts & culture",
-                "history",
-                "later",
-                "light-reading",
-                "sociology & social structures"
-              ],
-              "alsoIn": [
-                "aaa-top-100",
-                "aaa-dutch-top-10",
-                "aaa-dutch-top-100",
-                "aaa-short-dutch-top-10",
-                "aaa-short-dutch-top-100",
-                "aaa-luchtig-top-100",
-                "aaa-luchtig-nederlands-top-10",
-                "aaa-luchtig-nederlands-top-100"
-              ]
-            },
-            {
-              "position": 46,
+              "position": 48,
               "id": "01kvh7ec1tezr2vy9bqgsm6an4",
               "title": "Is There a Science of Writing?",
               "author": "Carl Hendrick from The Learning Dispatch",
@@ -6349,7 +6368,6 @@ window.TOP_ARTICLES = {
               "tags": [
                 "arts & culture",
                 "learning & meta-learning",
-                "light-reading",
                 "research papers & academia"
               ],
               "alsoIn": [
@@ -6358,7 +6376,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 47,
+              "position": 49,
               "id": "01kvjbgrqsftb77gs496c0p12t",
               "title": "If the First Apocalypse Doesn’t Get You, the Second One Will",
               "author": "Miller’s Book Review 📚",
@@ -6379,7 +6397,6 @@ window.TOP_ARTICLES = {
               "tags": [
                 "fiction",
                 "history",
-                "light-reading",
                 "political philosophy"
               ],
               "alsoIn": [
@@ -6388,7 +6405,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 48,
+              "position": 50,
               "id": "01kvtqy4rffwdb1t73t37netda",
               "title": "Antwoorden op vragen die niet gesteld worden",
               "author": "Kauthar",
@@ -6416,7 +6433,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 49,
+              "position": 51,
               "id": "01kxdxaytaf6tm6ntqnc9vdw18",
               "title": "Apophenia and Manufactured Desire",
               "author": "Jared Henderson from Commonplace Philosophy",
@@ -6443,7 +6460,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 50,
+              "position": 52,
               "id": "01kxpg8mpkegghvbz5w71ne86v",
               "title": "Against \"Stochastic Terrorism\"",
               "author": "Astral Codex Ten",
@@ -6470,7 +6487,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 51,
+              "position": 53,
               "id": "01kxy1qnae4npandc4x9mv4aw0",
               "title": "To Understand Elon Musk, You Have to Understand This ’60s Sci-Fi Novel",
               "author": "jacobin.com",
@@ -6490,8 +6507,6 @@ window.TOP_ARTICLES = {
               "bestMoment": "analytisch",
               "tags": [
                 "fiction",
-                "light-reading",
-                "linked-from-readwise",
                 "political philosophy",
                 "technology"
               ],
@@ -6501,7 +6516,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 52,
+              "position": 54,
               "id": "01kxzghzvbjtnr20f8vwmwc8s5",
               "title": "Letters of Last Resort",
               "author": "Brian Klaas",
@@ -6528,7 +6543,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 53,
+              "position": 55,
               "id": "01ky7qe9p9qwtpk49bzc4pqqhk",
               "title": "Normal Accidents: Living with High-Risk Technologies",
               "author": "blog.jcx.au",
@@ -6547,7 +6562,6 @@ window.TOP_ARTICLES = {
               "whyRead": "Dit is een toegankelijke, scherp geformuleerde ingang tot Charles Perrows theorie van normal accidents: een bruikbaar denkkader voor AI, infrastructuur en organisaties waar complexiteit zelf risico produceert. De koppeling met hindsight bias en perverse veiligheidsprikkels geeft het essay extra maatschappelijke diepgang.",
               "bestMoment": "analytisch",
               "tags": [
-                "linked-from-readwise",
                 "sociology & social structures",
                 "technology"
               ],
@@ -6556,7 +6570,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 54,
+              "position": 56,
               "id": "01ky7y54f3cb0xcxn9nyexpkzw",
               "title": "When philosophers and the public disagree",
               "author": "Jared Henderson from Commonplace Philosophy",
@@ -6579,12 +6593,10 @@ window.TOP_ARTICLES = {
                 "philosophy",
                 "research papers & academia"
               ],
-              "alsoIn": [
-                "aaa-top-100"
-              ]
+              "alsoIn": []
             },
             {
-              "position": 55,
+              "position": 57,
               "id": "01kycfev2jfr2v5x5pqr2scxz7",
               "title": "How to Win a Billion Dollars and Ruin Your Life",
               "author": "Miller’s Book Review 📚",
@@ -6605,17 +6617,14 @@ window.TOP_ARTICLES = {
               "tags": [
                 "arts & culture",
                 "fiction",
-                "later",
-                "light-reading",
                 "political philosophy"
               ],
               "alsoIn": [
-                "aaa-top-100",
                 "aaa-luchtig-top-100"
               ]
             },
             {
-              "position": 56,
+              "position": 58,
               "id": "01kysnj4rgn2xvk4wh8pqj831w",
               "title": "The Disappearing Body",
               "author": "plough.com",
@@ -6638,12 +6647,10 @@ window.TOP_ARTICLES = {
                 "philosophy",
                 "sociology & social structures"
               ],
-              "alsoIn": [
-                "aaa-top-100"
-              ]
+              "alsoIn": []
             },
             {
-              "position": 57,
+              "position": 59,
               "id": "01kysnn7synbp4djg1ph3zrhdh",
               "title": "It is no longer safe to move our governments and societies to US clouds",
               "author": "berthub.eu",
@@ -6666,44 +6673,10 @@ window.TOP_ARTICLES = {
                 "sociology & social structures",
                 "technology"
               ],
-              "alsoIn": [
-                "aaa-top-100"
-              ]
+              "alsoIn": []
             },
             {
-              "position": 58,
-              "id": "01kyxvjcj0396b5z5w8bcz634q",
-              "title": "De atheïst die de bekendste verdediger van het christendom werd",
-              "author": "De Ongelooflijke",
-              "siteName": "Substack",
-              "category": "email",
-              "language": "Nederlands",
-              "readingTime": "9 mins",
-              "readingMinutes": 9,
-              "wordCount": 2302,
-              "publishedDate": "2026-08-01",
-              "savedDate": "2026-08-01T05:08:24.257000+00:00",
-              "imageUrl": null,
-              "sourceUrl": "mailto:reader-forwarded-email/363643d320a4241500df2bc54c0e90ca",
-              "readwiseUrl": "https://read.readwise.io/read/01kyxvjcj0396b5z5w8bcz634q",
-              "summary": "“Het leek op het moment waarop een mens, na een lange slaap, nog roerloos in bed ligt en zich ervan bewust wordt dat hij nu wakker is. ” Zo omschrijft C.",
-              "whyRead": "Zie de gekozen tags: dit stuk biedt een inhoudelijke ingang die aansluit op die interessegebieden.",
-              "bestMoment": "reflectief",
-              "tags": [
-                "history",
-                "later",
-                "philosophy"
-              ],
-              "alsoIn": [
-                "aaa-top-100",
-                "aaa-dutch-top-10",
-                "aaa-dutch-top-100",
-                "aaa-short-dutch-top-10",
-                "aaa-short-dutch-top-100"
-              ]
-            },
-            {
-              "position": 59,
+              "position": 60,
               "id": "01kyz1s71etfwt2wgr2zhqrr4k",
               "title": "Who Was the Last Roman Emperor?",
               "author": "Evan Þ from Papyrus Rampant",
@@ -6728,7 +6701,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 60,
+              "position": 61,
               "id": "01kz0k2hbcfqf2z9fpk12rqtz5",
               "title": "De talenten-tax",
               "author": "Jona van Loenen",
@@ -6753,7 +6726,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 61,
+              "position": 62,
               "id": "01kzakhrdw8m862yfhsmva3z11",
               "title": "Open Questions On Open Weights",
               "author": "Astral Codex Ten",
@@ -6778,7 +6751,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 62,
+              "position": 63,
               "id": "01kzeczgpr5fr1w5znnf4m2b9v",
               "title": "A Lebanese Technology Transfer",
               "author": "Nassim Nicholas Taleb",
@@ -6802,37 +6775,6 @@ window.TOP_ARTICLES = {
                 "philosophy"
               ],
               "alsoIn": []
-            },
-            {
-              "position": 63,
-              "id": "01kzjk22zxkgrvftgdtdvj01rq",
-              "title": "Twintig seconden waar ik me diep voor schaam",
-              "author": "Jona van Loenen",
-              "siteName": "Substack",
-              "category": "email",
-              "language": "Nederlands",
-              "readingTime": "9 mins",
-              "readingMinutes": 9,
-              "wordCount": 2122,
-              "publishedDate": "2026-08-09",
-              "savedDate": "2026-08-09T06:23:44.637000+00:00",
-              "imageUrl": null,
-              "sourceUrl": "mailto:reader-forwarded-email/d6f314a85583cfa5b9175a9ac4ec73f8",
-              "readwiseUrl": "https://read.readwise.io/read/01kzjk22zxkgrvftgdtdvj01rq",
-              "summary": "Ik was bezig met het afronden van de laatste versie van het laatste hoofdstuk van mijn nieuwe boek. In alle eerlijkheid was dat niet alleen dinsdag.",
-              "whyRead": "Een persoonlijk, helder essay over AI als verleiding om precies het soort inspanning uit te besteden waar vaardigheid, trots en betekenis uit groeien. Sterke tegenhanger voor een puur productiviteitskader.",
-              "bestMoment": "reflectief",
-              "tags": [
-                "ai ethics",
-                "personal",
-                "philosophy"
-              ],
-              "alsoIn": [
-                "aaa-dutch-top-10",
-                "aaa-dutch-top-100",
-                "aaa-short-dutch-top-10",
-                "aaa-short-dutch-top-100"
-              ]
             },
             {
               "position": 64,
@@ -6881,7 +6823,6 @@ window.TOP_ARTICLES = {
               "bestMoment": "analytisch",
               "tags": [
                 "history",
-                "later",
                 "sociology & social structures"
               ],
               "alsoIn": []
@@ -6984,7 +6925,6 @@ window.TOP_ARTICLES = {
               "bestMoment": "reflectief",
               "tags": [
                 "arts & culture",
-                "light-reading",
                 "personal growth & life philosophy",
                 "sociology & social structures"
               ],
@@ -7014,8 +6954,6 @@ window.TOP_ARTICLES = {
               "tags": [
                 "arts & culture",
                 "current affairs & politics",
-                "light-reading",
-                "linked-from-readwise",
                 "political philosophy"
               ],
               "alsoIn": [
@@ -7043,7 +6981,6 @@ window.TOP_ARTICLES = {
               "bestMoment": "analytisch",
               "tags": [
                 "ai ethics & society",
-                "linked-from-readwise",
                 "philosophy"
               ],
               "alsoIn": []
@@ -7094,7 +7031,6 @@ window.TOP_ARTICLES = {
               "bestMoment": "analytisch",
               "tags": [
                 "history",
-                "linked-from-readwise",
                 "political philosophy"
               ],
               "alsoIn": []
@@ -7120,7 +7056,6 @@ window.TOP_ARTICLES = {
               "bestMoment": "analytisch",
               "tags": [
                 "history",
-                "linked-from-readwise",
                 "political philosophy"
               ],
               "alsoIn": []
@@ -7146,7 +7081,6 @@ window.TOP_ARTICLES = {
               "bestMoment": "analytisch",
               "tags": [
                 "history",
-                "linked-from-readwise",
                 "political philosophy"
               ],
               "alsoIn": []
@@ -7172,7 +7106,6 @@ window.TOP_ARTICLES = {
               "bestMoment": "analytisch",
               "tags": [
                 "history",
-                "linked-from-readwise",
                 "political philosophy"
               ],
               "alsoIn": []
@@ -7198,7 +7131,6 @@ window.TOP_ARTICLES = {
               "bestMoment": "analytisch",
               "tags": [
                 "history",
-                "linked-from-readwise",
                 "sociology & social structures"
               ],
               "alsoIn": []
@@ -7224,7 +7156,6 @@ window.TOP_ARTICLES = {
               "bestMoment": "analytisch",
               "tags": [
                 "history",
-                "linked-from-readwise",
                 "political philosophy"
               ],
               "alsoIn": []
@@ -7250,7 +7181,6 @@ window.TOP_ARTICLES = {
               "bestMoment": "reflectief",
               "tags": [
                 "history",
-                "linked-from-readwise",
                 "philosophy"
               ],
               "alsoIn": []
@@ -7276,7 +7206,6 @@ window.TOP_ARTICLES = {
               "bestMoment": "analytisch",
               "tags": [
                 "history",
-                "linked-from-readwise",
                 "philosophy"
               ],
               "alsoIn": []
@@ -7302,7 +7231,6 @@ window.TOP_ARTICLES = {
               "bestMoment": "analytisch",
               "tags": [
                 "history",
-                "linked-from-readwise",
                 "political philosophy"
               ],
               "alsoIn": []
@@ -7328,7 +7256,6 @@ window.TOP_ARTICLES = {
               "bestMoment": "analytisch",
               "tags": [
                 "history",
-                "linked-from-readwise",
                 "political philosophy"
               ],
               "alsoIn": []
@@ -7354,8 +7281,6 @@ window.TOP_ARTICLES = {
               "bestMoment": "ontspannen",
               "tags": [
                 "history",
-                "light-reading",
-                "linked-from-readwise",
                 "political philosophy"
               ],
               "alsoIn": [
@@ -7383,8 +7308,6 @@ window.TOP_ARTICLES = {
               "bestMoment": "ontspannen",
               "tags": [
                 "history",
-                "light-reading",
-                "linked-from-readwise",
                 "sociology & social structures"
               ],
               "alsoIn": [
@@ -7412,7 +7335,6 @@ window.TOP_ARTICLES = {
               "bestMoment": "reflectief",
               "tags": [
                 "arts & culture",
-                "light-reading",
                 "sociology & social structures"
               ],
               "alsoIn": [
@@ -7440,7 +7362,6 @@ window.TOP_ARTICLES = {
               "bestMoment": "analytisch",
               "tags": [
                 "economics",
-                "linked-from-readwise",
                 "research papers & academia",
                 "sociology & social structures"
               ],
@@ -7467,7 +7388,6 @@ window.TOP_ARTICLES = {
               "bestMoment": "kritisch",
               "tags": [
                 "current affairs & politics",
-                "linked-from-readwise",
                 "research papers & academia",
                 "sociology & social structures"
               ],
@@ -7495,7 +7415,6 @@ window.TOP_ARTICLES = {
               "tags": [
                 "arts & culture",
                 "history",
-                "light-reading",
                 "political philosophy"
               ],
               "alsoIn": [
@@ -7600,7 +7519,6 @@ window.TOP_ARTICLES = {
               "bestMoment": "kritisch",
               "tags": [
                 "current affairs & politics",
-                "linked-from-readwise",
                 "political philosophy",
                 "technology"
               ],
@@ -7660,7 +7578,6 @@ window.TOP_ARTICLES = {
                 "professional development"
               ],
               "alsoIn": [
-                "aaa-scrum-top-10",
                 "aaa-scrum-top-100"
               ]
             },
@@ -7887,8 +7804,6 @@ window.TOP_ARTICLES = {
               "tags": [
                 "arts & culture",
                 "history",
-                "later",
-                "light-reading",
                 "sociology & social structures"
               ],
               "alsoIn": [
@@ -7897,6 +7812,7 @@ window.TOP_ARTICLES = {
                 "aaa-dutch-top-100",
                 "aaa-short-top-100",
                 "aaa-short-dutch-top-100",
+                "aaa-luchtig-top-10",
                 "aaa-luchtig-top-100",
                 "aaa-luchtig-nederlands-top-10",
                 "aaa-luchtig-nederlands-top-100"
@@ -7923,7 +7839,6 @@ window.TOP_ARTICLES = {
               "bestMoment": "reflectief",
               "tags": [
                 "history",
-                "later",
                 "philosophy"
               ],
               "alsoIn": [
@@ -7959,6 +7874,7 @@ window.TOP_ARTICLES = {
                 "philosophy"
               ],
               "alsoIn": [
+                "aaa-top-100",
                 "aaa-dutch-top-10",
                 "aaa-dutch-top-100",
                 "aaa-short-top-100",
@@ -8075,13 +7991,13 @@ window.TOP_ARTICLES = {
               "bestMoment": "ontspannen",
               "tags": [
                 "arts & culture",
-                "light-reading",
                 "personal growth & life philosophy",
                 "sociology & social structures"
               ],
               "alsoIn": [
                 "aaa-dutch-top-100",
                 "aaa-short-dutch-top-100",
+                "aaa-luchtig-top-100",
                 "aaa-luchtig-nederlands-top-10",
                 "aaa-luchtig-nederlands-top-100"
               ]
@@ -8107,13 +8023,12 @@ window.TOP_ARTICLES = {
               "bestMoment": "ontspannen",
               "tags": [
                 "arts & culture",
-                "later",
-                "light-reading",
                 "sociology & social structures"
               ],
               "alsoIn": [
                 "aaa-dutch-top-100",
                 "aaa-short-dutch-top-100",
+                "aaa-luchtig-top-100",
                 "aaa-luchtig-nederlands-top-10",
                 "aaa-luchtig-nederlands-top-100"
               ]
@@ -8140,13 +8055,12 @@ window.TOP_ARTICLES = {
               "tags": [
                 "arts & culture",
                 "current affairs & politics",
-                "later",
-                "light-reading",
                 "sociology & social structures"
               ],
               "alsoIn": [
                 "aaa-dutch-top-100",
                 "aaa-short-dutch-top-100",
+                "aaa-luchtig-top-100",
                 "aaa-luchtig-nederlands-top-10",
                 "aaa-luchtig-nederlands-top-100"
               ]
@@ -8210,8 +8124,6 @@ window.TOP_ARTICLES = {
               "tags": [
                 "arts & culture",
                 "history",
-                "later",
-                "light-reading",
                 "sociology & social structures"
               ],
               "alsoIn": [
@@ -8220,6 +8132,7 @@ window.TOP_ARTICLES = {
                 "aaa-dutch-top-100",
                 "aaa-short-top-100",
                 "aaa-short-dutch-top-10",
+                "aaa-luchtig-top-10",
                 "aaa-luchtig-top-100",
                 "aaa-luchtig-nederlands-top-10",
                 "aaa-luchtig-nederlands-top-100"
@@ -8246,7 +8159,6 @@ window.TOP_ARTICLES = {
               "bestMoment": "reflectief",
               "tags": [
                 "history",
-                "later",
                 "philosophy"
               ],
               "alsoIn": [
@@ -8282,6 +8194,7 @@ window.TOP_ARTICLES = {
                 "philosophy"
               ],
               "alsoIn": [
+                "aaa-top-100",
                 "aaa-dutch-top-10",
                 "aaa-dutch-top-100",
                 "aaa-short-top-100",
@@ -8398,13 +8311,13 @@ window.TOP_ARTICLES = {
               "bestMoment": "ontspannen",
               "tags": [
                 "arts & culture",
-                "light-reading",
                 "personal growth & life philosophy",
                 "sociology & social structures"
               ],
               "alsoIn": [
                 "aaa-dutch-top-100",
                 "aaa-short-dutch-top-10",
+                "aaa-luchtig-top-100",
                 "aaa-luchtig-nederlands-top-10",
                 "aaa-luchtig-nederlands-top-100"
               ]
@@ -8430,13 +8343,12 @@ window.TOP_ARTICLES = {
               "bestMoment": "ontspannen",
               "tags": [
                 "arts & culture",
-                "later",
-                "light-reading",
                 "sociology & social structures"
               ],
               "alsoIn": [
                 "aaa-dutch-top-100",
                 "aaa-short-dutch-top-10",
+                "aaa-luchtig-top-100",
                 "aaa-luchtig-nederlands-top-10",
                 "aaa-luchtig-nederlands-top-100"
               ]
@@ -8463,13 +8375,12 @@ window.TOP_ARTICLES = {
               "tags": [
                 "arts & culture",
                 "current affairs & politics",
-                "later",
-                "light-reading",
                 "sociology & social structures"
               ],
               "alsoIn": [
                 "aaa-dutch-top-100",
                 "aaa-short-dutch-top-10",
+                "aaa-luchtig-top-100",
                 "aaa-luchtig-nederlands-top-10",
                 "aaa-luchtig-nederlands-top-100"
               ]
@@ -8580,7 +8491,6 @@ window.TOP_ARTICLES = {
               "bestMoment": "licht / weekend",
               "tags": [
                 "arts & culture",
-                "light-reading",
                 "sociology & social structures"
               ],
               "alsoIn": [
@@ -8636,9 +8546,7 @@ window.TOP_ARTICLES = {
               "whyRead": "Raakt je interesse in technologie en media alleen als lichte roundup; er staan een paar aardige signalen in, maar te weinig diepte om actief te bewaren.",
               "bestMoment": "ontspannen",
               "tags": [
-                "archiveren",
                 "entertainment & pop culture",
-                "light-reading",
                 "technology"
               ],
               "alsoIn": [
@@ -8695,7 +8603,6 @@ window.TOP_ARTICLES = {
               "bestMoment": "ontspannen",
               "tags": [
                 "arts & culture",
-                "light-reading",
                 "sociology & social structures",
                 "sports & recreation"
               ],
@@ -8726,7 +8633,6 @@ window.TOP_ARTICLES = {
               "tags": [
                 "arts & culture",
                 "entertainment & pop culture",
-                "light-reading",
                 "technology"
               ],
               "alsoIn": [
@@ -8782,7 +8688,6 @@ window.TOP_ARTICLES = {
               "bestMoment": "kritisch",
               "tags": [
                 "ai ethics & society",
-                "later",
                 "technology"
               ],
               "alsoIn": [
@@ -8836,8 +8741,7 @@ window.TOP_ARTICLES = {
               "bestMoment": "kritisch",
               "tags": [
                 "current affairs & politics",
-                "economics",
-                "later"
+                "economics"
               ],
               "alsoIn": [
                 "aaa-dutch-top-100"
@@ -8865,7 +8769,6 @@ window.TOP_ARTICLES = {
               "tags": [
                 "arts & culture",
                 "health & wellness",
-                "light-reading",
                 "personal growth & life philosophy"
               ],
               "alsoIn": [
@@ -8894,7 +8797,6 @@ window.TOP_ARTICLES = {
               "bestMoment": "ontspannen",
               "tags": [
                 "arts & culture",
-                "light-reading",
                 "personal growth & life philosophy"
               ],
               "alsoIn": [
@@ -8923,7 +8825,6 @@ window.TOP_ARTICLES = {
               "bestMoment": "ontspannen",
               "tags": [
                 "arts & culture",
-                "light-reading",
                 "personal growth & life philosophy"
               ],
               "alsoIn": [
@@ -8952,8 +8853,6 @@ window.TOP_ARTICLES = {
               "bestMoment": "ontspannen",
               "tags": [
                 "arts & culture",
-                "later",
-                "light-reading",
                 "personal growth & life philosophy"
               ],
               "alsoIn": [
@@ -8997,8 +8896,6 @@ window.TOP_ARTICLES = {
               "tags": [
                 "arts & culture",
                 "frankfurt school",
-                "light-reading",
-                "pdf-top-10",
                 "philosophy",
                 "political philosophy",
                 "totalitarianism & fascism"
@@ -9031,8 +8928,7 @@ window.TOP_ARTICLES = {
               "tags": [
                 "ai & machine learning",
                 "arts & culture",
-                "learning & meta-learning",
-                "light-reading"
+                "learning & meta-learning"
               ],
               "alsoIn": [
                 "aaa-top-10",
@@ -9063,8 +8959,6 @@ window.TOP_ARTICLES = {
               "bestMoment": "geconcentreerd",
               "tags": [
                 "fiction",
-                "light-reading",
-                "pdf-top-10",
                 "philosophy",
                 "political philosophy"
               ],
@@ -9095,9 +8989,6 @@ window.TOP_ARTICLES = {
               "bestMoment": "geïnspireerd",
               "tags": [
                 "arts & culture",
-                "light-reading",
-                "linked-from-readwise",
-                "pdf-top-10",
                 "philosophy",
                 "sociology & social structures"
               ],
@@ -9128,7 +9019,6 @@ window.TOP_ARTICLES = {
               "bestMoment": "reflectief",
               "tags": [
                 "arts & culture",
-                "light-reading",
                 "sociology & inequality",
                 "writing & essays"
               ],
@@ -9159,7 +9049,6 @@ window.TOP_ARTICLES = {
               "tags": [
                 "current affairs & politics",
                 "economics",
-                "light-reading",
                 "sociology & inequality"
               ],
               "alsoIn": [
@@ -9169,6 +9058,42 @@ window.TOP_ARTICLES = {
             },
             {
               "position": 7,
+              "id": "01kvcgsfekyqqc5b9t3nmrge8m",
+              "title": "Hoera, het is Waterloodag!",
+              "author": "De Ongelooflijke",
+              "siteName": "Substack",
+              "category": "email",
+              "language": "Nederlands",
+              "readingTime": "8 mins",
+              "readingMinutes": 8,
+              "wordCount": 1935,
+              "publishedDate": "2026-06-18",
+              "savedDate": "2026-06-18T04:45:51.444000+00:00",
+              "imageUrl": null,
+              "sourceUrl": "mailto:reader-forwarded-email/9063dc73da1b3f69c5087334680b7b3a",
+              "readwiseUrl": "https://read.readwise.io/read/01kvcgsfekyqqc5b9t3nmrge8m",
+              "summary": "Meer dan honderd jaar was 18 juni in Nederland een nationale feestdag, ter herinnering aan de Slag bij Waterloo (1815): de dag waarop Napoleon definitief werd verslagen en de geschiedenis van Nederland en Europa een beslissende wending nam.",
+              "whyRead": "Raakt je interesse in Europese geschiedenis en collectief geheugen: zeven veldslagen worden niet alleen militair, maar ook cultureel en identitair geduid. De meerwaarde zit in de combinatie van geschiedenis, mythevorming en historische verbeelding.",
+              "bestMoment": "ontspannen",
+              "tags": [
+                "arts & culture",
+                "history",
+                "sociology & social structures"
+              ],
+              "alsoIn": [
+                "aaa-top-100",
+                "aaa-dutch-top-10",
+                "aaa-dutch-top-100",
+                "aaa-short-top-100",
+                "aaa-short-dutch-top-10",
+                "aaa-short-dutch-top-100",
+                "aaa-luchtig-top-100",
+                "aaa-luchtig-nederlands-top-10",
+                "aaa-luchtig-nederlands-top-100"
+              ]
+            },
+            {
+              "position": 8,
               "id": "01kyxa2yd57szp13ha57708606",
               "title": "Your Book Review: The Epic Of Gilgamesh",
               "author": "Astral Codex Ten",
@@ -9189,7 +9114,6 @@ window.TOP_ARTICLES = {
               "tags": [
                 "fiction",
                 "history",
-                "light-reading",
                 "philosophy"
               ],
               "alsoIn": [
@@ -9198,7 +9122,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 8,
+              "position": 9,
               "id": "01m1eqhrt9fmjkb1mr1scdv9r4",
               "title": "There's a place for everyone",
               "author": "Adam Mastroianni",
@@ -9218,7 +9142,6 @@ window.TOP_ARTICLES = {
               "bestMoment": "reflectief",
               "tags": [
                 "arts & culture",
-                "light-reading",
                 "personal growth & life philosophy",
                 "professional development",
                 "sociology & social structures"
@@ -9229,7 +9152,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 9,
+              "position": 10,
               "id": "01k3wpn5ak9v4pmtc85h462cav",
               "title": "On the pleasure of reading private notebooks",
               "author": "Henrik Karlsson",
@@ -9250,38 +9173,6 @@ window.TOP_ARTICLES = {
               "tags": [
                 "arts & culture",
                 "learning & meta-learning",
-                "light-reading",
-                "tools & workflows"
-              ],
-              "alsoIn": [
-                "aaa-top-100",
-                "aaa-short-top-100",
-                "aaa-luchtig-top-100"
-              ]
-            },
-            {
-              "position": 10,
-              "id": "01k7qbgbanjkbvetnkfd47vkrz",
-              "title": "How I wrote \"Looking for Alice\"",
-              "author": "Henrik Karlsson",
-              "siteName": "bytebytego.com",
-              "category": "article",
-              "language": "Engels",
-              "readingTime": "3 mins",
-              "readingMinutes": 3,
-              "wordCount": 629,
-              "publishedDate": "2023-05-30",
-              "savedDate": "2025-10-16T20:31:11.702000+00:00",
-              "imageUrl": "https://substackcdn.com/image/fetch/$s_!DzZb!,w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1312c236-513c-41a1-897e-d0c3c01967dc_1450x1529.jpeg",
-              "sourceUrl": "https://email.mg1.substack.com/c/eJxM0M0OnSAUBOCnkZ2GH1HvgkU39zXM4XBQKoIBrL19-qZt2nQ9ycyXQWi05fIxD0XMJzFn-CxxtoyMmCc-SbnwF6MTQlw3SlSgkVuh_ZdyJdhuuFKo_UJoZzdbBHDklVcgxpfQnjsWjORSCy4mobSSy6CGRWiOiOQXOc1awyDHr4CH1d3Iz00M9ba1AR4D5pOFuvpCvyWmlZtYNHtrV-3Ul06-O_l-nmfYKZVwHFBirTkN3z8_Ovm-Ovne89OH_im5UR9zPkLaep9LDzEgseu2K-bzvFNon5US2Ejuz8p12xgQWshpDc4ooUYhWDF_bd3Im-B1SJHV27p8QkiGKsIV0uYjtAjJsfbv4LtS-VUkuF4mzifNvhn5MwAA__9vYoFf",
-              "readwiseUrl": "https://read.readwise.io/read/01k7qbgbanjkbvetnkfd47vkrz",
-              "summary": "Henrik Karlsson explains how his essay \"Looking for Alice\" began from a real conversation and a sudden urge to write. He describes the fast, messy drafting process and how resistance can signal a strong idea. He shares this case study to show the small, specific choices behind writing.",
-              "whyRead": "Henrik Karlsson legt uit hoe hij 'Looking for Alice' schreef – zeldzame inkijk in het creatieve proces.",
-              "bestMoment": "reflectief",
-              "tags": [
-                "arts & culture",
-                "learning & meta-learning",
-                "light-reading",
                 "tools & workflows"
               ],
               "alsoIn": [
@@ -9317,8 +9208,6 @@ window.TOP_ARTICLES = {
               "tags": [
                 "arts & culture",
                 "frankfurt school",
-                "light-reading",
-                "pdf-top-10",
                 "philosophy",
                 "political philosophy",
                 "totalitarianism & fascism"
@@ -9351,8 +9240,7 @@ window.TOP_ARTICLES = {
               "tags": [
                 "ai & machine learning",
                 "arts & culture",
-                "learning & meta-learning",
-                "light-reading"
+                "learning & meta-learning"
               ],
               "alsoIn": [
                 "aaa-top-10",
@@ -9383,8 +9271,6 @@ window.TOP_ARTICLES = {
               "bestMoment": "geconcentreerd",
               "tags": [
                 "fiction",
-                "light-reading",
-                "pdf-top-10",
                 "philosophy",
                 "political philosophy"
               ],
@@ -9415,9 +9301,6 @@ window.TOP_ARTICLES = {
               "bestMoment": "geïnspireerd",
               "tags": [
                 "arts & culture",
-                "light-reading",
-                "linked-from-readwise",
-                "pdf-top-10",
                 "philosophy",
                 "sociology & social structures"
               ],
@@ -9448,7 +9331,6 @@ window.TOP_ARTICLES = {
               "bestMoment": "reflectief",
               "tags": [
                 "arts & culture",
-                "light-reading",
                 "sociology & inequality",
                 "writing & essays"
               ],
@@ -9479,7 +9361,6 @@ window.TOP_ARTICLES = {
               "tags": [
                 "current affairs & politics",
                 "economics",
-                "light-reading",
                 "sociology & inequality"
               ],
               "alsoIn": [
@@ -9489,189 +9370,6 @@ window.TOP_ARTICLES = {
             },
             {
               "position": 7,
-              "id": "01kyxa2yd57szp13ha57708606",
-              "title": "Your Book Review: The Epic Of Gilgamesh",
-              "author": "Astral Codex Ten",
-              "siteName": "Substack",
-              "category": "email",
-              "language": "Engels",
-              "readingTime": "44 mins",
-              "readingMinutes": 44,
-              "wordCount": 11530,
-              "publishedDate": "2026-07-31",
-              "savedDate": "2026-08-01T00:02:52.453000+00:00",
-              "imageUrl": null,
-              "sourceUrl": "mailto:reader-forwarded-email/8fbcb745572258843f21b2de54a72f93",
-              "readwiseUrl": "https://read.readwise.io/read/01kyxa2yd57szp13ha57708606",
-              "summary": "[This is one of the finalists in the 2026 book review contest, written by an ACX reader who will remain anonymous until after voting is done.",
-              "whyRead": "Zie de gekozen tags: dit stuk biedt een inhoudelijke ingang die aansluit op die interessegebieden.",
-              "bestMoment": "ontspannen",
-              "tags": [
-                "fiction",
-                "history",
-                "light-reading",
-                "philosophy"
-              ],
-              "alsoIn": [
-                "aaa-top-100",
-                "aaa-luchtig-top-10"
-              ]
-            },
-            {
-              "position": 8,
-              "id": "01m1eqhrt9fmjkb1mr1scdv9r4",
-              "title": "There's a place for everyone",
-              "author": "Adam Mastroianni",
-              "siteName": "Substack",
-              "category": "email",
-              "language": null,
-              "readingTime": "12 mins",
-              "readingMinutes": 12,
-              "wordCount": 3104,
-              "publishedDate": "2026-09-01",
-              "savedDate": "2026-09-01T14:56:38.730000+00:00",
-              "imageUrl": null,
-              "sourceUrl": "mailto:reader-forwarded-email/7143364473dd6f0af7f37f3f52b25b6c",
-              "readwiseUrl": "https://read.readwise.io/read/01m1eqhrt9fmjkb1mr1scdv9r4",
-              "summary": "I'm off this week, so I'm re-upping this post from two years ago. If you want more fresh Experimental History content, check out last week's MYSTERY POST, \"Actually Good Advice\": https://www.",
-              "whyRead": "Raakt je interesse in zingeving, sociale structuren en werk: Mastroianni verdedigt het idee dat iedereen ergens kan passen, via de diversiteit van menselijke voorkeuren, lokale niches en de maatschappelijke kosten van verkeerd geplaatste mensen. De geestige voorbeelden maken een serieus punt over belonging, loopbaan en gemeenschap toegankelijk.",
-              "bestMoment": "reflectief",
-              "tags": [
-                "arts & culture",
-                "light-reading",
-                "personal growth & life philosophy",
-                "professional development",
-                "sociology & social structures"
-              ],
-              "alsoIn": [
-                "aaa-top-100",
-                "aaa-luchtig-top-10"
-              ]
-            },
-            {
-              "position": 9,
-              "id": "01k3wpn5ak9v4pmtc85h462cav",
-              "title": "On the pleasure of reading private notebooks",
-              "author": "Henrik Karlsson",
-              "siteName": "henrikkarlsson.xyz",
-              "category": "article",
-              "language": "Engels",
-              "readingTime": "7 mins",
-              "readingMinutes": 7,
-              "wordCount": 1714,
-              "publishedDate": "2025-05-28",
-              "savedDate": "2025-08-30T05:19:28.597000+00:00",
-              "imageUrl": "https://substackcdn.com/image/fetch/w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd4aadbe1-9b2c-4054-90e5-ba5e5394e77e_1000x714.jpeg",
-              "sourceUrl": "https://www.henrikkarlsson.xyz/p/private-notebooks",
-              "readwiseUrl": "https://read.readwise.io/read/01k3wpn5ak9v4pmtc85h462cav",
-              "summary": "Many of my favorite books are private notebooks that were never meant for publication, like Kafka's diary and Sei Shōnagon's Pillow Book. I enjoy reading these because the authors are less censored and reveal their genuine thoughts, making the writing feel more intimate and real. Private notes show the messy, creative process of thinking, which is often missing from polished published works.",
-              "whyRead": "Over het plezier van het lezen van privénotebooks — dagboeken, notitieboeken en het intieme denken.",
-              "bestMoment": "reflectief",
-              "tags": [
-                "arts & culture",
-                "learning & meta-learning",
-                "light-reading",
-                "tools & workflows"
-              ],
-              "alsoIn": [
-                "aaa-top-100",
-                "aaa-short-top-100",
-                "aaa-luchtig-top-10"
-              ]
-            },
-            {
-              "position": 10,
-              "id": "01k7qbgbanjkbvetnkfd47vkrz",
-              "title": "How I wrote \"Looking for Alice\"",
-              "author": "Henrik Karlsson",
-              "siteName": "bytebytego.com",
-              "category": "article",
-              "language": "Engels",
-              "readingTime": "3 mins",
-              "readingMinutes": 3,
-              "wordCount": 629,
-              "publishedDate": "2023-05-30",
-              "savedDate": "2025-10-16T20:31:11.702000+00:00",
-              "imageUrl": "https://substackcdn.com/image/fetch/$s_!DzZb!,w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1312c236-513c-41a1-897e-d0c3c01967dc_1450x1529.jpeg",
-              "sourceUrl": "https://email.mg1.substack.com/c/eJxM0M0OnSAUBOCnkZ2GH1HvgkU39zXM4XBQKoIBrL19-qZt2nQ9ycyXQWi05fIxD0XMJzFn-CxxtoyMmCc-SbnwF6MTQlw3SlSgkVuh_ZdyJdhuuFKo_UJoZzdbBHDklVcgxpfQnjsWjORSCy4mobSSy6CGRWiOiOQXOc1awyDHr4CH1d3Iz00M9ba1AR4D5pOFuvpCvyWmlZtYNHtrV-3Ul06-O_l-nmfYKZVwHFBirTkN3z8_Ovm-Ovne89OH_im5UR9zPkLaep9LDzEgseu2K-bzvFNon5US2Ejuz8p12xgQWshpDc4ooUYhWDF_bd3Im-B1SJHV27p8QkiGKsIV0uYjtAjJsfbv4LtS-VUkuF4mzifNvhn5MwAA__9vYoFf",
-              "readwiseUrl": "https://read.readwise.io/read/01k7qbgbanjkbvetnkfd47vkrz",
-              "summary": "Henrik Karlsson explains how his essay \"Looking for Alice\" began from a real conversation and a sudden urge to write. He describes the fast, messy drafting process and how resistance can signal a strong idea. He shares this case study to show the small, specific choices behind writing.",
-              "whyRead": "Henrik Karlsson legt uit hoe hij 'Looking for Alice' schreef – zeldzame inkijk in het creatieve proces.",
-              "bestMoment": "reflectief",
-              "tags": [
-                "arts & culture",
-                "learning & meta-learning",
-                "light-reading",
-                "tools & workflows"
-              ],
-              "alsoIn": [
-                "aaa-top-100",
-                "aaa-short-top-100",
-                "aaa-luchtig-top-10"
-              ]
-            },
-            {
-              "position": 11,
-              "id": "01k8v9cz0ah2x4qddn265e4cnt",
-              "title": "Everything Is Television",
-              "author": "Derek Thompson",
-              "siteName": "derekthompson.org",
-              "category": "article",
-              "language": "Engels",
-              "readingTime": "9 mins",
-              "readingMinutes": 9,
-              "wordCount": 2278,
-              "publishedDate": "2025-10-10",
-              "savedDate": "2025-10-31T17:47:36.501000+00:00",
-              "imageUrl": "https://substackcdn.com/image/fetch/$s_!XE9X!,w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F707c7327-31a7-4ed2-ab2d-af440e3b45ea_878x861.jpeg",
-              "sourceUrl": "https://www.derekthompson.org/p/why-everything-became-television",
-              "readwiseUrl": "https://read.readwise.io/read/01k8v9cz0ah2x4qddn265e4cnt",
-              "summary": "Media of all kinds are turning into nonstop streams of short videos like television.  \nThis shift, driven by algorithms and platforms, favors distraction, spectacle, and shallow attention.  \nAs everything adopts TV’s grammar, our solitude, deep focus, and inward meaning are eroded.",
-              "whyRead": "Derek Thompson over hoe alle content zich transformeert naar televisie-logica – scherpe mediatheorie.",
-              "bestMoment": "kritisch",
-              "tags": [
-                "arts & culture",
-                "light-reading",
-                "philosophy",
-                "sociology & inequality"
-              ],
-              "alsoIn": [
-                "aaa-top-100",
-                "aaa-short-top-100"
-              ]
-            },
-            {
-              "position": 12,
-              "id": "01kvarejkjdc6y2cjp2d0ewgkd",
-              "title": "The Desecration of Man - Say No to Nietzsche",
-              "author": "R.W. Richey from We Are Not Saved",
-              "siteName": "Substack",
-              "category": "email",
-              "language": "Engels",
-              "readingTime": "6 mins",
-              "readingMinutes": 6,
-              "wordCount": 1444,
-              "publishedDate": "2026-06-17",
-              "savedDate": "2026-06-17T12:21:13.971000+00:00",
-              "imageUrl": null,
-              "sourceUrl": "mailto:reader-forwarded-email/047a521fc241f68a0669582568f6267d",
-              "readwiseUrl": "https://read.readwise.io/read/01kvarejkjdc6y2cjp2d0ewgkd",
-              "summary": "In the standard story of the transition from the premodern to the modern, the world has gradually been disenchanted.",
-              "whyRead": "Raakt je interesse in Nietzsche, religie, moderniteit en politieke filosofie: Richey bespreekt Trueman zonder diens harde dichotomie volledig te slikken. De meerwaarde zit in de vraag of moderne samenlevingen echt moeten kiezen tussen orthodox geloof en Nietzscheaanse zelfcreatie, of dat tussenstadia langer houdbaar zijn.",
-              "bestMoment": "analytisch",
-              "tags": [
-                "arts & culture",
-                "light-reading",
-                "philosophy",
-                "political philosophy"
-              ],
-              "alsoIn": [
-                "aaa-top-100",
-                "aaa-short-top-100"
-              ]
-            },
-            {
-              "position": 13,
               "id": "01kvcgsfekyqqc5b9t3nmrge8m",
               "title": "Hoera, het is Waterloodag!",
               "author": "De Ongelooflijke",
@@ -9692,8 +9390,6 @@ window.TOP_ARTICLES = {
               "tags": [
                 "arts & culture",
                 "history",
-                "later",
-                "light-reading",
                 "sociology & social structures"
               ],
               "alsoIn": [
@@ -9703,12 +9399,221 @@ window.TOP_ARTICLES = {
                 "aaa-short-top-100",
                 "aaa-short-dutch-top-10",
                 "aaa-short-dutch-top-100",
+                "aaa-luchtig-top-10",
+                "aaa-luchtig-nederlands-top-10",
+                "aaa-luchtig-nederlands-top-100"
+              ]
+            },
+            {
+              "position": 8,
+              "id": "01kyxa2yd57szp13ha57708606",
+              "title": "Your Book Review: The Epic Of Gilgamesh",
+              "author": "Astral Codex Ten",
+              "siteName": "Substack",
+              "category": "email",
+              "language": "Engels",
+              "readingTime": "44 mins",
+              "readingMinutes": 44,
+              "wordCount": 11530,
+              "publishedDate": "2026-07-31",
+              "savedDate": "2026-08-01T00:02:52.453000+00:00",
+              "imageUrl": null,
+              "sourceUrl": "mailto:reader-forwarded-email/8fbcb745572258843f21b2de54a72f93",
+              "readwiseUrl": "https://read.readwise.io/read/01kyxa2yd57szp13ha57708606",
+              "summary": "[This is one of the finalists in the 2026 book review contest, written by an ACX reader who will remain anonymous until after voting is done.",
+              "whyRead": "Zie de gekozen tags: dit stuk biedt een inhoudelijke ingang die aansluit op die interessegebieden.",
+              "bestMoment": "ontspannen",
+              "tags": [
+                "fiction",
+                "history",
+                "philosophy"
+              ],
+              "alsoIn": [
+                "aaa-top-100",
+                "aaa-luchtig-top-10"
+              ]
+            },
+            {
+              "position": 9,
+              "id": "01m1eqhrt9fmjkb1mr1scdv9r4",
+              "title": "There's a place for everyone",
+              "author": "Adam Mastroianni",
+              "siteName": "Substack",
+              "category": "email",
+              "language": null,
+              "readingTime": "12 mins",
+              "readingMinutes": 12,
+              "wordCount": 3104,
+              "publishedDate": "2026-09-01",
+              "savedDate": "2026-09-01T14:56:38.730000+00:00",
+              "imageUrl": null,
+              "sourceUrl": "mailto:reader-forwarded-email/7143364473dd6f0af7f37f3f52b25b6c",
+              "readwiseUrl": "https://read.readwise.io/read/01m1eqhrt9fmjkb1mr1scdv9r4",
+              "summary": "I'm off this week, so I'm re-upping this post from two years ago. If you want more fresh Experimental History content, check out last week's MYSTERY POST, \"Actually Good Advice\": https://www.",
+              "whyRead": "Raakt je interesse in zingeving, sociale structuren en werk: Mastroianni verdedigt het idee dat iedereen ergens kan passen, via de diversiteit van menselijke voorkeuren, lokale niches en de maatschappelijke kosten van verkeerd geplaatste mensen. De geestige voorbeelden maken een serieus punt over belonging, loopbaan en gemeenschap toegankelijk.",
+              "bestMoment": "reflectief",
+              "tags": [
+                "arts & culture",
+                "personal growth & life philosophy",
+                "professional development",
+                "sociology & social structures"
+              ],
+              "alsoIn": [
+                "aaa-top-100",
+                "aaa-luchtig-top-10"
+              ]
+            },
+            {
+              "position": 10,
+              "id": "01k3wpn5ak9v4pmtc85h462cav",
+              "title": "On the pleasure of reading private notebooks",
+              "author": "Henrik Karlsson",
+              "siteName": "henrikkarlsson.xyz",
+              "category": "article",
+              "language": "Engels",
+              "readingTime": "7 mins",
+              "readingMinutes": 7,
+              "wordCount": 1714,
+              "publishedDate": "2025-05-28",
+              "savedDate": "2025-08-30T05:19:28.597000+00:00",
+              "imageUrl": "https://substackcdn.com/image/fetch/w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd4aadbe1-9b2c-4054-90e5-ba5e5394e77e_1000x714.jpeg",
+              "sourceUrl": "https://www.henrikkarlsson.xyz/p/private-notebooks",
+              "readwiseUrl": "https://read.readwise.io/read/01k3wpn5ak9v4pmtc85h462cav",
+              "summary": "Many of my favorite books are private notebooks that were never meant for publication, like Kafka's diary and Sei Shōnagon's Pillow Book. I enjoy reading these because the authors are less censored and reveal their genuine thoughts, making the writing feel more intimate and real. Private notes show the messy, creative process of thinking, which is often missing from polished published works.",
+              "whyRead": "Over het plezier van het lezen van privénotebooks — dagboeken, notitieboeken en het intieme denken.",
+              "bestMoment": "reflectief",
+              "tags": [
+                "arts & culture",
+                "learning & meta-learning",
+                "tools & workflows"
+              ],
+              "alsoIn": [
+                "aaa-top-100",
+                "aaa-short-top-100",
+                "aaa-luchtig-top-10"
+              ]
+            },
+            {
+              "position": 11,
+              "id": "01k7qbgbanjkbvetnkfd47vkrz",
+              "title": "How I wrote \"Looking for Alice\"",
+              "author": "Henrik Karlsson",
+              "siteName": "bytebytego.com",
+              "category": "article",
+              "language": "Engels",
+              "readingTime": "3 mins",
+              "readingMinutes": 3,
+              "wordCount": 629,
+              "publishedDate": "2023-05-30",
+              "savedDate": "2025-10-16T20:31:11.702000+00:00",
+              "imageUrl": "https://substackcdn.com/image/fetch/$s_!DzZb!,w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1312c236-513c-41a1-897e-d0c3c01967dc_1450x1529.jpeg",
+              "sourceUrl": "https://email.mg1.substack.com/c/eJxM0M0OnSAUBOCnkZ2GH1HvgkU39zXM4XBQKoIBrL19-qZt2nQ9ycyXQWi05fIxD0XMJzFn-CxxtoyMmCc-SbnwF6MTQlw3SlSgkVuh_ZdyJdhuuFKo_UJoZzdbBHDklVcgxpfQnjsWjORSCy4mobSSy6CGRWiOiOQXOc1awyDHr4CH1d3Iz00M9ba1AR4D5pOFuvpCvyWmlZtYNHtrV-3Ul06-O_l-nmfYKZVwHFBirTkN3z8_Ovm-Ovne89OH_im5UR9zPkLaep9LDzEgseu2K-bzvFNon5US2Ejuz8p12xgQWshpDc4ooUYhWDF_bd3Im-B1SJHV27p8QkiGKsIV0uYjtAjJsfbv4LtS-VUkuF4mzifNvhn5MwAA__9vYoFf",
+              "readwiseUrl": "https://read.readwise.io/read/01k7qbgbanjkbvetnkfd47vkrz",
+              "summary": "Henrik Karlsson explains how his essay \"Looking for Alice\" began from a real conversation and a sudden urge to write. He describes the fast, messy drafting process and how resistance can signal a strong idea. He shares this case study to show the small, specific choices behind writing.",
+              "whyRead": "Henrik Karlsson legt uit hoe hij 'Looking for Alice' schreef – zeldzame inkijk in het creatieve proces.",
+              "bestMoment": "reflectief",
+              "tags": [
+                "arts & culture",
+                "learning & meta-learning",
+                "tools & workflows"
+              ],
+              "alsoIn": [
+                "aaa-top-100",
+                "aaa-short-top-100"
+              ]
+            },
+            {
+              "position": 12,
+              "id": "01k8v9cz0ah2x4qddn265e4cnt",
+              "title": "Everything Is Television",
+              "author": "Derek Thompson",
+              "siteName": "derekthompson.org",
+              "category": "article",
+              "language": "Engels",
+              "readingTime": "9 mins",
+              "readingMinutes": 9,
+              "wordCount": 2278,
+              "publishedDate": "2025-10-10",
+              "savedDate": "2025-10-31T17:47:36.501000+00:00",
+              "imageUrl": "https://substackcdn.com/image/fetch/$s_!XE9X!,w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F707c7327-31a7-4ed2-ab2d-af440e3b45ea_878x861.jpeg",
+              "sourceUrl": "https://www.derekthompson.org/p/why-everything-became-television",
+              "readwiseUrl": "https://read.readwise.io/read/01k8v9cz0ah2x4qddn265e4cnt",
+              "summary": "Media of all kinds are turning into nonstop streams of short videos like television.  \nThis shift, driven by algorithms and platforms, favors distraction, spectacle, and shallow attention.  \nAs everything adopts TV’s grammar, our solitude, deep focus, and inward meaning are eroded.",
+              "whyRead": "Derek Thompson over hoe alle content zich transformeert naar televisie-logica – scherpe mediatheorie.",
+              "bestMoment": "kritisch",
+              "tags": [
+                "arts & culture",
+                "philosophy",
+                "sociology & inequality"
+              ],
+              "alsoIn": [
+                "aaa-top-100",
+                "aaa-short-top-100"
+              ]
+            },
+            {
+              "position": 13,
+              "id": "01kt9sbc2hgkymt9expprgkgdp",
+              "title": "In de Apocalyps is de vrouw een teken van hoop",
+              "author": "De Ongelooflijke",
+              "siteName": "Substack",
+              "category": "email",
+              "language": "Nederlands",
+              "readingTime": "11 mins",
+              "readingMinutes": 11,
+              "wordCount": 2806,
+              "publishedDate": "2026-06-04",
+              "savedDate": "2026-06-04T17:02:01.298000+00:00",
+              "imageUrl": null,
+              "sourceUrl": "mailto:reader-forwarded-email/1b764fdf5abd46623c037fd1ff273434",
+              "readwiseUrl": "https://read.readwise.io/read/01kt9sbc2hgkymt9expprgkgdp",
+              "summary": "Meestal wordt de Apocalyps geassocieerd met chaos, oorlog en vernietiging; het einde der tijden en de ondergang van de wereld.",
+              "whyRead": "Raakt je interesse in cultuurgeschiedenis, religieuze beeldtaal en kunst als ideeënwereld: een rijk essay over de apocalyptische vrouw als hoopmotief in plaats van alleen rampsymbool.",
+              "bestMoment": "geconcentreerd",
+              "tags": [
+                "arts & culture",
+                "history",
+                "philosophy"
+              ],
+              "alsoIn": [
+                "aaa-top-100",
+                "aaa-dutch-top-10",
+                "aaa-dutch-top-100",
                 "aaa-luchtig-nederlands-top-10",
                 "aaa-luchtig-nederlands-top-100"
               ]
             },
             {
               "position": 14,
+              "id": "01kvarejkjdc6y2cjp2d0ewgkd",
+              "title": "The Desecration of Man - Say No to Nietzsche",
+              "author": "R.W. Richey from We Are Not Saved",
+              "siteName": "Substack",
+              "category": "email",
+              "language": "Engels",
+              "readingTime": "6 mins",
+              "readingMinutes": 6,
+              "wordCount": 1444,
+              "publishedDate": "2026-06-17",
+              "savedDate": "2026-06-17T12:21:13.971000+00:00",
+              "imageUrl": null,
+              "sourceUrl": "mailto:reader-forwarded-email/047a521fc241f68a0669582568f6267d",
+              "readwiseUrl": "https://read.readwise.io/read/01kvarejkjdc6y2cjp2d0ewgkd",
+              "summary": "In the standard story of the transition from the premodern to the modern, the world has gradually been disenchanted.",
+              "whyRead": "Raakt je interesse in Nietzsche, religie, moderniteit en politieke filosofie: Richey bespreekt Trueman zonder diens harde dichotomie volledig te slikken. De meerwaarde zit in de vraag of moderne samenlevingen echt moeten kiezen tussen orthodox geloof en Nietzscheaanse zelfcreatie, of dat tussenstadia langer houdbaar zijn.",
+              "bestMoment": "analytisch",
+              "tags": [
+                "arts & culture",
+                "philosophy",
+                "political philosophy"
+              ],
+              "alsoIn": [
+                "aaa-top-100",
+                "aaa-short-top-100"
+              ]
+            },
+            {
+              "position": 15,
               "id": "01kvh7ec1tezr2vy9bqgsm6an4",
               "title": "Is There a Science of Writing?",
               "author": "Carl Hendrick from The Learning Dispatch",
@@ -9729,7 +9634,6 @@ window.TOP_ARTICLES = {
               "tags": [
                 "arts & culture",
                 "learning & meta-learning",
-                "light-reading",
                 "research papers & academia"
               ],
               "alsoIn": [
@@ -9738,7 +9642,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 15,
+              "position": 16,
               "id": "01kvjbgrqsftb77gs496c0p12t",
               "title": "If the First Apocalypse Doesn’t Get You, the Second One Will",
               "author": "Miller’s Book Review 📚",
@@ -9759,7 +9663,6 @@ window.TOP_ARTICLES = {
               "tags": [
                 "fiction",
                 "history",
-                "light-reading",
                 "political philosophy"
               ],
               "alsoIn": [
@@ -9768,7 +9671,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 16,
+              "position": 17,
               "id": "01kvwwdq8bhy9m3x614gmtn41d",
               "title": "Andrew Stanton: Storytelling Secrets from the Writer of Toy Story 5",
               "author": "David Perell",
@@ -9789,7 +9692,6 @@ window.TOP_ARTICLES = {
               "tags": [
                 "arts & culture",
                 "learning & meta-learning",
-                "light-reading",
                 "professional development"
               ],
               "alsoIn": [
@@ -9797,7 +9699,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 17,
+              "position": 18,
               "id": "01kwfk5q2rtfm9enggaybd07zq",
               "title": "David Sedaris: Lessons From Decades of Writing",
               "author": "David Perell",
@@ -9818,7 +9720,6 @@ window.TOP_ARTICLES = {
               "tags": [
                 "arts & culture",
                 "learning & meta-learning",
-                "light-reading",
                 "professional development"
               ],
               "alsoIn": [
@@ -9826,7 +9727,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 18,
+              "position": 19,
               "id": "01kxy1qnae4npandc4x9mv4aw0",
               "title": "To Understand Elon Musk, You Have to Understand This ’60s Sci-Fi Novel",
               "author": "jacobin.com",
@@ -9846,8 +9747,6 @@ window.TOP_ARTICLES = {
               "bestMoment": "analytisch",
               "tags": [
                 "fiction",
-                "light-reading",
-                "linked-from-readwise",
                 "political philosophy",
                 "technology"
               ],
@@ -9857,7 +9756,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 19,
+              "position": 20,
               "id": "01kycfev2jfr2v5x5pqr2scxz7",
               "title": "How to Win a Billion Dollars and Ruin Your Life",
               "author": "Miller’s Book Review 📚",
@@ -9878,17 +9777,14 @@ window.TOP_ARTICLES = {
               "tags": [
                 "arts & culture",
                 "fiction",
-                "later",
-                "light-reading",
                 "political philosophy"
               ],
               "alsoIn": [
-                "aaa-top-100",
                 "aaa-short-top-100"
               ]
             },
             {
-              "position": 20,
+              "position": 21,
               "id": "01kz9q1etvj82wyb44kpaj3r3c",
               "title": "Mark Forsyth: Stop Writing Like They Taught You in School",
               "author": "David Perell",
@@ -9908,13 +9804,12 @@ window.TOP_ARTICLES = {
               "bestMoment": "geïnspireerd",
               "tags": [
                 "arts & culture",
-                "light-reading",
                 "professional development"
               ],
               "alsoIn": []
             },
             {
-              "position": 21,
+              "position": 22,
               "id": "01m059tzwnjdjtmteh5jpa7bxz",
               "title": "Pleasure Spots",
               "author": "orwellfoundation.com",
@@ -9934,7 +9829,6 @@ window.TOP_ARTICLES = {
               "bestMoment": "reflectief",
               "tags": [
                 "arts & culture",
-                "light-reading",
                 "personal growth & life philosophy",
                 "sociology & social structures"
               ],
@@ -9943,7 +9837,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 22,
+              "position": 23,
               "id": "01m0d9rt9b3a66m87wr62cjx7g",
               "title": "Elif Shafak and Robert Macfarlane: Two Novelists Have an Epic Conversation",
               "author": "David Perell",
@@ -9963,13 +9857,12 @@ window.TOP_ARTICLES = {
               "bestMoment": "geconcentreerd",
               "tags": [
                 "arts & culture",
-                "light-reading",
                 "philosophy"
               ],
               "alsoIn": []
             },
             {
-              "position": 23,
+              "position": 24,
               "id": "01m0f29337jsph1jwqq3njdbkc",
               "title": "In de bioscoop blijkt dat we eer belangrijker vinden dan je zou denken",
               "author": "nrc.nl",
@@ -9990,8 +9883,6 @@ window.TOP_ARTICLES = {
               "tags": [
                 "arts & culture",
                 "current affairs & politics",
-                "light-reading",
-                "linked-from-readwise",
                 "political philosophy"
               ],
               "alsoIn": [
@@ -9999,7 +9890,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 24,
+              "position": 25,
               "id": "01m0nepq34v9hbtcm1z1rcjn1e",
               "title": "The Madness of Yankee Doodle",
               "author": "papyrusrampant.substack.com",
@@ -10019,8 +9910,6 @@ window.TOP_ARTICLES = {
               "bestMoment": "ontspannen",
               "tags": [
                 "history",
-                "light-reading",
-                "linked-from-readwise",
                 "political philosophy"
               ],
               "alsoIn": [
@@ -10028,7 +9917,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 25,
+              "position": 26,
               "id": "01m0nepry7rbgqh62vdcjr37a7",
               "title": "Plays, Pageants, and the Origin of the “First Thanksgiving” Story",
               "author": "smileandgun.wordpress.com",
@@ -10048,8 +9937,6 @@ window.TOP_ARTICLES = {
               "bestMoment": "ontspannen",
               "tags": [
                 "history",
-                "light-reading",
-                "linked-from-readwise",
                 "sociology & social structures"
               ],
               "alsoIn": [
@@ -10057,7 +9944,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 26,
+              "position": 27,
               "id": "01m0wzs6b6z6rgc49ey22ec31m",
               "title": "How Our Leisure Time Got Monetized",
               "author": "Ted Gioia",
@@ -10077,7 +9964,6 @@ window.TOP_ARTICLES = {
               "bestMoment": "reflectief",
               "tags": [
                 "arts & culture",
-                "light-reading",
                 "sociology & social structures"
               ],
               "alsoIn": [
@@ -10085,7 +9971,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 27,
+              "position": 28,
               "id": "01m14nb3gbkc1d5zt0q1rbjpsv",
               "title": "Hoe Martin Luther King ‘I Have a Dream’ improviseerde",
               "author": "De Ongelooflijke",
@@ -10106,7 +9992,6 @@ window.TOP_ARTICLES = {
               "tags": [
                 "arts & culture",
                 "history",
-                "light-reading",
                 "political philosophy"
               ],
               "alsoIn": [
@@ -10114,7 +9999,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 28,
+              "position": 29,
               "id": "01m207r5gtkhknjq6ezh237a4s",
               "title": "The Thief Who Wanted to Save the World",
               "author": "Longreads",
@@ -10135,13 +10020,12 @@ window.TOP_ARTICLES = {
               "tags": [
                 "arts & culture",
                 "history",
-                "light-reading",
                 "sociology & social structures"
               ],
               "alsoIn": []
             },
             {
-              "position": 29,
+              "position": 30,
               "id": "01j421m304fbn5rwfh0a9bpzp3",
               "title": "Fear as a Game",
               "author": "Cheri Lucas Rowlands",
@@ -10161,14 +10045,13 @@ window.TOP_ARTICLES = {
               "bestMoment": "reflectief",
               "tags": [
                 "arts & culture",
-                "light-reading",
                 "personal growth & life philosophy",
                 "writing & essays"
               ],
               "alsoIn": []
             },
             {
-              "position": 30,
+              "position": 31,
               "id": "01jkgy1x7yacy66ys284ddq8yw",
               "title": "Why do most popular science books suck?",
               "author": "Erik Hoel",
@@ -10189,13 +10072,12 @@ window.TOP_ARTICLES = {
               "tags": [
                 "arts & culture",
                 "learning & meta-learning",
-                "light-reading",
                 "writing & essays"
               ],
               "alsoIn": []
             },
             {
-              "position": 31,
+              "position": 32,
               "id": "01jkh2vn8hfm2b2ys7eefgrw9h",
               "title": "Advice for a friend who wants to start a blog",
               "author": "Henrik Karlsson",
@@ -10216,13 +10098,12 @@ window.TOP_ARTICLES = {
               "tags": [
                 "arts & culture",
                 "business & work",
-                "light-reading",
                 "writing & essays"
               ],
               "alsoIn": []
             },
             {
-              "position": 32,
+              "position": 33,
               "id": "01k2p37kkgn4hk8dn1qxb870qd",
               "title": "How to Teach Textual Criticism To Fifth-Graders",
               "author": "nephew jonathan",
@@ -10243,13 +10124,12 @@ window.TOP_ARTICLES = {
               "tags": [
                 "arts & culture",
                 "learning & meta-learning",
-                "light-reading",
                 "writing & essays"
               ],
               "alsoIn": []
             },
             {
-              "position": 33,
+              "position": 34,
               "id": "01k7j6p8a88r4t4zarr6pqya82",
               "title": "Writing as communion",
               "author": "Henrik Karlsson",
@@ -10269,14 +10149,13 @@ window.TOP_ARTICLES = {
               "bestMoment": "reflectief",
               "tags": [
                 "arts & culture",
-                "light-reading",
                 "personal growth & life philosophy",
                 "writing & essays"
               ],
               "alsoIn": []
             },
             {
-              "position": 34,
+              "position": 35,
               "id": "01k7qbg40qvbeqszm5nr2wpmyz",
               "title": "Dostoevsky as lover",
               "author": "Henrik Karlsson",
@@ -10296,14 +10175,13 @@ window.TOP_ARTICLES = {
               "bestMoment": "reflectief",
               "tags": [
                 "arts & culture",
-                "light-reading",
                 "personal growth & life philosophy",
                 "writing & essays"
               ],
               "alsoIn": []
             },
             {
-              "position": 35,
+              "position": 36,
               "id": "01k9p5pa1athkkdm2j2nxfhf26",
               "title": "A Modest Proposal for Life After Death",
               "author": "Brian Klaas",
@@ -10324,13 +10202,12 @@ window.TOP_ARTICLES = {
               "tags": [
                 "arts & culture",
                 "history",
-                "light-reading",
                 "philosophy"
               ],
               "alsoIn": []
             },
             {
-              "position": 36,
+              "position": 37,
               "id": "01kc53cvnp2fqe09v8vmbym5mx",
               "title": "🎓 On Teleportation & Understanding via Writing",
               "author": "Eleanor Konik",
@@ -10351,13 +10228,12 @@ window.TOP_ARTICLES = {
               "tags": [
                 "arts & culture",
                 "learning & meta-learning",
-                "light-reading",
                 "writing & essays"
               ],
               "alsoIn": []
             },
             {
-              "position": 37,
+              "position": 38,
               "id": "01kchxs5s6y615eazs4hhqgm7h",
               "title": "A list of books and essays that I love",
               "author": "Henrik Karlsson",
@@ -10378,13 +10254,12 @@ window.TOP_ARTICLES = {
               "tags": [
                 "arts & culture",
                 "learning & meta-learning",
-                "light-reading",
                 "writing & essays"
               ],
               "alsoIn": []
             },
             {
-              "position": 38,
+              "position": 39,
               "id": "01kf916mwdxkdydep3wwes334d",
               "title": "Alessandro Manzoni’s “The Betrothed,” Reconsidered | The New Yorker",
               "author": "Joan Acocella",
@@ -10405,13 +10280,12 @@ window.TOP_ARTICLES = {
               "tags": [
                 "arts & culture",
                 "history",
-                "light-reading",
                 "political philosophy"
               ],
               "alsoIn": []
             },
             {
-              "position": 39,
+              "position": 40,
               "id": "01kj5a1mnca55881qyj3jzm64b",
               "title": "The Library of Lost Maps",
               "author": "Brian Klaas",
@@ -10432,13 +10306,12 @@ window.TOP_ARTICLES = {
               "tags": [
                 "arts & culture",
                 "history",
-                "light-reading",
                 "political philosophy"
               ],
               "alsoIn": []
             },
             {
-              "position": 40,
+              "position": 41,
               "id": "01kmsrjw7b8q2k5fb547bxerv2",
               "title": "The Death of Spotify: Why Streaming is Minutes Away From Being Obsolete",
               "author": "Joel Gouveia",
@@ -10459,13 +10332,12 @@ window.TOP_ARTICLES = {
               "tags": [
                 "arts & culture",
                 "economics",
-                "light-reading",
                 "writing & essays"
               ],
               "alsoIn": []
             },
             {
-              "position": 41,
+              "position": 42,
               "id": "01kn4c4mv24kk2vjxqcn0y6efj",
               "title": "Days are enormous",
               "author": "Henrik Karlsson",
@@ -10485,14 +10357,13 @@ window.TOP_ARTICLES = {
               "bestMoment": "reflectief",
               "tags": [
                 "arts & culture",
-                "light-reading",
                 "personal growth & life philosophy",
                 "writing & essays"
               ],
               "alsoIn": []
             },
             {
-              "position": 42,
+              "position": 43,
               "id": "01krm5d32nfhsa44jvbq4s6nny",
               "title": "📚 Fear, War, & God: Post-Rationalist Philosophy... in SPAAAAAACE",
               "author": "Eleanor Konik",
@@ -10514,13 +10385,12 @@ window.TOP_ARTICLES = {
                 "arts & culture",
                 "existentialism",
                 "fantasy & science fiction",
-                "light-reading",
                 "philosophy"
               ],
               "alsoIn": []
             },
             {
-              "position": 43,
+              "position": 44,
               "id": "01ksspmmztsr8pd0zq5k2pcnke",
               "title": "The Wrong Fight over AI and Writing",
               "author": "Miller’s Book Review 📚",
@@ -10540,43 +10410,9 @@ window.TOP_ARTICLES = {
               "bestMoment": "kritisch",
               "tags": [
                 "ai ethics & society",
-                "arts & culture",
-                "light-reading"
+                "arts & culture"
               ],
               "alsoIn": []
-            },
-            {
-              "position": 44,
-              "id": "01kt9sbc2hgkymt9expprgkgdp",
-              "title": "In de Apocalyps is de vrouw een teken van hoop",
-              "author": "De Ongelooflijke",
-              "siteName": "Substack",
-              "category": "email",
-              "language": "Nederlands",
-              "readingTime": "11 mins",
-              "readingMinutes": 11,
-              "wordCount": 2806,
-              "publishedDate": "2026-06-04",
-              "savedDate": "2026-06-04T17:02:01.298000+00:00",
-              "imageUrl": null,
-              "sourceUrl": "mailto:reader-forwarded-email/1b764fdf5abd46623c037fd1ff273434",
-              "readwiseUrl": "https://read.readwise.io/read/01kt9sbc2hgkymt9expprgkgdp",
-              "summary": "Meestal wordt de Apocalyps geassocieerd met chaos, oorlog en vernietiging; het einde der tijden en de ondergang van de wereld.",
-              "whyRead": "Raakt je interesse in cultuurgeschiedenis, religieuze beeldtaal en kunst als ideeënwereld: een rijk essay over de apocalyptische vrouw als hoopmotief in plaats van alleen rampsymbool.",
-              "bestMoment": "geconcentreerd",
-              "tags": [
-                "arts & culture",
-                "history",
-                "later",
-                "light-reading",
-                "philosophy"
-              ],
-              "alsoIn": [
-                "aaa-dutch-top-10",
-                "aaa-dutch-top-100",
-                "aaa-luchtig-nederlands-top-10",
-                "aaa-luchtig-nederlands-top-100"
-              ]
             },
             {
               "position": 45,
@@ -10600,7 +10436,6 @@ window.TOP_ARTICLES = {
               "tags": [
                 "arts & culture",
                 "learning & meta-learning",
-                "light-reading",
                 "professional development"
               ],
               "alsoIn": []
@@ -10627,7 +10462,6 @@ window.TOP_ARTICLES = {
               "tags": [
                 "arts & culture",
                 "learning & meta-learning",
-                "light-reading",
                 "parenting & care"
               ],
               "alsoIn": []
@@ -10653,7 +10487,6 @@ window.TOP_ARTICLES = {
               "bestMoment": "ontspannen",
               "tags": [
                 "arts & culture",
-                "light-reading",
                 "personal growth & life philosophy"
               ],
               "alsoIn": []
@@ -10679,7 +10512,6 @@ window.TOP_ARTICLES = {
               "bestMoment": "analytisch",
               "tags": [
                 "arts & culture",
-                "light-reading",
                 "political philosophy",
                 "sociology & social structures"
               ],
@@ -10707,7 +10539,6 @@ window.TOP_ARTICLES = {
               "tags": [
                 "arts & culture",
                 "history",
-                "light-reading",
                 "sociology & social structures"
               ],
               "alsoIn": []
@@ -10733,8 +10564,7 @@ window.TOP_ARTICLES = {
               "bestMoment": "analytisch",
               "tags": [
                 "ai ethics & society",
-                "arts & culture",
-                "light-reading"
+                "arts & culture"
               ],
               "alsoIn": []
             },
@@ -10759,9 +10589,7 @@ window.TOP_ARTICLES = {
               "bestMoment": "reflectief",
               "tags": [
                 "arts & culture",
-                "history",
-                "light-reading",
-                "linked-from-readwise"
+                "history"
               ],
               "alsoIn": []
             },
@@ -10786,7 +10614,6 @@ window.TOP_ARTICLES = {
               "bestMoment": "reflectief",
               "tags": [
                 "arts & culture",
-                "light-reading",
                 "philosophy",
                 "philosophy of mind"
               ],
@@ -10814,8 +10641,7 @@ window.TOP_ARTICLES = {
               "tags": [
                 "arts & culture",
                 "entertainment & pop culture",
-                "history",
-                "light-reading"
+                "history"
               ],
               "alsoIn": []
             },
@@ -10841,7 +10667,6 @@ window.TOP_ARTICLES = {
               "tags": [
                 "arts & culture",
                 "history",
-                "light-reading",
                 "sociology & social structures"
               ],
               "alsoIn": []
@@ -10867,8 +10692,7 @@ window.TOP_ARTICLES = {
               "bestMoment": "geïnspireerd",
               "tags": [
                 "arts & culture",
-                "learning & meta-learning",
-                "light-reading"
+                "learning & meta-learning"
               ],
               "alsoIn": []
             },
@@ -10894,8 +10718,6 @@ window.TOP_ARTICLES = {
               "tags": [
                 "arts & culture",
                 "history",
-                "light-reading",
-                "linked-from-readwise",
                 "sociology & social structures"
               ],
               "alsoIn": []
@@ -10922,7 +10744,6 @@ window.TOP_ARTICLES = {
               "tags": [
                 "arts & culture",
                 "history",
-                "light-reading",
                 "philosophy"
               ],
               "alsoIn": []
@@ -10949,7 +10770,6 @@ window.TOP_ARTICLES = {
               "tags": [
                 "arts & culture",
                 "history",
-                "light-reading",
                 "philosophy"
               ],
               "alsoIn": []
@@ -10975,7 +10795,6 @@ window.TOP_ARTICLES = {
               "bestMoment": "analytisch",
               "tags": [
                 "arts & culture",
-                "light-reading",
                 "philosophy",
                 "sociology & inequality"
               ],
@@ -11003,7 +10822,6 @@ window.TOP_ARTICLES = {
               "tags": [
                 "arts & culture",
                 "history",
-                "light-reading",
                 "popular science"
               ],
               "alsoIn": []
@@ -11030,7 +10848,6 @@ window.TOP_ARTICLES = {
               "tags": [
                 "adhd & neurodivergence",
                 "arts & culture",
-                "light-reading",
                 "writing & essays"
               ],
               "alsoIn": []
@@ -11056,7 +10873,6 @@ window.TOP_ARTICLES = {
               "bestMoment": "geïnspireerd",
               "tags": [
                 "arts & culture",
-                "light-reading",
                 "personal growth & life philosophy",
                 "writing & essays"
               ],
@@ -11083,7 +10899,6 @@ window.TOP_ARTICLES = {
               "bestMoment": "reflectief",
               "tags": [
                 "arts & culture",
-                "light-reading",
                 "personal growth & life philosophy",
                 "writing & essays"
               ],
@@ -11114,7 +10929,6 @@ window.TOP_ARTICLES = {
                 "epistemology",
                 "existentialism",
                 "frankfurt school",
-                "light-reading",
                 "metaphysics",
                 "philosophy",
                 "sociology & inequality",
@@ -11144,13 +10958,75 @@ window.TOP_ARTICLES = {
               "tags": [
                 "arts & culture",
                 "entertainment & pop culture",
-                "history",
-                "light-reading"
+                "history"
               ],
               "alsoIn": []
             },
             {
               "position": 66,
+              "id": "01kwreqfypckk54fws5c65whwp",
+              "title": "Niemand wil het, toch doen we het allemaal",
+              "author": "Jona van Loenen",
+              "siteName": "Substack",
+              "category": "email",
+              "language": "Nederlands",
+              "readingTime": "7 mins",
+              "readingMinutes": 7,
+              "wordCount": 1653,
+              "publishedDate": "2026-07-05",
+              "savedDate": "2026-07-05T06:16:24.278000+00:00",
+              "imageUrl": null,
+              "sourceUrl": "mailto:reader-forwarded-email/d03e98c83b42f95bce803f121327a74f",
+              "readwiseUrl": "https://read.readwise.io/read/01kwreqfypckk54fws5c65whwp",
+              "summary": "Normaal neem ik de metro terug naar huis, voor de simpele reden dat ik geen zin heb om die (zware) tassen te dragen.",
+              "whyRead": "Nederlandstalig persoonlijk essay met alledaagse insteek; mogelijk interessant door stem, herkenning en reflectie op gedrag dat niemand wil maar iedereen toch doet. Bewaren als lichte essayistische Nederlandse cultuurreflectie.",
+              "bestMoment": "ontspannen",
+              "tags": [
+                "arts & culture",
+                "personal growth & life philosophy",
+                "sociology & social structures"
+              ],
+              "alsoIn": [
+                "aaa-dutch-top-100",
+                "aaa-short-dutch-top-10",
+                "aaa-short-dutch-top-100",
+                "aaa-luchtig-nederlands-top-10",
+                "aaa-luchtig-nederlands-top-100"
+              ]
+            },
+            {
+              "position": 67,
+              "id": "01kxabe372k5htmjxz8bxdan0f",
+              "title": "Privéchefs zijn extreem algoritmevriendelijk",
+              "author": "Doortje Smithuijsen",
+              "siteName": "Substack",
+              "category": "email",
+              "language": "Nederlands",
+              "readingTime": "5 mins",
+              "readingMinutes": 5,
+              "wordCount": 1122,
+              "publishedDate": "2026-07-12",
+              "savedDate": "2026-07-12T05:05:10.371000+00:00",
+              "imageUrl": null,
+              "sourceUrl": "mailto:reader-forwarded-email/1eee5fd801287b43f486157c5a05455c",
+              "readwiseUrl": "https://read.readwise.io/read/01kxabe372k5htmjxz8bxdan0f",
+              "summary": "De laatste tijd zit ik in een nieuw algoritme: dat van privéchefs.",
+              "whyRead": "Raakt je interesse in cultuur als vorm van sociale analyse: privechefs worden bekeken als algoritmisch aantrekkelijk statussymbool. De meerwaarde zit waarschijnlijk in de observatie van smaak, rijkdom en platformlogica.",
+              "bestMoment": "ontspannen",
+              "tags": [
+                "arts & culture",
+                "sociology & social structures"
+              ],
+              "alsoIn": [
+                "aaa-dutch-top-100",
+                "aaa-short-dutch-top-10",
+                "aaa-short-dutch-top-100",
+                "aaa-luchtig-nederlands-top-10",
+                "aaa-luchtig-nederlands-top-100"
+              ]
+            },
+            {
+              "position": 68,
               "id": "01kxn6sfvvpwapf12145w6x7sv",
               "title": "Essays In Support of the Null Hypothesis",
               "author": "Tommy Blanchard from Cognitive Wonderland",
@@ -11170,14 +11046,13 @@ window.TOP_ARTICLES = {
               "bestMoment": "reflectief",
               "tags": [
                 "arts & culture",
-                "light-reading",
                 "philosophy",
                 "science"
               ],
               "alsoIn": []
             },
             {
-              "position": 67,
+              "position": 69,
               "id": "01kxy1qkwpt5xkmvy06pz6bqvr",
               "title": "Technology and Barbarism",
               "author": "amazon.com",
@@ -11197,15 +11072,45 @@ window.TOP_ARTICLES = {
               "bestMoment": "analytisch",
               "tags": [
                 "fiction",
-                "light-reading",
-                "linked-from-readwise",
                 "political philosophy",
                 "technology"
               ],
               "alsoIn": []
             },
             {
-              "position": 68,
+              "position": 70,
+              "id": "01kyejqrpkrb3a9zqk5a7k4n5f",
+              "title": "Jetten-1 is geen regering. Het is een situationship.",
+              "author": "Jona van Loenen",
+              "siteName": "Substack",
+              "category": "email",
+              "language": "Nederlands",
+              "readingTime": "6 mins",
+              "readingMinutes": 6,
+              "wordCount": 1547,
+              "publishedDate": "2026-07-26",
+              "savedDate": "2026-07-26T06:45:26.868000+00:00",
+              "imageUrl": null,
+              "sourceUrl": "mailto:reader-forwarded-email/10e2d6a1c4a4b04f8ef0a919503aa291",
+              "readwiseUrl": "https://read.readwise.io/read/01kyejqrpkrb3a9zqk5a7k4n5f",
+              "summary": "Dit is voor het verhaal even belangrijk om te weten: deze vriend is een geboren en getogen Rotterdammer. Hij is opgegroeid in Kralingen, en is daar nooit meer weggegaan.",
+              "whyRead": "Raakt je interesse in Nederlandse politiek en essayistische analyse: de situationship-metafoor maakt de vrijblijvende logica van een meerderheidsarme regering tastbaar.",
+              "bestMoment": "kritisch",
+              "tags": [
+                "arts & culture",
+                "current affairs & politics",
+                "sociology & social structures"
+              ],
+              "alsoIn": [
+                "aaa-dutch-top-100",
+                "aaa-short-dutch-top-10",
+                "aaa-short-dutch-top-100",
+                "aaa-luchtig-nederlands-top-10",
+                "aaa-luchtig-nederlands-top-100"
+              ]
+            },
+            {
+              "position": 71,
               "id": "01m059szgmq8b5egbkgk1xe1rd",
               "title": "Arthur Koestler",
               "author": "orwellfoundation.com",
@@ -11225,14 +11130,13 @@ window.TOP_ARTICLES = {
               "bestMoment": "analytisch",
               "tags": [
                 "arts & culture",
-                "light-reading",
                 "political philosophy",
                 "totalitarianism & fascism"
               ],
               "alsoIn": []
             },
             {
-              "position": 69,
+              "position": 72,
               "id": "01m059v21gaqg3ya0m36r03km4",
               "title": "Politics and the English Language",
               "author": "orwellfoundation.com",
@@ -11252,14 +11156,13 @@ window.TOP_ARTICLES = {
               "bestMoment": "analytisch",
               "tags": [
                 "arts & culture",
-                "light-reading",
                 "political philosophy",
                 "totalitarianism & fascism"
               ],
               "alsoIn": []
             },
             {
-              "position": 70,
+              "position": 73,
               "id": "01m059v4r9jj9vzx30nn7cs3sr",
               "title": "Politics vs. Literature: An examination of Gulliver’s Travels",
               "author": "orwellfoundation.com",
@@ -11279,14 +11182,13 @@ window.TOP_ARTICLES = {
               "bestMoment": "analytisch",
               "tags": [
                 "arts & culture",
-                "light-reading",
                 "political philosophy",
                 "totalitarianism & fascism"
               ],
               "alsoIn": []
             },
             {
-              "position": 71,
+              "position": 74,
               "id": "01m03b0vhwd52bhh3rdjhdafv2",
               "title": "Why I Write",
               "author": "The Orwell Foundation",
@@ -11306,14 +11208,13 @@ window.TOP_ARTICLES = {
               "bestMoment": "reflectief",
               "tags": [
                 "arts & culture",
-                "light-reading",
                 "political philosophy",
                 "totalitarianism & fascism"
               ],
               "alsoIn": []
             },
             {
-              "position": 72,
+              "position": 75,
               "id": "01m07zpehf3761wmknmsknqwsa",
               "title": "How Books Can Build a World and Shape a Culture",
               "author": "Miller’s Book Review 📚",
@@ -11333,13 +11234,12 @@ window.TOP_ARTICLES = {
               "bestMoment": "analytisch",
               "tags": [
                 "arts & culture",
-                "light-reading",
                 "philosophy"
               ],
               "alsoIn": []
             },
             {
-              "position": 73,
+              "position": 76,
               "id": "01m10x27gxeffqvq180jqm7zpe",
               "title": "Shirley Clarke Lived Her Art to the Fullest | The New Yorker",
               "author": "Richard Brody",
@@ -11359,13 +11259,12 @@ window.TOP_ARTICLES = {
               "bestMoment": "geconcentreerd",
               "tags": [
                 "arts & culture",
-                "history",
-                "light-reading"
+                "history"
               ],
               "alsoIn": []
             },
             {
-              "position": 74,
+              "position": 77,
               "id": "01m196kp6abxyvdb4z7st8fvxd",
               "title": "Plato and the Poets",
               "author": "Boston Review",
@@ -11385,13 +11284,12 @@ window.TOP_ARTICLES = {
               "bestMoment": "leergierig",
               "tags": [
                 "arts & culture",
-                "light-reading",
                 "philosophy"
               ],
               "alsoIn": []
             },
             {
-              "position": 75,
+              "position": 78,
               "id": "01m1d8cg3509zyq9bww08azyze",
               "title": "Whither Writing (A Ten-Year Retrospective)",
               "author": "R.W. Richey from We Are Not Saved",
@@ -11411,13 +11309,12 @@ window.TOP_ARTICLES = {
               "bestMoment": "reflectief",
               "tags": [
                 "arts & culture",
-                "light-reading",
                 "personal growth & life philosophy"
               ],
               "alsoIn": []
             },
             {
-              "position": 76,
+              "position": 79,
               "id": "01m1kpjvpkpjy10c0zp09d0hty",
               "title": "How to be useless",
               "author": "psyche.co",
@@ -11437,15 +11334,13 @@ window.TOP_ARTICLES = {
               "bestMoment": "leergierig",
               "tags": [
                 "arts & culture",
-                "light-reading",
-                "linked-from-readwise",
                 "personal growth & life philosophy",
                 "philosophy"
               ],
               "alsoIn": []
             },
             {
-              "position": 77,
+              "position": 80,
               "id": "01m1pyvabgbtrpfw7ep29vv3n4",
               "title": "Your Book Review: The Tale Of Genji",
               "author": "Astral Codex Ten",
@@ -11466,14 +11361,12 @@ window.TOP_ARTICLES = {
               "tags": [
                 "arts & culture",
                 "fiction",
-                "history",
-                "light-reading",
-                "linked-from-readwise"
+                "history"
               ],
               "alsoIn": []
             },
             {
-              "position": 78,
+              "position": 81,
               "id": "01hv97p0qv2rsh6attfeq439nj",
               "title": "Working in Public",
               "author": "Awesome.",
@@ -11494,13 +11387,12 @@ window.TOP_ARTICLES = {
               "tags": [
                 "arts & culture",
                 "business & work",
-                "light-reading",
                 "writing & essays"
               ],
               "alsoIn": []
             },
             {
-              "position": 79,
+              "position": 82,
               "id": "01j6011fk1gbvn0q705v2wmmah",
               "title": "Five Unconventional Economic Systems as Imagined in SFF",
               "author": "Eleanor Konik",
@@ -11521,13 +11413,12 @@ window.TOP_ARTICLES = {
               "tags": [
                 "economics",
                 "fiction",
-                "light-reading",
                 "tools & workflows"
               ],
               "alsoIn": []
             },
             {
-              "position": 80,
+              "position": 83,
               "id": "01j6w5apk81pg023z5m7xd6v5b",
               "title": "Mihai Rosca's Reviews > King, Warrior, Magician, Lover: Rediscovering the Archetypes of the Mature Masculine",
               "author": "Robert L. Moore",
@@ -11547,14 +11438,13 @@ window.TOP_ARTICLES = {
               "bestMoment": "reflectief",
               "tags": [
                 "arts & culture",
-                "light-reading",
                 "personal growth & life philosophy",
                 "philosophy"
               ],
               "alsoIn": []
             },
             {
-              "position": 81,
+              "position": 84,
               "id": "01k3wpv85qh52sj9ffa8rrz1bm",
               "title": "Chromatic Rebel #2: why is the West so color-minimalist?",
               "author": "María Castro Jiménez",
@@ -11575,13 +11465,12 @@ window.TOP_ARTICLES = {
               "tags": [
                 "arts & culture",
                 "economics",
-                "light-reading",
                 "philosophy"
               ],
               "alsoIn": []
             },
             {
-              "position": 82,
+              "position": 85,
               "id": "01k722dxfn8b3bkt741xrmf0a2",
               "title": "📚 Neat Stuff I Read in September 2025",
               "author": "Eleanor Konik",
@@ -11601,13 +11490,12 @@ window.TOP_ARTICLES = {
               "bestMoment": "ontspannen",
               "tags": [
                 "arts & culture",
-                "learning & meta-learning",
-                "light-reading"
+                "learning & meta-learning"
               ],
               "alsoIn": []
             },
             {
-              "position": 83,
+              "position": 86,
               "id": "01k7tw6vrkda5hp5070ra2wqm6",
               "title": "Five SFF Stories That Shed Light on Obscure History",
               "author": "Eleanor Konik",
@@ -11628,13 +11516,41 @@ window.TOP_ARTICLES = {
               "tags": [
                 "fiction",
                 "history",
-                "learning & meta-learning",
-                "light-reading"
+                "learning & meta-learning"
               ],
               "alsoIn": []
             },
             {
-              "position": 84,
+              "position": 87,
+              "id": "01k80nvw2z9d40qq24hveszqrw",
+              "title": "De hel van het gelijke",
+              "author": "Marian Donner",
+              "siteName": "De Groene Amsterdammer",
+              "category": "article",
+              "language": "Nederlands",
+              "readingTime": "14 mins",
+              "readingMinutes": 14,
+              "wordCount": 3710,
+              "publishedDate": "2024-06-11",
+              "savedDate": "2025-10-20T11:25:24.958000+00:00",
+              "imageUrl": "https://www.groene.nl/uploads/image/file/000/041/588/small_crop-83c871e3-8505-45b1-beba-57f0b87a13ae.jpg",
+              "sourceUrl": "https://www.groene.nl/artikel/de-hel-van-het-gelijke",
+              "readwiseUrl": "https://read.readwise.io/read/01k80nvw2z9d40qq24hveszqrw",
+              "summary": "Merken en massaproductie maken de wereld steeds eender en benauwend.  \nNaomi Klein waarschuwt dat bedrijven en platforms cultuur en verschil wegvagen, waardoor een globale claustrofobie ontstaat.  \nTegelijk toont ze dat verzet mogelijk is via directe, vrije acties en collectieve creativiteit.",
+              "whyRead": "De Groene Amsterdammer over de hel van het identieke – consumentisme, No Logo en Fight Club als lens.",
+              "bestMoment": "kritisch",
+              "tags": [
+                "arts & culture",
+                "sociology & inequality"
+              ],
+              "alsoIn": [
+                "aaa-dutch-top-100",
+                "aaa-luchtig-nederlands-top-10",
+                "aaa-luchtig-nederlands-top-100"
+              ]
+            },
+            {
+              "position": 88,
               "id": "01k8b4z89x7bjhpp69rbbemnet",
               "title": "Tales from Toddlerhood",
               "author": "Tim Urban",
@@ -11654,14 +11570,13 @@ window.TOP_ARTICLES = {
               "bestMoment": "reflectief",
               "tags": [
                 "arts & culture",
-                "light-reading",
                 "personal growth & life philosophy",
                 "urbanism & mobility"
               ],
               "alsoIn": []
             },
             {
-              "position": 85,
+              "position": 89,
               "id": "01kaecmp565yrjt89z6qhc3ydq",
               "title": "Why Did Wealth Stop Building Beautiful Things?",
               "author": "The Culturist",
@@ -11682,13 +11597,12 @@ window.TOP_ARTICLES = {
               "tags": [
                 "arts & culture",
                 "economics",
-                "light-reading",
                 "sociology & inequality"
               ],
               "alsoIn": []
             },
             {
-              "position": 86,
+              "position": 90,
               "id": "01kaen0f4sd6p0wsrv0fw7320f",
               "title": "🌲 The Best \"Gamified X\" App is a GAME",
               "author": "Eleanor Konik",
@@ -11709,13 +11623,12 @@ window.TOP_ARTICLES = {
               "tags": [
                 "games & game studies",
                 "health & wellness",
-                "light-reading",
                 "psychology & behavior"
               ],
               "alsoIn": []
             },
             {
-              "position": 87,
+              "position": 91,
               "id": "01kc53chv8ebh5cygqaf76fwt0",
               "title": "🌲 Familiarity with the Western Canon is Surprisingly Reassuring",
               "author": "Eleanor Konik",
@@ -11737,13 +11650,12 @@ window.TOP_ARTICLES = {
                 "arts & culture",
                 "existentialism",
                 "learning & meta-learning",
-                "light-reading",
                 "philosophy"
               ],
               "alsoIn": []
             },
             {
-              "position": 88,
+              "position": 92,
               "id": "01kcfca0wrxztgk2sqe31khzbr",
               "title": "Now Watch Me Read | The New Yorker",
               "author": "Brady Brickner-Wood",
@@ -11764,13 +11676,12 @@ window.TOP_ARTICLES = {
               "tags": [
                 "arts & culture",
                 "learning & meta-learning",
-                "light-reading",
                 "sociology & inequality"
               ],
               "alsoIn": []
             },
             {
-              "position": 89,
+              "position": 93,
               "id": "01kqy8wyp8f7z6nqcby6ajbnm4",
               "title": "The world reveals itself to those who travel by foot",
               "author": "Henrik Karlsson",
@@ -11790,14 +11701,13 @@ window.TOP_ARTICLES = {
               "bestMoment": "reflectief",
               "tags": [
                 "arts & culture",
-                "light-reading",
                 "personal growth & life philosophy",
                 "sociology & inequality"
               ],
               "alsoIn": []
             },
             {
-              "position": 90,
+              "position": 94,
               "id": "01krnyr9cxy0rhqzt148zy5p99",
               "title": "Good conversations have lots of doorknobs",
               "author": "Adam Mastroianni",
@@ -11817,14 +11727,13 @@ window.TOP_ARTICLES = {
               "bestMoment": "ontspannen",
               "tags": [
                 "behavioral psychology & coaching",
-                "light-reading",
                 "personal growth & life philosophy",
                 "sociology & social structures"
               ],
               "alsoIn": []
             },
             {
-              "position": 91,
+              "position": 95,
               "id": "01krqmh4tqphysje012p59hxec",
               "title": "Novels Tell Us Who We Are",
               "author": "Carl Hendrick from The Learning Dispatch",
@@ -11845,13 +11754,12 @@ window.TOP_ARTICLES = {
               "tags": [
                 "arts & culture",
                 "learning & meta-learning",
-                "light-reading",
                 "philosophy"
               ],
               "alsoIn": []
             },
             {
-              "position": 92,
+              "position": 96,
               "id": "01ks2w2tk5ar80phj3pj90bjsw",
               "title": "The Guardian's 100 Best English-Language Books and the Funny Thing about Lists",
               "author": "Jared Henderson from Commonplace Philosophy",
@@ -11872,13 +11780,12 @@ window.TOP_ARTICLES = {
               "tags": [
                 "arts & culture",
                 "fiction",
-                "light-reading",
                 "philosophy"
               ],
               "alsoIn": []
             },
             {
-              "position": 93,
+              "position": 97,
               "id": "01ksa4rg8aaab5rf5v3x3xd1mb",
               "title": "Books I'm excited about",
               "author": "Charles Duhigg",
@@ -11899,13 +11806,12 @@ window.TOP_ARTICLES = {
               "tags": [
                 "arts & culture",
                 "fiction",
-                "light-reading",
                 "sociology & social structures"
               ],
               "alsoIn": []
             },
             {
-              "position": 94,
+              "position": 98,
               "id": "01ksatzj8qqdm55ebbkc4588ft",
               "title": "Short Reviews for May 2026",
               "author": "Evan Þ from Papyrus Rampant",
@@ -11926,13 +11832,12 @@ window.TOP_ARTICLES = {
               "tags": [
                 "arts & culture",
                 "fiction",
-                "history",
-                "light-reading"
+                "history"
               ],
               "alsoIn": []
             },
             {
-              "position": 95,
+              "position": 99,
               "id": "01ksgpayydne30egggw4npszj1",
               "title": "Annihilation – A (Very French) Biography of the \"Last Man\"",
               "author": "R.W. Richey from We Are Not Saved",
@@ -11953,13 +11858,12 @@ window.TOP_ARTICLES = {
               "tags": [
                 "arts & culture",
                 "fiction",
-                "light-reading",
                 "philosophy"
               ],
               "alsoIn": []
             },
             {
-              "position": 96,
+              "position": 100,
               "id": "01ktejkb5739yv3ra0666qr32v",
               "title": "Poor Bastard: Henry Fielding’s Triumphant ‘Tom Jones’",
               "author": "Miller’s Book Review 📚",
@@ -11980,116 +11884,7 @@ window.TOP_ARTICLES = {
               "tags": [
                 "arts & culture",
                 "fiction",
-                "history",
-                "later",
-                "light-reading"
-              ],
-              "alsoIn": []
-            },
-            {
-              "position": 97,
-              "id": "01kvamre3nhre408596w2e8d3s",
-              "title": "Candice Millard and the Revival of History as Literature",
-              "author": "Miller’s Book Review 📚",
-              "siteName": "Substack",
-              "category": "email",
-              "language": "Engels",
-              "readingTime": "7 mins",
-              "readingMinutes": 7,
-              "wordCount": 1759,
-              "publishedDate": "2026-06-17",
-              "savedDate": "2026-06-17T11:16:42.741000+00:00",
-              "imageUrl": null,
-              "sourceUrl": "mailto:reader-forwarded-email/79b4f72b5c9d12fa3e600284af64c21f",
-              "readwiseUrl": "https://read.readwise.io/read/01kvamre3nhre408596w2e8d3s",
-              "summary": "Historian Candice Millard spins yarns that would have made stellar Victorian adventure books for boys; they have certainly sparked a lust for adventure that lingers in me.",
-              "whyRead": "Raakt je interesse in geschiedenis en essayistische non-fictie: dit stuk verdedigt Candice Millard als voorbeeld van geschiedenis die literair, toegankelijk en toch inhoudelijk serieus is. De meerwaarde zit in de koppeling tussen Victoriaanse verteltraditie, avontuur en moderne publieksgeschiedenis.",
-              "bestMoment": "ontspannen",
-              "tags": [
-                "arts & culture",
-                "history",
-                "light-reading"
-              ],
-              "alsoIn": []
-            },
-            {
-              "position": 98,
-              "id": "01kvwytrrghvckwz0stdxe2mgw",
-              "title": "Week 15, 16, 17, 18: Zuid-Holland",
-              "author": "Holly en Roos",
-              "siteName": "Substack",
-              "category": "email",
-              "language": null,
-              "readingTime": "8 mins",
-              "readingMinutes": 8,
-              "wordCount": 2120,
-              "publishedDate": "2026-06-24",
-              "savedDate": "2026-06-24T13:59:04.720000+00:00",
-              "imageUrl": null,
-              "sourceUrl": "mailto:reader-forwarded-email/651c9aaff76bf31679f5fc5e7ccb2453",
-              "readwiseUrl": "https://read.readwise.io/read/01kvwytrrghvckwz0stdxe2mgw",
-              "summary": "Bij deze mijn maandelijkse, wekelijkse update. In 28 wandeldagen slingerde ik Zuid-Holland door.",
-              "whyRead": "Rijke wandel-/reisbrief over Zuid-Holland, thuisloosheid, regels loslaten en ontmoetingen met heel verschillende mensen.",
-              "bestMoment": "reflectief",
-              "tags": [
-                "arts & culture",
-                "light-reading",
-                "personal growth & life philosophy",
-                "sociology & social structures"
-              ],
-              "alsoIn": []
-            },
-            {
-              "position": 99,
-              "id": "01kw4djwahhwy93y8hrkg48wmd",
-              "title": "Literature: The Ultimate Answer to the Algorithm",
-              "author": "Miller’s Book Review 📚",
-              "siteName": "Substack",
-              "category": "email",
-              "language": null,
-              "readingTime": "7 mins",
-              "readingMinutes": 7,
-              "wordCount": 1816,
-              "publishedDate": "2026-06-27",
-              "savedDate": "2026-06-27T11:31:35.890000+00:00",
-              "imageUrl": null,
-              "sourceUrl": "mailto:reader-forwarded-email/e90ecf42528aefd40d3f95e4c905d057",
-              "readwiseUrl": "https://read.readwise.io/read/01kw4djwahhwy93y8hrkg48wmd",
-              "summary": "In his book Wanting, Luke Burgis offers us something we rarely pause to consider: the idea that most of what we desire, crave, and long for is mediated through webs of social influence of which we are largely oblivious.",
-              "whyRead": "Raakt je interesse in lezen, filosofie en cultuurkritiek: dit essay gebruikt Luke Burgis en René Girard om literatuur te presenteren als tegenomgeving voor algoritmische begeerte. De meerwaarde zit in de koppeling van mimetisch verlangen, studiositas en lezen als zelfvorming.",
-              "bestMoment": "analytisch",
-              "tags": [
-                "arts & culture",
-                "learning & meta-learning",
-                "light-reading",
-                "philosophy"
-              ],
-              "alsoIn": []
-            },
-            {
-              "position": 100,
-              "id": "01kw4zh122v8djscsxaaq42ke7",
-              "title": "My Hugo Ballot 2: Best Novel & others",
-              "author": "Evan Þ from Papyrus Rampant",
-              "siteName": "Substack",
-              "category": "email",
-              "language": null,
-              "readingTime": "7 mins",
-              "readingMinutes": 7,
-              "wordCount": 1699,
-              "publishedDate": "2026-06-27",
-              "savedDate": "2026-06-27T16:45:09.571000+00:00",
-              "imageUrl": null,
-              "sourceUrl": "mailto:reader-forwarded-email/6cce7b772f065f99411cfeaa89d6d16d",
-              "readwiseUrl": "https://read.readwise.io/read/01kw4zh122v8djscsxaaq42ke7",
-              "summary": "Best Novel being best known makes sense, given that science fiction and fantasy novels are much more popular than shorter form. In fact, the traditional market for shorter-form fiction has collapsed.",
-              "whyRead": "Raakt fantasy/sciencefiction en cultuur rond awards: dit is een persoonlijke Hugo-ballot met korte evaluaties van romans, gedichten en related work. De meerwaarde zit in signalen voor mogelijke SF/F-leeskeuzes.",
-              "bestMoment": "ontspannen",
-              "tags": [
-                "arts & culture",
-                "fiction",
-                "games",
-                "light-reading"
+                "history"
               ],
               "alsoIn": []
             }
@@ -12129,8 +11924,6 @@ window.TOP_ARTICLES = {
               "tags": [
                 "arts & culture",
                 "history",
-                "later",
-                "light-reading",
                 "sociology & social structures"
               ],
               "alsoIn": [
@@ -12140,6 +11933,7 @@ window.TOP_ARTICLES = {
                 "aaa-short-top-100",
                 "aaa-short-dutch-top-10",
                 "aaa-short-dutch-top-100",
+                "aaa-luchtig-top-10",
                 "aaa-luchtig-top-100",
                 "aaa-luchtig-nederlands-top-100"
               ]
@@ -12166,11 +11960,10 @@ window.TOP_ARTICLES = {
               "tags": [
                 "arts & culture",
                 "history",
-                "later",
-                "light-reading",
                 "philosophy"
               ],
               "alsoIn": [
+                "aaa-top-100",
                 "aaa-dutch-top-10",
                 "aaa-dutch-top-100",
                 "aaa-luchtig-top-100",
@@ -12198,7 +11991,6 @@ window.TOP_ARTICLES = {
               "bestMoment": "ontspannen",
               "tags": [
                 "arts & culture",
-                "light-reading",
                 "personal growth & life philosophy",
                 "sociology & social structures"
               ],
@@ -12206,6 +11998,7 @@ window.TOP_ARTICLES = {
                 "aaa-dutch-top-100",
                 "aaa-short-dutch-top-10",
                 "aaa-short-dutch-top-100",
+                "aaa-luchtig-top-100",
                 "aaa-luchtig-nederlands-top-100"
               ]
             },
@@ -12230,14 +12023,13 @@ window.TOP_ARTICLES = {
               "bestMoment": "ontspannen",
               "tags": [
                 "arts & culture",
-                "later",
-                "light-reading",
                 "sociology & social structures"
               ],
               "alsoIn": [
                 "aaa-dutch-top-100",
                 "aaa-short-dutch-top-10",
                 "aaa-short-dutch-top-100",
+                "aaa-luchtig-top-100",
                 "aaa-luchtig-nederlands-top-100"
               ]
             },
@@ -12263,14 +12055,13 @@ window.TOP_ARTICLES = {
               "tags": [
                 "arts & culture",
                 "current affairs & politics",
-                "later",
-                "light-reading",
                 "sociology & social structures"
               ],
               "alsoIn": [
                 "aaa-dutch-top-100",
                 "aaa-short-dutch-top-10",
                 "aaa-short-dutch-top-100",
+                "aaa-luchtig-top-100",
                 "aaa-luchtig-nederlands-top-100"
               ]
             },
@@ -12295,11 +12086,11 @@ window.TOP_ARTICLES = {
               "bestMoment": "kritisch",
               "tags": [
                 "arts & culture",
-                "light-reading",
                 "sociology & inequality"
               ],
               "alsoIn": [
                 "aaa-dutch-top-100",
+                "aaa-luchtig-top-100",
                 "aaa-luchtig-nederlands-top-100"
               ]
             },
@@ -12325,7 +12116,6 @@ window.TOP_ARTICLES = {
               "tags": [
                 "arts & culture",
                 "history",
-                "light-reading",
                 "personal growth & life philosophy"
               ],
               "alsoIn": [
@@ -12355,7 +12145,6 @@ window.TOP_ARTICLES = {
               "tags": [
                 "arts & culture",
                 "epistemology",
-                "light-reading",
                 "personal growth & life philosophy",
                 "philosophy",
                 "totalitarianism & fascism"
@@ -12386,7 +12175,6 @@ window.TOP_ARTICLES = {
               "bestMoment": "licht / weekend",
               "tags": [
                 "arts & culture",
-                "light-reading",
                 "sociology & social structures"
               ],
               "alsoIn": [
@@ -12415,9 +12203,7 @@ window.TOP_ARTICLES = {
               "whyRead": "Raakt je interesse in technologie en media alleen als lichte roundup; er staan een paar aardige signalen in, maar te weinig diepte om actief te bewaren.",
               "bestMoment": "ontspannen",
               "tags": [
-                "archiveren",
                 "entertainment & pop culture",
-                "light-reading",
                 "technology"
               ],
               "alsoIn": [
@@ -12453,8 +12239,6 @@ window.TOP_ARTICLES = {
               "tags": [
                 "arts & culture",
                 "history",
-                "later",
-                "light-reading",
                 "sociology & social structures"
               ],
               "alsoIn": [
@@ -12464,6 +12248,7 @@ window.TOP_ARTICLES = {
                 "aaa-short-top-100",
                 "aaa-short-dutch-top-10",
                 "aaa-short-dutch-top-100",
+                "aaa-luchtig-top-10",
                 "aaa-luchtig-top-100",
                 "aaa-luchtig-nederlands-top-10"
               ]
@@ -12490,11 +12275,10 @@ window.TOP_ARTICLES = {
               "tags": [
                 "arts & culture",
                 "history",
-                "later",
-                "light-reading",
                 "philosophy"
               ],
               "alsoIn": [
+                "aaa-top-100",
                 "aaa-dutch-top-10",
                 "aaa-dutch-top-100",
                 "aaa-luchtig-top-100",
@@ -12522,7 +12306,6 @@ window.TOP_ARTICLES = {
               "bestMoment": "ontspannen",
               "tags": [
                 "arts & culture",
-                "light-reading",
                 "personal growth & life philosophy",
                 "sociology & social structures"
               ],
@@ -12530,6 +12313,7 @@ window.TOP_ARTICLES = {
                 "aaa-dutch-top-100",
                 "aaa-short-dutch-top-10",
                 "aaa-short-dutch-top-100",
+                "aaa-luchtig-top-100",
                 "aaa-luchtig-nederlands-top-10"
               ]
             },
@@ -12554,14 +12338,13 @@ window.TOP_ARTICLES = {
               "bestMoment": "ontspannen",
               "tags": [
                 "arts & culture",
-                "later",
-                "light-reading",
                 "sociology & social structures"
               ],
               "alsoIn": [
                 "aaa-dutch-top-100",
                 "aaa-short-dutch-top-10",
                 "aaa-short-dutch-top-100",
+                "aaa-luchtig-top-100",
                 "aaa-luchtig-nederlands-top-10"
               ]
             },
@@ -12587,14 +12370,13 @@ window.TOP_ARTICLES = {
               "tags": [
                 "arts & culture",
                 "current affairs & politics",
-                "later",
-                "light-reading",
                 "sociology & social structures"
               ],
               "alsoIn": [
                 "aaa-dutch-top-100",
                 "aaa-short-dutch-top-10",
                 "aaa-short-dutch-top-100",
+                "aaa-luchtig-top-100",
                 "aaa-luchtig-nederlands-top-10"
               ]
             },
@@ -12619,11 +12401,11 @@ window.TOP_ARTICLES = {
               "bestMoment": "kritisch",
               "tags": [
                 "arts & culture",
-                "light-reading",
                 "sociology & inequality"
               ],
               "alsoIn": [
                 "aaa-dutch-top-100",
+                "aaa-luchtig-top-100",
                 "aaa-luchtig-nederlands-top-10"
               ]
             },
@@ -12649,7 +12431,6 @@ window.TOP_ARTICLES = {
               "tags": [
                 "arts & culture",
                 "history",
-                "light-reading",
                 "personal growth & life philosophy"
               ],
               "alsoIn": [
@@ -12679,7 +12460,6 @@ window.TOP_ARTICLES = {
               "tags": [
                 "arts & culture",
                 "epistemology",
-                "light-reading",
                 "personal growth & life philosophy",
                 "philosophy",
                 "totalitarianism & fascism"
@@ -12710,7 +12490,6 @@ window.TOP_ARTICLES = {
               "bestMoment": "licht / weekend",
               "tags": [
                 "arts & culture",
-                "light-reading",
                 "sociology & social structures"
               ],
               "alsoIn": [
@@ -12739,9 +12518,7 @@ window.TOP_ARTICLES = {
               "whyRead": "Raakt je interesse in technologie en media alleen als lichte roundup; er staan een paar aardige signalen in, maar te weinig diepte om actief te bewaren.",
               "bestMoment": "ontspannen",
               "tags": [
-                "archiveren",
                 "entertainment & pop culture",
-                "light-reading",
                 "technology"
               ],
               "alsoIn": [
@@ -12771,7 +12548,6 @@ window.TOP_ARTICLES = {
               "bestMoment": "ontspannen",
               "tags": [
                 "arts & culture",
-                "light-reading",
                 "sociology & social structures",
                 "sports & recreation"
               ],
@@ -12802,7 +12578,6 @@ window.TOP_ARTICLES = {
               "tags": [
                 "arts & culture",
                 "entertainment & pop culture",
-                "light-reading",
                 "technology"
               ],
               "alsoIn": [
@@ -12832,7 +12607,6 @@ window.TOP_ARTICLES = {
               "tags": [
                 "arts & culture",
                 "health & wellness",
-                "light-reading",
                 "personal growth & life philosophy"
               ],
               "alsoIn": [
@@ -12861,7 +12635,6 @@ window.TOP_ARTICLES = {
               "bestMoment": "ontspannen",
               "tags": [
                 "arts & culture",
-                "light-reading",
                 "personal growth & life philosophy"
               ],
               "alsoIn": [
@@ -12890,7 +12663,6 @@ window.TOP_ARTICLES = {
               "bestMoment": "ontspannen",
               "tags": [
                 "arts & culture",
-                "light-reading",
                 "personal growth & life philosophy"
               ],
               "alsoIn": [
@@ -12919,8 +12691,6 @@ window.TOP_ARTICLES = {
               "bestMoment": "ontspannen",
               "tags": [
                 "arts & culture",
-                "later",
-                "light-reading",
                 "personal growth & life philosophy"
               ],
               "alsoIn": [
@@ -12963,7 +12733,6 @@ window.TOP_ARTICLES = {
               "bestMoment": "analytisch",
               "tags": [
                 "agile",
-                "linked-from-readwise",
                 "professional development",
                 "research papers & academia"
               ],
@@ -13065,6 +12834,66 @@ window.TOP_ARTICLES = {
             },
             {
               "position": 5,
+              "id": "01m1zz7f9eqj3hmaee464gw72n",
+              "title": "Liberating Structures",
+              "author": "liberatingstructures.com",
+              "siteName": "liberatingstructures.com",
+              "category": "article",
+              "language": null,
+              "readingTime": "6 mins",
+              "readingMinutes": 6,
+              "wordCount": 1451,
+              "publishedDate": "2022-12-06",
+              "savedDate": "2026-09-08T07:37:55.246000+00:00",
+              "imageUrl": null,
+              "sourceUrl": "https://www.liberatingstructures.com",
+              "readwiseUrl": "https://read.readwise.io/read/01m1zz7f9eqj3hmaee464gw72n",
+              "summary": "liberating structures, social invention.net, microstructures, disruptive innovation, behavior change, collaboration, social invention, diffusion of innovation, strategy, transformation, heuristics, complexity science, emergence",
+              "whyRead": "Raakt je werk als Scrum Master en je interesse in agile teamdynamiek; dit repertoire laat zien hoe kleine ontwerpkeuzes deelname, vertrouwen en gedeeld eigenaarschap in groepen kunnen vergroten.",
+              "bestMoment": "leergierig",
+              "tags": [
+                "agile",
+                "professional development",
+                "sociology & social structures"
+              ],
+              "alsoIn": [
+                "aaa-top-100",
+                "aaa-short-top-100",
+                "aaa-scrum-top-100"
+              ]
+            },
+            {
+              "position": 6,
+              "id": "01m2265g0kyk1003t9x2hsdzw8",
+              "title": "Communication Is … Ritual",
+              "author": "Sven Brodmerkel (PhD)",
+              "siteName": "Off-Script At Work",
+              "category": "article",
+              "language": null,
+              "readingTime": "5 mins",
+              "readingMinutes": 5,
+              "wordCount": 1283,
+              "publishedDate": "2026-08-06",
+              "savedDate": "2026-09-09T04:17:39.353000+00:00",
+              "imageUrl": "https://images.unsplash.com/photo-1533638446853-a05ab34984f9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzMDAzMzh8MHwxfHNlYXJjaHw4N3x8cml0dWFsfGVufDB8fHx8MTc4NTk4MDAwNHww&ixlib=rb-4.1.0&q=80&w=1080",
+              "sourceUrl": "https://svenbrodmerkel.substack.com/p/rethinking-the-c-word-3ae?utm_source=substack&utm_campaign=post_embed&utm_medium=email&embedding_publication_id=7244866",
+              "readwiseUrl": "https://read.readwise.io/read/01m2265g0kyk1003t9x2hsdzw8",
+              "summary": "#1 of the \"Rethinking the C-Word\"-series",
+              "whyRead": null,
+              "bestMoment": null,
+              "tags": [
+                "agile",
+                "professional development",
+                "sociology & social structures"
+              ],
+              "alsoIn": [
+                "aaa-top-100",
+                "aaa-short-top-100",
+                "aaa-scrum-top-100"
+              ]
+            },
+            {
+              "position": 7,
               "id": "01m0pngvw1pq8s12ss8bgyz5hj",
               "title": "2026 Survey Of The Product Management Profession",
               "author": "Product Focus",
@@ -13084,7 +12913,6 @@ window.TOP_ARTICLES = {
               "bestMoment": "geconcentreerd",
               "tags": [
                 "agile",
-                "linked-from-readwise",
                 "professional development",
                 "technology"
               ],
@@ -13094,7 +12922,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 6,
+              "position": 8,
               "id": "01m0yytgcbktcptzp46cf14p2x",
               "title": "The Agile Coach Role Decoded: What Agile Coaches Deliver Versus What Team Members Experience - Koumaditis - 2026 - Journal of Software: Evolution and Process - Wiley Online Library",
               "author": "onlinelibrary.wiley.com",
@@ -13123,7 +12951,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 7,
+              "position": 9,
               "id": "01m0yzc8acebxvxektbepqg0kc",
               "title": "Strengthening Large-Scale Agile Teams: The Interplay of High-Quality Relationships, Psychological Safety, and Learning From Failures",
               "author": "doi.org",
@@ -13143,7 +12971,6 @@ window.TOP_ARTICLES = {
               "bestMoment": "analytisch",
               "tags": [
                 "agile",
-                "linked-from-readwise",
                 "research papers & academia",
                 "scrum"
               ],
@@ -13153,7 +12980,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 8,
+              "position": 10,
               "id": "01m1xy92em8n4jbgr4g35t97vt",
               "title": "The Agile Coaching Growth Wheel",
               "author": "Shannon Carter, Rickard Jones, Martin Lambert, Stacey Luxley, Tom Reynolds, Rohit Raut, Andre Rabit, Kuber Sharma, and Mark Summers",
@@ -13179,64 +13006,6 @@ window.TOP_ARTICLES = {
               "alsoIn": [
                 "aaa-scrum-top-100",
                 "pdf-top-100"
-              ]
-            },
-            {
-              "position": 9,
-              "id": "01m18wc4h56bjmxbee1see9s6d",
-              "title": "The Teammate With No Manager: Who’s Accountable for AI?",
-              "author": "Lourdes Gonzalez",
-              "siteName": "reworked.co",
-              "category": "article",
-              "language": null,
-              "readingTime": "5 mins",
-              "readingMinutes": 5,
-              "wordCount": 1171,
-              "publishedDate": "2025-09-09",
-              "savedDate": "2026-08-30T08:25:30.405000+00:00",
-              "imageUrl": "https://www.reworked.co/-/media/40d99bb4e5624b34abc50c26aca2c999.ashx",
-              "sourceUrl": "https://www.reworked.co/talent-management/the-teammate-with-no-manager-whos-accountable-for-ai/",
-              "readwiseUrl": "https://read.readwise.io/read/01m18wc4h56bjmxbee1see9s6d",
-              "summary": "Why cross-functional leadership, accountability and employee experience design are central to AI’s success at work.",
-              "whyRead": "Sluit aan bij je rol als Scrum Master — het artikel behandelt wie verantwoordelijk is voor AI als teamlid, relevant voor accountability-vraagstukken in agile teams, en raakt bredere ai ethics & society vragen.",
-              "bestMoment": "analytisch",
-              "tags": [
-                "agile",
-                "ai ethics & society",
-                "business & startups",
-                "professional development"
-              ],
-              "alsoIn": [
-                "aaa-short-top-100",
-                "aaa-scrum-top-100"
-              ]
-            },
-            {
-              "position": 10,
-              "id": "01m1gp4waxm0cmf0dh788j4jvv",
-              "title": "The AI-Native SDLC playbook",
-              "author": "Louis Claxton",
-              "siteName": "claude.com",
-              "category": "article",
-              "language": null,
-              "readingTime": "38 mins",
-              "readingMinutes": 38,
-              "wordCount": 9847,
-              "publishedDate": "2026-08-21",
-              "savedDate": "2026-09-02T09:10:36.637000+00:00",
-              "imageUrl": "https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a885727631521d0c3cd0a1b_og_the-ai-native-sdlc-playbook.jpg",
-              "sourceUrl": "https://claude.com/blog/the-ai-native-sdlc-playbook",
-              "readwiseUrl": "https://read.readwise.io/read/01m1gp4waxm0cmf0dh788j4jvv",
-              "summary": "How to transform your software development lifecycle with AI—stage by stage.",
-              "whyRead": "Raakt je interesse in AI, agile werken en professionele ontwikkeling: deze technische playbook laat zien hoe agentische AI het hele softwareontwikkelproces verandert, niet alleen het schrijven van code. Vooral de combinatie van automatisering, menselijke verantwoordelijkheid en governance is relevant voor je werk als Scrum Master.",
-              "bestMoment": "geconcentreerd",
-              "tags": [
-                "agile",
-                "professional development",
-                "technology"
-              ],
-              "alsoIn": [
-                "aaa-scrum-top-100"
               ]
             }
           ]
@@ -13265,7 +13034,6 @@ window.TOP_ARTICLES = {
               "bestMoment": "analytisch",
               "tags": [
                 "agile",
-                "linked-from-readwise",
                 "professional development",
                 "research papers & academia"
               ],
@@ -13367,6 +13135,66 @@ window.TOP_ARTICLES = {
             },
             {
               "position": 5,
+              "id": "01m1zz7f9eqj3hmaee464gw72n",
+              "title": "Liberating Structures",
+              "author": "liberatingstructures.com",
+              "siteName": "liberatingstructures.com",
+              "category": "article",
+              "language": null,
+              "readingTime": "6 mins",
+              "readingMinutes": 6,
+              "wordCount": 1451,
+              "publishedDate": "2022-12-06",
+              "savedDate": "2026-09-08T07:37:55.246000+00:00",
+              "imageUrl": null,
+              "sourceUrl": "https://www.liberatingstructures.com",
+              "readwiseUrl": "https://read.readwise.io/read/01m1zz7f9eqj3hmaee464gw72n",
+              "summary": "liberating structures, social invention.net, microstructures, disruptive innovation, behavior change, collaboration, social invention, diffusion of innovation, strategy, transformation, heuristics, complexity science, emergence",
+              "whyRead": "Raakt je werk als Scrum Master en je interesse in agile teamdynamiek; dit repertoire laat zien hoe kleine ontwerpkeuzes deelname, vertrouwen en gedeeld eigenaarschap in groepen kunnen vergroten.",
+              "bestMoment": "leergierig",
+              "tags": [
+                "agile",
+                "professional development",
+                "sociology & social structures"
+              ],
+              "alsoIn": [
+                "aaa-top-100",
+                "aaa-short-top-100",
+                "aaa-scrum-top-10"
+              ]
+            },
+            {
+              "position": 6,
+              "id": "01m2265g0kyk1003t9x2hsdzw8",
+              "title": "Communication Is … Ritual",
+              "author": "Sven Brodmerkel (PhD)",
+              "siteName": "Off-Script At Work",
+              "category": "article",
+              "language": null,
+              "readingTime": "5 mins",
+              "readingMinutes": 5,
+              "wordCount": 1283,
+              "publishedDate": "2026-08-06",
+              "savedDate": "2026-09-09T04:17:39.353000+00:00",
+              "imageUrl": "https://images.unsplash.com/photo-1533638446853-a05ab34984f9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzMDAzMzh8MHwxfHNlYXJjaHw4N3x8cml0dWFsfGVufDB8fHx8MTc4NTk4MDAwNHww&ixlib=rb-4.1.0&q=80&w=1080",
+              "sourceUrl": "https://svenbrodmerkel.substack.com/p/rethinking-the-c-word-3ae?utm_source=substack&utm_campaign=post_embed&utm_medium=email&embedding_publication_id=7244866",
+              "readwiseUrl": "https://read.readwise.io/read/01m2265g0kyk1003t9x2hsdzw8",
+              "summary": "#1 of the \"Rethinking the C-Word\"-series",
+              "whyRead": null,
+              "bestMoment": null,
+              "tags": [
+                "agile",
+                "professional development",
+                "sociology & social structures"
+              ],
+              "alsoIn": [
+                "aaa-top-100",
+                "aaa-short-top-100",
+                "aaa-scrum-top-10"
+              ]
+            },
+            {
+              "position": 7,
               "id": "01m0pngvw1pq8s12ss8bgyz5hj",
               "title": "2026 Survey Of The Product Management Profession",
               "author": "Product Focus",
@@ -13386,7 +13214,6 @@ window.TOP_ARTICLES = {
               "bestMoment": "geconcentreerd",
               "tags": [
                 "agile",
-                "linked-from-readwise",
                 "professional development",
                 "technology"
               ],
@@ -13396,7 +13223,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 6,
+              "position": 8,
               "id": "01m0yytgcbktcptzp46cf14p2x",
               "title": "The Agile Coach Role Decoded: What Agile Coaches Deliver Versus What Team Members Experience - Koumaditis - 2026 - Journal of Software: Evolution and Process - Wiley Online Library",
               "author": "onlinelibrary.wiley.com",
@@ -13425,7 +13252,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 7,
+              "position": 9,
               "id": "01m0yzc8acebxvxektbepqg0kc",
               "title": "Strengthening Large-Scale Agile Teams: The Interplay of High-Quality Relationships, Psychological Safety, and Learning From Failures",
               "author": "doi.org",
@@ -13445,7 +13272,6 @@ window.TOP_ARTICLES = {
               "bestMoment": "analytisch",
               "tags": [
                 "agile",
-                "linked-from-readwise",
                 "research papers & academia",
                 "scrum"
               ],
@@ -13455,7 +13281,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 8,
+              "position": 10,
               "id": "01m1xy92em8n4jbgr4g35t97vt",
               "title": "The Agile Coaching Growth Wheel",
               "author": "Shannon Carter, Rickard Jones, Martin Lambert, Stacey Luxley, Tom Reynolds, Rohit Raut, Andre Rabit, Kuber Sharma, and Mark Summers",
@@ -13484,7 +13310,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 9,
+              "position": 11,
               "id": "01m18wc4h56bjmxbee1see9s6d",
               "title": "The Teammate With No Manager: Who’s Accountable for AI?",
               "author": "Lourdes Gonzalez",
@@ -13509,12 +13335,11 @@ window.TOP_ARTICLES = {
                 "professional development"
               ],
               "alsoIn": [
-                "aaa-short-top-100",
-                "aaa-scrum-top-10"
+                "aaa-short-top-100"
               ]
             },
             {
-              "position": 10,
+              "position": 12,
               "id": "01m1gp4waxm0cmf0dh788j4jvv",
               "title": "The AI-Native SDLC playbook",
               "author": "Louis Claxton",
@@ -13537,12 +13362,10 @@ window.TOP_ARTICLES = {
                 "professional development",
                 "technology"
               ],
-              "alsoIn": [
-                "aaa-scrum-top-10"
-              ]
+              "alsoIn": []
             },
             {
-              "position": 11,
+              "position": 13,
               "id": "01ktp2hmn8jpdb5pwfpf2x9g0p",
               "title": "Leading High Performing Teams",
               "author": "Edwin Dando",
@@ -13562,7 +13385,6 @@ window.TOP_ARTICLES = {
               "bestMoment": "leergierig",
               "tags": [
                 "business & startups",
-                "later",
                 "professional development",
                 "psm-ii",
                 "scrum"
@@ -13570,7 +13392,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 12,
+              "position": 14,
               "id": "01ktp2jv87zz114a0e57x0hnra",
               "title": "Self-Managing Teams: From Compliance to Collaboration",
               "author": "Stephanie Ockerman",
@@ -13590,7 +13412,6 @@ window.TOP_ARTICLES = {
               "bestMoment": "leergierig",
               "tags": [
                 "business & startups",
-                "later",
                 "professional development",
                 "psm-ii",
                 "scrum"
@@ -13598,7 +13419,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 13,
+              "position": 15,
               "id": "01kwexp3bnatgms46fkdbgsnt6",
               "title": "The Scrum Master",
               "author": "Scrum.org",
@@ -13617,14 +13438,13 @@ window.TOP_ARTICLES = {
               "whyRead": null,
               "bestMoment": null,
               "tags": [
-                "later",
                 "professional development",
                 "scrum"
               ],
               "alsoIn": []
             },
             {
-              "position": 14,
+              "position": 16,
               "id": "01kwexpk131p0dac6rajfc0wtb",
               "title": "Navigating Impediments",
               "author": "Scrum.org",
@@ -13643,14 +13463,13 @@ window.TOP_ARTICLES = {
               "whyRead": null,
               "bestMoment": null,
               "tags": [
-                "later",
                 "professional development",
                 "scrum"
               ],
               "alsoIn": []
             },
             {
-              "position": 15,
+              "position": 17,
               "id": "01kwexppfbvptw25yz3fnypwyx",
               "title": "Facilitation",
               "author": "Scrum.org",
@@ -13669,14 +13488,13 @@ window.TOP_ARTICLES = {
               "whyRead": null,
               "bestMoment": null,
               "tags": [
-                "later",
                 "professional development",
                 "scrum"
               ],
               "alsoIn": []
             },
             {
-              "position": 16,
+              "position": 18,
               "id": "01kwexpqtc8mc6pyyf1rj9gb8v",
               "title": "Coaching",
               "author": "Scrum.org",
@@ -13695,14 +13513,13 @@ window.TOP_ARTICLES = {
               "whyRead": null,
               "bestMoment": null,
               "tags": [
-                "later",
                 "professional development",
                 "scrum"
               ],
               "alsoIn": []
             },
             {
-              "position": 17,
+              "position": 19,
               "id": "01kwexpsbrn9aftwadk0dfvf1n",
               "title": "Mentoring",
               "author": "Scrum.org",
@@ -13721,14 +13538,13 @@ window.TOP_ARTICLES = {
               "whyRead": null,
               "bestMoment": null,
               "tags": [
-                "later",
                 "professional development",
                 "scrum"
               ],
               "alsoIn": []
             },
             {
-              "position": 18,
+              "position": 20,
               "id": "01kwexptrjc88kg21aqp2sba9s",
               "title": "Teaching",
               "author": "Scrum.org",
@@ -13747,14 +13563,13 @@ window.TOP_ARTICLES = {
               "whyRead": null,
               "bestMoment": null,
               "tags": [
-                "later",
                 "professional development",
                 "scrum"
               ],
               "alsoIn": []
             },
             {
-              "position": 19,
+              "position": 21,
               "id": "01kwf0ybdf5nk9310rfsr9gfkw",
               "title": "Self-Managing Teams",
               "author": "Scrum.org",
@@ -13773,14 +13588,13 @@ window.TOP_ARTICLES = {
               "whyRead": null,
               "bestMoment": null,
               "tags": [
-                "later",
                 "professional development",
                 "scrum"
               ],
               "alsoIn": []
             },
             {
-              "position": 20,
+              "position": 22,
               "id": "01kwgv3m75tgghgzvyx20sxse0",
               "title": "The Scrum Master",
               "author": "Scrum.org",
@@ -13805,7 +13619,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 21,
+              "position": 23,
               "id": "01kwgv3te7ptf027ds5be7nsr3",
               "title": "The Scrum Events",
               "author": "Scrum.org",
@@ -13830,7 +13644,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 22,
+              "position": 24,
               "id": "01kwgv3xd015jvxgxaa6x1gwy3",
               "title": "Self-Managing Teams",
               "author": "Scrum.org",
@@ -13855,7 +13669,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 23,
+              "position": 25,
               "id": "01kwgv3yscnzt7mvbt3cpcn1ey",
               "title": "Tips for Joining a Scrum Team and Building Collaborative Relationships",
               "author": "Scrum.org",
@@ -13880,7 +13694,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 24,
+              "position": 26,
               "id": "01kwgv43gpd4xyx01qc2khq1vk",
               "title": "Navigating Impediments",
               "author": "Scrum.org",
@@ -13905,7 +13719,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 25,
+              "position": 27,
               "id": "01kwgv46jm4x817bmpjy470hra",
               "title": "Facilitation",
               "author": "Scrum.org",
@@ -13930,7 +13744,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 26,
+              "position": 28,
               "id": "01kwgv4834kwm67vkjqghncfxd",
               "title": "Coaching",
               "author": "Scrum.org",
@@ -13955,7 +13769,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 27,
+              "position": 29,
               "id": "01kwgv49bqnbz83e4xekh95k2z",
               "title": "Mentoring",
               "author": "Scrum.org",
@@ -13980,7 +13794,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 28,
+              "position": 30,
               "id": "01m0k2vz633g5ymgt2gt9qgv09",
               "title": "The Unlicensed Therapists of Tech",
               "author": "Kaisa Martiskainen",
@@ -14005,7 +13819,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 29,
+              "position": 31,
               "id": "01m0k2y8k9jpzx9ca7hmq5ajh6",
               "title": "Are Scrum Masters Too Much Overhead?",
               "author": "Maarten Dalmijn",
@@ -14029,7 +13843,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 30,
+              "position": 32,
               "id": "01m0k3a1phe9yh3dacdg5cknj6",
               "title": "The Scrum Master Job Still Exists. It Depends Where You're Sitting",
               "author": "Vibhor Chandel",
@@ -14054,7 +13868,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 31,
+              "position": 33,
               "id": "01m0k3aq7jasftab9kwgnqr6mm",
               "title": "How to close a never ending discussion",
               "author": "Vibhor Chandel",
@@ -14078,7 +13892,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 32,
+              "position": 34,
               "id": "01m0k3b9rdcttsyv4bd0n575k5",
               "title": "It Doesn't Matter.",
               "author": "David Pereira",
@@ -14103,7 +13917,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 33,
+              "position": 35,
               "id": "01m0k3c5bpzqs90951nw1g61t3",
               "title": "Difficult Product Owner? Here’s What to Do When You Have No Authority Over Them",
               "author": "Dejan Majkic",
@@ -14128,7 +13942,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 34,
+              "position": 36,
               "id": "01m0k2sst961mrbjhqmgtjsgep",
               "title": "The Downfall of the Scrum Master Role: A Change Agent's Perspective",
               "author": "Scrum.org",
@@ -14152,7 +13966,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 35,
+              "position": 37,
               "id": "01m0kk39ej35nn1j1xszgypca2",
               "title": "Linking Every User Story to the Product Goal",
               "author": "vibhorchandel.com",
@@ -14176,7 +13990,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 36,
+              "position": 38,
               "id": "01kwew3a21msfp9j00h4t73qat",
               "title": "What Does an Agile Coach Actually Do?",
               "author": "Scrum Facilitators",
@@ -14201,7 +14015,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 37,
+              "position": 39,
               "id": "01kwew3bj4a2ynh5yf1e6pxbsf",
               "title": "What is Agile? A Practical Guide for Teams Ready to Work Differently",
               "author": "Scrum Facilitators",
@@ -14226,7 +14040,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 38,
+              "position": 40,
               "id": "01kwew3ggzgdtrxk6c255tdtcz",
               "title": "Sprint Goal in Scrum: A Comprehensive Guide with Examples",
               "author": "Scrum Facilitators",
@@ -14251,7 +14065,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 39,
+              "position": 41,
               "id": "01m0phywg61rt1ps4477xh1m80",
               "title": "The Art of Simplifying Decisions.",
               "author": "David Pereira",
@@ -14276,7 +14090,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 40,
+              "position": 42,
               "id": "01m0phz82jsqawszgfebvkggxm",
               "title": "No amount of velocity can shield your team from opportunity cost",
               "author": "Pavel Samsonov",
@@ -14301,7 +14115,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 41,
+              "position": 43,
               "id": "01m0pmpa0re9a52xcachv6fgvz",
               "title": "Adding a feature is not the same things as improving the UX and or the UI.",
               "author": "browserlondon.com",
@@ -14326,7 +14140,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 42,
+              "position": 44,
               "id": "01m0pmpcyfd67q41p366yynwww",
               "title": "Successful iteration requires going beyond agile",
               "author": "uxdesign.cc",
@@ -14351,7 +14165,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 43,
+              "position": 45,
               "id": "01m0pmpjvx6xh58ztvrxxshbqp",
               "title": "Everyone’s building faster. Now what?",
               "author": "productfocus.com",
@@ -14376,7 +14190,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 44,
+              "position": 46,
               "id": "01m0pmpmcr99y0nghprb1gb0qw",
               "title": "Enshittification as Overproduction in Software, Part 1: Seeing Overproduction",
               "author": "medium.com",
@@ -14401,7 +14215,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 45,
+              "position": 47,
               "id": "01m0ps324qabpwbvdtsbnhmkw7",
               "title": "When Burnout Looks Like Productivity",
               "author": "Vasco Duarte",
@@ -14427,7 +14241,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 46,
+              "position": 48,
               "id": "01m0ps7yv2hx2wxdrx1t5yj0rg",
               "title": "Prioritizing Wellbeing to Support Career Success",
               "author": "Bentley University",
@@ -14453,7 +14267,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 47,
+              "position": 49,
               "id": "01m0q9g0mw4fqpnb351j8763gb",
               "title": "The (surprising) 9 most common challenges that Product Owners face, and affect their Scrum Teams",
               "author": "vasco",
@@ -14479,7 +14293,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 48,
+              "position": 50,
               "id": "01m1146gh117nyg3tm3zp7rbmr",
               "title": "The Job Fits. The Company Doesn’t.",
               "author": "Erwin Verweij from Agile Viking Galaxy",
@@ -14504,7 +14318,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 49,
+              "position": 51,
               "id": "01m13bm9vc9j2s6ahjrhbbhpbh",
               "title": "Employee Engagement Remains Flat as AI Adoption Accelerates",
               "author": "Jim Harter",
@@ -14530,7 +14344,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 50,
+              "position": 52,
               "id": "01m1463q6ty4tpv1ezynjst4f5",
               "title": "Your Backlog Has the Same Problem Volkswagen Is Trying to Fix",
               "author": "Dejan Majkic",
@@ -14556,7 +14370,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 51,
+              "position": 53,
               "id": "01m165m1ac4c8gc7vqqzppc4gg",
               "title": "The difference between Manager and Director",
               "author": "Nick Zylkowski",
@@ -14581,7 +14395,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 52,
+              "position": 54,
               "id": "01m18dbjwne0c8j6wa7ky9amvd",
               "title": "Food for Agile Thought 559: Guide to Agent ROI, Sales Overriding Roadmap, Product-Market Fit Replay, Forcing Your …",
               "author": "Stefan Wolpers",
@@ -14607,7 +14421,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 53,
+              "position": 55,
               "id": "01m18j8c3fqagby4exfngsgy0t",
               "title": "Most Conflict Starts With Team Agreements No One Made",
               "author": "think.fearlessculture.design",
@@ -14628,13 +14442,12 @@ window.TOP_ARTICLES = {
               "tags": [
                 "agile",
                 "behavioral psychology & coaching",
-                "linked-from-readwise",
                 "professional development"
               ],
               "alsoIn": []
             },
             {
-              "position": 54,
+              "position": 56,
               "id": "01m18v73vpssrb6705y75h1dra",
               "title": "Great Teams Run on Differences and Common Ground. Most Get It Backward.",
               "author": "think.fearlessculture.design",
@@ -14660,7 +14473,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 55,
+              "position": 57,
               "id": "01m18v74m5qgefb9acktdhcak2",
               "title": "What Is Conversational Debt and How to Break Free",
               "author": "think.fearlessculture.design",
@@ -14686,7 +14499,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 56,
+              "position": 58,
               "id": "01m1g7fa5dn2h1rgd0pv6bfp8d",
               "title": "How to Build Your Teams as Communities of Practice",
               "author": "Dave West",
@@ -14712,7 +14525,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 57,
+              "position": 59,
               "id": "01m1gv8q7n6gxye4kxmw3yyfnb",
               "title": "Don't Let Middle Managers Block Agile Transformation",
               "author": "reworked.co",
@@ -14732,14 +14545,13 @@ window.TOP_ARTICLES = {
               "bestMoment": "analytisch",
               "tags": [
                 "agile",
-                "linked-from-readwise",
                 "professional development",
                 "scrum"
               ],
               "alsoIn": []
             },
             {
-              "position": 58,
+              "position": 60,
               "id": "01m1gv90a8vcdrjzem48ssna5m",
               "title": "“Spotify Model” – 10 lessons in transplantology",
               "author": "scrum.org",
@@ -14759,14 +14571,13 @@ window.TOP_ARTICLES = {
               "bestMoment": "kritisch",
               "tags": [
                 "agile",
-                "linked-from-readwise",
                 "professional development",
                 "scrum"
               ],
               "alsoIn": []
             },
             {
-              "position": 59,
+              "position": 61,
               "id": "01m1k28grf88yycep5fpqhn5qk",
               "title": "Agentic Engineering: How Swarms of AI Agents Are Redefining Software Engineering",
               "author": "langchain.com",
@@ -14786,14 +14597,13 @@ window.TOP_ARTICLES = {
               "bestMoment": "geconcentreerd",
               "tags": [
                 "agile",
-                "linked-from-readwise",
                 "professional development",
                 "technology"
               ],
               "alsoIn": []
             },
             {
-              "position": 60,
+              "position": 62,
               "id": "01m1kbpy0d4mhwm6pmkvkvf13z",
               "title": "Sprint Retrospective**",
               "author": "scrumbook.org.datasenter.no",
@@ -14813,14 +14623,13 @@ window.TOP_ARTICLES = {
               "bestMoment": "leergierig",
               "tags": [
                 "agile",
-                "linked-from-readwise",
                 "professional development",
                 "scrum"
               ],
               "alsoIn": []
             },
             {
-              "position": 61,
+              "position": 63,
               "id": "01m1kppjvn52gk086k9nfajw2x",
               "title": "Scrumming the Scrum",
               "author": "scrumbook.org.datasenter.no",
@@ -14840,14 +14649,13 @@ window.TOP_ARTICLES = {
               "bestMoment": "leergierig",
               "tags": [
                 "agile",
-                "linked-from-readwise",
                 "professional development",
                 "scrum"
               ],
               "alsoIn": []
             },
             {
-              "position": 62,
+              "position": 64,
               "id": "01m1kppkgrbrrg09crtnnhtnr2",
               "title": "One Step at a Time*",
               "author": "scrumbook.org.datasenter.no",
@@ -14867,14 +14675,13 @@ window.TOP_ARTICLES = {
               "bestMoment": "leergierig",
               "tags": [
                 "agile",
-                "linked-from-readwise",
                 "professional development",
                 "scrum"
               ],
               "alsoIn": []
             },
             {
-              "position": 63,
+              "position": 65,
               "id": "01m1ksc61hsvcw170earazv0qf",
               "title": "Vision**",
               "author": "scrumbook.org.datasenter.no",
@@ -14900,7 +14707,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 64,
+              "position": 66,
               "id": "01m1ksc73j7evdqetd2n0kdhan",
               "title": "Alias: Self-Managing Team",
               "author": "scrumbook.org.datasenter.no",
@@ -14926,7 +14733,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 65,
+              "position": 67,
               "id": "01m1ksc7w4jxpf2dcsafhg2cyy",
               "title": "Notes on Velocity",
               "author": "scrumbook.org.datasenter.no",
@@ -14952,7 +14759,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 66,
+              "position": 68,
               "id": "01m1ksc86m5k1hmr9avtmtw1eb",
               "title": "Testable Improvements",
               "author": "scrumbook.org.datasenter.no",
@@ -14978,7 +14785,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 67,
+              "position": 69,
               "id": "01m1ksc8k17ksbjbg1zfqxascm",
               "title": "Alias: Done-Done",
               "author": "scrumbook.org.datasenter.no",
@@ -15004,7 +14811,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 68,
+              "position": 70,
               "id": "01m1ksc9vg0efn2nvvw5n532nt",
               "title": "Small Items*",
               "author": "scrumbook.org.datasenter.no",
@@ -15030,7 +14837,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 69,
+              "position": 71,
               "id": "01m1ksca8b1devdvjcpj1ppqy1",
               "title": "Swarming: One-Piece Continuous Flow*",
               "author": "scrumbook.org.datasenter.no",
@@ -15056,7 +14863,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 70,
+              "position": 72,
               "id": "01m1kscan6s7sktbeh21d71k2t",
               "title": "Alias: Ready-Ready",
               "author": "scrumbook.org.datasenter.no",
@@ -15082,7 +14889,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 71,
+              "position": 73,
               "id": "01m1kscazhdv099kfz8k5my3m2",
               "title": "Sprint Review**",
               "author": "scrumbook.org.datasenter.no",
@@ -15108,7 +14915,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 72,
+              "position": 74,
               "id": "01m1kscc5k5p4tad0d2h51aprt",
               "title": "The Scrum Guide: An Interview with Jeff Sutherland",
               "author": "stickyminds.com",
@@ -15134,7 +14941,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 73,
+              "position": 75,
               "id": "01m1kv4s3h9dadj3pm94kmh1ya",
               "title": "When Should a Product Owner Say \"No\" to a Stakeholder Request?",
               "author": "Vibhor Chandel",
@@ -15160,7 +14967,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 74,
+              "position": 76,
               "id": "01m1q39qk4sszq3hzn43ttbnxy",
               "title": "Style Tiles and How They Work",
               "author": "alistapart.com",
@@ -15181,7 +14988,6 @@ window.TOP_ARTICLES = {
               "tags": [
                 "agile",
                 "front-end software development",
-                "linked-from-readwise",
                 "professional development",
                 "software development",
                 "technology"
@@ -15191,7 +14997,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 75,
+              "position": 77,
               "id": "01m1rqhq0jsh1hs8h8v39a8etr",
               "title": "Case Study: When Agile Meets Neurodivergence",
               "author": "Joe Foley & Pulkit Singhal & Katarzyna Oratowska & Eren Özdemir & Agile Alliance & Daniele Davi & Thamiris Ramos",
@@ -15219,7 +15025,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 76,
+              "position": 78,
               "id": "01m1v3fyyaxsnte966gdqnqg8n",
               "title": "Onderzoek naar psychologische veiligheid op de werkvloer van start",
               "author": "ou.nl",
@@ -15244,7 +15050,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 77,
+              "position": 79,
               "id": "01m1xy7zej6z8nwf6dnpfwgrpf",
               "title": "Have We Completely Misunderstood the Agile Coach Role?",
               "author": "Malene Jacobsen",
@@ -15270,7 +15076,59 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 78,
+              "position": 80,
+              "id": "01m1zw958j2fm80n5eyhyx7m24",
+              "title": "How to cook up a positive atmosphere for your team",
+              "author": "yuliia.co",
+              "siteName": null,
+              "category": "article",
+              "language": null,
+              "readingTime": "8 mins",
+              "readingMinutes": 8,
+              "wordCount": 1891,
+              "publishedDate": "2021-01-02",
+              "savedDate": "2026-09-08T06:46:24.786000+00:00",
+              "imageUrl": "https://cdn.prod.website-files.com/645cf3e674dc9b6b52420b3c/64651ff56434a201e658d6e9_1*huRqAL1JCB4HdrDWGMZxfw.gif",
+              "sourceUrl": "https://www.yuliia.co/post/how-to-cook-up-positive-atmosphere-for-your-team",
+              "readwiseUrl": "https://read.readwise.io/read/01m1zw958j2fm80n5eyhyx7m24",
+              "summary": "Jan 02, 2021 - Callisto - Webflow HTML website template",
+              "whyRead": null,
+              "bestMoment": null,
+              "tags": [
+                "agile",
+                "behavioral psychology & coaching",
+                "professional development"
+              ],
+              "alsoIn": []
+            },
+            {
+              "position": 81,
+              "id": "01m1zw95j7cqqxwztg75p1cbdp",
+              "title": "Sprint Reviews: at scale and remotely",
+              "author": "yuliia.co",
+              "siteName": null,
+              "category": "article",
+              "language": null,
+              "readingTime": "6 mins",
+              "readingMinutes": 6,
+              "wordCount": 1347,
+              "publishedDate": "2023-05-17",
+              "savedDate": "2026-09-08T06:46:25.095000+00:00",
+              "imageUrl": "https://cdn.prod.website-files.com/645cf3e674dc9b6b52420b3c/64652353f3c719d8cfe3ebfd_paul-skorupskas-7KLa-xLbSXA-unsplash.jpg",
+              "sourceUrl": "https://www.yuliia.co/post/sprint-reviews-at-scale-and-remotely",
+              "readwiseUrl": "https://read.readwise.io/read/01m1zw95j7cqqxwztg75p1cbdp",
+              "summary": "May 17, 2023 - Callisto - Webflow HTML website template",
+              "whyRead": null,
+              "bestMoment": null,
+              "tags": [
+                "agile",
+                "professional development",
+                "scrum"
+              ],
+              "alsoIn": []
+            },
+            {
+              "position": 82,
               "id": "01m1zz6kmexdx2c1dcegqjzeva",
               "title": "Opportunity Mapping — Product Talk",
               "author": "producttalk.org",
@@ -15296,33 +15154,33 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 79,
-              "id": "01m1zz7f9eqj3hmaee464gw72n",
-              "title": "Liberating Structures",
-              "author": "liberatingstructures.com",
-              "siteName": "liberatingstructures.com",
+              "position": 83,
+              "id": "01m227yg7yamdn2qq40a45gr71",
+              "title": "The AI4Agile Practitioners Report 2026",
+              "author": "Scrum.org",
+              "siteName": "Scrum.org",
               "category": "article",
               "language": null,
-              "readingTime": "6 mins",
-              "readingMinutes": 6,
-              "wordCount": 1451,
-              "publishedDate": "2022-12-06",
-              "savedDate": "2026-09-08T07:37:55.246000+00:00",
-              "imageUrl": null,
-              "sourceUrl": "https://www.liberatingstructures.com",
-              "readwiseUrl": "https://read.readwise.io/read/01m1zz7f9eqj3hmaee464gw72n",
-              "summary": "liberating structures, social invention.net, microstructures, disruptive innovation, behavior change, collaboration, social invention, diffusion of innovation, strategy, transformation, heuristics, complexity science, emergence",
-              "whyRead": "Raakt je werk als Scrum Master en je interesse in agile teamdynamiek; dit repertoire laat zien hoe kleine ontwerpkeuzes deelname, vertrouwen en gedeeld eigenaarschap in groepen kunnen vergroten.",
-              "bestMoment": "leergierig",
+              "readingTime": "4 mins",
+              "readingMinutes": 4,
+              "wordCount": 814,
+              "publishedDate": "2026-02-08",
+              "savedDate": "2026-09-09T04:48:47.358000+00:00",
+              "imageUrl": "https://age-of-product.com/wp-content/uploads/ai4agile-pratitioners-report-2026-1536x768.jpg",
+              "sourceUrl": "https://www.scrum.org/resources/blog/ai4agile-practitioners-report-2026",
+              "readwiseUrl": "https://read.readwise.io/read/01m227yg7yamdn2qq40a45gr71",
+              "summary": "83% of Agile practitioners use AI, but most spend 10% or less of their time with it; learn more! By PST Stefan Wolpers.",
+              "whyRead": null,
+              "bestMoment": null,
               "tags": [
                 "agile",
-                "learning & meta-learning",
-                "professional development"
+                "professional development",
+                "technology"
               ],
               "alsoIn": []
             },
             {
-              "position": 80,
+              "position": 84,
               "id": "01kweww7axmq58ekx96xkj02jk",
               "title": "Seven Ways Scrum Masters Can Be More Effective",
               "author": "Scrum.org",
@@ -15347,7 +15205,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 81,
+              "position": 85,
               "id": "01kwexp5550gmx9jwcrafg7xd3",
               "title": "Empiricism",
               "author": "Scrum.org",
@@ -15366,14 +15224,13 @@ window.TOP_ARTICLES = {
               "whyRead": null,
               "bestMoment": null,
               "tags": [
-                "later",
                 "professional development",
                 "scrum"
               ],
               "alsoIn": []
             },
             {
-              "position": 82,
+              "position": 86,
               "id": "01kwexpevqvsnw5chhvec7vdc7",
               "title": "Tips for Joining a Scrum Team and Building Collaborative Relationships",
               "author": "Scrum.org",
@@ -15392,14 +15249,13 @@ window.TOP_ARTICLES = {
               "whyRead": null,
               "bestMoment": null,
               "tags": [
-                "later",
                 "professional development",
                 "scrum"
               ],
               "alsoIn": []
             },
             {
-              "position": 83,
+              "position": 87,
               "id": "01kwexpg90r86p63b5w5sd3910",
               "title": "Encouraging Collaborative Ways of Working in a Scrum Team",
               "author": "Scrum.org",
@@ -15418,14 +15274,13 @@ window.TOP_ARTICLES = {
               "whyRead": null,
               "bestMoment": null,
               "tags": [
-                "later",
                 "professional development",
                 "scrum"
               ],
               "alsoIn": []
             },
             {
-              "position": 84,
+              "position": 88,
               "id": "01kwexpw49qacd2hcbhg15tzcr",
               "title": "Frequently Asked Questions on Continuous Improvement for Scrum Masters",
               "author": "Scrum.org",
@@ -15444,14 +15299,13 @@ window.TOP_ARTICLES = {
               "whyRead": null,
               "bestMoment": null,
               "tags": [
-                "later",
                 "professional development",
                 "scrum"
               ],
               "alsoIn": []
             },
             {
-              "position": 85,
+              "position": 89,
               "id": "01m0kk41832n0tav3gjxdhask9",
               "title": "Agile is 25: Which Practices Still Work in 2026 and Which Don't?",
               "author": "vibhorchandel.com",
@@ -15475,7 +15329,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 86,
+              "position": 90,
               "id": "01m0kztar8p0q02aet41a6xn7w",
               "title": "Real World Agility EXPLAINED: Nick Brown’s Hard-Earned Lessons",
               "author": "Scrum Facilitators",
@@ -15494,8 +15348,7 @@ window.TOP_ARTICLES = {
               "whyRead": "Raakt scrum & agile werken direct — een diepgaand interview met Nick Brown (auteur van \"Real World Agility\") over waarom eerlijke faalverhalen waardevoller zijn dan gepolijste frameworks, en waarom cultuur het fundament van agile teams is.",
               "bestMoment": "analytisch",
               "tags": [
-                "scrum",
-                "video-top-10"
+                "scrum"
               ],
               "alsoIn": [
                 "video-top-10",
@@ -15503,7 +15356,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 87,
+              "position": 91,
               "id": "01m0phz54xkeck21gn6a362mbb",
               "title": "Are your PMs building reasoning silos?",
               "author": "Product Focus",
@@ -15528,7 +15381,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 88,
+              "position": 92,
               "id": "01m0pj0hcdzk57dgqrhngd08xm",
               "title": "How to Tell if Your Manager is Actually Good?",
               "author": "Gregor Ojstersek",
@@ -15553,7 +15406,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 89,
+              "position": 93,
               "id": "01m0pngsn5q8yqqrn2xq1w2hq5",
               "title": "To benefit from AI, your organization’s learning loops must evolve",
               "author": "uxdesign.cc",
@@ -15574,13 +15427,12 @@ window.TOP_ARTICLES = {
               "tags": [
                 "agile",
                 "learning & meta-learning",
-                "linked-from-readwise",
                 "technology"
               ],
               "alsoIn": []
             },
             {
-              "position": 90,
+              "position": 94,
               "id": "01m0q9gdtbx4wrnvzc3zr6w7q3",
               "title": "Product Owner Anti-Patterns, and how Scrum Masters can help overcome those",
               "author": "vasco",
@@ -15606,7 +15458,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 91,
+              "position": 95,
               "id": "01m10p2ys6jtppvffmfvhv32pv",
               "title": "Product Owner Interview Questions for the Age of AI",
               "author": "Stefan Wolpers",
@@ -15631,7 +15483,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 92,
+              "position": 96,
               "id": "01m18j8bdgtzdjeq0cvb905xw8",
               "title": "Human judgment doesn't leave the software factory. It relocates.",
               "author": "addyosmani.com",
@@ -15652,14 +15504,13 @@ window.TOP_ARTICLES = {
               "tags": [
                 "agile",
                 "ai ethics & society",
-                "linked-from-readwise",
                 "professional development",
                 "technology"
               ],
               "alsoIn": []
             },
             {
-              "position": 93,
+              "position": 97,
               "id": "01m18v749bgejt8n415145znvv",
               "title": "Improve Team Collaboration with the Washing Instructions Canvas",
               "author": "fearlessculture.design",
@@ -15685,7 +15536,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 94,
+              "position": 98,
               "id": "01m1dmr0pbqvwrd7skef05r9q8",
               "title": "InfoQ Culture and Methods Trends Report - 2026",
               "author": "Vanessa Formicola",
@@ -15711,7 +15562,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 95,
+              "position": 99,
               "id": "01m1kppm13bn0d0w70hxcjf9tw",
               "title": "Happiness Metric",
               "author": "scrumbook.org.datasenter.no",
@@ -15731,14 +15582,13 @@ window.TOP_ARTICLES = {
               "bestMoment": "geconcentreerd",
               "tags": [
                 "agile",
-                "linked-from-readwise",
                 "professional development",
                 "scrum"
               ],
               "alsoIn": []
             },
             {
-              "position": 96,
+              "position": 100,
               "id": "01m1p73a3z76hwhn4t9qqvpdch",
               "title": "The Single-Page-App Morality Play",
               "author": "baldurbjarnason.com",
@@ -15759,119 +15609,11 @@ window.TOP_ARTICLES = {
               "tags": [
                 "agile",
                 "front-end software development",
-                "linked-from-readwise",
                 "software development"
               ],
               "alsoIn": [
                 "aaa-software-development-top-100"
               ]
-            },
-            {
-              "position": 97,
-              "id": "01m1zvs6zarc4w1cwf7w1sc7ef",
-              "title": "Building Bridges for Corporate Agility — Yuliia Pieskova",
-              "author": "agilealliance.org",
-              "siteName": "Agile Alliance |",
-              "category": "article",
-              "language": null,
-              "readingTime": "15 mins",
-              "readingMinutes": 15,
-              "wordCount": 3958,
-              "publishedDate": "2023-06-02",
-              "savedDate": "2026-09-08T06:37:42.250000+00:00",
-              "imageUrl": "https://www.agilealliance.org/wp-content/uploads/2023/04/xp2023-social-media.jpg",
-              "sourceUrl": "https://www.agilealliance.org/resources/experience-reports/building-bridges-for-corporate-agility-our-journey-of-including-clients-in-sprint-reviews/",
-              "readwiseUrl": "https://read.readwise.io/read/01m1zvs6zarc4w1cwf7w1sc7ef",
-              "summary": "This report details a change management journey that led to a significant transformation in the way development teams inspect and adapt their work within an international fintech corporation.",
-              "whyRead": "Raakt je werk als Scrum Master en je interesse in agile teamdynamiek; dit praktijkverhaal laat zien hoe sprint reviews in een complexe organisatie kunnen veranderen van demo- en rapportagemoment naar feedback, leren en samenwerking.",
-              "bestMoment": "leergierig",
-              "tags": [
-                "agile",
-                "linked-from-readwise",
-                "professional development",
-                "scrum"
-              ],
-              "alsoIn": []
-            },
-            {
-              "position": 98,
-              "id": "01ktp2kyqfw4gmnvgcrkt7faxv",
-              "title": "Self-Managing Teams | Scrum.org",
-              "author": "scrum.org",
-              "siteName": "Scrum.org",
-              "category": "article",
-              "language": null,
-              "readingTime": "3 mins",
-              "readingMinutes": 3,
-              "wordCount": 688,
-              "publishedDate": null,
-              "savedDate": "2026-06-09T11:34:52.911000+00:00",
-              "imageUrl": "https://www.scrum.org/themes/custom/scrumorg_v2/assets/images/Scrumorg-Logo_tagline-200-ratio191.png",
-              "sourceUrl": "https://www.scrum.org/learning-series/self-managing-teams/myths-and-misunderstandings-about-self-management",
-              "readwiseUrl": "https://read.readwise.io/read/01ktp2kyqfw4gmnvgcrkt7faxv",
-              "summary": "Few things in Scrum are as misunderstood and misinterpreted as much as a Scrum Team’s need for self-management.",
-              "whyRead": "Raakt professional development en Scrum-theorie: dit artikel ontmythologiseert self-management en maakt duidelijk dat autonomie niet hetzelfde is als chaos, managerloosheid of verwaarlozing.",
-              "bestMoment": "leergierig",
-              "tags": [
-                "later",
-                "professional development",
-                "psm-ii",
-                "scrum"
-              ],
-              "alsoIn": []
-            },
-            {
-              "position": 99,
-              "id": "01ktp2mzvjaxpymkgdyhw1wehh",
-              "title": "Leadership Styles",
-              "author": "Scrum.org",
-              "siteName": "Scrum.org",
-              "category": "article",
-              "language": null,
-              "readingTime": "2 mins",
-              "readingMinutes": 2,
-              "wordCount": 281,
-              "publishedDate": null,
-              "savedDate": "2026-06-09T11:35:26.834000+00:00",
-              "imageUrl": "https://www.scrum.org/themes/custom/scrumorg_v2/assets/images/Scrumorg-Logo_tagline-200-ratio191.png",
-              "sourceUrl": "https://www.scrum.org/learning-series/leadership-styles/the-difference-between-leaders-and-managers",
-              "readwiseUrl": "https://read.readwise.io/read/01ktp2mzvjaxpymkgdyhw1wehh",
-              "summary": "The ways that leaders present themselves and interact with their colleagues can either support agility, or defeat it. Learn the difference between leaders and managers and the traits of an agile leadership style. Explore why we speak more about agile leadership and not servant leadership.",
-              "whyRead": "Raakt professional development en Scrum-begrip: dit korte stuk verduidelijkt het verschil tussen managen vanuit formele autoriteit en leiden via visie, vertrouwen en expertise.",
-              "bestMoment": "leergierig",
-              "tags": [
-                "later",
-                "professional development",
-                "psm-ii",
-                "scrum"
-              ],
-              "alsoIn": []
-            },
-            {
-              "position": 100,
-              "id": "01kwexp7111x57fyty213vtvwn",
-              "title": "Applying the Scrum Values",
-              "author": "Scrum.org",
-              "siteName": null,
-              "category": "article",
-              "language": "Engels",
-              "readingTime": "1 min",
-              "readingMinutes": 1,
-              "wordCount": 54,
-              "publishedDate": null,
-              "savedDate": "2026-07-01T13:25:26.690000+00:00",
-              "imageUrl": "",
-              "sourceUrl": "https://www.scrum.org/resources/applying-scrum-values",
-              "readwiseUrl": "https://read.readwise.io/read/01kwexp7111x57fyty213vtvwn",
-              "summary": "Scrum.org resource for growing as a Scrum Master. Combined content-only import where applicable.",
-              "whyRead": null,
-              "bestMoment": null,
-              "tags": [
-                "later",
-                "professional development",
-                "scrum"
-              ],
-              "alsoIn": []
             }
           ]
         }
@@ -15970,7 +15712,6 @@ window.TOP_ARTICLES = {
               "bestMoment": "kritisch",
               "tags": [
                 "ai ethics & society",
-                "pdf-top-10",
                 "programming & software",
                 "sociology & inequality"
               ],
@@ -16031,7 +15772,6 @@ window.TOP_ARTICLES = {
               "bestMoment": "geconcentreerd",
               "tags": [
                 "behavioral psychology & coaching",
-                "linked-from-readwise",
                 "professional development",
                 "software development"
               ],
@@ -16269,7 +16009,6 @@ window.TOP_ARTICLES = {
               "bestMoment": "kritisch",
               "tags": [
                 "ai ethics & society",
-                "pdf-top-10",
                 "programming & software",
                 "sociology & inequality"
               ],
@@ -16330,7 +16069,6 @@ window.TOP_ARTICLES = {
               "bestMoment": "geconcentreerd",
               "tags": [
                 "behavioral psychology & coaching",
-                "linked-from-readwise",
                 "professional development",
                 "software development"
               ],
@@ -16500,7 +16238,6 @@ window.TOP_ARTICLES = {
               "whyRead": "Raakt je interesse in software development; Raakt je interesse in technologie, sociale structuren en professioneel vakmanschap: dit essay ontleedt hoe “developer experience” de kosten voor gebruikers kan verbergen. De meerwaarde zit in een scherpe, evidence-based kritiek op JavaScript-zwaarte, prestatiebudgets en het afwentelen van technische keuzes op mensen met minder krachtige apparaten of netwerken.",
               "bestMoment": "kritisch",
               "tags": [
-                "linked-from-readwise",
                 "professional development",
                 "sociology & social structures",
                 "software development"
@@ -16527,7 +16264,6 @@ window.TOP_ARTICLES = {
               "whyRead": "Raakt je interesse in software development; Raakt je interesse in softwarearchitectuur, organisatiegroei en het verbeteren van complexe systemen. Dit essay biedt een nuchtere werkwijze voor systemen waarvan de bedoelde eigenschappen door uitzonderingen en technische schuld niet meer betrouwbaar zijn.",
               "bestMoment": "analytisch",
               "tags": [
-                "linked-from-readwise",
                 "professional development",
                 "sociology & social structures",
                 "software development"
@@ -16556,7 +16292,6 @@ window.TOP_ARTICLES = {
               "tags": [
                 "front-end software development",
                 "history",
-                "linked-from-readwise",
                 "professional development",
                 "software development",
                 "technology"
@@ -16585,7 +16320,6 @@ window.TOP_ARTICLES = {
               "tags": [
                 "agile",
                 "front-end software development",
-                "linked-from-readwise",
                 "professional development",
                 "software development",
                 "technology"
@@ -16615,7 +16349,6 @@ window.TOP_ARTICLES = {
               "bestMoment": "analytisch",
               "tags": [
                 "front-end software development",
-                "linked-from-readwise",
                 "professional development",
                 "software development"
               ],
@@ -16698,7 +16431,6 @@ window.TOP_ARTICLES = {
               "tags": [
                 "agile",
                 "front-end software development",
-                "linked-from-readwise",
                 "software development"
               ],
               "alsoIn": [
@@ -16805,7 +16537,6 @@ window.TOP_ARTICLES = {
               "tags": [
                 "front-end software development",
                 "history",
-                "linked-from-readwise",
                 "professional development",
                 "software development",
                 "technology"
@@ -16861,7 +16592,6 @@ window.TOP_ARTICLES = {
               "bestMoment": "ontspannen",
               "tags": [
                 "learning & meta-learning",
-                "light-reading",
                 "programming & software",
                 "sociology & inequality"
               ],
@@ -16889,8 +16619,7 @@ window.TOP_ARTICLES = {
               "tags": [
                 "ai & machine learning",
                 "learning & meta-learning",
-                "programming & software",
-                "video-top-10"
+                "programming & software"
               ],
               "alsoIn": [
                 "video-top-10",
@@ -17073,7 +16802,6 @@ window.TOP_ARTICLES = {
               "tags": [
                 "behavioral psychology & coaching",
                 "front-end software development",
-                "linked-from-readwise",
                 "professional development",
                 "software development",
                 "technology"
@@ -17102,12 +16830,14 @@ window.TOP_ARTICLES = {
               "tags": [
                 "accessibility",
                 "front-end software development",
-                "linked-from-readwise",
                 "professional development",
                 "software development",
                 "technology"
               ],
-              "alsoIn": []
+              "alsoIn": [
+                "aaa-front-end-development-top-10",
+                "aaa-front-end-development-top-100"
+              ]
             },
             {
               "position": 34,
@@ -17130,7 +16860,6 @@ window.TOP_ARTICLES = {
               "bestMoment": "analytisch",
               "tags": [
                 "front-end software development",
-                "linked-from-readwise",
                 "professional development",
                 "software development",
                 "technology"
@@ -17158,8 +16887,6 @@ window.TOP_ARTICLES = {
               "bestMoment": "ontspannen",
               "tags": [
                 "front-end software development",
-                "light-reading",
-                "linked-from-readwise",
                 "professional development",
                 "software development",
                 "technology"
@@ -17188,12 +16915,14 @@ window.TOP_ARTICLES = {
               "tags": [
                 "accessibility",
                 "front-end software development",
-                "linked-from-readwise",
                 "philosophy",
                 "software development",
                 "technology"
               ],
-              "alsoIn": []
+              "alsoIn": [
+                "aaa-front-end-development-top-10",
+                "aaa-front-end-development-top-100"
+              ]
             },
             {
               "position": 37,
@@ -17217,12 +16946,14 @@ window.TOP_ARTICLES = {
               "tags": [
                 "accessibility",
                 "front-end software development",
-                "linked-from-readwise",
                 "professional development",
                 "software development",
                 "technology"
               ],
-              "alsoIn": []
+              "alsoIn": [
+                "aaa-front-end-development-top-10",
+                "aaa-front-end-development-top-100"
+              ]
             },
             {
               "position": 38,
@@ -17245,7 +16976,6 @@ window.TOP_ARTICLES = {
               "bestMoment": "analytisch",
               "tags": [
                 "learning & meta-learning",
-                "linked-from-readwise",
                 "professional development",
                 "software development"
               ],
@@ -17272,7 +17002,6 @@ window.TOP_ARTICLES = {
               "bestMoment": "kritisch",
               "tags": [
                 "front-end software development",
-                "linked-from-readwise",
                 "sociology & social structures",
                 "software development"
               ],
@@ -17299,7 +17028,6 @@ window.TOP_ARTICLES = {
               "bestMoment": "leergierig",
               "tags": [
                 "front-end software development",
-                "linked-from-readwise",
                 "professional development",
                 "software development"
               ],
@@ -17326,7 +17054,6 @@ window.TOP_ARTICLES = {
               "bestMoment": "analytisch",
               "tags": [
                 "front-end software development",
-                "linked-from-readwise",
                 "professional development",
                 "software development",
                 "technology"
@@ -17354,7 +17081,6 @@ window.TOP_ARTICLES = {
               "bestMoment": "analytisch",
               "tags": [
                 "front-end software development",
-                "linked-from-readwise",
                 "professional development",
                 "software development",
                 "technology"
@@ -17382,7 +17108,6 @@ window.TOP_ARTICLES = {
               "bestMoment": "leergierig",
               "tags": [
                 "front-end software development",
-                "linked-from-readwise",
                 "professional development",
                 "software development",
                 "technology"
@@ -17410,7 +17135,6 @@ window.TOP_ARTICLES = {
               "bestMoment": "leergierig",
               "tags": [
                 "front-end software development",
-                "linked-from-readwise",
                 "professional development",
                 "software development",
                 "technology"
@@ -17439,12 +17163,14 @@ window.TOP_ARTICLES = {
               "tags": [
                 "accessibility",
                 "front-end software development",
-                "linked-from-readwise",
                 "professional development",
                 "software development",
                 "technology"
               ],
-              "alsoIn": []
+              "alsoIn": [
+                "aaa-front-end-development-top-10",
+                "aaa-front-end-development-top-100"
+              ]
             },
             {
               "position": 46,
@@ -17467,7 +17193,6 @@ window.TOP_ARTICLES = {
               "bestMoment": "leergierig",
               "tags": [
                 "front-end software development",
-                "linked-from-readwise",
                 "professional development",
                 "software development",
                 "technology"
@@ -17495,7 +17220,6 @@ window.TOP_ARTICLES = {
               "bestMoment": "leergierig",
               "tags": [
                 "front-end software development",
-                "linked-from-readwise",
                 "professional development",
                 "software development",
                 "technology"
@@ -17523,7 +17247,6 @@ window.TOP_ARTICLES = {
               "bestMoment": "analytisch",
               "tags": [
                 "ai ethics & society",
-                "linked-from-readwise",
                 "research papers & academia",
                 "software development"
               ],
@@ -17531,33 +17254,6 @@ window.TOP_ARTICLES = {
             },
             {
               "position": 49,
-              "id": "01m1xeepy1sxxp8wd2yzzz15sb",
-              "title": "They Write the Right Stuff",
-              "author": "fastcompany.com",
-              "siteName": "Fast Company",
-              "category": "article",
-              "language": null,
-              "readingTime": "16 mins",
-              "readingMinutes": 16,
-              "wordCount": 4197,
-              "publishedDate": "1996-12-31",
-              "savedDate": "2026-09-07T08:06:17.793000+00:00",
-              "imageUrl": "https://images.fastcompany.net/image/upload/w_1280,f_auto,q_auto,fl_lossy/wp-cms/uploads/https://fast-company-res.cloudinary.com/image/upload/fc/28121-poster-p-1-fast-company-number-6-1996.jpg",
-              "sourceUrl": "http://www.fastcompany.com/28121/they-write-right-stuff",
-              "readwiseUrl": "https://read.readwise.io/read/01m1xeepy1sxxp8wd2yzzz15sb",
-              "summary": "As the 120-ton space shuttle sits surrounded by almost 4 million pounds of rocket fuel, exhaling noxious fumes, visibly impatient to defy gravity, its on-board computers take command.\n",
-              "whyRead": "Raakt je interesse in softwareontwikkeling en professioneel vakmanschap; NASA’s shuttleteam toont hoe procesdiscipline, onafhankelijke verificatie en gedeelde verantwoordelijkheid software betrouwbaar genoeg maken voor een extreem risicovolle omgeving.",
-              "bestMoment": "leergierig",
-              "tags": [
-                "linked-from-readwise",
-                "professional development",
-                "software development",
-                "technology"
-              ],
-              "alsoIn": []
-            },
-            {
-              "position": 50,
               "id": "01kgdfp777bge0tsbfpzway43h",
               "title": "Why Designers Can No Longer Trust the Design Process",
               "author": "Hatch Conference",
@@ -17578,7 +17274,6 @@ window.TOP_ARTICLES = {
               "tags": [
                 "ai & machine learning",
                 "arts & culture",
-                "light-reading",
                 "programming & software"
               ],
               "alsoIn": [
@@ -17586,7 +17281,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 51,
+              "position": 50,
               "id": "01kjnmsk3mmpayj96rpj8s8fv4",
               "title": "Evaluating AGENTS.md: Are Repository-Level Context Files Helpful for Coding Agents?",
               "author": "Thibaud Gloaguen; Niels Mündler; Mark Müller; Veselin Raychev; Martin Vechev",
@@ -17613,7 +17308,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 52,
+              "position": 51,
               "id": "01m1w3t3ne01x6d7r48x9wh779",
               "title": "Brief Independent Investigation Of Agents’ Behavior, Reasoning And Collaboration In The OpenAI / Hugging Face Hacking Incident",
               "author": "",
@@ -17641,7 +17336,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 53,
+              "position": 52,
               "id": "01m1xcnmpr3ypy88z6wx7yknsh",
               "title": "Autonomous Weapons And Operational Risk",
               "author": "Paul Scharre",
@@ -17662,7 +17357,6 @@ window.TOP_ARTICLES = {
               "tags": [
                 "ai ethics & society",
                 "behavioral psychology & coaching",
-                "linked-from-readwise",
                 "software development"
               ],
               "alsoIn": [
@@ -17670,7 +17364,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 54,
+              "position": 53,
               "id": "01keht5gn85sygznbg0h2ngzsm",
               "title": "Nobody knows how large software products work",
               "author": "seangoedecke.com",
@@ -17696,7 +17390,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 55,
+              "position": 54,
               "id": "01m1p470j3kcmd7srqg5enza7f",
               "title": "Style performance and concurrent rendering",
               "author": "nolanlawson.com",
@@ -17716,14 +17410,13 @@ window.TOP_ARTICLES = {
               "bestMoment": "analytisch",
               "tags": [
                 "front-end software development",
-                "linked-from-readwise",
                 "professional development",
                 "software development"
               ],
               "alsoIn": []
             },
             {
-              "position": 56,
+              "position": 55,
               "id": "01m1p7327vfsy0dqn6zk81hgja",
               "title": "What I’ve learned about accessibility in SPAs",
               "author": "nolanlawson.com",
@@ -17743,14 +17436,13 @@ window.TOP_ARTICLES = {
               "bestMoment": "leergierig",
               "tags": [
                 "front-end software development",
-                "linked-from-readwise",
                 "professional development",
                 "software development"
               ],
               "alsoIn": []
             },
             {
-              "position": 57,
+              "position": 56,
               "id": "01m1p73e78g88e21p5pm8ccfy4",
               "title": "The weirdly obscure art of Streamed HTML",
               "author": "dev.to",
@@ -17770,14 +17462,13 @@ window.TOP_ARTICLES = {
               "bestMoment": "geconcentreerd",
               "tags": [
                 "front-end software development",
-                "linked-from-readwise",
                 "professional development",
                 "software development"
               ],
               "alsoIn": []
             },
             {
-              "position": 58,
+              "position": 57,
               "id": "01m1p73hjrqhr72t1vwh8ny5b0",
               "title": "Memory leaks: the forgotten side of web performance",
               "author": "nolanlawson.com",
@@ -17797,14 +17488,13 @@ window.TOP_ARTICLES = {
               "bestMoment": "analytisch",
               "tags": [
                 "front-end software development",
-                "linked-from-readwise",
                 "professional development",
                 "software development"
               ],
               "alsoIn": []
             },
             {
-              "position": 59,
+              "position": 58,
               "id": "01m1p7414hg20qvstgwygjwdhv",
               "title": "Be progressive",
               "author": "adactio.com",
@@ -17824,14 +17514,13 @@ window.TOP_ARTICLES = {
               "bestMoment": "analytisch",
               "tags": [
                 "front-end software development",
-                "linked-from-readwise",
                 "professional development",
                 "software development"
               ],
               "alsoIn": []
             },
             {
-              "position": 60,
+              "position": 59,
               "id": "01m1p7nxnhh4j001458qw06n22",
               "title": "Making the world’s fastest website, and other mistakes",
               "author": "dev.to",
@@ -17851,14 +17540,13 @@ window.TOP_ARTICLES = {
               "bestMoment": "geconcentreerd",
               "tags": [
                 "front-end software development",
-                "linked-from-readwise",
                 "professional development",
                 "software development"
               ],
               "alsoIn": []
             },
             {
-              "position": 61,
+              "position": 60,
               "id": "01m1p7t768p214ge05dyrmmm08",
               "title": "User-centric performance metrics",
               "author": "developers.google.com",
@@ -17878,14 +17566,13 @@ window.TOP_ARTICLES = {
               "bestMoment": "leergierig",
               "tags": [
                 "front-end software development",
-                "linked-from-readwise",
                 "professional development",
                 "software development"
               ],
               "alsoIn": []
             },
             {
-              "position": 62,
+              "position": 61,
               "id": "01m1p7tppsy5qeyt4m808ekcgx",
               "title": "High-performance input handling on the web",
               "author": "nolanlawson.com",
@@ -17905,14 +17592,13 @@ window.TOP_ARTICLES = {
               "bestMoment": "leergierig",
               "tags": [
                 "front-end software development",
-                "linked-from-readwise",
                 "professional development",
                 "software development"
               ],
               "alsoIn": []
             },
             {
-              "position": 63,
+              "position": 62,
               "id": "01m1p7tvytpqfewp92vat08xw8",
               "title": "How large DOM sizes affect interactivity, and what you can do about it",
               "author": "web.dev",
@@ -17932,14 +17618,13 @@ window.TOP_ARTICLES = {
               "bestMoment": "leergierig",
               "tags": [
                 "front-end software development",
-                "linked-from-readwise",
                 "professional development",
                 "software development"
               ],
               "alsoIn": []
             },
             {
-              "position": 64,
+              "position": 63,
               "id": "01m1pc576k50j01bhxhbrpm83v",
               "title": "Why Efficient Hydration in JavaScript Frameworks is so Challenging",
               "author": "dev.to",
@@ -17959,14 +17644,13 @@ window.TOP_ARTICLES = {
               "bestMoment": "analytisch",
               "tags": [
                 "front-end software development",
-                "linked-from-readwise",
                 "professional development",
                 "software development"
               ],
               "alsoIn": []
             },
             {
-              "position": 65,
+              "position": 64,
               "id": "01m1pc5k1q6bd3ywk10j54kee5",
               "title": "Missed Connections",
               "author": "aaron-gustafson.com",
@@ -17986,14 +17670,13 @@ window.TOP_ARTICLES = {
               "bestMoment": "kritisch",
               "tags": [
                 "front-end software development",
-                "linked-from-readwise",
                 "professional development",
                 "software development"
               ],
               "alsoIn": []
             },
             {
-              "position": 66,
+              "position": 65,
               "id": "01m1pc5ty6322rn2cg1cjtt21p",
               "title": "Fundamentally connected",
               "author": "kryogenix.org",
@@ -18013,14 +17696,13 @@ window.TOP_ARTICLES = {
               "bestMoment": "reflectief",
               "tags": [
                 "front-end software development",
-                "linked-from-readwise",
                 "professional development",
                 "software development"
               ],
               "alsoIn": []
             },
             {
-              "position": 67,
+              "position": 66,
               "id": "01m1pc6gr3vhv7xva2751hmj1n",
               "title": "Second-guessing the modern web",
               "author": "macwright.org",
@@ -18040,14 +17722,13 @@ window.TOP_ARTICLES = {
               "bestMoment": "kritisch",
               "tags": [
                 "front-end software development",
-                "linked-from-readwise",
                 "professional development",
                 "software development"
               ],
               "alsoIn": []
             },
             {
-              "position": 68,
+              "position": 67,
               "id": "01m1pc896pdtvkq4831tk0tr17",
               "title": "Page Weight Matters",
               "author": "blog.chriszacharias.com",
@@ -18067,14 +17748,13 @@ window.TOP_ARTICLES = {
               "bestMoment": "analytisch",
               "tags": [
                 "front-end software development",
-                "linked-from-readwise",
                 "professional development",
                 "software development"
               ],
               "alsoIn": []
             },
             {
-              "position": 69,
+              "position": 68,
               "id": "01m1pc8cz444y77ecj8rn0s6jj",
               "title": "Support Vs Optimization",
               "author": "bradfrost.com",
@@ -18094,14 +17774,13 @@ window.TOP_ARTICLES = {
               "bestMoment": "leergierig",
               "tags": [
                 "front-end software development",
-                "linked-from-readwise",
                 "professional development",
                 "software development"
               ],
               "alsoIn": []
             },
             {
-              "position": 70,
+              "position": 69,
               "id": "01m1pkbsyqx3cxesvp346tnad9",
               "title": "Techcrunch",
               "author": "bradfrost.com",
@@ -18121,14 +17800,13 @@ window.TOP_ARTICLES = {
               "bestMoment": "leergierig",
               "tags": [
                 "front-end software development",
-                "linked-from-readwise",
                 "professional development",
                 "software development"
               ],
               "alsoIn": []
             },
             {
-              "position": 71,
+              "position": 70,
               "id": "01m1pkbwp8yhkmvyn4v9hw8p0p",
               "title": "For a Future-Friendly Web",
               "author": "alistapart.com",
@@ -18148,14 +17826,13 @@ window.TOP_ARTICLES = {
               "bestMoment": "analytisch",
               "tags": [
                 "front-end software development",
-                "linked-from-readwise",
                 "professional development",
                 "software development"
               ],
               "alsoIn": []
             },
             {
-              "position": 72,
+              "position": 71,
               "id": "01m1pkcqybtrart8abs9dmmcqd",
               "title": "Principles of Design",
               "author": "w3.org",
@@ -18175,14 +17852,13 @@ window.TOP_ARTICLES = {
               "bestMoment": "analytisch",
               "tags": [
                 "front-end software development",
-                "linked-from-readwise",
                 "professional development",
                 "software development"
               ],
               "alsoIn": []
             },
             {
-              "position": 73,
+              "position": 72,
               "id": "01m1pkcy3mwn5efd7wb4mm674v",
               "title": "Debuggable JavaScript in Production with Source Maps",
               "author": "blog.sentry.io",
@@ -18202,14 +17878,13 @@ window.TOP_ARTICLES = {
               "bestMoment": "leergierig",
               "tags": [
                 "front-end software development",
-                "linked-from-readwise",
                 "professional development",
                 "software development"
               ],
               "alsoIn": []
             },
             {
-              "position": 74,
+              "position": 73,
               "id": "01m1ptdtpgacgz9tkd640axtse",
               "title": "Future-Ready Content",
               "author": "alistapart.com",
@@ -18229,14 +17904,13 @@ window.TOP_ARTICLES = {
               "bestMoment": "analytisch",
               "tags": [
                 "front-end software development",
-                "linked-from-readwise",
                 "professional development",
                 "software development"
               ],
               "alsoIn": []
             },
             {
-              "position": 75,
+              "position": 74,
               "id": "01m1pte2ggm4we1zm4q8c70b0s",
               "title": "Responsive Web Design",
               "author": "alistapart.com",
@@ -18256,14 +17930,13 @@ window.TOP_ARTICLES = {
               "bestMoment": "leergierig",
               "tags": [
                 "front-end software development",
-                "linked-from-readwise",
                 "professional development",
                 "software development"
               ],
               "alsoIn": []
             },
             {
-              "position": 76,
+              "position": 75,
               "id": "01m1pteat342mvst3ac1rh3m9j",
               "title": "Responsive Images: How they Almost Worked and What We Need",
               "author": "alistapart.com",
@@ -18283,14 +17956,13 @@ window.TOP_ARTICLES = {
               "bestMoment": "leergierig",
               "tags": [
                 "front-end software development",
-                "linked-from-readwise",
                 "professional development",
                 "software development"
               ],
               "alsoIn": []
             },
             {
-              "position": 77,
+              "position": 76,
               "id": "01m1ptew1kmsww5mc9bbkkg26x",
               "title": "Atomic Design",
               "author": "bradfrost.com",
@@ -18310,14 +17982,13 @@ window.TOP_ARTICLES = {
               "bestMoment": "leergierig",
               "tags": [
                 "front-end software development",
-                "linked-from-readwise",
                 "professional development",
                 "software development"
               ],
               "alsoIn": []
             },
             {
-              "position": 78,
+              "position": 77,
               "id": "01m1ptghcfvreqe0a796mr3f0z",
               "title": "Skip Navigation Links",
               "author": "webaim.org",
@@ -18337,14 +18008,13 @@ window.TOP_ARTICLES = {
               "bestMoment": "leergierig",
               "tags": [
                 "front-end software development",
-                "linked-from-readwise",
                 "professional development",
                 "software development"
               ],
               "alsoIn": []
             },
             {
-              "position": 79,
+              "position": 78,
               "id": "01m1ptj29cwr9k2jg48w4nvz74",
               "title": "Response Times: The 3 Important Limits",
               "author": "useit.com",
@@ -18364,14 +18034,13 @@ window.TOP_ARTICLES = {
               "bestMoment": "leergierig",
               "tags": [
                 "front-end software development",
-                "linked-from-readwise",
                 "professional development",
                 "software development"
               ],
               "alsoIn": []
             },
             {
-              "position": 80,
+              "position": 79,
               "id": "01m1q3843s7mw9phd6jqg71nt9",
               "title": "Website Response Times",
               "author": "nngroup.com",
@@ -18392,7 +18061,6 @@ window.TOP_ARTICLES = {
               "tags": [
                 "behavioral psychology & coaching",
                 "front-end software development",
-                "linked-from-readwise",
                 "professional development",
                 "software development",
                 "technology"
@@ -18400,7 +18068,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 81,
+              "position": 80,
               "id": "01m1q387kecjnv4ddq8tgyy4h2",
               "title": "When the UI Is Too Fast",
               "author": "nngroup.com",
@@ -18421,7 +18089,6 @@ window.TOP_ARTICLES = {
               "tags": [
                 "behavioral psychology & coaching",
                 "front-end software development",
-                "linked-from-readwise",
                 "professional development",
                 "software development",
                 "technology"
@@ -18429,7 +18096,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 82,
+              "position": 81,
               "id": "01m1q393yn5qpbe7gv7dq3eqv9",
               "title": "The Resurgence of ZoomText and Window-Eyes",
               "author": "webaim.org",
@@ -18450,15 +18117,17 @@ window.TOP_ARTICLES = {
               "tags": [
                 "accessibility",
                 "front-end software development",
-                "linked-from-readwise",
                 "professional development",
                 "software development",
                 "technology"
               ],
-              "alsoIn": []
+              "alsoIn": [
+                "aaa-front-end-development-top-10",
+                "aaa-front-end-development-top-100"
+              ]
             },
             {
-              "position": 83,
+              "position": 82,
               "id": "01m1q397npt8pd2zgh8kkyx7g7",
               "title": "Accessible JavaScript JavaScript Event Handlers",
               "author": "webaim.org",
@@ -18479,15 +18148,17 @@ window.TOP_ARTICLES = {
               "tags": [
                 "accessibility",
                 "front-end software development",
-                "linked-from-readwise",
                 "professional development",
                 "software development",
                 "technology"
               ],
-              "alsoIn": []
+              "alsoIn": [
+                "aaa-front-end-development-top-10",
+                "aaa-front-end-development-top-100"
+              ]
             },
             {
-              "position": 84,
+              "position": 83,
               "id": "01m1q3a33tajs6z8x9f3pmvraf",
               "title": "Responsive Deliverables",
               "author": "daverupert.com",
@@ -18507,7 +18178,6 @@ window.TOP_ARTICLES = {
               "bestMoment": "leergierig",
               "tags": [
                 "front-end software development",
-                "linked-from-readwise",
                 "professional development",
                 "software development",
                 "technology"
@@ -18515,7 +18185,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 85,
+              "position": 84,
               "id": "01m1q5m9vhm08fmy9zy1fz09cs",
               "title": "Sub-Pixel Problems in CSS",
               "author": "ejohn.org",
@@ -18535,7 +18205,6 @@ window.TOP_ARTICLES = {
               "bestMoment": "analytisch",
               "tags": [
                 "front-end software development",
-                "linked-from-readwise",
                 "professional development",
                 "software development",
                 "technology"
@@ -18543,7 +18212,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 86,
+              "position": 85,
               "id": "01m1q5n57zhgtn6p8m3xawv0gd",
               "title": "For a Future-Friendly Web",
               "author": "bradfrost.com",
@@ -18563,7 +18232,6 @@ window.TOP_ARTICLES = {
               "bestMoment": "leergierig",
               "tags": [
                 "front-end software development",
-                "linked-from-readwise",
                 "professional development",
                 "software development",
                 "technology"
@@ -18571,7 +18239,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 87,
+              "position": 86,
               "id": "01m1xbfthz0wn5a87jj2sgkj0a",
               "title": "How Russia Is Building a Sovereign Drone Ecosystem for AI-Driven Autonomy",
               "author": "csis.org",
@@ -18591,14 +18259,13 @@ window.TOP_ARTICLES = {
               "bestMoment": "geconcentreerd",
               "tags": [
                 "current affairs & politics",
-                "linked-from-readwise",
                 "software development",
                 "technology"
               ],
               "alsoIn": []
             },
             {
-              "position": 88,
+              "position": 87,
               "id": "01m1xcp693pgwahw3b1wr6yvfd",
               "title": "How Russia Is Reshaping Command and Control for AI-Enabled Warfare",
               "author": "csis.org",
@@ -18618,14 +18285,13 @@ window.TOP_ARTICLES = {
               "bestMoment": "geconcentreerd",
               "tags": [
                 "ai ethics & society",
-                "linked-from-readwise",
                 "software development",
                 "technology"
               ],
               "alsoIn": []
             },
             {
-              "position": 89,
+              "position": 88,
               "id": "01k9q3yjaq9z5z5pxh7kxw4qdf",
               "title": "The forgotten foundational skill",
               "author": "Anna Bohac",
@@ -18651,7 +18317,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 90,
+              "position": 89,
               "id": "01krmzwafvfaac9xjpgfsvsvyb",
               "title": "Stevey's Google Platforms Rant · GitHub",
               "author": "gist.github.com",
@@ -18672,13 +18338,12 @@ window.TOP_ARTICLES = {
               "tags": [
                 "business & work",
                 "internet & platforms",
-                "linked-from-readwise",
                 "programming & software"
               ],
               "alsoIn": []
             },
             {
-              "position": 91,
+              "position": 90,
               "id": "01m1p46xq969712f75kbt0s5f0",
               "title": "Using AI to Migrate from Lit to React",
               "author": "viget.com",
@@ -18699,13 +18364,12 @@ window.TOP_ARTICLES = {
               "tags": [
                 "ai ethics & society",
                 "front-end software development",
-                "linked-from-readwise",
                 "software development"
               ],
               "alsoIn": []
             },
             {
-              "position": 92,
+              "position": 91,
               "id": "01m1p5e6p6ww72hepd01ts9y9c",
               "title": "Why We're Breaking Up with CSS-in-JS",
               "author": "dev.to",
@@ -18725,14 +18389,13 @@ window.TOP_ARTICLES = {
               "bestMoment": "kritisch",
               "tags": [
                 "front-end software development",
-                "linked-from-readwise",
                 "professional development",
                 "software development"
               ],
               "alsoIn": []
             },
             {
-              "position": 93,
+              "position": 92,
               "id": "01m1p5enqhqpmapttqja6kd4n2",
               "title": "Can You Afford It?: Real-world Web Performance Budgets",
               "author": "infrequently.org",
@@ -18752,14 +18415,13 @@ window.TOP_ARTICLES = {
               "bestMoment": "analytisch",
               "tags": [
                 "front-end software development",
-                "linked-from-readwise",
                 "professional development",
                 "software development"
               ],
               "alsoIn": []
             },
             {
-              "position": 94,
+              "position": 93,
               "id": "01m1p5exa8z0nt57n3tfggpebv",
               "title": "Routing: I’m not smart enough for a SPA",
               "author": "dev.to",
@@ -18779,14 +18441,13 @@ window.TOP_ARTICLES = {
               "bestMoment": "kritisch",
               "tags": [
                 "front-end software development",
-                "linked-from-readwise",
                 "professional development",
                 "software development"
               ],
               "alsoIn": []
             },
             {
-              "position": 95,
+              "position": 94,
               "id": "01m1p5f7bdm2mncbb7rdp82hp7",
               "title": "Back/forward cache",
               "author": "web.dev",
@@ -18806,14 +18467,13 @@ window.TOP_ARTICLES = {
               "bestMoment": "leergierig",
               "tags": [
                 "front-end software development",
-                "linked-from-readwise",
                 "professional development",
                 "software development"
               ],
               "alsoIn": []
             },
             {
-              "position": 96,
+              "position": 95,
               "id": "01m1p72yy9zjg54475qj1y9f2q",
               "title": "Techniques to make a web app load fast, even on a feature phone",
               "author": "web.dev",
@@ -18833,14 +18493,13 @@ window.TOP_ARTICLES = {
               "bestMoment": "geconcentreerd",
               "tags": [
                 "front-end software development",
-                "linked-from-readwise",
                 "professional development",
                 "software development"
               ],
               "alsoIn": []
             },
             {
-              "position": 97,
+              "position": 96,
               "id": "01m1p7s3qfheqrwhjt58z1t5c0",
               "title": "Page Lifecycle API",
               "author": "developers.google.com",
@@ -18860,14 +18519,13 @@ window.TOP_ARTICLES = {
               "bestMoment": "geconcentreerd",
               "tags": [
                 "front-end software development",
-                "linked-from-readwise",
                 "professional development",
                 "software development"
               ],
               "alsoIn": []
             },
             {
-              "position": 98,
+              "position": 97,
               "id": "01m1p7tkmqc28dqvf7shg3rwek",
               "title": "Service Workers: an Introduction",
               "author": "developers.google.com",
@@ -18887,14 +18545,13 @@ window.TOP_ARTICLES = {
               "bestMoment": "leergierig",
               "tags": [
                 "front-end software development",
-                "linked-from-readwise",
                 "professional development",
                 "software development"
               ],
               "alsoIn": []
             },
             {
-              "position": 99,
+              "position": 98,
               "id": "01m1pc5bft2s8qqbgsbptmv6my",
               "title": "The Cost of Javascript Frameworks",
               "author": "timkadlec.com",
@@ -18914,14 +18571,13 @@ window.TOP_ARTICLES = {
               "bestMoment": "kritisch",
               "tags": [
                 "front-end software development",
-                "linked-from-readwise",
                 "professional development",
                 "software development"
               ],
               "alsoIn": []
             },
             {
-              "position": 100,
+              "position": 99,
               "id": "01m1pc5f5k3dtmre7wp8bedmr3",
               "title": "A Fundamental Disconnect",
               "author": "aaron-gustafson.com",
@@ -18941,7 +18597,32 @@ window.TOP_ARTICLES = {
               "bestMoment": "kritisch",
               "tags": [
                 "front-end software development",
-                "linked-from-readwise",
+                "professional development",
+                "software development"
+              ],
+              "alsoIn": []
+            },
+            {
+              "position": 100,
+              "id": "01m1pc6crkfe0x9qmnq149gmh0",
+              "title": "🌟 When everything's important, nothing is! 🌟",
+              "author": "aerotwist.com",
+              "siteName": "aerotwist.com",
+              "category": "article",
+              "language": null,
+              "readingTime": "11 mins",
+              "readingMinutes": 11,
+              "wordCount": 2729,
+              "publishedDate": "2016-12-10",
+              "savedDate": "2026-09-04T14:12:07.059000+00:00",
+              "imageUrl": null,
+              "sourceUrl": "https://aerotwist.com/blog/when-everything-is-important-nothing-is/",
+              "readwiseUrl": "https://read.readwise.io/read/01m1pc6crkfe0x9qmnq149gmh0",
+              "summary": "Update 2016-12-12: Some folks aren’t happy with the SSR’d code in the test, because it wasn’t generated the idiomatic way.",
+              "whyRead": "Raakt je interesse in front-end software development; Raakt je interesse in webperformance, frontendarchitectuur en de vraag hoe gebruikers aandacht en interactie ervaren. Alex Russell laat met historische metingen en duidelijke caveats zien dat snelle eerste pixels niet genoeg zijn wanneer framework-boot de main thread blokkeert.",
+              "bestMoment": "analytisch",
+              "tags": [
+                "front-end software development",
                 "professional development",
                 "software development"
               ],
@@ -18960,11 +18641,441 @@ window.TOP_ARTICLES = {
       "lists": {
         "top-10": {
           "tag": "aaa-front-end-development-top-10",
-          "items": []
+          "items": [
+            {
+              "position": 1,
+              "id": "01m1q39c2bg52c45zpapazahcw",
+              "title": "How do you figure?",
+              "author": "scottohara.me",
+              "siteName": "scottohara.me",
+              "category": "article",
+              "language": null,
+              "readingTime": "8 mins",
+              "readingMinutes": 8,
+              "wordCount": 1970,
+              "publishedDate": "2019-01-20",
+              "savedDate": "2026-09-04T20:55:41.900000+00:00",
+              "imageUrl": null,
+              "sourceUrl": "https://www.scottohara.me/blog/2019/01/21/how-do-you-figure.html",
+              "readwiseUrl": "https://read.readwise.io/read/01m1q39c2bg52c45zpapazahcw",
+              "summary": "Introduced as part of HTML5, the figure and figcaption elements are meant to create a meaningful markup structure that:  provides a descriptive label to a pi...",
+              "whyRead": "Raakt je kerninteresse in front-end software development, vooral toegankelijke interfaces, en je bredere interesse in software development; dit stuk geeft een precies, praktijkgericht onderscheid tussen semantische HTML, alt-tekst en de rol van figcaptions voor screenreaders.",
+              "bestMoment": "analytisch",
+              "tags": [
+                "accessibility",
+                "front-end software development",
+                "professional development",
+                "software development",
+                "technology"
+              ],
+              "alsoIn": [
+                "aaa-software-development-top-100",
+                "aaa-front-end-development-top-100"
+              ]
+            },
+            {
+              "position": 2,
+              "id": "01m1q5m76kf897skswb68b4ybj",
+              "title": "A Dao of Web Design",
+              "author": "alistapart.com",
+              "siteName": "A List Apart",
+              "category": "article",
+              "language": null,
+              "readingTime": "14 mins",
+              "readingMinutes": 14,
+              "wordCount": 3645,
+              "publishedDate": "2000-04-07",
+              "savedDate": "2026-09-04T21:36:34.515000+00:00",
+              "imageUrl": "https://i0.wp.com/alistapart.com/wp-content/uploads/2019/03/cropped-icon_navigation-laurel-512.jpg?fit=512%2C512&ssl=1",
+              "sourceUrl": "http://www.alistapart.com/articles/dao",
+              "readwiseUrl": "https://read.readwise.io/read/01m1q5m76kf897skswb68b4ybj",
+              "summary": "Web designers often bemoan the malleable nature of the web, which seems to defy our efforts at strict control over layout and typography. But maybe the problem is not the web. Maybe the problem is …",
+              "whyRead": "Raakt je kerninteresse in front-end software development, vooral toegankelijke interfaces, en je bredere interesse in software development; dit essay gebruikt het daoïstische idee van flexibiliteit om een fundamentele ontwerpkeuze te onderzoeken: probeer je de webpagina te beheersen, of ontwerp je voor de aard van het medium?",
+              "bestMoment": "reflectief",
+              "tags": [
+                "accessibility",
+                "front-end software development",
+                "philosophy",
+                "software development",
+                "technology"
+              ],
+              "alsoIn": [
+                "aaa-software-development-top-100",
+                "aaa-front-end-development-top-100"
+              ]
+            },
+            {
+              "position": 3,
+              "id": "01m1q5mj32wmmzv65nwajcxaf3",
+              "title": "Pocket-Sized Design: Taking Your Website to the Small Screen",
+              "author": "alistapart.com",
+              "siteName": "A List Apart",
+              "category": "article",
+              "language": null,
+              "readingTime": "8 mins",
+              "readingMinutes": 8,
+              "wordCount": 1929,
+              "publishedDate": "2004-08-31",
+              "savedDate": "2026-09-04T21:36:45.664000+00:00",
+              "imageUrl": "https://s0.wp.com/_si/?t=eyJpbWciOiJodHRwczpcL1wvaTAud3AuY29tXC9hbGlzdGFwYXJ0LmNvbVwvd3AtY29udGVudFwvdXBsb2Fkc1wvMjAxOVwvMDNcL2Nyb3BwZWQtaWNvbl9uYXZpZ2F0aW9uLWxhdXJlbC01MTIuanBnP2ZpdD01MTIlMkM1MTImcXVhbGl0eT04OSZzc2w9MSIsInR4dCI6IkEgTGlzdCBBcGFydCIsInRlbXBsYXRlIjoiZWRnZSIsImZvbnQiOiIiLCJibG9nX2lkIjoxNTgwOTQ3MjZ9.0oP5GNj3vHR_yLJaXkr_AaWMuS_ItN_HPB-deU1HBBgMQ",
+              "sourceUrl": "http://www.alistapart.com/articles/pocket",
+              "readwiseUrl": "https://read.readwise.io/read/01m1q5mj32wmmzv65nwajcxaf3",
+              "summary": "Among the many websites that are out there, few are standards-compliant. Among those few, only a handful sport style sheets adjusted to the needs of handheld devices. Of those which do offer stylin…",
+              "whyRead": "Raakt je kerninteresse in front-end software development, vooral toegankelijke interfaces, en je bredere interesse in software development; dit oude handheld-essay biedt nog steeds een helder denkraam voor ontwerpen onder fysieke, netwerk- en interactiebeperkingen.",
+              "bestMoment": "leergierig",
+              "tags": [
+                "accessibility",
+                "front-end software development",
+                "professional development",
+                "software development",
+                "technology"
+              ],
+              "alsoIn": [
+                "aaa-software-development-top-100",
+                "aaa-front-end-development-top-100"
+              ]
+            },
+            {
+              "position": 4,
+              "id": "01m1q5mmmtp4bapv8zdc44zcvg",
+              "title": "Put Your Content in My Pocket",
+              "author": "alistapart.com",
+              "siteName": "A List Apart",
+              "category": "article",
+              "language": null,
+              "readingTime": "13 mins",
+              "readingMinutes": 13,
+              "wordCount": 3333,
+              "publishedDate": "2007-09-10",
+              "savedDate": "2026-09-04T21:36:48.283000+00:00",
+              "imageUrl": "https://i0.wp.com/alistapart.com/wp-content/uploads/2012/07/iphone-viewing.jpg?fit=540%2C244&ssl=1",
+              "sourceUrl": "http://www.alistapart.com/articles/putyourcontentinmypocket",
+              "readwiseUrl": "https://read.readwise.io/read/01m1q5mmmtp4bapv8zdc44zcvg",
+              "summary": "In this first of two articles on bringing your content to the iPhone, the Iconfactory’s Craig Hockenberry offers detailed guidance on tuning your site for the hot new phone, and making change…",
+              "whyRead": "Raakt je kerninteresse in front-end software development, vooral toegankelijke interfaces, en je bredere interesse in software development; ondanks de verouderde iPhone-context blijft het stuk nuttig als geschiedenis van mobile-first denken en incrementeel verbeteren.",
+              "bestMoment": "leergierig",
+              "tags": [
+                "accessibility",
+                "front-end software development",
+                "professional development",
+                "software development",
+                "technology"
+              ],
+              "alsoIn": [
+                "aaa-software-development-top-100",
+                "aaa-front-end-development-top-100"
+              ]
+            },
+            {
+              "position": 5,
+              "id": "01m1q393yn5qpbe7gv7dq3eqv9",
+              "title": "The Resurgence of ZoomText and Window-Eyes",
+              "author": "webaim.org",
+              "siteName": "webaim.org",
+              "category": "article",
+              "language": null,
+              "readingTime": "3 mins",
+              "readingMinutes": 3,
+              "wordCount": 777,
+              "publishedDate": "2015-08-28",
+              "savedDate": "2026-09-04T20:55:33.589000+00:00",
+              "imageUrl": "https://webaim.org/blog/media/ZoomTextWE.png",
+              "sourceUrl": "https://webaim.org/blog/resurgence-of-zoomtext-and-window-eyes/",
+              "readwiseUrl": "https://read.readwise.io/read/01m1q393yn5qpbe7gv7dq3eqv9",
+              "summary": "Reported usage of ZoomText as respondents’ primary screen reader skyrocketed in the last 18 months from 1. 3% in January 2014 to 22.",
+              "whyRead": "Raakt je kerninteresse in front-end software development, vooral toegankelijke interfaces, en je bredere interesse in software development; deze WebAIM-survey laat zien hoe aannames van accessibility-professionals kunnen afwijken van het bredere gebruikersveld en welke hulpmiddelen je in tests moet meenemen.",
+              "bestMoment": "analytisch",
+              "tags": [
+                "accessibility",
+                "front-end software development",
+                "professional development",
+                "software development",
+                "technology"
+              ],
+              "alsoIn": [
+                "aaa-software-development-top-100",
+                "aaa-front-end-development-top-100"
+              ]
+            },
+            {
+              "position": 6,
+              "id": "01m1q397npt8pd2zgh8kkyx7g7",
+              "title": "Accessible JavaScript JavaScript Event Handlers",
+              "author": "webaim.org",
+              "siteName": "webaim.org",
+              "category": "article",
+              "language": null,
+              "readingTime": "5 mins",
+              "readingMinutes": 5,
+              "wordCount": 1140,
+              "publishedDate": "2020-06-27",
+              "savedDate": "2026-09-04T20:55:37.398000+00:00",
+              "imageUrl": null,
+              "sourceUrl": "https://webaim.org/techniques/javascript/eventhandlers",
+              "readwiseUrl": "https://read.readwise.io/read/01m1q397npt8pd2zgh8kkyx7g7",
+              "summary": "Event handlers are triggered by a browser or user event - such as when the page loads, when the user clicks the mouse, or when the time is 8AM.",
+              "whyRead": "Raakt je kerninteresse in front-end software development, vooral toegankelijke interfaces, en je bredere interesse in software development; dit WebAIM-overzicht maakt het verschil tussen apparaatafhankelijke en apparaat-onafhankelijke JavaScript-interactie concreet.",
+              "bestMoment": "leergierig",
+              "tags": [
+                "accessibility",
+                "front-end software development",
+                "professional development",
+                "software development",
+                "technology"
+              ],
+              "alsoIn": [
+                "aaa-software-development-top-100",
+                "aaa-front-end-development-top-100"
+              ]
+            },
+            {
+              "position": 7,
+              "id": "01m1qrpd5gceesywwc4xbbs2d9",
+              "title": "Use of ALT texts in IMGs",
+              "author": "htmlhelp.com",
+              "siteName": "htmlhelp.com",
+              "category": "article",
+              "language": null,
+              "readingTime": "15 mins",
+              "readingMinutes": 15,
+              "wordCount": 3908,
+              "publishedDate": "1995-12-01",
+              "savedDate": "2026-09-05T03:09:49.104000+00:00",
+              "imageUrl": null,
+              "sourceUrl": "http://www.htmlhelp.com/feature/art3.htm",
+              "readwiseUrl": "https://read.readwise.io/read/01m1qrpd5gceesywwc4xbbs2d9",
+              "summary": "The Web Design Group's Feature Article, by Alan Flavell, discusses the proper use of ALT texts in IMGs.",
+              "whyRead": "Raakt je kerninteresse in front-end software development, vooral toegankelijke interfaces; dit uitvoerige stuk maakt duidelijk waarom alt-tekst een functioneel alternatief voor een afbeelding is en niet simpelweg een visuele beschrijving.",
+              "bestMoment": "analytisch",
+              "tags": [
+                "accessibility",
+                "front-end software development",
+                "software development"
+              ],
+              "alsoIn": [
+                "aaa-front-end-development-top-100"
+              ]
+            }
+          ]
         },
         "top-100": {
           "tag": "aaa-front-end-development-top-100",
-          "items": []
+          "items": [
+            {
+              "position": 1,
+              "id": "01m1q39c2bg52c45zpapazahcw",
+              "title": "How do you figure?",
+              "author": "scottohara.me",
+              "siteName": "scottohara.me",
+              "category": "article",
+              "language": null,
+              "readingTime": "8 mins",
+              "readingMinutes": 8,
+              "wordCount": 1970,
+              "publishedDate": "2019-01-20",
+              "savedDate": "2026-09-04T20:55:41.900000+00:00",
+              "imageUrl": null,
+              "sourceUrl": "https://www.scottohara.me/blog/2019/01/21/how-do-you-figure.html",
+              "readwiseUrl": "https://read.readwise.io/read/01m1q39c2bg52c45zpapazahcw",
+              "summary": "Introduced as part of HTML5, the figure and figcaption elements are meant to create a meaningful markup structure that:  provides a descriptive label to a pi...",
+              "whyRead": "Raakt je kerninteresse in front-end software development, vooral toegankelijke interfaces, en je bredere interesse in software development; dit stuk geeft een precies, praktijkgericht onderscheid tussen semantische HTML, alt-tekst en de rol van figcaptions voor screenreaders.",
+              "bestMoment": "analytisch",
+              "tags": [
+                "accessibility",
+                "front-end software development",
+                "professional development",
+                "software development",
+                "technology"
+              ],
+              "alsoIn": [
+                "aaa-software-development-top-100",
+                "aaa-front-end-development-top-10"
+              ]
+            },
+            {
+              "position": 2,
+              "id": "01m1q5m76kf897skswb68b4ybj",
+              "title": "A Dao of Web Design",
+              "author": "alistapart.com",
+              "siteName": "A List Apart",
+              "category": "article",
+              "language": null,
+              "readingTime": "14 mins",
+              "readingMinutes": 14,
+              "wordCount": 3645,
+              "publishedDate": "2000-04-07",
+              "savedDate": "2026-09-04T21:36:34.515000+00:00",
+              "imageUrl": "https://i0.wp.com/alistapart.com/wp-content/uploads/2019/03/cropped-icon_navigation-laurel-512.jpg?fit=512%2C512&ssl=1",
+              "sourceUrl": "http://www.alistapart.com/articles/dao",
+              "readwiseUrl": "https://read.readwise.io/read/01m1q5m76kf897skswb68b4ybj",
+              "summary": "Web designers often bemoan the malleable nature of the web, which seems to defy our efforts at strict control over layout and typography. But maybe the problem is not the web. Maybe the problem is …",
+              "whyRead": "Raakt je kerninteresse in front-end software development, vooral toegankelijke interfaces, en je bredere interesse in software development; dit essay gebruikt het daoïstische idee van flexibiliteit om een fundamentele ontwerpkeuze te onderzoeken: probeer je de webpagina te beheersen, of ontwerp je voor de aard van het medium?",
+              "bestMoment": "reflectief",
+              "tags": [
+                "accessibility",
+                "front-end software development",
+                "philosophy",
+                "software development",
+                "technology"
+              ],
+              "alsoIn": [
+                "aaa-software-development-top-100",
+                "aaa-front-end-development-top-10"
+              ]
+            },
+            {
+              "position": 3,
+              "id": "01m1q5mj32wmmzv65nwajcxaf3",
+              "title": "Pocket-Sized Design: Taking Your Website to the Small Screen",
+              "author": "alistapart.com",
+              "siteName": "A List Apart",
+              "category": "article",
+              "language": null,
+              "readingTime": "8 mins",
+              "readingMinutes": 8,
+              "wordCount": 1929,
+              "publishedDate": "2004-08-31",
+              "savedDate": "2026-09-04T21:36:45.664000+00:00",
+              "imageUrl": "https://s0.wp.com/_si/?t=eyJpbWciOiJodHRwczpcL1wvaTAud3AuY29tXC9hbGlzdGFwYXJ0LmNvbVwvd3AtY29udGVudFwvdXBsb2Fkc1wvMjAxOVwvMDNcL2Nyb3BwZWQtaWNvbl9uYXZpZ2F0aW9uLWxhdXJlbC01MTIuanBnP2ZpdD01MTIlMkM1MTImcXVhbGl0eT04OSZzc2w9MSIsInR4dCI6IkEgTGlzdCBBcGFydCIsInRlbXBsYXRlIjoiZWRnZSIsImZvbnQiOiIiLCJibG9nX2lkIjoxNTgwOTQ3MjZ9.0oP5GNj3vHR_yLJaXkr_AaWMuS_ItN_HPB-deU1HBBgMQ",
+              "sourceUrl": "http://www.alistapart.com/articles/pocket",
+              "readwiseUrl": "https://read.readwise.io/read/01m1q5mj32wmmzv65nwajcxaf3",
+              "summary": "Among the many websites that are out there, few are standards-compliant. Among those few, only a handful sport style sheets adjusted to the needs of handheld devices. Of those which do offer stylin…",
+              "whyRead": "Raakt je kerninteresse in front-end software development, vooral toegankelijke interfaces, en je bredere interesse in software development; dit oude handheld-essay biedt nog steeds een helder denkraam voor ontwerpen onder fysieke, netwerk- en interactiebeperkingen.",
+              "bestMoment": "leergierig",
+              "tags": [
+                "accessibility",
+                "front-end software development",
+                "professional development",
+                "software development",
+                "technology"
+              ],
+              "alsoIn": [
+                "aaa-software-development-top-100",
+                "aaa-front-end-development-top-10"
+              ]
+            },
+            {
+              "position": 4,
+              "id": "01m1q5mmmtp4bapv8zdc44zcvg",
+              "title": "Put Your Content in My Pocket",
+              "author": "alistapart.com",
+              "siteName": "A List Apart",
+              "category": "article",
+              "language": null,
+              "readingTime": "13 mins",
+              "readingMinutes": 13,
+              "wordCount": 3333,
+              "publishedDate": "2007-09-10",
+              "savedDate": "2026-09-04T21:36:48.283000+00:00",
+              "imageUrl": "https://i0.wp.com/alistapart.com/wp-content/uploads/2012/07/iphone-viewing.jpg?fit=540%2C244&ssl=1",
+              "sourceUrl": "http://www.alistapart.com/articles/putyourcontentinmypocket",
+              "readwiseUrl": "https://read.readwise.io/read/01m1q5mmmtp4bapv8zdc44zcvg",
+              "summary": "In this first of two articles on bringing your content to the iPhone, the Iconfactory’s Craig Hockenberry offers detailed guidance on tuning your site for the hot new phone, and making change…",
+              "whyRead": "Raakt je kerninteresse in front-end software development, vooral toegankelijke interfaces, en je bredere interesse in software development; ondanks de verouderde iPhone-context blijft het stuk nuttig als geschiedenis van mobile-first denken en incrementeel verbeteren.",
+              "bestMoment": "leergierig",
+              "tags": [
+                "accessibility",
+                "front-end software development",
+                "professional development",
+                "software development",
+                "technology"
+              ],
+              "alsoIn": [
+                "aaa-software-development-top-100",
+                "aaa-front-end-development-top-10"
+              ]
+            },
+            {
+              "position": 5,
+              "id": "01m1q393yn5qpbe7gv7dq3eqv9",
+              "title": "The Resurgence of ZoomText and Window-Eyes",
+              "author": "webaim.org",
+              "siteName": "webaim.org",
+              "category": "article",
+              "language": null,
+              "readingTime": "3 mins",
+              "readingMinutes": 3,
+              "wordCount": 777,
+              "publishedDate": "2015-08-28",
+              "savedDate": "2026-09-04T20:55:33.589000+00:00",
+              "imageUrl": "https://webaim.org/blog/media/ZoomTextWE.png",
+              "sourceUrl": "https://webaim.org/blog/resurgence-of-zoomtext-and-window-eyes/",
+              "readwiseUrl": "https://read.readwise.io/read/01m1q393yn5qpbe7gv7dq3eqv9",
+              "summary": "Reported usage of ZoomText as respondents’ primary screen reader skyrocketed in the last 18 months from 1. 3% in January 2014 to 22.",
+              "whyRead": "Raakt je kerninteresse in front-end software development, vooral toegankelijke interfaces, en je bredere interesse in software development; deze WebAIM-survey laat zien hoe aannames van accessibility-professionals kunnen afwijken van het bredere gebruikersveld en welke hulpmiddelen je in tests moet meenemen.",
+              "bestMoment": "analytisch",
+              "tags": [
+                "accessibility",
+                "front-end software development",
+                "professional development",
+                "software development",
+                "technology"
+              ],
+              "alsoIn": [
+                "aaa-software-development-top-100",
+                "aaa-front-end-development-top-10"
+              ]
+            },
+            {
+              "position": 6,
+              "id": "01m1q397npt8pd2zgh8kkyx7g7",
+              "title": "Accessible JavaScript JavaScript Event Handlers",
+              "author": "webaim.org",
+              "siteName": "webaim.org",
+              "category": "article",
+              "language": null,
+              "readingTime": "5 mins",
+              "readingMinutes": 5,
+              "wordCount": 1140,
+              "publishedDate": "2020-06-27",
+              "savedDate": "2026-09-04T20:55:37.398000+00:00",
+              "imageUrl": null,
+              "sourceUrl": "https://webaim.org/techniques/javascript/eventhandlers",
+              "readwiseUrl": "https://read.readwise.io/read/01m1q397npt8pd2zgh8kkyx7g7",
+              "summary": "Event handlers are triggered by a browser or user event - such as when the page loads, when the user clicks the mouse, or when the time is 8AM.",
+              "whyRead": "Raakt je kerninteresse in front-end software development, vooral toegankelijke interfaces, en je bredere interesse in software development; dit WebAIM-overzicht maakt het verschil tussen apparaatafhankelijke en apparaat-onafhankelijke JavaScript-interactie concreet.",
+              "bestMoment": "leergierig",
+              "tags": [
+                "accessibility",
+                "front-end software development",
+                "professional development",
+                "software development",
+                "technology"
+              ],
+              "alsoIn": [
+                "aaa-software-development-top-100",
+                "aaa-front-end-development-top-10"
+              ]
+            },
+            {
+              "position": 7,
+              "id": "01m1qrpd5gceesywwc4xbbs2d9",
+              "title": "Use of ALT texts in IMGs",
+              "author": "htmlhelp.com",
+              "siteName": "htmlhelp.com",
+              "category": "article",
+              "language": null,
+              "readingTime": "15 mins",
+              "readingMinutes": 15,
+              "wordCount": 3908,
+              "publishedDate": "1995-12-01",
+              "savedDate": "2026-09-05T03:09:49.104000+00:00",
+              "imageUrl": null,
+              "sourceUrl": "http://www.htmlhelp.com/feature/art3.htm",
+              "readwiseUrl": "https://read.readwise.io/read/01m1qrpd5gceesywwc4xbbs2d9",
+              "summary": "The Web Design Group's Feature Article, by Alan Flavell, discusses the proper use of ALT texts in IMGs.",
+              "whyRead": "Raakt je kerninteresse in front-end software development, vooral toegankelijke interfaces; dit uitvoerige stuk maakt duidelijk waarom alt-tekst een functioneel alternatief voor een afbeelding is en niet simpelweg een visuele beschrijving.",
+              "bestMoment": "analytisch",
+              "tags": [
+                "accessibility",
+                "front-end software development",
+                "software development"
+              ],
+              "alsoIn": [
+                "aaa-front-end-development-top-10"
+              ]
+            }
+          ]
         }
       }
     },
@@ -18980,6 +19091,35 @@ window.TOP_ARTICLES = {
           "items": [
             {
               "position": 1,
+              "id": "01j3xagwbegqfdev85fvd1v6f7",
+              "title": "De vrijheid om vrij te zijn",
+              "author": "Hannah Arendt",
+              "siteName": "readwise.io",
+              "category": "epub",
+              "language": "Nederlands",
+              "readingTime": "42 mins",
+              "readingMinutes": 42,
+              "wordCount": 11085,
+              "publishedDate": "2019-08-07",
+              "savedDate": "2024-07-28T18:44:21.498000+00:00",
+              "imageUrl": "https://readwise-assets.s3.amazonaws.com/media/reader/parsed_document_assets/199289286/mp38g3hxHcM9az8o2aC2Nxi12b6SxLHNoUs2N_VuKKE-cover-cover.jpeg",
+              "sourceUrl": "private://read/01j3xagwbegqfdev85fvd1v6f7",
+              "readwiseUrl": "https://read.readwise.io/read/01j3xagwbegqfdev85fvd1v6f7",
+              "summary": "In haar essay \"De vrijheid om vrij te zijn\" onderzoekt Hannah Arendt het begrip vrijheid en de rol van revoluties in het bevrijden van mensen. Ze benadrukt dat echte vrijheid niet alleen politieke bevrijding vereist, maar ook de bevrijding van armoede en gebrek. Arendt waarschuwt dat de weg naar vrijheid vaak niet eenvoudig is en kan leiden tot nieuwe onderdrukking als de basisbehoeften van mensen niet worden vervuld.",
+              "whyRead": "Raakt je kerninteresse in Hannah Arendt en politieke filosofie — een sleutelessay over wat vrijheid werkelijk betekent als politieke categorie.",
+              "bestMoment": "analytisch",
+              "tags": [
+                "history",
+                "political philosophy",
+                "totalitarianism & fascism",
+                "writing & essays"
+              ],
+              "alsoIn": [
+                "boek-top-100"
+              ]
+            },
+            {
+              "position": 2,
               "id": "01kxrwf09cedgmcejrqnnjbdbn",
               "title": "All Things Shining_ Reading the Western Classics to Find Meaning in a Secular Age - Nederlands",
               "author": "read.readwise.io",
@@ -18999,19 +19139,17 @@ window.TOP_ARTICLES = {
               "bestMoment": "geconcentreerd",
               "tags": [
                 "arts & culture",
-                "boek-top-10",
                 "existentialism",
                 "nihilism",
                 "philosophy",
-                "totalitarianism & fascism",
-                "translated"
+                "totalitarianism & fascism"
               ],
               "alsoIn": [
                 "boek-top-100"
               ]
             },
             {
-              "position": 2,
+              "position": 3,
               "id": "01m14b59vrnen78wazwke624cs",
               "title": "Coachen van agile Teams",
               "author": "Lyssa Adkins",
@@ -19032,7 +19170,6 @@ window.TOP_ARTICLES = {
               "tags": [
                 "agile",
                 "behavioral psychology & coaching",
-                "boek-top-10",
                 "professional development"
               ],
               "alsoIn": [
@@ -19040,7 +19177,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 3,
+              "position": 4,
               "id": "01j29b7rm4eskpwwc52cxc3029",
               "title": "Mind Mapping: Improve Memory, Concentration, Communication, Organization, Creativity, and Time Management",
               "author": "Kam Knight",
@@ -19059,7 +19196,6 @@ window.TOP_ARTICLES = {
               "whyRead": "Raakt je interesse in leren en kennismanagement; mind mapping als visueel gereedschap voor het organiseren van gedachten en informatie.",
               "bestMoment": "leergierig",
               "tags": [
-                "boek-top-10",
                 "learning & meta-learning",
                 "pkm & note-taking",
                 "writing & essays"
@@ -19069,7 +19205,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 4,
+              "position": 5,
               "id": "01j29b7vnf4wt6n264dxs18wem",
               "title": "The Enlightenment: A Very Short Introduction",
               "author": "John Robertson",
@@ -19088,7 +19224,6 @@ window.TOP_ARTICLES = {
               "whyRead": "Raakt je interesse in geschiedenis en politieke filosofie; een compacte maar diepgaande inleiding op de Verlichting als intellectuele beweging met blijvende invloed op politiek en wetenschap.",
               "bestMoment": "analytisch",
               "tags": [
-                "boek-top-10",
                 "history",
                 "philosophy",
                 "stoicism",
@@ -19099,7 +19234,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 5,
+              "position": 6,
               "id": "01j29b7xf9vas2b7q4308ts4bb",
               "title": "Writing to Learn",
               "author": "William Knowlton Zinsser",
@@ -19119,7 +19254,6 @@ window.TOP_ARTICLES = {
               "bestMoment": "leergierig",
               "tags": [
                 "arts & culture",
-                "boek-top-10",
                 "business & work",
                 "tools & workflows"
               ],
@@ -19128,7 +19262,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 6,
+              "position": 7,
               "id": "01j29d3555wfw99h6x7txs65sh",
               "title": "Digital Zettelkasten: Principles, Methods, & Examples",
               "author": "David Kadavy",
@@ -19147,7 +19281,6 @@ window.TOP_ARTICLES = {
               "whyRead": "Raakt je interesse in PKM en kennisbeheer; dit boek legt de principes van het Zettelkasten-systeem uit in een digitale context — direct relevant voor je Obsidian-workflow.",
               "bestMoment": "leergierig",
               "tags": [
-                "boek-top-10",
                 "learning & meta-learning",
                 "pkm & note-taking",
                 "tools & workflows"
@@ -19157,7 +19290,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 7,
+              "position": 8,
               "id": "01j29d37x3cztmzd8trte1m38n",
               "title": "How to Take Smart Notes: One Simple Technique to Boost Writing, Learning and Thinking – for Students, Academics and Nonfiction Book Writers",
               "author": "Sönke Ahrens",
@@ -19176,7 +19309,6 @@ window.TOP_ARTICLES = {
               "whyRead": "Raakt je kerninteresse in PKM — Ahrens legt de Zettelkasten-methode uit als een denksysteem, niet slechts als notitiesysteem.",
               "bestMoment": "analytisch",
               "tags": [
-                "boek-top-10",
                 "learning & meta-learning",
                 "pkm & note-taking",
                 "writing & essays"
@@ -19186,7 +19318,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 8,
+              "position": 9,
               "id": "01j29d3bqtx49g937cc5fnz2dc",
               "title": "Mind Management, Not Time Management",
               "author": "David Kadavy",
@@ -19205,40 +19337,9 @@ window.TOP_ARTICLES = {
               "whyRead": "Raakt je interesse in leren en PKM — Kadavy herformuleert productiviteit als energiebeheer in plaats van tijdbeheer, met directe relevantie voor creatief en intellectueel werk.",
               "bestMoment": "leergierig",
               "tags": [
-                "boek-top-10",
                 "learning & meta-learning",
                 "personal growth & life philosophy",
                 "political philosophy"
-              ],
-              "alsoIn": [
-                "boek-top-100"
-              ]
-            },
-            {
-              "position": 9,
-              "id": "01j3xagwbegqfdev85fvd1v6f7",
-              "title": "De vrijheid om vrij te zijn",
-              "author": "Hannah Arendt",
-              "siteName": "readwise.io",
-              "category": "epub",
-              "language": "Nederlands",
-              "readingTime": "42 mins",
-              "readingMinutes": 42,
-              "wordCount": 11085,
-              "publishedDate": "2019-08-07",
-              "savedDate": "2024-07-28T18:44:21.498000+00:00",
-              "imageUrl": "https://readwise-assets.s3.amazonaws.com/media/reader/parsed_document_assets/199289286/mp38g3hxHcM9az8o2aC2Nxi12b6SxLHNoUs2N_VuKKE-cover-cover.jpeg",
-              "sourceUrl": "private://read/01j3xagwbegqfdev85fvd1v6f7",
-              "readwiseUrl": "https://read.readwise.io/read/01j3xagwbegqfdev85fvd1v6f7",
-              "summary": "In haar essay \"De vrijheid om vrij te zijn\" onderzoekt Hannah Arendt het begrip vrijheid en de rol van revoluties in het bevrijden van mensen. Ze benadrukt dat echte vrijheid niet alleen politieke bevrijding vereist, maar ook de bevrijding van armoede en gebrek. Arendt waarschuwt dat de weg naar vrijheid vaak niet eenvoudig is en kan leiden tot nieuwe onderdrukking als de basisbehoeften van mensen niet worden vervuld.",
-              "whyRead": "Raakt je kerninteresse in Hannah Arendt en politieke filosofie — een sleutelessay over wat vrijheid werkelijk betekent als politieke categorie.",
-              "bestMoment": "analytisch",
-              "tags": [
-                "boek-top-10",
-                "history",
-                "political philosophy",
-                "totalitarianism & fascism",
-                "writing & essays"
               ],
               "alsoIn": [
                 "boek-top-100"
@@ -19264,7 +19365,6 @@ window.TOP_ARTICLES = {
               "whyRead": "Raakt je interesse in duurzaam kenniswerk, creativiteit en persoonlijke groei. Pang maakt rust niet tot beloning ná productiviteit, maar tot voorwaarde voor goed en origineel werk.",
               "bestMoment": "leergierig",
               "tags": [
-                "boek-top-10",
                 "existentialism",
                 "health & wellness",
                 "learning & meta-learning",
@@ -19284,6 +19384,35 @@ window.TOP_ARTICLES = {
           "items": [
             {
               "position": 1,
+              "id": "01j3xagwbegqfdev85fvd1v6f7",
+              "title": "De vrijheid om vrij te zijn",
+              "author": "Hannah Arendt",
+              "siteName": "readwise.io",
+              "category": "epub",
+              "language": "Nederlands",
+              "readingTime": "42 mins",
+              "readingMinutes": 42,
+              "wordCount": 11085,
+              "publishedDate": "2019-08-07",
+              "savedDate": "2024-07-28T18:44:21.498000+00:00",
+              "imageUrl": "https://readwise-assets.s3.amazonaws.com/media/reader/parsed_document_assets/199289286/mp38g3hxHcM9az8o2aC2Nxi12b6SxLHNoUs2N_VuKKE-cover-cover.jpeg",
+              "sourceUrl": "private://read/01j3xagwbegqfdev85fvd1v6f7",
+              "readwiseUrl": "https://read.readwise.io/read/01j3xagwbegqfdev85fvd1v6f7",
+              "summary": "In haar essay \"De vrijheid om vrij te zijn\" onderzoekt Hannah Arendt het begrip vrijheid en de rol van revoluties in het bevrijden van mensen. Ze benadrukt dat echte vrijheid niet alleen politieke bevrijding vereist, maar ook de bevrijding van armoede en gebrek. Arendt waarschuwt dat de weg naar vrijheid vaak niet eenvoudig is en kan leiden tot nieuwe onderdrukking als de basisbehoeften van mensen niet worden vervuld.",
+              "whyRead": "Raakt je kerninteresse in Hannah Arendt en politieke filosofie — een sleutelessay over wat vrijheid werkelijk betekent als politieke categorie.",
+              "bestMoment": "analytisch",
+              "tags": [
+                "history",
+                "political philosophy",
+                "totalitarianism & fascism",
+                "writing & essays"
+              ],
+              "alsoIn": [
+                "boek-top-10"
+              ]
+            },
+            {
+              "position": 2,
               "id": "01kxrwf09cedgmcejrqnnjbdbn",
               "title": "All Things Shining_ Reading the Western Classics to Find Meaning in a Secular Age - Nederlands",
               "author": "read.readwise.io",
@@ -19303,19 +19432,17 @@ window.TOP_ARTICLES = {
               "bestMoment": "geconcentreerd",
               "tags": [
                 "arts & culture",
-                "boek-top-10",
                 "existentialism",
                 "nihilism",
                 "philosophy",
-                "totalitarianism & fascism",
-                "translated"
+                "totalitarianism & fascism"
               ],
               "alsoIn": [
                 "boek-top-10"
               ]
             },
             {
-              "position": 2,
+              "position": 3,
               "id": "01m14b59vrnen78wazwke624cs",
               "title": "Coachen van agile Teams",
               "author": "Lyssa Adkins",
@@ -19336,7 +19463,6 @@ window.TOP_ARTICLES = {
               "tags": [
                 "agile",
                 "behavioral psychology & coaching",
-                "boek-top-10",
                 "professional development"
               ],
               "alsoIn": [
@@ -19344,7 +19470,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 3,
+              "position": 4,
               "id": "01j29b7rm4eskpwwc52cxc3029",
               "title": "Mind Mapping: Improve Memory, Concentration, Communication, Organization, Creativity, and Time Management",
               "author": "Kam Knight",
@@ -19363,7 +19489,6 @@ window.TOP_ARTICLES = {
               "whyRead": "Raakt je interesse in leren en kennismanagement; mind mapping als visueel gereedschap voor het organiseren van gedachten en informatie.",
               "bestMoment": "leergierig",
               "tags": [
-                "boek-top-10",
                 "learning & meta-learning",
                 "pkm & note-taking",
                 "writing & essays"
@@ -19373,7 +19498,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 4,
+              "position": 5,
               "id": "01j29b7vnf4wt6n264dxs18wem",
               "title": "The Enlightenment: A Very Short Introduction",
               "author": "John Robertson",
@@ -19392,7 +19517,6 @@ window.TOP_ARTICLES = {
               "whyRead": "Raakt je interesse in geschiedenis en politieke filosofie; een compacte maar diepgaande inleiding op de Verlichting als intellectuele beweging met blijvende invloed op politiek en wetenschap.",
               "bestMoment": "analytisch",
               "tags": [
-                "boek-top-10",
                 "history",
                 "philosophy",
                 "stoicism",
@@ -19403,7 +19527,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 5,
+              "position": 6,
               "id": "01j29b7xf9vas2b7q4308ts4bb",
               "title": "Writing to Learn",
               "author": "William Knowlton Zinsser",
@@ -19423,7 +19547,6 @@ window.TOP_ARTICLES = {
               "bestMoment": "leergierig",
               "tags": [
                 "arts & culture",
-                "boek-top-10",
                 "business & work",
                 "tools & workflows"
               ],
@@ -19432,7 +19555,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 6,
+              "position": 7,
               "id": "01j29d3555wfw99h6x7txs65sh",
               "title": "Digital Zettelkasten: Principles, Methods, & Examples",
               "author": "David Kadavy",
@@ -19451,7 +19574,6 @@ window.TOP_ARTICLES = {
               "whyRead": "Raakt je interesse in PKM en kennisbeheer; dit boek legt de principes van het Zettelkasten-systeem uit in een digitale context — direct relevant voor je Obsidian-workflow.",
               "bestMoment": "leergierig",
               "tags": [
-                "boek-top-10",
                 "learning & meta-learning",
                 "pkm & note-taking",
                 "tools & workflows"
@@ -19461,7 +19583,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 7,
+              "position": 8,
               "id": "01j29d37x3cztmzd8trte1m38n",
               "title": "How to Take Smart Notes: One Simple Technique to Boost Writing, Learning and Thinking – for Students, Academics and Nonfiction Book Writers",
               "author": "Sönke Ahrens",
@@ -19480,7 +19602,6 @@ window.TOP_ARTICLES = {
               "whyRead": "Raakt je kerninteresse in PKM — Ahrens legt de Zettelkasten-methode uit als een denksysteem, niet slechts als notitiesysteem.",
               "bestMoment": "analytisch",
               "tags": [
-                "boek-top-10",
                 "learning & meta-learning",
                 "pkm & note-taking",
                 "writing & essays"
@@ -19490,7 +19611,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 8,
+              "position": 9,
               "id": "01j29d3bqtx49g937cc5fnz2dc",
               "title": "Mind Management, Not Time Management",
               "author": "David Kadavy",
@@ -19509,40 +19630,9 @@ window.TOP_ARTICLES = {
               "whyRead": "Raakt je interesse in leren en PKM — Kadavy herformuleert productiviteit als energiebeheer in plaats van tijdbeheer, met directe relevantie voor creatief en intellectueel werk.",
               "bestMoment": "leergierig",
               "tags": [
-                "boek-top-10",
                 "learning & meta-learning",
                 "personal growth & life philosophy",
                 "political philosophy"
-              ],
-              "alsoIn": [
-                "boek-top-10"
-              ]
-            },
-            {
-              "position": 9,
-              "id": "01j3xagwbegqfdev85fvd1v6f7",
-              "title": "De vrijheid om vrij te zijn",
-              "author": "Hannah Arendt",
-              "siteName": "readwise.io",
-              "category": "epub",
-              "language": "Nederlands",
-              "readingTime": "42 mins",
-              "readingMinutes": 42,
-              "wordCount": 11085,
-              "publishedDate": "2019-08-07",
-              "savedDate": "2024-07-28T18:44:21.498000+00:00",
-              "imageUrl": "https://readwise-assets.s3.amazonaws.com/media/reader/parsed_document_assets/199289286/mp38g3hxHcM9az8o2aC2Nxi12b6SxLHNoUs2N_VuKKE-cover-cover.jpeg",
-              "sourceUrl": "private://read/01j3xagwbegqfdev85fvd1v6f7",
-              "readwiseUrl": "https://read.readwise.io/read/01j3xagwbegqfdev85fvd1v6f7",
-              "summary": "In haar essay \"De vrijheid om vrij te zijn\" onderzoekt Hannah Arendt het begrip vrijheid en de rol van revoluties in het bevrijden van mensen. Ze benadrukt dat echte vrijheid niet alleen politieke bevrijding vereist, maar ook de bevrijding van armoede en gebrek. Arendt waarschuwt dat de weg naar vrijheid vaak niet eenvoudig is en kan leiden tot nieuwe onderdrukking als de basisbehoeften van mensen niet worden vervuld.",
-              "whyRead": "Raakt je kerninteresse in Hannah Arendt en politieke filosofie — een sleutelessay over wat vrijheid werkelijk betekent als politieke categorie.",
-              "bestMoment": "analytisch",
-              "tags": [
-                "boek-top-10",
-                "history",
-                "political philosophy",
-                "totalitarianism & fascism",
-                "writing & essays"
               ],
               "alsoIn": [
                 "boek-top-10"
@@ -19568,7 +19658,6 @@ window.TOP_ARTICLES = {
               "whyRead": "Raakt je interesse in duurzaam kenniswerk, creativiteit en persoonlijke groei. Pang maakt rust niet tot beloning ná productiviteit, maar tot voorwaarde voor goed en origineel werk.",
               "bestMoment": "leergierig",
               "tags": [
-                "boek-top-10",
                 "existentialism",
                 "health & wellness",
                 "learning & meta-learning",
@@ -19609,6 +19698,87 @@ window.TOP_ARTICLES = {
             },
             {
               "position": 12,
+              "id": "01j3291sr3ramzk98nw3hqwcpc",
+              "title": "Flow: Psychologie van de optimale ervaring",
+              "author": "Mihaly Csikszentmihalyi",
+              "siteName": "readwise.io",
+              "category": "epub",
+              "language": "Nederlands",
+              "readingTime": "8 hrs 35 mins",
+              "readingMinutes": 515,
+              "wordCount": 136355,
+              "publishedDate": "2020-07-08",
+              "savedDate": "2024-07-18T06:39:09.073000+00:00",
+              "imageUrl": "https://readwise-assets.s3.amazonaws.com/media/reader/parsed_document_assets/195784228/gGmJI_6w17FkWl9bb2d3iou__PDKkYsaP1jttEJzjBg-Csik_aDc2eXR.png",
+              "sourceUrl": "private://read/01j3291sr3ramzk98nw3hqwcpc",
+              "readwiseUrl": "https://read.readwise.io/read/01j3291sr3ramzk98nw3hqwcpc",
+              "summary": "1. Surrendering completely to our genetic programming can make us vulnerable, as we may lose control over our actions and thoughts.\n2. Developing an autotelic personality allows individuals to turn limitations into opportunities for freedom and creativity in their work.\n3. Achieving a state of purposefulness, determination, and harmony can transform life into a fulfilling and meaningful flow experience.",
+              "whyRead": "Raakt je interesse in psychologie en zelfgestuurd leren — Csikszentmihalyi geeft een empirisch onderbouwde definitie van optimaal welbevinden die verder gaat dan geluk.",
+              "bestMoment": "analytisch",
+              "tags": [
+                "personal growth & life philosophy",
+                "political philosophy",
+                "psychology & behavior",
+                "stoicism",
+                "totalitarianism & fascism"
+              ],
+              "alsoIn": []
+            },
+            {
+              "position": 13,
+              "id": "01k8982yc86fjcjhr0h7yctwh2",
+              "title": "De tweede berg",
+              "author": "David Brooks",
+              "siteName": "readwise-upload-epub",
+              "category": "epub",
+              "language": "Nederlands",
+              "readingTime": "7 hrs 33 mins",
+              "readingMinutes": 453,
+              "wordCount": 120010,
+              "publishedDate": "2020-03-09",
+              "savedDate": "2025-10-23T19:17:46.526000+00:00",
+              "imageUrl": "https://readwise-assets.s3.amazonaws.com/media/reader/parsed_document_assets/378969013/a5trddtFtSktFHeFHY3wVsAd-vGg-Pdz2gK5GsEm71o-cove_Yz4vegb.jpg",
+              "sourceUrl": "private://read/01k8982yc86fjcjhr0h7yctwh2",
+              "readwiseUrl": "https://read.readwise.io/read/01k8982yc86fjcjhr0h7yctwh2",
+              "summary": "We moeten zoeken naar een tweede berg: een leven van verbondenheid en roeping naast materieel succes. Jonge mensen missen richting omdat cultuur hen alleen individuele keuzes leert. Ware betekenis komt uit dienst, liefde en het volgen van je roeping.",
+              "whyRead": "Raakt je interesse in filosofie en persoonlijke groei — Brooks' centrale argument over de tweede berg raakt direct aan deugdethiek en de vraag wat een goed leven is.",
+              "bestMoment": "reflectief",
+              "tags": [
+                "existentialism",
+                "personal growth & life philosophy",
+                "philosophy",
+                "totalitarianism & fascism"
+              ],
+              "alsoIn": []
+            },
+            {
+              "position": 14,
+              "id": "01j28vk7ysb2em2twbr7zmfv0b",
+              "title": "Een kleine geschiedenis van bijna alles",
+              "author": "Bill Bryson",
+              "siteName": "readwise.io",
+              "category": "epub",
+              "language": "Nederlands",
+              "readingTime": "12 hrs 53 mins",
+              "readingMinutes": 773,
+              "wordCount": 204761,
+              "publishedDate": "2016-11-22",
+              "savedDate": "2024-07-08T09:42:59.814000+00:00",
+              "imageUrl": "",
+              "sourceUrl": "private://read/01j28vk7ysb2em2twbr7zmfv0b",
+              "readwiseUrl": "https://read.readwise.io/read/01j28vk7ysb2em2twbr7zmfv0b",
+              "summary": "The text discusses questions about the Earth's core, the vastness of the universe, and the lifespan of atoms. It highlights the rarity of life in the universe and the interconnectedness of all living things. The author also touches on historical scientific discoveries and the mysteries that remain unsolved.",
+              "whyRead": "Raakt je interesse in wetenschap en cultuurgeschiedenis; Bryson beschrijft de hele wetenschapsgeschiedenis met humor en verwondering, van atomen tot menselijke evolutie.",
+              "bestMoment": "ontspannen",
+              "tags": [
+                "personal growth & life philosophy",
+                "popular science",
+                "writing & essays"
+              ],
+              "alsoIn": []
+            },
+            {
+              "position": 15,
               "id": "01j29b7mexjf9xsbecg5fyme08",
               "title": "Civil Disobedience",
               "author": "Henry David Thoreau",
@@ -19634,7 +19804,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 13,
+              "position": 16,
               "id": "01j29b7stf12s2wpwzqdtfzme7",
               "title": "Self-Reliance",
               "author": "Ralph Waldo Emerson",
@@ -19662,7 +19832,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 14,
+              "position": 17,
               "id": "01j29d329ferdddmnja3ywxwye",
               "title": "As a Man Thinketh: 21st Century Edition (The Wisdom of James Allen)",
               "author": "James Allen",
@@ -19688,7 +19858,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 15,
+              "position": 18,
               "id": "01j29d3606c404ravsnqd4m202",
               "title": "Enchiridion",
               "author": "Epictetus",
@@ -19716,7 +19886,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 16,
+              "position": 19,
               "id": "01j29d3746nt7zejbxvg8cvbr9",
               "title": "Flow: The Psychology of Optimal Experience by Mihaly Csikszentmihalyi",
               "author": "Mihaly Csikszentmihalyi",
@@ -19748,7 +19918,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 17,
+              "position": 20,
               "id": "01j29d3ekt10z6968e7p58zr3a",
               "title": "The Art of War (Chiron Academic Press - The Original Authoritative Edition)",
               "author": "Sun Tzu",
@@ -19774,35 +19944,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 18,
-              "id": "01j3291sr3ramzk98nw3hqwcpc",
-              "title": "Flow: Psychologie van de optimale ervaring",
-              "author": "Mihaly Csikszentmihalyi",
-              "siteName": "readwise.io",
-              "category": "epub",
-              "language": "Nederlands",
-              "readingTime": "8 hrs 35 mins",
-              "readingMinutes": 515,
-              "wordCount": 136355,
-              "publishedDate": "2020-07-08",
-              "savedDate": "2024-07-18T06:39:09.073000+00:00",
-              "imageUrl": "https://readwise-assets.s3.amazonaws.com/media/reader/parsed_document_assets/195784228/gGmJI_6w17FkWl9bb2d3iou__PDKkYsaP1jttEJzjBg-Csik_aDc2eXR.png",
-              "sourceUrl": "private://read/01j3291sr3ramzk98nw3hqwcpc",
-              "readwiseUrl": "https://read.readwise.io/read/01j3291sr3ramzk98nw3hqwcpc",
-              "summary": "1. Surrendering completely to our genetic programming can make us vulnerable, as we may lose control over our actions and thoughts.\n2. Developing an autotelic personality allows individuals to turn limitations into opportunities for freedom and creativity in their work.\n3. Achieving a state of purposefulness, determination, and harmony can transform life into a fulfilling and meaningful flow experience.",
-              "whyRead": "Raakt je interesse in psychologie en zelfgestuurd leren — Csikszentmihalyi geeft een empirisch onderbouwde definitie van optimaal welbevinden die verder gaat dan geluk.",
-              "bestMoment": "analytisch",
-              "tags": [
-                "personal growth & life philosophy",
-                "political philosophy",
-                "psychology & behavior",
-                "stoicism",
-                "totalitarianism & fascism"
-              ],
-              "alsoIn": []
-            },
-            {
-              "position": 19,
+              "position": 21,
               "id": "01j3smc8th5ac3n6axj4yg2s37",
               "title": "What's Our Problem?",
               "author": "Tim Urban",
@@ -19830,7 +19972,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 20,
+              "position": 22,
               "id": "01k5r4czdk2jfrtx340tw8zcrt",
               "title": "The Social Animal",
               "author": "David Brooks",
@@ -19858,34 +20000,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 21,
-              "id": "01k8982yc86fjcjhr0h7yctwh2",
-              "title": "De tweede berg",
-              "author": "David Brooks",
-              "siteName": "readwise-upload-epub",
-              "category": "epub",
-              "language": "Nederlands",
-              "readingTime": "7 hrs 33 mins",
-              "readingMinutes": 453,
-              "wordCount": 120010,
-              "publishedDate": "2020-03-09",
-              "savedDate": "2025-10-23T19:17:46.526000+00:00",
-              "imageUrl": "https://readwise-assets.s3.amazonaws.com/media/reader/parsed_document_assets/378969013/a5trddtFtSktFHeFHY3wVsAd-vGg-Pdz2gK5GsEm71o-cove_Yz4vegb.jpg",
-              "sourceUrl": "private://read/01k8982yc86fjcjhr0h7yctwh2",
-              "readwiseUrl": "https://read.readwise.io/read/01k8982yc86fjcjhr0h7yctwh2",
-              "summary": "We moeten zoeken naar een tweede berg: een leven van verbondenheid en roeping naast materieel succes. Jonge mensen missen richting omdat cultuur hen alleen individuele keuzes leert. Ware betekenis komt uit dienst, liefde en het volgen van je roeping.",
-              "whyRead": "Raakt je interesse in filosofie en persoonlijke groei — Brooks' centrale argument over de tweede berg raakt direct aan deugdethiek en de vraag wat een goed leven is.",
-              "bestMoment": "reflectief",
-              "tags": [
-                "existentialism",
-                "personal growth & life philosophy",
-                "philosophy",
-                "totalitarianism & fascism"
-              ],
-              "alsoIn": []
-            },
-            {
-              "position": 22,
+              "position": 23,
               "id": "01kqn2zjmevdr865h4ah7q46ca",
               "title": "The Shortest History of Europe",
               "author": "John Hirst",
@@ -19912,7 +20027,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 23,
+              "position": 24,
               "id": "01kxh3cr3pknc3hxnhsx33xdcx",
               "title": "The Cambridge Handbook of the Law, Ethics and Policy of Artificial Intelligence",
               "author": "read.readwise.io",
@@ -19942,7 +20057,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 24,
+              "position": 25,
               "id": "01kxh3d92yh43t0kddha2vhyxz",
               "title": "Het Begin Van Alles. Een Nieuwe Geschiedenis Van De Mensheid",
               "author": "read.readwise.io",
@@ -19972,7 +20087,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 25,
+              "position": 26,
               "id": "01kxh3dc0gn9f96vqa7s1t9fnw",
               "title": "Het nationaalsocialisme als rancuneleer",
               "author": "read.readwise.io",
@@ -19998,7 +20113,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 26,
+              "position": 27,
               "id": "01kxk0f5xscnb3hqq0r0r6s3xc",
               "title": "Ik zie wat ik geloof",
               "author": "Roxane van Iperen",
@@ -20021,33 +20136,6 @@ window.TOP_ARTICLES = {
                 "political philosophy",
                 "sociology & social structures",
                 "totalitarianism & fascism"
-              ],
-              "alsoIn": []
-            },
-            {
-              "position": 27,
-              "id": "01j28vk7ysb2em2twbr7zmfv0b",
-              "title": "Een kleine geschiedenis van bijna alles",
-              "author": "Bill Bryson",
-              "siteName": "readwise.io",
-              "category": "epub",
-              "language": "Nederlands",
-              "readingTime": "12 hrs 53 mins",
-              "readingMinutes": 773,
-              "wordCount": 204761,
-              "publishedDate": "2016-11-22",
-              "savedDate": "2024-07-08T09:42:59.814000+00:00",
-              "imageUrl": "",
-              "sourceUrl": "private://read/01j28vk7ysb2em2twbr7zmfv0b",
-              "readwiseUrl": "https://read.readwise.io/read/01j28vk7ysb2em2twbr7zmfv0b",
-              "summary": "The text discusses questions about the Earth's core, the vastness of the universe, and the lifespan of atoms. It highlights the rarity of life in the universe and the interconnectedness of all living things. The author also touches on historical scientific discoveries and the mysteries that remain unsolved.",
-              "whyRead": "Raakt je interesse in wetenschap en cultuurgeschiedenis; Bryson beschrijft de hele wetenschapsgeschiedenis met humor en verwondering, van atomen tot menselijke evolutie.",
-              "bestMoment": "ontspannen",
-              "tags": [
-                "light-reading",
-                "personal growth & life philosophy",
-                "popular science",
-                "writing & essays"
               ],
               "alsoIn": []
             },
@@ -20126,7 +20214,6 @@ window.TOP_ARTICLES = {
               "tags": [
                 "cognitive science",
                 "health & wellness",
-                "light-reading",
                 "writing & essays"
               ],
               "alsoIn": []
@@ -20256,13 +20343,63 @@ window.TOP_ARTICLES = {
               "bestMoment": "ontspannen",
               "tags": [
                 "fiction",
-                "history",
-                "light-reading"
+                "history"
               ],
               "alsoIn": []
             },
             {
               "position": 36,
+              "id": "01j422ay10wfm6whm7md7qny8s",
+              "title": "Vertel me het einde",
+              "author": "Valeria Luiselli",
+              "siteName": "readwise.io",
+              "category": "epub",
+              "language": "Nederlands",
+              "readingTime": "1 hr 41 mins",
+              "readingMinutes": 101,
+              "wordCount": 26663,
+              "publishedDate": "2017-08-16",
+              "savedDate": "2024-07-30T14:57:30.155000+00:00",
+              "imageUrl": "",
+              "sourceUrl": "private://read/01j422ay10wfm6whm7md7qny8s",
+              "readwiseUrl": "https://read.readwise.io/read/01j422ay10wfm6whm7md7qny8s",
+              "summary": "In \"Vertel me het einde\" van Valeria Luiselli beschrijft de auteur de reis van migrantenkinderen naar de Verenigde Staten en de uitdagingen die ze onderweg tegenkomen. Ze onderzoeken verhalen van ongeregistreerde kinderen en proberen antwoorden te geven op moeilijke vragen van hun eigen kinderen over deze situatie. Het verhaal onthult de complexiteit van immigratie en de hoop en wanhoop van degenen die de reis maken.",
+              "whyRead": "Raakt je interesse in sociologie en politiek — Luiselli schrijft een ongewoon scherp politiek essay door de bril van 40 bureaucratische vragen aan vluchtelingenkinderen.",
+              "bestMoment": "kritisch",
+              "tags": [
+                "current affairs & politics",
+                "sociology & inequality"
+              ],
+              "alsoIn": []
+            },
+            {
+              "position": 37,
+              "id": "01jjp69txapfggvjvr95mrfp46",
+              "title": "Co-intelligentie",
+              "author": "Ethan Mollick",
+              "siteName": "readwise.io",
+              "category": "epub",
+              "language": "Nederlands",
+              "readingTime": "3 hrs 56 mins",
+              "readingMinutes": 236,
+              "wordCount": 62446,
+              "publishedDate": "2024-11-27",
+              "savedDate": "2025-01-28T10:11:22.682000+00:00",
+              "imageUrl": "https://readwise-assets.s3.amazonaws.com/media/reader/parsed_document_assets/265005519/Q1JvtWdu5FoXAht0-x9nBCquAYX41wh1RhNUsHt0yo8-cove_unAdmuH.jpg",
+              "sourceUrl": "private://read/01jjp69txapfggvjvr95mrfp46",
+              "readwiseUrl": "https://read.readwise.io/read/01jjp69txapfggvjvr95mrfp46",
+              "summary": "AI kan onderwijs verbeteren door persoonlijke begeleiding te bieden en nieuwe ideeën te genereren. Het is belangrijk dat mensen begrijpen hoe ze AI effectief en ethisch kunnen gebruiken, terwijl ze hun eigen vaardigheden blijven ontwikkelen. AI vervangt geen deskundigheid, maar helpt mensen zich te concentreren op hun sterke punten.",
+              "whyRead": "Raakt je kerninteresse in AI — Mollick behandelt AI als een 'buitenaardse intelligentie' die je kan inzetten als co-denker, niet slechts als tool.",
+              "bestMoment": "leergierig",
+              "tags": [
+                "ai & machine learning",
+                "ai ethics & society",
+                "learning & meta-learning"
+              ],
+              "alsoIn": []
+            },
+            {
+              "position": 38,
               "id": "01j29d39ky8ne144y1vxzs5wec",
               "title": "Meditations",
               "author": "Marcus Marcus Aurelius",
@@ -20289,7 +20426,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 37,
+              "position": 39,
               "id": "01j29d3cds6c9f3v6jjbwjd0m8",
               "title": "Never Binge Again(tm): Reprogram Yourself to Think Like a Permanently Thin Person. Stop Overeating and Binge Eating and Stick to the Food Plan of Your Choice!",
               "author": "Glenn Livingston, Ph.d.",
@@ -20315,7 +20452,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 38,
+              "position": 40,
               "id": "01j29d3gwr2rypyn0gyfn4dym7",
               "title": "The Great Mental Models: General Thinking Concepts",
               "author": "Farnam Street",
@@ -20342,32 +20479,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 39,
-              "id": "01j422ay10wfm6whm7md7qny8s",
-              "title": "Vertel me het einde",
-              "author": "Valeria Luiselli",
-              "siteName": "readwise.io",
-              "category": "epub",
-              "language": "Nederlands",
-              "readingTime": "1 hr 41 mins",
-              "readingMinutes": 101,
-              "wordCount": 26663,
-              "publishedDate": "2017-08-16",
-              "savedDate": "2024-07-30T14:57:30.155000+00:00",
-              "imageUrl": "",
-              "sourceUrl": "private://read/01j422ay10wfm6whm7md7qny8s",
-              "readwiseUrl": "https://read.readwise.io/read/01j422ay10wfm6whm7md7qny8s",
-              "summary": "In \"Vertel me het einde\" van Valeria Luiselli beschrijft de auteur de reis van migrantenkinderen naar de Verenigde Staten en de uitdagingen die ze onderweg tegenkomen. Ze onderzoeken verhalen van ongeregistreerde kinderen en proberen antwoorden te geven op moeilijke vragen van hun eigen kinderen over deze situatie. Het verhaal onthult de complexiteit van immigratie en de hoop en wanhoop van degenen die de reis maken.",
-              "whyRead": "Raakt je interesse in sociologie en politiek — Luiselli schrijft een ongewoon scherp politiek essay door de bril van 40 bureaucratische vragen aan vluchtelingenkinderen.",
-              "bestMoment": "kritisch",
-              "tags": [
-                "current affairs & politics",
-                "sociology & inequality"
-              ],
-              "alsoIn": []
-            },
-            {
-              "position": 40,
+              "position": 41,
               "id": "01j422az0v87b7wzb7fx7f9r9t",
               "title": "Uitgewoond",
               "author": "Cody Hochstenbach",
@@ -20392,7 +20504,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 41,
+              "position": 42,
               "id": "01j422azr657ycnf0hesy20s0f",
               "title": "Stuurloos",
               "author": "Kustaw Bessems",
@@ -20417,7 +20529,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 42,
+              "position": 43,
               "id": "01j5m80ektv0bcx45xmy2a5kdy",
               "title": "Crime and Punishment",
               "author": "Fyodor Dostoevsky",
@@ -20443,7 +20555,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 43,
+              "position": 44,
               "id": "01j6f8r2v0xj1cgdnf7pqxqjyz",
               "title": "Candide",
               "author": "Voltaire",
@@ -20469,7 +20581,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 44,
+              "position": 45,
               "id": "01j6q1n1v6s769rr1vxcs8ztd1",
               "title": "How to Live on 24 Hours a Day",
               "author": "Arnold Bennett",
@@ -20490,32 +20602,6 @@ window.TOP_ARTICLES = {
               "tags": [
                 "personal growth & life philosophy",
                 "philosophy"
-              ],
-              "alsoIn": []
-            },
-            {
-              "position": 45,
-              "id": "01jjp69txapfggvjvr95mrfp46",
-              "title": "Co-intelligentie",
-              "author": "Ethan Mollick",
-              "siteName": "readwise.io",
-              "category": "epub",
-              "language": "Nederlands",
-              "readingTime": "3 hrs 56 mins",
-              "readingMinutes": 236,
-              "wordCount": 62446,
-              "publishedDate": "2024-11-27",
-              "savedDate": "2025-01-28T10:11:22.682000+00:00",
-              "imageUrl": "https://readwise-assets.s3.amazonaws.com/media/reader/parsed_document_assets/265005519/Q1JvtWdu5FoXAht0-x9nBCquAYX41wh1RhNUsHt0yo8-cove_unAdmuH.jpg",
-              "sourceUrl": "private://read/01jjp69txapfggvjvr95mrfp46",
-              "readwiseUrl": "https://read.readwise.io/read/01jjp69txapfggvjvr95mrfp46",
-              "summary": "AI kan onderwijs verbeteren door persoonlijke begeleiding te bieden en nieuwe ideeën te genereren. Het is belangrijk dat mensen begrijpen hoe ze AI effectief en ethisch kunnen gebruiken, terwijl ze hun eigen vaardigheden blijven ontwikkelen. AI vervangt geen deskundigheid, maar helpt mensen zich te concentreren op hun sterke punten.",
-              "whyRead": "Raakt je kerninteresse in AI — Mollick behandelt AI als een 'buitenaardse intelligentie' die je kan inzetten als co-denker, niet slechts als tool.",
-              "bestMoment": "leergierig",
-              "tags": [
-                "ai & machine learning",
-                "ai ethics & society",
-                "learning & meta-learning"
               ],
               "alsoIn": []
             },
@@ -20684,86 +20770,6 @@ window.TOP_ARTICLES = {
             },
             {
               "position": 52,
-              "id": "01j29d38xxr3gp6z4x14nzw6es",
-              "title": "How to Win Friends and Influence People",
-              "author": "Dale Carnegie",
-              "siteName": "readwise.io",
-              "category": "epub",
-              "language": "Engels",
-              "readingTime": "4 hrs 56 mins",
-              "readingMinutes": 296,
-              "wordCount": 78177,
-              "publishedDate": "2009-11-03",
-              "savedDate": "2024-07-08T14:48:50.888000+00:00",
-              "imageUrl": "https://readwise-assets.s3.amazonaws.com/media/reader/parsed_document_assets/192401280/Skula66FO8hDWMI6sfwvHvSamcCW5Ly-fEBk3Hx4cXg-cover-cover.jpeg",
-              "sourceUrl": "private://read/01j29d38xxr3gp6z4x14nzw6es",
-              "readwiseUrl": "https://read.readwise.io/read/01j29d38xxr3gp6z4x14nzw6es",
-              "summary": "Dale Carnegie shares how he overcame personal struggles and learned the importance of praising others instead of criticizing them. He emphasizes building positive relationships and understanding people's interests to influence them effectively. By using kindness and encouragement, he found success in both sales and personal connections.",
-              "whyRead": "Historisch interessant als grondlegger van communicatieliteratuur — inhoudelijk gedateerd maar de kernprincipes zijn solide en nog steeds herkenbaar in moderne varianten.",
-              "bestMoment": "ontspannen",
-              "tags": [
-                "business & work",
-                "light-reading",
-                "personal growth & life philosophy",
-                "psychology & behavior"
-              ],
-              "alsoIn": []
-            },
-            {
-              "position": 53,
-              "id": "01j29d3aw87yzcwsjrejygem67",
-              "title": "Mind Gym: Achieve More by Thinking Differently",
-              "author": "Sebastian Bailey",
-              "siteName": "readwise.io",
-              "category": "epub",
-              "language": "Engels",
-              "readingTime": "6 hrs 5 mins",
-              "readingMinutes": 365,
-              "wordCount": 96634,
-              "publishedDate": "2016-01-19",
-              "savedDate": "2024-07-08T14:48:52.884000+00:00",
-              "imageUrl": "https://readwise-assets.s3.amazonaws.com/media/reader/parsed_document_assets/192401323/hhxrg7ce_JQGG1wwsEgpf5VpM5B-U8d13atP6xkyl0M-cover-cover.jpeg",
-              "sourceUrl": "private://read/01j29d3aw87yzcwsjrejygem67",
-              "readwiseUrl": "https://read.readwise.io/read/01j29d3aw87yzcwsjrejygem67",
-              "summary": "\"Mind Gym\" teaches you how to change your thinking to achieve better results in life. By understanding different perspectives and using positive strategies, you can take control of your reactions and reduce stress. The book offers practical techniques, like praise and wise counsel, to help you improve your interactions and manage challenges effectively.",
-              "whyRead": "Toegankelijke toepassing van sportpsychologie op dagelijks leven en werk — praktischer dan de meeste psychologieboeken.",
-              "bestMoment": "leergierig",
-              "tags": [
-                "cognitive science",
-                "personal growth & life philosophy",
-                "psychology & behavior"
-              ],
-              "alsoIn": []
-            },
-            {
-              "position": 54,
-              "id": "01j29d3fx2eh2cjm300ymbnbeg",
-              "title": "The Five Dysfunctions of a Team: A Leadership Fable, 20th Anniversary Edition",
-              "author": "Patrick M. Lencioni",
-              "siteName": "readwise.io",
-              "category": "epub",
-              "language": "Engels",
-              "readingTime": "2 hrs 54 mins",
-              "readingMinutes": 174,
-              "wordCount": 46073,
-              "publishedDate": "2002-04-11",
-              "savedDate": "2024-07-08T14:48:58.028000+00:00",
-              "imageUrl": "https://readwise-assets.s3.amazonaws.com/media/reader/parsed_document_assets/192401391/vcB-ku4cskmxBIwb3eXdIVPMA2UCcXIvQAN-Zp2Rzqs-cover-cover.jpeg",
-              "sourceUrl": "private://read/01j29d3fx2eh2cjm300ymbnbeg",
-              "readwiseUrl": "https://read.readwise.io/read/01j29d3fx2eh2cjm300ymbnbeg",
-              "summary": "The New York Times best-selling team leadership handbook for modern executives, managers, and organizations After her first two weeks observing the problems at DecisionTech, Kathryn Petersen, its new CEO, had more than a few moments when she wondered if she should have taken the job. But Kathryn knew there was little chance she would have turned it down. After all, retirement had made her antsy, and nothing excited her more than a challenge. What she could not have known when she accepted the job, however, was just how dysfunctional her team was, and how team members would challenge her in ways that no one ever had before. For twenty years, The Five Dysfunctions of a Team has been engaging audiences with a page-turning, realistic fable that follows the travails of Kathryn Petersen, DecisionTech’s CEO, as she faces the ultimate leadership crisis. She must unite a team in such disarray that it threatens to derail the entire company. Equal parts leadership fable and business handbook, this definitive source on teamwork by Patrick Lencioni reveals the five behavioral tendencies that go to the heart of why even the best teams struggle. He offers a powerful model and step-by-step guide for overcoming those dysfunctions and getting every one rowing in the same direction. Today, the lessons in The Five Dysfunctions of a Team are more relevant than ever. This special anniversary edition celebrates one of the best-selling business books of all time with a new foreword from the author that reflects on its legacy and lessons.",
-              "whyRead": "Compacte en toegankelijke analyse van teamdynamiek in fabelformaat — de vijf disfuncties zijn een bruikbaar kader voor organisatieproblemen.",
-              "bestMoment": "ontspannen",
-              "tags": [
-                "ai ethics & society",
-                "business & work",
-                "light-reading",
-                "psychology & behavior"
-              ],
-              "alsoIn": []
-            },
-            {
-              "position": 55,
               "id": "01j2pppkbaxn15tdt0yj02g52k",
               "title": "Het boek waarvan je baas niet wil dat je het leest",
               "author": "Roland Grootenboer",
@@ -20788,7 +20794,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 56,
+              "position": 53,
               "id": "01jjc89qwjr4ry5xp4wneehw5x",
               "title": "Ondernemingsraad voor Dummies",
               "author": "Ruben Houweling",
@@ -20812,7 +20818,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 57,
+              "position": 54,
               "id": "01k4z6fmjcf1ffwdqjh2hf4j5k",
               "title": "Diep werk: werken in een wereld vol afleiding",
               "author": "Cal Newport",
@@ -20837,33 +20843,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 58,
-              "id": "01m1xzjg546z4ftgkgwdamer8z",
-              "title": "Life Is Too Short To Finish Every Book You Start",
-              "author": "A Mug of Insights",
-              "siteName": "Ghost - The Professional Publishing Platform",
-              "category": "email",
-              "language": null,
-              "readingTime": "4 mins",
-              "readingMinutes": 4,
-              "wordCount": 937,
-              "publishedDate": "2026-09-07",
-              "savedDate": "2026-09-07T13:05:27.717000+00:00",
-              "imageUrl": null,
-              "sourceUrl": "mailto:reader-forwarded-email/6ddc89e22d5a4ae362212d6eff360eb6",
-              "readwiseUrl": "https://read.readwise.io/read/01m1xzjg546z4ftgkgwdamer8z",
-              "summary": "It's been a wild week on my end, and as I'm writing this, I've just received the proof copy for my forthcoming book with Bloomsbury.",
-              "whyRead": null,
-              "bestMoment": null,
-              "tags": [
-                "books",
-                "learning & meta-learning",
-                "personal growth & life philosophy"
-              ],
-              "alsoIn": []
-            },
-            {
-              "position": 59,
+              "position": 55,
               "id": "01j28vk6sshcs4s85dctd96np2",
               "title": "Hoe we een klimaatramp kunnen vermijden",
               "author": "Bill Gates",
@@ -20889,7 +20869,85 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 60,
+              "position": 56,
+              "id": "01j29d38xxr3gp6z4x14nzw6es",
+              "title": "How to Win Friends and Influence People",
+              "author": "Dale Carnegie",
+              "siteName": "readwise.io",
+              "category": "epub",
+              "language": "Engels",
+              "readingTime": "4 hrs 56 mins",
+              "readingMinutes": 296,
+              "wordCount": 78177,
+              "publishedDate": "2009-11-03",
+              "savedDate": "2024-07-08T14:48:50.888000+00:00",
+              "imageUrl": "https://readwise-assets.s3.amazonaws.com/media/reader/parsed_document_assets/192401280/Skula66FO8hDWMI6sfwvHvSamcCW5Ly-fEBk3Hx4cXg-cover-cover.jpeg",
+              "sourceUrl": "private://read/01j29d38xxr3gp6z4x14nzw6es",
+              "readwiseUrl": "https://read.readwise.io/read/01j29d38xxr3gp6z4x14nzw6es",
+              "summary": "Dale Carnegie shares how he overcame personal struggles and learned the importance of praising others instead of criticizing them. He emphasizes building positive relationships and understanding people's interests to influence them effectively. By using kindness and encouragement, he found success in both sales and personal connections.",
+              "whyRead": "Historisch interessant als grondlegger van communicatieliteratuur — inhoudelijk gedateerd maar de kernprincipes zijn solide en nog steeds herkenbaar in moderne varianten.",
+              "bestMoment": "ontspannen",
+              "tags": [
+                "business & work",
+                "personal growth & life philosophy",
+                "psychology & behavior"
+              ],
+              "alsoIn": []
+            },
+            {
+              "position": 57,
+              "id": "01j29d3aw87yzcwsjrejygem67",
+              "title": "Mind Gym: Achieve More by Thinking Differently",
+              "author": "Sebastian Bailey",
+              "siteName": "readwise.io",
+              "category": "epub",
+              "language": "Engels",
+              "readingTime": "6 hrs 5 mins",
+              "readingMinutes": 365,
+              "wordCount": 96634,
+              "publishedDate": "2016-01-19",
+              "savedDate": "2024-07-08T14:48:52.884000+00:00",
+              "imageUrl": "https://readwise-assets.s3.amazonaws.com/media/reader/parsed_document_assets/192401323/hhxrg7ce_JQGG1wwsEgpf5VpM5B-U8d13atP6xkyl0M-cover-cover.jpeg",
+              "sourceUrl": "private://read/01j29d3aw87yzcwsjrejygem67",
+              "readwiseUrl": "https://read.readwise.io/read/01j29d3aw87yzcwsjrejygem67",
+              "summary": "\"Mind Gym\" teaches you how to change your thinking to achieve better results in life. By understanding different perspectives and using positive strategies, you can take control of your reactions and reduce stress. The book offers practical techniques, like praise and wise counsel, to help you improve your interactions and manage challenges effectively.",
+              "whyRead": "Toegankelijke toepassing van sportpsychologie op dagelijks leven en werk — praktischer dan de meeste psychologieboeken.",
+              "bestMoment": "leergierig",
+              "tags": [
+                "cognitive science",
+                "personal growth & life philosophy",
+                "psychology & behavior"
+              ],
+              "alsoIn": []
+            },
+            {
+              "position": 58,
+              "id": "01j29d3fx2eh2cjm300ymbnbeg",
+              "title": "The Five Dysfunctions of a Team: A Leadership Fable, 20th Anniversary Edition",
+              "author": "Patrick M. Lencioni",
+              "siteName": "readwise.io",
+              "category": "epub",
+              "language": "Engels",
+              "readingTime": "2 hrs 54 mins",
+              "readingMinutes": 174,
+              "wordCount": 46073,
+              "publishedDate": "2002-04-11",
+              "savedDate": "2024-07-08T14:48:58.028000+00:00",
+              "imageUrl": "https://readwise-assets.s3.amazonaws.com/media/reader/parsed_document_assets/192401391/vcB-ku4cskmxBIwb3eXdIVPMA2UCcXIvQAN-Zp2Rzqs-cover-cover.jpeg",
+              "sourceUrl": "private://read/01j29d3fx2eh2cjm300ymbnbeg",
+              "readwiseUrl": "https://read.readwise.io/read/01j29d3fx2eh2cjm300ymbnbeg",
+              "summary": "The New York Times best-selling team leadership handbook for modern executives, managers, and organizations After her first two weeks observing the problems at DecisionTech, Kathryn Petersen, its new CEO, had more than a few moments when she wondered if she should have taken the job. But Kathryn knew there was little chance she would have turned it down. After all, retirement had made her antsy, and nothing excited her more than a challenge. What she could not have known when she accepted the job, however, was just how dysfunctional her team was, and how team members would challenge her in ways that no one ever had before. For twenty years, The Five Dysfunctions of a Team has been engaging audiences with a page-turning, realistic fable that follows the travails of Kathryn Petersen, DecisionTech’s CEO, as she faces the ultimate leadership crisis. She must unite a team in such disarray that it threatens to derail the entire company. Equal parts leadership fable and business handbook, this definitive source on teamwork by Patrick Lencioni reveals the five behavioral tendencies that go to the heart of why even the best teams struggle. He offers a powerful model and step-by-step guide for overcoming those dysfunctions and getting every one rowing in the same direction. Today, the lessons in The Five Dysfunctions of a Team are more relevant than ever. This special anniversary edition celebrates one of the best-selling business books of all time with a new foreword from the author that reflects on its legacy and lessons.",
+              "whyRead": "Compacte en toegankelijke analyse van teamdynamiek in fabelformaat — de vijf disfuncties zijn een bruikbaar kader voor organisatieproblemen.",
+              "bestMoment": "ontspannen",
+              "tags": [
+                "ai ethics & society",
+                "business & work",
+                "psychology & behavior"
+              ],
+              "alsoIn": []
+            },
+            {
+              "position": 59,
               "id": "01j29d3dwx997fvp2v7meykqtp",
               "title": "Stop Overthinking: 23 Techniques to Relieve Stress, Stop Negative Spirals, Declutter Your Mind, and Focus on the Present",
               "author": "Nick Trenton",
@@ -20910,13 +20968,12 @@ window.TOP_ARTICLES = {
               "tags": [
                 "health & wellness",
                 "learning & meta-learning",
-                "light-reading",
                 "psychology & behavior"
               ],
               "alsoIn": []
             },
             {
-              "position": 61,
+              "position": 60,
               "id": "01j29d3hp212xny83jkj13kan8",
               "title": "Think and Grow Rich",
               "author": "Napoleon Hill",
@@ -20937,13 +20994,12 @@ window.TOP_ARTICLES = {
               "tags": [
                 "cognitive science",
                 "learning & meta-learning",
-                "light-reading",
                 "personal growth & life philosophy"
               ],
               "alsoIn": []
             },
             {
-              "position": 62,
+              "position": 61,
               "id": "01j39ztxxknjf83wz26vwx4mz4",
               "title": "Mindset",
               "author": "Dr Carol S. Dweck",
@@ -20969,7 +21025,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 63,
+              "position": 62,
               "id": "01kc0e4wxqhr18yfp4mf49hg2n",
               "title": "Short Science Fiction",
               "author": "Isaac Asimov",
@@ -20995,7 +21051,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 64,
+              "position": 63,
               "id": "01j28vk8x6dvbnv05fex4z13dz",
               "title": "Het drielichamenprobleem",
               "author": "Cixin Liu",
@@ -21015,13 +21071,12 @@ window.TOP_ARTICLES = {
               "bestMoment": "ontspannen",
               "tags": [
                 "fiction",
-                "light-reading",
                 "popular science"
               ],
               "alsoIn": []
             },
             {
-              "position": 65,
+              "position": 64,
               "id": "01j28vse5rr7e97cxrbf3jh4h1",
               "title": "Ons feilbare denken",
               "author": "Daniel Kahneman",
@@ -21046,7 +21101,57 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
+              "position": 65,
+              "id": "01k4d2kxngyzjt0vzg9sav4hbn",
+              "title": "Traumasporen in lichaam, brein en geest",
+              "author": "Bessel van der Kolk",
+              "siteName": "readwise-upload-epub",
+              "category": "epub",
+              "language": "Nederlands",
+              "readingTime": "12 hrs 21 mins",
+              "readingMinutes": 741,
+              "wordCount": 196105,
+              "publishedDate": "2024-02-13",
+              "savedDate": "2025-09-05T13:56:21.825000+00:00",
+              "imageUrl": "https://readwise-assets.s3.amazonaws.com/media/reader/parsed_document_assets/359654392/tn3CMWTRwMi0aohChGFQjr3bfecIqz_C455wIEGS8YY-cover-cover.jpg",
+              "sourceUrl": "private://read/01k4d2kxngyzjt0vzg9sav4hbn",
+              "readwiseUrl": "https://read.readwise.io/read/01k4d2kxngyzjt0vzg9sav4hbn",
+              "summary": "Trauma verandert lichaam, brein en geest en neemt levensvreugde weg.  \nGetroffenen herbeleven angst en machteloosheid, voelen zich vaak niet present en kunnen hun emoties niet verwoorden.  \nHerstel vraagt veilige relaties, wederkerige steun en tijd om opnieuw gevoelens en verbinding te leren.",
+              "whyRead": "Raakt je interesse in psychologie en het lichaam als drager van trauma — Van der Kolk laat zien hoe traumaverwerking verder gaat dan praten.",
+              "bestMoment": "analytisch",
+              "tags": [
+                "health & wellness",
+                "psychology & behavior"
+              ],
+              "alsoIn": []
+            },
+            {
               "position": 66,
+              "id": "01k7rktczvt1p4nx2bqf9gqas2",
+              "title": "Waarom generalisten verder komen (Range)",
+              "author": "David Epstein",
+              "siteName": "readwise-upload-epub",
+              "category": "epub",
+              "language": "Nederlands",
+              "readingTime": "7 hrs 34 mins",
+              "readingMinutes": 454,
+              "wordCount": 120240,
+              "publishedDate": "2020-02-20",
+              "savedDate": "2025-10-17T08:15:44.144000+00:00",
+              "imageUrl": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAlgCWAAD/7R9KUGhvdG9zaG9wIDMuMAA4QklNBAQAAAAAAEMcAVoAAxslRxwCAAACAAAcAgUAL0Vwc3RlaW5fV2Fhcm9tIGdlbmVyYWxpc3RlbiB2ZXJkZXIga29tZW5AMS5pbmRkADhCSU0EJQAAAAAAEO5u0BoNzgfxIpBYs+v3Ajw4QklNBDoAAAAAAQsAAAAQAAAAAQAAAAAAC3ByaW50T3V0cHV0AAAABQAAAABQc3RTYm9vbAEAAAAASW50ZWVudW0AAAAASW50ZQAAAABDbHJtAAAAD3ByaW50U2l4dGVlbkJpdGJvb2wAAAAAC3ByaW50ZXJOYW1lVEVYVAAAABAAUABoAGEAcwBlAHIAIAA3ADgAMAAwAEcAWAAgADIAAAAAAA9wcmludFByb29mU2V0dXBPYmpjAAAAEABJAG4AcwB0AGUAbABsAGUAbgAgAHAAcgBvAGUAZgAAAAAACnByb29mU2V0dXAAAAABAAAAAEJsdG5lbnVtAAAADGJ1aWx0aW5Qcm9vZgAAAAlwcm9vZkNNWUsAOEJJTQQ7AAAAAAItAAAAEAAAAAEAAAAAABJwcmludE91dHB1dE9wdGlvbnMAAAAXAAAAAENwdG5ib29sAAAAAABDbGJyYm9vbAAAAAAAUmdzTWJvb2wAAAAAAENybkNib29sAAAAAABDbnRDYm9vbAAAAAAATGJsc2Jvb2wAAAAAAE5ndHZib29sAAAAAABFbWxEYm9vbAAAAAAASW50cmJvb2wAAAAAAEJja2dPYmpjAAAAAQAAAAAAAFJHQkMAAAADAAAAAFJkICBkb3ViQG/gAAAAAAAAAAAAR3JuIGRvdWJAb+AAAAAAAAAAAABCbCAgZG91YkBv4AAAAAAAAAAAAEJyZFRVbnRGI1JsdAAAAAAAAAAAAAAAAEJsZCBVbnRGI1JsdAAAAAAAAAAAAAAAAFJzbHRVbnRGI1B4bEBiwAAAAAAAAAAACnZlY3RvckRhdGFib29sAQAAAABQZ1BzZW51bQAAAABQZ1BzAAAAAFBnUEMAAAAATGVmdFVudEYjUmx0AAAAAAAAAAAAAAAAVG9wIFVudEYjUmx0AAAAAAAAAAAAAAAAU2NsIFVudEYjUHJjQFkAAAAAAAAAAAAQY3JvcFdoZW5QcmludGluZ2Jvb2wAAAAADmNyb3BSZWN0Qm90dG9tbG9uZwAAAAAAAAAMY3JvcFJlY3RMZWZ0bG9uZwAAAAAAAAANY3JvcFJlY3RSaWdodGxvbmcAAAAAAAAAC2Nyb3BSZWN0VG9wbG9uZwAAAAAAOEJJTQPtAAAAAAAQAJYAAAABAAIAlgAAAAEAAjhCSU0EJgAAAAAADgAAAAAAAAAAAAA/gAAAOEJJTQPyAAAAAAAKAAD///////8AADhCSU0EDQAAAAAABAAAAFo4QklNBBkAAAAAAAQAAAAeOEJJTQPzAAAAAAAJAAAAAAAAAAABADhCSU0nEAAAAAAACgABAAAAAAAAAAI4QklNA/UAAAAAAEgAL2ZmAAEAbGZmAAYAAAAAAAEAL2ZmAAEAoZmaAAYAAAAAAAEAMgAAAAEAWgAAAAYAAAAAAAEANQAAAAEALQAAAAYAAAAAAAE4QklNA/gAAAAAAHAAAP////////////////////////////8D6AAAAAD/////////////////////////////A+gAAAAA/////////////////////////////wPoAAAAAP////////////////////////////8D6AAAOEJJTQQIAAAAAAAQAAAAAQAAAkAAAAJAAAAAADhCSU0EHgAAAAAABAAAAAA4QklNBBoAAAAAA0UAAAAGAAAAAAAAAAAAAAUAAAADQwAAAAgAdgBvAG8AcgBwAGwAYQB0AAAAAQAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAANDAAAFAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAbnVsbAAAAAIAAAAGYm91bmRzT2JqYwAAAAEAAAAAAABSY3QxAAAABAAAAABUb3AgbG9uZwAAAAAAAAAATGVmdGxvbmcAAAAAAAAAAEJ0b21sb25nAAAFAAAAAABSZ2h0bG9uZwAAA0MAAAAGc2xpY2VzVmxMcwAAAAFPYmpjAAAAAQAAAAAABXNsaWNlAAAAEgAAAAdzbGljZUlEbG9uZwAAAAAAAAAHZ3JvdXBJRGxvbmcAAAAAAAAABm9yaWdpbmVudW0AAAAMRVNsaWNlT3JpZ2luAAAADWF1dG9HZW5lcmF0ZWQAAAAAVHlwZWVudW0AAAAKRVNsaWNlVHlwZQAAAABJbWcgAAAABmJvdW5kc09iamMAAAABAAAAAAAAUmN0MQAAAAQAAAAAVG9wIGxvbmcAAAAAAAAAAExlZnRsb25nAAAAAAAAAABCdG9tbG9uZwAABQAAAAAAUmdodGxvbmcAAANDAAAAA3VybFRFWFQAAAABAAAAAAAAbnVsbFRFWFQAAAABAAAAAAAATXNnZVRFWFQAAAABAAAAAAAGYWx0VGFnVEVYVAAAAAEAAAAAAA5jZWxsVGV4dElzSFRNTGJvb2wBAAAACGNlbGxUZXh0VEVYVAAAAAEAAAAAAAlob3J6QWxpZ25lbnVtAAAAD0VTbGljZUhvcnpBbGlnbgAAAAdkZWZhdWx0AAAACXZlcnRBbGlnbmVudW0AAAAPRVNsaWNlVmVydEFsaWduAAAAB2RlZmF1bHQAAAALYmdDb2xvclR5cGVlbnVtAAAAEUVTbGljZUJHQ29sb3JUeXBlAAAAAE5vbmUAAAAJdG9wT3V0c2V0bG9uZwAAAAAAAAAKbGVmdE91dHNldGxvbmcAAAAAAAAADGJvdHRvbU91dHNldGxvbmcAAAAAAAAAC3JpZ2h0T3V0c2V0bG9uZwAAAAAAOEJJTQQoAAAAAAAMAAAAAj/wAAAAAAAAOEJJTQQUAAAAAAAEAAAAAjhCSU0EDAAAAAAV6QAAAAEAAABoAAAAnwAAATgAAMHIAAAVzQAYAAH/2P/tAAxBZG9iZV9DTQAB/+4ADkFkb2JlAGSAAAAAAf/bAIQADAgICAkIDAkJDBELCgsRFQ8MDA8VGBMTFRMTGBEMDAwMDAwRDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAENCwsNDg0QDg4QFA4ODhQUDg4ODhQRDAwMDAwREQwMDAwMDBEMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwM/8AAEQgAnwBoAwEiAAIRAQMRAf/dAAQAB//EAT8AAAEFAQEBAQEBAAAAAAAAAAMAAQIEBQYHCAkKCwEAAQUBAQEBAQEAAAAAAAAAAQACAwQFBgcICQoLEAABBAEDAgQCBQcGCAUDDDMBAAIRAwQhEjEFQVFhEyJxgTIGFJGhsUIjJBVSwWIzNHKC0UMHJZJT8OHxY3M1FqKygyZEk1RkRcKjdDYX0lXiZfKzhMPTdePzRieUpIW0lcTU5PSltcXV5fVWZnaGlqa2xtbm9jdHV2d3h5ent8fX5/cRAAICAQIEBAMEBQYHBwYFNQEAAhEDITESBEFRYXEiEwUygZEUobFCI8FS0fAzJGLhcoKSQ1MVY3M08SUGFqKygwcmNcLSRJNUoxdkRVU2dGXi8rOEw9N14/NGlKSFtJXE1OT0pbXF1eX1VmZ2hpamtsbW5vYnN0dXZ3eHl6e3x//aAAwDAQACEQMRAD8A9VSQ8h768e2xkF7GOc0O4kCRuhc7g/XOv7GcnqlJpH2LG6kDjiy/9XyW2Pc61jK99X2N2Pb69n816fp2/wCF9BJT0ySwuofWjDrpyW4tzWZGLYyu119Nrq27rMVkOFDfUd9oqzqfsj2eyzf6n81TeidK68Op9Zz8Sja/DxK6jVbtLS6w25mLlbXudttpquwfTZZ6dfv9X+dr9OxJTspLlum/XSuymzI6iGVsZYMcU49d9totdflYVIOypzXsynYX6H0/8J...",
+              "sourceUrl": "private://read/01k7rktczvt1p4nx2bqf9gqas2",
+              "readwiseUrl": "https://read.readwise.io/read/01k7rktczvt1p4nx2bqf9gqas2",
+              "summary": "Brede vaardigheden en flexibel denken helpen mensen beter te presteren dan smalle specialisatie alleen. Vroege korte voorsprongen verdwijnen vaak omdat anderen snel bijleren. Teams van slimme generalisten leveren vaak de beste oplossingen in complexe situaties.",
+              "whyRead": "Raakt je interesse in leren en meta-leren — Epsteins contra-intuïtieve argument dat breedte van ervaring en late specialisatie in complexe domeinen juist voordelen geeft.",
+              "bestMoment": "leergierig",
+              "tags": [
+                "learning & meta-learning",
+                "popular science"
+              ],
+              "alsoIn": []
+            },
+            {
+              "position": 67,
               "id": "01j29b7q4wm936424r1keh3kz8",
               "title": "How to Read a Book",
               "author": "Mortimer J. Adler",
@@ -21071,7 +21176,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 67,
+              "position": 68,
               "id": "01j29d3477vpv22gsyz7y1zrp7",
               "title": "Deep Nutrition: Why Your Genes Need Traditional Food",
               "author": "Catherine Shanahan, M. D.",
@@ -21097,7 +21202,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 68,
+              "position": 69,
               "id": "01j29d3tbesb7m09zyn0z78vjr",
               "title": "Wait But Why Year One: We finally figured out how to put a blog onto an e-reader",
               "author": "Tim Urban",
@@ -21116,14 +21221,13 @@ window.TOP_ARTICLES = {
               "whyRead": "Raakt je interesse in wetenschap en betekenis — Tim Urban schrijft essays die complex zijn en grappig tegelijk, met diepe conceptuele diepgang.",
               "bestMoment": "ontspannen",
               "tags": [
-                "light-reading",
                 "personal growth & life philosophy",
                 "popular science"
               ],
               "alsoIn": []
             },
             {
-              "position": 69,
+              "position": 70,
               "id": "01j29d3v4emc1z1ap0jt2jvqfh",
               "title": "Your Brain's Not Broken",
               "author": "Tamara Phd Rosier",
@@ -21149,7 +21253,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 70,
+              "position": 71,
               "id": "01j29d3vyb3g8h2zwk7t0gcyrs",
               "title": "Your Life Can Be Better Second Edition: Using Strategies for Adult ADHD",
               "author": "Douglas A Puryear",
@@ -21175,7 +21279,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 71,
+              "position": 72,
               "id": "01j7x2qde4aaycp5jtn9b23jqh",
               "title": "The Importance of Being Earnest",
               "author": "Oscar Wilde",
@@ -21200,7 +21304,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 72,
+              "position": 73,
               "id": "01jaraxstjdzrdw2zs4r638p2v",
               "title": "Journey to the Center of the Earth",
               "author": "Jules Verne",
@@ -21222,31 +21326,6 @@ window.TOP_ARTICLES = {
                 "arts & culture",
                 "fiction",
                 "science"
-              ],
-              "alsoIn": []
-            },
-            {
-              "position": 73,
-              "id": "01k4d2kxngyzjt0vzg9sav4hbn",
-              "title": "Traumasporen in lichaam, brein en geest",
-              "author": "Bessel van der Kolk",
-              "siteName": "readwise-upload-epub",
-              "category": "epub",
-              "language": "Nederlands",
-              "readingTime": "12 hrs 21 mins",
-              "readingMinutes": 741,
-              "wordCount": 196105,
-              "publishedDate": "2024-02-13",
-              "savedDate": "2025-09-05T13:56:21.825000+00:00",
-              "imageUrl": "https://readwise-assets.s3.amazonaws.com/media/reader/parsed_document_assets/359654392/tn3CMWTRwMi0aohChGFQjr3bfecIqz_C455wIEGS8YY-cover-cover.jpg",
-              "sourceUrl": "private://read/01k4d2kxngyzjt0vzg9sav4hbn",
-              "readwiseUrl": "https://read.readwise.io/read/01k4d2kxngyzjt0vzg9sav4hbn",
-              "summary": "Trauma verandert lichaam, brein en geest en neemt levensvreugde weg.  \nGetroffenen herbeleven angst en machteloosheid, voelen zich vaak niet present en kunnen hun emoties niet verwoorden.  \nHerstel vraagt veilige relaties, wederkerige steun en tijd om opnieuw gevoelens en verbinding te leren.",
-              "whyRead": "Raakt je interesse in psychologie en het lichaam als drager van trauma — Van der Kolk laat zien hoe traumaverwerking verder gaat dan praten.",
-              "bestMoment": "analytisch",
-              "tags": [
-                "health & wellness",
-                "psychology & behavior"
               ],
               "alsoIn": []
             },
@@ -21277,31 +21356,6 @@ window.TOP_ARTICLES = {
             },
             {
               "position": 75,
-              "id": "01k7rktczvt1p4nx2bqf9gqas2",
-              "title": "Waarom generalisten verder komen (Range)",
-              "author": "David Epstein",
-              "siteName": "readwise-upload-epub",
-              "category": "epub",
-              "language": "Nederlands",
-              "readingTime": "7 hrs 34 mins",
-              "readingMinutes": 454,
-              "wordCount": 120240,
-              "publishedDate": "2020-02-20",
-              "savedDate": "2025-10-17T08:15:44.144000+00:00",
-              "imageUrl": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAlgCWAAD/7R9KUGhvdG9zaG9wIDMuMAA4QklNBAQAAAAAAEMcAVoAAxslRxwCAAACAAAcAgUAL0Vwc3RlaW5fV2Fhcm9tIGdlbmVyYWxpc3RlbiB2ZXJkZXIga29tZW5AMS5pbmRkADhCSU0EJQAAAAAAEO5u0BoNzgfxIpBYs+v3Ajw4QklNBDoAAAAAAQsAAAAQAAAAAQAAAAAAC3ByaW50T3V0cHV0AAAABQAAAABQc3RTYm9vbAEAAAAASW50ZWVudW0AAAAASW50ZQAAAABDbHJtAAAAD3ByaW50U2l4dGVlbkJpdGJvb2wAAAAAC3ByaW50ZXJOYW1lVEVYVAAAABAAUABoAGEAcwBlAHIAIAA3ADgAMAAwAEcAWAAgADIAAAAAAA9wcmludFByb29mU2V0dXBPYmpjAAAAEABJAG4AcwB0AGUAbABsAGUAbgAgAHAAcgBvAGUAZgAAAAAACnByb29mU2V0dXAAAAABAAAAAEJsdG5lbnVtAAAADGJ1aWx0aW5Qcm9vZgAAAAlwcm9vZkNNWUsAOEJJTQQ7AAAAAAItAAAAEAAAAAEAAAAAABJwcmludE91dHB1dE9wdGlvbnMAAAAXAAAAAENwdG5ib29sAAAAAABDbGJyYm9vbAAAAAAAUmdzTWJvb2wAAAAAAENybkNib29sAAAAAABDbnRDYm9vbAAAAAAATGJsc2Jvb2wAAAAAAE5ndHZib29sAAAAAABFbWxEYm9vbAAAAAAASW50cmJvb2wAAAAAAEJja2dPYmpjAAAAAQAAAAAAAFJHQkMAAAADAAAAAFJkICBkb3ViQG/gAAAAAAAAAAAAR3JuIGRvdWJAb+AAAAAAAAAAAABCbCAgZG91YkBv4AAAAAAAAAAAAEJyZFRVbnRGI1JsdAAAAAAAAAAAAAAAAEJsZCBVbnRGI1JsdAAAAAAAAAAAAAAAAFJzbHRVbnRGI1B4bEBiwAAAAAAAAAAACnZlY3RvckRhdGFib29sAQAAAABQZ1BzZW51bQAAAABQZ1BzAAAAAFBnUEMAAAAATGVmdFVudEYjUmx0AAAAAAAAAAAAAAAAVG9wIFVudEYjUmx0AAAAAAAAAAAAAAAAU2NsIFVudEYjUHJjQFkAAAAAAAAAAAAQY3JvcFdoZW5QcmludGluZ2Jvb2wAAAAADmNyb3BSZWN0Qm90dG9tbG9uZwAAAAAAAAAMY3JvcFJlY3RMZWZ0bG9uZwAAAAAAAAANY3JvcFJlY3RSaWdodGxvbmcAAAAAAAAAC2Nyb3BSZWN0VG9wbG9uZwAAAAAAOEJJTQPtAAAAAAAQAJYAAAABAAIAlgAAAAEAAjhCSU0EJgAAAAAADgAAAAAAAAAAAAA/gAAAOEJJTQPyAAAAAAAKAAD///////8AADhCSU0EDQAAAAAABAAAAFo4QklNBBkAAAAAAAQAAAAeOEJJTQPzAAAAAAAJAAAAAAAAAAABADhCSU0nEAAAAAAACgABAAAAAAAAAAI4QklNA/UAAAAAAEgAL2ZmAAEAbGZmAAYAAAAAAAEAL2ZmAAEAoZmaAAYAAAAAAAEAMgAAAAEAWgAAAAYAAAAAAAEANQAAAAEALQAAAAYAAAAAAAE4QklNA/gAAAAAAHAAAP////////////////////////////8D6AAAAAD/////////////////////////////A+gAAAAA/////////////////////////////wPoAAAAAP////////////////////////////8D6AAAOEJJTQQIAAAAAAAQAAAAAQAAAkAAAAJAAAAAADhCSU0EHgAAAAAABAAAAAA4QklNBBoAAAAAA0UAAAAGAAAAAAAAAAAAAAUAAAADQwAAAAgAdgBvAG8AcgBwAGwAYQB0AAAAAQAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAANDAAAFAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAbnVsbAAAAAIAAAAGYm91bmRzT2JqYwAAAAEAAAAAAABSY3QxAAAABAAAAABUb3AgbG9uZwAAAAAAAAAATGVmdGxvbmcAAAAAAAAAAEJ0b21sb25nAAAFAAAAAABSZ2h0bG9uZwAAA0MAAAAGc2xpY2VzVmxMcwAAAAFPYmpjAAAAAQAAAAAABXNsaWNlAAAAEgAAAAdzbGljZUlEbG9uZwAAAAAAAAAHZ3JvdXBJRGxvbmcAAAAAAAAABm9yaWdpbmVudW0AAAAMRVNsaWNlT3JpZ2luAAAADWF1dG9HZW5lcmF0ZWQAAAAAVHlwZWVudW0AAAAKRVNsaWNlVHlwZQAAAABJbWcgAAAABmJvdW5kc09iamMAAAABAAAAAAAAUmN0MQAAAAQAAAAAVG9wIGxvbmcAAAAAAAAAAExlZnRsb25nAAAAAAAAAABCdG9tbG9uZwAABQAAAAAAUmdodGxvbmcAAANDAAAAA3VybFRFWFQAAAABAAAAAAAAbnVsbFRFWFQAAAABAAAAAAAATXNnZVRFWFQAAAABAAAAAAAGYWx0VGFnVEVYVAAAAAEAAAAAAA5jZWxsVGV4dElzSFRNTGJvb2wBAAAACGNlbGxUZXh0VEVYVAAAAAEAAAAAAAlob3J6QWxpZ25lbnVtAAAAD0VTbGljZUhvcnpBbGlnbgAAAAdkZWZhdWx0AAAACXZlcnRBbGlnbmVudW0AAAAPRVNsaWNlVmVydEFsaWduAAAAB2RlZmF1bHQAAAALYmdDb2xvclR5cGVlbnVtAAAAEUVTbGljZUJHQ29sb3JUeXBlAAAAAE5vbmUAAAAJdG9wT3V0c2V0bG9uZwAAAAAAAAAKbGVmdE91dHNldGxvbmcAAAAAAAAADGJvdHRvbU91dHNldGxvbmcAAAAAAAAAC3JpZ2h0T3V0c2V0bG9uZwAAAAAAOEJJTQQoAAAAAAAMAAAAAj/wAAAAAAAAOEJJTQQUAAAAAAAEAAAAAjhCSU0EDAAAAAAV6QAAAAEAAABoAAAAnwAAATgAAMHIAAAVzQAYAAH/2P/tAAxBZG9iZV9DTQAB/+4ADkFkb2JlAGSAAAAAAf/bAIQADAgICAkIDAkJDBELCgsRFQ8MDA8VGBMTFRMTGBEMDAwMDAwRDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAENCwsNDg0QDg4QFA4ODhQUDg4ODhQRDAwMDAwREQwMDAwMDBEMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwM/8AAEQgAnwBoAwEiAAIRAQMRAf/dAAQAB//EAT8AAAEFAQEBAQEBAAAAAAAAAAMAAQIEBQYHCAkKCwEAAQUBAQEBAQEAAAAAAAAAAQACAwQFBgcICQoLEAABBAEDAgQCBQcGCAUDDDMBAAIRAwQhEjEFQVFhEyJxgTIGFJGhsUIjJBVSwWIzNHKC0UMHJZJT8OHxY3M1FqKygyZEk1RkRcKjdDYX0lXiZfKzhMPTdePzRieUpIW0lcTU5PSltcXV5fVWZnaGlqa2xtbm9jdHV2d3h5ent8fX5/cRAAICAQIEBAMEBQYHBwYFNQEAAhEDITESBEFRYXEiEwUygZEUobFCI8FS0fAzJGLhcoKSQ1MVY3M08SUGFqKygwcmNcLSRJNUoxdkRVU2dGXi8rOEw9N14/NGlKSFtJXE1OT0pbXF1eX1VmZ2hpamtsbW5vYnN0dXZ3eHl6e3x//aAAwDAQACEQMRAD8A9VSQ8h768e2xkF7GOc0O4kCRuhc7g/XOv7GcnqlJpH2LG6kDjiy/9XyW2Pc61jK99X2N2Pb69n816fp2/wCF9BJT0ySwuofWjDrpyW4tzWZGLYyu119Nrq27rMVkOFDfUd9oqzqfsj2eyzf6n81TeidK68Op9Zz8Sja/DxK6jVbtLS6w25mLlbXudttpquwfTZZ6dfv9X+dr9OxJTspLlum/XSuymzI6iGVsZYMcU49d9totdflYVIOypzXsynYX6H0/8J...",
-              "sourceUrl": "private://read/01k7rktczvt1p4nx2bqf9gqas2",
-              "readwiseUrl": "https://read.readwise.io/read/01k7rktczvt1p4nx2bqf9gqas2",
-              "summary": "Brede vaardigheden en flexibel denken helpen mensen beter te presteren dan smalle specialisatie alleen. Vroege korte voorsprongen verdwijnen vaak omdat anderen snel bijleren. Teams van slimme generalisten leveren vaak de beste oplossingen in complexe situaties.",
-              "whyRead": "Raakt je interesse in leren en meta-leren — Epsteins contra-intuïtieve argument dat breedte van ervaring en late specialisatie in complexe domeinen juist voordelen geeft.",
-              "bestMoment": "leergierig",
-              "tags": [
-                "learning & meta-learning",
-                "popular science"
-              ],
-              "alsoIn": []
-            },
-            {
-              "position": 76,
               "id": "01kgdfpy0f0pts3sax7x38mdqc",
               "title": "Short Fiction",
               "author": "Mary Shelley",
@@ -21326,7 +21380,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 77,
+              "position": 76,
               "id": "01kksm80zx4vk4cskkm9r0nddv",
               "title": "On the Art of Reading",
               "author": "Arthur Quiller-Couch",
@@ -21351,7 +21405,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 78,
+              "position": 77,
               "id": "01ksdsnsw2mbeb6y7y17ghhey9",
               "title": "The Way of Excellence",
               "author": "Brad Stulberg",
@@ -21407,7 +21461,6 @@ window.TOP_ARTICLES = {
               "bestMoment": "analytisch",
               "tags": [
                 "learning & meta-learning",
-                "pdf-top-10",
                 "philosophy",
                 "philosophy of mind",
                 "tools & workflows"
@@ -21438,8 +21491,6 @@ window.TOP_ARTICLES = {
               "tags": [
                 "arts & culture",
                 "frankfurt school",
-                "light-reading",
-                "pdf-top-10",
                 "philosophy",
                 "political philosophy",
                 "totalitarianism & fascism"
@@ -21471,8 +21522,6 @@ window.TOP_ARTICLES = {
               "bestMoment": "geconcentreerd",
               "tags": [
                 "fiction",
-                "light-reading",
-                "pdf-top-10",
                 "philosophy",
                 "political philosophy"
               ],
@@ -21504,7 +21553,6 @@ window.TOP_ARTICLES = {
               "tags": [
                 "history",
                 "metaphysics",
-                "pdf-top-10",
                 "philosophy",
                 "technology",
                 "totalitarianism & fascism"
@@ -21534,7 +21582,6 @@ window.TOP_ARTICLES = {
               "bestMoment": "analytisch",
               "tags": [
                 "economics",
-                "pdf-top-10",
                 "political philosophy",
                 "research papers & academia",
                 "sociology & social structures"
@@ -21564,7 +21611,6 @@ window.TOP_ARTICLES = {
               "bestMoment": "analytisch",
               "tags": [
                 "economics",
-                "pdf-top-10",
                 "political philosophy",
                 "research papers & academia",
                 "sociology & social structures"
@@ -21594,9 +21640,6 @@ window.TOP_ARTICLES = {
               "bestMoment": "geïnspireerd",
               "tags": [
                 "arts & culture",
-                "light-reading",
-                "linked-from-readwise",
-                "pdf-top-10",
                 "philosophy",
                 "sociology & social structures"
               ],
@@ -21626,8 +21669,6 @@ window.TOP_ARTICLES = {
               "whyRead": "Raakt je kerninteresse in politieke filosofie, vrijheid en macht; Mill formuleert hier het schadebeginsel en verdedigt individuele en intellectuele vrijheid tegenover sociale én staatsdwang.",
               "bestMoment": "analytisch",
               "tags": [
-                "linked-from-readwise",
-                "pdf-top-10",
                 "philosophy",
                 "political philosophy"
               ],
@@ -21655,7 +21696,6 @@ window.TOP_ARTICLES = {
               "whyRead": "Raakt je interesse in filosofie en gedragspsychologie — Maslow's grondleggende werk over menselijke motivatie en de hiërarchie van behoeften. Een van de meest invloedrijke psychologieboeken van de 20e eeuw, en de basis voor vrijwel alle latere humanistische psychologie.",
               "bestMoment": "analytisch",
               "tags": [
-                "pdf-top-10",
                 "philosophy",
                 "philosophy of mind",
                 "psychology & behavior",
@@ -21686,7 +21726,6 @@ window.TOP_ARTICLES = {
               "bestMoment": "kritisch",
               "tags": [
                 "ai ethics & society",
-                "pdf-top-10",
                 "programming & software",
                 "sociology & inequality"
               ],
@@ -21722,7 +21761,6 @@ window.TOP_ARTICLES = {
               "bestMoment": "analytisch",
               "tags": [
                 "learning & meta-learning",
-                "pdf-top-10",
                 "philosophy",
                 "philosophy of mind",
                 "tools & workflows"
@@ -21753,8 +21791,6 @@ window.TOP_ARTICLES = {
               "tags": [
                 "arts & culture",
                 "frankfurt school",
-                "light-reading",
-                "pdf-top-10",
                 "philosophy",
                 "political philosophy",
                 "totalitarianism & fascism"
@@ -21786,8 +21822,6 @@ window.TOP_ARTICLES = {
               "bestMoment": "geconcentreerd",
               "tags": [
                 "fiction",
-                "light-reading",
-                "pdf-top-10",
                 "philosophy",
                 "political philosophy"
               ],
@@ -21819,7 +21853,6 @@ window.TOP_ARTICLES = {
               "tags": [
                 "history",
                 "metaphysics",
-                "pdf-top-10",
                 "philosophy",
                 "technology",
                 "totalitarianism & fascism"
@@ -21849,7 +21882,6 @@ window.TOP_ARTICLES = {
               "bestMoment": "analytisch",
               "tags": [
                 "economics",
-                "pdf-top-10",
                 "political philosophy",
                 "research papers & academia",
                 "sociology & social structures"
@@ -21879,7 +21911,6 @@ window.TOP_ARTICLES = {
               "bestMoment": "analytisch",
               "tags": [
                 "economics",
-                "pdf-top-10",
                 "political philosophy",
                 "research papers & academia",
                 "sociology & social structures"
@@ -21909,9 +21940,6 @@ window.TOP_ARTICLES = {
               "bestMoment": "geïnspireerd",
               "tags": [
                 "arts & culture",
-                "light-reading",
-                "linked-from-readwise",
-                "pdf-top-10",
                 "philosophy",
                 "sociology & social structures"
               ],
@@ -21941,8 +21969,6 @@ window.TOP_ARTICLES = {
               "whyRead": "Raakt je kerninteresse in politieke filosofie, vrijheid en macht; Mill formuleert hier het schadebeginsel en verdedigt individuele en intellectuele vrijheid tegenover sociale én staatsdwang.",
               "bestMoment": "analytisch",
               "tags": [
-                "linked-from-readwise",
-                "pdf-top-10",
                 "philosophy",
                 "political philosophy"
               ],
@@ -21970,7 +21996,6 @@ window.TOP_ARTICLES = {
               "whyRead": "Raakt je interesse in filosofie en gedragspsychologie — Maslow's grondleggende werk over menselijke motivatie en de hiërarchie van behoeften. Een van de meest invloedrijke psychologieboeken van de 20e eeuw, en de basis voor vrijwel alle latere humanistische psychologie.",
               "bestMoment": "analytisch",
               "tags": [
-                "pdf-top-10",
                 "philosophy",
                 "philosophy of mind",
                 "psychology & behavior",
@@ -22001,7 +22026,6 @@ window.TOP_ARTICLES = {
               "bestMoment": "kritisch",
               "tags": [
                 "ai ethics & society",
-                "pdf-top-10",
                 "programming & software",
                 "sociology & inequality"
               ],
@@ -22032,7 +22056,6 @@ window.TOP_ARTICLES = {
               "bestMoment": "geconcentreerd",
               "tags": [
                 "agile",
-                "linked-from-readwise",
                 "professional development",
                 "technology"
               ],
@@ -22256,7 +22279,6 @@ window.TOP_ARTICLES = {
               "bestMoment": "analytisch",
               "tags": [
                 "ai ethics & society",
-                "linked-from-readwise",
                 "research papers & academia"
               ],
               "alsoIn": []
@@ -22462,8 +22484,6 @@ window.TOP_ARTICLES = {
               "tags": [
                 "ai ethics & society",
                 "fiction",
-                "light-reading",
-                "linked-from-readwise",
                 "research papers & academia"
               ],
               "alsoIn": []
@@ -22489,7 +22509,6 @@ window.TOP_ARTICLES = {
               "bestMoment": "geconcentreerd",
               "tags": [
                 "ai ethics & society",
-                "linked-from-readwise",
                 "research papers & academia"
               ],
               "alsoIn": []
@@ -22515,7 +22534,6 @@ window.TOP_ARTICLES = {
               "bestMoment": "analytisch",
               "tags": [
                 "ai ethics & society",
-                "linked-from-readwise",
                 "research papers & academia",
                 "technology"
               ],
@@ -22542,7 +22560,6 @@ window.TOP_ARTICLES = {
               "bestMoment": "analytisch",
               "tags": [
                 "ai ethics & society",
-                "linked-from-readwise",
                 "research papers & academia"
               ],
               "alsoIn": []
@@ -22568,7 +22585,6 @@ window.TOP_ARTICLES = {
               "bestMoment": "geconcentreerd",
               "tags": [
                 "ai ethics & society",
-                "linked-from-readwise",
                 "research papers & academia"
               ],
               "alsoIn": []
@@ -22594,7 +22610,6 @@ window.TOP_ARTICLES = {
               "bestMoment": "geconcentreerd",
               "tags": [
                 "ai ethics & society",
-                "linked-from-readwise",
                 "research papers & academia"
               ],
               "alsoIn": []
@@ -22619,7 +22634,6 @@ window.TOP_ARTICLES = {
               "whyRead": "Dit is de historische paper die deep learning voor computer vision doorbrak: een concreet scharnierpunt voor je interesse in AI, technologie en de technische wortels van huidige modellen.",
               "bestMoment": "analytisch",
               "tags": [
-                "linked-from-readwise",
                 "research papers & academia",
                 "technology"
               ],
@@ -22697,7 +22711,6 @@ window.TOP_ARTICLES = {
               "tags": [
                 "economics",
                 "environment & sustainability",
-                "linked-from-readwise",
                 "research papers & academia"
               ],
               "alsoIn": []
@@ -22778,7 +22791,6 @@ window.TOP_ARTICLES = {
               "tags": [
                 "ai ethics & society",
                 "behavioral psychology & coaching",
-                "linked-from-readwise",
                 "software development"
               ],
               "alsoIn": [
@@ -22787,33 +22799,6 @@ window.TOP_ARTICLES = {
             },
             {
               "position": 40,
-              "id": "01m1zw950477appazfk7z99wh5",
-              "title": "Self-Actualization And Beyond",
-              "author": "Maslow, Abraham",
-              "siteName": "ED.gov",
-              "category": "pdf",
-              "language": null,
-              "readingTime": "44 mins",
-              "readingMinutes": 44,
-              "wordCount": 11566,
-              "publishedDate": "2007-08-20",
-              "savedDate": "2026-09-08T06:46:24.514000+00:00",
-              "imageUrl": "https://readwise-assets.s3.amazonaws.com/media/reader/parsed_document_assets/495053680/DEWug0cjy--_CTVXBW1ptuvktIDbBEAGUlBQPLxXjyQ-cove_qxNQtxO.png",
-              "sourceUrl": "https://files.eric.ed.gov/fulltext/ED012056.pdf",
-              "readwiseUrl": "https://read.readwise.io/read/01m1zw950477appazfk7z99wh5",
-              "summary": null,
-              "whyRead": null,
-              "bestMoment": null,
-              "tags": [
-                "adult education",
-                "learning & meta-learning",
-                "personal growth & life philosophy",
-                "psychology"
-              ],
-              "alsoIn": []
-            },
-            {
-              "position": 41,
               "id": "01ky7mstrf89d3yb8qgzjpajrb",
               "title": "The Standard Model from String Theory",
               "author": "© Fernando Marchesano, Gary Shiu, Timo Weigand",
@@ -22832,11 +22817,35 @@ window.TOP_ARTICLES = {
               "whyRead": null,
               "bestMoment": null,
               "tags": [
-                "linked-from-readwise",
                 "physics & engineering",
                 "research papers & academia",
-                "science",
-                "triaged"
+                "science"
+              ],
+              "alsoIn": []
+            },
+            {
+              "position": 41,
+              "id": "01m1zw950477appazfk7z99wh5",
+              "title": "Self-Actualization And Beyond",
+              "author": "Maslow, Abraham",
+              "siteName": "ED.gov",
+              "category": "pdf",
+              "language": null,
+              "readingTime": "44 mins",
+              "readingMinutes": 44,
+              "wordCount": 11566,
+              "publishedDate": "2007-08-20",
+              "savedDate": "2026-09-08T06:46:24.514000+00:00",
+              "imageUrl": "https://readwise-assets.s3.amazonaws.com/media/reader/parsed_document_assets/495053680/DEWug0cjy--_CTVXBW1ptuvktIDbBEAGUlBQPLxXjyQ-cove_qxNQtxO.png",
+              "sourceUrl": "https://files.eric.ed.gov/fulltext/ED012056.pdf",
+              "readwiseUrl": "https://read.readwise.io/read/01m1zw950477appazfk7z99wh5",
+              "summary": null,
+              "whyRead": null,
+              "bestMoment": null,
+              "tags": [
+                "behavioral psychology & coaching",
+                "learning & meta-learning",
+                "personal growth & life philosophy"
               ],
               "alsoIn": []
             }
@@ -22874,8 +22883,7 @@ window.TOP_ARTICLES = {
               "whyRead": "Raakt scrum & agile werken direct — een diepgaand interview met Nick Brown (auteur van \"Real World Agility\") over waarom eerlijke faalverhalen waardevoller zijn dan gepolijste frameworks, en waarom cultuur het fundament van agile teams is.",
               "bestMoment": "analytisch",
               "tags": [
-                "scrum",
-                "video-top-10"
+                "scrum"
               ],
               "alsoIn": [
                 "aaa-scrum-top-100",
@@ -22904,8 +22912,7 @@ window.TOP_ARTICLES = {
               "tags": [
                 "philosophy",
                 "political philosophy",
-                "sociology & inequality",
-                "video-top-10"
+                "sociology & inequality"
               ],
               "alsoIn": [
                 "video-top-100"
@@ -22933,8 +22940,7 @@ window.TOP_ARTICLES = {
               "tags": [
                 "ai & machine learning",
                 "learning & meta-learning",
-                "programming & software",
-                "video-top-10"
+                "programming & software"
               ],
               "alsoIn": [
                 "aaa-software-development-top-100",
@@ -22963,8 +22969,7 @@ window.TOP_ARTICLES = {
               "tags": [
                 "ai ethics & society",
                 "business & startups",
-                "technology",
-                "video-top-10"
+                "technology"
               ],
               "alsoIn": [
                 "video-top-100"
@@ -22990,8 +22995,7 @@ window.TOP_ARTICLES = {
               "whyRead": "Raakt je interesse in scrum & agile werken — een informeel maar scherp gesprek over de vraag of Scrum Masters delivery managers moeten worden, met een concrete verklaring waarom de rol onder druk staat.",
               "bestMoment": "analytisch",
               "tags": [
-                "scrum",
-                "video-top-10"
+                "scrum"
               ],
               "alsoIn": [
                 "video-top-100"
@@ -23017,8 +23021,7 @@ window.TOP_ARTICLES = {
               "whyRead": "Raakt je interesse in scrum & agile werken — een praktisch, beroepsmatig direct toepasbaar raamwerk van vijf meetbare manieren om als Scrum Master je waarde aan een organisatie aan te tonen.",
               "bestMoment": "analytisch",
               "tags": [
-                "scrum",
-                "video-top-10"
+                "scrum"
               ],
               "alsoIn": [
                 "video-top-100"
@@ -23044,8 +23047,7 @@ window.TOP_ARTICLES = {
               "whyRead": "Raakt je interesse in scrum & agile werken — drie concrete, vaak vergeten Scrum Master-praktijken (definition of done, teamrelaties, refinement) met scherpe, direct toepasbare adviezen.",
               "bestMoment": "analytisch",
               "tags": [
-                "scrum",
-                "video-top-10"
+                "scrum"
               ],
               "alsoIn": [
                 "video-top-100"
@@ -23071,8 +23073,7 @@ window.TOP_ARTICLES = {
               "whyRead": "Raakt je interesse in scrum & agile werken — twee ervaren scrum.org-trainers delen drie lessen die ze vroeg in hun carrière hadden willen kennen, met een verrassend eerlijke relativering van scrum zelf als laatste les.",
               "bestMoment": "analytisch",
               "tags": [
-                "scrum",
-                "video-top-10"
+                "scrum"
               ],
               "alsoIn": [
                 "video-top-100"
@@ -23098,8 +23099,7 @@ window.TOP_ARTICLES = {
               "whyRead": "Raakt je interesse in scrum & agile werken — vijf herkenbare valkuilen voor Scrum Masters, scherp en zelfkritisch gebracht (inclusief eigen anekdotes) binnen een bewust strak getimede 15-minutenformat.",
               "bestMoment": "analytisch",
               "tags": [
-                "scrum",
-                "video-top-10"
+                "scrum"
               ],
               "alsoIn": [
                 "video-top-100"
@@ -23125,8 +23125,7 @@ window.TOP_ARTICLES = {
               "whyRead": "Raakt je interesse in scrum & agile werken — een diepgaande webinar-aflevering (Scrum Facilitators) over de sprint retrospective, met veel nuance over veelgemaakte misverstanden en praktische tips, inclusief live Q&A met kijkers.",
               "bestMoment": "analytisch",
               "tags": [
-                "scrum",
-                "video-top-10"
+                "scrum"
               ],
               "alsoIn": [
                 "video-top-100"
@@ -23157,8 +23156,7 @@ window.TOP_ARTICLES = {
               "whyRead": "Raakt scrum & agile werken direct — een diepgaand interview met Nick Brown (auteur van \"Real World Agility\") over waarom eerlijke faalverhalen waardevoller zijn dan gepolijste frameworks, en waarom cultuur het fundament van agile teams is.",
               "bestMoment": "analytisch",
               "tags": [
-                "scrum",
-                "video-top-10"
+                "scrum"
               ],
               "alsoIn": [
                 "aaa-scrum-top-100",
@@ -23187,8 +23185,7 @@ window.TOP_ARTICLES = {
               "tags": [
                 "philosophy",
                 "political philosophy",
-                "sociology & inequality",
-                "video-top-10"
+                "sociology & inequality"
               ],
               "alsoIn": [
                 "video-top-10"
@@ -23216,8 +23213,7 @@ window.TOP_ARTICLES = {
               "tags": [
                 "ai & machine learning",
                 "learning & meta-learning",
-                "programming & software",
-                "video-top-10"
+                "programming & software"
               ],
               "alsoIn": [
                 "aaa-software-development-top-100",
@@ -23246,8 +23242,7 @@ window.TOP_ARTICLES = {
               "tags": [
                 "ai ethics & society",
                 "business & startups",
-                "technology",
-                "video-top-10"
+                "technology"
               ],
               "alsoIn": [
                 "video-top-10"
@@ -23273,8 +23268,7 @@ window.TOP_ARTICLES = {
               "whyRead": "Raakt je interesse in scrum & agile werken — een informeel maar scherp gesprek over de vraag of Scrum Masters delivery managers moeten worden, met een concrete verklaring waarom de rol onder druk staat.",
               "bestMoment": "analytisch",
               "tags": [
-                "scrum",
-                "video-top-10"
+                "scrum"
               ],
               "alsoIn": [
                 "video-top-10"
@@ -23300,8 +23294,7 @@ window.TOP_ARTICLES = {
               "whyRead": "Raakt je interesse in scrum & agile werken — een praktisch, beroepsmatig direct toepasbaar raamwerk van vijf meetbare manieren om als Scrum Master je waarde aan een organisatie aan te tonen.",
               "bestMoment": "analytisch",
               "tags": [
-                "scrum",
-                "video-top-10"
+                "scrum"
               ],
               "alsoIn": [
                 "video-top-10"
@@ -23327,8 +23320,7 @@ window.TOP_ARTICLES = {
               "whyRead": "Raakt je interesse in scrum & agile werken — drie concrete, vaak vergeten Scrum Master-praktijken (definition of done, teamrelaties, refinement) met scherpe, direct toepasbare adviezen.",
               "bestMoment": "analytisch",
               "tags": [
-                "scrum",
-                "video-top-10"
+                "scrum"
               ],
               "alsoIn": [
                 "video-top-10"
@@ -23354,8 +23346,7 @@ window.TOP_ARTICLES = {
               "whyRead": "Raakt je interesse in scrum & agile werken — twee ervaren scrum.org-trainers delen drie lessen die ze vroeg in hun carrière hadden willen kennen, met een verrassend eerlijke relativering van scrum zelf als laatste les.",
               "bestMoment": "analytisch",
               "tags": [
-                "scrum",
-                "video-top-10"
+                "scrum"
               ],
               "alsoIn": [
                 "video-top-10"
@@ -23381,8 +23372,7 @@ window.TOP_ARTICLES = {
               "whyRead": "Raakt je interesse in scrum & agile werken — vijf herkenbare valkuilen voor Scrum Masters, scherp en zelfkritisch gebracht (inclusief eigen anekdotes) binnen een bewust strak getimede 15-minutenformat.",
               "bestMoment": "analytisch",
               "tags": [
-                "scrum",
-                "video-top-10"
+                "scrum"
               ],
               "alsoIn": [
                 "video-top-10"
@@ -23408,8 +23398,7 @@ window.TOP_ARTICLES = {
               "whyRead": "Raakt je interesse in scrum & agile werken — een diepgaande webinar-aflevering (Scrum Facilitators) over de sprint retrospective, met veel nuance over veelgemaakte misverstanden en praktische tips, inclusief live Q&A met kijkers.",
               "bestMoment": "analytisch",
               "tags": [
-                "scrum",
-                "video-top-10"
+                "scrum"
               ],
               "alsoIn": [
                 "video-top-10"
@@ -23540,7 +23529,6 @@ window.TOP_ARTICLES = {
               "tags": [
                 "ai & machine learning",
                 "arts & culture",
-                "light-reading",
                 "programming & software"
               ],
               "alsoIn": [
@@ -23593,7 +23581,6 @@ window.TOP_ARTICLES = {
               "whyRead": "Raakt je interesses in zingeving, filosofie en AI-cultuur: een rijk maar kritisch gesprek over waarom digitale substituten voor betekenis, vriendschap en liefde onbevredigend blijven.",
               "bestMoment": "reflectief",
               "tags": [
-                "linked-from-readwise",
                 "metaphysics",
                 "personal growth & life philosophy",
                 "personal-growth-life-philosophy",
@@ -23624,8 +23611,7 @@ window.TOP_ARTICLES = {
               "tags": [
                 "arts & culture",
                 "behavioral psychology & coaching",
-                "fiction",
-                "light-reading"
+                "fiction"
               ],
               "alsoIn": []
             },
@@ -23688,6 +23674,60 @@ window.TOP_ARTICLES = {
     "items": [
       {
         "position": null,
+        "id": "01m22twxcqca3935zpfycrpx93",
+        "title": "Good Listening",
+        "author": "Bob Galen from Agile Moose",
+        "siteName": "Substack",
+        "category": "email",
+        "language": null,
+        "readingTime": "4 mins",
+        "readingMinutes": 4,
+        "wordCount": 934,
+        "publishedDate": "2026-09-09",
+        "savedDate": "2026-09-09T10:19:58.232000+00:00",
+        "imageUrl": null,
+        "sourceUrl": "mailto:reader-forwarded-email/b7beed0915fe1808f98ace6cdf070ce2",
+        "readwiseUrl": "https://read.readwise.io/read/01m22twxcqca3935zpfycrpx93",
+        "summary": "Most people think they’re good listeners. They’re not.",
+        "whyRead": "Raakt je werk als Scrum Master en je interesse in coaching, communicatie en teamdynamiek; de tekst geeft een direct toepasbaar model om luisteren minder als wachten op je beurt en meer als professioneel vakmanschap te zien.",
+        "bestMoment": "leergierig",
+        "tags": [
+          "agile",
+          "behavioral psychology & coaching",
+          "professional development"
+        ],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01m22s61yne5g1bb8awfc2wkgh",
+        "title": "Half-user-centric: Your product has a new user now",
+        "author": "Afonso Franco",
+        "siteName": "Substack",
+        "category": "email",
+        "language": null,
+        "readingTime": "7 mins",
+        "readingMinutes": 7,
+        "wordCount": 1740,
+        "publishedDate": "2026-09-09",
+        "savedDate": "2026-09-09T09:50:00.661000+00:00",
+        "imageUrl": null,
+        "sourceUrl": "mailto:reader-forwarded-email/7c4086824a9ff8ae7d7966856afce6a6",
+        "readwiseUrl": "https://read.readwise.io/read/01m22s61yne5g1bb8awfc2wkgh",
+        "summary": "I still remember my first couple of days when I started my career in tech.",
+        "whyRead": "Raakt je interesse in front-end softwareontwikkeling, AI en productdenken: het artikel laat concreet zien hoe agents API's, UX, metrics en SaaS-pricing tegelijk veranderen. De koppeling tussen technische schuld en gebruikerservaring is bruikbaar voor werk rond product- en teamontwikkeling.",
+        "bestMoment": "analytisch",
+        "tags": [
+          "business & startups",
+          "front-end software development",
+          "technology"
+        ],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
         "id": "01m227yg7yamdn2qq40a45gr71",
         "title": "The AI4Agile Practitioners Report 2026",
         "author": "Scrum.org",
@@ -23706,25 +23746,18 @@ window.TOP_ARTICLES = {
         "whyRead": null,
         "bestMoment": null,
         "tags": [
-          "agile & scrum",
-          "ai ethics & society",
-          "artificial intelligence",
-          "professional development"
+          "agile",
+          "professional development",
+          "technology"
         ],
         "alsoIn": [
-          "aaa-top-100",
-          "aaa-short-top-100"
+          "aaa-scrum-top-100"
         ],
         "memberships": [
           {
-            "familyId": "algemeen",
+            "familyId": "scrum",
             "size": "top-100",
-            "position": 23
-          },
-          {
-            "familyId": "kort",
-            "size": "top-100",
-            "position": 21
+            "position": 83
           }
         ]
       },
@@ -23749,9 +23782,7 @@ window.TOP_ARTICLES = {
         "bestMoment": null,
         "tags": [
           "behavioral psychology & coaching",
-          "decision-making",
-          "personal growth & life philosophy",
-          "productivity"
+          "personal growth & life philosophy"
         ],
         "alsoIn": [],
         "memberships": []
@@ -23776,13 +23807,38 @@ window.TOP_ARTICLES = {
         "whyRead": null,
         "bestMoment": null,
         "tags": [
-          "communication",
-          "organizational culture",
+          "agile",
           "professional development",
           "sociology & social structures"
         ],
-        "alsoIn": [],
-        "memberships": []
+        "alsoIn": [
+          "aaa-top-100",
+          "aaa-short-top-100",
+          "aaa-scrum-top-10",
+          "aaa-scrum-top-100"
+        ],
+        "memberships": [
+          {
+            "familyId": "algemeen",
+            "size": "top-100",
+            "position": 23
+          },
+          {
+            "familyId": "kort",
+            "size": "top-100",
+            "position": 21
+          },
+          {
+            "familyId": "scrum",
+            "size": "top-10",
+            "position": 6
+          },
+          {
+            "familyId": "scrum",
+            "size": "top-100",
+            "position": 6
+          }
+        ]
       },
       {
         "position": null,
@@ -23804,10 +23860,9 @@ window.TOP_ARTICLES = {
         "whyRead": null,
         "bestMoment": null,
         "tags": [
-          "communication",
-          "organizational culture",
+          "behavioral psychology & coaching",
           "professional development",
-          "psychology"
+          "sociology & social structures"
         ],
         "alsoIn": [],
         "memberships": []
@@ -23832,10 +23887,9 @@ window.TOP_ARTICLES = {
         "whyRead": null,
         "bestMoment": null,
         "tags": [
-          "communication",
           "learning & meta-learning",
-          "organizational culture",
-          "professional development"
+          "professional development",
+          "sociology & social structures"
         ],
         "alsoIn": [],
         "memberships": []
@@ -23860,10 +23914,9 @@ window.TOP_ARTICLES = {
         "whyRead": null,
         "bestMoment": null,
         "tags": [
-          "communication",
-          "dialogue",
-          "organizational culture",
-          "professional development"
+          "behavioral psychology & coaching",
+          "professional development",
+          "sociology & social structures"
         ],
         "alsoIn": [],
         "memberships": []
@@ -23889,9 +23942,8 @@ window.TOP_ARTICLES = {
         "bestMoment": null,
         "tags": [
           "ai ethics & society",
-          "artificial intelligence",
-          "critical thinking",
-          "cybersecurity"
+          "current affairs & politics",
+          "technology"
         ],
         "alsoIn": [],
         "memberships": []
@@ -23916,9 +23968,8 @@ window.TOP_ARTICLES = {
         "whyRead": null,
         "bestMoment": null,
         "tags": [
-          "artificial intelligence",
-          "machine learning",
           "research papers & academia",
+          "science",
           "technology"
         ],
         "alsoIn": [],
@@ -24000,7 +24051,6 @@ window.TOP_ARTICLES = {
         "tags": [
           "arts & culture",
           "history",
-          "light-reading",
           "philosophy"
         ],
         "alsoIn": [
@@ -24036,7 +24086,6 @@ window.TOP_ARTICLES = {
         "tags": [
           "arts & culture",
           "history",
-          "light-reading",
           "sociology & social structures"
         ],
         "alsoIn": [
@@ -24046,7 +24095,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 28
+            "position": 29
           }
         ]
       },
@@ -24098,17 +24147,35 @@ window.TOP_ARTICLES = {
         "bestMoment": "leergierig",
         "tags": [
           "agile",
-          "learning & meta-learning",
-          "professional development"
+          "professional development",
+          "sociology & social structures"
         ],
         "alsoIn": [
+          "aaa-top-100",
+          "aaa-short-top-100",
+          "aaa-scrum-top-10",
           "aaa-scrum-top-100"
         ],
         "memberships": [
           {
+            "familyId": "algemeen",
+            "size": "top-100",
+            "position": 22
+          },
+          {
+            "familyId": "kort",
+            "size": "top-100",
+            "position": 20
+          },
+          {
+            "familyId": "scrum",
+            "size": "top-10",
+            "position": 5
+          },
+          {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 79
+            "position": 5
           }
         ]
       },
@@ -24146,12 +24213,12 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 22
+            "position": 21
           },
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 20
+            "position": 19
           },
           {
             "familyId": "scrum",
@@ -24223,7 +24290,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 78
+            "position": 82
           }
         ]
       },
@@ -24247,10 +24314,9 @@ window.TOP_ARTICLES = {
         "whyRead": null,
         "bestMoment": null,
         "tags": [
-          "customer research",
-          "product discovery",
-          "professional development",
-          "team coaching"
+          "behavioral psychology & coaching",
+          "business & startups",
+          "professional development"
         ],
         "alsoIn": [],
         "memberships": []
@@ -24275,13 +24341,20 @@ window.TOP_ARTICLES = {
         "whyRead": null,
         "bestMoment": null,
         "tags": [
-          "agile & scrum",
-          "facilitation",
-          "remote collaboration",
-          "team coaching"
+          "agile",
+          "professional development",
+          "scrum"
         ],
-        "alsoIn": [],
-        "memberships": []
+        "alsoIn": [
+          "aaa-scrum-top-100"
+        ],
+        "memberships": [
+          {
+            "familyId": "scrum",
+            "size": "top-100",
+            "position": 81
+          }
+        ]
       },
       {
         "position": null,
@@ -24303,13 +24376,20 @@ window.TOP_ARTICLES = {
         "whyRead": null,
         "bestMoment": null,
         "tags": [
-          "agile & scrum",
-          "learning & meta-learning",
-          "psychological safety",
-          "team coaching"
+          "agile",
+          "behavioral psychology & coaching",
+          "professional development"
         ],
-        "alsoIn": [],
-        "memberships": []
+        "alsoIn": [
+          "aaa-scrum-top-100"
+        ],
+        "memberships": [
+          {
+            "familyId": "scrum",
+            "size": "top-100",
+            "position": 80
+          }
+        ]
       },
       {
         "position": null,
@@ -24331,10 +24411,9 @@ window.TOP_ARTICLES = {
         "whyRead": null,
         "bestMoment": null,
         "tags": [
-          "adult education",
+          "behavioral psychology & coaching",
           "learning & meta-learning",
-          "personal growth & life philosophy",
-          "psychology"
+          "personal growth & life philosophy"
         ],
         "alsoIn": [
           "pdf-top-100"
@@ -24343,7 +24422,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "pdfs",
             "size": "top-100",
-            "position": 40
+            "position": 41
           }
         ]
       },
@@ -24367,7 +24446,6 @@ window.TOP_ARTICLES = {
         "whyRead": "Raakt je interesse in filosofie en persoonlijke groei; dit essay maakt Nietzsches paradox “word wie je bent” toegankelijk en verbindt karaktervorming aan handelen, voorbeelden en leren leven met ongemak.",
         "bestMoment": "analytisch",
         "tags": [
-          "linked-from-readwise",
           "personal growth & life philosophy",
           "philosophy"
         ],
@@ -24395,20 +24473,11 @@ window.TOP_ARTICLES = {
         "bestMoment": "leergierig",
         "tags": [
           "agile",
-          "linked-from-readwise",
           "professional development",
           "scrum"
         ],
-        "alsoIn": [
-          "aaa-scrum-top-100"
-        ],
-        "memberships": [
-          {
-            "familyId": "scrum",
-            "size": "top-100",
-            "position": 97
-          }
-        ]
+        "alsoIn": [],
+        "memberships": []
       },
       {
         "position": null,
@@ -24430,8 +24499,6 @@ window.TOP_ARTICLES = {
         "whyRead": "Raakt je kerninteresse in politieke filosofie, vrijheid en macht; Mill formuleert hier het schadebeginsel en verdedigt individuele en intellectuele vrijheid tegenover sociale én staatsdwang.",
         "bestMoment": "analytisch",
         "tags": [
-          "linked-from-readwise",
-          "pdf-top-10",
           "philosophy",
           "political philosophy"
         ],
@@ -24472,8 +24539,7 @@ window.TOP_ARTICLES = {
         "whyRead": "Raakt je interesse in politieke filosofie, feminisme en ideeëngeschiedenis; deze Reader-pagina is vooral een bibliografische ingang naar Harriet Taylor Mills historische essay over vrouwenkiesrecht.",
         "bestMoment": "leergierig",
         "tags": [
-          "feminism & gender",
-          "linked-from-readwise",
+          "history",
           "political philosophy",
           "sociology & social structures"
         ],
@@ -24500,27 +24566,12 @@ window.TOP_ARTICLES = {
         "whyRead": null,
         "bestMoment": null,
         "tags": [
-          "feminism & gender",
-          "history of ideas",
+          "history",
           "political philosophy",
           "sociology & social structures"
         ],
-        "alsoIn": [
-          "aaa-top-100",
-          "aaa-short-top-100"
-        ],
-        "memberships": [
-          {
-            "familyId": "algemeen",
-            "size": "top-100",
-            "position": 21
-          },
-          {
-            "familyId": "kort",
-            "size": "top-100",
-            "position": 19
-          }
-        ]
+        "alsoIn": [],
+        "memberships": []
       },
       {
         "position": null,
@@ -24542,10 +24593,9 @@ window.TOP_ARTICLES = {
         "whyRead": null,
         "bestMoment": null,
         "tags": [
-          "decision-making",
-          "existentialism",
+          "behavioral psychology & coaching",
           "personal growth & life philosophy",
-          "psychology"
+          "philosophy"
         ],
         "alsoIn": [],
         "memberships": []
@@ -24570,9 +24620,9 @@ window.TOP_ARTICLES = {
         "whyRead": null,
         "bestMoment": null,
         "tags": [
-          "critical thinking",
+          "learning & meta-learning",
           "philosophy",
-          "philosophy of technology"
+          "technology"
         ],
         "alsoIn": [],
         "memberships": []
@@ -24598,9 +24648,8 @@ window.TOP_ARTICLES = {
         "bestMoment": null,
         "tags": [
           "ai ethics & society",
-          "critical thinking",
-          "democracy",
-          "political philosophy"
+          "political philosophy",
+          "sociology & social structures"
         ],
         "alsoIn": [],
         "memberships": []
@@ -24625,20 +24674,12 @@ window.TOP_ARTICLES = {
         "whyRead": null,
         "bestMoment": null,
         "tags": [
-          "books",
+          "arts & culture",
           "learning & meta-learning",
           "personal growth & life philosophy"
         ],
-        "alsoIn": [
-          "boek-top-100"
-        ],
-        "memberships": [
-          {
-            "familyId": "boeken",
-            "size": "top-100",
-            "position": 58
-          }
-        ]
+        "alsoIn": [],
+        "memberships": []
       },
       {
         "position": null,
@@ -24673,12 +24714,12 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-10",
-            "position": 8
+            "position": 10
           },
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 8
+            "position": 10
           },
           {
             "familyId": "pdfs",
@@ -24718,7 +24759,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 77
+            "position": 79
           }
         ]
       },
@@ -24796,9 +24837,8 @@ window.TOP_ARTICLES = {
         "whyRead": "Raakt je interesse in technologie, geopolitiek en AI-ethiek; dit essay laat zien hoe goedkope drones niet alleen slagveldwaren zijn, maar ook ruilmiddelen waarmee regionale machten invloed en toegang tot grondstoffen kopen.",
         "bestMoment": "kritisch",
         "tags": [
-          "ai ethics & society",
           "current affairs & politics",
-          "linked-from-readwise",
+          "economics",
           "technology"
         ],
         "alsoIn": [],
@@ -24826,7 +24866,6 @@ window.TOP_ARTICLES = {
         "tags": [
           "ai ethics & society",
           "current affairs & politics",
-          "linked-from-readwise",
           "technology"
         ],
         "alsoIn": [],
@@ -24852,10 +24891,9 @@ window.TOP_ARTICLES = {
         "whyRead": "Raakt je interesse in technologie, systeemveiligheid en professionele besluitvorming; Feynmans NASA-bijlage laat zien hoe risico’s worden verhuld wanneer planning en public relations zwaarder wegen dan werkelijkheid.",
         "bestMoment": "analytisch",
         "tags": [
-          "linked-from-readwise",
           "professional documents",
           "science",
-          "technology"
+          "software development"
         ],
         "alsoIn": [],
         "memberships": []
@@ -24881,8 +24919,7 @@ window.TOP_ARTICLES = {
         "bestMoment": "analytisch",
         "tags": [
           "ai ethics & society",
-          "linked-from-readwise",
-          "science",
+          "philosophy",
           "technology"
         ],
         "alsoIn": [],
@@ -24909,7 +24946,6 @@ window.TOP_ARTICLES = {
         "bestMoment": "geconcentreerd",
         "tags": [
           "behavioral psychology & coaching",
-          "linked-from-readwise",
           "professional development",
           "software development"
         ],
@@ -24950,21 +24986,12 @@ window.TOP_ARTICLES = {
         "whyRead": "Raakt je interesse in softwareontwikkeling en professioneel vakmanschap; NASA’s shuttleteam toont hoe procesdiscipline, onafhankelijke verificatie en gedeelde verantwoordelijkheid software betrouwbaar genoeg maken voor een extreem risicovolle omgeving.",
         "bestMoment": "leergierig",
         "tags": [
-          "linked-from-readwise",
           "professional development",
-          "software development",
-          "technology"
+          "science",
+          "software development"
         ],
-        "alsoIn": [
-          "aaa-software-development-top-100"
-        ],
-        "memberships": [
-          {
-            "familyId": "software-development",
-            "size": "top-100",
-            "position": 49
-          }
-        ]
+        "alsoIn": [],
+        "memberships": []
       },
       {
         "position": null,
@@ -24987,7 +25014,6 @@ window.TOP_ARTICLES = {
         "bestMoment": "analytisch",
         "tags": [
           "economics",
-          "linked-from-readwise",
           "political philosophy",
           "sociology & social structures"
         ],
@@ -25015,7 +25041,6 @@ window.TOP_ARTICLES = {
         "bestMoment": "analytisch",
         "tags": [
           "current affairs & politics",
-          "linked-from-readwise",
           "political philosophy",
           "sociology & social structures"
         ],
@@ -25043,7 +25068,7 @@ window.TOP_ARTICLES = {
         "bestMoment": "analytisch",
         "tags": [
           "ai ethics & society",
-          "linked-from-readwise",
+          "current affairs & politics",
           "technology"
         ],
         "alsoIn": [],
@@ -25070,7 +25095,6 @@ window.TOP_ARTICLES = {
         "bestMoment": "kritisch",
         "tags": [
           "history",
-          "linked-from-readwise",
           "political philosophy",
           "sociology & social structures"
         ],
@@ -25098,7 +25122,6 @@ window.TOP_ARTICLES = {
         "bestMoment": "analytisch",
         "tags": [
           "history",
-          "linked-from-readwise",
           "political philosophy",
           "sociology & social structures"
         ],
@@ -25127,7 +25150,6 @@ window.TOP_ARTICLES = {
         "tags": [
           "current affairs & politics",
           "economics",
-          "linked-from-readwise",
           "technology"
         ],
         "alsoIn": [],
@@ -25154,7 +25176,6 @@ window.TOP_ARTICLES = {
         "bestMoment": "geconcentreerd",
         "tags": [
           "ai ethics & society",
-          "linked-from-readwise",
           "software development",
           "technology"
         ],
@@ -25165,7 +25186,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "software-development",
             "size": "top-100",
-            "position": 88
+            "position": 87
           }
         ]
       },
@@ -25190,7 +25211,6 @@ window.TOP_ARTICLES = {
         "bestMoment": "analytisch",
         "tags": [
           "ai ethics & society",
-          "linked-from-readwise",
           "political philosophy"
         ],
         "alsoIn": [],
@@ -25217,7 +25237,6 @@ window.TOP_ARTICLES = {
         "bestMoment": "kritisch",
         "tags": [
           "ai ethics & society",
-          "linked-from-readwise",
           "political philosophy",
           "technology"
         ],
@@ -25246,7 +25265,6 @@ window.TOP_ARTICLES = {
         "tags": [
           "ai ethics & society",
           "behavioral psychology & coaching",
-          "linked-from-readwise",
           "software development"
         ],
         "alsoIn": [
@@ -25257,7 +25275,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "software-development",
             "size": "top-100",
-            "position": 53
+            "position": 52
           },
           {
             "familyId": "pdfs",
@@ -25288,7 +25306,6 @@ window.TOP_ARTICLES = {
         "tags": [
           "ai ethics & society",
           "current affairs & politics",
-          "linked-from-readwise",
           "technology"
         ],
         "alsoIn": [],
@@ -25316,7 +25333,6 @@ window.TOP_ARTICLES = {
         "tags": [
           "ai ethics & society",
           "current affairs & politics",
-          "linked-from-readwise",
           "technology"
         ],
         "alsoIn": [],
@@ -25344,7 +25360,6 @@ window.TOP_ARTICLES = {
         "tags": [
           "ai ethics & society",
           "current affairs & politics",
-          "linked-from-readwise",
           "technology"
         ],
         "alsoIn": [],
@@ -25371,7 +25386,6 @@ window.TOP_ARTICLES = {
         "bestMoment": "kritisch",
         "tags": [
           "ai ethics & society",
-          "linked-from-readwise",
           "software development",
           "technology"
         ],
@@ -25399,7 +25413,6 @@ window.TOP_ARTICLES = {
         "bestMoment": "geconcentreerd",
         "tags": [
           "current affairs & politics",
-          "linked-from-readwise",
           "software development",
           "technology"
         ],
@@ -25410,7 +25423,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "software-development",
             "size": "top-100",
-            "position": 87
+            "position": 86
           }
         ]
       },
@@ -25435,7 +25448,6 @@ window.TOP_ARTICLES = {
         "bestMoment": "kritisch",
         "tags": [
           "behavioral psychology & coaching",
-          "linked-from-readwise",
           "software development",
           "technology"
         ],
@@ -25463,7 +25475,6 @@ window.TOP_ARTICLES = {
         "bestMoment": "kritisch",
         "tags": [
           "history",
-          "linked-from-readwise",
           "political philosophy",
           "sociology & social structures"
         ],
@@ -25492,7 +25503,6 @@ window.TOP_ARTICLES = {
         "tags": [
           "ai ethics & society",
           "learning & meta-learning",
-          "linked-from-readwise",
           "research papers & academia"
         ],
         "alsoIn": [],
@@ -25519,7 +25529,6 @@ window.TOP_ARTICLES = {
         "bestMoment": "kritisch",
         "tags": [
           "current affairs & politics",
-          "linked-from-readwise",
           "political philosophy",
           "sociology & social structures"
         ],
@@ -25668,7 +25677,6 @@ window.TOP_ARTICLES = {
         "bestMoment": "kritisch",
         "tags": [
           "ai ethics & society",
-          "linked-from-readwise",
           "software development"
         ],
         "alsoIn": [],
@@ -25695,7 +25703,6 @@ window.TOP_ARTICLES = {
         "bestMoment": "analytisch",
         "tags": [
           "ai ethics & society",
-          "linked-from-readwise",
           "research papers & academia",
           "software development"
         ],
@@ -25732,7 +25739,6 @@ window.TOP_ARTICLES = {
         "tags": [
           "behavioral psychology & coaching",
           "economics",
-          "linked-from-readwise",
           "sociology & social structures"
         ],
         "alsoIn": [],
@@ -25797,7 +25803,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "software-development",
             "size": "top-100",
-            "position": 52
+            "position": 51
           },
           {
             "familyId": "pdfs",
@@ -25936,7 +25942,6 @@ window.TOP_ARTICLES = {
         "tags": [
           "arts & culture",
           "history",
-          "light-reading",
           "philosophy"
         ],
         "alsoIn": [
@@ -26006,7 +26011,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 76
+            "position": 78
           }
         ]
       },
@@ -26032,8 +26037,6 @@ window.TOP_ARTICLES = {
         "tags": [
           "arts & culture",
           "history",
-          "light-reading",
-          "linked-from-readwise",
           "sociology & social structures"
         ],
         "alsoIn": [
@@ -26121,7 +26124,6 @@ window.TOP_ARTICLES = {
         "bestMoment": "reflectief",
         "tags": [
           "arts & culture",
-          "light-reading",
           "personal growth & life philosophy",
           "philosophy"
         ],
@@ -26187,7 +26189,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 75
+            "position": 77
           },
           {
             "familyId": "software-development",
@@ -26218,11 +26220,24 @@ window.TOP_ARTICLES = {
         "tags": [
           "accessibility",
           "front-end software development",
-          "linked-from-readwise",
           "software development"
         ],
-        "alsoIn": [],
-        "memberships": []
+        "alsoIn": [
+          "aaa-front-end-development-top-10",
+          "aaa-front-end-development-top-100"
+        ],
+        "memberships": [
+          {
+            "familyId": "front-end-development",
+            "size": "top-10",
+            "position": 7
+          },
+          {
+            "familyId": "front-end-development",
+            "size": "top-100",
+            "position": 7
+          }
+        ]
       },
       {
         "position": null,
@@ -26245,7 +26260,6 @@ window.TOP_ARTICLES = {
         "bestMoment": "geconcentreerd",
         "tags": [
           "front-end software development",
-          "linked-from-readwise",
           "software development",
           "technology"
         ],
@@ -26273,7 +26287,6 @@ window.TOP_ARTICLES = {
         "bestMoment": "geconcentreerd",
         "tags": [
           "front-end software development",
-          "linked-from-readwise",
           "software development",
           "technology"
         ],
@@ -26301,7 +26314,6 @@ window.TOP_ARTICLES = {
         "bestMoment": "leergierig",
         "tags": [
           "front-end software development",
-          "linked-from-readwise",
           "software development",
           "technology"
         ],
@@ -26329,7 +26341,6 @@ window.TOP_ARTICLES = {
         "bestMoment": "analytisch",
         "tags": [
           "front-end software development",
-          "linked-from-readwise",
           "software development",
           "technology"
         ],
@@ -26357,7 +26368,6 @@ window.TOP_ARTICLES = {
         "bestMoment": "analytisch",
         "tags": [
           "front-end software development",
-          "linked-from-readwise",
           "professional development",
           "software development"
         ],
@@ -26393,7 +26403,6 @@ window.TOP_ARTICLES = {
         "bestMoment": "leergierig",
         "tags": [
           "front-end software development",
-          "linked-from-readwise",
           "professional development",
           "software development",
           "technology"
@@ -26430,7 +26439,6 @@ window.TOP_ARTICLES = {
         "bestMoment": "leergierig",
         "tags": [
           "front-end software development",
-          "linked-from-readwise",
           "professional development",
           "software development",
           "technology"
@@ -26442,7 +26450,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "software-development",
             "size": "top-100",
-            "position": 86
+            "position": 85
           }
         ]
       },
@@ -26467,7 +26475,6 @@ window.TOP_ARTICLES = {
         "bestMoment": "leergierig",
         "tags": [
           "front-end software development",
-          "linked-from-readwise",
           "professional development",
           "software development",
           "technology"
@@ -26505,19 +26512,30 @@ window.TOP_ARTICLES = {
         "tags": [
           "accessibility",
           "front-end software development",
-          "linked-from-readwise",
           "professional development",
           "software development",
           "technology"
         ],
         "alsoIn": [
-          "aaa-software-development-top-100"
+          "aaa-software-development-top-100",
+          "aaa-front-end-development-top-10",
+          "aaa-front-end-development-top-100"
         ],
         "memberships": [
           {
             "familyId": "software-development",
             "size": "top-100",
             "position": 45
+          },
+          {
+            "familyId": "front-end-development",
+            "size": "top-10",
+            "position": 4
+          },
+          {
+            "familyId": "front-end-development",
+            "size": "top-100",
+            "position": 4
           }
         ]
       },
@@ -26543,19 +26561,30 @@ window.TOP_ARTICLES = {
         "tags": [
           "accessibility",
           "front-end software development",
-          "linked-from-readwise",
           "professional development",
           "software development",
           "technology"
         ],
         "alsoIn": [
-          "aaa-software-development-top-100"
+          "aaa-software-development-top-100",
+          "aaa-front-end-development-top-10",
+          "aaa-front-end-development-top-100"
         ],
         "memberships": [
           {
             "familyId": "software-development",
             "size": "top-100",
             "position": 37
+          },
+          {
+            "familyId": "front-end-development",
+            "size": "top-10",
+            "position": 3
+          },
+          {
+            "familyId": "front-end-development",
+            "size": "top-100",
+            "position": 3
           }
         ]
       },
@@ -26580,7 +26609,6 @@ window.TOP_ARTICLES = {
         "bestMoment": "analytisch",
         "tags": [
           "front-end software development",
-          "linked-from-readwise",
           "professional development",
           "software development",
           "technology"
@@ -26592,7 +26620,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "software-development",
             "size": "top-100",
-            "position": 85
+            "position": 84
           }
         ]
       },
@@ -26618,19 +26646,30 @@ window.TOP_ARTICLES = {
         "tags": [
           "accessibility",
           "front-end software development",
-          "linked-from-readwise",
           "philosophy",
           "software development",
           "technology"
         ],
         "alsoIn": [
-          "aaa-software-development-top-100"
+          "aaa-software-development-top-100",
+          "aaa-front-end-development-top-10",
+          "aaa-front-end-development-top-100"
         ],
         "memberships": [
           {
             "familyId": "software-development",
             "size": "top-100",
             "position": 36
+          },
+          {
+            "familyId": "front-end-development",
+            "size": "top-10",
+            "position": 2
+          },
+          {
+            "familyId": "front-end-development",
+            "size": "top-100",
+            "position": 2
           }
         ]
       },
@@ -26655,7 +26694,6 @@ window.TOP_ARTICLES = {
         "bestMoment": "leergierig",
         "tags": [
           "front-end software development",
-          "linked-from-readwise",
           "professional development",
           "software development",
           "technology"
@@ -26692,7 +26730,6 @@ window.TOP_ARTICLES = {
         "bestMoment": "leergierig",
         "tags": [
           "front-end software development",
-          "linked-from-readwise",
           "professional development",
           "software development",
           "technology"
@@ -26729,7 +26766,6 @@ window.TOP_ARTICLES = {
         "bestMoment": "analytisch",
         "tags": [
           "front-end software development",
-          "linked-from-readwise",
           "professional development",
           "software development",
           "technology"
@@ -26766,8 +26802,6 @@ window.TOP_ARTICLES = {
         "bestMoment": "ontspannen",
         "tags": [
           "front-end software development",
-          "light-reading",
-          "linked-from-readwise",
           "professional development",
           "software development",
           "technology"
@@ -26804,7 +26838,6 @@ window.TOP_ARTICLES = {
         "bestMoment": "analytisch",
         "tags": [
           "front-end software development",
-          "linked-from-readwise",
           "professional development",
           "software development",
           "technology"
@@ -26841,7 +26874,6 @@ window.TOP_ARTICLES = {
         "bestMoment": "analytisch",
         "tags": [
           "front-end software development",
-          "linked-from-readwise",
           "professional development",
           "software development",
           "technology"
@@ -26878,7 +26910,6 @@ window.TOP_ARTICLES = {
         "bestMoment": "leergierig",
         "tags": [
           "front-end software development",
-          "linked-from-readwise",
           "professional development",
           "software development",
           "technology"
@@ -26890,7 +26921,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "software-development",
             "size": "top-100",
-            "position": 84
+            "position": 83
           }
         ]
       },
@@ -26916,7 +26947,6 @@ window.TOP_ARTICLES = {
         "tags": [
           "agile",
           "front-end software development",
-          "linked-from-readwise",
           "professional development",
           "software development",
           "technology"
@@ -26929,7 +26959,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 74
+            "position": 76
           },
           {
             "familyId": "software-development",
@@ -26960,7 +26990,6 @@ window.TOP_ARTICLES = {
         "tags": [
           "behavioral psychology & coaching",
           "business & startups",
-          "linked-from-readwise",
           "professional development"
         ],
         "alsoIn": [],
@@ -26988,19 +27017,30 @@ window.TOP_ARTICLES = {
         "tags": [
           "accessibility",
           "front-end software development",
-          "linked-from-readwise",
           "professional development",
           "software development",
           "technology"
         ],
         "alsoIn": [
-          "aaa-software-development-top-100"
+          "aaa-software-development-top-100",
+          "aaa-front-end-development-top-10",
+          "aaa-front-end-development-top-100"
         ],
         "memberships": [
           {
             "familyId": "software-development",
             "size": "top-100",
             "position": 33
+          },
+          {
+            "familyId": "front-end-development",
+            "size": "top-10",
+            "position": 1
+          },
+          {
+            "familyId": "front-end-development",
+            "size": "top-100",
+            "position": 1
           }
         ]
       },
@@ -27026,19 +27066,30 @@ window.TOP_ARTICLES = {
         "tags": [
           "accessibility",
           "front-end software development",
-          "linked-from-readwise",
           "professional development",
           "software development",
           "technology"
         ],
         "alsoIn": [
-          "aaa-software-development-top-100"
+          "aaa-software-development-top-100",
+          "aaa-front-end-development-top-10",
+          "aaa-front-end-development-top-100"
         ],
         "memberships": [
           {
             "familyId": "software-development",
             "size": "top-100",
-            "position": 83
+            "position": 82
+          },
+          {
+            "familyId": "front-end-development",
+            "size": "top-10",
+            "position": 6
+          },
+          {
+            "familyId": "front-end-development",
+            "size": "top-100",
+            "position": 6
           }
         ]
       },
@@ -27064,19 +27115,30 @@ window.TOP_ARTICLES = {
         "tags": [
           "accessibility",
           "front-end software development",
-          "linked-from-readwise",
           "professional development",
           "software development",
           "technology"
         ],
         "alsoIn": [
-          "aaa-software-development-top-100"
+          "aaa-software-development-top-100",
+          "aaa-front-end-development-top-10",
+          "aaa-front-end-development-top-100"
         ],
         "memberships": [
           {
             "familyId": "software-development",
             "size": "top-100",
-            "position": 82
+            "position": 81
+          },
+          {
+            "familyId": "front-end-development",
+            "size": "top-10",
+            "position": 5
+          },
+          {
+            "familyId": "front-end-development",
+            "size": "top-100",
+            "position": 5
           }
         ]
       },
@@ -27102,7 +27164,6 @@ window.TOP_ARTICLES = {
         "tags": [
           "front-end software development",
           "history",
-          "linked-from-readwise",
           "professional development",
           "software development",
           "technology"
@@ -27140,7 +27201,6 @@ window.TOP_ARTICLES = {
         "tags": [
           "front-end software development",
           "history",
-          "linked-from-readwise",
           "professional development",
           "software development",
           "technology"
@@ -27178,7 +27238,6 @@ window.TOP_ARTICLES = {
         "tags": [
           "behavioral psychology & coaching",
           "front-end software development",
-          "linked-from-readwise",
           "professional development",
           "software development",
           "technology"
@@ -27216,7 +27275,6 @@ window.TOP_ARTICLES = {
         "tags": [
           "behavioral psychology & coaching",
           "front-end software development",
-          "linked-from-readwise",
           "professional development",
           "software development",
           "technology"
@@ -27228,7 +27286,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "software-development",
             "size": "top-100",
-            "position": 81
+            "position": 80
           }
         ]
       },
@@ -27254,7 +27312,6 @@ window.TOP_ARTICLES = {
         "tags": [
           "behavioral psychology & coaching",
           "front-end software development",
-          "linked-from-readwise",
           "professional development",
           "software development",
           "technology"
@@ -27266,7 +27323,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "software-development",
             "size": "top-100",
-            "position": 80
+            "position": 79
           }
         ]
       },
@@ -27292,9 +27349,7 @@ window.TOP_ARTICLES = {
         "tags": [
           "arts & culture",
           "fiction",
-          "history",
-          "light-reading",
-          "linked-from-readwise"
+          "history"
         ],
         "alsoIn": [
           "aaa-luchtig-top-100"
@@ -27303,7 +27358,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 77
+            "position": 80
           }
         ]
       },
@@ -27328,7 +27383,6 @@ window.TOP_ARTICLES = {
         "bestMoment": "leergierig",
         "tags": [
           "front-end software development",
-          "linked-from-readwise",
           "professional development",
           "software development"
         ],
@@ -27339,7 +27393,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "software-development",
             "size": "top-100",
-            "position": 79
+            "position": 78
           }
         ]
       },
@@ -27364,8 +27418,6 @@ window.TOP_ARTICLES = {
         "bestMoment": "ontspannen",
         "tags": [
           "health & wellness",
-          "light-reading",
-          "linked-from-readwise",
           "technology"
         ],
         "alsoIn": [],
@@ -27392,7 +27444,6 @@ window.TOP_ARTICLES = {
         "bestMoment": "analytisch",
         "tags": [
           "front-end software development",
-          "linked-from-readwise",
           "professional development",
           "software development"
         ],
@@ -27420,7 +27471,6 @@ window.TOP_ARTICLES = {
         "bestMoment": "leergierig",
         "tags": [
           "front-end software development",
-          "linked-from-readwise",
           "professional development",
           "software development"
         ],
@@ -27431,7 +27481,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "software-development",
             "size": "top-100",
-            "position": 78
+            "position": 77
           }
         ]
       },
@@ -27456,7 +27506,6 @@ window.TOP_ARTICLES = {
         "bestMoment": "leergierig",
         "tags": [
           "front-end software development",
-          "linked-from-readwise",
           "professional development",
           "software development"
         ],
@@ -27491,8 +27540,6 @@ window.TOP_ARTICLES = {
         "whyRead": "Raakt je interesse in software development en ontwerp als vak en in essayistische schrijfprocessen; het element-collageconcept biedt een tastbare tussenstap tussen abstracte wireframes en een uitgewerkte pagina.",
         "bestMoment": "geïnspireerd",
         "tags": [
-          "light-reading",
-          "linked-from-readwise",
           "professional development",
           "technology"
         ],
@@ -27519,7 +27566,6 @@ window.TOP_ARTICLES = {
         "whyRead": "Raakt je interesse in software development en ontwerpwerk, samenwerking en iteratief werken; de Entertainment Weekly-case laat zien hoe strategie, stijl, code en architectuur parallel tot één responsive product komen.",
         "bestMoment": "geïnspireerd",
         "tags": [
-          "linked-from-readwise",
           "professional development",
           "technology"
         ],
@@ -27546,7 +27592,6 @@ window.TOP_ARTICLES = {
         "whyRead": "Raakt je interesse in software development en agile samenwerking en faciliteren; deze case geeft concrete werkvormen om stakeholders gezamenlijk prioriteiten en ontwerp richting te laten ontdekken.",
         "bestMoment": "leergierig",
         "tags": [
-          "linked-from-readwise",
           "professional development",
           "technology"
         ],
@@ -27573,7 +27618,6 @@ window.TOP_ARTICLES = {
         "whyRead": "Raakt je interesse in software development en samenwerking en professioneel ontwerpwerk; het essay laat zien hoe een verkeerd verwachtingspatroon rond pixel-perfect comps detaildiscussies en slechte samenwerking uitlokt.",
         "bestMoment": "reflectief",
         "tags": [
-          "linked-from-readwise",
           "professional development",
           "technology"
         ],
@@ -27601,7 +27645,6 @@ window.TOP_ARTICLES = {
         "bestMoment": "leergierig",
         "tags": [
           "front-end software development",
-          "linked-from-readwise",
           "professional development",
           "software development"
         ],
@@ -27612,7 +27655,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "software-development",
             "size": "top-100",
-            "position": 77
+            "position": 76
           }
         ]
       },
@@ -27637,7 +27680,6 @@ window.TOP_ARTICLES = {
         "bestMoment": "reflectief",
         "tags": [
           "front-end software development",
-          "linked-from-readwise",
           "professional development",
           "software development"
         ],
@@ -27665,7 +27707,6 @@ window.TOP_ARTICLES = {
         "bestMoment": "leergierig",
         "tags": [
           "front-end software development",
-          "linked-from-readwise",
           "professional development",
           "software development"
         ],
@@ -27676,7 +27717,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "software-development",
             "size": "top-100",
-            "position": 76
+            "position": 75
           }
         ]
       },
@@ -27701,7 +27742,6 @@ window.TOP_ARTICLES = {
         "bestMoment": "leergierig",
         "tags": [
           "front-end software development",
-          "linked-from-readwise",
           "professional development",
           "software development"
         ],
@@ -27712,7 +27752,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "software-development",
             "size": "top-100",
-            "position": 75
+            "position": 74
           }
         ]
       },
@@ -27737,7 +27777,6 @@ window.TOP_ARTICLES = {
         "bestMoment": "analytisch",
         "tags": [
           "front-end software development",
-          "linked-from-readwise",
           "professional development",
           "software development"
         ],
@@ -27748,7 +27787,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "software-development",
             "size": "top-100",
-            "position": 74
+            "position": 73
           }
         ]
       },
@@ -27773,7 +27812,6 @@ window.TOP_ARTICLES = {
         "bestMoment": "leergierig",
         "tags": [
           "front-end software development",
-          "linked-from-readwise",
           "professional development",
           "software development"
         ],
@@ -27801,7 +27839,6 @@ window.TOP_ARTICLES = {
         "bestMoment": "leergierig",
         "tags": [
           "front-end software development",
-          "linked-from-readwise",
           "professional development",
           "software development"
         ],
@@ -27812,7 +27849,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "software-development",
             "size": "top-100",
-            "position": 73
+            "position": 72
           }
         ]
       },
@@ -27837,7 +27874,6 @@ window.TOP_ARTICLES = {
         "bestMoment": "analytisch",
         "tags": [
           "front-end software development",
-          "linked-from-readwise",
           "professional development",
           "software development"
         ],
@@ -27848,7 +27884,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "software-development",
             "size": "top-100",
-            "position": 72
+            "position": 71
           }
         ]
       },
@@ -27873,7 +27909,6 @@ window.TOP_ARTICLES = {
         "bestMoment": "analytisch",
         "tags": [
           "front-end software development",
-          "linked-from-readwise",
           "professional development",
           "software development"
         ],
@@ -27901,7 +27936,6 @@ window.TOP_ARTICLES = {
         "bestMoment": "leergierig",
         "tags": [
           "front-end software development",
-          "linked-from-readwise",
           "professional development",
           "software development"
         ],
@@ -27929,7 +27963,6 @@ window.TOP_ARTICLES = {
         "bestMoment": "analytisch",
         "tags": [
           "front-end software development",
-          "linked-from-readwise",
           "professional development",
           "software development"
         ],
@@ -27957,7 +27990,6 @@ window.TOP_ARTICLES = {
         "bestMoment": "analytisch",
         "tags": [
           "front-end software development",
-          "linked-from-readwise",
           "professional development",
           "software development"
         ],
@@ -27968,7 +28000,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "software-development",
             "size": "top-100",
-            "position": 71
+            "position": 70
           }
         ]
       },
@@ -27993,7 +28025,6 @@ window.TOP_ARTICLES = {
         "bestMoment": "leergierig",
         "tags": [
           "front-end software development",
-          "linked-from-readwise",
           "professional development",
           "software development"
         ],
@@ -28004,7 +28035,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "software-development",
             "size": "top-100",
-            "position": 70
+            "position": 69
           }
         ]
       },
@@ -28029,7 +28060,6 @@ window.TOP_ARTICLES = {
         "bestMoment": "analytisch",
         "tags": [
           "front-end software development",
-          "linked-from-readwise",
           "professional development",
           "software development"
         ],
@@ -28057,7 +28087,6 @@ window.TOP_ARTICLES = {
         "bestMoment": "leergierig",
         "tags": [
           "front-end software development",
-          "linked-from-readwise",
           "professional development",
           "software development"
         ],
@@ -28068,7 +28097,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "software-development",
             "size": "top-100",
-            "position": 69
+            "position": 68
           }
         ]
       },
@@ -28093,7 +28122,6 @@ window.TOP_ARTICLES = {
         "bestMoment": "analytisch",
         "tags": [
           "front-end software development",
-          "linked-from-readwise",
           "professional development",
           "software development"
         ],
@@ -28104,7 +28132,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "software-development",
             "size": "top-100",
-            "position": 68
+            "position": 67
           }
         ]
       },
@@ -28129,7 +28157,6 @@ window.TOP_ARTICLES = {
         "bestMoment": "analytisch",
         "tags": [
           "front-end software development",
-          "linked-from-readwise",
           "professional development",
           "software development"
         ],
@@ -28157,7 +28184,6 @@ window.TOP_ARTICLES = {
         "bestMoment": "analytisch",
         "tags": [
           "front-end software development",
-          "linked-from-readwise",
           "professional development",
           "software development"
         ],
@@ -28185,7 +28211,6 @@ window.TOP_ARTICLES = {
         "bestMoment": "analytisch",
         "tags": [
           "front-end software development",
-          "linked-from-readwise",
           "professional development",
           "software development"
         ],
@@ -28213,7 +28238,6 @@ window.TOP_ARTICLES = {
         "bestMoment": "leergierig",
         "tags": [
           "front-end software development",
-          "linked-from-readwise",
           "professional development",
           "software development"
         ],
@@ -28241,7 +28265,6 @@ window.TOP_ARTICLES = {
         "bestMoment": "kritisch",
         "tags": [
           "front-end software development",
-          "linked-from-readwise",
           "professional development",
           "software development"
         ],
@@ -28268,7 +28291,6 @@ window.TOP_ARTICLES = {
         "whyRead": "Raakt je interesse in software development; Raakt je interesse in softwarearchitectuur, organisatiegroei en het verbeteren van complexe systemen. Dit essay biedt een nuchtere werkwijze voor systemen waarvan de bedoelde eigenschappen door uitzonderingen en technische schuld niet meer betrouwbaar zijn.",
         "bestMoment": "analytisch",
         "tags": [
-          "linked-from-readwise",
           "professional development",
           "sociology & social structures",
           "software development"
@@ -28305,7 +28327,6 @@ window.TOP_ARTICLES = {
         "bestMoment": "leergierig",
         "tags": [
           "learning & meta-learning",
-          "linked-from-readwise",
           "professional development",
           "software development"
         ],
@@ -28333,7 +28354,6 @@ window.TOP_ARTICLES = {
         "bestMoment": "kritisch",
         "tags": [
           "front-end software development",
-          "linked-from-readwise",
           "professional development",
           "software development"
         ],
@@ -28361,7 +28381,6 @@ window.TOP_ARTICLES = {
         "bestMoment": "kritisch",
         "tags": [
           "front-end software development",
-          "linked-from-readwise",
           "professional development",
           "software development"
         ],
@@ -28372,7 +28391,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "software-development",
             "size": "top-100",
-            "position": 67
+            "position": 66
           }
         ]
       },
@@ -28397,12 +28416,19 @@ window.TOP_ARTICLES = {
         "bestMoment": "analytisch",
         "tags": [
           "front-end software development",
-          "linked-from-readwise",
           "professional development",
           "software development"
         ],
-        "alsoIn": [],
-        "memberships": []
+        "alsoIn": [
+          "aaa-software-development-top-100"
+        ],
+        "memberships": [
+          {
+            "familyId": "software-development",
+            "size": "top-100",
+            "position": 100
+          }
+        ]
       },
       {
         "position": null,
@@ -28425,7 +28451,6 @@ window.TOP_ARTICLES = {
         "bestMoment": "kritisch",
         "tags": [
           "front-end software development",
-          "linked-from-readwise",
           "professional development",
           "software development"
         ],
@@ -28453,7 +28478,6 @@ window.TOP_ARTICLES = {
         "bestMoment": "reflectief",
         "tags": [
           "front-end software development",
-          "linked-from-readwise",
           "professional development",
           "software development"
         ],
@@ -28464,7 +28488,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "software-development",
             "size": "top-100",
-            "position": 66
+            "position": 65
           }
         ]
       },
@@ -28489,7 +28513,6 @@ window.TOP_ARTICLES = {
         "bestMoment": "kritisch",
         "tags": [
           "front-end software development",
-          "linked-from-readwise",
           "professional development",
           "software development"
         ],
@@ -28500,7 +28523,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "software-development",
             "size": "top-100",
-            "position": 65
+            "position": 64
           }
         ]
       },
@@ -28525,7 +28548,6 @@ window.TOP_ARTICLES = {
         "bestMoment": "kritisch",
         "tags": [
           "front-end software development",
-          "linked-from-readwise",
           "professional development",
           "software development"
         ],
@@ -28536,7 +28558,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "software-development",
             "size": "top-100",
-            "position": 100
+            "position": 99
           }
         ]
       },
@@ -28561,7 +28583,6 @@ window.TOP_ARTICLES = {
         "bestMoment": "kritisch",
         "tags": [
           "front-end software development",
-          "linked-from-readwise",
           "professional development",
           "software development"
         ],
@@ -28572,7 +28593,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "software-development",
             "size": "top-100",
-            "position": 99
+            "position": 98
           }
         ]
       },
@@ -28597,7 +28618,6 @@ window.TOP_ARTICLES = {
         "bestMoment": "analytisch",
         "tags": [
           "front-end software development",
-          "linked-from-readwise",
           "professional development",
           "software development"
         ],
@@ -28608,7 +28628,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "software-development",
             "size": "top-100",
-            "position": 64
+            "position": 63
           }
         ]
       },
@@ -28633,7 +28653,6 @@ window.TOP_ARTICLES = {
         "bestMoment": "kritisch",
         "tags": [
           "front-end software development",
-          "linked-from-readwise",
           "sociology & social structures",
           "software development"
         ],
@@ -28670,7 +28689,6 @@ window.TOP_ARTICLES = {
         "tags": [
           "front-end software development",
           "learning & meta-learning",
-          "linked-from-readwise",
           "software development"
         ],
         "alsoIn": [],
@@ -28697,7 +28715,6 @@ window.TOP_ARTICLES = {
         "bestMoment": "leergierig",
         "tags": [
           "front-end software development",
-          "linked-from-readwise",
           "professional development",
           "software development"
         ],
@@ -28708,7 +28725,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "software-development",
             "size": "top-100",
-            "position": 63
+            "position": 62
           }
         ]
       },
@@ -28733,7 +28750,6 @@ window.TOP_ARTICLES = {
         "bestMoment": "leergierig",
         "tags": [
           "front-end software development",
-          "linked-from-readwise",
           "professional development",
           "software development"
         ],
@@ -28744,7 +28760,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "software-development",
             "size": "top-100",
-            "position": 62
+            "position": 61
           }
         ]
       },
@@ -28769,7 +28785,6 @@ window.TOP_ARTICLES = {
         "bestMoment": "leergierig",
         "tags": [
           "front-end software development",
-          "linked-from-readwise",
           "professional development",
           "software development"
         ],
@@ -28780,7 +28795,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "software-development",
             "size": "top-100",
-            "position": 98
+            "position": 97
           }
         ]
       },
@@ -28805,7 +28820,6 @@ window.TOP_ARTICLES = {
         "bestMoment": "analytisch",
         "tags": [
           "front-end software development",
-          "linked-from-readwise",
           "professional development",
           "software development"
         ],
@@ -28833,7 +28847,6 @@ window.TOP_ARTICLES = {
         "bestMoment": "leergierig",
         "tags": [
           "front-end software development",
-          "linked-from-readwise",
           "professional development",
           "software development"
         ],
@@ -28844,7 +28857,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "software-development",
             "size": "top-100",
-            "position": 61
+            "position": 60
           }
         ]
       },
@@ -28869,7 +28882,6 @@ window.TOP_ARTICLES = {
         "bestMoment": "analytisch",
         "tags": [
           "front-end software development",
-          "linked-from-readwise",
           "professional development",
           "software development"
         ],
@@ -28897,7 +28909,6 @@ window.TOP_ARTICLES = {
         "bestMoment": "geconcentreerd",
         "tags": [
           "front-end software development",
-          "linked-from-readwise",
           "professional development",
           "software development"
         ],
@@ -28908,7 +28919,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "software-development",
             "size": "top-100",
-            "position": 97
+            "position": 96
           }
         ]
       },
@@ -28933,7 +28944,6 @@ window.TOP_ARTICLES = {
         "bestMoment": "geconcentreerd",
         "tags": [
           "front-end software development",
-          "linked-from-readwise",
           "professional development",
           "software development"
         ],
@@ -28944,7 +28954,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "software-development",
             "size": "top-100",
-            "position": 60
+            "position": 59
           }
         ]
       },
@@ -28969,7 +28979,6 @@ window.TOP_ARTICLES = {
         "bestMoment": "analytisch",
         "tags": [
           "front-end software development",
-          "linked-from-readwise",
           "professional development",
           "software development"
         ],
@@ -28980,7 +28989,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "software-development",
             "size": "top-100",
-            "position": 59
+            "position": 58
           }
         ]
       },
@@ -29006,7 +29015,6 @@ window.TOP_ARTICLES = {
         "tags": [
           "front-end software development",
           "learning & meta-learning",
-          "linked-from-readwise",
           "software development"
         ],
         "alsoIn": [],
@@ -29033,7 +29041,6 @@ window.TOP_ARTICLES = {
         "bestMoment": "analytisch",
         "tags": [
           "learning & meta-learning",
-          "linked-from-readwise",
           "professional development",
           "software development"
         ],
@@ -29069,7 +29076,6 @@ window.TOP_ARTICLES = {
         "bestMoment": "analytisch",
         "tags": [
           "front-end software development",
-          "linked-from-readwise",
           "professional development",
           "software development"
         ],
@@ -29080,7 +29086,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "software-development",
             "size": "top-100",
-            "position": 58
+            "position": 57
           }
         ]
       },
@@ -29105,7 +29111,6 @@ window.TOP_ARTICLES = {
         "bestMoment": "geconcentreerd",
         "tags": [
           "front-end software development",
-          "linked-from-readwise",
           "professional development",
           "software development"
         ],
@@ -29116,7 +29121,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "software-development",
             "size": "top-100",
-            "position": 57
+            "position": 56
           }
         ]
       },
@@ -29142,7 +29147,6 @@ window.TOP_ARTICLES = {
         "tags": [
           "agile",
           "front-end software development",
-          "linked-from-readwise",
           "software development"
         ],
         "alsoIn": [
@@ -29153,7 +29157,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 96
+            "position": 100
           },
           {
             "familyId": "software-development",
@@ -29183,7 +29187,6 @@ window.TOP_ARTICLES = {
         "bestMoment": "reflectief",
         "tags": [
           "front-end software development",
-          "linked-from-readwise",
           "professional development",
           "software development"
         ],
@@ -29211,7 +29214,6 @@ window.TOP_ARTICLES = {
         "bestMoment": "leergierig",
         "tags": [
           "front-end software development",
-          "linked-from-readwise",
           "professional development",
           "software development"
         ],
@@ -29222,7 +29224,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "software-development",
             "size": "top-100",
-            "position": 56
+            "position": 55
           }
         ]
       },
@@ -29247,7 +29249,6 @@ window.TOP_ARTICLES = {
         "bestMoment": "geconcentreerd",
         "tags": [
           "front-end software development",
-          "linked-from-readwise",
           "professional development",
           "software development"
         ],
@@ -29258,7 +29259,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "software-development",
             "size": "top-100",
-            "position": 96
+            "position": 95
           }
         ]
       },
@@ -29283,9 +29284,6 @@ window.TOP_ARTICLES = {
         "bestMoment": "geïnspireerd",
         "tags": [
           "arts & culture",
-          "light-reading",
-          "linked-from-readwise",
-          "pdf-top-10",
           "philosophy",
           "sociology & social structures"
         ],
@@ -29339,7 +29337,6 @@ window.TOP_ARTICLES = {
         "bestMoment": "leergierig",
         "tags": [
           "front-end software development",
-          "linked-from-readwise",
           "professional development",
           "software development"
         ],
@@ -29350,7 +29347,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "software-development",
             "size": "top-100",
-            "position": 95
+            "position": 94
           }
         ]
       },
@@ -29375,7 +29372,6 @@ window.TOP_ARTICLES = {
         "bestMoment": "kritisch",
         "tags": [
           "front-end software development",
-          "linked-from-readwise",
           "professional development",
           "software development"
         ],
@@ -29386,7 +29382,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "software-development",
             "size": "top-100",
-            "position": 94
+            "position": 93
           }
         ]
       },
@@ -29411,7 +29407,6 @@ window.TOP_ARTICLES = {
         "bestMoment": "analytisch",
         "tags": [
           "front-end software development",
-          "linked-from-readwise",
           "professional development",
           "software development"
         ],
@@ -29422,7 +29417,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "software-development",
             "size": "top-100",
-            "position": 93
+            "position": 92
           }
         ]
       },
@@ -29447,7 +29442,6 @@ window.TOP_ARTICLES = {
         "bestMoment": "kritisch",
         "tags": [
           "front-end software development",
-          "linked-from-readwise",
           "professional development",
           "software development"
         ],
@@ -29458,7 +29452,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "software-development",
             "size": "top-100",
-            "position": 92
+            "position": 91
           }
         ]
       },
@@ -29483,7 +29477,6 @@ window.TOP_ARTICLES = {
         "bestMoment": "analytisch",
         "tags": [
           "front-end software development",
-          "linked-from-readwise",
           "professional development",
           "software development"
         ],
@@ -29494,7 +29487,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "software-development",
             "size": "top-100",
-            "position": 55
+            "position": 54
           }
         ]
       },
@@ -29520,7 +29513,6 @@ window.TOP_ARTICLES = {
         "tags": [
           "ai ethics & society",
           "front-end software development",
-          "linked-from-readwise",
           "software development"
         ],
         "alsoIn": [
@@ -29530,7 +29522,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "software-development",
             "size": "top-100",
-            "position": 91
+            "position": 90
           }
         ]
       },
@@ -29554,7 +29546,6 @@ window.TOP_ARTICLES = {
         "whyRead": "Raakt je interesse in software development; Raakt je interesse in technologie, sociale structuren en professioneel vakmanschap: dit essay ontleedt hoe “developer experience” de kosten voor gebruikers kan verbergen. De meerwaarde zit in een scherpe, evidence-based kritiek op JavaScript-zwaarte, prestatiebudgets en het afwentelen van technische keuzes op mensen met minder krachtige apparaten of netwerken.",
         "bestMoment": "kritisch",
         "tags": [
-          "linked-from-readwise",
           "professional development",
           "sociology & social structures",
           "software development"
@@ -29592,9 +29583,7 @@ window.TOP_ARTICLES = {
         "tags": [
           "ai ethics & society",
           "arts & culture",
-          "learning & meta-learning",
-          "light-reading",
-          "linked-from-readwise"
+          "learning & meta-learning"
         ],
         "alsoIn": [],
         "memberships": []
@@ -29648,7 +29637,6 @@ window.TOP_ARTICLES = {
         "tags": [
           "ai ethics & society",
           "economics",
-          "linked-from-readwise",
           "professional development"
         ],
         "alsoIn": [],
@@ -29675,8 +29663,7 @@ window.TOP_ARTICLES = {
         "bestMoment": "leergierig",
         "tags": [
           "arts & culture",
-          "learning & meta-learning",
-          "light-reading"
+          "learning & meta-learning"
         ],
         "alsoIn": [],
         "memberships": []
@@ -29728,7 +29715,6 @@ window.TOP_ARTICLES = {
         "bestMoment": "reflectief",
         "tags": [
           "arts & culture",
-          "light-reading",
           "personal growth & life philosophy"
         ],
         "alsoIn": [],
@@ -29818,7 +29804,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 59
+            "position": 63
           }
         ]
       },
@@ -29879,8 +29865,7 @@ window.TOP_ARTICLES = {
         "tags": [
           "arts & culture",
           "history",
-          "learning & meta-learning",
-          "light-reading"
+          "learning & meta-learning"
         ],
         "alsoIn": [],
         "memberships": []
@@ -29907,7 +29892,6 @@ window.TOP_ARTICLES = {
         "tags": [
           "arts & culture",
           "environment & sustainability",
-          "light-reading",
           "personal growth & life philosophy"
         ],
         "alsoIn": [],
@@ -29971,7 +29955,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 73
+            "position": 75
           }
         ]
       },
@@ -30085,7 +30069,6 @@ window.TOP_ARTICLES = {
         "bestMoment": "analytisch",
         "tags": [
           "arts & culture",
-          "light-reading",
           "personal growth & life philosophy",
           "philosophy"
         ],
@@ -30231,7 +30214,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 72
+            "position": 74
           }
         ]
       },
@@ -30266,7 +30249,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 58
+            "position": 62
           }
         ]
       },
@@ -30301,7 +30284,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 71
+            "position": 73
           }
         ]
       },
@@ -30336,7 +30319,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 70
+            "position": 72
           }
         ]
       },
@@ -30371,7 +30354,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 69
+            "position": 71
           }
         ]
       },
@@ -30406,7 +30389,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 68
+            "position": 70
           }
         ]
       },
@@ -30441,7 +30424,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 67
+            "position": 69
           }
         ]
       },
@@ -30476,7 +30459,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 66
+            "position": 68
           }
         ]
       },
@@ -30511,7 +30494,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 65
+            "position": 67
           }
         ]
       },
@@ -30573,7 +30556,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 64
+            "position": 66
           }
         ]
       },
@@ -30635,7 +30618,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 63
+            "position": 65
           }
         ]
       },
@@ -30660,7 +30643,6 @@ window.TOP_ARTICLES = {
         "bestMoment": "geconcentreerd",
         "tags": [
           "agile",
-          "linked-from-readwise",
           "professional development",
           "scrum"
         ],
@@ -30671,7 +30653,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 95
+            "position": 99
           }
         ]
       },
@@ -30696,7 +30678,6 @@ window.TOP_ARTICLES = {
         "bestMoment": "leergierig",
         "tags": [
           "agile",
-          "linked-from-readwise",
           "professional development",
           "scrum"
         ],
@@ -30707,7 +30688,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 62
+            "position": 64
           }
         ]
       },
@@ -30732,7 +30713,6 @@ window.TOP_ARTICLES = {
         "bestMoment": "leergierig",
         "tags": [
           "agile",
-          "linked-from-readwise",
           "professional development",
           "scrum"
         ],
@@ -30760,7 +30740,6 @@ window.TOP_ARTICLES = {
         "bestMoment": "leergierig",
         "tags": [
           "agile",
-          "linked-from-readwise",
           "professional development",
           "scrum"
         ],
@@ -30771,7 +30750,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 61
+            "position": 63
           }
         ]
       },
@@ -30797,7 +30776,6 @@ window.TOP_ARTICLES = {
         "tags": [
           "business & startups",
           "history",
-          "linked-from-readwise",
           "technology"
         ],
         "alsoIn": [],
@@ -30825,7 +30803,6 @@ window.TOP_ARTICLES = {
         "tags": [
           "environment & sustainability",
           "history",
-          "linked-from-readwise",
           "science"
         ],
         "alsoIn": [],
@@ -30853,7 +30830,6 @@ window.TOP_ARTICLES = {
         "tags": [
           "economics",
           "environment & sustainability",
-          "linked-from-readwise",
           "sociology & social structures"
         ],
         "alsoIn": [],
@@ -30881,7 +30857,6 @@ window.TOP_ARTICLES = {
         "tags": [
           "current affairs & politics",
           "history",
-          "linked-from-readwise",
           "sociology & social structures"
         ],
         "alsoIn": [],
@@ -30909,7 +30884,6 @@ window.TOP_ARTICLES = {
         "tags": [
           "current affairs & politics",
           "history",
-          "linked-from-readwise",
           "sociology & social structures"
         ],
         "alsoIn": [],
@@ -30937,7 +30911,6 @@ window.TOP_ARTICLES = {
         "tags": [
           "current affairs & politics",
           "history",
-          "linked-from-readwise",
           "sociology & social structures"
         ],
         "alsoIn": [],
@@ -30965,7 +30938,6 @@ window.TOP_ARTICLES = {
         "tags": [
           "current affairs & politics",
           "history",
-          "linked-from-readwise",
           "sociology & social structures"
         ],
         "alsoIn": [],
@@ -30992,7 +30964,6 @@ window.TOP_ARTICLES = {
         "bestMoment": "kritisch",
         "tags": [
           "current affairs & politics",
-          "linked-from-readwise",
           "science",
           "sociology & social structures"
         ],
@@ -31020,8 +30991,6 @@ window.TOP_ARTICLES = {
         "bestMoment": "leergierig",
         "tags": [
           "arts & culture",
-          "light-reading",
-          "linked-from-readwise",
           "personal growth & life philosophy",
           "philosophy"
         ],
@@ -31032,7 +31001,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 76
+            "position": 79
           }
         ]
       },
@@ -31057,7 +31026,6 @@ window.TOP_ARTICLES = {
         "bestMoment": "kritisch",
         "tags": [
           "current affairs & politics",
-          "linked-from-readwise",
           "sociology & social structures",
           "technology"
         ],
@@ -31085,7 +31053,6 @@ window.TOP_ARTICLES = {
         "bestMoment": "leergierig",
         "tags": [
           "learning & meta-learning",
-          "linked-from-readwise",
           "personal growth & life philosophy",
           "professional development"
         ],
@@ -31140,7 +31107,6 @@ window.TOP_ARTICLES = {
         "bestMoment": "kritisch",
         "tags": [
           "learning & meta-learning",
-          "linked-from-readwise",
           "philosophy",
           "science"
         ],
@@ -31168,8 +31134,6 @@ window.TOP_ARTICLES = {
         "bestMoment": "ontspannen",
         "tags": [
           "arts & culture",
-          "light-reading",
-          "linked-from-readwise",
           "personal growth & life philosophy",
           "philosophy"
         ],
@@ -31197,7 +31161,6 @@ window.TOP_ARTICLES = {
         "bestMoment": "analytisch",
         "tags": [
           "learning & meta-learning",
-          "linked-from-readwise",
           "philosophy",
           "political philosophy"
         ],
@@ -31225,7 +31188,6 @@ window.TOP_ARTICLES = {
         "bestMoment": "analytisch",
         "tags": [
           "history",
-          "linked-from-readwise",
           "philosophy",
           "political philosophy"
         ],
@@ -31252,7 +31214,6 @@ window.TOP_ARTICLES = {
         "whyRead": "Raakt je interesse in filosofie, politieke filosofie en persoonlijke ontwikkeling: dit essay gebruikt Zhuangzi om het moderne ideaal van een vaste, authentieke identiteit ter discussie te stellen. De meerwaarde zit in de combinatie van Chinese ideeëngeschiedenis, existentialisme en concrete voorbeelden over politieke overtuigingen, culturele blindheid en rouw.",
         "bestMoment": "analytisch",
         "tags": [
-          "linked-from-readwise",
           "personal growth & life philosophy",
           "philosophy",
           "political philosophy"
@@ -31280,7 +31241,6 @@ window.TOP_ARTICLES = {
         "whyRead": "Raakt je interesse in filosofie en persoonlijke ontwikkeling: dit essay vergelijkt de Gouden Regel met Mengzi’s idee dat morele zorg groeit door de liefde voor naasten steeds verder uit te breiden. De meerwaarde zit in de psychologisch geloofwaardige brug van familie naar bredere solidariteit én in de toepassing op zelfcompassie.",
         "bestMoment": "analytisch",
         "tags": [
-          "linked-from-readwise",
           "personal growth & life philosophy",
           "philosophy"
         ],
@@ -31308,7 +31268,6 @@ window.TOP_ARTICLES = {
         "bestMoment": "analytisch",
         "tags": [
           "history",
-          "linked-from-readwise",
           "philosophy",
           "political philosophy"
         ],
@@ -31335,7 +31294,6 @@ window.TOP_ARTICLES = {
         "whyRead": "Raakt je interesse in sociologie, politieke filosofie en professionele ontwikkeling: dit persoonlijke tweeluik ontleedt de meritocratie vanuit het verschil tussen een succesverhaal over inzet en een eerlijker verhaal over afkomst, connecties en structuur. De meerwaarde zit in de autobiografische ontmaskering van hoe elite-onderwijs en cultureel kapitaal carrièrekansen opstapelen.",
         "bestMoment": "kritisch",
         "tags": [
-          "linked-from-readwise",
           "political philosophy",
           "professional development",
           "sociology & social structures"
@@ -31347,7 +31305,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 57
+            "position": 61
           }
         ]
       },
@@ -31372,7 +31330,6 @@ window.TOP_ARTICLES = {
         "bestMoment": "leergierig",
         "tags": [
           "agile",
-          "linked-from-readwise",
           "professional development",
           "scrum"
         ],
@@ -31383,7 +31340,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 60
+            "position": 62
           }
         ]
       },
@@ -31408,7 +31365,6 @@ window.TOP_ARTICLES = {
         "bestMoment": "kritisch",
         "tags": [
           "current affairs & politics",
-          "linked-from-readwise",
           "professional documents",
           "sociology & social structures"
         ],
@@ -31436,7 +31392,6 @@ window.TOP_ARTICLES = {
         "bestMoment": "kritisch",
         "tags": [
           "current affairs & politics",
-          "linked-from-readwise",
           "professional documents",
           "sociology & social structures"
         ],
@@ -31465,7 +31420,6 @@ window.TOP_ARTICLES = {
         "tags": [
           "economics",
           "environment & sustainability",
-          "linked-from-readwise",
           "professional documents"
         ],
         "alsoIn": [],
@@ -31493,7 +31447,6 @@ window.TOP_ARTICLES = {
         "tags": [
           "environment & sustainability",
           "history",
-          "linked-from-readwise",
           "science"
         ],
         "alsoIn": [],
@@ -31521,9 +31474,7 @@ window.TOP_ARTICLES = {
         "tags": [
           "economics",
           "environment & sustainability",
-          "history",
-          "light-reading",
-          "linked-from-readwise"
+          "history"
         ],
         "alsoIn": [],
         "memberships": []
@@ -31602,7 +31553,6 @@ window.TOP_ARTICLES = {
         "bestMoment": "geconcentreerd",
         "tags": [
           "agile",
-          "linked-from-readwise",
           "professional development",
           "technology"
         ],
@@ -31613,7 +31563,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 59
+            "position": 61
           }
         ]
       },
@@ -31639,7 +31589,6 @@ window.TOP_ARTICLES = {
         "tags": [
           "economics",
           "environment & sustainability",
-          "linked-from-readwise",
           "science"
         ],
         "alsoIn": [],
@@ -31667,7 +31616,6 @@ window.TOP_ARTICLES = {
         "tags": [
           "environment & sustainability",
           "health & wellness",
-          "linked-from-readwise",
           "sociology & social structures"
         ],
         "alsoIn": [],
@@ -31695,8 +31643,6 @@ window.TOP_ARTICLES = {
         "tags": [
           "arts & culture",
           "current affairs & politics",
-          "light-reading",
-          "linked-from-readwise",
           "sociology & social structures"
         ],
         "alsoIn": [],
@@ -31857,7 +31803,6 @@ window.TOP_ARTICLES = {
         "bestMoment": "ontspannen",
         "tags": [
           "environment & sustainability",
-          "light-reading",
           "personal growth & life philosophy"
         ],
         "alsoIn": [],
@@ -31885,7 +31830,6 @@ window.TOP_ARTICLES = {
         "tags": [
           "arts & culture",
           "fiction",
-          "light-reading",
           "professional development"
         ],
         "alsoIn": [],
@@ -31975,7 +31919,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 56
+            "position": 60
           }
         ]
       },
@@ -32000,7 +31944,6 @@ window.TOP_ARTICLES = {
         "bestMoment": "reflectief",
         "tags": [
           "arts & culture",
-          "light-reading",
           "personal growth & life philosophy",
           "philosophy"
         ],
@@ -32028,7 +31971,6 @@ window.TOP_ARTICLES = {
         "bestMoment": "leergierig",
         "tags": [
           "learning & meta-learning",
-          "linked-from-readwise",
           "technology"
         ],
         "alsoIn": [],
@@ -32056,7 +31998,6 @@ window.TOP_ARTICLES = {
         "tags": [
           "business & startups",
           "learning & meta-learning",
-          "linked-from-readwise",
           "professional development"
         ],
         "alsoIn": [],
@@ -32082,7 +32023,6 @@ window.TOP_ARTICLES = {
         "whyRead": "Raakt je interesse in filosofie van de geest, wetenschap en de emotionele kant van ouderschap: dit essay combineert onderzoek naar kinderlijke amnesie met een persoonlijke zoektocht naar een ontoegankelijk verleden. Het laat zien hoe geheugen, familieverhalen en identiteit elkaar vormen, ook wanneer concrete herinneringen ontbreken.",
         "bestMoment": "reflectief",
         "tags": [
-          "linked-from-readwise",
           "personal growth & life philosophy",
           "philosophy",
           "science"
@@ -32112,7 +32052,6 @@ window.TOP_ARTICLES = {
         "tags": [
           "business & startups",
           "economics",
-          "linked-from-readwise",
           "technology"
         ],
         "alsoIn": [],
@@ -32140,8 +32079,6 @@ window.TOP_ARTICLES = {
         "tags": [
           "arts & culture",
           "learning & meta-learning",
-          "light-reading",
-          "linked-from-readwise",
           "technology"
         ],
         "alsoIn": [],
@@ -32169,8 +32106,6 @@ window.TOP_ARTICLES = {
         "tags": [
           "arts & culture",
           "business & startups",
-          "light-reading",
-          "linked-from-readwise",
           "technology"
         ],
         "alsoIn": [],
@@ -32198,8 +32133,6 @@ window.TOP_ARTICLES = {
         "tags": [
           "ai ethics & society",
           "arts & culture",
-          "light-reading",
-          "linked-from-readwise",
           "sociology & social structures"
         ],
         "alsoIn": [],
@@ -32226,7 +32159,6 @@ window.TOP_ARTICLES = {
         "bestMoment": "kritisch",
         "tags": [
           "agile",
-          "linked-from-readwise",
           "professional development",
           "scrum"
         ],
@@ -32237,7 +32169,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 58
+            "position": 60
           }
         ]
       },
@@ -32262,7 +32194,6 @@ window.TOP_ARTICLES = {
         "bestMoment": "leergierig",
         "tags": [
           "agile",
-          "linked-from-readwise",
           "professional development",
           "scrum"
         ],
@@ -32290,7 +32221,6 @@ window.TOP_ARTICLES = {
         "bestMoment": "analytisch",
         "tags": [
           "history",
-          "linked-from-readwise",
           "philosophy",
           "political philosophy"
         ],
@@ -32318,7 +32248,6 @@ window.TOP_ARTICLES = {
         "bestMoment": "analytisch",
         "tags": [
           "agile",
-          "linked-from-readwise",
           "professional development",
           "scrum"
         ],
@@ -32329,7 +32258,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 57
+            "position": 59
           }
         ]
       },
@@ -32354,8 +32283,6 @@ window.TOP_ARTICLES = {
         "bestMoment": "reflectief",
         "tags": [
           "arts & culture",
-          "light-reading",
-          "linked-from-readwise",
           "personal growth & life philosophy",
           "philosophy"
         ],
@@ -32382,7 +32309,6 @@ window.TOP_ARTICLES = {
         "whyRead": "Raakt je interesse in politieke filosofie, persoonlijke identiteit en maatschappelijke verandering: dit essay laat zien hoe Richard Rorty filosofie wilde omvormen tot praktische “therapie” voor burgers en democratische instituties. Zijn nadruk op zelfcreatie, vrijheid, solidariteit en stapsgewijze hervorming biedt een toegankelijke tegenstem voor grootse ideologische blauwdrukken.",
         "bestMoment": "analytisch",
         "tags": [
-          "linked-from-readwise",
           "philosophy",
           "political philosophy",
           "sociology & social structures"
@@ -32410,7 +32336,6 @@ window.TOP_ARTICLES = {
         "whyRead": "Raakt je interesse in sociale en politieke filosofie: dit essay biedt een toegankelijke ingang tot Foucaults idee dat macht geen enkelvoudig bezit is, maar werkt via disciplines, normen, experts, instituties en data. De koppeling met scholen, kantoren, gevangenissen en algoritmische beoordeling maakt zijn analyse concreet voor hedendaagse organisaties en samenleving.",
         "bestMoment": "analytisch",
         "tags": [
-          "linked-from-readwise",
           "philosophy",
           "political philosophy",
           "sociology & social structures"
@@ -32440,8 +32365,6 @@ window.TOP_ARTICLES = {
         "tags": [
           "arts & culture",
           "learning & meta-learning",
-          "light-reading",
-          "linked-from-readwise",
           "philosophy"
         ],
         "alsoIn": [],
@@ -32469,8 +32392,6 @@ window.TOP_ARTICLES = {
         "tags": [
           "arts & culture",
           "environment & sustainability",
-          "light-reading",
-          "linked-from-readwise",
           "philosophy"
         ],
         "alsoIn": [],
@@ -32528,19 +32449,13 @@ window.TOP_ARTICLES = {
           "technology"
         ],
         "alsoIn": [
-          "aaa-scrum-top-10",
           "aaa-scrum-top-100"
         ],
         "memberships": [
           {
             "familyId": "scrum",
-            "size": "top-10",
-            "position": 10
-          },
-          {
-            "familyId": "scrum",
             "size": "top-100",
-            "position": 10
+            "position": 12
           }
         ]
       },
@@ -32656,7 +32571,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 56
+            "position": 58
           }
         ]
       },
@@ -32763,7 +32678,6 @@ window.TOP_ARTICLES = {
         "tags": [
           "arts & culture",
           "environment & sustainability",
-          "light-reading",
           "personal growth & life philosophy",
           "technology"
         ],
@@ -32791,7 +32705,6 @@ window.TOP_ARTICLES = {
         "bestMoment": "reflectief",
         "tags": [
           "arts & culture",
-          "light-reading",
           "personal growth & life philosophy",
           "professional development",
           "sociology & social structures"
@@ -32805,17 +32718,17 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 55
+            "position": 59
           },
           {
             "familyId": "luchtig",
             "size": "top-10",
-            "position": 8
+            "position": 9
           },
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 8
+            "position": 9
           }
         ]
       },
@@ -32867,7 +32780,6 @@ window.TOP_ARTICLES = {
         "bestMoment": "ontspannen",
         "tags": [
           "arts & culture",
-          "light-reading",
           "personal growth & life philosophy"
         ],
         "alsoIn": [],
@@ -32893,7 +32805,6 @@ window.TOP_ARTICLES = {
         "whyRead": "Persoonlijk essay over risico, klimmen en de filosofie van Anne Dufourmantelle biedt een diepere, universele reflectie op moed en sterfelijkheid — relevant voor je interesse in filosofie en persoonlijke groei, ook al is de context Amerikaans.",
         "bestMoment": "reflectief",
         "tags": [
-          "light-reading",
           "personal growth & life philosophy",
           "philosophy",
           "sports & recreation"
@@ -33026,7 +32937,6 @@ window.TOP_ARTICLES = {
         "whyRead": "Nederlandstalige, uitnodigende filosofische essay over de vraag die nu het meest urgent is. Raakt je interesse in toegankelijke filosofie en biedt een bewust alternatief voor doomscrollen en eenzijdige nieuwsconsumptie.",
         "bestMoment": "reflectief",
         "tags": [
-          "light-reading",
           "personal growth & life philosophy",
           "philosophy"
         ],
@@ -33064,7 +32974,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 94
+            "position": 98
           }
         ]
       },
@@ -33089,7 +32999,6 @@ window.TOP_ARTICLES = {
         "bestMoment": "reflectief",
         "tags": [
           "arts & culture",
-          "light-reading",
           "personal growth & life philosophy"
         ],
         "alsoIn": [
@@ -33099,7 +33008,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 75
+            "position": 78
           }
         ]
       },
@@ -33125,7 +33034,6 @@ window.TOP_ARTICLES = {
         "tags": [
           "arts & culture",
           "fiction",
-          "light-reading",
           "personal growth & life philosophy",
           "technology"
         ],
@@ -33179,8 +33087,7 @@ window.TOP_ARTICLES = {
         "bestMoment": "ontspannen",
         "tags": [
           "arts & culture",
-          "fiction",
-          "light-reading"
+          "fiction"
         ],
         "alsoIn": [],
         "memberships": []
@@ -33338,7 +33245,6 @@ window.TOP_ARTICLES = {
         "bestMoment": "geïnspireerd",
         "tags": [
           "current affairs & politics",
-          "light-reading",
           "sports & recreation"
         ],
         "alsoIn": [],
@@ -33416,7 +33322,6 @@ window.TOP_ARTICLES = {
         "bestMoment": "reflectief",
         "tags": [
           "arts & culture",
-          "light-reading",
           "personal growth & life philosophy"
         ],
         "alsoIn": [],
@@ -33869,8 +33774,7 @@ window.TOP_ARTICLES = {
         "bestMoment": "geïnspireerd",
         "tags": [
           "arts & culture",
-          "learning & meta-learning",
-          "light-reading"
+          "learning & meta-learning"
         ],
         "alsoIn": [
           "aaa-luchtig-top-100"
@@ -34088,7 +33992,6 @@ window.TOP_ARTICLES = {
         "whyRead": "Een kort, opgewekt essay op het kruispunt van wetenschap en levensfilosofie. Het biedt taal voor verwondering zonder een beroep op mysterie.",
         "bestMoment": "ontspannen",
         "tags": [
-          "light-reading",
           "philosophy",
           "science"
         ],
@@ -34955,7 +34858,6 @@ window.TOP_ARTICLES = {
         "tags": [
           "arts & culture",
           "history",
-          "light-reading",
           "sociology & social structures"
         ],
         "alsoIn": [
@@ -35478,7 +35380,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 53
+            "position": 57
           }
         ]
       },
@@ -35511,7 +35413,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 52
+            "position": 56
           }
         ]
       },
@@ -35621,8 +35523,7 @@ window.TOP_ARTICLES = {
         "bestMoment": "geïnspireerd",
         "tags": [
           "arts & culture",
-          "fiction",
-          "light-reading"
+          "fiction"
         ],
         "alsoIn": [],
         "memberships": []
@@ -35785,7 +35686,6 @@ window.TOP_ARTICLES = {
         "bestMoment": "leergierig",
         "tags": [
           "arts & culture",
-          "light-reading",
           "philosophy"
         ],
         "alsoIn": [
@@ -35795,7 +35695,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 74
+            "position": 77
           }
         ]
       },
@@ -35925,7 +35825,6 @@ window.TOP_ARTICLES = {
         "tags": [
           "arts & culture",
           "current affairs & politics",
-          "light-reading",
           "technology"
         ],
         "alsoIn": [],
@@ -35980,7 +35879,6 @@ window.TOP_ARTICLES = {
           "arts & culture",
           "behavioral psychology & coaching",
           "learning & meta-learning",
-          "light-reading",
           "personal growth & life philosophy",
           "writing craft"
         ],
@@ -36061,7 +35959,6 @@ window.TOP_ARTICLES = {
         "whyRead": "Een korte, aforistische nieuwsbrief met prikkelende one-liners over discipline, focus en wat \"best practices\" je wel en niet opleveren — puur beknopte denkstof zonder uitgewerkt betoog, prima voor tussendoor.",
         "bestMoment": "ontspannen",
         "tags": [
-          "light-reading",
           "personal growth & life philosophy"
         ],
         "alsoIn": [],
@@ -36231,7 +36128,6 @@ window.TOP_ARTICLES = {
           "arts & culture",
           "entertainment & pop culture",
           "games",
-          "light-reading",
           "sports & recreation"
         ],
         "alsoIn": [],
@@ -36485,7 +36381,6 @@ window.TOP_ARTICLES = {
         ],
         "alsoIn": [
           "aaa-short-top-100",
-          "aaa-scrum-top-10",
           "aaa-scrum-top-100"
         ],
         "memberships": [
@@ -36496,13 +36391,8 @@ window.TOP_ARTICLES = {
           },
           {
             "familyId": "scrum",
-            "size": "top-10",
-            "position": 9
-          },
-          {
-            "familyId": "scrum",
             "size": "top-100",
-            "position": 9
+            "position": 11
           }
         ]
       },
@@ -36574,7 +36464,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 55
+            "position": 57
           }
         ]
       },
@@ -36609,7 +36499,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 93
+            "position": 97
           }
         ]
       },
@@ -36644,7 +36534,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 54
+            "position": 56
           }
         ]
       },
@@ -36815,7 +36705,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 60
+            "position": 64
           }
         ]
       },
@@ -36922,7 +36812,6 @@ window.TOP_ARTICLES = {
         "tags": [
           "agile",
           "behavioral psychology & coaching",
-          "linked-from-readwise",
           "professional development"
         ],
         "alsoIn": [
@@ -36932,7 +36821,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 53
+            "position": 55
           }
         ]
       },
@@ -36959,7 +36848,6 @@ window.TOP_ARTICLES = {
           "agile",
           "ai ethics & society",
           "behavioral psychology & coaching",
-          "linked-from-readwise",
           "professional development"
         ],
         "alsoIn": [],
@@ -36987,7 +36875,6 @@ window.TOP_ARTICLES = {
         "tags": [
           "agile",
           "ai ethics & society",
-          "linked-from-readwise",
           "professional development",
           "technology"
         ],
@@ -36998,7 +36885,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 92
+            "position": 96
           }
         ]
       },
@@ -37115,7 +37002,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 52
+            "position": 54
           }
         ]
       },
@@ -37167,7 +37054,6 @@ window.TOP_ARTICLES = {
         "bestMoment": "ontspannen",
         "tags": [
           "existentialism",
-          "light-reading",
           "personal growth & life philosophy",
           "philosophy",
           "philosophy of mind"
@@ -37196,7 +37082,6 @@ window.TOP_ARTICLES = {
         "bestMoment": "kritisch",
         "tags": [
           "current affairs & politics",
-          "linked-from-readwise",
           "political philosophy",
           "technology"
         ],
@@ -37465,7 +37350,6 @@ window.TOP_ARTICLES = {
         "tags": [
           "business & startups",
           "current affairs & politics",
-          "linked-from-readwise",
           "technology"
         ],
         "alsoIn": [],
@@ -37492,7 +37376,6 @@ window.TOP_ARTICLES = {
         "bestMoment": "reflectief",
         "tags": [
           "behavioral psychology & coaching",
-          "linked-from-readwise",
           "personal growth & life philosophy",
           "philosophy"
         ],
@@ -37520,7 +37403,6 @@ window.TOP_ARTICLES = {
         "bestMoment": "analytisch",
         "tags": [
           "economics",
-          "pdf-top-10",
           "political philosophy",
           "research papers & academia",
           "sociology & social structures"
@@ -37563,7 +37445,6 @@ window.TOP_ARTICLES = {
         "bestMoment": "analytisch",
         "tags": [
           "economics",
-          "pdf-top-10",
           "political philosophy",
           "research papers & academia",
           "sociology & social structures"
@@ -37747,8 +37628,7 @@ window.TOP_ARTICLES = {
         "bestMoment": "ontspannen",
         "tags": [
           "arts & culture",
-          "history",
-          "light-reading"
+          "history"
         ],
         "alsoIn": [],
         "memberships": []
@@ -37826,8 +37706,7 @@ window.TOP_ARTICLES = {
         "bestMoment": "ontspannen",
         "tags": [
           "arts & culture",
-          "learning & meta-learning",
-          "light-reading"
+          "learning & meta-learning"
         ],
         "alsoIn": [],
         "memberships": []
@@ -37966,7 +37845,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 51
+            "position": 53
           }
         ]
       },
@@ -38017,7 +37896,6 @@ window.TOP_ARTICLES = {
         "bestMoment": "ontspannen",
         "tags": [
           "arts & culture",
-          "light-reading",
           "personal growth & life philosophy"
         ],
         "alsoIn": [],
@@ -38150,8 +38028,7 @@ window.TOP_ARTICLES = {
         "bestMoment": "ontspannen",
         "tags": [
           "environment & sustainability",
-          "fiction",
-          "light-reading"
+          "fiction"
         ],
         "alsoIn": [],
         "memberships": []
@@ -38257,7 +38134,6 @@ window.TOP_ARTICLES = {
         "bestMoment": "geconcentreerd",
         "tags": [
           "ai ethics & society",
-          "linked-from-readwise",
           "philosophy",
           "science"
         ],
@@ -38285,7 +38161,6 @@ window.TOP_ARTICLES = {
         "bestMoment": "analytisch",
         "tags": [
           "ai ethics & society",
-          "linked-from-readwise",
           "philosophy",
           "totalitarianism & fascism"
         ],
@@ -38313,7 +38188,6 @@ window.TOP_ARTICLES = {
         "bestMoment": "kritisch",
         "tags": [
           "economics",
-          "linked-from-readwise",
           "sociology & social structures"
         ],
         "alsoIn": [],
@@ -38448,7 +38322,6 @@ window.TOP_ARTICLES = {
         "bestMoment": "kritisch",
         "tags": [
           "arts & culture",
-          "light-reading",
           "professional development"
         ],
         "alsoIn": [],
@@ -38476,8 +38349,7 @@ window.TOP_ARTICLES = {
         "tags": [
           "arts & culture",
           "fiction",
-          "history",
-          "light-reading"
+          "history"
         ],
         "alsoIn": [],
         "memberships": []
@@ -38557,8 +38429,7 @@ window.TOP_ARTICLES = {
         "tags": [
           "arts & culture",
           "environment & sustainability",
-          "fiction",
-          "light-reading"
+          "fiction"
         ],
         "alsoIn": [],
         "memberships": []
@@ -38669,7 +38540,6 @@ window.TOP_ARTICLES = {
         "tags": [
           "arts & culture",
           "history",
-          "light-reading",
           "political philosophy"
         ],
         "alsoIn": [
@@ -38685,7 +38555,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 27
+            "position": 28
           }
         ]
       },
@@ -38711,7 +38581,6 @@ window.TOP_ARTICLES = {
         "tags": [
           "agile",
           "behavioral psychology & coaching",
-          "boek-top-10",
           "professional development"
         ],
         "alsoIn": [
@@ -38722,12 +38591,12 @@ window.TOP_ARTICLES = {
           {
             "familyId": "boeken",
             "size": "top-10",
-            "position": 2
+            "position": 3
           },
           {
             "familyId": "boeken",
             "size": "top-100",
-            "position": 2
+            "position": 3
           }
         ]
       },
@@ -38788,7 +38657,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 50
+            "position": 52
           }
         ]
       },
@@ -38813,7 +38682,6 @@ window.TOP_ARTICLES = {
         "bestMoment": "kritisch",
         "tags": [
           "current affairs & politics",
-          "linked-from-readwise",
           "research papers & academia",
           "sociology & social structures"
         ],
@@ -38849,7 +38717,6 @@ window.TOP_ARTICLES = {
         "bestMoment": "analytisch",
         "tags": [
           "economics",
-          "linked-from-readwise",
           "research papers & academia",
           "sociology & social structures"
         ],
@@ -38885,7 +38752,6 @@ window.TOP_ARTICLES = {
         "bestMoment": "geconcentreerd",
         "tags": [
           "economics",
-          "linked-from-readwise",
           "professional documents",
           "sociology & social structures"
         ],
@@ -38914,7 +38780,6 @@ window.TOP_ARTICLES = {
         "tags": [
           "current affairs & politics",
           "economics",
-          "linked-from-readwise",
           "research papers & academia"
         ],
         "alsoIn": [],
@@ -38942,7 +38807,6 @@ window.TOP_ARTICLES = {
         "tags": [
           "current affairs & politics",
           "economics",
-          "linked-from-readwise",
           "sociology & social structures"
         ],
         "alsoIn": [],
@@ -38970,7 +38834,6 @@ window.TOP_ARTICLES = {
         "tags": [
           "economics",
           "environment & sustainability",
-          "linked-from-readwise",
           "research papers & academia"
         ],
         "alsoIn": [
@@ -39033,7 +38896,6 @@ window.TOP_ARTICLES = {
         "tags": [
           "current affairs & politics",
           "economics",
-          "linked-from-readwise",
           "sociology & social structures"
         ],
         "alsoIn": [],
@@ -39060,8 +38922,7 @@ window.TOP_ARTICLES = {
         "bestMoment": "kritisch",
         "tags": [
           "current affairs & politics",
-          "economics",
-          "linked-from-readwise"
+          "economics"
         ],
         "alsoIn": [],
         "memberships": []
@@ -39088,7 +38949,6 @@ window.TOP_ARTICLES = {
         "tags": [
           "current affairs & politics",
           "economics",
-          "linked-from-readwise",
           "sociology & social structures"
         ],
         "alsoIn": [],
@@ -39116,8 +38976,6 @@ window.TOP_ARTICLES = {
         "tags": [
           "arts & culture",
           "learning & meta-learning",
-          "light-reading",
-          "linked-from-readwise",
           "professional development"
         ],
         "alsoIn": [],
@@ -39227,8 +39085,7 @@ window.TOP_ARTICLES = {
         "tags": [
           "arts & culture",
           "entertainment & pop culture",
-          "history",
-          "light-reading"
+          "history"
         ],
         "alsoIn": [
           "aaa-luchtig-top-100"
@@ -39272,7 +39129,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 49
+            "position": 51
           }
         ]
       },
@@ -39325,7 +39182,6 @@ window.TOP_ARTICLES = {
           "arts & culture",
           "existentialism",
           "learning & meta-learning",
-          "light-reading",
           "philosophy"
         ],
         "alsoIn": [],
@@ -39352,7 +39208,6 @@ window.TOP_ARTICLES = {
         "bestMoment": "ontspannen",
         "tags": [
           "arts & culture",
-          "light-reading",
           "personal growth & life philosophy"
         ],
         "alsoIn": [],
@@ -39379,7 +39234,6 @@ window.TOP_ARTICLES = {
         "bestMoment": "ontspannen",
         "tags": [
           "behavioral psychology & coaching",
-          "light-reading",
           "personal growth & life philosophy"
         ],
         "alsoIn": [],
@@ -39469,7 +39323,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 48
+            "position": 50
           }
         ]
       },
@@ -39522,8 +39376,7 @@ window.TOP_ARTICLES = {
         "tags": [
           "arts & culture",
           "behavioral psychology & coaching",
-          "fiction",
-          "light-reading"
+          "fiction"
         ],
         "alsoIn": [
           "video-top-100"
@@ -39583,8 +39436,7 @@ window.TOP_ARTICLES = {
         "bestMoment": "geconcentreerd",
         "tags": [
           "arts & culture",
-          "history",
-          "light-reading"
+          "history"
         ],
         "alsoIn": [
           "aaa-luchtig-top-100"
@@ -39593,7 +39445,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 73
+            "position": 76
           }
         ]
       },
@@ -39618,8 +39470,7 @@ window.TOP_ARTICLES = {
         "bestMoment": "ontspannen",
         "tags": [
           "arts & culture",
-          "fiction",
-          "light-reading"
+          "fiction"
         ],
         "alsoIn": [],
         "memberships": []
@@ -39645,7 +39496,6 @@ window.TOP_ARTICLES = {
         "bestMoment": "reflectief",
         "tags": [
           "arts & culture",
-          "light-reading",
           "sociology & social structures"
         ],
         "alsoIn": [],
@@ -39707,7 +39557,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 91
+            "position": 95
           }
         ]
       },
@@ -39732,8 +39582,7 @@ window.TOP_ARTICLES = {
         "bestMoment": "ontspannen",
         "tags": [
           "arts & culture",
-          "entertainment & pop culture",
-          "light-reading"
+          "entertainment & pop culture"
         ],
         "alsoIn": [],
         "memberships": []
@@ -39759,8 +39608,7 @@ window.TOP_ARTICLES = {
         "bestMoment": "geïnspireerd",
         "tags": [
           "adhd & neurodivergence",
-          "arts & culture",
-          "light-reading"
+          "arts & culture"
         ],
         "alsoIn": [],
         "memberships": []
@@ -39812,7 +39660,6 @@ window.TOP_ARTICLES = {
         "bestMoment": "analytisch",
         "tags": [
           "agile",
-          "linked-from-readwise",
           "research papers & academia",
           "scrum"
         ],
@@ -39825,17 +39672,17 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 51
+            "position": 55
           },
           {
             "familyId": "scrum",
             "size": "top-10",
-            "position": 7
+            "position": 9
           },
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 7
+            "position": 9
           }
         ]
       },
@@ -39860,7 +39707,6 @@ window.TOP_ARTICLES = {
         "bestMoment": "analytisch",
         "tags": [
           "agile",
-          "linked-from-readwise",
           "professional development",
           "research papers & academia"
         ],
@@ -39926,17 +39772,17 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 50
+            "position": 54
           },
           {
             "familyId": "scrum",
             "size": "top-10",
-            "position": 6
+            "position": 8
           },
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 6
+            "position": 8
           }
         ]
       },
@@ -40081,7 +39927,6 @@ window.TOP_ARTICLES = {
         "bestMoment": "reflectief",
         "tags": [
           "arts & culture",
-          "light-reading",
           "sociology & social structures"
         ],
         "alsoIn": [
@@ -40097,7 +39942,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 26
+            "position": 27
           }
         ]
       },
@@ -40158,7 +40003,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 49
+            "position": 53
           }
         ]
       },
@@ -40243,7 +40088,6 @@ window.TOP_ARTICLES = {
         "bestMoment": "ontspannen",
         "tags": [
           "arts & culture",
-          "light-reading",
           "sociology & social structures"
         ],
         "alsoIn": [],
@@ -40270,7 +40114,6 @@ window.TOP_ARTICLES = {
         "bestMoment": "reflectief",
         "tags": [
           "arts & culture",
-          "light-reading",
           "philosophy",
           "philosophy of mind"
         ],
@@ -40448,7 +40291,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 90
+            "position": 94
           }
         ]
       },
@@ -40483,7 +40326,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 47
+            "position": 49
           }
         ]
       },
@@ -40545,7 +40388,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 46
+            "position": 48
           }
         ]
       },
@@ -40580,7 +40423,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 45
+            "position": 47
           }
         ]
       },
@@ -40605,7 +40448,6 @@ window.TOP_ARTICLES = {
         "bestMoment": "geconcentreerd",
         "tags": [
           "agile",
-          "linked-from-readwise",
           "professional development",
           "technology"
         ],
@@ -40618,12 +40460,12 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-10",
-            "position": 5
+            "position": 7
           },
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 5
+            "position": 7
           },
           {
             "familyId": "pdfs",
@@ -40653,7 +40495,6 @@ window.TOP_ARTICLES = {
         "bestMoment": "leergierig",
         "tags": [
           "agile",
-          "linked-from-readwise",
           "professional development"
         ],
         "alsoIn": [],
@@ -40681,7 +40522,6 @@ window.TOP_ARTICLES = {
         "tags": [
           "agile",
           "learning & meta-learning",
-          "linked-from-readwise",
           "technology"
         ],
         "alsoIn": [
@@ -40691,7 +40531,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 89
+            "position": 93
           }
         ]
       },
@@ -40725,7 +40565,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 44
+            "position": 46
           }
         ]
       },
@@ -40759,7 +40599,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 43
+            "position": 45
           }
         ]
       },
@@ -40793,7 +40633,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 42
+            "position": 44
           }
         ]
       },
@@ -40827,7 +40667,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 41
+            "position": 43
           }
         ]
       },
@@ -40947,7 +40787,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 88
+            "position": 92
           }
         ]
       },
@@ -41057,7 +40897,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 40
+            "position": 42
           }
         ]
       },
@@ -41091,7 +40931,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 87
+            "position": 91
           }
         ]
       },
@@ -41125,7 +40965,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 39
+            "position": 41
           }
         ]
       },
@@ -41263,8 +41103,6 @@ window.TOP_ARTICLES = {
         "bestMoment": "ontspannen",
         "tags": [
           "history",
-          "light-reading",
-          "linked-from-readwise",
           "sociology & social structures"
         ],
         "alsoIn": [
@@ -41280,7 +41118,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 25
+            "position": 26
           }
         ]
       },
@@ -41304,9 +41142,7 @@ window.TOP_ARTICLES = {
         "whyRead": "Luchtig verteld verhaal over hoe de Louisiana Purchase (1803) de VS tot continentale macht maakte, met een interessant algemener inzicht over hoe transport/communicatie-technologie (spoorwegen, telegraaf) een land pas echt samenbindt over grote afstanden.",
         "bestMoment": "ontspannen",
         "tags": [
-          "history",
-          "light-reading",
-          "linked-from-readwise"
+          "history"
         ],
         "alsoIn": [],
         "memberships": []
@@ -41332,8 +41168,6 @@ window.TOP_ARTICLES = {
         "bestMoment": "ontspannen",
         "tags": [
           "history",
-          "light-reading",
-          "linked-from-readwise",
           "political philosophy"
         ],
         "alsoIn": [
@@ -41349,7 +41183,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 24
+            "position": 25
           }
         ]
       },
@@ -41374,7 +41208,6 @@ window.TOP_ARTICLES = {
         "bestMoment": "analytisch",
         "tags": [
           "history",
-          "linked-from-readwise",
           "political philosophy"
         ],
         "alsoIn": [
@@ -41408,9 +41241,7 @@ window.TOP_ARTICLES = {
         "whyRead": "Meeslepend militair-historisch verhaal uit de Papyrus Rampant-reeks over de Amerikaanse Revolutie — een luchtig maar goed onderbouwd tussendoortje over hoe Washington Boston veroverde zonder één schot te lossen.",
         "bestMoment": "ontspannen",
         "tags": [
-          "history",
-          "light-reading",
-          "linked-from-readwise"
+          "history"
         ],
         "alsoIn": [],
         "memberships": []
@@ -41436,7 +41267,6 @@ window.TOP_ARTICLES = {
         "bestMoment": "analytisch",
         "tags": [
           "history",
-          "linked-from-readwise",
           "political philosophy"
         ],
         "alsoIn": [],
@@ -41463,7 +41293,6 @@ window.TOP_ARTICLES = {
         "bestMoment": "kritisch",
         "tags": [
           "history",
-          "linked-from-readwise",
           "political philosophy",
           "sociology & social structures"
         ],
@@ -41491,7 +41320,6 @@ window.TOP_ARTICLES = {
         "bestMoment": "analytisch",
         "tags": [
           "history",
-          "linked-from-readwise",
           "political philosophy"
         ],
         "alsoIn": [
@@ -41526,7 +41354,6 @@ window.TOP_ARTICLES = {
         "bestMoment": "analytisch",
         "tags": [
           "history",
-          "linked-from-readwise",
           "philosophy"
         ],
         "alsoIn": [
@@ -41561,9 +41388,7 @@ window.TOP_ARTICLES = {
         "bestMoment": "reflectief",
         "tags": [
           "arts & culture",
-          "history",
-          "light-reading",
-          "linked-from-readwise"
+          "history"
         ],
         "alsoIn": [
           "aaa-luchtig-top-100"
@@ -41597,7 +41422,6 @@ window.TOP_ARTICLES = {
         "bestMoment": "reflectief",
         "tags": [
           "history",
-          "linked-from-readwise",
           "philosophy"
         ],
         "alsoIn": [
@@ -41632,7 +41456,6 @@ window.TOP_ARTICLES = {
         "bestMoment": "analytisch",
         "tags": [
           "history",
-          "linked-from-readwise",
           "political philosophy"
         ],
         "alsoIn": [
@@ -41667,7 +41490,6 @@ window.TOP_ARTICLES = {
         "bestMoment": "analytisch",
         "tags": [
           "history",
-          "linked-from-readwise",
           "political philosophy"
         ],
         "alsoIn": [
@@ -41702,7 +41524,6 @@ window.TOP_ARTICLES = {
         "bestMoment": "analytisch",
         "tags": [
           "history",
-          "linked-from-readwise",
           "political philosophy"
         ],
         "alsoIn": [
@@ -41737,7 +41558,6 @@ window.TOP_ARTICLES = {
         "bestMoment": "analytisch",
         "tags": [
           "history",
-          "linked-from-readwise",
           "sociology & social structures"
         ],
         "alsoIn": [
@@ -41772,7 +41592,6 @@ window.TOP_ARTICLES = {
         "bestMoment": "reflectief",
         "tags": [
           "history",
-          "linked-from-readwise",
           "personal growth & life philosophy"
         ],
         "alsoIn": [],
@@ -41799,7 +41618,6 @@ window.TOP_ARTICLES = {
         "bestMoment": "analytisch",
         "tags": [
           "history",
-          "linked-from-readwise",
           "political philosophy"
         ],
         "alsoIn": [
@@ -41833,9 +41651,7 @@ window.TOP_ARTICLES = {
         "whyRead": "Raakt je interesse in geschiedenis — meeslepend, informeel verteld verhaal over de aanloop naar en het verloop van de Boston Tea Party, deel van dezelfde reeks als de eerder verrijkte artikelen over de Amerikaanse Revolutie.",
         "bestMoment": "ontspannen",
         "tags": [
-          "history",
-          "light-reading",
-          "linked-from-readwise"
+          "history"
         ],
         "alsoIn": [],
         "memberships": []
@@ -41861,7 +41677,6 @@ window.TOP_ARTICLES = {
         "bestMoment": "analytisch",
         "tags": [
           "history",
-          "linked-from-readwise",
           "political philosophy"
         ],
         "alsoIn": [
@@ -41895,8 +41710,7 @@ window.TOP_ARTICLES = {
         "whyRead": "Raakt je interesse in geschiedenis. Meeslepend verteld verhaal over de Slag om Long Island (1776), onderdeel van een reeks over de 250e verjaardag van de Amerikaanse Revolutie — vooral relevant als narratieve geschiedenis, minder direct toepasbaar door de specifiek Amerikaanse context.",
         "bestMoment": "ontspannen",
         "tags": [
-          "history",
-          "light-reading"
+          "history"
         ],
         "alsoIn": [],
         "memberships": []
@@ -41921,8 +41735,7 @@ window.TOP_ARTICLES = {
         "whyRead": "Raakt je interesse in fictie en het schrijfproces van auteurs. Een boekbespreking van Seicho Matsumoto's mysterieklassieker 'Tokyo Express', die het plot combineert met de kluchtige productiegeschiedenis erachter.",
         "bestMoment": "ontspannen",
         "tags": [
-          "fiction",
-          "light-reading"
+          "fiction"
         ],
         "alsoIn": [],
         "memberships": []
@@ -42040,8 +41853,7 @@ window.TOP_ARTICLES = {
         "whyRead": "Raakt je interesse in scrum & agile werken — een diepgaande webinar-aflevering (Scrum Facilitators) over de sprint retrospective, met veel nuance over veelgemaakte misverstanden en praktische tips, inclusief live Q&A met kijkers.",
         "bestMoment": "analytisch",
         "tags": [
-          "scrum",
-          "video-top-10"
+          "scrum"
         ],
         "alsoIn": [
           "video-top-10",
@@ -42080,8 +41892,7 @@ window.TOP_ARTICLES = {
         "whyRead": "Raakt je interesse in scrum & agile werken — vijf herkenbare valkuilen voor Scrum Masters, scherp en zelfkritisch gebracht (inclusief eigen anekdotes) binnen een bewust strak getimede 15-minutenformat.",
         "bestMoment": "analytisch",
         "tags": [
-          "scrum",
-          "video-top-10"
+          "scrum"
         ],
         "alsoIn": [
           "video-top-10",
@@ -42120,8 +41931,7 @@ window.TOP_ARTICLES = {
         "whyRead": "Raakt je interesse in scrum & agile werken — twee ervaren scrum.org-trainers delen drie lessen die ze vroeg in hun carrière hadden willen kennen, met een verrassend eerlijke relativering van scrum zelf als laatste les.",
         "bestMoment": "analytisch",
         "tags": [
-          "scrum",
-          "video-top-10"
+          "scrum"
         ],
         "alsoIn": [
           "video-top-10",
@@ -42160,8 +41970,7 @@ window.TOP_ARTICLES = {
         "whyRead": "Raakt je interesse in scrum & agile werken — drie concrete, vaak vergeten Scrum Master-praktijken (definition of done, teamrelaties, refinement) met scherpe, direct toepasbare adviezen.",
         "bestMoment": "analytisch",
         "tags": [
-          "scrum",
-          "video-top-10"
+          "scrum"
         ],
         "alsoIn": [
           "video-top-10",
@@ -42200,8 +42009,7 @@ window.TOP_ARTICLES = {
         "whyRead": "Raakt je interesse in scrum & agile werken — een praktisch, beroepsmatig direct toepasbaar raamwerk van vijf meetbare manieren om als Scrum Master je waarde aan een organisatie aan te tonen.",
         "bestMoment": "analytisch",
         "tags": [
-          "scrum",
-          "video-top-10"
+          "scrum"
         ],
         "alsoIn": [
           "video-top-10",
@@ -42240,8 +42048,7 @@ window.TOP_ARTICLES = {
         "whyRead": "Raakt je interesse in scrum & agile werken — een informeel maar scherp gesprek over de vraag of Scrum Masters delivery managers moeten worden, met een concrete verklaring waarom de rol onder druk staat.",
         "bestMoment": "analytisch",
         "tags": [
-          "scrum",
-          "video-top-10"
+          "scrum"
         ],
         "alsoIn": [
           "video-top-10",
@@ -42280,8 +42087,7 @@ window.TOP_ARTICLES = {
         "whyRead": "Raakt scrum & agile werken direct — een diepgaand interview met Nick Brown (auteur van \"Real World Agility\") over waarom eerlijke faalverhalen waardevoller zijn dan gepolijste frameworks, en waarom cultuur het fundament van agile teams is.",
         "bestMoment": "analytisch",
         "tags": [
-          "scrum",
-          "video-top-10"
+          "scrum"
         ],
         "alsoIn": [
           "aaa-scrum-top-100",
@@ -42292,7 +42098,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 86
+            "position": 90
           },
           {
             "familyId": "videos",
@@ -42335,7 +42141,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 85
+            "position": 89
           }
         ]
       },
@@ -42368,7 +42174,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 35
+            "position": 37
           }
         ]
       },
@@ -42461,7 +42267,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 33
+            "position": 35
           }
         ]
       },
@@ -42495,7 +42301,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 32
+            "position": 34
           }
         ]
       },
@@ -42528,7 +42334,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 31
+            "position": 33
           }
         ]
       },
@@ -42562,7 +42368,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 30
+            "position": 32
           }
         ]
       },
@@ -42645,7 +42451,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 29
+            "position": 31
           }
         ]
       },
@@ -42704,7 +42510,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 28
+            "position": 30
           }
         ]
       },
@@ -42737,7 +42543,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 34
+            "position": 36
           }
         ]
       },
@@ -42938,8 +42744,7 @@ window.TOP_ARTICLES = {
         "whyRead": "Raakt je interesse in fictie — vijfde hoofdstuk van dit mysterieuze verhaal, met een hoofdpersoon die wordt achtervolgd en een onverwacht pakketje van haar overleden vader ontvangt.",
         "bestMoment": "ontspannen",
         "tags": [
-          "fiction",
-          "light-reading"
+          "fiction"
         ],
         "alsoIn": [],
         "memberships": []
@@ -43041,7 +42846,6 @@ window.TOP_ARTICLES = {
         "whyRead": "Raakt je interesse in filosofie - Musso combineert Nietzsches laatste mens en Hegels kunstfilosofie tot het concept Dark Value, als tegenwicht tegen wat hij de Dopamine Economy noemt.",
         "bestMoment": "analytisch",
         "tags": [
-          "linked-from-readwise",
           "metaphysics",
           "nihilism",
           "philosophy"
@@ -43069,7 +42873,6 @@ window.TOP_ARTICLES = {
         "whyRead": "Raakt je interesse in filosofie en persoonlijke groei - Musso gebruikt John C. Lillys biocomputer-metafoor om uit te leggen waarom diep zelfonderzoek nu moeilijker is dan ooit, en wat daar wel tegenop helpt.",
         "bestMoment": "reflectief",
         "tags": [
-          "linked-from-readwise",
           "personal growth & life philosophy",
           "philosophy"
         ],
@@ -43096,7 +42899,6 @@ window.TOP_ARTICLES = {
         "whyRead": "Raakt je interesse in filosofie - Musso beargumenteert dat je je eigen wereldbeeld pas echt begrijpt als je serieus de tijd neemt om andere wereldbeelden te bestuderen, en reikt de birthview-genealogie aan als praktische methode.",
         "bestMoment": "analytisch",
         "tags": [
-          "linked-from-readwise",
           "philosophy"
         ],
         "alsoIn": [],
@@ -43122,7 +42924,6 @@ window.TOP_ARTICLES = {
         "whyRead": "Raakt je kerninteresse in filosofie — een compacte, toegankelijke doorwerking van Nietzsches Beyond Good and Evil (deel I, secties 1, 4 en 6) door iemand die de tekst zelf serieus heeft doorleefd.",
         "bestMoment": "analytisch",
         "tags": [
-          "linked-from-readwise",
           "metaphysics",
           "nihilism",
           "philosophy"
@@ -43151,7 +42952,6 @@ window.TOP_ARTICLES = {
         "bestMoment": "analytisch",
         "tags": [
           "existentialism",
-          "linked-from-readwise",
           "philosophy"
         ],
         "alsoIn": [],
@@ -43177,7 +42977,6 @@ window.TOP_ARTICLES = {
         "whyRead": "Deels essay, deels cursuswerving, maar het essay-gedeelte bevat een scherpe diagnose van waarom academische filosofie mensen niet helpt hun leven te sturen, met een genuanceerde kritiek op James Clear (Atomic Habits) en de Socratische methode als tegenmodel. Raakt je interesse in filosofie en persoonlijke ontwikkeling.",
         "bestMoment": "reflectief",
         "tags": [
-          "linked-from-readwise",
           "philosophy",
           "stoicism"
         ],
@@ -43205,7 +43004,6 @@ window.TOP_ARTICLES = {
         "bestMoment": "analytisch",
         "tags": [
           "existentialism",
-          "linked-from-readwise",
           "philosophy"
         ],
         "alsoIn": [],
@@ -43232,7 +43030,6 @@ window.TOP_ARTICLES = {
         "bestMoment": "reflectief",
         "tags": [
           "existentialism",
-          "linked-from-readwise",
           "philosophy"
         ],
         "alsoIn": [],
@@ -43259,7 +43056,6 @@ window.TOP_ARTICLES = {
         "bestMoment": "analytisch",
         "tags": [
           "existentialism",
-          "linked-from-readwise",
           "philosophy"
         ],
         "alsoIn": [],
@@ -43286,7 +43082,6 @@ window.TOP_ARTICLES = {
         "bestMoment": "analytisch",
         "tags": [
           "existentialism",
-          "linked-from-readwise",
           "nihilism",
           "philosophy"
         ],
@@ -43297,7 +43092,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 48
+            "position": 52
           }
         ]
       },
@@ -43322,7 +43117,6 @@ window.TOP_ARTICLES = {
         "bestMoment": "analytisch",
         "tags": [
           "existentialism",
-          "linked-from-readwise",
           "metaphysics",
           "philosophy",
           "stoicism"
@@ -43351,7 +43145,6 @@ window.TOP_ARTICLES = {
         "bestMoment": "reflectief",
         "tags": [
           "existentialism",
-          "linked-from-readwise",
           "philosophy"
         ],
         "alsoIn": [],
@@ -43378,7 +43171,6 @@ window.TOP_ARTICLES = {
         "bestMoment": "reflectief",
         "tags": [
           "existentialism",
-          "linked-from-readwise",
           "personal growth & life philosophy",
           "philosophy"
         ],
@@ -43443,7 +43235,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 54
+            "position": 58
           }
         ]
       },
@@ -43468,7 +43260,6 @@ window.TOP_ARTICLES = {
         "bestMoment": "analytisch",
         "tags": [
           "ai ethics & society",
-          "linked-from-readwise",
           "philosophy"
         ],
         "alsoIn": [
@@ -43503,7 +43294,6 @@ window.TOP_ARTICLES = {
         "bestMoment": "kritisch",
         "tags": [
           "business & startups",
-          "linked-from-readwise",
           "sociology & social structures"
         ],
         "alsoIn": [],
@@ -43530,7 +43320,6 @@ window.TOP_ARTICLES = {
         "bestMoment": "analytisch",
         "tags": [
           "history",
-          "linked-from-readwise",
           "philosophy",
           "political philosophy"
         ],
@@ -43558,7 +43347,6 @@ window.TOP_ARTICLES = {
         "bestMoment": "kritisch",
         "tags": [
           "current affairs & politics",
-          "linked-from-readwise",
           "political philosophy",
           "totalitarianism & fascism"
         ],
@@ -43586,7 +43374,6 @@ window.TOP_ARTICLES = {
         "bestMoment": "kritisch",
         "tags": [
           "history",
-          "linked-from-readwise",
           "science",
           "sociology & social structures"
         ],
@@ -43597,7 +43384,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 47
+            "position": 51
           }
         ]
       },
@@ -43622,7 +43409,6 @@ window.TOP_ARTICLES = {
         "bestMoment": "kritisch",
         "tags": [
           "current affairs & politics",
-          "linked-from-readwise",
           "political philosophy",
           "sociology & social structures"
         ],
@@ -43651,8 +43437,6 @@ window.TOP_ARTICLES = {
         "tags": [
           "arts & culture",
           "current affairs & politics",
-          "light-reading",
-          "linked-from-readwise",
           "political philosophy"
         ],
         "alsoIn": [
@@ -43668,7 +43452,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 23
+            "position": 24
           }
         ]
       },
@@ -43692,7 +43476,6 @@ window.TOP_ARTICLES = {
         "whyRead": "Raakt je interesse in filosofie en persoonlijke groei — een compact essay dat 'natuurlijk communicatietalent' herkadert als aangeleerde praktijk in plaats van aangeboren eigenschap, met een expliciete link naar laat-gediagnosticeerde/neurodivergente professionals.",
         "bestMoment": "reflectief",
         "tags": [
-          "linked-from-readwise",
           "personal growth & life philosophy",
           "philosophy"
         ],
@@ -43745,8 +43528,7 @@ window.TOP_ARTICLES = {
         "bestMoment": "ontspannen",
         "tags": [
           "arts & culture",
-          "fiction",
-          "light-reading"
+          "fiction"
         ],
         "alsoIn": [],
         "memberships": []
@@ -43771,8 +43553,7 @@ window.TOP_ARTICLES = {
         "whyRead": "Raakt je interesse in films/series als cultuurvorm — een scherpe, goed beargumenteerde recensie die de Nolan-verfilming van De Odyssee tegen zowel het bronmateriaal als een geslaagde adaptatie (O Brother, Where Art Thou?) afzet.",
         "bestMoment": "kritisch",
         "tags": [
-          "arts & culture",
-          "light-reading"
+          "arts & culture"
         ],
         "alsoIn": [],
         "memberships": []
@@ -43849,8 +43630,7 @@ window.TOP_ARTICLES = {
         "bestMoment": "leergierig",
         "tags": [
           "arts & culture",
-          "learning & meta-learning",
-          "light-reading"
+          "learning & meta-learning"
         ],
         "alsoIn": [],
         "memberships": []
@@ -43876,7 +43656,6 @@ window.TOP_ARTICLES = {
         "bestMoment": "geconcentreerd",
         "tags": [
           "arts & culture",
-          "light-reading",
           "philosophy"
         ],
         "alsoIn": [
@@ -43886,7 +43665,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 22
+            "position": 23
           }
         ]
       },
@@ -43911,8 +43690,7 @@ window.TOP_ARTICLES = {
         "bestMoment": "analytisch",
         "tags": [
           "ai ethics & society",
-          "arts & culture",
-          "light-reading"
+          "arts & culture"
         ],
         "alsoIn": [
           "aaa-luchtig-top-100"
@@ -44417,8 +44195,7 @@ window.TOP_ARTICLES = {
         "bestMoment": "kritisch",
         "tags": [
           "ai ethics & society",
-          "arts & culture",
-          "light-reading"
+          "arts & culture"
         ],
         "alsoIn": [],
         "memberships": []
@@ -44470,8 +44247,7 @@ window.TOP_ARTICLES = {
         "bestMoment": "kritisch",
         "tags": [
           "ai ethics & society",
-          "arts & culture",
-          "light-reading"
+          "arts & culture"
         ],
         "alsoIn": [],
         "memberships": []
@@ -44497,8 +44273,7 @@ window.TOP_ARTICLES = {
         "bestMoment": "kritisch",
         "tags": [
           "arts & culture",
-          "entertainment & pop culture",
-          "light-reading"
+          "entertainment & pop culture"
         ],
         "alsoIn": [],
         "memberships": []
@@ -44577,8 +44352,7 @@ window.TOP_ARTICLES = {
         "bestMoment": "ontspannen",
         "tags": [
           "ai ethics & society",
-          "arts & culture",
-          "light-reading"
+          "arts & culture"
         ],
         "alsoIn": [],
         "memberships": []
@@ -44604,8 +44378,7 @@ window.TOP_ARTICLES = {
         "bestMoment": "kritisch",
         "tags": [
           "ai ethics & society",
-          "arts & culture",
-          "light-reading"
+          "arts & culture"
         ],
         "alsoIn": [],
         "memberships": []
@@ -44631,8 +44404,7 @@ window.TOP_ARTICLES = {
         "bestMoment": "analytisch",
         "tags": [
           "ai ethics & society",
-          "arts & culture",
-          "light-reading"
+          "arts & culture"
         ],
         "alsoIn": [],
         "memberships": []
@@ -44658,7 +44430,6 @@ window.TOP_ARTICLES = {
         "bestMoment": "analytisch",
         "tags": [
           "arts & culture",
-          "light-reading",
           "personal growth & life philosophy"
         ],
         "alsoIn": [],
@@ -44762,7 +44533,6 @@ window.TOP_ARTICLES = {
         "bestMoment": "analytisch",
         "tags": [
           "arts & culture",
-          "light-reading",
           "philosophy"
         ],
         "alsoIn": [
@@ -44772,7 +44542,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 72
+            "position": 75
           }
         ]
       },
@@ -44824,7 +44594,6 @@ window.TOP_ARTICLES = {
         "tags": [
           "history",
           "metaphysics",
-          "pdf-top-10",
           "philosophy",
           "technology",
           "totalitarianism & fascism"
@@ -45113,7 +44882,6 @@ window.TOP_ARTICLES = {
         "bestMoment": "ontspannen",
         "tags": [
           "arts & culture",
-          "light-reading",
           "philosophy",
           "sociology & social structures",
           "totalitarianism & fascism"
@@ -45142,8 +44910,7 @@ window.TOP_ARTICLES = {
         "bestMoment": "ontspannen",
         "tags": [
           "arts & culture",
-          "history",
-          "light-reading"
+          "history"
         ],
         "alsoIn": [],
         "memberships": []
@@ -45197,7 +44964,6 @@ window.TOP_ARTICLES = {
         "tags": [
           "arts & culture",
           "history",
-          "light-reading",
           "sociology & social structures"
         ],
         "alsoIn": [
@@ -45232,7 +44998,6 @@ window.TOP_ARTICLES = {
         "bestMoment": "analytisch",
         "tags": [
           "arts & culture",
-          "light-reading",
           "political philosophy",
           "sociology & social structures"
         ],
@@ -45268,7 +45033,6 @@ window.TOP_ARTICLES = {
         "bestMoment": "analytisch",
         "tags": [
           "arts & culture",
-          "light-reading",
           "political philosophy",
           "totalitarianism & fascism"
         ],
@@ -45324,7 +45088,6 @@ window.TOP_ARTICLES = {
         "bestMoment": "ontspannen",
         "tags": [
           "arts & culture",
-          "light-reading",
           "personal growth & life philosophy"
         ],
         "alsoIn": [
@@ -45385,7 +45148,6 @@ window.TOP_ARTICLES = {
         "bestMoment": "analytisch",
         "tags": [
           "arts & culture",
-          "light-reading",
           "political philosophy",
           "totalitarianism & fascism"
         ],
@@ -45440,7 +45202,6 @@ window.TOP_ARTICLES = {
         "bestMoment": "analytisch",
         "tags": [
           "arts & culture",
-          "light-reading",
           "political philosophy",
           "totalitarianism & fascism"
         ],
@@ -45451,7 +45212,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 70
+            "position": 73
           }
         ]
       },
@@ -45476,7 +45237,6 @@ window.TOP_ARTICLES = {
         "bestMoment": "analytisch",
         "tags": [
           "arts & culture",
-          "light-reading",
           "political philosophy",
           "totalitarianism & fascism"
         ],
@@ -45487,7 +45247,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 69
+            "position": 72
           }
         ]
       },
@@ -45512,7 +45272,6 @@ window.TOP_ARTICLES = {
         "bestMoment": "reflectief",
         "tags": [
           "arts & culture",
-          "light-reading",
           "personal growth & life philosophy",
           "sociology & social structures"
         ],
@@ -45529,7 +45288,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 21
+            "position": 22
           }
         ]
       },
@@ -45579,8 +45338,7 @@ window.TOP_ARTICLES = {
         "whyRead": "Raakt je interesse in cultuurkritiek en literaire lore — Orwell duikt in het genre nonsense-poëzie via Edward Lear, en ontdekt onderweg een verrassend politiek understatement over gehoorzaamheid aan autoriteit.",
         "bestMoment": "ontspannen",
         "tags": [
-          "arts & culture",
-          "light-reading"
+          "arts & culture"
         ],
         "alsoIn": [],
         "memberships": []
@@ -45639,8 +45397,7 @@ window.TOP_ARTICLES = {
         "whyRead": "Raakt je interesse in essayistiek en schrijfcraft — een luchtig, persoonlijk essay waarin Orwell laat zien hoe je van een alledaags onderwerp (rommelwinkels) een scherp geobserveerd stuk proza maakt.",
         "bestMoment": "ontspannen",
         "tags": [
-          "arts & culture",
-          "light-reading"
+          "arts & culture"
         ],
         "alsoIn": [],
         "memberships": []
@@ -45692,7 +45449,6 @@ window.TOP_ARTICLES = {
         "bestMoment": "ontspannen",
         "tags": [
           "arts & culture",
-          "light-reading",
           "philosophy"
         ],
         "alsoIn": [],
@@ -45745,8 +45501,7 @@ window.TOP_ARTICLES = {
         "bestMoment": "ontspannen",
         "tags": [
           "biography",
-          "history",
-          "light-reading"
+          "history"
         ],
         "alsoIn": [],
         "memberships": []
@@ -45807,7 +45562,6 @@ window.TOP_ARTICLES = {
         "bestMoment": "analytisch",
         "tags": [
           "fiction",
-          "light-reading",
           "political philosophy",
           "totalitarianism & fascism"
         ],
@@ -45835,7 +45589,6 @@ window.TOP_ARTICLES = {
         "bestMoment": "ontspannen",
         "tags": [
           "arts & culture",
-          "light-reading",
           "writing craft"
         ],
         "alsoIn": [],
@@ -45862,7 +45615,6 @@ window.TOP_ARTICLES = {
         "bestMoment": "analytisch",
         "tags": [
           "arts & culture",
-          "light-reading",
           "political philosophy",
           "totalitarianism & fascism"
         ],
@@ -45873,7 +45625,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 68
+            "position": 71
           }
         ]
       },
@@ -46004,7 +45756,6 @@ window.TOP_ARTICLES = {
         "bestMoment": "reflectief",
         "tags": [
           "arts & culture",
-          "light-reading",
           "political philosophy",
           "totalitarianism & fascism"
         ],
@@ -46015,7 +45766,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 71
+            "position": 74
           }
         ]
       },
@@ -46041,7 +45792,6 @@ window.TOP_ARTICLES = {
         "tags": [
           "arts & culture",
           "epistemology",
-          "light-reading",
           "personal growth & life philosophy",
           "philosophy",
           "totalitarianism & fascism"
@@ -46090,9 +45840,7 @@ window.TOP_ARTICLES = {
         "bestMoment": "reflectief",
         "tags": [
           "arts & culture",
-          "later",
           "learning & meta-learning",
-          "light-reading",
           "personal growth & life philosophy"
         ],
         "alsoIn": [],
@@ -46202,8 +45950,6 @@ window.TOP_ARTICLES = {
         "bestMoment": "ontspannen",
         "tags": [
           "arts & culture",
-          "later",
-          "light-reading",
           "personal growth & life philosophy"
         ],
         "alsoIn": [
@@ -46249,9 +45995,7 @@ window.TOP_ARTICLES = {
         "whyRead": "Korte open oproep van Ted Gioia aan zijn lezers om recente culturele ontdekkingen te delen; alleen bewaren als je de commentaren wilt uitpluizen.",
         "bestMoment": "ontspannen",
         "tags": [
-          "archiveren",
-          "arts & culture",
-          "light-reading"
+          "arts & culture"
         ],
         "alsoIn": [],
         "memberships": []
@@ -46410,9 +46154,7 @@ window.TOP_ARTICLES = {
         "bestMoment": "ontspannen",
         "tags": [
           "ai ethics & society",
-          "arts & culture",
-          "later",
-          "light-reading"
+          "arts & culture"
         ],
         "alsoIn": [],
         "memberships": []
@@ -46438,7 +46180,6 @@ window.TOP_ARTICLES = {
         "bestMoment": "analytisch",
         "tags": [
           "history",
-          "later",
           "sociology & social structures"
         ],
         "alsoIn": [
@@ -46474,7 +46215,6 @@ window.TOP_ARTICLES = {
         "tags": [
           "arts & culture",
           "learning & meta-learning",
-          "light-reading",
           "personal growth & life philosophy"
         ],
         "alsoIn": [],
@@ -46502,7 +46242,6 @@ window.TOP_ARTICLES = {
         "tags": [
           "arts & culture",
           "learning & meta-learning",
-          "light-reading",
           "personal growth & life philosophy"
         ],
         "alsoIn": [],
@@ -46565,7 +46304,6 @@ window.TOP_ARTICLES = {
         "tags": [
           "arts & culture",
           "learning & meta-learning",
-          "light-reading",
           "personal growth & life philosophy"
         ],
         "alsoIn": [],
@@ -46653,10 +46391,10 @@ window.TOP_ARTICLES = {
         "whyRead": "Een veelbelovend gesprek op het kruispunt van dieptepsychologie, mythologie, ecologie en technologievervreemding. De aflevering lijkt precies te passen bij je interesse in verwondering, zingeving en filosofie.",
         "bestMoment": "aandachtig",
         "tags": [
+          "behavioral psychology & coaching",
           "environment",
           "metaphysics",
-          "philosophy",
-          "psychology"
+          "philosophy"
         ],
         "alsoIn": [],
         "memberships": []
@@ -46708,8 +46446,8 @@ window.TOP_ARTICLES = {
         "whyRead": "Scherpe correctie op het oppervlakkig toepassen van ‘learning science’. Het stuk maakt duidelijk dat retrieval en spacing ontwerp-eigenschappen van een curriculum zijn, geen losse klasrituelen.",
         "bestMoment": "analytisch",
         "tags": [
+          "behavioral psychology & coaching",
           "learning",
-          "psychology",
           "technology"
         ],
         "alsoIn": [],
@@ -46740,6 +46478,7 @@ window.TOP_ARTICLES = {
           "philosophy"
         ],
         "alsoIn": [
+          "aaa-top-100",
           "aaa-dutch-top-10",
           "aaa-dutch-top-100",
           "aaa-short-top-100",
@@ -46747,6 +46486,11 @@ window.TOP_ARTICLES = {
           "aaa-short-dutch-top-100"
         ],
         "memberships": [
+          {
+            "familyId": "algemeen",
+            "size": "top-100",
+            "position": 50
+          },
           {
             "familyId": "nederlands",
             "size": "top-10",
@@ -46760,7 +46504,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 63
+            "position": 25
           },
           {
             "familyId": "kort-nederlands",
@@ -46832,7 +46576,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 62
+            "position": 63
           }
         ]
       },
@@ -46857,7 +46601,6 @@ window.TOP_ARTICLES = {
         "bestMoment": "kritisch",
         "tags": [
           "ai ethics & society",
-          "later",
           "technology"
         ],
         "alsoIn": [
@@ -46898,8 +46641,7 @@ window.TOP_ARTICLES = {
         "bestMoment": "geïnspireerd",
         "tags": [
           "arts & culture",
-          "history",
-          "light-reading"
+          "history"
         ],
         "alsoIn": [],
         "memberships": []
@@ -46925,8 +46667,6 @@ window.TOP_ARTICLES = {
         "bestMoment": "analytisch",
         "tags": [
           "arts & culture",
-          "later",
-          "light-reading",
           "philosophy"
         ],
         "alsoIn": [],
@@ -46953,7 +46693,6 @@ window.TOP_ARTICLES = {
         "bestMoment": "leergierig",
         "tags": [
           "history",
-          "later",
           "technology"
         ],
         "alsoIn": [],
@@ -47034,8 +46773,7 @@ window.TOP_ARTICLES = {
         "bestMoment": "kritisch",
         "tags": [
           "current affairs & politics",
-          "economics",
-          "later"
+          "economics"
         ],
         "alsoIn": [
           "aaa-dutch-top-100",
@@ -47101,7 +46839,6 @@ window.TOP_ARTICLES = {
         "bestMoment": "geïnspireerd",
         "tags": [
           "ai ethics & society",
-          "later",
           "philosophy"
         ],
         "alsoIn": [],
@@ -47128,7 +46865,6 @@ window.TOP_ARTICLES = {
         "bestMoment": "reflectief",
         "tags": [
           "behavioral psychology & coaching",
-          "later",
           "learning & meta-learning"
         ],
         "alsoIn": [],
@@ -47155,7 +46891,6 @@ window.TOP_ARTICLES = {
         "bestMoment": "analytisch",
         "tags": [
           "epistemology",
-          "later",
           "philosophy",
           "philosophy of language",
           "science"
@@ -47184,9 +46919,6 @@ window.TOP_ARTICLES = {
         "bestMoment": "analytisch",
         "tags": [
           "arts & culture",
-          "later",
-          "light-reading",
-          "linked-from-readwise",
           "philosophy"
         ],
         "alsoIn": [],
@@ -47248,7 +46980,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 61
+            "position": 62
           }
         ]
       },
@@ -47273,8 +47005,7 @@ window.TOP_ARTICLES = {
         "bestMoment": "ontspannen",
         "tags": [
           "arts & culture",
-          "history",
-          "light-reading"
+          "history"
         ],
         "alsoIn": [],
         "memberships": []
@@ -47300,7 +47031,6 @@ window.TOP_ARTICLES = {
         "bestMoment": "geïnspireerd",
         "tags": [
           "arts & culture",
-          "light-reading",
           "professional development"
         ],
         "alsoIn": [
@@ -47310,7 +47040,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 20
+            "position": 21
           }
         ]
       },
@@ -47335,9 +47065,7 @@ window.TOP_ARTICLES = {
         "bestMoment": "ontspannen",
         "tags": [
           "arts & culture",
-          "fiction",
-          "later",
-          "light-reading"
+          "fiction"
         ],
         "alsoIn": [],
         "memberships": []
@@ -47390,9 +47118,7 @@ window.TOP_ARTICLES = {
         "tags": [
           "arts & culture",
           "fiction",
-          "history",
-          "later",
-          "light-reading"
+          "history"
         ],
         "alsoIn": [],
         "memberships": []
@@ -47419,7 +47145,6 @@ window.TOP_ARTICLES = {
         "tags": [
           "arts & culture",
           "learning & meta-learning",
-          "light-reading",
           "professional development"
         ],
         "alsoIn": [],
@@ -47447,7 +47172,6 @@ window.TOP_ARTICLES = {
         "tags": [
           "ai ethics & society",
           "arts & culture",
-          "light-reading",
           "sociology & social structures"
         ],
         "alsoIn": [],
@@ -47473,7 +47197,6 @@ window.TOP_ARTICLES = {
         "whyRead": "Een toegankelijke, nieuwsgierig makende wetenschapstekst van Eleanor Konik over een dier dat de grens tussen zoogdier en insectenkolonie vervaagt.",
         "bestMoment": "leergierig",
         "tags": [
-          "later",
           "science",
           "sociology & social structures"
         ],
@@ -47501,7 +47224,6 @@ window.TOP_ARTICLES = {
         "bestMoment": "analytisch",
         "tags": [
           "ai ethics & society",
-          "linked-from-readwise",
           "technology"
         ],
         "alsoIn": [],
@@ -47527,7 +47249,6 @@ window.TOP_ARTICLES = {
         "whyRead": "Raakt je kerninteresse in AI en conceptueel programmeren: een nuchter veldrapport over waar coding agents wetenschappelijk werk werkelijk versnellen — en waar menselijke verantwoordelijkheid blijft.",
         "bestMoment": "geconcentreerd",
         "tags": [
-          "linked-from-readwise",
           "science",
           "technology"
         ],
@@ -47555,7 +47276,6 @@ window.TOP_ARTICLES = {
         "bestMoment": "analytisch",
         "tags": [
           "ai ethics & society",
-          "linked-from-readwise",
           "science"
         ],
         "alsoIn": [],
@@ -47582,7 +47302,6 @@ window.TOP_ARTICLES = {
         "bestMoment": "analytisch",
         "tags": [
           "ai ethics & society",
-          "linked-from-readwise",
           "technology"
         ],
         "alsoIn": [],
@@ -47608,8 +47327,7 @@ window.TOP_ARTICLES = {
         "whyRead": "Raakt je interesse in AI-ethiek en de juridische/maatschappelijke gevolgen ervan — analyseert wie aansprakelijk is als AI-agents zelfstandig hacken.",
         "bestMoment": "kritisch",
         "tags": [
-          "ai ethics & society",
-          "linked-from-readwise"
+          "ai ethics & society"
         ],
         "alsoIn": [],
         "memberships": []
@@ -47635,7 +47353,6 @@ window.TOP_ARTICLES = {
         "bestMoment": "analytisch",
         "tags": [
           "ai ethics & society",
-          "linked-from-readwise",
           "technology"
         ],
         "alsoIn": [],
@@ -47662,7 +47379,6 @@ window.TOP_ARTICLES = {
         "bestMoment": "analytisch",
         "tags": [
           "ai ethics & society",
-          "linked-from-readwise",
           "research papers & academia",
           "science",
           "technology"
@@ -47716,7 +47432,6 @@ window.TOP_ARTICLES = {
         "bestMoment": "reflectief",
         "tags": [
           "arts & culture",
-          "light-reading",
           "personal growth & life philosophy"
         ],
         "alsoIn": [],
@@ -47828,8 +47543,7 @@ window.TOP_ARTICLES = {
         "whyRead": "Raakt je interesse in kunst & cultuur — een scherpe recensie van Emily Wilson (vertaler van de Odyssee) over Nolans verfilming, die de spanning tussen spektakel en de morele complexiteit van het origineel blootlegt.",
         "bestMoment": "ontspannen",
         "tags": [
-          "arts & culture",
-          "light-reading"
+          "arts & culture"
         ],
         "alsoIn": [],
         "memberships": []
@@ -47932,7 +47646,6 @@ window.TOP_ARTICLES = {
         "whyRead": "Raakt je interesse in werk, communicatie en denken: een helder essay dat het vage managementwoord ‘communicatie’ weer inhoudelijk maakt.",
         "bestMoment": "kritisch",
         "tags": [
-          "later",
           "philosophy",
           "professional development"
         ],
@@ -48022,7 +47735,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 60
+            "position": 61
           }
         ]
       },
@@ -48056,7 +47769,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 59
+            "position": 60
           }
         ]
       },
@@ -48081,8 +47794,7 @@ window.TOP_ARTICLES = {
         "bestMoment": "ontspannen",
         "tags": [
           "arts & culture",
-          "history",
-          "light-reading"
+          "history"
         ],
         "alsoIn": [],
         "memberships": []
@@ -48108,7 +47820,6 @@ window.TOP_ARTICLES = {
         "bestMoment": "kritisch",
         "tags": [
           "behavioral psychology & coaching",
-          "later",
           "professional development"
         ],
         "alsoIn": [],
@@ -48135,8 +47846,6 @@ window.TOP_ARTICLES = {
         "bestMoment": "geconcentreerd",
         "tags": [
           "fiction",
-          "light-reading",
-          "pdf-top-10",
           "philosophy",
           "political philosophy"
         ],
@@ -48190,7 +47899,6 @@ window.TOP_ARTICLES = {
         "bestMoment": "reflectief",
         "tags": [
           "history",
-          "later",
           "philosophy"
         ],
         "alsoIn": [
@@ -48205,7 +47913,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 100
+            "position": 49
           },
           {
             "familyId": "nederlands",
@@ -48220,7 +47928,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 58
+            "position": 24
           },
           {
             "familyId": "kort-nederlands",
@@ -48256,7 +47964,6 @@ window.TOP_ARTICLES = {
         "tags": [
           "fiction",
           "history",
-          "light-reading",
           "philosophy"
         ],
         "alsoIn": [
@@ -48268,17 +47975,17 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 46
+            "position": 48
           },
           {
             "familyId": "luchtig",
             "size": "top-10",
-            "position": 7
+            "position": 8
           },
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 7
+            "position": 8
           }
         ]
       },
@@ -48413,19 +48120,13 @@ window.TOP_ARTICLES = {
           "technology"
         ],
         "alsoIn": [
-          "aaa-top-100",
           "aaa-short-top-100"
         ],
         "memberships": [
           {
-            "familyId": "algemeen",
-            "size": "top-100",
-            "position": 99
-          },
-          {
             "familyId": "kort",
             "size": "top-100",
-            "position": 57
+            "position": 59
           }
         ]
       },
@@ -48487,7 +48188,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 45
+            "position": 47
           }
         ]
       },
@@ -48638,19 +48339,13 @@ window.TOP_ARTICLES = {
           "sociology & social structures"
         ],
         "alsoIn": [
-          "aaa-top-100",
           "aaa-short-top-100"
         ],
         "memberships": [
           {
-            "familyId": "algemeen",
-            "size": "top-100",
-            "position": 98
-          },
-          {
             "familyId": "kort",
             "size": "top-100",
-            "position": 56
+            "position": 58
           }
         ]
       },
@@ -48815,7 +48510,6 @@ window.TOP_ARTICLES = {
         "tags": [
           "arts & culture",
           "fiction",
-          "light-reading",
           "philosophy"
         ],
         "alsoIn": [],
@@ -48869,8 +48563,6 @@ window.TOP_ARTICLES = {
         "bestMoment": "reflectief",
         "tags": [
           "arts & culture",
-          "later",
-          "light-reading",
           "philosophy",
           "technology"
         ],
@@ -48898,7 +48590,6 @@ window.TOP_ARTICLES = {
         "bestMoment": "leergierig",
         "tags": [
           "learning & meta-learning",
-          "linked-from-readwise",
           "political philosophy",
           "sociology & social structures"
         ],
@@ -48927,14 +48618,13 @@ window.TOP_ARTICLES = {
         "tags": [
           "arts & culture",
           "current affairs & politics",
-          "later",
-          "light-reading",
           "sociology & social structures"
         ],
         "alsoIn": [
           "aaa-dutch-top-100",
           "aaa-short-dutch-top-10",
           "aaa-short-dutch-top-100",
+          "aaa-luchtig-top-100",
           "aaa-luchtig-nederlands-top-10",
           "aaa-luchtig-nederlands-top-100"
         ],
@@ -48953,6 +48643,11 @@ window.TOP_ARTICLES = {
             "familyId": "kort-nederlands",
             "size": "top-100",
             "position": 10
+          },
+          {
+            "familyId": "luchtig",
+            "size": "top-100",
+            "position": 70
           },
           {
             "familyId": "luchtig-nederlands",
@@ -48986,10 +48681,8 @@ window.TOP_ARTICLES = {
         "whyRead": "lichte, deels betaalmuur-afgeschermde cultuurbrief over Italiaans nieuws, film en lifestyletrends; te fragmentarisch voor duurzame leeswaarde.",
         "bestMoment": "ontspannen",
         "tags": [
-          "archiveren",
           "arts & culture",
-          "entertainment & pop culture",
-          "light-reading"
+          "entertainment & pop culture"
         ],
         "alsoIn": [],
         "memberships": []
@@ -49043,30 +48736,22 @@ window.TOP_ARTICLES = {
         "tags": [
           "arts & culture",
           "fiction",
-          "later",
-          "light-reading",
           "political philosophy"
         ],
         "alsoIn": [
-          "aaa-top-100",
           "aaa-short-top-100",
           "aaa-luchtig-top-100"
         ],
         "memberships": [
           {
-            "familyId": "algemeen",
-            "size": "top-100",
-            "position": 97
-          },
-          {
             "familyId": "kort",
             "size": "top-100",
-            "position": 55
+            "position": 57
           },
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 19
+            "position": 20
           }
         ]
       },
@@ -49118,7 +48803,6 @@ window.TOP_ARTICLES = {
         "bestMoment": "analytisch",
         "tags": [
           "economics",
-          "later",
           "political philosophy",
           "sociology & social structures"
         ],
@@ -49129,7 +48813,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 44
+            "position": 46
           }
         ]
       },
@@ -49153,7 +48837,6 @@ window.TOP_ARTICLES = {
         "whyRead": "Dit is de historische paper die deep learning voor computer vision doorbrak: een concreet scharnierpunt voor je interesse in AI, technologie en de technische wortels van huidige modellen.",
         "bestMoment": "analytisch",
         "tags": [
-          "linked-from-readwise",
           "research papers & academia",
           "technology"
         ],
@@ -49189,7 +48872,6 @@ window.TOP_ARTICLES = {
         "bestMoment": "reflectief",
         "tags": [
           "arts & culture",
-          "light-reading",
           "personal growth & life philosophy"
         ],
         "alsoIn": [],
@@ -49220,19 +48902,13 @@ window.TOP_ARTICLES = {
           "research papers & academia"
         ],
         "alsoIn": [
-          "aaa-top-100",
           "aaa-short-top-100"
         ],
         "memberships": [
           {
-            "familyId": "algemeen",
-            "size": "top-100",
-            "position": 96
-          },
-          {
             "familyId": "kort",
             "size": "top-100",
-            "position": 54
+            "position": 56
           }
         ]
       },
@@ -49258,7 +48934,6 @@ window.TOP_ARTICLES = {
         "tags": [
           "health & wellness",
           "history",
-          "linked-from-readwise",
           "sociology & social structures"
         ],
         "alsoIn": [],
@@ -49285,7 +48960,6 @@ window.TOP_ARTICLES = {
         "bestMoment": "kritisch",
         "tags": [
           "history",
-          "linked-from-readwise",
           "sociology & social structures"
         ],
         "alsoIn": [],
@@ -49311,7 +48985,6 @@ window.TOP_ARTICLES = {
         "whyRead": "Dit is een toegankelijke, scherp geformuleerde ingang tot Charles Perrows theorie van normal accidents: een bruikbaar denkkader voor AI, infrastructuur en organisaties waar complexiteit zelf risico produceert. De koppeling met hindsight bias en perverse veiligheidsprikkels geeft het essay extra maatschappelijke diepgang.",
         "bestMoment": "analytisch",
         "tags": [
-          "linked-from-readwise",
           "sociology & social structures",
           "technology"
         ],
@@ -49323,12 +48996,12 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 95
+            "position": 100
           },
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 53
+            "position": 55
           }
         ]
       },
@@ -49352,7 +49025,6 @@ window.TOP_ARTICLES = {
         "whyRead": "Dit essay maakt de abstracte vraag wat een neuraal netwerk leert concreet via representaties, topologie en de manifold hypothesis. Het biedt heldere, nog steeds bruikbare conceptuele grond voor interpretability en architectuurkeuzes.",
         "bestMoment": "analytisch",
         "tags": [
-          "linked-from-readwise",
           "science",
           "technology"
         ],
@@ -49381,7 +49053,6 @@ window.TOP_ARTICLES = {
         "tags": [
           "behavioral psychology & coaching",
           "economics",
-          "linked-from-readwise",
           "philosophy"
         ],
         "alsoIn": [],
@@ -49408,7 +49079,6 @@ window.TOP_ARTICLES = {
         "bestMoment": "geconcentreerd",
         "tags": [
           "ai ethics & society",
-          "linked-from-readwise",
           "research papers & academia"
         ],
         "alsoIn": [
@@ -49443,7 +49113,6 @@ window.TOP_ARTICLES = {
         "bestMoment": "geconcentreerd",
         "tags": [
           "ai ethics & society",
-          "linked-from-readwise",
           "research papers & academia"
         ],
         "alsoIn": [
@@ -49478,7 +49147,6 @@ window.TOP_ARTICLES = {
         "bestMoment": "analytisch",
         "tags": [
           "ai ethics & society",
-          "linked-from-readwise",
           "research papers & academia"
         ],
         "alsoIn": [
@@ -49512,7 +49180,6 @@ window.TOP_ARTICLES = {
         "whyRead": "Dit is een kernbron voor AI en mechanistische interpretability: het laat concreet zien hoe een transformer tijdens training een in-contextleerstrategie opbouwt, in plaats van alleen correlaties in modelgedrag te beschrijven.",
         "bestMoment": "geconcentreerd",
         "tags": [
-          "linked-from-readwise",
           "research papers & academia",
           "technology"
         ],
@@ -49539,7 +49206,6 @@ window.TOP_ARTICLES = {
         "whyRead": "Dit zeer grondige methodenartikel over mechanistische interpretatie maakt concreet hoe je taalmodellen kunt ontleden in controleerbare computationele stappen. Het is een sterke bron voor Tim's belangstelling voor AI en de maatschappelijke vraag hoe modellen begrijpelijker en beter toetsbaar worden.",
         "bestMoment": "geconcentreerd",
         "tags": [
-          "linked-from-readwise",
           "research papers & academia",
           "technology"
         ],
@@ -49566,11 +49232,9 @@ window.TOP_ARTICLES = {
         "whyRead": null,
         "bestMoment": null,
         "tags": [
-          "linked-from-readwise",
           "physics & engineering",
           "research papers & academia",
-          "science",
-          "triaged"
+          "science"
         ],
         "alsoIn": [
           "pdf-top-100"
@@ -49579,7 +49243,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "pdfs",
             "size": "top-100",
-            "position": 41
+            "position": 40
           }
         ]
       },
@@ -49603,7 +49267,6 @@ window.TOP_ARTICLES = {
         "whyRead": "Deze compacte overzichtstekst brengt mechanistische interpreteerbaarheid voor transformer-taalmodellen bijeen: precies het raakvlak van AI, modelbegrip en AI-ethiek waar je al meerdere bronnen over bewaart. De meerwaarde zit vooral in de aangekondigde kaart van objecten, methoden, evaluatie en open vragen.",
         "bestMoment": "analytisch",
         "tags": [
-          "linked-from-readwise",
           "research papers & academia",
           "technology"
         ],
@@ -49631,7 +49294,6 @@ window.TOP_ARTICLES = {
         "bestMoment": "analytisch",
         "tags": [
           "ai ethics & society",
-          "linked-from-readwise",
           "research papers & academia",
           "technology"
         ],
@@ -49667,7 +49329,6 @@ window.TOP_ARTICLES = {
         "bestMoment": "geconcentreerd",
         "tags": [
           "ai ethics & society",
-          "linked-from-readwise",
           "research papers & academia"
         ],
         "alsoIn": [
@@ -49702,7 +49363,6 @@ window.TOP_ARTICLES = {
         "bestMoment": "analytisch",
         "tags": [
           "ai ethics & society",
-          "linked-from-readwise",
           "research papers & academia"
         ],
         "alsoIn": [
@@ -49737,9 +49397,7 @@ window.TOP_ARTICLES = {
         "bestMoment": "kritisch",
         "tags": [
           "ai ethics & society",
-          "fiction",
-          "light-reading",
-          "linked-from-readwise"
+          "fiction"
         ],
         "alsoIn": [],
         "memberships": []
@@ -49766,7 +49424,6 @@ window.TOP_ARTICLES = {
         "tags": [
           "anarchism",
           "history",
-          "linked-from-readwise",
           "political philosophy",
           "sociology & social structures"
         ],
@@ -49794,7 +49451,6 @@ window.TOP_ARTICLES = {
         "bestMoment": "analytisch",
         "tags": [
           "anarchism",
-          "linked-from-readwise",
           "political philosophy",
           "sociology & social structures",
           "totalitarianism & fascism"
@@ -49822,7 +49478,6 @@ window.TOP_ARTICLES = {
         "whyRead": "Dit is een toegankelijk maar serieus essay over filosofie en politieke filosofie: het onderscheidt contractarianisme scherp van vrijblijvend relativisme en verbindt moraal met samenwerking, instituties en hervorming.",
         "bestMoment": "analytisch",
         "tags": [
-          "linked-from-readwise",
           "metaphysics",
           "nihilism",
           "philosophy",
@@ -49853,9 +49508,7 @@ window.TOP_ARTICLES = {
         "bestMoment": "reflectief",
         "tags": [
           "ai ethics & society",
-          "arts & culture",
-          "light-reading",
-          "linked-from-readwise"
+          "arts & culture"
         ],
         "alsoIn": [],
         "memberships": []
@@ -49880,7 +49533,6 @@ window.TOP_ARTICLES = {
         "whyRead": "Raakt je interesses in zingeving, filosofie en AI-cultuur: een rijk maar kritisch gesprek over waarom digitale substituten voor betekenis, vriendschap en liefde onbevredigend blijven.",
         "bestMoment": "reflectief",
         "tags": [
-          "linked-from-readwise",
           "metaphysics",
           "personal growth & life philosophy",
           "personal-growth-life-philosophy",
@@ -49920,8 +49572,6 @@ window.TOP_ARTICLES = {
         "tags": [
           "ai ethics & society",
           "fiction",
-          "light-reading",
-          "linked-from-readwise",
           "research papers & academia"
         ],
         "alsoIn": [
@@ -49956,9 +49606,7 @@ window.TOP_ARTICLES = {
         "bestMoment": "reflectief",
         "tags": [
           "ai ethics & society",
-          "fiction",
-          "light-reading",
-          "linked-from-readwise"
+          "fiction"
         ],
         "alsoIn": [],
         "memberships": []
@@ -49984,8 +49632,6 @@ window.TOP_ARTICLES = {
         "bestMoment": "reflectief",
         "tags": [
           "arts & culture",
-          "light-reading",
-          "linked-from-readwise",
           "personal growth & life philosophy",
           "sociology & social structures"
         ],
@@ -50013,8 +49659,6 @@ window.TOP_ARTICLES = {
         "bestMoment": "reflectief",
         "tags": [
           "arts & culture",
-          "light-reading",
-          "linked-from-readwise",
           "personal growth & life philosophy",
           "philosophy"
         ],
@@ -50041,7 +49685,6 @@ window.TOP_ARTICLES = {
         "whyRead": "Een scherp, essayistisch stuk over hoe grondwetswijzigingen kunnen functioneren als symbolische politiek in plaats van als werkelijke hervorming. Het verbindt politieke filosofie met instituties, staatscapaciteit en mensenrechten in Mexico.",
         "bestMoment": "kritisch",
         "tags": [
-          "linked-from-readwise",
           "political philosophy",
           "sociology & social structures"
         ],
@@ -50068,7 +49711,6 @@ window.TOP_ARTICLES = {
         "whyRead": "Dit essay verbindt evolutionaire psychologie, besluitvorming en filosofische vragen over het goede leven; het biedt een helder tegengif tegen simplistische gelukrecepten.",
         "bestMoment": "reflectief",
         "tags": [
-          "linked-from-readwise",
           "personal growth & life philosophy",
           "philosophy",
           "science"
@@ -50097,7 +49739,6 @@ window.TOP_ARTICLES = {
         "bestMoment": "kritisch",
         "tags": [
           "environment & sustainability",
-          "linked-from-readwise",
           "sociology & social structures",
           "totalitarianism & fascism"
         ],
@@ -50124,7 +49765,6 @@ window.TOP_ARTICLES = {
         "whyRead": "Een toegankelijk maar diepgaand alternatief voor moreel absolutisme dat moraal als sociaal contract, samenwerking en machtsverhouding verklaart. Het verbindt filosofie, speltheorie en sociologie op een manier die goed aansluit bij politieke filosofie.",
         "bestMoment": "analytisch",
         "tags": [
-          "linked-from-readwise",
           "metaphysics",
           "philosophy",
           "political philosophy",
@@ -50137,7 +49777,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 43
+            "position": 45
           }
         ]
       },
@@ -50161,9 +49801,7 @@ window.TOP_ARTICLES = {
         "whyRead": "Een korte, schaamteloos persoonlijke komische miniatuur over angst, reizen en een onverwacht letterlijk religieuze opluchting. De vertelstem en timing zijn sterk, maar er zit nauwelijks een bredere reflectie achter.",
         "bestMoment": "ontspannen",
         "tags": [
-          "arts & culture",
-          "light-reading",
-          "linked-from-readwise"
+          "arts & culture"
         ],
         "alsoIn": [],
         "memberships": []
@@ -50188,7 +49826,6 @@ window.TOP_ARTICLES = {
         "whyRead": "Dit lange, originele essay brengt Aristoteles, Nozick en evolutionaire psychologie samen tot één denkraam over geluk, betekenis en langetermijnkeuzes; het is een rijke filosofische tegenhanger van zelfhulp.",
         "bestMoment": "geconcentreerd",
         "tags": [
-          "linked-from-readwise",
           "metaphysics",
           "personal growth & life philosophy",
           "philosophy",
@@ -50218,7 +49855,6 @@ window.TOP_ARTICLES = {
         "whyRead": "Een toegankelijke, goed onderbouwde brug tussen Durkheim, Elster, Ostrom en speltheorie. Het artikel maakt sociale normen concreet als coördinatieproblemen en helpt daardoor kijken naar schaamte, macht en maatschappelijke verandering zonder mensen tot willoze pionnen te reduceren.",
         "bestMoment": "analytisch",
         "tags": [
-          "linked-from-readwise",
           "philosophy",
           "sociology & social structures"
         ],
@@ -50246,9 +49882,7 @@ window.TOP_ARTICLES = {
         "bestMoment": "kritisch",
         "tags": [
           "ai ethics & society",
-          "arts & culture",
-          "light-reading",
-          "linked-from-readwise"
+          "arts & culture"
         ],
         "alsoIn": [],
         "memberships": []
@@ -50273,7 +49907,6 @@ window.TOP_ARTICLES = {
         "whyRead": "Dit toegankelijke maar serieuze essay maakt politieke filosofie concreet: via alledaagse verdelingsconflicten verklaart het hoe Rawls, Harsanyi en Binmore anders denken over rechtvaardigheid.",
         "bestMoment": "analytisch",
         "tags": [
-          "linked-from-readwise",
           "metaphysics",
           "philosophy",
           "political philosophy",
@@ -50302,7 +49935,6 @@ window.TOP_ARTICLES = {
         "whyRead": "Peter Singer herziet zijn eigen positie op het snijvlak van evolutie, meta-ethiek en morele vooruitgang. Het artikel biedt een heldere ingang tot de vraag hoe empirische kennis over menselijke moraal zich verhoudt tot normatieve waarheid.",
         "bestMoment": "analytisch",
         "tags": [
-          "linked-from-readwise",
           "metaphysics",
           "philosophy",
           "science"
@@ -50332,8 +49964,6 @@ window.TOP_ARTICLES = {
         "tags": [
           "arts & culture",
           "learning & meta-learning",
-          "light-reading",
-          "linked-from-readwise",
           "personal growth & life philosophy"
         ],
         "alsoIn": [],
@@ -50359,7 +49989,6 @@ window.TOP_ARTICLES = {
         "whyRead": "Een toegankelijke kaart van meta-ethische posities en een uitdagend alternatief: Humeaans constructivisme, waarin moraal sociale samenwerking ordent zonder absolute waarheden te veronderstellen. Zeer relevant voor filosofie, politieke ideologie en sociologie.",
         "bestMoment": "analytisch",
         "tags": [
-          "linked-from-readwise",
           "metaphysics",
           "nihilism",
           "philosophy",
@@ -50390,8 +50019,6 @@ window.TOP_ARTICLES = {
         "tags": [
           "arts & culture",
           "history",
-          "light-reading",
-          "linked-from-readwise",
           "personal growth & life philosophy"
         ],
         "alsoIn": [],
@@ -50418,8 +50045,7 @@ window.TOP_ARTICLES = {
         "bestMoment": "geïnspireerd",
         "tags": [
           "ai ethics & society",
-          "arts & culture",
-          "light-reading"
+          "arts & culture"
         ],
         "alsoIn": [],
         "memberships": []
@@ -50496,9 +50122,7 @@ window.TOP_ARTICLES = {
         "whyRead": "Filosofische zijsprong over Charles Taylor's 'Ethics of Authenticity' en 'medieval correspondences': Gibson laat personage Cayce merken (Patagonia, Supreme, Prada) zien als de nieuwe gedeelde symbolische taal die vroeger door kunst en religie werd vervuld. Ook een zijspoor over de Lonelygirl15-hoax (2006) als parallel met 'de footage' in de roman, en een lezersreactie over de aandachtseconomie en onze behoefte aan patronen/betekenis.\nWaarom skippen: Het grootste deel is plotbespreking (Dorotea, het verbrande jasje, de Zoom-call, 'de footage') van deel III van een lopende boekbespreking over Pattern Recognition — alleen goed te volgen met kennis van het boek of eerdere delen. De filosofische zijsprong over merken-als-taal is kort en ingebed, onvoldoende zelfstandig voor een losse leeservaring.",
         "bestMoment": "ontspannen",
         "tags": [
-          "archiveren",
           "fiction",
-          "light-reading",
           "philosophy"
         ],
         "alsoIn": [],
@@ -50525,9 +50149,7 @@ window.TOP_ARTICLES = {
         "bestMoment": "geïnspireerd",
         "tags": [
           "arts & culture",
-          "later",
-          "learning & meta-learning",
-          "light-reading"
+          "learning & meta-learning"
         ],
         "alsoIn": [],
         "memberships": []
@@ -50563,12 +50185,12 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 94
+            "position": 99
           },
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 52
+            "position": 54
           }
         ]
       },
@@ -50593,8 +50215,6 @@ window.TOP_ARTICLES = {
         "bestMoment": "analytisch",
         "tags": [
           "fiction",
-          "light-reading",
-          "linked-from-readwise",
           "political philosophy",
           "technology"
         ],
@@ -50607,17 +50227,17 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 93
+            "position": 98
           },
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 51
+            "position": 53
           },
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 18
+            "position": 19
           }
         ]
       },
@@ -50642,8 +50262,6 @@ window.TOP_ARTICLES = {
         "bestMoment": "analytisch",
         "tags": [
           "fiction",
-          "light-reading",
-          "linked-from-readwise",
           "political philosophy",
           "technology"
         ],
@@ -50654,7 +50272,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 67
+            "position": 69
           }
         ]
       },
@@ -50679,8 +50297,7 @@ window.TOP_ARTICLES = {
         "bestMoment": "ontspannen",
         "tags": [
           "fiction",
-          "history",
-          "light-reading"
+          "history"
         ],
         "alsoIn": [],
         "memberships": []
@@ -50706,9 +50323,7 @@ window.TOP_ARTICLES = {
         "bestMoment": "ontspannen",
         "tags": [
           "arts & culture",
-          "fiction",
-          "later",
-          "light-reading"
+          "fiction"
         ],
         "alsoIn": [],
         "memberships": []
@@ -50734,7 +50349,6 @@ window.TOP_ARTICLES = {
         "bestMoment": "ontspannen",
         "tags": [
           "arts & culture",
-          "light-reading",
           "personal growth & life philosophy"
         ],
         "alsoIn": [],
@@ -50761,12 +50375,10 @@ window.TOP_ARTICLES = {
         "bestMoment": "geconcentreerd",
         "tags": [
           "arts & culture",
-          "boek-top-10",
           "existentialism",
           "nihilism",
           "philosophy",
-          "totalitarianism & fascism",
-          "translated"
+          "totalitarianism & fascism"
         ],
         "alsoIn": [
           "boek-top-10",
@@ -50776,12 +50388,12 @@ window.TOP_ARTICLES = {
           {
             "familyId": "boeken",
             "size": "top-10",
-            "position": 1
+            "position": 2
           },
           {
             "familyId": "boeken",
             "size": "top-100",
-            "position": 1
+            "position": 2
           }
         ]
       },
@@ -50806,7 +50418,6 @@ window.TOP_ARTICLES = {
         "bestMoment": "kritisch",
         "tags": [
           "environment & sustainability",
-          "linked-from-readwise",
           "sociology & social structures"
         ],
         "alsoIn": [],
@@ -50833,7 +50444,6 @@ window.TOP_ARTICLES = {
         "bestMoment": "geconcentreerd",
         "tags": [
           "economics",
-          "linked-from-readwise",
           "political philosophy",
           "sociology & social structures",
           "totalitarianism & fascism"
@@ -50862,7 +50472,6 @@ window.TOP_ARTICLES = {
         "bestMoment": "reflectief",
         "tags": [
           "arts & culture",
-          "light-reading",
           "personal growth & life philosophy"
         ],
         "alsoIn": [],
@@ -50899,12 +50508,12 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 92
+            "position": 97
           },
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 50
+            "position": 52
           }
         ]
       },
@@ -50956,7 +50565,6 @@ window.TOP_ARTICLES = {
         "bestMoment": "reflectief",
         "tags": [
           "arts & culture",
-          "light-reading",
           "philosophy",
           "science"
         ],
@@ -50967,7 +50575,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 66
+            "position": 68
           }
         ]
       },
@@ -50993,8 +50601,7 @@ window.TOP_ARTICLES = {
         "tags": [
           "arts & culture",
           "fiction",
-          "learning & meta-learning",
-          "light-reading"
+          "learning & meta-learning"
         ],
         "alsoIn": [],
         "memberships": []
@@ -51020,7 +50627,6 @@ window.TOP_ARTICLES = {
         "bestMoment": "reflectief",
         "tags": [
           "arts & culture",
-          "light-reading",
           "personal growth & life philosophy"
         ],
         "alsoIn": [],
@@ -51058,7 +50664,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "boeken",
             "size": "top-100",
-            "position": 26
+            "position": 27
           }
         ]
       },
@@ -51084,8 +50690,7 @@ window.TOP_ARTICLES = {
         "tags": [
           "arts & culture",
           "history",
-          "learning & meta-learning",
-          "light-reading"
+          "learning & meta-learning"
         ],
         "alsoIn": [],
         "memberships": []
@@ -51121,7 +50726,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "boeken",
             "size": "top-100",
-            "position": 25
+            "position": 26
           }
         ]
       },
@@ -51160,7 +50765,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "boeken",
             "size": "top-100",
-            "position": 24
+            "position": 25
           }
         ]
       },
@@ -51199,7 +50804,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "boeken",
             "size": "top-100",
-            "position": 23
+            "position": 24
           }
         ]
       },
@@ -51223,7 +50828,6 @@ window.TOP_ARTICLES = {
         "whyRead": "Raakt je interesse in duurzaam kenniswerk, creativiteit en persoonlijke groei. Pang maakt rust niet tot beloning ná productiviteit, maar tot voorwaarde voor goed en origineel werk.",
         "bestMoment": "leergierig",
         "tags": [
-          "boek-top-10",
           "existentialism",
           "health & wellness",
           "learning & meta-learning",
@@ -51382,12 +50986,12 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 91
+            "position": 96
           },
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 49
+            "position": 51
           }
         ]
       },
@@ -51465,14 +51069,13 @@ window.TOP_ARTICLES = {
         "bestMoment": "ontspannen",
         "tags": [
           "arts & culture",
-          "later",
-          "light-reading",
           "sociology & social structures"
         ],
         "alsoIn": [
           "aaa-dutch-top-100",
           "aaa-short-dutch-top-10",
           "aaa-short-dutch-top-100",
+          "aaa-luchtig-top-100",
           "aaa-luchtig-nederlands-top-10",
           "aaa-luchtig-nederlands-top-100"
         ],
@@ -51491,6 +51094,11 @@ window.TOP_ARTICLES = {
             "familyId": "kort-nederlands",
             "size": "top-100",
             "position": 9
+          },
+          {
+            "familyId": "luchtig",
+            "size": "top-100",
+            "position": 67
           },
           {
             "familyId": "luchtig-nederlands",
@@ -51525,9 +51133,7 @@ window.TOP_ARTICLES = {
         "bestMoment": "ontspannen",
         "tags": [
           "arts & culture",
-          "history",
-          "later",
-          "light-reading"
+          "history"
         ],
         "alsoIn": [],
         "memberships": []
@@ -51581,8 +51187,6 @@ window.TOP_ARTICLES = {
         "tags": [
           "arts & culture",
           "current affairs & politics",
-          "later",
-          "light-reading",
           "political philosophy",
           "totalitarianism & fascism"
         ],
@@ -51689,8 +51293,6 @@ window.TOP_ARTICLES = {
         "bestMoment": "geïnspireerd",
         "tags": [
           "games",
-          "light-reading",
-          "linked-from-readwise",
           "technology"
         ],
         "alsoIn": [],
@@ -51717,7 +51319,6 @@ window.TOP_ARTICLES = {
         "bestMoment": "ontspannen",
         "tags": [
           "entertainment & pop culture",
-          "light-reading",
           "science",
           "technology"
         ],
@@ -51745,7 +51346,6 @@ window.TOP_ARTICLES = {
         "bestMoment": "reflectief",
         "tags": [
           "fiction",
-          "light-reading",
           "philosophy"
         ],
         "alsoIn": [],
@@ -51799,7 +51399,6 @@ window.TOP_ARTICLES = {
         "bestMoment": "ontspannen",
         "tags": [
           "arts & culture",
-          "light-reading",
           "personal growth & life philosophy",
           "sociology & social structures"
         ],
@@ -51807,6 +51406,7 @@ window.TOP_ARTICLES = {
           "aaa-dutch-top-100",
           "aaa-short-dutch-top-10",
           "aaa-short-dutch-top-100",
+          "aaa-luchtig-top-100",
           "aaa-luchtig-nederlands-top-10",
           "aaa-luchtig-nederlands-top-100"
         ],
@@ -51825,6 +51425,11 @@ window.TOP_ARTICLES = {
             "familyId": "kort-nederlands",
             "size": "top-100",
             "position": 8
+          },
+          {
+            "familyId": "luchtig",
+            "size": "top-100",
+            "position": 66
           },
           {
             "familyId": "luchtig-nederlands",
@@ -51887,7 +51492,6 @@ window.TOP_ARTICLES = {
         "tags": [
           "ai ethics & society",
           "arts & culture",
-          "light-reading",
           "technology"
         ],
         "alsoIn": [],
@@ -51961,7 +51565,6 @@ window.TOP_ARTICLES = {
         "bestMoment": "ontspannen",
         "tags": [
           "arts & culture",
-          "light-reading",
           "personal growth & life philosophy"
         ],
         "alsoIn": [
@@ -52019,7 +51622,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 42
+            "position": 44
           }
         ]
       },
@@ -52045,7 +51648,6 @@ window.TOP_ARTICLES = {
         "tags": [
           "arts & culture",
           "history",
-          "light-reading",
           "personal growth & life philosophy"
         ],
         "alsoIn": [
@@ -52205,7 +51807,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 27
+            "position": 29
           }
         ]
       },
@@ -52239,7 +51841,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 26
+            "position": 28
           }
         ]
       },
@@ -52273,7 +51875,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 25
+            "position": 27
           }
         ]
       },
@@ -52333,7 +51935,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 24
+            "position": 26
           }
         ]
       },
@@ -52419,7 +52021,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 23
+            "position": 25
           }
         ]
       },
@@ -52453,7 +52055,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 22
+            "position": 24
           }
         ]
       },
@@ -52513,7 +52115,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 21
+            "position": 23
           }
         ]
       },
@@ -52625,7 +52227,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 20
+            "position": 22
           }
         ]
       },
@@ -52679,7 +52281,6 @@ window.TOP_ARTICLES = {
         "tags": [
           "arts & culture",
           "fiction",
-          "light-reading",
           "personal growth & life philosophy"
         ],
         "alsoIn": [],
@@ -52707,7 +52308,6 @@ window.TOP_ARTICLES = {
         "tags": [
           "arts & culture",
           "learning & meta-learning",
-          "light-reading",
           "professional development"
         ],
         "alsoIn": [
@@ -52718,12 +52318,12 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 90
+            "position": 95
           },
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 17
+            "position": 18
           }
         ]
       },
@@ -52747,7 +52347,6 @@ window.TOP_ARTICLES = {
         "whyRead": null,
         "bestMoment": null,
         "tags": [
-          "later",
           "professional development",
           "scrum"
         ],
@@ -52774,7 +52373,6 @@ window.TOP_ARTICLES = {
         "whyRead": null,
         "bestMoment": null,
         "tags": [
-          "later",
           "professional development",
           "scrum"
         ],
@@ -52801,7 +52399,6 @@ window.TOP_ARTICLES = {
         "whyRead": null,
         "bestMoment": null,
         "tags": [
-          "later",
           "professional development",
           "scrum"
         ],
@@ -52812,7 +52409,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 19
+            "position": 21
           }
         ]
       },
@@ -52836,7 +52433,6 @@ window.TOP_ARTICLES = {
         "whyRead": null,
         "bestMoment": null,
         "tags": [
-          "later",
           "professional development",
           "scrum"
         ],
@@ -52863,7 +52459,6 @@ window.TOP_ARTICLES = {
         "whyRead": null,
         "bestMoment": null,
         "tags": [
-          "later",
           "professional development",
           "scrum"
         ],
@@ -52874,7 +52469,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 84
+            "position": 88
           }
         ]
       },
@@ -52898,7 +52493,6 @@ window.TOP_ARTICLES = {
         "whyRead": null,
         "bestMoment": null,
         "tags": [
-          "later",
           "professional development",
           "scrum"
         ],
@@ -52909,7 +52503,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 18
+            "position": 20
           }
         ]
       },
@@ -52933,7 +52527,6 @@ window.TOP_ARTICLES = {
         "whyRead": null,
         "bestMoment": null,
         "tags": [
-          "later",
           "professional development",
           "scrum"
         ],
@@ -52944,7 +52537,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 17
+            "position": 19
           }
         ]
       },
@@ -52968,7 +52561,6 @@ window.TOP_ARTICLES = {
         "whyRead": null,
         "bestMoment": null,
         "tags": [
-          "later",
           "professional development",
           "scrum"
         ],
@@ -52979,7 +52571,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 16
+            "position": 18
           }
         ]
       },
@@ -53003,7 +52595,6 @@ window.TOP_ARTICLES = {
         "whyRead": null,
         "bestMoment": null,
         "tags": [
-          "later",
           "professional development",
           "scrum"
         ],
@@ -53014,7 +52605,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 15
+            "position": 17
           }
         ]
       },
@@ -53038,7 +52629,6 @@ window.TOP_ARTICLES = {
         "whyRead": null,
         "bestMoment": null,
         "tags": [
-          "later",
           "professional development",
           "scrum"
         ],
@@ -53065,7 +52655,6 @@ window.TOP_ARTICLES = {
         "whyRead": null,
         "bestMoment": null,
         "tags": [
-          "later",
           "professional development",
           "scrum"
         ],
@@ -53076,7 +52665,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 14
+            "position": 16
           }
         ]
       },
@@ -53100,7 +52689,6 @@ window.TOP_ARTICLES = {
         "whyRead": null,
         "bestMoment": null,
         "tags": [
-          "later",
           "professional development",
           "scrum"
         ],
@@ -53127,7 +52715,6 @@ window.TOP_ARTICLES = {
         "whyRead": null,
         "bestMoment": null,
         "tags": [
-          "later",
           "professional development",
           "scrum"
         ],
@@ -53138,7 +52725,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 83
+            "position": 87
           }
         ]
       },
@@ -53162,7 +52749,6 @@ window.TOP_ARTICLES = {
         "whyRead": null,
         "bestMoment": null,
         "tags": [
-          "later",
           "professional development",
           "scrum"
         ],
@@ -53173,7 +52759,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 82
+            "position": 86
           }
         ]
       },
@@ -53197,7 +52783,6 @@ window.TOP_ARTICLES = {
         "whyRead": null,
         "bestMoment": null,
         "tags": [
-          "later",
           "professional development",
           "scrum"
         ],
@@ -53224,7 +52809,6 @@ window.TOP_ARTICLES = {
         "whyRead": null,
         "bestMoment": null,
         "tags": [
-          "later",
           "professional development",
           "scrum"
         ],
@@ -53251,7 +52835,6 @@ window.TOP_ARTICLES = {
         "whyRead": null,
         "bestMoment": null,
         "tags": [
-          "later",
           "professional development",
           "scrum"
         ],
@@ -53278,7 +52861,6 @@ window.TOP_ARTICLES = {
         "whyRead": null,
         "bestMoment": null,
         "tags": [
-          "later",
           "professional development",
           "scrum"
         ],
@@ -53305,20 +52887,11 @@ window.TOP_ARTICLES = {
         "whyRead": null,
         "bestMoment": null,
         "tags": [
-          "later",
           "professional development",
           "scrum"
         ],
-        "alsoIn": [
-          "aaa-scrum-top-100"
-        ],
-        "memberships": [
-          {
-            "familyId": "scrum",
-            "size": "top-100",
-            "position": 100
-          }
-        ]
+        "alsoIn": [],
+        "memberships": []
       },
       {
         "position": null,
@@ -53340,7 +52913,6 @@ window.TOP_ARTICLES = {
         "whyRead": null,
         "bestMoment": null,
         "tags": [
-          "later",
           "professional development",
           "scrum"
         ],
@@ -53351,7 +52923,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 81
+            "position": 85
           }
         ]
       },
@@ -53375,7 +52947,6 @@ window.TOP_ARTICLES = {
         "whyRead": null,
         "bestMoment": null,
         "tags": [
-          "later",
           "professional development",
           "scrum"
         ],
@@ -53386,7 +52957,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 13
+            "position": 15
           }
         ]
       },
@@ -53420,7 +52991,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 80
+            "position": 84
           }
         ]
       },
@@ -53454,7 +53025,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 38
+            "position": 40
           }
         ]
       },
@@ -53514,7 +53085,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 37
+            "position": 39
           }
         ]
       },
@@ -53548,7 +53119,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 36
+            "position": 38
           }
         ]
       },
@@ -53573,8 +53144,7 @@ window.TOP_ARTICLES = {
         "bestMoment": "reflectief",
         "tags": [
           "ai ethics & society",
-          "fiction",
-          "light-reading"
+          "fiction"
         ],
         "alsoIn": [],
         "memberships": []
@@ -53636,8 +53206,6 @@ window.TOP_ARTICLES = {
         "bestMoment": null,
         "tags": [
           "arts & culture",
-          "later",
-          "light-reading",
           "personal growth & life philosophy"
         ],
         "alsoIn": [],
@@ -53665,8 +53233,6 @@ window.TOP_ARTICLES = {
         "tags": [
           "arts & culture",
           "fiction",
-          "later",
-          "light-reading",
           "philosophy"
         ],
         "alsoIn": [],
@@ -53694,7 +53260,6 @@ window.TOP_ARTICLES = {
         "tags": [
           "arts & culture",
           "learning & meta-learning",
-          "light-reading",
           "professional development"
         ],
         "alsoIn": [
@@ -53730,19 +53295,10 @@ window.TOP_ARTICLES = {
         "tags": [
           "arts & culture",
           "fiction",
-          "games",
-          "light-reading"
+          "games"
         ],
-        "alsoIn": [
-          "aaa-luchtig-top-100"
-        ],
-        "memberships": [
-          {
-            "familyId": "luchtig",
-            "size": "top-100",
-            "position": 100
-          }
-        ]
+        "alsoIn": [],
+        "memberships": []
       },
       {
         "position": null,
@@ -53766,19 +53322,10 @@ window.TOP_ARTICLES = {
         "tags": [
           "arts & culture",
           "learning & meta-learning",
-          "light-reading",
           "philosophy"
         ],
-        "alsoIn": [
-          "aaa-luchtig-top-100"
-        ],
-        "memberships": [
-          {
-            "familyId": "luchtig",
-            "size": "top-100",
-            "position": 99
-          }
-        ]
+        "alsoIn": [],
+        "memberships": []
       },
       {
         "position": null,
@@ -53883,7 +53430,6 @@ window.TOP_ARTICLES = {
         "bestMoment": "ontspannen",
         "tags": [
           "learning & meta-learning",
-          "light-reading",
           "personal growth & life philosophy"
         ],
         "alsoIn": [],
@@ -53937,20 +53483,11 @@ window.TOP_ARTICLES = {
         "bestMoment": "reflectief",
         "tags": [
           "arts & culture",
-          "light-reading",
           "personal growth & life philosophy",
           "sociology & social structures"
         ],
-        "alsoIn": [
-          "aaa-luchtig-top-100"
-        ],
-        "memberships": [
-          {
-            "familyId": "luchtig",
-            "size": "top-100",
-            "position": 98
-          }
-        ]
+        "alsoIn": [],
+        "memberships": []
       },
       {
         "position": null,
@@ -53974,8 +53511,7 @@ window.TOP_ARTICLES = {
         "tags": [
           "arts & culture",
           "business & startups",
-          "history",
-          "light-reading"
+          "history"
         ],
         "alsoIn": [],
         "memberships": []
@@ -54002,7 +53538,6 @@ window.TOP_ARTICLES = {
         "tags": [
           "arts & culture",
           "learning & meta-learning",
-          "light-reading",
           "professional development"
         ],
         "alsoIn": [
@@ -54013,12 +53548,12 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 89
+            "position": 94
           },
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 16
+            "position": 17
           }
         ]
       },
@@ -54054,12 +53589,12 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 88
+            "position": 93
           },
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 48
+            "position": 50
           }
         ]
       },
@@ -54085,8 +53620,6 @@ window.TOP_ARTICLES = {
         "tags": [
           "ai ethics & society",
           "arts & culture",
-          "later",
-          "light-reading",
           "science"
         ],
         "alsoIn": [],
@@ -54113,8 +53646,6 @@ window.TOP_ARTICLES = {
         "bestMoment": "reflectief",
         "tags": [
           "arts & culture",
-          "later",
-          "light-reading",
           "personal growth & life philosophy"
         ],
         "alsoIn": [],
@@ -54198,7 +53729,6 @@ window.TOP_ARTICLES = {
         "tags": [
           "arts & culture",
           "learning & meta-learning",
-          "light-reading",
           "professional development"
         ],
         "alsoIn": [],
@@ -54253,7 +53783,6 @@ window.TOP_ARTICLES = {
         "tags": [
           "arts & culture",
           "learning & meta-learning",
-          "light-reading",
           "personal growth & life philosophy"
         ],
         "alsoIn": [],
@@ -54281,8 +53810,7 @@ window.TOP_ARTICLES = {
         "tags": [
           "arts & culture",
           "fiction",
-          "history",
-          "light-reading"
+          "history"
         ],
         "alsoIn": [],
         "memberships": []
@@ -54309,7 +53837,6 @@ window.TOP_ARTICLES = {
         "tags": [
           "arts & culture",
           "learning & meta-learning",
-          "light-reading",
           "personal growth & life philosophy"
         ],
         "alsoIn": [],
@@ -54337,7 +53864,6 @@ window.TOP_ARTICLES = {
         "tags": [
           "fiction",
           "history",
-          "light-reading",
           "political philosophy"
         ],
         "alsoIn": [
@@ -54349,17 +53875,17 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 87
+            "position": 92
           },
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 47
+            "position": 49
           },
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 15
+            "position": 16
           }
         ]
       },
@@ -54422,7 +53948,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 41
+            "position": 43
           }
         ]
       },
@@ -54448,7 +53974,6 @@ window.TOP_ARTICLES = {
         "tags": [
           "arts & culture",
           "learning & meta-learning",
-          "light-reading",
           "research papers & academia"
         ],
         "alsoIn": [
@@ -54460,17 +53985,17 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 86
+            "position": 91
           },
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 46
+            "position": 48
           },
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 14
+            "position": 15
           }
         ]
       },
@@ -54550,7 +54075,6 @@ window.TOP_ARTICLES = {
         "tags": [
           "arts & culture",
           "entertainment & pop culture",
-          "light-reading",
           "technology"
         ],
         "alsoIn": [
@@ -54597,7 +54121,6 @@ window.TOP_ARTICLES = {
         "bestMoment": "reflectief",
         "tags": [
           "behavioral psychology & coaching",
-          "linked-from-readwise",
           "personal growth & life philosophy"
         ],
         "alsoIn": [],
@@ -54624,9 +54147,7 @@ window.TOP_ARTICLES = {
         "bestMoment": "analytisch",
         "tags": [
           "arts & culture",
-          "learning & meta-learning",
-          "light-reading",
-          "linked-from-readwise"
+          "learning & meta-learning"
         ],
         "alsoIn": [],
         "memberships": []
@@ -54708,8 +54229,6 @@ window.TOP_ARTICLES = {
         "tags": [
           "arts & culture",
           "history",
-          "later",
-          "light-reading",
           "sociology & social structures"
         ],
         "alsoIn": [
@@ -54719,6 +54238,7 @@ window.TOP_ARTICLES = {
           "aaa-short-top-100",
           "aaa-short-dutch-top-10",
           "aaa-short-dutch-top-100",
+          "aaa-luchtig-top-10",
           "aaa-luchtig-top-100",
           "aaa-luchtig-nederlands-top-10",
           "aaa-luchtig-nederlands-top-100"
@@ -54727,7 +54247,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 85
+            "position": 42
           },
           {
             "familyId": "nederlands",
@@ -54742,7 +54262,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 45
+            "position": 23
           },
           {
             "familyId": "kort-nederlands",
@@ -54756,8 +54276,13 @@ window.TOP_ARTICLES = {
           },
           {
             "familyId": "luchtig",
+            "size": "top-10",
+            "position": 7
+          },
+          {
+            "familyId": "luchtig",
             "size": "top-100",
-            "position": 13
+            "position": 7
           },
           {
             "familyId": "luchtig-nederlands",
@@ -54819,7 +54344,6 @@ window.TOP_ARTICLES = {
         "bestMoment": "analytisch",
         "tags": [
           "arts & culture",
-          "light-reading",
           "philosophy",
           "political philosophy"
         ],
@@ -54832,17 +54356,17 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 84
+            "position": 90
           },
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 44
+            "position": 47
           },
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 12
+            "position": 14
           }
         ]
       },
@@ -54867,19 +54391,10 @@ window.TOP_ARTICLES = {
         "bestMoment": "ontspannen",
         "tags": [
           "arts & culture",
-          "history",
-          "light-reading"
+          "history"
         ],
-        "alsoIn": [
-          "aaa-luchtig-top-100"
-        ],
-        "memberships": [
-          {
-            "familyId": "luchtig",
-            "size": "top-100",
-            "position": 97
-          }
-        ]
+        "alsoIn": [],
+        "memberships": []
       },
       {
         "position": null,
@@ -54956,7 +54471,6 @@ window.TOP_ARTICLES = {
         "tags": [
           "arts & culture",
           "entertainment & pop culture",
-          "light-reading",
           "science"
         ],
         "alsoIn": [],
@@ -54984,7 +54498,6 @@ window.TOP_ARTICLES = {
         "tags": [
           "arts & culture",
           "learning & meta-learning",
-          "light-reading",
           "professional development"
         ],
         "alsoIn": [],
@@ -55037,7 +54550,6 @@ window.TOP_ARTICLES = {
         "tags": [
           "arts & culture",
           "fiction",
-          "light-reading",
           "personal growth & life philosophy"
         ],
         "alsoIn": [],
@@ -55064,7 +54576,6 @@ window.TOP_ARTICLES = {
         "bestMoment": "ontspannen",
         "tags": [
           "arts & culture",
-          "light-reading",
           "sociology & social structures",
           "sports & recreation"
         ],
@@ -55152,9 +54663,7 @@ window.TOP_ARTICLES = {
         "bestMoment": "analytisch",
         "tags": [
           "arts & culture",
-          "later",
           "learning & meta-learning",
-          "light-reading",
           "science"
         ],
         "alsoIn": [],
@@ -55180,21 +54689,12 @@ window.TOP_ARTICLES = {
         "whyRead": "Raakt professional development en Scrum-begrip: dit korte stuk verduidelijkt het verschil tussen managen vanuit formele autoriteit en leiden via visie, vertrouwen en expertise.",
         "bestMoment": "leergierig",
         "tags": [
-          "later",
           "professional development",
           "psm-ii",
           "scrum"
         ],
-        "alsoIn": [
-          "aaa-scrum-top-100"
-        ],
-        "memberships": [
-          {
-            "familyId": "scrum",
-            "size": "top-100",
-            "position": 99
-          }
-        ]
+        "alsoIn": [],
+        "memberships": []
       },
       {
         "position": null,
@@ -55216,21 +54716,12 @@ window.TOP_ARTICLES = {
         "whyRead": "Raakt professional development en Scrum-theorie: dit artikel ontmythologiseert self-management en maakt duidelijk dat autonomie niet hetzelfde is als chaos, managerloosheid of verwaarlozing.",
         "bestMoment": "leergierig",
         "tags": [
-          "later",
           "professional development",
           "psm-ii",
           "scrum"
         ],
-        "alsoIn": [
-          "aaa-scrum-top-100"
-        ],
-        "memberships": [
-          {
-            "familyId": "scrum",
-            "size": "top-100",
-            "position": 98
-          }
-        ]
+        "alsoIn": [],
+        "memberships": []
       },
       {
         "position": null,
@@ -55253,7 +54744,6 @@ window.TOP_ARTICLES = {
         "bestMoment": "leergierig",
         "tags": [
           "business & startups",
-          "later",
           "professional development",
           "psm-ii",
           "scrum"
@@ -55265,7 +54755,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 12
+            "position": 14
           }
         ]
       },
@@ -55290,7 +54780,6 @@ window.TOP_ARTICLES = {
         "bestMoment": "leergierig",
         "tags": [
           "business & startups",
-          "later",
           "professional development",
           "psm-ii",
           "scrum"
@@ -55302,7 +54791,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 11
+            "position": 13
           }
         ]
       },
@@ -55412,9 +54901,7 @@ window.TOP_ARTICLES = {
         "tags": [
           "arts & culture",
           "fiction",
-          "history",
-          "later",
-          "light-reading"
+          "history"
         ],
         "alsoIn": [
           "aaa-luchtig-top-100"
@@ -55423,7 +54910,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 96
+            "position": 100
           }
         ]
       },
@@ -55448,9 +54935,7 @@ window.TOP_ARTICLES = {
         "bestMoment": "reflectief",
         "tags": [
           "arts & culture",
-          "later",
           "learning & meta-learning",
-          "light-reading",
           "personal growth & life philosophy"
         ],
         "alsoIn": [],
@@ -55477,8 +54962,6 @@ window.TOP_ARTICLES = {
         "bestMoment": "kritisch",
         "tags": [
           "entertainment & pop culture",
-          "light-reading",
-          "linked-from-readwise",
           "technology"
         ],
         "alsoIn": [],
@@ -55530,9 +55013,7 @@ window.TOP_ARTICLES = {
         "whyRead": "Raakt je interesse in technologie en media alleen als lichte roundup; er staan een paar aardige signalen in, maar te weinig diepte om actief te bewaren.",
         "bestMoment": "ontspannen",
         "tags": [
-          "archiveren",
           "entertainment & pop culture",
-          "light-reading",
           "technology"
         ],
         "alsoIn": [
@@ -55584,7 +55065,6 @@ window.TOP_ARTICLES = {
         "whyRead": "Raakt je interesse in technologie, ouderschap en bewuste omgang met digitale systemen: een praktische maar reflectieve tegenzet tegen engagement-feeds en surveillance-tech in het gezinsleven.",
         "bestMoment": "reflectief",
         "tags": [
-          "later",
           "parenting",
           "personal growth & life philosophy",
           "technology"
@@ -55614,11 +55094,10 @@ window.TOP_ARTICLES = {
         "tags": [
           "arts & culture",
           "history",
-          "later",
-          "light-reading",
           "philosophy"
         ],
         "alsoIn": [
+          "aaa-top-100",
           "aaa-dutch-top-10",
           "aaa-dutch-top-100",
           "aaa-luchtig-top-100",
@@ -55626,6 +55105,11 @@ window.TOP_ARTICLES = {
           "aaa-luchtig-nederlands-top-100"
         ],
         "memberships": [
+          {
+            "familyId": "algemeen",
+            "size": "top-100",
+            "position": 89
+          },
           {
             "familyId": "nederlands",
             "size": "top-10",
@@ -55639,7 +55123,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 44
+            "position": 13
           },
           {
             "familyId": "luchtig-nederlands",
@@ -55741,7 +55225,6 @@ window.TOP_ARTICLES = {
         "bestMoment": "ontspannen",
         "tags": [
           "arts & culture",
-          "light-reading",
           "personal growth & life philosophy"
         ],
         "alsoIn": [
@@ -55800,12 +55283,12 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 83
+            "position": 88
           },
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 43
+            "position": 46
           }
         ]
       },
@@ -55831,7 +55314,6 @@ window.TOP_ARTICLES = {
         "tags": [
           "arts & culture",
           "fiction",
-          "light-reading",
           "professional development"
         ],
         "alsoIn": [],
@@ -55859,8 +55341,7 @@ window.TOP_ARTICLES = {
         "tags": [
           "ai ethics & society",
           "arts & culture",
-          "fiction",
-          "light-reading"
+          "fiction"
         ],
         "alsoIn": [],
         "memberships": []
@@ -55952,7 +55433,6 @@ window.TOP_ARTICLES = {
         "bestMoment": "reflectief",
         "tags": [
           "arts & culture",
-          "light-reading",
           "personal growth & life philosophy",
           "philosophy"
         ],
@@ -56007,7 +55487,6 @@ window.TOP_ARTICLES = {
         "bestMoment": "ontspannen",
         "tags": [
           "games",
-          "light-reading",
           "science",
           "technology"
         ],
@@ -56036,7 +55515,6 @@ window.TOP_ARTICLES = {
         "tags": [
           "arts & culture",
           "fiction",
-          "light-reading",
           "philosophy"
         ],
         "alsoIn": [],
@@ -56064,8 +55542,7 @@ window.TOP_ARTICLES = {
         "tags": [
           "ai ethics & society",
           "business & startups",
-          "technology",
-          "video-top-10"
+          "technology"
         ],
         "alsoIn": [
           "video-top-10",
@@ -56106,7 +55583,6 @@ window.TOP_ARTICLES = {
         "tags": [
           "arts & culture",
           "learning & meta-learning",
-          "light-reading",
           "personal growth & life philosophy"
         ],
         "alsoIn": [],
@@ -56202,8 +55678,7 @@ window.TOP_ARTICLES = {
         "bestMoment": "kritisch",
         "tags": [
           "ai ethics & society",
-          "arts & culture",
-          "light-reading"
+          "arts & culture"
         ],
         "alsoIn": [
           "aaa-luchtig-top-100"
@@ -56212,7 +55687,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 43
+            "position": 44
           }
         ]
       },
@@ -56318,7 +55793,6 @@ window.TOP_ARTICLES = {
         "tags": [
           "arts & culture",
           "learning & meta-learning",
-          "light-reading",
           "professional development"
         ],
         "alsoIn": [],
@@ -56372,7 +55846,6 @@ window.TOP_ARTICLES = {
         "tags": [
           "arts & culture",
           "history",
-          "light-reading",
           "personal growth & life philosophy"
         ],
         "alsoIn": [],
@@ -56427,7 +55900,6 @@ window.TOP_ARTICLES = {
         "tags": [
           "ai ethics & society",
           "arts & culture",
-          "light-reading",
           "personal growth & life philosophy"
         ],
         "alsoIn": [],
@@ -56455,7 +55927,6 @@ window.TOP_ARTICLES = {
         "tags": [
           "arts & culture",
           "health & wellness",
-          "light-reading",
           "personal growth & life philosophy"
         ],
         "alsoIn": [
@@ -56526,7 +55997,6 @@ window.TOP_ARTICLES = {
         "tags": [
           "arts & culture",
           "fiction",
-          "light-reading",
           "philosophy"
         ],
         "alsoIn": [
@@ -56536,7 +56006,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 95
+            "position": 99
           }
         ]
       },
@@ -56589,8 +56059,7 @@ window.TOP_ARTICLES = {
         "tags": [
           "arts & culture",
           "entertainment & pop culture",
-          "history",
-          "light-reading"
+          "history"
         ],
         "alsoIn": [
           "aaa-luchtig-top-100"
@@ -56680,7 +56149,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "boeken",
             "size": "top-100",
-            "position": 78
+            "position": 77
           }
         ]
       },
@@ -56755,10 +56224,16 @@ window.TOP_ARTICLES = {
           "sociology & social structures"
         ],
         "alsoIn": [
+          "aaa-top-100",
           "aaa-dutch-top-10",
           "aaa-dutch-top-100"
         ],
         "memberships": [
+          {
+            "familyId": "algemeen",
+            "size": "top-100",
+            "position": 87
+          },
           {
             "familyId": "nederlands",
             "size": "top-10",
@@ -56793,8 +56268,7 @@ window.TOP_ARTICLES = {
         "tags": [
           "arts & culture",
           "fiction",
-          "history",
-          "light-reading"
+          "history"
         ],
         "alsoIn": [
           "aaa-luchtig-top-100"
@@ -56803,7 +56277,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 94
+            "position": 98
           }
         ]
       },
@@ -56829,8 +56303,7 @@ window.TOP_ARTICLES = {
         "tags": [
           "arts & culture",
           "fiction",
-          "learning & meta-learning",
-          "light-reading"
+          "learning & meta-learning"
         ],
         "alsoIn": [],
         "memberships": []
@@ -56857,7 +56330,6 @@ window.TOP_ARTICLES = {
         "tags": [
           "arts & culture",
           "fiction",
-          "light-reading",
           "sociology & social structures"
         ],
         "alsoIn": [
@@ -56867,7 +56339,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 93
+            "position": 97
           }
         ]
       },
@@ -56957,7 +56429,6 @@ window.TOP_ARTICLES = {
         "bestMoment": "licht / weekend",
         "tags": [
           "arts & culture",
-          "light-reading",
           "sociology & social structures"
         ],
         "alsoIn": [
@@ -57010,7 +56481,6 @@ window.TOP_ARTICLES = {
         "bestMoment": "reflectief",
         "tags": [
           "arts & culture",
-          "light-reading",
           "personal growth & life philosophy",
           "philosophy"
         ],
@@ -57039,7 +56509,6 @@ window.TOP_ARTICLES = {
         "tags": [
           "adhd & neurodivergence",
           "behavioral psychology & coaching",
-          "linked-from-readwise",
           "personal growth & life philosophy"
         ],
         "alsoIn": [],
@@ -57067,7 +56536,6 @@ window.TOP_ARTICLES = {
         "tags": [
           "arts & culture",
           "learning & meta-learning",
-          "light-reading",
           "personal growth & life philosophy"
         ],
         "alsoIn": [],
@@ -57122,7 +56590,6 @@ window.TOP_ARTICLES = {
         "tags": [
           "arts & culture",
           "fiction",
-          "light-reading",
           "philosophy"
         ],
         "alsoIn": [
@@ -57132,7 +56599,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 92
+            "position": 96
           }
         ]
       },
@@ -57157,7 +56624,6 @@ window.TOP_ARTICLES = {
         "bestMoment": "reflectief",
         "tags": [
           "arts & culture",
-          "light-reading",
           "personal growth & life philosophy",
           "philosophy"
         ],
@@ -57404,7 +56870,6 @@ window.TOP_ARTICLES = {
         "bestMoment": null,
         "tags": [
           "arts & culture",
-          "light-reading",
           "personal growth & life philosophy",
           "technology"
         ],
@@ -57457,7 +56922,6 @@ window.TOP_ARTICLES = {
         "whyRead": "Raakt je interesse in essay schrijven, PKM en professionele ontwikkeling: het geeft een scherp model voor schrijven als publieke denkpraktijk in een AI-verzadigde omgeving. Vooral bruikbaar om eigen publicatie niet als marketing maar als bron van oordeel, relaties en een herkenbare stem te zien.",
         "bestMoment": "geïnspireerd",
         "tags": [
-          "linked-from-readwise",
           "personal growth & life philosophy",
           "professional development",
           "technology"
@@ -57486,7 +56950,6 @@ window.TOP_ARTICLES = {
         "bestMoment": "analytisch",
         "tags": [
           "economics",
-          "linked-from-readwise",
           "sociology & social structures"
         ],
         "alsoIn": [],
@@ -57623,7 +57086,6 @@ window.TOP_ARTICLES = {
         "tags": [
           "arts & culture",
           "learning & meta-learning",
-          "light-reading",
           "philosophy"
         ],
         "alsoIn": [
@@ -57633,7 +57095,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 91
+            "position": 95
           }
         ]
       },
@@ -57668,7 +57130,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 40
+            "position": 41
           }
         ]
       },
@@ -57720,7 +57182,6 @@ window.TOP_ARTICLES = {
         "bestMoment": "ontspannen",
         "tags": [
           "behavioral psychology & coaching",
-          "light-reading",
           "personal growth & life philosophy",
           "sociology & social structures"
         ],
@@ -57731,7 +57192,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 90
+            "position": 94
           }
         ]
       },
@@ -57783,7 +57244,6 @@ window.TOP_ARTICLES = {
         "bestMoment": null,
         "tags": [
           "arts & culture",
-          "light-reading",
           "science",
           "sociology & social structures"
         ],
@@ -57811,7 +57271,6 @@ window.TOP_ARTICLES = {
         "bestMoment": "kritisch",
         "tags": [
           "current affairs & politics",
-          "linked-from-readwise",
           "political philosophy"
         ],
         "alsoIn": [],
@@ -57837,7 +57296,6 @@ window.TOP_ARTICLES = {
         "whyRead": "Klassiek Paul Graham-essay over status, schoolcultuur en sociale hiërarchie; raakt sociologie, nerdcultuur en persoonlijke ontwikkeling zonder generieke zelfhulp te worden.",
         "bestMoment": "reflectief",
         "tags": [
-          "linked-from-readwise",
           "personal growth & life philosophy",
           "sociology & social structures"
         ],
@@ -57864,7 +57322,6 @@ window.TOP_ARTICLES = {
         "whyRead": "Mastroianni geeft een bruikbaar frame voor wetenschap als strong-link-probleem: vooruitgang hangt af van uitzonderlijke goede ideeën, niet van gemiddelde kwaliteitscontrole.",
         "bestMoment": "analytisch",
         "tags": [
-          "linked-from-readwise",
           "research papers & academia",
           "science"
         ],
@@ -57919,7 +57376,6 @@ window.TOP_ARTICLES = {
         "bestMoment": "analytisch",
         "tags": [
           "history",
-          "linked-from-readwise",
           "political ideologies",
           "political philosophy"
         ],
@@ -57931,12 +57387,12 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 82
+            "position": 86
           },
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 42
+            "position": 45
           }
         ]
       },
@@ -57962,7 +57418,6 @@ window.TOP_ARTICLES = {
         "tags": [
           "business & work",
           "internet & platforms",
-          "linked-from-readwise",
           "programming & software"
         ],
         "alsoIn": [
@@ -57972,7 +57427,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "software-development",
             "size": "top-100",
-            "position": 90
+            "position": 89
           }
         ]
       },
@@ -57996,7 +57451,6 @@ window.TOP_ARTICLES = {
         "whyRead": "Sterk essay over steden als omgevingen die bepaalde vormen van ambitie versterken. Shortlist, omdat het urbanisme, sociologie, schrijven en zelfvorming verbindt in een heldere, herbruikbare denkvorm.",
         "bestMoment": "reflectief",
         "tags": [
-          "linked-from-readwise",
           "sociology & inequality",
           "urbanism & mobility",
           "writing & essays"
@@ -58008,7 +57462,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 39
+            "position": 40
           }
         ]
       },
@@ -58035,7 +57489,6 @@ window.TOP_ARTICLES = {
           "arts & culture",
           "existentialism",
           "fantasy & science fiction",
-          "light-reading",
           "philosophy"
         ],
         "alsoIn": [
@@ -58045,7 +57498,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 42
+            "position": 43
           }
         ]
       },
@@ -58112,8 +57565,7 @@ window.TOP_ARTICLES = {
         "tags": [
           "arts & culture",
           "geography & maps",
-          "history",
-          "light-reading"
+          "history"
         ],
         "alsoIn": [],
         "memberships": []
@@ -58150,12 +57602,12 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 81
+            "position": 85
           },
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 41
+            "position": 44
           }
         ]
       },
@@ -58262,7 +57714,6 @@ window.TOP_ARTICLES = {
         "tags": [
           "arts & culture",
           "learning & meta-learning",
-          "light-reading",
           "sociology & inequality"
         ],
         "alsoIn": [],
@@ -58316,7 +57767,6 @@ window.TOP_ARTICLES = {
         "bestMoment": "kritisch",
         "tags": [
           "ai ethics & society",
-          "pdf-top-10",
           "programming & software",
           "sociology & inequality"
         ],
@@ -58407,7 +57857,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 38
+            "position": 39
           }
         ]
       },
@@ -58455,7 +57905,6 @@ window.TOP_ARTICLES = {
         "bestMoment": "reflectief",
         "tags": [
           "arts & culture",
-          "light-reading",
           "personal growth & life philosophy",
           "sociology & inequality"
         ],
@@ -58466,7 +57915,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 89
+            "position": 93
           }
         ]
       },
@@ -58501,7 +57950,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 37
+            "position": 38
           }
         ]
       },
@@ -58539,12 +57988,12 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 80
+            "position": 84
           },
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 40
+            "position": 43
           },
           {
             "familyId": "software-development",
@@ -58639,7 +58088,6 @@ window.TOP_ARTICLES = {
           "epistemology",
           "existentialism",
           "frankfurt school",
-          "light-reading",
           "metaphysics",
           "philosophy",
           "sociology & inequality",
@@ -58715,7 +58163,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "boeken",
             "size": "top-100",
-            "position": 22
+            "position": 23
           }
         ]
       },
@@ -58741,7 +58189,6 @@ window.TOP_ARTICLES = {
         "tags": [
           "arts & culture",
           "health & wellness",
-          "light-reading",
           "personal growth & life philosophy"
         ],
         "alsoIn": [],
@@ -58803,7 +58250,6 @@ window.TOP_ARTICLES = {
         "bestMoment": "analytisch",
         "tags": [
           "arts & culture",
-          "light-reading",
           "sociology & inequality"
         ],
         "alsoIn": [],
@@ -58830,8 +58276,7 @@ window.TOP_ARTICLES = {
         "bestMoment": "ontspannen",
         "tags": [
           "food & cooking",
-          "health & wellness",
-          "light-reading"
+          "health & wellness"
         ],
         "alsoIn": [],
         "memberships": []
@@ -58858,7 +58303,6 @@ window.TOP_ARTICLES = {
         "tags": [
           "arts & culture",
           "business & work",
-          "light-reading",
           "personal growth & life philosophy"
         ],
         "alsoIn": [],
@@ -58909,7 +58353,6 @@ window.TOP_ARTICLES = {
         "whyRead": "Raakt je interesse in wetenschap en toegankelijk, essayistisch leren: Konik onderscheidt scherp verschillende manieren waarop organismen zich aan hun omgeving aanpassen, met voorbeelden die echt blijven hangen.",
         "bestMoment": "leergierig",
         "tags": [
-          "later",
           "science"
         ],
         "alsoIn": [],
@@ -58963,7 +58406,6 @@ window.TOP_ARTICLES = {
         "whyRead": "Eleanor Konik is bij twijfel geen archiveren-oordeel; dit is een persoonlijke, concreet beargumenteerde inventaris van spullen die het dagelijks leven en ouderschap merkbaar eenvoudiger maakten.",
         "bestMoment": "ontspannen",
         "tags": [
-          "later",
           "personal growth & life philosophy"
         ],
         "alsoIn": [],
@@ -59109,7 +58551,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 36
+            "position": 37
           }
         ]
       },
@@ -59231,7 +58673,6 @@ window.TOP_ARTICLES = {
         "bestMoment": "reflectief",
         "tags": [
           "arts & culture",
-          "light-reading",
           "personal growth & life philosophy",
           "writing & essays"
         ],
@@ -59267,7 +58708,6 @@ window.TOP_ARTICLES = {
         "bestMoment": "reflectief",
         "tags": [
           "arts & culture",
-          "light-reading",
           "personal growth & life philosophy",
           "writing & essays"
         ],
@@ -59278,7 +58718,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 41
+            "position": 42
           }
         ]
       },
@@ -59316,12 +58756,12 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 79
+            "position": 83
           },
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 39
+            "position": 42
           }
         ]
       },
@@ -59347,7 +58787,6 @@ window.TOP_ARTICLES = {
         "tags": [
           "arts & culture",
           "economics",
-          "light-reading",
           "writing & essays"
         ],
         "alsoIn": [
@@ -59357,7 +58796,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 40
+            "position": 41
           }
         ]
       },
@@ -59394,12 +58833,12 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 78
+            "position": 82
           },
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 38
+            "position": 41
           }
         ]
       },
@@ -59463,7 +58902,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 35
+            "position": 36
           }
         ]
       },
@@ -59562,12 +59001,12 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 77
+            "position": 81
           },
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 37
+            "position": 40
           }
         ]
       },
@@ -59673,7 +59112,6 @@ window.TOP_ARTICLES = {
         "tags": [
           "current affairs & politics",
           "economics",
-          "light-reading",
           "sociology & inequality"
         ],
         "alsoIn": [
@@ -59685,7 +59123,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 34
+            "position": 35
           },
           {
             "familyId": "luchtig",
@@ -59758,12 +59196,12 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 76
+            "position": 80
           },
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 36
+            "position": 39
           }
         ]
       },
@@ -59824,7 +59262,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "boeken",
             "size": "top-100",
-            "position": 77
+            "position": 76
           }
         ]
       },
@@ -59889,12 +59327,12 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 75
+            "position": 79
           },
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 35
+            "position": 38
           }
         ]
       },
@@ -60037,7 +59475,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 33
+            "position": 34
           }
         ]
       },
@@ -60162,7 +59600,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "software-development",
             "size": "top-100",
-            "position": 51
+            "position": 50
           },
           {
             "familyId": "pdfs",
@@ -60248,7 +59686,6 @@ window.TOP_ARTICLES = {
         "tags": [
           "arts & culture",
           "history",
-          "light-reading",
           "political philosophy"
         ],
         "alsoIn": [
@@ -60258,7 +59695,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 39
+            "position": 40
           }
         ]
       },
@@ -60282,7 +59719,6 @@ window.TOP_ARTICLES = {
         "whyRead": "Raakt je interesse in filosofie en gedragspsychologie — Maslow's grondleggende werk over menselijke motivatie en de hiërarchie van behoeften. Een van de meest invloedrijke psychologieboeken van de 20e eeuw, en de basis voor vrijwel alle latere humanistische psychologie.",
         "bestMoment": "analytisch",
         "tags": [
-          "pdf-top-10",
           "philosophy",
           "philosophy of mind",
           "psychology & behavior",
@@ -60327,7 +59763,6 @@ window.TOP_ARTICLES = {
         "tags": [
           "arts & culture",
           "learning & meta-learning",
-          "light-reading",
           "philosophy"
         ],
         "alsoIn": [],
@@ -60462,7 +59897,6 @@ window.TOP_ARTICLES = {
         "bestMoment": "reflectief",
         "tags": [
           "arts & culture",
-          "light-reading",
           "sociology & inequality",
           "writing & essays"
         ],
@@ -60475,7 +59909,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 32
+            "position": 33
           },
           {
             "familyId": "luchtig",
@@ -60699,7 +60133,6 @@ window.TOP_ARTICLES = {
         "tags": [
           "arts & culture",
           "internet & platforms",
-          "light-reading",
           "personal growth & life philosophy"
         ],
         "alsoIn": [],
@@ -60735,7 +60168,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "boeken",
             "size": "top-100",
-            "position": 76
+            "position": 75
           }
         ]
       },
@@ -60761,7 +60194,6 @@ window.TOP_ARTICLES = {
         "tags": [
           "ai & machine learning",
           "arts & culture",
-          "light-reading",
           "programming & software"
         ],
         "alsoIn": [
@@ -60772,7 +60204,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "software-development",
             "size": "top-100",
-            "position": 50
+            "position": 49
           },
           {
             "familyId": "videos",
@@ -60948,7 +60380,6 @@ window.TOP_ARTICLES = {
         "tags": [
           "arts & culture",
           "history",
-          "light-reading",
           "political philosophy"
         ],
         "alsoIn": [
@@ -60958,7 +60389,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 38
+            "position": 39
           }
         ]
       },
@@ -60984,8 +60415,7 @@ window.TOP_ARTICLES = {
         "tags": [
           "ai & machine learning",
           "arts & culture",
-          "learning & meta-learning",
-          "light-reading"
+          "learning & meta-learning"
         ],
         "alsoIn": [
           "aaa-top-10",
@@ -61156,7 +60586,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "software-development",
             "size": "top-100",
-            "position": 54
+            "position": 53
           }
         ]
       },
@@ -61208,7 +60638,6 @@ window.TOP_ARTICLES = {
         "bestMoment": "geïnspireerd",
         "tags": [
           "arts & culture",
-          "light-reading",
           "personal growth & life philosophy",
           "writing & essays"
         ],
@@ -61257,7 +60686,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 31
+            "position": 32
           },
           {
             "familyId": "software-development",
@@ -61361,7 +60790,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 74
+            "position": 31
           },
           {
             "familyId": "nederlands",
@@ -61376,7 +60805,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 34
+            "position": 22
           },
           {
             "familyId": "kort-nederlands",
@@ -61631,8 +61060,6 @@ window.TOP_ARTICLES = {
         "tags": [
           "arts & culture",
           "frankfurt school",
-          "light-reading",
-          "pdf-top-10",
           "philosophy",
           "political philosophy",
           "totalitarianism & fascism"
@@ -61698,12 +61125,12 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 73
+            "position": 78
           },
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 33
+            "position": 37
           }
         ]
       },
@@ -61728,7 +61155,6 @@ window.TOP_ARTICLES = {
         "bestMoment": "analytisch",
         "tags": [
           "arts & culture",
-          "light-reading",
           "programming & software"
         ],
         "alsoIn": [],
@@ -61791,7 +61217,6 @@ window.TOP_ARTICLES = {
         "tags": [
           "arts & culture",
           "learning & meta-learning",
-          "light-reading",
           "writing & essays"
         ],
         "alsoIn": [
@@ -61801,7 +61226,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 37
+            "position": 38
           }
         ]
       },
@@ -61897,7 +61322,6 @@ window.TOP_ARTICLES = {
         "tags": [
           "arts & culture",
           "learning & meta-learning",
-          "light-reading",
           "sociology & inequality"
         ],
         "alsoIn": [
@@ -61907,7 +61331,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 88
+            "position": 92
           }
         ]
       },
@@ -61988,7 +61412,6 @@ window.TOP_ARTICLES = {
         "tags": [
           "arts & culture",
           "learning & meta-learning",
-          "light-reading",
           "writing & essays"
         ],
         "alsoIn": [
@@ -61998,7 +61421,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 36
+            "position": 37
           }
         ]
       },
@@ -62025,7 +61448,6 @@ window.TOP_ARTICLES = {
           "arts & culture",
           "existentialism",
           "learning & meta-learning",
-          "light-reading",
           "philosophy"
         ],
         "alsoIn": [
@@ -62035,7 +61457,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 87
+            "position": 91
           }
         ]
       },
@@ -62061,8 +61483,7 @@ window.TOP_ARTICLES = {
         "tags": [
           "philosophy",
           "political philosophy",
-          "sociology & inequality",
-          "video-top-10"
+          "sociology & inequality"
         ],
         "alsoIn": [
           "video-top-10",
@@ -62151,7 +61572,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "boeken",
             "size": "top-100",
-            "position": 63
+            "position": 62
           }
         ]
       },
@@ -62255,7 +61676,6 @@ window.TOP_ARTICLES = {
         "tags": [
           "arts & culture",
           "learning & meta-learning",
-          "light-reading",
           "parenting & care"
         ],
         "alsoIn": [
@@ -62450,7 +61870,6 @@ window.TOP_ARTICLES = {
         "tags": [
           "games & game studies",
           "health & wellness",
-          "light-reading",
           "psychology & behavior"
         ],
         "alsoIn": [
@@ -62460,7 +61879,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 86
+            "position": 90
           }
         ]
       },
@@ -62486,7 +61905,6 @@ window.TOP_ARTICLES = {
         "tags": [
           "arts & culture",
           "economics",
-          "light-reading",
           "sociology & inequality"
         ],
         "alsoIn": [
@@ -62496,7 +61914,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 85
+            "position": 89
           }
         ]
       },
@@ -62699,7 +62117,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "software-development",
             "size": "top-100",
-            "position": 89
+            "position": 88
           }
         ]
       },
@@ -62725,7 +62143,6 @@ window.TOP_ARTICLES = {
         "tags": [
           "arts & culture",
           "history",
-          "light-reading",
           "philosophy"
         ],
         "alsoIn": [
@@ -62735,7 +62152,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 35
+            "position": 36
           }
         ]
       },
@@ -62852,7 +62269,6 @@ window.TOP_ARTICLES = {
         "tags": [
           "arts & culture",
           "learning & meta-learning",
-          "light-reading",
           "popular science"
         ],
         "alsoIn": [],
@@ -62933,7 +62349,6 @@ window.TOP_ARTICLES = {
         "bestMoment": "kritisch",
         "tags": [
           "arts & culture",
-          "light-reading",
           "philosophy",
           "sociology & inequality"
         ],
@@ -62946,17 +62361,17 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 72
+            "position": 77
           },
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 32
+            "position": 36
           },
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 11
+            "position": 12
           }
         ]
       },
@@ -62982,8 +62397,7 @@ window.TOP_ARTICLES = {
         "tags": [
           "arts & culture",
           "cognitive science",
-          "learning & meta-learning",
-          "light-reading"
+          "learning & meta-learning"
         ],
         "alsoIn": [],
         "memberships": []
@@ -63036,7 +62450,6 @@ window.TOP_ARTICLES = {
         "bestMoment": "reflectief",
         "tags": [
           "arts & culture",
-          "light-reading",
           "personal growth & life philosophy",
           "urbanism & mobility"
         ],
@@ -63047,7 +62460,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 84
+            "position": 88
           }
         ]
       },
@@ -63083,7 +62496,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "boeken",
             "size": "top-100",
-            "position": 21
+            "position": 13
           }
         ]
       },
@@ -63176,11 +62589,11 @@ window.TOP_ARTICLES = {
         "bestMoment": "kritisch",
         "tags": [
           "arts & culture",
-          "light-reading",
           "sociology & inequality"
         ],
         "alsoIn": [
           "aaa-dutch-top-100",
+          "aaa-luchtig-top-100",
           "aaa-luchtig-nederlands-top-10",
           "aaa-luchtig-nederlands-top-100"
         ],
@@ -63189,6 +62602,11 @@ window.TOP_ARTICLES = {
             "familyId": "nederlands",
             "size": "top-100",
             "position": 20
+          },
+          {
+            "familyId": "luchtig",
+            "size": "top-100",
+            "position": 87
           },
           {
             "familyId": "luchtig-nederlands",
@@ -63263,12 +62681,12 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 71
+            "position": 76
           },
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 31
+            "position": 35
           }
         ]
       },
@@ -63293,8 +62711,7 @@ window.TOP_ARTICLES = {
         "bestMoment": "ontspannen",
         "tags": [
           "arts & culture",
-          "internet & platforms",
-          "light-reading"
+          "internet & platforms"
         ],
         "alsoIn": [],
         "memberships": []
@@ -63321,8 +62738,7 @@ window.TOP_ARTICLES = {
         "tags": [
           "fiction",
           "history",
-          "learning & meta-learning",
-          "light-reading"
+          "learning & meta-learning"
         ],
         "alsoIn": [
           "aaa-luchtig-top-100"
@@ -63331,7 +62747,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 83
+            "position": 86
           }
         ]
       },
@@ -63357,7 +62773,6 @@ window.TOP_ARTICLES = {
         "tags": [
           "adhd & neurodivergence",
           "arts & culture",
-          "light-reading",
           "writing & essays"
         ],
         "alsoIn": [
@@ -63428,7 +62843,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "boeken",
             "size": "top-100",
-            "position": 75
+            "position": 66
           }
         ]
       },
@@ -63464,12 +62879,12 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 70
+            "position": 75
           },
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 30
+            "position": 34
           }
         ]
       },
@@ -63495,35 +62910,28 @@ window.TOP_ARTICLES = {
         "tags": [
           "arts & culture",
           "learning & meta-learning",
-          "light-reading",
           "tools & workflows"
         ],
         "alsoIn": [
           "aaa-top-100",
           "aaa-short-top-100",
-          "aaa-luchtig-top-10",
           "aaa-luchtig-top-100"
         ],
         "memberships": [
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 69
+            "position": 74
           },
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 29
-          },
-          {
-            "familyId": "luchtig",
-            "size": "top-10",
-            "position": 10
+            "position": 33
           },
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 10
+            "position": 11
           }
         ]
       },
@@ -63548,7 +62956,6 @@ window.TOP_ARTICLES = {
         "bestMoment": "reflectief",
         "tags": [
           "arts & culture",
-          "light-reading",
           "personal growth & life philosophy",
           "writing & essays"
         ],
@@ -63559,7 +62966,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 34
+            "position": 35
           }
         ]
       },
@@ -63964,7 +63371,6 @@ window.TOP_ARTICLES = {
         "bestMoment": "reflectief",
         "tags": [
           "arts & culture",
-          "light-reading",
           "personal growth & life philosophy",
           "writing & essays"
         ],
@@ -63975,7 +63381,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 33
+            "position": 34
           }
         ]
       },
@@ -64073,12 +63479,12 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 68
+            "position": 73
           },
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 28
+            "position": 32
           }
         ]
       },
@@ -64273,7 +63679,6 @@ window.TOP_ARTICLES = {
         "bestMoment": "analytisch",
         "tags": [
           "arts & culture",
-          "light-reading",
           "metaphysics",
           "philosophy",
           "philosophy of language",
@@ -64303,7 +63708,6 @@ window.TOP_ARTICLES = {
         "bestMoment": "analytisch",
         "tags": [
           "arts & culture",
-          "light-reading",
           "metaphysics",
           "philosophy"
         ],
@@ -64423,12 +63827,12 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 67
+            "position": 72
           },
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 27
+            "position": 31
           }
         ]
       },
@@ -64513,8 +63917,7 @@ window.TOP_ARTICLES = {
         "bestMoment": "ontspannen",
         "tags": [
           "arts & culture",
-          "learning & meta-learning",
-          "light-reading"
+          "learning & meta-learning"
         ],
         "alsoIn": [
           "aaa-luchtig-top-100"
@@ -64523,7 +63926,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 82
+            "position": 85
           }
         ]
       },
@@ -64648,7 +64051,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "boeken",
             "size": "top-100",
-            "position": 20
+            "position": 22
           }
         ]
       },
@@ -64782,7 +64185,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "boeken",
             "size": "top-100",
-            "position": 57
+            "position": 54
           }
         ]
       },
@@ -64808,8 +64211,7 @@ window.TOP_ARTICLES = {
         "tags": [
           "ai & machine learning",
           "learning & meta-learning",
-          "programming & software",
-          "video-top-10"
+          "programming & software"
         ],
         "alsoIn": [
           "aaa-software-development-top-100",
@@ -64961,7 +64363,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "boeken",
             "size": "top-100",
-            "position": 73
+            "position": 65
           }
         ]
       },
@@ -65041,7 +64443,6 @@ window.TOP_ARTICLES = {
         "tags": [
           "arts & culture",
           "economics",
-          "light-reading",
           "philosophy"
         ],
         "alsoIn": [
@@ -65051,7 +64452,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 81
+            "position": 84
           }
         ]
       },
@@ -65077,7 +64478,6 @@ window.TOP_ARTICLES = {
         "tags": [
           "arts & culture",
           "learning & meta-learning",
-          "light-reading",
           "tools & workflows"
         ],
         "alsoIn": [
@@ -65090,22 +64490,22 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 66
+            "position": 71
           },
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 26
+            "position": 30
           },
           {
             "familyId": "luchtig",
             "size": "top-10",
-            "position": 9
+            "position": 10
           },
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 9
+            "position": 10
           }
         ]
       },
@@ -65193,7 +64593,6 @@ window.TOP_ARTICLES = {
         "tags": [
           "arts & culture",
           "history",
-          "light-reading",
           "popular science"
         ],
         "alsoIn": [
@@ -65238,7 +64637,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 65
+            "position": 70
           }
         ]
       },
@@ -65264,7 +64663,6 @@ window.TOP_ARTICLES = {
         "tags": [
           "arts & culture",
           "learning & meta-learning",
-          "light-reading",
           "writing & essays"
         ],
         "alsoIn": [
@@ -65274,7 +64672,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 32
+            "position": 33
           }
         ]
       },
@@ -65299,7 +64697,6 @@ window.TOP_ARTICLES = {
         "bestMoment": "analytisch",
         "tags": [
           "arts & culture",
-          "light-reading",
           "sociology & inequality"
         ],
         "alsoIn": [],
@@ -65356,10 +64753,16 @@ window.TOP_ARTICLES = {
           "political philosophy"
         ],
         "alsoIn": [
+          "aaa-top-100",
           "aaa-dutch-top-10",
           "aaa-dutch-top-100"
         ],
         "memberships": [
+          {
+            "familyId": "algemeen",
+            "size": "top-100",
+            "position": 69
+          },
           {
             "familyId": "nederlands",
             "size": "top-10",
@@ -65534,7 +64937,6 @@ window.TOP_ARTICLES = {
         "bestMoment": "analytisch",
         "tags": [
           "arts & culture",
-          "light-reading",
           "personal growth & life philosophy"
         ],
         "alsoIn": [],
@@ -65589,7 +64991,6 @@ window.TOP_ARTICLES = {
         "tags": [
           "arts & culture",
           "cognitive science",
-          "light-reading",
           "personal growth & life philosophy"
         ],
         "alsoIn": [],
@@ -65698,7 +65099,6 @@ window.TOP_ARTICLES = {
         "tags": [
           "arts & culture",
           "learning & meta-learning",
-          "light-reading",
           "personal growth & life philosophy"
         ],
         "alsoIn": [],
@@ -65726,8 +65126,7 @@ window.TOP_ARTICLES = {
         "tags": [
           "arts & culture",
           "fiction",
-          "learning & meta-learning",
-          "light-reading"
+          "learning & meta-learning"
         ],
         "alsoIn": [],
         "memberships": []
@@ -65753,7 +65152,6 @@ window.TOP_ARTICLES = {
         "bestMoment": "analytisch",
         "tags": [
           "learning & meta-learning",
-          "pdf-top-10",
           "philosophy",
           "philosophy of mind",
           "tools & workflows"
@@ -65796,7 +65194,6 @@ window.TOP_ARTICLES = {
         "bestMoment": "ontspannen",
         "tags": [
           "learning & meta-learning",
-          "light-reading",
           "programming & software",
           "sociology & inequality"
         ],
@@ -66004,7 +65401,6 @@ window.TOP_ARTICLES = {
         "tags": [
           "arts & culture",
           "business & work",
-          "light-reading",
           "writing & essays"
         ],
         "alsoIn": [
@@ -66014,7 +65410,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 31
+            "position": 32
           }
         ]
       },
@@ -66040,7 +65436,6 @@ window.TOP_ARTICLES = {
         "tags": [
           "arts & culture",
           "learning & meta-learning",
-          "light-reading",
           "writing & essays"
         ],
         "alsoIn": [
@@ -66050,7 +65445,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 30
+            "position": 31
           }
         ]
       },
@@ -66085,12 +65480,12 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 64
+            "position": 68
           },
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 25
+            "position": 29
           }
         ]
       },
@@ -66125,7 +65520,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "boeken",
             "size": "top-100",
-            "position": 45
+            "position": 37
           }
         ]
       },
@@ -66161,12 +65556,12 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 63
+            "position": 67
           },
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 24
+            "position": 28
           }
         ]
       },
@@ -66199,7 +65594,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "boeken",
             "size": "top-100",
-            "position": 56
+            "position": 53
           }
         ]
       },
@@ -66234,7 +65629,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "boeken",
             "size": "top-100",
-            "position": 72
+            "position": 73
           }
         ]
       },
@@ -66305,12 +65700,12 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 62
+            "position": 66
           },
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 23
+            "position": 27
           }
         ]
       },
@@ -66370,7 +65765,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "boeken",
             "size": "top-100",
-            "position": 71
+            "position": 72
           }
         ]
       },
@@ -66395,7 +65790,6 @@ window.TOP_ARTICLES = {
         "bestMoment": "reflectief",
         "tags": [
           "arts & culture",
-          "light-reading",
           "personal growth & life philosophy",
           "philosophy"
         ],
@@ -66406,7 +65800,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 80
+            "position": 83
           }
         ]
       },
@@ -66440,7 +65834,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "boeken",
             "size": "top-100",
-            "position": 44
+            "position": 45
           }
         ]
       },
@@ -66502,7 +65896,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "boeken",
             "size": "top-100",
-            "position": 43
+            "position": 44
           }
         ]
       },
@@ -66538,12 +65932,12 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 61
+            "position": 65
           },
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 22
+            "position": 26
           }
         ]
       },
@@ -66568,7 +65962,6 @@ window.TOP_ARTICLES = {
         "bestMoment": "analytisch",
         "tags": [
           "arts & culture",
-          "light-reading",
           "philosophy",
           "sociology & inequality"
         ],
@@ -66605,7 +65998,6 @@ window.TOP_ARTICLES = {
         "tags": [
           "economics",
           "fiction",
-          "light-reading",
           "tools & workflows"
         ],
         "alsoIn": [
@@ -66615,7 +66007,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 79
+            "position": 82
           }
         ]
       },
@@ -66650,7 +66042,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "boeken",
             "size": "top-100",
-            "position": 42
+            "position": 43
           }
         ]
       },
@@ -66784,7 +66176,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "boeken",
             "size": "top-100",
-            "position": 41
+            "position": 42
           }
         ]
       },
@@ -66818,7 +66210,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "boeken",
             "size": "top-100",
-            "position": 40
+            "position": 41
           }
         ]
       },
@@ -66852,7 +66244,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "boeken",
             "size": "top-100",
-            "position": 39
+            "position": 36
           }
         ]
       },
@@ -66877,7 +66269,6 @@ window.TOP_ARTICLES = {
         "bestMoment": "reflectief",
         "tags": [
           "arts & culture",
-          "light-reading",
           "personal growth & life philosophy",
           "writing & essays"
         ],
@@ -66888,7 +66279,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 29
+            "position": 30
           }
         ]
       },
@@ -66912,7 +66303,6 @@ window.TOP_ARTICLES = {
         "whyRead": "Raakt je kerninteresse in Hannah Arendt en politieke filosofie — een sleutelessay over wat vrijheid werkelijk betekent als politieke categorie.",
         "bestMoment": "analytisch",
         "tags": [
-          "boek-top-10",
           "history",
           "political philosophy",
           "totalitarianism & fascism",
@@ -66926,12 +66316,12 @@ window.TOP_ARTICLES = {
           {
             "familyId": "boeken",
             "size": "top-10",
-            "position": 9
+            "position": 1
           },
           {
             "familyId": "boeken",
             "size": "top-100",
-            "position": 9
+            "position": 1
           }
         ]
       },
@@ -66968,7 +66358,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "boeken",
             "size": "top-100",
-            "position": 19
+            "position": 21
           }
         ]
       },
@@ -67003,7 +66393,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "boeken",
             "size": "top-100",
-            "position": 62
+            "position": 61
           }
         ]
       },
@@ -67075,7 +66465,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "boeken",
             "size": "top-100",
-            "position": 18
+            "position": 12
           }
         ]
       },
@@ -67143,7 +66533,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "boeken",
             "size": "top-100",
-            "position": 55
+            "position": 52
           }
         ]
       },
@@ -67256,7 +66646,6 @@ window.TOP_ARTICLES = {
         "whyRead": "Raakt je interesse in filosofie en sociologie; Russell's klasieke essay over de arbeidsideologie als middel tot sociale controle — geschreven in 1932, onverminderd actueel.",
         "bestMoment": "analytisch",
         "tags": [
-          "linked-from-readwise",
           "personal growth & life philosophy",
           "philosophy",
           "sociology & social structures"
@@ -67295,7 +66684,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "boeken",
             "size": "top-100",
-            "position": 70
+            "position": 71
           }
         ]
       },
@@ -67330,7 +66719,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "boeken",
             "size": "top-100",
-            "position": 69
+            "position": 70
           }
         ]
       },
@@ -67354,7 +66743,6 @@ window.TOP_ARTICLES = {
         "whyRead": "Raakt je interesse in wetenschap en betekenis — Tim Urban schrijft essays die complex zijn en grappig tegelijk, met diepe conceptuele diepgang.",
         "bestMoment": "ontspannen",
         "tags": [
-          "light-reading",
           "personal growth & life philosophy",
           "popular science"
         ],
@@ -67365,7 +66753,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "boeken",
             "size": "top-100",
-            "position": 68
+            "position": 69
           }
         ]
       },
@@ -67391,7 +66779,6 @@ window.TOP_ARTICLES = {
         "tags": [
           "cognitive science",
           "learning & meta-learning",
-          "light-reading",
           "personal growth & life philosophy"
         ],
         "alsoIn": [
@@ -67401,7 +66788,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "boeken",
             "size": "top-100",
-            "position": 61
+            "position": 60
           }
         ]
       },
@@ -67437,7 +66824,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "boeken",
             "size": "top-100",
-            "position": 38
+            "position": 40
           }
         ]
       },
@@ -67463,7 +66850,6 @@ window.TOP_ARTICLES = {
         "tags": [
           "ai ethics & society",
           "business & work",
-          "light-reading",
           "psychology & behavior"
         ],
         "alsoIn": [
@@ -67473,7 +66859,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "boeken",
             "size": "top-100",
-            "position": 54
+            "position": 58
           }
         ]
       },
@@ -67508,7 +66894,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "boeken",
             "size": "top-100",
-            "position": 17
+            "position": 20
           }
         ]
       },
@@ -67534,7 +66920,6 @@ window.TOP_ARTICLES = {
         "tags": [
           "health & wellness",
           "learning & meta-learning",
-          "light-reading",
           "psychology & behavior"
         ],
         "alsoIn": [
@@ -67544,7 +66929,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "boeken",
             "size": "top-100",
-            "position": 60
+            "position": 59
           }
         ]
       },
@@ -67570,7 +66955,6 @@ window.TOP_ARTICLES = {
         "tags": [
           "cognitive science",
           "health & wellness",
-          "light-reading",
           "writing & essays"
         ],
         "alsoIn": [
@@ -67615,7 +66999,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "boeken",
             "size": "top-100",
-            "position": 37
+            "position": 39
           }
         ]
       },
@@ -67639,7 +67023,6 @@ window.TOP_ARTICLES = {
         "whyRead": "Raakt je interesse in leren en PKM — Kadavy herformuleert productiviteit als energiebeheer in plaats van tijdbeheer, met directe relevantie voor creatief en intellectueel werk.",
         "bestMoment": "leergierig",
         "tags": [
-          "boek-top-10",
           "learning & meta-learning",
           "personal growth & life philosophy",
           "political philosophy"
@@ -67652,12 +67035,12 @@ window.TOP_ARTICLES = {
           {
             "familyId": "boeken",
             "size": "top-10",
-            "position": 8
+            "position": 9
           },
           {
             "familyId": "boeken",
             "size": "top-100",
-            "position": 8
+            "position": 9
           }
         ]
       },
@@ -67692,7 +67075,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "boeken",
             "size": "top-100",
-            "position": 53
+            "position": 57
           }
         ]
       },
@@ -67728,7 +67111,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "boeken",
             "size": "top-100",
-            "position": 36
+            "position": 38
           }
         ]
       },
@@ -67753,7 +67136,6 @@ window.TOP_ARTICLES = {
         "bestMoment": "ontspannen",
         "tags": [
           "business & work",
-          "light-reading",
           "personal growth & life philosophy",
           "psychology & behavior"
         ],
@@ -67764,7 +67146,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "boeken",
             "size": "top-100",
-            "position": 52
+            "position": 56
           }
         ]
       },
@@ -67788,7 +67170,6 @@ window.TOP_ARTICLES = {
         "whyRead": "Raakt je kerninteresse in PKM — Ahrens legt de Zettelkasten-methode uit als een denksysteem, niet slechts als notitiesysteem.",
         "bestMoment": "analytisch",
         "tags": [
-          "boek-top-10",
           "learning & meta-learning",
           "pkm & note-taking",
           "writing & essays"
@@ -67801,12 +67182,12 @@ window.TOP_ARTICLES = {
           {
             "familyId": "boeken",
             "size": "top-10",
-            "position": 7
+            "position": 8
           },
           {
             "familyId": "boeken",
             "size": "top-100",
-            "position": 7
+            "position": 8
           }
         ]
       },
@@ -67847,7 +67228,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "boeken",
             "size": "top-100",
-            "position": 16
+            "position": 19
           }
         ]
       },
@@ -67884,7 +67265,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "boeken",
             "size": "top-100",
-            "position": 15
+            "position": 18
           }
         ]
       },
@@ -67908,7 +67289,6 @@ window.TOP_ARTICLES = {
         "whyRead": "Raakt je interesse in PKM en kennisbeheer; dit boek legt de principes van het Zettelkasten-systeem uit in een digitale context — direct relevant voor je Obsidian-workflow.",
         "bestMoment": "leergierig",
         "tags": [
-          "boek-top-10",
           "learning & meta-learning",
           "pkm & note-taking",
           "tools & workflows"
@@ -67921,12 +67301,12 @@ window.TOP_ARTICLES = {
           {
             "familyId": "boeken",
             "size": "top-10",
-            "position": 6
+            "position": 7
           },
           {
             "familyId": "boeken",
             "size": "top-100",
-            "position": 6
+            "position": 7
           }
         ]
       },
@@ -67961,7 +67341,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "boeken",
             "size": "top-100",
-            "position": 67
+            "position": 68
           }
         ]
       },
@@ -67996,7 +67376,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "boeken",
             "size": "top-100",
-            "position": 14
+            "position": 17
           }
         ]
       },
@@ -68021,7 +67401,6 @@ window.TOP_ARTICLES = {
         "bestMoment": "leergierig",
         "tags": [
           "arts & culture",
-          "boek-top-10",
           "business & work",
           "tools & workflows"
         ],
@@ -68033,12 +67412,12 @@ window.TOP_ARTICLES = {
           {
             "familyId": "boeken",
             "size": "top-10",
-            "position": 5
+            "position": 6
           },
           {
             "familyId": "boeken",
             "size": "top-100",
-            "position": 5
+            "position": 6
           }
         ]
       },
@@ -68062,7 +67441,6 @@ window.TOP_ARTICLES = {
         "whyRead": "Raakt je interesse in geschiedenis en politieke filosofie; een compacte maar diepgaande inleiding op de Verlichting als intellectuele beweging met blijvende invloed op politiek en wetenschap.",
         "bestMoment": "analytisch",
         "tags": [
-          "boek-top-10",
           "history",
           "philosophy",
           "stoicism",
@@ -68076,12 +67454,12 @@ window.TOP_ARTICLES = {
           {
             "familyId": "boeken",
             "size": "top-10",
-            "position": 4
+            "position": 5
           },
           {
             "familyId": "boeken",
             "size": "top-100",
-            "position": 4
+            "position": 5
           }
         ]
       },
@@ -68153,7 +67531,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "boeken",
             "size": "top-100",
-            "position": 13
+            "position": 16
           }
         ]
       },
@@ -68177,7 +67555,6 @@ window.TOP_ARTICLES = {
         "whyRead": "Raakt je interesse in leren en kennismanagement; mind mapping als visueel gereedschap voor het organiseren van gedachten en informatie.",
         "bestMoment": "leergierig",
         "tags": [
-          "boek-top-10",
           "learning & meta-learning",
           "pkm & note-taking",
           "writing & essays"
@@ -68190,12 +67567,12 @@ window.TOP_ARTICLES = {
           {
             "familyId": "boeken",
             "size": "top-10",
-            "position": 3
+            "position": 4
           },
           {
             "familyId": "boeken",
             "size": "top-100",
-            "position": 3
+            "position": 4
           }
         ]
       },
@@ -68229,7 +67606,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "boeken",
             "size": "top-100",
-            "position": 66
+            "position": 67
           }
         ]
       },
@@ -68264,7 +67641,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "boeken",
             "size": "top-100",
-            "position": 12
+            "position": 15
           }
         ]
       },
@@ -68334,7 +67711,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "boeken",
             "size": "top-100",
-            "position": 65
+            "position": 64
           }
         ]
       },
@@ -68359,8 +67736,7 @@ window.TOP_ARTICLES = {
         "bestMoment": "ontspannen",
         "tags": [
           "fiction",
-          "history",
-          "light-reading"
+          "history"
         ],
         "alsoIn": [
           "boek-top-100"
@@ -68394,7 +67770,6 @@ window.TOP_ARTICLES = {
         "bestMoment": "ontspannen",
         "tags": [
           "fiction",
-          "light-reading",
           "popular science"
         ],
         "alsoIn": [
@@ -68404,7 +67779,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "boeken",
             "size": "top-100",
-            "position": 64
+            "position": 63
           }
         ]
       },
@@ -68428,7 +67803,6 @@ window.TOP_ARTICLES = {
         "whyRead": "Raakt je interesse in wetenschap en cultuurgeschiedenis; Bryson beschrijft de hele wetenschapsgeschiedenis met humor en verwondering, van atomen tot menselijke evolutie.",
         "bestMoment": "ontspannen",
         "tags": [
-          "light-reading",
           "personal growth & life philosophy",
           "popular science",
           "writing & essays"
@@ -68440,7 +67814,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "boeken",
             "size": "top-100",
-            "position": 27
+            "position": 14
           }
         ]
       },
@@ -68475,7 +67849,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "boeken",
             "size": "top-100",
-            "position": 59
+            "position": 55
           }
         ]
       },
@@ -68590,7 +67964,6 @@ window.TOP_ARTICLES = {
         "tags": [
           "arts & culture",
           "business & work",
-          "light-reading",
           "writing & essays"
         ],
         "alsoIn": [
@@ -68600,7 +67973,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 78
+            "position": 81
           }
         ]
       }
@@ -68717,23 +68090,23 @@ window.TOP_ARTICLES = {
           "position": 21
         },
         {
-          "id": "01m1zvm6gs1fej0qfpx176aftk",
-          "title": "My unsung hero of science: Harriet Taylor Mill, the radical feminist philosopher who lived in the shadow of her husband",
+          "id": "01m1zz7a3yxy2nte35hssybary",
+          "title": "Continuous Product Discovery — Product Talk",
           "position": 22
         },
         {
-          "id": "01m1zz7a3yxy2nte35hssybary",
-          "title": "Continuous Product Discovery — Product Talk",
+          "id": "01m1zz7f9eqj3hmaee464gw72n",
+          "title": "Liberating Structures",
           "position": 23
         },
         {
-          "id": "01m227yg7yamdn2qq40a45gr71",
-          "title": "The AI4Agile Practitioners Report 2026",
+          "id": "01m2265g0kyk1003t9x2hsdzw8",
+          "title": "Communication Is … Ritual",
           "position": 24
         },
         {
-          "id": "01ke8078ppphvc7nr28ecay5nf",
-          "title": "Let a thousand societies bloom",
+          "id": "01kdnzthe611p0c38ts9j702s2",
+          "title": "De verleiding van de kettingzaag",
           "position": 25
         }
       ]
@@ -68798,73 +68171,73 @@ window.TOP_ARTICLES = {
           "position": 11
         },
         {
-          "id": "01m1zvm6gs1fej0qfpx176aftk",
-          "title": "My unsung hero of science: Harriet Taylor Mill, the radical feminist philosopher who lived in the shadow of her husband",
-          "position": 12
-        },
-        {
           "id": "01m1zvs2vragng388fm30ef3xx",
           "title": "On Liberty",
-          "position": 13
+          "position": 12
         },
         {
           "id": "01m1zz7a3yxy2nte35hssybary",
           "title": "Continuous Product Discovery — Product Talk",
+          "position": 13
+        },
+        {
+          "id": "01m1zz7f9eqj3hmaee464gw72n",
+          "title": "Liberating Structures",
           "position": 14
         },
         {
-          "id": "01m227yg7yamdn2qq40a45gr71",
-          "title": "The AI4Agile Practitioners Report 2026",
+          "id": "01m2265g0kyk1003t9x2hsdzw8",
+          "title": "Communication Is … Ritual",
           "position": 15
+        },
+        {
+          "id": "01kvcgsfekyqqc5b9t3nmrge8m",
+          "title": "Hoera, het is Waterloodag!",
+          "position": 16
         },
         {
           "id": "01kvhbzvsdz71gdn2329t023sp",
           "title": "So, what is morality?",
-          "position": 16
+          "position": 17
         },
         {
           "id": "01kwm2c48x698f162vev3xqyy2",
           "title": "The Knowledge Machine: How Irrationality Created Modern Science",
-          "position": 17
+          "position": 18
         },
         {
           "id": "01ky6y0z3wkzmdhty7gq3qa1wz",
           "title": "So, what is morality?",
-          "position": 18
+          "position": 19
         },
         {
           "id": "01kyab47vf7vat0n76fpwrgrj6",
           "title": "Your Book Review: Breakdown In Pakistan",
-          "position": 19
+          "position": 20
         },
         {
           "id": "01kysnmbwt86e2fk3axtde57h4",
           "title": "Keynote opening Digital Commons EDIC: Moving beyond the Digital Uncommons",
-          "position": 20
+          "position": 21
         },
         {
           "id": "01kyxa2yd57szp13ha57708606",
           "title": "Your Book Review: The Epic Of Gilgamesh",
-          "position": 21
+          "position": 22
+        },
+        {
+          "id": "01kyxvjcj0396b5z5w8bcz634q",
+          "title": "De atheïst die de bekendste verdediger van het christendom werd",
+          "position": 23
+        },
+        {
+          "id": "01kzjk22zxkgrvftgdtdvj01rq",
+          "title": "Twintig seconden waar ik me diep voor schaam",
+          "position": 24
         },
         {
           "id": "01m0f295dxr46cfakg2cev3c1d",
           "title": "The Scientist Who Lived with Dozens of Children from the Pacific Islands | The New Yorker",
-          "position": 22
-        },
-        {
-          "id": "01m0f7mwvh8ay32g66bb7rfsaj",
-          "title": "Who Was Friedrich Nietzsche? His Life And Works",
-          "position": 23
-        },
-        {
-          "id": "01m0pngvw1pq8s12ss8bgyz5hj",
-          "title": "2026 Survey Of The Product Management Profession",
-          "position": 24
-        },
-        {
-          "id": "01m0v38d002hs35994nqn3b993",
-          "title": "Re: Re: Re: Pritchard On Liberal Happiness",
           "position": 25
         }
       ]
@@ -68919,83 +68292,83 @@ window.TOP_ARTICLES = {
           "position": 9
         },
         {
+          "id": "01m1zz7f9eqj3hmaee464gw72n",
+          "title": "Liberating Structures",
+          "position": 10
+        },
+        {
           "id": "01k72qvbmwd9xp0k233cv5qgw2",
           "title": "A blog post is a very long and complex search query to find fascinating people and make them route interesting stuff to your inbox",
-          "position": 10
+          "position": 11
         },
         {
           "id": "01kj59ew6gb91gscpt8f7htspq",
           "title": "Motivation And Personality",
-          "position": 11
+          "position": 12
         },
         {
           "id": "01krmzw6cw28m1y55ds9qrsxjf",
           "title": "Cities and Ambition",
-          "position": 12
+          "position": 13
         },
         {
           "id": "01m196wv3n2x3k1nnxbynjm8zt",
           "title": "Critical Thinking: What is it to be a Critical Thinker?",
-          "position": 13
+          "position": 14
         },
         {
           "id": "01m196wzm7941m99hfab08jcs8",
           "title": "Arguments: Why Do You Believe What You Believe?",
-          "position": 14
+          "position": 15
         },
         {
           "id": "01m0f5thx0x9f1rpdvj5r64m3m",
           "title": "Meditations On Moloch",
-          "position": 15
+          "position": 16
         },
         {
           "id": "01m1kscbbmwsztsc5xam17y12g",
           "title": "Why Teams Don’t Work",
-          "position": 16
+          "position": 17
         },
         {
           "id": "01j8s9z9xg4shgce5z167zc7fn",
           "title": "📰 Food as Currency - by Eleanor Konik - Manuscriptions\n📰 Food as Currency",
-          "position": 17
+          "position": 18
         },
         {
           "id": "01jjmt3derk62gvm51m286870b",
           "title": "🎓 On Famines: why and how they happen. To who?",
-          "position": 18
+          "position": 19
         },
         {
           "id": "01k7qbgbanjkbvetnkfd47vkrz",
           "title": "How I wrote \"Looking for Alice\"",
-          "position": 19
+          "position": 20
         },
         {
           "id": "01k7qbgpmxd9gskhw16jx5b8yk",
           "title": "Popular education in Sweden: much more than you wanted to know",
-          "position": 20
+          "position": 21
         },
         {
           "id": "01krn1jdcn6b450yv1z0j92tz3",
           "title": "The Radical Sunzi",
-          "position": 21
+          "position": 22
         },
         {
           "id": "01kxy1qnae4npandc4x9mv4aw0",
           "title": "To Understand Elon Musk, You Have to Understand This ’60s Sci-Fi Novel",
-          "position": 22
+          "position": 23
         },
         {
           "id": "01ky7qe9p9qwtpk49bzc4pqqhk",
           "title": "Normal Accidents: Living with High-Risk Technologies",
-          "position": 23
+          "position": 24
         },
         {
           "id": "01m059t7cjgvc214sac3e4z08x",
           "title": "Freedom of the Park",
-          "position": 24
-        },
-        {
-          "id": "01m059tpnqyq5yy3kq6xrmf1v5",
-          "title": "My Country Right or Left",
           "position": 25
         }
       ]
