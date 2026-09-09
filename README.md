@@ -1,9 +1,9 @@
 # Top Articles
 
 Statisch overzicht van persoonlijke Readwise-toplijsten, met directe links naar Readwise Reader.
-Naast de bestaande families Algemeen, Nederlands, Kort, Kort & NL, Luchtig, Luchtig & NL en
-Boeken bevat de app een actieve catalogus, scoregestuurde ontdeklijsten en een zelfstandige
-berekende leesvolgorde voor documenten in Reader `later`.
+Naast de bestaande families Algemeen, Nederlands, Kort, Kort & NL, Luchtig, Luchtig & NL,
+Sociale studies & samenwerking en Boeken bevat de app een actieve catalogus, scoregestuurde
+ontdeklijsten en een zelfstandige berekende leesvolgorde voor documenten in Reader `later`.
 
 De broncode is strict TypeScript. `tsc` schrijft de browsermodules naar
 `dist/src/`; `index.html` + `styles.css` laden die uitvoer en renderen uit `data/data.js`, een
@@ -31,12 +31,17 @@ Handmatige correcties gelden in alle lijsten tegelijk en staan in
 }
 ```
 
-De onderwerpreeksen Software development en Front-end development hebben elk eigen top-10- en
-top-100-lijsten en genummerde tags (`software-development-001` en `front-end-development-001`).
+De onderwerpreeksen Software development, Front-end development en Sociale studies & samenwerking
+hebben elk eigen top-10- en top-100-lijsten en genummerde tags (`software-development-001`,
+`front-end-development-001` en `social-studies-001`).
 Software development herkent `software development`, `software-development` en `programming & software`.
 Front-end development herkent `front-end development`, `frontend development`, `front end development`
-en `front-end-development`. Een document met tags voor beide onderwerpen komt in beide reeksen;
-boeken blijven uitsluitend in de boekenreeks.
+en `front-end-development`. Sociale studies & samenwerking gebruikt het gedeelde profiel voor
+sociale vraagstukken en samenwerken: `social psychology & interpersonal dynamics`,
+`team dynamics & collaboration`, `organizational behavior & culture`, `behavioral psychology & coaching`,
+`sociology & social structures`, `team coaching`, `facilitation`, `organizational culture`,
+`scrum`, `agile`, `product management` en `flow & delivery`. Een document met tags voor meerdere
+onderwerpen komt in de bijbehorende reeksen; boeken blijven uitsluitend in de boekenreeks.
 
 De build wijzigt nooit Reader-tags. Nederlandse taalherkenning bepaalt de afzonderlijke
 Dutch-reeksen en geeft Nederlandstalige documenten vijf scorepunten. Inhoudstags worden bij export gecanonicaliseerd;

@@ -69,12 +69,18 @@ historische aliassen worden naar canonieke tags gemapt in `scripts/lib/readwise-
   `config/readwise-priority-overrides.json` (`{ version: 1, items: { "<doc-id>": { adjustment, reason } } }`,
   reden verplicht bij niet-nul adjustment), tier-indeling (hoog ≥70, midden ≥40, laag <40), en
   `sequencesForDocument` — bepaalt in welke van de `SEQUENCE_ORDER`-reeksen (video, boek, pdf,
-  lees, dutch, short, short-dutch, luchtig, luchtig-nederlands, scrum) een document hoort.
+  lees, dutch, short, short-dutch, luchtig, luchtig-nederlands, scrum, software-development,
+  front-end-development, social-studies) een document hoort.
   De `scrum`-reeks is, net als `luchtig`, topic-gebaseerd: een document met de tag `scrum`,
   `agile` of `agile & scrum` hoort erin (boeken uitgezonderd). `accessibility` activeert de
   front-end-development-reeks. Agile-subtags als `team coaching`, `facilitation`,
   `organizational culture`, `product management` en `flow & delivery` tellen mee als directe
   beroepsmatige kerninteresse.
+  De `social-studies`-reeks is een aparte topicreeks met het gedeelde sociale/samenwerkingsprofiel:
+  `social psychology & interpersonal dynamics`, `team dynamics & collaboration`,
+  `organizational behavior & culture`, `behavioral psychology & coaching`,
+  `sociology & social structures`, `team coaching`, `facilitation`, `organizational culture`,
+  `scrum`, `agile`, `product management` en `flow & delivery`.
   **Boeken/EPUB's horen strikt alleen in de `boek`-reeks**, nooit gecombineerd met andere reeksen
   — dit wordt hard afgedwongen in `validatePriorityExport`.
 - `buildPriorityExport` berekent per document score + reeksen + positie-per-reeks, en valideert
@@ -84,7 +90,8 @@ historische aliassen worden naar canonieke tags gemapt in `scripts/lib/readwise-
 ### Uniforme lijsten (`scripts/lib/unified-lists.ts`)
 
 `FAMILY_DEFINITIONS` koppelt elke reeks aan een "familie" (Algemeen, Nederlands, Kort, Kort & NL,
-Luchtig, Luchtig & NL, Boeken, PDF's, Video's) met bijbehorende Readwise-toplijsttags
+Luchtig, Luchtig & NL, Sociale studies & samenwerking, Scrum, Software development,
+Front-end development, Boeken, PDF's, Video's) met bijbehorende Readwise-toplijsttags
 (`aaa-top-10`/`aaa-top-100` etc.). `buildUnifiedLists` sorteert elke familie op score (bij
 gelijkspel: oudste `saved_at`, dan document-ID) en berekent drie afgeleide ontdeklijsten over
 niet-boeken: Consensus (≥2 familie-top-100-lidmaatschappen), Nieuw (saved_at binnen 90 dagen),
