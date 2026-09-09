@@ -64,6 +64,29 @@ test("plant development-reeksen met ordinale tags en toplijsttags", () => {
   }
 });
 
+test("plant en beheert de social-studies-ordinale en toplijsttags", () => {
+  const social = doc("social", { tags: { "team dynamics & collaboration": {} } });
+  const stale = doc("stale", {
+    location: "archive",
+    tags: {
+      "social-studies-009": {},
+      "aaa-social-studies-top-10": {},
+      "aaa-social-studies-top-100": {},
+    },
+  });
+  const plan = buildPriorityTagPlan([social], [stale], { generatedAt: "2026-08-16T10:00:00.000Z", cleanupAll: true });
+
+  const socialChange = changeFor(plan, "social");
+  for (const tag of ["social-studies-001", "aaa-social-studies-top-10", "aaa-social-studies-top-100"]) {
+    assert.ok(socialChange.add.includes(tag), `ontbrekende tag: ${tag}`);
+  }
+  assert.deepEqual(changeFor(plan, "stale").remove, [
+    "aaa-social-studies-top-10",
+    "aaa-social-studies-top-100",
+    "social-studies-009",
+  ]);
+});
+
 test("maakt top-10 binnenkomers en vertrekkers per lijst zichtbaar", () => {
   const base = buildPriorityTagPlan([], [], { generatedAt: "2026-08-16T10:00:00.000Z" });
   const plan = {

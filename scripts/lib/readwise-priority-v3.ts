@@ -84,6 +84,20 @@ const SOFTWARE_DEVELOPMENT_TAGS = new Set(["software development", "software-dev
 const FRONT_END_DEVELOPMENT_TAGS = new Set([
   "front-end development", "frontend development", "front end development", "front-end-development", "accessibility",
 ]);
+const SOCIAL_STUDIES_TAGS = new Set([
+  "social psychology & interpersonal dynamics",
+  "team dynamics & collaboration",
+  "organizational behavior & culture",
+  "behavioral psychology & coaching",
+  "sociology & social structures",
+  "team coaching",
+  "facilitation",
+  "organizational culture",
+  "scrum",
+  "agile",
+  "product management",
+  "flow & delivery",
+]);
 
 const COMPONENT_KEYS = [
   "kerninteresse",
@@ -237,6 +251,9 @@ export function sequencesForDocument(doc: PriorityDocument): PrioritySequence[] 
     }
     if ([...tags].some((tag) => FRONT_END_DEVELOPMENT_TAGS.has(tag))) {
       sequences.add("front-end-development");
+    }
+    if ([...tags].some((tag) => SOCIAL_STUDIES_TAGS.has(tag))) {
+      sequences.add("social-studies");
     }
   }
   return SEQUENCE_ORDER.filter((sequence) => sequences.has(sequence));

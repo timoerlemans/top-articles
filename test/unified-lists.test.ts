@@ -3,6 +3,7 @@ import test from "node:test";
 
 import {
   buildUnifiedLists,
+  FAMILY_DEFINITIONS,
   type UnifiedPriority,
 } from "../scripts/lib/unified-lists.js";
 
@@ -92,4 +93,20 @@ test("bouwt de pdfs- en videos-familielijsten op basis van hun eigen reeks", () 
 
   assert.deepEqual(lists.families.pdfs["top-10"].map(({ id }) => id), ["pdf-1"]);
   assert.deepEqual(lists.families.videos["top-10"].map(({ id }) => id), ["video-1"]);
+});
+
+test("bouwt de social-studies-familielijst met de toegewezen toplijsttags", () => {
+  const lists = buildUnifiedLists([item("social-1", 90, {
+    priority: { sequences: ["lees", "social-studies"], positions: { lees: 1, "social-studies": 1 } },
+  })], "2026-08-16T10:00:00.000Z");
+  const family = FAMILY_DEFINITIONS.find(({ id }) => id === "social-studies");
+
+  assert.deepEqual(lists.families["social-studies"]["top-10"].map(({ id }) => id), ["social-1"]);
+  assert.deepEqual(family, {
+    id: "social-studies",
+    label: "Sociale studies & samenwerking",
+    sequence: "social-studies",
+    top10Tag: "aaa-social-studies-top-10",
+    top100Tag: "aaa-social-studies-top-100",
+  });
 });

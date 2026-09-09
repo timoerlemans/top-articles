@@ -114,10 +114,10 @@ test("een NL-document met een lichte onderwerptag krijgt ook luchtig-nederlands"
   );
 });
 
-test("een document met de tag scrum of agile classificeert als scrum, naast de reguliere reeksen", () => {
+test("een document met de tag scrum of agile behoudt scrum naast de reguliere en social-studies-reeksen", () => {
   assert.deepEqual(
     sequencesForDocument(document({ tags: { scrum: {} } })),
-    ["lees", "scrum"]
+    ["lees", "scrum", "social-studies"]
   );
   assert.ok(sequencesForDocument(document({ tags: { agile: {} } })).includes("scrum"));
   assert.ok(sequencesForDocument(document({ tags: { "agile & scrum": {} } })).includes("scrum"));
@@ -128,6 +128,47 @@ test("een boek met de tag scrum hoort nog steeds strikt alleen in boek", () => {
     sequencesForDocument(document({ category: "epub", tags: { scrum: {} } })),
     ["boek"]
   );
+});
+
+test("classificeert uitsluitend de aangewezen sociale en samenwerkingssignalen in social-studies", () => {
+  const socialTags = [
+    "social psychology & interpersonal dynamics",
+    "team dynamics & collaboration",
+    "organizational behavior & culture",
+    "behavioral psychology & coaching",
+    "sociology & social structures",
+    "team coaching",
+    "facilitation",
+    "organizational culture",
+    "scrum",
+    "agile",
+    "product management",
+    "flow & delivery",
+  ];
+
+  for (const tag of socialTags) {
+    assert.ok(
+      sequencesForDocument(document({ tags: { [tag]: {} } })).includes("social-studies"),
+      `social-studies ontbreekt voor ${tag}`,
+    );
+  }
+  assert.ok(!sequencesForDocument(document({ tags: { "agile & scrum": {} } })).includes("social-studies"));
+  assert.ok(!sequencesForDocument(document({ tags: { "organizational learning": {} } })).includes("social-studies"));
+});
+
+test("exporteert de social-studies-positie en houdt boeken daarbij exclusief", () => {
+  const social = document({ id: "social", tags: { "team dynamics & collaboration": {} } });
+  const book = document({ id: "book", category: "epub", tags: { "team dynamics & collaboration": {} } });
+  const result = buildPriorityExport([social, book], { generatedAt: "2026-08-16T10:00:00.000Z" });
+
+  assert.equal(result.items.social?.positions["social-studies"], 1);
+  assert.deepEqual(result.items.book?.sequences, ["boek"]);
+
+  const invalidBook = result.items.book;
+  assert.ok(invalidBook);
+  invalidBook.sequences = ["boek", "social-studies"];
+  invalidBook.positions = { boek: 1, "social-studies": 1 };
+  assert.throws(() => validatePriorityExport(result), /strikt alleen/i);
 });
 
 test("classificeert development-onderwerptags in hun eigen reeksen", () => {
