@@ -2,6 +2,7 @@ import { parseReadingMinutes } from "./reading-time.js";
 import type { ReadingTimeValue } from "./reading-time.js";
 import { BASE_SEQUENCE_ORDER } from "./priority-sequences.js";
 import type { PrioritySequenceV2 } from "./priority-sequences.js";
+import { canonicalInterestTags } from "./readwise-tags.js";
 
 export type { PrioritySequenceV2 } from "./priority-sequences.js";
 
@@ -61,7 +62,10 @@ export const DIRECT_DOMAIN_TAGS = {
   ],
   ideologie: ["political ideologies", "totalitarianism & fascism", "politics & society", "political philosophy", "anarchism", "anarchist"],
   geschiedenis: ["history", "history & civilization", "history of ideas"],
-  sociologie: ["sociology", "sociology & inequality", "sociology & social structures", "ethics & society"],
+  sociologie: [
+    "sociology", "sociology & inequality", "sociology & social structures", "ethics & society",
+    "social psychology & interpersonal dynamics", "social psychology", "interpersonal dynamics",
+  ],
   schrijven: ["essay-writing", "writing", "writing & essays"],
   speculatieve_fictie: ["fantasy & science fiction", "fiction-analysis", "literary-criticism", "narrative-theory"],
   cultuur_games_film: ["games", "games & game studies", "film & tv analysis", "digital culture", "entertainment & pop culture"],
@@ -69,7 +73,8 @@ export const DIRECT_DOMAIN_TAGS = {
   zorgouderschap: ["parenting", "parenting & care", "parenting & family", "mantelzorg", "family & relationships"],
   agile: [
     "agile", "scrum", "agile & scrum", "team coaching", "facilitation", "organizational culture",
-    "product management", "flow & delivery",
+    "team dynamics & collaboration", "organizational behavior & culture", "team dynamics", "collaboration",
+    "organizational behavior", "product management", "flow & delivery",
   ],
 } as const satisfies Record<string, readonly string[]>;
 
@@ -84,10 +89,14 @@ const DIRECT_USEFULNESS_TAGS = [
   "parenting", "parenting & care", "parenting & family", "mantelzorg", "family & relationships",
   "business & work", "career & work", "work & career", "professional development", "scrum", "agile",
   "team coaching", "facilitation", "organizational culture", "product management", "flow & delivery",
+  "team dynamics & collaboration", "organizational behavior & culture",
   "writing", "writing & essays", "essay-writing", "personal knowledge management",
   "pkm & kennisbeheer", "pkm & note-taking",
 ];
-const USEFULNESS_WHY_WORDS = ["werk", "ouderschap", "mantelzorg", "schrijven", "kennisbeheer", "pkm", "scrum", "agile"];
+const USEFULNESS_WHY_WORDS = [
+  "werk", "work", "career", "professional", "ouderschap", "mantelzorg", "schrijven", "kennisbeheer",
+  "pkm", "scrum", "agile", "team coaching", "collaboration", "organizational behavior",
+];
 const DEPTH_WORDS = ["essay", "analysis", "analyse", "report", "paper", "study", "onderzoek", "rapport"];
 const RESEARCH_TAGS = ["research papers & academia", "history of ideas"];
 const SATURATED_PHILOSOPHY_PHRASES = [
@@ -128,7 +137,7 @@ function rawTags(tags: unknown): unknown[] {
 }
 
 function tagKeys(doc: PriorityDocument): string[] {
-  return rawTags(doc.tags)
+  const raw = rawTags(doc.tags)
     .map((tag) => {
       if (typeof tag === "string") {
         return tag;
@@ -141,6 +150,7 @@ function tagKeys(doc: PriorityDocument): string[] {
     })
     .map(normalize)
     .filter(Boolean);
+  return [...new Set([...raw, ...canonicalInterestTags(raw)])];
 }
 
 function whyReadFor(doc: PriorityDocument): string {

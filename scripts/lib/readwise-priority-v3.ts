@@ -11,6 +11,7 @@ import type {
 } from "./readwise-priority-v2.js";
 import { SEQUENCE_ORDER } from "./priority-sequences.js";
 import type { PrioritySequence } from "./priority-sequences.js";
+import { canonicalInterestTags } from "./readwise-tags.js";
 
 export { detectDutch } from "./readwise-priority-v2.js";
 export { SEQUENCE_ORDER } from "./priority-sequences.js";
@@ -164,6 +165,11 @@ function tagsFor(doc: PriorityDocument): string[] {
     .filter(Boolean);
 }
 
+function contentTagsFor(doc: PriorityDocument): string[] {
+  const rawTags = tagsFor(doc);
+  return [...new Set([...rawTags, ...canonicalInterestTags(rawTags)])];
+}
+
 function tierForScore(score: number): PriorityTier {
   if (score >= 70) {
     return "hoog";
@@ -234,7 +240,7 @@ export function scorePriorityDocument(
 export function sequencesForDocument(doc: PriorityDocument): PrioritySequence[] {
   const sequences = new Set<PrioritySequence>(baseSequencesForDocument(doc));
   if (!sequences.has("boek")) {
-    const tags = new Set(tagsFor(doc));
+    const tags = new Set(contentTagsFor(doc));
     const lightReading = tags.has("light-reading") || [...tags].some((tag) =>
       /^luchtig-\d{3,4}$/.test(tag) || tag === "aaa-luchtig-top-10" || tag === "aaa-luchtig-top-100" || LIGHT_TOPIC_TAGS.has(tag)
     );

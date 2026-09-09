@@ -91,7 +91,7 @@ export interface ArchiveProvenanceResolution {
 const AUTOMATIC_ARCHIVE = /\b(?:automatically archived(?:\s+after\s+(?:enrichment|processing))?|automatisch gearchiveerd(?:\s+na\s+(?:enrichment|verrijking|verwerking))?)\b/i;
 const AUTOMATIC_ARCHIVE_AFTER_ENRICHMENT = /\b(?:automatically archived\s+after\s+enrichment|automatisch gearchiveerd\s+na\s+(?:enrichment|verrijking))\b/i;
 const LATER_TO_ARCHIVE = /\b`?later`?\s*(?:→|->|naar)\s*`?(?:archive|archief)`?\b/i;
-const RESTORED_TO_LATER = /\b(?:restored|returned|moved|set|teruggezet|hersteld|verplaatst)\b[\s\S]{0,100}\b(?:to|naar)\s*`?later`?\b/i;
+const RESTORED_TO_LATER = /(?:\b(?:restored|returned|moved|set|teruggezet|hersteld|verplaatst)\b[\s\S]{0,100}\b(?:to|naar)\s*`?later`?\b|\b`?later`?\s+(?:was\s+)?(?:restored|returned|moved|set|teruggezet|hersteld|verplaatst)\b)/i;
 const URL = /https?:\/\/[^\s<>()`|]+/gi;
 const READER_URL = /https?:\/\/read\.readwise\.io\/read\/([^/?#\s`|]+)/i;
 

@@ -64,7 +64,7 @@ historische aliassen worden naar canonieke tags gemapt in `scripts/lib/readwise-
 ### Scoring & reeksen (`scripts/lib/readwise-priority-v2.ts` + `-v3.ts`)
 
 - v2 bevat de basisscorelogica (`scorePriorityDocument`, zeven componenten inclusief een
-  Nederlandse-taalbonus, Nederlands-detectie).
+  Nederlandse-taalbonus die voor elke inhoudscategorie geldt, Nederlands-detectie).
 - v3 wrapt v2 en voegt toe: handmatige correcties uit
   `config/readwise-priority-overrides.json` (`{ version: 1, items: { "<doc-id>": { adjustment, reason } } }`,
   reden verplicht bij niet-nul adjustment), tier-indeling (hoog ≥70, midden ≥40, laag <40), en
@@ -81,6 +81,8 @@ historische aliassen worden naar canonieke tags gemapt in `scripts/lib/readwise-
   `organizational behavior & culture`, `behavioral psychology & coaching`,
   `sociology & social structures`, `team coaching`, `facilitation`, `organizational culture`,
   `scrum`, `agile`, `product management` en `flow & delivery`.
+  De `luchtig`-reeks omvat naast `light-reading` ook `fiction`, `games`, `health & wellness`,
+  `food & cooking`, `sports & recreation` en `entertainment & pop culture` (boeken uitgezonderd).
   **Boeken/EPUB's horen strikt alleen in de `boek`-reeks**, nooit gecombineerd met andere reeksen
   — dit wordt hard afgedwongen in `validatePriorityExport`.
 - `buildPriorityExport` berekent per document score + reeksen + positie-per-reeks, en valideert

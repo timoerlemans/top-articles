@@ -19,6 +19,7 @@ import { canonicalInterestTags } from "./lib/readwise-tags.js";
 import type { ReadwiseDocument } from "./lib/external-schemas.js";
 
 const execFileAsync = promisify(execFile);
+const READWISE_MAX_BUFFER = 16 * 1024 * 1024;
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const ROOT = resolve(__dirname, "../..");
 const OUT_FILE = join(ROOT, "data", "data.js");
@@ -41,7 +42,7 @@ const LANGUAGE_TAG_MAP: Readonly<Record<string, string>> = {
 };
 
 const runReadwise = createReadwiseRequester({
-  exec: (commandArgs) => execFileAsync("readwise", commandArgs),
+  exec: (commandArgs) => execFileAsync("readwise", commandArgs, { maxBuffer: READWISE_MAX_BUFFER }),
 });
 
 async function fetchDocumentsByLocation(location: string): Promise<ReadwiseDocument[]> {

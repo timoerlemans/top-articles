@@ -124,6 +124,22 @@ test("rejects automatic archive evidence when the same document was restored to 
   assert.deepEqual(result.rejected.map(({ reason }) => reason), ["restored-to-later"]);
 });
 
+test("herkent ook de Nederlandse formulering later teruggezet als herstelbewijs", () => {
+  const records = parseTriageLogs([{
+    path: "/mnt/c/obsidian/Calendar/Logs/2026-09-09 Readwise triage.md",
+    text: [
+      "| Automatic | feed | automatisch gearchiveerd | https://read.readwise.io/read/restored-id |",
+      "| Restored | archive | later teruggezet na controle | https://read.readwise.io/read/restored-id |",
+    ].join("\n"),
+  }]);
+
+  const result = resolveArchiveProvenance(records, [document({ id: "restored-id" })]);
+
+  assert.equal(records[1]?.kind, "restored-to-later");
+  assert.equal(result.accepted.length, 0);
+  assert.deepEqual(result.rejected.map(({ reason }) => reason), ["restored-to-later"]);
+});
+
 test("maps explicit triage recommendations to their safe destination", () => {
   assert.equal(archiveDestinationForRecommendation("later"), "later");
   assert.equal(archiveDestinationForRecommendation("shortlist"), "later");

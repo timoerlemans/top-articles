@@ -161,8 +161,17 @@ test("classificeert uitsluitend de aangewezen sociale en samenwerkingssignalen i
       `social-studies ontbreekt voor ${tag}`,
     );
   }
-  assert.ok(!sequencesForDocument(document({ tags: { "agile & scrum": {} } })).includes("social-studies"));
+  assert.ok(sequencesForDocument(document({ tags: { "agile & scrum": {} } })).includes("social-studies"));
   assert.ok(!sequencesForDocument(document({ tags: { "organizational learning": {} } })).includes("social-studies"));
+});
+
+test("normaliseert historische social-studies-aliassen ook voor de reeksindeling", () => {
+  for (const tag of ["social psychology", "teamwork", "organizational behavior"]) {
+    assert.ok(
+      sequencesForDocument(document({ tags: { [tag]: {} } })).includes("social-studies"),
+      `social-studies ontbreekt voor alias ${tag}`,
+    );
+  }
 });
 
 test("exporteert de social-studies-positie en houdt boeken daarbij exclusief", () => {

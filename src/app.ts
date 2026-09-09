@@ -174,7 +174,7 @@ registerServiceWorker();
   };
 
   // --- Globale index: elk document eenmaal, met per toplijst-tag zijn positie. ---
-  // Nodig om over alle acht toplijsten heen te kunnen zoeken/filteren, ook buiten
+  // Nodig om over alle toplijsten heen te kunnen zoeken/filteren, ook buiten
   // de op dit moment actieve tab/grootte.
   const GLOBAL_INDEX = new Map<string, IndexedItem>();
   const LIST_SIZES: readonly ListSize[] = ["top-10", "top-100"];

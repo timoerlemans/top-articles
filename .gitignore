@@ -1,6 +1,7 @@
 node_modules/
 .tmp/
 .worktrees/
+.superpowers/
 .claude/
 .codex/
 dist/*

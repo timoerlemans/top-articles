@@ -14,7 +14,7 @@ publicatie-/toevoegdatum, taal (afgeleid uit een kleine vaste set taal-tags), ee
 "waarom lezen"/"beste moment"-notitie, afbeelding en links.
 
 `data/score.js` wordt tegelijk gegenereerd en bevat `readwise-priority-v3` voor alle actuele
-`later`-documenten. Per document staan daarin de basis- en eindscore van 0–100, tier, zes
+`later`-documenten. Per document staan daarin de basis- en eindscore van 0–100, tier, zeven
 scorecomponenten, een eventuele handmatige correctie, mensleesbare redenen, reeksindeling en
 gewenste plus actuele positie per reeks. Alle lijsten sorteren op hoogste eindscore, daarna bij
 gelijke score op oudste `saved_at` en ten slotte op document-ID.
@@ -43,8 +43,13 @@ sociale vraagstukken en samenwerken: `social psychology & interpersonal dynamics
 `scrum`, `agile`, `product management` en `flow & delivery`. Een document met tags voor meerdere
 onderwerpen komt in de bijbehorende reeksen; boeken blijven uitsluitend in de boekenreeks.
 
+De reeks `Luchtig` omvat naast `light-reading` ook inhoudelijk lichte artikelen met de tags
+`fiction`, `games`, `health & wellness`, `food & cooking`, `sports & recreation` en
+`entertainment & pop culture`. Boeken blijven ook hier uitgesloten door de boekenregel.
+
 De build wijzigt nooit Reader-tags. Nederlandse taalherkenning bepaalt de afzonderlijke
-Dutch-reeksen en geeft Nederlandstalige documenten vijf scorepunten. Inhoudstags worden bij export gecanonicaliseerd;
+Dutch-reeksen en geeft Nederlandstalige documenten in elke inhoudscategorie vijf scorepunten.
+Inhoudstags worden bij export gecanonicaliseerd;
 workflow-, lijst- en positietags komen niet in de app-filter terecht. Tagwijzigingen verlopen
 uitsluitend via een aparte proefrun en synchronisatie na expliciete bevestiging.
 

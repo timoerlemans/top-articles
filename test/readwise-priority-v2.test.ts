@@ -70,6 +70,48 @@ test("behandelt agile-subtopics als kerninteresse met directe beroepsmatige brui
   }
 });
 
+test("behandelt sociale psychologie als één direct kerndomein", () => {
+  const result = scorePriorityDocument(document({
+    tags: { "social psychology & interpersonal dynamics": {} },
+    word_count: 300,
+  }));
+
+  assert.equal(result.components.kerninteresse, 30);
+  assert.equal(result.components.persoonlijke_bruikbaarheid, 10);
+});
+
+test("behandelt team- en organisatiecanonicals als direct nuttig professioneel domein", () => {
+  for (const tag of ["team dynamics & collaboration", "organizational behavior & culture"]) {
+    const result = scorePriorityDocument(document({
+      tags: { [tag]: {} },
+      word_count: 300,
+    }));
+
+    assert.equal(result.components.kerninteresse, 30, tag);
+    assert.equal(result.components.persoonlijke_bruikbaarheid, 20, tag);
+  }
+});
+
+test("combineert sociale en teamcoaching-signalen tot twee begrensde kerndomeinen", () => {
+  const result = scorePriorityDocument(document({
+    tags: { "social psychology": {}, "team coaching": {} },
+    word_count: 300,
+  }));
+
+  assert.equal(result.components.kerninteresse, 45);
+  assert.equal(result.components.persoonlijke_bruikbaarheid, 20);
+});
+
+test("telt een work-signaal in Waarom lezen als directe beroepsmatige bruikbaarheid", () => {
+  const result = scorePriorityDocument(document({
+    notes: "Waarom lezen: Useful at work.\nBeste moment: Op kantoor",
+    word_count: 300,
+  }));
+
+  assert.equal(result.components.persoonlijke_bruikbaarheid, 20);
+  assert.match(result.rationale.persoonlijke_bruikbaarheid[0] ?? "", /Waarom lezen/);
+});
+
 test("geeft Nederlandstalige documenten vijf expliciete bonuspunten", () => {
   const english = scorePriorityDocument(document({ language: "en" }));
   const dutch = scorePriorityDocument(document({ language: "nl" }));
@@ -77,6 +119,20 @@ test("geeft Nederlandstalige documenten vijf expliciete bonuspunten", () => {
   assert.equal(dutch.components.nederlandse_taal, 5);
   assert.equal(dutch.score, english.score + 5);
   assert.match(dutch.rationale.nederlandse_taal[0] ?? "", /Nederlandstalig/);
+});
+
+test("past de Nederlandse bonus toe ongeacht inhoudscategorie", () => {
+  for (const tags of [
+    { "social psychology & interpersonal dynamics": {} },
+    { "team dynamics & collaboration": {} },
+    { "health & wellness": {} },
+  ]) {
+    const english = scorePriorityDocument(document({ language: "en", tags }));
+    const dutch = scorePriorityDocument(document({ language: "nl", tags }));
+
+    assert.equal(dutch.components.nederlandse_taal, 5);
+    assert.equal(dutch.score, english.score + 5);
+  }
 });
 
 test("herkent kerndomeinen en Waarom lezen in vrije tekst", () => {
