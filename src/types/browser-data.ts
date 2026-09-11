@@ -1,4 +1,5 @@
 import type { PrioritySequence } from "../../scripts/lib/readwise-priority-v3.js";
+import type { DirectDomain } from "../../scripts/lib/readwise-priority-v2.js";
 
 export interface ArticleItem {
   position: number | null;
@@ -20,6 +21,7 @@ export interface ArticleItem {
   whyRead: string | null;
   bestMoment: string | null;
   tags: string[];
+  coreInterests: DirectDomain[];
   alsoIn: string[];
   priorityPosition?: number;
   memberships?: Array<{ familyId: string; size: string; position: number }>;
@@ -49,6 +51,7 @@ function isArticleItem(value: unknown): value is ArticleItem {
     && (typeof value.readingMinutes === "number" || value.readingMinutes === null)
     && (typeof value.wordCount === "number" || value.wordCount === null)
     && Array.isArray(value.tags) && value.tags.every((tag) => typeof tag === "string")
+    && Array.isArray(value.coreInterests) && value.coreInterests.every((interest) => typeof interest === "string")
     && Array.isArray(value.alsoIn) && value.alsoIn.every((tag) => typeof tag === "string")
     && nullableFields.every((field) => isNullableString(value[field]));
 }

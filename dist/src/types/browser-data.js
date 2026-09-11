@@ -13,6 +13,7 @@ function isArticleItem(value) {
         && (typeof value.readingMinutes === "number" || value.readingMinutes === null)
         && (typeof value.wordCount === "number" || value.wordCount === null)
         && Array.isArray(value.tags) && value.tags.every((tag) => typeof tag === "string")
+        && Array.isArray(value.coreInterests) && value.coreInterests.every((interest) => typeof interest === "string")
         && Array.isArray(value.alsoIn) && value.alsoIn.every((tag) => typeof tag === "string")
         && nullableFields.every((field) => isNullableString(value[field]));
 }

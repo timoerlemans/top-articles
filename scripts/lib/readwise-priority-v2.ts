@@ -178,7 +178,7 @@ function matchesVocabulary(doc: PriorityDocument, vocabulary: readonly string[])
   return vocabulary.some((phrase) => tags.has(normalize(phrase)) || hasPhrase(text, phrase));
 }
 
-function matchedDomains(doc: PriorityDocument): DirectDomain[] {
+export function matchedDomains(doc: PriorityDocument): DirectDomain[] {
   return (Object.keys(DIRECT_DOMAIN_TAGS) as DirectDomain[])
     .filter((domain) => matchesVocabulary(doc, DIRECT_DOMAIN_TAGS[domain]));
 }

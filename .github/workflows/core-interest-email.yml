@@ -1,0 +1,32 @@
+name: Send core interest article email
+
+on:
+  schedule:
+    - cron: "0 6 * * *" # 08:00 CEST
+    - cron: "0 7 * * *" # 08:00 CET
+  workflow_dispatch: {}
+
+permissions:
+  contents: read
+
+jobs:
+  send:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Compile TypeScript
+        run: npm run compile
+
+      - name: Send core interest article email
+        env:
+          RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
+          MAIL_FROM: ${{ secrets.MAIL_FROM }}
+        run: node dist/scripts/send-core-interest-email.js

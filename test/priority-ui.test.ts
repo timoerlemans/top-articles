@@ -55,6 +55,7 @@ test("browsercontracten accepteren de gegenereerde social-studies familie en ree
     whyRead: null,
     bestMoment: null,
     tags: [],
+    coreInterests: [],
     alsoIn: [],
   };
   const list = { tag: "aaa-social-studies-top-10", items: [item] };
