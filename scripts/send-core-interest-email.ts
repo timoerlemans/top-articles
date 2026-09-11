@@ -35,7 +35,10 @@ const dataSchema = z.object({
   catalog: z.object({ items: z.array(articleSchema) }),
 });
 const prioritySchema = z.object({
-  items: z.record(z.string(), z.object({ score: z.number() })),
+  items: z.record(z.string(), z.object({
+    score: z.number(),
+    actualPositions: z.record(z.string(), z.number()),
+  })),
 });
 
 async function loadGenerated<T>(path: string, globalName: string, schema: z.ZodType<T>): Promise<T> {
@@ -109,7 +112,10 @@ async function main(): Promise<void> {
         savedDate: article.savedDate,
         coreInterests: article.coreInterests,
       },
-      priority: { score },
+      priority: {
+        score,
+        actualPositions: priority.items[article.id]?.actualPositions ?? {},
+      },
     }];
   });
   const selected = selectCoreInterestArticle(candidates, coreInterestRandomFor(now));
@@ -120,7 +126,7 @@ async function main(): Promise<void> {
 
   const email = buildCoreInterestEmail(selected, dateLabel(now));
   await sendEmail(email);
-  console.log(`Mail verstuurd: ${CORE_INTEREST_LABELS[selected.interest]} #${String(selected.rank)} — ${selected.article.title}`);
+  console.log(`Mail verstuurd: ${CORE_INTEREST_LABELS[selected.interest]} · ${selected.tag} — ${selected.article.title}`);
 }
 
 main().catch((error: unknown) => {

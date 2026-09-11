@@ -21,7 +21,12 @@ interface TestArticle {
   coreInterests: DirectDomain[];
 }
 
-function article(id: string, score: number, overrides: Partial<TestArticle> = {}): { article: TestArticle; priority: { score: number } } {
+function article(
+  id: string,
+  score: number,
+  overrides: Partial<TestArticle> = {},
+  actualPositions: Record<string, number> = { lees: 2 },
+): { article: TestArticle; priority: { score: number; actualPositions: Record<string, number> } } {
   const testArticle: TestArticle = {
     id,
     title: `Artikel ${id}`,
@@ -34,39 +39,51 @@ function article(id: string, score: number, overrides: Partial<TestArticle> = {}
   };
   return {
     article: testArticle,
-    priority: { score },
+    priority: { score, actualPositions },
   };
 }
 
 test("selecteert alleen posities 2 tot en met 25 met een leestijd onder 15 minuten", () => {
   const ranked = [
-    article("top-1", 100),
-    article("rank-2", 99),
-    article("rank-3", 98, { readingMinutes: 15 }),
-    article("rank-4", 97),
-    ...Array.from({ length: 22 }, (_, index) => article(`rank-${String(index + 5)}`, 96 - index)),
-    article("rank-26", 73),
+    article("top-1", 100, {}, { lees: 1 }),
+    article("rank-2", 99, {}, { lees: 2 }),
+    article("rank-3", 98, { readingMinutes: 15 }, { lees: 3 }),
+    article("rank-4", 97, {}, { lees: 4 }),
+    ...Array.from({ length: 21 }, (_, index) => article(`rank-${String(index + 5)}`, 96 - index, {}, { lees: index + 5 })),
+    article("rank-26", 73, {}, { lees: 26 }),
   ];
 
   const selected = selectCoreInterestArticle(ranked, () => 0);
 
   assert.equal(selected?.interest, "agile");
-  assert.equal(selected?.rank, 2);
+  assert.equal(selected?.sequence, "lees");
+  assert.equal(selected?.position, 2);
+  assert.equal(selected?.tag, "lees-0002");
   assert.equal(selected?.article.id, "rank-2");
 });
 
 test("valt terug op een andere kerninteresse als de gekozen interesse geen kandidaat heeft", () => {
   const articles = [
-    article("agile-too-long", 100, { readingMinutes: 20 }),
-    article("history-rank-1", 90, { coreInterests: ["geschiedenis"] }),
-    article("history-rank-2", 80, { coreInterests: ["geschiedenis"] }),
+    article("agile-too-long", 100, { readingMinutes: 20 }, { lees: 2 }),
+    article("history-rank-1", 90, { coreInterests: ["geschiedenis"] }, { lees: 1 }),
+    article("history-rank-2", 80, { coreInterests: ["geschiedenis"] }, { lees: 2 }),
   ];
 
   const selected = selectCoreInterestArticle(articles, () => 0);
 
   assert.equal(selected?.interest, "geschiedenis");
-  assert.equal(selected?.rank, 2);
+  assert.equal(selected?.position, 2);
   assert.equal(selected?.article.id, "history-rank-2");
+});
+
+test("gebruikt de beste echte tagpositie wanneer een artikel meerdere reeksen heeft", () => {
+  const selected = selectCoreInterestArticle([
+    article("multi-sequence", 80, { coreInterests: ["zorgouderschap"] }, { lees: 100, short: 8 }),
+  ], () => 0);
+
+  assert.equal(selected?.sequence, "short");
+  assert.equal(selected?.position, 8);
+  assert.equal(selected?.tag, "short-008");
 });
 
 test("maakt voor dezelfde datum steeds dezelfde pseudo-willekeurige reeks", () => {
@@ -101,14 +118,17 @@ test("forceert verzending buiten 08:00 wanneer force aanstaat", () => {
 test("bouwt een mail met interesse, rang, leestijd en Readwise-link", () => {
   const selected = {
     interest: "agile" as const,
-    rank: 7,
+    sequence: "short" as const,
+    position: 7,
+    tag: "short-007",
     article: article("selected", 80).article,
   };
 
   const email = buildCoreInterestEmail(selected, "11 september 2026");
 
   assert.match(email.subject, /Agile/);
-  assert.match(email.html, /rank 7|positie 7/i);
+  assert.match(email.html, /short-007/);
+  assert.match(email.html, /positie 7/i);
   assert.match(email.html, /10 minuten/);
   assert.match(email.html, /https:\/\/read\.readwise\.io\/read\/selected/);
   assert.match(email.text, /Artikel selected/);

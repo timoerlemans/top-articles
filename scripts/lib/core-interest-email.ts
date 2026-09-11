@@ -1,5 +1,7 @@
 import { DIRECT_DOMAIN_TAGS } from "./readwise-priority-v2.js";
 import type { DirectDomain } from "./readwise-priority-v2.js";
+import { SEQUENCE_ORDER } from "./priority-sequences.js";
+import type { PrioritySequence } from "./priority-sequences.js";
 
 export interface CoreInterestArticle {
   id: string;
@@ -13,12 +15,17 @@ export interface CoreInterestArticle {
 
 export interface CoreInterestCandidate {
   article: CoreInterestArticle;
-  priority: { score: number };
+  priority: {
+    score: number;
+    actualPositions: Readonly<Record<string, number>>;
+  };
 }
 
 export interface SelectedCoreInterestArticle {
   interest: DirectDomain;
-  rank: number;
+  sequence: PrioritySequence;
+  position: number;
+  tag: string;
   article: CoreInterestArticle;
 }
 
@@ -50,25 +57,39 @@ function randomIndex(randomValue: number, length: number): number {
   return Math.floor(bounded * length);
 }
 
-function savedTime(article: CoreInterestArticle): number {
-  const parsed = Date.parse(article.savedDate ?? "");
-  return Number.isFinite(parsed) ? parsed : Number.POSITIVE_INFINITY;
+function ordinalTag(sequence: PrioritySequence, position: number): string {
+  return `${sequence}-${String(position).padStart(sequence === "lees" ? 4 : 3, "0")}`;
 }
 
-function rankedCandidates(
+function bestTagPosition(candidate: CoreInterestCandidate): { sequence: PrioritySequence; position: number; tag: string } | null {
+  return SEQUENCE_ORDER
+    .flatMap((sequence) => {
+      const position = candidate.priority.actualPositions[sequence];
+      if (position === undefined || !Number.isInteger(position) || position < 2 || position > 25) {
+        return [];
+      }
+      return [{ sequence, position, tag: ordinalTag(sequence, position) }];
+    })
+    .sort((a, b) => a.position - b.position || SEQUENCE_ORDER.indexOf(a.sequence) - SEQUENCE_ORDER.indexOf(b.sequence))[0] ?? null;
+}
+
+function positionedCandidates(
   interest: DirectDomain,
   candidates: readonly CoreInterestCandidate[],
-): Array<{ candidate: CoreInterestCandidate; rank: number }> {
+): Array<{ candidate: CoreInterestCandidate; position: { sequence: PrioritySequence; position: number; tag: string } }> {
   return candidates
     .filter(({ article }) => article.coreInterests.includes(interest))
+    .flatMap((candidate) => {
+      const position = bestTagPosition(candidate);
+      return position !== null && candidate.article.readingMinutes !== null && candidate.article.readingMinutes < 15
+        ? [{ candidate, position }]
+        : [];
+    })
     .sort((a, b) =>
-      b.priority.score - a.priority.score ||
-      savedTime(a.article) - savedTime(b.article) ||
-      a.article.id.localeCompare(b.article.id)
-    )
-    .slice(0, 25)
-    .map((candidate, index) => ({ candidate, rank: index + 1 }))
-    .filter(({ candidate, rank }) => rank > 1 && candidate.article.readingMinutes !== null && candidate.article.readingMinutes < 15);
+      a.position.position - b.position.position ||
+      a.position.sequence.localeCompare(b.position.sequence) ||
+      a.candidate.article.id.localeCompare(b.candidate.article.id)
+    );
 }
 
 export function selectCoreInterestArticle(
@@ -76,8 +97,8 @@ export function selectCoreInterestArticle(
   random: () => number = Math.random,
 ): SelectedCoreInterestArticle | null {
   const available = CORE_INTERESTS.flatMap((interest) => {
-    const ranked = rankedCandidates(interest, candidates);
-    return ranked.length > 0 ? [{ interest, ranked }] : [];
+    const positioned = positionedCandidates(interest, candidates);
+    return positioned.length > 0 ? [{ interest, positioned }] : [];
   });
   if (available.length === 0) {
     return null;
@@ -87,11 +108,17 @@ export function selectCoreInterestArticle(
   if (!selectedInterest) {
     return null;
   }
-  const selected = selectedInterest.ranked[randomIndex(random(), selectedInterest.ranked.length)];
+  const selected = selectedInterest.positioned[randomIndex(random(), selectedInterest.positioned.length)];
   if (!selected) {
     return null;
   }
-  return { interest: selectedInterest.interest, rank: selected.rank, article: selected.candidate.article };
+  return {
+    interest: selectedInterest.interest,
+    sequence: selected.position.sequence,
+    position: selected.position.position,
+    tag: selected.position.tag,
+    article: selected.candidate.article,
+  };
 }
 
 function escapeHtml(text: string): string {
@@ -119,12 +146,12 @@ export function buildCoreInterestEmail(
     html: `<!doctype html>
 <html><body style="font-family: sans-serif; max-width: 600px; margin: 0 auto;">
   <h1 style="font-size: 20px;">Een artikel voor je</h1>
-  <p style="color: #888; font-size: 13px;">${escapeHtml(dateLabel)} · ${escapeHtml(label)} · positie ${String(selected.rank)} van de top-25</p>
+  <p style="color: #888; font-size: 13px;">${escapeHtml(dateLabel)} · ${escapeHtml(label)} · ${escapeHtml(selected.tag)} · positie ${String(selected.position)} van de top-25</p>
   <p style="font-size: 18px;"><a href="${escapeHtml(article.readwiseUrl)}" style="color: #111;">${escapeHtml(article.title)}</a></p>
   <p style="font-size: 13px; color: #555;">Leestijd: ${String(readingMinutes)} minuten</p>
   ${article.whyRead ? `<p style="font-size: 14px; color: #555;">${escapeHtml(article.whyRead)}</p>` : ""}
 </body></html>`,
-    text: `Een artikel voor je (${dateLabel})\n\n${label} · positie ${String(selected.rank)} van de top-25\n${article.title}\n${article.readwiseUrl}\nLeestijd: ${String(readingMinutes)} minuten${article.whyRead ? `\n${article.whyRead}` : ""}\n`,
+    text: `Een artikel voor je (${dateLabel})\n\n${label} · ${selected.tag} · positie ${String(selected.position)} van de top-25\n${article.title}\n${article.readwiseUrl}\nLeestijd: ${String(readingMinutes)} minuten${article.whyRead ? `\n${article.whyRead}` : ""}\n`,
   };
 }
 
