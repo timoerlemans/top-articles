@@ -15,7 +15,7 @@ export const FAMILY_DEFINITIONS = [
   { id: "kort-nederlands", label: "Kort & NL", sequence: "short-dutch", top10Tag: "aaa-short-dutch-top-10", top100Tag: "aaa-short-dutch-top-100" },
   { id: "luchtig", label: "Luchtig", sequence: "luchtig", top10Tag: "aaa-luchtig-top-10", top100Tag: "aaa-luchtig-top-100" },
   { id: "luchtig-nederlands", label: "Luchtig & NL", sequence: "luchtig-nederlands", top10Tag: "aaa-luchtig-nederlands-top-10", top100Tag: "aaa-luchtig-nederlands-top-100" },
-  { id: "scrum", label: "Scrum", sequence: "scrum", top10Tag: "aaa-scrum-top-10", top100Tag: "aaa-scrum-top-100" },
+  { id: "scrum", label: "Agile", sequence: "scrum", top10Tag: "aaa-scrum-top-10", top100Tag: "aaa-scrum-top-100" },
   { id: "social-studies", label: "Sociale studies & samenwerking", sequence: "social-studies", top10Tag: "aaa-social-studies-top-10", top100Tag: "aaa-social-studies-top-100" },
   { id: "software-development", label: "Software development", sequence: "software-development", top10Tag: "aaa-software-development-top-10", top100Tag: "aaa-software-development-top-100" },
   { id: "front-end-development", label: "Front-end development", sequence: "front-end-development", top10Tag: "aaa-front-end-development-top-10", top100Tag: "aaa-front-end-development-top-100" },

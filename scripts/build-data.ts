@@ -27,7 +27,7 @@ const PRIORITY_OUT_FILE = join(ROOT, "data", "score.js");
 const OVERRIDES_FILE = join(ROOT, "config", "readwise-priority-overrides.json");
 
 const RESPONSE_FIELDS =
-  "title,author,site_name,summary,word_count,reading_time,published_date,saved_at,image_url,source_url,url,category,tags,notes";
+  "title,site_name,summary,word_count,reading_time,published_date,saved_at,image_url,source_url,url,category,tags,notes";
 
 // Kleine, vaste set taal-tags — bewust geen volledige taxonomie-tags in de output.
 const LANGUAGE_TAG_MAP: Readonly<Record<string, string>> = {

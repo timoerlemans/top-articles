@@ -110,3 +110,13 @@ test("bouwt de social-studies-familielijst met de toegewezen toplijsttags", () =
     top100Tag: "aaa-social-studies-top-100",
   });
 });
+
+test("heeft Agile als zichtbare naam maar behoudt de interne scrum-familie", () => {
+  assert.deepEqual(FAMILY_DEFINITIONS.find(({ id }) => id === "scrum"), {
+    id: "scrum",
+    label: "Agile",
+    sequence: "scrum",
+    top10Tag: "aaa-scrum-top-10",
+    top100Tag: "aaa-scrum-top-100",
+  });
+});

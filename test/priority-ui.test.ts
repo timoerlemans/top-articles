@@ -21,6 +21,7 @@ test("de browser toont sociale studies als eigen prioriteitsreeks naast de besta
   const source = await readFile(new URL("../src/app.js", import.meta.url), "utf8");
 
   assert.match(source, /"social-studies": "Sociale studies & samenwerking"/);
+  assert.match(source, /scrum: "Agile"/);
   assert.match(
     source,
     /"scrum",\s*"software-development",\s*"front-end-development",\s*"social-studies"/

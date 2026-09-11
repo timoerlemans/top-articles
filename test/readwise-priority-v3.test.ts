@@ -123,13 +123,26 @@ test("een NL-document met een lichte onderwerptag krijgt ook luchtig-nederlands"
   );
 });
 
-test("een document met de tag scrum of agile behoudt scrum naast de reguliere en social-studies-reeksen", () => {
+test("een document met een expliciete Agile-tag krijgt de Agile-reeks", () => {
   assert.deepEqual(
     sequencesForDocument(document({ tags: { scrum: {} } })),
     ["lees", "scrum", "social-studies"]
   );
   assert.ok(sequencesForDocument(document({ tags: { agile: {} } })).includes("scrum"));
   assert.ok(sequencesForDocument(document({ tags: { "agile & scrum": {} } })).includes("scrum"));
+  assert.ok(sequencesForDocument(document({ tags: { "scrum & agile": {} } })).includes("scrum"));
+});
+
+test("elke team-tag krijgt de Agile-reeks zonder de Social-studies-reeks te verliezen", () => {
+  assert.deepEqual(
+    sequencesForDocument(document({ tags: { "team coaching": {} } })),
+    ["lees", "scrum", "social-studies"],
+  );
+  assert.deepEqual(
+    sequencesForDocument(document({ tags: { "team dynamics & collaboration": {} } })),
+    ["lees", "scrum", "social-studies"],
+  );
+  assert.ok(!sequencesForDocument(document({ tags: { teammate: {} } })).includes("scrum"));
 });
 
 test("een boek met de tag scrum hoort nog steeds strikt alleen in boek", () => {

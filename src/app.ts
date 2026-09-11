@@ -128,7 +128,7 @@ registerServiceWorker();
     "short-dutch": "Kort NL",
     luchtig: "Luchtig",
     "luchtig-nederlands": "Luchtig NL",
-    scrum: "Scrum",
+    scrum: "Agile",
     "software-development": "Software development",
     "front-end-development": "Front-end development",
     "social-studies": "Sociale studies & samenwerking",

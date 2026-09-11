@@ -81,7 +81,7 @@ const LIGHT_TOPIC_TAGS = new Set([
   "entertainment & pop culture",
 ]);
 
-const SCRUM_TAGS = new Set(["scrum", "agile", "agile & scrum"]);
+const SCRUM_TAGS = new Set(["scrum", "agile", "agile & scrum", "scrum & agile"]);
 const SOFTWARE_DEVELOPMENT_TAGS = new Set(["software development", "software-development", "programming & software"]);
 const FRONT_END_DEVELOPMENT_TAGS = new Set([
   "front-end development", "frontend development", "front end development", "front-end-development", "accessibility",
@@ -170,6 +170,10 @@ function contentTagsFor(doc: PriorityDocument): string[] {
   return [...new Set([...rawTags, ...canonicalInterestTags(rawTags)])];
 }
 
+function hasTeamTag(tags: readonly string[]): boolean {
+  return tags.some((tag) => /\bteam\b/.test(tag));
+}
+
 function tierForScore(score: number): PriorityTier {
   if (score >= 70) {
     return "hoog";
@@ -250,7 +254,7 @@ export function sequencesForDocument(doc: PriorityDocument): PrioritySequence[] 
         sequences.add("luchtig-nederlands");
       }
     }
-    if ([...tags].some((tag) => SCRUM_TAGS.has(tag))) {
+    if ([...tags].some((tag) => SCRUM_TAGS.has(tag)) || hasTeamTag([...tags])) {
       sequences.add("scrum");
     }
     if ([...tags].some((tag) => SOFTWARE_DEVELOPMENT_TAGS.has(tag))) {

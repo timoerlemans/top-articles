@@ -9,7 +9,7 @@ import {
 
 test("normaliseert bekende inhoudelijke aliassen naar de officiële taxonomie", () => {
   assert.deepEqual(
-    canonicalInterestTags(["agile & scrum", "psychology", "accessibility", "unknown topic"]),
+    canonicalInterestTags(["agile & scrum", "scrum & agile", "psychology", "accessibility", "unknown topic"]),
     ["accessibility", "agile", "behavioral psychology & coaching", "scrum", "unknown topic"],
   );
 });
