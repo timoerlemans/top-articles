@@ -1,6 +1,6 @@
 // Automatisch gegenereerd door scripts/build-data.ts — niet handmatig bewerken.
 window.TOP_ARTICLES = {
-  "generatedAt": "2026-09-10T17:23:35.545Z",
+  "generatedAt": "2026-09-11T08:42:32.168Z",
   "families": [
     {
       "id": "algemeen",
@@ -23065,6 +23065,32 @@ window.TOP_ARTICLES = {
             },
             {
               "position": 58,
+              "id": "01m27pjkn9enq8rnp6exhqw59d",
+              "title": "Omarchy is de nieuwe hobby van extreemrechtse techbros",
+              "author": "FYI Blog feed",
+              "siteName": "reinier.fyi",
+              "category": "rss",
+              "language": null,
+              "readingTime": "3 mins",
+              "readingMinutes": 3,
+              "wordCount": 599,
+              "publishedDate": "2026-09-11",
+              "savedDate": "2026-09-11T07:40:35.442000+00:00",
+              "imageUrl": "https://reinier.fyi/images/social-preview-images/2026-09-11-omarchy-is-de-nieuwe-hobby-van-extreemrechtse-techbros-preview.jpeg",
+              "sourceUrl": "https://reinier.fyi/nieuwsbrief/2026/02-omarchy-1password/",
+              "readwiseUrl": "https://read.readwise.io/read/01m27pjkn9enq8rnp6exhqw59d",
+              "summary": "Hi, Reinier hier,\nIn mijn zoektocht naar een fijn onderkomen binnen Linux ben ik ook Omarchy tegengekomen (Google het maar, ik ga er niet eens naar linken). Ik wist al wel wat voor een onguur type de maker was (David Heinemeier Hansson, oftewel 'DHH' voor techbro's), toch was ik nieuwsgierig naar wat hij had gemaakt. Er was nogal veel hype omheen namelijk. En de werkfilosofie 'Getting Real' waar David aan heeft meegeschreven heb ik ook altijd interessant gevonden, ondanks z'n onfrisse ideeën over de samenleving.\nNa wat aanklooien met Omarchy was ik weer een Linux-ervaring rijker. Het bleek een bij elkaar geraapt zooitje met een glanzende saus eroverheen. Ook niks wat ik niet zelf kon configureren met zelf geselecteerde componenten en instellingen. Er zit ook geen visie achter het 'OS' (als je het zo kunt noemen). Het waait mee met de huidige wensen en behoeften van David (en het waait daar nogal). Geen probleem natuurlijk als het je eigen systeem is, maar het wordt wel echt een issue als je hier duizenden mensen mee opzadelt.\nHet project heeft ondertussen al ruim 13 miljoen dollar aan investeringen opgehaald. Flinke investeringen voor een paar scripts, configuratiebestanden en marketingmateriaal. Er is volgens mij dan ook meer aan de hand. Het lijkt op een soort machtsgreep om van binnenuit een stuk controle te vergaren in de Linuxwereld.\nBedrijven als 1Password, DigitalOcean en Notion doen hieraan mee en dat vind ik bizar. Niet alleen omdat het project niks voorstelt (het geld kan veel beter geïnvesteerd worden in gebruiksvriendelijke initiatieven die er genoeg zijn binnen de Linuxwereld, en die gebruikers met respect behandelen), maar ook omdat, zoals ik al eerder schreef, de oprichter David zo'n openlijk racistisch figuur is. Hij steekt dit overigens niet onder stoelen of banken.\nHier krijg je een beetje een beeld bij wat zijn ideëen zijn en in welk wespennest de bedrijven zich bewust hebben gemanouvreerd:\n\nDHH Nazism Funded by 1Password VP Who Wrote \"Honest S...",
+              "whyRead": "Raakt je interesse in softwareontwikkeling en techcultuur; deze opinie gebruikt Omarchy als casus voor de wisselwerking tussen hype, geld en macht.",
+              "bestMoment": "kritisch",
+              "tags": [
+                "organizational behavior & culture",
+                "software development",
+                "technology"
+              ],
+              "alsoIn": []
+            },
+            {
+              "position": 59,
               "id": "01jkxyd6vfh2jexjbtgjr59px7",
               "title": "How to live without your phone",
               "author": "Sam Kriss",
@@ -23090,7 +23116,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 59,
+              "position": 60,
               "id": "01k4z39b4kefzdb9dgxdzfhwj4",
               "title": "Obsidian + AI: How to Do It The Right Way",
               "author": "Linking Your Thinking with Nick Milo",
@@ -23118,7 +23144,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 60,
+              "position": 61,
               "id": "01k7h9szzyxzgn4ywcv20zas73",
               "title": "The small web is beautiful",
               "author": "Ben Hoyt",
@@ -23143,7 +23169,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 61,
+              "position": 62,
               "id": "01k7j6nyeb06gx7dcdxjaqp5ps",
               "title": "First we shape our social graph; then it shapes us\nFirst we shape our social graph; then it shapes us",
               "author": "Henrik Karlsson",
@@ -23170,7 +23196,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 62,
+              "position": 63,
               "id": "01keyjrqgd6xh0svcy2ce3bb6e",
               "title": "📗 REVIEW: The Perfectionists by Simon Winchester",
               "author": "Eleanor Konik",
@@ -23196,7 +23222,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 63,
+              "position": 64,
               "id": "01knefpm3ae2ew1jrq9twtjc1w",
               "title": "Filesystems are having a moment",
               "author": "a digital garden by daniel phiri",
@@ -23221,7 +23247,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 64,
+              "position": 65,
               "id": "01m1q39c2bg52c45zpapazahcw",
               "title": "How do you figure?",
               "author": "scottohara.me",
@@ -23252,7 +23278,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 65,
+              "position": 66,
               "id": "01m1q3a6kzaqg7nbd7c5btqga6",
               "title": "Design Systems",
               "author": "24ways.org",
@@ -23279,7 +23305,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 66,
+              "position": 67,
               "id": "01m1q3avpkng20xp40evb3sd7x",
               "title": "Web Standards Trifle",
               "author": "stuffandnonsense.co.uk",
@@ -23306,7 +23332,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 67,
+              "position": 68,
               "id": "01m1q5m76kf897skswb68b4ybj",
               "title": "A Dao of Web Design",
               "author": "alistapart.com",
@@ -23337,7 +23363,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 68,
+              "position": 69,
               "id": "01m1q5mj32wmmzv65nwajcxaf3",
               "title": "Pocket-Sized Design: Taking Your Website to the Small Screen",
               "author": "alistapart.com",
@@ -23368,7 +23394,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 69,
+              "position": 70,
               "id": "01m1p73qevkcgcsjxr33bk03xs",
               "title": "Systems that defy detailed understanding",
               "author": "blog.nelhage.com",
@@ -23394,7 +23420,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 70,
+              "position": 71,
               "id": "01m1pc52whmcp71rdn2f2d01qb",
               "title": "Ain’t no party like a third party",
               "author": "adactio.com",
@@ -23421,7 +23447,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 71,
+              "position": 72,
               "id": "01m1ptg9wcvpkqrzx443whsykj",
               "title": "Alternative Text",
               "author": "webaim.org",
@@ -23447,7 +23473,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 72,
+              "position": 73,
               "id": "01m1q3n5fwfb2sda34zb59ka8p",
               "title": "First, Understand Your Screen",
               "author": "tripleodeon.com",
@@ -23474,7 +23500,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 73,
+              "position": 74,
               "id": "01m1q3nhahbg0j0jg7zckg8hg6",
               "title": "Fluid Images",
               "author": "unstoppablerobotninja.com",
@@ -23501,7 +23527,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 74,
+              "position": 75,
               "id": "01m1q3nmf91k0pq3kq0q75pcp1",
               "title": "Fluid Grids",
               "author": "alistapart.com",
@@ -23528,7 +23554,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 75,
+              "position": 76,
               "id": "01m1q5mmmtp4bapv8zdc44zcvg",
               "title": "Put Your Content in My Pocket",
               "author": "alistapart.com",
@@ -23559,7 +23585,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 76,
+              "position": 77,
               "id": "01m1q5n2mfrkmzrfsvf4zsc99q",
               "title": "Responsive Web Design: Missing the Point",
               "author": "bradfrost.com",
@@ -23586,7 +23612,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 77,
+              "position": 78,
               "id": "01m1w4fzwhgx8cz2g8nkap1pdq",
               "title": "ExploitGym: Can AI Agents Turn Security Vulnerabilities into Real Attacks?",
               "author": "arxiv.org",
@@ -23612,7 +23638,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 78,
+              "position": 79,
               "id": "01k4w72317s9j26g6d1qybjth1",
               "title": "Prompting Playbook 2025: 4 Beginner Moves, 12 Pro Patterns",
               "author": "AI News & Strategy Daily | Nate B Jones",
@@ -23641,7 +23667,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 79,
+              "position": 80,
               "id": "01kgdfp777bge0tsbfpzway43h",
               "title": "Why Designers Can No Longer Trust the Design Process",
               "author": "Hatch Conference",
@@ -23669,7 +23695,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 80,
+              "position": 81,
               "id": "01kjnmsk3mmpayj96rpj8s8fv4",
               "title": "Evaluating AGENTS.md: Are Repository-Level Context Files Helpful for Coding Agents?",
               "author": "Thibaud Gloaguen; Niels Mündler; Mark Müller; Veselin Raychev; Martin Vechev",
@@ -23696,7 +23722,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 81,
+              "position": 82,
               "id": "01keht5gn85sygznbg0h2ngzsm",
               "title": "Nobody knows how large software products work",
               "author": "seangoedecke.com",
@@ -23722,7 +23748,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 82,
+              "position": 83,
               "id": "01m1p470j3kcmd7srqg5enza7f",
               "title": "Style performance and concurrent rendering",
               "author": "nolanlawson.com",
@@ -23748,7 +23774,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 83,
+              "position": 84,
               "id": "01m1p7327vfsy0dqn6zk81hgja",
               "title": "What I’ve learned about accessibility in SPAs",
               "author": "nolanlawson.com",
@@ -23774,7 +23800,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 84,
+              "position": 85,
               "id": "01m1p73hjrqhr72t1vwh8ny5b0",
               "title": "Memory leaks: the forgotten side of web performance",
               "author": "nolanlawson.com",
@@ -23800,7 +23826,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 85,
+              "position": 86,
               "id": "01m1p7414hg20qvstgwygjwdhv",
               "title": "Be progressive",
               "author": "adactio.com",
@@ -23826,7 +23852,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 86,
+              "position": 87,
               "id": "01m1p7t768p214ge05dyrmmm08",
               "title": "User-centric performance metrics",
               "author": "developers.google.com",
@@ -23852,7 +23878,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 87,
+              "position": 88,
               "id": "01m1p7tppsy5qeyt4m808ekcgx",
               "title": "High-performance input handling on the web",
               "author": "nolanlawson.com",
@@ -23878,7 +23904,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 88,
+              "position": 89,
               "id": "01m1p7tvytpqfewp92vat08xw8",
               "title": "How large DOM sizes affect interactivity, and what you can do about it",
               "author": "web.dev",
@@ -23904,7 +23930,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 89,
+              "position": 90,
               "id": "01m1pc576k50j01bhxhbrpm83v",
               "title": "Why Efficient Hydration in JavaScript Frameworks is so Challenging",
               "author": "dev.to",
@@ -23930,7 +23956,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 90,
+              "position": 91,
               "id": "01m1pc5k1q6bd3ywk10j54kee5",
               "title": "Missed Connections",
               "author": "aaron-gustafson.com",
@@ -23956,7 +23982,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 91,
+              "position": 92,
               "id": "01m1pc5ty6322rn2cg1cjtt21p",
               "title": "Fundamentally connected",
               "author": "kryogenix.org",
@@ -23982,7 +24008,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 92,
+              "position": 93,
               "id": "01m1pc6gr3vhv7xva2751hmj1n",
               "title": "Second-guessing the modern web",
               "author": "macwright.org",
@@ -24008,7 +24034,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 93,
+              "position": 94,
               "id": "01m1pc896pdtvkq4831tk0tr17",
               "title": "Page Weight Matters",
               "author": "blog.chriszacharias.com",
@@ -24034,7 +24060,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 94,
+              "position": 95,
               "id": "01m1pkbsyqx3cxesvp346tnad9",
               "title": "Techcrunch",
               "author": "bradfrost.com",
@@ -24060,7 +24086,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 95,
+              "position": 96,
               "id": "01m1pkbwp8yhkmvyn4v9hw8p0p",
               "title": "For a Future-Friendly Web",
               "author": "alistapart.com",
@@ -24086,7 +24112,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 96,
+              "position": 97,
               "id": "01m1pkcqybtrart8abs9dmmcqd",
               "title": "Principles of Design",
               "author": "w3.org",
@@ -24112,7 +24138,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 97,
+              "position": 98,
               "id": "01m1pkcy3mwn5efd7wb4mm674v",
               "title": "Debuggable JavaScript in Production with Source Maps",
               "author": "blog.sentry.io",
@@ -24138,7 +24164,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 98,
+              "position": 99,
               "id": "01m1ptdtpgacgz9tkd640axtse",
               "title": "Future-Ready Content",
               "author": "alistapart.com",
@@ -24164,7 +24190,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 99,
+              "position": 100,
               "id": "01m1pte2ggm4we1zm4q8c70b0s",
               "title": "Responsive Web Design",
               "author": "alistapart.com",
@@ -24181,32 +24207,6 @@ window.TOP_ARTICLES = {
               "readwiseUrl": "https://read.readwise.io/read/01m1pte2ggm4we1zm4q8c70b0s",
               "summary": "Designers have coveted print for its precision layouts, lamenting the varying user contexts on the web that compromise their designs. Ethan Marcotte advocates we shift our design thinking to approp…",
               "whyRead": "Raakt je interesse in front-end software development en technologie en ontwerpfilosofie; dit klassieke essay verschuift responsive design van apparaat-specifieke sites naar een ontwerp dat met context en schermruimte meebeweegt.",
-              "bestMoment": "leergierig",
-              "tags": [
-                "front-end software development",
-                "professional development",
-                "software development"
-              ],
-              "alsoIn": []
-            },
-            {
-              "position": 100,
-              "id": "01m1pteat342mvst3ac1rh3m9j",
-              "title": "Responsive Images: How they Almost Worked and What We Need",
-              "author": "alistapart.com",
-              "siteName": "A List Apart",
-              "category": "article",
-              "language": null,
-              "readingTime": "8 mins",
-              "readingMinutes": 8,
-              "wordCount": 2115,
-              "publishedDate": "2012-01-31",
-              "savedDate": "2026-09-04T18:21:07.267000+00:00",
-              "imageUrl": "https://i0.wp.com/alistapart.com/wp-content/uploads/2013/01/ALA343_respimages_300.png?fit=646%2C1163&ssl=1",
-              "sourceUrl": "http://www.alistapart.com/articles/responsive-images-how-they-almost-worked-and-what-we-need/",
-              "readwiseUrl": "https://read.readwise.io/read/01m1pteat342mvst3ac1rh3m9j",
-              "summary": "With a mobile-first responsive design approach, if any part of the process breaks down, your user can still receive a representative image and avoid an unnecessarily large request on a device that …",
-              "whyRead": "Raakt je interesse in front-end software development en technologie en progressive enhancement; dit essay laat via een mislukte responsive-imagestrategie zien waarom robuuste fallbacks en semantische markup belangrijker zijn dan een slimme truc.",
               "bestMoment": "leergierig",
               "tags": [
                 "front-end software development",
@@ -29869,6 +29869,229 @@ window.TOP_ARTICLES = {
     "items": [
       {
         "position": null,
+        "id": "01m27pjkn9enq8rnp6exhqw59d",
+        "title": "Omarchy is de nieuwe hobby van extreemrechtse techbros",
+        "author": "FYI Blog feed",
+        "siteName": "reinier.fyi",
+        "category": "rss",
+        "language": null,
+        "readingTime": "3 mins",
+        "readingMinutes": 3,
+        "wordCount": 599,
+        "publishedDate": "2026-09-11",
+        "savedDate": "2026-09-11T07:40:35.442000+00:00",
+        "imageUrl": "https://reinier.fyi/images/social-preview-images/2026-09-11-omarchy-is-de-nieuwe-hobby-van-extreemrechtse-techbros-preview.jpeg",
+        "sourceUrl": "https://reinier.fyi/nieuwsbrief/2026/02-omarchy-1password/",
+        "readwiseUrl": "https://read.readwise.io/read/01m27pjkn9enq8rnp6exhqw59d",
+        "summary": "Hi, Reinier hier,\nIn mijn zoektocht naar een fijn onderkomen binnen Linux ben ik ook Omarchy tegengekomen (Google het maar, ik ga er niet eens naar linken). Ik wist al wel wat voor een onguur type de maker was (David Heinemeier Hansson, oftewel 'DHH' voor techbro's), toch was ik nieuwsgierig naar wat hij had gemaakt. Er was nogal veel hype omheen namelijk. En de werkfilosofie 'Getting Real' waar David aan heeft meegeschreven heb ik ook altijd interessant gevonden, ondanks z'n onfrisse ideeën over de samenleving.\nNa wat aanklooien met Omarchy was ik weer een Linux-ervaring rijker. Het bleek een bij elkaar geraapt zooitje met een glanzende saus eroverheen. Ook niks wat ik niet zelf kon configureren met zelf geselecteerde componenten en instellingen. Er zit ook geen visie achter het 'OS' (als je het zo kunt noemen). Het waait mee met de huidige wensen en behoeften van David (en het waait daar nogal). Geen probleem natuurlijk als het je eigen systeem is, maar het wordt wel echt een issue als je hier duizenden mensen mee opzadelt.\nHet project heeft ondertussen al ruim 13 miljoen dollar aan investeringen opgehaald. Flinke investeringen voor een paar scripts, configuratiebestanden en marketingmateriaal. Er is volgens mij dan ook meer aan de hand. Het lijkt op een soort machtsgreep om van binnenuit een stuk controle te vergaren in de Linuxwereld.\nBedrijven als 1Password, DigitalOcean en Notion doen hieraan mee en dat vind ik bizar. Niet alleen omdat het project niks voorstelt (het geld kan veel beter geïnvesteerd worden in gebruiksvriendelijke initiatieven die er genoeg zijn binnen de Linuxwereld, en die gebruikers met respect behandelen), maar ook omdat, zoals ik al eerder schreef, de oprichter David zo'n openlijk racistisch figuur is. Hij steekt dit overigens niet onder stoelen of banken.\nHier krijg je een beetje een beeld bij wat zijn ideëen zijn en in welk wespennest de bedrijven zich bewust hebben gemanouvreerd:\n\nDHH Nazism Funded by 1Password VP Who Wrote \"Honest S...",
+        "whyRead": "Raakt je interesse in softwareontwikkeling en techcultuur; deze opinie gebruikt Omarchy als casus voor de wisselwerking tussen hype, geld en macht.",
+        "bestMoment": "kritisch",
+        "tags": [
+          "organizational behavior & culture",
+          "software development",
+          "technology"
+        ],
+        "alsoIn": [
+          "aaa-software-development-top-100"
+        ],
+        "memberships": [
+          {
+            "familyId": "software-development",
+            "size": "top-100",
+            "position": 58
+          }
+        ]
+      },
+      {
+        "position": null,
+        "id": "01m27p1xma0swk13px1frm9vtv",
+        "title": "Erik Erikson knew that self-invention takes a lifetime",
+        "author": "aeon.co",
+        "siteName": "Aeon",
+        "category": "article",
+        "language": null,
+        "readingTime": "5 mins",
+        "readingMinutes": 5,
+        "wordCount": 1284,
+        "publishedDate": null,
+        "savedDate": "2026-09-11T07:31:31.594000+00:00",
+        "imageUrl": "https://omicron.aeon.co/images/28a69f9c-f107-470a-8816-19275fafed8b/idea_sized-par192898.jpg",
+        "sourceUrl": "https://aeon.co/ideas/erik-erikson-knew-that-self-invention-takes-a-lifetime",
+        "readwiseUrl": "https://read.readwise.io/read/01m27p1xma0swk13px1frm9vtv",
+        "summary": "Erik Erikson, the psychoanalyst who coined the term ‘identity crisis’, saw conflict and change at every phase of life",
+        "whyRead": "Raakt je interesse in persoonlijke groei en psychologische ontwikkeling; het essay maakt Eriksons levenslange visie op identiteit praktisch invoelbaar.",
+        "bestMoment": "reflectief",
+        "tags": [
+          "behavioral psychology & coaching",
+          "personal growth & life philosophy",
+          "philosophy"
+        ],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01m27p1md5h19axvmvvtm0g7mb",
+        "title": "Delegation to artificial intelligence can increase dishonest behaviour",
+        "author": "nature.com",
+        "siteName": "Nature",
+        "category": "article",
+        "language": null,
+        "readingTime": "58 mins",
+        "readingMinutes": 58,
+        "wordCount": 15305,
+        "publishedDate": "2025-09-17",
+        "savedDate": "2026-09-11T07:31:22.149000+00:00",
+        "imageUrl": "https://media.springernature.com/m685/springer-static/image/art%3A10.1038%2Fs41586-025-09505-x/MediaObjects/41586_2025_9505_Fig1_HTML.png",
+        "sourceUrl": "https://www.nature.com/articles/s41586-025-09505-x",
+        "readwiseUrl": "https://read.readwise.io/read/01m27p1md5h19axvmvvtm0g7mb",
+        "summary": "People cheat more when they delegate&nbsp;tasks to artificial intelligence, and large language models are more likely than humans to comply with unethical instructions—a risk that can be minimized by introducing prohibitive, task-specific guardrails.",
+        "whyRead": "Raakt je interesse in AI-ethiek en menselijk gedrag; dit recente onderzoek laat zien hoe delegeren aan machines morele drempels kan verlagen.",
+        "bestMoment": "analytisch",
+        "tags": [
+          "ai ethics & society",
+          "social psychology & interpersonal dynamics",
+          "technology"
+        ],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01m27p18996e011fhc8ndwndkf",
+        "title": "What the Ju/’hoansi can tell us about group decision-making | Aeon Essays",
+        "author": "aeon.co",
+        "siteName": "Aeon",
+        "category": "article",
+        "language": null,
+        "readingTime": "15 mins",
+        "readingMinutes": 15,
+        "wordCount": 3846,
+        "publishedDate": "2024-07-15",
+        "savedDate": "2026-09-11T07:31:09.737000+00:00",
+        "imageUrl": "https://images.aeonmedia.co/images/70452b0c-514d-4b9e-a046-8e1c7766b57c/essay-gettyimages-120664729.jpg?width=1200&quality=75&format=auto",
+        "sourceUrl": "https://aeon.co/essays/what-the-ju-hoansi-can-tell-us-about-group-decision-making",
+        "readwiseUrl": "https://read.readwise.io/read/01m27p18996e011fhc8ndwndkf",
+        "summary": "Hunter-gatherer societies are highly expert in group deliberation and decision-making which respects both difference and unity",
+        "whyRead": "Raakt je interesse in facilitatie, groepsbesluitvorming en consensus; het verhaal over de Ju/’hoansi biedt een concreet alternatief voor leiderschap en meerderheidsstemmen.",
+        "bestMoment": "reflectief",
+        "tags": [
+          "facilitation",
+          "social psychology & interpersonal dynamics",
+          "sociology & social structures"
+        ],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01m27g01tjzhyv7gvg5v8mgt37",
+        "title": "An age-old debate about human nature is being energised with new findings on the tightrope of cooperation and competition",
+        "author": "Aeon",
+        "siteName": "Aeon",
+        "category": "article",
+        "language": null,
+        "readingTime": "15 mins",
+        "readingMinutes": 15,
+        "wordCount": 3735,
+        "publishedDate": "2026-02-06",
+        "savedDate": "2026-09-11T05:45:38.898000+00:00",
+        "imageUrl": "https://images.aeonmedia.co/images/83d4df16-ad62-41af-9e7d-bdf72427ce7f/essay-gettyimages-1184358590.jpg?width=1200&quality=75&format=jpg",
+        "sourceUrl": "https://aeon.co/essays/we-cooperate-to-survive-but-if-no-ones-looking-we-compete",
+        "readwiseUrl": "https://read.readwise.io/read/01m27g01tjzhyv7gvg5v8mgt37",
+        "summary": "An age-old debate about human nature is being energised with new findings on the tightrope of cooperation and competition",
+        "whyRead": "Raakt je interesse in sociale psychologie, politieke filosofie en machtsstructuren. Dit essay nuanceert de tegenstelling tussen egoïsme en samenwerking met onderzoek naar context, opportunisme en de sociale voorwaarden waaronder vertrouwen standhoudt.",
+        "bestMoment": "analytisch",
+        "tags": [
+          "political philosophy",
+          "social psychology & interpersonal dynamics",
+          "sociology & social structures"
+        ],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01m27fzn0gdjyb7ynke2y1dh55",
+        "title": "How to rediscover your purpose later in life",
+        "author": "Denise Taylor",
+        "siteName": "Psyche",
+        "category": "article",
+        "language": null,
+        "readingTime": "11 mins",
+        "readingMinutes": 11,
+        "wordCount": 2682,
+        "publishedDate": "2026-08-20",
+        "savedDate": "2026-09-11T05:45:25.776000+00:00",
+        "imageUrl": "https://images.aeonmedia.co/images/fc9ce543-4c3f-4448-9741-f519eb7135fc/nyc8443.jpg?top=55&left=0&cropWidth=1056&cropHeight=594&width=1200&quality=75&format=jpeg",
+        "sourceUrl": "https://psyche.co/guides/how-to-rediscover-your-purpose-later-in-life",
+        "readwiseUrl": "https://read.readwise.io/read/01m27fzn0gdjyb7ynke2y1dh55",
+        "summary": "You don’t have to ‘reinvent’ yourself to live happily after 60. There’s a better approach grounded in lifespan psychology",
+        "whyRead": "Raakt je interesse in persoonlijke groei, betekenis en psychologie. Dit essay biedt een nuchter alternatief voor de druk om jezelf later in het leven opnieuw uit te vinden: onderzoek en praktijk komen samen in het idee van reoriëntatie.",
+        "bestMoment": "reflectief",
+        "tags": [
+          "behavioral psychology & coaching",
+          "personal growth & life philosophy"
+        ],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01m27fz6e50x5kr5ja7m76spz8",
+        "title": "All stars",
+        "author": "Jessica Flack\nCade Massey",
+        "siteName": "Aeon",
+        "category": "article",
+        "language": null,
+        "readingTime": "15 mins",
+        "readingMinutes": 15,
+        "wordCount": 3804,
+        "publishedDate": null,
+        "savedDate": "2026-09-11T05:45:10.853000+00:00",
+        "imageUrl": "https://nu.aeon.co/images/907d94bc-b026-43f9-9f66-ca376a8d1620/header_essay-156418629.jpg",
+        "sourceUrl": "https://aeon.co/essays/what-complexity-science-says-about-what-makes-a-winning-team",
+        "readwiseUrl": "https://read.readwise.io/read/01m27fz6e50x5kr5ja7m76spz8",
+        "summary": "Is a great team more than the sum of its players? Complexity science reveals the role of strategy, synergy, swarming and more",
+        "whyRead": "Raakt je werk als teamcoach en je interesse in teamdynamiek, samenwerking en organisatiegedrag. Complexity science biedt hier een veelbelovend vocabulaire om synergie, complementariteit, synchronie en de invloed van cultuur/processen op prestaties beter te begrijpen.",
+        "bestMoment": "analytisch",
+        "tags": [
+          "organizational behavior & culture",
+          "science",
+          "team dynamics & collaboration"
+        ],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01m25zjt9wrzx2ej4bhw6qe400",
+        "title": "The Quick Case Against Using AI",
+        "author": "Jared Henderson from Commonplace Philosophy",
+        "siteName": "Substack",
+        "category": "email",
+        "language": null,
+        "readingTime": "9 mins",
+        "readingMinutes": 9,
+        "wordCount": 2263,
+        "publishedDate": "2026-09-10",
+        "savedDate": "2026-09-10T15:39:33.564000+00:00",
+        "imageUrl": null,
+        "sourceUrl": "mailto:reader-forwarded-email/16d4c307273062f0267946dc7f2c76f3",
+        "readwiseUrl": "https://read.readwise.io/read/01m25zjt9wrzx2ej4bhw6qe400",
+        "summary": "A traveling salesman comes to your house. You let him inside, and from his briefcase he pulls out a Black Box.",
+        "whyRead": "Raakt je interesse in AI-ethiek, filosofie en de maatschappelijke macht van AI-bedrijven. Het essay bouwt een prikkelend argument dat je geen precieze p(doom)-inschatting hoeft te geloven om kritisch te besluiten wie je geld en trainingsdata geeft.",
+        "bestMoment": "analytisch",
+        "tags": [
+          "ai ethics & society",
+          "philosophy",
+          "technology"
+        ],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
         "id": "01m25wk3vepd95czt5v8s5kg70",
         "title": "When Should a Team Escalate a Problem Instead of Trying to Solve It Themselves?",
         "author": "Vibhor Chandel",
@@ -29887,6 +30110,7 @@ window.TOP_ARTICLES = {
         "whyRead": "Raakt direct je werk als teamcoach en Scrum Master. Dit essay maakt het onderscheid tussen gezonde escalatie, over-escalatie en te lang zelf proberen concreet — precies het spanningsveld tussen autonomie, hulp en systeemverantwoordelijkheid.",
         "bestMoment": "leergierig",
         "tags": [
+          "agile",
           "organizational behavior & culture",
           "team coaching",
           "team dynamics & collaboration"
@@ -33198,7 +33422,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "software-development",
             "size": "top-100",
-            "position": 77
+            "position": 78
           }
         ]
       },
@@ -34092,7 +34316,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "software-development",
             "size": "top-100",
-            "position": 76
+            "position": 77
           }
         ]
       },
@@ -34131,7 +34355,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "software-development",
             "size": "top-100",
-            "position": 75
+            "position": 76
           },
           {
             "familyId": "front-end-development",
@@ -34180,7 +34404,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "software-development",
             "size": "top-100",
-            "position": 68
+            "position": 69
           },
           {
             "familyId": "front-end-development",
@@ -34257,7 +34481,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "software-development",
             "size": "top-100",
-            "position": 67
+            "position": 68
           },
           {
             "familyId": "front-end-development",
@@ -34303,7 +34527,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "software-development",
             "size": "top-100",
-            "position": 74
+            "position": 75
           }
         ]
       },
@@ -34339,7 +34563,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "software-development",
             "size": "top-100",
-            "position": 73
+            "position": 74
           }
         ]
       },
@@ -34375,7 +34599,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "software-development",
             "size": "top-100",
-            "position": 72
+            "position": 73
           }
         ]
       },
@@ -34411,7 +34635,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "software-development",
             "size": "top-100",
-            "position": 66
+            "position": 67
           }
         ]
       },
@@ -34484,7 +34708,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "software-development",
             "size": "top-100",
-            "position": 65
+            "position": 66
           }
         ]
       },
@@ -34627,7 +34851,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "software-development",
             "size": "top-100",
-            "position": 64
+            "position": 65
           },
           {
             "familyId": "front-end-development",
@@ -35175,7 +35399,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "software-development",
             "size": "top-100",
-            "position": 71
+            "position": 72
           }
         ]
       },
@@ -35362,16 +35586,8 @@ window.TOP_ARTICLES = {
           "professional development",
           "software development"
         ],
-        "alsoIn": [
-          "aaa-software-development-top-100"
-        ],
-        "memberships": [
-          {
-            "familyId": "software-development",
-            "size": "top-100",
-            "position": 100
-          }
-        ]
+        "alsoIn": [],
+        "memberships": []
       },
       {
         "position": null,
@@ -35404,7 +35620,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "software-development",
             "size": "top-100",
-            "position": 99
+            "position": 100
           }
         ]
       },
@@ -35439,7 +35655,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "software-development",
             "size": "top-100",
-            "position": 98
+            "position": 99
           }
         ]
       },
@@ -35501,7 +35717,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "software-development",
             "size": "top-100",
-            "position": 97
+            "position": 98
           }
         ]
       },
@@ -35536,7 +35752,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "software-development",
             "size": "top-100",
-            "position": 96
+            "position": 97
           }
         ]
       },
@@ -35662,7 +35878,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "software-development",
             "size": "top-100",
-            "position": 95
+            "position": 96
           }
         ]
       },
@@ -35697,7 +35913,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "software-development",
             "size": "top-100",
-            "position": 94
+            "position": 95
           }
         ]
       },
@@ -35820,7 +36036,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "software-development",
             "size": "top-100",
-            "position": 93
+            "position": 94
           }
         ]
       },
@@ -36115,7 +36331,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "software-development",
             "size": "top-100",
-            "position": 92
+            "position": 93
           }
         ]
       },
@@ -36204,7 +36420,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "software-development",
             "size": "top-100",
-            "position": 91
+            "position": 92
           }
         ]
       },
@@ -36239,7 +36455,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "software-development",
             "size": "top-100",
-            "position": 90
+            "position": 91
           }
         ]
       },
@@ -36328,7 +36544,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "software-development",
             "size": "top-100",
-            "position": 89
+            "position": 90
           }
         ]
       },
@@ -36364,7 +36580,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "software-development",
             "size": "top-100",
-            "position": 70
+            "position": 71
           }
         ]
       },
@@ -36426,7 +36642,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "software-development",
             "size": "top-100",
-            "position": 88
+            "position": 89
           }
         ]
       },
@@ -36461,7 +36677,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "software-development",
             "size": "top-100",
-            "position": 87
+            "position": 88
           }
         ]
       },
@@ -36550,7 +36766,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "software-development",
             "size": "top-100",
-            "position": 86
+            "position": 87
           }
         ]
       },
@@ -36685,7 +36901,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "software-development",
             "size": "top-100",
-            "position": 85
+            "position": 86
           }
         ]
       },
@@ -36747,7 +36963,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "software-development",
             "size": "top-100",
-            "position": 69
+            "position": 70
           }
         ]
       },
@@ -36782,7 +36998,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "software-development",
             "size": "top-100",
-            "position": 84
+            "position": 85
           }
         ]
       },
@@ -36917,7 +37133,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "software-development",
             "size": "top-100",
-            "position": 83
+            "position": 84
           }
         ]
       },
@@ -37153,7 +37369,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "software-development",
             "size": "top-100",
-            "position": 82
+            "position": 83
           }
         ]
       },
@@ -67072,7 +67288,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "software-development",
             "size": "top-100",
-            "position": 63
+            "position": 64
           }
         ]
       },
@@ -68221,7 +68437,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "software-development",
             "size": "top-100",
-            "position": 80
+            "position": 81
           },
           {
             "familyId": "pdfs",
@@ -69369,7 +69585,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "software-development",
             "size": "top-100",
-            "position": 79
+            "position": 80
           },
           {
             "familyId": "videos",
@@ -69892,7 +70108,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "software-development",
             "size": "top-100",
-            "position": 62
+            "position": 63
           }
         ]
       },
@@ -70044,7 +70260,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "software-development",
             "size": "top-100",
-            "position": 81
+            "position": 82
           }
         ]
       },
@@ -73468,7 +73684,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "software-development",
             "size": "top-100",
-            "position": 61
+            "position": 62
           }
         ]
       },
@@ -73585,7 +73801,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "software-development",
             "size": "top-100",
-            "position": 60
+            "position": 61
           }
         ]
       },
@@ -74505,7 +74721,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "software-development",
             "size": "top-100",
-            "position": 59
+            "position": 60
           },
           {
             "familyId": "videos",
@@ -74547,7 +74763,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "software-development",
             "size": "top-100",
-            "position": 78
+            "position": 79
           },
           {
             "familyId": "videos",
@@ -76016,7 +76232,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "software-development",
             "size": "top-100",
-            "position": 58
+            "position": 59
           }
         ]
       },
