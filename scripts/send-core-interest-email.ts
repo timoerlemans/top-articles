@@ -7,7 +7,7 @@ import { fileURLToPath } from "node:url";
 import { dirname, join, resolve } from "node:path";
 import { z } from "zod";
 
-import { amsterdamDateKey, buildCoreInterestEmail, CORE_INTEREST_LABELS, dailyRandomFor, isAmsterdamEightOClock, selectCoreInterestArticle } from "./lib/core-interest-email.js";
+import { amsterdamDateKey, buildCoreInterestEmail, CORE_INTEREST_LABELS, dailyRandomFor, selectCoreInterestArticle, shouldSendCoreInterestEmail } from "./lib/core-interest-email.js";
 import type { CoreInterestCandidate } from "./lib/core-interest-email.js";
 import { DIRECT_DOMAIN_TAGS } from "./lib/readwise-priority-v2.js";
 import type { DirectDomain } from "./lib/readwise-priority-v2.js";
@@ -84,7 +84,8 @@ async function sendEmail({ subject, html, text }: { subject: string; html: strin
 
 async function main(): Promise<void> {
   const now = new Date();
-  if (!isAmsterdamEightOClock(now)) {
+  const forceSend = process.env.FORCE_SEND === "true";
+  if (!shouldSendCoreInterestEmail(now, forceSend)) {
     console.log("Niet verstuurd: het is niet 08:00 in Europe/Amsterdam.");
     return;
   }

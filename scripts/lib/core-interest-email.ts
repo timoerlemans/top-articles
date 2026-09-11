@@ -146,6 +146,10 @@ export function isAmsterdamEightOClock(date: Date): boolean {
   return hour === 8;
 }
 
+export function shouldSendCoreInterestEmail(date: Date, force: boolean): boolean {
+  return force || isAmsterdamEightOClock(date);
+}
+
 export function dailyRandomFor(seed: string): () => number {
   let state = 2_166_136_261;
   for (const character of seed) {

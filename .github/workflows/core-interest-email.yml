@@ -4,7 +4,13 @@ on:
   schedule:
     - cron: "0 6 * * *" # 08:00 CEST
     - cron: "0 7 * * *" # 08:00 CET
-  workflow_dispatch: {}
+  workflow_dispatch:
+    inputs:
+      force:
+        description: "Verstuur ook buiten 08:00 Europe/Amsterdam"
+        required: false
+        default: false
+        type: boolean
 
 permissions:
   contents: read
@@ -29,4 +35,5 @@ jobs:
         env:
           RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
           MAIL_FROM: ${{ secrets.MAIL_FROM }}
+          FORCE_SEND: ${{ inputs.force }}
         run: node dist/scripts/send-core-interest-email.js

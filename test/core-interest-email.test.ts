@@ -5,6 +5,7 @@ import {
   buildCoreInterestEmail,
   dailyRandomFor,
   isAmsterdamEightOClock,
+  shouldSendCoreInterestEmail,
   selectCoreInterestArticle,
 } from "../scripts/lib/core-interest-email.js";
 import type { DirectDomain } from "../scripts/lib/readwise-priority-v2.js";
@@ -80,6 +81,13 @@ test("herkent 08:00 in Amsterdam tijdens winter- en zomertijd", () => {
   assert.equal(isAmsterdamEightOClock(new Date("2026-01-15T06:00:00.000Z")), false);
   assert.equal(isAmsterdamEightOClock(new Date("2026-07-15T06:00:00.000Z")), true);
   assert.equal(isAmsterdamEightOClock(new Date("2026-07-15T07:00:00.000Z")), false);
+});
+
+test("forceert verzending buiten 08:00 wanneer force aanstaat", () => {
+  const outsideEight = new Date("2026-09-11T10:00:00.000Z");
+
+  assert.equal(shouldSendCoreInterestEmail(outsideEight, true), true);
+  assert.equal(shouldSendCoreInterestEmail(outsideEight, false), false);
 });
 
 test("bouwt een mail met interesse, rang, leestijd en Readwise-link", () => {
