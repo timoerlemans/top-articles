@@ -1,6 +1,6 @@
 // Automatisch gegenereerd door scripts/build-data.ts — niet handmatig bewerken.
 window.TOP_ARTICLES = {
-  "generatedAt": "2026-09-11T10:41:02.877Z",
+  "generatedAt": "2026-09-11T14:37:20.389Z",
   "families": [
     {
       "id": "algemeen",
@@ -265,7 +265,6 @@ window.TOP_ARTICLES = {
               ],
               "coreInterests": [
                 "sociologie",
-                "schrijven",
                 "agile"
               ],
               "alsoIn": [
@@ -307,7 +306,6 @@ window.TOP_ARTICLES = {
               ],
               "coreInterests": [
                 "sociologie",
-                "schrijven",
                 "agile"
               ],
               "alsoIn": [
@@ -390,7 +388,6 @@ window.TOP_ARTICLES = {
               "coreInterests": [
                 "ai_ethiek",
                 "sociologie",
-                "pkm",
                 "agile"
               ],
               "alsoIn": [
@@ -662,7 +659,6 @@ window.TOP_ARTICLES = {
               ],
               "coreInterests": [
                 "sociologie",
-                "schrijven",
                 "agile"
               ],
               "alsoIn": [
@@ -704,7 +700,6 @@ window.TOP_ARTICLES = {
               ],
               "coreInterests": [
                 "sociologie",
-                "schrijven",
                 "agile"
               ],
               "alsoIn": [
@@ -787,7 +782,6 @@ window.TOP_ARTICLES = {
               "coreInterests": [
                 "ai_ethiek",
                 "sociologie",
-                "pkm",
                 "agile"
               ],
               "alsoIn": [
@@ -999,7 +993,6 @@ window.TOP_ARTICLES = {
               ],
               "coreInterests": [
                 "filosofie",
-                "geschiedenis",
                 "schrijven"
               ],
               "alsoIn": [
@@ -1200,8 +1193,7 @@ window.TOP_ARTICLES = {
                 "learning & meta-learning"
               ],
               "coreInterests": [
-                "ai_ethiek",
-                "schrijven"
+                "ai_ethiek"
               ],
               "alsoIn": [
                 "aaa-short-top-100",
@@ -1435,7 +1427,6 @@ window.TOP_ARTICLES = {
               ],
               "coreInterests": [
                 "sociologie",
-                "schrijven",
                 "agile"
               ],
               "alsoIn": [
@@ -1759,7 +1750,6 @@ window.TOP_ARTICLES = {
                 "technology"
               ],
               "coreInterests": [
-                "ai_ethiek",
                 "sociologie",
                 "agile"
               ],
@@ -3439,7 +3429,6 @@ window.TOP_ARTICLES = {
                 "team dynamics & collaboration"
               ],
               "coreInterests": [
-                "geschiedenis",
                 "agile"
               ],
               "alsoIn": [
@@ -3727,8 +3716,7 @@ window.TOP_ARTICLES = {
                 "learning & meta-learning"
               ],
               "coreInterests": [
-                "ai_ethiek",
-                "schrijven"
+                "ai_ethiek"
               ],
               "alsoIn": []
             },
@@ -3759,7 +3747,6 @@ window.TOP_ARTICLES = {
               ],
               "coreInterests": [
                 "filosofie",
-                "schrijven",
                 "pkm"
               ],
               "alsoIn": []
@@ -3860,8 +3847,7 @@ window.TOP_ARTICLES = {
                 "sociology & inequality"
               ],
               "coreInterests": [
-                "sociologie",
-                "zorgouderschap"
+                "sociologie"
               ],
               "alsoIn": [
                 "aaa-social-studies-top-100"
@@ -6054,7 +6040,6 @@ window.TOP_ARTICLES = {
               "coreInterests": [
                 "ai_ethiek",
                 "sociologie",
-                "pkm",
                 "agile"
               ],
               "alsoIn": [
@@ -6266,7 +6251,6 @@ window.TOP_ARTICLES = {
               ],
               "coreInterests": [
                 "filosofie",
-                "geschiedenis",
                 "schrijven"
               ],
               "alsoIn": [
@@ -6417,7 +6401,6 @@ window.TOP_ARTICLES = {
               "coreInterests": [
                 "ai_ethiek",
                 "sociologie",
-                "pkm",
                 "agile"
               ],
               "alsoIn": [
@@ -6629,7 +6612,6 @@ window.TOP_ARTICLES = {
               ],
               "coreInterests": [
                 "filosofie",
-                "geschiedenis",
                 "schrijven"
               ],
               "alsoIn": [
@@ -6830,8 +6812,7 @@ window.TOP_ARTICLES = {
                 "learning & meta-learning"
               ],
               "coreInterests": [
-                "ai_ethiek",
-                "schrijven"
+                "ai_ethiek"
               ],
               "alsoIn": [
                 "aaa-top-100",
@@ -7033,7 +7014,6 @@ window.TOP_ARTICLES = {
               ],
               "coreInterests": [
                 "sociologie",
-                "schrijven",
                 "agile"
               ],
               "alsoIn": [
@@ -7357,7 +7337,6 @@ window.TOP_ARTICLES = {
                 "technology"
               ],
               "coreInterests": [
-                "ai_ethiek",
                 "sociologie",
                 "agile"
               ],
@@ -8997,7 +8976,6 @@ window.TOP_ARTICLES = {
                 "team dynamics & collaboration"
               ],
               "coreInterests": [
-                "geschiedenis",
                 "agile"
               ],
               "alsoIn": [
@@ -9588,7 +9566,6 @@ window.TOP_ARTICLES = {
                 "tools & workflows"
               ],
               "coreInterests": [
-                "schrijven",
                 "pkm"
               ],
               "alsoIn": [
@@ -9745,7 +9722,6 @@ window.TOP_ARTICLES = {
                 "tools & workflows"
               ],
               "coreInterests": [
-                "schrijven",
                 "pkm"
               ],
               "alsoIn": [
@@ -11519,7 +11495,6 @@ window.TOP_ARTICLES = {
               ],
               "coreInterests": [
                 "sociologie",
-                "schrijven",
                 "agile"
               ],
               "alsoIn": [
@@ -11561,7 +11536,6 @@ window.TOP_ARTICLES = {
               ],
               "coreInterests": [
                 "sociologie",
-                "schrijven",
                 "agile"
               ],
               "alsoIn": [
@@ -11672,8 +11646,7 @@ window.TOP_ARTICLES = {
                 "learning & meta-learning"
               ],
               "coreInterests": [
-                "ai_ethiek",
-                "schrijven"
+                "ai_ethiek"
               ],
               "alsoIn": [
                 "aaa-top-100",
@@ -11896,7 +11869,6 @@ window.TOP_ARTICLES = {
               ],
               "coreInterests": [
                 "sociologie",
-                "schrijven",
                 "agile"
               ],
               "alsoIn": [
@@ -11938,7 +11910,6 @@ window.TOP_ARTICLES = {
               ],
               "coreInterests": [
                 "sociologie",
-                "schrijven",
                 "agile"
               ],
               "alsoIn": [
@@ -12049,8 +12020,7 @@ window.TOP_ARTICLES = {
                 "learning & meta-learning"
               ],
               "coreInterests": [
-                "ai_ethiek",
-                "schrijven"
+                "ai_ethiek"
               ],
               "alsoIn": [
                 "aaa-top-100",
@@ -12432,8 +12402,7 @@ window.TOP_ARTICLES = {
                 "sociology & inequality"
               ],
               "coreInterests": [
-                "sociologie",
-                "cultuur_games_film"
+                "sociologie"
               ],
               "alsoIn": []
             },
@@ -12531,7 +12500,6 @@ window.TOP_ARTICLES = {
                 "team dynamics & collaboration"
               ],
               "coreInterests": [
-                "schrijven",
                 "agile"
               ],
               "alsoIn": [
@@ -12565,7 +12533,6 @@ window.TOP_ARTICLES = {
                 "sociology & social structures"
               ],
               "coreInterests": [
-                "geschiedenis",
                 "sociologie"
               ],
               "alsoIn": []
@@ -12627,7 +12594,6 @@ window.TOP_ARTICLES = {
                 "tools & workflows"
               ],
               "coreInterests": [
-                "schrijven",
                 "pkm"
               ],
               "alsoIn": [
@@ -12659,7 +12625,6 @@ window.TOP_ARTICLES = {
                 "tools & workflows"
               ],
               "coreInterests": [
-                "schrijven",
                 "pkm"
               ],
               "alsoIn": [
@@ -12818,8 +12783,7 @@ window.TOP_ARTICLES = {
                 "social psychology & interpersonal dynamics"
               ],
               "coreInterests": [
-                "sociologie",
-                "schrijven"
+                "sociologie"
               ],
               "alsoIn": []
             },
@@ -12847,9 +12811,7 @@ window.TOP_ARTICLES = {
                 "learning & meta-learning",
                 "research papers & academia"
               ],
-              "coreInterests": [
-                "schrijven"
-              ],
+              "coreInterests": [],
               "alsoIn": []
             },
             {
@@ -12966,9 +12928,7 @@ window.TOP_ARTICLES = {
                 "arts & culture",
                 "professional development"
               ],
-              "coreInterests": [
-                "schrijven"
-              ],
+              "coreInterests": [],
               "alsoIn": []
             },
             {
@@ -12997,7 +12957,6 @@ window.TOP_ARTICLES = {
                 "sociology & social structures"
               ],
               "coreInterests": [
-                "filosofie",
                 "sociologie"
               ],
               "alsoIn": []
@@ -13145,7 +13104,6 @@ window.TOP_ARTICLES = {
                 "sociology & social structures"
               ],
               "coreInterests": [
-                "geschiedenis",
                 "sociologie"
               ],
               "alsoIn": []
@@ -13842,9 +13800,7 @@ window.TOP_ARTICLES = {
                 "ai ethics & society",
                 "arts & culture"
               ],
-              "coreInterests": [
-                "schrijven"
-              ],
+              "coreInterests": [],
               "alsoIn": []
             },
             {
@@ -13900,9 +13856,7 @@ window.TOP_ARTICLES = {
                 "learning & meta-learning",
                 "professional development"
               ],
-              "coreInterests": [
-                "schrijven"
-              ],
+              "coreInterests": [],
               "alsoIn": []
             },
             {
@@ -13988,9 +13942,7 @@ window.TOP_ARTICLES = {
                 "arts & culture",
                 "personal growth & life philosophy"
               ],
-              "coreInterests": [
-                "filosofie"
-              ],
+              "coreInterests": [],
               "alsoIn": []
             },
             {
@@ -14079,9 +14031,7 @@ window.TOP_ARTICLES = {
                 "ai ethics & society",
                 "arts & culture"
               ],
-              "coreInterests": [
-                "schrijven"
-              ],
+              "coreInterests": [],
               "alsoIn": []
             },
             {
@@ -14167,8 +14117,7 @@ window.TOP_ARTICLES = {
                 "philosophy of mind"
               ],
               "coreInterests": [
-                "filosofie",
-                "geschiedenis"
+                "filosofie"
               ],
               "alsoIn": []
             },
@@ -14230,8 +14179,7 @@ window.TOP_ARTICLES = {
                 "writing craft"
               ],
               "coreInterests": [
-                "sociologie",
-                "schrijven"
+                "sociologie"
               ],
               "alsoIn": []
             },
@@ -14289,9 +14237,7 @@ window.TOP_ARTICLES = {
                 "arts & culture",
                 "learning & meta-learning"
               ],
-              "coreInterests": [
-                "schrijven"
-              ],
+              "coreInterests": [],
               "alsoIn": []
             },
             {
@@ -16130,7 +16076,6 @@ window.TOP_ARTICLES = {
               ],
               "coreInterests": [
                 "sociologie",
-                "schrijven",
                 "agile"
               ],
               "alsoIn": [
@@ -16172,7 +16117,6 @@ window.TOP_ARTICLES = {
               ],
               "coreInterests": [
                 "sociologie",
-                "schrijven",
                 "agile"
               ],
               "alsoIn": [
@@ -16255,7 +16199,6 @@ window.TOP_ARTICLES = {
               "coreInterests": [
                 "ai_ethiek",
                 "sociologie",
-                "pkm",
                 "agile"
               ],
               "alsoIn": [
@@ -16297,7 +16240,6 @@ window.TOP_ARTICLES = {
               ],
               "coreInterests": [
                 "sociologie",
-                "schrijven",
                 "agile"
               ],
               "alsoIn": [
@@ -16539,7 +16481,6 @@ window.TOP_ARTICLES = {
               ],
               "coreInterests": [
                 "sociologie",
-                "schrijven",
                 "agile"
               ],
               "alsoIn": [
@@ -16581,7 +16522,6 @@ window.TOP_ARTICLES = {
               ],
               "coreInterests": [
                 "sociologie",
-                "schrijven",
                 "agile"
               ],
               "alsoIn": [
@@ -16664,7 +16604,6 @@ window.TOP_ARTICLES = {
               "coreInterests": [
                 "ai_ethiek",
                 "sociologie",
-                "pkm",
                 "agile"
               ],
               "alsoIn": [
@@ -16706,7 +16645,6 @@ window.TOP_ARTICLES = {
               ],
               "coreInterests": [
                 "sociologie",
-                "schrijven",
                 "agile"
               ],
               "alsoIn": [
@@ -18260,7 +18198,6 @@ window.TOP_ARTICLES = {
                 "team dynamics & collaboration"
               ],
               "coreInterests": [
-                "geschiedenis",
                 "agile"
               ],
               "alsoIn": [
@@ -18987,7 +18924,6 @@ window.TOP_ARTICLES = {
                 "technology"
               ],
               "coreInterests": [
-                "schrijven",
                 "agile"
               ],
               "alsoIn": []
@@ -19331,7 +19267,6 @@ window.TOP_ARTICLES = {
                 "team dynamics & collaboration"
               ],
               "coreInterests": [
-                "schrijven",
                 "agile"
               ],
               "alsoIn": [
@@ -20211,7 +20146,6 @@ window.TOP_ARTICLES = {
               ],
               "coreInterests": [
                 "sociologie",
-                "schrijven",
                 "agile"
               ],
               "alsoIn": [
@@ -20253,7 +20187,6 @@ window.TOP_ARTICLES = {
               ],
               "coreInterests": [
                 "sociologie",
-                "schrijven",
                 "agile"
               ],
               "alsoIn": [
@@ -20604,7 +20537,6 @@ window.TOP_ARTICLES = {
               ],
               "coreInterests": [
                 "sociologie",
-                "schrijven",
                 "agile"
               ],
               "alsoIn": [
@@ -20646,7 +20578,6 @@ window.TOP_ARTICLES = {
               ],
               "coreInterests": [
                 "sociologie",
-                "schrijven",
                 "agile"
               ],
               "alsoIn": [
@@ -20729,7 +20660,6 @@ window.TOP_ARTICLES = {
               "coreInterests": [
                 "ai_ethiek",
                 "sociologie",
-                "pkm",
                 "agile"
               ],
               "alsoIn": [
@@ -21017,7 +20947,6 @@ window.TOP_ARTICLES = {
               ],
               "coreInterests": [
                 "sociologie",
-                "schrijven",
                 "agile"
               ],
               "alsoIn": [
@@ -21341,7 +21270,6 @@ window.TOP_ARTICLES = {
                 "technology"
               ],
               "coreInterests": [
-                "ai_ethiek",
                 "sociologie",
                 "agile"
               ],
@@ -23100,7 +23028,6 @@ window.TOP_ARTICLES = {
                 "team dynamics & collaboration"
               ],
               "coreInterests": [
-                "geschiedenis",
                 "agile"
               ],
               "alsoIn": [
@@ -23459,8 +23386,7 @@ window.TOP_ARTICLES = {
                 "sociology & inequality"
               ],
               "coreInterests": [
-                "sociologie",
-                "zorgouderschap"
+                "sociologie"
               ],
               "alsoIn": [
                 "aaa-top-100"
@@ -23997,7 +23923,6 @@ window.TOP_ARTICLES = {
               "coreInterests": [
                 "ai_ethiek",
                 "sociologie",
-                "pkm",
                 "agile"
               ],
               "alsoIn": [
@@ -24402,7 +24327,6 @@ window.TOP_ARTICLES = {
               "coreInterests": [
                 "ai_ethiek",
                 "sociologie",
-                "pkm",
                 "agile"
               ],
               "alsoIn": [
@@ -25292,8 +25216,7 @@ window.TOP_ARTICLES = {
                 "programming & software"
               ],
               "coreInterests": [
-                "filosofie",
-                "schrijven"
+                "filosofie"
               ],
               "alsoIn": []
             },
@@ -25665,9 +25588,7 @@ window.TOP_ARTICLES = {
                 "professional development",
                 "software development"
               ],
-              "coreInterests": [
-                "filosofie"
-              ],
+              "coreInterests": [],
               "alsoIn": []
             },
             {
@@ -25694,9 +25615,7 @@ window.TOP_ARTICLES = {
                 "research papers & academia",
                 "software development"
               ],
-              "coreInterests": [
-                "agile"
-              ],
+              "coreInterests": [],
               "alsoIn": [
                 "pdf-top-100"
               ]
@@ -28197,7 +28116,6 @@ window.TOP_ARTICLES = {
                 "tools & workflows"
               ],
               "coreInterests": [
-                "schrijven",
                 "pkm"
               ],
               "alsoIn": [
@@ -28229,7 +28147,6 @@ window.TOP_ARTICLES = {
                 "tools & workflows"
               ],
               "coreInterests": [
-                "schrijven",
                 "pkm"
               ],
               "alsoIn": [
@@ -28541,7 +28458,6 @@ window.TOP_ARTICLES = {
                 "tools & workflows"
               ],
               "coreInterests": [
-                "schrijven",
                 "pkm"
               ],
               "alsoIn": [
@@ -28573,7 +28489,6 @@ window.TOP_ARTICLES = {
                 "tools & workflows"
               ],
               "coreInterests": [
-                "schrijven",
                 "pkm"
               ],
               "alsoIn": [
@@ -29247,7 +29162,6 @@ window.TOP_ARTICLES = {
                 "virtue ethics"
               ],
               "coreInterests": [
-                "ai_ethiek",
                 "filosofie",
                 "ideologie"
               ],
@@ -29465,9 +29379,7 @@ window.TOP_ARTICLES = {
                 "learning & meta-learning",
                 "professional development"
               ],
-              "coreInterests": [
-                "schrijven"
-              ],
+              "coreInterests": [],
               "alsoIn": []
             },
             {
@@ -31787,9 +31699,7 @@ window.TOP_ARTICLES = {
                 "ai ethics & society",
                 "research papers & academia"
               ],
-              "coreInterests": [
-                "schrijven"
-              ],
+              "coreInterests": [],
               "alsoIn": []
             },
             {
@@ -31873,9 +31783,7 @@ window.TOP_ARTICLES = {
                 "research papers & academia",
                 "software development"
               ],
-              "coreInterests": [
-                "agile"
-              ],
+              "coreInterests": [],
               "alsoIn": [
                 "aaa-software-development-top-100"
               ]
@@ -32608,7 +32516,6 @@ window.TOP_ARTICLES = {
               ],
               "coreInterests": [
                 "sociologie",
-                "schrijven",
                 "agile"
               ],
               "alsoIn": [
@@ -32960,7 +32867,6 @@ window.TOP_ARTICLES = {
               ],
               "coreInterests": [
                 "sociologie",
-                "schrijven",
                 "agile"
               ],
               "alsoIn": [
@@ -33864,9 +33770,7 @@ window.TOP_ARTICLES = {
           "ai ethics & society",
           "research papers & academia"
         ],
-        "coreInterests": [
-          "filosofie"
-        ],
+        "coreInterests": [],
         "alsoIn": [],
         "memberships": []
       },
@@ -34136,7 +34040,6 @@ window.TOP_ARTICLES = {
           "technology"
         ],
         "coreInterests": [
-          "ai_ethiek",
           "sociologie"
         ],
         "alsoIn": [],
@@ -36164,7 +36067,6 @@ window.TOP_ARTICLES = {
           "team dynamics & collaboration"
         ],
         "coreInterests": [
-          "geschiedenis",
           "agile"
         ],
         "alsoIn": [
@@ -36770,9 +36672,7 @@ window.TOP_ARTICLES = {
           "learning & meta-learning",
           "personal growth & life philosophy"
         ],
-        "coreInterests": [
-          "schrijven"
-        ],
+        "coreInterests": [],
         "alsoIn": [],
         "memberships": []
       },
@@ -37000,7 +36900,6 @@ window.TOP_ARTICLES = {
           "technology"
         ],
         "coreInterests": [
-          "geschiedenis",
           "sociologie"
         ],
         "alsoIn": [],
@@ -37059,7 +36958,6 @@ window.TOP_ARTICLES = {
           "technology"
         ],
         "coreInterests": [
-          "ai_ethiek",
           "filosofie"
         ],
         "alsoIn": [],
@@ -37769,9 +37667,7 @@ window.TOP_ARTICLES = {
           "learning & meta-learning",
           "research papers & academia"
         ],
-        "coreInterests": [
-          "schrijven"
-        ],
+        "coreInterests": [],
         "alsoIn": [],
         "memberships": []
       },
@@ -38138,9 +38034,7 @@ window.TOP_ARTICLES = {
           "research papers & academia",
           "software development"
         ],
-        "coreInterests": [
-          "agile"
-        ],
+        "coreInterests": [],
         "alsoIn": [
           "aaa-software-development-top-100",
           "pdf-top-100"
@@ -38908,9 +38802,7 @@ window.TOP_ARTICLES = {
           "professional development",
           "software development"
         ],
-        "coreInterests": [
-          "filosofie"
-        ],
+        "coreInterests": [],
         "alsoIn": [
           "aaa-software-development-top-100"
         ],
@@ -40270,9 +40162,7 @@ window.TOP_ARTICLES = {
           "professional development",
           "technology"
         ],
-        "coreInterests": [
-          "agile"
-        ],
+        "coreInterests": [],
         "alsoIn": [],
         "memberships": []
       },
@@ -45996,7 +45886,6 @@ window.TOP_ARTICLES = {
           "sociology & social structures"
         ],
         "coreInterests": [
-          "geschiedenis",
           "sociologie"
         ],
         "alsoIn": [
@@ -46300,7 +46189,6 @@ window.TOP_ARTICLES = {
           "team dynamics & collaboration"
         ],
         "coreInterests": [
-          "schrijven",
           "agile"
         ],
         "alsoIn": [
@@ -46605,9 +46493,7 @@ window.TOP_ARTICLES = {
           "learning & meta-learning",
           "personal growth & life philosophy"
         ],
-        "coreInterests": [
-          "schrijven"
-        ],
+        "coreInterests": [],
         "alsoIn": [],
         "memberships": []
       },
@@ -46745,8 +46631,7 @@ window.TOP_ARTICLES = {
           "sociology & social structures"
         ],
         "coreInterests": [
-          "sociologie",
-          "agile"
+          "sociologie"
         ],
         "alsoIn": [],
         "memberships": []
@@ -47122,9 +47007,7 @@ window.TOP_ARTICLES = {
         "tags": [
           "personal growth & life philosophy"
         ],
-        "coreInterests": [
-          "filosofie"
-        ],
+        "coreInterests": [],
         "alsoIn": [],
         "memberships": []
       },
@@ -47151,9 +47034,7 @@ window.TOP_ARTICLES = {
           "arts & culture",
           "learning & meta-learning"
         ],
-        "coreInterests": [
-          "schrijven"
-        ],
+        "coreInterests": [],
         "alsoIn": [
           "aaa-luchtig-top-100"
         ],
@@ -47227,7 +47108,6 @@ window.TOP_ARTICLES = {
         "coreInterests": [
           "filosofie",
           "ideologie",
-          "geschiedenis",
           "sociologie"
         ],
         "alsoIn": [],
@@ -49132,9 +49012,7 @@ window.TOP_ARTICLES = {
           "arts & culture",
           "fiction"
         ],
-        "coreInterests": [
-          "geschiedenis"
-        ],
+        "coreInterests": [],
         "alsoIn": [],
         "memberships": []
       },
@@ -49516,8 +49394,7 @@ window.TOP_ARTICLES = {
           "writing craft"
         ],
         "coreInterests": [
-          "sociologie",
-          "schrijven"
+          "sociologie"
         ],
         "alsoIn": [
           "aaa-luchtig-top-100"
@@ -49554,9 +49431,7 @@ window.TOP_ARTICLES = {
           "personal growth & life philosophy",
           "writing craft"
         ],
-        "coreInterests": [
-          "schrijven"
-        ],
+        "coreInterests": [],
         "alsoIn": [],
         "memberships": []
       },
@@ -49584,9 +49459,7 @@ window.TOP_ARTICLES = {
           "technology",
           "writing craft"
         ],
-        "coreInterests": [
-          "schrijven"
-        ],
+        "coreInterests": [],
         "alsoIn": [],
         "memberships": []
       },
@@ -49789,9 +49662,7 @@ window.TOP_ARTICLES = {
           "professional development",
           "writing craft"
         ],
-        "coreInterests": [
-          "schrijven"
-        ],
+        "coreInterests": [],
         "alsoIn": [],
         "memberships": []
       },
@@ -49819,9 +49690,7 @@ window.TOP_ARTICLES = {
           "research papers & academia",
           "technology"
         ],
-        "coreInterests": [
-          "agile"
-        ],
+        "coreInterests": [],
         "alsoIn": [],
         "memberships": []
       },
@@ -50166,8 +50035,6 @@ window.TOP_ARTICLES = {
           "team dynamics & collaboration"
         ],
         "coreInterests": [
-          "ai_ethiek",
-          "filosofie",
           "sociologie",
           "agile"
         ],
@@ -50628,9 +50495,7 @@ window.TOP_ARTICLES = {
           "professional development",
           "technology"
         ],
-        "coreInterests": [
-          "agile"
-        ],
+        "coreInterests": [],
         "alsoIn": [],
         "memberships": []
       },
@@ -54271,7 +54136,6 @@ window.TOP_ARTICLES = {
           "sociology & social structures"
         ],
         "coreInterests": [
-          "geschiedenis",
           "sociologie"
         ],
         "alsoIn": [
@@ -54467,8 +54331,7 @@ window.TOP_ARTICLES = {
           "philosophy of mind"
         ],
         "coreInterests": [
-          "filosofie",
-          "geschiedenis"
+          "filosofie"
         ],
         "alsoIn": [
           "aaa-luchtig-top-100"
@@ -55307,9 +55170,7 @@ window.TOP_ARTICLES = {
         "tags": [
           "ai ethics & society"
         ],
-        "coreInterests": [
-          "schrijven"
-        ],
+        "coreInterests": [],
         "alsoIn": [],
         "memberships": []
       },
@@ -56022,8 +55883,7 @@ window.TOP_ARTICLES = {
         "coreInterests": [
           "filosofie",
           "ideologie",
-          "geschiedenis",
-          "schrijven"
+          "geschiedenis"
         ],
         "alsoIn": [],
         "memberships": []
@@ -57243,9 +57103,7 @@ window.TOP_ARTICLES = {
         "tags": [
           "science"
         ],
-        "coreInterests": [
-          "schrijven"
-        ],
+        "coreInterests": [],
         "alsoIn": [],
         "memberships": []
       },
@@ -57300,7 +57158,6 @@ window.TOP_ARTICLES = {
           "technology"
         ],
         "coreInterests": [
-          "schrijven",
           "agile"
         ],
         "alsoIn": [
@@ -57740,7 +57597,6 @@ window.TOP_ARTICLES = {
         ],
         "coreInterests": [
           "filosofie",
-          "geschiedenis",
           "sociologie"
         ],
         "alsoIn": [],
@@ -57921,8 +57777,7 @@ window.TOP_ARTICLES = {
           "philosophy"
         ],
         "coreInterests": [
-          "filosofie",
-          "schrijven"
+          "filosofie"
         ],
         "alsoIn": [],
         "memberships": []
@@ -58276,9 +58131,7 @@ window.TOP_ARTICLES = {
         "tags": [
           "learning & meta-learning"
         ],
-        "coreInterests": [
-          "filosofie"
-        ],
+        "coreInterests": [],
         "alsoIn": [],
         "memberships": []
       },
@@ -58396,9 +58249,7 @@ window.TOP_ARTICLES = {
           "ai ethics & society",
           "arts & culture"
         ],
-        "coreInterests": [
-          "schrijven"
-        ],
+        "coreInterests": [],
         "alsoIn": [
           "aaa-luchtig-top-100"
         ],
@@ -58828,9 +58679,7 @@ window.TOP_ARTICLES = {
           "ai ethics & society",
           "technology"
         ],
-        "coreInterests": [
-          "ai_ethiek"
-        ],
+        "coreInterests": [],
         "alsoIn": [],
         "memberships": []
       },
@@ -59273,9 +59122,7 @@ window.TOP_ARTICLES = {
         "tags": [
           "personal growth & life philosophy"
         ],
-        "coreInterests": [
-          "schrijven"
-        ],
+        "coreInterests": [],
         "alsoIn": [],
         "memberships": []
       },
@@ -59937,9 +59784,7 @@ window.TOP_ARTICLES = {
           "arts & culture",
           "personal growth & life philosophy"
         ],
-        "coreInterests": [
-          "filosofie"
-        ],
+        "coreInterests": [],
         "alsoIn": [
           "aaa-luchtig-top-100"
         ],
@@ -60149,7 +59994,6 @@ window.TOP_ARTICLES = {
           "sociology & social structures"
         ],
         "coreInterests": [
-          "filosofie",
           "sociologie"
         ],
         "alsoIn": [
@@ -60245,8 +60089,7 @@ window.TOP_ARTICLES = {
         "coreInterests": [
           "filosofie",
           "ideologie",
-          "geschiedenis",
-          "schrijven"
+          "geschiedenis"
         ],
         "alsoIn": [],
         "memberships": []
@@ -60672,8 +60515,7 @@ window.TOP_ARTICLES = {
         ],
         "coreInterests": [
           "filosofie",
-          "ideologie",
-          "schrijven"
+          "ideologie"
         ],
         "alsoIn": [],
         "memberships": []
@@ -62027,9 +61869,7 @@ window.TOP_ARTICLES = {
           "arts & culture",
           "professional development"
         ],
-        "coreInterests": [
-          "schrijven"
-        ],
+        "coreInterests": [],
         "alsoIn": [
           "aaa-luchtig-top-100"
         ],
@@ -62300,9 +62140,7 @@ window.TOP_ARTICLES = {
           "ai ethics & society",
           "science"
         ],
-        "coreInterests": [
-          "ai_ethiek"
-        ],
+        "coreInterests": [],
         "alsoIn": [],
         "memberships": []
       },
@@ -64245,7 +64083,6 @@ window.TOP_ARTICLES = {
           "technology"
         ],
         "coreInterests": [
-          "ai_ethiek",
           "sociologie",
           "agile"
         ],
@@ -64468,9 +64305,7 @@ window.TOP_ARTICLES = {
           "research papers & academia",
           "technology"
         ],
-        "coreInterests": [
-          "schrijven"
-        ],
+        "coreInterests": [],
         "alsoIn": [],
         "memberships": []
       },
@@ -64658,9 +64493,7 @@ window.TOP_ARTICLES = {
           "ai ethics & society",
           "research papers & academia"
         ],
-        "coreInterests": [
-          "schrijven"
-        ],
+        "coreInterests": [],
         "alsoIn": [
           "pdf-top-100"
         ],
@@ -65225,9 +65058,7 @@ window.TOP_ARTICLES = {
         "tags": [
           "arts & culture"
         ],
-        "coreInterests": [
-          "geschiedenis"
-        ],
+        "coreInterests": [],
         "alsoIn": [],
         "memberships": []
       },
@@ -65289,8 +65120,7 @@ window.TOP_ARTICLES = {
         ],
         "coreInterests": [
           "filosofie",
-          "sociologie",
-          "cultuur_games_film"
+          "sociologie"
         ],
         "alsoIn": [],
         "memberships": []
@@ -65318,9 +65148,7 @@ window.TOP_ARTICLES = {
           "ai ethics & society",
           "arts & culture"
         ],
-        "coreInterests": [
-          "ai_ethiek"
-        ],
+        "coreInterests": [],
         "alsoIn": [],
         "memberships": []
       },
@@ -65502,9 +65330,7 @@ window.TOP_ARTICLES = {
           "ai ethics & society",
           "arts & culture"
         ],
-        "coreInterests": [
-          "schrijven"
-        ],
+        "coreInterests": [],
         "alsoIn": [],
         "memberships": []
       },
@@ -66297,7 +66123,6 @@ window.TOP_ARTICLES = {
           "virtue ethics"
         ],
         "coreInterests": [
-          "ai_ethiek",
           "filosofie",
           "ideologie"
         ],
@@ -66704,8 +66529,7 @@ window.TOP_ARTICLES = {
         ],
         "coreInterests": [
           "filosofie",
-          "ideologie",
-          "schrijven"
+          "ideologie"
         ],
         "alsoIn": [],
         "memberships": []
@@ -67039,9 +66863,7 @@ window.TOP_ARTICLES = {
           "arts & culture",
           "technology"
         ],
-        "coreInterests": [
-          "schrijven"
-        ],
+        "coreInterests": [],
         "alsoIn": [],
         "memberships": []
       },
@@ -67907,7 +67729,6 @@ window.TOP_ARTICLES = {
         ],
         "coreInterests": [
           "sociologie",
-          "schrijven",
           "agile"
         ],
         "alsoIn": [
@@ -68913,9 +68734,7 @@ window.TOP_ARTICLES = {
           "arts & culture",
           "personal growth & life philosophy"
         ],
-        "coreInterests": [
-          "schrijven"
-        ],
+        "coreInterests": [],
         "alsoIn": [],
         "memberships": []
       },
@@ -68973,9 +68792,7 @@ window.TOP_ARTICLES = {
           "learning & meta-learning",
           "professional development"
         ],
-        "coreInterests": [
-          "schrijven"
-        ],
+        "coreInterests": [],
         "alsoIn": [
           "aaa-luchtig-top-100"
         ],
@@ -69335,7 +69152,6 @@ window.TOP_ARTICLES = {
         ],
         "coreInterests": [
           "sociologie",
-          "schrijven",
           "agile"
         ],
         "alsoIn": [
@@ -69822,9 +69638,7 @@ window.TOP_ARTICLES = {
           "learning & meta-learning",
           "research papers & academia"
         ],
-        "coreInterests": [
-          "schrijven"
-        ],
+        "coreInterests": [],
         "alsoIn": [
           "aaa-luchtig-top-100"
         ],
@@ -69890,8 +69704,7 @@ window.TOP_ARTICLES = {
           "social psychology & interpersonal dynamics"
         ],
         "coreInterests": [
-          "sociologie",
-          "schrijven"
+          "sociologie"
         ],
         "alsoIn": [
           "aaa-luchtig-top-100"
@@ -69979,7 +69792,6 @@ window.TOP_ARTICLES = {
           "social psychology & interpersonal dynamics"
         ],
         "coreInterests": [
-          "geschiedenis",
           "sociologie"
         ],
         "alsoIn": [],
@@ -71467,7 +71279,6 @@ window.TOP_ARTICLES = {
         ],
         "coreInterests": [
           "sociologie",
-          "schrijven",
           "agile"
         ],
         "alsoIn": [
@@ -71623,9 +71434,7 @@ window.TOP_ARTICLES = {
           "ai ethics & society",
           "arts & culture"
         ],
-        "coreInterests": [
-          "schrijven"
-        ],
+        "coreInterests": [],
         "alsoIn": [
           "aaa-luchtig-top-100"
         ],
@@ -72070,8 +71879,7 @@ window.TOP_ARTICLES = {
         ],
         "coreInterests": [
           "filosofie",
-          "sociologie",
-          "cultuur_games_film"
+          "sociologie"
         ],
         "alsoIn": [],
         "memberships": []
@@ -72152,9 +71960,7 @@ window.TOP_ARTICLES = {
         "whyRead": "Sterk, persoonlijk en systemisch essay over technologie als politiek-economisch machtsregime. Raakt AI, technopoly, politieke economie, EU/VS-afhankelijkheid en softwarecultuur, met duidelijke stem en historische framing.",
         "bestMoment": "analytisch",
         "tags": [],
-        "coreInterests": [
-          "schrijven"
-        ],
+        "coreInterests": [],
         "alsoIn": [],
         "memberships": []
       },
@@ -73014,7 +72820,6 @@ window.TOP_ARTICLES = {
         ],
         "coreInterests": [
           "sociologie",
-          "schrijven",
           "agile"
         ],
         "alsoIn": [
@@ -75266,8 +75071,7 @@ window.TOP_ARTICLES = {
           "filosofie",
           "ideologie",
           "sociologie",
-          "schrijven",
-          "cultuur_games_film"
+          "schrijven"
         ],
         "alsoIn": [],
         "memberships": []
@@ -75471,8 +75275,7 @@ window.TOP_ARTICLES = {
           "sociology & inequality"
         ],
         "coreInterests": [
-          "sociologie",
-          "cultuur_games_film"
+          "sociologie"
         ],
         "alsoIn": [
           "aaa-luchtig-top-100"
@@ -76298,8 +76101,7 @@ window.TOP_ARTICLES = {
           "psychology & behavior"
         ],
         "coreInterests": [
-          "filosofie",
-          "cultuur_games_film"
+          "filosofie"
         ],
         "alsoIn": [],
         "memberships": []
@@ -76768,8 +76570,7 @@ window.TOP_ARTICLES = {
         ],
         "coreInterests": [
           "filosofie",
-          "ideologie",
-          "geschiedenis"
+          "ideologie"
         ],
         "alsoIn": [],
         "memberships": []
@@ -76797,9 +76598,7 @@ window.TOP_ARTICLES = {
           "learning & meta-learning",
           "technology"
         ],
-        "coreInterests": [
-          "pkm"
-        ],
+        "coreInterests": [],
         "alsoIn": [],
         "memberships": []
       },
@@ -77949,8 +77748,7 @@ window.TOP_ARTICLES = {
           "learning & meta-learning"
         ],
         "coreInterests": [
-          "ai_ethiek",
-          "schrijven"
+          "ai_ethiek"
         ],
         "alsoIn": [
           "aaa-top-100",
@@ -80438,8 +80236,7 @@ window.TOP_ARTICLES = {
           "popular science"
         ],
         "coreInterests": [
-          "filosofie",
-          "schrijven"
+          "filosofie"
         ],
         "alsoIn": [],
         "memberships": []
@@ -80785,9 +80582,7 @@ window.TOP_ARTICLES = {
           "personal growth & life philosophy",
           "urbanism & mobility"
         ],
-        "coreInterests": [
-          "zorgouderschap"
-        ],
+        "coreInterests": [],
         "alsoIn": [],
         "memberships": []
       },
@@ -80888,8 +80683,7 @@ window.TOP_ARTICLES = {
           "programming & software"
         ],
         "coreInterests": [
-          "filosofie",
-          "schrijven"
+          "filosofie"
         ],
         "alsoIn": [
           "aaa-software-development-top-100"
@@ -81378,7 +81172,6 @@ window.TOP_ARTICLES = {
           "tools & workflows"
         ],
         "coreInterests": [
-          "schrijven",
           "pkm"
         ],
         "alsoIn": [
@@ -81588,7 +81381,6 @@ window.TOP_ARTICLES = {
         ],
         "coreInterests": [
           "filosofie",
-          "geschiedenis",
           "schrijven"
         ],
         "alsoIn": [
@@ -82636,9 +82428,7 @@ window.TOP_ARTICLES = {
           "arts & culture",
           "learning & meta-learning"
         ],
-        "coreInterests": [
-          "geschiedenis"
-        ],
+        "coreInterests": [],
         "alsoIn": [],
         "memberships": []
       },
@@ -83454,7 +83244,6 @@ window.TOP_ARTICLES = {
           "tools & workflows"
         ],
         "coreInterests": [
-          "schrijven",
           "pkm"
         ],
         "alsoIn": [
@@ -83530,8 +83319,7 @@ window.TOP_ARTICLES = {
           "sociology & inequality"
         ],
         "coreInterests": [
-          "sociologie",
-          "zorgouderschap"
+          "sociologie"
         ],
         "alsoIn": [
           "aaa-top-100",
@@ -83967,9 +83755,7 @@ window.TOP_ARTICLES = {
           "business & work",
           "personal growth & life philosophy"
         ],
-        "coreInterests": [
-          "agile"
-        ],
+        "coreInterests": [],
         "alsoIn": [],
         "memberships": []
       },
@@ -84869,7 +84655,6 @@ window.TOP_ARTICLES = {
         ],
         "coreInterests": [
           "filosofie",
-          "schrijven",
           "pkm"
         ],
         "alsoIn": [
@@ -85677,7 +85462,6 @@ window.TOP_ARTICLES = {
         "coreInterests": [
           "ai_ethiek",
           "sociologie",
-          "pkm",
           "agile"
         ],
         "alsoIn": [
@@ -86168,9 +85952,7 @@ window.TOP_ARTICLES = {
           "learning & meta-learning",
           "professional development"
         ],
-        "coreInterests": [
-          "schrijven"
-        ],
+        "coreInterests": [],
         "alsoIn": [
           "boek-top-100"
         ],
@@ -86253,8 +86035,7 @@ window.TOP_ARTICLES = {
           "learning & meta-learning"
         ],
         "coreInterests": [
-          "ai_ethiek",
-          "schrijven"
+          "ai_ethiek"
         ],
         "alsoIn": [
           "aaa-top-100"
@@ -87039,7 +86820,6 @@ window.TOP_ARTICLES = {
           "tools & workflows"
         ],
         "coreInterests": [
-          "schrijven",
           "pkm"
         ],
         "alsoIn": [
@@ -87161,7 +86941,6 @@ window.TOP_ARTICLES = {
           "tools & workflows"
         ],
         "coreInterests": [
-          "schrijven",
           "pkm"
         ],
         "alsoIn": [

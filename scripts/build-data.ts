@@ -10,7 +10,7 @@ import { dirname, join, resolve } from "node:path";
 import { z } from "zod";
 import { buildPriorityExport } from "./lib/readwise-priority-v3.js";
 import type { PriorityExportItem, PriorityOverridesConfig } from "./lib/readwise-priority-v3.js";
-import { matchedDomains } from "./lib/readwise-priority-v2.js";
+import { matchedDomainsFromTags } from "./lib/readwise-priority-v2.js";
 import { FAMILY_DEFINITIONS, buildUnifiedLists } from "./lib/unified-lists.js";
 import type { RankedUnifiedEntry, UnifiedCatalogEntry } from "./lib/unified-lists.js";
 import { parseReadingMinutes } from "./lib/reading-time.js";
@@ -145,7 +145,7 @@ interface CatalogItem {
   whyRead: string | null;
   bestMoment: string | null;
   tags: string[];
-  coreInterests: ReturnType<typeof matchedDomains>;
+  coreInterests: ReturnType<typeof matchedDomainsFromTags>;
   alsoIn: string[];
 }
 
@@ -172,7 +172,7 @@ function toItem(doc: ReadwiseDocument, position: number | null): CatalogItem {
     whyRead,
     bestMoment,
     tags: interestTagsFor(doc),
-    coreInterests: matchedDomains(doc),
+    coreInterests: matchedDomainsFromTags(doc),
     alsoIn: [],
   };
 }

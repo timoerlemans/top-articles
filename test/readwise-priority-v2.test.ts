@@ -3,6 +3,7 @@ import test from "node:test";
 
 import {
   detectDutch,
+  matchedDomainsFromTags,
   scorePriorityDocument,
   sequencesForDocument,
   type PriorityDocument,
@@ -154,6 +155,19 @@ test("herkent kerndomeinen en Waarom lezen in vrije tekst", () => {
     aftrek: 0,
   });
   assert.equal(result.score, 85);
+});
+
+test("bepaalt expliciete kerndomeinen alleen uit tags, niet uit vrije tekst", () => {
+  const domains = matchedDomainsFromTags(document({
+    title: "Who Was Friedrich Nietzsche? His Life And Works",
+    summary: "One of history's most popular thinkers.",
+    tags: {
+      philosophy: {},
+      "social psychology & interpersonal dynamics": {},
+    },
+  }));
+
+  assert.deepEqual(domains, ["filosofie", "sociologie"]);
 });
 
 test("geeft alleen aangrenzende interesse vijftien punten", () => {

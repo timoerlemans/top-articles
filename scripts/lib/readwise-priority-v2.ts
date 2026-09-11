@@ -178,9 +178,19 @@ function matchesVocabulary(doc: PriorityDocument, vocabulary: readonly string[])
   return vocabulary.some((phrase) => tags.has(normalize(phrase)) || hasPhrase(text, phrase));
 }
 
+function matchesVocabularyInTags(doc: PriorityDocument, vocabulary: readonly string[]): boolean {
+  const tags = new Set(tagKeys(doc));
+  return vocabulary.some((phrase) => tags.has(normalize(phrase)));
+}
+
 export function matchedDomains(doc: PriorityDocument): DirectDomain[] {
   return (Object.keys(DIRECT_DOMAIN_TAGS) as DirectDomain[])
     .filter((domain) => matchesVocabulary(doc, DIRECT_DOMAIN_TAGS[domain]));
+}
+
+export function matchedDomainsFromTags(doc: PriorityDocument): DirectDomain[] {
+  return (Object.keys(DIRECT_DOMAIN_TAGS) as DirectDomain[])
+    .filter((domain) => matchesVocabularyInTags(doc, DIRECT_DOMAIN_TAGS[domain]));
 }
 
 function wordCount(doc: PriorityDocument): number | null {
