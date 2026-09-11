@@ -166,3 +166,7 @@ export function dailyRandomFor(seed: string): () => number {
     return ((value ^ (value >>> 14)) >>> 0) / 4_294_967_296;
   };
 }
+
+export function coreInterestRandomFor(date: Date): () => number {
+  return dailyRandomFor(`${amsterdamDateKey(date)}-${String(date.getTime())}`);
+}

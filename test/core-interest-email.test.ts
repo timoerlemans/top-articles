@@ -3,6 +3,7 @@ import test from "node:test";
 
 import {
   buildCoreInterestEmail,
+  coreInterestRandomFor,
   dailyRandomFor,
   isAmsterdamEightOClock,
   shouldSendCoreInterestEmail,
@@ -74,6 +75,13 @@ test("maakt voor dezelfde datum steeds dezelfde pseudo-willekeurige reeks", () =
 
   assert.deepEqual(first, second);
   assert.notDeepEqual(first, Array.from({ length: 3 }, () => dailyRandomFor("2026-09-12")()));
+});
+
+test("geeft verschillende pseudo-willekeurige reeksen voor verschillende runs op dezelfde dag", () => {
+  const first = Array.from({ length: 3 }, () => coreInterestRandomFor(new Date("2026-09-11T10:40:00.000Z"))());
+  const second = Array.from({ length: 3 }, () => coreInterestRandomFor(new Date("2026-09-11T10:40:01.000Z"))());
+
+  assert.notDeepEqual(first, second);
 });
 
 test("herkent 08:00 in Amsterdam tijdens winter- en zomertijd", () => {

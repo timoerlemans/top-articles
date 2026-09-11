@@ -7,7 +7,7 @@ import { fileURLToPath } from "node:url";
 import { dirname, join, resolve } from "node:path";
 import { z } from "zod";
 
-import { amsterdamDateKey, buildCoreInterestEmail, CORE_INTEREST_LABELS, dailyRandomFor, selectCoreInterestArticle, shouldSendCoreInterestEmail } from "./lib/core-interest-email.js";
+import { buildCoreInterestEmail, CORE_INTEREST_LABELS, coreInterestRandomFor, selectCoreInterestArticle, shouldSendCoreInterestEmail } from "./lib/core-interest-email.js";
 import type { CoreInterestCandidate } from "./lib/core-interest-email.js";
 import { DIRECT_DOMAIN_TAGS } from "./lib/readwise-priority-v2.js";
 import type { DirectDomain } from "./lib/readwise-priority-v2.js";
@@ -112,7 +112,7 @@ async function main(): Promise<void> {
       priority: { score },
     }];
   });
-  const selected = selectCoreInterestArticle(candidates, dailyRandomFor(amsterdamDateKey(now)));
+  const selected = selectCoreInterestArticle(candidates, coreInterestRandomFor(now));
   if (!selected) {
     console.log("Geen geschikt kerninteresse-artikel gevonden — geen mail verstuurd.");
     return;
