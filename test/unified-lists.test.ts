@@ -120,3 +120,19 @@ test("heeft Agile als zichtbare naam maar behoudt de interne scrum-familie", () 
     top100Tag: "aaa-scrum-top-100",
   });
 });
+
+test("bouwt de ADHD-familielijst met de toegewezen toplijsttags", () => {
+  const lists = buildUnifiedLists([item("adhd-1", 90, {
+    priority: { sequences: ["lees", "adhd"], positions: { lees: 1, adhd: 1 } },
+  })], "2026-08-16T10:00:00.000Z");
+  const family = FAMILY_DEFINITIONS.find(({ id }) => id === "adhd");
+
+  assert.deepEqual(lists.families.adhd["top-10"].map(({ id }) => id), ["adhd-1"]);
+  assert.deepEqual(family, {
+    id: "adhd",
+    label: "ADHD",
+    sequence: "adhd",
+    top10Tag: "aaa-adhd-top-10",
+    top100Tag: "aaa-adhd-top-100",
+  });
+});

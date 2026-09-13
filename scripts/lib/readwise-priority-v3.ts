@@ -100,6 +100,7 @@ const SOCIAL_STUDIES_TAGS = new Set([
   "product management",
   "flow & delivery",
 ]);
+const ADHD_TAGS = new Set(["adhd", "adhd & neurodivergence"]);
 
 const COMPONENT_KEYS = [
   "kerninteresse",
@@ -265,6 +266,9 @@ export function sequencesForDocument(doc: PriorityDocument): PrioritySequence[] 
     }
     if ([...tags].some((tag) => SOCIAL_STUDIES_TAGS.has(tag))) {
       sequences.add("social-studies");
+    }
+    if ([...tags].some((tag) => ADHD_TAGS.has(tag))) {
+      sequences.add("adhd");
     }
   }
   return SEQUENCE_ORDER.filter((sequence) => sequences.has(sequence));

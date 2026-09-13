@@ -17,18 +17,19 @@ test("de pagina legt de uniforme scorevolgorde uit", async () => {
   assert.match(visibleText, /Sociale studies.*samenwerking/i);
 });
 
-test("de browser toont sociale studies als eigen prioriteitsreeks naast de bestaande reeksen", async () => {
+test("de browser toont ADHD en sociale studies als eigen prioriteitsreeksen", async () => {
   const source = await readFile(new URL("../src/app.js", import.meta.url), "utf8");
 
   assert.match(source, /"social-studies": "Sociale studies & samenwerking"/);
+  assert.match(source, /adhd: "ADHD"/);
   assert.match(source, /scrum: "Agile"/);
   assert.match(
     source,
-    /"scrum",\s*"software-development",\s*"front-end-development",\s*"social-studies"/
+    /"scrum",\s*"software-development",\s*"front-end-development",\s*"social-studies",\s*"adhd"/
   );
   for (const sequence of [
     "lees", "boek", "pdf", "video", "dutch", "short", "short-dutch", "luchtig",
-    "luchtig-nederlands", "scrum", "software-development", "front-end-development", "social-studies",
+    "luchtig-nederlands", "scrum", "software-development", "front-end-development", "social-studies", "adhd",
   ]) {
     assert.match(source, new RegExp(`"${sequence}"`));
   }

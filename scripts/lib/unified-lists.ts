@@ -22,6 +22,7 @@ export const FAMILY_DEFINITIONS = [
   { id: "boeken", label: "Boeken", sequence: "boek", top10Tag: "boek-top-10", top100Tag: "boek-top-100" },
   { id: "pdfs", label: "PDF's", sequence: "pdf", top10Tag: "pdf-top-10", top100Tag: "pdf-top-100" },
   { id: "videos", label: "Video's", sequence: "video", top10Tag: "video-top-10", top100Tag: "video-top-100" },
+  { id: "adhd", label: "ADHD", sequence: "adhd", top10Tag: "aaa-adhd-top-10", top100Tag: "aaa-adhd-top-100" },
 ] as const satisfies readonly FamilyDefinition[];
 
 export type FamilyId = (typeof FAMILY_DEFINITIONS)[number]["id"];

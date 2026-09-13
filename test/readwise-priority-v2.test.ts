@@ -59,6 +59,17 @@ test("behandelt agile als kerninteresse met directe beroepsmatige bruikbaarheid"
   assert.equal(result.score, 55);
 });
 
+test("behandelt ADHD & neurodivergence als eigen kerninteresse", () => {
+  const result = scorePriorityDocument(document({
+    tags: { "adhd & neurodivergence": {} },
+    word_count: 300,
+  }));
+
+  assert.deepEqual(matchedDomainsFromTags(document({ tags: { "adhd & neurodivergence": {} } })), ["adhd"]);
+  assert.equal(result.components.kerninteresse, 30);
+  assert.equal(result.components.persoonlijke_bruikbaarheid, 10);
+});
+
 test("behandelt agile-subtopics als kerninteresse met directe beroepsmatige bruikbaarheid", () => {
   for (const tag of ["team coaching", "facilitation", "organizational culture", "product management", "flow & delivery"]) {
     const result = scorePriorityDocument(document({

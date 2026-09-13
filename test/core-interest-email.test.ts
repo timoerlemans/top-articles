@@ -76,6 +76,21 @@ test("valt terug op een andere kerninteresse als de gekozen interesse geen kandi
   assert.equal(selected?.article.id, "history-rank-2");
 });
 
+test("selecteert ADHD als kerninteresse en gebruikt de ADHD-positie in de mail", () => {
+  const selected = selectCoreInterestArticle([
+    article("adhd-rank-2", 90, { coreInterests: ["adhd"] }, { adhd: 2 }),
+  ], () => 0);
+
+  assert.equal(selected?.interest, "adhd");
+  assert.equal(selected?.sequence, "adhd");
+  assert.equal(selected?.position, 2);
+  assert.equal(selected?.tag, "adhd-002");
+
+  const email = selected === null ? null : buildCoreInterestEmail(selected, "13 september 2026");
+  assert.match(email?.subject ?? "", /ADHD/);
+  assert.match(email?.html ?? "", /adhd-002/);
+});
+
 test("gebruikt de beste echte tagpositie wanneer een artikel meerdere reeksen heeft", () => {
   const selected = selectCoreInterestArticle([
     article("multi-sequence", 80, { coreInterests: ["zorgouderschap"] }, { lees: 100, short: 8 }),

@@ -46,6 +46,7 @@ export const CORE_INTEREST_LABELS: Readonly<Record<DirectDomain, string>> = {
   cultuur_games_film: "Cultuur, games & film",
   pkm: "PKM",
   zorgouderschap: "Zorg & ouderschap",
+  adhd: "ADHD",
   agile: "Agile",
 };
 

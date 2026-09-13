@@ -64,6 +64,15 @@ test("plant development-reeksen met ordinale tags en toplijsttags", () => {
   }
 });
 
+test("plant de ADHD-reeks met ordinale en toplijsttags", () => {
+  const plan = buildPriorityTagPlan([doc("adhd", { tags: { adhd: {} } })], []);
+  const change = changeFor(plan, "adhd");
+
+  for (const tag of ["adhd-001", "aaa-adhd-top-10", "aaa-adhd-top-100"]) {
+    assert.ok(change.add.includes(tag), `ontbrekende tag: ${tag}`);
+  }
+});
+
 test("plant en beheert de social-studies-ordinale en toplijsttags", () => {
   const social = doc("social", { tags: { "team dynamics & collaboration": {} } });
   const stale = doc("stale", {

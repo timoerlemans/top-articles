@@ -71,6 +71,7 @@ export const DIRECT_DOMAIN_TAGS = {
   cultuur_games_film: ["games", "games & game studies", "film & tv analysis", "digital culture", "entertainment & pop culture"],
   pkm: ["personal knowledge management", "pkm & kennisbeheer", "pkm & note-taking", "readwise", "tools & workflows"],
   zorgouderschap: ["parenting", "parenting & care", "parenting & family", "mantelzorg", "family & relationships"],
+  adhd: ["adhd & neurodivergence", "adhd"],
   agile: [
     "agile", "scrum", "agile & scrum", "team coaching", "facilitation", "organizational culture",
     "team dynamics & collaboration", "organizational behavior & culture", "team dynamics", "collaboration",

@@ -133,6 +133,17 @@ test("een document met een expliciete Agile-tag krijgt de Agile-reeks", () => {
   assert.ok(sequencesForDocument(document({ tags: { "scrum & agile": {} } })).includes("scrum"));
 });
 
+test("een ADHD-document krijgt de ADHD-reeks maar een ADHD-boek blijft alleen in boek", () => {
+  assert.deepEqual(
+    sequencesForDocument(document({ tags: { "adhd & neurodivergence": {} } })),
+    ["lees", "adhd"],
+  );
+  assert.deepEqual(
+    sequencesForDocument(document({ category: "epub", tags: { "adhd & neurodivergence": {} } })),
+    ["boek"],
+  );
+});
+
 test("elke team-tag krijgt de Agile-reeks zonder de Social-studies-reeks te verliezen", () => {
   assert.deepEqual(
     sequencesForDocument(document({ tags: { "team coaching": {} } })),

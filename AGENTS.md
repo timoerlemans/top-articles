@@ -69,9 +69,11 @@ taaltags en curatietags als `must-read`/`shortlist` worden eruit gefilterd, zie
   `config/readwise-priority-overrides.json` (`{ version: 1, items: { "<doc-id>": { adjustment, reason } } }`,
   reden verplicht bij niet-nul adjustment), tier-indeling (hoog ≥70, midden ≥40, laag <40), en
   `sequencesForDocument` — bepaalt in welke van de `SEQUENCE_ORDER`-reeksen (video, boek, pdf,
-  lees, dutch, short, short-dutch, luchtig, luchtig-nederlands, scrum) een document hoort.
+  lees, dutch, short, short-dutch, luchtig, luchtig-nederlands, scrum, adhd) een document hoort.
   De `scrum`-reeks is, net als `luchtig`, topic-gebaseerd: een document met de tag `scrum` of
-  `agile` hoort erin (boeken uitgezonderd).
+  `agile` hoort erin (boeken uitgezonderd). De `adhd`-reeks is topic-gebaseerd op de canonieke
+  tag `adhd & neurodivergence` (een losse `adhd`-tag wordt eerst genormaliseerd), eveneens met
+  boeken uitgezonderd.
   **Boeken/EPUB's horen strikt alleen in de `boek`-reeks**, nooit gecombineerd met andere reeksen
   — dit wordt hard afgedwongen in `validatePriorityExport`.
 - `buildPriorityExport` berekent per document score + reeksen + positie-per-reeks, en valideert
@@ -81,7 +83,7 @@ taaltags en curatietags als `must-read`/`shortlist` worden eruit gefilterd, zie
 ### Uniforme lijsten (`scripts/lib/unified-lists.ts`)
 
 `FAMILY_DEFINITIONS` koppelt elke reeks aan een "familie" (Algemeen, Nederlands, Kort, Kort & NL,
-Luchtig, Luchtig & NL, Boeken, PDF's, Video's) met bijbehorende Readwise-toplijsttags
+Luchtig, Luchtig & NL, Sociale studies & samenwerking, ADHD, Boeken, PDF's, Video's) met bijbehorende Readwise-toplijsttags
 (`aaa-top-10`/`aaa-top-100` etc.). `buildUnifiedLists` sorteert elke familie op score (bij
 gelijkspel: oudste `saved_at`, dan document-ID) en berekent drie afgeleide ontdeklijsten over
 niet-boeken: Consensus (≥2 familie-top-100-lidmaatschappen), Nieuw (saved_at binnen 90 dagen),

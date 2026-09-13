@@ -59,6 +59,7 @@ const WORKFLOW_TAGS = new Set([
 export const READWISE_TAG_ALIASES: Readonly<Record<string, readonly string[]>> = {
   "agile & scrum": ["agile", "scrum"],
   "scrum & agile": ["agile", "scrum"],
+  adhd: ["adhd & neurodivergence"],
   psychology: ["behavioral psychology & coaching"],
   "social psychology": ["social psychology & interpersonal dynamics"],
   "interpersonal dynamics": ["social psychology & interpersonal dynamics"],
