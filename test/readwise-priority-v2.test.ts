@@ -42,6 +42,7 @@ test("scoret twee kerndomeinen en directe persoonlijke bruikbaarheid onafhankeli
     leeskans: 0,
     onderscheidende_duurzame_waarde: 5,
     nederlandse_taal: 0,
+    curatie: 0,
     aftrek: 0,
   });
   assert.ok(result.rationale.kerninteresse.some((reason) => reason.includes("filosofie")));
@@ -147,6 +148,23 @@ test("past de Nederlandse bonus toe ongeacht inhoudscategorie", () => {
   }
 });
 
+test("geeft shortlist en must-read een oplopende curatiebonus", () => {
+  const normal = scorePriorityDocument(document());
+  const shortlist = scorePriorityDocument(document({ tags: { shortlist: {} } }));
+  const mustRead = scorePriorityDocument(document({ tags: { "must-read": {} } }));
+  const both = scorePriorityDocument(document({ tags: { shortlist: {}, "must-read": {} } }));
+
+  assert.equal(normal.components.curatie, 0);
+  assert.equal(shortlist.components.curatie, 10);
+  assert.equal(mustRead.components.curatie, 20);
+  assert.equal(both.components.curatie, 20);
+  assert.equal(shortlist.score, normal.score + 10);
+  assert.equal(mustRead.score, normal.score + 20);
+  assert.equal(both.score, mustRead.score);
+  assert.match(shortlist.rationale.curatie[0] ?? "", /shortlist/i);
+  assert.match(mustRead.rationale.curatie[0] ?? "", /must-read/i);
+});
+
 test("herkent kerndomeinen en Waarom lezen in vrije tekst", () => {
   const result = scorePriorityDocument(document({
     title: "Artificial intelligence and political philosophy",
@@ -163,6 +181,7 @@ test("herkent kerndomeinen en Waarom lezen in vrije tekst", () => {
     leeskans: 5,
     onderscheidende_duurzame_waarde: 5,
     nederlandse_taal: 0,
+    curatie: 0,
     aftrek: 0,
   });
   assert.equal(result.score, 85);

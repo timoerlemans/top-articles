@@ -30,7 +30,7 @@ export interface ArticleItem {
 export interface ArticleList { tag: string; items: ArticleItem[]; }
 export interface ArticleFamily { id: string; label: string; lists: { "top-10": ArticleList; "top-100": ArticleList }; }
 export interface TopArticles { generatedAt: string; families: ArticleFamily[]; catalog: { items: ArticleItem[] }; derivedLists: Record<string, { id: string; label: string; items: Array<{ id: string; title: string; position: number }> }>; }
-export type PriorityComponentKey = "kerninteresse" | "diepgang" | "persoonlijke_bruikbaarheid" | "leeskans" | "onderscheidende_duurzame_waarde" | "nederlandse_taal" | "aftrek";
+export type PriorityComponentKey = "kerninteresse" | "diepgang" | "persoonlijke_bruikbaarheid" | "leeskans" | "onderscheidende_duurzame_waarde" | "nederlandse_taal" | "curatie" | "aftrek";
 export interface PriorityItem { baseScore: number; adjustment: number; adjustmentReason: string | null; score: number; tier: string; components: Partial<Record<PriorityComponentKey, number>>; rationale: Partial<Record<PriorityComponentKey, string[]>>; sequences: PrioritySequence[]; positions: Partial<Record<PrioritySequence, number>>; actualPositions: Partial<Record<PrioritySequence, number>>; }
 export interface TopArticlePriority { generatedAt: string; model: "readwise-priority-v3"; scope: "later"; items: Record<string, PriorityItem>; }
 

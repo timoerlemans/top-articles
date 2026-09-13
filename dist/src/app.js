@@ -127,10 +127,11 @@ registerServiceWorker();
         leeskans: "Leeskans",
         onderscheidende_duurzame_waarde: "Duurzame waarde",
         nederlandse_taal: "Nederlandse taal",
+        curatie: "Curatie",
         aftrek: "Aftrek",
     };
     const PRIORITY_COMPONENT_KEYS = [
-        "kerninteresse", "diepgang", "persoonlijke_bruikbaarheid", "leeskans", "onderscheidende_duurzame_waarde", "nederlandse_taal", "aftrek",
+        "kerninteresse", "diepgang", "persoonlijke_bruikbaarheid", "leeskans", "onderscheidende_duurzame_waarde", "nederlandse_taal", "curatie", "aftrek",
     ];
     const DEFAULT_SORT_DIR = { score: "desc", position: "asc", saved: "desc", published: "desc", title: "asc" };
     const SORT_FIELDS = ["score", "position", "saved", "published", "title"];

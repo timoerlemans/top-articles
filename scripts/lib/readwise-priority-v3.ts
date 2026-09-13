@@ -109,6 +109,7 @@ const COMPONENT_KEYS = [
   "leeskans",
   "onderscheidende_duurzame_waarde",
   "nederlandse_taal",
+  "curatie",
   "aftrek",
 ] as const satisfies readonly (keyof PriorityComponents)[];
 const LEGACY_COMPONENT_KEYS = COMPONENT_KEYS.filter((key) => key !== "nederlandse_taal");

@@ -63,7 +63,7 @@ taaltags en curatietags als `must-read`/`shortlist` worden eruit gefilterd, zie
 
 ### Scoring & reeksen (`scripts/lib/readwise-priority-v2.ts` + `-v3.ts`)
 
-- v2 bevat de basisscorelogica (`scorePriorityDocument`, zeven componenten inclusief een
+- v2 bevat de basisscorelogica (`scorePriorityDocument`, acht componenten inclusief een
   Nederlandse-taalbonus, Nederlands-detectie).
 - v3 wrapt v2 en voegt toe: handmatige correcties uit
   `config/readwise-priority-overrides.json` (`{ version: 1, items: { "<doc-id>": { adjustment, reason } } }`,

@@ -36,6 +36,7 @@ export interface PriorityComponents {
   leeskans: number;
   onderscheidende_duurzame_waarde: number;
   nederlandse_taal: number;
+  curatie: number;
   aftrek: number;
 }
 
@@ -108,6 +109,8 @@ const AMERICA_MARKERS = ["united states", "u.s.", "us politics", "trump", "ameri
 const DUTCH_TAGS = new Set(["dutch", "nederlands", "nl"]);
 const ENGLISH_TAGS = new Set(["english", "lang:en"]);
 const DUTCH_SCORE_BONUS = 5;
+const SHORTLIST_SCORE_BONUS = 10;
+const MUST_READ_SCORE_BONUS = 20;
 const SEQUENCE_ORDER: readonly PrioritySequenceV2[] = BASE_SEQUENCE_ORDER;
 
 function normalize(value: string | null | undefined): string {
@@ -258,6 +261,7 @@ export function scorePriorityDocument(doc: PriorityDocument): PriorityScoreResul
     leeskans: [],
     onderscheidende_duurzame_waarde: [],
     nederlandse_taal: [],
+    curatie: [],
     aftrek: [],
   };
 
@@ -339,6 +343,15 @@ export function scorePriorityDocument(doc: PriorityDocument): PriorityScoreResul
     rationale.nederlandse_taal.push("Nederlandstalig document: +5 bonuspunten.");
   }
 
+  let curatie = 0;
+  if (tags.has("must-read")) {
+    curatie = MUST_READ_SCORE_BONUS;
+    rationale.curatie.push("Must-read: +20 bonuspunten.");
+  } else if (tags.has("shortlist") || tags.has("short-list")) {
+    curatie = SHORTLIST_SCORE_BONUS;
+    rationale.curatie.push("Shortlist: +10 bonuspunten.");
+  }
+
   let aftrek = 0;
   const hasUsMarker = AMERICA_MARKERS.some((marker) => tags.has(normalize(marker)) || hasPhrase(text, marker));
   if (tags.has("current affairs") && hasUsMarker && domains.length === 0) {
@@ -370,6 +383,7 @@ export function scorePriorityDocument(doc: PriorityDocument): PriorityScoreResul
     leeskans,
     onderscheidende_duurzame_waarde,
     nederlandse_taal,
+    curatie,
     aftrek,
   };
   const score = clampScore(
@@ -379,6 +393,7 @@ export function scorePriorityDocument(doc: PriorityDocument): PriorityScoreResul
     components.leeskans +
     components.onderscheidende_duurzame_waarde +
     components.nederlandse_taal +
+    components.curatie +
     components.aftrek,
   );
 
