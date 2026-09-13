@@ -26,6 +26,37 @@ function document(overrides: Partial<PriorityDocument> = {}): PriorityDocument {
   };
 }
 
+test("behoudt scores boven 100 en valideert model v4", () => {
+  const result = buildPriorityExport([document({
+    id: "five-core-interests",
+    tags: { philosophy: {}, history: {}, sociology: {}, writing: {}, games: {} },
+  })], { generatedAt: "2026-09-14T00:00:00.000Z" });
+  const item = result.items["five-core-interests"];
+
+  assert.ok(item);
+  assert.equal(result.model, "readwise-priority-v4");
+  assert.equal(item.components.kerninteresse, 100);
+  assert.ok(item.baseScore > 100);
+  assert.ok(item.score > 100);
+  assert.equal(validatePriorityExport(result), true);
+});
+
+test("laat een negatieve correctie de eindscore niet onder nul brengen", () => {
+  const result = buildPriorityExport([document({
+    id: "five-core-interests",
+    tags: { philosophy: {}, history: {}, sociology: {}, writing: {}, games: {} },
+  })], {
+    overrides: {
+      "five-core-interests": { adjustment: -500, reason: "Test van de ondergrens" },
+    },
+  });
+  const item = result.items["five-core-interests"];
+
+  assert.ok(item);
+  assert.equal(item.score, 0);
+  assert.equal(validatePriorityExport(result), true);
+});
+
 test("sorteert op eindscore en gebruikt saved_at alleen bij gelijke score", () => {
   const docs = [
     document({ id: "score-70-oud", saved_at: "2020-01-01", tags: { philosophy: {}, writing: {} }, word_count: 300 }),
@@ -36,7 +67,7 @@ test("sorteert op eindscore en gebruikt saved_at alleen bij gelijke score", () =
 
   const result = buildPriorityExport(docs, { generatedAt: "2026-08-16T10:00:00.000Z" });
 
-  assert.equal(result.model, "readwise-priority-v3");
+  assert.equal(result.model, "readwise-priority-v4");
   assert.deepEqual(
     ["score-80-oud-a", "score-80-oud-b", "score-80-nieuw", "score-70-oud"].map((id) => {
       const item = result.items[id];
@@ -54,10 +85,10 @@ test("neemt een handmatige correctie met reden op in dezelfde eindscore", () => 
     reason: "Tijdelijk meer aandacht voor filosofie",
   });
 
-  assert.equal(result.baseScore, 55);
+  assert.equal(result.baseScore, 45);
   assert.equal(result.adjustment, 10);
   assert.equal(result.adjustmentReason, "Tijdelijk meer aandacht voor filosofie");
-  assert.equal(result.score, 65);
+  assert.equal(result.score, 55);
   assert.equal(result.tier, "midden");
   assert.throws(() => scorePriorityDocument(doc, { adjustment: 10, reason: "" }), /reden/i);
   assert.throws(() => scorePriorityDocument(doc, { adjustment: 2.5, reason: "Fractie" }), /geheel/i);

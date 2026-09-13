@@ -240,8 +240,8 @@ function tierForScore(score: number): PriorityTier {
   return "laag";
 }
 
-function clampScore(score: number): number {
-  return Math.max(0, Math.min(100, score));
+function floorScore(score: number): number {
+  return Math.max(0, score);
 }
 
 export function scorePriorityDocument(doc: PriorityDocument): PriorityScoreResult {
@@ -251,8 +251,7 @@ export function scorePriorityDocument(doc: PriorityDocument): PriorityScoreResul
   const words = wordCount(doc);
   const readingMinutes = priorityReadingMinutes(doc.reading_time);
   const category = categoryFor(doc);
-  const domains = matchedDomains(doc);
-  const hasAdjacent = domains.length === 0 && matchesVocabulary(doc, ADJACENT_TOPICS);
+  const domains = matchedDomainsFromTags(doc);
   const dutch = detectDutch(doc);
   const rationale: PriorityRationale = {
     kerninteresse: [],
@@ -265,19 +264,11 @@ export function scorePriorityDocument(doc: PriorityDocument): PriorityScoreResul
     aftrek: [],
   };
 
-  let kerninteresse = 0;
-  if (domains.length >= 2) {
-    kerninteresse = 45;
-    rationale.kerninteresse.push(`Minstens twee kerndomeinen: ${domains.join(", ")}.`);
-  } else if (domains.length === 1) {
-    kerninteresse = 30;
-    const domain = domains[0];
-    if (domain !== undefined) {
-      rationale.kerninteresse.push(`Eén kerndomein: ${domain}.`);
-    }
-  } else if (hasAdjacent) {
-    kerninteresse = 15;
-    rationale.kerninteresse.push("Alleen een aangrenzend onderwerp.");
+  const kerninteresse = domains.length * 20;
+  if (domains.length > 0) {
+    rationale.kerninteresse.push(
+      `${domains.length} expliciete kerninteresse${domains.length === 1 ? "" : "s"}: ${domains.join(", ")}.`,
+    );
   }
 
   const deepFormat = category === "pdf" || category === "epub";
@@ -386,7 +377,7 @@ export function scorePriorityDocument(doc: PriorityDocument): PriorityScoreResul
     curatie,
     aftrek,
   };
-  const score = clampScore(
+  const score = floorScore(
     components.kerninteresse +
     components.diepgang +
     components.persoonlijke_bruikbaarheid +

@@ -24,7 +24,29 @@ function document(overrides: Partial<PriorityDocument> = {}): PriorityDocument {
   };
 }
 
-test("scoret twee kerndomeinen en directe persoonlijke bruikbaarheid onafhankelijk", () => {
+test("kent expliciete kerninteresses lineair met twintig punten per interesse", () => {
+  const coreTags = ["philosophy", "history", "sociology", "writing", "games"];
+
+  for (let count = 0; count <= coreTags.length; count += 1) {
+    const tags = Object.fromEntries(coreTags.slice(0, count).map((tag) => [tag, {}]));
+    const result = scorePriorityDocument(document({ tags }));
+
+    assert.equal(result.components.kerninteresse, count * 20, `verwacht ${count} kerninteresses`);
+  }
+});
+
+test("kent tekstsignalen niet als kerninteresse", () => {
+  const result = scorePriorityDocument(document({
+    title: "Artificial intelligence and political philosophy",
+    summary: "A concise analysis of history and sociology.",
+    notes: "Waarom lezen: bruikbaar voor mijn werk",
+    tags: {},
+  }));
+
+  assert.equal(result.components.kerninteresse, 0);
+});
+
+test("scoret elke expliciete kerninteresse afzonderlijk en directe persoonlijke bruikbaarheid onafhankelijk", () => {
   const result = scorePriorityDocument(document({
     tags: {
       philosophy: {},
@@ -33,10 +55,10 @@ test("scoret twee kerndomeinen en directe persoonlijke bruikbaarheid onafhankeli
     },
   }));
 
-  assert.equal(result.score, 80);
+  assert.equal(result.score, 95);
   assert.equal(result.tier, "hoog");
   assert.deepEqual(result.components, {
-    kerninteresse: 45,
+    kerninteresse: 60,
     diepgang: 10,
     persoonlijke_bruikbaarheid: 20,
     leeskans: 0,
@@ -55,9 +77,9 @@ test("behandelt agile als kerninteresse met directe beroepsmatige bruikbaarheid"
     word_count: 300,
   }));
 
-  assert.equal(result.components.kerninteresse, 30);
+  assert.equal(result.components.kerninteresse, 20);
   assert.equal(result.components.persoonlijke_bruikbaarheid, 20);
-  assert.equal(result.score, 55);
+  assert.equal(result.score, 45);
 });
 
 test("behandelt ADHD & neurodivergence als eigen kerninteresse", () => {
@@ -67,7 +89,7 @@ test("behandelt ADHD & neurodivergence als eigen kerninteresse", () => {
   }));
 
   assert.deepEqual(matchedDomainsFromTags(document({ tags: { "adhd & neurodivergence": {} } })), ["adhd"]);
-  assert.equal(result.components.kerninteresse, 30);
+  assert.equal(result.components.kerninteresse, 20);
   assert.equal(result.components.persoonlijke_bruikbaarheid, 10);
 });
 
@@ -78,7 +100,7 @@ test("behandelt agile-subtopics als kerninteresse met directe beroepsmatige brui
       word_count: 300,
     }));
 
-    assert.equal(result.components.kerninteresse, 30, tag);
+    assert.equal(result.components.kerninteresse, 20, tag);
     assert.equal(result.components.persoonlijke_bruikbaarheid, 20, tag);
   }
 });
@@ -89,7 +111,7 @@ test("behandelt sociale psychologie als één direct kerndomein", () => {
     word_count: 300,
   }));
 
-  assert.equal(result.components.kerninteresse, 30);
+  assert.equal(result.components.kerninteresse, 20);
   assert.equal(result.components.persoonlijke_bruikbaarheid, 10);
 });
 
@@ -100,18 +122,18 @@ test("behandelt team- en organisatiecanonicals als direct nuttig professioneel d
       word_count: 300,
     }));
 
-    assert.equal(result.components.kerninteresse, 30, tag);
+    assert.equal(result.components.kerninteresse, 20, tag);
     assert.equal(result.components.persoonlijke_bruikbaarheid, 20, tag);
   }
 });
 
-test("combineert sociale en teamcoaching-signalen tot twee begrensde kerndomeinen", () => {
+test("combineert sociale en teamcoaching-signalen tot twee gelijk gewogen kerndomeinen", () => {
   const result = scorePriorityDocument(document({
     tags: { "social psychology": {}, "team coaching": {} },
     word_count: 300,
   }));
 
-  assert.equal(result.components.kerninteresse, 45);
+  assert.equal(result.components.kerninteresse, 40);
   assert.equal(result.components.persoonlijke_bruikbaarheid, 20);
 });
 
@@ -165,7 +187,7 @@ test("geeft shortlist en must-read een oplopende curatiebonus", () => {
   assert.match(mustRead.rationale.curatie[0] ?? "", /must-read/i);
 });
 
-test("herkent kerndomeinen en Waarom lezen in vrije tekst", () => {
+test("gebruikt vrije tekst wel voor aanvullende signalen, maar niet voor kerninteresses", () => {
   const result = scorePriorityDocument(document({
     title: "Artificial intelligence and political philosophy",
     summary: "A concise analysis.",
@@ -175,16 +197,16 @@ test("herkent kerndomeinen en Waarom lezen in vrije tekst", () => {
   }));
 
   assert.deepEqual(result.components, {
-    kerninteresse: 45,
+    kerninteresse: 0,
     diepgang: 10,
     persoonlijke_bruikbaarheid: 20,
     leeskans: 5,
-    onderscheidende_duurzame_waarde: 5,
+    onderscheidende_duurzame_waarde: 0,
     nederlandse_taal: 0,
     curatie: 0,
     aftrek: 0,
   });
-  assert.equal(result.score, 85);
+  assert.equal(result.score, 35);
 });
 
 test("bepaalt expliciete kerndomeinen alleen uit tags, niet uit vrije tekst", () => {
@@ -200,14 +222,14 @@ test("bepaalt expliciete kerndomeinen alleen uit tags, niet uit vrije tekst", ()
   assert.deepEqual(domains, ["filosofie", "sociologie"]);
 });
 
-test("geeft alleen aangrenzende interesse vijftien punten", () => {
+test("geeft tekstueel aangrenzende interesse geen kerninteressepunten", () => {
   const result = scorePriorityDocument(document({
     title: "Education and systems thinking",
     summary: "",
     word_count: 700,
   }));
 
-  assert.equal(result.components.kerninteresse, 15);
+  assert.equal(result.components.kerninteresse, 0);
   assert.equal(result.components.persoonlijke_bruikbaarheid, 0);
   assert.equal(result.components.onderscheidende_duurzame_waarde, 0);
 });

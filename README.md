@@ -13,10 +13,11 @@ Tijdloos. Het bevat geen ruwe `notes`: alleen titel, auteur, samenvatting, leest
 publicatie-/toevoegdatum, taal (afgeleid uit een kleine vaste set taal-tags), een korte
 "waarom lezen"/"beste moment"-notitie, afbeelding en links.
 
-`data/score.js` wordt tegelijk gegenereerd en bevat `readwise-priority-v3` voor alle actuele
-`later`-documenten. Per document staan daarin de basis- en eindscore van 0–100, tier, zeven
-scorecomponenten, een eventuele handmatige correctie, mensleesbare redenen, reeksindeling en
-gewenste plus actuele positie per reeks. Alle lijsten sorteren op hoogste eindscore, daarna bij
+`data/score.js` wordt tegelijk gegenereerd en bevat `readwise-priority-v4` voor alle actuele
+`later`-documenten. Per document staan daarin de basis- en eindscore (minimaal 0, zonder plafond),
+tier, acht scorecomponenten, een eventuele handmatige correctie, mensleesbare redenen,
+reeksindeling en gewenste plus actuele positie per reeks. Elke expliciete kerninteresse telt voor
+20 punten; vijf kerninteresses leveren dus 100 kerninteressepunten op. Alle lijsten sorteren op hoogste eindscore, daarna bij
 gelijke score op oudste `saved_at` en ten slotte op document-ID.
 
 Handmatige correcties gelden in alle lijsten tegelijk en staan in

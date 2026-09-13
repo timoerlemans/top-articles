@@ -32,7 +32,7 @@ export interface ArticleFamily { id: string; label: string; lists: { "top-10": A
 export interface TopArticles { generatedAt: string; families: ArticleFamily[]; catalog: { items: ArticleItem[] }; derivedLists: Record<string, { id: string; label: string; items: Array<{ id: string; title: string; position: number }> }>; }
 export type PriorityComponentKey = "kerninteresse" | "diepgang" | "persoonlijke_bruikbaarheid" | "leeskans" | "onderscheidende_duurzame_waarde" | "nederlandse_taal" | "curatie" | "aftrek";
 export interface PriorityItem { baseScore: number; adjustment: number; adjustmentReason: string | null; score: number; tier: string; components: Partial<Record<PriorityComponentKey, number>>; rationale: Partial<Record<PriorityComponentKey, string[]>>; sequences: PrioritySequence[]; positions: Partial<Record<PrioritySequence, number>>; actualPositions: Partial<Record<PrioritySequence, number>>; }
-export interface TopArticlePriority { generatedAt: string; model: "readwise-priority-v3"; scope: "later"; items: Record<string, PriorityItem>; }
+export interface TopArticlePriority { generatedAt: string; model: "readwise-priority-v4"; scope: "later"; items: Record<string, PriorityItem>; }
 
 function isRecord(value: unknown): value is Record<string, unknown> {
   return typeof value === "object" && value !== null;
@@ -83,7 +83,7 @@ function isTopArticles(value: unknown): value is TopArticles {
 }
 
 function isTopArticlePriority(value: unknown): value is TopArticlePriority {
-  if (!isRecord(value) || typeof value.generatedAt !== "string" || value.model !== "readwise-priority-v3" || value.scope !== "later" || !isRecord(value.items)) {
+  if (!isRecord(value) || typeof value.generatedAt !== "string" || value.model !== "readwise-priority-v4" || value.scope !== "later" || !isRecord(value.items)) {
     return false;
   }
   return Object.values(value.items).every(isPriorityItem);

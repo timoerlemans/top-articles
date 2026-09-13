@@ -17,7 +17,7 @@ export { detectDutch } from "./readwise-priority-v2.js";
 export { SEQUENCE_ORDER } from "./priority-sequences.js";
 export type { PrioritySequence } from "./priority-sequences.js";
 
-export const PRIORITY_MODEL = "readwise-priority-v3" as const;
+export const PRIORITY_MODEL = "readwise-priority-v4" as const;
 
 export interface PriorityOverride {
   adjustment?: number | undefined;
@@ -112,7 +112,6 @@ const COMPONENT_KEYS = [
   "curatie",
   "aftrek",
 ] as const satisfies readonly (keyof PriorityComponents)[];
-const LEGACY_COMPONENT_KEYS = COMPONENT_KEYS.filter((key) => key !== "nederlandse_taal");
 
 function isRecord(value: unknown): value is Record<string, unknown> {
   return typeof value === "object" && value !== null;
@@ -186,8 +185,8 @@ function tierForScore(score: number): PriorityTier {
   return "laag";
 }
 
-function clamp(score: number): number {
-  return Math.max(0, Math.min(100, score));
+function floorScore(score: number): number {
+  return Math.max(0, score);
 }
 
 function validateOverride(override: unknown = {}): ValidatedPriorityOverride {
@@ -231,7 +230,7 @@ export function scorePriorityDocument(
   const base = scoreBaseDocument(doc);
   const { adjustment, reason } = validateOverride(override);
   const baseScore = base.score;
-  const score = clamp(baseScore + adjustment);
+  const score = floorScore(baseScore + adjustment);
   return {
     baseScore,
     adjustment,
@@ -394,7 +393,7 @@ export function validatePriorityExport(
 
   for (const [id, value] of Object.entries(items)) {
     const item = isRecord(value) ? value : {};
-    if (!Number.isInteger(item.baseScore) || !isFiniteNumber(item.baseScore) || item.baseScore < 0 || item.baseScore > 100) {
+    if (!Number.isInteger(item.baseScore) || !isFiniteNumber(item.baseScore) || item.baseScore < 0) {
       throw new Error(`Ongeldige basisscore voor ${id}`);
     }
     if (!Number.isInteger(item.adjustment) || !isFiniteNumber(item.adjustment)) {
@@ -403,17 +402,14 @@ export function validatePriorityExport(
     if (item.adjustment !== 0 && !item.adjustmentReason) {
       throw new Error(`Scorecorrectie voor ${id} mist een reden`);
     }
-    if (!Number.isInteger(item.score) || !isFiniteNumber(item.score) || item.score !== clamp(item.baseScore + item.adjustment)) {
+    if (!Number.isInteger(item.score) || !isFiniteNumber(item.score) || item.score < 0 || item.score !== floorScore(item.baseScore + item.adjustment)) {
       throw new Error(`Ongeldige score voor ${id}`);
     }
     if (item.tier !== tierForScore(item.score)) {
       throw new Error(`Ongeldige tier voor ${id}`);
     }
     const components = item.components;
-    // Oude ingecheckte exports hadden nog geen Nederlandse-taalcomponent. Nieuwe
-    // exports bevatten die altijd; oude snapshots blijven leesbaar tot de volgende build.
-    if (!isRecord(components) || LEGACY_COMPONENT_KEYS.some((key) => !isFiniteNumber(components[key])) ||
-      (components.nederlandse_taal !== undefined && !isFiniteNumber(components.nederlandse_taal))) {
+    if (!isRecord(components) || COMPONENT_KEYS.some((key) => !isFiniteNumber(components[key]))) {
       throw new Error(`Ongeldige componenten voor ${id}`);
     }
     if (!Array.isArray(item.sequences) || new Set(item.sequences).size !== item.sequences.length) {

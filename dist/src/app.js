@@ -910,7 +910,7 @@ registerServiceWorker();
         const details = document.createElement("details");
         details.className = "priority-breakdown";
         const summary = document.createElement("summary");
-        summary.textContent = `Prioriteitsscore ${priority.score}/100 · tier ${priority.tier}`;
+        summary.textContent = `Prioriteitsscore ${priority.score} · tier ${priority.tier}`;
         details.appendChild(summary);
         const intro = document.createElement("p");
         intro.className = "priority-order-note";

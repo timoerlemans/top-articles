@@ -15,6 +15,8 @@ test("de pagina legt de uniforme scorevolgorde uit", async () => {
   assert.match(visibleText, /gelijke score.*oudste.*saved_at/i);
   assert.match(visibleText, /Nederlandse.*bonus.*score/i);
   assert.match(visibleText, /Sociale studies.*samenwerking/i);
+  assert.match(visibleText, /zonder (?:een )?plafond|geen plafond|onbegrensd|geen bovengrens/i);
+  assert.doesNotMatch(visibleText, /0[–-]100/);
 });
 
 test("de browser toont ADHD en sociale studies als eigen prioriteitsreeksen", async () => {
@@ -69,7 +71,7 @@ test("browsercontracten accepteren de gegenereerde social-studies familie en ree
   });
   const priority = parseTopArticlePriority({
     generatedAt: "2026-09-09T00:00:00.000Z",
-    model: "readwise-priority-v3",
+    model: "readwise-priority-v4",
     scope: "later",
     items: {
       [item.id]: {
@@ -91,14 +93,23 @@ test("browsercontracten accepteren de gegenereerde social-studies familie en ree
   assert.deepEqual(priority?.items[item.id]?.sequences, ["social-studies"]);
 });
 
-test("browserprioriteit blijft model v3 voor Reader later afdwingen", () => {
+test("browserprioriteit blijft model v4 voor Reader later afdwingen", () => {
   const base = {
     generatedAt: "2026-09-09T00:00:00.000Z",
     items: {},
   };
 
   assert.equal(parseTopArticlePriority({ ...base, model: "readwise-priority-v2", scope: "later" }), null);
+  assert.equal(parseTopArticlePriority({ ...base, model: "readwise-priority-v3", scope: "later" }), null);
+  assert.equal(parseTopArticlePriority({ ...base, model: "readwise-priority-v4", scope: "later" })?.model, "readwise-priority-v4");
   assert.equal(parseTopArticlePriority({ ...base, model: "readwise-priority-v3", scope: "archive" }), null);
+});
+
+test("de scoreweergave gebruikt geen 100-puntenplafond", async () => {
+  const source = await readFile(new URL("../src/app.js", import.meta.url), "utf8");
+
+  assert.match(source, /Prioriteitsscore \$\{priority\.score\}/);
+  assert.doesNotMatch(source, /Prioriteitsscore \$\{priority\.score\}\/100/);
 });
 
 test("de browsercode gebruikt alleen Prioriteitsscore", async () => {
