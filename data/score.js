@@ -1,9 +1,280 @@
 // Automatisch gegenereerd door scripts/build-data.ts — niet handmatig bewerken.
 window.TOP_ARTICLE_PRIORITY = {
-  "generatedAt": "2026-09-12T08:28:05.488Z",
+  "generatedAt": "2026-09-13T06:22:09.664Z",
   "model": "readwise-priority-v3",
   "scope": "later",
   "items": {
+    "01m2aysbr5r7v0x099jednqehf": {
+      "baseScore": 70,
+      "adjustment": 0,
+      "adjustmentReason": null,
+      "score": 70,
+      "tier": "hoog",
+      "components": {
+        "kerninteresse": 45,
+        "diepgang": 10,
+        "persoonlijke_bruikbaarheid": 10,
+        "leeskans": 0,
+        "onderscheidende_duurzame_waarde": 5,
+        "nederlandse_taal": 0,
+        "aftrek": 0
+      },
+      "rationale": {
+        "kerninteresse": [
+          "Minstens twee kerndomeinen: filosofie, ideologie, sociologie."
+        ],
+        "diepgang": [
+          "3.050 woorden."
+        ],
+        "persoonlijke_bruikbaarheid": [
+          "Indirect bruikbaar via een kerndomein."
+        ],
+        "leeskans": [],
+        "onderscheidende_duurzame_waarde": [
+          "Minstens 1.200 woorden."
+        ],
+        "nederlandse_taal": [],
+        "aftrek": []
+      },
+      "sequences": [
+        "lees",
+        "social-studies"
+      ],
+      "positions": {
+        "lees": 546,
+        "social-studies": 396
+      },
+      "actualPositions": {
+        "lees": 546,
+        "social-studies": 396
+      }
+    },
+    "01m2aysbp9s4f7b8ke4v53ncd8": {
+      "baseScore": 60,
+      "adjustment": 0,
+      "adjustmentReason": null,
+      "score": 60,
+      "tier": "midden",
+      "components": {
+        "kerninteresse": 45,
+        "diepgang": 10,
+        "persoonlijke_bruikbaarheid": 10,
+        "leeskans": 5,
+        "onderscheidende_duurzame_waarde": 5,
+        "nederlandse_taal": 0,
+        "aftrek": -15
+      },
+      "rationale": {
+        "kerninteresse": [
+          "Minstens twee kerndomeinen: filosofie, ideologie."
+        ],
+        "diepgang": [
+          "2.022 woorden."
+        ],
+        "persoonlijke_bruikbaarheid": [
+          "Indirect bruikbaar via een kerndomein."
+        ],
+        "leeskans": [
+          "Korte leestijd: 8 minuten."
+        ],
+        "onderscheidende_duurzame_waarde": [
+          "Minstens 1.200 woorden."
+        ],
+        "nederlandse_taal": [],
+        "aftrek": [
+          "Verzadigd onderwerp (AI/tech-filosofie of Arendt/totalitarisme): totalitarianism & fascism."
+        ]
+      },
+      "sequences": [
+        "lees",
+        "short"
+      ],
+      "positions": {
+        "lees": 881,
+        "short": 583
+      },
+      "actualPositions": {
+        "lees": 881,
+        "short": 583
+      }
+    },
+    "01m2ak3p4hvhtjzzqjdjapfaf1": {
+      "baseScore": 40,
+      "adjustment": 0,
+      "adjustmentReason": null,
+      "score": 40,
+      "tier": "midden",
+      "components": {
+        "kerninteresse": 15,
+        "diepgang": 20,
+        "persoonlijke_bruikbaarheid": 0,
+        "leeskans": 0,
+        "onderscheidende_duurzame_waarde": 5,
+        "nederlandse_taal": 0,
+        "aftrek": 0
+      },
+      "rationale": {
+        "kerninteresse": [
+          "Alleen een aangrenzend onderwerp."
+        ],
+        "diepgang": [
+          "7.734 woorden."
+        ],
+        "persoonlijke_bruikbaarheid": [],
+        "leeskans": [],
+        "onderscheidende_duurzame_waarde": [
+          "Minstens 1.200 woorden."
+        ],
+        "nederlandse_taal": [],
+        "aftrek": []
+      },
+      "sequences": [
+        "lees"
+      ],
+      "positions": {
+        "lees": 1195
+      },
+      "actualPositions": {
+        "lees": 1195
+      }
+    },
+    "01m2a8vnw9cyaez483em7j08cv": {
+      "baseScore": 65,
+      "adjustment": 0,
+      "adjustmentReason": null,
+      "score": 65,
+      "tier": "midden",
+      "components": {
+        "kerninteresse": 30,
+        "diepgang": 10,
+        "persoonlijke_bruikbaarheid": 20,
+        "leeskans": 0,
+        "onderscheidende_duurzame_waarde": 5,
+        "nederlandse_taal": 0,
+        "aftrek": 0
+      },
+      "rationale": {
+        "kerninteresse": [
+          "Eén kerndomein: agile."
+        ],
+        "diepgang": [
+          "3.125 woorden."
+        ],
+        "persoonlijke_bruikbaarheid": [
+          "Waarom lezen noemt: scrum."
+        ],
+        "leeskans": [],
+        "onderscheidende_duurzame_waarde": [
+          "Minstens 1.200 woorden."
+        ],
+        "nederlandse_taal": [],
+        "aftrek": []
+      },
+      "sequences": [
+        "lees",
+        "social-studies"
+      ],
+      "positions": {
+        "lees": 661,
+        "social-studies": 457
+      },
+      "actualPositions": {
+        "lees": 661,
+        "social-studies": 457
+      }
+    },
+    "01m2a8vbsz8t033s88g0m647mt": {
+      "baseScore": 75,
+      "adjustment": 0,
+      "adjustmentReason": null,
+      "score": 75,
+      "tier": "hoog",
+      "components": {
+        "kerninteresse": 45,
+        "diepgang": 10,
+        "persoonlijke_bruikbaarheid": 10,
+        "leeskans": 5,
+        "onderscheidende_duurzame_waarde": 5,
+        "nederlandse_taal": 0,
+        "aftrek": 0
+      },
+      "rationale": {
+        "kerninteresse": [
+          "Minstens twee kerndomeinen: filosofie, ideologie."
+        ],
+        "diepgang": [
+          "1.535 woorden."
+        ],
+        "persoonlijke_bruikbaarheid": [
+          "Indirect bruikbaar via een kerndomein."
+        ],
+        "leeskans": [
+          "Korte leestijd: 6 minuten."
+        ],
+        "onderscheidende_duurzame_waarde": [
+          "Minstens 1.200 woorden."
+        ],
+        "nederlandse_taal": [],
+        "aftrek": []
+      },
+      "sequences": [
+        "lees",
+        "short"
+      ],
+      "positions": {
+        "lees": 326,
+        "short": 230
+      },
+      "actualPositions": {
+        "lees": 326,
+        "short": 230
+      }
+    },
+    "01m2a8v1prarfgvmkgwy4ercs4": {
+      "baseScore": 60,
+      "adjustment": 0,
+      "adjustmentReason": null,
+      "score": 60,
+      "tier": "midden",
+      "components": {
+        "kerninteresse": 30,
+        "diepgang": 0,
+        "persoonlijke_bruikbaarheid": 20,
+        "leeskans": 5,
+        "onderscheidende_duurzame_waarde": 5,
+        "nederlandse_taal": 0,
+        "aftrek": 0
+      },
+      "rationale": {
+        "kerninteresse": [
+          "Eén kerndomein: agile."
+        ],
+        "diepgang": [],
+        "persoonlijke_bruikbaarheid": [
+          "Direct bruikbare tag: work & career."
+        ],
+        "leeskans": [
+          "Korte leestijd: 4 minuten."
+        ],
+        "onderscheidende_duurzame_waarde": [
+          "Aansluiting bij een kerndomein."
+        ],
+        "nederlandse_taal": [],
+        "aftrek": []
+      },
+      "sequences": [
+        "lees",
+        "short"
+      ],
+      "positions": {
+        "lees": 880,
+        "short": 582
+      },
+      "actualPositions": {
+        "lees": 880,
+        "short": 582
+      }
+    },
     "01m2a5syyjc8ffvr1htj0w8jgn": {
       "baseScore": 70,
       "adjustment": 0,
@@ -44,11 +315,15 @@ window.TOP_ARTICLE_PRIORITY = {
         "social-studies"
       ],
       "positions": {
-        "lees": 544,
-        "short": 339,
+        "lees": 545,
+        "short": 340,
         "social-studies": 395
       },
-      "actualPositions": {}
+      "actualPositions": {
+        "lees": 545,
+        "short": 340,
+        "social-studies": 395
+      }
     },
     "01m2a5rfhdqxw1jb1d2vtj5pz3": {
       "baseScore": 40,
@@ -88,11 +363,15 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 1189,
-        "short": 706,
+        "lees": 1194,
+        "short": 709,
         "luchtig": 258
       },
-      "actualPositions": {}
+      "actualPositions": {
+        "lees": 1194,
+        "short": 709,
+        "luchtig": 258
+      }
     },
     "01m2a51v3rgbysmdnzt91qf6s4": {
       "baseScore": 35,
@@ -132,11 +411,15 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 1259,
-        "short": 752,
+        "lees": 1265,
+        "short": 755,
         "luchtig": 278
       },
-      "actualPositions": {}
+      "actualPositions": {
+        "lees": 1265,
+        "short": 755,
+        "luchtig": 278
+      }
     },
     "01m2a3s5cb3b06gxrmqt7qa81c": {
       "baseScore": 55,
@@ -175,10 +458,13 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 1046,
+        "lees": 1051,
         "luchtig": 214
       },
-      "actualPositions": {}
+      "actualPositions": {
+        "lees": 1051,
+        "luchtig": 214
+      }
     },
     "01m28pgv9zvnq8j2pm2f1d8d44": {
       "baseScore": 40,
@@ -214,9 +500,11 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 1188
+        "lees": 1193
       },
-      "actualPositions": {}
+      "actualPositions": {
+        "lees": 1193
+      }
     },
     "01m28pcgrnb6y1khj1kxaxev67": {
       "baseScore": 60,
@@ -257,10 +545,13 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 876,
-        "short": 580
+        "lees": 879,
+        "short": 581
       },
-      "actualPositions": {}
+      "actualPositions": {
+        "lees": 879,
+        "short": 581
+      }
     },
     "01m28h25hh9xta9bmmhmf2082c": {
       "baseScore": 5,
@@ -294,14 +585,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 1401,
-        "short": 840,
+        "lees": 1407,
+        "short": 843,
         "luchtig": 348
       },
       "actualPositions": {
-        "lees": 1395,
-        "short": 836,
-        "luchtig": 345
+        "lees": 1407,
+        "short": 843,
+        "luchtig": 348
       }
     },
     "01m28ec9qey9mc4ms9eq0xzg0x": {
@@ -338,10 +629,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 1128
+        "lees": 1133
       },
       "actualPositions": {
-        "lees": 1125
+        "lees": 1133
       }
     },
     "01m289600cdcqa5ht7k8872wys": {
@@ -383,12 +674,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 875,
-        "short": 579
+        "lees": 878,
+        "short": 580
       },
       "actualPositions": {
-        "lees": 874,
-        "short": 578
+        "lees": 878,
+        "short": 580
       }
     },
     "01m28077nvwbed9xt0pve3q50v": {
@@ -430,12 +721,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 874,
-        "short": 578
+        "lees": 877,
+        "short": 579
       },
       "actualPositions": {
-        "lees": 873,
-        "short": 577
+        "lees": 877,
+        "short": 579
       }
     },
     "01m28074zfs1vzfwzx86cqvtka": {
@@ -472,14 +763,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "social-studies"
       ],
       "positions": {
-        "lees": 1383,
-        "short": 822,
-        "social-studies": 609
+        "lees": 1389,
+        "short": 825,
+        "social-studies": 611
       },
       "actualPositions": {
-        "lees": 1377,
-        "short": 818,
-        "social-studies": 608
+        "lees": 1389,
+        "short": 825,
+        "social-studies": 611
       }
     },
     "01m28071y7sgkc61ns1drssc3f": {
@@ -571,12 +862,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "social-studies"
       ],
       "positions": {
-        "lees": 1045,
-        "social-studies": 584
+        "lees": 1050,
+        "social-studies": 586
       },
       "actualPositions": {
-        "lees": 1043,
-        "social-studies": 583
+        "lees": 1050,
+        "social-studies": 586
       }
     },
     "01m27z4gydjv20qmq3h4mh2et9": {
@@ -615,10 +906,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 543
+        "lees": 544
       },
       "actualPositions": {
-        "lees": 543
+        "lees": 544
       }
     },
     "01m27z4gjppkyvpbrvy3rbr622": {
@@ -655,10 +946,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 1127
+        "lees": 1132
       },
       "actualPositions": {
-        "lees": 1124
+        "lees": 1132
       }
     },
     "01m27z4fw5rdmjbx1dz2mb8j0q": {
@@ -698,12 +989,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "social-studies"
       ],
       "positions": {
-        "lees": 1044,
-        "social-studies": 583
+        "lees": 1049,
+        "social-studies": 585
       },
       "actualPositions": {
-        "lees": 1042,
-        "social-studies": 582
+        "lees": 1049,
+        "social-studies": 585
       }
     },
     "01m27z4fhr4zr629pkre8y2ywa": {
@@ -742,10 +1033,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 1043
+        "lees": 1048
       },
       "actualPositions": {
-        "lees": 1041
+        "lees": 1048
       }
     },
     "01m27z4f6rbrh0t9tkhbabmtqy": {
@@ -784,10 +1075,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 658
+        "lees": 660
       },
       "actualPositions": {
-        "lees": 657
+        "lees": 660
       }
     },
     "01m27xj6zccpw457wnpz3xcgft": {
@@ -826,10 +1117,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 1042
+        "lees": 1047
       },
       "actualPositions": {
-        "lees": 1040
+        "lees": 1047
       }
     },
     "01m27xj62vfs92gc817456gn2g": {
@@ -868,10 +1159,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 1041
+        "lees": 1046
       },
       "actualPositions": {
-        "lees": 1039
+        "lees": 1046
       }
     },
     "01m27pjkn9enq8rnp6exhqw59d": {
@@ -913,16 +1204,16 @@ window.TOP_ARTICLE_PRIORITY = {
         "social-studies"
       ],
       "positions": {
-        "lees": 873,
-        "short": 577,
+        "lees": 876,
+        "short": 578,
         "software-development": 58,
-        "social-studies": 545
+        "social-studies": 547
       },
       "actualPositions": {
-        "lees": 872,
-        "short": 576,
+        "lees": 876,
+        "short": 578,
         "software-development": 58,
-        "social-studies": 544
+        "social-studies": 547
       }
     },
     "01m27p1xma0swk13px1frm9vtv": {
@@ -965,14 +1256,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "social-studies"
       ],
       "positions": {
-        "lees": 872,
-        "short": 576,
-        "social-studies": 544
+        "lees": 875,
+        "short": 577,
+        "social-studies": 546
       },
       "actualPositions": {
-        "lees": 871,
-        "short": 575,
-        "social-studies": 543
+        "lees": 875,
+        "short": 577,
+        "social-studies": 546
       }
     },
     "01m27p1md5h19axvmvvtm0g7mb": {
@@ -1102,11 +1393,11 @@ window.TOP_ARTICLE_PRIORITY = {
         "social-studies"
       ],
       "positions": {
-        "lees": 542,
+        "lees": 543,
         "social-studies": 394
       },
       "actualPositions": {
-        "lees": 542,
+        "lees": 543,
         "social-studies": 394
       }
     },
@@ -1146,10 +1437,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 1040
+        "lees": 1045
       },
       "actualPositions": {
-        "lees": 1038
+        "lees": 1045
       }
     },
     "01m27g01tjzhyv7gvg5v8mgt37": {
@@ -1189,11 +1480,11 @@ window.TOP_ARTICLE_PRIORITY = {
         "social-studies"
       ],
       "positions": {
-        "lees": 541,
+        "lees": 542,
         "social-studies": 393
       },
       "actualPositions": {
-        "lees": 541,
+        "lees": 542,
         "social-studies": 393
       }
     },
@@ -1232,12 +1523,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "social-studies"
       ],
       "positions": {
-        "lees": 1299,
-        "social-studies": 605
+        "lees": 1305,
+        "social-studies": 607
       },
       "actualPositions": {
-        "lees": 1293,
-        "social-studies": 604
+        "lees": 1305,
+        "social-studies": 607
       }
     },
     "01m27fz6e50x5kr5ja7m76spz8": {
@@ -1278,14 +1569,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "social-studies"
       ],
       "positions": {
-        "lees": 657,
+        "lees": 659,
         "scrum": 210,
-        "social-studies": 455
+        "social-studies": 456
       },
       "actualPositions": {
-        "lees": 656,
+        "lees": 659,
         "scrum": 210,
-        "social-studies": 454
+        "social-studies": 456
       }
     },
     "01m25zjt9wrzx2ej4bhw6qe400": {
@@ -1327,12 +1618,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 871,
-        "short": 575
+        "lees": 874,
+        "short": 576
       },
       "actualPositions": {
-        "lees": 870,
-        "short": 574
+        "lees": 874,
+        "short": 576
       }
     },
     "01m25wk3vepd95czt5v8s5kg70": {
@@ -1376,14 +1667,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "social-studies"
       ],
       "positions": {
-        "lees": 540,
-        "short": 338,
+        "lees": 541,
+        "short": 339,
         "scrum": 184,
         "social-studies": 392
       },
       "actualPositions": {
-        "lees": 540,
-        "short": 338,
+        "lees": 541,
+        "short": 339,
         "scrum": 184,
         "social-studies": 392
       }
@@ -1424,10 +1715,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 539
+        "lees": 540
       },
       "actualPositions": {
-        "lees": 539
+        "lees": 540
       }
     },
     "01m25mg205fdkhmtn9xk57qat4": {
@@ -1514,12 +1805,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "social-studies"
       ],
       "positions": {
-        "lees": 1039,
-        "social-studies": 582
+        "lees": 1044,
+        "social-studies": 584
       },
       "actualPositions": {
-        "lees": 1037,
-        "social-studies": 581
+        "lees": 1044,
+        "social-studies": 584
       }
     },
     "01m25cctnegpkwgb5e8n6pf0xf": {
@@ -1558,10 +1849,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 1038
+        "lees": 1043
       },
       "actualPositions": {
-        "lees": 1036
+        "lees": 1043
       }
     },
     "01m257yv4g4tr8fbxm8cw02nhy": {
@@ -1602,14 +1893,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 1187,
-        "short": 705,
+        "lees": 1192,
+        "short": 708,
         "luchtig": 257
       },
       "actualPositions": {
-        "lees": 1184,
-        "short": 703,
-        "luchtig": 256
+        "lees": 1192,
+        "short": 708,
+        "luchtig": 257
       }
     },
     "01m254c0qej39tt1vhckg33wxx": {
@@ -1654,14 +1945,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "social-studies"
       ],
       "positions": {
-        "lees": 870,
-        "short": 574,
-        "social-studies": 543
+        "lees": 873,
+        "short": 575,
+        "social-studies": 545
       },
       "actualPositions": {
-        "lees": 869,
-        "short": 573,
-        "social-studies": 542
+        "lees": 873,
+        "short": 575,
+        "social-studies": 545
       }
     },
     "01m254bxmtr72nnpx14we7x37d": {
@@ -1751,12 +2042,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "social-studies"
       ],
       "positions": {
-        "lees": 656,
-        "social-studies": 454
+        "lees": 658,
+        "social-studies": 455
       },
       "actualPositions": {
-        "lees": 655,
-        "social-studies": 453
+        "lees": 658,
+        "social-studies": 455
       }
     },
     "01m254bkjf8ehgmmw62y92e4v2": {
@@ -1797,10 +2088,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 1037
+        "lees": 1042
       },
       "actualPositions": {
-        "lees": 1035
+        "lees": 1042
       }
     },
     "01m254bg66s15j5v0s0g1c4fd7": {
@@ -1936,14 +2227,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 1186,
-        "short": 704,
+        "lees": 1191,
+        "short": 707,
         "luchtig": 256
       },
       "actualPositions": {
-        "lees": 1183,
-        "short": 702,
-        "luchtig": 255
+        "lees": 1191,
+        "short": 707,
+        "luchtig": 256
       }
     },
     "01m2520hdw8sg2crge4ysd6g3e": {
@@ -1987,14 +2278,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "social-studies"
       ],
       "positions": {
-        "lees": 538,
-        "short": 337,
+        "lees": 539,
+        "short": 338,
         "scrum": 183,
         "social-studies": 391
       },
       "actualPositions": {
-        "lees": 538,
-        "short": 337,
+        "lees": 539,
+        "short": 338,
         "scrum": 183,
         "social-studies": 391
       }
@@ -2078,10 +2369,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 1126
+        "lees": 1131
       },
       "actualPositions": {
-        "lees": 1123
+        "lees": 1131
       }
     },
     "01m250pwjm294snz5b9gn4mdbt": {
@@ -2118,14 +2409,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 1361,
-        "short": 815,
+        "lees": 1367,
+        "short": 818,
         "luchtig": 320
       },
       "actualPositions": {
-        "lees": 1355,
-        "short": 811,
-        "luchtig": 317
+        "lees": 1367,
+        "short": 818,
+        "luchtig": 320
       }
     },
     "01m250pp0zwc2k44x7zbjqzc3s": {
@@ -2163,12 +2454,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 1360,
-        "short": 814
+        "lees": 1366,
+        "short": 817
       },
       "actualPositions": {
-        "lees": 1354,
-        "short": 810
+        "lees": 1366,
+        "short": 817
       }
     },
     "01m24w3e6rqjjrmems4xkcepfk": {
@@ -2207,7 +2498,7 @@ window.TOP_ARTICLE_PRIORITY = {
       },
       "actualPositions": {
         "video": 34,
-        "luchtig": 329
+        "luchtig": 332
       }
     },
     "01m24w19by2p1c44m5tpf863df": {
@@ -2244,10 +2535,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 1185
+        "lees": 1190
       },
       "actualPositions": {
-        "lees": 1182
+        "lees": 1190
       }
     },
     "01m24vwfhzrmnb6mr90t5x6drq": {
@@ -2290,13 +2581,13 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 869,
-        "short": 573,
+        "lees": 872,
+        "short": 574,
         "luchtig": 173
       },
       "actualPositions": {
-        "lees": 868,
-        "short": 572,
+        "lees": 872,
+        "short": 574,
         "luchtig": 173
       }
     },
@@ -2338,14 +2629,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 1258,
-        "short": 751,
+        "lees": 1264,
+        "short": 754,
         "luchtig": 277
       },
       "actualPositions": {
-        "lees": 1253,
-        "short": 748,
-        "luchtig": 275
+        "lees": 1264,
+        "short": 754,
+        "luchtig": 277
       }
     },
     "01m24vvkbn0kn8tz6geyma61f9": {
@@ -2386,14 +2677,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "social-studies"
       ],
       "positions": {
-        "lees": 655,
+        "lees": 657,
         "scrum": 209,
-        "social-studies": 453
+        "social-studies": 454
       },
       "actualPositions": {
-        "lees": 654,
+        "lees": 657,
         "scrum": 209,
-        "social-studies": 452
+        "social-studies": 454
       }
     },
     "01m24qwdnacbd7kpzkxkswknyp": {
@@ -2435,16 +2726,16 @@ window.TOP_ARTICLE_PRIORITY = {
         "social-studies"
       ],
       "positions": {
-        "lees": 868,
-        "short": 572,
+        "lees": 871,
+        "short": 573,
         "luchtig": 172,
-        "social-studies": 542
+        "social-studies": 544
       },
       "actualPositions": {
-        "lees": 867,
-        "short": 571,
+        "lees": 871,
+        "short": 573,
         "luchtig": 172,
-        "social-studies": 541
+        "social-studies": 544
       }
     },
     "01m24q2qnhcn7kzevn13g592h2": {
@@ -2485,14 +2776,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "social-studies"
       ],
       "positions": {
-        "lees": 654,
+        "lees": 656,
         "scrum": 208,
-        "social-studies": 452
+        "social-studies": 453
       },
       "actualPositions": {
-        "lees": 653,
+        "lees": 656,
         "scrum": 208,
-        "social-studies": 451
+        "social-studies": 453
       }
     },
     "01m23wmcx6z2rtykd6hchpfanz": {
@@ -2531,10 +2822,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 1111
+        "lees": 1116
       },
       "actualPositions": {
-        "lees": 1108
+        "lees": 1116
       }
     },
     "01m23jvcaavqpnvxr9c5qbjm9k": {
@@ -2622,12 +2913,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 1125,
+        "lees": 1130,
         "luchtig": 241
       },
       "actualPositions": {
-        "lees": 1122,
-        "luchtig": 240
+        "lees": 1130,
+        "luchtig": 241
       }
     },
     "01m238hym49xc8fej427a9vvvb": {
@@ -2667,11 +2958,11 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 537,
+        "lees": 538,
         "luchtig": 82
       },
       "actualPositions": {
-        "lees": 537,
+        "lees": 538,
         "luchtig": 82
       }
     },
@@ -2761,14 +3052,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 1257,
-        "short": 750,
+        "lees": 1263,
+        "short": 753,
         "luchtig": 276
       },
       "actualPositions": {
-        "lees": 1252,
-        "short": 747,
-        "luchtig": 274
+        "lees": 1263,
+        "short": 753,
+        "luchtig": 276
       }
     },
     "01m232hrqx75gce5ygz9smcqs9": {
@@ -2810,16 +3101,16 @@ window.TOP_ARTICLE_PRIORITY = {
         "social-studies"
       ],
       "positions": {
-        "lees": 867,
-        "short": 571,
+        "lees": 870,
+        "short": 572,
         "scrum": 252,
-        "social-studies": 541
+        "social-studies": 543
       },
       "actualPositions": {
-        "lees": 866,
-        "short": 570,
+        "lees": 870,
+        "short": 572,
         "scrum": 252,
-        "social-studies": 540
+        "social-studies": 543
       }
     },
     "01m231jetd3enmsz1w57n5pkg3": {
@@ -2863,14 +3154,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "social-studies"
       ],
       "positions": {
-        "lees": 536,
-        "short": 336,
+        "lees": 537,
+        "short": 337,
         "scrum": 182,
         "social-studies": 390
       },
       "actualPositions": {
-        "lees": 536,
-        "short": 336,
+        "lees": 537,
+        "short": 337,
         "scrum": 182,
         "social-studies": 390
       }
@@ -3064,13 +3355,13 @@ window.TOP_ARTICLE_PRIORITY = {
         "social-studies"
       ],
       "positions": {
-        "lees": 535,
-        "short": 335,
+        "lees": 536,
+        "short": 336,
         "social-studies": 389
       },
       "actualPositions": {
-        "lees": 535,
-        "short": 335,
+        "lees": 536,
+        "short": 336,
         "social-studies": 389
       }
     },
@@ -3212,14 +3503,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "social-studies"
       ],
       "positions": {
-        "lees": 1318,
-        "short": 772,
-        "social-studies": 606
+        "lees": 1324,
+        "short": 775,
+        "social-studies": 608
       },
       "actualPositions": {
-        "lees": 1312,
-        "short": 768,
-        "social-studies": 605
+        "lees": 1324,
+        "short": 775,
+        "social-studies": 608
       }
     },
     "01m2265g0kyk1003t9x2hsdzw8": {
@@ -3465,12 +3756,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 1256,
-        "short": 749
+        "lees": 1262,
+        "short": 752
       },
       "actualPositions": {
-        "lees": 1251,
-        "short": 746
+        "lees": 1262,
+        "short": 752
       }
     },
     "01m216jbj12z338vgzr5yhcmsb": {
@@ -3507,10 +3798,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 1124
+        "lees": 1129
       },
       "actualPositions": {
-        "lees": 1121
+        "lees": 1129
       }
     },
     "01m20j2ssrjqszkwfnk49mr0d0": {
@@ -3553,14 +3844,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "social-studies"
       ],
       "positions": {
-        "lees": 866,
-        "short": 570,
-        "social-studies": 540
+        "lees": 869,
+        "short": 571,
+        "social-studies": 542
       },
       "actualPositions": {
-        "lees": 865,
-        "short": 569,
-        "social-studies": 539
+        "lees": 869,
+        "short": 571,
+        "social-studies": 542
       }
     },
     "01m20fc2m6mqmmfgfjv7b2ccff": {
@@ -3597,10 +3888,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 1298
+        "lees": 1304
       },
       "actualPositions": {
-        "lees": 1292
+        "lees": 1304
       }
     },
     "01m2093q7bj4j3wk3fzpev5jkw": {
@@ -3640,11 +3931,11 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 534,
+        "lees": 535,
         "luchtig": 81
       },
       "actualPositions": {
-        "lees": 534,
+        "lees": 535,
         "luchtig": 81
       }
     },
@@ -3738,16 +4029,16 @@ window.TOP_ARTICLE_PRIORITY = {
         "social-studies"
       ],
       "positions": {
-        "lees": 1359,
-        "short": 813,
+        "lees": 1365,
+        "short": 816,
         "luchtig": 319,
-        "social-studies": 608
+        "social-studies": 610
       },
       "actualPositions": {
-        "lees": 1353,
-        "short": 809,
-        "luchtig": 316,
-        "social-studies": 607
+        "lees": 1365,
+        "short": 816,
+        "luchtig": 319,
+        "social-studies": 610
       }
     },
     "01m1zz7f9eqj3hmaee464gw72n": {
@@ -3895,16 +4186,16 @@ window.TOP_ARTICLE_PRIORITY = {
         "social-studies"
       ],
       "positions": {
-        "lees": 865,
-        "short": 569,
+        "lees": 868,
+        "short": 570,
         "scrum": 251,
-        "social-studies": 539
+        "social-studies": 541
       },
       "actualPositions": {
-        "lees": 864,
-        "short": 568,
+        "lees": 868,
+        "short": 570,
         "scrum": 251,
-        "social-studies": 538
+        "social-studies": 541
       }
     },
     "01m1zz6kmexdx2c1dcegqjzeva": {
@@ -3948,14 +4239,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "social-studies"
       ],
       "positions": {
-        "lees": 533,
-        "short": 334,
+        "lees": 534,
+        "short": 335,
         "scrum": 181,
         "social-studies": 388
       },
       "actualPositions": {
-        "lees": 533,
-        "short": 334,
+        "lees": 534,
+        "short": 335,
         "scrum": 181,
         "social-studies": 388
       }
@@ -4198,12 +4489,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 864,
-        "short": 568
+        "lees": 867,
+        "short": 569
       },
       "actualPositions": {
-        "lees": 863,
-        "short": 567
+        "lees": 867,
+        "short": 569
       }
     },
     "01m1zvs6zarc4w1cwf7w1sc7ef": {
@@ -4384,14 +4675,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "social-studies"
       ],
       "positions": {
-        "lees": 653,
-        "short": 370,
-        "social-studies": 451
+        "lees": 655,
+        "short": 371,
+        "social-studies": 452
       },
       "actualPositions": {
-        "lees": 652,
-        "short": 369,
-        "social-studies": 450
+        "lees": 655,
+        "short": 371,
+        "social-studies": 452
       }
     },
     "01m1zvky46yvhyamvs686pmsy2": {
@@ -4483,12 +4774,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 863,
-        "short": 567
+        "lees": 866,
+        "short": 568
       },
       "actualPositions": {
-        "lees": 862,
-        "short": 566
+        "lees": 866,
+        "short": 568
       }
     },
     "01m1y0qt1kg044kvcnmvyg7ptj": {
@@ -4528,11 +4819,11 @@ window.TOP_ARTICLE_PRIORITY = {
         "social-studies"
       ],
       "positions": {
-        "lees": 532,
+        "lees": 533,
         "social-studies": 386
       },
       "actualPositions": {
-        "lees": 532,
+        "lees": 533,
         "social-studies": 386
       }
     },
@@ -4574,14 +4865,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 1110,
-        "short": 650,
+        "lees": 1115,
+        "short": 653,
         "luchtig": 235
       },
       "actualPositions": {
-        "lees": 1107,
-        "short": 648,
-        "luchtig": 234
+        "lees": 1115,
+        "short": 653,
+        "luchtig": 235
       }
     },
     "01m1xy92em8n4jbgr4g35t97vt": {
@@ -4671,16 +4962,16 @@ window.TOP_ARTICLE_PRIORITY = {
         "social-studies"
       ],
       "positions": {
-        "lees": 862,
-        "short": 566,
+        "lees": 865,
+        "short": 567,
         "scrum": 250,
-        "social-studies": 538
+        "social-studies": 540
       },
       "actualPositions": {
-        "lees": 861,
-        "short": 565,
+        "lees": 865,
+        "short": 567,
         "scrum": 250,
-        "social-studies": 537
+        "social-studies": 540
       }
     },
     "01m1xtss8mstnzm6kejhfb3qdq": {
@@ -4722,12 +5013,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 1255,
-        "short": 748
+        "lees": 1261,
+        "short": 751
       },
       "actualPositions": {
-        "lees": 1250,
-        "short": 745
+        "lees": 1261,
+        "short": 751
       }
     },
     "01m1xgenedh61v1sb2g4ab3451": {
@@ -4767,12 +5058,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 1254,
-        "short": 747
+        "lees": 1260,
+        "short": 750
       },
       "actualPositions": {
-        "lees": 1249,
-        "short": 744
+        "lees": 1260,
+        "short": 750
       }
     },
     "01m1xeesyj9rt93phvfmkt8rze": {
@@ -4812,12 +5103,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 1253,
-        "short": 746
+        "lees": 1259,
+        "short": 749
       },
       "actualPositions": {
-        "lees": 1248,
-        "short": 743
+        "lees": 1259,
+        "short": 749
       }
     },
     "01m1xeesk9qx46zj8ve1s7vqtm": {
@@ -4857,11 +5148,11 @@ window.TOP_ARTICLE_PRIORITY = {
         "social-studies"
       ],
       "positions": {
-        "lees": 531,
+        "lees": 532,
         "social-studies": 385
       },
       "actualPositions": {
-        "lees": 531,
+        "lees": 532,
         "social-studies": 385
       }
     },
@@ -4898,11 +5189,11 @@ window.TOP_ARTICLE_PRIORITY = {
         "software-development"
       ],
       "positions": {
-        "lees": 1382,
+        "lees": 1388,
         "software-development": 147
       },
       "actualPositions": {
-        "lees": 1376,
+        "lees": 1388,
         "software-development": 147
       }
     },
@@ -4942,10 +5233,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 530
+        "lees": 531
       },
       "actualPositions": {
-        "lees": 530
+        "lees": 531
       }
     },
     "01m1xeeremd6ss4bhkd9zaqgqd": {
@@ -5087,11 +5378,11 @@ window.TOP_ARTICLE_PRIORITY = {
         "social-studies"
       ],
       "positions": {
-        "lees": 529,
+        "lees": 530,
         "social-studies": 384
       },
       "actualPositions": {
-        "lees": 529,
+        "lees": 530,
         "social-studies": 384
       }
     },
@@ -5132,11 +5423,11 @@ window.TOP_ARTICLE_PRIORITY = {
         "social-studies"
       ],
       "positions": {
-        "lees": 528,
+        "lees": 529,
         "social-studies": 383
       },
       "actualPositions": {
-        "lees": 528,
+        "lees": 529,
         "social-studies": 383
       }
     },
@@ -5174,10 +5465,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 1297
+        "lees": 1303
       },
       "actualPositions": {
-        "lees": 1291
+        "lees": 1303
       }
     },
     "01m1xcpzs70wpddac0sxpck0tr": {
@@ -5217,11 +5508,11 @@ window.TOP_ARTICLE_PRIORITY = {
         "social-studies"
       ],
       "positions": {
-        "lees": 527,
+        "lees": 528,
         "social-studies": 382
       },
       "actualPositions": {
-        "lees": 527,
+        "lees": 528,
         "social-studies": 382
       }
     },
@@ -5307,12 +5598,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 1252,
-        "short": 745
+        "lees": 1258,
+        "short": 748
       },
       "actualPositions": {
-        "lees": 1247,
-        "short": 742
+        "lees": 1258,
+        "short": 748
       }
     },
     "01m1xcp693pgwahw3b1wr6yvfd": {
@@ -5350,11 +5641,11 @@ window.TOP_ARTICLE_PRIORITY = {
         "software-development"
       ],
       "positions": {
-        "lees": 1184,
+        "lees": 1189,
         "software-development": 108
       },
       "actualPositions": {
-        "lees": 1181,
+        "lees": 1189,
         "software-development": 108
       }
     },
@@ -5441,10 +5732,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 526
+        "lees": 527
       },
       "actualPositions": {
-        "lees": 526
+        "lees": 527
       }
     },
     "01m1xcnmpr3ypy88z6wx7yknsh": {
@@ -5534,16 +5825,16 @@ window.TOP_ARTICLE_PRIORITY = {
         "social-studies"
       ],
       "positions": {
-        "lees": 861,
-        "short": 565,
+        "lees": 864,
+        "short": 566,
         "scrum": 249,
-        "social-studies": 537
+        "social-studies": 539
       },
       "actualPositions": {
-        "lees": 860,
-        "short": 564,
+        "lees": 864,
+        "short": 566,
         "scrum": 249,
-        "social-studies": 536
+        "social-studies": 539
       }
     },
     "01m1xbg6n9sjve2tsd4gwvf36p": {
@@ -5583,12 +5874,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 1251,
-        "short": 744
+        "lees": 1257,
+        "short": 747
       },
       "actualPositions": {
-        "lees": 1246,
-        "short": 741
+        "lees": 1257,
+        "short": 747
       }
     },
     "01m1xbg3c0a8rrp7w4tp1q3mra": {
@@ -5628,12 +5919,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "social-studies"
       ],
       "positions": {
-        "lees": 1036,
-        "social-studies": 581
+        "lees": 1041,
+        "social-studies": 583
       },
       "actualPositions": {
-        "lees": 1034,
-        "social-studies": 580
+        "lees": 1041,
+        "social-studies": 583
       }
     },
     "01m1xbfzr112tznzgkmsq6ztx8": {
@@ -5671,11 +5962,11 @@ window.TOP_ARTICLE_PRIORITY = {
         "software-development"
       ],
       "positions": {
-        "lees": 1296,
+        "lees": 1302,
         "software-development": 135
       },
       "actualPositions": {
-        "lees": 1290,
+        "lees": 1302,
         "software-development": 135
       }
     },
@@ -5714,11 +6005,11 @@ window.TOP_ARTICLE_PRIORITY = {
         "software-development"
       ],
       "positions": {
-        "lees": 1183,
+        "lees": 1188,
         "software-development": 107
       },
       "actualPositions": {
-        "lees": 1180,
+        "lees": 1188,
         "software-development": 107
       }
     },
@@ -5960,11 +6251,11 @@ window.TOP_ARTICLE_PRIORITY = {
         "social-studies"
       ],
       "positions": {
-        "lees": 525,
+        "lees": 526,
         "social-studies": 380
       },
       "actualPositions": {
-        "lees": 525,
+        "lees": 526,
         "social-studies": 380
       }
     },
@@ -6005,12 +6296,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "social-studies"
       ],
       "positions": {
-        "lees": 1034,
-        "social-studies": 580
+        "lees": 1039,
+        "social-studies": 582
       },
       "actualPositions": {
-        "lees": 1032,
-        "social-studies": 579
+        "lees": 1039,
+        "social-studies": 582
       }
     },
     "01m1x3htad4kaatak8j78p7e11": {
@@ -6150,11 +6441,11 @@ window.TOP_ARTICLE_PRIORITY = {
         "software-development"
       ],
       "positions": {
-        "lees": 1295,
+        "lees": 1301,
         "software-development": 134
       },
       "actualPositions": {
-        "lees": 1289,
+        "lees": 1301,
         "software-development": 134
       }
     },
@@ -6196,13 +6487,13 @@ window.TOP_ARTICLE_PRIORITY = {
         "software-development"
       ],
       "positions": {
-        "lees": 1109,
-        "short": 649,
+        "lees": 1114,
+        "short": 652,
         "software-development": 78
       },
       "actualPositions": {
-        "lees": 1106,
-        "short": 647,
+        "lees": 1114,
+        "short": 652,
         "software-development": 78
       }
     },
@@ -6244,14 +6535,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "social-studies"
       ],
       "positions": {
-        "lees": 1108,
-        "short": 648,
-        "social-studies": 600
+        "lees": 1113,
+        "short": 651,
+        "social-studies": 602
       },
       "actualPositions": {
-        "lees": 1105,
-        "short": 646,
-        "social-studies": 599
+        "lees": 1113,
+        "short": 651,
+        "social-studies": 602
       }
     },
     "01m1w3td8vd53q28hjc1y3ntw4": {
@@ -6292,14 +6583,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "social-studies"
       ],
       "positions": {
-        "lees": 1033,
+        "lees": 1038,
         "luchtig": 212,
-        "social-studies": 579
+        "social-studies": 581
       },
       "actualPositions": {
-        "lees": 1031,
+        "lees": 1038,
         "luchtig": 212,
-        "social-studies": 578
+        "social-studies": 581
       }
     },
     "01m1w3t3ne01x6d7r48x9wh779": {
@@ -6382,11 +6673,11 @@ window.TOP_ARTICLE_PRIORITY = {
         "software-development"
       ],
       "positions": {
-        "lees": 1294,
+        "lees": 1300,
         "software-development": 133
       },
       "actualPositions": {
-        "lees": 1288,
+        "lees": 1300,
         "software-development": 133
       }
     },
@@ -6527,10 +6818,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 524
+        "lees": 525
       },
       "actualPositions": {
-        "lees": 524
+        "lees": 525
       }
     },
     "01m1v3gmjamae3pe9yj4zdykh4": {
@@ -6571,12 +6862,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "social-studies"
       ],
       "positions": {
-        "lees": 523,
+        "lees": 524,
         "luchtig": 80,
         "social-studies": 379
       },
       "actualPositions": {
-        "lees": 523,
+        "lees": 524,
         "luchtig": 80,
         "social-studies": 379
       }
@@ -6620,12 +6911,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 860,
-        "short": 564
+        "lees": 863,
+        "short": 565
       },
       "actualPositions": {
-        "lees": 859,
-        "short": 563
+        "lees": 863,
+        "short": 565
       }
     },
     "01m1v3fyyaxsnte966gdqnqg8n": {
@@ -6719,12 +7010,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "social-studies"
       ],
       "positions": {
-        "lees": 522,
+        "lees": 523,
         "luchtig": 79,
         "social-studies": 378
       },
       "actualPositions": {
-        "lees": 522,
+        "lees": 523,
         "luchtig": 79,
         "social-studies": 378
       }
@@ -6769,14 +7060,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "social-studies"
       ],
       "positions": {
-        "lees": 859,
-        "short": 563,
-        "social-studies": 536
+        "lees": 862,
+        "short": 564,
+        "social-studies": 538
       },
       "actualPositions": {
-        "lees": 858,
-        "short": 562,
-        "social-studies": 535
+        "lees": 862,
+        "short": 564,
+        "social-studies": 538
       }
     },
     "01m1tqx5t5qtt0d4nbtnc9qxnc": {
@@ -6818,12 +7109,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 1032,
-        "short": 599
+        "lees": 1037,
+        "short": 602
       },
       "actualPositions": {
-        "lees": 1030,
-        "short": 597
+        "lees": 1037,
+        "short": 602
       }
     },
     "01m1rqjea2cc5r61kf0q1y17v3": {
@@ -6863,11 +7154,11 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 1031,
+        "lees": 1036,
         "luchtig": 211
       },
       "actualPositions": {
-        "lees": 1029,
+        "lees": 1036,
         "luchtig": 211
       }
     },
@@ -6908,11 +7199,11 @@ window.TOP_ARTICLE_PRIORITY = {
         "social-studies"
       ],
       "positions": {
-        "lees": 521,
+        "lees": 522,
         "social-studies": 377
       },
       "actualPositions": {
-        "lees": 521,
+        "lees": 522,
         "social-studies": 377
       }
     },
@@ -7006,12 +7297,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "front-end-development"
       ],
       "positions": {
-        "lees": 1381,
+        "lees": 1387,
         "software-development": 146,
         "front-end-development": 7
       },
       "actualPositions": {
-        "lees": 1375,
+        "lees": 1387,
         "software-development": 146,
         "front-end-development": 7
       }
@@ -7107,11 +7398,11 @@ window.TOP_ARTICLE_PRIORITY = {
         "software-development"
       ],
       "positions": {
-        "lees": 1293,
+        "lees": 1299,
         "software-development": 132
       },
       "actualPositions": {
-        "lees": 1287,
+        "lees": 1299,
         "software-development": 132
       }
     },
@@ -7153,13 +7444,13 @@ window.TOP_ARTICLE_PRIORITY = {
         "software-development"
       ],
       "positions": {
-        "lees": 1250,
-        "short": 743,
+        "lees": 1256,
+        "short": 746,
         "software-development": 129
       },
       "actualPositions": {
-        "lees": 1245,
-        "short": 740,
+        "lees": 1256,
+        "short": 746,
         "software-development": 129
       }
     },
@@ -7198,11 +7489,11 @@ window.TOP_ARTICLE_PRIORITY = {
         "software-development"
       ],
       "positions": {
-        "lees": 1292,
+        "lees": 1298,
         "software-development": 131
       },
       "actualPositions": {
-        "lees": 1286,
+        "lees": 1298,
         "software-development": 131
       }
     },
@@ -7246,13 +7537,13 @@ window.TOP_ARTICLE_PRIORITY = {
         "software-development"
       ],
       "positions": {
-        "lees": 520,
-        "short": 333,
+        "lees": 521,
+        "short": 334,
         "software-development": 39
       },
       "actualPositions": {
-        "lees": 520,
-        "short": 333,
+        "lees": 521,
+        "short": 334,
         "software-development": 39
       }
     },
@@ -7297,14 +7588,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "social-studies"
       ],
       "positions": {
-        "lees": 519,
-        "short": 332,
+        "lees": 520,
+        "short": 333,
         "software-development": 38,
         "social-studies": 376
       },
       "actualPositions": {
-        "lees": 519,
-        "short": 332,
+        "lees": 520,
+        "short": 333,
         "software-development": 38,
         "social-studies": 376
       }
@@ -7345,13 +7636,13 @@ window.TOP_ARTICLE_PRIORITY = {
         "software-development"
       ],
       "positions": {
-        "lees": 1182,
-        "short": 703,
+        "lees": 1187,
+        "short": 706,
         "software-development": 106
       },
       "actualPositions": {
-        "lees": 1179,
-        "short": 701,
+        "lees": 1187,
+        "short": 706,
         "software-development": 106
       }
     },
@@ -7393,13 +7684,13 @@ window.TOP_ARTICLE_PRIORITY = {
         "software-development"
       ],
       "positions": {
-        "lees": 1107,
-        "short": 647,
+        "lees": 1112,
+        "short": 650,
         "software-development": 77
       },
       "actualPositions": {
-        "lees": 1104,
-        "short": 645,
+        "lees": 1112,
+        "short": 650,
         "software-development": 77
       }
     },
@@ -7441,12 +7732,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "front-end-development"
       ],
       "positions": {
-        "lees": 1106,
+        "lees": 1111,
         "software-development": 76,
         "front-end-development": 5
       },
       "actualPositions": {
-        "lees": 1103,
+        "lees": 1111,
         "software-development": 76,
         "front-end-development": 5
       }
@@ -7492,14 +7783,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "front-end-development"
       ],
       "positions": {
-        "lees": 1030,
-        "short": 598,
+        "lees": 1035,
+        "short": 601,
         "software-development": 69,
         "front-end-development": 4
       },
       "actualPositions": {
-        "lees": 1028,
-        "short": 596,
+        "lees": 1035,
+        "short": 601,
         "software-development": 69,
         "front-end-development": 4
       }
@@ -7540,13 +7831,13 @@ window.TOP_ARTICLE_PRIORITY = {
         "software-development"
       ],
       "positions": {
-        "lees": 1181,
-        "short": 702,
+        "lees": 1186,
+        "short": 705,
         "software-development": 105
       },
       "actualPositions": {
-        "lees": 1178,
-        "short": 700,
+        "lees": 1186,
+        "short": 705,
         "software-development": 105
       }
     },
@@ -7588,12 +7879,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "front-end-development"
       ],
       "positions": {
-        "lees": 1029,
+        "lees": 1034,
         "software-development": 68,
         "front-end-development": 3
       },
       "actualPositions": {
-        "lees": 1027,
+        "lees": 1034,
         "software-development": 68,
         "front-end-development": 3
       }
@@ -7635,11 +7926,11 @@ window.TOP_ARTICLE_PRIORITY = {
         "software-development"
       ],
       "positions": {
-        "lees": 1105,
+        "lees": 1110,
         "software-development": 75
       },
       "actualPositions": {
-        "lees": 1102,
+        "lees": 1110,
         "software-development": 75
       }
     },
@@ -7680,11 +7971,11 @@ window.TOP_ARTICLE_PRIORITY = {
         "software-development"
       ],
       "positions": {
-        "lees": 1104,
+        "lees": 1109,
         "software-development": 74
       },
       "actualPositions": {
-        "lees": 1101,
+        "lees": 1109,
         "software-development": 74
       }
     },
@@ -7725,11 +8016,11 @@ window.TOP_ARTICLE_PRIORITY = {
         "software-development"
       ],
       "positions": {
-        "lees": 1103,
+        "lees": 1108,
         "software-development": 73
       },
       "actualPositions": {
-        "lees": 1100,
+        "lees": 1108,
         "software-development": 73
       }
     },
@@ -7774,14 +8065,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "software-development"
       ],
       "positions": {
-        "lees": 1028,
-        "short": 597,
+        "lees": 1033,
+        "short": 600,
         "luchtig": 210,
         "software-development": 67
       },
       "actualPositions": {
-        "lees": 1026,
-        "short": 595,
+        "lees": 1033,
+        "short": 600,
         "luchtig": 210,
         "software-development": 67
       }
@@ -7824,14 +8115,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "social-studies"
       ],
       "positions": {
-        "lees": 652,
+        "lees": 654,
         "software-development": 51,
-        "social-studies": 450
+        "social-studies": 451
       },
       "actualPositions": {
-        "lees": 651,
+        "lees": 654,
         "software-development": 51,
-        "social-studies": 449
+        "social-studies": 451
       }
     },
     "01m1q3a6kzaqg7nbd7c5btqga6": {
@@ -7874,13 +8165,13 @@ window.TOP_ARTICLE_PRIORITY = {
         "software-development"
       ],
       "positions": {
-        "lees": 1027,
-        "short": 596,
+        "lees": 1032,
+        "short": 599,
         "software-development": 66
       },
       "actualPositions": {
-        "lees": 1025,
-        "short": 594,
+        "lees": 1032,
+        "short": 599,
         "software-development": 66
       }
     },
@@ -7980,15 +8271,15 @@ window.TOP_ARTICLE_PRIORITY = {
         "social-studies"
       ],
       "positions": {
-        "lees": 518,
-        "short": 331,
+        "lees": 519,
+        "short": 332,
         "scrum": 180,
         "software-development": 37,
         "social-studies": 375
       },
       "actualPositions": {
-        "lees": 518,
-        "short": 331,
+        "lees": 519,
+        "short": 332,
         "scrum": 180,
         "software-development": 37,
         "social-studies": 375
@@ -8031,12 +8322,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "social-studies"
       ],
       "positions": {
-        "lees": 651,
-        "social-studies": 449
+        "lees": 653,
+        "social-studies": 450
       },
       "actualPositions": {
-        "lees": 650,
-        "social-studies": 448
+        "lees": 653,
+        "social-studies": 450
       }
     },
     "01m1q39c2bg52c45zpapazahcw": {
@@ -8080,14 +8371,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "front-end-development"
       ],
       "positions": {
-        "lees": 1026,
-        "short": 595,
+        "lees": 1031,
+        "short": 598,
         "software-development": 65,
         "front-end-development": 2
       },
       "actualPositions": {
-        "lees": 1024,
-        "short": 593,
+        "lees": 1031,
+        "short": 598,
         "software-development": 65,
         "front-end-development": 2
       }
@@ -8129,14 +8420,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "front-end-development"
       ],
       "positions": {
-        "lees": 1180,
-        "short": 701,
+        "lees": 1185,
+        "short": 704,
         "software-development": 104,
         "front-end-development": 6
       },
       "actualPositions": {
-        "lees": 1177,
-        "short": 699,
+        "lees": 1185,
+        "short": 704,
         "software-development": 104,
         "front-end-development": 6
       }
@@ -8233,13 +8524,13 @@ window.TOP_ARTICLE_PRIORITY = {
         "software-development"
       ],
       "positions": {
-        "lees": 858,
-        "short": 562,
+        "lees": 861,
+        "short": 563,
         "software-development": 57
       },
       "actualPositions": {
-        "lees": 857,
-        "short": 561,
+        "lees": 861,
+        "short": 563,
         "software-development": 57
       }
     },
@@ -8500,11 +8791,11 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 650,
+        "lees": 652,
         "luchtig": 108
       },
       "actualPositions": {
-        "lees": 649,
+        "lees": 652,
         "luchtig": 108
       }
     },
@@ -8598,14 +8889,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 1358,
-        "short": 812,
+        "lees": 1364,
+        "short": 815,
         "luchtig": 318
       },
       "actualPositions": {
-        "lees": 1352,
-        "short": 808,
-        "luchtig": 315
+        "lees": 1364,
+        "short": 815,
+        "luchtig": 318
       }
     },
     "01m1pth6508fttt01aae45rwtk": {
@@ -8643,11 +8934,11 @@ window.TOP_ARTICLE_PRIORITY = {
         "software-development"
       ],
       "positions": {
-        "lees": 1249,
+        "lees": 1255,
         "software-development": 128
       },
       "actualPositions": {
-        "lees": 1244,
+        "lees": 1255,
         "software-development": 128
       }
     },
@@ -8689,13 +8980,13 @@ window.TOP_ARTICLE_PRIORITY = {
         "software-development"
       ],
       "positions": {
-        "lees": 1179,
-        "short": 700,
+        "lees": 1184,
+        "short": 703,
         "software-development": 103
       },
       "actualPositions": {
-        "lees": 1176,
-        "short": 698,
+        "lees": 1184,
+        "short": 703,
         "software-development": 103
       }
     },
@@ -8736,11 +9027,11 @@ window.TOP_ARTICLE_PRIORITY = {
         "software-development"
       ],
       "positions": {
-        "lees": 1102,
+        "lees": 1107,
         "software-development": 72
       },
       "actualPositions": {
-        "lees": 1099,
+        "lees": 1107,
         "software-development": 72
       }
     },
@@ -8780,14 +9071,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 1178,
-        "short": 699,
+        "lees": 1183,
+        "short": 702,
         "luchtig": 255
       },
       "actualPositions": {
-        "lees": 1175,
-        "short": 697,
-        "luchtig": 254
+        "lees": 1183,
+        "short": 702,
+        "luchtig": 255
       }
     },
     "01m1ptfghydywhq0tw628kbsgp": {
@@ -8829,16 +9120,16 @@ window.TOP_ARTICLE_PRIORITY = {
         "social-studies"
       ],
       "positions": {
-        "lees": 857,
-        "short": 561,
+        "lees": 860,
+        "short": 562,
         "scrum": 248,
-        "social-studies": 535
+        "social-studies": 537
       },
       "actualPositions": {
-        "lees": 856,
-        "short": 560,
+        "lees": 860,
+        "short": 562,
         "scrum": 248,
-        "social-studies": 534
+        "social-studies": 537
       }
     },
     "01m1ptfcmvhqkgwddjtrydpv12": {
@@ -8878,12 +9169,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 856,
-        "short": 560
+        "lees": 859,
+        "short": 561
       },
       "actualPositions": {
-        "lees": 855,
-        "short": 559
+        "lees": 859,
+        "short": 561
       }
     },
     "01m1ptf0ecar9pdjbmmmqgzxgb": {
@@ -8923,12 +9214,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 1101,
-        "short": 646
+        "lees": 1106,
+        "short": 649
       },
       "actualPositions": {
-        "lees": 1098,
-        "short": 644
+        "lees": 1106,
+        "short": 649
       }
     },
     "01m1ptew1kmsww5mc9bbkkg26x": {
@@ -8969,13 +9260,13 @@ window.TOP_ARTICLE_PRIORITY = {
         "software-development"
       ],
       "positions": {
-        "lees": 1177,
-        "short": 698,
+        "lees": 1182,
+        "short": 701,
         "software-development": 102
       },
       "actualPositions": {
-        "lees": 1174,
-        "short": 696,
+        "lees": 1182,
+        "short": 701,
         "software-development": 102
       }
     },
@@ -9015,13 +9306,13 @@ window.TOP_ARTICLE_PRIORITY = {
         "software-development"
       ],
       "positions": {
-        "lees": 1248,
-        "short": 742,
+        "lees": 1254,
+        "short": 745,
         "software-development": 127
       },
       "actualPositions": {
-        "lees": 1243,
-        "short": 739,
+        "lees": 1254,
+        "short": 745,
         "software-development": 127
       }
     },
@@ -9063,13 +9354,13 @@ window.TOP_ARTICLE_PRIORITY = {
         "software-development"
       ],
       "positions": {
-        "lees": 1176,
-        "short": 697,
+        "lees": 1181,
+        "short": 700,
         "software-development": 101
       },
       "actualPositions": {
-        "lees": 1173,
-        "short": 695,
+        "lees": 1181,
+        "short": 700,
         "software-development": 101
       }
     },
@@ -9111,13 +9402,13 @@ window.TOP_ARTICLE_PRIORITY = {
         "software-development"
       ],
       "positions": {
-        "lees": 1175,
-        "short": 696,
+        "lees": 1180,
+        "short": 699,
         "software-development": 100
       },
       "actualPositions": {
-        "lees": 1172,
-        "short": 694,
+        "lees": 1180,
+        "short": 699,
         "software-development": 100
       }
     },
@@ -9159,13 +9450,13 @@ window.TOP_ARTICLE_PRIORITY = {
         "software-development"
       ],
       "positions": {
-        "lees": 1174,
-        "short": 695,
+        "lees": 1179,
+        "short": 698,
         "software-development": 99
       },
       "actualPositions": {
-        "lees": 1171,
-        "short": 693,
+        "lees": 1179,
+        "short": 698,
         "software-development": 99
       }
     },
@@ -9203,13 +9494,13 @@ window.TOP_ARTICLE_PRIORITY = {
         "software-development"
       ],
       "positions": {
-        "lees": 1317,
-        "short": 771,
+        "lees": 1323,
+        "short": 774,
         "software-development": 141
       },
       "actualPositions": {
-        "lees": 1311,
-        "short": 767,
+        "lees": 1323,
+        "short": 774,
         "software-development": 141
       }
     },
@@ -9251,13 +9542,13 @@ window.TOP_ARTICLE_PRIORITY = {
         "software-development"
       ],
       "positions": {
-        "lees": 1173,
-        "short": 694,
+        "lees": 1178,
+        "short": 697,
         "software-development": 98
       },
       "actualPositions": {
-        "lees": 1170,
-        "short": 692,
+        "lees": 1178,
+        "short": 697,
         "software-development": 98
       }
     },
@@ -9299,13 +9590,13 @@ window.TOP_ARTICLE_PRIORITY = {
         "software-development"
       ],
       "positions": {
-        "lees": 1172,
-        "short": 693,
+        "lees": 1177,
+        "short": 696,
         "software-development": 97
       },
       "actualPositions": {
-        "lees": 1169,
-        "short": 691,
+        "lees": 1177,
+        "short": 696,
         "software-development": 97
       }
     },
@@ -9394,13 +9685,13 @@ window.TOP_ARTICLE_PRIORITY = {
         "software-development"
       ],
       "positions": {
-        "lees": 1316,
-        "short": 770,
+        "lees": 1322,
+        "short": 773,
         "software-development": 140
       },
       "actualPositions": {
-        "lees": 1310,
-        "short": 766,
+        "lees": 1322,
+        "short": 773,
         "software-development": 140
       }
     },
@@ -9440,13 +9731,13 @@ window.TOP_ARTICLE_PRIORITY = {
         "software-development"
       ],
       "positions": {
-        "lees": 1247,
-        "short": 741,
+        "lees": 1253,
+        "short": 744,
         "software-development": 126
       },
       "actualPositions": {
-        "lees": 1242,
-        "short": 738,
+        "lees": 1253,
+        "short": 744,
         "software-development": 126
       }
     },
@@ -9488,13 +9779,13 @@ window.TOP_ARTICLE_PRIORITY = {
         "software-development"
       ],
       "positions": {
-        "lees": 1171,
-        "short": 692,
+        "lees": 1176,
+        "short": 695,
         "software-development": 96
       },
       "actualPositions": {
-        "lees": 1168,
-        "short": 690,
+        "lees": 1176,
+        "short": 695,
         "software-development": 96
       }
     },
@@ -9536,13 +9827,13 @@ window.TOP_ARTICLE_PRIORITY = {
         "software-development"
       ],
       "positions": {
-        "lees": 1170,
-        "short": 691,
+        "lees": 1175,
+        "short": 694,
         "software-development": 95
       },
       "actualPositions": {
-        "lees": 1167,
-        "short": 689,
+        "lees": 1175,
+        "short": 694,
         "software-development": 95
       }
     },
@@ -9581,11 +9872,11 @@ window.TOP_ARTICLE_PRIORITY = {
         "software-development"
       ],
       "positions": {
-        "lees": 1246,
+        "lees": 1252,
         "software-development": 125
       },
       "actualPositions": {
-        "lees": 1241,
+        "lees": 1252,
         "software-development": 125
       }
     },
@@ -9681,13 +9972,13 @@ window.TOP_ARTICLE_PRIORITY = {
         "software-development"
       ],
       "positions": {
-        "lees": 1169,
-        "short": 690,
+        "lees": 1174,
+        "short": 693,
         "software-development": 94
       },
       "actualPositions": {
-        "lees": 1166,
-        "short": 688,
+        "lees": 1174,
+        "short": 693,
         "software-development": 94
       }
     },
@@ -9726,11 +10017,11 @@ window.TOP_ARTICLE_PRIORITY = {
         "software-development"
       ],
       "positions": {
-        "lees": 1245,
+        "lees": 1251,
         "software-development": 124
       },
       "actualPositions": {
-        "lees": 1240,
+        "lees": 1251,
         "software-development": 124
       }
     },
@@ -9770,13 +10061,13 @@ window.TOP_ARTICLE_PRIORITY = {
         "software-development"
       ],
       "positions": {
-        "lees": 1244,
-        "short": 740,
+        "lees": 1250,
+        "short": 743,
         "software-development": 123
       },
       "actualPositions": {
-        "lees": 1239,
-        "short": 737,
+        "lees": 1250,
+        "short": 743,
         "software-development": 123
       }
     },
@@ -9815,11 +10106,11 @@ window.TOP_ARTICLE_PRIORITY = {
         "software-development"
       ],
       "positions": {
-        "lees": 1243,
+        "lees": 1249,
         "software-development": 122
       },
       "actualPositions": {
-        "lees": 1238,
+        "lees": 1249,
         "software-development": 122
       }
     },
@@ -9859,13 +10150,13 @@ window.TOP_ARTICLE_PRIORITY = {
         "software-development"
       ],
       "positions": {
-        "lees": 1242,
-        "short": 739,
+        "lees": 1248,
+        "short": 742,
         "software-development": 121
       },
       "actualPositions": {
-        "lees": 1237,
-        "short": 736,
+        "lees": 1248,
+        "short": 742,
         "software-development": 121
       }
     },
@@ -9966,14 +10257,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "social-studies"
       ],
       "positions": {
-        "lees": 517,
-        "short": 330,
+        "lees": 518,
+        "short": 331,
         "software-development": 36,
         "social-studies": 374
       },
       "actualPositions": {
-        "lees": 517,
-        "short": 330,
+        "lees": 518,
+        "short": 331,
         "software-development": 36,
         "social-studies": 374
       }
@@ -10013,11 +10304,11 @@ window.TOP_ARTICLE_PRIORITY = {
         "software-development"
       ],
       "positions": {
-        "lees": 1241,
+        "lees": 1247,
         "software-development": 120
       },
       "actualPositions": {
-        "lees": 1236,
+        "lees": 1247,
         "software-development": 120
       }
     },
@@ -10055,13 +10346,13 @@ window.TOP_ARTICLE_PRIORITY = {
         "software-development"
       ],
       "positions": {
-        "lees": 1315,
-        "short": 769,
+        "lees": 1321,
+        "short": 772,
         "software-development": 139
       },
       "actualPositions": {
-        "lees": 1309,
-        "short": 765,
+        "lees": 1321,
+        "short": 772,
         "software-development": 139
       }
     },
@@ -10103,13 +10394,13 @@ window.TOP_ARTICLE_PRIORITY = {
         "software-development"
       ],
       "positions": {
-        "lees": 1168,
-        "short": 689,
+        "lees": 1173,
+        "short": 692,
         "software-development": 93
       },
       "actualPositions": {
-        "lees": 1165,
-        "short": 687,
+        "lees": 1173,
+        "short": 692,
         "software-development": 93
       }
     },
@@ -10148,11 +10439,11 @@ window.TOP_ARTICLE_PRIORITY = {
         "software-development"
       ],
       "positions": {
-        "lees": 1240,
+        "lees": 1246,
         "software-development": 119
       },
       "actualPositions": {
-        "lees": 1235,
+        "lees": 1246,
         "software-development": 119
       }
     },
@@ -10190,13 +10481,13 @@ window.TOP_ARTICLE_PRIORITY = {
         "software-development"
       ],
       "positions": {
-        "lees": 1314,
-        "short": 768,
+        "lees": 1320,
+        "short": 771,
         "software-development": 138
       },
       "actualPositions": {
-        "lees": 1308,
-        "short": 764,
+        "lees": 1320,
+        "short": 771,
         "software-development": 138
       }
     },
@@ -10238,13 +10529,13 @@ window.TOP_ARTICLE_PRIORITY = {
         "software-development"
       ],
       "positions": {
-        "lees": 1167,
-        "short": 688,
+        "lees": 1172,
+        "short": 691,
         "software-development": 92
       },
       "actualPositions": {
-        "lees": 1164,
-        "short": 686,
+        "lees": 1172,
+        "short": 691,
         "software-development": 92
       }
     },
@@ -10286,13 +10577,13 @@ window.TOP_ARTICLE_PRIORITY = {
         "software-development"
       ],
       "positions": {
-        "lees": 1166,
-        "short": 687,
+        "lees": 1171,
+        "short": 690,
         "software-development": 91
       },
       "actualPositions": {
-        "lees": 1163,
-        "short": 685,
+        "lees": 1171,
+        "short": 690,
         "software-development": 91
       }
     },
@@ -10332,13 +10623,13 @@ window.TOP_ARTICLE_PRIORITY = {
         "software-development"
       ],
       "positions": {
-        "lees": 1239,
-        "short": 738,
+        "lees": 1245,
+        "short": 741,
         "software-development": 118
       },
       "actualPositions": {
-        "lees": 1234,
-        "short": 735,
+        "lees": 1245,
+        "short": 741,
         "software-development": 118
       }
     },
@@ -10377,11 +10668,11 @@ window.TOP_ARTICLE_PRIORITY = {
         "software-development"
       ],
       "positions": {
-        "lees": 1238,
+        "lees": 1244,
         "software-development": 117
       },
       "actualPositions": {
-        "lees": 1233,
+        "lees": 1244,
         "software-development": 117
       }
     },
@@ -10423,13 +10714,13 @@ window.TOP_ARTICLE_PRIORITY = {
         "software-development"
       ],
       "positions": {
-        "lees": 1165,
-        "short": 686,
+        "lees": 1170,
+        "short": 689,
         "software-development": 90
       },
       "actualPositions": {
-        "lees": 1162,
-        "short": 684,
+        "lees": 1170,
+        "short": 689,
         "software-development": 90
       }
     },
@@ -10472,16 +10763,16 @@ window.TOP_ARTICLE_PRIORITY = {
         "social-studies"
       ],
       "positions": {
-        "lees": 1100,
-        "short": 645,
+        "lees": 1105,
+        "short": 648,
         "software-development": 71,
-        "social-studies": 599
+        "social-studies": 601
       },
       "actualPositions": {
-        "lees": 1097,
-        "short": 643,
+        "lees": 1105,
+        "short": 648,
         "software-development": 71,
-        "social-studies": 598
+        "social-studies": 601
       }
     },
     "01m1p8zt55y0s49egf2jx5y33t": {
@@ -10520,13 +10811,13 @@ window.TOP_ARTICLE_PRIORITY = {
         "software-development"
       ],
       "positions": {
-        "lees": 1357,
-        "short": 811,
+        "lees": 1363,
+        "short": 814,
         "software-development": 144
       },
       "actualPositions": {
-        "lees": 1351,
-        "short": 807,
+        "lees": 1363,
+        "short": 814,
         "software-development": 144
       }
     },
@@ -10568,13 +10859,13 @@ window.TOP_ARTICLE_PRIORITY = {
         "software-development"
       ],
       "positions": {
-        "lees": 1164,
-        "short": 685,
+        "lees": 1169,
+        "short": 688,
         "software-development": 89
       },
       "actualPositions": {
-        "lees": 1161,
-        "short": 683,
+        "lees": 1169,
+        "short": 688,
         "software-development": 89
       }
     },
@@ -10616,13 +10907,13 @@ window.TOP_ARTICLE_PRIORITY = {
         "software-development"
       ],
       "positions": {
-        "lees": 1163,
-        "short": 684,
+        "lees": 1168,
+        "short": 687,
         "software-development": 88
       },
       "actualPositions": {
-        "lees": 1160,
-        "short": 682,
+        "lees": 1168,
+        "short": 687,
         "software-development": 88
       }
     },
@@ -10661,11 +10952,11 @@ window.TOP_ARTICLE_PRIORITY = {
         "software-development"
       ],
       "positions": {
-        "lees": 1237,
+        "lees": 1243,
         "software-development": 116
       },
       "actualPositions": {
-        "lees": 1232,
+        "lees": 1243,
         "software-development": 116
       }
     },
@@ -10703,13 +10994,13 @@ window.TOP_ARTICLE_PRIORITY = {
         "software-development"
       ],
       "positions": {
-        "lees": 1313,
-        "short": 767,
+        "lees": 1319,
+        "short": 770,
         "software-development": 137
       },
       "actualPositions": {
-        "lees": 1307,
-        "short": 763,
+        "lees": 1319,
+        "short": 770,
         "software-development": 137
       }
     },
@@ -10751,13 +11042,13 @@ window.TOP_ARTICLE_PRIORITY = {
         "software-development"
       ],
       "positions": {
-        "lees": 1162,
-        "short": 683,
+        "lees": 1167,
+        "short": 686,
         "software-development": 87
       },
       "actualPositions": {
-        "lees": 1159,
-        "short": 681,
+        "lees": 1167,
+        "short": 686,
         "software-development": 87
       }
     },
@@ -10850,11 +11141,11 @@ window.TOP_ARTICLE_PRIORITY = {
         "software-development"
       ],
       "positions": {
-        "lees": 1236,
+        "lees": 1242,
         "software-development": 115
       },
       "actualPositions": {
-        "lees": 1231,
+        "lees": 1242,
         "software-development": 115
       }
     },
@@ -10900,15 +11191,15 @@ window.TOP_ARTICLE_PRIORITY = {
         "social-studies"
       ],
       "positions": {
-        "lees": 516,
-        "short": 329,
+        "lees": 517,
+        "short": 330,
         "scrum": 179,
         "software-development": 35,
         "social-studies": 373
       },
       "actualPositions": {
-        "lees": 516,
-        "short": 329,
+        "lees": 517,
+        "short": 330,
         "scrum": 179,
         "software-development": 35,
         "social-studies": 373
@@ -10952,13 +11243,13 @@ window.TOP_ARTICLE_PRIORITY = {
         "software-development"
       ],
       "positions": {
-        "lees": 1161,
-        "short": 682,
+        "lees": 1166,
+        "short": 685,
         "software-development": 86
       },
       "actualPositions": {
-        "lees": 1158,
-        "short": 680,
+        "lees": 1166,
+        "short": 685,
         "software-development": 86
       }
     },
@@ -10998,13 +11289,13 @@ window.TOP_ARTICLE_PRIORITY = {
         "software-development"
       ],
       "positions": {
-        "lees": 1356,
-        "short": 810,
+        "lees": 1362,
+        "short": 813,
         "software-development": 143
       },
       "actualPositions": {
-        "lees": 1350,
-        "short": 806,
+        "lees": 1362,
+        "short": 813,
         "software-development": 143
       }
     },
@@ -11045,11 +11336,11 @@ window.TOP_ARTICLE_PRIORITY = {
         "software-development"
       ],
       "positions": {
-        "lees": 1099,
+        "lees": 1104,
         "software-development": 70
       },
       "actualPositions": {
-        "lees": 1096,
+        "lees": 1104,
         "software-development": 70
       }
     },
@@ -11091,13 +11382,13 @@ window.TOP_ARTICLE_PRIORITY = {
         "software-development"
       ],
       "positions": {
-        "lees": 1160,
-        "short": 681,
+        "lees": 1165,
+        "short": 684,
         "software-development": 85
       },
       "actualPositions": {
-        "lees": 1157,
-        "short": 679,
+        "lees": 1165,
+        "short": 684,
         "software-development": 85
       }
     },
@@ -11143,15 +11434,15 @@ window.TOP_ARTICLE_PRIORITY = {
         "social-studies"
       ],
       "positions": {
-        "lees": 515,
-        "short": 328,
+        "lees": 516,
+        "short": 329,
         "scrum": 178,
         "software-development": 34,
         "social-studies": 372
       },
       "actualPositions": {
-        "lees": 515,
-        "short": 328,
+        "lees": 516,
+        "short": 329,
         "scrum": 178,
         "software-development": 34,
         "social-studies": 372
@@ -11196,16 +11487,16 @@ window.TOP_ARTICLE_PRIORITY = {
         "social-studies"
       ],
       "positions": {
-        "lees": 649,
+        "lees": 651,
         "scrum": 207,
         "software-development": 50,
-        "social-studies": 448
+        "social-studies": 449
       },
       "actualPositions": {
-        "lees": 648,
+        "lees": 651,
         "scrum": 207,
         "software-development": 50,
-        "social-studies": 447
+        "social-studies": 449
       }
     },
     "01m1p736502zyy8y32xxb4e3ns": {
@@ -11242,13 +11533,13 @@ window.TOP_ARTICLE_PRIORITY = {
         "software-development"
       ],
       "positions": {
-        "lees": 1312,
-        "short": 766,
+        "lees": 1318,
+        "short": 769,
         "software-development": 136
       },
       "actualPositions": {
-        "lees": 1306,
-        "short": 762,
+        "lees": 1318,
+        "short": 769,
         "software-development": 136
       }
     },
@@ -11290,13 +11581,13 @@ window.TOP_ARTICLE_PRIORITY = {
         "software-development"
       ],
       "positions": {
-        "lees": 1159,
-        "short": 680,
+        "lees": 1164,
+        "short": 683,
         "software-development": 84
       },
       "actualPositions": {
-        "lees": 1156,
-        "short": 678,
+        "lees": 1164,
+        "short": 683,
         "software-development": 84
       }
     },
@@ -11335,11 +11626,11 @@ window.TOP_ARTICLE_PRIORITY = {
         "software-development"
       ],
       "positions": {
-        "lees": 1235,
+        "lees": 1241,
         "software-development": 114
       },
       "actualPositions": {
-        "lees": 1230,
+        "lees": 1241,
         "software-development": 114
       }
     },
@@ -11426,11 +11717,11 @@ window.TOP_ARTICLE_PRIORITY = {
         "software-development"
       ],
       "positions": {
-        "lees": 1234,
+        "lees": 1240,
         "software-development": 113
       },
       "actualPositions": {
-        "lees": 1229,
+        "lees": 1240,
         "software-development": 113
       }
     },
@@ -11469,11 +11760,11 @@ window.TOP_ARTICLE_PRIORITY = {
         "software-development"
       ],
       "positions": {
-        "lees": 1233,
+        "lees": 1239,
         "software-development": 112
       },
       "actualPositions": {
-        "lees": 1228,
+        "lees": 1239,
         "software-development": 112
       }
     },
@@ -11516,16 +11807,16 @@ window.TOP_ARTICLE_PRIORITY = {
         "social-studies"
       ],
       "positions": {
-        "lees": 648,
+        "lees": 650,
         "scrum": 206,
         "software-development": 49,
-        "social-studies": 447
+        "social-studies": 448
       },
       "actualPositions": {
-        "lees": 647,
+        "lees": 650,
         "scrum": 206,
         "software-development": 49,
-        "social-studies": 446
+        "social-studies": 448
       }
     },
     "01m1p5e6p6ww72hepd01ts9y9c": {
@@ -11567,16 +11858,16 @@ window.TOP_ARTICLE_PRIORITY = {
         "social-studies"
       ],
       "positions": {
-        "lees": 647,
+        "lees": 649,
         "scrum": 205,
         "software-development": 48,
-        "social-studies": 446
+        "social-studies": 447
       },
       "actualPositions": {
-        "lees": 646,
+        "lees": 649,
         "scrum": 205,
         "software-development": 48,
-        "social-studies": 445
+        "social-studies": 447
       }
     },
     "01m1p470j3kcmd7srqg5enza7f": {
@@ -11617,13 +11908,13 @@ window.TOP_ARTICLE_PRIORITY = {
         "software-development"
       ],
       "positions": {
-        "lees": 1158,
-        "short": 679,
+        "lees": 1163,
+        "short": 682,
         "software-development": 83
       },
       "actualPositions": {
-        "lees": 1155,
-        "short": 677,
+        "lees": 1163,
+        "short": 682,
         "software-development": 83
       }
     },
@@ -11665,13 +11956,13 @@ window.TOP_ARTICLE_PRIORITY = {
         "software-development"
       ],
       "positions": {
-        "lees": 1232,
-        "short": 737,
+        "lees": 1238,
+        "short": 740,
         "software-development": 111
       },
       "actualPositions": {
-        "lees": 1227,
-        "short": 734,
+        "lees": 1238,
+        "short": 740,
         "software-development": 111
       }
     },
@@ -11769,14 +12060,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "social-studies"
       ],
       "positions": {
-        "lees": 1025,
+        "lees": 1030,
         "luchtig": 209,
-        "social-studies": 578
+        "social-studies": 580
       },
       "actualPositions": {
-        "lees": 1023,
+        "lees": 1030,
         "luchtig": 209,
-        "social-studies": 577
+        "social-studies": 580
       }
     },
     "01m1p41e19rj8hqkynyfycpj6x": {
@@ -11814,11 +12105,11 @@ window.TOP_ARTICLE_PRIORITY = {
         "software-development"
       ],
       "positions": {
-        "lees": 1291,
+        "lees": 1297,
         "software-development": 130
       },
       "actualPositions": {
-        "lees": 1285,
+        "lees": 1297,
         "software-development": 130
       }
     },
@@ -11861,12 +12152,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 1024,
-        "short": 594
+        "lees": 1029,
+        "short": 597
       },
       "actualPositions": {
-        "lees": 1022,
-        "short": 592
+        "lees": 1029,
+        "short": 597
       }
     },
     "01m1nxmawbs1m6743sfe3scvhc": {
@@ -11907,14 +12198,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 1157,
-        "short": 678,
+        "lees": 1162,
+        "short": 681,
         "luchtig": 254
       },
       "actualPositions": {
-        "lees": 1154,
-        "short": 676,
-        "luchtig": 253
+        "lees": 1162,
+        "short": 681,
+        "luchtig": 254
       }
     },
     "01m1nws0v0cg5b29exkhvvhy80": {
@@ -11951,14 +12242,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 1380,
-        "short": 821,
+        "lees": 1386,
+        "short": 824,
         "luchtig": 331
       },
       "actualPositions": {
-        "lees": 1374,
-        "short": 817,
-        "luchtig": 328
+        "lees": 1386,
+        "short": 824,
+        "luchtig": 331
       }
     },
     "01m1nqm60pgjd8t038epgyyskx": {
@@ -11995,14 +12286,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 1379,
-        "short": 820,
+        "lees": 1385,
+        "short": 823,
         "luchtig": 330
       },
       "actualPositions": {
-        "lees": 1373,
-        "short": 816,
-        "luchtig": 327
+        "lees": 1385,
+        "short": 823,
+        "luchtig": 330
       }
     },
     "01m1nbt8x3a1cgym3xj65xn8hm": {
@@ -12096,13 +12387,13 @@ window.TOP_ARTICLE_PRIORITY = {
         "social-studies"
       ],
       "positions": {
-        "lees": 514,
-        "short": 327,
+        "lees": 515,
+        "short": 328,
         "social-studies": 371
       },
       "actualPositions": {
-        "lees": 514,
-        "short": 327,
+        "lees": 515,
+        "short": 328,
         "social-studies": 371
       }
     },
@@ -12191,18 +12482,18 @@ window.TOP_ARTICLE_PRIORITY = {
         "social-studies"
       ],
       "positions": {
-        "lees": 855,
-        "short": 559,
+        "lees": 858,
+        "short": 560,
         "scrum": 247,
         "software-development": 56,
-        "social-studies": 534
+        "social-studies": 536
       },
       "actualPositions": {
-        "lees": 854,
-        "short": 558,
+        "lees": 858,
+        "short": 560,
         "scrum": 247,
         "software-development": 56,
-        "social-studies": 533
+        "social-studies": 536
       }
     },
     "01m1m3qctqznr02htp6n37qf0s": {
@@ -12242,11 +12533,11 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 1023,
+        "lees": 1028,
         "luchtig": 208
       },
       "actualPositions": {
-        "lees": 1021,
+        "lees": 1028,
         "luchtig": 208
       }
     },
@@ -12282,14 +12573,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 1400,
-        "short": 839,
+        "lees": 1406,
+        "short": 842,
         "luchtig": 347
       },
       "actualPositions": {
-        "lees": 1394,
-        "short": 835,
-        "luchtig": 344
+        "lees": 1406,
+        "short": 842,
+        "luchtig": 347
       }
     },
     "01m1kxyer13kh8t2p6079y8xzg": {
@@ -12330,10 +12621,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 1022
+        "lees": 1027
       },
       "actualPositions": {
-        "lees": 1020
+        "lees": 1027
       }
     },
     "01m1kv4s3h9dadj3pm94kmh1ya": {
@@ -12377,14 +12668,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "social-studies"
       ],
       "positions": {
-        "lees": 513,
-        "short": 326,
+        "lees": 514,
+        "short": 327,
         "scrum": 177,
         "social-studies": 370
       },
       "actualPositions": {
-        "lees": 513,
-        "short": 326,
+        "lees": 514,
+        "short": 327,
         "scrum": 177,
         "social-studies": 370
       }
@@ -12466,12 +12757,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 1290,
-        "short": 758
+        "lees": 1296,
+        "short": 761
       },
       "actualPositions": {
-        "lees": 1284,
-        "short": 754
+        "lees": 1296,
+        "short": 761
       }
     },
     "01m1kscgrbsgy40tyeqfk38mb2": {
@@ -12567,13 +12858,13 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 854,
-        "short": 558,
+        "lees": 857,
+        "short": 559,
         "luchtig": 171
       },
       "actualPositions": {
-        "lees": 853,
-        "short": 557,
+        "lees": 857,
+        "short": 559,
         "luchtig": 171
       }
     },
@@ -12614,11 +12905,11 @@ window.TOP_ARTICLE_PRIORITY = {
         "social-studies"
       ],
       "positions": {
-        "lees": 511,
+        "lees": 512,
         "social-studies": 368
       },
       "actualPositions": {
-        "lees": 511,
+        "lees": 512,
         "social-studies": 368
       }
     },
@@ -12756,11 +13047,11 @@ window.TOP_ARTICLE_PRIORITY = {
         "social-studies"
       ],
       "positions": {
-        "lees": 510,
+        "lees": 511,
         "social-studies": 367
       },
       "actualPositions": {
-        "lees": 510,
+        "lees": 511,
         "social-studies": 367
       }
     },
@@ -12805,14 +13096,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "social-studies"
       ],
       "positions": {
-        "lees": 509,
-        "short": 325,
+        "lees": 510,
+        "short": 326,
         "scrum": 176,
         "social-studies": 366
       },
       "actualPositions": {
-        "lees": 509,
-        "short": 325,
+        "lees": 510,
+        "short": 326,
         "scrum": 176,
         "social-studies": 366
       }
@@ -12959,14 +13250,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "social-studies"
       ],
       "positions": {
-        "lees": 508,
-        "short": 324,
+        "lees": 509,
+        "short": 325,
         "scrum": 175,
         "social-studies": 365
       },
       "actualPositions": {
-        "lees": 508,
-        "short": 324,
+        "lees": 509,
+        "short": 325,
         "scrum": 175,
         "social-studies": 365
       }
@@ -13118,14 +13409,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "social-studies"
       ],
       "positions": {
-        "lees": 507,
-        "short": 323,
+        "lees": 508,
+        "short": 324,
         "scrum": 174,
         "social-studies": 364
       },
       "actualPositions": {
-        "lees": 507,
-        "short": 323,
+        "lees": 508,
+        "short": 324,
         "scrum": 174,
         "social-studies": 364
       }
@@ -13224,14 +13515,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "social-studies"
       ],
       "positions": {
-        "lees": 506,
-        "short": 322,
+        "lees": 507,
+        "short": 323,
         "scrum": 173,
         "social-studies": 363
       },
       "actualPositions": {
-        "lees": 506,
-        "short": 322,
+        "lees": 507,
+        "short": 323,
         "scrum": 173,
         "social-studies": 363
       }
@@ -13275,16 +13566,16 @@ window.TOP_ARTICLE_PRIORITY = {
         "social-studies"
       ],
       "positions": {
-        "lees": 853,
-        "short": 557,
+        "lees": 856,
+        "short": 558,
         "scrum": 246,
-        "social-studies": 533
+        "social-studies": 535
       },
       "actualPositions": {
-        "lees": 852,
-        "short": 556,
+        "lees": 856,
+        "short": 558,
         "scrum": 246,
-        "social-studies": 532
+        "social-studies": 535
       }
     },
     "01m1ksc73j7evdqetd2n0kdhan": {
@@ -13379,16 +13670,16 @@ window.TOP_ARTICLE_PRIORITY = {
         "social-studies"
       ],
       "positions": {
-        "lees": 852,
-        "short": 556,
+        "lees": 855,
+        "short": 557,
         "scrum": 245,
-        "social-studies": 532
+        "social-studies": 534
       },
       "actualPositions": {
-        "lees": 851,
-        "short": 555,
+        "lees": 855,
+        "short": 557,
         "scrum": 245,
-        "social-studies": 531
+        "social-studies": 534
       }
     },
     "01m1ksc61hsvcw170earazv0qf": {
@@ -13432,14 +13723,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "social-studies"
       ],
       "positions": {
-        "lees": 505,
-        "short": 321,
+        "lees": 506,
+        "short": 322,
         "scrum": 172,
         "social-studies": 362
       },
       "actualPositions": {
-        "lees": 505,
-        "short": 321,
+        "lees": 506,
+        "short": 322,
         "scrum": 172,
         "social-studies": 362
       }
@@ -13584,16 +13875,16 @@ window.TOP_ARTICLE_PRIORITY = {
         "social-studies"
       ],
       "positions": {
-        "lees": 851,
-        "short": 555,
+        "lees": 854,
+        "short": 556,
         "scrum": 244,
-        "social-studies": 531
+        "social-studies": 533
       },
       "actualPositions": {
-        "lees": 850,
-        "short": 554,
+        "lees": 854,
+        "short": 556,
         "scrum": 244,
-        "social-studies": 530
+        "social-studies": 533
       }
     },
     "01m1kppjvn52gk086k9nfajw2x": {
@@ -13637,14 +13928,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "social-studies"
       ],
       "positions": {
-        "lees": 504,
-        "short": 320,
+        "lees": 505,
+        "short": 321,
         "scrum": 171,
         "social-studies": 361
       },
       "actualPositions": {
-        "lees": 504,
-        "short": 320,
+        "lees": 505,
+        "short": 321,
         "scrum": 171,
         "social-studies": 361
       }
@@ -13685,10 +13976,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 646
+        "lees": 648
       },
       "actualPositions": {
-        "lees": 645
+        "lees": 648
       }
     },
     "01m1kpphr2gara3qnefsfkxyr3": {
@@ -13727,10 +14018,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 1021
+        "lees": 1026
       },
       "actualPositions": {
-        "lees": 1019
+        "lees": 1026
       }
     },
     "01m1kppgddyvqqhs4nqdsyg9y5": {
@@ -13921,14 +14212,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "social-studies"
       ],
       "positions": {
-        "lees": 645,
-        "short": 369,
-        "social-studies": 445
+        "lees": 647,
+        "short": 370,
+        "social-studies": 446
       },
       "actualPositions": {
-        "lees": 644,
-        "short": 368,
-        "social-studies": 444
+        "lees": 647,
+        "short": 370,
+        "social-studies": 446
       }
     },
     "01m1kppdwd2dgksd11nha402dw": {
@@ -14021,14 +14312,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "social-studies"
       ],
       "positions": {
-        "lees": 850,
-        "short": 554,
-        "social-studies": 530
+        "lees": 853,
+        "short": 555,
+        "social-studies": 532
       },
       "actualPositions": {
-        "lees": 849,
-        "short": 553,
-        "social-studies": 529
+        "lees": 853,
+        "short": 555,
+        "social-studies": 532
       }
     },
     "01m1kpjvpkpjy10c0zp09d0hty": {
@@ -14068,11 +14359,11 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 644,
+        "lees": 646,
         "luchtig": 107
       },
       "actualPositions": {
-        "lees": 643,
+        "lees": 646,
         "luchtig": 107
       }
     },
@@ -14113,12 +14404,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "social-studies"
       ],
       "positions": {
-        "lees": 1020,
-        "social-studies": 577
+        "lees": 1025,
+        "social-studies": 579
       },
       "actualPositions": {
-        "lees": 1018,
-        "social-studies": 576
+        "lees": 1025,
+        "social-studies": 579
       }
     },
     "01m1kg5ag4rkjkkhtq8mht8w7g": {
@@ -14157,10 +14448,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 1098
+        "lees": 1103
       },
       "actualPositions": {
-        "lees": 1095
+        "lees": 1103
       }
     },
     "01m1kcvfahdvzs3dv4m0jweqqv": {
@@ -14201,14 +14492,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 1097,
-        "short": 644,
+        "lees": 1102,
+        "short": 647,
         "luchtig": 234
       },
       "actualPositions": {
-        "lees": 1094,
-        "short": 642,
-        "luchtig": 233
+        "lees": 1102,
+        "short": 647,
+        "luchtig": 234
       }
     },
     "01m1kc16kh0be0n1a6kphyxpch": {
@@ -14250,12 +14541,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 849,
-        "short": 553
+        "lees": 852,
+        "short": 554
       },
       "actualPositions": {
-        "lees": 848,
-        "short": 552
+        "lees": 852,
+        "short": 554
       }
     },
     "01m1kbq0bfrmeeb0fp3n93jdg2": {
@@ -14298,13 +14589,13 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 848,
-        "short": 552,
+        "lees": 851,
+        "short": 553,
         "luchtig": 170
       },
       "actualPositions": {
-        "lees": 847,
-        "short": 551,
+        "lees": 851,
+        "short": 553,
         "luchtig": 170
       }
     },
@@ -14344,10 +14635,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 503
+        "lees": 504
       },
       "actualPositions": {
-        "lees": 503
+        "lees": 504
       }
     },
     "01m1kbpznvd2rxx9nz0ccdbntg": {
@@ -14386,10 +14677,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 502
+        "lees": 503
       },
       "actualPositions": {
-        "lees": 502
+        "lees": 503
       }
     },
     "01m1kbpzarzxbrkcdx8maxqykp": {
@@ -14428,10 +14719,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 501
+        "lees": 502
       },
       "actualPositions": {
-        "lees": 501
+        "lees": 502
       }
     },
     "01m1kbpz220vmkh9j3w778eqee": {
@@ -14473,12 +14764,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 847,
-        "short": 551
+        "lees": 850,
+        "short": 552
       },
       "actualPositions": {
-        "lees": 846,
-        "short": 550
+        "lees": 850,
+        "short": 552
       }
     },
     "01m1kbpynaqqfqr1cpkmar7kr1": {
@@ -14517,10 +14808,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 500
+        "lees": 501
       },
       "actualPositions": {
-        "lees": 500
+        "lees": 501
       }
     },
     "01m1kbpyawdpxn41s7rrrpcjnh": {
@@ -14661,14 +14952,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "social-studies"
       ],
       "positions": {
-        "lees": 846,
-        "short": 550,
-        "social-studies": 529
+        "lees": 849,
+        "short": 551,
+        "social-studies": 531
       },
       "actualPositions": {
-        "lees": 845,
-        "short": 549,
-        "social-studies": 528
+        "lees": 849,
+        "short": 551,
+        "social-studies": 531
       }
     },
     "01m1kbpwpstcswg39t97efrfxw": {
@@ -14711,14 +15002,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "social-studies"
       ],
       "positions": {
-        "lees": 845,
-        "short": 549,
-        "social-studies": 528
+        "lees": 848,
+        "short": 550,
+        "social-studies": 530
       },
       "actualPositions": {
-        "lees": 844,
-        "short": 548,
-        "social-studies": 527
+        "lees": 848,
+        "short": 550,
+        "social-studies": 530
       }
     },
     "01m1kbpt57wvjypjjdwtxa9pqa": {
@@ -14755,10 +15046,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 1289
+        "lees": 1295
       },
       "actualPositions": {
-        "lees": 1283
+        "lees": 1295
       }
     },
     "01m1kbpsqpze3kxjhmb4s5syj5": {
@@ -14797,10 +15088,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 1019
+        "lees": 1024
       },
       "actualPositions": {
-        "lees": 1017
+        "lees": 1024
       }
     },
     "01m1kbprxbsr8731rbr0ktzhg0": {
@@ -14843,13 +15134,13 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 844,
-        "short": 548,
+        "lees": 847,
+        "short": 549,
         "luchtig": 169
       },
       "actualPositions": {
-        "lees": 843,
-        "short": 547,
+        "lees": 847,
+        "short": 549,
         "luchtig": 169
       }
     },
@@ -14947,14 +15238,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "social-studies"
       ],
       "positions": {
-        "lees": 499,
-        "short": 319,
+        "lees": 500,
+        "short": 320,
         "scrum": 170,
         "social-studies": 360
       },
       "actualPositions": {
-        "lees": 499,
-        "short": 319,
+        "lees": 500,
+        "short": 320,
         "scrum": 170,
         "social-studies": 360
       }
@@ -14993,10 +15284,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 1288
+        "lees": 1294
       },
       "actualPositions": {
-        "lees": 1282
+        "lees": 1294
       }
     },
     "01m1k28fbgbqbwtsdxds9shka7": {
@@ -15040,16 +15331,16 @@ window.TOP_ARTICLE_PRIORITY = {
         "social-studies"
       ],
       "positions": {
-        "lees": 843,
-        "short": 547,
+        "lees": 846,
+        "short": 548,
         "luchtig": 168,
-        "social-studies": 527
+        "social-studies": 529
       },
       "actualPositions": {
-        "lees": 842,
-        "short": 546,
+        "lees": 846,
+        "short": 548,
         "luchtig": 168,
-        "social-studies": 526
+        "social-studies": 529
       }
     },
     "01m1k28e5vj9brgphvztjewayx": {
@@ -15093,16 +15384,16 @@ window.TOP_ARTICLE_PRIORITY = {
         "social-studies"
       ],
       "positions": {
-        "lees": 842,
-        "short": 546,
+        "lees": 845,
+        "short": 547,
         "luchtig": 167,
-        "social-studies": 526
+        "social-studies": 528
       },
       "actualPositions": {
-        "lees": 841,
-        "short": 545,
+        "lees": 845,
+        "short": 547,
         "luchtig": 167,
-        "social-studies": 525
+        "social-studies": 528
       }
     },
     "01m1k26fx8rshhxwte08wwbcba": {
@@ -15244,11 +15535,11 @@ window.TOP_ARTICLE_PRIORITY = {
         "social-studies"
       ],
       "positions": {
-        "lees": 498,
+        "lees": 499,
         "social-studies": 359
       },
       "actualPositions": {
-        "lees": 498,
+        "lees": 499,
         "social-studies": 359
       }
     },
@@ -15288,10 +15579,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 497
+        "lees": 498
       },
       "actualPositions": {
-        "lees": 497
+        "lees": 498
       }
     },
     "01m1jthk3qxpy00g5sce7mrpek": {
@@ -15333,12 +15624,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 841,
-        "short": 545
+        "lees": 844,
+        "short": 546
       },
       "actualPositions": {
-        "lees": 840,
-        "short": 544
+        "lees": 844,
+        "short": 546
       }
     },
     "01m1jnstmtma6kp07asge1xsk4": {
@@ -15373,14 +15664,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 1399,
-        "short": 838,
+        "lees": 1405,
+        "short": 841,
         "luchtig": 346
       },
       "actualPositions": {
-        "lees": 1393,
-        "short": 834,
-        "luchtig": 343
+        "lees": 1405,
+        "short": 841,
+        "luchtig": 346
       }
     },
     "01m1hkrczrc5ssj7w6kv4w9128": {
@@ -15418,12 +15709,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 1123,
+        "lees": 1128,
         "luchtig": 240
       },
       "actualPositions": {
-        "lees": 1120,
-        "luchtig": 239
+        "lees": 1128,
+        "luchtig": 240
       }
     },
     "01m1hem41h3dm6vkde11es3e2g": {
@@ -15508,11 +15799,11 @@ window.TOP_ARTICLE_PRIORITY = {
         "social-studies"
       ],
       "positions": {
-        "lees": 496,
+        "lees": 497,
         "social-studies": 358
       },
       "actualPositions": {
-        "lees": 496,
+        "lees": 497,
         "social-studies": 358
       }
     },
@@ -15598,11 +15889,11 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 1018,
+        "lees": 1023,
         "luchtig": 207
       },
       "actualPositions": {
-        "lees": 1016,
+        "lees": 1023,
         "luchtig": 207
       }
     },
@@ -15641,12 +15932,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 1156,
-        "short": 677
+        "lees": 1161,
+        "short": 680
       },
       "actualPositions": {
-        "lees": 1153,
-        "short": 675
+        "lees": 1161,
+        "short": 680
       }
     },
     "01m1gv9qnfev9v21x544px098s": {
@@ -15683,10 +15974,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 1122
+        "lees": 1127
       },
       "actualPositions": {
-        "lees": 1119
+        "lees": 1127
       }
     },
     "01m1gv9mzcs4bkz4akp5hh1w28": {
@@ -15725,10 +16016,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 643
+        "lees": 645
       },
       "actualPositions": {
-        "lees": 642
+        "lees": 645
       }
     },
     "01m1gv9j9g94ch0s2gj9deh2w0": {
@@ -15772,14 +16063,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "social-studies"
       ],
       "positions": {
-        "lees": 495,
-        "short": 318,
+        "lees": 496,
+        "short": 319,
         "scrum": 169,
         "social-studies": 357
       },
       "actualPositions": {
-        "lees": 495,
-        "short": 318,
+        "lees": 496,
+        "short": 319,
         "scrum": 169,
         "social-studies": 357
       }
@@ -15820,14 +16111,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 1155,
-        "short": 676,
+        "lees": 1160,
+        "short": 679,
         "luchtig": 253
       },
       "actualPositions": {
-        "lees": 1152,
-        "short": 674,
-        "luchtig": 252
+        "lees": 1160,
+        "short": 679,
+        "luchtig": 253
       }
     },
     "01m1gv9atc9pmec77602etsmqf": {
@@ -15970,14 +16261,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "social-studies"
       ],
       "positions": {
-        "lees": 494,
-        "short": 317,
+        "lees": 495,
+        "short": 318,
         "scrum": 168,
         "social-studies": 356
       },
       "actualPositions": {
-        "lees": 494,
-        "short": 317,
+        "lees": 495,
+        "short": 318,
         "scrum": 168,
         "social-studies": 356
       }
@@ -16069,10 +16360,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 493
+        "lees": 494
       },
       "actualPositions": {
-        "lees": 493
+        "lees": 494
       }
     },
     "01m1gv8q7n6gxye4kxmw3yyfnb": {
@@ -16116,14 +16407,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "social-studies"
       ],
       "positions": {
-        "lees": 492,
-        "short": 316,
+        "lees": 493,
+        "short": 317,
         "scrum": 167,
         "social-studies": 355
       },
       "actualPositions": {
-        "lees": 492,
-        "short": 316,
+        "lees": 493,
+        "short": 317,
         "scrum": 167,
         "social-studies": 355
       }
@@ -16165,11 +16456,11 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 1017,
+        "lees": 1022,
         "luchtig": 206
       },
       "actualPositions": {
-        "lees": 1015,
+        "lees": 1022,
         "luchtig": 206
       }
     },
@@ -16210,11 +16501,11 @@ window.TOP_ARTICLE_PRIORITY = {
         "social-studies"
       ],
       "positions": {
-        "lees": 491,
+        "lees": 492,
         "social-studies": 354
       },
       "actualPositions": {
-        "lees": 491,
+        "lees": 492,
         "social-studies": 354
       }
     },
@@ -16300,11 +16591,11 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 1016,
+        "lees": 1021,
         "luchtig": 205
       },
       "actualPositions": {
-        "lees": 1014,
+        "lees": 1021,
         "luchtig": 205
       }
     },
@@ -16497,11 +16788,11 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 1015,
+        "lees": 1020,
         "luchtig": 204
       },
       "actualPositions": {
-        "lees": 1013,
+        "lees": 1020,
         "luchtig": 204
       }
     },
@@ -16541,10 +16832,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 1014
+        "lees": 1019
       },
       "actualPositions": {
-        "lees": 1012
+        "lees": 1019
       }
     },
     "01m1g7frm08vp4nfs7mhv7425j": {
@@ -16583,10 +16874,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 642
+        "lees": 644
       },
       "actualPositions": {
-        "lees": 641
+        "lees": 644
       }
     },
     "01m1g7fa5dn2h1rgd0pv6bfp8d": {
@@ -16630,14 +16921,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "social-studies"
       ],
       "positions": {
-        "lees": 490,
-        "short": 315,
+        "lees": 491,
+        "short": 316,
         "scrum": 166,
         "social-studies": 353
       },
       "actualPositions": {
-        "lees": 490,
-        "short": 315,
+        "lees": 491,
+        "short": 316,
         "scrum": 166,
         "social-studies": 353
       }
@@ -16677,12 +16968,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 1154,
-        "short": 675
+        "lees": 1159,
+        "short": 678
       },
       "actualPositions": {
-        "lees": 1151,
-        "short": 673
+        "lees": 1159,
+        "short": 678
       }
     },
     "01m1exeqvfjydcqbktsm9q674h": {
@@ -16722,12 +17013,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 1231,
-        "short": 736
+        "lees": 1237,
+        "short": 739
       },
       "actualPositions": {
-        "lees": 1226,
-        "short": 733
+        "lees": 1237,
+        "short": 739
       }
     },
     "01m1evwxk35pk2xzcnyvv1gfqq": {
@@ -16812,14 +17103,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 1355,
-        "short": 809,
+        "lees": 1361,
+        "short": 812,
         "luchtig": 317
       },
       "actualPositions": {
-        "lees": 1349,
-        "short": 805,
-        "luchtig": 314
+        "lees": 1361,
+        "short": 812,
+        "luchtig": 317
       }
     },
     "01m1eqhrt9fmjkb1mr1scdv9r4": {
@@ -16907,12 +17198,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 641,
-        "short": 368
+        "lees": 643,
+        "short": 369
       },
       "actualPositions": {
-        "lees": 640,
-        "short": 367
+        "lees": 643,
+        "short": 369
       }
     },
     "01m1e8skmjh2g5z1h86r0kbcp0": {
@@ -16953,14 +17244,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 1153,
-        "short": 674,
+        "lees": 1158,
+        "short": 677,
         "luchtig": 252
       },
       "actualPositions": {
-        "lees": 1150,
-        "short": 672,
-        "luchtig": 251
+        "lees": 1158,
+        "short": 677,
+        "luchtig": 252
       }
     },
     "01m1e6mrk0cty5wjpkgv9pybb0": {
@@ -17000,11 +17291,11 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 1013,
+        "lees": 1018,
         "luchtig": 203
       },
       "actualPositions": {
-        "lees": 1011,
+        "lees": 1018,
         "luchtig": 203
       }
     },
@@ -17044,10 +17335,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 1012
+        "lees": 1017
       },
       "actualPositions": {
-        "lees": 1010
+        "lees": 1017
       }
     },
     "01m1dvk20z9eys206wpvm2y518": {
@@ -17088,14 +17379,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "social-studies"
       ],
       "positions": {
-        "lees": 1096,
-        "short": 643,
-        "social-studies": 598
+        "lees": 1101,
+        "short": 646,
+        "social-studies": 600
       },
       "actualPositions": {
-        "lees": 1093,
-        "short": 641,
-        "social-studies": 597
+        "lees": 1101,
+        "short": 646,
+        "social-studies": 600
       }
     },
     "01m1ds1r59v3khm4b851zheyg0": {
@@ -17132,10 +17423,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 1287
+        "lees": 1293
       },
       "actualPositions": {
-        "lees": 1281
+        "lees": 1293
       }
     },
     "01m1dmsfat9crf3zm3sahqjvdw": {
@@ -17177,12 +17468,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 840,
-        "short": 544
+        "lees": 843,
+        "short": 545
       },
       "actualPositions": {
-        "lees": 839,
-        "short": 543
+        "lees": 843,
+        "short": 545
       }
     },
     "01m1dmrzkxxy3dm0xac93m1mvv": {
@@ -17225,13 +17516,13 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 839,
-        "short": 543,
+        "lees": 842,
+        "short": 544,
         "luchtig": 166
       },
       "actualPositions": {
-        "lees": 838,
-        "short": 542,
+        "lees": 842,
+        "short": 544,
         "luchtig": 166
       }
     },
@@ -17273,14 +17564,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "social-studies"
       ],
       "positions": {
-        "lees": 640,
+        "lees": 642,
         "scrum": 204,
-        "social-studies": 444
+        "social-studies": 445
       },
       "actualPositions": {
-        "lees": 639,
+        "lees": 642,
         "scrum": 204,
-        "social-studies": 443
+        "social-studies": 445
       }
     },
     "01m1d8cg3509zyq9bww08azyze": {
@@ -17374,13 +17665,13 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 1011,
-        "short": 593,
+        "lees": 1016,
+        "short": 596,
         "luchtig": 202
       },
       "actualPositions": {
-        "lees": 1009,
-        "short": 591,
+        "lees": 1016,
+        "short": 596,
         "luchtig": 202
       }
     },
@@ -17467,14 +17758,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 1354,
-        "short": 808,
+        "lees": 1360,
+        "short": 811,
         "luchtig": 316
       },
       "actualPositions": {
-        "lees": 1348,
-        "short": 804,
-        "luchtig": 313
+        "lees": 1360,
+        "short": 811,
+        "luchtig": 316
       }
     },
     "01m1ckrdyh8tprrhj5bvqysbef": {
@@ -17567,12 +17858,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 1230,
-        "short": 735
+        "lees": 1236,
+        "short": 738
       },
       "actualPositions": {
-        "lees": 1225,
-        "short": 732
+        "lees": 1236,
+        "short": 738
       }
     },
     "01m1cjtk21f0amf87syxe52ymq": {
@@ -17614,12 +17905,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 838,
-        "short": 542
+        "lees": 841,
+        "short": 543
       },
       "actualPositions": {
-        "lees": 837,
-        "short": 541
+        "lees": 841,
+        "short": 543
       }
     },
     "01m1charbk855ndbzqacann0ab": {
@@ -17661,16 +17952,16 @@ window.TOP_ARTICLE_PRIORITY = {
         "social-studies"
       ],
       "positions": {
-        "lees": 837,
-        "short": 541,
+        "lees": 840,
+        "short": 542,
         "scrum": 243,
-        "social-studies": 525
+        "social-studies": 527
       },
       "actualPositions": {
-        "lees": 836,
-        "short": 540,
+        "lees": 840,
+        "short": 542,
         "scrum": 243,
-        "social-studies": 524
+        "social-studies": 527
       }
     },
     "01m1ch8k70s787jee7dta2dbvq": {
@@ -17712,16 +18003,16 @@ window.TOP_ARTICLE_PRIORITY = {
         "social-studies"
       ],
       "positions": {
-        "lees": 639,
+        "lees": 641,
         "luchtig": 106,
         "scrum": 203,
-        "social-studies": 443
+        "social-studies": 444
       },
       "actualPositions": {
-        "lees": 638,
+        "lees": 641,
         "luchtig": 106,
         "scrum": 203,
-        "social-studies": 442
+        "social-studies": 444
       }
     },
     "01m1cb72ztk4pc8n0zyvdvt3vt": {
@@ -17763,12 +18054,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 836,
-        "short": 540
+        "lees": 839,
+        "short": 541
       },
       "actualPositions": {
-        "lees": 835,
-        "short": 539
+        "lees": 839,
+        "short": 541
       }
     },
     "01m1c458rwtphq21paaan5p5k9": {
@@ -17804,12 +18095,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 1353,
-        "short": 807
+        "lees": 1359,
+        "short": 810
       },
       "actualPositions": {
-        "lees": 1347,
-        "short": 803
+        "lees": 1359,
+        "short": 810
       }
     },
     "01m1c1zrnzsnbwzcccnzrmyqwd": {
@@ -17848,14 +18139,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 1229,
-        "short": 734,
+        "lees": 1235,
+        "short": 737,
         "luchtig": 275
       },
       "actualPositions": {
-        "lees": 1224,
-        "short": 731,
-        "luchtig": 273
+        "lees": 1235,
+        "short": 737,
+        "luchtig": 275
       }
     },
     "01m1bw8kqt5bsdhb9tssxy5kdt": {
@@ -17892,10 +18183,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 1121
+        "lees": 1126
       },
       "actualPositions": {
-        "lees": 1118
+        "lees": 1126
       }
     },
     "01m1bse64zt0k4xtb5d5m6q1b4": {
@@ -17939,12 +18230,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 1120,
-        "short": 654
+        "lees": 1125,
+        "short": 657
       },
       "actualPositions": {
-        "lees": 1117,
-        "short": 652
+        "lees": 1125,
+        "short": 657
       }
     },
     "01m1bs84w5sy1pzv392mwaem8p": {
@@ -18026,12 +18317,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 1398,
-        "short": 837
+        "lees": 1404,
+        "short": 840
       },
       "actualPositions": {
-        "lees": 1392,
-        "short": 833
+        "lees": 1404,
+        "short": 840
       }
     },
     "01m1bpagg1zbf3tfxgzdxb4r7k": {
@@ -18071,12 +18362,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 1228,
-        "short": 733
+        "lees": 1234,
+        "short": 736
       },
       "actualPositions": {
-        "lees": 1223,
-        "short": 730
+        "lees": 1234,
+        "short": 736
       }
     },
     "01m1bp4q4ny6wgawq3hygdzsmk": {
@@ -18167,12 +18458,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 1227,
-        "short": 732
+        "lees": 1233,
+        "short": 735
       },
       "actualPositions": {
-        "lees": 1222,
-        "short": 729
+        "lees": 1233,
+        "short": 735
       }
     },
     "01m19wxeysr14nnqz9tvmv2954": {
@@ -18211,10 +18502,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 1010
+        "lees": 1015
       },
       "actualPositions": {
-        "lees": 1008
+        "lees": 1015
       }
     },
     "01m19wwfpnqk8dz457a0c205e7": {
@@ -18253,10 +18544,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 489
+        "lees": 490
       },
       "actualPositions": {
-        "lees": 489
+        "lees": 490
       }
     },
     "01m19w7q0zg02grgyhrzt1bh7k": {
@@ -18293,10 +18584,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 1286
+        "lees": 1292
       },
       "actualPositions": {
-        "lees": 1280
+        "lees": 1292
       }
     },
     "01m19qh083hq0g14zw0sm2wm1h": {
@@ -18338,12 +18629,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 835,
-        "short": 539
+        "lees": 838,
+        "short": 540
       },
       "actualPositions": {
-        "lees": 834,
-        "short": 538
+        "lees": 838,
+        "short": 540
       }
     },
     "01m19pcdanate1zdv9k1w5j8rk": {
@@ -18385,12 +18676,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 834,
-        "short": 538
+        "lees": 837,
+        "short": 539
       },
       "actualPositions": {
-        "lees": 833,
-        "short": 537
+        "lees": 837,
+        "short": 539
       }
     },
     "01m19n92k4kzfxys62sysxypyw": {
@@ -18432,12 +18723,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 1009,
-        "short": 592
+        "lees": 1014,
+        "short": 595
       },
       "actualPositions": {
-        "lees": 1007,
-        "short": 590
+        "lees": 1014,
+        "short": 595
       }
     },
     "01m19n8bsh23gfhegpp12ny1a6": {
@@ -18520,10 +18811,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "short": 653
+        "short": 656
       },
       "actualPositions": {
-        "short": 651
+        "short": 656
       }
     },
     "01m19n6ck58xm3cd07fveztjaq": {
@@ -18563,12 +18854,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 1095,
-        "short": 642
+        "lees": 1100,
+        "short": 645
       },
       "actualPositions": {
-        "lees": 1092,
-        "short": 640
+        "lees": 1100,
+        "short": 645
       }
     },
     "01m19n648x8mjc6v2bnx74cpnk": {
@@ -18611,13 +18902,13 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 488,
-        "short": 314,
+        "lees": 489,
+        "short": 315,
         "luchtig": 78
       },
       "actualPositions": {
-        "lees": 488,
-        "short": 314,
+        "lees": 489,
+        "short": 315,
         "luchtig": 78
       }
     },
@@ -18709,11 +19000,11 @@ window.TOP_ARTICLE_PRIORITY = {
         "social-studies"
       ],
       "positions": {
-        "lees": 487,
+        "lees": 488,
         "social-studies": 352
       },
       "actualPositions": {
-        "lees": 487,
+        "lees": 488,
         "social-studies": 352
       }
     },
@@ -18754,12 +19045,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 1094,
-        "short": 641
+        "lees": 1099,
+        "short": 644
       },
       "actualPositions": {
-        "lees": 1091,
-        "short": 639
+        "lees": 1099,
+        "short": 644
       }
     },
     "01m197k0djkjvk6v165762e4ks": {
@@ -18799,11 +19090,11 @@ window.TOP_ARTICLE_PRIORITY = {
         "social-studies"
       ],
       "positions": {
-        "lees": 486,
+        "lees": 487,
         "social-studies": 351
       },
       "actualPositions": {
-        "lees": 486,
+        "lees": 487,
         "social-studies": 351
       }
     },
@@ -18843,10 +19134,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 1008
+        "lees": 1013
       },
       "actualPositions": {
-        "lees": 1006
+        "lees": 1013
       }
     },
     "01m197jhk940m6m8md40p2pdka": {
@@ -18886,12 +19177,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 1093,
-        "short": 640
+        "lees": 1098,
+        "short": 643
       },
       "actualPositions": {
-        "lees": 1090,
-        "short": 638
+        "lees": 1098,
+        "short": 643
       }
     },
     "01m197jdcbqdrakqtav2shrmvk": {
@@ -18933,12 +19224,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 833,
-        "short": 537
+        "lees": 836,
+        "short": 538
       },
       "actualPositions": {
-        "lees": 832,
-        "short": 536
+        "lees": 836,
+        "short": 538
       }
     },
     "01m197ja4fh1dhq77sqe28k56c": {
@@ -18981,13 +19272,13 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 832,
-        "short": 536,
+        "lees": 835,
+        "short": 537,
         "luchtig": 165
       },
       "actualPositions": {
-        "lees": 831,
-        "short": 535,
+        "lees": 835,
+        "short": 537,
         "luchtig": 165
       }
     },
@@ -19028,12 +19319,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 1092,
-        "short": 639
+        "lees": 1097,
+        "short": 642
       },
       "actualPositions": {
-        "lees": 1089,
-        "short": 637
+        "lees": 1097,
+        "short": 642
       }
     },
     "01m197hyzacep3c0dwmqjqpwnf": {
@@ -19075,12 +19366,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 831,
-        "short": 535
+        "lees": 834,
+        "short": 536
       },
       "actualPositions": {
-        "lees": 830,
-        "short": 534
+        "lees": 834,
+        "short": 536
       }
     },
     "01m197f1b5x4r4jc8gt8enzhne": {
@@ -19122,12 +19413,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 830,
-        "short": 534
+        "lees": 833,
+        "short": 535
       },
       "actualPositions": {
-        "lees": 829,
-        "short": 533
+        "lees": 833,
+        "short": 535
       }
     },
     "01m197ak0mwm6903bj8hq403qw": {
@@ -19169,12 +19460,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 829,
-        "short": 533
+        "lees": 832,
+        "short": 534
       },
       "actualPositions": {
-        "lees": 828,
-        "short": 532
+        "lees": 832,
+        "short": 534
       }
     },
     "01m197a17dj6fp1zb5n04c8tn9": {
@@ -19216,12 +19507,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 828,
-        "short": 532
+        "lees": 831,
+        "short": 533
       },
       "actualPositions": {
-        "lees": 827,
-        "short": 531
+        "lees": 831,
+        "short": 533
       }
     },
     "01m1979q86y6gkgvrp4gra5yy0": {
@@ -19260,10 +19551,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 485
+        "lees": 486
       },
       "actualPositions": {
-        "lees": 485
+        "lees": 486
       }
     },
     "01m1979d6en4ayk73aparj35d4": {
@@ -19302,10 +19593,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 484
+        "lees": 485
       },
       "actualPositions": {
-        "lees": 484
+        "lees": 485
       }
     },
     "01m19794a8388qq22ds04x06ss": {
@@ -19442,12 +19733,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 638,
-        "short": 367
+        "lees": 640,
+        "short": 368
       },
       "actualPositions": {
-        "lees": 637,
-        "short": 366
+        "lees": 640,
+        "short": 368
       }
     },
     "01m19788c8afg48qrey06vnawx": {
@@ -19583,10 +19874,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 483
+        "lees": 484
       },
       "actualPositions": {
-        "lees": 483
+        "lees": 484
       }
     },
     "01m1977k93d8kxyzhjrt7xvarp": {
@@ -19676,12 +19967,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 1091,
-        "short": 638
+        "lees": 1096,
+        "short": 641
       },
       "actualPositions": {
-        "lees": 1088,
-        "short": 636
+        "lees": 1096,
+        "short": 641
       }
     },
     "01m1975zgkyj1y2md7pj4arejw": {
@@ -19721,12 +20012,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 1090,
-        "short": 637
+        "lees": 1095,
+        "short": 640
       },
       "actualPositions": {
-        "lees": 1087,
-        "short": 635
+        "lees": 1095,
+        "short": 640
       }
     },
     "01m1975qrhb3m8f3f3resm8p6n": {
@@ -19768,12 +20059,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 827,
-        "short": 531
+        "lees": 830,
+        "short": 532
       },
       "actualPositions": {
-        "lees": 826,
-        "short": 530
+        "lees": 830,
+        "short": 532
       }
     },
     "01m1975ekmdsc0hj34geabean3": {
@@ -19863,11 +20154,11 @@ window.TOP_ARTICLE_PRIORITY = {
         "social-studies"
       ],
       "positions": {
-        "lees": 482,
+        "lees": 483,
         "social-studies": 350
       },
       "actualPositions": {
-        "lees": 482,
+        "lees": 483,
         "social-studies": 350
       }
     },
@@ -19909,10 +20200,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 1007
+        "lees": 1012
       },
       "actualPositions": {
-        "lees": 1005
+        "lees": 1012
       }
     },
     "01m1972yq6wn0khvv5y80gzrd3": {
@@ -19953,10 +20244,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 1006
+        "lees": 1011
       },
       "actualPositions": {
-        "lees": 1004
+        "lees": 1011
       }
     },
     "01m1972tbcgs6619xxy2hgm5qp": {
@@ -20040,10 +20331,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 481
+        "lees": 482
       },
       "actualPositions": {
-        "lees": 481
+        "lees": 482
       }
     },
     "01m1972kpya3ntd4tkzykt1jx7": {
@@ -20082,10 +20373,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 1005
+        "lees": 1010
       },
       "actualPositions": {
-        "lees": 1003
+        "lees": 1010
       }
     },
     "01m1972gpg28s9nhajhcp4hnc6": {
@@ -20124,10 +20415,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 1004
+        "lees": 1009
       },
       "actualPositions": {
-        "lees": 1002
+        "lees": 1009
       }
     },
     "01m1972dqdg438zm3ks4cghfbx": {
@@ -20169,12 +20460,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 826,
-        "short": 530
+        "lees": 829,
+        "short": 531
       },
       "actualPositions": {
-        "lees": 825,
-        "short": 529
+        "lees": 829,
+        "short": 531
       }
     },
     "01m197272zsjny217g8gtsknwd": {
@@ -20213,10 +20504,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 480
+        "lees": 481
       },
       "actualPositions": {
-        "lees": 480
+        "lees": 481
       }
     },
     "01m19723d7hqw7mrk2913wry95": {
@@ -20255,10 +20546,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 479
+        "lees": 480
       },
       "actualPositions": {
-        "lees": 479
+        "lees": 480
       }
     },
     "01m1971ytvsmz2pm8p127hxqfn": {
@@ -20300,12 +20591,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 825,
-        "short": 529
+        "lees": 828,
+        "short": 530
       },
       "actualPositions": {
-        "lees": 824,
-        "short": 528
+        "lees": 828,
+        "short": 530
       }
     },
     "01m1971tmdjnkdzft86sj5r34j": {
@@ -20344,10 +20635,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 478
+        "lees": 479
       },
       "actualPositions": {
-        "lees": 478
+        "lees": 479
       }
     },
     "01m1971qjtm9zxxjhdy986922b": {
@@ -20386,10 +20677,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 477
+        "lees": 478
       },
       "actualPositions": {
-        "lees": 477
+        "lees": 478
       }
     },
     "01m1971mvxjzsyz3np8wqmv604": {
@@ -20429,12 +20720,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "social-studies"
       ],
       "positions": {
-        "lees": 637,
-        "social-studies": 442
+        "lees": 639,
+        "social-studies": 443
       },
       "actualPositions": {
-        "lees": 636,
-        "social-studies": 441
+        "lees": 639,
+        "social-studies": 443
       }
     },
     "01m1971j070aamhztgxr4k22jg": {
@@ -20475,12 +20766,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "social-studies"
       ],
       "positions": {
-        "lees": 476,
+        "lees": 477,
         "luchtig": 77,
         "social-studies": 349
       },
       "actualPositions": {
-        "lees": 476,
+        "lees": 477,
         "luchtig": 77,
         "social-studies": 349
       }
@@ -20574,12 +20865,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 824,
-        "short": 528
+        "lees": 827,
+        "short": 529
       },
       "actualPositions": {
-        "lees": 823,
-        "short": 527
+        "lees": 827,
+        "short": 529
       }
     },
     "01m19717jfcxxs47fnbnj5jx5q": {
@@ -20721,12 +21012,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 823,
-        "short": 527
+        "lees": 826,
+        "short": 528
       },
       "actualPositions": {
-        "lees": 822,
-        "short": 526
+        "lees": 826,
+        "short": 528
       }
     },
     "01m196y8g5rsnqxf3771kmb5ep": {
@@ -20818,12 +21109,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 822,
-        "short": 526
+        "lees": 825,
+        "short": 527
       },
       "actualPositions": {
-        "lees": 821,
-        "short": 525
+        "lees": 825,
+        "short": 527
       }
     },
     "01m196y1v5tgbm241dbxypkvjy": {
@@ -20865,12 +21156,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 821,
-        "short": 525
+        "lees": 824,
+        "short": 526
       },
       "actualPositions": {
-        "lees": 820,
-        "short": 524
+        "lees": 824,
+        "short": 526
       }
     },
     "01m196xws128jw4kk00f7a9s9y": {
@@ -20912,12 +21203,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 820,
-        "short": 524
+        "lees": 823,
+        "short": 525
       },
       "actualPositions": {
-        "lees": 819,
-        "short": 523
+        "lees": 823,
+        "short": 525
       }
     },
     "01m196xsq744jhvj3a6n3sp9c3": {
@@ -20959,12 +21250,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 819,
-        "short": 523
+        "lees": 822,
+        "short": 524
       },
       "actualPositions": {
-        "lees": 818,
-        "short": 522
+        "lees": 822,
+        "short": 524
       }
     },
     "01m196xpws827gy4a4qqcjkr8k": {
@@ -21053,12 +21344,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 818,
-        "short": 522
+        "lees": 821,
+        "short": 523
       },
       "actualPositions": {
-        "lees": 817,
-        "short": 521
+        "lees": 821,
+        "short": 523
       }
     },
     "01m196xfdykh9fc5r0qpr33ddr": {
@@ -21194,12 +21485,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 817,
-        "short": 521
+        "lees": 820,
+        "short": 522
       },
       "actualPositions": {
-        "lees": 816,
-        "short": 520
+        "lees": 820,
+        "short": 522
       }
     },
     "01m196x66wf6nnz6d88cskycyd": {
@@ -21241,12 +21532,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 816,
-        "short": 520
+        "lees": 819,
+        "short": 521
       },
       "actualPositions": {
-        "lees": 815,
-        "short": 519
+        "lees": 819,
+        "short": 521
       }
     },
     "01m196x2eff1bfza3qatyvck20": {
@@ -21288,12 +21579,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 815,
-        "short": 519
+        "lees": 818,
+        "short": 520
       },
       "actualPositions": {
-        "lees": 814,
-        "short": 518
+        "lees": 818,
+        "short": 520
       }
     },
     "01m196wzm7941m99hfab08jcs8": {
@@ -21428,10 +21719,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 1003
+        "lees": 1008
       },
       "actualPositions": {
-        "lees": 1001
+        "lees": 1008
       }
     },
     "01m196q00eaandbzs3kj7dpyt4": {
@@ -21519,10 +21810,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 1001
+        "lees": 1006
       },
       "actualPositions": {
-        "lees": 999
+        "lees": 1006
       }
     },
     "01m196pzwytzxx38my2ww2pac0": {
@@ -21562,11 +21853,11 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 1002,
+        "lees": 1007,
         "luchtig": 201
       },
       "actualPositions": {
-        "lees": 1000,
+        "lees": 1007,
         "luchtig": 201
       }
     },
@@ -21604,10 +21895,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 1152
+        "lees": 1157
       },
       "actualPositions": {
-        "lees": 1149
+        "lees": 1157
       }
     },
     "01m196pzrjbc2s92x6xa3fdsyc": {
@@ -21646,10 +21937,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 475
+        "lees": 476
       },
       "actualPositions": {
-        "lees": 475
+        "lees": 476
       }
     },
     "01m196mk1zj959y2p61n0n5zt1": {
@@ -21688,10 +21979,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 1000
+        "lees": 1005
       },
       "actualPositions": {
-        "lees": 998
+        "lees": 1005
       }
     },
     "01m196m6ne7047b6h945sjqj7j": {
@@ -21730,10 +22021,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 474
+        "lees": 475
       },
       "actualPositions": {
-        "lees": 474
+        "lees": 475
       }
     },
     "01m196kz74jyzaqjtj4yhjqw1t": {
@@ -21820,11 +22111,11 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 636,
+        "lees": 638,
         "luchtig": 105
       },
       "actualPositions": {
-        "lees": 635,
+        "lees": 638,
         "luchtig": 105
       }
     },
@@ -21864,10 +22155,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 473
+        "lees": 474
       },
       "actualPositions": {
-        "lees": 473
+        "lees": 474
       }
     },
     "01m196k291zdftz62aqemwqwb6": {
@@ -21908,10 +22199,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 1151
+        "lees": 1156
       },
       "actualPositions": {
-        "lees": 1148
+        "lees": 1156
       }
     },
     "01m196jtms884wxmvj092841ht": {
@@ -21951,11 +22242,11 @@ window.TOP_ARTICLE_PRIORITY = {
         "social-studies"
       ],
       "positions": {
-        "lees": 472,
+        "lees": 473,
         "social-studies": 348
       },
       "actualPositions": {
-        "lees": 472,
+        "lees": 473,
         "social-studies": 348
       }
     },
@@ -21995,10 +22286,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 999
+        "lees": 1004
       },
       "actualPositions": {
-        "lees": 997
+        "lees": 1004
       }
     },
     "01m196fnx7zptrbzsa9252s6vs": {
@@ -22036,12 +22327,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 1285,
+        "lees": 1291,
         "luchtig": 287
       },
       "actualPositions": {
-        "lees": 1279,
-        "luchtig": 284
+        "lees": 1291,
+        "luchtig": 287
       }
     },
     "01m194q83m0vbk9y4e4sv3k89t": {
@@ -22083,12 +22374,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 814,
-        "short": 518
+        "lees": 817,
+        "short": 519
       },
       "actualPositions": {
-        "lees": 813,
-        "short": 517
+        "lees": 817,
+        "short": 519
       }
     },
     "01m190ryvmd4mhcezj13x314gy": {
@@ -22129,12 +22420,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "social-studies"
       ],
       "positions": {
-        "lees": 471,
+        "lees": 472,
         "luchtig": 76,
         "social-studies": 347
       },
       "actualPositions": {
-        "lees": 471,
+        "lees": 472,
         "luchtig": 76,
         "social-studies": 347
       }
@@ -22175,10 +22466,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 635
+        "lees": 637
       },
       "actualPositions": {
-        "lees": 634
+        "lees": 637
       }
     },
     "01m190rhegf38mh52c3gz2675a": {
@@ -22217,10 +22508,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 998
+        "lees": 1003
       },
       "actualPositions": {
-        "lees": 996
+        "lees": 1003
       }
     },
     "01m190m9xxmmz9rje95nzenafy": {
@@ -22255,14 +22546,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 1397,
-        "short": 836,
+        "lees": 1403,
+        "short": 839,
         "luchtig": 345
       },
       "actualPositions": {
-        "lees": 1391,
-        "short": 832,
-        "luchtig": 342
+        "lees": 1403,
+        "short": 839,
+        "luchtig": 345
       }
     },
     "01m18xpsjq792p0zmee0dkn5wt": {
@@ -22301,10 +22592,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 997
+        "lees": 1002
       },
       "actualPositions": {
-        "lees": 995
+        "lees": 1002
       }
     },
     "01m18xpsgvjwtfc02x8hy1xydq": {
@@ -22399,12 +22690,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 813,
-        "short": 517
+        "lees": 816,
+        "short": 518
       },
       "actualPositions": {
-        "lees": 812,
-        "short": 516
+        "lees": 816,
+        "short": 518
       }
     },
     "01m18xpscenat1n72ax3jacc9n": {
@@ -22443,10 +22734,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 634
+        "lees": 636
       },
       "actualPositions": {
-        "lees": 633
+        "lees": 636
       }
     },
     "01m18xpsa6v7rw75p616xc9cc0": {
@@ -22536,13 +22827,13 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 812,
-        "short": 516,
+        "lees": 815,
+        "short": 517,
         "luchtig": 164
       },
       "actualPositions": {
-        "lees": 811,
-        "short": 515,
+        "lees": 815,
+        "short": 517,
         "luchtig": 164
       }
     },
@@ -22580,10 +22871,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 1119
+        "lees": 1124
       },
       "actualPositions": {
-        "lees": 1116
+        "lees": 1124
       }
     },
     "01m18x5tkp50nvk9xr4scqk691": {
@@ -22668,11 +22959,11 @@ window.TOP_ARTICLE_PRIORITY = {
         "social-studies"
       ],
       "positions": {
-        "lees": 470,
+        "lees": 471,
         "social-studies": 346
       },
       "actualPositions": {
-        "lees": 470,
+        "lees": 471,
         "social-studies": 346
       }
     },
@@ -22712,10 +23003,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 996
+        "lees": 1001
       },
       "actualPositions": {
-        "lees": 994
+        "lees": 1001
       }
     },
     "01m18wwtk0xenjggfqswwkdcq1": {
@@ -22863,14 +23154,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "social-studies"
       ],
       "positions": {
-        "lees": 811,
-        "short": 515,
-        "social-studies": 524
+        "lees": 814,
+        "short": 516,
+        "social-studies": 526
       },
       "actualPositions": {
-        "lees": 810,
-        "short": 514,
-        "social-studies": 523
+        "lees": 814,
+        "short": 516,
+        "social-studies": 526
       }
     },
     "01m18wc4h56bjmxbee1see9s6d": {
@@ -23221,14 +23512,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "social-studies"
       ],
       "positions": {
-        "lees": 469,
-        "short": 313,
+        "lees": 470,
+        "short": 314,
         "scrum": 165,
         "social-studies": 345
       },
       "actualPositions": {
-        "lees": 469,
-        "short": 313,
+        "lees": 470,
+        "short": 314,
         "scrum": 165,
         "social-studies": 345
       }
@@ -23272,16 +23563,16 @@ window.TOP_ARTICLE_PRIORITY = {
         "social-studies"
       ],
       "positions": {
-        "lees": 810,
-        "short": 514,
+        "lees": 813,
+        "short": 515,
         "scrum": 242,
-        "social-studies": 523
+        "social-studies": 525
       },
       "actualPositions": {
-        "lees": 809,
-        "short": 513,
+        "lees": 813,
+        "short": 515,
         "scrum": 242,
-        "social-studies": 522
+        "social-studies": 525
       }
     },
     "01m18v72cbd9hh1jysksrrrarx": {
@@ -23363,10 +23654,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 1118
+        "lees": 1123
       },
       "actualPositions": {
-        "lees": 1115
+        "lees": 1123
       }
     },
     "01m18v478gh1q09mxpn9yy1f9m": {
@@ -23452,14 +23743,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "social-studies"
       ],
       "positions": {
-        "lees": 633,
+        "lees": 635,
         "scrum": 202,
-        "social-studies": 441
+        "social-studies": 442
       },
       "actualPositions": {
-        "lees": 632,
+        "lees": 635,
         "scrum": 202,
-        "social-studies": 440
+        "social-studies": 442
       }
     },
     "01m18jgvzs4sm7kea5gjns9p40": {
@@ -23501,12 +23792,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 468,
-        "short": 312
+        "lees": 469,
+        "short": 313
       },
       "actualPositions": {
-        "lees": 468,
-        "short": 312
+        "lees": 469,
+        "short": 313
       }
     },
     "01m18jgvgmwcs1b561178j3gcv": {
@@ -23548,16 +23839,16 @@ window.TOP_ARTICLE_PRIORITY = {
         "social-studies"
       ],
       "positions": {
-        "lees": 809,
-        "short": 513,
+        "lees": 812,
+        "short": 514,
         "scrum": 241,
-        "social-studies": 522
+        "social-studies": 524
       },
       "actualPositions": {
-        "lees": 808,
-        "short": 512,
+        "lees": 812,
+        "short": 514,
         "scrum": 241,
-        "social-studies": 521
+        "social-studies": 524
       }
     },
     "01m18j8c3fqagby4exfngsgy0t": {
@@ -23702,14 +23993,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "social-studies"
       ],
       "positions": {
-        "lees": 632,
+        "lees": 634,
         "scrum": 201,
-        "social-studies": 440
+        "social-studies": 441
       },
       "actualPositions": {
-        "lees": 631,
+        "lees": 634,
         "scrum": 201,
-        "social-studies": 439
+        "social-studies": 441
       }
     },
     "01m18j8b4g8awyeqser8pfzgt9": {
@@ -23750,14 +24041,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "social-studies"
       ],
       "positions": {
-        "lees": 631,
+        "lees": 633,
         "scrum": 200,
-        "social-studies": 439
+        "social-studies": 440
       },
       "actualPositions": {
-        "lees": 630,
+        "lees": 633,
         "scrum": 200,
-        "social-studies": 438
+        "social-studies": 440
       }
     },
     "01m18j8atgcw9bfbebjzfrnmey": {
@@ -23797,11 +24088,11 @@ window.TOP_ARTICLE_PRIORITY = {
         "social-studies"
       ],
       "positions": {
-        "lees": 467,
+        "lees": 468,
         "social-studies": 344
       },
       "actualPositions": {
-        "lees": 467,
+        "lees": 468,
         "social-studies": 344
       }
     },
@@ -23843,14 +24134,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "social-studies"
       ],
       "positions": {
-        "lees": 630,
+        "lees": 632,
         "scrum": 199,
-        "social-studies": 438
+        "social-studies": 439
       },
       "actualPositions": {
-        "lees": 629,
+        "lees": 632,
         "scrum": 199,
-        "social-studies": 437
+        "social-studies": 439
       }
     },
     "01m18dbjwne0c8j6wa7ky9amvd": {
@@ -23894,14 +24185,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "social-studies"
       ],
       "positions": {
-        "lees": 466,
-        "short": 311,
+        "lees": 467,
+        "short": 312,
         "scrum": 164,
         "social-studies": 343
       },
       "actualPositions": {
-        "lees": 466,
-        "short": 311,
+        "lees": 467,
+        "short": 312,
         "scrum": 164,
         "social-studies": 343
       }
@@ -23942,10 +24233,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 995
+        "lees": 1000
       },
       "actualPositions": {
-        "lees": 993
+        "lees": 1000
       }
     },
     "01m17yb0acqmetaqyrrhk1pmta": {
@@ -24084,10 +24375,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 994
+        "lees": 999
       },
       "actualPositions": {
-        "lees": 992
+        "lees": 999
       }
     },
     "01m17y5edpc9b2z16dmwbkxaz7": {
@@ -24226,12 +24517,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 808,
-        "short": 512
+        "lees": 811,
+        "short": 513
       },
       "actualPositions": {
-        "lees": 807,
-        "short": 511
+        "lees": 811,
+        "short": 513
       }
     },
     "01m17x1rpdmwb33e010taj33rf": {
@@ -24269,12 +24560,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 1150,
-        "short": 673
+        "lees": 1155,
+        "short": 676
       },
       "actualPositions": {
-        "lees": 1147,
-        "short": 671
+        "lees": 1155,
+        "short": 676
       }
     },
     "01m17x1rmhg3z05ea006ybkbpv": {
@@ -24314,12 +24605,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 1226,
-        "short": 731
+        "lees": 1232,
+        "short": 734
       },
       "actualPositions": {
-        "lees": 1221,
-        "short": 728
+        "lees": 1232,
+        "short": 734
       }
     },
     "01m17x1rh29c5vtzrngrxpedwn": {
@@ -24358,10 +24649,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 1089
+        "lees": 1094
       },
       "actualPositions": {
-        "lees": 1086
+        "lees": 1094
       }
     },
     "01m17x1rb5jrqjsb66fhnf5ans": {
@@ -24401,11 +24692,11 @@ window.TOP_ARTICLE_PRIORITY = {
         "social-studies"
       ],
       "positions": {
-        "lees": 465,
+        "lees": 466,
         "social-studies": 342
       },
       "actualPositions": {
-        "lees": 465,
+        "lees": 466,
         "social-studies": 342
       }
     },
@@ -24447,14 +24738,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "social-studies"
       ],
       "positions": {
-        "lees": 629,
+        "lees": 631,
         "scrum": 198,
-        "social-studies": 437
+        "social-studies": 438
       },
       "actualPositions": {
-        "lees": 628,
+        "lees": 631,
         "scrum": 198,
-        "social-studies": 436
+        "social-studies": 438
       }
     },
     "01m17wr4d0fg1128qew8wwab2v": {
@@ -24636,12 +24927,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 807,
-        "short": 511
+        "lees": 810,
+        "short": 512
       },
       "actualPositions": {
-        "lees": 806,
-        "short": 510
+        "lees": 810,
+        "short": 512
       }
     },
     "01m17hcyt40k1nn13p6cp7eyr9": {
@@ -24736,12 +25027,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 464,
-        "short": 310
+        "lees": 465,
+        "short": 311
       },
       "actualPositions": {
-        "lees": 464,
-        "short": 310
+        "lees": 465,
+        "short": 311
       }
     },
     "01m17hc9s31gyv0433ecry76qg": {
@@ -24830,14 +25121,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "social-studies"
       ],
       "positions": {
-        "lees": 463,
-        "short": 309,
+        "lees": 464,
+        "short": 310,
         "scrum": 163,
         "social-studies": 341
       },
       "actualPositions": {
-        "lees": 463,
-        "short": 309,
+        "lees": 464,
+        "short": 310,
         "scrum": 163,
         "social-studies": 341
       }
@@ -24882,13 +25173,13 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 806,
-        "short": 510,
+        "lees": 809,
+        "short": 511,
         "luchtig": 163
       },
       "actualPositions": {
-        "lees": 805,
-        "short": 509,
+        "lees": 809,
+        "short": 511,
         "luchtig": 163
       }
     },
@@ -24926,10 +25217,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 1225
+        "lees": 1231
       },
       "actualPositions": {
-        "lees": 1220
+        "lees": 1231
       }
     },
     "01m16khr9mh0csxeh4ay9xwjb9": {
@@ -24972,14 +25263,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "social-studies"
       ],
       "positions": {
-        "lees": 805,
-        "short": 509,
-        "social-studies": 521
+        "lees": 808,
+        "short": 510,
+        "social-studies": 523
       },
       "actualPositions": {
-        "lees": 804,
-        "short": 508,
-        "social-studies": 520
+        "lees": 808,
+        "short": 510,
+        "social-studies": 523
       }
     },
     "01m16kff05pzythcybfdqrbmhw": {
@@ -25018,14 +25309,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 1352,
-        "short": 806,
+        "lees": 1358,
+        "short": 809,
         "luchtig": 315
       },
       "actualPositions": {
-        "lees": 1346,
-        "short": 802,
-        "luchtig": 312
+        "lees": 1358,
+        "short": 809,
+        "luchtig": 315
       }
     },
     "01m16j8y0wqdf804wss6gjpt3p": {
@@ -25115,10 +25406,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 1282
+        "lees": 1288
       },
       "actualPositions": {
-        "lees": 1276
+        "lees": 1288
       }
     },
     "01m16c4acqdqeyrmn984wt8h38": {
@@ -25157,10 +25448,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 993
+        "lees": 998
       },
       "actualPositions": {
-        "lees": 991
+        "lees": 998
       }
     },
     "01m165n8b4qpq2few1y4qzdnxk": {
@@ -25252,14 +25543,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "social-studies"
       ],
       "positions": {
-        "lees": 462,
-        "short": 308,
+        "lees": 463,
+        "short": 309,
         "scrum": 162,
         "social-studies": 340
       },
       "actualPositions": {
-        "lees": 462,
-        "short": 308,
+        "lees": 463,
+        "short": 309,
         "scrum": 162,
         "social-studies": 340
       }
@@ -25299,12 +25590,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 1281,
-        "short": 757
+        "lees": 1287,
+        "short": 760
       },
       "actualPositions": {
-        "lees": 1275,
-        "short": 753
+        "lees": 1287,
+        "short": 760
       }
     },
     "01m164cwcm3c4m35vb5gtr66da": {
@@ -25343,14 +25634,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 1351,
-        "short": 805,
+        "lees": 1357,
+        "short": 808,
         "luchtig": 314
       },
       "actualPositions": {
-        "lees": 1345,
-        "short": 801,
-        "luchtig": 311
+        "lees": 1357,
+        "short": 808,
+        "luchtig": 314
       }
     },
     "01m163anpyprdvtwnpzcq2hnfp": {
@@ -25389,10 +25680,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 992
+        "lees": 997
       },
       "actualPositions": {
-        "lees": 990
+        "lees": 997
       }
     },
     "01m163amy5kpaagkkm6qqpfm34": {
@@ -25432,11 +25723,11 @@ window.TOP_ARTICLE_PRIORITY = {
         "social-studies"
       ],
       "positions": {
-        "lees": 461,
+        "lees": 462,
         "social-studies": 339
       },
       "actualPositions": {
-        "lees": 461,
+        "lees": 462,
         "social-studies": 339
       }
     },
@@ -25476,10 +25767,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 628
+        "lees": 630
       },
       "actualPositions": {
-        "lees": 627
+        "lees": 630
       }
     },
     "01m163akbj5q6nkm532qmccyc4": {
@@ -25519,12 +25810,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "social-studies"
       ],
       "positions": {
-        "lees": 991,
-        "social-studies": 576
+        "lees": 996,
+        "social-studies": 578
       },
       "actualPositions": {
-        "lees": 989,
-        "social-studies": 575
+        "lees": 996,
+        "social-studies": 578
       }
     },
     "01m163a2vaqy4v5yx9fey9gbaj": {
@@ -25565,14 +25856,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 1224,
-        "short": 730,
+        "lees": 1230,
+        "short": 733,
         "luchtig": 274
       },
       "actualPositions": {
-        "lees": 1219,
-        "short": 727,
-        "luchtig": 272
+        "lees": 1230,
+        "short": 733,
+        "luchtig": 274
       }
     },
     "01m1639z7sz37w20bfrea8b18n": {
@@ -25611,10 +25902,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 990
+        "lees": 995
       },
       "actualPositions": {
-        "lees": 988
+        "lees": 995
       }
     },
     "01m1639vmwrx590b3akkhkh3zb": {
@@ -25653,10 +25944,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 989
+        "lees": 994
       },
       "actualPositions": {
-        "lees": 987
+        "lees": 994
       }
     },
     "01m1639rejb5304748h5hhpvcb": {
@@ -25692,12 +25983,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 1378,
+        "lees": 1384,
         "luchtig": 329
       },
       "actualPositions": {
-        "lees": 1372,
-        "luchtig": 326
+        "lees": 1384,
+        "luchtig": 329
       }
     },
     "01m1630mxptmhjrnsdxqkhnzc6": {
@@ -25736,10 +26027,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 627
+        "lees": 629
       },
       "actualPositions": {
-        "lees": 626
+        "lees": 629
       }
     },
     "01m1630ky8qcmnmhx9pvb5wp8g": {
@@ -25780,10 +26071,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 988
+        "lees": 993
       },
       "actualPositions": {
-        "lees": 986
+        "lees": 993
       }
     },
     "01m1630k2gjerrfrwbx09cvjrd": {
@@ -25823,12 +26114,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "social-studies"
       ],
       "positions": {
-        "lees": 626,
-        "social-studies": 436
+        "lees": 628,
+        "social-studies": 437
       },
       "actualPositions": {
-        "lees": 625,
-        "social-studies": 435
+        "lees": 628,
+        "social-studies": 437
       }
     },
     "01m161vztc9cvdz681k9e0xy49": {
@@ -25870,12 +26161,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "social-studies"
       ],
       "positions": {
-        "lees": 625,
-        "social-studies": 435
+        "lees": 627,
+        "social-studies": 436
       },
       "actualPositions": {
-        "lees": 624,
-        "social-studies": 434
+        "lees": 627,
+        "social-studies": 436
       }
     },
     "01m161vkas0effn5zs6zq6qdqh": {
@@ -25916,10 +26207,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 987
+        "lees": 992
       },
       "actualPositions": {
-        "lees": 985
+        "lees": 992
       }
     },
     "01m161v3y3h5rmk6eev2qvkbkq": {
@@ -25961,16 +26252,16 @@ window.TOP_ARTICLE_PRIORITY = {
         "social-studies"
       ],
       "positions": {
-        "lees": 804,
-        "short": 508,
+        "lees": 807,
+        "short": 509,
         "scrum": 240,
-        "social-studies": 520
+        "social-studies": 522
       },
       "actualPositions": {
-        "lees": 803,
-        "short": 507,
+        "lees": 807,
+        "short": 509,
         "scrum": 240,
-        "social-studies": 519
+        "social-studies": 522
       }
     },
     "01m160hktxxz3qzhj37gbkf4f6": {
@@ -26010,12 +26301,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 1223,
-        "short": 729
+        "lees": 1229,
+        "short": 732
       },
       "actualPositions": {
-        "lees": 1218,
-        "short": 726
+        "lees": 1229,
+        "short": 732
       }
     },
     "01m14qn510bcts8506rj1s6tma": {
@@ -26054,14 +26345,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 1222,
-        "short": 728,
+        "lees": 1228,
+        "short": 731,
         "luchtig": 273
       },
       "actualPositions": {
-        "lees": 1217,
-        "short": 725,
-        "luchtig": 271
+        "lees": 1228,
+        "short": 731,
+        "luchtig": 273
       }
     },
     "01m14q0dqdt94p1jsne1xgde8s": {
@@ -26101,11 +26392,11 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 986,
+        "lees": 991,
         "luchtig": 200
       },
       "actualPositions": {
-        "lees": 984,
+        "lees": 991,
         "luchtig": 200
       }
     },
@@ -26143,10 +26434,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 1280
+        "lees": 1286
       },
       "actualPositions": {
-        "lees": 1274
+        "lees": 1286
       }
     },
     "01m14pczjd0j89j8fvw2tmwbnj": {
@@ -26229,12 +26520,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 1279,
+        "lees": 1285,
         "luchtig": 286
       },
       "actualPositions": {
-        "lees": 1273,
-        "luchtig": 283
+        "lees": 1285,
+        "luchtig": 286
       }
     },
     "01m14pbksf87sa192vb2v97mq6": {
@@ -26320,10 +26611,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 985
+        "lees": 990
       },
       "actualPositions": {
-        "lees": 983
+        "lees": 990
       }
     },
     "01m14pb4h7ghqhagfgb09bckxd": {
@@ -26362,10 +26653,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 984
+        "lees": 989
       },
       "actualPositions": {
-        "lees": 982
+        "lees": 989
       }
     },
     "01m14nb3gbkc1d5zt0q1rbjpsv": {
@@ -26552,14 +26843,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "social-studies"
       ],
       "positions": {
-        "lees": 460,
-        "short": 307,
+        "lees": 461,
+        "short": 308,
         "scrum": 161,
         "social-studies": 338
       },
       "actualPositions": {
-        "lees": 460,
-        "short": 307,
+        "lees": 461,
+        "short": 308,
         "scrum": 161,
         "social-studies": 338
       }
@@ -26701,12 +26992,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "social-studies"
       ],
       "positions": {
-        "lees": 983,
-        "social-studies": 575
+        "lees": 988,
+        "social-studies": 577
       },
       "actualPositions": {
-        "lees": 981,
-        "social-studies": 574
+        "lees": 988,
+        "social-studies": 577
       }
     },
     "01m142c1qdqqfjpg2wsdnsbpq3": {
@@ -26743,10 +27034,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 1117
+        "lees": 1122
       },
       "actualPositions": {
-        "lees": 1114
+        "lees": 1122
       }
     },
     "01m142c1cz02qt754f1z00q70q": {
@@ -26787,14 +27078,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "social-studies"
       ],
       "positions": {
-        "lees": 1088,
-        "short": 636,
-        "social-studies": 597
+        "lees": 1093,
+        "short": 639,
+        "social-studies": 599
       },
       "actualPositions": {
-        "lees": 1085,
-        "short": 634,
-        "social-studies": 596
+        "lees": 1093,
+        "short": 639,
+        "social-studies": 599
       }
     },
     "01m142c0ed04n2vxevdt56fdkg": {
@@ -26872,12 +27163,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 1221,
-        "short": 727
+        "lees": 1227,
+        "short": 730
       },
       "actualPositions": {
-        "lees": 1216,
-        "short": 724
+        "lees": 1227,
+        "short": 730
       }
     },
     "01m13wag7j8xmbz23365pa31sw": {
@@ -26917,12 +27208,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "social-studies"
       ],
       "positions": {
-        "lees": 982,
-        "social-studies": 574
+        "lees": 987,
+        "social-studies": 576
       },
       "actualPositions": {
-        "lees": 980,
-        "social-studies": 573
+        "lees": 987,
+        "social-studies": 576
       }
     },
     "01m13wafve99q975xm8rfm11p2": {
@@ -26958,12 +27249,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 1350,
-        "short": 804
+        "lees": 1356,
+        "short": 807
       },
       "actualPositions": {
-        "lees": 1344,
-        "short": 800
+        "lees": 1356,
+        "short": 807
       }
     },
     "01m13waf2d74e6zsn6d9qrcvf5": {
@@ -27004,14 +27295,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "social-studies"
       ],
       "positions": {
-        "lees": 1087,
-        "short": 635,
-        "social-studies": 596
+        "lees": 1092,
+        "short": 638,
+        "social-studies": 598
       },
       "actualPositions": {
-        "lees": 1084,
-        "short": 633,
-        "social-studies": 595
+        "lees": 1092,
+        "short": 638,
+        "social-studies": 598
       }
     },
     "01m13wacn773j3gd1xaxy192dg": {
@@ -27049,12 +27340,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 1220,
+        "lees": 1226,
         "luchtig": 272
       },
       "actualPositions": {
-        "lees": 1215,
-        "luchtig": 270
+        "lees": 1226,
+        "luchtig": 272
       }
     },
     "01m13v7ty7pq3wgppy1aq7shnj": {
@@ -27095,14 +27386,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "social-studies"
       ],
       "positions": {
-        "lees": 624,
-        "short": 366,
-        "social-studies": 434
+        "lees": 626,
+        "short": 367,
+        "social-studies": 435
       },
       "actualPositions": {
-        "lees": 623,
-        "short": 365,
-        "social-studies": 433
+        "lees": 626,
+        "short": 367,
+        "social-studies": 435
       }
     },
     "01m13nrkgshp0c323zr7xbtdfa": {
@@ -27145,14 +27436,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "social-studies"
       ],
       "positions": {
-        "lees": 803,
-        "short": 507,
-        "social-studies": 519
+        "lees": 806,
+        "short": 508,
+        "social-studies": 521
       },
       "actualPositions": {
-        "lees": 802,
-        "short": 506,
-        "social-studies": 518
+        "lees": 806,
+        "short": 508,
+        "social-studies": 521
       }
     },
     "01m13k307yr072hj587s585m9c": {
@@ -27195,14 +27486,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "social-studies"
       ],
       "positions": {
-        "lees": 802,
-        "short": 506,
-        "social-studies": 518
+        "lees": 805,
+        "short": 507,
+        "social-studies": 520
       },
       "actualPositions": {
-        "lees": 801,
-        "short": 505,
-        "social-studies": 517
+        "lees": 805,
+        "short": 507,
+        "social-studies": 520
       }
     },
     "01m13bydjdttq1jnhmnt13k22z": {
@@ -27242,11 +27533,11 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 459,
+        "lees": 460,
         "luchtig": 75
       },
       "actualPositions": {
-        "lees": 459,
+        "lees": 460,
         "luchtig": 75
       }
     },
@@ -27291,14 +27582,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "social-studies"
       ],
       "positions": {
-        "lees": 458,
-        "short": 306,
+        "lees": 459,
+        "short": 307,
         "scrum": 160,
         "social-studies": 337
       },
       "actualPositions": {
-        "lees": 458,
-        "short": 306,
+        "lees": 459,
+        "short": 307,
         "scrum": 160,
         "social-studies": 337
       }
@@ -27340,12 +27631,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "social-studies"
       ],
       "positions": {
-        "lees": 981,
-        "social-studies": 573
+        "lees": 986,
+        "social-studies": 575
       },
       "actualPositions": {
-        "lees": 979,
-        "social-studies": 572
+        "lees": 986,
+        "social-studies": 575
       }
     },
     "01m11wpwm53shsjj6k80yq78ed": {
@@ -27388,13 +27679,13 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 801,
-        "short": 505,
+        "lees": 804,
+        "short": 506,
         "luchtig": 162
       },
       "actualPositions": {
-        "lees": 800,
-        "short": 504,
+        "lees": 804,
+        "short": 506,
         "luchtig": 162
       }
     },
@@ -27434,14 +27725,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 1349,
-        "short": 803,
+        "lees": 1355,
+        "short": 806,
         "luchtig": 313
       },
       "actualPositions": {
-        "lees": 1343,
-        "short": 799,
-        "luchtig": 310
+        "lees": 1355,
+        "short": 806,
+        "luchtig": 313
       }
     },
     "01m11n9t6ec1p5vhxrw6f7zknw": {
@@ -27485,16 +27776,16 @@ window.TOP_ARTICLE_PRIORITY = {
         "social-studies"
       ],
       "positions": {
-        "lees": 800,
-        "short": 504,
+        "lees": 803,
+        "short": 505,
         "luchtig": 161,
-        "social-studies": 517
+        "social-studies": 519
       },
       "actualPositions": {
-        "lees": 799,
-        "short": 503,
+        "lees": 803,
+        "short": 505,
         "luchtig": 161,
-        "social-studies": 516
+        "social-studies": 519
       }
     },
     "01m11bdc8mm8yp81t7sh9hxc6w": {
@@ -27584,12 +27875,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 980,
-        "short": 591
+        "lees": 985,
+        "short": 594
       },
       "actualPositions": {
-        "lees": 978,
-        "short": 589
+        "lees": 985,
+        "short": 594
       }
     },
     "01m1146gh117nyg3tm3zp7rbmr": {
@@ -27633,14 +27924,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "social-studies"
       ],
       "positions": {
-        "lees": 457,
-        "short": 305,
+        "lees": 458,
+        "short": 306,
         "scrum": 159,
         "social-studies": 336
       },
       "actualPositions": {
-        "lees": 457,
-        "short": 305,
+        "lees": 458,
+        "short": 306,
         "scrum": 159,
         "social-studies": 336
       }
@@ -27736,12 +28027,12 @@ window.TOP_ARTICLE_PRIORITY = {
       "positions": {
         "video": 15,
         "luchtig": 104,
-        "social-studies": 433
+        "social-studies": 434
       },
       "actualPositions": {
         "video": 15,
         "luchtig": 104,
-        "social-studies": 432
+        "social-studies": 434
       }
     },
     "01m10xzcrdc86fjasmm50zqha5": {
@@ -27778,10 +28069,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 1278
+        "lees": 1284
       },
       "actualPositions": {
-        "lees": 1272
+        "lees": 1284
       }
     },
     "01m10x27gxeffqvq180jqm7zpe": {
@@ -27821,11 +28112,11 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 623,
+        "lees": 625,
         "luchtig": 103
       },
       "actualPositions": {
-        "lees": 622,
+        "lees": 625,
         "luchtig": 103
       }
     },
@@ -27861,14 +28152,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 1396,
-        "short": 835,
+        "lees": 1402,
+        "short": 838,
         "luchtig": 344
       },
       "actualPositions": {
-        "lees": 1390,
-        "short": 831,
-        "luchtig": 341
+        "lees": 1402,
+        "short": 838,
+        "luchtig": 344
       }
     },
     "01m10wxd4mp5qbqye0v97t7nfn": {
@@ -27912,16 +28203,16 @@ window.TOP_ARTICLE_PRIORITY = {
         "social-studies"
       ],
       "positions": {
-        "lees": 799,
-        "short": 503,
+        "lees": 802,
+        "short": 504,
         "luchtig": 160,
-        "social-studies": 516
+        "social-studies": 518
       },
       "actualPositions": {
-        "lees": 798,
-        "short": 502,
+        "lees": 802,
+        "short": 504,
         "luchtig": 160,
-        "social-studies": 515
+        "social-studies": 518
       }
     },
     "01m10ppshjmb8kh2w8fxtmxacc": {
@@ -27962,14 +28253,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "social-studies"
       ],
       "positions": {
-        "lees": 1086,
-        "short": 634,
-        "social-studies": 595
+        "lees": 1091,
+        "short": 637,
+        "social-studies": 597
       },
       "actualPositions": {
-        "lees": 1083,
-        "short": 632,
-        "social-studies": 594
+        "lees": 1091,
+        "short": 637,
+        "social-studies": 597
       }
     },
     "01m10p2ys6jtppvffmfvhv32pv": {
@@ -28010,14 +28301,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "social-studies"
       ],
       "positions": {
-        "lees": 622,
+        "lees": 624,
         "scrum": 197,
-        "social-studies": 432
+        "social-studies": 433
       },
       "actualPositions": {
-        "lees": 621,
+        "lees": 624,
         "scrum": 197,
-        "social-studies": 431
+        "social-studies": 433
       }
     },
     "01m10608c69a60gev7wq5m5e5p": {
@@ -28058,14 +28349,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 1085,
-        "short": 633,
+        "lees": 1090,
+        "short": 636,
         "luchtig": 233
       },
       "actualPositions": {
-        "lees": 1082,
-        "short": 631,
-        "luchtig": 232
+        "lees": 1090,
+        "short": 636,
+        "luchtig": 233
       }
     },
     "01m0zs70wqrf8nvkmrwzg9843y": {
@@ -28103,12 +28394,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 1149,
+        "lees": 1154,
         "luchtig": 251
       },
       "actualPositions": {
-        "lees": 1146,
-        "luchtig": 250
+        "lees": 1154,
+        "luchtig": 251
       }
     },
     "01m0z3600b5fe25e5067vt42dr": {
@@ -28150,16 +28441,16 @@ window.TOP_ARTICLE_PRIORITY = {
         "social-studies"
       ],
       "positions": {
-        "lees": 798,
-        "short": 502,
+        "lees": 801,
+        "short": 503,
         "scrum": 239,
-        "social-studies": 515
+        "social-studies": 517
       },
       "actualPositions": {
-        "lees": 797,
-        "short": 501,
+        "lees": 801,
+        "short": 503,
         "scrum": 239,
-        "social-studies": 514
+        "social-studies": 517
       }
     },
     "01m0yzc8acebxvxektbepqg0kc": {
@@ -28348,11 +28639,11 @@ window.TOP_ARTICLE_PRIORITY = {
         "social-studies"
       ],
       "positions": {
-        "lees": 456,
+        "lees": 457,
         "social-studies": 335
       },
       "actualPositions": {
-        "lees": 456,
+        "lees": 457,
         "social-studies": 335
       }
     },
@@ -28449,14 +28740,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "social-studies"
       ],
       "positions": {
-        "lees": 797,
-        "short": 501,
-        "social-studies": 514
+        "lees": 800,
+        "short": 502,
+        "social-studies": 516
       },
       "actualPositions": {
-        "lees": 796,
-        "short": 500,
-        "social-studies": 513
+        "lees": 800,
+        "short": 502,
+        "social-studies": 516
       }
     },
     "01m0xzvm7dw0b5df1st7njp4d5": {
@@ -28596,11 +28887,11 @@ window.TOP_ARTICLE_PRIORITY = {
         "social-studies"
       ],
       "positions": {
-        "lees": 455,
+        "lees": 456,
         "social-studies": 334
       },
       "actualPositions": {
-        "lees": 455,
+        "lees": 456,
         "social-studies": 334
       }
     },
@@ -28682,10 +28973,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 454
+        "lees": 455
       },
       "actualPositions": {
-        "lees": 454
+        "lees": 455
       }
     },
     "01m0sr0dszke9gw7s9p7ap5s8a": {
@@ -28769,16 +29060,16 @@ window.TOP_ARTICLE_PRIORITY = {
         "social-studies"
       ],
       "positions": {
-        "lees": 796,
-        "short": 500,
+        "lees": 799,
+        "short": 501,
         "luchtig": 159,
-        "social-studies": 513
+        "social-studies": 515
       },
       "actualPositions": {
-        "lees": 795,
-        "short": 499,
+        "lees": 799,
+        "short": 501,
         "luchtig": 159,
-        "social-studies": 512
+        "social-studies": 515
       }
     },
     "01m0sqyj8vvqmt4r5dn463bak3": {
@@ -28818,11 +29109,11 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 453,
+        "lees": 454,
         "luchtig": 74
       },
       "actualPositions": {
-        "lees": 453,
+        "lees": 454,
         "luchtig": 74
       }
     },
@@ -28860,10 +29151,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 1277
+        "lees": 1283
       },
       "actualPositions": {
-        "lees": 1271
+        "lees": 1283
       }
     },
     "01m0shp666qvak9q36fphvdkhn": {
@@ -28899,12 +29190,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 1310,
-        "short": 765
+        "lees": 1316,
+        "short": 768
       },
       "actualPositions": {
-        "lees": 1304,
-        "short": 761
+        "lees": 1316,
+        "short": 768
       }
     },
     "01m0qanzaf93qg8k6vscgf752x": {
@@ -28946,12 +29237,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 979,
-        "short": 590
+        "lees": 984,
+        "short": 593
       },
       "actualPositions": {
-        "lees": 977,
-        "short": 588
+        "lees": 984,
+        "short": 593
       }
     },
     "01m0q9hxz4swmnxrnw4m01p5md": {
@@ -28993,16 +29284,16 @@ window.TOP_ARTICLE_PRIORITY = {
         "social-studies"
       ],
       "positions": {
-        "lees": 795,
-        "short": 499,
+        "lees": 798,
+        "short": 500,
         "scrum": 238,
-        "social-studies": 512
+        "social-studies": 514
       },
       "actualPositions": {
-        "lees": 794,
-        "short": 498,
+        "lees": 798,
+        "short": 500,
         "scrum": 238,
-        "social-studies": 511
+        "social-studies": 514
       }
     },
     "01m0q9hvnmabn1jawm1sxwe9g0": {
@@ -29044,16 +29335,16 @@ window.TOP_ARTICLE_PRIORITY = {
         "social-studies"
       ],
       "positions": {
-        "lees": 794,
-        "short": 498,
+        "lees": 797,
+        "short": 499,
         "scrum": 237,
-        "social-studies": 511
+        "social-studies": 513
       },
       "actualPositions": {
-        "lees": 793,
-        "short": 497,
+        "lees": 797,
+        "short": 499,
         "scrum": 237,
-        "social-studies": 510
+        "social-studies": 513
       }
     },
     "01m0q9gdtbx4wrnvzc3zr6w7q3": {
@@ -29094,14 +29385,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "social-studies"
       ],
       "positions": {
-        "lees": 621,
+        "lees": 623,
         "scrum": 196,
-        "social-studies": 431
+        "social-studies": 432
       },
       "actualPositions": {
-        "lees": 620,
+        "lees": 623,
         "scrum": 196,
-        "social-studies": 430
+        "social-studies": 432
       }
     },
     "01m0q9g0mw4fqpnb351j8763gb": {
@@ -29194,11 +29485,11 @@ window.TOP_ARTICLE_PRIORITY = {
         "social-studies"
       ],
       "positions": {
-        "lees": 452,
+        "lees": 453,
         "social-studies": 333
       },
       "actualPositions": {
-        "lees": 452,
+        "lees": 453,
         "social-studies": 333
       }
     },
@@ -29244,15 +29535,15 @@ window.TOP_ARTICLE_PRIORITY = {
         "social-studies"
       ],
       "positions": {
-        "lees": 451,
-        "short": 304,
+        "lees": 452,
+        "short": 305,
         "luchtig": 73,
         "scrum": 158,
         "social-studies": 332
       },
       "actualPositions": {
-        "lees": 451,
-        "short": 304,
+        "lees": 452,
+        "short": 305,
         "luchtig": 73,
         "scrum": 158,
         "social-studies": 332
@@ -29401,16 +29692,16 @@ window.TOP_ARTICLE_PRIORITY = {
         "social-studies"
       ],
       "positions": {
-        "lees": 793,
-        "short": 497,
+        "lees": 796,
+        "short": 498,
         "scrum": 236,
-        "social-studies": 510
+        "social-studies": 512
       },
       "actualPositions": {
-        "lees": 792,
-        "short": 496,
+        "lees": 796,
+        "short": 498,
         "scrum": 236,
-        "social-studies": 509
+        "social-studies": 512
       }
     },
     "01m0pngsn5q8yqqrn2xq1w2hq5": {
@@ -29502,14 +29793,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "social-studies"
       ],
       "positions": {
-        "lees": 450,
-        "short": 303,
+        "lees": 451,
+        "short": 304,
         "scrum": 157,
         "social-studies": 331
       },
       "actualPositions": {
-        "lees": 450,
-        "short": 303,
+        "lees": 451,
+        "short": 304,
         "scrum": 157,
         "social-studies": 331
       }
@@ -29555,14 +29846,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "social-studies"
       ],
       "positions": {
-        "lees": 449,
-        "short": 302,
+        "lees": 450,
+        "short": 303,
         "scrum": 156,
         "social-studies": 330
       },
       "actualPositions": {
-        "lees": 449,
-        "short": 302,
+        "lees": 450,
+        "short": 303,
         "scrum": 156,
         "social-studies": 330
       }
@@ -29608,14 +29899,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "social-studies"
       ],
       "positions": {
-        "lees": 448,
-        "short": 301,
+        "lees": 449,
+        "short": 302,
         "scrum": 155,
         "social-studies": 329
       },
       "actualPositions": {
-        "lees": 448,
-        "short": 301,
+        "lees": 449,
+        "short": 302,
         "scrum": 155,
         "social-studies": 329
       }
@@ -29661,14 +29952,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "social-studies"
       ],
       "positions": {
-        "lees": 447,
-        "short": 300,
+        "lees": 448,
+        "short": 301,
         "scrum": 154,
         "social-studies": 328
       },
       "actualPositions": {
-        "lees": 447,
-        "short": 300,
+        "lees": 448,
+        "short": 301,
         "scrum": 154,
         "social-studies": 328
       }
@@ -29759,14 +30050,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "social-studies"
       ],
       "positions": {
-        "lees": 620,
+        "lees": 622,
         "scrum": 195,
-        "social-studies": 430
+        "social-studies": 431
       },
       "actualPositions": {
-        "lees": 619,
+        "lees": 622,
         "scrum": 195,
-        "social-studies": 429
+        "social-studies": 431
       }
     },
     "01m0pj0mrj5pwkvvsnnhz283be": {
@@ -29809,13 +30100,13 @@ window.TOP_ARTICLE_PRIORITY = {
         "social-studies"
       ],
       "positions": {
-        "lees": 446,
-        "short": 299,
+        "lees": 447,
+        "short": 300,
         "social-studies": 327
       },
       "actualPositions": {
-        "lees": 446,
-        "short": 299,
+        "lees": 447,
+        "short": 300,
         "social-studies": 327
       }
     },
@@ -29901,10 +30192,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 1148
+        "lees": 1153
       },
       "actualPositions": {
-        "lees": 1145
+        "lees": 1153
       }
     },
     "01m0phzp27y7aph4qg0szhkwh6": {
@@ -29944,12 +30235,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 1219,
-        "short": 726
+        "lees": 1225,
+        "short": 729
       },
       "actualPositions": {
-        "lees": 1214,
-        "short": 723
+        "lees": 1225,
+        "short": 729
       }
     },
     "01m0phzccmt966rjavhr96najj": {
@@ -29988,10 +30279,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 619
+        "lees": 621
       },
       "actualPositions": {
-        "lees": 618
+        "lees": 621
       }
     },
     "01m0phz82jsqawszgfebvkggxm": {
@@ -30035,14 +30326,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "social-studies"
       ],
       "positions": {
-        "lees": 445,
-        "short": 298,
+        "lees": 446,
+        "short": 299,
         "scrum": 153,
         "social-studies": 326
       },
       "actualPositions": {
-        "lees": 445,
-        "short": 298,
+        "lees": 446,
+        "short": 299,
         "scrum": 153,
         "social-studies": 326
       }
@@ -30085,14 +30376,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "social-studies"
       ],
       "positions": {
-        "lees": 618,
+        "lees": 620,
         "scrum": 194,
-        "social-studies": 429
+        "social-studies": 430
       },
       "actualPositions": {
-        "lees": 617,
+        "lees": 620,
         "scrum": 194,
-        "social-studies": 428
+        "social-studies": 430
       }
     },
     "01m0phywg61rt1ps4477xh1m80": {
@@ -30136,14 +30427,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "social-studies"
       ],
       "positions": {
-        "lees": 444,
-        "short": 297,
+        "lees": 445,
+        "short": 298,
         "scrum": 152,
         "social-studies": 325
       },
       "actualPositions": {
-        "lees": 444,
-        "short": 297,
+        "lees": 445,
+        "short": 298,
         "scrum": 152,
         "social-studies": 325
       }
@@ -30186,14 +30477,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "social-studies"
       ],
       "positions": {
-        "lees": 617,
+        "lees": 619,
         "scrum": 193,
-        "social-studies": 428
+        "social-studies": 429
       },
       "actualPositions": {
-        "lees": 616,
+        "lees": 619,
         "scrum": 193,
-        "social-studies": 427
+        "social-studies": 429
       }
     },
     "01m0phyfcrv55asdnmhwx97sr9": {
@@ -30435,13 +30726,13 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 792,
-        "short": 496,
+        "lees": 795,
+        "short": 497,
         "luchtig": 158
       },
       "actualPositions": {
-        "lees": 791,
-        "short": 495,
+        "lees": 795,
+        "short": 497,
         "luchtig": 158
       }
     },
@@ -30582,13 +30873,13 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 791,
-        "short": 495,
+        "lees": 794,
+        "short": 496,
         "luchtig": 157
       },
       "actualPositions": {
-        "lees": 790,
-        "short": 494,
+        "lees": 794,
+        "short": 496,
         "luchtig": 157
       }
     },
@@ -30628,10 +30919,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 443
+        "lees": 444
       },
       "actualPositions": {
-        "lees": 443
+        "lees": 444
       }
     },
     "01m0nepk6hxvzd70jd2769qtmm": {
@@ -30671,11 +30962,11 @@ window.TOP_ARTICLE_PRIORITY = {
         "social-studies"
       ],
       "positions": {
-        "lees": 442,
+        "lees": 443,
         "social-studies": 324
       },
       "actualPositions": {
-        "lees": 442,
+        "lees": 443,
         "social-studies": 324
       }
     },
@@ -30813,13 +31104,13 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 441,
-        "short": 296,
+        "lees": 442,
+        "short": 297,
         "luchtig": 72
       },
       "actualPositions": {
-        "lees": 441,
-        "short": 296,
+        "lees": 442,
+        "short": 297,
         "luchtig": 72
       }
     },
@@ -31097,10 +31388,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 977
+        "lees": 982
       },
       "actualPositions": {
-        "lees": 975
+        "lees": 982
       }
     },
     "01m0ndx7332c6n3a0z4062eaz9": {
@@ -31190,13 +31481,13 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 790,
-        "short": 494,
+        "lees": 793,
+        "short": 495,
         "luchtig": 156
       },
       "actualPositions": {
-        "lees": 789,
-        "short": 493,
+        "lees": 793,
+        "short": 495,
         "luchtig": 156
       }
     },
@@ -31287,13 +31578,13 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 789,
-        "short": 493,
+        "lees": 792,
+        "short": 494,
         "luchtig": 155
       },
       "actualPositions": {
-        "lees": 788,
-        "short": 492,
+        "lees": 792,
+        "short": 494,
         "luchtig": 155
       }
     },
@@ -31333,14 +31624,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 1348,
-        "short": 802,
+        "lees": 1354,
+        "short": 805,
         "luchtig": 312
       },
       "actualPositions": {
-        "lees": 1342,
-        "short": 798,
-        "luchtig": 309
+        "lees": 1354,
+        "short": 805,
+        "luchtig": 312
       }
     },
     "01m0m9hhar6fsa0z8j62knyx2f": {
@@ -31385,14 +31676,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "social-studies"
       ],
       "positions": {
-        "lees": 788,
-        "short": 492,
-        "social-studies": 509
+        "lees": 791,
+        "short": 493,
+        "social-studies": 511
       },
       "actualPositions": {
-        "lees": 787,
-        "short": 491,
-        "social-studies": 508
+        "lees": 791,
+        "short": 493,
+        "social-studies": 511
       }
     },
     "01m0kzx60n6y7mjy1342dw0ynp": {
@@ -31433,12 +31724,12 @@ window.TOP_ARTICLE_PRIORITY = {
       "positions": {
         "video": 23,
         "scrum": 256,
-        "social-studies": 572
+        "social-studies": 574
       },
       "actualPositions": {
         "video": 23,
         "scrum": 256,
-        "social-studies": 571
+        "social-studies": 574
       }
     },
     "01m0kzws6tp6edn1k4t1dmr1rq": {
@@ -31525,12 +31816,12 @@ window.TOP_ARTICLE_PRIORITY = {
       "positions": {
         "video": 22,
         "scrum": 255,
-        "social-studies": 571
+        "social-studies": 573
       },
       "actualPositions": {
         "video": 22,
         "scrum": 255,
-        "social-studies": 570
+        "social-studies": 573
       }
     },
     "01m0kzvhp90e4w4ycfaqv26f31": {
@@ -31571,12 +31862,12 @@ window.TOP_ARTICLE_PRIORITY = {
       "positions": {
         "video": 21,
         "scrum": 254,
-        "social-studies": 570
+        "social-studies": 572
       },
       "actualPositions": {
         "video": 21,
         "scrum": 254,
-        "social-studies": 569
+        "social-studies": 572
       }
     },
     "01m0kzvbj6t6crzagc9kw1n43f": {
@@ -31709,12 +32000,12 @@ window.TOP_ARTICLE_PRIORITY = {
       "positions": {
         "video": 20,
         "scrum": 253,
-        "social-studies": 569
+        "social-studies": 571
       },
       "actualPositions": {
         "video": 20,
         "scrum": 253,
-        "social-studies": 568
+        "social-studies": 571
       }
     },
     "01m0kztgwcc1d43t3sdahzhg08": {
@@ -31849,14 +32140,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "social-studies"
       ],
       "positions": {
-        "lees": 616,
+        "lees": 618,
         "scrum": 192,
-        "social-studies": 427
+        "social-studies": 428
       },
       "actualPositions": {
-        "lees": 615,
+        "lees": 618,
         "scrum": 192,
-        "social-studies": 426
+        "social-studies": 428
       }
     },
     "01m0kk39ej35nn1j1xszgypca2": {
@@ -31900,14 +32191,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "social-studies"
       ],
       "positions": {
-        "lees": 438,
-        "short": 293,
+        "lees": 439,
+        "short": 294,
         "scrum": 145,
         "social-studies": 317
       },
       "actualPositions": {
-        "lees": 438,
-        "short": 293,
+        "lees": 439,
+        "short": 294,
         "scrum": 145,
         "social-studies": 317
       }
@@ -31951,16 +32242,16 @@ window.TOP_ARTICLE_PRIORITY = {
         "social-studies"
       ],
       "positions": {
-        "lees": 786,
-        "short": 490,
+        "lees": 789,
+        "short": 491,
         "scrum": 234,
-        "social-studies": 507
+        "social-studies": 509
       },
       "actualPositions": {
-        "lees": 785,
-        "short": 489,
+        "lees": 789,
+        "short": 491,
         "scrum": 234,
-        "social-studies": 506
+        "social-studies": 509
       }
     },
     "01m0k3emvr4ceh6rc4xqdeyt3p": {
@@ -32104,14 +32395,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "social-studies"
       ],
       "positions": {
-        "lees": 436,
-        "short": 291,
+        "lees": 437,
+        "short": 292,
         "scrum": 143,
         "social-studies": 315
       },
       "actualPositions": {
-        "lees": 436,
-        "short": 291,
+        "lees": 437,
+        "short": 292,
         "scrum": 143,
         "social-studies": 315
       }
@@ -32157,14 +32448,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "social-studies"
       ],
       "positions": {
-        "lees": 435,
-        "short": 290,
+        "lees": 436,
+        "short": 291,
         "scrum": 142,
         "social-studies": 314
       },
       "actualPositions": {
-        "lees": 435,
-        "short": 290,
+        "lees": 436,
+        "short": 291,
         "scrum": 142,
         "social-studies": 314
       }
@@ -32210,14 +32501,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "social-studies"
       ],
       "positions": {
-        "lees": 434,
-        "short": 289,
+        "lees": 435,
+        "short": 290,
         "scrum": 141,
         "social-studies": 313
       },
       "actualPositions": {
-        "lees": 434,
-        "short": 289,
+        "lees": 435,
+        "short": 290,
         "scrum": 141,
         "social-studies": 313
       }
@@ -32261,16 +32552,16 @@ window.TOP_ARTICLE_PRIORITY = {
         "social-studies"
       ],
       "positions": {
-        "lees": 785,
-        "short": 489,
+        "lees": 788,
+        "short": 490,
         "scrum": 233,
-        "social-studies": 506
+        "social-studies": 508
       },
       "actualPositions": {
-        "lees": 784,
-        "short": 488,
+        "lees": 788,
+        "short": 490,
         "scrum": 233,
-        "social-studies": 505
+        "social-studies": 508
       }
     },
     "01m0k32kq7qr9pqe0hk9pc5ctx": {
@@ -32314,14 +32605,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "social-studies"
       ],
       "positions": {
-        "lees": 433,
-        "short": 288,
+        "lees": 434,
+        "short": 289,
         "scrum": 140,
         "social-studies": 312
       },
       "actualPositions": {
-        "lees": 433,
-        "short": 288,
+        "lees": 434,
+        "short": 289,
         "scrum": 140,
         "social-studies": 312
       }
@@ -32367,14 +32658,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "social-studies"
       ],
       "positions": {
-        "lees": 432,
-        "short": 287,
+        "lees": 433,
+        "short": 288,
         "scrum": 139,
         "social-studies": 311
       },
       "actualPositions": {
-        "lees": 432,
-        "short": 287,
+        "lees": 433,
+        "short": 288,
         "scrum": 139,
         "social-studies": 311
       }
@@ -32524,14 +32815,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "social-studies"
       ],
       "positions": {
-        "lees": 437,
-        "short": 292,
+        "lees": 438,
+        "short": 293,
         "scrum": 144,
         "social-studies": 316
       },
       "actualPositions": {
-        "lees": 437,
-        "short": 292,
+        "lees": 438,
+        "short": 293,
         "scrum": 144,
         "social-studies": 316
       }
@@ -32575,16 +32866,16 @@ window.TOP_ARTICLE_PRIORITY = {
         "social-studies"
       ],
       "positions": {
-        "lees": 784,
-        "short": 488,
+        "lees": 787,
+        "short": 489,
         "scrum": 232,
-        "social-studies": 505
+        "social-studies": 507
       },
       "actualPositions": {
-        "lees": 783,
-        "short": 487,
+        "lees": 787,
+        "short": 489,
         "scrum": 232,
-        "social-studies": 504
+        "social-studies": 507
       }
     },
     "01m0jn9xeykexv7623vdc0wx3g": {
@@ -32623,10 +32914,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 615
+        "lees": 617
       },
       "actualPositions": {
-        "lees": 614
+        "lees": 617
       }
     },
     "01m0jjn6r6k94c6e6es18zzr4f": {
@@ -32666,12 +32957,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 1218,
-        "short": 725
+        "lees": 1224,
+        "short": 728
       },
       "actualPositions": {
-        "lees": 1213,
-        "short": 722
+        "lees": 1224,
+        "short": 728
       }
     },
     "01m0jjn5ac4n2mp6j2rk1nw8n3": {
@@ -32707,12 +32998,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 1377,
-        "short": 819
+        "lees": 1383,
+        "short": 822
       },
       "actualPositions": {
-        "lees": 1371,
-        "short": 815
+        "lees": 1383,
+        "short": 822
       }
     },
     "01m0hxft5xtx6vzz2m659k1399": {
@@ -32751,10 +33042,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 976
+        "lees": 981
       },
       "actualPositions": {
-        "lees": 974
+        "lees": 981
       }
     },
     "01m0hmmxya3ffztm2kkczknas8": {
@@ -32792,12 +33083,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 1347,
-        "short": 801
+        "lees": 1353,
+        "short": 804
       },
       "actualPositions": {
-        "lees": 1341,
-        "short": 797
+        "lees": 1353,
+        "short": 804
       }
     },
     "01m0fr9vyk2k7z18b05gwf8vvj": {
@@ -32884,14 +33175,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 1346,
-        "short": 800,
+        "lees": 1352,
+        "short": 803,
         "luchtig": 311
       },
       "actualPositions": {
-        "lees": 1340,
-        "short": 796,
-        "luchtig": 308
+        "lees": 1352,
+        "short": 803,
+        "luchtig": 311
       }
     },
     "01m0fprcw0hbenm9ssw4pgfvjs": {
@@ -32982,12 +33273,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 1345,
-        "short": 799
+        "lees": 1351,
+        "short": 802
       },
       "actualPositions": {
-        "lees": 1339,
-        "short": 795
+        "lees": 1351,
+        "short": 802
       }
     },
     "01m0fa1ra7rgpwvzbgmzf4csb1": {
@@ -33027,12 +33318,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 1217,
-        "short": 724
+        "lees": 1223,
+        "short": 727
       },
       "actualPositions": {
-        "lees": 1212,
-        "short": 721
+        "lees": 1223,
+        "short": 727
       }
     },
     "01m0f8xm0wprsekah2acf4fx7j": {
@@ -33071,10 +33362,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 975
+        "lees": 980
       },
       "actualPositions": {
-        "lees": 973
+        "lees": 980
       }
     },
     "01m0f8xjnf41tb5r5q6pywfkje": {
@@ -33113,10 +33404,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 974
+        "lees": 979
       },
       "actualPositions": {
-        "lees": 972
+        "lees": 979
       }
     },
     "01m0f8xgfgrxrp4peeznqsnnz7": {
@@ -33158,12 +33449,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 783,
-        "short": 487
+        "lees": 786,
+        "short": 488
       },
       "actualPositions": {
-        "lees": 782,
-        "short": 486
+        "lees": 786,
+        "short": 488
       }
     },
     "01m0f7n644wg7rjzghc836t9ad": {
@@ -33202,10 +33493,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 973
+        "lees": 978
       },
       "actualPositions": {
-        "lees": 971
+        "lees": 978
       }
     },
     "01m0f7n54g084vrq9cwa4veha9": {
@@ -33244,10 +33535,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 972
+        "lees": 977
       },
       "actualPositions": {
-        "lees": 970
+        "lees": 977
       }
     },
     "01m0f7n30c9arq8kzsb4g7dq58": {
@@ -33286,10 +33577,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 971
+        "lees": 976
       },
       "actualPositions": {
-        "lees": 969
+        "lees": 976
       }
     },
     "01m0f7n1vtpf6kh2stzqy55h8a": {
@@ -33331,12 +33622,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 782,
-        "short": 486
+        "lees": 785,
+        "short": 487
       },
       "actualPositions": {
-        "lees": 781,
-        "short": 485
+        "lees": 785,
+        "short": 487
       }
     },
     "01m0f7mzdbtp4sa5541apkzewk": {
@@ -33375,10 +33666,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 970
+        "lees": 975
       },
       "actualPositions": {
-        "lees": 968
+        "lees": 975
       }
     },
     "01m0f7my4hnsxedrnasyh8q2av": {
@@ -33418,12 +33709,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 1084,
-        "short": 632
+        "lees": 1089,
+        "short": 635
       },
       "actualPositions": {
-        "lees": 1081,
-        "short": 630
+        "lees": 1089,
+        "short": 635
       }
     },
     "01m0f7mwvh8ay32g66bb7rfsaj": {
@@ -33510,12 +33801,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 781,
-        "short": 485
+        "lees": 784,
+        "short": 486
       },
       "actualPositions": {
-        "lees": 780,
-        "short": 484
+        "lees": 784,
+        "short": 486
       }
     },
     "01m0f7mt8jz6b1bgmxcp0bpqk0": {
@@ -33555,12 +33846,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 1083,
-        "short": 631
+        "lees": 1088,
+        "short": 634
       },
       "actualPositions": {
-        "lees": 1080,
-        "short": 629
+        "lees": 1088,
+        "short": 634
       }
     },
     "01m0f7mr3d4nt8zxpgk4859aw8": {
@@ -33599,10 +33890,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 969
+        "lees": 974
       },
       "actualPositions": {
-        "lees": 967
+        "lees": 974
       }
     },
     "01m0f63b282v5tc5yajbtgwann": {
@@ -33641,10 +33932,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 968
+        "lees": 973
       },
       "actualPositions": {
-        "lees": 966
+        "lees": 973
       }
     },
     "01m0f5thx0x9f1rpdvj5r64m3m": {
@@ -33822,10 +34113,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 431
+        "lees": 432
       },
       "actualPositions": {
-        "lees": 431
+        "lees": 432
       }
     },
     "01m0f2973kcszx7tky6qdcpx6j": {
@@ -33866,10 +34157,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 967
+        "lees": 972
       },
       "actualPositions": {
-        "lees": 965
+        "lees": 972
       }
     },
     "01m0f295dxr46cfakg2cev3c1d": {
@@ -33954,11 +34245,11 @@ window.TOP_ARTICLE_PRIORITY = {
         "social-studies"
       ],
       "positions": {
-        "lees": 430,
+        "lees": 431,
         "social-studies": 310
       },
       "actualPositions": {
-        "lees": 430,
+        "lees": 431,
         "social-studies": 310
       }
     },
@@ -34051,12 +34342,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 780,
-        "short": 484
+        "lees": 783,
+        "short": 485
       },
       "actualPositions": {
-        "lees": 779,
-        "short": 483
+        "lees": 783,
+        "short": 485
       }
     },
     "01m0eke5wqdgapqm4m0exz8bz6": {
@@ -34090,12 +34381,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 1395,
-        "short": 834
+        "lees": 1401,
+        "short": 837
       },
       "actualPositions": {
-        "lees": 1389,
-        "short": 830
+        "lees": 1401,
+        "short": 837
       }
     },
     "01m0e4pj03mgc8d7bn0m16c65x": {
@@ -34132,14 +34423,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 1376,
-        "short": 818,
+        "lees": 1382,
+        "short": 821,
         "luchtig": 328
       },
       "actualPositions": {
-        "lees": 1370,
-        "short": 814,
-        "luchtig": 325
+        "lees": 1382,
+        "short": 821,
+        "luchtig": 328
       }
     },
     "01m0dzzn4qg7qw4e18apatwh29": {
@@ -34178,14 +34469,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 1344,
-        "short": 798,
+        "lees": 1350,
+        "short": 801,
         "luchtig": 310
       },
       "actualPositions": {
-        "lees": 1338,
-        "short": 794,
-        "luchtig": 307
+        "lees": 1350,
+        "short": 801,
+        "luchtig": 310
       }
     },
     "01m0dvrfnhbaxez1gxzf8mm2cw": {
@@ -34224,10 +34515,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 966
+        "lees": 971
       },
       "actualPositions": {
-        "lees": 964
+        "lees": 971
       }
     },
     "01m0dhvhvd3rtvvsyz61gex2fb": {
@@ -34267,12 +34558,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 1216,
-        "short": 723
+        "lees": 1222,
+        "short": 726
       },
       "actualPositions": {
-        "lees": 1211,
-        "short": 720
+        "lees": 1222,
+        "short": 726
       }
     },
     "01m0db85phkv3bnf58tec1mbc1": {
@@ -34308,12 +34599,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 1375,
+        "lees": 1381,
         "luchtig": 327
       },
       "actualPositions": {
-        "lees": 1369,
-        "luchtig": 324
+        "lees": 1381,
+        "luchtig": 327
       }
     },
     "01m0d9rt9b3a66m87wr62cjx7g": {
@@ -34401,13 +34692,13 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 429,
-        "short": 286,
+        "lees": 430,
+        "short": 287,
         "luchtig": 71
       },
       "actualPositions": {
-        "lees": 429,
-        "short": 286,
+        "lees": 430,
+        "short": 287,
         "luchtig": 71
       }
     },
@@ -34447,14 +34738,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 1343,
-        "short": 797,
+        "lees": 1349,
+        "short": 800,
         "luchtig": 309
       },
       "actualPositions": {
-        "lees": 1337,
-        "short": 793,
-        "luchtig": 306
+        "lees": 1349,
+        "short": 800,
+        "luchtig": 309
       }
     },
     "01m0d2tn3xcmjp5hpxgn0tsvxw": {
@@ -34493,10 +34784,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 965
+        "lees": 970
       },
       "actualPositions": {
-        "lees": 963
+        "lees": 970
       }
     },
     "01m0d2tm1p4rb50n7zfv96x6hc": {
@@ -34533,14 +34824,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 1374,
-        "short": 817,
+        "lees": 1380,
+        "short": 820,
         "luchtig": 326
       },
       "actualPositions": {
-        "lees": 1368,
-        "short": 813,
-        "luchtig": 323
+        "lees": 1380,
+        "short": 820,
+        "luchtig": 326
       }
     },
     "01m0d2tjzgp8v752d1sv2e2tyx": {
@@ -34576,12 +34867,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 1309,
+        "lees": 1315,
         "luchtig": 294
       },
       "actualPositions": {
-        "lees": 1303,
-        "luchtig": 291
+        "lees": 1315,
+        "luchtig": 294
       }
     },
     "01m0d2tj3vhenhk8v11j38qvp5": {
@@ -34620,14 +34911,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 1342,
-        "short": 796,
+        "lees": 1348,
+        "short": 799,
         "luchtig": 308
       },
       "actualPositions": {
-        "lees": 1336,
-        "short": 792,
-        "luchtig": 305
+        "lees": 1348,
+        "short": 799,
+        "luchtig": 308
       }
     },
     "01m0cy7g495j5g6ggxjrxc2np8": {
@@ -34663,12 +34954,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 1308,
-        "short": 764
+        "lees": 1314,
+        "short": 767
       },
       "actualPositions": {
-        "lees": 1302,
-        "short": 760
+        "lees": 1314,
+        "short": 767
       }
     },
     "01m0cw5p7z6d6n3c7ynvnvz494": {
@@ -34707,14 +34998,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 1341,
-        "short": 795,
+        "lees": 1347,
+        "short": 798,
         "luchtig": 307
       },
       "actualPositions": {
-        "lees": 1335,
-        "short": 791,
-        "luchtig": 304
+        "lees": 1347,
+        "short": 798,
+        "luchtig": 307
       }
     },
     "01m0cw5nb62yzppht12pqv4qby": {
@@ -34753,14 +35044,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 1340,
-        "short": 794,
+        "lees": 1346,
+        "short": 797,
         "luchtig": 306
       },
       "actualPositions": {
-        "lees": 1334,
-        "short": 790,
-        "luchtig": 303
+        "lees": 1346,
+        "short": 797,
+        "luchtig": 306
       }
     },
     "01m0cw5m98jtgwrvetaz80rgv0": {
@@ -34802,12 +35093,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 779,
-        "short": 483
+        "lees": 782,
+        "short": 484
       },
       "actualPositions": {
-        "lees": 778,
-        "short": 482
+        "lees": 782,
+        "short": 484
       }
     },
     "01m0cw5keb80tk63pfkmhvkxyf": {
@@ -34843,12 +35134,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 1339,
-        "short": 793
+        "lees": 1345,
+        "short": 796
       },
       "actualPositions": {
-        "lees": 1333,
-        "short": 789
+        "lees": 1345,
+        "short": 796
       }
     },
     "01m0cw5jj79htrsnbqxj1qmn9x": {
@@ -34891,14 +35182,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "social-studies"
       ],
       "positions": {
-        "lees": 778,
-        "short": 482,
-        "social-studies": 504
+        "lees": 781,
+        "short": 483,
+        "social-studies": 506
       },
       "actualPositions": {
-        "lees": 777,
-        "short": 481,
-        "social-studies": 503
+        "lees": 781,
+        "short": 483,
+        "social-studies": 506
       }
     },
     "01m0cw5hr65m0xpvcrnsccmw12": {
@@ -34940,12 +35231,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 777,
-        "short": 481
+        "lees": 780,
+        "short": 482
       },
       "actualPositions": {
-        "lees": 776,
-        "short": 480
+        "lees": 780,
+        "short": 482
       }
     },
     "01m0c7sfw5q75aqsa96vxf5a69": {
@@ -34984,10 +35275,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 964
+        "lees": 969
       },
       "actualPositions": {
-        "lees": 962
+        "lees": 969
       }
     },
     "01m0b3f8s0jtjdq0cwv622x3rt": {
@@ -35028,10 +35319,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 963
+        "lees": 968
       },
       "actualPositions": {
-        "lees": 961
+        "lees": 968
       }
     },
     "01m0b3f7rhy6g2a30jk32kz1g0": {
@@ -35070,10 +35361,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 962
+        "lees": 967
       },
       "actualPositions": {
-        "lees": 960
+        "lees": 967
       }
     },
     "01m0b3f6wsd73cy3dc4nzhsavv": {
@@ -35113,12 +35404,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 1082,
-        "short": 630
+        "lees": 1087,
+        "short": 633
       },
       "actualPositions": {
-        "lees": 1079,
-        "short": 628
+        "lees": 1087,
+        "short": 633
       }
     },
     "01m0b3f62sb716wyqk6tqva87v": {
@@ -35153,10 +35444,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 1373
+        "lees": 1379
       },
       "actualPositions": {
-        "lees": 1367
+        "lees": 1379
       }
     },
     "01m0b3f56gwerhja7mext6qpv8": {
@@ -35191,10 +35482,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 1372
+        "lees": 1378
       },
       "actualPositions": {
-        "lees": 1366
+        "lees": 1378
       }
     },
     "01m0b3f4900e215a7feb8a1c0c": {
@@ -35232,12 +35523,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 1276,
+        "lees": 1282,
         "luchtig": 285
       },
       "actualPositions": {
-        "lees": 1270,
-        "luchtig": 282
+        "lees": 1282,
+        "luchtig": 285
       }
     },
     "01m0b1s6fv0ge2d9mdj3xrabzj": {
@@ -35274,10 +35565,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 1116
+        "lees": 1121
       },
       "actualPositions": {
-        "lees": 1113
+        "lees": 1121
       }
     },
     "01m0b1s5m0by88b9h7k9f802kz": {
@@ -35318,14 +35609,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 1215,
-        "short": 722,
+        "lees": 1221,
+        "short": 725,
         "luchtig": 271
       },
       "actualPositions": {
-        "lees": 1210,
-        "short": 719,
-        "luchtig": 269
+        "lees": 1221,
+        "short": 725,
+        "luchtig": 271
       }
     },
     "01m0b1s4v68rpr0xny1y8jvgyj": {
@@ -35368,13 +35659,13 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 776,
-        "short": 480,
+        "lees": 779,
+        "short": 481,
         "luchtig": 154
       },
       "actualPositions": {
-        "lees": 775,
-        "short": 479,
+        "lees": 779,
+        "short": 481,
         "luchtig": 154
       }
     },
@@ -35413,12 +35704,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 1275,
-        "short": 756
+        "lees": 1281,
+        "short": 759
       },
       "actualPositions": {
-        "lees": 1269,
-        "short": 752
+        "lees": 1281,
+        "short": 759
       }
     },
     "01m0b1s2dc3bep7yc7t5bze75s": {
@@ -35457,10 +35748,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 961
+        "lees": 966
       },
       "actualPositions": {
-        "lees": 959
+        "lees": 966
       }
     },
     "01m0b1s05hhzaks852j6fne2cx": {
@@ -35498,12 +35789,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 1274,
+        "lees": 1280,
         "luchtig": 284
       },
       "actualPositions": {
-        "lees": 1268,
-        "luchtig": 281
+        "lees": 1280,
+        "luchtig": 284
       }
     },
     "01m0b106qfhmdg1tz5stvzg7s3": {
@@ -35544,14 +35835,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 1214,
-        "short": 721,
+        "lees": 1220,
+        "short": 724,
         "luchtig": 270
       },
       "actualPositions": {
-        "lees": 1209,
-        "short": 718,
-        "luchtig": 268
+        "lees": 1220,
+        "short": 724,
+        "luchtig": 270
       }
     },
     "01m0b105sfej59qwg42vqq0cqt": {
@@ -35589,12 +35880,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 1273,
+        "lees": 1279,
         "luchtig": 283
       },
       "actualPositions": {
-        "lees": 1267,
-        "luchtig": 280
+        "lees": 1279,
+        "luchtig": 283
       }
     },
     "01m0aph10yf5zdstrrs85vesb4": {
@@ -35634,12 +35925,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 1081,
+        "lees": 1086,
         "luchtig": 232
       },
       "actualPositions": {
-        "lees": 1078,
-        "luchtig": 231
+        "lees": 1086,
+        "luchtig": 232
       }
     },
     "01m0abenxwjayhx9jmhxvr9ekf": {
@@ -35680,14 +35971,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "social-studies"
       ],
       "positions": {
-        "lees": 775,
-        "short": 479,
-        "social-studies": 503
+        "lees": 778,
+        "short": 480,
+        "social-studies": 505
       },
       "actualPositions": {
-        "lees": 774,
-        "short": 478,
-        "social-studies": 502
+        "lees": 778,
+        "short": 480,
+        "social-studies": 505
       }
     },
     "01m0899ydg6jvf8qtyzvs9qdms": {
@@ -35729,12 +36020,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 774,
-        "short": 478
+        "lees": 777,
+        "short": 479
       },
       "actualPositions": {
-        "lees": 773,
-        "short": 477
+        "lees": 777,
+        "short": 479
       }
     },
     "01m084fq71p8p2cev7k6j37ysw": {
@@ -35776,12 +36067,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 773,
-        "short": 477
+        "lees": 776,
+        "short": 478
       },
       "actualPositions": {
-        "lees": 772,
-        "short": 476
+        "lees": 776,
+        "short": 478
       }
     },
     "01m07zpehf3761wmknmsknqwsa": {
@@ -35821,11 +36112,11 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 614,
+        "lees": 616,
         "luchtig": 102
       },
       "actualPositions": {
-        "lees": 613,
+        "lees": 616,
         "luchtig": 102
       }
     },
@@ -35866,11 +36157,11 @@ window.TOP_ARTICLE_PRIORITY = {
         "social-studies"
       ],
       "positions": {
-        "lees": 428,
+        "lees": 429,
         "social-studies": 309
       },
       "actualPositions": {
-        "lees": 428,
+        "lees": 429,
         "social-studies": 309
       }
     },
@@ -35952,10 +36243,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 960
+        "lees": 965
       },
       "actualPositions": {
-        "lees": 958
+        "lees": 965
       }
     },
     "01m072s3cz3yqa6wp8g8f7hfvg": {
@@ -35998,14 +36289,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "social-studies"
       ],
       "positions": {
-        "lees": 770,
-        "short": 474,
-        "social-studies": 500
+        "lees": 773,
+        "short": 475,
+        "social-studies": 502
       },
       "actualPositions": {
-        "lees": 769,
-        "short": 473,
-        "social-studies": 499
+        "lees": 773,
+        "short": 475,
+        "social-studies": 502
       }
     },
     "01m072s3abc2a6pk01kgrv73my": {
@@ -36047,16 +36338,16 @@ window.TOP_ARTICLE_PRIORITY = {
         "social-studies"
       ],
       "positions": {
-        "lees": 771,
-        "short": 475,
+        "lees": 774,
+        "short": 476,
         "luchtig": 153,
-        "social-studies": 501
+        "social-studies": 503
       },
       "actualPositions": {
-        "lees": 770,
-        "short": 474,
+        "lees": 774,
+        "short": 476,
         "luchtig": 153,
-        "social-studies": 500
+        "social-studies": 503
       }
     },
     "01m072s385a6fzhtgze3b0htyj": {
@@ -36099,14 +36390,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "social-studies"
       ],
       "positions": {
-        "lees": 772,
-        "short": 476,
-        "social-studies": 502
+        "lees": 775,
+        "short": 477,
+        "social-studies": 504
       },
       "actualPositions": {
-        "lees": 771,
-        "short": 475,
-        "social-studies": 501
+        "lees": 775,
+        "short": 477,
+        "social-studies": 504
       }
     },
     "01m072ky3hd19z38m5kyk2fcqy": {
@@ -36192,12 +36483,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "social-studies"
       ],
       "positions": {
-        "short": 629,
-        "social-studies": 594
+        "short": 632,
+        "social-studies": 596
       },
       "actualPositions": {
-        "short": 627,
-        "social-studies": 593
+        "short": 632,
+        "social-studies": 596
       }
     },
     "01m072keryngnm1c9yrmmc2mkn": {
@@ -36284,10 +36575,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 978
+        "lees": 983
       },
       "actualPositions": {
-        "lees": 976
+        "lees": 983
       }
     },
     "01m072jr0k249sen2da87ta5ra": {
@@ -36326,10 +36617,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 1080
+        "lees": 1085
       },
       "actualPositions": {
-        "lees": 1077
+        "lees": 1085
       }
     },
     "01m05be2mdpdf3vg9xy5xr0kcz": {
@@ -36372,14 +36663,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "social-studies"
       ],
       "positions": {
-        "lees": 959,
+        "lees": 964,
         "luchtig": 199,
-        "social-studies": 568
+        "social-studies": 570
       },
       "actualPositions": {
-        "lees": 957,
+        "lees": 964,
         "luchtig": 199,
-        "social-studies": 567
+        "social-studies": 570
       }
     },
     "01m059vzb20f0sy9sr2h2140d5": {
@@ -36420,14 +36711,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 1079,
-        "short": 628,
+        "lees": 1084,
+        "short": 631,
         "luchtig": 231
       },
       "actualPositions": {
-        "lees": 1076,
-        "short": 626,
-        "luchtig": 230
+        "lees": 1084,
+        "short": 631,
+        "luchtig": 231
       }
     },
     "01m059vwxfv3d1n8rterw19d6a": {
@@ -36471,12 +36762,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 769,
-        "short": 473
+        "lees": 772,
+        "short": 474
       },
       "actualPositions": {
-        "lees": 768,
-        "short": 472
+        "lees": 772,
+        "short": 474
       }
     },
     "01m059vqea4t02392f7364m2jr": {
@@ -36517,12 +36808,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "social-studies"
       ],
       "positions": {
-        "lees": 427,
+        "lees": 428,
         "luchtig": 70,
         "social-studies": 308
       },
       "actualPositions": {
-        "lees": 427,
+        "lees": 428,
         "luchtig": 70,
         "social-studies": 308
       }
@@ -36565,12 +36856,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "social-studies"
       ],
       "positions": {
-        "lees": 426,
+        "lees": 427,
         "luchtig": 69,
         "social-studies": 307
       },
       "actualPositions": {
-        "lees": 426,
+        "lees": 427,
         "luchtig": 69,
         "social-studies": 307
       }
@@ -36614,11 +36905,11 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 958,
+        "lees": 963,
         "luchtig": 198
       },
       "actualPositions": {
-        "lees": 956,
+        "lees": 963,
         "luchtig": 198
       }
     },
@@ -36660,10 +36951,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 957
+        "lees": 962
       },
       "actualPositions": {
-        "lees": 955
+        "lees": 962
       }
     },
     "01m059vdx0s3ff8xbj5eh1y9x3": {
@@ -36706,13 +36997,13 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 425,
-        "short": 285,
+        "lees": 426,
+        "short": 286,
         "luchtig": 68
       },
       "actualPositions": {
-        "lees": 425,
-        "short": 285,
+        "lees": 426,
+        "short": 286,
         "luchtig": 68
       }
     },
@@ -36755,12 +37046,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "social-studies"
       ],
       "positions": {
-        "lees": 612,
-        "social-studies": 426
+        "lees": 614,
+        "social-studies": 427
       },
       "actualPositions": {
-        "lees": 611,
-        "social-studies": 425
+        "lees": 614,
+        "social-studies": 427
       }
     },
     "01m059v98jpw8wgvff3t63dxm4": {
@@ -36802,11 +37093,11 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 956,
+        "lees": 961,
         "luchtig": 197
       },
       "actualPositions": {
-        "lees": 954,
+        "lees": 961,
         "luchtig": 197
       }
     },
@@ -36848,10 +37139,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 955
+        "lees": 960
       },
       "actualPositions": {
-        "lees": 953
+        "lees": 960
       }
     },
     "01m059v4r9jj9vzx30nn7cs3sr": {
@@ -36893,11 +37184,11 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 611,
+        "lees": 613,
         "luchtig": 100
       },
       "actualPositions": {
-        "lees": 610,
+        "lees": 613,
         "luchtig": 100
       }
     },
@@ -36940,11 +37231,11 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 610,
+        "lees": 612,
         "luchtig": 99
       },
       "actualPositions": {
-        "lees": 609,
+        "lees": 612,
         "luchtig": 99
       }
     },
@@ -37039,10 +37330,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 609
+        "lees": 611
       },
       "actualPositions": {
-        "lees": 608
+        "lees": 611
       }
     },
     "01m059tsa0jy2myj4kn804wky1": {
@@ -37081,14 +37372,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 1338,
-        "short": 792,
+        "lees": 1344,
+        "short": 795,
         "luchtig": 305
       },
       "actualPositions": {
-        "lees": 1332,
-        "short": 788,
-        "luchtig": 302
+        "lees": 1344,
+        "short": 795,
+        "luchtig": 305
       }
     },
     "01m059tpnqyq5yy3kq6xrmf1v5": {
@@ -37172,14 +37463,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 1371,
-        "short": 816,
+        "lees": 1377,
+        "short": 819,
         "luchtig": 325
       },
       "actualPositions": {
-        "lees": 1365,
-        "short": 812,
-        "luchtig": 322
+        "lees": 1377,
+        "short": 819,
+        "luchtig": 325
       }
     },
     "01m059thh2ytr4v45ebz778hxw": {
@@ -37223,12 +37514,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 768,
-        "short": 472
+        "lees": 771,
+        "short": 473
       },
       "actualPositions": {
-        "lees": 767,
-        "short": 471
+        "lees": 771,
+        "short": 473
       }
     },
     "01m059tf2ttw02jrmmm46cmhjk": {
@@ -37271,13 +37562,13 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 767,
-        "short": 471,
+        "lees": 770,
+        "short": 472,
         "luchtig": 152
       },
       "actualPositions": {
-        "lees": 766,
-        "short": 470,
+        "lees": 770,
+        "short": 472,
         "luchtig": 152
       }
     },
@@ -37320,12 +37611,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 1078,
-        "short": 627
+        "lees": 1083,
+        "short": 630
       },
       "actualPositions": {
-        "lees": 1075,
-        "short": 625
+        "lees": 1083,
+        "short": 630
       }
     },
     "01m059ta2jr7jstn7cdahr41yy": {
@@ -37366,14 +37657,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 1077,
-        "short": 626,
+        "lees": 1082,
+        "short": 629,
         "luchtig": 230
       },
       "actualPositions": {
-        "lees": 1074,
-        "short": 624,
-        "luchtig": 229
+        "lees": 1082,
+        "short": 629,
+        "luchtig": 230
       }
     },
     "01m059t7cjgvc214sac3e4z08x": {
@@ -37465,13 +37756,13 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 766,
-        "short": 470,
+        "lees": 769,
+        "short": 471,
         "luchtig": 151
       },
       "actualPositions": {
-        "lees": 765,
-        "short": 469,
+        "lees": 769,
+        "short": 471,
         "luchtig": 151
       }
     },
@@ -37513,14 +37804,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 1147,
-        "short": 672,
+        "lees": 1152,
+        "short": 675,
         "luchtig": 250
       },
       "actualPositions": {
-        "lees": 1144,
-        "short": 670,
-        "luchtig": 249
+        "lees": 1152,
+        "short": 675,
+        "luchtig": 250
       }
     },
     "01m059szgmq8b5egbkgk1xe1rd": {
@@ -37562,11 +37853,11 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 608,
+        "lees": 610,
         "luchtig": 98
       },
       "actualPositions": {
-        "lees": 607,
+        "lees": 610,
         "luchtig": 98
       }
     },
@@ -37608,10 +37899,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 954
+        "lees": 959
       },
       "actualPositions": {
-        "lees": 952
+        "lees": 959
       }
     },
     "01m059sskxhhg3mfe39qs6r40x": {
@@ -37651,11 +37942,11 @@ window.TOP_ARTICLE_PRIORITY = {
         "social-studies"
       ],
       "positions": {
-        "lees": 424,
+        "lees": 425,
         "social-studies": 306
       },
       "actualPositions": {
-        "lees": 424,
+        "lees": 425,
         "social-studies": 306
       }
     },
@@ -37739,14 +38030,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "social-studies"
       ],
       "positions": {
-        "lees": 1076,
-        "short": 625,
-        "social-studies": 593
+        "lees": 1081,
+        "short": 628,
+        "social-studies": 595
       },
       "actualPositions": {
-        "lees": 1073,
-        "short": 623,
-        "social-studies": 592
+        "lees": 1081,
+        "short": 628,
+        "social-studies": 595
       }
     },
     "01m03b0vhwd52bhh3rdjhdafv2": {
@@ -37788,11 +38079,11 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 613,
+        "lees": 615,
         "luchtig": 101
       },
       "actualPositions": {
-        "lees": 612,
+        "lees": 615,
         "luchtig": 101
       }
     },
@@ -37839,13 +38130,13 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig-nederlands"
       ],
       "positions": {
-        "lees": 765,
+        "lees": 768,
         "dutch": 33,
         "luchtig": 150,
         "luchtig-nederlands": 8
       },
       "actualPositions": {
-        "lees": 764,
+        "lees": 768,
         "dutch": 33,
         "luchtig": 150,
         "luchtig-nederlands": 8
@@ -37889,14 +38180,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 1146,
-        "short": 671,
+        "lees": 1151,
+        "short": 674,
         "luchtig": 249
       },
       "actualPositions": {
-        "lees": 1143,
-        "short": 669,
-        "luchtig": 248
+        "lees": 1151,
+        "short": 674,
+        "luchtig": 249
       }
     },
     "01m02agqvzjjczjgfrjqd8qyqj": {
@@ -37999,18 +38290,18 @@ window.TOP_ARTICLE_PRIORITY = {
         "social-studies"
       ],
       "positions": {
-        "lees": 607,
+        "lees": 609,
         "dutch": 25,
-        "short": 365,
+        "short": 366,
         "short-dutch": 21,
-        "social-studies": 425
+        "social-studies": 426
       },
       "actualPositions": {
-        "lees": 606,
+        "lees": 609,
         "dutch": 25,
-        "short": 364,
+        "short": 366,
         "short-dutch": 21,
-        "social-studies": 424
+        "social-studies": 426
       }
     },
     "01m01v1rmpqh6acc6t5t8cdy21": {
@@ -38050,19 +38341,19 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig-nederlands"
       ],
       "positions": {
-        "lees": 1387,
+        "lees": 1393,
         "dutch": 50,
-        "short": 826,
+        "short": 829,
         "short-dutch": 37,
         "luchtig": 336,
         "luchtig-nederlands": 17
       },
       "actualPositions": {
-        "lees": 1381,
+        "lees": 1393,
         "dutch": 50,
-        "short": 822,
+        "short": 829,
         "short-dutch": 37,
-        "luchtig": 333,
+        "luchtig": 336,
         "luchtig-nederlands": 17
       }
     },
@@ -38098,14 +38389,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 1394,
-        "short": 833,
+        "lees": 1400,
+        "short": 836,
         "luchtig": 343
       },
       "actualPositions": {
-        "lees": 1388,
-        "short": 829,
-        "luchtig": 340
+        "lees": 1400,
+        "short": 836,
+        "luchtig": 343
       }
     },
     "01kzzst7bzmyrpwmespcekhf7k": {
@@ -38151,15 +38442,15 @@ window.TOP_ARTICLE_PRIORITY = {
         "short-dutch"
       ],
       "positions": {
-        "lees": 606,
+        "lees": 608,
         "dutch": 24,
-        "short": 364,
+        "short": 365,
         "short-dutch": 20
       },
       "actualPositions": {
-        "lees": 605,
+        "lees": 608,
         "dutch": 24,
-        "short": 363,
+        "short": 365,
         "short-dutch": 20
       }
     },
@@ -38249,12 +38540,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 764,
-        "short": 469
+        "lees": 767,
+        "short": 470
       },
       "actualPositions": {
-        "lees": 763,
-        "short": 468
+        "lees": 767,
+        "short": 470
       }
     },
     "01kzx9z52qd31z7fyy315ebs7d": {
@@ -38293,10 +38584,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 953
+        "lees": 958
       },
       "actualPositions": {
-        "lees": 951
+        "lees": 958
       }
     },
     "01kzvppwrdd73n89vk3nbadrm4": {
@@ -38333,14 +38624,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 1337,
-        "short": 791,
+        "lees": 1343,
+        "short": 794,
         "luchtig": 304
       },
       "actualPositions": {
-        "lees": 1331,
-        "short": 787,
-        "luchtig": 301
+        "lees": 1343,
+        "short": 794,
+        "luchtig": 304
       }
     },
     "01kztvesqhd0vhbkmcxqrevkhs": {
@@ -38429,14 +38720,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 1336,
-        "short": 790,
+        "lees": 1342,
+        "short": 793,
         "luchtig": 303
       },
       "actualPositions": {
-        "lees": 1330,
-        "short": 786,
-        "luchtig": 300
+        "lees": 1342,
+        "short": 793,
+        "luchtig": 303
       }
     },
     "01kzs2rg4k74qvmpceqbwav3ae": {
@@ -38473,14 +38764,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 1307,
-        "short": 763,
+        "lees": 1313,
+        "short": 766,
         "luchtig": 293
       },
       "actualPositions": {
-        "lees": 1301,
-        "short": 759,
-        "luchtig": 290
+        "lees": 1313,
+        "short": 766,
+        "luchtig": 293
       }
     },
     "01kzr4dqeqcac4srvc6vvdppez": {
@@ -38520,11 +38811,11 @@ window.TOP_ARTICLE_PRIORITY = {
         "dutch"
       ],
       "positions": {
-        "lees": 1213,
+        "lees": 1219,
         "dutch": 44
       },
       "actualPositions": {
-        "lees": 1208,
+        "lees": 1219,
         "dutch": 44
       }
     },
@@ -38566,14 +38857,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 1145,
-        "short": 670,
+        "lees": 1150,
+        "short": 673,
         "luchtig": 248
       },
       "actualPositions": {
-        "lees": 1142,
-        "short": 668,
-        "luchtig": 247
+        "lees": 1150,
+        "short": 673,
+        "luchtig": 248
       }
     },
     "01kzp09j3vmc15v2atpvpkbrpe": {
@@ -38659,10 +38950,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 952
+        "lees": 957
       },
       "actualPositions": {
-        "lees": 950
+        "lees": 957
       }
     },
     "01kzks8gpjbgtxar87yh5esb02": {
@@ -38703,14 +38994,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "social-studies"
       ],
       "positions": {
-        "lees": 605,
-        "short": 363,
-        "social-studies": 424
+        "lees": 607,
+        "short": 364,
+        "social-studies": 425
       },
       "actualPositions": {
-        "lees": 604,
-        "short": 362,
-        "social-studies": 423
+        "lees": 607,
+        "short": 364,
+        "social-studies": 425
       }
     },
     "01kzks5qkzbprr9awnp29vvk7g": {
@@ -38752,12 +39043,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 763,
-        "short": 468
+        "lees": 766,
+        "short": 469
       },
       "actualPositions": {
-        "lees": 762,
-        "short": 467
+        "lees": 766,
+        "short": 469
       }
     },
     "01kzka3mb479td6k9sc95kkxv4": {
@@ -38800,14 +39091,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "social-studies"
       ],
       "positions": {
-        "lees": 762,
-        "short": 467,
-        "social-studies": 499
+        "lees": 765,
+        "short": 468,
+        "social-studies": 501
       },
       "actualPositions": {
-        "lees": 761,
-        "short": 466,
-        "social-studies": 498
+        "lees": 765,
+        "short": 468,
+        "social-studies": 501
       }
     },
     "01kzjk22zxkgrvftgdtdvj01rq": {
@@ -38901,10 +39192,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 951
+        "lees": 956
       },
       "actualPositions": {
-        "lees": 949
+        "lees": 956
       }
     },
     "01kzeczgpr5fr1w5znnf4m2b9v": {
@@ -38995,15 +39286,15 @@ window.TOP_ARTICLE_PRIORITY = {
         "short-dutch"
       ],
       "positions": {
-        "lees": 1144,
+        "lees": 1149,
         "dutch": 42,
-        "short": 669,
+        "short": 672,
         "short-dutch": 30
       },
       "actualPositions": {
-        "lees": 1141,
+        "lees": 1149,
         "dutch": 42,
-        "short": 667,
+        "short": 672,
         "short-dutch": 30
       }
     },
@@ -39047,13 +39338,13 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 761,
-        "short": 466,
+        "lees": 764,
+        "short": 467,
         "luchtig": 149
       },
       "actualPositions": {
-        "lees": 760,
-        "short": 465,
+        "lees": 764,
+        "short": 467,
         "luchtig": 149
       }
     },
@@ -39094,11 +39385,11 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 950,
+        "lees": 955,
         "luchtig": 196
       },
       "actualPositions": {
-        "lees": 948,
+        "lees": 955,
         "luchtig": 196
       }
     },
@@ -39141,12 +39432,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 760,
-        "short": 465
+        "lees": 763,
+        "short": 466
       },
       "actualPositions": {
-        "lees": 759,
-        "short": 464
+        "lees": 763,
+        "short": 466
       }
     },
     "01kzdq8tj0zzrzaw85rd37s6xf": {
@@ -39187,10 +39478,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 949
+        "lees": 954
       },
       "actualPositions": {
-        "lees": 947
+        "lees": 954
       }
     },
     "01kzdq8sfxq0gzhmywzbn9ty9e": {
@@ -39227,10 +39518,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 1272
+        "lees": 1278
       },
       "actualPositions": {
-        "lees": 1266
+        "lees": 1278
       }
     },
     "01kzdbf87h4fzk1m5hz1zgh27t": {
@@ -39270,15 +39561,15 @@ window.TOP_ARTICLE_PRIORITY = {
         "short-dutch"
       ],
       "positions": {
-        "lees": 1306,
+        "lees": 1312,
         "dutch": 45,
-        "short": 762,
+        "short": 765,
         "short-dutch": 32
       },
       "actualPositions": {
-        "lees": 1300,
+        "lees": 1312,
         "dutch": 45,
-        "short": 758,
+        "short": 765,
         "short-dutch": 32
       }
     },
@@ -39320,14 +39611,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "social-studies"
       ],
       "positions": {
-        "lees": 604,
-        "short": 362,
-        "social-studies": 423
+        "lees": 606,
+        "short": 363,
+        "social-studies": 424
       },
       "actualPositions": {
-        "lees": 603,
-        "short": 361,
-        "social-studies": 422
+        "lees": 606,
+        "short": 363,
+        "social-studies": 424
       }
     },
     "01kzbmed4w58b2gg8qpgdb9q4c": {
@@ -39369,12 +39660,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 759,
-        "short": 464
+        "lees": 762,
+        "short": 465
       },
       "actualPositions": {
-        "lees": 758,
-        "short": 463
+        "lees": 762,
+        "short": 465
       }
     },
     "01kzbjy9gdq4xntetmwztrtgtv": {
@@ -39417,13 +39708,13 @@ window.TOP_ARTICLE_PRIORITY = {
         "social-studies"
       ],
       "positions": {
-        "lees": 423,
-        "short": 284,
+        "lees": 424,
+        "short": 285,
         "social-studies": 305
       },
       "actualPositions": {
-        "lees": 423,
-        "short": 284,
+        "lees": 424,
+        "short": 285,
         "social-studies": 305
       }
     },
@@ -39466,12 +39757,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 758,
-        "short": 463
+        "lees": 761,
+        "short": 464
       },
       "actualPositions": {
-        "lees": 757,
-        "short": 462
+        "lees": 761,
+        "short": 464
       }
     },
     "01kzb0cxjx9j8cd81x881xt9e8": {
@@ -39511,11 +39802,11 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 948,
+        "lees": 953,
         "luchtig": 195
       },
       "actualPositions": {
-        "lees": 946,
+        "lees": 953,
         "luchtig": 195
       }
     },
@@ -39559,13 +39850,13 @@ window.TOP_ARTICLE_PRIORITY = {
         "social-studies"
       ],
       "positions": {
-        "lees": 422,
-        "short": 283,
+        "lees": 423,
+        "short": 284,
         "social-studies": 304
       },
       "actualPositions": {
-        "lees": 422,
-        "short": 283,
+        "lees": 423,
+        "short": 284,
         "social-studies": 304
       }
     },
@@ -39654,14 +39945,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 1075,
-        "short": 624,
+        "lees": 1080,
+        "short": 627,
         "luchtig": 229
       },
       "actualPositions": {
-        "lees": 1072,
-        "short": 622,
-        "luchtig": 228
+        "lees": 1080,
+        "short": 627,
+        "luchtig": 229
       }
     },
     "01kz9q1etvj82wyb44kpaj3r3c": {
@@ -39750,16 +40041,16 @@ window.TOP_ARTICLE_PRIORITY = {
         "social-studies"
       ],
       "positions": {
-        "lees": 757,
-        "short": 462,
+        "lees": 760,
+        "short": 463,
         "luchtig": 148,
-        "social-studies": 498
+        "social-studies": 500
       },
       "actualPositions": {
-        "lees": 756,
-        "short": 461,
+        "lees": 760,
+        "short": 463,
         "luchtig": 148,
-        "social-studies": 497
+        "social-studies": 500
       }
     },
     "01kz96t63anbs2x8jgs2txcc9s": {
@@ -39799,12 +40090,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "social-studies"
       ],
       "positions": {
-        "lees": 947,
-        "social-studies": 567
+        "lees": 952,
+        "social-studies": 569
       },
       "actualPositions": {
-        "lees": 945,
-        "social-studies": 566
+        "lees": 952,
+        "social-studies": 569
       }
     },
     "01kz8zwnxp6tqjavp4bcdvgq9p": {
@@ -39847,13 +40138,13 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 756,
-        "short": 461,
+        "lees": 759,
+        "short": 462,
         "luchtig": 147
       },
       "actualPositions": {
-        "lees": 755,
-        "short": 460,
+        "lees": 759,
+        "short": 462,
         "luchtig": 147
       }
     },
@@ -39892,12 +40183,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 1212,
+        "lees": 1218,
         "luchtig": 269
       },
       "actualPositions": {
-        "lees": 1207,
-        "luchtig": 267
+        "lees": 1218,
+        "luchtig": 269
       }
     },
     "01kz84cd6qp18k7dfpv9b4khjc": {
@@ -39938,14 +40229,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "social-studies"
       ],
       "positions": {
-        "lees": 946,
+        "lees": 951,
         "luchtig": 194,
-        "social-studies": 566
+        "social-studies": 568
       },
       "actualPositions": {
-        "lees": 944,
+        "lees": 951,
         "luchtig": 194,
-        "social-studies": 565
+        "social-studies": 568
       }
     },
     "01kz82xdjjgrnyqf2bgfgaehd9": {
@@ -39988,14 +40279,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "social-studies"
       ],
       "positions": {
-        "lees": 755,
-        "short": 460,
-        "social-studies": 497
+        "lees": 758,
+        "short": 461,
+        "social-studies": 499
       },
       "actualPositions": {
-        "lees": 754,
-        "short": 459,
-        "social-studies": 496
+        "lees": 758,
+        "short": 461,
+        "social-studies": 499
       }
     },
     "01kz6ed2bfhqw1ksddzhkn7nv0": {
@@ -40035,12 +40326,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 1211,
-        "short": 720
+        "lees": 1217,
+        "short": 723
       },
       "actualPositions": {
-        "lees": 1206,
-        "short": 717
+        "lees": 1217,
+        "short": 723
       }
     },
     "01kz6ed1sa2y2kwxs775125q31": {
@@ -40084,14 +40375,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "social-studies"
       ],
       "positions": {
-        "lees": 421,
-        "short": 282,
+        "lees": 422,
+        "short": 283,
         "scrum": 138,
         "social-studies": 303
       },
       "actualPositions": {
-        "lees": 421,
-        "short": 282,
+        "lees": 422,
+        "short": 283,
         "scrum": 138,
         "social-studies": 303
       }
@@ -40132,10 +40423,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 945
+        "lees": 950
       },
       "actualPositions": {
-        "lees": 943
+        "lees": 950
       }
     },
     "01kz6ect0wg6e4xcxasm10sk5g": {
@@ -40171,12 +40462,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 1335,
-        "short": 789
+        "lees": 1341,
+        "short": 792
       },
       "actualPositions": {
-        "lees": 1329,
-        "short": 785
+        "lees": 1341,
+        "short": 792
       }
     },
     "01kz69ad56sjrd4e3q43gheyq6": {
@@ -40212,12 +40503,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 1334,
-        "short": 788
+        "lees": 1340,
+        "short": 791
       },
       "actualPositions": {
-        "lees": 1328,
-        "short": 784
+        "lees": 1340,
+        "short": 791
       }
     },
     "01kz69a8qypwqt460jxm9pk4r8": {
@@ -40254,10 +40545,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 1271
+        "lees": 1277
       },
       "actualPositions": {
-        "lees": 1265
+        "lees": 1277
       }
     },
     "01kz69a3spachapgt877dw9cxs": {
@@ -40297,12 +40588,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 1074,
-        "short": 623
+        "lees": 1079,
+        "short": 626
       },
       "actualPositions": {
-        "lees": 1071,
-        "short": 621
+        "lees": 1079,
+        "short": 626
       }
     },
     "01kz5hxxx355g7zdmhn22jhs3a": {
@@ -40338,12 +40629,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 1333,
-        "short": 787
+        "lees": 1339,
+        "short": 790
       },
       "actualPositions": {
-        "lees": 1327,
-        "short": 783
+        "lees": 1339,
+        "short": 790
       }
     },
     "01kz5hxrqak5nz3t8a2kwv5zhj": {
@@ -40378,14 +40669,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 1393,
-        "short": 832,
+        "lees": 1399,
+        "short": 835,
         "luchtig": 342
       },
       "actualPositions": {
-        "lees": 1387,
-        "short": 828,
-        "luchtig": 339
+        "lees": 1399,
+        "short": 835,
+        "luchtig": 342
       }
     },
     "01kz4wdxrxyjpr3qbg0042hady": {
@@ -40422,10 +40713,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 1270
+        "lees": 1276
       },
       "actualPositions": {
-        "lees": 1264
+        "lees": 1276
       }
     },
     "01kz4nmz78jyvw6r2c5t42twxt": {
@@ -40465,12 +40756,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "social-studies"
       ],
       "positions": {
-        "lees": 944,
-        "social-studies": 565
+        "lees": 949,
+        "social-studies": 567
       },
       "actualPositions": {
-        "lees": 942,
-        "social-studies": 564
+        "lees": 949,
+        "social-studies": 567
       }
     },
     "01kz4nfbmznfm4bgfs8zac2x39": {
@@ -40546,12 +40837,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 1370,
+        "lees": 1376,
         "luchtig": 324
       },
       "actualPositions": {
-        "lees": 1364,
-        "luchtig": 321
+        "lees": 1376,
+        "luchtig": 324
       }
     },
     "01kz4nb1rvgwbacrqkqpzcw6my": {
@@ -40591,12 +40882,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "social-studies"
       ],
       "positions": {
-        "lees": 943,
-        "social-studies": 564
+        "lees": 948,
+        "social-studies": 566
       },
       "actualPositions": {
-        "lees": 941,
-        "social-studies": 563
+        "lees": 948,
+        "social-studies": 566
       }
     },
     "01kz3vmxyyz45h60v9psp9ea3t": {
@@ -40691,12 +40982,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 754,
-        "short": 459
+        "lees": 757,
+        "short": 460
       },
       "actualPositions": {
-        "lees": 753,
-        "short": 458
+        "lees": 757,
+        "short": 460
       }
     },
     "01kz3n3vtt34z9nte888xtbp8q": {
@@ -40786,11 +41077,11 @@ window.TOP_ARTICLE_PRIORITY = {
         "social-studies"
       ],
       "positions": {
-        "lees": 420,
+        "lees": 421,
         "social-studies": 302
       },
       "actualPositions": {
-        "lees": 420,
+        "lees": 421,
         "social-studies": 302
       }
     },
@@ -40828,10 +41119,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 1210
+        "lees": 1216
       },
       "actualPositions": {
-        "lees": 1205
+        "lees": 1216
       }
     },
     "01kz0xcf88e504t3dbzev3dc6z": {
@@ -40970,16 +41261,16 @@ window.TOP_ARTICLE_PRIORITY = {
         "social-studies"
       ],
       "positions": {
-        "lees": 753,
-        "short": 458,
+        "lees": 756,
+        "short": 459,
         "luchtig": 146,
-        "social-studies": 496
+        "social-studies": 498
       },
       "actualPositions": {
-        "lees": 752,
-        "short": 457,
+        "lees": 756,
+        "short": 459,
         "luchtig": 146,
-        "social-studies": 495
+        "social-studies": 498
       }
     },
     "01kyz1s71etfwt2wgr2zhqrr4k": {
@@ -41069,13 +41360,13 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 752,
-        "short": 457,
+        "lees": 755,
+        "short": 458,
         "luchtig": 145
       },
       "actualPositions": {
-        "lees": 751,
-        "short": 456,
+        "lees": 755,
+        "short": 458,
         "luchtig": 145
       }
     },
@@ -41312,14 +41603,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "social-studies"
       ],
       "positions": {
-        "lees": 1073,
-        "short": 622,
-        "social-studies": 592
+        "lees": 1078,
+        "short": 625,
+        "social-studies": 594
       },
       "actualPositions": {
-        "lees": 1070,
-        "short": 620,
-        "social-studies": 591
+        "lees": 1078,
+        "short": 625,
+        "social-studies": 594
       }
     },
     "01kysnpk8azvdg0fmar8118yy0": {
@@ -41359,12 +41650,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "social-studies"
       ],
       "positions": {
-        "lees": 942,
-        "social-studies": 563
+        "lees": 947,
+        "social-studies": 565
       },
       "actualPositions": {
-        "lees": 940,
-        "social-studies": 562
+        "lees": 947,
+        "social-studies": 565
       }
     },
     "01kysnpjbzmxbkrjfbxzssm9ke": {
@@ -41404,12 +41695,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "social-studies"
       ],
       "positions": {
-        "lees": 941,
-        "social-studies": 562
+        "lees": 946,
+        "social-studies": 564
       },
       "actualPositions": {
-        "lees": 939,
-        "social-studies": 561
+        "lees": 946,
+        "social-studies": 564
       }
     },
     "01kysnp46np6phr3stfajdsjk8": {
@@ -41446,10 +41737,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 1143
+        "lees": 1148
       },
       "actualPositions": {
-        "lees": 1140
+        "lees": 1148
       }
     },
     "01kysnn7synbp4djg1ph3zrhdh": {
@@ -41539,12 +41830,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "social-studies"
       ],
       "positions": {
-        "lees": 603,
-        "social-studies": 422
+        "lees": 605,
+        "social-studies": 423
       },
       "actualPositions": {
-        "lees": 602,
-        "social-studies": 421
+        "lees": 605,
+        "social-studies": 423
       }
     },
     "01kysnmbwt86e2fk3axtde57h4": {
@@ -41633,15 +41924,15 @@ window.TOP_ARTICLE_PRIORITY = {
         "short-dutch"
       ],
       "positions": {
-        "lees": 419,
+        "lees": 420,
         "dutch": 12,
-        "short": 281,
+        "short": 282,
         "short-dutch": 8
       },
       "actualPositions": {
-        "lees": 419,
+        "lees": 420,
         "dutch": 12,
-        "short": 281,
+        "short": 282,
         "short-dutch": 8
       }
     },
@@ -41687,12 +41978,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "social-studies"
       ],
       "positions": {
-        "lees": 418,
+        "lees": 419,
         "dutch": 11,
         "social-studies": 301
       },
       "actualPositions": {
-        "lees": 418,
+        "lees": 419,
         "dutch": 11,
         "social-studies": 301
       }
@@ -41734,11 +42025,11 @@ window.TOP_ARTICLE_PRIORITY = {
         "social-studies"
       ],
       "positions": {
-        "lees": 417,
+        "lees": 418,
         "social-studies": 300
       },
       "actualPositions": {
-        "lees": 417,
+        "lees": 418,
         "social-studies": 300
       }
     },
@@ -41826,10 +42117,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 1284
+        "lees": 1290
       },
       "actualPositions": {
-        "lees": 1278
+        "lees": 1290
       }
     },
     "01kysfnf6jy1cq0eax8gwfxt5t": {
@@ -41866,10 +42157,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 1283
+        "lees": 1289
       },
       "actualPositions": {
-        "lees": 1277
+        "lees": 1289
       }
     },
     "01kysfkr91ztafaydtna4raq0r": {
@@ -41951,12 +42242,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "social-studies"
       ],
       "positions": {
-        "lees": 940,
-        "social-studies": 561
+        "lees": 945,
+        "social-studies": 563
       },
       "actualPositions": {
-        "lees": 938,
-        "social-studies": 560
+        "lees": 945,
+        "social-studies": 563
       }
     },
     "01kys88s7qtngkzgfv4eyvcqxm": {
@@ -41998,12 +42289,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 751,
-        "short": 456
+        "lees": 754,
+        "short": 457
       },
       "actualPositions": {
-        "lees": 750,
-        "short": 455
+        "lees": 754,
+        "short": 457
       }
     },
     "01kypsfm35qdf9z4ncsvxx0hm3": {
@@ -42046,13 +42337,13 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 750,
-        "short": 455,
+        "lees": 753,
+        "short": 456,
         "luchtig": 144
       },
       "actualPositions": {
-        "lees": 749,
-        "short": 454,
+        "lees": 753,
+        "short": 456,
         "luchtig": 144
       }
     },
@@ -42093,11 +42384,11 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 602,
+        "lees": 604,
         "luchtig": 97
       },
       "actualPositions": {
-        "lees": 601,
+        "lees": 604,
         "luchtig": 97
       }
     },
@@ -42143,14 +42434,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 1115,
-        "short": 652,
+        "lees": 1120,
+        "short": 655,
         "luchtig": 239
       },
       "actualPositions": {
-        "lees": 1112,
-        "short": 650,
-        "luchtig": 238
+        "lees": 1120,
+        "short": 655,
+        "luchtig": 239
       }
     },
     "01kyexyg0m6s4a4nddcw8mm63e": {
@@ -42190,11 +42481,11 @@ window.TOP_ARTICLE_PRIORITY = {
         "social-studies"
       ],
       "positions": {
-        "lees": 416,
+        "lees": 417,
         "social-studies": 299
       },
       "actualPositions": {
-        "lees": 416,
+        "lees": 417,
         "social-studies": 299
       }
     },
@@ -42244,22 +42535,22 @@ window.TOP_ARTICLE_PRIORITY = {
         "social-studies"
       ],
       "positions": {
-        "lees": 601,
+        "lees": 603,
         "dutch": 23,
-        "short": 361,
+        "short": 362,
         "short-dutch": 19,
         "luchtig": 96,
         "luchtig-nederlands": 5,
-        "social-studies": 421
+        "social-studies": 422
       },
       "actualPositions": {
-        "lees": 600,
+        "lees": 603,
         "dutch": 23,
-        "short": 360,
+        "short": 362,
         "short-dutch": 19,
         "luchtig": 96,
         "luchtig-nederlands": 5,
-        "social-studies": 420
+        "social-studies": 422
       }
     },
     "01kyecz4d85v3458hk05y2eksd": {
@@ -42300,14 +42591,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 1072,
-        "short": 621,
+        "lees": 1077,
+        "short": 624,
         "luchtig": 228
       },
       "actualPositions": {
-        "lees": 1069,
-        "short": 619,
-        "luchtig": 227
+        "lees": 1077,
+        "short": 624,
+        "luchtig": 228
       }
     },
     "01kye6cwzsz29j9v1g53fzfy45": {
@@ -42350,13 +42641,13 @@ window.TOP_ARTICLE_PRIORITY = {
         "social-studies"
       ],
       "positions": {
-        "lees": 415,
-        "short": 280,
+        "lees": 416,
+        "short": 281,
         "social-studies": 298
       },
       "actualPositions": {
-        "lees": 415,
-        "short": 280,
+        "lees": 416,
+        "short": 281,
         "social-studies": 298
       }
     },
@@ -42446,10 +42737,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 414
+        "lees": 415
       },
       "actualPositions": {
-        "lees": 414
+        "lees": 415
       }
     },
     "01kyab47vf7vat0n76fpwrgrj6": {
@@ -42571,14 +42862,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 1305,
-        "short": 761,
+        "lees": 1311,
+        "short": 764,
         "luchtig": 292
       },
       "actualPositions": {
-        "lees": 1299,
-        "short": 757,
-        "luchtig": 289
+        "lees": 1311,
+        "short": 764,
+        "luchtig": 292
       }
     },
     "01ky7y54f3cb0xcxn9nyexpkzw": {
@@ -42666,12 +42957,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "social-studies"
       ],
       "positions": {
-        "lees": 413,
+        "lees": 414,
         "luchtig": 67,
         "social-studies": 297
       },
       "actualPositions": {
-        "lees": 413,
+        "lees": 414,
         "luchtig": 67,
         "social-studies": 297
       }
@@ -42713,11 +43004,11 @@ window.TOP_ARTICLE_PRIORITY = {
         "social-studies"
       ],
       "positions": {
-        "lees": 412,
+        "lees": 413,
         "social-studies": 296
       },
       "actualPositions": {
-        "lees": 412,
+        "lees": 413,
         "social-studies": 296
       }
     },
@@ -42805,10 +43096,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 1269
+        "lees": 1275
       },
       "actualPositions": {
-        "lees": 1263
+        "lees": 1275
       }
     },
     "01ky7n2t9kh67a9rabta0hwczs": {
@@ -42848,11 +43139,11 @@ window.TOP_ARTICLE_PRIORITY = {
         "social-studies"
       ],
       "positions": {
-        "lees": 411,
+        "lees": 412,
         "social-studies": 295
       },
       "actualPositions": {
-        "lees": 411,
+        "lees": 412,
         "social-studies": 295
       }
     },
@@ -43020,10 +43311,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 410
+        "lees": 411
       },
       "actualPositions": {
-        "lees": 410
+        "lees": 411
       }
     },
     "01ky7msvp0ngc4st73axard7qv": {
@@ -43060,10 +43351,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 1114
+        "lees": 1119
       },
       "actualPositions": {
-        "lees": 1111
+        "lees": 1119
       }
     },
     "01ky7mstrf89d3yb8qgzjpajrb": {
@@ -43141,12 +43432,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 1071,
-        "short": 620
+        "lees": 1076,
+        "short": 623
       },
       "actualPositions": {
-        "lees": 1068,
-        "short": 618
+        "lees": 1076,
+        "short": 623
       }
     },
     "01ky7md09dzgwfh5dxnz8yjwbc": {
@@ -43305,14 +43596,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 1332,
-        "short": 786,
+        "lees": 1338,
+        "short": 789,
         "luchtig": 302
       },
       "actualPositions": {
-        "lees": 1326,
-        "short": 782,
-        "luchtig": 299
+        "lees": 1338,
+        "short": 789,
+        "luchtig": 302
       }
     },
     "01ky7jrg1n7trqqbw2b1914kmc": {
@@ -43399,12 +43690,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "social-studies"
       ],
       "positions": {
-        "lees": 600,
-        "social-studies": 420
+        "lees": 602,
+        "social-studies": 421
       },
       "actualPositions": {
-        "lees": 599,
-        "social-studies": 419
+        "lees": 602,
+        "social-studies": 421
       }
     },
     "01ky7jrexxwmsfs69nz3te7s86": {
@@ -43444,11 +43735,11 @@ window.TOP_ARTICLE_PRIORITY = {
         "social-studies"
       ],
       "positions": {
-        "lees": 409,
+        "lees": 410,
         "social-studies": 294
       },
       "actualPositions": {
-        "lees": 409,
+        "lees": 410,
         "social-studies": 294
       }
     },
@@ -43588,7 +43879,7 @@ window.TOP_ARTICLE_PRIORITY = {
       },
       "actualPositions": {
         "pdf": 34,
-        "luchtig": 237
+        "luchtig": 238
       }
     },
     "01ky6y1kzn6rvqmzqvj41ks8m0": {
@@ -43627,14 +43918,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 1268,
-        "short": 755,
+        "lees": 1274,
+        "short": 758,
         "luchtig": 282
       },
       "actualPositions": {
-        "lees": 1262,
-        "short": 751,
-        "luchtig": 279
+        "lees": 1274,
+        "short": 758,
+        "luchtig": 282
       }
     },
     "01ky6y1g55qsprt9r2h4jm394c": {
@@ -43730,13 +44021,13 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 749,
-        "short": 454,
+        "lees": 752,
+        "short": 455,
         "luchtig": 143
       },
       "actualPositions": {
-        "lees": 748,
-        "short": 453,
+        "lees": 752,
+        "short": 455,
         "luchtig": 143
       }
     },
@@ -43778,14 +44069,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "social-studies"
       ],
       "positions": {
-        "lees": 599,
-        "short": 360,
-        "social-studies": 419
+        "lees": 601,
+        "short": 361,
+        "social-studies": 420
       },
       "actualPositions": {
-        "lees": 598,
-        "short": 359,
-        "social-studies": 418
+        "lees": 601,
+        "short": 361,
+        "social-studies": 420
       }
     },
     "01ky6y11rnw2se0aen1ywm2q8w": {
@@ -43824,10 +44115,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 939
+        "lees": 944
       },
       "actualPositions": {
-        "lees": 937
+        "lees": 944
       }
     },
     "01ky6y112ahhdfz7zdrw7w1jkc": {
@@ -43872,14 +44163,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "social-studies"
       ],
       "positions": {
-        "lees": 748,
-        "short": 453,
-        "social-studies": 495
+        "lees": 751,
+        "short": 454,
+        "social-studies": 497
       },
       "actualPositions": {
-        "lees": 747,
-        "short": 452,
-        "social-studies": 494
+        "lees": 751,
+        "short": 454,
+        "social-studies": 497
       }
     },
     "01ky6y0z3wkzmdhty7gq3qa1wz": {
@@ -43965,14 +44256,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 1070,
-        "short": 619,
+        "lees": 1075,
+        "short": 622,
         "luchtig": 227
       },
       "actualPositions": {
-        "lees": 1067,
-        "short": 617,
-        "luchtig": 226
+        "lees": 1075,
+        "short": 622,
+        "luchtig": 227
       }
     },
     "01ky6y0vpey9hnw6ynvksnnn0j": {
@@ -44011,10 +44302,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 938
+        "lees": 943
       },
       "actualPositions": {
-        "lees": 936
+        "lees": 943
       }
     },
     "01ky6y0rhhn83s070ndp1ds299": {
@@ -44054,11 +44345,11 @@ window.TOP_ARTICLE_PRIORITY = {
         "social-studies"
       ],
       "positions": {
-        "lees": 408,
+        "lees": 409,
         "social-studies": 293
       },
       "actualPositions": {
-        "lees": 408,
+        "lees": 409,
         "social-studies": 293
       }
     },
@@ -44100,14 +44391,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 1069,
-        "short": 618,
+        "lees": 1074,
+        "short": 621,
         "luchtig": 226
       },
       "actualPositions": {
-        "lees": 1066,
-        "short": 616,
-        "luchtig": 225
+        "lees": 1074,
+        "short": 621,
+        "luchtig": 226
       }
     },
     "01ky6y0nhqr5zvg2wnj7d1hre9": {
@@ -44147,11 +44438,11 @@ window.TOP_ARTICLE_PRIORITY = {
         "social-studies"
       ],
       "positions": {
-        "lees": 407,
+        "lees": 408,
         "social-studies": 292
       },
       "actualPositions": {
-        "lees": 407,
+        "lees": 408,
         "social-studies": 292
       }
     },
@@ -44194,12 +44485,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 747,
-        "short": 452
+        "lees": 750,
+        "short": 453
       },
       "actualPositions": {
-        "lees": 746,
-        "short": 451
+        "lees": 750,
+        "short": 453
       }
     },
     "01ky6y0j4yaxqm3hxn6dmtg3cd": {
@@ -44235,12 +44526,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 1304,
+        "lees": 1310,
         "luchtig": 291
       },
       "actualPositions": {
-        "lees": 1298,
-        "luchtig": 288
+        "lees": 1310,
+        "luchtig": 291
       }
     },
     "01ky6y0ffj0t71kter8gv25vx3": {
@@ -44280,11 +44571,11 @@ window.TOP_ARTICLE_PRIORITY = {
         "social-studies"
       ],
       "positions": {
-        "lees": 406,
+        "lees": 407,
         "social-studies": 291
       },
       "actualPositions": {
-        "lees": 406,
+        "lees": 407,
         "social-studies": 291
       }
     },
@@ -44328,13 +44619,13 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 746,
-        "short": 451,
+        "lees": 749,
+        "short": 452,
         "luchtig": 142
       },
       "actualPositions": {
-        "lees": 745,
-        "short": 450,
+        "lees": 749,
+        "short": 452,
         "luchtig": 142
       }
     },
@@ -44376,14 +44667,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 1068,
-        "short": 617,
+        "lees": 1073,
+        "short": 620,
         "luchtig": 225
       },
       "actualPositions": {
-        "lees": 1065,
-        "short": 615,
-        "luchtig": 224
+        "lees": 1073,
+        "short": 620,
+        "luchtig": 225
       }
     },
     "01ky1dg1x4a52g9xbbhyc5d7xn": {
@@ -44427,16 +44718,16 @@ window.TOP_ARTICLE_PRIORITY = {
         "social-studies"
       ],
       "positions": {
-        "lees": 745,
-        "short": 450,
+        "lees": 748,
+        "short": 451,
         "luchtig": 141,
-        "social-studies": 494
+        "social-studies": 496
       },
       "actualPositions": {
-        "lees": 744,
-        "short": 449,
+        "lees": 748,
+        "short": 451,
         "luchtig": 141,
-        "social-studies": 493
+        "social-studies": 496
       }
     },
     "01ky09ekmjq5ncqpcbbkx4n7db": {
@@ -44476,12 +44767,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 598,
-        "short": 359
+        "lees": 600,
+        "short": 360
       },
       "actualPositions": {
-        "lees": 597,
-        "short": 358
+        "lees": 600,
+        "short": 360
       }
     },
     "01ky04rrda8nam4ym00qqfep0b": {
@@ -44524,13 +44815,13 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 744,
-        "short": 449,
+        "lees": 747,
+        "short": 450,
         "luchtig": 140
       },
       "actualPositions": {
-        "lees": 743,
-        "short": 448,
+        "lees": 747,
+        "short": 450,
         "luchtig": 140
       }
     },
@@ -44572,14 +44863,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 1067,
-        "short": 616,
+        "lees": 1072,
+        "short": 619,
         "luchtig": 224
       },
       "actualPositions": {
-        "lees": 1064,
-        "short": 614,
-        "luchtig": 223
+        "lees": 1072,
+        "short": 619,
+        "luchtig": 224
       }
     },
     "01kxzghzvbjtnr20f8vwmwc8s5": {
@@ -44717,13 +45008,13 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 597,
-        "short": 358,
+        "lees": 599,
+        "short": 359,
         "luchtig": 95
       },
       "actualPositions": {
-        "lees": 596,
-        "short": 357,
+        "lees": 599,
+        "short": 359,
         "luchtig": 95
       }
     },
@@ -44765,14 +45056,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 1066,
-        "short": 615,
+        "lees": 1071,
+        "short": 618,
         "luchtig": 223
       },
       "actualPositions": {
-        "lees": 1063,
-        "short": 613,
-        "luchtig": 222
+        "lees": 1071,
+        "short": 618,
+        "luchtig": 223
       }
     },
     "01kxteh0w2b3cxcbwv20ds3rnn": {
@@ -44813,14 +45104,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 1209,
-        "short": 719,
+        "lees": 1215,
+        "short": 722,
         "luchtig": 268
       },
       "actualPositions": {
-        "lees": 1204,
-        "short": 716,
-        "luchtig": 266
+        "lees": 1215,
+        "short": 722,
+        "luchtig": 268
       }
     },
     "01kxsqwp29h2rw9abx4ptaf1jk": {
@@ -44855,14 +45146,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 1392,
-        "short": 831,
+        "lees": 1398,
+        "short": 834,
         "luchtig": 341
       },
       "actualPositions": {
-        "lees": 1386,
-        "short": 827,
-        "luchtig": 338
+        "lees": 1398,
+        "short": 834,
+        "luchtig": 341
       }
     },
     "01kxrwf09cedgmcejrqnnjbdbn": {
@@ -44944,12 +45235,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "social-studies"
       ],
       "positions": {
-        "lees": 937,
-        "social-studies": 560
+        "lees": 942,
+        "social-studies": 562
       },
       "actualPositions": {
-        "lees": 935,
-        "social-studies": 559
+        "lees": 942,
+        "social-studies": 562
       }
     },
     "01kxr18pz677fa7xqfav7sp2dp": {
@@ -44991,12 +45282,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "social-studies"
       ],
       "positions": {
-        "lees": 596,
-        "social-studies": 418
+        "lees": 598,
+        "social-studies": 419
       },
       "actualPositions": {
-        "lees": 595,
-        "social-studies": 417
+        "lees": 598,
+        "social-studies": 419
       }
     },
     "01kxq69jsxxmy5fqx81twtbvpy": {
@@ -45033,14 +45324,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 1303,
-        "short": 760,
+        "lees": 1309,
+        "short": 763,
         "luchtig": 290
       },
       "actualPositions": {
-        "lees": 1297,
-        "short": 756,
-        "luchtig": 287
+        "lees": 1309,
+        "short": 763,
+        "luchtig": 290
       }
     },
     "01kxpg8mpkegghvbz5w71ne86v": {
@@ -45130,11 +45421,11 @@ window.TOP_ARTICLE_PRIORITY = {
         "social-studies"
       ],
       "positions": {
-        "lees": 404,
+        "lees": 405,
         "social-studies": 290
       },
       "actualPositions": {
-        "lees": 404,
+        "lees": 405,
         "social-studies": 290
       }
     },
@@ -45175,11 +45466,11 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 595,
+        "lees": 597,
         "luchtig": 94
       },
       "actualPositions": {
-        "lees": 594,
+        "lees": 597,
         "luchtig": 94
       }
     },
@@ -45216,12 +45507,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 1302,
+        "lees": 1308,
         "luchtig": 289
       },
       "actualPositions": {
-        "lees": 1296,
-        "luchtig": 286
+        "lees": 1308,
+        "luchtig": 289
       }
     },
     "01kxk1p9p14yah265krgprpkzc": {
@@ -45260,14 +45551,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 1208,
-        "short": 718,
+        "lees": 1214,
+        "short": 721,
         "luchtig": 267
       },
       "actualPositions": {
-        "lees": 1203,
-        "short": 715,
-        "luchtig": 265
+        "lees": 1214,
+        "short": 721,
+        "luchtig": 267
       }
     },
     "01kxk0f5xscnb3hqq0r0r6s3xc": {
@@ -45352,13 +45643,13 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 743,
-        "short": 448,
+        "lees": 746,
+        "short": 449,
         "luchtig": 139
       },
       "actualPositions": {
-        "lees": 742,
-        "short": 447,
+        "lees": 746,
+        "short": 449,
         "luchtig": 139
       }
     },
@@ -45611,15 +45902,15 @@ window.TOP_ARTICLE_PRIORITY = {
         "short-dutch"
       ],
       "positions": {
-        "lees": 1207,
+        "lees": 1213,
         "dutch": 43,
-        "short": 717,
+        "short": 720,
         "short-dutch": 31
       },
       "actualPositions": {
-        "lees": 1202,
+        "lees": 1213,
         "dutch": 43,
-        "short": 714,
+        "short": 720,
         "short-dutch": 31
       }
     },
@@ -45660,12 +45951,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 1206,
-        "short": 716
+        "lees": 1212,
+        "short": 719
       },
       "actualPositions": {
-        "lees": 1201,
-        "short": 713
+        "lees": 1212,
+        "short": 719
       }
     },
     "01kxdxaytaf6tm6ntqnc9vdw18": {
@@ -45754,12 +46045,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 742,
-        "short": 447
+        "lees": 745,
+        "short": 448
       },
       "actualPositions": {
-        "lees": 741,
-        "short": 446
+        "lees": 745,
+        "short": 448
       }
     },
     "01kxc0c7xf8ksb9n8m8z8j5d0c": {
@@ -45799,12 +46090,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "social-studies"
       ],
       "positions": {
-        "lees": 594,
-        "social-studies": 417
+        "lees": 596,
+        "social-studies": 418
       },
       "actualPositions": {
-        "lees": 593,
-        "social-studies": 416
+        "lees": 596,
+        "social-studies": 418
       }
     },
     "01kxabe372k5htmjxz8bxdan0f": {
@@ -45853,22 +46144,22 @@ window.TOP_ARTICLE_PRIORITY = {
         "social-studies"
       ],
       "positions": {
-        "lees": 593,
+        "lees": 595,
         "dutch": 22,
-        "short": 357,
+        "short": 358,
         "short-dutch": 18,
         "luchtig": 93,
         "luchtig-nederlands": 4,
-        "social-studies": 416
+        "social-studies": 417
       },
       "actualPositions": {
-        "lees": 592,
+        "lees": 595,
         "dutch": 22,
-        "short": 356,
+        "short": 358,
         "short-dutch": 18,
         "luchtig": 93,
         "luchtig-nederlands": 4,
-        "social-studies": 415
+        "social-studies": 417
       }
     },
     "01kx8dy64p4xqjvp7asc8v98jk": {
@@ -45911,13 +46202,13 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 741,
-        "short": 446,
+        "lees": 744,
+        "short": 447,
         "luchtig": 138
       },
       "actualPositions": {
-        "lees": 740,
-        "short": 445,
+        "lees": 744,
+        "short": 447,
         "luchtig": 138
       }
     },
@@ -45958,11 +46249,11 @@ window.TOP_ARTICLE_PRIORITY = {
         "social-studies"
       ],
       "positions": {
-        "lees": 403,
+        "lees": 404,
         "social-studies": 289
       },
       "actualPositions": {
-        "lees": 403,
+        "lees": 404,
         "social-studies": 289
       }
     },
@@ -46008,13 +46299,13 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 740,
-        "short": 445,
+        "lees": 743,
+        "short": 446,
         "luchtig": 137
       },
       "actualPositions": {
-        "lees": 739,
-        "short": 444,
+        "lees": 743,
+        "short": 446,
         "luchtig": 137
       }
     },
@@ -46057,12 +46348,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 739,
-        "short": 444
+        "lees": 742,
+        "short": 445
       },
       "actualPositions": {
-        "lees": 738,
-        "short": 443
+        "lees": 742,
+        "short": 445
       }
     },
     "01kx187j6fsdhx3v99a4np0dwe": {
@@ -46102,12 +46393,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "social-studies"
       ],
       "positions": {
-        "lees": 936,
-        "social-studies": 559
+        "lees": 941,
+        "social-studies": 561
       },
       "actualPositions": {
-        "lees": 934,
-        "social-studies": 558
+        "lees": 941,
+        "social-studies": 561
       }
     },
     "01kx083m8fqj198stjqcd4te6r": {
@@ -46150,14 +46441,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "social-studies"
       ],
       "positions": {
-        "lees": 738,
-        "short": 443,
-        "social-studies": 493
+        "lees": 741,
+        "short": 444,
+        "social-studies": 495
       },
       "actualPositions": {
-        "lees": 737,
-        "short": 442,
-        "social-studies": 492
+        "lees": 741,
+        "short": 444,
+        "social-studies": 495
       }
     },
     "01kwy84xrmk8pft1avwy7cser7": {
@@ -46198,14 +46489,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 1065,
-        "short": 614,
+        "lees": 1070,
+        "short": 617,
         "luchtig": 222
       },
       "actualPositions": {
-        "lees": 1062,
-        "short": 612,
-        "luchtig": 221
+        "lees": 1070,
+        "short": 617,
+        "luchtig": 222
       }
     },
     "01kwvzcp697n18jy871bj3rj77": {
@@ -46248,13 +46539,13 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 737,
-        "short": 442,
+        "lees": 740,
+        "short": 443,
         "luchtig": 136
       },
       "actualPositions": {
-        "lees": 736,
-        "short": 441,
+        "lees": 740,
+        "short": 443,
         "luchtig": 136
       }
     },
@@ -46298,13 +46589,13 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 736,
-        "short": 441,
+        "lees": 739,
+        "short": 442,
         "luchtig": 135
       },
       "actualPositions": {
-        "lees": 735,
-        "short": 440,
+        "lees": 739,
+        "short": 442,
         "luchtig": 135
       }
     },
@@ -46344,10 +46635,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 935
+        "lees": 940
       },
       "actualPositions": {
-        "lees": 933
+        "lees": 940
       }
     },
     "01kwreqfypckk54fws5c65whwp": {
@@ -46396,22 +46687,22 @@ window.TOP_ARTICLE_PRIORITY = {
         "social-studies"
       ],
       "positions": {
-        "lees": 592,
+        "lees": 594,
         "dutch": 21,
-        "short": 356,
+        "short": 357,
         "short-dutch": 17,
         "luchtig": 92,
         "luchtig-nederlands": 3,
-        "social-studies": 415
+        "social-studies": 416
       },
       "actualPositions": {
-        "lees": 591,
+        "lees": 594,
         "dutch": 21,
-        "short": 355,
+        "short": 357,
         "short-dutch": 17,
         "luchtig": 92,
         "luchtig-nederlands": 3,
-        "social-studies": 414
+        "social-studies": 416
       }
     },
     "01kwragbn5fwjf0dvfyfvwvne8": {
@@ -46451,11 +46742,11 @@ window.TOP_ARTICLE_PRIORITY = {
         "social-studies"
       ],
       "positions": {
-        "lees": 402,
+        "lees": 403,
         "social-studies": 288
       },
       "actualPositions": {
-        "lees": 402,
+        "lees": 403,
         "social-studies": 288
       }
     },
@@ -46499,13 +46790,13 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 735,
-        "short": 440,
+        "lees": 738,
+        "short": 441,
         "luchtig": 134
       },
       "actualPositions": {
-        "lees": 734,
-        "short": 439,
+        "lees": 738,
+        "short": 441,
         "luchtig": 134
       }
     },
@@ -46553,18 +46844,18 @@ window.TOP_ARTICLE_PRIORITY = {
         "social-studies"
       ],
       "positions": {
-        "lees": 591,
+        "lees": 593,
         "dutch": 20,
-        "short": 355,
+        "short": 356,
         "short-dutch": 16,
-        "social-studies": 414
+        "social-studies": 415
       },
       "actualPositions": {
-        "lees": 590,
+        "lees": 593,
         "dutch": 20,
-        "short": 354,
+        "short": 356,
         "short-dutch": 16,
-        "social-studies": 413
+        "social-studies": 415
       }
     },
     "01kwnpartfb70amv2acccwcsr1": {
@@ -46604,19 +46895,19 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig-nederlands"
       ],
       "positions": {
-        "lees": 1386,
+        "lees": 1392,
         "dutch": 49,
-        "short": 825,
+        "short": 828,
         "short-dutch": 36,
         "luchtig": 335,
         "luchtig-nederlands": 16
       },
       "actualPositions": {
-        "lees": 1380,
+        "lees": 1392,
         "dutch": 49,
-        "short": 821,
+        "short": 828,
         "short-dutch": 36,
-        "luchtig": 332,
+        "luchtig": 335,
         "luchtig-nederlands": 16
       }
     },
@@ -46706,13 +46997,13 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig-nederlands"
       ],
       "positions": {
-        "lees": 734,
+        "lees": 737,
         "dutch": 32,
         "luchtig": 133,
         "luchtig-nederlands": 7
       },
       "actualPositions": {
-        "lees": 733,
+        "lees": 737,
         "dutch": 32,
         "luchtig": 133,
         "luchtig-nederlands": 7
@@ -46757,12 +47048,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 733,
-        "short": 439
+        "lees": 736,
+        "short": 440
       },
       "actualPositions": {
-        "lees": 732,
-        "short": 438
+        "lees": 736,
+        "short": 440
       }
     },
     "01kwgv4d63neeawgzpjgf111bx": {
@@ -46804,16 +47095,16 @@ window.TOP_ARTICLE_PRIORITY = {
         "social-studies"
       ],
       "positions": {
-        "lees": 732,
-        "short": 438,
+        "lees": 735,
+        "short": 439,
         "scrum": 231,
-        "social-studies": 492
+        "social-studies": 494
       },
       "actualPositions": {
-        "lees": 731,
-        "short": 437,
+        "lees": 735,
+        "short": 439,
         "scrum": 231,
-        "social-studies": 491
+        "social-studies": 494
       }
     },
     "01kwgv4bwctkyj54rvctfyk8qa": {
@@ -46855,16 +47146,16 @@ window.TOP_ARTICLE_PRIORITY = {
         "social-studies"
       ],
       "positions": {
-        "lees": 731,
-        "short": 437,
+        "lees": 734,
+        "short": 438,
         "scrum": 230,
-        "social-studies": 491
+        "social-studies": 493
       },
       "actualPositions": {
-        "lees": 730,
-        "short": 436,
+        "lees": 734,
+        "short": 438,
         "scrum": 230,
-        "social-studies": 490
+        "social-studies": 493
       }
     },
     "01kwgv4ap47ve8h0bdwf29jzwq": {
@@ -46906,16 +47197,16 @@ window.TOP_ARTICLE_PRIORITY = {
         "social-studies"
       ],
       "positions": {
-        "lees": 730,
-        "short": 436,
+        "lees": 733,
+        "short": 437,
         "scrum": 229,
-        "social-studies": 490
+        "social-studies": 492
       },
       "actualPositions": {
-        "lees": 729,
-        "short": 435,
+        "lees": 733,
+        "short": 437,
         "scrum": 229,
-        "social-studies": 489
+        "social-studies": 492
       }
     },
     "01kwgv49bqnbz83e4xekh95k2z": {
@@ -46959,14 +47250,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "social-studies"
       ],
       "positions": {
-        "lees": 401,
-        "short": 278,
+        "lees": 402,
+        "short": 279,
         "scrum": 137,
         "social-studies": 287
       },
       "actualPositions": {
-        "lees": 401,
-        "short": 278,
+        "lees": 402,
+        "short": 279,
         "scrum": 137,
         "social-studies": 287
       }
@@ -47012,14 +47303,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "social-studies"
       ],
       "positions": {
-        "lees": 400,
-        "short": 277,
+        "lees": 401,
+        "short": 278,
         "scrum": 136,
         "social-studies": 286
       },
       "actualPositions": {
-        "lees": 400,
-        "short": 277,
+        "lees": 401,
+        "short": 278,
         "scrum": 136,
         "social-studies": 286
       }
@@ -47065,14 +47356,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "social-studies"
       ],
       "positions": {
-        "lees": 399,
-        "short": 276,
+        "lees": 400,
+        "short": 277,
         "scrum": 135,
         "social-studies": 285
       },
       "actualPositions": {
-        "lees": 399,
-        "short": 276,
+        "lees": 400,
+        "short": 277,
         "scrum": 135,
         "social-studies": 285
       }
@@ -47116,16 +47407,16 @@ window.TOP_ARTICLE_PRIORITY = {
         "social-studies"
       ],
       "positions": {
-        "lees": 729,
-        "short": 435,
+        "lees": 732,
+        "short": 436,
         "scrum": 228,
-        "social-studies": 489
+        "social-studies": 491
       },
       "actualPositions": {
-        "lees": 728,
-        "short": 434,
+        "lees": 732,
+        "short": 436,
         "scrum": 228,
-        "social-studies": 488
+        "social-studies": 491
       }
     },
     "01kwgv43gpd4xyx01qc2khq1vk": {
@@ -47169,14 +47460,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "social-studies"
       ],
       "positions": {
-        "lees": 398,
-        "short": 275,
+        "lees": 399,
+        "short": 276,
         "scrum": 134,
         "social-studies": 284
       },
       "actualPositions": {
-        "lees": 398,
-        "short": 275,
+        "lees": 399,
+        "short": 276,
         "scrum": 134,
         "social-studies": 284
       }
@@ -47220,16 +47511,16 @@ window.TOP_ARTICLE_PRIORITY = {
         "social-studies"
       ],
       "positions": {
-        "lees": 728,
-        "short": 434,
+        "lees": 731,
+        "short": 435,
         "scrum": 227,
-        "social-studies": 488
+        "social-studies": 490
       },
       "actualPositions": {
-        "lees": 727,
-        "short": 433,
+        "lees": 731,
+        "short": 435,
         "scrum": 227,
-        "social-studies": 487
+        "social-studies": 490
       }
     },
     "01kwgv40cswsga3s67vbrqmh79": {
@@ -47271,16 +47562,16 @@ window.TOP_ARTICLE_PRIORITY = {
         "social-studies"
       ],
       "positions": {
-        "lees": 727,
-        "short": 433,
+        "lees": 730,
+        "short": 434,
         "scrum": 226,
-        "social-studies": 487
+        "social-studies": 489
       },
       "actualPositions": {
-        "lees": 726,
-        "short": 432,
+        "lees": 730,
+        "short": 434,
         "scrum": 226,
-        "social-studies": 486
+        "social-studies": 489
       }
     },
     "01kwgv3yscnzt7mvbt3cpcn1ey": {
@@ -47377,14 +47668,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "social-studies"
       ],
       "positions": {
-        "lees": 397,
-        "short": 274,
+        "lees": 398,
+        "short": 275,
         "scrum": 133,
         "social-studies": 283
       },
       "actualPositions": {
-        "lees": 397,
-        "short": 274,
+        "lees": 398,
+        "short": 275,
         "scrum": 133,
         "social-studies": 283
       }
@@ -47428,16 +47719,16 @@ window.TOP_ARTICLE_PRIORITY = {
         "social-studies"
       ],
       "positions": {
-        "lees": 726,
-        "short": 432,
+        "lees": 729,
+        "short": 433,
         "scrum": 225,
-        "social-studies": 486
+        "social-studies": 488
       },
       "actualPositions": {
-        "lees": 725,
-        "short": 431,
+        "lees": 729,
+        "short": 433,
         "scrum": 225,
-        "social-studies": 485
+        "social-studies": 488
       }
     },
     "01kwgv3te7ptf027ds5be7nsr3": {
@@ -47481,14 +47772,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "social-studies"
       ],
       "positions": {
-        "lees": 396,
-        "short": 273,
+        "lees": 397,
+        "short": 274,
         "scrum": 132,
         "social-studies": 282
       },
       "actualPositions": {
-        "lees": 396,
-        "short": 273,
+        "lees": 397,
+        "short": 274,
         "scrum": 132,
         "social-studies": 282
       }
@@ -47532,16 +47823,16 @@ window.TOP_ARTICLE_PRIORITY = {
         "social-studies"
       ],
       "positions": {
-        "lees": 725,
-        "short": 431,
+        "lees": 728,
+        "short": 432,
         "scrum": 224,
-        "social-studies": 485
+        "social-studies": 487
       },
       "actualPositions": {
-        "lees": 724,
-        "short": 430,
+        "lees": 728,
+        "short": 432,
         "scrum": 224,
-        "social-studies": 484
+        "social-studies": 487
       }
     },
     "01kwgv3qm7grnyf9h24dxf1tpr": {
@@ -47583,16 +47874,16 @@ window.TOP_ARTICLE_PRIORITY = {
         "social-studies"
       ],
       "positions": {
-        "lees": 724,
-        "short": 430,
+        "lees": 727,
+        "short": 431,
         "scrum": 223,
-        "social-studies": 484
+        "social-studies": 486
       },
       "actualPositions": {
-        "lees": 723,
-        "short": 429,
+        "lees": 727,
+        "short": 431,
         "scrum": 223,
-        "social-studies": 483
+        "social-studies": 486
       }
     },
     "01kwgv3p7m0hcdxdkevdk85zne": {
@@ -47634,16 +47925,16 @@ window.TOP_ARTICLE_PRIORITY = {
         "social-studies"
       ],
       "positions": {
-        "lees": 723,
-        "short": 429,
+        "lees": 726,
+        "short": 430,
         "scrum": 222,
-        "social-studies": 483
+        "social-studies": 485
       },
       "actualPositions": {
-        "lees": 722,
-        "short": 428,
+        "lees": 726,
+        "short": 430,
         "scrum": 222,
-        "social-studies": 482
+        "social-studies": 485
       }
     },
     "01kwgv3m75tgghgzvyx20sxse0": {
@@ -47687,14 +47978,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "social-studies"
       ],
       "positions": {
-        "lees": 395,
-        "short": 272,
+        "lees": 396,
+        "short": 273,
         "scrum": 131,
         "social-studies": 281
       },
       "actualPositions": {
-        "lees": 395,
-        "short": 272,
+        "lees": 396,
+        "short": 273,
         "scrum": 131,
         "social-studies": 281
       }
@@ -47738,12 +48029,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 394,
-        "short": 271
+        "lees": 395,
+        "short": 272
       },
       "actualPositions": {
-        "lees": 394,
-        "short": 271
+        "lees": 395,
+        "short": 272
       }
     },
     "01kwfwzck1451we2tjq3zssye3": {
@@ -47778,14 +48069,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 1391,
-        "short": 830,
+        "lees": 1397,
+        "short": 833,
         "luchtig": 340
       },
       "actualPositions": {
-        "lees": 1385,
-        "short": 826,
-        "luchtig": 337
+        "lees": 1397,
+        "short": 833,
+        "luchtig": 340
       }
     },
     "01kwfk5q2rtfm9enggaybd07zq": {
@@ -47878,16 +48169,16 @@ window.TOP_ARTICLE_PRIORITY = {
         "social-studies"
       ],
       "positions": {
-        "lees": 722,
-        "short": 428,
+        "lees": 725,
+        "short": 429,
         "scrum": 221,
-        "social-studies": 482
+        "social-studies": 484
       },
       "actualPositions": {
-        "lees": 721,
-        "short": 427,
+        "lees": 725,
+        "short": 429,
         "scrum": 221,
-        "social-studies": 481
+        "social-studies": 484
       }
     },
     "01kwf0yd7ctbprcferqdhtms0t": {
@@ -47929,16 +48220,16 @@ window.TOP_ARTICLE_PRIORITY = {
         "social-studies"
       ],
       "positions": {
-        "lees": 721,
-        "short": 427,
+        "lees": 724,
+        "short": 428,
         "scrum": 220,
-        "social-studies": 481
+        "social-studies": 483
       },
       "actualPositions": {
-        "lees": 720,
-        "short": 426,
+        "lees": 724,
+        "short": 428,
         "scrum": 220,
-        "social-studies": 480
+        "social-studies": 483
       }
     },
     "01kwf0ybdf5nk9310rfsr9gfkw": {
@@ -47982,14 +48273,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "social-studies"
       ],
       "positions": {
-        "lees": 393,
-        "short": 270,
+        "lees": 394,
+        "short": 271,
         "scrum": 130,
         "social-studies": 280
       },
       "actualPositions": {
-        "lees": 393,
-        "short": 270,
+        "lees": 394,
+        "short": 271,
         "scrum": 130,
         "social-studies": 280
       }
@@ -48033,16 +48324,16 @@ window.TOP_ARTICLE_PRIORITY = {
         "social-studies"
       ],
       "positions": {
-        "lees": 720,
-        "short": 426,
+        "lees": 723,
+        "short": 427,
         "scrum": 219,
-        "social-studies": 480
+        "social-studies": 482
       },
       "actualPositions": {
-        "lees": 719,
-        "short": 425,
+        "lees": 723,
+        "short": 427,
         "scrum": 219,
-        "social-studies": 479
+        "social-studies": 482
       }
     },
     "01kwexpw49qacd2hcbhg15tzcr": {
@@ -48083,14 +48374,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "social-studies"
       ],
       "positions": {
-        "lees": 590,
+        "lees": 592,
         "scrum": 191,
-        "social-studies": 413
+        "social-studies": 414
       },
       "actualPositions": {
-        "lees": 589,
+        "lees": 592,
         "scrum": 191,
-        "social-studies": 412
+        "social-studies": 414
       }
     },
     "01kwexptrjc88kg21aqp2sba9s": {
@@ -48134,14 +48425,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "social-studies"
       ],
       "positions": {
-        "lees": 392,
-        "short": 269,
+        "lees": 393,
+        "short": 270,
         "scrum": 129,
         "social-studies": 279
       },
       "actualPositions": {
-        "lees": 392,
-        "short": 269,
+        "lees": 393,
+        "short": 270,
         "scrum": 129,
         "social-studies": 279
       }
@@ -48240,14 +48531,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "social-studies"
       ],
       "positions": {
-        "lees": 391,
-        "short": 268,
+        "lees": 392,
+        "short": 269,
         "scrum": 128,
         "social-studies": 278
       },
       "actualPositions": {
-        "lees": 391,
-        "short": 268,
+        "lees": 392,
+        "short": 269,
         "scrum": 128,
         "social-studies": 278
       }
@@ -48293,14 +48584,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "social-studies"
       ],
       "positions": {
-        "lees": 390,
-        "short": 267,
+        "lees": 391,
+        "short": 268,
         "scrum": 127,
         "social-studies": 277
       },
       "actualPositions": {
-        "lees": 390,
-        "short": 267,
+        "lees": 391,
+        "short": 268,
         "scrum": 127,
         "social-studies": 277
       }
@@ -48344,16 +48635,16 @@ window.TOP_ARTICLE_PRIORITY = {
         "social-studies"
       ],
       "positions": {
-        "lees": 719,
-        "short": 425,
+        "lees": 722,
+        "short": 426,
         "scrum": 218,
-        "social-studies": 479
+        "social-studies": 481
       },
       "actualPositions": {
-        "lees": 718,
-        "short": 424,
+        "lees": 722,
+        "short": 426,
         "scrum": 218,
-        "social-studies": 478
+        "social-studies": 481
       }
     },
     "01kwexpk131p0dac6rajfc0wtb": {
@@ -48397,14 +48688,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "social-studies"
       ],
       "positions": {
-        "lees": 389,
-        "short": 266,
+        "lees": 390,
+        "short": 267,
         "scrum": 126,
         "social-studies": 276
       },
       "actualPositions": {
-        "lees": 389,
-        "short": 266,
+        "lees": 390,
+        "short": 267,
         "scrum": 126,
         "social-studies": 276
       }
@@ -48448,16 +48739,16 @@ window.TOP_ARTICLE_PRIORITY = {
         "social-studies"
       ],
       "positions": {
-        "lees": 718,
-        "short": 424,
+        "lees": 721,
+        "short": 425,
         "scrum": 217,
-        "social-studies": 478
+        "social-studies": 480
       },
       "actualPositions": {
-        "lees": 717,
-        "short": 423,
+        "lees": 721,
+        "short": 425,
         "scrum": 217,
-        "social-studies": 477
+        "social-studies": 480
       }
     },
     "01kwexpg90r86p63b5w5sd3910": {
@@ -48498,14 +48789,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "social-studies"
       ],
       "positions": {
-        "lees": 589,
+        "lees": 591,
         "scrum": 190,
-        "social-studies": 412
+        "social-studies": 413
       },
       "actualPositions": {
-        "lees": 588,
+        "lees": 591,
         "scrum": 190,
-        "social-studies": 411
+        "social-studies": 413
       }
     },
     "01kwexpevqvsnw5chhvec7vdc7": {
@@ -48595,16 +48886,16 @@ window.TOP_ARTICLE_PRIORITY = {
         "social-studies"
       ],
       "positions": {
-        "lees": 717,
-        "short": 423,
+        "lees": 720,
+        "short": 424,
         "scrum": 216,
-        "social-studies": 477
+        "social-studies": 479
       },
       "actualPositions": {
-        "lees": 716,
-        "short": 422,
+        "lees": 720,
+        "short": 424,
         "scrum": 216,
-        "social-studies": 476
+        "social-studies": 479
       }
     },
     "01kwexpbm8djp73dgn7ymt74bj": {
@@ -48646,16 +48937,16 @@ window.TOP_ARTICLE_PRIORITY = {
         "social-studies"
       ],
       "positions": {
-        "lees": 716,
-        "short": 422,
+        "lees": 719,
+        "short": 423,
         "scrum": 215,
-        "social-studies": 476
+        "social-studies": 478
       },
       "actualPositions": {
-        "lees": 715,
-        "short": 421,
+        "lees": 719,
+        "short": 423,
         "scrum": 215,
-        "social-studies": 475
+        "social-studies": 478
       }
     },
     "01kwexpa8272rzzb4wxq2c97fe": {
@@ -48697,16 +48988,16 @@ window.TOP_ARTICLE_PRIORITY = {
         "social-studies"
       ],
       "positions": {
-        "lees": 715,
-        "short": 421,
+        "lees": 718,
+        "short": 422,
         "scrum": 214,
-        "social-studies": 475
+        "social-studies": 477
       },
       "actualPositions": {
-        "lees": 714,
-        "short": 420,
+        "lees": 718,
+        "short": 422,
         "scrum": 214,
-        "social-studies": 474
+        "social-studies": 477
       }
     },
     "01kwexp8bshzmz4w7y2nspmx7a": {
@@ -48748,16 +49039,16 @@ window.TOP_ARTICLE_PRIORITY = {
         "social-studies"
       ],
       "positions": {
-        "lees": 714,
-        "short": 420,
+        "lees": 717,
+        "short": 421,
         "scrum": 213,
-        "social-studies": 474
+        "social-studies": 476
       },
       "actualPositions": {
-        "lees": 713,
-        "short": 419,
+        "lees": 717,
+        "short": 421,
         "scrum": 213,
-        "social-studies": 473
+        "social-studies": 476
       }
     },
     "01kwexp7111x57fyty213vtvwn": {
@@ -48799,16 +49090,16 @@ window.TOP_ARTICLE_PRIORITY = {
         "social-studies"
       ],
       "positions": {
-        "lees": 713,
-        "short": 419,
+        "lees": 716,
+        "short": 420,
         "scrum": 212,
-        "social-studies": 473
+        "social-studies": 475
       },
       "actualPositions": {
-        "lees": 712,
-        "short": 418,
+        "lees": 716,
+        "short": 420,
         "scrum": 212,
-        "social-studies": 472
+        "social-studies": 475
       }
     },
     "01kwexp5550gmx9jwcrafg7xd3": {
@@ -48849,14 +49140,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "social-studies"
       ],
       "positions": {
-        "lees": 588,
+        "lees": 590,
         "scrum": 189,
-        "social-studies": 411
+        "social-studies": 412
       },
       "actualPositions": {
-        "lees": 587,
+        "lees": 590,
         "scrum": 189,
-        "social-studies": 410
+        "social-studies": 412
       }
     },
     "01kwexp3bnatgms46fkdbgsnt6": {
@@ -48900,14 +49191,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "social-studies"
       ],
       "positions": {
-        "lees": 388,
-        "short": 265,
+        "lees": 389,
+        "short": 266,
         "scrum": 125,
         "social-studies": 275
       },
       "actualPositions": {
-        "lees": 388,
-        "short": 265,
+        "lees": 389,
+        "short": 266,
         "scrum": 125,
         "social-studies": 275
       }
@@ -49001,14 +49292,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "social-studies"
       ],
       "positions": {
-        "lees": 440,
-        "short": 295,
+        "lees": 441,
+        "short": 296,
         "scrum": 147,
         "social-studies": 319
       },
       "actualPositions": {
-        "lees": 440,
-        "short": 295,
+        "lees": 441,
+        "short": 296,
         "scrum": 147,
         "social-studies": 319
       }
@@ -49052,16 +49343,16 @@ window.TOP_ARTICLE_PRIORITY = {
         "social-studies"
       ],
       "positions": {
-        "lees": 787,
-        "short": 491,
+        "lees": 790,
+        "short": 492,
         "scrum": 235,
-        "social-studies": 508
+        "social-studies": 510
       },
       "actualPositions": {
-        "lees": 786,
-        "short": 490,
+        "lees": 790,
+        "short": 492,
         "scrum": 235,
-        "social-studies": 507
+        "social-studies": 510
       }
     },
     "01kwew3bj4a2ynh5yf1e6pxbsf": {
@@ -49158,14 +49449,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "social-studies"
       ],
       "positions": {
-        "lees": 439,
-        "short": 294,
+        "lees": 440,
+        "short": 295,
         "scrum": 146,
         "social-studies": 318
       },
       "actualPositions": {
-        "lees": 439,
-        "short": 294,
+        "lees": 440,
+        "short": 295,
         "scrum": 146,
         "social-studies": 318
       }
@@ -49208,14 +49499,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 1205,
-        "short": 715,
+        "lees": 1211,
+        "short": 718,
         "luchtig": 266
       },
       "actualPositions": {
-        "lees": 1200,
-        "short": 712,
-        "luchtig": 264
+        "lees": 1211,
+        "short": 718,
+        "luchtig": 266
       }
     },
     "01kwaadj8686tk3pzbr7wd9axw": {
@@ -49300,13 +49591,13 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 712,
-        "short": 418,
+        "lees": 715,
+        "short": 419,
         "luchtig": 132
       },
       "actualPositions": {
-        "lees": 711,
-        "short": 417,
+        "lees": 715,
+        "short": 419,
         "luchtig": 132
       }
     },
@@ -49348,14 +49639,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 1064,
-        "short": 613,
+        "lees": 1069,
+        "short": 616,
         "luchtig": 221
       },
       "actualPositions": {
-        "lees": 1061,
-        "short": 611,
-        "luchtig": 220
+        "lees": 1069,
+        "short": 616,
+        "luchtig": 221
       }
     },
     "01kw5smp76n3se61jv02c1zzx9": {
@@ -49398,13 +49689,13 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 387,
-        "short": 264,
+        "lees": 388,
+        "short": 265,
         "luchtig": 65
       },
       "actualPositions": {
-        "lees": 387,
-        "short": 264,
+        "lees": 388,
+        "short": 265,
         "luchtig": 65
       }
     },
@@ -49448,13 +49739,13 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 386,
-        "short": 263,
+        "lees": 387,
+        "short": 264,
         "luchtig": 64
       },
       "actualPositions": {
-        "lees": 386,
-        "short": 263,
+        "lees": 387,
+        "short": 264,
         "luchtig": 64
       }
     },
@@ -49498,13 +49789,13 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 711,
-        "short": 417,
+        "lees": 714,
+        "short": 418,
         "luchtig": 131
       },
       "actualPositions": {
-        "lees": 710,
-        "short": 416,
+        "lees": 714,
+        "short": 418,
         "luchtig": 131
       }
     },
@@ -49596,13 +49887,13 @@ window.TOP_ARTICLE_PRIORITY = {
         "social-studies"
       ],
       "positions": {
-        "lees": 385,
-        "short": 262,
+        "lees": 386,
+        "short": 263,
         "social-studies": 274
       },
       "actualPositions": {
-        "lees": 385,
-        "short": 262,
+        "lees": 386,
+        "short": 263,
         "social-studies": 274
       }
     },
@@ -49642,10 +49933,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 934
+        "lees": 939
       },
       "actualPositions": {
-        "lees": 932
+        "lees": 939
       }
     },
     "01kvyswh8ggabb27phjks81a5f": {
@@ -49680,14 +49971,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 1390,
-        "short": 829,
+        "lees": 1396,
+        "short": 832,
         "luchtig": 339
       },
       "actualPositions": {
-        "lees": 1384,
-        "short": 825,
-        "luchtig": 336
+        "lees": 1396,
+        "short": 832,
+        "luchtig": 339
       }
     },
     "01kvy9nncb1wdp5tq4q7mv1p11": {
@@ -49726,10 +50017,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 933
+        "lees": 938
       },
       "actualPositions": {
-        "lees": 931
+        "lees": 938
       }
     },
     "01kvwytrrghvckwz0stdxe2mgw": {
@@ -49773,16 +50064,16 @@ window.TOP_ARTICLE_PRIORITY = {
         "social-studies"
       ],
       "positions": {
-        "lees": 710,
-        "short": 416,
+        "lees": 713,
+        "short": 417,
         "luchtig": 130,
-        "social-studies": 472
+        "social-studies": 474
       },
       "actualPositions": {
-        "lees": 709,
-        "short": 415,
+        "lees": 713,
+        "short": 417,
         "luchtig": 130,
-        "social-studies": 471
+        "social-studies": 474
       }
     },
     "01kvwx52bzyv06aez48fr5fm5d": {
@@ -49822,11 +50113,11 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 932,
+        "lees": 937,
         "luchtig": 193
       },
       "actualPositions": {
-        "lees": 930,
+        "lees": 937,
         "luchtig": 193
       }
     },
@@ -49966,12 +50257,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 1267,
+        "lees": 1273,
         "luchtig": 281
       },
       "actualPositions": {
-        "lees": 1261,
-        "luchtig": 278
+        "lees": 1273,
+        "luchtig": 281
       }
     },
     "01kvsdvfdqp5rzvjnn3w85xqfm": {
@@ -50006,14 +50297,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 1389,
-        "short": 828,
+        "lees": 1395,
+        "short": 831,
         "luchtig": 338
       },
       "actualPositions": {
-        "lees": 1383,
-        "short": 824,
-        "luchtig": 335
+        "lees": 1395,
+        "short": 831,
+        "luchtig": 338
       }
     },
     "01kvryy6f1y6vjf4qacv0avmne": {
@@ -50051,12 +50342,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 1266,
+        "lees": 1272,
         "luchtig": 280
       },
       "actualPositions": {
-        "lees": 1260,
-        "luchtig": 277
+        "lees": 1272,
+        "luchtig": 280
       }
     },
     "01kvqqkejdb7cjbt7xksn8qw6y": {
@@ -50095,10 +50386,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 931
+        "lees": 936
       },
       "actualPositions": {
-        "lees": 929
+        "lees": 936
       }
     },
     "01kvqpz87r2405dv9qtg7vfx47": {
@@ -50139,14 +50430,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 1141,
-        "short": 667,
+        "lees": 1146,
+        "short": 670,
         "luchtig": 247
       },
       "actualPositions": {
-        "lees": 1138,
-        "short": 665,
-        "luchtig": 246
+        "lees": 1146,
+        "short": 670,
+        "luchtig": 247
       }
     },
     "01kvq9e83ygea63a0hpsq7zsk8": {
@@ -50185,10 +50476,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 587
+        "lees": 589
       },
       "actualPositions": {
-        "lees": 586
+        "lees": 589
       }
     },
     "01kvnt5qg1fchd5f12m7d679mg": {
@@ -50229,14 +50520,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 1204,
-        "short": 714,
+        "lees": 1210,
+        "short": 717,
         "luchtig": 265
       },
       "actualPositions": {
-        "lees": 1199,
-        "short": 711,
-        "luchtig": 263
+        "lees": 1210,
+        "short": 717,
+        "luchtig": 265
       }
     },
     "01kvjxf10abr48cgyg351gvcfm": {
@@ -50278,16 +50569,16 @@ window.TOP_ARTICLE_PRIORITY = {
         "social-studies"
       ],
       "positions": {
-        "lees": 586,
-        "short": 354,
+        "lees": 588,
+        "short": 355,
         "luchtig": 91,
-        "social-studies": 410
+        "social-studies": 411
       },
       "actualPositions": {
-        "lees": 585,
-        "short": 353,
+        "lees": 588,
+        "short": 355,
         "luchtig": 91,
-        "social-studies": 409
+        "social-studies": 411
       }
     },
     "01kvjhwyhc8ajne0mcg2sbdnew": {
@@ -50326,14 +50617,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 1203,
-        "short": 713,
+        "lees": 1209,
+        "short": 716,
         "luchtig": 264
       },
       "actualPositions": {
-        "lees": 1198,
-        "short": 710,
-        "luchtig": 262
+        "lees": 1209,
+        "short": 716,
+        "luchtig": 264
       }
     },
     "01kvjbgrqsftb77gs496c0p12t": {
@@ -50426,13 +50717,13 @@ window.TOP_ARTICLE_PRIORITY = {
         "social-studies"
       ],
       "positions": {
-        "lees": 384,
-        "short": 261,
+        "lees": 385,
+        "short": 262,
         "social-studies": 273
       },
       "actualPositions": {
-        "lees": 384,
-        "short": 261,
+        "lees": 385,
+        "short": 262,
         "social-studies": 273
       }
     },
@@ -50567,10 +50858,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 1063
+        "lees": 1068
       },
       "actualPositions": {
-        "lees": 1060
+        "lees": 1068
       }
     },
     "01kvgakgatt08e2qpyayjn518f": {
@@ -50669,17 +50960,17 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig-nederlands"
       ],
       "positions": {
-        "lees": 930,
+        "lees": 935,
         "dutch": 40,
-        "short": 589,
+        "short": 592,
         "short-dutch": 28,
         "luchtig": 192,
         "luchtig-nederlands": 12
       },
       "actualPositions": {
-        "lees": 928,
+        "lees": 935,
         "dutch": 40,
-        "short": 587,
+        "short": 592,
         "short-dutch": 28,
         "luchtig": 192,
         "luchtig-nederlands": 12
@@ -50722,11 +51013,11 @@ window.TOP_ARTICLE_PRIORITY = {
         "social-studies"
       ],
       "positions": {
-        "lees": 383,
+        "lees": 384,
         "social-studies": 272
       },
       "actualPositions": {
-        "lees": 383,
+        "lees": 384,
         "social-studies": 272
       }
     },
@@ -50765,12 +51056,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 1202,
+        "lees": 1208,
         "luchtig": 263
       },
       "actualPositions": {
-        "lees": 1197,
-        "luchtig": 261
+        "lees": 1208,
+        "luchtig": 263
       }
     },
     "01kvdagajpxgafjmbx8mxhecqq": {
@@ -50812,12 +51103,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 709,
-        "short": 415
+        "lees": 712,
+        "short": 416
       },
       "actualPositions": {
-        "lees": 708,
-        "short": 414
+        "lees": 712,
+        "short": 416
       }
     },
     "01kvcrmaw54bese7ww1vf68che": {
@@ -50857,12 +51148,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "social-studies"
       ],
       "positions": {
-        "lees": 585,
-        "social-studies": 409
+        "lees": 587,
+        "social-studies": 410
       },
       "actualPositions": {
-        "lees": 584,
-        "social-studies": 408
+        "lees": 587,
+        "social-studies": 410
       }
     },
     "01kvcgsfekyqqc5b9t3nmrge8m": {
@@ -50967,14 +51258,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "social-studies"
       ],
       "positions": {
-        "lees": 1062,
-        "short": 612,
-        "social-studies": 591
+        "lees": 1067,
+        "short": 615,
+        "social-studies": 593
       },
       "actualPositions": {
-        "lees": 1059,
-        "short": 610,
-        "social-studies": 590
+        "lees": 1067,
+        "short": 615,
+        "social-studies": 593
       }
     },
     "01kvarejkjdc6y2cjp2d0ewgkd": {
@@ -51067,13 +51358,13 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 708,
-        "short": 414,
+        "lees": 711,
+        "short": 415,
         "luchtig": 129
       },
       "actualPositions": {
-        "lees": 707,
-        "short": 413,
+        "lees": 711,
+        "short": 415,
         "luchtig": 129
       }
     },
@@ -51121,18 +51412,18 @@ window.TOP_ARTICLE_PRIORITY = {
         "social-studies"
       ],
       "positions": {
-        "lees": 584,
+        "lees": 586,
         "dutch": 19,
-        "short": 353,
+        "short": 354,
         "short-dutch": 15,
-        "social-studies": 408
+        "social-studies": 409
       },
       "actualPositions": {
-        "lees": 583,
+        "lees": 586,
         "dutch": 19,
-        "short": 352,
+        "short": 354,
         "short-dutch": 15,
-        "social-studies": 407
+        "social-studies": 409
       }
     },
     "01kv5x076n9sa5tc05ahev8ba3": {
@@ -51173,14 +51464,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 1061,
-        "short": 611,
+        "lees": 1066,
+        "short": 614,
         "luchtig": 220
       },
       "actualPositions": {
-        "lees": 1058,
-        "short": 609,
-        "luchtig": 219
+        "lees": 1066,
+        "short": 614,
+        "luchtig": 220
       }
     },
     "01kv5rsmp92qndagvyzwzjshd3": {
@@ -51221,14 +51512,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 1140,
-        "short": 666,
+        "lees": 1145,
+        "short": 669,
         "luchtig": 246
       },
       "actualPositions": {
-        "lees": 1137,
-        "short": 664,
-        "luchtig": 245
+        "lees": 1145,
+        "short": 669,
+        "luchtig": 246
       }
     },
     "01kv589pm45sfg8kv5jfxznh6g": {
@@ -51269,14 +51560,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "social-studies"
       ],
       "positions": {
-        "lees": 1060,
-        "short": 610,
-        "social-studies": 590
+        "lees": 1065,
+        "short": 613,
+        "social-studies": 592
       },
       "actualPositions": {
-        "lees": 1057,
-        "short": 608,
-        "social-studies": 589
+        "lees": 1065,
+        "short": 613,
+        "social-studies": 592
       }
     },
     "01kv0aj76tamztf0tt4cd00zvt": {
@@ -51317,14 +51608,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 1139,
-        "short": 665,
+        "lees": 1144,
+        "short": 668,
         "luchtig": 245
       },
       "actualPositions": {
-        "lees": 1136,
-        "short": 663,
-        "luchtig": 244
+        "lees": 1144,
+        "short": 668,
+        "luchtig": 245
       }
     },
     "01kty3nmapqw3y4ypnbbgrm2t3": {
@@ -51371,22 +51662,22 @@ window.TOP_ARTICLE_PRIORITY = {
         "social-studies"
       ],
       "positions": {
-        "lees": 929,
+        "lees": 934,
         "dutch": 39,
-        "short": 588,
+        "short": 591,
         "short-dutch": 27,
         "luchtig": 191,
         "luchtig-nederlands": 11,
-        "social-studies": 558
+        "social-studies": 560
       },
       "actualPositions": {
-        "lees": 927,
+        "lees": 934,
         "dutch": 39,
-        "short": 586,
+        "short": 591,
         "short-dutch": 27,
         "luchtig": 191,
         "luchtig-nederlands": 11,
-        "social-studies": 557
+        "social-studies": 560
       }
     },
     "01ktxgxw7cxp7caqpe7w230ne4": {
@@ -51431,18 +51722,18 @@ window.TOP_ARTICLE_PRIORITY = {
         "social-studies"
       ],
       "positions": {
-        "lees": 928,
+        "lees": 933,
         "dutch": 38,
-        "short": 587,
+        "short": 590,
         "short-dutch": 26,
-        "social-studies": 557
+        "social-studies": 559
       },
       "actualPositions": {
-        "lees": 926,
+        "lees": 933,
         "dutch": 38,
-        "short": 585,
+        "short": 590,
         "short-dutch": 26,
-        "social-studies": 556
+        "social-studies": 559
       }
     },
     "01ktv2w7h35y7h76gp5qk5ddfg": {
@@ -51481,14 +51772,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 1331,
-        "short": 785,
+        "lees": 1337,
+        "short": 788,
         "luchtig": 301
       },
       "actualPositions": {
-        "lees": 1325,
-        "short": 781,
-        "luchtig": 298
+        "lees": 1337,
+        "short": 788,
+        "luchtig": 301
       }
     },
     "01ktp2mzvjaxpymkgdyhw1wehh": {
@@ -51530,16 +51821,16 @@ window.TOP_ARTICLE_PRIORITY = {
         "social-studies"
       ],
       "positions": {
-        "lees": 707,
-        "short": 413,
+        "lees": 710,
+        "short": 414,
         "scrum": 211,
-        "social-studies": 471
+        "social-studies": 473
       },
       "actualPositions": {
-        "lees": 706,
-        "short": 412,
+        "lees": 710,
+        "short": 414,
         "scrum": 211,
-        "social-studies": 470
+        "social-studies": 473
       }
     },
     "01ktp2kyqfw4gmnvgcrkt7faxv": {
@@ -51634,14 +51925,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "social-studies"
       ],
       "positions": {
-        "lees": 382,
-        "short": 260,
+        "lees": 383,
+        "short": 261,
         "scrum": 124,
         "social-studies": 271
       },
       "actualPositions": {
-        "lees": 382,
-        "short": 260,
+        "lees": 383,
+        "short": 261,
         "scrum": 124,
         "social-studies": 271
       }
@@ -51687,14 +51978,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "social-studies"
       ],
       "positions": {
-        "lees": 381,
-        "short": 259,
+        "lees": 382,
+        "short": 260,
         "scrum": 123,
         "social-studies": 270
       },
       "actualPositions": {
-        "lees": 381,
-        "short": 259,
+        "lees": 382,
+        "short": 260,
         "scrum": 123,
         "social-studies": 270
       }
@@ -51739,14 +52030,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "social-studies"
       ],
       "positions": {
-        "lees": 706,
-        "short": 412,
-        "social-studies": 470
+        "lees": 709,
+        "short": 413,
+        "social-studies": 472
       },
       "actualPositions": {
-        "lees": 705,
-        "short": 411,
-        "social-studies": 469
+        "lees": 709,
+        "short": 413,
+        "social-studies": 472
       }
     },
     "01ktkgz3hkkcn6x6th4335ns7m": {
@@ -51785,10 +52076,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 927
+        "lees": 932
       },
       "actualPositions": {
-        "lees": 925
+        "lees": 932
       }
     },
     "01ktgfjcsqe7ppchg01q0v0b3k": {
@@ -51827,10 +52118,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 926
+        "lees": 931
       },
       "actualPositions": {
-        "lees": 924
+        "lees": 931
       }
     },
     "01ktejkb5739yv3ra0666qr32v": {
@@ -51873,13 +52164,13 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 705,
-        "short": 411,
+        "lees": 708,
+        "short": 412,
         "luchtig": 128
       },
       "actualPositions": {
-        "lees": 704,
-        "short": 410,
+        "lees": 708,
+        "short": 412,
         "luchtig": 128
       }
     },
@@ -51917,14 +52208,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 1301,
-        "short": 759,
+        "lees": 1307,
+        "short": 762,
         "luchtig": 288
       },
       "actualPositions": {
-        "lees": 1295,
-        "short": 755,
-        "luchtig": 285
+        "lees": 1307,
+        "short": 762,
+        "luchtig": 288
       }
     },
     "01ktdt607e4smamm9591b0b9d2": {
@@ -51965,14 +52256,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 1059,
-        "short": 609,
+        "lees": 1064,
+        "short": 612,
         "luchtig": 219
       },
       "actualPositions": {
-        "lees": 1056,
-        "short": 607,
-        "luchtig": 218
+        "lees": 1064,
+        "short": 612,
+        "luchtig": 219
       }
     },
     "01ktc8xc2yj17jm5hf96e12crc": {
@@ -52008,12 +52299,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 1330,
-        "short": 784
+        "lees": 1336,
+        "short": 787
       },
       "actualPositions": {
-        "lees": 1324,
-        "short": 780
+        "lees": 1336,
+        "short": 787
       }
     },
     "01ktbxxr50k86jtqphyhdp1eyc": {
@@ -52059,17 +52350,17 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig-nederlands"
       ],
       "positions": {
-        "lees": 925,
+        "lees": 930,
         "dutch": 37,
-        "short": 586,
+        "short": 589,
         "short-dutch": 25,
         "luchtig": 190,
         "luchtig-nederlands": 10
       },
       "actualPositions": {
-        "lees": 923,
+        "lees": 930,
         "dutch": 37,
-        "short": 584,
+        "short": 589,
         "short-dutch": 25,
         "luchtig": 190,
         "luchtig-nederlands": 10
@@ -52112,12 +52403,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 704,
-        "short": 410
+        "lees": 707,
+        "short": 411
       },
       "actualPositions": {
-        "lees": 703,
-        "short": 409
+        "lees": 707,
+        "short": 411
       }
     },
     "01kt9sbc2hgkymt9expprgkgdp": {
@@ -52210,12 +52501,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "social-studies"
       ],
       "positions": {
-        "lees": 924,
-        "social-studies": 556
+        "lees": 929,
+        "social-studies": 558
       },
       "actualPositions": {
-        "lees": 922,
-        "social-studies": 555
+        "lees": 929,
+        "social-studies": 558
       }
     },
     "01kt8j5yakk29s0cg4w3wnywn8": {
@@ -52259,15 +52550,15 @@ window.TOP_ARTICLE_PRIORITY = {
         "short-dutch"
       ],
       "positions": {
-        "lees": 1113,
+        "lees": 1118,
         "dutch": 41,
-        "short": 651,
+        "short": 654,
         "short-dutch": 29
       },
       "actualPositions": {
-        "lees": 1110,
+        "lees": 1118,
         "dutch": 41,
-        "short": 649,
+        "short": 654,
         "short-dutch": 29
       }
     },
@@ -52308,19 +52599,19 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig-nederlands"
       ],
       "positions": {
-        "lees": 1385,
+        "lees": 1391,
         "dutch": 48,
-        "short": 824,
+        "short": 827,
         "short-dutch": 35,
         "luchtig": 334,
         "luchtig-nederlands": 15
       },
       "actualPositions": {
-        "lees": 1379,
+        "lees": 1391,
         "dutch": 48,
-        "short": 820,
+        "short": 827,
         "short-dutch": 35,
-        "luchtig": 331,
+        "luchtig": 334,
         "luchtig-nederlands": 15
       }
     },
@@ -52409,12 +52700,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 1112,
+        "lees": 1117,
         "luchtig": 237
       },
       "actualPositions": {
-        "lees": 1109,
-        "luchtig": 236
+        "lees": 1117,
+        "luchtig": 237
       }
     },
     "01kt6qdyh1y6x3qgtft0vd05eb": {
@@ -52451,14 +52742,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 1329,
-        "short": 783,
+        "lees": 1335,
+        "short": 786,
         "luchtig": 300
       },
       "actualPositions": {
-        "lees": 1323,
-        "short": 779,
-        "luchtig": 297
+        "lees": 1335,
+        "short": 786,
+        "luchtig": 300
       }
     },
     "01kt48nachk49100hbdvv2zqdr": {
@@ -52548,18 +52839,18 @@ window.TOP_ARTICLE_PRIORITY = {
         "social-studies"
       ],
       "positions": {
-        "lees": 923,
+        "lees": 928,
         "dutch": 36,
-        "short": 585,
+        "short": 588,
         "short-dutch": 24,
-        "social-studies": 555
+        "social-studies": 557
       },
       "actualPositions": {
-        "lees": 921,
+        "lees": 928,
         "dutch": 36,
-        "short": 583,
+        "short": 588,
         "short-dutch": 24,
-        "social-studies": 554
+        "social-studies": 557
       }
     },
     "01kt3yrv65xm5w5crnf6ycy3rr": {
@@ -52599,11 +52890,11 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 922,
+        "lees": 927,
         "luchtig": 189
       },
       "actualPositions": {
-        "lees": 920,
+        "lees": 927,
         "luchtig": 189
       }
     },
@@ -52644,12 +52935,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "social-studies"
       ],
       "positions": {
-        "lees": 583,
-        "social-studies": 407
+        "lees": 585,
+        "social-studies": 408
       },
       "actualPositions": {
-        "lees": 582,
-        "social-studies": 406
+        "lees": 585,
+        "social-studies": 408
       }
     },
     "01kt1vftcr1sbpe7eyaq1th1cx": {
@@ -52690,14 +52981,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 1058,
-        "short": 608,
+        "lees": 1063,
+        "short": 611,
         "luchtig": 218
       },
       "actualPositions": {
-        "lees": 1055,
-        "short": 606,
-        "luchtig": 217
+        "lees": 1063,
+        "short": 611,
+        "luchtig": 218
       }
     },
     "01kt1kx6fw5yk6bfkt8ahab2q5": {
@@ -52738,14 +53029,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 1057,
-        "short": 607,
+        "lees": 1062,
+        "short": 610,
         "luchtig": 217
       },
       "actualPositions": {
-        "lees": 1054,
-        "short": 605,
-        "luchtig": 216
+        "lees": 1062,
+        "short": 610,
+        "luchtig": 217
       }
     },
     "01ksztqyqrbf3hq420f9q12d7m": {
@@ -52829,14 +53120,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 1138,
-        "short": 664,
+        "lees": 1143,
+        "short": 667,
         "luchtig": 244
       },
       "actualPositions": {
-        "lees": 1135,
-        "short": 662,
-        "luchtig": 243
+        "lees": 1143,
+        "short": 667,
+        "luchtig": 244
       }
     },
     "01ksvxarfqbzdwmx01pct93tvr": {
@@ -52979,13 +53270,13 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 380,
-        "short": 258,
+        "lees": 381,
+        "short": 259,
         "luchtig": 63
       },
       "actualPositions": {
-        "lees": 380,
-        "short": 258,
+        "lees": 381,
+        "short": 259,
         "luchtig": 63
       }
     },
@@ -53026,12 +53317,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 1056,
-        "short": 606
+        "lees": 1061,
+        "short": 609
       },
       "actualPositions": {
-        "lees": 1053,
-        "short": 604
+        "lees": 1061,
+        "short": 609
       }
     },
     "01ksqkk435sxw70yrsebqe07gn": {
@@ -53071,12 +53362,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 1137,
-        "short": 663
+        "lees": 1142,
+        "short": 666
       },
       "actualPositions": {
-        "lees": 1134,
-        "short": 661
+        "lees": 1142,
+        "short": 666
       }
     },
     "01ksq126c0q6kp4qwstx59c0q3": {
@@ -53116,12 +53407,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "social-studies"
       ],
       "positions": {
-        "lees": 921,
-        "social-studies": 554
+        "lees": 926,
+        "social-studies": 556
       },
       "actualPositions": {
-        "lees": 919,
-        "social-studies": 553
+        "lees": 926,
+        "social-studies": 556
       }
     },
     "01ksn9qmay1erty7g5cha7xgmj": {
@@ -53162,14 +53453,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 1136,
-        "short": 662,
+        "lees": 1141,
+        "short": 665,
         "luchtig": 243
       },
       "actualPositions": {
-        "lees": 1133,
-        "short": 660,
-        "luchtig": 242
+        "lees": 1141,
+        "short": 665,
+        "luchtig": 243
       }
     },
     "01ksn0g5e07cstvdhjbzkb0a5f": {
@@ -53212,14 +53503,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "social-studies"
       ],
       "positions": {
-        "lees": 703,
-        "short": 409,
-        "social-studies": 469
+        "lees": 706,
+        "short": 410,
+        "social-studies": 471
       },
       "actualPositions": {
-        "lees": 702,
-        "short": 408,
-        "social-studies": 468
+        "lees": 706,
+        "short": 410,
+        "social-studies": 471
       }
     },
     "01ksmj9hx2gtpq5spdfq0f7v37": {
@@ -53259,11 +53550,11 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 920,
+        "lees": 925,
         "luchtig": 188
       },
       "actualPositions": {
-        "lees": 918,
+        "lees": 925,
         "luchtig": 188
       }
     },
@@ -53304,11 +53595,11 @@ window.TOP_ARTICLE_PRIORITY = {
         "social-studies"
       ],
       "positions": {
-        "lees": 379,
+        "lees": 380,
         "social-studies": 268
       },
       "actualPositions": {
-        "lees": 379,
+        "lees": 380,
         "social-studies": 268
       }
     },
@@ -53346,14 +53637,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 1328,
-        "short": 782,
+        "lees": 1334,
+        "short": 785,
         "luchtig": 299
       },
       "actualPositions": {
-        "lees": 1322,
-        "short": 778,
-        "luchtig": 296
+        "lees": 1334,
+        "short": 785,
+        "luchtig": 299
       }
     },
     "01kshptdc5njqdmnehkxr4arfb": {
@@ -53393,19 +53684,19 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig-nederlands"
       ],
       "positions": {
-        "lees": 1384,
+        "lees": 1390,
         "dutch": 47,
-        "short": 823,
+        "short": 826,
         "short-dutch": 34,
         "luchtig": 333,
         "luchtig-nederlands": 14
       },
       "actualPositions": {
-        "lees": 1378,
+        "lees": 1390,
         "dutch": 47,
-        "short": 819,
+        "short": 826,
         "short-dutch": 34,
-        "luchtig": 330,
+        "luchtig": 333,
         "luchtig-nederlands": 14
       }
     },
@@ -53443,10 +53734,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 1201
+        "lees": 1207
       },
       "actualPositions": {
-        "lees": 1196
+        "lees": 1207
       }
     },
     "01ksgpayydne30egggw4npszj1": {
@@ -53489,13 +53780,13 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 702,
-        "short": 408,
+        "lees": 705,
+        "short": 409,
         "luchtig": 127
       },
       "actualPositions": {
-        "lees": 701,
-        "short": 407,
+        "lees": 705,
+        "short": 409,
         "luchtig": 127
       }
     },
@@ -53536,11 +53827,11 @@ window.TOP_ARTICLE_PRIORITY = {
         "social-studies"
       ],
       "positions": {
-        "lees": 378,
+        "lees": 379,
         "social-studies": 267
       },
       "actualPositions": {
-        "lees": 378,
+        "lees": 379,
         "social-studies": 267
       }
     },
@@ -53582,13 +53873,13 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 582,
-        "short": 352,
+        "lees": 584,
+        "short": 353,
         "luchtig": 90
       },
       "actualPositions": {
-        "lees": 581,
-        "short": 351,
+        "lees": 584,
+        "short": 353,
         "luchtig": 90
       }
     },
@@ -53629,11 +53920,11 @@ window.TOP_ARTICLE_PRIORITY = {
         "social-studies"
       ],
       "positions": {
-        "lees": 377,
+        "lees": 378,
         "social-studies": 266
       },
       "actualPositions": {
-        "lees": 377,
+        "lees": 378,
         "social-studies": 266
       }
     },
@@ -53672,12 +53963,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 1265,
-        "short": 754
+        "lees": 1271,
+        "short": 757
       },
       "actualPositions": {
-        "lees": 1259,
-        "short": 750
+        "lees": 1271,
+        "short": 757
       }
     },
     "01ksdsnsw2mbeb6y7y17ghhey9": {
@@ -53754,10 +54045,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 919
+        "lees": 924
       },
       "actualPositions": {
-        "lees": 917
+        "lees": 924
       }
     },
     "01ksdgm26rq58wtjgaqg75tyfv": {
@@ -53792,10 +54083,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 1369
+        "lees": 1375
       },
       "actualPositions": {
-        "lees": 1363
+        "lees": 1375
       }
     },
     "01ksc75pt8qjpzxtda00x3dba8": {
@@ -53888,13 +54179,13 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 701,
-        "short": 407,
+        "lees": 704,
+        "short": 408,
         "luchtig": 126
       },
       "actualPositions": {
-        "lees": 700,
-        "short": 406,
+        "lees": 704,
+        "short": 408,
         "luchtig": 126
       }
     },
@@ -53933,12 +54224,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 1264,
+        "lees": 1270,
         "luchtig": 279
       },
       "actualPositions": {
-        "lees": 1258,
-        "luchtig": 276
+        "lees": 1270,
+        "luchtig": 279
       }
     },
     "01ksa4rg8aaab5rf5v3x3xd1mb": {
@@ -53982,16 +54273,16 @@ window.TOP_ARTICLE_PRIORITY = {
         "social-studies"
       ],
       "positions": {
-        "lees": 700,
-        "short": 406,
+        "lees": 703,
+        "short": 407,
         "luchtig": 125,
-        "social-studies": 468
+        "social-studies": 470
       },
       "actualPositions": {
-        "lees": 699,
-        "short": 405,
+        "lees": 703,
+        "short": 407,
         "luchtig": 125,
-        "social-studies": 467
+        "social-studies": 470
       }
     },
     "01ks96dy2nfby7cyd152ev2a9k": {
@@ -54076,10 +54367,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 1368
+        "lees": 1374
       },
       "actualPositions": {
-        "lees": 1362
+        "lees": 1374
       }
     },
     "01ks7vbkd0mgft31fpf06jbv90": {
@@ -54126,22 +54417,22 @@ window.TOP_ARTICLE_PRIORITY = {
         "social-studies"
       ],
       "positions": {
-        "lees": 918,
+        "lees": 923,
         "dutch": 35,
-        "short": 584,
+        "short": 587,
         "short-dutch": 23,
         "luchtig": 187,
         "luchtig-nederlands": 9,
-        "social-studies": 553
+        "social-studies": 555
       },
       "actualPositions": {
-        "lees": 916,
+        "lees": 923,
         "dutch": 35,
-        "short": 582,
+        "short": 587,
         "short-dutch": 23,
         "luchtig": 187,
         "luchtig-nederlands": 9,
-        "social-studies": 552
+        "social-studies": 555
       }
     },
     "01ks5wkeam3nzf67r9bh537enm": {
@@ -54181,11 +54472,11 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 917,
+        "lees": 922,
         "luchtig": 186
       },
       "actualPositions": {
-        "lees": 915,
+        "lees": 922,
         "luchtig": 186
       }
     },
@@ -54227,14 +54518,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "social-studies"
       ],
       "positions": {
-        "lees": 1055,
-        "short": 605,
-        "social-studies": 589
+        "lees": 1060,
+        "short": 608,
+        "social-studies": 591
       },
       "actualPositions": {
-        "lees": 1052,
-        "short": 603,
-        "social-studies": 588
+        "lees": 1060,
+        "short": 608,
+        "social-studies": 591
       }
     },
     "01ks3b1323hmp09eaygeqsbjrk": {
@@ -54275,14 +54566,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 1135,
-        "short": 661,
+        "lees": 1140,
+        "short": 664,
         "luchtig": 242
       },
       "actualPositions": {
-        "lees": 1132,
-        "short": 659,
-        "luchtig": 241
+        "lees": 1140,
+        "short": 664,
+        "luchtig": 242
       }
     },
     "01ks306x1mtfw67yhggdkdwhbx": {
@@ -54322,11 +54613,11 @@ window.TOP_ARTICLE_PRIORITY = {
         "social-studies"
       ],
       "positions": {
-        "lees": 376,
+        "lees": 377,
         "social-studies": 265
       },
       "actualPositions": {
-        "lees": 376,
+        "lees": 377,
         "social-studies": 265
       }
     },
@@ -54370,13 +54661,13 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 699,
-        "short": 405,
+        "lees": 702,
+        "short": 406,
         "luchtig": 124
       },
       "actualPositions": {
-        "lees": 698,
-        "short": 404,
+        "lees": 702,
+        "short": 406,
         "luchtig": 124
       }
     },
@@ -54417,11 +54708,11 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 916,
+        "lees": 921,
         "luchtig": 185
       },
       "actualPositions": {
-        "lees": 914,
+        "lees": 921,
         "luchtig": 185
       }
     },
@@ -54510,14 +54801,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 1388,
-        "short": 827,
+        "lees": 1394,
+        "short": 830,
         "luchtig": 337
       },
       "actualPositions": {
-        "lees": 1382,
-        "short": 823,
-        "luchtig": 334
+        "lees": 1394,
+        "short": 830,
+        "luchtig": 337
       }
     },
     "01ks0epa8kspp83kh75k75rxss": {
@@ -54560,13 +54851,13 @@ window.TOP_ARTICLE_PRIORITY = {
         "social-studies"
       ],
       "positions": {
-        "lees": 375,
-        "short": 257,
+        "lees": 376,
+        "short": 258,
         "social-studies": 264
       },
       "actualPositions": {
-        "lees": 375,
-        "short": 257,
+        "lees": 376,
+        "short": 258,
         "social-studies": 264
       }
     },
@@ -54607,12 +54898,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "social-studies"
       ],
       "positions": {
-        "lees": 915,
-        "social-studies": 552
+        "lees": 920,
+        "social-studies": 554
       },
       "actualPositions": {
-        "lees": 913,
-        "social-studies": 551
+        "lees": 920,
+        "social-studies": 554
       }
     },
     "01krtrt7kmjn4w5c51genbrkzk": {
@@ -54651,10 +54942,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 1054
+        "lees": 1059
       },
       "actualPositions": {
-        "lees": 1051
+        "lees": 1059
       }
     },
     "01krtrc68m499tqp0qe471vq9c": {
@@ -54697,13 +54988,13 @@ window.TOP_ARTICLE_PRIORITY = {
         "social-studies"
       ],
       "positions": {
-        "lees": 374,
-        "short": 256,
+        "lees": 375,
+        "short": 257,
         "social-studies": 263
       },
       "actualPositions": {
-        "lees": 374,
-        "short": 256,
+        "lees": 375,
+        "short": 257,
         "social-studies": 263
       }
     },
@@ -54795,14 +55086,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "social-studies"
       ],
       "positions": {
-        "lees": 581,
-        "short": 351,
-        "social-studies": 406
+        "lees": 583,
+        "short": 352,
+        "social-studies": 407
       },
       "actualPositions": {
-        "lees": 580,
-        "short": 350,
-        "social-studies": 405
+        "lees": 583,
+        "short": 352,
+        "social-studies": 407
       }
     },
     "01krtfz54rb8r6bs4x84h6sdhs": {
@@ -54845,13 +55136,13 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 914,
-        "short": 583,
+        "lees": 919,
+        "short": 586,
         "luchtig": 184
       },
       "actualPositions": {
-        "lees": 912,
-        "short": 581,
+        "lees": 919,
+        "short": 586,
         "luchtig": 184
       }
     },
@@ -54892,12 +55183,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 1134,
-        "short": 660
+        "lees": 1139,
+        "short": 663
       },
       "actualPositions": {
-        "lees": 1131,
-        "short": 658
+        "lees": 1139,
+        "short": 663
       }
     },
     "01krtexkxa2w3kf6d07h8t2ndr": {
@@ -54993,14 +55284,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "social-studies"
       ],
       "positions": {
-        "lees": 698,
-        "short": 404,
-        "social-studies": 467
+        "lees": 701,
+        "short": 405,
+        "social-studies": 469
       },
       "actualPositions": {
-        "lees": 697,
-        "short": 403,
-        "social-studies": 466
+        "lees": 701,
+        "short": 405,
+        "social-studies": 469
       }
     },
     "01krt95bsf7mgc928phr833z7r": {
@@ -55039,10 +55330,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 580
+        "lees": 582
       },
       "actualPositions": {
-        "lees": 579
+        "lees": 582
       }
     },
     "01krt94dn0eh8859xw7s0t2vgm": {
@@ -55083,10 +55374,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 579
+        "lees": 581
       },
       "actualPositions": {
-        "lees": 578
+        "lees": 581
       }
     },
     "01krt93n5eyfjbk9sbrygpdvy2": {
@@ -55126,12 +55417,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 1133,
-        "short": 659
+        "lees": 1138,
+        "short": 662
       },
       "actualPositions": {
-        "lees": 1130,
-        "short": 657
+        "lees": 1138,
+        "short": 662
       }
     },
     "01krt8npt3e31xxm22d0stjbbp": {
@@ -55172,10 +55463,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 913
+        "lees": 918
       },
       "actualPositions": {
-        "lees": 911
+        "lees": 918
       }
     },
     "01krqmh4tqphysje012p59hxec": {
@@ -55218,13 +55509,13 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 697,
-        "short": 403,
+        "lees": 700,
+        "short": 404,
         "luchtig": 123
       },
       "actualPositions": {
-        "lees": 696,
-        "short": 402,
+        "lees": 700,
+        "short": 404,
         "luchtig": 123
       }
     },
@@ -55309,10 +55600,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 912
+        "lees": 917
       },
       "actualPositions": {
-        "lees": 910
+        "lees": 917
       }
     },
     "01krnyr9cxy0rhqzt148zy5p99": {
@@ -55356,16 +55647,16 @@ window.TOP_ARTICLE_PRIORITY = {
         "social-studies"
       ],
       "positions": {
-        "lees": 696,
-        "short": 402,
+        "lees": 699,
+        "short": 403,
         "luchtig": 122,
-        "social-studies": 466
+        "social-studies": 468
       },
       "actualPositions": {
-        "lees": 695,
-        "short": 401,
+        "lees": 699,
+        "short": 403,
         "luchtig": 122,
-        "social-studies": 465
+        "social-studies": 468
       }
     },
     "01krnyk5tprj87papxsrwn6rr6": {
@@ -55451,14 +55742,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "social-studies"
       ],
       "positions": {
-        "lees": 911,
+        "lees": 916,
         "luchtig": 183,
-        "social-studies": 551
+        "social-studies": 553
       },
       "actualPositions": {
-        "lees": 909,
+        "lees": 916,
         "luchtig": 183,
-        "social-studies": 550
+        "social-studies": 553
       }
     },
     "01krn89rppb35h90y58egserkm": {
@@ -55498,12 +55789,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 578,
-        "short": 350
+        "lees": 580,
+        "short": 351
       },
       "actualPositions": {
-        "lees": 577,
-        "short": 349
+        "lees": 580,
+        "short": 351
       }
     },
     "01krn89pg8ygg43xyqr4b5fzeq": {
@@ -55543,12 +55834,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "social-studies"
       ],
       "positions": {
-        "lees": 910,
-        "social-studies": 550
+        "lees": 915,
+        "social-studies": 552
       },
       "actualPositions": {
-        "lees": 908,
-        "social-studies": 549
+        "lees": 915,
+        "social-studies": 552
       }
     },
     "01krn89n78cs05f51mt1ygjnpg": {
@@ -55583,10 +55874,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 1263
+        "lees": 1269
       },
       "actualPositions": {
-        "lees": 1257
+        "lees": 1269
       }
     },
     "01krn7wk7s2g93zw72g9ay47xs": {
@@ -55626,11 +55917,11 @@ window.TOP_ARTICLE_PRIORITY = {
         "social-studies"
       ],
       "positions": {
-        "lees": 373,
+        "lees": 374,
         "social-studies": 262
       },
       "actualPositions": {
-        "lees": 373,
+        "lees": 374,
         "social-studies": 262
       }
     },
@@ -55716,11 +56007,11 @@ window.TOP_ARTICLE_PRIORITY = {
         "software-development"
       ],
       "positions": {
-        "lees": 1200,
+        "lees": 1206,
         "software-development": 110
       },
       "actualPositions": {
-        "lees": 1195,
+        "lees": 1206,
         "software-development": 110
       }
     },
@@ -55803,11 +56094,11 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 372,
+        "lees": 373,
         "luchtig": 62
       },
       "actualPositions": {
-        "lees": 372,
+        "lees": 373,
         "luchtig": 62
       }
     },
@@ -55895,11 +56186,11 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 908,
+        "lees": 913,
         "luchtig": 181
       },
       "actualPositions": {
-        "lees": 906,
+        "lees": 913,
         "luchtig": 181
       }
     },
@@ -55988,10 +56279,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 907
+        "lees": 912
       },
       "actualPositions": {
-        "lees": 905
+        "lees": 912
       }
     },
     "01krc4rtfkcpwmtkkf10kqqeen": {
@@ -56028,10 +56319,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 1199
+        "lees": 1205
       },
       "actualPositions": {
-        "lees": 1194
+        "lees": 1205
       }
     },
     "01krbezjtx0zph0kpthrse5kr3": {
@@ -56070,10 +56361,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 371
+        "lees": 372
       },
       "actualPositions": {
-        "lees": 371
+        "lees": 372
       }
     },
     "01krand4e1q4d32afr5ntawm7j": {
@@ -56113,11 +56404,11 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 906,
+        "lees": 911,
         "luchtig": 180
       },
       "actualPositions": {
-        "lees": 904,
+        "lees": 911,
         "luchtig": 180
       }
     },
@@ -56156,12 +56447,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 1262,
-        "short": 753
+        "lees": 1268,
+        "short": 756
       },
       "actualPositions": {
-        "lees": 1256,
-        "short": 749
+        "lees": 1268,
+        "short": 756
       }
     },
     "01kr407cqy79xnqva0edrx5kj8": {
@@ -56331,10 +56622,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 1367
+        "lees": 1373
       },
       "actualPositions": {
-        "lees": 1361
+        "lees": 1373
       }
     },
     "01kqy8wyp8f7z6nqcby6ajbnm4": {
@@ -56377,13 +56668,13 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 695,
-        "short": 401,
+        "lees": 698,
+        "short": 402,
         "luchtig": 121
       },
       "actualPositions": {
-        "lees": 694,
-        "short": 400,
+        "lees": 698,
+        "short": 402,
         "luchtig": 121
       }
     },
@@ -56517,10 +56808,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 577
+        "lees": 579
       },
       "actualPositions": {
-        "lees": 576
+        "lees": 579
       }
     },
     "01kqqh8j20ty05q1atmpm9gscn": {
@@ -56561,10 +56852,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 576
+        "lees": 578
       },
       "actualPositions": {
-        "lees": 575
+        "lees": 578
       }
     },
     "01kqqh8gp2nh0d0c859h61yths": {
@@ -56606,11 +56897,11 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 575,
+        "lees": 577,
         "luchtig": 89
       },
       "actualPositions": {
-        "lees": 574,
+        "lees": 577,
         "luchtig": 89
       }
     },
@@ -56650,10 +56941,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 370
+        "lees": 371
       },
       "actualPositions": {
-        "lees": 370
+        "lees": 371
       }
     },
     "01kqn2zjmevdr865h4ah7q46ca": {
@@ -56732,14 +57023,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 1327,
-        "short": 781,
+        "lees": 1333,
+        "short": 784,
         "luchtig": 298
       },
       "actualPositions": {
-        "lees": 1321,
-        "short": 777,
-        "luchtig": 295
+        "lees": 1333,
+        "short": 784,
+        "luchtig": 298
       }
     },
     "01kqj7zfv4pjw25bctmdrswe18": {
@@ -56783,11 +57074,11 @@ window.TOP_ARTICLE_PRIORITY = {
         "dutch"
       ],
       "positions": {
-        "lees": 694,
+        "lees": 697,
         "dutch": 31
       },
       "actualPositions": {
-        "lees": 693,
+        "lees": 697,
         "dutch": 31
       }
     },
@@ -56828,11 +57119,11 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 1035,
+        "lees": 1040,
         "luchtig": 213
       },
       "actualPositions": {
-        "lees": 1033,
+        "lees": 1040,
         "luchtig": 213
       }
     },
@@ -56880,18 +57171,18 @@ window.TOP_ARTICLE_PRIORITY = {
         "social-studies"
       ],
       "positions": {
-        "lees": 574,
+        "lees": 576,
         "dutch": 18,
-        "short": 349,
+        "short": 350,
         "short-dutch": 14,
-        "social-studies": 405
+        "social-studies": 406
       },
       "actualPositions": {
-        "lees": 573,
+        "lees": 576,
         "dutch": 18,
-        "short": 348,
+        "short": 350,
         "short-dutch": 14,
-        "social-studies": 404
+        "social-studies": 406
       }
     },
     "01kqfrh21ph0xe1wbqw4y4zwsf": {
@@ -56927,12 +57218,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 1366,
+        "lees": 1372,
         "luchtig": 323
       },
       "actualPositions": {
-        "lees": 1360,
-        "luchtig": 320
+        "lees": 1372,
+        "luchtig": 323
       }
     },
     "01kqfhrjrm2xyjtzq9g9p8sdvp": {
@@ -56977,16 +57268,16 @@ window.TOP_ARTICLE_PRIORITY = {
         "social-studies"
       ],
       "positions": {
-        "lees": 369,
+        "lees": 370,
         "dutch": 10,
-        "short": 255,
+        "short": 256,
         "short-dutch": 7,
         "social-studies": 261
       },
       "actualPositions": {
-        "lees": 369,
+        "lees": 370,
         "dutch": 10,
-        "short": 255,
+        "short": 256,
         "short-dutch": 7,
         "social-studies": 261
       }
@@ -57026,12 +57317,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 1198,
+        "lees": 1204,
         "luchtig": 262
       },
       "actualPositions": {
-        "lees": 1193,
-        "luchtig": 260
+        "lees": 1204,
+        "luchtig": 262
       }
     },
     "01kptngaeqvkwcgsrq7y4c6y80": {
@@ -57069,12 +57360,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 1326,
-        "short": 780
+        "lees": 1332,
+        "short": 783
       },
       "actualPositions": {
-        "lees": 1320,
-        "short": 776
+        "lees": 1332,
+        "short": 783
       }
     },
     "01kptnavtmxc08pexmv6yxmavz": {
@@ -57112,12 +57403,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 1325,
-        "short": 779
+        "lees": 1331,
+        "short": 782
       },
       "actualPositions": {
-        "lees": 1319,
-        "short": 775
+        "lees": 1331,
+        "short": 782
       }
     },
     "01kpe68f3bbm3ntfqf6t3dy7z9": {
@@ -57156,10 +57447,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 904
+        "lees": 909
       },
       "actualPositions": {
-        "lees": 902
+        "lees": 909
       }
     },
     "01kpb376s2jb8650wvd5n8mszj": {
@@ -57199,12 +57490,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 1132,
-        "short": 658
+        "lees": 1137,
+        "short": 661
       },
       "actualPositions": {
-        "lees": 1129,
-        "short": 656
+        "lees": 1137,
+        "short": 661
       }
     },
     "01kp98yfeyxkzf3j80d3mzdprn": {
@@ -57295,10 +57586,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 903
+        "lees": 908
       },
       "actualPositions": {
-        "lees": 901
+        "lees": 908
       }
     },
     "01kp2j39t59t9wy3bcs6m4q3c0": {
@@ -57386,12 +57677,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 693,
-        "short": 400
+        "lees": 696,
+        "short": 401
       },
       "actualPositions": {
-        "lees": 692,
-        "short": 399
+        "lees": 696,
+        "short": 401
       }
     },
     "01knpm0f55scn4zw9p43g7aw7c": {
@@ -57430,10 +57721,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 368
+        "lees": 369
       },
       "actualPositions": {
-        "lees": 368
+        "lees": 369
       }
     },
     "01knpkrv3w8wsbhpd6qs67fkd1": {
@@ -57520,10 +57811,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 1053
+        "lees": 1058
       },
       "actualPositions": {
-        "lees": 1050
+        "lees": 1058
       }
     },
     "01knefpm3ae2ew1jrq9twtjc1w": {
@@ -57566,13 +57857,13 @@ window.TOP_ARTICLE_PRIORITY = {
         "software-development"
       ],
       "positions": {
-        "lees": 902,
-        "short": 582,
+        "lees": 907,
+        "short": 585,
         "software-development": 64
       },
       "actualPositions": {
-        "lees": 900,
-        "short": 580,
+        "lees": 907,
+        "short": 585,
         "software-development": 64
       }
     },
@@ -57655,11 +57946,11 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 573,
+        "lees": 575,
         "luchtig": 88
       },
       "actualPositions": {
-        "lees": 572,
+        "lees": 575,
         "luchtig": 88
       }
     },
@@ -57703,13 +57994,13 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 367,
-        "short": 254,
+        "lees": 368,
+        "short": 255,
         "luchtig": 61
       },
       "actualPositions": {
-        "lees": 367,
-        "short": 254,
+        "lees": 368,
+        "short": 255,
         "luchtig": 61
       }
     },
@@ -57800,13 +58091,13 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 366,
-        "short": 253,
+        "lees": 367,
+        "short": 254,
         "luchtig": 60
       },
       "actualPositions": {
-        "lees": 366,
-        "short": 253,
+        "lees": 367,
+        "short": 254,
         "luchtig": 60
       }
     },
@@ -57896,10 +58187,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 365
+        "lees": 366
       },
       "actualPositions": {
-        "lees": 365
+        "lees": 366
       }
     },
     "01kmmsmygjapx4f6gb2bhxds2j": {
@@ -57979,10 +58270,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 1365
+        "lees": 1371
       },
       "actualPositions": {
-        "lees": 1359
+        "lees": 1371
       }
     },
     "01kmjjs1nc96hg1tq02gmgh657": {
@@ -58022,11 +58313,11 @@ window.TOP_ARTICLE_PRIORITY = {
         "software-development"
       ],
       "positions": {
-        "lees": 572,
+        "lees": 574,
         "software-development": 47
       },
       "actualPositions": {
-        "lees": 571,
+        "lees": 574,
         "software-development": 47
       }
     },
@@ -58162,14 +58453,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "social-studies"
       ],
       "positions": {
-        "lees": 571,
+        "lees": 573,
         "scrum": 188,
-        "social-studies": 404
+        "social-studies": 405
       },
       "actualPositions": {
-        "lees": 570,
+        "lees": 573,
         "scrum": 188,
-        "social-studies": 403
+        "social-studies": 405
       }
     },
     "01kmbp17grppjmpxqfsq4z3zy7": {
@@ -58303,10 +58594,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 901
+        "lees": 906
       },
       "actualPositions": {
-        "lees": 899
+        "lees": 906
       }
     },
     "01km28wdaxt1qcw5p2c2nfd2zt": {
@@ -58353,18 +58644,18 @@ window.TOP_ARTICLE_PRIORITY = {
         "social-studies"
       ],
       "positions": {
-        "lees": 570,
+        "lees": 572,
         "dutch": 17,
-        "short": 348,
+        "short": 349,
         "short-dutch": 13,
-        "social-studies": 403
+        "social-studies": 404
       },
       "actualPositions": {
-        "lees": 569,
+        "lees": 572,
         "dutch": 17,
-        "short": 347,
+        "short": 349,
         "short-dutch": 13,
-        "social-studies": 402
+        "social-studies": 404
       }
     },
     "01km0ha2tggzmd2y5yjpqbycj5": {
@@ -58450,10 +58741,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 905
+        "lees": 910
       },
       "actualPositions": {
-        "lees": 903
+        "lees": 910
       }
     },
     "01kksm80zx4vk4cskkm9r0nddv": {
@@ -58530,10 +58821,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 900
+        "lees": 905
       },
       "actualPositions": {
-        "lees": 898
+        "lees": 905
       }
     },
     "01kkka1pgqxbayzs51vm34np4b": {
@@ -58666,11 +58957,11 @@ window.TOP_ARTICLE_PRIORITY = {
         "social-studies"
       ],
       "positions": {
-        "lees": 363,
+        "lees": 364,
         "social-studies": 260
       },
       "actualPositions": {
-        "lees": 363,
+        "lees": 364,
         "social-studies": 260
       }
     },
@@ -58713,16 +59004,16 @@ window.TOP_ARTICLE_PRIORITY = {
         "social-studies"
       ],
       "positions": {
-        "lees": 569,
-        "short": 347,
+        "lees": 571,
+        "short": 348,
         "luchtig": 87,
-        "social-studies": 402
+        "social-studies": 403
       },
       "actualPositions": {
-        "lees": 568,
-        "short": 346,
+        "lees": 571,
+        "short": 348,
         "luchtig": 87,
-        "social-studies": 401
+        "social-studies": 403
       }
     },
     "01kkh0x5pfdsj6615b1gvhghsp": {
@@ -58761,10 +59052,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 568
+        "lees": 570
       },
       "actualPositions": {
-        "lees": 567
+        "lees": 570
       }
     },
     "01kkh0wb88xpy71r3pc97jgpn4": {
@@ -58806,12 +59097,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 364,
-        "short": 252
+        "lees": 365,
+        "short": 253
       },
       "actualPositions": {
-        "lees": 364,
-        "short": 252
+        "lees": 365,
+        "short": 253
       }
     },
     "01kkeq8y2jazj0q127exrvve9d": {
@@ -58850,10 +59141,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 567
+        "lees": 569
       },
       "actualPositions": {
-        "lees": 566
+        "lees": 569
       }
     },
     "01kkejgakdb8n1a7k1bketbfm5": {
@@ -58937,12 +59228,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 362,
-        "short": 251
+        "lees": 363,
+        "short": 252
       },
       "actualPositions": {
-        "lees": 362,
-        "short": 251
+        "lees": 363,
+        "short": 252
       }
     },
     "01kk7n7kz1yznwg3mx0jgvjk6d": {
@@ -59025,14 +59316,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "social-studies"
       ],
       "positions": {
-        "lees": 692,
-        "short": 399,
-        "social-studies": 465
+        "lees": 695,
+        "short": 400,
+        "social-studies": 467
       },
       "actualPositions": {
-        "lees": 691,
-        "short": 398,
-        "social-studies": 464
+        "lees": 695,
+        "short": 400,
+        "social-studies": 467
       }
     },
     "01kjwprxsc8gb0sekcqdn4pqyg": {
@@ -59077,18 +59368,18 @@ window.TOP_ARTICLE_PRIORITY = {
         "social-studies"
       ],
       "positions": {
-        "lees": 566,
+        "lees": 568,
         "dutch": 16,
-        "short": 346,
+        "short": 347,
         "short-dutch": 12,
-        "social-studies": 401
+        "social-studies": 402
       },
       "actualPositions": {
-        "lees": 565,
+        "lees": 568,
         "dutch": 16,
-        "short": 345,
+        "short": 347,
         "short-dutch": 12,
-        "social-studies": 400
+        "social-studies": 402
       }
     },
     "01kjqj72ymswta55e2gs6ga8he": {
@@ -59127,10 +59418,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 361
+        "lees": 362
       },
       "actualPositions": {
-        "lees": 361
+        "lees": 362
       }
     },
     "01kjnmtnpc5j63aqgs7g891rfh": {
@@ -59171,14 +59462,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "social-studies"
       ],
       "positions": {
-        "lees": 691,
-        "short": 398,
-        "social-studies": 464
+        "lees": 694,
+        "short": 399,
+        "social-studies": 466
       },
       "actualPositions": {
-        "lees": 690,
-        "short": 397,
-        "social-studies": 463
+        "lees": 694,
+        "short": 399,
+        "social-studies": 466
       }
     },
     "01kjnmsk3mmpayj96rpj8s8fv4": {
@@ -59260,10 +59551,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 360
+        "lees": 361
       },
       "actualPositions": {
-        "lees": 360
+        "lees": 361
       }
     },
     "01kjdxv3b3wvvaf9cwpsthvwwe": {
@@ -59348,12 +59639,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 1131,
-        "short": 657
+        "lees": 1136,
+        "short": 660
       },
       "actualPositions": {
-        "lees": 1128,
-        "short": 655
+        "lees": 1136,
+        "short": 660
       }
     },
     "01kj5a1mnca55881qyj3jzm64b": {
@@ -59394,12 +59685,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "social-studies"
       ],
       "positions": {
-        "lees": 359,
+        "lees": 360,
         "luchtig": 59,
         "social-studies": 259
       },
       "actualPositions": {
-        "lees": 359,
+        "lees": 360,
         "luchtig": 59,
         "social-studies": 259
       }
@@ -59490,22 +59781,22 @@ window.TOP_ARTICLE_PRIORITY = {
         "social-studies"
       ],
       "positions": {
-        "lees": 565,
+        "lees": 567,
         "dutch": 15,
-        "short": 345,
+        "short": 346,
         "short-dutch": 11,
         "scrum": 187,
         "software-development": 45,
-        "social-studies": 400
+        "social-studies": 401
       },
       "actualPositions": {
-        "lees": 564,
+        "lees": 567,
         "dutch": 15,
-        "short": 344,
+        "short": 346,
         "short-dutch": 11,
         "scrum": 187,
         "software-development": 45,
-        "social-studies": 399
+        "social-studies": 401
       }
     },
     "01kj58br1h8mzqdgf9ccngjjkv": {
@@ -59552,22 +59843,22 @@ window.TOP_ARTICLE_PRIORITY = {
         "social-studies"
       ],
       "positions": {
-        "lees": 564,
+        "lees": 566,
         "dutch": 14,
-        "short": 344,
+        "short": 345,
         "short-dutch": 10,
         "scrum": 186,
         "software-development": 44,
-        "social-studies": 399
+        "social-studies": 400
       },
       "actualPositions": {
-        "lees": 563,
+        "lees": 566,
         "dutch": 14,
-        "short": 343,
+        "short": 345,
         "short-dutch": 10,
         "scrum": 186,
         "software-development": 44,
-        "social-studies": 398
+        "social-studies": 400
       }
     },
     "01kj585kpp3a99w8fhgx6mvx1v": {
@@ -59614,22 +59905,22 @@ window.TOP_ARTICLE_PRIORITY = {
         "social-studies"
       ],
       "positions": {
-        "lees": 563,
+        "lees": 565,
         "dutch": 13,
-        "short": 343,
+        "short": 344,
         "short-dutch": 9,
         "scrum": 185,
         "software-development": 43,
-        "social-studies": 398
+        "social-studies": 399
       },
       "actualPositions": {
-        "lees": 562,
+        "lees": 565,
         "dutch": 13,
-        "short": 342,
+        "short": 344,
         "short-dutch": 9,
         "scrum": 185,
         "software-development": 43,
-        "social-studies": 397
+        "social-studies": 399
       }
     },
     "01kj3kaytggy0k3qpx32d1mxj4": {
@@ -59670,12 +59961,12 @@ window.TOP_ARTICLE_PRIORITY = {
       "positions": {
         "video": 18,
         "software-development": 55,
-        "social-studies": 463
+        "social-studies": 465
       },
       "actualPositions": {
         "video": 18,
         "software-development": 55,
-        "social-studies": 462
+        "social-studies": 465
       }
     },
     "01kj3kaebxx42ca13fgz6a52fq": {
@@ -59715,11 +60006,11 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 909,
+        "lees": 914,
         "luchtig": 182
       },
       "actualPositions": {
-        "lees": 907,
+        "lees": 914,
         "luchtig": 182
       }
     },
@@ -59808,10 +60099,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 899
+        "lees": 904
       },
       "actualPositions": {
-        "lees": 897
+        "lees": 904
       }
     },
     "01khrd3s7hysvjvgdtsh1jc8ht": {
@@ -59850,10 +60141,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 562
+        "lees": 564
       },
       "actualPositions": {
-        "lees": 561
+        "lees": 564
       }
     },
     "01khr5h2d75yj0yt1v6seck4nt": {
@@ -59940,16 +60231,16 @@ window.TOP_ARTICLE_PRIORITY = {
         "social-studies"
       ],
       "positions": {
-        "lees": 561,
-        "short": 342,
+        "lees": 563,
+        "short": 343,
         "software-development": 42,
-        "social-studies": 397
+        "social-studies": 398
       },
       "actualPositions": {
-        "lees": 560,
-        "short": 341,
+        "lees": 563,
+        "short": 343,
         "software-development": 42,
-        "social-studies": 396
+        "social-studies": 398
       }
     },
     "01khqrhk77ztjy4d5gg6qsvwgr": {
@@ -60033,11 +60324,11 @@ window.TOP_ARTICLE_PRIORITY = {
       ],
       "positions": {
         "video": 30,
-        "social-studies": 604
+        "social-studies": 606
       },
       "actualPositions": {
         "video": 30,
-        "social-studies": 603
+        "social-studies": 606
       }
     },
     "01kh6kbwexs9akdbhhresb5hnd": {
@@ -60076,10 +60367,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 898
+        "lees": 903
       },
       "actualPositions": {
-        "lees": 896
+        "lees": 903
       }
     },
     "01kh225h5t6y7800yd56j6mrkk": {
@@ -60121,16 +60412,16 @@ window.TOP_ARTICLE_PRIORITY = {
         "social-studies"
       ],
       "positions": {
-        "lees": 690,
-        "short": 397,
+        "lees": 693,
+        "short": 398,
         "software-development": 54,
-        "social-studies": 462
+        "social-studies": 464
       },
       "actualPositions": {
-        "lees": 689,
-        "short": 396,
+        "lees": 693,
+        "short": 398,
         "software-development": 54,
-        "social-studies": 461
+        "social-studies": 464
       }
     },
     "01kh21z4cjkvjajn439w2tqwyt": {
@@ -60217,10 +60508,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 560
+        "lees": 562
       },
       "actualPositions": {
-        "lees": 559
+        "lees": 562
       }
     },
     "01kh21heygqzs3nyqp7svzjd6m": {
@@ -60259,10 +60550,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 897
+        "lees": 902
       },
       "actualPositions": {
-        "lees": 895
+        "lees": 902
       }
     },
     "01kh21gbg96keszh9q8c0vcr1y": {
@@ -60297,10 +60588,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 1300
+        "lees": 1306
       },
       "actualPositions": {
-        "lees": 1294
+        "lees": 1306
       }
     },
     "01kh1ypdtsb1f1nafttcy8qdmn": {
@@ -60394,20 +60685,20 @@ window.TOP_ARTICLE_PRIORITY = {
         "software-development"
       ],
       "positions": {
-        "lees": 1324,
+        "lees": 1330,
         "dutch": 46,
-        "short": 778,
+        "short": 781,
         "short-dutch": 33,
         "luchtig": 297,
         "luchtig-nederlands": 13,
         "software-development": 142
       },
       "actualPositions": {
-        "lees": 1318,
+        "lees": 1330,
         "dutch": 46,
-        "short": 774,
+        "short": 781,
         "short-dutch": 33,
-        "luchtig": 294,
+        "luchtig": 297,
         "luchtig-nederlands": 13,
         "software-development": 142
       }
@@ -60508,14 +60799,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 1197,
-        "short": 712,
+        "lees": 1203,
+        "short": 715,
         "luchtig": 261
       },
       "actualPositions": {
-        "lees": 1192,
-        "short": 709,
-        "luchtig": 259
+        "lees": 1203,
+        "short": 715,
+        "luchtig": 261
       }
     },
     "01kgdfpy0f0pts3sax7x38mdqc": {
@@ -60598,7 +60889,7 @@ window.TOP_ARTICLE_PRIORITY = {
       },
       "actualPositions": {
         "video": 29,
-        "luchtig": 235,
+        "luchtig": 236,
         "software-development": 80
       }
     },
@@ -60638,10 +60929,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 559
+        "lees": 561
       },
       "actualPositions": {
-        "lees": 558
+        "lees": 561
       }
     },
     "01kg37pvr9h6wrpn78e1hrq4cv": {
@@ -60682,10 +60973,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 558
+        "lees": 560
       },
       "actualPositions": {
-        "lees": 557
+        "lees": 560
       }
     },
     "01kg2bfknxdbdtasxyva7fdma3": {
@@ -60725,11 +61016,11 @@ window.TOP_ARTICLE_PRIORITY = {
         "social-studies"
       ],
       "positions": {
-        "lees": 358,
+        "lees": 359,
         "social-studies": 258
       },
       "actualPositions": {
-        "lees": 358,
+        "lees": 359,
         "social-studies": 258
       }
     },
@@ -60772,12 +61063,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 689,
-        "short": 396
+        "lees": 692,
+        "short": 397
       },
       "actualPositions": {
-        "lees": 688,
-        "short": 395
+        "lees": 692,
+        "short": 397
       }
     },
     "01kfvhxf0akerxere4ct119fp9": {
@@ -60873,14 +61164,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "social-studies"
       ],
       "positions": {
-        "lees": 357,
-        "short": 250,
+        "lees": 358,
+        "short": 251,
         "luchtig": 58,
         "social-studies": 257
       },
       "actualPositions": {
-        "lees": 357,
-        "short": 250,
+        "lees": 358,
+        "short": 251,
         "luchtig": 58,
         "social-studies": 257
       }
@@ -60921,10 +61212,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 557
+        "lees": 559
       },
       "actualPositions": {
-        "lees": 556
+        "lees": 559
       }
     },
     "01kfb379ht5f8kzb19vmtx28qp": {
@@ -61016,13 +61307,13 @@ window.TOP_ARTICLE_PRIORITY = {
         "software-development"
       ],
       "positions": {
-        "lees": 688,
-        "short": 395,
+        "lees": 691,
+        "short": 396,
         "software-development": 53
       },
       "actualPositions": {
-        "lees": 687,
-        "short": 394,
+        "lees": 691,
+        "short": 396,
         "software-development": 53
       }
     },
@@ -61064,12 +61355,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "social-studies"
       ],
       "positions": {
-        "lees": 356,
+        "lees": 357,
         "luchtig": 57,
         "social-studies": 255
       },
       "actualPositions": {
-        "lees": 356,
+        "lees": 357,
         "luchtig": 57,
         "social-studies": 255
       }
@@ -61169,18 +61460,18 @@ window.TOP_ARTICLE_PRIORITY = {
         "social-studies"
       ],
       "positions": {
-        "lees": 896,
+        "lees": 901,
         "dutch": 34,
-        "short": 581,
+        "short": 584,
         "short-dutch": 22,
-        "social-studies": 549
+        "social-studies": 551
       },
       "actualPositions": {
-        "lees": 894,
+        "lees": 901,
         "dutch": 34,
-        "short": 579,
+        "short": 584,
         "short-dutch": 22,
-        "social-studies": 548
+        "social-studies": 551
       }
     },
     "01kf0p1x4zzc3hqf55wqyngafr": {
@@ -61270,11 +61561,11 @@ window.TOP_ARTICLE_PRIORITY = {
         "software-development"
       ],
       "positions": {
-        "lees": 895,
+        "lees": 900,
         "software-development": 63
       },
       "actualPositions": {
-        "lees": 893,
+        "lees": 900,
         "software-development": 63
       }
     },
@@ -61357,11 +61648,11 @@ window.TOP_ARTICLE_PRIORITY = {
         "social-studies"
       ],
       "positions": {
-        "lees": 355,
+        "lees": 356,
         "social-studies": 254
       },
       "actualPositions": {
-        "lees": 355,
+        "lees": 356,
         "social-studies": 254
       }
     },
@@ -61404,12 +61695,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "social-studies"
       ],
       "positions": {
-        "short": 341,
-        "social-studies": 396
+        "short": 342,
+        "social-studies": 397
       },
       "actualPositions": {
-        "short": 340,
-        "social-studies": 395
+        "short": 342,
+        "social-studies": 397
       }
     },
     "01keht8pd19y2k42bjheepkytv": {
@@ -61448,10 +61739,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 894
+        "lees": 899
       },
       "actualPositions": {
-        "lees": 892
+        "lees": 899
       }
     },
     "01keht5gn85sygznbg0h2ngzsm": {
@@ -61492,13 +61783,13 @@ window.TOP_ARTICLE_PRIORITY = {
         "software-development"
       ],
       "positions": {
-        "lees": 1130,
-        "short": 656,
+        "lees": 1135,
+        "short": 659,
         "software-development": 82
       },
       "actualPositions": {
-        "lees": 1127,
-        "short": 654,
+        "lees": 1135,
+        "short": 659,
         "software-development": 82
       }
     },
@@ -61541,12 +61832,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 687,
-        "short": 394
+        "lees": 690,
+        "short": 395
       },
       "actualPositions": {
-        "lees": 686,
-        "short": 393
+        "lees": 690,
+        "short": 395
       }
     },
     "01kec58fp6ep87fc5qnf8swc20": {
@@ -61586,11 +61877,11 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 556,
+        "lees": 558,
         "luchtig": 86
       },
       "actualPositions": {
-        "lees": 555,
+        "lees": 558,
         "luchtig": 86
       }
     },
@@ -61768,12 +62059,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 1323,
-        "short": 777
+        "lees": 1329,
+        "short": 780
       },
       "actualPositions": {
-        "lees": 1317,
-        "short": 773
+        "lees": 1329,
+        "short": 780
       }
     },
     "01kdxv1h9j3retf2p61qp4p125": {
@@ -61812,10 +62103,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 893
+        "lees": 898
       },
       "actualPositions": {
-        "lees": 891
+        "lees": 898
       }
     },
     "01kdp19zakzsazvc2nsjwq2xd0": {
@@ -61961,10 +62252,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 354
+        "lees": 355
       },
       "actualPositions": {
-        "lees": 354
+        "lees": 355
       }
     },
     "01kdanxpg3e3pp8stwtmfr7p79": {
@@ -62008,12 +62299,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 353,
-        "short": 249
+        "lees": 354,
+        "short": 250
       },
       "actualPositions": {
-        "lees": 353,
-        "short": 249
+        "lees": 354,
+        "short": 250
       }
     },
     "01kd66gdx0xhsnk7nxcsvfcgpa": {
@@ -62057,11 +62348,11 @@ window.TOP_ARTICLE_PRIORITY = {
         "dutch"
       ],
       "positions": {
-        "lees": 686,
+        "lees": 689,
         "dutch": 30
       },
       "actualPositions": {
-        "lees": 685,
+        "lees": 689,
         "dutch": 30
       }
     },
@@ -62148,14 +62439,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 1052,
-        "short": 604,
+        "lees": 1057,
+        "short": 607,
         "luchtig": 216
       },
       "actualPositions": {
-        "lees": 1049,
-        "short": 602,
-        "luchtig": 215
+        "lees": 1057,
+        "short": 607,
+        "luchtig": 216
       }
     },
     "01kd1cbjc3rzw7es7ef6rd6w6j": {
@@ -62419,13 +62710,13 @@ window.TOP_ARTICLE_PRIORITY = {
         "software-development"
       ],
       "positions": {
-        "short": 841,
+        "short": 844,
         "luchtig": 349,
         "software-development": 148
       },
       "actualPositions": {
-        "short": 837,
-        "luchtig": 346,
+        "short": 844,
+        "luchtig": 349,
         "software-development": 148
       }
     },
@@ -62511,13 +62802,13 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 352,
-        "short": 248,
+        "lees": 353,
+        "short": 249,
         "luchtig": 56
       },
       "actualPositions": {
-        "lees": 352,
-        "short": 248,
+        "lees": 353,
+        "short": 249,
         "luchtig": 56
       }
     },
@@ -62694,13 +62985,13 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 685,
-        "short": 393,
+        "lees": 688,
+        "short": 394,
         "luchtig": 120
       },
       "actualPositions": {
-        "lees": 684,
-        "short": 392,
+        "lees": 688,
+        "short": 394,
         "luchtig": 120
       }
     },
@@ -62746,14 +63037,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "social-studies"
       ],
       "positions": {
-        "lees": 684,
-        "short": 392,
-        "social-studies": 461
+        "lees": 687,
+        "short": 393,
+        "social-studies": 463
       },
       "actualPositions": {
-        "lees": 683,
-        "short": 391,
-        "social-studies": 460
+        "lees": 687,
+        "short": 393,
+        "social-studies": 463
       }
     },
     "01kc76cxv4wkv0smbz1k9y6qxs": {
@@ -62795,12 +63086,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 351,
-        "short": 247
+        "lees": 352,
+        "short": 248
       },
       "actualPositions": {
-        "lees": 351,
-        "short": 247
+        "lees": 352,
+        "short": 248
       }
     },
     "01kc53cvnp2fqe09v8vmbym5mx": {
@@ -62843,13 +63134,13 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 350,
-        "short": 246,
+        "lees": 351,
+        "short": 247,
         "luchtig": 55
       },
       "actualPositions": {
-        "lees": 350,
-        "short": 246,
+        "lees": 351,
+        "short": 247,
         "luchtig": 55
       }
     },
@@ -62893,13 +63184,13 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 683,
-        "short": 391,
+        "lees": 686,
+        "short": 392,
         "luchtig": 119
       },
       "actualPositions": {
-        "lees": 682,
-        "short": 390,
+        "lees": 686,
+        "short": 392,
         "luchtig": 119
       }
     },
@@ -63102,10 +63393,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 1311
+        "lees": 1317
       },
       "actualPositions": {
-        "lees": 1305
+        "lees": 1317
       }
     },
     "01kbdw3w0vrspnk8yzrfxypq51": {
@@ -63148,13 +63439,13 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 405,
-        "short": 279,
+        "lees": 406,
+        "short": 280,
         "luchtig": 66
       },
       "actualPositions": {
-        "lees": 405,
-        "short": 279,
+        "lees": 406,
+        "short": 280,
         "luchtig": 66
       }
     },
@@ -63342,12 +63633,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "social-studies"
       ],
       "positions": {
-        "lees": 349,
+        "lees": 350,
         "software-development": 28,
         "social-studies": 250
       },
       "actualPositions": {
-        "lees": 349,
+        "lees": 350,
         "software-development": 28,
         "social-studies": 250
       }
@@ -63433,10 +63724,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 555
+        "lees": 557
       },
       "actualPositions": {
-        "lees": 554
+        "lees": 557
       }
     },
     "01kasc4pne8zck7kwatefv1jxq": {
@@ -63569,13 +63860,13 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 682,
-        "short": 390,
+        "lees": 685,
+        "short": 391,
         "luchtig": 118
       },
       "actualPositions": {
-        "lees": 681,
-        "short": 389,
+        "lees": 685,
+        "short": 391,
         "luchtig": 118
       }
     },
@@ -63619,13 +63910,13 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 681,
-        "short": 389,
+        "lees": 684,
+        "short": 390,
         "luchtig": 117
       },
       "actualPositions": {
-        "lees": 680,
-        "short": 388,
+        "lees": 684,
+        "short": 390,
         "luchtig": 117
       }
     },
@@ -63715,11 +64006,11 @@ window.TOP_ARTICLE_PRIORITY = {
         "dutch"
       ],
       "positions": {
-        "lees": 680,
+        "lees": 683,
         "dutch": 29
       },
       "actualPositions": {
-        "lees": 679,
+        "lees": 683,
         "dutch": 29
       }
     },
@@ -63759,11 +64050,11 @@ window.TOP_ARTICLE_PRIORITY = {
       ],
       "positions": {
         "video": 27,
-        "social-studies": 603
+        "social-studies": 605
       },
       "actualPositions": {
         "video": 27,
-        "social-studies": 602
+        "social-studies": 605
       }
     },
     "01kacg6vhze0snam0cv2cv2feh": {
@@ -63900,12 +64191,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 348,
-        "short": 245
+        "lees": 349,
+        "short": 246
       },
       "actualPositions": {
-        "lees": 348,
-        "short": 245
+        "lees": 349,
+        "short": 246
       }
     },
     "01k9sb94dxvqfb0jptdvr2q6xf": {
@@ -63945,11 +64236,11 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 892,
+        "lees": 897,
         "luchtig": 179
       },
       "actualPositions": {
-        "lees": 890,
+        "lees": 897,
         "luchtig": 179
       }
     },
@@ -63991,13 +64282,13 @@ window.TOP_ARTICLE_PRIORITY = {
         "software-development"
       ],
       "positions": {
-        "lees": 1196,
-        "short": 711,
+        "lees": 1202,
+        "short": 714,
         "software-development": 109
       },
       "actualPositions": {
-        "lees": 1191,
-        "short": 708,
+        "lees": 1202,
+        "short": 714,
         "software-development": 109
       }
     },
@@ -64039,14 +64330,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "social-studies"
       ],
       "positions": {
-        "lees": 1051,
-        "short": 603,
-        "social-studies": 588
+        "lees": 1056,
+        "short": 606,
+        "social-studies": 590
       },
       "actualPositions": {
-        "lees": 1048,
-        "short": 601,
-        "social-studies": 587
+        "lees": 1056,
+        "short": 606,
+        "social-studies": 590
       }
     },
     "01k9p5pa1athkkdm2j2nxfhf26": {
@@ -64086,11 +64377,11 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 347,
+        "lees": 348,
         "luchtig": 53
       },
       "actualPositions": {
-        "lees": 347,
+        "lees": 348,
         "luchtig": 53
       }
     },
@@ -64131,11 +64422,11 @@ window.TOP_ARTICLE_PRIORITY = {
         "social-studies"
       ],
       "positions": {
-        "lees": 346,
+        "lees": 347,
         "social-studies": 249
       },
       "actualPositions": {
-        "lees": 346,
+        "lees": 347,
         "social-studies": 249
       }
     },
@@ -64177,10 +64468,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 891
+        "lees": 896
       },
       "actualPositions": {
-        "lees": 889
+        "lees": 896
       }
     },
     "01k9c2mfzdvrnpxt293kgn3rn8": {
@@ -64261,14 +64552,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 1195,
-        "short": 710,
+        "lees": 1201,
+        "short": 713,
         "luchtig": 260
       },
       "actualPositions": {
-        "lees": 1190,
-        "short": 707,
-        "luchtig": 258
+        "lees": 1201,
+        "short": 713,
+        "luchtig": 260
       }
     },
     "01k9c2jzjpkejt3bc7v3p3p3d0": {
@@ -64307,10 +64598,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 345
+        "lees": 346
       },
       "actualPositions": {
-        "lees": 345
+        "lees": 346
       }
     },
     "01k948t6xdcbnnhr9cdvppa534": {
@@ -64348,12 +64639,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 1142,
-        "short": 668
+        "lees": 1147,
+        "short": 671
       },
       "actualPositions": {
-        "lees": 1139,
-        "short": 666
+        "lees": 1147,
+        "short": 671
       }
     },
     "01k8v9cz0ah2x4qddn265e4cnt": {
@@ -64443,12 +64734,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 1050,
+        "lees": 1055,
         "luchtig": 215
       },
       "actualPositions": {
-        "lees": 1047,
-        "luchtig": 214
+        "lees": 1055,
+        "luchtig": 215
       }
     },
     "01k8jsqj30sen7487tnqabawjb": {
@@ -64491,14 +64782,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "social-studies"
       ],
       "positions": {
-        "lees": 679,
-        "short": 388,
-        "social-studies": 460
+        "lees": 682,
+        "short": 389,
+        "social-studies": 462
       },
       "actualPositions": {
-        "lees": 678,
-        "short": 387,
-        "social-studies": 459
+        "lees": 682,
+        "short": 389,
+        "social-studies": 462
       }
     },
     "01k8jrfbq5yh872a4vene0z9t3": {
@@ -64636,10 +64927,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 1261
+        "lees": 1267
       },
       "actualPositions": {
-        "lees": 1255
+        "lees": 1267
       }
     },
     "01k8b4z89x7bjhpp69rbbemnet": {
@@ -64682,13 +64973,13 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 678,
-        "short": 387,
+        "lees": 681,
+        "short": 388,
         "luchtig": 116
       },
       "actualPositions": {
-        "lees": 677,
-        "short": 386,
+        "lees": 681,
+        "short": 388,
         "luchtig": 116
       }
     },
@@ -64773,11 +65064,11 @@ window.TOP_ARTICLE_PRIORITY = {
         "social-studies"
       ],
       "positions": {
-        "lees": 344,
+        "lees": 345,
         "social-studies": 248
       },
       "actualPositions": {
-        "lees": 344,
+        "lees": 345,
         "social-studies": 248
       }
     },
@@ -64818,11 +65109,11 @@ window.TOP_ARTICLE_PRIORITY = {
         "software-development"
       ],
       "positions": {
-        "lees": 343,
+        "lees": 344,
         "software-development": 27
       },
       "actualPositions": {
-        "lees": 343,
+        "lees": 344,
         "software-development": 27
       }
     },
@@ -64867,13 +65158,13 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig-nederlands"
       ],
       "positions": {
-        "lees": 677,
+        "lees": 680,
         "dutch": 28,
         "luchtig": 115,
         "luchtig-nederlands": 6
       },
       "actualPositions": {
-        "lees": 676,
+        "lees": 680,
         "dutch": 28,
         "luchtig": 115,
         "luchtig-nederlands": 6
@@ -65062,14 +65353,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "social-studies"
       ],
       "positions": {
-        "lees": 676,
-        "short": 386,
-        "social-studies": 459
+        "lees": 679,
+        "short": 387,
+        "social-studies": 461
       },
       "actualPositions": {
-        "lees": 675,
-        "short": 385,
-        "social-studies": 458
+        "lees": 679,
+        "short": 387,
+        "social-studies": 461
       }
     },
     "01k7xjcrnfbky7qznt6cqefmav": {
@@ -65153,12 +65444,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 1364,
+        "lees": 1370,
         "luchtig": 322
       },
       "actualPositions": {
-        "lees": 1358,
-        "luchtig": 319
+        "lees": 1370,
+        "luchtig": 322
       }
     },
     "01k7tw6vrkda5hp5070ra2wqm6": {
@@ -65201,13 +65492,13 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 675,
-        "short": 385,
+        "lees": 678,
+        "short": 386,
         "luchtig": 114
       },
       "actualPositions": {
-        "lees": 674,
-        "short": 384,
+        "lees": 678,
+        "short": 386,
         "luchtig": 114
       }
     },
@@ -65248,11 +65539,11 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 554,
+        "lees": 556,
         "luchtig": 85
       },
       "actualPositions": {
-        "lees": 553,
+        "lees": 556,
         "luchtig": 85
       }
     },
@@ -65292,10 +65583,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 342
+        "lees": 343
       },
       "actualPositions": {
-        "lees": 342
+        "lees": 343
       }
     },
     "01k7rktczvt1p4nx2bqf9gqas2": {
@@ -65477,13 +65768,13 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 341,
-        "short": 244,
+        "lees": 342,
+        "short": 245,
         "luchtig": 52
       },
       "actualPositions": {
-        "lees": 341,
-        "short": 244,
+        "lees": 342,
+        "short": 245,
         "luchtig": 52
       }
     },
@@ -65523,10 +65814,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 553
+        "lees": 555
       },
       "actualPositions": {
-        "lees": 552
+        "lees": 555
       }
     },
     "01k7q03xx8pwem577zgy47b0zk": {
@@ -65568,11 +65859,11 @@ window.TOP_ARTICLE_PRIORITY = {
         "dutch"
       ],
       "positions": {
-        "lees": 674,
+        "lees": 677,
         "dutch": 27
       },
       "actualPositions": {
-        "lees": 673,
+        "lees": 677,
         "dutch": 27
       }
     },
@@ -65615,12 +65906,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 673,
-        "short": 384
+        "lees": 676,
+        "short": 385
       },
       "actualPositions": {
-        "lees": 672,
-        "short": 383
+        "lees": 676,
+        "short": 385
       }
     },
     "01k7pn0mh5xrx35sxe5rxp84qg": {
@@ -65659,10 +65950,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 552
+        "lees": 554
       },
       "actualPositions": {
-        "lees": 551
+        "lees": 554
       }
     },
     "01k7pn0gythp69p15376f659gx": {
@@ -65795,10 +66086,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 890
+        "lees": 895
       },
       "actualPositions": {
-        "lees": 888
+        "lees": 895
       }
     },
     "01k7pmvc94p82aaz3ptdqbyecc": {
@@ -65888,12 +66179,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 672,
-        "short": 383
+        "lees": 675,
+        "short": 384
       },
       "actualPositions": {
-        "lees": 671,
-        "short": 382
+        "lees": 675,
+        "short": 384
       }
     },
     "01k7k3prk0rm6qjzvbp9gyevxz": {
@@ -65935,12 +66226,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 339,
-        "short": 242
+        "lees": 340,
+        "short": 243
       },
       "actualPositions": {
-        "lees": 339,
-        "short": 242
+        "lees": 340,
+        "short": 243
       }
     },
     "01k7j7kfz1ry02n8frp21d6ajm": {
@@ -65978,12 +66269,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 1194,
-        "short": 709
+        "lees": 1200,
+        "short": 712
       },
       "actualPositions": {
-        "lees": 1189,
-        "short": 706
+        "lees": 1200,
+        "short": 712
       }
     },
     "01k7j7kckky4q9rkzk7btj3d04": {
@@ -66025,12 +66316,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 671,
-        "short": 382
+        "lees": 674,
+        "short": 383
       },
       "actualPositions": {
-        "lees": 670,
-        "short": 381
+        "lees": 674,
+        "short": 383
       }
     },
     "01k7j6p8a88r4t4zarr6pqya82": {
@@ -66073,13 +66364,13 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 338,
-        "short": 241,
+        "lees": 339,
+        "short": 242,
         "luchtig": 51
       },
       "actualPositions": {
-        "lees": 338,
-        "short": 241,
+        "lees": 339,
+        "short": 242,
         "luchtig": 51
       }
     },
@@ -66119,10 +66410,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 1049
+        "lees": 1054
       },
       "actualPositions": {
-        "lees": 1046
+        "lees": 1054
       }
     },
     "01k7j6nyeb06gx7dcdxjaqp5ps": {
@@ -66163,14 +66454,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "social-studies"
       ],
       "positions": {
-        "lees": 889,
+        "lees": 894,
         "software-development": 62,
-        "social-studies": 548
+        "social-studies": 550
       },
       "actualPositions": {
-        "lees": 887,
+        "lees": 894,
         "software-development": 62,
-        "social-studies": 547
+        "social-studies": 550
       }
     },
     "01k7j6j6mdje8x3v1jt8hqaba4": {
@@ -66304,11 +66595,11 @@ window.TOP_ARTICLE_PRIORITY = {
         "software-development"
       ],
       "positions": {
-        "lees": 888,
+        "lees": 893,
         "software-development": 61
       },
       "actualPositions": {
-        "lees": 886,
+        "lees": 893,
         "software-development": 61
       }
     },
@@ -66351,12 +66642,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "social-studies"
       ],
       "positions": {
-        "lees": 887,
-        "social-studies": 547
+        "lees": 892,
+        "social-studies": 549
       },
       "actualPositions": {
-        "lees": 885,
-        "social-studies": 546
+        "lees": 892,
+        "social-studies": 549
       }
     },
     "01k79j7ef2nh8tmgv41f9k6az3": {
@@ -66398,12 +66689,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 337,
-        "short": 240
+        "lees": 338,
+        "short": 241
       },
       "actualPositions": {
-        "lees": 337,
-        "short": 240
+        "lees": 338,
+        "short": 241
       }
     },
     "01k79j5baegrsw57aqahg9jn8p": {
@@ -66442,10 +66733,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 886
+        "lees": 891
       },
       "actualPositions": {
-        "lees": 884
+        "lees": 891
       }
     },
     "01k79j53ce8b15nrkktnb0hz2g": {
@@ -66485,11 +66776,11 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 885,
+        "lees": 890,
         "luchtig": 178
       },
       "actualPositions": {
-        "lees": 883,
+        "lees": 890,
         "luchtig": 178
       }
     },
@@ -66530,11 +66821,11 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 884,
+        "lees": 889,
         "luchtig": 177
       },
       "actualPositions": {
-        "lees": 882,
+        "lees": 889,
         "luchtig": 177
       }
     },
@@ -66619,10 +66910,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 883
+        "lees": 888
       },
       "actualPositions": {
-        "lees": 881
+        "lees": 888
       }
     },
     "01k72r0j3bseajxttfvvytz2vt": {
@@ -66661,10 +66952,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 882
+        "lees": 887
       },
       "actualPositions": {
-        "lees": 880
+        "lees": 887
       }
     },
     "01k72r05veysnjdzw4ad8dgz1j": {
@@ -66751,12 +67042,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 340,
-        "short": 243
+        "lees": 341,
+        "short": 244
       },
       "actualPositions": {
-        "lees": 340,
-        "short": 243
+        "lees": 341,
+        "short": 244
       }
     },
     "01k72qxg5cj9gz3z2jydztgdw4": {
@@ -66799,14 +67090,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "social-studies"
       ],
       "positions": {
-        "lees": 670,
-        "short": 381,
-        "social-studies": 458
+        "lees": 673,
+        "short": 382,
+        "social-studies": 460
       },
       "actualPositions": {
-        "lees": 669,
-        "short": 380,
-        "social-studies": 457
+        "lees": 673,
+        "short": 382,
+        "social-studies": 460
       }
     },
     "01k72qx64tdvkryenrbd5g81px": {
@@ -66890,10 +67181,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 1193
+        "lees": 1199
       },
       "actualPositions": {
-        "lees": 1188
+        "lees": 1199
       }
     },
     "01k72qwgj88mvt8wmr63kx9ct0": {
@@ -67028,13 +67319,13 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 669,
-        "short": 380,
+        "lees": 672,
+        "short": 381,
         "luchtig": 113
       },
       "actualPositions": {
-        "lees": 668,
-        "short": 379,
+        "lees": 672,
+        "short": 381,
         "luchtig": 113
       }
     },
@@ -67074,11 +67365,11 @@ window.TOP_ARTICLE_PRIORITY = {
       ],
       "positions": {
         "video": 26,
-        "social-studies": 602
+        "social-studies": 604
       },
       "actualPositions": {
         "video": 26,
-        "social-studies": 601
+        "social-studies": 604
       }
     },
     "01k6tkhw3brdgtmvkr57x8vvdw": {
@@ -67115,10 +67406,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 1192
+        "lees": 1198
       },
       "actualPositions": {
-        "lees": 1187
+        "lees": 1198
       }
     },
     "01k6fz5rsg2srv5tpaxg4nwz0y": {
@@ -67155,10 +67446,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 1260
+        "lees": 1266
       },
       "actualPositions": {
-        "lees": 1254
+        "lees": 1266
       }
     },
     "01k6c63we3f9ftg7xqkj272e01": {
@@ -67370,14 +67661,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "social-studies"
       ],
       "positions": {
-        "lees": 1048,
-        "short": 602,
-        "social-studies": 587
+        "lees": 1053,
+        "short": 605,
+        "social-studies": 589
       },
       "actualPositions": {
-        "lees": 1045,
-        "short": 600,
-        "social-studies": 586
+        "lees": 1053,
+        "short": 605,
+        "social-studies": 589
       }
     },
     "01k55qwkzkqaphvktn41xznxv2": {
@@ -67456,14 +67747,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "social-studies"
       ],
       "positions": {
-        "lees": 1047,
-        "short": 601,
-        "social-studies": 586
+        "lees": 1052,
+        "short": 604,
+        "social-studies": 588
       },
       "actualPositions": {
-        "lees": 1044,
-        "short": 599,
-        "social-studies": 585
+        "lees": 1052,
+        "short": 604,
+        "social-studies": 588
       }
     },
     "01k53c86shnrvw46eb6mbrn6dt": {
@@ -67502,10 +67793,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 550
+        "lees": 552
       },
       "actualPositions": {
-        "lees": 549
+        "lees": 552
       }
     },
     "01k4z6fmjcf1ffwdqjh2hf4j5k": {
@@ -67633,12 +67924,12 @@ window.TOP_ARTICLE_PRIORITY = {
       "positions": {
         "video": 25,
         "software-development": 79,
-        "social-studies": 601
+        "social-studies": 603
       },
       "actualPositions": {
         "video": 25,
         "software-development": 79,
-        "social-studies": 600
+        "social-studies": 603
       }
     },
     "01k4w71nryav1tkjyrdd068y5w": {
@@ -67717,10 +68008,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 881
+        "lees": 886
       },
       "actualPositions": {
-        "lees": 879
+        "lees": 886
       }
     },
     "01k4hz4tpj7wyg13z1mrad20g8": {
@@ -67764,11 +68055,11 @@ window.TOP_ARTICLE_PRIORITY = {
         "dutch"
       ],
       "positions": {
-        "lees": 668,
+        "lees": 671,
         "dutch": 26
       },
       "actualPositions": {
-        "lees": 667,
+        "lees": 671,
         "dutch": 26
       }
     },
@@ -67897,12 +68188,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 1191,
-        "short": 708
+        "lees": 1197,
+        "short": 711
       },
       "actualPositions": {
-        "lees": 1186,
-        "short": 705
+        "lees": 1197,
+        "short": 711
       }
     },
     "01k3wpyfpp0bc9yjaw7bstekjx": {
@@ -67942,11 +68233,11 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 880,
+        "lees": 885,
         "luchtig": 176
       },
       "actualPositions": {
-        "lees": 878,
+        "lees": 885,
         "luchtig": 176
       }
     },
@@ -67990,13 +68281,13 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 667,
-        "short": 379,
+        "lees": 670,
+        "short": 380,
         "luchtig": 112
       },
       "actualPositions": {
-        "lees": 666,
-        "short": 378,
+        "lees": 670,
+        "short": 380,
         "luchtig": 112
       }
     },
@@ -68086,10 +68377,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 551
+        "lees": 553
       },
       "actualPositions": {
-        "lees": 550
+        "lees": 553
       }
     },
     "01k2ysk13dwk1ftz5jvez1y54s": {
@@ -68174,11 +68465,11 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 549,
+        "lees": 551,
         "luchtig": 84
       },
       "actualPositions": {
-        "lees": 548,
+        "lees": 551,
         "luchtig": 84
       }
     },
@@ -68264,13 +68555,13 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 336,
-        "short": 239,
+        "lees": 337,
+        "short": 240,
         "luchtig": 50
       },
       "actualPositions": {
-        "lees": 336,
-        "short": 239,
+        "lees": 337,
+        "short": 240,
         "luchtig": 50
       }
     },
@@ -68311,11 +68602,11 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 879,
+        "lees": 884,
         "luchtig": 175
       },
       "actualPositions": {
-        "lees": 877,
+        "lees": 884,
         "luchtig": 175
       }
     },
@@ -68359,14 +68650,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "social-studies"
       ],
       "positions": {
-        "lees": 666,
-        "short": 378,
-        "social-studies": 457
+        "lees": 669,
+        "short": 379,
+        "social-studies": 459
       },
       "actualPositions": {
-        "lees": 665,
-        "short": 377,
-        "social-studies": 456
+        "lees": 669,
+        "short": 379,
+        "social-studies": 459
       }
     },
     "01k0xp9p7rpt312pr1smwsxsec": {
@@ -68595,10 +68886,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 548
+        "lees": 550
       },
       "actualPositions": {
-        "lees": 547
+        "lees": 550
       }
     },
     "01k0787yxz912x1kgykz88ngts": {
@@ -68727,12 +69018,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "social-studies"
       ],
       "positions": {
-        "lees": 878,
-        "social-studies": 546
+        "lees": 883,
+        "social-studies": 548
       },
       "actualPositions": {
-        "lees": 876,
-        "social-studies": 545
+        "lees": 883,
+        "social-studies": 548
       }
     },
     "01k013nd6d3w9f62s4tvddfpf6": {
@@ -68820,12 +69111,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 1322,
-        "short": 776
+        "lees": 1328,
+        "short": 779
       },
       "actualPositions": {
-        "lees": 1316,
-        "short": 772
+        "lees": 1328,
+        "short": 779
       }
     },
     "01jzy0zdb4kgcq9v7wb9n532hs": {
@@ -68864,11 +69155,11 @@ window.TOP_ARTICLE_PRIORITY = {
       ],
       "positions": {
         "video": 16,
-        "social-studies": 456
+        "social-studies": 458
       },
       "actualPositions": {
         "video": 16,
-        "social-studies": 455
+        "social-studies": 458
       }
     },
     "01jzy0xx9bjk00qxnqctjshbm7": {
@@ -68908,12 +69199,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 1129,
-        "short": 655
+        "lees": 1134,
+        "short": 658
       },
       "actualPositions": {
-        "lees": 1126,
-        "short": 653
+        "lees": 1134,
+        "short": 658
       }
     },
     "01jzwt59ntrbztk0p3f62y5ch6": {
@@ -68948,10 +69239,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 1363
+        "lees": 1369
       },
       "actualPositions": {
-        "lees": 1357
+        "lees": 1369
       }
     },
     "01jzwsnev6hb25y81jxkyzf7vg": {
@@ -69044,13 +69335,13 @@ window.TOP_ARTICLE_PRIORITY = {
         "social-studies"
       ],
       "positions": {
-        "lees": 335,
-        "short": 238,
+        "lees": 336,
+        "short": 239,
         "social-studies": 246
       },
       "actualPositions": {
-        "lees": 335,
-        "short": 238,
+        "lees": 336,
+        "short": 239,
         "social-studies": 246
       }
     },
@@ -69093,12 +69384,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 334,
-        "short": 237
+        "lees": 335,
+        "short": 238
       },
       "actualPositions": {
-        "lees": 334,
-        "short": 237
+        "lees": 335,
+        "short": 238
       }
     },
     "01jzcf5rmffgqrvmgwmetbyp06": {
@@ -69137,14 +69428,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 1321,
-        "short": 775,
+        "lees": 1327,
+        "short": 778,
         "luchtig": 296
       },
       "actualPositions": {
-        "lees": 1315,
-        "short": 771,
-        "luchtig": 293
+        "lees": 1327,
+        "short": 778,
+        "luchtig": 296
       }
     },
     "01jzcf50024fx6bme93dnfvny3": {
@@ -69186,12 +69477,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "social-studies"
       ],
       "positions": {
-        "short": 600,
-        "social-studies": 585
+        "short": 603,
+        "social-studies": 587
       },
       "actualPositions": {
-        "short": 598,
-        "social-studies": 584
+        "short": 603,
+        "social-studies": 587
       }
     },
     "01jzcf4kfavxhdmat97fa0m5f4": {
@@ -69231,11 +69522,11 @@ window.TOP_ARTICLE_PRIORITY = {
         "social-studies"
       ],
       "positions": {
-        "lees": 333,
+        "lees": 334,
         "social-studies": 245
       },
       "actualPositions": {
-        "lees": 333,
+        "lees": 334,
         "social-studies": 245
       }
     },
@@ -69275,10 +69566,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 547
+        "lees": 549
       },
       "actualPositions": {
-        "lees": 546
+        "lees": 549
       }
     },
     "01jz37xephe1y33mze30r9cr16": {
@@ -69319,14 +69610,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 1190,
-        "short": 707,
+        "lees": 1196,
+        "short": 710,
         "luchtig": 259
       },
       "actualPositions": {
-        "lees": 1185,
-        "short": 704,
-        "luchtig": 257
+        "lees": 1196,
+        "short": 710,
+        "luchtig": 259
       }
     },
     "01jz08nhqrpfqsgm5c62dpcq3w": {
@@ -69446,12 +69737,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 1362,
+        "lees": 1368,
         "luchtig": 321
       },
       "actualPositions": {
-        "lees": 1356,
-        "luchtig": 318
+        "lees": 1368,
+        "luchtig": 321
       }
     },
     "01jvczv0xt002cjqyry0966s20": {
@@ -69490,14 +69781,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 1320,
-        "short": 774,
+        "lees": 1326,
+        "short": 777,
         "luchtig": 295
       },
       "actualPositions": {
-        "lees": 1314,
-        "short": 770,
-        "luchtig": 292
+        "lees": 1326,
+        "short": 777,
+        "luchtig": 295
       }
     },
     "01jvajbknykyp0g0rgns58p80k": {
@@ -69580,12 +69871,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "software-development"
       ],
       "positions": {
-        "lees": 877,
+        "lees": 882,
         "luchtig": 174,
         "software-development": 59
       },
       "actualPositions": {
-        "lees": 875,
+        "lees": 882,
         "luchtig": 174,
         "software-development": 59
       }
@@ -69629,12 +69920,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 332,
-        "short": 236
+        "lees": 333,
+        "short": 237
       },
       "actualPositions": {
-        "lees": 332,
-        "short": 236
+        "lees": 333,
+        "short": 237
       }
     },
     "01jkh2y807mf11z5s9q0gv13jq": {
@@ -69674,12 +69965,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 665,
-        "short": 377
+        "lees": 668,
+        "short": 378
       },
       "actualPositions": {
-        "lees": 664,
-        "short": 376
+        "lees": 668,
+        "short": 378
       }
     },
     "01jkh2xxjf9pw3j0kkgtww5chq": {
@@ -69719,12 +70010,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 664,
-        "short": 376
+        "lees": 667,
+        "short": 377
       },
       "actualPositions": {
-        "lees": 663,
-        "short": 375
+        "lees": 667,
+        "short": 377
       }
     },
     "01jkh2wm4v4j610egp7kxf4m8k": {
@@ -69856,13 +70147,13 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 331,
-        "short": 235,
+        "lees": 332,
+        "short": 236,
         "luchtig": 49
       },
       "actualPositions": {
-        "lees": 331,
-        "short": 235,
+        "lees": 332,
+        "short": 236,
         "luchtig": 49
       }
     },
@@ -69906,13 +70197,13 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 330,
-        "short": 234,
+        "lees": 331,
+        "short": 235,
         "luchtig": 48
       },
       "actualPositions": {
-        "lees": 330,
-        "short": 234,
+        "lees": 331,
+        "short": 235,
         "luchtig": 48
       }
     },
@@ -70263,12 +70554,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 663,
-        "short": 375
+        "lees": 666,
+        "short": 376
       },
       "actualPositions": {
-        "lees": 662,
-        "short": 374
+        "lees": 666,
+        "short": 376
       }
     },
     "01j7x2qde4aaycp5jtn9b23jqh": {
@@ -70349,13 +70640,13 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 662,
-        "short": 374,
+        "lees": 665,
+        "short": 375,
         "luchtig": 111
       },
       "actualPositions": {
-        "lees": 661,
-        "short": 373,
+        "lees": 665,
+        "short": 375,
         "luchtig": 111
       }
     },
@@ -70440,12 +70731,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 329,
-        "short": 233
+        "lees": 330,
+        "short": 234
       },
       "actualPositions": {
-        "lees": 329,
-        "short": 233
+        "lees": 330,
+        "short": 234
       }
     },
     "01j6f8r2v0xj1cgdnf7pqxqjyz": {
@@ -70573,13 +70864,13 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 546,
-        "short": 340,
+        "lees": 548,
+        "short": 341,
         "luchtig": 83
       },
       "actualPositions": {
-        "lees": 545,
-        "short": 339,
+        "lees": 548,
+        "short": 341,
         "luchtig": 83
       }
     },
@@ -70623,13 +70914,13 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 661,
-        "short": 373,
+        "lees": 664,
+        "short": 374,
         "luchtig": 110
       },
       "actualPositions": {
-        "lees": 660,
-        "short": 372,
+        "lees": 664,
+        "short": 374,
         "luchtig": 110
       }
     },
@@ -70709,14 +71000,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "social-studies"
       ],
       "positions": {
-        "lees": 1319,
-        "short": 773,
-        "social-studies": 607
+        "lees": 1325,
+        "short": 776,
+        "social-studies": 609
       },
       "actualPositions": {
-        "lees": 1313,
-        "short": 769,
-        "social-studies": 606
+        "lees": 1325,
+        "short": 776,
+        "social-studies": 609
       }
     },
     "01j5b8c9ze5tvy3xr8axp67j8v": {
@@ -70813,13 +71104,13 @@ window.TOP_ARTICLE_PRIORITY = {
         "software-development"
       ],
       "positions": {
-        "lees": 660,
-        "short": 372,
+        "lees": 663,
+        "short": 373,
         "software-development": 52
       },
       "actualPositions": {
-        "lees": 659,
-        "short": 371,
+        "lees": 663,
+        "short": 373,
         "software-development": 52
       }
     },
@@ -70991,13 +71282,13 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 328,
-        "short": 232,
+        "lees": 329,
+        "short": 233,
         "luchtig": 47
       },
       "actualPositions": {
-        "lees": 328,
-        "short": 232,
+        "lees": 329,
+        "short": 233,
         "luchtig": 47
       }
     },
@@ -71380,12 +71671,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 327,
-        "short": 231
+        "lees": 328,
+        "short": 232
       },
       "actualPositions": {
-        "lees": 327,
-        "short": 231
+        "lees": 328,
+        "short": 232
       }
     },
     "01j2dfyynr1192t9ynbygt6h02": {
@@ -71424,10 +71715,10 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees"
       ],
       "positions": {
-        "lees": 545
+        "lees": 547
       },
       "actualPositions": {
-        "lees": 544
+        "lees": 547
       }
     },
     "01j2b55ndrjtbw80ka80nh0105": {
@@ -71467,11 +71758,11 @@ window.TOP_ARTICLE_PRIORITY = {
         "social-studies"
       ],
       "positions": {
-        "lees": 512,
+        "lees": 513,
         "social-studies": 369
       },
       "actualPositions": {
-        "lees": 512,
+        "lees": 513,
         "social-studies": 369
       }
     },
@@ -72964,12 +73255,12 @@ window.TOP_ARTICLE_PRIORITY = {
         "short"
       ],
       "positions": {
-        "lees": 326,
-        "short": 230
+        "lees": 327,
+        "short": 231
       },
       "actualPositions": {
-        "lees": 326,
-        "short": 230
+        "lees": 327,
+        "short": 231
       }
     },
     "01hv97p0qv2rsh6attfeq439nj": {
@@ -73010,13 +73301,13 @@ window.TOP_ARTICLE_PRIORITY = {
         "luchtig"
       ],
       "positions": {
-        "lees": 659,
-        "short": 371,
+        "lees": 662,
+        "short": 372,
         "luchtig": 109
       },
       "actualPositions": {
-        "lees": 658,
-        "short": 370,
+        "lees": 662,
+        "short": 372,
         "luchtig": 109
       }
     }

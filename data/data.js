@@ -1,6 +1,6 @@
 // Automatisch gegenereerd door scripts/build-data.ts — niet handmatig bewerken.
 window.TOP_ARTICLES = {
-  "generatedAt": "2026-09-12T08:28:05.488Z",
+  "generatedAt": "2026-09-13T06:22:09.664Z",
   "families": [
     {
       "id": "algemeen",
@@ -33630,6 +33630,184 @@ window.TOP_ARTICLES = {
   ],
   "catalog": {
     "items": [
+      {
+        "position": null,
+        "id": "01m2aysbr5r7v0x099jednqehf",
+        "title": "9/11’s Unlearned Lessons",
+        "author": null,
+        "siteName": "Boston Review",
+        "category": "rss",
+        "language": null,
+        "readingTime": "12 mins",
+        "readingMinutes": 12,
+        "wordCount": 3050,
+        "publishedDate": "2026-09-12",
+        "savedDate": "2026-09-12T14:01:45.622000+00:00",
+        "imageUrl": "https://www.bostonreview.net/wp-content/uploads/2026/09/Theoharis_web@0.5x-1024x683.jpg",
+        "sourceUrl": "https://www.bostonreview.net/articles/9-11s-unlearned-lessons/",
+        "readwiseUrl": "https://read.readwise.io/read/01m2aysbr5r7v0x099jednqehf",
+        "summary": "\n\nThe anti-terrorism cases that garnered little outrage should have concerned us all.(Feed generated with FetchRSS)",
+        "whyRead": "Raakt je interesse in politieke ideologieën, staatsmacht, migratie en historische continuïteiten. Dit sterke Boston Review-essay laat zien hoe de War on Terror burgerrechten, politieke associatie en solidariteit structureel heeft aangetast — en waarom juist impopulaire verdachten bescherming nodig hebben.",
+        "bestMoment": "kritisch",
+        "tags": [
+          "current affairs & politics",
+          "political philosophy",
+          "sociology & social structures"
+        ],
+        "coreInterests": [
+          "filosofie",
+          "ideologie",
+          "sociologie"
+        ],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01m2aysbp9s4f7b8ke4v53ncd8",
+        "title": "Sadistic, Blatant, and Wanton",
+        "author": null,
+        "siteName": "Boston Review",
+        "category": "rss",
+        "language": null,
+        "readingTime": "8 mins",
+        "readingMinutes": 8,
+        "wordCount": 2022,
+        "publishedDate": "2026-09-12",
+        "savedDate": "2026-09-12T14:01:48.562000+00:00",
+        "imageUrl": "https://www.bostonreview.net/wp-content/uploads/2026/09/GettyImages-51057020.jpg",
+        "sourceUrl": "https://www.bostonreview.net/articles/sadistic-blatant-and-wanton/",
+        "readwiseUrl": "https://read.readwise.io/read/01m2aysbp9s4f7b8ke4v53ncd8",
+        "summary": "\n\nImpunity for U.S. atrocities after 9/11 paved the way for rank authoritarianism and forever war—all of it enabled by an imperial Supreme Court.(Feed generated with FetchRSS)",
+        "whyRead": "Raakt je interesse in politieke filosofie, staatsmacht, human rights en autoritaire continuïteiten. Dit scherpe essay verbindt de War on Terror met hedendaagse rechterlijke macht, militarisme en de vraag wie in de praktijk het “recht op rechten” krijgt.",
+        "bestMoment": "kritisch",
+        "tags": [
+          "current affairs & politics",
+          "political philosophy",
+          "totalitarianism & fascism"
+        ],
+        "coreInterests": [
+          "filosofie",
+          "ideologie"
+        ],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01m2ak3p4hvhtjzzqjdjapfaf1",
+        "title": "Henry Farrell and Abe Newman on Weaponized Interdependence",
+        "author": null,
+        "siteName": "Substack",
+        "category": "email",
+        "language": null,
+        "readingTime": "30 mins",
+        "readingMinutes": 30,
+        "wordCount": 7734,
+        "publishedDate": "2026-09-12",
+        "savedDate": "2026-09-12T10:37:47.026000+00:00",
+        "imageUrl": null,
+        "sourceUrl": "mailto:reader-forwarded-email/e1d9e2da8279a6d4afc9e096c04e222c",
+        "readwiseUrl": "https://read.readwise.io/read/01m2ak3p4hvhtjzzqjdjapfaf1",
+        "summary": "Paul Krugman: So, it’s a world full of choke points. Weaponized interdependence is a term I think coined by Henry Farrell and Abe Newman.",
+        "whyRead": "Raakt je interesse in geopolitiek, politieke economie en macht in internationale netwerken. Dit lange Krugman-interview maakt “weaponized interdependence” concreet: economische infrastructuur, sancties en technologische afhankelijkheden worden machtsmiddelen met onvoorspelbare terugslag.",
+        "bestMoment": "geconcentreerd",
+        "tags": [
+          "current affairs & politics",
+          "economics",
+          "technology"
+        ],
+        "coreInterests": [],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01m2a8vnw9cyaez483em7j08cv",
+        "title": "How to cultivate collective intellectual humility",
+        "author": null,
+        "siteName": "Psyche",
+        "category": "article",
+        "language": null,
+        "readingTime": "12 mins",
+        "readingMinutes": 12,
+        "wordCount": 3125,
+        "publishedDate": "2025-06-04",
+        "savedDate": "2026-09-12T07:38:38.855000+00:00",
+        "imageUrl": "https://images.aeonmedia.co/images/95e97620-7381-41d5-b4c1-26bd96535699/v2-final-gettyimages-1389876555.jpg?top=128&left=0&cropWidth=2448&cropHeight=1377&width=1200&quality=75&format=jpg",
+        "sourceUrl": "https://psyche.co/guides/how-to-cultivate-intellectual-humility-for-better-group-thinking",
+        "readwiseUrl": "https://read.readwise.io/read/01m2a8vnw9cyaez483em7j08cv",
+        "summary": "Being smart is knowing what you don’t know. From work meetings to book clubs, use these tips to boost your group’s thinking",
+        "whyRead": "Raakt je interesse in samenwerking, teamontwikkeling en psychologische veiligheid in organisaties. Deze Psyche-gids vertaalt intellectuele nederigheid naar concrete groepspraktijken die relevant zijn voor Scrum- en andere samenwerkingscontexten.",
+        "bestMoment": "toepassen",
+        "tags": [
+          "behavioral psychology & coaching",
+          "communication & collaboration",
+          "management"
+        ],
+        "coreInterests": [],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01m2a8vbsz8t033s88g0m647mt",
+        "title": "Vérdenken: kunnen we de mensheid helpen?",
+        "author": null,
+        "siteName": "Bij Nader Inzien",
+        "category": "article",
+        "language": null,
+        "readingTime": "6 mins",
+        "readingMinutes": 6,
+        "wordCount": 1535,
+        "publishedDate": "2026-07-09",
+        "savedDate": "2026-09-12T07:38:28.541000+00:00",
+        "imageUrl": "https://bijnaderinzien.com/wp-content/uploads/2026/07/Ilja.avif",
+        "sourceUrl": "https://bijnaderinzien.com/2026/07/09/verdenken-kunnen-we-de-mensheid-helpen/",
+        "readwiseUrl": "https://read.readwise.io/read/01m2a8vbsz8t033s88g0m647mt",
+        "summary": "In dit essay geeft één van de Jonge Denkers antwoord op de vraag: ‘Maakt vérdenken gelukkig?’. Vérdenken is door Denker der Nederlanden David van Reybrouck…",
+        "whyRead": "Raakt je interesse in filosofie, maatschappelijke vooruitgang en het bewust onderzoeken van aannames buiten de eigen sociale of politieke bubbel. Dit Nederlandstalige essay introduceert het door David van Reybrouck gekozen begrip ‘vérdenken’ in een toegankelijke, persoonlijke vorm.",
+        "bestMoment": "rustig lezen",
+        "tags": [
+          "personal development",
+          "philosophy",
+          "political philosophy"
+        ],
+        "coreInterests": [
+          "filosofie",
+          "ideologie"
+        ],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01m2a8v1prarfgvmkgwy4ercs4",
+        "title": "Beyond Autonomous Teams in Software Product Development",
+        "author": null,
+        "siteName": "InfoQ",
+        "category": "article",
+        "language": null,
+        "readingTime": "4 mins",
+        "readingMinutes": 4,
+        "wordCount": 945,
+        "publishedDate": "2026-09-10",
+        "savedDate": "2026-09-12T07:38:18.201000+00:00",
+        "imageUrl": "https://res.infoq.com/news/2026/09/autonomous-software-teams/en/headerimage/Beyond-Autonomous-Teams-in-Software-Product-Development-header-1788790952346.jpg",
+        "sourceUrl": "https://www.infoq.com/news/2026/09/autonomous-software-teams/",
+        "readwiseUrl": "https://read.readwise.io/read/01m2a8v1prarfgvmkgwy4ercs4",
+        "summary": "Autonomous teams are an article of faith in modern software development. The shape of our value determines what we can do; it determines our trade-offs between agency and coherence. We all have a purpose, and we all have agency to do something, hence the suggestion is moving from product focus to value center thinking.",
+        "whyRead": "Raakt je werk als Scrum Master en je interesse in teamautonomie, waardecreatie en complexe organisaties. Dit InfoQ-stuk nuanceert het idee van autonome productteams: teams leveren waarde binnen geneste afhankelijkheidsnetwerken, waardoor agency én coherentie nodig zijn.",
+        "bestMoment": "toepassen",
+        "tags": [
+          "communication & collaboration",
+          "technology",
+          "work & career"
+        ],
+        "coreInterests": [],
+        "alsoIn": [],
+        "memberships": []
+      },
       {
         "position": null,
         "id": "01m2a5syyjc8ffvr1htj0w8jgn",
