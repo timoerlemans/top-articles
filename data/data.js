@@ -1,6 +1,6 @@
 // Automatisch gegenereerd door scripts/build-data.ts — niet handmatig bewerken.
 window.TOP_ARTICLES = {
-  "generatedAt": "2026-09-13T22:29:29.059Z",
+  "generatedAt": "2026-09-14T09:40:17.951Z",
   "families": [
     {
       "id": "algemeen",
@@ -2276,6 +2276,37 @@ window.TOP_ARTICLES = {
             },
             {
               "position": 52,
+              "id": "01m2ebrz4wb3zzmqteg1fvmepv",
+              "title": "Michel de Montaigne: How Reading Can Set You Free (Part II)",
+              "author": null,
+              "siteName": "Substack",
+              "category": "email",
+              "language": null,
+              "readingTime": "12 mins",
+              "readingMinutes": 12,
+              "wordCount": 3055,
+              "publishedDate": "2026-09-13",
+              "savedDate": "2026-09-13T21:46:33.501000+00:00",
+              "imageUrl": null,
+              "sourceUrl": "mailto:reader-forwarded-email/092a31405427ba1f79e6e6badbbff445",
+              "readwiseUrl": "https://read.readwise.io/read/01m2ebrz4wb3zzmqteg1fvmepv",
+              "summary": "The debate revolved around the idea of freedom, and one of the participants said that some people are not allowed to be free.",
+              "whyRead": "Sluit aan bij je interesse in lezen als vrijheidspraktijk, persoonlijke filosofie en de manier waarop schrijven helpt om gedachten te ordenen. Via Zweigs biografie laat deze boekgids zien hoe Montaigne autonomie niet als terugtrekking uit de wereld, maar als een geoefende verhouding tot boeken, zichzelf en maatschappelijke plichten vormgeeft.",
+              "bestMoment": "reflectief",
+              "tags": [
+                "history",
+                "philosophy",
+                "political philosophy"
+              ],
+              "coreInterests": [
+                "filosofie",
+                "ideologie",
+                "geschiedenis"
+              ],
+              "alsoIn": []
+            },
+            {
+              "position": 53,
               "id": "01j5b8c9ze5tvy3xr8axp67j8v",
               "title": "🌲 Prompt engineering gave me empathy for my bosses",
               "author": null,
@@ -2315,7 +2346,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 53,
+              "position": 54,
               "id": "01jkh2w2capy38f589kqkvyt4s",
               "title": "A funny thing about curiosity",
               "author": null,
@@ -2348,7 +2379,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 54,
+              "position": 55,
               "id": "01k72qx64tdvkryenrbd5g81px",
               "title": "The Dire State of Contemporary Western Philosophy",
               "author": null,
@@ -2382,7 +2413,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 55,
+              "position": 56,
               "id": "01k7xjhe96qxhs9bkr4qahjk09",
               "title": "How to Become as Well-Read as John Adams: 8 Tips From his Reading Life",
               "author": null,
@@ -2415,7 +2446,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 56,
+              "position": 57,
               "id": "01kd1c7k90p8p5bknmbm09abwv",
               "title": "The World in Which We Live - Nassim Nicholas Taleb",
               "author": null,
@@ -2450,7 +2481,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 57,
+              "position": 58,
               "id": "01kmr5kh5wjyr899wkg9skt4f7",
               "title": "Simone Weil Explains the Manosphere",
               "author": null,
@@ -2486,7 +2517,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 58,
+              "position": 59,
               "id": "01krn1jdcn6b450yv1z0j92tz3",
               "title": "The Radical Sunzi",
               "author": null,
@@ -2519,7 +2550,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 59,
+              "position": 60,
               "id": "01krpd5465ts11g8szys682dfj",
               "title": "Shame them, shun them, ban them, beat them!",
               "author": null,
@@ -2552,7 +2583,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 60,
+              "position": 61,
               "id": "01krtexkxa2w3kf6d07h8t2ndr",
               "title": "The heyday of the writing-first practitioner",
               "author": null,
@@ -2588,7 +2619,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 61,
+              "position": 62,
               "id": "01ksc75pt8qjpzxtda00x3dba8",
               "title": "Waarom komen politici met steeds meer weg?",
               "author": null,
@@ -2624,7 +2655,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 62,
+              "position": 63,
               "id": "01kvjbgrqsftb77gs496c0p12t",
               "title": "If the First Apocalypse Doesn’t Get You, the Second One Will",
               "author": null,
@@ -2659,7 +2690,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 63,
+              "position": 64,
               "id": "01kvtqy4rffwdb1t73t37netda",
               "title": "Antwoorden op vragen die niet gesteld worden",
               "author": null,
@@ -2694,7 +2725,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 64,
+              "position": 65,
               "id": "01kw4avt5cex86dndrehb65a7y",
               "title": "Why You Cannot Believe Your Way Into Learning",
               "author": null,
@@ -2729,7 +2760,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 65,
+              "position": 66,
               "id": "01kxpg8mpkegghvbz5w71ne86v",
               "title": "Against \"Stochastic Terrorism\"",
               "author": null,
@@ -2763,7 +2794,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 66,
+              "position": 67,
               "id": "01kxr18pz677fa7xqfav7sp2dp",
               "title": "Capitalism: A Ghost Story",
               "author": null,
@@ -2798,7 +2829,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 67,
+              "position": 68,
               "id": "01kysnn7synbp4djg1ph3zrhdh",
               "title": "It is no longer safe to move our governments and societies to US clouds",
               "author": null,
@@ -2833,7 +2864,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 68,
+              "position": 69,
               "id": "01kyz1s71etfwt2wgr2zhqrr4k",
               "title": "Who Was the Last Roman Emperor?",
               "author": null,
@@ -2865,7 +2896,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 69,
+              "position": 70,
               "id": "01m0nd3m15a0h3jetaw2q41mzk",
               "title": "Independence Day",
               "author": null,
@@ -2897,7 +2928,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 70,
+              "position": 71,
               "id": "01m0nepjcvwwzp4cydwdgdm8kt",
               "title": "Parliament's Missed Chance for Peace",
               "author": null,
@@ -2929,7 +2960,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 71,
+              "position": 72,
               "id": "01m0nepq34v9hbtcm1z1rcjn1e",
               "title": "The Madness of Yankee Doodle",
               "author": null,
@@ -2963,7 +2994,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 72,
+              "position": 73,
               "id": "01m1q38vt13z682y665ms9k4xv",
               "title": "Beyond HTML5: Database APIs and the Road to IndexedDB",
               "author": null,
@@ -3004,7 +3035,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 73,
+              "position": 74,
               "id": "01m1rqhq0jsh1hs8h8v39a8etr",
               "title": "Case Study: When Agile Meets Neurodivergence",
               "author": null,
@@ -3051,7 +3082,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 74,
+              "position": 75,
               "id": "01m1zvm6gs1fej0qfpx176aftk",
               "title": "My unsung hero of science: Harriet Taylor Mill, the radical feminist philosopher who lived in the shadow of her husband",
               "author": null,
@@ -3087,7 +3118,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 75,
+              "position": 76,
               "id": "01hz9sx57zhs6famn519gxxtne",
               "title": "📚 Advice from Parenting Books, for Everyone",
               "author": null,
@@ -3123,7 +3154,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 76,
+              "position": 77,
               "id": "01jkh2wm4v4j610egp7kxf4m8k",
               "title": "Rationality is an underrated way to be authentic",
               "author": null,
@@ -3154,7 +3185,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 77,
+              "position": 78,
               "id": "01k72qvbmwd9xp0k233cv5qgw2",
               "title": "A blog post is a very long and complex search query to find fascinating people and make them route interesting stuff to your inbox",
               "author": null,
@@ -3184,7 +3215,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 78,
+              "position": 79,
               "id": "01k72r2t6e028d3kp67hzzzbv8",
               "title": "Where to find media to consume instead of doomscrolling",
               "author": null,
@@ -3218,7 +3249,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 79,
+              "position": 80,
               "id": "01k7shpmfgw8jtf6wrbs6k64cg",
               "title": "The explosion of choice",
               "author": null,
@@ -3249,7 +3280,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 80,
+              "position": 81,
               "id": "01kdanxpg3e3pp8stwtmfr7p79",
               "title": "Taking your education into your own hands",
               "author": null,
@@ -3284,7 +3315,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 81,
+              "position": 82,
               "id": "01kh21z4cjkvjajn439w2tqwyt",
               "title": "How to address a Russian: a comprehensive guide",
               "author": null,
@@ -3320,7 +3351,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 82,
+              "position": 83,
               "id": "01kp2j39t59t9wy3bcs6m4q3c0",
               "title": "Stigmergy: the most important concept you’ve never heard of",
               "author": null,
@@ -3355,7 +3386,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 83,
+              "position": 84,
               "id": "01krbezjtx0zph0kpthrse5kr3",
               "title": "The Beauty of Games and the Limits of Metrics",
               "author": null,
@@ -3386,7 +3417,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 84,
+              "position": 85,
               "id": "01krn7wk7s2g93zw72g9ay47xs",
               "title": "The Men Who Don’t Want Women to Vote",
               "author": null,
@@ -3420,7 +3451,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 85,
+              "position": 86,
               "id": "01kt3pyfje0y9z49fzqmtkjsse",
               "title": "You're Not Too Sensitive. The Feeling Rules Were Written Without You.",
               "author": null,
@@ -3455,7 +3486,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 86,
+              "position": 87,
               "id": "01kvwwdq8bhy9m3x614gmtn41d",
               "title": "Andrew Stanton: Storytelling Secrets from the Writer of Toy Story 5",
               "author": null,
@@ -3493,7 +3524,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 87,
+              "position": 88,
               "id": "01kwfk5q2rtfm9enggaybd07zq",
               "title": "David Sedaris: Lessons From Decades of Writing",
               "author": null,
@@ -3531,7 +3562,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 88,
+              "position": 89,
               "id": "01ky7jrexxwmsfs69nz3te7s86",
               "title": "Is morality relative?",
               "author": null,
@@ -3567,7 +3598,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 89,
+              "position": 90,
               "id": "01kyahjepdw40gz095ewf05r80",
               "title": "Maarten van Rossem heeft ongelijk: de EU heeft wel degelijk christelijke wortels",
               "author": null,
@@ -3598,7 +3629,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 90,
+              "position": 91,
               "id": "01kyexyg0m6s4a4nddcw8mm63e",
               "title": "Time for some game theory",
               "author": null,
@@ -3632,7 +3663,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 91,
+              "position": 92,
               "id": "01kysnkm3ab00zyxejnn56wfzf",
               "title": "Cyber security and society, a pre-war reality check",
               "author": null,
@@ -3666,7 +3697,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 92,
+              "position": 93,
               "id": "01m0nepm4769q79fgea0s2v02v",
               "title": "The Glorious Revolution, Part 2",
               "author": null,
@@ -3696,7 +3727,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 93,
+              "position": 94,
               "id": "01m17x1rb5jrqjsb66fhnf5ans",
               "title": "Nieuwe wet Inlichtingen- en veiligheidsdiensten: wat mogen ze nu al en waar zijn ze voor",
               "author": null,
@@ -3731,7 +3762,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 94,
+              "position": 95,
               "id": "01m0f5thx0x9f1rpdvj5r64m3m",
               "title": "Meditations On Moloch",
               "author": null,
@@ -3762,7 +3793,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 95,
+              "position": 96,
               "id": "01m1gv8hnrpyh8gj9bce98d1bb",
               "title": "Rorty’s political turn",
               "author": null,
@@ -3796,7 +3827,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 96,
+              "position": 97,
               "id": "01m1gv8t9vhphm7qf8qjnfdvzk",
               "title": "Bernard Williams argued that one’s ethics is shaped by culture and history. But that doesn’t mean that everyone is right",
               "author": null,
@@ -3827,7 +3858,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 97,
+              "position": 98,
               "id": "01m1h760hbqry5em5qkvrnmnay",
               "title": "A Mississippi death penalty jury was seated with one Black juror - Mississippi Today",
               "author": null,
@@ -3861,7 +3892,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 98,
+              "position": 99,
               "id": "01m1k25mypt8ey2amkbe7pgwq0",
               "title": "No one is self-made",
               "author": null,
@@ -3895,7 +3926,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 99,
+              "position": 100,
               "id": "01m1kbpynaqqfqr1cpkmar7kr1",
               "title": "The second sage",
               "author": null,
@@ -3912,37 +3943,6 @@ window.TOP_ARTICLES = {
               "readwiseUrl": "https://read.readwise.io/read/01m1kbpynaqqfqr1cpkmar7kr1",
               "summary": "The Confucian philosopher Mengzi provides an intriguing (and oddly modern) alternative to Aristotelian accounts of human virtue",
               "whyRead": "Raakt je interesse in filosofie, politieke filosofie en ideeëngeschiedenis: deze introductie laat zien hoe Mengzi menselijke natuur, deugdontwikkeling en goed bestuur met elkaar verbindt. De meerwaarde zit in het contrast met egoïsme, Mohisme, Plato en Aristoteles én in de hedendaagse politieke vraag hoe mededogen institutioneel wordt gemaakt.",
-              "bestMoment": "analytisch",
-              "tags": [
-                "history",
-                "philosophy",
-                "political philosophy"
-              ],
-              "coreInterests": [
-                "filosofie",
-                "ideologie",
-                "geschiedenis"
-              ],
-              "alsoIn": []
-            },
-            {
-              "position": 100,
-              "id": "01m1kbpznvd2rxx9nz0ccdbntg",
-              "title": "Beyond dust and grime",
-              "author": null,
-              "siteName": "Aeon",
-              "category": "article",
-              "language": null,
-              "readingTime": "12 mins",
-              "readingMinutes": 12,
-              "wordCount": 2952,
-              "publishedDate": "2022-06-03",
-              "savedDate": "2026-09-03T10:05:58.844000+00:00",
-              "imageUrl": "https://alpha.aeon.co/images/439e4aca-f778-492c-aff7-dd6d5f8b059c/header_essay-v2-final-fs-7271_10.jpg",
-              "sourceUrl": "https://aeon.co/essays/zhuangzis-ancient-fable-about-the-personal-and-the-political",
-              "readwiseUrl": "https://read.readwise.io/read/01m1kbpznvd2rxx9nz0ccdbntg",
-              "summary": "Zhuangzi thought Confucians were like frogs trapped in a well, unable to perceive the limitlessness of the sea",
-              "whyRead": "Raakt je interesse in politieke filosofie, filosofie en Chinese ideeëngeschiedenis: dit essay gebruikt Zhuangzi’s kikker-in-de-put en de metafoor van kok Ding om te onderzoeken hoe persoonlijke vrijheid zich verhoudt tot ritueel, sociale normen en de staat. De meerwaarde zit in de vergelijking met Plato én in de eerlijke conclusie dat Zhuangzi’s individuele vrijheidsideaal politiek onvolledig blijft.",
               "bestMoment": "analytisch",
               "tags": [
                 "history",
@@ -12650,6 +12650,36 @@ window.TOP_ARTICLES = {
             },
             {
               "position": 32,
+              "id": "01m2f1qxfpj7qyzp0fj9d7qbfr",
+              "title": "Sally Kawamura: Towards Infinity: Mieko Shiomi’s “Transmedia”",
+              "author": null,
+              "siteName": "Activating Fluxus",
+              "category": "article",
+              "language": null,
+              "readingTime": "8 mins",
+              "readingMinutes": 8,
+              "wordCount": 2085,
+              "publishedDate": "2023-05-07",
+              "savedDate": "2026-09-14T04:10:27.702000+00:00",
+              "imageUrl": "https://activatingfluxus.com/wp-content/uploads/2023/05/screenshot-2023-05-07-at-13.52.22.png?w=1200",
+              "sourceUrl": "https://activatingfluxus.com/2023/05/07/sally-kawamura-towards-infinity-mieko-shiomis-transmedia/",
+              "readwiseUrl": "https://read.readwise.io/read/01m2f1qxfpj7qyzp0fj9d7qbfr",
+              "summary": "Associated researcher Sally Kawamura explores the idea of “transmedia,” a term first coined by artist Mieko Shiomi in 2012. This concept refers to the process of creating new works or r…",
+              "whyRead": "Raakt je interesse in kunst & cultuur, interactieve vormen en de relatie tussen objecten, publiek en context: dit essay laat aan de hand van Mieko Shiomi’s Fluxus-werk zien hoe een kunstidee via nieuwe media kan blijven veranderen. De meerwaarde zit in het scherpe onderscheid tussen documentatie, heruitvoering en een nieuw creatief werk.",
+              "bestMoment": "analytisch",
+              "tags": [
+                "arts & culture",
+                "history",
+                "social psychology & interpersonal dynamics"
+              ],
+              "coreInterests": [
+                "geschiedenis",
+                "sociologie"
+              ],
+              "alsoIn": []
+            },
+            {
+              "position": 33,
               "id": "01k0p426mr9nsc4vhyvbvq1wex",
               "title": "80% of Your Culture is Your Founder",
               "author": null,
@@ -12683,7 +12713,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 33,
+              "position": 34,
               "id": "01k0xp9p7rpt312pr1smwsxsec",
               "title": "Tales from the Island of Illness",
               "author": null,
@@ -12714,7 +12744,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 34,
+              "position": 35,
               "id": "01k9p5pa1athkkdm2j2nxfhf26",
               "title": "A Modest Proposal for Life After Death",
               "author": null,
@@ -12744,7 +12774,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 35,
+              "position": 36,
               "id": "01krm5d32nfhsa44jvbq4s6nny",
               "title": "📚 Fear, War, & God: Post-Rationalist Philosophy... in SPAAAAAACE",
               "author": null,
@@ -12775,7 +12805,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 36,
+              "position": 37,
               "id": "01kvcgsfekyqqc5b9t3nmrge8m",
               "title": "Hoera, het is Waterloodag!",
               "author": null,
@@ -12812,7 +12842,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 37,
+              "position": 38,
               "id": "01ky7rxntf6dz2x70h2w6vgtqr",
               "title": "The Height Gap | The New Yorker",
               "author": null,
@@ -12843,7 +12873,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 38,
+              "position": 39,
               "id": "01k2p37kkgn4hk8dn1qxb870qd",
               "title": "How to Teach Textual Criticism To Fifth-Graders",
               "author": null,
@@ -12872,7 +12902,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 39,
+              "position": 40,
               "id": "01k7j6p8a88r4t4zarr6pqya82",
               "title": "Writing as communion",
               "author": null,
@@ -12901,7 +12931,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 40,
+              "position": 41,
               "id": "01k7qbg40qvbeqszm5nr2wpmyz",
               "title": "Dostoevsky as lover",
               "author": null,
@@ -12930,7 +12960,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 41,
+              "position": 42,
               "id": "01kbdw19ngjne64721hydw9rqa",
               "title": "Today I turn 55",
               "author": null,
@@ -12961,7 +12991,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 42,
+              "position": 43,
               "id": "01kchxs5s6y615eazs4hhqgm7h",
               "title": "A list of books and essays that I love",
               "author": null,
@@ -12990,7 +13020,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 43,
+              "position": 44,
               "id": "01kf0p1x4zzc3hqf55wqyngafr",
               "title": "On the preparations before writing an essay",
               "author": null,
@@ -13019,7 +13049,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 44,
+              "position": 45,
               "id": "01kmsrjw7b8q2k5fb547bxerv2",
               "title": "The Death of Spotify: Why Streaming is Minutes Away From Being Obsolete",
               "author": null,
@@ -13048,7 +13078,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 45,
+              "position": 46,
               "id": "01kn4c4mv24kk2vjxqcn0y6efj",
               "title": "Days are enormous",
               "author": null,
@@ -13077,7 +13107,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 46,
+              "position": 47,
               "id": "01krqmh4tqphysje012p59hxec",
               "title": "Novels Tell Us Who We Are",
               "author": null,
@@ -13106,7 +13136,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 47,
+              "position": 48,
               "id": "01kt9sbc2hgkymt9expprgkgdp",
               "title": "In de Apocalyps is de vrouw een teken van hoop",
               "author": null,
@@ -13140,7 +13170,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 48,
+              "position": 49,
               "id": "01kxy1qkwpt5xkmvy06pz6bqvr",
               "title": "Technology and Barbarism",
               "author": null,
@@ -13170,7 +13200,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 49,
+              "position": 50,
               "id": "01kbdw3w0vrspnk8yzrfxypq51",
               "title": "The Quiet Collapse of Reading—and the Only Real Solution",
               "author": null,
@@ -13199,7 +13229,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 50,
+              "position": 51,
               "id": "01kycfev2jfr2v5x5pqr2scxz7",
               "title": "How to Win a Billion Dollars and Ruin Your Life",
               "author": null,
@@ -13229,7 +13259,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 51,
+              "position": 52,
               "id": "01m05be2mdpdf3vg9xy5xr0kcz",
               "title": "The Art of Donald McGill",
               "author": null,
@@ -13262,7 +13292,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 52,
+              "position": 53,
               "id": "01m0f29337jsph1jwqq3njdbkc",
               "title": "In de bioscoop blijkt dat we eer belangrijker vinden dan je zou denken",
               "author": null,
@@ -13292,7 +13322,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 53,
+              "position": 54,
               "id": "01m0nepgcz9yg6btdcstdnp60r",
               "title": "The Extravagant Details of Biography",
               "author": null,
@@ -13320,7 +13350,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 54,
+              "position": 55,
               "id": "01m0nepry7rbgqh62vdcjr37a7",
               "title": "Plays, Pageants, and the Origin of the “First Thanksgiving” Story",
               "author": null,
@@ -13350,7 +13380,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 55,
+              "position": 56,
               "id": "01m17yb0acqmetaqyrrhk1pmta",
               "title": "Being and Snoozing: Sleep and the Limits of Self-Authorship",
               "author": null,
@@ -13382,7 +13412,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 56,
+              "position": 57,
               "id": "01m1gv87eq9k6ey8kd2y09xg15",
               "title": "Gardening with Heidegger: from mystery to truth, via the earth",
               "author": null,
@@ -13413,7 +13443,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 57,
+              "position": 58,
               "id": "01m1gv9atc9pmec77602etsmqf",
               "title": "Ben je al bekend met insider media en cultural power players?",
               "author": null,
@@ -13445,7 +13475,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 58,
+              "position": 59,
               "id": "01m207r5gtkhknjq6ezh237a4s",
               "title": "The Thief Who Wanted to Save the World",
               "author": null,
@@ -13476,7 +13506,37 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 59,
+              "position": 60,
+              "id": "01m2f1qxw8ddqy8yg8bedvven0",
+              "title": "When Making a Salad Felt Radical - The New York Times",
+              "author": null,
+              "siteName": "New York Times",
+              "category": "article",
+              "language": null,
+              "readingTime": "6 mins",
+              "readingMinutes": 6,
+              "wordCount": 1455,
+              "publishedDate": "2022-07-18",
+              "savedDate": "2026-09-14T04:10:28.102000+00:00",
+              "imageUrl": "https://static01.nyt.com/images/2022/07/19/arts/14alison-knowles1/14alison-knowles1-facebookJumbo.jpg",
+              "sourceUrl": "https://www.nytimes.com/2022/07/18/arts/design/alison-knowles-bampfa-berkeley-fluxus-art.html",
+              "readwiseUrl": "https://read.readwise.io/read/01m2f1qxw8ddqy8yg8bedvven0",
+              "summary": "Ahead of her retrospective in Berkeley, Calif., the artist Alison Knowles talks about her Fluxus roots, the appeal of beans and the power of interactive artworks.",
+              "whyRead": "Raakt je interesse in kunst & cultuur, essayistische analyses en menselijke interactie: in dit interview vertelt Fluxus-kunstenaar Alison Knowles hoe participatie, alledaagse materialen en toeval kunst kunnen veranderen in een gedeelde activiteit. De meerwaarde zit in de concrete voorbeelden — van bonen en salades tot boeken als architectuur — en in haar volharding als vrouwelijke pionier.",
+              "bestMoment": "ontspannen",
+              "tags": [
+                "arts & culture",
+                "history",
+                "social psychology & interpersonal dynamics"
+              ],
+              "coreInterests": [
+                "geschiedenis",
+                "sociologie"
+              ],
+              "alsoIn": []
+            },
+            {
+              "position": 61,
               "id": "01k2p3vgyxd3egkpvn5y6r2d7n",
               "title": "Genetics and Eugenics in Frank Herbert’s Dune-verse",
               "author": null,
@@ -13505,7 +13565,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 60,
+              "position": 62,
               "id": "01kbdvx6khj52azfg1r48s7mc8",
               "title": "The Routine That's Keeping You Miserable",
               "author": null,
@@ -13540,7 +13600,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 61,
+              "position": 63,
               "id": "01kec58fp6ep87fc5qnf8swc20",
               "title": "Being creative requires taking risks",
               "author": null,
@@ -13569,7 +13629,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 62,
+              "position": 64,
               "id": "01kmbp17grppjmpxqfsq4z3zy7",
               "title": "Sucker",
               "author": null,
@@ -13598,7 +13658,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 63,
+              "position": 65,
               "id": "01knaa433mz4v5rtkbat739xjg",
               "title": "How I learned to just fucking write",
               "author": null,
@@ -13627,7 +13687,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 64,
+              "position": 66,
               "id": "01ks2b50wxejwag42nf6rnrq6d",
               "title": "Love is to be invested in someone’s continual expansion",
               "author": null,
@@ -13656,7 +13716,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 65,
+              "position": 67,
               "id": "01ks5wkeam3nzf67r9bh537enm",
               "title": "Alone, Finally",
               "author": null,
@@ -13685,7 +13745,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 66,
+              "position": 68,
               "id": "01kt3yrv65xm5w5crnf6ycy3rr",
               "title": "People are too big to fit inside our heads",
               "author": null,
@@ -13714,7 +13774,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 67,
+              "position": 69,
               "id": "01kxn6sfvvpwapf12145w6x7sv",
               "title": "Essays In Support of the Null Hypothesis",
               "author": null,
@@ -13743,7 +13803,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 68,
+              "position": 70,
               "id": "01m02v2mszvk3cjaw44d26cmvx",
               "title": "Het zachte tegengif heet verwondering",
               "author": null,
@@ -13779,7 +13839,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 69,
+              "position": 71,
               "id": "01m059vqea4t02392f7364m2jr",
               "title": "The Spike",
               "author": null,
@@ -13810,7 +13870,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 70,
+              "position": 72,
               "id": "01m0d9rt9b3a66m87wr62cjx7g",
               "title": "Elif Shafak and Robert Macfarlane: Two Novelists Have an Epic Conversation",
               "author": null,
@@ -13838,7 +13898,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 71,
+              "position": 73,
               "id": "01m13bydjdttq1jnhmnt13k22z",
               "title": "Ladies of the ’80s",
               "author": null,
@@ -13868,7 +13928,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 72,
+              "position": 74,
               "id": "01m1971j070aamhztgxr4k22jg",
               "title": "A Serious House | The Point Magazine",
               "author": null,
@@ -13899,7 +13959,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 73,
+              "position": 75,
               "id": "01m1kpjvpkpjy10c0zp09d0hty",
               "title": "How to be useless",
               "author": null,
@@ -13928,7 +13988,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 74,
+              "position": 76,
               "id": "01m1pyvabgbtrpfw7ep29vv3n4",
               "title": "Your Book Review: The Tale Of Genji",
               "author": null,
@@ -13957,7 +14017,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 75,
+              "position": 77,
               "id": "01m1tw8t22s6fc27h7zb9zgpte",
               "title": "De grootste bedreiging voor onze christelijke cultuur? Een lege boekenkast",
               "author": null,
@@ -13988,7 +14048,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 76,
+              "position": 78,
               "id": "01kqgd25gt91afe9a1fyavnccq",
               "title": "The dawn of the post-literate society",
               "author": null,
@@ -14016,7 +14076,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 77,
+              "position": 79,
               "id": "01m2093q7bj4j3wk3fzpev5jkw",
               "title": "Hoe het christendom onze cultuur vormde",
               "author": null,
@@ -14046,7 +14106,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 78,
+              "position": 80,
               "id": "01j421m304fbn5rwfh0a9bpzp3",
               "title": "Fear as a Game",
               "author": null,
@@ -14075,7 +14135,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 79,
+              "position": 81,
               "id": "01j60ew3kgknk776nphjxvz9ph",
               "title": "Envy: the Vestige of a Miserable World",
               "author": null,
@@ -14105,7 +14165,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 80,
+              "position": 82,
               "id": "01jkgy1x7yacy66ys284ddq8yw",
               "title": "Why do most popular science books suck?",
               "author": null,
@@ -14134,7 +14194,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 81,
+              "position": 83,
               "id": "01k3wpn5ak9v4pmtc85h462cav",
               "title": "On the pleasure of reading private notebooks",
               "author": null,
@@ -14163,7 +14223,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 82,
+              "position": 84,
               "id": "01k3wpv85qh52sj9ffa8rrz1bm",
               "title": "Chromatic Rebel #2: why is the West so color-minimalist?",
               "author": null,
@@ -14192,7 +14252,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 83,
+              "position": 85,
               "id": "01k7qbgbanjkbvetnkfd47vkrz",
               "title": "How I wrote \"Looking for Alice\"",
               "author": null,
@@ -14221,7 +14281,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 84,
+              "position": 86,
               "id": "01k7tw6vrkda5hp5070ra2wqm6",
               "title": "Five SFF Stories That Shed Light on Obscure History",
               "author": null,
@@ -14250,7 +14310,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 85,
+              "position": 87,
               "id": "01k80nvw2z9d40qq24hveszqrw",
               "title": "De hel van het gelijke",
               "author": null,
@@ -14282,7 +14342,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 86,
+              "position": 88,
               "id": "01kaecmp565yrjt89z6qhc3ydq",
               "title": "Why Did Wealth Stop Building Beautiful Things?",
               "author": null,
@@ -14311,7 +14371,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 87,
+              "position": 89,
               "id": "01kaen0f4sd6p0wsrv0fw7320f",
               "title": "🌲 The Best \"Gamified X\" App is a GAME",
               "author": null,
@@ -14340,7 +14400,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 88,
+              "position": 90,
               "id": "01kc53cvnp2fqe09v8vmbym5mx",
               "title": "🎓 On Teleportation & Understanding via Writing",
               "author": null,
@@ -14369,7 +14429,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 89,
+              "position": 91,
               "id": "01kcfca0wrxztgk2sqe31khzbr",
               "title": "Now Watch Me Read | The New Yorker",
               "author": null,
@@ -14398,7 +14458,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 90,
+              "position": 92,
               "id": "01kfvhtf2ba0mpxx157hg6y663",
               "title": "The secret to being happy in 2026? It’s far, far simpler than you think …",
               "author": null,
@@ -14427,7 +14487,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 91,
+              "position": 93,
               "id": "01kqy8wyp8f7z6nqcby6ajbnm4",
               "title": "The world reveals itself to those who travel by foot",
               "author": null,
@@ -14456,7 +14516,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 92,
+              "position": 94,
               "id": "01krnyr9cxy0rhqzt148zy5p99",
               "title": "Good conversations have lots of doorknobs",
               "author": null,
@@ -14486,7 +14546,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 93,
+              "position": 95,
               "id": "01ksftktanvm593t6d9871cmm4",
               "title": "This week: a long walk on a beach, and ancient Roman graffiti.",
               "author": null,
@@ -14516,7 +14576,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 94,
+              "position": 96,
               "id": "01ksn9qmay1erty7g5cha7xgmj",
               "title": "Why I Don’t Write Every Day",
               "author": null,
@@ -14543,7 +14603,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 95,
+              "position": 97,
               "id": "01kvamre3nhre408596w2e8d3s",
               "title": "Candice Millard and the Revival of History as Literature",
               "author": null,
@@ -14571,7 +14631,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 96,
+              "position": 98,
               "id": "01kvgakgatt08e2qpyayjn518f",
               "title": "How habits actually work",
               "author": null,
@@ -14601,7 +14661,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 97,
+              "position": 99,
               "id": "01kvjxf10abr48cgyg351gvcfm",
               "title": "Short Reviews for June 2026",
               "author": null,
@@ -14632,7 +14692,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 98,
+              "position": 100,
               "id": "01kvwytrrghvckwz0stdxe2mgw",
               "title": "Week 15, 16, 17, 18: Zuid-Holland",
               "author": null,
@@ -14658,64 +14718,6 @@ window.TOP_ARTICLES = {
               ],
               "coreInterests": [
                 "sociologie"
-              ],
-              "alsoIn": []
-            },
-            {
-              "position": 99,
-              "id": "01kw4djwahhwy93y8hrkg48wmd",
-              "title": "Literature: The Ultimate Answer to the Algorithm",
-              "author": null,
-              "siteName": "Substack",
-              "category": "email",
-              "language": null,
-              "readingTime": "7 mins",
-              "readingMinutes": 7,
-              "wordCount": 1816,
-              "publishedDate": "2026-06-27",
-              "savedDate": "2026-06-27T11:31:35.890000+00:00",
-              "imageUrl": null,
-              "sourceUrl": "mailto:reader-forwarded-email/e90ecf42528aefd40d3f95e4c905d057",
-              "readwiseUrl": "https://read.readwise.io/read/01kw4djwahhwy93y8hrkg48wmd",
-              "summary": "In his book Wanting, Luke Burgis offers us something we rarely pause to consider: the idea that most of what we desire, crave, and long for is mediated through webs of social influence of which we are largely oblivious.",
-              "whyRead": "Raakt je interesse in lezen, filosofie en cultuurkritiek: dit essay gebruikt Luke Burgis en René Girard om literatuur te presenteren als tegenomgeving voor algoritmische begeerte. De meerwaarde zit in de koppeling van mimetisch verlangen, studiositas en lezen als zelfvorming.",
-              "bestMoment": "analytisch",
-              "tags": [
-                "arts & culture",
-                "learning & meta-learning",
-                "philosophy"
-              ],
-              "coreInterests": [
-                "filosofie"
-              ],
-              "alsoIn": []
-            },
-            {
-              "position": 100,
-              "id": "01kw4zh122v8djscsxaaq42ke7",
-              "title": "My Hugo Ballot 2: Best Novel & others",
-              "author": null,
-              "siteName": "Substack",
-              "category": "email",
-              "language": null,
-              "readingTime": "7 mins",
-              "readingMinutes": 7,
-              "wordCount": 1699,
-              "publishedDate": "2026-06-27",
-              "savedDate": "2026-06-27T16:45:09.571000+00:00",
-              "imageUrl": null,
-              "sourceUrl": "mailto:reader-forwarded-email/6cce7b772f065f99411cfeaa89d6d16d",
-              "readwiseUrl": "https://read.readwise.io/read/01kw4zh122v8djscsxaaq42ke7",
-              "summary": "Best Novel being best known makes sense, given that science fiction and fantasy novels are much more popular than shorter form. In fact, the traditional market for shorter-form fiction has collapsed.",
-              "whyRead": "Raakt fantasy/sciencefiction en cultuur rond awards: dit is een persoonlijke Hugo-ballot met korte evaluaties van romans, gedichten en related work. De meerwaarde zit in signalen voor mogelijke SF/F-leeskeuzes.",
-              "bestMoment": "ontspannen",
-              "tags": [
-                "arts & culture",
-                "fiction",
-                "games"
-              ],
-              "coreInterests": [
-                "cultuur_games_film"
               ],
               "alsoIn": []
             }
@@ -26930,6 +26932,37 @@ window.TOP_ARTICLES = {
             },
             {
               "position": 2,
+              "id": "01m2e4kdpwh1a7869hvqwxmkh3",
+              "title": "Intermezzo 'Inclusie anders berekenen: inclusie als oplossing.'",
+              "author": null,
+              "siteName": "linkedin.com",
+              "category": "article",
+              "language": null,
+              "readingTime": "4 mins",
+              "readingMinutes": 4,
+              "wordCount": 888,
+              "publishedDate": null,
+              "savedDate": "2026-09-13T19:41:11.772000+00:00",
+              "imageUrl": "https://media.licdn.com/dms/image/v2/D4E12AQFXCfIbfyE2xg/article-cover_image-shrink_720_1280/B4EaCQ1yllJQAQ-/0/1789136419264?e=2147483647&v=beta&t=d9kqj9VI8kAnw3SG5uAIMFuHje0o7DqzBGBqnrnXTDY",
+              "sourceUrl": "https://www.linkedin.com/pulse/intermezzo-inclusie-anders-berekenen-als-oplossing-pauline-gransier-dndue/",
+              "readwiseUrl": "https://read.readwise.io/read/01m2e4kdpwh1a7869hvqwxmkh3",
+              "summary": "Wat kost het ons? Tot een paar jaar geleden stelde ik het stellen van mijn hulpvraag altijd uit. Niet alleen omdat ik wist dat het zeker drie, tot vijf afspraken zou gaan kosten om mijn hulpmiddel uiteindelijk gerepareerd te krijgen.",
+              "whyRead": "Een persoonlijk en scherp essay over handicap, inclusie en de verborgen maatschappelijke kosten van ontoegankelijke systemen.",
+              "bestMoment": "reflectief",
+              "tags": [
+                "accessibility",
+                "social psychology & interpersonal dynamics",
+                "sociology & social structures"
+              ],
+              "coreInterests": [
+                "sociologie"
+              ],
+              "alsoIn": [
+                "aaa-front-end-development-top-100"
+              ]
+            },
+            {
+              "position": 3,
               "id": "01m1q5m76kf897skswb68b4ybj",
               "title": "A Dao of Web Design",
               "author": null,
@@ -26963,7 +26996,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 3,
+              "position": 4,
               "id": "01m1q39c2bg52c45zpapazahcw",
               "title": "How do you figure?",
               "author": null,
@@ -26995,7 +27028,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 4,
+              "position": 5,
               "id": "01m1q5mj32wmmzv65nwajcxaf3",
               "title": "Pocket-Sized Design: Taking Your Website to the Small Screen",
               "author": null,
@@ -27027,7 +27060,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 5,
+              "position": 6,
               "id": "01m1q5mmmtp4bapv8zdc44zcvg",
               "title": "Put Your Content in My Pocket",
               "author": null,
@@ -27058,7 +27091,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 6,
+              "position": 7,
               "id": "01m1q397npt8pd2zgh8kkyx7g7",
               "title": "Accessible JavaScript JavaScript Event Handlers",
               "author": null,
@@ -27089,7 +27122,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 7,
+              "position": 8,
               "id": "01m1qrpd5gceesywwc4xbbs2d9",
               "title": "Use of ALT texts in IMGs",
               "author": null,
@@ -27161,6 +27194,37 @@ window.TOP_ARTICLES = {
             },
             {
               "position": 2,
+              "id": "01m2e4kdpwh1a7869hvqwxmkh3",
+              "title": "Intermezzo 'Inclusie anders berekenen: inclusie als oplossing.'",
+              "author": null,
+              "siteName": "linkedin.com",
+              "category": "article",
+              "language": null,
+              "readingTime": "4 mins",
+              "readingMinutes": 4,
+              "wordCount": 888,
+              "publishedDate": null,
+              "savedDate": "2026-09-13T19:41:11.772000+00:00",
+              "imageUrl": "https://media.licdn.com/dms/image/v2/D4E12AQFXCfIbfyE2xg/article-cover_image-shrink_720_1280/B4EaCQ1yllJQAQ-/0/1789136419264?e=2147483647&v=beta&t=d9kqj9VI8kAnw3SG5uAIMFuHje0o7DqzBGBqnrnXTDY",
+              "sourceUrl": "https://www.linkedin.com/pulse/intermezzo-inclusie-anders-berekenen-als-oplossing-pauline-gransier-dndue/",
+              "readwiseUrl": "https://read.readwise.io/read/01m2e4kdpwh1a7869hvqwxmkh3",
+              "summary": "Wat kost het ons? Tot een paar jaar geleden stelde ik het stellen van mijn hulpvraag altijd uit. Niet alleen omdat ik wist dat het zeker drie, tot vijf afspraken zou gaan kosten om mijn hulpmiddel uiteindelijk gerepareerd te krijgen.",
+              "whyRead": "Een persoonlijk en scherp essay over handicap, inclusie en de verborgen maatschappelijke kosten van ontoegankelijke systemen.",
+              "bestMoment": "reflectief",
+              "tags": [
+                "accessibility",
+                "social psychology & interpersonal dynamics",
+                "sociology & social structures"
+              ],
+              "coreInterests": [
+                "sociologie"
+              ],
+              "alsoIn": [
+                "aaa-front-end-development-top-10"
+              ]
+            },
+            {
+              "position": 3,
               "id": "01m1q5m76kf897skswb68b4ybj",
               "title": "A Dao of Web Design",
               "author": null,
@@ -27194,7 +27258,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 3,
+              "position": 4,
               "id": "01m1q39c2bg52c45zpapazahcw",
               "title": "How do you figure?",
               "author": null,
@@ -27226,7 +27290,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 4,
+              "position": 5,
               "id": "01m1q5mj32wmmzv65nwajcxaf3",
               "title": "Pocket-Sized Design: Taking Your Website to the Small Screen",
               "author": null,
@@ -27258,7 +27322,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 5,
+              "position": 6,
               "id": "01m1q5mmmtp4bapv8zdc44zcvg",
               "title": "Put Your Content in My Pocket",
               "author": null,
@@ -27289,7 +27353,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 6,
+              "position": 7,
               "id": "01m1q397npt8pd2zgh8kkyx7g7",
               "title": "Accessible JavaScript JavaScript Event Handlers",
               "author": null,
@@ -27320,7 +27384,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 7,
+              "position": 8,
               "id": "01m1qrpd5gceesywwc4xbbs2d9",
               "title": "Use of ALT texts in IMGs",
               "author": null,
@@ -34513,6 +34577,35 @@ window.TOP_ARTICLES = {
             },
             {
               "position": 28,
+              "id": "01m2f1qrd2q395gz2wkwc8x1n7",
+              "title": "The psychology behind tab hoarding and how to overcome it",
+              "author": null,
+              "siteName": "maxfoc.us",
+              "category": "article",
+              "language": null,
+              "readingTime": "5 mins",
+              "readingMinutes": 5,
+              "wordCount": 1199,
+              "publishedDate": null,
+              "savedDate": "2026-09-14T04:10:22.498000+00:00",
+              "imageUrl": "https://maxfoc.us/assets/blog/tab-hoarder-cover.webp",
+              "sourceUrl": "https://maxfoc.us/blog/how-to-overcome-tab-hoarding/",
+              "readwiseUrl": "https://read.readwise.io/read/01m2f1qrd2q395gz2wkwc8x1n7",
+              "summary": "Discussing the psychology behind tab hoarding and how to overcome it. Learn why we hoard tabs and how to manage them better.",
+              "whyRead": "Raakt je kerninteresses in ADHD & neurodivergentie, browsergebruik en kennisbeheer: dit artikel verklaart waarom open tabbladen tegelijk als geheugensteun, onafgemaakte taak en bron van stress kunnen functioneren. De meerwaarde zit in een bruikbaar onderzoeksmodel plus eenvoudige manieren om je browser weer als hulpmiddel te gebruiken.",
+              "bestMoment": "leergierig",
+              "tags": [
+                "adhd & neurodivergence",
+                "learning & meta-learning",
+                "technology"
+              ],
+              "coreInterests": [
+                "adhd"
+              ],
+              "alsoIn": []
+            },
+            {
+              "position": 29,
               "id": "01m0b3f56gwerhja7mext6qpv8",
               "title": "It’s Bayes All The Way Up",
               "author": null,
@@ -34540,7 +34633,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 29,
+              "position": 30,
               "id": "01m0b3f62sb716wyqk6tqva87v",
               "title": "Why Are Transgender People Immune To Optical Illusions?",
               "author": null,
@@ -34574,6 +34667,853 @@ window.TOP_ARTICLES = {
   ],
   "catalog": {
     "items": [
+      {
+        "position": null,
+        "id": "01m2fgr2jmmy1r16h3wx27vqkd",
+        "title": "When the Tab Comes Due:Challenges in the Cost Structure of Browser Tab Usage | Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems",
+        "author": null,
+        "siteName": "copernicus.org",
+        "category": "article",
+        "language": null,
+        "readingTime": "16 mins",
+        "readingMinutes": 16,
+        "wordCount": 4200,
+        "publishedDate": null,
+        "savedDate": "2026-09-14T08:32:41.556000+00:00",
+        "imageUrl": "https://dl.acm.org/cms/asset/f51e7891-e100-4500-a40c-7428405a5c7d/3411764.cover.jpg",
+        "sourceUrl": "https://doi.org/10.1145/3411764.3445585",
+        "readwiseUrl": "https://read.readwise.io/read/01m2fgr2jmmy1r16h3wx27vqkd",
+        "summary": "Tabs have become integral to browsing the Web yet have changed little since their introduction nearly 20 years ago.",
+        "whyRead": "Raakt je kerninteresses in ADHD, kennisbeheer en front-end software development: dit CHI-onderzoek onderzoekt waarom mensen browser-tabs blijven openen en welke browserinterfaces informatieverwerking beter kunnen ondersteunen. De meerwaarde zit in de combinatie van gebruikersinterviews, observaties en een enquête, al is Reader vooral het abstract en de referenties kunnen tonen.",
+        "bestMoment": "analytisch",
+        "tags": [
+          "front-end software development",
+          "learning & meta-learning",
+          "research papers & academia"
+        ],
+        "coreInterests": [],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01m2fgn9djzst33ys2bpta7d5h",
+        "title": "The Menu Trends That Define Dining Right Now",
+        "author": null,
+        "siteName": "New York Times",
+        "category": "article",
+        "language": null,
+        "readingTime": "7 mins",
+        "readingMinutes": 7,
+        "wordCount": 1758,
+        "publishedDate": "2024-01-23",
+        "savedDate": "2026-09-14T08:31:10.258000+00:00",
+        "imageUrl": "https://static01.nyt.com/images/2024/01/22/dining/restaurant-menu-trends-1705973254659/restaurant-menu-trends-1705973254659-facebookJumbo.jpg",
+        "sourceUrl": "https://www.nytimes.com/interactive/2024/01/22/dining/restaurant-menu-trends.html",
+        "readwiseUrl": "https://read.readwise.io/read/01m2fgn9djzst33ys2bpta7d5h",
+        "summary": "We gathered 121 menus from restaurants all over the country. Together, they offer a glimpse into the tastes and values of today.",
+        "whyRead": "Raakt je interesse in kunst & cultuur en ontwerp: deze visuele New York Times-geschiedenis leest restaurantmenu’s als tijdcapsules van smaak, waarden, branding en sociale verandering. De meerwaarde zit in de concrete combinatie van typografie, materiaal, informatiearchitectuur en eetgewoonten.",
+        "bestMoment": "ontspannen",
+        "tags": [
+          "arts & culture",
+          "food & cooking"
+        ],
+        "coreInterests": [],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01m2fgn2ms4jd24hbfr0rv0sce",
+        "title": "The Fate of Free Will | James Gleick | The New York Review of Books",
+        "author": null,
+        "siteName": "The New York Review of Books",
+        "category": "article",
+        "language": null,
+        "readingTime": "19 mins",
+        "readingMinutes": 19,
+        "wordCount": 4793,
+        "publishedDate": "2023-12-28",
+        "savedDate": "2026-09-14T08:31:03.319000+00:00",
+        "imageUrl": "https://www.nybooks.com/wp-content/uploads/2023/12/gleick_1-011824-900.jpg",
+        "sourceUrl": "https://www.nybooks.com/articles/2024/01/18/the-fate-of-free-will-free-agents-kevin-mitchell/",
+        "readwiseUrl": "https://read.readwise.io/read/01m2fgn2ms4jd24hbfr0rv0sce",
+        "summary": "Nobody was holding a gun to your head when you started reading this. You made a choice. Surely it felt that way, at least. A sense of agency—of control",
+        "whyRead": "Raakt je kerninteresses in filosofie, vrije wil en AI-ethiek: James Gleick bespreekt Kevin Mitchells wetenschappelijke verdediging van menselijke agency tegen zowel naïef dualisme als hard reductionisme. De meerwaarde zit in een toegankelijke route van evolutie en neurowetenschap naar de vraag wat mensen van AI onderscheidt.",
+        "bestMoment": "analytisch",
+        "tags": [
+          "ai ethics & society",
+          "philosophy",
+          "science"
+        ],
+        "coreInterests": [
+          "filosofie"
+        ],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01m2fgmx0wb84m2gbcr6zv16e1",
+        "title": "The Notes of Fredric Jameson",
+        "author": null,
+        "siteName": "The Oxonian Review",
+        "category": "article",
+        "language": null,
+        "readingTime": "2 mins",
+        "readingMinutes": 2,
+        "wordCount": 294,
+        "publishedDate": "2023-10-22",
+        "savedDate": "2026-09-14T08:30:57.564000+00:00",
+        "imageUrl": "https://oxonianreview.com/media/pages/articles/the-notes-of-fredric-jameson/495f2e094c-1698087065/fredric-jameson-480x.jpg",
+        "sourceUrl": "https://oxonianreview.com/articles/the-notes-of-fredric-jameson",
+        "readwiseUrl": "https://read.readwise.io/read/01m2fgmx0wb84m2gbcr6zv16e1",
+        "summary": "Last year, the editors of The Oxonian Review, on a lark, asked the American literary critic and philosopher Fredric Jameson if he would contribute to our series on notes.",
+        "whyRead": "Raakt je interesse in kennisbeheer, essay schrijven en Fredric Jamesons politieke cultuurkritiek: dit ultrakorte stuk laat zien hoe een ervaren denker zijn notities ordent. De meerwaarde zit in de eenvoudige overgang van losse observaties naar categorieën.",
+        "bestMoment": "leergierig",
+        "tags": [
+          "arts & culture",
+          "learning & meta-learning"
+        ],
+        "coreInterests": [],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01m2f4wckmpcrxarkyqb1tcqpx",
+        "title": "Why women’s laughter has long been treated as a threat",
+        "author": null,
+        "siteName": "Psyche",
+        "category": "article",
+        "language": null,
+        "readingTime": "7 mins",
+        "readingMinutes": 7,
+        "wordCount": 1815,
+        "publishedDate": "2026-09-11",
+        "savedDate": "2026-09-14T05:05:19.987000+00:00",
+        "imageUrl": "https://images.aeonmedia.co/images/fcfca42e-6307-4326-8bde-3947f0a8c5b3/sz-spain-panos_00042665.jpg?top=123&left=0&cropWidth=2352&cropHeight=1323&width=1200&quality=75&format=jpeg",
+        "sourceUrl": "https://psyche.co/ideas/why-womens-laughter-has-long-been-treated-as-a-threat",
+        "readwiseUrl": "https://read.readwise.io/read/01m2f4wckmpcrxarkyqb1tcqpx",
+        "summary": "Traditional patriarchy has always told women not to laugh. Today, female laughter still disturbs a male-dominated world",
+        "whyRead": "Raakt je interesse in macht, sociale structuren en menselijke interactie: dit essay laat zien hoe vrouwelijke lach door religieuze, culturele en mediatische normen als ongepast of bedreigend is behandeld. De meerwaarde zit in de combinatie van ideeëngeschiedenis, onderzoek en een persoonlijk familieverhaal.",
+        "bestMoment": "kritisch",
+        "tags": [
+          "arts & culture",
+          "social psychology & interpersonal dynamics",
+          "sociology & social structures"
+        ],
+        "coreInterests": [
+          "sociologie"
+        ],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01m2f4w1qrcxww1kbenyj3cr05",
+        "title": "In Japanese philosophy, unlike the atomised Western self, we are ‘ningen’ (人間), each enmeshed with other humans and nature",
+        "author": null,
+        "siteName": "Aeon",
+        "category": "article",
+        "language": null,
+        "readingTime": "15 mins",
+        "readingMinutes": 15,
+        "wordCount": 3787,
+        "publishedDate": "2026-02-05",
+        "savedDate": "2026-09-14T05:05:08.856000+00:00",
+        "imageUrl": "https://images.aeonmedia.co/images/3a3973dd-4950-4c8a-a0c1-a683b33370ec/essay-par388351.jpg?width=1200&quality=75&format=jpg",
+        "sourceUrl": "https://aeon.co/essays/the-japanese-ethics-of-ningen-dethrones-the-western-self",
+        "readwiseUrl": "https://read.readwise.io/read/01m2f4w1qrcxww1kbenyj3cr05",
+        "summary": "In Japanese philosophy, unlike the atomised Western self, we are ‘ningen’ (人間), each enmeshed with other humans and nature",
+        "whyRead": "Raakt je kerninteresses in filosofie, ethiek en macht/structuur: dit essay gebruikt Watsuji Tetsurō’s begrip *ningen* om het westerse beeld van de autonome, op zichzelf staande mens te bevragen. De meerwaarde zit in een toegankelijke ingang tot Japanse en boeddhistische ideeën over mens-zijn, natuur en onderlinge afhankelijkheid.",
+        "bestMoment": "analytisch",
+        "tags": [
+          "ethics",
+          "philosophy",
+          "political philosophy"
+        ],
+        "coreInterests": [
+          "filosofie",
+          "ideologie"
+        ],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01m2f4vhjwkb40hj43k1y2b27b",
+        "title": "The Shadow Organization: Why Your Real Org Chart Is Invisible",
+        "author": null,
+        "siteName": "Scrum.org",
+        "category": "article",
+        "language": null,
+        "readingTime": "5 mins",
+        "readingMinutes": 5,
+        "wordCount": 1167,
+        "publishedDate": "2026-02-01",
+        "savedDate": "2026-09-14T05:04:52.314000+00:00",
+        "imageUrl": "https://www.scrum.org/themes/custom/scrumorg_v2/assets/images/Scrumorg-Logo_tagline-200-ratio191.png",
+        "sourceUrl": "https://www.scrum.org/resources/blog/shadow-organization-why-your-real-org-chart-invisible",
+        "readwiseUrl": "https://read.readwise.io/read/01m2f4vhjwkb40hj43k1y2b27b",
+        "summary": "Org charts show control; influence networks show reality. Map the shadow org, find informal leaders/bottlenecks, and align authority/processes to cut friction and boost speed.",
+        "whyRead": "Raakt je werk in Scrum- en teamcoaching en je interesse in organisatiegedrag: dit artikel maakt zichtbaar hoe informele invloed, expertise en vertrouwen naast het formele organogram bepalen hoe werk werkelijk gebeurt. De meerwaarde zit in een praktisch model om frictie, bottlenecks en verborgen leiderschap te diagnosticeren.",
+        "bestMoment": "leergierig",
+        "tags": [
+          "organizational behavior & culture",
+          "professional development",
+          "team dynamics & collaboration"
+        ],
+        "coreInterests": [
+          "agile"
+        ],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01m2f1qxw8ddqy8yg8bedvven0",
+        "title": "When Making a Salad Felt Radical - The New York Times",
+        "author": null,
+        "siteName": "New York Times",
+        "category": "article",
+        "language": null,
+        "readingTime": "6 mins",
+        "readingMinutes": 6,
+        "wordCount": 1455,
+        "publishedDate": "2022-07-18",
+        "savedDate": "2026-09-14T04:10:28.102000+00:00",
+        "imageUrl": "https://static01.nyt.com/images/2022/07/19/arts/14alison-knowles1/14alison-knowles1-facebookJumbo.jpg",
+        "sourceUrl": "https://www.nytimes.com/2022/07/18/arts/design/alison-knowles-bampfa-berkeley-fluxus-art.html",
+        "readwiseUrl": "https://read.readwise.io/read/01m2f1qxw8ddqy8yg8bedvven0",
+        "summary": "Ahead of her retrospective in Berkeley, Calif., the artist Alison Knowles talks about her Fluxus roots, the appeal of beans and the power of interactive artworks.",
+        "whyRead": "Raakt je interesse in kunst & cultuur, essayistische analyses en menselijke interactie: in dit interview vertelt Fluxus-kunstenaar Alison Knowles hoe participatie, alledaagse materialen en toeval kunst kunnen veranderen in een gedeelde activiteit. De meerwaarde zit in de concrete voorbeelden — van bonen en salades tot boeken als architectuur — en in haar volharding als vrouwelijke pionier.",
+        "bestMoment": "ontspannen",
+        "tags": [
+          "arts & culture",
+          "history",
+          "social psychology & interpersonal dynamics"
+        ],
+        "coreInterests": [
+          "geschiedenis",
+          "sociologie"
+        ],
+        "alsoIn": [
+          "aaa-luchtig-top-100"
+        ],
+        "memberships": [
+          {
+            "familyId": "luchtig",
+            "size": "top-100",
+            "position": 60
+          }
+        ]
+      },
+      {
+        "position": null,
+        "id": "01m2f1qxfpj7qyzp0fj9d7qbfr",
+        "title": "Sally Kawamura: Towards Infinity: Mieko Shiomi’s “Transmedia”",
+        "author": null,
+        "siteName": "Activating Fluxus",
+        "category": "article",
+        "language": null,
+        "readingTime": "8 mins",
+        "readingMinutes": 8,
+        "wordCount": 2085,
+        "publishedDate": "2023-05-07",
+        "savedDate": "2026-09-14T04:10:27.702000+00:00",
+        "imageUrl": "https://activatingfluxus.com/wp-content/uploads/2023/05/screenshot-2023-05-07-at-13.52.22.png?w=1200",
+        "sourceUrl": "https://activatingfluxus.com/2023/05/07/sally-kawamura-towards-infinity-mieko-shiomis-transmedia/",
+        "readwiseUrl": "https://read.readwise.io/read/01m2f1qxfpj7qyzp0fj9d7qbfr",
+        "summary": "Associated researcher Sally Kawamura explores the idea of “transmedia,” a term first coined by artist Mieko Shiomi in 2012. This concept refers to the process of creating new works or r…",
+        "whyRead": "Raakt je interesse in kunst & cultuur, interactieve vormen en de relatie tussen objecten, publiek en context: dit essay laat aan de hand van Mieko Shiomi’s Fluxus-werk zien hoe een kunstidee via nieuwe media kan blijven veranderen. De meerwaarde zit in het scherpe onderscheid tussen documentatie, heruitvoering en een nieuw creatief werk.",
+        "bestMoment": "analytisch",
+        "tags": [
+          "arts & culture",
+          "history",
+          "social psychology & interpersonal dynamics"
+        ],
+        "coreInterests": [
+          "geschiedenis",
+          "sociologie"
+        ],
+        "alsoIn": [
+          "aaa-luchtig-top-100"
+        ],
+        "memberships": [
+          {
+            "familyId": "luchtig",
+            "size": "top-100",
+            "position": 32
+          }
+        ]
+      },
+      {
+        "position": null,
+        "id": "01m2f1qw8rewcdb95hw49gessm",
+        "title": "best books of 2023",
+        "author": null,
+        "siteName": "personalcanon.com",
+        "category": "article",
+        "language": null,
+        "readingTime": "18 mins",
+        "readingMinutes": 18,
+        "wordCount": 4579,
+        "publishedDate": "2023-12-30",
+        "savedDate": "2026-09-14T04:10:26.455000+00:00",
+        "imageUrl": "https://substackcdn.com/image/fetch/w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1eda0dbf-372e-4a1b-9bba-f83540a99db2_2822x3499.jpeg",
+        "sourceUrl": "https://www.personalcanon.com/p/best-books-of-2023",
+        "readwiseUrl": "https://read.readwise.io/read/01m2f1qw8rewcdb95hw49gessm",
+        "summary": "I read 94 books this year and now I'm cruelly picking my favorite (novels, nonfiction, autofiction)",
+        "whyRead": "Raakt je kerninteresses in literatuur, kunst & cultuur en essayistisch denken: deze persoonlijke leeslijst laat zien hoe romans, literaire kritiek, filosofie en autobiografische essays samen een manier van leven en kijken vormen. De meerwaarde zit in de uitgesproken smaak, de aandacht voor vertaalde literatuur en de eerlijke reflectie op wat wel en niet werkt.",
+        "bestMoment": "ontspannen",
+        "tags": [
+          "arts & culture",
+          "fiction"
+        ],
+        "coreInterests": [],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01m2f1qvmgf0yvz685q4v299h8",
+        "title": "oblique strategies for starting a new project",
+        "author": null,
+        "siteName": "personalcanon.com",
+        "category": "article",
+        "language": null,
+        "readingTime": "12 mins",
+        "readingMinutes": 12,
+        "wordCount": 2974,
+        "publishedDate": null,
+        "savedDate": "2026-09-14T04:10:25.806000+00:00",
+        "imageUrl": "https://substackcdn.com/image/fetch/w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F580cdd3a-c1ad-4228-a5be-c1185d0ee809_1280x1304.jpeg",
+        "sourceUrl": "https://www.personalcanon.com/p/oblique-strategies-for-starting-a",
+        "readwiseUrl": "https://read.readwise.io/read/01m2f1qvmgf0yvz685q4v299h8",
+        "summary": "how I use Brian Eno's Oblique Strategies in writing and designing ✦ Žižek's notetaking advice",
+        "whyRead": "Raakt je kerninteresses in essay schrijven, kennisbeheer en filosofie: dit essay laat zien hoe een schrijver starten en afronden hanteerbaar maakt met proces, toeval en notities. De meerwaarde zit in de concrete verbinding tussen creatieve discipline, Oblique Strategies en de overgang van lezen naar eigen werk.",
+        "bestMoment": "geïnspireerd",
+        "tags": [
+          "arts & culture",
+          "learning & meta-learning",
+          "personal growth & life philosophy"
+        ],
+        "coreInterests": [],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01m2f1qv0xwv2dgdzxfzng5ymq",
+        "title": "how to change your life, part 2: agnes callard's aspiration",
+        "author": null,
+        "siteName": "personalcanon.com",
+        "category": "article",
+        "language": null,
+        "readingTime": "21 mins",
+        "readingMinutes": 21,
+        "wordCount": 5519,
+        "publishedDate": "2024-04-11",
+        "savedDate": "2026-09-14T04:10:25.181000+00:00",
+        "imageUrl": "https://substackcdn.com/image/fetch/w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F45b30d77-ef58-4243-b6ad-e82a3e584b30_1124x850.jpeg",
+        "sourceUrl": "https://www.personalcanon.com/p/how-to-change-your-life-part-2-on",
+        "readwiseUrl": "https://read.readwise.io/read/01m2f1qv0xwv2dgdzxfzng5ymq",
+        "summary": "every writer begins as a poseur ✦ on Kafka, Proust, philosophy, and trying very hard",
+        "whyRead": "Raakt je interesse in filosofie, persoonlijke ontwikkeling en schrijven: Celine Nguyen gebruikt Agnes Callards aspiratietheorie, naast Kafka en Proust, om te verklaren hoe een gewenste identiteit door herhaald handelen ontstaat. De meerwaarde zit in het onderscheid tussen een plotselinge transformatieve ervaring en langdurig aspireren, plus de geruststelling dat onhandig beginnen onderdeel van het proces is.",
+        "bestMoment": "analytisch",
+        "tags": [
+          "arts & culture",
+          "personal growth & life philosophy",
+          "philosophy"
+        ],
+        "coreInterests": [
+          "filosofie"
+        ],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01m2f1qtbxxecyjvt0grta9heq",
+        "title": "An invitation to a secret society - by Adam Mastroianni\nAn invitation to a secret society",
+        "author": null,
+        "siteName": "experimental-history.com",
+        "category": "article",
+        "language": null,
+        "readingTime": "12 mins",
+        "readingMinutes": 12,
+        "wordCount": 3116,
+        "publishedDate": "2023-07-20",
+        "savedDate": "2026-09-14T04:10:24.510000+00:00",
+        "imageUrl": "https://substackcdn.com/image/fetch/w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F548f103c-9c2a-4e20-aa3f-c0cec659b902_1194x1523.jpeg",
+        "sourceUrl": "https://www.experimental-history.com/p/an-invitation-to-a-secret-society",
+        "readwiseUrl": "https://read.readwise.io/read/01m2f1qtbxxecyjvt0grta9heq",
+        "summary": "Or: why you should be a lizard",
+        "whyRead": "Raakt je interesse in wetenschap, leren en onafhankelijke kennisproductie: Adam Mastroianni nodigt nieuwsgierige mensen uit om zelf vragen te onderzoeken en resultaten publiek te delen. De meerwaarde zit in zijn kritiek op de monocultuur van professionele wetenschap én in de praktische, laagdrempelige adviezen voor goed en eerlijk onderzoek.",
+        "bestMoment": "geïnspireerd",
+        "tags": [
+          "learning & meta-learning",
+          "science"
+        ],
+        "coreInterests": [],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01m2f1qsjbjjd1q545081af3ve",
+        "title": "Tools for Thought",
+        "author": null,
+        "siteName": "rheingold.com",
+        "category": "article",
+        "language": null,
+        "readingTime": "1 min",
+        "readingMinutes": 1,
+        "wordCount": 209,
+        "publishedDate": "2011-10-09",
+        "savedDate": "2026-09-14T04:10:23.691000+00:00",
+        "imageUrl": null,
+        "sourceUrl": "https://www.rheingold.com/texts/tft/",
+        "readwiseUrl": "https://read.readwise.io/read/01m2f1qsjbjjd1q545081af3ve",
+        "summary": null,
+        "whyRead": "Raakt je kerninteresses in kennisbeheer en technologiegeschiedenis: Howard Rheingold schetst hoe “tools for thought” voortkwamen uit Xerox PARC, Engelbart en andere denkers die computers als versterkers van denken en communicatie zagen. De meerwaarde zit in het historische perspectief op de persoonlijke kennisinfrastructuur die je nu zelf gebruikt.",
+        "bestMoment": "analytisch",
+        "tags": [
+          "history",
+          "learning & meta-learning",
+          "technology"
+        ],
+        "coreInterests": [
+          "geschiedenis"
+        ],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01m2f1qrd2q395gz2wkwc8x1n7",
+        "title": "The psychology behind tab hoarding and how to overcome it",
+        "author": null,
+        "siteName": "maxfoc.us",
+        "category": "article",
+        "language": null,
+        "readingTime": "5 mins",
+        "readingMinutes": 5,
+        "wordCount": 1199,
+        "publishedDate": null,
+        "savedDate": "2026-09-14T04:10:22.498000+00:00",
+        "imageUrl": "https://maxfoc.us/assets/blog/tab-hoarder-cover.webp",
+        "sourceUrl": "https://maxfoc.us/blog/how-to-overcome-tab-hoarding/",
+        "readwiseUrl": "https://read.readwise.io/read/01m2f1qrd2q395gz2wkwc8x1n7",
+        "summary": "Discussing the psychology behind tab hoarding and how to overcome it. Learn why we hoard tabs and how to manage them better.",
+        "whyRead": "Raakt je kerninteresses in ADHD & neurodivergentie, browsergebruik en kennisbeheer: dit artikel verklaart waarom open tabbladen tegelijk als geheugensteun, onafgemaakte taak en bron van stress kunnen functioneren. De meerwaarde zit in een bruikbaar onderzoeksmodel plus eenvoudige manieren om je browser weer als hulpmiddel te gebruiken.",
+        "bestMoment": "leergierig",
+        "tags": [
+          "adhd & neurodivergence",
+          "learning & meta-learning",
+          "technology"
+        ],
+        "coreInterests": [
+          "adhd"
+        ],
+        "alsoIn": [
+          "aaa-adhd-top-100"
+        ],
+        "memberships": [
+          {
+            "familyId": "adhd",
+            "size": "top-100",
+            "position": 28
+          }
+        ]
+      },
+      {
+        "position": null,
+        "id": "01m2f1qpjn1x4bhexydejsjsnx",
+        "title": "Chain of Thought Monitorability: A New and Fragile Opportunity for AI Safety",
+        "author": null,
+        "siteName": "arXiv.org",
+        "category": "article",
+        "language": null,
+        "readingTime": "1 min",
+        "readingMinutes": 1,
+        "wordCount": 235,
+        "publishedDate": "2025-07-16",
+        "savedDate": "2026-09-14T04:10:20.629000+00:00",
+        "imageUrl": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+        "sourceUrl": "https://arxiv.org/abs/2507.11473",
+        "readwiseUrl": "https://read.readwise.io/read/01m2f1qpjn1x4bhexydejsjsnx",
+        "summary": "AI systems that \"think\" in human language offer a unique opportunity for AI safety: we can monitor their chains of thought (CoT) for the intent to misbehave. Like all other known AI oversight methods, CoT monitoring is imperfect and allows some misbehavior to go unnoticed. Nevertheless, it shows promise and we recommend further research into CoT monitorability and investment in CoT monitoring alongside existing safety methods. Because CoT monitorability may be fragile, we recommend that frontier model developers consider the impact of development decisions on CoT monitorability.",
+        "whyRead": "Raakt je kerninteresse in AI-ethiek en modelveiligheid: dit arXiv-abstract bespreekt chain-of-thought-monitoring als mogelijke manier om ongewenst modelgedrag te signaleren. De meerwaarde zit in de waarschuwing dat deze toezichtskans fragiel is en naast andere veiligheidsmethoden verder onderzocht moet worden.",
+        "bestMoment": "kritisch",
+        "tags": [
+          "ai ethics & society",
+          "research papers & academia",
+          "technology"
+        ],
+        "coreInterests": [],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01m2f1qp8x5aerme6pe86fkada",
+        "title": "What do shipping containers have to do note-taking?",
+        "author": null,
+        "siteName": "Capacities",
+        "category": "article",
+        "language": null,
+        "readingTime": "6 mins",
+        "readingMinutes": 6,
+        "wordCount": 1336,
+        "publishedDate": "2026-05-15",
+        "savedDate": "2026-09-14T04:10:20.315000+00:00",
+        "imageUrl": "https://substackcdn.com/image/fetch/$s_!jywg!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F669508fa-54fd-4226-8c47-d329c8b8d877_1256x537.png",
+        "sourceUrl": "https://capacities.substack.com/i/197233032/object-type-deep-dive-thoughts",
+        "readwiseUrl": "https://read.readwise.io/read/01m2f1qp8x5aerme6pe86fkada",
+        "summary": "The shape of your thoughts",
+        "whyRead": "Raakt je interesse in kennismanagement, leren en persoonlijke systemen: dit essay gebruikt de scheepscontainer als metafoor voor objecttypen in Capacities. De meerwaarde zit in het idee dat passende standaarden complexe gedachten schaalbaar maken, zonder de creatieve en persoonlijke ruimte weg te nemen.",
+        "bestMoment": "reflectief",
+        "tags": [
+          "learning & meta-learning",
+          "personal growth & life philosophy",
+          "technology"
+        ],
+        "coreInterests": [],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01m2f1qny6sm6nv0s2dgq05gjq",
+        "title": "The Two Biggest Influences on My Current PKM Practices",
+        "author": null,
+        "siteName": "beehiiv.com",
+        "category": "article",
+        "language": null,
+        "readingTime": "6 mins",
+        "readingMinutes": 6,
+        "wordCount": 1435,
+        "publishedDate": "2023-10-12",
+        "savedDate": "2026-09-14T04:10:19.972000+00:00",
+        "imageUrl": "https://beehiiv-images-production.s3.amazonaws.com/uploads/asset/file/491ce30e-fc03-475d-ab46-d5e05fee9b27/1_ftPLjIYz5zQ4LZNlGfNOug.png?t=1700899756",
+        "sourceUrl": "https://bethmcclelland.beehiiv.com/p/two-biggest-influences-pkm-practices",
+        "readwiseUrl": "https://read.readwise.io/read/01m2f1qny6sm6nv0s2dgq05gjq",
+        "summary": "They changed everything for me",
+        "whyRead": "Raakt je interesse in kennismanagement, leren en persoonlijke systemen: dit essay laat zien hoe Annie Ernaux’ *The Years* en Julian Lehrs idee van meerlagige kalenders de vorm van een PKM-systeem kunnen bepalen. De meerwaarde zit in het verbinden van alledaagse observaties, persoonlijke journaling en tijd als organiserend principe.",
+        "bestMoment": "reflectief",
+        "tags": [
+          "learning & meta-learning",
+          "personal growth & life philosophy",
+          "technology"
+        ],
+        "coreInterests": [],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01m2f1qnmtx5y054hrac3es0pq",
+        "title": "The Network Mindset: Scaling Out, Not Up",
+        "author": null,
+        "siteName": "Medium",
+        "category": "article",
+        "language": null,
+        "readingTime": "3 mins",
+        "readingMinutes": 3,
+        "wordCount": 701,
+        "publishedDate": "2022-01-30",
+        "savedDate": "2026-09-14T04:10:19.672000+00:00",
+        "imageUrl": "https://miro.medium.com/max/1200/0*mlwl_69obzmC3Ewa.jpg",
+        "sourceUrl": "https://medium.com/converge-perspectives/the-network-mindset-scaling-out-not-up-f83163de610d",
+        "readwiseUrl": "https://read.readwise.io/read/01m2f1qnmtx5y054hrac3es0pq",
+        "summary": "Once you begin to recognize the webs of relationships that make up our world, you will never go back.",
+        "whyRead": "Raakt je werk in Scrum en teamcoaching en je interesse in organisatiegedrag: dit essay beschrijft de network mindset als een verschuiving van organisatiegroei en individuele controle naar relaties, gedeeld leiderschap en een gezamenlijk doel. De meerwaarde zit in een bruikbaar kader om samenwerking en systeemimpact te bekijken wanneer problemen te complex zijn voor één organisatie.",
+        "bestMoment": "leergierig",
+        "tags": [
+          "organizational behavior & culture",
+          "professional development",
+          "team dynamics & collaboration"
+        ],
+        "coreInterests": [
+          "agile"
+        ],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01m2f1qn4qzz8nhh0knkh7chk9",
+        "title": "Vesper Flights",
+        "author": null,
+        "siteName": "spiritualityandpractice.com",
+        "category": "article",
+        "language": null,
+        "readingTime": "2 mins",
+        "readingMinutes": 2,
+        "wordCount": 331,
+        "publishedDate": null,
+        "savedDate": "2026-09-14T04:10:19.157000+00:00",
+        "imageUrl": "https://www.spiritualityandpractice.com/uploads/book_reviews/images/vesper-flights-side.jpg",
+        "sourceUrl": "https://www.spiritualityandpractice.com/book-reviews/excerpts/view/28642",
+        "readwiseUrl": "https://read.readwise.io/read/01m2f1qn4qzz8nhh0knkh7chk9",
+        "summary": "A nature writer's ode to the value of paying attention to the natural world in each moment of the day.",
+        "whyRead": "Raakt je interesse in aandacht, natuur en essayistische literatuur: dit fragment uit *Vesper Flights* laat zien hoe nauwkeurige observatie van kleine, tijdelijke natuurverschijnselen kan uitmonden in verwondering. De meerwaarde zit in de koppeling tussen aandacht, het numineuze en een ervaring van tijd die het alledaagse verdiept.",
+        "bestMoment": "ontspannen",
+        "tags": [
+          "arts & culture",
+          "environment & sustainability",
+          "personal growth & life philosophy"
+        ],
+        "coreInterests": [],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01m2f1qmsg1mqg7term58yrrhp",
+        "title": "Every cup of coffee is a spectacle of logistics",
+        "author": null,
+        "siteName": "kottke.org",
+        "category": "article",
+        "language": null,
+        "readingTime": "2 mins",
+        "readingMinutes": 2,
+        "wordCount": 315,
+        "publishedDate": null,
+        "savedDate": "2026-09-14T04:10:18.800000+00:00",
+        "imageUrl": null,
+        "sourceUrl": "https://kottke.org/14/07/every-cup-of-coffee-is-a-spectacle-of-logistics",
+        "readwiseUrl": "https://read.readwise.io/read/01m2f1qmsg1mqg7term58yrrhp",
+        "summary": "Hi, everybody! Tim Carmody here, guest-hosting for Jason this week.\n\nRobinson Meyer drank a cup of coffee shipped hot overnight fr",
+        "whyRead": "Raakt je interesse in infrastructuur, economie en systemen: deze korte essayistische tekst gebruikt één kop koffie om de onzichtbare logistiek achter alledaagse ervaringen zichtbaar te maken. De meerwaarde zit in de combinatie van verwondering en systeemdenken — het gewone wordt tegelijk onttoverd en opnieuw bijzonder.",
+        "bestMoment": "ontspannen",
+        "tags": [
+          "economics",
+          "technology"
+        ],
+        "coreInterests": [],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01m2eds3sjfce5rae3myxdsnws",
+        "title": "Poetry Watching",
+        "author": null,
+        "siteName": "anna",
+        "category": "article",
+        "language": null,
+        "readingTime": "4 mins",
+        "readingMinutes": 4,
+        "wordCount": 875,
+        "publishedDate": "2025-07-10",
+        "savedDate": "2026-09-13T22:21:35.410000+00:00",
+        "imageUrl": "https://substackcdn.com/image/fetch/$s_!WObl!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fec741f41-f2dd-4528-8306-41ec1dff7a65_956x1280.jpeg",
+        "sourceUrl": "https://annacorinne.substack.com/p/poetry-watching",
+        "readwiseUrl": "https://read.readwise.io/read/01m2eds3sjfce5rae3myxdsnws",
+        "summary": "people watching with the express intent of finding the poetry in it all",
+        "whyRead": "Raakt je interesse in kunst & cultuur, persoonlijke groei en menselijke interactie: een licht en essayistisch experiment in aandacht, waarin alledaagse observaties onverwacht poëzie en betekenis krijgen.",
+        "bestMoment": "ontspannen",
+        "tags": [
+          "arts & culture",
+          "personal growth & life philosophy",
+          "social psychology & interpersonal dynamics"
+        ],
+        "coreInterests": [
+          "sociologie"
+        ],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01m2edqst1wnr55s43yvqqf84h",
+        "title": "research as leisure activity",
+        "author": null,
+        "siteName": "personalcanon.com",
+        "category": "article",
+        "language": null,
+        "readingTime": "15 mins",
+        "readingMinutes": 15,
+        "wordCount": 3968,
+        "publishedDate": "2024-05-27",
+        "savedDate": "2026-09-13T22:20:52.418000+00:00",
+        "imageUrl": "https://substackcdn.com/image/fetch/$s_!2koB!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb4c98861-cd1a-4437-b515-d2fc9e6f5c7d_2297x1550.jpeg",
+        "sourceUrl": "https://www.personalcanon.com/p/research-as-leisure-activity?hide_intro_popup=true",
+        "readwiseUrl": "https://read.readwise.io/read/01m2edqst1wnr55s43yvqqf84h",
+        "summary": "my favorite form of entertainment is downloading PDFs ✦ plus favorite Fluxus artists and early programs",
+        "whyRead": "Raakt je kerninteresses in leren, kunst & cultuur en filosofie: Celine Nguyen laat zien hoe nieuwsgierigheid, onderzoek en autodidactische verdieping een vorm van vrije tijd kunnen worden. De meerwaarde zit in de combinatie van intellectuele ernst, speelsheid en concrete voorbeelden uit digitale tools, kunst en literatuur.",
+        "bestMoment": "ontspannen",
+        "tags": [
+          "arts & culture",
+          "learning & meta-learning",
+          "philosophy"
+        ],
+        "coreInterests": [
+          "filosofie"
+        ],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01m2edj1ay4wzv2mwt1n3sfqcx",
+        "title": "note-taking is synonymous with presence",
+        "author": null,
+        "siteName": "Capacities",
+        "category": "article",
+        "language": null,
+        "readingTime": "7 mins",
+        "readingMinutes": 7,
+        "wordCount": 1659,
+        "publishedDate": "2026-04-30",
+        "savedDate": "2026-09-13T22:17:43.518000+00:00",
+        "imageUrl": "https://substackcdn.com/image/fetch/$s_!5vxF!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F5afa37d3-a4b3-4061-9bcc-f899996a2b5f_928x778.png",
+        "sourceUrl": "https://capacities.substack.com/p/note-taking-is-synonymous-with-presence",
+        "readwiseUrl": "https://read.readwise.io/read/01m2edj1ay4wzv2mwt1n3sfqcx",
+        "summary": "Taking notes is a default state of being for me.",
+        "whyRead": "Sluit aan bij je interesse in note-taking, persoonlijke infrastructuur en aandacht. Réka beschrijft hoe notities maken een vorm van aanwezigheid wordt: je vertraagt, volgt nieuwsgierigheid en laat verbanden tussen ervaringen vanzelf ontstaan.",
+        "bestMoment": "reflectief",
+        "tags": [
+          "learning & meta-learning",
+          "personal growth & life philosophy",
+          "social psychology & interpersonal dynamics",
+          "technology"
+        ],
+        "coreInterests": [
+          "sociologie"
+        ],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01m2edhjgs41nx0zepfe9mh1yc",
+        "title": "note-taking as reverse mapping a way back to yourself",
+        "author": null,
+        "siteName": "substack.com",
+        "category": "article",
+        "language": null,
+        "readingTime": "7 mins",
+        "readingMinutes": 7,
+        "wordCount": 1697,
+        "publishedDate": "2026-05-13",
+        "savedDate": "2026-09-13T22:17:28.345000+00:00",
+        "imageUrl": "https://substackcdn.com/image/fetch/$s_!H3jG!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F6250d302-6b67-4686-81c7-1562f82bd4aa_1056x582.png",
+        "sourceUrl": "https://rekasworld.substack.com/p/note-taking-as-reverse-mapping-a",
+        "readwiseUrl": "https://read.readwise.io/read/01m2edhjgs41nx0zepfe9mh1yc",
+        "summary": "In The Passion According to G.H, Clarice Lispector writes;",
+        "whyRead": "Sluit aan bij je werk met persoonlijke infrastructuur en de vraag hoe systemen je kunnen helpen om nieuwsgierigheid en zelfinzicht vast te houden. Réka gebruikt notities als een omgekeerde kaart: niet om vooraf te bepalen wie je bent, maar om achteraf zichtbaar te maken waar je aandacht en waarden werkelijk naartoe gaan.",
+        "bestMoment": "reflectief",
+        "tags": [
+          "learning & meta-learning",
+          "personal growth & life philosophy",
+          "philosophy"
+        ],
+        "coreInterests": [
+          "filosofie"
+        ],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01m2ebrz4wb3zzmqteg1fvmepv",
+        "title": "Michel de Montaigne: How Reading Can Set You Free (Part II)",
+        "author": null,
+        "siteName": "Substack",
+        "category": "email",
+        "language": null,
+        "readingTime": "12 mins",
+        "readingMinutes": 12,
+        "wordCount": 3055,
+        "publishedDate": "2026-09-13",
+        "savedDate": "2026-09-13T21:46:33.501000+00:00",
+        "imageUrl": null,
+        "sourceUrl": "mailto:reader-forwarded-email/092a31405427ba1f79e6e6badbbff445",
+        "readwiseUrl": "https://read.readwise.io/read/01m2ebrz4wb3zzmqteg1fvmepv",
+        "summary": "The debate revolved around the idea of freedom, and one of the participants said that some people are not allowed to be free.",
+        "whyRead": "Sluit aan bij je interesse in lezen als vrijheidspraktijk, persoonlijke filosofie en de manier waarop schrijven helpt om gedachten te ordenen. Via Zweigs biografie laat deze boekgids zien hoe Montaigne autonomie niet als terugtrekking uit de wereld, maar als een geoefende verhouding tot boeken, zichzelf en maatschappelijke plichten vormgeeft.",
+        "bestMoment": "reflectief",
+        "tags": [
+          "history",
+          "philosophy",
+          "political philosophy"
+        ],
+        "coreInterests": [
+          "filosofie",
+          "ideologie",
+          "geschiedenis"
+        ],
+        "alsoIn": [
+          "aaa-top-100"
+        ],
+        "memberships": [
+          {
+            "familyId": "algemeen",
+            "size": "top-100",
+            "position": 52
+          }
+        ]
+      },
+      {
+        "position": null,
+        "id": "01m2e9dvrtvat0xrqbfwr7awhb",
+        "title": "resonance is a muscle",
+        "author": null,
+        "siteName": "Substack",
+        "category": "article",
+        "language": null,
+        "readingTime": "6 mins",
+        "readingMinutes": 6,
+        "wordCount": 1490,
+        "publishedDate": "2026-06-09",
+        "savedDate": "2026-09-13T21:05:32.442000+00:00",
+        "imageUrl": "https://substackcdn.com/image/fetch/$s_!WVcw!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F5fdcf9e9-c373-4fad-a05b-88fd630e0d0d_2418x1462.png",
+        "sourceUrl": "https://substack.com/@itsreka/p-201307044",
+        "readwiseUrl": "https://read.readwise.io/read/01m2e9dvrtvat0xrqbfwr7awhb",
+        "summary": "escaping the algorithm 🕸️🌀",
+        "whyRead": "Sluit direct aan bij je interesse in persoonlijke infrastructuur, lezen en het bewust vormgeven van je informatiestroom. Réka beschrijft “resonantie” als een trainbare filter: aandachtig opmerken wat je raakt, het bewaren, reflecteren en vervolgens gericht verdiepen.",
+        "bestMoment": "reflectief",
+        "tags": [
+          "learning & meta-learning",
+          "personal growth & life philosophy",
+          "technology"
+        ],
+        "coreInterests": [],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01m2e6q62g579czg7jenarc74q",
+        "title": "How to build a research practice",
+        "author": null,
+        "siteName": "Capacities",
+        "category": "article",
+        "language": null,
+        "readingTime": "6 mins",
+        "readingMinutes": 6,
+        "wordCount": 1536,
+        "publishedDate": "2026-07-29",
+        "savedDate": "2026-09-13T20:18:12.111000+00:00",
+        "imageUrl": "https://substackcdn.com/image/fetch/$s_!jC76!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F3d3f2d0f-ca74-42a3-a47d-b7be117aab0f_1234x1224.png",
+        "sourceUrl": "https://capacities.substack.com/p/how-to-build-a-research-practice",
+        "readwiseUrl": "https://read.readwise.io/read/01m2e6q62g579czg7jenarc74q",
+        "summary": "A mini guide to knowledge gardening 🌀🌱",
+        "whyRead": "Raakt je kerninteresses in kennisbeheer, leren en persoonlijke groei: Réka laat zien hoe onderzoek kan uitgroeien tot een dagelijks middel om nieuwsgierigheid, zelfkennis en samenhang tussen ideeën te ontwikkelen. De praktische adviezen zijn eenvoudig, maar de onderliggende les is dat het proces zelf waardevol is, ook zonder eindproduct.",
+        "bestMoment": "leergierig",
+        "tags": [
+          "learning & meta-learning",
+          "personal growth & life philosophy",
+          "technology"
+        ],
+        "coreInterests": [],
+        "alsoIn": [],
+        "memberships": []
+      },
       {
         "position": null,
         "id": "01m2e4mswtxbzvsn3dfxdwjcrr",
@@ -34645,15 +35585,29 @@ window.TOP_ARTICLES = {
         "whyRead": "Een persoonlijk en scherp essay over handicap, inclusie en de verborgen maatschappelijke kosten van ontoegankelijke systemen.",
         "bestMoment": "reflectief",
         "tags": [
-          "personal growth & life philosophy",
-          "politics & public policy",
-          "social psychology & interpersonal dynamics"
+          "accessibility",
+          "social psychology & interpersonal dynamics",
+          "sociology & social structures"
         ],
         "coreInterests": [
           "sociologie"
         ],
-        "alsoIn": [],
-        "memberships": []
+        "alsoIn": [
+          "aaa-front-end-development-top-10",
+          "aaa-front-end-development-top-100"
+        ],
+        "memberships": [
+          {
+            "familyId": "front-end-development",
+            "size": "top-10",
+            "position": 2
+          },
+          {
+            "familyId": "front-end-development",
+            "size": "top-100",
+            "position": 2
+          }
+        ]
       },
       {
         "position": null,
@@ -34676,8 +35630,7 @@ window.TOP_ARTICLES = {
         "bestMoment": "reflectief",
         "tags": [
           "learning & meta-learning",
-          "personal growth & life philosophy",
-          "technology"
+          "personal growth & life philosophy"
         ],
         "coreInterests": [],
         "alsoIn": [],
@@ -34813,6 +35766,34 @@ window.TOP_ARTICLES = {
         "summary": "Some of Stephen Wolfram’s “productivity hacks” to make his days and projects more productive. Daily life, desk environment, outside the office, presentation setup, filesystem organization, Wolfram Notebook systems, databases, personal analytics.",
         "whyRead": "Raakt je kerninteresses in persoonlijke infrastructuur, kennisbeheer en productiviteit: Wolfram beschrijft een extreem uitgewerkt maar verrassend principieel systeem van apparaten, bestanden, communicatie, archieven, persoonlijke data en automatisering.",
         "bestMoment": "leergierig",
+        "tags": [
+          "learning & meta-learning",
+          "personal growth & life philosophy",
+          "technology"
+        ],
+        "coreInterests": [],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01m2e3gjgkn2q9fyrmpe3vytv6",
+        "title": "when there are just too many interesting things to read - how I deal with 'interest overload'",
+        "author": null,
+        "siteName": "Beth's Musings",
+        "category": "article",
+        "language": null,
+        "readingTime": "6 mins",
+        "readingMinutes": 6,
+        "wordCount": 1570,
+        "publishedDate": "2025-06-15",
+        "savedDate": "2026-09-14T04:10:22.926000+00:00",
+        "imageUrl": "https://substackcdn.com/image/fetch/$s_!63D8!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1c50a240-cb0e-47b4-b07e-ec9ab6b6722f_772x724.png",
+        "sourceUrl": "https://itsbeth.substack.com/p/when-there-are-just-too-many-interesting",
+        "readwiseUrl": "https://read.readwise.io/read/01m2e3gjgkn2q9fyrmpe3vytv6",
+        "summary": "I experience ‘Interest Overload’. I want to learn everything but there is only a finite amount of time left for this around work and general life.",
+        "whyRead": "Raakt je kerninteresses in kennisbeheer en leren: Beth beschrijft haar “Resonance Filter” als een manier om nieuwsgierigheid te bewaren zonder elk interessant ding direct in haar notitie-app en verwerkingslast te veranderen.",
+        "bestMoment": "reflectief",
         "tags": [
           "learning & meta-learning",
           "personal growth & life philosophy",
@@ -35602,8 +36583,7 @@ window.TOP_ARTICLES = {
         "bestMoment": "analytisch",
         "tags": [
           "history",
-          "learning & meta-learning",
-          "science"
+          "learning & meta-learning"
         ],
         "coreInterests": [
           "geschiedenis"
@@ -39753,7 +40733,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 77
+            "position": 79
           }
         ]
       },
@@ -39793,7 +40773,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 58
+            "position": 59
           }
         ]
       },
@@ -40347,7 +41327,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 74
+            "position": 75
           },
           {
             "familyId": "kort",
@@ -42221,7 +43201,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 75
+            "position": 77
           }
         ]
       },
@@ -42397,7 +43377,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 73
+            "position": 74
           },
           {
             "familyId": "kort",
@@ -42469,12 +43449,12 @@ window.TOP_ARTICLES = {
           {
             "familyId": "front-end-development",
             "size": "top-10",
-            "position": 7
+            "position": 8
           },
           {
             "familyId": "front-end-development",
             "size": "top-100",
-            "position": 7
+            "position": 8
           }
         ]
       },
@@ -42778,12 +43758,12 @@ window.TOP_ARTICLES = {
           {
             "familyId": "front-end-development",
             "size": "top-10",
-            "position": 5
+            "position": 6
           },
           {
             "familyId": "front-end-development",
             "size": "top-100",
-            "position": 5
+            "position": 6
           }
         ]
       },
@@ -42828,12 +43808,12 @@ window.TOP_ARTICLES = {
           {
             "familyId": "front-end-development",
             "size": "top-10",
-            "position": 4
+            "position": 5
           },
           {
             "familyId": "front-end-development",
             "size": "top-100",
-            "position": 4
+            "position": 5
           }
         ]
       },
@@ -42909,12 +43889,12 @@ window.TOP_ARTICLES = {
           {
             "familyId": "front-end-development",
             "size": "top-10",
-            "position": 2
+            "position": 3
           },
           {
             "familyId": "front-end-development",
             "size": "top-100",
-            "position": 2
+            "position": 3
           }
         ]
       },
@@ -43274,12 +44254,12 @@ window.TOP_ARTICLES = {
           {
             "familyId": "front-end-development",
             "size": "top-10",
-            "position": 3
+            "position": 4
           },
           {
             "familyId": "front-end-development",
             "size": "top-100",
-            "position": 3
+            "position": 4
           }
         ]
       },
@@ -43318,12 +44298,12 @@ window.TOP_ARTICLES = {
           {
             "familyId": "front-end-development",
             "size": "top-10",
-            "position": 6
+            "position": 7
           },
           {
             "familyId": "front-end-development",
             "size": "top-100",
-            "position": 6
+            "position": 7
           }
         ]
       },
@@ -43467,7 +44447,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 72
+            "position": 73
           },
           {
             "familyId": "kort",
@@ -43665,7 +44645,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 74
+            "position": 76
           }
         ]
       },
@@ -47580,7 +48560,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 73
+            "position": 75
           }
         ]
       },
@@ -47793,16 +48773,8 @@ window.TOP_ARTICLES = {
           "ideologie",
           "geschiedenis"
         ],
-        "alsoIn": [
-          "aaa-top-100"
-        ],
-        "memberships": [
-          {
-            "familyId": "algemeen",
-            "size": "top-100",
-            "position": 100
-          }
-        ]
+        "alsoIn": [],
+        "memberships": []
       },
       {
         "position": null,
@@ -47900,7 +48872,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 99
+            "position": 100
           }
         ]
       },
@@ -48423,7 +49395,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 98
+            "position": 99
           },
           {
             "familyId": "social-studies",
@@ -48650,7 +49622,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 97
+            "position": 98
           },
           {
             "familyId": "social-studies",
@@ -48870,7 +49842,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 57
+            "position": 58
           }
         ]
       },
@@ -49016,7 +49988,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 96
+            "position": 97
           }
         ]
       },
@@ -49120,7 +50092,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 95
+            "position": 96
           },
           {
             "familyId": "social-studies",
@@ -49244,7 +50216,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 56
+            "position": 57
           }
         ]
       },
@@ -52059,7 +53031,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 72
+            "position": 74
           }
         ]
       },
@@ -54481,7 +55453,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 55
+            "position": 56
           }
         ]
       },
@@ -54761,7 +55733,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 93
+            "position": 94
           },
           {
             "familyId": "social-studies",
@@ -56806,7 +57778,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 71
+            "position": 73
           }
         ]
       },
@@ -58990,7 +59962,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 54
+            "position": 55
           }
         ]
       },
@@ -59060,7 +60032,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 71
+            "position": 72
           },
           {
             "familyId": "kort",
@@ -59181,7 +60153,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 92
+            "position": 93
           }
         ]
       },
@@ -59269,7 +60241,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 70
+            "position": 71
           },
           {
             "familyId": "kort",
@@ -59341,7 +60313,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 53
+            "position": 54
           }
         ]
       },
@@ -59655,7 +60627,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 69
+            "position": 70
           },
           {
             "familyId": "kort",
@@ -61323,7 +62295,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 94
+            "position": 95
           }
         ]
       },
@@ -61551,7 +62523,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 52
+            "position": 53
           }
         ]
       },
@@ -61776,7 +62748,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 70
+            "position": 72
           }
         ]
       },
@@ -62300,7 +63272,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "adhd",
             "size": "top-100",
-            "position": 29
+            "position": 30
           }
         ]
       },
@@ -62337,7 +63309,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "adhd",
             "size": "top-100",
-            "position": 28
+            "position": 29
           }
         ]
       },
@@ -63134,7 +64106,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 51
+            "position": 52
           }
         ]
       },
@@ -63235,7 +64207,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 69
+            "position": 71
           }
         ]
       },
@@ -64124,7 +65096,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 68
+            "position": 70
           },
           {
             "familyId": "luchtig-nederlands",
@@ -66304,7 +67276,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 68
+            "position": 69
           },
           {
             "familyId": "kort",
@@ -66716,7 +67688,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 67
+            "position": 68
           },
           {
             "familyId": "kort",
@@ -66957,7 +67929,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 91
+            "position": 92
           },
           {
             "familyId": "social-studies",
@@ -67286,7 +68258,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 90
+            "position": 91
           },
           {
             "familyId": "social-studies",
@@ -67468,7 +68440,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 50
+            "position": 51
           }
         ]
       },
@@ -67508,7 +68480,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 89
+            "position": 90
           }
         ]
       },
@@ -67687,7 +68659,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 37
+            "position": 38
           }
         ]
       },
@@ -68338,7 +69310,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 88
+            "position": 89
           },
           {
             "familyId": "social-studies",
@@ -69261,7 +70233,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 48
+            "position": 49
           }
         ]
       },
@@ -69464,7 +70436,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 66
+            "position": 67
           },
           {
             "familyId": "social-studies",
@@ -69538,7 +70510,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 65
+            "position": 66
           },
           {
             "familyId": "kort",
@@ -69618,7 +70590,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 67
+            "position": 69
           }
         ]
       },
@@ -71514,7 +72486,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 87
+            "position": 88
           },
           {
             "familyId": "luchtig",
@@ -72556,16 +73528,8 @@ window.TOP_ARTICLES = {
         "coreInterests": [
           "cultuur_games_film"
         ],
-        "alsoIn": [
-          "aaa-luchtig-top-100"
-        ],
-        "memberships": [
-          {
-            "familyId": "luchtig",
-            "size": "top-100",
-            "position": 100
-          }
-        ]
+        "alsoIn": [],
+        "memberships": []
       },
       {
         "position": null,
@@ -72594,16 +73558,8 @@ window.TOP_ARTICLES = {
         "coreInterests": [
           "filosofie"
         ],
-        "alsoIn": [
-          "aaa-luchtig-top-100"
-        ],
-        "memberships": [
-          {
-            "familyId": "luchtig",
-            "size": "top-100",
-            "position": 99
-          }
-        ]
+        "alsoIn": [],
+        "memberships": []
       },
       {
         "position": null,
@@ -72644,7 +73600,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 64
+            "position": 65
           },
           {
             "familyId": "scrum",
@@ -72839,7 +73795,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 98
+            "position": 100
           }
         ]
       },
@@ -72915,7 +73871,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 86
+            "position": 87
           },
           {
             "familyId": "luchtig",
@@ -72978,7 +73934,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 63
+            "position": 64
           },
           {
             "familyId": "kort",
@@ -73229,7 +74185,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 97
+            "position": 99
           }
         ]
       },
@@ -73300,7 +74256,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 62
+            "position": 63
           },
           {
             "familyId": "kort",
@@ -73516,7 +74472,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 96
+            "position": 98
           }
         ]
       },
@@ -73754,7 +74710,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 36
+            "position": 37
           },
           {
             "familyId": "luchtig-nederlands",
@@ -73871,7 +74827,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 95
+            "position": 97
           }
         ]
       },
@@ -74657,7 +75613,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 47
+            "position": 48
           },
           {
             "familyId": "luchtig-nederlands",
@@ -75017,7 +75973,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 66
+            "position": 68
           }
         ]
       },
@@ -75060,7 +76016,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 85
+            "position": 86
           },
           {
             "familyId": "social-studies",
@@ -75446,7 +76402,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 94
+            "position": 96
           }
         ]
       },
@@ -75738,7 +76694,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 93
+            "position": 95
           }
         ]
       },
@@ -75918,7 +76874,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 61
+            "position": 62
           },
           {
             "familyId": "nederlands",
@@ -76200,7 +77156,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 65
+            "position": 67
           }
         ]
       },
@@ -76384,7 +77340,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 64
+            "position": 66
           }
         ]
       },
@@ -76858,7 +77814,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 60
+            "position": 61
           },
           {
             "familyId": "kort",
@@ -77063,7 +78019,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 46
+            "position": 47
           }
         ]
       },
@@ -77104,7 +78060,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 59
+            "position": 60
           },
           {
             "familyId": "social-studies",
@@ -77178,7 +78134,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 92
+            "position": 94
           }
         ]
       },
@@ -77371,7 +78327,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 84
+            "position": 85
           },
           {
             "familyId": "social-studies",
@@ -77417,7 +78373,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 58
+            "position": 59
           },
           {
             "familyId": "kort",
@@ -77529,7 +78485,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 35
+            "position": 36
           }
         ]
       },
@@ -77736,7 +78692,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 83
+            "position": 84
           }
         ]
       },
@@ -77981,7 +78937,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 91
+            "position": 93
           }
         ]
       },
@@ -78365,7 +79321,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 76
+            "position": 78
           }
         ]
       },
@@ -78746,7 +79702,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 82
+            "position": 83
           },
           {
             "familyId": "scrum",
@@ -78990,7 +79946,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 63
+            "position": 65
           }
         ]
       },
@@ -79028,7 +79984,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 45
+            "position": 46
           }
         ]
       },
@@ -79107,7 +80063,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 44
+            "position": 45
           }
         ]
       },
@@ -79151,7 +80107,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 57
+            "position": 58
           },
           {
             "familyId": "kort",
@@ -79476,7 +80432,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 62
+            "position": 64
           }
         ]
       },
@@ -81082,7 +82038,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 81
+            "position": 82
           },
           {
             "familyId": "luchtig",
@@ -81695,7 +82651,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 90
+            "position": 92
           }
         ]
       },
@@ -82005,7 +82961,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 43
+            "position": 44
           }
         ]
       },
@@ -82310,7 +83266,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 61
+            "position": 63
           }
         ]
       },
@@ -82708,7 +83664,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 80
+            "position": 81
           },
           {
             "familyId": "kort",
@@ -83046,7 +84002,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 56
+            "position": 57
           },
           {
             "familyId": "kort",
@@ -83159,7 +84115,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 42
+            "position": 43
           }
         ]
       },
@@ -83319,7 +84275,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 89
+            "position": 91
           }
         ]
       },
@@ -83429,7 +84385,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 88
+            "position": 90
           }
         ]
       },
@@ -83687,7 +84643,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 49
+            "position": 50
           }
         ]
       },
@@ -83783,7 +84739,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 41
+            "position": 42
           }
         ]
       },
@@ -83826,7 +84782,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 60
+            "position": 62
           },
           {
             "familyId": "videos",
@@ -84092,7 +85048,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 87
+            "position": 89
           }
         ]
       },
@@ -84130,7 +85086,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 86
+            "position": 88
           }
         ]
       },
@@ -84492,7 +85448,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 34
+            "position": 35
           }
         ]
       },
@@ -85077,7 +86033,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 85
+            "position": 87
           },
           {
             "familyId": "luchtig-nederlands",
@@ -85237,7 +86193,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 55
+            "position": 56
           },
           {
             "familyId": "kort",
@@ -85386,7 +86342,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 84
+            "position": 86
           }
         ]
       },
@@ -85471,7 +86427,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 79
+            "position": 80
           }
         ]
       },
@@ -85586,7 +86542,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 83
+            "position": 85
           }
         ]
       },
@@ -85624,7 +86580,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 40
+            "position": 41
           }
         ]
       },
@@ -86072,7 +87028,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 39
+            "position": 40
           }
         ]
       },
@@ -86474,7 +87430,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 78
+            "position": 79
           },
           {
             "familyId": "social-studies",
@@ -86673,7 +87629,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 54
+            "position": 55
           },
           {
             "familyId": "kort",
@@ -86774,7 +87730,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 77
+            "position": 78
           }
         ]
       },
@@ -87599,7 +88555,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 82
+            "position": 84
           }
         ]
       },
@@ -87637,7 +88593,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 81
+            "position": 83
           }
         ]
       },
@@ -87736,7 +88692,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 59
+            "position": 61
           }
         ]
       },
@@ -87804,7 +88760,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 38
+            "position": 39
           }
         ]
       },
@@ -87903,7 +88859,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 33
+            "position": 34
           }
         ]
       },
@@ -87945,7 +88901,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 32
+            "position": 33
           },
           {
             "familyId": "scrum",
@@ -88979,7 +89935,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 76
+            "position": 77
           }
         ]
       },
@@ -89020,7 +89976,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 53
+            "position": 54
           },
           {
             "familyId": "kort",
@@ -89107,7 +90063,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 80
+            "position": 82
           }
         ]
       },
@@ -89643,7 +90599,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 79
+            "position": 81
           }
         ]
       },
@@ -89786,7 +90742,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 52
+            "position": 53
           },
           {
             "familyId": "kort",
@@ -90003,7 +90959,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 78
+            "position": 80
           }
         ]
       },
@@ -91782,7 +92738,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 75
+            "position": 76
           },
           {
             "familyId": "scrum",
