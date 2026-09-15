@@ -1,6 +1,6 @@
 // Automatisch gegenereerd door scripts/build-data.ts — niet handmatig bewerken.
 window.TOP_ARTICLES = {
-  "generatedAt": "2026-09-14T09:40:17.951Z",
+  "generatedAt": "2026-09-15T09:16:35.887Z",
   "families": [
     {
       "id": "algemeen",
@@ -5724,6 +5724,32 @@ window.TOP_ARTICLES = {
             },
             {
               "position": 44,
+              "id": "01kysegs6xpbajnckbewaxh5p1",
+              "title": "AI: Overwegingen voor wie erover gaat",
+              "author": null,
+              "siteName": "Bert Hubert's writings",
+              "category": "article",
+              "language": "Nederlands",
+              "readingTime": "22 mins",
+              "readingMinutes": 22,
+              "wordCount": 5693,
+              "publishedDate": "2026-07-29",
+              "savedDate": "2026-09-15T07:37:54.640000+00:00",
+              "imageUrl": "https://berthub.eu/articles/dallas-fed.png",
+              "sourceUrl": "https://berthub.eu/articles/posts/ai-voor-wie-erover-gaat/",
+              "readwiseUrl": "https://read.readwise.io/read/01kysegs6xpbajnckbewaxh5p1",
+              "summary": "Onlangs presenteerde ik kort na elkaar bij het Netwerk van Publieke Dienstverleners en bij de Adviesraad Wetenschap, Technologie en Innovatie over AI. In deze twee verschillende maar korte presentaties hoopte ik wat inzichten te delen die nuttig zijn voor mensen die nu aan het stuur zitten, mensen die keuzes kunnen of moeten maken over AI-beleid.\nDit artikel is gebaseerd op deze twee verschillende presentaties. De eerste bij NPD ging over de concrete uitdagingen voor bestuurders.",
+              "whyRead": "Een scherp, kritisch Nederlands essay van tech-expert Bert Hubert (PowerDNS) dat de AI-hype ontrafelt vanuit bestuurlijk perspectief — relevant voor wie AI & ethiek, Nederlandse beleidscontext en organisatiekritiek interessant vindt.",
+              "bestMoment": "kritisch",
+              "tags": [
+                "ai ethics & society",
+                "current affairs & politics"
+              ],
+              "coreInterests": [],
+              "alsoIn": []
+            },
+            {
+              "position": 45,
               "id": "01kzds50ngmgn4d833k9cj9dp2",
               "title": "Wie bepaalt of jouw werk “AI slop” is?",
               "author": null,
@@ -5751,7 +5777,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 45,
+              "position": 46,
               "id": "01kgtfz76yf3pe7t2sfvm5mgcr",
               "title": "Digitalisering in het coalitieakkoord + komt er een minister?",
               "author": null,
@@ -5781,7 +5807,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 46,
+              "position": 47,
               "id": "01kshptdc5njqdmnehkxr4arfb",
               "title": "Een walgelijke man",
               "author": null,
@@ -5811,7 +5837,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 47,
+              "position": 48,
               "id": "01kt7kjd4zr8ba59xcpfvmxdfz",
               "title": "Week 14: kop en staart",
               "author": null,
@@ -5840,7 +5866,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 48,
+              "position": 49,
               "id": "01kwnpartfb70amv2acccwcsr1",
               "title": "Vijf muggen in mijn klamboe",
               "author": null,
@@ -5869,7 +5895,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 49,
+              "position": 50,
               "id": "01kzdbf87h4fzk1m5hz1zgh27t",
               "title": "De ideologische no-brainer voor het kabinet",
               "author": null,
@@ -5897,7 +5923,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 50,
+              "position": 51,
               "id": "01m01v1rmpqh6acc6t5t8cdy21",
               "title": "Was ik maar iets meer robotesk",
               "author": null,
@@ -12874,6 +12900,36 @@ window.TOP_ARTICLES = {
             },
             {
               "position": 39,
+              "id": "01m2hndcfjrxtfc5b27zeaqcke",
+              "title": "Studio Ghibli’s Biggest Secret Is What Comes Next",
+              "author": null,
+              "siteName": "Bloomberg.com",
+              "category": "article",
+              "language": null,
+              "readingTime": "21 mins",
+              "readingMinutes": 21,
+              "wordCount": 5311,
+              "publishedDate": "2026-08-13",
+              "savedDate": "2026-09-15T04:32:42.994000+00:00",
+              "imageUrl": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i8_QwMk6OBqE/v3/-1x-1.webp",
+              "sourceUrl": "https://www.bloomberg.com/features/2026-studio-ghibli-future/?src=longreads",
+              "readwiseUrl": "https://read.readwise.io/read/01m2hndcfjrxtfc5b27zeaqcke",
+              "summary": "Hayao Miyazaki and his animators have had a legendary run of classics. They’re not in the biggest rush to make another.",
+              "whyRead": "Raakt je interesse in fantasy/SF als cultuurvorm, filmgeschiedenis en de wisselwerking tussen kunst, technologie en organisatie. Deze lange reportage gebruikt de opvolgingscrisis bij Studio Ghibli om te onderzoeken wat er gebeurt wanneer een uitzonderlijk persoonlijke, ambachtelijke studio een merk en bedrijf moet worden.",
+              "bestMoment": "geconcentreerd",
+              "tags": [
+                "arts & culture",
+                "entertainment & pop culture",
+                "organizational behavior & culture"
+              ],
+              "coreInterests": [
+                "cultuur_games_film",
+                "agile"
+              ],
+              "alsoIn": []
+            },
+            {
+              "position": 40,
               "id": "01k2p37kkgn4hk8dn1qxb870qd",
               "title": "How to Teach Textual Criticism To Fifth-Graders",
               "author": null,
@@ -12902,7 +12958,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 40,
+              "position": 41,
               "id": "01k7j6p8a88r4t4zarr6pqya82",
               "title": "Writing as communion",
               "author": null,
@@ -12931,7 +12987,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 41,
+              "position": 42,
               "id": "01k7qbg40qvbeqszm5nr2wpmyz",
               "title": "Dostoevsky as lover",
               "author": null,
@@ -12960,7 +13016,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 42,
+              "position": 43,
               "id": "01kbdw19ngjne64721hydw9rqa",
               "title": "Today I turn 55",
               "author": null,
@@ -12991,7 +13047,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 43,
+              "position": 44,
               "id": "01kchxs5s6y615eazs4hhqgm7h",
               "title": "A list of books and essays that I love",
               "author": null,
@@ -13020,7 +13076,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 44,
+              "position": 45,
               "id": "01kf0p1x4zzc3hqf55wqyngafr",
               "title": "On the preparations before writing an essay",
               "author": null,
@@ -13049,7 +13105,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 45,
+              "position": 46,
               "id": "01kmsrjw7b8q2k5fb547bxerv2",
               "title": "The Death of Spotify: Why Streaming is Minutes Away From Being Obsolete",
               "author": null,
@@ -13078,7 +13134,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 46,
+              "position": 47,
               "id": "01kn4c4mv24kk2vjxqcn0y6efj",
               "title": "Days are enormous",
               "author": null,
@@ -13107,7 +13163,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 47,
+              "position": 48,
               "id": "01krqmh4tqphysje012p59hxec",
               "title": "Novels Tell Us Who We Are",
               "author": null,
@@ -13136,7 +13192,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 48,
+              "position": 49,
               "id": "01kt9sbc2hgkymt9expprgkgdp",
               "title": "In de Apocalyps is de vrouw een teken van hoop",
               "author": null,
@@ -13170,7 +13226,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 49,
+              "position": 50,
               "id": "01kxy1qkwpt5xkmvy06pz6bqvr",
               "title": "Technology and Barbarism",
               "author": null,
@@ -13200,7 +13256,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 50,
+              "position": 51,
               "id": "01kbdw3w0vrspnk8yzrfxypq51",
               "title": "The Quiet Collapse of Reading—and the Only Real Solution",
               "author": null,
@@ -13229,7 +13285,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 51,
+              "position": 52,
               "id": "01kycfev2jfr2v5x5pqr2scxz7",
               "title": "How to Win a Billion Dollars and Ruin Your Life",
               "author": null,
@@ -13259,7 +13315,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 52,
+              "position": 53,
               "id": "01m05be2mdpdf3vg9xy5xr0kcz",
               "title": "The Art of Donald McGill",
               "author": null,
@@ -13292,7 +13348,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 53,
+              "position": 54,
               "id": "01m0f29337jsph1jwqq3njdbkc",
               "title": "In de bioscoop blijkt dat we eer belangrijker vinden dan je zou denken",
               "author": null,
@@ -13322,7 +13378,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 54,
+              "position": 55,
               "id": "01m0nepgcz9yg6btdcstdnp60r",
               "title": "The Extravagant Details of Biography",
               "author": null,
@@ -13350,7 +13406,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 55,
+              "position": 56,
               "id": "01m0nepry7rbgqh62vdcjr37a7",
               "title": "Plays, Pageants, and the Origin of the “First Thanksgiving” Story",
               "author": null,
@@ -13380,7 +13436,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 56,
+              "position": 57,
               "id": "01m17yb0acqmetaqyrrhk1pmta",
               "title": "Being and Snoozing: Sleep and the Limits of Self-Authorship",
               "author": null,
@@ -13412,7 +13468,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 57,
+              "position": 58,
               "id": "01m1gv87eq9k6ey8kd2y09xg15",
               "title": "Gardening with Heidegger: from mystery to truth, via the earth",
               "author": null,
@@ -13443,7 +13499,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 58,
+              "position": 59,
               "id": "01m1gv9atc9pmec77602etsmqf",
               "title": "Ben je al bekend met insider media en cultural power players?",
               "author": null,
@@ -13475,7 +13531,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 59,
+              "position": 60,
               "id": "01m207r5gtkhknjq6ezh237a4s",
               "title": "The Thief Who Wanted to Save the World",
               "author": null,
@@ -13506,7 +13562,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 60,
+              "position": 61,
               "id": "01m2f1qxw8ddqy8yg8bedvven0",
               "title": "When Making a Salad Felt Radical - The New York Times",
               "author": null,
@@ -13536,7 +13592,70 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 61,
+              "position": 62,
+              "id": "01m2gbthqrjaxjh99tqkckbc8f",
+              "title": "Dear ADHDer: Please stop solving capacity problems with character upgrades",
+              "author": null,
+              "siteName": "The Dopamine Dispatch",
+              "category": "article",
+              "language": null,
+              "readingTime": "6 mins",
+              "readingMinutes": 6,
+              "wordCount": 1483,
+              "publishedDate": "2026-09-13",
+              "savedDate": "2026-09-14T16:25:54.169000+00:00",
+              "imageUrl": "https://substackcdn.com/image/fetch/$s_!dbV9!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fabd5bade-7ef0-47c5-921f-695c88bb232d_1280x720.jpeg",
+              "sourceUrl": "https://divergentkellywrites.substack.com/p/dear-adhder-please-stop-solving-capacity?utm_source=direct&r=1r0y5d&utm_campaign=post-expanded-share&utm_medium=post%20viewer",
+              "readwiseUrl": "https://read.readwise.io/read/01m2gbthqrjaxjh99tqkckbc8f",
+              "summary": "So many ADHDers feel overloaded, exhausted, overcommitted, and/or burned out. And it’s very common for us to believe it’s because something about us needs to be further optimized.",
+              "whyRead": "Een sterk ADHD-essay over het verschil tussen een capaciteitsprobleem en een vermeend karakterprobleem. Het verzet zich tegen nog meer discipline, optimalisatie en zelfverwijt wanneer iemand al overbelast is, en biedt een milder handelingskader: belasting verminderen, taken eenvoudiger maken, verwachtingen aanpassen en herstel beschermen.",
+              "bestMoment": "geruststellend",
+              "tags": [
+                "adhd & neurodivergence",
+                "health & wellness",
+                "personal growth & life philosophy",
+                "social psychology & interpersonal dynamics"
+              ],
+              "coreInterests": [
+                "sociologie",
+                "adhd"
+              ],
+              "alsoIn": [
+                "aaa-adhd-top-100"
+              ]
+            },
+            {
+              "position": 63,
+              "id": "01m2hzzjnq49xafnyzmpw46kcd",
+              "title": "We've detected unusual activity from your computer network",
+              "author": null,
+              "siteName": "Bloomberg.com",
+              "category": "article",
+              "language": null,
+              "readingTime": "1 min",
+              "readingMinutes": 1,
+              "wordCount": 50,
+              "publishedDate": null,
+              "savedDate": "2026-09-15T07:37:24.919000+00:00",
+              "imageUrl": null,
+              "sourceUrl": "https://www.bloomberg.com/news/articles/2023-09-21/anime-studio-ghibli-acquired-as-it-struggles-to-find-miyazaki-successor",
+              "readwiseUrl": "https://read.readwise.io/read/01m2hzzjnq49xafnyzmpw46kcd",
+              "summary": "Please make sure your browser supports JavaScript and cookies and that you are not blocking them from loading. For more information you can review our Terms of Service and Cookie Policy.",
+              "whyRead": null,
+              "bestMoment": null,
+              "tags": [
+                "arts & culture",
+                "entertainment & pop culture",
+                "organizational behavior & culture"
+              ],
+              "coreInterests": [
+                "cultuur_games_film",
+                "agile"
+              ],
+              "alsoIn": []
+            },
+            {
+              "position": 64,
               "id": "01k2p3vgyxd3egkpvn5y6r2d7n",
               "title": "Genetics and Eugenics in Frank Herbert’s Dune-verse",
               "author": null,
@@ -13565,7 +13684,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 62,
+              "position": 65,
               "id": "01kbdvx6khj52azfg1r48s7mc8",
               "title": "The Routine That's Keeping You Miserable",
               "author": null,
@@ -13600,7 +13719,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 63,
+              "position": 66,
               "id": "01kec58fp6ep87fc5qnf8swc20",
               "title": "Being creative requires taking risks",
               "author": null,
@@ -13629,7 +13748,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 64,
+              "position": 67,
               "id": "01kmbp17grppjmpxqfsq4z3zy7",
               "title": "Sucker",
               "author": null,
@@ -13658,7 +13777,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 65,
+              "position": 68,
               "id": "01knaa433mz4v5rtkbat739xjg",
               "title": "How I learned to just fucking write",
               "author": null,
@@ -13687,7 +13806,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 66,
+              "position": 69,
               "id": "01ks2b50wxejwag42nf6rnrq6d",
               "title": "Love is to be invested in someone’s continual expansion",
               "author": null,
@@ -13716,7 +13835,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 67,
+              "position": 70,
               "id": "01ks5wkeam3nzf67r9bh537enm",
               "title": "Alone, Finally",
               "author": null,
@@ -13745,7 +13864,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 68,
+              "position": 71,
               "id": "01kt3yrv65xm5w5crnf6ycy3rr",
               "title": "People are too big to fit inside our heads",
               "author": null,
@@ -13774,7 +13893,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 69,
+              "position": 72,
               "id": "01kxn6sfvvpwapf12145w6x7sv",
               "title": "Essays In Support of the Null Hypothesis",
               "author": null,
@@ -13803,7 +13922,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 70,
+              "position": 73,
               "id": "01m02v2mszvk3cjaw44d26cmvx",
               "title": "Het zachte tegengif heet verwondering",
               "author": null,
@@ -13839,7 +13958,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 71,
+              "position": 74,
               "id": "01m059vqea4t02392f7364m2jr",
               "title": "The Spike",
               "author": null,
@@ -13870,7 +13989,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 72,
+              "position": 75,
               "id": "01m0d9rt9b3a66m87wr62cjx7g",
               "title": "Elif Shafak and Robert Macfarlane: Two Novelists Have an Epic Conversation",
               "author": null,
@@ -13898,7 +14017,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 73,
+              "position": 76,
               "id": "01m13bydjdttq1jnhmnt13k22z",
               "title": "Ladies of the ’80s",
               "author": null,
@@ -13928,7 +14047,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 74,
+              "position": 77,
               "id": "01m1971j070aamhztgxr4k22jg",
               "title": "A Serious House | The Point Magazine",
               "author": null,
@@ -13959,7 +14078,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 75,
+              "position": 78,
               "id": "01m1kpjvpkpjy10c0zp09d0hty",
               "title": "How to be useless",
               "author": null,
@@ -13988,7 +14107,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 76,
+              "position": 79,
               "id": "01m1pyvabgbtrpfw7ep29vv3n4",
               "title": "Your Book Review: The Tale Of Genji",
               "author": null,
@@ -14017,7 +14136,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 77,
+              "position": 80,
               "id": "01m1tw8t22s6fc27h7zb9zgpte",
               "title": "De grootste bedreiging voor onze christelijke cultuur? Een lege boekenkast",
               "author": null,
@@ -14048,7 +14167,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 78,
+              "position": 81,
               "id": "01kqgd25gt91afe9a1fyavnccq",
               "title": "The dawn of the post-literate society",
               "author": null,
@@ -14076,7 +14195,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 79,
+              "position": 82,
               "id": "01m2093q7bj4j3wk3fzpev5jkw",
               "title": "Hoe het christendom onze cultuur vormde",
               "author": null,
@@ -14106,7 +14225,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 80,
+              "position": 83,
               "id": "01j421m304fbn5rwfh0a9bpzp3",
               "title": "Fear as a Game",
               "author": null,
@@ -14135,7 +14254,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 81,
+              "position": 84,
               "id": "01j60ew3kgknk776nphjxvz9ph",
               "title": "Envy: the Vestige of a Miserable World",
               "author": null,
@@ -14165,7 +14284,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 82,
+              "position": 85,
               "id": "01jkgy1x7yacy66ys284ddq8yw",
               "title": "Why do most popular science books suck?",
               "author": null,
@@ -14194,7 +14313,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 83,
+              "position": 86,
               "id": "01k3wpn5ak9v4pmtc85h462cav",
               "title": "On the pleasure of reading private notebooks",
               "author": null,
@@ -14223,7 +14342,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 84,
+              "position": 87,
               "id": "01k3wpv85qh52sj9ffa8rrz1bm",
               "title": "Chromatic Rebel #2: why is the West so color-minimalist?",
               "author": null,
@@ -14252,7 +14371,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 85,
+              "position": 88,
               "id": "01k7qbgbanjkbvetnkfd47vkrz",
               "title": "How I wrote \"Looking for Alice\"",
               "author": null,
@@ -14281,7 +14400,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 86,
+              "position": 89,
               "id": "01k7tw6vrkda5hp5070ra2wqm6",
               "title": "Five SFF Stories That Shed Light on Obscure History",
               "author": null,
@@ -14310,7 +14429,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 87,
+              "position": 90,
               "id": "01k80nvw2z9d40qq24hveszqrw",
               "title": "De hel van het gelijke",
               "author": null,
@@ -14342,7 +14461,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 88,
+              "position": 91,
               "id": "01kaecmp565yrjt89z6qhc3ydq",
               "title": "Why Did Wealth Stop Building Beautiful Things?",
               "author": null,
@@ -14371,7 +14490,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 89,
+              "position": 92,
               "id": "01kaen0f4sd6p0wsrv0fw7320f",
               "title": "🌲 The Best \"Gamified X\" App is a GAME",
               "author": null,
@@ -14400,7 +14519,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 90,
+              "position": 93,
               "id": "01kc53cvnp2fqe09v8vmbym5mx",
               "title": "🎓 On Teleportation & Understanding via Writing",
               "author": null,
@@ -14429,7 +14548,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 91,
+              "position": 94,
               "id": "01kcfca0wrxztgk2sqe31khzbr",
               "title": "Now Watch Me Read | The New Yorker",
               "author": null,
@@ -14458,7 +14577,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 92,
+              "position": 95,
               "id": "01kfvhtf2ba0mpxx157hg6y663",
               "title": "The secret to being happy in 2026? It’s far, far simpler than you think …",
               "author": null,
@@ -14487,7 +14606,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 93,
+              "position": 96,
               "id": "01kqy8wyp8f7z6nqcby6ajbnm4",
               "title": "The world reveals itself to those who travel by foot",
               "author": null,
@@ -14516,7 +14635,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 94,
+              "position": 97,
               "id": "01krnyr9cxy0rhqzt148zy5p99",
               "title": "Good conversations have lots of doorknobs",
               "author": null,
@@ -14546,7 +14665,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 95,
+              "position": 98,
               "id": "01ksftktanvm593t6d9871cmm4",
               "title": "This week: a long walk on a beach, and ancient Roman graffiti.",
               "author": null,
@@ -14576,7 +14695,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 96,
+              "position": 99,
               "id": "01ksn9qmay1erty7g5cha7xgmj",
               "title": "Why I Don’t Write Every Day",
               "author": null,
@@ -14603,7 +14722,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 97,
+              "position": 100,
               "id": "01kvamre3nhre408596w2e8d3s",
               "title": "Candice Millard and the Revival of History as Literature",
               "author": null,
@@ -14627,97 +14746,6 @@ window.TOP_ARTICLES = {
               ],
               "coreInterests": [
                 "geschiedenis"
-              ],
-              "alsoIn": []
-            },
-            {
-              "position": 98,
-              "id": "01kvgakgatt08e2qpyayjn518f",
-              "title": "How habits actually work",
-              "author": null,
-              "siteName": "Scott H Young",
-              "category": "email",
-              "language": "Engels",
-              "readingTime": "7 mins",
-              "readingMinutes": 7,
-              "wordCount": 1634,
-              "publishedDate": "2026-06-19",
-              "savedDate": "2026-06-19T16:14:42.010000+00:00",
-              "imageUrl": null,
-              "sourceUrl": "mailto:reader-forwarded-email/e3b5d6cc8fd960d6dbfe8f3be613de5a",
-              "readwiseUrl": "https://read.readwise.io/read/01kvgakgatt08e2qpyayjn518f",
-              "summary": "Habits were one of the first topics I tackled two decades ago when I first started writing. I was young and enthusiastic—and not at all versed in reading scientific papers.",
-              "whyRead": "Raakt leren, gedragspsychologie en gewoonteontwerp: Scott Young corrigeert de simplistische self-helpversie van habits met onderzoek. De meerwaarde zit in het verschuiven van streaks en wilskracht naar skills, frictieanalyse en identiteit. Raakt daarnaast je interesse in sociale psychologie en interpersoonlijke dynamiek.",
-              "bestMoment": "leergierig",
-              "tags": [
-                "behavioral psychology & coaching",
-                "health & wellness",
-                "learning & meta-learning",
-                "social psychology & interpersonal dynamics"
-              ],
-              "coreInterests": [
-                "sociologie"
-              ],
-              "alsoIn": []
-            },
-            {
-              "position": 99,
-              "id": "01kvjxf10abr48cgyg351gvcfm",
-              "title": "Short Reviews for June 2026",
-              "author": null,
-              "siteName": "Substack",
-              "category": "email",
-              "language": "Engels",
-              "readingTime": "5 mins",
-              "readingMinutes": 5,
-              "wordCount": 1062,
-              "publishedDate": "2026-06-20",
-              "savedDate": "2026-06-20T16:22:47.051000+00:00",
-              "imageUrl": null,
-              "sourceUrl": "mailto:reader-forwarded-email/4b3c5850cb80bca308c1ce2a1eac0c75",
-              "readwiseUrl": "https://read.readwise.io/read/01kvjxf10abr48cgyg351gvcfm",
-              "summary": "I learned so much about Bowditch’s life here, and about the social world he lived in.",
-              "whyRead": "Raakt je interesse in geschiedenis, sciencefiction en boekencultuur: Evan Þ geeft korte, smaakbewuste reviews met genoeg context om te bepalen wat verder lezen waard is. De meerwaarde zit vooral in de combinatie van sociale geschiedenis en speculative fiction. Raakt daarnaast je interesse in sociale psychologie en interpersoonlijke dynamiek.",
-              "bestMoment": "ontspannen",
-              "tags": [
-                "arts & culture",
-                "fiction",
-                "history",
-                "social psychology & interpersonal dynamics"
-              ],
-              "coreInterests": [
-                "geschiedenis",
-                "sociologie"
-              ],
-              "alsoIn": []
-            },
-            {
-              "position": 100,
-              "id": "01kvwytrrghvckwz0stdxe2mgw",
-              "title": "Week 15, 16, 17, 18: Zuid-Holland",
-              "author": null,
-              "siteName": "Substack",
-              "category": "email",
-              "language": null,
-              "readingTime": "8 mins",
-              "readingMinutes": 8,
-              "wordCount": 2120,
-              "publishedDate": "2026-06-24",
-              "savedDate": "2026-06-24T13:59:04.720000+00:00",
-              "imageUrl": null,
-              "sourceUrl": "mailto:reader-forwarded-email/651c9aaff76bf31679f5fc5e7ccb2453",
-              "readwiseUrl": "https://read.readwise.io/read/01kvwytrrghvckwz0stdxe2mgw",
-              "summary": "Bij deze mijn maandelijkse, wekelijkse update. In 28 wandeldagen slingerde ik Zuid-Holland door.",
-              "whyRead": "Rijke wandel-/reisbrief over Zuid-Holland, thuisloosheid, regels loslaten en ontmoetingen met heel verschillende mensen. Raakt daarnaast je interesse in sociale psychologie en interpersoonlijke dynamiek.",
-              "bestMoment": "reflectief",
-              "tags": [
-                "arts & culture",
-                "personal growth & life philosophy",
-                "social psychology & interpersonal dynamics",
-                "sociology & social structures"
-              ],
-              "coreInterests": [
-                "sociologie"
               ],
               "alsoIn": []
             }
@@ -34404,6 +34432,69 @@ window.TOP_ARTICLES = {
             },
             {
               "position": 22,
+              "id": "01m2gbthqrjaxjh99tqkckbc8f",
+              "title": "Dear ADHDer: Please stop solving capacity problems with character upgrades",
+              "author": null,
+              "siteName": "The Dopamine Dispatch",
+              "category": "article",
+              "language": null,
+              "readingTime": "6 mins",
+              "readingMinutes": 6,
+              "wordCount": 1483,
+              "publishedDate": "2026-09-13",
+              "savedDate": "2026-09-14T16:25:54.169000+00:00",
+              "imageUrl": "https://substackcdn.com/image/fetch/$s_!dbV9!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fabd5bade-7ef0-47c5-921f-695c88bb232d_1280x720.jpeg",
+              "sourceUrl": "https://divergentkellywrites.substack.com/p/dear-adhder-please-stop-solving-capacity?utm_source=direct&r=1r0y5d&utm_campaign=post-expanded-share&utm_medium=post%20viewer",
+              "readwiseUrl": "https://read.readwise.io/read/01m2gbthqrjaxjh99tqkckbc8f",
+              "summary": "So many ADHDers feel overloaded, exhausted, overcommitted, and/or burned out. And it’s very common for us to believe it’s because something about us needs to be further optimized.",
+              "whyRead": "Een sterk ADHD-essay over het verschil tussen een capaciteitsprobleem en een vermeend karakterprobleem. Het verzet zich tegen nog meer discipline, optimalisatie en zelfverwijt wanneer iemand al overbelast is, en biedt een milder handelingskader: belasting verminderen, taken eenvoudiger maken, verwachtingen aanpassen en herstel beschermen.",
+              "bestMoment": "geruststellend",
+              "tags": [
+                "adhd & neurodivergence",
+                "health & wellness",
+                "personal growth & life philosophy",
+                "social psychology & interpersonal dynamics"
+              ],
+              "coreInterests": [
+                "sociologie",
+                "adhd"
+              ],
+              "alsoIn": [
+                "aaa-luchtig-top-100"
+              ]
+            },
+            {
+              "position": 23,
+              "id": "01m2hqbzy3gmwsq8nhwmmadjb1",
+              "title": "Neuroqueering on the lawn",
+              "author": null,
+              "siteName": "Aeon",
+              "category": "article",
+              "language": null,
+              "readingTime": "13 mins",
+              "readingMinutes": 13,
+              "wordCount": 3312,
+              "publishedDate": "2026-09-03",
+              "savedDate": "2026-09-15T05:06:54.531000+00:00",
+              "imageUrl": "https://images.aeonmedia.co/images/5644fcf3-600d-4249-8909-475112d8fd6f/essay-v2-.jpg?width=1200&quality=75&format=jpeg",
+              "sourceUrl": "https://aeon.co/essays/neuroqueer-expression-and-the-limits-of-social-tolerance",
+              "readwiseUrl": "https://read.readwise.io/read/01m2hqbzy3gmwsq8nhwmmadjb1",
+              "summary": "Hans Christian Andersen’s tantrum in Charles Dickens’s garden was a case of ‘too muchness’, emotions bursting past respectability",
+              "whyRead": "Raakt je interesse in ADHD/neurodivergentie, sociale psychologie en de vraag hoe normen mensen vormen. Het essay gebruikt Andersen, Dickens en Leigh Bowery om te laten zien hoe systemen emotie en gedrag pas als legitiem erkennen wanneer ze beheersbaar, leesbaar en productief zijn.",
+              "bestMoment": "analytisch",
+              "tags": [
+                "adhd & neurodivergence",
+                "social psychology & interpersonal dynamics",
+                "sociology & social structures"
+              ],
+              "coreInterests": [
+                "sociologie",
+                "adhd"
+              ],
+              "alsoIn": []
+            },
+            {
+              "position": 24,
               "id": "01ks4x3trnj452tc0tmezwjcej",
               "title": "The Four Ways ADHD Time Blindness Shows Up",
               "author": null,
@@ -34434,7 +34525,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 23,
+              "position": 25,
               "id": "01m2dwzwz5mg1nhnb11zmmxyn0",
               "title": "As a neurodivergent health researcher here are 13 accommodations that are stupid-simple and way too underused",
               "author": null,
@@ -34462,7 +34553,37 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 24,
+              "position": 26,
+              "id": "01m2hzz736ff6f5t97d1ctk4kk",
+              "title": "NEUROQUEER HERESIES",
+              "author": null,
+              "siteName": "NEUROQUEER • THE WRITINGS OF DR. NICK WALKER",
+              "category": "article",
+              "language": null,
+              "readingTime": "1 min",
+              "readingMinutes": 1,
+              "wordCount": 44,
+              "publishedDate": "2021-10-13",
+              "savedDate": "2026-09-15T07:37:13.062000+00:00",
+              "imageUrl": "https://neuroqueer.com/wp-content/uploads/2021/07/NeuroFly.gif",
+              "sourceUrl": "https://neuroqueer.com/neuroqueer-heresies/",
+              "readwiseUrl": "https://read.readwise.io/read/01m2hzz736ff6f5t97d1ctk4kk",
+              "summary": "Find it at local bookshops through IndieBound Or order it from: Autonomous Press Amazon Bookshop Neuroqueer Heresies: Notes on the Neurodiversity Paradigm, Autistic Empowerment, and Postnormal Possibilities Neuroqueer Heresies collects a decade's worth of my writings on neurodiversity, autism, and Neuroqueer Theory, including 120 pages of new material that's not available elsewhere.",
+              "whyRead": null,
+              "bestMoment": null,
+              "tags": [
+                "adhd & neurodivergence",
+                "personal growth & life philosophy",
+                "social psychology & interpersonal dynamics"
+              ],
+              "coreInterests": [
+                "sociologie",
+                "adhd"
+              ],
+              "alsoIn": []
+            },
+            {
+              "position": 27,
               "id": "01m0zs70wqrf8nvkmrwzg9843y",
               "title": "Matt Haig: How to Write a Book Millions of People Read",
               "author": null,
@@ -34490,7 +34611,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 25,
+              "position": 28,
               "id": "01ks0eq0r3x8h0fgzzn289mazj",
               "title": "Why neurodivergent people often feel like they started life 10 years late",
               "author": null,
@@ -34519,7 +34640,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 26,
+              "position": 29,
               "id": "01ktc8xc2yj17jm5hf96e12crc",
               "title": "Focus is motivation",
               "author": null,
@@ -34547,7 +34668,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 27,
+              "position": 30,
               "id": "01m1f3z0dj5te4w2sp8wkb7x1p",
               "title": "What Happens When a Kid’s Robot Best Friend Dies?",
               "author": null,
@@ -34576,7 +34697,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 28,
+              "position": 31,
               "id": "01m2f1qrd2q395gz2wkwc8x1n7",
               "title": "The psychology behind tab hoarding and how to overcome it",
               "author": null,
@@ -34605,7 +34726,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 29,
+              "position": 32,
               "id": "01m0b3f56gwerhja7mext6qpv8",
               "title": "It’s Bayes All The Way Up",
               "author": null,
@@ -34633,7 +34754,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 30,
+              "position": 33,
               "id": "01m0b3f62sb716wyqk6tqva87v",
               "title": "Why Are Transgender People Immune To Optical Illusions?",
               "author": null,
@@ -34659,6 +34780,93 @@ window.TOP_ARTICLES = {
                 "adhd"
               ],
               "alsoIn": []
+            },
+            {
+              "position": 34,
+              "id": "01m2j001f1dva7pm8rnd4e97sj",
+              "title": "Why giving your ADHD brain permission to do LESS helps you do MORE",
+              "author": null,
+              "siteName": "The Dopamine Dispatch",
+              "category": "article",
+              "language": null,
+              "readingTime": "1 min",
+              "readingMinutes": 1,
+              "wordCount": 34,
+              "publishedDate": "2025-03-16",
+              "savedDate": "2026-09-15T07:37:40.063000+00:00",
+              "imageUrl": "https://substackcdn.com/image/fetch/$s_!rLlE!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fdce9879f-a2b7-4512-8540-64a0bc5ec028_1280x720.png",
+              "sourceUrl": "https://divergentkellywrites.substack.com/p/why-giving-your-adhd-brain-permission",
+              "readwiseUrl": "https://read.readwise.io/read/01m2j001f1dva7pm8rnd4e97sj",
+              "summary": "What if productivity doesn't have to feel like suffering?",
+              "whyRead": null,
+              "bestMoment": null,
+              "tags": [
+                "adhd & neurodivergence",
+                "health & wellness",
+                "personal growth & life philosophy"
+              ],
+              "coreInterests": [
+                "adhd"
+              ],
+              "alsoIn": []
+            },
+            {
+              "position": 35,
+              "id": "01m2j004hvhgzyfq7fx9y57rec",
+              "title": "How to make things easier with ADHD",
+              "author": null,
+              "siteName": "The Dopamine Dispatch",
+              "category": "article",
+              "language": null,
+              "readingTime": "1 min",
+              "readingMinutes": 1,
+              "wordCount": 38,
+              "publishedDate": "2026-01-11",
+              "savedDate": "2026-09-15T07:37:43.227000+00:00",
+              "imageUrl": "https://substackcdn.com/image/fetch/$s_!tzpo!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fde396972-1cca-41c8-8677-edefd0e36990_1280x720.png",
+              "sourceUrl": "https://divergentkellywrites.substack.com/p/how-to-make-things-easier-with-adhd",
+              "readwiseUrl": "https://read.readwise.io/read/01m2j004hvhgzyfq7fx9y57rec",
+              "summary": "Step 1: Stop distrusting ease",
+              "whyRead": null,
+              "bestMoment": null,
+              "tags": [
+                "adhd & neurodivergence",
+                "health & wellness",
+                "personal growth & life philosophy"
+              ],
+              "coreInterests": [
+                "adhd"
+              ],
+              "alsoIn": []
+            },
+            {
+              "position": 36,
+              "id": "01m2j0075w5khvczd7ryxe70z6",
+              "title": "How to ACTUALLY rest when you have ADHD",
+              "author": null,
+              "siteName": "The Dopamine Dispatch",
+              "category": "article",
+              "language": null,
+              "readingTime": "1 min",
+              "readingMinutes": 1,
+              "wordCount": 41,
+              "publishedDate": "2025-01-24",
+              "savedDate": "2026-09-15T07:37:45.916000+00:00",
+              "imageUrl": "https://substackcdn.com/image/fetch/$s_!C5ZG!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F08f4b601-a633-4254-87ee-18cef7e263a5_1280x720.png",
+              "sourceUrl": "https://divergentkellywrites.substack.com/p/how-to-actually-rest-when-you-have",
+              "readwiseUrl": "https://read.readwise.io/read/01m2j0075w5khvczd7ryxe70z6",
+              "summary": "You know that ADHD cycle where we do everything at once or nothing at all, with no in between?",
+              "whyRead": null,
+              "bestMoment": null,
+              "tags": [
+                "adhd & neurodivergence",
+                "health & wellness",
+                "personal growth & life philosophy"
+              ],
+              "coreInterests": [
+                "adhd"
+              ],
+              "alsoIn": []
             }
           ]
         }
@@ -34667,6 +34875,1138 @@ window.TOP_ARTICLES = {
   ],
   "catalog": {
     "items": [
+      {
+        "position": null,
+        "id": "01m2j00wcbj50vy5tg3ar64b9v",
+        "title": "Give your ideas some legs: The positive effect of walking on creative thinking.",
+        "author": null,
+        "siteName": "American Psychological Association",
+        "category": "article",
+        "language": null,
+        "readingTime": "1 min",
+        "readingMinutes": 1,
+        "wordCount": 250,
+        "publishedDate": null,
+        "savedDate": "2026-09-15T07:38:07.627000+00:00",
+        "imageUrl": null,
+        "sourceUrl": "https://psycnet.apa.org/doiLanding?doi=10.1037%2Fa0036577",
+        "readwiseUrl": "https://read.readwise.io/read/01m2j00wcbj50vy5tg3ar64b9v",
+        "summary": "APA PsycNet DoiLanding page",
+        "whyRead": null,
+        "bestMoment": null,
+        "tags": [
+          "health & wellness",
+          "research papers & academia",
+          "science"
+        ],
+        "coreInterests": [],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01m2j00s3s6efa3f1k3jqx62nm",
+        "title": "Education, unchained",
+        "author": null,
+        "siteName": "Aeon",
+        "category": "article",
+        "language": null,
+        "readingTime": "14 mins",
+        "readingMinutes": 14,
+        "wordCount": 3699,
+        "publishedDate": null,
+        "savedDate": "2026-09-15T07:38:04.279000+00:00",
+        "imageUrl": "https://epsilon.aeon.co/images/54a0ff2c-b92d-4d5e-8e2f-660af016f46b/header_essay-527474704.jpg",
+        "sourceUrl": "https://aeon.co/essays/its-time-we-revived-rousseaus-radical-spirit-in-schooling",
+        "readwiseUrl": "https://read.readwise.io/read/01m2j00s3s6efa3f1k3jqx62nm",
+        "summary": "Rousseau’s child-centred ideals are now commonplace but his truly radical vision of educational freedom still eludes us",
+        "whyRead": null,
+        "bestMoment": null,
+        "tags": [
+          "current affairs & politics",
+          "learning & meta-learning",
+          "philosophy"
+        ],
+        "coreInterests": [
+          "filosofie"
+        ],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01m2j00pcg68vbmqwqbb12sn7p",
+        "title": "For Donald Winnicott, the psyche is not inside us but between us",
+        "author": null,
+        "siteName": "Psyche",
+        "category": "article",
+        "language": null,
+        "readingTime": "7 mins",
+        "readingMinutes": 7,
+        "wordCount": 1760,
+        "publishedDate": "2020-05-18",
+        "savedDate": "2026-09-15T07:38:01.488000+00:00",
+        "imageUrl": "https://epsilon.aeon.co/images/d592071c-0269-469b-b5b6-93272d333c86/2700x1530.jpg",
+        "sourceUrl": "https://psyche.co/ideas/for-donald-winnicott-the-psyche-is-not-inside-us-but-between-us",
+        "readwiseUrl": "https://read.readwise.io/read/01m2j00pcg68vbmqwqbb12sn7p",
+        "summary": "For Donald Winnicott, your psyche isn’t just in your head – it emerges from your relationships with others and the world",
+        "whyRead": null,
+        "bestMoment": null,
+        "tags": [
+          "behavioral psychology & coaching",
+          "philosophy",
+          "social psychology & interpersonal dynamics"
+        ],
+        "coreInterests": [
+          "filosofie",
+          "sociologie"
+        ],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01m2j00jwtf6b69xphrvbsqajq",
+        "title": "Rondetafeloverleg Tweede Kamer over Solvinity: Position paper",
+        "author": null,
+        "siteName": "Bert Hubert's writings",
+        "category": "article",
+        "language": null,
+        "readingTime": "8 mins",
+        "readingMinutes": 8,
+        "wordCount": 1917,
+        "publishedDate": "2026-01-21",
+        "savedDate": "2026-09-15T07:37:57.914000+00:00",
+        "imageUrl": "https://berthub.eu/articles/tweede-kamer-gebouw.jpg",
+        "sourceUrl": "https://berthub.eu/articles/posts/overheid-operationele-afhankelijkheden/",
+        "readwiseUrl": "https://read.readwise.io/read/01m2j00jwtf6b69xphrvbsqajq",
+        "summary": "Dinsdag 27 januari om 18:30 is er in Den Haag in de Tweede Kamer een rondetafeloverleg over de consequenties van de (beoogde) overname van Solvinity voor DigiD. Er komen diverse sprekers, onder andere namens Bits of Freedom, de Dutch Cloud Community, Clingendael, NLDigital (big tech), Stichting Digitale Infrastructuur Nederland. Ook zijn Brenno de Winter en Paul Timmers van de partij. En ik ben er ook.\nEn u kunt ook komen! Het zou weleens een leuk signaal zijn als de tribune vol zat - soms komen er maar drie mensen opdraven.",
+        "whyRead": null,
+        "bestMoment": null,
+        "tags": [
+          "current affairs & politics",
+          "software development",
+          "technology"
+        ],
+        "coreInterests": [],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01m2j00cft53jevqtq6ckxmvz1",
+        "title": "Nee je kan niet meer je overheid en maatschappij verhuizen naar Amerikaanse servers",
+        "author": null,
+        "siteName": "Bert Hubert's writings",
+        "category": "article",
+        "language": null,
+        "readingTime": "4 mins",
+        "readingMinutes": 4,
+        "wordCount": 850,
+        "publishedDate": "2025-02-20",
+        "savedDate": "2026-09-15T07:37:51.355000+00:00",
+        "imageUrl": "https://berthub.eu/articles/google-ip.png",
+        "sourceUrl": "https://berthub.eu/articles/posts/nee-je-kan-niet-meer-je-overheid-bouwen-op-de-us/",
+        "readwiseUrl": "https://read.readwise.io/read/01m2j00cft53jevqtq6ckxmvz1",
+        "summary": "Er was ooit het idee dat rouwverwerking door vijf stappen ging: ontkenning, protest, onderhandelen, depressie en acceptatie. Nou geloven we die theorie niet meer zo, maar als het gaat over Amerika zijn velen op dit moment wel druk aan het onderhandelen met de werkelijkheid.\nSommige van mijn meer activistische vrienden zijn al verder, en zien helder in dat het lariekoek is om je hele overheid nu nog te gaan verhuizen naar de Amerikaanse clouds.",
+        "whyRead": null,
+        "bestMoment": null,
+        "tags": [
+          "ai ethics & society",
+          "current affairs & politics",
+          "technology"
+        ],
+        "coreInterests": [],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01m2j009rpbj152hvf2kch96fe",
+        "title": "Digitale Autonomie 2.0: en nu echt",
+        "author": null,
+        "siteName": "Bert Hubert's writings",
+        "category": "article",
+        "language": null,
+        "readingTime": "27 mins",
+        "readingMinutes": 27,
+        "wordCount": 7061,
+        "publishedDate": "2026-07-02",
+        "savedDate": "2026-09-15T07:37:48.566000+00:00",
+        "imageUrl": "https://berthub.eu/articles/da20/33.png",
+        "sourceUrl": "https://berthub.eu/articles/posts/digitale-autonomie-2-0-surf-privacy-security/",
+        "readwiseUrl": "https://read.readwise.io/read/01m2j009rpbj152hvf2kch96fe",
+        "summary": "Afgelopen 25 juni deed ik het openingspraatje van de Surf Privacy en Security Conferentie. Nou heb ik vaker over digitale autonomie gesproken, maar deze keer heb ik het nadrukkelijk meer over wat er nu moet gebeuren. Of zoals de titel zegt “en nu echt”. Ondanks dat ik nu letterlijk meer dan 50 praatjes over dit onderwerp heb gegeven had ik nog niet de moeite genomen een goed transcript te maken. Voor de mensen die (zoals ik) veel liever lezen dan luisteren.",
+        "whyRead": null,
+        "bestMoment": null,
+        "tags": [
+          "current affairs & politics",
+          "software development",
+          "technology"
+        ],
+        "coreInterests": [],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01m2j0075w5khvczd7ryxe70z6",
+        "title": "How to ACTUALLY rest when you have ADHD",
+        "author": null,
+        "siteName": "The Dopamine Dispatch",
+        "category": "article",
+        "language": null,
+        "readingTime": "1 min",
+        "readingMinutes": 1,
+        "wordCount": 41,
+        "publishedDate": "2025-01-24",
+        "savedDate": "2026-09-15T07:37:45.916000+00:00",
+        "imageUrl": "https://substackcdn.com/image/fetch/$s_!C5ZG!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F08f4b601-a633-4254-87ee-18cef7e263a5_1280x720.png",
+        "sourceUrl": "https://divergentkellywrites.substack.com/p/how-to-actually-rest-when-you-have",
+        "readwiseUrl": "https://read.readwise.io/read/01m2j0075w5khvczd7ryxe70z6",
+        "summary": "You know that ADHD cycle where we do everything at once or nothing at all, with no in between?",
+        "whyRead": null,
+        "bestMoment": null,
+        "tags": [
+          "adhd & neurodivergence",
+          "health & wellness",
+          "personal growth & life philosophy"
+        ],
+        "coreInterests": [
+          "adhd"
+        ],
+        "alsoIn": [
+          "aaa-adhd-top-100"
+        ],
+        "memberships": [
+          {
+            "familyId": "adhd",
+            "size": "top-100",
+            "position": 36
+          }
+        ]
+      },
+      {
+        "position": null,
+        "id": "01m2j004hvhgzyfq7fx9y57rec",
+        "title": "How to make things easier with ADHD",
+        "author": null,
+        "siteName": "The Dopamine Dispatch",
+        "category": "article",
+        "language": null,
+        "readingTime": "1 min",
+        "readingMinutes": 1,
+        "wordCount": 38,
+        "publishedDate": "2026-01-11",
+        "savedDate": "2026-09-15T07:37:43.227000+00:00",
+        "imageUrl": "https://substackcdn.com/image/fetch/$s_!tzpo!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fde396972-1cca-41c8-8677-edefd0e36990_1280x720.png",
+        "sourceUrl": "https://divergentkellywrites.substack.com/p/how-to-make-things-easier-with-adhd",
+        "readwiseUrl": "https://read.readwise.io/read/01m2j004hvhgzyfq7fx9y57rec",
+        "summary": "Step 1: Stop distrusting ease",
+        "whyRead": null,
+        "bestMoment": null,
+        "tags": [
+          "adhd & neurodivergence",
+          "health & wellness",
+          "personal growth & life philosophy"
+        ],
+        "coreInterests": [
+          "adhd"
+        ],
+        "alsoIn": [
+          "aaa-adhd-top-100"
+        ],
+        "memberships": [
+          {
+            "familyId": "adhd",
+            "size": "top-100",
+            "position": 35
+          }
+        ]
+      },
+      {
+        "position": null,
+        "id": "01m2j001f1dva7pm8rnd4e97sj",
+        "title": "Why giving your ADHD brain permission to do LESS helps you do MORE",
+        "author": null,
+        "siteName": "The Dopamine Dispatch",
+        "category": "article",
+        "language": null,
+        "readingTime": "1 min",
+        "readingMinutes": 1,
+        "wordCount": 34,
+        "publishedDate": "2025-03-16",
+        "savedDate": "2026-09-15T07:37:40.063000+00:00",
+        "imageUrl": "https://substackcdn.com/image/fetch/$s_!rLlE!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fdce9879f-a2b7-4512-8540-64a0bc5ec028_1280x720.png",
+        "sourceUrl": "https://divergentkellywrites.substack.com/p/why-giving-your-adhd-brain-permission",
+        "readwiseUrl": "https://read.readwise.io/read/01m2j001f1dva7pm8rnd4e97sj",
+        "summary": "What if productivity doesn't have to feel like suffering?",
+        "whyRead": null,
+        "bestMoment": null,
+        "tags": [
+          "adhd & neurodivergence",
+          "health & wellness",
+          "personal growth & life philosophy"
+        ],
+        "coreInterests": [
+          "adhd"
+        ],
+        "alsoIn": [
+          "aaa-adhd-top-100"
+        ],
+        "memberships": [
+          {
+            "familyId": "adhd",
+            "size": "top-100",
+            "position": 34
+          }
+        ]
+      },
+      {
+        "position": null,
+        "id": "01m2hzzyjcrexjjretgmngjywg",
+        "title": "How I stopped ghosting my artist dates",
+        "author": null,
+        "siteName": "UX of Life",
+        "category": "article",
+        "language": null,
+        "readingTime": "5 mins",
+        "readingMinutes": 5,
+        "wordCount": 1198,
+        "publishedDate": "2026-05-30",
+        "savedDate": "2026-09-15T07:37:37.100000+00:00",
+        "imageUrl": "https://substackcdn.com/image/fetch/$s_!zRg9!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1ad2a64a-80c7-4868-9971-400b3fca63ac.heic",
+        "sourceUrl": "https://uxoflife.substack.com/p/stop-ghosting-artist-dates",
+        "readwiseUrl": "https://read.readwise.io/read/01m2hzzyjcrexjjretgmngjywg",
+        "summary": "now I just go on *tiny* adventures",
+        "whyRead": null,
+        "bestMoment": null,
+        "tags": [
+          "arts & culture",
+          "personal growth & life philosophy"
+        ],
+        "coreInterests": [],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01m2hzzvtkxzsj6n2kjpntgsqj",
+        "title": "UX of Life | Pari | Substack",
+        "author": null,
+        "siteName": "UX of Life",
+        "category": "article",
+        "language": null,
+        "readingTime": "1 min",
+        "readingMinutes": 1,
+        "wordCount": 264,
+        "publishedDate": null,
+        "savedDate": "2026-09-15T07:37:34.288000+00:00",
+        "imageUrl": "https://substackcdn.com/image/fetch/$s_!xLEH!,f_auto,q_auto:best,fl_progressive:steep/https%3A%2F%2Fuxoflife.substack.com%2Ftwitter%2Fsubscribe-card.jpg%3Fv%3D-847658745%26version%3D9",
+        "sourceUrl": "https://uxoflife.substack.com/p/stop-turning-everything-you-love",
+        "readwiseUrl": "https://read.readwise.io/read/01m2hzzvtkxzsj6n2kjpntgsqj",
+        "summary": null,
+        "whyRead": null,
+        "bestMoment": null,
+        "tags": [
+          "learning & meta-learning",
+          "personal growth & life philosophy"
+        ],
+        "coreInterests": [],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01m2hzzr7sgpkzdfsnjdn7wd87",
+        "title": "You Don't Have What You Want Because You Don't Want It Enough",
+        "author": null,
+        "siteName": "Conquer",
+        "category": "article",
+        "language": null,
+        "readingTime": "4 mins",
+        "readingMinutes": 4,
+        "wordCount": 837,
+        "publishedDate": "2025-08-11",
+        "savedDate": "2026-09-15T07:37:30.617000+00:00",
+        "imageUrl": "https://substackcdn.com/image/fetch/$s_!5rF0!,w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F6036dacc-0d9b-4e9d-89e6-7b8a87648f4f_1920x1065.jpeg",
+        "sourceUrl": "https://conquer1.substack.com/p/you-dont-have-what-you-want-because",
+        "readwiseUrl": "https://read.readwise.io/read/01m2hzzr7sgpkzdfsnjdn7wd87",
+        "summary": "You Don't Have What You Want Because You Don't Want It Enough",
+        "whyRead": null,
+        "bestMoment": null,
+        "tags": [
+          "learning & meta-learning",
+          "personal growth & life philosophy"
+        ],
+        "coreInterests": [],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01m2hzzndcv4vwfq4fcc5qjynz",
+        "title": "OpenAI’s Ghibli Moment Spins Out of Control",
+        "author": null,
+        "siteName": "Bloomberg.com",
+        "category": "article",
+        "language": null,
+        "readingTime": "1 min",
+        "readingMinutes": 1,
+        "wordCount": 55,
+        "publishedDate": null,
+        "savedDate": "2026-09-15T07:37:27.725000+00:00",
+        "imageUrl": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iBvDcpgPvchM/v1/1200x799.jpg",
+        "sourceUrl": "https://www.bloomberg.com/news/newsletters/2025-04-04/openai-s-viral-moment-with-studio-ghibli-s-images-takes-a-darker-turn",
+        "readwiseUrl": "https://read.readwise.io/read/01m2hzzndcv4vwfq4fcc5qjynz",
+        "summary": "Welcome to Tech In Depth, our daily newsletter with reporting and analysis about the business of tech from Bloomberg’s journalists around the world. Today, Ellen Huet looks at the way OpenAI reacted to the Studio Ghibli memes that flowed from users of its new AI image generator.",
+        "whyRead": null,
+        "bestMoment": null,
+        "tags": [
+          "ai ethics & society",
+          "arts & culture",
+          "entertainment & pop culture"
+        ],
+        "coreInterests": [
+          "cultuur_games_film"
+        ],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01m2hzzjnq49xafnyzmpw46kcd",
+        "title": "We've detected unusual activity from your computer network",
+        "author": null,
+        "siteName": "Bloomberg.com",
+        "category": "article",
+        "language": null,
+        "readingTime": "1 min",
+        "readingMinutes": 1,
+        "wordCount": 50,
+        "publishedDate": null,
+        "savedDate": "2026-09-15T07:37:24.919000+00:00",
+        "imageUrl": null,
+        "sourceUrl": "https://www.bloomberg.com/news/articles/2023-09-21/anime-studio-ghibli-acquired-as-it-struggles-to-find-miyazaki-successor",
+        "readwiseUrl": "https://read.readwise.io/read/01m2hzzjnq49xafnyzmpw46kcd",
+        "summary": "Please make sure your browser supports JavaScript and cookies and that you are not blocking them from loading. For more information you can review our Terms of Service and Cookie Policy.",
+        "whyRead": null,
+        "bestMoment": null,
+        "tags": [
+          "arts & culture",
+          "entertainment & pop culture",
+          "organizational behavior & culture"
+        ],
+        "coreInterests": [
+          "cultuur_games_film",
+          "agile"
+        ],
+        "alsoIn": [
+          "aaa-luchtig-top-100"
+        ],
+        "memberships": [
+          {
+            "familyId": "luchtig",
+            "size": "top-100",
+            "position": 63
+          }
+        ]
+      },
+      {
+        "position": null,
+        "id": "01m2hzzfprmy3jxhm5g3nfwacb",
+        "title": "When ‘Busy’ Becomes the Culture",
+        "author": null,
+        "siteName": "reworked.co",
+        "category": "article",
+        "language": null,
+        "readingTime": "5 mins",
+        "readingMinutes": 5,
+        "wordCount": 1088,
+        "publishedDate": "2026-06-18",
+        "savedDate": "2026-09-15T07:37:21.880000+00:00",
+        "imageUrl": "https://www.reworked.co/-/media/6c00664fdcbb44f485a60cf773c475b7.ashx",
+        "sourceUrl": "https://www.reworked.co/employee-experience/when-busy-becomes-the-culture/",
+        "readwiseUrl": "https://read.readwise.io/read/01m2hzzfprmy3jxhm5g3nfwacb",
+        "summary": "Busy doesn't necessarily mean productive. As AI embeds itself in our workdays, leaders must rethink what 'high performance' means.",
+        "whyRead": null,
+        "bestMoment": null,
+        "tags": [
+          "health & wellness",
+          "organizational behavior & culture",
+          "professional development"
+        ],
+        "coreInterests": [
+          "agile"
+        ],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01m2hzzcv3t6822hc8sstp9fsp",
+        "title": "Great Company Culture Is More Than Creating a Nice Place to Work",
+        "author": null,
+        "siteName": "Stanford Graduate School of Business",
+        "category": "article",
+        "language": null,
+        "readingTime": "5 mins",
+        "readingMinutes": 5,
+        "wordCount": 1292,
+        "publishedDate": "2026-04-13",
+        "savedDate": "2026-09-15T07:37:18.945000+00:00",
+        "imageUrl": "https://www.gsb.stanford.edu/sites/default/files/styles/1630x_variable/public/2026-04/Company%20Culture%20Key.jpg.webp?itok=qorcHn1S",
+        "sourceUrl": "https://www.gsb.stanford.edu/insights/great-company-culture-more-creating-nice-place-work",
+        "readwiseUrl": "https://read.readwise.io/read/01m2hzzcv3t6822hc8sstp9fsp",
+        "summary": "Glenn Carroll and Jennifer Chatman share research-based truths about organizational culture and how to change it.",
+        "whyRead": null,
+        "bestMoment": null,
+        "tags": [
+          "organizational behavior & culture",
+          "professional development",
+          "team dynamics & collaboration"
+        ],
+        "coreInterests": [
+          "agile"
+        ],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01m2hzz9vqnxakffwsw9hvqns4",
+        "title": "Full article: The Protagonist Vanishes: A Dickensian Life-Writing Mystery",
+        "author": null,
+        "siteName": "Taylor & Francis",
+        "category": "article",
+        "language": null,
+        "readingTime": "1 min",
+        "readingMinutes": 1,
+        "wordCount": 13,
+        "publishedDate": null,
+        "savedDate": "2026-09-15T07:37:15.895000+00:00",
+        "imageUrl": "https://covers.tandf.co.uk/og/RLWR.png",
+        "sourceUrl": "https://www.tandfonline.com/doi/full/10.1080/14484528.2025.2554934",
+        "readwiseUrl": "https://read.readwise.io/read/01m2hzz9vqnxakffwsw9hvqns4",
+        "summary": null,
+        "whyRead": null,
+        "bestMoment": null,
+        "tags": [
+          "arts & culture",
+          "research papers & academia"
+        ],
+        "coreInterests": [],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01m2hzz736ff6f5t97d1ctk4kk",
+        "title": "NEUROQUEER HERESIES",
+        "author": null,
+        "siteName": "NEUROQUEER • THE WRITINGS OF DR. NICK WALKER",
+        "category": "article",
+        "language": null,
+        "readingTime": "1 min",
+        "readingMinutes": 1,
+        "wordCount": 44,
+        "publishedDate": "2021-10-13",
+        "savedDate": "2026-09-15T07:37:13.062000+00:00",
+        "imageUrl": "https://neuroqueer.com/wp-content/uploads/2021/07/NeuroFly.gif",
+        "sourceUrl": "https://neuroqueer.com/neuroqueer-heresies/",
+        "readwiseUrl": "https://read.readwise.io/read/01m2hzz736ff6f5t97d1ctk4kk",
+        "summary": "Find it at local bookshops through IndieBound Or order it from: Autonomous Press Amazon Bookshop Neuroqueer Heresies: Notes on the Neurodiversity Paradigm, Autistic Empowerment, and Postnormal Possibilities Neuroqueer Heresies collects a decade's worth of my writings on neurodiversity, autism, and Neuroqueer Theory, including 120 pages of new material that's not available elsewhere.",
+        "whyRead": null,
+        "bestMoment": null,
+        "tags": [
+          "adhd & neurodivergence",
+          "personal growth & life philosophy",
+          "social psychology & interpersonal dynamics"
+        ],
+        "coreInterests": [
+          "sociologie",
+          "adhd"
+        ],
+        "alsoIn": [
+          "aaa-adhd-top-100"
+        ],
+        "memberships": [
+          {
+            "familyId": "adhd",
+            "size": "top-100",
+            "position": 26
+          }
+        ]
+      },
+      {
+        "position": null,
+        "id": "01m2hzz4e3n05gexdnc0jg9hjk",
+        "title": "New screen time guidance for parents of under-5s",
+        "author": null,
+        "siteName": "GOV.UK",
+        "category": "article",
+        "language": null,
+        "readingTime": "6 mins",
+        "readingMinutes": 6,
+        "wordCount": 1571,
+        "publishedDate": "2026-03-26",
+        "savedDate": "2026-09-15T07:37:10.339000+00:00",
+        "imageUrl": "https://www.gov.uk/assets/frontend/govuk-opengraph-image-4196a4d6333cf92aaf720047f56cfd91b3532d7635fc21ebcf0d5897df6b5f77.png",
+        "sourceUrl": "https://www.gov.uk/government/news/new-screen-time-guidance-for-parents-of-under-5s",
+        "readwiseUrl": "https://read.readwise.io/read/01m2hzz4e3n05gexdnc0jg9hjk",
+        "summary": "Government answers parents’ calls for support on screen time with new evidence-backed guidance.",
+        "whyRead": null,
+        "bestMoment": null,
+        "tags": [
+          "current affairs & politics",
+          "health & wellness",
+          "social psychology & interpersonal dynamics"
+        ],
+        "coreInterests": [
+          "sociologie"
+        ],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01m2hzz1p9y7ya92agg5pztshb",
+        "title": "Putting education in \"educational\" apps: lessons from the science of learning",
+        "author": null,
+        "siteName": "PubMed",
+        "category": "article",
+        "language": null,
+        "readingTime": "1 min",
+        "readingMinutes": 1,
+        "wordCount": 241,
+        "publishedDate": null,
+        "savedDate": "2026-09-15T07:37:07.529000+00:00",
+        "imageUrl": "https://cdn.ncbi.nlm.nih.gov/pubmed/persistent/pubmed-meta-image-v2.jpg",
+        "sourceUrl": "https://pubmed.ncbi.nlm.nih.gov/25985468/",
+        "readwiseUrl": "https://read.readwise.io/read/01m2hzz1p9y7ya92agg5pztshb",
+        "summary": "Children are in the midst of a vast, unplanned experiment, surrounded by digital technologies that were not available but 5 years ago. At the apex of this boom is the introduction of applications (\"apps\") for tablets and smartphones. However, there is simply not the time, money, or resources availab …",
+        "whyRead": null,
+        "bestMoment": null,
+        "tags": [
+          "health & wellness",
+          "learning & meta-learning",
+          "research papers & academia"
+        ],
+        "coreInterests": [],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01m2hzyydmerya5ghq8fr7npgk",
+        "title": "The attention economy",
+        "author": null,
+        "siteName": "Aeon",
+        "category": "article",
+        "language": null,
+        "readingTime": "9 mins",
+        "readingMinutes": 9,
+        "wordCount": 2144,
+        "publishedDate": null,
+        "savedDate": "2026-09-15T07:37:04.179000+00:00",
+        "imageUrl": "https://alpha.aeon.co/images/7f125a9e-76c4-483a-bab1-cda234e09001/header_179991106.jpg",
+        "sourceUrl": "https://aeon.co/essays/does-each-click-of-attention-cost-a-bit-of-ourselves",
+        "readwiseUrl": "https://read.readwise.io/read/01m2hzyydmerya5ghq8fr7npgk",
+        "summary": "It costs nothing to click, respond and retweet. But what price do we pay in our relationships and our peace of mind?",
+        "whyRead": null,
+        "bestMoment": null,
+        "tags": [
+          "personal growth & life philosophy",
+          "social psychology & interpersonal dynamics",
+          "technology"
+        ],
+        "coreInterests": [
+          "sociologie"
+        ],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01m2hqc7vb63rysh74zabdqeg7",
+        "title": "It’s not just screen time: the problem with children’s media is that it has become relentlessly hectic, loud and bright",
+        "author": null,
+        "siteName": "Aeon",
+        "category": "article",
+        "language": null,
+        "readingTime": "10 mins",
+        "readingMinutes": 10,
+        "wordCount": 2634,
+        "publishedDate": "2026-09-14",
+        "savedDate": "2026-09-15T05:07:02.635000+00:00",
+        "imageUrl": "https://images.aeonmedia.co/images/0bdeea37-3692-4792-af19-9981bd686a4b/essay-gettyimages-514482248.jpg?width=1200&quality=75&format=jpeg",
+        "sourceUrl": "https://aeon.co/essays/its-not-just-screen-time-kids-are-bombarded-by-hectic-media",
+        "readwiseUrl": "https://read.readwise.io/read/01m2hqc7vb63rysh74zabdqeg7",
+        "summary": "It’s not just screen time: the problem with children’s media is that it has become relentlessly hectic, loud and bright",
+        "whyRead": "Raakt je interesse in opvoeding, menselijke ontwikkeling en technologie. Dit essay laat scherp zien dat de snelheid en prikkelstructuur van kindermedia net zo bepalend zijn als de inhoud, met directe gevolgen voor aandacht, empathie en betekenisgeving.",
+        "bestMoment": "analytisch",
+        "tags": [
+          "health & wellness",
+          "social psychology & interpersonal dynamics",
+          "technology"
+        ],
+        "coreInterests": [
+          "sociologie"
+        ],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01m2hqbzy3gmwsq8nhwmmadjb1",
+        "title": "Neuroqueering on the lawn",
+        "author": null,
+        "siteName": "Aeon",
+        "category": "article",
+        "language": null,
+        "readingTime": "13 mins",
+        "readingMinutes": 13,
+        "wordCount": 3312,
+        "publishedDate": "2026-09-03",
+        "savedDate": "2026-09-15T05:06:54.531000+00:00",
+        "imageUrl": "https://images.aeonmedia.co/images/5644fcf3-600d-4249-8909-475112d8fd6f/essay-v2-.jpg?width=1200&quality=75&format=jpeg",
+        "sourceUrl": "https://aeon.co/essays/neuroqueer-expression-and-the-limits-of-social-tolerance",
+        "readwiseUrl": "https://read.readwise.io/read/01m2hqbzy3gmwsq8nhwmmadjb1",
+        "summary": "Hans Christian Andersen’s tantrum in Charles Dickens’s garden was a case of ‘too muchness’, emotions bursting past respectability",
+        "whyRead": "Raakt je interesse in ADHD/neurodivergentie, sociale psychologie en de vraag hoe normen mensen vormen. Het essay gebruikt Andersen, Dickens en Leigh Bowery om te laten zien hoe systemen emotie en gedrag pas als legitiem erkennen wanneer ze beheersbaar, leesbaar en productief zijn.",
+        "bestMoment": "analytisch",
+        "tags": [
+          "adhd & neurodivergence",
+          "social psychology & interpersonal dynamics",
+          "sociology & social structures"
+        ],
+        "coreInterests": [
+          "sociologie",
+          "adhd"
+        ],
+        "alsoIn": [
+          "aaa-adhd-top-100"
+        ],
+        "memberships": [
+          {
+            "familyId": "adhd",
+            "size": "top-100",
+            "position": 23
+          }
+        ]
+      },
+      {
+        "position": null,
+        "id": "01m2hqbnn5fz7af4fafaq7h8ew",
+        "title": "The End of Company Culture as We Knew It",
+        "author": null,
+        "siteName": "reworked.co",
+        "category": "article",
+        "language": null,
+        "readingTime": "5 mins",
+        "readingMinutes": 5,
+        "wordCount": 1298,
+        "publishedDate": "2026-08-24",
+        "savedDate": "2026-09-15T05:06:44.005000+00:00",
+        "imageUrl": "https://www.reworked.co/-/media/3144b62b02f94a7c8b00313ffb6f8126.ashx",
+        "sourceUrl": "https://www.reworked.co/employee-experience/the-end-of-company-culture-as-we-knew-it/",
+        "readwiseUrl": "https://read.readwise.io/read/01m2hqbnn5fz7af4fafaq7h8ew",
+        "summary": "The choice isn't between company culture and performance. Culture shapes how performance happens.",
+        "whyRead": "Raakt je kerninteresse in organisatiegedrag, teamdynamiek en agile/teamcoaching. Het stuk prikt door de oppervlakkige symbolen van bedrijfscultuur heen en koppelt cultuur aan de dagelijkse keuzes waarin vertrouwen, macht, samenwerking en AI-verandering werkelijk voelbaar worden.",
+        "bestMoment": "kritisch",
+        "tags": [
+          "organizational behavior & culture",
+          "team dynamics & collaboration",
+          "technology"
+        ],
+        "coreInterests": [
+          "agile"
+        ],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01m2hndcfjrxtfc5b27zeaqcke",
+        "title": "Studio Ghibli’s Biggest Secret Is What Comes Next",
+        "author": null,
+        "siteName": "Bloomberg.com",
+        "category": "article",
+        "language": null,
+        "readingTime": "21 mins",
+        "readingMinutes": 21,
+        "wordCount": 5311,
+        "publishedDate": "2026-08-13",
+        "savedDate": "2026-09-15T04:32:42.994000+00:00",
+        "imageUrl": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i8_QwMk6OBqE/v3/-1x-1.webp",
+        "sourceUrl": "https://www.bloomberg.com/features/2026-studio-ghibli-future/?src=longreads",
+        "readwiseUrl": "https://read.readwise.io/read/01m2hndcfjrxtfc5b27zeaqcke",
+        "summary": "Hayao Miyazaki and his animators have had a legendary run of classics. They’re not in the biggest rush to make another.",
+        "whyRead": "Raakt je interesse in fantasy/SF als cultuurvorm, filmgeschiedenis en de wisselwerking tussen kunst, technologie en organisatie. Deze lange reportage gebruikt de opvolgingscrisis bij Studio Ghibli om te onderzoeken wat er gebeurt wanneer een uitzonderlijk persoonlijke, ambachtelijke studio een merk en bedrijf moet worden.",
+        "bestMoment": "geconcentreerd",
+        "tags": [
+          "arts & culture",
+          "entertainment & pop culture",
+          "organizational behavior & culture"
+        ],
+        "coreInterests": [
+          "cultuur_games_film",
+          "agile"
+        ],
+        "alsoIn": [
+          "aaa-luchtig-top-100"
+        ],
+        "memberships": [
+          {
+            "familyId": "luchtig",
+            "size": "top-100",
+            "position": 39
+          }
+        ]
+      },
+      {
+        "position": null,
+        "id": "01m2hbqa1rzsta0mbwwqm1dyrd",
+        "title": "Does Not the Line Always Go Up?",
+        "author": null,
+        "siteName": "Substack",
+        "category": "email",
+        "language": null,
+        "readingTime": "17 mins",
+        "readingMinutes": 17,
+        "wordCount": 4460,
+        "publishedDate": "2026-09-15",
+        "savedDate": "2026-09-15T01:43:22.424000+00:00",
+        "imageUrl": null,
+        "sourceUrl": "mailto:reader-forwarded-email/f65f2ef8474f81c691a01b57bb86f07d",
+        "readwiseUrl": "https://read.readwise.io/read/01m2hbqa1rzsta0mbwwqm1dyrd",
+        "summary": "As I mentioned in my last post, this blog is now ten years old, which gives me an excuse to reflect. I’m not quite done with that.",
+        "whyRead": "Raakt je interesse in politieke filosofie, geschiedenis, ideologie en AI-optimisme. R.W. Richey gebruikt Jeremia’s beeld van een mislukte oogst en naderende winter om te onderzoeken waarom liberale democratie, ideologie en technologie ons wel vooruithelpen maar geen seculiere verlossing brengen.",
+        "bestMoment": "analytisch",
+        "tags": [
+          "ai ethics & society",
+          "history",
+          "political philosophy"
+        ],
+        "coreInterests": [
+          "filosofie",
+          "ideologie",
+          "geschiedenis"
+        ],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01m2h8cq8khvf7dy48c9f2qcaf",
+        "title": "King Ludd",
+        "author": null,
+        "siteName": "Substack",
+        "category": "email",
+        "language": null,
+        "readingTime": "12 mins",
+        "readingMinutes": 12,
+        "wordCount": 2962,
+        "publishedDate": "2026-09-14",
+        "savedDate": "2026-09-15T00:45:09.780000+00:00",
+        "imageUrl": null,
+        "sourceUrl": "mailto:reader-forwarded-email/9dba0ba33ea0e1ecc08e85f96d192745",
+        "readwiseUrl": "https://read.readwise.io/read/01m2h8cq8khvf7dy48c9f2qcaf",
+        "summary": "We know of him only from vague inscriptions at two archaeological sites near the Welsh-English border. One might have been his temple.",
+        "whyRead": "Raakt je interesses in mythologie, Tolkien en technologie. Dit essay is geestig en essayistisch.",
+        "bestMoment": "ontspannen",
+        "tags": [
+          "ai ethics & society",
+          "arts & culture",
+          "history"
+        ],
+        "coreInterests": [
+          "geschiedenis"
+        ],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01m2gxpsbwfs8c2zvzg9vda4gx",
+        "title": "How to make your life as spellbinding as childhood",
+        "author": null,
+        "siteName": "Substack",
+        "category": "email",
+        "language": null,
+        "readingTime": "10 mins",
+        "readingMinutes": 10,
+        "wordCount": 2460,
+        "publishedDate": "2026-09-14",
+        "savedDate": "2026-09-14T21:38:25.276000+00:00",
+        "imageUrl": null,
+        "sourceUrl": "mailto:reader-forwarded-email/1204f97e23ca9f0453fc6d1875a5e8b7",
+        "readwiseUrl": "https://read.readwise.io/read/01m2gxpsbwfs8c2zvzg9vda4gx",
+        "summary": "It was like my obsession with basketball when I was eight. It was like falling in love.",
+        "whyRead": "Raakt je interesses in leren, kunst en persoonlijke ontwikkeling. Het essay verdedigt connoisseurship: door vrijwillig en aandachtig expertise en smaak op te bouwen rond een onderwerp buiten je werk, kan vrije tijd weer speels, rustgevend en betekenisvol worden.",
+        "bestMoment": "geinspireerd",
+        "tags": [
+          "arts & culture",
+          "learning & meta-learning",
+          "personal growth & life philosophy"
+        ],
+        "coreInterests": [],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01m2gms0masmtyr72vzqy96dtf",
+        "title": "Does TV actually suck now?",
+        "author": null,
+        "siteName": "Substack",
+        "category": "email",
+        "language": null,
+        "readingTime": "5 mins",
+        "readingMinutes": 5,
+        "wordCount": 1145,
+        "publishedDate": "2026-09-14",
+        "savedDate": "2026-09-14T19:02:21.066000+00:00",
+        "imageUrl": null,
+        "sourceUrl": "mailto:reader-forwarded-email/495d5b39e172fa6f2e94e1cf9c39a1d9",
+        "readwiseUrl": "https://read.readwise.io/read/01m2gms0masmtyr72vzqy96dtf",
+        "summary": "To kick off awards season, The Substack Post asked Emily Kirkpatrick, the fashion and culture writer behind I Heart Mess, whose work has appeared in The New York Times and Vanity Fair, to sound off on the state of modern entertainment.",
+        "whyRead": "Raakt je interesses in film en series als cultuurvorm en in de aandachtseconomie. Dit geestige essay draait de bekende vraag om: misschien is televisie niet slechter geworden, maar zijn wij slechter geworden in kijken.",
+        "bestMoment": "ontspannen",
+        "tags": [
+          "arts & culture",
+          "entertainment & pop culture",
+          "technology"
+        ],
+        "coreInterests": [
+          "cultuur_games_film"
+        ],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01m2gcr4v9t1qmjq72p8twy9sr",
+        "title": "Discipline Comes from Having No Choice",
+        "author": null,
+        "siteName": "Conquer",
+        "category": "article",
+        "language": null,
+        "readingTime": "10 mins",
+        "readingMinutes": 10,
+        "wordCount": 2404,
+        "publishedDate": "2025-11-01",
+        "savedDate": "2026-09-14T16:42:04.009000+00:00",
+        "imageUrl": "https://substackcdn.com/image/fetch/$s_!awO-!,w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F0623362c-d952-4ee9-b5f6-ca77350e9fbd_1250x935.jpeg",
+        "sourceUrl": "https://conquer1.substack.com/p/having-no-choice-makes-you-disciplined?utm_source=direct&r=1r0y5d&utm_campaign=post-expanded-share&utm_medium=post%20viewer",
+        "readwiseUrl": "https://read.readwise.io/read/01m2gcr4v9t1qmjq72p8twy9sr",
+        "summary": "You don't need 30 days to build a habit.",
+        "whyRead": "Een provocerend zelfhulpessay over het beslismoment tussen weten wat je wilt doen en het daadwerkelijk doen. De kern is gedragsontwerp: verwijder verleidelijke opties, maak beslissingen vooraf, werk met vaste periodes en bouw gewoontes op. Interessant als praktische aanvulling op je interesses in persoonlijke ontwikkeling en aandacht, al zijn sommige claims stellig en anekdotisch.",
+        "bestMoment": "praktisch",
+        "tags": [
+          "health & wellness",
+          "learning & meta-learning",
+          "personal growth & life philosophy"
+        ],
+        "coreInterests": [],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01m2gcqjghwbe171693sxkjtss",
+        "title": "Too many interests, not enough time? - by Pari - UX of Life",
+        "author": null,
+        "siteName": "UX of Life",
+        "category": "article",
+        "language": null,
+        "readingTime": "8 mins",
+        "readingMinutes": 8,
+        "wordCount": 2070,
+        "publishedDate": "2025-07-17",
+        "savedDate": "2026-09-14T16:41:45.164000+00:00",
+        "imageUrl": "https://substackcdn.com/image/fetch/$s_!EDuX!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1f161736-9114-4b73-b0b0-edf0b8154033_2224x1388.jpeg",
+        "sourceUrl": "https://uxoflife.substack.com/p/12-week-year-what-i-learned",
+        "readwiseUrl": "https://read.readwise.io/read/01m2gcqjghwbe171693sxkjtss",
+        "summary": "What I learned from running my life in 12-week years",
+        "whyRead": "Een persoonlijk en bruikbaar essay over het toepassen van een “12-week year” op een leven met veel interesses. De auteur combineert focus met ruimte voor experiment, rust, onafheid en mildheid voor perfectionisme. Het biedt een concreet ritme om meerdere nieuwsgierigheden te ontwikkelen zonder alles tegelijk of voor altijd te hoeven kiezen.",
+        "bestMoment": "geinspireerd",
+        "tags": [
+          "health & wellness",
+          "learning & meta-learning",
+          "personal growth & life philosophy"
+        ],
+        "coreInterests": [],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01m2gbthqrjaxjh99tqkckbc8f",
+        "title": "Dear ADHDer: Please stop solving capacity problems with character upgrades",
+        "author": null,
+        "siteName": "The Dopamine Dispatch",
+        "category": "article",
+        "language": null,
+        "readingTime": "6 mins",
+        "readingMinutes": 6,
+        "wordCount": 1483,
+        "publishedDate": "2026-09-13",
+        "savedDate": "2026-09-14T16:25:54.169000+00:00",
+        "imageUrl": "https://substackcdn.com/image/fetch/$s_!dbV9!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fabd5bade-7ef0-47c5-921f-695c88bb232d_1280x720.jpeg",
+        "sourceUrl": "https://divergentkellywrites.substack.com/p/dear-adhder-please-stop-solving-capacity?utm_source=direct&r=1r0y5d&utm_campaign=post-expanded-share&utm_medium=post%20viewer",
+        "readwiseUrl": "https://read.readwise.io/read/01m2gbthqrjaxjh99tqkckbc8f",
+        "summary": "So many ADHDers feel overloaded, exhausted, overcommitted, and/or burned out. And it’s very common for us to believe it’s because something about us needs to be further optimized.",
+        "whyRead": "Een sterk ADHD-essay over het verschil tussen een capaciteitsprobleem en een vermeend karakterprobleem. Het verzet zich tegen nog meer discipline, optimalisatie en zelfverwijt wanneer iemand al overbelast is, en biedt een milder handelingskader: belasting verminderen, taken eenvoudiger maken, verwachtingen aanpassen en herstel beschermen.",
+        "bestMoment": "geruststellend",
+        "tags": [
+          "adhd & neurodivergence",
+          "health & wellness",
+          "personal growth & life philosophy",
+          "social psychology & interpersonal dynamics"
+        ],
+        "coreInterests": [
+          "sociologie",
+          "adhd"
+        ],
+        "alsoIn": [
+          "aaa-luchtig-top-100",
+          "aaa-adhd-top-100"
+        ],
+        "memberships": [
+          {
+            "familyId": "luchtig",
+            "size": "top-100",
+            "position": 62
+          },
+          {
+            "familyId": "adhd",
+            "size": "top-100",
+            "position": 22
+          }
+        ]
+      },
+      {
+        "position": null,
+        "id": "01m2g0hrz9ps3ew5q4ctj1vyhd",
+        "title": "Big Tech and Big Oil have fused – Call it Fossil Tech",
+        "author": null,
+        "siteName": "Substack",
+        "category": "email",
+        "language": null,
+        "readingTime": "10 mins",
+        "readingMinutes": 10,
+        "wordCount": 2397,
+        "publishedDate": "2026-09-14",
+        "savedDate": "2026-09-14T13:08:52.329000+00:00",
+        "imageUrl": null,
+        "sourceUrl": "mailto:reader-forwarded-email/41dfa0a9166eabd284695b8d577daff9",
+        "readwiseUrl": "https://read.readwise.io/read/01m2g0hrz9ps3ew5q4ctj1vyhd",
+        "summary": "One day before the official launch of END TIMES FASCISM – And the Fight for the Living World, Astra and I are thrilled to share a short excerpt from the book.",
+        "whyRead": "Een scherp essay over de verwevenheid van de AI-wapenwedloop en de fossiele-energiesector. Het laat zien hoe datacenters, gascentrales en de geopolitiek van Big Tech klimaatbeloften onder druk zetten, en benoemt de nieuwe machtscoalitie als “Fossil Tech”. Dit raakt je interesses in technologie, AI-ethiek, politiek en klimaat.",
+        "bestMoment": "verontwaardigd",
+        "tags": [
+          "ai ethics & society",
+          "climate & environment",
+          "economics & political economy",
+          "technology"
+        ],
+        "coreInterests": [],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01m2fzg91ffgg52tza0tcf0mv2",
+        "title": "Are universities on the brink of an Uber-like revolution?",
+        "author": null,
+        "siteName": "Substack",
+        "category": "email",
+        "language": null,
+        "readingTime": "13 mins",
+        "readingMinutes": 13,
+        "wordCount": 3347,
+        "publishedDate": "2026-09-14",
+        "savedDate": "2026-09-14T12:50:34.671000+00:00",
+        "imageUrl": null,
+        "sourceUrl": "mailto:reader-forwarded-email/d40c866caeb8222488186f16c44eed96",
+        "readwiseUrl": "https://read.readwise.io/read/01m2fzg91ffgg52tza0tcf0mv2",
+        "summary": "This post is part of a series on the challenges posed by the rise of AI.",
+        "whyRead": "Een uitgewerkte scenarioanalyse van hoe AI de universiteit kan uitdagen: goedkope gepersonaliseerde tutors, vaste toetsmomenten en nieuwe vormen van credentialisering. Het stuk is speculatief maar scherp over motivatie, signalering, status, campusleven en de mogelijkheid dat AI-onderwijs een winner-takes-all-markt wordt.",
+        "bestMoment": "vooruitkijkend",
+        "tags": [
+          "ai & machine learning",
+          "economics & political economy",
+          "learning & meta-learning",
+          "research papers & academia",
+          "technology"
+        ],
+        "coreInterests": [
+          "ai_ethiek"
+        ],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01m2fzdcgqqb5pmzmjvt1qncgx",
+        "title": "Hoe wordt de overheid weer 'van de IT'?",
+        "author": null,
+        "siteName": "Bert Hubert's writings",
+        "category": "rss",
+        "language": null,
+        "readingTime": "12 mins",
+        "readingMinutes": 12,
+        "wordCount": 3066,
+        "publishedDate": "2026-09-14",
+        "savedDate": "2026-09-14T12:48:56.928000+00:00",
+        "imageUrl": "https://berthub.eu/articles/favicon.ico",
+        "sourceUrl": "https://berthub.eu/articles/posts/hoe-word-je-weer-van-de-it/",
+        "readwiseUrl": "https://read.readwise.io/read/01m2fzdcgqqb5pmzmjvt1qncgx",
+        "summary": "De korte versie: De Nederlandse overheid “is niet (echt) van de IT”, en legt vrijwel altijd haar oor direct of indirect te luisteren bij een door big-tech gedomineerd ecosysteem om te bepalen wat te doen. En daardoor valt de keuze vrijwel altijd weer op Amerikaanse platformen, gerund door derden, onder Amerikaans (afluister)recht. En tegenwoordig ook vol met AI (of je nou wilt of niet).\nOm weer grip op IT te krijgen, en een eigen en autonomer pad te kiezen, moet er een hoop veranderen.",
+        "whyRead": "Een concreet en uitgesproken betoog voor digitale autonomie van de Nederlandse overheid. De auteur verbindt aanbestedingscultuur, gebrek aan hands-on expertise, afhankelijkheid van Amerikaanse platforms en AI-risico’s aan een praktische route: begin met kleine, zichtbare projecten zoals videobellen en DigiD, bouw vertrouwen op en maak de overheid weer technisch geloofwaardig.",
+        "bestMoment": "strategisch",
+        "tags": [
+          "ai ethics & society",
+          "politics & public policy",
+          "software development",
+          "technology"
+        ],
+        "coreInterests": [],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01m2fxryzx3rcm421qmyyrcwd0",
+        "title": "The MAGA Plot(s) to Destroy Humanity",
+        "author": null,
+        "siteName": "Substack",
+        "category": "email",
+        "language": null,
+        "readingTime": "5 mins",
+        "readingMinutes": 5,
+        "wordCount": 1243,
+        "publishedDate": "2026-09-14",
+        "savedDate": "2026-09-14T12:20:22.141000+00:00",
+        "imageUrl": null,
+        "sourceUrl": "mailto:reader-forwarded-email/1e834550c4ff72593e8e9f92c1ee313a",
+        "readwiseUrl": "https://read.readwise.io/read/01m2fxryzx3rcm421qmyyrcwd0",
+        "summary": "These warnings aren’t entirely new. At first, however, Anthropic was virtually alone among the top LLM companies in highlighting the dangers that unregulated AI poses.",
+        "whyRead": "Een polemisch politiek essay dat AI-risico en klimaatontkenning naast elkaar legt. Het verbindt deregulering, Trump/MAGA-politiek, militaire AI-toepassingen en de invloed van technologiebedrijven aan een bredere analyse van hoe economische belangen en ideologie existentiële risico’s normaliseren. De argumentatie is scherp maar duidelijk opiniërend.",
+        "bestMoment": "kritisch",
+        "tags": [
+          "ai ethics & society",
+          "climate & environment",
+          "current affairs & politics",
+          "political ideologies"
+        ],
+        "coreInterests": [
+          "ideologie"
+        ],
+        "alsoIn": [],
+        "memberships": []
+      },
       {
         "position": null,
         "id": "01m2fgr2jmmy1r16h3wx27vqkd",
@@ -34905,7 +36245,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 60
+            "position": 61
           }
         ]
       },
@@ -35124,7 +36464,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "adhd",
             "size": "top-100",
-            "position": 28
+            "position": 31
           }
         ]
       },
@@ -36337,7 +37677,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "adhd",
             "size": "top-100",
-            "position": 23
+            "position": 25
           }
         ]
       },
@@ -40733,7 +42073,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 79
+            "position": 82
           }
         ]
       },
@@ -40773,7 +42113,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 59
+            "position": 60
           }
         ]
       },
@@ -43201,7 +44541,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 77
+            "position": 80
           }
         ]
       },
@@ -43275,7 +44615,7 @@ window.TOP_ARTICLES = {
         "readingMinutes": 11,
         "wordCount": 2879,
         "publishedDate": "2026-09-01",
-        "savedDate": "2026-09-05T12:09:25.058000+00:00",
+        "savedDate": "2026-09-15T04:32:12.054000+00:00",
         "imageUrl": "https://images.aeonmedia.co/images/e2cbb509-e695-4191-8ab0-d8a48f630ec2/essay-gettyimages-2257653140.jpg?width=1200&quality=75&format=jpeg",
         "sourceUrl": "https://aeon.co/essays/play-is-doing-its-work-even-if-were-not-keeping-score",
         "readwiseUrl": "https://read.readwise.io/read/01m1rqjea2cc5r61kf0q1y17v3",
@@ -44645,7 +45985,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 76
+            "position": 79
           }
         ]
       },
@@ -48560,7 +49900,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 75
+            "position": 78
           }
         ]
       },
@@ -49842,7 +51182,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 58
+            "position": 59
           }
         ]
       },
@@ -50216,7 +51556,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 57
+            "position": 58
           }
         ]
       },
@@ -50448,7 +51788,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "adhd",
             "size": "top-100",
-            "position": 27
+            "position": 30
           }
         ]
       },
@@ -53031,7 +54371,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 74
+            "position": 77
           }
         ]
       },
@@ -55453,7 +56793,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 56
+            "position": 57
           }
         ]
       },
@@ -57778,7 +59118,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 73
+            "position": 76
           }
         ]
       },
@@ -58346,7 +59686,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "adhd",
             "size": "top-100",
-            "position": 24
+            "position": 27
           }
         ]
       },
@@ -59962,7 +61302,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 55
+            "position": 56
           }
         ]
       },
@@ -60313,7 +61653,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 54
+            "position": 55
           }
         ]
       },
@@ -62523,7 +63863,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 53
+            "position": 54
           }
         ]
       },
@@ -62748,7 +64088,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 72
+            "position": 75
           }
         ]
       },
@@ -63272,7 +64612,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "adhd",
             "size": "top-100",
-            "position": 30
+            "position": 33
           }
         ]
       },
@@ -63309,7 +64649,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "adhd",
             "size": "top-100",
-            "position": 29
+            "position": 32
           }
         ]
       },
@@ -64106,7 +65446,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 52
+            "position": 53
           }
         ]
       },
@@ -64207,7 +65547,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 71
+            "position": 74
           }
         ]
       },
@@ -65096,7 +66436,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 70
+            "position": 73
           },
           {
             "familyId": "luchtig-nederlands",
@@ -65281,7 +66621,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "nederlands",
             "size": "top-100",
-            "position": 50
+            "position": 51
           },
           {
             "familyId": "kort-nederlands",
@@ -65948,7 +67288,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "nederlands",
             "size": "top-100",
-            "position": 44
+            "position": 45
           },
           {
             "familyId": "kort-nederlands",
@@ -66135,7 +67475,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "nederlands",
             "size": "top-100",
-            "position": 49
+            "position": 50
           },
           {
             "familyId": "kort-nederlands",
@@ -68102,6 +69442,41 @@ window.TOP_ARTICLES = {
       },
       {
         "position": null,
+        "id": "01kysegs6xpbajnckbewaxh5p1",
+        "title": "AI: Overwegingen voor wie erover gaat",
+        "author": null,
+        "siteName": "Bert Hubert's writings",
+        "category": "article",
+        "language": "Nederlands",
+        "readingTime": "22 mins",
+        "readingMinutes": 22,
+        "wordCount": 5693,
+        "publishedDate": "2026-07-29",
+        "savedDate": "2026-09-15T07:37:54.640000+00:00",
+        "imageUrl": "https://berthub.eu/articles/dallas-fed.png",
+        "sourceUrl": "https://berthub.eu/articles/posts/ai-voor-wie-erover-gaat/",
+        "readwiseUrl": "https://read.readwise.io/read/01kysegs6xpbajnckbewaxh5p1",
+        "summary": "Onlangs presenteerde ik kort na elkaar bij het Netwerk van Publieke Dienstverleners en bij de Adviesraad Wetenschap, Technologie en Innovatie over AI. In deze twee verschillende maar korte presentaties hoopte ik wat inzichten te delen die nuttig zijn voor mensen die nu aan het stuur zitten, mensen die keuzes kunnen of moeten maken over AI-beleid.\nDit artikel is gebaseerd op deze twee verschillende presentaties. De eerste bij NPD ging over de concrete uitdagingen voor bestuurders.",
+        "whyRead": "Een scherp, kritisch Nederlands essay van tech-expert Bert Hubert (PowerDNS) dat de AI-hype ontrafelt vanuit bestuurlijk perspectief — relevant voor wie AI & ethiek, Nederlandse beleidscontext en organisatiekritiek interessant vindt.",
+        "bestMoment": "kritisch",
+        "tags": [
+          "ai ethics & society",
+          "current affairs & politics"
+        ],
+        "coreInterests": [],
+        "alsoIn": [
+          "aaa-dutch-top-100"
+        ],
+        "memberships": [
+          {
+            "familyId": "nederlands",
+            "size": "top-100",
+            "position": 44
+          }
+        ]
+      },
+      {
+        "position": null,
         "id": "01kys88s7qtngkzgfv4eyvcqxm",
         "title": "The Shape of Conscious Experience",
         "author": null,
@@ -68440,7 +69815,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 51
+            "position": 52
           }
         ]
       },
@@ -70233,7 +71608,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 49
+            "position": 50
           }
         ]
       },
@@ -70590,7 +71965,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 69
+            "position": 72
           }
         ]
       },
@@ -71672,7 +73047,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "nederlands",
             "size": "top-100",
-            "position": 48
+            "position": 49
           },
           {
             "familyId": "kort-nederlands",
@@ -73788,16 +75163,8 @@ window.TOP_ARTICLES = {
         "coreInterests": [
           "sociologie"
         ],
-        "alsoIn": [
-          "aaa-luchtig-top-100"
-        ],
-        "memberships": [
-          {
-            "familyId": "luchtig",
-            "size": "top-100",
-            "position": 100
-          }
-        ]
+        "alsoIn": [],
+        "memberships": []
       },
       {
         "position": null,
@@ -74178,16 +75545,8 @@ window.TOP_ARTICLES = {
           "geschiedenis",
           "sociologie"
         ],
-        "alsoIn": [
-          "aaa-luchtig-top-100"
-        ],
-        "memberships": [
-          {
-            "familyId": "luchtig",
-            "size": "top-100",
-            "position": 99
-          }
-        ]
+        "alsoIn": [],
+        "memberships": []
       },
       {
         "position": null,
@@ -74465,16 +75824,8 @@ window.TOP_ARTICLES = {
         "coreInterests": [
           "sociologie"
         ],
-        "alsoIn": [
-          "aaa-luchtig-top-100"
-        ],
-        "memberships": [
-          {
-            "familyId": "luchtig",
-            "size": "top-100",
-            "position": 98
-          }
-        ]
+        "alsoIn": [],
+        "memberships": []
       },
       {
         "position": null,
@@ -74827,7 +76178,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 97
+            "position": 100
           }
         ]
       },
@@ -75481,7 +76832,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "adhd",
             "size": "top-100",
-            "position": 26
+            "position": 29
           }
         ]
       },
@@ -75613,7 +76964,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 48
+            "position": 49
           },
           {
             "familyId": "luchtig-nederlands",
@@ -75732,7 +77083,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "nederlands",
             "size": "top-100",
-            "position": 47
+            "position": 48
           },
           {
             "familyId": "kort-nederlands",
@@ -75973,7 +77324,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 68
+            "position": 71
           }
         ]
       },
@@ -76402,7 +77753,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 96
+            "position": 99
           }
         ]
       },
@@ -76559,7 +77910,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "nederlands",
             "size": "top-100",
-            "position": 46
+            "position": 47
           },
           {
             "familyId": "kort-nederlands",
@@ -76694,7 +78045,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 95
+            "position": 98
           }
         ]
       },
@@ -77156,7 +78507,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 67
+            "position": 70
           }
         ]
       },
@@ -77196,7 +78547,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "adhd",
             "size": "top-100",
-            "position": 22
+            "position": 24
           }
         ]
       },
@@ -77340,7 +78691,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 66
+            "position": 69
           }
         ]
       },
@@ -77378,7 +78729,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "adhd",
             "size": "top-100",
-            "position": 25
+            "position": 28
           }
         ]
       },
@@ -78019,7 +79370,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 47
+            "position": 48
           }
         ]
       },
@@ -78134,7 +79485,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 94
+            "position": 97
           }
         ]
       },
@@ -78937,7 +80288,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 93
+            "position": 96
           }
         ]
       },
@@ -79321,7 +80672,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 78
+            "position": 81
           }
         ]
       },
@@ -79946,7 +81297,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 65
+            "position": 68
           }
         ]
       },
@@ -79984,7 +81335,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 46
+            "position": 47
           }
         ]
       },
@@ -80063,7 +81414,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 45
+            "position": 46
           }
         ]
       },
@@ -80432,7 +81783,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 64
+            "position": 67
           }
         ]
       },
@@ -82250,7 +83601,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "nederlands",
             "size": "top-100",
-            "position": 45
+            "position": 46
           },
           {
             "familyId": "kort-nederlands",
@@ -82651,7 +84002,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 92
+            "position": 95
           }
         ]
       },
@@ -82961,7 +84312,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 44
+            "position": 45
           }
         ]
       },
@@ -83266,7 +84617,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 63
+            "position": 66
           }
         ]
       },
@@ -84115,7 +85466,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 43
+            "position": 44
           }
         ]
       },
@@ -84275,7 +85626,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 91
+            "position": 94
           }
         ]
       },
@@ -84385,7 +85736,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 90
+            "position": 93
           }
         ]
       },
@@ -84643,7 +85994,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 50
+            "position": 51
           }
         ]
       },
@@ -84739,7 +86090,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 42
+            "position": 43
           }
         ]
       },
@@ -84782,7 +86133,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 62
+            "position": 65
           },
           {
             "familyId": "videos",
@@ -85048,7 +86399,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 89
+            "position": 92
           }
         ]
       },
@@ -85086,7 +86437,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 88
+            "position": 91
           }
         ]
       },
@@ -86033,7 +87384,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 87
+            "position": 90
           },
           {
             "familyId": "luchtig-nederlands",
@@ -86342,7 +87693,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 86
+            "position": 89
           }
         ]
       },
@@ -86542,7 +87893,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 85
+            "position": 88
           }
         ]
       },
@@ -86580,7 +87931,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 41
+            "position": 42
           }
         ]
       },
@@ -87028,7 +88379,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 40
+            "position": 41
           }
         ]
       },
@@ -88555,7 +89906,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 84
+            "position": 87
           }
         ]
       },
@@ -88593,7 +89944,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 83
+            "position": 86
           }
         ]
       },
@@ -88692,7 +90043,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 61
+            "position": 64
           }
         ]
       },
@@ -88760,7 +90111,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 39
+            "position": 40
           }
         ]
       },
@@ -90063,7 +91414,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 82
+            "position": 85
           }
         ]
       },
@@ -90599,7 +91950,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 81
+            "position": 84
           }
         ]
       },
@@ -90959,7 +92310,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 80
+            "position": 83
           }
         ]
       },
