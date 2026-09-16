@@ -7,7 +7,7 @@ import { dirname, resolve } from "node:path";
 import { fileURLToPath } from "node:url";
 import { z } from "zod";
 
-import { buildPriorityTagPlan, formatTop10Changes, tagNames, validatePriorityTagPlan } from "./lib/priority-tag-plan.js";
+import { buildPriorityTagPlan, formatTop100Changes, formatTop10Changes, tagNames, validatePriorityTagPlan } from "./lib/priority-tag-plan.js";
 import type { PriorityTagPlan } from "./lib/priority-tag-plan.js";
 import { applyPriorityDocumentUpdates } from "./lib/priority-apply.js";
 import type { DocumentBatchResult, PriorityJournal } from "./lib/priority-apply.js";
@@ -132,6 +132,7 @@ async function planCommand() {
   const path = await writeJson(output, plan);
   console.log(`Proefrun: ${plan.summary.documents} documenten, ${plan.summary.additions} toevoegingen, ${plan.summary.removals} verwijderingen.`);
   console.log(formatTop10Changes(plan));
+  console.log(formatTop100Changes(plan));
   console.log(`Plan: ${path}`);
   console.log(`Bevestigingshash: ${plan.planHash}`);
 }

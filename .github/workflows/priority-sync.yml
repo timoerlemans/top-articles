@@ -50,6 +50,20 @@ jobs:
             {
               echo "### Readwise-leesvolgorde synchronisatie"
               jq -r '"- Documenten: \(.summary.documents)\n- Toevoegingen: \(.summary.additions)\n- Verwijderingen: \(.summary.removals)\n- Planhash: `\(.planHash)`"' .tmp/readwise/priority-plan.json
+              echo
+              if jq -e '((.top100Entries // []) + (.top100Exits // [])) | length > 0' .tmp/readwise/priority-plan.json > /dev/null; then
+                jq -r '
+                  (.top100Entries // []) as $entries
+                  | (.top100Exits // []) as $exits
+                  | (([$entries[]?.category] + [$exits[]?.category]) | unique[]) as $category
+                  | "## " + $category + "\n"
+                    + (([$entries[] | select(.category == $category) | "- " + (.position|tostring) + "/100 - " + .title]
+                        + [$exits[] | select(.category == $category) | "- valt weg" + (if .position == null then "" else " (" + (.position|tostring) + "/100)" end) + " - " + .title])
+                       | join("\n"))
+                ' .tmp/readwise/priority-plan.json
+              else
+                echo "Geen nieuwe of weggevallen top-100-items."
+              fi
             } >> "$GITHUB_STEP_SUMMARY"
           fi
 

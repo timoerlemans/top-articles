@@ -3,6 +3,7 @@ import test from "node:test";
 
 import {
   buildPriorityTagPlan,
+  formatTop100Changes,
   formatTop10Changes,
   validatePriorityTagPlan,
   type PriorityTagChange,
@@ -115,6 +116,46 @@ test("maakt top-10 binnenkomers en vertrekkers per lijst zichtbaar", () => {
 test("meldt expliciet wanneer een plan geen top-10 wijzigt", () => {
   const plan = buildPriorityTagPlan([], [], { generatedAt: "2026-08-16T10:00:00.000Z" });
   assert.equal(formatTop10Changes(plan), "Top-10 gewijzigd: geen wijzigingen.");
+});
+
+test("formatteert nieuwe en wegvallende top-100-items per categorie", () => {
+  const plan = buildPriorityTagPlan([
+    doc("Lead without a Ladder", { tags: { philosophy: {} } }),
+  ], [], { generatedAt: "2026-08-16T10:00:00.000Z" });
+
+  const withExit = {
+    ...plan,
+    top100Entries: [{
+      documentId: "Lead without a Ladder",
+      title: "Lead without a Ladder",
+      category: "Algemeen",
+      sequence: "lees" as const,
+      top100Tag: "aaa-top-100",
+      position: 37,
+    }],
+    top100Exits: [{
+      documentId: "old",
+      title: "Old article",
+      category: "Algemeen",
+      sequence: "lees" as const,
+      top100Tag: "aaa-top-100",
+      position: 42,
+    }],
+  };
+  assert.equal(formatTop100Changes(withExit), "## Algemeen\n- 37/100 - Lead without a Ladder\n- valt weg (42/100) - Old article");
+});
+
+test("registreert top-100-items die door een nieuwe ranglijst uit de lijst vallen", () => {
+  const documents = Array.from({ length: 101 }, (_, index) =>
+    doc(`candidate-${String(index).padStart(3, "0")}`, { tags: { philosophy: {} } }),
+  );
+  documents.push(doc("legacy", { tags: { "lees-0001": {}, "aaa-top-100": {} } }));
+
+  const plan = buildPriorityTagPlan(documents, [], { generatedAt: "2026-08-16T10:00:00.000Z" });
+
+  assert.deepEqual(plan.top100Exits.map(({ documentId, category, position }) => ({ documentId, category, position })), [
+    { documentId: "legacy", category: "Algemeen", position: 1 },
+  ]);
 });
 
 test("migreert luchtig-lidmaatschap en ruimt beheerde tags buiten later op", () => {

@@ -9,7 +9,7 @@ import type {
 import type { PriorityDocument } from "./readwise-priority-v2.js";
 import { FAMILY_DEFINITIONS } from "./unified-lists.js";
 
-export const TAG_PLAN_MODEL = "readwise-priority-tag-plan-v1" as const;
+export const TAG_PLAN_MODEL = "readwise-priority-tag-plan-v2" as const;
 
 export interface PriorityTagDocument extends PriorityDocument {
   id: string;
@@ -36,6 +36,15 @@ export interface PriorityTagChange {
   remove: string[];
 }
 
+export interface PriorityTop100Change {
+  documentId: string;
+  title: string;
+  category: string;
+  sequence: PrioritySequence;
+  top100Tag: string;
+  position: number | null;
+}
+
 export interface PriorityTagPlanSummary {
   documents: number;
   additions: number;
@@ -51,6 +60,8 @@ export interface PriorityTagPlan {
   sourceFingerprint: string;
   summary: PriorityTagPlanSummary;
   changes: Record<string, PriorityTagChange>;
+  top100Entries: PriorityTop100Change[];
+  top100Exits: PriorityTop100Change[];
   operations: PriorityTagOperation[];
   planHash: string;
 }
@@ -83,6 +94,28 @@ export function formatTop10Changes(plan: PriorityTagPlan): string {
   });
 
   return sections.length > 0 ? `Top-10 gewijzigd:\n${sections.join("\n")}` : "Top-10 gewijzigd: geen wijzigingen.";
+}
+
+/** Geeft per categorie weer welke items de top-100 binnenkomen of verlaten. */
+export function formatTop100Changes(plan: PriorityTagPlan): string {
+  const sections = FAMILY_DEFINITIONS.flatMap(({ label, sequence }) => {
+    const entries = plan.top100Entries
+      .filter((entry) => entry.category === label && entry.sequence === sequence)
+      .sort((a, b) => (a.position ?? Number.POSITIVE_INFINITY) - (b.position ?? Number.POSITIVE_INFINITY) || a.title.localeCompare(b.title));
+    const exits = plan.top100Exits
+      .filter((exit) => exit.category === label && exit.sequence === sequence)
+      .sort((a, b) => (a.position ?? Number.POSITIVE_INFINITY) - (b.position ?? Number.POSITIVE_INFINITY) || a.title.localeCompare(b.title));
+    if (entries.length === 0 && exits.length === 0) {
+      return [];
+    }
+    return [
+      `## ${label}`,
+      ...entries.map(({ position, title }) => `- ${String(position)}/100 - ${title}`),
+      ...exits.map(({ position, title }) => `- valt weg${position === null ? "" : ` (${String(position)}/100)`} - ${title}`),
+    ];
+  });
+
+  return sections.length > 0 ? sections.join("\n") : "Geen nieuwe of weggevallen top-100-items.";
 }
 
 const TOPLIST_TAGS: ReadonlySet<string> = new Set(
@@ -219,6 +252,42 @@ export function buildPriorityTagPlan(
   const sourceDocuments = [...activeLater, ...excludedLater, ...outsideDocuments];
   const changes: Record<string, PriorityTagChange> = {};
   const operations: PriorityTagOperation[] = [];
+  const top100Entries: PriorityTop100Change[] = [];
+  const top100Exits: PriorityTop100Change[] = [];
+
+  for (const doc of activeLater) {
+    const priorityItem = priority.items[doc.id];
+    if (!priorityItem) {
+      continue;
+    }
+    const currentTags = new Set(tagKeys(doc));
+    for (const family of FAMILY_DEFINITIONS) {
+      const position = priorityItem.positions[family.sequence];
+      if (position === undefined) {
+        continue;
+      }
+      if (position <= 100 && !currentTags.has(family.top100Tag)) {
+        top100Entries.push({
+          documentId: doc.id,
+          title: doc.title ?? "(zonder titel)",
+          category: family.label,
+          sequence: family.sequence,
+          top100Tag: family.top100Tag,
+          position,
+        });
+      }
+      if (position > 100 && currentTags.has(family.top100Tag)) {
+        top100Exits.push({
+          documentId: doc.id,
+          title: doc.title ?? "(zonder titel)",
+          category: family.label,
+          sequence: family.sequence,
+          top100Tag: family.top100Tag,
+          position: priorityItem.actualPositions[family.sequence] ?? null,
+        });
+      }
+    }
+  }
 
   for (const doc of sourceDocuments) {
     const current = new Set(tagKeys(doc));
@@ -252,6 +321,8 @@ export function buildPriorityTagPlan(
       operations: operations.length,
     },
     changes,
+    top100Entries,
+    top100Exits,
     operations,
   };
   const plan: PriorityTagPlan = { ...body, planHash: hash(body) };
@@ -298,6 +369,8 @@ export function validatePriorityTagPlan(plan: unknown): plan is PriorityTagPlan 
   }
   if (
     !isRecord(record.changes) ||
+    !Array.isArray(record.top100Entries) ||
+    !Array.isArray(record.top100Exits) ||
     !isRecord(record.summary) ||
     typeof record.summary.documents !== "number" ||
     typeof record.summary.additions !== "number" ||
@@ -305,6 +378,24 @@ export function validatePriorityTagPlan(plan: unknown): plan is PriorityTagPlan 
     record.summary.operations !== record.operations.length
   ) {
     throw new Error("Tagplansamenvatting klopt niet");
+  }
+  const top100Entries = record.top100Entries as unknown[];
+  const top100Exits = record.top100Exits as unknown[];
+  for (const change of [...top100Entries, ...top100Exits]) {
+    if (
+      !isRecord(change) ||
+      typeof change.documentId !== "string" ||
+      !change.documentId ||
+      typeof change.title !== "string" ||
+      typeof change.category !== "string" ||
+      typeof change.sequence !== "string" ||
+      !SEQUENCE_ORDER.includes(change.sequence as PrioritySequence) ||
+      typeof change.top100Tag !== "string" ||
+      !change.top100Tag ||
+      (change.position !== null && (typeof change.position !== "number" || !Number.isInteger(change.position) || change.position < 1))
+    ) {
+      throw new Error("Ongeldige top-100-wijziging");
+    }
   }
   return true;
 }
