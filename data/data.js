@@ -1,6 +1,6 @@
 // Automatisch gegenereerd door scripts/build-data.ts — niet handmatig bewerken.
 window.TOP_ARTICLES = {
-  "generatedAt": "2026-09-17T09:17:08.507Z",
+  "generatedAt": "2026-09-17T14:44:59.307Z",
   "families": [
     {
       "id": "algemeen",
@@ -35673,6 +35673,147 @@ window.TOP_ARTICLES = {
   ],
   "catalog": {
     "items": [
+      {
+        "position": null,
+        "id": "01m2qq19ztx7rfv3f9z86sgtvx",
+        "title": "Ness Labs: How to Trust What You Know 📝",
+        "author": null,
+        "siteName": "Ness Labs",
+        "category": "email",
+        "language": null,
+        "readingTime": "6 mins",
+        "readingMinutes": 6,
+        "wordCount": 1567,
+        "publishedDate": "2026-09-17",
+        "savedDate": "2026-09-17T12:56:30.970000+00:00",
+        "imageUrl": null,
+        "sourceUrl": "mailto:reader-forwarded-email/8ea6180d46b832125550138fecce8434",
+        "readwiseUrl": "https://read.readwise.io/read/01m2qq19ztx7rfv3f9z86sgtvx",
+        "summary": "We’re living through a period of enormous change, so it feels special to see a book about experimentation receive this recognition.",
+        "whyRead": "Raakt je interesse in leren, zelfgestuurd leren en professionele ontwikkeling. De meerwaarde is een persoonlijk voorbeeld van hoe diep begrip meer vertrouwen geeft dan een uitgeschreven script, met een bruikbare les voor gesprekken, presentaties en kennis delen.",
+        "bestMoment": "reflectief",
+        "tags": [
+          "learning & meta-learning",
+          "personal growth & life philosophy",
+          "professional development"
+        ],
+        "coreInterests": [],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01m2qkanwjrzh2w6nwve4tgp7v",
+        "title": "The House That Thurman Munson Built",
+        "author": null,
+        "siteName": "Esquire",
+        "category": "article",
+        "language": null,
+        "readingTime": "36 mins",
+        "readingMinutes": 36,
+        "wordCount": 9432,
+        "publishedDate": "2013-08-03",
+        "savedDate": "2026-09-17T11:51:43.760000+00:00",
+        "imageUrl": "https://hips.hearstapps.com/hmg-prod/images/legacy-fre-image-placeholder-1649872437.png?crop=1.00xw:0.502xh;0,0.223xh&resize=1200:*",
+        "sourceUrl": "https://www.esquire.com/news-politics/a24124/thurman-munson-0999/",
+        "readwiseUrl": "https://read.readwise.io/read/01m2qkanwjrzh2w6nwve4tgp7v",
+        "summary": "Trust me, he said, and the last great brawling sports team in America did. Twenty years after Thurman Munsons death, Reggie, Catfish, Goose, Gator, the Bossand a nation of former boysstill arent over it.",
+        "whyRead": "Raakt je interesse in essay schrijven, cultuur en de manier waarop verhalen persoonlijke herinnering dragen; dit lange sportsessay laat zien hoe reportage, memoir en portret in elkaar kunnen grijpen.",
+        "bestMoment": "geïnspireerd",
+        "tags": [
+          "arts & culture",
+          "learning & meta-learning",
+          "sports & recreation"
+        ],
+        "coreInterests": [],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01m2qfskqkk199axb7m4a3rqjk",
+        "title": "You’re a human being, not a human doing",
+        "author": null,
+        "siteName": "Substack",
+        "category": "email",
+        "language": null,
+        "readingTime": "5 mins",
+        "readingMinutes": 5,
+        "wordCount": 1287,
+        "publishedDate": "2026-09-17",
+        "savedDate": "2026-09-17T10:49:58.771000+00:00",
+        "imageUrl": null,
+        "sourceUrl": "mailto:reader-forwarded-email/ef535009cc7707bea747e3d55ffbe9a5",
+        "readwiseUrl": "https://read.readwise.io/read/01m2qfskqkk199axb7m4a3rqjk",
+        "summary": "Or we’re wiping down a counter that didn’t really need it, when nobody was going to notice either way.",
+        "whyRead": "Raakt je interesse in persoonlijke groei en de menselijke binnenwereld; dit essay onderzoekt waarom rusteloos bezig zijn soms een beschermingsreactie is in plaats van een karakterfout.",
+        "bestMoment": "reflectief",
+        "tags": [
+          "health & wellness",
+          "personal growth & life philosophy"
+        ],
+        "coreInterests": [],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01m2qe0yqrb9gw7cp9202g3rk3",
+        "title": "The Longreads Questionnaire, Featuring Roberto José Andrade Franco",
+        "author": null,
+        "siteName": "Longreads",
+        "category": "rss",
+        "language": null,
+        "readingTime": "8 mins",
+        "readingMinutes": 8,
+        "wordCount": 1991,
+        "publishedDate": "2026-09-17",
+        "savedDate": "2026-09-17T10:18:59.265000+00:00",
+        "imageUrl": "https://i0.wp.com/longreads.com/wp-content/uploads/2026/08/1.png?fit=1024%2C597&amp;quality=80&amp;ssl=1",
+        "sourceUrl": "https://longreads.com/2026/09/17/questionnaire-roberto-jose-andrade-franco/",
+        "readwiseUrl": "https://read.readwise.io/read/01m2qe0yqrb9gw7cp9202g3rk3",
+        "summary": "The ESPN writer tells us what feels like home, the best gift he’s ever received, and the Esquire read he can’t stop thinking about.",
+        "whyRead": "Raakt je interesse in essay schrijven en cultuur: dit interview laat zien hoe een schrijver persoonlijke geschiedenis, sport, familie en plaats omzet in verhalende journalistiek.",
+        "bestMoment": "geïnspireerd",
+        "tags": [
+          "arts & culture",
+          "learning & meta-learning",
+          "sports & recreation"
+        ],
+        "coreInterests": [],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01m2qdmpjmgfstb1p0gfy372y5",
+        "title": "Are we wet robots?",
+        "author": null,
+        "siteName": "Substack",
+        "category": "email",
+        "language": null,
+        "readingTime": "10 mins",
+        "readingMinutes": 10,
+        "wordCount": 2474,
+        "publishedDate": "2026-09-17",
+        "savedDate": "2026-09-17T10:12:20.693000+00:00",
+        "imageUrl": null,
+        "sourceUrl": "mailto:reader-forwarded-email/f78e5217d690c18cafe21d51bedbff0a",
+        "readwiseUrl": "https://read.readwise.io/read/01m2qdmpjmgfstb1p0gfy372y5",
+        "summary": "Neuroscientists will often give a heavily qualified “yes” to this question. The brain is different from a desktop computer.",
+        "whyRead": "Raakt je interesse in filosofie van de geest en wetenschap; dit essay laat zien hoe de metafoor van het brein als computer zowel verheldert als de werkelijkheid van levende systemen kan versmallen.",
+        "bestMoment": "analytisch",
+        "tags": [
+          "learning & meta-learning",
+          "philosophy",
+          "science"
+        ],
+        "coreInterests": [
+          "filosofie"
+        ],
+        "alsoIn": [],
+        "memberships": []
+      },
       {
         "position": null,
         "id": "01m2q3jyb0n30vs5541sfrh5wk",
