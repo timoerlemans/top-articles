@@ -1,6 +1,6 @@
 // Automatisch gegenereerd door scripts/build-data.ts — niet handmatig bewerken.
 window.TOP_ARTICLES = {
-  "generatedAt": "2026-09-17T14:44:59.307Z",
+  "generatedAt": "2026-09-18T07:10:12.324Z",
   "families": [
     {
       "id": "algemeen",
@@ -14301,6 +14301,36 @@ window.TOP_ARTICLES = {
             },
             {
               "position": 85,
+              "id": "01m2sj3crywpy57w2k9nd8x35d",
+              "title": "A 17th-century classic of Ethiopian philosophy might be a fake. Does it matter, or is that just how philosophy works?",
+              "author": null,
+              "siteName": "Aeon",
+              "category": "article",
+              "language": null,
+              "readingTime": "14 mins",
+              "readingMinutes": 14,
+              "wordCount": 3482,
+              "publishedDate": "2023-12-05",
+              "savedDate": "2026-09-18T06:08:45.340000+00:00",
+              "imageUrl": "https://images.aeonmedia.co/images/043518f9-e598-4da4-b3d7-22d43a63f987/essay-priet11756-2005cl016.jpg?width=1200&quality=75&format=auto",
+              "sourceUrl": "https://aeon.co/essays/from-the-pseudo-to-the-forger-the-value-of-faked-philosophy",
+              "readwiseUrl": "https://read.readwise.io/read/01m2sj3crywpy57w2k9nd8x35d",
+              "summary": "A 17th-century classic of Ethiopian philosophy might be a fake. Does it matter, or is that just how philosophy works?",
+              "whyRead": null,
+              "bestMoment": null,
+              "tags": [
+                "arts & culture",
+                "history",
+                "philosophy"
+              ],
+              "coreInterests": [
+                "filosofie",
+                "geschiedenis"
+              ],
+              "alsoIn": []
+            },
+            {
+              "position": 86,
               "id": "01j421m304fbn5rwfh0a9bpzp3",
               "title": "Fear as a Game",
               "author": null,
@@ -14329,7 +14359,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 86,
+              "position": 87,
               "id": "01j60ew3kgknk776nphjxvz9ph",
               "title": "Envy: the Vestige of a Miserable World",
               "author": null,
@@ -14359,7 +14389,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 87,
+              "position": 88,
               "id": "01jkgy1x7yacy66ys284ddq8yw",
               "title": "Why do most popular science books suck?",
               "author": null,
@@ -14388,7 +14418,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 88,
+              "position": 89,
               "id": "01k3wpn5ak9v4pmtc85h462cav",
               "title": "On the pleasure of reading private notebooks",
               "author": null,
@@ -14417,7 +14447,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 89,
+              "position": 90,
               "id": "01k3wpv85qh52sj9ffa8rrz1bm",
               "title": "Chromatic Rebel #2: why is the West so color-minimalist?",
               "author": null,
@@ -14446,7 +14476,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 90,
+              "position": 91,
               "id": "01k7qbgbanjkbvetnkfd47vkrz",
               "title": "How I wrote \"Looking for Alice\"",
               "author": null,
@@ -14475,7 +14505,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 91,
+              "position": 92,
               "id": "01k7tw6vrkda5hp5070ra2wqm6",
               "title": "Five SFF Stories That Shed Light on Obscure History",
               "author": null,
@@ -14504,7 +14534,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 92,
+              "position": 93,
               "id": "01k80nvw2z9d40qq24hveszqrw",
               "title": "De hel van het gelijke",
               "author": null,
@@ -14536,7 +14566,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 93,
+              "position": 94,
               "id": "01kaecmp565yrjt89z6qhc3ydq",
               "title": "Why Did Wealth Stop Building Beautiful Things?",
               "author": null,
@@ -14565,7 +14595,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 94,
+              "position": 95,
               "id": "01kaen0f4sd6p0wsrv0fw7320f",
               "title": "🌲 The Best \"Gamified X\" App is a GAME",
               "author": null,
@@ -14594,7 +14624,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 95,
+              "position": 96,
               "id": "01kc53cvnp2fqe09v8vmbym5mx",
               "title": "🎓 On Teleportation & Understanding via Writing",
               "author": null,
@@ -14623,7 +14653,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 96,
+              "position": 97,
               "id": "01kcfca0wrxztgk2sqe31khzbr",
               "title": "Now Watch Me Read | The New Yorker",
               "author": null,
@@ -14652,7 +14682,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 97,
+              "position": 98,
               "id": "01kfvhtf2ba0mpxx157hg6y663",
               "title": "The secret to being happy in 2026? It’s far, far simpler than you think …",
               "author": null,
@@ -14681,7 +14711,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 98,
+              "position": 99,
               "id": "01kqy8wyp8f7z6nqcby6ajbnm4",
               "title": "The world reveals itself to those who travel by foot",
               "author": null,
@@ -14710,7 +14740,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 99,
+              "position": 100,
               "id": "01krnyr9cxy0rhqzt148zy5p99",
               "title": "Good conversations have lots of doorknobs",
               "author": null,
@@ -14736,36 +14766,6 @@ window.TOP_ARTICLES = {
               ],
               "coreInterests": [
                 "sociologie"
-              ],
-              "alsoIn": []
-            },
-            {
-              "position": 100,
-              "id": "01ksftktanvm593t6d9871cmm4",
-              "title": "This week: a long walk on a beach, and ancient Roman graffiti.",
-              "author": null,
-              "siteName": null,
-              "category": "email",
-              "language": "Engels",
-              "readingTime": "3 mins",
-              "readingMinutes": 3,
-              "wordCount": 533,
-              "publishedDate": "2026-05-25",
-              "savedDate": "2026-05-25T15:03:51.381000+00:00",
-              "imageUrl": null,
-              "sourceUrl": "mailto:reader-forwarded-email/62457fc82f71f7bc4ea7096170e9317c",
-              "readwiseUrl": "https://read.readwise.io/read/01ksftktanvm593t6d9871cmm4",
-              "summary": "And finally, on TikTok: I have no context for this inspection of industrial steel in the central belt of China, but I think that's the point. (Alternate link for desktop.",
-              "whyRead": "Alleen nuttig als lichte link-oogst rond cultuur, geschiedenis en internetcuriosa; de sterkste haak is het Hoplite Experiment als toegankelijke vorm van experimentele geschiedenis.",
-              "bestMoment": "ontspannen",
-              "tags": [
-                "arts & culture",
-                "entertainment & pop culture",
-                "history"
-              ],
-              "coreInterests": [
-                "geschiedenis",
-                "cultuur_games_film"
               ],
               "alsoIn": []
             }
@@ -35675,6 +35675,536 @@ window.TOP_ARTICLES = {
     "items": [
       {
         "position": null,
+        "id": "01m2smg8snt9m444damrj0xm3g",
+        "title": "How to Read With Depth (and Remember It)",
+        "author": null,
+        "siteName": "Thought & Title",
+        "category": "article",
+        "language": null,
+        "readingTime": "5 mins",
+        "readingMinutes": 5,
+        "wordCount": 1290,
+        "publishedDate": "2026-04-29",
+        "savedDate": "2026-09-18T06:50:44.403000+00:00",
+        "imageUrl": "https://substackcdn.com/image/fetch/$s_!L3L-!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc8413fe8-609e-47ad-b2c8-ceceb65fe91c_906x1150.png",
+        "sourceUrl": "https://thoughtandtitle.substack.com/p/how-to-read-with-depth-and-remember?utm_source=profile&utm_medium=reader2",
+        "readwiseUrl": "https://read.readwise.io/read/01m2smg8snt9m444damrj0xm3g",
+        "summary": "The Thought & Title Annotation System",
+        "whyRead": null,
+        "bestMoment": null,
+        "tags": [
+          "arts & culture",
+          "learning & meta-learning",
+          "professional development"
+        ],
+        "coreInterests": [],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01m2smg6gcfhn3hpby6rzh3nw2",
+        "title": "East of Eden Guide 1, pt. 2",
+        "author": null,
+        "siteName": "Thought & Title",
+        "category": "article",
+        "language": null,
+        "readingTime": "2 mins",
+        "readingMinutes": 2,
+        "wordCount": 512,
+        "publishedDate": "2026-06-05",
+        "savedDate": "2026-09-18T06:50:42.061000+00:00",
+        "imageUrl": "https://substackcdn.com/image/fetch/$s_!cGxi!,f_auto,q_auto:best,fl_progressive:steep/https%3A%2F%2Fthoughtandtitle.substack.com%2Ftwitter%2Fsubscribe-card.jpg%3Fv%3D1969623029%26version%3D9",
+        "sourceUrl": "https://thoughtandtitle.substack.com/p/east-of-eden-guide-1-pt-2?utm_source=profile&utm_medium=reader2",
+        "readwiseUrl": "https://read.readwise.io/read/01m2smg6gcfhn3hpby6rzh3nw2",
+        "summary": "Week one of a six-week reading guide",
+        "whyRead": null,
+        "bestMoment": null,
+        "tags": [
+          "existentialism",
+          "fiction"
+        ],
+        "coreInterests": [
+          "filosofie"
+        ],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01m2smg40p8zr20vvcdz2wbmwc",
+        "title": "East of Eden Guide 2",
+        "author": null,
+        "siteName": "Thought & Title",
+        "category": "article",
+        "language": null,
+        "readingTime": "4 mins",
+        "readingMinutes": 4,
+        "wordCount": 1060,
+        "publishedDate": "2026-06-09",
+        "savedDate": "2026-09-18T06:50:39.510000+00:00",
+        "imageUrl": "https://substackcdn.com/image/fetch/$s_!PUrz!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb9a504fe-e43d-4494-a6e7-fd78c1ca3c9a_1080x1920.png",
+        "sourceUrl": "https://thoughtandtitle.substack.com/p/east-of-eden-guide-2?utm_source=profile&utm_medium=reader2",
+        "readwiseUrl": "https://read.readwise.io/read/01m2smg40p8zr20vvcdz2wbmwc",
+        "summary": "Week two of a six-week reading guide",
+        "whyRead": null,
+        "bestMoment": null,
+        "tags": [
+          "existentialism",
+          "fiction"
+        ],
+        "coreInterests": [
+          "filosofie"
+        ],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01m2smg2ksck33mxx8yjbbtc5n",
+        "title": "East of Eden Guide 3",
+        "author": null,
+        "siteName": "Thought & Title",
+        "category": "article",
+        "language": null,
+        "readingTime": "3 mins",
+        "readingMinutes": 3,
+        "wordCount": 595,
+        "publishedDate": "2026-06-15",
+        "savedDate": "2026-09-18T06:50:38.073000+00:00",
+        "imageUrl": "https://substackcdn.com/image/fetch/$s_!4TKt!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F6eb37fc9-9d72-40e4-bb36-3a091fc8c5de_1080x1920.png",
+        "sourceUrl": "https://thoughtandtitle.substack.com/p/east-of-eden-guide-3?utm_source=profile&utm_medium=reader2",
+        "readwiseUrl": "https://read.readwise.io/read/01m2smg2ksck33mxx8yjbbtc5n",
+        "summary": "Week three of a six-week reading guide",
+        "whyRead": null,
+        "bestMoment": null,
+        "tags": [
+          "existentialism",
+          "fiction"
+        ],
+        "coreInterests": [
+          "filosofie"
+        ],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01m2smg19d3jwsnfz0qbxq937h",
+        "title": "East of Eden Guide 4",
+        "author": null,
+        "siteName": "Thought & Title",
+        "category": "article",
+        "language": null,
+        "readingTime": "3 mins",
+        "readingMinutes": 3,
+        "wordCount": 779,
+        "publishedDate": "2026-06-23",
+        "savedDate": "2026-09-18T06:50:36.715000+00:00",
+        "imageUrl": "https://substackcdn.com/image/fetch/$s_!k-zY!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F6768b245-0568-45af-8f21-9c4a20edc6d3_1080x1920.png",
+        "sourceUrl": "https://thoughtandtitle.substack.com/p/east-of-eden-guide-4?utm_source=profile&utm_medium=reader2",
+        "readwiseUrl": "https://read.readwise.io/read/01m2smg19d3jwsnfz0qbxq937h",
+        "summary": "Week four of a six-week reading guide",
+        "whyRead": null,
+        "bestMoment": null,
+        "tags": [
+          "existentialism",
+          "fiction"
+        ],
+        "coreInterests": [
+          "filosofie"
+        ],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01m2smfyryeyq541gxjmjd7c2q",
+        "title": "East of Eden Guide 5",
+        "author": null,
+        "siteName": "Thought & Title",
+        "category": "article",
+        "language": null,
+        "readingTime": "3 mins",
+        "readingMinutes": 3,
+        "wordCount": 625,
+        "publishedDate": "2026-06-29",
+        "savedDate": "2026-09-18T06:50:34.142000+00:00",
+        "imageUrl": "https://substackcdn.com/image/fetch/$s_!PUpp!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F85c07757-eef6-41dc-b1e3-b883b169cfdc_1080x1920.jpeg",
+        "sourceUrl": "https://thoughtandtitle.substack.com/p/east-of-eden-guide-5?utm_source=profile&utm_medium=reader2",
+        "readwiseUrl": "https://read.readwise.io/read/01m2smfyryeyq541gxjmjd7c2q",
+        "summary": "Part 5 of a 6 part reading guide deeply analyzing Steinbecks \"East of Eden\"",
+        "whyRead": null,
+        "bestMoment": null,
+        "tags": [
+          "existentialism",
+          "fiction"
+        ],
+        "coreInterests": [
+          "filosofie"
+        ],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01m2smfwx15jsbw60smp3zdtn0",
+        "title": "East of Eden Guide 6",
+        "author": null,
+        "siteName": "Thought & Title",
+        "category": "article",
+        "language": null,
+        "readingTime": "6 mins",
+        "readingMinutes": 6,
+        "wordCount": 1533,
+        "publishedDate": "2026-07-05",
+        "savedDate": "2026-09-18T06:50:32.225000+00:00",
+        "imageUrl": "https://substackcdn.com/image/fetch/$s_!Rb5C!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fcd9a2ec6-59d3-47fd-b497-8e2c39f3cc5e_1080x1920.jpeg",
+        "sourceUrl": "https://thoughtandtitle.substack.com/p/east-of-eden-guide-6?utm_source=profile&utm_medium=reader2",
+        "readwiseUrl": "https://read.readwise.io/read/01m2smfwx15jsbw60smp3zdtn0",
+        "summary": "The final reading guide analyzing Steinbecks \"East of Eden\"",
+        "whyRead": null,
+        "bestMoment": null,
+        "tags": [
+          "existentialism",
+          "fiction"
+        ],
+        "coreInterests": [
+          "filosofie"
+        ],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01m2sm32ewavztz93ryqbg61kd",
+        "title": "Can Hope Be Taught?",
+        "author": null,
+        "siteName": "Caleb Patton Collier",
+        "category": "article",
+        "language": null,
+        "readingTime": "7 mins",
+        "readingMinutes": 7,
+        "wordCount": 1793,
+        "publishedDate": "2026-09-17",
+        "savedDate": "2026-09-18T06:43:31.866000+00:00",
+        "imageUrl": "https://substackcdn.com/image/fetch/$s_!s-PI!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F2a9a74a2-a64e-4c57-a33a-1b78ba9c7721_500x631.jpeg",
+        "sourceUrl": "https://calebpattoncollier.substack.com/p/can-hope-be-taught",
+        "readwiseUrl": "https://read.readwise.io/read/01m2sm32ewavztz93ryqbg61kd",
+        "summary": "My favorite text on education philosophy is Plato’s Meno. Meno, a rich, young, Thessalian approaches Socrates and jumps right in with a question: can virtue be taught? Socrates being Socrates responds with questions, each diving a layer deeper. What is virtue?",
+        "whyRead": null,
+        "bestMoment": null,
+        "tags": [
+          "learning & meta-learning",
+          "personal growth & life philosophy",
+          "philosophy"
+        ],
+        "coreInterests": [
+          "filosofie"
+        ],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01m2sj3crywpy57w2k9nd8x35d",
+        "title": "A 17th-century classic of Ethiopian philosophy might be a fake. Does it matter, or is that just how philosophy works?",
+        "author": null,
+        "siteName": "Aeon",
+        "category": "article",
+        "language": null,
+        "readingTime": "14 mins",
+        "readingMinutes": 14,
+        "wordCount": 3482,
+        "publishedDate": "2023-12-05",
+        "savedDate": "2026-09-18T06:08:45.340000+00:00",
+        "imageUrl": "https://images.aeonmedia.co/images/043518f9-e598-4da4-b3d7-22d43a63f987/essay-priet11756-2005cl016.jpg?width=1200&quality=75&format=auto",
+        "sourceUrl": "https://aeon.co/essays/from-the-pseudo-to-the-forger-the-value-of-faked-philosophy",
+        "readwiseUrl": "https://read.readwise.io/read/01m2sj3crywpy57w2k9nd8x35d",
+        "summary": "A 17th-century classic of Ethiopian philosophy might be a fake. Does it matter, or is that just how philosophy works?",
+        "whyRead": null,
+        "bestMoment": null,
+        "tags": [
+          "arts & culture",
+          "history",
+          "philosophy"
+        ],
+        "coreInterests": [
+          "filosofie",
+          "geschiedenis"
+        ],
+        "alsoIn": [
+          "aaa-luchtig-top-100"
+        ],
+        "memberships": [
+          {
+            "familyId": "luchtig",
+            "size": "top-100",
+            "position": 85
+          }
+        ]
+      },
+      {
+        "position": null,
+        "id": "01m2sj2z0eqkymgx0rbcrpyc85",
+        "title": "Stop Spinning Your Team’s Wheels: It’s Time To Revisit Your Working Agreements",
+        "author": null,
+        "siteName": "Agile Alliance |",
+        "category": "article",
+        "language": null,
+        "readingTime": "15 mins",
+        "readingMinutes": 15,
+        "wordCount": 3866,
+        "publishedDate": "2019-07-17",
+        "savedDate": "2026-09-18T06:08:31.247000+00:00",
+        "imageUrl": "https://www.agilealliance.org/wp-content/uploads/2015/11/Agile-logo-4c-alliance.jpg",
+        "sourceUrl": "https://agilealliance.org/resources/experience-reports/stop-spinning-your-teams-wheels-its-time-to-revisit-your-working-agreements/",
+        "readwiseUrl": "https://read.readwise.io/read/01m2sj2z0eqkymgx0rbcrpyc85",
+        "summary": "Working agreements can help align a team in terms of expectations. This is the journey of a culturally diverse and distributed team that learned to uncover hidden impediments to create a better working environment for themselves.",
+        "whyRead": null,
+        "bestMoment": null,
+        "tags": [
+          "agile",
+          "team coaching",
+          "team dynamics & collaboration"
+        ],
+        "coreInterests": [
+          "agile"
+        ],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01m2sj2qe8ek1zbz9kxev71gxv",
+        "title": "Case Study: Strengthening Scrum Master Leadership Through Scenario-Based Discussion",
+        "author": null,
+        "siteName": "Agile Alliance |",
+        "category": "article",
+        "language": null,
+        "readingTime": "3 mins",
+        "readingMinutes": 3,
+        "wordCount": 765,
+        "publishedDate": "2026-03-17",
+        "savedDate": "2026-09-18T06:08:23.496000+00:00",
+        "imageUrl": "https://agilealliance.org/wp-content/uploads/2026/03/scrum-master-card-game-experience-report3.jpg",
+        "sourceUrl": "https://agilealliance.org/case-study-strengthening-scrum-master-leadership-through-scenario-based-discussion/",
+        "readwiseUrl": "https://read.readwise.io/read/01m2sj2qe8ek1zbz9kxev71gxv",
+        "summary": "A case study on how Nykredit used real Scrum Master dilemmas to build leadership confidence, improve peer learning, and support more self-managing teams.",
+        "whyRead": null,
+        "bestMoment": null,
+        "tags": [
+          "scrum",
+          "team coaching",
+          "team dynamics & collaboration"
+        ],
+        "coreInterests": [
+          "agile"
+        ],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01m2sdcv43n671v3xvy79sk2dq",
+        "title": "Ik dramatiseerde m'n werk (en had daardoor nog minder tijd)",
+        "author": null,
+        "siteName": "Substack",
+        "category": "email",
+        "language": null,
+        "readingTime": "3 mins",
+        "readingMinutes": 3,
+        "wordCount": 629,
+        "publishedDate": "2026-09-18",
+        "savedDate": "2026-09-18T04:46:32.067000+00:00",
+        "imageUrl": null,
+        "sourceUrl": "mailto:reader-forwarded-email/23a9f7ba5e86a5046c4e282aede2b20a",
+        "readwiseUrl": "https://read.readwise.io/read/01m2sdcv43n671v3xvy79sk2dq",
+        "summary": "Ik raakte daar steeds gefrustreerder van. En ironisch genoeg kwam dat mijn concentratie op de schaarse momenten waarop ik wel kon werken niet ten goede.",
+        "whyRead": "Raakt je interesse in persoonlijke groei en professionele ontwikkeling. De meerwaarde is een herkenbare Nederlandse reflectie op hoe schuldgevoel en dramatiseren schaarse werktijd nog verder kunnen versnipperen, met een eenvoudige mentale verschuiving als tegenwicht.",
+        "bestMoment": "reflectief",
+        "tags": [
+          "personal growth & life philosophy",
+          "professional development"
+        ],
+        "coreInterests": [],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01m2rvv6xs1g2hc3c5gzmjknfz",
+        "title": "Our first heartbreaks were our parents",
+        "author": null,
+        "siteName": "Lethabo Dipudi",
+        "category": "article",
+        "language": null,
+        "readingTime": "2 mins",
+        "readingMinutes": 2,
+        "wordCount": 525,
+        "publishedDate": "2026-05-25",
+        "savedDate": "2026-09-17T23:39:48.537000+00:00",
+        "imageUrl": "https://substackcdn.com/image/fetch/$s_!UYd5!,f_auto,q_auto:best,fl_progressive:steep/https%3A%2F%2Flethabodipudi.substack.com%2Ftwitter%2Fsubscribe-card.jpg%3Fv%3D1954169230%26version%3D9",
+        "sourceUrl": "https://lethabodipudi.substack.com/p/our-first-heartbreaks-were-our-parents?utm_source=substack&utm_campaign=post_embed&utm_medium=web",
+        "readwiseUrl": "https://read.readwise.io/read/01m2rvv6xs1g2hc3c5gzmjknfz",
+        "summary": "understanding our parents’ pain does not erase the pain they caused us.",
+        "whyRead": "Raakt je interesse in menselijke interactie, sociale psychologie en persoonlijke groei. De meerwaarde is een korte, emotioneel heldere reflectie op hoe ouderlijke pijn doorwerkt in volwassen relaties, zonder begrip te verwarren met vrijspraak.",
+        "bestMoment": "reflectief",
+        "tags": [
+          "personal growth & life philosophy",
+          "social psychology & interpersonal dynamics"
+        ],
+        "coreInterests": [
+          "sociologie"
+        ],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01m2rhkk2jnhz7cjk3hyw6b4we",
+        "title": "East of Eden Guide 1, part 1.",
+        "author": null,
+        "siteName": "Substack",
+        "category": "article",
+        "language": null,
+        "readingTime": "5 mins",
+        "readingMinutes": 5,
+        "wordCount": 1173,
+        "publishedDate": "2026-06-04",
+        "savedDate": "2026-09-17T20:40:53.075000+00:00",
+        "imageUrl": "https://substackcdn.com/image/fetch/$s_!PvOX!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F25a60816-b8f0-49dc-9ec1-0fd121be274d_1080x1920.png",
+        "sourceUrl": "https://substack.com/home/post/p-200445270?ref=wiseup.readwise.io",
+        "readwiseUrl": "https://read.readwise.io/read/01m2rhkk2jnhz7cjk3hyw6b4we",
+        "summary": "Week one of a six-week reading guide",
+        "whyRead": null,
+        "bestMoment": null,
+        "tags": [
+          "existentialism",
+          "fiction"
+        ],
+        "coreInterests": [
+          "filosofie"
+        ],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01m2rcmbg3vv277nwwd8k77hw6",
+        "title": "My Favorite Philip K. Dick Novels",
+        "author": null,
+        "siteName": "Substack",
+        "category": "email",
+        "language": null,
+        "readingTime": "8 mins",
+        "readingMinutes": 8,
+        "wordCount": 1973,
+        "publishedDate": "2026-09-17",
+        "savedDate": "2026-09-17T19:13:55.203000+00:00",
+        "imageUrl": null,
+        "sourceUrl": "mailto:reader-forwarded-email/6fb680eeeca6d6098a42ea605cd4d36e",
+        "readwiseUrl": "https://read.readwise.io/read/01m2rcmbg3vv277nwwd8k77hw6",
+        "summary": "A few years ago, sci-fi fans started making jokes about how reality now feels like a Philip K. Dick novel.",
+        "whyRead": "Raakt je interesse in sciencefiction als cultuurvorm, fictie en filosofische vragen over werkelijkheid. De meerwaarde is een essayistische ingang tot Philip K. Dick als schrijver die niet alleen vermaakt, maar onze aannames over realiteit en samenleving ontregelt.",
+        "bestMoment": "ontspannen",
+        "tags": [
+          "arts & culture",
+          "fiction",
+          "philosophy"
+        ],
+        "coreInterests": [
+          "filosofie"
+        ],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01m2r2ewpc9qqnyp0ypjqkdssj",
+        "title": "Noam Brown – Agent swarms, alignment, & recursive self-improvement",
+        "author": null,
+        "siteName": "Substack",
+        "category": "email",
+        "language": null,
+        "readingTime": "52 mins",
+        "readingMinutes": 52,
+        "wordCount": 13637,
+        "publishedDate": "2026-09-17",
+        "savedDate": "2026-09-17T16:16:10.445000+00:00",
+        "imageUrl": null,
+        "sourceUrl": "mailto:reader-forwarded-email/f08c3e60b63d11723306ede33406c54f",
+        "readwiseUrl": "https://read.readwise.io/read/01m2r2ewpc9qqnyp0ypjqkdssj",
+        "summary": "Jane Street has been interested in AI for a lot longer than you’d think, and not just for trading.",
+        "whyRead": null,
+        "bestMoment": null,
+        "tags": [
+          "ai ethics & society",
+          "technology"
+        ],
+        "coreInterests": [],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01m2r26watd8v2kszwtswjt1t6",
+        "title": "Why I started writing about every book I read",
+        "author": null,
+        "siteName": "Substack",
+        "category": "email",
+        "language": null,
+        "readingTime": "5 mins",
+        "readingMinutes": 5,
+        "wordCount": 1306,
+        "publishedDate": "2026-09-17",
+        "savedDate": "2026-09-17T16:11:47.930000+00:00",
+        "imageUrl": null,
+        "sourceUrl": "mailto:reader-forwarded-email/bee6fda6d010fb934056d9b9afc38c92",
+        "readwiseUrl": "https://read.readwise.io/read/01m2r26watd8v2kszwtswjt1t6",
+        "summary": "Even if a book changes you in imperceptible ways (which it does), and is fun to read, almost nobody wants to spend 20 hours reading a classic novel, Plato’s Republic, or the latest psychology book without anything to show for it.",
+        "whyRead": null,
+        "bestMoment": null,
+        "tags": [
+          "learning & meta-learning",
+          "professional development"
+        ],
+        "coreInterests": [],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01m2qwxp6naam94zqc0fwxzt6p",
+        "title": "9 Signs your team has outgrown Scrum",
+        "author": null,
+        "siteName": "Substack",
+        "category": "email",
+        "language": null,
+        "readingTime": "9 mins",
+        "readingMinutes": 9,
+        "wordCount": 2315,
+        "publishedDate": "2026-09-17",
+        "savedDate": "2026-09-17T14:39:23.861000+00:00",
+        "imageUrl": null,
+        "sourceUrl": "mailto:reader-forwarded-email/b68fee676201620389c35ebd5b91ddbd",
+        "readwiseUrl": "https://read.readwise.io/read/01m2qwxp6naam94zqc0fwxzt6p",
+        "summary": "Scrum does not require teams to release only at the end of a Sprint. In fact, teams can deliver a usable Increment whenever it makes sense.",
+        "whyRead": null,
+        "bestMoment": null,
+        "tags": [
+          "agile",
+          "flow & delivery",
+          "scrum"
+        ],
+        "coreInterests": [
+          "agile"
+        ],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
         "id": "01m2qq19ztx7rfv3f9z86sgtvx",
         "title": "Ness Labs: How to Trust What You Know 📝",
         "author": null,
@@ -53836,16 +54366,8 @@ window.TOP_ARTICLES = {
           "geschiedenis",
           "cultuur_games_film"
         ],
-        "alsoIn": [
-          "aaa-luchtig-top-100"
-        ],
-        "memberships": [
-          {
-            "familyId": "luchtig",
-            "size": "top-100",
-            "position": 100
-          }
-        ]
+        "alsoIn": [],
+        "memberships": []
       },
       {
         "position": null,
@@ -54672,7 +55194,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 99
+            "position": 100
           }
         ]
       },
@@ -55083,7 +55605,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 98
+            "position": 99
           }
         ]
       },
@@ -57440,7 +57962,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 97
+            "position": 98
           }
         ]
       },
@@ -58765,7 +59287,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 96
+            "position": 97
           }
         ]
       },
@@ -58845,7 +59367,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 95
+            "position": 96
           }
         ]
       },
@@ -59389,7 +59911,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 94
+            "position": 95
           }
         ]
       },
@@ -59427,7 +59949,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 93
+            "position": 94
           }
         ]
       },
@@ -59897,7 +60419,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 92
+            "position": 93
           },
           {
             "familyId": "luchtig-nederlands",
@@ -60148,7 +60670,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 91
+            "position": 92
           }
         ]
       },
@@ -60348,7 +60870,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 90
+            "position": 91
           }
         ]
       },
@@ -61534,7 +62056,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 89
+            "position": 90
           }
         ]
       },
@@ -61572,7 +62094,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 88
+            "position": 89
           }
         ]
       },
@@ -62457,7 +62979,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 87
+            "position": 88
           }
         ]
       },
@@ -62812,7 +63334,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 86
+            "position": 87
           }
         ]
       },
@@ -63115,7 +63637,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 85
+            "position": 86
           }
         ]
       },
@@ -64955,98 +65477,98 @@ window.TOP_ARTICLES = {
           "position": 6
         },
         {
-          "id": "01kvhbzvsdz71gdn2329t023sp",
-          "title": "So, what is morality?",
-          "position": 7
-        },
-        {
           "id": "01kwragbn5fwjf0dvfyfvwvne8",
           "title": "The incredible story of Benjamin Lay: abolitionist, vegan, and centuries ahead of his time",
-          "position": 8
+          "position": 7
         },
         {
           "id": "01m0nepk6hxvzd70jd2769qtmm",
           "title": "Slavery and the American Revolution",
-          "position": 9
+          "position": 8
         },
         {
           "id": "01m17hc9s31gyv0433ecry76qg",
           "title": "On being a woman who wants power",
-          "position": 10
+          "position": 9
         },
         {
           "id": "01m1972tbcgs6619xxy2hgm5qp",
           "title": "What’s Wrong with Technocracy?",
-          "position": 11
+          "position": 10
         },
         {
           "id": "01m1gv8e2cse07s1k6j9bjtp57",
           "title": "The power thinker",
-          "position": 12
+          "position": 11
         },
         {
           "id": "01m2b5ka39qktpcgxpsjpx9wse",
           "title": "The Illusion of Justice: Human Rights Abuses in US Terrorism Prosecutions",
-          "position": 13
+          "position": 12
         },
         {
           "id": "01ky7jrfefqkv3180t6q9eqbjk",
           "title": "The game theory of political power",
-          "position": 14
+          "position": 13
         },
         {
           "id": "01m0yytgcbktcptzp46cf14p2x",
           "title": "The Agile Coach Role Decoded: What Agile Coaches Deliver Versus What Team Members Experience - Koumaditis - 2026 - Journal of Software: Evolution and Process - Wiley Online Library",
-          "position": 15
+          "position": 14
         },
         {
           "id": "01m0yzc8acebxvxektbepqg0kc",
           "title": "Strengthening Large-Scale Agile Teams: The Interplay of High-Quality Relationships, Psychological Safety, and Learning From Failures",
-          "position": 16
+          "position": 15
         },
         {
           "id": "01m17hcyt40k1nn13p6cp7eyr9",
           "title": "the tyranny of the measurable",
-          "position": 17
+          "position": 16
         },
         {
           "id": "01m1975ekmdsc0hj34geabean3",
           "title": "Solidarity in Times of Crisis",
-          "position": 18
+          "position": 17
         },
         {
           "id": "01m19781z6qxaz9m5eq5j8as51",
           "title": "Bloodless Democracy?",
-          "position": 19
+          "position": 18
         },
         {
           "id": "01m1xbf7p69krgbxtsh8xb20qs",
           "title": "What Separates The Great From The Petty In History",
-          "position": 20
+          "position": 19
         },
         {
           "id": "01m1zvrz2vvam9hwech3awav2m",
           "title": "Enfranchisement of Women — Harriet Taylor Mill",
-          "position": 21
+          "position": 20
         },
         {
           "id": "01m2nwzbeakn8gefz8s64p7gte",
           "title": "Why Classic Brainstorming Fails Neurodivergent Brains (And Why It's Not You)",
-          "position": 22
+          "position": 21
         },
         {
           "id": "01kwm2c48x698f162vev3xqyy2",
           "title": "The Knowledge Machine: How Irrationality Created Modern Science",
-          "position": 23
+          "position": 22
         },
         {
           "id": "01ky6y0nhqr5zvg2wnj7d1hre9",
           "title": "How we decide what is fair in everyday life",
-          "position": 24
+          "position": 23
         },
         {
           "id": "01ky6y0z3wkzmdhty7gq3qa1wz",
           "title": "So, what is morality?",
+          "position": 24
+        },
+        {
+          "id": "01kyab47vf7vat0n76fpwrgrj6",
+          "title": "Your Book Review: Breakdown In Pakistan",
           "position": 25
         }
       ]
@@ -65091,93 +65613,93 @@ window.TOP_ARTICLES = {
           "position": 7
         },
         {
+          "id": "01m1nbjzntew83f16xt14m9r2w",
+          "title": "There is always a demand for more jobs. But what makes a job good? For that, Immanuel Kant has an answer",
+          "position": 8
+        },
+        {
           "id": "01jvajbknykyp0g0rgns58p80k",
           "title": "The Extended Mind",
-          "position": 8
+          "position": 9
         },
         {
           "id": "01kd1cae7sbstaj4vhva4dsbxr",
           "title": "The Work Of Art In The Age Of Mechanical Reproduction",
-          "position": 9
+          "position": 10
         },
         {
           "id": "01krn1jdcn6b450yv1z0j92tz3",
           "title": "The Radical Sunzi",
-          "position": 10
+          "position": 11
         },
         {
           "id": "01kxr18pz677fa7xqfav7sp2dp",
           "title": "Capitalism: A Ghost Story",
-          "position": 11
+          "position": 12
         },
         {
           "id": "01kyxyqrfvk85easc927qpwtns",
           "title": "The Ones Who Walk Away From Omelas",
-          "position": 12
+          "position": 13
         },
         {
           "id": "01m07vc44sxraja6grgwxkcqsq",
           "title": "Technics And Civilization",
-          "position": 13
+          "position": 14
         },
         {
           "id": "01m0nepq34v9hbtcm1z1rcjn1e",
           "title": "The Madness of Yankee Doodle",
-          "position": 14
+          "position": 15
         },
         {
           "id": "01m1q38vt13z682y665ms9k4xv",
           "title": "Beyond HTML5: Database APIs and the Road to IndexedDB",
-          "position": 15
+          "position": 16
         },
         {
           "id": "01m2jgk9q66bvhk6tyfvgqwbpg",
           "title": "Finland's Language War Nationalists Seek End to Mandatory Swedish Lessons",
-          "position": 16
+          "position": 17
         },
         {
           "id": "01k72qvbmwd9xp0k233cv5qgw2",
           "title": "A blog post is a very long and complex search query to find fascinating people and make them route interesting stuff to your inbox",
-          "position": 17
+          "position": 18
         },
         {
           "id": "01kyexyg0m6s4a4nddcw8mm63e",
           "title": "Time for some game theory",
-          "position": 18
+          "position": 19
         },
         {
           "id": "01m0f5thx0x9f1rpdvj5r64m3m",
           "title": "Meditations On Moloch",
-          "position": 19
+          "position": 20
         },
         {
           "id": "01m2cwyrq374986jczh0y8x91b",
           "title": "When the Revolution Came for Amy Cuddy - The New York Times",
-          "position": 20
+          "position": 21
         },
         {
           "id": "01k0p4253kpm8byjm8jx3e6h3g",
           "title": "The Leader’s Guide To Corporate Culture",
-          "position": 21
+          "position": 22
         },
         {
           "id": "01ky7qe9p9qwtpk49bzc4pqqhk",
           "title": "Normal Accidents: Living with High-Risk Technologies",
-          "position": 22
+          "position": 23
         },
         {
           "id": "01m059t7cjgvc214sac3e4z08x",
           "title": "Freedom of the Park",
-          "position": 23
+          "position": 24
         },
         {
           "id": "01m059tpnqyq5yy3kq6xrmf1v5",
           "title": "My Country Right or Left",
-          "position": 24
-        },
-        {
-          "id": "01m0nksfcb49bfgcza8prxfhjm",
-          "title": "The Question Concerning Technology",
           "position": 25
         }
       ]
