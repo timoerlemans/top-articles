@@ -1,8 +1,8 @@
 import { createHash } from "node:crypto";
 
 import { FAMILY_DEFINITIONS } from "./unified-lists.js";
-import { buildPriorityExport } from "./readwise-priority-v5.js";
-import type { PriorityJudgmentsConfig, PriorityOverridesConfig } from "./readwise-priority-v5.js";
+import { buildPriorityExport } from "./readwise-priority-v6.js";
+import type { PriorityJudgmentsConfig, PriorityOverridesConfig } from "./readwise-priority-v6.js";
 import type { ContentJudgment } from "./priority-judgments.js";
 import type { PriorityDocument } from "./readwise-priority-v2.js";
 import { tagNames } from "./priority-tag-plan.js";
@@ -30,7 +30,7 @@ export interface ArchivePlanSummary {
 export interface ArchivePlan {
   generatedAt: string;
   model: typeof ARCHIVE_PLAN_MODEL;
-  priorityModel: "readwise-priority-v5";
+  priorityModel: "readwise-priority-v6";
   scope: "later";
   sourceFingerprint: string;
   summary: ArchivePlanSummary;
@@ -140,7 +140,7 @@ export function validateArchivePlan(plan: unknown): plan is ArchivePlan {
   if (!isRecord(plan)) {
     throw new Error("Ongeldig archive-planmodel");
   }
-  if (plan.model !== ARCHIVE_PLAN_MODEL || plan.priorityModel !== "readwise-priority-v5" || plan.scope !== "later") {
+  if (plan.model !== ARCHIVE_PLAN_MODEL || plan.priorityModel !== "readwise-priority-v6" || plan.scope !== "later") {
     throw new Error("Ongeldig archive-planmodel of scope");
   }
   if (typeof plan.generatedAt !== "string" || typeof plan.sourceFingerprint !== "string" || !/^[a-f0-9]{64}$/.test(plan.sourceFingerprint)) {

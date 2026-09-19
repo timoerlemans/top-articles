@@ -45,7 +45,7 @@ function isTopArticles(value) {
     return families && value.catalog.items.every(isArticleItem) && derivedLists;
 }
 function isTopArticlePriority(value) {
-    if (!isRecord(value) || typeof value.generatedAt !== "string" || (value.model !== "readwise-priority-v4" && value.model !== "readwise-priority-v5") || value.scope !== "later" || !isRecord(value.items)) {
+    if (!isRecord(value) || typeof value.generatedAt !== "string" || (value.model !== "readwise-priority-v4" && value.model !== "readwise-priority-v5" && value.model !== "readwise-priority-v6") || value.scope !== "later" || !isRecord(value.items)) {
         return false;
     }
     return Object.values(value.items).every(isPriorityItem);

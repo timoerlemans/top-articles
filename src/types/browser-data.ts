@@ -1,4 +1,4 @@
-import type { PrioritySequence } from "../../scripts/lib/readwise-priority-v5.js";
+import type { PrioritySequence } from "../../scripts/lib/readwise-priority-v6.js";
 import type { DirectDomain } from "../../scripts/lib/readwise-priority-v2.js";
 
 export interface ArticleItem {
@@ -30,9 +30,9 @@ export interface ArticleItem {
 export interface ArticleList { tag: string; items: ArticleItem[]; }
 export interface ArticleFamily { id: string; label: string; lists: { "top-10": ArticleList; "top-100": ArticleList }; }
 export interface TopArticles { generatedAt: string; families: ArticleFamily[]; catalog: { items: ArticleItem[] }; derivedLists: Record<string, { id: string; label: string; items: Array<{ id: string; title: string; position: number }> }>; }
-export type PriorityComponentKey = "relevantie" | "substantie" | "duurzaamheid" | "bruikbaarheid" | "leeskans" | "nederlandse_taal" | "curatie" | "aftrek";
+export type PriorityComponentKey = "relevantie" | "substantie" | "duurzaamheid" | "bruikbaarheid" | "leeskans" | "nederlandse_taal" | "aftrek";
 export interface PriorityItem { baseScore: number; adjustment: number; adjustmentReason: string | null; score: number; tier: string; components: Partial<Record<PriorityComponentKey, number>>; rationale: Partial<Record<PriorityComponentKey, string[]>>; judgmentSource?: "label" | "fallback"; judgmentConfidence?: "high" | "medium" | "low"; sequences: PrioritySequence[]; sequenceScores?: Partial<Record<PrioritySequence, number>>; positions: Partial<Record<PrioritySequence, number>>; actualPositions: Partial<Record<PrioritySequence, number>>; }
-export interface TopArticlePriority { generatedAt: string; model: "readwise-priority-v4" | "readwise-priority-v5"; scope: "later"; items: Record<string, PriorityItem>; }
+export interface TopArticlePriority { generatedAt: string; model: "readwise-priority-v4" | "readwise-priority-v5" | "readwise-priority-v6"; scope: "later"; items: Record<string, PriorityItem>; }
 
 function isRecord(value: unknown): value is Record<string, unknown> {
   return typeof value === "object" && value !== null;
@@ -87,7 +87,7 @@ function isTopArticles(value: unknown): value is TopArticles {
 }
 
 function isTopArticlePriority(value: unknown): value is TopArticlePriority {
-  if (!isRecord(value) || typeof value.generatedAt !== "string" || (value.model !== "readwise-priority-v4" && value.model !== "readwise-priority-v5") || value.scope !== "later" || !isRecord(value.items)) {
+  if (!isRecord(value) || typeof value.generatedAt !== "string" || (value.model !== "readwise-priority-v4" && value.model !== "readwise-priority-v5" && value.model !== "readwise-priority-v6") || value.scope !== "later" || !isRecord(value.items)) {
     return false;
   }
   return Object.values(value.items).every(isPriorityItem);

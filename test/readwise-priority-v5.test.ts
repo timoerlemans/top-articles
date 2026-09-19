@@ -2,7 +2,7 @@ import assert from "node:assert/strict";
 import test from "node:test";
 
 import { buildPriorityExport, scorePriorityDocument } from "../scripts/lib/readwise-priority-v5.js";
-import { judgmentSourceFingerprint, suggestedJudgmentFromHighlights } from "../scripts/lib/priority-judgments.js";
+import { judgmentSourceFingerprint } from "../scripts/lib/priority-judgments.js";
 import type { PriorityDocument } from "../scripts/lib/readwise-priority-v2.js";
 
 function document(overrides: Partial<PriorityDocument> = {}): PriorityDocument {
@@ -28,7 +28,16 @@ test("v5 fingerprint negeert posities en afgeleide toplijsttags", () => {
 
 test("v5 gebruikt een expliciet inhoudslabel en kleine sequence-fitcorrectie", () => {
   const doc = document({ id: "labeled" });
-  const judgment = suggestedJudgmentFromHighlights(doc, ["This study explains an important framework for collaboration at work."]);
+  const judgment = {
+    sourceFingerprint: judgmentSourceFingerprint(doc),
+    relevance: 3 as const,
+    substance: 3 as const,
+    durability: 3 as const,
+    usefulness: 3 as const,
+    sequenceFit: { lees: 0 as const },
+    confidence: "low" as const,
+    reasonCodes: ["legacy-test-label"],
+  };
   const result = buildPriorityExport([doc], {
     generatedAt: "2026-09-19T00:00:00.000Z",
     judgments: { version: 1, items: { labeled: judgment } },

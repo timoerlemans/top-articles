@@ -1,6 +1,6 @@
 import { parseTopArticlePriority, parseTopArticles } from "./types/browser-data.js";
 import type { ArticleFamily, ArticleItem, ArticleList, PriorityItem } from "./types/browser-data.js";
-import type { PrioritySequence } from "../scripts/lib/readwise-priority-v5.js";
+import type { PrioritySequence } from "../scripts/lib/readwise-priority-v6.js";
 
 type ListSize = "top-10" | "top-100";
 type View = "toplists" | "discover" | "priority";
@@ -148,11 +148,10 @@ registerServiceWorker();
     leeskans: "Leeskans",
     onderscheidende_duurzame_waarde: "Duurzame waarde",
     nederlandse_taal: "Nederlandse taal",
-    curatie: "Curatie",
     aftrek: "Aftrek",
   };
   const PRIORITY_COMPONENT_KEYS: readonly (keyof PriorityItem["components"])[] = [
-    "relevantie", "substantie", "duurzaamheid", "bruikbaarheid", "leeskans", "nederlandse_taal", "curatie", "aftrek",
+    "relevantie", "substantie", "duurzaamheid", "bruikbaarheid", "leeskans", "nederlandse_taal", "aftrek",
   ];
 
   const DEFAULT_SORT_DIR: Record<SortField, SortDirection> = { score: "desc", position: "asc", saved: "desc", published: "desc", title: "asc" };

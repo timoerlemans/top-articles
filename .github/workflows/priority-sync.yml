@@ -32,6 +32,12 @@ jobs:
       - name: Run tests
         run: npm run check
 
+      - name: Prepare semantic priority evidence
+        run: npm run priority:judge -- prepare --top100
+
+      - name: Validate semantic priority judgments
+        run: npm run priority:judge -- validate --require-top100
+
       - name: Genereer prioriteitsplan
         run: npm run priority:plan -- --output .tmp/readwise/priority-plan.json
 

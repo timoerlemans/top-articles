@@ -22,7 +22,7 @@ test("score.js bevat het zelfstandige priority-v4 browsercontract", async () => 
 
   const priority = context.window.TOP_ARTICLE_PRIORITY;
   assert.ok(isGeneratedPriority(priority), "TOP_ARTICLE_PRIORITY bevat een ongeldig browsercontract");
-  assert.equal(priority.model, "readwise-priority-v4");
+  assert.ok(["readwise-priority-v4", "readwise-priority-v6"].includes(priority.model));
   assert.equal(priority.scope, "later");
   assert.equal("TOP_ARTICLE_SCORING" in context.window, false);
 });

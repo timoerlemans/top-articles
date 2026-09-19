@@ -1,11 +1,11 @@
 import { createHash } from "node:crypto";
 
-import { buildPriorityExport, PRIORITY_MODEL, SEQUENCE_ORDER } from "./readwise-priority-v5.js";
+import { buildPriorityExport, PRIORITY_MODEL, SEQUENCE_ORDER } from "./readwise-priority-v6.js";
 import type {
   PriorityExportItem,
   PriorityExportOptions,
   PrioritySequence,
-} from "./readwise-priority-v5.js";
+} from "./readwise-priority-v6.js";
 import type { ContentJudgment, PriorityJudgmentsConfig } from "./priority-judgments.js";
 import type { PriorityDocument } from "./readwise-priority-v2.js";
 import { FAMILY_DEFINITIONS } from "./unified-lists.js";

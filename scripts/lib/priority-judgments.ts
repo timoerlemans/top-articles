@@ -9,9 +9,39 @@ export type ContentRating = 0 | 1 | 2 | 3 | 4;
 export type JudgmentConfidence = "high" | "medium" | "low";
 export type JudgmentSource = "label" | "fallback";
 export type SequenceFit = -2 | -1 | 0 | 1 | 2;
+export type JudgmentStatus = "accepted" | "draft" | "rejected";
+export type HighlightProvenance = "user" | "readwise-enrich" | "readwise-triage" | "unknown";
+
+export interface PriorityHighlight {
+  stableRef: string;
+  text: string;
+  note: string | null;
+  tags: string[];
+  provenance: HighlightProvenance;
+}
+
+export interface PriorityDocumentEvidence {
+  documentId: string;
+  title: string | null;
+  category: string | null;
+  language: string | null;
+  summary: string | null;
+  notes: string | null;
+  contentTags: string[];
+  curationSignals: string[];
+  positionTagsExcluded: string[];
+  highlights: PriorityHighlight[];
+  sourceFingerprint: string;
+  evidenceFingerprint: string;
+  triageRecommendation: string | null;
+  triageReason: string | null;
+  enrichmentPasses: number | null;
+  pipelineArtifacts: string[];
+}
 
 export interface ContentJudgment {
   sourceFingerprint: string;
+  evidenceFingerprint?: string;
   relevance: ContentRating;
   substance: ContentRating;
   durability: ContentRating;
@@ -19,15 +49,21 @@ export interface ContentJudgment {
   sequenceFit: Partial<Record<PrioritySequence, SequenceFit>>;
   confidence: JudgmentConfidence;
   reasonCodes: string[];
+  status?: JudgmentStatus;
+  rubricVersion?: string;
+  evidenceRefs?: string[];
+  judgedBy?: string;
+  judgedAt?: string;
 }
 
 export interface PriorityJudgmentsConfig {
-  version: 1;
+  version: 1 | 2;
+  rubricVersion?: string;
   items: Record<string, ContentJudgment>;
 }
 
 const ORDER_TAG = /^(?:video|boek|pdf|lees|dutch|short|short-dutch|luchtig|luchtig-nederlands|scrum|software-development|front-end-development|social-studies|adhd)-\d{3,4}$/;
-const DERIVED_ORDER_TAG = /^aaa(?:-[a-z0-9-]+)?-top-(?:10|100)$/;
+const DERIVED_ORDER_TAG = /(?:^|-)top-(?:10|100)$/;
 const CURATION_TAGS = new Set(["must-read", "shortlist", "short-list", "light-reading"]);
 const USEFULNESS_MARKERS = [
   "werk", "work", "career", "professional", "ouderschap", "mantelzorg", "schrijven", "kennisbeheer",
@@ -64,10 +100,22 @@ function tagNames(doc: PriorityDocument): string[] {
   }).filter(Boolean);
 }
 
-function contentTags(doc: PriorityDocument): string[] {
+function isPositionTag(tag: string): boolean {
+  return ORDER_TAG.test(tag) || DERIVED_ORDER_TAG.test(tag);
+}
+
+export function contentTagsFor(doc: PriorityDocument): string[] {
   return tagNames(doc)
-    .filter((tag) => !ORDER_TAG.test(tag) && !DERIVED_ORDER_TAG.test(tag) && !CURATION_TAGS.has(tag))
+    .filter((tag) => !isPositionTag(tag) && !CURATION_TAGS.has(tag))
     .sort((a, b) => a.localeCompare(b));
+}
+
+function curationSignalsFor(doc: PriorityDocument): string[] {
+  return tagNames(doc).filter((tag) => CURATION_TAGS.has(tag)).sort((a, b) => a.localeCompare(b));
+}
+
+function positionTagsFor(doc: PriorityDocument): string[] {
+  return tagNames(doc).filter(isPositionTag).sort((a, b) => a.localeCompare(b));
 }
 
 function canonicalInput(doc: PriorityDocument): Record<string, unknown> {
@@ -80,13 +128,92 @@ function canonicalInput(doc: PriorityDocument): Record<string, unknown> {
     reading_time: doc.reading_time ?? null,
     word_count: doc.word_count ?? null,
     category: doc.category ?? null,
-    tags: contentTags(doc),
+    tags: contentTagsFor(doc),
   };
 }
 
 /** Fingerprint deliberately excludes ordinal and derived top-list tags. */
 export function judgmentSourceFingerprint(doc: PriorityDocument): string {
   return createHash("sha256").update(JSON.stringify(canonicalInput(doc))).digest("hex");
+}
+
+function highlightRecord(value: unknown): PriorityHighlight | null {
+  if (typeof value === "string") {
+    const text = value.trim();
+    if (!text) {return null;}
+    return { stableRef: "", text, note: null, tags: [], provenance: "unknown" };
+  }
+  if (!isRecord(value)) {return null;}
+  const textValue = value.text ?? value.highlight ?? value.plaintext ?? value.highlight_plaintext;
+  if (typeof textValue !== "string" || !textValue.trim()) {return null;}
+  const noteValue = value.note ?? value.notes;
+  const rawTags = Array.isArray(value.tags) ? value.tags : [];
+  const tags = rawTags.filter((tag): tag is string => typeof tag === "string").map(normalize).filter(Boolean).sort();
+  const pipeline = normalize(value.provenance ?? value.pipeline ?? value.source);
+  const provenance: HighlightProvenance = pipeline === "user" ? "user" : pipeline.includes("enrich") ? "readwise-enrich" : pipeline.includes("triage") ? "readwise-triage" : "unknown";
+  const note = typeof noteValue === "string" && noteValue.trim() ? noteValue.trim() : null;
+  return { stableRef: typeof value.id === "string" && value.id.trim() ? value.id.trim() : "", text: textValue.trim(), note, tags, provenance };
+}
+
+function canonicalHighlightKey(highlight: PriorityHighlight): string {
+  return JSON.stringify({ text: normalize(highlight.text), note: normalize(highlight.note) });
+}
+
+function normalizeHighlights(rawHighlights: readonly unknown[]): PriorityHighlight[] {
+  const seen = new Set<string>();
+  return rawHighlights.flatMap((value) => {
+    const parsed = highlightRecord(value);
+    if (!parsed) {return [];}
+    const key = canonicalHighlightKey(parsed);
+    if (seen.has(key)) {return [];}
+    seen.add(key);
+    const stableRef = parsed.stableRef || `highlight:${createHash("sha256").update(key).digest("hex").slice(0, 16)}`;
+    return [{ ...parsed, stableRef }];
+  });
+}
+
+export function evidenceFingerprint(evidence: Pick<PriorityDocumentEvidence, "documentId" | "title" | "summary" | "notes" | "contentTags" | "highlights">): string {
+  const canonical = {
+    documentId: evidence.documentId,
+    title: evidence.title,
+    summary: evidence.summary,
+    notes: evidence.notes,
+    contentTags: [...evidence.contentTags].sort(),
+    highlights: evidence.highlights.map((highlight) => ({
+      text: normalize(highlight.text),
+      note: normalize(highlight.note),
+      tags: [...highlight.tags].sort(),
+    })).sort((a, b) => JSON.stringify(a).localeCompare(JSON.stringify(b))),
+  };
+  return createHash("sha256").update(JSON.stringify(canonical)).digest("hex");
+}
+
+export function buildPriorityEvidence(
+  doc: PriorityDocument,
+  rawHighlights: readonly unknown[] = [],
+  context: Partial<Pick<PriorityDocumentEvidence, "triageRecommendation" | "triageReason" | "enrichmentPasses" | "pipelineArtifacts">> = {},
+): PriorityDocumentEvidence {
+  const highlights = normalizeHighlights(rawHighlights);
+  const evidence = {
+    documentId: doc.id ?? "",
+    title: doc.title ?? null,
+    category: doc.category ?? null,
+    language: doc.language ?? null,
+    summary: doc.summary ?? null,
+    notes: doc.notes ?? null,
+    contentTags: contentTagsFor(doc),
+    curationSignals: curationSignalsFor(doc),
+    positionTagsExcluded: positionTagsFor(doc),
+    highlights,
+    sourceFingerprint: judgmentSourceFingerprint(doc),
+    evidenceFingerprint: "",
+    triageRecommendation: context.triageRecommendation ?? null,
+    triageReason: context.triageReason ?? null,
+    enrichmentPasses: context.enrichmentPasses ?? null,
+    pipelineArtifacts: [...(context.pipelineArtifacts ?? [])].sort(),
+  } satisfies Omit<PriorityDocumentEvidence, "evidenceFingerprint"> & { evidenceFingerprint: string };
+  evidence.evidenceFingerprint = evidenceFingerprint(evidence);
+  return evidence;
 }
 
 function textFor(doc: PriorityDocument): string {
@@ -123,7 +250,7 @@ function fitFor(doc: PriorityDocument, sequence: PrioritySequence): SequenceFit 
  * It is intentionally marked low-confidence and never uses highlight count/presence.
  */
 export function fallbackJudgment(doc: PriorityDocument): ContentJudgment {
-  const tags = new Set(contentTags(doc));
+  const tags = new Set(contentTagsFor(doc));
   const text = textFor(doc);
   const domains = matchedDomainsFromTags(doc);
   const words = Number(doc.word_count);
@@ -148,21 +275,6 @@ export function fallbackJudgment(doc: PriorityDocument): ContentJudgment {
   };
 }
 
-/** Builds a low-cost label from the actual highlight text, without using highlight count. */
-export function suggestedJudgmentFromHighlights(
-  doc: PriorityDocument,
-  highlights: readonly string[],
-): ContentJudgment {
-  const base = fallbackJudgment(doc);
-  if (highlights.length === 0) {return base;}
-  const reasonCodes = [...base.reasonCodes, "highlight-evidence-available"];
-  return {
-    ...base,
-    confidence: "low",
-    reasonCodes,
-  };
-}
-
 function isRating(value: unknown): value is ContentRating {
   return Number.isInteger(value) && typeof value === "number" && value >= 0 && value <= 4;
 }
@@ -176,11 +288,18 @@ export function validateContentJudgment(value: unknown): value is ContentJudgmen
   if (!["high", "medium", "low"].includes(String(value.confidence))) {return false;}
   if (!["relevance", "substance", "durability", "usefulness"].every((key) => isRating(value[key]))) {return false;}
   if (!isRecord(value.sequenceFit) || !Object.values(value.sequenceFit).every(isFit)) {return false;}
-  return Array.isArray(value.reasonCodes) && value.reasonCodes.every((code) => typeof code === "string" && code.length > 0);
+  if (!Array.isArray(value.reasonCodes) || !value.reasonCodes.every((code) => typeof code === "string" && code.length > 0)) {return false;}
+  if (Object.hasOwn(value, "highlights")) {return false;}
+  if (value.status !== undefined && value.status !== "accepted" && value.status !== "draft" && value.status !== "rejected") {return false;}
+  if (value.evidenceFingerprint !== undefined && (typeof value.evidenceFingerprint !== "string" || !/^[a-f0-9]{64}$/.test(value.evidenceFingerprint))) {return false;}
+  if (value.evidenceRefs !== undefined && (!Array.isArray(value.evidenceRefs) || !value.evidenceRefs.every((ref) => typeof ref === "string" && ref.length > 0))) {return false;}
+  return true;
 }
 
 export function validatePriorityJudgments(value: unknown): value is PriorityJudgmentsConfig {
-  if (!isRecord(value) || value.version !== 1 || !isRecord(value.items)) {return false;}
+  if (!isRecord(value) || (value.version !== 1 && value.version !== 2) || !isRecord(value.items)) {return false;}
+  if (value.version === 2 && value.rubricVersion !== "semantic-v1") {return false;}
+  if (value.version === 2 && Object.entries(value.items).some(([, judgment]) => !isRecord(judgment) || judgment.status !== "accepted" || typeof judgment.evidenceFingerprint !== "string" || typeof judgment.judgedBy !== "string" || typeof judgment.judgedAt !== "string")) {return false;}
   return Object.entries(value.items).every(([id, judgment]) => id.length > 0 && validateContentJudgment(judgment));
 }
 

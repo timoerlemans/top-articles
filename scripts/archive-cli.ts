@@ -21,7 +21,7 @@ import {
 import { createReadwiseRequester } from "./lib/readwise-request.js";
 import { parseReadwiseDocumentPage } from "./lib/external-schemas.js";
 import type { ReadwiseDocument } from "./lib/external-schemas.js";
-import type { PriorityJudgmentsConfig, PriorityOverridesConfig } from "./lib/readwise-priority-v5.js";
+import type { PriorityJudgmentsConfig, PriorityOverridesConfig } from "./lib/readwise-priority-v6.js";
 import { validatePriorityJudgments } from "./lib/priority-judgments.js";
 
 const execFileAsync = promisify(execFile);

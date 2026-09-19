@@ -1,6 +1,6 @@
 import { assertArchivePlanFresh, type ArchivePlan } from "./archive-plan.js";
 import type { PriorityDocument } from "./readwise-priority-v2.js";
-import type { PriorityJudgmentsConfig, PriorityOverridesConfig } from "./readwise-priority-v5.js";
+import type { PriorityJudgmentsConfig, PriorityOverridesConfig } from "./readwise-priority-v6.js";
 import type { ContentJudgment } from "./priority-judgments.js";
 
 export const ARCHIVE_BATCH_SIZE = 50;

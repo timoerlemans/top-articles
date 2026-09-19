@@ -32,6 +32,12 @@ jobs:
           READWISE_TOKEN: ${{ secrets.READWISE_TOKEN }}
         run: readwise login-with-token "$READWISE_TOKEN"
 
+      - name: Prepare semantic priority evidence
+        run: npm run priority:judge -- prepare --top100
+
+      - name: Validate semantic priority judgments
+        run: npm run priority:judge -- validate --require-top100
+
       - name: Build app data
         run: npm run build
 
