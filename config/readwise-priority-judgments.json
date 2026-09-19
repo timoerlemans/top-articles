@@ -31088,6 +31088,48 @@
       ],
       "judgedBy": "codex-semantic-review-2026-09-19",
       "judgedAt": "2026-09-19T14:27:33Z"
+    },
+    "01m2wjm57ck50gr479pg0vyfw6": {
+      "sourceFingerprint": "a7e3e27910cae8d0c9a7bcbcedfa433eb82db745d4899960b929ae9151e075fe",
+      "evidenceFingerprint": "eb28b39433ba3f6e44d5a48055c090b1a8c9caa2bd588c95f94fab97a9ab5bc1",
+      "relevance": 4,
+      "substance": 4,
+      "durability": 4,
+      "usefulness": 3,
+      "sequenceFit": {
+        "video": 0,
+        "boek": 0,
+        "pdf": 2,
+        "lees": 0,
+        "dutch": 0,
+        "short": 0,
+        "short-dutch": 0,
+        "luchtig": 0,
+        "luchtig-nederlands": 0,
+        "scrum": 0,
+        "software-development": 0,
+        "front-end-development": 0,
+        "social-studies": 2,
+        "adhd": 0
+      },
+      "confidence": "high",
+      "reasonCodes": [
+        "semantic-review",
+        "independent-of-current-position",
+        "evidence:title-summary-notes-highlights",
+        "interest:political-philosophy",
+        "interest:sociology",
+        "substantive-argument-or-synthesis",
+        "reusable-or-structural-insight",
+        "clear-personal-or-professional-payoff"
+      ],
+      "status": "accepted",
+      "rubricVersion": "semantic-v1",
+      "evidenceRefs": [
+        ".tmp/readwise/priority-evidence.json#documents.01m2wjm57ck50gr479pg0vyfw6"
+      ],
+      "judgedBy": "codex-semantic-review-2026-09-19",
+      "judgedAt": "2026-09-19T22:58:37Z"
     }
   }
 }
