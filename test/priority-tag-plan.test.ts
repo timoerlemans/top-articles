@@ -10,6 +10,7 @@ import {
   type PriorityTagDocument,
   type PriorityTagPlan,
 } from "../scripts/lib/priority-tag-plan.js";
+import type { CoreInterestPriorityConfig } from "../scripts/lib/core-interest-priority.js";
 
 type TagPlanTestDocument = PriorityTagDocument & {
   updated_at?: string;
@@ -211,4 +212,21 @@ test("bronfingerprint negeert Reader updated_at maar bewaakt score-invoer", () =
 
   assert.equal(onlyUpdated.sourceFingerprint, plan.sourceFingerprint);
   assert.notEqual(changedSummary.sourceFingerprint, plan.sourceFingerprint);
+});
+
+test("bronfingerprint bewaakt ook de kerninteresseconfiguratie", () => {
+  const source = [doc("stable", { tags: { agile: {} } })];
+  const config: CoreInterestPriorityConfig = {
+    version: 1,
+    manualOrder: ["agile", "adhd", "filosofie"],
+    weightByRank: [20, 16, 12, 10, 9, 8, 7, 6, 5, 4, 3, 2],
+  };
+  const changedConfig: CoreInterestPriorityConfig = {
+    ...config,
+    weightByRank: [21, 16, 12, 10, 9, 8, 7, 6, 5, 4, 3, 2],
+  };
+  const first = buildPriorityTagPlan(source, [], { generatedAt: "2026-08-16T10:00:00.000Z", coreInterestConfig: config });
+  const changed = buildPriorityTagPlan(source, [], { generatedAt: "2026-08-16T10:00:00.000Z", coreInterestConfig: changedConfig });
+
+  assert.notEqual(changed.sourceFingerprint, first.sourceFingerprint);
 });

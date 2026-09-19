@@ -1,5 +1,6 @@
 import { buildPriorityEvidence, type PriorityJudgmentsConfig } from "./priority-judgments.js";
-import { buildPriorityExport, SEQUENCE_ORDER } from "./readwise-priority-v6.js";
+import { buildPriorityExport, PRIORITY_MODEL, SEQUENCE_ORDER } from "./readwise-priority-v7.js";
+import type { CoreInterestPriorityConfig } from "./core-interest-priority.js";
 import type { PriorityDocument } from "./readwise-priority-v2.js";
 import type { PrioritySequence } from "./priority-sequences.js";
 
@@ -25,7 +26,7 @@ export interface PrioritySequenceComparison {
 
 export interface PriorityComparisonReport {
   generatedAt: string;
-  model: "readwise-priority-v6";
+  model: typeof PRIORITY_MODEL;
   sequences: Record<PrioritySequence, PrioritySequenceComparison>;
   items: PriorityComparisonItem[];
   curationConflicts: number;
@@ -43,8 +44,9 @@ export function buildPriorityComparisonReport(
   documents: readonly PriorityDocument[],
   judgments: PriorityJudgmentsConfig,
   generatedAt = new Date().toISOString(),
+  coreInterestConfig?: CoreInterestPriorityConfig,
 ): PriorityComparisonReport {
-  const priority = buildPriorityExport(documents, { generatedAt, judgments });
+  const priority = buildPriorityExport(documents, { generatedAt, judgments, coreInterestConfig });
   const items: PriorityComparisonItem[] = [];
   const confidence = { high: 0, medium: 0, low: 0 };
   let curationConflicts = 0;
@@ -79,5 +81,5 @@ export function buildPriorityComparisonReport(
     const pairs = items.filter((item) => item.sequence === sequence && item.currentPosition !== null && item.judgedPosition !== null).map((item) => ({ current: item.currentPosition as number, judged: item.judgedPosition as number }));
     sequences[sequence].spearman = spearman(pairs);
   }
-  return { generatedAt, model: "readwise-priority-v6", sequences, items, curationConflicts, confidence };
+  return { generatedAt, model: PRIORITY_MODEL, sequences, items, curationConflicts, confidence };
 }

@@ -1,11 +1,16 @@
 import { createHash } from "node:crypto";
 
-import { buildPriorityExport, PRIORITY_MODEL, SEQUENCE_ORDER } from "./readwise-priority-v6.js";
+import { buildPriorityExport, PRIORITY_MODEL, SEQUENCE_ORDER } from "./readwise-priority-v7.js";
 import type {
   PriorityExportItem,
   PriorityExportOptions,
   PrioritySequence,
-} from "./readwise-priority-v6.js";
+} from "./readwise-priority-v7.js";
+import {
+  coreInterestFingerprintInput,
+  defaultCoreInterestPriorityConfig,
+} from "./core-interest-priority.js";
+import type { CoreInterestPriorityConfig } from "./core-interest-priority.js";
 import type { ContentJudgment, PriorityJudgmentsConfig } from "./priority-judgments.js";
 import type { PriorityDocument } from "./readwise-priority-v2.js";
 import { FAMILY_DEFINITIONS } from "./unified-lists.js";
@@ -21,6 +26,7 @@ export interface PriorityTagPlanOptions {
   generatedAt?: string | undefined;
   overrides?: PriorityExportOptions["overrides"];
   judgments?: PriorityJudgmentsConfig | Record<string, ContentJudgment> | undefined;
+  coreInterestConfig?: CoreInterestPriorityConfig | undefined;
   cleanupAll?: boolean | undefined;
 }
 
@@ -248,9 +254,10 @@ export function buildPriorityTagPlan(
 ): PriorityTagPlan {
   const generatedAt = options.generatedAt ?? new Date().toISOString();
   const overrides = options.overrides ?? {};
+  const coreInterestConfig = options.coreInterestConfig ?? defaultCoreInterestPriorityConfig();
   const activeLater = laterDocuments.filter((doc) => doc.location === undefined || doc.location === null || doc.location === "later");
   const excludedLater = laterDocuments.filter((doc) => !activeLater.includes(doc));
-  const priority = buildPriorityExport(activeLater, { generatedAt, overrides, judgments: options.judgments });
+  const priority = buildPriorityExport(activeLater, { generatedAt, overrides, judgments: options.judgments, coreInterestConfig });
   const sourceDocuments = [...activeLater, ...excludedLater, ...outsideDocuments];
   const changes: Record<string, PriorityTagChange> = {};
   const operations: PriorityTagOperation[] = [];
@@ -309,7 +316,16 @@ export function buildPriorityTagPlan(
     });
   }
 
-  const sourceFingerprint = hash({ documents: stableSource(sourceDocuments), overrides });
+  const sourceFingerprint = hash({
+    documents: stableSource(sourceDocuments),
+    overrides,
+    coreInterestConfig: {
+      version: coreInterestConfig.version,
+      manualOrder: [...coreInterestConfig.manualOrder],
+      weightByRank: [...coreInterestConfig.weightByRank],
+    },
+    coreInterestMapping: coreInterestFingerprintInput(),
+  });
   const body: Omit<PriorityTagPlan, "planHash"> = {
     generatedAt,
     model: TAG_PLAN_MODEL,

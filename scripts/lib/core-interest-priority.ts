@@ -4,6 +4,7 @@ import { contentTagsFor, judgmentFor } from "./priority-judgments.js";
 import type { ContentJudgment, PriorityJudgmentsConfig } from "./priority-judgments.js";
 
 export const CORE_INTEREST_PRIORITY_VERSION = 1 as const;
+export const CORE_INTEREST_EVIDENCE_MAPPING_VERSION = 1 as const;
 
 export const CORE_INTEREST_LABELS: Readonly<Record<DirectDomain, string>> = {
   ai_ethiek: "AI & ethiek",
@@ -182,6 +183,16 @@ function buildPrimaryTagMap(): ReadonlyMap<string, DirectDomain> {
 }
 
 const PRIMARY_TAG_INTEREST = buildPrimaryTagMap();
+
+export function coreInterestFingerprintInput(): Record<string, unknown> {
+  return {
+    priorityVersion: CORE_INTEREST_PRIORITY_VERSION,
+    evidenceMappingVersion: CORE_INTEREST_EVIDENCE_MAPPING_VERSION,
+    directDomainTags: DIRECT_DOMAIN_TAGS,
+    ambiguousTagPrimary: AMBIGUOUS_TAG_PRIMARY,
+    semanticSignalInterest: SEMANTIC_SIGNAL_INTEREST,
+  };
+}
 
 export function validateCoreInterestPriorityConfig(value: unknown): value is CoreInterestPriorityConfig {
   if (typeof value !== "object" || value === null) {

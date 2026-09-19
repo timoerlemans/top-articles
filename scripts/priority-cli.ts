@@ -16,13 +16,16 @@ import type { DocumentTagUpdate } from "./lib/priority-batch.js";
 import { createReadwiseRequester } from "./lib/readwise-request.js";
 import { parseReadwiseDocumentPage } from "./lib/external-schemas.js";
 import type { ReadwiseDocument } from "./lib/external-schemas.js";
-import type { PriorityOverridesConfig, PriorityJudgmentsConfig } from "./lib/readwise-priority-v6.js";
+import type { PriorityOverridesConfig, PriorityJudgmentsConfig } from "./lib/readwise-priority-v7.js";
 import { validatePriorityJudgments } from "./lib/priority-judgments.js";
+import { validateCoreInterestPriorityConfig } from "./lib/core-interest-priority.js";
+import type { CoreInterestPriorityConfig } from "./lib/core-interest-priority.js";
 
 const execFileAsync = promisify(execFile);
 const ROOT = resolve(dirname(fileURLToPath(import.meta.url)), "../..");
 const OVERRIDES_FILE = resolve(ROOT, "config/readwise-priority-overrides.json");
 const JUDGMENTS_FILE = resolve(ROOT, "config/readwise-priority-judgments.json");
+const CORE_INTEREST_FILE = resolve(ROOT, "config/readwise-core-interest-priorities.json");
 const RESPONSE_FIELDS = "title,summary,word_count,reading_time,published_date,saved_at,updated_at,category,location,reading_progress,tags,notes";
 const LOCATIONS = ["later", "new", "shortlist", "archive", "feed"] as const;
 type Location = (typeof LOCATIONS)[number];
@@ -103,13 +106,21 @@ async function loadJudgments(): Promise<PriorityJudgmentsConfig> {
   return value;
 }
 
+async function loadCoreInterestConfig(): Promise<CoreInterestPriorityConfig> {
+  const value: unknown = JSON.parse(await readFile(CORE_INTEREST_FILE, "utf8"));
+  if (!validateCoreInterestPriorityConfig(value)) {
+    throw new Error("Ongeldige config/readwise-core-interest-priorities.json");
+  }
+  return value;
+}
+
 async function createPlan(
   generatedAt: string | undefined,
   { cleanupAll = false }: { cleanupAll?: boolean } = {},
 ): Promise<{ plan: PriorityTagPlan; documents: ReadwiseDocument[] }> {
-  const [{ later, outside }, overrides, judgments] = await Promise.all([fetchLibrary({ cleanupAll }), loadOverrides(), loadJudgments()]);
+  const [{ later, outside }, overrides, judgments, coreInterestConfig] = await Promise.all([fetchLibrary({ cleanupAll }), loadOverrides(), loadJudgments(), loadCoreInterestConfig()]);
   return {
-    plan: buildPriorityTagPlan(later, outside, { generatedAt, overrides, judgments, cleanupAll }),
+    plan: buildPriorityTagPlan(later, outside, { generatedAt, overrides, judgments, coreInterestConfig, cleanupAll }),
     documents: [...later, ...outside],
   };
 }

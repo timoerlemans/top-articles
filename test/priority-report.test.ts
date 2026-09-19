@@ -25,6 +25,7 @@ test("comparison report measures judged top-100 overlap and rank movement per se
     },
   };
   const report = buildPriorityComparisonReport([first, second], judgments, "2026-09-19T00:00:00.000Z");
+  assert.equal(report.model, "readwise-priority-v7");
   const lees = report.sequences.lees;
   assert.equal(lees.currentTop100, 2);
   assert.equal(lees.judgedTop100, 2);

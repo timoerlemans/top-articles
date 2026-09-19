@@ -12,10 +12,13 @@ import type { ReadwiseDocument } from "./lib/external-schemas.js";
 import { buildEvidenceSnapshot, batchPriorityEvidence, validateJudgmentSet, type PriorityEvidenceSnapshot } from "./lib/priority-judge.js";
 import { validatePriorityJudgments, type PriorityJudgmentsConfig } from "./lib/priority-judgments.js";
 import { buildPriorityComparisonReport } from "./lib/priority-report.js";
+import { validateCoreInterestPriorityConfig } from "./lib/core-interest-priority.js";
+import type { CoreInterestPriorityConfig } from "./lib/core-interest-priority.js";
 
 const execFileAsync = promisify(execFile);
 const ROOT = resolve(dirname(fileURLToPath(import.meta.url)), "../..");
 const JUDGMENTS_FILE = resolve(ROOT, "config/readwise-priority-judgments.json");
+const CORE_INTEREST_FILE = resolve(ROOT, "config/readwise-core-interest-priorities.json");
 const DEFAULT_EVIDENCE_FILE = resolve(ROOT, ".tmp/readwise/priority-evidence.json");
 const DEFAULT_BATCH_DIR = resolve(ROOT, ".tmp/readwise/priority-judgment-batches");
 const RESPONSE_FIELDS = "title,summary,word_count,reading_time,published_date,saved_at,category,tags,notes,location";
@@ -101,6 +104,12 @@ async function readConfig(path = JUDGMENTS_FILE): Promise<PriorityJudgmentsConfi
   return value;
 }
 
+async function readCoreInterestConfig(): Promise<CoreInterestPriorityConfig> {
+  const value: unknown = JSON.parse(await readFile(CORE_INTEREST_FILE, "utf8"));
+  if (!validateCoreInterestPriorityConfig(value)) {throw new Error("Ongeldige config/readwise-core-interest-priorities.json");}
+  return value;
+}
+
 async function readEvidence(path = DEFAULT_EVIDENCE_FILE): Promise<PriorityEvidenceSnapshot> {
   const value: unknown = JSON.parse(await readFile(resolve(path), "utf8"));
   if (!value || typeof value !== "object" || (value as { version?: unknown }).version !== 1 || (value as { scope?: unknown }).scope !== "later") {
@@ -163,7 +172,8 @@ function reportMarkdown(report: ReturnType<typeof buildPriorityComparisonReport>
 async function reportCommand(): Promise<void> {
   const documents = await fetchLater();
   const config = await readConfig(option("--config", JUDGMENTS_FILE) ?? JUDGMENTS_FILE);
-  const report = buildPriorityComparisonReport(documents, config);
+  const coreInterestConfig = await readCoreInterestConfig();
+  const report = buildPriorityComparisonReport(documents, config, new Date().toISOString(), coreInterestConfig);
   const jsonPath = await writeJson(option("--output", ".tmp/readwise/priority-judgment-report.json") ?? ".tmp/readwise/priority-judgment-report.json", report);
   const markdownPath = await writeText(option("--markdown", ".tmp/readwise/priority-judgment-report.md") ?? ".tmp/readwise/priority-judgment-report.md", reportMarkdown(report));
   console.log(`Rapport: ${jsonPath}`);

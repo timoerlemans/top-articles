@@ -15,14 +15,15 @@ test("priority-export wordt voor de appdata in de browser geladen", async () => 
   assert.ok(scoreIndex < dataIndex && dataIndex < appIndex, "datascripts staan in de verkeerde volgorde");
 });
 
-test("score.js bevat het zelfstandige priority-v4 browsercontract", async () => {
+test("score.js bevat het zelfstandige priority-v7 browsercontract", async () => {
   const source = await readFile(new URL("../../data/score.js", import.meta.url), "utf8");
   const context: { window: Record<string, unknown> } = { window: {} };
   vm.runInNewContext(source, context);
 
   const priority = context.window.TOP_ARTICLE_PRIORITY;
   assert.ok(isGeneratedPriority(priority), "TOP_ARTICLE_PRIORITY bevat een ongeldig browsercontract");
-  assert.ok(["readwise-priority-v4", "readwise-priority-v6"].includes(priority.model));
+  assert.equal(priority.model, "readwise-priority-v7");
+  assert.ok("coreInterestPriority" in priority);
   assert.equal(priority.scope, "later");
   assert.equal("TOP_ARTICLE_SCORING" in context.window, false);
 });

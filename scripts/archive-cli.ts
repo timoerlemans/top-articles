@@ -21,13 +21,16 @@ import {
 import { createReadwiseRequester } from "./lib/readwise-request.js";
 import { parseReadwiseDocumentPage } from "./lib/external-schemas.js";
 import type { ReadwiseDocument } from "./lib/external-schemas.js";
-import type { PriorityJudgmentsConfig, PriorityOverridesConfig } from "./lib/readwise-priority-v6.js";
+import type { PriorityJudgmentsConfig, PriorityOverridesConfig } from "./lib/readwise-priority-v7.js";
 import { validatePriorityJudgments } from "./lib/priority-judgments.js";
+import { validateCoreInterestPriorityConfig } from "./lib/core-interest-priority.js";
+import type { CoreInterestPriorityConfig } from "./lib/core-interest-priority.js";
 
 const execFileAsync = promisify(execFile);
 const ROOT = resolve(dirname(fileURLToPath(import.meta.url)), "../..");
 const OVERRIDES_FILE = resolve(ROOT, "config/readwise-priority-overrides.json");
 const JUDGMENTS_FILE = resolve(ROOT, "config/readwise-priority-judgments.json");
+const CORE_INTEREST_FILE = resolve(ROOT, "config/readwise-core-interest-priorities.json");
 const DEFAULT_PLAN = ".tmp/readwise/archive-plan.json";
 const DEFAULT_JOURNAL = ".tmp/readwise/archive-journal.json";
 const RESPONSE_FIELDS = "title,summary,word_count,reading_time,published_date,saved_at,updated_at,category,location,reading_progress,tags,notes";
@@ -97,6 +100,12 @@ async function loadJudgments(): Promise<PriorityJudgmentsConfig> {
   return value;
 }
 
+async function loadCoreInterestConfig(): Promise<CoreInterestPriorityConfig> {
+  const value: unknown = JSON.parse(await readFile(CORE_INTEREST_FILE, "utf8"));
+  if (!validateCoreInterestPriorityConfig(value)) {throw new Error("Ongeldige config/readwise-core-interest-priorities.json");}
+  return value;
+}
+
 async function writeJson(path: string, value: unknown): Promise<string> {
   const absolute = resolve(path);
   await mkdir(dirname(absolute), { recursive: true });
@@ -154,8 +163,8 @@ function printPlan(plan: ArchivePlan, path: string): void {
 async function planCommand(): Promise<void> {
   const output = option("--output", DEFAULT_PLAN);
   if (!output) { throw new Error("Uitvoerpad ontbreekt"); }
-  const [documents, overrides, judgments] = await Promise.all([fetchLater(), loadOverrides(), loadJudgments()]);
-  const plan = buildArchivePlan(documents, overrides, { judgments });
+  const [documents, overrides, judgments, coreInterestConfig] = await Promise.all([fetchLater(), loadOverrides(), loadJudgments(), loadCoreInterestConfig()]);
+  const plan = buildArchivePlan(documents, overrides, { judgments, coreInterestConfig });
   const path = await writeJson(output, plan);
   printPlan(plan, path);
 }
@@ -166,7 +175,7 @@ async function applyCommand(): Promise<void> {
   if (!planPath || !confirmation) { throw new Error("Gebruik archive:apply met --plan <bestand> --confirm <plan-hash>"); }
   const plan = await readPlan(planPath);
   if (confirmation !== plan.planHash) { throw new Error("Bevestigingshash komt niet overeen met het archiveplan"); }
-  const [documents, overrides, judgments] = await Promise.all([fetchLater(), loadOverrides(), loadJudgments()]);
+  const [documents, overrides, judgments, coreInterestConfig] = await Promise.all([fetchLater(), loadOverrides(), loadJudgments(), loadCoreInterestConfig()]);
   const journalPath = option("--journal", DEFAULT_JOURNAL);
   if (!journalPath) { throw new Error("Journalpad ontbreekt"); }
   const journal = await readJournal(journalPath, plan.planHash);
@@ -175,12 +184,13 @@ async function applyCommand(): Promise<void> {
     currentDocuments: documents,
     overrides,
     judgments,
+    coreInterestConfig,
     journal,
     moveDocuments,
     writeJournal: async (next) => { await writeJson(journalPath, next); },
   });
   const remaining = await fetchLater();
-  verifyArchivePostcondition(plan, remaining, overrides, judgments);
+  verifyArchivePostcondition(plan, remaining, overrides, judgments, coreInterestConfig);
   result.verified = true;
   await writeJson(journalPath, result);
   console.log(`Archivering geverifieerd: ${String(result.completed.length)} documenten verplaatst.`);
@@ -190,8 +200,8 @@ async function verifyCommand(): Promise<void> {
   const planPath = option("--plan");
   if (!planPath) { throw new Error("Gebruik archive:verify met --plan <bestand>"); }
   const plan = await readPlan(planPath);
-  const [documents, overrides, judgments] = await Promise.all([fetchLater(), loadOverrides(), loadJudgments()]);
-  verifyArchivePostcondition(plan, documents, overrides, judgments);
+  const [documents, overrides, judgments, coreInterestConfig] = await Promise.all([fetchLater(), loadOverrides(), loadJudgments(), loadCoreInterestConfig()]);
+  verifyArchivePostcondition(plan, documents, overrides, judgments, coreInterestConfig);
   console.log("Archiefplan live geverifieerd: alle beschermde top-100-documenten staan nog in later.");
 }
 

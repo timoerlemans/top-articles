@@ -7,6 +7,7 @@ import {
   verifyArchivePostcondition,
   type ArchivePlan,
 } from "../scripts/lib/archive-plan.js";
+import type { CoreInterestPriorityConfig } from "../scripts/lib/core-interest-priority.js";
 import type { PriorityDocument } from "../scripts/lib/readwise-priority-v2.js";
 
 function doc(id: string, overrides: Partial<PriorityDocument> = {}): PriorityDocument {
@@ -54,6 +55,24 @@ test("changes the source fingerprint when an archive decision input changes", ()
 
   assert.notEqual(first.sourceFingerprint, changed.sourceFingerprint);
   assert.notEqual(first.planHash, changed.planHash);
+});
+
+test("archiveplan gebruikt v7 en bewaakt de kerninteresseconfiguratie", () => {
+  const config: CoreInterestPriorityConfig = {
+    version: 1,
+    manualOrder: ["agile", "adhd", "filosofie"],
+    weightByRank: [20, 16, 12, 10, 9, 8, 7, 6, 5, 4, 3, 2],
+  };
+  const changedConfig: CoreInterestPriorityConfig = {
+    ...config,
+    weightByRank: [21, 16, 12, 10, 9, 8, 7, 6, 5, 4, 3, 2],
+  };
+  const source = [doc("doc", { tags: { agile: {} } })];
+  const first = buildArchivePlan(source, { version: 1, items: {} }, { coreInterestConfig: config });
+  const changed = buildArchivePlan(source, { version: 1, items: {} }, { coreInterestConfig: changedConfig });
+
+  assert.equal(first.priorityModel, "readwise-priority-v7");
+  assert.notEqual(first.sourceFingerprint, changed.sourceFingerprint);
 });
 
 test("rejects a plan whose candidate and protected sets overlap", () => {

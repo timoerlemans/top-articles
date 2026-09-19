@@ -1,6 +1,7 @@
 import { assertArchivePlanFresh, type ArchivePlan } from "./archive-plan.js";
+import type { CoreInterestPriorityConfig } from "./core-interest-priority.js";
 import type { PriorityDocument } from "./readwise-priority-v2.js";
-import type { PriorityJudgmentsConfig, PriorityOverridesConfig } from "./readwise-priority-v6.js";
+import type { PriorityJudgmentsConfig, PriorityOverridesConfig } from "./readwise-priority-v7.js";
 import type { ContentJudgment } from "./priority-judgments.js";
 
 export const ARCHIVE_BATCH_SIZE = 50;
@@ -48,6 +49,7 @@ export async function applyArchivePlan({
   currentDocuments,
   overrides,
   judgments,
+  coreInterestConfig,
   journal,
   moveDocuments,
   writeJournal,
@@ -60,6 +62,7 @@ export async function applyArchivePlan({
   currentDocuments: readonly PriorityDocument[];
   overrides: PriorityOverridesConfig;
   judgments?: PriorityJudgmentsConfig | Record<string, ContentJudgment>;
+  coreInterestConfig?: CoreInterestPriorityConfig;
   journal: ArchiveJournal;
   moveDocuments: MoveArchiveBatch;
   writeJournal: WriteArchiveJournal;
@@ -81,7 +84,7 @@ export async function applyArchivePlan({
   if (journal.completed.some((id) => !candidateIds.has(id))) {
     throw new Error("Archivejournal bevat een document dat niet in het plan staat");
   }
-  assertArchivePlanFresh(plan, currentDocuments, overrides, judgments);
+  assertArchivePlanFresh(plan, currentDocuments, overrides, judgments, coreInterestConfig);
 
   const completed = new Set(journal.completed);
   const pending = plan.candidateDocumentIds.filter((id) => !completed.has(id));

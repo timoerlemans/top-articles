@@ -1,8 +1,13 @@
 import { createHash } from "node:crypto";
 
 import { FAMILY_DEFINITIONS } from "./unified-lists.js";
-import { buildPriorityExport } from "./readwise-priority-v6.js";
-import type { PriorityJudgmentsConfig, PriorityOverridesConfig } from "./readwise-priority-v6.js";
+import { buildPriorityExport, PRIORITY_MODEL } from "./readwise-priority-v7.js";
+import type { PriorityJudgmentsConfig, PriorityOverridesConfig } from "./readwise-priority-v7.js";
+import {
+  coreInterestFingerprintInput,
+  defaultCoreInterestPriorityConfig,
+} from "./core-interest-priority.js";
+import type { CoreInterestPriorityConfig } from "./core-interest-priority.js";
 import type { ContentJudgment } from "./priority-judgments.js";
 import type { PriorityDocument } from "./readwise-priority-v2.js";
 import { tagNames } from "./priority-tag-plan.js";
@@ -30,7 +35,7 @@ export interface ArchivePlanSummary {
 export interface ArchivePlan {
   generatedAt: string;
   model: typeof ARCHIVE_PLAN_MODEL;
-  priorityModel: "readwise-priority-v6";
+  priorityModel: typeof PRIORITY_MODEL;
   scope: "later";
   sourceFingerprint: string;
   summary: ArchivePlanSummary;
@@ -78,11 +83,12 @@ function bodyForHash(plan: Omit<ArchivePlan, "planHash">): Omit<ArchivePlan, "pl
 export function buildArchivePlan(
   documents: readonly PriorityDocument[],
   overrides: PriorityOverridesConfig,
-  options: { generatedAt?: string; judgments?: PriorityJudgmentsConfig | Record<string, ContentJudgment> } = {},
+  options: { generatedAt?: string; judgments?: PriorityJudgmentsConfig | Record<string, ContentJudgment>; coreInterestConfig?: CoreInterestPriorityConfig } = {},
 ): ArchivePlan {
   const generatedAt = options.generatedAt ?? new Date().toISOString();
   const later = activeLater(documents);
-  const priority = buildPriorityExport(later, { generatedAt, overrides, judgments: options.judgments });
+  const coreInterestConfig = options.coreInterestConfig ?? defaultCoreInterestPriorityConfig();
+  const priority = buildPriorityExport(later, { generatedAt, overrides, judgments: options.judgments, coreInterestConfig });
   const protectedByFamily = new Map<string, string[]>();
   const protectedIds = new Set<string>();
 
@@ -120,7 +126,16 @@ export function buildArchivePlan(
     model: ARCHIVE_PLAN_MODEL,
     priorityModel: priority.model,
     scope: "later",
-    sourceFingerprint: hash({ documents: canonicalDocuments(later), overrides }),
+    sourceFingerprint: hash({
+      documents: canonicalDocuments(later),
+      overrides,
+      coreInterestConfig: {
+        version: coreInterestConfig.version,
+        manualOrder: [...coreInterestConfig.manualOrder],
+        weightByRank: [...coreInterestConfig.weightByRank],
+      },
+      coreInterestMapping: coreInterestFingerprintInput(),
+    }),
     summary: {
       documents: later.length,
       protected: protectedDocumentIds.length,
@@ -140,7 +155,7 @@ export function validateArchivePlan(plan: unknown): plan is ArchivePlan {
   if (!isRecord(plan)) {
     throw new Error("Ongeldig archive-planmodel");
   }
-  if (plan.model !== ARCHIVE_PLAN_MODEL || plan.priorityModel !== "readwise-priority-v6" || plan.scope !== "later") {
+  if (plan.model !== ARCHIVE_PLAN_MODEL || plan.priorityModel !== PRIORITY_MODEL || plan.scope !== "later") {
     throw new Error("Ongeldig archive-planmodel of scope");
   }
   if (typeof plan.generatedAt !== "string" || typeof plan.sourceFingerprint !== "string" || !/^[a-f0-9]{64}$/.test(plan.sourceFingerprint)) {
@@ -196,8 +211,11 @@ export function assertArchivePlanFresh(
   currentDocuments: readonly PriorityDocument[],
   overrides: PriorityOverridesConfig,
   judgments?: PriorityJudgmentsConfig | Record<string, ContentJudgment>,
+  coreInterestConfig: CoreInterestPriorityConfig = defaultCoreInterestPriorityConfig(),
 ): ArchivePlan {
-  const freshOptions = judgments === undefined ? { generatedAt: plan.generatedAt } : { generatedAt: plan.generatedAt, judgments };
+  const freshOptions = judgments === undefined
+    ? { generatedAt: plan.generatedAt, coreInterestConfig }
+    : { generatedAt: plan.generatedAt, judgments, coreInterestConfig };
   const fresh = buildArchivePlan(currentDocuments, overrides, freshOptions);
   if (fresh.sourceFingerprint !== plan.sourceFingerprint || fresh.planHash !== plan.planHash) {
     throw new Error("Archivebron is gewijzigd; maak een nieuw archiveplan");
@@ -210,6 +228,7 @@ export function verifyArchivePostcondition(
   remainingDocuments: readonly PriorityDocument[],
   overrides: PriorityOverridesConfig,
   judgments?: PriorityJudgmentsConfig | Record<string, ContentJudgment>,
+  coreInterestConfig: CoreInterestPriorityConfig = defaultCoreInterestPriorityConfig(),
 ): true {
   const remainingIds = new Set(
     activeLater(remainingDocuments)
@@ -222,7 +241,9 @@ export function verifyArchivePostcondition(
   if (plan.protectedDocumentIds.some((id) => !remainingIds.has(id))) {
     throw new Error("Een beschermd top-100-document ontbreekt uit later");
   }
-  const freshOptions = judgments === undefined ? { generatedAt: plan.generatedAt } : { generatedAt: plan.generatedAt, judgments };
+  const freshOptions = judgments === undefined
+    ? { generatedAt: plan.generatedAt, coreInterestConfig }
+    : { generatedAt: plan.generatedAt, judgments, coreInterestConfig };
   const fresh = buildArchivePlan(remainingDocuments, overrides, freshOptions);
   const expectedFamilies = JSON.stringify(plan.families.map(({ id, protectedDocumentIds }) => ({ id, protectedDocumentIds })));
   const actualFamilies = JSON.stringify(fresh.families.map(({ id, protectedDocumentIds }) => ({ id, protectedDocumentIds })));

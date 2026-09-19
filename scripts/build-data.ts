@@ -8,8 +8,10 @@ import { mkdir, readFile, writeFile } from "node:fs/promises";
 import { fileURLToPath } from "node:url";
 import { dirname, join, resolve } from "node:path";
 import { z } from "zod";
-import { buildPriorityExport } from "./lib/readwise-priority-v6.js";
-import type { PriorityExportItem, PriorityOverridesConfig } from "./lib/readwise-priority-v6.js";
+import { buildPriorityExport } from "./lib/readwise-priority-v7.js";
+import type { PriorityExportItem, PriorityOverridesConfig } from "./lib/readwise-priority-v7.js";
+import { validateCoreInterestPriorityConfig } from "./lib/core-interest-priority.js";
+import type { CoreInterestPriorityConfig } from "./lib/core-interest-priority.js";
 import { validatePriorityJudgments } from "./lib/priority-judgments.js";
 import { matchedDomainsFromTags } from "./lib/readwise-priority-v2.js";
 import { FAMILY_DEFINITIONS, buildUnifiedLists } from "./lib/unified-lists.js";
@@ -28,6 +30,7 @@ const OUT_FILE = join(ROOT, "data", "data.js");
 const PRIORITY_OUT_FILE = join(ROOT, "data", "score.js");
 const OVERRIDES_FILE = join(ROOT, "config", "readwise-priority-overrides.json");
 const JUDGMENTS_FILE = join(ROOT, "config", "readwise-priority-judgments.json");
+const CORE_INTEREST_FILE = join(ROOT, "config", "readwise-core-interest-priorities.json");
 
 const RESPONSE_FIELDS =
   "title,site_name,summary,word_count,reading_time,published_date,saved_at,image_url,source_url,url,category,tags,notes";
@@ -188,7 +191,12 @@ async function main() {
     throw new Error("Ongeldige config/readwise-priority-judgments.json");
   }
   const judgments = judgmentValue;
-  const priority = buildPriorityExport(laterDocs, { generatedAt, overrides, judgments });
+  const coreInterestValue: unknown = JSON.parse(await readFile(CORE_INTEREST_FILE, "utf8"));
+  if (!validateCoreInterestPriorityConfig(coreInterestValue)) {
+    throw new Error("Ongeldige config/readwise-core-interest-priorities.json");
+  }
+  const coreInterestConfig: CoreInterestPriorityConfig = coreInterestValue;
+  const priority = buildPriorityExport(laterDocs, { generatedAt, overrides, judgments, coreInterestConfig });
   const baseCatalog = laterDocs.map((doc) => toItem(doc, null));
   type RankedCatalogItem = CatalogItem & UnifiedCatalogEntry & { priority: PriorityExportItem };
   const rankedCatalog: RankedCatalogItem[] = baseCatalog.map((item) => {
