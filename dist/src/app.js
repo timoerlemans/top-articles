@@ -902,6 +902,125 @@ registerServiceWorker();
     function prioritySequenceLabel(sequenceId) {
         return PRIORITY_SEQUENCES.find(({ id }) => id === sequenceId)?.label ?? sequenceId;
     }
+    const PRIORITY_INTEREST_LABELS = {
+        adhd: "ADHD & neurodivergentie",
+        agile: "Agile",
+        ai: "AI",
+        "ai-ethics": "AI-ethiek",
+        "arts-culture": "kunst & cultuur",
+        "behavioral-psychology": "gedragspsychologie",
+        ethics: "ethiek",
+        existentialism: "existentialisme",
+        facilitation: "facilitatie",
+        fiction: "fictie",
+        "flow-delivery": "flow & delivery",
+        "front-end": "front-end",
+        games: "games",
+        history: "geschiedenis",
+        learning: "leren",
+        "organizational-behavior": "organisatiegedrag",
+        "organizational-culture": "organisatiecultuur",
+        "parenting-care": "ouderschap & zorg",
+        "personal-growth": "persoonlijke groei",
+        philosophy: "filosofie",
+        "political-philosophy": "politieke filosofie",
+        research: "onderzoek",
+        scrum: "scrum",
+        "social-psychology": "sociale psychologie",
+        sociology: "sociologie",
+        "software-development": "softwareontwikkeling",
+        "team-coaching": "teamcoaching",
+        "team-dynamics": "teamdynamiek",
+        technology: "technologie",
+        "totalitarianism-fascism": "totalitarisme & fascisme",
+        writing: "schrijven",
+    };
+    const PRIORITY_CONFIDENCE_LABELS = {
+        high: "Veel vertrouwen",
+        medium: "Redelijk vertrouwen",
+        low: "Laag vertrouwen",
+    };
+    function priorityEvidenceCodes(priority) {
+        return Object.values(priority.rationale).flatMap((reasons) => (reasons ?? []).flatMap((reason) => {
+            const match = reason.match(/^Bewijs:\s*(.+?)\.?$/i);
+            const evidence = match?.[1];
+            return evidence ? evidence.split(",").map((code) => code.trim()).filter(Boolean) : [];
+        }));
+    }
+    function hasPriorityEvidence(priority, code) {
+        return priorityEvidenceCodes(priority).includes(code);
+    }
+    function priorityInterestLabels(priority) {
+        return priorityEvidenceCodes(priority)
+            .filter((code) => code.startsWith("interest:"))
+            .map((code) => {
+            const interest = code.slice("interest:".length);
+            return PRIORITY_INTEREST_LABELS[interest] ?? interest.replace(/[-_]+/g, " ");
+        });
+    }
+    function priorityComponentExplanation(key, value, priority, item) {
+        if (key === "relevantie") {
+            const interests = priorityInterestLabels(priority);
+            return interests.length > 0
+                ? `Sterke aansluiting op je interesses: ${interests.join(", ")}.`
+                : "Inhoudelijke aansluiting op de geselecteerde interessegebieden.";
+        }
+        if (key === "substantie") {
+            if (hasPriorityEvidence(priority, "substantive-argument-or-synthesis")) {
+                return "Bevat een uitgewerkt argument of een betekenisvolle synthese.";
+            }
+            if (hasPriorityEvidence(priority, "thin-or-fragmentary-content")) {
+                return "De inhoud is relatief dun of fragmentarisch.";
+            }
+            return "De inhoudelijke diepgang is meegewogen in de beoordeling.";
+        }
+        if (key === "duurzaamheid") {
+            return hasPriorityEvidence(priority, "reusable-or-structural-insight")
+                ? "Bevat inzichten die ook op langere termijn bruikbaar blijven."
+                : "De houdbaarheid van de inzichten is meegewogen in de beoordeling.";
+        }
+        if (key === "bruikbaarheid") {
+            return hasPriorityEvidence(priority, "clear-personal-or-professional-payoff")
+                ? "Heeft een duidelijke persoonlijke of professionele opbrengst."
+                : "De praktische bruikbaarheid is meegewogen in de beoordeling.";
+        }
+        if (key === "leeskans") {
+            return typeof item.readingMinutes === "number"
+                ? `Geschatte leestijd: ${item.readingMinutes} minuten.`
+                : "De geschatte leestijd is meegewogen in de beoordeling.";
+        }
+        if (key === "nederlandse_taal") {
+            return "Dit is een Nederlandstalig document.";
+        }
+        if (key === "aftrek" && value < 0) {
+            return "Automatische aftrek vanwege een inhouds- of formatkenmerk.";
+        }
+        return "Geen afzonderlijke bijdrage aan de score.";
+    }
+    function priorityJudgmentDescription(priority) {
+        const source = priority.judgmentSource === "label"
+            ? "Semantisch beoordeeld"
+            : priority.judgmentSource === "fallback"
+                ? "Voorlopige automatische inschatting"
+                : "Automatische score";
+        const confidence = PRIORITY_CONFIDENCE_LABELS[priority.judgmentConfidence ?? ""] ?? "Vertrouwen niet opgegeven";
+        const basis = priority.judgmentSource === "label"
+            ? "Gebaseerd op titel, samenvatting, notities, highlights en volledige tekst."
+            : "Gebaseerd op de beschikbare metadata; een semantische beoordeling ontbreekt nog.";
+        return `${source} · ${confidence}. ${basis}`;
+    }
+    function priorityTierLabel(tier) {
+        if (tier === "hoog") {
+            return "hoge prioriteit";
+        }
+        if (tier === "midden") {
+            return "gemiddelde prioriteit";
+        }
+        if (tier === "laag") {
+            return "lage prioriteit";
+        }
+        return tier;
+    }
     function buildPriorityDetails(item) {
         const priority = priorityFor(item);
         if (!priority) {
@@ -910,53 +1029,83 @@ registerServiceWorker();
         const details = document.createElement("details");
         details.className = "priority-breakdown";
         const summary = document.createElement("summary");
-        summary.textContent = `Prioriteitsscore ${priority.score} · tier ${priority.tier}`;
+        summary.textContent = `Prioriteitsscore ${priority.score} · ${priorityTierLabel(priority.tier)}`;
         details.appendChild(summary);
         const intro = document.createElement("p");
         intro.className = "priority-order-note";
-        intro.textContent = "Een hogere score staat altijd hoger. Alleen bij exact gelijke score staat het oudste opgeslagen artikel vooraan.";
+        intro.textContent = "Deze score bepaalt de volgorde binnen de lijst. Bij gelijke scores staat het oudste opgeslagen artikel eerst.";
         details.appendChild(intro);
         const total = document.createElement("p");
         total.className = "priority-total";
         const correction = priority.adjustment > 0 ? `+${priority.adjustment}` : String(priority.adjustment ?? 0);
         total.textContent = priority.adjustment
-            ? `Basisscore ${priority.baseScore} · handmatige correctie ${correction} (${priority.adjustmentReason}) · eindscore ${priority.score}`
-            : `Basisscore en eindscore ${priority.score}`;
+            ? `Basisscore vóór persoonlijke correctie: ${priority.baseScore}. Correctie: ${correction}${priority.adjustmentReason ? ` (${priority.adjustmentReason})` : ""}. Eindscore: ${priority.score}.`
+            : `Basisscore: ${priority.baseScore}. Geen persoonlijke correctie. Eindscore: ${priority.score}.`;
         details.appendChild(total);
-        const judgment = document.createElement("p");
-        judgment.className = "priority-order-note";
-        judgment.textContent = `Inhoudsbeoordeling: ${priority.judgmentSource === "label" ? "gelabeld" : "fallback"} · confidence ${priority.judgmentConfidence}.`;
-        details.appendChild(judgment);
+        const componentsHeading = document.createElement("h4");
+        componentsHeading.className = "priority-section-title";
+        componentsHeading.textContent = "Waar komt de score vandaan?";
+        details.appendChild(componentsHeading);
         const components = document.createElement("dl");
         components.className = "priority-components";
         for (const key of PRIORITY_COMPONENT_KEYS) {
-            const label = PRIORITY_COMPONENT_LABELS[key];
-            const term = document.createElement("dt");
-            term.textContent = label;
-            const description = document.createElement("dd");
             const value = priority.components[key] ?? 0;
-            const scoreText = value > 0 ? `+${value}` : String(value);
-            const reasons = priority.rationale[key] ?? [];
-            description.textContent = reasons.length > 0 ? `${scoreText} — ${reasons.join(" ")}` : `${scoreText} — niet van toepassing`;
+            if (value === 0) {
+                continue;
+            }
+            const term = document.createElement("dt");
+            term.textContent = PRIORITY_COMPONENT_LABELS[key];
+            const description = document.createElement("dd");
+            const score = document.createElement("span");
+            score.className = "priority-component-score";
+            score.textContent = value > 0 ? `+${value}` : String(value);
+            const explanation = document.createElement("span");
+            explanation.className = "priority-component-description";
+            explanation.textContent = priorityComponentExplanation(key, value, priority, item);
+            description.append(score, explanation);
             components.append(term, description);
         }
-        details.appendChild(components);
+        if (components.childElementCount === 0) {
+            const empty = document.createElement("p");
+            empty.className = "priority-order-note";
+            empty.textContent = "Er zijn geen afzonderlijke positieve scorecomponenten.";
+            details.appendChild(empty);
+        }
+        else {
+            details.appendChild(components);
+        }
+        const judgmentHeading = document.createElement("h4");
+        judgmentHeading.className = "priority-section-title";
+        judgmentHeading.textContent = "Inhoudelijke beoordeling";
+        details.appendChild(judgmentHeading);
+        const judgment = document.createElement("p");
+        judgment.className = "priority-judgment";
+        judgment.textContent = priorityJudgmentDescription(priority);
+        details.appendChild(judgment);
         const positions = Object.entries(priority.positions ?? {});
         if (positions.length > 0) {
-            const p = document.createElement("p");
-            p.className = "priority-positions";
-            p.textContent = `Aanbevolen posities: ${positions.map(([sequence, position]) => `${prioritySequenceLabel(sequence)} #${position}`).join(" · ")}`;
-            details.appendChild(p);
-        }
-        const drift = positions.filter(([sequence, position]) => priority.actualPositions?.[sequence] !== position);
-        if (drift.length > 0) {
-            const p = document.createElement("p");
-            p.className = "priority-sync-warning";
-            p.textContent = `Niet gesynchroniseerd: ${drift.map(([sequence, desired]) => {
+            const positionsHeading = document.createElement("h4");
+            positionsHeading.className = "priority-section-title";
+            positionsHeading.textContent = "Positie in Readwise-lijsten";
+            details.appendChild(positionsHeading);
+            const list = document.createElement("ul");
+            list.className = "priority-positions";
+            for (const [sequence, desired] of positions) {
                 const actual = priority.actualPositions?.[sequence];
-                return `${prioritySequenceLabel(sequence)} gewenst #${desired}, actueel ${Number.isInteger(actual) ? `#${actual}` : "geen tag"}`;
-            }).join(" · ")}`;
-            details.appendChild(p);
+                const entry = document.createElement("li");
+                entry.textContent = Number.isInteger(actual) && actual === desired
+                    ? `${prioritySequenceLabel(sequence)}: volgens de score én Readwise #${desired}.`
+                    : `${prioritySequenceLabel(sequence)}: volgens de score #${desired}; huidige Readwise-positie ${Number.isInteger(actual) ? `#${actual}` : "geen positie"}.`;
+                list.appendChild(entry);
+            }
+            details.appendChild(list);
+            const drift = positions.filter(([sequence, position]) => priority.actualPositions?.[sequence] !== position);
+            const status = document.createElement("p");
+            status.className = drift.length > 0 ? "priority-sync-status priority-sync-warning" : "priority-sync-status priority-sync-ok";
+            status.textContent = drift.length > 0
+                ? "De Readwise-tags lopen nog achter op deze berekende volgorde."
+                : "De berekende volgorde is gesynchroniseerd met Readwise.";
+            details.appendChild(status);
         }
         return details;
     }

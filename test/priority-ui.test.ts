@@ -122,6 +122,22 @@ test("de browsercode gebruikt alleen Prioriteitsscore", async () => {
   assert.match(source, /prioritySequence/);
 });
 
+test("de score-uitklapper vertaalt technische prioriteitsdata naar leesbare uitleg", async () => {
+  const source = await readFile(new URL("../src/app.js", import.meta.url), "utf8");
+  const css = await readFile(new URL("../../styles.css", import.meta.url), "utf8");
+
+  assert.match(source, /function priorityComponentExplanation\(/);
+  assert.match(source, /Semantisch beoordeeld/);
+  assert.match(source, /Veel vertrouwen/);
+  assert.match(source, /Sterke aansluiting op je interesses/);
+  assert.match(source, /volgens de score/i);
+  assert.match(source, /huidige Readwise-positie/i);
+  assert.doesNotMatch(source, /confidence \$\{priority\.judgmentConfidence\}/);
+  assert.doesNotMatch(source, /reasons\.join\(" "\)/);
+  assert.match(css, /\.priority-component-score/);
+  assert.match(css, /\.priority-sync-status/);
+});
+
 test("de pagina bevat toegankelijke responsieve menu- en sorteringsbediening", async () => {
   const html = await readFile(new URL("../../index.html", import.meta.url), "utf8");
 
