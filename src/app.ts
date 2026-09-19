@@ -1,6 +1,6 @@
 import { parseTopArticlePriority, parseTopArticles } from "./types/browser-data.js";
 import type { ArticleFamily, ArticleItem, ArticleList, PriorityItem } from "./types/browser-data.js";
-import type { PrioritySequence } from "../scripts/lib/readwise-priority-v3.js";
+import type { PrioritySequence } from "../scripts/lib/readwise-priority-v5.js";
 
 type ListSize = "top-10" | "top-100";
 type View = "toplists" | "discover" | "priority";
@@ -141,9 +141,10 @@ registerServiceWorker();
   const PRIORITY_SEQUENCES = PRIORITY_SEQUENCE_DISPLAY_ORDER.map((id) => ({ id, label: PRIORITY_SEQUENCE_LABELS[id] }));
 
   const PRIORITY_COMPONENT_LABELS = {
-    kerninteresse: "Kerninteresse",
-    diepgang: "Diepgang",
-    persoonlijke_bruikbaarheid: "Persoonlijke bruikbaarheid",
+    relevantie: "Inhoudelijke relevantie",
+    substantie: "Substantie",
+    duurzaamheid: "Duurzaamheid",
+    bruikbaarheid: "Bruikbaarheid",
     leeskans: "Leeskans",
     onderscheidende_duurzame_waarde: "Duurzame waarde",
     nederlandse_taal: "Nederlandse taal",
@@ -151,7 +152,7 @@ registerServiceWorker();
     aftrek: "Aftrek",
   };
   const PRIORITY_COMPONENT_KEYS: readonly (keyof PriorityItem["components"])[] = [
-    "kerninteresse", "diepgang", "persoonlijke_bruikbaarheid", "leeskans", "onderscheidende_duurzame_waarde", "nederlandse_taal", "curatie", "aftrek",
+    "relevantie", "substantie", "duurzaamheid", "bruikbaarheid", "leeskans", "nederlandse_taal", "curatie", "aftrek",
   ];
 
   const DEFAULT_SORT_DIR: Record<SortField, SortDirection> = { score: "desc", position: "asc", saved: "desc", published: "desc", title: "asc" };
@@ -948,6 +949,11 @@ registerServiceWorker();
       ? `Basisscore ${priority.baseScore} · handmatige correctie ${correction} (${priority.adjustmentReason}) · eindscore ${priority.score}`
       : `Basisscore en eindscore ${priority.score}`;
     details.appendChild(total);
+
+    const judgment = document.createElement("p");
+    judgment.className = "priority-order-note";
+    judgment.textContent = `Inhoudsbeoordeling: ${priority.judgmentSource === "label" ? "gelabeld" : "fallback"} · confidence ${priority.judgmentConfidence}.`;
+    details.appendChild(judgment);
 
     const components = document.createElement("dl");
     components.className = "priority-components";

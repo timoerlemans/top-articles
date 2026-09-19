@@ -63,8 +63,9 @@ historische aliassen worden naar canonieke tags gemapt in `scripts/lib/readwise-
 
 ### Scoring & reeksen (`scripts/lib/readwise-priority-v2.ts` + `-v3.ts`)
 
-- De huidige scorelogica is model `readwise-priority-v4`: `kerninteresse` telt uitsluitend expliciete,
-  canonieke interesse-tags en geeft 20 punten per tag; er is geen bovengrens voor de score.
+- De huidige scorelogica is model `readwise-priority-v5`: een versioneerde judgment-configuratie
+  beoordeelt relevantie, substantie, duurzaamheid en bruikbaarheid, met kleine reeks-fitcorrecties.
+  Ontbrekende judgments gebruiken een expliciet low-confidence fallback-profiel.
 - De v3-bestandslaag wrapt de basisscore en voegt toe: handmatige correcties uit
   `config/readwise-priority-overrides.json` (`{ version: 1, items: { "<doc-id>": { adjustment, reason } } }`,
   reden verplicht bij niet-nul adjustment), tier-indeling (hoog ≥70, midden ≥40, laag <40), en
@@ -126,7 +127,7 @@ strict TypeScript, gecompileerd door `tsc` zonder bundler-stap. `index.html` laa
 `data/score.js` en `data/data.js` (de gegenereerde globals), en pas daarna `dist/src/app.js` als
 `<script type="module">`. `app.ts` valideert die twee ongetypeerde globals bij het laden via de
 parsers/type-guards in `src/types/browser-data.ts` (`parseTopArticles`/`parseTopArticlePriority`,
-met een modelversie-check op `readwise-priority-v4`/scope `later`), en rendert daarna families,
+met een modelversie-check op `readwise-priority-v5`/scope `later`), en rendert daarna families,
 catalogus, ontdeklijsten en filters/sortering direct in de DOM. Filterstatus wordt gepersisteerd
 als URL-queryparams (niet gewist bij navigatie). `styles.css` staat hier los van en heeft geen
 relatie met de TS-compilatie.

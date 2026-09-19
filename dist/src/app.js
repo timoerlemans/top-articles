@@ -121,9 +121,10 @@ registerServiceWorker();
     ];
     const PRIORITY_SEQUENCES = PRIORITY_SEQUENCE_DISPLAY_ORDER.map((id) => ({ id, label: PRIORITY_SEQUENCE_LABELS[id] }));
     const PRIORITY_COMPONENT_LABELS = {
-        kerninteresse: "Kerninteresse",
-        diepgang: "Diepgang",
-        persoonlijke_bruikbaarheid: "Persoonlijke bruikbaarheid",
+        relevantie: "Inhoudelijke relevantie",
+        substantie: "Substantie",
+        duurzaamheid: "Duurzaamheid",
+        bruikbaarheid: "Bruikbaarheid",
         leeskans: "Leeskans",
         onderscheidende_duurzame_waarde: "Duurzame waarde",
         nederlandse_taal: "Nederlandse taal",
@@ -131,7 +132,7 @@ registerServiceWorker();
         aftrek: "Aftrek",
     };
     const PRIORITY_COMPONENT_KEYS = [
-        "kerninteresse", "diepgang", "persoonlijke_bruikbaarheid", "leeskans", "onderscheidende_duurzame_waarde", "nederlandse_taal", "curatie", "aftrek",
+        "relevantie", "substantie", "duurzaamheid", "bruikbaarheid", "leeskans", "nederlandse_taal", "curatie", "aftrek",
     ];
     const DEFAULT_SORT_DIR = { score: "desc", position: "asc", saved: "desc", published: "desc", title: "asc" };
     const SORT_FIELDS = ["score", "position", "saved", "published", "title"];
@@ -923,6 +924,10 @@ registerServiceWorker();
             ? `Basisscore ${priority.baseScore} · handmatige correctie ${correction} (${priority.adjustmentReason}) · eindscore ${priority.score}`
             : `Basisscore en eindscore ${priority.score}`;
         details.appendChild(total);
+        const judgment = document.createElement("p");
+        judgment.className = "priority-order-note";
+        judgment.textContent = `Inhoudsbeoordeling: ${priority.judgmentSource === "label" ? "gelabeld" : "fallback"} · confidence ${priority.judgmentConfidence}.`;
+        details.appendChild(judgment);
         const components = document.createElement("dl");
         components.className = "priority-components";
         for (const key of PRIORITY_COMPONENT_KEYS) {

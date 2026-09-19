@@ -16,11 +16,13 @@ import type { DocumentTagUpdate } from "./lib/priority-batch.js";
 import { createReadwiseRequester } from "./lib/readwise-request.js";
 import { parseReadwiseDocumentPage } from "./lib/external-schemas.js";
 import type { ReadwiseDocument } from "./lib/external-schemas.js";
-import type { PriorityOverridesConfig } from "./lib/readwise-priority-v3.js";
+import type { PriorityOverridesConfig, PriorityJudgmentsConfig } from "./lib/readwise-priority-v5.js";
+import { validatePriorityJudgments } from "./lib/priority-judgments.js";
 
 const execFileAsync = promisify(execFile);
 const ROOT = resolve(dirname(fileURLToPath(import.meta.url)), "../..");
 const OVERRIDES_FILE = resolve(ROOT, "config/readwise-priority-overrides.json");
+const JUDGMENTS_FILE = resolve(ROOT, "config/readwise-priority-judgments.json");
 const RESPONSE_FIELDS = "title,summary,word_count,reading_time,published_date,saved_at,updated_at,category,location,reading_progress,tags,notes";
 const LOCATIONS = ["later", "new", "shortlist", "archive", "feed"] as const;
 type Location = (typeof LOCATIONS)[number];
@@ -93,13 +95,21 @@ async function loadOverrides(): Promise<PriorityOverridesConfig> {
   return overridesSchema.parse(JSON.parse(await readFile(resolve(path), "utf8")));
 }
 
+async function loadJudgments(): Promise<PriorityJudgmentsConfig> {
+  const value: unknown = JSON.parse(await readFile(JUDGMENTS_FILE, "utf8"));
+  if (!validatePriorityJudgments(value)) {
+    throw new Error("Ongeldige config/readwise-priority-judgments.json");
+  }
+  return value;
+}
+
 async function createPlan(
   generatedAt: string | undefined,
   { cleanupAll = false }: { cleanupAll?: boolean } = {},
 ): Promise<{ plan: PriorityTagPlan; documents: ReadwiseDocument[] }> {
-  const [{ later, outside }, overrides] = await Promise.all([fetchLibrary({ cleanupAll }), loadOverrides()]);
+  const [{ later, outside }, overrides, judgments] = await Promise.all([fetchLibrary({ cleanupAll }), loadOverrides(), loadJudgments()]);
   return {
-    plan: buildPriorityTagPlan(later, outside, { generatedAt, overrides, cleanupAll }),
+    plan: buildPriorityTagPlan(later, outside, { generatedAt, overrides, judgments, cleanupAll }),
     documents: [...later, ...outside],
   };
 }

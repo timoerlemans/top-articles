@@ -26,9 +26,13 @@ function isPriorityItem(value) {
     if (!isRecord(value) || typeof value.baseScore !== "number" || typeof value.adjustment !== "number" || typeof value.score !== "number" || typeof value.tier !== "string" || !isNullableString(value.adjustmentReason)) {
         return false;
     }
-    return isRecord(value.components) && Object.values(value.components).every((component) => typeof component === "number")
+    const legacy = value.judgmentSource === undefined && value.judgmentConfidence === undefined && value.sequenceScores === undefined;
+    return (legacy || (value.judgmentSource === "label" || value.judgmentSource === "fallback")
+        && ["high", "medium", "low"].includes(String(value.judgmentConfidence)))
+        && isRecord(value.components) && Object.values(value.components).every((component) => typeof component === "number")
         && isRecord(value.rationale) && Object.values(value.rationale).every((items) => Array.isArray(items) && items.every((item) => typeof item === "string"))
         && Array.isArray(value.sequences) && value.sequences.every((sequence) => typeof sequence === "string")
+        && (legacy || (isRecord(value.sequenceScores) && Object.values(value.sequenceScores).every((score) => typeof score === "number")))
         && isRecord(value.positions) && Object.values(value.positions).every((position) => Number.isInteger(position))
         && isRecord(value.actualPositions) && Object.values(value.actualPositions).every((position) => Number.isInteger(position));
 }
@@ -41,7 +45,7 @@ function isTopArticles(value) {
     return families && value.catalog.items.every(isArticleItem) && derivedLists;
 }
 function isTopArticlePriority(value) {
-    if (!isRecord(value) || typeof value.generatedAt !== "string" || value.model !== "readwise-priority-v4" || value.scope !== "later" || !isRecord(value.items)) {
+    if (!isRecord(value) || typeof value.generatedAt !== "string" || (value.model !== "readwise-priority-v4" && value.model !== "readwise-priority-v5") || value.scope !== "later" || !isRecord(value.items)) {
         return false;
     }
     return Object.values(value.items).every(isPriorityItem);

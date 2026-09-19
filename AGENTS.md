@@ -39,6 +39,7 @@ npm run check             # lint && typecheck && test — belangrijkste verifica
 npm test                  # compileert eerst, draait dan node --test dist/test/*.test.js
 npm run compile && node --test dist/test/priority-tag-plan.test.js   # los testbestand draaien
 
+npm run priority:judge    # haalt top-100-documenten + highlights op en ververst de judgment-configuratie
 npm run priority:plan     # compileert eerst; proefrun: berekent benodigde Readwise-tagwijzigingen, schrijft .tmp/readwise/priority-plan.json
 npm run priority:apply    # compileert eerst; past een eerder gegenereerd plan toe na expliciete --confirm <plan-hash>
 npm run priority:verify   # compileert eerst; controleert of Readwise-tags al matchen met de berekende reeksen (geen wijzigingen)
@@ -61,11 +62,13 @@ notitieregels en een gefilterde interesse-tagset (structuurtags als `lees-0001`/
 taaltags en curatietags als `must-read`/`shortlist` worden eruit gefilterd, zie
 `ORDINAL_TAG_PATTERN`/`CURATION_TAGS`/`LANGUAGE_TAG_MAP`).
 
-### Scoring & reeksen (`scripts/lib/readwise-priority-v2.ts` + `-v3.ts`)
+### Scoring & reeksen (`scripts/lib/readwise-priority-v2.ts` + `-v5.ts`)
 
-- De huidige scorelogica is model `readwise-priority-v4`: `kerninteresse` telt uitsluitend expliciete,
-  canonieke interesse-tags en geeft 20 punten per tag; er is geen bovengrens voor de score.
-- De v3-bestandslaag wrapt de basisscore en voegt toe: handmatige correcties uit
+- De huidige scorelogica is model `readwise-priority-v5`: één globale score gebruikt een versioneerde
+  judgment-configuratie voor relevantie, substantie, duurzaamheid en bruikbaarheid, plus kleine
+  reeks-fitcorrecties. Positie- en toplijsttags zijn geen inhoudelijk bewijs; ontbrekende of verouderde
+  judgments vallen terug op een expliciet als low-confidence gemarkeerde deterministische fallback.
+- De v5-bestandslaag wrapt de judgment-score en voegt toe: handmatige correcties uit
   `config/readwise-priority-overrides.json` (`{ version: 1, items: { "<doc-id>": { adjustment, reason } } }`,
   reden verplicht bij niet-nul adjustment), tier-indeling (hoog ≥70, midden ≥40, laag <40), en
   `sequencesForDocument` — bepaalt in welke van de `SEQUENCE_ORDER`-reeksen (video, boek, pdf,
@@ -116,7 +119,7 @@ strict TypeScript, gecompileerd door `tsc` zonder bundler-stap. `index.html` laa
 `data/score.js` en `data/data.js` (de gegenereerde globals), en pas daarna `dist/src/app.js` als
 `<script type="module">`. `app.ts` valideert die twee ongetypeerde globals bij het laden via de
 parsers/type-guards in `src/types/browser-data.ts` (`parseTopArticles`/`parseTopArticlePriority`,
-met een modelversie-check op `readwise-priority-v4`/scope `later`), en rendert daarna families,
+met een modelversie-check op `readwise-priority-v5`/scope `later`), en rendert daarna families,
 catalogus, ontdeklijsten en filters/sortering direct in de DOM. Filterstatus wordt gepersisteerd
 als URL-queryparams (niet gewist bij navigatie). `styles.css` staat hier los van en heeft geen
 relatie met de TS-compilatie.

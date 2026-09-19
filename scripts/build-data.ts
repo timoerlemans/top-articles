@@ -8,8 +8,9 @@ import { mkdir, readFile, writeFile } from "node:fs/promises";
 import { fileURLToPath } from "node:url";
 import { dirname, join, resolve } from "node:path";
 import { z } from "zod";
-import { buildPriorityExport } from "./lib/readwise-priority-v3.js";
-import type { PriorityExportItem, PriorityOverridesConfig } from "./lib/readwise-priority-v3.js";
+import { buildPriorityExport } from "./lib/readwise-priority-v5.js";
+import type { PriorityExportItem, PriorityOverridesConfig } from "./lib/readwise-priority-v5.js";
+import { validatePriorityJudgments } from "./lib/priority-judgments.js";
 import { matchedDomainsFromTags } from "./lib/readwise-priority-v2.js";
 import { FAMILY_DEFINITIONS, buildUnifiedLists } from "./lib/unified-lists.js";
 import type { RankedUnifiedEntry, UnifiedCatalogEntry } from "./lib/unified-lists.js";
@@ -26,6 +27,7 @@ const ROOT = resolve(__dirname, "../..");
 const OUT_FILE = join(ROOT, "data", "data.js");
 const PRIORITY_OUT_FILE = join(ROOT, "data", "score.js");
 const OVERRIDES_FILE = join(ROOT, "config", "readwise-priority-overrides.json");
+const JUDGMENTS_FILE = join(ROOT, "config", "readwise-priority-judgments.json");
 
 const RESPONSE_FIELDS =
   "title,site_name,summary,word_count,reading_time,published_date,saved_at,image_url,source_url,url,category,tags,notes";
@@ -181,7 +183,12 @@ async function main() {
   const laterDocs = await fetchDocumentsByLocation("later");
   const generatedAt = new Date().toISOString();
   const overrides: PriorityOverridesConfig = overridesSchema.parse(JSON.parse(await readFile(OVERRIDES_FILE, "utf8")));
-  const priority = buildPriorityExport(laterDocs, { generatedAt, overrides });
+  const judgmentValue: unknown = JSON.parse(await readFile(JUDGMENTS_FILE, "utf8"));
+  if (!validatePriorityJudgments(judgmentValue)) {
+    throw new Error("Ongeldige config/readwise-priority-judgments.json");
+  }
+  const judgments = judgmentValue;
+  const priority = buildPriorityExport(laterDocs, { generatedAt, overrides, judgments });
   const baseCatalog = laterDocs.map((doc) => toItem(doc, null));
   type RankedCatalogItem = CatalogItem & UnifiedCatalogEntry & { priority: PriorityExportItem };
   const rankedCatalog: RankedCatalogItem[] = baseCatalog.map((item) => {

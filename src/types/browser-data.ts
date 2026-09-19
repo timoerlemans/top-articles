@@ -1,4 +1,4 @@
-import type { PrioritySequence } from "../../scripts/lib/readwise-priority-v3.js";
+import type { PrioritySequence } from "../../scripts/lib/readwise-priority-v5.js";
 import type { DirectDomain } from "../../scripts/lib/readwise-priority-v2.js";
 
 export interface ArticleItem {
@@ -30,9 +30,9 @@ export interface ArticleItem {
 export interface ArticleList { tag: string; items: ArticleItem[]; }
 export interface ArticleFamily { id: string; label: string; lists: { "top-10": ArticleList; "top-100": ArticleList }; }
 export interface TopArticles { generatedAt: string; families: ArticleFamily[]; catalog: { items: ArticleItem[] }; derivedLists: Record<string, { id: string; label: string; items: Array<{ id: string; title: string; position: number }> }>; }
-export type PriorityComponentKey = "kerninteresse" | "diepgang" | "persoonlijke_bruikbaarheid" | "leeskans" | "onderscheidende_duurzame_waarde" | "nederlandse_taal" | "curatie" | "aftrek";
-export interface PriorityItem { baseScore: number; adjustment: number; adjustmentReason: string | null; score: number; tier: string; components: Partial<Record<PriorityComponentKey, number>>; rationale: Partial<Record<PriorityComponentKey, string[]>>; sequences: PrioritySequence[]; positions: Partial<Record<PrioritySequence, number>>; actualPositions: Partial<Record<PrioritySequence, number>>; }
-export interface TopArticlePriority { generatedAt: string; model: "readwise-priority-v4"; scope: "later"; items: Record<string, PriorityItem>; }
+export type PriorityComponentKey = "relevantie" | "substantie" | "duurzaamheid" | "bruikbaarheid" | "leeskans" | "nederlandse_taal" | "curatie" | "aftrek";
+export interface PriorityItem { baseScore: number; adjustment: number; adjustmentReason: string | null; score: number; tier: string; components: Partial<Record<PriorityComponentKey, number>>; rationale: Partial<Record<PriorityComponentKey, string[]>>; judgmentSource?: "label" | "fallback"; judgmentConfidence?: "high" | "medium" | "low"; sequences: PrioritySequence[]; sequenceScores?: Partial<Record<PrioritySequence, number>>; positions: Partial<Record<PrioritySequence, number>>; actualPositions: Partial<Record<PrioritySequence, number>>; }
+export interface TopArticlePriority { generatedAt: string; model: "readwise-priority-v4" | "readwise-priority-v5"; scope: "later"; items: Record<string, PriorityItem>; }
 
 function isRecord(value: unknown): value is Record<string, unknown> {
   return typeof value === "object" && value !== null;
@@ -66,9 +66,13 @@ function isPriorityItem(value: unknown): value is PriorityItem {
   if (!isRecord(value) || typeof value.baseScore !== "number" || typeof value.adjustment !== "number" || typeof value.score !== "number" || typeof value.tier !== "string" || !isNullableString(value.adjustmentReason)) {
     return false;
   }
-  return isRecord(value.components) && Object.values(value.components).every((component) => typeof component === "number")
+  const legacy = value.judgmentSource === undefined && value.judgmentConfidence === undefined && value.sequenceScores === undefined;
+  return (legacy || (value.judgmentSource === "label" || value.judgmentSource === "fallback")
+    && ["high", "medium", "low"].includes(String(value.judgmentConfidence)))
+    && isRecord(value.components) && Object.values(value.components).every((component) => typeof component === "number")
     && isRecord(value.rationale) && Object.values(value.rationale).every((items) => Array.isArray(items) && items.every((item) => typeof item === "string"))
     && Array.isArray(value.sequences) && value.sequences.every((sequence) => typeof sequence === "string")
+    && (legacy || (isRecord(value.sequenceScores) && Object.values(value.sequenceScores).every((score) => typeof score === "number")))
     && isRecord(value.positions) && Object.values(value.positions).every((position) => Number.isInteger(position))
     && isRecord(value.actualPositions) && Object.values(value.actualPositions).every((position) => Number.isInteger(position));
 }
@@ -83,7 +87,7 @@ function isTopArticles(value: unknown): value is TopArticles {
 }
 
 function isTopArticlePriority(value: unknown): value is TopArticlePriority {
-  if (!isRecord(value) || typeof value.generatedAt !== "string" || value.model !== "readwise-priority-v4" || value.scope !== "later" || !isRecord(value.items)) {
+  if (!isRecord(value) || typeof value.generatedAt !== "string" || (value.model !== "readwise-priority-v4" && value.model !== "readwise-priority-v5") || value.scope !== "later" || !isRecord(value.items)) {
     return false;
   }
   return Object.values(value.items).every(isPriorityItem);
