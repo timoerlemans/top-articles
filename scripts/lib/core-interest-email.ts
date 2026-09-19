@@ -21,6 +21,11 @@ export interface CoreInterestCandidate {
   };
 }
 
+export interface CoreInterestPriorityWeights {
+  order: readonly DirectDomain[];
+  weights: Readonly<Partial<Record<DirectDomain, number>>>;
+}
+
 export interface SelectedCoreInterestArticle {
   interest: DirectDomain;
   sequence: PrioritySequence;
@@ -56,6 +61,10 @@ const AMSTERDAM_TIME_ZONE = "Europe/Amsterdam";
 function randomIndex(randomValue: number, length: number): number {
   const bounded = Math.max(0, Math.min(0.999999999, randomValue));
   return Math.floor(bounded * length);
+}
+
+function boundedRandom(randomValue: number): number {
+  return Math.max(0, Math.min(0.999999999, randomValue));
 }
 
 function ordinalTag(sequence: PrioritySequence, position: number): string {
@@ -96,16 +105,27 @@ function positionedCandidates(
 export function selectCoreInterestArticle(
   candidates: readonly CoreInterestCandidate[],
   random: () => number = Math.random,
+  priority: CoreInterestPriorityWeights = {
+    order: CORE_INTERESTS,
+    weights: Object.fromEntries(CORE_INTERESTS.map((interest) => [interest, 1])),
+  },
 ): SelectedCoreInterestArticle | null {
-  const available = CORE_INTERESTS.flatMap((interest) => {
+  const available = priority.order.flatMap((interest) => {
     const positioned = positionedCandidates(interest, candidates);
-    return positioned.length > 0 ? [{ interest, positioned }] : [];
+    const weight = priority.weights[interest] ?? 0;
+    return positioned.length > 0 && Number.isFinite(weight) && weight > 0 ? [{ interest, positioned, weight }] : [];
   });
   if (available.length === 0) {
     return null;
   }
 
-  const selectedInterest = available[randomIndex(random(), available.length)];
+  const totalWeight = available.reduce((sum, { weight }) => sum + weight, 0);
+  const threshold = boundedRandom(random()) * totalWeight;
+  let cumulative = 0;
+  const selectedInterest = available.find(({ weight }) => {
+    cumulative += weight;
+    return threshold < cumulative;
+  }) ?? available.at(-1);
   if (!selectedInterest) {
     return null;
   }

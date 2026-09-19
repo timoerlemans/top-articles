@@ -8,7 +8,7 @@ import { dirname, join, resolve } from "node:path";
 import { z } from "zod";
 
 import { buildCoreInterestEmail, CORE_INTEREST_LABELS, coreInterestRandomFor, selectCoreInterestArticle, shouldSendCoreInterestEmail } from "./lib/core-interest-email.js";
-import type { CoreInterestCandidate } from "./lib/core-interest-email.js";
+import type { CoreInterestCandidate, CoreInterestPriorityWeights } from "./lib/core-interest-email.js";
 import { DIRECT_DOMAIN_TAGS } from "./lib/readwise-priority-v2.js";
 import type { DirectDomain } from "./lib/readwise-priority-v2.js";
 import { resendEmailResponseSchema } from "./lib/external-schemas.js";
@@ -34,10 +34,39 @@ const dataSchema = z.object({
   generatedAt: z.iso.datetime(),
   catalog: z.object({ items: z.array(articleSchema) }),
 });
+const coreInterestPrioritySchema = z.object({
+  version: z.literal(1),
+  generatedAt: z.string(),
+  order: z.array(directDomainSchema),
+  weights: z.record(z.string(), z.number()),
+  entries: z.array(z.object({
+    interest: directDomainSchema,
+    label: z.string(),
+    rank: z.number().int(),
+    weight: z.number().int().positive(),
+    source: z.enum(["manual", "derived"]),
+    evidenceDocumentCount: z.number().int().nonnegative(),
+    evidenceScore: z.number().int(),
+  })),
+});
 const prioritySchema = z.object({
+  generatedAt: z.string(),
+  model: z.literal("readwise-priority-v7"),
+  scope: z.literal("later"),
+  coreInterestPriority: coreInterestPrioritySchema,
   items: z.record(z.string(), z.object({
     score: z.number(),
     actualPositions: z.record(z.string(), z.number()),
+    coreInterestMatches: z.array(z.object({
+      interest: directDomainSchema,
+      weight: z.number().int().positive(),
+      qualityScore: z.number(),
+      evidence: z.array(z.object({
+        kind: z.enum(["readwise-tag", "semantic-signal"]),
+        source: z.string().min(1),
+        label: z.string().min(1),
+      })),
+    })),
   })),
 });
 
@@ -97,9 +126,14 @@ async function main(): Promise<void> {
     loadGenerated(DATA_FILE, "window.TOP_ARTICLES", dataSchema),
     loadGenerated(PRIORITY_FILE, "window.TOP_ARTICLE_PRIORITY", prioritySchema),
   ]);
+  const coreInterestPriority: CoreInterestPriorityWeights = {
+    order: priority.coreInterestPriority.order,
+    weights: priority.coreInterestPriority.weights,
+  };
   const candidates: CoreInterestCandidate[] = data.catalog.items.flatMap((article) => {
-    const score = priority.items[article.id]?.score;
-    if (article.readwiseUrl === null || score === undefined) {
+    const itemPriority = priority.items[article.id];
+    const score = itemPriority?.score;
+    if (article.readwiseUrl === null || itemPriority === undefined || score === undefined) {
       return [];
     }
     return [{
@@ -110,15 +144,15 @@ async function main(): Promise<void> {
         whyRead: article.whyRead,
         readingMinutes: article.readingMinutes,
         savedDate: article.savedDate,
-        coreInterests: article.coreInterests,
+        coreInterests: itemPriority.coreInterestMatches.map(({ interest }) => interest),
       },
       priority: {
         score,
-        actualPositions: priority.items[article.id]?.actualPositions ?? {},
+        actualPositions: itemPriority.actualPositions,
       },
     }];
   });
-  const selected = selectCoreInterestArticle(candidates, coreInterestRandomFor(now));
+  const selected = selectCoreInterestArticle(candidates, coreInterestRandomFor(now), coreInterestPriority);
   if (!selected) {
     console.log("Geen geschikt kerninteresse-artikel gevonden — geen mail verstuurd.");
     return;

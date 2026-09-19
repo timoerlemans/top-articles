@@ -9,6 +9,7 @@ import {
   shouldSendCoreInterestEmail,
   selectCoreInterestArticle,
 } from "../scripts/lib/core-interest-email.js";
+import type { CoreInterestPriorityWeights } from "../scripts/lib/core-interest-email.js";
 import type { DirectDomain } from "../scripts/lib/readwise-priority-v2.js";
 
 interface TestArticle {
@@ -74,6 +75,31 @@ test("valt terug op een andere kerninteresse als de gekozen interesse geen kandi
   assert.equal(selected?.interest, "geschiedenis");
   assert.equal(selected?.position, 2);
   assert.equal(selected?.article.id, "history-rank-2");
+});
+
+test("kiest kerninteresses volgens de v7-gewichten en niet uniform", () => {
+  const priority: CoreInterestPriorityWeights = {
+    order: ["agile", "geschiedenis"],
+    weights: { agile: 20, geschiedenis: 10 },
+  };
+  const candidates = [
+    article("agile-article", 90, { coreInterests: ["agile"] }, { lees: 2 }),
+    article("history-article", 89, { coreInterests: ["geschiedenis"] }, { lees: 3 }),
+  ];
+
+  assert.equal(selectCoreInterestArticle(candidates, () => 0.1, priority)?.interest, "agile");
+  assert.equal(selectCoreInterestArticle(candidates, () => 0.7, priority)?.interest, "geschiedenis");
+});
+
+test("een artikel met meerdere interesses blijft voor elke interesse afzonderlijk eligible", () => {
+  const priority: CoreInterestPriorityWeights = {
+    order: ["agile", "adhd"],
+    weights: { agile: 20, adhd: 20 },
+  };
+  const candidate = article("multi-interest", 90, { coreInterests: ["agile", "adhd"] }, { lees: 2 });
+
+  assert.equal(selectCoreInterestArticle([candidate], () => 0, priority)?.interest, "agile");
+  assert.equal(selectCoreInterestArticle([candidate], () => 0.75, priority)?.interest, "adhd");
 });
 
 test("selecteert ADHD als kerninteresse en gebruikt de ADHD-positie in de mail", () => {
