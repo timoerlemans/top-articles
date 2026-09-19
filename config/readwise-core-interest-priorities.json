@@ -1,0 +1,22 @@
+{
+  "version": 1,
+  "manualOrder": [
+    "agile",
+    "adhd",
+    "filosofie"
+  ],
+  "weightByRank": [
+    20,
+    16,
+    12,
+    10,
+    9,
+    8,
+    7,
+    6,
+    5,
+    4,
+    3,
+    2
+  ]
+}
