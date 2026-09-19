@@ -13,11 +13,14 @@ Tijdloos. Het bevat geen ruwe `notes`: alleen titel, auteur, samenvatting, leest
 publicatie-/toevoegdatum, taal (afgeleid uit een kleine vaste set taal-tags), een korte
 "waarom lezen"/"beste moment"-notitie, afbeelding en links.
 
-`data/score.js` wordt tegelijk gegenereerd en bevat `readwise-priority-v5` voor alle actuele
+`data/score.js` wordt tegelijk gegenereerd en bevat `readwise-priority-v7` voor alle actuele
 `later`-documenten. Per document staan daarin de basis- en eindscore, tier, inhoudscomponenten,
-judgmentbron/confidence, een eventuele handmatige correctie, mensleesbare redenen, reeksindeling,
-een kleine reeks-fitcorrectie en gewenste plus actuele positie per reeks. Ontbrekende judgments
-vallen terug op een expliciet low-confidence profiel; ruwe highlights worden nooit gepubliceerd.
+de gestapelde kerninteressebonus, semantische judgmentbron/confidence, een eventuele handmatige
+correctie, mensleesbare redenen, reeksindeling, reeks-fitcorrectie en gewenste plus actuele positie
+per reeks. De top-level metadata bevat de rangorde en gewichten van de kerninteresses; per artikel
+staan de afzonderlijk aangetoonde interesses en hun Readwise-tag/semantische bewijs. Ontbrekende
+judgments vallen terug op een expliciet low-confidence profiel; ruwe highlights en technische
+reason codes worden nooit gepubliceerd of in de UI getoond.
 Alle lijsten sorteren op hoogste score, daarna bij
 gelijke score op oudste `saved_at` en ten slotte op document-ID.
 
@@ -57,6 +60,12 @@ Inhoudstags worden bij export gecanonicaliseerd;
 workflow-, lijst- en positietags komen niet in de app-filter terecht. Tagwijzigingen verlopen
 uitsluitend via een aparte proefrun en synchronisatie na expliciete bevestiging.
 
+De vaste kerninteressevolgorde begint met `Agile > ADHD > Filosofie`. Daarna volgen de overige
+canonieke interesses op basis van de kwaliteit en dekking van onafhankelijk bewijs. Eén ambigu
+Readwise-tagbewijs kan maar één primaire interesse opleveren; afzonderlijke bewijsbronnen mogen
+wel meerdere interesses stapelen. De gewichten en handmatige ankers staan in
+`config/readwise-core-interest-priorities.json`.
+
 ## Lokaal verversen
 
 Vereist een ingelogde [`@readwise/cli`](https://www.npmjs.com/package/@readwise/cli)
@@ -65,6 +74,7 @@ Vereist een ingelogde [`@readwise/cli`](https://www.npmjs.com/package/@readwise/
 ```bash
 npm run priority:judge # haalt top-100-documenten en hun highlights op voor judgments
 npm run build   # haalt actuele later-data op en schrijft data/data.js + data/score.js
+npm run priority:interest-report # read-only v6→v7-impactrapport in .tmp/readwise/
 npm run check   # lint, strict typecheck en tests
 ```
 
