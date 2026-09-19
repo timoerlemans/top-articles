@@ -3,7 +3,8 @@ import { readFile } from "node:fs/promises";
 import test from "node:test";
 import vm from "node:vm";
 
-import { validatePriorityExport } from "../scripts/lib/readwise-priority-v3.js";
+import { validatePriorityExport } from "../scripts/lib/readwise-priority-v6.js";
+import type { PrioritySequence } from "../scripts/lib/readwise-priority-v6.js";
 import {
   isGeneratedPriority,
   isGeneratedTopArticles,
@@ -47,7 +48,7 @@ test("gegenereerde priority-export is geldig en sluit aan op dezelfde actieve ca
     "catalogus bevat nog legacy-scorevelden"
   );
 
-  const assertPriorityOrder = (items: GeneratedArticle[], label: string): void => {
+  const assertPriorityOrder = (items: GeneratedArticle[], label: string, sequence?: PrioritySequence): void => {
     for (let index = 1; index < items.length; index++) {
       const previous = items[index - 1];
       const current = items[index];
@@ -57,8 +58,10 @@ test("gegenereerde priority-export is geldig en sluit aan op dezelfde actieve ca
       const currentPriority = priority.items[current.id];
       assert.ok(previousPriority);
       assert.ok(currentPriority);
-      assert.ok(previousPriority.score >= currentPriority.score, `${label} is niet op score gesorteerd`);
-      if (previousPriority.score === currentPriority.score) {
+      const previousScore = sequence ? previousPriority.sequenceScores?.[sequence] ?? previousPriority.score : previousPriority.score;
+      const currentScore = sequence ? currentPriority.sequenceScores?.[sequence] ?? currentPriority.score : currentPriority.score;
+      assert.ok(previousScore >= currentScore, `${label} is niet op score gesorteerd`);
+      if (previousScore === currentScore) {
         assert.ok(previous.savedDate, "artikel zonder savedDate in de gegenereerde data");
         assert.ok(current.savedDate, "artikel zonder savedDate in de gegenereerde data");
         const savedDifference = Date.parse(previous.savedDate) - Date.parse(current.savedDate);
@@ -66,9 +69,27 @@ test("gegenereerde priority-export is geldig en sluit aan op dezelfde actieve ca
       }
     }
   };
+  const sequenceByFamilyId: Record<string, PrioritySequence> = {
+    algemeen: "lees",
+    nederlands: "dutch",
+    kort: "short",
+    "kort-nederlands": "short-dutch",
+    luchtig: "luchtig",
+    "luchtig-nederlands": "luchtig-nederlands",
+    scrum: "scrum",
+    "social-studies": "social-studies",
+    "software-development": "software-development",
+    "front-end-development": "front-end-development",
+    boeken: "boek",
+    pdfs: "pdf",
+    videos: "video",
+    adhd: "adhd",
+  };
   for (const family of data.families) {
-    assertPriorityOrder(family.lists["top-10"].items, `${family.id}:top-10`);
-    assertPriorityOrder(family.lists["top-100"].items, `${family.id}:top-100`);
+    const sequence = sequenceByFamilyId[family.id];
+    assert.ok(sequence, `onbekende familie: ${family.id}`);
+    assertPriorityOrder(family.lists["top-10"].items, `${family.id}:top-10`, sequence);
+    assertPriorityOrder(family.lists["top-100"].items, `${family.id}:top-100`, sequence);
   }
   for (const list of Object.values(data.derivedLists)) {
     const items = list.items.map((entry) => {
