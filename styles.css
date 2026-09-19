@@ -153,6 +153,76 @@ body {
   margin-bottom: 0;
 }
 
+.core-interest-priorities {
+  margin-top: 0.75rem;
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  background: var(--surface);
+  overflow: hidden;
+}
+
+.core-interest-heading {
+  margin: 0;
+  padding: 0.75rem 0.9rem 0.2rem;
+  font-size: 0.95rem;
+}
+
+.core-interest-intro {
+  margin: 0;
+  padding: 0 0.9rem 0.65rem;
+  color: var(--text-muted);
+  font-size: 0.82rem;
+}
+
+.core-interest-list {
+  display: grid;
+  gap: 0.35rem;
+  margin: 0;
+  padding: 0 0.75rem 0.75rem;
+  list-style: none;
+}
+
+.core-interest-row {
+  display: grid;
+  grid-template-columns: 1.7rem minmax(0, 1fr) auto;
+  align-items: center;
+  gap: 0.55rem;
+  padding: 0.45rem 0.5rem;
+  border-radius: 6px;
+  background: var(--bg);
+}
+
+.core-interest-rank {
+  color: var(--text-dim);
+  font-variant-numeric: tabular-nums;
+  text-align: center;
+}
+
+.core-interest-content {
+  display: grid;
+  gap: 0.05rem;
+  min-width: 0;
+}
+
+.core-interest-meta {
+  color: var(--text-muted);
+  font-size: 0.72rem;
+}
+
+.core-interest-weight {
+  padding: 0.18rem 0.45rem;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  color: var(--accent);
+  font-weight: 700;
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+}
+
+.priority-core-interest-match {
+  color: var(--text);
+}
+
 
 .tab {
   background: none;
@@ -1122,5 +1192,14 @@ main {
 
   .priority-components dd {
     align-items: flex-start;
+  }
+
+  .core-interest-row {
+    grid-template-columns: 1.5rem minmax(0, 1fr);
+  }
+
+  .core-interest-weight {
+    grid-column: 2;
+    justify-self: start;
   }
 }

@@ -1,3 +1,13 @@
+const CORE_INTEREST_IDS = [
+    "ai_ethiek", "filosofie", "ideologie", "geschiedenis", "sociologie", "schrijven",
+    "speculatieve_fictie", "cultuur_games_film", "pkm", "zorgouderschap", "adhd", "agile",
+];
+function isFiniteNumber(value) {
+    return typeof value === "number" && Number.isFinite(value);
+}
+function isDirectDomain(value) {
+    return typeof value === "string" && CORE_INTEREST_IDS.includes(value);
+}
 function isRecord(value) {
     return typeof value === "object" && value !== null;
 }
@@ -22,17 +32,60 @@ function isArticleList(value) {
 }
 // Controleert alleen de vorm (string/getal), niet of sequence-ids in de bekende SEQUENCE_ORDER-set
 // zitten — data/score.js kan op een ander moment gegenereerd zijn dan de huidige TS-compilatie.
-function isPriorityItem(value) {
-    if (!isRecord(value) || typeof value.baseScore !== "number" || typeof value.adjustment !== "number" || typeof value.score !== "number" || typeof value.tier !== "string" || !isNullableString(value.adjustmentReason)) {
+function isCoreInterestPriority(value) {
+    if (!isRecord(value) || value.version !== 1 || typeof value.generatedAt !== "string" || !Array.isArray(value.order) || !isRecord(value.weights) || !Array.isArray(value.entries)) {
         return false;
     }
-    const legacy = value.judgmentSource === undefined && value.judgmentConfidence === undefined && value.sequenceScores === undefined;
-    return (legacy || (value.judgmentSource === "label" || value.judgmentSource === "fallback")
-        && ["high", "medium", "low"].includes(String(value.judgmentConfidence)))
-        && isRecord(value.components) && Object.values(value.components).every((component) => typeof component === "number")
-        && isRecord(value.rationale) && Object.values(value.rationale).every((items) => Array.isArray(items) && items.every((item) => typeof item === "string"))
-        && Array.isArray(value.sequences) && value.sequences.every((sequence) => typeof sequence === "string")
-        && (legacy || (isRecord(value.sequenceScores) && Object.values(value.sequenceScores).every((score) => typeof score === "number")))
+    const order = value.order;
+    const weights = value.weights;
+    const entries = value.entries;
+    if (order.length !== CORE_INTEREST_IDS.length || new Set(order).size !== CORE_INTEREST_IDS.length || !order.every(isDirectDomain)) {
+        return false;
+    }
+    if (Object.keys(weights).length !== CORE_INTEREST_IDS.length || !CORE_INTEREST_IDS.every((interest) => isFiniteNumber(weights[interest]) && Number.isInteger(weights[interest]) && weights[interest] > 0)) {
+        return false;
+    }
+    if (entries.length !== CORE_INTEREST_IDS.length) {
+        return false;
+    }
+    return entries.every((entry, index) => {
+        if (!isRecord(entry) || entry.interest !== order[index] || !isDirectDomain(entry.interest) || typeof entry.label !== "string" || entry.rank !== index + 1 || entry.weight !== weights[entry.interest] || !Number.isInteger(entry.evidenceDocumentCount) || typeof entry.evidenceDocumentCount !== "number" || entry.evidenceDocumentCount < 0 || !Number.isInteger(entry.evidenceScore) || (entry.source !== "manual" && entry.source !== "derived")) {
+            return false;
+        }
+        return typeof entry.weight === "number" && Number.isInteger(entry.weight) && entry.weight > 0;
+    });
+}
+function isCoreInterestMatch(value, priority) {
+    if (!isRecord(value) || !isDirectDomain(value.interest) || !priority.order.includes(value.interest) || value.weight !== priority.weights[value.interest] || !Number.isInteger(value.weight) || value.weight <= 0 || !isFiniteNumber(value.qualityScore) || !Array.isArray(value.evidence)) {
+        return false;
+    }
+    return value.evidence.every((evidence) => isRecord(evidence) && (evidence.kind === "readwise-tag" || evidence.kind === "semantic-signal") && typeof evidence.source === "string" && evidence.source.length > 0 && typeof evidence.label === "string" && evidence.label.length > 0);
+}
+function isPriorityItem(value, priority) {
+    if (!isRecord(value) || !Number.isInteger(value.baseScore) || !isFiniteNumber(value.adjustment) || !Number.isInteger(value.adjustment) || !Number.isInteger(value.score) || typeof value.tier !== "string" || !isNullableString(value.adjustmentReason) || (value.judgmentSource !== "label" && value.judgmentSource !== "fallback") || (value.judgmentConfidence !== "high" && value.judgmentConfidence !== "medium" && value.judgmentConfidence !== "low") || !isRecord(value.components) || !isRecord(value.rationale) || !Array.isArray(value.coreInterestMatches)) {
+        return false;
+    }
+    const components = value.components;
+    const rationale = value.rationale;
+    const matches = value.coreInterestMatches;
+    const componentKeys = ["kerninteresse", "relevantie", "substantie", "duurzaamheid", "bruikbaarheid", "leeskans", "nederlandse_taal", "aftrek"];
+    if (Object.keys(components).length !== componentKeys.length || componentKeys.some((key) => !isFiniteNumber(components[key]))) {
+        return false;
+    }
+    if (Object.keys(rationale).length !== componentKeys.length || componentKeys.some((key) => {
+        const entries = rationale[key];
+        return !Array.isArray(entries) || !entries.every((entry) => typeof entry === "string");
+    })) {
+        return false;
+    }
+    if (new Set(matches.map((match) => isRecord(match) ? match.interest : null)).size !== matches.length || !matches.every((match) => isCoreInterestMatch(match, priority))) {
+        return false;
+    }
+    if (matches.reduce((sum, match) => sum + (isRecord(match) && typeof match.weight === "number" ? match.weight : 0), 0) !== components.kerninteresse) {
+        return false;
+    }
+    return Array.isArray(value.sequences) && value.sequences.every((sequence) => typeof sequence === "string")
+        && isRecord(value.sequenceScores) && Object.values(value.sequenceScores).every(isFiniteNumber)
         && isRecord(value.positions) && Object.values(value.positions).every((position) => Number.isInteger(position))
         && isRecord(value.actualPositions) && Object.values(value.actualPositions).every((position) => Number.isInteger(position));
 }
@@ -45,10 +98,14 @@ function isTopArticles(value) {
     return families && value.catalog.items.every(isArticleItem) && derivedLists;
 }
 function isTopArticlePriority(value) {
-    if (!isRecord(value) || typeof value.generatedAt !== "string" || (value.model !== "readwise-priority-v4" && value.model !== "readwise-priority-v5" && value.model !== "readwise-priority-v6") || value.scope !== "later" || !isRecord(value.items)) {
+    if (!isRecord(value) || typeof value.generatedAt !== "string" || value.model !== "readwise-priority-v7" || value.scope !== "later" || !isRecord(value.items)) {
         return false;
     }
-    return Object.values(value.items).every(isPriorityItem);
+    const coreInterestPriority = value.coreInterestPriority;
+    if (!isCoreInterestPriority(coreInterestPriority)) {
+        return false;
+    }
+    return Object.values(value.items).every((item) => isPriorityItem(item, coreInterestPriority));
 }
 export function parseTopArticles(value) {
     return isTopArticles(value) ? value : null;

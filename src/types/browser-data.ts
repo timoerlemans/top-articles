@@ -1,4 +1,4 @@
-import type { PrioritySequence } from "../../scripts/lib/readwise-priority-v6.js";
+import type { PrioritySequence } from "../../scripts/lib/readwise-priority-v7.js";
 import type { DirectDomain } from "../../scripts/lib/readwise-priority-v2.js";
 
 export interface ArticleItem {
@@ -30,9 +30,27 @@ export interface ArticleItem {
 export interface ArticleList { tag: string; items: ArticleItem[]; }
 export interface ArticleFamily { id: string; label: string; lists: { "top-10": ArticleList; "top-100": ArticleList }; }
 export interface TopArticles { generatedAt: string; families: ArticleFamily[]; catalog: { items: ArticleItem[] }; derivedLists: Record<string, { id: string; label: string; items: Array<{ id: string; title: string; position: number }> }>; }
-export type PriorityComponentKey = "relevantie" | "substantie" | "duurzaamheid" | "bruikbaarheid" | "leeskans" | "nederlandse_taal" | "aftrek";
-export interface PriorityItem { baseScore: number; adjustment: number; adjustmentReason: string | null; score: number; tier: string; components: Partial<Record<PriorityComponentKey, number>>; rationale: Partial<Record<PriorityComponentKey, string[]>>; judgmentSource?: "label" | "fallback"; judgmentConfidence?: "high" | "medium" | "low"; sequences: PrioritySequence[]; sequenceScores?: Partial<Record<PrioritySequence, number>>; positions: Partial<Record<PrioritySequence, number>>; actualPositions: Partial<Record<PrioritySequence, number>>; }
-export interface TopArticlePriority { generatedAt: string; model: "readwise-priority-v4" | "readwise-priority-v5" | "readwise-priority-v6"; scope: "later"; items: Record<string, PriorityItem>; }
+export type PriorityComponentKey = "kerninteresse" | "relevantie" | "substantie" | "duurzaamheid" | "bruikbaarheid" | "leeskans" | "nederlandse_taal" | "aftrek";
+export type CoreInterestEvidenceKind = "readwise-tag" | "semantic-signal";
+export interface CoreInterestEvidence { kind: CoreInterestEvidenceKind; source: string; label: string; }
+export interface CoreInterestMatch { interest: DirectDomain; weight: number; qualityScore: number; evidence: CoreInterestEvidence[]; }
+export interface CoreInterestPriorityEntry { interest: DirectDomain; label: string; rank: number; weight: number; source: "manual" | "derived"; evidenceDocumentCount: number; evidenceScore: number; }
+export interface CoreInterestPriority { version: 1; generatedAt: string; order: DirectDomain[]; weights: Record<DirectDomain, number>; entries: CoreInterestPriorityEntry[]; }
+export interface PriorityItem { baseScore: number; adjustment: number; adjustmentReason: string | null; score: number; tier: string; components: Record<PriorityComponentKey, number>; rationale: Record<PriorityComponentKey, string[]>; judgmentSource: "label" | "fallback"; judgmentConfidence: "high" | "medium" | "low"; coreInterestMatches: CoreInterestMatch[]; sequences: PrioritySequence[]; sequenceScores: Partial<Record<PrioritySequence, number>>; positions: Partial<Record<PrioritySequence, number>>; actualPositions: Partial<Record<PrioritySequence, number>>; }
+export interface TopArticlePriority { generatedAt: string; model: "readwise-priority-v7"; scope: "later"; coreInterestPriority: CoreInterestPriority; items: Record<string, PriorityItem>; }
+
+const CORE_INTEREST_IDS: readonly DirectDomain[] = [
+  "ai_ethiek", "filosofie", "ideologie", "geschiedenis", "sociologie", "schrijven",
+  "speculatieve_fictie", "cultuur_games_film", "pkm", "zorgouderschap", "adhd", "agile",
+];
+
+function isFiniteNumber(value: unknown): value is number {
+  return typeof value === "number" && Number.isFinite(value);
+}
+
+function isDirectDomain(value: unknown): value is DirectDomain {
+  return typeof value === "string" && CORE_INTEREST_IDS.includes(value as DirectDomain);
+}
 
 function isRecord(value: unknown): value is Record<string, unknown> {
   return typeof value === "object" && value !== null;
@@ -62,17 +80,52 @@ function isArticleList(value: unknown): value is ArticleList {
 
 // Controleert alleen de vorm (string/getal), niet of sequence-ids in de bekende SEQUENCE_ORDER-set
 // zitten — data/score.js kan op een ander moment gegenereerd zijn dan de huidige TS-compilatie.
-function isPriorityItem(value: unknown): value is PriorityItem {
-  if (!isRecord(value) || typeof value.baseScore !== "number" || typeof value.adjustment !== "number" || typeof value.score !== "number" || typeof value.tier !== "string" || !isNullableString(value.adjustmentReason)) {
+function isCoreInterestPriority(value: unknown): value is CoreInterestPriority {
+  if (!isRecord(value) || value.version !== 1 || typeof value.generatedAt !== "string" || !Array.isArray(value.order) || !isRecord(value.weights) || !Array.isArray(value.entries)) {
     return false;
   }
-  const legacy = value.judgmentSource === undefined && value.judgmentConfidence === undefined && value.sequenceScores === undefined;
-  return (legacy || (value.judgmentSource === "label" || value.judgmentSource === "fallback")
-    && ["high", "medium", "low"].includes(String(value.judgmentConfidence)))
-    && isRecord(value.components) && Object.values(value.components).every((component) => typeof component === "number")
-    && isRecord(value.rationale) && Object.values(value.rationale).every((items) => Array.isArray(items) && items.every((item) => typeof item === "string"))
-    && Array.isArray(value.sequences) && value.sequences.every((sequence) => typeof sequence === "string")
-    && (legacy || (isRecord(value.sequenceScores) && Object.values(value.sequenceScores).every((score) => typeof score === "number")))
+  const order: unknown[] = value.order;
+  const weights: Record<string, unknown> = value.weights;
+  const entries: unknown[] = value.entries;
+  if (order.length !== CORE_INTEREST_IDS.length || new Set(order).size !== CORE_INTEREST_IDS.length || !order.every(isDirectDomain)) {
+    return false;
+  }
+  if (Object.keys(weights).length !== CORE_INTEREST_IDS.length || !CORE_INTEREST_IDS.every((interest) => isFiniteNumber(weights[interest]) && Number.isInteger(weights[interest]) && weights[interest] > 0)) {
+    return false;
+  }
+  if (entries.length !== CORE_INTEREST_IDS.length) {return false;}
+  return entries.every((entry, index) => {
+    if (!isRecord(entry) || entry.interest !== order[index] || !isDirectDomain(entry.interest) || typeof entry.label !== "string" || entry.rank !== index + 1 || entry.weight !== weights[entry.interest] || !Number.isInteger(entry.evidenceDocumentCount) || typeof entry.evidenceDocumentCount !== "number" || entry.evidenceDocumentCount < 0 || !Number.isInteger(entry.evidenceScore) || (entry.source !== "manual" && entry.source !== "derived")) {
+      return false;
+    }
+    return typeof entry.weight === "number" && Number.isInteger(entry.weight) && entry.weight > 0;
+  });
+}
+
+function isCoreInterestMatch(value: unknown, priority: CoreInterestPriority): value is CoreInterestMatch {
+  if (!isRecord(value) || !isDirectDomain(value.interest) || !priority.order.includes(value.interest) || value.weight !== priority.weights[value.interest] || !Number.isInteger(value.weight) || value.weight <= 0 || !isFiniteNumber(value.qualityScore) || !Array.isArray(value.evidence)) {
+    return false;
+  }
+  return value.evidence.every((evidence) => isRecord(evidence) && (evidence.kind === "readwise-tag" || evidence.kind === "semantic-signal") && typeof evidence.source === "string" && evidence.source.length > 0 && typeof evidence.label === "string" && evidence.label.length > 0);
+}
+
+function isPriorityItem(value: unknown, priority: CoreInterestPriority): value is PriorityItem {
+  if (!isRecord(value) || !Number.isInteger(value.baseScore) || !isFiniteNumber(value.adjustment) || !Number.isInteger(value.adjustment) || !Number.isInteger(value.score) || typeof value.tier !== "string" || !isNullableString(value.adjustmentReason) || (value.judgmentSource !== "label" && value.judgmentSource !== "fallback") || (value.judgmentConfidence !== "high" && value.judgmentConfidence !== "medium" && value.judgmentConfidence !== "low") || !isRecord(value.components) || !isRecord(value.rationale) || !Array.isArray(value.coreInterestMatches)) {
+    return false;
+  }
+  const components: Record<string, unknown> = value.components;
+  const rationale: Record<string, unknown> = value.rationale;
+  const matches: unknown[] = value.coreInterestMatches;
+  const componentKeys: readonly PriorityComponentKey[] = ["kerninteresse", "relevantie", "substantie", "duurzaamheid", "bruikbaarheid", "leeskans", "nederlandse_taal", "aftrek"];
+  if (Object.keys(components).length !== componentKeys.length || componentKeys.some((key) => !isFiniteNumber(components[key]))) {return false;}
+  if (Object.keys(rationale).length !== componentKeys.length || componentKeys.some((key) => {
+    const entries = rationale[key];
+    return !Array.isArray(entries) || !entries.every((entry: unknown) => typeof entry === "string");
+  })) {return false;}
+  if (new Set(matches.map((match) => isRecord(match) ? match.interest : null)).size !== matches.length || !matches.every((match) => isCoreInterestMatch(match, priority))) {return false;}
+  if (matches.reduce((sum, match) => sum + (isRecord(match) && typeof match.weight === "number" ? match.weight : 0), 0) !== components.kerninteresse) {return false;}
+  return Array.isArray(value.sequences) && value.sequences.every((sequence) => typeof sequence === "string")
+    && isRecord(value.sequenceScores) && Object.values(value.sequenceScores).every(isFiniteNumber)
     && isRecord(value.positions) && Object.values(value.positions).every((position) => Number.isInteger(position))
     && isRecord(value.actualPositions) && Object.values(value.actualPositions).every((position) => Number.isInteger(position));
 }
@@ -87,10 +140,12 @@ function isTopArticles(value: unknown): value is TopArticles {
 }
 
 function isTopArticlePriority(value: unknown): value is TopArticlePriority {
-  if (!isRecord(value) || typeof value.generatedAt !== "string" || (value.model !== "readwise-priority-v4" && value.model !== "readwise-priority-v5" && value.model !== "readwise-priority-v6") || value.scope !== "later" || !isRecord(value.items)) {
+  if (!isRecord(value) || typeof value.generatedAt !== "string" || value.model !== "readwise-priority-v7" || value.scope !== "later" || !isRecord(value.items)) {
     return false;
   }
-  return Object.values(value.items).every(isPriorityItem);
+  const coreInterestPriority = value.coreInterestPriority;
+  if (!isCoreInterestPriority(coreInterestPriority)) {return false;}
+  return Object.values(value.items).every((item) => isPriorityItem(item, coreInterestPriority));
 }
 
 export function parseTopArticles(value: unknown): TopArticles | null {

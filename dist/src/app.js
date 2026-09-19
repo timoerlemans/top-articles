@@ -38,6 +38,7 @@ registerServiceWorker();
     const discoverListChipsEl = requiredElement("discover-list-chips", HTMLElement);
     const priorityControlsEl = requiredElement("priority-controls", HTMLElement);
     const prioritySequenceChipsEl = requiredElement("priority-sequence-chips", HTMLElement);
+    const coreInterestPrioritiesEl = requiredElement("core-interest-priorities", HTMLElement);
     const priorityErrorEl = requiredElement("priority-error", HTMLElement);
     const readingTimeFilterEl = requiredElement("reading-time-filter", HTMLSelectElement);
     const listEl = requiredElement("item-list", HTMLOListElement);
@@ -121,6 +122,7 @@ registerServiceWorker();
     ];
     const PRIORITY_SEQUENCES = PRIORITY_SEQUENCE_DISPLAY_ORDER.map((id) => ({ id, label: PRIORITY_SEQUENCE_LABELS[id] }));
     const PRIORITY_COMPONENT_LABELS = {
+        kerninteresse: "Kerninteresses",
         relevantie: "Inhoudelijke relevantie",
         substantie: "Substantie",
         duurzaamheid: "Duurzaamheid",
@@ -131,7 +133,7 @@ registerServiceWorker();
         aftrek: "Aftrek",
     };
     const PRIORITY_COMPONENT_KEYS = [
-        "relevantie", "substantie", "duurzaamheid", "bruikbaarheid", "leeskans", "nederlandse_taal", "aftrek",
+        "kerninteresse", "relevantie", "substantie", "duurzaamheid", "bruikbaarheid", "leeskans", "nederlandse_taal", "aftrek",
     ];
     const DEFAULT_SORT_DIR = { score: "desc", position: "asc", saved: "desc", published: "desc", title: "asc" };
     const SORT_FIELDS = ["score", "position", "saved", "published", "title"];
@@ -477,10 +479,57 @@ registerServiceWorker();
     function priorityCount(sequence) {
         return Object.values(priorityItems).filter((item) => item.sequences?.includes(sequence)).length;
     }
+    function renderCoreInterestPriorities() {
+        coreInterestPrioritiesEl.textContent = "";
+        const active = state.view === "priority";
+        const ranking = priorityData?.coreInterestPriority;
+        coreInterestPrioritiesEl.hidden = !active || ranking === undefined;
+        if (!active || !ranking) {
+            return;
+        }
+        const heading = document.createElement("h3");
+        heading.className = "core-interest-heading";
+        heading.textContent = "Kerninteresses";
+        coreInterestPrioritiesEl.appendChild(heading);
+        const intro = document.createElement("p");
+        intro.className = "core-interest-intro";
+        intro.textContent = "Deze rangorde bepaalt hoeveel bonus elk afzonderlijk aangetoond kerninteressegebied toevoegt. Meerdere interesses stapelen.";
+        coreInterestPrioritiesEl.appendChild(intro);
+        const list = document.createElement("ol");
+        list.className = "core-interest-list";
+        for (const entry of ranking.entries) {
+            const row = document.createElement("li");
+            row.className = "core-interest-row";
+            const rank = document.createElement("span");
+            rank.className = "core-interest-rank";
+            rank.textContent = String(entry.rank);
+            row.appendChild(rank);
+            const content = document.createElement("span");
+            content.className = "core-interest-content";
+            const label = document.createElement("strong");
+            label.textContent = entry.label;
+            content.appendChild(label);
+            const details = document.createElement("span");
+            details.className = "core-interest-meta";
+            const source = entry.source === "manual" ? "Handmatig" : "Afgeleid";
+            const articleWord = entry.evidenceDocumentCount === 1 ? "artikel" : "artikelen";
+            details.textContent = `${source} · ${entry.evidenceDocumentCount} ${articleWord} met bewijs · bewijsscore ${entry.evidenceScore}`;
+            content.appendChild(details);
+            row.appendChild(content);
+            const weight = document.createElement("span");
+            weight.className = "core-interest-weight";
+            weight.textContent = `+${entry.weight}`;
+            weight.setAttribute("aria-label", `${entry.weight} bonuspunten`);
+            row.appendChild(weight);
+            list.appendChild(row);
+        }
+        coreInterestPrioritiesEl.appendChild(list);
+    }
     function renderPriorityControls() {
         const active = state.view === "priority";
         priorityControlsEl.hidden = !active;
         sortFieldEl.hidden = active;
+        renderCoreInterestPriorities();
         if (!active) {
             searchEl.placeholder = "Zoek in alle lijsten…";
             searchEl.setAttribute("aria-label", "Zoek in alle toplijsten");
@@ -902,87 +951,50 @@ registerServiceWorker();
     function prioritySequenceLabel(sequenceId) {
         return PRIORITY_SEQUENCES.find(({ id }) => id === sequenceId)?.label ?? sequenceId;
     }
-    const PRIORITY_INTEREST_LABELS = {
-        adhd: "ADHD & neurodivergentie",
+    const CORE_INTEREST_LABELS = {
+        ai_ethiek: "AI & ethiek",
+        filosofie: "Filosofie",
+        ideologie: "Ideologie",
+        geschiedenis: "Geschiedenis",
+        sociologie: "Sociologie",
+        schrijven: "Schrijven",
+        speculatieve_fictie: "Speculatieve fictie",
+        cultuur_games_film: "Cultuur, games & film",
+        pkm: "PKM",
+        zorgouderschap: "Zorg & ouderschap",
+        adhd: "ADHD",
         agile: "Agile",
-        ai: "AI",
-        "ai-ethics": "AI-ethiek",
-        "arts-culture": "kunst & cultuur",
-        "behavioral-psychology": "gedragspsychologie",
-        ethics: "ethiek",
-        existentialism: "existentialisme",
-        facilitation: "facilitatie",
-        fiction: "fictie",
-        "flow-delivery": "flow & delivery",
-        "front-end": "front-end",
-        games: "games",
-        history: "geschiedenis",
-        learning: "leren",
-        "organizational-behavior": "organisatiegedrag",
-        "organizational-culture": "organisatiecultuur",
-        "parenting-care": "ouderschap & zorg",
-        "personal-growth": "persoonlijke groei",
-        philosophy: "filosofie",
-        "political-philosophy": "politieke filosofie",
-        research: "onderzoek",
-        scrum: "scrum",
-        "social-psychology": "sociale psychologie",
-        sociology: "sociologie",
-        "software-development": "softwareontwikkeling",
-        "team-coaching": "teamcoaching",
-        "team-dynamics": "teamdynamiek",
-        technology: "technologie",
-        "totalitarianism-fascism": "totalitarisme & fascisme",
-        writing: "schrijven",
     };
     const PRIORITY_CONFIDENCE_LABELS = {
         high: "Veel vertrouwen",
         medium: "Redelijk vertrouwen",
         low: "Laag vertrouwen",
     };
-    function priorityEvidenceCodes(priority) {
-        return Object.values(priority.rationale).flatMap((reasons) => (reasons ?? []).flatMap((reason) => {
-            const match = reason.match(/^Bewijs:\s*(.+?)\.?$/i);
-            const evidence = match?.[1];
-            return evidence ? evidence.split(",").map((code) => code.trim()).filter(Boolean) : [];
-        }));
-    }
-    function hasPriorityEvidence(priority, code) {
-        return priorityEvidenceCodes(priority).includes(code);
-    }
-    function priorityInterestLabels(priority) {
-        return priorityEvidenceCodes(priority)
-            .filter((code) => code.startsWith("interest:"))
-            .map((code) => {
-            const interest = code.slice("interest:".length);
-            return PRIORITY_INTEREST_LABELS[interest] ?? interest.replace(/[-_]+/g, " ");
-        });
-    }
     function priorityComponentExplanation(key, value, priority, item) {
+        if (key === "kerninteresse") {
+            const matches = priority.coreInterestMatches.map((match) => {
+                const label = CORE_INTEREST_LABELS[match.interest] ?? match.interest;
+                const evidence = match.evidence.map(({ label: evidenceLabel }) => evidenceLabel).join(", ");
+                return `${label} +${match.weight}${evidence ? ` (${evidence})` : ""}`;
+            });
+            return matches.length > 0
+                ? `Afzonderlijk aangetoonde interesses: ${matches.join("; ")}.`
+                : "Er is kerninteressebewijs meegeteld.";
+        }
         if (key === "relevantie") {
-            const interests = priorityInterestLabels(priority);
+            const interests = priority.coreInterestMatches.map((match) => CORE_INTEREST_LABELS[match.interest] ?? match.interest);
             return interests.length > 0
                 ? `Sterke aansluiting op je interesses: ${interests.join(", ")}.`
                 : "Inhoudelijke aansluiting op de geselecteerde interessegebieden.";
         }
         if (key === "substantie") {
-            if (hasPriorityEvidence(priority, "substantive-argument-or-synthesis")) {
-                return "Bevat een uitgewerkt argument of een betekenisvolle synthese.";
-            }
-            if (hasPriorityEvidence(priority, "thin-or-fragmentary-content")) {
-                return "De inhoud is relatief dun of fragmentarisch.";
-            }
             return "De inhoudelijke diepgang is meegewogen in de beoordeling.";
         }
         if (key === "duurzaamheid") {
-            return hasPriorityEvidence(priority, "reusable-or-structural-insight")
-                ? "Bevat inzichten die ook op langere termijn bruikbaar blijven."
-                : "De houdbaarheid van de inzichten is meegewogen in de beoordeling.";
+            return "De houdbaarheid van de inzichten is meegewogen in de beoordeling.";
         }
         if (key === "bruikbaarheid") {
-            return hasPriorityEvidence(priority, "clear-personal-or-professional-payoff")
-                ? "Heeft een duidelijke persoonlijke of professionele opbrengst."
-                : "De praktische bruikbaarheid is meegewogen in de beoordeling.";
+            return "De praktische bruikbaarheid is meegewogen in de beoordeling.";
         }
         if (key === "leeskans") {
             return typeof item.readingMinutes === "number"
@@ -1060,7 +1072,9 @@ registerServiceWorker();
             score.className = "priority-component-score";
             score.textContent = value > 0 ? `+${value}` : String(value);
             const explanation = document.createElement("span");
-            explanation.className = "priority-component-description";
+            explanation.className = key === "kerninteresse"
+                ? "priority-component-description priority-core-interest-match"
+                : "priority-component-description";
             explanation.textContent = priorityComponentExplanation(key, value, priority, item);
             description.append(score, explanation);
             components.append(term, description);

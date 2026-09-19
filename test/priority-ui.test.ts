@@ -10,6 +10,7 @@ test("de pagina legt de uniforme scorevolgorde uit", async () => {
 
   assert.match(html, /id="priority-controls"/);
   assert.match(html, /id="priority-sequence-chips"/);
+  assert.match(html, /id="core-interest-priorities"/);
   assert.match(html, /id="priority-explainer"/);
   assert.match(visibleText, /hogere score.*hoger/i);
   assert.match(visibleText, /gelijke score.*oudste.*saved_at/i);
@@ -69,10 +70,26 @@ test("browsercontracten accepteren de gegenereerde social-studies familie en ree
     catalog: { items: [item] },
     derivedLists: {},
   });
+  const coreInterestOrder = ["agile", "adhd", "filosofie", "ai_ethiek", "ideologie", "geschiedenis", "sociologie", "schrijven", "speculatieve_fictie", "cultuur_games_film", "pkm", "zorgouderschap"];
   const priority = parseTopArticlePriority({
     generatedAt: "2026-09-09T00:00:00.000Z",
-    model: "readwise-priority-v4",
+    model: "readwise-priority-v7",
     scope: "later",
+    coreInterestPriority: {
+      version: 1,
+      generatedAt: "2026-09-09T00:00:00.000Z",
+      order: coreInterestOrder,
+      weights: Object.fromEntries(coreInterestOrder.map((interest, index) => [interest, 20 - index])),
+      entries: coreInterestOrder.map((interest, index) => ({
+        interest,
+        label: interest,
+        rank: index + 1,
+        weight: 20 - index,
+        source: index < 3 ? "manual" : "derived",
+        evidenceDocumentCount: index === 0 ? 1 : 0,
+        evidenceScore: index === 0 ? 112 : 0,
+      })),
+    },
     items: {
       [item.id]: {
         baseScore: 70,
@@ -80,9 +97,18 @@ test("browsercontracten accepteren de gegenereerde social-studies familie en ree
         adjustmentReason: null,
         score: 70,
         tier: "hoog",
-        components: {},
-        rationale: {},
+        judgmentSource: "label",
+        judgmentConfidence: "high",
+        components: { kerninteresse: 20, relevantie: 0, substantie: 0, duurzaamheid: 0, bruikbaarheid: 0, leeskans: 0, nederlandse_taal: 0, aftrek: 0 },
+        rationale: { kerninteresse: ["Agile: +20 (Agile)."], relevantie: [], substantie: [], duurzaamheid: [], bruikbaarheid: [], leeskans: [], nederlandse_taal: [], aftrek: [] },
+        coreInterestMatches: [{
+          interest: "agile",
+          weight: 20,
+          qualityScore: 112,
+          evidence: [{ kind: "readwise-tag", source: "agile", label: "Agile" }],
+        }],
         sequences: ["social-studies"],
+        sequenceScores: { "social-studies": 70 },
         positions: { "social-studies": 1 },
         actualPositions: { "social-studies": 1 },
       },
@@ -93,16 +119,16 @@ test("browsercontracten accepteren de gegenereerde social-studies familie en ree
   assert.deepEqual(priority?.items[item.id]?.sequences, ["social-studies"]);
 });
 
-test("browserprioriteit blijft model v4 voor Reader later afdwingen", () => {
+test("browserprioriteit dwingt het huidige v7-model voor Reader later af", () => {
   const base = {
     generatedAt: "2026-09-09T00:00:00.000Z",
     items: {},
   };
 
-  assert.equal(parseTopArticlePriority({ ...base, model: "readwise-priority-v2", scope: "later" }), null);
-  assert.equal(parseTopArticlePriority({ ...base, model: "readwise-priority-v3", scope: "later" }), null);
-  assert.equal(parseTopArticlePriority({ ...base, model: "readwise-priority-v4", scope: "later" })?.model, "readwise-priority-v4");
-  assert.equal(parseTopArticlePriority({ ...base, model: "readwise-priority-v3", scope: "archive" }), null);
+  assert.equal(parseTopArticlePriority({ ...base, model: "readwise-priority-v6", scope: "later" }), null);
+  assert.equal(parseTopArticlePriority({ ...base, model: "readwise-priority-v5", scope: "later" }), null);
+  assert.equal(parseTopArticlePriority({ ...base, model: "readwise-priority-v4", scope: "later" }), null);
+  assert.equal(parseTopArticlePriority({ ...base, model: "readwise-priority-v7", scope: "archive" }), null);
 });
 
 test("de scoreweergave gebruikt geen 100-puntenplafond", async () => {
@@ -120,6 +146,13 @@ test("de browsercode gebruikt alleen Prioriteitsscore", async () => {
   assert.doesNotMatch(source, /scoreBreakdown/);
   assert.match(source, /priority-breakdown/);
   assert.match(source, /prioritySequence/);
+  assert.match(source, /coreInterestMatches/);
+  assert.match(source, /Kerninteresses/);
+  assert.match(source, /kerninteresse/);
+  assert.match(source, /Handmatig/);
+  assert.match(source, /Afgeleid/);
+  assert.match(source, /match\.weight/);
+  assert.doesNotMatch(source, /reasonCodes/);
 });
 
 test("de score-uitklapper vertaalt technische prioriteitsdata naar leesbare uitleg", async () => {

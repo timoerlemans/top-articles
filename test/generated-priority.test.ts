@@ -3,8 +3,8 @@ import { readFile } from "node:fs/promises";
 import test from "node:test";
 import vm from "node:vm";
 
-import { validatePriorityExport } from "../scripts/lib/readwise-priority-v6.js";
-import type { PrioritySequence } from "../scripts/lib/readwise-priority-v6.js";
+import { validatePriorityExport } from "../scripts/lib/readwise-priority-v7.js";
+import type { PrioritySequence } from "../scripts/lib/readwise-priority-v7.js";
 import {
   isGeneratedPriority,
   isGeneratedTopArticles,
@@ -43,6 +43,9 @@ test("gegenereerde priority-export is geldig en sluit aan op dezelfde actieve ca
     "priority-export bevat een document buiten de actieve catalogus"
   );
   assert.equal(validatePriorityExport(priority), true);
+  assert.equal(priority.model, "readwise-priority-v7");
+  assert.equal(priority.coreInterestPriority.order.slice(0, 3).join(","), "agile,adhd,filosofie");
+  assert.ok(Object.values(priority.items).every((item) => Array.isArray(item.coreInterestMatches)));
   assert.ok(
     data.catalog.items.every((item) => !("scoreBreakdown" in item) && !("score" in item)),
     "catalogus bevat nog legacy-scorevelden"
