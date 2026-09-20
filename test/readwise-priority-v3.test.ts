@@ -94,6 +94,19 @@ test("neemt een handmatige correctie met reden op in dezelfde eindscore", () => 
   assert.throws(() => scorePriorityDocument(doc, { adjustment: 2.5, reason: "Fractie" }), /geheel/i);
 });
 
+test("positie- en toplijsttags veranderen geen inhoudelijke score", () => {
+  const contentOnly = scorePriorityDocument(document({ tags: { philosophy: {}, "team coaching": {} } }));
+  const withManagedTags = scorePriorityDocument(document({ tags: {
+    philosophy: {},
+    "team coaching": {},
+    "lees-0001": {},
+    "aaa-top-10": {},
+    "aaa-scrum-top-100": {},
+  } }));
+
+  assert.deepEqual(withManagedTags, contentOnly);
+});
+
 test("valideert het getrackte correctiecontract", () => {
   assert.equal(validatePriorityOverrides({ version: 1, items: { "doc-1": { adjustment: -10, reason: "Lager" } } }), true);
   assert.throws(() => validatePriorityOverrides({ version: 2, items: {} }), /versie/i);

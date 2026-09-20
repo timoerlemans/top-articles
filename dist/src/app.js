@@ -101,7 +101,7 @@ registerServiceWorker();
     ];
     const SIZE_LABEL = { "top-10": "Top 10", "top-100": "Top 100" };
     const PRIORITY_SEQUENCE_LABELS = {
-        lees: "Lezen",
+        lees: "Algemeen",
         boek: "Boeken",
         pdf: "PDF's",
         video: "Video",
@@ -943,7 +943,7 @@ registerServiceWorker();
             wrap.appendChild(span);
             hasBadges = true;
             const sequenceScore = priority.sequenceScores[activeSequence ?? "lees"];
-            if (activeSequence && sequenceScore) {
+            if (activeSequence && activeSequence !== "lees" && sequenceScore) {
                 const sequenceSpan = document.createElement("span");
                 sequenceSpan.className = `badge sequence-priority-badge priority-${sequenceScore.tier}`;
                 sequenceSpan.textContent = `Reeks: ${prioritySequenceLabel(activeSequence)} · ${sequenceScore.tier} · ${sequenceScore.score}`;
@@ -1078,7 +1078,9 @@ registerServiceWorker();
             ? `Algemene score: ${priority.score}. Basisscore vóór persoonlijke correctie: ${priority.baseScore}. Correctie: ${correction}${priority.adjustmentReason ? ` (${priority.adjustmentReason})` : ""}.`
             : `Algemene score: ${priority.score}. Basisscore: ${priority.baseScore}. Geen persoonlijke correctie.`;
         details.appendChild(total);
-        const activeScore = activeSequence ? priority.sequenceScores[activeSequence] : undefined;
+        const activeScore = activeSequence && activeSequence !== "lees"
+            ? priority.sequenceScores[activeSequence]
+            : undefined;
         if (activeSequence && activeScore) {
             const sequenceTotal = document.createElement("p");
             sequenceTotal.className = "priority-sequence-total";

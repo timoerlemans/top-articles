@@ -169,6 +169,14 @@ test("de browser toont zowel de globale als de actieve reeks-score", async () =>
   assert.match(source, /activeSequence/);
 });
 
+test("de algemene reeks toont geen dubbele reeks-score", async () => {
+  const source = await readFile(new URL("../src/app.js", import.meta.url), "utf8");
+
+  assert.match(source, /lees: "Algemeen"/);
+  assert.match(source, /activeSequence && activeSequence !== "lees" && sequenceScore/);
+  assert.match(source, /const activeScore = activeSequence && activeSequence !== "lees"/);
+});
+
 test("de browsercode gebruikt alleen Prioriteitsscore", async () => {
   const source = await readFile(new URL("../src/app.js", import.meta.url), "utf8");
 
