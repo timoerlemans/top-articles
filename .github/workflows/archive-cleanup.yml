@@ -1,0 +1,64 @@
+name: Cleanup archived Readwise-tags
+
+on:
+  schedule:
+    - cron: "0 * * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: read
+
+concurrency:
+  group: readwise-maintenance
+  cancel-in-progress: false
+
+jobs:
+  cleanup:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Install Readwise CLI
+        run: npm install -g @readwise/cli@0.5.9
+
+      - name: Log in to Readwise
+        env:
+          READWISE_TOKEN: ${{ secrets.READWISE_TOKEN }}
+        run: readwise login-with-token "$READWISE_TOKEN"
+
+      - name: Maak archive cleanup-plan
+        run: npm run archive:cleanup:plan -- --output .tmp/readwise/archive-cleanup-plan.json
+
+      - name: Pas archive cleanup-plan toe
+        run: |
+          PLAN_HASH=$(jq -r '.planHash' .tmp/readwise/archive-cleanup-plan.json)
+          npm run archive:cleanup:apply -- --plan .tmp/readwise/archive-cleanup-plan.json --confirm "$PLAN_HASH"
+
+      - name: Verifieer archive cleanup
+        run: npm run archive:cleanup:verify
+
+      - name: Schrijf samenvatting
+        if: always()
+        run: |
+          if [ -f .tmp/readwise/archive-cleanup-plan.json ]; then
+            {
+              echo "### Readwise archive cleanup"
+              jq -r '"- Archive-documenten: \(.summary.documents)\n- Gewijzigde documenten: \(.summary.changedDocuments)\n- Verwijderingen: \(.summary.removals)\n- Planhash: `\(.planHash)`"' .tmp/readwise/archive-cleanup-plan.json
+            } >> "$GITHUB_STEP_SUMMARY"
+          fi
+
+      - name: Bewaar cleanup-plan en journal
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: archive-cleanup-${{ github.run_id }}
+          path: .tmp/readwise/archive-cleanup-*.json
+          if-no-files-found: ignore
+          retention-days: 14

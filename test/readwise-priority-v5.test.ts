@@ -36,6 +36,7 @@ test("v5 gebruikt een expliciet inhoudslabel en kleine sequence-fitcorrectie", (
     usefulness: 3 as const,
     sequenceFit: { lees: 0 as const },
     confidence: "low" as const,
+    status: "accepted" as const,
     reasonCodes: ["legacy-test-label"],
   };
   const result = buildPriorityExport([doc], {

@@ -72,11 +72,30 @@ Vereist een ingelogde [`@readwise/cli`](https://www.npmjs.com/package/@readwise/
 (`readwise login`).
 
 ```bash
-npm run priority:judge # haalt top-100-documenten en hun highlights op voor judgments
+npm run priority:judge -- prepare --top100 # read-only evidence voor handmatige semantic judgments
+npm run priority:judge -- validate --require-top100 # strikte controle na semantic review
+npm run priority:judge -- ensure-fallback --top100 # registreert alleen ontbrekende low-confidence fallbacks
 npm run build   # haalt actuele later-data op en schrijft data/data.js + data/score.js
 npm run priority:interest-report # read-only v6→v7-impactrapport in .tmp/readwise/
+npm run archive:cleanup:plan -- --output .tmp/readwise/archive-cleanup-plan.json
+PLAN_HASH=$(jq -r '.planHash' .tmp/readwise/archive-cleanup-plan.json)
+npm run archive:cleanup:apply -- --plan .tmp/readwise/archive-cleanup-plan.json --confirm "$PLAN_HASH"
+npm run archive:cleanup:verify
 npm run check   # lint, strict typecheck en tests
 ```
+
+`ensure-fallback` haalt alleen huidige `later`-metadata op en schrijft geen labels over.
+Ontbrekende top-100-documenten krijgen een expliciet low-confidence, door
+`automated-fallback-v1` bijgehouden judgment; bestaande semantic judgments, drafts,
+rejects en stale records blijven zichtbaar in `.tmp/readwise/priority-judge-audit.json`.
+De scheduled sync/refresh-workflows gebruiken dit als operationele vangnet, terwijl de
+handmatige `prepare`/`validate --require-top100`-flow beschikbaar blijft voor echte semantic
+review.
+
+De archive-cleanup-flow is archive-only en verwijdert uitsluitend ordinale/toplijsttags en
+`light-reading`; inhoudstags, taaltags en curatietags blijven behouden. Het plan heeft een
+bevestigingshash en live bronfingerprint. `.github/workflows/archive-cleanup.yml` voert dezelfde
+plan/apply/verify-flow ieder uur uit.
 
 Open daarna `index.html` direct in de browser (geen webserver nodig).
 

@@ -8,6 +8,10 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  group: readwise-maintenance
+  cancel-in-progress: false
+
 jobs:
   refresh:
     runs-on: ubuntu-latest
@@ -25,33 +29,56 @@ jobs:
         run: npm run check
 
       - name: Install Readwise CLI
-        run: npm install -g @readwise/cli
+        run: npm install -g @readwise/cli@0.5.9
 
       - name: Log in to Readwise
         env:
           READWISE_TOKEN: ${{ secrets.READWISE_TOKEN }}
         run: readwise login-with-token "$READWISE_TOKEN"
 
-      - name: Prepare semantic priority evidence
-        run: npm run priority:judge -- prepare --top100
-
-      - name: Validate semantic priority judgments
-        run: npm run priority:judge -- validate --require-top100
+      - name: Ensure operational fallback judgments
+        run: npm run priority:judge -- ensure-fallback --top100 --report .tmp/readwise/priority-judge-audit.json
 
       - name: Build app data
         run: npm run build
 
       - name: Commit changes if any
         run: |
-          if git diff --quiet -- data/data.js data/score.js dist/src; then
-            echo "Geen wijzigingen in gegenereerde browser- of Readwise-data"
+          if git diff --quiet -- config/readwise-priority-judgments.json data/data.js data/score.js dist/src; then
+            echo "Geen wijzigingen in fallback-configuratie of gegenereerde browser- en Readwise-data"
             exit 0
           fi
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add data/data.js data/score.js dist/src
-          git commit -m "chore: ververs gegenereerde appdata"
-          git push
+          git add config/readwise-priority-judgments.json data/data.js data/score.js dist/src
+          git commit -m "chore: ververs Readwise-data en judgments"
+          for attempt in 1 2 3; do
+            if git push origin "HEAD:${GITHUB_REF_NAME}"; then
+              exit 0
+            fi
+            git fetch origin "${GITHUB_REF_NAME}"
+            git rebase "origin/${GITHUB_REF_NAME}"
+          done
+          exit 1
+
+      - name: Schrijf samenvatting
+        if: always()
+        run: |
+          {
+            echo "### Readwise refresh"
+            if [ -f .tmp/readwise/priority-judge-audit.json ]; then
+              jq -r '"- Fallback top-100: \(.top100)\n- Nieuw: \((.added // []) | length)\n- Bestaand: \((.existing // []) | length)\n- Stale: \((.stale // []) | length)\n- Draft: \((.draft // []) | length)\n- Rejected: \((.rejected // []) | length)"' .tmp/readwise/priority-judge-audit.json
+            fi
+          } >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Bewaar fallback-audit
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: refresh-readwise-debug-${{ github.run_id }}
+          path: .tmp/readwise/*.json
+          if-no-files-found: ignore
+          retention-days: 14
 
       - name: Send top-1 email
         env:

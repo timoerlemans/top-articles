@@ -12,6 +12,8 @@ export type SequenceFit = -2 | -1 | 0 | 1 | 2;
 export type JudgmentStatus = "accepted" | "draft" | "rejected";
 export type HighlightProvenance = "user" | "readwise-enrich" | "readwise-triage" | "unknown";
 
+export const AUTOMATED_FALLBACK_JUDGER = "automated-fallback-v1" as const;
+
 export interface PriorityHighlight {
   stableRef: string;
   text: string;
@@ -275,6 +277,26 @@ export function fallbackJudgment(doc: PriorityDocument): ContentJudgment {
   };
 }
 
+/**
+ * Operational judgment for a new top-100 document without a semantic review.
+ * It deliberately reuses the deterministic low-confidence fallback and records
+ * enough provenance for the scheduled workflow to distinguish it from a label.
+ */
+export function automatedFallbackJudgment(doc: PriorityDocument, judgedAt = new Date().toISOString()): ContentJudgment {
+  const evidence = buildPriorityEvidence(doc, []);
+  const fallback = fallbackJudgment(doc);
+  return {
+    ...fallback,
+    evidenceFingerprint: evidence.evidenceFingerprint,
+    reasonCodes: [...new Set([...fallback.reasonCodes, "automated-fallback"])],
+    status: "accepted",
+    rubricVersion: "semantic-v1",
+    evidenceRefs: ["metadata"],
+    judgedBy: AUTOMATED_FALLBACK_JUDGER,
+    judgedAt,
+  };
+}
+
 function isRating(value: unknown): value is ContentRating {
   return Number.isInteger(value) && typeof value === "number" && value >= 0 && value <= 4;
 }
@@ -299,7 +321,12 @@ export function validateContentJudgment(value: unknown): value is ContentJudgmen
 export function validatePriorityJudgments(value: unknown): value is PriorityJudgmentsConfig {
   if (!isRecord(value) || (value.version !== 1 && value.version !== 2) || !isRecord(value.items)) {return false;}
   if (value.version === 2 && value.rubricVersion !== "semantic-v1") {return false;}
-  if (value.version === 2 && Object.entries(value.items).some(([, judgment]) => !isRecord(judgment) || judgment.status !== "accepted" || typeof judgment.evidenceFingerprint !== "string" || typeof judgment.judgedBy !== "string" || typeof judgment.judgedAt !== "string")) {return false;}
+  if (value.version === 2 && Object.entries(value.items).some(([, judgment]) => {
+    if (!isRecord(judgment) || !["accepted", "draft", "rejected"].includes(String(judgment.status))) {return true;}
+    return typeof judgment.evidenceFingerprint !== "string" || !/^[a-f0-9]{64}$/.test(judgment.evidenceFingerprint) ||
+      typeof judgment.judgedBy !== "string" || judgment.judgedBy.trim().length === 0 ||
+      typeof judgment.judgedAt !== "string" || judgment.judgedAt.trim().length === 0;
+  })) {return false;}
   return Object.entries(value.items).every(([id, judgment]) => id.length > 0 && validateContentJudgment(judgment));
 }
 
@@ -311,8 +338,8 @@ export function judgmentFor(
     ? (judgments as PriorityJudgmentsConfig).items
     : judgments;
   const candidate = doc.id ? items[doc.id] : undefined;
-  if (candidate && validateContentJudgment(candidate) && candidate.sourceFingerprint === judgmentSourceFingerprint(doc)) {
-    return { judgment: candidate, source: "label" };
+  if (candidate && validateContentJudgment(candidate) && candidate.status === "accepted" && candidate.sourceFingerprint === judgmentSourceFingerprint(doc)) {
+    return { judgment: candidate, source: candidate.judgedBy === AUTOMATED_FALLBACK_JUDGER ? "fallback" : "label" };
   }
   return { judgment: fallbackJudgment(doc), source: "fallback" };
 }

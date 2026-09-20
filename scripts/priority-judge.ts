@@ -9,7 +9,7 @@ import { fileURLToPath } from "node:url";
 import { createReadwiseRequester } from "./lib/readwise-request.js";
 import { parseReadwiseDocumentPage } from "./lib/external-schemas.js";
 import type { ReadwiseDocument } from "./lib/external-schemas.js";
-import { buildEvidenceSnapshot, batchPriorityEvidence, validateJudgmentSet, type PriorityEvidenceSnapshot } from "./lib/priority-judge.js";
+import { buildEvidenceSnapshot, batchPriorityEvidence, ensureMissingTop100Fallbacks, validateJudgmentSet, type PriorityEvidenceSnapshot } from "./lib/priority-judge.js";
 import { validatePriorityJudgments, type PriorityJudgmentsConfig } from "./lib/priority-judgments.js";
 import { buildPriorityComparisonReport } from "./lib/priority-report.js";
 import { validateCoreInterestPriorityConfig } from "./lib/core-interest-priority.js";
@@ -160,6 +160,22 @@ async function validateCommand(): Promise<void> {
   console.log(`Judgments: accepted=${String(report.accepted)}, missing=${String(report.missing)}, stale=${String(report.stale)}, rejected=${String(report.rejected)}.`);
 }
 
+async function ensureFallbackCommand(): Promise<void> {
+  requireTop100();
+  const documents = await fetchLater();
+  const configPath = option("--config", JUDGMENTS_FILE) ?? JUDGMENTS_FILE;
+  const config = await readConfig(configPath);
+  const judgedAt = option("--judged-at");
+  const result = ensureMissingTop100Fallbacks(documents, config, judgedAt ? { judgedAt } : {});
+  const reportPath = await writeJson(option("--report", ".tmp/readwise/priority-judge-audit.json") ?? ".tmp/readwise/priority-judge-audit.json", result.report);
+  if (result.report.added.length > 0) {
+    await writeJson(configPath, result.config);
+  }
+  console.log(`Top-100 fallback: top100=${String(result.report.top100)}, toegevoegd=${String(result.report.added.length)}, bestaand=${String(result.report.existing.length)}, stale=${String(result.report.stale.length)}, draft=${String(result.report.draft.length)}, rejected=${String(result.report.rejected.length)}.`);
+  console.log(`Audit: ${reportPath}`);
+  if (result.report.added.length > 0) {console.log(`Config bijgewerkt: ${resolve(configPath)}`);}
+}
+
 function reportMarkdown(report: ReturnType<typeof buildPriorityComparisonReport>): string {
   const lines = ["# Readwise priority comparison", "", `Generated: ${report.generatedAt}`, "", "| Reeks | Huidig top-100 | Beoordeeld top-100 | Overlap | Entries | Exits | Spearman |", "|---|---:|---:|---:|---:|---:|---:|"];
   for (const [sequence, metrics] of Object.entries(report.sequences)) {
@@ -184,8 +200,9 @@ async function main(): Promise<void> {
   const command = process.argv[2];
   if (command === "prepare") {return prepareCommand();}
   if (command === "validate") {return validateCommand();}
+  if (command === "ensure-fallback") {return ensureFallbackCommand();}
   if (command === "report") {return reportCommand();}
-  throw new Error("Gebruik: priority:judge <prepare|validate|report>");
+  throw new Error("Gebruik: priority:judge <prepare|validate|ensure-fallback|report>");
 }
 
 main().catch((error: unknown) => {

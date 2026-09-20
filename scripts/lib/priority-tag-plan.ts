@@ -14,6 +14,7 @@ import type { CoreInterestPriorityConfig } from "./core-interest-priority.js";
 import type { ContentJudgment, PriorityJudgmentsConfig } from "./priority-judgments.js";
 import type { PriorityDocument } from "./readwise-priority-v2.js";
 import { FAMILY_DEFINITIONS } from "./unified-lists.js";
+import { isReadwisePriorityTag } from "./readwise-tags.js";
 
 export const TAG_PLAN_MODEL = "readwise-priority-tag-plan-v2" as const;
 
@@ -191,7 +192,7 @@ function tagKeys(doc: PriorityDocument): string[] {
 }
 
 export function isManagedOrderTag(tag: string): boolean {
-  return TOPLIST_TAGS.has(tag) || [...ORDINAL_PATTERNS.values()].some((pattern) => pattern.test(tag));
+  return TOPLIST_TAGS.has(tag) || [...ORDINAL_PATTERNS.values()].some((pattern) => pattern.test(tag)) || isReadwisePriorityTag(tag);
 }
 
 function ordinalTag(sequence: PrioritySequence, position: number): string {

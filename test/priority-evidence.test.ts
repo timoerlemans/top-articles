@@ -2,8 +2,11 @@ import assert from "node:assert/strict";
 import test from "node:test";
 
 import {
+  AUTOMATED_FALLBACK_JUDGER,
   buildPriorityEvidence,
   evidenceFingerprint,
+  automatedFallbackJudgment,
+  judgmentFor,
   validatePriorityJudgments,
   type PriorityDocumentEvidence,
 } from "../scripts/lib/priority-judgments.js";
@@ -78,7 +81,7 @@ test("evidence fingerprint changes when a new unique highlight changes the evide
   assert.equal(evidenceFingerprint(first), evidenceFingerprint(buildPriorityEvidence(document(), [{ id: "h9", text: "Eerste inzicht." }])));
 });
 
-test("judgment config accepts only the explicit v2 semantic contract", () => {
+test("judgment config accepts accepted, draft, and rejected v2 records with metadata", () => {
   const evidence: PriorityDocumentEvidence = buildPriorityEvidence(document());
   const value = {
     version: 2,
@@ -86,6 +89,23 @@ test("judgment config accepts only the explicit v2 semantic contract", () => {
     items: { "doc-1": accepted(evidence.sourceFingerprint) },
   };
   assert.equal(validatePriorityJudgments(value), true);
-  assert.equal(validatePriorityJudgments({ ...value, items: { "doc-1": { ...accepted(evidence.sourceFingerprint), status: "draft" } } }), false);
+  assert.equal(validatePriorityJudgments({ ...value, items: { "doc-1": { ...accepted(evidence.sourceFingerprint), status: "draft" } } }), true);
+  assert.equal(validatePriorityJudgments({ ...value, items: { "doc-1": { ...accepted(evidence.sourceFingerprint), status: "rejected" } } }), true);
+  assert.equal(validatePriorityJudgments({ ...value, items: { "doc-1": { ...accepted(evidence.sourceFingerprint), judgedBy: undefined } } }), false);
   assert.equal(validatePriorityJudgments({ ...value, items: { "doc-1": { ...accepted(evidence.sourceFingerprint), highlights: ["raw text"] } } }), false);
+});
+
+test("runtime uses only accepted current judgments and marks automated fallbacks", () => {
+  const fallback = automatedFallbackJudgment(document(), "2026-09-20T00:00:00.000Z");
+  assert.equal(fallback.status, "accepted");
+  assert.equal(fallback.judgedBy, AUTOMATED_FALLBACK_JUDGER);
+  assert.equal(fallback.confidence, "low");
+  assert.equal(fallback.judgedAt, "2026-09-20T00:00:00.000Z");
+  assert.equal(judgmentFor(document(), { version: 2, rubricVersion: "semantic-v1", items: { "doc-1": fallback } }).source, "fallback");
+
+  const draft = { ...fallback, status: "draft" as const };
+  assert.equal(judgmentFor(document(), { version: 2, rubricVersion: "semantic-v1", items: { "doc-1": draft } }).source, "fallback");
+
+  const rejected = { ...fallback, status: "rejected" as const };
+  assert.equal(judgmentFor(document(), { version: 2, rubricVersion: "semantic-v1", items: { "doc-1": rejected } }).source, "fallback");
 });

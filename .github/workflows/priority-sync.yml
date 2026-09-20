@@ -6,7 +6,11 @@ on:
   workflow_dispatch: {}
 
 permissions:
-  contents: read
+  contents: write
+
+concurrency:
+  group: readwise-maintenance
+  cancel-in-progress: false
 
 jobs:
   sync:
@@ -22,7 +26,7 @@ jobs:
         run: npm ci
 
       - name: Install Readwise CLI
-        run: npm install -g @readwise/cli
+        run: npm install -g @readwise/cli@0.5.9
 
       - name: Log in to Readwise
         env:
@@ -32,11 +36,27 @@ jobs:
       - name: Run tests
         run: npm run check
 
-      - name: Prepare semantic priority evidence
-        run: npm run priority:judge -- prepare --top100
+      - name: Ensure operational fallback judgments
+        run: npm run priority:judge -- ensure-fallback --top100 --report .tmp/readwise/priority-judge-audit.json
 
-      - name: Validate semantic priority judgments
-        run: npm run priority:judge -- validate --require-top100
+      - name: Bewaar gewijzigde fallback-configuratie
+        run: |
+          if git diff --quiet -- config/readwise-priority-judgments.json; then
+            echo "Geen nieuwe fallback-judgments"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add config/readwise-priority-judgments.json
+          git commit -m "chore: registreer automatische priority judgments"
+          for attempt in 1 2 3; do
+            if git push origin "HEAD:${GITHUB_REF_NAME}"; then
+              exit 0
+            fi
+            git fetch origin "${GITHUB_REF_NAME}"
+            git rebase "origin/${GITHUB_REF_NAME}"
+          done
+          exit 1
 
       - name: Genereer prioriteitsplan
         run: npm run priority:plan -- --output .tmp/readwise/priority-plan.json
@@ -52,9 +72,12 @@ jobs:
       - name: Schrijf samenvatting
         if: always()
         run: |
-          if [ -f .tmp/readwise/priority-plan.json ]; then
-            {
-              echo "### Readwise-leesvolgorde synchronisatie"
+          {
+            echo "### Readwise-leesvolgorde synchronisatie"
+            if [ -f .tmp/readwise/priority-judge-audit.json ]; then
+              jq -r '"- Fallback top-100: \(.top100)\n- Nieuw: \((.added // []) | length)\n- Bestaand: \((.existing // []) | length)\n- Stale: \((.stale // []) | length)\n- Draft: \((.draft // []) | length)\n- Rejected: \((.rejected // []) | length)"' .tmp/readwise/priority-judge-audit.json
+            fi
+            if [ -f .tmp/readwise/priority-plan.json ]; then
               jq -r '"- Documenten: \(.summary.documents)\n- Toevoegingen: \(.summary.additions)\n- Verwijderingen: \(.summary.removals)\n- Planhash: `\(.planHash)`"' .tmp/readwise/priority-plan.json
               echo
               if jq -e '((.top100Entries // []) + (.top100Exits // [])) | length > 0' .tmp/readwise/priority-plan.json > /dev/null; then
@@ -70,13 +93,14 @@ jobs:
               else
                 echo "Geen nieuwe of weggevallen top-100-items."
               fi
-            } >> "$GITHUB_STEP_SUMMARY"
-          fi
+            fi
+          } >> "$GITHUB_STEP_SUMMARY"
 
       - name: Bewaar plan en journal bij falen
-        if: failure()
+        if: always()
         uses: actions/upload-artifact@v4
         with:
           name: priority-sync-debug-${{ github.run_id }}
           path: .tmp/readwise/*.json
+          if-no-files-found: ignore
           retention-days: 14

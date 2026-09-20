@@ -18,6 +18,9 @@
     "archive:plan": "npm run compile && node dist/scripts/archive-cli.js plan",
     "archive:apply": "npm run compile && node dist/scripts/archive-cli.js apply",
     "archive:verify": "npm run compile && node dist/scripts/archive-cli.js verify",
+    "archive:cleanup:plan": "npm run compile && node dist/scripts/archive-cleanup-cli.js plan",
+    "archive:cleanup:apply": "npm run compile && node dist/scripts/archive-cleanup-cli.js apply",
+    "archive:cleanup:verify": "npm run compile && node dist/scripts/archive-cleanup-cli.js verify",
     "email:core-interest": "npm run compile && node dist/scripts/send-core-interest-email.js",
     "test": "npm run compile && node --test dist/test/*.test.js"
   },

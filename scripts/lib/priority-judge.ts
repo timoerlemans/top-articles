@@ -1,6 +1,8 @@
 import {
+  automatedFallbackJudgment,
   buildPriorityEvidence,
   validatePriorityJudgments,
+  type PriorityJudgmentsConfig,
   type PriorityDocumentEvidence,
 } from "./priority-judgments.js";
 import type { PriorityDocument } from "./readwise-priority-v2.js";
@@ -17,6 +19,24 @@ export interface JudgmentValidationReport {
   missing: number;
   stale: number;
   rejected: number;
+}
+
+export interface Top100FallbackReport {
+  top100: number;
+  added: string[];
+  existing: string[];
+  stale: string[];
+  draft: string[];
+  rejected: string[];
+}
+
+export interface EnsureMissingTop100FallbackOptions {
+  judgedAt?: string;
+}
+
+export interface EnsureMissingTop100FallbackResult {
+  config: PriorityJudgmentsConfig;
+  report: Top100FallbackReport;
 }
 
 function normalize(value: unknown): string {
@@ -65,6 +85,42 @@ export function buildEvidenceSnapshot(
     return [[doc.id, buildPriorityEvidence(doc, highlightsById.get(doc.id) ?? [])]] as const;
   }));
   return { version: 1, generatedAt, scope: "later", documents: evidence };
+}
+
+export function ensureMissingTop100Fallbacks(
+  documents: readonly PriorityDocument[],
+  config: PriorityJudgmentsConfig,
+  options: EnsureMissingTop100FallbackOptions = {},
+): EnsureMissingTop100FallbackResult {
+  if (!validatePriorityJudgments(config) || config.version !== 2) {
+    throw new Error("Semantische judgment-config moet version 2 en rubricVersion semantic-v1 hebben");
+  }
+  const report: Top100FallbackReport = { top100: 0, added: [], existing: [], stale: [], draft: [], rejected: [] };
+  const items = { ...config.items };
+  for (const doc of selectTop100Documents(documents)) {
+    if (!doc.id) {continue;}
+    report.top100 += 1;
+    const judgment = items[doc.id];
+    if (!judgment) {
+      items[doc.id] = automatedFallbackJudgment(doc, options.judgedAt);
+      report.added.push(doc.id);
+      continue;
+    }
+    if (judgment.status === "draft") {
+      report.draft.push(doc.id);
+      continue;
+    }
+    if (judgment.status === "rejected") {
+      report.rejected.push(doc.id);
+      continue;
+    }
+    if (judgment.status !== "accepted" || judgment.sourceFingerprint !== buildPriorityEvidence(doc, []).sourceFingerprint) {
+      report.stale.push(doc.id);
+      continue;
+    }
+    report.existing.push(doc.id);
+  }
+  return { config: { ...config, items }, report };
 }
 
 export function validateJudgmentSet(

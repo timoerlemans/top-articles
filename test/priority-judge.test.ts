@@ -3,6 +3,7 @@ import test from "node:test";
 
 import {
   batchPriorityEvidence,
+  ensureMissingTop100Fallbacks,
   selectTop100Documents,
   validateJudgmentSet,
   type PriorityEvidenceSnapshot,
@@ -67,4 +68,50 @@ test("required top-100 validation fails on missing, stale, or draft judgments", 
   assert.deepEqual(validateJudgmentSet(docs, snapshot, valid, true), { accepted: 2, missing: 0, stale: 0, rejected: 0 });
   const stale = { ...valid, items: { ...valid.items, two: accepted(two.sourceFingerprint, "b".repeat(64)) } };
   assert.throws(() => validateJudgmentSet(docs, snapshot, stale, true), /stale|fingerprint/i);
+});
+
+test("fallback ensure adds only missing top-100 items and reports preserved statuses", () => {
+  const docs = [
+    document("missing", { "aaa-top-100": {} }),
+    document("draft", { "aaa-top-100": {} }),
+    document("rejected", { "aaa-top-100": {} }),
+    document("stale", { "aaa-top-100": {} }),
+    document("existing", { "aaa-top-100": {} }),
+    document("outside", { philosophy: {} }),
+  ];
+  const evidence = docs.reduce<Record<string, PriorityDocumentEvidence>>((result, doc) => {
+    if (doc.id) {result[doc.id] = buildPriorityEvidence(doc);}
+    return result;
+  }, {});
+  const current = (id: string) => {
+    const item = evidence[id];
+    if (!item) {throw new Error(`Missing test evidence for ${id}`);}
+    return accepted(item.sourceFingerprint, item.evidenceFingerprint);
+  };
+  const config: PriorityJudgmentsConfig = {
+    version: 2,
+    rubricVersion: "semantic-v1",
+    items: {
+      draft: { ...current("draft"), status: "draft" },
+      rejected: { ...current("rejected"), status: "rejected" },
+      stale: { ...current("stale"), sourceFingerprint: "c".repeat(64) },
+      existing: current("existing"),
+    },
+  };
+
+  const result = ensureMissingTop100Fallbacks(docs, config, { judgedAt: "2026-09-20T00:00:00.000Z" });
+  assert.deepEqual(result.report, {
+    top100: 5,
+    added: ["missing"],
+    existing: ["existing"],
+    stale: ["stale"],
+    draft: ["draft"],
+    rejected: ["rejected"],
+  });
+  assert.equal(result.config.items.missing?.status, "accepted");
+  assert.equal(result.config.items.missing?.judgedBy, "automated-fallback-v1");
+  assert.equal(result.config.items.stale?.sourceFingerprint, "c".repeat(64));
+  assert.equal(result.config.items.draft?.status, "draft");
+  assert.equal(result.config.items.rejected?.status, "rejected");
+  assert.equal(result.config.items.outside, undefined);
 });

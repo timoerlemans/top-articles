@@ -55,6 +55,12 @@ const WORKFLOW_TAGS = new Set([
   "triaged", "archiveren", "later", "translated",
 ]);
 
+/** Tags owned by the priority/reordering workflows, including historical labels. */
+export function isReadwisePriorityTag(tag: string): boolean {
+  const normalized = tag.trim().toLowerCase();
+  return normalized === "light-reading" || TOPLIST_TAG_PATTERN.test(normalized) || ORDINAL_TAG_PATTERN.test(normalized);
+}
+
 /** Known historical or overly broad labels mapped to the canonical vocabulary. */
 export const READWISE_TAG_ALIASES: Readonly<Record<string, readonly string[]>> = {
   "agile & scrum": ["agile", "scrum"],
@@ -93,8 +99,7 @@ export const READWISE_TAG_ALIASES: Readonly<Record<string, readonly string[]>> =
 export function isReadwiseSystemTag(tag: string): boolean {
   const normalized = tag.trim().toLowerCase();
   return normalized.startsWith("aaa-") ||
-    TOPLIST_TAG_PATTERN.test(normalized) ||
-    ORDINAL_TAG_PATTERN.test(normalized) ||
+    isReadwisePriorityTag(normalized) ||
     LANGUAGE_TAGS.has(normalized) ||
     WORKFLOW_TAGS.has(normalized);
 }

@@ -192,6 +192,21 @@ test("behoudt luchtig-lidmaatschap uit historische viercijferige tags", () => {
   assert.ok(lightLegacy.remove.includes("luchtig-0004"));
 });
 
+test("ruimt generieke historische priority-tags op naast de bekende reeksen", () => {
+  const document = doc("generic-legacy", {
+    category: "epub",
+    tags: {
+      philosophy: {},
+      "historical-series-1234": {},
+      "custom-top-10": {},
+      "light-reading": {},
+    },
+  });
+  const plan = buildPriorityTagPlan([document], [], { generatedAt: "2026-08-16T10:00:00.000Z" });
+  const legacy = changeFor(plan, "generic-legacy");
+  assert.deepEqual(legacy.remove, ["custom-top-10", "historical-series-1234", "light-reading"]);
+});
+
 test("houdt ieder document in later in de gewenste reeksen ongeacht leesvoortgang", () => {
   const read = doc("read", { reading_progress: 0.98, tags: {} });
   const plan = buildPriorityTagPlan([read], [], {

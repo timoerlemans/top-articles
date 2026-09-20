@@ -3,6 +3,7 @@ import test from "node:test";
 
 import {
   canonicalInterestTags,
+  isReadwisePriorityTag,
   isReadwiseSystemTag,
   READWISE_ENRICH_TAXONOMY,
 } from "../scripts/lib/readwise-tags.js";
@@ -60,4 +61,13 @@ test("verwijdert workflow-, lijst- en positietags uit de inhoudstags", () => {
     ["accessibility"],
   );
   assert.equal(isReadwiseSystemTag("aaa-front-end-development-top-100"), true);
+});
+
+test("herkent alle historische priority-tagreeksen centraal", () => {
+  for (const tag of ["lees-0001", "historical-series-1234", "aaa-top-10", "custom-top-100", "light-reading", "LIGHT-READING"]) {
+    assert.equal(isReadwisePriorityTag(tag), true, `verwachte priority-tag: ${tag}`);
+  }
+  for (const tag of ["must-read", "philosophy", "custom-12"]) {
+    assert.equal(isReadwisePriorityTag(tag), false, `geen priority-tag: ${tag}`);
+  }
 });
