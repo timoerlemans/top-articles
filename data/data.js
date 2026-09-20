@@ -1,6 +1,6 @@
 // Automatisch gegenereerd door scripts/build-data.ts — niet handmatig bewerken.
 window.TOP_ARTICLES = {
-  "generatedAt": "2026-09-20T06:28:17.988Z",
+  "generatedAt": "2026-09-20T07:11:29.303Z",
   "families": [
     {
       "id": "algemeen",
@@ -1304,7 +1304,6 @@ window.TOP_ARTICLES = {
                 "agile"
               ],
               "alsoIn": [
-                "aaa-scrum-top-10",
                 "aaa-scrum-top-100",
                 "aaa-social-studies-top-100"
               ]
@@ -2892,7 +2891,6 @@ window.TOP_ARTICLES = {
                 "agile"
               ],
               "alsoIn": [
-                "aaa-scrum-top-10",
                 "aaa-scrum-top-100",
                 "aaa-social-studies-top-100"
               ]
@@ -3617,6 +3615,7 @@ window.TOP_ARTICLES = {
               ],
               "alsoIn": [
                 "aaa-short-top-100",
+                "aaa-scrum-top-10",
                 "aaa-scrum-top-100",
                 "aaa-social-studies-top-100"
               ]
@@ -3871,6 +3870,7 @@ window.TOP_ARTICLES = {
               ],
               "alsoIn": [
                 "aaa-short-top-100",
+                "aaa-scrum-top-10",
                 "aaa-scrum-top-100",
                 "aaa-social-studies-top-100",
                 "aaa-software-development-top-10",
@@ -7165,6 +7165,7 @@ window.TOP_ARTICLES = {
               ],
               "alsoIn": [
                 "aaa-top-100",
+                "aaa-scrum-top-10",
                 "aaa-scrum-top-100",
                 "aaa-social-studies-top-100",
                 "aaa-software-development-top-10",
@@ -7269,6 +7270,7 @@ window.TOP_ARTICLES = {
               ],
               "alsoIn": [
                 "aaa-top-100",
+                "aaa-scrum-top-10",
                 "aaa-scrum-top-100",
                 "aaa-social-studies-top-100"
               ]
@@ -15657,122 +15659,6 @@ window.TOP_ARTICLES = {
           "items": [
             {
               "position": 1,
-              "id": "01knpkrv3w8wsbhpd6qs67fkd1",
-              "title": "📗 On Building a Vocabulary for Discussing Network Effects",
-              "author": null,
-              "siteName": "Substack",
-              "category": "email",
-              "language": "Engels",
-              "readingTime": "15 mins",
-              "readingMinutes": 15,
-              "wordCount": 3745,
-              "publishedDate": "2026-04-08",
-              "savedDate": "2026-04-08T13:16:09.724000+00:00",
-              "imageUrl": null,
-              "sourceUrl": "mailto:reader-forwarded-email/d6ee8a8e3bdf60078918ae62e3ef80ea",
-              "readwiseUrl": "https://read.readwise.io/read/01knpkrv3w8wsbhpd6qs67fkd1",
-              "summary": "I read The Cold Start Problem for the same reason I read and reviewed Certain to Win — I wanted to understand business better now that I work for a startup instead of a school system.",
-              "whyRead": "Raakt je professionele ontwikkeling, Scrum Master-werk en interesse in sociale structuren: dit geeft een bruikbare taal voor hoe groepen, platforms en instituties op gang komen en vastlopen.",
-              "bestMoment": "analytisch",
-              "tags": [
-                "business & startups",
-                "professional development",
-                "social psychology & interpersonal dynamics",
-                "sociology & social structures",
-                "team dynamics & collaboration"
-              ],
-              "coreInterests": [
-                "sociologie",
-                "agile"
-              ],
-              "alsoIn": [
-                "aaa-top-100",
-                "aaa-scrum-top-100",
-                "aaa-social-studies-top-10",
-                "aaa-social-studies-top-100"
-              ]
-            },
-            {
-              "position": 2,
-              "id": "01kacg6vhze0snam0cv2cv2feh",
-              "title": "What advice do I give to my students?",
-              "author": null,
-              "siteName": "Forms of life, forms of mind",
-              "category": "article",
-              "language": "Engels",
-              "readingTime": "20 mins",
-              "readingMinutes": 20,
-              "wordCount": 5138,
-              "publishedDate": "2024-05-20",
-              "savedDate": "2025-11-18T22:08:50.240000+00:00",
-              "imageUrl": "https://i0.wp.com/thoughtforms.life/wp-content/uploads/2024/05/mlevin77_a_cosmic_mountain_landscape_full_of_mathematical_compu_df4eadde-c1b5-4406-8761-606e53874948.png?fit=1200%2C800&ssl=1",
-              "sourceUrl": "https://thoughtforms.life/what-advice-do-i-give-to-my-students/",
-              "readwiseUrl": "https://read.readwise.io/read/01kacg6vhze0snam0cv2cv2feh",
-              "summary": "Trust your own judgment and hone your intuition by taking small bets, learning from feedback, and changing course when needed.  \nSeek mentors for specific help but don’t expect anyone to know your whole path.  \nBalance working from the heart with practical plans to make your ideas actually matter.",
-              "whyRead": "Michael Levin deelt onconventioneel advies over leven in de wetenschap – eerlijk en verfrissend. Raakt daarnaast je interesse in sociale psychologie en interpersoonlijke dynamiek, teamdynamiek en samenwerking.",
-              "bestMoment": "reflectief",
-              "tags": [
-                "learning & meta-learning",
-                "personal growth & life philosophy",
-                "social psychology & interpersonal dynamics",
-                "team dynamics & collaboration",
-                "virtue ethics"
-              ],
-              "coreInterests": [
-                "filosofie",
-                "sociologie",
-                "agile"
-              ],
-              "alsoIn": [
-                "aaa-top-10",
-                "aaa-top-100",
-                "aaa-scrum-top-100",
-                "aaa-social-studies-top-10",
-                "aaa-social-studies-top-100"
-              ]
-            },
-            {
-              "position": 3,
-              "id": "01k7xkcp63y5bjsxg3fykwtwg0",
-              "title": "How to Create Your Own University Course to Teach Yourself Almost Anything",
-              "author": null,
-              "siteName": "substack.com",
-              "category": "article",
-              "language": "Engels",
-              "readingTime": "12 mins",
-              "readingMinutes": 12,
-              "wordCount": 3081,
-              "publishedDate": "2025-07-22",
-              "savedDate": "2026-03-31T07:24:54.998000+00:00",
-              "imageUrl": "https://substackcdn.com/image/fetch/$s_!KdAW!,w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ffd317529-5462-461e-a8c9-39a9216fd0bb_4000x3000.jpeg",
-              "sourceUrl": "https://parknotes.substack.com/p/how-to-create-your-own-university",
-              "readwiseUrl": "https://read.readwise.io/read/01k7xkcp63y5bjsxg3fykwtwg0",
-              "summary": "Plan your self-study like a university course with a clear topic, schedule, and syllabus.  \nSet weekly \"credit hours,\" pick lectures and readings, and assign short written tasks to reinforce learning.  \nBlock time in your calendar, use active recall and notes, and iterate courses as you grow.",
-              "whyRead": "Stap-voor-stap gids om je eigen universiteitscursus te maken – structuur voor zelfgestuurd leren. Raakt daarnaast je interesse in sociale psychologie en interpersoonlijke dynamiek, teamdynamiek en samenwerking.",
-              "bestMoment": "leergierig",
-              "tags": [
-                "learning & meta-learning",
-                "personal growth & life philosophy",
-                "philosophy of mind",
-                "popular science",
-                "social psychology & interpersonal dynamics",
-                "stoicism",
-                "team dynamics & collaboration"
-              ],
-              "coreInterests": [
-                "filosofie",
-                "sociologie",
-                "agile"
-              ],
-              "alsoIn": [
-                "aaa-top-100",
-                "aaa-scrum-top-100",
-                "aaa-social-studies-top-10",
-                "aaa-social-studies-top-100"
-              ]
-            },
-            {
-              "position": 4,
               "id": "01m1p73a3z76hwhn4t9qqvpdch",
               "title": "The Single-Page-App Morality Play",
               "author": null,
@@ -15809,114 +15695,44 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 5,
-              "id": "01m2b5m2x613cawg8tkm9tcvzg",
-              "title": "Essence and Accident in Product Development Complexity",
+              "position": 2,
+              "id": "01knpkrv3w8wsbhpd6qs67fkd1",
+              "title": "📗 On Building a Vocabulary for Discussing Network Effects",
               "author": null,
-              "siteName": "YouTube",
-              "category": "video",
-              "language": null,
-              "readingTime": null,
-              "readingMinutes": null,
-              "wordCount": null,
-              "publishedDate": "2026-06-18",
-              "savedDate": "2026-09-12T16:01:18.758000+00:00",
-              "imageUrl": "https://i.ytimg.com/vi/95YZ2ntBl9M/sddefault.jpg",
-              "sourceUrl": "https://www.youtube.com/watch?v=95YZ2ntBl9M",
-              "readwiseUrl": "https://read.readwise.io/read/01m2b5m2x613cawg8tkm9tcvzg",
-              "summary": "This talk was recorded at Craft Conference 2026.\nThe event was organized by CraftHub.\n\nYou can watch the rest of the conference talks on our channel.\n\nIf you are interested in more speakers, tickets and details of the conference, check out our website: https://craft-conf.com/\n\nIf you are interested in more events from our company: https://crafthub.events/",
-              "whyRead": null,
-              "bestMoment": "toepassen. Kern: autonomie is een containerbegrip; teams moeten hun purpose, afhankelijkheden, beslisruimte en relatie tot het grotere geheel expliciet maken.",
-              "tags": [
-                "professional development",
-                "team dynamics & collaboration",
-                "technology"
-              ],
-              "coreInterests": [
-                "agile"
-              ],
-              "alsoIn": [
-                "aaa-scrum-top-100",
-                "aaa-social-studies-top-100",
-                "video-top-10",
-                "video-top-100"
-              ]
-            },
-            {
-              "position": 6,
-              "id": "01kr4074g1php0vejjgev03t5q",
-              "title": "What I Learned About Billionaires at Jeff Bezos’s Private Retreat",
-              "author": null,
-              "siteName": "The Atlantic",
-              "category": "article",
-              "language": null,
-              "readingTime": "10 mins",
-              "readingMinutes": 10,
-              "wordCount": 2436,
-              "publishedDate": "2026-04-20",
-              "savedDate": "2026-05-14T20:29:45.176000+00:00",
-              "imageUrl": "https://cdn.theatlantic.com/thumbor/pU9WUObiJGgn3gTx9M6n66vkXDU=/12x0:2012x1125/1440x810/media/img/2026/04/06/WEL_Hawley_BillionairesRedo/original.png",
-              "sourceUrl": "https://theatlantic.com/magazine/2026/05/billionaire-consequence-free-reality/686588/",
-              "readwiseUrl": "https://read.readwise.io/read/01kr4074g1php0vejjgev03t5q",
-              "summary": "“Bezos and the world’s richest men have left the world of consequences behind,” Noah Hawley writes. “Their actions are only ever judged by themselves.” Here’s what Hawley learned about the ultra-wealthy at Jeff Bezos’s Campfire retreat:",
-              "whyRead": "Raakt je interesse in ongelijkheid, macht en politieke cultuur: Hawley gebruikt een persoonlijke ervaring bij Jeff Bezos' Campfire-retreat om te analyseren hoe extreme rijkdom mensen buiten gewone consequenties plaatst. De tekst heeft een sterke essayistische stem en koppelt anekdote aan maatschappijkritiek. Raakt daarnaast je interesse in sociale psychologie en interpersoonlijke dynamiek, teamdynamiek en samenwerking.",
-              "bestMoment": "kritisch",
-              "tags": [
-                "current affairs & politics",
-                "economics",
-                "social psychology & interpersonal dynamics",
-                "sociology & inequality",
-                "team dynamics & collaboration"
-              ],
-              "coreInterests": [
-                "sociologie",
-                "agile"
-              ],
-              "alsoIn": [
-                "aaa-top-100",
-                "aaa-scrum-top-100",
-                "aaa-social-studies-top-100"
-              ]
-            },
-            {
-              "position": 7,
-              "id": "01hz9sx57zhs6famn519gxxtne",
-              "title": "📚 Advice from Parenting Books, for Everyone",
-              "author": null,
-              "siteName": "Obsidian Iceberg",
-              "category": "article",
+              "siteName": "Substack",
+              "category": "email",
               "language": "Engels",
-              "readingTime": "10 mins",
-              "readingMinutes": 10,
-              "wordCount": 2639,
-              "publishedDate": null,
-              "savedDate": "2024-06-01T11:45:36.511000+00:00",
-              "imageUrl": "https://substackcdn.com/image/fetch/w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff4b0de25-a305-4c62-8f39-7202e9d580ee_1344x896.png",
-              "sourceUrl": "https://www.eleanorkonik.com/p/advice-from-parenting-books-for-everyone?utm_source=post-email-title&publication_id=1974188&post_id=144568965&utm_campaign=email-post-title&isFreemail=true&r=1r0y5d&triedRedirect=true&utm_medium=email",
-              "readwiseUrl": "https://read.readwise.io/read/01hz9sx57zhs6famn519gxxtne",
-              "summary": "Parenting books offer advice applicable to adults too. The key is to help children develop essential skills and independence. Remember, every child is different.",
-              "whyRead": "Raakt je interesse in ouderschap en leren — bevat inzichten uit opvoedboeken die net zo goed werken voor volwassenen, teams en managers als voor kinderen. Raakt daarnaast je interesse in sociale psychologie en interpersoonlijke dynamiek, teamdynamiek en samenwerking.",
-              "bestMoment": "reflectief",
+              "readingTime": "15 mins",
+              "readingMinutes": 15,
+              "wordCount": 3745,
+              "publishedDate": "2026-04-08",
+              "savedDate": "2026-04-08T13:16:09.724000+00:00",
+              "imageUrl": null,
+              "sourceUrl": "mailto:reader-forwarded-email/d6ee8a8e3bdf60078918ae62e3ef80ea",
+              "readwiseUrl": "https://read.readwise.io/read/01knpkrv3w8wsbhpd6qs67fkd1",
+              "summary": "I read The Cold Start Problem for the same reason I read and reviewed Certain to Win — I wanted to understand business better now that I work for a startup instead of a school system.",
+              "whyRead": "Raakt je professionele ontwikkeling, Scrum Master-werk en interesse in sociale structuren: dit geeft een bruikbare taal voor hoe groepen, platforms en instituties op gang komen en vastlopen.",
+              "bestMoment": "analytisch",
               "tags": [
-                "learning & meta-learning",
-                "parenting & care",
-                "personal growth & life philosophy",
+                "business & startups",
+                "professional development",
                 "social psychology & interpersonal dynamics",
+                "sociology & social structures",
                 "team dynamics & collaboration"
               ],
               "coreInterests": [
                 "sociologie",
-                "zorgouderschap",
                 "agile"
               ],
               "alsoIn": [
                 "aaa-top-100",
                 "aaa-scrum-top-100",
+                "aaa-social-studies-top-10",
                 "aaa-social-studies-top-100"
               ]
             },
             {
-              "position": 8,
+              "position": 3,
               "id": "01m1xy92em8n4jbgr4g35t97vt",
               "title": "The Agile Coaching Growth Wheel",
               "author": null,
@@ -15957,7 +15773,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 9,
+              "position": 4,
               "id": "01m1kppm13bn0d0w70hxcjf9tw",
               "title": "Happiness Metric",
               "author": null,
@@ -15992,30 +15808,224 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 10,
-              "id": "01m1kscbbmwsztsc5xam17y12g",
-              "title": "Why Teams Don’t Work",
+              "position": 5,
+              "id": "01kacg6vhze0snam0cv2cv2feh",
+              "title": "What advice do I give to my students?",
               "author": null,
-              "siteName": "Harvard Business Review",
+              "siteName": "Forms of life, forms of mind",
+              "category": "article",
+              "language": "Engels",
+              "readingTime": "20 mins",
+              "readingMinutes": 20,
+              "wordCount": 5138,
+              "publishedDate": "2024-05-20",
+              "savedDate": "2025-11-18T22:08:50.240000+00:00",
+              "imageUrl": "https://i0.wp.com/thoughtforms.life/wp-content/uploads/2024/05/mlevin77_a_cosmic_mountain_landscape_full_of_mathematical_compu_df4eadde-c1b5-4406-8761-606e53874948.png?fit=1200%2C800&ssl=1",
+              "sourceUrl": "https://thoughtforms.life/what-advice-do-i-give-to-my-students/",
+              "readwiseUrl": "https://read.readwise.io/read/01kacg6vhze0snam0cv2cv2feh",
+              "summary": "Trust your own judgment and hone your intuition by taking small bets, learning from feedback, and changing course when needed.  \nSeek mentors for specific help but don’t expect anyone to know your whole path.  \nBalance working from the heart with practical plans to make your ideas actually matter.",
+              "whyRead": "Michael Levin deelt onconventioneel advies over leven in de wetenschap – eerlijk en verfrissend. Raakt daarnaast je interesse in sociale psychologie en interpersoonlijke dynamiek, teamdynamiek en samenwerking.",
+              "bestMoment": "reflectief",
+              "tags": [
+                "learning & meta-learning",
+                "personal growth & life philosophy",
+                "social psychology & interpersonal dynamics",
+                "team dynamics & collaboration",
+                "virtue ethics"
+              ],
+              "coreInterests": [
+                "filosofie",
+                "sociologie",
+                "agile"
+              ],
+              "alsoIn": [
+                "aaa-top-10",
+                "aaa-top-100",
+                "aaa-scrum-top-100",
+                "aaa-social-studies-top-10",
+                "aaa-social-studies-top-100"
+              ]
+            },
+            {
+              "position": 6,
+              "id": "01k7xkcp63y5bjsxg3fykwtwg0",
+              "title": "How to Create Your Own University Course to Teach Yourself Almost Anything",
+              "author": null,
+              "siteName": "substack.com",
+              "category": "article",
+              "language": "Engels",
+              "readingTime": "12 mins",
+              "readingMinutes": 12,
+              "wordCount": 3081,
+              "publishedDate": "2025-07-22",
+              "savedDate": "2026-03-31T07:24:54.998000+00:00",
+              "imageUrl": "https://substackcdn.com/image/fetch/$s_!KdAW!,w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ffd317529-5462-461e-a8c9-39a9216fd0bb_4000x3000.jpeg",
+              "sourceUrl": "https://parknotes.substack.com/p/how-to-create-your-own-university",
+              "readwiseUrl": "https://read.readwise.io/read/01k7xkcp63y5bjsxg3fykwtwg0",
+              "summary": "Plan your self-study like a university course with a clear topic, schedule, and syllabus.  \nSet weekly \"credit hours,\" pick lectures and readings, and assign short written tasks to reinforce learning.  \nBlock time in your calendar, use active recall and notes, and iterate courses as you grow.",
+              "whyRead": "Stap-voor-stap gids om je eigen universiteitscursus te maken – structuur voor zelfgestuurd leren. Raakt daarnaast je interesse in sociale psychologie en interpersoonlijke dynamiek, teamdynamiek en samenwerking.",
+              "bestMoment": "leergierig",
+              "tags": [
+                "learning & meta-learning",
+                "personal growth & life philosophy",
+                "philosophy of mind",
+                "popular science",
+                "social psychology & interpersonal dynamics",
+                "stoicism",
+                "team dynamics & collaboration"
+              ],
+              "coreInterests": [
+                "filosofie",
+                "sociologie",
+                "agile"
+              ],
+              "alsoIn": [
+                "aaa-top-100",
+                "aaa-scrum-top-100",
+                "aaa-social-studies-top-10",
+                "aaa-social-studies-top-100"
+              ]
+            },
+            {
+              "position": 7,
+              "id": "01m1kbpy0d4mhwm6pmkvkvf13z",
+              "title": "Sprint Retrospective**",
+              "author": null,
+              "siteName": "datasenter.no",
               "category": "article",
               "language": null,
-              "readingTime": "14 mins",
-              "readingMinutes": 14,
-              "wordCount": 3510,
-              "publishedDate": "2009-05-01",
-              "savedDate": "2026-09-03T14:04:50.420000+00:00",
-              "imageUrl": "https://hbr.org/resources/images/hbr_opengraph_940x490.png",
-              "sourceUrl": "https://hbr.org/2009/05/why-teams-dont-work",
-              "readwiseUrl": "https://read.readwise.io/read/01m1kscbbmwsztsc5xam17y12g",
-              "summary": "Reprint: R0905H Interviewed by Diane Coutu The belief that teams make us more creative and productive—and are the best way to get things done—is deeply entrenched. But Hackman, a professor of organizational psychology at Harvard and a leading expert on teams, is having none of it. Research, he says, consistently shows that teams underperform despite all their extra resources. In an interview with senior editor Diane Coutu, Hackman explains where teams go wrong. Shockingly, most of the time members don’t agree on what the team is supposed to be doing or even on who is on the team. The belief that bigger is better also compounds problems; as a team grows, the effort needed to manage links between members increases almost exponentially. Leaders need to be ruthless about defining teams and keeping them small (fewer than 10 members), and some individuals (like team destroyers) should simply be forced off. The leader also must set a compelling direction for the team—but in so doing, may encounter intense resistance that puts him or her at great risk. Hackman explores other fallacies about teams—for instance, that teams whose members have been together a long time become stale. In fact, research reveals that new teams make 50% more mistakes than established teams. To avoid complacency, though, every team needs a deviant—someone who is willing to make waves and open up the group to more ideas. Unfortunately, such individuals often get thrown off the team, robbing it of its chance to be magical. Leaders can’t make a team do well. However, by being disciplined about how a team is set up and managed, instituting the right support systems, and providing coaching in group processes, they can increase the likelihood that a team will be great.",
-              "whyRead": "Om Tim’s Scrum- en teamwerkpraktijk te spiegelen aan Hackmans waarschuwing dat teams niet vanzelf beter presteren dan individuen.",
-              "bestMoment": "kritisch",
+              "readingTime": "8 mins",
+              "readingMinutes": 8,
+              "wordCount": 1909,
+              "publishedDate": null,
+              "savedDate": "2026-09-03T10:05:57.134000+00:00",
+              "imageUrl": null,
+              "sourceUrl": "http://scrumbook.org.datasenter.no/value-stream/sprint/sprint-retrospective.html",
+              "readwiseUrl": "https://read.readwise.io/read/01m1kbpy0d4mhwm6pmkvkvf13z",
+              "summary": "Over time, without explicit attention, processes and discipline tend to decay. People get sloppy.",
+              "whyRead": "Raakt je interesse in Scrum, Agile en professionele ontwikkeling: dit patroon legt uit waarom een team een Sprint Retrospective nodig heeft om procesverval, herhaalde fouten en defensief gedrag zichtbaar te maken. De meerwaarde zit in de concrete koppeling tussen reflectie, systeemdenken, root-cause-analyse en kleine experimentele verbeteringen.",
+              "bestMoment": "leergierig",
               "tags": [
+                "agile",
+                "professional development",
+                "social psychology & interpersonal dynamics",
+                "team dynamics & collaboration"
+              ],
+              "coreInterests": [
+                "sociologie",
+                "agile"
+              ],
+              "alsoIn": [
+                "aaa-top-100",
+                "aaa-short-top-100",
+                "aaa-scrum-top-100",
+                "aaa-social-studies-top-100"
+              ]
+            },
+            {
+              "position": 8,
+              "id": "01m1rqhq0jsh1hs8h8v39a8etr",
+              "title": "Case Study: When Agile Meets Neurodivergence",
+              "author": null,
+              "siteName": "Agile Alliance |",
+              "category": "article",
+              "language": null,
+              "readingTime": "3 mins",
+              "readingMinutes": 3,
+              "wordCount": 757,
+              "publishedDate": "2026-02-19",
+              "savedDate": "2026-09-05T12:09:01.202000+00:00",
+              "imageUrl": "https://agilealliance.org/wp-content/uploads/2026/02/agile-meets-neurodivergence.webp",
+              "sourceUrl": "https://agilealliance.org/case-study-when-agile-meets-neurodivergence/",
+              "readwiseUrl": "https://read.readwise.io/read/01m1rqhq0jsh1hs8h8v39a8etr",
+              "summary": "A Scrum Master reexamines Agile practices through the lens of neurodivergence and shows how reducing cognitive load and redesigning collaboration improved execution and team effectiveness.",
+              "whyRead": "Een heldere agile-case over de wisselwerking tussen neurodivergentie, teaminteractie en systeemontwerp. De centrale coachingsles is dat gedrag dat op weerstand of inconsistentie lijkt ook een mismatch kan zijn tussen standaardwerkwijzen en hoe mensen informatie verwerken.",
+              "bestMoment": "praktisch",
+              "tags": [
+                "adhd & neurodivergence",
+                "agile",
                 "behavioral psychology & coaching",
+                "facilitation",
                 "organizational behavior & culture",
                 "professional development",
                 "social psychology & interpersonal dynamics",
-                "sociology & social structures",
+                "software development",
+                "team coaching",
+                "team dynamics & collaboration"
+              ],
+              "coreInterests": [
+                "sociologie",
+                "adhd",
+                "agile"
+              ],
+              "alsoIn": [
+                "aaa-top-100",
+                "aaa-short-top-100",
+                "aaa-scrum-top-100",
+                "aaa-social-studies-top-100",
+                "aaa-software-development-top-10",
+                "aaa-software-development-top-100",
+                "aaa-adhd-top-100"
+              ]
+            },
+            {
+              "position": 9,
+              "id": "01m2b5m2x613cawg8tkm9tcvzg",
+              "title": "Essence and Accident in Product Development Complexity",
+              "author": null,
+              "siteName": "YouTube",
+              "category": "video",
+              "language": null,
+              "readingTime": null,
+              "readingMinutes": null,
+              "wordCount": null,
+              "publishedDate": "2026-06-18",
+              "savedDate": "2026-09-12T16:01:18.758000+00:00",
+              "imageUrl": "https://i.ytimg.com/vi/95YZ2ntBl9M/sddefault.jpg",
+              "sourceUrl": "https://www.youtube.com/watch?v=95YZ2ntBl9M",
+              "readwiseUrl": "https://read.readwise.io/read/01m2b5m2x613cawg8tkm9tcvzg",
+              "summary": "This talk was recorded at Craft Conference 2026.\nThe event was organized by CraftHub.\n\nYou can watch the rest of the conference talks on our channel.\n\nIf you are interested in more speakers, tickets and details of the conference, check out our website: https://craft-conf.com/\n\nIf you are interested in more events from our company: https://crafthub.events/",
+              "whyRead": null,
+              "bestMoment": "toepassen. Kern: autonomie is een containerbegrip; teams moeten hun purpose, afhankelijkheden, beslisruimte en relatie tot het grotere geheel expliciet maken.",
+              "tags": [
+                "professional development",
+                "team dynamics & collaboration",
+                "technology"
+              ],
+              "coreInterests": [
+                "agile"
+              ],
+              "alsoIn": [
+                "aaa-scrum-top-100",
+                "aaa-social-studies-top-100",
+                "video-top-10",
+                "video-top-100"
+              ]
+            },
+            {
+              "position": 10,
+              "id": "01kr4074g1php0vejjgev03t5q",
+              "title": "What I Learned About Billionaires at Jeff Bezos’s Private Retreat",
+              "author": null,
+              "siteName": "The Atlantic",
+              "category": "article",
+              "language": null,
+              "readingTime": "10 mins",
+              "readingMinutes": 10,
+              "wordCount": 2436,
+              "publishedDate": "2026-04-20",
+              "savedDate": "2026-05-14T20:29:45.176000+00:00",
+              "imageUrl": "https://cdn.theatlantic.com/thumbor/pU9WUObiJGgn3gTx9M6n66vkXDU=/12x0:2012x1125/1440x810/media/img/2026/04/06/WEL_Hawley_BillionairesRedo/original.png",
+              "sourceUrl": "https://theatlantic.com/magazine/2026/05/billionaire-consequence-free-reality/686588/",
+              "readwiseUrl": "https://read.readwise.io/read/01kr4074g1php0vejjgev03t5q",
+              "summary": "“Bezos and the world’s richest men have left the world of consequences behind,” Noah Hawley writes. “Their actions are only ever judged by themselves.” Here’s what Hawley learned about the ultra-wealthy at Jeff Bezos’s Campfire retreat:",
+              "whyRead": "Raakt je interesse in ongelijkheid, macht en politieke cultuur: Hawley gebruikt een persoonlijke ervaring bij Jeff Bezos' Campfire-retreat om te analyseren hoe extreme rijkdom mensen buiten gewone consequenties plaatst. De tekst heeft een sterke essayistische stem en koppelt anekdote aan maatschappijkritiek. Raakt daarnaast je interesse in sociale psychologie en interpersoonlijke dynamiek, teamdynamiek en samenwerking.",
+              "bestMoment": "kritisch",
+              "tags": [
+                "current affairs & politics",
+                "economics",
+                "social psychology & interpersonal dynamics",
+                "sociology & inequality",
                 "team dynamics & collaboration"
               ],
               "coreInterests": [
@@ -16035,122 +16045,6 @@ window.TOP_ARTICLES = {
           "items": [
             {
               "position": 1,
-              "id": "01knpkrv3w8wsbhpd6qs67fkd1",
-              "title": "📗 On Building a Vocabulary for Discussing Network Effects",
-              "author": null,
-              "siteName": "Substack",
-              "category": "email",
-              "language": "Engels",
-              "readingTime": "15 mins",
-              "readingMinutes": 15,
-              "wordCount": 3745,
-              "publishedDate": "2026-04-08",
-              "savedDate": "2026-04-08T13:16:09.724000+00:00",
-              "imageUrl": null,
-              "sourceUrl": "mailto:reader-forwarded-email/d6ee8a8e3bdf60078918ae62e3ef80ea",
-              "readwiseUrl": "https://read.readwise.io/read/01knpkrv3w8wsbhpd6qs67fkd1",
-              "summary": "I read The Cold Start Problem for the same reason I read and reviewed Certain to Win — I wanted to understand business better now that I work for a startup instead of a school system.",
-              "whyRead": "Raakt je professionele ontwikkeling, Scrum Master-werk en interesse in sociale structuren: dit geeft een bruikbare taal voor hoe groepen, platforms en instituties op gang komen en vastlopen.",
-              "bestMoment": "analytisch",
-              "tags": [
-                "business & startups",
-                "professional development",
-                "social psychology & interpersonal dynamics",
-                "sociology & social structures",
-                "team dynamics & collaboration"
-              ],
-              "coreInterests": [
-                "sociologie",
-                "agile"
-              ],
-              "alsoIn": [
-                "aaa-top-100",
-                "aaa-scrum-top-10",
-                "aaa-social-studies-top-10",
-                "aaa-social-studies-top-100"
-              ]
-            },
-            {
-              "position": 2,
-              "id": "01kacg6vhze0snam0cv2cv2feh",
-              "title": "What advice do I give to my students?",
-              "author": null,
-              "siteName": "Forms of life, forms of mind",
-              "category": "article",
-              "language": "Engels",
-              "readingTime": "20 mins",
-              "readingMinutes": 20,
-              "wordCount": 5138,
-              "publishedDate": "2024-05-20",
-              "savedDate": "2025-11-18T22:08:50.240000+00:00",
-              "imageUrl": "https://i0.wp.com/thoughtforms.life/wp-content/uploads/2024/05/mlevin77_a_cosmic_mountain_landscape_full_of_mathematical_compu_df4eadde-c1b5-4406-8761-606e53874948.png?fit=1200%2C800&ssl=1",
-              "sourceUrl": "https://thoughtforms.life/what-advice-do-i-give-to-my-students/",
-              "readwiseUrl": "https://read.readwise.io/read/01kacg6vhze0snam0cv2cv2feh",
-              "summary": "Trust your own judgment and hone your intuition by taking small bets, learning from feedback, and changing course when needed.  \nSeek mentors for specific help but don’t expect anyone to know your whole path.  \nBalance working from the heart with practical plans to make your ideas actually matter.",
-              "whyRead": "Michael Levin deelt onconventioneel advies over leven in de wetenschap – eerlijk en verfrissend. Raakt daarnaast je interesse in sociale psychologie en interpersoonlijke dynamiek, teamdynamiek en samenwerking.",
-              "bestMoment": "reflectief",
-              "tags": [
-                "learning & meta-learning",
-                "personal growth & life philosophy",
-                "social psychology & interpersonal dynamics",
-                "team dynamics & collaboration",
-                "virtue ethics"
-              ],
-              "coreInterests": [
-                "filosofie",
-                "sociologie",
-                "agile"
-              ],
-              "alsoIn": [
-                "aaa-top-10",
-                "aaa-top-100",
-                "aaa-scrum-top-10",
-                "aaa-social-studies-top-10",
-                "aaa-social-studies-top-100"
-              ]
-            },
-            {
-              "position": 3,
-              "id": "01k7xkcp63y5bjsxg3fykwtwg0",
-              "title": "How to Create Your Own University Course to Teach Yourself Almost Anything",
-              "author": null,
-              "siteName": "substack.com",
-              "category": "article",
-              "language": "Engels",
-              "readingTime": "12 mins",
-              "readingMinutes": 12,
-              "wordCount": 3081,
-              "publishedDate": "2025-07-22",
-              "savedDate": "2026-03-31T07:24:54.998000+00:00",
-              "imageUrl": "https://substackcdn.com/image/fetch/$s_!KdAW!,w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ffd317529-5462-461e-a8c9-39a9216fd0bb_4000x3000.jpeg",
-              "sourceUrl": "https://parknotes.substack.com/p/how-to-create-your-own-university",
-              "readwiseUrl": "https://read.readwise.io/read/01k7xkcp63y5bjsxg3fykwtwg0",
-              "summary": "Plan your self-study like a university course with a clear topic, schedule, and syllabus.  \nSet weekly \"credit hours,\" pick lectures and readings, and assign short written tasks to reinforce learning.  \nBlock time in your calendar, use active recall and notes, and iterate courses as you grow.",
-              "whyRead": "Stap-voor-stap gids om je eigen universiteitscursus te maken – structuur voor zelfgestuurd leren. Raakt daarnaast je interesse in sociale psychologie en interpersoonlijke dynamiek, teamdynamiek en samenwerking.",
-              "bestMoment": "leergierig",
-              "tags": [
-                "learning & meta-learning",
-                "personal growth & life philosophy",
-                "philosophy of mind",
-                "popular science",
-                "social psychology & interpersonal dynamics",
-                "stoicism",
-                "team dynamics & collaboration"
-              ],
-              "coreInterests": [
-                "filosofie",
-                "sociologie",
-                "agile"
-              ],
-              "alsoIn": [
-                "aaa-top-100",
-                "aaa-scrum-top-10",
-                "aaa-social-studies-top-10",
-                "aaa-social-studies-top-100"
-              ]
-            },
-            {
-              "position": 4,
               "id": "01m1p73a3z76hwhn4t9qqvpdch",
               "title": "The Single-Page-App Morality Play",
               "author": null,
@@ -16187,114 +16081,44 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 5,
-              "id": "01m2b5m2x613cawg8tkm9tcvzg",
-              "title": "Essence and Accident in Product Development Complexity",
+              "position": 2,
+              "id": "01knpkrv3w8wsbhpd6qs67fkd1",
+              "title": "📗 On Building a Vocabulary for Discussing Network Effects",
               "author": null,
-              "siteName": "YouTube",
-              "category": "video",
-              "language": null,
-              "readingTime": null,
-              "readingMinutes": null,
-              "wordCount": null,
-              "publishedDate": "2026-06-18",
-              "savedDate": "2026-09-12T16:01:18.758000+00:00",
-              "imageUrl": "https://i.ytimg.com/vi/95YZ2ntBl9M/sddefault.jpg",
-              "sourceUrl": "https://www.youtube.com/watch?v=95YZ2ntBl9M",
-              "readwiseUrl": "https://read.readwise.io/read/01m2b5m2x613cawg8tkm9tcvzg",
-              "summary": "This talk was recorded at Craft Conference 2026.\nThe event was organized by CraftHub.\n\nYou can watch the rest of the conference talks on our channel.\n\nIf you are interested in more speakers, tickets and details of the conference, check out our website: https://craft-conf.com/\n\nIf you are interested in more events from our company: https://crafthub.events/",
-              "whyRead": null,
-              "bestMoment": "toepassen. Kern: autonomie is een containerbegrip; teams moeten hun purpose, afhankelijkheden, beslisruimte en relatie tot het grotere geheel expliciet maken.",
-              "tags": [
-                "professional development",
-                "team dynamics & collaboration",
-                "technology"
-              ],
-              "coreInterests": [
-                "agile"
-              ],
-              "alsoIn": [
-                "aaa-scrum-top-10",
-                "aaa-social-studies-top-100",
-                "video-top-10",
-                "video-top-100"
-              ]
-            },
-            {
-              "position": 6,
-              "id": "01kr4074g1php0vejjgev03t5q",
-              "title": "What I Learned About Billionaires at Jeff Bezos’s Private Retreat",
-              "author": null,
-              "siteName": "The Atlantic",
-              "category": "article",
-              "language": null,
-              "readingTime": "10 mins",
-              "readingMinutes": 10,
-              "wordCount": 2436,
-              "publishedDate": "2026-04-20",
-              "savedDate": "2026-05-14T20:29:45.176000+00:00",
-              "imageUrl": "https://cdn.theatlantic.com/thumbor/pU9WUObiJGgn3gTx9M6n66vkXDU=/12x0:2012x1125/1440x810/media/img/2026/04/06/WEL_Hawley_BillionairesRedo/original.png",
-              "sourceUrl": "https://theatlantic.com/magazine/2026/05/billionaire-consequence-free-reality/686588/",
-              "readwiseUrl": "https://read.readwise.io/read/01kr4074g1php0vejjgev03t5q",
-              "summary": "“Bezos and the world’s richest men have left the world of consequences behind,” Noah Hawley writes. “Their actions are only ever judged by themselves.” Here’s what Hawley learned about the ultra-wealthy at Jeff Bezos’s Campfire retreat:",
-              "whyRead": "Raakt je interesse in ongelijkheid, macht en politieke cultuur: Hawley gebruikt een persoonlijke ervaring bij Jeff Bezos' Campfire-retreat om te analyseren hoe extreme rijkdom mensen buiten gewone consequenties plaatst. De tekst heeft een sterke essayistische stem en koppelt anekdote aan maatschappijkritiek. Raakt daarnaast je interesse in sociale psychologie en interpersoonlijke dynamiek, teamdynamiek en samenwerking.",
-              "bestMoment": "kritisch",
-              "tags": [
-                "current affairs & politics",
-                "economics",
-                "social psychology & interpersonal dynamics",
-                "sociology & inequality",
-                "team dynamics & collaboration"
-              ],
-              "coreInterests": [
-                "sociologie",
-                "agile"
-              ],
-              "alsoIn": [
-                "aaa-top-100",
-                "aaa-scrum-top-10",
-                "aaa-social-studies-top-100"
-              ]
-            },
-            {
-              "position": 7,
-              "id": "01hz9sx57zhs6famn519gxxtne",
-              "title": "📚 Advice from Parenting Books, for Everyone",
-              "author": null,
-              "siteName": "Obsidian Iceberg",
-              "category": "article",
+              "siteName": "Substack",
+              "category": "email",
               "language": "Engels",
-              "readingTime": "10 mins",
-              "readingMinutes": 10,
-              "wordCount": 2639,
-              "publishedDate": null,
-              "savedDate": "2024-06-01T11:45:36.511000+00:00",
-              "imageUrl": "https://substackcdn.com/image/fetch/w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff4b0de25-a305-4c62-8f39-7202e9d580ee_1344x896.png",
-              "sourceUrl": "https://www.eleanorkonik.com/p/advice-from-parenting-books-for-everyone?utm_source=post-email-title&publication_id=1974188&post_id=144568965&utm_campaign=email-post-title&isFreemail=true&r=1r0y5d&triedRedirect=true&utm_medium=email",
-              "readwiseUrl": "https://read.readwise.io/read/01hz9sx57zhs6famn519gxxtne",
-              "summary": "Parenting books offer advice applicable to adults too. The key is to help children develop essential skills and independence. Remember, every child is different.",
-              "whyRead": "Raakt je interesse in ouderschap en leren — bevat inzichten uit opvoedboeken die net zo goed werken voor volwassenen, teams en managers als voor kinderen. Raakt daarnaast je interesse in sociale psychologie en interpersoonlijke dynamiek, teamdynamiek en samenwerking.",
-              "bestMoment": "reflectief",
+              "readingTime": "15 mins",
+              "readingMinutes": 15,
+              "wordCount": 3745,
+              "publishedDate": "2026-04-08",
+              "savedDate": "2026-04-08T13:16:09.724000+00:00",
+              "imageUrl": null,
+              "sourceUrl": "mailto:reader-forwarded-email/d6ee8a8e3bdf60078918ae62e3ef80ea",
+              "readwiseUrl": "https://read.readwise.io/read/01knpkrv3w8wsbhpd6qs67fkd1",
+              "summary": "I read The Cold Start Problem for the same reason I read and reviewed Certain to Win — I wanted to understand business better now that I work for a startup instead of a school system.",
+              "whyRead": "Raakt je professionele ontwikkeling, Scrum Master-werk en interesse in sociale structuren: dit geeft een bruikbare taal voor hoe groepen, platforms en instituties op gang komen en vastlopen.",
+              "bestMoment": "analytisch",
               "tags": [
-                "learning & meta-learning",
-                "parenting & care",
-                "personal growth & life philosophy",
+                "business & startups",
+                "professional development",
                 "social psychology & interpersonal dynamics",
+                "sociology & social structures",
                 "team dynamics & collaboration"
               ],
               "coreInterests": [
                 "sociologie",
-                "zorgouderschap",
                 "agile"
               ],
               "alsoIn": [
                 "aaa-top-100",
                 "aaa-scrum-top-10",
+                "aaa-social-studies-top-10",
                 "aaa-social-studies-top-100"
               ]
             },
             {
-              "position": 8,
+              "position": 3,
               "id": "01m1xy92em8n4jbgr4g35t97vt",
               "title": "The Agile Coaching Growth Wheel",
               "author": null,
@@ -16335,7 +16159,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 9,
+              "position": 4,
               "id": "01m1kppm13bn0d0w70hxcjf9tw",
               "title": "Happiness Metric",
               "author": null,
@@ -16370,7 +16194,438 @@ window.TOP_ARTICLES = {
               ]
             },
             {
+              "position": 5,
+              "id": "01kacg6vhze0snam0cv2cv2feh",
+              "title": "What advice do I give to my students?",
+              "author": null,
+              "siteName": "Forms of life, forms of mind",
+              "category": "article",
+              "language": "Engels",
+              "readingTime": "20 mins",
+              "readingMinutes": 20,
+              "wordCount": 5138,
+              "publishedDate": "2024-05-20",
+              "savedDate": "2025-11-18T22:08:50.240000+00:00",
+              "imageUrl": "https://i0.wp.com/thoughtforms.life/wp-content/uploads/2024/05/mlevin77_a_cosmic_mountain_landscape_full_of_mathematical_compu_df4eadde-c1b5-4406-8761-606e53874948.png?fit=1200%2C800&ssl=1",
+              "sourceUrl": "https://thoughtforms.life/what-advice-do-i-give-to-my-students/",
+              "readwiseUrl": "https://read.readwise.io/read/01kacg6vhze0snam0cv2cv2feh",
+              "summary": "Trust your own judgment and hone your intuition by taking small bets, learning from feedback, and changing course when needed.  \nSeek mentors for specific help but don’t expect anyone to know your whole path.  \nBalance working from the heart with practical plans to make your ideas actually matter.",
+              "whyRead": "Michael Levin deelt onconventioneel advies over leven in de wetenschap – eerlijk en verfrissend. Raakt daarnaast je interesse in sociale psychologie en interpersoonlijke dynamiek, teamdynamiek en samenwerking.",
+              "bestMoment": "reflectief",
+              "tags": [
+                "learning & meta-learning",
+                "personal growth & life philosophy",
+                "social psychology & interpersonal dynamics",
+                "team dynamics & collaboration",
+                "virtue ethics"
+              ],
+              "coreInterests": [
+                "filosofie",
+                "sociologie",
+                "agile"
+              ],
+              "alsoIn": [
+                "aaa-top-10",
+                "aaa-top-100",
+                "aaa-scrum-top-10",
+                "aaa-social-studies-top-10",
+                "aaa-social-studies-top-100"
+              ]
+            },
+            {
+              "position": 6,
+              "id": "01k7xkcp63y5bjsxg3fykwtwg0",
+              "title": "How to Create Your Own University Course to Teach Yourself Almost Anything",
+              "author": null,
+              "siteName": "substack.com",
+              "category": "article",
+              "language": "Engels",
+              "readingTime": "12 mins",
+              "readingMinutes": 12,
+              "wordCount": 3081,
+              "publishedDate": "2025-07-22",
+              "savedDate": "2026-03-31T07:24:54.998000+00:00",
+              "imageUrl": "https://substackcdn.com/image/fetch/$s_!KdAW!,w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ffd317529-5462-461e-a8c9-39a9216fd0bb_4000x3000.jpeg",
+              "sourceUrl": "https://parknotes.substack.com/p/how-to-create-your-own-university",
+              "readwiseUrl": "https://read.readwise.io/read/01k7xkcp63y5bjsxg3fykwtwg0",
+              "summary": "Plan your self-study like a university course with a clear topic, schedule, and syllabus.  \nSet weekly \"credit hours,\" pick lectures and readings, and assign short written tasks to reinforce learning.  \nBlock time in your calendar, use active recall and notes, and iterate courses as you grow.",
+              "whyRead": "Stap-voor-stap gids om je eigen universiteitscursus te maken – structuur voor zelfgestuurd leren. Raakt daarnaast je interesse in sociale psychologie en interpersoonlijke dynamiek, teamdynamiek en samenwerking.",
+              "bestMoment": "leergierig",
+              "tags": [
+                "learning & meta-learning",
+                "personal growth & life philosophy",
+                "philosophy of mind",
+                "popular science",
+                "social psychology & interpersonal dynamics",
+                "stoicism",
+                "team dynamics & collaboration"
+              ],
+              "coreInterests": [
+                "filosofie",
+                "sociologie",
+                "agile"
+              ],
+              "alsoIn": [
+                "aaa-top-100",
+                "aaa-scrum-top-10",
+                "aaa-social-studies-top-10",
+                "aaa-social-studies-top-100"
+              ]
+            },
+            {
+              "position": 7,
+              "id": "01m1kbpy0d4mhwm6pmkvkvf13z",
+              "title": "Sprint Retrospective**",
+              "author": null,
+              "siteName": "datasenter.no",
+              "category": "article",
+              "language": null,
+              "readingTime": "8 mins",
+              "readingMinutes": 8,
+              "wordCount": 1909,
+              "publishedDate": null,
+              "savedDate": "2026-09-03T10:05:57.134000+00:00",
+              "imageUrl": null,
+              "sourceUrl": "http://scrumbook.org.datasenter.no/value-stream/sprint/sprint-retrospective.html",
+              "readwiseUrl": "https://read.readwise.io/read/01m1kbpy0d4mhwm6pmkvkvf13z",
+              "summary": "Over time, without explicit attention, processes and discipline tend to decay. People get sloppy.",
+              "whyRead": "Raakt je interesse in Scrum, Agile en professionele ontwikkeling: dit patroon legt uit waarom een team een Sprint Retrospective nodig heeft om procesverval, herhaalde fouten en defensief gedrag zichtbaar te maken. De meerwaarde zit in de concrete koppeling tussen reflectie, systeemdenken, root-cause-analyse en kleine experimentele verbeteringen.",
+              "bestMoment": "leergierig",
+              "tags": [
+                "agile",
+                "professional development",
+                "social psychology & interpersonal dynamics",
+                "team dynamics & collaboration"
+              ],
+              "coreInterests": [
+                "sociologie",
+                "agile"
+              ],
+              "alsoIn": [
+                "aaa-top-100",
+                "aaa-short-top-100",
+                "aaa-scrum-top-10",
+                "aaa-social-studies-top-100"
+              ]
+            },
+            {
+              "position": 8,
+              "id": "01m1rqhq0jsh1hs8h8v39a8etr",
+              "title": "Case Study: When Agile Meets Neurodivergence",
+              "author": null,
+              "siteName": "Agile Alliance |",
+              "category": "article",
+              "language": null,
+              "readingTime": "3 mins",
+              "readingMinutes": 3,
+              "wordCount": 757,
+              "publishedDate": "2026-02-19",
+              "savedDate": "2026-09-05T12:09:01.202000+00:00",
+              "imageUrl": "https://agilealliance.org/wp-content/uploads/2026/02/agile-meets-neurodivergence.webp",
+              "sourceUrl": "https://agilealliance.org/case-study-when-agile-meets-neurodivergence/",
+              "readwiseUrl": "https://read.readwise.io/read/01m1rqhq0jsh1hs8h8v39a8etr",
+              "summary": "A Scrum Master reexamines Agile practices through the lens of neurodivergence and shows how reducing cognitive load and redesigning collaboration improved execution and team effectiveness.",
+              "whyRead": "Een heldere agile-case over de wisselwerking tussen neurodivergentie, teaminteractie en systeemontwerp. De centrale coachingsles is dat gedrag dat op weerstand of inconsistentie lijkt ook een mismatch kan zijn tussen standaardwerkwijzen en hoe mensen informatie verwerken.",
+              "bestMoment": "praktisch",
+              "tags": [
+                "adhd & neurodivergence",
+                "agile",
+                "behavioral psychology & coaching",
+                "facilitation",
+                "organizational behavior & culture",
+                "professional development",
+                "social psychology & interpersonal dynamics",
+                "software development",
+                "team coaching",
+                "team dynamics & collaboration"
+              ],
+              "coreInterests": [
+                "sociologie",
+                "adhd",
+                "agile"
+              ],
+              "alsoIn": [
+                "aaa-top-100",
+                "aaa-short-top-100",
+                "aaa-scrum-top-10",
+                "aaa-social-studies-top-100",
+                "aaa-software-development-top-10",
+                "aaa-software-development-top-100",
+                "aaa-adhd-top-100"
+              ]
+            },
+            {
+              "position": 9,
+              "id": "01m2b5m2x613cawg8tkm9tcvzg",
+              "title": "Essence and Accident in Product Development Complexity",
+              "author": null,
+              "siteName": "YouTube",
+              "category": "video",
+              "language": null,
+              "readingTime": null,
+              "readingMinutes": null,
+              "wordCount": null,
+              "publishedDate": "2026-06-18",
+              "savedDate": "2026-09-12T16:01:18.758000+00:00",
+              "imageUrl": "https://i.ytimg.com/vi/95YZ2ntBl9M/sddefault.jpg",
+              "sourceUrl": "https://www.youtube.com/watch?v=95YZ2ntBl9M",
+              "readwiseUrl": "https://read.readwise.io/read/01m2b5m2x613cawg8tkm9tcvzg",
+              "summary": "This talk was recorded at Craft Conference 2026.\nThe event was organized by CraftHub.\n\nYou can watch the rest of the conference talks on our channel.\n\nIf you are interested in more speakers, tickets and details of the conference, check out our website: https://craft-conf.com/\n\nIf you are interested in more events from our company: https://crafthub.events/",
+              "whyRead": null,
+              "bestMoment": "toepassen. Kern: autonomie is een containerbegrip; teams moeten hun purpose, afhankelijkheden, beslisruimte en relatie tot het grotere geheel expliciet maken.",
+              "tags": [
+                "professional development",
+                "team dynamics & collaboration",
+                "technology"
+              ],
+              "coreInterests": [
+                "agile"
+              ],
+              "alsoIn": [
+                "aaa-scrum-top-10",
+                "aaa-social-studies-top-100",
+                "video-top-10",
+                "video-top-100"
+              ]
+            },
+            {
               "position": 10,
+              "id": "01kr4074g1php0vejjgev03t5q",
+              "title": "What I Learned About Billionaires at Jeff Bezos’s Private Retreat",
+              "author": null,
+              "siteName": "The Atlantic",
+              "category": "article",
+              "language": null,
+              "readingTime": "10 mins",
+              "readingMinutes": 10,
+              "wordCount": 2436,
+              "publishedDate": "2026-04-20",
+              "savedDate": "2026-05-14T20:29:45.176000+00:00",
+              "imageUrl": "https://cdn.theatlantic.com/thumbor/pU9WUObiJGgn3gTx9M6n66vkXDU=/12x0:2012x1125/1440x810/media/img/2026/04/06/WEL_Hawley_BillionairesRedo/original.png",
+              "sourceUrl": "https://theatlantic.com/magazine/2026/05/billionaire-consequence-free-reality/686588/",
+              "readwiseUrl": "https://read.readwise.io/read/01kr4074g1php0vejjgev03t5q",
+              "summary": "“Bezos and the world’s richest men have left the world of consequences behind,” Noah Hawley writes. “Their actions are only ever judged by themselves.” Here’s what Hawley learned about the ultra-wealthy at Jeff Bezos’s Campfire retreat:",
+              "whyRead": "Raakt je interesse in ongelijkheid, macht en politieke cultuur: Hawley gebruikt een persoonlijke ervaring bij Jeff Bezos' Campfire-retreat om te analyseren hoe extreme rijkdom mensen buiten gewone consequenties plaatst. De tekst heeft een sterke essayistische stem en koppelt anekdote aan maatschappijkritiek. Raakt daarnaast je interesse in sociale psychologie en interpersoonlijke dynamiek, teamdynamiek en samenwerking.",
+              "bestMoment": "kritisch",
+              "tags": [
+                "current affairs & politics",
+                "economics",
+                "social psychology & interpersonal dynamics",
+                "sociology & inequality",
+                "team dynamics & collaboration"
+              ],
+              "coreInterests": [
+                "sociologie",
+                "agile"
+              ],
+              "alsoIn": [
+                "aaa-top-100",
+                "aaa-scrum-top-10",
+                "aaa-social-studies-top-100"
+              ]
+            },
+            {
+              "position": 11,
+              "id": "01m0pngsn5q8yqqrn2xq1w2hq5",
+              "title": "To benefit from AI, your organization’s learning loops must evolve",
+              "author": null,
+              "siteName": "Medium",
+              "category": "article",
+              "language": null,
+              "readingTime": "11 mins",
+              "readingMinutes": 11,
+              "wordCount": 2739,
+              "publishedDate": "2023-03-27",
+              "savedDate": "2026-08-23T06:39:23.299000+00:00",
+              "imageUrl": "https://miro.medium.com/v2/da:true/resize:fit:1196/0*nOkkjJ_OuaeYn4K-",
+              "sourceUrl": "https://uxdesign.cc/to-benefit-from-ai-your-organizations-learning-loops-must-evolve-5b6145415f6a",
+              "readwiseUrl": "https://read.readwise.io/read/01m0pngsn5q8yqqrn2xq1w2hq5",
+              "summary": "Ideas are cheap. AI is posed to make outputs just as cheap. But without the higher-level feedback loops, your organization’s…",
+              "whyRead": "Raakt je interesse in AI en lerende organisaties. Het verschuift de aandacht van snelle AI-output naar de feedbacklussen die bepalen of die output werkelijk waarde wordt. Raakt daarnaast je interesse in sociale psychologie en interpersoonlijke dynamiek, teamdynamiek en samenwerking, agile/teamcoaching.",
+              "bestMoment": "analytisch",
+              "tags": [
+                "agile",
+                "learning & meta-learning",
+                "social psychology & interpersonal dynamics",
+                "team dynamics & collaboration",
+                "technology"
+              ],
+              "coreInterests": [
+                "sociologie",
+                "agile"
+              ],
+              "alsoIn": [
+                "aaa-social-studies-top-100"
+              ]
+            },
+            {
+              "position": 12,
+              "id": "01hz9sx57zhs6famn519gxxtne",
+              "title": "📚 Advice from Parenting Books, for Everyone",
+              "author": null,
+              "siteName": "Obsidian Iceberg",
+              "category": "article",
+              "language": "Engels",
+              "readingTime": "10 mins",
+              "readingMinutes": 10,
+              "wordCount": 2639,
+              "publishedDate": null,
+              "savedDate": "2024-06-01T11:45:36.511000+00:00",
+              "imageUrl": "https://substackcdn.com/image/fetch/w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff4b0de25-a305-4c62-8f39-7202e9d580ee_1344x896.png",
+              "sourceUrl": "https://www.eleanorkonik.com/p/advice-from-parenting-books-for-everyone?utm_source=post-email-title&publication_id=1974188&post_id=144568965&utm_campaign=email-post-title&isFreemail=true&r=1r0y5d&triedRedirect=true&utm_medium=email",
+              "readwiseUrl": "https://read.readwise.io/read/01hz9sx57zhs6famn519gxxtne",
+              "summary": "Parenting books offer advice applicable to adults too. The key is to help children develop essential skills and independence. Remember, every child is different.",
+              "whyRead": "Raakt je interesse in ouderschap en leren — bevat inzichten uit opvoedboeken die net zo goed werken voor volwassenen, teams en managers als voor kinderen. Raakt daarnaast je interesse in sociale psychologie en interpersoonlijke dynamiek, teamdynamiek en samenwerking.",
+              "bestMoment": "reflectief",
+              "tags": [
+                "learning & meta-learning",
+                "parenting & care",
+                "personal growth & life philosophy",
+                "social psychology & interpersonal dynamics",
+                "team dynamics & collaboration"
+              ],
+              "coreInterests": [
+                "sociologie",
+                "zorgouderschap",
+                "agile"
+              ],
+              "alsoIn": [
+                "aaa-top-100",
+                "aaa-social-studies-top-100"
+              ]
+            },
+            {
+              "position": 13,
+              "id": "01m1gp4waxm0cmf0dh788j4jvv",
+              "title": "The AI-Native SDLC playbook",
+              "author": null,
+              "siteName": "claude.com",
+              "category": "article",
+              "language": null,
+              "readingTime": "38 mins",
+              "readingMinutes": 38,
+              "wordCount": 9847,
+              "publishedDate": "2026-08-21",
+              "savedDate": "2026-09-02T09:10:36.637000+00:00",
+              "imageUrl": "https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a885727631521d0c3cd0a1b_og_the-ai-native-sdlc-playbook.jpg",
+              "sourceUrl": "https://claude.com/blog/the-ai-native-sdlc-playbook",
+              "readwiseUrl": "https://read.readwise.io/read/01m1gp4waxm0cmf0dh788j4jvv",
+              "summary": "How to transform your software development lifecycle with AI—stage by stage.",
+              "whyRead": "Raakt je interesse in AI, agile werken en professionele ontwikkeling: deze technische playbook laat zien hoe agentische AI het hele softwareontwikkelproces verandert, niet alleen het schrijven van code. Vooral de combinatie van automatisering, menselijke verantwoordelijkheid en governance is relevant voor je werk als Scrum Master.",
+              "bestMoment": "geconcentreerd",
+              "tags": [
+                "agile",
+                "organizational behavior & culture",
+                "professional development",
+                "team dynamics & collaboration",
+                "technology"
+              ],
+              "coreInterests": [
+                "agile"
+              ],
+              "alsoIn": [
+                "aaa-social-studies-top-100"
+              ]
+            },
+            {
+              "position": 14,
+              "id": "01m0yzc8acebxvxektbepqg0kc",
+              "title": "Strengthening Large-Scale Agile Teams: The Interplay of High-Quality Relationships, Psychological Safety, and Learning From Failures",
+              "author": null,
+              "siteName": "copernicus.org",
+              "category": "article",
+              "language": null,
+              "readingTime": "40 mins",
+              "readingMinutes": 40,
+              "wordCount": 10561,
+              "publishedDate": null,
+              "savedDate": "2026-08-26T12:05:35.692000+00:00",
+              "imageUrl": "https://onlinelibrary.wiley.com/cms/asset/5dfa72b9-8857-4713-a5b9-0cb63877eb06/smr2759-toc-0001-m.jpg?trick=1787745948434",
+              "sourceUrl": "https://doi.org/10.1002/smr.2759",
+              "readwiseUrl": "https://read.readwise.io/read/01m0yzc8acebxvxektbepqg0kc",
+              "summary": "Agile methods have become a standard practice within software industry, with organizations increasingly adopting large-scale agile (LSA) frameworks.",
+              "whyRead": "Raakt je werk als Scrum Master en je interesse in grootschalig agile werken. Dit empirische onderzoek maakt psychologische veiligheid concreet als schakel tussen relaties, leren van fouten en teamprestaties.",
+              "bestMoment": "analytisch",
+              "tags": [
+                "agile",
+                "research papers & academia",
+                "social psychology & interpersonal dynamics",
+                "team dynamics & collaboration"
+              ],
+              "coreInterests": [
+                "sociologie",
+                "agile"
+              ],
+              "alsoIn": [
+                "aaa-social-studies-top-100"
+              ]
+            },
+            {
+              "position": 15,
+              "id": "01m0pj0hcdzk57dgqrhngd08xm",
+              "title": "How to Tell if Your Manager is Actually Good?",
+              "author": null,
+              "siteName": "eng-leadership.com",
+              "category": "article",
+              "language": null,
+              "readingTime": "11 mins",
+              "readingMinutes": 11,
+              "wordCount": 2793,
+              "publishedDate": "2026-08-17",
+              "savedDate": "2026-08-23T05:38:04.813000+00:00",
+              "imageUrl": "https://substackcdn.com/image/fetch/$s_!i3Jx!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc90bfb65-2204-4df5-ac50-480b0ba8d7e7_1600x854.jpeg",
+              "sourceUrl": "https://newsletter.eng-leadership.com/p/how-to-tell-if-your-manager-is-actually?utm_source=substack&utm_medium=email",
+              "readwiseUrl": "https://read.readwise.io/read/01m0pj0hcdzk57dgqrhngd08xm",
+              "summary": "The 3 signs that reveal whether your manager is helping you thrive or holding you back.",
+              "whyRead": "Praktische signalen om te herkennen of een manager/leidinggevende daadwerkelijk goed leiderschap toont — sluit aan bij je interesse in agile/servant leadership.",
+              "bestMoment": "reflectief",
+              "tags": [
+                "agile",
+                "organizational behavior & culture",
+                "professional development",
+                "social psychology & interpersonal dynamics",
+                "team dynamics & collaboration"
+              ],
+              "coreInterests": [
+                "sociologie",
+                "agile"
+              ],
+              "alsoIn": []
+            },
+            {
+              "position": 16,
+              "id": "01m18v749bgejt8n415145znvv",
+              "title": "Improve Team Collaboration with the Washing Instructions Canvas",
+              "author": null,
+              "siteName": "fearlessculture.design",
+              "category": "article",
+              "language": null,
+              "readingTime": "12 mins",
+              "readingMinutes": 12,
+              "wordCount": 3132,
+              "publishedDate": "2022-12-01",
+              "savedDate": "2026-08-30T08:05:17.736000+00:00",
+              "imageUrl": "https://assets-global.website-files.com/5fa4aac1f837ef5fa264e521/644a995ed0a9a11039ca2a18_Personal%20Washing%20Instructions%20Canvas-min.jpg",
+              "sourceUrl": "https://www.fearlessculture.design/blog-posts/team-washing-instructions-canvas",
+              "readwiseUrl": "https://read.readwise.io/read/01m18v749bgejt8n415145znvv",
+              "summary": "New products often come with a user manual that makes it easier to understand how they work. Clear instructions accelerate the learning curve and reduce frustration.",
+              "whyRead": "Raakt je Scrum Master-praktijk en interesse in psychologische veiligheid: de Washing Instructions Canvas biedt een laagdrempelige werkvorm om impliciete voorkeuren voor communicatie en samenwerking bespreekbaar te maken.",
+              "bestMoment": "leergierig",
+              "tags": [
+                "agile",
+                "behavioral psychology & coaching",
+                "professional development",
+                "social psychology & interpersonal dynamics",
+                "team dynamics & collaboration"
+              ],
+              "coreInterests": [
+                "sociologie",
+                "agile"
+              ],
+              "alsoIn": []
+            },
+            {
+              "position": 17,
               "id": "01m1kscbbmwsztsc5xam17y12g",
               "title": "Why Teams Don’t Work",
               "author": null,
@@ -16402,12 +16657,48 @@ window.TOP_ARTICLES = {
               ],
               "alsoIn": [
                 "aaa-top-100",
-                "aaa-scrum-top-10",
                 "aaa-social-studies-top-100"
               ]
             },
             {
-              "position": 11,
+              "position": 18,
+              "id": "01m1zvs6zarc4w1cwf7w1sc7ef",
+              "title": "Building Bridges for Corporate Agility — Yuliia Pieskova",
+              "author": null,
+              "siteName": "Agile Alliance |",
+              "category": "article",
+              "language": null,
+              "readingTime": "15 mins",
+              "readingMinutes": 15,
+              "wordCount": 3958,
+              "publishedDate": "2023-06-02",
+              "savedDate": "2026-09-08T06:37:42.250000+00:00",
+              "imageUrl": "https://www.agilealliance.org/wp-content/uploads/2023/04/xp2023-social-media.jpg",
+              "sourceUrl": "https://www.agilealliance.org/resources/experience-reports/building-bridges-for-corporate-agility-our-journey-of-including-clients-in-sprint-reviews/",
+              "readwiseUrl": "https://read.readwise.io/read/01m1zvs6zarc4w1cwf7w1sc7ef",
+              "summary": "This report details a change management journey that led to a significant transformation in the way development teams inspect and adapt their work within an international fintech corporation.",
+              "whyRead": "Een rijke praktijkcase over systeemverandering in een complexe organisatie. Het laat zien hoe een Scrum Master een rapportagegerichte Sprint Review stap voor stap verandert in een veilige feedbacklus met teams, andere afdelingen en echte gebruikers.",
+              "bestMoment": "verdiepend",
+              "tags": [
+                "agile",
+                "facilitation",
+                "flow & delivery",
+                "organizational behavior & culture",
+                "organizational culture",
+                "product management",
+                "professional development",
+                "social psychology & interpersonal dynamics",
+                "team coaching",
+                "team dynamics & collaboration"
+              ],
+              "coreInterests": [
+                "sociologie",
+                "agile"
+              ],
+              "alsoIn": []
+            },
+            {
+              "position": 19,
               "id": "01k7pmvc94p82aaz3ptdqbyecc",
               "title": "Everything that turned out well in my life followed the same design process",
               "author": null,
@@ -16443,7 +16734,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 12,
+              "position": 20,
               "id": "01kfb379ht5f8kzb19vmtx28qp",
               "title": "Moving away from Agile: What's Next – Martin Harrysson & Natasha Maniar, McKinsey & Company",
               "author": null,
@@ -16481,7 +16772,41 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 13,
+              "position": 21,
+              "id": "01m1ckrdyh8tprrhj5bvqysbef",
+              "title": "Who are your jaguar hunters?",
+              "author": null,
+              "siteName": "Substack",
+              "category": "email",
+              "language": null,
+              "readingTime": "5 mins",
+              "readingMinutes": 5,
+              "wordCount": 1319,
+              "publishedDate": "2026-08-31",
+              "savedDate": "2026-08-31T19:11:53.810000+00:00",
+              "imageUrl": null,
+              "sourceUrl": "mailto:reader-forwarded-email/71d7fee06395b55dd8bffc1bc1505745",
+              "readwiseUrl": "https://read.readwise.io/read/01m1ckrdyh8tprrhj5bvqysbef",
+              "summary": "Walk into any organization and, beneath the org chart, the titles, and the carefully worded values statements, you will find another hierarchy operating invisibly: an informal system determining whose opinions carry weight, whose behavior gets imitated, whose stories are repeated, who gets invited into important rooms - and ultimately, what kind of person others conclude they should become if they want to “succeed” there.",
+              "whyRead": "Sterke analogie tussen statusverdeling bij een Amazonestam en organisatiecultuur — laat zien hoe beloning en angst de werkelijke bedrijfscultuur vormgeven, direct bruikbaar als Scrum Master bij het doorgronden van teamdynamiek.",
+              "bestMoment": "kritisch",
+              "tags": [
+                "agile",
+                "professional development",
+                "social psychology & interpersonal dynamics",
+                "sociology & social structures",
+                "team dynamics & collaboration"
+              ],
+              "coreInterests": [
+                "sociologie",
+                "agile"
+              ],
+              "alsoIn": [
+                "aaa-short-top-100"
+              ]
+            },
+            {
+              "position": 22,
               "id": "01kasc4pne8zck7kwatefv1jxq",
               "title": "Galaxy brain resistance",
               "author": null,
@@ -16518,7 +16843,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 14,
+              "position": 23,
               "id": "01ky7jr9fzhv4h5e988f76rxth",
               "title": "Has AI Already Killed How-To Nonfiction? Sales Trends, My Personal Data, and What It Might Mean for the Future",
               "author": null,
@@ -16555,23 +16880,90 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 15,
-              "id": "01m1kbpy0d4mhwm6pmkvkvf13z",
-              "title": "Sprint Retrospective**",
+              "position": 24,
+              "id": "01m18j8c3fqagby4exfngsgy0t",
+              "title": "Most Conflict Starts With Team Agreements No One Made",
+              "author": null,
+              "siteName": "fearlessculture.design",
+              "category": "article",
+              "language": null,
+              "readingTime": "7 mins",
+              "readingMinutes": 7,
+              "wordCount": 1730,
+              "publishedDate": "2026-08-23",
+              "savedDate": "2026-08-30T05:28:41.327000+00:00",
+              "imageUrl": "https://substackcdn.com/image/fetch/$s_!D-pm!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F0950ddd7-8577-4ca1-9ab1-93f48bc8e677_1200x776.jpeg",
+              "sourceUrl": "https://think.fearlessculture.design/p/how-to-create-team-agreements",
+              "readwiseUrl": "https://read.readwise.io/read/01m18j8c3fqagby4exfngsgy0t",
+              "summary": "Unclear expectations cost teams more than heavy workloads. Learn how to write team agreements covering communication, collaboration, standards, and support. \n\nReplace assumptions with clear agreements using the Team Washing Instructions Canvas (template included)",
+              "whyRead": "Raakt je werk als Scrum Master en je interesse in teamdynamiek — dit biedt een concreet, onderbouwd kader om impliciete verwachtingen om te zetten in werkbare teamafspraken.",
+              "bestMoment": "leergierig",
+              "tags": [
+                "agile",
+                "behavioral psychology & coaching",
+                "professional development",
+                "social psychology & interpersonal dynamics",
+                "team dynamics & collaboration"
+              ],
+              "coreInterests": [
+                "sociologie",
+                "agile"
+              ],
+              "alsoIn": [
+                "aaa-short-top-100"
+              ]
+            },
+            {
+              "position": 25,
+              "id": "01m1k4njhg2tq0hr2s2c7q8mc2",
+              "title": "The First Broken Window",
+              "author": null,
+              "siteName": "Substack",
+              "category": "email",
+              "language": null,
+              "readingTime": "6 mins",
+              "readingMinutes": 6,
+              "wordCount": 1393,
+              "publishedDate": "2026-09-03",
+              "savedDate": "2026-09-03T08:02:52.592000+00:00",
+              "imageUrl": null,
+              "sourceUrl": "mailto:reader-forwarded-email/072b364675bd6641dfc8449d41caf383",
+              "readwiseUrl": "https://read.readwise.io/read/01m1k4njhg2tq0hr2s2c7q8mc2",
+              "summary": "The Broken Windows idea starts with a simple observation. Imagine a building with one broken window.",
+              "whyRead": "Raakt je interesse in agile werken, Scrum en organisatiecultuur: dit essay vertaalt de “broken windows”-metafoor naar de kleine problemen die teams leren tolereren. De meerwaarde zit in de scherpe koppeling tussen concreet gedrag, psychologische veiligheid en de geloofwaardigheid van inspectie en adaptatie.",
+              "bestMoment": "leergierig",
+              "tags": [
+                "agile",
+                "social psychology & interpersonal dynamics",
+                "sociology & social structures",
+                "team dynamics & collaboration"
+              ],
+              "coreInterests": [
+                "sociologie",
+                "agile"
+              ],
+              "alsoIn": [
+                "aaa-short-top-100"
+              ]
+            },
+            {
+              "position": 26,
+              "id": "01m1kppkgrbrrg09crtnnhtnr2",
+              "title": "One Step at a Time*",
               "author": null,
               "siteName": "datasenter.no",
               "category": "article",
               "language": null,
-              "readingTime": "8 mins",
-              "readingMinutes": 8,
-              "wordCount": 1909,
+              "readingTime": "7 mins",
+              "readingMinutes": 7,
+              "wordCount": 1696,
               "publishedDate": null,
-              "savedDate": "2026-09-03T10:05:57.134000+00:00",
-              "imageUrl": null,
-              "sourceUrl": "http://scrumbook.org.datasenter.no/value-stream/sprint/sprint-retrospective.html",
-              "readwiseUrl": "https://read.readwise.io/read/01m1kbpy0d4mhwm6pmkvkvf13z",
-              "summary": "Over time, without explicit attention, processes and discipline tend to decay. People get sloppy.",
-              "whyRead": "Raakt je interesse in Scrum, Agile en professionele ontwikkeling: dit patroon legt uit waarom een team een Sprint Retrospective nodig heeft om procesverval, herhaalde fouten en defensief gedrag zichtbaar te maken. De meerwaarde zit in de concrete koppeling tussen reflectie, systeemdenken, root-cause-analyse en kleine experimentele verbeteringen.",
+              "savedDate": "2026-09-03T13:18:00.726000+00:00",
+              "imageUrl": "http://scrumbook.org.datasenter.no/images/OneStepatATime_Head.jpg",
+              "sourceUrl": "http://scrumbook.org.datasenter.no/retrospective-pattern-language/one-step-at-a-time.html",
+              "readwiseUrl": "https://read.readwise.io/read/01m1kppkgrbrrg09crtnnhtnr2",
+              "summary": "Reflections of any kind generally lead people to propose many possible kaizens (incremental improvements; see Kaizen and Kaikaku). After all, every team has many challenges.",
+              "whyRead": "Raakt je interesse in Scrum en Agile werken; dit patroon maakt het effect van focus, kleine stappen en gecontroleerd experimenteren concreet voor retrospectives en sprintwerk.",
               "bestMoment": "leergierig",
               "tags": [
                 "agile",
@@ -16584,13 +16976,11 @@ window.TOP_ARTICLES = {
                 "agile"
               ],
               "alsoIn": [
-                "aaa-top-100",
-                "aaa-short-top-100",
-                "aaa-social-studies-top-100"
+                "aaa-short-top-100"
               ]
             },
             {
-              "position": 16,
+              "position": 27,
               "id": "01m1xbff44jky00v2mqa9an884",
               "title": "User behaviour",
               "author": null,
@@ -16627,7 +17017,39 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 17,
+              "position": 28,
+              "id": "01m2q3jyb0n30vs5541sfrh5wk",
+              "title": "The Forces That Decide What’s Discussable",
+              "author": null,
+              "siteName": "Substack",
+              "category": "email",
+              "language": null,
+              "readingTime": "5 mins",
+              "readingMinutes": 5,
+              "wordCount": 1156,
+              "publishedDate": "2026-09-17",
+              "savedDate": "2026-09-17T07:16:37.345000+00:00",
+              "imageUrl": null,
+              "sourceUrl": "mailto:reader-forwarded-email/362dc30d1f79d133a02660839ed38418",
+              "readwiseUrl": "https://read.readwise.io/read/01m2q3jyb0n30vs5541sfrh5wk",
+              "summary": "In my previous essay – and the first one in this series – I described a meeting where an idea just… stopped existing. No one voted it down.",
+              "whyRead": "Raakt je kerninteresses in macht, organisatiegedrag, menselijke interactie en teamcoaching. De meerwaarde is een toegankelijk essay over de stille manieren waarop organisaties bepalen welke problemen überhaupt bespreekbaar worden.",
+              "bestMoment": "analytisch",
+              "tags": [
+                "organizational behavior & culture",
+                "social psychology & interpersonal dynamics",
+                "team coaching"
+              ],
+              "coreInterests": [
+                "sociologie",
+                "agile"
+              ],
+              "alsoIn": [
+                "aaa-short-top-100"
+              ]
+            },
+            {
+              "position": 29,
               "id": "01j5b8c9ze5tvy3xr8axp67j8v",
               "title": "🌲 Prompt engineering gave me empathy for my bosses",
               "author": null,
@@ -16666,7 +17088,41 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 18,
+              "position": 30,
+              "id": "01m110gbsyqc7vv1ejwtptm5rf",
+              "title": "Communication Is … Dialogue",
+              "author": null,
+              "siteName": "Substack",
+              "category": "email",
+              "language": null,
+              "readingTime": "4 mins",
+              "readingMinutes": 4,
+              "wordCount": 979,
+              "publishedDate": "2026-08-27",
+              "savedDate": "2026-08-27T07:03:47.774000+00:00",
+              "imageUrl": null,
+              "sourceUrl": "mailto:reader-forwarded-email/045104d0d3c98c3396c47de8fa1c2e93",
+              "readwiseUrl": "https://read.readwise.io/read/01m110gbsyqc7vv1ejwtptm5rf",
+              "summary": "“Great, sounds like we’re all on the same page. ” It’s the sentence that typically closes meetings we think have gone well.",
+              "whyRead": "Raakt je werk als Scrum Master en je interesse in teamdynamiek; het biedt een scherp kader om productief verschil niet met slechte communicatie te verwarren.",
+              "bestMoment": "analytisch",
+              "tags": [
+                "agile",
+                "behavioral psychology & coaching",
+                "professional development",
+                "social psychology & interpersonal dynamics",
+                "team dynamics & collaboration"
+              ],
+              "coreInterests": [
+                "sociologie",
+                "agile"
+              ],
+              "alsoIn": [
+                "aaa-short-top-100"
+              ]
+            },
+            {
+              "position": 31,
               "id": "01m196wzm7941m99hfab08jcs8",
               "title": "Arguments: Why Do You Believe What You Believe?",
               "author": null,
@@ -16698,52 +17154,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 19,
-              "id": "01m1rqhq0jsh1hs8h8v39a8etr",
-              "title": "Case Study: When Agile Meets Neurodivergence",
-              "author": null,
-              "siteName": "Agile Alliance |",
-              "category": "article",
-              "language": null,
-              "readingTime": "3 mins",
-              "readingMinutes": 3,
-              "wordCount": 757,
-              "publishedDate": "2026-02-19",
-              "savedDate": "2026-09-05T12:09:01.202000+00:00",
-              "imageUrl": "https://agilealliance.org/wp-content/uploads/2026/02/agile-meets-neurodivergence.webp",
-              "sourceUrl": "https://agilealliance.org/case-study-when-agile-meets-neurodivergence/",
-              "readwiseUrl": "https://read.readwise.io/read/01m1rqhq0jsh1hs8h8v39a8etr",
-              "summary": "A Scrum Master reexamines Agile practices through the lens of neurodivergence and shows how reducing cognitive load and redesigning collaboration improved execution and team effectiveness.",
-              "whyRead": "Een heldere agile-case over de wisselwerking tussen neurodivergentie, teaminteractie en systeemontwerp. De centrale coachingsles is dat gedrag dat op weerstand of inconsistentie lijkt ook een mismatch kan zijn tussen standaardwerkwijzen en hoe mensen informatie verwerken.",
-              "bestMoment": "praktisch",
-              "tags": [
-                "adhd & neurodivergence",
-                "agile",
-                "behavioral psychology & coaching",
-                "facilitation",
-                "organizational behavior & culture",
-                "professional development",
-                "social psychology & interpersonal dynamics",
-                "software development",
-                "team coaching",
-                "team dynamics & collaboration"
-              ],
-              "coreInterests": [
-                "sociologie",
-                "adhd",
-                "agile"
-              ],
-              "alsoIn": [
-                "aaa-top-100",
-                "aaa-short-top-100",
-                "aaa-social-studies-top-100",
-                "aaa-software-development-top-10",
-                "aaa-software-development-top-100",
-                "aaa-adhd-top-100"
-              ]
-            },
-            {
-              "position": 20,
+              "position": 32,
               "id": "01kvwwdq8bhy9m3x614gmtn41d",
               "title": "Andrew Stanton: Storytelling Secrets from the Writer of Toy Story 5",
               "author": null,
@@ -16780,7 +17191,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 21,
+              "position": 33,
               "id": "01kwfk5q2rtfm9enggaybd07zq",
               "title": "David Sedaris: Lessons From Decades of Writing",
               "author": null,
@@ -16817,41 +17228,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 22,
-              "id": "01m0pngsn5q8yqqrn2xq1w2hq5",
-              "title": "To benefit from AI, your organization’s learning loops must evolve",
-              "author": null,
-              "siteName": "Medium",
-              "category": "article",
-              "language": null,
-              "readingTime": "11 mins",
-              "readingMinutes": 11,
-              "wordCount": 2739,
-              "publishedDate": "2023-03-27",
-              "savedDate": "2026-08-23T06:39:23.299000+00:00",
-              "imageUrl": "https://miro.medium.com/v2/da:true/resize:fit:1196/0*nOkkjJ_OuaeYn4K-",
-              "sourceUrl": "https://uxdesign.cc/to-benefit-from-ai-your-organizations-learning-loops-must-evolve-5b6145415f6a",
-              "readwiseUrl": "https://read.readwise.io/read/01m0pngsn5q8yqqrn2xq1w2hq5",
-              "summary": "Ideas are cheap. AI is posed to make outputs just as cheap. But without the higher-level feedback loops, your organization’s…",
-              "whyRead": "Raakt je interesse in AI en lerende organisaties. Het verschuift de aandacht van snelle AI-output naar de feedbacklussen die bepalen of die output werkelijk waarde wordt. Raakt daarnaast je interesse in sociale psychologie en interpersoonlijke dynamiek, teamdynamiek en samenwerking, agile/teamcoaching.",
-              "bestMoment": "analytisch",
-              "tags": [
-                "agile",
-                "learning & meta-learning",
-                "social psychology & interpersonal dynamics",
-                "team dynamics & collaboration",
-                "technology"
-              ],
-              "coreInterests": [
-                "sociologie",
-                "agile"
-              ],
-              "alsoIn": [
-                "aaa-social-studies-top-100"
-              ]
-            },
-            {
-              "position": 23,
+              "position": 34,
               "id": "01m196wv3n2x3k1nnxbynjm8zt",
               "title": "Critical Thinking: What is it to be a Critical Thinker?",
               "author": null,
@@ -16882,7 +17259,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 24,
+              "position": 35,
               "id": "01m0k2vz633g5ymgt2gt9qgv09",
               "title": "The Unlicensed Therapists of Tech",
               "author": null,
@@ -16916,7 +17293,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 25,
+              "position": 36,
               "id": "01m17hcyt40k1nn13p6cp7eyr9",
               "title": "the tyranny of the measurable",
               "author": null,
@@ -16952,7 +17329,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 26,
+              "position": 37,
               "id": "01m1xbesardcfm71z3x3901sje",
               "title": "Virtual Civil Society Is Coming To China",
               "author": null,
@@ -16990,7 +17367,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 27,
+              "position": 38,
               "id": "01m1xeepy1sxxp8wd2yzzz15sb",
               "title": "They Write the Right Stuff",
               "author": null,
@@ -17028,7 +17405,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 28,
+              "position": 39,
               "id": "01m1xeeremd6ss4bhkd9zaqgqd",
               "title": "The Human Factor",
               "author": null,
@@ -17067,40 +17444,100 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 29,
-              "id": "01m1gp4waxm0cmf0dh788j4jvv",
-              "title": "The AI-Native SDLC playbook",
+              "position": 40,
+              "id": "01m2msap2g98nwk78n4yxf36tf",
+              "title": "Lead Without a Ladder: How I Climbed Into Engineering Leadership",
               "author": null,
-              "siteName": "claude.com",
+              "siteName": "InfoQ",
               "category": "article",
               "language": null,
-              "readingTime": "38 mins",
-              "readingMinutes": 38,
-              "wordCount": 9847,
-              "publishedDate": "2026-08-21",
-              "savedDate": "2026-09-02T09:10:36.637000+00:00",
-              "imageUrl": "https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a885727631521d0c3cd0a1b_og_the-ai-native-sdlc-playbook.jpg",
-              "sourceUrl": "https://claude.com/blog/the-ai-native-sdlc-playbook",
-              "readwiseUrl": "https://read.readwise.io/read/01m1gp4waxm0cmf0dh788j4jvv",
-              "summary": "How to transform your software development lifecycle with AI—stage by stage.",
-              "whyRead": "Raakt je interesse in AI, agile werken en professionele ontwikkeling: deze technische playbook laat zien hoe agentische AI het hele softwareontwikkelproces verandert, niet alleen het schrijven van code. Vooral de combinatie van automatisering, menselijke verantwoordelijkheid en governance is relevant voor je werk als Scrum Master.",
+              "readingTime": "27 mins",
+              "readingMinutes": 27,
+              "wordCount": 7040,
+              "publishedDate": "2026-09-15",
+              "savedDate": "2026-09-16T09:38:52.112000+00:00",
+              "imageUrl": "https://res.infoq.com/presentations/engineering-leadership/en/card_header_image/generatedCard-1789020823444.jpg",
+              "sourceUrl": "https://r.updates.infoq.com/tr/cl/9YlsokybowmEd45LW0ZfZaEfa6Y6XZq_mXlDjmmz--RtAwvOuhdPbg2aOo3-HHTcXbIQCr2hSXYi0PYDoGJMPrshdgxDMX1jMxFcDgrJq8wK4rOUTQYckMZJae6S_f4TY-l82n8CjWHzfRCBYxZgBGO3oj77LZCq8iEU8M-YV9NqdAiUHhxD0J_SvlBSN1rFkyCcBWrhv9Eyorl9d9Z1D8yPHuXTM3F1YRiRuqcRMDoucwSIiZb6fqaTHZU8JKHqOqtVVmGdD2uefWBlacT1S4zx89VLfydypYKK8NnOaTKq0sRhLXqZUE-2p2CY9VFjILZdvCM57XR6S2bHXewwiCZYZQ2ZvH-DA_V8BV4beQtYellyHv_j04Oynaoy76V4YAj_g8EGQqbq1zmwpEF8-1FQpT1jiYW1rjhWf5r94KwgYXr99WRg-vVB9ZxtmboDRVcNlhK3IL67TfDT9CXEgDgB37eAh8E19TDOzGYFV2J46Rf_ll4KNWq6rEphHmVh5sPH9IqjO-XedUTtUgwlN1MId4YJynz5fH0E11RHzC0hby64w0x5Jomfw-C8oudp4fgTG8smu3sJzvh0CzP_rUD91JPDQty80zipJWpZ3yURk1Q6n_DvORxUFTEb4VB2cJbITzTThBq7HdiGHbCISydPArNgK-W1j_79Y7t0G4Q",
+              "readwiseUrl": "https://read.readwise.io/read/01m2msap2g98nwk78n4yxf36tf",
+              "summary": "Pauline Jepp explains how systems thinking, rock climbing, and flocking behaviors apply to engineering leadership. She shares strategies for balancing team autonomy with alignment, supporting invisible work like mentorship, and navigating transitions from hands-on engineer to engineering leader while maintaining organizational trust and psychological safety.",
+              "whyRead": "Raakt je werk als agile/teamcoach en je interesse in softwareorganisaties: dit lange interview gebruikt klimmen en zwermgedrag om leiderschap te verbinden aan autonomie, alignment, psychologische veiligheid en onzichtbaar teamwerk. Vooral de voorbeelden over domeineigenaarschap, mentoring en vertrouwen zijn bruikbaar voor gesprekken met engineeringteams.",
+              "bestMoment": "leergierig",
+              "tags": [
+                "organizational behavior & culture",
+                "software development",
+                "team coaching"
+              ],
+              "coreInterests": [
+                "agile"
+              ],
+              "alsoIn": [
+                "aaa-software-development-top-100"
+              ]
+            },
+            {
+              "position": 41,
+              "id": "01m0pngvw1pq8s12ss8bgyz5hj",
+              "title": "2026 Survey Of The Product Management Profession",
+              "author": null,
+              "siteName": "Product Focus",
+              "category": "pdf",
+              "language": null,
+              "readingTime": "13 mins",
+              "readingMinutes": 13,
+              "wordCount": 3339,
+              "publishedDate": "2026-02-23",
+              "savedDate": "2026-08-23T06:39:25.569000+00:00",
+              "imageUrl": "https://readwise-assets.s3.amazonaws.com/media/reader/parsed_document_assets/489524307/Ba1hGT-VF5eXFntBwHqRVOHfsT-TMx7hP3KvRy51pMg-cove_bH3gQj5.png",
+              "sourceUrl": "https://www.productfocus.com/wp/wp-content/uploads/2026/03/Product-Focus-Industry-Survey-Report-2026.pdf",
+              "readwiseUrl": "https://read.readwise.io/read/01m0pngvw1pq8s12ss8bgyz5hj",
+              "summary": null,
+              "whyRead": "Raakt je professionele belangstelling voor productmanagement, agile en AI in organisaties. Een Europese benchmark met bruikbare cijfers over rolhelderheid, klantcontact en de kloof tussen AI-productiviteit en productwaarde.",
               "bestMoment": "geconcentreerd",
               "tags": [
                 "agile",
                 "organizational behavior & culture",
                 "professional development",
-                "team dynamics & collaboration",
                 "technology"
               ],
               "coreInterests": [
                 "agile"
               ],
               "alsoIn": [
-                "aaa-social-studies-top-100"
+                "pdf-top-10",
+                "pdf-top-100"
               ]
             },
             {
-              "position": 30,
+              "position": 42,
+              "id": "01m2w4q0nawzn679w0k1s4v64h",
+              "title": "Signals and Levers: Building Thriving Engineering Organizations - InfoQ",
+              "author": null,
+              "siteName": "InfoQ",
+              "category": "article",
+              "language": null,
+              "readingTime": "30 mins",
+              "readingMinutes": 30,
+              "wordCount": 7689,
+              "publishedDate": null,
+              "savedDate": "2026-09-19T06:16:25.811000+00:00",
+              "imageUrl": "https://res.infoq.com/podcasts/building-thriving-engineering-organizations/en/card_header_image/Signals-Levers-Building-Thriving-Engineering-Organizations-card-1788872636488.jpg",
+              "sourceUrl": "https://r.updates.infoq.com/tr/cl/EnPiaQGppv_7y8UaPXj91EJoqV4tFL5m8Se3OgWuS5LYMDZn9Od8DRKTqLPxzZ1M9IWeKoBv6tYnl5WsMejZAU1A2QBgZOaM97Q0vmUGO0R-gaBSYKCiOS9R70b14JdAobzoFs8IYIODioKKXkZuQkl0FtkCRpr6_NscgiQCD-dYfQPot5p_EOaVzPTlbGz22pM2ty0u0yy_-wwcllTn6flp0U_Q2eAJ5UbmPHp6V2yp3j61MHaX3c8m6Dbnq_m6J8VYQMe_Tab0OAFtty8vxuKvTZqep8mUlcKrQB7Ch-eV7t377_FyCq5IemN-4TCmJnRP2oSkiFVgQHyGJ8drU0QgWlQplKUGyHEStAGfNNVu1Fp6cqjlcRI-lARIqz24SOOfyZm_auEZbb0qcW7nmCEboxWrc87OFS5Lu2W61g9PryK34L8EJYDGC7bQsnpJvqS-DyJorUsrui8dq_0opzeqXAsAebB19TK6aBZbROiFoY9PsXU6yzf8GGhmJxkBIT6aP6pJkzTBVlVsGuyXMr_-Z3R-tmApqNYaNaFmnxQq1cqCnCuNllJDMDRUGcAtskDsEAroVC-YCiRy8fIRZ_r5fzIejD2UjyOurDcmsKF0g573Dz2YKuilNeZlxfbaHzbGKiU9Pkq3qIYPYK9p6gs1SOnP7Kq-gNCmrQ",
+              "readwiseUrl": "https://read.readwise.io/read/01m2w4q0nawzn679w0k1s4v64h",
+              "summary": "In this podcast Shane Hastie, Lead Editor for Culture & Methods spoke to Elisabeth Hendrickson and Joel Tosi about systems thinking as a lens for software delivery, the cultural \"levers\" leaders and teams can pull to shape organizations, and building thriving, sustainable teams amid AI-driven change.",
+              "whyRead": "Raakt je interesse in agile/teamcoaching, organisatiegedrag en de sociale systemen achter softwaredelivery. De meerwaarde is een essayistisch gesprek over systems thinking, cultuur als gedrag en AI als versterker van bestaande bottlenecks.",
+              "bestMoment": "analytisch",
+              "tags": [
+                "agile",
+                "organizational behavior & culture",
+                "team coaching"
+              ],
+              "coreInterests": [
+                "agile"
+              ],
+              "alsoIn": []
+            },
+            {
+              "position": 43,
               "id": "01kwew3bj4a2ynh5yf1e6pxbsf",
               "title": "What is Agile? A Practical Guide for Teams Ready to Work Differently",
               "author": null,
@@ -17133,26 +17570,27 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 31,
-              "id": "01m0yzc8acebxvxektbepqg0kc",
-              "title": "Strengthening Large-Scale Agile Teams: The Interplay of High-Quality Relationships, Psychological Safety, and Learning From Failures",
+              "position": 44,
+              "id": "01m0yytgcbktcptzp46cf14p2x",
+              "title": "The Agile Coach Role Decoded: What Agile Coaches Deliver Versus What Team Members Experience - Koumaditis - 2026 - Journal of Software: Evolution and Process - Wiley Online Library",
               "author": null,
-              "siteName": "copernicus.org",
+              "siteName": "Wiley Online Library",
               "category": "article",
               "language": null,
-              "readingTime": "40 mins",
-              "readingMinutes": 40,
-              "wordCount": 10561,
+              "readingTime": "39 mins",
+              "readingMinutes": 39,
+              "wordCount": 10208,
               "publishedDate": null,
-              "savedDate": "2026-08-26T12:05:35.692000+00:00",
-              "imageUrl": "https://onlinelibrary.wiley.com/cms/asset/5dfa72b9-8857-4713-a5b9-0cb63877eb06/smr2759-toc-0001-m.jpg?trick=1787745948434",
-              "sourceUrl": "https://doi.org/10.1002/smr.2759",
-              "readwiseUrl": "https://read.readwise.io/read/01m0yzc8acebxvxektbepqg0kc",
-              "summary": "Agile methods have become a standard practice within software industry, with organizations increasingly adopting large-scale agile (LSA) frameworks.",
-              "whyRead": "Raakt je werk als Scrum Master en je interesse in grootschalig agile werken. Dit empirische onderzoek maakt psychologische veiligheid concreet als schakel tussen relaties, leren van fouten en teamprestaties.",
+              "savedDate": "2026-08-26T11:55:54.123000+00:00",
+              "imageUrl": "https://onlinelibrary.wiley.com/cms/asset/9c442a64-643d-4619-8b72-4cfe8f700c1f/smr.v38.4.cover.jpg?trick=1787745358769",
+              "sourceUrl": "https://onlinelibrary.wiley.com/doi/10.1002/smr.70107",
+              "readwiseUrl": "https://read.readwise.io/read/01m0yytgcbktcptzp46cf14p2x",
+              "summary": "As organizations increasingly adopt agile methodologies to navigate digital transformation, the role of the agile coach has emerged as a critical yet ambiguously defined element of success.",
+              "whyRead": "Raakt je werk als Scrum Master en je interesse in agile coaching als beroepspraktijk. Dit recente open-access onderzoek vergelijkt wat coaches zeggen te doen met wat teamleden daadwerkelijk ervaren — precies de frictie waar rolhelderheid en coachingcontracten het verschil maken.",
               "bestMoment": "analytisch",
               "tags": [
                 "agile",
+                "organizational behavior & culture",
                 "research papers & academia",
                 "social psychology & interpersonal dynamics",
                 "team dynamics & collaboration"
@@ -17161,12 +17599,44 @@ window.TOP_ARTICLES = {
                 "sociologie",
                 "agile"
               ],
+              "alsoIn": []
+            },
+            {
+              "position": 45,
+              "id": "01m18v73vpssrb6705y75h1dra",
+              "title": "Great Teams Run on Differences and Common Ground. Most Get It Backward.",
+              "author": null,
+              "siteName": "fearlessculture.design",
+              "category": "article",
+              "language": null,
+              "readingTime": "1 min",
+              "readingMinutes": 1,
+              "wordCount": 163,
+              "publishedDate": "2026-08-09",
+              "savedDate": "2026-08-30T08:05:17.302000+00:00",
+              "imageUrl": "https://substackcdn.com/image/fetch/$s_!xXxA!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F6350034a-a1e4-4072-a891-4bedd4946edb_1200x800.jpeg",
+              "sourceUrl": "https://think.fearlessculture.design/p/great-teams-run-on-differences-and-commonalities",
+              "readwiseUrl": "https://read.readwise.io/read/01m18v73vpssrb6705y75h1dra",
+              "summary": "Why your brainstorms produce safe ideas while your team fights over email. The same pattern drives both, and it's fixable.",
+              "whyRead": "Raakt je werk als Scrum Master: dit korte essay legt een bruikbare verbinding tussen vlakke groepsbesluiten en terugkerend conflict. De opgeslagen brontekst is een fragment, dus zie dit als een prikkelende stelling, niet als uitgewerkte methode.",
+              "bestMoment": "reflectief",
+              "tags": [
+                "agile",
+                "behavioral psychology & coaching",
+                "professional development",
+                "social psychology & interpersonal dynamics",
+                "team dynamics & collaboration"
+              ],
+              "coreInterests": [
+                "sociologie",
+                "agile"
+              ],
               "alsoIn": [
-                "aaa-social-studies-top-100"
+                "aaa-short-top-100"
               ]
             },
             {
-              "position": 32,
+              "position": 46,
               "id": "01m0kztar8p0q02aet41a6xn7w",
               "title": "Real World Agility EXPLAINED: Nick Brown’s Hard-Earned Lessons",
               "author": null,
@@ -17199,39 +17669,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 33,
-              "id": "01m0pj0hcdzk57dgqrhngd08xm",
-              "title": "How to Tell if Your Manager is Actually Good?",
-              "author": null,
-              "siteName": "eng-leadership.com",
-              "category": "article",
-              "language": null,
-              "readingTime": "11 mins",
-              "readingMinutes": 11,
-              "wordCount": 2793,
-              "publishedDate": "2026-08-17",
-              "savedDate": "2026-08-23T05:38:04.813000+00:00",
-              "imageUrl": "https://substackcdn.com/image/fetch/$s_!i3Jx!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc90bfb65-2204-4df5-ac50-480b0ba8d7e7_1600x854.jpeg",
-              "sourceUrl": "https://newsletter.eng-leadership.com/p/how-to-tell-if-your-manager-is-actually?utm_source=substack&utm_medium=email",
-              "readwiseUrl": "https://read.readwise.io/read/01m0pj0hcdzk57dgqrhngd08xm",
-              "summary": "The 3 signs that reveal whether your manager is helping you thrive or holding you back.",
-              "whyRead": "Praktische signalen om te herkennen of een manager/leidinggevende daadwerkelijk goed leiderschap toont — sluit aan bij je interesse in agile/servant leadership.",
-              "bestMoment": "reflectief",
-              "tags": [
-                "agile",
-                "organizational behavior & culture",
-                "professional development",
-                "social psychology & interpersonal dynamics",
-                "team dynamics & collaboration"
-              ],
-              "coreInterests": [
-                "sociologie",
-                "agile"
-              ],
-              "alsoIn": []
-            },
-            {
-              "position": 34,
+              "position": 47,
               "id": "01m165n8b4qpq2few1y4qzdnxk",
               "title": "How To Push Back At Work Without Hurting Your Career",
               "author": null,
@@ -17262,39 +17700,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 35,
-              "id": "01m18v749bgejt8n415145znvv",
-              "title": "Improve Team Collaboration with the Washing Instructions Canvas",
-              "author": null,
-              "siteName": "fearlessculture.design",
-              "category": "article",
-              "language": null,
-              "readingTime": "12 mins",
-              "readingMinutes": 12,
-              "wordCount": 3132,
-              "publishedDate": "2022-12-01",
-              "savedDate": "2026-08-30T08:05:17.736000+00:00",
-              "imageUrl": "https://assets-global.website-files.com/5fa4aac1f837ef5fa264e521/644a995ed0a9a11039ca2a18_Personal%20Washing%20Instructions%20Canvas-min.jpg",
-              "sourceUrl": "https://www.fearlessculture.design/blog-posts/team-washing-instructions-canvas",
-              "readwiseUrl": "https://read.readwise.io/read/01m18v749bgejt8n415145znvv",
-              "summary": "New products often come with a user manual that makes it easier to understand how they work. Clear instructions accelerate the learning curve and reduce frustration.",
-              "whyRead": "Raakt je Scrum Master-praktijk en interesse in psychologische veiligheid: de Washing Instructions Canvas biedt een laagdrempelige werkvorm om impliciete voorkeuren voor communicatie en samenwerking bespreekbaar te maken.",
-              "bestMoment": "leergierig",
-              "tags": [
-                "agile",
-                "behavioral psychology & coaching",
-                "professional development",
-                "social psychology & interpersonal dynamics",
-                "team dynamics & collaboration"
-              ],
-              "coreInterests": [
-                "sociologie",
-                "agile"
-              ],
-              "alsoIn": []
-            },
-            {
-              "position": 36,
+              "position": 48,
               "id": "01m1q38vt13z682y665ms9k4xv",
               "title": "Beyond HTML5: Database APIs and the Road to IndexedDB",
               "author": null,
@@ -17335,44 +17741,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 37,
-              "id": "01m1zvs6zarc4w1cwf7w1sc7ef",
-              "title": "Building Bridges for Corporate Agility — Yuliia Pieskova",
-              "author": null,
-              "siteName": "Agile Alliance |",
-              "category": "article",
-              "language": null,
-              "readingTime": "15 mins",
-              "readingMinutes": 15,
-              "wordCount": 3958,
-              "publishedDate": "2023-06-02",
-              "savedDate": "2026-09-08T06:37:42.250000+00:00",
-              "imageUrl": "https://www.agilealliance.org/wp-content/uploads/2023/04/xp2023-social-media.jpg",
-              "sourceUrl": "https://www.agilealliance.org/resources/experience-reports/building-bridges-for-corporate-agility-our-journey-of-including-clients-in-sprint-reviews/",
-              "readwiseUrl": "https://read.readwise.io/read/01m1zvs6zarc4w1cwf7w1sc7ef",
-              "summary": "This report details a change management journey that led to a significant transformation in the way development teams inspect and adapt their work within an international fintech corporation.",
-              "whyRead": "Een rijke praktijkcase over systeemverandering in een complexe organisatie. Het laat zien hoe een Scrum Master een rapportagegerichte Sprint Review stap voor stap verandert in een veilige feedbacklus met teams, andere afdelingen en echte gebruikers.",
-              "bestMoment": "verdiepend",
-              "tags": [
-                "agile",
-                "facilitation",
-                "flow & delivery",
-                "organizational behavior & culture",
-                "organizational culture",
-                "product management",
-                "professional development",
-                "social psychology & interpersonal dynamics",
-                "team coaching",
-                "team dynamics & collaboration"
-              ],
-              "coreInterests": [
-                "sociologie",
-                "agile"
-              ],
-              "alsoIn": []
-            },
-            {
-              "position": 38,
+              "position": 49,
               "id": "01kmbp240j81t2q7hgkj3dvykm",
               "title": "Every layer of review makes you 10x slower",
               "author": null,
@@ -17405,7 +17774,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 39,
+              "position": 50,
               "id": "01kh1ypdtsb1f1nafttcy8qdmn",
               "title": "Backseat Software",
               "author": null,
@@ -17442,1059 +17811,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 40,
-              "id": "01m1ckrdyh8tprrhj5bvqysbef",
-              "title": "Who are your jaguar hunters?",
-              "author": null,
-              "siteName": "Substack",
-              "category": "email",
-              "language": null,
-              "readingTime": "5 mins",
-              "readingMinutes": 5,
-              "wordCount": 1319,
-              "publishedDate": "2026-08-31",
-              "savedDate": "2026-08-31T19:11:53.810000+00:00",
-              "imageUrl": null,
-              "sourceUrl": "mailto:reader-forwarded-email/71d7fee06395b55dd8bffc1bc1505745",
-              "readwiseUrl": "https://read.readwise.io/read/01m1ckrdyh8tprrhj5bvqysbef",
-              "summary": "Walk into any organization and, beneath the org chart, the titles, and the carefully worded values statements, you will find another hierarchy operating invisibly: an informal system determining whose opinions carry weight, whose behavior gets imitated, whose stories are repeated, who gets invited into important rooms - and ultimately, what kind of person others conclude they should become if they want to “succeed” there.",
-              "whyRead": "Sterke analogie tussen statusverdeling bij een Amazonestam en organisatiecultuur — laat zien hoe beloning en angst de werkelijke bedrijfscultuur vormgeven, direct bruikbaar als Scrum Master bij het doorgronden van teamdynamiek.",
-              "bestMoment": "kritisch",
-              "tags": [
-                "agile",
-                "professional development",
-                "social psychology & interpersonal dynamics",
-                "sociology & social structures",
-                "team dynamics & collaboration"
-              ],
-              "coreInterests": [
-                "sociologie",
-                "agile"
-              ],
-              "alsoIn": [
-                "aaa-short-top-100"
-              ]
-            },
-            {
-              "position": 41,
-              "id": "01m18j8c3fqagby4exfngsgy0t",
-              "title": "Most Conflict Starts With Team Agreements No One Made",
-              "author": null,
-              "siteName": "fearlessculture.design",
-              "category": "article",
-              "language": null,
-              "readingTime": "7 mins",
-              "readingMinutes": 7,
-              "wordCount": 1730,
-              "publishedDate": "2026-08-23",
-              "savedDate": "2026-08-30T05:28:41.327000+00:00",
-              "imageUrl": "https://substackcdn.com/image/fetch/$s_!D-pm!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F0950ddd7-8577-4ca1-9ab1-93f48bc8e677_1200x776.jpeg",
-              "sourceUrl": "https://think.fearlessculture.design/p/how-to-create-team-agreements",
-              "readwiseUrl": "https://read.readwise.io/read/01m18j8c3fqagby4exfngsgy0t",
-              "summary": "Unclear expectations cost teams more than heavy workloads. Learn how to write team agreements covering communication, collaboration, standards, and support. \n\nReplace assumptions with clear agreements using the Team Washing Instructions Canvas (template included)",
-              "whyRead": "Raakt je werk als Scrum Master en je interesse in teamdynamiek — dit biedt een concreet, onderbouwd kader om impliciete verwachtingen om te zetten in werkbare teamafspraken.",
-              "bestMoment": "leergierig",
-              "tags": [
-                "agile",
-                "behavioral psychology & coaching",
-                "professional development",
-                "social psychology & interpersonal dynamics",
-                "team dynamics & collaboration"
-              ],
-              "coreInterests": [
-                "sociologie",
-                "agile"
-              ],
-              "alsoIn": [
-                "aaa-short-top-100"
-              ]
-            },
-            {
-              "position": 42,
-              "id": "01m1k4njhg2tq0hr2s2c7q8mc2",
-              "title": "The First Broken Window",
-              "author": null,
-              "siteName": "Substack",
-              "category": "email",
-              "language": null,
-              "readingTime": "6 mins",
-              "readingMinutes": 6,
-              "wordCount": 1393,
-              "publishedDate": "2026-09-03",
-              "savedDate": "2026-09-03T08:02:52.592000+00:00",
-              "imageUrl": null,
-              "sourceUrl": "mailto:reader-forwarded-email/072b364675bd6641dfc8449d41caf383",
-              "readwiseUrl": "https://read.readwise.io/read/01m1k4njhg2tq0hr2s2c7q8mc2",
-              "summary": "The Broken Windows idea starts with a simple observation. Imagine a building with one broken window.",
-              "whyRead": "Raakt je interesse in agile werken, Scrum en organisatiecultuur: dit essay vertaalt de “broken windows”-metafoor naar de kleine problemen die teams leren tolereren. De meerwaarde zit in de scherpe koppeling tussen concreet gedrag, psychologische veiligheid en de geloofwaardigheid van inspectie en adaptatie.",
-              "bestMoment": "leergierig",
-              "tags": [
-                "agile",
-                "social psychology & interpersonal dynamics",
-                "sociology & social structures",
-                "team dynamics & collaboration"
-              ],
-              "coreInterests": [
-                "sociologie",
-                "agile"
-              ],
-              "alsoIn": [
-                "aaa-short-top-100"
-              ]
-            },
-            {
-              "position": 43,
-              "id": "01m1kppkgrbrrg09crtnnhtnr2",
-              "title": "One Step at a Time*",
-              "author": null,
-              "siteName": "datasenter.no",
-              "category": "article",
-              "language": null,
-              "readingTime": "7 mins",
-              "readingMinutes": 7,
-              "wordCount": 1696,
-              "publishedDate": null,
-              "savedDate": "2026-09-03T13:18:00.726000+00:00",
-              "imageUrl": "http://scrumbook.org.datasenter.no/images/OneStepatATime_Head.jpg",
-              "sourceUrl": "http://scrumbook.org.datasenter.no/retrospective-pattern-language/one-step-at-a-time.html",
-              "readwiseUrl": "https://read.readwise.io/read/01m1kppkgrbrrg09crtnnhtnr2",
-              "summary": "Reflections of any kind generally lead people to propose many possible kaizens (incremental improvements; see Kaizen and Kaikaku). After all, every team has many challenges.",
-              "whyRead": "Raakt je interesse in Scrum en Agile werken; dit patroon maakt het effect van focus, kleine stappen en gecontroleerd experimenteren concreet voor retrospectives en sprintwerk.",
-              "bestMoment": "leergierig",
-              "tags": [
-                "agile",
-                "professional development",
-                "social psychology & interpersonal dynamics",
-                "team dynamics & collaboration"
-              ],
-              "coreInterests": [
-                "sociologie",
-                "agile"
-              ],
-              "alsoIn": [
-                "aaa-short-top-100"
-              ]
-            },
-            {
-              "position": 44,
-              "id": "01m1wa1k6khksfwgvfavh9h9dd",
-              "title": "Drone WMDs Don’t Need Any New Technology",
-              "author": null,
-              "siteName": "lesswrong.com",
-              "category": "rss",
-              "language": null,
-              "readingTime": "15 mins",
-              "readingMinutes": 15,
-              "wordCount": 3777,
-              "publishedDate": "2026-09-06",
-              "savedDate": "2026-09-06T21:29:56.252000+00:00",
-              "imageUrl": "https://res.cloudinary.com/lesswrong-2-0/image/upload/v1654295382/new_mississippi_river_fjdmww.jpg",
-              "sourceUrl": "https://www.lesswrong.com/posts/bGoo3NWzMAzsLQceJ/drone-wmds-don-t-need-any-new-technology",
-              "readwiseUrl": "https://read.readwise.io/read/01m1wa1k6khksfwgvfavh9h9dd",
-              "summary": "This is a piece originally written for a national security audience at Frontiers. Although I think the ceiling of war is much, much higher than autopilot quadcopters, it's also important to understand how much AI is already lifting the floor, and just how vulnerable the world is to accessible weapons of mass destruction. Drones are cheap, disposable, and the future of war. Over the past four years, we have seen platforms, missiles, and heavy infantry become increasingly obsolete in the face of $500 drones carrying a pack of explosives—a cost advantage that has let Iranians and Ukrainians alike neuter the conventional capabilities of their great power rivals. Eighty percent of casualties in the bloodiest war since 1945 are from drone strikes, Russia has managed to lose one-third of its fleet to a country without a navy, and the US is spending millions of dollars to intercept five-figure Shaheds flying over the Strait of Hormuz.All this is the result of a technology that is still immature. The violence inflicted by today’s drones is the handiwork of the scant few that manage to evade countermeasures (a mix of radio jamming, high-power microwave weapons, missiles, automatic cannons, interceptor drones, and nets) before making contact. These defenses exploit the inherent limitations of drones—human guidance, GPS feedback, flight exposure, radio links, range—to take them down en masse. And yet, even though 75% of drones manufactured today never reach their targets, they have nonetheless been strategically decisive in Ukraine and elsewhere.These limitations will not hold for long. Just like bacteria being overexposed to antibiotics, overexposure to counterdrone tech has created an arms race for ever-more-autonomous drone technologies. In the process of facilitating this arms race, states are likely to incrementally create and deploy an entirely new class of WMD—one that could provide rogue states with the nonnuclear means to threaten superpowers, or hand terrorists the...",
-              "whyRead": "Scenarioanalyse over hoe bestaande drone-, navigatie- en AI-componenten autonome massawapens mogelijk maken en welke defensie- en proliferatieproblemen dat oplevert. Raakt daarnaast je interesse in sociale psychologie en interpersoonlijke dynamiek, teamdynamiek en samenwerking.",
-              "bestMoment": "kritisch",
-              "tags": [
-                "ai ethics & society",
-                "current affairs & politics",
-                "social psychology & interpersonal dynamics",
-                "team dynamics & collaboration",
-                "technology"
-              ],
-              "coreInterests": [
-                "sociologie",
-                "agile"
-              ],
-              "alsoIn": []
-            },
-            {
-              "position": 45,
-              "id": "01m2q3jyb0n30vs5541sfrh5wk",
-              "title": "The Forces That Decide What’s Discussable",
-              "author": null,
-              "siteName": "Substack",
-              "category": "email",
-              "language": null,
-              "readingTime": "5 mins",
-              "readingMinutes": 5,
-              "wordCount": 1156,
-              "publishedDate": "2026-09-17",
-              "savedDate": "2026-09-17T07:16:37.345000+00:00",
-              "imageUrl": null,
-              "sourceUrl": "mailto:reader-forwarded-email/362dc30d1f79d133a02660839ed38418",
-              "readwiseUrl": "https://read.readwise.io/read/01m2q3jyb0n30vs5541sfrh5wk",
-              "summary": "In my previous essay – and the first one in this series – I described a meeting where an idea just… stopped existing. No one voted it down.",
-              "whyRead": "Raakt je kerninteresses in macht, organisatiegedrag, menselijke interactie en teamcoaching. De meerwaarde is een toegankelijk essay over de stille manieren waarop organisaties bepalen welke problemen überhaupt bespreekbaar worden.",
-              "bestMoment": "analytisch",
-              "tags": [
-                "organizational behavior & culture",
-                "social psychology & interpersonal dynamics",
-                "team coaching"
-              ],
-              "coreInterests": [
-                "sociologie",
-                "agile"
-              ],
-              "alsoIn": [
-                "aaa-short-top-100"
-              ]
-            },
-            {
-              "position": 46,
-              "id": "01m110gbsyqc7vv1ejwtptm5rf",
-              "title": "Communication Is … Dialogue",
-              "author": null,
-              "siteName": "Substack",
-              "category": "email",
-              "language": null,
-              "readingTime": "4 mins",
-              "readingMinutes": 4,
-              "wordCount": 979,
-              "publishedDate": "2026-08-27",
-              "savedDate": "2026-08-27T07:03:47.774000+00:00",
-              "imageUrl": null,
-              "sourceUrl": "mailto:reader-forwarded-email/045104d0d3c98c3396c47de8fa1c2e93",
-              "readwiseUrl": "https://read.readwise.io/read/01m110gbsyqc7vv1ejwtptm5rf",
-              "summary": "“Great, sounds like we’re all on the same page. ” It’s the sentence that typically closes meetings we think have gone well.",
-              "whyRead": "Raakt je werk als Scrum Master en je interesse in teamdynamiek; het biedt een scherp kader om productief verschil niet met slechte communicatie te verwarren.",
-              "bestMoment": "analytisch",
-              "tags": [
-                "agile",
-                "behavioral psychology & coaching",
-                "professional development",
-                "social psychology & interpersonal dynamics",
-                "team dynamics & collaboration"
-              ],
-              "coreInterests": [
-                "sociologie",
-                "agile"
-              ],
-              "alsoIn": [
-                "aaa-short-top-100"
-              ]
-            },
-            {
-              "position": 47,
-              "id": "01kp2j39t59t9wy3bcs6m4q3c0",
-              "title": "Stigmergy: the most important concept you’ve never heard of",
-              "author": null,
-              "siteName": "The Self-Organizing Universe - Francis Heylighen",
-              "category": "article",
-              "language": "Engels",
-              "readingTime": "10 mins",
-              "readingMinutes": 10,
-              "wordCount": 2578,
-              "publishedDate": null,
-              "savedDate": "2026-04-13T04:37:48.417000+00:00",
-              "imageUrl": "https://substackcdn.com/image/fetch/$s_!8w2x!,f_auto,q_auto:best,fl_progressive:steep/https%3A%2F%2Ffrancisheylighen.substack.com%2Fapi%2Fv1%2Fpress_kit%2Fasset%2F186339413%2Foverlay%2Fcomposed%3FaspectRatio%3Dlink",
-              "sourceUrl": "https://francisheylighen.substack.com/p/stigmergy-the-most-important-concept?r=1r0y5d&utm_medium=ios&triedRedirect=true",
-              "readwiseUrl": "https://read.readwise.io/read/01kp2j39t59t9wy3bcs6m4q3c0",
-              "summary": "Stigmergy is a concept with a clumsy name and a modest origin.",
-              "whyRead": "Raakt je interesse in sociologie, technologie, PKM en collectieve intelligentie. Dit heldere essay geeft je met stigmergie een bruikbare lens voor hoe Wikipedia, open source, teams en AI-systemen zonder centrale regie kunnen coördineren. Raakt daarnaast je interesse in sociale psychologie en interpersoonlijke dynamiek, teamdynamiek en samenwerking.",
-              "bestMoment": "analytisch",
-              "tags": [
-                "science",
-                "social psychology & interpersonal dynamics",
-                "sociology & social structures",
-                "team dynamics & collaboration",
-                "technology"
-              ],
-              "coreInterests": [
-                "sociologie",
-                "agile"
-              ],
-              "alsoIn": [
-                "aaa-social-studies-top-100"
-              ]
-            },
-            {
-              "position": 48,
-              "id": "01m0kztthka4bcp3a2mfxww828",
-              "title": "Are Scrum Masters in DANGER? 5 Ways to Prove Your Value!",
-              "author": null,
-              "siteName": "YouTube",
-              "category": "video",
-              "language": null,
-              "readingTime": null,
-              "readingMinutes": null,
-              "wordCount": null,
-              "publishedDate": "2024-12-16",
-              "savedDate": "2026-08-22T05:41:54.356000+00:00",
-              "imageUrl": "https://i.ytimg.com/vi/OfRKW_1ClFM/sddefault.jpg",
-              "sourceUrl": "https://www.youtube.com/watch?v=OfRKW_1ClFM&list=PL8g6psFkuAKP3aFyGUTD6cPJ3Dp2S4QXi&index=4",
-              "readwiseUrl": "https://read.readwise.io/read/01m0kztthka4bcp3a2mfxww828",
-              "summary": "Are Scrum Masters Losing Their Edge? Discover the 5 Key Measures to Demonstrate Your Value!\n\nIn today’s Agile landscape, Scrum Masters are under immense pressure to prove their worth. From layoffs to questions about the role's relevance, it's time to tackle these challenges head-on.\n\nIn this video, Steve Trapps and Andy Hiles dive into the top 5 measures every Scrum Master must use to showcase their value:\n\nCycle Time – Track how quickly your team delivers value.\nSprint Goals – Ensure your team achieves valuable, outcome-driven goals.\nDefinition of Workflow – Create clarity and consistency in how work is done.\nRelease Predictability – Deliver high-quality products on time, every time.\nDefinition of Done – Maintain and improve quality with clear standards.\nThese critical Scrum Master practices will help you:\n\nImprove team performance.\nDrive stakeholder confidence with Agile metrics like cycle time.\nDemonstrate your team's ability to deliver consistent, high-quality results.\nWhether you’re a seasoned Scrum Master or just starting, this video is packed with actionable insights to help you navigate today’s Agile challenges.\n\n👉 Watch now and transform how you lead your team!\n\nSubscribe for more practical tips on Scrum, Agile, and team productivity.",
-              "whyRead": "Raakt je interesse in scrum & agile werken — een praktisch, beroepsmatig direct toepasbaar raamwerk van vijf meetbare manieren om als Scrum Master je waarde aan een organisatie aan te tonen.",
-              "bestMoment": "analytisch",
-              "tags": [
-                "team dynamics & collaboration"
-              ],
-              "coreInterests": [
-                "agile"
-              ],
-              "alsoIn": [
-                "video-top-10",
-                "video-top-100"
-              ]
-            },
-            {
-              "position": 49,
-              "id": "01m18wdrb9qpzrtqanc12wsgqs",
-              "title": "Leaders, You're No Longer Just Managing Productivity. You're Teaching Judgment",
-              "author": null,
-              "siteName": "reworked.co",
-              "category": "article",
-              "language": null,
-              "readingTime": "5 mins",
-              "readingMinutes": 5,
-              "wordCount": 1226,
-              "publishedDate": "2026-08-25",
-              "savedDate": "2026-08-30T08:26:23.465000+00:00",
-              "imageUrl": "https://www.reworked.co/-/media/07f00c0d58ab42718c2ce3edb75df2e8.ashx",
-              "sourceUrl": "https://www.reworked.co/learning-development/leaders-youre-no-longer-just-managing-productivity-youre-teaching-judgement/",
-              "readwiseUrl": "https://read.readwise.io/read/01m18wdrb9qpzrtqanc12wsgqs",
-              "summary": "AI reshaped the workflow, and the way talent develops. Here's how to intentionally design development.",
-              "whyRead": "relevant voor mijn rol als Scrum Master — gaat over hoe leidinggeven verandert nu AI het werk van junioren overneemt, en wat dat betekent voor coaching en teamontwikkeling.",
-              "bestMoment": "analytisch",
-              "tags": [
-                "ai ethics & society",
-                "behavioral psychology & coaching",
-                "business & startups",
-                "professional development",
-                "social psychology & interpersonal dynamics",
-                "team dynamics & collaboration",
-                "technology"
-              ],
-              "coreInterests": [
-                "sociologie",
-                "agile"
-              ],
-              "alsoIn": [
-                "aaa-short-top-100"
-              ]
-            },
-            {
-              "position": 50,
-              "id": "01m2msap2g98nwk78n4yxf36tf",
-              "title": "Lead Without a Ladder: How I Climbed Into Engineering Leadership",
-              "author": null,
-              "siteName": "InfoQ",
-              "category": "article",
-              "language": null,
-              "readingTime": "27 mins",
-              "readingMinutes": 27,
-              "wordCount": 7040,
-              "publishedDate": "2026-09-15",
-              "savedDate": "2026-09-16T09:38:52.112000+00:00",
-              "imageUrl": "https://res.infoq.com/presentations/engineering-leadership/en/card_header_image/generatedCard-1789020823444.jpg",
-              "sourceUrl": "https://r.updates.infoq.com/tr/cl/9YlsokybowmEd45LW0ZfZaEfa6Y6XZq_mXlDjmmz--RtAwvOuhdPbg2aOo3-HHTcXbIQCr2hSXYi0PYDoGJMPrshdgxDMX1jMxFcDgrJq8wK4rOUTQYckMZJae6S_f4TY-l82n8CjWHzfRCBYxZgBGO3oj77LZCq8iEU8M-YV9NqdAiUHhxD0J_SvlBSN1rFkyCcBWrhv9Eyorl9d9Z1D8yPHuXTM3F1YRiRuqcRMDoucwSIiZb6fqaTHZU8JKHqOqtVVmGdD2uefWBlacT1S4zx89VLfydypYKK8NnOaTKq0sRhLXqZUE-2p2CY9VFjILZdvCM57XR6S2bHXewwiCZYZQ2ZvH-DA_V8BV4beQtYellyHv_j04Oynaoy76V4YAj_g8EGQqbq1zmwpEF8-1FQpT1jiYW1rjhWf5r94KwgYXr99WRg-vVB9ZxtmboDRVcNlhK3IL67TfDT9CXEgDgB37eAh8E19TDOzGYFV2J46Rf_ll4KNWq6rEphHmVh5sPH9IqjO-XedUTtUgwlN1MId4YJynz5fH0E11RHzC0hby64w0x5Jomfw-C8oudp4fgTG8smu3sJzvh0CzP_rUD91JPDQty80zipJWpZ3yURk1Q6n_DvORxUFTEb4VB2cJbITzTThBq7HdiGHbCISydPArNgK-W1j_79Y7t0G4Q",
-              "readwiseUrl": "https://read.readwise.io/read/01m2msap2g98nwk78n4yxf36tf",
-              "summary": "Pauline Jepp explains how systems thinking, rock climbing, and flocking behaviors apply to engineering leadership. She shares strategies for balancing team autonomy with alignment, supporting invisible work like mentorship, and navigating transitions from hands-on engineer to engineering leader while maintaining organizational trust and psychological safety.",
-              "whyRead": "Raakt je werk als agile/teamcoach en je interesse in softwareorganisaties: dit lange interview gebruikt klimmen en zwermgedrag om leiderschap te verbinden aan autonomie, alignment, psychologische veiligheid en onzichtbaar teamwerk. Vooral de voorbeelden over domeineigenaarschap, mentoring en vertrouwen zijn bruikbaar voor gesprekken met engineeringteams.",
-              "bestMoment": "leergierig",
-              "tags": [
-                "organizational behavior & culture",
-                "software development",
-                "team coaching"
-              ],
-              "coreInterests": [
-                "agile"
-              ],
-              "alsoIn": [
-                "aaa-software-development-top-100"
-              ]
-            },
-            {
               "position": 51,
-              "id": "01m0kzvbj6t6crzagc9kw1n43f",
-              "title": "3 Game-Changing Lessons I Wish I Knew Earlier as a #ScrumMaster",
-              "author": null,
-              "siteName": "YouTube",
-              "category": "video",
-              "language": null,
-              "readingTime": null,
-              "readingMinutes": null,
-              "wordCount": null,
-              "publishedDate": "2024-11-12",
-              "savedDate": "2026-08-22T05:42:11.782000+00:00",
-              "imageUrl": "https://i.ytimg.com/vi/opFHnCa4wJ0/sddefault.jpg",
-              "sourceUrl": "https://www.youtube.com/watch?v=opFHnCa4wJ0&list=PL8g6psFkuAKP3aFyGUTD6cPJ3Dp2S4QXi&index=10",
-              "readwiseUrl": "https://read.readwise.io/read/01m0kzvbj6t6crzagc9kw1n43f",
-              "summary": "If I'd known these three insights from the start, my journey as a Scrum Master would have been a whole lot smoother! In this video, join me (Andy Hiles) and Steve Trapps as we dive into the hard-won lessons that every Scrum Master can benefit from-whether you're just starting out or years into your role.\n\n🔑 What You'll Learn:\n\nMetrics Matter - How the right metrics can back up your gut feeling, leading to better conversations and decisions.\nRelationship Building - Why connecting with people outside your immediate team makes a big difference.\nScrum Isn't Everything - Knowing when to adapt, and why Scrum may not always be the perfect fit.\n\nThese lessons have shaped our approach to Scrum and Agile coaching, and we're excited to share them with you! What's a lesson you wish you'd known earlier? Let us know in the comments!\n\n⏰ Time Stamps \n\n00:00 - Intro\n00:33 - Metrics\n03:52 - Relationships\n05:42 - Scrum Isn't Everything\n09:21 - Conclusion\n\n#ScrumMaster #Agile #Metrics #TeamBuilding #AgileMindset #scrumalliance #kanban",
-              "whyRead": "Raakt je interesse in scrum & agile werken — twee ervaren scrum.org-trainers delen drie lessen die ze vroeg in hun carrière hadden willen kennen, met een verrassend eerlijke relativering van scrum zelf als laatste les.",
-              "bestMoment": "analytisch",
-              "tags": [
-                "social psychology & interpersonal dynamics",
-                "team dynamics & collaboration"
-              ],
-              "coreInterests": [
-                "sociologie",
-                "agile"
-              ],
-              "alsoIn": [
-                "video-top-10",
-                "video-top-100"
-              ]
-            },
-            {
-              "position": 52,
-              "id": "01m0pngvw1pq8s12ss8bgyz5hj",
-              "title": "2026 Survey Of The Product Management Profession",
-              "author": null,
-              "siteName": "Product Focus",
-              "category": "pdf",
-              "language": null,
-              "readingTime": "13 mins",
-              "readingMinutes": 13,
-              "wordCount": 3339,
-              "publishedDate": "2026-02-23",
-              "savedDate": "2026-08-23T06:39:25.569000+00:00",
-              "imageUrl": "https://readwise-assets.s3.amazonaws.com/media/reader/parsed_document_assets/489524307/Ba1hGT-VF5eXFntBwHqRVOHfsT-TMx7hP3KvRy51pMg-cove_bH3gQj5.png",
-              "sourceUrl": "https://www.productfocus.com/wp/wp-content/uploads/2026/03/Product-Focus-Industry-Survey-Report-2026.pdf",
-              "readwiseUrl": "https://read.readwise.io/read/01m0pngvw1pq8s12ss8bgyz5hj",
-              "summary": null,
-              "whyRead": "Raakt je professionele belangstelling voor productmanagement, agile en AI in organisaties. Een Europese benchmark met bruikbare cijfers over rolhelderheid, klantcontact en de kloof tussen AI-productiviteit en productwaarde.",
-              "bestMoment": "geconcentreerd",
-              "tags": [
-                "agile",
-                "organizational behavior & culture",
-                "professional development",
-                "technology"
-              ],
-              "coreInterests": [
-                "agile"
-              ],
-              "alsoIn": [
-                "pdf-top-10",
-                "pdf-top-100"
-              ]
-            },
-            {
-              "position": 53,
-              "id": "01m2w4q0nawzn679w0k1s4v64h",
-              "title": "Signals and Levers: Building Thriving Engineering Organizations - InfoQ",
-              "author": null,
-              "siteName": "InfoQ",
-              "category": "article",
-              "language": null,
-              "readingTime": "30 mins",
-              "readingMinutes": 30,
-              "wordCount": 7689,
-              "publishedDate": null,
-              "savedDate": "2026-09-19T06:16:25.811000+00:00",
-              "imageUrl": "https://res.infoq.com/podcasts/building-thriving-engineering-organizations/en/card_header_image/Signals-Levers-Building-Thriving-Engineering-Organizations-card-1788872636488.jpg",
-              "sourceUrl": "https://r.updates.infoq.com/tr/cl/EnPiaQGppv_7y8UaPXj91EJoqV4tFL5m8Se3OgWuS5LYMDZn9Od8DRKTqLPxzZ1M9IWeKoBv6tYnl5WsMejZAU1A2QBgZOaM97Q0vmUGO0R-gaBSYKCiOS9R70b14JdAobzoFs8IYIODioKKXkZuQkl0FtkCRpr6_NscgiQCD-dYfQPot5p_EOaVzPTlbGz22pM2ty0u0yy_-wwcllTn6flp0U_Q2eAJ5UbmPHp6V2yp3j61MHaX3c8m6Dbnq_m6J8VYQMe_Tab0OAFtty8vxuKvTZqep8mUlcKrQB7Ch-eV7t377_FyCq5IemN-4TCmJnRP2oSkiFVgQHyGJ8drU0QgWlQplKUGyHEStAGfNNVu1Fp6cqjlcRI-lARIqz24SOOfyZm_auEZbb0qcW7nmCEboxWrc87OFS5Lu2W61g9PryK34L8EJYDGC7bQsnpJvqS-DyJorUsrui8dq_0opzeqXAsAebB19TK6aBZbROiFoY9PsXU6yzf8GGhmJxkBIT6aP6pJkzTBVlVsGuyXMr_-Z3R-tmApqNYaNaFmnxQq1cqCnCuNllJDMDRUGcAtskDsEAroVC-YCiRy8fIRZ_r5fzIejD2UjyOurDcmsKF0g573Dz2YKuilNeZlxfbaHzbGKiU9Pkq3qIYPYK9p6gs1SOnP7Kq-gNCmrQ",
-              "readwiseUrl": "https://read.readwise.io/read/01m2w4q0nawzn679w0k1s4v64h",
-              "summary": "In this podcast Shane Hastie, Lead Editor for Culture & Methods spoke to Elisabeth Hendrickson and Joel Tosi about systems thinking as a lens for software delivery, the cultural \"levers\" leaders and teams can pull to shape organizations, and building thriving, sustainable teams amid AI-driven change.",
-              "whyRead": "Raakt je interesse in agile/teamcoaching, organisatiegedrag en de sociale systemen achter softwaredelivery. De meerwaarde is een essayistisch gesprek over systems thinking, cultuur als gedrag en AI als versterker van bestaande bottlenecks.",
-              "bestMoment": "analytisch",
-              "tags": [
-                "agile",
-                "organizational behavior & culture",
-                "team coaching"
-              ],
-              "coreInterests": [
-                "agile"
-              ],
-              "alsoIn": []
-            },
-            {
-              "position": 54,
-              "id": "01kweww7axmq58ekx96xkj02jk",
-              "title": "Seven Ways Scrum Masters Can Be More Effective",
-              "author": null,
-              "siteName": null,
-              "category": "article",
-              "language": "Engels",
-              "readingTime": "12 mins",
-              "readingMinutes": 12,
-              "wordCount": 3069,
-              "publishedDate": null,
-              "savedDate": "2026-07-01T13:11:15.037000+00:00",
-              "imageUrl": "",
-              "sourceUrl": "https://www.scrum.org/learning-series/seven-ways-scrum-masters-can-be-more-effective/",
-              "readwiseUrl": "https://read.readwise.io/read/01kweww7axmq58ekx96xkj02jk",
-              "summary": "Distinguishes efficiency from effectiveness, then lists seven concrete ways a Scrum Master can increase Scrum Team effectiveness: enabling Scrum's purpose, focusing on goals, living the Scrum Values, enabling stakeholder feedback, removing obstacles, instilling self-management, and encouraging continuous improvement.",
-              "whyRead": null,
-              "bestMoment": null,
-              "tags": [
-                "organizational behavior & culture",
-                "professional development",
-                "social psychology & interpersonal dynamics",
-                "team dynamics & collaboration"
-              ],
-              "coreInterests": [
-                "sociologie",
-                "agile"
-              ],
-              "alsoIn": []
-            },
-            {
-              "position": 55,
-              "id": "01m0kzws6tp6edn1k4t1dmr1rq",
-              "title": "Scrum 101 Series - Episode 2 - Product Owner",
-              "author": null,
-              "siteName": "YouTube",
-              "category": "video",
-              "language": null,
-              "readingTime": null,
-              "readingMinutes": null,
-              "wordCount": null,
-              "publishedDate": "2025-02-03",
-              "savedDate": "2026-08-22T05:42:58.523000+00:00",
-              "imageUrl": "https://i.ytimg.com/vi/dr0kb9GBw_I/sddefault.jpg?sqp=-oaymwEmCIAFEOAD8quKqQMa8AEB-AH-CYAC0AWKAgwIABABGGUgUShTMA8=&rs=AOn4CLBFk2tbFHYtMlj_XPNb3kdEPKTrtg",
-              "sourceUrl": "https://www.youtube.com/watch?v=dr0kb9GBw_I&list=PL8g6psFkuAKPagwlAfRRawCuC_mAk-oLP&index=2",
-              "readwiseUrl": "https://read.readwise.io/read/01m0kzws6tp6edn1k4t1dmr1rq",
-              "summary": "As we continue with our Scrum 101 series, we delve into the accountability of the Product Owner. What should they be focusing on, what conversations should they have and with who.\n\nJoin us for 30 mins presentation, then 30 minutes of open discussion helping people to address their issues with Product Ownership\n\n#scrum #productowner #agile",
-              "whyRead": "Raakt je interesse in scrum & agile werken — een livestream-aflevering (Scrum Facilitators) volledig gewijd aan de rol van Product Owner, met veel publieksvragen over schaalvraagstukken (meerdere product owners, dependencies, project managers) die in de praktijk lastig zijn.",
-              "bestMoment": "analytisch",
-              "tags": [
-                "social psychology & interpersonal dynamics",
-                "team dynamics & collaboration"
-              ],
-              "coreInterests": [
-                "sociologie",
-                "agile"
-              ],
-              "alsoIn": [
-                "video-top-10",
-                "video-top-100"
-              ]
-            },
-            {
-              "position": 56,
-              "id": "01m0yytgcbktcptzp46cf14p2x",
-              "title": "The Agile Coach Role Decoded: What Agile Coaches Deliver Versus What Team Members Experience - Koumaditis - 2026 - Journal of Software: Evolution and Process - Wiley Online Library",
-              "author": null,
-              "siteName": "Wiley Online Library",
-              "category": "article",
-              "language": null,
-              "readingTime": "39 mins",
-              "readingMinutes": 39,
-              "wordCount": 10208,
-              "publishedDate": null,
-              "savedDate": "2026-08-26T11:55:54.123000+00:00",
-              "imageUrl": "https://onlinelibrary.wiley.com/cms/asset/9c442a64-643d-4619-8b72-4cfe8f700c1f/smr.v38.4.cover.jpg?trick=1787745358769",
-              "sourceUrl": "https://onlinelibrary.wiley.com/doi/10.1002/smr.70107",
-              "readwiseUrl": "https://read.readwise.io/read/01m0yytgcbktcptzp46cf14p2x",
-              "summary": "As organizations increasingly adopt agile methodologies to navigate digital transformation, the role of the agile coach has emerged as a critical yet ambiguously defined element of success.",
-              "whyRead": "Raakt je werk als Scrum Master en je interesse in agile coaching als beroepspraktijk. Dit recente open-access onderzoek vergelijkt wat coaches zeggen te doen met wat teamleden daadwerkelijk ervaren — precies de frictie waar rolhelderheid en coachingcontracten het verschil maken.",
-              "bestMoment": "analytisch",
-              "tags": [
-                "agile",
-                "organizational behavior & culture",
-                "research papers & academia",
-                "social psychology & interpersonal dynamics",
-                "team dynamics & collaboration"
-              ],
-              "coreInterests": [
-                "sociologie",
-                "agile"
-              ],
-              "alsoIn": []
-            },
-            {
-              "position": 57,
-              "id": "01m18v73vpssrb6705y75h1dra",
-              "title": "Great Teams Run on Differences and Common Ground. Most Get It Backward.",
-              "author": null,
-              "siteName": "fearlessculture.design",
-              "category": "article",
-              "language": null,
-              "readingTime": "1 min",
-              "readingMinutes": 1,
-              "wordCount": 163,
-              "publishedDate": "2026-08-09",
-              "savedDate": "2026-08-30T08:05:17.302000+00:00",
-              "imageUrl": "https://substackcdn.com/image/fetch/$s_!xXxA!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F6350034a-a1e4-4072-a891-4bedd4946edb_1200x800.jpeg",
-              "sourceUrl": "https://think.fearlessculture.design/p/great-teams-run-on-differences-and-commonalities",
-              "readwiseUrl": "https://read.readwise.io/read/01m18v73vpssrb6705y75h1dra",
-              "summary": "Why your brainstorms produce safe ideas while your team fights over email. The same pattern drives both, and it's fixable.",
-              "whyRead": "Raakt je werk als Scrum Master: dit korte essay legt een bruikbare verbinding tussen vlakke groepsbesluiten en terugkerend conflict. De opgeslagen brontekst is een fragment, dus zie dit als een prikkelende stelling, niet als uitgewerkte methode.",
-              "bestMoment": "reflectief",
-              "tags": [
-                "agile",
-                "behavioral psychology & coaching",
-                "professional development",
-                "social psychology & interpersonal dynamics",
-                "team dynamics & collaboration"
-              ],
-              "coreInterests": [
-                "sociologie",
-                "agile"
-              ],
-              "alsoIn": [
-                "aaa-short-top-100"
-              ]
-            },
-            {
-              "position": 58,
-              "id": "01m1w3sf2f5ewv6a65r7k3a31v",
-              "title": "I Study Successful People. They Have One Habit in Common.",
-              "author": null,
-              "siteName": "New York Times",
-              "category": "article",
-              "language": null,
-              "readingTime": "4 mins",
-              "readingMinutes": 4,
-              "wordCount": 992,
-              "publishedDate": "2026-08-28",
-              "savedDate": "2026-09-06T19:40:41.423000+00:00",
-              "imageUrl": "https://static01.nyt.com/images/2026/08/28/opinion/28duckworth/28duckworth-articleLarge.jpg",
-              "sourceUrl": "https://nytimes.com/2026/08/28/opinion/successful-people-help.html",
-              "readwiseUrl": "https://read.readwise.io/read/01m1w3sf2f5ewv6a65r7k3a31v",
-              "summary": "I was once stranded with my 86-year-old mother in the Atlantic Ocean.",
-              "whyRead": "Raakt je interesse in psychologische veiligheid, teamdynamiek en professionele ontwikkeling als Scrum Master. Duckworth herkadert succes als een sociale vaardigheid: op tijd hulp vragen, kennis delen en steun organiseren.",
-              "bestMoment": "reflectief",
-              "tags": [
-                "behavioral psychology & coaching",
-                "personal growth & life philosophy",
-                "professional development",
-                "social psychology & interpersonal dynamics",
-                "team dynamics & collaboration"
-              ],
-              "coreInterests": [
-                "sociologie",
-                "agile"
-              ],
-              "alsoIn": [
-                "aaa-short-top-100"
-              ]
-            },
-            {
-              "position": 59,
-              "id": "01krtexkxa2w3kf6d07h8t2ndr",
-              "title": "The heyday of the writing-first practitioner",
-              "author": null,
-              "siteName": "every.to",
-              "category": "article",
-              "language": "Engels",
-              "readingTime": "9 mins",
-              "readingMinutes": 9,
-              "wordCount": 2372,
-              "publishedDate": "2026-01-08",
-              "savedDate": "2026-05-17T07:55:26.506000+00:00",
-              "imageUrl": "https://d24ovhgu8s7341.cloudfront.net/uploads/post/social_media_image/3886/full_page_cover_Heyday_writing.png",
-              "sourceUrl": "https://every.to/p/the-heyday-of-the-writing-first-practitioner",
-              "readwiseUrl": "https://read.readwise.io/read/01krtexkxa2w3kf6d07h8t2ndr",
-              "summary": "Writing-first practitioners — professionals die publiekelijk schrijven om te denken (Fred Wilson, Julie Zhuo, Warren Buffett) — hebben een structureel voordeel in kenniswerk. Schrijven werkt als interim-signaal van competentie, netwerkbouwer en realtime synthesetool. AI versterkt dit voordeel paradoxaal: in een wereld vol AI-content wordt een authentieke stem en menselijk netwerk een nog grotere moat. Het archetype is niet te faken of uit te besteden — echte writing-first practitioners schrijven omdat ze het niet kunnen laten.",
-              "whyRead": "Raakt je interesse in essay schrijven, PKM en professionele ontwikkeling: het geeft een scherp model voor schrijven als publieke denkpraktijk in een AI-verzadigde omgeving. Vooral bruikbaar om eigen publicatie niet als marketing maar als bron van oordeel, relaties en een herkenbare stem te zien. Raakt daarnaast je interesse in sociale psychologie en interpersoonlijke dynamiek, teamdynamiek en samenwerking.",
-              "bestMoment": "geïnspireerd",
-              "tags": [
-                "personal growth & life philosophy",
-                "professional development",
-                "social psychology & interpersonal dynamics",
-                "team dynamics & collaboration",
-                "technology"
-              ],
-              "coreInterests": [
-                "sociologie",
-                "agile"
-              ],
-              "alsoIn": [
-                "aaa-short-top-100"
-              ]
-            },
-            {
-              "position": 60,
-              "id": "01m0fprcw0hbenm9ssw4pgfvjs",
-              "title": "Ness Labs: Emotional Inquiry 🧊",
-              "author": null,
-              "siteName": "Ness Labs",
-              "category": "email",
-              "language": null,
-              "readingTime": "7 mins",
-              "readingMinutes": 7,
-              "wordCount": 1696,
-              "publishedDate": "2026-08-20",
-              "savedDate": "2026-08-20T13:46:19.905000+00:00",
-              "imageUrl": null,
-              "sourceUrl": "mailto:reader-forwarded-email/4d95d24b1f8b08fc1d07b52273b9af98",
-              "readwiseUrl": "https://read.readwise.io/read/01m0fprcw0hbenm9ssw4pgfvjs",
-              "summary": "A couple of days ago, I was having coffee with a good friend who was telling me about some difficult feedback she had received at work on a project, how much it had affected her emotionally, and how she wished she could be more “chill” about it.",
-              "whyRead": "Raakt je interesse in gedragspsychologie en persoonlijke groei — een praktisch driestappenmodel om sterke emotionele reacties te doorgronden in plaats van te onderdrukken. Raakt daarnaast je interesse in sociale psychologie en interpersoonlijke dynamiek, teamdynamiek en samenwerking.",
-              "bestMoment": "reflectief",
-              "tags": [
-                "behavioral psychology & coaching",
-                "personal growth & life philosophy",
-                "social psychology & interpersonal dynamics",
-                "team dynamics & collaboration"
-              ],
-              "coreInterests": [
-                "sociologie",
-                "agile"
-              ],
-              "alsoIn": [
-                "aaa-short-top-100"
-              ]
-            },
-            {
-              "position": 61,
-              "id": "01m11bdc8mm8yp81t7sh9hxc6w",
-              "title": "What Learning to Scream Taught Me About AI And Metacognition",
-              "author": null,
-              "siteName": "Substack",
-              "category": "email",
-              "language": null,
-              "readingTime": "10 mins",
-              "readingMinutes": 10,
-              "wordCount": 2455,
-              "publishedDate": "2026-08-27",
-              "savedDate": "2026-08-27T10:14:24.276000+00:00",
-              "imageUrl": null,
-              "sourceUrl": "mailto:reader-forwarded-email/c29c03c8425bbe8a24602263710714a7",
-              "readwiseUrl": "https://read.readwise.io/read/01m11bdc8mm8yp81t7sh9hxc6w",
-              "summary": "Our brains don’t come with a “learn-o-meter” keeping track of how well we’re learning. Instead, we unconsciously use clues to infer how well we’ve learned.",
-              "whyRead": "Raakt je interesse in AI en metacognitie. Het essay verbindt een ongebruikelijke leerervaring met de vraag hoe we eigen voortgang inschatten en AI kunnen gebruiken zonder dat oordeel uit te besteden. Raakt daarnaast je interesse in sociale psychologie en interpersoonlijke dynamiek, teamdynamiek en samenwerking.",
-              "bestMoment": "leergierig",
-              "tags": [
-                "ai ethics & society",
-                "learning & meta-learning",
-                "social psychology & interpersonal dynamics",
-                "team dynamics & collaboration",
-                "technology"
-              ],
-              "coreInterests": [
-                "sociologie",
-                "agile"
-              ],
-              "alsoIn": []
-            },
-            {
-              "position": 62,
-              "id": "01m1p46tkw2fp087th9qdg88fg",
-              "title": "The \"Developer Experience\" Bait-and-Switch",
-              "author": null,
-              "siteName": "Infrequently Noted",
-              "category": "article",
-              "language": null,
-              "readingTime": "7 mins",
-              "readingMinutes": 7,
-              "wordCount": 1734,
-              "publishedDate": "2018-09-11",
-              "savedDate": "2026-09-04T11:52:32.636000+00:00",
-              "imageUrl": "/wp-content/uploads/2018/09/http_archive_js_bytes_chart.jpg",
-              "sourceUrl": "https://infrequently.org/2018/09/the-developer-experience-bait-and-switch/",
-              "readwiseUrl": "https://read.readwise.io/read/01m1p46tkw2fp087th9qdg88fg",
-              "summary": "We cannot continue to use as much JavaScript as is now normal and expect the web to flourish. At the same time, most developers experience no constraint on their use of JS...until it's too late. Lightweight, effective tools are here, but we're stuck in a rhetorical rut. We need to reset our conversation about 'developer experience' to factor in the asymmetric cost of JS.",
-              "whyRead": "Raakt je interesse in software development; Raakt je interesse in technologie, sociale structuren en professioneel vakmanschap: dit essay ontleedt hoe “developer experience” de kosten voor gebruikers kan verbergen. De meerwaarde zit in een scherpe, evidence-based kritiek op JavaScript-zwaarte, prestatiebudgets en het afwentelen van technische keuzes op mensen met minder krachtige apparaten of netwerken. Raakt daarnaast je interesse in sociale psychologie en interpersoonlijke dynamiek, teamdynamiek en samenwerking.",
-              "bestMoment": "kritisch",
-              "tags": [
-                "professional development",
-                "social psychology & interpersonal dynamics",
-                "sociology & social structures",
-                "software development",
-                "team dynamics & collaboration"
-              ],
-              "coreInterests": [
-                "sociologie",
-                "agile"
-              ],
-              "alsoIn": [
-                "aaa-short-top-100",
-                "aaa-software-development-top-100"
-              ]
-            },
-            {
-              "position": 63,
-              "id": "01m1p7skymwn1dbj14qd2xx2a4",
-              "title": "Compilers are the New Frameworks",
-              "author": null,
-              "siteName": "tomdale.net",
-              "category": "article",
-              "language": null,
-              "readingTime": "2 mins",
-              "readingMinutes": 2,
-              "wordCount": 488,
-              "publishedDate": "2017-09-05",
-              "savedDate": "2026-09-04T12:55:14.130000+00:00",
-              "imageUrl": null,
-              "sourceUrl": "https://tomdale.net/2017/09/compilers-are-the-new-frameworks/",
-              "readwiseUrl": "https://read.readwise.io/read/01m1p7skymwn1dbj14qd2xx2a4",
-              "summary": "My current \"investment thesis\" is that what we call web frameworks are\ntransforming from runtime libraries into optimizing compilers. When it comes to\neking performance out of hand-authored JavaScript and accompanying runtime\nlibraries, we've reached the point of diminishing returns.",
-              "whyRead": "Raakt je interesse in front-end software development en compile-time optimalisatie en frontend-architectuur; de meerwaarde is een denkkader waarin frameworks steeds meer als compilers werken. Raakt daarnaast je interesse in sociale psychologie en interpersoonlijke dynamiek, teamdynamiek en samenwerking.",
-              "bestMoment": "analytisch",
-              "tags": [
-                "front-end software development",
-                "professional development",
-                "social psychology & interpersonal dynamics",
-                "software development",
-                "team dynamics & collaboration"
-              ],
-              "coreInterests": [
-                "sociologie",
-                "agile"
-              ],
-              "alsoIn": [
-                "aaa-short-top-100",
-                "aaa-software-development-top-100"
-              ]
-            },
-            {
-              "position": 64,
-              "id": "01m1ptj29cwr9k2jg48w4nvz74",
-              "title": "Response Times: The 3 Important Limits",
-              "author": null,
-              "siteName": "Nielsen Norman Group",
-              "category": "article",
-              "language": null,
-              "readingTime": "5 mins",
-              "readingMinutes": 5,
-              "wordCount": 1243,
-              "publishedDate": "1993-01-01",
-              "savedDate": "2026-09-04T18:23:09.612000+00:00",
-              "imageUrl": "https://media.nngroup.com/media/articles/opengraph_images/SocialMediaPosts_20-30_jpw_09.png",
-              "sourceUrl": "http://www.useit.com/papers/responsetime.html",
-              "readwiseUrl": "https://read.readwise.io/read/01m1ptj29cwr9k2jg48w4nvz74",
-              "summary": "How users react to delays in a user interface, whether website or application. The 3 main response time limits are determined by human perceptual abilities.",
-              "whyRead": "Raakt je interesse in front-end software development en gebruiksvriendelijk ontwerpen; dit klassieke kader vertaalt responstijd naar concrete keuzes in UI-feedback, waargenomen controle en performance. Raakt daarnaast je interesse in sociale psychologie en interpersoonlijke dynamiek, teamdynamiek en samenwerking.",
-              "bestMoment": "leergierig",
-              "tags": [
-                "front-end software development",
-                "professional development",
-                "social psychology & interpersonal dynamics",
-                "software development",
-                "team dynamics & collaboration"
-              ],
-              "coreInterests": [
-                "sociologie",
-                "agile"
-              ],
-              "alsoIn": [
-                "aaa-short-top-100",
-                "aaa-software-development-top-100"
-              ]
-            },
-            {
-              "position": 65,
-              "id": "01m1qrp6wdzy5kr91gg4hj37pt",
-              "title": "A tale of two viewports — part two",
-              "author": null,
-              "siteName": "quirksmode.org",
-              "category": "article",
-              "language": null,
-              "readingTime": "9 mins",
-              "readingMinutes": 9,
-              "wordCount": 2282,
-              "publishedDate": null,
-              "savedDate": "2026-09-05T03:09:42.669000+00:00",
-              "imageUrl": null,
-              "sourceUrl": "http://www.quirksmode.org/mobile/viewports2.html",
-              "readwiseUrl": "https://read.readwise.io/read/01m1qrp6wdzy5kr91gg4hj37pt",
-              "summary": "Many thanks to Grace Kloba (Google), David Storey and Anne van Kesteren (Opera), Mike O'Malley (Microsoft), Kartikaya Gupta and George Staikos (RIM), and Mark Finkle (Mozilla) for reviewing earlier versions of this piece and providing me with valuable feedback.",
-              "whyRead": "Raakt je kerninteresse in front-end software development, vooral browser- en UI-architectuur; dit technische essay geeft een helder model voor het verschil tussen layout viewport en visual viewport op mobiele browsers. Raakt daarnaast je interesse in sociale psychologie en interpersoonlijke dynamiek, teamdynamiek en samenwerking.",
-              "bestMoment": "geconcentreerd",
-              "tags": [
-                "front-end software development",
-                "social psychology & interpersonal dynamics",
-                "software development",
-                "team dynamics & collaboration",
-                "technology"
-              ],
-              "coreInterests": [
-                "sociologie",
-                "agile"
-              ],
-              "alsoIn": [
-                "aaa-short-top-100",
-                "aaa-software-development-top-100"
-              ]
-            },
-            {
-              "position": 66,
-              "id": "01k0p426mr9nsc4vhyvbvq1wex",
-              "title": "80% of Your Culture is Your Founder",
-              "author": null,
-              "siteName": "firstround.com",
-              "category": "article",
-              "language": "Engels",
-              "readingTime": "10 mins",
-              "readingMinutes": 10,
-              "wordCount": 2451,
-              "publishedDate": "2015-01-29",
-              "savedDate": "2025-07-21T09:12:00.920000+00:00",
-              "imageUrl": "https://review.firstround.com/content/images/2056/firstround-2fsrkhqvdktydfgkdlkivw_facebook_headquarters_cong.jpg",
-              "sourceUrl": "https://review.firstround.com/80-of-your-culture-is-your-founder/",
-              "readwiseUrl": "https://read.readwise.io/read/01k0p426mr9nsc4vhyvbvq1wex",
-              "summary": "A company's culture is largely shaped by its founders, with 80% of it reflecting their values and characteristics. Founders should clearly define their culture and story early on to guide hiring and decision-making. This ongoing conversation about culture is crucial for building a strong and effective team as the company grows.",
-              "whyRead": "80% van de bedrijfscultuur is de oprichter — over hoe founders de organisatie-DNA bepalen. De tekst is daarnaast relevant voor teamdynamiek en samenwerking, organisatiegedrag en cultuur.",
-              "bestMoment": "analytisch",
-              "tags": [
-                "arts & culture",
-                "business & startups",
-                "organizational behavior & culture",
-                "sociology & social structures",
-                "team dynamics & collaboration"
-              ],
-              "coreInterests": [
-                "sociologie",
-                "agile"
-              ],
-              "alsoIn": [
-                "aaa-luchtig-top-100"
-              ]
-            },
-            {
-              "position": 67,
-              "id": "01kz6ed1sa2y2kwxs775125q31",
-              "title": "Scientific computing in the age of agentic AI | OpenAI",
-              "author": null,
-              "siteName": "openai.com",
-              "category": "article",
-              "language": "Engels",
-              "readingTime": "4 mins",
-              "readingMinutes": 4,
-              "wordCount": 1054,
-              "publishedDate": "2026-07-28",
-              "savedDate": "2026-08-04T13:11:27.786000+00:00",
-              "imageUrl": "https://images.ctfassets.net/kftzwdyauwt9/3m7mGKTN6V4kdfRQAyHV7A/08ebe953fb4e83fd9a843eb2ce06b111/16x9.png?w=1600&h=900&fit=fill",
-              "sourceUrl": "https://openai.com/index/scientific-computing-agentic-ai/",
-              "readwiseUrl": "https://read.readwise.io/read/01kz6ed1sa2y2kwxs775125q31",
-              "summary": "A new field report shows how scientists use AI coding agents to modernize scientific computing, accelerating software development and discovery in genomics and beyond.",
-              "whyRead": "Raakt je kerninteresse in AI en conceptueel programmeren: een nuchter veldrapport over waar coding agents wetenschappelijk werk werkelijk versnellen — en waar menselijke verantwoordelijkheid blijft. Raakt daarnaast je interesse in teamdynamiek en samenwerking.",
-              "bestMoment": "geconcentreerd",
-              "tags": [
-                "science",
-                "team dynamics & collaboration",
-                "technology"
-              ],
-              "coreInterests": [
-                "agile"
-              ],
-              "alsoIn": [
-                "aaa-short-top-100"
-              ]
-            },
-            {
-              "position": 68,
-              "id": "01ktp2kyqfw4gmnvgcrkt7faxv",
-              "title": "Self-Managing Teams | Scrum.org",
-              "author": null,
-              "siteName": "Scrum.org",
-              "category": "article",
-              "language": null,
-              "readingTime": "3 mins",
-              "readingMinutes": 3,
-              "wordCount": 688,
-              "publishedDate": null,
-              "savedDate": "2026-06-09T11:34:52.911000+00:00",
-              "imageUrl": "https://www.scrum.org/themes/custom/scrumorg_v2/assets/images/Scrumorg-Logo_tagline-200-ratio191.png",
-              "sourceUrl": "https://www.scrum.org/learning-series/self-managing-teams/myths-and-misunderstandings-about-self-management",
-              "readwiseUrl": "https://read.readwise.io/read/01ktp2kyqfw4gmnvgcrkt7faxv",
-              "summary": "Few things in Scrum are as misunderstood and misinterpreted as much as a Scrum Team’s need for self-management.",
-              "whyRead": "Raakt professional development en Scrum-theorie: dit artikel ontmythologiseert self-management en maakt duidelijk dat autonomie niet hetzelfde is als chaos, managerloosheid of verwaarlozing.",
-              "bestMoment": "leergierig",
-              "tags": [
-                "organizational behavior & culture",
-                "professional development",
-                "psm-ii",
-                "social psychology & interpersonal dynamics",
-                "team dynamics & collaboration"
-              ],
-              "coreInterests": [
-                "sociologie",
-                "agile"
-              ],
-              "alsoIn": [
-                "aaa-short-top-100"
-              ]
-            },
-            {
-              "position": 69,
-              "id": "01kwexpsbrn9aftwadk0dfvf1n",
-              "title": "Mentoring",
-              "author": null,
-              "siteName": null,
-              "category": "article",
-              "language": "Engels",
-              "readingTime": "6 mins",
-              "readingMinutes": 6,
-              "wordCount": 1411,
-              "publishedDate": null,
-              "savedDate": "2026-07-01T13:25:45.465000+00:00",
-              "imageUrl": "",
-              "sourceUrl": "https://www.scrum.org/learning-series/mentoring",
-              "readwiseUrl": "https://read.readwise.io/read/01kwexpsbrn9aftwadk0dfvf1n",
-              "summary": "Scrum.org's competency on mentoring: contrasts formal company-sponsored mentorship with informal and ad hoc mentoring, lays out five principles (connection, intentional, active, clear, limited), the traits of a good mentor, and concrete examples of mentoring relationships both within and outside a Scrum Team.",
-              "whyRead": null,
-              "bestMoment": null,
-              "tags": [
-                "organizational behavior & culture",
-                "professional development",
-                "social psychology & interpersonal dynamics",
-                "team dynamics & collaboration"
-              ],
-              "coreInterests": [
-                "sociologie",
-                "agile"
-              ],
-              "alsoIn": [
-                "aaa-short-top-100"
-              ]
-            },
-            {
-              "position": 70,
-              "id": "01kwgv3yscnzt7mvbt3cpcn1ey",
-              "title": "Tips for Joining a Scrum Team and Building Collaborative Relationships",
-              "author": null,
-              "siteName": null,
-              "category": "article",
-              "language": "Engels",
-              "readingTime": "6 mins",
-              "readingMinutes": 6,
-              "wordCount": 1526,
-              "publishedDate": null,
-              "savedDate": "2026-07-02T07:19:00.140000+00:00",
-              "imageUrl": "",
-              "sourceUrl": "https://www.scrum.org/learning-series/tips-joining-scrum-team-and-building-collaborative-relationships#content-only-v2",
-              "readwiseUrl": "https://read.readwise.io/read/01kwgv3yscnzt7mvbt3cpcn1ey",
-              "summary": "Content-only Scrum.org import from the Scrum Master growth resources page.",
-              "whyRead": null,
-              "bestMoment": null,
-              "tags": [
-                "professional development",
-                "social psychology & interpersonal dynamics",
-                "team dynamics & collaboration"
-              ],
-              "coreInterests": [
-                "sociologie",
-                "agile"
-              ],
-              "alsoIn": []
-            },
-            {
-              "position": 71,
-              "id": "01m0k3c5bpzqs90951nw1g61t3",
-              "title": "Difficult Product Owner? Here’s What to Do When You Have No Authority Over Them",
-              "author": null,
-              "siteName": "whatisscrum.org Newsletter",
-              "category": "article",
-              "language": null,
-              "readingTime": "7 mins",
-              "readingMinutes": 7,
-              "wordCount": 1795,
-              "publishedDate": "2026-08-14",
-              "savedDate": "2026-08-21T21:24:35.688000+00:00",
-              "imageUrl": "https://substackcdn.com/image/fetch/$s_!oRjt!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fae87eb50-c810-448d-9e0c-e73ec93bbd16_1280x720.jpeg",
-              "sourceUrl": "https://dejanmajkic.substack.com/p/difficult-product-owner-heres-what?utm_source=direct&r=1r0y5d&utm_campaign=post-expanded-share&utm_medium=post%20viewer",
-              "readwiseUrl": "https://read.readwise.io/read/01m0k3c5bpzqs90951nw1g61t3",
-              "summary": "Here's a practical, no-fluff way for Scrum Masters to handle a difficult PO without formal authority.",
-              "whyRead": "Beroepsmatig relevant als Scrum Master — praktisch kader voor het omgaan met een Product Owner over wie je geen formele autoriteit hebt.",
-              "bestMoment": "leergierig",
-              "tags": [
-                "organizational behavior & culture",
-                "professional development",
-                "social psychology & interpersonal dynamics",
-                "team dynamics & collaboration"
-              ],
-              "coreInterests": [
-                "sociologie",
-                "agile"
-              ],
-              "alsoIn": []
-            },
-            {
-              "position": 72,
               "id": "01m0ps324qabpwbvdtsbnhmkw7",
               "title": "When Burnout Looks Like Productivity",
               "author": null,
@@ -18528,7 +17845,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 73,
+              "position": 52,
               "id": "01m18v74m5qgefb9acktdhcak2",
               "title": "What Is Conversational Debt and How to Break Free",
               "author": null,
@@ -18563,7 +17880,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 74,
+              "position": 53,
               "id": "01m19mp23fe6k9kgv4ca02h3nc",
               "title": "The Puzzle That Explains Why Planning Poker Actually Works",
               "author": null,
@@ -18597,7 +17914,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 75,
+              "position": 54,
               "id": "01m1ksc73j7evdqetd2n0kdhan",
               "title": "Alias: Self-Managing Team",
               "author": null,
@@ -18628,7 +17945,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 76,
+              "position": 55,
               "id": "01m1ksc86m5k1hmr9avtmtw1eb",
               "title": "Testable Improvements",
               "author": null,
@@ -18659,7 +17976,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 77,
+              "position": 56,
               "id": "01m1ksc9vg0efn2nvvw5n532nt",
               "title": "Small Items*",
               "author": null,
@@ -18690,7 +18007,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 78,
+              "position": 57,
               "id": "01m1ksca8b1devdvjcpj1ppqy1",
               "title": "Swarming: One-Piece Continuous Flow*",
               "author": null,
@@ -18721,7 +18038,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 79,
+              "position": 58,
               "id": "01m1zw958j2fm80n5eyhyx7m24",
               "title": "How to cook up a positive atmosphere for your team",
               "author": null,
@@ -18757,7 +18074,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 80,
+              "position": 59,
               "id": "01m1zw95j7cqqxwztg75p1cbdp",
               "title": "Sprint Reviews: at scale and remotely",
               "author": null,
@@ -18794,7 +18111,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 81,
+              "position": 60,
               "id": "01m1zz7f9eqj3hmaee464gw72n",
               "title": "Liberating Structures",
               "author": null,
@@ -18830,7 +18147,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 82,
+              "position": 61,
               "id": "01m2265g0kyk1003t9x2hsdzw8",
               "title": "Communication Is … Ritual",
               "author": null,
@@ -18867,7 +18184,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 83,
+              "position": 62,
               "id": "01m227yg7yamdn2qq40a45gr71",
               "title": "The AI4Agile Practitioners Report 2026",
               "author": null,
@@ -18902,7 +18219,39 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 84,
+              "position": 63,
+              "id": "01m1wa1k6khksfwgvfavh9h9dd",
+              "title": "Drone WMDs Don’t Need Any New Technology",
+              "author": null,
+              "siteName": "lesswrong.com",
+              "category": "rss",
+              "language": null,
+              "readingTime": "15 mins",
+              "readingMinutes": 15,
+              "wordCount": 3777,
+              "publishedDate": "2026-09-06",
+              "savedDate": "2026-09-06T21:29:56.252000+00:00",
+              "imageUrl": "https://res.cloudinary.com/lesswrong-2-0/image/upload/v1654295382/new_mississippi_river_fjdmww.jpg",
+              "sourceUrl": "https://www.lesswrong.com/posts/bGoo3NWzMAzsLQceJ/drone-wmds-don-t-need-any-new-technology",
+              "readwiseUrl": "https://read.readwise.io/read/01m1wa1k6khksfwgvfavh9h9dd",
+              "summary": "This is a piece originally written for a national security audience at Frontiers. Although I think the ceiling of war is much, much higher than autopilot quadcopters, it's also important to understand how much AI is already lifting the floor, and just how vulnerable the world is to accessible weapons of mass destruction. Drones are cheap, disposable, and the future of war. Over the past four years, we have seen platforms, missiles, and heavy infantry become increasingly obsolete in the face of $500 drones carrying a pack of explosives—a cost advantage that has let Iranians and Ukrainians alike neuter the conventional capabilities of their great power rivals. Eighty percent of casualties in the bloodiest war since 1945 are from drone strikes, Russia has managed to lose one-third of its fleet to a country without a navy, and the US is spending millions of dollars to intercept five-figure Shaheds flying over the Strait of Hormuz.All this is the result of a technology that is still immature. The violence inflicted by today’s drones is the handiwork of the scant few that manage to evade countermeasures (a mix of radio jamming, high-power microwave weapons, missiles, automatic cannons, interceptor drones, and nets) before making contact. These defenses exploit the inherent limitations of drones—human guidance, GPS feedback, flight exposure, radio links, range—to take them down en masse. And yet, even though 75% of drones manufactured today never reach their targets, they have nonetheless been strategically decisive in Ukraine and elsewhere.These limitations will not hold for long. Just like bacteria being overexposed to antibiotics, overexposure to counterdrone tech has created an arms race for ever-more-autonomous drone technologies. In the process of facilitating this arms race, states are likely to incrementally create and deploy an entirely new class of WMD—one that could provide rogue states with the nonnuclear means to threaten superpowers, or hand terrorists the...",
+              "whyRead": "Scenarioanalyse over hoe bestaande drone-, navigatie- en AI-componenten autonome massawapens mogelijk maken en welke defensie- en proliferatieproblemen dat oplevert. Raakt daarnaast je interesse in sociale psychologie en interpersoonlijke dynamiek, teamdynamiek en samenwerking.",
+              "bestMoment": "kritisch",
+              "tags": [
+                "ai ethics & society",
+                "current affairs & politics",
+                "social psychology & interpersonal dynamics",
+                "team dynamics & collaboration",
+                "technology"
+              ],
+              "coreInterests": [
+                "sociologie",
+                "agile"
+              ],
+              "alsoIn": []
+            },
+            {
+              "position": 64,
               "id": "01m1nbje7rssfyfzakc00nv9ja",
               "title": "Rigorous Yet Sustainable Human Reviews in the AI Era",
               "author": null,
@@ -18934,7 +18283,833 @@ window.TOP_ARTICLES = {
               ]
             },
             {
+              "position": 65,
+              "id": "01kp2j39t59t9wy3bcs6m4q3c0",
+              "title": "Stigmergy: the most important concept you’ve never heard of",
+              "author": null,
+              "siteName": "The Self-Organizing Universe - Francis Heylighen",
+              "category": "article",
+              "language": "Engels",
+              "readingTime": "10 mins",
+              "readingMinutes": 10,
+              "wordCount": 2578,
+              "publishedDate": null,
+              "savedDate": "2026-04-13T04:37:48.417000+00:00",
+              "imageUrl": "https://substackcdn.com/image/fetch/$s_!8w2x!,f_auto,q_auto:best,fl_progressive:steep/https%3A%2F%2Ffrancisheylighen.substack.com%2Fapi%2Fv1%2Fpress_kit%2Fasset%2F186339413%2Foverlay%2Fcomposed%3FaspectRatio%3Dlink",
+              "sourceUrl": "https://francisheylighen.substack.com/p/stigmergy-the-most-important-concept?r=1r0y5d&utm_medium=ios&triedRedirect=true",
+              "readwiseUrl": "https://read.readwise.io/read/01kp2j39t59t9wy3bcs6m4q3c0",
+              "summary": "Stigmergy is a concept with a clumsy name and a modest origin.",
+              "whyRead": "Raakt je interesse in sociologie, technologie, PKM en collectieve intelligentie. Dit heldere essay geeft je met stigmergie een bruikbare lens voor hoe Wikipedia, open source, teams en AI-systemen zonder centrale regie kunnen coördineren. Raakt daarnaast je interesse in sociale psychologie en interpersoonlijke dynamiek, teamdynamiek en samenwerking.",
+              "bestMoment": "analytisch",
+              "tags": [
+                "science",
+                "social psychology & interpersonal dynamics",
+                "sociology & social structures",
+                "team dynamics & collaboration",
+                "technology"
+              ],
+              "coreInterests": [
+                "sociologie",
+                "agile"
+              ],
+              "alsoIn": [
+                "aaa-social-studies-top-100"
+              ]
+            },
+            {
+              "position": 66,
+              "id": "01m0kztthka4bcp3a2mfxww828",
+              "title": "Are Scrum Masters in DANGER? 5 Ways to Prove Your Value!",
+              "author": null,
+              "siteName": "YouTube",
+              "category": "video",
+              "language": null,
+              "readingTime": null,
+              "readingMinutes": null,
+              "wordCount": null,
+              "publishedDate": "2024-12-16",
+              "savedDate": "2026-08-22T05:41:54.356000+00:00",
+              "imageUrl": "https://i.ytimg.com/vi/OfRKW_1ClFM/sddefault.jpg",
+              "sourceUrl": "https://www.youtube.com/watch?v=OfRKW_1ClFM&list=PL8g6psFkuAKP3aFyGUTD6cPJ3Dp2S4QXi&index=4",
+              "readwiseUrl": "https://read.readwise.io/read/01m0kztthka4bcp3a2mfxww828",
+              "summary": "Are Scrum Masters Losing Their Edge? Discover the 5 Key Measures to Demonstrate Your Value!\n\nIn today’s Agile landscape, Scrum Masters are under immense pressure to prove their worth. From layoffs to questions about the role's relevance, it's time to tackle these challenges head-on.\n\nIn this video, Steve Trapps and Andy Hiles dive into the top 5 measures every Scrum Master must use to showcase their value:\n\nCycle Time – Track how quickly your team delivers value.\nSprint Goals – Ensure your team achieves valuable, outcome-driven goals.\nDefinition of Workflow – Create clarity and consistency in how work is done.\nRelease Predictability – Deliver high-quality products on time, every time.\nDefinition of Done – Maintain and improve quality with clear standards.\nThese critical Scrum Master practices will help you:\n\nImprove team performance.\nDrive stakeholder confidence with Agile metrics like cycle time.\nDemonstrate your team's ability to deliver consistent, high-quality results.\nWhether you’re a seasoned Scrum Master or just starting, this video is packed with actionable insights to help you navigate today’s Agile challenges.\n\n👉 Watch now and transform how you lead your team!\n\nSubscribe for more practical tips on Scrum, Agile, and team productivity.",
+              "whyRead": "Raakt je interesse in scrum & agile werken — een praktisch, beroepsmatig direct toepasbaar raamwerk van vijf meetbare manieren om als Scrum Master je waarde aan een organisatie aan te tonen.",
+              "bestMoment": "analytisch",
+              "tags": [
+                "team dynamics & collaboration"
+              ],
+              "coreInterests": [
+                "agile"
+              ],
+              "alsoIn": [
+                "video-top-10",
+                "video-top-100"
+              ]
+            },
+            {
+              "position": 67,
+              "id": "01m18wdrb9qpzrtqanc12wsgqs",
+              "title": "Leaders, You're No Longer Just Managing Productivity. You're Teaching Judgment",
+              "author": null,
+              "siteName": "reworked.co",
+              "category": "article",
+              "language": null,
+              "readingTime": "5 mins",
+              "readingMinutes": 5,
+              "wordCount": 1226,
+              "publishedDate": "2026-08-25",
+              "savedDate": "2026-08-30T08:26:23.465000+00:00",
+              "imageUrl": "https://www.reworked.co/-/media/07f00c0d58ab42718c2ce3edb75df2e8.ashx",
+              "sourceUrl": "https://www.reworked.co/learning-development/leaders-youre-no-longer-just-managing-productivity-youre-teaching-judgement/",
+              "readwiseUrl": "https://read.readwise.io/read/01m18wdrb9qpzrtqanc12wsgqs",
+              "summary": "AI reshaped the workflow, and the way talent develops. Here's how to intentionally design development.",
+              "whyRead": "relevant voor mijn rol als Scrum Master — gaat over hoe leidinggeven verandert nu AI het werk van junioren overneemt, en wat dat betekent voor coaching en teamontwikkeling.",
+              "bestMoment": "analytisch",
+              "tags": [
+                "ai ethics & society",
+                "behavioral psychology & coaching",
+                "business & startups",
+                "professional development",
+                "social psychology & interpersonal dynamics",
+                "team dynamics & collaboration",
+                "technology"
+              ],
+              "coreInterests": [
+                "sociologie",
+                "agile"
+              ],
+              "alsoIn": [
+                "aaa-short-top-100"
+              ]
+            },
+            {
+              "position": 68,
+              "id": "01m1q39qk4sszq3hzn43ttbnxy",
+              "title": "Style Tiles and How They Work",
+              "author": null,
+              "siteName": "A List Apart",
+              "category": "article",
+              "language": null,
+              "readingTime": "8 mins",
+              "readingMinutes": 8,
+              "wordCount": 1901,
+              "publishedDate": "2012-03-27",
+              "savedDate": "2026-09-04T20:55:53.700000+00:00",
+              "imageUrl": "https://i1.wp.com/alistapart.com/wp-content/uploads/2013/01/ALA347_styletiles_300.png?fit=1200%2C615&ssl=1",
+              "sourceUrl": "http://www.alistapart.com/articles/style-tiles-and-how-they-work/",
+              "readwiseUrl": "https://read.readwise.io/read/01m1q39qk4sszq3hzn43ttbnxy",
+              "summary": "How do you involve your client in a successful design process? Many of our processes date back to print design and advertising. It’s time we evolved our deliverables to make clients a more ac…",
+              "whyRead": "Raakt je kerninteresse in front-end software development én je interesse in teamdynamiek en samenwerking: style tiles maken onuitgesproken voorkeuren bespreekbaar, betrekken stakeholders vroeg en bouwen vertrouwen rond gezamenlijke ontwerpbeslissingen. De werkvorm is ook bruikbaar voor product- en teamcoaching wanneer een groep van losse voorkeuren naar gedeelde ontwerpprincipes moet komen.",
+              "bestMoment": "leergierig",
+              "tags": [
+                "agile",
+                "front-end software development",
+                "professional development",
+                "software development",
+                "team dynamics & collaboration",
+                "technology"
+              ],
+              "coreInterests": [
+                "agile"
+              ],
+              "alsoIn": [
+                "aaa-software-development-top-100"
+              ]
+            },
+            {
+              "position": 69,
+              "id": "01m0kzvbj6t6crzagc9kw1n43f",
+              "title": "3 Game-Changing Lessons I Wish I Knew Earlier as a #ScrumMaster",
+              "author": null,
+              "siteName": "YouTube",
+              "category": "video",
+              "language": null,
+              "readingTime": null,
+              "readingMinutes": null,
+              "wordCount": null,
+              "publishedDate": "2024-11-12",
+              "savedDate": "2026-08-22T05:42:11.782000+00:00",
+              "imageUrl": "https://i.ytimg.com/vi/opFHnCa4wJ0/sddefault.jpg",
+              "sourceUrl": "https://www.youtube.com/watch?v=opFHnCa4wJ0&list=PL8g6psFkuAKP3aFyGUTD6cPJ3Dp2S4QXi&index=10",
+              "readwiseUrl": "https://read.readwise.io/read/01m0kzvbj6t6crzagc9kw1n43f",
+              "summary": "If I'd known these three insights from the start, my journey as a Scrum Master would have been a whole lot smoother! In this video, join me (Andy Hiles) and Steve Trapps as we dive into the hard-won lessons that every Scrum Master can benefit from-whether you're just starting out or years into your role.\n\n🔑 What You'll Learn:\n\nMetrics Matter - How the right metrics can back up your gut feeling, leading to better conversations and decisions.\nRelationship Building - Why connecting with people outside your immediate team makes a big difference.\nScrum Isn't Everything - Knowing when to adapt, and why Scrum may not always be the perfect fit.\n\nThese lessons have shaped our approach to Scrum and Agile coaching, and we're excited to share them with you! What's a lesson you wish you'd known earlier? Let us know in the comments!\n\n⏰ Time Stamps \n\n00:00 - Intro\n00:33 - Metrics\n03:52 - Relationships\n05:42 - Scrum Isn't Everything\n09:21 - Conclusion\n\n#ScrumMaster #Agile #Metrics #TeamBuilding #AgileMindset #scrumalliance #kanban",
+              "whyRead": "Raakt je interesse in scrum & agile werken — twee ervaren scrum.org-trainers delen drie lessen die ze vroeg in hun carrière hadden willen kennen, met een verrassend eerlijke relativering van scrum zelf als laatste les.",
+              "bestMoment": "analytisch",
+              "tags": [
+                "social psychology & interpersonal dynamics",
+                "team dynamics & collaboration"
+              ],
+              "coreInterests": [
+                "sociologie",
+                "agile"
+              ],
+              "alsoIn": [
+                "video-top-10",
+                "video-top-100"
+              ]
+            },
+            {
+              "position": 70,
+              "id": "01m0q9g0mw4fqpnb351j8763gb",
+              "title": "The (surprising) 9 most common challenges that Product Owners face, and affect their Scrum Teams",
+              "author": null,
+              "siteName": "Scrum Master Toolbox Podcast",
+              "category": "article",
+              "language": null,
+              "readingTime": "9 mins",
+              "readingMinutes": 9,
+              "wordCount": 2205,
+              "publishedDate": "2018-11-27",
+              "savedDate": "2026-08-23T12:28:29.212000+00:00",
+              "imageUrl": "https://scrum-master-toolbox.org/wp-content/uploads/2018/11/product-owner-anti-patters-scrum-master-toolbox-podcast-smells-300x215.png",
+              "sourceUrl": "https://scrum-master-toolbox.org/2018/11/blog/the-surprising-9-most-common-challenges-that-product-owners-face-and-affect-their-scrum-teams/",
+              "readwiseUrl": "https://read.readwise.io/read/01m0q9g0mw4fqpnb351j8763gb",
+              "summary": "Would you want to have a simple, collected, set of solutions (techniques and strategies) to solve the most common challenges Product Owners face? So would I! But before we can collect the solutions, we must understand the problem! That’s what I did in 2018. I asked the listeners of the Scrum Master Toolbox Podcast and … Continue reading The (surprising) 9 most common challenges that Product Owners face, and affect their Scrum Teams",
+              "whyRead": "Raakt je Scrum Master-werk: een inventaris van terugkerende Product Owner-problemen rond samenwerking, mandaat en feedback.",
+              "bestMoment": "leergierig",
+              "tags": [
+                "agile",
+                "professional development",
+                "social psychology & interpersonal dynamics",
+                "team dynamics & collaboration"
+              ],
+              "coreInterests": [
+                "sociologie",
+                "agile"
+              ],
+              "alsoIn": []
+            },
+            {
+              "position": 71,
+              "id": "01m1kscazhdv099kfz8k5my3m2",
+              "title": "Sprint Review**",
+              "author": null,
+              "siteName": "datasenter.no",
+              "category": "article",
+              "language": null,
+              "readingTime": "6 mins",
+              "readingMinutes": 6,
+              "wordCount": 1563,
+              "publishedDate": null,
+              "savedDate": "2026-09-03T14:04:50.033000+00:00",
+              "imageUrl": null,
+              "sourceUrl": "http://scrumbook.org.datasenter.no/value-stream/sprint-review.html",
+              "readwiseUrl": "https://read.readwise.io/read/01m1kscazhdv099kfz8k5my3m2",
+              "summary": "There must be closure on the state of a product after development is over; having completed a checklist of anticipated outcomes doesn’t alone ensure that the product has come as far as necessary, or that the team will take the appropriate next steps in development.",
+              "whyRead": "Om de Sprint Review te behandelen als een besluitvormend feedbackmoment rond het echte product, niet als een presentatie van afgevinkt werk. Raakt daarnaast je interesse in sociale psychologie en interpersoonlijke dynamiek, teamdynamiek en samenwerking, agile/teamcoaching.",
+              "bestMoment": "geconcentreerd",
+              "tags": [
+                "agile",
+                "professional development",
+                "social psychology & interpersonal dynamics",
+                "team dynamics & collaboration"
+              ],
+              "coreInterests": [
+                "sociologie",
+                "agile"
+              ],
+              "alsoIn": []
+            },
+            {
+              "position": 72,
+              "id": "01m1x3htad4kaatak8j78p7e11",
+              "title": "Team autonomy only works when leadership shows trust",
+              "author": null,
+              "siteName": "Medium",
+              "category": "article",
+              "language": null,
+              "readingTime": "4 mins",
+              "readingMinutes": 4,
+              "wordCount": 984,
+              "publishedDate": "2025-04-06",
+              "savedDate": "2026-09-07T04:55:45.229000+00:00",
+              "imageUrl": "https://miro.medium.com/v2/resize:fit:1024/0*t18byS43JRnOokgj.png",
+              "sourceUrl": "https://medium.com/@WJAgeling/team-autonomy-only-works-when-leadership-shows-trust-2ab59182f350",
+              "readwiseUrl": "https://read.readwise.io/read/01m1x3htad4kaatak8j78p7e11",
+              "summary": "3 positive examples and one rug pull",
+              "whyRead": "Een concrete casus over de sociale voorwaarden voor teamautonomie. De voorbeelden maken zichtbaar hoe vertrouwen, leiderschap, Product Owner-grenzen en organisatiecultuur initiatief kunnen vrijmaken of juist vervangen door angst, micromanagement en apathie.",
+              "bestMoment": "praktisch",
+              "tags": [
+                "agile",
+                "behavioral psychology & coaching",
+                "organizational behavior & culture",
+                "organizational culture",
+                "professional development",
+                "social psychology & interpersonal dynamics",
+                "software development",
+                "team coaching",
+                "team dynamics & collaboration"
+              ],
+              "coreInterests": [
+                "sociologie",
+                "agile"
+              ],
+              "alsoIn": [
+                "aaa-software-development-top-100"
+              ]
+            },
+            {
+              "position": 73,
+              "id": "01kweww7axmq58ekx96xkj02jk",
+              "title": "Seven Ways Scrum Masters Can Be More Effective",
+              "author": null,
+              "siteName": null,
+              "category": "article",
+              "language": "Engels",
+              "readingTime": "12 mins",
+              "readingMinutes": 12,
+              "wordCount": 3069,
+              "publishedDate": null,
+              "savedDate": "2026-07-01T13:11:15.037000+00:00",
+              "imageUrl": "",
+              "sourceUrl": "https://www.scrum.org/learning-series/seven-ways-scrum-masters-can-be-more-effective/",
+              "readwiseUrl": "https://read.readwise.io/read/01kweww7axmq58ekx96xkj02jk",
+              "summary": "Distinguishes efficiency from effectiveness, then lists seven concrete ways a Scrum Master can increase Scrum Team effectiveness: enabling Scrum's purpose, focusing on goals, living the Scrum Values, enabling stakeholder feedback, removing obstacles, instilling self-management, and encouraging continuous improvement.",
+              "whyRead": null,
+              "bestMoment": null,
+              "tags": [
+                "organizational behavior & culture",
+                "professional development",
+                "social psychology & interpersonal dynamics",
+                "team dynamics & collaboration"
+              ],
+              "coreInterests": [
+                "sociologie",
+                "agile"
+              ],
+              "alsoIn": []
+            },
+            {
+              "position": 74,
+              "id": "01m0kzws6tp6edn1k4t1dmr1rq",
+              "title": "Scrum 101 Series - Episode 2 - Product Owner",
+              "author": null,
+              "siteName": "YouTube",
+              "category": "video",
+              "language": null,
+              "readingTime": null,
+              "readingMinutes": null,
+              "wordCount": null,
+              "publishedDate": "2025-02-03",
+              "savedDate": "2026-08-22T05:42:58.523000+00:00",
+              "imageUrl": "https://i.ytimg.com/vi/dr0kb9GBw_I/sddefault.jpg?sqp=-oaymwEmCIAFEOAD8quKqQMa8AEB-AH-CYAC0AWKAgwIABABGGUgUShTMA8=&rs=AOn4CLBFk2tbFHYtMlj_XPNb3kdEPKTrtg",
+              "sourceUrl": "https://www.youtube.com/watch?v=dr0kb9GBw_I&list=PL8g6psFkuAKPagwlAfRRawCuC_mAk-oLP&index=2",
+              "readwiseUrl": "https://read.readwise.io/read/01m0kzws6tp6edn1k4t1dmr1rq",
+              "summary": "As we continue with our Scrum 101 series, we delve into the accountability of the Product Owner. What should they be focusing on, what conversations should they have and with who.\n\nJoin us for 30 mins presentation, then 30 minutes of open discussion helping people to address their issues with Product Ownership\n\n#scrum #productowner #agile",
+              "whyRead": "Raakt je interesse in scrum & agile werken — een livestream-aflevering (Scrum Facilitators) volledig gewijd aan de rol van Product Owner, met veel publieksvragen over schaalvraagstukken (meerdere product owners, dependencies, project managers) die in de praktijk lastig zijn.",
+              "bestMoment": "analytisch",
+              "tags": [
+                "social psychology & interpersonal dynamics",
+                "team dynamics & collaboration"
+              ],
+              "coreInterests": [
+                "sociologie",
+                "agile"
+              ],
+              "alsoIn": [
+                "video-top-10",
+                "video-top-100"
+              ]
+            },
+            {
+              "position": 75,
+              "id": "01m1w3sf2f5ewv6a65r7k3a31v",
+              "title": "I Study Successful People. They Have One Habit in Common.",
+              "author": null,
+              "siteName": "New York Times",
+              "category": "article",
+              "language": null,
+              "readingTime": "4 mins",
+              "readingMinutes": 4,
+              "wordCount": 992,
+              "publishedDate": "2026-08-28",
+              "savedDate": "2026-09-06T19:40:41.423000+00:00",
+              "imageUrl": "https://static01.nyt.com/images/2026/08/28/opinion/28duckworth/28duckworth-articleLarge.jpg",
+              "sourceUrl": "https://nytimes.com/2026/08/28/opinion/successful-people-help.html",
+              "readwiseUrl": "https://read.readwise.io/read/01m1w3sf2f5ewv6a65r7k3a31v",
+              "summary": "I was once stranded with my 86-year-old mother in the Atlantic Ocean.",
+              "whyRead": "Raakt je interesse in psychologische veiligheid, teamdynamiek en professionele ontwikkeling als Scrum Master. Duckworth herkadert succes als een sociale vaardigheid: op tijd hulp vragen, kennis delen en steun organiseren.",
+              "bestMoment": "reflectief",
+              "tags": [
+                "behavioral psychology & coaching",
+                "personal growth & life philosophy",
+                "professional development",
+                "social psychology & interpersonal dynamics",
+                "team dynamics & collaboration"
+              ],
+              "coreInterests": [
+                "sociologie",
+                "agile"
+              ],
+              "alsoIn": [
+                "aaa-short-top-100"
+              ]
+            },
+            {
+              "position": 76,
+              "id": "01krtexkxa2w3kf6d07h8t2ndr",
+              "title": "The heyday of the writing-first practitioner",
+              "author": null,
+              "siteName": "every.to",
+              "category": "article",
+              "language": "Engels",
+              "readingTime": "9 mins",
+              "readingMinutes": 9,
+              "wordCount": 2372,
+              "publishedDate": "2026-01-08",
+              "savedDate": "2026-05-17T07:55:26.506000+00:00",
+              "imageUrl": "https://d24ovhgu8s7341.cloudfront.net/uploads/post/social_media_image/3886/full_page_cover_Heyday_writing.png",
+              "sourceUrl": "https://every.to/p/the-heyday-of-the-writing-first-practitioner",
+              "readwiseUrl": "https://read.readwise.io/read/01krtexkxa2w3kf6d07h8t2ndr",
+              "summary": "Writing-first practitioners — professionals die publiekelijk schrijven om te denken (Fred Wilson, Julie Zhuo, Warren Buffett) — hebben een structureel voordeel in kenniswerk. Schrijven werkt als interim-signaal van competentie, netwerkbouwer en realtime synthesetool. AI versterkt dit voordeel paradoxaal: in een wereld vol AI-content wordt een authentieke stem en menselijk netwerk een nog grotere moat. Het archetype is niet te faken of uit te besteden — echte writing-first practitioners schrijven omdat ze het niet kunnen laten.",
+              "whyRead": "Raakt je interesse in essay schrijven, PKM en professionele ontwikkeling: het geeft een scherp model voor schrijven als publieke denkpraktijk in een AI-verzadigde omgeving. Vooral bruikbaar om eigen publicatie niet als marketing maar als bron van oordeel, relaties en een herkenbare stem te zien. Raakt daarnaast je interesse in sociale psychologie en interpersoonlijke dynamiek, teamdynamiek en samenwerking.",
+              "bestMoment": "geïnspireerd",
+              "tags": [
+                "personal growth & life philosophy",
+                "professional development",
+                "social psychology & interpersonal dynamics",
+                "team dynamics & collaboration",
+                "technology"
+              ],
+              "coreInterests": [
+                "sociologie",
+                "agile"
+              ],
+              "alsoIn": [
+                "aaa-short-top-100"
+              ]
+            },
+            {
+              "position": 77,
+              "id": "01m0fprcw0hbenm9ssw4pgfvjs",
+              "title": "Ness Labs: Emotional Inquiry 🧊",
+              "author": null,
+              "siteName": "Ness Labs",
+              "category": "email",
+              "language": null,
+              "readingTime": "7 mins",
+              "readingMinutes": 7,
+              "wordCount": 1696,
+              "publishedDate": "2026-08-20",
+              "savedDate": "2026-08-20T13:46:19.905000+00:00",
+              "imageUrl": null,
+              "sourceUrl": "mailto:reader-forwarded-email/4d95d24b1f8b08fc1d07b52273b9af98",
+              "readwiseUrl": "https://read.readwise.io/read/01m0fprcw0hbenm9ssw4pgfvjs",
+              "summary": "A couple of days ago, I was having coffee with a good friend who was telling me about some difficult feedback she had received at work on a project, how much it had affected her emotionally, and how she wished she could be more “chill” about it.",
+              "whyRead": "Raakt je interesse in gedragspsychologie en persoonlijke groei — een praktisch driestappenmodel om sterke emotionele reacties te doorgronden in plaats van te onderdrukken. Raakt daarnaast je interesse in sociale psychologie en interpersoonlijke dynamiek, teamdynamiek en samenwerking.",
+              "bestMoment": "reflectief",
+              "tags": [
+                "behavioral psychology & coaching",
+                "personal growth & life philosophy",
+                "social psychology & interpersonal dynamics",
+                "team dynamics & collaboration"
+              ],
+              "coreInterests": [
+                "sociologie",
+                "agile"
+              ],
+              "alsoIn": [
+                "aaa-short-top-100"
+              ]
+            },
+            {
+              "position": 78,
+              "id": "01m0yzc4t547m4zm0yvgrk39xb",
+              "title": "The Future of Agile Coaches: Do Large Companies Need a Standardized Agile Coach Certification and What Are the Alternatives?",
+              "author": null,
+              "siteName": "copernicus.org",
+              "category": "article",
+              "language": null,
+              "readingTime": "2 mins",
+              "readingMinutes": 2,
+              "wordCount": 311,
+              "publishedDate": "2023-08-30",
+              "savedDate": "2026-08-26T12:05:32.102000+00:00",
+              "imageUrl": "https://media.springernature.com/w153/springer-static/cover/book/978-3-031-42310-9.jpg",
+              "sourceUrl": "https://doi.org/10.1007/978-3-031-42310-9_1",
+              "readwiseUrl": "https://read.readwise.io/read/01m0yzc4t547m4zm0yvgrk39xb",
+              "summary": "Agility has become a necessary mindset for companies facing new challenges, and the role of the agile coach is becoming increasingly important in the agile transformation. But how can companies train and find the right agile coaches? Two decades after the...",
+              "whyRead": "Raakt je werk als Scrum Master en de ontwikkeling van agile coaches. Een korte empirische verkenning die certificering relativeert en de vraag stelt welke leerroute werkelijk bij organisatieverandering past.",
+              "bestMoment": "analytisch",
+              "tags": [
+                "agile",
+                "organizational behavior & culture",
+                "professional development",
+                "research papers & academia",
+                "team dynamics & collaboration"
+              ],
+              "coreInterests": [
+                "agile"
+              ],
+              "alsoIn": []
+            },
+            {
+              "position": 79,
+              "id": "01m11bdc8mm8yp81t7sh9hxc6w",
+              "title": "What Learning to Scream Taught Me About AI And Metacognition",
+              "author": null,
+              "siteName": "Substack",
+              "category": "email",
+              "language": null,
+              "readingTime": "10 mins",
+              "readingMinutes": 10,
+              "wordCount": 2455,
+              "publishedDate": "2026-08-27",
+              "savedDate": "2026-08-27T10:14:24.276000+00:00",
+              "imageUrl": null,
+              "sourceUrl": "mailto:reader-forwarded-email/c29c03c8425bbe8a24602263710714a7",
+              "readwiseUrl": "https://read.readwise.io/read/01m11bdc8mm8yp81t7sh9hxc6w",
+              "summary": "Our brains don’t come with a “learn-o-meter” keeping track of how well we’re learning. Instead, we unconsciously use clues to infer how well we’ve learned.",
+              "whyRead": "Raakt je interesse in AI en metacognitie. Het essay verbindt een ongebruikelijke leerervaring met de vraag hoe we eigen voortgang inschatten en AI kunnen gebruiken zonder dat oordeel uit te besteden. Raakt daarnaast je interesse in sociale psychologie en interpersoonlijke dynamiek, teamdynamiek en samenwerking.",
+              "bestMoment": "leergierig",
+              "tags": [
+                "ai ethics & society",
+                "learning & meta-learning",
+                "social psychology & interpersonal dynamics",
+                "team dynamics & collaboration",
+                "technology"
+              ],
+              "coreInterests": [
+                "sociologie",
+                "agile"
+              ],
+              "alsoIn": []
+            },
+            {
+              "position": 80,
+              "id": "01m1p46tkw2fp087th9qdg88fg",
+              "title": "The \"Developer Experience\" Bait-and-Switch",
+              "author": null,
+              "siteName": "Infrequently Noted",
+              "category": "article",
+              "language": null,
+              "readingTime": "7 mins",
+              "readingMinutes": 7,
+              "wordCount": 1734,
+              "publishedDate": "2018-09-11",
+              "savedDate": "2026-09-04T11:52:32.636000+00:00",
+              "imageUrl": "/wp-content/uploads/2018/09/http_archive_js_bytes_chart.jpg",
+              "sourceUrl": "https://infrequently.org/2018/09/the-developer-experience-bait-and-switch/",
+              "readwiseUrl": "https://read.readwise.io/read/01m1p46tkw2fp087th9qdg88fg",
+              "summary": "We cannot continue to use as much JavaScript as is now normal and expect the web to flourish. At the same time, most developers experience no constraint on their use of JS...until it's too late. Lightweight, effective tools are here, but we're stuck in a rhetorical rut. We need to reset our conversation about 'developer experience' to factor in the asymmetric cost of JS.",
+              "whyRead": "Raakt je interesse in software development; Raakt je interesse in technologie, sociale structuren en professioneel vakmanschap: dit essay ontleedt hoe “developer experience” de kosten voor gebruikers kan verbergen. De meerwaarde zit in een scherpe, evidence-based kritiek op JavaScript-zwaarte, prestatiebudgets en het afwentelen van technische keuzes op mensen met minder krachtige apparaten of netwerken. Raakt daarnaast je interesse in sociale psychologie en interpersoonlijke dynamiek, teamdynamiek en samenwerking.",
+              "bestMoment": "kritisch",
+              "tags": [
+                "professional development",
+                "social psychology & interpersonal dynamics",
+                "sociology & social structures",
+                "software development",
+                "team dynamics & collaboration"
+              ],
+              "coreInterests": [
+                "sociologie",
+                "agile"
+              ],
+              "alsoIn": [
+                "aaa-short-top-100",
+                "aaa-software-development-top-100"
+              ]
+            },
+            {
+              "position": 81,
+              "id": "01m1p7skymwn1dbj14qd2xx2a4",
+              "title": "Compilers are the New Frameworks",
+              "author": null,
+              "siteName": "tomdale.net",
+              "category": "article",
+              "language": null,
+              "readingTime": "2 mins",
+              "readingMinutes": 2,
+              "wordCount": 488,
+              "publishedDate": "2017-09-05",
+              "savedDate": "2026-09-04T12:55:14.130000+00:00",
+              "imageUrl": null,
+              "sourceUrl": "https://tomdale.net/2017/09/compilers-are-the-new-frameworks/",
+              "readwiseUrl": "https://read.readwise.io/read/01m1p7skymwn1dbj14qd2xx2a4",
+              "summary": "My current \"investment thesis\" is that what we call web frameworks are\ntransforming from runtime libraries into optimizing compilers. When it comes to\neking performance out of hand-authored JavaScript and accompanying runtime\nlibraries, we've reached the point of diminishing returns.",
+              "whyRead": "Raakt je interesse in front-end software development en compile-time optimalisatie en frontend-architectuur; de meerwaarde is een denkkader waarin frameworks steeds meer als compilers werken. Raakt daarnaast je interesse in sociale psychologie en interpersoonlijke dynamiek, teamdynamiek en samenwerking.",
+              "bestMoment": "analytisch",
+              "tags": [
+                "front-end software development",
+                "professional development",
+                "social psychology & interpersonal dynamics",
+                "software development",
+                "team dynamics & collaboration"
+              ],
+              "coreInterests": [
+                "sociologie",
+                "agile"
+              ],
+              "alsoIn": [
+                "aaa-short-top-100",
+                "aaa-software-development-top-100"
+              ]
+            },
+            {
+              "position": 82,
+              "id": "01m1ptj29cwr9k2jg48w4nvz74",
+              "title": "Response Times: The 3 Important Limits",
+              "author": null,
+              "siteName": "Nielsen Norman Group",
+              "category": "article",
+              "language": null,
+              "readingTime": "5 mins",
+              "readingMinutes": 5,
+              "wordCount": 1243,
+              "publishedDate": "1993-01-01",
+              "savedDate": "2026-09-04T18:23:09.612000+00:00",
+              "imageUrl": "https://media.nngroup.com/media/articles/opengraph_images/SocialMediaPosts_20-30_jpw_09.png",
+              "sourceUrl": "http://www.useit.com/papers/responsetime.html",
+              "readwiseUrl": "https://read.readwise.io/read/01m1ptj29cwr9k2jg48w4nvz74",
+              "summary": "How users react to delays in a user interface, whether website or application. The 3 main response time limits are determined by human perceptual abilities.",
+              "whyRead": "Raakt je interesse in front-end software development en gebruiksvriendelijk ontwerpen; dit klassieke kader vertaalt responstijd naar concrete keuzes in UI-feedback, waargenomen controle en performance. Raakt daarnaast je interesse in sociale psychologie en interpersoonlijke dynamiek, teamdynamiek en samenwerking.",
+              "bestMoment": "leergierig",
+              "tags": [
+                "front-end software development",
+                "professional development",
+                "social psychology & interpersonal dynamics",
+                "software development",
+                "team dynamics & collaboration"
+              ],
+              "coreInterests": [
+                "sociologie",
+                "agile"
+              ],
+              "alsoIn": [
+                "aaa-short-top-100",
+                "aaa-software-development-top-100"
+              ]
+            },
+            {
+              "position": 83,
+              "id": "01m1qrp6wdzy5kr91gg4hj37pt",
+              "title": "A tale of two viewports — part two",
+              "author": null,
+              "siteName": "quirksmode.org",
+              "category": "article",
+              "language": null,
+              "readingTime": "9 mins",
+              "readingMinutes": 9,
+              "wordCount": 2282,
+              "publishedDate": null,
+              "savedDate": "2026-09-05T03:09:42.669000+00:00",
+              "imageUrl": null,
+              "sourceUrl": "http://www.quirksmode.org/mobile/viewports2.html",
+              "readwiseUrl": "https://read.readwise.io/read/01m1qrp6wdzy5kr91gg4hj37pt",
+              "summary": "Many thanks to Grace Kloba (Google), David Storey and Anne van Kesteren (Opera), Mike O'Malley (Microsoft), Kartikaya Gupta and George Staikos (RIM), and Mark Finkle (Mozilla) for reviewing earlier versions of this piece and providing me with valuable feedback.",
+              "whyRead": "Raakt je kerninteresse in front-end software development, vooral browser- en UI-architectuur; dit technische essay geeft een helder model voor het verschil tussen layout viewport en visual viewport op mobiele browsers. Raakt daarnaast je interesse in sociale psychologie en interpersoonlijke dynamiek, teamdynamiek en samenwerking.",
+              "bestMoment": "geconcentreerd",
+              "tags": [
+                "front-end software development",
+                "social psychology & interpersonal dynamics",
+                "software development",
+                "team dynamics & collaboration",
+                "technology"
+              ],
+              "coreInterests": [
+                "sociologie",
+                "agile"
+              ],
+              "alsoIn": [
+                "aaa-short-top-100",
+                "aaa-software-development-top-100"
+              ]
+            },
+            {
+              "position": 84,
+              "id": "01k0p426mr9nsc4vhyvbvq1wex",
+              "title": "80% of Your Culture is Your Founder",
+              "author": null,
+              "siteName": "firstround.com",
+              "category": "article",
+              "language": "Engels",
+              "readingTime": "10 mins",
+              "readingMinutes": 10,
+              "wordCount": 2451,
+              "publishedDate": "2015-01-29",
+              "savedDate": "2025-07-21T09:12:00.920000+00:00",
+              "imageUrl": "https://review.firstround.com/content/images/2056/firstround-2fsrkhqvdktydfgkdlkivw_facebook_headquarters_cong.jpg",
+              "sourceUrl": "https://review.firstround.com/80-of-your-culture-is-your-founder/",
+              "readwiseUrl": "https://read.readwise.io/read/01k0p426mr9nsc4vhyvbvq1wex",
+              "summary": "A company's culture is largely shaped by its founders, with 80% of it reflecting their values and characteristics. Founders should clearly define their culture and story early on to guide hiring and decision-making. This ongoing conversation about culture is crucial for building a strong and effective team as the company grows.",
+              "whyRead": "80% van de bedrijfscultuur is de oprichter — over hoe founders de organisatie-DNA bepalen. De tekst is daarnaast relevant voor teamdynamiek en samenwerking, organisatiegedrag en cultuur.",
+              "bestMoment": "analytisch",
+              "tags": [
+                "arts & culture",
+                "business & startups",
+                "organizational behavior & culture",
+                "sociology & social structures",
+                "team dynamics & collaboration"
+              ],
+              "coreInterests": [
+                "sociologie",
+                "agile"
+              ],
+              "alsoIn": [
+                "aaa-luchtig-top-100"
+              ]
+            },
+            {
               "position": 85,
+              "id": "01kz6ed1sa2y2kwxs775125q31",
+              "title": "Scientific computing in the age of agentic AI | OpenAI",
+              "author": null,
+              "siteName": "openai.com",
+              "category": "article",
+              "language": "Engels",
+              "readingTime": "4 mins",
+              "readingMinutes": 4,
+              "wordCount": 1054,
+              "publishedDate": "2026-07-28",
+              "savedDate": "2026-08-04T13:11:27.786000+00:00",
+              "imageUrl": "https://images.ctfassets.net/kftzwdyauwt9/3m7mGKTN6V4kdfRQAyHV7A/08ebe953fb4e83fd9a843eb2ce06b111/16x9.png?w=1600&h=900&fit=fill",
+              "sourceUrl": "https://openai.com/index/scientific-computing-agentic-ai/",
+              "readwiseUrl": "https://read.readwise.io/read/01kz6ed1sa2y2kwxs775125q31",
+              "summary": "A new field report shows how scientists use AI coding agents to modernize scientific computing, accelerating software development and discovery in genomics and beyond.",
+              "whyRead": "Raakt je kerninteresse in AI en conceptueel programmeren: een nuchter veldrapport over waar coding agents wetenschappelijk werk werkelijk versnellen — en waar menselijke verantwoordelijkheid blijft. Raakt daarnaast je interesse in teamdynamiek en samenwerking.",
+              "bestMoment": "geconcentreerd",
+              "tags": [
+                "science",
+                "team dynamics & collaboration",
+                "technology"
+              ],
+              "coreInterests": [
+                "agile"
+              ],
+              "alsoIn": [
+                "aaa-short-top-100"
+              ]
+            },
+            {
+              "position": 86,
+              "id": "01ktp2kyqfw4gmnvgcrkt7faxv",
+              "title": "Self-Managing Teams | Scrum.org",
+              "author": null,
+              "siteName": "Scrum.org",
+              "category": "article",
+              "language": null,
+              "readingTime": "3 mins",
+              "readingMinutes": 3,
+              "wordCount": 688,
+              "publishedDate": null,
+              "savedDate": "2026-06-09T11:34:52.911000+00:00",
+              "imageUrl": "https://www.scrum.org/themes/custom/scrumorg_v2/assets/images/Scrumorg-Logo_tagline-200-ratio191.png",
+              "sourceUrl": "https://www.scrum.org/learning-series/self-managing-teams/myths-and-misunderstandings-about-self-management",
+              "readwiseUrl": "https://read.readwise.io/read/01ktp2kyqfw4gmnvgcrkt7faxv",
+              "summary": "Few things in Scrum are as misunderstood and misinterpreted as much as a Scrum Team’s need for self-management.",
+              "whyRead": "Raakt professional development en Scrum-theorie: dit artikel ontmythologiseert self-management en maakt duidelijk dat autonomie niet hetzelfde is als chaos, managerloosheid of verwaarlozing.",
+              "bestMoment": "leergierig",
+              "tags": [
+                "organizational behavior & culture",
+                "professional development",
+                "psm-ii",
+                "social psychology & interpersonal dynamics",
+                "team dynamics & collaboration"
+              ],
+              "coreInterests": [
+                "sociologie",
+                "agile"
+              ],
+              "alsoIn": [
+                "aaa-short-top-100"
+              ]
+            },
+            {
+              "position": 87,
+              "id": "01kwexpsbrn9aftwadk0dfvf1n",
+              "title": "Mentoring",
+              "author": null,
+              "siteName": null,
+              "category": "article",
+              "language": "Engels",
+              "readingTime": "6 mins",
+              "readingMinutes": 6,
+              "wordCount": 1411,
+              "publishedDate": null,
+              "savedDate": "2026-07-01T13:25:45.465000+00:00",
+              "imageUrl": "",
+              "sourceUrl": "https://www.scrum.org/learning-series/mentoring",
+              "readwiseUrl": "https://read.readwise.io/read/01kwexpsbrn9aftwadk0dfvf1n",
+              "summary": "Scrum.org's competency on mentoring: contrasts formal company-sponsored mentorship with informal and ad hoc mentoring, lays out five principles (connection, intentional, active, clear, limited), the traits of a good mentor, and concrete examples of mentoring relationships both within and outside a Scrum Team.",
+              "whyRead": null,
+              "bestMoment": null,
+              "tags": [
+                "organizational behavior & culture",
+                "professional development",
+                "social psychology & interpersonal dynamics",
+                "team dynamics & collaboration"
+              ],
+              "coreInterests": [
+                "sociologie",
+                "agile"
+              ],
+              "alsoIn": [
+                "aaa-short-top-100"
+              ]
+            },
+            {
+              "position": 88,
+              "id": "01kwgv3yscnzt7mvbt3cpcn1ey",
+              "title": "Tips for Joining a Scrum Team and Building Collaborative Relationships",
+              "author": null,
+              "siteName": null,
+              "category": "article",
+              "language": "Engels",
+              "readingTime": "6 mins",
+              "readingMinutes": 6,
+              "wordCount": 1526,
+              "publishedDate": null,
+              "savedDate": "2026-07-02T07:19:00.140000+00:00",
+              "imageUrl": "",
+              "sourceUrl": "https://www.scrum.org/learning-series/tips-joining-scrum-team-and-building-collaborative-relationships#content-only-v2",
+              "readwiseUrl": "https://read.readwise.io/read/01kwgv3yscnzt7mvbt3cpcn1ey",
+              "summary": "Content-only Scrum.org import from the Scrum Master growth resources page.",
+              "whyRead": null,
+              "bestMoment": null,
+              "tags": [
+                "professional development",
+                "social psychology & interpersonal dynamics",
+                "team dynamics & collaboration"
+              ],
+              "coreInterests": [
+                "sociologie",
+                "agile"
+              ],
+              "alsoIn": []
+            },
+            {
+              "position": 89,
+              "id": "01m0k3c5bpzqs90951nw1g61t3",
+              "title": "Difficult Product Owner? Here’s What to Do When You Have No Authority Over Them",
+              "author": null,
+              "siteName": "whatisscrum.org Newsletter",
+              "category": "article",
+              "language": null,
+              "readingTime": "7 mins",
+              "readingMinutes": 7,
+              "wordCount": 1795,
+              "publishedDate": "2026-08-14",
+              "savedDate": "2026-08-21T21:24:35.688000+00:00",
+              "imageUrl": "https://substackcdn.com/image/fetch/$s_!oRjt!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fae87eb50-c810-448d-9e0c-e73ec93bbd16_1280x720.jpeg",
+              "sourceUrl": "https://dejanmajkic.substack.com/p/difficult-product-owner-heres-what?utm_source=direct&r=1r0y5d&utm_campaign=post-expanded-share&utm_medium=post%20viewer",
+              "readwiseUrl": "https://read.readwise.io/read/01m0k3c5bpzqs90951nw1g61t3",
+              "summary": "Here's a practical, no-fluff way for Scrum Masters to handle a difficult PO without formal authority.",
+              "whyRead": "Beroepsmatig relevant als Scrum Master — praktisch kader voor het omgaan met een Product Owner over wie je geen formele autoriteit hebt.",
+              "bestMoment": "leergierig",
+              "tags": [
+                "organizational behavior & culture",
+                "professional development",
+                "social psychology & interpersonal dynamics",
+                "team dynamics & collaboration"
+              ],
+              "coreInterests": [
+                "sociologie",
+                "agile"
+              ],
+              "alsoIn": []
+            },
+            {
+              "position": 90,
               "id": "01m1p5e6p6ww72hepd01ts9y9c",
               "title": "Why We're Breaking Up with CSS-in-JS",
               "author": null,
@@ -18966,7 +19141,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 86,
+              "position": 91,
               "id": "01m1p5enqhqpmapttqja6kd4n2",
               "title": "Can You Afford It?: Real-world Web Performance Budgets",
               "author": null,
@@ -18998,7 +19173,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 87,
+              "position": 92,
               "id": "01kz3vmxyyz45h60v9psp9ea3t",
               "title": "How To Become A Brilliant Writer On Top Of A Day Job",
               "author": null,
@@ -19031,7 +19206,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 88,
+              "position": 93,
               "id": "01m148wj4yg1xmwqbd8rqy5yr7",
               "title": "The Tyranny of the Marginal User",
               "author": null,
@@ -19064,7 +19239,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 89,
+              "position": 94,
               "id": "01m1pc7fdpfh7wg782tb035r64",
               "title": "JavaScript isn’t always available and it’s not the user’s fault",
               "author": null,
@@ -19100,7 +19275,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 90,
+              "position": 95,
               "id": "01m1zw960p4kkmnen89d68wjdp",
               "title": "Customer Interviews: How to Recruit, What to Ask, and How to Synthesize What You Learn",
               "author": null,
@@ -19133,7 +19308,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 91,
+              "position": 96,
               "id": "01m0kzwkwp6cjx5m2jn5stztex",
               "title": "Scrum 101 Series - Episode 8 - Sprint Retrospective",
               "author": null,
@@ -19162,7 +19337,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 92,
+              "position": 97,
               "id": "01m0kzx60n6y7mjy1342dw0ynp",
               "title": "Scrum 101 Series - Episode 3 - Scrum Master",
               "author": null,
@@ -19191,41 +19366,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 93,
-              "id": "01m1q39qk4sszq3hzn43ttbnxy",
-              "title": "Style Tiles and How They Work",
-              "author": null,
-              "siteName": "A List Apart",
-              "category": "article",
-              "language": null,
-              "readingTime": "8 mins",
-              "readingMinutes": 8,
-              "wordCount": 1901,
-              "publishedDate": "2012-03-27",
-              "savedDate": "2026-09-04T20:55:53.700000+00:00",
-              "imageUrl": "https://i1.wp.com/alistapart.com/wp-content/uploads/2013/01/ALA347_styletiles_300.png?fit=1200%2C615&ssl=1",
-              "sourceUrl": "http://www.alistapart.com/articles/style-tiles-and-how-they-work/",
-              "readwiseUrl": "https://read.readwise.io/read/01m1q39qk4sszq3hzn43ttbnxy",
-              "summary": "How do you involve your client in a successful design process? Many of our processes date back to print design and advertising. It’s time we evolved our deliverables to make clients a more ac…",
-              "whyRead": "Raakt je kerninteresse in front-end software development én je interesse in teamdynamiek en samenwerking: style tiles maken onuitgesproken voorkeuren bespreekbaar, betrekken stakeholders vroeg en bouwen vertrouwen rond gezamenlijke ontwerpbeslissingen. De werkvorm is ook bruikbaar voor product- en teamcoaching wanneer een groep van losse voorkeuren naar gedeelde ontwerpprincipes moet komen.",
-              "bestMoment": "leergierig",
-              "tags": [
-                "agile",
-                "front-end software development",
-                "professional development",
-                "software development",
-                "team dynamics & collaboration",
-                "technology"
-              ],
-              "coreInterests": [
-                "agile"
-              ],
-              "alsoIn": [
-                "aaa-software-development-top-100"
-              ]
-            },
-            {
-              "position": 94,
+              "position": 98,
               "id": "01kwexpevqvsnw5chhvec7vdc7",
               "title": "Tips for Joining a Scrum Team and Building Collaborative Relationships",
               "author": null,
@@ -19255,7 +19396,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 95,
+              "position": 99,
               "id": "01m0k2xdt0xamb4cd7cr6j5vhx",
               "title": "The Scrum Master Way: Four Levers That Drive Team Growth",
               "author": null,
@@ -19284,7 +19425,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 96,
+              "position": 100,
               "id": "01m0kztgwcc1d43t3sdahzhg08",
               "title": "Can a Scrum Master Transition to a Delivery Manager? Here's the Truth",
               "author": null,
@@ -19313,132 +19454,6 @@ window.TOP_ARTICLES = {
               ],
               "alsoIn": [
                 "video-top-100"
-              ]
-            },
-            {
-              "position": 97,
-              "id": "01m0kzv38gdmh51b4kzqg40mw9",
-              "title": "Are You OVERLOOKING These Critical Scrum Master Practices?",
-              "author": null,
-              "siteName": "YouTube",
-              "category": "video",
-              "language": null,
-              "readingTime": null,
-              "readingMinutes": null,
-              "wordCount": null,
-              "publishedDate": "2024-12-13",
-              "savedDate": "2026-08-22T05:42:03.280000+00:00",
-              "imageUrl": "https://i.ytimg.com/vi/0hko9gthZVU/sddefault.jpg",
-              "sourceUrl": "https://www.youtube.com/watch?v=0hko9gthZVU&list=PL8g6psFkuAKP3aFyGUTD6cPJ3Dp2S4QXi&index=5",
-              "readwiseUrl": "https://read.readwise.io/read/01m0kzv38gdmh51b4kzqg40mw9",
-              "summary": "As a Certified Scrum Master, are you certain you’re leveraging Scrum metrics and sprint planning to their fullest potential? 🧩 Many Scrum Masters overlook crucial practices that can drastically enhance their team’s Agile success. Could you be one of them?\n\nIn this video, we’ll dive deep into:\n\nEffective sprint planning techniques to keep your team aligned.\nThe power of Scrum metrics and how to use them for better decision-making.\nProven strategies to overcome common challenges faced by Scrum Masters.\nWhether you’re new to Scrum or an experienced practitioner, these actionable tips will help you build confidence, drive productivity, and revolutionize your team’s performance.\n\nReady to uncover the critical Scrum Master practices that could take your team to the next level? Watch now and start mastering the tools of Agile success today! 🚀\n\nDon’t forget to like, comment, and subscribe for more expert tips on becoming a top-performing Scrum Master.",
-              "whyRead": "Raakt je interesse in scrum & agile werken — drie concrete, vaak vergeten Scrum Master-praktijken (definition of done, teamrelaties, refinement) met scherpe, direct toepasbare adviezen.",
-              "bestMoment": "analytisch",
-              "tags": [
-                "organizational behavior & culture",
-                "social psychology & interpersonal dynamics",
-                "team dynamics & collaboration"
-              ],
-              "coreInterests": [
-                "sociologie",
-                "agile"
-              ],
-              "alsoIn": [
-                "video-top-100"
-              ]
-            },
-            {
-              "position": 98,
-              "id": "01m0q9g0mw4fqpnb351j8763gb",
-              "title": "The (surprising) 9 most common challenges that Product Owners face, and affect their Scrum Teams",
-              "author": null,
-              "siteName": "Scrum Master Toolbox Podcast",
-              "category": "article",
-              "language": null,
-              "readingTime": "9 mins",
-              "readingMinutes": 9,
-              "wordCount": 2205,
-              "publishedDate": "2018-11-27",
-              "savedDate": "2026-08-23T12:28:29.212000+00:00",
-              "imageUrl": "https://scrum-master-toolbox.org/wp-content/uploads/2018/11/product-owner-anti-patters-scrum-master-toolbox-podcast-smells-300x215.png",
-              "sourceUrl": "https://scrum-master-toolbox.org/2018/11/blog/the-surprising-9-most-common-challenges-that-product-owners-face-and-affect-their-scrum-teams/",
-              "readwiseUrl": "https://read.readwise.io/read/01m0q9g0mw4fqpnb351j8763gb",
-              "summary": "Would you want to have a simple, collected, set of solutions (techniques and strategies) to solve the most common challenges Product Owners face? So would I! But before we can collect the solutions, we must understand the problem! That’s what I did in 2018. I asked the listeners of the Scrum Master Toolbox Podcast and … Continue reading The (surprising) 9 most common challenges that Product Owners face, and affect their Scrum Teams",
-              "whyRead": "Raakt je Scrum Master-werk: een inventaris van terugkerende Product Owner-problemen rond samenwerking, mandaat en feedback.",
-              "bestMoment": "leergierig",
-              "tags": [
-                "agile",
-                "professional development",
-                "social psychology & interpersonal dynamics",
-                "team dynamics & collaboration"
-              ],
-              "coreInterests": [
-                "sociologie",
-                "agile"
-              ],
-              "alsoIn": []
-            },
-            {
-              "position": 99,
-              "id": "01m1kscazhdv099kfz8k5my3m2",
-              "title": "Sprint Review**",
-              "author": null,
-              "siteName": "datasenter.no",
-              "category": "article",
-              "language": null,
-              "readingTime": "6 mins",
-              "readingMinutes": 6,
-              "wordCount": 1563,
-              "publishedDate": null,
-              "savedDate": "2026-09-03T14:04:50.033000+00:00",
-              "imageUrl": null,
-              "sourceUrl": "http://scrumbook.org.datasenter.no/value-stream/sprint-review.html",
-              "readwiseUrl": "https://read.readwise.io/read/01m1kscazhdv099kfz8k5my3m2",
-              "summary": "There must be closure on the state of a product after development is over; having completed a checklist of anticipated outcomes doesn’t alone ensure that the product has come as far as necessary, or that the team will take the appropriate next steps in development.",
-              "whyRead": "Om de Sprint Review te behandelen als een besluitvormend feedbackmoment rond het echte product, niet als een presentatie van afgevinkt werk. Raakt daarnaast je interesse in sociale psychologie en interpersoonlijke dynamiek, teamdynamiek en samenwerking, agile/teamcoaching.",
-              "bestMoment": "geconcentreerd",
-              "tags": [
-                "agile",
-                "professional development",
-                "social psychology & interpersonal dynamics",
-                "team dynamics & collaboration"
-              ],
-              "coreInterests": [
-                "sociologie",
-                "agile"
-              ],
-              "alsoIn": []
-            },
-            {
-              "position": 100,
-              "id": "01m1p7nxnhh4j001458qw06n22",
-              "title": "Making the world’s fastest website, and other mistakes",
-              "author": null,
-              "siteName": "DEV Community",
-              "category": "article",
-              "language": null,
-              "readingTime": "7 mins",
-              "readingMinutes": 7,
-              "wordCount": 1823,
-              "publishedDate": "2022-03-15",
-              "savedDate": "2026-09-04T12:53:13.006000+00:00",
-              "imageUrl": "https://media2.dev.to/dynamic/image/width=1000,height=500,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Frix9oblwajfxxrtwc9xk.jpg",
-              "sourceUrl": "https://dev.to/tigt/making-the-worlds-fastest-website-and-other-mistakes-56na",
-              "readwiseUrl": "https://read.readwise.io/read/01m1p7nxnhh4j001458qw06n22",
-              "summary": "Crazed developer attempts real ecommerce without front-end JavaScript to prove that y’all playin’",
-              "whyRead": "Raakt je interesse in front-end software development; Raakt je interesse in technologie, webperformance en conceptueel programmeren. De meerwaarde is de combinatie van een persoonlijk verhaal, harde performancebudgetten en een kritische blik op hoe frameworks, SSR en third-parties de gebruikerservaring beïnvloeden. Raakt daarnaast je interesse in teamdynamiek en samenwerking.",
-              "bestMoment": "geconcentreerd",
-              "tags": [
-                "front-end software development",
-                "professional development",
-                "software development",
-                "team dynamics & collaboration"
-              ],
-              "coreInterests": [
-                "agile"
-              ],
-              "alsoIn": [
-                "aaa-software-development-top-100"
               ]
             }
           ]
@@ -20581,7 +20596,6 @@ window.TOP_ARTICLES = {
               ],
               "alsoIn": [
                 "aaa-top-100",
-                "aaa-scrum-top-10",
                 "aaa-scrum-top-100"
               ]
             },
@@ -22016,7 +22030,6 @@ window.TOP_ARTICLES = {
               ],
               "alsoIn": [
                 "aaa-top-100",
-                "aaa-scrum-top-10",
                 "aaa-scrum-top-100"
               ]
             },
@@ -22687,6 +22700,7 @@ window.TOP_ARTICLES = {
               "alsoIn": [
                 "aaa-top-100",
                 "aaa-short-top-100",
+                "aaa-scrum-top-10",
                 "aaa-scrum-top-100"
               ]
             },
@@ -22941,6 +22955,7 @@ window.TOP_ARTICLES = {
               "alsoIn": [
                 "aaa-top-100",
                 "aaa-short-top-100",
+                "aaa-scrum-top-10",
                 "aaa-scrum-top-100",
                 "aaa-software-development-top-10",
                 "aaa-software-development-top-100",
@@ -23814,6 +23829,7 @@ window.TOP_ARTICLES = {
               "alsoIn": [
                 "aaa-top-100",
                 "aaa-short-top-100",
+                "aaa-scrum-top-10",
                 "aaa-scrum-top-100",
                 "aaa-social-studies-top-100",
                 "aaa-software-development-top-100",
@@ -24203,6 +24219,7 @@ window.TOP_ARTICLES = {
               "alsoIn": [
                 "aaa-top-100",
                 "aaa-short-top-100",
+                "aaa-scrum-top-10",
                 "aaa-scrum-top-100",
                 "aaa-social-studies-top-100",
                 "aaa-software-development-top-10",
@@ -24863,9 +24880,7 @@ window.TOP_ARTICLES = {
               "coreInterests": [
                 "agile"
               ],
-              "alsoIn": [
-                "aaa-scrum-top-100"
-              ]
+              "alsoIn": []
             },
             {
               "position": 31,
@@ -25312,7 +25327,9 @@ window.TOP_ARTICLES = {
                 "sociologie",
                 "agile"
               ],
-              "alsoIn": []
+              "alsoIn": [
+                "aaa-scrum-top-100"
+              ]
             },
             {
               "position": 45,
@@ -31888,9 +31905,7 @@ window.TOP_ARTICLES = {
                 "sociologie",
                 "agile"
               ],
-              "alsoIn": [
-                "aaa-scrum-top-100"
-              ]
+              "alsoIn": []
             },
             {
               "position": 17,
@@ -32937,6 +32952,7 @@ window.TOP_ARTICLES = {
               "alsoIn": [
                 "aaa-top-100",
                 "aaa-short-top-100",
+                "aaa-scrum-top-10",
                 "aaa-scrum-top-100",
                 "aaa-social-studies-top-100",
                 "aaa-software-development-top-10",
@@ -35069,7 +35085,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 53
+            "position": 42
           }
         ]
       },
@@ -36346,7 +36362,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 45
+            "position": 28
           }
         ]
       },
@@ -37207,7 +37223,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 50
+            "position": 40
           },
           {
             "familyId": "software-development",
@@ -39190,12 +39206,12 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-10",
-            "position": 5
+            "position": 9
           },
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 5
+            "position": 9
           },
           {
             "familyId": "social-studies",
@@ -39566,7 +39582,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 83
+            "position": 62
           }
         ]
       },
@@ -39616,7 +39632,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 82
+            "position": 61
           }
         ]
       },
@@ -39746,7 +39762,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 81
+            "position": 60
           }
         ]
       },
@@ -39788,7 +39804,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 90
+            "position": 95
           }
         ]
       },
@@ -39838,7 +39854,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 80
+            "position": 59
           }
         ]
       },
@@ -39883,7 +39899,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 79
+            "position": 58
           }
         ]
       },
@@ -39929,7 +39945,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 37
+            "position": 18
           }
         ]
       },
@@ -40054,12 +40070,12 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-10",
-            "position": 8
+            "position": 3
           },
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 8
+            "position": 3
           },
           {
             "familyId": "social-studies",
@@ -40126,7 +40142,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 28
+            "position": 39
           },
           {
             "familyId": "social-studies",
@@ -40192,7 +40208,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 27
+            "position": 38
           },
           {
             "familyId": "social-studies",
@@ -40355,7 +40371,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 16
+            "position": 27
           },
           {
             "familyId": "social-studies",
@@ -40460,7 +40476,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 26
+            "position": 37
           },
           {
             "familyId": "social-studies",
@@ -40563,9 +40579,15 @@ window.TOP_ARTICLES = {
           "agile"
         ],
         "alsoIn": [
+          "aaa-scrum-top-100",
           "aaa-software-development-top-100"
         ],
         "memberships": [
+          {
+            "familyId": "scrum",
+            "size": "top-100",
+            "position": 72
+          },
           {
             "familyId": "software-development",
             "size": "top-100",
@@ -40610,7 +40632,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 44
+            "position": 63
           }
         ]
       },
@@ -40693,7 +40715,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 58
+            "position": 75
           }
         ]
       },
@@ -40898,6 +40920,7 @@ window.TOP_ARTICLES = {
         "alsoIn": [
           "aaa-top-100",
           "aaa-short-top-100",
+          "aaa-scrum-top-10",
           "aaa-scrum-top-100",
           "aaa-social-studies-top-100",
           "aaa-software-development-top-10",
@@ -40917,8 +40940,13 @@ window.TOP_ARTICLES = {
           },
           {
             "familyId": "scrum",
+            "size": "top-10",
+            "position": 8
+          },
+          {
+            "familyId": "scrum",
             "size": "top-100",
-            "position": 19
+            "position": 8
           },
           {
             "familyId": "social-studies",
@@ -41034,7 +41062,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 65
+            "position": 83
           },
           {
             "familyId": "software-development",
@@ -41489,7 +41517,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 93
+            "position": 68
           },
           {
             "familyId": "software-development",
@@ -41748,7 +41776,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 36
+            "position": 48
           },
           {
             "familyId": "social-studies",
@@ -41990,7 +42018,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 64
+            "position": 82
           },
           {
             "familyId": "software-development",
@@ -42504,7 +42532,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 89
+            "position": 94
           },
           {
             "familyId": "software-development",
@@ -42929,7 +42957,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 63
+            "position": 81
           },
           {
             "familyId": "software-development",
@@ -42967,15 +42995,9 @@ window.TOP_ARTICLES = {
           "agile"
         ],
         "alsoIn": [
-          "aaa-scrum-top-100",
           "aaa-software-development-top-100"
         ],
         "memberships": [
-          {
-            "familyId": "scrum",
-            "size": "top-100",
-            "position": 100
-          },
           {
             "familyId": "software-development",
             "size": "top-100",
@@ -43140,12 +43162,12 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-10",
-            "position": 4
+            "position": 1
           },
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 4
+            "position": 1
           },
           {
             "familyId": "social-studies",
@@ -43236,7 +43258,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 86
+            "position": 91
           },
           {
             "familyId": "software-development",
@@ -43281,7 +43303,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 85
+            "position": 90
           },
           {
             "familyId": "software-development",
@@ -43370,7 +43392,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 62
+            "position": 80
           },
           {
             "familyId": "software-development",
@@ -43463,7 +43485,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 84
+            "position": 64
           },
           {
             "familyId": "software-development",
@@ -43636,7 +43658,6 @@ window.TOP_ARTICLES = {
         ],
         "alsoIn": [
           "aaa-top-100",
-          "aaa-scrum-top-10",
           "aaa-scrum-top-100",
           "aaa-social-studies-top-100"
         ],
@@ -43648,13 +43669,8 @@ window.TOP_ARTICLES = {
           },
           {
             "familyId": "scrum",
-            "size": "top-10",
-            "position": 10
-          },
-          {
-            "familyId": "scrum",
             "size": "top-100",
-            "position": 10
+            "position": 17
           },
           {
             "familyId": "social-studies",
@@ -43699,7 +43715,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 99
+            "position": 71
           }
         ]
       },
@@ -43739,7 +43755,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 78
+            "position": 57
           }
         ]
       },
@@ -43779,7 +43795,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 77
+            "position": 56
           }
         ]
       },
@@ -43819,7 +43835,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 76
+            "position": 55
           }
         ]
       },
@@ -43859,7 +43875,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 75
+            "position": 54
           }
         ]
       },
@@ -43907,12 +43923,12 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-10",
-            "position": 9
+            "position": 4
           },
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 9
+            "position": 4
           },
           {
             "familyId": "social-studies",
@@ -43963,7 +43979,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 43
+            "position": 26
           }
         ]
       },
@@ -44086,6 +44102,7 @@ window.TOP_ARTICLES = {
         "alsoIn": [
           "aaa-top-100",
           "aaa-short-top-100",
+          "aaa-scrum-top-10",
           "aaa-scrum-top-100",
           "aaa-social-studies-top-100"
         ],
@@ -44102,8 +44119,13 @@ window.TOP_ARTICLES = {
           },
           {
             "familyId": "scrum",
+            "size": "top-10",
+            "position": 7
+          },
+          {
+            "familyId": "scrum",
             "size": "top-100",
-            "position": 15
+            "position": 7
           },
           {
             "familyId": "social-studies",
@@ -44154,7 +44176,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 42
+            "position": 25
           }
         ]
       },
@@ -44547,7 +44569,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 29
+            "position": 13
           },
           {
             "familyId": "social-studies",
@@ -44637,7 +44659,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 40
+            "position": 21
           }
         ]
       },
@@ -44684,7 +44706,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 74
+            "position": 53
           }
         ]
       },
@@ -45090,7 +45112,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 18
+            "position": 31
           },
           {
             "familyId": "social-studies",
@@ -45134,7 +45156,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 23
+            "position": 34
           },
           {
             "familyId": "social-studies",
@@ -45311,7 +45333,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 49
+            "position": 67
           }
         ]
       },
@@ -45396,7 +45418,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 73
+            "position": 52
           }
         ]
       },
@@ -45437,7 +45459,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 35
+            "position": 16
           }
         ]
       },
@@ -45484,7 +45506,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 57
+            "position": 45
           }
         ]
       },
@@ -45578,7 +45600,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 41
+            "position": 24
           }
         ]
       },
@@ -45707,7 +45729,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 25
+            "position": 36
           },
           {
             "familyId": "social-studies",
@@ -45827,7 +45849,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 34
+            "position": 47
           }
         ]
       },
@@ -45955,7 +45977,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 88
+            "position": 93
           }
         ]
       },
@@ -46035,7 +46057,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 61
+            "position": 79
           }
         ]
       },
@@ -46082,7 +46104,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 46
+            "position": 30
           }
         ]
       },
@@ -46223,7 +46245,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 31
+            "position": 14
           },
           {
             "familyId": "social-studies",
@@ -46261,8 +46283,16 @@ window.TOP_ARTICLES = {
         "coreInterests": [
           "agile"
         ],
-        "alsoIn": [],
-        "memberships": []
+        "alsoIn": [
+          "aaa-scrum-top-100"
+        ],
+        "memberships": [
+          {
+            "familyId": "scrum",
+            "size": "top-100",
+            "position": 78
+          }
+        ]
       },
       {
         "position": null,
@@ -46301,7 +46331,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 56
+            "position": 44
           }
         ]
       },
@@ -46374,7 +46404,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 98
+            "position": 70
           }
         ]
       },
@@ -46460,7 +46490,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 72
+            "position": 51
           }
         ]
       },
@@ -46501,7 +46531,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 52
+            "position": 41
           },
           {
             "familyId": "pdfs",
@@ -46553,7 +46583,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 22
+            "position": 11
           },
           {
             "familyId": "social-studies",
@@ -46599,7 +46629,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 33
+            "position": 15
           }
         ]
       },
@@ -47141,7 +47171,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 92
+            "position": 97
           },
           {
             "familyId": "videos",
@@ -47186,7 +47216,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 55
+            "position": 74
           },
           {
             "familyId": "videos",
@@ -47233,7 +47263,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 91
+            "position": 96
           },
           {
             "familyId": "videos",
@@ -47315,7 +47345,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 51
+            "position": 69
           },
           {
             "familyId": "videos",
@@ -47358,15 +47388,9 @@ window.TOP_ARTICLES = {
           "agile"
         ],
         "alsoIn": [
-          "aaa-scrum-top-100",
           "video-top-100"
         ],
         "memberships": [
-          {
-            "familyId": "scrum",
-            "size": "top-100",
-            "position": 97
-          },
           {
             "familyId": "videos",
             "size": "top-100",
@@ -47408,7 +47432,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 48
+            "position": 66
           },
           {
             "familyId": "videos",
@@ -47458,7 +47482,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 96
+            "position": 100
           },
           {
             "familyId": "videos",
@@ -47504,7 +47528,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 32
+            "position": 46
           },
           {
             "familyId": "videos",
@@ -47554,7 +47578,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 71
+            "position": 89
           }
         ]
       },
@@ -47592,7 +47616,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 95
+            "position": 99
           }
         ]
       },
@@ -47639,7 +47663,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 24
+            "position": 35
           },
           {
             "familyId": "social-studies",
@@ -47690,7 +47714,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 60
+            "position": 77
           }
         ]
       },
@@ -48632,7 +48656,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 67
+            "position": 85
           }
         ]
       },
@@ -48678,7 +48702,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 87
+            "position": 92
           }
         ]
       },
@@ -49898,7 +49922,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 14
+            "position": 23
           },
           {
             "familyId": "social-studies",
@@ -51035,7 +51059,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 70
+            "position": 88
           }
         ]
       },
@@ -51136,7 +51160,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 21
+            "position": 33
           },
           {
             "familyId": "social-studies",
@@ -51187,7 +51211,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 69
+            "position": 87
           }
         ]
       },
@@ -51226,7 +51250,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 94
+            "position": 98
           }
         ]
       },
@@ -51266,7 +51290,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 54
+            "position": 73
           }
         ]
       },
@@ -51341,7 +51365,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 30
+            "position": 43
           },
           {
             "familyId": "social-studies",
@@ -51548,7 +51572,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 20
+            "position": 32
           },
           {
             "familyId": "social-studies",
@@ -52142,7 +52166,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 68
+            "position": 86
           }
         ]
       },
@@ -53409,7 +53433,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 59
+            "position": 76
           }
         ]
       },
@@ -53793,12 +53817,12 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-10",
-            "position": 6
+            "position": 10
           },
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 6
+            "position": 10
           },
           {
             "familyId": "social-studies",
@@ -54220,7 +54244,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 47
+            "position": 65
           },
           {
             "familyId": "social-studies",
@@ -54275,12 +54299,12 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-10",
-            "position": 1
+            "position": 2
           },
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 1
+            "position": 2
           },
           {
             "familyId": "social-studies",
@@ -54687,7 +54711,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 38
+            "position": 49
           },
           {
             "familyId": "social-studies",
@@ -55591,7 +55615,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 39
+            "position": 50
           },
           {
             "familyId": "social-studies",
@@ -55911,7 +55935,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 12
+            "position": 20
           },
           {
             "familyId": "social-studies",
@@ -57229,7 +57253,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 13
+            "position": 22
           },
           {
             "familyId": "social-studies",
@@ -57439,12 +57463,12 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-10",
-            "position": 2
+            "position": 5
           },
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 2
+            "position": 5
           },
           {
             "familyId": "social-studies",
@@ -57834,12 +57858,12 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-10",
-            "position": 3
+            "position": 6
           },
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 3
+            "position": 6
           },
           {
             "familyId": "social-studies",
@@ -58413,7 +58437,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 11
+            "position": 19
           },
           {
             "familyId": "social-studies",
@@ -59386,7 +59410,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 66
+            "position": 84
           }
         ]
       },
@@ -60309,7 +60333,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 17
+            "position": 29
           },
           {
             "familyId": "social-studies",
@@ -62155,7 +62179,6 @@ window.TOP_ARTICLES = {
         ],
         "alsoIn": [
           "aaa-top-100",
-          "aaa-scrum-top-10",
           "aaa-scrum-top-100",
           "aaa-social-studies-top-100"
         ],
@@ -62167,13 +62190,8 @@ window.TOP_ARTICLES = {
           },
           {
             "familyId": "scrum",
-            "size": "top-10",
-            "position": 7
-          },
-          {
-            "familyId": "scrum",
             "size": "top-100",
-            "position": 7
+            "position": 12
           },
           {
             "familyId": "social-studies",
