@@ -31,6 +31,7 @@ import type {
 } from "./core-interest-priority.js";
 import {
   judgmentFor,
+  contentTagsFor,
   type PriorityJudgmentsConfig,
 } from "./priority-judgments.js";
 
@@ -41,6 +42,19 @@ export type { CoreInterestMatch, CoreInterestPriority, CoreInterestPriorityConfi
 
 export const PRIORITY_MODEL = "readwise-priority-v7" as const;
 export const SEQUENCE_FIT_WEIGHT = 3;
+
+/** Scrum-mastergerichte signalen krijgen extra gewicht binnen de scrum-reeks. */
+const SCRUM_TAG_FIT_BONUS: Readonly<Record<string, number>> = {
+  agile: 12,
+  scrum: 12,
+  "agile & scrum": 12,
+  "scrum & agile": 12,
+  "team coaching": 12,
+  "team dynamics & collaboration": 3,
+  "organizational behavior & culture": 3,
+  "team dynamics": 3,
+  "organizational behavior": 3,
+};
 
 export interface PriorityComponents {
   kerninteresse: number;
@@ -104,6 +118,10 @@ function isFiniteNumber(value: unknown): value is number {
 
 function floorScore(score: number): number {
   return Math.max(0, Math.round(score));
+}
+
+function scrumTagFitBonus(doc: PriorityDocument): number {
+  return Math.max(0, ...contentTagsFor(doc).map((tag) => SCRUM_TAG_FIT_BONUS[tag] ?? 0));
 }
 
 function tierForScore(score: number): PriorityTier {
@@ -209,7 +227,11 @@ function buildExpected(
     const { judgment } = judgmentFor(doc, judgments ?? {});
     const sequenceScores = Object.fromEntries(sequences.map((sequence) => [
       sequence,
-      floorScore(score.score + (judgment.sequenceFit[sequence] ?? 0) * SEQUENCE_FIT_WEIGHT),
+      floorScore(
+        score.score +
+        (judgment.sequenceFit[sequence] ?? 0) * SEQUENCE_FIT_WEIGHT +
+        (sequence === "scrum" ? scrumTagFitBonus(doc) : 0),
+      ),
     ])) as PrioritySequenceScores;
     items[doc.id] = {
       ...score,

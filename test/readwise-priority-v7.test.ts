@@ -106,6 +106,56 @@ test("the stacked core-interest bonus also changes sequence ranking", () => {
   assert.equal(result.items.one.positions.lees, 2);
 });
 
+test("scrum ranking gives scrum-master signals more weight than broad team signals", () => {
+  const documents = [
+    document({ id: "agile", tags: { "lees-0001": {}, agile: {} } }),
+    document({ id: "coaching", tags: { "lees-0002": {}, "team coaching": {} } }),
+    document({ id: "team-dynamics", tags: { "lees-0003": {}, "team dynamics & collaboration": {} } }),
+    document({ id: "organizational-behavior", tags: { "lees-0004": {}, "organizational behavior & culture": {} } }),
+  ];
+  const judgments = judgmentsFor(documents, { scrum: 0 });
+  const result = buildPriorityExport(documents, {
+    generatedAt: "2026-09-19T00:00:00.000Z",
+    judgments,
+    coreInterestConfig: CORE_INTEREST_CONFIG,
+  });
+
+  const agile = result.items.agile;
+  const coaching = result.items.coaching;
+  const teamDynamics = result.items["team-dynamics"];
+  const organizationalBehavior = result.items["organizational-behavior"];
+  assert.ok(agile);
+  assert.ok(coaching);
+  assert.ok(teamDynamics);
+  assert.ok(organizationalBehavior);
+  assert.equal(agile.score, teamDynamics.score);
+  assert.equal(coaching.score, organizationalBehavior.score);
+  assert.ok((agile.sequenceScores.scrum ?? 0) > (teamDynamics.sequenceScores.scrum ?? 0));
+  assert.ok((coaching.sequenceScores.scrum ?? 0) > (organizationalBehavior.sequenceScores.scrum ?? 0));
+  assert.equal(agile.sequenceScores.lees, teamDynamics.sequenceScores.lees);
+  assert.equal(coaching.sequenceScores.lees, organizationalBehavior.sequenceScores.lees);
+});
+
+test("scrum tag bonuses use the strongest matching signal instead of stacking aliases", () => {
+  const doc = document({
+    tags: {
+      "lees-0001": {},
+      agile: {},
+      "team coaching": {},
+      "team dynamics & collaboration": {},
+      "organizational behavior & culture": {},
+    },
+  });
+  const result = buildPriorityExport([doc], {
+    generatedAt: "2026-09-19T00:00:00.000Z",
+    judgments: judgmentsFor([doc], { scrum: 0 }),
+    coreInterestConfig: CORE_INTEREST_CONFIG,
+  });
+
+  assert.ok(result.items["doc-1"]);
+  assert.equal(result.items["doc-1"].sequenceScores.scrum, result.items["doc-1"].score + 12);
+});
+
 test("a document without core-interest evidence keeps the v6 components and gets no bonus", () => {
   const doc = document({ tags: { "lees-0001": {}, dutch: {} } });
   const judgments = judgmentsFor([doc]);
