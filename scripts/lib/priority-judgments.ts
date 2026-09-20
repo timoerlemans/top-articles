@@ -332,7 +332,7 @@ export function validateContentJudgment(value: unknown): value is ContentJudgmen
 
 export function validatePriorityJudgments(value: unknown): value is PriorityJudgmentsConfig {
   if (!isRecord(value) || (value.version !== 1 && value.version !== 2) || !isRecord(value.items)) {return false;}
-  if (value.version === 2 && value.rubricVersion !== "semantic-v1") {return false;}
+  if (value.version === 2 && value.rubricVersion !== "semantic-v1" && value.rubricVersion !== "semantic-v2") {return false;}
   if (value.version === 2 && Object.entries(value.items).some(([, judgment]) => {
     if (!isRecord(judgment) || !["accepted", "draft", "rejected"].includes(String(judgment.status))) {return true;}
     return typeof judgment.evidenceFingerprint !== "string" || !/^[a-f0-9]{64}$/.test(judgment.evidenceFingerprint) ||

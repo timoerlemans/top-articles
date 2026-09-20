@@ -39,9 +39,12 @@ npm run check             # lint && typecheck && test — belangrijkste verifica
 npm test                  # compileert eerst, draait dan node --test dist/test/*.test.js
 npm run compile && node --test dist/test/priority-tag-plan.test.js   # los testbestand draaien
 
+npm run priority:judge -- prepare --all-later  # volledige evidence snapshot voor v8-migratie
 npm run priority:judge -- prepare --top100       # read-only evidence snapshot + batches van max. 25
+npm run priority:judge -- validate --require-all --require-topic # strikte v8-migratiepoort
 npm run priority:judge -- validate --require-top100 # controleert alle actuele top-100-labels
 npm run priority:judge -- report                 # vergelijkt semantische ranking met huidige tags
+npm run priority:topic-report                   # read-only v7→v8-topic-impactrapport
 npm run priority:plan     # compileert eerst; proefrun: berekent benodigde Readwise-tagwijzigingen, schrijft .tmp/readwise/priority-plan.json
 npm run priority:apply    # compileert eerst; past een eerder gegenereerd plan toe na expliciete --confirm <plan-hash>
 npm run priority:verify   # compileert eerst; controleert of Readwise-tags al matchen met de berekende reeksen (geen wijzigingen)
@@ -64,35 +67,42 @@ notitieregels en een gefilterde interesse-tagset (structuurtags als `lees-0001`/
 taaltags en curatietags als `must-read`/`shortlist` worden eruit gefilterd, zie
 `ORDINAL_TAG_PATTERN`/`CURATION_TAGS`/`LANGUAGE_TAG_MAP`).
 
-### Scoring & reeksen (`scripts/lib/readwise-priority-v2.ts` + `-v6.ts`)
+### Scoring & reeksen (`scripts/lib/readwise-priority-v2.ts` + `-v8.ts`)
 
-- De huidige scorelogica is model `readwise-priority-v6`: één globale score gebruikt een versioneerde
-  judgment-configuratie voor relevantie, substantie, duurzaamheid en bruikbaarheid, plus kleine
-  reeks-fitcorrecties. Positie- en toplijsttags zijn geen inhoudelijk bewijs; ontbrekende of verouderde
-  judgments vallen terug op een expliciet als low-confidence gemarkeerde deterministische fallback.
+- De huidige scorelogica is model `readwise-priority-v8`: de v7-global score blijft de gedeelde
+  persoonlijke prioriteit, terwijl topicreeksen (`scrum`, `software-development`,
+  `front-end-development`, `social-studies`, `adhd`) een eigen scoreobject krijgen. Daarin vervangt
+  topicrelevantie (0–4) de algemene relevantie; de kerninteressebonus blijft behouden. Positie- en
+  toplijsttags zijn geen inhoudelijk bewijs; ontbrekende of verouderde judgments vallen terug op een
+  expliciet als low-confidence gemarkeerde deterministische fallback.
 - Curation-tags (`must-read`, `shortlist`) en triage-aanbevelingen zijn alleen vergelijkingssignalen;
   highlight-aantallen, gegenereerde provenance en huidige posities geven geen scorebonus. De
   evidence-laag dedupliceert highlighttekst en houdt ruwe highlights buiten config en browserdata.
-- De v6-bestandslaag voegt toe: handmatige correcties uit
+- De v8-bestandslaag voegt toe: handmatige correcties uit
   `config/readwise-priority-overrides.json` (`{ version: 1, items: { "<doc-id>": { adjustment, reason } } }`,
   reden verplicht bij niet-nul adjustment), tier-indeling (hoog ≥70, midden ≥40, laag <40), en
   `sequencesForDocument` — bepaalt in welke van de `SEQUENCE_ORDER`-reeksen (video, boek, pdf,
-  lees, dutch, short, short-dutch, luchtig, luchtig-nederlands, scrum, adhd) een document hoort.
+  lees, dutch, short, short-dutch, luchtig, luchtig-nederlands, scrum, software-development,
+  front-end-development, social-studies, adhd) een document hoort.
   De `scrum`-reeks is, net als `luchtig`, topic-gebaseerd: een document met de tag `scrum` of
-  `agile` hoort erin (boeken uitgezonderd). De `adhd`-reeks is topic-gebaseerd op de canonieke
-  tag `adhd & neurodivergence` (een losse `adhd`-tag wordt eerst genormaliseerd), eveneens met
-  boeken uitgezonderd.
+  `agile` hoort erin (boeken uitgezonderd); de sterke Agile-taxonomie bevat daarnaast `team coaching`,
+  `facilitation`, `flow & delivery` en `psm-ii`. Brede tags als `team dynamics` geven hoogstens een
+  lichte relevance-bijdrage en creëren geen Agile-membership. De overige topicreeksen gebruiken hun
+  eigen membership-tags. De `adhd`-reeks is topic-gebaseerd op de canonieke tag
+  `adhd & neurodivergence` (een losse `adhd`-tag wordt eerst genormaliseerd), eveneens met boeken
+  uitgezonderd.
   **Boeken/EPUB's horen strikt alleen in de `boek`-reeks**, nooit gecombineerd met andere reeksen
   — dit wordt hard afgedwongen in `validatePriorityExport`.
-- `buildPriorityExport` berekent per document score + reeksen + positie-per-reeks, en valideert
-  zichzelf tegen een onafhankelijk herberekende `buildExpected` (dus scorelogica wijzigen zonder de
-  validatie mee te laten lopen, faalt de eigen output-check).
+- `buildPriorityExport` berekent per document globale en topic-scores + reeksen + positie-per-reeks,
+  en valideert zichzelf tegen onafhankelijk herberekende verwachte output (dus scorelogica wijzigen
+  zonder de validatie mee te laten lopen, faalt de eigen output-check).
 
 ### Uniforme lijsten (`scripts/lib/unified-lists.ts`)
 
 `FAMILY_DEFINITIONS` koppelt elke reeks aan een "familie" (Algemeen, Nederlands, Kort, Kort & NL,
-Luchtig, Luchtig & NL, Sociale studies & samenwerking, ADHD, Boeken, PDF's, Video's) met bijbehorende Readwise-toplijsttags
-(`aaa-top-10`/`aaa-top-100` etc.). `buildUnifiedLists` sorteert elke familie op score (bij
+Luchtig, Luchtig & NL, Agile, Software development, Front-end development, Sociale studies & samenwerking,
+ADHD, Boeken, PDF's, Video's) met bijbehorende Readwise-toplijsttags (`aaa-top-10`/`aaa-top-100` etc.).
+`buildUnifiedLists` sorteert elke familie op de eigen reeks-score (bij
 gelijkspel: oudste `saved_at`, dan document-ID) en berekent drie afgeleide ontdeklijsten over
 niet-boeken: Consensus (≥2 familie-top-100-lidmaatschappen), Nieuw (saved_at binnen 90 dagen),
 Tijdloos (published_date ouder dan 3 jaar) — elk gelimiteerd tot 25 items.
@@ -124,7 +134,7 @@ strict TypeScript, gecompileerd door `tsc` zonder bundler-stap. `index.html` laa
 `data/score.js` en `data/data.js` (de gegenereerde globals), en pas daarna `dist/src/app.js` als
 `<script type="module">`. `app.ts` valideert die twee ongetypeerde globals bij het laden via de
 parsers/type-guards in `src/types/browser-data.ts` (`parseTopArticles`/`parseTopArticlePriority`,
-met een modelversie-check op `readwise-priority-v6`/scope `later`), en rendert daarna families,
+met een modelversie-check op `readwise-priority-v8`/scope `later`), en rendert daarna families,
 catalogus, ontdeklijsten en filters/sortering direct in de DOM. Filterstatus wordt gepersisteerd
 als URL-queryparams (niet gewist bij navigatie). `styles.css` staat hier los van en heeft geen
 relatie met de TS-compilatie.

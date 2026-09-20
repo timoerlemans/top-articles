@@ -9,7 +9,7 @@ import { fileURLToPath } from "node:url";
 import { createReadwiseRequester } from "./lib/readwise-request.js";
 import { parseReadwiseDocumentPage } from "./lib/external-schemas.js";
 import type { ReadwiseDocument } from "./lib/external-schemas.js";
-import { buildEvidenceSnapshot, batchPriorityEvidence, ensureMissingTop100Fallbacks, validateJudgmentSet, type PriorityEvidenceSnapshot } from "./lib/priority-judge.js";
+import { buildEvidenceSnapshot, batchPriorityEvidence, ensureMissingFallbacks, validateJudgmentSet, type EvidenceSelection, type PriorityEvidenceSnapshot } from "./lib/priority-judge.js";
 import { validatePriorityJudgments, type PriorityJudgmentsConfig } from "./lib/priority-judgments.js";
 import { buildPriorityComparisonReport } from "./lib/priority-report.js";
 import { validateCoreInterestPriorityConfig } from "./lib/core-interest-priority.js";
@@ -29,8 +29,13 @@ function option(name: string, fallback: string | null = null): string | null {
   return index >= 0 ? process.argv[index + 1] ?? fallback : fallback;
 }
 
-function requireTop100(): void {
-  if (!process.argv.includes("--top100")) {throw new Error("Gebruik prepare met --top100: alle huidige top-100-tagreeksen worden meegenomen");}
+function selectionArgument(): EvidenceSelection {
+  const allLater = process.argv.includes("--all-later");
+  const top100 = process.argv.includes("--top100");
+  if (allLater === top100) {
+    throw new Error("Kies precies één dekking: --all-later voor alle later-documenten of --top100 voor huidige top-100-documenten");
+  }
+  return allLater ? "all-later" : "top100";
 }
 
 async function fetchLater(): Promise<ReadwiseDocument[]> {
@@ -119,9 +124,9 @@ async function readEvidence(path = DEFAULT_EVIDENCE_FILE): Promise<PriorityEvide
 }
 
 async function prepareCommand(): Promise<void> {
-  requireTop100();
+  const selection = selectionArgument();
   const documents = await fetchLater();
-  const candidates = documents.filter((doc) => {
+  const candidates = selection === "all-later" ? documents : documents.filter((doc) => {
     const tags = Array.isArray(doc.tags) ? doc.tags : doc.tags && typeof doc.tags === "object" ? Object.keys(doc.tags) : [];
     return tags.some((tag) => typeof tag === "string" && /(?:^|-)top-100$/.test(tag.toLowerCase()));
   });
@@ -134,7 +139,7 @@ async function prepareCommand(): Promise<void> {
     process.stdout.write(`\rEvidence: ${String(index + 1)}/${String(candidates.length)}`);
   }
   process.stdout.write("\n");
-  const snapshot = buildEvidenceSnapshot(candidates, highlightsById);
+  const snapshot = buildEvidenceSnapshot(documents, highlightsById, new Date().toISOString(), selection);
   const evidencePath = await writeJson(option("--output", DEFAULT_EVIDENCE_FILE) ?? DEFAULT_EVIDENCE_FILE, snapshot);
   const batchDir = resolve(option("--batch-dir", DEFAULT_BATCH_DIR) ?? DEFAULT_BATCH_DIR);
   const batches = batchPriorityEvidence(Object.values(snapshot.documents), Number(option("--batch-size", "25")));
@@ -142,8 +147,9 @@ async function prepareCommand(): Promise<void> {
   for (const [index, batch] of batches.entries()) {
     await writeJson(resolve(batchDir, `batch-${String(index + 1).padStart(3, "0")}.json`), {
       version: 1,
-      rubricVersion: "semantic-v1",
-      instruction: "Beoordeel elk document onafhankelijk van huidige top-100-posities en vul daarna de v2 judgment-config in.",
+      rubricVersion: "semantic-v2",
+      selection,
+      instruction: "Beoordeel elk document onafhankelijk van huidige Readwise-posities. Vul de bestaande vier scores én topicRelevance (0–4) in voor scrum, software-development, front-end-development, social-studies en adhd.",
       documents: batch,
     });
   }
@@ -156,22 +162,26 @@ async function validateCommand(): Promise<void> {
   const documents = await fetchLater();
   const snapshot = await readEvidence(option("--evidence", DEFAULT_EVIDENCE_FILE) ?? DEFAULT_EVIDENCE_FILE);
   const config = await readConfig(option("--config", JUDGMENTS_FILE) ?? JUDGMENTS_FILE);
-  const report = validateJudgmentSet(documents, snapshot, config, process.argv.includes("--require-top100"));
-  console.log(`Judgments: accepted=${String(report.accepted)}, missing=${String(report.missing)}, stale=${String(report.stale)}, rejected=${String(report.rejected)}.`);
+  const report = validateJudgmentSet(documents, snapshot, config, {
+    requireTop100: process.argv.includes("--require-top100"),
+    requireAllLater: process.argv.includes("--require-all"),
+    requireTopicRelevance: process.argv.includes("--require-topic"),
+  });
+  console.log(`Judgments: accepted=${String(report.accepted)}, missing=${String(report.missing)}, stale=${String(report.stale)}, rejected=${String(report.rejected)}, topicMissing=${String(report.topicMissing ?? 0)}.`);
 }
 
 async function ensureFallbackCommand(): Promise<void> {
-  requireTop100();
+  const selection = selectionArgument();
   const documents = await fetchLater();
   const configPath = option("--config", JUDGMENTS_FILE) ?? JUDGMENTS_FILE;
   const config = await readConfig(configPath);
   const judgedAt = option("--judged-at");
-  const result = ensureMissingTop100Fallbacks(documents, config, judgedAt ? { judgedAt } : {});
+  const result = ensureMissingFallbacks(documents, config, { selection, ...(judgedAt ? { judgedAt } : {}) });
   const reportPath = await writeJson(option("--report", ".tmp/readwise/priority-judge-audit.json") ?? ".tmp/readwise/priority-judge-audit.json", result.report);
   if (result.report.added.length > 0) {
     await writeJson(configPath, result.config);
   }
-  console.log(`Top-100 fallback: top100=${String(result.report.top100)}, toegevoegd=${String(result.report.added.length)}, bestaand=${String(result.report.existing.length)}, stale=${String(result.report.stale.length)}, draft=${String(result.report.draft.length)}, rejected=${String(result.report.rejected.length)}.`);
+  console.log(`${selection === "all-later" ? "All-later" : "Top-100"} fallback: documenten=${String(result.report.top100)}, toegevoegd=${String(result.report.added.length)}, bestaand=${String(result.report.existing.length)}, stale=${String(result.report.stale.length)}, draft=${String(result.report.draft.length)}, rejected=${String(result.report.rejected.length)}.`);
   console.log(`Audit: ${reportPath}`);
   if (result.report.added.length > 0) {console.log(`Config bijgewerkt: ${resolve(configPath)}`);}
 }

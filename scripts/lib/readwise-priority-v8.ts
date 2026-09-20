@@ -15,10 +15,8 @@ import type {
   PriorityExportOptions as PriorityExportOptionsV7,
   PriorityOverride,
   PriorityOverrideMap,
-  PriorityOverridesConfig,
   PriorityScoreResult as PriorityScoreResultV7,
   PrioritySequence,
-  WeightedCoreInterestMatch,
 } from "./readwise-priority-v7.js";
 import type { PriorityTier } from "./readwise-priority-v2.js";
 import { comparePriorityItems } from "./readwise-priority-v3.js";
@@ -86,7 +84,7 @@ export interface PriorityExport {
   items: Record<string, PriorityExportItem>;
 }
 
-export interface PriorityExportOptions extends PriorityExportOptionsV7 {}
+export type PriorityExportOptions = PriorityExportOptionsV7;
 
 function isRecord(value: unknown): value is Record<string, unknown> {
   return typeof value === "object" && value !== null;

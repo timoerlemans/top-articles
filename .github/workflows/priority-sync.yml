@@ -37,7 +37,7 @@ jobs:
         run: npm run check
 
       - name: Ensure operational fallback judgments
-        run: npm run priority:judge -- ensure-fallback --top100 --report .tmp/readwise/priority-judge-audit.json
+        run: npm run priority:judge -- ensure-fallback --all-later --report .tmp/readwise/priority-judge-audit.json
 
       - name: Bewaar gewijzigde fallback-configuratie
         run: |
@@ -75,7 +75,7 @@ jobs:
           {
             echo "### Readwise-leesvolgorde synchronisatie"
             if [ -f .tmp/readwise/priority-judge-audit.json ]; then
-              jq -r '"- Fallback top-100: \(.top100)\n- Nieuw: \((.added // []) | length)\n- Bestaand: \((.existing // []) | length)\n- Stale: \((.stale // []) | length)\n- Draft: \((.draft // []) | length)\n- Rejected: \((.rejected // []) | length)"' .tmp/readwise/priority-judge-audit.json
+              jq -r '"- Fallback-documenten: \(.top100)\n- Nieuw: \((.added // []) | length)\n- Bestaand: \((.existing // []) | length)\n- Stale: \((.stale // []) | length)\n- Draft: \((.draft // []) | length)\n- Rejected: \((.rejected // []) | length)"' .tmp/readwise/priority-judge-audit.json
             fi
             if [ -f .tmp/readwise/priority-plan.json ]; then
               jq -r '"- Documenten: \(.summary.documents)\n- Toevoegingen: \(.summary.additions)\n- Verwijderingen: \(.summary.removals)\n- Planhash: `\(.planHash)`"' .tmp/readwise/priority-plan.json

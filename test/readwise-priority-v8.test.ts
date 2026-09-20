@@ -62,10 +62,14 @@ function labeledJudgment(
 }
 
 function judgmentsFor(entries: readonly [PriorityDocument, ContentJudgment][]): PriorityJudgmentsConfig {
+  const items: Record<string, ContentJudgment> = {};
+  for (const [doc, judgment] of entries) {
+    if (doc.id) {items[doc.id] = judgment;}
+  }
   return {
     version: 2,
     rubricVersion: "semantic-v1",
-    items: Object.fromEntries(entries.map(([doc, judgment]) => [doc.id, judgment])),
+    items,
   };
 }
 
@@ -110,7 +114,9 @@ test("v8 publishes global and topic-aware per-sequence score records", () => {
     nederlandse_taal: item.components.nederlandse_taal,
     aftrek: item.components.aftrek,
   });
-  assert.equal(item.sequenceScores.scrum?.score, expectedTopicScore(item.sequenceScores.scrum.components!, item.adjustment));
+  const scrumScore = item.sequenceScores.scrum;
+  assert.ok(scrumScore?.components);
+  assert.equal(scrumScore.score, expectedTopicScore(scrumScore.components, item.adjustment));
   assert.equal(item.sequenceScores.lees?.score, item.score);
   assert.equal(validatePriorityExport(result), true);
 });
@@ -147,7 +153,10 @@ test("topic score determines the topic ranking and respects Agile tag weighting"
 
   assert.ok(result.items.strong);
   assert.ok(result.items.weak);
-  assert.equal(result.items.strong.sequenceScores.scrum?.score! > result.items.weak.sequenceScores.scrum?.score!, true);
+  const strongScore = result.items.strong.sequenceScores.scrum?.score;
+  const weakScore = result.items.weak.sequenceScores.scrum?.score;
+  assert.ok(strongScore !== undefined && weakScore !== undefined);
+  assert.equal(strongScore > weakScore, true);
   assert.equal(result.items.strong.positions.scrum, 1);
   assert.equal(result.items.weak.positions.scrum, 2);
 });

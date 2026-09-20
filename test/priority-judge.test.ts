@@ -3,12 +3,15 @@ import test from "node:test";
 
 import {
   batchPriorityEvidence,
+  buildEvidenceSnapshot,
+  ensureMissingFallbacks,
   ensureMissingTop100Fallbacks,
   selectTop100Documents,
   validateJudgmentSet,
   type PriorityEvidenceSnapshot,
 } from "../scripts/lib/priority-judge.js";
-import { buildPriorityEvidence } from "../scripts/lib/priority-judgments.js";
+import { buildPriorityEvidence, type ContentJudgment } from "../scripts/lib/priority-judgments.js";
+import { TOPIC_SEQUENCE_ORDER } from "../scripts/lib/priority-sequences.js";
 import type { PriorityDocumentEvidence, PriorityJudgmentsConfig } from "../scripts/lib/priority-judgments.js";
 import type { PriorityDocument } from "../scripts/lib/readwise-priority-v2.js";
 
@@ -49,6 +52,17 @@ test("batching keeps every evidence record exactly once", () => {
   assert.deepEqual(batches.map((batch) => batch.map((item) => item.documentId)), [["one", "two"], ["three"]]);
 });
 
+test("all-later evidence preparation includes documents outside current top-100 tags", () => {
+  const docs = [
+    document("top", { "aaa-top-100": {} }),
+    document("outside", { philosophy: {} }),
+  ];
+  const snapshot = buildEvidenceSnapshot(docs, new Map(), "2026-09-20T00:00:00.000Z", "all-later");
+
+  assert.equal(snapshot.selection, "all-later");
+  assert.deepEqual(Object.keys(snapshot.documents).sort(), ["outside", "top"]);
+});
+
 test("required top-100 validation fails on missing, stale, or draft judgments", () => {
   const docs = [document("one", { "aaa-top-100": {} }), document("two", { "aaa-dutch-top-100": {} })];
   const evidence = docs.reduce<Record<string, PriorityDocumentEvidence>>((result, doc) => {
@@ -68,6 +82,32 @@ test("required top-100 validation fails on missing, stale, or draft judgments", 
   assert.deepEqual(validateJudgmentSet(docs, snapshot, valid, true), { accepted: 2, missing: 0, stale: 0, rejected: 0 });
   const stale = { ...valid, items: { ...valid.items, two: accepted(two.sourceFingerprint, "b".repeat(64)) } };
   assert.throws(() => validateJudgmentSet(docs, snapshot, stale, true), /stale|fingerprint/i);
+});
+
+test("strict all-later validation requires a semantic topic rating for every topic sequence", () => {
+  const docs = [document("one", { philosophy: {} })];
+  const [doc] = docs;
+  if (!doc) {throw new Error("Expected test document");}
+  const evidence = buildPriorityEvidence(doc);
+  const snapshot: PriorityEvidenceSnapshot = {
+    version: 1,
+    generatedAt: "2026-09-20T00:00:00.000Z",
+    scope: "later",
+    selection: "all-later",
+    documents: { one: evidence },
+  };
+  const base = accepted(evidence.sourceFingerprint, evidence.evidenceFingerprint);
+  assert.throws(
+    () => validateJudgmentSet(docs, snapshot, { version: 2, rubricVersion: "semantic-v1", items: { one: base } }, { requireAllLater: true, requireTopicRelevance: true }),
+    /topic|relevantie|one/i,
+  );
+
+  const completeTopicRelevance = Object.fromEntries(TOPIC_SEQUENCE_ORDER.map((topic) => [topic, 2])) as ContentJudgment["topicRelevance"];
+  const valid = { ...base, topicRelevance: completeTopicRelevance, judgedBy: "codex-semantic-review" };
+  assert.deepEqual(
+    validateJudgmentSet(docs, snapshot, { version: 2, rubricVersion: "semantic-v2", items: { one: valid } }, { requireAllLater: true, requireTopicRelevance: true }),
+    { accepted: 1, missing: 0, stale: 0, rejected: 0, topicMissing: 0 },
+  );
 });
 
 test("fallback ensure adds only missing top-100 items and reports preserved statuses", () => {
@@ -114,4 +154,14 @@ test("fallback ensure adds only missing top-100 items and reports preserved stat
   assert.equal(result.config.items.draft?.status, "draft");
   assert.equal(result.config.items.rejected?.status, "rejected");
   assert.equal(result.config.items.outside, undefined);
+});
+
+test("all-later fallback preparation adds low-confidence topic relevance without changing membership", () => {
+  const docs = [document("outside", { facilitation: {} })];
+  const result = ensureMissingFallbacks(docs, { version: 2, rubricVersion: "semantic-v1", items: {} }, { selection: "all-later", judgedAt: "2026-09-20T00:00:00.000Z" });
+  const judgment = result.config.items.outside;
+  assert.equal(result.report.top100, 1);
+  assert.equal(result.report.added.length, 1);
+  assert.equal(judgment?.topicRelevance?.scrum, 4);
+  assert.equal(judgment?.confidence, "low");
 });
