@@ -11,6 +11,13 @@ function isDirectDomain(value) {
 function isRecord(value) {
     return typeof value === "object" && value !== null;
 }
+const PRIORITY_SEQUENCES = [
+    "video", "boek", "pdf", "lees", "dutch", "short", "short-dutch", "luchtig", "luchtig-nederlands",
+    "scrum", "software-development", "front-end-development", "social-studies", "adhd",
+];
+function isPrioritySequence(value) {
+    return typeof value === "string" && PRIORITY_SEQUENCES.includes(value);
+}
 function isNullableString(value) {
     return typeof value === "string" || value === null;
 }
@@ -61,6 +68,33 @@ function isCoreInterestMatch(value, priority) {
     }
     return value.evidence.every((evidence) => isRecord(evidence) && (evidence.kind === "readwise-tag" || evidence.kind === "semantic-signal") && typeof evidence.source === "string" && evidence.source.length > 0 && typeof evidence.label === "string" && evidence.label.length > 0);
 }
+function isTopicComponents(value, topicRelevance) {
+    if (!isRecord(value)) {
+        return false;
+    }
+    const keys = [
+        "kerninteresse", "topic_relevantie", "substantie", "duurzaamheid", "bruikbaarheid", "leeskans", "nederlandse_taal", "aftrek",
+    ];
+    return Object.keys(value).length === keys.length
+        && keys.every((key) => isFiniteNumber(value[key]))
+        && value.topic_relevantie === topicRelevance;
+}
+function isPrioritySequenceScore(value) {
+    if (!isRecord(value) || !Number.isInteger(value.score) || !isFiniteNumber(value.score) || value.score < 0 || !["hoog", "midden", "laag"].includes(value.tier)) {
+        return false;
+    }
+    if (value.mode === "global") {
+        return true;
+    }
+    return value.mode === "topic"
+        && Number.isInteger(value.topicRelevance)
+        && isFiniteNumber(value.topicRelevance)
+        && value.topicRelevance >= 0
+        && value.topicRelevance <= 4
+        && (value.relevanceSource === "label" || value.relevanceSource === "fallback")
+        && (value.relevanceConfidence === "high" || value.relevanceConfidence === "medium" || value.relevanceConfidence === "low")
+        && isTopicComponents(value.components, value.topicRelevance);
+}
 function isPriorityItem(value, priority) {
     if (!isRecord(value) || !Number.isInteger(value.baseScore) || !isFiniteNumber(value.adjustment) || !Number.isInteger(value.adjustment) || !Number.isInteger(value.score) || typeof value.tier !== "string" || !isNullableString(value.adjustmentReason) || (value.judgmentSource !== "label" && value.judgmentSource !== "fallback") || (value.judgmentConfidence !== "high" && value.judgmentConfidence !== "medium" && value.judgmentConfidence !== "low") || !isRecord(value.components) || !isRecord(value.rationale) || !Array.isArray(value.coreInterestMatches)) {
         return false;
@@ -85,7 +119,7 @@ function isPriorityItem(value, priority) {
         return false;
     }
     return Array.isArray(value.sequences) && value.sequences.every((sequence) => typeof sequence === "string")
-        && isRecord(value.sequenceScores) && Object.values(value.sequenceScores).every(isFiniteNumber)
+        && isRecord(value.sequenceScores) && Object.values(value.sequenceScores).every(isPrioritySequenceScore)
         && isRecord(value.positions) && Object.values(value.positions).every((position) => Number.isInteger(position))
         && isRecord(value.actualPositions) && Object.values(value.actualPositions).every((position) => Number.isInteger(position));
 }
@@ -93,12 +127,12 @@ function isTopArticles(value) {
     if (!isRecord(value) || typeof value.generatedAt !== "string" || !Array.isArray(value.families) || !isRecord(value.catalog) || !Array.isArray(value.catalog.items) || !isRecord(value.derivedLists)) {
         return false;
     }
-    const families = value.families.every((family) => isRecord(family) && typeof family.id === "string" && typeof family.label === "string" && isRecord(family.lists) && isArticleList(family.lists["top-10"]) && isArticleList(family.lists["top-100"]));
+    const families = value.families.every((family) => isRecord(family) && typeof family.id === "string" && typeof family.label === "string" && isPrioritySequence(family.sequence) && isRecord(family.lists) && isArticleList(family.lists["top-10"]) && isArticleList(family.lists["top-100"]));
     const derivedLists = Object.values(value.derivedLists).every((list) => isRecord(list) && typeof list.id === "string" && typeof list.label === "string" && Array.isArray(list.items) && list.items.every((item) => isRecord(item) && typeof item.id === "string" && typeof item.title === "string" && Number.isInteger(item.position)));
     return families && value.catalog.items.every(isArticleItem) && derivedLists;
 }
 function isTopArticlePriority(value) {
-    if (!isRecord(value) || typeof value.generatedAt !== "string" || value.model !== "readwise-priority-v7" || value.scope !== "later" || !isRecord(value.items)) {
+    if (!isRecord(value) || typeof value.generatedAt !== "string" || value.model !== "readwise-priority-v8" || value.scope !== "later" || !isRecord(value.items)) {
         return false;
     }
     const coreInterestPriority = value.coreInterestPriority;

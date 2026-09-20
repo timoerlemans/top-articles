@@ -176,6 +176,22 @@ registerServiceWorker();
     function priorityFor(item) {
         return priorityItems[item.id] ?? null;
     }
+    function prioritySequenceScore(item, sequence) {
+        const priority = priorityFor(item);
+        if (!priority) {
+            return null;
+        }
+        return sequence ? priority.sequenceScores[sequence]?.score ?? null : priority.score;
+    }
+    function activeSequenceForView(isPriorityView = false) {
+        if (isPriorityView || state.view === "priority") {
+            return state.prioritySequence;
+        }
+        if (state.view === "toplists") {
+            return findFamily(state.familyId).sequence;
+        }
+        return undefined;
+    }
     function catalogOrTopItems() {
         return catalogItems.length > 0
             ? catalogItems
@@ -915,7 +931,7 @@ registerServiceWorker();
     }
     // In gewone (niet-zoekende) weergave: badges voor de overige lijsten waar het
     // item ook in staat. In zoekweergave: badges voor alle lijsten, met positie.
-    function buildBadges(item, isSearchMode) {
+    function buildBadges(item, isSearchMode, activeSequence) {
         const wrap = document.createElement("div");
         wrap.className = "badges";
         let hasBadges = false;
@@ -926,6 +942,13 @@ registerServiceWorker();
             span.textContent = `Prioriteit: ${priority.tier} · ${priority.score}`;
             wrap.appendChild(span);
             hasBadges = true;
+            const sequenceScore = priority.sequenceScores[activeSequence ?? "lees"];
+            if (activeSequence && sequenceScore) {
+                const sequenceSpan = document.createElement("span");
+                sequenceSpan.className = `badge sequence-priority-badge priority-${sequenceScore.tier}`;
+                sequenceSpan.textContent = `Reeks: ${prioritySequenceLabel(activeSequence)} · ${sequenceScore.tier} · ${sequenceScore.score}`;
+                wrap.appendChild(sequenceSpan);
+            }
         }
         if (isSearchMode) {
             const entry = GLOBAL_INDEX.get(item.id);
@@ -1034,7 +1057,7 @@ registerServiceWorker();
         }
         return tier;
     }
-    function buildPriorityDetails(item) {
+    function buildPriorityDetails(item, activeSequence) {
         const priority = priorityFor(item);
         if (!priority) {
             return null;
@@ -1052,9 +1075,19 @@ registerServiceWorker();
         total.className = "priority-total";
         const correction = priority.adjustment > 0 ? `+${priority.adjustment}` : String(priority.adjustment ?? 0);
         total.textContent = priority.adjustment
-            ? `Basisscore vóór persoonlijke correctie: ${priority.baseScore}. Correctie: ${correction}${priority.adjustmentReason ? ` (${priority.adjustmentReason})` : ""}. Eindscore: ${priority.score}.`
-            : `Basisscore: ${priority.baseScore}. Geen persoonlijke correctie. Eindscore: ${priority.score}.`;
+            ? `Algemene score: ${priority.score}. Basisscore vóór persoonlijke correctie: ${priority.baseScore}. Correctie: ${correction}${priority.adjustmentReason ? ` (${priority.adjustmentReason})` : ""}.`
+            : `Algemene score: ${priority.score}. Basisscore: ${priority.baseScore}. Geen persoonlijke correctie.`;
         details.appendChild(total);
+        const activeScore = activeSequence ? priority.sequenceScores[activeSequence] : undefined;
+        if (activeSequence && activeScore) {
+            const sequenceTotal = document.createElement("p");
+            sequenceTotal.className = "priority-sequence-total";
+            const topicNote = activeScore.mode === "topic" && activeScore.topicRelevance !== undefined
+                ? ` Topicrelevantie: ${activeScore.topicRelevance}/4 (${activeScore.relevanceSource === "label" ? "semantisch beoordeeld" : "automatische fallback"}).`
+                : "";
+            sequenceTotal.textContent = `Reeksscore ${prioritySequenceLabel(activeSequence)}: ${activeScore.score} · ${priorityTierLabel(activeScore.tier)}.${topicNote}`;
+            details.appendChild(sequenceTotal);
+        }
         const componentsHeading = document.createElement("h4");
         componentsHeading.className = "priority-section-title";
         componentsHeading.textContent = "Waar komt de score vandaan?";
@@ -1197,7 +1230,8 @@ registerServiceWorker();
         meta.className = "item-meta";
         meta.textContent = metaLine(item);
         body.appendChild(meta);
-        const priorityDetails = buildPriorityDetails(item);
+        const activeSequence = activeSequenceForView(isPriorityView);
+        const priorityDetails = buildPriorityDetails(item, activeSequence);
         if (priorityDetails) {
             body.appendChild(priorityDetails);
         }
@@ -1232,7 +1266,7 @@ registerServiceWorker();
         if (tagBadges) {
             body.appendChild(tagBadges);
         }
-        const badges = buildBadges(item, isSearchMode);
+        const badges = buildBadges(item, isSearchMode, activeSequence);
         if (badges) {
             body.appendChild(badges);
         }
@@ -1260,9 +1294,10 @@ registerServiceWorker();
         return haystack.includes(query);
     }
     function compareEntries(sortKey) {
+        const activeSequence = activeSequenceForView();
         switch (sortKey) {
             case "score":
-                return (a, b) => (priorityFor(a.item)?.score ?? Number.NEGATIVE_INFINITY) - (priorityFor(b.item)?.score ?? Number.NEGATIVE_INFINITY) ||
+                return (a, b) => (prioritySequenceScore(a.item, activeSequence) ?? Number.NEGATIVE_INFINITY) - (prioritySequenceScore(b.item, activeSequence) ?? Number.NEGATIVE_INFINITY) ||
                     timeValue(b.item.savedDate) - timeValue(a.item.savedDate) ||
                     (b.item.id ?? "").localeCompare(a.item.id ?? "");
             case "saved":

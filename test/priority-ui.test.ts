@@ -66,14 +66,14 @@ test("browsercontracten accepteren de gegenereerde social-studies familie en ree
 
   const articles = parseTopArticles({
     generatedAt: "2026-09-09T00:00:00.000Z",
-    families: [{ id: "social-studies", label: "Sociale studies & samenwerking", lists: { "top-10": list, "top-100": list } }],
+    families: [{ id: "social-studies", label: "Sociale studies & samenwerking", sequence: "social-studies", lists: { "top-10": list, "top-100": list } }],
     catalog: { items: [item] },
     derivedLists: {},
   });
   const coreInterestOrder = ["agile", "adhd", "filosofie", "ai_ethiek", "ideologie", "geschiedenis", "sociologie", "schrijven", "speculatieve_fictie", "cultuur_games_film", "pkm", "zorgouderschap"];
   const priority = parseTopArticlePriority({
     generatedAt: "2026-09-09T00:00:00.000Z",
-    model: "readwise-priority-v7",
+    model: "readwise-priority-v8",
     scope: "later",
     coreInterestPriority: {
       version: 1,
@@ -108,7 +108,26 @@ test("browsercontracten accepteren de gegenereerde social-studies familie en ree
           evidence: [{ kind: "readwise-tag", source: "agile", label: "Agile" }],
         }],
         sequences: ["social-studies"],
-        sequenceScores: { "social-studies": 70 },
+        sequenceScores: {
+          "social-studies": {
+            score: 70,
+            tier: "hoog",
+            mode: "topic",
+            topicRelevance: 4,
+            relevanceSource: "label",
+            relevanceConfidence: "high",
+            components: {
+              kerninteresse: 20,
+              topic_relevantie: 4,
+              substantie: 0,
+              duurzaamheid: 0,
+              bruikbaarheid: 0,
+              leeskans: 0,
+              nederlandse_taal: 0,
+              aftrek: 0,
+            },
+          },
+        },
         positions: { "social-studies": 1 },
         actualPositions: { "social-studies": 1 },
       },
@@ -119,7 +138,7 @@ test("browsercontracten accepteren de gegenereerde social-studies familie en ree
   assert.deepEqual(priority?.items[item.id]?.sequences, ["social-studies"]);
 });
 
-test("browserprioriteit dwingt het huidige v7-model voor Reader later af", () => {
+test("browserprioriteit dwingt het huidige v8-model voor Reader later af", () => {
   const base = {
     generatedAt: "2026-09-09T00:00:00.000Z",
     items: {},
@@ -128,7 +147,9 @@ test("browserprioriteit dwingt het huidige v7-model voor Reader later af", () =>
   assert.equal(parseTopArticlePriority({ ...base, model: "readwise-priority-v6", scope: "later" }), null);
   assert.equal(parseTopArticlePriority({ ...base, model: "readwise-priority-v5", scope: "later" }), null);
   assert.equal(parseTopArticlePriority({ ...base, model: "readwise-priority-v4", scope: "later" }), null);
-  assert.equal(parseTopArticlePriority({ ...base, model: "readwise-priority-v7", scope: "archive" }), null);
+  assert.equal(parseTopArticlePriority({ ...base, model: "readwise-priority-v7", scope: "later" }), null);
+  assert.equal(parseTopArticlePriority({ ...base, model: "readwise-priority-v8", scope: "archive" }), null);
+  assert.equal(parseTopArticlePriority({ ...base, model: "readwise-priority-v8", scope: "later" }), null);
 });
 
 test("de scoreweergave gebruikt geen 100-puntenplafond", async () => {
@@ -136,6 +157,16 @@ test("de scoreweergave gebruikt geen 100-puntenplafond", async () => {
 
   assert.match(source, /Prioriteitsscore \$\{priority\.score\}/);
   assert.doesNotMatch(source, /Prioriteitsscore \$\{priority\.score\}\/100/);
+});
+
+test("de browser toont zowel de globale als de actieve reeks-score", async () => {
+  const source = await readFile(new URL("../src/app.js", import.meta.url), "utf8");
+
+  assert.match(source, /Algemene score/);
+  assert.match(source, /Reeksscore/);
+  assert.match(source, /sequenceScores/);
+  assert.match(source, /topicRelevance/);
+  assert.match(source, /activeSequence/);
 });
 
 test("de browsercode gebruikt alleen Prioriteitsscore", async () => {

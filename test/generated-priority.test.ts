@@ -3,8 +3,8 @@ import { readFile } from "node:fs/promises";
 import test from "node:test";
 import vm from "node:vm";
 
-import { validatePriorityExport } from "../scripts/lib/readwise-priority-v7.js";
-import type { PrioritySequence } from "../scripts/lib/readwise-priority-v7.js";
+import { validatePriorityExport } from "../scripts/lib/readwise-priority-v8.js";
+import type { PrioritySequence } from "../scripts/lib/readwise-priority-v8.js";
 import {
   isGeneratedPriority,
   isGeneratedTopArticles,
@@ -43,7 +43,7 @@ test("gegenereerde priority-export is geldig en sluit aan op dezelfde actieve ca
     "priority-export bevat een document buiten de actieve catalogus"
   );
   assert.equal(validatePriorityExport(priority), true);
-  assert.equal(priority.model, "readwise-priority-v7");
+  assert.equal(priority.model, "readwise-priority-v8");
   assert.equal(priority.coreInterestPriority.order.slice(0, 3).join(","), "agile,adhd,filosofie");
   assert.ok(Object.values(priority.items).every((item) => Array.isArray(item.coreInterestMatches)));
   assert.ok(
@@ -61,8 +61,8 @@ test("gegenereerde priority-export is geldig en sluit aan op dezelfde actieve ca
       const currentPriority = priority.items[current.id];
       assert.ok(previousPriority);
       assert.ok(currentPriority);
-      const previousScore = sequence ? previousPriority.sequenceScores?.[sequence] ?? previousPriority.score : previousPriority.score;
-      const currentScore = sequence ? currentPriority.sequenceScores?.[sequence] ?? currentPriority.score : currentPriority.score;
+      const previousScore = sequence ? previousPriority.sequenceScores?.[sequence]?.score ?? previousPriority.score : previousPriority.score;
+      const currentScore = sequence ? currentPriority.sequenceScores?.[sequence]?.score ?? currentPriority.score : currentPriority.score;
       assert.ok(previousScore >= currentScore, `${label} is niet op score gesorteerd`);
       if (previousScore === currentScore) {
         assert.ok(previous.savedDate, "artikel zonder savedDate in de gegenereerde data");

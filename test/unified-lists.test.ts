@@ -38,6 +38,29 @@ test("leidt familie-toplijsten af van dezelfde scorevolgorde", () => {
   assert.deepEqual(lists.families.algemeen["top-100"].map(({ id }) => id), ["high", "middle", "low"]);
 });
 
+test("rangschikt een topicfamilie op de objectvormige reeks-score", () => {
+  const lists = buildUnifiedLists([
+    item("globaal-hoger", 90, {
+      priority: {
+        score: 90,
+        sequences: ["scrum"],
+        sequenceScores: { scrum: { score: 20 } },
+        positions: { scrum: 1 },
+      },
+    }),
+    item("topic-hoger", 70, {
+      priority: {
+        score: 70,
+        sequences: ["scrum"],
+        sequenceScores: { scrum: { score: 80 } },
+        positions: { scrum: 2 },
+      },
+    }),
+  ], "2026-08-16T10:00:00.000Z");
+
+  assert.deepEqual(lists.families.scrum["top-10"].map(({ id, score }) => [id, score]), [["topic-hoger", 80], ["globaal-hoger", 20]]);
+});
+
 test("bouwt Consensus, Nieuw en Tijdloos als filters zonder eigen score", () => {
   const catalog = [
     item("consensus", 60, { priority: { score: 60, sequences: ["lees", "short"], positions: { lees: 2, short: 1 } } }),
