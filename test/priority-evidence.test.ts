@@ -7,7 +7,9 @@ import {
   evidenceFingerprint,
   automatedFallbackJudgment,
   judgmentFor,
+  topicRelevanceFor,
   validatePriorityJudgments,
+  type ContentJudgment,
   type PriorityDocumentEvidence,
 } from "../scripts/lib/priority-judgments.js";
 import type { PriorityDocument } from "../scripts/lib/readwise-priority-v2.js";
@@ -95,6 +97,24 @@ test("judgment config accepts accepted, draft, and rejected v2 records with meta
   assert.equal(validatePriorityJudgments({ ...value, items: { "doc-1": { ...accepted(evidence.sourceFingerprint), highlights: ["raw text"] } } }), false);
 });
 
+test("judgment config validates optional per-topic relevance ratings", () => {
+  const evidence: PriorityDocumentEvidence = buildPriorityEvidence(document());
+  const value = {
+    version: 2,
+    rubricVersion: "semantic-v1",
+    items: {
+      "doc-1": {
+        ...accepted(evidence.sourceFingerprint),
+        topicRelevance: { scrum: 4, "software-development": 2, adhd: 0 },
+      },
+    },
+  };
+  assert.equal(validatePriorityJudgments(value), true);
+  assert.equal(validatePriorityJudgments({ ...value, items: { "doc-1": { ...value.items["doc-1"], topicRelevance: { scrum: 5 } } } }), false);
+  assert.equal(validatePriorityJudgments({ ...value, items: { "doc-1": { ...value.items["doc-1"], topicRelevance: { lees: 4 } } } }), false);
+  assert.equal(validatePriorityJudgments({ ...value, items: { "doc-1": { ...value.items["doc-1"], topicRelevance: [4] } } }), false);
+});
+
 test("runtime uses only accepted current judgments and marks automated fallbacks", () => {
   const fallback = automatedFallbackJudgment(document(), "2026-09-20T00:00:00.000Z");
   assert.equal(fallback.status, "accepted");
@@ -108,4 +128,17 @@ test("runtime uses only accepted current judgments and marks automated fallbacks
 
   const rejected = { ...fallback, status: "rejected" as const };
   assert.equal(judgmentFor(document(), { version: 2, rubricVersion: "semantic-v1", items: { "doc-1": rejected } }).source, "fallback");
+});
+
+test("topic relevance prefers an explicit semantic label and otherwise uses taxonomy fallback", () => {
+  const labeled: ContentJudgment = {
+    ...automatedFallbackJudgment(document()),
+    topicRelevance: { scrum: 2 },
+    judgedBy: "codex",
+  };
+  const semantic = topicRelevanceFor(document({ tags: { facilitation: {} } }), "scrum", labeled);
+  assert.deepEqual(semantic, { relevance: 2, source: "label", confidence: "low", evidence: [] });
+
+  const fallback = topicRelevanceFor(document({ tags: { facilitation: {} } }), "scrum");
+  assert.deepEqual(fallback, { relevance: 4, source: "fallback", confidence: "low", evidence: ["facilitation"] });
 });

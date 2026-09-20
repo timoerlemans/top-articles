@@ -2,8 +2,9 @@ import { createHash } from "node:crypto";
 
 import type { PriorityDocument } from "./readwise-priority-v2.js";
 import { matchedDomainsFromTags } from "./readwise-priority-v2.js";
-import { SEQUENCE_ORDER } from "./priority-sequences.js";
-import type { PrioritySequence } from "./priority-sequences.js";
+import { SEQUENCE_ORDER, TOPIC_SEQUENCE_ORDER } from "./priority-sequences.js";
+import type { PrioritySequence, TopicSequence } from "./priority-sequences.js";
+import { fallbackTopicRelevanceFor } from "./priority-topic-taxonomy.js";
 
 export type ContentRating = 0 | 1 | 2 | 3 | 4;
 export type JudgmentConfidence = "high" | "medium" | "low";
@@ -49,6 +50,7 @@ export interface ContentJudgment {
   durability: ContentRating;
   usefulness: ContentRating;
   sequenceFit: Partial<Record<PrioritySequence, SequenceFit>>;
+  topicRelevance?: Partial<Record<TopicSequence, ContentRating>>;
   confidence: JudgmentConfidence;
   reasonCodes: string[];
   status?: JudgmentStatus;
@@ -285,8 +287,12 @@ export function fallbackJudgment(doc: PriorityDocument): ContentJudgment {
 export function automatedFallbackJudgment(doc: PriorityDocument, judgedAt = new Date().toISOString()): ContentJudgment {
   const evidence = buildPriorityEvidence(doc, []);
   const fallback = fallbackJudgment(doc);
+  const topicRelevance = Object.fromEntries(
+    TOPIC_SEQUENCE_ORDER.map((topic) => [topic, fallbackTopicRelevanceFor(doc, topic).relevance]),
+  ) as Partial<Record<TopicSequence, ContentRating>>;
   return {
     ...fallback,
+    topicRelevance,
     evidenceFingerprint: evidence.evidenceFingerprint,
     reasonCodes: [...new Set([...fallback.reasonCodes, "automated-fallback"])],
     status: "accepted",
@@ -305,11 +311,17 @@ function isFit(value: unknown): value is SequenceFit {
   return Number.isInteger(value) && typeof value === "number" && value >= -2 && value <= 2;
 }
 
+function isTopicRelevance(value: unknown): value is Partial<Record<TopicSequence, ContentRating>> {
+  if (!isRecord(value)) {return false;}
+  return Object.entries(value).every(([topic, relevance]) => TOPIC_SEQUENCE_ORDER.includes(topic as TopicSequence) && isRating(relevance));
+}
+
 export function validateContentJudgment(value: unknown): value is ContentJudgment {
   if (!isRecord(value) || typeof value.sourceFingerprint !== "string" || !/^[a-f0-9]{64}$/.test(value.sourceFingerprint)) {return false;}
   if (!["high", "medium", "low"].includes(String(value.confidence))) {return false;}
   if (!["relevance", "substance", "durability", "usefulness"].every((key) => isRating(value[key]))) {return false;}
   if (!isRecord(value.sequenceFit) || !Object.values(value.sequenceFit).every(isFit)) {return false;}
+  if (value.topicRelevance !== undefined && !isTopicRelevance(value.topicRelevance)) {return false;}
   if (!Array.isArray(value.reasonCodes) || !value.reasonCodes.every((code) => typeof code === "string" && code.length > 0)) {return false;}
   if (Object.hasOwn(value, "highlights")) {return false;}
   if (value.status !== undefined && value.status !== "accepted" && value.status !== "draft" && value.status !== "rejected") {return false;}
@@ -328,6 +340,30 @@ export function validatePriorityJudgments(value: unknown): value is PriorityJudg
       typeof judgment.judgedAt !== "string" || judgment.judgedAt.trim().length === 0;
   })) {return false;}
   return Object.entries(value.items).every(([id, judgment]) => id.length > 0 && validateContentJudgment(judgment));
+}
+
+export interface TopicRelevanceResolution {
+  relevance: ContentRating;
+  source: "label" | "fallback";
+  confidence: JudgmentConfidence;
+  evidence: string[];
+}
+
+export function topicRelevanceFor(
+  doc: PriorityDocument,
+  topic: TopicSequence,
+  judgment?: ContentJudgment,
+): TopicRelevanceResolution {
+  const labeledRelevance = judgment?.topicRelevance?.[topic];
+  if (judgment && labeledRelevance !== undefined) {
+    return {
+      relevance: labeledRelevance,
+      source: judgment.judgedBy === AUTOMATED_FALLBACK_JUDGER ? "fallback" : "label",
+      confidence: judgment.confidence,
+      evidence: [],
+    };
+  }
+  return fallbackTopicRelevanceFor(doc, topic);
 }
 
 export function judgmentFor(
