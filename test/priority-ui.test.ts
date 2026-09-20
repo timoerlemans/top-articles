@@ -196,3 +196,9 @@ test("de browsercode beheert mobiel menu en desktopsortering vanuit dezelfde sta
   assert.match(source, /sortDirectionEl\.addEventListener\("click"/);
   assert.match(source, /closeMobileMenu\(\);[\s\S]*stateToHash\(\);[\s\S]*render\(\);/);
 });
+
+test("toplijsten tonen standaard de berekende lijstpositie", async () => {
+  const source = await readFile(new URL("../src/app.js", import.meta.url), "utf8");
+
+  assert.match(source, /sort: "position",\s*sortDir: DEFAULT_SORT_DIR\.position/);
+});

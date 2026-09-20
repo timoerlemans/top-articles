@@ -175,16 +175,25 @@ test("een ADHD-document krijgt de ADHD-reeks maar een ADHD-boek blijft alleen in
   );
 });
 
-test("elke team-tag krijgt de Agile-reeks zonder de Social-studies-reeks te verliezen", () => {
+test("alleen directe Agile- en Scrum-master-signalen krijgen de Agile-reeks", () => {
   assert.deepEqual(
     sequencesForDocument(document({ tags: { "team coaching": {} } })),
     ["lees", "scrum", "social-studies"],
   );
-  assert.deepEqual(
-    sequencesForDocument(document({ tags: { "team dynamics & collaboration": {} } })),
-    ["lees", "scrum", "social-studies"],
-  );
-  assert.ok(!sequencesForDocument(document({ tags: { teammate: {} } })).includes("scrum"));
+  for (const tag of ["facilitation", "flow & delivery", "psm-ii"]) {
+    assert.ok(sequencesForDocument(document({ tags: { [tag]: {} } })).includes("scrum"), `scrum ontbreekt voor ${tag}`);
+  }
+  for (const tag of [
+    "team dynamics & collaboration",
+    "organizational behavior & culture",
+    "social psychology & interpersonal dynamics",
+    "professional development",
+    "software development",
+    "product management",
+    "teammate",
+  ]) {
+    assert.ok(!sequencesForDocument(document({ tags: { [tag]: {} } })).includes("scrum"), `scrum is te breed voor ${tag}`);
+  }
 });
 
 test("een boek met de tag scrum hoort nog steeds strikt alleen in boek", () => {

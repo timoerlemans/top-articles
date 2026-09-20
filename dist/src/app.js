@@ -145,8 +145,9 @@ registerServiceWorker();
         discoverListId: "consensus",
         prioritySequence: "lees",
         query: "",
-        sort: "score",
-        sortDir: DEFAULT_SORT_DIR.score,
+        // Familietop- en ontdeklijsten zijn vooraf per lijst gerangschikt.
+        sort: "position",
+        sortDir: DEFAULT_SORT_DIR.position,
         language: "",
         category: "",
         mood: "",

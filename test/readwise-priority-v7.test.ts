@@ -130,6 +130,10 @@ test("scrum ranking gives scrum-master signals more weight than broad team signa
   assert.ok(organizationalBehavior);
   assert.equal(agile.score, teamDynamics.score);
   assert.equal(coaching.score, organizationalBehavior.score);
+  assert.ok(agile.sequences.includes("scrum"));
+  assert.ok(coaching.sequences.includes("scrum"));
+  assert.ok(!teamDynamics.sequences.includes("scrum"));
+  assert.ok(!organizationalBehavior.sequences.includes("scrum"));
   assert.ok((agile.sequenceScores.scrum ?? 0) > (teamDynamics.sequenceScores.scrum ?? 0));
   assert.ok((coaching.sequenceScores.scrum ?? 0) > (organizationalBehavior.sequenceScores.scrum ?? 0));
   assert.equal(agile.sequenceScores.lees, teamDynamics.sequenceScores.lees);
