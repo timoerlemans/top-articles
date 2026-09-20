@@ -6,7 +6,7 @@ import {
   formatCoreInterestImpactMarkdown,
 } from "../scripts/lib/core-interest-report.js";
 import { buildPriorityExport as buildPriorityExportV6 } from "../scripts/lib/readwise-priority-v6.js";
-import { buildPriorityExport as buildPriorityExportV7 } from "../scripts/lib/readwise-priority-v7.js";
+import { buildPriorityExport as buildPriorityExportV8 } from "../scripts/lib/readwise-priority-v8.js";
 import { buildPriorityEvidence, type ContentJudgment, type PriorityJudgmentsConfig } from "../scripts/lib/priority-judgments.js";
 import type { PriorityDocument } from "../scripts/lib/readwise-priority-v2.js";
 
@@ -59,7 +59,7 @@ test("impactrapport toont rangorde, gestapelde scoreverschillen en top-100-beweg
   ];
   const judgments = judgmentsFor(documents);
   const before = buildPriorityExportV6(documents, { generatedAt: "2026-09-19T00:00:00.000Z", judgments });
-  const after = buildPriorityExportV7(documents, { generatedAt: "2026-09-19T00:00:00.000Z", judgments });
+  const after = buildPriorityExportV8(documents, { generatedAt: "2026-09-19T00:00:00.000Z", judgments });
 
   const targetBefore = before.items.target;
   const steadyBefore = before.items.steady;
@@ -95,7 +95,7 @@ test("impactrapport maakt expliciet dat Readwise-posities geen interessebewijs z
   const documents = [document("one", "2026-01-01T00:00:00.000Z", { "lees-0001": {}, agile: {} })];
   const judgments = judgmentsFor(documents);
   const before = buildPriorityExportV6(documents, { generatedAt: "2026-09-19T00:00:00.000Z", judgments });
-  const after = buildPriorityExportV7(documents, { generatedAt: "2026-09-19T00:00:00.000Z", judgments });
+  const after = buildPriorityExportV8(documents, { generatedAt: "2026-09-19T00:00:00.000Z", judgments });
   const markdown = formatCoreInterestImpactMarkdown(buildCoreInterestImpactReport(documents, before, after, "2026-09-19T00:00:00.000Z"));
 
   assert.match(markdown, /Readwise-posities zijn alleen vergelijkingsuitkomst/);

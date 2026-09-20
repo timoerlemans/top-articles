@@ -57,7 +57,7 @@ test("changes the source fingerprint when an archive decision input changes", ()
   assert.notEqual(first.planHash, changed.planHash);
 });
 
-test("archiveplan gebruikt v7 en bewaakt de kerninteresseconfiguratie", () => {
+test("archiveplan gebruikt v8 en bewaakt de kerninteresseconfiguratie", () => {
   const config: CoreInterestPriorityConfig = {
     version: 1,
     manualOrder: ["agile", "adhd", "filosofie"],
@@ -71,7 +71,7 @@ test("archiveplan gebruikt v7 en bewaakt de kerninteresseconfiguratie", () => {
   const first = buildArchivePlan(source, { version: 1, items: {} }, { coreInterestConfig: config });
   const changed = buildArchivePlan(source, { version: 1, items: {} }, { coreInterestConfig: changedConfig });
 
-  assert.equal(first.priorityModel, "readwise-priority-v7");
+  assert.equal(first.priorityModel, "readwise-priority-v8");
   assert.notEqual(first.sourceFingerprint, changed.sourceFingerprint);
 });
 

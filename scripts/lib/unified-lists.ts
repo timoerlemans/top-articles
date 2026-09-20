@@ -30,7 +30,7 @@ export type FamilyId = (typeof FAMILY_DEFINITIONS)[number]["id"];
 export interface UnifiedPriority {
   score: number;
   sequences: readonly PrioritySequence[];
-  sequenceScores?: Partial<Record<PrioritySequence, number>>;
+  sequenceScores?: Partial<Record<PrioritySequence, number | { score: number }>>;
   positions: PriorityPositions;
 }
 
@@ -63,9 +63,14 @@ export interface UnifiedLists<T extends UnifiedCatalogEntry = UnifiedCatalogEntr
 
 const DAY_MS = 86_400_000;
 
+function sequenceScoreFor(priority: UnifiedPriority, sequence: PrioritySequence): number {
+  const value = priority.sequenceScores?.[sequence];
+  return typeof value === "number" ? value : value?.score ?? priority.score;
+}
+
 function rank<T extends UnifiedCatalogEntry>(entries: readonly T[], sequence?: PrioritySequence): T[] {
   return [...entries].sort((a, b) =>
-    (sequence ? (b.priority.sequenceScores?.[sequence] ?? b.priority.score) - (a.priority.sequenceScores?.[sequence] ?? a.priority.score) : b.priority.score - a.priority.score) ||
+    (sequence ? sequenceScoreFor(b.priority, sequence) - sequenceScoreFor(a.priority, sequence) : b.priority.score - a.priority.score) ||
     Date.parse(a.savedDate ?? "") - Date.parse(b.savedDate ?? "") ||
     a.id.localeCompare(b.id)
   );
@@ -73,7 +78,7 @@ function rank<T extends UnifiedCatalogEntry>(entries: readonly T[], sequence?: P
 
 function withListPositions<T extends UnifiedCatalogEntry>(entries: readonly T[], sequence?: PrioritySequence): RankedUnifiedEntry<T>[] {
   return rank(entries, sequence).map((entry, index) => (
-    { ...entry, score: sequence ? (entry.priority.sequenceScores?.[sequence] ?? entry.priority.score) : entry.priority.score, position: index + 1 }
+    { ...entry, score: sequence ? sequenceScoreFor(entry.priority, sequence) : entry.priority.score, position: index + 1 }
   ));
 }
 

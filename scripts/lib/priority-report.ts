@@ -1,5 +1,5 @@
 import { buildPriorityEvidence, type PriorityJudgmentsConfig } from "./priority-judgments.js";
-import { buildPriorityExport, PRIORITY_MODEL, SEQUENCE_ORDER } from "./readwise-priority-v7.js";
+import { buildPriorityExport, PRIORITY_MODEL, SEQUENCE_ORDER } from "./readwise-priority-v8.js";
 import type { CoreInterestPriorityConfig } from "./core-interest-priority.js";
 import type { PriorityDocument } from "./readwise-priority-v2.js";
 import type { PrioritySequence } from "./priority-sequences.js";
@@ -74,7 +74,7 @@ export function buildPriorityComparisonReport(
       if ((currentPosition === null || currentPosition > 100) && judgedPosition !== null && judgedPosition <= 100) {sequences[sequence].entries += 1;}
       if (currentPosition !== null && currentPosition <= 100 && (judgedPosition === null || judgedPosition > 100)) {sequences[sequence].exits += 1;}
       if (judgedPosition !== null && judgedPosition <= 100 && evidence.curationSignals.length > 0) {curationConflicts += 1;}
-      items.push({ id: doc.id, title: doc.title ?? "(zonder titel)", sequence, currentPosition, judgedPosition, score: item.sequenceScores[sequence] ?? item.score, confidence: item.judgmentConfidence, curationSignals: evidence.curationSignals });
+      items.push({ id: doc.id, title: doc.title ?? "(zonder titel)", sequence, currentPosition, judgedPosition, score: item.sequenceScores[sequence]?.score ?? item.score, confidence: item.judgmentConfidence, curationSignals: evidence.curationSignals });
     }
   }
   for (const sequence of SEQUENCE_ORDER) {

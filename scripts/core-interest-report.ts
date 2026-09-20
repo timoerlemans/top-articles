@@ -19,7 +19,7 @@ import { validatePriorityJudgments } from "./lib/priority-judgments.js";
 import type { PriorityJudgmentsConfig } from "./lib/priority-judgments.js";
 import { buildPriorityExport as buildPriorityExportV6 } from "./lib/readwise-priority-v6.js";
 import type { PriorityOverridesConfig } from "./lib/readwise-priority-v6.js";
-import { buildPriorityExport as buildPriorityExportV7 } from "./lib/readwise-priority-v7.js";
+import { buildPriorityExport as buildPriorityExportV8 } from "./lib/readwise-priority-v8.js";
 
 const execFileAsync = promisify(execFile);
 const ROOT = resolve(dirname(fileURLToPath(import.meta.url)), "../..");
@@ -81,7 +81,7 @@ async function main(): Promise<void> {
     loadCoreInterestConfig(),
   ]);
   const before = buildPriorityExportV6(documents, { generatedAt, overrides, judgments });
-  const after = buildPriorityExportV7(documents, { generatedAt, overrides, judgments, coreInterestConfig });
+  const after = buildPriorityExportV8(documents, { generatedAt, overrides, judgments, coreInterestConfig });
   const report = buildCoreInterestImpactReport(documents, before, after, generatedAt);
   const jsonPath = await writeOutput(DEFAULT_JSON, `${JSON.stringify(report, null, 2)}\n`);
   const markdownPath = await writeOutput(DEFAULT_MARKDOWN, formatCoreInterestImpactMarkdown(report));

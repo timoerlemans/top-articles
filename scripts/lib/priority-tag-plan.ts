@@ -1,11 +1,11 @@
 import { createHash } from "node:crypto";
 
-import { buildPriorityExport, PRIORITY_MODEL, SEQUENCE_ORDER } from "./readwise-priority-v7.js";
+import { buildPriorityExport, PRIORITY_MODEL, SEQUENCE_ORDER } from "./readwise-priority-v8.js";
 import type {
   PriorityExportItem,
   PriorityExportOptions,
   PrioritySequence,
-} from "./readwise-priority-v7.js";
+} from "./readwise-priority-v8.js";
 import {
   coreInterestFingerprintInput,
   defaultCoreInterestPriorityConfig,

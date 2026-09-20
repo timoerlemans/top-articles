@@ -51,7 +51,7 @@ const coreInterestPrioritySchema = z.object({
 });
 const prioritySchema = z.object({
   generatedAt: z.string(),
-  model: z.literal("readwise-priority-v7"),
+  model: z.literal("readwise-priority-v8"),
   scope: z.literal("later"),
   coreInterestPriority: coreInterestPrioritySchema,
   items: z.record(z.string(), z.object({

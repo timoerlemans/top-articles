@@ -8,12 +8,12 @@ import type {
 import {
   PRIORITY_MODEL,
   SEQUENCE_ORDER,
-} from "./readwise-priority-v7.js";
+} from "./readwise-priority-v8.js";
 import type {
-  PriorityExport as PriorityExportV7,
-  PriorityExportItem as PriorityExportItemV7,
+  PriorityExport as PriorityExportV8,
+  PriorityExportItem as PriorityExportItemV8,
   PrioritySequence,
-} from "./readwise-priority-v7.js";
+} from "./readwise-priority-v8.js";
 import type { CoreInterestPriorityEntry } from "./core-interest-priority.js";
 
 export interface CoreInterestScoreDelta {
@@ -41,7 +41,7 @@ export interface CoreInterestSequenceImpact {
 export interface CoreInterestImpactReport {
   generatedAt: string;
   beforeModel: PriorityExportV6["model"];
-  afterModel: typeof PRIORITY_MODEL;
+  afterModel: PriorityExportV8["model"];
   interestEvidenceRule: string;
   interests: CoreInterestPriorityEntry[];
   scoreDeltas: CoreInterestScoreDelta[];
@@ -60,26 +60,26 @@ function scoreDeltaOrder(a: CoreInterestScoreDelta, b: CoreInterestScoreDelta): 
   return Math.abs(b.scoreDelta) - Math.abs(a.scoreDelta) || b.scoreDelta - a.scoreDelta || a.id.localeCompare(b.id);
 }
 
-function positionFor(item: PriorityExportItemV6 | PriorityExportItemV7, sequence: PrioritySequence): number | null {
+function positionFor(item: PriorityExportItemV6 | PriorityExportItemV8, sequence: PrioritySequence): number | null {
   return item.positions[sequence] ?? null;
 }
 
-function readwisePositionFor(item: PriorityExportItemV7 | PriorityExportItemV6, sequence: PrioritySequence): number | null {
+function readwisePositionFor(item: PriorityExportItemV8 | PriorityExportItemV6, sequence: PrioritySequence): number | null {
   return item.actualPositions[sequence] ?? null;
 }
 
-function coreInterestsFor(item: PriorityExportItemV7): DirectDomain[] {
+function coreInterestsFor(item: PriorityExportItemV8): DirectDomain[] {
   return item.coreInterestMatches.map(({ interest }) => interest);
 }
 
 export function buildCoreInterestImpactReport(
   documents: readonly PriorityDocument[],
   before: PriorityExportV6,
-  after: PriorityExportV7,
+  after: PriorityExportV8,
   generatedAt = after.generatedAt,
 ): CoreInterestImpactReport {
   if (before.model !== "readwise-priority-v6" || after.model !== PRIORITY_MODEL) {
-    throw new Error("Impactrapport verwacht v6 als uitgangspunt en v7 als kandidaat");
+    throw new Error("Impactrapport verwacht v6 als uitgangspunt en v8 als kandidaat");
   }
   const titleById = new Map(documents.flatMap((doc) => doc.id ? [[doc.id, doc.title ?? "(zonder titel)"] as const] : []));
   const scoreDeltas: CoreInterestScoreDelta[] = [];
@@ -160,7 +160,7 @@ export function formatCoreInterestImpactMarkdown(report: CoreInterestImpactRepor
     "",
     "## Grootste scoreverschuivingen",
     "",
-    "| Artikel | v6 | v7 | Verschil | Kerninteressebonus |",
+    "| Artikel | v6 | v8 | Verschil | Kerninteressebonus |",
     "|---|---:|---:|---:|---:|",
     ...report.largestMovers.map((item) => `| ${item.title} | ${String(item.scoreBefore)} | ${String(item.scoreAfter)} | ${item.scoreDelta >= 0 ? "+" : ""}${String(item.scoreDelta)} | +${String(item.coreInterestBonus)} |`),
     "",

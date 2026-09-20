@@ -1,8 +1,8 @@
 import { createHash } from "node:crypto";
 
 import { FAMILY_DEFINITIONS } from "./unified-lists.js";
-import { buildPriorityExport, PRIORITY_MODEL } from "./readwise-priority-v7.js";
-import type { PriorityJudgmentsConfig, PriorityOverridesConfig } from "./readwise-priority-v7.js";
+import { buildPriorityExport, PRIORITY_MODEL } from "./readwise-priority-v8.js";
+import type { PriorityJudgmentsConfig, PriorityOverridesConfig } from "./readwise-priority-v8.js";
 import {
   coreInterestFingerprintInput,
   defaultCoreInterestPriorityConfig,
