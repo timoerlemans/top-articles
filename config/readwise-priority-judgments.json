@@ -31944,6 +31944,45 @@
       ],
       "judgedBy": "automated-fallback-v1",
       "judgedAt": "2026-09-20T07:40:53.560Z"
+    },
+    "01m2yqbzyzcaeyktxzs2d07g03": {
+      "sourceFingerprint": "f10f2ffb2b285527164d678794d5d1057a988f7d10e16faa4ea44615363b92b7",
+      "relevance": 3,
+      "substance": 3,
+      "durability": 3,
+      "usefulness": 4,
+      "sequenceFit": {
+        "video": 0,
+        "boek": 0,
+        "pdf": 0,
+        "lees": 0,
+        "dutch": 0,
+        "short": 1,
+        "short-dutch": 1,
+        "luchtig": 1,
+        "luchtig-nederlands": 1,
+        "scrum": 0,
+        "software-development": 0,
+        "front-end-development": 0,
+        "social-studies": 2,
+        "adhd": 0
+      },
+      "confidence": "low",
+      "reasonCodes": [
+        "fallback-no-label",
+        "explicit-interest-tag",
+        "substance-signal",
+        "usefulness-signal",
+        "automated-fallback"
+      ],
+      "evidenceFingerprint": "6328c1d106775d8be2abbdb77dfbfae159f19c2ffa7cd95bdb190568ab241ad0",
+      "status": "accepted",
+      "rubricVersion": "semantic-v1",
+      "evidenceRefs": [
+        "metadata"
+      ],
+      "judgedBy": "automated-fallback-v1",
+      "judgedAt": "2026-09-20T07:58:51.163Z"
     }
   }
 }
