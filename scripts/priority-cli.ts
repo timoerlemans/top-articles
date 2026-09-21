@@ -10,9 +10,10 @@ import { z } from "zod";
 import { buildPriorityTagPlan, formatTop100Changes, formatTop10Changes, tagNames, validatePriorityTagPlan } from "./lib/priority-tag-plan.js";
 import type { PriorityTagPlan } from "./lib/priority-tag-plan.js";
 import { applyPriorityDocumentUpdates } from "./lib/priority-apply.js";
-import type { DocumentBatchResult, PriorityJournal } from "./lib/priority-apply.js";
+import type { DocumentBatchResult, PriorityJournal, PriorityOperation } from "./lib/priority-apply.js";
 import { buildDocumentTagUpdates, BULK_EDIT_BATCH_SIZE } from "./lib/priority-batch.js";
 import type { DocumentTagUpdate } from "./lib/priority-batch.js";
+import { reconcilePrioritySync } from "./lib/priority-reconcile.js";
 import { createReadwiseRequester } from "./lib/readwise-request.js";
 import { parseReadwiseDocumentPage } from "./lib/external-schemas.js";
 import type { ReadwiseDocument } from "./lib/external-schemas.js";
@@ -59,6 +60,20 @@ function renderProgressBar(current: number, total: number, width = 30): void {
   const bar = "#".repeat(filled) + "-".repeat(width - filled);
   const pct = Math.round((current / total) * 100);
   process.stdout.write(`\r[${bar}] ${current}/${total} (${pct}%)`);
+}
+
+function operationKey(operation: PriorityOperation): string {
+  return JSON.stringify([operation.action, operation.documentId, operation.tag]);
+}
+
+function journalForPendingOperations(journal: PriorityJournal, operations: readonly PriorityOperation[]): PriorityJournal {
+  const pending = new Set(operations.map(operationKey));
+  return {
+    ...journal,
+    completed: journal.completed.filter((operation) => !pending.has(operationKey(operation))),
+    failures: [...(journal.failures ?? [])],
+    ...(journal.bulkFailures ? { bulkFailures: [...journal.bulkFailures] } : {}),
+  };
 }
 
 async function fetchLocation(location: Location): Promise<ReadwiseDocument[]> {
@@ -192,33 +207,47 @@ async function applyCommand() {
   const journal: PriorityJournal = parsedJournal?.success && parsedJournal.data.planHash === plan.planHash
     ? parsedJournal.data
     : { planHash: plan.planHash, startedAt: new Date().toISOString(), completed: [], failures: [] };
-  const currentTags = new Map(documents.map((doc) => [doc.id, tagNames(doc)]));
-  const updates = buildDocumentTagUpdates(livePlan.operations, currentTags);
-  console.log(
-    `Uitvoeren: ${String(livePlan.operations.length)} tagoperaties op ${String(updates.length)} documenten ` +
-    `via ~${String(Math.ceil(updates.length / BULK_EDIT_BATCH_SIZE))} bulk-calls.`,
-  );
-  await applyPriorityDocumentUpdates({
-    updates,
-    journal,
-    executeBatch: bulkEditTags,
-    executeDocument: async (update) => {
-      if (update.remove.length > 0) {
-        await runReadwiseMutation(["reader-remove-tags-from-document", "--document-id", update.documentId, "--tag-names", update.remove.join(",")]);
-      }
-      if (update.add.length > 0) {
-        await runReadwiseMutation(["reader-add-tags-to-document", "--document-id", update.documentId, "--tag-names", update.add.join(",")]);
-      }
+  const initialOperations = livePlan.operations.length;
+  const finalSnapshot = await reconcilePrioritySync({
+    initial: { plan: livePlan, documents, operations: livePlan.operations },
+    apply: async (snapshot, attempt) => {
+      const currentTags = new Map(snapshot.documents.map((doc) => [doc.id, tagNames(doc)]));
+      const updates = buildDocumentTagUpdates(snapshot.operations, currentTags);
+      console.log(
+        `${attempt === 0 ? "Uitvoeren" : `Herstelronde ${String(attempt)}`}: ` +
+        `${String(snapshot.operations.length)} tagoperaties op ${String(updates.length)} documenten ` +
+        `via ~${String(Math.ceil(updates.length / BULK_EDIT_BATCH_SIZE))} bulk-calls.`,
+      );
+      const roundJournal = journalForPendingOperations(journal, snapshot.operations);
+      await applyPriorityDocumentUpdates({
+        updates,
+        journal: roundJournal,
+        executeBatch: bulkEditTags,
+        executeDocument: async (update) => {
+          if (update.remove.length > 0) {
+            await runReadwiseMutation(["reader-remove-tags-from-document", "--document-id", update.documentId, "--tag-names", update.remove.join(",")]);
+          }
+          if (update.add.length > 0) {
+            await runReadwiseMutation(["reader-add-tags-to-document", "--document-id", update.documentId, "--tag-names", update.add.join(",")]);
+          }
+        },
+        writeJournal: async (nextJournal) => {
+          await writeJson(journalPath, nextJournal);
+          renderProgressBar(nextJournal.completed.length, initialOperations);
+        },
+      });
+      Object.assign(journal, roundJournal);
+      process.stdout.write("\n");
     },
-    writeJournal: async (nextJournal) => {
-      await writeJson(journalPath, nextJournal);
-      renderProgressBar(nextJournal.completed.length, livePlan.operations.length);
+    verify: async () => {
+      const next = await createPlan(plan.generatedAt, { cleanupAll: plan.scope === "all-locations" });
+      if (next.plan.sourceFingerprint !== livePlan.sourceFingerprint) {
+        throw new Error("Readwise of de scorecorrecties zijn tijdens de synchronisatie gewijzigd; maak een nieuwe proefrun");
+      }
+      return { ...next, operations: next.plan.operations };
     },
   });
-  process.stdout.write("\n");
-
-  const { plan: verification } = await createPlan(plan.generatedAt, { cleanupAll: plan.scope === "all-locations" });
-  if (verification.operations.length !== 0) {throw new Error(`Live verificatie vond nog ${verification.operations.length} tagoperaties`);}
+  if (finalSnapshot.operations.length !== 0) {throw new Error(`Live verificatie vond nog ${finalSnapshot.operations.length} tagoperaties`);}
   journal.completedAt = new Date().toISOString();
   journal.verified = true;
   await writeJson(journalPath, journal);
