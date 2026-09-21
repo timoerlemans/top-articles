@@ -51,7 +51,7 @@ const LANGUAGE_TAGS = new Set([
 ]);
 
 const WORKFLOW_TAGS = new Set([
-  "linked-from-readwise", "must-read", "shortlist", "short-list", "light-reading",
+  "linked-from-readwise", "must-read", "shortlist", "short-list", "light-reading", "want-to-read",
   "triaged", "archiveren", "later", "translated",
 ]);
 

@@ -76,8 +76,10 @@ taaltags en curatietags als `must-read`/`shortlist` worden eruit gefilterd, zie
   toplijsttags zijn geen inhoudelijk bewijs; ontbrekende of verouderde judgments vallen terug op een
   expliciet als low-confidence gemarkeerde deterministische fallback.
 - Curation-tags (`must-read`, `shortlist`) en triage-aanbevelingen zijn alleen vergelijkingssignalen;
-  highlight-aantallen, gegenereerde provenance en huidige posities geven geen scorebonus. De
-  evidence-laag dedupliceert highlighttekst en houdt ruwe highlights buiten config en browserdata.
+  de handmatig beheerde tag `want-to-read` geeft wel een vaste bonus van 25 punten in de globale
+  en topicreeksscores. Highlight-aantallen, gegenereerde provenance en huidige posities geven geen
+  scorebonus. De evidence-laag dedupliceert highlighttekst en houdt ruwe highlights buiten config
+  en browserdata.
 - De v8-bestandslaag voegt toe: handmatige correcties uit
   `config/readwise-priority-overrides.json` (`{ version: 1, items: { "<doc-id>": { adjustment, reason } } }`,
   reden verplicht bij niet-nul adjustment), tier-indeling (hoog ≥70, midden ≥40, laag <40), en
@@ -141,8 +143,9 @@ relatie met de TS-compilatie.
 
 ## Data-integriteit
 
-- `config/readwise-priority-overrides.json` is de enige plek voor handmatige scorecorrecties —
-  wijzigingen hier gelden in alle lijsten tegelijk (algemene score, niet per familie).
+- `config/readwise-priority-overrides.json` is de enige plek voor expliciete numerieke
+  scorecorrecties — wijzigingen hier gelden in alle lijsten tegelijk (algemene score, niet per
+  familie). De handmatige `want-to-read`-tag voegt daar los een vaste bonus van 25 punten aan toe.
 - Nederlandse taalherkenning bepaalt de Dutch-reeksen en geeft Nederlandstalige documenten vijf
   scorepunten.
 - `data/data.js` en `data/score.js` worden zowel lokaal (`npm run build`) als dagelijks via

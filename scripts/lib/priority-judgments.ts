@@ -68,7 +68,8 @@ export interface PriorityJudgmentsConfig {
 
 const ORDER_TAG = /^(?:video|boek|pdf|lees|dutch|short|short-dutch|luchtig|luchtig-nederlands|scrum|software-development|front-end-development|social-studies|adhd)-\d{3,4}$/;
 const DERIVED_ORDER_TAG = /(?:^|-)top-(?:10|100)$/;
-const CURATION_TAGS = new Set(["must-read", "shortlist", "short-list", "light-reading"]);
+const LEGACY_CURATION_TAGS = new Set(["must-read", "shortlist", "short-list", "light-reading"]);
+const CURATION_TAGS = new Set([...LEGACY_CURATION_TAGS, "want-to-read"]);
 const USEFULNESS_MARKERS = [
   "werk", "work", "career", "professional", "ouderschap", "mantelzorg", "schrijven", "kennisbeheer",
   "pkm", "scrum", "agile", "team", "collaboration", "organizational", "software", "development",
@@ -114,6 +115,16 @@ export function contentTagsFor(doc: PriorityDocument): string[] {
     .sort((a, b) => a.localeCompare(b));
 }
 
+function legacyContentTagsFor(doc: PriorityDocument): string[] {
+  return tagNames(doc)
+    .filter((tag) => !isPositionTag(tag) && !LEGACY_CURATION_TAGS.has(tag))
+    .sort((a, b) => a.localeCompare(b));
+}
+
+export function hasTag(doc: PriorityDocument, tag: string): boolean {
+  return tagNames(doc).includes(normalize(tag));
+}
+
 function curationSignalsFor(doc: PriorityDocument): string[] {
   return tagNames(doc).filter((tag) => CURATION_TAGS.has(tag)).sort((a, b) => a.localeCompare(b));
 }
@@ -122,7 +133,7 @@ function positionTagsFor(doc: PriorityDocument): string[] {
   return tagNames(doc).filter(isPositionTag).sort((a, b) => a.localeCompare(b));
 }
 
-function canonicalInput(doc: PriorityDocument): Record<string, unknown> {
+function canonicalInput(doc: PriorityDocument, tags = contentTagsFor(doc)): Record<string, unknown> {
   return {
     id: doc.id ?? null,
     title: doc.title ?? null,
@@ -132,13 +143,17 @@ function canonicalInput(doc: PriorityDocument): Record<string, unknown> {
     reading_time: doc.reading_time ?? null,
     word_count: doc.word_count ?? null,
     category: doc.category ?? null,
-    tags: contentTagsFor(doc),
+    tags,
   };
 }
 
 /** Fingerprint deliberately excludes ordinal and derived top-list tags. */
 export function judgmentSourceFingerprint(doc: PriorityDocument): string {
   return createHash("sha256").update(JSON.stringify(canonicalInput(doc))).digest("hex");
+}
+
+function legacyJudgmentSourceFingerprint(doc: PriorityDocument): string {
+  return createHash("sha256").update(JSON.stringify(canonicalInput(doc, legacyContentTagsFor(doc)))).digest("hex");
 }
 
 function highlightRecord(value: unknown): PriorityHighlight | null {
@@ -374,7 +389,8 @@ export function judgmentFor(
     ? (judgments as PriorityJudgmentsConfig).items
     : judgments;
   const candidate = doc.id ? items[doc.id] : undefined;
-  if (candidate && validateContentJudgment(candidate) && candidate.status === "accepted" && candidate.sourceFingerprint === judgmentSourceFingerprint(doc)) {
+  if (candidate && validateContentJudgment(candidate) && candidate.status === "accepted" &&
+      [judgmentSourceFingerprint(doc), legacyJudgmentSourceFingerprint(doc)].includes(candidate.sourceFingerprint)) {
     return { judgment: candidate, source: candidate.judgedBy === AUTOMATED_FALLBACK_JUDGER ? "fallback" : "label" };
   }
   return { judgment: fallbackJudgment(doc), source: "fallback" };

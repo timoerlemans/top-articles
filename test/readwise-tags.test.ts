@@ -53,6 +53,7 @@ test("verwijdert workflow-, lijst- en positietags uit de inhoudstags", () => {
       "linked-from-readwise",
       "light-reading",
       "must-read",
+      "want-to-read",
       "pdf-top-100",
       "lees-0001",
       "aaa-top-10",

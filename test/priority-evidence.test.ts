@@ -50,9 +50,15 @@ function accepted(fingerprint: string): Record<string, unknown> {
 }
 
 test("priority evidence excludes ordinal, top-list, and curation tags from content context", () => {
-  const evidence = buildPriorityEvidence(document());
+  const evidence = buildPriorityEvidence(document({ tags: {
+    philosophy: {},
+    "lees-0001": {},
+    "aaa-top-100": {},
+    "must-read": {},
+    "want-to-read": {},
+  } }));
   assert.deepEqual(evidence.contentTags, ["philosophy"]);
-  assert.deepEqual(evidence.curationSignals, ["must-read"]);
+  assert.deepEqual(evidence.curationSignals, ["must-read", "want-to-read"]);
   assert.deepEqual(evidence.positionTagsExcluded, ["aaa-top-100", "lees-0001"]);
 });
 

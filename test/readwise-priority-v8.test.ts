@@ -161,6 +161,49 @@ test("topic score determines the topic ranking and respects Agile tag weighting"
   assert.equal(result.items.weak.positions.scrum, 2);
 });
 
+test("gives want-to-read an extra bonus in global and topic sequence scores", () => {
+  const withoutWantToRead = document({ id: "without-want-to-read" });
+  const wantToRead = document({
+    id: "want-to-read",
+    tags: { "lees-0001": {}, agile: {}, "want-to-read": {} },
+  });
+  const judgments = judgmentsFor([
+    [withoutWantToRead, labeledJudgment(withoutWantToRead, { topicRelevance: { scrum: 2 } })],
+    [wantToRead, labeledJudgment(wantToRead, { topicRelevance: { scrum: 2 } })],
+  ]);
+
+  const withoutScore = scorePriorityDocument(withoutWantToRead, {}, judgments, undefined, CORE_INTEREST_CONFIG);
+  const wantToReadScore = scorePriorityDocument(wantToRead, {}, judgments, undefined, CORE_INTEREST_CONFIG);
+  const result = buildPriorityExport([withoutWantToRead, wantToRead], {
+    generatedAt: "2026-09-20T00:00:00.000Z",
+    judgments,
+    coreInterestConfig: CORE_INTEREST_CONFIG,
+  });
+
+  assert.equal(wantToReadScore.score, withoutScore.score + 25);
+  assert.match(wantToReadScore.adjustmentReason ?? "", /want-to-read/i);
+  assert.equal(
+    result.items["want-to-read"]?.sequenceScores.lees?.score,
+    (result.items["without-want-to-read"]?.sequenceScores.lees?.score ?? 0) + 25,
+  );
+  assert.equal(
+    result.items["want-to-read"]?.sequenceScores.scrum?.score,
+    (result.items["without-want-to-read"]?.sequenceScores.scrum?.score ?? 0) + 25,
+  );
+});
+
+test("treats want-to-read as manual curation instead of content evidence", () => {
+  const withoutWantToRead = document();
+  const wantToRead = document({
+    tags: { "lees-0001": {}, agile: {}, "want-to-read": {} },
+  });
+
+  assert.equal(
+    buildPriorityEvidence(withoutWantToRead).sourceFingerprint,
+    buildPriorityEvidence(wantToRead).sourceFingerprint,
+  );
+});
+
 test("v8 validation rejects a tampered sequence score", () => {
   const doc = document();
   const judgments = judgmentsFor([[doc, labeledJudgment(doc, { topicRelevance: { scrum: 2 } })]]);

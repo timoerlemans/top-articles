@@ -20,7 +20,7 @@ import type {
 } from "./readwise-priority-v7.js";
 import type { PriorityTier } from "./readwise-priority-v2.js";
 import { comparePriorityItems } from "./readwise-priority-v3.js";
-import { judgmentFor, topicRelevanceFor } from "./priority-judgments.js";
+import { hasTag, judgmentFor, topicRelevanceFor } from "./priority-judgments.js";
 import { TOPIC_SEQUENCE_ORDER } from "./priority-sequences.js";
 import type { TopicSequence } from "./priority-sequences.js";
 
@@ -43,6 +43,7 @@ export type { TopicSequence } from "./priority-sequences.js";
 
 export const PRIORITY_MODEL = "readwise-priority-v8" as const;
 export const SEQUENCE_FIT_WEIGHT = 3;
+export const WANT_TO_READ_SCORE_BONUS = 25;
 
 export interface PriorityTopicComponents {
   kerninteresse: number;
@@ -102,6 +103,27 @@ function tierForScore(score: number): PriorityTier {
   if (score >= 70) {return "hoog";}
   if (score >= 40) {return "midden";}
   return "laag";
+}
+
+function wantToReadAdjustment(doc: PriorityDocument): number {
+  return hasTag(doc, "want-to-read") ? WANT_TO_READ_SCORE_BONUS : 0;
+}
+
+function withWantToReadBonus<T extends PriorityScoreResultV7>(doc: PriorityDocument, score: T): T {
+  const bonus = wantToReadAdjustment(doc);
+  if (bonus === 0) {return score;}
+  const adjustment = score.adjustment + bonus;
+  const adjustmentReason = score.adjustmentReason
+    ? `${score.adjustmentReason}; Tag want-to-read: +${bonus} bonuspunten.`
+    : `Tag want-to-read: +${bonus} bonuspunten.`;
+  const totalScore = floorScore(score.baseScore + adjustment);
+  return {
+    ...score,
+    adjustment,
+    adjustmentReason,
+    score: totalScore,
+    tier: tierForScore(totalScore),
+  };
 }
 
 function overrideMap(overrides: PriorityExportOptions["overrides"]): PriorityOverrideMap {
@@ -171,7 +193,10 @@ export function scorePriorityDocument(
   coreInterestPriority?: CoreInterestPriority,
   coreInterestConfig?: CoreInterestPriorityConfig,
 ): PriorityScoreResultV7 {
-  return scoreGlobalPriorityDocument(doc, override, judgments, coreInterestPriority, coreInterestConfig);
+  return withWantToReadBonus(
+    doc,
+    scoreGlobalPriorityDocument(doc, override, judgments, coreInterestPriority, coreInterestConfig),
+  );
 }
 
 interface ExpectedExport {
@@ -194,16 +219,17 @@ function buildExpected(
     if (!doc.id) {throw new Error("Priority-document mist een Readwise document-id");}
     const globalItem = globalExport.items[doc.id];
     if (!globalItem) {throw new Error(`Global score ontbreekt voor ${doc.id}`);}
+    const scoredGlobalItem = withWantToReadBonus(doc, globalItem);
     const savedAt = Date.parse(doc.saved_at ?? "");
     if (!Number.isFinite(savedAt)) {throw new Error(`Document ${doc.id} heeft geen geldige saved_at`);}
     savedAtById.set(doc.id, savedAt);
     const { judgment } = judgmentFor(doc, judgments ?? {});
     const sequences = sequencesForDocument(doc);
     const sequenceScores = Object.fromEntries(
-      sequences.map((sequence) => [sequence, sequenceScore(doc, sequence, globalItem, judgment)]),
+      sequences.map((sequence) => [sequence, sequenceScore(doc, sequence, scoredGlobalItem, judgment)]),
     ) as PrioritySequenceScores;
     items[doc.id] = {
-      ...globalItem,
+      ...scoredGlobalItem,
       sequences,
       sequenceScores,
       positions: {},
