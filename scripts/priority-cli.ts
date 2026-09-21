@@ -241,9 +241,6 @@ async function applyCommand() {
     },
     verify: async () => {
       const next = await createPlan(plan.generatedAt, { cleanupAll: plan.scope === "all-locations" });
-      if (next.plan.sourceFingerprint !== livePlan.sourceFingerprint) {
-        throw new Error("Readwise of de scorecorrecties zijn tijdens de synchronisatie gewijzigd; maak een nieuwe proefrun");
-      }
       return { ...next, operations: next.plan.operations };
     },
   });
