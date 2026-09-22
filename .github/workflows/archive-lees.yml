@@ -57,6 +57,39 @@ jobs:
             fi
           } >> "$GITHUB_STEP_SUMMARY"
 
+      - name: Log gearchiveerde leesdocumenten
+        if: always()
+        run: |
+          plan=.tmp/readwise/archive-lees-plan.json
+          journal=.tmp/readwise/archive-lees-journal.json
+
+          {
+            echo "### Gearchiveerde leesdocumenten"
+            if [ ! -f "$plan" ]; then
+              echo "Geen archiveplan beschikbaar."
+            elif [ ! -f "$journal" ]; then
+              echo "Geen journal beschikbaar; er is geen succesvolle archivering vastgesteld."
+            else
+              archived_count=$(jq '.completed | length' "$journal")
+              if [ "$archived_count" -eq 0 ]; then
+                echo "Geen documenten succesvol gearchiveerd."
+              else
+                jq -r --slurpfile plan "$plan" '
+                  ($plan[0].candidates // []) as $candidates
+                  | .completed[] as $id
+                  | ($candidates[] | select(.id == $id)) as $candidate
+                  | "- \($candidate.title | @json) — `\($candidate.id)` — canonieke lees-tag aanwezig; niet beschermd door huidige of berekende top-100"
+                ' "$journal"
+              fi
+              failure_count=$(jq '.failures | length' "$journal")
+              if [ "$failure_count" -gt 0 ]; then
+                echo
+                echo "Mislukte archiveringspogingen:"
+                jq -r '.failures[] | "- `\(.documentId)` — \(.message) (poging \(.attempt))"' "$journal"
+              fi
+            fi
+          } | tee -a "$GITHUB_STEP_SUMMARY"
+
       - name: Bewaar lees-archiveplan en journal bij falen
         if: always()
         uses: actions/upload-artifact@v4
