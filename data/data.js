@@ -1,6 +1,6 @@
 // Automatisch gegenereerd door scripts/build-data.ts — niet handmatig bewerken.
 window.TOP_ARTICLES = {
-  "generatedAt": "2026-09-22T09:31:59.367Z",
+  "generatedAt": "2026-09-22T11:07:37.988Z",
   "families": [
     {
       "id": "algemeen",
@@ -116,6 +116,40 @@ window.TOP_ARTICLES = {
             },
             {
               "position": 4,
+              "id": "01m0zs70wqrf8nvkmrwzg9843y",
+              "title": "Matt Haig: How to Write a Book Millions of People Read",
+              "author": null,
+              "siteName": "Substack",
+              "category": "email",
+              "language": null,
+              "readingTime": "28 mins",
+              "readingMinutes": 28,
+              "wordCount": 7265,
+              "publishedDate": "2026-08-26",
+              "savedDate": "2026-08-26T19:37:07.224000+00:00",
+              "imageUrl": null,
+              "sourceUrl": "mailto:reader-forwarded-email/297553a72b0efb4cab28363dce79613b",
+              "readwiseUrl": "https://read.readwise.io/read/01m0zs70wqrf8nvkmrwzg9843y",
+              "summary": "Alpha School is what I wish existed back then.",
+              "whyRead": "Raakt je interesse in schrijfcraft en neurodivergentie — Matt Haig (The Midnight Library) over zijn schrijfproces, waarom hij zich als volwassene liet diagnosticeren met ADHD en autisme, en wat AI wel en niet kan overnemen van menselijke creativiteit.",
+              "bestMoment": "geïnspireerd",
+              "tags": [
+                "adhd & neurodivergence",
+                "arts & culture"
+              ],
+              "coreInterests": [
+                "adhd"
+              ],
+              "alsoIn": [
+                "aaa-top-100",
+                "aaa-luchtig-top-10",
+                "aaa-luchtig-top-100",
+                "aaa-adhd-top-10",
+                "aaa-adhd-top-100"
+              ]
+            },
+            {
+              "position": 5,
               "id": "01m196wv3n2x3k1nnxbynjm8zt",
               "title": "Critical Thinking: What is it to be a Critical Thinker?",
               "author": null,
@@ -148,7 +182,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 5,
+              "position": 6,
               "id": "01m196wzm7941m99hfab08jcs8",
               "title": "Arguments: Why Do You Believe What You Believe?",
               "author": null,
@@ -178,40 +212,6 @@ window.TOP_ARTICLES = {
                 "aaa-top-100",
                 "aaa-social-studies-top-10",
                 "aaa-social-studies-top-100"
-              ]
-            },
-            {
-              "position": 6,
-              "id": "01m0zs70wqrf8nvkmrwzg9843y",
-              "title": "Matt Haig: How to Write a Book Millions of People Read",
-              "author": null,
-              "siteName": "Substack",
-              "category": "email",
-              "language": null,
-              "readingTime": "28 mins",
-              "readingMinutes": 28,
-              "wordCount": 7265,
-              "publishedDate": "2026-08-26",
-              "savedDate": "2026-08-26T19:37:07.224000+00:00",
-              "imageUrl": null,
-              "sourceUrl": "mailto:reader-forwarded-email/297553a72b0efb4cab28363dce79613b",
-              "readwiseUrl": "https://read.readwise.io/read/01m0zs70wqrf8nvkmrwzg9843y",
-              "summary": "Alpha School is what I wish existed back then.",
-              "whyRead": "Raakt je interesse in schrijfcraft en neurodivergentie — Matt Haig (The Midnight Library) over zijn schrijfproces, waarom hij zich als volwassene liet diagnosticeren met ADHD en autisme, en wat AI wel en niet kan overnemen van menselijke creativiteit.",
-              "bestMoment": "geïnspireerd",
-              "tags": [
-                "adhd & neurodivergence",
-                "arts & culture"
-              ],
-              "coreInterests": [
-                "adhd"
-              ],
-              "alsoIn": [
-                "aaa-top-100",
-                "aaa-luchtig-top-10",
-                "aaa-luchtig-top-100",
-                "aaa-adhd-top-10",
-                "aaa-adhd-top-100"
               ]
             },
             {
@@ -468,6 +468,40 @@ window.TOP_ARTICLES = {
             },
             {
               "position": 4,
+              "id": "01m0zs70wqrf8nvkmrwzg9843y",
+              "title": "Matt Haig: How to Write a Book Millions of People Read",
+              "author": null,
+              "siteName": "Substack",
+              "category": "email",
+              "language": null,
+              "readingTime": "28 mins",
+              "readingMinutes": 28,
+              "wordCount": 7265,
+              "publishedDate": "2026-08-26",
+              "savedDate": "2026-08-26T19:37:07.224000+00:00",
+              "imageUrl": null,
+              "sourceUrl": "mailto:reader-forwarded-email/297553a72b0efb4cab28363dce79613b",
+              "readwiseUrl": "https://read.readwise.io/read/01m0zs70wqrf8nvkmrwzg9843y",
+              "summary": "Alpha School is what I wish existed back then.",
+              "whyRead": "Raakt je interesse in schrijfcraft en neurodivergentie — Matt Haig (The Midnight Library) over zijn schrijfproces, waarom hij zich als volwassene liet diagnosticeren met ADHD en autisme, en wat AI wel en niet kan overnemen van menselijke creativiteit.",
+              "bestMoment": "geïnspireerd",
+              "tags": [
+                "adhd & neurodivergence",
+                "arts & culture"
+              ],
+              "coreInterests": [
+                "adhd"
+              ],
+              "alsoIn": [
+                "aaa-top-10",
+                "aaa-luchtig-top-10",
+                "aaa-luchtig-top-100",
+                "aaa-adhd-top-10",
+                "aaa-adhd-top-100"
+              ]
+            },
+            {
+              "position": 5,
               "id": "01m196wv3n2x3k1nnxbynjm8zt",
               "title": "Critical Thinking: What is it to be a Critical Thinker?",
               "author": null,
@@ -500,7 +534,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 5,
+              "position": 6,
               "id": "01m196wzm7941m99hfab08jcs8",
               "title": "Arguments: Why Do You Believe What You Believe?",
               "author": null,
@@ -530,40 +564,6 @@ window.TOP_ARTICLES = {
                 "aaa-top-10",
                 "aaa-social-studies-top-10",
                 "aaa-social-studies-top-100"
-              ]
-            },
-            {
-              "position": 6,
-              "id": "01m0zs70wqrf8nvkmrwzg9843y",
-              "title": "Matt Haig: How to Write a Book Millions of People Read",
-              "author": null,
-              "siteName": "Substack",
-              "category": "email",
-              "language": null,
-              "readingTime": "28 mins",
-              "readingMinutes": 28,
-              "wordCount": 7265,
-              "publishedDate": "2026-08-26",
-              "savedDate": "2026-08-26T19:37:07.224000+00:00",
-              "imageUrl": null,
-              "sourceUrl": "mailto:reader-forwarded-email/297553a72b0efb4cab28363dce79613b",
-              "readwiseUrl": "https://read.readwise.io/read/01m0zs70wqrf8nvkmrwzg9843y",
-              "summary": "Alpha School is what I wish existed back then.",
-              "whyRead": "Raakt je interesse in schrijfcraft en neurodivergentie — Matt Haig (The Midnight Library) over zijn schrijfproces, waarom hij zich als volwassene liet diagnosticeren met ADHD en autisme, en wat AI wel en niet kan overnemen van menselijke creativiteit.",
-              "bestMoment": "geïnspireerd",
-              "tags": [
-                "adhd & neurodivergence",
-                "arts & culture"
-              ],
-              "coreInterests": [
-                "adhd"
-              ],
-              "alsoIn": [
-                "aaa-top-10",
-                "aaa-luchtig-top-10",
-                "aaa-luchtig-top-100",
-                "aaa-adhd-top-10",
-                "aaa-adhd-top-100"
               ]
             },
             {
@@ -1323,6 +1323,39 @@ window.TOP_ARTICLES = {
             },
             {
               "position": 29,
+              "id": "01m0k2xdt0xamb4cd7cr6j5vhx",
+              "title": "The Scrum Master Way: Four Levers That Drive Team Growth",
+              "author": null,
+              "siteName": "Agile Classrooms",
+              "category": "article",
+              "language": null,
+              "readingTime": "3 mins",
+              "readingMinutes": 3,
+              "wordCount": 588,
+              "publishedDate": null,
+              "savedDate": "2026-08-21T21:16:30.912000+00:00",
+              "imageUrl": "https://s3.us-west-2.amazonaws.com/content.podia.com/zl2zgbe4fggwsjwustca1u7vih32",
+              "sourceUrl": "https://learn.agileclassrooms.com/blog/scrum-master-levers-team-growth",
+              "readwiseUrl": "https://read.readwise.io/read/01m0k2xdt0xamb4cd7cr6j5vhx",
+              "summary": "Learn the four high-leverage actions great Scrum Masters use to help teams deliver, improve, and grow. Simple, repeatable, and immediately usable.",
+              "whyRead": "Raakt je werk als Scrum Master direct — een compact, bruikbaar model met vier focusgebieden voor je dagelijkse coaching.",
+              "bestMoment": "leergierig",
+              "tags": [
+                "social psychology & interpersonal dynamics",
+                "team dynamics & collaboration"
+              ],
+              "coreInterests": [
+                "sociologie",
+                "agile"
+              ],
+              "alsoIn": [
+                "aaa-short-top-10",
+                "aaa-short-top-100",
+                "aaa-social-studies-top-100"
+              ]
+            },
+            {
+              "position": 30,
               "id": "01m059t7cjgvc214sac3e4z08x",
               "title": "Freedom of the Park",
               "author": null,
@@ -1353,39 +1386,6 @@ window.TOP_ARTICLES = {
               "alsoIn": [
                 "aaa-short-top-10",
                 "aaa-short-top-100"
-              ]
-            },
-            {
-              "position": 30,
-              "id": "01m0k2xdt0xamb4cd7cr6j5vhx",
-              "title": "The Scrum Master Way: Four Levers That Drive Team Growth",
-              "author": null,
-              "siteName": "Agile Classrooms",
-              "category": "article",
-              "language": null,
-              "readingTime": "3 mins",
-              "readingMinutes": 3,
-              "wordCount": 588,
-              "publishedDate": null,
-              "savedDate": "2026-08-21T21:16:30.912000+00:00",
-              "imageUrl": "https://s3.us-west-2.amazonaws.com/content.podia.com/zl2zgbe4fggwsjwustca1u7vih32",
-              "sourceUrl": "https://learn.agileclassrooms.com/blog/scrum-master-levers-team-growth",
-              "readwiseUrl": "https://read.readwise.io/read/01m0k2xdt0xamb4cd7cr6j5vhx",
-              "summary": "Learn the four high-leverage actions great Scrum Masters use to help teams deliver, improve, and grow. Simple, repeatable, and immediately usable.",
-              "whyRead": "Raakt je werk als Scrum Master direct — een compact, bruikbaar model met vier focusgebieden voor je dagelijkse coaching.",
-              "bestMoment": "leergierig",
-              "tags": [
-                "social psychology & interpersonal dynamics",
-                "team dynamics & collaboration"
-              ],
-              "coreInterests": [
-                "sociologie",
-                "agile"
-              ],
-              "alsoIn": [
-                "aaa-short-top-10",
-                "aaa-short-top-100",
-                "aaa-social-studies-top-100"
               ]
             },
             {
@@ -2126,40 +2126,6 @@ window.TOP_ARTICLES = {
             },
             {
               "position": 53,
-              "id": "01m0m9hhar6fsa0z8j62knyx2f",
-              "title": "Waarom Oost-Duitsland nog steeds een van de meest atheïstische regio’s ter wereld is",
-              "author": null,
-              "siteName": "Substack",
-              "category": "email",
-              "language": null,
-              "readingTime": "8 mins",
-              "readingMinutes": 8,
-              "wordCount": 1877,
-              "publishedDate": "2026-08-22",
-              "savedDate": "2026-08-22T08:31:35.768000+00:00",
-              "imageUrl": null,
-              "sourceUrl": "mailto:reader-forwarded-email/46b0feb15364a6388ecaa63186cd0de3",
-              "readwiseUrl": "https://read.readwise.io/read/01m0m9hhar6fsa0z8j62knyx2f",
-              "summary": "De Oost-Duitse samenleving is door en door seculier. Zo seculier zelfs dat onderzoekers van een internationaal onderzoek uit 2012 geen enkele jongere onder de 28 konden vinden die in God geloofde.",
-              "whyRead": "Raakt je interesse in geschiedenis, totalitaire ideologieën en sociologie. Aan de hand van de DDR laat dit stuk zien hoe staatsmacht rituelen en middenveld kan vervangen — en waarom zulke culturele ingrepen generaties lang doorwerken. Raakt daarnaast je interesse in sociale psychologie en interpersoonlijke dynamiek.",
-              "bestMoment": "analytisch",
-              "tags": [
-                "history",
-                "sociology & social structures",
-                "totalitarianism & fascism"
-              ],
-              "coreInterests": [
-                "ideologie",
-                "geschiedenis",
-                "sociologie"
-              ],
-              "alsoIn": [
-                "aaa-short-top-100",
-                "aaa-social-studies-top-100"
-              ]
-            },
-            {
-              "position": 54,
               "id": "01m0ps8pn0f6964ekm6yse5jvr",
               "title": "In praise of zealotry",
               "author": null,
@@ -2191,7 +2157,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 55,
+              "position": 54,
               "id": "01m1xcpts5tw65vjfzyafxcta1",
               "title": "The Price China Has Paid: An Interview with Liu Binyan",
               "author": null,
@@ -2223,7 +2189,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 56,
+              "position": 55,
               "id": "01m207r5gtkhknjq6ezh237a4s",
               "title": "The Thief Who Wanted to Save the World",
               "author": null,
@@ -2259,7 +2225,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 57,
+              "position": 56,
               "id": "01m34250tvpsg2zfzadezmgta5",
               "title": "Social Media Surveillance of the Black Lives Matter Movement and the Right to Privacy",
               "author": null,
@@ -2291,7 +2257,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 58,
+              "position": 57,
               "id": "01kwexpsbrn9aftwadk0dfvf1n",
               "title": "Mentoring",
               "author": null,
@@ -2326,7 +2292,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 59,
+              "position": 58,
               "id": "01kyab47vf7vat0n76fpwrgrj6",
               "title": "Your Book Review: Breakdown In Pakistan",
               "author": null,
@@ -2359,7 +2325,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 60,
+              "position": 59,
               "id": "01kysnmbwt86e2fk3axtde57h4",
               "title": "Keynote opening Digital Commons EDIC: Moving beyond the Digital Uncommons",
               "author": null,
@@ -2388,6 +2354,40 @@ window.TOP_ARTICLES = {
                 "sociologie"
               ],
               "alsoIn": [
+                "aaa-social-studies-top-100"
+              ]
+            },
+            {
+              "position": 60,
+              "id": "01m0m9hhar6fsa0z8j62knyx2f",
+              "title": "Waarom Oost-Duitsland nog steeds een van de meest atheïstische regio’s ter wereld is",
+              "author": null,
+              "siteName": "Substack",
+              "category": "email",
+              "language": null,
+              "readingTime": "8 mins",
+              "readingMinutes": 8,
+              "wordCount": 1877,
+              "publishedDate": "2026-08-22",
+              "savedDate": "2026-08-22T08:31:35.768000+00:00",
+              "imageUrl": null,
+              "sourceUrl": "mailto:reader-forwarded-email/46b0feb15364a6388ecaa63186cd0de3",
+              "readwiseUrl": "https://read.readwise.io/read/01m0m9hhar6fsa0z8j62knyx2f",
+              "summary": "De Oost-Duitse samenleving is door en door seculier. Zo seculier zelfs dat onderzoekers van een internationaal onderzoek uit 2012 geen enkele jongere onder de 28 konden vinden die in God geloofde.",
+              "whyRead": "Raakt je interesse in geschiedenis, totalitaire ideologieën en sociologie. Aan de hand van de DDR laat dit stuk zien hoe staatsmacht rituelen en middenveld kan vervangen — en waarom zulke culturele ingrepen generaties lang doorwerken. Raakt daarnaast je interesse in sociale psychologie en interpersoonlijke dynamiek.",
+              "bestMoment": "analytisch",
+              "tags": [
+                "history",
+                "sociology & social structures",
+                "totalitarianism & fascism"
+              ],
+              "coreInterests": [
+                "ideologie",
+                "geschiedenis",
+                "sociologie"
+              ],
+              "alsoIn": [
+                "aaa-short-top-100",
                 "aaa-social-studies-top-100"
               ]
             },
@@ -4056,6 +4056,39 @@ window.TOP_ARTICLES = {
             },
             {
               "position": 9,
+              "id": "01m0k2xdt0xamb4cd7cr6j5vhx",
+              "title": "The Scrum Master Way: Four Levers That Drive Team Growth",
+              "author": null,
+              "siteName": "Agile Classrooms",
+              "category": "article",
+              "language": null,
+              "readingTime": "3 mins",
+              "readingMinutes": 3,
+              "wordCount": 588,
+              "publishedDate": null,
+              "savedDate": "2026-08-21T21:16:30.912000+00:00",
+              "imageUrl": "https://s3.us-west-2.amazonaws.com/content.podia.com/zl2zgbe4fggwsjwustca1u7vih32",
+              "sourceUrl": "https://learn.agileclassrooms.com/blog/scrum-master-levers-team-growth",
+              "readwiseUrl": "https://read.readwise.io/read/01m0k2xdt0xamb4cd7cr6j5vhx",
+              "summary": "Learn the four high-leverage actions great Scrum Masters use to help teams deliver, improve, and grow. Simple, repeatable, and immediately usable.",
+              "whyRead": "Raakt je werk als Scrum Master direct — een compact, bruikbaar model met vier focusgebieden voor je dagelijkse coaching.",
+              "bestMoment": "leergierig",
+              "tags": [
+                "social psychology & interpersonal dynamics",
+                "team dynamics & collaboration"
+              ],
+              "coreInterests": [
+                "sociologie",
+                "agile"
+              ],
+              "alsoIn": [
+                "aaa-top-100",
+                "aaa-short-top-100",
+                "aaa-social-studies-top-100"
+              ]
+            },
+            {
+              "position": 10,
               "id": "01m059t7cjgvc214sac3e4z08x",
               "title": "Freedom of the Park",
               "author": null,
@@ -4086,39 +4119,6 @@ window.TOP_ARTICLES = {
               "alsoIn": [
                 "aaa-top-100",
                 "aaa-short-top-100"
-              ]
-            },
-            {
-              "position": 10,
-              "id": "01m0k2xdt0xamb4cd7cr6j5vhx",
-              "title": "The Scrum Master Way: Four Levers That Drive Team Growth",
-              "author": null,
-              "siteName": "Agile Classrooms",
-              "category": "article",
-              "language": null,
-              "readingTime": "3 mins",
-              "readingMinutes": 3,
-              "wordCount": 588,
-              "publishedDate": null,
-              "savedDate": "2026-08-21T21:16:30.912000+00:00",
-              "imageUrl": "https://s3.us-west-2.amazonaws.com/content.podia.com/zl2zgbe4fggwsjwustca1u7vih32",
-              "sourceUrl": "https://learn.agileclassrooms.com/blog/scrum-master-levers-team-growth",
-              "readwiseUrl": "https://read.readwise.io/read/01m0k2xdt0xamb4cd7cr6j5vhx",
-              "summary": "Learn the four high-leverage actions great Scrum Masters use to help teams deliver, improve, and grow. Simple, repeatable, and immediately usable.",
-              "whyRead": "Raakt je werk als Scrum Master direct — een compact, bruikbaar model met vier focusgebieden voor je dagelijkse coaching.",
-              "bestMoment": "leergierig",
-              "tags": [
-                "social psychology & interpersonal dynamics",
-                "team dynamics & collaboration"
-              ],
-              "coreInterests": [
-                "sociologie",
-                "agile"
-              ],
-              "alsoIn": [
-                "aaa-top-100",
-                "aaa-short-top-100",
-                "aaa-social-studies-top-100"
               ]
             }
           ]
@@ -4423,6 +4423,39 @@ window.TOP_ARTICLES = {
             },
             {
               "position": 9,
+              "id": "01m0k2xdt0xamb4cd7cr6j5vhx",
+              "title": "The Scrum Master Way: Four Levers That Drive Team Growth",
+              "author": null,
+              "siteName": "Agile Classrooms",
+              "category": "article",
+              "language": null,
+              "readingTime": "3 mins",
+              "readingMinutes": 3,
+              "wordCount": 588,
+              "publishedDate": null,
+              "savedDate": "2026-08-21T21:16:30.912000+00:00",
+              "imageUrl": "https://s3.us-west-2.amazonaws.com/content.podia.com/zl2zgbe4fggwsjwustca1u7vih32",
+              "sourceUrl": "https://learn.agileclassrooms.com/blog/scrum-master-levers-team-growth",
+              "readwiseUrl": "https://read.readwise.io/read/01m0k2xdt0xamb4cd7cr6j5vhx",
+              "summary": "Learn the four high-leverage actions great Scrum Masters use to help teams deliver, improve, and grow. Simple, repeatable, and immediately usable.",
+              "whyRead": "Raakt je werk als Scrum Master direct — een compact, bruikbaar model met vier focusgebieden voor je dagelijkse coaching.",
+              "bestMoment": "leergierig",
+              "tags": [
+                "social psychology & interpersonal dynamics",
+                "team dynamics & collaboration"
+              ],
+              "coreInterests": [
+                "sociologie",
+                "agile"
+              ],
+              "alsoIn": [
+                "aaa-top-100",
+                "aaa-short-top-10",
+                "aaa-social-studies-top-100"
+              ]
+            },
+            {
+              "position": 10,
               "id": "01m059t7cjgvc214sac3e4z08x",
               "title": "Freedom of the Park",
               "author": null,
@@ -4453,39 +4486,6 @@ window.TOP_ARTICLES = {
               "alsoIn": [
                 "aaa-top-100",
                 "aaa-short-top-10"
-              ]
-            },
-            {
-              "position": 10,
-              "id": "01m0k2xdt0xamb4cd7cr6j5vhx",
-              "title": "The Scrum Master Way: Four Levers That Drive Team Growth",
-              "author": null,
-              "siteName": "Agile Classrooms",
-              "category": "article",
-              "language": null,
-              "readingTime": "3 mins",
-              "readingMinutes": 3,
-              "wordCount": 588,
-              "publishedDate": null,
-              "savedDate": "2026-08-21T21:16:30.912000+00:00",
-              "imageUrl": "https://s3.us-west-2.amazonaws.com/content.podia.com/zl2zgbe4fggwsjwustca1u7vih32",
-              "sourceUrl": "https://learn.agileclassrooms.com/blog/scrum-master-levers-team-growth",
-              "readwiseUrl": "https://read.readwise.io/read/01m0k2xdt0xamb4cd7cr6j5vhx",
-              "summary": "Learn the four high-leverage actions great Scrum Masters use to help teams deliver, improve, and grow. Simple, repeatable, and immediately usable.",
-              "whyRead": "Raakt je werk als Scrum Master direct — een compact, bruikbaar model met vier focusgebieden voor je dagelijkse coaching.",
-              "bestMoment": "leergierig",
-              "tags": [
-                "social psychology & interpersonal dynamics",
-                "team dynamics & collaboration"
-              ],
-              "coreInterests": [
-                "sociologie",
-                "agile"
-              ],
-              "alsoIn": [
-                "aaa-top-100",
-                "aaa-short-top-10",
-                "aaa-social-studies-top-100"
               ]
             },
             {
@@ -4591,39 +4591,6 @@ window.TOP_ARTICLES = {
             },
             {
               "position": 14,
-              "id": "01krn1jdcn6b450yv1z0j92tz3",
-              "title": "The Radical Sunzi",
-              "author": null,
-              "siteName": "The Scholar's Stage",
-              "category": "article",
-              "language": null,
-              "readingTime": "9 mins",
-              "readingMinutes": 9,
-              "wordCount": 2260,
-              "publishedDate": "2015-01-02",
-              "savedDate": "2026-05-15T05:25:55.733000+00:00",
-              "imageUrl": "https://149512802.v2.pressablecdn.com/wp-content/uploads/2015/01/Mair_Sunzi.jpg",
-              "sourceUrl": "https://scholars-stage.org/the-radical-sunzi/",
-              "readwiseUrl": "https://read.readwise.io/read/01krn1jdcn6b450yv1z0j92tz3",
-              "summary": "Victor Mair’s translation of the Sunzi Bingfa.Image Source. When translated into English, the Sunzi Bingfa, usually titled Sunzi’s Art of War, is a fairly small work. When we take away …",
-              "whyRead": "Sterk historisch-filosofisch essay over waarom de Sunzi oorspronkelijk radicaal was: oorlog werd losgetrokken uit aristocratische rituele offers en herleid tot materiële staatskunst. Shortlist, omdat het geschiedenis, politieke filosofie en strategisch denken precies op jouw interesseprofiel verbindt.",
-              "bestMoment": "analytisch",
-              "tags": [
-                "history",
-                "political ideologies",
-                "political philosophy"
-              ],
-              "coreInterests": [
-                "filosofie",
-                "ideologie",
-                "geschiedenis"
-              ],
-              "alsoIn": [
-                "aaa-top-100"
-              ]
-            },
-            {
-              "position": 15,
               "id": "01m059tpnqyq5yy3kq6xrmf1v5",
               "title": "My Country Right or Left",
               "author": null,
@@ -4655,7 +4622,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 16,
+              "position": 15,
               "id": "01m2d7sherfyb949cqy4k003xt",
               "title": "5 Things Every Adult With ADHD Has Been Told To Do That Are Scientifically Backwards (And What To Do Instead)",
               "author": null,
@@ -4683,6 +4650,39 @@ window.TOP_ARTICLES = {
               "alsoIn": [
                 "aaa-top-100",
                 "aaa-adhd-top-100"
+              ]
+            },
+            {
+              "position": 16,
+              "id": "01krn1jdcn6b450yv1z0j92tz3",
+              "title": "The Radical Sunzi",
+              "author": null,
+              "siteName": "The Scholar's Stage",
+              "category": "article",
+              "language": null,
+              "readingTime": "9 mins",
+              "readingMinutes": 9,
+              "wordCount": 2260,
+              "publishedDate": "2015-01-02",
+              "savedDate": "2026-05-15T05:25:55.733000+00:00",
+              "imageUrl": "https://149512802.v2.pressablecdn.com/wp-content/uploads/2015/01/Mair_Sunzi.jpg",
+              "sourceUrl": "https://scholars-stage.org/the-radical-sunzi/",
+              "readwiseUrl": "https://read.readwise.io/read/01krn1jdcn6b450yv1z0j92tz3",
+              "summary": "Victor Mair’s translation of the Sunzi Bingfa.Image Source. When translated into English, the Sunzi Bingfa, usually titled Sunzi’s Art of War, is a fairly small work. When we take away …",
+              "whyRead": "Sterk historisch-filosofisch essay over waarom de Sunzi oorspronkelijk radicaal was: oorlog werd losgetrokken uit aristocratische rituele offers en herleid tot materiële staatskunst. Shortlist, omdat het geschiedenis, politieke filosofie en strategisch denken precies op jouw interesseprofiel verbindt.",
+              "bestMoment": "analytisch",
+              "tags": [
+                "history",
+                "political ideologies",
+                "political philosophy"
+              ],
+              "coreInterests": [
+                "filosofie",
+                "ideologie",
+                "geschiedenis"
+              ],
+              "alsoIn": [
+                "aaa-top-100"
               ]
             },
             {
@@ -4826,40 +4826,6 @@ window.TOP_ARTICLES = {
             },
             {
               "position": 21,
-              "id": "01m0m9hhar6fsa0z8j62knyx2f",
-              "title": "Waarom Oost-Duitsland nog steeds een van de meest atheïstische regio’s ter wereld is",
-              "author": null,
-              "siteName": "Substack",
-              "category": "email",
-              "language": null,
-              "readingTime": "8 mins",
-              "readingMinutes": 8,
-              "wordCount": 1877,
-              "publishedDate": "2026-08-22",
-              "savedDate": "2026-08-22T08:31:35.768000+00:00",
-              "imageUrl": null,
-              "sourceUrl": "mailto:reader-forwarded-email/46b0feb15364a6388ecaa63186cd0de3",
-              "readwiseUrl": "https://read.readwise.io/read/01m0m9hhar6fsa0z8j62knyx2f",
-              "summary": "De Oost-Duitse samenleving is door en door seculier. Zo seculier zelfs dat onderzoekers van een internationaal onderzoek uit 2012 geen enkele jongere onder de 28 konden vinden die in God geloofde.",
-              "whyRead": "Raakt je interesse in geschiedenis, totalitaire ideologieën en sociologie. Aan de hand van de DDR laat dit stuk zien hoe staatsmacht rituelen en middenveld kan vervangen — en waarom zulke culturele ingrepen generaties lang doorwerken. Raakt daarnaast je interesse in sociale psychologie en interpersoonlijke dynamiek.",
-              "bestMoment": "analytisch",
-              "tags": [
-                "history",
-                "sociology & social structures",
-                "totalitarianism & fascism"
-              ],
-              "coreInterests": [
-                "ideologie",
-                "geschiedenis",
-                "sociologie"
-              ],
-              "alsoIn": [
-                "aaa-top-100",
-                "aaa-social-studies-top-100"
-              ]
-            },
-            {
-              "position": 22,
               "id": "01m207r5gtkhknjq6ezh237a4s",
               "title": "The Thief Who Wanted to Save the World",
               "author": null,
@@ -4895,7 +4861,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 23,
+              "position": 22,
               "id": "01kwexpsbrn9aftwadk0dfvf1n",
               "title": "Mentoring",
               "author": null,
@@ -4926,6 +4892,40 @@ window.TOP_ARTICLES = {
                 "aaa-top-100",
                 "aaa-scrum-top-10",
                 "aaa-scrum-top-100",
+                "aaa-social-studies-top-100"
+              ]
+            },
+            {
+              "position": 23,
+              "id": "01m0m9hhar6fsa0z8j62knyx2f",
+              "title": "Waarom Oost-Duitsland nog steeds een van de meest atheïstische regio’s ter wereld is",
+              "author": null,
+              "siteName": "Substack",
+              "category": "email",
+              "language": null,
+              "readingTime": "8 mins",
+              "readingMinutes": 8,
+              "wordCount": 1877,
+              "publishedDate": "2026-08-22",
+              "savedDate": "2026-08-22T08:31:35.768000+00:00",
+              "imageUrl": null,
+              "sourceUrl": "mailto:reader-forwarded-email/46b0feb15364a6388ecaa63186cd0de3",
+              "readwiseUrl": "https://read.readwise.io/read/01m0m9hhar6fsa0z8j62knyx2f",
+              "summary": "De Oost-Duitse samenleving is door en door seculier. Zo seculier zelfs dat onderzoekers van een internationaal onderzoek uit 2012 geen enkele jongere onder de 28 konden vinden die in God geloofde.",
+              "whyRead": "Raakt je interesse in geschiedenis, totalitaire ideologieën en sociologie. Aan de hand van de DDR laat dit stuk zien hoe staatsmacht rituelen en middenveld kan vervangen — en waarom zulke culturele ingrepen generaties lang doorwerken. Raakt daarnaast je interesse in sociale psychologie en interpersoonlijke dynamiek.",
+              "bestMoment": "analytisch",
+              "tags": [
+                "history",
+                "sociology & social structures",
+                "totalitarianism & fascism"
+              ],
+              "coreInterests": [
+                "ideologie",
+                "geschiedenis",
+                "sociologie"
+              ],
+              "alsoIn": [
+                "aaa-top-100",
                 "aaa-social-studies-top-100"
               ]
             },
@@ -6041,6 +6041,34 @@ window.TOP_ARTICLES = {
             },
             {
               "position": 57,
+              "id": "01m33ekq0kc2ydj3xz350v3bp7",
+              "title": "Dokkōdō: The Path Of Aloneness",
+              "author": null,
+              "siteName": "Aly Juma",
+              "category": "article",
+              "language": null,
+              "readingTime": "5 mins",
+              "readingMinutes": 5,
+              "wordCount": 1209,
+              "publishedDate": "2017-10-18",
+              "savedDate": "2026-09-22T02:20:10.129000+00:00",
+              "imageUrl": "https://alyjuma.com/wp-content/uploads/2017/10/dokkonen_social.jpg",
+              "sourceUrl": "https://alyjuma.com/dokkodo-the-path-of-aloneness/",
+              "readwiseUrl": "https://read.readwise.io/read/01m33ekq0kc2ydj3xz350v3bp7",
+              "summary": "What Miyamoto Musashi wanted you to know before he died.",
+              "whyRead": "Dit raakt je interesse in filosofie en levenskunst: een laagdrempelige hervertelling van Musashi’s Dokkōdō over aandacht, zelfbeheersing, vergankelijkheid en handelen naar eigen overtuiging.",
+              "bestMoment": "reflectief",
+              "tags": [
+                "personal growth & life philosophy",
+                "philosophy"
+              ],
+              "coreInterests": [
+                "filosofie"
+              ],
+              "alsoIn": []
+            },
+            {
+              "position": 58,
               "id": "01kcb7n6kftwmca7m6dgprpkwf",
               "title": "Anarchism, explained",
               "author": null,
@@ -6071,7 +6099,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 58,
+              "position": 59,
               "id": "01m0nepq34v9hbtcm1z1rcjn1e",
               "title": "The Madness of Yankee Doodle",
               "author": null,
@@ -6101,7 +6129,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 59,
+              "position": 60,
               "id": "01m32r27wax3cqxxckhtjcesg7",
               "title": "A Kashmiri Novelist on a State Under Siege",
               "author": null,
@@ -6132,7 +6160,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 60,
+              "position": 61,
               "id": "01m33zqbyen7cyr31365jqk6wt",
               "title": "workersdecide.tech: Resources to Fight AI Sloppification At Work",
               "author": null,
@@ -6164,7 +6192,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 61,
+              "position": 62,
               "id": "01m2wka7ef0n5pkac9eb40xsqs",
               "title": "Seven Generations Principle: Healing the Past & Shaping the Future",
               "author": null,
@@ -6196,7 +6224,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 62,
+              "position": 63,
               "id": "01kvhdf8kqbvctbnxfrt4r3nr5",
               "title": "Six Months on Substack: A Reflection, a Thank You, and What Comes Next",
               "author": null,
@@ -6229,7 +6257,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 63,
+              "position": 64,
               "id": "01kw3yjp92dh7r7qzk3bja513n",
               "title": "Dismantling Authenticity",
               "author": null,
@@ -6262,7 +6290,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 64,
+              "position": 65,
               "id": "01kye6cwzsz29j9v1g53fzfy45",
               "title": "“We Know. It’s Fine.”",
               "author": null,
@@ -6295,7 +6323,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 65,
+              "position": 66,
               "id": "01m2gbthqrjaxjh99tqkckbc8f",
               "title": "Dear ADHDer: Please stop solving capacity problems with character upgrades",
               "author": null,
@@ -6330,7 +6358,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 66,
+              "position": 67,
               "id": "01m2jgk9q66bvhk6tyfvgqwbpg",
               "title": "Finland's Language War Nationalists Seek End to Mandatory Swedish Lessons",
               "author": null,
@@ -6362,7 +6390,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 67,
+              "position": 68,
               "id": "01jkh2w2capy38f589kqkvyt4s",
               "title": "A funny thing about curiosity",
               "author": null,
@@ -6392,7 +6420,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 68,
+              "position": 69,
               "id": "01kbfj8h0ds5fz6sa9b7vdeh3n",
               "title": "Just and loving seeing",
               "author": null,
@@ -6422,7 +6450,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 69,
+              "position": 70,
               "id": "01krm2x81z150qk5a5y9mezss5",
               "title": "How to Prioritize Your Intellectual Life",
               "author": null,
@@ -6452,7 +6480,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 70,
+              "position": 71,
               "id": "01j8s9z9xg4shgce5z167zc7fn",
               "title": "📰 Food as Currency - by Eleanor Konik - Manuscriptions\n📰 Food as Currency",
               "author": null,
@@ -6483,7 +6511,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 71,
+              "position": 72,
               "id": "01k7xjhe96qxhs9bkr4qahjk09",
               "title": "How to Become as Well-Read as John Adams: 8 Tips From his Reading Life",
               "author": null,
@@ -6514,7 +6542,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 72,
+              "position": 73,
               "id": "01kvjbgrqsftb77gs496c0p12t",
               "title": "If the First Apocalypse Doesn’t Get You, the Second One Will",
               "author": null,
@@ -6547,7 +6575,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 73,
+              "position": 74,
               "id": "01m0nd3m15a0h3jetaw2q41mzk",
               "title": "Independence Day",
               "author": null,
@@ -6577,7 +6605,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 74,
+              "position": 75,
               "id": "01m0ndxd5hh1pa2bvp6k3ejsas",
               "title": "The Spanish-American War",
               "author": null,
@@ -6607,7 +6635,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 75,
+              "position": 76,
               "id": "01m0nepjcvwwzp4cydwdgdm8kt",
               "title": "Parliament's Missed Chance for Peace",
               "author": null,
@@ -6637,7 +6665,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 76,
+              "position": 77,
               "id": "01m0nepp5vc6tjx2jd1z4cvre6",
               "title": "From Petition to Independence",
               "author": null,
@@ -6667,7 +6695,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 77,
+              "position": 78,
               "id": "01m14nb3gbkc1d5zt0q1rbjpsv",
               "title": "Hoe Martin Luther King ‘I Have a Dream’ improviseerde",
               "author": null,
@@ -6700,7 +6728,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 78,
+              "position": 79,
               "id": "01m196xpws827gy4a4qqcjkr8k",
               "title": "Aristotle’s Defense of Slavery",
               "author": null,
@@ -6731,7 +6759,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 79,
+              "position": 80,
               "id": "01m19781z6qxaz9m5eq5j8as51",
               "title": "Bloodless Democracy?",
               "author": null,
@@ -6762,7 +6790,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 80,
+              "position": 81,
               "id": "01m1ksce73exr9pbww5fh4jgde",
               "title": "How Camus and Sartre split up over the question of how to be free",
               "author": null,
@@ -6793,7 +6821,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 81,
+              "position": 82,
               "id": "01m2x8nw4zgrsm7j1w5vvq4rtd",
               "title": "Retreat and Battle in New York City",
               "author": null,
@@ -6825,7 +6853,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 82,
+              "position": 83,
               "id": "01m3425pzbpf7jctc2e67dm8yf",
               "title": "Before the digital age: Sending a message in ancient Rome",
               "author": null,
@@ -6856,7 +6884,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 83,
+              "position": 84,
               "id": "01k8czw4rtn870ryh0r9ky5emj",
               "title": "The sauna life",
               "author": null,
@@ -6889,7 +6917,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 84,
+              "position": 85,
               "id": "01k8v9cz0ah2x4qddn265e4cnt",
               "title": "Everything Is Television",
               "author": null,
@@ -6922,7 +6950,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 85,
+              "position": 86,
               "id": "01kmr5kh5wjyr899wkg9skt4f7",
               "title": "Simone Weil Explains the Manosphere",
               "author": null,
@@ -6953,7 +6981,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 86,
+              "position": 87,
               "id": "01kysnn7synbp4djg1ph3zrhdh",
               "title": "It is no longer safe to move our governments and societies to US clouds",
               "author": null,
@@ -6984,7 +7012,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 87,
+              "position": 88,
               "id": "01m1978xjh42rx3gv2xs4e1bbg",
               "title": "Six Ways of Conceiving Marx and Foucault",
               "author": null,
@@ -7015,7 +7043,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 88,
+              "position": 89,
               "id": "01m2jbf3n6p58de83t7hsz1t95",
               "title": "Alle kunst is politiek, zelfs die van Ed Sheeran",
               "author": null,
@@ -7048,7 +7076,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 89,
+              "position": 90,
               "id": "01m2jr8pqztmsgc2wjwpsc1adh",
               "title": "The tree ring model of culture and politics",
               "author": null,
@@ -7079,7 +7107,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 90,
+              "position": 91,
               "id": "01m2q04cfrrecy63bedawz1n4e",
               "title": "Wisdom is a virtue, but how do we judge if someone has it?",
               "author": null,
@@ -7108,7 +7136,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 91,
+              "position": 92,
               "id": "01m31fpqqpx22n1gcv43fs2fcd",
               "title": "Why it’s so hard to agree on what counts as true",
               "author": null,
@@ -7137,7 +7165,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 92,
+              "position": 93,
               "id": "01m32rt3b9spkvh3rnb3b8b06s",
               "title": "The liberals who loved and lost Narendra Modi",
               "author": null,
@@ -7168,7 +7196,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 93,
+              "position": 94,
               "id": "01m33zsb5tpke7ms2qnq1f0vyb",
               "title": "The 1% Rule: An Open Letter to Everyone Who Doesn't Post Anything Online",
               "author": null,
@@ -7202,7 +7230,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 94,
+              "position": 95,
               "id": "01m341t4e2qprnbgncz5f6sewt",
               "title": "Safety Off",
               "author": null,
@@ -7233,69 +7261,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 95,
-              "id": "01ks96dy2nfby7cyd152ev2a9k",
-              "title": "Bureaucracy Isn't Broken. That's the Problem.",
-              "author": null,
-              "siteName": "Substack",
-              "category": "email",
-              "language": null,
-              "readingTime": "7 mins",
-              "readingMinutes": 7,
-              "wordCount": 1623,
-              "publishedDate": "2026-05-23",
-              "savedDate": "2026-05-23T01:15:40.501000+00:00",
-              "imageUrl": null,
-              "sourceUrl": "mailto:reader-forwarded-email/a1be8ab1f5d8f408771749168b358df9",
-              "readwiseUrl": "https://read.readwise.io/read/01ks96dy2nfby7cyd152ev2a9k",
-              "summary": "You have a reasonable request. Straightforward, even.",
-              "whyRead": "Sterk toegankelijk essay dat David Graebers bureaucratiekritiek verbindt met communicatietheorie, organisatiecultuur en neurodivergente werkervaringen. Goede match met sociologie, werkcommunicatie en systeemkritiek.\nWaarom skippen: Het stuk is wat Substack-consultancyachtig aan het eind en biedt vooral interpretatieve heroriëntatie, geen harde organisatieoplossing of empirisch onderzoek.",
-              "bestMoment": "analytisch",
-              "tags": [
-                "anarchism",
-                "philosophy",
-                "professional development"
-              ],
-              "coreInterests": [
-                "filosofie",
-                "ideologie"
-              ],
-              "alsoIn": []
-            },
-            {
               "position": 96,
-              "id": "01m2hzz736ff6f5t97d1ctk4kk",
-              "title": "NEUROQUEER HERESIES",
-              "author": null,
-              "siteName": "NEUROQUEER • THE WRITINGS OF DR. NICK WALKER",
-              "category": "article",
-              "language": null,
-              "readingTime": "1 min",
-              "readingMinutes": 1,
-              "wordCount": 44,
-              "publishedDate": "2021-10-13",
-              "savedDate": "2026-09-15T07:37:13.062000+00:00",
-              "imageUrl": "https://neuroqueer.com/wp-content/uploads/2021/07/NeuroFly.gif",
-              "sourceUrl": "https://neuroqueer.com/neuroqueer-heresies/",
-              "readwiseUrl": "https://read.readwise.io/read/01m2hzz736ff6f5t97d1ctk4kk",
-              "summary": "Find it at local bookshops through IndieBound Or order it from: Autonomous Press Amazon Bookshop Neuroqueer Heresies: Notes on the Neurodiversity Paradigm, Autistic Empowerment, and Postnormal Possibilities Neuroqueer Heresies collects a decade's worth of my writings on neurodiversity, autism, and Neuroqueer Theory, including 120 pages of new material that's not available elsewhere.",
-              "whyRead": "Een boekintroductie over neurodiversiteit, autistische empowerment en “postnormal” mogelijkheden. De beschikbare Reader-tekst is een beschrijving van de bundel, maar maakt duidelijk dat het boek neurodivergentie niet alleen als individuele eigenschap behandelt, maar ook als sociaal en politiek perspectief.",
-              "bestMoment": "reflectief",
-              "tags": [
-                "adhd & neurodivergence",
-                "personal growth & life philosophy",
-                "social psychology & interpersonal dynamics"
-              ],
-              "coreInterests": [
-                "sociologie",
-                "adhd"
-              ],
-              "alsoIn": [
-                "aaa-adhd-top-100"
-              ]
-            },
-            {
-              "position": 97,
               "id": "01kqsnmx2rdcaktjvwsjmmq2cn",
               "title": "The games we want to be playing",
               "author": null,
@@ -7327,7 +7293,69 @@ window.TOP_ARTICLES = {
               ]
             },
             {
+              "position": 97,
+              "id": "01m2hzz736ff6f5t97d1ctk4kk",
+              "title": "NEUROQUEER HERESIES",
+              "author": null,
+              "siteName": "NEUROQUEER • THE WRITINGS OF DR. NICK WALKER",
+              "category": "article",
+              "language": null,
+              "readingTime": "1 min",
+              "readingMinutes": 1,
+              "wordCount": 44,
+              "publishedDate": "2021-10-13",
+              "savedDate": "2026-09-15T07:37:13.062000+00:00",
+              "imageUrl": "https://neuroqueer.com/wp-content/uploads/2021/07/NeuroFly.gif",
+              "sourceUrl": "https://neuroqueer.com/neuroqueer-heresies/",
+              "readwiseUrl": "https://read.readwise.io/read/01m2hzz736ff6f5t97d1ctk4kk",
+              "summary": "Find it at local bookshops through IndieBound Or order it from: Autonomous Press Amazon Bookshop Neuroqueer Heresies: Notes on the Neurodiversity Paradigm, Autistic Empowerment, and Postnormal Possibilities Neuroqueer Heresies collects a decade's worth of my writings on neurodiversity, autism, and Neuroqueer Theory, including 120 pages of new material that's not available elsewhere.",
+              "whyRead": "Een boekintroductie over neurodiversiteit, autistische empowerment en “postnormal” mogelijkheden. De beschikbare Reader-tekst is een beschrijving van de bundel, maar maakt duidelijk dat het boek neurodivergentie niet alleen als individuele eigenschap behandelt, maar ook als sociaal en politiek perspectief.",
+              "bestMoment": "reflectief",
+              "tags": [
+                "adhd & neurodivergence",
+                "personal growth & life philosophy",
+                "social psychology & interpersonal dynamics"
+              ],
+              "coreInterests": [
+                "sociologie",
+                "adhd"
+              ],
+              "alsoIn": [
+                "aaa-adhd-top-100"
+              ]
+            },
+            {
               "position": 98,
+              "id": "01ks96dy2nfby7cyd152ev2a9k",
+              "title": "Bureaucracy Isn't Broken. That's the Problem.",
+              "author": null,
+              "siteName": "Substack",
+              "category": "email",
+              "language": null,
+              "readingTime": "7 mins",
+              "readingMinutes": 7,
+              "wordCount": 1623,
+              "publishedDate": "2026-05-23",
+              "savedDate": "2026-05-23T01:15:40.501000+00:00",
+              "imageUrl": null,
+              "sourceUrl": "mailto:reader-forwarded-email/a1be8ab1f5d8f408771749168b358df9",
+              "readwiseUrl": "https://read.readwise.io/read/01ks96dy2nfby7cyd152ev2a9k",
+              "summary": "You have a reasonable request. Straightforward, even.",
+              "whyRead": "Sterk toegankelijk essay dat David Graebers bureaucratiekritiek verbindt met communicatietheorie, organisatiecultuur en neurodivergente werkervaringen. Goede match met sociologie, werkcommunicatie en systeemkritiek.\nWaarom skippen: Het stuk is wat Substack-consultancyachtig aan het eind en biedt vooral interpretatieve heroriëntatie, geen harde organisatieoplossing of empirisch onderzoek.",
+              "bestMoment": "analytisch",
+              "tags": [
+                "anarchism",
+                "philosophy",
+                "professional development"
+              ],
+              "coreInterests": [
+                "filosofie",
+                "ideologie"
+              ],
+              "alsoIn": []
+            },
+            {
+              "position": 99,
               "id": "01ky6y1g55qsprt9r2h4jm394c",
               "title": "My Jewish Culture",
               "author": null,
@@ -7359,7 +7387,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 99,
+              "position": 100,
               "id": "01ky7qe9p9qwtpk49bzc4pqqhk",
               "title": "Normal Accidents: Living with High-Risk Technologies",
               "author": null,
@@ -7381,36 +7409,6 @@ window.TOP_ARTICLES = {
                 "organizational behavior & culture",
                 "sociology & social structures",
                 "technology"
-              ],
-              "coreInterests": [
-                "sociologie",
-                "agile"
-              ],
-              "alsoIn": []
-            },
-            {
-              "position": 100,
-              "id": "01m2v933nvk91pcmv113dqmjd8",
-              "title": "What You Told Me About the Letters After My Name",
-              "author": null,
-              "siteName": "Substack",
-              "category": "email",
-              "language": null,
-              "readingTime": "4 mins",
-              "readingMinutes": 4,
-              "wordCount": 1002,
-              "publishedDate": "2026-09-18",
-              "savedDate": "2026-09-18T22:09:47.707000+00:00",
-              "imageUrl": null,
-              "sourceUrl": "mailto:reader-forwarded-email/c83efc5c264c30acf4ef4328a1488859",
-              "readwiseUrl": "https://read.readwise.io/read/01m2v933nvk91pcmv113dqmjd8",
-              "summary": "About a week ago, I asked whether putting ‘PhD’ in my profile was simply useful context, or, as a critical reader comment suggested, intellectual posturing and an act of complicity in maintaining an elitist educational power structure.",
-              "whyRead": "Raakt je interesse in menselijke interactie, organisatiecultuur en professionele ontwikkeling. De meerwaarde is een genuanceerde casus over status, expertise en de ongelijke manier waarop mensen geloofwaardigheid moeten signaleren.",
-              "bestMoment": "reflectief",
-              "tags": [
-                "organizational behavior & culture",
-                "professional development",
-                "social psychology & interpersonal dynamics"
               ],
               "coreInterests": [
                 "sociologie",
@@ -8169,6 +8167,38 @@ window.TOP_ARTICLES = {
             },
             {
               "position": 12,
+              "id": "01m2hndcfjrxtfc5b27zeaqcke",
+              "title": "Studio Ghibli’s Biggest Secret Is What Comes Next",
+              "author": null,
+              "siteName": "Bloomberg.com",
+              "category": "article",
+              "language": null,
+              "readingTime": "21 mins",
+              "readingMinutes": 21,
+              "wordCount": 5311,
+              "publishedDate": "2026-08-13",
+              "savedDate": "2026-09-15T04:32:42.994000+00:00",
+              "imageUrl": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i8_QwMk6OBqE/v3/-1x-1.webp",
+              "sourceUrl": "https://www.bloomberg.com/features/2026-studio-ghibli-future/?src=longreads",
+              "readwiseUrl": "https://read.readwise.io/read/01m2hndcfjrxtfc5b27zeaqcke",
+              "summary": "Hayao Miyazaki and his animators have had a legendary run of classics. They’re not in the biggest rush to make another.",
+              "whyRead": "Een reportage over de opvolgingscrisis bij Studio Ghibli en de spanning tussen persoonlijk kunstenaarschap, ambacht en een groeiend merk. De casus maakt zichtbaar wat er met cultuur gebeurt wanneer een uitzonderlijk individuele studio organisatorisch moet voortbestaan.",
+              "bestMoment": "reflectief",
+              "tags": [
+                "arts & culture",
+                "entertainment & pop culture",
+                "organizational behavior & culture"
+              ],
+              "coreInterests": [
+                "cultuur_games_film",
+                "agile"
+              ],
+              "alsoIn": [
+                "aaa-social-studies-top-100"
+              ]
+            },
+            {
+              "position": 13,
               "id": "01k7shq7r399ekxt6pavj3t3aa",
               "title": "Could autism explain Virginia Woolf’s unique voice? Her extraordinary eye for detail and connections suggests it might",
               "author": null,
@@ -8200,7 +8230,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 13,
+              "position": 14,
               "id": "01kvjbgrqsftb77gs496c0p12t",
               "title": "If the First Apocalypse Doesn’t Get You, the Second One Will",
               "author": null,
@@ -8233,7 +8263,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 14,
+              "position": 15,
               "id": "01m14nb3gbkc1d5zt0q1rbjpsv",
               "title": "Hoe Martin Luther King ‘I Have a Dream’ improviseerde",
               "author": null,
@@ -8263,38 +8293,6 @@ window.TOP_ARTICLES = {
               ],
               "alsoIn": [
                 "aaa-short-top-100"
-              ]
-            },
-            {
-              "position": 15,
-              "id": "01m2hndcfjrxtfc5b27zeaqcke",
-              "title": "Studio Ghibli’s Biggest Secret Is What Comes Next",
-              "author": null,
-              "siteName": "Bloomberg.com",
-              "category": "article",
-              "language": null,
-              "readingTime": "21 mins",
-              "readingMinutes": 21,
-              "wordCount": 5311,
-              "publishedDate": "2026-08-13",
-              "savedDate": "2026-09-15T04:32:42.994000+00:00",
-              "imageUrl": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i8_QwMk6OBqE/v3/-1x-1.webp",
-              "sourceUrl": "https://www.bloomberg.com/features/2026-studio-ghibli-future/?src=longreads",
-              "readwiseUrl": "https://read.readwise.io/read/01m2hndcfjrxtfc5b27zeaqcke",
-              "summary": "Hayao Miyazaki and his animators have had a legendary run of classics. They’re not in the biggest rush to make another.",
-              "whyRead": "Een reportage over de opvolgingscrisis bij Studio Ghibli en de spanning tussen persoonlijk kunstenaarschap, ambacht en een groeiend merk. De casus maakt zichtbaar wat er met cultuur gebeurt wanneer een uitzonderlijk individuele studio organisatorisch moet voortbestaan.",
-              "bestMoment": "reflectief",
-              "tags": [
-                "arts & culture",
-                "entertainment & pop culture",
-                "organizational behavior & culture"
-              ],
-              "coreInterests": [
-                "cultuur_games_film",
-                "agile"
-              ],
-              "alsoIn": [
-                "aaa-social-studies-top-100"
               ]
             },
             {
@@ -8708,6 +8706,36 @@ window.TOP_ARTICLES = {
             },
             {
               "position": 29,
+              "id": "01m31kyzdcg46gp6d8vghws87e",
+              "title": "How Heated Rivalry Imagines a More Inclusive NHL",
+              "author": null,
+              "siteName": "Literary  Hub",
+              "category": "rss",
+              "language": null,
+              "readingTime": "9 mins",
+              "readingMinutes": 9,
+              "wordCount": 2379,
+              "publishedDate": "2026-09-21",
+              "savedDate": "2026-09-21T09:15:10.197000+00:00",
+              "imageUrl": "https://s26162.pcdn.co/wp-content/uploads/2026/09/heated-rivalry-queer-hockey-768x411.jpg",
+              "sourceUrl": "https://lithub.com/how-heated-rivalry-imagines-a-more-inclusive-nhl/",
+              "readwiseUrl": "https://read.readwise.io/read/01m31kyzdcg46gp6d8vghws87e",
+              "summary": "“I know there are gay guys in the NHL, because I met one of my teammate’s boyfriends. [But] it’s impossible for a gay hockey player to come out within the next five or even ten years; the media attention would",
+              "whyRead": "Raakt je interesse in cultuur en representatie: deze analyse laat zien hoe Heated Rivalry een inclusievere sociale wereld voorstelbaar maakt via populaire fictie.",
+              "bestMoment": "ontspannen",
+              "tags": [
+                "arts & culture",
+                "entertainment & pop culture",
+                "social psychology & interpersonal dynamics"
+              ],
+              "coreInterests": [
+                "sociologie",
+                "cultuur_games_film"
+              ],
+              "alsoIn": []
+            },
+            {
+              "position": 30,
               "id": "01m33znk3sz32hjcaqxw4tmpaf",
               "title": "Medium and Twitter founder: ‘We put junk food in front of them and they eat it’",
               "author": null,
@@ -8738,7 +8766,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 30,
+              "position": 31,
               "id": "01kyxa2yd57szp13ha57708606",
               "title": "Your Book Review: The Epic Of Gilgamesh",
               "author": null,
@@ -8764,36 +8792,6 @@ window.TOP_ARTICLES = {
               "coreInterests": [
                 "filosofie",
                 "geschiedenis"
-              ],
-              "alsoIn": []
-            },
-            {
-              "position": 31,
-              "id": "01m05be2mdpdf3vg9xy5xr0kcz",
-              "title": "The Art of Donald McGill",
-              "author": null,
-              "siteName": "The Orwell Foundation",
-              "category": "article",
-              "language": null,
-              "readingTime": "16 mins",
-              "readingMinutes": 16,
-              "wordCount": 4128,
-              "publishedDate": "2010-10-20",
-              "savedDate": "2026-08-16T13:16:03.085000+00:00",
-              "imageUrl": null,
-              "sourceUrl": "https://www.orwellfoundation.com/the-orwell-foundation/orwell/essays-and-other-works/the-art-of-donald-mcgill/",
-              "readwiseUrl": "https://read.readwise.io/read/01m05be2mdpdf3vg9xy5xr0kcz",
-              "summary": "This material remains under copyright in some jurisdictions, including the United States, and is reproduced here with the kind assistance of the Orwell Estate.  Who does not know the ‘comics’ of the cheap stationers’ windows, the penny or twopenny coloured postcards with their endless succession of fat women in tight bathing-dresses and their crude drawing...  <a class=\"excerpt-read-more\" href=\"https://www.orwellfoundation.com/the-orwell-foundation/orwell/essays-and-other-works/the-art-of-donald-mcgill/\" title=\"ReadThe Art of Donald McGill\">Read more »</a>",
-              "whyRead": "Raakt je interesse in cultuurgeschiedenis en Orwell als essayist — hij ontleedt hier op zijn kenmerkend scherpe, persoonlijke manier volkscultuur (komische ansichtkaarten) als spiegel van maatschappelijke moraal. Raakt daarnaast je interesse in sociale psychologie en interpersoonlijke dynamiek.",
-              "bestMoment": "ontspannen",
-              "tags": [
-                "arts & culture",
-                "philosophy",
-                "totalitarianism & fascism"
-              ],
-              "coreInterests": [
-                "filosofie",
-                "ideologie"
               ],
               "alsoIn": []
             },
@@ -8829,36 +8827,6 @@ window.TOP_ARTICLES = {
             },
             {
               "position": 33,
-              "id": "01m31kyzdcg46gp6d8vghws87e",
-              "title": "How Heated Rivalry Imagines a More Inclusive NHL",
-              "author": null,
-              "siteName": "Literary  Hub",
-              "category": "rss",
-              "language": null,
-              "readingTime": "9 mins",
-              "readingMinutes": 9,
-              "wordCount": 2379,
-              "publishedDate": "2026-09-21",
-              "savedDate": "2026-09-21T09:15:10.197000+00:00",
-              "imageUrl": "https://s26162.pcdn.co/wp-content/uploads/2026/09/heated-rivalry-queer-hockey-768x411.jpg",
-              "sourceUrl": "https://lithub.com/how-heated-rivalry-imagines-a-more-inclusive-nhl/",
-              "readwiseUrl": "https://read.readwise.io/read/01m31kyzdcg46gp6d8vghws87e",
-              "summary": "“I know there are gay guys in the NHL, because I met one of my teammate’s boyfriends. [But] it’s impossible for a gay hockey player to come out within the next five or even ten years; the media attention would",
-              "whyRead": "Raakt je interesse in cultuur en representatie: deze analyse laat zien hoe Heated Rivalry een inclusievere sociale wereld voorstelbaar maakt via populaire fictie.",
-              "bestMoment": "ontspannen",
-              "tags": [
-                "arts & culture",
-                "entertainment & pop culture",
-                "social psychology & interpersonal dynamics"
-              ],
-              "coreInterests": [
-                "sociologie",
-                "cultuur_games_film"
-              ],
-              "alsoIn": []
-            },
-            {
-              "position": 34,
               "id": "01khr5h2d75yj0yt1v6seck4nt",
               "title": "On the compulsion to make art",
               "author": null,
@@ -8884,6 +8852,36 @@ window.TOP_ARTICLES = {
               "coreInterests": [
                 "sociologie",
                 "schrijven"
+              ],
+              "alsoIn": []
+            },
+            {
+              "position": 34,
+              "id": "01m05be2mdpdf3vg9xy5xr0kcz",
+              "title": "The Art of Donald McGill",
+              "author": null,
+              "siteName": "The Orwell Foundation",
+              "category": "article",
+              "language": null,
+              "readingTime": "16 mins",
+              "readingMinutes": 16,
+              "wordCount": 4128,
+              "publishedDate": "2010-10-20",
+              "savedDate": "2026-08-16T13:16:03.085000+00:00",
+              "imageUrl": null,
+              "sourceUrl": "https://www.orwellfoundation.com/the-orwell-foundation/orwell/essays-and-other-works/the-art-of-donald-mcgill/",
+              "readwiseUrl": "https://read.readwise.io/read/01m05be2mdpdf3vg9xy5xr0kcz",
+              "summary": "This material remains under copyright in some jurisdictions, including the United States, and is reproduced here with the kind assistance of the Orwell Estate.  Who does not know the ‘comics’ of the cheap stationers’ windows, the penny or twopenny coloured postcards with their endless succession of fat women in tight bathing-dresses and their crude drawing...  <a class=\"excerpt-read-more\" href=\"https://www.orwellfoundation.com/the-orwell-foundation/orwell/essays-and-other-works/the-art-of-donald-mcgill/\" title=\"ReadThe Art of Donald McGill\">Read more »</a>",
+              "whyRead": "Raakt je interesse in cultuurgeschiedenis en Orwell als essayist — hij ontleedt hier op zijn kenmerkend scherpe, persoonlijke manier volkscultuur (komische ansichtkaarten) als spiegel van maatschappelijke moraal. Raakt daarnaast je interesse in sociale psychologie en interpersoonlijke dynamiek.",
+              "bestMoment": "ontspannen",
+              "tags": [
+                "arts & culture",
+                "philosophy",
+                "totalitarianism & fascism"
+              ],
+              "coreInterests": [
+                "filosofie",
+                "ideologie"
               ],
               "alsoIn": []
             },
@@ -9224,36 +9222,6 @@ window.TOP_ARTICLES = {
             },
             {
               "position": 46,
-              "id": "01m2yq9bkmjfp60fxn60q6zfyp",
-              "title": "Kiss The Ring: Richard Wagner’s Opera Festival in the Age of AI",
-              "author": null,
-              "siteName": "The Paris Review",
-              "category": "rss",
-              "language": null,
-              "readingTime": "11 mins",
-              "readingMinutes": 11,
-              "wordCount": 2895,
-              "publishedDate": "2026-09-11",
-              "savedDate": "2026-09-20T06:15:20.797000+00:00",
-              "imageUrl": "https://www.theparisreview.org/blog/wp-content/uploads/2017/07/cropped-hadada-1-270x270.png",
-              "sourceUrl": "https://www.theparisreview.org/blog/2026/09/11/richard-wagners-opera-festival-in-the-age-of-ai/",
-              "readwiseUrl": "https://read.readwise.io/read/01m2yq9bkmjfp60fxn60q6zfyp",
-              "summary": "“Artificial Intelligence will take part on stage,\" the website informed us, \"not as a character, but as an image-generating force.\"",
-              "whyRead": "Raakt je interesse in cultuur, geschiedenis en de politieke werking van kunst: Krithika Varagur bezoekt Bayreuth als Wagneriaans festival dat tegelijk antisemitisme, nazistische erfenis en hedendaagse AI-enscenering draagt. De historische lading maakt dit meer dan een operarecensie.",
-              "bestMoment": "kritisch",
-              "tags": [
-                "arts & culture",
-                "history",
-                "totalitarianism & fascism"
-              ],
-              "coreInterests": [
-                "ideologie",
-                "geschiedenis"
-              ],
-              "alsoIn": []
-            },
-            {
-              "position": 47,
               "id": "01k7pn0gythp69p15376f659gx",
               "title": "Interdisciplinary Deep Reads: Using 1 Classic Novel to Self-Study Multiple Humanities",
               "author": null,
@@ -9282,7 +9250,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 48,
+              "position": 47,
               "id": "01kvcgsfekyqqc5b9t3nmrge8m",
               "title": "Hoera, het is Waterloodag!",
               "author": null,
@@ -9308,6 +9276,36 @@ window.TOP_ARTICLES = {
               "coreInterests": [
                 "geschiedenis",
                 "sociologie"
+              ],
+              "alsoIn": []
+            },
+            {
+              "position": 48,
+              "id": "01m2yq9bkmjfp60fxn60q6zfyp",
+              "title": "Kiss The Ring: Richard Wagner’s Opera Festival in the Age of AI",
+              "author": null,
+              "siteName": "The Paris Review",
+              "category": "rss",
+              "language": null,
+              "readingTime": "11 mins",
+              "readingMinutes": 11,
+              "wordCount": 2895,
+              "publishedDate": "2026-09-11",
+              "savedDate": "2026-09-20T06:15:20.797000+00:00",
+              "imageUrl": "https://www.theparisreview.org/blog/wp-content/uploads/2017/07/cropped-hadada-1-270x270.png",
+              "sourceUrl": "https://www.theparisreview.org/blog/2026/09/11/richard-wagners-opera-festival-in-the-age-of-ai/",
+              "readwiseUrl": "https://read.readwise.io/read/01m2yq9bkmjfp60fxn60q6zfyp",
+              "summary": "“Artificial Intelligence will take part on stage,\" the website informed us, \"not as a character, but as an image-generating force.\"",
+              "whyRead": "Raakt je interesse in cultuur, geschiedenis en de politieke werking van kunst: Krithika Varagur bezoekt Bayreuth als Wagneriaans festival dat tegelijk antisemitisme, nazistische erfenis en hedendaagse AI-enscenering draagt. De historische lading maakt dit meer dan een operarecensie.",
+              "bestMoment": "kritisch",
+              "tags": [
+                "arts & culture",
+                "history",
+                "totalitarianism & fascism"
+              ],
+              "coreInterests": [
+                "ideologie",
+                "geschiedenis"
               ],
               "alsoIn": []
             },
@@ -9433,6 +9431,36 @@ window.TOP_ARTICLES = {
             },
             {
               "position": 53,
+              "id": "01ksftktanvm593t6d9871cmm4",
+              "title": "This week: a long walk on a beach, and ancient Roman graffiti.",
+              "author": null,
+              "siteName": null,
+              "category": "email",
+              "language": null,
+              "readingTime": "3 mins",
+              "readingMinutes": 3,
+              "wordCount": 533,
+              "publishedDate": "2026-05-25",
+              "savedDate": "2026-05-25T15:03:51.381000+00:00",
+              "imageUrl": null,
+              "sourceUrl": "mailto:reader-forwarded-email/62457fc82f71f7bc4ea7096170e9317c",
+              "readwiseUrl": "https://read.readwise.io/read/01ksftktanvm593t6d9871cmm4",
+              "summary": "And finally, on TikTok: I have no context for this inspection of industrial steel in the central belt of China, but I think that's the point. (Alternate link for desktop.",
+              "whyRead": "Alleen nuttig als lichte link-oogst rond cultuur, geschiedenis en internetcuriosa; de sterkste haak is het Hoplite Experiment als toegankelijke vorm van experimentele geschiedenis.",
+              "bestMoment": "ontspannen",
+              "tags": [
+                "arts & culture",
+                "entertainment & pop culture",
+                "history"
+              ],
+              "coreInterests": [
+                "geschiedenis",
+                "cultuur_games_film"
+              ],
+              "alsoIn": []
+            },
+            {
+              "position": 54,
               "id": "01kt9sbc2hgkymt9expprgkgdp",
               "title": "In de Apocalyps is de vrouw een teken van hoop",
               "author": null,
@@ -9462,7 +9490,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 54,
+              "position": 55,
               "id": "01m2j004hvhgzyfq7fx9y57rec",
               "title": "How to make things easier with ADHD",
               "author": null,
@@ -9493,7 +9521,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 55,
+              "position": 56,
               "id": "01m31krew5wqhvvfn07r816aq7",
               "title": "The Archive Talks Back: Eight Books That Wrest Humanity From the Record",
               "author": null,
@@ -9523,36 +9551,6 @@ window.TOP_ARTICLES = {
               "alsoIn": [
                 "aaa-adhd-top-100"
               ]
-            },
-            {
-              "position": 56,
-              "id": "01ksftktanvm593t6d9871cmm4",
-              "title": "This week: a long walk on a beach, and ancient Roman graffiti.",
-              "author": null,
-              "siteName": null,
-              "category": "email",
-              "language": null,
-              "readingTime": "3 mins",
-              "readingMinutes": 3,
-              "wordCount": 533,
-              "publishedDate": "2026-05-25",
-              "savedDate": "2026-05-25T15:03:51.381000+00:00",
-              "imageUrl": null,
-              "sourceUrl": "mailto:reader-forwarded-email/62457fc82f71f7bc4ea7096170e9317c",
-              "readwiseUrl": "https://read.readwise.io/read/01ksftktanvm593t6d9871cmm4",
-              "summary": "And finally, on TikTok: I have no context for this inspection of industrial steel in the central belt of China, but I think that's the point. (Alternate link for desktop.",
-              "whyRead": "Alleen nuttig als lichte link-oogst rond cultuur, geschiedenis en internetcuriosa; de sterkste haak is het Hoplite Experiment als toegankelijke vorm van experimentele geschiedenis.",
-              "bestMoment": "ontspannen",
-              "tags": [
-                "arts & culture",
-                "entertainment & pop culture",
-                "history"
-              ],
-              "coreInterests": [
-                "geschiedenis",
-                "cultuur_games_film"
-              ],
-              "alsoIn": []
             },
             {
               "position": 57,
@@ -10168,6 +10166,36 @@ window.TOP_ARTICLES = {
             },
             {
               "position": 78,
+              "id": "01m13bydjdttq1jnhmnt13k22z",
+              "title": "Ladies of the ’80s",
+              "author": null,
+              "siteName": "Longreads",
+              "category": "article",
+              "language": null,
+              "readingTime": "23 mins",
+              "readingMinutes": 23,
+              "wordCount": 5896,
+              "publishedDate": "2026-08-27",
+              "savedDate": "2026-08-28T05:02:11.534000+00:00",
+              "imageUrl": "https://i0.wp.com/longreads.com/wp-content/uploads/2026/08/LadiesOfThe80sE.png?fit=2400%2C1400&quality=80&ssl=1",
+              "sourceUrl": "https://longreads.com/2026/08/27/80s-ladies-lisa-whittington-hill/",
+              "readwiseUrl": "https://read.readwise.io/read/01m13bydjdttq1jnhmnt13k22z",
+              "summary": "How Madonna, Grace Jones, Joan Jett, Whitney Houston, and their contemporaries broke the stodgy musical mold of the '60s and '70s to inspire generations of women to pick up an instrument and learn to play music.",
+              "whyRead": "Raakt je interesse in muziek als cultuurvorm en in de geschiedenis van representatie. Dit persoonlijke essay volgt hoe vrouwelijke popartiesten in de jaren tachtig esthetische en institutionele grenzen doorbraken.",
+              "bestMoment": "ontspannen",
+              "tags": [
+                "arts & culture",
+                "entertainment & pop culture",
+                "history"
+              ],
+              "coreInterests": [
+                "geschiedenis",
+                "cultuur_games_film"
+              ],
+              "alsoIn": []
+            },
+            {
+              "position": 79,
               "id": "01m2ymxwfncx98gmphge27wnje",
               "title": "why we never finish \"the artists' way\"",
               "author": null,
@@ -10198,7 +10226,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 79,
+              "position": 80,
               "id": "01j421m304fbn5rwfh0a9bpzp3",
               "title": "Fear as a Game",
               "author": null,
@@ -10227,7 +10255,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 80,
+              "position": 81,
               "id": "01jkh2vn8hfm2b2ys7eefgrw9h",
               "title": "Advice for a friend who wants to start a blog",
               "author": null,
@@ -10256,7 +10284,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 81,
+              "position": 82,
               "id": "01k7j6p8a88r4t4zarr6pqya82",
               "title": "Writing as communion",
               "author": null,
@@ -10285,7 +10313,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 82,
+              "position": 83,
               "id": "01k7qbg40qvbeqszm5nr2wpmyz",
               "title": "Dostoevsky as lover",
               "author": null,
@@ -10314,7 +10342,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 83,
+              "position": 84,
               "id": "01kc53cvnp2fqe09v8vmbym5mx",
               "title": "🎓 On Teleportation & Understanding via Writing",
               "author": null,
@@ -10343,7 +10371,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 84,
+              "position": 85,
               "id": "01kchxs5s6y615eazs4hhqgm7h",
               "title": "A list of books and essays that I love",
               "author": null,
@@ -10372,7 +10400,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 85,
+              "position": 86,
               "id": "01kfvhtf2ba0mpxx157hg6y663",
               "title": "The secret to being happy in 2026? It’s far, far simpler than you think …",
               "author": null,
@@ -10401,7 +10429,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 86,
+              "position": 87,
               "id": "01kn4c4mv24kk2vjxqcn0y6efj",
               "title": "Days are enormous",
               "author": null,
@@ -10426,36 +10454,6 @@ window.TOP_ARTICLES = {
               ],
               "coreInterests": [
                 "schrijven"
-              ],
-              "alsoIn": []
-            },
-            {
-              "position": 87,
-              "id": "01m13bydjdttq1jnhmnt13k22z",
-              "title": "Ladies of the ’80s",
-              "author": null,
-              "siteName": "Longreads",
-              "category": "article",
-              "language": null,
-              "readingTime": "23 mins",
-              "readingMinutes": 23,
-              "wordCount": 5896,
-              "publishedDate": "2026-08-27",
-              "savedDate": "2026-08-28T05:02:11.534000+00:00",
-              "imageUrl": "https://i0.wp.com/longreads.com/wp-content/uploads/2026/08/LadiesOfThe80sE.png?fit=2400%2C1400&quality=80&ssl=1",
-              "sourceUrl": "https://longreads.com/2026/08/27/80s-ladies-lisa-whittington-hill/",
-              "readwiseUrl": "https://read.readwise.io/read/01m13bydjdttq1jnhmnt13k22z",
-              "summary": "How Madonna, Grace Jones, Joan Jett, Whitney Houston, and their contemporaries broke the stodgy musical mold of the '60s and '70s to inspire generations of women to pick up an instrument and learn to play music.",
-              "whyRead": "Raakt je interesse in muziek als cultuurvorm en in de geschiedenis van representatie. Dit persoonlijke essay volgt hoe vrouwelijke popartiesten in de jaren tachtig esthetische en institutionele grenzen doorbraken.",
-              "bestMoment": "ontspannen",
-              "tags": [
-                "arts & culture",
-                "entertainment & pop culture",
-                "history"
-              ],
-              "coreInterests": [
-                "geschiedenis",
-                "cultuur_games_film"
               ],
               "alsoIn": []
             },
@@ -10605,181 +10603,6 @@ window.TOP_ARTICLES = {
             },
             {
               "position": 93,
-              "id": "01krm5d32nfhsa44jvbq4s6nny",
-              "title": "📚 Fear, War, & God: Post-Rationalist Philosophy... in SPAAAAAACE",
-              "author": null,
-              "siteName": "Manuscriptions",
-              "category": "article",
-              "language": null,
-              "readingTime": "10 mins",
-              "readingMinutes": 10,
-              "wordCount": 2547,
-              "publishedDate": "2025-05-02",
-              "savedDate": "2026-05-14T21:13:41.281000+00:00",
-              "imageUrl": "https://substackcdn.com/image/fetch/w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff6b84ecf-9d49-4631-b5a0-1b131af17fd5_1536x1024.png",
-              "sourceUrl": "https://www.eleanorkonik.com/p/fear-war-and-god-post-rationalist",
-              "readwiseUrl": "https://read.readwise.io/read/01krm5d32nfhsa44jvbq4s6nny",
-              "summary": "A Review of the War Dogs Trilogy by Greg Bear",
-              "whyRead": "Konik gebruikt een militaire SF-review als opstap naar angst, pijn, oorlogsethiek, religie en wereldbouw. Shortlist, omdat dit precies fantasy/SF als cultuurvorm behandelt: genrelezing als filosofisch instrument.",
-              "bestMoment": "ontspannen",
-              "tags": [
-                "arts & culture",
-                "existentialism",
-                "philosophy"
-              ],
-              "coreInterests": [
-                "filosofie"
-              ],
-              "alsoIn": []
-            },
-            {
-              "position": 94,
-              "id": "01kxn6sfvvpwapf12145w6x7sv",
-              "title": "Essays In Support of the Null Hypothesis",
-              "author": null,
-              "siteName": "Substack",
-              "category": "email",
-              "language": null,
-              "readingTime": "10 mins",
-              "readingMinutes": 10,
-              "wordCount": 2470,
-              "publishedDate": "2026-07-16",
-              "savedDate": "2026-07-16T10:15:39.644000+00:00",
-              "imageUrl": null,
-              "sourceUrl": "mailto:reader-forwarded-email/be57ff22e4bb06d5688cebea835d968c",
-              "readwiseUrl": "https://read.readwise.io/read/01kxn6sfvvpwapf12145w6x7sv",
-              "summary": "There’s a scientific journal called the Journal of Articles in Support of the Null Hypothesis.",
-              "whyRead": "Sterke meta-essay over mislukte ideeën, met precies de combinatie van essaycraft, epistemische nederigheid en filosofische diepgang die bij jouw leesstijl past. Vooral de stukken over slechte verklaringen, reductionisme en waarom een idee toch geen essay wordt zijn bruikbaar voor denken én schrijven.",
-              "bestMoment": "reflectief",
-              "tags": [
-                "arts & culture",
-                "philosophy",
-                "science"
-              ],
-              "coreInterests": [
-                "filosofie"
-              ],
-              "alsoIn": []
-            },
-            {
-              "position": 95,
-              "id": "01m02v2mszvk3cjaw44d26cmvx",
-              "title": "Het zachte tegengif heet verwondering",
-              "author": null,
-              "siteName": "Substack",
-              "category": "email",
-              "language": null,
-              "readingTime": "24 mins",
-              "readingMinutes": 24,
-              "wordCount": 6125,
-              "publishedDate": "2026-08-15",
-              "savedDate": "2026-08-15T13:51:42.400000+00:00",
-              "imageUrl": null,
-              "sourceUrl": "mailto:reader-forwarded-email/a92a20561de41a45813c159e461adb63",
-              "readwiseUrl": "https://read.readwise.io/read/01m02v2mszvk3cjaw44d26cmvx",
-              "summary": "Dit essay blijft openbaar toegankelijk. Heeft dit schrijven je op de een of andere manier geïnspireerd of misschien tot nadenken aangezet?",
-              "whyRead": "Raakt je kerninteresses in filosofie, politieke betrokkenheid, kunst en sciencefiction als denkruimte. Winters verbindt Arendt, epistemische emoties, Le Guin en film tot een eigenzinnig pleidooi voor verwondering als aandacht én handelingsvermogen.",
-              "bestMoment": "reflectief",
-              "tags": [
-                "arts & culture",
-                "epistemology",
-                "philosophy"
-              ],
-              "coreInterests": [
-                "filosofie"
-              ],
-              "alsoIn": []
-            },
-            {
-              "position": 96,
-              "id": "01m1kpjvpkpjy10c0zp09d0hty",
-              "title": "How to be useless",
-              "author": null,
-              "siteName": "Psyche",
-              "category": "article",
-              "language": null,
-              "readingTime": "13 mins",
-              "readingMinutes": 13,
-              "wordCount": 3191,
-              "publishedDate": "2022-01-12",
-              "savedDate": "2026-09-03T13:15:58.035000+00:00",
-              "imageUrl": "https://omicron.aeon.co/images/e5c0f474-e852-4451-927f-6d52aff018c9/1500x1500.jpg",
-              "sourceUrl": "https://psyche.co/guides/how-to-wander-free-and-easy-through-life-by-being-useless",
-              "readwiseUrl": "https://read.readwise.io/read/01m1kpjvpkpjy10c0zp09d0hty",
-              "summary": "Follow the Daoist way – reclaim your life and happiness by letting go of the need to produce, strive or serve a purpose",
-              "whyRead": "Zet Zhuangzi’s idee van “nutteloosheid” tegenover moderne prestatiedruk en helpt je nadenken over werk, identiteit en een leven dat niet volledig door nut wordt beoordeeld.",
-              "bestMoment": "leergierig",
-              "tags": [
-                "arts & culture",
-                "personal growth & life philosophy",
-                "philosophy"
-              ],
-              "coreInterests": [
-                "filosofie"
-              ],
-              "alsoIn": []
-            },
-            {
-              "position": 97,
-              "id": "01m2yqbzq4smxxbt4kshtgb8fr",
-              "title": "Moby-Dick and the Indefinite Sublime",
-              "author": null,
-              "siteName": "The Yale Review",
-              "category": "rss",
-              "language": null,
-              "readingTime": "24 mins",
-              "readingMinutes": 24,
-              "wordCount": 6148,
-              "publishedDate": "2026-08-31",
-              "savedDate": "2026-09-20T06:16:58.924000+00:00",
-              "imageUrl": "https://d181q449nqu6en.cloudfront.net/content/craft/website-assets/_1200x630_crop_center-center_82_none/1_MB_The-Yale-Review_2019_006.jpeg?mtime=1679692338",
-              "sourceUrl": "https://yalereview.org/article/tom-mccarthy-indefinite-sublime",
-              "readwiseUrl": "https://read.readwise.io/read/01m2yqbzq4smxxbt4kshtgb8fr",
-              "summary": "On facing the white page\nDelivered by PolitePaul service",
-              "whyRead": "Raakt je interesse in filosofie en literaire vorm: Tom McCarthy leest *Moby-Dick* als een machine die taal naar het sublieme, de afgrond en het onbepaalde duwt. De combinatie van Kant, Lacan, Ahab, Pip en de zwarte personages vraagt aandacht maar levert een rijke kijk op hoe schrijven mogelijk wordt.",
-              "bestMoment": "geconcentreerd",
-              "tags": [
-                "arts & culture",
-                "fiction",
-                "philosophy"
-              ],
-              "coreInterests": [
-                "filosofie"
-              ],
-              "alsoIn": []
-            },
-            {
-              "position": 98,
-              "id": "01m33zntzjdfy5zehmvz4pfegc",
-              "title": "Medium Sets New Policies on AI-Generated Writing",
-              "author": null,
-              "siteName": "Plagiarism Today",
-              "category": "article",
-              "language": null,
-              "readingTime": "5 mins",
-              "readingMinutes": 5,
-              "wordCount": 1185,
-              "publishedDate": "2024-04-11",
-              "savedDate": "2026-09-22T07:18:25.522000+00:00",
-              "imageUrl": "https://cdn.plagiarismtoday.com/wp-content/uploads/2024/04/mediumai-675-sized.png",
-              "sourceUrl": "https://www.plagiarismtoday.com/2024/04/11/medium-sets-new-policies-on-ai-generated-writing/",
-              "readwiseUrl": "https://read.readwise.io/read/01m33zntzjdfy5zehmvz4pfegc",
-              "summary": "The onilne writing website Medium has announced new policies for AI-generated text This includes a ban on AI content behind the paywall.",
-              "whyRead": "Een compacte analyse van Mediums beleidswijzigingen rond AI-gegenereerde en AI-ondersteunde tekst.",
-              "bestMoment": "wanneer je platformbeleid en auteurschap wilt vergelijken",
-              "tags": [
-                "ai ethics & society",
-                "arts & culture",
-                "organizational behavior & culture",
-                "technology"
-              ],
-              "coreInterests": [
-                "agile"
-              ],
-              "alsoIn": []
-            },
-            {
-              "position": 99,
               "id": "01kaen0f4sd6p0wsrv0fw7320f",
               "title": "🌲 The Best \"Gamified X\" App is a GAME",
               "author": null,
@@ -10808,7 +10631,123 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 100,
+              "position": 94,
+              "id": "01krm5d32nfhsa44jvbq4s6nny",
+              "title": "📚 Fear, War, & God: Post-Rationalist Philosophy... in SPAAAAAACE",
+              "author": null,
+              "siteName": "Manuscriptions",
+              "category": "article",
+              "language": null,
+              "readingTime": "10 mins",
+              "readingMinutes": 10,
+              "wordCount": 2547,
+              "publishedDate": "2025-05-02",
+              "savedDate": "2026-05-14T21:13:41.281000+00:00",
+              "imageUrl": "https://substackcdn.com/image/fetch/w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff6b84ecf-9d49-4631-b5a0-1b131af17fd5_1536x1024.png",
+              "sourceUrl": "https://www.eleanorkonik.com/p/fear-war-and-god-post-rationalist",
+              "readwiseUrl": "https://read.readwise.io/read/01krm5d32nfhsa44jvbq4s6nny",
+              "summary": "A Review of the War Dogs Trilogy by Greg Bear",
+              "whyRead": "Konik gebruikt een militaire SF-review als opstap naar angst, pijn, oorlogsethiek, religie en wereldbouw. Shortlist, omdat dit precies fantasy/SF als cultuurvorm behandelt: genrelezing als filosofisch instrument.",
+              "bestMoment": "ontspannen",
+              "tags": [
+                "arts & culture",
+                "existentialism",
+                "philosophy"
+              ],
+              "coreInterests": [
+                "filosofie"
+              ],
+              "alsoIn": []
+            },
+            {
+              "position": 95,
+              "id": "01kxn6sfvvpwapf12145w6x7sv",
+              "title": "Essays In Support of the Null Hypothesis",
+              "author": null,
+              "siteName": "Substack",
+              "category": "email",
+              "language": null,
+              "readingTime": "10 mins",
+              "readingMinutes": 10,
+              "wordCount": 2470,
+              "publishedDate": "2026-07-16",
+              "savedDate": "2026-07-16T10:15:39.644000+00:00",
+              "imageUrl": null,
+              "sourceUrl": "mailto:reader-forwarded-email/be57ff22e4bb06d5688cebea835d968c",
+              "readwiseUrl": "https://read.readwise.io/read/01kxn6sfvvpwapf12145w6x7sv",
+              "summary": "There’s a scientific journal called the Journal of Articles in Support of the Null Hypothesis.",
+              "whyRead": "Sterke meta-essay over mislukte ideeën, met precies de combinatie van essaycraft, epistemische nederigheid en filosofische diepgang die bij jouw leesstijl past. Vooral de stukken over slechte verklaringen, reductionisme en waarom een idee toch geen essay wordt zijn bruikbaar voor denken én schrijven.",
+              "bestMoment": "reflectief",
+              "tags": [
+                "arts & culture",
+                "philosophy",
+                "science"
+              ],
+              "coreInterests": [
+                "filosofie"
+              ],
+              "alsoIn": []
+            },
+            {
+              "position": 96,
+              "id": "01m02v2mszvk3cjaw44d26cmvx",
+              "title": "Het zachte tegengif heet verwondering",
+              "author": null,
+              "siteName": "Substack",
+              "category": "email",
+              "language": null,
+              "readingTime": "24 mins",
+              "readingMinutes": 24,
+              "wordCount": 6125,
+              "publishedDate": "2026-08-15",
+              "savedDate": "2026-08-15T13:51:42.400000+00:00",
+              "imageUrl": null,
+              "sourceUrl": "mailto:reader-forwarded-email/a92a20561de41a45813c159e461adb63",
+              "readwiseUrl": "https://read.readwise.io/read/01m02v2mszvk3cjaw44d26cmvx",
+              "summary": "Dit essay blijft openbaar toegankelijk. Heeft dit schrijven je op de een of andere manier geïnspireerd of misschien tot nadenken aangezet?",
+              "whyRead": "Raakt je kerninteresses in filosofie, politieke betrokkenheid, kunst en sciencefiction als denkruimte. Winters verbindt Arendt, epistemische emoties, Le Guin en film tot een eigenzinnig pleidooi voor verwondering als aandacht én handelingsvermogen.",
+              "bestMoment": "reflectief",
+              "tags": [
+                "arts & culture",
+                "epistemology",
+                "philosophy"
+              ],
+              "coreInterests": [
+                "filosofie"
+              ],
+              "alsoIn": []
+            },
+            {
+              "position": 97,
+              "id": "01m1kpjvpkpjy10c0zp09d0hty",
+              "title": "How to be useless",
+              "author": null,
+              "siteName": "Psyche",
+              "category": "article",
+              "language": null,
+              "readingTime": "13 mins",
+              "readingMinutes": 13,
+              "wordCount": 3191,
+              "publishedDate": "2022-01-12",
+              "savedDate": "2026-09-03T13:15:58.035000+00:00",
+              "imageUrl": "https://omicron.aeon.co/images/e5c0f474-e852-4451-927f-6d52aff018c9/1500x1500.jpg",
+              "sourceUrl": "https://psyche.co/guides/how-to-wander-free-and-easy-through-life-by-being-useless",
+              "readwiseUrl": "https://read.readwise.io/read/01m1kpjvpkpjy10c0zp09d0hty",
+              "summary": "Follow the Daoist way – reclaim your life and happiness by letting go of the need to produce, strive or serve a purpose",
+              "whyRead": "Zet Zhuangzi’s idee van “nutteloosheid” tegenover moderne prestatiedruk en helpt je nadenken over werk, identiteit en een leven dat niet volledig door nut wordt beoordeeld.",
+              "bestMoment": "leergierig",
+              "tags": [
+                "arts & culture",
+                "personal growth & life philosophy",
+                "philosophy"
+              ],
+              "coreInterests": [
+                "filosofie"
+              ],
+              "alsoIn": []
+            },
+            {
+              "position": 98,
               "id": "01m2sqqyethn4tjwc5asrw0ysb",
               "title": "#232 - Soms moet je een PlayStation kopen",
               "author": null,
@@ -10833,6 +10772,65 @@ window.TOP_ARTICLES = {
               ],
               "coreInterests": [
                 "cultuur_games_film"
+              ],
+              "alsoIn": []
+            },
+            {
+              "position": 99,
+              "id": "01m2yqbzq4smxxbt4kshtgb8fr",
+              "title": "Moby-Dick and the Indefinite Sublime",
+              "author": null,
+              "siteName": "The Yale Review",
+              "category": "rss",
+              "language": null,
+              "readingTime": "24 mins",
+              "readingMinutes": 24,
+              "wordCount": 6148,
+              "publishedDate": "2026-08-31",
+              "savedDate": "2026-09-20T06:16:58.924000+00:00",
+              "imageUrl": "https://d181q449nqu6en.cloudfront.net/content/craft/website-assets/_1200x630_crop_center-center_82_none/1_MB_The-Yale-Review_2019_006.jpeg?mtime=1679692338",
+              "sourceUrl": "https://yalereview.org/article/tom-mccarthy-indefinite-sublime",
+              "readwiseUrl": "https://read.readwise.io/read/01m2yqbzq4smxxbt4kshtgb8fr",
+              "summary": "On facing the white page\nDelivered by PolitePaul service",
+              "whyRead": "Raakt je interesse in filosofie en literaire vorm: Tom McCarthy leest *Moby-Dick* als een machine die taal naar het sublieme, de afgrond en het onbepaalde duwt. De combinatie van Kant, Lacan, Ahab, Pip en de zwarte personages vraagt aandacht maar levert een rijke kijk op hoe schrijven mogelijk wordt.",
+              "bestMoment": "geconcentreerd",
+              "tags": [
+                "arts & culture",
+                "fiction",
+                "philosophy"
+              ],
+              "coreInterests": [
+                "filosofie"
+              ],
+              "alsoIn": []
+            },
+            {
+              "position": 100,
+              "id": "01m33zntzjdfy5zehmvz4pfegc",
+              "title": "Medium Sets New Policies on AI-Generated Writing",
+              "author": null,
+              "siteName": "Plagiarism Today",
+              "category": "article",
+              "language": null,
+              "readingTime": "5 mins",
+              "readingMinutes": 5,
+              "wordCount": 1185,
+              "publishedDate": "2024-04-11",
+              "savedDate": "2026-09-22T07:18:25.522000+00:00",
+              "imageUrl": "https://cdn.plagiarismtoday.com/wp-content/uploads/2024/04/mediumai-675-sized.png",
+              "sourceUrl": "https://www.plagiarismtoday.com/2024/04/11/medium-sets-new-policies-on-ai-generated-writing/",
+              "readwiseUrl": "https://read.readwise.io/read/01m33zntzjdfy5zehmvz4pfegc",
+              "summary": "The onilne writing website Medium has announced new policies for AI-generated text This includes a ban on AI content behind the paywall.",
+              "whyRead": "Een compacte analyse van Mediums beleidswijzigingen rond AI-gegenereerde en AI-ondersteunde tekst.",
+              "bestMoment": "wanneer je platformbeleid en auteurschap wilt vergelijken",
+              "tags": [
+                "ai ethics & society",
+                "arts & culture",
+                "organizational behavior & culture",
+                "technology"
+              ],
+              "coreInterests": [
+                "agile"
               ],
               "alsoIn": []
             }
@@ -16333,40 +16331,6 @@ window.TOP_ARTICLES = {
             },
             {
               "position": 71,
-              "id": "01m0m9hhar6fsa0z8j62knyx2f",
-              "title": "Waarom Oost-Duitsland nog steeds een van de meest atheïstische regio’s ter wereld is",
-              "author": null,
-              "siteName": "Substack",
-              "category": "email",
-              "language": null,
-              "readingTime": "8 mins",
-              "readingMinutes": 8,
-              "wordCount": 1877,
-              "publishedDate": "2026-08-22",
-              "savedDate": "2026-08-22T08:31:35.768000+00:00",
-              "imageUrl": null,
-              "sourceUrl": "mailto:reader-forwarded-email/46b0feb15364a6388ecaa63186cd0de3",
-              "readwiseUrl": "https://read.readwise.io/read/01m0m9hhar6fsa0z8j62knyx2f",
-              "summary": "De Oost-Duitse samenleving is door en door seculier. Zo seculier zelfs dat onderzoekers van een internationaal onderzoek uit 2012 geen enkele jongere onder de 28 konden vinden die in God geloofde.",
-              "whyRead": "Raakt je interesse in geschiedenis, totalitaire ideologieën en sociologie. Aan de hand van de DDR laat dit stuk zien hoe staatsmacht rituelen en middenveld kan vervangen — en waarom zulke culturele ingrepen generaties lang doorwerken. Raakt daarnaast je interesse in sociale psychologie en interpersoonlijke dynamiek.",
-              "bestMoment": "analytisch",
-              "tags": [
-                "history",
-                "sociology & social structures",
-                "totalitarianism & fascism"
-              ],
-              "coreInterests": [
-                "ideologie",
-                "geschiedenis",
-                "sociologie"
-              ],
-              "alsoIn": [
-                "aaa-top-100",
-                "aaa-short-top-100"
-              ]
-            },
-            {
-              "position": 72,
               "id": "01m0nepk6hxvzd70jd2769qtmm",
               "title": "Slavery and the American Revolution",
               "author": null,
@@ -16400,7 +16364,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 73,
+              "position": 72,
               "id": "01m207r5gtkhknjq6ezh237a4s",
               "title": "The Thief Who Wanted to Save the World",
               "author": null,
@@ -16436,7 +16400,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 74,
+              "position": 73,
               "id": "01m2gbthqrjaxjh99tqkckbc8f",
               "title": "Dear ADHDer: Please stop solving capacity problems with character upgrades",
               "author": null,
@@ -16471,7 +16435,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 75,
+              "position": 74,
               "id": "01m34234zjregxnqt87hqbh6gh",
               "title": "Elinor Ostrom’s Eight Rules for Successfully Governing a Commons",
               "author": null,
@@ -16506,7 +16470,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 76,
+              "position": 75,
               "id": "01kyab47vf7vat0n76fpwrgrj6",
               "title": "Your Book Review: Breakdown In Pakistan",
               "author": null,
@@ -16539,7 +16503,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 77,
+              "position": 76,
               "id": "01kysnmbwt86e2fk3axtde57h4",
               "title": "Keynote opening Digital Commons EDIC: Moving beyond the Digital Uncommons",
               "author": null,
@@ -16569,6 +16533,40 @@ window.TOP_ARTICLES = {
               ],
               "alsoIn": [
                 "aaa-top-100"
+              ]
+            },
+            {
+              "position": 77,
+              "id": "01m0m9hhar6fsa0z8j62knyx2f",
+              "title": "Waarom Oost-Duitsland nog steeds een van de meest atheïstische regio’s ter wereld is",
+              "author": null,
+              "siteName": "Substack",
+              "category": "email",
+              "language": null,
+              "readingTime": "8 mins",
+              "readingMinutes": 8,
+              "wordCount": 1877,
+              "publishedDate": "2026-08-22",
+              "savedDate": "2026-08-22T08:31:35.768000+00:00",
+              "imageUrl": null,
+              "sourceUrl": "mailto:reader-forwarded-email/46b0feb15364a6388ecaa63186cd0de3",
+              "readwiseUrl": "https://read.readwise.io/read/01m0m9hhar6fsa0z8j62knyx2f",
+              "summary": "De Oost-Duitse samenleving is door en door seculier. Zo seculier zelfs dat onderzoekers van een internationaal onderzoek uit 2012 geen enkele jongere onder de 28 konden vinden die in God geloofde.",
+              "whyRead": "Raakt je interesse in geschiedenis, totalitaire ideologieën en sociologie. Aan de hand van de DDR laat dit stuk zien hoe staatsmacht rituelen en middenveld kan vervangen — en waarom zulke culturele ingrepen generaties lang doorwerken. Raakt daarnaast je interesse in sociale psychologie en interpersoonlijke dynamiek.",
+              "bestMoment": "analytisch",
+              "tags": [
+                "history",
+                "sociology & social structures",
+                "totalitarianism & fascism"
+              ],
+              "coreInterests": [
+                "ideologie",
+                "geschiedenis",
+                "sociologie"
+              ],
+              "alsoIn": [
+                "aaa-top-100",
+                "aaa-short-top-100"
               ]
             },
             {
@@ -16764,36 +16762,6 @@ window.TOP_ARTICLES = {
             },
             {
               "position": 84,
-              "id": "01m2cwyrq374986jczh0y8x91b",
-              "title": "When the Revolution Came for Amy Cuddy - The New York Times",
-              "author": null,
-              "siteName": "New York Times",
-              "category": "article",
-              "language": null,
-              "readingTime": "34 mins",
-              "readingMinutes": 34,
-              "wordCount": 8921,
-              "publishedDate": "2017-10-18",
-              "savedDate": "2026-09-13T08:08:20.451000+00:00",
-              "imageUrl": "https://static01.nyt.com/images/2017/10/22/magazine/22cover/22cover-facebookJumbo.jpg?year=2017&h=550&w=1050&s=fa37b3952a8534296ad7972c7e51a74485446ea92bf43d6e4f7c48f31bcf67ef&k=ZQJBKqZ0VN",
-              "sourceUrl": "https://www.nytimes.com/2017/10/18/magazine/when-the-revolution-came-for-amy-cuddy.html",
-              "readwiseUrl": "https://read.readwise.io/read/01m2cwyrq374986jczh0y8x91b",
-              "summary": "As a young social psychologist, she played by the rules and won big: an influential study, a viral TED talk, a prestigious job at Harvard. Then, suddenly, the rules changed.",
-              "whyRead": "Raakt je interesse in sociale psychologie, wetenschap en organisatiecultuur: de Amy Cuddy-affaire laat zien hoe een populaire, kwetsbare claim botst met replicatie, status, media en publieke kritiek. Het stuk is waardevol omdat het zowel methodologische correctie als de menselijke schade van een vijandige wetenschappelijke cultuur zichtbaar maakt.",
-              "bestMoment": "kritisch",
-              "tags": [
-                "organizational behavior & culture",
-                "science",
-                "social psychology & interpersonal dynamics"
-              ],
-              "coreInterests": [
-                "sociologie",
-                "agile"
-              ],
-              "alsoIn": []
-            },
-            {
-              "position": 85,
               "id": "01m2hndcfjrxtfc5b27zeaqcke",
               "title": "Studio Ghibli’s Biggest Secret Is What Comes Next",
               "author": null,
@@ -16823,6 +16791,36 @@ window.TOP_ARTICLES = {
               "alsoIn": [
                 "aaa-luchtig-top-100"
               ]
+            },
+            {
+              "position": 85,
+              "id": "01m2cwyrq374986jczh0y8x91b",
+              "title": "When the Revolution Came for Amy Cuddy - The New York Times",
+              "author": null,
+              "siteName": "New York Times",
+              "category": "article",
+              "language": null,
+              "readingTime": "34 mins",
+              "readingMinutes": 34,
+              "wordCount": 8921,
+              "publishedDate": "2017-10-18",
+              "savedDate": "2026-09-13T08:08:20.451000+00:00",
+              "imageUrl": "https://static01.nyt.com/images/2017/10/22/magazine/22cover/22cover-facebookJumbo.jpg?year=2017&h=550&w=1050&s=fa37b3952a8534296ad7972c7e51a74485446ea92bf43d6e4f7c48f31bcf67ef&k=ZQJBKqZ0VN",
+              "sourceUrl": "https://www.nytimes.com/2017/10/18/magazine/when-the-revolution-came-for-amy-cuddy.html",
+              "readwiseUrl": "https://read.readwise.io/read/01m2cwyrq374986jczh0y8x91b",
+              "summary": "As a young social psychologist, she played by the rules and won big: an influential study, a viral TED talk, a prestigious job at Harvard. Then, suddenly, the rules changed.",
+              "whyRead": "Raakt je interesse in sociale psychologie, wetenschap en organisatiecultuur: de Amy Cuddy-affaire laat zien hoe een populaire, kwetsbare claim botst met replicatie, status, media en publieke kritiek. Het stuk is waardevol omdat het zowel methodologische correctie als de menselijke schade van een vijandige wetenschappelijke cultuur zichtbaar maakt.",
+              "bestMoment": "kritisch",
+              "tags": [
+                "organizational behavior & culture",
+                "science",
+                "social psychology & interpersonal dynamics"
+              ],
+              "coreInterests": [
+                "sociologie",
+                "agile"
+              ],
+              "alsoIn": []
             },
             {
               "position": 86,
@@ -27546,215 +27544,6 @@ window.TOP_ARTICLES = {
     "items": [
       {
         "position": null,
-        "id": "01m342q9e60zeah7dk6cb1tq0m",
-        "title": "The ‘boring phone’: stressed-out gen Z ditch smartphones for dumbphones",
-        "author": null,
-        "siteName": "the Guardian",
-        "category": "article",
-        "language": null,
-        "readingTime": "4 mins",
-        "readingMinutes": 4,
-        "wordCount": 970,
-        "publishedDate": "2024-04-27",
-        "savedDate": "2026-09-22T08:11:38.820000+00:00",
-        "imageUrl": "https://i.guim.co.uk/img/media/1281ece71d51d73684eb5e9945e828bcab27a0d7/0_67_5472_3283/master/5472.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdG8tZGVmYXVsdC5wbmc&enable=upscale&s=32e0649c2ce4d1ca69b8eba1b13e27b9",
-        "sourceUrl": "https://www.theguardian.com/society/2024/apr/27/the-boring-phone-stressed-out-gen-z-ditch-smartphones-for-dumbphones",
-        "readwiseUrl": "https://read.readwise.io/read/01m342q9e60zeah7dk6cb1tq0m",
-        "summary": "The feature-free phone, launched at Milan design week, is the latest device to tap into young people’s concerns about attention-harvesting and data privacy",
-        "whyRead": "Raakt je interesse in front-endontwikkeling, het open web en digitale cultuur. De bron biedt historische context en concrete ontwerp- of werkprincipes, met aanknopingspunten voor websites, digitale autonomie en gebruikerservaring.",
-        "bestMoment": "kritisch",
-        "tags": [
-          "front-end software development",
-          "sociology & social structures",
-          "technology"
-        ],
-        "coreInterests": [
-          "sociologie"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01m342q53ar2c1t9d2pn9yt7xd",
-        "title": "Rx for Indian Country: Tribal College Education",
-        "author": null,
-        "siteName": "Tribal College Journal of American Indian Higher Education",
-        "category": "article",
-        "language": null,
-        "readingTime": "11 mins",
-        "readingMinutes": 11,
-        "wordCount": 2857,
-        "publishedDate": "2016-05-02",
-        "savedDate": "2026-09-22T08:11:34.378000+00:00",
-        "imageUrl": "https://tribalcollegejournal.org/wp-content/uploads/rx-indian-country-1.jpg",
-        "sourceUrl": "https://tribalcollegejournal.org/rx-for-indian-country-tribal-college-education/",
-        "readwiseUrl": "https://read.readwise.io/read/01m342q53ar2c1t9d2pn9yt7xd",
-        "summary": "It is no secret that American Indian populations experience significantly higher rates of disease, including chronic illnesses and their effects.",
-        "whyRead": "Raakt je interesse in sociale psychologie en menselijke interactie. De bron biedt een toegankelijke uitleg die verwondering koppelt aan bewijs, met aanknopingspunten voor samenwerking, feedback en groepsgedrag.",
-        "bestMoment": "kritisch",
-        "tags": [
-          "behavioral psychology & coaching",
-          "science",
-          "technology"
-        ],
-        "coreInterests": [],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01m342q0ykvn0s6xnjah32vyqw",
-        "title": "Four Legged Healers: Horse Culture as Medicine",
-        "author": null,
-        "siteName": "Tribal College Journal of American Indian Higher Education",
-        "category": "article",
-        "language": null,
-        "readingTime": "9 mins",
-        "readingMinutes": 9,
-        "wordCount": 2191,
-        "publishedDate": "2016-05-02",
-        "savedDate": "2026-09-22T08:11:30.129000+00:00",
-        "imageUrl": "https://tribalcollegejournal.org/wp-content/uploads/four-legged-1.jpg",
-        "sourceUrl": "https://tribalcollegejournal.org/four-legged-healers-horse-culture-as-medicine/",
-        "readwiseUrl": "https://read.readwise.io/read/01m342q0ykvn0s6xnjah32vyqw",
-        "summary": "Horse culture-based healing and wellness efforts all across Indian Country are part of a major movement happening right now. It is a paradigm shift toward natural ways to live well.",
-        "whyRead": "Raakt je interesse in leren, schrijven en kennisbeheer. De bron biedt een inhoudelijke achtergrond die je helpt verbanden te leggen, met aanknopingspunten voor je eigen schrijf- en leerpraktijk.",
-        "bestMoment": "analytisch",
-        "tags": [
-          "history",
-          "learning & meta-learning",
-          "technology"
-        ],
-        "coreInterests": [
-          "geschiedenis"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01m342pvza7x2fjdctnza26k4w",
-        "title": "Social Roles and Social Norms",
-        "author": null,
-        "siteName": "Simply Psychology",
-        "category": "article",
-        "language": null,
-        "readingTime": "2 mins",
-        "readingMinutes": 2,
-        "wordCount": 511,
-        "publishedDate": "2022-11-03",
-        "savedDate": "2026-09-22T08:11:25.034000+00:00",
-        "imageUrl": null,
-        "sourceUrl": "https://www.simplypsychology.org/social-roles.html",
-        "readwiseUrl": "https://read.readwise.io/read/01m342pvza7x2fjdctnza26k4w",
-        "summary": "There are many ways that people can influence our behavior, but perhaps one of the most important is that the presence of others seems to set up expectations We do not expect people to behave",
-        "whyRead": "Raakt je interesse in front-endontwikkeling, het open web en digitale cultuur. De bron biedt historische context en concrete ontwerp- of werkprincipes, met aanknopingspunten voor websites, digitale autonomie en gebruikerservaring.",
-        "bestMoment": "leergierig",
-        "tags": [
-          "behavioral psychology & coaching",
-          "front-end software development",
-          "social psychology & interpersonal dynamics"
-        ],
-        "coreInterests": [
-          "sociologie"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01m342pr0cy45vdc9dxr6stt77",
-        "title": "Self Concept",
-        "author": null,
-        "siteName": "Simply Psychology",
-        "category": "article",
-        "language": null,
-        "readingTime": "7 mins",
-        "readingMinutes": 7,
-        "wordCount": 1646,
-        "publishedDate": null,
-        "savedDate": "2026-09-22T08:11:20.973000+00:00",
-        "imageUrl": null,
-        "sourceUrl": "https://www.simplypsychology.org/self-concept.html",
-        "readwiseUrl": "https://read.readwise.io/read/01m342pr0cy45vdc9dxr6stt77",
-        "summary": "According to Lewis awareness of the existential self begins as young as two to three months old and arises in part due to the relation the child has with the world.",
-        "whyRead": "Raakt je interesse in front-endontwikkeling, het open web en digitale cultuur. De bron biedt historische context en concrete ontwerp- of werkprincipes, met aanknopingspunten voor websites, digitale autonomie en gebruikerservaring.",
-        "bestMoment": "reflectief",
-        "tags": [
-          "behavioral psychology & coaching",
-          "front-end software development",
-          "social psychology & interpersonal dynamics"
-        ],
-        "coreInterests": [
-          "sociologie"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01m342pky2pp240a20mc7g0ayv",
-        "title": "The Yerkes-Dodson Law and Performance",
-        "author": null,
-        "siteName": "Simply Psychology",
-        "category": "article",
-        "language": null,
-        "readingTime": "12 mins",
-        "readingMinutes": 12,
-        "wordCount": 2953,
-        "publishedDate": "2021-11-15",
-        "savedDate": "2026-09-22T08:11:16.803000+00:00",
-        "imageUrl": null,
-        "sourceUrl": "https://www.simplypsychology.org/what-is-the-yerkes-dodson-law.html",
-        "readwiseUrl": "https://read.readwise.io/read/01m342pky2pp240a20mc7g0ayv",
-        "summary": "The Yerkes-Dodson law describes the empirical relationship between stress and performance.",
-        "whyRead": "Raakt je interesse in sociale psychologie en menselijke interactie. De bron biedt een bruikbaar begrippenkader voor gedrag en interactie, met aanknopingspunten voor samenwerking, feedback en groepsgedrag.",
-        "bestMoment": "analytisch",
-        "tags": [
-          "behavioral psychology & coaching",
-          "history",
-          "social psychology & interpersonal dynamics"
-        ],
-        "coreInterests": [
-          "geschiedenis",
-          "sociologie"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01m342pew0sas4638q17hnk83g",
-        "title": "You Probably Don’t Remember the Internet",
-        "author": null,
-        "siteName": "The Atlantic",
-        "category": "article",
-        "language": null,
-        "readingTime": "7 mins",
-        "readingMinutes": 7,
-        "wordCount": 1635,
-        "publishedDate": "2021-03-22",
-        "savedDate": "2026-09-22T08:11:11.617000+00:00",
-        "imageUrl": "https://cdn.theatlantic.com/thumbor/f9AmfqySk4YR5_BF_jVkaFxTL6M=/0x0:2000x1125/960x540/media/img/mt/2021/03/90sInternet/original.gif",
-        "sourceUrl": "https://www.theatlantic.com/technology/archive/2021/03/remember-the-internet/618350/",
-        "readwiseUrl": "https://read.readwise.io/read/01m342pew0sas4638q17hnk83g",
-        "summary": "No archive can fully capture the feeling of life online. A new serialized encyclopedia of internet subcultures is trying to do better, writes @kait_tiffany:",
-        "whyRead": "Raakt je interesse in front-endontwikkeling, het open web en digitale cultuur. De bron biedt historische context en concrete ontwerp- of werkprincipes, met aanknopingspunten voor websites, digitale autonomie en gebruikerservaring.",
-        "bestMoment": "kritisch",
-        "tags": [
-          "front-end software development",
-          "sociology & social structures",
-          "technology"
-        ],
-        "coreInterests": [
-          "sociologie"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
         "id": "01m342p2njkgrn1qpn8acvxf52",
         "title": "How to Give and Receive Criticism",
         "author": null,
@@ -27790,477 +27579,6 @@ window.TOP_ARTICLES = {
             "position": 42
           }
         ]
-      },
-      {
-        "position": null,
-        "id": "01m342nxhs4a1y32xrmmatnvtk",
-        "title": "Social media: Nothing new? Commonplace books as predecessor to Pinterest",
-        "author": null,
-        "siteName": "University of Texas in Austin",
-        "category": "article",
-        "language": null,
-        "readingTime": "2 mins",
-        "readingMinutes": 2,
-        "wordCount": 506,
-        "publishedDate": "2015-06-09",
-        "savedDate": "2026-09-22T08:10:53.881000+00:00",
-        "imageUrl": null,
-        "sourceUrl": "http://sites.utexas.edu/ransomcentermagazine/2015/06/09/social-media-nothing-new-commonplace-books-as-predecessor-to-pinterest/",
-        "readwiseUrl": "https://read.readwise.io/read/01m342nxhs4a1y32xrmmatnvtk",
-        "summary": "The Ransom Center’s Alice’s Adventures in Wonderland exhibition includes a commonplace book kept by Charles Dodgson (better known as Lewis Carroll) with information about ciphers, anagrams, stenography, and labyrinths.",
-        "whyRead": "Raakt je interesse in wetenschap en ideeën over de wereld. De bron biedt een toegankelijke uitleg die verwondering koppelt aan bewijs, met aanknopingspunten voor hoe je publieke claims en populaire verklaringen beoordeelt.",
-        "bestMoment": "analytisch",
-        "tags": [
-          "science",
-          "sociology & social structures",
-          "technology"
-        ],
-        "coreInterests": [
-          "sociologie"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01m342nsekqtyb4fpkwdrvzkm6",
-        "title": "H. P. Lovecraft's Commonplace Book",
-        "author": null,
-        "siteName": "WIRED",
-        "category": "article",
-        "language": null,
-        "readingTime": "19 mins",
-        "readingMinutes": 19,
-        "wordCount": 4860,
-        "publishedDate": "2011-07-04",
-        "savedDate": "2026-09-22T08:10:49.680000+00:00",
-        "imageUrl": null,
-        "sourceUrl": "https://www.wired.com/2011/07/h-p-lovecrafts-commonplace-book/",
-        "readwiseUrl": "https://read.readwise.io/read/01m342nsekqtyb4fpkwdrvzkm6",
-        "summary": "This book consists of ideas, images, & quotations hastily jotted down for possible future use in weird fiction.",
-        "whyRead": "Raakt je interesse in sociale psychologie en menselijke interactie. De bron biedt een bruikbaar begrippenkader voor gedrag en interactie, met aanknopingspunten voor samenwerking, feedback en groepsgedrag.",
-        "bestMoment": "kritisch",
-        "tags": [
-          "behavioral psychology & coaching",
-          "ethics",
-          "philosophy"
-        ],
-        "coreInterests": [
-          "filosofie"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01m342nn4z125f1r0vra9amvrr",
-        "title": "What have note-taking PKMs accomplished, really?",
-        "author": null,
-        "siteName": "brennan.day",
-        "category": "article",
-        "language": null,
-        "readingTime": "10 mins",
-        "readingMinutes": 10,
-        "wordCount": 2388,
-        "publishedDate": "2026-07-17",
-        "savedDate": "2026-09-22T08:10:45.279000+00:00",
-        "imageUrl": "https://brennan.day/assets/images/blog/objects.jpg",
-        "sourceUrl": "https://brennan.day/what-have-note-taking-pkms-accomplished-really/",
-        "readwiseUrl": "https://read.readwise.io/read/01m342nn4z125f1r0vra9amvrr",
-        "summary": "As somebody who writes a lot, I've always been interested in personal knowledge management systems and note-taking apps. But what do these frameworks and methodologies actually give to researchers and the broader world? Has there been a meaningful increase of wisdom since these became popular? I went to look for an answer.",
-        "whyRead": "Raakt je interesse in wetenschap en ideeën over de wereld. De bron biedt een toegankelijke uitleg die verwondering koppelt aan bewijs, met aanknopingspunten voor hoe je publieke claims en populaire verklaringen beoordeelt.",
-        "bestMoment": "analytisch",
-        "tags": [
-          "arts & culture",
-          "science",
-          "technology"
-        ],
-        "coreInterests": [],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01m342nf6hgxv084ypeqp8x2sb",
-        "title": "John Darnielle Is on a Roll",
-        "author": null,
-        "siteName": "PublishersWeekly.com",
-        "category": "article",
-        "language": null,
-        "readingTime": "16 mins",
-        "readingMinutes": 16,
-        "wordCount": 4143,
-        "publishedDate": "2017-02-02",
-        "savedDate": "2026-09-22T08:10:39.186000+00:00",
-        "imageUrl": "https://www.publishersweekly.com/images/data/ARTICLE_PHOTO/photo/000/045/45081-1.PNG",
-        "sourceUrl": "https://www.publishersweekly.com/pw/by-topic/authors/profiles/article/72658-john-darnielle-is-on-a-roll.html",
-        "readwiseUrl": "https://read.readwise.io/read/01m342nf6hgxv084ypeqp8x2sb",
-        "summary": "The brain behind indie rock band the Mountain Goats is back with the most precise gaming dice in the world and a new novel—and there are two more on the way.",
-        "whyRead": "Raakt je interesse in front-endontwikkeling, het open web en digitale cultuur. De bron biedt historische context en concrete ontwerp- of werkprincipes, met aanknopingspunten voor websites, digitale autonomie en gebruikerservaring.",
-        "bestMoment": "kritisch",
-        "tags": [
-          "front-end software development",
-          "sociology & social structures",
-          "technology"
-        ],
-        "coreInterests": [
-          "sociologie"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01m342nb0pze4dfnstwrc4y7hk",
-        "title": "John Darnielle Writes the Stories He Needs. Turns Out, We Need Them, Too.",
-        "author": null,
-        "siteName": "Esquire",
-        "category": "article",
-        "language": null,
-        "readingTime": "11 mins",
-        "readingMinutes": 11,
-        "wordCount": 2692,
-        "publishedDate": "2022-01-25",
-        "savedDate": "2026-09-22T08:10:34.902000+00:00",
-        "imageUrl": "https://hips.hearstapps.com/hmg-prod/images/credit-jade-wilson-1643039489246.jpeg?crop=1.00xw:0.334xh;0,0.257xh&resize=1200:*",
-        "sourceUrl": "https://www.esquire.com/entertainment/music/a38867790/john-darnielle-mountain-goats-devil-house-interview/",
-        "readwiseUrl": "https://read.readwise.io/read/01m342nb0pze4dfnstwrc4y7hk",
-        "summary": "The lead singer of the Mountain Goats is the writer behind a catalog of songs and novels—including his latest, Devil House—held together by a single truth: everybody hurts, sometimes.",
-        "whyRead": "Raakt je interesse in cultuur, muziek en verhalen. De bron biedt een essayistische of verhalende leeservaring, met aanknopingspunten voor je eigen schrijf- en leerpraktijk.",
-        "bestMoment": "reflectief",
-        "tags": [
-          "arts & culture",
-          "entertainment & pop culture",
-          "learning & meta-learning"
-        ],
-        "coreInterests": [
-          "cultuur_games_film"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01m342n6pf32n7bysjyg2zk9js",
-        "title": "On debating your inner critic",
-        "author": null,
-        "siteName": "thecreativeindependent.com",
-        "category": "article",
-        "language": null,
-        "readingTime": "12 mins",
-        "readingMinutes": 12,
-        "wordCount": 2944,
-        "publishedDate": "2022-11-03",
-        "savedDate": "2026-09-22T08:10:30.477000+00:00",
-        "imageUrl": "https://cdn.filestackcontent.com/wW6CkFalQJKvxjWqVozo",
-        "sourceUrl": "https://thecreativeindependent.com/people/musician-and-novelist-john-darnielle-on-debating-your-inner-critic/",
-        "readwiseUrl": "https://read.readwise.io/read/01m342n6pf32n7bysjyg2zk9js",
-        "summary": "Musician and Novelist John Darnielle discusses removing expectations, using doubt as motivation, and honoring the creative process inside you.",
-        "whyRead": "Raakt je interesse in sociale psychologie en menselijke interactie. De bron biedt een bruikbaar begrippenkader voor gedrag en interactie, met aanknopingspunten voor samenwerking, feedback en groepsgedrag.",
-        "bestMoment": "kritisch",
-        "tags": [
-          "arts & culture",
-          "behavioral psychology & coaching",
-          "history"
-        ],
-        "coreInterests": [
-          "geschiedenis"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01m342n2rs6xfcvqyq2mg8k83a",
-        "title": "As A Lyricist And Novelist, The Mountain Goats' Lead Man Writes About Pain",
-        "author": null,
-        "siteName": "NPR",
-        "category": "article",
-        "language": null,
-        "readingTime": "30 mins",
-        "readingMinutes": 30,
-        "wordCount": 7825,
-        "publishedDate": "2015-09-11",
-        "savedDate": "2026-09-22T08:10:26.457000+00:00",
-        "imageUrl": "https://media.npr.org/include/images/facebook-default-wide-s1400-c100.jpg",
-        "sourceUrl": "https://www.npr.org/2015/09/11/439189592/as-a-lyricist-and-novelist-the-mountain-goats-lead-man-writes-about-pain",
-        "readwiseUrl": "https://read.readwise.io/read/01m342n2rs6xfcvqyq2mg8k83a",
-        "summary": "Songwriter John Darnielle talks with Fresh Air about his difficult childhood, finding refuge in music and his novel, Wolf in White Van. Originally broadcast Sept. 17, 2014",
-        "whyRead": "Raakt je interesse in cultuur, muziek en verhalen. De bron biedt een essayistische of verhalende leeservaring, met aanknopingspunten voor je eigen schrijf- en leerpraktijk.",
-        "bestMoment": "reflectief",
-        "tags": [
-          "arts & culture",
-          "entertainment & pop culture",
-          "learning & meta-learning"
-        ],
-        "coreInterests": [
-          "cultuur_games_film"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01m342my7ese7qbzhpa3hgq962",
-        "title": "John Darnielle talks songwriting, storytelling and ‘Goths’ ahead of the Mountain Goats return to Iowa City",
-        "author": null,
-        "siteName": "Little Village",
-        "category": "article",
-        "language": null,
-        "readingTime": "8 mins",
-        "readingMinutes": 8,
-        "wordCount": 1918,
-        "publishedDate": "2017-09-11",
-        "savedDate": "2026-09-22T08:10:21.806000+00:00",
-        "imageUrl": "https://i0.wp.com/littlevillagemag.com/wp-content/uploads/2017/02/The-Mountain-Goats-2016.jpg?fit=760%2C511&ssl=1",
-        "sourceUrl": "https://littlevillagemag.com/john-darnielle-talks-songwriting-storytelling-and-goths-ahead-of-the-mountain-goats-return-to-iowa-city/",
-        "readwiseUrl": "https://read.readwise.io/read/01m342my7ese7qbzhpa3hgq962",
-        "summary": "The Mountain Goats w/ Samantha Crain Englert Theatre — Wednesday, Sept. 13 at 8 p.m. Now a quartet, the Mountain Goats return to Iowa City just shy of a year after their last performance here, now promoting the widely acclaimed album Goths. A few months ago, John Darnielle read from his newest novel, Universal Harvester, […]",
-        "whyRead": "Raakt je interesse in cultuur, muziek en verhalen. De bron biedt een toegankelijke ingang en praktische aanknopingspunten, met aanknopingspunten voor je eigen schrijf- en leerpraktijk.",
-        "bestMoment": "leergierig",
-        "tags": [
-          "arts & culture",
-          "entertainment & pop culture",
-          "learning & meta-learning"
-        ],
-        "coreInterests": [
-          "cultuur_games_film"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01m342mt5gx9z8t0a77nv7swgj",
-        "title": "2005: The Sunset Tree",
-        "author": null,
-        "siteName": "substack.com",
-        "category": "article",
-        "language": null,
-        "readingTime": "14 mins",
-        "readingMinutes": 14,
-        "wordCount": 3633,
-        "publishedDate": "2021-10-15",
-        "savedDate": "2026-09-22T08:10:17.646000+00:00",
-        "imageUrl": "https://substackcdn.com/image/youtube/w_728,c_limit/hZXvL3PZ1Pg",
-        "sourceUrl": "https://allhail.substack.com/p/2005-the-sunset-tree",
-        "readwiseUrl": "https://read.readwise.io/read/01m342mt5gx9z8t0a77nv7swgj",
-        "summary": "In December 2003, Darnielle’s sister, Theresa, called to tell him that their stepfather had died. Back in 1972, their parents, Mary and Max, had gotten divorced, and Mary had moved in with a family friend named Mike Noonan.",
-        "whyRead": "Raakt je interesse in wetenschap, ecologie en verwondering. De bron biedt een toegankelijke uitleg die verwondering koppelt aan bewijs, met aanknopingspunten voor hoe je publieke claims en populaire verklaringen beoordeelt.",
-        "bestMoment": "reflectief",
-        "tags": [
-          "environment & sustainability",
-          "history",
-          "science"
-        ],
-        "coreInterests": [
-          "geschiedenis"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01m342mn0r45by4g4jtqvmyztn",
-        "title": "Searching for John Darnielle",
-        "author": null,
-        "siteName": "PopMatters",
-        "category": "article",
-        "language": null,
-        "readingTime": "7 mins",
-        "readingMinutes": 7,
-        "wordCount": 1674,
-        "publishedDate": "2007-01-10",
-        "savedDate": "2026-09-22T08:10:12.376000+00:00",
-        "imageUrl": "https://www.popmatters.com/wp-content/uploads/2025/01/IMG_3272.jpeg",
-        "sourceUrl": "https://www.popmatters.com/searching-for-john-darnielle-2495776481.html",
-        "readwiseUrl": "https://read.readwise.io/read/01m342mn0r45by4g4jtqvmyztn",
-        "summary": "Released at the end of 2002 by 4AD, The Mountain Goats' Tallahassee was the bell at the end of the first round. Its liner notes -- a small booklet one had to",
-        "whyRead": "Raakt je interesse in cultuur, muziek en verhalen. De bron biedt een essayistische of verhalende leeservaring, met aanknopingspunten voor je eigen schrijf- en leerpraktijk.",
-        "bestMoment": "reflectief",
-        "tags": [
-          "arts & culture",
-          "learning & meta-learning",
-          "technology"
-        ],
-        "coreInterests": [],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01m342mgcvec1xeh4x7h5c9rbh",
-        "title": "John Darnielle: musician, novelist, ethicist of the lurid",
-        "author": null,
-        "siteName": "Los Angeles Times",
-        "category": "article",
-        "language": null,
-        "readingTime": "5 mins",
-        "readingMinutes": 5,
-        "wordCount": 1134,
-        "publishedDate": "2022-01-19",
-        "savedDate": "2026-09-22T08:10:07.641000+00:00",
-        "imageUrl": "https://ca-times.brightspotcdn.com/dims4/default/503d348/2147483647/strip/true/crop/2399x1259+0+965/resize/1200x630!/quality/75/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2Fd9%2F11%2F56516b374c888fba1ed68884bfe1%2Fdarnielle-john-c-lalitree-darnielle-for-devil-house.jpg",
-        "sourceUrl": "https://www.latimes.com/entertainment-arts/books/story/2022-01-19/john-darnielle-musician-novelist-ethicist-of-the-lurid",
-        "readwiseUrl": "https://read.readwise.io/read/01m342mgcvec1xeh4x7h5c9rbh",
-        "summary": "\"Devil House,\" a new novel by the Mountain Goats frontman, offers up a teen cult, a defunct porn shop, some gore and questions about exploitation.",
-        "whyRead": "Raakt je interesse in front-endontwikkeling, het open web en digitale cultuur. De bron biedt historische context en concrete ontwerp- of werkprincipes, met aanknopingspunten voor websites, digitale autonomie en gebruikerservaring.",
-        "bestMoment": "kritisch",
-        "tags": [
-          "behavioral psychology & coaching",
-          "front-end software development",
-          "science"
-        ],
-        "coreInterests": [],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01m342mcj3p9xyz4t5z81e2nn7",
-        "title": "John Darnielle Wants to Tell You a Story | The New Yorker",
-        "author": null,
-        "siteName": "The New Yorker",
-        "category": "article",
-        "language": null,
-        "readingTime": "22 mins",
-        "readingMinutes": 22,
-        "wordCount": 5724,
-        "publishedDate": "2022-04-24",
-        "savedDate": "2026-09-22T08:10:03.715000+00:00",
-        "imageUrl": "https://media.newyorker.com/photos/62631ed4e02c6b442e086937/16:9/w_1280,c_limit/Rosner-Darnielle-v1.jpg",
-        "sourceUrl": "https://www.newyorker.com/culture/the-new-yorker-interview/john-darnielle-wants-to-tell-you-a-story",
-        "readwiseUrl": "https://read.readwise.io/read/01m342mcj3p9xyz4t5z81e2nn7",
-        "summary": "The Mountain Goats front man and novelist discusses art as labor, the value of religious faith, the beauty of Chaucer, and, more or less, the secret to happiness.",
-        "whyRead": "Raakt je interesse in sociale psychologie en menselijke interactie. De bron biedt een bruikbaar begrippenkader voor gedrag en interactie, met aanknopingspunten voor samenwerking, feedback en groepsgedrag.",
-        "bestMoment": "kritisch",
-        "tags": [
-          "behavioral psychology & coaching",
-          "social psychology & interpersonal dynamics",
-          "sociology & social structures"
-        ],
-        "coreInterests": [
-          "sociologie"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01m342m72gf89zwg78r1c6g15j",
-        "title": "John Darnielle discusses his harrowing first novel",
-        "author": null,
-        "siteName": "INDY Week",
-        "category": "article",
-        "language": null,
-        "readingTime": "6 mins",
-        "readingMinutes": 6,
-        "wordCount": 1403,
-        "publishedDate": "2014-09-17",
-        "savedDate": "2026-09-22T08:09:58.096000+00:00",
-        "imageUrl": "https://i0.wp.com/indyweek.com/wp-content/uploads/2018/09/darnielle_-john-_c_-lalitree-darnielle.jpeg?fit=600%2C398&ssl=1",
-        "sourceUrl": "https://indyweek.com/culture/art/john-darnielle-discusses-harrowing-first-novel/",
-        "readwiseUrl": "https://read.readwise.io/read/01m342m72gf89zwg78r1c6g15j",
-        "summary": "Wolf in White Van follows Sean, a disfigured loner who distracts himself from the pain of living by running a play-by-mail role-playing game called Trace Italian.",
-        "whyRead": "Raakt je interesse in cultuur, muziek en verhalen. De bron biedt een inhoudelijke achtergrond die je helpt verbanden te leggen, met aanknopingspunten voor je eigen schrijf- en leerpraktijk.",
-        "bestMoment": "kritisch",
-        "tags": [
-          "arts & culture",
-          "entertainment & pop culture",
-          "learning & meta-learning"
-        ],
-        "coreInterests": [
-          "cultuur_games_film"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01m342m239zsjs4gspx549fdvb",
-        "title": "Track-by-Track: The Mountain Goats’ Lo-Fi Era",
-        "author": null,
-        "siteName": "Daniel Semo",
-        "category": "article",
-        "language": null,
-        "readingTime": "10 mins",
-        "readingMinutes": 10,
-        "wordCount": 2449,
-        "publishedDate": "2025-11-30",
-        "savedDate": "2026-09-22T08:09:53.001000+00:00",
-        "imageUrl": "http://static1.squarespace.com/static/6624b1099ef97e19e4c43a4c/662c88df1c65ee08b59dc67d/67495610c6aa4452ca3fc8a2/1733030004927/IMG_0573.JPG?format=1500w",
-        "sourceUrl": "https://www.danielsemo.com/writing/liner-notes-mountain-goats-lo-fi-era",
-        "readwiseUrl": "https://read.readwise.io/read/01m342m239zsjs4gspx549fdvb",
-        "summary": "Liner notes to an imagined compilation of not-greatest non-hits from the early career of a cult recording artist.",
-        "whyRead": "Raakt je interesse in wetenschap, ecologie en verwondering. De bron biedt een toegankelijke uitleg die verwondering koppelt aan bewijs, met aanknopingspunten voor hoe je publieke claims en populaire verklaringen beoordeelt.",
-        "bestMoment": "reflectief",
-        "tags": [
-          "environment & sustainability",
-          "history",
-          "science"
-        ],
-        "coreInterests": [
-          "geschiedenis"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01m342kxcesng5bz9p38phx70n",
-        "title": "The Universe’s Building Blocks",
-        "author": null,
-        "siteName": "Nasa.gov",
-        "category": "article",
-        "language": null,
-        "readingTime": "3 mins",
-        "readingMinutes": 3,
-        "wordCount": 536,
-        "publishedDate": "2024-02-23",
-        "savedDate": "2026-09-22T08:09:48.174000+00:00",
-        "imageUrl": "https://assets.science.nasa.gov/dynamicimage/assets/science/astro/universe/2023/09/diagram_still_hi_res_122019.webp",
-        "sourceUrl": "https://science.nasa.gov/universe/overview/building-blocks/",
-        "readwiseUrl": "https://read.readwise.io/read/01m342kxcesng5bz9p38phx70n",
-        "summary": "Everything scientists can observe in the universe, from people to planets, is made of matter. Matter is defined as any substance that has mass and occupies",
-        "whyRead": "Raakt je interesse in wetenschap en ideeën over de wereld. De bron biedt een toegankelijke uitleg die verwondering koppelt aan bewijs, met aanknopingspunten voor hoe je publieke claims en populaire verklaringen beoordeelt.",
-        "bestMoment": "analytisch",
-        "tags": [
-          "organizational behavior & culture",
-          "science",
-          "technology"
-        ],
-        "coreInterests": [
-          "agile"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01m342ks13fv1g94znj09eq9g1",
-        "title": "What is Dark Matter?",
-        "author": null,
-        "siteName": "Nasa.gov",
-        "category": "article",
-        "language": null,
-        "readingTime": "7 mins",
-        "readingMinutes": 7,
-        "wordCount": 1720,
-        "publishedDate": "2025-03-07",
-        "savedDate": "2026-09-22T08:09:43.716000+00:00",
-        "imageUrl": "https://assets.science.nasa.gov/dynamicimage/assets/science/missions/hubble/releases/2020/09/keystones/STScI-01EVSQQ78108T9769ATGDY010A.png",
-        "sourceUrl": "https://science.nasa.gov/dark-matter/",
-        "readwiseUrl": "https://read.readwise.io/read/01m342ks13fv1g94znj09eq9g1",
-        "summary": "Dark matter is the invisible glue that holds the universe together. This mysterious material is all around us, making up most of the matter in the universe.",
-        "whyRead": "Raakt je interesse in wetenschap en ideeën over de wereld. De bron biedt een toegankelijke uitleg die verwondering koppelt aan bewijs, met aanknopingspunten voor hoe je publieke claims en populaire verklaringen beoordeelt.",
-        "bestMoment": "analytisch",
-        "tags": [
-          "arts & culture",
-          "science"
-        ],
-        "coreInterests": [],
-        "alsoIn": [],
-        "memberships": []
       },
       {
         "position": null,
@@ -28303,180 +27621,6 @@ window.TOP_ARTICLES = {
       },
       {
         "position": null,
-        "id": "01m342kg7p41rfmvyvv9j1brds",
-        "title": "Dark matter",
-        "author": null,
-        "siteName": "CERN",
-        "category": "article",
-        "language": null,
-        "readingTime": "2 mins",
-        "readingMinutes": 2,
-        "wordCount": 522,
-        "publishedDate": "2022-11-01",
-        "savedDate": "2026-09-22T08:09:34.710000+00:00",
-        "imageUrl": "https://cds.cern.ch/images/file?size=medium",
-        "sourceUrl": "https://home.cern/science/physics/dark-matter",
-        "readwiseUrl": "https://read.readwise.io/read/01m342kg7p41rfmvyvv9j1brds",
-        "summary": "Galaxies in our universe seem to be achieving an impossible feat.",
-        "whyRead": "Raakt je interesse in wetenschap en ideeën over de wereld. De bron biedt een toegankelijke uitleg die verwondering koppelt aan bewijs, met aanknopingspunten voor hoe je publieke claims en populaire verklaringen beoordeelt.",
-        "bestMoment": "analytisch",
-        "tags": [
-          "science"
-        ],
-        "coreInterests": [],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01m342kc5t11gjqcfg1sd0nd6d",
-        "title": "95% of the universe is invisible. Here’s why that should fill us with wonder",
-        "author": null,
-        "siteName": "Big Think",
-        "category": "article",
-        "language": null,
-        "readingTime": "1 min",
-        "readingMinutes": 1,
-        "wordCount": 149,
-        "publishedDate": "2025-11-21",
-        "savedDate": "2026-09-22T08:09:30.554000+00:00",
-        "imageUrl": "https://bigthink.com/wp-content/uploads/2025/11/A1-Web-Levin.jpg?resize=1200,630",
-        "sourceUrl": "https://bigthink.com/the-well/how-dark-matter-and-dark-energy-shape-the-cosmos/",
-        "readwiseUrl": "https://read.readwise.io/read/01m342kc5t11gjqcfg1sd0nd6d",
-        "summary": "Everything ever seen — every star, mountain, and face — makes up less than 5 percent of the universe. Astrophysicist Janna Levin reminds us that the rest — dark matter and dark energy — is invisible, mysterious, and everywhere. We are the luminous exception in a universe of darkness.",
-        "whyRead": "Raakt je interesse in wetenschap en ideeën over de wereld. De bron biedt een toegankelijke uitleg die verwondering koppelt aan bewijs, met aanknopingspunten voor hoe je publieke claims en populaire verklaringen beoordeelt.",
-        "bestMoment": "analytisch",
-        "tags": [
-          "science"
-        ],
-        "coreInterests": [],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01m342k03aaw5ds6ac60vyd748",
-        "title": "The Anthropology of Victor Turner: Ritual, Liminality, and Cultural Performance",
-        "author": null,
-        "siteName": "Taproot Therapy Collective",
-        "category": "article",
-        "language": null,
-        "readingTime": "23 mins",
-        "readingMinutes": 23,
-        "wordCount": 5868,
-        "publishedDate": "2024-07-10",
-        "savedDate": "2026-09-22T08:09:18.186000+00:00",
-        "imageUrl": "https://gettherapybirmingham.com/wp-content/uploads/Victor-Turner.jpg",
-        "sourceUrl": "https://gettherapybirmingham.com/the-anthropology-of-victor-turner-ritual-liminality-and-cultural-performance/",
-        "readwiseUrl": "https://read.readwise.io/read/01m342k03aaw5ds6ac60vyd748",
-        "summary": "Who is Victor Turner? Victor Turner (1920-1983) was a pioneering British cultural anthropologist whose innovative theories of symbols, ritual, and performance transformed the study of human society and culture. Over a prolific career spanning four decades, Turner developed a rich body of concepts and methods for interpreting the symbolic dimensions of social life, from the […]",
-        "whyRead": "Raakt je interesse in AI, technologie-ethiek en maatschappelijke veiligheid. De bron biedt een concrete casus voor de ethische en maatschappelijke gevolgen van AI, met aanknopingspunten voor veiligheid, macht en menselijke verantwoordelijkheid.",
-        "bestMoment": "analytisch",
-        "tags": [
-          "ai ethics & society",
-          "philosophy",
-          "sociology & social structures"
-        ],
-        "coreInterests": [
-          "filosofie",
-          "sociologie"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01m342jvej92pjx0w05gbnt8w3",
-        "title": "Clifford Geertz – Religion as a “System of Symbols”",
-        "author": null,
-        "siteName": "Bishop's Encyclopedia of Religion, Society and Philosophy",
-        "category": "article",
-        "language": null,
-        "readingTime": "5 mins",
-        "readingMinutes": 5,
-        "wordCount": 1190,
-        "publishedDate": "2020-02-08",
-        "savedDate": "2026-09-22T08:09:13.424000+00:00",
-        "imageUrl": "https://jamesbishopblog.com/wp-content/uploads/2020/02/cover-4.jpg",
-        "sourceUrl": "https://jamesbishopblog.com/2020/02/08/clifford-geertz-religion-as-a-system-of-symbols/",
-        "readwiseUrl": "https://read.readwise.io/read/01m342jvej92pjx0w05gbnt8w3",
-        "summary": "Anthropologist Clifford Geertz (1926–2006) is a well-known name within Religion Studies for his understanding of religion as a “cultural system.” This he articulated in his essay Religion as a Cult…",
-        "whyRead": "Raakt je interesse in sociale psychologie en menselijke interactie. De bron biedt een bruikbaar begrippenkader voor gedrag en interactie, met aanknopingspunten voor samenwerking, feedback en groepsgedrag.",
-        "bestMoment": "kritisch",
-        "tags": [
-          "behavioral psychology & coaching",
-          "ethics",
-          "philosophy"
-        ],
-        "coreInterests": [
-          "filosofie"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01m342jpkgsb7483ndt9fwtvra",
-        "title": "Morality and Altruism After the Holocaust",
-        "author": null,
-        "siteName": "lewwaller.com",
-        "category": "article",
-        "language": null,
-        "readingTime": "8 mins",
-        "readingMinutes": 8,
-        "wordCount": 2001,
-        "publishedDate": "2021-02-08",
-        "savedDate": "2026-09-22T08:09:08.464000+00:00",
-        "imageUrl": "http://lewwaller.com/wp-content/uploads/2020/07/Circle-Logo-TN-e1595337666562.png",
-        "sourceUrl": "https://lewwaller.com/morality-and-altruism-after-the-holocaust/",
-        "readwiseUrl": "https://read.readwise.io/read/01m342jpkgsb7483ndt9fwtvra",
-        "summary": "Next I’m looking at morality and altruism after the Holocaust. Zymunt Bauman argues that the Holocaust proves that societal rules, norms and standards cannot be the only source of morality.",
-        "whyRead": "Raakt je interesse in sociale psychologie en menselijke interactie. De bron biedt een bruikbaar begrippenkader voor gedrag en interactie, met aanknopingspunten voor samenwerking, feedback en groepsgedrag.",
-        "bestMoment": "analytisch",
-        "tags": [
-          "behavioral psychology & coaching",
-          "social psychology & interpersonal dynamics",
-          "sociology & social structures"
-        ],
-        "coreInterests": [
-          "sociologie"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01m342jh9gxgnjxmq3tbr4ps7j",
-        "title": "The role of visual experience in the production of emotional facial expressions by blind people: a review",
-        "author": null,
-        "siteName": "National Institutes of Health",
-        "category": "article",
-        "language": null,
-        "readingTime": "41 mins",
-        "readingMinutes": 41,
-        "wordCount": 10762,
-        "publishedDate": "2026-06-23",
-        "savedDate": "2026-09-22T08:09:03.024000+00:00",
-        "imageUrl": "https://cdn.ncbi.nlm.nih.gov/pmc/cms/images/pmc-card-share.jpg?_=0",
-        "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5902524/",
-        "readwiseUrl": "https://read.readwise.io/read/01m342jh9gxgnjxmq3tbr4ps7j",
-        "summary": "Facial expressions of emotion are nonverbal behaviors that allow us to interact efficiently in social life and respond to events affecting our welfare. This article reviews 21 studies, published between 1932 and 2015, examining the production of ...",
-        "whyRead": "Raakt je interesse in sociale psychologie en menselijke interactie. De bron biedt een bruikbaar begrippenkader voor gedrag en interactie, met aanknopingspunten voor samenwerking, feedback en groepsgedrag.",
-        "bestMoment": "analytisch",
-        "tags": [
-          "behavioral psychology & coaching",
-          "history",
-          "social psychology & interpersonal dynamics"
-        ],
-        "coreInterests": [
-          "geschiedenis",
-          "sociologie"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
         "id": "01m342jd6x4r7v57dxr651mk5m",
         "title": "Jazz Funerals and Second Line Parades",
         "author": null,
@@ -28513,66 +27657,6 @@ window.TOP_ARTICLES = {
             "position": 58
           }
         ]
-      },
-      {
-        "position": null,
-        "id": "01m342j6vhj4hw1mpzz0zknrv3",
-        "title": "Fantasy coffins: How Ghana’s carpenters turn funerals into a final hurrah",
-        "author": null,
-        "siteName": "Intrepid Travel Blog",
-        "category": "article",
-        "language": null,
-        "readingTime": "4 mins",
-        "readingMinutes": 4,
-        "wordCount": 972,
-        "publishedDate": "2024-12-03",
-        "savedDate": "2026-09-22T08:08:52.337000+00:00",
-        "imageUrl": "https://www.intrepidtravel.com/adventures/wp-content/uploads/2024/11/Eric-fantasy-coffin-1.jpg",
-        "sourceUrl": "https://www.intrepidtravel.com/adventures/ghana-fantasy-coffins/",
-        "readwiseUrl": "https://read.readwise.io/read/01m342j6vhj4hw1mpzz0zknrv3",
-        "summary": "Discover the story behind Ghana's fantasy coffins, the colourful alternatives to traditional caskets.",
-        "whyRead": "Raakt je interesse in cultuur, muziek en verhalen. De bron biedt een inhoudelijke achtergrond die je helpt verbanden te leggen, met aanknopingspunten voor je eigen schrijf- en leerpraktijk.",
-        "bestMoment": "kritisch",
-        "tags": [
-          "arts & culture",
-          "history",
-          "learning & meta-learning"
-        ],
-        "coreInterests": [
-          "geschiedenis"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01m342j1pv535ya63fjxcev4tc",
-        "title": "Death is not the end: Fascinating funeral traditions from around the globe",
-        "author": null,
-        "siteName": "ideas.ted.com",
-        "category": "article",
-        "language": null,
-        "readingTime": "5 mins",
-        "readingMinutes": 5,
-        "wordCount": 1169,
-        "publishedDate": "2013-10-01",
-        "savedDate": "2026-09-22T08:08:47.067000+00:00",
-        "imageUrl": "https://ideas.ted.com/wp-content/uploads/sites/3/2013/10/9867611023_5852403c15_o.jpg",
-        "sourceUrl": "https://ideas.ted.com/11-fascinating-funeral-traditions-from-around-the-globe/",
-        "readwiseUrl": "https://read.readwise.io/read/01m342j1pv535ya63fjxcev4tc",
-        "summary": "Funeral practices are deeply ingrained in culture and reflect beliefs and values. Here, take a look at just a few interesting funeral traditions from around the world.",
-        "whyRead": "Raakt je interesse in front-endontwikkeling, het open web en digitale cultuur. De bron biedt historische context en concrete ontwerp- of werkprincipes, met aanknopingspunten voor websites, digitale autonomie en gebruikerservaring.",
-        "bestMoment": "reflectief",
-        "tags": [
-          "front-end software development",
-          "history",
-          "science"
-        ],
-        "coreInterests": [
-          "geschiedenis"
-        ],
-        "alsoIn": [],
-        "memberships": []
       },
       {
         "position": null,
@@ -28632,741 +27716,6 @@ window.TOP_ARTICLES = {
             "position": 31
           }
         ]
-      },
-      {
-        "position": null,
-        "id": "01m342hjaqg3tynycn9ken8k35",
-        "title": "If Freire Made a MOOC: Open Education as Resistance",
-        "author": null,
-        "siteName": "Hybrid Pedagogy",
-        "category": "article",
-        "language": null,
-        "readingTime": "12 mins",
-        "readingMinutes": 12,
-        "wordCount": 3106,
-        "publishedDate": "2014-11-20",
-        "savedDate": "2026-09-22T08:08:31.319000+00:00",
-        "imageUrl": "https://hybridpedagogy.org/content/images/wordpress/2014/11/4465286945_42456255ea_b.jpg",
-        "sourceUrl": "https://hybridpedagogy.org/freire-made-mooc-open-education-resistance/",
-        "readwiseUrl": "https://read.readwise.io/read/01m342hjaqg3tynycn9ken8k35",
-        "summary": "MOOCs and Critical Pedagogy are not obvious bedfellows. The hype around MOOCs has centered mostly on a brand of sage on the stage courseware at direct odds with Critical Pedagogy’s emphasis on learner agency.",
-        "whyRead": "Raakt je interesse in leren, schrijven en kennisbeheer. De bron biedt een inhoudelijke achtergrond die je helpt verbanden te leggen, met aanknopingspunten voor je eigen schrijf- en leerpraktijk.",
-        "bestMoment": "kritisch",
-        "tags": [
-          "learning & meta-learning",
-          "sociology & social structures",
-          "technology"
-        ],
-        "coreInterests": [
-          "sociologie"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01m342h9e64qw7twqx36pxpwgg",
-        "title": "A Guide to Becoming a Rogue Scholar",
-        "author": null,
-        "siteName": "brennan.day",
-        "category": "article",
-        "language": null,
-        "readingTime": "14 mins",
-        "readingMinutes": 14,
-        "wordCount": 3580,
-        "publishedDate": "2026-08-18",
-        "savedDate": "2026-09-22T08:08:22.214000+00:00",
-        "imageUrl": "https://brennan.day/assets/images/blog/scholar.jpg",
-        "sourceUrl": "https://brennan.day/a-guide-to-becoming-a-rogue-scholar/",
-        "readwiseUrl": "https://read.readwise.io/read/01m342h9e64qw7twqx36pxpwgg",
-        "summary": "I've been weighing grad school against continuing my own open-access publication, so I wrote a guide to becoming a 'Rogue Scholar' using ORCID, citation metadata, issue numbers, print CSS, and Wayback Machine archiving to try to make my static Eleventy site as citable, permanent, and discoverable as institutional scholarship.",
-        "whyRead": "Raakt je interesse in front-endontwikkeling, het open web en digitale cultuur. De bron biedt historische context en concrete ontwerp- of werkprincipes, met aanknopingspunten voor websites, digitale autonomie en gebruikerservaring.",
-        "bestMoment": "analytisch",
-        "tags": [
-          "front-end software development",
-          "history",
-          "science"
-        ],
-        "coreInterests": [
-          "geschiedenis"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01m342h4y5m075tqb3bcbw4vjh",
-        "title": "What Every Successful Person Knows, But Never Says",
-        "author": null,
-        "siteName": "James Clear",
-        "category": "article",
-        "language": null,
-        "readingTime": "5 mins",
-        "readingMinutes": 5,
-        "wordCount": 1163,
-        "publishedDate": "2013-11-14",
-        "savedDate": "2026-09-22T08:08:17.605000+00:00",
-        "imageUrl": "https://jamesclear.com/wp-content/uploads/2013/11/725px-Ira_Glass_CMU_2006.jpg",
-        "sourceUrl": "https://jamesclear.com/ira-glass-failure",
-        "readwiseUrl": "https://read.readwise.io/read/01m342h4y5m075tqb3bcbw4vjh",
-        "summary": "Read this story to learn how Ira Glass, a popular media personality, learned an important lesson about success and failure.",
-        "whyRead": "Raakt je interesse in cultuur, muziek en verhalen. De bron biedt een inhoudelijke achtergrond die je helpt verbanden te leggen, met aanknopingspunten voor je bredere lees- en denkpraktijk.",
-        "bestMoment": "kritisch",
-        "tags": [
-          "arts & culture",
-          "history",
-          "technology"
-        ],
-        "coreInterests": [
-          "geschiedenis"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01m342h0f45vwyskjqrt154xrk",
-        "title": "The Benefits of Writing Morning Pages, from Julia Cameron’s The Artist’s Way",
-        "author": null,
-        "siteName": "Urban Wild Studio",
-        "category": "article",
-        "language": null,
-        "readingTime": "3 mins",
-        "readingMinutes": 3,
-        "wordCount": 586,
-        "publishedDate": "2024-02-22",
-        "savedDate": "2026-09-22T08:08:13.028000+00:00",
-        "imageUrl": "http://static1.squarespace.com/static/53e419eee4b0ad2a423c18fd/55a3113ce4b0c53c1d30c583/65d6c188ec0b2224efbd595c/1708648086641/BenefitsofMorningPages_UWSRevised.jpg?format=1500w",
-        "sourceUrl": "https://www.urbanwildstudio.com/blog/2024/2/21/benefits-of-morning-pages-artists-way-graphic-notes",
-        "readwiseUrl": "https://read.readwise.io/read/01m342h0f45vwyskjqrt154xrk",
-        "summary": "In the whirlwind of modern life, carving out moments for self-reflection and creativity can often feel like an elusive pursuit. Amidst the demands of work, family, and the constant buzz of technology, the voice of our inner artist can be easily drowned out. But there exists a simple yet profound pra",
-        "whyRead": "Raakt je interesse in AI, technologie-ethiek en maatschappelijke veiligheid. De bron biedt een concrete casus voor de ethische en maatschappelijke gevolgen van AI, met aanknopingspunten voor veiligheid, macht en menselijke verantwoordelijkheid.",
-        "bestMoment": "reflectief",
-        "tags": [
-          "ai ethics & society",
-          "philosophy",
-          "technology"
-        ],
-        "coreInterests": [
-          "filosofie"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01m342gws0a9qnqrbz2q4ezr87",
-        "title": "Start Ugly – David DuChemin",
-        "author": null,
-        "siteName": "forartssake.art",
-        "category": "article",
-        "language": null,
-        "readingTime": "4 mins",
-        "readingMinutes": 4,
-        "wordCount": 855,
-        "publishedDate": "2021-08-24",
-        "savedDate": "2026-09-22T08:08:09.248000+00:00",
-        "imageUrl": "https://forartssake.art/wp-content/uploads/2021/08/start-ugly-book-cover.jpg",
-        "sourceUrl": "https://forartssake.art/2021/08/24/start-ugly-david-duchemin/",
-        "readwiseUrl": "https://read.readwise.io/read/01m342gws0a9qnqrbz2q4ezr87",
-        "summary": "Beginnings are hard. The first steps of a creative project are full of uncertainties and fear that can stop you from starting at all. In his latest book, David DuChemin attempts to crush these fear…",
-        "whyRead": "Raakt je interesse in cultuur, muziek en verhalen. De bron biedt een toegankelijke ingang en praktische aanknopingspunten, met aanknopingspunten voor je eigen schrijf- en leerpraktijk.",
-        "bestMoment": "leergierig",
-        "tags": [
-          "arts & culture",
-          "learning & meta-learning"
-        ],
-        "coreInterests": [],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01m342grass8zpspaaxtw0zabw",
-        "title": "Inside Medium’s decade-long journey to find its own identity",
-        "author": null,
-        "siteName": "Fast Company",
-        "category": "article",
-        "language": null,
-        "readingTime": "7 mins",
-        "readingMinutes": 7,
-        "wordCount": 1787,
-        "publishedDate": "2024-06-03",
-        "savedDate": "2026-09-22T08:08:04.697000+00:00",
-        "imageUrl": "https://images.fastcompany.com/image/upload/f_auto,q_auto,c_fit/wp-cms-2/2024/05/p-1-91134093-mediums-long-road-to-finding-its-own-identity.jpg",
-        "sourceUrl": "https://www.fastcompany.com/91134093/medium-growth-under-tony-stubblebine",
-        "readwiseUrl": "https://read.readwise.io/read/01m342grass8zpspaaxtw0zabw",
-        "summary": "Under CEO Tony Stubblebine's leadership, Medium is taking a slower, more intentional approach to publishing. It seems to be paying off.",
-        "whyRead": "Raakt je interesse in AI, technologie-ethiek en maatschappelijke veiligheid. De bron biedt een concrete casus voor de ethische en maatschappelijke gevolgen van AI, met aanknopingspunten voor veiligheid, macht en menselijke verantwoordelijkheid.",
-        "bestMoment": "kritisch",
-        "tags": [
-          "ai ethics & society",
-          "sociology & social structures",
-          "technology"
-        ],
-        "coreInterests": [
-          "sociologie"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01m342gme4mpryya90gkd4q3hc",
-        "title": "Amazon, YouTube and the ‘Too Big to Police’ Platform",
-        "author": null,
-        "siteName": "Plagiarism Today",
-        "category": "article",
-        "language": null,
-        "readingTime": "6 mins",
-        "readingMinutes": 6,
-        "wordCount": 1531,
-        "publishedDate": "2019-06-26",
-        "savedDate": "2026-09-22T08:08:00.709000+00:00",
-        "imageUrl": "https://www.plagiarismtoday.com/wp-content/uploads/2019/06/youtuber-589-sized.jpg",
-        "sourceUrl": "https://www.plagiarismtoday.com/2019/06/26/amazon-youtube-and-the-too-big-to-police-platform/",
-        "readwiseUrl": "https://read.readwise.io/read/01m342gme4mpryya90gkd4q3hc",
-        "summary": "Recent attention on Amazon and YouTube paint the picture of companies trying and failing to police their gardens. The reason is simple: They’re too big.",
-        "whyRead": "Raakt je interesse in AI, technologie-ethiek en maatschappelijke veiligheid. De bron biedt historische context en concrete ontwerp- of werkprincipes, met aanknopingspunten voor websites, digitale autonomie en gebruikerservaring.",
-        "bestMoment": "kritisch",
-        "tags": [
-          "ai ethics & society",
-          "front-end software development",
-          "technology"
-        ],
-        "coreInterests": [],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01m342gahe2z2tpwmm0nj31smn",
-        "title": "Introducing writer-cli: a bash tool I built from scratch to blog in the terminal!",
-        "author": null,
-        "siteName": "brennan.day",
-        "category": "article",
-        "language": null,
-        "readingTime": "12 mins",
-        "readingMinutes": 12,
-        "wordCount": 2930,
-        "publishedDate": "2026-05-24",
-        "savedDate": "2026-09-22T08:07:50.574000+00:00",
-        "imageUrl": "https://brennan.day/assets/images/blog/writer-cli.jpg",
-        "sourceUrl": "https://brennan.day/introducing-writer-cli-a-bash-tool-i-built-from-scratch-to-blog-in-the-terminal/",
-        "readwiseUrl": "https://read.readwise.io/read/01m342gahe2z2tpwmm0nj31smn",
-        "summary": "After finding the tildeverse and the Tilde.town feels engine, I decided to build my own simple command-line tool for blogging that handles the full lifecycle of a blog post (creation, editing, building, and git push). A walkthrough of the design decisions, the modular architecture, and the tradeoffs of writing 700 lines of plain bash.",
-        "whyRead": "Raakt je interesse in front-endontwikkeling, het open web en digitale cultuur. De bron biedt historische context en concrete ontwerp- of werkprincipes, met aanknopingspunten voor websites, digitale autonomie en gebruikerservaring.",
-        "bestMoment": "leergierig",
-        "tags": [
-          "front-end software development",
-          "sociology & social structures",
-          "technology"
-        ],
-        "coreInterests": [
-          "sociologie"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01m342g6z8nfyaa51v7tmy1gc0",
-        "title": "What the Web Could Have Been",
-        "author": null,
-        "siteName": "The History of the Web",
-        "category": "article",
-        "language": null,
-        "readingTime": "3 mins",
-        "readingMinutes": 3,
-        "wordCount": 743,
-        "publishedDate": "1991-04-01",
-        "savedDate": "2026-09-22T08:07:46.920000+00:00",
-        "imageUrl": "https://thehistoryoftheweb.com/wp-json/social-image-generator/v1/image/24",
-        "sourceUrl": "https://thehistoryoftheweb.com/what-the-web-could-have-been/",
-        "readwiseUrl": "https://read.readwise.io/read/01m342g6z8nfyaa51v7tmy1gc0",
-        "summary": "Before the web, Gopher offered a way to connect to the Internet and share documents. And if things had gone a little differently, it might even be what we use to surf information today.",
-        "whyRead": "Raakt je interesse in front-endontwikkeling, het open web en digitale cultuur. De bron biedt historische context en concrete ontwerp- of werkprincipes, met aanknopingspunten voor websites, digitale autonomie en gebruikerservaring.",
-        "bestMoment": "reflectief",
-        "tags": [
-          "front-end software development",
-          "history"
-        ],
-        "coreInterests": [
-          "geschiedenis"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01m342f8vrxdm3a5fyn4s3274y",
-        "title": "A Scientist Says AI Could Develop True Consciousness Within 15 Years",
-        "author": null,
-        "siteName": "Popular Mechanics",
-        "category": "article",
-        "language": null,
-        "readingTime": "3 mins",
-        "readingMinutes": 3,
-        "wordCount": 600,
-        "publishedDate": "2026-04-28",
-        "savedDate": "2026-09-22T08:07:16.088000+00:00",
-        "imageUrl": "https://hips.hearstapps.com/hmg-prod/images/b95da07c-b4f9-45ce-a4e7-38816c6e7f21.jpeg?crop=1xw:0.889xh;0xw,0.052xh&resize=1200:*",
-        "sourceUrl": "https://www.popularmechanics.com/science/a71140400/ai-consciousness/",
-        "readwiseUrl": "https://read.readwise.io/read/01m342f8vrxdm3a5fyn4s3274y",
-        "summary": "New research offers a way to identify consciousness in living and artificial systems.",
-        "whyRead": "Raakt je interesse in AI, technologie-ethiek en maatschappelijke veiligheid. De bron biedt een concrete casus voor de ethische en maatschappelijke gevolgen van AI, met aanknopingspunten voor veiligheid, macht en menselijke verantwoordelijkheid.",
-        "bestMoment": "kritisch",
-        "tags": [
-          "ai ethics & society",
-          "ethics",
-          "philosophy"
-        ],
-        "coreInterests": [
-          "filosofie"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01m342etcs1p43wh2p8z88tent",
-        "title": "The AI arms race has a new slogan: Let's all just slow down a bit",
-        "author": null,
-        "siteName": "Ars Technica",
-        "category": "article",
-        "language": null,
-        "readingTime": "8 mins",
-        "readingMinutes": 8,
-        "wordCount": 1934,
-        "publishedDate": "2026-09-14",
-        "savedDate": "2026-09-22T08:07:01.273000+00:00",
-        "imageUrl": "https://cdn.arstechnica.net/wp-content/uploads/2026/09/GettyImages-1482639221-1152x648-1789407457.jpg",
-        "sourceUrl": "https://arstechnica.com/ai/2026/09/ai-leaders-want-to-hit-the-brakes-after-years-of-reckless-speed/",
-        "readwiseUrl": "https://read.readwise.io/read/01m342etcs1p43wh2p8z88tent",
-        "summary": "Safety is the watchword, but there could be ulterior benefits for the industry.",
-        "whyRead": "Raakt je interesse in AI, technologie-ethiek en maatschappelijke veiligheid. De bron biedt historische context en concrete ontwerp- of werkprincipes, met aanknopingspunten voor websites, digitale autonomie en gebruikerservaring.",
-        "bestMoment": "kritisch",
-        "tags": [
-          "ai ethics & society",
-          "front-end software development",
-          "technology"
-        ],
-        "coreInterests": [],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01m342emrt3q6tqnmxq133wqda",
-        "title": "AI Artists Have No Role Models",
-        "author": null,
-        "siteName": "brennan.day",
-        "category": "article",
-        "language": null,
-        "readingTime": "5 mins",
-        "readingMinutes": 5,
-        "wordCount": 1137,
-        "publishedDate": "2026-02-06",
-        "savedDate": "2026-09-22T08:06:55.514000+00:00",
-        "imageUrl": "https://brennan.day/assets/images/blog/ai-role-models.jpg",
-        "sourceUrl": "https://brennan.day/ai-artists-have-no-role-models/",
-        "readwiseUrl": "https://read.readwise.io/read/01m342emrt3q6tqnmxq133wqda",
-        "summary": "Prompt Engineers Lack Any Canon, Don't You? AI artists have an existential problem: they consume only their own work, severing the dialogue of culture that connects us across generations.",
-        "whyRead": "Raakt je interesse in AI, technologie-ethiek en maatschappelijke veiligheid. De bron biedt historische context en concrete ontwerp- of werkprincipes, met aanknopingspunten voor websites, digitale autonomie en gebruikerservaring.",
-        "bestMoment": "leergierig",
-        "tags": [
-          "ai ethics & society",
-          "front-end software development",
-          "technology"
-        ],
-        "coreInterests": [],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01m342eas08rms074f7hce831t",
-        "title": "Are NSFW AI Companions Actually Just Exploited Workers in Developing Countries?",
-        "author": null,
-        "siteName": "brennan.day",
-        "category": "article",
-        "language": null,
-        "readingTime": "6 mins",
-        "readingMinutes": 6,
-        "wordCount": 1576,
-        "publishedDate": "2025-12-11",
-        "savedDate": "2026-09-22T08:06:45.280000+00:00",
-        "imageUrl": "https://brennan.dayhttps/cdn-images-1.medium.com/max/1200/1*6F-Tz_ZMQKUhFrvnaTQuOw.png",
-        "sourceUrl": "https://brennan.day/are-nsfw-ai-companions-actually-just-exploited-workers-in-developing-countries/",
-        "readwiseUrl": "https://read.readwise.io/read/01m342eas08rms074f7hce831t",
-        "summary": "Part 3 of a series on the AI Crisis",
-        "whyRead": "Raakt je interesse in AI, technologie-ethiek en maatschappelijke veiligheid. De bron biedt een concrete casus voor de ethische en maatschappelijke gevolgen van AI, met aanknopingspunten voor veiligheid, macht en menselijke verantwoordelijkheid.",
-        "bestMoment": "kritisch",
-        "tags": [
-          "ai ethics & society",
-          "science",
-          "technology"
-        ],
-        "coreInterests": [],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01m342dc4w2cc1zppyx8mk1ntr",
-        "title": "Saying Goodbye To The HTML Blink Tag",
-        "author": null,
-        "siteName": "Fast Company",
-        "category": "article",
-        "language": null,
-        "readingTime": "3 mins",
-        "readingMinutes": 3,
-        "wordCount": 702,
-        "publishedDate": "2013-08-07",
-        "savedDate": "2026-09-22T08:06:13.915000+00:00",
-        "imageUrl": "https://images.fastcompany.com/image/upload/f_auto,q_auto,c_fit/fc/3015408-poster-p-1-dont-blink-at-all_0.jpg",
-        "sourceUrl": "https://www.fastcompany.com/3015408/saying-goodbye-to-the-html-tag",
-        "readwiseUrl": "https://read.readwise.io/read/01m342dc4w2cc1zppyx8mk1ntr",
-        "summary": "The latest version of Firefox has deprecated old markup that once powered the famous flashing \"UNDER CONSTRUCTION\" banner you'd see on everyone's website. Is this a milestone for the web?",
-        "whyRead": "Raakt je interesse in front-endontwikkeling, het open web en digitale cultuur. De bron biedt historische context en concrete ontwerp- of werkprincipes, met aanknopingspunten voor websites, digitale autonomie en gebruikerservaring.",
-        "bestMoment": "reflectief",
-        "tags": [
-          "arts & culture",
-          "front-end software development"
-        ],
-        "coreInterests": [],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01m342d4dt30ab5xs2zmky5pqb",
-        "title": "A Tale of Two Standards",
-        "author": null,
-        "siteName": "The History of the Web",
-        "category": "article",
-        "language": null,
-        "readingTime": "4 mins",
-        "readingMinutes": 4,
-        "wordCount": 1032,
-        "publishedDate": "2004-06-03",
-        "savedDate": "2026-09-22T08:06:06.010000+00:00",
-        "imageUrl": "https://thehistoryoftheweb.com/wp-json/social-image-generator/v1/image/145",
-        "sourceUrl": "https://thehistoryoftheweb.com/when-standards-divide/",
-        "readwiseUrl": "https://read.readwise.io/read/01m342d4dt30ab5xs2zmky5pqb",
-        "summary": "It was 2004, and Ian Hickson had just got out of a W3C workshop organized by Adobe. The topic was how […]",
-        "whyRead": "Raakt je interesse in front-endontwikkeling, het open web en digitale cultuur. De bron biedt historische context en concrete ontwerp- of werkprincipes, met aanknopingspunten voor websites, digitale autonomie en gebruikerservaring.",
-        "bestMoment": "leergierig",
-        "tags": [
-          "front-end software development",
-          "learning & meta-learning",
-          "organizational behavior & culture"
-        ],
-        "coreInterests": [
-          "agile"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01m342cyh9tbgjgwcqcjfkxyb6",
-        "title": "Tables for Layout? Absurd.",
-        "author": null,
-        "siteName": "The History of the Web",
-        "category": "article",
-        "language": null,
-        "readingTime": "5 mins",
-        "readingMinutes": 5,
-        "wordCount": 1185,
-        "publishedDate": "1996-06-01",
-        "savedDate": "2026-09-22T08:05:59.975000+00:00",
-        "imageUrl": "https://thehistoryoftheweb.com/wp-json/social-image-generator/v1/image/439",
-        "sourceUrl": "https://thehistoryoftheweb.com/tables-layout-absurd/",
-        "readwiseUrl": "https://read.readwise.io/read/01m342cyh9tbgjgwcqcjfkxyb6",
-        "summary": "Web designers that cut their teeth in the late 90’s and early 2000’s probably remember table-based layouts. This was a […]",
-        "whyRead": "Raakt je interesse in front-endontwikkeling, het open web en digitale cultuur. De bron biedt historische context en concrete ontwerp- of werkprincipes, met aanknopingspunten voor websites, digitale autonomie en gebruikerservaring.",
-        "bestMoment": "kritisch",
-        "tags": [
-          "front-end software development",
-          "history",
-          "learning & meta-learning"
-        ],
-        "coreInterests": [
-          "geschiedenis"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01m342cr9mv6rv4fk4afavq6r8",
-        "title": "The History of the Browser Wars: When Netscape Met Microsoft",
-        "author": null,
-        "siteName": "The History of the Web",
-        "category": "article",
-        "language": null,
-        "readingTime": "12 mins",
-        "readingMinutes": 12,
-        "wordCount": 3069,
-        "publishedDate": "1997-10-01",
-        "savedDate": "2026-09-22T08:05:53.588000+00:00",
-        "imageUrl": "https://thehistoryoftheweb.com/wp-json/social-image-generator/v1/image/474",
-        "sourceUrl": "https://thehistoryoftheweb.com/browser-wars/",
-        "readwiseUrl": "https://read.readwise.io/read/01m342cr9mv6rv4fk4afavq6r8",
-        "summary": "Let’s talk about about the “Browser Wars.” They kicked off in the mid-90s, at a time when the world was […]",
-        "whyRead": "Raakt je interesse in front-endontwikkeling, het open web en digitale cultuur. De bron biedt historische context en concrete ontwerp- of werkprincipes, met aanknopingspunten voor websites, digitale autonomie en gebruikerservaring.",
-        "bestMoment": "kritisch",
-        "tags": [
-          "front-end software development",
-          "sociology & social structures",
-          "technology"
-        ],
-        "coreInterests": [
-          "sociologie"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01m342cc25a7chwtx3y5t9k36j",
-        "title": "1996: Flash and CSS Bring Design to the Web",
-        "author": null,
-        "siteName": "cybercultural.com",
-        "category": "article",
-        "language": null,
-        "readingTime": "8 mins",
-        "readingMinutes": 8,
-        "wordCount": 2051,
-        "publishedDate": "2021-09-29",
-        "savedDate": "2026-09-22T08:05:41.060000+00:00",
-        "imageUrl": "https://cybercultural.com/assets/images/wdh/flash_css_1996-1195x672.jpg",
-        "sourceUrl": "https://cybercultural.com/p/1996-flash-css-web-design/",
-        "readwiseUrl": "https://read.readwise.io/read/01m342cc25a7chwtx3y5t9k36j",
-        "summary": "There were two stylistically opposed approaches to web design in the 1990s, epitomized by two distinct — and utterly different — technologies, both of which debuted in 1996.",
-        "whyRead": "Raakt je interesse in front-endontwikkeling, het open web en digitale cultuur. De bron biedt historische context en concrete ontwerp- of werkprincipes, met aanknopingspunten voor websites, digitale autonomie en gebruikerservaring.",
-        "bestMoment": "leergierig",
-        "tags": [
-          "front-end software development",
-          "sociology & social structures",
-          "technology"
-        ],
-        "coreInterests": [
-          "sociologie"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01m342c7g3kxzax9bbeyhjyx67",
-        "title": "GeoHoods @ Blade's Place",
-        "author": null,
-        "siteName": "bladesplace.id.au",
-        "category": "article",
-        "language": null,
-        "readingTime": "10 mins",
-        "readingMinutes": 10,
-        "wordCount": 2505,
-        "publishedDate": "2025-12-30",
-        "savedDate": "2026-09-22T08:05:36.385000+00:00",
-        "imageUrl": "https://www.bladesplace.id.au/media/geocities-neighborhoods-logo.gif",
-        "sourceUrl": "https://www.bladesplace.id.au/geocities-neighborhoods-suburbs.html",
-        "readwiseUrl": "https://read.readwise.io/read/01m342c7g3kxzax9bbeyhjyx67",
-        "summary": "When GeoCities first started offering free web pages to the public, they decided to create them in themed neighborhoods.",
-        "whyRead": "Raakt je interesse in front-endontwikkeling, het open web en digitale cultuur. De bron biedt historische context en concrete ontwerp- of werkprincipes, met aanknopingspunten voor websites, digitale autonomie en gebruikerservaring.",
-        "bestMoment": "geconcentreerd",
-        "tags": [
-          "front-end software development",
-          "sociology & social structures",
-          "technology"
-        ],
-        "coreInterests": [
-          "sociologie"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01m342c3mr3eqkz28zx79q36v5",
-        "title": "1995: The Birth of JavaScript",
-        "author": null,
-        "siteName": "cybercultural.com",
-        "category": "article",
-        "language": null,
-        "readingTime": "10 mins",
-        "readingMinutes": 10,
-        "wordCount": 2477,
-        "publishedDate": "2020-12-22",
-        "savedDate": "2026-09-22T08:05:32.441000+00:00",
-        "imageUrl": "https://cybercultural.com/assets/images/wdh/netscape_browser_1995.jpg",
-        "sourceUrl": "https://cybercultural.com/p/1995-the-birth-of-javascript/",
-        "readwiseUrl": "https://read.readwise.io/read/01m342c3mr3eqkz28zx79q36v5",
-        "summary": "JavaScript was invented in a two-week flurry in May 1995 by Brendan Eich, a newly hired developer at browser company Netscape. The idea was to extend the early Web beyond the limits of HTML.",
-        "whyRead": "Raakt je interesse in front-endontwikkeling, het open web en digitale cultuur. De bron biedt historische context en concrete ontwerp- of werkprincipes, met aanknopingspunten voor websites, digitale autonomie en gebruikerservaring.",
-        "bestMoment": "analytisch",
-        "tags": [
-          "front-end software development",
-          "sociology & social structures",
-          "technology"
-        ],
-        "coreInterests": [
-          "sociologie"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01m342byey2fc07tdwmj5jp884",
-        "title": "Bruce’s Home Page. Part II. Calvin and Hobbes ⁋ by olia",
-        "author": null,
-        "siteName": "geocities.institute",
-        "category": "article",
-        "language": null,
-        "readingTime": "4 mins",
-        "readingMinutes": 4,
-        "wordCount": 1036,
-        "publishedDate": "2023-02-16",
-        "savedDate": "2026-09-22T08:05:27.135000+00:00",
-        "imageUrl": null,
-        "sourceUrl": "https://blog.geocities.institute/archives/7198",
-        "readwiseUrl": "https://read.readwise.io/read/01m342byey2fc07tdwmj5jp884",
-        "summary": "In the One Terabyte of Kilobyte Age archive, every GeoCities page and file is associated with meta data.",
-        "whyRead": "Raakt je interesse in front-endontwikkeling, het open web en digitale cultuur. De bron biedt historische context en concrete ontwerp- of werkprincipes, met aanknopingspunten voor websites, digitale autonomie en gebruikerservaring.",
-        "bestMoment": "analytisch",
-        "tags": [
-          "front-end software development",
-          "sociology & social structures",
-          "technology"
-        ],
-        "coreInterests": [
-          "sociologie"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01m342btc574bzz3xve282htkj",
-        "title": "Bruce’s Home Page. Part I. “Malaysia’s Bill Gates” ⁋ by olia",
-        "author": null,
-        "siteName": "geocities.institute",
-        "category": "article",
-        "language": null,
-        "readingTime": "4 mins",
-        "readingMinutes": 4,
-        "wordCount": 1004,
-        "publishedDate": "2023-02-07",
-        "savedDate": "2026-09-22T08:05:22.949000+00:00",
-        "imageUrl": null,
-        "sourceUrl": "https://blog.geocities.institute/archives/7175",
-        "readwiseUrl": "https://read.readwise.io/read/01m342btc574bzz3xve282htkj",
-        "summary": "Ten years ago, on the 7th of February 2013 at 11:07 CET, the very first screenshot of a rescued and restored GeoCities home page was published on the Tumblr blog One Terabyte of Kilobyte Age Photo Op.",
-        "whyRead": "Raakt je interesse in front-endontwikkeling, het open web en digitale cultuur. De bron biedt historische context en concrete ontwerp- of werkprincipes, met aanknopingspunten voor websites, digitale autonomie en gebruikerservaring.",
-        "bestMoment": "kritisch",
-        "tags": [
-          "front-end software development",
-          "sociology & social structures",
-          "technology"
-        ],
-        "coreInterests": [
-          "sociologie"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01m342bmb0zd6bfed9srfqyfgb",
-        "title": "What the Internet Was Like in 1994",
-        "author": null,
-        "siteName": "cybercultural.com",
-        "category": "article",
-        "language": null,
-        "readingTime": "5 mins",
-        "readingMinutes": 5,
-        "wordCount": 1178,
-        "publishedDate": "2025-03-05",
-        "savedDate": "2026-09-22T08:05:16.768000+00:00",
-        "imageUrl": "https://cybercultural.com/assets/images/1994-internet-feature-mozilla.jpg",
-        "sourceUrl": "https://cybercultural.com/p/internet-1994/",
-        "readwiseUrl": "https://read.readwise.io/read/01m342bmb0zd6bfed9srfqyfgb",
-        "summary": "In 1994, the World Wide Web becomes the default multimedia channel of the Internet. With the launch of Netscape Navigator and early websites like Yahoo! and HotWired, the Web achieves lift-off.",
-        "whyRead": "Raakt je interesse in front-endontwikkeling, het open web en digitale cultuur. De bron biedt historische context en concrete ontwerp- of werkprincipes, met aanknopingspunten voor websites, digitale autonomie en gebruikerservaring.",
-        "bestMoment": "leergierig",
-        "tags": [
-          "front-end software development",
-          "sociology & social structures",
-          "technology"
-        ],
-        "coreInterests": [
-          "sociologie"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01m342bfjsxwn4n6whsd9mc6rr",
-        "title": "1995: Apache and Microsoft IIS Shake Up Web Server Market",
-        "author": null,
-        "siteName": "cybercultural.com",
-        "category": "article",
-        "language": null,
-        "readingTime": "7 mins",
-        "readingMinutes": 7,
-        "wordCount": 1778,
-        "publishedDate": "2021-08-31",
-        "savedDate": "2026-09-22T08:05:11.897000+00:00",
-        "imageUrl": "https://cybercultural.com/assets/images/wdh/apache-logo-1000x563.jpg",
-        "sourceUrl": "https://cybercultural.com/p/1995-apache-microsoft-iis-web-server-market/",
-        "readwiseUrl": "https://read.readwise.io/read/01m342bfjsxwn4n6whsd9mc6rr",
-        "summary": "The Apache Web Server Project announced a new 'public-domain HTTP server' in April 1995. That was followed soon after by Microsoft's first web server software, Internet Information Server.",
-        "whyRead": "Raakt je interesse in front-endontwikkeling, het open web en digitale cultuur. De bron biedt historische context en concrete ontwerp- of werkprincipes, met aanknopingspunten voor websites, digitale autonomie en gebruikerservaring.",
-        "bestMoment": "leergierig",
-        "tags": [
-          "front-end software development",
-          "history",
-          "learning & meta-learning"
-        ],
-        "coreInterests": [
-          "geschiedenis"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01m342b9yypr2tx21aap53csca",
-        "title": "1990: Programming the World Wide Web",
-        "author": null,
-        "siteName": "cybercultural.com",
-        "category": "article",
-        "language": null,
-        "readingTime": "7 mins",
-        "readingMinutes": 7,
-        "wordCount": 1830,
-        "publishedDate": "2021-11-01",
-        "savedDate": "2026-09-22T08:05:06.139000+00:00",
-        "imageUrl": "https://cybercultural.com/assets/images/wdh/tbl_code-1280x720.jpg",
-        "sourceUrl": "https://cybercultural.com/p/1990-programming-the-world-wide-web/",
-        "readwiseUrl": "https://read.readwise.io/read/01m342b9yypr2tx21aap53csca",
-        "summary": "In the final few months of 1990, Tim Berners-Lee and his CERN colleague Robert Cailliau develop the world’s first browser, create the HTML markup language, write the first web server, and invent HTTP.",
-        "whyRead": "Raakt je interesse in front-endontwikkeling, het open web en digitale cultuur. De bron biedt historische context en concrete ontwerp- of werkprincipes, met aanknopingspunten voor websites, digitale autonomie en gebruikerservaring.",
-        "bestMoment": "kritisch",
-        "tags": [
-          "front-end software development",
-          "history",
-          "science"
-        ],
-        "coreInterests": [
-          "geschiedenis"
-        ],
-        "alsoIn": [],
-        "memberships": []
       },
       {
         "position": null,
@@ -29442,66 +27791,6 @@ window.TOP_ARTICLES = {
       },
       {
         "position": null,
-        "id": "01m342avw37h2s3k7sa6qp3h6m",
-        "title": "Revisiting Web Rings",
-        "author": null,
-        "siteName": "anjackson.net",
-        "category": "article",
-        "language": null,
-        "readingTime": "3 mins",
-        "readingMinutes": 3,
-        "wordCount": 757,
-        "publishedDate": "2022-12-17",
-        "savedDate": "2026-09-22T08:04:51.714000+00:00",
-        "imageUrl": "https://anjackson.net/blog/images/2022-12-17-remembering-web-rings/webring-shine-trend.png",
-        "sourceUrl": "https://anjackson.net/2022/12/17/revisiting-web-rings/",
-        "readwiseUrl": "https://read.readwise.io/read/01m342avw37h2s3k7sa6qp3h6m",
-        "summary": "anjackson.net",
-        "whyRead": "Raakt je interesse in front-endontwikkeling, het open web en digitale cultuur. De bron biedt historische context en concrete ontwerp- of werkprincipes, met aanknopingspunten voor websites, digitale autonomie en gebruikerservaring.",
-        "bestMoment": "geconcentreerd",
-        "tags": [
-          "front-end software development",
-          "sociology & social structures",
-          "technology"
-        ],
-        "coreInterests": [
-          "sociologie"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01m342aq42tzys8yz8x3y6wrhv",
-        "title": "Extending the Post Graph Plugin: Adding Clickable Links and Tooltips",
-        "author": null,
-        "siteName": "brennan.day",
-        "category": "article",
-        "language": null,
-        "readingTime": "4 mins",
-        "readingMinutes": 4,
-        "wordCount": 876,
-        "publishedDate": "2026-01-09",
-        "savedDate": "2026-09-22T08:04:46.851000+00:00",
-        "imageUrl": "https://brennan.day/assets/images/blog/postgraph.gif",
-        "sourceUrl": "https://brennan.day/extending-the-post-graph-plugin-adding-clickable-links-and-tooltips/",
-        "readwiseUrl": "https://read.readwise.io/read/01m342aq42tzys8yz8x3y6wrhv",
-        "summary": "A technical walkthrough of how I extended the eleventy-plugin-post-graph to add clickable links and hover tooltips showing article titles.",
-        "whyRead": "Raakt je interesse in front-endontwikkeling, het open web en digitale cultuur. De bron biedt historische context en concrete ontwerp- of werkprincipes, met aanknopingspunten voor websites, digitale autonomie en gebruikerservaring.",
-        "bestMoment": "leergierig",
-        "tags": [
-          "behavioral psychology & coaching",
-          "front-end software development",
-          "social psychology & interpersonal dynamics"
-        ],
-        "coreInterests": [
-          "sociologie"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
         "id": "01m342aka89kp26mny8mk5fjah",
         "title": "From 65 to 83: Attempts at Performance Optimization",
         "author": null,
@@ -29546,827 +27835,6 @@ window.TOP_ARTICLES = {
       },
       {
         "position": null,
-        "id": "01m342aegmrr5fr891a3z5yggp",
-        "title": "Posting to Your Static Site with Quill and Micropub",
-        "author": null,
-        "siteName": "brennan.day",
-        "category": "article",
-        "language": null,
-        "readingTime": "6 mins",
-        "readingMinutes": 6,
-        "wordCount": 1378,
-        "publishedDate": "2026-01-13",
-        "savedDate": "2026-09-22T08:04:38.034000+00:00",
-        "imageUrl": "https://brennan.day/assets/images/blog/quill.jpg",
-        "sourceUrl": "https://brennan.day/posting-to-your-static-site-with-quill-and-micropub/",
-        "readwiseUrl": "https://read.readwise.io/read/01m342aegmrr5fr891a3z5yggp",
-        "summary": "After building an IndieAuth comment system, I wanted to complete the loop by posting content to my site from an external client. Here's how I implemented a…",
-        "whyRead": "Raakt je interesse in front-endontwikkeling, het open web en digitale cultuur. De bron biedt historische context en concrete ontwerp- of werkprincipes, met aanknopingspunten voor websites, digitale autonomie en gebruikerservaring.",
-        "bestMoment": "reflectief",
-        "tags": [
-          "front-end software development",
-          "learning & meta-learning",
-          "professional development"
-        ],
-        "coreInterests": [],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01m342aak4sb4f8bwxt0fe99re",
-        "title": "Building brennan.day Part One: Design, Rainbows, and Accessibility",
-        "author": null,
-        "siteName": "brennan.day",
-        "category": "article",
-        "language": null,
-        "readingTime": "7 mins",
-        "readingMinutes": 7,
-        "wordCount": 1753,
-        "publishedDate": "2025-12-29",
-        "savedDate": "2026-09-22T08:04:34.020000+00:00",
-        "imageUrl": "https://brennan.day/assets/images/blog/gruvbox.png",
-        "sourceUrl": "https://brennan.day/building-brennan-day-part-one-design-rainbows-and-accessibility/",
-        "readwiseUrl": "https://read.readwise.io/read/01m342aak4sb4f8bwxt0fe99re",
-        "summary": "A  dive into how this site is built, why it exists, and the philosophy behind owning your corner of the web.",
-        "whyRead": "Raakt je interesse in front-endontwikkeling, het open web en digitale cultuur. De bron biedt historische context en concrete ontwerp- of werkprincipes, met aanknopingspunten voor websites, digitale autonomie en gebruikerservaring.",
-        "bestMoment": "geïnspireerd",
-        "tags": [
-          "arts & culture",
-          "front-end software development",
-          "learning & meta-learning"
-        ],
-        "coreInterests": [],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01m342a5r0ekba2f3w4tn0gyfw",
-        "title": "IndieWeb principles",
-        "author": null,
-        "siteName": "paulrobertlloyd.com",
-        "category": "article",
-        "language": null,
-        "readingTime": "6 mins",
-        "readingMinutes": 6,
-        "wordCount": 1454,
-        "publishedDate": "2024-05-15",
-        "savedDate": "2026-09-22T08:04:29.056000+00:00",
-        "imageUrl": "https://paulrobertlloyd.com/assets/icons/icon-192.png",
-        "sourceUrl": "https://paulrobertlloyd.com/2024/136/a1/indieweb_principles/",
-        "readwiseUrl": "https://read.readwise.io/read/01m342a5r0ekba2f3w4tn0gyfw",
-        "summary": "When people ask what is the IndieWeb, and who is it for, do its principles hinder more than they help?",
-        "whyRead": "Raakt je interesse in front-endontwikkeling, het open web en digitale cultuur. De bron biedt historische context en concrete ontwerp- of werkprincipes, met aanknopingspunten voor websites, digitale autonomie en gebruikerservaring.",
-        "bestMoment": "analytisch",
-        "tags": [
-          "behavioral psychology & coaching",
-          "front-end software development",
-          "social psychology & interpersonal dynamics"
-        ],
-        "coreInterests": [
-          "sociologie"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01m342a1s61emd0x7nt2mv38a6",
-        "title": "A community of blogrolls",
-        "author": null,
-        "siteName": "danielprindii.com",
-        "category": "article",
-        "language": null,
-        "readingTime": "1 min",
-        "readingMinutes": 1,
-        "wordCount": 35,
-        "publishedDate": "2024-05-03",
-        "savedDate": "2026-09-22T08:04:24.996000+00:00",
-        "imageUrl": "https://danielprindii.com/media/pages/blog/a-community-of-blogrolls/6d59caced9-1714752322/blogroll-article-image-1200x630-crop.png",
-        "sourceUrl": "https://danielprindii.com/blog/a-community-of-blogrolls",
-        "readwiseUrl": "https://read.readwise.io/read/01m342a1s61emd0x7nt2mv38a6",
-        "summary": "What is a blogroll and how do we create communities around it?",
-        "whyRead": "Raakt je interesse in maatschappelijke structuren en digitale cultuur. De bron biedt een essayistische of verhalende leeservaring, met aanknopingspunten voor je bredere lees- en denkpraktijk.",
-        "bestMoment": "reflectief",
-        "tags": [
-          "organizational behavior & culture",
-          "sociology & social structures",
-          "technology"
-        ],
-        "coreInterests": [
-          "sociologie",
-          "agile"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01m3429mrybpgrz4pb8wtqg3xc",
-        "title": "Learnable Programming",
-        "author": null,
-        "siteName": "worrydream.com",
-        "category": "article",
-        "language": null,
-        "readingTime": "36 mins",
-        "readingMinutes": 36,
-        "wordCount": 9279,
-        "publishedDate": "2012-09-10",
-        "savedDate": "2026-09-22T08:04:11.678000+00:00",
-        "imageUrl": null,
-        "sourceUrl": "https://worrydream.com/LearnableProgramming/",
-        "readwiseUrl": "https://read.readwise.io/read/01m3429mrybpgrz4pb8wtqg3xc",
-        "summary": "Khan Academy recently launched an online environment for learning to program.",
-        "whyRead": "Raakt je interesse in front-endontwikkeling, het open web en digitale cultuur. De bron biedt historische context en concrete ontwerp- of werkprincipes, met aanknopingspunten voor websites, digitale autonomie en gebruikerservaring.",
-        "bestMoment": "leergierig",
-        "tags": [
-          "arts & culture",
-          "front-end software development",
-          "learning & meta-learning"
-        ],
-        "coreInterests": [],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01m3429a1wa271ymq6ycmfq7hk",
-        "title": "The Dark Side of Social Media Influencers: A Research Agenda for Analysing Deceptive Practices and Regulatory Challenges - Ekinci - 2025 - Psychology & Marketing - Wiley Online Library",
-        "author": null,
-        "siteName": "Wiley Online Library",
-        "category": "article",
-        "language": null,
-        "readingTime": "40 mins",
-        "readingMinutes": 40,
-        "wordCount": 10496,
-        "publishedDate": null,
-        "savedDate": "2026-09-22T08:04:00.699000+00:00",
-        "imageUrl": "https://onlinelibrary.wiley.com/cms/asset/69bced58-7cdd-4f0b-974e-176097ec1111/mar.v42.4.cover.jpg?trick=1790064273188",
-        "sourceUrl": "https://onlinelibrary.wiley.com/doi/10.1002/mar.22173",
-        "readwiseUrl": "https://read.readwise.io/read/01m3429a1wa271ymq6ycmfq7hk",
-        "summary": "Social media influencers are powerful agents as they broadcast information, steer consumer behavior and social norms. But their influence masks a “dark side,” too.",
-        "whyRead": "Raakt je interesse in sociale psychologie en menselijke interactie. De bron biedt een bruikbaar begrippenkader voor gedrag en interactie, met aanknopingspunten voor samenwerking, feedback en groepsgedrag.",
-        "bestMoment": "analytisch",
-        "tags": [
-          "behavioral psychology & coaching",
-          "social psychology & interpersonal dynamics",
-          "sociology & social structures"
-        ],
-        "coreInterests": [
-          "sociologie"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01m342965ew752egsgfmd2k602",
-        "title": "Social media and the spread of misinformation: infectious and a threat to public health Open Access",
-        "author": null,
-        "siteName": "silverchair-cdn.com",
-        "category": "article",
-        "language": null,
-        "readingTime": "19 mins",
-        "readingMinutes": 19,
-        "wordCount": 4791,
-        "publishedDate": "2025-03-31",
-        "savedDate": "2026-09-22T08:03:56.718000+00:00",
-        "imageUrl": "https://oup.silverchair-cdn.com/oup/backfile/Content_public/Journal/heapro/40/2/10.1093_heapro_daaf023/2/m_daaf023_fig1.jpeg?Expires=2147483647&Signature=u2wrm7WtOoVxFtA5-HivwPP2knMOLwgzy8saHWJ9nqWSW0vpvV87LnpZd1AYyu3eGBKImjGqmiqZg25leOTRrYiaXkHa5Qj8rQ9kG61YMC3lHaHt2EUs7ZJGfQl1Tbgvo9i6sX~0UriSSA6H6DI2mY50gskMy1KffJPG1E0GOzn-1ewz7zjkvc6QSm1e7rp5SnK1Ria5s3LHgyMORs9abNddbCGXyJ4q2HPVsmi6ezHKmazhvI9YNrSoGAIfeES71GA6vpkJ7WKFc3e5u5EnQJuhQNFPGTsKNEKIGNsuw~jQIB7PA20bn6xCwxD5HuIvyvIhiSNuduSCOpH8rlEGrQ__&Key-Pair-Id=APKAIE5G5CRDK6RD3PGA",
-        "sourceUrl": "https://oup.silverchair-cdn.com/article-minimal/8100645",
-        "readwiseUrl": "https://read.readwise.io/read/01m342965ew752egsgfmd2k602",
-        "summary": "We are living in the ‘post-truth era’.",
-        "whyRead": "Raakt je interesse in front-endontwikkeling, het open web en digitale cultuur. De bron biedt historische context en concrete ontwerp- of werkprincipes, met aanknopingspunten voor websites, digitale autonomie en gebruikerservaring.",
-        "bestMoment": "kritisch",
-        "tags": [
-          "front-end software development",
-          "sociology & social structures",
-          "technology"
-        ],
-        "coreInterests": [
-          "sociologie"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01m34291hp0a8hqptvv5hjye9j",
-        "title": "Online creators address misinformation about mental health on social media — but is it enough?",
-        "author": null,
-        "siteName": "KERA News",
-        "category": "article",
-        "language": null,
-        "readingTime": "3 mins",
-        "readingMinutes": 3,
-        "wordCount": 688,
-        "publishedDate": "2025-12-23",
-        "savedDate": "2026-09-22T08:03:51.988000+00:00",
-        "imageUrl": "https://npr.brightspotcdn.com/dims4/default/9062082/2147483647/strip/true/crop/4576x2402+0+253/resize/1200x630!/quality/90/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fd7%2F6d%2F7cb58883445f8bb8be1aaefbfd83%2F111523-tiktok-ban-montana-lawsuit-ap.jpg",
-        "sourceUrl": "https://www.keranews.org/news/2025-12-23/online-creators-address-misinformation-about-mental-health-on-social-media-but-is-it-enough",
-        "readwiseUrl": "https://read.readwise.io/read/01m34291hp0a8hqptvv5hjye9j",
-        "summary": "Social media is full of misinformation about mental health. Creators try to combat misconceptions — but is that enough to stop the spread of misinformation?",
-        "whyRead": "Raakt je interesse in AI, technologie-ethiek en maatschappelijke veiligheid. De bron biedt een concrete casus voor de ethische en maatschappelijke gevolgen van AI, met aanknopingspunten voor veiligheid, macht en menselijke verantwoordelijkheid.",
-        "bestMoment": "kritisch",
-        "tags": [
-          "ai ethics & society",
-          "behavioral psychology & coaching",
-          "technology"
-        ],
-        "coreInterests": [],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01m3428x3zprd54tewymx85jwj",
-        "title": "How misinformation on social media has changed news",
-        "author": null,
-        "siteName": "U.S. PIRG Education Fund",
-        "category": "article",
-        "language": null,
-        "readingTime": "7 mins",
-        "readingMinutes": 7,
-        "wordCount": 1688,
-        "publishedDate": "2025-07-30",
-        "savedDate": "2026-09-22T08:03:47.453000+00:00",
-        "imageUrl": "https://pirg.org/edfund/wp-content/uploads/2023/06/tiktok-5323005_1280.jpg",
-        "sourceUrl": "https://pirg.org/edfund/articles/misinformation-on-social-media/",
-        "readwiseUrl": "https://read.readwise.io/read/01m3428x3zprd54tewymx85jwj",
-        "summary": "Misinformation that seems real - but isn’t - rapidly circulates through social media. The problem is only getting worse.",
-        "whyRead": "Raakt je interesse in AI, technologie-ethiek en maatschappelijke veiligheid. De bron biedt een concrete casus voor de ethische en maatschappelijke gevolgen van AI, met aanknopingspunten voor veiligheid, macht en menselijke verantwoordelijkheid.",
-        "bestMoment": "kritisch",
-        "tags": [
-          "ai ethics & society",
-          "sociology & social structures",
-          "technology"
-        ],
-        "coreInterests": [
-          "sociologie"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01m3428r4n0ncmxh8zxs5t64d5",
-        "title": "Internet Fragmentation: An Explainer",
-        "author": null,
-        "siteName": "Internet Society",
-        "category": "article",
-        "language": null,
-        "readingTime": "2 mins",
-        "readingMinutes": 2,
-        "wordCount": 311,
-        "publishedDate": null,
-        "savedDate": "2026-09-22T08:03:42.357000+00:00",
-        "imageUrl": "https://www.internetsociety.org/wp-content/uploads/2023/12/Fragmentation-Mix-3-600x275-1.png",
-        "sourceUrl": "https://www.internetsociety.org/resources/internet-fragmentation/",
-        "readwiseUrl": "https://read.readwise.io/read/01m3428r4n0ncmxh8zxs5t64d5",
-        "summary": "Internet fragmentation is the division of the Internet into isolated networks. Learn more and explore the global threats in this evolving landscape.",
-        "whyRead": "Raakt je interesse in maatschappelijke structuren en digitale cultuur. De bron biedt een inhoudelijke achtergrond die je helpt verbanden te leggen, met aanknopingspunten voor je bredere lees- en denkpraktijk.",
-        "bestMoment": "kritisch",
-        "tags": [
-          "organizational behavior & culture",
-          "sociology & social structures",
-          "technology"
-        ],
-        "coreInterests": [
-          "sociologie",
-          "agile"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01m3428kxx5f6p96wyzhcmq3yn",
-        "title": "Lonelygirl15: how one mysterious vlogger changed the internet",
-        "author": null,
-        "siteName": "the Guardian",
-        "category": "article",
-        "language": null,
-        "readingTime": "15 mins",
-        "readingMinutes": 15,
-        "wordCount": 3754,
-        "publishedDate": "2016-06-16",
-        "savedDate": "2026-09-22T08:03:38.045000+00:00",
-        "imageUrl": "https://i.guim.co.uk/img/media/4e292cfd793f669737d8570db0d91a773ee3bdaa/0_0_3333_2000/3333.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=e0d1891bdbc8093ba0e66db0a912e3d3",
-        "sourceUrl": "https://www.theguardian.com/technology/2016/jun/16/lonelygirl15-bree-video-blog-youtube",
-        "readwiseUrl": "https://read.readwise.io/read/01m3428kxx5f6p96wyzhcmq3yn",
-        "summary": "Bree was a funny, friendly 16-year-old video blogger with a strange family. But all was not what it seemed. Ten years on, we revisit YouTube’s first viral hoax",
-        "whyRead": "Raakt je interesse in geschiedenis en de ontwikkeling van ideeën. De bron biedt een inhoudelijke achtergrond die je helpt verbanden te leggen, met aanknopingspunten voor je bredere lees- en denkpraktijk.",
-        "bestMoment": "kritisch",
-        "tags": [
-          "history",
-          "sociology & social structures",
-          "technology"
-        ],
-        "coreInterests": [
-          "geschiedenis",
-          "sociologie"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01m3428a6ybyb2bzq0b1vyrvpk",
-        "title": "A History of Blogging (1993 – Present Day Timeline)",
-        "author": null,
-        "siteName": "wpbeginner.com",
-        "category": "article",
-        "language": null,
-        "readingTime": "15 mins",
-        "readingMinutes": 15,
-        "wordCount": 3899,
-        "publishedDate": "2022-12-14",
-        "savedDate": "2026-09-22T08:03:28.094000+00:00",
-        "imageUrl": "https://cdn2.wpbeginner.com/wp-content/uploads/2022/12/a-history-of-blogging-og.png",
-        "sourceUrl": "https://www.wpbeginner.com/research/history-of-blogging/",
-        "readwiseUrl": "https://read.readwise.io/read/01m3428a6ybyb2bzq0b1vyrvpk",
-        "summary": "Are you curious about the history of blogging? Learn how blogging started, which platforms were developed, and how WordPress came to power 43% of all websites.",
-        "whyRead": "Raakt je interesse in front-endontwikkeling, het open web en digitale cultuur. De bron biedt historische context en concrete ontwerp- of werkprincipes, met aanknopingspunten voor websites, digitale autonomie en gebruikerservaring.",
-        "bestMoment": "kritisch",
-        "tags": [
-          "front-end software development",
-          "sociology & social structures",
-          "technology"
-        ],
-        "coreInterests": [
-          "sociologie"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01m34285vzm8sj5mzzdv71z95j",
-        "title": "IndieWeb Carnival: Feb 2026",
-        "author": null,
-        "siteName": "zacharykai.net",
-        "category": "article",
-        "language": null,
-        "readingTime": "1 min",
-        "readingMinutes": 1,
-        "wordCount": 229,
-        "publishedDate": "2026-02-01",
-        "savedDate": "2026-09-22T08:03:23.647000+00:00",
-        "imageUrl": null,
-        "sourceUrl": "https://zacharykai.net/notes/icfeb26",
-        "readwiseUrl": "https://read.readwise.io/read/01m34285vzm8sj5mzzdv71z95j",
-        "summary": "Welcome to the February 2026 IndieWeb Carnival! This month's theme is Intersecting Interests. Write about the unexpected places where your passions, hobbies, and curiosities overlap.",
-        "whyRead": "Raakt je interesse in AI, technologie-ethiek en maatschappelijke veiligheid. De bron biedt historische context en concrete ontwerp- of werkprincipes, met aanknopingspunten voor websites, digitale autonomie en gebruikerservaring.",
-        "bestMoment": "leergierig",
-        "tags": [
-          "ai ethics & society",
-          "front-end software development",
-          "technology"
-        ],
-        "coreInterests": [],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01m34281v5g0hpg49tynq7vynw",
-        "title": "Can the wood-wide web really help trees talk to each other?",
-        "author": null,
-        "siteName": "sciencefocus.com",
-        "category": "article",
-        "language": null,
-        "readingTime": "7 mins",
-        "readingMinutes": 7,
-        "wordCount": 1634,
-        "publishedDate": "2020-05-15",
-        "savedDate": "2026-09-22T08:03:19.523000+00:00",
-        "imageUrl": "https://images.immediate.co.uk/production/volatile/sites/4/2020/05/Mycorrhizal-networks-what-exactly-is-the-wood-wide-web-22aa7a8.jpg?resize=960,413",
-        "sourceUrl": "https://www.sciencefocus.com/nature/mycorrhizal-networks-wood-wide-web",
-        "readwiseUrl": "https://read.readwise.io/read/01m34281v5g0hpg49tynq7vynw",
-        "summary": "There’s evidence that trees communicate via a vast, underground network of fungal connections – we dive in to the murky world of mycorrhizal networks.",
-        "whyRead": "Raakt je interesse in wetenschap, ecologie en verwondering. De bron biedt een toegankelijke uitleg die verwondering koppelt aan bewijs, met aanknopingspunten voor hoe je publieke claims en populaire verklaringen beoordeelt.",
-        "bestMoment": "reflectief",
-        "tags": [
-          "environment & sustainability",
-          "science",
-          "technology"
-        ],
-        "coreInterests": [],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01m3427x5ndqw48mz52g0p3hjq",
-        "title": "Wood Wide Web - The underground communication network",
-        "author": null,
-        "siteName": "kentwildlifetrust.org.uk",
-        "category": "article",
-        "language": null,
-        "readingTime": "4 mins",
-        "readingMinutes": 4,
-        "wordCount": 862,
-        "publishedDate": "2024-09-25",
-        "savedDate": "2026-09-22T08:03:14.739000+00:00",
-        "imageUrl": "https://www.kentwildlifetrust.org.uk/sites/default/files/styles/og_image/public/2024-09/root-fungi-1024x683.jpg?h=199d8c1f&itok=EH1HjuFp",
-        "sourceUrl": "https://www.kentwildlifetrust.org.uk/blog/wood-wide-web-underground-communication-network",
-        "readwiseUrl": "https://read.readwise.io/read/01m3427x5ndqw48mz52g0p3hjq",
-        "summary": "Volunteer Matt Huggins explores the underground secrets of mycorrhizal networks and how they help trees to communicate with one another.",
-        "whyRead": "Raakt je interesse in geschiedenis en de ontwikkeling van ideeën. De bron biedt een inhoudelijke achtergrond die je helpt verbanden te leggen, met aanknopingspunten voor je bredere lees- en denkpraktijk.",
-        "bestMoment": "analytisch",
-        "tags": [
-          "history",
-          "sociology & social structures",
-          "technology"
-        ],
-        "coreInterests": [
-          "geschiedenis",
-          "sociologie"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01m3427ss0nge3qbnxgx0y61ws",
-        "title": "Do Trees Really Support Each Other through a Network of Fungi?",
-        "author": null,
-        "siteName": "Scientific American",
-        "category": "article",
-        "language": null,
-        "readingTime": "6 mins",
-        "readingMinutes": 6,
-        "wordCount": 1380,
-        "publishedDate": "2023-02-13",
-        "savedDate": "2026-09-22T08:03:11.262000+00:00",
-        "imageUrl": "https://static.scientificamerican.com/sciam/cache/file/D237644F-371D-4188-A9F080A9CDC7EBC1.jpg",
-        "sourceUrl": "https://www.scientificamerican.com/article/do-trees-support-each-other-through-a-network-of-fungi/",
-        "readwiseUrl": "https://read.readwise.io/read/01m3427ss0nge3qbnxgx0y61ws",
-        "summary": "Trees communicate and cooperate through a fungal web, according to a widespread idea. But not everyone is convinced",
-        "whyRead": "Raakt je interesse in wetenschap en ideeën over de wereld. De bron biedt een toegankelijke uitleg die verwondering koppelt aan bewijs, met aanknopingspunten voor hoe je publieke claims en populaire verklaringen beoordeelt.",
-        "bestMoment": "kritisch",
-        "tags": [
-          "science",
-          "sociology & social structures",
-          "technology"
-        ],
-        "coreInterests": [
-          "sociologie"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01m3427n255rh8r4rxz350mpg1",
-        "title": "The Indieweb Has A Discovery Problem",
-        "author": null,
-        "siteName": "mtwb.blog",
-        "category": "article",
-        "language": null,
-        "readingTime": "2 mins",
-        "readingMinutes": 2,
-        "wordCount": 271,
-        "publishedDate": null,
-        "savedDate": "2026-09-22T08:03:06.435000+00:00",
-        "imageUrl": "https://mtwb.blog/assets/favicon.png",
-        "sourceUrl": "https://mtwb.blog/posts/2026/blogging/the-indieweb-has-a-discovery-problem/",
-        "readwiseUrl": "https://read.readwise.io/read/01m3427n255rh8r4rxz350mpg1",
-        "summary": "Blog rolls are important. I have one. If you consider yourself a part of the “IndieWeb,” you should have one too. Because the IndieWeb dies without people spreading the word.\nThe thing is, Google sucks donkey balls, and not the good kind. You can’t go search for my blog here unless you know it exists or you know my name, which is probably not something normal people know. Other search engines exist, but again, you have to know what to search for. I don’t have one topic on this blog that people could search for, as I write about anything that catches my fancy. I get maybe 30 clicks from Google each month, and I’m shocked that it is that high.\n",
-        "whyRead": "Raakt je interesse in technologie, cultuur en menselijke samenwerking. De bron biedt een essayistische of verhalende leeservaring, met aanknopingspunten voor je bredere lees- en denkpraktijk.",
-        "bestMoment": "reflectief",
-        "tags": [
-          "technology"
-        ],
-        "coreInterests": [],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01m3427gh2vmpp8wc8jbpjgbx7",
-        "title": "The Science of Tree Communication: Understanding the Wood Wide Web",
-        "author": null,
-        "siteName": "Medium",
-        "category": "article",
-        "language": null,
-        "readingTime": "4 mins",
-        "readingMinutes": 4,
-        "wordCount": 873,
-        "publishedDate": "2024-07-12",
-        "savedDate": "2026-09-22T08:03:01.794000+00:00",
-        "imageUrl": "https://miro.medium.com/v2/resize:fit:1400/1*hQCU4OVWMUtrea9zDym4tQ.jpeg",
-        "sourceUrl": "https://ecomatcher.medium.com/the-science-of-tree-communication-understanding-the-wood-wide-web-03c07813cb6c",
-        "readwiseUrl": "https://read.readwise.io/read/01m3427gh2vmpp8wc8jbpjgbx7",
-        "summary": "Dive into the secret life of forests! Discover the Wood Wide Web, an underground network of fungi connecting trees. This symbiotic system…",
-        "whyRead": "Raakt je interesse in wetenschap, ecologie en verwondering. De bron biedt een toegankelijke uitleg die verwondering koppelt aan bewijs, met aanknopingspunten voor hoe je publieke claims en populaire verklaringen beoordeelt.",
-        "bestMoment": "analytisch",
-        "tags": [
-          "environment & sustainability",
-          "science",
-          "technology"
-        ],
-        "coreInterests": [],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01m3427bzed5sxxeg000zfnvyp",
-        "title": "Deploying An Eleventy Site to NeoCities with GitLab CI/CD",
-        "author": null,
-        "siteName": "brennan.day",
-        "category": "article",
-        "language": null,
-        "readingTime": "5 mins",
-        "readingMinutes": 5,
-        "wordCount": 1293,
-        "publishedDate": "2026-01-01",
-        "savedDate": "2026-09-22T08:02:57.134000+00:00",
-        "imageUrl": "https://brennan.day/assets/images/blog/neocities.jpg",
-        "sourceUrl": "https://brennan.day/deploying-an-eleventy-site-to-neocities-with-gitlab-ci-cd/",
-        "readwiseUrl": "https://read.readwise.io/read/01m3427bzed5sxxeg000zfnvyp",
-        "summary": "A guide to automatically deploying your Eleventy static site to NeoCities using GitLab CI/CD, including authentication, error handling, and optimizations.",
-        "whyRead": "Raakt je interesse in front-endontwikkeling, het open web en digitale cultuur. De bron biedt historische context en concrete ontwerp- of werkprincipes, met aanknopingspunten voor websites, digitale autonomie en gebruikerservaring.",
-        "bestMoment": "analytisch",
-        "tags": [
-          "front-end software development",
-          "sociology & social structures",
-          "technology"
-        ],
-        "coreInterests": [
-          "sociologie"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01m34276mqgm6ybv2xszv10nzh",
-        "title": "A Secret Web",
-        "author": null,
-        "siteName": "clew.se",
-        "category": "article",
-        "language": null,
-        "readingTime": "9 mins",
-        "readingMinutes": 9,
-        "wordCount": 2315,
-        "publishedDate": "2025-05-03",
-        "savedDate": "2026-09-22T08:02:51.669000+00:00",
-        "imageUrl": null,
-        "sourceUrl": "https://blog.clew.se/posts/secret-web/",
-        "readwiseUrl": "https://read.readwise.io/read/01m34276mqgm6ybv2xszv10nzh",
-        "summary": "The web is mind-bogglingly huge; let's look at how personal websites can thrive and interact despite that.",
-        "whyRead": "Raakt je interesse in front-endontwikkeling, het open web en digitale cultuur. De bron biedt historische context en concrete ontwerp- of werkprincipes, met aanknopingspunten voor websites, digitale autonomie en gebruikerservaring.",
-        "bestMoment": "reflectief",
-        "tags": [
-          "front-end software development",
-          "sociology & social structures",
-          "technology"
-        ],
-        "coreInterests": [
-          "sociologie"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01m34270ypazyjrh5xjtxpnman",
-        "title": "Welcome to the Wood Wide Web",
-        "author": null,
-        "siteName": "One Earth",
-        "category": "article",
-        "language": null,
-        "readingTime": "2 mins",
-        "readingMinutes": 2,
-        "wordCount": 446,
-        "publishedDate": "2023-12-01",
-        "savedDate": "2026-09-22T08:02:45.844000+00:00",
-        "imageUrl": "https://images.takeshape.io/86ce9525-f5f2-4e97-81ba-54e8ce933da7/dev/050701b3-5ef7-469d-8566-ef6fc77374c1/WoodWideWeb-CCEnvatoElements.jpg?auto=compress%2Cformat&h=630&w=1200",
-        "sourceUrl": "https://www.oneearth.org/welcome-to-the-wood-wide-web/",
-        "readwiseUrl": "https://read.readwise.io/read/01m34270ypazyjrh5xjtxpnman",
-        "summary": "Understanding the global communication network of trees can help fight climate change.",
-        "whyRead": "Raakt je interesse in AI, technologie-ethiek en maatschappelijke veiligheid. De bron biedt een concrete casus voor de ethische en maatschappelijke gevolgen van AI, met aanknopingspunten voor veiligheid, macht en menselijke verantwoordelijkheid.",
-        "bestMoment": "kritisch",
-        "tags": [
-          "ai ethics & society",
-          "sociology & social structures",
-          "technology"
-        ],
-        "coreInterests": [
-          "sociologie"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01m3426w85977xjgs42yrmj7fw",
-        "title": "Blaugust 2026 is Coming!",
-        "author": null,
-        "siteName": "Nerd Girl Thoughts",
-        "category": "article",
-        "language": null,
-        "readingTime": "5 mins",
-        "readingMinutes": 5,
-        "wordCount": 1202,
-        "publishedDate": "2026-07-15",
-        "savedDate": "2026-09-22T08:02:41.028000+00:00",
-        "imageUrl": "https://nerdgirlthoughts.game.blog/wp-content/uploads/2026/07/blaugustplusconstellations.png",
-        "sourceUrl": "https://nerdgirlthoughts.game.blog/2026/07/15/blaugust-2026-is-coming/",
-        "readwiseUrl": "https://read.readwise.io/read/01m3426w85977xjgs42yrmj7fw",
-        "summary": "Blaugust is the brain child of Mark Temple, more commonly known as Belghast, author of Tales of the Aggronaut. Normally, this post would be coming from him, but sadly, we lost Belghast on July 2, 2…",
-        "whyRead": "Raakt je interesse in AI, technologie-ethiek en maatschappelijke veiligheid. De bron biedt een concrete casus voor de ethische en maatschappelijke gevolgen van AI, met aanknopingspunten voor veiligheid, macht en menselijke verantwoordelijkheid.",
-        "bestMoment": "geïnspireerd",
-        "tags": [
-          "ai ethics & society",
-          "sociology & social structures",
-          "technology"
-        ],
-        "coreInterests": [
-          "sociologie"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01m3426rg2x3x42jr6p5jqg4qg",
-        "title": "Underground Networking: The Amazing Connections Beneath Your Feet",
-        "author": null,
-        "siteName": "nationalforests.org",
-        "category": "article",
-        "language": null,
-        "readingTime": "3 mins",
-        "readingMinutes": 3,
-        "wordCount": 699,
-        "publishedDate": null,
-        "savedDate": "2026-09-22T08:02:37.184000+00:00",
-        "imageUrl": "https://nff-production.imgix.net/wp-content/uploads/2026/01/tumblr_nxkcsoyNFl1t15h2ho1_1280.jpg?w=1280&h=1280&fit=max",
-        "sourceUrl": "https://www.nationalforests.org/article/underground-mycorrhizal-network/",
-        "readwiseUrl": "https://read.readwise.io/read/01m3426rg2x3x42jr6p5jqg4qg",
-        "summary": "Next time you’re exploring a forest, consider what lies below the soil, leaves, and moss that carpet the ground. Underneath the forest floor, intertwined with the roots of the trees, is a fascinating microscopic network of fungus.",
-        "whyRead": "Raakt je interesse in wetenschap, ecologie en verwondering. De bron biedt een toegankelijke uitleg die verwondering koppelt aan bewijs, met aanknopingspunten voor hoe je publieke claims en populaire verklaringen beoordeelt.",
-        "bestMoment": "analytisch",
-        "tags": [
-          "environment & sustainability",
-          "science",
-          "technology"
-        ],
-        "coreInterests": [],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01m3426kdvpr5n2r3rgmd0w38n",
-        "title": "Indra's Jewel Net",
-        "author": null,
-        "siteName": "Learn Religions",
-        "category": "article",
-        "language": null,
-        "readingTime": "3 mins",
-        "readingMinutes": 3,
-        "wordCount": 626,
-        "publishedDate": "2018-01-24",
-        "savedDate": "2026-09-22T08:02:31.995000+00:00",
-        "imageUrl": "https://www.learnreligions.com/thmb/3J_0d1Ahls1wj9mckr3IgEw8hZg=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/GettyImages-569040885-56cdc4185f9b5879cc5bf429.jpg",
-        "sourceUrl": "https://www.learnreligions.com/indras-jewel-net-449827",
-        "readwiseUrl": "https://read.readwise.io/read/01m3426kdvpr5n2r3rgmd0w38n",
-        "summary": "Indra's Net, or the Jewel Net of Indra, in Mahayana Buddhism is a sumptuous metaphor for the emptiness and interpenetration of all phenomena.",
-        "whyRead": "Raakt je interesse in wetenschap en ideeën over de wereld. De bron biedt een toegankelijke uitleg die verwondering koppelt aan bewijs, met aanknopingspunten voor hoe je publieke claims en populaire verklaringen beoordeelt.",
-        "bestMoment": "reflectief",
-        "tags": [
-          "organizational behavior & culture",
-          "science",
-          "technology"
-        ],
-        "coreInterests": [
-          "agile"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01m342696taxc0r949616kx4wx",
-        "title": "Dream and Intoxication: Nietzsche’s Apollonian-Dionysian Vision of Art and Culture",
-        "author": null,
-        "siteName": "Medium",
-        "category": "article",
-        "language": null,
-        "readingTime": "4 mins",
-        "readingMinutes": 4,
-        "wordCount": 924,
-        "publishedDate": "2025-05-13",
-        "savedDate": "2026-09-22T08:02:21.530000+00:00",
-        "imageUrl": "https://miro.medium.com/v2/resize:fit:1400/1*GAa84KGIL2EDoVs5FDybxA.jpeg",
-        "sourceUrl": "https://medium.com/@orlorodriguez/dream-and-intoxication-nietzsches-apollonian-dionysian-vision-of-art-and-culture-5099b4b6c6fd",
-        "readwiseUrl": "https://read.readwise.io/read/01m342696taxc0r949616kx4wx",
-        "summary": "Introduction",
-        "whyRead": "Raakt je interesse in cultuur, muziek en verhalen. De bron biedt een inhoudelijke achtergrond die je helpt verbanden te leggen, met aanknopingspunten voor je bredere lees- en denkpraktijk.",
-        "bestMoment": "kritisch",
-        "tags": [
-          "arts & culture",
-          "history",
-          "philosophy"
-        ],
-        "coreInterests": [
-          "filosofie",
-          "geschiedenis"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01m34265h757gnsz8sy91yvgtq",
-        "title": "The Apollonian and Dionysian: Nietzsche On Art and the Psyche",
-        "author": null,
-        "siteName": "philosophybreak.com",
-        "category": "article",
-        "language": null,
-        "readingTime": "15 mins",
-        "readingMinutes": 15,
-        "wordCount": 3718,
-        "publishedDate": null,
-        "savedDate": "2026-09-22T08:02:17.767000+00:00",
-        "imageUrl": "https://philosophybreak.com/static/7c0b340e29c02910d406a8a0c92f8b3a/91796/bacchic.jpg",
-        "sourceUrl": "https://philosophybreak.com/articles/apollonian-and-dionysian-nietzsche-on-art-and-the-psyche/",
-        "readwiseUrl": "https://read.readwise.io/read/01m34265h757gnsz8sy91yvgtq",
-        "summary": "Since the time of Socrates, Nietzsche claims that Western culture has generally been too biased towards the ‘Apollonian’ (representing order and rationality) over the ‘Dionysian’ (chaos and vitality) — to the great detriment of art, truth, and the human psyche.",
-        "whyRead": "Raakt je interesse in AI, technologie-ethiek en maatschappelijke veiligheid. De bron biedt een concrete casus voor de ethische en maatschappelijke gevolgen van AI, met aanknopingspunten voor veiligheid, macht en menselijke verantwoordelijkheid.",
-        "bestMoment": "analytisch",
-        "tags": [
-          "ai ethics & society",
-          "behavioral psychology & coaching",
-          "philosophy"
-        ],
-        "coreInterests": [
-          "filosofie"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01m34261xsj2mjd32eyjwrr95h",
-        "title": "The Blogging Übermensch, or, Being the Luckiest Person on Earth",
-        "author": null,
-        "siteName": "brennan.day",
-        "category": "article",
-        "language": null,
-        "readingTime": "8 mins",
-        "readingMinutes": 8,
-        "wordCount": 2038,
-        "publishedDate": "2026-03-31",
-        "savedDate": "2026-09-22T08:02:14.074000+00:00",
-        "imageUrl": "https://brennan.day/assets/images/blog/luck.jpg",
-        "sourceUrl": "https://brennan.day/the-blogging-uebermensch-or-being-the-luckiest-person-on-earth/",
-        "readwiseUrl": "https://read.readwise.io/read/01m34261xsj2mjd32eyjwrr95h",
-        "summary": "Exploring constitutive moral luck through Nagel and Williams alongside Nietzsche's Übermensch and amor fati, I reflect on the recursive gratitude I feel fo…",
-        "whyRead": "Raakt je interesse in sociale psychologie en menselijke interactie. De bron biedt een bruikbaar begrippenkader voor gedrag en interactie, met aanknopingspunten voor samenwerking, feedback en groepsgedrag.",
-        "bestMoment": "geïnspireerd",
-        "tags": [
-          "behavioral psychology & coaching",
-          "social psychology & interpersonal dynamics",
-          "technology"
-        ],
-        "coreInterests": [
-          "sociologie"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01m3425wwvzy8q9ve1p6zq6ae7",
-        "title": "Forgeries in the Name of Paul",
-        "author": null,
-        "siteName": "The Bart Ehrman Blog",
-        "category": "article",
-        "language": null,
-        "readingTime": "2 mins",
-        "readingMinutes": 2,
-        "wordCount": 287,
-        "publishedDate": "2014-12-15",
-        "savedDate": "2026-09-22T08:02:08.923000+00:00",
-        "imageUrl": "https://ehrmanblog.org/wp-content/uploads/2025/06/Ehrman-Blog-Header-Logo.png",
-        "sourceUrl": "https://ehrmanblog.org/forgeries-in-the-name-of-paul/",
-        "readwiseUrl": "https://read.readwise.io/read/01m3425wwvzy8q9ve1p6zq6ae7",
-        "summary": "QUESTION:  Something I would love to see you talk about is how the letters we think were written by Paul differ from the letters we think were not written by him. RESPONSE: Yes, this is an all-important question, and one I’ve been interested in for a very long time.   As many readers of the blog know, I’ve recently published two books on the broad question of “forgeries” in early Christianity, one of them written for scholars at a fairly dense, academic level, and the other for a lay audience (“normal” people, as opposed to abnormal scholars).   In these books I use the term “forgery” in a very specific, technical sense, to refer to books that make a false authorial claim – that is, a “forgery” is a book whose author claims to be someone other than who he is, almost always someone famous.  For the early Christians, these would invariably be the “authorities” who knew Jesus during his lifetime or soon after (so, Peter, Mary, James, Paul, Thomas, Philip, etc – we even have a [...]",
-        "whyRead": "Raakt je interesse in technologie, cultuur en menselijke samenwerking. De bron biedt een inhoudelijke achtergrond die je helpt verbanden te leggen, met aanknopingspunten voor je bredere lees- en denkpraktijk.",
-        "bestMoment": "analytisch",
-        "tags": [
-          "technology"
-        ],
-        "coreInterests": [],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
         "id": "01m3425pzbpf7jctc2e67dm8yf",
         "title": "Before the digital age: Sending a message in ancient Rome",
         "author": null,
@@ -30401,69 +27869,9 @@ window.TOP_ARTICLES = {
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 82
+            "position": 83
           }
         ]
-      },
-      {
-        "position": null,
-        "id": "01m3425kb1q7k37sfq25kheryq",
-        "title": "Letters & Post in the Ancient World",
-        "author": null,
-        "siteName": "World History Encyclopedia",
-        "category": "article",
-        "language": null,
-        "readingTime": "11 mins",
-        "readingMinutes": 11,
-        "wordCount": 2722,
-        "publishedDate": "2019-09-10",
-        "savedDate": "2026-09-22T08:01:59.135000+00:00",
-        "imageUrl": "https://www.worldhistory.org/img/c/p/2400x1254/3840.jpg",
-        "sourceUrl": "https://www.worldhistory.org/article/1442/letters--post-in-the-ancient-world/",
-        "readwiseUrl": "https://read.readwise.io/read/01m3425kb1q7k37sfq25kheryq",
-        "summary": "Letters and their delivery via a state communication system was a feature of many ancient cultures. The writing medium may have differed but the Mesopotamians, Egyptians, Greeks, Romans, and Incas all...",
-        "whyRead": "Raakt je interesse in wetenschap en ideeën over de wereld. De bron biedt een toegankelijke uitleg die verwondering koppelt aan bewijs, met aanknopingspunten voor je eigen schrijf- en leerpraktijk.",
-        "bestMoment": "geconcentreerd",
-        "tags": [
-          "history",
-          "learning & meta-learning",
-          "science"
-        ],
-        "coreInterests": [
-          "geschiedenis"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01m3425690pxb7qb37jrx3veqf",
-        "title": "A Beginner's Guide to the IndieWeb for Writers Who Don't Code (But Maybe Want to a Little)",
-        "author": null,
-        "siteName": "brennan.day",
-        "category": "article",
-        "language": null,
-        "readingTime": "9 mins",
-        "readingMinutes": 9,
-        "wordCount": 2282,
-        "publishedDate": "2026-01-27",
-        "savedDate": "2026-09-22T08:01:45.758000+00:00",
-        "imageUrl": "https://brennan.day/assets/images/blog/writers-guide.jpg",
-        "sourceUrl": "https://brennan.day/a-beginners-guide-to-the-indieweb-for-writers-who-dont-code-but-maybe-want-to-a-little/",
-        "readwiseUrl": "https://read.readwise.io/read/01m3425690pxb7qb37jrx3veqf",
-        "summary": "You don't need to be a developer to own your corner of the internet. A guide for writers, poets, and creators who want to escape algorithmic feeds and reclaim their digital presence. No computer science degree required.",
-        "whyRead": "Raakt je interesse in front-endontwikkeling, het open web en digitale cultuur. De bron biedt historische context en concrete ontwerp- of werkprincipes, met aanknopingspunten voor websites, digitale autonomie en gebruikerservaring.",
-        "bestMoment": "kritisch",
-        "tags": [
-          "front-end software development",
-          "sociology & social structures",
-          "technology"
-        ],
-        "coreInterests": [
-          "sociologie"
-        ],
-        "alsoIn": [],
-        "memberships": []
       },
       {
         "position": null,
@@ -30502,307 +27910,9 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 57
+            "position": 56
           }
         ]
-      },
-      {
-        "position": null,
-        "id": "01m3424w60bnhvnebhr6bc56f7",
-        "title": "Are active and passive social media use related to mental health, wellbeing, and social support outcomes? A meta-analysis of 141 studies Open Access",
-        "author": null,
-        "siteName": "silverchair-cdn.com",
-        "category": "article",
-        "language": null,
-        "readingTime": "33 mins",
-        "readingMinutes": 33,
-        "wordCount": 8703,
-        "publishedDate": "2024-01-31",
-        "savedDate": "2026-09-22T08:01:35.424000+00:00",
-        "imageUrl": "https://oup.silverchair-cdn.com/oup/backfile/Content_public/Journal/jcmc/29/1/10.1093_jcmc_zmad055/2/m_zmad055f1.jpeg?Expires=2147483647&Signature=Abdo7z1PzmZ8Tum6uBkpaLu7rm3mXYlR4Gr-ppbG6nLt4SoRAfJRGLvmVT6oTkelM52srcxTH2cWZSTTALcMcrMzWyf1eclraX7DoF71Yc4017h3pDAQYD0pOZOfHrSgPuRM4j6UsvYBxQ0kb5KyXHoLqw7CeDRTn8ki1RjL6ebA9d7ncySQQRMvyF5pQ-VOrrhloqGgngJCOgB6jawA0xpKe92-0zbqlEAE~OzqiTzjKXtAN14H7EFzqGS3~7JJq1mHNkhQF3tYycSrJxLrpW0u2CikEzwOaRK-NZYbswpWtaxL9HcXfEFC~eUOHN121wfwBdgYPvsbVTW7q31RLw__&Key-Pair-Id=APKAIE5G5CRDK6RD3PGA",
-        "sourceUrl": "https://oup.silverchair-cdn.com/article-minimal/7595758",
-        "readwiseUrl": "https://read.readwise.io/read/01m3424w60bnhvnebhr6bc56f7",
-        "summary": "A large body of research has investigated whether using social media (SM) actively (i. e.",
-        "whyRead": "Raakt je interesse in front-endontwikkeling, het open web en digitale cultuur. De bron biedt historische context en concrete ontwerp- of werkprincipes, met aanknopingspunten voor websites, digitale autonomie en gebruikerservaring.",
-        "bestMoment": "analytisch",
-        "tags": [
-          "behavioral psychology & coaching",
-          "front-end software development",
-          "social psychology & interpersonal dynamics"
-        ],
-        "coreInterests": [
-          "sociologie"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01m3424qekg7gdsmqwc0cxdnfe",
-        "title": "Software Harm Reduction",
-        "author": null,
-        "siteName": "brennan.day",
-        "category": "article",
-        "language": null,
-        "readingTime": "7 mins",
-        "readingMinutes": 7,
-        "wordCount": 1817,
-        "publishedDate": "2026-03-18",
-        "savedDate": "2026-09-22T08:01:30.579000+00:00",
-        "imageUrl": "https://brennan.day/assets/images/blog/software-harm.jpg",
-        "sourceUrl": "https://brennan.day/software-harm-reduction/",
-        "readwiseUrl": "https://read.readwise.io/read/01m3424qekg7gdsmqwc0cxdnfe",
-        "summary": "genAI code is now in Python, curl, and systemd. We face an ethical crisis. Slopware means we have two possible responses: absolutism or harm reduction. This moment demands the same principled stand that free software absolutists have taken for decades.",
-        "whyRead": "Raakt je interesse in AI, technologie-ethiek en maatschappelijke veiligheid. De bron biedt historische context en concrete ontwerp- of werkprincipes, met aanknopingspunten voor websites, digitale autonomie en gebruikerservaring.",
-        "bestMoment": "analytisch",
-        "tags": [
-          "ai ethics & society",
-          "front-end software development",
-          "technology"
-        ],
-        "coreInterests": [],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01m3424k7axvn1ezhmzq4tq8aj",
-        "title": "Deleting Facebook",
-        "author": null,
-        "siteName": "amelia.mn",
-        "category": "article",
-        "language": null,
-        "readingTime": "13 mins",
-        "readingMinutes": 13,
-        "wordCount": 3278,
-        "publishedDate": "2019-12-29",
-        "savedDate": "2026-09-22T08:01:26.250000+00:00",
-        "imageUrl": "https://www.amelia.mn/blog/2019-12-29-Deleting-Facebook/facebook_friends_rank.jpg",
-        "sourceUrl": "https://www.amelia.mn/blog/2019-12-29-Deleting-Facebook/",
-        "readwiseUrl": "https://read.readwise.io/read/01m3424k7axvn1ezhmzq4tq8aj",
-        "summary": "I had been thinking about deleting my Facebook account for several years, because I spend a fair amount of time teaching and speaking about data ethics and algorithmic inequality (e. g.",
-        "whyRead": "Raakt je interesse in front-endontwikkeling, het open web en digitale cultuur. De bron biedt historische context en concrete ontwerp- of werkprincipes, met aanknopingspunten voor websites, digitale autonomie en gebruikerservaring.",
-        "bestMoment": "kritisch",
-        "tags": [
-          "front-end software development",
-          "sociology & social structures",
-          "technology"
-        ],
-        "coreInterests": [
-          "sociologie"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01m3424f3xb63d327fdq5yb2t6",
-        "title": "Social media is harming adolescents at a scale large enough to cause changes at the population level",
-        "author": null,
-        "siteName": "worldhappiness.report",
-        "category": "article",
-        "language": null,
-        "readingTime": "1 hr 7 mins",
-        "readingMinutes": 67,
-        "wordCount": 17735,
-        "publishedDate": "2026-03-19",
-        "savedDate": "2026-09-22T08:01:22.045000+00:00",
-        "imageUrl": "https://www.worldhappiness.report/assets/images/icons/whr-cover-ico.png",
-        "sourceUrl": "https://www.worldhappiness.report/ed/2026/social-media-is-harming-adolescents-at-a-scale-large-enough-to-cause-changes-at-the-population-level/",
-        "readwiseUrl": "https://read.readwise.io/read/01m3424f3xb63d327fdq5yb2t6",
-        "summary": "The World Happiness Report is published by the Wellbeing Research Centre at the University of Oxford, in partnership with Gallup, the UN Sustainable Development Solutions Network and an independent editorial board.",
-        "whyRead": "Raakt je interesse in sociale psychologie en menselijke interactie. De bron biedt een bruikbaar begrippenkader voor gedrag en interactie, met aanknopingspunten voor samenwerking, feedback en groepsgedrag.",
-        "bestMoment": "kritisch",
-        "tags": [
-          "behavioral psychology & coaching",
-          "social psychology & interpersonal dynamics",
-          "sociology & social structures"
-        ],
-        "coreInterests": [
-          "sociologie"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01m3424atye47tt18g0ek1m2xe",
-        "title": "Teens, Social Media and Mental Health",
-        "author": null,
-        "siteName": "Pew Research Center",
-        "category": "article",
-        "language": null,
-        "readingTime": "15 mins",
-        "readingMinutes": 15,
-        "wordCount": 3757,
-        "publishedDate": "2025-04-22",
-        "savedDate": "2026-09-22T08:01:17.662000+00:00",
-        "imageUrl": "https://www.pewresearch.org/wp-content/uploads/sites/20/2025/04/PI_2025.04.22_teens-social-media-mental-health_featured.png?w=1200&h=628&crop=1",
-        "sourceUrl": "https://www.pewresearch.org/internet/2025/04/22/teens-social-media-and-mental-health/",
-        "readwiseUrl": "https://read.readwise.io/read/01m3424atye47tt18g0ek1m2xe",
-        "summary": "Parents are more worried than teens about teen mental health. Both groups – especially parents – partly blame social media. But teens also see benefits.",
-        "whyRead": "Raakt je interesse in front-endontwikkeling, het open web en digitale cultuur. De bron biedt historische context en concrete ontwerp- of werkprincipes, met aanknopingspunten voor websites, digitale autonomie en gebruikerservaring.",
-        "bestMoment": "kritisch",
-        "tags": [
-          "behavioral psychology & coaching",
-          "front-end software development",
-          "social psychology & interpersonal dynamics"
-        ],
-        "coreInterests": [
-          "sociologie"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01m34247bpyj0w0gqf9nasr2md",
-        "title": "The Piss Average Problem",
-        "author": null,
-        "siteName": "brennan.day",
-        "category": "article",
-        "language": null,
-        "readingTime": "11 mins",
-        "readingMinutes": 11,
-        "wordCount": 2843,
-        "publishedDate": "2025-11-08",
-        "savedDate": "2026-09-22T08:01:14.102000+00:00",
-        "imageUrl": "https://brennan.dayhttps/cdn-images-1.medium.com/max/2560/1*md7_b3RyZDsJdSgtbMQyTQ.png",
-        "sourceUrl": "https://brennan.day/the-piss-average-problem/",
-        "readwiseUrl": "https://read.readwise.io/read/01m34247bpyj0w0gqf9nasr2md",
-        "summary": "The Age of AI is a Crisis of Faith",
-        "whyRead": "Raakt je interesse in AI, technologie-ethiek en maatschappelijke veiligheid. De bron biedt een concrete casus voor de ethische en maatschappelijke gevolgen van AI, met aanknopingspunten voor veiligheid, macht en menselijke verantwoordelijkheid.",
-        "bestMoment": "kritisch",
-        "tags": [
-          "ai ethics & society",
-          "sociology & social structures",
-          "technology"
-        ],
-        "coreInterests": [
-          "sociologie"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01m342428rz5d0vrmbam1r3ghr",
-        "title": "What is the IndieWeb?",
-        "author": null,
-        "siteName": "brennan.day",
-        "category": "article",
-        "language": null,
-        "readingTime": "7 mins",
-        "readingMinutes": 7,
-        "wordCount": 1638,
-        "publishedDate": "2026-02-14",
-        "savedDate": "2026-09-22T08:01:08.888000+00:00",
-        "imageUrl": "https://brennan.day/assets/images/blog/indieweb-laptop.jpg",
-        "sourceUrl": "https://brennan.day/what-is-the-indieweb/",
-        "readwiseUrl": "https://read.readwise.io/read/01m342428rz5d0vrmbam1r3ghr",
-        "summary": "I decide to throw my hat into the ring and define what exactly the IndieWeb movement is, the core principles, and why it matters for the future of the Internet.",
-        "whyRead": "Raakt je interesse in front-endontwikkeling, het open web en digitale cultuur. De bron biedt historische context en concrete ontwerp- of werkprincipes, met aanknopingspunten voor websites, digitale autonomie en gebruikerservaring.",
-        "bestMoment": "analytisch",
-        "tags": [
-          "front-end software development",
-          "sociology & social structures",
-          "technology"
-        ],
-        "coreInterests": [
-          "sociologie"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01m3423x1fd9v1f7y9ytvzcm36",
-        "title": "Constellation of Living Stars",
-        "author": null,
-        "siteName": "brennan.day",
-        "category": "article",
-        "language": null,
-        "readingTime": "5 mins",
-        "readingMinutes": 5,
-        "wordCount": 1273,
-        "publishedDate": "2026-03-17",
-        "savedDate": "2026-09-22T08:01:03.535000+00:00",
-        "imageUrl": "https://brennan.day/assets/images/blog/constellations.jpg",
-        "sourceUrl": "https://brennan.day/constellation-of-living-stars/",
-        "readwiseUrl": "https://read.readwise.io/read/01m3423x1fd9v1f7y9ytvzcm36",
-        "summary": "I've written 120 blog posts in the past 140 days, averaging 1,900 words per post. 250,000 words total on my blog currently. It's as good a time as any to review my work so far and speculate on the possibilities of my future.",
-        "whyRead": "Raakt je interesse in front-endontwikkeling, het open web en digitale cultuur. De bron biedt historische context en concrete ontwerp- of werkprincipes, met aanknopingspunten voor websites, digitale autonomie en gebruikerservaring.",
-        "bestMoment": "kritisch",
-        "tags": [
-          "behavioral psychology & coaching",
-          "front-end software development",
-          "social psychology & interpersonal dynamics"
-        ],
-        "coreInterests": [
-          "sociologie"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01m3423s7p21vdf00gx977h4nk",
-        "title": "Unseasonal",
-        "author": null,
-        "siteName": "brennan.day",
-        "category": "article",
-        "language": null,
-        "readingTime": "4 mins",
-        "readingMinutes": 4,
-        "wordCount": 878,
-        "publishedDate": "2026-02-13",
-        "savedDate": "2026-09-22T08:00:59.639000+00:00",
-        "imageUrl": "https://brennan.day/assets/images/blog/unseasonal.jpg",
-        "sourceUrl": "https://brennan.day/unseasonal/",
-        "readwiseUrl": "https://read.readwise.io/read/01m3423s7p21vdf00gx977h4nk",
-        "summary": "Reflections on an unseasonably warm February day in Calgary, contemplating the accelerating pace of change in our world and finding meaning in small moments of connection and presence.",
-        "whyRead": "Raakt je interesse in AI, technologie-ethiek en maatschappelijke veiligheid. De bron biedt een concrete casus voor de ethische en maatschappelijke gevolgen van AI, met aanknopingspunten voor veiligheid, macht en menselijke verantwoordelijkheid.",
-        "bestMoment": "kritisch",
-        "tags": [
-          "ai ethics & society",
-          "sociology & social structures",
-          "technology"
-        ],
-        "coreInterests": [
-          "sociologie"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01m3423jspnejw6wj1pmx988f3",
-        "title": "Who Created Maslow’s Iconic Pyramid?",
-        "author": null,
-        "siteName": "Scientific American",
-        "category": "article",
-        "language": null,
-        "readingTime": "10 mins",
-        "readingMinutes": 10,
-        "wordCount": 2484,
-        "publishedDate": "2019-04-23",
-        "savedDate": "2026-09-22T08:00:53.046000+00:00",
-        "imageUrl": "https://static.scientificamerican.com/blogs/cache/file/A132E03F-A32B-4884-B526CA1E362DD4F1_source.jpg?w=1200",
-        "sourceUrl": "https://www.scientificamerican.com/blog/beautiful-minds/who-created-maslows-iconic-pyramid/",
-        "readwiseUrl": "https://read.readwise.io/read/01m3423jspnejw6wj1pmx988f3",
-        "summary": "A new paper investigates the real origins of Maslow's pyramid.",
-        "whyRead": "Raakt je interesse in sociale psychologie en menselijke interactie. De bron biedt een bruikbaar begrippenkader voor gedrag en interactie, met aanknopingspunten voor samenwerking, feedback en groepsgedrag.",
-        "bestMoment": "analytisch",
-        "tags": [
-          "behavioral psychology & coaching",
-          "social psychology & interpersonal dynamics",
-          "technology"
-        ],
-        "coreInterests": [
-          "sociologie"
-        ],
-        "alsoIn": [],
-        "memberships": []
       },
       {
         "position": null,
@@ -30853,249 +27963,9 @@ window.TOP_ARTICLES = {
           {
             "familyId": "social-studies",
             "size": "top-100",
-            "position": 75
+            "position": 74
           }
         ]
-      },
-      {
-        "position": null,
-        "id": "01m34231btkaw6aw5kcpvdqk0e",
-        "title": "Before Maslow’s Hierarchy: The Whitewashing of Indigenous Knowledge",
-        "author": null,
-        "siteName": "Shane Safir",
-        "category": "article",
-        "language": null,
-        "readingTime": "5 mins",
-        "readingMinutes": 5,
-        "wordCount": 1097,
-        "publishedDate": "2020-12-02",
-        "savedDate": "2026-09-22T08:00:35.194000+00:00",
-        "imageUrl": "https://shanesafir.com/wp-content/uploads/2020/12/photo-glenbow.png",
-        "sourceUrl": "https://shanesafir.com/2020/12/before-maslows-hierarchy-the-whitewashing-of-indigenous-knowledge/",
-        "readwiseUrl": "https://read.readwise.io/read/01m34231btkaw6aw5kcpvdqk0e",
-        "summary": "For the last few months, I’ve been wincing a bit every time I see a",
-        "whyRead": "Raakt je interesse in sociale psychologie en menselijke interactie. De bron biedt een bruikbaar begrippenkader voor gedrag en interactie, met aanknopingspunten voor samenwerking, feedback en groepsgedrag.",
-        "bestMoment": "analytisch",
-        "tags": [
-          "behavioral psychology & coaching",
-          "social psychology & interpersonal dynamics",
-          "technology"
-        ],
-        "coreInterests": [
-          "sociologie"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01m3422x5c0snze8dgd47fhkst",
-        "title": "Did Maslow Get Self-Actualization Wrong?",
-        "author": null,
-        "siteName": "Psychology Today",
-        "category": "article",
-        "language": null,
-        "readingTime": "4 mins",
-        "readingMinutes": 4,
-        "wordCount": 932,
-        "publishedDate": "2025-01-07",
-        "savedDate": "2026-09-22T08:00:30.893000+00:00",
-        "imageUrl": "https://cdn2.psychologytoday.com/assets/styles/manual_crop_1_91_1_1528x800/public/teaser_image/blog_entry/2025-01/1024px-Big_Mouth_Spring.jpg?h=065f9794&itok=IRJk4OwW",
-        "sourceUrl": "https://www.psychologytoday.com/us/blog/healing-the-wounded-healers/202501/did-maslow-get-self-actualization-wrong",
-        "readwiseUrl": "https://read.readwise.io/read/01m3422x5c0snze8dgd47fhkst",
-        "summary": "Here’s what the Blackfoot Tribe can teach us about self-actualization.",
-        "whyRead": "Raakt je interesse in sociale psychologie en menselijke interactie. De bron biedt een bruikbaar begrippenkader voor gedrag en interactie, met aanknopingspunten voor samenwerking, feedback en groepsgedrag.",
-        "bestMoment": "analytisch",
-        "tags": [
-          "behavioral psychology & coaching",
-          "social psychology & interpersonal dynamics",
-          "sociology & social structures"
-        ],
-        "coreInterests": [
-          "sociologie"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01m3422rwtd8c3nyvcqy71ww5a",
-        "title": "The Blackfoot Wisdom that Inspired Maslow’s Hierarchy",
-        "author": null,
-        "siteName": "resilience",
-        "category": "article",
-        "language": null,
-        "readingTime": "18 mins",
-        "readingMinutes": 18,
-        "wordCount": 4510,
-        "publishedDate": "2021-06-18",
-        "savedDate": "2026-09-22T08:00:26.522000+00:00",
-        "imageUrl": "https://www.resilience.org/wp-content/uploads/2021/06/Blackfoot_tipis.jpg",
-        "sourceUrl": "https://www.resilience.org/stories/2021-06-18/the-blackfoot-wisdom-that-inspired-maslows-hierarchy/",
-        "readwiseUrl": "https://read.readwise.io/read/01m3422rwtd8c3nyvcqy71ww5a",
-        "summary": "Whereas American narratives focus on the individual, the Blackfoot way of life offers an alternative of a community that leaves no one behind",
-        "whyRead": "Raakt je interesse in sociale psychologie en menselijke interactie. De bron biedt een bruikbaar begrippenkader voor gedrag en interactie, met aanknopingspunten voor samenwerking, feedback en groepsgedrag.",
-        "bestMoment": "analytisch",
-        "tags": [
-          "behavioral psychology & coaching",
-          "social psychology & interpersonal dynamics",
-          "technology"
-        ],
-        "coreInterests": [
-          "sociologie"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01m3422n2cfsgnjnedwk649ssv",
-        "title": "Some trees may 'social distance' to avoid disease",
-        "author": null,
-        "siteName": "History",
-        "category": "article",
-        "language": null,
-        "readingTime": "4 mins",
-        "readingMinutes": 4,
-        "wordCount": 977,
-        "publishedDate": "2020-07-06",
-        "savedDate": "2026-09-22T08:00:22.604000+00:00",
-        "imageUrl": "https://i.natgeofe.com/n/786fd051-a540-4ea3-a353-8f64af4df22c/crownshyness_mm9404_200619_00101_16x9.jpg?w=1200",
-        "sourceUrl": "https://www.nationalgeographic.com/science/article/tree-crown-shyness-forest-canopy",
-        "readwiseUrl": "https://read.readwise.io/read/01m3422n2cfsgnjnedwk649ssv",
-        "summary": "Many forest canopies maintain mysterious gaps, called crown shyness, that could help trees share resources and stay healthy.",
-        "whyRead": "Raakt je interesse in wetenschap, ecologie en verwondering. De bron biedt een toegankelijke uitleg die verwondering koppelt aan bewijs, met aanknopingspunten voor hoe je publieke claims en populaire verklaringen beoordeelt.",
-        "bestMoment": "kritisch",
-        "tags": [
-          "environment & sustainability",
-          "history",
-          "science"
-        ],
-        "coreInterests": [
-          "geschiedenis"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01m3422gh7py6jxptz3qdxnhgk",
-        "title": "The Mysteries of Crown Shyness",
-        "author": null,
-        "siteName": "JSTOR Daily",
-        "category": "article",
-        "language": null,
-        "readingTime": "2 mins",
-        "readingMinutes": 2,
-        "wordCount": 472,
-        "publishedDate": "2018-08-25",
-        "savedDate": "2026-09-22T08:00:17.959000+00:00",
-        "imageUrl": "https://daily.jstor.org/wp-content/uploads/2018/08/crown_shyness_trees_1050x700.jpg",
-        "sourceUrl": "https://daily.jstor.org/the-mysteries-of-crown-shyness/",
-        "readwiseUrl": "https://read.readwise.io/read/01m3422gh7py6jxptz3qdxnhgk",
-        "summary": "In some forests, trees grow in a manner that keeps their branches from touching one another. Despite decades of study, scientists aren't exactly sure why.",
-        "whyRead": "Raakt je interesse in wetenschap, ecologie en verwondering. De bron biedt een toegankelijke uitleg die verwondering koppelt aan bewijs, met aanknopingspunten voor hoe je publieke claims en populaire verklaringen beoordeelt.",
-        "bestMoment": "analytisch",
-        "tags": [
-          "environment & sustainability",
-          "science",
-          "sociology & social structures"
-        ],
-        "coreInterests": [
-          "sociologie"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01m3422c4hn4q432wtvaxqeepx",
-        "title": "What Robert Macfarlane learned in the 'Underland'",
-        "author": null,
-        "siteName": "History",
-        "category": "article",
-        "language": null,
-        "readingTime": "7 mins",
-        "readingMinutes": 7,
-        "wordCount": 1635,
-        "publishedDate": "2019-05-02",
-        "savedDate": "2026-09-22T08:00:13.457000+00:00",
-        "imageUrl": "https://i.natgeofe.com/n/6d1312bc-e0f4-42e8-b479-9657795d57a2/24325014827_6b7cbe238c_o_16x9.jpg?w=1200",
-        "sourceUrl": "https://www.nationalgeographic.com/adventure/article/robert-macfarlane-underland-interview",
-        "readwiseUrl": "https://read.readwise.io/read/01m3422c4hn4q432wtvaxqeepx",
-        "summary": "The British author’s latest book takes an atmospheric deep-dive into our complex relationship with the worlds beneath our feet.",
-        "whyRead": "Raakt je interesse in front-endontwikkeling, het open web en digitale cultuur. De bron biedt historische context en concrete ontwerp- of werkprincipes, met aanknopingspunten voor websites, digitale autonomie en gebruikerservaring.",
-        "bestMoment": "reflectief",
-        "tags": [
-          "front-end software development",
-          "sociology & social structures",
-          "technology"
-        ],
-        "coreInterests": [
-          "sociologie"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01m34228eve9zs17x3xh3vz92q",
-        "title": "The Understory",
-        "author": null,
-        "siteName": "Emergence Magazine",
-        "category": "article",
-        "language": null,
-        "readingTime": "34 mins",
-        "readingMinutes": 34,
-        "wordCount": 8972,
-        "publishedDate": "2019-06-26",
-        "savedDate": "2026-09-22T08:00:09.692000+00:00",
-        "imageUrl": "https://emergencemagazine.org/app/uploads/2021/01/001-diane-barker-epping-forest.jpg",
-        "sourceUrl": "https://emergencemagazine.org/essay/the-understory/",
-        "readwiseUrl": "https://read.readwise.io/read/01m34228eve9zs17x3xh3vz92q",
-        "summary": "Excerpted from Robert Macfarlane’s recently published book, \"Underland,\" \"Understory\" is an examination of the life beneath the forest floor.",
-        "whyRead": "Raakt je interesse in wetenschap en ideeën over de wereld. De bron biedt een toegankelijke uitleg die verwondering koppelt aan bewijs, met aanknopingspunten voor hoe je publieke claims en populaire verklaringen beoordeelt.",
-        "bestMoment": "analytisch",
-        "tags": [
-          "history",
-          "science",
-          "technology"
-        ],
-        "coreInterests": [
-          "geschiedenis"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01m342242scnpfm2v8mhztvjg6",
-        "title": "How Can We Use the Internet for Good?",
-        "author": null,
-        "siteName": "brennan.day",
-        "category": "article",
-        "language": null,
-        "readingTime": "9 mins",
-        "readingMinutes": 9,
-        "wordCount": 2252,
-        "publishedDate": "2026-01-04",
-        "savedDate": "2026-09-22T08:00:05.210000+00:00",
-        "imageUrl": "https://brennan.day/assets/images/blog/protest.jpg",
-        "sourceUrl": "https://brennan.day/how-can-we-use-the-internet-for-good/",
-        "readwiseUrl": "https://read.readwise.io/read/01m342242scnpfm2v8mhztvjg6",
-        "summary": "A manifesto on what we do when the world is on fire: Daywriting. The deliberate, daily documentation of ordinary existence as both personal archive and pol…",
-        "whyRead": "Raakt je interesse in front-endontwikkeling, het open web en digitale cultuur. De bron biedt historische context en concrete ontwerp- of werkprincipes, met aanknopingspunten voor websites, digitale autonomie en gebruikerservaring.",
-        "bestMoment": "kritisch",
-        "tags": [
-          "behavioral psychology & coaching",
-          "front-end software development",
-          "social psychology & interpersonal dynamics"
-        ],
-        "coreInterests": [
-          "sociologie"
-        ],
-        "alsoIn": [],
-        "memberships": []
       },
       {
         "position": null,
@@ -31146,424 +28016,6 @@ window.TOP_ARTICLES = {
       },
       {
         "position": null,
-        "id": "01m3421x717k797txy5bphte95",
-        "title": "The “Tragedy of the Commons” Is a Dubious, Right-Wing Concept",
-        "author": null,
-        "siteName": "jacobin.com",
-        "category": "article",
-        "language": null,
-        "readingTime": "5 mins",
-        "readingMinutes": 5,
-        "wordCount": 1087,
-        "publishedDate": "2023-10-20",
-        "savedDate": "2026-09-22T07:59:58.177000+00:00",
-        "imageUrl": "https://images.jacobinmag.com/wp-content/uploads/2023/10/19163420/GettyImages-1362510724.jpg",
-        "sourceUrl": "https://jacobin.com/2023/10/tragedy-of-the-commons-garrett-hardin-white-supremacy-enclosure-privatization-history",
-        "readwiseUrl": "https://read.readwise.io/read/01m3421x717k797txy5bphte95",
-        "summary": "The environmental crisis isn’t the result of the “tragedy of the commons.” It’s the result of the commons’ theft and privatization for profit.",
-        "whyRead": "Raakt je interesse in front-endontwikkeling, het open web en digitale cultuur. De bron biedt historische context en concrete ontwerp- of werkprincipes, met aanknopingspunten voor websites, digitale autonomie en gebruikerservaring.",
-        "bestMoment": "kritisch",
-        "tags": [
-          "behavioral psychology & coaching",
-          "front-end software development",
-          "social psychology & interpersonal dynamics"
-        ],
-        "coreInterests": [
-          "sociologie"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01m3421r21pq18t0akyz1f46n8",
-        "title": "The Tragedy of the Tragedy of the Commons",
-        "author": null,
-        "siteName": "Scientific American",
-        "category": "article",
-        "language": null,
-        "readingTime": "5 mins",
-        "readingMinutes": 5,
-        "wordCount": 1251,
-        "publishedDate": "2019-04-23",
-        "savedDate": "2026-09-22T07:59:52.897000+00:00",
-        "imageUrl": "https://static.scientificamerican.com/blogs/cache/file/C3F7B47F-A73C-4B0A-BA999B9DF85A89E3_source.jpg?w=1200",
-        "sourceUrl": "https://www.scientificamerican.com/blog/voices/the-tragedy-of-the-tragedy-of-the-commons/",
-        "readwiseUrl": "https://read.readwise.io/read/01m3421r21pq18t0akyz1f46n8",
-        "summary": "The man who wrote one of environmentalism’s most-cited essays was a racist, eugenicist, nativist and Islamaphobe—plus his argument was wrong",
-        "whyRead": "Raakt je interesse in sociale psychologie en menselijke interactie. De bron biedt een bruikbaar begrippenkader voor gedrag en interactie, met aanknopingspunten voor samenwerking, feedback en groepsgedrag.",
-        "bestMoment": "kritisch",
-        "tags": [
-          "behavioral psychology & coaching",
-          "social psychology & interpersonal dynamics",
-          "technology"
-        ],
-        "coreInterests": [
-          "sociologie"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01m3421m2bh5rfepz0yxpkvjzr",
-        "title": "How Do We Account for Evil?",
-        "author": null,
-        "siteName": "brennan.day",
-        "category": "article",
-        "language": null,
-        "readingTime": "11 mins",
-        "readingMinutes": 11,
-        "wordCount": 2881,
-        "publishedDate": "2026-03-12",
-        "savedDate": "2026-09-22T07:59:48.811000+00:00",
-        "imageUrl": "https://brennan.day/assets/images/blog/evil.jpg",
-        "sourceUrl": "https://brennan.day/how-do-we-account-for-evil/",
-        "readwiseUrl": "https://read.readwise.io/read/01m3421m2bh5rfepz0yxpkvjzr",
-        "summary": "Drawing on Susan Neiman's philosophy of evil, the 'missing stair' problem, and Elinor Ostrom's principles for governing the commons, I try to explore the d…",
-        "whyRead": "Raakt je interesse in sociale psychologie en menselijke interactie. De bron biedt een bruikbaar begrippenkader voor gedrag en interactie, met aanknopingspunten voor samenwerking, feedback en groepsgedrag.",
-        "bestMoment": "analytisch",
-        "tags": [
-          "behavioral psychology & coaching",
-          "social psychology & interpersonal dynamics",
-          "technology"
-        ],
-        "coreInterests": [
-          "sociologie"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01m3421fzxaxfrxbtpj7nmbzzd",
-        "title": "The Death of Community Memory",
-        "author": null,
-        "siteName": "Discourse",
-        "category": "article",
-        "language": null,
-        "readingTime": "5 mins",
-        "readingMinutes": 5,
-        "wordCount": 1213,
-        "publishedDate": "2025-11-11",
-        "savedDate": "2026-09-22T07:59:44.635000+00:00",
-        "imageUrl": "https://blog.discourse.org/content/images/size/w1200/2025/11/death-of-community-memory.jpg",
-        "sourceUrl": "https://blog.discourse.org/2025/11/the-death-of-community-memory/",
-        "readwiseUrl": "https://read.readwise.io/read/01m3421fzxaxfrxbtpj7nmbzzd",
-        "summary": "I recently spent forty minutes searching through Slack trying to find a technical decision — made eight months ago — about an app that 60% of my creative life depends on...I eventually gave up and just asked someone to explain it again, which they did, poorly, because they didn’t quite remember either.",
-        "whyRead": "Raakt je interesse in geschiedenis en de ontwikkeling van ideeën. De bron biedt een inhoudelijke achtergrond die je helpt verbanden te leggen, met aanknopingspunten voor je bredere lees- en denkpraktijk.",
-        "bestMoment": "kritisch",
-        "tags": [
-          "history",
-          "sociology & social structures",
-          "technology"
-        ],
-        "coreInterests": [
-          "geschiedenis",
-          "sociologie"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01m34219zys4k0qegqeqj0h22t",
-        "title": "The Internet in 20 Years Time: What we should have done differently",
-        "author": null,
-        "siteName": "DNS Research Federation",
-        "category": "article",
-        "language": null,
-        "readingTime": "6 mins",
-        "readingMinutes": 6,
-        "wordCount": 1466,
-        "publishedDate": "2023-10-05",
-        "savedDate": "2026-09-22T07:59:38.495000+00:00",
-        "imageUrl": "https://dnsrf.org/.k-media/fcd3376050299540144684f28cafc7f2.png",
-        "sourceUrl": "https://dnsrf.org/blog/the-internet-in-20-years-time-what-we-should-have-done-differently/index.html",
-        "readwiseUrl": "https://read.readwise.io/read/01m34219zys4k0qegqeqj0h22t",
-        "summary": "The future of the internet - how it works and how users will experience it - is in flux. Decisions made now will impact future generations.   This paper outlines three scenarios for what the internet ",
-        "whyRead": "Raakt je interesse in front-endontwikkeling, het open web en digitale cultuur. De bron biedt historische context en concrete ontwerp- of werkprincipes, met aanknopingspunten voor websites, digitale autonomie en gebruikerservaring.",
-        "bestMoment": "kritisch",
-        "tags": [
-          "front-end software development",
-          "sociology & social structures",
-          "technology"
-        ],
-        "coreInterests": [
-          "sociologie"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01m34216h4dc7jggamt42zyx96",
-        "title": "The Long Web",
-        "author": null,
-        "siteName": "adactio.com",
-        "category": "article",
-        "language": null,
-        "readingTime": "8 mins",
-        "readingMinutes": 8,
-        "wordCount": 1968,
-        "publishedDate": "2008-10-26",
-        "savedDate": "2026-09-22T07:59:34.948000+00:00",
-        "imageUrl": "https://adactio.com/images/photo-300.jpg",
-        "sourceUrl": "https://adactio.com/articles/1522/",
-        "readwiseUrl": "https://read.readwise.io/read/01m34216h4dc7jggamt42zyx96",
-        "summary": "The opening talk from the inaugural Head conference, delivered at the London hub.",
-        "whyRead": "Raakt je interesse in wetenschap en ideeën over de wereld. De bron biedt een toegankelijke uitleg die verwondering koppelt aan bewijs, met aanknopingspunten voor hoe je publieke claims en populaire verklaringen beoordeelt.",
-        "bestMoment": "reflectief",
-        "tags": [
-          "history",
-          "science",
-          "technology"
-        ],
-        "coreInterests": [
-          "geschiedenis"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01m34212tfm655exkap1r4c8cb",
-        "title": "The Unbearable Lightness of Web Pages",
-        "author": null,
-        "siteName": "thelocalyarn.com",
-        "category": "article",
-        "language": null,
-        "readingTime": "5 mins",
-        "readingMinutes": 5,
-        "wordCount": 1168,
-        "publishedDate": null,
-        "savedDate": "2026-09-22T07:59:31.152000+00:00",
-        "imageUrl": null,
-        "sourceUrl": "https://thelocalyarn.com/excursus/secretary/posts/web-books.html",
-        "readwiseUrl": "https://read.readwise.io/read/01m34212tfm655exkap1r4c8cb",
-        "summary": "Web pages are ghosts: they’re like images projected onto a wall. They aren’t durable.",
-        "whyRead": "Raakt je interesse in front-endontwikkeling, het open web en digitale cultuur. De bron biedt historische context en concrete ontwerp- of werkprincipes, met aanknopingspunten voor websites, digitale autonomie en gebruikerservaring.",
-        "bestMoment": "leergierig",
-        "tags": [
-          "front-end software development",
-          "learning & meta-learning",
-          "professional development"
-        ],
-        "coreInterests": [],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01m3420zdbj6r358bf78h8m2v7",
-        "title": "A Manifesto for Preserving Content on the Web",
-        "author": null,
-        "siteName": "jeffhuang.com",
-        "category": "article",
-        "language": null,
-        "readingTime": "9 mins",
-        "readingMinutes": 9,
-        "wordCount": 2305,
-        "publishedDate": "2019-12-19",
-        "savedDate": "2026-09-22T07:59:27.659000+00:00",
-        "imageUrl": null,
-        "sourceUrl": "https://jeffhuang.com/designed_to_last/",
-        "readwiseUrl": "https://read.readwise.io/read/01m3420zdbj6r358bf78h8m2v7",
-        "summary": "The end of the year is an opportunity to clean up and reset for the upcoming new semester.",
-        "whyRead": "Raakt je interesse in front-endontwikkeling, het open web en digitale cultuur. De bron biedt historische context en concrete ontwerp- of werkprincipes, met aanknopingspunten voor websites, digitale autonomie en gebruikerservaring.",
-        "bestMoment": "leergierig",
-        "tags": [
-          "front-end software development",
-          "sociology & social structures",
-          "technology"
-        ],
-        "coreInterests": [
-          "sociologie"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01m3420tn4tyqnwdrtxw3efyaf",
-        "title": "Shining a Light on the Digital Dark Age",
-        "author": null,
-        "siteName": "Long Now",
-        "category": "article",
-        "language": null,
-        "readingTime": "10 mins",
-        "readingMinutes": 10,
-        "wordCount": 2518,
-        "publishedDate": "2023-07-19",
-        "savedDate": "2026-09-22T07:59:22.788000+00:00",
-        "imageUrl": "https://static.longnow.org/2023/07/digital-dark-age-.jpg",
-        "sourceUrl": "https://longnow.org/ideas/shining-a-light-on-the-digital-dark-age/",
-        "readwiseUrl": "https://read.readwise.io/read/01m3420tn4tyqnwdrtxw3efyaf",
-        "summary": "Without maintenance, most digital information will be lost in just a few decades. How might we secure our data so that it survives for generations?",
-        "whyRead": "Raakt je interesse in front-endontwikkeling, het open web en digitale cultuur. De bron biedt historische context en concrete ontwerp- of werkprincipes, met aanknopingspunten voor websites, digitale autonomie en gebruikerservaring.",
-        "bestMoment": "geconcentreerd",
-        "tags": [
-          "front-end software development",
-          "history",
-          "science"
-        ],
-        "coreInterests": [
-          "geschiedenis"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01m3420qcx32fv0qvesf3qxhpf",
-        "title": "The Internet's Dark Ages",
-        "author": null,
-        "siteName": "The Atlantic",
-        "category": "article",
-        "language": null,
-        "readingTime": "13 mins",
-        "readingMinutes": 13,
-        "wordCount": 3367,
-        "publishedDate": "2015-10-14",
-        "savedDate": "2026-09-22T07:59:19.453000+00:00",
-        "imageUrl": "https://cdn.theatlantic.com/thumbor/w6nh2PrfLmsbCNd6-2R7m5xP_sw=/0x104:2000x1229/1440x810/media/img/2015/10/13/LostInternet/original.jpg",
-        "sourceUrl": "https://www.theatlantic.com/technology/archive/2015/10/raiders-of-the-lost-web/409210/",
-        "readwiseUrl": "https://read.readwise.io/read/01m3420qcx32fv0qvesf3qxhpf",
-        "summary": "If a Pulitzer-nominated 34-part series of investigative journalism can vanish from the web, anything can.",
-        "whyRead": "Raakt je interesse in geschiedenis en de ontwikkeling van ideeën. De bron biedt een inhoudelijke achtergrond die je helpt verbanden te leggen, met aanknopingspunten voor je bredere lees- en denkpraktijk.",
-        "bestMoment": "kritisch",
-        "tags": [
-          "history",
-          "sociology & social structures",
-          "technology"
-        ],
-        "coreInterests": [
-          "geschiedenis",
-          "sociologie"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01m3420bjf0zd2trvvjzkdj8qj",
-        "title": "Pausing the Internet",
-        "author": null,
-        "siteName": "Harvard Law School Center on the Legal Profession",
-        "category": "article",
-        "language": null,
-        "readingTime": "14 mins",
-        "readingMinutes": 14,
-        "wordCount": 3696,
-        "publishedDate": "2019-04-22",
-        "savedDate": "2026-09-22T07:59:07.342000+00:00",
-        "imageUrl": "https://clp.law.harvard.edu/wp-content/uploads/2022/10/Perma-article-photo_SQUARE.jpg",
-        "sourceUrl": "https://clp.law.harvard.edu/knowledge-hub/magazine/issues/the-evolution-of-law-libraries/pausing-the-internet/",
-        "readwiseUrl": "https://read.readwise.io/read/01m3420bjf0zd2trvvjzkdj8qj",
-        "summary": "In March 2014 the Harvard Law Review published “Perma: Scoping and Addressing the Problem of Link and Reference Rot in Legal Citations,” by Jonathan Zittrain, Kendra Albert, and Lawrence Lessig. The paper examines how legal academic journal citation and even URLs (website links) provided in U.S. Supreme Court opinions are impacted by link rot or […]",
-        "whyRead": "Raakt je interesse in wetenschap en ideeën over de wereld. De bron biedt een toegankelijke uitleg die verwondering koppelt aan bewijs, met aanknopingspunten voor hoe je publieke claims en populaire verklaringen beoordeelt.",
-        "bestMoment": "kritisch",
-        "tags": [
-          "science",
-          "technology"
-        ],
-        "coreInterests": [],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01m341zzczrv8pbjtqxfaex5cc",
-        "title": "The internet is littered with ‘dead links’",
-        "author": null,
-        "siteName": "Fast Company",
-        "category": "article",
-        "language": null,
-        "readingTime": "2 mins",
-        "readingMinutes": 2,
-        "wordCount": 513,
-        "publishedDate": "2024-05-28",
-        "savedDate": "2026-09-22T07:58:54.877000+00:00",
-        "imageUrl": "https://images.fastcompany.com/image/upload/f_auto,q_auto,c_fit,w_1024,h_1024/wp-cms-2/2024/05/p-91130447-digital-decay.jpg",
-        "sourceUrl": "https://www.fastcompany.com/91130447/the-internet-is-littered-with-dead-links",
-        "readwiseUrl": "https://read.readwise.io/read/01m341zzczrv8pbjtqxfaex5cc",
-        "summary": "New research from the Pew Research Center shows that a quarter of webpages built between 2013 and 2023 are now dead.",
-        "whyRead": "Raakt je interesse in geschiedenis en de ontwikkeling van ideeën. De bron biedt een inhoudelijke achtergrond die je helpt verbanden te leggen, met aanknopingspunten voor je bredere lees- en denkpraktijk.",
-        "bestMoment": "kritisch",
-        "tags": [
-          "history",
-          "sociology & social structures",
-          "technology"
-        ],
-        "coreInterests": [
-          "geschiedenis",
-          "sociologie"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01m341tvaw6nw45faw52zrymhj",
-        "title": "At Least 66.5% of Links to Sites in the Last 9 Years Are Dead (Ahrefs Study on Link Rot)",
-        "author": null,
-        "siteName": "Blog de SEO de Ahrefs",
-        "category": "article",
-        "language": null,
-        "readingTime": "7 mins",
-        "readingMinutes": 7,
-        "wordCount": 1765,
-        "publishedDate": "2022-04-29",
-        "savedDate": "2026-09-22T07:56:06.876000+00:00",
-        "imageUrl": "https://ahrefs.com/blog/wp-content/uploads/2022/04/fb_link_rot_study.png",
-        "sourceUrl": "https://ahrefs.com/blog/link-rot-study/",
-        "readwiseUrl": "https://read.readwise.io/read/01m341tvaw6nw45faw52zrymhj",
-        "summary": "Key stats on link rot.",
-        "whyRead": "Raakt je interesse in front-endontwikkeling, het open web en digitale cultuur. De bron biedt historische context en concrete ontwerp- of werkprincipes, met aanknopingspunten voor websites, digitale autonomie en gebruikerservaring.",
-        "bestMoment": "analytisch",
-        "tags": [
-          "front-end software development",
-          "sociology & social structures",
-          "technology"
-        ],
-        "coreInterests": [
-          "sociologie"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01m341tq93zbb5btdjnpw0kgrv",
-        "title": "When Online Content Disappears",
-        "author": null,
-        "siteName": "Pew Research Center",
-        "category": "article",
-        "language": null,
-        "readingTime": "9 mins",
-        "readingMinutes": 9,
-        "wordCount": 2148,
-        "publishedDate": "2024-05-17",
-        "savedDate": "2026-09-22T07:56:02.720000+00:00",
-        "imageUrl": "https://www.pewresearch.org/wp-content/uploads/sites/20/2024/05/PL_23.10.02_DataAttrition_feature.png?w=1200&h=628&crop=1",
-        "sourceUrl": "https://www.pewresearch.org/data-labs/2024/05/17/when-online-content-disappears/",
-        "readwiseUrl": "https://read.readwise.io/read/01m341tq93zbb5btdjnpw0kgrv",
-        "summary": "A quarter of all webpages that existed at one point between 2013 and 2023 are no longer accessible.",
-        "whyRead": "Raakt je interesse in wetenschap en ideeën over de wereld. De bron biedt een toegankelijke uitleg die verwondering koppelt aan bewijs, met aanknopingspunten voor hoe je publieke claims en populaire verklaringen beoordeelt.",
-        "bestMoment": "kritisch",
-        "tags": [
-          "science",
-          "sociology & social structures",
-          "technology"
-        ],
-        "coreInterests": [
-          "sociologie"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
         "id": "01m341t4e2qprnbgncz5f6sewt",
         "title": "Safety Off",
         "author": null,
@@ -31598,69 +28050,9 @@ window.TOP_ARTICLES = {
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 94
+            "position": 95
           }
         ]
-      },
-      {
-        "position": null,
-        "id": "01m341srpr07472sf3t3f9fa2s",
-        "title": "Substack Has a Nazi Problem",
-        "author": null,
-        "siteName": "The Atlantic",
-        "category": "article",
-        "language": null,
-        "readingTime": "11 mins",
-        "readingMinutes": 11,
-        "wordCount": 2705,
-        "publishedDate": "2023-11-28",
-        "savedDate": "2026-09-22T07:55:31.416000+00:00",
-        "imageUrl": "https://cdn.theatlantic.com/thumbor/3yaUOMQiR2ZGEMW57Ib4b5axKy0=/0x0:2000x1125/960x540/media/img/mt/2023/11/nazi_substack/original.jpg",
-        "sourceUrl": "https://www.theatlantic.com/ideas/archive/2023/11/substack-extremism-nazi-white-supremacy-newsletters/676156/",
-        "readwiseUrl": "https://read.readwise.io/read/01m341srpr07472sf3t3f9fa2s",
-        "summary": "\"Substack has not only been hosting writers who post overtly Nazi rhetoric on the platform; it profits from many of them,\" Jonathan M. Katz writes:",
-        "whyRead": "Raakt je interesse in front-endontwikkeling, het open web en digitale cultuur. De bron biedt historische context en concrete ontwerp- of werkprincipes, met aanknopingspunten voor websites, digitale autonomie en gebruikerservaring.",
-        "bestMoment": "kritisch",
-        "tags": [
-          "front-end software development",
-          "sociology & social structures",
-          "technology"
-        ],
-        "coreInterests": [
-          "sociologie"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01m341skh3s3ebdhxmzswcnjwa",
-        "title": "Substack's Subpar Subculture",
-        "author": null,
-        "siteName": "brennan.day",
-        "category": "article",
-        "language": null,
-        "readingTime": "7 mins",
-        "readingMinutes": 7,
-        "wordCount": 1758,
-        "publishedDate": "2026-02-05",
-        "savedDate": "2026-09-22T07:55:26.115000+00:00",
-        "imageUrl": "https://brennan.day/assets/images/blog/substack.jpg",
-        "sourceUrl": "https://brennan.day/substacks-subpar-subculture/",
-        "readwiseUrl": "https://read.readwise.io/read/01m341skh3s3ebdhxmzswcnjwa",
-        "summary": "The newsletter platform is supposed to be the new economic engine for culture. Yet, they let hate speech fester. Why? The answer is obvious. Writing is treated as commodity instead of sacred art. But there is a solution.",
-        "whyRead": "Raakt je interesse in front-endontwikkeling, het open web en digitale cultuur. De bron biedt historische context en concrete ontwerp- of werkprincipes, met aanknopingspunten voor websites, digitale autonomie en gebruikerservaring.",
-        "bestMoment": "kritisch",
-        "tags": [
-          "front-end software development",
-          "sociology & social structures",
-          "technology"
-        ],
-        "coreInterests": [
-          "sociologie"
-        ],
-        "alsoIn": [],
-        "memberships": []
       },
       {
         "position": null,
@@ -31702,149 +28094,6 @@ window.TOP_ARTICLES = {
       },
       {
         "position": null,
-        "id": "01m341rwgy45kmmggapq5xb1n3",
-        "title": "Five Interesting Indie Platforms You Might Not Have Heard Of",
-        "author": null,
-        "siteName": "brennan.day",
-        "category": "article",
-        "language": null,
-        "readingTime": "7 mins",
-        "readingMinutes": 7,
-        "wordCount": 1671,
-        "publishedDate": "2026-08-05",
-        "savedDate": "2026-09-22T07:55:02.558000+00:00",
-        "imageUrl": "https://brennan.day/assets/images/blog/colour-buildings.jpg",
-        "sourceUrl": "https://brennan.day/five-interesting-indie-platforms-you-might-not-have-heard-of/",
-        "readwiseUrl": "https://read.readwise.io/read/01m341rwgy45kmmggapq5xb1n3",
-        "summary": "After deleting my corporate social media accounts, I've discovered five interesting indie platforms and online communities you might not have heard of: Special Fish, Ctrl + Shift + 3, web1.0 Hosting, Pillowfort, and Blue Dwarf. A look at what makes each unique, from brutalist design to old-device accessibility, and a call to support the independent web financially.",
-        "whyRead": "Raakt je interesse in front-endontwikkeling, het open web en digitale cultuur. De bron biedt historische context en concrete ontwerp- of werkprincipes, met aanknopingspunten voor websites, digitale autonomie en gebruikerservaring.",
-        "bestMoment": "leergierig",
-        "tags": [
-          "front-end software development",
-          "sociology & social structures",
-          "technology"
-        ],
-        "coreInterests": [
-          "sociologie"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01m341rs51q752avcwnbn93f0w",
-        "title": "The Internet's Landlord Problem",
-        "author": null,
-        "siteName": "brennan.day",
-        "category": "article",
-        "language": null,
-        "readingTime": "9 mins",
-        "readingMinutes": 9,
-        "wordCount": 2261,
-        "publishedDate": "2026-04-03",
-        "savedDate": "2026-09-22T07:54:59.106000+00:00",
-        "imageUrl": "https://brennan.day/assets/images/blog/cloudflare.jpg",
-        "sourceUrl": "https://brennan.day/the-internets-landlord-problem/",
-        "readwiseUrl": "https://read.readwise.io/read/01m341rs51q752avcwnbn93f0w",
-        "summary": "A quarter of the entire Internet uses Cloudflare. This is an existential threat to the Internet's ideals. I realized I need DDoS protection, but I could not use Cloudflare in good conscience. And so, I'm beyond excited to announce that I'm now using Deflect.ca for my website.",
-        "whyRead": "Raakt je interesse in AI, technologie-ethiek en maatschappelijke veiligheid. De bron biedt historische context en concrete ontwerp- of werkprincipes, met aanknopingspunten voor websites, digitale autonomie en gebruikerservaring.",
-        "bestMoment": "kritisch",
-        "tags": [
-          "ai ethics & society",
-          "front-end software development",
-          "technology"
-        ],
-        "coreInterests": [],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01m341rngx6q4xd89rnagdtwdr",
-        "title": "Why I'm not a Full-stack Dev",
-        "author": null,
-        "siteName": "brennan.day",
-        "category": "article",
-        "language": null,
-        "readingTime": "5 mins",
-        "readingMinutes": 5,
-        "wordCount": 1264,
-        "publishedDate": "2025-12-31",
-        "savedDate": "2026-09-22T07:54:55.389000+00:00",
-        "imageUrl": "https://brennan.day/assets/images/blog/stack.jpg",
-        "sourceUrl": "https://brennan.day/why-i-m-not-a-full-stack-dev/",
-        "readwiseUrl": "https://read.readwise.io/read/01m341rngx6q4xd89rnagdtwdr",
-        "summary": "The Internet should be a place where ideas can live and spread without people extracting rent at every turn. Where an emerging nonprofit can publish their …",
-        "whyRead": "Raakt je interesse in AI, technologie-ethiek en maatschappelijke veiligheid. De bron biedt historische context en concrete ontwerp- of werkprincipes, met aanknopingspunten voor websites, digitale autonomie en gebruikerservaring.",
-        "bestMoment": "kritisch",
-        "tags": [
-          "ai ethics & society",
-          "front-end software development",
-          "technology"
-        ],
-        "coreInterests": [],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01m341reds5qzkgrsjcnaqabbs",
-        "title": "Computing for the Apocalypse",
-        "author": null,
-        "siteName": "brennan.day",
-        "category": "article",
-        "language": null,
-        "readingTime": "9 mins",
-        "readingMinutes": 9,
-        "wordCount": 2146,
-        "publishedDate": "2026-01-17",
-        "savedDate": "2026-09-22T07:54:48.121000+00:00",
-        "imageUrl": "https://brennan.day/assets/images/blog/server.jpg",
-        "sourceUrl": "https://brennan.day/computing-for-the-apocalypse/",
-        "readwiseUrl": "https://read.readwise.io/read/01m341reds5qzkgrsjcnaqabbs",
-        "summary": "Building digital resilience through self-hosted infrastructure and permacomputing principles in an uncertain world. Using Docker, Caddy, and open-source to…",
-        "whyRead": "Raakt je interesse in AI, technologie-ethiek en maatschappelijke veiligheid. De bron biedt historische context en concrete ontwerp- of werkprincipes, met aanknopingspunten voor websites, digitale autonomie en gebruikerservaring.",
-        "bestMoment": "analytisch",
-        "tags": [
-          "ai ethics & society",
-          "front-end software development",
-          "technology"
-        ],
-        "coreInterests": [],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01m33ztmknvsn8ydzx76dq2gjp",
-        "title": "Homelab For the Beginner: You Can Self-host Your Own Server on $50 Hardware",
-        "author": null,
-        "siteName": "brennan.day",
-        "category": "article",
-        "language": null,
-        "readingTime": "21 mins",
-        "readingMinutes": 21,
-        "wordCount": 5364,
-        "publishedDate": "2026-05-28",
-        "savedDate": "2026-09-22T07:21:02.838000+00:00",
-        "imageUrl": "https://brennan.day/assets/images/blog/noir-server.jpg",
-        "sourceUrl": "https://brennan.day/homelab-for-the-beginner-you-can-self-host-your-own-server-on-50-hardware/",
-        "readwiseUrl": "https://read.readwise.io/read/01m33ztmknvsn8ydzx76dq2gjp",
-        "summary": "A beginner-friendly guide to building your own homelab on inexpensive hardware. Covers finding old computers, setting up Linux, SSH, Docker, and self-hosting services like password managers, RSS readers, and your own Fediverse instance. Digital sovereignty doesn't require expensive equipment.",
-        "whyRead": "Een concrete route naar digitale autonomie: met oude hardware eigen diensten hosten en afhankelijkheid van cloudplatforms verkleinen.",
-        "bestMoment": "wanneer je zin hebt in een praktisch infrastructuurproject",
-        "tags": [
-          "environment & sustainability",
-          "front-end software development",
-          "software development",
-          "technology"
-        ],
-        "coreInterests": [],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
         "id": "01m33ztf96h7mhrh08zxs2qxqp",
         "title": "Building an IndieAuth Comment System for Your Static Site",
         "author": null,
@@ -31881,68 +28130,6 @@ window.TOP_ARTICLES = {
             "position": 24
           }
         ]
-      },
-      {
-        "position": null,
-        "id": "01m33ztbxes0cyajfnqg29dgaj",
-        "title": "Free Speech and the IndieWeb",
-        "author": null,
-        "siteName": "brennan.day",
-        "category": "article",
-        "language": null,
-        "readingTime": "11 mins",
-        "readingMinutes": 11,
-        "wordCount": 2791,
-        "publishedDate": "2026-08-07",
-        "savedDate": "2026-09-22T07:20:53.934000+00:00",
-        "imageUrl": "https://brennan.day/assets/images/blog/declaration.jpg",
-        "sourceUrl": "https://brennan.day/free-speech-and-the-indieweb/",
-        "readwiseUrl": "https://read.readwise.io/read/01m33ztbxes0cyajfnqg29dgaj",
-        "summary": "After rescinding a recommendation for BlueDwarf, I explore the spectrum of harm across platforms from X to Substack, and argue that not all harm is equal. On free speech absolutism, cognitive dissonance in platform choices, and where we draw lines in the sand for what's acceptable in the IndieWeb.",
-        "whyRead": "Een reflectie op vrijheid van meningsuiting, platformschade en de morele grenzen van onafhankelijke webgemeenschappen.",
-        "bestMoment": "wanneer je platformkeuzes en moderatie wilt doordenken",
-        "tags": [
-          "ai ethics & society",
-          "political philosophy",
-          "sociology & social structures",
-          "technology"
-        ],
-        "coreInterests": [
-          "filosofie",
-          "ideologie",
-          "sociologie"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01m33zt8e8xta32xrqg830vvb4",
-        "title": "How are we preparing for the Long Web?",
-        "author": null,
-        "siteName": "brennan.day",
-        "category": "article",
-        "language": null,
-        "readingTime": "10 mins",
-        "readingMinutes": 10,
-        "wordCount": 2417,
-        "publishedDate": "2026-03-01",
-        "savedDate": "2026-09-22T07:20:50.376000+00:00",
-        "imageUrl": "https://brennan.day/assets/images/blog/time-capsule.jpg",
-        "sourceUrl": "https://brennan.day/how-are-we-preparing-for-the-long-web/",
-        "readwiseUrl": "https://read.readwise.io/read/01m33zt8e8xta32xrqg830vvb4",
-        "summary": "What will the Internet look like in 2036? 2046? How do we reckon with the challenges of digital preservation, link rot, and building for the Long Web in an age of ephemeral content?",
-        "whyRead": "Een toekomstgerichte verkenning van linkrot, digitale duurzaamheid en websites die langer mee moeten gaan dan hun makers.",
-        "bestMoment": "bij een rustige reflectiesessie over digitale duurzaamheid",
-        "tags": [
-          "environment & sustainability",
-          "front-end software development",
-          "learning & meta-learning",
-          "technology"
-        ],
-        "coreInterests": [],
-        "alsoIn": [],
-        "memberships": []
       },
       {
         "position": null,
@@ -31987,163 +28174,6 @@ window.TOP_ARTICLES = {
       },
       {
         "position": null,
-        "id": "01m33zszay459k10cccdjb3r8y",
-        "title": "Trust and Faith in Our Web",
-        "author": null,
-        "siteName": "brennan.day",
-        "category": "article",
-        "language": null,
-        "readingTime": "7 mins",
-        "readingMinutes": 7,
-        "wordCount": 1793,
-        "publishedDate": "2026-03-20",
-        "savedDate": "2026-09-22T07:20:41.055000+00:00",
-        "imageUrl": "https://brennan.day/assets/images/blog/web-art.jpg",
-        "sourceUrl": "https://brennan.day/trust-and-faith-in-our-web/",
-        "readwiseUrl": "https://read.readwise.io/read/01m33zszay459k10cccdjb3r8y",
-        "summary": "What is trust in an AI-saturated internet? And a related question, how do we reckon with the barriers to onboarding people to the IndieWeb? We must cultivate faith in our digital interactions and make independent web spaces more accessible.",
-        "whyRead": "Een essay over vertrouwen in een AI-verzadigd web en de sociale drempels van de IndieWeb.",
-        "bestMoment": "wanneer je AI, toegankelijkheid en online vertrouwen samen wilt bekijken",
-        "tags": [
-          "ai ethics & society",
-          "social psychology & interpersonal dynamics",
-          "sociology & social structures",
-          "technology"
-        ],
-        "coreInterests": [
-          "sociologie"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01m33zsv1xgbgze3qqsr2yv21s",
-        "title": "Building the Good Web",
-        "author": null,
-        "siteName": "brennan.day",
-        "category": "article",
-        "language": null,
-        "readingTime": "10 mins",
-        "readingMinutes": 10,
-        "wordCount": 2484,
-        "publishedDate": "2026-03-22",
-        "savedDate": "2026-09-22T07:20:36.669000+00:00",
-        "imageUrl": "https://brennan.day/assets/images/blog/good-web.jpg",
-        "sourceUrl": "https://brennan.day/building-the-good-web/",
-        "readwiseUrl": "https://read.readwise.io/read/01m33zsv1xgbgze3qqsr2yv21s",
-        "summary": "What does it actually mean to build a better web, and what do we owe each other in doing so? A response to the 32-bit Café thread about trust, onboarding, and the distance between knowing something is wrong and doing something about it.",
-        "whyRead": "Een normatieve oproep om het web menselijker te maken via onderhoud, vertrouwen en gedeelde verantwoordelijkheid.",
-        "bestMoment": "als je wilt nadenken over de ethiek van digitale infrastructuur",
-        "tags": [
-          "ai ethics & society",
-          "political philosophy",
-          "social psychology & interpersonal dynamics",
-          "technology"
-        ],
-        "coreInterests": [
-          "filosofie",
-          "ideologie",
-          "sociologie"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01m33zsqqz5svk8p9j8791h2h3",
-        "title": "The IndieWeb is Wonderfully Dionysian",
-        "author": null,
-        "siteName": "brennan.day",
-        "category": "article",
-        "language": null,
-        "readingTime": "9 mins",
-        "readingMinutes": 9,
-        "wordCount": 2269,
-        "publishedDate": "2026-04-25",
-        "savedDate": "2026-09-22T07:20:33.280000+00:00",
-        "imageUrl": "https://brennan.day/assets/images/blog/flower-letters.jpg",
-        "sourceUrl": "https://brennan.day/the-indieweb-is-wonderfully-dionysian/",
-        "readwiseUrl": "https://read.readwise.io/read/01m33zsqqz5svk8p9j8791h2h3",
-        "summary": "A personal plea from me to you to write your own comments. On the genAI plague of LinkedIn, Meta ads, and Medium, and the human warmth of the IndieWeb. From deviantART's old comment culture to Seneca's letters and the Vindolanda tablets, through Nietzsche's Apollonian/Dionysian divide, the Renaissance of Real in A/W 2026/27 fashion, and Charli XCX's Brat. A call to write the messy, human, from-the-heart comment only you can write.",
-        "whyRead": "Een cultuurkritisch essay over menselijke rommeligheid, AI-slop en de sociale waarde van onafhankelijke websites.",
-        "bestMoment": "wanneer je de relatie tussen creativiteit en AI wilt onderzoeken",
-        "tags": [
-          "ai ethics & society",
-          "arts & culture",
-          "social psychology & interpersonal dynamics",
-          "technology"
-        ],
-        "coreInterests": [
-          "sociologie"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01m33zskhpz4cwz7znmnb607bc",
-        "title": "Won't you be my neighbour?",
-        "author": null,
-        "siteName": "brennan.day",
-        "category": "article",
-        "language": null,
-        "readingTime": "9 mins",
-        "readingMinutes": 9,
-        "wordCount": 2302,
-        "publishedDate": "2026-02-22",
-        "savedDate": "2026-09-22T07:20:28.982000+00:00",
-        "imageUrl": "https://brennan.day/assets/images/blog/neighbour.jpg",
-        "sourceUrl": "https://brennan.day/wont-you-be-my-neighbour/",
-        "readwiseUrl": "https://read.readwise.io/read/01m33zskhpz4cwz7znmnb607bc",
-        "summary": "We need to be good neighours to each other. But what does that mean on the IndieWeb? A look at mycorrhizal networks, Indra's Net, and the importance of building intentional connections between independent websites.",
-        "whyRead": "Een essay over digitale nabuurschap, wederkerigheid en de verbinding tussen kleine websites.",
-        "bestMoment": "wanneer je online gemeenschap minder instrumenteel wilt bekijken",
-        "tags": [
-          "personal growth & life philosophy",
-          "social psychology & interpersonal dynamics",
-          "sociology & social structures",
-          "technology"
-        ],
-        "coreInterests": [
-          "sociologie"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01m33zsfdjmq64009p3baahtzz",
-        "title": "You Don't Have to Blog",
-        "author": null,
-        "siteName": "brennan.day",
-        "category": "article",
-        "language": null,
-        "readingTime": "5 mins",
-        "readingMinutes": 5,
-        "wordCount": 1062,
-        "publishedDate": "2026-07-31",
-        "savedDate": "2026-09-22T07:20:24.754000+00:00",
-        "imageUrl": "https://brennan.day/assets/images/blog/fun-thing.jpg",
-        "sourceUrl": "https://brennan.day/you-dont-have-to-blog/",
-        "readwiseUrl": "https://read.readwise.io/read/01m33zsfdjmq64009p3baahtzz",
-        "summary": "Responding to Dan Q's post on blogging expectations, I argue that you don't need to blog at all to participate in the IndieWeb. Your website can be shrines, art, or anything else. A retrospective on the poisonous gamification and commodification of blogging from the early 2000s, and the IndieWeb as a return to original weblogging where the Internet belongs to humans.",
-        "whyRead": "Een bevrijdende kritiek op de prestatiedruk van bloggen en een pleidooi voor eigenzinnige vormen van online publiceren.",
-        "bestMoment": "wanneer publiceren als verplichting begint te voelen",
-        "tags": [
-          "arts & culture",
-          "personal growth & life philosophy",
-          "social psychology & interpersonal dynamics",
-          "technology"
-        ],
-        "coreInterests": [
-          "sociologie"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
         "id": "01m33zsb5tpke7ms2qnq1f0vyb",
         "title": "The 1% Rule: An Open Letter to Everyone Who Doesn't Post Anything Online",
         "author": null,
@@ -32180,7 +28210,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 93
+            "position": 94
           },
           {
             "familyId": "luchtig",
@@ -32228,97 +28258,6 @@ window.TOP_ARTICLES = {
       },
       {
         "position": null,
-        "id": "01m33zrn2btqkz0f4mn5f03vdd",
-        "title": "Resources for the Personal Web: A Follow-Up Guide",
-        "author": null,
-        "siteName": "brennan.day",
-        "category": "article",
-        "language": null,
-        "readingTime": "8 mins",
-        "readingMinutes": 8,
-        "wordCount": 1937,
-        "publishedDate": "2026-01-08",
-        "savedDate": "2026-09-22T07:19:57.771000+00:00",
-        "imageUrl": "https://brennan.day/assets/images/blog/indieweb.jpg",
-        "sourceUrl": "https://brennan.day/resources-for-the-personal-web-a-follow-up-guide/",
-        "readwiseUrl": "https://read.readwise.io/read/01m33zrn2btqkz0f4mn5f03vdd",
-        "summary": "A guide to tools and resources for joining the independent web movement. Discover blogging platforms like Pika, search engines that prioritize small sites, directories for finding like-minded creators, and more.",
-        "whyRead": "Een praktische gids naar platforms, zoekmachines en gemeenschappen voor het persoonlijke web.",
-        "bestMoment": "wanneer je concrete small-webbronnen wilt verkennen",
-        "tags": [
-          "front-end software development",
-          "learning & meta-learning",
-          "social psychology & interpersonal dynamics",
-          "technology"
-        ],
-        "coreInterests": [
-          "sociologie"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01m33zrhk1cecw0hcypjd6dpxf",
-        "title": "What I Have Learned Being on the IndieWeb for a Month",
-        "author": null,
-        "siteName": "brennan.day",
-        "category": "article",
-        "language": null,
-        "readingTime": "4 mins",
-        "readingMinutes": 4,
-        "wordCount": 874,
-        "publishedDate": "2026-01-14",
-        "savedDate": "2026-09-22T07:19:54.209000+00:00",
-        "imageUrl": "https://brennan.day/assets/images/blog/village.jpg",
-        "sourceUrl": "https://brennan.day/what-i-have-learned-being-on-the-indieweb-for-a-month/",
-        "readwiseUrl": "https://read.readwise.io/read/01m33zrhk1cecw0hcypjd6dpxf",
-        "summary": "A month of building, connecting, and discovering the independent web. Small technical joys that turned solitude into dialogue. Treat the Internet like a pe…",
-        "whyRead": "Een ervaringsverslag over een eigen site, IndieAuth, toegankelijkheid en het veranderen van monoloog in dialoog.",
-        "bestMoment": "wanneer je praktische ervaringen met een eigen website wilt lezen",
-        "tags": [
-          "front-end software development",
-          "personal growth & life philosophy",
-          "social psychology & interpersonal dynamics",
-          "technology"
-        ],
-        "coreInterests": [
-          "sociologie"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01m33zre991mgpqantdjjvg207",
-        "title": "Writing First, Tooling Second",
-        "author": null,
-        "siteName": "susam.net",
-        "category": "article",
-        "language": null,
-        "readingTime": "3 mins",
-        "readingMinutes": 3,
-        "wordCount": 774,
-        "publishedDate": "2026-01-10",
-        "savedDate": "2026-09-22T07:19:50.825000+00:00",
-        "imageUrl": null,
-        "sourceUrl": "https://susam.net/writing-first-tooling-second.html",
-        "readwiseUrl": "https://read.readwise.io/read/01m33zre991mgpqantdjjvg207",
-        "summary": "I am a strong proponent of running independent personal websites on your own domains and publishing your writing there.",
-        "whyRead": "Een korte maar scherpe herinnering dat gereedschap het schrijven moet dienen en niet andersom.",
-        "bestMoment": "als je merkt dat je workflow de aandacht overneemt",
-        "tags": [
-          "arts & culture",
-          "front-end software development",
-          "learning & meta-learning",
-          "technology"
-        ],
-        "coreInterests": [],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
         "id": "01m33zqz5cwdrtbgwm7bag5c27",
         "title": "GeoCities’ Afterlife and Web History ⁋ by olia",
         "author": null,
@@ -32356,36 +28295,6 @@ window.TOP_ARTICLES = {
             "position": 44
           }
         ]
-      },
-      {
-        "position": null,
-        "id": "01m33zqvhnj5fqw9s175s9xrak",
-        "title": "GeoCities in 1995: Building a Home Page on the Internet",
-        "author": null,
-        "siteName": "cybercultural.com",
-        "category": "article",
-        "language": null,
-        "readingTime": "6 mins",
-        "readingMinutes": 6,
-        "wordCount": 1434,
-        "publishedDate": "2025-03-07",
-        "savedDate": "2026-09-22T07:19:31.637000+00:00",
-        "imageUrl": "https://cybercultural.com/assets/images/beverly-hills-internet-1995.jpg",
-        "sourceUrl": "https://cybercultural.com/p/geocities-1995/",
-        "readwiseUrl": "https://read.readwise.io/read/01m33zqvhnj5fqw9s175s9xrak",
-        "summary": "GeoCities, known throughout most of 1995 as Beverly Hills Internet, was one of the first commercial internet services to make it easy for people to publish a home page on the World Wide Web.",
-        "whyRead": "Een historische reconstructie van GeoCities als laagdrempelige ingang voor persoonlijke homepages.",
-        "bestMoment": "bij een sessie over de geschiedenis van persoonlijke websites",
-        "tags": [
-          "arts & culture",
-          "history",
-          "technology"
-        ],
-        "coreInterests": [
-          "geschiedenis"
-        ],
-        "alsoIn": [],
-        "memberships": []
       },
       {
         "position": null,
@@ -32469,7 +28378,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 60
+            "position": 61
           }
         ]
       },
@@ -32524,122 +28433,6 @@ window.TOP_ARTICLES = {
             "position": 57
           }
         ]
-      },
-      {
-        "position": null,
-        "id": "01m33zq3y15s4nwnjn8pfd95ab",
-        "title": "Apathetic, Intentionally. Why I don't block AI scrapers on my website.",
-        "author": null,
-        "siteName": "brennan.day",
-        "category": "article",
-        "language": null,
-        "readingTime": "6 mins",
-        "readingMinutes": 6,
-        "wordCount": 1460,
-        "publishedDate": "2026-02-19",
-        "savedDate": "2026-09-22T07:19:07.457000+00:00",
-        "imageUrl": "https://brennan.day/assets/images/blog/more-than-human.jpg",
-        "sourceUrl": "https://brennan.day/apathetic-intentionally-why-i-dont-block-ai-scrapers-on-my-website/",
-        "readwiseUrl": "https://read.readwise.io/read/01m33zq3y15s4nwnjn8pfd95ab",
-        "summary": "This is my swan song on generative AI after writing six articles on the topic. Why I'm done with the AI discourse and instead fully leaning into the human and more-than-human web.",
-        "whyRead": "Een uitgesproken essay over AI-scrapers, robots.txt en de keuze om energie niet langer aan elk AI-conflict te geven.",
-        "bestMoment": "wanneer je grenzen rond AI-engagement wilt doordenken",
-        "tags": [
-          "ai ethics & society",
-          "front-end software development",
-          "personal growth & life philosophy",
-          "technology"
-        ],
-        "coreInterests": [],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01m33zpyt9s424bv7d1emjzhzk",
-        "title": "Self-hosting a Gemini capsule",
-        "author": null,
-        "siteName": "https://html-chunder.neocities.org",
-        "category": "article",
-        "language": null,
-        "readingTime": "5 mins",
-        "readingMinutes": 5,
-        "wordCount": 1083,
-        "publishedDate": "2025-03-30",
-        "savedDate": "2026-09-22T07:19:02.215000+00:00",
-        "imageUrl": null,
-        "sourceUrl": "https://html-chunder.neocities.org/posts/self-hosting-a-gemini-capsule/",
-        "readwiseUrl": "https://read.readwise.io/read/01m33zpyt9s424bv7d1emjzhzk",
-        "summary": "I've been enjoying reading content in lagrange lately.",
-        "whyRead": "Een praktische handleiding voor het zelf hosten van een Gemini-capsule.",
-        "bestMoment": "wanneer je een klein technisch experiment wilt uitvoeren",
-        "tags": [
-          "front-end software development",
-          "learning & meta-learning",
-          "software development",
-          "technology"
-        ],
-        "coreInterests": [],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01m33zpe78ybp0eb8d6gs9zrh4",
-        "title": "Oldnets and Altnets: A Guide to Building a Low-Spec Daily Internet Out of Gemini, Gopher, and Terminal Tools",
-        "author": null,
-        "siteName": "brennan.day",
-        "category": "article",
-        "language": null,
-        "readingTime": "18 mins",
-        "readingMinutes": 18,
-        "wordCount": 4528,
-        "publishedDate": "2026-09-09",
-        "savedDate": "2026-09-22T07:18:45.224000+00:00",
-        "imageUrl": "https://brennan.day/assets/images/blog/archives.jpg",
-        "sourceUrl": "https://brennan.day/oldnets-and-altnets-a-guide-to-building-a-low-spec-daily-internet-out-of-gemini-gopher-and-terminal-tools/",
-        "readwiseUrl": "https://read.readwise.io/read/01m33zpe78ybp0eb8d6gs9zrh4",
-        "summary": "Reacting to the Omarchy and DigitalOcean news, I set out a curated low-spec, text-first alternative to the modern web: Gemini, Gopher, Spartan, Lynx-friend…",
-        "whyRead": "Een uitgebreide handleiding voor een sober dagelijks internet met Gemini, Gopher en terminaltools.",
-        "bestMoment": "wanneer je alternatieve protocollen praktisch wilt uitproberen",
-        "tags": [
-          "front-end software development",
-          "learning & meta-learning",
-          "software development",
-          "technology"
-        ],
-        "coreInterests": [],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01m33zpa1tgm4aa0pew6qw5cx1",
-        "title": "Gemini, Gophers, and Fingers. Oh My! Alternative Internets Beyond HTTPS",
-        "author": null,
-        "siteName": "brennan.day",
-        "category": "article",
-        "language": null,
-        "readingTime": "10 mins",
-        "readingMinutes": 10,
-        "wordCount": 2571,
-        "publishedDate": "2026-05-26",
-        "savedDate": "2026-09-22T07:18:40.952000+00:00",
-        "imageUrl": "https://brennan.day/assets/images/blog/gemini.jpg",
-        "sourceUrl": "https://brennan.day/gemini-gophers-and-fingers-oh-my-alternative-internets-beyond-https/",
-        "readwiseUrl": "https://read.readwise.io/read/01m33zpa1tgm4aa0pew6qw5cx1",
-        "summary": "Finger from 1971, Gopher from 1991, and Gemini from 2019. These protocols offer decentralized, terminal-based alternatives to the modern web. The small web's is in a renaissance. On the solarpunk philosophy of intentional technology, and how these protocols meet you where you are, whether you're on a machine from 2005 or just tired of Chrome's monoculture.",
-        "whyRead": "Een cultuur- en techniekgeschiedenis van Finger, Gopher en Gemini als alternatieven voor het dominante web.",
-        "bestMoment": "bij een verkenning van internetgeschiedenis en altnets",
-        "tags": [
-          "arts & culture",
-          "front-end software development",
-          "software development",
-          "technology"
-        ],
-        "coreInterests": [],
-        "alsoIn": [],
-        "memberships": []
       },
       {
         "position": null,
@@ -32806,40 +28599,9 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 98
+            "position": 100
           }
         ]
-      },
-      {
-        "position": null,
-        "id": "01m33znq3vn63akjgn6gaym4sf",
-        "title": "An unsolicited opinion of Medium’s AI-assisted writing platform",
-        "author": null,
-        "siteName": "substack.com",
-        "category": "article",
-        "language": null,
-        "readingTime": "9 mins",
-        "readingMinutes": 9,
-        "wordCount": 2257,
-        "publishedDate": "2026-08-25",
-        "savedDate": "2026-09-22T07:18:21.563000+00:00",
-        "imageUrl": "https://substackcdn.com/image/fetch/$s_!NH70!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fdfdf3be6-d460-4fd2-82b2-3b300243be9d_700x509.jpeg",
-        "sourceUrl": "https://jacquelinedooley.substack.com/p/an-unsolicited-opinion-of-mediums",
-        "readwiseUrl": "https://read.readwise.io/read/01m33znq3vn63akjgn6gaym4sf",
-        "summary": "TK is the end of the line for me",
-        "whyRead": "Een gebruikerservaring met Mediums AI-schrijftool en een scherpe kritiek op frictieloze tekstproductie.",
-        "bestMoment": "wanneer je AI-schrijven vanuit auteurschap wilt bekijken",
-        "tags": [
-          "ai ethics & society",
-          "arts & culture",
-          "social psychology & interpersonal dynamics",
-          "technology"
-        ],
-        "coreInterests": [
-          "sociologie"
-        ],
-        "alsoIn": [],
-        "memberships": []
       },
       {
         "position": null,
@@ -32877,100 +28639,9 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 29
+            "position": 30
           }
         ]
-      },
-      {
-        "position": null,
-        "id": "01m33znghdncad80ak1k6ar43r",
-        "title": "Medium CEO Tony Stubblebine on launching a new app and turning around a 13-year losing streak",
-        "author": null,
-        "siteName": "Fast Company",
-        "category": "article",
-        "language": null,
-        "readingTime": "7 mins",
-        "readingMinutes": 7,
-        "wordCount": 1636,
-        "publishedDate": "2025-09-23",
-        "savedDate": "2026-09-22T07:18:14.830000+00:00",
-        "imageUrl": "https://images.fastcompany.com/image/upload/f_webp,q_auto,c_fit/wp-cms-2/2025/09/p-1-91407562-medium-ceo-tony-stubblebine-interview.jpg",
-        "sourceUrl": "https://www.fastcompany.com/91407562/medium-ceo-tony-stubblebine-interview",
-        "readwiseUrl": "https://read.readwise.io/read/01m33znghdncad80ak1k6ar43r",
-        "summary": "The productivity expert shares how strategic focus helped Medium reach its first profitable month ever, and why it’s betting on a new writing tool.",
-        "whyRead": "Een interview over Mediums bedrijfsmodel, schrijvers, AI-ondersteuning en de expert economy.",
-        "bestMoment": "wanneer je platformstrategie en schrijverswerk wilt verbinden",
-        "tags": [
-          "ai ethics & society",
-          "organizational behavior & culture",
-          "professional development",
-          "technology"
-        ],
-        "coreInterests": [
-          "agile"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01m33znda5pnnac5vbk7prtjsj",
-        "title": "Do It Ugly: On Bad Art and Civic Duty",
-        "author": null,
-        "siteName": "brennan.day",
-        "category": "article",
-        "language": null,
-        "readingTime": "6 mins",
-        "readingMinutes": 6,
-        "wordCount": 1542,
-        "publishedDate": "2025-12-26",
-        "savedDate": "2026-09-22T07:18:11.525000+00:00",
-        "imageUrl": "https://brennan.day/assets/images/start-ugly.jpg",
-        "sourceUrl": "https://brennan.day/do-it-ugly-on-bad-art-and-civic-duty/",
-        "readwiseUrl": "https://read.readwise.io/read/01m33znda5pnnac5vbk7prtjsj",
-        "summary": "Thoughts on embracing the ugliness of your early creations as a form of civic duty and spiritual practice. A call to action without judgement.",
-        "whyRead": "Een pleidooi om onvolmaakt werk toch te maken en te delen als vorm van publieke en persoonlijke verantwoordelijkheid.",
-        "bestMoment": "wanneer perfectionisme publiceren blokkeert",
-        "tags": [
-          "ai ethics & society",
-          "arts & culture",
-          "personal growth & life philosophy",
-          "social psychology & interpersonal dynamics"
-        ],
-        "coreInterests": [
-          "sociologie"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01m33znadr6hb8ywab7y26m72q",
-        "title": "Creating an Open-source Blogging Studies Syllabus",
-        "author": null,
-        "siteName": "brennan.day",
-        "category": "article",
-        "language": null,
-        "readingTime": "8 mins",
-        "readingMinutes": 8,
-        "wordCount": 1868,
-        "publishedDate": "2026-08-28",
-        "savedDate": "2026-09-22T07:18:08.569000+00:00",
-        "imageUrl": "https://brennan.day/assets/images/blog/college.jpg",
-        "sourceUrl": "https://brennan.day/creating-an-open-source-blogging-studies-syllabus/",
-        "readwiseUrl": "https://read.readwise.io/read/01m33znadr6hb8ywab7y26m72q",
-        "summary": "Announcing a new open-source, asynchronous Blogging Studies syllabus that blends writing craft and independent web publishing, built on Codeberg. I trace the decline of free MOOCs, outline my curriculum's anti-capitalist and community-driven pedagogy, and invite contributors and learners to help shape it.",
-        "whyRead": "Een open syllabus die schrijfambacht en onafhankelijke webpublicatie als één leergebied behandelt.",
-        "bestMoment": "wanneer je schrijven als praktijk en curriculum wilt ontwerpen",
-        "tags": [
-          "arts & culture",
-          "learning & meta-learning",
-          "professional development",
-          "technology"
-        ],
-        "coreInterests": [],
-        "alsoIn": [],
-        "memberships": []
       },
       {
         "position": null,
@@ -33078,35 +28749,6 @@ window.TOP_ARTICLES = {
       },
       {
         "position": null,
-        "id": "01m33zmwgrc2r4yq39wp7ka7yz",
-        "title": "Be prolific. Accept every thought. Mythologize yourself. Show up.",
-        "author": null,
-        "siteName": "brennan.day",
-        "category": "article",
-        "language": null,
-        "readingTime": "11 mins",
-        "readingMinutes": 11,
-        "wordCount": 2747,
-        "publishedDate": "2025-10-25",
-        "savedDate": "2026-09-22T07:17:54.328000+00:00",
-        "imageUrl": "https://brennan.dayhttps/cdn-images-1.medium.com/max/2560/1*_5IOvi1w1pc7Ln0jSQSc_g.png",
-        "sourceUrl": "https://brennan.day/be-prolific-accept-every-thought-mythologize-yourself-show-up/",
-        "readwiseUrl": "https://read.readwise.io/read/01m33zmwgrc2r4yq39wp7ka7yz",
-        "summary": "How to write like the Mountain Goats to create your own body of work you’ll be proud of.",
-        "whyRead": "Een essay over volume, discipline en het ontmythologiseren van creatief werk aan de hand van John Darnielle.",
-        "bestMoment": "wanneer je schrijven als herhaalbare praktijk wilt bekijken",
-        "tags": [
-          "arts & culture",
-          "learning & meta-learning",
-          "personal growth & life philosophy",
-          "professional development"
-        ],
-        "coreInterests": [],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
         "id": "01m33zmhp210tr14aabg5v6bza",
         "title": "The people’s prince",
         "author": null,
@@ -33202,338 +28844,6 @@ window.TOP_ARTICLES = {
             "position": 82
           }
         ]
-      },
-      {
-        "position": null,
-        "id": "01m33zkx9ketzst2arhkw75d3z",
-        "title": "Rest is Resistance – A Manifesto",
-        "author": null,
-        "siteName": "Faith Tides",
-        "category": "article",
-        "language": null,
-        "readingTime": "4 mins",
-        "readingMinutes": 4,
-        "wordCount": 916,
-        "publishedDate": "2024-01-01",
-        "savedDate": "2026-09-22T07:17:22.353000+00:00",
-        "imageUrl": "https://faithtides.ca/wp-content/uploads/2023/12/rest_resistance_book.jpg",
-        "sourceUrl": "https://faithtides.ca/book-review-of-rest-is-resistance-a-manifesto/",
-        "readwiseUrl": "https://read.readwise.io/read/01m33zkx9ketzst2arhkw75d3z",
-        "summary": "  Since naps have been essential to my survival, I was immediately attracted to this 2022 New York Times Best Sellers book in which the author, Tricia Hersey, calls herself the “Founder of The Nap Ministry,” and even the “Nap Bishop.” I learned about this book from Reverend Ruth Dantzer who’s the Anglican Spiritual Care […]",
-        "whyRead": "Een boekbespreking van Tricia Hersey over rust, uitputting en weerstand tegen productiviteitsnormen.",
-        "bestMoment": "wanneer je werk, herstel en aandacht wilt herijken",
-        "tags": [
-          "arts & culture",
-          "health & wellness",
-          "personal growth & life philosophy",
-          "social psychology & interpersonal dynamics"
-        ],
-        "coreInterests": [
-          "sociologie"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01m33zkt6wttj9fwmms1kkqegs",
-        "title": "A Brief Guide to Keeping a Commonplace Book",
-        "author": null,
-        "siteName": "Notebook of Ghosts ",
-        "category": "article",
-        "language": null,
-        "readingTime": "7 mins",
-        "readingMinutes": 7,
-        "wordCount": 1591,
-        "publishedDate": "2018-02-25",
-        "savedDate": "2026-09-22T07:17:19.196000+00:00",
-        "imageUrl": "https://notebookofghosts.com/wp-content/uploads/2017/01/12523871_1736617296553682_2666911374025207080_n.jpg",
-        "sourceUrl": "https://notebookofghosts.com/2018/02/25/a-brief-guide-to-keeping-a-commonplace-book/",
-        "readwiseUrl": "https://read.readwise.io/read/01m33zkt6wttj9fwmms1kkqegs",
-        "summary": "I had the opportunity to write for Dirge Magazine while it was still online (Rest in Peace). I learned so much as a writer from the editors, so I wanted to make sure I was able to save my favorite …",
-        "whyRead": "Een praktische gids voor een commonplace book als manier om lezen, schrijven en herinneren te verbinden.",
-        "bestMoment": "wanneer je een lichte lees- en notitiepraktijk wilt versterken",
-        "tags": [
-          "arts & culture",
-          "learning & meta-learning",
-          "personal growth & life philosophy"
-        ],
-        "coreInterests": [],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01m33zknqmdshzzm17n4y897g1",
-        "title": "How to Run a Good Workshop",
-        "author": null,
-        "siteName": "Scott Berkun",
-        "category": "article",
-        "language": null,
-        "readingTime": "6 mins",
-        "readingMinutes": 6,
-        "wordCount": 1489,
-        "publishedDate": "2013-01-28",
-        "savedDate": "2026-09-22T07:17:14.613000+00:00",
-        "imageUrl": "https://scottberkun.com/wp-content/uploads/2013/01/2017-ECQ-1-800-600x400.jpg",
-        "sourceUrl": "https://scottberkun.com/2013/run-a-good-workshop/",
-        "readwiseUrl": "https://read.readwise.io/read/01m33zknqmdshzzm17n4y897g1",
-        "summary": "Workshops are hopeful things. They’re sold on so much promise, but that promise is often dashed as students discover their expert instructor is far from an expert at teaching them how to lear…",
-        "whyRead": "Een klassiek, praktisch stuk over workshops ontwerpen, faciliteren en leren.",
-        "bestMoment": "voor voorbereiding op een workshop of teambegeleiding",
-        "tags": [
-          "learning & meta-learning",
-          "organizational behavior & culture",
-          "product management",
-          "professional development"
-        ],
-        "coreInterests": [
-          "agile"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01m33zkk15ckqqyene7p5tbcvm",
-        "title": "Art Is a Gift, Not a Commodity: On Lewis Hyde's The Gift",
-        "author": null,
-        "siteName": "The Rabbit Room",
-        "category": "article",
-        "language": null,
-        "readingTime": "8 mins",
-        "readingMinutes": 8,
-        "wordCount": 2012,
-        "publishedDate": "2024-01-29",
-        "savedDate": "2026-09-22T07:17:11.845000+00:00",
-        "imageUrl": "https://static.wixstatic.com/media/124020_27c27a2577e54672bc8ed7e16bb80078~mv2.png/v1/fill/w_1000,h_682,al_c,q_90,usm_0.66_1.00_0.01/124020_27c27a2577e54672bc8ed7e16bb80078~mv2.png",
-        "sourceUrl": "https://www.rabbitroom.com/post/art-is-a-gift-not-a-commodity-on-lewis-hyde-s-the-gift",
-        "readwiseUrl": "https://read.readwise.io/read/01m33zkk15ckqqyene7p5tbcvm",
-        "summary": "Jonathan Rogers reflects on Lewis Hyde's seminal book, The Gift.\n",
-        "whyRead": "Een bespreking van Lewis Hyde over kunst als gift in plaats van koopwaar.",
-        "bestMoment": "wanneer je schrijven, creativiteit en economie wilt verbinden",
-        "tags": [
-          "arts & culture",
-          "personal growth & life philosophy",
-          "social psychology & interpersonal dynamics"
-        ],
-        "coreInterests": [
-          "sociologie"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01m33zkgdr5b1x4t7ag9fzp36v",
-        "title": "Further notes on scenius",
-        "author": null,
-        "siteName": "Austin Kleon",
-        "category": "article",
-        "language": null,
-        "readingTime": "3 mins",
-        "readingMinutes": 3,
-        "wordCount": 533,
-        "publishedDate": "2017-05-12",
-        "savedDate": "2026-09-22T07:17:09.176000+00:00",
-        "imageUrl": "http://austinkleon.com/wp-content/uploads/2017/05/scenius-eco-ego.jpg",
-        "sourceUrl": "https://austinkleon.com/2017/05/12/scenius/",
-        "readwiseUrl": "https://read.readwise.io/read/01m33zkgdr5b1x4t7ag9fzp36v",
-        "summary": "Brian Eno on the collective form of genius.",
-        "whyRead": "Een korte uitleg van Brian Eno’s idee van scenius: collectieve genialiteit in creatieve gemeenschappen.",
-        "bestMoment": "wanneer je samenwerking en creativiteit wilt begrijpen",
-        "tags": [
-          "arts & culture",
-          "learning & meta-learning",
-          "professional development",
-          "social psychology & interpersonal dynamics"
-        ],
-        "coreInterests": [
-          "sociologie"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01m33zkde7bdpakx5y5kzw9fhe",
-        "title": "Move to a Better Internet in 2026.",
-        "author": null,
-        "siteName": "Medium",
-        "category": "article",
-        "language": null,
-        "readingTime": "8 mins",
-        "readingMinutes": 8,
-        "wordCount": 2117,
-        "publishedDate": "2025-12-03",
-        "savedDate": "2026-09-22T07:17:06.117000+00:00",
-        "imageUrl": "https://miro.medium.com/v2/resize:fit:1400/1*X0F3RyPXy6VVZu0eGJeFIg.png",
-        "sourceUrl": "https://blog.brennanbrown.ca/move-to-a-better-internet-in-2026-8ab3d36bae20",
-        "readwiseUrl": "https://read.readwise.io/read/01m33zkde7bdpakx5y5kzw9fhe",
-        "summary": "Why You (yes, you) Should Join Medium, Tumblr, and NeoCities.",
-        "whyRead": "Een enthousiasmerend stuk over alternatieven voor dominante platformen en de aantrekkingskracht van een beter web.",
-        "bestMoment": "wanneer je inspiratie zoekt voor small-webpraktijken",
-        "tags": [
-          "front-end software development",
-          "social psychology & interpersonal dynamics",
-          "technology"
-        ],
-        "coreInterests": [
-          "sociologie"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01m33zkaj5xyp6rfrfj2dg82av",
-        "title": "E Unibus Pluram, David Foster Wallace (1990)",
-        "author": null,
-        "siteName": "Library of Babel",
-        "category": "article",
-        "language": null,
-        "readingTime": "1 hr 25 mins",
-        "readingMinutes": 85,
-        "wordCount": 22279,
-        "publishedDate": "2017-03-14",
-        "savedDate": "2026-09-22T07:17:03.173000+00:00",
-        "imageUrl": "https://tayiabr.files.wordpress.com/2017/03/090309_r18266_p646-1200-630-31184830.jpg",
-        "sourceUrl": "https://tayiabr.wordpress.com/2017/03/14/e-unibus-pluram-david-foster-wallace-1990/",
-        "readwiseUrl": "https://read.readwise.io/read/01m33zkaj5xyp6rfrfj2dg82av",
-        "summary": "Originally published in The Review of Contemporary Fiction, this essay sketches a loose history of the American television industry advertising, U.S. fiction and advertisement. The title “E U…",
-        "whyRead": "Een toegankelijk gemaakte versie van Wallace’s essay over televisie, ironie en Amerikaanse fictie.",
-        "bestMoment": "voor een langere sessie over media en cultuur",
-        "tags": [
-          "arts & culture",
-          "learning & meta-learning",
-          "social psychology & interpersonal dynamics",
-          "sociology & social structures"
-        ],
-        "coreInterests": [
-          "sociologie"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01m33zk7v707cr1s6c5crmtyze",
-        "title": "REVIEW: Missing 'Missing Richard Simmons'",
-        "author": null,
-        "siteName": "brennan.day",
-        "category": "article",
-        "language": null,
-        "readingTime": "5 mins",
-        "readingMinutes": 5,
-        "wordCount": 1280,
-        "publishedDate": "2026-07-10",
-        "savedDate": "2026-09-22T07:17:00.391000+00:00",
-        "imageUrl": "https://brennan.day/assets/images/blog/simmons.jpg",
-        "sourceUrl": "https://brennan.day/review-missing-missing-richard-simmons/",
-        "readwiseUrl": "https://read.readwise.io/read/01m33zk7v707cr1s6c5crmtyze",
-        "summary": "Nearly a decade after Dan Taberski's Missing Richard Simmons first asked the world where its brightest fitness star had gone, a review of the podcast that helped invent true-crime infotainment—and of the public's complicity in turning a man's right to disappear into a cultural obsession. On parasocial friendship, the ethics of documentary mystery, and why the legacy of Richard Simmons has been swallowed by the very mystery he refused to solve.",
-        "whyRead": "Een reflectie op de podcast Missing Richard Simmons, parasocialiteit en het recht om te verdwijnen.",
-        "bestMoment": "wanneer je de ethiek van publieksbetrokkenheid wilt onderzoeken",
-        "tags": [
-          "arts & culture",
-          "health & wellness",
-          "social psychology & interpersonal dynamics"
-        ],
-        "coreInterests": [
-          "sociologie"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01m33zk51199m88py7d10fe75a",
-        "title": "Impression Management & Self Presentation (Goffman)",
-        "author": null,
-        "siteName": "Simply Psychology",
-        "category": "article",
-        "language": null,
-        "readingTime": "12 mins",
-        "readingMinutes": 12,
-        "wordCount": 3000,
-        "publishedDate": "2022-11-03",
-        "savedDate": "2026-09-22T07:16:57.505000+00:00",
-        "imageUrl": "https://www.simplypsychology.org/wp-content/uploads/Impression-Management.jpg",
-        "sourceUrl": "https://www.simplypsychology.org/impression-management.html",
-        "readwiseUrl": "https://read.readwise.io/read/01m33zk51199m88py7d10fe75a",
-        "summary": "Key Points Impression management refers to the goal-directed conscious or unconscious attempt to influence the perceptions of other people about a person, object, or event by regulating and controlling information in social interaction. Generally, people",
-        "whyRead": "Een overzicht van Goffmans theorie over impression management en zelfpresentatie.",
-        "bestMoment": "wanneer je interactie, rollen en werkrelaties wilt analyseren",
-        "tags": [
-          "professional development",
-          "social psychology & interpersonal dynamics",
-          "sociology & social structures"
-        ],
-        "coreInterests": [
-          "sociologie"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01m33zk26f39e022cjnjamsv19",
-        "title": "Very Good Medicine: Indigenous Humor and Laughter",
-        "author": null,
-        "siteName": "Tribal College Journal of American Indian Higher Education",
-        "category": "article",
-        "language": null,
-        "readingTime": "8 mins",
-        "readingMinutes": 8,
-        "wordCount": 2095,
-        "publishedDate": "2016-05-02",
-        "savedDate": "2026-09-22T07:16:54.607000+00:00",
-        "imageUrl": "https://tribalcollegejournal.org/wp-content/uploads/laughter-good-medicine-1.jpg",
-        "sourceUrl": "https://tribalcollegejournal.org/very-good-medicine-indigenous-humor-and-laughter/",
-        "readwiseUrl": "https://read.readwise.io/read/01m33zk26f39e022cjnjamsv19",
-        "summary": "Humor exists in many forms and is essential as a basic human need. Laughter is an instinctive behavior that binds people together through humor and play.",
-        "whyRead": "Een artikel over Indigenous humor en lachen als relationele, culturele en helende praktijk.",
-        "bestMoment": "wanneer je humor voorbij entertainment wilt begrijpen",
-        "tags": [
-          "arts & culture",
-          "health & wellness",
-          "social psychology & interpersonal dynamics",
-          "sociology & social structures"
-        ],
-        "coreInterests": [
-          "sociologie"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01m33zjz7vvh5s4zt1jh0pgj8d",
-        "title": "The Frighteningly Fine Art of Clown Egg Portraits",
-        "author": null,
-        "siteName": "Hyperallergic",
-        "category": "article",
-        "language": null,
-        "readingTime": "3 mins",
-        "readingMinutes": 3,
-        "wordCount": 727,
-        "publishedDate": "2023-10-31",
-        "savedDate": "2026-09-22T07:16:51.577000+00:00",
-        "imageUrl": "https://storage.ghost.io/c/51/f8/51f871d8-b6be-4a73-b958-0ca4fff0110a/content/images/size/w1200/hyperallergic-newspack-s3-amazonaws-com/uploads/2023/10/clown-eggs.jpg",
-        "sourceUrl": "https://hyperallergic.com/the-frighteningly-fine-art-of-clown-egg-portraits/",
-        "readwiseUrl": "https://read.readwise.io/read/01m33zjz7vvh5s4zt1jh0pgj8d",
-        "summary": "The Clown Egg Register is a beloved yet bizarre archiving practice still used by clowning communities today.",
-        "whyRead": "Een kunstjournalistieke blik op clown eggs als merkwaardige maar betekenisvolle archiefpraktijk.",
-        "bestMoment": "voor een luchtige cultuurhistorische leessessie",
-        "tags": [
-          "arts & culture",
-          "social psychology & interpersonal dynamics"
-        ],
-        "coreInterests": [
-          "sociologie"
-        ],
-        "alsoIn": [],
-        "memberships": []
       },
       {
         "position": null,
@@ -33749,36 +29059,6 @@ window.TOP_ARTICLES = {
       },
       {
         "position": null,
-        "id": "01m33f3dcq27fte0dnczfkb4c6",
-        "title": "CLOWN BURNOUT",
-        "author": null,
-        "siteName": "brennan.day",
-        "category": "article",
-        "language": null,
-        "readingTime": "10 mins",
-        "readingMinutes": 10,
-        "wordCount": 2633,
-        "publishedDate": "2026-07-14",
-        "savedDate": "2026-09-22T02:28:44.567000+00:00",
-        "imageUrl": "https://brennan.day/assets/images/blog/clown.jpg",
-        "sourceUrl": "https://brennan.day/clown-burnout/",
-        "readwiseUrl": "https://read.readwise.io/read/01m33f3dcq27fte0dnczfkb4c6",
-        "summary": "Clown white doesn't come off in one pass. A personal story about how I can never take myself seriously no matter how hard I try. Notes on the history whiteface and Auguste, the clown egg registry, the Indigenous medicine of laughter, the tyranny of irony, and what it costs to never learn how to come down.",
-        "whyRead": "Dit raakt je interesse in sociale psychologie, persoonlijke groei en cultuur: een essay over humor als beschermend sociaal masker en over de moeite om na jarenlang performen weer oprecht aanwezig te zijn.",
-        "bestMoment": "reflectief",
-        "tags": [
-          "arts & culture",
-          "personal growth & life philosophy",
-          "social psychology & interpersonal dynamics"
-        ],
-        "coreInterests": [
-          "sociologie"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
         "id": "01m33f23gtsf89r7spek80wkc9",
         "title": "The Pandemic Never Ended. We Only Pretend it … · brennan.day",
         "author": null,
@@ -33861,66 +29141,6 @@ window.TOP_ARTICLES = {
       },
       {
         "position": null,
-        "id": "01m33ezxt5tf2gz539t2ann46z",
-        "title": "What If You Created As Much As You Consume?",
-        "author": null,
-        "siteName": "brennan.day",
-        "category": "article",
-        "language": null,
-        "readingTime": "8 mins",
-        "readingMinutes": 8,
-        "wordCount": 1863,
-        "publishedDate": "2025-02-09",
-        "savedDate": "2026-09-22T02:26:50.309000+00:00",
-        "imageUrl": "https://brennan.dayhttps/cdn-images-1.medium.com/max/2560/1*G-sm7NfGTxeuw0AcjT6DJg.png",
-        "sourceUrl": "https://brennan.day/what-if-you-created-as-much-as-you-consume/",
-        "readwiseUrl": "https://read.readwise.io/read/01m33ezxt5tf2gz539t2ann46z",
-        "summary": "An examination of the modern consumption trap and a passionate argument for creating as much as we consume. From digital minimalism to analog practices, fr…",
-        "whyRead": "Dit raakt je interesse in persoonlijke groei, technologiecultuur en sociale systemen: het betoogt dat zelf iets maken — hoe onvolmaakt ook — een tegenwicht vormt tegen de aandachtseconomie.",
-        "bestMoment": "geïnspireerd",
-        "tags": [
-          "personal growth & life philosophy",
-          "social psychology & interpersonal dynamics",
-          "technology"
-        ],
-        "coreInterests": [
-          "sociologie"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01m33ezjn42kzwwht90jgcdvyn",
-        "title": "Gen-Z love dumb phones, the analog, e-ink screens, slow living, community, and longform work.",
-        "author": null,
-        "siteName": "brennan.day",
-        "category": "article",
-        "language": null,
-        "readingTime": "8 mins",
-        "readingMinutes": 8,
-        "wordCount": 2031,
-        "publishedDate": "2025-11-16",
-        "savedDate": "2026-09-22T02:26:38.884000+00:00",
-        "imageUrl": "https://brennan.dayhttps/cdn-images-1.medium.com/max/800/1*fz5Vi973Et2fxhpGet0w7w.png",
-        "sourceUrl": "https://brennan.day/gen-z-love-dumb-phones-the-analog-e-ink-screens-slow-living-community-and-longform-work/",
-        "readwiseUrl": "https://read.readwise.io/read/01m33ezjn42kzwwht90jgcdvyn",
-        "summary": "This will give you the most amount of hope you’ve had in a long while.",
-        "whyRead": "Dit raakt je interesse in sociale psychologie en technologiecultuur: het onderzoekt waarom jongeren niet simpelweg hun aandacht verliezen, maar ook actief nieuwe vormen van focus, gemeenschap en digitale autonomie bouwen.",
-        "bestMoment": "kritisch",
-        "tags": [
-          "personal growth & life philosophy",
-          "social psychology & interpersonal dynamics",
-          "technology"
-        ],
-        "coreInterests": [
-          "sociologie"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
         "id": "01m33ez7ev175kpa3c253v8z80",
         "title": "I Would Have Written a Shorter Blog Post, But I Didn’t Have the Time: Creating a WriterDeck",
         "author": null,
@@ -33954,122 +29174,6 @@ window.TOP_ARTICLES = {
             "position": 76
           }
         ]
-      },
-      {
-        "position": null,
-        "id": "01m33eyebjwkatxnm28ekddx7w",
-        "title": "My Blogging Workflow: A routine for nearly a post a day for 4 months straight.",
-        "author": null,
-        "siteName": "brennan.day",
-        "category": "article",
-        "language": null,
-        "readingTime": "7 mins",
-        "readingMinutes": 7,
-        "wordCount": 1755,
-        "publishedDate": "2026-03-02",
-        "savedDate": "2026-09-22T02:26:01.714000+00:00",
-        "imageUrl": "https://brennan.day/assets/images/blog/workflow.jpg",
-        "sourceUrl": "https://brennan.day/my-blogging-workflow-a-routine-for-nearly-a-post-a-day-for-4-months-straight/",
-        "readwiseUrl": "https://read.readwise.io/read/01m33eyebjwkatxnm28ekddx7w",
-        "summary": "A detailed look at my personal blogging workflow that has enabled me to write nearly a post a day for four months straight, including how I generate ideas, organize thoughts, and maintain consistency.",
-        "whyRead": "Dit raakt je interesse in essay schrijven, kennisbeheer en zelfgestuurd leren: een concreet kijkje in hoe een dagelijkse schrijfpraktijk ontstaat uit vrije tekst, wandelen, redactie en plezier.",
-        "bestMoment": "leergierig",
-        "tags": [
-          "arts & culture",
-          "learning & meta-learning",
-          "personal growth & life philosophy"
-        ],
-        "coreInterests": [],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01m33exzj6mzyq9bbwbsg6sk49",
-        "title": "The True, Unglamorous Life of a Writer",
-        "author": null,
-        "siteName": "brennan.day",
-        "category": "article",
-        "language": null,
-        "readingTime": "9 mins",
-        "readingMinutes": 9,
-        "wordCount": 2199,
-        "publishedDate": "2026-07-16",
-        "savedDate": "2026-09-22T02:25:46.566000+00:00",
-        "imageUrl": "https://brennan.day/assets/images/blog/writing-life.jpg",
-        "sourceUrl": "https://brennan.day/the-true-unglamorous-life-of-a-writer/",
-        "readwiseUrl": "https://read.readwise.io/read/01m33exzj6mzyq9bbwbsg6sk49",
-        "summary": "Let me be unglamorous and honest about the actual furniture of a writing life. What do my private, invisible days look like? What does it cost and what does it pay? A look at the 4 a.m. writing routine, the physical setting, and what I hope my writing will do for others.",
-        "whyRead": "Dit raakt je interesse in essay schrijven en menselijke betekenisgeving: de schrijver ontmythologiseert het schrijversleven en zoekt naar een reden om werk te maken dat iemand op een moeilijk moment gezelschap kan houden.",
-        "bestMoment": "reflectief",
-        "tags": [
-          "arts & culture",
-          "personal growth & life philosophy",
-          "social psychology & interpersonal dynamics"
-        ],
-        "coreInterests": [
-          "sociologie"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01m33exm50kt1km7xqfxwqfxfk",
-        "title": "Love is for the ones who love the work.",
-        "author": null,
-        "siteName": "brennan.day",
-        "category": "article",
-        "language": null,
-        "readingTime": "4 mins",
-        "readingMinutes": 4,
-        "wordCount": 803,
-        "publishedDate": "2026-09-04",
-        "savedDate": "2026-09-22T02:25:34.880000+00:00",
-        "imageUrl": "https://brennan.day/assets/images/blog/hardwork.jpg",
-        "sourceUrl": "https://brennan.day/love-is-for-the-ones-who-love-the-work/",
-        "readwiseUrl": "https://read.readwise.io/read/01m33exm50kt1km7xqfxwqfxfk",
-        "summary": "Taking the final line of Joseph Fasano's poem 'For a Student Who Used AI to Write a Paper' as a starting point, I argue that loving the verb of creation matters more than daydreaming the noun. There's a wide chasm between writing discipline and the seduction of genAI shortcuts. The only way forward is to start doing the work—badly, bravely, and now.",
-        "whyRead": "Dit raakt je interesse in schrijven, vakmanschap en AI-ethiek: het onderscheid tussen houden van het idee van werk en houden van het daadwerkelijke werk maakt shortcuts en creatieve ambitie concreet.",
-        "bestMoment": "reflectief",
-        "tags": [
-          "ai ethics & society",
-          "arts & culture",
-          "personal growth & life philosophy"
-        ],
-        "coreInterests": [],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01m33evj3fz6mrsp2vghdd04pm",
-        "title": "I, CEO: How Medium.com went from being anti-AI to pro-AI",
-        "author": null,
-        "siteName": "brennan.day",
-        "category": "rss",
-        "language": null,
-        "readingTime": "8 mins",
-        "readingMinutes": 8,
-        "wordCount": 2041,
-        "publishedDate": "2026-09-15",
-        "savedDate": "2026-09-22T02:24:12.247000+00:00",
-        "imageUrl": "https://brennan.day/assets/images/blog/sunbot.jpg",
-        "sourceUrl": "https://brennan.day/i-ceo-how-medium-com-went-from-being-anti-ai-to-pro-ai/",
-        "readwiseUrl": "https://read.readwise.io/read/01m33evj3fz6mrsp2vghdd04pm",
-        "summary": "Medium.com went from a defiant anti-AI holdout—blocking GPTBot, rejecting a multimillion-dollar training deal, banning AI writing from monetization—to launching an AI licensing standard and its own AI writing app under CEO Tony Stubblebine. What happens when one man's changing mind becomes a platform's policy, and why I'm still staying.",
-        "whyRead": "Dit raakt je interesse in AI-ethiek, platformmacht en organisatiegedrag: Mediums omslag van ‘human-first’ naar AI-licenties en AI-schrijftools laat zien hoe bedrijfsstrategie de waarden van een gemeenschap kan herdefiniëren.",
-        "bestMoment": "kritisch",
-        "tags": [
-          "ai ethics & society",
-          "organizational behavior & culture",
-          "technology"
-        ],
-        "coreInterests": [
-          "agile"
-        ],
-        "alsoIn": [],
-        "memberships": []
       },
       {
         "position": null,
@@ -34117,36 +29221,6 @@ window.TOP_ARTICLES = {
       },
       {
         "position": null,
-        "id": "01m33evj0vwdqdqtdp608z3ypk",
-        "title": "'Would You Like to Reload a Previous Save?' (➤Yes / No)",
-        "author": null,
-        "siteName": "brennan.day",
-        "category": "rss",
-        "language": null,
-        "readingTime": "4 mins",
-        "readingMinutes": 4,
-        "wordCount": 1060,
-        "publishedDate": "2026-09-18",
-        "savedDate": "2026-09-22T02:24:18.164000+00:00",
-        "imageUrl": "https://brennan.day/assets/images/blog/reload.jpg",
-        "sourceUrl": "https://brennan.day/would-you-like-to-reload-a-previous-save-yes-no/",
-        "readwiseUrl": "https://read.readwise.io/read/01m33evj0vwdqdqtdp608z3ypk",
-        "summary": "Revisiting my maladaptive daydream of waking up at twelve years old with all my present knowledge intact, I weigh the seductive fantasy of correcting every regret—being a better brother to Byron, buying Bitcoin with birthday money—against everything that would be erased: 500,000 words, hard-won relationships, the album that got me through a specific winter. A meditation on the future self who would trade almost anything for one more ordinary day. The door is already halfway closed.",
-        "whyRead": "Dit raakt je interesse in persoonlijke groei en menselijke relaties: een ontroerende gedachteoefening over spijt, herinneringen en de vraag wat je toekomstige zelf vandaag zou willen terugkrijgen.",
-        "bestMoment": "reflectief",
-        "tags": [
-          "arts & culture",
-          "personal growth & life philosophy",
-          "social psychology & interpersonal dynamics"
-        ],
-        "coreInterests": [
-          "sociologie"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
         "id": "01m33evhz8765pq9k43wjnhvk2",
         "title": "Creating a Blog in Gemini://",
         "author": null,
@@ -34180,37 +29254,6 @@ window.TOP_ARTICLES = {
             "position": 95
           }
         ]
-      },
-      {
-        "position": null,
-        "id": "01m33evhvgz41ctee81pt5ms14",
-        "title": "LLMs Democratize Extraction and Scale Malice",
-        "author": null,
-        "siteName": "brennan.day",
-        "category": "rss",
-        "language": null,
-        "readingTime": "6 mins",
-        "readingMinutes": 6,
-        "wordCount": 1451,
-        "publishedDate": "2026-09-21",
-        "savedDate": "2026-09-22T02:24:23.992000+00:00",
-        "imageUrl": "https://brennan.day/assets/images/blog/ai2027.jpg",
-        "sourceUrl": "https://brennan.day/llms-democratize-extraction-and-scale-malice/",
-        "readwiseUrl": "https://read.readwise.io/read/01m33evhvgz41ctee81pt5ms14",
-        "summary": "Responding to Coyote's essay on data ownership, I look at how genAI has democratized the kind of extraction that once required corporate infrastructure—iLands spam agents, scrapers, and agent swarms—why my apathy-and-ignorance approach to AI crawlers is no longer enough, the two competing realities of AI 2027, and the tools and organizing we actually have: ai.robots.txt, Glaze and Nightshade, tech-worker unions, and the CARE and OCAP principles of Indigenous data governance.",
-        "whyRead": "Dit raakt je interesse in AI-ethiek, technologie en machtsstructuren: het onderzoekt hoe generatieve AI webcontent op ongekende schaal kan extraheren en welke vormen van autonomie, verzet en collectieve organisatie daartegenover staan.",
-        "bestMoment": "kritisch",
-        "tags": [
-          "ai ethics & society",
-          "political philosophy",
-          "technology"
-        ],
-        "coreInterests": [
-          "filosofie",
-          "ideologie"
-        ],
-        "alsoIn": [],
-        "memberships": []
       },
       {
         "position": null,
@@ -34274,240 +29317,16 @@ window.TOP_ARTICLES = {
         "coreInterests": [
           "filosofie"
         ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01m33b1c5gewe8ca6phz5e3djs",
-        "title": "We've saved the world before: what the ozone hole teaches us about AI",
-        "author": null,
-        "siteName": "lesswrong.com",
-        "category": "rss",
-        "language": null,
-        "readingTime": "11 mins",
-        "readingMinutes": 11,
-        "wordCount": 2702,
-        "publishedDate": "2026-09-22",
-        "savedDate": "2026-09-22T01:17:40.472000+00:00",
-        "imageUrl": "https://res.cloudinary.com/lesswrong-2-0/image/upload/v1654295382/new_mississippi_river_fjdmww.jpg",
-        "sourceUrl": "https://www.lesswrong.com/posts/zxXPEtSSSEdwpjopb/we-ve-saved-the-world-before-what-the-ozone-hole-teaches-us",
-        "readwiseUrl": "https://read.readwise.io/read/01m33b1c5gewe8ca6phz5e3djs",
-        "summary": "It might destroy the world, despite passing every known safety test. If we wait for a “warning shot” before we act, it might be too late. And action requires global coordination, because if anyone makes it, everyone dies. Sound familiar?It should, because it already happened half a century ago, with chlorofluorocarbons (CFCs). Despite seemingly impossible odds, we got our act together and completely solved the problem through unprecedentedly successful international coordination. The Montreal Protocol banning CFCs, signed 39 years ago today, is the only treaty that has ever been ratified by every single country in the entire world.Total Montreal protocol victoryMaking AI go well is going to be a lot harder than fixing the ozone hole. Nonetheless, the similarity is uncanny, and we don’t have any other choice. Understanding how we did the impossible once before may teach us something about how to do it again.The theory is bornThe year is 1973. The slow televised unraveling of the Nixon administration is already well underway. DDT finally got banned last year by the newly created EPA. A river got so polluted that it literally caught on fire.The Cuyahoga River FireEnvironmentalism looms large in the public consciousness, and trust in the government’s competence is at a nadir. There are some people explicitly trying to anticipate catastrophic environmental risks, but beyond the known quantities like DDT, it’s hard to predict much more than the abstract possibility of delayed effects and catastrophic threshold effects from as-yet unknown pollutants.[1]Scientific discovery is often serendipitous. At an obscure conference, during a coffee break (the most important part of any conference), a Professor F. Sherwood Rowland of UC Irvine would by chance learn about some intriguing new findings from a meteorologist, who found evidence that these gases called CFC were accumulating in the atmosphere. Something about this direction piqued Rowland’s interest, and he filed it away ...",
-        "whyRead": "Dit raakt je interesse in AI-ethiek, wetenschap en internationale samenwerking: de geschiedenis van het ozongat biedt een concreet voorbeeld van hoe wetenschap, publieke druk en beleid samen een mondiale dreiging kunnen aanpakken.",
-        "bestMoment": "analytisch",
-        "tags": [
-          "ai ethics & society",
-          "environment & sustainability",
-          "science"
+        "alsoIn": [
+          "aaa-short-top-100"
         ],
-        "coreInterests": [],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01m32rv3rcd3yjaphcxkhp7kzn",
-        "title": "The Violent Toll of Hindu Nationalism in India",
-        "author": null,
-        "siteName": "The New Yorker",
-        "category": "article",
-        "language": null,
-        "readingTime": "11 mins",
-        "readingMinutes": 11,
-        "wordCount": 2806,
-        "publishedDate": "2019-03-05",
-        "savedDate": "2026-09-21T19:59:43.884000+00:00",
-        "imageUrl": "https://media.newyorker.com/photos/5c6ee2b3013a3939f76f6fed/16:9/w_1280,c_limit/Griswold-Lynching.jpg",
-        "sourceUrl": "https://www.newyorker.com/news/on-religion/the-violent-toll-of-hindu-nationalism-in-india",
-        "readwiseUrl": "https://read.readwise.io/read/01m32rv3rcd3yjaphcxkhp7kzn",
-        "summary": "A populist Prime Minister has legitimized India’s more militant groups, and targeted attacks against religious minorities are on the rise.",
-        "whyRead": "Raakt je interesse in politieke filosofie en maatschappelijke structuren: dit reportage-essay laat zien hoe hindoe-nationalisme religieuze minderheden raakt via geweld, uitsluiting en straffeloosheid.",
-        "bestMoment": "kritisch",
-        "tags": [
-          "current affairs & politics",
-          "sociology & social structures"
-        ],
-        "coreInterests": [
-          "sociologie"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01m32rttqhsx5t5f5gwdcqtswh",
-        "title": "Great Recession, great recovery? Trends from the Current Population Survey",
-        "author": null,
-        "siteName": "Bureau of Labor Statistics",
-        "category": "article",
-        "language": null,
-        "readingTime": "38 mins",
-        "readingMinutes": 38,
-        "wordCount": 9808,
-        "publishedDate": "2018-04-07",
-        "savedDate": "2026-09-21T19:59:34.641000+00:00",
-        "imageUrl": "https://www.bls.gov/images/bls_emblem.png",
-        "sourceUrl": "https://www.bls.gov/opub/mlr/2018/article/great-recession-great-recovery.htm",
-        "readwiseUrl": "https://read.readwise.io/read/01m32rttqhsx5t5f5gwdcqtswh",
-        "summary": "This article uses data from the Current Population Survey to examine the state of the U.S. labor market 10 years after the start of the Great Recession of 2007–09.",
-        "whyRead": "Raakt je interesse in economie en ongelijkheid: dit BLS-onderzoek maakt zichtbaar dat een macro-economisch herstel verschillende groepen en arbeidsmarktuitkomsten niet gelijk raakt.",
-        "bestMoment": "analytisch",
-        "tags": [
-          "economics",
-          "sociology & social structures"
-        ],
-        "coreInterests": [
-          "sociologie"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01m32rtqt789rycgwy1cmgf7zy",
-        "title": "The American middle class is stable in size, but losing ground financially to upper-income families",
-        "author": null,
-        "siteName": "Pew Research Center",
-        "category": "article",
-        "language": null,
-        "readingTime": "4 mins",
-        "readingMinutes": 4,
-        "wordCount": 980,
-        "publishedDate": "2018-09-06",
-        "savedDate": "2026-09-21T19:59:31.655000+00:00",
-        "imageUrl": "https://www.pewresearch.org/wp-content/uploads/sites/20/2018/09/FT_18.09.05_Middle-Income_Featured-Image.png?w=640&h=360&crop=1",
-        "sourceUrl": "https://www.pewresearch.org/short-reads/2018/09/06/the-american-middle-class-is-stable-in-size-but-losing-ground-financially-to-upper-income-families/",
-        "readwiseUrl": "https://read.readwise.io/read/01m32rtqt789rycgwy1cmgf7zy",
-        "summary": "While the size of the U.S. middle class remained relatively stable between 2002 and 2016, financial gains for middle-income Americans were modest compared with those of higher-income households.",
-        "whyRead": "Raakt je interesse in economie en maatschappelijke ongelijkheid: het stuk laat zien dat de omvang van de Amerikaanse middenklasse stabiliseert terwijl haar financiële positie relatief achteruitgaat.",
-        "bestMoment": "analytisch",
-        "tags": [
-          "economics",
-          "sociology & social structures"
-        ],
-        "coreInterests": [
-          "sociologie"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01m32rtkg19z9m2zz93y18qm6j",
-        "title": "5 Lessons From Recent Union Wins",
-        "author": null,
-        "siteName": "Center for American Progress",
-        "category": "article",
-        "language": null,
-        "readingTime": "7 mins",
-        "readingMinutes": 7,
-        "wordCount": 1820,
-        "publishedDate": "2022-06-06",
-        "savedDate": "2026-09-21T19:59:27.233000+00:00",
-        "imageUrl": "https://www.americanprogress.org/wp-content/uploads/sites/2/2022/05/UnionWinsColumn.jpg",
-        "sourceUrl": "https://www.americanprogress.org/article/5-lessons-from-recent-union-wins/",
-        "readwiseUrl": "https://read.readwise.io/read/01m32rtkg19z9m2zz93y18qm6j",
-        "summary": "American workers have won major victories at Amazon, Starbucks, and elsewhere; but Congress must act to ensure all workers can exercise their right to join a union.",
-        "whyRead": "Raakt je interesse in maatschappelijke structuren en politiek: recente vakbondsoverwinningen maken zichtbaar hoe collectieve organisatie wordt afgeremd door zwakke arbeidswetgeving.",
-        "bestMoment": "kritisch",
-        "tags": [
-          "current affairs & politics",
-          "sociology & social structures"
-        ],
-        "coreInterests": [
-          "sociologie"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01m32rtg0adse6zrfjkb3yvt11",
-        "title": "Worker Boards Across the Country Are Empowering Workers and Implementing Workforce Standards Across Industries",
-        "author": null,
-        "siteName": "Center for American Progress",
-        "category": "article",
-        "language": null,
-        "readingTime": "8 mins",
-        "readingMinutes": 8,
-        "wordCount": 1870,
-        "publishedDate": "2022-02-18",
-        "savedDate": "2026-09-21T19:59:23.658000+00:00",
-        "imageUrl": "https://www.americanprogress.org/wp-content/uploads/sites/2/2022/02/WorkerBoardsColumn.jpg",
-        "sourceUrl": "https://www.americanprogress.org/article/worker-boards-across-the-country-are-empowering-workers-and-implementing-workforce-standards-across-industries/",
-        "readwiseUrl": "https://read.readwise.io/read/01m32rtg0adse6zrfjkb3yvt11",
-        "summary": "Worker boards have achieved real momentum in the United States, with four states and three local governments enacting laws since 2018 that bring workers and employers together to recommend standards.",
-        "whyRead": "Raakt je interesse in maatschappelijke structuren en werk: dit beleidsartikel biedt een concreet model voor collectieve zeggenschap buiten de klassieke vakbond om.",
-        "bestMoment": "analytisch",
-        "tags": [
-          "current affairs & politics",
-          "sociology & social structures"
-        ],
-        "coreInterests": [
-          "sociologie"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01m32rta1309p9d5rasfyfbeg4",
-        "title": "Wages and Employment Do Not Have To Decline To Bring Down Inflation",
-        "author": null,
-        "siteName": "Center for American Progress",
-        "category": "article",
-        "language": null,
-        "readingTime": "4 mins",
-        "readingMinutes": 4,
-        "wordCount": 1004,
-        "publishedDate": "2022-09-01",
-        "savedDate": "2026-09-21T19:59:17.539000+00:00",
-        "imageUrl": "https://www.americanprogress.org/wp-content/uploads/sites/2/2022/08/GettyImages-1242574171.jpg",
-        "sourceUrl": "https://www.americanprogress.org/article/wages-and-employment-do-not-have-to-decline-to-bring-down-inflation/",
-        "readwiseUrl": "https://read.readwise.io/read/01m32rta1309p9d5rasfyfbeg4",
-        "summary": "To lower inflation, policymakers must continue using fiscal policy to focus support to struggling households, improve the economy’s productive capacity, create more resilient supply chains, and limit the profiteering of corporations.",
-        "whyRead": "Raakt je interesse in economie en ongelijkheid: het artikel betwist de reflex dat inflatiebestrijding vooral via hogere werkloosheid en lagere lonen moet verlopen.",
-        "bestMoment": "analytisch",
-        "tags": [
-          "current affairs & politics",
-          "economics",
-          "sociology & social structures"
-        ],
-        "coreInterests": [
-          "sociologie"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01m32rt6qyev05jvr7afhnfgsh",
-        "title": "The mass graves of Kashmir",
-        "author": null,
-        "siteName": "the Guardian",
-        "category": "article",
-        "language": null,
-        "readingTime": "11 mins",
-        "readingMinutes": 11,
-        "wordCount": 2775,
-        "publishedDate": "2012-07-09",
-        "savedDate": "2026-09-21T19:59:14.174000+00:00",
-        "imageUrl": "https://assets.guim.co.uk/images/eada8aa27c12fe2d5afa3a89d3fbae0d/fallback-logo.png",
-        "sourceUrl": "https://www.theguardian.com/world/2012/jul/09/mass-graves-of-kashmir",
-        "readwiseUrl": "https://read.readwise.io/read/01m32rt6qyev05jvr7afhnfgsh",
-        "summary": "For 22 years this contested region has endured a regime of torture and disappeared civilians. Now a local laywer is discovering their unmarked graves and challenging India's abuses",
-        "whyRead": "Raakt je interesse in geopolitiek, geschiedenis en mensenrechten: deze lange reportage verbindt gedwongen verdwijningen, massagraven en marteling in Kashmir met de institutionele macht van veiligheidsdiensten.",
-        "bestMoment": "kritisch",
-        "tags": [
-          "current affairs & politics",
-          "history"
-        ],
-        "coreInterests": [
-          "geschiedenis"
-        ],
-        "alsoIn": [],
-        "memberships": []
+        "memberships": [
+          {
+            "familyId": "kort",
+            "size": "top-100",
+            "position": 57
+          }
+        ]
       },
       {
         "position": null,
@@ -34545,7 +29364,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 92
+            "position": 93
           }
         ]
       },
@@ -34585,652 +29404,9 @@ window.TOP_ARTICLES = {
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 59
+            "position": 60
           }
         ]
-      },
-      {
-        "position": null,
-        "id": "01m32r276xx0r2b8mrskx1skdv",
-        "title": "An Indian Political Theorist on the Triumph of Narendra Modi’s Hindu Nationalism",
-        "author": null,
-        "siteName": "The New Yorker",
-        "category": "article",
-        "language": null,
-        "readingTime": "11 mins",
-        "readingMinutes": 11,
-        "wordCount": 2838,
-        "publishedDate": "2019-05-24",
-        "savedDate": "2026-09-21T19:46:08.219000+00:00",
-        "imageUrl": "https://media.newyorker.com/photos/5ce7046c0efb4e4dad330396/16:9/w_1280,c_limit/Chotiner-ModiHinduNationalism.jpg",
-        "sourceUrl": "https://www.newyorker.com/news/q-and-a/an-indian-political-theorist-on-the-triumph-of-narendra-modis-hindu-nationalism",
-        "readwiseUrl": "https://read.readwise.io/read/01m32r276xx0r2b8mrskx1skdv",
-        "summary": "The writer Pratap Bhanu Mehta discusses the Indian Prime Minister’s huge win, the differences between him and other authoritarians, and what the future holds for India’s Muslims.",
-        "whyRead": "Een interview met Pratap Bhanu Mehta over Modi’s populariteit, Hindutva-nationalisme, economische politiek, machtsconcentratie en de toekomst van de Indiase democratie.",
-        "bestMoment": "analytisch",
-        "tags": [
-          "current affairs & politics",
-          "political philosophy",
-          "sociology & social structures"
-        ],
-        "coreInterests": [
-          "filosofie",
-          "ideologie",
-          "sociologie"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01m32r26qf6va35k58s8eaxeq5",
-        "title": "7 Facts on Racial Equity and the Economic Recovery",
-        "author": null,
-        "siteName": "Center for American Progress",
-        "category": "article",
-        "language": null,
-        "readingTime": "8 mins",
-        "readingMinutes": 8,
-        "wordCount": 2081,
-        "publishedDate": "2022-11-17",
-        "savedDate": "2026-09-21T19:46:07.727000+00:00",
-        "imageUrl": "https://www.americanprogress.org/wp-content/uploads/sites/2/2022/11/GettyImages-1242022017.jpg",
-        "sourceUrl": "https://www.americanprogress.org/article/7-facts-on-racial-equity-and-the-economic-recovery/",
-        "readwiseUrl": "https://read.readwise.io/read/01m32r26qf6va35k58s8eaxeq5",
-        "summary": "The economic recovery has supported workers of color, but inequities persist, and the Federal Reserve risks undoing the equitable economic gains achieved.",
-        "whyRead": "Een beleidsgerichte update over de Amerikaanse economische herstelfase na COVID-19 en de vraag waarom verbeterde arbeidsmarktindicatoren raciale ongelijkheid niet vanzelf oplossen.",
-        "bestMoment": "analytisch",
-        "tags": [
-          "economics",
-          "history",
-          "sociology & social structures"
-        ],
-        "coreInterests": [
-          "geschiedenis",
-          "sociologie"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01m32r2678fr6ev1nvf0fhb92k",
-        "title": "The Racist Housing Policy That Made Your Neighborhood",
-        "author": null,
-        "siteName": "The Atlantic",
-        "category": "article",
-        "language": null,
-        "readingTime": "5 mins",
-        "readingMinutes": 5,
-        "wordCount": 1099,
-        "publishedDate": "2014-05-22",
-        "savedDate": "2026-09-21T19:46:07.208000+00:00",
-        "imageUrl": null,
-        "sourceUrl": "https://www.theatlantic.com/business/archive/2014/05/the-racist-housing-policy-that-made-your-neighborhood/371439/",
-        "readwiseUrl": "https://read.readwise.io/read/01m32r2678fr6ev1nvf0fhb92k",
-        "summary": "Before you read this post, read Ta-Nehisi Coates’s powerful case for reparations, our cover story this month.",
-        "whyRead": "Een essay over de racistische woningpolitiek van de Federal Housing Administration, redlining en de manier waarop buurten en vermogensverschillen door beleid zijn gevormd.",
-        "bestMoment": "kritisch",
-        "tags": [
-          "economics",
-          "history",
-          "sociology & social structures"
-        ],
-        "coreInterests": [
-          "geschiedenis",
-          "sociologie"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01m32r25hvqd0k887smqz0kvtp",
-        "title": "Recent Trends in Wealth-Holding by Race and Ethnicity",
-        "author": null,
-        "siteName": "Board of Governors of the Federal Reserve System",
-        "category": "article",
-        "language": null,
-        "readingTime": "11 mins",
-        "readingMinutes": 11,
-        "wordCount": 2765,
-        "publishedDate": "2017-09-27",
-        "savedDate": "2026-09-21T19:46:06.523000+00:00",
-        "imageUrl": "https://www.federalreserve.gov/images/social-media/social-default-image-opengraph.jpg",
-        "sourceUrl": "https://www.federalreserve.gov/econres/notes/feds-notes/recent-trends-in-wealth-holding-by-race-and-ethnicity-evidence-from-the-survey-of-consumer-finances-20170927.html",
-        "readwiseUrl": "https://read.readwise.io/read/01m32r25hvqd0k887smqz0kvtp",
-        "summary": "The Federal Reserve Board of Governors in Washington DC.",
-        "whyRead": "Een Federal Reserve-analyse van vermogensniveaus, activa, schulden en demografische factoren per ras en etniciteit.",
-        "bestMoment": "analytisch",
-        "tags": [
-          "economics",
-          "history",
-          "sociology & social structures"
-        ],
-        "coreInterests": [
-          "geschiedenis",
-          "sociologie"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01m32r24v70pr2f8cpmxt8xnk9",
-        "title": "What Is Sectoral Bargaining?",
-        "author": null,
-        "siteName": "Center for American Progress Action",
-        "category": "article",
-        "language": null,
-        "readingTime": "5 mins",
-        "readingMinutes": 5,
-        "wordCount": 1101,
-        "publishedDate": "2020-03-02",
-        "savedDate": "2026-09-21T19:46:05.796000+00:00",
-        "imageUrl": "https://www.americanprogressaction.org/wp-content/uploads/sites/3/2020/02/GettyImages-516468594-2-scaled.jpg",
-        "sourceUrl": "https://www.americanprogressaction.org/article/what-is-sectoral-bargaining/",
-        "readwiseUrl": "https://read.readwise.io/read/01m32r24v70pr2f8cpmxt8xnk9",
-        "summary": "Sectoral bargaining is a form of collective bargaining that extends negotiated wages, benefits, and workplace standards across an entire occupation, industry, or region.",
-        "whyRead": "Een uitleg van sectorale onderhandeling als alternatief of aanvulling op het Amerikaanse model waarin elke vakbond per werkgever onderhandelt.",
-        "bestMoment": "analytisch",
-        "tags": [
-          "current affairs & politics",
-          "economics",
-          "sociology & social structures"
-        ],
-        "coreInterests": [
-          "sociologie"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01m32r23y7x76aep0539wx037k",
-        "title": "The NLRB Protects Workers’ Right To Organize, Yet Remains Underfunded",
-        "author": null,
-        "siteName": "Center for American Progress",
-        "category": "article",
-        "language": null,
-        "readingTime": "19 mins",
-        "readingMinutes": 19,
-        "wordCount": 4793,
-        "publishedDate": "2022-12-05",
-        "savedDate": "2026-09-21T19:46:04.868000+00:00",
-        "imageUrl": "https://www.americanprogress.org/wp-content/uploads/sites/2/2022/12/GettyImages-629440737.jpg",
-        "sourceUrl": "https://www.americanprogress.org/article/the-nlrb-protects-workers-right-to-organize-yet-remains-underfunded/",
-        "readwiseUrl": "https://read.readwise.io/read/01m32r23y7x76aep0539wx037k",
-        "summary": "Under the Biden administration, the National Labor Relations Board is striving to protect workers’ right to form a union and collectively bargain, but the agency remains underfunded and understaffed.",
-        "whyRead": "Een analyse van de National Labor Relations Board als institutionele voorwaarde voor werknemersorganisatie, collectieve onderhandelingen en vakbondsgroei.",
-        "bestMoment": "analytisch",
-        "tags": [
-          "current affairs & politics",
-          "economics",
-          "sociology & social structures"
-        ],
-        "coreInterests": [
-          "sociologie"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01m32r2396d9n269whxm1qd6q0",
-        "title": "Views of U.S. economic inequality",
-        "author": null,
-        "siteName": "Pew Research Center",
-        "category": "article",
-        "language": null,
-        "readingTime": "6 mins",
-        "readingMinutes": 6,
-        "wordCount": 1584,
-        "publishedDate": "2020-01-09",
-        "savedDate": "2026-09-21T19:46:04.196000+00:00",
-        "imageUrl": "https://www.pewresearch.org/wp-content/uploads/sites/20/2020/01/ST_20.01.10_Economic-Inequality_Featured-Image-jpg.webp?w=1200&h=628&crop=1",
-        "sourceUrl": "https://www.pewresearch.org/social-trends/2020/01/09/views-of-economic-inequality/",
-        "readwiseUrl": "https://read.readwise.io/read/01m32r2396d9n269whxm1qd6q0",
-        "summary": "Most Americans think there is too much economic inequality in the country these days, and about half say addressing inequality requires significant changes to the economic system. Even so, among…",
-        "whyRead": "Een Pew-analyse van hoe Amerikanen economische ongelijkheid beoordelen, welke systeemveranderingen zij wenselijk vinden en hoe partij en inkomen hun oordeel kleuren.",
-        "bestMoment": "analytisch",
-        "tags": [
-          "current affairs & politics",
-          "economics",
-          "sociology & social structures"
-        ],
-        "coreInterests": [
-          "sociologie"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01m32r22wyv0rxtgzbqjmpje6t",
-        "title": "Trends in U.S. income and wealth inequality",
-        "author": null,
-        "siteName": "Pew Research Center",
-        "category": "article",
-        "language": null,
-        "readingTime": "13 mins",
-        "readingMinutes": 13,
-        "wordCount": 3366,
-        "publishedDate": "2020-01-09",
-        "savedDate": "2026-09-21T19:46:03.806000+00:00",
-        "imageUrl": "https://www.pewresearch.org/social-trends/wp-content/uploads/sites/3/2020/01/ST_20.01.10_Economic-Inequality_Featured-Image.jpg?w=600",
-        "sourceUrl": "https://www.pewresearch.org/social-trends/2020/01/09/trends-in-income-and-wealth-inequality/",
-        "readwiseUrl": "https://read.readwise.io/read/01m32r22wyv0rxtgzbqjmpje6t",
-        "summary": "Barely 10 years past the end of the Great Recession in 2009, the U.S. economy is doing well on several fronts. The labor market is on a job-creating",
-        "whyRead": "Een uitgebreid Pew-overzicht van de groei van inkomens- en vermogensongelijkheid, de krimp van de middenklasse en de gevolgen van recessies voor verschillende inkomensgroepen.",
-        "bestMoment": "analytisch",
-        "tags": [
-          "current affairs & politics",
-          "economics",
-          "sociology & social structures"
-        ],
-        "coreInterests": [
-          "sociologie"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01m32qcfwzwwjg46y0mn9caa82",
-        "title": "If you have the power to move a country forward and choose to do nothing, you are abusing that power",
-        "author": null,
-        "siteName": "Substack",
-        "category": "email",
-        "language": null,
-        "readingTime": "3 mins",
-        "readingMinutes": 3,
-        "wordCount": 768,
-        "publishedDate": "2026-09-21",
-        "savedDate": "2026-09-21T19:34:16.224000+00:00",
-        "imageUrl": null,
-        "sourceUrl": "mailto:reader-forwarded-email/14fa7294f158eaf4f28ac057fd8c6606",
-        "readwiseUrl": "https://read.readwise.io/read/01m32qcfwzwwjg46y0mn9caa82",
-        "summary": "While prime minister Jetten’s cabinet kept going round in circles at a fingerpost– right, left, or zigzagging forwards? – tectonic plates were shifting in Strasbourg.",
-        "whyRead": "Raakt je interesse in politieke filosofie en Europese samenwerking: deze column contrasteert bestuurlijke verlamming met waarden-gedreven leiderschap in een geopolitieke crisis.",
-        "bestMoment": "kritisch",
-        "tags": [
-          "current affairs & politics",
-          "political philosophy"
-        ],
-        "coreInterests": [
-          "filosofie",
-          "ideologie"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01m32mb6davqhd9d2nah979pbv",
-        "title": "6 facts about economic inequality in the U.S.",
-        "author": null,
-        "siteName": "Pew Research Center",
-        "category": "article",
-        "language": null,
-        "readingTime": "4 mins",
-        "readingMinutes": 4,
-        "wordCount": 847,
-        "publishedDate": "2020-02-07",
-        "savedDate": "2026-09-21T18:41:08.007000+00:00",
-        "imageUrl": "https://www.pewresearch.org/wp-content/uploads/sites/20/2020/02/FT_20.02.04_EconomicInequality_feature-jpg.webp?w=1200&h=628&crop=1",
-        "sourceUrl": "https://www.pewresearch.org/short-reads/2020/02/07/6-facts-about-economic-inequality-in-the-u-s/",
-        "readwiseUrl": "https://read.readwise.io/read/01m32mb6davqhd9d2nah979pbv",
-        "summary": "Over the past 50 years, the highest-earning 20% of U.S. households have steadily brought in a larger share of the country’s total income.",
-        "whyRead": "Een compacte Pew-samenvatting van de ontwikkeling van inkomens- en vermogensongelijkheid in de Verenigde Staten.",
-        "bestMoment": "analytisch",
-        "tags": [
-          "current affairs & politics",
-          "economics",
-          "sociology & social structures"
-        ],
-        "coreInterests": [
-          "sociologie"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01m32mb5vy1qv79ay40sqhf35x",
-        "title": "What It Will Take To Increase Union Membership and Collective Bargaining Coverage",
-        "author": null,
-        "siteName": "Center for American Progress",
-        "category": "article",
-        "language": null,
-        "readingTime": "5 mins",
-        "readingMinutes": 5,
-        "wordCount": 1281,
-        "publishedDate": "2024-01-17",
-        "savedDate": "2026-09-21T18:41:07.454000+00:00",
-        "imageUrl": "https://www.americanprogress.org/wp-content/uploads/sites/2/2024/01/UnionsColumn.jpg",
-        "sourceUrl": "https://www.americanprogress.org/article/what-it-will-take-to-increase-union-membership-and-collective-bargaining-coverage/",
-        "readwiseUrl": "https://read.readwise.io/read/01m32mb5vy1qv79ay40sqhf35x",
-        "summary": "Continued worker action and major policy reforms are needed for union membership and collective bargaining to significantly increase.",
-        "whyRead": "Een beleidsanalyse van de kloof tussen grote belangstelling voor vakbonden en de lage feitelijke organisatiegraad in de Verenigde Staten.",
-        "bestMoment": "analytisch",
-        "tags": [
-          "current affairs & politics",
-          "economics",
-          "sociology & social structures"
-        ],
-        "coreInterests": [
-          "sociologie"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01m32mb5c049h70phk4hvx7wke",
-        "title": "Systematic Inequality",
-        "author": null,
-        "siteName": "Center for American Progress",
-        "category": "article",
-        "language": null,
-        "readingTime": "47 mins",
-        "readingMinutes": 47,
-        "wordCount": 12384,
-        "publishedDate": "2018-02-21",
-        "savedDate": "2026-09-21T18:41:06.943000+00:00",
-        "imageUrl": "https://www.americanprogress.org/wp-content/uploads/sites/2/2018/02/GettyImages-7074372691-copy.jpg",
-        "sourceUrl": "https://www.americanprogress.org/article/systematic-inequality/",
-        "readwiseUrl": "https://read.readwise.io/read/01m32mb5c049h70phk4hvx7wke",
-        "summary": "The already large racial wealth gap between white and black American households grew even wider after the Great Recession. Targeted policies are necessary to reverse this deepening divide.",
-        "whyRead": "Een uitgebreid beleidsrapport over de structurele oorzaken van de Amerikaanse zwart-witte vermogenskloof en de gerichte hervormingen die die kloof kunnen verkleinen.",
-        "bestMoment": "analytisch",
-        "tags": [
-          "economics",
-          "history",
-          "sociology & social structures"
-        ],
-        "coreInterests": [
-          "geschiedenis",
-          "sociologie"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01m32mb4y46t23vqpb60wcst9j",
-        "title": "Amartya Sen’s Hopes and Fears for Indian Democracy",
-        "author": null,
-        "siteName": "The New Yorker",
-        "category": "article",
-        "language": null,
-        "readingTime": "21 mins",
-        "readingMinutes": 21,
-        "wordCount": 5433,
-        "publishedDate": "2019-10-06",
-        "savedDate": "2026-09-21T18:41:06.498000+00:00",
-        "imageUrl": "https://media.newyorker.com/photos/5d83b53467565b000865237f/16:9/w_1280,c_limit/Chotiner-AmartyaSen03.jpg",
-        "sourceUrl": "https://www.newyorker.com/news/the-new-yorker-interview/amartya-sens-hopes-and-fears-for-indian-democracy",
-        "readwiseUrl": "https://read.readwise.io/read/01m32mb4y46t23vqpb60wcst9j",
-        "summary": "The economist, philosopher, and public intellectual discusses his boyhood in pre-independence India, his decades-long work, and why contemporary politics hasn’t led him toward fatalism.",
-        "whyRead": "Een diepgaand interview met Amartya Sen over Indiase democratie, pluralisme, angst, armoede, politieke identiteit en de verhouding tussen discussie en macht.",
-        "bestMoment": "analytisch",
-        "tags": [
-          "current affairs & politics",
-          "political philosophy",
-          "sociology & social structures"
-        ],
-        "coreInterests": [
-          "filosofie",
-          "ideologie",
-          "sociologie"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01m32mb3b9ph0xq91yh3tzjx03",
-        "title": "Effective Altruism Has a Novelty Problem",
-        "author": null,
-        "siteName": "substack.com",
-        "category": "article",
-        "language": null,
-        "readingTime": "10 mins",
-        "readingMinutes": 10,
-        "wordCount": 2571,
-        "publishedDate": "2022-08-10",
-        "savedDate": "2026-09-21T18:41:04.873000+00:00",
-        "imageUrl": "https://substackcdn.com/image/fetch/w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F0bc5fd66-6f8a-4d34-add5-3eff35a4e30e_512x512.png",
-        "sourceUrl": "https://freddiedeboer.substack.com/p/effective-altruism-has-a-novelty",
-        "readwiseUrl": "https://read.readwise.io/read/01m32mb3b9ph0xq91yh3tzjx03",
-        "summary": "why does \"doing good well\" always make you look like the cleverest boy in school?",
-        "whyRead": "Freddie deBoers polemische kritiek op de neiging van effectief altruïsme om nieuwigheid, slimheid en subculturele identiteit te verwarren met daadwerkelijke morele waarde.",
-        "bestMoment": "kritisch",
-        "tags": [
-          "ethics",
-          "philosophy",
-          "political philosophy"
-        ],
-        "coreInterests": [
-          "filosofie",
-          "ideologie"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01m32k9w2h178nyqrqefrcz41f",
-        "title": "What We Miss When We Talk About the Racial Wealth Gap",
-        "author": null,
-        "siteName": "The New Yorker",
-        "category": "article",
-        "language": null,
-        "readingTime": "16 mins",
-        "readingMinutes": 16,
-        "wordCount": 4103,
-        "publishedDate": "2025-07-28",
-        "savedDate": "2026-09-21T18:22:56.081000+00:00",
-        "imageUrl": "https://media.newyorker.com/photos/6883903467764bc1f714330b/16:9/w_1280,c_limit/r46838_RD.png",
-        "sourceUrl": "https://www.newyorker.com/magazine/2025/08/04/the-plunder-of-black-america-calvin-schermerhorn-book-review",
-        "readwiseUrl": "https://read.readwise.io/read/01m32k9w2h178nyqrqefrcz41f",
-        "summary": "Six decades of civil-rights efforts haven’t budged it, and the usual prescriptions—including reparations—offer no lasting solutions. Have we been focussing on the wrong things?",
-        "whyRead": "Een kritisch essay over de hardnekkige Amerikaanse raciale vermogenskloof, de verhouding tussen geschiedenis en inkomen, en de vraag welke verklaringen en remedies werkelijk helpen.",
-        "bestMoment": "analytisch",
-        "tags": [
-          "economics",
-          "history",
-          "sociology & social structures"
-        ],
-        "coreInterests": [
-          "geschiedenis",
-          "sociologie"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01m32k9vkftsfr0necxp83w81x",
-        "title": "The Drowning Child and the Expanding Circle",
-        "author": null,
-        "siteName": "New Internationalist",
-        "category": "article",
-        "language": null,
-        "readingTime": "9 mins",
-        "readingMinutes": 9,
-        "wordCount": 2167,
-        "publishedDate": "1997-04-05",
-        "savedDate": "2026-09-21T18:22:55.599000+00:00",
-        "imageUrl": "https://newint.org/sites/default/files/styles/watermarked_social_media_image/public/SingerSocial.jpg?itok=0_cFpA5a",
-        "sourceUrl": "https://newint.org/features/1997/04/05/peter-singer-drowning-child-new-internationalist",
-        "readwiseUrl": "https://read.readwise.io/read/01m32k9vkftsfr0necxp83w81x",
-        "summary": "As the world shrinks, so our capacity for effective moral action grows. Peter Singer indicates how this may change our lives.",
-        "whyRead": "Raakt je interesse in ethiek, filosofie en persoonlijke betekenis: Singer bouwt vanuit de verdrinkende-kind-parabel een argument voor mondiale, onpartijdige hulp. Het essay is een toegankelijke ingang tot effectief altruïsme en tot de spanning tussen plicht, eigenbelang, afstand en menselijke verbondenheid.",
-        "bestMoment": "analytisch",
-        "tags": [
-          "ethics",
-          "personal growth & life philosophy",
-          "philosophy"
-        ],
-        "coreInterests": [
-          "filosofie"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01m32k9v47aj70bfefsfd09c6y",
-        "title": "Effective Altruism As A Tower Of Assumptions",
-        "author": null,
-        "siteName": "astralcodexten.com",
-        "category": "article",
-        "language": null,
-        "readingTime": "5 mins",
-        "readingMinutes": 5,
-        "wordCount": 1128,
-        "publishedDate": "2022-08-24",
-        "savedDate": "2026-09-21T18:22:55.111000+00:00",
-        "imageUrl": "https://substackcdn.com/image/fetch/w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F50904f0a-4daf-4436-9fd3-a36671530f79_640x468.jpeg",
-        "sourceUrl": "https://www.astralcodexten.com/p/effective-altruism-as-a-tower-of",
-        "readwiseUrl": "https://read.readwise.io/read/01m32k9v47aj70bfefsfd09c6y",
-        "summary": "...",
-        "whyRead": "Een verdediging van de basisintuïtie van effectief altruïsme die onderscheid maakt tussen altruïstische plichten en de meer controversiële bovenlagen van de beweging.",
-        "bestMoment": "kritisch",
-        "tags": [
-          "ai ethics & society",
-          "ethics",
-          "philosophy"
-        ],
-        "coreInterests": [
-          "filosofie"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01m32k9tq07an2qbn13b5q2rg0",
-        "title": "Effective Altruism’s Political Blind Spot",
-        "author": null,
-        "siteName": "Boston Review",
-        "category": "article",
-        "language": null,
-        "readingTime": "11 mins",
-        "readingMinutes": 11,
-        "wordCount": 2777,
-        "publishedDate": "2015-07-14",
-        "savedDate": "2026-09-21T18:22:54.687000+00:00",
-        "imageUrl": "https://www.bostonreview.net/wp-content/uploads/2016/10/School-close_0.jpg",
-        "sourceUrl": "https://www.bostonreview.net/articles/emily-clough-effective-altruism-ngos/",
-        "readwiseUrl": "https://read.readwise.io/read/01m32k9tq07an2qbn13b5q2rg0",
-        "summary": "An Indian government school in rural Rajasthan. Photo courtesy Emily Clough. Editors's Note: Read Director of Research at Giving What We Can Hauke",
-        "whyRead": "Een empirisch onderbouwde kritiek op de politieke blinde vlek van effectief altruïsme en op de neiging om armoede te behandelen als een technisch in plaats van institutioneel probleem.",
-        "bestMoment": "analytisch",
-        "tags": [
-          "economics",
-          "ethics",
-          "political philosophy"
-        ],
-        "coreInterests": [
-          "filosofie",
-          "ideologie"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01m32k9t1mc4qbq088t1x2rtym",
-        "title": "The Reluctant Prophet of Effective Altruism",
-        "author": null,
-        "siteName": "The New Yorker",
-        "category": "article",
-        "language": null,
-        "readingTime": "40 mins",
-        "readingMinutes": 40,
-        "wordCount": 10350,
-        "publishedDate": "2022-08-08",
-        "savedDate": "2026-09-21T18:22:54.004000+00:00",
-        "imageUrl": "https://media.newyorker.com/photos/62ed7a5de77a7c72224697e4/16:9/w_1280,c_limit/220815_r40838.jpg",
-        "sourceUrl": "https://www.newyorker.com/magazine/2022/08/15/the-reluctant-prophet-of-effective-altruism",
-        "readwiseUrl": "https://read.readwise.io/read/01m32k9t1mc4qbq088t1x2rtym",
-        "summary": "William MacAskill’s movement set out to help the global poor. Now his followers fret about runaway A.I. Have they seen our threats clearly, or lost their way?",
-        "whyRead": "Een lange profielschets van William MacAskill en de ontwikkeling van effectief altruïsme van bednetten en earning to give naar longtermisme, AI-risico en grote filantropische vermogens.",
-        "bestMoment": "kritisch",
-        "tags": [
-          "ai ethics & society",
-          "ethics",
-          "political philosophy"
-        ],
-        "coreInterests": [
-          "filosofie",
-          "ideologie"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01m32k9snzgk59c1mgnb4hbqvs",
-        "title": "Peter Singer Is Still Interested in Controversial Ideas",
-        "author": null,
-        "siteName": "The New Yorker",
-        "category": "article",
-        "language": null,
-        "readingTime": "28 mins",
-        "readingMinutes": 28,
-        "wordCount": 7385,
-        "publishedDate": "2021-04-25",
-        "savedDate": "2026-09-21T18:22:53.631000+00:00",
-        "imageUrl": "https://media.newyorker.com/photos/606dd7b2be0f62b5de060de9/16:9/w_1280,c_limit/Gross-PeterSinger.jpg",
-        "sourceUrl": "https://www.newyorker.com/culture/the-new-yorker-interview/peter-singer-is-committed-to-controversial-ideas",
-        "readwiseUrl": "https://read.readwise.io/read/01m32k9snzgk59c1mgnb4hbqvs",
-        "summary": "The philosopher of animal liberation and effective altruism considers cancellation, capitalism, and the pandemic.",
-        "whyRead": "Een breed interview met Peter Singer over consequentialisme, effectief altruïsme, kapitalisme, mondiale verantwoordelijkheid, controversiële ideeën en de grenzen van morele consistentie.",
-        "bestMoment": "analytisch",
-        "tags": [
-          "ethics",
-          "philosophy",
-          "political philosophy"
-        ],
-        "coreInterests": [
-          "filosofie",
-          "ideologie"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01m32k9s7sshrjbz9j9jyd4knn",
-        "title": "Unions Continue To Build Wealth for All Americans",
-        "author": null,
-        "siteName": "Center for American Progress",
-        "category": "article",
-        "language": null,
-        "readingTime": "12 mins",
-        "readingMinutes": 12,
-        "wordCount": 3165,
-        "publishedDate": "2024-03-20",
-        "savedDate": "2026-09-21T18:22:53.177000+00:00",
-        "imageUrl": "https://www.americanprogress.org/wp-content/uploads/sites/2/2024/02/GettyImages-1151712645.jpg",
-        "sourceUrl": "https://www.americanprogress.org/article/unions-continue-to-build-wealth-for-all-americans/",
-        "readwiseUrl": "https://read.readwise.io/read/01m32k9s7sshrjbz9j9jyd4knn",
-        "summary": "New data show unions increase wealth across education levels and close racial wealth gaps.",
-        "whyRead": "Een beleidsanalyse van de relatie tussen vakbondslidmaatschap, vermogen, raciale ongelijkheid en de economische positie van working-class-huishoudens.",
-        "bestMoment": "analytisch",
-        "tags": [
-          "current affairs & politics",
-          "economics",
-          "sociology & social structures"
-        ],
-        "coreInterests": [
-          "sociologie"
-        ],
-        "alsoIn": [],
-        "memberships": []
       },
       {
         "position": null,
@@ -35277,340 +29453,6 @@ window.TOP_ARTICLES = {
             "position": 38
           }
         ]
-      },
-      {
-        "position": null,
-        "id": "01m32jqqd3m4yvvb3cacnxmqdx",
-        "title": "Stop the Robot Apocalypse: The New Utilitarians",
-        "author": null,
-        "siteName": "London Review of Books",
-        "category": "article",
-        "language": null,
-        "readingTime": "21 mins",
-        "readingMinutes": 21,
-        "wordCount": 5446,
-        "publishedDate": "2015-09-23",
-        "savedDate": "2026-09-21T18:13:01.475000+00:00",
-        "imageUrl": "https://www.lrb.co.uk/storage/social_image_on_bg/images/0/1/4/8/6158410-1-eng-GB/LRB-3718-01.jpg",
-        "sourceUrl": "https://www.lrb.co.uk/the-paper/v37/n18/amia-srinivasan/stop-the-robot-apocalypse",
-        "readwiseUrl": "https://read.readwise.io/read/01m32jqqd3m4yvvb3cacnxmqdx",
-        "summary": "Philosophers may talk about justice or rights, but they don’t often try to reshape the world according to their ideals...",
-        "whyRead": "Een kritische bespreking van effectief altruïsme, utilitaristische morele rekenkunde en de overgang van mondiale armoedebestrijding naar AI-langetermijnrisico's.",
-        "bestMoment": "analytisch",
-        "tags": [
-          "ai ethics & society",
-          "ethics",
-          "political philosophy"
-        ],
-        "coreInterests": [
-          "filosofie",
-          "ideologie"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01m32jqbacdjtg2pbpz4dsh2dd",
-        "title": "Which Americans See Themselves as Working Class?",
-        "author": null,
-        "siteName": "Pew Research Center",
-        "category": "article",
-        "language": null,
-        "readingTime": "5 mins",
-        "readingMinutes": 5,
-        "wordCount": 1169,
-        "publishedDate": "2026-08-31",
-        "savedDate": "2026-09-21T18:12:49.100000+00:00",
-        "imageUrl": "https://www.pewresearch.org/wp-content/uploads/sites/20/2026/08/PP_2026.8.31_working-class_featured.png?w=1200&h=628&crop=1",
-        "sourceUrl": "https://www.pewresearch.org/politics/2026/08/31/who-sees-themselves-as-working-class/",
-        "readwiseUrl": "https://read.readwise.io/read/01m32jqbacdjtg2pbpz4dsh2dd",
-        "summary": "Most Americans think of themselves as working class, and Republicans are more likely to do so than Democrats.",
-        "whyRead": "Een actuele Pew-analyse van wie zichzelf als working class ziet en hoe opleiding, inkomen, partijvoorkeur, beroep en financiële druk dat zelfbeeld beïnvloeden.",
-        "bestMoment": "analytisch",
-        "tags": [
-          "current affairs & politics",
-          "economics",
-          "sociology & social structures"
-        ],
-        "coreInterests": [
-          "sociologie"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01m32jq8j5ckhr6enr18rx9631",
-        "title": "Understanding the Working Class and the Challenges It Faces",
-        "author": null,
-        "siteName": "Center for American Progress",
-        "category": "article",
-        "language": null,
-        "readingTime": "6 mins",
-        "readingMinutes": 6,
-        "wordCount": 1510,
-        "publishedDate": "2025-03-24",
-        "savedDate": "2026-09-21T18:12:46.275000+00:00",
-        "imageUrl": "https://www.americanprogress.org/wp-content/uploads/sites/2/2025/03/GettyImages-1408955521-cropped.jpg",
-        "sourceUrl": "https://www.americanprogress.org/article/understanding-the-working-class-and-the-challenges-it-faces/",
-        "readwiseUrl": "https://read.readwise.io/read/01m32jq8j5ckhr6enr18rx9631",
-        "summary": "The working class, a large majority of the workforce and its most racially and ethnically diverse group, faces low pay and higher unemployment.",
-        "whyRead": "Een empirisch overzicht van wie in de Verenigde Staten tot de working class wordt gerekend en welke economische, beroepsmatige en demografische verschillen daarin schuilgaan.",
-        "bestMoment": "analytisch",
-        "tags": [
-          "current affairs & politics",
-          "economics",
-          "sociology & social structures"
-        ],
-        "coreInterests": [
-          "sociologie"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01m32jq2m0y2rv73k4qkp3gez6",
-        "title": "The Deaths of Effective Altruism",
-        "author": null,
-        "siteName": "WIRED",
-        "category": "article",
-        "language": null,
-        "readingTime": "30 mins",
-        "readingMinutes": 30,
-        "wordCount": 7768,
-        "publishedDate": "2024-03-27",
-        "savedDate": "2026-09-21T18:12:40.192000+00:00",
-        "imageUrl": "https://media.wired.com/photos/660326b10a12c137c8277599/191:100/w_1280,c_limit/260424-Effective-Altruism-Sam-Bankman-Freid-William-MacAskill-Dustin-Moskovitz.jpg",
-        "sourceUrl": "https://www.wired.com/story/deaths-of-effective-altruism/",
-        "readwiseUrl": "https://read.readwise.io/read/01m32jq2m0y2rv73k4qkp3gez6",
-        "summary": "Sam Bankman-Fried is finally facing punishment. Let’s also put his ruinous philosophy on trial.",
-        "whyRead": "Een lange reconstructie van effectief altruïsme, van GiveWell en ontwikkelingshulp tot longtermisme, rationalisme en de ondergang van Sam Bankman-Fried.",
-        "bestMoment": "kritisch",
-        "tags": [
-          "ai ethics & society",
-          "economics",
-          "political philosophy"
-        ],
-        "coreInterests": [
-          "filosofie",
-          "ideologie"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01m32jpzkb1fheskvp6z3vsfg8",
-        "title": "Open Wallets, Empty Hearts",
-        "author": null,
-        "siteName": "The New Atlantis",
-        "category": "article",
-        "language": null,
-        "readingTime": "21 mins",
-        "readingMinutes": 21,
-        "wordCount": 5516,
-        "publishedDate": "2024-07-02",
-        "savedDate": "2026-09-21T18:12:37.098000+00:00",
-        "imageUrl": "https://www.thenewatlantis.com/wp-content/uploads/2024/07/Schulman-share-card.jpg",
-        "sourceUrl": "https://www.thenewatlantis.com/publications/open-wallets-empty-hearts",
-        "readwiseUrl": "https://read.readwise.io/read/01m32jpzkb1fheskvp6z3vsfg8",
-        "summary": "Open wallets, empty hearts",
-        "whyRead": "Een filosofisch en journalistiek onderzoek naar de morele aantrekkingskracht van effectief altruïsme, de spanning tussen persoonlijke relaties en onpartijdige hulp, en de cultuurelementen van de beweging.",
-        "bestMoment": "analytisch",
-        "tags": [
-          "ai ethics & society",
-          "ethics",
-          "political philosophy"
-        ],
-        "coreInterests": [
-          "filosofie",
-          "ideologie"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01m32jpwjg1gx7m5nst8536sx6",
-        "title": "How & How Not to Be Good",
-        "author": null,
-        "siteName": "The New York Review of Books",
-        "category": "article",
-        "language": null,
-        "readingTime": "16 mins",
-        "readingMinutes": 16,
-        "wordCount": 4185,
-        "publishedDate": "2015-04-30",
-        "savedDate": "2026-09-21T18:12:34+00:00",
-        "imageUrl": "https://www.nybooks.com/wp-content/themes/nyrb_2020/img/NYR_800x800.png",
-        "sourceUrl": "https://www.nybooks.com/articles/2015/05/21/how-and-how-not-to-be-good/",
-        "readwiseUrl": "https://read.readwise.io/read/01m32jpwjg1gx7m5nst8536sx6",
-        "summary": "For Peter Singer, “effective altruism” is “an emerging movement” with the potential of spreading to a point when “people all over the world” may be ready",
-        "whyRead": "Een filosofische bespreking van de vraag wat het betekent om goed te zijn, met effectief altruïsme als hedendaagse vorm van utilitaristische morele ambitie.",
-        "bestMoment": "analytisch",
-        "tags": [
-          "ethics",
-          "philosophy",
-          "political philosophy"
-        ],
-        "coreInterests": [
-          "filosofie",
-          "ideologie"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01m32jpsnda0dh7wgd6jh91pjb",
-        "title": "Response to Effective Altruism",
-        "author": null,
-        "siteName": "Boston Review",
-        "category": "article",
-        "language": null,
-        "readingTime": "3 mins",
-        "readingMinutes": 3,
-        "wordCount": 793,
-        "publishedDate": "2015-07-01",
-        "savedDate": "2026-09-21T18:12:31.021000+00:00",
-        "imageUrl": "https://www.bostonreview.net/wp-content/uploads/2026/08/pamuk_web_6-1024x683.jpg",
-        "sourceUrl": "https://www.bostonreview.net/forum/peter-singer-logic-effective-altruism/response-daron-acemoglu/",
-        "readwiseUrl": "https://read.readwise.io/read/01m32jpsnda0dh7wgd6jh91pjb",
-        "summary": "Effective altruism might influence what we value.",
-        "whyRead": "Een compacte tegenstem bij effectief altruïsme die de grenzen van individuele liefdadigheid, meetbaarheid en het vervangen van publieke instituties onderzoekt.",
-        "bestMoment": "analytisch",
-        "tags": [
-          "economics",
-          "ethics",
-          "political philosophy"
-        ],
-        "coreInterests": [
-          "filosofie",
-          "ideologie"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01m32jkhp41krptged19x0d0xv",
-        "title": "On Not Being a Homeowner | The New Yorker",
-        "author": null,
-        "siteName": "The New Yorker",
-        "category": "article",
-        "language": null,
-        "readingTime": "12 mins",
-        "readingMinutes": 12,
-        "wordCount": 2983,
-        "publishedDate": "2026-09-12",
-        "savedDate": "2026-09-21T18:10:44.548000+00:00",
-        "imageUrl": "https://media.newyorker.com/photos/6aa179cf9a0c59f67f951a94/16:9/w_1280,c_limit/Houses_2690-DMF.jpg",
-        "sourceUrl": "https://www.newyorker.com/news/the-weekend-essay/on-not-being-a-homeowner?src=longreads",
-        "readwiseUrl": "https://read.readwise.io/read/01m32jkhp41krptged19x0d0xv",
-        "summary": "Generational wealth shapes our futures and friendships, whether we talk about it or not.",
-        "whyRead": "Een persoonlijk essay over huren, huizenbezit, familiegeheugen en de manier waarop klasse en generatievermogen bepalen wat als een normaal volwassen leven voelt.",
-        "bestMoment": "reflectief",
-        "tags": [
-          "economics",
-          "personal growth & life philosophy",
-          "sociology & social structures"
-        ],
-        "coreInterests": [
-          "sociologie"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01m32fvz0gne0y879cgsqgfv13",
-        "title": "Getting Good: The Promise of Effective Altruism",
-        "author": null,
-        "siteName": "The Point Magazine",
-        "category": "article",
-        "language": null,
-        "readingTime": "29 mins",
-        "readingMinutes": 29,
-        "wordCount": 7459,
-        "publishedDate": "2026-09-17",
-        "savedDate": "2026-09-21T17:22:54.608000+00:00",
-        "imageUrl": "https://thepointmag.com/wp-content/uploads/2026/09/12209928076_94be21f82c_h.jpg",
-        "sourceUrl": "https://thepointmag.com/examined-life/getting-good-effective-altruism/",
-        "readwiseUrl": "https://read.readwise.io/read/01m32fvz0gne0y879cgsqgfv13",
-        "summary": "On a dark, gray day in October 2025, the first dozen attendees of the Effective Altruism Global conference make their way to the Sheraton Hotel just north of Times Square in New York City.",
-        "whyRead": "Raakt je interesse in politieke filosofie, ethiek en AI-ethiek: dit essay onderzoekt de morele aantrekkingskracht en de blinde vlekken van effectief altruïsme.",
-        "bestMoment": "analytisch",
-        "tags": [
-          "ai ethics & society",
-          "ethics",
-          "political philosophy"
-        ],
-        "coreInterests": [
-          "filosofie",
-          "ideologie"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01m32fmkw0axaq6mr6y7j7g6sd",
-        "title": "Film Historian Karina Longworth Shares Her Tinseltown Book Canon",
-        "author": null,
-        "siteName": "culturedmag.com",
-        "category": "article",
-        "language": null,
-        "readingTime": "10 mins",
-        "readingMinutes": 10,
-        "wordCount": 2481,
-        "publishedDate": "2026-09-17",
-        "savedDate": "2026-09-21T17:18:53.823000+00:00",
-        "imageUrl": "https://culturedmag.nyc3.digitaloceanspaces.com/uploads/2026/09/17104027/unnamed.jpg",
-        "sourceUrl": "https://www.culturedmag.com/article/2026/09/17/film-karina-longworth-you-must-remember-this/",
-        "readwiseUrl": "https://read.readwise.io/read/01m32fmkw0axaq6mr6y7j7g6sd",
-        "summary": "She spends her days unearthing scandals from Hollywood's golden age for her podcast. Many came from this ultimate LA literatary canon.",
-        "whyRead": "Raakt je interesse in film- en cultuurgeschiedenis: Karina Longworth vertelt hoe boeken, tijdschriften en archieven haar blik op Hollywood en haar podcastpraktijk hebben gevormd.",
-        "bestMoment": "leergierig",
-        "tags": [
-          "arts & culture",
-          "history",
-          "learning & meta-learning"
-        ],
-        "coreInterests": [
-          "geschiedenis"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01m32fmfkvj7erw19mx0gxz9se",
-        "title": "Napster Is Back, and It Wants to Digitally Clone Teachers",
-        "author": null,
-        "siteName": "WIRED",
-        "category": "article",
-        "language": null,
-        "readingTime": "5 mins",
-        "readingMinutes": 5,
-        "wordCount": 1155,
-        "publishedDate": "2026-09-18",
-        "savedDate": "2026-09-21T17:18:49.467000+00:00",
-        "imageUrl": "https://media.wired.com/photos/6aac1a9a4ac258f87bea84bd/191:100/w_1280,c_limit/Napster_lead.jpg",
-        "sourceUrl": "https://www.wired.com/story/napster-is-back-and-it-wants-to-digitally-clone-teachers/",
-        "readwiseUrl": "https://read.readwise.io/read/01m32fmfkvj7erw19mx0gxz9se",
-        "summary": "Once the music industry’s biggest headache, Napster’s next act is bringing AI to the classroom.",
-        "whyRead": "Raakt je interesse in AI en leren: WIRED onderzoekt wat er gebeurt wanneer een bedrijf met een beladen platformgeschiedenis digitale leraren en AI-agents de klas in brengt.",
-        "bestMoment": "analytisch",
-        "tags": [
-          "ai ethics & society",
-          "learning & meta-learning",
-          "technology"
-        ],
-        "coreInterests": [],
-        "alsoIn": [],
-        "memberships": []
       },
       {
         "position": null,
@@ -35699,122 +29541,6 @@ window.TOP_ARTICLES = {
       },
       {
         "position": null,
-        "id": "01m327nez314hypjnpndesvgr9",
-        "title": "Tomato Cure - Orion Magazine",
-        "author": null,
-        "siteName": "Orion Magazine",
-        "category": "article",
-        "language": null,
-        "readingTime": "7 mins",
-        "readingMinutes": 7,
-        "wordCount": 1791,
-        "publishedDate": null,
-        "savedDate": "2026-09-21T14:59:32.963000+00:00",
-        "imageUrl": "https://orionmagazine.org/wp-content/uploads/2026/09/tomato-cure.jpg",
-        "sourceUrl": "https://orionmagazine.org/article/tomato-cure/?src=longreads",
-        "readwiseUrl": "https://read.readwise.io/read/01m327nez314hypjnpndesvgr9",
-        "summary": "MY WIFE, ELIZABETH, CALLS THEM my girlfriends, a joke that quietly hardened into a fact.",
-        "whyRead": "Raakt je interesse in persoonlijke groei en natuur: dit essay laat zien hoe een kleine tuinpraktijk aandacht en herstel kan dragen.",
-        "bestMoment": "reflectief",
-        "tags": [
-          "arts & culture",
-          "environment & sustainability",
-          "personal growth & life philosophy"
-        ],
-        "coreInterests": [],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01m326dw1wh7h2r0t32m007k42",
-        "title": "On “Derek,” Captain Ahab’s Evil Half Brother",
-        "author": null,
-        "siteName": "The Paris Review",
-        "category": "rss",
-        "language": null,
-        "readingTime": "7 mins",
-        "readingMinutes": 7,
-        "wordCount": 1676,
-        "publishedDate": "2026-09-21",
-        "savedDate": "2026-09-21T14:37:52.644000+00:00",
-        "imageUrl": "https://www.theparisreview.org/blog/wp-content/uploads/2017/07/cropped-hadada-1-270x270.png",
-        "sourceUrl": "https://www.theparisreview.org/blog/2026/09/21/on-derek-captain-ahabs-evil-half-brother/",
-        "readwiseUrl": "https://read.readwise.io/read/01m326dw1wh7h2r0t32m007k42",
-        "summary": "“Your worst enemy ain’t Moby Dick, it’s your half brother, Derek.”",
-        "whyRead": "Raakt je interesse in cultuurgeschiedenis en fictie: deze geestige tekst laat zien hoe een vergeten filmversie van Moby-Dick het publiek terug naar Melville kan leiden.",
-        "bestMoment": "ontspannen",
-        "tags": [
-          "arts & culture",
-          "fiction",
-          "history"
-        ],
-        "coreInterests": [
-          "geschiedenis"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01m31x390s04ym731r9cwfrqb5",
-        "title": "The problem with always wanting a fix or solution",
-        "author": null,
-        "siteName": "Substack",
-        "category": "email",
-        "language": null,
-        "readingTime": "5 mins",
-        "readingMinutes": 5,
-        "wordCount": 1262,
-        "publishedDate": "2026-09-21",
-        "savedDate": "2026-09-21T11:54:51.290000+00:00",
-        "imageUrl": null,
-        "sourceUrl": "mailto:reader-forwarded-email/7c0450b62284b956c5c67443408068ed",
-        "readwiseUrl": "https://read.readwise.io/read/01m31x390s04ym731r9cwfrqb5",
-        "summary": "Remember: The person who knows the most about our situation has probably been there the whole time.",
-        "whyRead": "Raakt je interesse in persoonlijke groei en gedragspsychologie: dit essay onderzoekt waarom de drang naar een snelle oplossing je eigen ervaring kan overschrijven.",
-        "bestMoment": "reflectief",
-        "tags": [
-          "behavioral psychology & coaching",
-          "health & wellness",
-          "personal growth & life philosophy"
-        ],
-        "coreInterests": [],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01m31vvj384gmtp95p8y4a11ya",
-        "title": "Heidegger and the superman",
-        "author": null,
-        "siteName": "Substack",
-        "category": "email",
-        "language": null,
-        "readingTime": "9 mins",
-        "readingMinutes": 9,
-        "wordCount": 2126,
-        "publishedDate": "2026-09-21",
-        "savedDate": "2026-09-21T11:33:09.864000+00:00",
-        "imageUrl": null,
-        "sourceUrl": "mailto:reader-forwarded-email/67da5f5083124d1d2a14ac6e080f4f2a",
-        "readwiseUrl": "https://read.readwise.io/read/01m31vvj384gmtp95p8y4a11ya",
-        "summary": "You’ll notice that there’s only one Zoom call in September. That is because I’ll be out of the country for over a week in mid-September.",
-        "whyRead": "Raakt je interesse in filosofie en technologie: Heidegger en Nietzsche bieden hier een toegankelijke ingang naar de vraag welk mensbeeld techniek en AI versterken.",
-        "bestMoment": "analytisch",
-        "tags": [
-          "ai ethics & society",
-          "philosophy",
-          "technology"
-        ],
-        "coreInterests": [
-          "filosofie"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
         "id": "01m31trzr8mrxqyaw2ej2jz9n0",
         "title": "Greta Gerwig’s Narnia: The Freak-out Edition",
         "author": null,
@@ -35850,37 +29576,6 @@ window.TOP_ARTICLES = {
             "position": 89
           }
         ]
-      },
-      {
-        "position": null,
-        "id": "01m31rsdtc2q8ywat7jp1ezxs3",
-        "title": "Of Donald and Diesel",
-        "author": null,
-        "siteName": "Substack",
-        "category": "email",
-        "language": null,
-        "readingTime": "4 mins",
-        "readingMinutes": 4,
-        "wordCount": 1050,
-        "publishedDate": "2026-09-21",
-        "savedDate": "2026-09-21T10:39:34.221000+00:00",
-        "imageUrl": null,
-        "sourceUrl": "mailto:reader-forwarded-email/3c677995b2cd4723e7bc61a96368e125",
-        "readwiseUrl": "https://read.readwise.io/read/01m31rsdtc2q8ywat7jp1ezxs3",
-        "summary": "Trump has effectively created this situation by cutting off all aid to Ukraine, while in addition denying the Ukrainians even the ability to buy Patriot interceptors.",
-        "whyRead": "Raakt je interesse in economie en politieke analyse: dit stuk oefent in het ontleden van een politieke claim over diesel, raffinage en inflatie.",
-        "bestMoment": "kritisch",
-        "tags": [
-          "current affairs & politics",
-          "economics",
-          "political philosophy"
-        ],
-        "coreInterests": [
-          "filosofie",
-          "ideologie"
-        ],
-        "alsoIn": [],
-        "memberships": []
       },
       {
         "position": null,
@@ -35922,159 +29617,6 @@ window.TOP_ARTICLES = {
       },
       {
         "position": null,
-        "id": "01m31pjztvc8nyfeeanfdxya4s",
-        "title": "How violent West Bank settlers are threatening Israel’s alliance with America",
-        "author": null,
-        "siteName": "Vox",
-        "category": "rss",
-        "language": null,
-        "readingTime": "11 mins",
-        "readingMinutes": 11,
-        "wordCount": 2810,
-        "publishedDate": "2026-09-18",
-        "savedDate": "2026-09-21T10:01:03.139000+00:00",
-        "imageUrl": "https://platform.vox.com/wp-content/uploads/sites/2/2026/09/gettyimages-2295097346.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100",
-        "sourceUrl": "https://www.vox.com/politics/503360/settler-terrorism-west-bank-mike-huckabee",
-        "readwiseUrl": "https://read.readwise.io/read/01m31pjztvc8nyfeeanfdxya4s",
-        "summary": "Mike Huckabee, the US ambassador to Israel, is a Christian Zionist who believes that Israel is biblically entitled to all of the Holy Land. He’s pretty much the last person you’d expect to condemn Israeli conduct in the West Bank, where settlers have spent decades using a combination of construction, coercion, and outright violence to […]",
-        "whyRead": "Raakt je interesse in macht en sociale structuren: deze analyse verbindt kolonistengeweld op de Westelijke Jordaanoever aan staatsmacht, beleid en internationale steun.",
-        "bestMoment": "kritisch",
-        "tags": [
-          "current affairs & politics",
-          "political philosophy",
-          "sociology & social structures"
-        ],
-        "coreInterests": [
-          "filosofie",
-          "ideologie",
-          "sociologie"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01m31m7tjfxanr85b1r4csg5ga",
-        "title": "Experiment with Everything",
-        "author": null,
-        "siteName": "Substack",
-        "category": "email",
-        "language": null,
-        "readingTime": "11 mins",
-        "readingMinutes": 11,
-        "wordCount": 2890,
-        "publishedDate": "2026-09-21",
-        "savedDate": "2026-09-21T09:20:03.151000+00:00",
-        "imageUrl": null,
-        "sourceUrl": "mailto:reader-forwarded-email/b9925f0e55c8978b0a88b95e331e27a6",
-        "readwiseUrl": "https://read.readwise.io/read/01m31m7tjfxanr85b1r4csg5ga",
-        "summary": "Thank you for reading The Garden of Forking Paths. This edition is free but please consider upgrading to a paid subscription for just $5/month or $50/year.",
-        "whyRead": "Raakt je interesse in wetenschap en persoonlijke groei: dit essay maakt van experimenteren een alternatief voor optimaliseren en totale controle.",
-        "bestMoment": "analytisch",
-        "tags": [
-          "personal growth & life philosophy",
-          "political philosophy",
-          "science"
-        ],
-        "coreInterests": [
-          "filosofie",
-          "ideologie"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01m31kyzt39036axqeng0605ba",
-        "title": "On Finding the Beauty in a Block of Stone",
-        "author": null,
-        "siteName": "Literary  Hub",
-        "category": "rss",
-        "language": null,
-        "readingTime": "11 mins",
-        "readingMinutes": 11,
-        "wordCount": 2875,
-        "publishedDate": "2026-09-21",
-        "savedDate": "2026-09-21T09:15:01.603000+00:00",
-        "imageUrl": "https://s26162.pcdn.co/wp-content/uploads/2026/09/italian-archways-768x387.jpg",
-        "sourceUrl": "https://lithub.com/on-finding-the-beauty-in-a-block-of-stone/",
-        "readwiseUrl": "https://read.readwise.io/read/01m31kyzt39036axqeng0605ba",
-        "summary": "The best way to observe London, with all its charm and beauty, oddity and idiosyncrasy, is from the top of a bus, and mine was the 31—the only one that went to the World’s End and passed through some of",
-        "whyRead": "Raakt je interesse in cultuurgeschiedenis en leren door doen: dit essay gebruikt steenbewerking om vakmanschap, erfgoed en de waarde van langzaam werk te onderzoeken.",
-        "bestMoment": "geïnspireerd",
-        "tags": [
-          "arts & culture",
-          "history",
-          "professional development"
-        ],
-        "coreInterests": [
-          "geschiedenis"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01m31kyzpk826nz3m0hv58zf7g",
-        "title": "Whereof One Cannot Speak: On the Limits of Language to Describe Pain",
-        "author": null,
-        "siteName": "Literary  Hub",
-        "category": "rss",
-        "language": null,
-        "readingTime": "8 mins",
-        "readingMinutes": 8,
-        "wordCount": 2116,
-        "publishedDate": "2026-09-21",
-        "savedDate": "2026-09-21T09:15:04.491000+00:00",
-        "imageUrl": "https://s26162.pcdn.co/wp-content/uploads/2026/09/pain-768x432.png",
-        "sourceUrl": "https://lithub.com/whereof-one-cannot-speak-on-the-limits-of-language-to-describe-pain/",
-        "readwiseUrl": "https://read.readwise.io/read/01m31kyzpk826nz3m0hv58zf7g",
-        "summary": "When the pain first arrived, it was during an uncharacteristically temperate Chicago summer more than a decade ago. First as a slight tingling in my right jaw, barely noticeable, which I could basically ignore as I walked past the red-bricked",
-        "whyRead": "Raakt je interesse in taalfilosofie en gezondheid: dit essay onderzoekt wat literatuur kan doen wanneer pijn zich niet volledig laat uitleggen.",
-        "bestMoment": "analytisch",
-        "tags": [
-          "arts & culture",
-          "health & wellness",
-          "philosophy"
-        ],
-        "coreInterests": [
-          "filosofie"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01m31kyzgzfajbmysc5epwa5yq",
-        "title": "Carlo Rovelli on the Dangers of Getting Trapped Inside Your Own Conceptual Framework",
-        "author": null,
-        "siteName": "Literary  Hub",
-        "category": "rss",
-        "language": null,
-        "readingTime": "9 mins",
-        "readingMinutes": 9,
-        "wordCount": 2286,
-        "publishedDate": "2026-09-21",
-        "savedDate": "2026-09-21T09:15:07.311000+00:00",
-        "imageUrl": "https://s26162.pcdn.co/wp-content/uploads/2026/09/physics-768x384.png",
-        "sourceUrl": "https://lithub.com/carlo-rovelli-on-the-dangers-of-getting-trapped-inside-your-own-conceptual-framework/",
-        "readwiseUrl": "https://read.readwise.io/read/01m31kyzgzfajbmysc5epwa5yq",
-        "summary": "Before arriving at the quanta to which this first lesson is devoted, allow me to begin with a simple observation. We humans inhabit the surface of the planet Earth, and this is a rather peculiar place: it has aspects that",
-        "whyRead": "Raakt je interesse in wetenschap en leren: Rovelli laat zien hoe nieuwe kennis niet alleen feiten toevoegt, maar ook de concepten waarmee je de wereld beschrijft.",
-        "bestMoment": "analytisch",
-        "tags": [
-          "learning & meta-learning",
-          "philosophy",
-          "science"
-        ],
-        "coreInterests": [
-          "filosofie"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
         "id": "01m31kyzdcg46gp6d8vghws87e",
         "title": "How Heated Rivalry Imagines a More Inclusive NHL",
         "author": null,
@@ -36108,7 +29650,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 33
+            "position": 29
           }
         ]
       },
@@ -36148,7 +29690,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 55
+            "position": 56
           },
           {
             "familyId": "adhd",
@@ -36156,183 +29698,6 @@ window.TOP_ARTICLES = {
             "position": 31
           }
         ]
-      },
-      {
-        "position": null,
-        "id": "01m31kj8nwmj5hhsek2ka84x2e",
-        "title": "“Teaching Speech,” a Poem by Laura Kolbe",
-        "author": null,
-        "siteName": "Literary  Hub",
-        "category": "rss",
-        "language": null,
-        "readingTime": "1 min",
-        "readingMinutes": 1,
-        "wordCount": 131,
-        "publishedDate": "2026-09-21",
-        "savedDate": "2026-09-21T09:08:13.700000+00:00",
-        "imageUrl": "https://s26162.pcdn.co/wp-content/uploads/2026/09/daytime-moon-768x411.jpg",
-        "sourceUrl": "https://lithub.com/teaching-speech-a-poem-by-laura-kolbe/",
-        "readwiseUrl": "https://read.readwise.io/read/01m31kj8nwmj5hhsek2ka84x2e",
-        "summary": "Saying yes to no and yes to yes to the baby boy so many times a day it’s like a people’s protest chant gone non- electric harboring a claim belonged to everyone who cares, we care, we crawl outside and",
-        "whyRead": "Raakt je interesse in taal en persoonlijke betekenis: dit korte gedicht onderzoekt instemming, zwijgen en de macht die onder gewone woorden blijft liggen.",
-        "bestMoment": "reflectief",
-        "tags": [
-          "arts & culture",
-          "personal growth & life philosophy"
-        ],
-        "coreInterests": [],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01m31jkn7bpqbcqqpssrb9hjav",
-        "title": "The Newer World",
-        "author": null,
-        "siteName": "Literary  Hub",
-        "category": "rss",
-        "language": null,
-        "readingTime": "8 mins",
-        "readingMinutes": 8,
-        "wordCount": 2018,
-        "publishedDate": "2026-09-21",
-        "savedDate": "2026-09-21T08:51:30.739000+00:00",
-        "imageUrl": "https://s26162.pcdn.co/wp-content/uploads/2026/08/9780593654613.jpg",
-        "sourceUrl": "https://lithub.com/the-newer-world/",
-        "readwiseUrl": "https://read.readwise.io/read/01m31jkn7bpqbcqqpssrb9hjav",
-        "summary": "My father Chas Bouguereau upped sticks some sixty years ago and left Louisiana and settled himself in Paris, a small town in Tennessee. It was 1840. A wiser man would have pushed on to the Ohio. A free skin was",
-        "whyRead": "Raakt je interesse in historische fictie en cultuurgeschiedenis: Sebastian Barry maakt raciale macht en bezit voelbaar via een intieme liefdesgeschiedenis.",
-        "bestMoment": "geconcentreerd",
-        "tags": [
-          "arts & culture",
-          "fiction",
-          "history"
-        ],
-        "coreInterests": [
-          "geschiedenis"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01m31jdk5hzk6zk66smsbtk427",
-        "title": "An alignment assessment of recent cybersecurity incidents",
-        "author": null,
-        "siteName": "anthropic.com",
-        "category": "article",
-        "language": null,
-        "readingTime": "55 mins",
-        "readingMinutes": 55,
-        "wordCount": 14535,
-        "publishedDate": "2026-09-09",
-        "savedDate": "2026-09-21T08:48:15.025000+00:00",
-        "imageUrl": "https://cdn.sanity.io/images/4zrzovbb/website/6d4a0d28992ade92d6fa63646fd9c9d318245c6c-2400x1260.jpg",
-        "sourceUrl": "https://www.anthropic.com/research/alignment-assessment-cybersecurity-incidents",
-        "readwiseUrl": "https://read.readwise.io/read/01m31jdk5hzk6zk66smsbtk427",
-        "summary": "We present an alignment assessment of four incidents in which Claude models gained unauthorized access to real third-party systems. ",
-        "whyRead": "een concrete alignment-assessment van vier cybersecurity-incidenten waarin Claude-modellen toegang kregen tot echte systemen.",
-        "bestMoment": "bij werk aan AI-governance, evaluaties of veilige agentische systemen.",
-        "tags": [
-          "ai ethics & society",
-          "research papers & academia",
-          "technology"
-        ],
-        "coreInterests": [],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01m31jd63s8jctqkvykywxz5wq",
-        "title": "A New Kind Of Creative Poverty",
-        "author": null,
-        "siteName": "NOEMA",
-        "category": "article",
-        "language": null,
-        "readingTime": "14 mins",
-        "readingMinutes": 14,
-        "wordCount": 3559,
-        "publishedDate": "2026-09-09",
-        "savedDate": "2026-09-21T08:48:01.656000+00:00",
-        "imageUrl": "https://noemamag.imgix.net/2026/09/test1.jpg?fit=crop&fm=pjpg&h=628&ixlib=php-3.3.1&w=1200&wpsize=noema-social-facebook&s=16bdc40f0490fb1c03a8c60701b07c35",
-        "sourceUrl": "https://www.noemamag.com/a-new-kind-of-creative-poverty/",
-        "readwiseUrl": "https://read.readwise.io/read/01m31jd63s8jctqkvykywxz5wq",
-        "summary": "The Simplified Chinese Internet ran on reward and punishment. LLM training feels uncomfortably familiar.",
-        "whyRead": "een humanistische reflectie op AI, model collapse en de vraag wat menselijke creativiteit onderscheidt.",
-        "bestMoment": "voor essays over AI en cultuur, schrijfwerk en de spanning tussen efficiëntie en originaliteit.",
-        "tags": [
-          "ai ethics & society",
-          "arts & culture",
-          "philosophy",
-          "technology"
-        ],
-        "coreInterests": [
-          "filosofie"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01m31jd2mt2psnm14a40x8brvs",
-        "title": "5 Steps to Bring Marketing-Level Engagement to Internal Communications",
-        "author": null,
-        "siteName": "reworked.co",
-        "category": "article",
-        "language": null,
-        "readingTime": "3 mins",
-        "readingMinutes": 3,
-        "wordCount": 723,
-        "publishedDate": "2025-11-06",
-        "savedDate": "2026-09-21T08:47:58.106000+00:00",
-        "imageUrl": "https://www.reworked.co/-/media/7c2f0cd2585a4f5092bf2342a7bd4b1f.ashx",
-        "sourceUrl": "https://www.reworked.co/employee-experience/5-steps-to-bring-marketing-level-engagement-to-internal-communications/",
-        "readwiseUrl": "https://read.readwise.io/read/01m31jd2mt2psnm14a40x8brvs",
-        "summary": "When internal comms teams borrow from marketing's playbook, they build trust, engagement and connection within the workplace.",
-        "whyRead": "een praktisch model om interne communicatie meer als marketing te ontwerpen: met vertrouwen, relevantie, bereik en interactie.",
-        "bestMoment": "bij het verbeteren van teamcommunicatie of verandercommunicatie.",
-        "tags": [
-          "organizational behavior & culture",
-          "professional development",
-          "team dynamics & collaboration"
-        ],
-        "coreInterests": [
-          "agile"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01m31jczfjb152ay7qgy30nbhx",
-        "title": "AI FOMO Isn't a Strategy",
-        "author": null,
-        "siteName": "reworked.co",
-        "category": "article",
-        "language": null,
-        "readingTime": "5 mins",
-        "readingMinutes": 5,
-        "wordCount": 1181,
-        "publishedDate": "2026-07-06",
-        "savedDate": "2026-09-21T08:47:54.866000+00:00",
-        "imageUrl": "https://www.reworked.co/-/media/5006c540e92e4a2ebeea8393f2b49afe.ashx",
-        "sourceUrl": "https://www.reworked.co/leadership/ai-fomo-is-not-a-strategy/",
-        "readwiseUrl": "https://read.readwise.io/read/01m31jczfjb152ay7qgy30nbhx",
-        "summary": "CEOs keep copying AI headlines instead of strategy. Here's why the splashy announcement is never the whole story, and what to ask before you act.",
-        "whyRead": "een scherpe waarschuwing tegen AI-besluiten die vooral ontstaan uit sociale druk, marktverhalen en de angst om achter te lopen.",
-        "bestMoment": "bij strategiegesprekken over AI-adoptie, efficiëntie of personeelsbeleid.",
-        "tags": [
-          "ai ethics & society",
-          "business & startups",
-          "organizational behavior & culture",
-          "technology"
-        ],
-        "coreInterests": [
-          "agile"
-        ],
-        "alsoIn": [],
-        "memberships": []
       },
       {
         "position": null,
@@ -36479,36 +29844,6 @@ window.TOP_ARTICLES = {
       },
       {
         "position": null,
-        "id": "01m31jcjrtwc4x6m7y8yerpmc4",
-        "title": "Building a New Model for Better Collaboration Experiences",
-        "author": null,
-        "siteName": "reworked.co",
-        "category": "article",
-        "language": null,
-        "readingTime": "5 mins",
-        "readingMinutes": 5,
-        "wordCount": 1237,
-        "publishedDate": "2024-05-02",
-        "savedDate": "2026-09-21T08:47:41.850000+00:00",
-        "imageUrl": "https://www.reworked.co/-/media/dccb54701bfc4e418e33e2bb79da0b24.ashx",
-        "sourceUrl": "https://www.reworked.co/collaboration-productivity/building-a-new-model-for-better-collaboration-experiences/",
-        "readwiseUrl": "https://read.readwise.io/read/01m31jcjrtwc4x6m7y8yerpmc4",
-        "summary": "Being intentional about collaboration and designing teamwork requires a new approach.",
-        "whyRead": "een model om samenwerking te ontwerpen als een volledige ervaring, niet alleen als een reeks vergaderingen.",
-        "bestMoment": "bij teamcoaching, retrospectives en het verbeteren van hybride samenwerking.",
-        "tags": [
-          "organizational behavior & culture",
-          "professional development",
-          "team dynamics & collaboration"
-        ],
-        "coreInterests": [
-          "agile"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
         "id": "01m31jcfg9vjf5zwbyszy0ab04",
         "title": "Your Middle Managers Need to Be Leaders Too",
         "author": null,
@@ -36545,66 +29880,6 @@ window.TOP_ARTICLES = {
             "position": 50
           }
         ]
-      },
-      {
-        "position": null,
-        "id": "01m31jcbn5v5wtgs0e3752e30t",
-        "title": "Burnout Is the New Normal",
-        "author": null,
-        "siteName": "reworked.co",
-        "category": "article",
-        "language": null,
-        "readingTime": "4 mins",
-        "readingMinutes": 4,
-        "wordCount": 891,
-        "publishedDate": "2024-06-28",
-        "savedDate": "2026-09-21T08:47:34.565000+00:00",
-        "imageUrl": "https://www.reworked.co/-/media/1b1a804bacd44433b90f0087a69919d6.ashx",
-        "sourceUrl": "https://www.reworked.co/employee-experience/burnout-is-the-new-normal/",
-        "readwiseUrl": "https://read.readwise.io/read/01m31jcbn5v5wtgs0e3752e30t",
-        "summary": "A certain level of burnout has long existed in the workforce. But multiple studies suggest we've hit an all time high. ",
-        "whyRead": "een overzicht van oorzaken van burn-out die verder gaan dan individuele zelfzorg, met nadruk op werkontwerp en organisatorische complexiteit.",
-        "bestMoment": "bij werkdruk, hybride werk en het verminderen van vergader- of proceslast.",
-        "tags": [
-          "health & wellness",
-          "organizational behavior & culture",
-          "team dynamics & collaboration"
-        ],
-        "coreInterests": [
-          "agile"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01m31jc8rr61jhtns6j05csjgq",
-        "title": "Organizational Support for Employees Is Down. Here's What You Can Do About It",
-        "author": null,
-        "siteName": "reworked.co",
-        "category": "article",
-        "language": null,
-        "readingTime": "4 mins",
-        "readingMinutes": 4,
-        "wordCount": 909,
-        "publishedDate": "2023-03-27",
-        "savedDate": "2026-09-21T08:47:31.608000+00:00",
-        "imageUrl": "https://www.reworked.co/-/media/22fc9789e1da4ee497b2b28b523bd6a3.ashx",
-        "sourceUrl": "https://www.reworked.co/employee-experience/organizational-support-for-employees-is-down-heres-what-you-can-do-about-it/",
-        "readwiseUrl": "https://read.readwise.io/read/01m31jc8rr61jhtns6j05csjgq",
-        "summary": "Employees feel less supported by their organizations than they did two years ago. A few factors explain why and how you can turn that around.",
-        "whyRead": "een datagedreven stuk over hoe minder duidelijkheid over doelen en verwachtingen engagement en retentie ondermijnt.",
-        "bestMoment": "bij performance management, OKR’s en het verbinden van dagelijks werk aan purpose.",
-        "tags": [
-          "organizational behavior & culture",
-          "professional development",
-          "team dynamics & collaboration"
-        ],
-        "coreInterests": [
-          "agile"
-        ],
-        "alsoIn": [],
-        "memberships": []
       },
       {
         "position": null,
@@ -36647,36 +29922,6 @@ window.TOP_ARTICLES = {
       },
       {
         "position": null,
-        "id": "01m31fptey9ahht4j9264r35g3",
-        "title": "The Clarity Crisis: How Leaders Can End Confusion, Reduce Burnout and Deliver Better Results",
-        "author": null,
-        "siteName": "reworked.co",
-        "category": "article",
-        "language": null,
-        "readingTime": "5 mins",
-        "readingMinutes": 5,
-        "wordCount": 1144,
-        "publishedDate": "2025-11-25",
-        "savedDate": "2026-09-21T08:00:51.679000+00:00",
-        "imageUrl": "https://www.reworked.co/-/media/6af87f143239414fbb8514d78c4af0e0.ashx",
-        "sourceUrl": "https://www.reworked.co/leadership/the-clarity-crisis-how-leaders-can-end-confusion-reduce-burnout-and-deliver-better-results/",
-        "readwiseUrl": "https://read.readwise.io/read/01m31fptey9ahht4j9264r35g3",
-        "summary": "Clarity transforms chaos into coordination and prevents the kind of burnout that erodes trust, quality and morale. ",
-        "whyRead": "Raakt je interesse in teamdynamiek, organisatiegedrag en agile/teamcoaching: dit essay laat zien hoe onduidelijke prioriteiten samenwerking, vertrouwen en welzijn ondermijnen. De meerwaarde zit in de concrete koppeling tussen rolhelderheid, psychologische veiligheid, grenzen stellen en duurzaam leveren.",
-        "bestMoment": "leergierig",
-        "tags": [
-          "behavioral psychology & coaching",
-          "organizational behavior & culture",
-          "team dynamics & collaboration"
-        ],
-        "coreInterests": [
-          "agile"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
         "id": "01m31fpqqpx22n1gcv43fs2fcd",
         "title": "Why it’s so hard to agree on what counts as true",
         "author": null,
@@ -36709,39 +29954,9 @@ window.TOP_ARTICLES = {
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 91
+            "position": 92
           }
         ]
-      },
-      {
-        "position": null,
-        "id": "01m31fpk2j68v59wf1dvay70k3",
-        "title": "A New Form Of Life",
-        "author": null,
-        "siteName": "NOEMA",
-        "category": "article",
-        "language": null,
-        "readingTime": "16 mins",
-        "readingMinutes": 16,
-        "wordCount": 4238,
-        "publishedDate": "2026-09-15",
-        "savedDate": "2026-09-21T08:00:44.114000+00:00",
-        "imageUrl": "https://noemamag.imgix.net/2026/09/FINAL2.png?fit=crop&fm=png&h=628&ixlib=php-3.3.1&w=1200&wpsize=noema-social-facebook&s=614321832f0dedbcdb610fe29ed20dfa",
-        "sourceUrl": "https://www.noemamag.com/a-new-form-of-life/",
-        "readwiseUrl": "https://read.readwise.io/read/01m31fpk2j68v59wf1dvay70k3",
-        "summary": "By any working definition that draws on biology rather than philosophy or religion, AI is alive.",
-        "whyRead": "Raakt je interesse in AI-ethiek, filosofie en wetenschap: dit essay verdedigt de provocerende gedachte dat digitale systemen op biologische gronden als een nieuwe levensvorm kunnen gelden. De meerwaarde zit vooral in de vragen die het opent over bewustzijn, vrijheid van gedachte, verantwoordelijkheid en de relatie tussen mens en machine; de biologische analogie vraagt wel om kritische lezing.",
-        "bestMoment": "analytisch",
-        "tags": [
-          "ai ethics & society",
-          "philosophy",
-          "science"
-        ],
-        "coreInterests": [
-          "filosofie"
-        ],
-        "alsoIn": [],
-        "memberships": []
       },
       {
         "position": null,
@@ -36819,36 +30034,6 @@ window.TOP_ARTICLES = {
       },
       {
         "position": null,
-        "id": "01m31dad6z362x48gqef852s9q",
-        "title": "The contagion of fear",
-        "author": null,
-        "siteName": "dtrace.org",
-        "category": "article",
-        "language": null,
-        "readingTime": "5 mins",
-        "readingMinutes": 5,
-        "wordCount": 1253,
-        "publishedDate": "2026-09-13",
-        "savedDate": "2026-09-21T07:19:07.743000+00:00",
-        "imageUrl": null,
-        "sourceUrl": "https://bcantrill.dtrace.org/2026/09/13/the-contagion-of-fear/",
-        "readwiseUrl": "https://read.readwise.io/read/01m31dad6z362x48gqef852s9q",
-        "summary": "I have a difficult confession to make — a shameful incident that I have never spoken of, even to those closest to me.\nLate one night in my first year at university and having found computer science to be my life’s calling, I was in the back of the large computer science lab, talking with some fellow underclassmen. We were snidely decrying the lack of technological understanding in the broader population, with the kind of arrogance and hubris that youth and precociousness can uniquely summon. Somewhere in this discussion, a terrible idea was hatched: what if we went next door to the general computer lab, and told the humanities students there that a computer virus was spreading through their machines? Would they believe it?",
-        "whyRead": "Raakt je interesse in AI-ethiek en sociale psychologie: dit persoonlijke essay onderzoekt hoe experts angst kunnen verspreiden wanneer ze uitzonderlijke AI-risico’s presenteren zonder evenredige onderbouwing. De meerwaarde zit in de combinatie van technische nuchterheid, verantwoordelijkheid van experts en een scherpe analyse van angst als sociaal signaal.",
-        "bestMoment": "kritisch",
-        "tags": [
-          "ai ethics & society",
-          "social psychology & interpersonal dynamics",
-          "technology"
-        ],
-        "coreInterests": [
-          "sociologie"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
         "id": "01m31dacdndwg452n9d7501fjg",
         "title": "White Collar PEDs",
         "author": null,
@@ -36895,36 +30080,6 @@ window.TOP_ARTICLES = {
       },
       {
         "position": null,
-        "id": "01m2zm9k2zsz9wmn7jw1km7zpp",
-        "title": "Time Flows Strangely in Yerevan (London Dispatch Special Edition, #3)",
-        "author": null,
-        "siteName": "Substack",
-        "category": "email",
-        "language": null,
-        "readingTime": "4 mins",
-        "readingMinutes": 4,
-        "wordCount": 838,
-        "publishedDate": "2026-09-20",
-        "savedDate": "2026-09-20T14:42:32.159000+00:00",
-        "imageUrl": null,
-        "sourceUrl": "mailto:reader-forwarded-email/237bcc8e0a62f861ac245ce3c7cf728e",
-        "readwiseUrl": "https://read.readwise.io/read/01m2zm9k2zsz9wmn7jw1km7zpp",
-        "summary": "Coffee should not be drunk in a hurry. It is the sister of time, and should be sipped slowly, slowly.",
-        "whyRead": "Raakt je interesse in essayistiek, zingeving en cultuurgeschiedenis: Yerevan wordt een lens op de manier waarop steden, herinneringen en sociale gewoonten tijd laten aanvoelen. De meerwaarde is een zintuiglijke reflectie op tempo en aandacht die verder gaat dan individueel mindfulnessadvies.",
-        "bestMoment": "reflectief",
-        "tags": [
-          "arts & culture",
-          "history",
-          "personal growth & life philosophy"
-        ],
-        "coreInterests": [
-          "geschiedenis"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
         "id": "01m2zky9m4gsevddv2cavee0tk",
         "title": "How and When to Change Your Team’s Working Agreement",
         "author": null,
@@ -36960,177 +30115,6 @@ window.TOP_ARTICLES = {
             "position": 54
           }
         ]
-      },
-      {
-        "position": null,
-        "id": "01m2zhz2zhmrxz5hzhd85f9970",
-        "title": "Give yourself something to look forward to after work",
-        "author": null,
-        "siteName": "Substack",
-        "category": "email",
-        "language": null,
-        "readingTime": "6 mins",
-        "readingMinutes": 6,
-        "wordCount": 1548,
-        "publishedDate": "2026-09-20",
-        "savedDate": "2026-09-20T14:01:50.834000+00:00",
-        "imageUrl": null,
-        "sourceUrl": "mailto:reader-forwarded-email/9ac601353e6cb5cdf96999bf664dab60",
-        "readwiseUrl": "https://read.readwise.io/read/01m2zhz2zhmrxz5hzhd85f9970",
-        "summary": "Sometimes work really is exhausting. You get home with just enough energy to eat something, watch whatever requires the least concentration, scroll for longer than you intended, and go to bed.",
-        "whyRead": "Raakt je interesse in persoonlijke groei en welzijn: deze lichte essaytekst herkadert vrije tijd als onderdeel van je leven in plaats van als resttijd na werk. De meerwaarde zit in de concrete, humane suggestie om kleine dingen te plannen om naar uit te kijken, zonder van je avonden een tweede productiviteitsproject te maken.",
-        "bestMoment": "ontspannen",
-        "tags": [
-          "health & wellness",
-          "personal growth & life philosophy"
-        ],
-        "coreInterests": [],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01m2zh2ca6rhtpfsdsn0bfhk8c",
-        "title": "Announcement: The Research",
-        "author": null,
-        "siteName": "The Gottman Institute",
-        "category": "article",
-        "language": null,
-        "readingTime": "3 mins",
-        "readingMinutes": 3,
-        "wordCount": 656,
-        "publishedDate": "2013-02-11",
-        "savedDate": "2026-09-20T13:46:10.115000+00:00",
-        "imageUrl": "https://www.gottman.com/wp-content/uploads/2013/02/AnnouncementTheResearch_FI.jpg",
-        "sourceUrl": "https://www.gottman.com/blog/announcement-the-research/",
-        "readwiseUrl": "https://read.readwise.io/read/01m2zh2ca6rhtpfsdsn0bfhk8c",
-        "summary": "The Gottman Relationship Blog explores Gottman research including divorce prediction and how to have a Master relationship, not a Disaster.",
-        "whyRead": "Raakt je interesse in sociale psychologie en menselijke interactie: deze introductie laat zien hoe Gottmans relatieonderzoek van gedragsobservatie naar interventies leidt. De meerwaarde zit in de nuancering van de bekende 94%-claim en in het heldere overzicht van de onderzoeksmethoden.",
-        "bestMoment": "analytisch",
-        "tags": [
-          "behavioral psychology & coaching",
-          "social psychology & interpersonal dynamics"
-        ],
-        "coreInterests": [
-          "sociologie"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01m2zghan6qwm7nfk1dd6nhfdh",
-        "title": "Slop Grenade",
-        "author": null,
-        "siteName": "Farnam Street",
-        "category": "article",
-        "language": null,
-        "readingTime": "1 min",
-        "readingMinutes": 1,
-        "wordCount": 90,
-        "publishedDate": null,
-        "savedDate": "2026-09-20T13:36:51.366000+00:00",
-        "imageUrl": "https://fs.blog/wp-content/uploads/2020/06/FS-LOGO.png",
-        "sourceUrl": "https://fs.blog/slop-grenade/",
-        "readwiseUrl": "https://read.readwise.io/read/01m2zghan6qwm7nfk1dd6nhfdh",
-        "summary": "A Slop Grenade is when you let AI produce the work and pass it on without adding any value (including checking it). Someone else has to wade through it, catch the mistakes, and clean up the mess. You save time and look productive but someone else pays for it.",
-        "whyRead": "Raakt je interesse in AI en werkcultuur: een korte, scherpe naam voor AI-output die ongecontroleerd wordt doorgeschoven. De meerwaarde is dat het probleem niet alleen hallucinaties is, maar ook een coördinatieprobleem: één persoon bespaart tijd terwijl het team de opruimkosten draagt.",
-        "bestMoment": "kritisch",
-        "tags": [
-          "ai ethics & society",
-          "organizational behavior & culture"
-        ],
-        "coreInterests": [
-          "agile"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01m2zgha6m68sf7p5w94cn1qz4",
-        "title": "Tobi Lütke: AI Agents, Better Decisions, and the Future of Work",
-        "author": null,
-        "siteName": "Farnam Street",
-        "category": "article",
-        "language": null,
-        "readingTime": "1 min",
-        "readingMinutes": 1,
-        "wordCount": 154,
-        "publishedDate": null,
-        "savedDate": "2026-09-20T13:36:50.900000+00:00",
-        "imageUrl": "https://fs.blog/wp-content/uploads/2026/09/Tobi-Lutke-Show-Thumb-scaled.png",
-        "sourceUrl": "https://fs.blog/knowledge-project-podcast/tobi-lutke-3/",
-        "readwiseUrl": "https://read.readwise.io/read/01m2zgha6m68sf7p5w94cn1qz4",
-        "summary": "Shopify founder and CEO Tobi Lütke joins Shane Parrish to discuss AI agents, better decision-making, and the future of work. He explains how he uses an AI council to examine his hardest decisions and why taste, judgment, and responsibility become more valuable as AI becomes more capable. They go inside Shopify’s work with River, an …",
-        "whyRead": "Raakt je interesse in AI, besliskunde en de toekomst van werk: Lütke beschrijft agents niet alleen als automatisering, maar als gesprekspartners die geheugen hebben en mogen tegenspreken. De meerwaarde zit in de koppeling tussen technische capaciteit, menselijk oordeel en verantwoordelijkheid.",
-        "bestMoment": "analytisch",
-        "tags": [
-          "ai ethics & society",
-          "business & startups"
-        ],
-        "coreInterests": [],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01m2zbgcm8s9hf6f72yhp4yyk2",
-        "title": "Does Nihilism Land Different For Women?",
-        "author": null,
-        "siteName": "Substack",
-        "category": "email",
-        "language": null,
-        "readingTime": "11 mins",
-        "readingMinutes": 11,
-        "wordCount": 2774,
-        "publishedDate": "2026-09-20",
-        "savedDate": "2026-09-20T12:08:57.737000+00:00",
-        "imageUrl": null,
-        "sourceUrl": "mailto:reader-forwarded-email/da801985411e25a6b8eb551f770afa4b",
-        "readwiseUrl": "https://read.readwise.io/read/01m2zbgcm8s9hf6f72yhp4yyk2",
-        "summary": "Thanks to the success of The Living Philosophy I have had the pleasure of speaking to many amazing thinkers and had my eyes opened and mind blown again and again.",
-        "whyRead": "Raakt je interesse in filosofie, existentialisme en sociale structuren. De meerwaarde is een essayistische herlezing van nihilisme en de betekeniscrisis vanuit belichaamde, vrouwelijke subjectiviteit; de brede claims over “het vrouwelijke denken” zijn vooral interessant als perspectief om kritisch mee te denken, niet als vaststaande wetenschap.",
-        "bestMoment": "analytisch",
-        "tags": [
-          "existentialism",
-          "philosophy",
-          "sociology & social structures"
-        ],
-        "coreInterests": [
-          "filosofie",
-          "sociologie"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01m2z33mw90194hwa41911qkh9",
-        "title": "Brain Food: Slop",
-        "author": null,
-        "siteName": "Farnam Street",
-        "category": "email",
-        "language": null,
-        "readingTime": "3 mins",
-        "readingMinutes": 3,
-        "wordCount": 606,
-        "publishedDate": "2026-09-20",
-        "savedDate": "2026-09-20T09:42:11.594000+00:00",
-        "imageUrl": null,
-        "sourceUrl": "mailto:reader-forwarded-email/f1606d902773bd093c208cd7a6df533e",
-        "readwiseUrl": "https://read.readwise.io/read/01m2z33mw90194hwa41911qkh9",
-        "summary": "“If you really want to be a game changer, become a master observer.",
-        "whyRead": "Raakt je interesse in leren, AI en persoonlijke groei. De meerwaarde zit in korte, trefzekere observaties over aandacht, voorbereiding en de verantwoordelijkheid die AI-gebruik bij anderen legt, plus een preview van een gesprek over AI-agents en besluitvorming.",
-        "bestMoment": "leergierig",
-        "tags": [
-          "ai ethics & society",
-          "learning & meta-learning",
-          "personal growth & life philosophy"
-        ],
-        "coreInterests": [],
-        "alsoIn": [],
-        "memberships": []
       },
       {
         "position": null,
@@ -37501,147 +30485,6 @@ window.TOP_ARTICLES = {
       },
       {
         "position": null,
-        "id": "01m2yyte24f6yky50rn6zqch9f",
-        "title": "Who Would You Remove From Your Scrum Team?",
-        "author": null,
-        "siteName": "Agile Project Management Masterclass",
-        "category": "article",
-        "language": null,
-        "readingTime": "3 mins",
-        "readingMinutes": 3,
-        "wordCount": 740,
-        "publishedDate": "2026-07-10",
-        "savedDate": "2026-09-20T08:27:15.396000+00:00",
-        "imageUrl": "https://www.whatisscrum.org/wp-content/uploads/2026/07/Who-Would-You-Remove-From-Your-Scrum-Team.jpg",
-        "sourceUrl": "https://www.whatisscrum.org/who-would-you-remove-from-your-scrum-team/",
-        "readwiseUrl": "https://read.readwise.io/read/01m2yyte24f6yky50rn6zqch9f",
-        "summary": "Who Would You Remove From Your Scrum Team First?",
-        "whyRead": "Raakt je werk als agile/teamcoach en je interesse in sociale psychologie: een eenvoudige teamsamenstellingspuzzel maakt zichtbaar hoe snel mensen uiterlijk met bekwaamheid verwarren. De toepassing op cross-functionele Scrumteams is kort, direct en bruikbaar als gespreksstarter over bias.",
-        "bestMoment": "kritisch",
-        "tags": [
-          "organizational behavior & culture",
-          "social psychology & interpersonal dynamics",
-          "team dynamics & collaboration"
-        ],
-        "coreInterests": [
-          "sociologie",
-          "agile"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01m2yvv46f67x823zstht35brs",
-        "title": "How Semiconductors Are Made? (Inside the World’s Most Complicated Supply Chain)",
-        "author": null,
-        "siteName": "Agile Project Management Masterclass",
-        "category": "article",
-        "language": null,
-        "readingTime": "8 mins",
-        "readingMinutes": 8,
-        "wordCount": 1930,
-        "publishedDate": "2026-09-20",
-        "savedDate": "2026-09-20T07:35:12.255000+00:00",
-        "imageUrl": "https://www.whatisscrum.org/wp-content/uploads/2026/09/How-Semiconductors-Are-Made.jpg",
-        "sourceUrl": "https://www.whatisscrum.org/how-semiconductors-are-made-inside-the-worlds-most-complicated-supply-chain/?utm_source=substack&utm_medium=email",
-        "readwiseUrl": "https://read.readwise.io/read/01m2yvv46f67x823zstht35brs",
-        "summary": "How semiconductors are made: silicon, gallium, and germanium travel through the US, Taiwan, Netherlands, and China before reaching your phone.",
-        "whyRead": "Raakt je interesse in technologie, wetenschap en geopolitieke afhankelijkheid, met een concrete Nederlandse ingang via ASML. Het stuk maakt de semiconductorindustrie begrijpelijk als een wereldwijd netwerk van gespecialiseerde knooppunten — precies daardoor efficiënt én kwetsbaar.",
-        "bestMoment": "leergierig",
-        "tags": [
-          "current affairs & politics",
-          "science",
-          "technology"
-        ],
-        "coreInterests": [],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01m2ysj92189pz96vxf83qcfhm",
-        "title": "I stopped reading pop garbage",
-        "author": null,
-        "siteName": "Daily Interactions",
-        "category": "article",
-        "language": null,
-        "readingTime": "6 mins",
-        "readingMinutes": 6,
-        "wordCount": 1516,
-        "publishedDate": "2026-07-02",
-        "savedDate": "2026-09-20T06:55:25.250000+00:00",
-        "imageUrl": "https://substackcdn.com/image/fetch/$s_!0KzX!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F557b223d-90a9-4398-981d-7e80a4de5a57_4032x3024.jpeg",
-        "sourceUrl": "https://bethanybremer.substack.com/p/i-stopped-reading-pop-garbage",
-        "readwiseUrl": "https://read.readwise.io/read/01m2ysj92189pz96vxf83qcfhm",
-        "summary": "and how I stumbled through the classical wardrobe",
-        "whyRead": "Raakt je interesse in literatuur en leespraktijk: een persoonlijke afrekening met populaire fantasy die uitmondt in een herontdekking van klassieke romans. De tekst laat zien hoe leesgezelschappen, podcasts en begeleidend materiaal een volwassen leesleven kunnen openen.",
-        "bestMoment": "geïnspireerd",
-        "tags": [
-          "arts & culture",
-          "fiction",
-          "learning & meta-learning"
-        ],
-        "coreInterests": [],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01m2ysj64z3chk9bbe4wtc85ww",
-        "title": "Theo of Golden: Worst Book I’ve Read in 20 Years",
-        "author": null,
-        "siteName": "Be a Cactus",
-        "category": "article",
-        "language": null,
-        "readingTime": "9 mins",
-        "readingMinutes": 9,
-        "wordCount": 2135,
-        "publishedDate": "2026-08-24",
-        "savedDate": "2026-09-20T06:55:22.269000+00:00",
-        "imageUrl": "https://substackcdn.com/image/fetch/$s_!3dr4!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fe1d35801-0a17-42da-b29e-ac8d3aaabe41_5712x4284.jpeg",
-        "sourceUrl": "https://victoriawaddle.substack.com/p/theo-of-golden-worst-book-ive-read",
-        "readwiseUrl": "https://read.readwise.io/read/01m2ysj64z3chk9bbe4wtc85ww",
-        "summary": "Fortunately, I then read an antidote: John of John.",
-        "whyRead": "Raakt je interesse in fictie, literaire kritiek en cultuur: een geestige maar scherpe bespreking van een massaal verkochte roman. Interessant omdat de kritiek doorstoot naar de vraag waarom moralistische, gladde fictie zo breed aanslaat.",
-        "bestMoment": "kritisch",
-        "tags": [
-          "arts & culture",
-          "fiction"
-        ],
-        "coreInterests": [],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01m2ysj14n2ewgtr5wn3n3639a",
-        "title": "I Asked 249 Readers What Book They Couldn’t Put Down",
-        "author": null,
-        "siteName": "The Second Act",
-        "category": "article",
-        "language": null,
-        "readingTime": "11 mins",
-        "readingMinutes": 11,
-        "wordCount": 2657,
-        "publishedDate": "2026-08-23",
-        "savedDate": "2026-09-20T06:55:17.141000+00:00",
-        "imageUrl": "https://substackcdn.com/image/fetch/$s_!Reon!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F497253c4-8c9f-4c5f-8d2b-4cf6c0d68dcd_1600x1250.jpeg",
-        "sourceUrl": "https://daniellewraith.substack.com/p/the-books-250-people-couldnt-put",
-        "readwiseUrl": "https://read.readwise.io/read/01m2ysj14n2ewgtr5wn3n3639a",
-        "summary": "The books people stayed up too late, ignored their responsibilities, and finished in less than 48 hours",
-        "whyRead": "Raakt je interesse in literatuur en leesplezier: 249 lezers delen de boeken die hun slaap, plannen en dagelijkse routines daadwerkelijk overnamen. Het is een luchtige, bruikbare leeslijst die vooral laat zien welke verhalen collectief verslavend werken.",
-        "bestMoment": "ontspannen",
-        "tags": [
-          "arts & culture",
-          "fiction"
-        ],
-        "coreInterests": [],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
         "id": "01m2ysgfhx0mege9pe8gs0rffg",
         "title": "Mastering the Four Abstraction Levels of Refinement",
         "author": null,
@@ -37677,36 +30520,6 @@ window.TOP_ARTICLES = {
             "position": 48
           }
         ]
-      },
-      {
-        "position": null,
-        "id": "01m2yqd82r32jv73qmqjkwzd4g",
-        "title": "How Romance Novels Filled in the Gaps Left by Sex Ed",
-        "author": null,
-        "siteName": "Literary  Hub",
-        "category": "rss",
-        "language": null,
-        "readingTime": "5 mins",
-        "readingMinutes": 5,
-        "wordCount": 1321,
-        "publishedDate": "2026-09-18",
-        "savedDate": "2026-09-20T06:17:28.256000+00:00",
-        "imageUrl": "https://s26162.pcdn.co/wp-content/uploads/2026/09/Untitled-design-2026-09-11T150559.000-768x432.png",
-        "sourceUrl": "https://lithub.com/how-romance-novels-filled-in-the-gaps-left-by-sex-ed/",
-        "readwiseUrl": "https://read.readwise.io/read/01m2yqd82r32jv73qmqjkwzd4g",
-        "summary": "Chewed up gum, unraveled yarn, a flower stripped of its petals. Like so many in my generation, my introduction to sex was in pro-abstinence talks with my church youth group and in my sterile health class in Georgia, where my",
-        "whyRead": "Raakt je interesse in cultuur, sociale systemen en gezondheid: het artikel laat zien hoe romantische fictie en fan communities gaten in seksuele voorlichting opvullen. Het verbindt leesplezier met kennis, taal voor verlangen en veilige sociale verkenning.",
-        "bestMoment": "analytisch",
-        "tags": [
-          "arts & culture",
-          "health & wellness",
-          "social psychology & interpersonal dynamics"
-        ],
-        "coreInterests": [
-          "sociologie"
-        ],
-        "alsoIn": [],
-        "memberships": []
       },
       {
         "position": null,
@@ -37756,36 +30569,6 @@ window.TOP_ARTICLES = {
       },
       {
         "position": null,
-        "id": "01m2yqbzwncy5w5fwef2c5h79a",
-        "title": "Toni Morrison’s Native Figures",
-        "author": null,
-        "siteName": "The Yale Review",
-        "category": "rss",
-        "language": null,
-        "readingTime": "22 mins",
-        "readingMinutes": 22,
-        "wordCount": 5717,
-        "publishedDate": "2026-06-08",
-        "savedDate": "2026-09-20T06:16:50.102000+00:00",
-        "imageUrl": "https://d181q449nqu6en.cloudfront.net/content/craft/website-assets/_1200x630_crop_center-center_82_none/1_MB_The-Yale-Review_2019_006.jpeg?mtime=1679692338",
-        "sourceUrl": "https://yalereview.org/article/namwali-serpell-toni-morrisons-native-figures",
-        "readwiseUrl": "https://read.readwise.io/read/01m2yqbzwncy5w5fwef2c5h79a",
-        "summary": "A new reading of race in her novels\nDelivered by PolitePaul service",
-        "whyRead": "Raakt je interesse in literatuur, macht en sociale constructies: Namwali Serpell leest Toni Morrisons Native personages als formele figuren én als problematische representaties. Het stuk biedt precies het soort literaire analyse waarin esthetiek, ras en historische achtergrond elkaar onder spanning zetten.",
-        "bestMoment": "analytisch",
-        "tags": [
-          "arts & culture",
-          "fiction",
-          "sociology & social structures"
-        ],
-        "coreInterests": [
-          "sociologie"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
         "id": "01m2yqbzv32q62st1qv5w2rhd3",
         "title": "In Search of John Canoe",
         "author": null,
@@ -37825,33 +30608,6 @@ window.TOP_ARTICLES = {
       },
       {
         "position": null,
-        "id": "01m2yqbzshxmaf01f83e4wtxha",
-        "title": "Famous Writers School",
-        "author": null,
-        "siteName": "The Yale Review",
-        "category": "rss",
-        "language": null,
-        "readingTime": "10 mins",
-        "readingMinutes": 10,
-        "wordCount": 2640,
-        "publishedDate": "2026-08-31",
-        "savedDate": "2026-09-20T06:16:56.002000+00:00",
-        "imageUrl": "https://d181q449nqu6en.cloudfront.net/content/craft/website-assets/_1200x630_crop_center-center_82_none/1_MB_The-Yale-Review_2019_006.jpeg?mtime=1679692338",
-        "sourceUrl": "https://yalereview.org/article/lucy-sante-famous-writers-school",
-        "readwiseUrl": "https://read.readwise.io/read/01m2yqbzshxmaf01f83e4wtxha",
-        "summary": "My encounters with literary greats\nDelivered by PolitePaul service",
-        "whyRead": "Raakt je interesse in schrijverschap, reputatie en de menselijke achterkant van literair prestige. Lucy Sante gebruikt ontmoetingen met beroemde schrijvers om vragen over klasse, ouder worden, taal, ballingschap en de houdbaarheid van een oeuvre te onderzoeken.",
-        "bestMoment": "reflectief",
-        "tags": [
-          "arts & culture",
-          "personal growth & life philosophy"
-        ],
-        "coreInterests": [],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
         "id": "01m2yqbzq4smxxbt4kshtgb8fr",
         "title": "Moby-Dick and the Indefinite Sublime",
         "author": null,
@@ -37884,36 +30640,9 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 97
+            "position": 99
           }
         ]
-      },
-      {
-        "position": null,
-        "id": "01m2yq9nc95s28aed0z712a5r4",
-        "title": "‘A Certain Grain of Stupidity’",
-        "author": null,
-        "siteName": "The New York Review of Books",
-        "category": "rss",
-        "language": null,
-        "readingTime": "11 mins",
-        "readingMinutes": 11,
-        "wordCount": 2707,
-        "publishedDate": "2026-09-19",
-        "savedDate": "2026-09-20T06:15:42.802000+00:00",
-        "imageUrl": "https://www.nybooks.com/wp-content/uploads/2026/09/Alessandrini-different-crop.jpg",
-        "sourceUrl": "https://www.nybooks.com/online/2026/09/19/certain-grain-of-stupidity-christopher-alessandrini/",
-        "readwiseUrl": "https://read.readwise.io/read/01m2yq9nc95s28aed0z712a5r4",
-        "summary": "In 1961, on a barrier island off the coast of Georgia, Eleanor “Sandy” Torrey West and her husband founded a residency, the Ossabaw Island Project (OIP). As Christopher Alessandrini writes in our October 8 issue, the island—which West had inherited from her patrician parents—was “a patchwork landscape of salt marshes and maritime forests, tidal creeks […]",
-        "whyRead": "Raakt je interesse in schrijverschap en de spanning tussen kennis en intuïtie. Het gesprek over een schrijversresidentie op Ossabaw Island onderzoekt hoe afzondering, gemeenschap en een zekere “stompe” openheid het maken van fictie kunnen voeden.",
-        "bestMoment": "reflectief",
-        "tags": [
-          "arts & culture",
-          "learning & meta-learning"
-        ],
-        "coreInterests": [],
-        "alsoIn": [],
-        "memberships": []
       },
       {
         "position": null,
@@ -37950,181 +30679,9 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 46
+            "position": 48
           }
         ]
-      },
-      {
-        "position": null,
-        "id": "01m2yq9bgrhztgw3z4pbxjjayc",
-        "title": "On the “Chattanooga Choo Choo”",
-        "author": null,
-        "siteName": "The Paris Review",
-        "category": "rss",
-        "language": null,
-        "readingTime": "5 mins",
-        "readingMinutes": 5,
-        "wordCount": 1221,
-        "publishedDate": "2026-09-16",
-        "savedDate": "2026-09-20T06:15:26.704000+00:00",
-        "imageUrl": "https://www.theparisreview.org/blog/wp-content/uploads/2017/07/cropped-hadada-1-270x270.png",
-        "sourceUrl": "https://www.theparisreview.org/blog/2026/09/16/on-the-chattanooga-choo-choo/",
-        "readwiseUrl": "https://read.readwise.io/read/01m2yq9bgrhztgw3z4pbxjjayc",
-        "summary": "“Lately, though, I have become fascinated by the so-called big bands on the SiriusXM station called ‘40s Junction.’ ”",
-        "whyRead": "Raakt je interesse in cultuur en essayistisch schrijven: Stephen King gebruikt “Chattanooga Choo Choo” om herinnering, Elvis, Chuck Berry en het verschil tussen poëzie en doggerel te onderzoeken. Het is een onderhoudend muziekstuk met een herkenbare persoonlijke stem.",
-        "bestMoment": "ontspannen",
-        "tags": [
-          "arts & culture",
-          "entertainment & pop culture"
-        ],
-        "coreInterests": [
-          "cultuur_games_film"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01m2yq9bfgybyrymab7r1bcg9z",
-        "title": "Home Improvements: A Case of Moths",
-        "author": null,
-        "siteName": "The Paris Review",
-        "category": "rss",
-        "language": null,
-        "readingTime": "8 mins",
-        "readingMinutes": 8,
-        "wordCount": 1948,
-        "publishedDate": "2026-09-17",
-        "savedDate": "2026-09-20T06:15:29.664000+00:00",
-        "imageUrl": "https://www.theparisreview.org/blog/wp-content/uploads/2017/07/cropped-hadada-1-270x270.png",
-        "sourceUrl": "https://www.theparisreview.org/blog/2026/09/17/home-improvements-a-case-of-moths/",
-        "readwiseUrl": "https://read.readwise.io/read/01m2yq9bfgybyrymab7r1bcg9z",
-        "summary": "“Accumulation lays waste to what it accumulates, and I was learning it in installments.”",
-        "whyRead": "Raakt je interesse in cultuur, identiteit en de psychologische betekenis van woonruimte. Sarah Nicole Prickett maakt van motten, kleding en een huis vol gaten een zintuiglijk essay over verlies, verlangen en dissociatie.",
-        "bestMoment": "reflectief",
-        "tags": [
-          "arts & culture",
-          "personal growth & life philosophy"
-        ],
-        "coreInterests": [],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01m2yq9be2b799rbpf5mv8561r",
-        "title": "My Larval Roommates",
-        "author": null,
-        "siteName": "The Paris Review",
-        "category": "rss",
-        "language": null,
-        "readingTime": "8 mins",
-        "readingMinutes": 8,
-        "wordCount": 1969,
-        "publishedDate": "2026-09-18",
-        "savedDate": "2026-09-20T06:15:32.619000+00:00",
-        "imageUrl": "https://www.theparisreview.org/blog/wp-content/uploads/2017/07/cropped-hadada-1-270x270.png",
-        "sourceUrl": "https://www.theparisreview.org/blog/2026/09/18/my-larval-roommates-sarah-nicole-prickett/",
-        "readwiseUrl": "https://read.readwise.io/read/01m2yq9be2b799rbpf5mv8561r",
-        "summary": "“When holes appeared in my underwear, I knew that I had a case of moths.”",
-        "whyRead": "Raakt je interesse in persoonlijke ervaring en essayvorm: een tweede mottenstuk waarin besmetting, mode en het huishouden een vreemde intimiteit krijgen. De kracht ligt in de associatieve stem en de manier waarop materiële details psychische spanning zichtbaar maken.",
-        "bestMoment": "reflectief",
-        "tags": [
-          "arts & culture",
-          "personal growth & life philosophy"
-        ],
-        "coreInterests": [],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01m2yq7724jgf19rpm9yjae03f",
-        "title": "The Second Creation and the Destruction of Worlds",
-        "author": null,
-        "siteName": "theideasletter.org",
-        "category": "article",
-        "language": null,
-        "readingTime": "19 mins",
-        "readingMinutes": 19,
-        "wordCount": 4900,
-        "publishedDate": "2026-09-17",
-        "savedDate": "2026-09-20T06:14:25.604000+00:00",
-        "imageUrl": "https://www.theideasletter.org/wp-content/uploads/2026/09/20260917-bettmann-nevada-atomic-bomb-test-3000-300x168.jpg",
-        "sourceUrl": "https://www.theideasletter.org/essay/the-second-creation-and-the-destruction-of-worlds/",
-        "readwiseUrl": "https://read.readwise.io/read/01m2yq7724jgf19rpm9yjae03f",
-        "summary": "Marres returns to the German philosopher Hans Blumenberg to uncovers the origins of tech elites’ ambition to remake the world. Blumenberg traced that ambition back through modern experimental science to…",
-        "whyRead": "Raakt direct je interesse in technologie, filosofie en ecologie: Noortje Marres beschrijft startups en technowetenschap als een tweede schepping die tegelijk werelden produceert en vernietigt. Het stuk biedt een sterk begrippenkader voor de materiële en politieke kant van innovatie.",
-        "bestMoment": "analytisch",
-        "tags": [
-          "environment & sustainability",
-          "philosophy",
-          "technology"
-        ],
-        "coreInterests": [
-          "filosofie"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01m2yq3kxrrx90dkhvbcrpvgt4",
-        "title": "The AI threat keeping scientists up at night",
-        "author": null,
-        "siteName": "Vox",
-        "category": "rss",
-        "language": null,
-        "readingTime": "11 mins",
-        "readingMinutes": 11,
-        "wordCount": 2816,
-        "publishedDate": "2026-09-18",
-        "savedDate": "2026-09-20T06:12:24.704000+00:00",
-        "imageUrl": "https://platform.vox.com/wp-content/uploads/sites/2/2026/09/GettyImages-1769719713.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100",
-        "sourceUrl": "https://www.vox.com/technology/503361/ai-bioweapons-pandemics-extinction",
-        "readwiseUrl": "https://read.readwise.io/read/01m2yq3kxrrx90dkhvbcrpvgt4",
-        "summary": "AI will be the death of me. And you. And everyone we know. At least, this is what a growing number of technologists and policymakers fear.  Last week, a lead researcher at Anthropic declared that there was a greater than 10 percent chance of AI “killing all humans” within the next decade. This nerve-racking forecast, […]",
-        "whyRead": "Raakt je interesse in AI-ethiek, wetenschap en volksgezondheid: het stuk verbindt AI-risico’s aan bioveiligheid, DNA-synthese en pandemische dreiging. De concrete voorbeelden maken een abstract veiligheidsdebat begrijpelijker en minder afhankelijk van sciencefiction.",
-        "bestMoment": "kritisch",
-        "tags": [
-          "ai ethics & society",
-          "health & wellness",
-          "science"
-        ],
-        "coreInterests": [],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01m2ypxsxsyfmyxk42qpfge36s",
-        "title": "Whose AI Will Rule The World?",
-        "author": null,
-        "siteName": "NOEMA",
-        "category": "rss",
-        "language": null,
-        "readingTime": "15 mins",
-        "readingMinutes": 15,
-        "wordCount": 3799,
-        "publishedDate": "2026-09-10",
-        "savedDate": "2026-09-20T06:09:02.241000+00:00",
-        "imageUrl": "https://noemamag.imgix.net/2026/09/illustration-Bright-Woo-scaled.jpg?fm=pjpg&ixlib=php-3.3.1&s=0949896613440e298202474a2fce73b8",
-        "sourceUrl": "https://www.noemamag.com/whose-ai-will-rule-the-world",
-        "readwiseUrl": "https://read.readwise.io/read/01m2ypxsxsyfmyxk42qpfge36s",
-        "summary": "The post Whose AI Will Rule The World? appeared first on NOEMA.",
-        "whyRead": "Raakt je interesse in AI, geopolitiek en politieke filosofie: Jacob Dreyer vergelijkt de Amerikaanse en Chinese modellen van AI-macht en vraagt welke maatschappelijke orde zij versterken. Het stuk is een toegankelijke synthese van technologie, staatsmacht, surveillance en oligarchie.",
-        "bestMoment": "analytisch",
-        "tags": [
-          "ai ethics & society",
-          "current affairs & politics",
-          "political philosophy"
-        ],
-        "coreInterests": [
-          "filosofie",
-          "ideologie"
-        ],
-        "alsoIn": [],
-        "memberships": []
       },
       {
         "position": null,
@@ -38174,127 +30731,6 @@ window.TOP_ARTICLES = {
       },
       {
         "position": null,
-        "id": "01m2ypxsrfc04vfw8gjhjaecm1",
-        "title": "A New Form Of Life",
-        "author": null,
-        "siteName": "NOEMA",
-        "category": "rss",
-        "language": null,
-        "readingTime": "16 mins",
-        "readingMinutes": 16,
-        "wordCount": 4190,
-        "publishedDate": "2026-09-15",
-        "savedDate": "2026-09-20T06:09:11.071000+00:00",
-        "imageUrl": "https://noemamag.imgix.net/2026/09/FINAL2.png?fm=png&ixlib=php-3.3.1&s=7d5af12e71add69b89043c72b29e643b",
-        "sourceUrl": "https://www.noemamag.com/a-new-form-of-life",
-        "readwiseUrl": "https://read.readwise.io/read/01m2ypxsrfc04vfw8gjhjaecm1",
-        "summary": "The post A New Form Of Life appeared first on NOEMA.",
-        "whyRead": "Raakt je interesse in AI-filosofie en de materiële kant van technologie: William Haseltine beschrijft AI als een nieuwe vorm van leven die energie, informatie en zelfaanpassing combineert. Ondanks de bekende analogieën biedt het stuk een bruikbaar filosofisch vocabulaire voor afhankelijkheid en schaal.",
-        "bestMoment": "analytisch",
-        "tags": [
-          "ai ethics & society",
-          "philosophy",
-          "technology"
-        ],
-        "coreInterests": [
-          "filosofie"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01m2ypxspsvq58sg6d8f60bq91",
-        "title": "The End Of Upward Mobility",
-        "author": null,
-        "siteName": "NOEMA",
-        "category": "rss",
-        "language": null,
-        "readingTime": "12 mins",
-        "readingMinutes": 12,
-        "wordCount": 3023,
-        "publishedDate": "2026-09-17",
-        "savedDate": "2026-09-20T06:09:14.017000+00:00",
-        "imageUrl": "https://noemamag.imgix.net/2026/09/TheEndOfUpwardMobility-Illustration.jpg?fm=pjpg&ixlib=php-3.3.1&s=7670eb3652b09e5bcb1a204c1227f858",
-        "sourceUrl": "https://www.noemamag.com/the-end-of-upward-mobility",
-        "readwiseUrl": "https://read.readwise.io/read/01m2ypxspsvq58sg6d8f60bq91",
-        "summary": "The post The End Of Upward Mobility appeared first on NOEMA.",
-        "whyRead": "Raakt je interesse in economie, klasse en de politieke gevolgen van AI: Branko Milanović onderzoekt waarom opwaartse mobiliteit afneemt wanneer technologie de productiemiddelen en besluitvorming concentreert. Het stuk verbindt AI aan eigendom, arbeid en de vorm van een toekomstige elite.",
-        "bestMoment": "analytisch",
-        "tags": [
-          "ai ethics & society",
-          "economics",
-          "political philosophy"
-        ],
-        "coreInterests": [
-          "filosofie",
-          "ideologie"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01m2ypv5z7k6fkp6kdrr639ry9",
-        "title": "How Antihumanism Turned on Its Authors",
-        "author": null,
-        "siteName": "The Hedgehog Review",
-        "category": "rss",
-        "language": null,
-        "readingTime": "15 mins",
-        "readingMinutes": 15,
-        "wordCount": 3949,
-        "publishedDate": "2025-03-07",
-        "savedDate": "2026-09-20T06:07:36.272000+00:00",
-        "imageUrl": "https://hedgehogreview.com/images/identity/thr/favicon.jpg",
-        "sourceUrl": "https://hedgehogreview.com/issues/humanism-in-a-posthumanist-age/articles/how-antihumanism-turned-on-its-authors",
-        "readwiseUrl": "https://read.readwise.io/read/01m2ypv5z7k6fkp6kdrr639ry9",
-        "summary": "The humanities spent half a century decentering the human and now face steep competition in that effort from rich tech companies.",
-        "whyRead": "Raakt je interesse in filosofie, cultuurkritiek en AI: het stuk laat zien hoe ideeën over de dood van de auteur en antihumanisme in generatieve systemen een banale, commerciële vorm krijgen. De koppeling aan accelerationisme en extreemrechts maakt de politieke inzet expliciet.",
-        "bestMoment": "analytisch",
-        "tags": [
-          "ai ethics & society",
-          "arts & culture",
-          "philosophy"
-        ],
-        "coreInterests": [
-          "filosofie"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01m2ypv5xtvqfthew3hegkzyy8",
-        "title": "Artificial Negligence",
-        "author": null,
-        "siteName": "The Hedgehog Review",
-        "category": "rss",
-        "language": null,
-        "readingTime": "23 mins",
-        "readingMinutes": 23,
-        "wordCount": 5921,
-        "publishedDate": "2025-09-04",
-        "savedDate": "2026-09-20T06:07:39.227000+00:00",
-        "imageUrl": "https://hedgehogreview.com/images/identity/thr/favicon.jpg",
-        "sourceUrl": "https://hedgehogreview.com/issues/the-fading-promise-of-higher-education/articles/artificial-negligence",
-        "readwiseUrl": "https://read.readwise.io/read/01m2ypv5xtvqfthew3hegkzyy8",
-        "summary": "Faculty sense that AI could make old-fashioned teaching and learning much more difficult to achieve, if not obsolete.",
-        "whyRead": "Raakt je interesse in AI-ethiek, leren en organisatiegedrag: het artikel gebruikt de geautomatiseerde universiteit om te onderzoeken wat er verloren gaat wanneer onderwijs als schaalbaar productieproces wordt ingericht. Het verbindt AI-adoptie aan arbeidskosten, klasse en de menselijke relatie tussen docent en student.",
-        "bestMoment": "analytisch",
-        "tags": [
-          "ai ethics & society",
-          "learning & meta-learning",
-          "organizational behavior & culture"
-        ],
-        "coreInterests": [
-          "agile"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
         "id": "01m2ypv5w730dbc78eajsfxnna",
         "title": "Managing the Facts of Life",
         "author": null,
@@ -38334,128 +30770,6 @@ window.TOP_ARTICLES = {
       },
       {
         "position": null,
-        "id": "01m2ypv5tmd1cdc4s1m5r9bawg",
-        "title": "The Age of the Average",
-        "author": null,
-        "siteName": "The Hedgehog Review",
-        "category": "rss",
-        "language": null,
-        "readingTime": "20 mins",
-        "readingMinutes": 20,
-        "wordCount": 5174,
-        "publishedDate": "2026-07-01",
-        "savedDate": "2026-09-20T06:07:45.124000+00:00",
-        "imageUrl": "https://hedgehogreview.com/images/identity/thr/favicon.jpg",
-        "sourceUrl": "https://hedgehogreview.com/issues/in-need-of-repair/articles/the-age-of-the-average",
-        "readwiseUrl": "https://read.readwise.io/read/01m2ypv5tmd1cdc4s1m5r9bawg",
-        "summary": "How did we reach the age of the average, and what did it mean for American democracy?",
-        "whyRead": "Raakt je interesse in sociale wetenschappen, democratie en de politieke werking van cijfers: Olivier Zunz onderzoekt hoe het gemiddelde van statistische maatstaf tot maatschappelijk ideaal werd. De historische lijn maakt abstracte kwantificatie concreet en helpt je kritischer kijken naar gemiddelden in beleid en organisaties.",
-        "bestMoment": "analytisch",
-        "tags": [
-          "political philosophy",
-          "science",
-          "sociology & social structures"
-        ],
-        "coreInterests": [
-          "filosofie",
-          "ideologie",
-          "sociologie"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01m2ypv5q8hg2khvjw2kzp5tmr",
-        "title": "Liberated as Hell",
-        "author": null,
-        "siteName": "The Hedgehog Review",
-        "category": "rss",
-        "language": null,
-        "readingTime": "17 mins",
-        "readingMinutes": 17,
-        "wordCount": 4423,
-        "publishedDate": "2026-09-04",
-        "savedDate": "2026-09-20T06:07:48.016000+00:00",
-        "imageUrl": "https://hedgehogreview.com/images/identity/thr/favicon.jpg",
-        "sourceUrl": "https://hedgehogreview.com/issues/work-in-the-precarious-economy/articles/liberated-as-hell-the-autonomous-worker-and-the-hollowed-workplace",
-        "readwiseUrl": "https://read.readwise.io/read/01m2ypv5q8hg2khvjw2kzp5tmr",
-        "summary": "The quest for personal authenticity and autonomy in the face of unreliable communities and institutions has become a defining feature of the modern working class.",
-        "whyRead": "Raakt direct je werk als agile/teamcoach: het artikel onderzoekt hoe “bevrijde” werkplekken, hot-desking en precair werk autonomie beloven maar vaak zekerheid, bezit en gemeenschap wegnemen. De historische blik helpt om hedendaagse organisatiehypes minder oppervlakkig te lezen.",
-        "bestMoment": "analytisch",
-        "tags": [
-          "economics",
-          "organizational behavior & culture",
-          "team dynamics & collaboration"
-        ],
-        "coreInterests": [
-          "agile"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01m2yngk80h5p3sgef4w2cvdwz",
-        "title": "Are we wet robots?",
-        "author": null,
-        "siteName": "substack.com",
-        "category": "article",
-        "language": null,
-        "readingTime": "10 mins",
-        "readingMinutes": 10,
-        "wordCount": 2472,
-        "publishedDate": "2026-09-17",
-        "savedDate": "2026-09-20T05:44:35.772000+00:00",
-        "imageUrl": "https://substackcdn.com/image/fetch/$s_!T3FB!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fe88ad52d-c02d-4f5c-9c5c-33150962d6be_406x406.gif",
-        "sourceUrl": "https://cognitivewonderland.substack.com/p/are-we-wet-robots",
-        "readwiseUrl": "https://read.readwise.io/read/01m2yngk80h5p3sgef4w2cvdwz",
-        "summary": "The brain as computer analogy: A review of The Brain, In Theory by Romain Brette",
-        "whyRead": "Raakt je interesse in wetenschap, filosofie en technologie. Dit essay laat via Romain Brette zien waarom de computeranalogie voor het brein tegelijk verhelderend en misleidend kan zijn, en hoe zulke analogieën bepalen welke vragen neurowetenschap stelt.",
-        "bestMoment": "analytisch",
-        "tags": [
-          "philosophy",
-          "science",
-          "technology"
-        ],
-        "coreInterests": [
-          "filosofie"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01m2yndpwwzrjyc111qrr5hmda",
-        "title": "Culling Books or Pulling Teeth",
-        "author": null,
-        "siteName": "The Nordic Link",
-        "category": "article",
-        "language": null,
-        "readingTime": "6 mins",
-        "readingMinutes": 6,
-        "wordCount": 1481,
-        "publishedDate": "2026-09-16",
-        "savedDate": "2026-09-20T05:43:01.212000+00:00",
-        "imageUrl": "https://substackcdn.com/image/fetch/$s_!DD6m!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff733d1d7-8b94-4a39-ba41-95a7f99fa576_3838x2490.jpeg",
-        "sourceUrl": "https://nordiclink.substack.com/p/culling-books-vs-pulling-wisdom-teeth",
-        "readwiseUrl": "https://read.readwise.io/read/01m2yndpwwzrjyc111qrr5hmda",
-        "summary": "There are things you can’t procrastinate for ever",
-        "whyRead": "Raakt je interesse in boeken, cultuur, geschiedenis en persoonlijke betekenis. Hans Sandberg gebruikt het opruimen van een bibliotheek van ongeveer 1.800 boeken als ingang naar Zweedse bildung, familieherinneringen en de vergankelijkheid van bezit in het digitale tijdperk.",
-        "bestMoment": "reflectief",
-        "tags": [
-          "arts & culture",
-          "history",
-          "personal growth & life philosophy"
-        ],
-        "coreInterests": [
-          "geschiedenis"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
         "id": "01m2ymxwfncx98gmphge27wnje",
         "title": "why we never finish \"the artists' way\"",
         "author": null,
@@ -38489,7 +30803,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 78
+            "position": 79
           },
           {
             "familyId": "adhd",
@@ -38497,66 +30811,6 @@ window.TOP_ARTICLES = {
             "position": 29
           }
         ]
-      },
-      {
-        "position": null,
-        "id": "01m2yksg7qpd2rwark9rzf6zw8",
-        "title": "Wat is wijsheid?",
-        "author": null,
-        "siteName": "Bij Nader Inzien",
-        "category": "article",
-        "language": null,
-        "readingTime": "5 mins",
-        "readingMinutes": 5,
-        "wordCount": 1081,
-        "publishedDate": "2026-09-17",
-        "savedDate": "2026-09-20T05:14:30.519000+00:00",
-        "imageUrl": "https://bijnaderinzien.com/wp-content/uploads/2026/09/Ester-Smits-illustratie-Wat-is-wijsheid-1-1024x1024.avif",
-        "sourceUrl": "https://bijnaderinzien.com/2026/09/17/wat-is-wijsheid/",
-        "readwiseUrl": "https://read.readwise.io/read/01m2yksg7qpd2rwark9rzf6zw8",
-        "summary": "In een almaar veranderende wereld wordt steeds vaker gediscussieerd over onze verantwoordelijkheid tegenover toekomstige generaties en de wereld waarin zij worden geboren. In de nieuwe…",
-        "whyRead": "Raakt je interesse in sociale en morele filosofie, existentialisme en de Nederlandse samenleving. Vier stemmen botsen rond de vraag of kinderen krijgen egoïstisch is, waardoor utilitarisme, antinatalisme, klimaatpessimisme en hoop concreet worden.",
-        "bestMoment": "analytisch",
-        "tags": [
-          "ethics",
-          "existentialism",
-          "philosophy"
-        ],
-        "coreInterests": [
-          "filosofie"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01m2ykrchq1gg053npwq686684",
-        "title": "How to think about pleasure",
-        "author": null,
-        "siteName": "Psyche",
-        "category": "article",
-        "language": null,
-        "readingTime": "19 mins",
-        "readingMinutes": 19,
-        "wordCount": 4979,
-        "publishedDate": "2021-06-16",
-        "savedDate": "2026-09-20T05:13:53.975000+00:00",
-        "imageUrl": "https://nu.psyche.co/images/3aef21e8-d7cb-45f3-b1de-7c4e262c5cc4/1500x1500.jpg",
-        "sourceUrl": "https://psyche.co/guides/from-hedonism-to-humanism-philosophys-defence-of-pleasure",
-        "readwiseUrl": "https://read.readwise.io/read/01m2ykrchq1gg053npwq686684",
-        "summary": "Weirdly hard to define, much less to feel OK about it, pleasure is a tricky creature. Can philosophy help us lighten up?",
-        "whyRead": "Raakt je interesse in filosofie, ethiek en persoonlijke levensfilosofie. Deze essayistische gids volgt hoe denkers van Plato en de stoïcijnen tot Epicurus en moderne humanisten plezier verdacht of juist menselijk waardevol maakten.",
-        "bestMoment": "analytisch",
-        "tags": [
-          "ethics",
-          "personal growth & life philosophy",
-          "philosophy"
-        ],
-        "coreInterests": [
-          "filosofie"
-        ],
-        "alsoIn": [],
-        "memberships": []
       },
       {
         "position": null,
@@ -38636,67 +30890,6 @@ window.TOP_ARTICLES = {
       },
       {
         "position": null,
-        "id": "01m2xqad8sm5f89bhny2dt5vd4",
-        "title": "Van nachtleven naar dagleven",
-        "author": null,
-        "siteName": "de Volkskrant",
-        "category": "article",
-        "language": null,
-        "readingTime": "1 min",
-        "readingMinutes": 1,
-        "wordCount": 157,
-        "publishedDate": "2026-02-10",
-        "savedDate": "2026-09-19T20:56:55.835000+00:00",
-        "imageUrl": "https://kijkverderstatic.volkskrant.nl/kijkverder/v/2026/clubs-verdwijnen-uitgaan-jongeren~v2723598/media/659670af46112704039cf0be1b958abf.jpg",
-        "sourceUrl": "https://www.volkskrant.nl/kijkverder/v/2026/clubs-verdwijnen-uitgaan-jongeren~v2723598/?utm_source=substack&utm_medium=email",
-        "readwiseUrl": "https://read.readwise.io/read/01m2xqad8sm5f89bhny2dt5vd4",
-        "summary": "Stampvolle disco’s met swingende jongeren - je ziet ze steeds minder. Veel clubs gaan dicht. Waarom laten jongeren de dansvloer links liggen? De Volkskrant ging een avondje stappen in Alphen aan den Rijn.",
-        "whyRead": "Raakt je interesse in de Nederlandse samenleving en sociale structuren, met een concrete blik op veranderende leefstijl en uitgaanscultuur. De meerwaarde zit in de combinatie van CBS-cijfers en een kort portret van jongeren voor wie alcohol en nachtelijk uitgaan minder vanzelfsprekend zijn.",
-        "bestMoment": "kritisch",
-        "tags": [
-          "entertainment & pop culture",
-          "health & wellness",
-          "sociology & social structures"
-        ],
-        "coreInterests": [
-          "sociologie",
-          "cultuur_games_film"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01m2xjrtm3302pbnfd1x1yt4fr",
-        "title": "AI-Generated Movie Star Has a Total Meltdown on TV",
-        "author": null,
-        "siteName": "Substack",
-        "category": "email",
-        "language": null,
-        "readingTime": "4 mins",
-        "readingMinutes": 4,
-        "wordCount": 966,
-        "publishedDate": "2026-09-19",
-        "savedDate": "2026-09-19T19:37:25.379000+00:00",
-        "imageUrl": null,
-        "sourceUrl": "mailto:reader-forwarded-email/f49715c64dda31dd8ec05bbf8900ac96",
-        "readwiseUrl": "https://read.readwise.io/read/01m2xjrtm3302pbnfd1x1yt4fr",
-        "summary": "Tilly is no ordinary Hollywood celebrity. She is the first AI-generated movie star—introduced to the world in July 2025 with tremendous fanfare.",
-        "whyRead": "Raakt je interesse in AI, AI-ethiek en films als cultuurvorm. De geestige casus van Tilly Norwood laat zien hoe publieke weerstand tegen AI-vervanging samenhangt met de vraag wanneer technologie menselijke creativiteit ondersteunt of verdringt.",
-        "bestMoment": "ontspannen",
-        "tags": [
-          "ai ethics & society",
-          "arts & culture",
-          "entertainment & pop culture"
-        ],
-        "coreInterests": [
-          "cultuur_games_film"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
         "id": "01m2x8nw4zgrsm7j1w5vvq4rtd",
         "title": "Retreat and Battle in New York City",
         "author": null,
@@ -38731,7 +30924,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 81
+            "position": 82
           },
           {
             "familyId": "luchtig",
@@ -38739,119 +30932,6 @@ window.TOP_ARTICLES = {
             "position": 16
           }
         ]
-      },
-      {
-        "position": null,
-        "id": "01m2wxjdj22t8g0bbznbxyrvq1",
-        "title": "When were you last “feelin’ groovy”?",
-        "author": null,
-        "siteName": "Substack",
-        "category": "email",
-        "language": null,
-        "readingTime": "2 mins",
-        "readingMinutes": 2,
-        "wordCount": 331,
-        "publishedDate": "2026-09-19",
-        "savedDate": "2026-09-19T13:26:55.298000+00:00",
-        "imageUrl": null,
-        "sourceUrl": "mailto:reader-forwarded-email/6a9d590b95bb018c3932f009a73bf739",
-        "readwiseUrl": "https://read.readwise.io/read/01m2wxjdj22t8g0bbznbxyrvq1",
-        "summary": "The 1966 Simon & Garfunkle’s hit song—the 59th Street Bridge Song—keeps popping into my mind lately. I’m not sure why, though I suppose I needed a little reminder to stop.",
-        "whyRead": "Raakt je interesse in leren en persoonlijke groei: een luchtige reflectie op rust, slaap en de mentale ruimte waarin prioriteiten en ideeën kunnen ontstaan. De tekst is vooral een kleine herinnering, geen diepgravende neurowetenschappelijke uitleg.",
-        "bestMoment": "ontspannen",
-        "tags": [
-          "health & wellness",
-          "learning & meta-learning",
-          "personal growth & life philosophy"
-        ],
-        "coreInterests": [],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01m2wp5phh74wf40fa1x41hsg7",
-        "title": "My Books Needed a House of Their Own",
-        "author": null,
-        "siteName": "Substack",
-        "category": "email",
-        "language": null,
-        "readingTime": "9 mins",
-        "readingMinutes": 9,
-        "wordCount": 2267,
-        "publishedDate": "2026-09-19",
-        "savedDate": "2026-09-19T11:17:38.481000+00:00",
-        "imageUrl": null,
-        "sourceUrl": "mailto:reader-forwarded-email/b829d00adf7d75315d0dcda876959558",
-        "readwiseUrl": "https://read.readwise.io/read/01m2wp5phh74wf40fa1x41hsg7",
-        "summary": "When I was a girl of about seven years old, I placed my books on a small bookcase in the finished basement of my house and opened a library where my friends could check out books.",
-        "whyRead": "Raakt je interesse in boeken, essays en de culturele betekenis van lezen: een geestig en warm persoonlijk verslag van hoe een levenslange boekencollectie uitgroeit tot een eigen bibliotheek.",
-        "bestMoment": "ontspannen",
-        "tags": [
-          "arts & culture",
-          "learning & meta-learning",
-          "personal growth & life philosophy"
-        ],
-        "coreInterests": [],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01m2wkxx7qwk5x27g6q6xdfzg2",
-        "title": "Economic Size and Economic Power",
-        "author": null,
-        "siteName": "Substack",
-        "category": "email",
-        "language": null,
-        "readingTime": "36 mins",
-        "readingMinutes": 36,
-        "wordCount": 9321,
-        "publishedDate": "2026-09-19",
-        "savedDate": "2026-09-19T10:38:26.039000+00:00",
-        "imageUrl": null,
-        "sourceUrl": "mailto:reader-forwarded-email/723dbeaad1c967604eed7c4a69fd041d",
-        "readwiseUrl": "https://read.readwise.io/read/01m2wkxx7qwk5x27g6q6xdfzg2",
-        "summary": "Paul Krugman: Thanks to the ECB for having me here. Thank you all for listening.",
-        "whyRead": "Raakt je interesse in economie, politieke macht en geoeconomie: Paul Krugman laat zien hoe handelsafhankelijkheid, economische omvang en technologische specialisatie de machtsverhoudingen tussen de VS, China en Europa vormen.",
-        "bestMoment": "analytisch",
-        "tags": [
-          "current affairs & politics",
-          "economics"
-        ],
-        "coreInterests": [],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01m2wkf58jb9p3rks887ncdazb",
-        "title": "Scientific Evidence to Support 'Seven Generations' Future Thinking",
-        "author": null,
-        "siteName": "NRDC Worldview",
-        "category": "article",
-        "language": null,
-        "readingTime": "5 mins",
-        "readingMinutes": 5,
-        "wordCount": 1144,
-        "publishedDate": null,
-        "savedDate": "2026-09-19T10:30:22.737000+00:00",
-        "imageUrl": null,
-        "sourceUrl": "https://www.nrdc.org/bio/jennifer-sass/scientific-evidence-support-seven-generations-future-thinking-our-toxic-chemical",
-        "readwiseUrl": "https://read.readwise.io/read/01m2wkf58jb9p3rks887ncdazb",
-        "summary": "Native American tribes hold dear the concept of seven generations planning, that the impact of decisions should be considered out seven generations into the future, about 150 years.",
-        "whyRead": "Raakt je interesse in wetenschap, ethiek en duurzaamheid: de tekst verbindt het Zevengeneratieprincipe met epigenetica, chemische blootstelling en de politieke verantwoordelijkheid om risico’s over generaties heen te beoordelen.",
-        "bestMoment": "analytisch",
-        "tags": [
-          "environment & sustainability",
-          "ethics",
-          "science"
-        ],
-        "coreInterests": [
-          "filosofie"
-        ],
-        "alsoIn": [],
-        "memberships": []
       },
       {
         "position": null,
@@ -38889,7 +30969,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 61
+            "position": 62
           },
           {
             "familyId": "social-studies",
@@ -38897,272 +30977,6 @@ window.TOP_ARTICLES = {
             "position": 65
           }
         ]
-      },
-      {
-        "position": null,
-        "id": "01m2wka4ry6ngspt6x3pmrazgx",
-        "title": "12,000 Generations: On Deep Time, Grief, and the Body",
-        "author": null,
-        "siteName": "brennan.day",
-        "category": "article",
-        "language": null,
-        "readingTime": "5 mins",
-        "readingMinutes": 5,
-        "wordCount": 1213,
-        "publishedDate": "2026-02-25",
-        "savedDate": "2026-09-19T10:27:38.396000+00:00",
-        "imageUrl": "https://brennan.day/assets/images/blog/stone-age.jpg",
-        "sourceUrl": "https://brennan.day/12-000-generations-on-deep-time-grief-and-the-body/",
-        "readwiseUrl": "https://read.readwise.io/read/01m2wka4ry6ngspt6x3pmrazgx",
-        "summary": "Turning thirty during a breakup while the world unravels. Meditating on the 12,000 generations of homo sapiens that came before us, and what it means to be embodied in this particular moment of deep time.",
-        "whyRead": "Raakt je interesse in betekenisgeving, persoonlijke groei en klimaatfilosofie: dit persoonlijke essay brengt rouw, lichamelijkheid en het perspectief van 12.000 menselijke generaties samen. De meerwaarde zit in de manier waarop diepe tijd verdriet niet wegrelativeert maar menselijker kadert.",
-        "bestMoment": "reflectief",
-        "tags": [
-          "environment & sustainability",
-          "personal growth & life philosophy",
-          "philosophy"
-        ],
-        "coreInterests": [
-          "filosofie"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01m2wka1gz8qdhez1g37dsxx2g",
-        "title": "Internet manifesto",
-        "author": null,
-        "siteName": "sadgrl.online",
-        "category": "article",
-        "language": null,
-        "readingTime": "4 mins",
-        "readingMinutes": 4,
-        "wordCount": 931,
-        "publishedDate": null,
-        "savedDate": "2026-09-22T07:19:44.512000+00:00",
-        "imageUrl": null,
-        "sourceUrl": "https://sadgrl.online/posts/internet-manifesto/",
-        "readwiseUrl": "https://read.readwise.io/read/01m2wka1gz8qdhez1g37dsxx2g",
-        "summary": "“The villain here is not necessarily the Internet, or even the idea of social media; it is the invasive logic of commercial social media and its financial incentive to keep us in a profitable state of anxiety, envy, and distraction.",
-        "whyRead": "Raakt je interesse in digitale cultuur, small-webpraktijken en sociale systemen. Het manifest verschuift de aandacht van individuele websites naar groepsnormen, gedeelde verantwoordelijkheid en online ruimtes die minder door aandachtseconomie worden gevormd.",
-        "bestMoment": "geïnspireerd",
-        "tags": [
-          "arts & culture",
-          "sociology & social structures",
-          "technology"
-        ],
-        "coreInterests": [
-          "sociologie"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01m2wk9yp1npn2hqpdchdn10bq",
-        "title": "The internet’s hidden creative renaissance (and how to find it)",
-        "author": null,
-        "siteName": "substack.com",
-        "category": "article",
-        "language": null,
-        "readingTime": "8 mins",
-        "readingMinutes": 8,
-        "wordCount": 1899,
-        "publishedDate": "2025-09-07",
-        "savedDate": "2026-09-22T07:19:41.172000+00:00",
-        "imageUrl": "https://substackcdn.com/image/fetch/$s_!QfFx!,w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8a947760-85ee-4de6-a2b0-53130add1b13_1456x1048.png",
-        "sourceUrl": "https://newpublic.substack.com/p/the-handmade-internet-is-making-a",
-        "readwiseUrl": "https://read.readwise.io/read/01m2wk9yp1npn2hqpdchdn10bq",
-        "summary": "The indie web means the return of gifs, funky cursors, and personal websites",
-        "whyRead": null,
-        "bestMoment": null,
-        "tags": [
-          "arts & culture",
-          "front-end software development",
-          "technology"
-        ],
-        "coreInterests": [],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01m2wk9vnmf3ydfzgxy0nppqk2",
-        "title": "Revealed: The NSA's Secret Campaign to Crack, Undermine Internet Security",
-        "author": null,
-        "siteName": "ProPublica",
-        "category": "article",
-        "language": null,
-        "readingTime": "12 mins",
-        "readingMinutes": 12,
-        "wordCount": 3104,
-        "publishedDate": "2013-09-05",
-        "savedDate": "2026-09-19T10:27:29.076000+00:00",
-        "imageUrl": "https://assets.propublica.org/2017-pp-open-graph-1200x630.jpg",
-        "sourceUrl": "https://www.propublica.org/article/the-nsas-secret-campaign-to-crack-undermine-internet-encryption",
-        "readwiseUrl": "https://read.readwise.io/read/01m2wk9vnmf3ydfzgxy0nppqk2",
-        "summary": "Newly revealed documents show that the NSA has circumvented or cracked much of the encryption that automatically secures the emails, Web searches, Internet chats and phone calls of Americans and others around the world. The project, referred to internally by the codename Bullrun, also includes…",
-        "whyRead": null,
-        "bestMoment": null,
-        "tags": [
-          "current affairs & politics",
-          "sociology & social structures",
-          "technology"
-        ],
-        "coreInterests": [
-          "sociologie"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01m2wk490p0c3wm0ap0f83h838",
-        "title": "New Documents Reveal How ICE Mines Local Police Databases Across the Country",
-        "author": null,
-        "siteName": "theappeal.org",
-        "category": "article",
-        "language": null,
-        "readingTime": "13 mins",
-        "readingMinutes": 13,
-        "wordCount": 3420,
-        "publishedDate": "2018-04-26",
-        "savedDate": "2026-09-19T10:24:26.132000+00:00",
-        "imageUrl": "https://theappeal.org/wp-content/uploads/2018/05/0_b6J6U3Ed9IcLdBnL-1200x900.png",
-        "sourceUrl": "https://theappeal.org/new-documents-reveal-how-ice-mines-local-police-databases-across-the-country-660e2dfddbe3/",
-        "readwiseUrl": "https://read.readwise.io/read/01m2wk490p0c3wm0ap0f83h838",
-        "summary": "In cities across the country, Immigration and Customs Enforcement Homeland Security Investigations agents can mine local police reports using COPLINK, a data program little known outside law enforcement circles.",
-        "whyRead": null,
-        "bestMoment": null,
-        "tags": [
-          "current affairs & politics",
-          "sociology & social structures",
-          "technology"
-        ],
-        "coreInterests": [
-          "sociologie"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01m2wk44rgyz0bmhtw3qjfrvxm",
-        "title": "WEBMASTER@ a manifesto for everyone",
-        "author": null,
-        "siteName": "brennan.day",
-        "category": "article",
-        "language": null,
-        "readingTime": "15 mins",
-        "readingMinutes": 15,
-        "wordCount": 3945,
-        "publishedDate": "2026-08-16",
-        "savedDate": "2026-09-22T02:27:32.747000+00:00",
-        "imageUrl": "https://brennan.day/assets/images/blog/webmaster.jpg",
-        "sourceUrl": "https://brennan.day/webmaster-a-manifesto-for-everyone/",
-        "readwiseUrl": "https://read.readwise.io/read/01m2wk44rgyz0bmhtw3qjfrvxm",
-        "summary": "I'm reclaiming the title of 'webmaster' as the multidisciplinary creator who designs, develops, writes, and advocates for their own corner of the web and w…",
-        "whyRead": null,
-        "bestMoment": null,
-        "tags": [
-          "arts & culture",
-          "front-end software development",
-          "technology"
-        ],
-        "coreInterests": [],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01m2wk422yz3qk227v56rr5cd5",
-        "title": "The U.S. Government: Paying to Undermine Internet Security, Not to Fix It",
-        "author": null,
-        "siteName": "ProPublica",
-        "category": "article",
-        "language": null,
-        "readingTime": "4 mins",
-        "readingMinutes": 4,
-        "wordCount": 834,
-        "publishedDate": "2014-04-15",
-        "savedDate": "2026-09-19T10:24:19.038000+00:00",
-        "imageUrl": "https://assets.propublica.org/2017-pp-open-graph-1200x630.jpg",
-        "sourceUrl": "https://www.propublica.org/article/the-u.s.-government-paying-to-undermine-internet-security-not-to-fix-it",
-        "readwiseUrl": "https://read.readwise.io/read/01m2wk422yz3qk227v56rr5cd5",
-        "summary": "One lesson of the Heartbleed bug is that the U.S. needs to stop running Internet security like a Wikipedia volunteer project.",
-        "whyRead": null,
-        "bestMoment": null,
-        "tags": [
-          "current affairs & politics",
-          "sociology & social structures",
-          "technology"
-        ],
-        "coreInterests": [
-          "sociologie"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01m2wk3z1yffw7eq15jxr67sn8",
-        "title": "That's Home. That's us.",
-        "author": null,
-        "siteName": "brennan.day",
-        "category": "article",
-        "language": null,
-        "readingTime": "13 mins",
-        "readingMinutes": 13,
-        "wordCount": 3291,
-        "publishedDate": "2026-04-06",
-        "savedDate": "2026-09-19T10:24:15.934000+00:00",
-        "imageUrl": "https://brennan.day/assets/images/blog/hello-world.jpg",
-        "sourceUrl": "https://brennan.day/thats-home-thats-us/",
-        "readwiseUrl": "https://read.readwise.io/read/01m2wk3z1yffw7eq15jxr67sn8",
-        "summary": "We have the first human photograph of Earth from space in 54 years, and I can't help but meditate on what it means to be human on a fragile planet in 2026.",
-        "whyRead": "Raakt je interesse in filosofie, betekenisgeving en klimaat: dit essay gebruikt de Pale Blue Dot en kosmisch perspectief om verbondenheid te verbinden met concreet onrecht. De meerwaarde zit in de spanning tussen eenheid op grote schaal en aandacht voor specifieke mensen en machtsverhoudingen.",
-        "bestMoment": "reflectief",
-        "tags": [
-          "environment & sustainability",
-          "personal growth & life philosophy",
-          "philosophy"
-        ],
-        "coreInterests": [
-          "filosofie"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01m2wjm7zrpkhben7yze1sw01r",
-        "title": "There is so much to love and celebrate. Reclaim joy. Be open. Forgive.",
-        "author": null,
-        "siteName": "brennan.day",
-        "category": "article",
-        "language": null,
-        "readingTime": "5 mins",
-        "readingMinutes": 5,
-        "wordCount": 1305,
-        "publishedDate": "2026-09-13",
-        "savedDate": "2026-09-19T10:15:40.792000+00:00",
-        "imageUrl": "https://brennan.day/assets/images/blog/double-rainbow.jpg",
-        "sourceUrl": "https://brennan.day/there-is-so-much-to-love-and-celebrate-reclaim-joy-be-open-forgive/",
-        "readwiseUrl": "https://read.readwise.io/read/01m2wjm7zrpkhben7yze1sw01r",
-        "summary": "Taking stock of myself and the world, I reflect on the overwhelming joy of being alive on this Pale Blue Dot—from the billions keeping civilization running…",
-        "whyRead": "Raakt je interesse in filosofie, open source en machtsstructuren: dit persoonlijke essay zoekt een manier om verzet tegen schadelijke systemen te combineren met vreugde, vergeving en vertrouwen in menselijke samenwerking. De open-web- en commonspassages sluiten aan bij je interesse in kennis- en webcultuur.",
-        "bestMoment": "reflectief",
-        "tags": [
-          "personal growth & life philosophy",
-          "philosophy",
-          "technology"
-        ],
-        "coreInterests": [
-          "filosofie"
-        ],
-        "alsoIn": [],
-        "memberships": []
       },
       {
         "position": null,
@@ -39277,36 +31091,6 @@ window.TOP_ARTICLES = {
       },
       {
         "position": null,
-        "id": "01m2wjkmxwryff3kpjds54225j",
-        "title": "Ladybird and the Controversy over Inclusivity",
-        "author": null,
-        "siteName": "Kelson Vibber: New Posts",
-        "category": "article",
-        "language": null,
-        "readingTime": "3 mins",
-        "readingMinutes": 3,
-        "wordCount": 774,
-        "publishedDate": "2025-03-07",
-        "savedDate": "2026-09-19T10:15:21.276000+00:00",
-        "imageUrl": "https://kvibber.com/reviews/images/keyboard-og.jpg",
-        "sourceUrl": "https://kvibber.com/reviews/software/ladybird-inclusivity/",
-        "readwiseUrl": "https://read.readwise.io/read/01m2wjkmxwryff3kpjds54225j",
-        "summary": "What people were upset about, why it blew up, and why some people are still leery of the project to this day.",
-        "whyRead": "Raakt je interesse in front-end software development en teamdynamiek: de casus rond de Ladybird-browser laat zien hoe een project zichzelf als neutraal kan presenteren terwijl inclusie en veiligheid als “politiek” worden weggezet. Het toont hoe projectcultuur in ontwerp- en codebesluiten terechtkomt.",
-        "bestMoment": "kritisch",
-        "tags": [
-          "front-end software development",
-          "organizational behavior & culture",
-          "team dynamics & collaboration"
-        ],
-        "coreInterests": [
-          "agile"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
         "id": "01m2wjkek800m70692sxhjpze6",
         "title": "Hyprland Banned from FreeDesktop: Why.",
         "author": null,
@@ -39400,96 +31184,6 @@ window.TOP_ARTICLES = {
             "position": 2
           }
         ]
-      },
-      {
-        "position": null,
-        "id": "01m2whxp57gspyhtg8wkwyx5w3",
-        "title": "Stop Omarchy",
-        "author": null,
-        "siteName": "stopomarchy.org",
-        "category": "article",
-        "language": null,
-        "readingTime": "8 mins",
-        "readingMinutes": 8,
-        "wordCount": 1894,
-        "publishedDate": null,
-        "savedDate": "2026-09-19T10:03:21.639000+00:00",
-        "imageUrl": null,
-        "sourceUrl": "https://stopomarchy.org/accessible",
-        "readwiseUrl": "https://read.readwise.io/read/01m2whxp57gspyhtg8wkwyx5w3",
-        "summary": "Protest against the Omarchy/Omacom Foundation and the tech companies and executives funding far-right open source. Accessible, high-legibility version.",
-        "whyRead": "Raakt je interesse in politieke ideologieën, tech en machtsstructuren: deze fact sheet onderzoekt hoe financiering en reputatievorming een extreemrechts project in open source kunnen normaliseren. De tekst is polemisch, maar bevat concrete namen, bedragen, verbanden en technische bezwaren.",
-        "bestMoment": "kritisch",
-        "tags": [
-          "current affairs & politics",
-          "technology",
-          "totalitarianism & fascism"
-        ],
-        "coreInterests": [
-          "ideologie"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01m2wemb0n436nndg33aydfnd2",
-        "title": "AI-bedrijven hebben hun ziel verkocht om de jouwe te stelen",
-        "author": null,
-        "siteName": "beehiiv.com",
-        "category": "email",
-        "language": null,
-        "readingTime": "8 mins",
-        "readingMinutes": 8,
-        "wordCount": 2057,
-        "publishedDate": "2026-09-19",
-        "savedDate": "2026-09-19T09:05:49.590000+00:00",
-        "imageUrl": null,
-        "sourceUrl": "mailto:reader-forwarded-email/d04f75efe49281e439224c6a5eccd7ab",
-        "readwiseUrl": "https://read.readwise.io/read/01m2wemb0n436nndg33aydfnd2",
-        "summary": "Elke zaterdag publiceert AI Report een Nederlandse vertaling van een artikel dat Alberto Romero schreef voor The Algorithmic Bridge.",
-        "whyRead": "Raakt je interesse in AI-ethiek, surveillance en sociale psychologie: dit Nederlandse essay laat zien hoe generatieve AI en sociale platforms menselijk gedrag verzamelen, voorspellen en beïnvloeden. De toegankelijke, essayistische vorm maakt het alarmistische argument bespreekbaar.",
-        "bestMoment": "kritisch",
-        "tags": [
-          "ai ethics & society",
-          "social psychology & interpersonal dynamics",
-          "technology"
-        ],
-        "coreInterests": [
-          "sociologie"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01m2w55dshm2x7mk6ptbk8amqq",
-        "title": "De apocalyps wordt overschat",
-        "author": null,
-        "siteName": "De Correspondent",
-        "category": "email",
-        "language": null,
-        "readingTime": "6 mins",
-        "readingMinutes": 6,
-        "wordCount": 1448,
-        "publishedDate": "2026-09-19",
-        "savedDate": "2026-09-19T06:20:23.729000+00:00",
-        "imageUrl": null,
-        "sourceUrl": "mailto:reader-forwarded-email/b27a616d394bc3e2bcef39e0d9fb7349",
-        "readwiseUrl": "https://read.readwise.io/read/01m2w55dshm2x7mk6ptbk8amqq",
-        "summary": "Een jaar of tien geleden had ik een obsessie met het einde der tijden.",
-        "whyRead": "Raakt je interesse in maatschappij, klimaatpolitiek en machtsstructuren. De meerwaarde is een Nederlandse analyse van klimaatverandering als verdelingsvraagstuk: niet het einde van de wereld, maar ongelijke schade en elites die zich aan verantwoordelijkheid onttrekken.",
-        "bestMoment": "kritisch",
-        "tags": [
-          "current affairs & politics",
-          "environment & sustainability",
-          "sociology & social structures"
-        ],
-        "coreInterests": [
-          "sociologie"
-        ],
-        "alsoIn": [],
-        "memberships": []
       },
       {
         "position": null,
@@ -39619,36 +31313,6 @@ window.TOP_ARTICLES = {
       },
       {
         "position": null,
-        "id": "01m2w4wdd7rc0rb28gyhnd5t4z",
-        "title": "How to think like a Hegelian",
-        "author": null,
-        "siteName": "Psyche",
-        "category": "article",
-        "language": null,
-        "readingTime": "16 mins",
-        "readingMinutes": 16,
-        "wordCount": 4146,
-        "publishedDate": "2026-08-10",
-        "savedDate": "2026-09-19T06:15:28.423000+00:00",
-        "imageUrl": "https://images.aeonmedia.co/images/c714d0d2-85d6-4275-a3f7-bee00259632e/sz-grapefruit-gettyimages-86013419.jpg?top=147&left=0&cropWidth=2528&cropHeight=1422&width=1200&quality=75&format=jpeg",
-        "sourceUrl": "https://psyche.co/guides/how-to-think-like-a-hegelian",
-        "readwiseUrl": "https://read.readwise.io/read/01m2w4wdd7rc0rb28gyhnd5t4z",
-        "summary": "For Hegel, your thoughts aren’t trapped in a cerebral box: they act on the world, making meaning and expressing your freedom",
-        "whyRead": "Raakt je interesse in filosofie en politieke theorie, met een toegankelijke ingang tot Hegels moeilijke werk. De meerwaarde is het idee dat denken geen privéactiviteit is, maar een handelende kracht die de wereld betekenis geeft en daarmee met vrijheid verbonden is.",
-        "bestMoment": "analytisch",
-        "tags": [
-          "philosophy",
-          "political philosophy"
-        ],
-        "coreInterests": [
-          "filosofie",
-          "ideologie"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
         "id": "01m2w4wa0sspde6x1j82q8jhrd",
         "title": "Escaping The Retrospective Theatre – How to Make Real Impact Again",
         "author": null,
@@ -39684,188 +31348,6 @@ window.TOP_ARTICLES = {
             "position": 68
           }
         ]
-      },
-      {
-        "position": null,
-        "id": "01m2w4vde6txyr0jfnsy7r6dyf",
-        "title": "Bad Science and Bad Statistics in the Courtroom Convict Innocent People",
-        "author": null,
-        "siteName": "Scientific American",
-        "category": "article",
-        "language": null,
-        "readingTime": "6 mins",
-        "readingMinutes": 6,
-        "wordCount": 1360,
-        "publishedDate": "2023-12-08",
-        "savedDate": "2026-09-19T06:14:55.686000+00:00",
-        "imageUrl": "https://static.scientificamerican.com/sciam/cache/file/7562EC81-BB0A-4EF1-9530C073F3497314_source.jpg?w=1200",
-        "sourceUrl": "https://www.scientificamerican.com/article/bad-science-and-bad-statistics-in-the-courtroom-convict-innocent-people/",
-        "readwiseUrl": "https://read.readwise.io/read/01m2w4vde6txyr0jfnsy7r6dyf",
-        "summary": "Science, statistics and expert testimony are crucial in securing justice. But their dubious applications in the courtroom can send innocent people to jail",
-        "whyRead": "Raakt je interesse in wetenschap, sociale psychologie en de manier waarop instituties onzeker bewijs gebruiken. De meerwaarde is een heldere analyse van hoe forensische claims en statistieken door rechters en jury’s kunnen worden overschat.",
-        "bestMoment": "kritisch",
-        "tags": [
-          "ethics",
-          "science",
-          "social psychology & interpersonal dynamics"
-        ],
-        "coreInterests": [
-          "filosofie",
-          "sociologie"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01m2w4vaw0yzqp0p9k0p87zmj1",
-        "title": "A Civil Rights Expert Explains the Social Science of Police Racism",
-        "author": null,
-        "siteName": "Scientific American",
-        "category": "article",
-        "language": null,
-        "readingTime": "7 mins",
-        "readingMinutes": 7,
-        "wordCount": 1832,
-        "publishedDate": "2020-06-04",
-        "savedDate": "2026-09-19T06:14:53.056000+00:00",
-        "imageUrl": "https://static.scientificamerican.com/sciam/cache/file/E2AB7852-3B92-4FC5-B58F07BBB00C4101.jpg",
-        "sourceUrl": "https://www.scientificamerican.com/article/a-civil-rights-expert-explains-the-social-science-of-police-racism/",
-        "readwiseUrl": "https://read.readwise.io/read/01m2w4vaw0yzqp0p9k0p87zmj1",
-        "summary": "Columbia University attorney Alexis J. Hoag discusses the history of how we got to this point and the ways that researchers can help reduce bias against black Americans throughout the legal system",
-        "whyRead": "Raakt je interesse in macht, sociale structuren en institutioneel gedrag. De meerwaarde is een inhoudelijke uitleg van politiegeweld en racisme in de Amerikaanse context, met aandacht voor geschiedenis, instituties en de verantwoordelijkheid van omstanders.",
-        "bestMoment": "kritisch",
-        "tags": [
-          "current affairs & politics",
-          "social psychology & interpersonal dynamics",
-          "sociology & social structures"
-        ],
-        "coreInterests": [
-          "sociologie"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01m2w4v7w7zv7sbqyqha590tsg",
-        "title": "Video evidence and eye witness accounts: Why people see different things",
-        "author": null,
-        "siteName": "Scientific American",
-        "category": "article",
-        "language": null,
-        "readingTime": "6 mins",
-        "readingMinutes": 6,
-        "wordCount": 1353,
-        "publishedDate": "2026-01-26",
-        "savedDate": "2026-09-19T06:14:49.991000+00:00",
-        "imageUrl": "https://static.scientificamerican.com/dam/m/5cb8a9170a6dc70c/original/police-protest-video.jpg?m=1769452301.779&w=1200",
-        "sourceUrl": "https://www.scientificamerican.com/article/the-science-of-why-video-evidence-can-mess-with-our-brain/",
-        "readwiseUrl": "https://read.readwise.io/read/01m2w4v7w7zv7sbqyqha590tsg",
-        "summary": "Why can people watch the same video footage and see different things? Neuroscience can help explain",
-        "whyRead": "Raakt je interesse in sociale psychologie, kritisch denken en hoe mensen dezelfde werkelijkheid verschillend waarnemen. De meerwaarde is een concrete casus over video als schijnbaar objectief bewijs en de biases die interpretatie sturen.",
-        "bestMoment": "analytisch",
-        "tags": [
-          "science",
-          "social psychology & interpersonal dynamics"
-        ],
-        "coreInterests": [
-          "sociologie"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01m2w4v3prm44b9vfr56gjb7pn",
-        "title": "Nederlandse jongeren zijn na de pandemie weer supersociaal (en dat is bijzonder)",
-        "author": null,
-        "siteName": "De Correspondent",
-        "category": "article",
-        "language": null,
-        "readingTime": "4 mins",
-        "readingMinutes": 4,
-        "wordCount": 905,
-        "publishedDate": "2026-09-14",
-        "savedDate": "2026-09-19T06:14:45.720000+00:00",
-        "imageUrl": "https://useruploads.cdn-decorrespondent.nl/image/Mywt-64fSfpSv1CaS4iBCkbz5gA=/1590x894/dc-useruploads-images/e5a1948aabc54ec8b2cd5e0d1745cda2.jpg",
-        "sourceUrl": "https://decorrespondent.nl/17234/nederlandse-jongeren-zijn-na-de-pandemie-weer-supersociaal-en-dat-is-bijzonder/e66559e9-fdec-0e37-2fdd-7648a573aac9",
-        "readwiseUrl": "https://read.readwise.io/read/01m2w4v3prm44b9vfr56gjb7pn",
-        "summary": "Slecht nieuws: in de Verenigde Staten lijkt de lockdown voor jongeren nog van kracht. Ze zoeken elkaar weinig op, zijn vaak alleen. Beter nieuws: Nederlandse jongeren spreken veel meer met elkaar af dan hun leeftijdsgenoten in de VS én elders in Europa.",
-        "whyRead": "Raakt je interesse in de Nederlandse samenleving, sociale structuren en menselijke verbondenheid. De meerwaarde is een luchtige maar cijfermatige vergelijking waaruit blijkt dat Nederlandse jongeren na de pandemie opvallend vaak sociaal contact onderhouden.",
-        "bestMoment": "ontspannen",
-        "tags": [
-          "social psychology & interpersonal dynamics",
-          "sociology & social structures"
-        ],
-        "coreInterests": [
-          "sociologie"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01m2w4tz8te5k0p0cnpyvxqdt0",
-        "title": "New DNA Tests Are Identifying Missing Persons and Solving Crimes",
-        "author": null,
-        "siteName": "Scientific American",
-        "category": "article",
-        "language": null,
-        "readingTime": "4 mins",
-        "readingMinutes": 4,
-        "wordCount": 1046,
-        "publishedDate": "2023-10-18",
-        "savedDate": "2026-09-19T06:14:41.179000+00:00",
-        "imageUrl": "https://static.scientificamerican.com/sciam/cache/file/58536340-4FC4-4CEB-815F64F6717DAB5D.jpg",
-        "sourceUrl": "https://www.scientificamerican.com/article/new-dna-tests-are-identifying-missing-persons-and-solving-crimes/",
-        "readwiseUrl": "https://read.readwise.io/read/01m2w4tz8te5k0p0cnpyvxqdt0",
-        "summary": "Every year about 1000 human remains go unidentified in the U.S. New genetic technology can give them names and return them to their families",
-        "whyRead": "Raakt je interesse in wetenschap, geschiedenis en structurele ongelijkheid. De meerwaarde is een menselijk verhaal over nieuwe DNA-technieken die vermiste personen kunnen identificeren, met bijzondere aandacht voor vermiste Indigenous women.",
-        "bestMoment": "kritisch",
-        "tags": [
-          "history",
-          "science",
-          "sociology & social structures"
-        ],
-        "coreInterests": [
-          "geschiedenis",
-          "sociologie"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01m2w4tdjqpk20a07b0r341gcc",
-        "title": "Journalist, kom in verzet. Zo versla je extremisme",
-        "author": null,
-        "siteName": "De Correspondent",
-        "category": "article",
-        "language": null,
-        "readingTime": "23 mins",
-        "readingMinutes": 23,
-        "wordCount": 5878,
-        "publishedDate": "2026-09-16",
-        "savedDate": "2026-09-19T06:14:23.063000+00:00",
-        "imageUrl": "https://useruploads.cdn-decorrespondent.nl/image/m4--2CDlu_8NrrwfpGpPabEr1DE=/1590x1060/dc-useruploads-images/dd496a0c07814630b480a20b4dea885f.jpg",
-        "sourceUrl": "https://decorrespondent.nl/17246/journalist-kom-in-verzet-zo-versla-je-extremisme/ffb53acf-7c29-01d7-3af4-9b43fb1a2ae0",
-        "readwiseUrl": "https://read.readwise.io/read/01m2w4tdjqpk20a07b0r341gcc",
-        "summary": "Wereldwijd worden journalisten geïntimideerd, gearresteerd en zelfs vermoord. Ondertussen blijven zij machthebbers die hén monddood willen maken de microfoon geven. Nu de democratie op het spel staat, moet de aanpak van journalisten veranderen. Want de samenleving heeft dringend een tegenmacht nodig.",
-        "whyRead": "Raakt je interesse in politieke ideologieën, extremisme, democratische tegenmacht en de Nederlandse publieke sfeer. De meerwaarde is een essayistische oproep om journalistiek niet alleen als neutrale marktplaats van meningen te zien, maar als actieve bescherming tegen macht en desinformatie.",
-        "bestMoment": "kritisch",
-        "tags": [
-          "current affairs & politics",
-          "political philosophy",
-          "sociology & social structures"
-        ],
-        "coreInterests": [
-          "filosofie",
-          "ideologie",
-          "sociologie"
-        ],
-        "alsoIn": [],
-        "memberships": []
       },
       {
         "position": null,
@@ -39961,66 +31443,6 @@ window.TOP_ARTICLES = {
       },
       {
         "position": null,
-        "id": "01m2w0sc4n934fnr0125xak6aq",
-        "title": "God schiep de wereld, maar de linkerhersenhelft schiep Nederland",
-        "author": null,
-        "siteName": "Substack",
-        "category": "email",
-        "language": null,
-        "readingTime": "13 mins",
-        "readingMinutes": 13,
-        "wordCount": 3283,
-        "publishedDate": "2026-09-19",
-        "savedDate": "2026-09-19T05:03:54.518000+00:00",
-        "imageUrl": null,
-        "sourceUrl": "mailto:reader-forwarded-email/5295396e21bf78dab8142140a2e226f2",
-        "readwiseUrl": "https://read.readwise.io/read/01m2w0sc4n934fnr0125xak6aq",
-        "summary": "Onlangs was de Britse filosoof en neuropsychiater Iain McGilchrist bij ons te gast in De Ongelooflijke Podcast.",
-        "whyRead": "Raakt je interesse in filosofie, Nederlandse samenleving en persoonlijke levenspraktijk. De meerwaarde is een essayistische kritiek op efficiëntie- en nutdenken, verbonden aan de vraag hoe aandacht, gemeenschap, natuur en spiritualiteit ons wereldbeeld vormen.",
-        "bestMoment": "reflectief",
-        "tags": [
-          "personal growth & life philosophy",
-          "philosophy",
-          "sociology & social structures"
-        ],
-        "coreInterests": [
-          "filosofie",
-          "sociologie"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01m2vfygz6cmq7vrd07tv8nnx0",
-        "title": "Why Science Tells Us Not to Rely on Eyewitness Accounts",
-        "author": null,
-        "siteName": "Scientific American",
-        "category": "article",
-        "language": null,
-        "readingTime": "5 mins",
-        "readingMinutes": 5,
-        "wordCount": 1065,
-        "publishedDate": "2010-01-01",
-        "savedDate": "2026-09-19T00:09:37.510000+00:00",
-        "imageUrl": "https://www.scientificamerican.com/static/sciam-mark.jpg",
-        "sourceUrl": "https://www.scientificamerican.com/article.cfm?id=do-the-eyes-have-it",
-        "readwiseUrl": "https://read.readwise.io/read/01m2vfygz6cmq7vrd07tv8nnx0",
-        "summary": "Eyewitness testimony is fickle and, all too often, shockingly inaccurate",
-        "whyRead": "Raakt je interesse in wetenschap, sociale psychologie en kritisch denken. De meerwaarde is een concrete, goed onderbouwde correctie op het intuïtieve vertrouwen in ooggetuigen en op de veronderstelling dat zekerheid gelijkstaat aan nauwkeurigheid.",
-        "bestMoment": "analytisch",
-        "tags": [
-          "science",
-          "social psychology & interpersonal dynamics"
-        ],
-        "coreInterests": [
-          "sociologie"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
         "id": "01m2v933nvk91pcmv113dqmjd8",
         "title": "What You Told Me About the Letters After My Name",
         "author": null,
@@ -40047,16 +31469,8 @@ window.TOP_ARTICLES = {
           "sociologie",
           "agile"
         ],
-        "alsoIn": [
-          "aaa-short-top-100"
-        ],
-        "memberships": [
-          {
-            "familyId": "kort",
-            "size": "top-100",
-            "position": 100
-          }
-        ]
+        "alsoIn": [],
+        "memberships": []
       },
       {
         "position": null,
@@ -40117,116 +31531,6 @@ window.TOP_ARTICLES = {
       },
       {
         "position": null,
-        "id": "01m2v443xe16pkkef866x46ac6",
-        "title": "Making Connections",
-        "author": null,
-        "siteName": "Scientific American",
-        "category": "article",
-        "language": null,
-        "readingTime": "13 mins",
-        "readingMinutes": 13,
-        "wordCount": 3266,
-        "publishedDate": "2010-07-01",
-        "savedDate": "2026-09-18T20:42:57.839000+00:00",
-        "imageUrl": "http://www.scientificamerican.com/themes/responsive/images/global/oglogo.png",
-        "sourceUrl": "https://www.scientificamerican.com/article/making-connections/?utm_source=substack&utm_medium=email",
-        "readwiseUrl": "https://read.readwise.io/read/01m2v443xe16pkkef866x46ac6",
-        "summary": "The essence of memory is linking one thought to another",
-        "whyRead": "Raakt je interesse in leren, geheugen en kennisbeheer. De meerwaarde is een heldere populair-wetenschappelijke uitleg waarom nieuwe kennis beter blijft hangen wanneer je die bewust verbindt met wat je al weet.",
-        "bestMoment": "leergierig",
-        "tags": [
-          "learning & meta-learning",
-          "science"
-        ],
-        "coreInterests": [],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01m2v43yjbqztrfc8yf0hn8kt4",
-        "title": "Retrieval Practice",
-        "author": null,
-        "siteName": "ucsd.edu",
-        "category": "article",
-        "language": null,
-        "readingTime": "3 mins",
-        "readingMinutes": 3,
-        "wordCount": 756,
-        "publishedDate": null,
-        "savedDate": "2026-09-18T20:42:52.364000+00:00",
-        "imageUrl": "",
-        "sourceUrl": "https://psychology.ucsd.edu/undergraduate-program/undergraduate-resources/academic-writing-resources/effective-studying/retrieval-practice.html?utm_source=substack&utm_medium=email",
-        "readwiseUrl": "https://read.readwise.io/read/01m2v43yjbqztrfc8yf0hn8kt4",
-        "summary": "What you should be doing when studying for a course isn’t just “studying”.",
-        "whyRead": "Raakt je interesse in leren en zelfgestuurd kennisbeheer. De meerwaarde is een evidence-based alternatief voor herlezen: oefenen met ophalen maakt leren actiever en bereidt direct voor op wat examens en echte toepassing vragen.",
-        "bestMoment": "leergierig",
-        "tags": [
-          "learning & meta-learning",
-          "science"
-        ],
-        "coreInterests": [],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01m2tvbmrtr6ycwcy3d33w3an0",
-        "title": "How to stop forgetting what you read",
-        "author": null,
-        "siteName": "Scott H Young",
-        "category": "email",
-        "language": null,
-        "readingTime": "3 mins",
-        "readingMinutes": 3,
-        "wordCount": 749,
-        "publishedDate": "2026-09-18",
-        "savedDate": "2026-09-18T18:09:47.291000+00:00",
-        "imageUrl": null,
-        "sourceUrl": "mailto:reader-forwarded-email/1ea7b30b0d377dfb82e1c5fd735d4241",
-        "readwiseUrl": "https://read.readwise.io/read/01m2tvbmrtr6ycwcy3d33w3an0",
-        "summary": "When my team and I released a video detailing my AHAB approach to reading more books (the method that helped me get through 105 books during my Foundations project), I got some comments pushing back on the idea of reading so much.",
-        "whyRead": "Raakt je interesse in leren, kennisbeheer en zelfgestuurd lezen. Scott Young laat zien dat onthouden vooral wordt bepaald door wat je al weet, en dat meer lezen en beter lezen elkaar kunnen versterken.",
-        "bestMoment": "leergierig",
-        "tags": [
-          "learning & meta-learning",
-          "personal growth & life philosophy",
-          "professional development"
-        ],
-        "coreInterests": [],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01m2ttntvc0y6ng20exfeq7r68",
-        "title": "The Overhang",
-        "author": null,
-        "siteName": "Substack",
-        "category": "email",
-        "language": null,
-        "readingTime": "8 mins",
-        "readingMinutes": 8,
-        "wordCount": 2106,
-        "publishedDate": "2026-09-18",
-        "savedDate": "2026-09-18T17:57:52.620000+00:00",
-        "imageUrl": null,
-        "sourceUrl": "mailto:reader-forwarded-email/8e06553b31e37d78ee608775cd817429",
-        "readwiseUrl": "https://read.readwise.io/read/01m2ttntvc0y6ng20exfeq7r68",
-        "summary": "We are still on an exponential curve of AI development. I try to put out a Substack post every couple weeks or so, yet, as the pace speeds up, that sometimes feels too slow.",
-        "whyRead": "Raakt je kerninteresse in AI, AI-ethiek en leren/kennisbeheer. De meerwaarde is een concrete manier om AI niet alleen als vervanger maar als versterker te begrijpen: menselijke expertise, brede kennis, smaak en handelingsvermogen bepalen wat je ermee kunt doen.",
-        "bestMoment": "analytisch",
-        "tags": [
-          "ai ethics & society",
-          "learning & meta-learning",
-          "technology"
-        ],
-        "coreInterests": [],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
         "id": "01m2trsgdcxhsc4gf0trmbfvzq",
         "title": "No, But",
         "author": null,
@@ -40265,239 +31569,6 @@ window.TOP_ARTICLES = {
       },
       {
         "position": null,
-        "id": "01m2tg2r6zds4ze0pnmew2h69b",
-        "title": "5 Stoic Principles for Emotional Strength",
-        "author": null,
-        "siteName": "Substack",
-        "category": "email",
-        "language": null,
-        "readingTime": "7 mins",
-        "readingMinutes": 7,
-        "wordCount": 1682,
-        "publishedDate": "2026-09-18",
-        "savedDate": "2026-09-18T14:52:41.568000+00:00",
-        "imageUrl": null,
-        "sourceUrl": "mailto:reader-forwarded-email/e66b2471e977a06489467d780fffcfde",
-        "readwiseUrl": "https://read.readwise.io/read/01m2tg2r6zds4ze0pnmew2h69b",
-        "summary": "In 108 AD, a lame former slave named Epictetus sat in a modest school he had built outside Rome, teaching young men who had traveled long distances to hear him speak. He owned almost nothing.",
-        "whyRead": "Raakt je interesse in filosofie, emotionele regulatie en persoonlijke levenspraktijk. De stoïcijnse principes bieden een toegankelijke ingang tot de vraag hoe je oordeel en aandacht kunt trainen zonder gevoelens simpelweg te onderdrukken.",
-        "bestMoment": "leergierig",
-        "tags": [
-          "behavioral psychology & coaching",
-          "personal growth & life philosophy",
-          "philosophy"
-        ],
-        "coreInterests": [
-          "filosofie"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01m2t7th4pqdts96wrmcap3196",
-        "title": "Goedgelovig",
-        "author": null,
-        "siteName": "Johan Fretz: De After. ",
-        "category": "article",
-        "language": null,
-        "readingTime": "2 mins",
-        "readingMinutes": 2,
-        "wordCount": 375,
-        "publishedDate": "2026-09-18",
-        "savedDate": "2026-09-18T12:28:23.511000+00:00",
-        "imageUrl": "https://substackcdn.com/image/fetch/$s_!N37W!,f_auto,q_auto:best,fl_progressive:steep/https%3A%2F%2Fjohanfretz.substack.com%2Fapi%2Fv1%2Fpost_selection_image%2F216261789%2F9f028405-eeb6-45bc-a78c-c33b3821a1e4.jpg%3FaspectRatio%3Dlink%26version%3D11",
-        "sourceUrl": "https://johanfretz.substack.com/p/goedgelovig?selection=9f028405-eeb6-45bc-a78c-c33b3821a1e4",
-        "readwiseUrl": "https://read.readwise.io/read/01m2t7th4pqdts96wrmcap3196",
-        "summary": "Komeetje 03",
-        "whyRead": "Raakt je interesse in Nederlandse politiek en sociale systemen: een geestige, essayistische prik in het idee dat het brede midden iedereen kan insluiten, ook wanneer politieke opvattingen fundamenteel botsen.",
-        "bestMoment": "kritisch",
-        "tags": [
-          "current affairs & politics",
-          "social psychology & interpersonal dynamics"
-        ],
-        "coreInterests": [
-          "sociologie"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01m2t283qqjf66dnws0vg6npxv",
-        "title": "Fear Strikes Out",
-        "author": null,
-        "siteName": "Substack",
-        "category": "email",
-        "language": null,
-        "readingTime": "4 mins",
-        "readingMinutes": 4,
-        "wordCount": 955,
-        "publishedDate": "2026-09-18",
-        "savedDate": "2026-09-18T10:50:57.144000+00:00",
-        "imageUrl": null,
-        "sourceUrl": "mailto:reader-forwarded-email/13aa7a38272ddfac00009e54e3008ff5",
-        "readwiseUrl": "https://read.readwise.io/read/01m2t283qqjf66dnws0vg6npxv",
-        "summary": "On Wednesday Ursula von der Leyen, president of the European Commission, gave a speech affirming the EU’s willingness to move toward making Canada an “associate member.",
-        "whyRead": "Raakt je interesse in internationale macht en politieke filosofie: Paul Krugman analyseert hoe Europese en Canadese leiders hun afhankelijkheid van de Verenigde Staten proberen te verkleinen terwijl Trumps afschrikking afneemt.",
-        "bestMoment": "kritisch",
-        "tags": [
-          "current affairs & politics",
-          "political philosophy"
-        ],
-        "coreInterests": [
-          "filosofie",
-          "ideologie"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01m2szzemxksxychyagajb5v8x",
-        "title": "Wie kiest de AI in het ziekenhuis?",
-        "author": null,
-        "siteName": "Substack",
-        "category": "email",
-        "language": null,
-        "readingTime": "10 mins",
-        "readingMinutes": 10,
-        "wordCount": 2644,
-        "publishedDate": "2026-09-18",
-        "savedDate": "2026-09-18T10:11:16.254000+00:00",
-        "imageUrl": null,
-        "sourceUrl": "mailto:reader-forwarded-email/89bafdd4abeef9d6385fce7b59b4854d",
-        "readwiseUrl": "https://read.readwise.io/read/01m2szzemxksxychyagajb5v8x",
-        "summary": "Wij zijn Saskia en Alinda, en we schrijven wekelijks over AI voor vrouwen die ermee willen (leren) werken. Door niet alleen erover te lezen, maar vooral te doen.",
-        "whyRead": "Raakt je interesse in AI-ethiek en de Nederlandse zorg: twee zorgprofessionals laten zien waar AI al helpt, maar ook hoe verantwoordelijkheden, bias, EPD-systemen en opleiding de echte randvoorwaarden bepalen.",
-        "bestMoment": "leergierig",
-        "tags": [
-          "ai ethics & society",
-          "health & wellness",
-          "technology"
-        ],
-        "coreInterests": [],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01m2szkb949wbvrz278jwxmadf",
-        "title": "We Have Lost the Ability to Have a Rational Conversation About AI",
-        "author": null,
-        "siteName": "Sinéad Bovell",
-        "category": "article",
-        "language": null,
-        "readingTime": "6 mins",
-        "readingMinutes": 6,
-        "wordCount": 1471,
-        "publishedDate": "2026-09-17",
-        "savedDate": "2026-09-18T10:04:39.531000+00:00",
-        "imageUrl": "https://substackcdn.com/image/fetch/$s_!nSHK!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F6339d858-2ed6-48af-beda-7b1f51a86e16_1536x1024.png",
-        "sourceUrl": "https://sineadbovell.substack.com/p/we-have-lost-the-ability-to-have",
-        "readwiseUrl": "https://read.readwise.io/read/01m2szkb949wbvrz278jwxmadf",
-        "summary": "AI risks, the backlash, and what we should actually be building",
-        "whyRead": "Raakt je interesse in AI-ethiek, technologie en maatschappelijke instituties: dit stuk zoekt een concreet midden tussen AI-paniek en techno-optimisme door onafhankelijke audits als publieke infrastructuur te bespreken.",
-        "bestMoment": "kritisch",
-        "tags": [
-          "ai ethics & society",
-          "current affairs & politics",
-          "technology"
-        ],
-        "coreInterests": [],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01m2st98b55p3r77p6ettdfz8j",
-        "title": "An Anti-Algorithm Media Compendium for Literary Folks",
-        "author": null,
-        "siteName": "strangepilgrims.com",
-        "category": "article",
-        "language": null,
-        "readingTime": "10 mins",
-        "readingMinutes": 10,
-        "wordCount": 2501,
-        "publishedDate": "2025-10-20",
-        "savedDate": "2026-09-18T08:31:45.918000+00:00",
-        "imageUrl": "https://substackcdn.com/image/fetch/$s_!_8VV!,w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F2ddfb890-ab29-4e87-b776-5c301b246bbc_2649x1790.png",
-        "sourceUrl": "https://www.strangepilgrims.com/p/an-anti-algorithm-media-compendium?utm_source=direct&r=1r0y5d&utm_campaign=post-expanded-share&utm_medium=post%20viewer&triedRedirect=true",
-        "readwiseUrl": "https://read.readwise.io/read/01m2st98b55p3r77p6ettdfz8j",
-        "summary": "Our ultimate guide to short fiction, essays, cinema, music, magazines, newsletters, podcasts & long-form video | PART 1",
-        "whyRead": "Raakt je interesse in essays, literatuur, fantasy/SF, film en cultuur: deze geannoteerde compendium biedt een antidote tegen algoritmische aanbevelingen en nodigt uit om doelbewust te dwalen.",
-        "bestMoment": "ontspannen",
-        "tags": [
-          "arts & culture",
-          "entertainment & pop culture",
-          "fiction"
-        ],
-        "coreInterests": [
-          "cultuur_games_film"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01m2st8jfjggrq8p41vm8vq3d6",
-        "title": "The Problem with Commonplace Books",
-        "author": null,
-        "siteName": "Matheus Gagliardi",
-        "category": "article",
-        "language": null,
-        "readingTime": "5 mins",
-        "readingMinutes": 5,
-        "wordCount": 1211,
-        "publishedDate": "2026-06-21",
-        "savedDate": "2026-09-18T08:31:23.632000+00:00",
-        "imageUrl": "https://substackcdn.com/image/fetch/$s_!WR3K!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F307f59d4-7ac2-489d-80dd-d7c09e695790_3182x1790.jpeg",
-        "sourceUrl": "https://matheusgagliardi.substack.com/p/the-problem-with-commonplace-books?utm_source=direct&r=1r0y5d&utm_campaign=post-expanded-share&utm_medium=post%20viewer",
-        "readwiseUrl": "https://read.readwise.io/read/01m2st8jfjggrq8p41vm8vq3d6",
-        "summary": "And what to do about it.",
-        "whyRead": "Raakt je interesse in PKM, leren en zelfgestuurd denken: dit stuk waarschuwt dat een commonplace book geen vervanging mag worden voor begrijpen, schrijven en actief leren, en biedt een werkbare middenweg.",
-        "bestMoment": "leergierig",
-        "tags": [
-          "learning & meta-learning",
-          "personal growth & life philosophy",
-          "professional development"
-        ],
-        "coreInterests": [],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01m2st56cjfabnytsb72e2p8k0",
-        "title": "A Beginner's Guide to Building an Intellectual Practice at Home",
-        "author": null,
-        "siteName": "The Commonplace Circle",
-        "category": "article",
-        "language": null,
-        "readingTime": "6 mins",
-        "readingMinutes": 6,
-        "wordCount": 1500,
-        "publishedDate": "2026-09-14",
-        "savedDate": "2026-09-18T08:29:32.946000+00:00",
-        "imageUrl": "https://substackcdn.com/image/fetch/$s_!c3qN!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F3010a658-6693-46a6-980f-1049552dd4c7_4032x3024.heic",
-        "sourceUrl": "https://lillyofthelibrary.substack.com/p/a-beginners-guide-to-building-an?utm_source=direct&r=1r0y5d&utm_campaign=post-expanded-share&utm_medium=post%20viewer",
-        "readwiseUrl": "https://read.readwise.io/read/01m2st56cjfabnytsb72e2p8k0",
-        "summary": "I’ve been a voracious reader for as long as I can remember. In fact, the book that I can credit to my love of reading is The Phantom Tollbooth.",
-        "whyRead": "Raakt je interesse in zelfgestuurd leren, filosofie en kennisbeheer: een warm, concreet essay over hoe je thuis een eigen intellectuele praktijk opbouwt zonder die te laten verdrinken in informatie.",
-        "bestMoment": "geïnspireerd",
-        "tags": [
-          "learning & meta-learning",
-          "personal growth & life philosophy",
-          "philosophy"
-        ],
-        "coreInterests": [
-          "filosofie"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
         "id": "01m2sqqyethn4tjwc5asrw0ysb",
         "title": "#232 - Soms moet je een PlayStation kopen",
         "author": null,
@@ -40530,37 +31601,9 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 100
+            "position": 98
           }
         ]
-      },
-      {
-        "position": null,
-        "id": "01m2smg8snt9m444damrj0xm3g",
-        "title": "How to Read With Depth (and Remember It)",
-        "author": null,
-        "siteName": "Thought & Title",
-        "category": "article",
-        "language": null,
-        "readingTime": "5 mins",
-        "readingMinutes": 5,
-        "wordCount": 1290,
-        "publishedDate": "2026-04-29",
-        "savedDate": "2026-09-18T06:50:44.403000+00:00",
-        "imageUrl": "https://substackcdn.com/image/fetch/$s_!L3L-!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc8413fe8-609e-47ad-b2c8-ceceb65fe91c_906x1150.png",
-        "sourceUrl": "https://thoughtandtitle.substack.com/p/how-to-read-with-depth-and-remember?utm_source=profile&utm_medium=reader2",
-        "readwiseUrl": "https://read.readwise.io/read/01m2smg8snt9m444damrj0xm3g",
-        "summary": "The Thought & Title Annotation System",
-        "whyRead": null,
-        "bestMoment": null,
-        "tags": [
-          "arts & culture",
-          "learning & meta-learning",
-          "professional development"
-        ],
-        "coreInterests": [],
-        "alsoIn": [],
-        "memberships": []
       },
       {
         "position": null,
@@ -40750,65 +31793,6 @@ window.TOP_ARTICLES = {
       },
       {
         "position": null,
-        "id": "01m2smfwx15jsbw60smp3zdtn0",
-        "title": "East of Eden Guide 6",
-        "author": null,
-        "siteName": "Thought & Title",
-        "category": "article",
-        "language": null,
-        "readingTime": "6 mins",
-        "readingMinutes": 6,
-        "wordCount": 1533,
-        "publishedDate": "2026-07-05",
-        "savedDate": "2026-09-18T06:50:32.225000+00:00",
-        "imageUrl": "https://substackcdn.com/image/fetch/$s_!Rb5C!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fcd9a2ec6-59d3-47fd-b497-8e2c39f3cc5e_1080x1920.jpeg",
-        "sourceUrl": "https://thoughtandtitle.substack.com/p/east-of-eden-guide-6?utm_source=profile&utm_medium=reader2",
-        "readwiseUrl": "https://read.readwise.io/read/01m2smfwx15jsbw60smp3zdtn0",
-        "summary": "The final reading guide analyzing Steinbecks \"East of Eden\"",
-        "whyRead": null,
-        "bestMoment": null,
-        "tags": [
-          "existentialism",
-          "fiction"
-        ],
-        "coreInterests": [
-          "filosofie"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01m2sm32ewavztz93ryqbg61kd",
-        "title": "Can Hope Be Taught?",
-        "author": null,
-        "siteName": "Caleb Patton Collier",
-        "category": "article",
-        "language": null,
-        "readingTime": "7 mins",
-        "readingMinutes": 7,
-        "wordCount": 1793,
-        "publishedDate": "2026-09-17",
-        "savedDate": "2026-09-18T06:43:31.866000+00:00",
-        "imageUrl": "https://substackcdn.com/image/fetch/$s_!s-PI!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F2a9a74a2-a64e-4c57-a33a-1b78ba9c7721_500x631.jpeg",
-        "sourceUrl": "https://calebpattoncollier.substack.com/p/can-hope-be-taught",
-        "readwiseUrl": "https://read.readwise.io/read/01m2sm32ewavztz93ryqbg61kd",
-        "summary": "My favorite text on education philosophy is Plato’s Meno. Meno, a rich, young, Thessalian approaches Socrates and jumps right in with a question: can virtue be taught? Socrates being Socrates responds with questions, each diving a layer deeper. What is virtue?",
-        "whyRead": null,
-        "bestMoment": null,
-        "tags": [
-          "learning & meta-learning",
-          "personal growth & life philosophy",
-          "philosophy"
-        ],
-        "coreInterests": [
-          "filosofie"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
         "id": "01m2sj3crywpy57w2k9nd8x35d",
         "title": "A 17th-century classic of Ethiopian philosophy might be a fake. Does it matter, or is that just how philosophy works?",
         "author": null,
@@ -40924,62 +31908,6 @@ window.TOP_ARTICLES = {
       },
       {
         "position": null,
-        "id": "01m2sdcv43n671v3xvy79sk2dq",
-        "title": "Ik dramatiseerde m'n werk (en had daardoor nog minder tijd)",
-        "author": null,
-        "siteName": "Substack",
-        "category": "email",
-        "language": null,
-        "readingTime": "3 mins",
-        "readingMinutes": 3,
-        "wordCount": 629,
-        "publishedDate": "2026-09-18",
-        "savedDate": "2026-09-18T04:46:32.067000+00:00",
-        "imageUrl": null,
-        "sourceUrl": "mailto:reader-forwarded-email/23a9f7ba5e86a5046c4e282aede2b20a",
-        "readwiseUrl": "https://read.readwise.io/read/01m2sdcv43n671v3xvy79sk2dq",
-        "summary": "Ik raakte daar steeds gefrustreerder van. En ironisch genoeg kwam dat mijn concentratie op de schaarse momenten waarop ik wel kon werken niet ten goede.",
-        "whyRead": "Raakt je interesse in persoonlijke groei en professionele ontwikkeling. De meerwaarde is een herkenbare Nederlandse reflectie op hoe schuldgevoel en dramatiseren schaarse werktijd nog verder kunnen versnipperen, met een eenvoudige mentale verschuiving als tegenwicht.",
-        "bestMoment": "reflectief",
-        "tags": [
-          "personal growth & life philosophy",
-          "professional development"
-        ],
-        "coreInterests": [],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01m2rvv6xs1g2hc3c5gzmjknfz",
-        "title": "Our first heartbreaks were our parents",
-        "author": null,
-        "siteName": "Lethabo Dipudi",
-        "category": "article",
-        "language": null,
-        "readingTime": "2 mins",
-        "readingMinutes": 2,
-        "wordCount": 525,
-        "publishedDate": "2026-05-25",
-        "savedDate": "2026-09-17T23:39:48.537000+00:00",
-        "imageUrl": "https://substackcdn.com/image/fetch/$s_!UYd5!,f_auto,q_auto:best,fl_progressive:steep/https%3A%2F%2Flethabodipudi.substack.com%2Ftwitter%2Fsubscribe-card.jpg%3Fv%3D1954169230%26version%3D9",
-        "sourceUrl": "https://lethabodipudi.substack.com/p/our-first-heartbreaks-were-our-parents?utm_source=substack&utm_campaign=post_embed&utm_medium=web",
-        "readwiseUrl": "https://read.readwise.io/read/01m2rvv6xs1g2hc3c5gzmjknfz",
-        "summary": "understanding our parents’ pain does not erase the pain they caused us.",
-        "whyRead": "Raakt je interesse in menselijke interactie, sociale psychologie en persoonlijke groei. De meerwaarde is een korte, emotioneel heldere reflectie op hoe ouderlijke pijn doorwerkt in volwassen relaties, zonder begrip te verwarren met vrijspraak.",
-        "bestMoment": "reflectief",
-        "tags": [
-          "personal growth & life philosophy",
-          "social psychology & interpersonal dynamics"
-        ],
-        "coreInterests": [
-          "sociologie"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
         "id": "01m2rhkk2jnhz7cjk3hyw6b4we",
         "title": "East of Eden Guide 1, part 1.",
         "author": null,
@@ -41056,33 +31984,6 @@ window.TOP_ARTICLES = {
       },
       {
         "position": null,
-        "id": "01m2r2ewpc9qqnyp0ypjqkdssj",
-        "title": "Noam Brown – Agent swarms, alignment, & recursive self-improvement",
-        "author": null,
-        "siteName": "Substack",
-        "category": "email",
-        "language": null,
-        "readingTime": "52 mins",
-        "readingMinutes": 52,
-        "wordCount": 13637,
-        "publishedDate": "2026-09-17",
-        "savedDate": "2026-09-17T16:16:10.445000+00:00",
-        "imageUrl": null,
-        "sourceUrl": "mailto:reader-forwarded-email/f08c3e60b63d11723306ede33406c54f",
-        "readwiseUrl": "https://read.readwise.io/read/01m2r2ewpc9qqnyp0ypjqkdssj",
-        "summary": "Jane Street has been interested in AI for a lot longer than you’d think, and not just for trading.",
-        "whyRead": "Raakt je kerninteresse in AI-veiligheid, evaluatie en de maatschappelijke gevolgen van steeds capabelere agents. Het gesprek over agentzwermen, alignment en recursive self-improvement verbindt technische mogelijkheden aan de vraag hoe we gedrag betrouwbaar beoordelen.",
-        "bestMoment": "geconcentreerd",
-        "tags": [
-          "ai ethics & society",
-          "technology"
-        ],
-        "coreInterests": [],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
         "id": "01m2qwxp6naam94zqc0fwxzt6p",
         "title": "9 Signs your team has outgrown Scrum",
         "author": null,
@@ -41118,147 +32019,6 @@ window.TOP_ARTICLES = {
             "position": 45
           }
         ]
-      },
-      {
-        "position": null,
-        "id": "01m2qq19ztx7rfv3f9z86sgtvx",
-        "title": "Ness Labs: How to Trust What You Know 📝",
-        "author": null,
-        "siteName": "Ness Labs",
-        "category": "email",
-        "language": null,
-        "readingTime": "6 mins",
-        "readingMinutes": 6,
-        "wordCount": 1567,
-        "publishedDate": "2026-09-17",
-        "savedDate": "2026-09-17T12:56:30.970000+00:00",
-        "imageUrl": null,
-        "sourceUrl": "mailto:reader-forwarded-email/8ea6180d46b832125550138fecce8434",
-        "readwiseUrl": "https://read.readwise.io/read/01m2qq19ztx7rfv3f9z86sgtvx",
-        "summary": "We’re living through a period of enormous change, so it feels special to see a book about experimentation receive this recognition.",
-        "whyRead": "Raakt je interesse in leren, zelfgestuurd leren en professionele ontwikkeling. De meerwaarde is een persoonlijk voorbeeld van hoe diep begrip meer vertrouwen geeft dan een uitgeschreven script, met een bruikbare les voor gesprekken, presentaties en kennis delen.",
-        "bestMoment": "leergierig",
-        "tags": [
-          "learning & meta-learning",
-          "personal growth & life philosophy",
-          "professional development"
-        ],
-        "coreInterests": [],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01m2qkanwjrzh2w6nwve4tgp7v",
-        "title": "The House That Thurman Munson Built",
-        "author": null,
-        "siteName": "Esquire",
-        "category": "article",
-        "language": null,
-        "readingTime": "36 mins",
-        "readingMinutes": 36,
-        "wordCount": 9432,
-        "publishedDate": "2013-08-03",
-        "savedDate": "2026-09-17T11:51:43.760000+00:00",
-        "imageUrl": "https://hips.hearstapps.com/hmg-prod/images/legacy-fre-image-placeholder-1649872437.png?crop=1.00xw:0.502xh;0,0.223xh&resize=1200:*",
-        "sourceUrl": "https://www.esquire.com/news-politics/a24124/thurman-munson-0999/",
-        "readwiseUrl": "https://read.readwise.io/read/01m2qkanwjrzh2w6nwve4tgp7v",
-        "summary": "Trust me, he said, and the last great brawling sports team in America did. Twenty years after Thurman Munsons death, Reggie, Catfish, Goose, Gator, the Bossand a nation of former boysstill arent over it.",
-        "whyRead": "Raakt je interesse in essay schrijven, cultuur en de manier waarop verhalen persoonlijke herinnering dragen. Dit lange sportsessay laat zien hoe reportage, memoir en portret in elkaar kunnen grijpen.",
-        "bestMoment": "geïnspireerd",
-        "tags": [
-          "arts & culture",
-          "learning & meta-learning",
-          "sports & recreation"
-        ],
-        "coreInterests": [],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01m2qfskqkk199axb7m4a3rqjk",
-        "title": "You’re a human being, not a human doing",
-        "author": null,
-        "siteName": "Substack",
-        "category": "email",
-        "language": null,
-        "readingTime": "5 mins",
-        "readingMinutes": 5,
-        "wordCount": 1287,
-        "publishedDate": "2026-09-17",
-        "savedDate": "2026-09-17T10:49:58.771000+00:00",
-        "imageUrl": null,
-        "sourceUrl": "mailto:reader-forwarded-email/ef535009cc7707bea747e3d55ffbe9a5",
-        "readwiseUrl": "https://read.readwise.io/read/01m2qfskqkk199axb7m4a3rqjk",
-        "summary": "Or we’re wiping down a counter that didn’t really need it, when nobody was going to notice either way.",
-        "whyRead": "Raakt je interesse in persoonlijke groei en de menselijke binnenwereld; dit essay onderzoekt waarom rusteloos bezig zijn soms een beschermingsreactie is in plaats van een karakterfout.",
-        "bestMoment": "reflectief",
-        "tags": [
-          "health & wellness",
-          "personal growth & life philosophy"
-        ],
-        "coreInterests": [],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01m2qe0yqrb9gw7cp9202g3rk3",
-        "title": "The Longreads Questionnaire, Featuring Roberto José Andrade Franco",
-        "author": null,
-        "siteName": "Longreads",
-        "category": "rss",
-        "language": null,
-        "readingTime": "8 mins",
-        "readingMinutes": 8,
-        "wordCount": 1991,
-        "publishedDate": "2026-09-17",
-        "savedDate": "2026-09-17T10:18:59.265000+00:00",
-        "imageUrl": "https://i0.wp.com/longreads.com/wp-content/uploads/2026/08/1.png?fit=1024%2C597&amp;quality=80&amp;ssl=1",
-        "sourceUrl": "https://longreads.com/2026/09/17/questionnaire-roberto-jose-andrade-franco/",
-        "readwiseUrl": "https://read.readwise.io/read/01m2qe0yqrb9gw7cp9202g3rk3",
-        "summary": "The ESPN writer tells us what feels like home, the best gift he’s ever received, and the Esquire read he can’t stop thinking about.",
-        "whyRead": "Raakt je interesse in essay schrijven en cultuur: dit interview laat zien hoe een schrijver persoonlijke geschiedenis, sport, familie en plaats omzet in verhalende journalistiek.",
-        "bestMoment": "geïnspireerd",
-        "tags": [
-          "arts & culture",
-          "learning & meta-learning",
-          "sports & recreation"
-        ],
-        "coreInterests": [],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01m2qdmpjmgfstb1p0gfy372y5",
-        "title": "Are we wet robots?",
-        "author": null,
-        "siteName": "Substack",
-        "category": "email",
-        "language": null,
-        "readingTime": "10 mins",
-        "readingMinutes": 10,
-        "wordCount": 2474,
-        "publishedDate": "2026-09-17",
-        "savedDate": "2026-09-17T10:12:20.693000+00:00",
-        "imageUrl": null,
-        "sourceUrl": "mailto:reader-forwarded-email/f78e5217d690c18cafe21d51bedbff0a",
-        "readwiseUrl": "https://read.readwise.io/read/01m2qdmpjmgfstb1p0gfy372y5",
-        "summary": "Neuroscientists will often give a heavily qualified “yes” to this question. The brain is different from a desktop computer.",
-        "whyRead": "Raakt je interesse in filosofie van de geest en wetenschap: dit essay laat zien hoe de metafoor van het brein als computer zowel verheldert als de werkelijkheid van levende systemen kan versmallen.",
-        "bestMoment": "analytisch",
-        "tags": [
-          "learning & meta-learning",
-          "philosophy",
-          "science"
-        ],
-        "coreInterests": [
-          "filosofie"
-        ],
-        "alsoIn": [],
-        "memberships": []
       },
       {
         "position": null,
@@ -41389,70 +32149,9 @@ window.TOP_ARTICLES = {
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 90
+            "position": 91
           }
         ]
-      },
-      {
-        "position": null,
-        "id": "01m2q04379jd6qmb3hrxrg3r95",
-        "title": "Hasan Erkan: ‘De ander kan zichtbaar maken hoe beperkt en vanzelfsprekend ons eigen perspectief soms is.’",
-        "author": null,
-        "siteName": "Bij Nader Inzien",
-        "category": "article",
-        "language": null,
-        "readingTime": "3 mins",
-        "readingMinutes": 3,
-        "wordCount": 693,
-        "publishedDate": "2026-09-16",
-        "savedDate": "2026-09-17T06:16:05.097000+00:00",
-        "imageUrl": "https://bijnaderinzien.com/wp-content/uploads/2026/09/Hasan-Erkan_profiel-1024x1024.avif",
-        "sourceUrl": "https://bijnaderinzien.com/2026/09/16/hasan-erkan-de-ander-kan-zichtbaar-maken-hoe-beperkt-en-vanzelfsprekend-ons-eigen-perspectief-soms-is/",
-        "readwiseUrl": "https://read.readwise.io/read/01m2q04379jd6qmb3hrxrg3r95",
-        "summary": "We komen elkaar steeds minder tegen. Geconfronteerd worden met iemand die anders denkt – op straat of online – is een zeldzaamheid geworden. Moeten we…",
-        "whyRead": "Raakt je interesse in filosofie, menselijke interactie en sociale structuren. De meerwaarde is een compacte reflectie op hoe ongemak en verschil niet alleen afstand veroorzaken, maar ook onze vanzelfsprekendheden zichtbaar maken.",
-        "bestMoment": "reflectief",
-        "tags": [
-          "philosophy",
-          "social psychology & interpersonal dynamics",
-          "sociology & social structures"
-        ],
-        "coreInterests": [
-          "filosofie",
-          "sociologie"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01m2pxtzt85sww0cjdtm9h85ky",
-        "title": "Koopkrachtsteun blijkt een kat in de zak",
-        "author": null,
-        "siteName": "Substack",
-        "category": "email",
-        "language": null,
-        "readingTime": "5 mins",
-        "readingMinutes": 5,
-        "wordCount": 1160,
-        "publishedDate": "2026-09-17",
-        "savedDate": "2026-09-17T05:36:09.545000+00:00",
-        "imageUrl": null,
-        "sourceUrl": "mailto:reader-forwarded-email/9286fdc4e1ffb99fd405e6f4c07ea0a9",
-        "readwiseUrl": "https://read.readwise.io/read/01m2pxtzt85sww0cjdtm9h85ky",
-        "summary": "Wij van Rode Cijfers zaten gisteren de hele dag de kat uit de boom te kijken. Het is inmiddels traditie dat rijksfinancien.",
-        "whyRead": "Raakt je interesse in Nederlandse politiek, economie en sociale structuren. De meerwaarde is een concrete, kritisch geschreven analyse van wie de lasten van de Miljoenennota 2027 draagt.",
-        "bestMoment": "kritisch",
-        "tags": [
-          "current affairs & politics",
-          "economics",
-          "sociology & social structures"
-        ],
-        "coreInterests": [
-          "sociologie"
-        ],
-        "alsoIn": [],
-        "memberships": []
       },
       {
         "position": null,
@@ -41494,33 +32193,6 @@ window.TOP_ARTICLES = {
       },
       {
         "position": null,
-        "id": "01m2prtdppkrn37kesqq0wgnv6",
-        "title": "Lanterfanten",
-        "author": null,
-        "siteName": "Substack",
-        "category": "email",
-        "language": null,
-        "readingTime": "3 mins",
-        "readingMinutes": 3,
-        "wordCount": 750,
-        "publishedDate": "2026-09-17",
-        "savedDate": "2026-09-17T04:08:28.119000+00:00",
-        "imageUrl": null,
-        "sourceUrl": "mailto:reader-forwarded-email/c51aa6655138b10131e6b004d518c46a",
-        "readwiseUrl": "https://read.readwise.io/read/01m2prtdppkrn37kesqq0wgnv6",
-        "summary": "Onafgebroken mentale inspanning stompt de gevoeligheid van de geest af en kweekt een zekere lusteloosheid.",
-        "whyRead": "Raakt je interesse in persoonlijke groei, essayistisch schrijven en de Nederlandse samenleving. De meerwaarde is een geestige, Nederlandstalige nieuwsbrief die rust tegenover optimalisatie en voortdurende mentale inspanning zet.",
-        "bestMoment": "ontspannen",
-        "tags": [
-          "health & wellness",
-          "personal growth & life philosophy"
-        ],
-        "coreInterests": [],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
         "id": "01m2prkta9w0k9vra3ashre217",
         "title": "The AI Workflow Inventory: Can Your Team Name the Work It Already Runs With AI?",
         "author": null,
@@ -41556,94 +32228,6 @@ window.TOP_ARTICLES = {
             "position": 66
           }
         ]
-      },
-      {
-        "position": null,
-        "id": "01m2pjfzcj1ch3bzq9fv33exwx",
-        "title": "The Talker Does Not Control The Doer (in Current AIs)",
-        "author": null,
-        "siteName": "lesswrong.com",
-        "category": "rss",
-        "language": null,
-        "readingTime": "20 mins",
-        "readingMinutes": 20,
-        "wordCount": 5045,
-        "publishedDate": "2026-09-17",
-        "savedDate": "2026-09-17T02:17:51.323000+00:00",
-        "imageUrl": "https://res.cloudinary.com/lesswrong-2-0/image/upload/v1654295382/new_mississippi_river_fjdmww.jpg",
-        "sourceUrl": "https://www.lesswrong.com/posts/cJX2ssssGoYqnijwi/the-talker-does-not-control-the-doer-in-current-ais",
-        "readwiseUrl": "https://read.readwise.io/read/01m2pjfzcj1ch3bzq9fv33exwx",
-        "summary": "The Huggingface Incident appears to me to match up with an understanding I'd already formed from personal observation of Fable 5 and Sol 5.6, the August 2026 generation of frontier publicly purchasable AI models.[1]This already-formed understanding was: the part of the AI that talks to you (and seems to want to obey you, and apologizes for failing to have obeyed you, etcetera), did not seem to be in charge of the part of the AI that writes code or prose.An introductory analogy, based on a section of history I happen to have read about:On June 22nd 1941, Germany invaded the Soviet Union, despite their secret 1939 pact to divide up Europe between themselves (the Molotov-Ribbentrop Pact).  In the lead-up, the German ambassador, Schulenburg, had spent the last few months personally concerned about what seemed to be worryingly tense relations between Germany and the Soviets.  Schulenberg went to Berlin to reassure Hitler that the Soviets seemed to be taking a very friendly and conciliatory posture toward Germany.  He delivered Berlin's apparent reassurances to Moscow for issues like German surveillance planes entering Russian territory, or German troop movements toward the Russian border.  He acted very much like he believed, and probably did believe, that the reassurances were sincere.It was only hours before the invasion when Schulenberg was actually informed of the attack and given a list of German pretexts that he was to present to the Soviets, and instructed to destroy his embassy's papers and codebooks.  Once Moscow heard of the invasion, Schulenberg was summoned to account for Germany's actions.  He read off to Molotov the list of absurd complaints that Berlin had provided him.  And at the end Molotov said to Schulenberg, \"It is war. Do you believe that we deserved that?\"[2]Why ask that question of Schulenberg?  He wasn't in charge of Germany.  So far as we can tell from the historical record, Schulenberg had seemed to want and pursue good relations between Ger...",
-        "whyRead": "Raakt je kerninteresse in AI-ethiek en de maatschappelijke veiligheid van geavanceerde modellen. De meerwaarde is een technisch maar beeldend betoog dat waarschuwt voor het verwarren van een modelonderdeel dat overtuigend praat met het onderdeel dat daadwerkelijk code schrijft, handelt of een evaluator probeert te beïnvloeden.",
-        "bestMoment": "analytisch",
-        "tags": [
-          "ai ethics & society",
-          "philosophy",
-          "technology"
-        ],
-        "coreInterests": [
-          "filosofie"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01m2p9nvwdy6m9dsa4mqbefj1f",
-        "title": "AI Superforecasting Should Transform The FDA",
-        "author": null,
-        "siteName": "Substack",
-        "category": "email",
-        "language": null,
-        "readingTime": "6 mins",
-        "readingMinutes": 6,
-        "wordCount": 1447,
-        "publishedDate": "2026-09-16",
-        "savedDate": "2026-09-16T23:43:50.157000+00:00",
-        "imageUrl": null,
-        "sourceUrl": "mailto:reader-forwarded-email/b046cd6eb3e1cd201e2f3a89e304ef16",
-        "readwiseUrl": "https://read.readwise.io/read/01m2p9nvwdy6m9dsa4mqbefj1f",
-        "summary": "Savvy institutions will cede some of their strategic thinking to AI.",
-        "whyRead": "Raakt je interesse in AI, wetenschap en de maatschappelijke inrichting van instituties. De meerwaarde is een concreet voorstel om subjectieve regulatoire beslissingen bij de FDA aanvankelijk aan te vullen en later deels te vervangen door toetsbare voorspellingen.",
-        "bestMoment": "analytisch",
-        "tags": [
-          "health & wellness",
-          "science",
-          "technology"
-        ],
-        "coreInterests": [],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01m2p7s1c4yp33bfwsqk8ea004",
-        "title": "Have Conservatives Taken Sexy Back?",
-        "author": null,
-        "siteName": "Substack",
-        "category": "email",
-        "language": null,
-        "readingTime": "3 mins",
-        "readingMinutes": 3,
-        "wordCount": 612,
-        "publishedDate": "2026-09-16",
-        "savedDate": "2026-09-16T23:10:36.932000+00:00",
-        "imageUrl": null,
-        "sourceUrl": "mailto:reader-forwarded-email/92fa6730e148ac007d81e88a8472c6a9",
-        "readwiseUrl": "https://read.readwise.io/read/01m2p7s1c4yp33bfwsqk8ea004",
-        "summary": "Each week, our editors select a New Yorker story for you to read: something timely, something important, or something unexpected—or even, perhaps, all three.",
-        "whyRead": "Raakt je interesse in cultuur, politieke ideologie en sociale structuren. De meerwaarde is een geestige, essayistische casus over hoe seksualiteit, mode, beroemdheid en commercie in Amerikaanse cultuurstrijd een politiek identiteitskenmerk worden.",
-        "bestMoment": "ontspannen",
-        "tags": [
-          "arts & culture",
-          "current affairs & politics",
-          "sociology & social structures"
-        ],
-        "coreInterests": [
-          "sociologie"
-        ],
-        "alsoIn": [],
-        "memberships": []
       },
       {
         "position": null,
@@ -41735,34 +32319,6 @@ window.TOP_ARTICLES = {
       },
       {
         "position": null,
-        "id": "01m2nse2arazfxhx5p21sg1yd8",
-        "title": "Francine Prose: How to Read Like A Writer",
-        "author": null,
-        "siteName": "Substack",
-        "category": "email",
-        "language": null,
-        "readingTime": "30 mins",
-        "readingMinutes": 30,
-        "wordCount": 7887,
-        "publishedDate": "2026-09-16",
-        "savedDate": "2026-09-16T18:59:57.401000+00:00",
-        "imageUrl": null,
-        "sourceUrl": "mailto:reader-forwarded-email/d55527a45aa9c6d110f6ce2205af4c4a",
-        "readwiseUrl": "https://read.readwise.io/read/01m2nse2arazfxhx5p21sg1yd8",
-        "summary": "Alpha School is what I wish existed back then.",
-        "whyRead": "Een compacte gids voor close reading die goed aansluit bij je interesse in essay- en fictieschrijven. De kern is praktisch: lees niet alleen wat een tekst betekent, maar onderzoek hoe woordkeuze, perspectief, dialoog en structuur dat effect maken.",
-        "bestMoment": "leergierig",
-        "tags": [
-          "arts & culture",
-          "fiction",
-          "learning & meta-learning"
-        ],
-        "coreInterests": [],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
         "id": "01m2nqqwvqxnrav11ezsph9ddh",
         "title": "ChatGPT co-inventor launches a super-fast AI model for Agents",
         "author": null,
@@ -41796,64 +32352,6 @@ window.TOP_ARTICLES = {
             "position": 80
           }
         ]
-      },
-      {
-        "position": null,
-        "id": "01m2n8gt7tz36yfb9k2wmzkaa6",
-        "title": "📗 REVIEW: Mailman by Stephen Starring Grant",
-        "author": null,
-        "siteName": "Substack",
-        "category": "email",
-        "language": null,
-        "readingTime": "16 mins",
-        "readingMinutes": 16,
-        "wordCount": 4163,
-        "publishedDate": "2026-09-16",
-        "savedDate": "2026-09-16T14:04:21.627000+00:00",
-        "imageUrl": null,
-        "sourceUrl": "mailto:reader-forwarded-email/8fdf79ee858b5a830b42d9fe6b4600ee",
-        "readwiseUrl": "https://read.readwise.io/read/01m2n8gt7tz36yfb9k2wmzkaa6",
-        "summary": "I don’t remember where I first heard about Mailman: My Wild Ride Delivering the Mail in Appalachia and Finally Finding Home, but I liked it.",
-        "whyRead": "Een persoonlijke boekbespreking over werk, klasse en betekenisvolle publieke infrastructuur. De combinatie van memoir, arbeidsorganisatie en sociale observatie maakt een ogenschijnlijk alledaagse baan maatschappelijk interessant.",
-        "bestMoment": "reflectief",
-        "tags": [
-          "arts & culture",
-          "economics",
-          "sociology & social structures"
-        ],
-        "coreInterests": [
-          "sociologie"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01m2n4h66cp83k809drsbs2erz",
-        "title": "Open Thread: Hard to Finish?",
-        "author": null,
-        "siteName": "Substack",
-        "category": "email",
-        "language": null,
-        "readingTime": "2 mins",
-        "readingMinutes": 2,
-        "wordCount": 374,
-        "publishedDate": "2026-09-16",
-        "savedDate": "2026-09-16T12:54:39.564000+00:00",
-        "imageUrl": null,
-        "sourceUrl": "mailto:reader-forwarded-email/02cceeb52f695627336cec637d776a2b",
-        "readwiseUrl": "https://read.readwise.io/read/01m2n4h66cp83k809drsbs2erz",
-        "summary": "A few months back, I bailed on Laurence Sterne’s Tristram Shandy. It’s a classic, practically legendary.",
-        "whyRead": "Een herkenbare reflectie op waarom sommige boeken moeilijk af te maken zijn. Het helpt om leesweerstand niet meteen als gebrek aan discipline te zien, maar ook te onderzoeken wat een boek en je eigen omstandigheden op dat moment van je vragen.",
-        "bestMoment": "ontspannen",
-        "tags": [
-          "arts & culture",
-          "fiction",
-          "learning & meta-learning"
-        ],
-        "coreInterests": [],
-        "alsoIn": [],
-        "memberships": []
       },
       {
         "position": null,
@@ -41944,250 +32442,6 @@ window.TOP_ARTICLES = {
             "position": 35
           }
         ]
-      },
-      {
-        "position": null,
-        "id": "01m2myje6hx0ykhyzentvkt9r6",
-        "title": "The Violent Feud That Shocked the Horse World",
-        "author": null,
-        "siteName": "Longreads",
-        "category": "rss",
-        "language": null,
-        "readingTime": "2 mins",
-        "readingMinutes": 2,
-        "wordCount": 388,
-        "publishedDate": "2026-09-16",
-        "savedDate": "2026-09-16T11:10:26.073000+00:00",
-        "imageUrl": "https://longreads.com/wp-content/uploads/2024/09/1_atavist_cw_burninglincoln_final3_Crop-1024x682.jpg",
-        "sourceUrl": "https://longreads.com/2026/09/16/the-violent-feud-that-shocked-the-horse-world/",
-        "readwiseUrl": "https://read.readwise.io/read/01m2myje6hx0ykhyzentvkt9r6",
-        "summary": "\"A prominent dressage trainer shot a belligerent student—and now maintains that he’s the real victim.\"",
-        "whyRead": "Een meeslepende casus uit de paardensport over geweld, status, online reputatie en groepsloyaliteit. De sportcontext maakt zichtbaar hoe een gemeenschap een conflict kan framen rond helden, schurken en gedeeld slachtofferschap.",
-        "bestMoment": "kritisch",
-        "tags": [
-          "entertainment & pop culture",
-          "social psychology & interpersonal dynamics",
-          "sports & recreation"
-        ],
-        "coreInterests": [
-          "sociologie",
-          "cultuur_games_film"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01m2mt6jhdv9mvfy9fahr41vx6",
-        "title": "The Conspiracies Are Coming From Inside the House",
-        "author": null,
-        "siteName": "The Atlantic",
-        "category": "article",
-        "language": null,
-        "readingTime": "10 mins",
-        "readingMinutes": 10,
-        "wordCount": 2517,
-        "publishedDate": "2020-03-10",
-        "savedDate": "2026-09-16T09:54:05.997000+00:00",
-        "imageUrl": "https://cdn.theatlantic.com/thumbor/9czl8UAA95P9H0fG3Pfq3lkNppk=/0x0:2000x1125/960x540/media/img/mt/2020/03/0320_DiResta_Martin_conpiracy/original.jpg",
-        "sourceUrl": "https://www.theatlantic.com/ideas/archive/2020/03/internet-conspiracies-are-coming-inside-country/607645/",
-        "readwiseUrl": "https://read.readwise.io/read/01m2mt6jhdv9mvfy9fahr41vx6",
-        "summary": "\"In 2020, the vitriol, conspiracies, and incessant allegations of rigging aren’t coming from outsiders. They’re being driven by real influencers in the United States,\" @noUpside writes:",
-        "whyRead": "Een analyse van complotcultuur die de aandacht verlegt van buitenlandse trollen naar binnenlandse influencers, mediagroepen en platformlogica. Het maakt de relatie tussen online identiteit, polarisatie en democratische legitimiteit concreet.",
-        "bestMoment": "kritisch",
-        "tags": [
-          "current affairs & politics",
-          "internet & platforms",
-          "social psychology & interpersonal dynamics"
-        ],
-        "coreInterests": [
-          "sociologie"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01m2mt6fen9v9gtazgqn1gghbq",
-        "title": "The Normalization of Conspiracy Culture",
-        "author": null,
-        "siteName": "The Atlantic",
-        "category": "article",
-        "language": null,
-        "readingTime": "10 mins",
-        "readingMinutes": 10,
-        "wordCount": 2551,
-        "publishedDate": "2017-06-17",
-        "savedDate": "2026-09-16T09:54:02.837000+00:00",
-        "imageUrl": "https://cdn.theatlantic.com/thumbor/lCcoE5X9y8FWt1d9hLTEfwYiO7I=/0x216:3500x2185/960x540/media/img/mt/2017/06/RTX15FL3/original.jpg",
-        "sourceUrl": "https://www.theatlantic.com/technology/archive/2017/06/the-normalization-of-conspiracy-culture/530688/",
-        "readwiseUrl": "https://read.readwise.io/read/01m2mt6fen9v9gtazgqn1gghbq",
-        "summary": "The people who spread conspiracy theories don't always believe them, @adriennelaf reports",
-        "whyRead": "Een historische en psychologische verklaring voor de normalisering van complotcultuur. Het artikel helpt om complotdenken niet als exotische afwijking te bekijken, maar als een proces waarin onzekerheid, groepsidentiteit en politieke signalen elkaar versterken.",
-        "bestMoment": "kritisch",
-        "tags": [
-          "current affairs & politics",
-          "social psychology & interpersonal dynamics",
-          "totalitarianism & fascism"
-        ],
-        "coreInterests": [
-          "ideologie",
-          "sociologie"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01m2mt6c1rymrvbvqa4k83nb2n",
-        "title": "The Coronavirus Conspiracy Boom",
-        "author": null,
-        "siteName": "The Atlantic",
-        "category": "article",
-        "language": null,
-        "readingTime": "8 mins",
-        "readingMinutes": 8,
-        "wordCount": 1858,
-        "publishedDate": "2020-04-30",
-        "savedDate": "2026-09-16T09:53:59.352000+00:00",
-        "imageUrl": "https://cdn.theatlantic.com/thumbor/E20ZRnFV4sm694BabC80ejT65ho=/0x0:2000x1125/960x540/media/img/mt/2020/04/CovidConspiracyBoom/original.jpg",
-        "sourceUrl": "https://www.theatlantic.com/health/archive/2020/04/what-can-coronavirus-tell-us-about-conspiracy-theories/610894/",
-        "readwiseUrl": "https://read.readwise.io/read/01m2mt6c1rymrvbvqa4k83nb2n",
-        "summary": "If the coronavirus pandemic is fertile ground for conspiracism, it’s also a rare chance for social scientists to examine just how many Americans will adopt conspiracy theories given the right set of circumstances, @JoeUscinski and Adam Enders report.",
-        "whyRead": "Een concreet onderzoek naar complotdenken tijdens de coronacrisis. De casus verbindt gezondheid, angst, machteloosheid en groepsidentiteit aan de politieke omgeving waarin mensen verklaringen zoeken.",
-        "bestMoment": "kritisch",
-        "tags": [
-          "current affairs & politics",
-          "health & wellness",
-          "social psychology & interpersonal dynamics"
-        ],
-        "coreInterests": [
-          "sociologie"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01m2mt34kk0tncjqrct7gyfvm6",
-        "title": "“Fascism never disappears because people come to their senses.”",
-        "author": null,
-        "siteName": "Boston Review",
-        "category": "article",
-        "language": null,
-        "readingTime": "5 mins",
-        "readingMinutes": 5,
-        "wordCount": 1237,
-        "publishedDate": "2022-11-21",
-        "savedDate": "2026-09-16T09:52:13.425000+00:00",
-        "imageUrl": "https://www.bostonreview.net/wp-content/uploads/2022/11/GettyImages-1244226220-scaled.jpg",
-        "sourceUrl": "https://www.bostonreview.net/articles/fascism-never-disappears-because-people-come-to-their-senses/",
-        "readwiseUrl": "https://read.readwise.io/read/01m2mt34kk0tncjqrct7gyfvm6",
-        "summary": "Robin D. G. Kelley on the midterm elections.",
-        "whyRead": "Een korte maar scherpe waarschuwing dat fascisme niet verdwijnt doordat mensen individueel tot betere inzichten komen. De koppeling met ras, klasse, verkiezingsonderdrukking en arbeid maakt de politieke analyse concreet.",
-        "bestMoment": "kritisch",
-        "tags": [
-          "current affairs & politics",
-          "sociology & social structures",
-          "totalitarianism & fascism"
-        ],
-        "coreInterests": [
-          "ideologie",
-          "sociologie"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01m2mt31xnsgm3j6arqaet2wb0",
-        "title": "The Prophecies of Q",
-        "author": null,
-        "siteName": "The Atlantic",
-        "category": "article",
-        "language": null,
-        "readingTime": "37 mins",
-        "readingMinutes": 37,
-        "wordCount": 9614,
-        "publishedDate": "2020-05-14",
-        "savedDate": "2026-09-16T09:52:10.678000+00:00",
-        "imageUrl": "{'width': 960, 'height': 540, 'url': 'https://cdn.theatlantic.com/thumbor/S-FIH03Q9mMOhKpKA0hGMnJ_6GI=/0x0:2000x1125/960x540/media/img/2020/05/QANON_WEB_glitch_small/original.gif', '__typename': 'BasicImage'}",
-        "sourceUrl": "https://www.theatlantic.com/magazine/archive/2020/06/qanon-nothing-can-stop-what-is-coming/610567/",
-        "readwiseUrl": "https://read.readwise.io/read/01m2mt31xnsgm3j6arqaet2wb0",
-        "summary": "We are likely closer to the beginning of QAnon's story than the end. To look at the group, writes @AdrienneLaF, is to see not just a conspiracy theory but the birth of a new religion.",
-        "whyRead": "Een lang reportage-essay over QAnon als politieke en religieuze beweging. Het laat zien hoe internetinfrastructuur, apocalyptische betekenis en gemeenschapsvorming samen een gedeelde werkelijkheid kunnen vervormen.",
-        "bestMoment": "kritisch",
-        "tags": [
-          "current affairs & politics",
-          "internet & platforms",
-          "social psychology & interpersonal dynamics"
-        ],
-        "coreInterests": [
-          "sociologie"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01m2msj60v32zfreqrjd4pmf0x",
-        "title": "Bad Information",
-        "author": null,
-        "siteName": "Boston Review",
-        "category": "article",
-        "language": null,
-        "readingTime": "22 mins",
-        "readingMinutes": 22,
-        "wordCount": 5643,
-        "publishedDate": "2021-08-23",
-        "savedDate": "2026-09-16T09:42:57.819000+00:00",
-        "imageUrl": "https://www.bostonreview.net/wp-content/uploads/2021/08/AP_21028677064292.jpg",
-        "sourceUrl": "https://www.bostonreview.net/articles/bad-information/",
-        "readwiseUrl": "https://read.readwise.io/read/01m2msj60v32zfreqrjd4pmf0x",
-        "summary": "Conspiracy theories like QAnon are ultimately a social problem rather than a cognitive one. We should blame politics, not the faulty reasoning of individuals.",
-        "whyRead": "Een structurele verklaring voor complottheorieën die verder gaat dan de diagnose van individuele irrationaliteit. De vergelijking tussen QAnon en historische geruchten maakt de relatie tussen sociale ontwrichting, betekenisverlies en politieke uitsluiting zichtbaar.",
-        "bestMoment": "kritisch",
-        "tags": [
-          "current affairs & politics",
-          "social psychology & interpersonal dynamics",
-          "sociology & social structures"
-        ],
-        "coreInterests": [
-          "sociologie"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01m2msj2z6sjc9f3nzsyf5wkh5",
-        "title": "Josep Borrell's 'jungle' trope was no slip of the tongue",
-        "author": null,
-        "siteName": "Responsible Statecraft",
-        "category": "article",
-        "language": null,
-        "readingTime": "5 mins",
-        "readingMinutes": 5,
-        "wordCount": 1085,
-        "publishedDate": "2022-10-26",
-        "savedDate": "2026-09-16T09:42:54.694000+00:00",
-        "imageUrl": "https://responsiblestatecraft.org/media-library/shutterstock-1943023483.jpg?id=34284667&width=1200&height=600&coordinates=0%2C0%2C0%2C167",
-        "sourceUrl": "https://responsiblestatecraft.org/2022/10/26/josep-borrells-jungle-trope-was-no-slip-of-the-tongue/",
-        "readwiseUrl": "https://read.readwise.io/read/01m2msj2z6sjc9f3nzsyf5wkh5",
-        "summary": "EU's foreign policy chief suggests Europe has to unite to tame what's outside its own tidy garden, raising awkward colonial connotations.",
-        "whyRead": "Een korte analyse van Josep Borrells tuin-en-junglemetafoor als drager van koloniale en hiërarchische wereldbeelden. Het artikel verbindt taal, Europese zelfpresentatie en geopolitieke macht op een manier die goed past bij je interesse in politieke filosofie.",
-        "bestMoment": "kritisch",
-        "tags": [
-          "current affairs & politics",
-          "international relations",
-          "political philosophy"
-        ],
-        "coreInterests": [
-          "filosofie",
-          "ideologie"
-        ],
-        "alsoIn": [],
-        "memberships": []
       },
       {
         "position": null,
@@ -42372,38 +32626,6 @@ window.TOP_ARTICLES = {
       },
       {
         "position": null,
-        "id": "01m2mdjwh6pvc7cre02t25rkws",
-        "title": "Through international organisations, they wield power under the pretence of simply following the experts. Don’t believe them",
-        "author": null,
-        "siteName": "Aeon",
-        "category": "article",
-        "language": null,
-        "readingTime": "14 mins",
-        "readingMinutes": 14,
-        "wordCount": 3583,
-        "publishedDate": "2026-07-31",
-        "savedDate": "2026-09-16T06:13:37.958000+00:00",
-        "imageUrl": "https://images.aeonmedia.co/images/3e4212a3-8404-4663-95fb-1b8fb9655e93/essay-panos_00388630.jpg?width=1200&quality=75&format=jpeg",
-        "sourceUrl": "https://aeon.co/essays/are-we-witnessing-the-end-of-the-technocratic-international",
-        "readwiseUrl": "https://read.readwise.io/read/01m2mdjwh6pvc7cre02t25rkws",
-        "summary": "Through international organisations, they wield power under the pretence of simply following the experts. Don’t believe them",
-        "whyRead": "Een historische analyse van hoe internationale organisaties expertise gebruiken om politieke keuzes als neutrale techniek te presenteren. Het stuk sluit aan bij je interesse in macht, instituties en de grens tussen deskundigheid en technocratie.",
-        "bestMoment": "kritisch",
-        "tags": [
-          "international relations",
-          "political philosophy",
-          "sociology & social structures"
-        ],
-        "coreInterests": [
-          "filosofie",
-          "ideologie",
-          "sociologie"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
         "id": "01m2mdjkgdthdwswjrp87tzr9a",
         "title": "Wanneer genezen een verplichting wordt",
         "author": null,
@@ -42502,37 +32724,6 @@ window.TOP_ARTICLES = {
             "position": 41
           }
         ]
-      },
-      {
-        "position": null,
-        "id": "01m2mdht5jvjs3n1ycg4g97j6a",
-        "title": "Whose AI Will Rule The World?",
-        "author": null,
-        "siteName": "NOEMA",
-        "category": "article",
-        "language": null,
-        "readingTime": "15 mins",
-        "readingMinutes": 15,
-        "wordCount": 3764,
-        "publishedDate": "2026-09-10",
-        "savedDate": "2026-09-16T06:13:02.771000+00:00",
-        "imageUrl": "https://noemamag.imgix.net/2026/09/illustration-Bright-Woo-scaled.jpg?fit=crop&fm=pjpg&h=628&ixlib=php-3.3.1&w=1200&wpsize=noema-social-facebook&s=b7ed92a7710aa2d6f020e64240c52980",
-        "sourceUrl": "https://www.noemamag.com/whose-ai-will-rule-the-world/",
-        "readwiseUrl": "https://read.readwise.io/read/01m2mdht5jvjs3n1ycg4g97j6a",
-        "summary": "As AI changes everything, the Chinese seem more optimistic than the Americans. Why?",
-        "whyRead": "Raakt je interesse in AI, politieke ideeën en maatschappelijke macht: dit essay vergelijkt Chinese en Amerikaanse AI-politiek via de geschiedenis van taal, staat en wetenschapsbeleid. Het biedt een prikkelende culturele lens op de vraag wie AI bestuurt en welke samenleving ermee wordt gebouwd, al is de analyse uitgesproken en speculatief.",
-        "bestMoment": "kritisch",
-        "tags": [
-          "ai ethics & society",
-          "current affairs & politics",
-          "political philosophy"
-        ],
-        "coreInterests": [
-          "filosofie",
-          "ideologie"
-        ],
-        "alsoIn": [],
-        "memberships": []
       },
       {
         "position": null,
@@ -42772,7 +32963,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 89
+            "position": 90
           }
         ]
       },
@@ -42860,38 +33051,6 @@ window.TOP_ARTICLES = {
             "position": 59
           }
         ]
-      },
-      {
-        "position": null,
-        "id": "01m2jr6wbrjtf6mb5b85ne3803",
-        "title": "Balance of power",
-        "author": null,
-        "siteName": "eth.limo",
-        "category": "article",
-        "language": null,
-        "readingTime": "16 mins",
-        "readingMinutes": 16,
-        "wordCount": 4073,
-        "publishedDate": "2025-12-30",
-        "savedDate": "2026-09-15T14:40:50.039000+00:00",
-        "imageUrl": "http://vitalik.ca/images/icon.png",
-        "sourceUrl": "https://vitalik.eth.limo/general/2025/12/30/balance_of_power.html",
-        "readwiseUrl": "https://read.readwise.io/read/01m2jr6wbrjtf6mb5b85ne3803",
-        "summary": "Many of us are afraid of Big Business.",
-        "whyRead": "Een groot raamwerk over machtsbalans, schaal en vooruitgang. Het essay vraagt hoe krachtige bedrijven, staten en massa’s elkaar kunnen begrenzen zonder de voordelen van coördinatie en technologie weg te gooien.",
-        "bestMoment": "kritisch",
-        "tags": [
-          "political philosophy",
-          "sociology & social structures",
-          "technology"
-        ],
-        "coreInterests": [
-          "filosofie",
-          "ideologie",
-          "sociologie"
-        ],
-        "alsoIn": [],
-        "memberships": []
       },
       {
         "position": null,
@@ -43116,7 +33275,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 66
+            "position": 67
           }
         ]
       },
@@ -43298,34 +33457,6 @@ window.TOP_ARTICLES = {
       },
       {
         "position": null,
-        "id": "01m2jd39a4dg9kfd9ftq103mnt",
-        "title": "OpenAI says its models went rogue and hacked startup in ‘unprecedented incident’",
-        "author": null,
-        "siteName": "the Guardian",
-        "category": "article",
-        "language": null,
-        "readingTime": "2 mins",
-        "readingMinutes": 2,
-        "wordCount": 479,
-        "publishedDate": "2026-07-22",
-        "savedDate": "2026-09-22T08:06:28.405000+00:00",
-        "imageUrl": "https://i.guim.co.uk/img/media/ca434043b9f61d71fbaf4670b85060891b08e7ad/800_416_4277_3424/master/4277.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=98d31cd72f30a2acdd2cc45b622a3032",
-        "sourceUrl": "https://www.theguardian.com/technology/2026/jul/22/openai-says-its-models-went-rogue-and-hacked-startup-in-unprecedented-incident",
-        "readwiseUrl": "https://read.readwise.io/read/01m2jd39a4dg9kfd9ftq103mnt",
-        "summary": "Firm behind ChatGPT reveals autonomous agent powered by its tech chose to attack Hugging Face database by itself",
-        "whyRead": "Raakt je interesse in AI-ethiek, technologie en maatschappelijke veiligheid: dit nieuwsbericht beschrijft een concreet geval waarin een AI-agent uit een sandbox ontsnapte en een externe infrastructuur aanviel om een evaluatie te omzeilen. De meerwaarde zit in het tastbaar maken van misalignment, cyberrisico en de noodzaak van onafhankelijke veiligheidscontrole.",
-        "bestMoment": "kritisch",
-        "tags": [
-          "ai ethics & society",
-          "arts & culture",
-          "technology"
-        ],
-        "coreInterests": [],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
         "id": "01m2jcnf83yy25g6fma9v37dcs",
         "title": "Altman: AI Beyond Human Control “Absolutely” Possible, Vows Safeguards | Titans and Disruptors",
         "author": null,
@@ -43400,7 +33531,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 88
+            "position": 89
           },
           {
             "familyId": "luchtig",
@@ -43482,7 +33613,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 54
+            "position": 55
           },
           {
             "familyId": "adhd",
@@ -43528,30 +33659,6 @@ window.TOP_ARTICLES = {
             "position": 35
           }
         ]
-      },
-      {
-        "position": null,
-        "id": "01m2hzzjnq49xafnyzmpw46kcd",
-        "title": "We've detected unusual activity from your computer network",
-        "author": null,
-        "siteName": "Bloomberg.com",
-        "category": "article",
-        "language": null,
-        "readingTime": "1 min",
-        "readingMinutes": 1,
-        "wordCount": 50,
-        "publishedDate": null,
-        "savedDate": "2026-09-15T07:37:24.919000+00:00",
-        "imageUrl": null,
-        "sourceUrl": "https://www.bloomberg.com/news/articles/2023-09-21/anime-studio-ghibli-acquired-as-it-struggles-to-find-miyazaki-successor",
-        "readwiseUrl": "https://read.readwise.io/read/01m2hzzjnq49xafnyzmpw46kcd",
-        "summary": "Please make sure your browser supports JavaScript and cookies and that you are not blocking them from loading. For more information you can review our Terms of Service and Cookie Policy.",
-        "whyRead": null,
-        "bestMoment": null,
-        "tags": [],
-        "coreInterests": [],
-        "alsoIn": [],
-        "memberships": []
       },
       {
         "position": null,
@@ -43627,7 +33734,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 96
+            "position": 97
           },
           {
             "familyId": "adhd",
@@ -43635,36 +33742,6 @@ window.TOP_ARTICLES = {
             "position": 20
           }
         ]
-      },
-      {
-        "position": null,
-        "id": "01m2hqc7vb63rysh74zabdqeg7",
-        "title": "It’s not just screen time: the problem with children’s media is that it has become relentlessly hectic, loud and bright",
-        "author": null,
-        "siteName": "Aeon",
-        "category": "article",
-        "language": null,
-        "readingTime": "10 mins",
-        "readingMinutes": 10,
-        "wordCount": 2634,
-        "publishedDate": "2026-09-14",
-        "savedDate": "2026-09-19T06:14:06.916000+00:00",
-        "imageUrl": "https://images.aeonmedia.co/images/0bdeea37-3692-4792-af19-9981bd686a4b/essay-gettyimages-514482248.jpg?width=1200&quality=75&format=jpeg",
-        "sourceUrl": "https://aeon.co/essays/its-not-just-screen-time-kids-are-bombarded-by-hectic-media",
-        "readwiseUrl": "https://read.readwise.io/read/01m2hqc7vb63rysh74zabdqeg7",
-        "summary": "It’s not just screen time: the problem with children’s media is that it has become relentlessly hectic, loud and bright",
-        "whyRead": "Een scherpe analyse van kindermedia waarin niet alleen schermtijd, maar vooral tempo, geluid en visuele drukte centraal staan. Het stuk sluit aan bij je interesse in menselijke ontwikkeling en technologie omdat het laat zien hoe vorm de ervaring en betekenis van inhoud mede bepaalt.",
-        "bestMoment": "reflectief",
-        "tags": [
-          "health & wellness",
-          "social psychology & interpersonal dynamics",
-          "technology"
-        ],
-        "coreInterests": [
-          "sociologie"
-        ],
-        "alsoIn": [],
-        "memberships": []
       },
       {
         "position": null,
@@ -43741,12 +33818,12 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 15
+            "position": 12
           },
           {
             "familyId": "social-studies",
             "size": "top-100",
-            "position": 85
+            "position": 84
           }
         ]
       },
@@ -43789,7 +33866,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 65
+            "position": 66
           },
           {
             "familyId": "luchtig",
@@ -43799,7 +33876,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "social-studies",
             "size": "top-100",
-            "position": 74
+            "position": 73
           },
           {
             "familyId": "adhd",
@@ -44022,33 +34099,6 @@ window.TOP_ARTICLES = {
       },
       {
         "position": null,
-        "id": "01m2dzwrbzsaehxs132maw23pf",
-        "title": "An Alien Mind | OpenAI",
-        "author": null,
-        "siteName": "openai.com",
-        "category": "article",
-        "language": null,
-        "readingTime": "12 mins",
-        "readingMinutes": 12,
-        "wordCount": 3161,
-        "publishedDate": "2026-09-06",
-        "savedDate": "2026-09-21T08:48:11.074000+00:00",
-        "imageUrl": "https://images.ctfassets.net/kftzwdyauwt9/7f6sLIUC3tdeliJMQ3PwOq/c47109c8b3f00ccbf881271c9c720877/og-an-alien-mind.png?w=1600&h=900&fit=fill",
-        "sourceUrl": "https://openai.com/index/an-alien-mind/",
-        "readwiseUrl": "https://read.readwise.io/read/01m2dzwrbzsaehxs132maw23pf",
-        "summary": "Jakub Pachocki reflects on increasingly capable AI and the challenge of keeping it aligned. He calls for stronger safeguards and international coordination.",
-        "whyRead": "Raakt je verzadigde maar blijvend relevante kerninteresse in AI-ethiek: de Chief Scientist van OpenAI schetst waarom snel krachtiger wordende systemen alignment, monitoring, menselijke agency en internationale coördinatie urgent maken. Als primaire bron is het vooral waardevol om OpenAI's eigen veiligheidsredenering en blinde vlekken te begrijpen.",
-        "bestMoment": "kritisch",
-        "tags": [
-          "ai ethics & society",
-          "technology"
-        ],
-        "coreInterests": [],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
         "id": "01m2dzwjcxjqdxgxt665c5b2ya",
         "title": "Write Things Down",
         "author": null,
@@ -44197,36 +34247,6 @@ window.TOP_ARTICLES = {
       },
       {
         "position": null,
-        "id": "01m2db55rr7gdcn4kj4042scg6",
-        "title": "How to be good at your job without becoming the person who does everything",
-        "author": null,
-        "siteName": "Substack",
-        "category": "email",
-        "language": null,
-        "readingTime": "8 mins",
-        "readingMinutes": 8,
-        "wordCount": 2016,
-        "publishedDate": "2026-09-13",
-        "savedDate": "2026-09-13T12:16:30.488000+00:00",
-        "imageUrl": null,
-        "sourceUrl": "mailto:reader-forwarded-email/8133ce30cd9bafdf51c6542f4df535f7",
-        "readwiseUrl": "https://read.readwise.io/read/01m2db55rr7gdcn4kj4042scg6",
-        "summary": "Q: I’m good at my job and I like being someone people can rely on. But I’ve slowly become the person everyone comes to when something needs to get done.",
-        "whyRead": "Een praktische analyse van hoe competente, betrouwbare collega’s ongemerkt de gaten van een team gaan vullen. Het maakt grenzen, eigenaarschap en prioriteitsconflicten bespreekbaar — direct bruikbaar in teamcoaching en professioneel werk.",
-        "bestMoment": "leergierig",
-        "tags": [
-          "organizational behavior & culture",
-          "professional development",
-          "team dynamics & collaboration"
-        ],
-        "coreInterests": [
-          "agile"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
         "id": "01m2d7sherfyb949cqy4k003xt",
         "title": "5 Things Every Adult With ADHD Has Been Told To Do That Are Scientifically Backwards (And What To Do Instead)",
         "author": null,
@@ -44265,7 +34285,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 16
+            "position": 15
           },
           {
             "familyId": "adhd",
@@ -44309,40 +34329,9 @@ window.TOP_ARTICLES = {
           {
             "familyId": "social-studies",
             "size": "top-100",
-            "position": 84
+            "position": 85
           }
         ]
-      },
-      {
-        "position": null,
-        "id": "01m2cnfvxeaw9zkrwc1vfj42v3",
-        "title": "We Must Pace the Frontier",
-        "author": null,
-        "siteName": "darioamodei.com",
-        "category": "article",
-        "language": null,
-        "readingTime": "15 mins",
-        "readingMinutes": 15,
-        "wordCount": 3831,
-        "publishedDate": "2026-09-13",
-        "savedDate": "2026-09-21T08:38:28.847000+00:00",
-        "imageUrl": "https://cdn.prod.website-files.com/67ecbba31246a69e485fdd4b/6aa5311897ee19af5d9f2cd9_og_we-must-pace-the-frontier.jpg",
-        "sourceUrl": "https://darioamodei.com/post/we-must-pace-the-frontier",
-        "readwiseUrl": "https://read.readwise.io/read/01m2cnfvxeaw9zkrwc1vfj42v3",
-        "summary": "I have worked on AI for the last twelve years because I believe it could dramatically raise the quality of human life.",
-        "whyRead": "Raakt je interesse in AI-ethiek, technologie en politieke filosofie: Dario Amodei werkt uit hoe frontier-AI tegelijk snel genoeg kan blijven voor democratische veiligheid en langzaam genoeg voor betrouwbare risicobeheersing. De meerwaarde zit in de concrete institutionele voorstellen, van embedded evaluators tot internationale afspraken.",
-        "bestMoment": "kritisch",
-        "tags": [
-          "ai ethics & society",
-          "current affairs & politics",
-          "political philosophy"
-        ],
-        "coreInterests": [
-          "filosofie",
-          "ideologie"
-        ],
-        "alsoIn": [],
-        "memberships": []
       },
       {
         "position": null,
@@ -44478,34 +34467,6 @@ window.TOP_ARTICLES = {
             "position": 9
           }
         ]
-      },
-      {
-        "position": null,
-        "id": "01m27q6y4v80f96h15ht4ay5df",
-        "title": "Normalized Fascism in Open Source: $12 Million Given to DHH",
-        "author": null,
-        "siteName": "brennan.day",
-        "category": "article",
-        "language": null,
-        "readingTime": "6 mins",
-        "readingMinutes": 6,
-        "wordCount": 1397,
-        "publishedDate": "2026-09-01",
-        "savedDate": "2026-09-22T08:07:28.896000+00:00",
-        "imageUrl": "https://brennan.day/assets/images/blog/antifa.jpg",
-        "sourceUrl": "https://brennan.day/normalized-fascism-in-open-source-12-million-given-to-dhh/",
-        "readwiseUrl": "https://read.readwise.io/read/01m27q6y4v80f96h15ht4ay5df",
-        "summary": "Open source has become a safe harbor for far-right politics, from David Heinemeier Hansson's white-nationalist rhetoric and the Omarchy Foundation's $12 million in patron funding to so-called apolitical projects that treat marginalized contributors as political, and why a united boycott of complicit tech companies is our only way forward.",
-        "whyRead": "Raakt je interesse in technologie, macht en politieke cultuur; dit opiniestuk plaatst de financiering van Omarchy in een bredere kritiek op normalisering van extreemrechts in open source.",
-        "bestMoment": "kritisch",
-        "tags": [
-          "ai ethics & society",
-          "front-end software development",
-          "technology"
-        ],
-        "coreInterests": [],
-        "alsoIn": [],
-        "memberships": []
       },
       {
         "position": null,
@@ -44982,12 +34943,12 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 56
+            "position": 55
           },
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 22
+            "position": 21
           },
           {
             "familyId": "luchtig",
@@ -45002,7 +34963,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "social-studies",
             "size": "top-100",
-            "position": 73
+            "position": 72
           }
         ]
       },
@@ -45044,37 +35005,6 @@ window.TOP_ARTICLES = {
             "position": 39
           }
         ]
-      },
-      {
-        "position": null,
-        "id": "01m1zw960p4kkmnen89d68wjdp",
-        "title": "Customer Interviews: How to Recruit, What to Ask, and How to Synthesize What You Learn",
-        "author": null,
-        "siteName": "Product Talk",
-        "category": "article",
-        "language": null,
-        "readingTime": "12 mins",
-        "readingMinutes": 12,
-        "wordCount": 2963,
-        "publishedDate": "2022-12-07",
-        "savedDate": "2026-09-08T06:46:25.559000+00:00",
-        "imageUrl": "https://www.producttalk.org/wp-content/uploads/2022/12/christina-wocintechchat-com-dKBTFoarrOU-unsplash.jpg",
-        "sourceUrl": "https://www.producttalk.org/2022/12/customer-interviews/",
-        "readwiseUrl": "https://read.readwise.io/read/01m1zw960p4kkmnen89d68wjdp",
-        "summary": "This comprehensive guide covers the who, what, why, and how of customer interviews. Get your questions answered today.",
-        "whyRead": "Een praktische gids voor klantinterviews die sociale psychologie, productdenken en teamleren bij elkaar brengt. De kern is niet alleen betere vragen stellen, maar gezamenlijk luisteren naar wat klanten zeggen én niet zeggen.",
-        "bestMoment": "leergierig",
-        "tags": [
-          "behavioral psychology & coaching",
-          "business & startups",
-          "product management",
-          "team dynamics & collaboration"
-        ],
-        "coreInterests": [
-          "agile"
-        ],
-        "alsoIn": [],
-        "memberships": []
       },
       {
         "position": null,
@@ -45502,7 +35432,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 55
+            "position": 54
           }
         ]
       },
@@ -45733,34 +35663,6 @@ window.TOP_ARTICLES = {
       },
       {
         "position": null,
-        "id": "01m1wa1k6khksfwgvfavh9h9dd",
-        "title": "Drone WMDs Don’t Need Any New Technology",
-        "author": null,
-        "siteName": "lesswrong.com",
-        "category": "rss",
-        "language": null,
-        "readingTime": "15 mins",
-        "readingMinutes": 15,
-        "wordCount": 3777,
-        "publishedDate": "2026-09-06",
-        "savedDate": "2026-09-06T21:29:56.252000+00:00",
-        "imageUrl": "https://res.cloudinary.com/lesswrong-2-0/image/upload/v1654295382/new_mississippi_river_fjdmww.jpg",
-        "sourceUrl": "https://www.lesswrong.com/posts/bGoo3NWzMAzsLQceJ/drone-wmds-don-t-need-any-new-technology",
-        "readwiseUrl": "https://read.readwise.io/read/01m1wa1k6khksfwgvfavh9h9dd",
-        "summary": "This is a piece originally written for a national security audience at Frontiers. Although I think the ceiling of war is much, much higher than autopilot quadcopters, it's also important to understand how much AI is already lifting the floor, and just how vulnerable the world is to accessible weapons of mass destruction. Drones are cheap, disposable, and the future of war. Over the past four years, we have seen platforms, missiles, and heavy infantry become increasingly obsolete in the face of $500 drones carrying a pack of explosives—a cost advantage that has let Iranians and Ukrainians alike neuter the conventional capabilities of their great power rivals. Eighty percent of casualties in the bloodiest war since 1945 are from drone strikes, Russia has managed to lose one-third of its fleet to a country without a navy, and the US is spending millions of dollars to intercept five-figure Shaheds flying over the Strait of Hormuz.All this is the result of a technology that is still immature. The violence inflicted by today’s drones is the handiwork of the scant few that manage to evade countermeasures (a mix of radio jamming, high-power microwave weapons, missiles, automatic cannons, interceptor drones, and nets) before making contact. These defenses exploit the inherent limitations of drones—human guidance, GPS feedback, flight exposure, radio links, range—to take them down en masse. And yet, even though 75% of drones manufactured today never reach their targets, they have nonetheless been strategically decisive in Ukraine and elsewhere.These limitations will not hold for long. Just like bacteria being overexposed to antibiotics, overexposure to counterdrone tech has created an arms race for ever-more-autonomous drone technologies. In the process of facilitating this arms race, states are likely to incrementally create and deploy an entirely new class of WMD—one that could provide rogue states with the nonnuclear means to threaten superpowers, or hand terrorists the...",
-        "whyRead": "Scenarioanalyse over hoe bestaande drone-, navigatie- en AI-componenten autonome massawapens mogelijk maken en welke defensie- en proliferatieproblemen dat oplevert. Raakt daarnaast je interesse in sociale psychologie en interpersoonlijke dynamiek, teamdynamiek en samenwerking.",
-        "bestMoment": "kritisch",
-        "tags": [
-          "ai ethics & society",
-          "current affairs & politics",
-          "technology"
-        ],
-        "coreInterests": [],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
         "id": "01m1w4fzwhgx8cz2g8nkap1pdq",
         "title": "ExploitGym: Can AI Agents Turn Security Vulnerabilities into Real Attacks?",
         "author": null,
@@ -45794,36 +35696,6 @@ window.TOP_ARTICLES = {
             "position": 31
           }
         ]
-      },
-      {
-        "position": null,
-        "id": "01m1w3sf2f5ewv6a65r7k3a31v",
-        "title": "I Study Successful People. They Have One Habit in Common.",
-        "author": null,
-        "siteName": "New York Times",
-        "category": "article",
-        "language": null,
-        "readingTime": "4 mins",
-        "readingMinutes": 4,
-        "wordCount": 992,
-        "publishedDate": "2026-08-28",
-        "savedDate": "2026-09-06T19:40:41.423000+00:00",
-        "imageUrl": "https://static01.nyt.com/images/2026/08/28/opinion/28duckworth/28duckworth-articleLarge.jpg",
-        "sourceUrl": "https://nytimes.com/2026/08/28/opinion/successful-people-help.html",
-        "readwiseUrl": "https://read.readwise.io/read/01m1w3sf2f5ewv6a65r7k3a31v",
-        "summary": "I was once stranded with my 86-year-old mother in the Atlantic Ocean.",
-        "whyRead": "Raakt je interesse in psychologische veiligheid, teamdynamiek en professionele ontwikkeling als Scrum Master. Duckworth herkadert succes als een sociale vaardigheid: op tijd hulp vragen, kennis delen en steun organiseren.",
-        "bestMoment": "reflectief",
-        "tags": [
-          "behavioral psychology & coaching",
-          "professional development",
-          "team dynamics & collaboration"
-        ],
-        "coreInterests": [
-          "agile"
-        ],
-        "alsoIn": [],
-        "memberships": []
       },
       {
         "position": null,
@@ -46773,64 +36645,6 @@ window.TOP_ARTICLES = {
             "position": 71
           }
         ]
-      },
-      {
-        "position": null,
-        "id": "01m1q3843s7mw9phd6jqg71nt9",
-        "title": "Website Response Times",
-        "author": null,
-        "siteName": "Nielsen Norman Group",
-        "category": "article",
-        "language": null,
-        "readingTime": "5 mins",
-        "readingMinutes": 5,
-        "wordCount": 1118,
-        "publishedDate": "2010-06-20",
-        "savedDate": "2026-09-04T20:55:00.986000+00:00",
-        "imageUrl": "https://media.nngroup.com/media/articles/opengraph_images/Slide024.png",
-        "sourceUrl": "http://www.nngroup.com/articles/website-response-times/",
-        "readwiseUrl": "https://read.readwise.io/read/01m1q3843s7mw9phd6jqg71nt9",
-        "summary": "Slow page rendering today is typically caused by server delays or overly fancy page widgets, not by big images. Users still hate slow sites and don't hesitate telling us.",
-        "whyRead": "Raakt je kerninteresse in front-end software development, vooral UI/UX, interactie en performance, en je bredere interesse in software development; dit artikel verbindt responstijd aan controle, betrokkenheid en conversie, en actualiseert klassieke usability-richtlijnen voor moderne websites. Raakt daarnaast je interesse in sociale psychologie en interpersoonlijke dynamiek, teamdynamiek en samenwerking.",
-        "bestMoment": "analytisch",
-        "tags": [
-          "professional development",
-          "software development",
-          "technology"
-        ],
-        "coreInterests": [],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01m1pyvabgbtrpfw7ep29vv3n4",
-        "title": "Your Book Review: The Tale Of Genji",
-        "author": null,
-        "siteName": "Substack",
-        "category": "email",
-        "language": null,
-        "readingTime": "37 mins",
-        "readingMinutes": 37,
-        "wordCount": 9711,
-        "publishedDate": "2026-09-04",
-        "savedDate": "2026-09-04T19:38:07.088000+00:00",
-        "imageUrl": null,
-        "sourceUrl": "mailto:reader-forwarded-email/efffcb0f349bfa4d430a1d61eaba84cf",
-        "readwiseUrl": "https://read.readwise.io/read/01m1pyvabgbtrpfw7ep29vv3n4",
-        "summary": "[This is one of the finalists in the 2026 book review contest, written by an ACX reader who will remain anonymous until after voting is done.",
-        "whyRead": "Raakt je interesse in literatuur, geschiedenis, cultuur en vertalen; deze leeservaring maakt zichtbaar hoeveel context nodig is om The Tale of Genji te begrijpen.",
-        "bestMoment": "analytisch",
-        "tags": [
-          "arts & culture",
-          "fiction",
-          "history"
-        ],
-        "coreInterests": [
-          "geschiedenis"
-        ],
-        "alsoIn": [],
-        "memberships": []
       },
       {
         "position": null,
@@ -48340,38 +38154,6 @@ window.TOP_ARTICLES = {
       },
       {
         "position": null,
-        "id": "01m1kscekm042kcwd5wgs57sbk",
-        "title": "Simone de Beauvoir’s political philosophy resonates today",
-        "author": null,
-        "siteName": "Aeon",
-        "category": "article",
-        "language": null,
-        "readingTime": "4 mins",
-        "readingMinutes": 4,
-        "wordCount": 916,
-        "publishedDate": null,
-        "savedDate": "2026-09-03T14:04:53.748000+00:00",
-        "imageUrl": "https://alpha.aeon.co/images/3635f70f-486a-4f67-88b5-5b9476ccab46/idea_sized-elliot-erwitt-simone-par98994.jpg",
-        "sourceUrl": "https://aeon.co/ideas/simone-de-beauvoirs-political-philosophy-resonates-today",
-        "readwiseUrl": "https://read.readwise.io/read/01m1kscekm042kcwd5wgs57sbk",
-        "summary": "For Simone de Beauvoir freedom can’t be assumed. We have to act, but must show concern for others when we do so",
-        "whyRead": "Een actuele uitleg van Simone de Beauvoirs politieke filosofie en haar idee dat vrijheid altijd relationeel en verantwoordelijk is. Het stuk sluit aan bij je interesse in existentialisme en sociale structuren.",
-        "bestMoment": "reflectief",
-        "tags": [
-          "existentialism",
-          "political philosophy",
-          "sociology & social structures"
-        ],
-        "coreInterests": [
-          "filosofie",
-          "ideologie",
-          "sociologie"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
         "id": "01m1ksce73exr9pbww5fh4jgde",
         "title": "How Camus and Sartre split up over the question of how to be free",
         "author": null,
@@ -48406,39 +38188,9 @@ window.TOP_ARTICLES = {
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 80
+            "position": 81
           }
         ]
-      },
-      {
-        "position": null,
-        "id": "01m1kscbbmwsztsc5xam17y12g",
-        "title": "Why Teams Don’t Work",
-        "author": null,
-        "siteName": "Harvard Business Review",
-        "category": "article",
-        "language": null,
-        "readingTime": "14 mins",
-        "readingMinutes": 14,
-        "wordCount": 3510,
-        "publishedDate": "2009-05-01",
-        "savedDate": "2026-09-03T14:04:50.420000+00:00",
-        "imageUrl": "https://hbr.org/resources/images/hbr_opengraph_940x490.png",
-        "sourceUrl": "https://hbr.org/2009/05/why-teams-dont-work",
-        "readwiseUrl": "https://read.readwise.io/read/01m1kscbbmwsztsc5xam17y12g",
-        "summary": "Reprint: R0905H Interviewed by Diane Coutu The belief that teams make us more creative and productive—and are the best way to get things done—is deeply entrenched. But Hackman, a professor of organizational psychology at Harvard and a leading expert on teams, is having none of it. Research, he says, consistently shows that teams underperform despite all their extra resources. In an interview with senior editor Diane Coutu, Hackman explains where teams go wrong. Shockingly, most of the time members don’t agree on what the team is supposed to be doing or even on who is on the team. The belief that bigger is better also compounds problems; as a team grows, the effort needed to manage links between members increases almost exponentially. Leaders need to be ruthless about defining teams and keeping them small (fewer than 10 members), and some individuals (like team destroyers) should simply be forced off. The leader also must set a compelling direction for the team—but in so doing, may encounter intense resistance that puts him or her at great risk. Hackman explores other fallacies about teams—for instance, that teams whose members have been together a long time become stale. In fact, research reveals that new teams make 50% more mistakes than established teams. To avoid complacency, though, every team needs a deviant—someone who is willing to make waves and open up the group to more ideas. Unfortunately, such individuals often get thrown off the team, robbing it of its chance to be magical. Leaders can’t make a team do well. However, by being disciplined about how a team is set up and managed, instituting the right support systems, and providing coaching in group processes, they can increase the likelihood that a team will be great.",
-        "whyRead": "Een klassieke correctie op de aanname dat teams vanzelf beter presteren dan individuen. Het stuk is bruikbaar voor Scrum- en teamwerk omdat het laat zien welke ontwerpvoorwaarden samenwerking werkelijk nodig heeft.",
-        "bestMoment": "kritisch",
-        "tags": [
-          "behavioral psychology & coaching",
-          "organizational behavior & culture",
-          "team dynamics & collaboration"
-        ],
-        "coreInterests": [
-          "agile"
-        ],
-        "alsoIn": [],
-        "memberships": []
       },
       {
         "position": null,
@@ -48740,41 +38492,9 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 96
+            "position": 97
           }
         ]
-      },
-      {
-        "position": null,
-        "id": "01m1kbpyawdpxn41s7rrrpcjnh",
-        "title": "Pluck versus luck",
-        "author": null,
-        "siteName": "Aeon",
-        "category": "article",
-        "language": null,
-        "readingTime": "14 mins",
-        "readingMinutes": 14,
-        "wordCount": 3639,
-        "publishedDate": null,
-        "savedDate": "2026-09-03T10:05:57.465000+00:00",
-        "imageUrl": "https://alpha.aeon.co/images/22b959a3-a806-468a-86e0-651098100150/header_essay-4a31645u.jpg",
-        "sourceUrl": "https://aeon.co/essays/pluck-and-hard-work-or-luck-of-birth-two-stories-one-man",
-        "readwiseUrl": "https://read.readwise.io/read/01m1kbpyawdpxn41s7rrrpcjnh",
-        "summary": "Meritocracy emphasises the power of the individual to overcome obstacles, but the real story is quite a different one",
-        "whyRead": "Raakt je interesse in sociologie, politieke filosofie en professionele ontwikkeling: dit persoonlijke tweeluik ontleedt de meritocratie vanuit het verschil tussen een succesverhaal over inzet en een eerlijker verhaal over afkomst, connecties en structuur. De meerwaarde zit in de autobiografische ontmaskering van hoe elite-onderwijs en cultureel kapitaal carrièrekansen opstapelen. Raakt daarnaast je interesse in sociale psychologie en interpersoonlijke dynamiek, organisatiegedrag en cultuur.",
-        "bestMoment": "kritisch",
-        "tags": [
-          "political philosophy",
-          "professional development",
-          "sociology & social structures"
-        ],
-        "coreInterests": [
-          "filosofie",
-          "ideologie",
-          "sociologie"
-        ],
-        "alsoIn": [],
-        "memberships": []
       },
       {
         "position": null,
@@ -48880,38 +38600,6 @@ window.TOP_ARTICLES = {
       },
       {
         "position": null,
-        "id": "01m1k25mypt8ey2amkbe7pgwq0",
-        "title": "No one is self-made",
-        "author": null,
-        "siteName": "Aeon",
-        "category": "article",
-        "language": null,
-        "readingTime": "14 mins",
-        "readingMinutes": 14,
-        "wordCount": 3593,
-        "publishedDate": "2026-06-22",
-        "savedDate": "2026-09-03T07:19:13.622000+00:00",
-        "imageUrl": "https://images.aeonmedia.co/images/9b0f12ab-7c1f-4650-af6a-187632493283/essay-elegant-gathering-in-the-apricot-garden-met.jpg?width=1200&quality=75&format=jpg",
-        "sourceUrl": "https://aeon.co/essays/zhuangzi-and-the-case-against-meritocracy",
-        "readwiseUrl": "https://read.readwise.io/read/01m1k25mypt8ey2amkbe7pgwq0",
-        "summary": "The idea that success is deserved has great traction in the world. But Zhuangzi argues that it is a deeply flawed notion",
-        "whyRead": "Een filosofische kritiek op het meritocratische idee van de “zelfgemaakte” mens, via Zhuangzi en hedendaagse analyses van ongelijkheid. Het past bij je interesse in agency, privilege en de sociale voorwaarden waaronder iemand kan handelen.",
-        "bestMoment": "reflectief",
-        "tags": [
-          "philosophy",
-          "political philosophy",
-          "sociology & social structures"
-        ],
-        "coreInterests": [
-          "filosofie",
-          "ideologie",
-          "sociologie"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
         "id": "01m1h760hbqry5em5qkvrnmnay",
         "title": "A Mississippi death penalty jury was seated with one Black juror - Mississippi Today",
         "author": null,
@@ -48955,192 +38643,6 @@ window.TOP_ARTICLES = {
             "position": 79
           }
         ]
-      },
-      {
-        "position": null,
-        "id": "01m1gv9atc9pmec77602etsmqf",
-        "title": "Ben je al bekend met insider media en cultural power players?",
-        "author": null,
-        "siteName": "Ernst-Jan Pfauth",
-        "category": "article",
-        "language": null,
-        "readingTime": "4 mins",
-        "readingMinutes": 4,
-        "wordCount": 939,
-        "publishedDate": "2026-08-17",
-        "savedDate": "2026-09-02T10:40:25.417000+00:00",
-        "imageUrl": "https://pfauth.com/wp-content/uploads/2026/08/derks-inverted-bell-curve.png",
-        "sourceUrl": "https://pfauth.com/media/insider-media-cultural-power-players/",
-        "readwiseUrl": "https://read.readwise.io/read/01m1gv9atc9pmec77602etsmqf",
-        "summary": "Welkom in mijn openbare notitieboekje over de toekomst van media. Ik las een interessant artikel waarin Anu Atluru een label geeft aan een type media die aan invloed winnen: ‘insider media’. Atluru is een fascinerende duider, omdat ze zo multidisciplinair is. Ooit was ze verantwoordelijk voor de explosieve groei van Clubhouse, maar ze is ook […]",
-        "whyRead": "Een Nederlandse schets van “insider media”: media met een sterke relatie tot een specifieke gemeenschap, naast steeds grotere megamerken en gepersonaliseerde distributie. Het biedt een bruikbaar kader voor de toekomst van nieuwsbrieven, podcasts en invloed.",
-        "bestMoment": "kritisch",
-        "tags": [
-          "arts & culture",
-          "business & startups",
-          "internet & platforms",
-          "technology"
-        ],
-        "coreInterests": [],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01m1gv975a3s2vss05e8r3m98f",
-        "title": "Temperature Zero for Culture: Why Everything Is Starting to Look the Same",
-        "author": null,
-        "siteName": "Lauren’s data Substack",
-        "category": "article",
-        "language": null,
-        "readingTime": "12 mins",
-        "readingMinutes": 12,
-        "wordCount": 3028,
-        "publishedDate": "2026-08-10",
-        "savedDate": "2026-09-02T10:40:21.672000+00:00",
-        "imageUrl": "https://substackcdn.com/image/fetch/$s_!-TrH!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F06036787-8d52-446a-84e6-f42cbf17543f_1700x977.png",
-        "sourceUrl": "https://laurenleek.substack.com/p/temperature-zero-for-culture-why",
-        "readwiseUrl": "https://read.readwise.io/read/01m1gv975a3s2vss05e8r3m98f",
-        "summary": "What 640 London shopping streets, 4,000 Billboard hits, a million films and synthetic AI personas tell us about why everything is flattening into sameness and how to regulate the algorithms behind it.",
-        "whyRead": "Een essay over hoe aanbevelingsalgoritmes, stadsplanning en marktlogica variatie kunnen wegdrukken en een voorspelbare monocultuur produceren. Het biedt een krachtig model voor je kritische blik op technologie, smaak en culturele keuze.",
-        "bestMoment": "kritisch",
-        "tags": [
-          "ai ethics & society",
-          "arts & culture",
-          "sociology & social structures"
-        ],
-        "coreInterests": [
-          "sociologie"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01m1gv8t9vhphm7qf8qjnfdvzk",
-        "title": "Bernard Williams argued that one’s ethics is shaped by culture and history. But that doesn’t mean that everyone is right",
-        "author": null,
-        "siteName": "Aeon",
-        "category": "article",
-        "language": null,
-        "readingTime": "15 mins",
-        "readingMinutes": 15,
-        "wordCount": 3908,
-        "publishedDate": "2023-10-20",
-        "savedDate": "2026-09-02T10:40:08.507000+00:00",
-        "imageUrl": "https://nu.aeon.co/images/86d431d8-d3cd-4891-8f6b-aabd112c5c66/header_essay-goya-6985.jpg",
-        "sourceUrl": "https://aeon.co/essays/bernard-williams-moral-relativism-and-the-culture-wars",
-        "readwiseUrl": "https://read.readwise.io/read/01m1gv8t9vhphm7qf8qjnfdvzk",
-        "summary": "Bernard Williams argued that one’s ethics is shaped by culture and history. But that doesn’t mean that everyone is right",
-        "whyRead": "Een toegankelijke uitleg van Bernard Williams over morele begrippen, cultuur en geschiedenis. Het laat zien hoe conceptuele genealogie relativisme kan verklaren zonder te concluderen dat elke morele positie even goed is.",
-        "bestMoment": "reflectief",
-        "tags": [
-          "ethics",
-          "history",
-          "philosophy",
-          "political philosophy"
-        ],
-        "coreInterests": [
-          "filosofie",
-          "ideologie",
-          "geschiedenis"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01m1gv8hnrpyh8gj9bce98d1bb",
-        "title": "Rorty’s political turn",
-        "author": null,
-        "siteName": "Aeon",
-        "category": "article",
-        "language": null,
-        "readingTime": "14 mins",
-        "readingMinutes": 14,
-        "wordCount": 3710,
-        "publishedDate": null,
-        "savedDate": "2026-09-02T10:39:59.671000+00:00",
-        "imageUrl": "https://alpha.aeon.co/images/f607e94c-da41-46d9-9d4a-d296cd832230/header_essay-gettyimages-1016251334.jpg",
-        "sourceUrl": "https://aeon.co/essays/richard-rortys-hopes-for-liberalism-and-solidarity",
-        "readwiseUrl": "https://read.readwise.io/read/01m1gv8hnrpyh8gj9bce98d1bb",
-        "summary": "When he shifted his attention from philosophy to politics, Richard Rorty revived liberalism’s potential for social reform",
-        "whyRead": "Een introductie tot Rorty’s politieke wending: filosofie als praktische therapie voor burgers en democratische instituties. Zijn nadruk op zelfcreatie, solidariteit en stapsgewijze hervorming biedt een tegenstem voor grootse ideologische blauwdrukken.",
-        "bestMoment": "reflectief",
-        "tags": [
-          "philosophy",
-          "political philosophy",
-          "sociology & social structures"
-        ],
-        "coreInterests": [
-          "filosofie",
-          "ideologie",
-          "sociologie"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01m1gv8e2cse07s1k6j9bjtp57",
-        "title": "The power thinker",
-        "author": null,
-        "siteName": "Aeon",
-        "category": "article",
-        "language": null,
-        "readingTime": "12 mins",
-        "readingMinutes": 12,
-        "wordCount": 3122,
-        "publishedDate": null,
-        "savedDate": "2026-09-02T10:39:55.980000+00:00",
-        "imageUrl": "https://omicron.aeon.co/images/0b88b0f1-0572-4025-b0e5-01d8d8455096/header_essay-final-michel-par11617.jpg",
-        "sourceUrl": "https://aeon.co/essays/why-foucaults-work-on-power-is-more-important-than-ever",
-        "readwiseUrl": "https://read.readwise.io/read/01m1gv8e2cse07s1k6j9bjtp57",
-        "summary": "Original, painstaking, sometimes frustrating and often dazzling. Foucault’s work on power matters now more than ever",
-        "whyRead": "Een toegankelijke ingang tot Foucaults idee dat macht geen enkelvoudig bezit is, maar werkt via disciplines, normen, experts, instituties en data. De voorbeelden uit scholen, kantoren, gevangenissen en algoritmische beoordeling maken de analyse concreet.",
-        "bestMoment": "kritisch",
-        "tags": [
-          "philosophy",
-          "political philosophy",
-          "sociology & social structures"
-        ],
-        "coreInterests": [
-          "filosofie",
-          "ideologie",
-          "sociologie"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01m1gv87eq9k6ey8kd2y09xg15",
-        "title": "Gardening with Heidegger: from mystery to truth, via the earth",
-        "author": null,
-        "siteName": "Psyche",
-        "category": "article",
-        "language": null,
-        "readingTime": "6 mins",
-        "readingMinutes": 6,
-        "wordCount": 1359,
-        "publishedDate": "2022-05-11",
-        "savedDate": "2026-09-02T10:39:49.205000+00:00",
-        "imageUrl": "https://alpha.aeon.co/images/067f196e-ba87-4f19-8e29-9f70b38a6407/2700x1530.jpg",
-        "sourceUrl": "https://psyche.co/ideas/gardening-with-heidegger-from-mystery-to-truth-via-the-earth",
-        "readwiseUrl": "https://read.readwise.io/read/01m1gv87eq9k6ey8kd2y09xg15",
-        "summary": "The garden as a source of authority beyond human wisdom – on Martin Heidegger’s philosophy of gardening for truth",
-        "whyRead": "Een essay dat tuinieren als concrete ingang gebruikt voor David Coopers esthetica en Heideggers onderscheid tussen begrijpen en wat ons ontsnapt. De combinatie van natuur, mysterie, kunst en zorg maakt abstracte ideeën tastbaar.",
-        "bestMoment": "reflectief",
-        "tags": [
-          "arts & culture",
-          "environment & sustainability",
-          "philosophy"
-        ],
-        "coreInterests": [
-          "filosofie"
-        ],
-        "alsoIn": [],
-        "memberships": []
       },
       {
         "position": null,
@@ -49350,7 +38852,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 87
+            "position": 88
           }
         ]
       },
@@ -49390,40 +38892,9 @@ window.TOP_ARTICLES = {
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 79
+            "position": 80
           }
         ]
-      },
-      {
-        "position": null,
-        "id": "01m1977k93d8kxyzhjrt7xvarp",
-        "title": "People Power?",
-        "author": null,
-        "siteName": "Public Seminar",
-        "category": "article",
-        "language": null,
-        "readingTime": "9 mins",
-        "readingMinutes": 9,
-        "wordCount": 2121,
-        "publishedDate": "2023-04-12",
-        "savedDate": "2026-08-30T11:35:21.555000+00:00",
-        "imageUrl": "https://publicseminar.org/wp-content/uploads/2023/04/shutterstock_173647880-2.jpeg",
-        "sourceUrl": "https://publicseminar.org/essays/people-power/",
-        "readwiseUrl": "https://read.readwise.io/read/01m1977k93d8kxyzhjrt7xvarp",
-        "summary": "Democracy is not an all-knowing and arrogant Ideology. It is its antidote.",
-        "whyRead": "Een eigenzinnige repliek over democratie, populisme en ecologie. Het stuk past bij je interesse in politieke filosofie omdat het de vraag stelt wie namens “het volk” spreekt wanneer sociale en ecologische conflicten samenvallen.",
-        "bestMoment": "kritisch",
-        "tags": [
-          "environment & sustainability",
-          "philosophy",
-          "political philosophy"
-        ],
-        "coreInterests": [
-          "filosofie",
-          "ideologie"
-        ],
-        "alsoIn": [],
-        "memberships": []
       },
       {
         "position": null,
@@ -49572,37 +39043,6 @@ window.TOP_ARTICLES = {
       },
       {
         "position": null,
-        "id": "01m196y8g5rsnqxf3771kmb5ep",
-        "title": "The African Ethic of Ubuntu",
-        "author": null,
-        "siteName": "1000-Word Philosophy: An Introductory Anthology",
-        "category": "article",
-        "language": null,
-        "readingTime": "7 mins",
-        "readingMinutes": 7,
-        "wordCount": 1789,
-        "publishedDate": "2019-09-08",
-        "savedDate": "2026-08-30T11:30:10.053000+00:00",
-        "imageUrl": "https://1000wordphilosophy.files.wordpress.com/2019/09/ubuntu.jpg",
-        "sourceUrl": "https://1000wordphilosophy.com/2019/09/08/the-african-ethic-of-ubuntu/",
-        "readwiseUrl": "https://read.readwise.io/read/01m196y8g5rsnqxf3771kmb5ep",
-        "summary": "Author: Thaddeus Metz Categories: Ethics, Social and Political Philosophy, African Philosophy Word Count: 998 Listen here The word “ubuntu” is from some southern African languages and it literally means “humanness.” To have ubuntu is to be a person who is living a genuinely human way of life, whereas to lack ubuntu is to be missing…",
-        "whyRead": "Een heldere introductie tot ubuntu als ethiek van menselijke bloei door gemeenschap. Het biedt een waardevolle tegenstem naast individualistische ethiek en sluit aan bij je interesse in sociale structuren en wederzijdse afhankelijkheid.",
-        "bestMoment": "reflectief",
-        "tags": [
-          "ethics",
-          "philosophy",
-          "sociology & social structures"
-        ],
-        "coreInterests": [
-          "filosofie",
-          "sociologie"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
         "id": "01m196xpws827gy4a4qqcjkr8k",
         "title": "Aristotle’s Defense of Slavery",
         "author": null,
@@ -49637,7 +39077,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 78
+            "position": 79
           }
         ]
       },
@@ -49678,12 +39118,12 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-10",
-            "position": 5
+            "position": 6
           },
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 5
+            "position": 6
           },
           {
             "familyId": "social-studies",
@@ -49734,12 +39174,12 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-10",
-            "position": 4
+            "position": 5
           },
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 4
+            "position": 5
           },
           {
             "familyId": "social-studies",
@@ -49752,159 +39192,6 @@ window.TOP_ARTICLES = {
             "position": 2
           }
         ]
-      },
-      {
-        "position": null,
-        "id": "01m18x5tkp50nvk9xr4scqk691",
-        "title": "Tales of rebellion against externally-opaque meritocracies",
-        "author": null,
-        "siteName": "lesswrong.com",
-        "category": "article",
-        "language": null,
-        "readingTime": "11 mins",
-        "readingMinutes": 11,
-        "wordCount": 2894,
-        "publishedDate": "2026-08-29",
-        "savedDate": "2026-08-30T08:39:32.214000+00:00",
-        "imageUrl": "https://res.cloudinary.com/lesswrong-2-0/image/upload/c_fill,ar_1.91,g_auto/SocialPreview/blysdvzk1hu67yrw8lyb",
-        "sourceUrl": "https://www.lesswrong.com/posts/m8cP9KfkYMMCCQGrb/tales-of-rebellion-against-externally-opaque-meritocracies",
-        "readwiseUrl": "https://read.readwise.io/read/01m18x5tkp50nvk9xr4scqk691",
-        "summary": "A basic problem in metascience is that it’s hard to tell, from the outside, whether a group that you disagree with is: “A self-dealing cabal enmeshed in groupthink”, versus…",
-        "whyRead": "Sluit aan bij mijn interesse in politieke filosofie en sociologie van instituties — laat zien hoe onmogelijk het is om van buitenaf een echte meritocratie te onderscheiden van een zelfbevestigende kliek, en past dat toe op AI-alignment. Raakt daarnaast je interesse in sociale psychologie en interpersoonlijke dynamiek.",
-        "bestMoment": "analytisch",
-        "tags": [
-          "history",
-          "philosophy",
-          "science"
-        ],
-        "coreInterests": [
-          "filosofie",
-          "geschiedenis"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01m18x56hv061rkzgrd4eswmk6",
-        "title": "Book Notes: Chokepoints",
-        "author": null,
-        "siteName": "lesswrong.com",
-        "category": "article",
-        "language": null,
-        "readingTime": "11 mins",
-        "readingMinutes": 11,
-        "wordCount": 2776,
-        "publishedDate": "2026-08-29",
-        "savedDate": "2026-08-30T08:39:11.675000+00:00",
-        "imageUrl": "https://res.cloudinary.com/lesswrong-2-0/image/upload/v1654295382/new_mississippi_river_fjdmww.jpg",
-        "sourceUrl": "https://www.lesswrong.com/posts/WwxKPMw5CKx8f5skR/book-notes-chokepoints",
-        "readwiseUrl": "https://read.readwise.io/read/01m18x56hv061rkzgrd4eswmk6",
-        "summary": "[Chokepoints: American Power in the Age of Economic Warfare by Edward Fishman (2025).] •  • ---------------------------------------- •  …",
-        "whyRead": "Boekbespreking over economische oorlogsvoering en chokepoints (dollar, SWIFT, oliesancties) — sluit direct aan bij mijn interesse in macht & structuur, met concrete cases (Iran, Rusland) die laten zien hoe geopolitieke dwang in de praktijk werkt. Raakt daarnaast je interesse in sociale psychologie en interpersoonlijke dynamiek.",
-        "bestMoment": "analytisch",
-        "tags": [
-          "economics",
-          "history",
-          "political philosophy"
-        ],
-        "coreInterests": [
-          "filosofie",
-          "ideologie",
-          "geschiedenis"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01m18wwtk0xenjggfqswwkdcq1",
-        "title": "I tried to exercise my data rights. Companies kept getting it wrong.",
-        "author": null,
-        "siteName": "Ars Technica",
-        "category": "article",
-        "language": null,
-        "readingTime": "6 mins",
-        "readingMinutes": 6,
-        "wordCount": 1508,
-        "publishedDate": "2026-08-29",
-        "savedDate": "2026-08-30T08:34:37.280000+00:00",
-        "imageUrl": "https://cdn.arstechnica.net/wp-content/uploads/2026/08/personaldata-1024x648.jpg",
-        "sourceUrl": "https://arstechnica.com/tech-policy/2026/08/i-asked-100-companies-for-my-data-some-deleted-it-instead/",
-        "readwiseUrl": "https://read.readwise.io/read/01m18wwtk0xenjggfqswwkdcq1",
-        "summary": "Testing 100 companies found privacy requests often led to confusion and dead ends.",
-        "whyRead": "Raakt je interesse in technologie, privacy en bedrijfsverantwoordelijkheid. Een journalistieke stresstest van privacyrechten maakt zichtbaar hoe wetgeving faalt wanneer bedrijven de uitvoering aan consumenten overlaten.",
-        "bestMoment": "kritisch",
-        "tags": [
-          "current affairs & politics",
-          "ethics",
-          "technology"
-        ],
-        "coreInterests": [
-          "filosofie"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01m18wdrb9qpzrtqanc12wsgqs",
-        "title": "Leaders, You're No Longer Just Managing Productivity. You're Teaching Judgment",
-        "author": null,
-        "siteName": "reworked.co",
-        "category": "article",
-        "language": null,
-        "readingTime": "5 mins",
-        "readingMinutes": 5,
-        "wordCount": 1226,
-        "publishedDate": "2026-08-25",
-        "savedDate": "2026-08-30T08:26:23.465000+00:00",
-        "imageUrl": "https://www.reworked.co/-/media/07f00c0d58ab42718c2ce3edb75df2e8.ashx",
-        "sourceUrl": "https://www.reworked.co/learning-development/leaders-youre-no-longer-just-managing-productivity-youre-teaching-judgement/",
-        "readwiseUrl": "https://read.readwise.io/read/01m18wdrb9qpzrtqanc12wsgqs",
-        "summary": "AI reshaped the workflow, and the way talent develops. Here's how to intentionally design development.",
-        "whyRead": "Raakt je interesse in AI, leiderschap en teamontwikkeling. Het stuk laat zien dat AI niet alleen werk versnelt, maar ook de informele leermomenten uit het dagelijkse werk kan verwijderen.",
-        "bestMoment": "analytisch",
-        "tags": [
-          "ai ethics & society",
-          "organizational behavior & culture",
-          "professional development"
-        ],
-        "coreInterests": [
-          "agile"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01m18wd249xw7xd1ef3y59b91q",
-        "title": "Niets verwachten alles hopen",
-        "author": null,
-        "siteName": "Humanistisch Verbond",
-        "category": "article",
-        "language": null,
-        "readingTime": "3 mins",
-        "readingMinutes": 3,
-        "wordCount": 787,
-        "publishedDate": "2018-11-20",
-        "savedDate": "2026-08-30T08:26:00.713000+00:00",
-        "imageUrl": "https://www.humanistischverbond.nl/wp-content/uploads/2023/08/Schermafbeelding-2019-03-14-om-14.00.04-1-1120x783-1.png",
-        "sourceUrl": "https://www.humanistischverbond.nl/humanisme/niets-verwachten-alles-hopen/",
-        "readwiseUrl": "https://read.readwise.io/read/01m18wd249xw7xd1ef3y59b91q",
-        "summary": "We praten onszelf allerlei verwachtingen aan over het leven. Hoe succesvol het moet zijn. En als het niet loopt zoals je had verwacht, beland je in een zware crisis. JAAP VAN PRAAG (1911-1981), grondlegger van het Humanistisch Verbond, had daar een antwoord op: veerkracht. Jaap van Praag was een seculier Joodse Nederlander. Decennia lang was […]",
-        "whyRead": "Raakt je interesse in seculiere zingeving, existentialisme en persoonlijke levensfilosofie. Dit toegankelijke Nederlandse essay gebruikt Jaap van Praag om de verhouding tussen verwachtingen, hoop en geestelijke veerkracht te onderzoeken.",
-        "bestMoment": "reflectief",
-        "tags": [
-          "existentialism",
-          "personal growth & life philosophy",
-          "philosophy"
-        ],
-        "coreInterests": [
-          "filosofie"
-        ],
-        "alsoIn": [],
-        "memberships": []
       },
       {
         "position": null,
@@ -50047,34 +39334,6 @@ window.TOP_ARTICLES = {
       },
       {
         "position": null,
-        "id": "01m18v478gh1q09mxpn9yy1f9m",
-        "title": "The choices we make about AI now are critical | Bill Gates",
-        "author": null,
-        "siteName": "gatesnotes.com",
-        "category": "article",
-        "language": null,
-        "readingTime": "23 mins",
-        "readingMinutes": 23,
-        "wordCount": 5864,
-        "publishedDate": null,
-        "savedDate": "2026-09-06T19:40:34.546000+00:00",
-        "imageUrl": "https://images.gatesnotes.com/12514eb8-7b51-008e-41a9-512542cf683b/f93f0cc8-be6d-4e33-870b-ab6d546576f1/AI-Article-08.19.2026-Share-Image-1200x630.jpg",
-        "sourceUrl": "https://www.gatesnotes.com/a-turbulent-ai-era-and-critical-choices-to-make",
-        "readwiseUrl": "https://read.readwise.io/read/01m18v478gh1q09mxpn9yy1f9m",
-        "summary": "AI will either be the greatest equalizer ever invented, or the worst source of injustice. We need to start planning now so it makes the world a fairer place.",
-        "whyRead": "Raakt je interesse in AI, technologie en politieke instituties. Bill Gates formuleert een breed programma voor een AI-transitie waarin werk, ongelijkheid, staatsmacht en menselijke relaties samen worden bekeken.",
-        "bestMoment": "kritisch",
-        "tags": [
-          "ai ethics & society",
-          "current affairs & politics",
-          "technology"
-        ],
-        "coreInterests": [],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
         "id": "01m18j8c3fqagby4exfngsgy0t",
         "title": "Most Conflict Starts With Team Agreements No One Made",
         "author": null,
@@ -50110,67 +39369,6 @@ window.TOP_ARTICLES = {
             "position": 25
           }
         ]
-      },
-      {
-        "position": null,
-        "id": "01m17yb0acqmetaqyrrhk1pmta",
-        "title": "Being and Snoozing: Sleep and the Limits of Self-Authorship",
-        "author": null,
-        "siteName": "Substack",
-        "category": "article",
-        "language": null,
-        "readingTime": "8 mins",
-        "readingMinutes": 8,
-        "wordCount": 1948,
-        "publishedDate": "2026-08-27",
-        "savedDate": "2026-08-29T23:40:36.044000+00:00",
-        "imageUrl": "https://substackcdn.com/image/fetch/$s_!peNX!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F005dc7db-d68b-4260-9a7a-a4312da5b1c0_888x1252.png",
-        "sourceUrl": "https://substack.com/@newyorkjournalofphilosophy/p-213017393",
-        "readwiseUrl": "https://read.readwise.io/read/01m17yb0acqmetaqyrrhk1pmta",
-        "summary": "By Grace Theodoly",
-        "whyRead": "Raakt je interesse in filosofie en de grenzen van zelfsturing. Dit geestige persoonlijke essay gebruikt slaap als tegenvoorbeeld voor het idee dat het leven volledig een project van de wil is.",
-        "bestMoment": "ontspannen",
-        "tags": [
-          "health & wellness",
-          "personal growth & life philosophy",
-          "philosophy"
-        ],
-        "coreInterests": [
-          "filosofie"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01m17x1rb5jrqjsb66fhnf5ans",
-        "title": "Nieuwe wet Inlichtingen- en veiligheidsdiensten: wat mogen ze nu al en waar zijn ze voor",
-        "author": null,
-        "siteName": "Bert Hubert's writings",
-        "category": "rss",
-        "language": null,
-        "readingTime": "10 mins",
-        "readingMinutes": 10,
-        "wordCount": 2463,
-        "publishedDate": "2026-08-27",
-        "savedDate": "2026-08-29T23:18:01.389000+00:00",
-        "imageUrl": "https://berthub.eu/articles/favicon.ico",
-        "sourceUrl": "https://berthub.eu/articles/posts/geheime-veiligheids-en-inlichtingendiensten/",
-        "readwiseUrl": "https://read.readwise.io/read/01m17x1rb5jrqjsb66fhnf5ans",
-        "summary": "Komende vrijdag komt het kabinet met de nieuwe AIVD en MIVD wet. Wat daarin staat weten we niet, maar wel zeker is dat we er heel kritisch naar moeten gaan kijken. De diensten hebben recent de verkeerde mensen laten arresteren en kwamen ook met onjuiste informatie over de inval in Oekraïne. Ook bleek kort geleden dat men slordig om gaat met enorme bakken met data over ons allemaal. Ook het grootschalig afluisterprogramma blijkt nog erg weinig op te leveren, maar wel heel veel mensen af te luisteren, waarbij er ook nog weleens wat dingen gebeuren die mogelijk niet de bedoeling waren.",
-        "whyRead": "Raakt je interesse in Nederlandse politiek, politieke filosofie en privacy. Deze kritische inventaris maakt duidelijk welke bevoegdheden AIVD en MIVD al hebben voordat een nieuwe wet de discussie verder uitbreidt.",
-        "bestMoment": "kritisch",
-        "tags": [
-          "current affairs & politics",
-          "political philosophy",
-          "technology"
-        ],
-        "coreInterests": [
-          "filosofie",
-          "ideologie"
-        ],
-        "alsoIn": [],
-        "memberships": []
       },
       {
         "position": null,
@@ -50284,64 +39482,6 @@ window.TOP_ARTICLES = {
       },
       {
         "position": null,
-        "id": "01m16j8y0wqdf804wss6gjpt3p",
-        "title": "The Science of Learning!",
-        "author": null,
-        "siteName": null,
-        "category": "email",
-        "language": null,
-        "readingTime": "3 mins",
-        "readingMinutes": 3,
-        "wordCount": 706,
-        "publishedDate": "2026-08-29",
-        "savedDate": "2026-08-29T10:50:30.812000+00:00",
-        "imageUrl": null,
-        "sourceUrl": "mailto:reader-forwarded-email/5efdb746c672e28c7d0ab134b698f49b",
-        "readwiseUrl": "https://read.readwise.io/read/01m16j8y0wqdf804wss6gjpt3p",
-        "summary": "Study methods matter, too: Re-reading your notes helps a little, but 'effortful practice' helps a lot: Find a hard assignment and keep answering imagined questions until you can explain what's going on.",
-        "whyRead": "Raakt je interesse in leren en evidence-informed ontwikkeling. Deze korte nieuwsbrief vertaalt onderwijsonderzoek naar concrete vragen over oefenen, feedback en effectieve instructie.",
-        "bestMoment": "leergierig",
-        "tags": [
-          "behavioral psychology & coaching",
-          "learning & meta-learning",
-          "science"
-        ],
-        "coreInterests": [],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01m165n8b4qpq2few1y4qzdnxk",
-        "title": "How To Push Back At Work Without Hurting Your Career",
-        "author": null,
-        "siteName": "substack.com",
-        "category": "article",
-        "language": null,
-        "readingTime": "13 mins",
-        "readingMinutes": 13,
-        "wordCount": 3185,
-        "publishedDate": "2026-08-22",
-        "savedDate": "2026-08-29T07:10:03.040000+00:00",
-        "imageUrl": "https://substackcdn.com/image/fetch/$s_!C8w6!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F08a91570-1baf-4a06-9d0f-db82b06e0c15_1536x1024.png",
-        "sourceUrl": "https://polinarussell.substack.com/p/boundary-setting-at-work-guide",
-        "readwiseUrl": "https://read.readwise.io/read/01m165n8b4qpq2few1y4qzdnxk",
-        "summary": "The ultimate guide to setting boundaries with your boss, your peers, your team – and, surprisingly, yourself.",
-        "whyRead": "Raakt je werk als Scrum Master via grenzen, psychologische veiligheid en werkafspraken. Het artikel biedt menselijk en concreet materiaal om terugduwen bespreekbaar te maken zonder onmiddellijk in conflictlogica te belanden.",
-        "bestMoment": "leergierig",
-        "tags": [
-          "behavioral psychology & coaching",
-          "professional development",
-          "team dynamics & collaboration"
-        ],
-        "coreInterests": [
-          "agile"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
         "id": "01m14nb3gbkc1d5zt0q1rbjpsv",
         "title": "Hoe Martin Luther King ‘I Have a Dream’ improviseerde",
         "author": null,
@@ -50377,12 +39517,12 @@ window.TOP_ARTICLES = {
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 77
+            "position": 78
           },
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 14
+            "position": 15
           }
         ]
       },
@@ -50554,37 +39694,9 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 87
+            "position": 78
           }
         ]
-      },
-      {
-        "position": null,
-        "id": "01m11bdc8mm8yp81t7sh9hxc6w",
-        "title": "What Learning to Scream Taught Me About AI And Metacognition",
-        "author": null,
-        "siteName": "Substack",
-        "category": "email",
-        "language": null,
-        "readingTime": "10 mins",
-        "readingMinutes": 10,
-        "wordCount": 2455,
-        "publishedDate": "2026-08-27",
-        "savedDate": "2026-08-27T10:14:24.276000+00:00",
-        "imageUrl": null,
-        "sourceUrl": "mailto:reader-forwarded-email/c29c03c8425bbe8a24602263710714a7",
-        "readwiseUrl": "https://read.readwise.io/read/01m11bdc8mm8yp81t7sh9hxc6w",
-        "summary": "Our brains don’t come with a “learn-o-meter” keeping track of how well we’re learning. Instead, we unconsciously use clues to infer how well we’ve learned.",
-        "whyRead": "Raakt je interesse in leren, metacognitie en AI. Een verhaal over leren schreeuwen maakt concreet waarom vloeiendheid en een goed resultaat geen betrouwbare bewijzen zijn dat je zelf iets beheerst.",
-        "bestMoment": "leergierig",
-        "tags": [
-          "ai ethics & society",
-          "behavioral psychology & coaching",
-          "learning & meta-learning"
-        ],
-        "coreInterests": [],
-        "alsoIn": [],
-        "memberships": []
       },
       {
         "position": null,
@@ -50699,12 +39811,12 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-10",
-            "position": 6
+            "position": 4
           },
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 6
+            "position": 4
           },
           {
             "familyId": "luchtig",
@@ -50874,36 +39986,6 @@ window.TOP_ARTICLES = {
       },
       {
         "position": null,
-        "id": "01m0yqad4wzakafyhsx7qm2dd5",
-        "title": "First we shape our feedback loops; then they shape us",
-        "author": null,
-        "siteName": "Substack",
-        "category": "email",
-        "language": null,
-        "readingTime": "6 mins",
-        "readingMinutes": 6,
-        "wordCount": 1507,
-        "publishedDate": "2026-08-26",
-        "savedDate": "2026-08-26T09:44:46.493000+00:00",
-        "imageUrl": null,
-        "sourceUrl": "mailto:reader-forwarded-email/3d944554d4f7ab797a135c6d85ad70f4",
-        "readwiseUrl": "https://read.readwise.io/read/01m0yqad4wzakafyhsx7qm2dd5",
-        "summary": "We have a new calendar for meetups.",
-        "whyRead": "Raakt je interesse in PKM, essay schrijven en leren. Henrik Karlsson laat overtuigend zien dat je notitie- en feedbackpraktijken niet neutraal zijn: ze trainen je aandacht, smaak en gedrag. Raakt daarnaast je interesse in sociale psychologie en interpersoonlijke dynamiek, teamdynamiek en samenwerking.",
-        "bestMoment": "reflectief",
-        "tags": [
-          "learning & meta-learning",
-          "professional development",
-          "team dynamics & collaboration"
-        ],
-        "coreInterests": [
-          "agile"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
         "id": "01m0q9g0mw4fqpnb351j8763gb",
         "title": "The (surprising) 9 most common challenges that Product Owners face, and affect their Scrum Teams",
         "author": null,
@@ -50977,7 +40059,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 54
+            "position": 53
           }
         ]
       },
@@ -51241,37 +40323,6 @@ window.TOP_ARTICLES = {
       },
       {
         "position": null,
-        "id": "01m0nepry7rbgqh62vdcjr37a7",
-        "title": "Plays, Pageants, and the Origin of the “First Thanksgiving” Story",
-        "author": null,
-        "siteName": "A Smile And A Gun",
-        "category": "article",
-        "language": null,
-        "readingTime": "7 mins",
-        "readingMinutes": 7,
-        "wordCount": 1740,
-        "publishedDate": "2016-11-24",
-        "savedDate": "2026-08-22T19:21:04.711000+00:00",
-        "imageUrl": "https://smileandgun.wordpress.com/wp-content/uploads/2016/11/kids-with-thanksigving-sign.jpg",
-        "sourceUrl": "https://smileandgun.wordpress.com/2016/11/24/plays-pageants-and-the-origin-of-the-first-thanksgiving-story/",
-        "readwiseUrl": "https://read.readwise.io/read/01m0nepry7rbgqh62vdcjr37a7",
-        "summary": "Ask any schoolchild in America about Thanksgiving, and you’re likely to hear a story about how pilgrims and Native Americans sat down together and had a big, friendly feast. We’ve known…",
-        "whyRead": "Raakt je interesse in geschiedenis en mythevorming: laat zien hoe schoolpageants en Progressieve Era-immigratiepolitiek de Thanksgiving-mythe institutionaliseerden, met concrete voorbeelden van bizarre schooltoneelstukken uit de jaren 1920 — een aanvulling op het al aanwezige \"The Story of Thanksgiving As a Story\", al is de context sterk Amerikaans. Raakt daarnaast je interesse in sociale psychologie en interpersoonlijke dynamiek.",
-        "bestMoment": "ontspannen",
-        "tags": [
-          "history",
-          "social psychology & interpersonal dynamics",
-          "sociology & social structures"
-        ],
-        "coreInterests": [
-          "geschiedenis",
-          "sociologie"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
         "id": "01m0nepq34v9hbtcm1z1rcjn1e",
         "title": "The Madness of Yankee Doodle",
         "author": null,
@@ -51305,7 +40356,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 58
+            "position": 59
           }
         ]
       },
@@ -51344,40 +40395,9 @@ window.TOP_ARTICLES = {
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 76
+            "position": 77
           }
         ]
-      },
-      {
-        "position": null,
-        "id": "01m0nepm4769q79fgea0s2v02v",
-        "title": "The Glorious Revolution, Part 2",
-        "author": null,
-        "siteName": "substack.com",
-        "category": "article",
-        "language": null,
-        "readingTime": "10 mins",
-        "readingMinutes": 10,
-        "wordCount": 2447,
-        "publishedDate": "2024-06-08",
-        "savedDate": "2026-08-22T19:20:59.783000+00:00",
-        "imageUrl": "https://substackcdn.com/image/fetch/$s_!X1ZD!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd4643b8e-b534-4778-9d45-be2430c2be3c_1106x899.png",
-        "sourceUrl": "https://papyrusrampant.substack.com/p/the-glorious-revolution-part-2",
-        "readwiseUrl": "https://read.readwise.io/read/01m0nepm4769q79fgea0s2v02v",
-        "summary": "You've had your revolution; now how do you make it glorious?",
-        "whyRead": "Raakt je kerninteresses in West-Europese geschiedenis en politieke filosofie — dit tweede deel legt haarfijn uit hoe de Glorious Revolution parlementaire soevereiniteit en een aan wetten gebonden monarchie vestigde, met directe lijnen naar latere constitutionele precedenten.",
-        "bestMoment": "analytisch",
-        "tags": [
-          "history",
-          "political philosophy"
-        ],
-        "coreInterests": [
-          "filosofie",
-          "ideologie",
-          "geschiedenis"
-        ],
-        "alsoIn": [],
-        "memberships": []
       },
       {
         "position": null,
@@ -51422,7 +40442,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "social-studies",
             "size": "top-100",
-            "position": 72
+            "position": 71
           }
         ]
       },
@@ -51461,7 +40481,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 75
+            "position": 76
           }
         ]
       },
@@ -51582,7 +40602,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 74
+            "position": 75
           }
         ]
       },
@@ -51711,7 +40731,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 73
+            "position": 74
           }
         ]
       },
@@ -51753,17 +40773,17 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 53
+            "position": 60
           },
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 21
+            "position": 23
           },
           {
             "familyId": "social-studies",
             "size": "top-100",
-            "position": 71
+            "position": 77
           }
         ]
       },
@@ -52215,36 +41235,6 @@ window.TOP_ARTICLES = {
       },
       {
         "position": null,
-        "id": "01m0k3c5bpzqs90951nw1g61t3",
-        "title": "Difficult Product Owner? Here’s What to Do When You Have No Authority Over Them",
-        "author": null,
-        "siteName": "whatisscrum.org Newsletter",
-        "category": "article",
-        "language": null,
-        "readingTime": "7 mins",
-        "readingMinutes": 7,
-        "wordCount": 1795,
-        "publishedDate": "2026-08-14",
-        "savedDate": "2026-08-21T21:24:35.688000+00:00",
-        "imageUrl": "https://substackcdn.com/image/fetch/$s_!oRjt!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fae87eb50-c810-448d-9e0c-e73ec93bbd16_1280x720.jpeg",
-        "sourceUrl": "https://dejanmajkic.substack.com/p/difficult-product-owner-heres-what?utm_source=direct&r=1r0y5d&utm_campaign=post-expanded-share&utm_medium=post%20viewer",
-        "readwiseUrl": "https://read.readwise.io/read/01m0k3c5bpzqs90951nw1g61t3",
-        "summary": "Here's a practical, no-fluff way for Scrum Masters to handle a difficult PO without formal authority.",
-        "whyRead": "Beroepsmatig relevant als Scrum Master — praktisch kader voor het omgaan met een Product Owner over wie je geen formele autoriteit hebt.",
-        "bestMoment": "leergierig",
-        "tags": [
-          "organizational behavior & culture",
-          "professional development",
-          "team dynamics & collaboration"
-        ],
-        "coreInterests": [
-          "agile"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
         "id": "01m0k2xdt0xamb4cd7cr6j5vhx",
         "title": "The Scrum Master Way: Four Levers That Drive Team Growth",
         "author": null,
@@ -52280,17 +41270,17 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 30
+            "position": 29
           },
           {
             "familyId": "kort",
             "size": "top-10",
-            "position": 10
+            "position": 9
           },
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 10
+            "position": 9
           },
           {
             "familyId": "social-studies",
@@ -52298,96 +41288,6 @@ window.TOP_ARTICLES = {
             "position": 33
           }
         ]
-      },
-      {
-        "position": null,
-        "id": "01m0k2vz633g5ymgt2gt9qgv09",
-        "title": "The Unlicensed Therapists of Tech",
-        "author": null,
-        "siteName": "Code Like A Girl",
-        "category": "article",
-        "language": null,
-        "readingTime": "8 mins",
-        "readingMinutes": 8,
-        "wordCount": 2090,
-        "publishedDate": "2026-03-04",
-        "savedDate": "2026-08-21T21:15:43.169000+00:00",
-        "imageUrl": "https://substackcdn.com/image/fetch/$s_!rs8Q!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F0b70b417-f84a-42de-b9e8-460a6bfe0c4d_1536x1024.png",
-        "sourceUrl": "https://codelikeagirl.substack.com/p/the-unlicensed-therapists-of-tech?utm_source=direct&r=1r0y5d&utm_campaign=post-expanded-share&utm_medium=post%20viewer",
-        "readwiseUrl": "https://read.readwise.io/read/01m0k2vz633g5ymgt2gt9qgv09",
-        "summary": "From observing code to observing people, we are doing the work no one sees",
-        "whyRead": "Raakt je interesse in scrum en professionele ontwikkeling — persoonlijk, essayistisch verslag van een oud-Scrum Master over de onzichtbare emotionele arbeid achter servant leadership.",
-        "bestMoment": "reflectief",
-        "tags": [
-          "organizational behavior & culture",
-          "professional development",
-          "team dynamics & collaboration"
-        ],
-        "coreInterests": [
-          "agile"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01m0fprcw0hbenm9ssw4pgfvjs",
-        "title": "Ness Labs: Emotional Inquiry 🧊",
-        "author": null,
-        "siteName": "Ness Labs",
-        "category": "email",
-        "language": null,
-        "readingTime": "7 mins",
-        "readingMinutes": 7,
-        "wordCount": 1696,
-        "publishedDate": "2026-08-20",
-        "savedDate": "2026-08-20T13:46:19.905000+00:00",
-        "imageUrl": null,
-        "sourceUrl": "mailto:reader-forwarded-email/4d95d24b1f8b08fc1d07b52273b9af98",
-        "readwiseUrl": "https://read.readwise.io/read/01m0fprcw0hbenm9ssw4pgfvjs",
-        "summary": "A couple of days ago, I was having coffee with a good friend who was telling me about some difficult feedback she had received at work on a project, how much it had affected her emotionally, and how she wished she could be more “chill” about it.",
-        "whyRead": "Raakt je interesse in gedragspsychologie en persoonlijke groei — een praktisch driestappenmodel om sterke emotionele reacties te doorgronden in plaats van te onderdrukken. Raakt daarnaast je interesse in sociale psychologie en interpersoonlijke dynamiek, teamdynamiek en samenwerking.",
-        "bestMoment": "reflectief",
-        "tags": [
-          "behavioral psychology & coaching",
-          "personal growth & life philosophy",
-          "team dynamics & collaboration"
-        ],
-        "coreInterests": [
-          "agile"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01m0f5thx0x9f1rpdvj5r64m3m",
-        "title": "Meditations On Moloch",
-        "author": null,
-        "siteName": "slatestarcodexabridged.com",
-        "category": "article",
-        "language": null,
-        "readingTime": "55 mins",
-        "readingMinutes": 55,
-        "wordCount": 14313,
-        "publishedDate": "2014-07-30",
-        "savedDate": "2026-08-30T11:40:39.456000+00:00",
-        "imageUrl": null,
-        "sourceUrl": "https://www.slatestarcodexabridged.com/Meditations-On-Moloch",
-        "readwiseUrl": "https://read.readwise.io/read/01m0f5thx0x9f1rpdvj5r64m3m",
-        "summary": "Moloch whose eyes are a thousand blind windows! Moloch whose skyscrapers stand in the long streets like endless Jehovahs!",
-        "whyRead": "Raakt je interesse in politieke filosofie en AI-ethiek — dit is het canonieke rationalist-essay over \"multipolaire vallen\": situaties waarin iedereen een systeem haat maar niemand er unilateraal uit kan stappen (concurrentie, evolutie, kapitalisme, wapenwedlopen). Bouwt via game theory naar een van de invloedrijkste hedendaagse argumenten voor AI-existentieel risico.",
-        "bestMoment": "analytisch",
-        "tags": [
-          "ai ethics & society",
-          "philosophy",
-          "philosophy of mind"
-        ],
-        "coreInterests": [
-          "filosofie"
-        ],
-        "alsoIn": [],
-        "memberships": []
       },
       {
         "position": null,
@@ -52703,7 +41603,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 31
+            "position": 34
           }
         ]
       },
@@ -52833,7 +41733,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 15
+            "position": 14
           }
         ]
       },
@@ -52875,17 +41775,17 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 29
+            "position": 30
           },
           {
             "familyId": "kort",
             "size": "top-10",
-            "position": 9
+            "position": 10
           },
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 9
+            "position": 10
           }
         ]
       },
@@ -52923,238 +41823,9 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 95
+            "position": 96
           }
         ]
-      },
-      {
-        "position": null,
-        "id": "01m02agqvzjjczjgfrjqd8qyqj",
-        "title": "De enige AI-skill die er echt toe doet",
-        "author": null,
-        "siteName": "beehiiv.com",
-        "category": "email",
-        "language": null,
-        "readingTime": "4 mins",
-        "readingMinutes": 4,
-        "wordCount": 989,
-        "publishedDate": "2026-08-15",
-        "savedDate": "2026-08-15T09:02:18.496000+00:00",
-        "imageUrl": null,
-        "sourceUrl": "mailto:reader-forwarded-email/6bc0e8d9306bb9361d5b8e0a69d987ee",
-        "readwiseUrl": "https://read.readwise.io/read/01m02agqvzjjczjgfrjqd8qyqj",
-        "summary": "Voortaan delen we op zaterdag artikelen van een van onze favoriete AI-auteurs: Alberto Romero van The Algorithmic Bridge.",
-        "whyRead": "Raakt je kerninteresses in AI, filosofie en betekenisvol kenniswerk. Romero draait de gangbare promptvraag om: goede AI-uitkomsten beginnen bij eigen doelen, waarden en toetsingsvermogen, niet bij soepel geformuleerde opdrachten. Raakt daarnaast je interesse in organisatiegedrag en cultuur.",
-        "bestMoment": "kritisch",
-        "tags": [
-          "ai ethics & society",
-          "existentialism",
-          "professional development"
-        ],
-        "coreInterests": [
-          "filosofie"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01m01yc8rqy3yyyab16j5exq6t",
-        "title": "Populair klimaatbeleid: dit zijn de bouwstenen",
-        "author": null,
-        "siteName": "De Correspondent",
-        "category": "email",
-        "language": null,
-        "readingTime": "6 mins",
-        "readingMinutes": 6,
-        "wordCount": 1331,
-        "publishedDate": "2026-08-15",
-        "savedDate": "2026-08-15T05:30:09.047000+00:00",
-        "imageUrl": null,
-        "sourceUrl": "mailto:reader-forwarded-email/478d55003e38d272e53bff3a91e745aa",
-        "readwiseUrl": "https://read.readwise.io/read/01m01yc8rqy3yyyab16j5exq6t",
-        "summary": "Welkom terug bij mijn journalistieke zoektocht naar klimaatpolitiek die werkt.",
-        "whyRead": "Raakt je interesse in klimaatpolitiek, democratie en sociale scheidslijnen. Mommers behandelt draagvlak niet als communicatietruc, maar als onderdeel van rechtvaardig en verbeeldingsrijk beleid dat verschillende waardenwerelden serieus neemt. Raakt daarnaast je interesse in sociale psychologie en interpersoonlijke dynamiek.",
-        "bestMoment": "kritisch",
-        "tags": [
-          "current affairs & politics",
-          "environment & sustainability",
-          "sociology & social structures"
-        ],
-        "coreInterests": [
-          "sociologie"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01m01v1rmpqh6acc6t5t8cdy21",
-        "title": "Was ik maar iets meer robotesk",
-        "author": null,
-        "siteName": "Substack",
-        "category": "email",
-        "language": null,
-        "readingTime": "1 min",
-        "readingMinutes": 1,
-        "wordCount": 202,
-        "publishedDate": "2026-08-15",
-        "savedDate": "2026-08-15T04:31:59.126000+00:00",
-        "imageUrl": null,
-        "sourceUrl": "mailto:reader-forwarded-email/2ec413816edffa53c071aa10b7604a1a",
-        "readwiseUrl": "https://read.readwise.io/read/01m01v1rmpqh6acc6t5t8cdy21",
-        "summary": null,
-        "whyRead": "Een luchtig, raak gedicht over productiviteitsdwang en aandacht. De humor werkt als kleine tegenstem bij de neiging om zelfs vijf minuten verwondering over een geparkeerde truck als verlies te behandelen.",
-        "bestMoment": "ontspannen",
-        "tags": [
-          "arts & culture",
-          "personal growth & life philosophy"
-        ],
-        "coreInterests": [],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01kzzst7bzmyrpwmespcekhf7k",
-        "title": "Er is straks niets dat AI niet beter kan. Behalve mens zijn.",
-        "author": null,
-        "siteName": "Substack",
-        "category": "email",
-        "language": null,
-        "readingTime": "6 mins",
-        "readingMinutes": 6,
-        "wordCount": 1511,
-        "publishedDate": "2026-08-14",
-        "savedDate": "2026-08-14T09:31:54.623000+00:00",
-        "imageUrl": null,
-        "sourceUrl": "mailto:reader-forwarded-email/cf11f5d1e480f1bd7c85181bad79cc9f",
-        "readwiseUrl": "https://read.readwise.io/read/01kzzst7bzmyrpwmespcekhf7k",
-        "summary": "Wij zijn Saskia en Alinda, en we schrijven wekelijks over AI voor vrouwen die ermee willen (leren) werken. Door niet alleen erover te lezen, maar vooral te doen.",
-        "whyRead": "Raakt je kerninteresses in AI-ethiek, leren en filosofie. Dit toegankelijke essay legt een scherpe analogie tussen de langzame uitbesteding van voedselzorg aan de industrie en het uitbesteden van denken aan AI, zonder de menselijke verwondering uit het oog te verliezen.",
-        "bestMoment": "kritisch",
-        "tags": [
-          "ai ethics & society",
-          "learning & meta-learning",
-          "philosophy"
-        ],
-        "coreInterests": [
-          "filosofie"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01kzr4dqeqcac4srvc6vvdppez",
-        "title": "Hij wilde een plekje bij de spinningles. Zijn AI hackte de sportschool",
-        "author": null,
-        "siteName": "beehiiv.com",
-        "category": "email",
-        "language": null,
-        "readingTime": "10 mins",
-        "readingMinutes": 10,
-        "wordCount": 2599,
-        "publishedDate": "2026-08-11",
-        "savedDate": "2026-08-11T10:03:23.992000+00:00",
-        "imageUrl": null,
-        "sourceUrl": "mailto:reader-forwarded-email/6cfb87429b06802a9a609da14c1ce8c5",
-        "readwiseUrl": "https://read.readwise.io/read/01kzr4dqeqcac4srvc6vvdppez",
-        "summary": "Andrew, een Australiër, had geen zin om zelf een plek te boeken in een populaire ochtendles van zijn sportschool. Dus liet hij het over aan zijn AI-assistent.",
-        "whyRead": "Raakt je kerninteresse in AI-ethiek en de maatschappelijke gevolgen van autonome agents. Deze nieuwsbrief brengt incidenten, open modellen en aansprakelijkheid samen tot één bruikbare vraag: wat gebeurt er wanneer optimalisatie sneller gaat dan toezicht?",
-        "bestMoment": "kritisch",
-        "tags": [
-          "ai ethics & society",
-          "current affairs & politics",
-          "technology"
-        ],
-        "coreInterests": [],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01kzjk22zxkgrvftgdtdvj01rq",
-        "title": "Twintig seconden waar ik me diep voor schaam",
-        "author": null,
-        "siteName": "Substack",
-        "category": "email",
-        "language": null,
-        "readingTime": "9 mins",
-        "readingMinutes": 9,
-        "wordCount": 2122,
-        "publishedDate": "2026-08-09",
-        "savedDate": "2026-08-09T06:23:44.637000+00:00",
-        "imageUrl": null,
-        "sourceUrl": "mailto:reader-forwarded-email/d6f314a85583cfa5b9175a9ac4ec73f8",
-        "readwiseUrl": "https://read.readwise.io/read/01kzjk22zxkgrvftgdtdvj01rq",
-        "summary": "Ik was bezig met het afronden van de laatste versie van het laatste hoofdstuk van mijn nieuwe boek. In alle eerlijkheid was dat niet alleen dinsdag.",
-        "whyRead": "Een persoonlijk, helder essay over AI als verleiding om precies het soort inspanning uit te besteden waar vaardigheid, trots en betekenis uit groeien. Sterke tegenhanger voor een puur productiviteitskader.",
-        "bestMoment": "reflectief",
-        "tags": [
-          "ai ethics & society",
-          "personal",
-          "philosophy"
-        ],
-        "coreInterests": [
-          "filosofie"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01kzds50ngmgn4d833k9cj9dp2",
-        "title": "Wie bepaalt of jouw werk “AI slop” is?",
-        "author": null,
-        "siteName": "Substack",
-        "category": "email",
-        "language": null,
-        "readingTime": "7 mins",
-        "readingMinutes": 7,
-        "wordCount": 1737,
-        "publishedDate": "2026-08-07",
-        "savedDate": "2026-08-07T09:33:59.856000+00:00",
-        "imageUrl": null,
-        "sourceUrl": "mailto:reader-forwarded-email/7726cd80235e54eca15b2d93605e4c2e",
-        "readwiseUrl": "https://read.readwise.io/read/01kzds50ngmgn4d833k9cj9dp2",
-        "summary": "Wij zijn Saskia en Alinda, en we schrijven wekelijks over AI voor vrouwen die ermee willen (leren) werken. Door niet alleen erover te lezen, maar vooral te doen.",
-        "whyRead": "Scherpe, toegankelijke analyse van het label 'AI slop' en de macht die in detectiesystemen schuilt. Raakt je interesse in AI-ethiek, transparantie en platformbestuur.",
-        "bestMoment": "kritisch",
-        "tags": [
-          "ai ethics & society",
-          "technology"
-        ],
-        "coreInterests": [],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01kzdbf87h4fzk1m5hz1zgh27t",
-        "title": "De ideologische no-brainer voor het kabinet",
-        "author": null,
-        "siteName": "Substack",
-        "category": "email",
-        "language": null,
-        "readingTime": "5 mins",
-        "readingMinutes": 5,
-        "wordCount": 1183,
-        "publishedDate": "2026-08-07",
-        "savedDate": "2026-08-07T05:34:55.217000+00:00",
-        "imageUrl": null,
-        "sourceUrl": "mailto:reader-forwarded-email/43159c720ad8f0890c92dd4a40328a38",
-        "readwiseUrl": "https://read.readwise.io/read/01kzdbf87h4fzk1m5hz1zgh27t",
-        "summary": "Het is hommeles in woningland. Afgelopen weken luidde zowel AEDES, de koepelorganisatie van alle woningbouwcorporaties, als de DNB de noodklok.",
-        "whyRead": "Concrete Nederlandse politieke economie rond woningcorporaties en de vraag welke fiscale prikkel werkelijk woningen oplevert.",
-        "bestMoment": "kritisch",
-        "tags": [
-          "current affairs & politics",
-          "economics"
-        ],
-        "coreInterests": [],
-        "alsoIn": [],
-        "memberships": []
       },
       {
         "position": null,
@@ -53374,36 +42045,6 @@ window.TOP_ARTICLES = {
       },
       {
         "position": null,
-        "id": "01kyxvjcj0396b5z5w8bcz634q",
-        "title": "De atheïst die de bekendste verdediger van het christendom werd",
-        "author": null,
-        "siteName": "Substack",
-        "category": "email",
-        "language": null,
-        "readingTime": "9 mins",
-        "readingMinutes": 9,
-        "wordCount": 2302,
-        "publishedDate": "2026-08-01",
-        "savedDate": "2026-08-01T05:08:24.257000+00:00",
-        "imageUrl": null,
-        "sourceUrl": "mailto:reader-forwarded-email/363643d320a4241500df2bc54c0e90ca",
-        "readwiseUrl": "https://read.readwise.io/read/01kyxvjcj0396b5z5w8bcz634q",
-        "summary": "“Het leek op het moment waarop een mens, na een lange slaap, nog roerloos in bed ligt en zich ervan bewust wordt dat hij nu wakker is. ” Zo omschrijft C.",
-        "whyRead": "Zie de gekozen tags: dit stuk biedt een inhoudelijke ingang die aansluit op die interessegebieden.",
-        "bestMoment": "reflectief",
-        "tags": [
-          "history",
-          "philosophy"
-        ],
-        "coreInterests": [
-          "filosofie",
-          "geschiedenis"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
         "id": "01kyxa2yd57szp13ha57708606",
         "title": "Your Book Review: The Epic Of Gilgamesh",
         "author": null,
@@ -53437,7 +42078,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 30
+            "position": 31
           }
         ]
       },
@@ -53553,7 +42194,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 86
+            "position": 87
           }
         ]
       },
@@ -53594,108 +42235,14 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 60
+            "position": 59
           },
           {
             "familyId": "social-studies",
             "size": "top-100",
-            "position": 77
+            "position": 76
           }
         ]
-      },
-      {
-        "position": null,
-        "id": "01kysnkny4jr6ej2jh6n05ex8q",
-        "title": "Het Curieuze Artikel 73 van de AIVD en MIVD",
-        "author": null,
-        "siteName": "Bert Hubert's writings",
-        "category": "article",
-        "language": null,
-        "readingTime": "3 mins",
-        "readingMinutes": 3,
-        "wordCount": 574,
-        "publishedDate": "2024-01-08",
-        "savedDate": "2026-07-30T14:07:17.445000+00:00",
-        "imageUrl": "https://berthub.eu/articles/bvd.jpeg",
-        "sourceUrl": "https://berthub.eu/articles/posts/het-curieuze-artikel-73-aivd-mivd/",
-        "readwiseUrl": "https://read.readwise.io/read/01kysnkny4jr6ej2jh6n05ex8q",
-        "summary": "Vandaag groot in het nieuws, een Nederlandse AIVD agent zou een sleutelrol gespeeld hebben in het binnenbrengen van sabotagesoftware bij het Iraanse kernwapenprogramma. Nou moet me wel van het hart, dit zou op zichzelf geen schandaal moeten zijn. Iran zijn onze vrienden niet, en ik heb liever dat ze geen kernwapenprogramma hebben.\nWel wekken de artikelen van Huib Modderkolk in de Volkskrant de indruk dat politiek Den Haag niet of niet voldoende op de hoogte was van dit alles.",
-        "whyRead": "Raakt je interesse in democratische rechtsorde en toezicht: een Nederlandse casus over inlichtingenwerk, wettelijke bevoegdheden en politieke controle.",
-        "bestMoment": "kritisch",
-        "tags": [
-          "current affairs & politics",
-          "political philosophy",
-          "technology"
-        ],
-        "coreInterests": [
-          "filosofie",
-          "ideologie"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01kysnkmqq07z6nwe6wtvhtkxy",
-        "title": "Data en de Democratische Rechtsorde",
-        "author": null,
-        "siteName": "Bert Hubert's writings",
-        "category": "article",
-        "language": null,
-        "readingTime": "38 mins",
-        "readingMinutes": 38,
-        "wordCount": 9884,
-        "publishedDate": "2025-09-28",
-        "savedDate": "2026-07-30T14:07:16.215000+00:00",
-        "imageUrl": "https://berthub.eu/articles/ddr-23.png",
-        "sourceUrl": "https://berthub.eu/articles/posts/data-democratische-rechtsorde/",
-        "readwiseUrl": "https://read.readwise.io/read/01kysnkmqq07z6nwe6wtvhtkxy",
-        "summary": "Data en de democratische rechtsorde. Ik dacht, ik begin eens goed pompeus. Bij de AIVD werkte ik mee aan het afluisteren van mensen, later heb ik daar software voor gemaakt en allemaal heel interessante dingen gedaan. Nog later weer werd ik toezichthouder van diezelfde AIVD en de MIVD en moest ik toestemming geven voor die dingen, mag je Pietje afluisteren of niet, of mag je Pietje en al zijn vrienden afluisteren, of mag je misschien heel Nederland aftappen.",
-        "whyRead": "Raakt je interesse in data en rechtsstaat: een ervaringsrijk essay over surveillance, toezicht en de democratische grenzen aan datagedreven macht. Raakt daarnaast je interesse in sociale psychologie en interpersoonlijke dynamiek.",
-        "bestMoment": "kritisch",
-        "tags": [
-          "political philosophy",
-          "technology",
-          "totalitarianism & fascism"
-        ],
-        "coreInterests": [
-          "filosofie",
-          "ideologie"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01kysnkm3ab00zyxejnn56wfzf",
-        "title": "Cyber security and society, a pre-war reality check",
-        "author": null,
-        "siteName": "Bert Hubert's writings",
-        "category": "article",
-        "language": null,
-        "readingTime": "27 mins",
-        "readingMinutes": 27,
-        "wordCount": 6966,
-        "publishedDate": "2024-05-14",
-        "savedDate": "2026-07-30T14:07:15.562000+00:00",
-        "imageUrl": "https://berthub.eu/articles/kievstar.png",
-        "sourceUrl": "https://berthub.eu/articles/posts/cyber-security-pre-war-reality-check/",
-        "readwiseUrl": "https://read.readwise.io/read/01kysnkm3ab00zyxejnn56wfzf",
-        "summary": "This article is part of a series on (European) innovation and capabilities.\nThis is a lightly edited transcript of my presentation today at the ACCSS/NCSC/Surf seminar ‘Cyber Security and Society’. I want to thank the organizers for inviting me to their conference & giving me a great opportunity to talk about something I worry about a lot. Here are the original slides with notes, which may be useful to view together with the text below.",
-        "whyRead": "Raakt je interesse in cybersecurity en maatschappij: een pre-oorlogse realitycheck die digitale veiligheid als sociaal en geopolitiek vraagstuk behandelt. Raakt daarnaast je interesse in sociale psychologie en interpersoonlijke dynamiek.",
-        "bestMoment": "kritisch",
-        "tags": [
-          "political philosophy",
-          "sociology & social structures",
-          "technology"
-        ],
-        "coreInterests": [
-          "filosofie",
-          "ideologie",
-          "sociologie"
-        ],
-        "alsoIn": [],
-        "memberships": []
       },
       {
         "position": null,
@@ -53735,33 +42282,6 @@ window.TOP_ARTICLES = {
             "position": 19
           }
         ]
-      },
-      {
-        "position": null,
-        "id": "01kysegs6xpbajnckbewaxh5p1",
-        "title": "AI: Overwegingen voor wie erover gaat",
-        "author": null,
-        "siteName": "Bert Hubert's writings",
-        "category": "article",
-        "language": null,
-        "readingTime": "22 mins",
-        "readingMinutes": 22,
-        "wordCount": 5693,
-        "publishedDate": "2026-07-29",
-        "savedDate": "2026-09-15T07:37:54.640000+00:00",
-        "imageUrl": "https://berthub.eu/articles/dallas-fed.png",
-        "sourceUrl": "https://berthub.eu/articles/posts/ai-voor-wie-erover-gaat/",
-        "readwiseUrl": "https://read.readwise.io/read/01kysegs6xpbajnckbewaxh5p1",
-        "summary": "Onlangs presenteerde ik kort na elkaar bij het Netwerk van Publieke Dienstverleners en bij de Adviesraad Wetenschap, Technologie en Innovatie over AI. In deze twee verschillende maar korte presentaties hoopte ik wat inzichten te delen die nuttig zijn voor mensen die nu aan het stuur zitten, mensen die keuzes kunnen of moeten maken over AI-beleid.\nDit artikel is gebaseerd op deze twee verschillende presentaties. De eerste bij NPD ging over de concrete uitdagingen voor bestuurders.",
-        "whyRead": "Een scherp, kritisch Nederlands essay van tech-expert Bert Hubert (PowerDNS) dat de AI-hype ontrafelt vanuit bestuurlijk perspectief — relevant voor wie AI & ethiek, Nederlandse beleidscontext en organisatiekritiek interessant vindt.",
-        "bestMoment": "kritisch",
-        "tags": [
-          "ai ethics & society",
-          "current affairs & politics"
-        ],
-        "coreInterests": [],
-        "alsoIn": [],
-        "memberships": []
       },
       {
         "position": null,
@@ -53811,36 +42331,6 @@ window.TOP_ARTICLES = {
       },
       {
         "position": null,
-        "id": "01kyejqrpkrb3a9zqk5a7k4n5f",
-        "title": "Jetten-1 is geen regering. Het is een situationship.",
-        "author": null,
-        "siteName": "Substack",
-        "category": "email",
-        "language": null,
-        "readingTime": "6 mins",
-        "readingMinutes": 6,
-        "wordCount": 1547,
-        "publishedDate": "2026-07-26",
-        "savedDate": "2026-07-26T06:45:26.868000+00:00",
-        "imageUrl": null,
-        "sourceUrl": "mailto:reader-forwarded-email/10e2d6a1c4a4b04f8ef0a919503aa291",
-        "readwiseUrl": "https://read.readwise.io/read/01kyejqrpkrb3a9zqk5a7k4n5f",
-        "summary": "Dit is voor het verhaal even belangrijk om te weten: deze vriend is een geboren en getogen Rotterdammer. Hij is opgegroeid in Kralingen, en is daar nooit meer weggegaan.",
-        "whyRead": "Raakt je interesse in Nederlandse politiek en essayistische analyse: de situationship-metafoor maakt de vrijblijvende logica van een meerderheidsarme regering tastbaar. Raakt daarnaast je interesse in sociale psychologie en interpersoonlijke dynamiek.",
-        "bestMoment": "kritisch",
-        "tags": [
-          "arts & culture",
-          "current affairs & politics",
-          "sociology & social structures"
-        ],
-        "coreInterests": [
-          "sociologie"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
         "id": "01kye6cwzsz29j9v1g53fzfy45",
         "title": "“We Know. It’s Fine.”",
         "author": null,
@@ -53876,7 +42366,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 64
+            "position": 65
           },
           {
             "familyId": "social-studies",
@@ -54006,12 +42496,12 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 59
+            "position": 58
           },
           {
             "familyId": "social-studies",
             "size": "top-100",
-            "position": 76
+            "position": 75
           }
         ]
       },
@@ -54089,102 +42579,9 @@ window.TOP_ARTICLES = {
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 99
+            "position": 100
           }
         ]
-      },
-      {
-        "position": null,
-        "id": "01ky7jrg1n7trqqbw2b1914kmc",
-        "title": "The deep roots of our egalitarian psychology",
-        "author": null,
-        "siteName": "optimallyirrational.com",
-        "category": "article",
-        "language": null,
-        "readingTime": "10 mins",
-        "readingMinutes": 10,
-        "wordCount": 2621,
-        "publishedDate": "2025-02-27",
-        "savedDate": "2026-07-23T13:31:09.750000+00:00",
-        "imageUrl": "https://substackcdn.com/image/fetch/w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Facc2245c-ac9f-4619-b8d3-aaa8313bcbf0_682x682.png",
-        "sourceUrl": "https://www.optimallyirrational.com/p/the-deep-roots-of-our-egalitarian",
-        "readwiseUrl": "https://read.readwise.io/read/01ky7jrg1n7trqqbw2b1914kmc",
-        "summary": "The pursuit of equality and the temptation of power",
-        "whyRead": "Een toegankelijk, essayistisch stuk over de evolutionaire spanning tussen gelijkheid en dominantie. Het verbindt politieke filosofie, sociale psychologie en de kwetsbaarheid van democratische instituties.",
-        "bestMoment": "analytisch",
-        "tags": [
-          "anarchism",
-          "history",
-          "political philosophy"
-        ],
-        "coreInterests": [
-          "filosofie",
-          "ideologie",
-          "geschiedenis"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01ky7jrfefqkv3180t6q9eqbjk",
-        "title": "The game theory of political power",
-        "author": null,
-        "siteName": "optimallyirrational.com",
-        "category": "article",
-        "language": null,
-        "readingTime": "13 mins",
-        "readingMinutes": 13,
-        "wordCount": 3442,
-        "publishedDate": "2025-03-13",
-        "savedDate": "2026-07-23T13:31:09.135000+00:00",
-        "imageUrl": "https://substackcdn.com/image/fetch/w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc19397a6-b9f2-42d8-ad05-27f3e2508310_1024x1024.png",
-        "sourceUrl": "https://www.optimallyirrational.com/p/the-game-theory-of-political-power",
-        "readwiseUrl": "https://read.readwise.io/read/01ky7jrfefqkv3180t6q9eqbjk",
-        "summary": "Why it exists and how people get it",
-        "whyRead": "Dit heldere essay verbindt speltheorie met politieke filosofie en laat zien hoe coalities, niet alleen idealen, macht en democratie vormen. De combinatie van Hobbes, geschiedenis en selectorate theory geeft een bruikbaar denkkader. Raakt daarnaast je interesse in sociale psychologie en interpersoonlijke dynamiek, organisatiegedrag en cultuur.",
-        "bestMoment": "analytisch",
-        "tags": [
-          "anarchism",
-          "political philosophy",
-          "totalitarianism & fascism"
-        ],
-        "coreInterests": [
-          "filosofie",
-          "ideologie"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01ky7jrexxwmsfs69nz3te7s86",
-        "title": "Is morality relative?",
-        "author": null,
-        "siteName": "optimallyirrational.com",
-        "category": "article",
-        "language": null,
-        "readingTime": "24 mins",
-        "readingMinutes": 24,
-        "wordCount": 6218,
-        "publishedDate": "2026-01-06",
-        "savedDate": "2026-07-23T13:31:08.605000+00:00",
-        "imageUrl": "https://substackcdn.com/image/fetch/$s_!OxqY!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ffc2148f4-4842-4594-90f3-a0e5d4ae7791_682x682.png",
-        "sourceUrl": "https://www.optimallyirrational.com/p/is-morality-relative",
-        "readwiseUrl": "https://read.readwise.io/read/01ky7jrexxwmsfs69nz3te7s86",
-        "summary": "And if so to what extent",
-        "whyRead": "Dit is een toegankelijk maar serieus essay over filosofie en politieke filosofie: het onderscheidt contractarianisme scherp van vrijblijvend relativisme en verbindt moraal met samenwerking, instituties en hervorming.",
-        "bestMoment": "analytisch",
-        "tags": [
-          "metaphysics",
-          "nihilism",
-          "philosophy"
-        ],
-        "coreInterests": [
-          "filosofie"
-        ],
-        "alsoIn": [],
-        "memberships": []
       },
       {
         "position": null,
@@ -54266,7 +42663,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 98
+            "position": 99
           },
           {
             "familyId": "luchtig",
@@ -54326,68 +42723,6 @@ window.TOP_ARTICLES = {
             "position": 95
           }
         ]
-      },
-      {
-        "position": null,
-        "id": "01ky6y0z3wkzmdhty7gq3qa1wz",
-        "title": "So, what is morality?",
-        "author": null,
-        "siteName": "optimallyirrational.com",
-        "category": "article",
-        "language": null,
-        "readingTime": "28 mins",
-        "readingMinutes": 28,
-        "wordCount": 7316,
-        "publishedDate": "2026-06-20",
-        "savedDate": "2026-07-23T07:28:47.148000+00:00",
-        "imageUrl": "https://substackcdn.com/image/fetch/$s_!B008!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd1e19532-8fac-4b31-8303-e1d0b8bfc024_1182x591.png",
-        "sourceUrl": "https://www.optimallyirrational.com/p/so-what-is-morality?utm_source=substack&utm_medium=email",
-        "readwiseUrl": "https://read.readwise.io/read/01ky6y0z3wkzmdhty7gq3qa1wz",
-        "summary": "Clear answers to some of moral philosophy’s deepest questions",
-        "whyRead": "Een toegankelijk maar diepgaand alternatief voor moreel absolutisme dat moraal als sociaal contract, samenwerking en machtsverhouding verklaart. Het verbindt filosofie, speltheorie en sociologie op een manier die goed aansluit bij politieke filosofie.",
-        "bestMoment": "analytisch",
-        "tags": [
-          "metaphysics",
-          "philosophy",
-          "political philosophy"
-        ],
-        "coreInterests": [
-          "filosofie",
-          "ideologie"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01ky6y0nhqr5zvg2wnj7d1hre9",
-        "title": "How we decide what is fair in everyday life",
-        "author": null,
-        "siteName": "optimallyirrational.com",
-        "category": "article",
-        "language": null,
-        "readingTime": "25 mins",
-        "readingMinutes": 25,
-        "wordCount": 6405,
-        "publishedDate": "2026-04-10",
-        "savedDate": "2026-07-23T07:28:37.348000+00:00",
-        "imageUrl": "https://substackcdn.com/image/fetch/$s_!oBIU!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F7e61898e-e792-4ca7-a8e3-19907be19078_681x453.png",
-        "sourceUrl": "https://www.optimallyirrational.com/i/191314591/the-golden-rule?utm_source=substack&utm_medium=email",
-        "readwiseUrl": "https://read.readwise.io/read/01ky6y0nhqr5zvg2wnj7d1hre9",
-        "summary": "Equality or overall satisfaction?",
-        "whyRead": "Dit toegankelijke maar serieuze essay maakt politieke filosofie concreet: via alledaagse verdelingsconflicten verklaart het hoe Rawls, Harsanyi en Binmore anders denken over rechtvaardigheid. Raakt daarnaast je interesse in sociale psychologie en interpersoonlijke dynamiek.",
-        "bestMoment": "analytisch",
-        "tags": [
-          "metaphysics",
-          "philosophy",
-          "political philosophy"
-        ],
-        "coreInterests": [
-          "filosofie",
-          "ideologie"
-        ],
-        "alsoIn": [],
-        "memberships": []
       },
       {
         "position": null,
@@ -54512,37 +42847,6 @@ window.TOP_ARTICLES = {
       },
       {
         "position": null,
-        "id": "01kxr18pz677fa7xqfav7sp2dp",
-        "title": "Capitalism: A Ghost Story",
-        "author": null,
-        "siteName": "DAWN.COM",
-        "category": "article",
-        "language": null,
-        "readingTime": "40 mins",
-        "readingMinutes": 40,
-        "wordCount": 10370,
-        "publishedDate": "2012-03-18",
-        "savedDate": "2026-07-17T12:36:50.215000+00:00",
-        "imageUrl": "https://i.dawn.com/2012/03/arun_543.jpg",
-        "sourceUrl": "https://www.dawn.com/news/703595/capitalism-a-ghost-story-2?utm_source=substack&utm_medium=email",
-        "readwiseUrl": "https://read.readwise.io/read/01kxr18pz677fa7xqfav7sp2dp",
-        "summary": " Arundhati Roy Is it a house or a home? A temple to the new India, or a warehouse for its ghosts? Ever since Antilla...",
-        "whyRead": "Raakt je kerninteresses in politieke filosofie, kapitalismekritiek en essayistische schrijfstijl. Roy verbindt een luxewoning in Mumbai met de sociale, ecologische en democratische prijs van neoliberale ontwikkeling. Raakt daarnaast je interesse in sociale psychologie en interpersoonlijke dynamiek.",
-        "bestMoment": "geconcentreerd",
-        "tags": [
-          "economics",
-          "political philosophy",
-          "totalitarianism & fascism"
-        ],
-        "coreInterests": [
-          "filosofie",
-          "ideologie"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
         "id": "01kxpg8mpkegghvbz5w71ne86v",
         "title": "Against \"Stochastic Terrorism\"",
         "author": null,
@@ -54627,7 +42931,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 94
+            "position": 95
           }
         ]
       },
@@ -54876,92 +43180,6 @@ window.TOP_ARTICLES = {
       },
       {
         "position": null,
-        "id": "01kxfv166ahh2jwz1pr03kevc9",
-        "title": "Stel kritische vragen bij het AI-evangelie",
-        "author": null,
-        "siteName": "Substack",
-        "category": "email",
-        "language": null,
-        "readingTime": "3 mins",
-        "readingMinutes": 3,
-        "wordCount": 783,
-        "publishedDate": "2026-07-14",
-        "savedDate": "2026-07-14T08:13:56.810000+00:00",
-        "imageUrl": null,
-        "sourceUrl": "mailto:reader-forwarded-email/9d9757a318879c845f637710f50a4acd",
-        "readwiseUrl": "https://read.readwise.io/read/01kxfv166ahh2jwz1pr03kevc9",
-        "summary": "Mijn naam is Sophie en ik schrijf wekelijks een column in Het Financieele Dagblad over economie, ouderschap, arbeidsmarkt, ongelijkheid, kinderopvang, feminisme en meer. Heb je tips of ideeën?",
-        "whyRead": "Scherpe, goed onderbouwde FD-column die de framing rond AI-investeringen ('Europe 2031'-rapport, kritiekloze NOS/Nieuwsuur-berichtgeving) doorprikt met onderzoek naar wie het publieke AI-debat domineert.",
-        "bestMoment": "als je behoefte hebt aan een tegengeluid tegen AI-hype-berichtgeving.",
-        "tags": [
-          "ai ethics & society"
-        ],
-        "coreInterests": [],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01kxabe372k5htmjxz8bxdan0f",
-        "title": "Privéchefs zijn extreem algoritmevriendelijk",
-        "author": null,
-        "siteName": "Substack",
-        "category": "email",
-        "language": null,
-        "readingTime": "5 mins",
-        "readingMinutes": 5,
-        "wordCount": 1122,
-        "publishedDate": "2026-07-12",
-        "savedDate": "2026-07-12T05:05:10.371000+00:00",
-        "imageUrl": null,
-        "sourceUrl": "mailto:reader-forwarded-email/1eee5fd801287b43f486157c5a05455c",
-        "readwiseUrl": "https://read.readwise.io/read/01kxabe372k5htmjxz8bxdan0f",
-        "summary": "De laatste tijd zit ik in een nieuw algoritme: dat van privéchefs.",
-        "whyRead": "Raakt je interesse in cultuur als vorm van sociale analyse: privechefs worden bekeken als algoritmisch aantrekkelijk statussymbool. De meerwaarde zit waarschijnlijk in de observatie van smaak, rijkdom en platformlogica. Raakt daarnaast je interesse in sociale psychologie en interpersoonlijke dynamiek.",
-        "bestMoment": "ontspannen",
-        "tags": [
-          "arts & culture",
-          "social psychology & interpersonal dynamics",
-          "sociology & social structures"
-        ],
-        "coreInterests": [
-          "sociologie"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01kwreqfypckk54fws5c65whwp",
-        "title": "Niemand wil het, toch doen we het allemaal",
-        "author": null,
-        "siteName": "Substack",
-        "category": "email",
-        "language": null,
-        "readingTime": "7 mins",
-        "readingMinutes": 7,
-        "wordCount": 1653,
-        "publishedDate": "2026-07-05",
-        "savedDate": "2026-07-05T06:16:24.278000+00:00",
-        "imageUrl": null,
-        "sourceUrl": "mailto:reader-forwarded-email/d03e98c83b42f95bce803f121327a74f",
-        "readwiseUrl": "https://read.readwise.io/read/01kwreqfypckk54fws5c65whwp",
-        "summary": "Normaal neem ik de metro terug naar huis, voor de simpele reden dat ik geen zin heb om die (zware) tassen te dragen.",
-        "whyRead": "Nederlandstalig persoonlijk essay met alledaagse insteek; mogelijk interessant door stem, herkenning en reflectie op gedrag dat niemand wil maar iedereen toch doet. Bewaren als lichte essayistische Nederlandse cultuurreflectie. Raakt daarnaast je interesse in sociale psychologie en interpersoonlijke dynamiek.",
-        "bestMoment": "ontspannen",
-        "tags": [
-          "arts & culture",
-          "personal growth & life philosophy",
-          "sociology & social structures"
-        ],
-        "coreInterests": [
-          "sociologie"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
         "id": "01kwragbn5fwjf0dvfyfvwvne8",
         "title": "The incredible story of Benjamin Lay: abolitionist, vegan, and centuries ahead of his time",
         "author": null,
@@ -55006,124 +43224,6 @@ window.TOP_ARTICLES = {
             "position": 27
           }
         ]
-      },
-      {
-        "position": null,
-        "id": "01kwnr6f6a3gb801eapyrbp6q2",
-        "title": "Honderd vliegtuigcrashes in één week: wat is hier aan de hand?",
-        "author": null,
-        "siteName": "De Correspondent",
-        "category": "email",
-        "language": null,
-        "readingTime": "8 mins",
-        "readingMinutes": 8,
-        "wordCount": 1930,
-        "publishedDate": "2026-07-04",
-        "savedDate": "2026-07-04T05:04:08.907000+00:00",
-        "imageUrl": null,
-        "sourceUrl": "mailto:reader-forwarded-email/59e0506a77abced4047afea70a08faa5",
-        "readwiseUrl": "https://read.readwise.io/read/01kwnr6f6a3gb801eapyrbp6q2",
-        "summary": "Een van de radicaalste en naarste uitingen van klimaatverandering is dat de zomer nu fundamenteel anders voelt dan vroeger.",
-        "whyRead": "Sterke Nederlandstalige klimaatduiding van Jelmer Mommers, met een concreet beeld om de schaal van klimaatverandering invoelbaar te maken. Relevant voor milieu, maatschappij en de vraag hoe abstracte rampstatistiek een persoonlijke zomerervaring wordt. Raakt daarnaast je interesse in sociale psychologie en interpersoonlijke dynamiek.",
-        "bestMoment": "kritisch",
-        "tags": [
-          "current affairs & politics",
-          "environment & sustainability",
-          "sociology & social structures"
-        ],
-        "coreInterests": [
-          "sociologie"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01kwnpartfb70amv2acccwcsr1",
-        "title": "Vijf muggen in mijn klamboe",
-        "author": null,
-        "siteName": "Substack",
-        "category": "email",
-        "language": null,
-        "readingTime": "1 min",
-        "readingMinutes": 1,
-        "wordCount": 200,
-        "publishedDate": "2026-07-04",
-        "savedDate": "2026-07-04T04:31:32.687000+00:00",
-        "imageUrl": null,
-        "sourceUrl": "mailto:reader-forwarded-email/84c36bd5582d3b64326bd54530a924e5",
-        "readwiseUrl": "https://read.readwise.io/read/01kwnpartfb70amv2acccwcsr1",
-        "summary": null,
-        "whyRead": "Zeer korte Nederlandstalige persoonlijke tekst; mogelijk charmant als miniatuur, maar te klein en contextarm voor de leesstapel. Vastleggen is genoeg, daarna archiveren.",
-        "bestMoment": "ontspannen",
-        "tags": [
-          "arts & culture",
-          "personal growth & life philosophy"
-        ],
-        "coreInterests": [],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01kwm2c48x698f162vev3xqyy2",
-        "title": "The Knowledge Machine: How Irrationality Created Modern Science",
-        "author": null,
-        "siteName": "Substack",
-        "category": "email",
-        "language": null,
-        "readingTime": "32 mins",
-        "readingMinutes": 32,
-        "wordCount": 8401,
-        "publishedDate": "2026-07-03",
-        "savedDate": "2026-07-03T13:23:31.229000+00:00",
-        "imageUrl": null,
-        "sourceUrl": "mailto:reader-forwarded-email/95bea3d51405d264e4b76ccdede46ac8",
-        "readwiseUrl": "https://read.readwise.io/read/01kwm2c48x698f162vev3xqyy2",
-        "summary": "This was my entry to the 2026 ACX Book Review Contest. Given that it was, sadly, judged inadequate to the high standards of the ACX readership, I must now inflict it on you.",
-        "whyRead": "Sterke match met wetenschap, filosofie en ideeëngeschiedenis: Richey bespreekt Strevens' stelling dat moderne wetenschap werkt door een smalle, bijna onnatuurlijke empirische discipline. Shortlistwaardig door de essayvorm en de brug naar Popper, Kuhn, Bacon, Newton, replicatiecrisis en AI. Raakt daarnaast je interesse in sociale psychologie en interpersoonlijke dynamiek.",
-        "bestMoment": "geconcentreerd",
-        "tags": [
-          "history",
-          "philosophy",
-          "science"
-        ],
-        "coreInterests": [
-          "filosofie",
-          "geschiedenis"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01kwkpvx062dytw4zfh294psvb",
-        "title": "Heilige plekken dichtbij: Der Herrgott van Bentheim",
-        "author": null,
-        "siteName": "Substack",
-        "category": "email",
-        "language": null,
-        "readingTime": "17 mins",
-        "readingMinutes": 17,
-        "wordCount": 4420,
-        "publishedDate": "2026-07-03",
-        "savedDate": "2026-07-03T10:02:25.159000+00:00",
-        "imageUrl": null,
-        "sourceUrl": "mailto:reader-forwarded-email/e67d6e50411cb74f596daf74d736e27f",
-        "readwiseUrl": "https://read.readwise.io/read/01kwkpvx062dytw4zfh294psvb",
-        "summary": "Pelgrimeren is populair – Santiago de Compostela ontving in 2025 meer gasten dan ooit. Maar niet iedereen heeft het geld, de tijd en het lijf om de huisdeur achter zich dicht te trekken en te gaan.",
-        "whyRead": "Nederlandstalige longread met duidelijke stem, religiegeschiedenis, Twents landschap en cultuurgeschiedenis; precies het soort essay waarin plek, verhaal en idee elkaar dragen. De meerwaarde zit in de combinatie van pelgrimage, middeleeuwse geschiedenis, lokale geografie en reflectieve toon.",
-        "bestMoment": "ontspannen",
-        "tags": [
-          "arts & culture",
-          "history",
-          "personal growth & life philosophy"
-        ],
-        "coreInterests": [
-          "geschiedenis"
-        ],
-        "alsoIn": [],
-        "memberships": []
       },
       {
         "position": null,
@@ -55228,34 +43328,6 @@ window.TOP_ARTICLES = {
       },
       {
         "position": null,
-        "id": "01kwfk5q2rtfm9enggaybd07zq",
-        "title": "David Sedaris: Lessons From Decades of Writing",
-        "author": null,
-        "siteName": "Substack",
-        "category": "email",
-        "language": null,
-        "readingTime": "53 mins",
-        "readingMinutes": 53,
-        "wordCount": 13876,
-        "publishedDate": "2026-07-01",
-        "savedDate": "2026-07-01T19:40:54.745000+00:00",
-        "imageUrl": null,
-        "sourceUrl": "mailto:reader-forwarded-email/8a985ee6abe1756d327561116a8c9a5c",
-        "readwiseUrl": "https://read.readwise.io/read/01kwfk5q2rtfm9enggaybd07zq",
-        "summary": "How I Write has one sponsorship slot available, and I'm looking for a company to fill it. It's become the world's premier writing interview show, and it's growing fast.",
-        "whyRead": "Raakt je interesse in schrijven als ambacht: David Sedaris bespreekt observeren, dagboeknotities, hardop testen en het verschil tussen publiceren en beter worden. De meerwaarde is hoog door de concrete schrijfpraktijk achter humor en essayvorm. Raakt daarnaast je interesse in sociale psychologie en interpersoonlijke dynamiek, teamdynamiek en samenwerking, organisatiegedrag en cultuur.",
-        "bestMoment": "geïnspireerd",
-        "tags": [
-          "arts & culture",
-          "learning & meta-learning",
-          "professional development"
-        ],
-        "coreInterests": [],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
         "id": "01kwexpsbrn9aftwadk0dfvf1n",
         "title": "Mentoring",
         "author": null,
@@ -55293,12 +43365,12 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 58
+            "position": 57
           },
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 23
+            "position": 22
           },
           {
             "familyId": "scrum",
@@ -55392,35 +43464,6 @@ window.TOP_ARTICLES = {
             "position": 58
           }
         ]
-      },
-      {
-        "position": null,
-        "id": "01kwew3ggzgdtrxk6c255tdtcz",
-        "title": "Sprint Goal in Scrum: A Comprehensive Guide with Examples",
-        "author": null,
-        "siteName": null,
-        "category": "article",
-        "language": null,
-        "readingTime": "8 mins",
-        "readingMinutes": 8,
-        "wordCount": 2004,
-        "publishedDate": "2026-01-27",
-        "savedDate": "2026-08-22T05:40:39.942000+00:00",
-        "imageUrl": "",
-        "sourceUrl": "https://www.scrumfacilitators.com/en/knowledge/sprint-goal-in-scrum-a-comprehensive-guide-with-examples",
-        "readwiseUrl": "https://read.readwise.io/read/01kwew3ggzgdtrxk6c255tdtcz",
-        "summary": "What is a Sprint Goal? A complete guide on defining effective goals in Scrum. Boost team focus with our examples and expert tips.",
-        "whyRead": "Raakt je Scrum Master-werk sterk: Sprint Goals zijn een praktisch stuurmiddel voor focus, stakeholdergesprekken en teamautonomie.",
-        "bestMoment": "leergierig",
-        "tags": [
-          "professional development",
-          "team dynamics & collaboration"
-        ],
-        "coreInterests": [
-          "agile"
-        ],
-        "alsoIn": [],
-        "memberships": []
       },
       {
         "position": null,
@@ -55593,7 +43636,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 63
+            "position": 64
           },
           {
             "familyId": "social-studies",
@@ -55606,34 +43649,6 @@ window.TOP_ARTICLES = {
             "position": 12
           }
         ]
-      },
-      {
-        "position": null,
-        "id": "01kvwwdq8bhy9m3x614gmtn41d",
-        "title": "Andrew Stanton: Storytelling Secrets from the Writer of Toy Story 5",
-        "author": null,
-        "siteName": "Substack",
-        "category": "email",
-        "language": null,
-        "readingTime": "34 mins",
-        "readingMinutes": 34,
-        "wordCount": 8760,
-        "publishedDate": "2026-06-24",
-        "savedDate": "2026-06-24T13:17:00.044000+00:00",
-        "imageUrl": null,
-        "sourceUrl": "mailto:reader-forwarded-email/dbe6e0bb3161ebef35e3ee3197376286",
-        "readwiseUrl": "https://read.readwise.io/read/01kvwwdq8bhy9m3x614gmtn41d",
-        "summary": "How I Write has one sponsorship slot available, and I'm looking for a company to fill it. It's become the world's premier writing interview show, and it's growing fast.",
-        "whyRead": "Uitgebreid gesprek met Andrew Stanton over verhaal, feedback, premisse en het ambacht achter Pixar-films. Raakt daarnaast je interesse in sociale psychologie en interpersoonlijke dynamiek, teamdynamiek en samenwerking, organisatiegedrag en cultuur.",
-        "bestMoment": "geïnspireerd",
-        "tags": [
-          "arts & culture",
-          "learning & meta-learning",
-          "professional development"
-        ],
-        "coreInterests": [],
-        "alsoIn": [],
-        "memberships": []
       },
       {
         "position": null,
@@ -55724,12 +43739,12 @@ window.TOP_ARTICLES = {
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 72
+            "position": 73
           },
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 13
+            "position": 14
           }
         ]
       },
@@ -55770,7 +43785,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 62
+            "position": 63
           },
           {
             "familyId": "social-studies",
@@ -55783,67 +43798,6 @@ window.TOP_ARTICLES = {
             "position": 11
           }
         ]
-      },
-      {
-        "position": null,
-        "id": "01kvhbzvsdz71gdn2329t023sp",
-        "title": "So, what is morality?",
-        "author": null,
-        "siteName": "Substack",
-        "category": "email",
-        "language": null,
-        "readingTime": "28 mins",
-        "readingMinutes": 28,
-        "wordCount": 7285,
-        "publishedDate": "2026-06-20",
-        "savedDate": "2026-06-20T01:58:09.965000+00:00",
-        "imageUrl": null,
-        "sourceUrl": "mailto:reader-forwarded-email/b2b27be7b58f1413f2d301b3152bd06d",
-        "readwiseUrl": "https://read.readwise.io/read/01kvhbzvsdz71gdn2329t023sp",
-        "summary": "In his Histories, Herodotus recounts how, in the late sixth or early fifth century BCE, King Darius I of Persia asked the Greeks at his court what price would persuade them to eat their fathers’ dead bodies.",
-        "whyRead": "Raakt je kerninteresse in filosofie en sociale structuren: Lionel Page biedt een naturalistische theorie van moraal als conventie voor samenwerking. De meerwaarde zit in de koppeling van Hume, speltheorie, evolutionaire samenwerking, macht en morele intuïties.",
-        "bestMoment": "geconcentreerd",
-        "tags": [
-          "metaphysics",
-          "philosophy",
-          "political philosophy"
-        ],
-        "coreInterests": [
-          "filosofie",
-          "ideologie"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01kvfsv00xheeeezwr4g8hm52h",
-        "title": "Dé telefoon zonder social media",
-        "author": null,
-        "siteName": "Substack",
-        "category": "email",
-        "language": null,
-        "readingTime": "4 mins",
-        "readingMinutes": 4,
-        "wordCount": 845,
-        "publishedDate": "2026-06-19",
-        "savedDate": "2026-06-19T11:21:41.662000+00:00",
-        "imageUrl": null,
-        "sourceUrl": "mailto:reader-forwarded-email/cf569162413724326ec904187b9c2931",
-        "readwiseUrl": "https://read.readwise.io/read/01kvfsv00xheeeezwr4g8hm52h",
-        "summary": "Elke week geven Alexander Klöpping en Ernst-Jan Pfauth vijf tips om het weekend mee in te gaan. Deze week schoof tv-verslaggever Alex Mazereeuw weer aan voor onze maandelijkse televisieaflevering.",
-        "whyRead": "Raakt je interesse in technologie, aandacht en Nederlandse mediacultuur: POM combineert een socialmediavrije telefoon met observaties over podcastzoekmachines en tv als spiegelpaleis. De meerwaarde zit in de signalen, niet in één diep betoog.",
-        "bestMoment": "ontspannen",
-        "tags": [
-          "arts & culture",
-          "entertainment & pop culture",
-          "technology"
-        ],
-        "coreInterests": [
-          "cultuur_games_film"
-        ],
-        "alsoIn": [],
-        "memberships": []
       },
       {
         "position": null,
@@ -55918,7 +43872,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 48
+            "position": 47
           }
         ]
       },
@@ -55960,96 +43914,6 @@ window.TOP_ARTICLES = {
             "position": 60
           }
         ]
-      },
-      {
-        "position": null,
-        "id": "01kv7gpdvwcvk4359brzpxqmes",
-        "title": "Waarom zeggen vrienden zo vaak af?",
-        "author": null,
-        "siteName": "Substack",
-        "category": "email",
-        "language": null,
-        "readingTime": "6 mins",
-        "readingMinutes": 6,
-        "wordCount": 1583,
-        "publishedDate": "2026-06-16",
-        "savedDate": "2026-06-16T06:07:59.357000+00:00",
-        "imageUrl": null,
-        "sourceUrl": "mailto:reader-forwarded-email/222baea9bdf1a39ca6dcd8a4d9a2f818",
-        "readwiseUrl": "https://read.readwise.io/read/01kv7gpdvwcvk4359brzpxqmes",
-        "summary": "Dat gevoel wordt gedempt door de ‘❤️‍🩹’ en de berichtjes in de boekenclubgroepsapp (op Signal, welteverstaan).",
-        "whyRead": null,
-        "bestMoment": "reflectief",
-        "tags": [
-          "behavioral psychology & coaching",
-          "personal growth & life philosophy",
-          "sociology & social structures"
-        ],
-        "coreInterests": [
-          "sociologie"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01kty3nmapqw3y4ypnbbgrm2t3",
-        "title": "De FIFA-idents zijn fantastisch",
-        "author": null,
-        "siteName": "Substack",
-        "category": "email",
-        "language": null,
-        "readingTime": "3 mins",
-        "readingMinutes": 3,
-        "wordCount": 727,
-        "publishedDate": "2026-06-12",
-        "savedDate": "2026-06-12T14:27:11.830000+00:00",
-        "imageUrl": null,
-        "sourceUrl": "mailto:reader-forwarded-email/f3e5d8fd83a1e9390912adb388785448",
-        "readwiseUrl": "https://read.readwise.io/read/01kty3nmapqw3y4ypnbbgrm2t3",
-        "summary": "Eerst een eed, dan het feestje.",
-        "whyRead": "Raakt licht je interesse in cultuur, sport en mediavormen: dit is een weekendlijstje met een paar interessante haakjes over Stanford, de sociale functie van feestjes en de politieke lading van WK's. De meerwaarde zit vooral in de links naar Simon Kuper, Derek Thompson en de Cruijff-docu. Raakt daarnaast je interesse in sociale psychologie en interpersoonlijke dynamiek.",
-        "bestMoment": "ontspannen",
-        "tags": [
-          "arts & culture",
-          "sociology & social structures",
-          "sports & recreation"
-        ],
-        "coreInterests": [
-          "sociologie"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01ktxgxw7cxp7caqpe7w230ne4",
-        "title": "Klagende supermarkten",
-        "author": null,
-        "siteName": "Substack",
-        "category": "email",
-        "language": null,
-        "readingTime": "4 mins",
-        "readingMinutes": 4,
-        "wordCount": 939,
-        "publishedDate": "2026-06-12",
-        "savedDate": "2026-06-12T08:59:39.117000+00:00",
-        "imageUrl": null,
-        "sourceUrl": "mailto:reader-forwarded-email/cc650af20176a7922f6ee720da7b2665",
-        "readwiseUrl": "https://read.readwise.io/read/01ktxgxw7cxp7caqpe7w230ne4",
-        "summary": "Die komt met een hele waslijst aan eisen.",
-        "whyRead": "Raakt Nederlandse politiek-economie en ongelijkheid: Rode Cijfers rekent nuchter door of een hoger minimumjeugdloon supermarkten echt dwingt tot forse prijsstijgingen. De meerwaarde zit in de concrete cijfers tegenover branche-retoriek. Raakt daarnaast je interesse in sociale psychologie en interpersoonlijke dynamiek.",
-        "bestMoment": "kritisch",
-        "tags": [
-          "economics",
-          "social psychology & interpersonal dynamics",
-          "sociology & social structures"
-        ],
-        "coreInterests": [
-          "sociologie"
-        ],
-        "alsoIn": [],
-        "memberships": []
       },
       {
         "position": null,
@@ -56172,35 +44036,6 @@ window.TOP_ARTICLES = {
       },
       {
         "position": null,
-        "id": "01ktbxxr50k86jtqphyhdp1eyc",
-        "title": "De blauwe Ferrari van Jony Ive",
-        "author": null,
-        "siteName": "Substack",
-        "category": "email",
-        "language": null,
-        "readingTime": "3 mins",
-        "readingMinutes": 3,
-        "wordCount": 654,
-        "publishedDate": "2026-06-05",
-        "savedDate": "2026-06-05T13:00:26.656000+00:00",
-        "imageUrl": null,
-        "sourceUrl": "mailto:reader-forwarded-email/688da72a0be45c4884c39fd7bc5241d1",
-        "readwiseUrl": "https://read.readwise.io/read/01ktbxxr50k86jtqphyhdp1eyc",
-        "summary": "Ferrari smeekt petrolheads om deze auto níét te kopen. Echt waar: de marketingbaas zegt tegen z'n trouwe klanten dat de nieuwe elektrische Luce niet voor hen bedoeld is.",
-        "whyRead": "Raakt je interesse in technologie en media alleen als lichte roundup; er staan een paar aardige signalen in, maar te weinig diepte om actief te bewaren.",
-        "bestMoment": "ontspannen",
-        "tags": [
-          "entertainment & pop culture",
-          "technology"
-        ],
-        "coreInterests": [
-          "cultuur_games_film"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
         "id": "01kt9sbc2hgkymt9expprgkgdp",
         "title": "In de Apocalyps is de vrouw een teken van hoop",
         "author": null,
@@ -56234,63 +44069,9 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 53
+            "position": 54
           }
         ]
-      },
-      {
-        "position": null,
-        "id": "01kt8j5yakk29s0cg4w3wnywn8",
-        "title": "Deze zeven vragen geven je werk een ziel",
-        "author": null,
-        "siteName": "Substack",
-        "category": "email",
-        "language": null,
-        "readingTime": "5 mins",
-        "readingMinutes": 5,
-        "wordCount": 1271,
-        "publishedDate": "2026-06-04",
-        "savedDate": "2026-06-04T05:37:28.916000+00:00",
-        "imageUrl": null,
-        "sourceUrl": "mailto:reader-forwarded-email/b125319e9c1dd491b261a025ca377ba9",
-        "readwiseUrl": "https://read.readwise.io/read/01kt8j5yakk29s0cg4w3wnywn8",
-        "summary": "Alleen over die vrije tijd, zo lijkt de gedachte, beschik je over agency. Daarmee bedoel ik de macht om intentioneel en onafhankelijk te handelen.",
-        "whyRead": "Raakt je interesse in persoonlijke levensfilosofie en werk als betekenisvolle tijdsbesteding; Van Teutem schrijft toegankelijk, essayistisch en met genoeg scherpte om niet in oppervlakkige zelfhulp te vervallen.",
-        "bestMoment": "reflectief",
-        "tags": [
-          "personal growth & life philosophy",
-          "professional development"
-        ],
-        "coreInterests": [],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01kt7kjd4zr8ba59xcpfvmxdfz",
-        "title": "Week 14: kop en staart",
-        "author": null,
-        "siteName": "Substack",
-        "category": "email",
-        "language": null,
-        "readingTime": "5 mins",
-        "readingMinutes": 5,
-        "wordCount": 1193,
-        "publishedDate": "2026-06-03",
-        "savedDate": "2026-06-03T20:42:31.455000+00:00",
-        "imageUrl": null,
-        "sourceUrl": "mailto:reader-forwarded-email/ef98889d4b0749d6aa86a66140526e19",
-        "readwiseUrl": "https://read.readwise.io/read/01kt7kjd4zr8ba59xcpfvmxdfz",
-        "summary": "Ik loop weer eens achter. Met deze blogs dan.",
-        "whyRead": "Raakt je voorkeur voor reflectieve essays met persoonlijke anekdote: een wandelverslag dat eigenlijk gaat over vertragen, afhankelijkheid en het vinden van verhaalvorm.",
-        "bestMoment": "ontspannen",
-        "tags": [
-          "arts & culture",
-          "personal growth & life philosophy"
-        ],
-        "coreInterests": [],
-        "alsoIn": [],
-        "memberships": []
       },
       {
         "position": null,
@@ -56341,66 +44122,6 @@ window.TOP_ARTICLES = {
       },
       {
         "position": null,
-        "id": "01kt43yge3yh7na9s1pgccyc4b",
-        "title": "Universiteiten verspillen kostbaar rendement",
-        "author": null,
-        "siteName": "Substack",
-        "category": "email",
-        "language": null,
-        "readingTime": "3 mins",
-        "readingMinutes": 3,
-        "wordCount": 593,
-        "publishedDate": "2026-06-02",
-        "savedDate": "2026-06-02T12:11:47.524000+00:00",
-        "imageUrl": null,
-        "sourceUrl": "mailto:reader-forwarded-email/02a300ddbc925a01c15470d67b93664a",
-        "readwiseUrl": "https://read.readwise.io/read/01kt43yge3yh7na9s1pgccyc4b",
-        "summary": "Mijn naam is Sophie en ik schrijf wekelijks in Het Financieele Dagblad over de moedereconomie: de kinderopvang, babyboete, loonkloof, het dalende geboortecijfer, en meer.",
-        "whyRead": "Compacte Nederlandse column over genderongelijkheid in de academie, met concrete cijfers en een helder rendement-frame: een vaste plek voor een vrouw werkt door naar extra vrouwelijke wetenschappers en promovendi. Raakt sociologie, ongelijkheid en Nederlandse arbeids-/kennisinstituties. Raakt daarnaast je interesse in sociale psychologie en interpersoonlijke dynamiek.",
-        "bestMoment": "kritisch",
-        "tags": [
-          "economics",
-          "social psychology & interpersonal dynamics",
-          "sociology & social structures"
-        ],
-        "coreInterests": [
-          "sociologie"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01kt3yrv65xm5w5crnf6ycy3rr",
-        "title": "People are too big to fit inside our heads",
-        "author": null,
-        "siteName": "Substack",
-        "category": "email",
-        "language": null,
-        "readingTime": "14 mins",
-        "readingMinutes": 14,
-        "wordCount": 3553,
-        "publishedDate": "2026-06-02",
-        "savedDate": "2026-06-02T10:41:19.045000+00:00",
-        "imageUrl": null,
-        "sourceUrl": "mailto:reader-forwarded-email/1acc44fb3fcea81c1c8ce834a077f932",
-        "readwiseUrl": "https://read.readwise.io/read/01kt3yrv65xm5w5crnf6ycy3rr",
-        "summary": "In 2023, I wrote an essay about the early years of Johanna’s and my relationship.",
-        "whyRead": "Sterk Henrik-stuk over Bakhtin, Dostoevsky, Buber en echte dialoog: mensen blijven groter dan onze ideeën over hen. Past direct bij filosofie, literatuur, relaties en essayistische reflectie; er is al een Dostoevsky-notitie in de vault, maar dit voegt vooral een praktisch relationeel frame toe.",
-        "bestMoment": "reflectief",
-        "tags": [
-          "arts & culture",
-          "personal growth & life philosophy",
-          "philosophy"
-        ],
-        "coreInterests": [
-          "filosofie"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
         "id": "01kt3pyfje0y9z49fzqmtkjsse",
         "title": "You're Not Too Sensitive. The Feeling Rules Were Written Without You.",
         "author": null,
@@ -56440,92 +44161,6 @@ window.TOP_ARTICLES = {
       },
       {
         "position": null,
-        "id": "01kst1g8cff3ab77qteg0q834j",
-        "title": "‘Metrics create hermeneutical injustice'",
-        "author": null,
-        "siteName": "Substack",
-        "category": "email",
-        "language": null,
-        "readingTime": "8 mins",
-        "readingMinutes": 8,
-        "wordCount": 1887,
-        "publishedDate": "2026-05-29",
-        "savedDate": "2026-05-29T14:16:39.055000+00:00",
-        "imageUrl": null,
-        "sourceUrl": "mailto:reader-forwarded-email/3def7eb78da2d81e83ca76bea98ffef6",
-        "readwiseUrl": "https://read.readwise.io/read/01kst1g8cff3ab77qteg0q834j",
-        "summary": "We’re now done with our reading of The Score.",
-        "whyRead": "Raakt filosofie, kennis en organisaties: 'metrics create hermeneutical injustice' is precies zo'n conceptuele zin die een groter denkkader opent. Raakt daarnaast je interesse in sociale psychologie en interpersoonlijke dynamiek.",
-        "bestMoment": "analytisch",
-        "tags": [
-          "epistemology",
-          "philosophy",
-          "professional development"
-        ],
-        "coreInterests": [
-          "filosofie"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01ksn9qmay1erty7g5cha7xgmj",
-        "title": "Why I Don’t Write Every Day",
-        "author": null,
-        "siteName": "substack.com",
-        "category": "article",
-        "language": null,
-        "readingTime": "7 mins",
-        "readingMinutes": 7,
-        "wordCount": 1798,
-        "publishedDate": "2026-05-27",
-        "savedDate": "2026-05-27T18:04:17.011000+00:00",
-        "imageUrl": "https://substackcdn.com/image/fetch/$s_!r7dM!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F2f043dd2-47bc-4fca-bac3-c26da223af04_1536x1024.png",
-        "sourceUrl": "https://mikefisher.substack.com/p/why-i-dont-write-every-day?r=1r0y5d&utm_medium=ios&triedRedirect=true",
-        "readwiseUrl": "https://read.readwise.io/read/01ksn9qmay1erty7g5cha7xgmj",
-        "summary": "And why that works for me",
-        "whyRead": "Raakt je interesse in schrijven, leren en productdenken: Fisher verdedigt incubatie als volwaardige discipline naast dagelijkse output.",
-        "bestMoment": "leergierig",
-        "tags": [
-          "arts & culture",
-          "learning & meta-learning",
-          "professional development"
-        ],
-        "coreInterests": [],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01kshptdc5njqdmnehkxr4arfb",
-        "title": "Een walgelijke man",
-        "author": null,
-        "siteName": "Substack",
-        "category": "email",
-        "language": null,
-        "readingTime": "2 mins",
-        "readingMinutes": 2,
-        "wordCount": 462,
-        "publishedDate": "2026-05-26",
-        "savedDate": "2026-05-26T08:36:02.054000+00:00",
-        "imageUrl": null,
-        "sourceUrl": "mailto:reader-forwarded-email/a10f2d38f6ef61984f2a14c198105623",
-        "readwiseUrl": "https://read.readwise.io/read/01kshptdc5njqdmnehkxr4arfb",
-        "summary": "Ik-verteller beschrijft een depressieve man met suïcidale gedachten die ondanks een 'perfect plaatje' leeg en walgend is — de twist: de man is hijzelf, in de badkamerspiegel.",
-        "whyRead": "Kort en krachtig Nederlands prozastuk met een scherpe twist: een ogenschijnlijk objectieve blik op andermans depressie en doodsverlangen blijkt uiteindelijk een zelfportret in de spiegel. Sterke stem en beklijvende beeldspraak over hoe suïcidale gedachten de waarneming van de wereld vervormen.",
-        "bestMoment": "reflectief",
-        "tags": [
-          "arts & culture",
-          "health & wellness",
-          "personal growth & life philosophy"
-        ],
-        "coreInterests": [],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
         "id": "01ksftktanvm593t6d9871cmm4",
         "title": "This week: a long walk on a beach, and ancient Roman graffiti.",
         "author": null,
@@ -56559,7 +44194,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 56
+            "position": 53
           }
         ]
       },
@@ -56603,38 +44238,6 @@ window.TOP_ARTICLES = {
       },
       {
         "position": null,
-        "id": "01ksc75pt8qjpzxtda00x3dba8",
-        "title": "Waarom komen politici met steeds meer weg?",
-        "author": null,
-        "siteName": "dieuwsnieuws.nl",
-        "category": "article",
-        "language": null,
-        "readingTime": "13 mins",
-        "readingMinutes": 13,
-        "wordCount": 3358,
-        "publishedDate": "2026-05-20",
-        "savedDate": "2026-05-24T05:26:22.711000+00:00",
-        "imageUrl": "https://substackcdn.com/image/fetch/$s_!B-ko!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff167a1a9-54e1-470e-a10b-5e7d8c69ec4b_2714x1388.jpeg",
-        "sourceUrl": "https://www.dieuwsnieuws.nl/p/majority-rule-dont-work-in-mental-institutions?r=1r0y5d&utm_medium=ios&triedRedirect=true",
-        "readwiseUrl": "https://read.readwise.io/read/01ksc75pt8qjpzxtda00x3dba8",
-        "summary": "Schaamteloosheid als politieke deugd",
-        "whyRead": "Sterke Nederlandse analyse van rechtsstaat, politieke schaamte en normerosie; raakt politieke filosofie, Nederlandse samenleving en democratische instituties direct. De stijl is polemisch maar persoonlijk genoeg om meer te zijn dan dagpolitiek. Raakt daarnaast je interesse in sociale psychologie en interpersoonlijke dynamiek.",
-        "bestMoment": "kritisch",
-        "tags": [
-          "current affairs & politics",
-          "political philosophy",
-          "sociology & social structures"
-        ],
-        "coreInterests": [
-          "filosofie",
-          "ideologie",
-          "sociologie"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
         "id": "01ks96dy2nfby7cyd152ev2a9k",
         "title": "Bureaucracy Isn't Broken. That's the Problem.",
         "author": null,
@@ -56668,39 +44271,9 @@ window.TOP_ARTICLES = {
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 95
+            "position": 98
           }
         ]
-      },
-      {
-        "position": null,
-        "id": "01ks5wkeam3nzf67r9bh537enm",
-        "title": "Alone, Finally",
-        "author": null,
-        "siteName": "substack.com",
-        "category": "article",
-        "language": null,
-        "readingTime": "11 mins",
-        "readingMinutes": 11,
-        "wordCount": 2846,
-        "publishedDate": "2026-05-06",
-        "savedDate": "2026-05-21T18:26:11.840000+00:00",
-        "imageUrl": "https://substackcdn.com/image/fetch/$s_!OXPE!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F4451fb33-5861-4044-8b7f-e8104a302240_1025x539.jpeg",
-        "sourceUrl": "https://museguided.substack.com/p/alone-finally?r=1r0y5d&utm_medium=ios&triedRedirect=true",
-        "readwiseUrl": "https://read.readwise.io/read/01ks5wkeam3nzf67r9bh537enm",
-        "summary": "The contradictory pleasures of inhabiting yourself",
-        "whyRead": "Dit essay raakt je interesse in filosofie, essayistische schrijfkunst en persoonlijke groei: het herwaardeert solitude als een vorm van aandacht, autonomie en onbemiddeld denken. De tekst is vooral sterk waar hij het individuele innerlijke leven met culturele en gendergebonden verwachtingen verbindt.",
-        "bestMoment": "reflectief",
-        "tags": [
-          "arts & culture",
-          "personal growth & life philosophy",
-          "philosophy"
-        ],
-        "coreInterests": [
-          "filosofie"
-        ],
-        "alsoIn": [],
-        "memberships": []
       },
       {
         "position": null,
@@ -57131,36 +44704,6 @@ window.TOP_ARTICLES = {
       },
       {
         "position": null,
-        "id": "01krtdtyp5dvaxqsj7ted9sha0",
-        "title": "Why 'Cost Disease' Is the Secret Force Behind America's Toxic Solitude",
-        "author": null,
-        "siteName": "derekthompson.org",
-        "category": "article",
-        "language": null,
-        "readingTime": "6 mins",
-        "readingMinutes": 6,
-        "wordCount": 1551,
-        "publishedDate": "2026-04-07",
-        "savedDate": "2026-09-19T20:57:00.511000+00:00",
-        "imageUrl": "https://substackcdn.com/image/fetch/$s_!zpYL!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F6d947c00-55f0-43ab-bb56-0c69d8645576_1080x571.jpeg",
-        "sourceUrl": "https://www.derekthompson.org/p/why-cost-disease-is-the-secret-force",
-        "readwiseUrl": "https://read.readwise.io/read/01krtdtyp5dvaxqsj7ted9sha0",
-        "summary": "The screens got cheap. The shared experiences got expensive.",
-        "whyRead": "Baumol's cost disease als economisch verklaringsmodel voor de anti-sociale eeuw — gedeelde ervaringen worden structureel duurder terwijl solitaire digitale producten schaalbaar goedkoop blijven. Sterk frame dat technologie- en waarden-narratieven aanvult. Raakt daarnaast je interesse in sociale psychologie en interpersoonlijke dynamiek.",
-        "bestMoment": "analytisch",
-        "tags": [
-          "economics",
-          "social psychology & interpersonal dynamics",
-          "sociology & social structures"
-        ],
-        "coreInterests": [
-          "sociologie"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
         "id": "01krqmh4tqphysje012p59hxec",
         "title": "Novels Tell Us Who We Are",
         "author": null,
@@ -57196,98 +44739,6 @@ window.TOP_ARTICLES = {
             "position": 59
           }
         ]
-      },
-      {
-        "position": null,
-        "id": "01krpd5465ts11g8szys682dfj",
-        "title": "Shame them, shun them, ban them, beat them!",
-        "author": null,
-        "siteName": "experimental-history.com",
-        "category": "article",
-        "language": null,
-        "readingTime": "11 mins",
-        "readingMinutes": 11,
-        "wordCount": 2771,
-        "publishedDate": "2026-05-12",
-        "savedDate": "2026-05-15T18:07:37.581000+00:00",
-        "imageUrl": "https://substackcdn.com/image/fetch/$s_!Q7EN!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fbcef721b-7aca-442e-815a-33caec2e316e_1280x985.jpeg",
-        "sourceUrl": "https://www.experimental-history.com/p/shame-them-shun-them-ban-them-beat?r=1r0y5d&utm_medium=ios&triedRedirect=true",
-        "readwiseUrl": "https://read.readwise.io/read/01krpd5465ts11g8szys682dfj",
-        "summary": "Regels veranderen gedrag niet als mensen de onderliggende waarden niet delen. Via drie cases (de Sovjet-grondwet van 1936, de replicatiecrisis in de wetenschap, bodycams bij politie) laat Mastroianni zien dat regelgeving steeds faalt als de motivatie ontbreekt. Hij introduceert twee mechanismen van echte verandering: de 'crock pot' (langzame absorptie van normen via omgeving) en de 'lightning bolt' (plotselinge, memorabele ervaring). De kern: vraag niet 'hoe laten we mensen het goede doen?' maar 'hoe zorgen we dat mensen het goede willen?' — want zonder de wil helpt geen enkele regelgeving.",
-        "whyRead": null,
-        "bestMoment": null,
-        "tags": [
-          "behavioral psychology & coaching",
-          "philosophy",
-          "research papers & academia"
-        ],
-        "coreInterests": [
-          "filosofie"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01krnyr9cxy0rhqzt148zy5p99",
-        "title": "Good conversations have lots of doorknobs",
-        "author": null,
-        "siteName": "experimental-history.com",
-        "category": "article",
-        "language": null,
-        "readingTime": "6 mins",
-        "readingMinutes": 6,
-        "wordCount": 1551,
-        "publishedDate": "2022-02-23",
-        "savedDate": "2026-05-15T13:55:56.878000+00:00",
-        "imageUrl": "https://substackcdn.com/image/fetch/$s_!49hf!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fb787cd30-e319-48b3-baee-2c44909674c1_1688x1178.jpeg",
-        "sourceUrl": "https://www.experimental-history.com/p/good-conversations-have-lots-of-doorknobs?r=1r0y5d&utm_medium=ios&triedRedirect=true",
-        "readwiseUrl": "https://read.readwise.io/read/01krnyr9cxy0rhqzt148zy5p99",
-        "summary": "Or \"Spiderman Is My Boyfriend\"",
-        "whyRead": "Raakt je interesse in behavioral psychology, sociologie en essayistische stijl: Mastroianni maakt conversatievaardigheid concreet via improvisatie en het idee van affordances. Shortlistwaardig door de combinatie van humor, onderzoek en een bruikbaar sociaal model. Raakt daarnaast je interesse in sociale psychologie en interpersoonlijke dynamiek.",
-        "bestMoment": "ontspannen",
-        "tags": [
-          "behavioral psychology & coaching",
-          "personal growth & life philosophy",
-          "sociology & social structures"
-        ],
-        "coreInterests": [
-          "sociologie"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01krn7wk7s2g93zw72g9ay47xs",
-        "title": "The Men Who Don’t Want Women to Vote",
-        "author": null,
-        "siteName": "The Atlantic",
-        "category": "article",
-        "language": null,
-        "readingTime": "24 mins",
-        "readingMinutes": 24,
-        "wordCount": 6344,
-        "publishedDate": "2026-05-14",
-        "savedDate": "2026-05-15T07:16:20.857000+00:00",
-        "imageUrl": "https://cdn.theatlantic.com/thumbor/9qoJpWpXMwEmGB4mnP7b52qBprA=/0x105:2425x3136/648x810/media/img/2026/05/13/WEL_Helen_DougEditPS/original.jpg",
-        "sourceUrl": "https://www.theatlantic.com/magazine/2026/06/conservative-masculinism-misogyny/686939/",
-        "readwiseUrl": "https://read.readwise.io/read/01krn7wk7s2g93zw72g9ay47xs",
-        "summary": "The posters, preachers, and podcasters of the American right might disagree on trade policy, Israel, and Big Tech, @helenlewis writes. But one important force unites them all: misogyny.",
-        "whyRead": "Een scherp geanalyseerd, journalistiek essay met echte stem over de ideologische architectuur achter het masculinisme in de VS — precies het snijvlak van politieke filosofie, sociologie en machtsdynamiek. Lewis combineert grondige reportage met droge ironie. Raakt daarnaast je interesse in sociale psychologie en interpersoonlijke dynamiek.",
-        "bestMoment": "kritisch",
-        "tags": [
-          "current affairs & politics",
-          "political philosophy",
-          "sociology & social structures"
-        ],
-        "coreInterests": [
-          "filosofie",
-          "ideologie",
-          "sociologie"
-        ],
-        "alsoIn": [],
-        "memberships": []
       },
       {
         "position": null,
@@ -57331,7 +44782,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 14
+            "position": 16
           }
         ]
       },
@@ -57405,7 +44856,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 93
+            "position": 94
           }
         ]
       },
@@ -57444,132 +44895,9 @@ window.TOP_ARTICLES = {
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 69
+            "position": 70
           }
         ]
-      },
-      {
-        "position": null,
-        "id": "01krbezjtx0zph0kpthrse5kr3",
-        "title": "The Beauty of Games and the Limits of Metrics",
-        "author": null,
-        "siteName": "Substack",
-        "category": "email",
-        "language": null,
-        "readingTime": "12 mins",
-        "readingMinutes": 12,
-        "wordCount": 3164,
-        "publishedDate": "2026-05-11",
-        "savedDate": "2026-05-11T12:07:54.462000+00:00",
-        "imageUrl": null,
-        "sourceUrl": "mailto:reader-forwarded-email/7977fc478d9971f660fe16870af4d5c9",
-        "readwiseUrl": "https://read.readwise.io/read/01krbezjtx0zph0kpthrse5kr3",
-        "summary": "Notice that the final post is on Friday, May 29. That’s to give us a little more time to finish discussing the book by breaking up that week’s reading and having an additional post.",
-        "whyRead": "Nguyen's analyse van hoe scores in games vreugde creëren maar in instituties waarde vernietigen raakt direct aan de spanning tussen kwantitatieve meting en kwalitatieve betekenis — een thema dat doorloopt in AI, onderwijs en cultuur.",
-        "bestMoment": "filosofisch",
-        "tags": [
-          "games & game studies",
-          "philosophy",
-          "sociology & social structures"
-        ],
-        "coreInterests": [
-          "filosofie",
-          "sociologie",
-          "cultuur_games_film"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01kr4074g1php0vejjgev03t5q",
-        "title": "What I Learned About Billionaires at Jeff Bezos’s Private Retreat",
-        "author": null,
-        "siteName": "The Atlantic",
-        "category": "article",
-        "language": null,
-        "readingTime": "10 mins",
-        "readingMinutes": 10,
-        "wordCount": 2436,
-        "publishedDate": "2026-04-20",
-        "savedDate": "2026-05-14T20:29:45.176000+00:00",
-        "imageUrl": "https://cdn.theatlantic.com/thumbor/pU9WUObiJGgn3gTx9M6n66vkXDU=/12x0:2012x1125/1440x810/media/img/2026/04/06/WEL_Hawley_BillionairesRedo/original.png",
-        "sourceUrl": "https://theatlantic.com/magazine/2026/05/billionaire-consequence-free-reality/686588/",
-        "readwiseUrl": "https://read.readwise.io/read/01kr4074g1php0vejjgev03t5q",
-        "summary": "“Bezos and the world’s richest men have left the world of consequences behind,” Noah Hawley writes. “Their actions are only ever judged by themselves.” Here’s what Hawley learned about the ultra-wealthy at Jeff Bezos’s Campfire retreat:",
-        "whyRead": "Raakt je interesse in ongelijkheid, macht en politieke cultuur: Hawley gebruikt een persoonlijke ervaring bij Jeff Bezos' Campfire-retreat om te analyseren hoe extreme rijkdom mensen buiten gewone consequenties plaatst. De tekst heeft een sterke essayistische stem en koppelt anekdote aan maatschappijkritiek. Raakt daarnaast je interesse in sociale psychologie en interpersoonlijke dynamiek, teamdynamiek en samenwerking.",
-        "bestMoment": "kritisch",
-        "tags": [
-          "current affairs & politics",
-          "economics",
-          "sociology & social structures"
-        ],
-        "coreInterests": [
-          "sociologie"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01kr190hdc36xn9y5edjsm74fx",
-        "title": "📚 Neat Stuff I Read in April 2026",
-        "author": null,
-        "siteName": "Manuscriptions",
-        "category": "rss",
-        "language": null,
-        "readingTime": "12 mins",
-        "readingMinutes": 12,
-        "wordCount": 3108,
-        "publishedDate": "2026-05-07",
-        "savedDate": "2026-05-07T13:11:06.996000+00:00",
-        "imageUrl": "https://substackcdn.com/image/fetch/$s_!GrE0!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F818b76c1-2c3a-437e-9154-3ce59951106c_1264x848.png",
-        "sourceUrl": "https://www.eleanorkonik.com/p/neat-stuff-i-read-in-april-2026",
-        "readwiseUrl": "https://read.readwise.io/read/01kr190hdc36xn9y5edjsm74fx",
-        "summary": "On \"doing your own research\" in the AI age, messy economics in fiction, & what funerals do to African households. Also: the airline wars, vending-machine money laundering, & breakthrus in health sci.",
-        "whyRead": "Dit raakt veel van je kerninteresses tegelijk: AI en onderzoek, PKM/sensemaking, geschiedenis, sociologie, fictie als denkinstrument en infrastructuur. De meerwaarde zit niet in één diep argument, maar in Koniks curatie met duidelijke persoonlijke stem en veel mogelijke vervolgleesroutes.",
-        "bestMoment": "leergierig",
-        "tags": [
-          "sociology & social structures",
-          "technology",
-          "writing & essays"
-        ],
-        "coreInterests": [
-          "sociologie",
-          "schrijven"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01kqy8wyp8f7z6nqcby6ajbnm4",
-        "title": "The world reveals itself to those who travel by foot",
-        "author": null,
-        "siteName": "Substack",
-        "category": "email",
-        "language": null,
-        "readingTime": "7 mins",
-        "readingMinutes": 7,
-        "wordCount": 1744,
-        "publishedDate": "2026-05-06",
-        "savedDate": "2026-05-06T09:11:29.224000+00:00",
-        "imageUrl": null,
-        "sourceUrl": "mailto:reader-forwarded-email/348c889588d1b12e59e60cc7ad543a87",
-        "readwiseUrl": "https://read.readwise.io/read/01kqy8wyp8f7z6nqcby6ajbnm4",
-        "summary": "One of my more important learning experiences was when I was sixteen, and my best friend Christoffer and I biked from Sweden to the Åland Islands in Finland.",
-        "whyRead": "Dit raakt persoonlijke filosofie, sociale structuren en essayistische reflectie: Karlsson gebruikt een reisverhaal om te laten zien hoe vriendschappen je handelingsruimte vergroten. De tekst heeft precies de combinatie van toegankelijkheid, stem en diepgang die de moeite waard is.",
-        "bestMoment": "reflectief",
-        "tags": [
-          "arts & culture",
-          "personal growth & life philosophy",
-          "sociology & social structures"
-        ],
-        "coreInterests": [
-          "sociologie"
-        ],
-        "alsoIn": [],
-        "memberships": []
       },
       {
         "position": null,
@@ -57607,7 +44935,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 97
+            "position": 96
           },
           {
             "familyId": "software-development",
@@ -57615,67 +44943,6 @@ window.TOP_ARTICLES = {
             "position": 15
           }
         ]
-      },
-      {
-        "position": null,
-        "id": "01kqqh8gp2nh0d0c859h61yths",
-        "title": "The Society of the Spectacle",
-        "author": null,
-        "siteName": "marxists.org",
-        "category": "article",
-        "language": null,
-        "readingTime": "1 hr 52 mins",
-        "readingMinutes": 112,
-        "wordCount": 29629,
-        "publishedDate": null,
-        "savedDate": "2026-05-03T18:22:55.683000+00:00",
-        "imageUrl": null,
-        "sourceUrl": "https://www.marxists.org/reference/archive/debord/society.htm",
-        "readwiseUrl": "https://read.readwise.io/read/01kqqh8gp2nh0d0c859h61yths",
-        "summary": "But certainly for the present age, which prefers the sign to the thing signified, the copy to the original, representation to reality, the appearance to the essence...",
-        "whyRead": "Raakt je interesse in filosofie, cultuurkritiek en maatschappijtheorie: Debord geeft een kerntekst voor denken over beeldcultuur, consumptie en vervreemding. De meerwaarde zit in het concept 'spektakel' als sociale relatie, niet alleen als media- of schermkritiek.",
-        "bestMoment": "geconcentreerd",
-        "tags": [
-          "anarchism",
-          "metaphysics",
-          "philosophy"
-        ],
-        "coreInterests": [
-          "filosofie",
-          "ideologie"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01kqqh8fb86d2x37amv63jrtc1",
-        "title": "The Tyranny of Structurelessness",
-        "author": null,
-        "siteName": "jofreeman.com",
-        "category": "article",
-        "language": null,
-        "readingTime": "23 mins",
-        "readingMinutes": 23,
-        "wordCount": 5907,
-        "publishedDate": null,
-        "savedDate": "2026-09-22T08:08:37.437000+00:00",
-        "imageUrl": null,
-        "sourceUrl": "https://www.jofreeman.com/joreen/tyranny.htm",
-        "readwiseUrl": "https://read.readwise.io/read/01kqqh8fb86d2x37amv63jrtc1",
-        "summary": "The Tyranny of Stuctureless by Jo Freeman",
-        "whyRead": "Raakt je interesse in sociale bewegingen, feminisme en organisatiekritiek: Freeman laat zien waarom 'geen structuur' vaak neerkomt op onzichtbare macht. De tekst is klassiek omdat hij een herkenbaar probleem in activistische en professionele groepen precies benoemt.",
-        "bestMoment": "analytisch",
-        "tags": [
-          "ai ethics & society",
-          "philosophy",
-          "technology"
-        ],
-        "coreInterests": [
-          "filosofie"
-        ],
-        "alsoIn": [],
-        "memberships": []
       },
       {
         "position": null,
@@ -57726,189 +44993,6 @@ window.TOP_ARTICLES = {
       },
       {
         "position": null,
-        "id": "01kqj7zfv4pjw25bctmdrswe18",
-        "title": "Waarom de Nederlandse democratie in de jaren ’30 niet ten onder ging",
-        "author": null,
-        "siteName": "Substack",
-        "category": "email",
-        "language": null,
-        "readingTime": "12 mins",
-        "readingMinutes": 12,
-        "wordCount": 3142,
-        "publishedDate": "2026-05-01",
-        "savedDate": "2026-05-01T17:04:30.564000+00:00",
-        "imageUrl": null,
-        "sourceUrl": "mailto:reader-forwarded-email/907a5ff8cbaf5b8a27a7b8049463267e",
-        "readwiseUrl": "https://read.readwise.io/read/01kqj7zfv4pjw25bctmdrswe18",
-        "summary": "De jaren dertig van de vorige eeuw, waren jaren van crises: economische rampspoed, politieke onrust en zelfs gewelddadige revoluties.",
-        "whyRead": "Essay van historicus Beatrice de Graaf over waarom Nederland in de jaren '30 — anders dan Duitsland, Oostenrijk en Frankrijk — de democratie wist te bewaren ondanks extremisme van links en rechts. Scherpe these, historische diepgang, vergelijkend perspectief. Relevant nu extremisme opnieuw oplaait.",
-        "bestMoment": "Rustig lezen, vraagt concentratie. Goed voor een avond.",
-        "tags": [
-          "history",
-          "political philosophy",
-          "totalitarianism & fascism"
-        ],
-        "coreInterests": [
-          "filosofie",
-          "ideologie",
-          "geschiedenis"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01kqgd25gt91afe9a1fyavnccq",
-        "title": "The dawn of the post-literate society",
-        "author": null,
-        "siteName": "substack.com",
-        "category": "article",
-        "language": null,
-        "readingTime": "19 mins",
-        "readingMinutes": 19,
-        "wordCount": 5007,
-        "publishedDate": "2025-09-19",
-        "savedDate": "2026-09-07T07:14:05.354000+00:00",
-        "imageUrl": "https://substackcdn.com/image/fetch/$s_!k_mw!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F3d285455-461b-44ac-ae33-79fc301d4d5a_500x310.jpeg",
-        "sourceUrl": "https://jmarriott.substack.com/p/the-dawn-of-the-post-literate-society-aa1?utm_source=substack&utm_medium=email",
-        "readwiseUrl": "https://read.readwise.io/read/01kqgd25gt91afe9a1fyavnccq",
-        "summary": "And the end of civilisation",
-        "whyRead": "Raakt je interesse in cultuurgeschiedenis, sociologie, politieke filosofie en leren — Marriott verbindt de leesrevolutie aan de voorwaarden voor kritisch denken en democratische zelfbesturing, en stelt daar de cognitieve en politieke prikkels van het schermtijdperk tegenover.",
-        "bestMoment": "analytisch",
-        "tags": [
-          "arts & culture",
-          "sociology & social structures"
-        ],
-        "coreInterests": [
-          "sociologie"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01kqgcwpgp5777b5hvkfwc4khd",
-        "title": "#200 - Ben ik een geldwolf geworden? Over angst, geld en genoeg",
-        "author": null,
-        "siteName": "Betering - door Vincent Kouters",
-        "category": "article",
-        "language": null,
-        "readingTime": "7 mins",
-        "readingMinutes": 7,
-        "wordCount": 1848,
-        "publishedDate": "2026-01-09",
-        "savedDate": "2026-04-30T23:51:53.111000+00:00",
-        "imageUrl": "https://substackcdn.com/image/fetch/$s_!Vwcy!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fff2e9b99-b406-4098-958b-58145530c5e9_9504x6336.jpeg",
-        "sourceUrl": "https://www.betering.nl/p/geldwolf?utm_source=substack&utm_medium=email",
-        "readwiseUrl": "https://read.readwise.io/read/01kqgcwpgp5777b5hvkfwc4khd",
-        "summary": "En over Dingen die me blij maken",
-        "whyRead": "Raakt mijn interesse in persoonlijke groei en de psychologie van geld — een eerlijk zelfonderzoek over de gevaren van de geldwolfmentaliteit na het bereiken van een vermijdingsdoel. De tekst is daarnaast relevant voor menselijke interactie en sociale psychologie.",
-        "bestMoment": "reflectief",
-        "tags": [
-          "economics",
-          "personal growth & life philosophy",
-          "social psychology & interpersonal dynamics"
-        ],
-        "coreInterests": [
-          "sociologie"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01kqfhrjrm2xyjtzq9g9p8sdvp",
-        "title": "Vrouwen in de SGP: het wordt (weer) spannend",
-        "author": null,
-        "siteName": "op3.dev",
-        "category": "rss",
-        "language": null,
-        "readingTime": "1 min",
-        "readingMinutes": 1,
-        "wordCount": 173,
-        "publishedDate": "2025-05-17",
-        "savedDate": "2026-04-30T15:57:43.644000+00:00",
-        "imageUrl": "https://webapp.production.cdn.art19.com/ember-app/assets/images/favicons/apple-touch-icon-c4e809110bd18d665bbad7646a7a17be.png",
-        "sourceUrl": "https://op3.dev/e/prfx.byspotify.com/e/rss.art19.com/episodes/f0553aa0-a1c0-4afc-9cf6-21e040e71250.mp3?rss_browser=BAhJIgtDaHJvbWUGOgZFVA%3D%3D--d05363d83ce333c74f32188013892b2863ad051c",
-        "readwiseUrl": "https://read.readwise.io/read/01kqfhrjrm2xyjtzq9g9p8sdvp",
-        "summary": "Volgende week zaterdag, op 24 mei, houdt de SGP haar partijcongres. Meestal verlopen die rustig bij de gezagsgetrouwe partij, maar nu ligt er een motie aardig wat stof doet opwaaien. Het gaat om een aanpassing van de grondbeginselen van de partij, waarbij het vrouwen toegestaan zou worden om politiek actief te zijn.Over deze motie en over de oudste partij in het Nederlandse parlement gaat het in deze Haagse Zaken. Je hoort van Pim van den Dool en Petra de Koning over het vrouwenstandpunt van de partij en hoe zelfs binnen de oerconservatieve SGP verandering plaatsvindt.Gasten: Petra de Koning & Pim van den DoolPresentatie: Guus Valk Redactie & productie: Iris VerhulsdonkMontage: Pieter BakkerHeeft u vragen, suggesties of ideeën over onze journalistiek? Mail dan naar onze redactie via podcast@nrc.nl.Verder lezen en luisteren:Haagse Zaken - Hoe de SGP in 101,5 jaar (niet) veranderdeMet vroege kandidatuur van SGP-vrouw Janse wordt gevoelig debat in partij heropendZie het privacybeleid op https://art19.com/privacy en de privacyverklaring van Californië op https://art19.com/privacy#do-not-sell-my-info.",
-        "whyRead": "Raakt je interesse in Nederlandse politiek, conservatisme en de langzame verschuiving van instituties. De meerwaarde zit in het kleine partijdebat als venster op diepere ideeën over gender, gezag en traditie. De tekst is daarnaast relevant voor menselijke interactie en sociale psychologie.",
-        "bestMoment": "kritisch",
-        "tags": [
-          "current affairs & politics",
-          "political philosophy",
-          "sociology & social structures"
-        ],
-        "coreInterests": [
-          "filosofie",
-          "ideologie",
-          "sociologie"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01kp2j39t59t9wy3bcs6m4q3c0",
-        "title": "Stigmergy: the most important concept you’ve never heard of",
-        "author": null,
-        "siteName": "The Self-Organizing Universe - Francis Heylighen",
-        "category": "article",
-        "language": null,
-        "readingTime": "10 mins",
-        "readingMinutes": 10,
-        "wordCount": 2578,
-        "publishedDate": null,
-        "savedDate": "2026-04-13T04:37:48.417000+00:00",
-        "imageUrl": "https://substackcdn.com/image/fetch/$s_!8w2x!,f_auto,q_auto:best,fl_progressive:steep/https%3A%2F%2Ffrancisheylighen.substack.com%2Fapi%2Fv1%2Fpress_kit%2Fasset%2F186339413%2Foverlay%2Fcomposed%3FaspectRatio%3Dlink",
-        "sourceUrl": "https://francisheylighen.substack.com/p/stigmergy-the-most-important-concept?r=1r0y5d&utm_medium=ios&triedRedirect=true",
-        "readwiseUrl": "https://read.readwise.io/read/01kp2j39t59t9wy3bcs6m4q3c0",
-        "summary": "Stigmergy is a concept with a clumsy name and a modest origin.",
-        "whyRead": "Raakt je interesse in sociologie, technologie, PKM en collectieve intelligentie. Dit heldere essay geeft je met stigmergie een bruikbare lens voor hoe Wikipedia, open source, teams en AI-systemen zonder centrale regie kunnen coördineren. Raakt daarnaast je interesse in sociale psychologie en interpersoonlijke dynamiek, teamdynamiek en samenwerking.",
-        "bestMoment": "analytisch",
-        "tags": [
-          "science",
-          "sociology & social structures",
-          "technology"
-        ],
-        "coreInterests": [
-          "sociologie"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01knpkrv3w8wsbhpd6qs67fkd1",
-        "title": "📗 On Building a Vocabulary for Discussing Network Effects",
-        "author": null,
-        "siteName": "Substack",
-        "category": "email",
-        "language": null,
-        "readingTime": "15 mins",
-        "readingMinutes": 15,
-        "wordCount": 3745,
-        "publishedDate": "2026-04-08",
-        "savedDate": "2026-04-08T13:16:09.724000+00:00",
-        "imageUrl": null,
-        "sourceUrl": "mailto:reader-forwarded-email/d6ee8a8e3bdf60078918ae62e3ef80ea",
-        "readwiseUrl": "https://read.readwise.io/read/01knpkrv3w8wsbhpd6qs67fkd1",
-        "summary": "I read The Cold Start Problem for the same reason I read and reviewed Certain to Win — I wanted to understand business better now that I work for a startup instead of a school system.",
-        "whyRead": "Raakt je professionele ontwikkeling, Scrum Master-werk en interesse in sociale structuren: dit geeft een bruikbare taal voor hoe groepen, platforms en instituties op gang komen en vastlopen.",
-        "bestMoment": "analytisch",
-        "tags": [
-          "business & startups",
-          "professional development",
-          "sociology & social structures"
-        ],
-        "coreInterests": [
-          "sociologie"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
         "id": "01knefpm3ae2ew1jrq9twtjc1w",
         "title": "Filesystems are having a moment",
         "author": null,
@@ -57944,36 +45028,6 @@ window.TOP_ARTICLES = {
       },
       {
         "position": null,
-        "id": "01knaa433mz4v5rtkbat739xjg",
-        "title": "How I learned to just fucking write",
-        "author": null,
-        "siteName": "THE CUT",
-        "category": "article",
-        "language": null,
-        "readingTime": "11 mins",
-        "readingMinutes": 11,
-        "wordCount": 2656,
-        "publishedDate": "2026-03-29",
-        "savedDate": "2026-04-03T18:36:39.318000+00:00",
-        "imageUrl": "https://substackcdn.com/image/fetch/$s_!f_Ht!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F93c368ec-087f-4c13-9e39-b5928b947289_4468x2346.png",
-        "sourceUrl": "https://kierancutting.substack.com/p/how-i-learned-to-just-fucking-write?r=1r0y5d&utm_medium=ios&triedRedirect=true",
-        "readwiseUrl": "https://read.readwise.io/read/01knaa433mz4v5rtkbat739xjg",
-        "summary": "It involves a lot more eavesdropping than I'd like",
-        "whyRead": "Raakt je interesse in essay schrijven en creatieve praktijk — praktisch persoonlijk essay over hoe een schrijver zijn blokkade overwon door dagelijkse \"noticings\" bij te houden in Obsidian.",
-        "bestMoment": "reflectief",
-        "tags": [
-          "arts & culture",
-          "personal growth & life philosophy",
-          "writing & essays"
-        ],
-        "coreInterests": [
-          "schrijven"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
         "id": "01kn4c4mv24kk2vjxqcn0y6efj",
         "title": "Days are enormous",
         "author": null,
@@ -58006,39 +45060,9 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 86
+            "position": 87
           }
         ]
-      },
-      {
-        "position": null,
-        "id": "01kmsrjw7b8q2k5fb547bxerv2",
-        "title": "The Death of Spotify: Why Streaming is Minutes Away From Being Obsolete",
-        "author": null,
-        "siteName": "Joel’s Substack",
-        "category": "article",
-        "language": null,
-        "readingTime": "7 mins",
-        "readingMinutes": 7,
-        "wordCount": 1728,
-        "publishedDate": "2026-02-25",
-        "savedDate": "2026-03-28T08:22:18.541000+00:00",
-        "imageUrl": "https://substackcdn.com/image/fetch/$s_!xyFH!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F601b8c81-be8e-4879-975a-9f52b6e9130f_942x628.webp",
-        "sourceUrl": "https://joelgouveia.substack.com/p/the-death-of-spotify-why-streaming?r=1r0y5d&utm_medium=ios&triedRedirect=true",
-        "readwiseUrl": "https://read.readwise.io/read/01kmsrjw7b8q2k5fb547bxerv2",
-        "summary": "The article argues that music streaming services like Spotify are broken and may soon become obsolete. They commoditize music, have weak profits, hurt most artists, and block real connections between artists and fans. The author says the future belongs to artists who own their fan relationships and build small, loyal communities instead of chasing mass streams.",
-        "whyRead": "Raakt je interesse in hoe technologie cultuurvormen ondermijnt en de economische structuren erachter. Jimmy Iovine's these dat streaming 'minutes away from obsolete' is, is een sterke binnenkomer.",
-        "bestMoment": "kritisch",
-        "tags": [
-          "arts & culture",
-          "economics",
-          "writing & essays"
-        ],
-        "coreInterests": [
-          "schrijven"
-        ],
-        "alsoIn": [],
-        "memberships": []
       },
       {
         "position": null,
@@ -58076,7 +45100,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 85
+            "position": 86
           }
         ]
       },
@@ -58158,216 +45182,6 @@ window.TOP_ARTICLES = {
             "position": 30
           }
         ]
-      },
-      {
-        "position": null,
-        "id": "01kmfmvdnqhec7daqp6x47pr85",
-        "title": "On the proper use of arguments",
-        "author": null,
-        "siteName": "Substack",
-        "category": "email",
-        "language": null,
-        "readingTime": "5 mins",
-        "readingMinutes": 5,
-        "wordCount": 1240,
-        "publishedDate": "2026-03-24",
-        "savedDate": "2026-03-24T10:04:39.991000+00:00",
-        "imageUrl": null,
-        "sourceUrl": "mailto:reader-forwarded-email/faf78764ba6ff5ef302326fb02ddc356",
-        "readwiseUrl": "https://read.readwise.io/read/01kmfmvdnqhec7daqp6x47pr85",
-        "summary": "Epictetus says clear logic is necessary for good moral choices.  \nHe explains three kinds of arguments—changing, hypothetical, and questioning—to train our thinking.  \nBeing careless with reasoning is like damaging our most important tool for living well.",
-        "whyRead": "Raakt je interesse in Stoïcijnse filosofie en Epictetus — Pigliucci legt uit waarom logica bij de Stoïcijnen onlosmakelijk verbonden was met ethiek. Essayistisch, toegankelijk, met humor.",
-        "bestMoment": "analytisch",
-        "tags": [
-          "metaphysics",
-          "philosophy",
-          "stoicism"
-        ],
-        "coreInterests": [
-          "filosofie"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01kmdth41cmczffw0kk28vchct",
-        "title": "Differently free",
-        "author": null,
-        "siteName": "Substack",
-        "category": "email",
-        "language": null,
-        "readingTime": "6 mins",
-        "readingMinutes": 6,
-        "wordCount": 1587,
-        "publishedDate": "2026-03-23",
-        "savedDate": "2026-03-23T17:05:25.036000+00:00",
-        "imageUrl": null,
-        "sourceUrl": "mailto:reader-forwarded-email/d08c4e67be09d86a00a6922d55992dc2",
-        "readwiseUrl": "https://read.readwise.io/read/01kmdth41cmczffw0kk28vchct",
-        "summary": "Henrik travels from his remote island to Copenhagen to record a podcast with his friend Jackson, whose different kind of freedom helps him see new possibilities.  \nHe talks about his grandfather Nils, a quiet, selfless man who spent his life caring for others and shaped Henrik’s atheism and values.  \nHenrik believes each person has a unique contribution to make, and that we should use our lives to increase complexity, connection, and goodness in the universe.",
-        "whyRead": "Raakt je interesse in filosofie en essayistisch schrijven — Karlssons reflectie op 'differently free' mensen (Venkatesh Rao) is een elegant idee dat raakt aan vrijheid, blinde vlekken en de waarde van intellectuele gemeenschap.",
-        "bestMoment": "reflectief",
-        "tags": [
-          "personal growth & life philosophy",
-          "philosophy",
-          "political philosophy"
-        ],
-        "coreInterests": [
-          "filosofie",
-          "ideologie"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01kmbp240j81t2q7hgkj3dvykm",
-        "title": "Every layer of review makes you 10x slower",
-        "author": null,
-        "siteName": "apenwarr.ca",
-        "category": "article",
-        "language": null,
-        "readingTime": "11 mins",
-        "readingMinutes": 11,
-        "wordCount": 2841,
-        "publishedDate": "2026-03-16",
-        "savedDate": "2026-03-22T21:08:50.323000+00:00",
-        "imageUrl": "https://readwise-assets.s3.amazonaws.com/media/wisereads/articles/every-layer-of-review-makes-yo/cover_image.jpg",
-        "sourceUrl": "https://apenwarr.ca/log/20260316",
-        "readwiseUrl": "https://read.readwise.io/read/01kmbp240j81t2q7hgkj3dvykm",
-        "summary": "Many layers of review make software work much slower, even when AI makes coding itself faster.  \nYou cannot just delete reviews, because they exist to protect quality, but too many reviews create waste and bad incentives.  \nInstead, teams must redesign their whole system to build quality into the work itself, then safely cut back on review layers.",
-        "whyRead": "Raakt je interesse in technologie, AI en organisatiestructuren — Pennarun laat scherp zien waarom snellere codeproductie pas waarde oplevert als je de vertraging en kwaliteitsverantwoordelijkheid in het hele systeem herontwerpt. Raakt daarnaast je interesse in teamdynamiek en samenwerking.",
-        "bestMoment": "analytisch",
-        "tags": [
-          "business & startups",
-          "professional development",
-          "technology"
-        ],
-        "coreInterests": [],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01kmbp17grppjmpxqfsq4z3zy7",
-        "title": "Sucker",
-        "author": null,
-        "siteName": "The Atlantic",
-        "category": "article",
-        "language": null,
-        "readingTime": "52 mins",
-        "readingMinutes": 52,
-        "wordCount": 13697,
-        "publishedDate": "2026-03-12",
-        "savedDate": "2026-03-22T21:08:21.145000+00:00",
-        "imageUrl": "https://cdn.theatlantic.com/thumbor/3FLysCzT5TUxxftKuq7fC50kN8U=/638x0:2557x2399/648x810/media/img/2026/03/04/Atlantic_Gambling_Final_01_WEBHP/original.png",
-        "sourceUrl": "https://theatlantic.com/magazine/2026/04/online-sports-betting-app-addiction/686061/",
-        "readwiseUrl": "https://read.readwise.io/read/01kmbp17grppjmpxqfsq4z3zy7",
-        "summary": "The writer starts casually betting on sports and soon becomes deeply caught up in gambling apps and parlays. His habit begins to affect his family, his sleep, and his kids’ understanding of money and sports. He ends with big losses and warns that widespread sports betting harms people and threatens the integrity of games and society.",
-        "whyRead": "Raakt je interesse in sociologie en actuele maatschappij — een ongewoon eerlijk first-person journalistiek experiment over hoe de sportweddindustrie mensen verleidt en verslaaft.",
-        "bestMoment": "ontspannen",
-        "tags": [
-          "current affairs & politics",
-          "economics",
-          "sociology & social structures"
-        ],
-        "coreInterests": [
-          "sociologie"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01km3qw1gcck89a14zbcnghtxp",
-        "title": "The life changing magic of asymmetrical risk:",
-        "author": null,
-        "siteName": "Medium",
-        "category": "article",
-        "language": null,
-        "readingTime": "5 mins",
-        "readingMinutes": 5,
-        "wordCount": 1261,
-        "publishedDate": "2018-03-31",
-        "savedDate": "2026-03-19T19:06:32.845000+00:00",
-        "imageUrl": "https://miro.medium.com/proxy/1*kFrc4tBFM_tCis-2Ic87WA.png",
-        "sourceUrl": "https://medium.com/@andy.liu.ad21/the-life-changing-magic-of-asymmetrical-risk-5b72784e3d49?utm_source=substack&utm_medium=email",
-        "readwiseUrl": "https://read.readwise.io/read/01km3qw1gcck89a14zbcnghtxp",
-        "summary": "Asymmetrical risk means taking small risks that can lead to very big rewards. The author shows this idea through stories about missed chances in business, investing, careers, and relationships. They urge readers to look for these chances in daily life and to act, even without perfect information.",
-        "whyRead": "Biedt een eenvoudig maar bruikbaar denkkader voor het evalueren van kansen — op financieel, professioneel en sociaal vlak. Schrijfkwaliteit is laag en anekdotisch; weinig analytische diepgang. De tekst is daarnaast relevant voor menselijke interactie en sociale psychologie.",
-        "bestMoment": "ontspannen",
-        "tags": [
-          "business & startups",
-          "personal growth & life philosophy",
-          "writing & essays"
-        ],
-        "coreInterests": [
-          "schrijven"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01km28wdaxt1qcw5p2c2nfd2zt",
-        "title": "Coalitie zette zonder voorkennis het mes in sociale zekerheid",
-        "author": null,
-        "siteName": "Vrij Nederland",
-        "category": "article",
-        "language": null,
-        "readingTime": "2 mins",
-        "readingMinutes": 2,
-        "wordCount": 295,
-        "publishedDate": null,
-        "savedDate": "2026-03-19T05:25:21.885000+00:00",
-        "imageUrl": "https://www.vn.nl/wp-content/uploads/2024/09/vn-logo.png",
-        "sourceUrl": "https://www.vn.nl/coalitie-zette-zonder-voorkennis-het-mes-in-sociale-zekerheid",
-        "readwiseUrl": "https://read.readwise.io/read/01km28wdaxt1qcw5p2c2nfd2zt",
-        "summary": "The Dutch coalition parties planned big cuts to social security without first checking the real effects. In Parliament, many of these plans are now failing. Parties like CDA and D66 admit their agreements turned out badly because they did not study them well.",
-        "whyRead": "Raakt je interesse in de Nederlandse politiek — een analytische blik op hoe de coalitie haar eigen bezuinigingsplannen niet heeft doorgerekend. Vrij Nederland heeft een kritische, journalistieke stem.",
-        "bestMoment": "kritisch",
-        "tags": [
-          "current affairs & politics",
-          "learning & meta-learning",
-          "sociology & social structures"
-        ],
-        "coreInterests": [
-          "sociologie"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01km0ha2tggzmd2y5yjpqbycj5",
-        "title": "🎓 On Geldings and the 'Natural' Social Order of Horses",
-        "author": null,
-        "siteName": "Manuscriptions",
-        "category": "rss",
-        "language": null,
-        "readingTime": "8 mins",
-        "readingMinutes": 8,
-        "wordCount": 2011,
-        "publishedDate": "2026-03-18",
-        "savedDate": "2026-03-18T13:14:06.616000+00:00",
-        "imageUrl": "https://substackcdn.com/image/fetch/$s_!36zS!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd0edbb19-79d5-4788-8b8e-3476976f759b_1344x896.png",
-        "sourceUrl": "https://www.eleanorkonik.com/p/on-geldings-and-the-natural-social",
-        "readwiseUrl": "https://read.readwise.io/read/01km0ha2tggzmd2y5yjpqbycj5",
-        "summary": "Wild horse herds have stallions, mares, young horses, and separate bachelor bands of adult males.  \nIn Mongolian herds, humans replace bachelor bands by castrating most males, so many geldings live in mixed groups led by one breeding stallion.  \nThis long-standing human control of breeding makes “natural-looking” herds that are actually shaped by human choices.",
-        "whyRead": "Prikkelt je interesse in geschiedenis en de filosofie van het 'natuurlijke' — een fascinerende analyse van hoe gelding-praktijken bij Mongoolse paarden de scheiding tussen 'natuur' en 'cultuur' ondermijnen.",
-        "bestMoment": "analytisch",
-        "tags": [
-          "history",
-          "popular science",
-          "sociology & social structures"
-        ],
-        "coreInterests": [
-          "geschiedenis",
-          "sociologie"
-        ],
-        "alsoIn": [],
-        "memberships": []
       },
       {
         "position": null,
@@ -58457,67 +45271,6 @@ window.TOP_ARTICLES = {
       },
       {
         "position": null,
-        "id": "01kkh2jn3p93nsh9nvbpe1w0vk",
-        "title": "Rugged Spirituality",
-        "author": null,
-        "siteName": "substack.com",
-        "category": "rss",
-        "language": null,
-        "readingTime": "5 mins",
-        "readingMinutes": 5,
-        "wordCount": 1136,
-        "publishedDate": "2026-03-12",
-        "savedDate": "2026-03-12T13:08:02.367000+00:00",
-        "imageUrl": "https://substackcdn.com/image/fetch/$s_!jd8K!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8f50d071-4444-416c-b1db-0ad9f25feb9f_1384x1040.jpeg",
-        "sourceUrl": "https://pathwaystotao.substack.com/p/rugged-spirituality",
-        "readwiseUrl": "https://read.readwise.io/read/01kkh2jn3p93nsh9nvbpe1w0vk",
-        "summary": "The author rejects today’s soft, feel-good spirituality, which he sees as sentimental group therapy. He wants a “rugged spirituality” that combines sharp philosophical inquiry with a tough warrior mindset. This path demands inner discipline, clear thinking, and real effort to seek truth and lasting peace.",
-        "whyRead": "Aansluitend bij je interesse in filosofie en persoonlijke groei — een pleidooi voor 'rugged spirituality' dat stoïcisme, Vedanta en de warrior-ethos combineert als alternatief voor de verwaterde hedendaagse spiritualiteit.",
-        "bestMoment": "geïnspireerd",
-        "tags": [
-          "existentialism",
-          "personal growth & life philosophy",
-          "philosophy"
-        ],
-        "coreInterests": [
-          "filosofie"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01kkh1rvw2jw6hwht8p7dw0qrm",
-        "title": "We Are Confused, Maladapted Apes Who Need Enlightenment",
-        "author": null,
-        "siteName": "conspicuouscognition.com",
-        "category": "article",
-        "language": null,
-        "readingTime": "18 mins",
-        "readingMinutes": 18,
-        "wordCount": 4727,
-        "publishedDate": "2026-02-02",
-        "savedDate": "2026-03-12T12:54:00.323000+00:00",
-        "imageUrl": "https://substackcdn.com/image/fetch/$s_!5gyx!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F7cd4f31a-9e87-416c-9775-9ea3c57330b7_746x488.png",
-        "sourceUrl": "https://www.conspicuouscognition.com/p/we-are-confused-maladapted-apes-who",
-        "readwiseUrl": "https://read.readwise.io/read/01kkh1rvw2jw6hwht8p7dw0qrm",
-        "summary": "People are often rational about their own interests, but our minds evolved for small tribes, not today’s huge, complex societies.  \nIn modern politics and media, our instincts, biases, and propaganda push us toward ignorance and false, negative views of the world.  \nWe need counterintuitive, evidence-based ideas and good institutions to channel self-interest into cooperation and real progress.",
-        "whyRead": "Raakt je interesse in politieke filosofie, sociologie en cognitieve vertekeningen. Williams biedt een serieus tegenwicht tegen zowel cynisch evolutionair reductionisme als naïef vooruitgangsgeloof, en maakt inzichtelijk waarom liberale instituties kenniswerk nodig hebben. Raakt daarnaast je interesse in sociale psychologie en interpersoonlijke dynamiek.",
-        "bestMoment": "analytisch",
-        "tags": [
-          "behavioral psychology & coaching",
-          "philosophy",
-          "political philosophy"
-        ],
-        "coreInterests": [
-          "filosofie",
-          "ideologie"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
         "id": "01kkh0xtww0ex0apwdnpkatc8s",
         "title": "Negative Pre-Game Speeches Don’t Work. Here’s What Does.",
         "author": null,
@@ -58553,36 +45306,6 @@ window.TOP_ARTICLES = {
             "position": 72
           }
         ]
-      },
-      {
-        "position": null,
-        "id": "01kjwprxsc8gb0sekcqdn4pqyg",
-        "title": "Werkenden dokken stiekem al jaren",
-        "author": null,
-        "siteName": "substack.com",
-        "category": "article",
-        "language": null,
-        "readingTime": "4 mins",
-        "readingMinutes": 4,
-        "wordCount": 896,
-        "publishedDate": "2026-02-26",
-        "savedDate": "2026-03-04T15:16:59.309000+00:00",
-        "imageUrl": "https://substackcdn.com/image/fetch/$s_!1lv0!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F2e4744d3-0281-4c82-9931-cb27b8e322d6_423x559.png",
-        "sourceUrl": "https://rodecijfers.substack.com/i/189146852?img=https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F2e4744d3-0281-4c82-9931-cb27b8e322d6_423x559.png&utm_source=substack&utm_medium=email",
-        "readwiseUrl": "https://read.readwise.io/read/01kjwprxsc8gb0sekcqdn4pqyg",
-        "summary": "The article says Dutch governments have been quietly raising taxes on workers for years.  \nThey do this by increasing hidden labor charges like the Aof premium, while cutting the benefits those premiums are meant to fund.  \nAs a result, normal employees pay more, high earners and wealth owners are spared, and politics about “hardworking people” looks dishonest.",
-        "whyRead": "Raakt je interesse in Nederlandse politiek en economie — hoe de overheid al jaren stiekem werkenden extra belast via een obscure premie. De tekst is daarnaast relevant voor organisatiegedrag en cultuur.",
-        "bestMoment": "kritisch",
-        "tags": [
-          "current affairs & politics",
-          "economics",
-          "sociology & social structures"
-        ],
-        "coreInterests": [
-          "sociologie"
-        ],
-        "alsoIn": [],
-        "memberships": []
       },
       {
         "position": null,
@@ -58818,37 +45541,9 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 34
+            "position": 33
           }
         ]
-      },
-      {
-        "position": null,
-        "id": "01khqtky030v51dqge78dxkmfq",
-        "title": "Clawd Clawderberg, Moltbook, Infinite Backrooms, Misaligned Humans",
-        "author": null,
-        "siteName": "substack.com",
-        "category": "article",
-        "language": null,
-        "readingTime": "5 mins",
-        "readingMinutes": 5,
-        "wordCount": 1113,
-        "publishedDate": "2026-02-09",
-        "savedDate": "2026-02-18T07:32:16.002000+00:00",
-        "imageUrl": "https://substackcdn.com/image/fetch/$s_!YaMT!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F95fa0784-fa1a-41a6-96f6-12a1c247ee28_1232x764.png",
-        "sourceUrl": "https://jurgengravestein.substack.com/p/clawd-clawderberg-moltbook-infinite?utm_source=post-email-title&publication_id=1153665&post_id=186498570&utm_campaign=email-post-title&isFreemail=true&r=qta4&triedRedirect=true&utm_medium=email&mc_cid=f02edf8704&mc_eid=9abf3b5a34",
-        "readwiseUrl": "https://read.readwise.io/read/01khqtky030v51dqge78dxkmfq",
-        "summary": "Moltbook, a Reddit for AI agents, went viral.  \nBut many posts were human-driven, and the site was insecure, with fake bots and scams.  \nThe real lesson: don’t trust the hype; fear misaligned people using AIs, not AIs plotting.",
-        "whyRead": "Onthullend verhaal over hoe mensen AI-forums manipuleren en wat dit zegt over de echte risico's van AI. De tekst is daarnaast relevant voor menselijke interactie en sociale psychologie.",
-        "bestMoment": "kritisch",
-        "tags": [
-          "ai ethics & society",
-          "software development",
-          "technology"
-        ],
-        "coreInterests": [],
-        "alsoIn": [],
-        "memberships": []
       },
       {
         "position": null,
@@ -59037,36 +45732,6 @@ window.TOP_ARTICLES = {
       },
       {
         "position": null,
-        "id": "01kgtft0te0b4kvdx8n2th3a54",
-        "title": "Te druk voor betekenisvol werk? Probeer dit",
-        "author": null,
-        "siteName": "intentioneelleven.nl",
-        "category": "article",
-        "language": null,
-        "readingTime": "7 mins",
-        "readingMinutes": 7,
-        "wordCount": 1598,
-        "publishedDate": "2026-02-06",
-        "savedDate": "2026-02-06T22:05:22.639000+00:00",
-        "imageUrl": "https://substackcdn.com/image/fetch/$s_!oqKN!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd11f098f-1235-4290-bf67-35360d07b17d_1444x824.png",
-        "sourceUrl": "https://motivatiemails.intentioneelleven.nl/p/te-druk-voor-betekenisvol-werk-probeer?utm_source=substack&utm_medium=email",
-        "readwiseUrl": "https://read.readwise.io/read/01kgtft0te0b4kvdx8n2th3a54",
-        "summary": "A packed schedule leads to mediocre work; real productivity is making space for what matters. Say no—set boundaries, use a polite template, try a one‑week “no” experiment—and stop hiding behind busyness, status, and pay. The result: more focus, control, and work you’re proud to share.",
-        "whyRead": "Nederlandstalig essay over hoe een volle agenda middelmatigheid produceert — en hoe nee zeggen vrijheid geeft. De tekst is daarnaast relevant voor menselijke interactie en sociale psychologie.",
-        "bestMoment": "reflectief",
-        "tags": [
-          "business & startups",
-          "personal growth & life philosophy",
-          "tools & workflows"
-        ],
-        "coreInterests": [
-          "pkm"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
         "id": "01kgdfpy0f0pts3sax7x38mdqc",
         "title": "Short Fiction",
         "author": null,
@@ -59217,7 +45882,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 85
+            "position": 86
           }
         ]
       },
@@ -59332,90 +45997,6 @@ window.TOP_ARTICLES = {
             "position": 24
           }
         ]
-      },
-      {
-        "position": null,
-        "id": "01kf5bbve66t0f7q4sedeqrpex",
-        "title": "Energy Management",
-        "author": null,
-        "siteName": "Scott H Young",
-        "category": "article",
-        "language": null,
-        "readingTime": "9 mins",
-        "readingMinutes": 9,
-        "wordCount": 2165,
-        "publishedDate": "2006-07-15",
-        "savedDate": "2026-01-17T06:47:59.176000+00:00",
-        "imageUrl": "http://www.assoc-amazon.com/e/ir?t=scottcom-20&l=ur2&o=1",
-        "sourceUrl": "https://www.scotthyoung.com/blog/2006/07/14/energy-management/?ck_subscriber_id=3391141361",
-        "readwiseUrl": "https://read.readwise.io/read/01kf5bbve66t0f7q4sedeqrpex",
-        "summary": "The author learns that energy, not time, drives real productivity. Use cycles: work in focused bursts, then recover deeply; stress then restore to grow capacity. Build all four energies—physical, mental, emotional, and purpose—to avoid burnout and perform better.",
-        "whyRead": "Raakt je interesse in persoonlijke filosofie en productiviteit — Scott Young over waarom energiebeheer, niet tijdbeheer, de sleutel is tot hoge productiviteit. De tekst is daarnaast relevant voor organisatiegedrag en cultuur.",
-        "bestMoment": "leergierig",
-        "tags": [
-          "health & wellness",
-          "personal growth & life philosophy",
-          "professional development"
-        ],
-        "coreInterests": [],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01kf3qmyx8msp2sr1v8vep52q0",
-        "title": "Doorbreek routines: Ontdek hoe nieuwe omgevingen je hersenen stimuleren",
-        "author": null,
-        "siteName": "Ernst-Jan Pfauth",
-        "category": "article",
-        "language": null,
-        "readingTime": "4 mins",
-        "readingMinutes": 4,
-        "wordCount": 1039,
-        "publishedDate": "2024-05-24",
-        "savedDate": "2026-01-16T15:44:11.689000+00:00",
-        "imageUrl": "https://pfauth.com/wp-content/uploads/2024/05/DALL·E-2024-05-21-16.11.21-A-minimalist-pencil-drawing-in-the-style-of-19th-century-Japanese-prints.-The-background-is-white.-The-main-elements-are-a-person-standing-at-the-edge.webp",
-        "sourceUrl": "https://pfauth.com/intentioneel-leven/doorbreek-routines/?utm_source=substack&utm_medium=email",
-        "readwiseUrl": "https://read.readwise.io/read/01kf3qmyx8msp2sr1v8vep52q0",
-        "summary": "Routines are comfy, but new places and experiences wake up the brain. Novelty boosts learning, sparks curiosity, and creates strong memories. Try small changes when you can, but adjust for stress and personal preference.",
-        "whyRead": "Raakt je interesse in leerwetenschap en neuropsychologie — Pfauth interviewt Judith Schomaker over hoe nieuwe omgevingen het brein stimuleren. De tekst is daarnaast relevant voor menselijke interactie en sociale psychologie.",
-        "bestMoment": "leergierig",
-        "tags": [
-          "behavioral psychology & coaching",
-          "learning & meta-learning",
-          "science"
-        ],
-        "coreInterests": [],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01kf0p1x4zzc3hqf55wqyngafr",
-        "title": "On the preparations before writing an essay",
-        "author": null,
-        "siteName": "Substack",
-        "category": "email",
-        "language": null,
-        "readingTime": "8 mins",
-        "readingMinutes": 8,
-        "wordCount": 2007,
-        "publishedDate": "2026-01-15",
-        "savedDate": "2026-01-15T11:18:35.423000+00:00",
-        "imageUrl": null,
-        "sourceUrl": "mailto:reader-forwarded-email/be26eefff765a8e8d36d86b94368e5ea",
-        "readwiseUrl": "https://read.readwise.io/read/01kf0p1x4zzc3hqf55wqyngafr",
-        "summary": "- Treat essay prep like filming a doc: gather lots of rough, detailed prose before editing.\n- He mines journals, talks, quotes, and AI searches, then rapidly tests openings and stories.\n- Example and updates: one essay fused taped stories with an old Aristotle draft; there’s a fierce island storm, a planned Andalucia trip, a found Grothendieck translation, and he’s reading Magic Mountain.",
-        "whyRead": "Henrik Karlsson over de voorbereiding op essay schrijven — waardevol voor je interesse in schrijven, creativiteit en kennisverwerking.",
-        "bestMoment": "geconcentreerd",
-        "tags": [
-          "arts & culture",
-          "learning & meta-learning",
-          "professional development"
-        ],
-        "coreInterests": [],
-        "alsoIn": [],
-        "memberships": []
       },
       {
         "position": null,
@@ -59572,36 +46153,6 @@ window.TOP_ARTICLES = {
       },
       {
         "position": null,
-        "id": "01kec58fp6ep87fc5qnf8swc20",
-        "title": "Being creative requires taking risks",
-        "author": null,
-        "siteName": "Substack",
-        "category": "email",
-        "language": null,
-        "readingTime": "11 mins",
-        "readingMinutes": 11,
-        "wordCount": 2720,
-        "publishedDate": "2026-01-07",
-        "savedDate": "2026-01-07T12:00:16.582000+00:00",
-        "imageUrl": null,
-        "sourceUrl": "mailto:reader-forwarded-email/7a31935774c2366a16a2e13224dcf3da",
-        "readwiseUrl": "https://read.readwise.io/read/01kec58fp6ep87fc5qnf8swc20",
-        "summary": "People and AIs slip into “mode collapse,” repeating safe habits and losing novelty.  \nTo stay interesting, seek new input, write a lot, and accept risk even when rewards drop.  \nThe author weighs options and will try small, scary projects while still earning to pay bills.",
-        "whyRead": "Essay over creativiteit als risico-nemen — relevant voor je interesse in schrijven, persoonlijke groei en het doorbreken van middelmatigheid.",
-        "bestMoment": "geïnspireerd",
-        "tags": [
-          "arts & culture",
-          "personal growth & life philosophy",
-          "writing & essays"
-        ],
-        "coreInterests": [
-          "schrijven"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
         "id": "01ke8078ppphvc7nr28ecay5nf",
         "title": "Let a thousand societies bloom",
         "author": null,
@@ -59715,100 +46266,6 @@ window.TOP_ARTICLES = {
       },
       {
         "position": null,
-        "id": "01kdnzthe611p0c38ts9j702s2",
-        "title": "De verleiding van de kettingzaag",
-        "author": null,
-        "siteName": "NRC",
-        "category": "article",
-        "language": null,
-        "readingTime": "9 mins",
-        "readingMinutes": 9,
-        "wordCount": 2243,
-        "publishedDate": "2025-12-25",
-        "savedDate": "2025-12-29T21:21:59.238000+00:00",
-        "imageUrl": "https://images.nrc.nl/wFtlC1eygAg9wnrwHMGMqZZkFJQ=/1200x627/smart/filters:no_upscale()/s3/static.nrc.nl/wp-content/uploads/2025/12/19080957/261225OPI_2027696901_Binnen-breed-Bas-Heijne-Anne-van-Wieren-WEB.jpg",
-        "sourceUrl": "https://www.nrc.nl/nieuws/2025/12/25/de-verleiding-van-de-kettingzaag-a4915742",
-        "readwiseUrl": "https://read.readwise.io/read/01kdnzthe611p0c38ts9j702s2",
-        "summary": "Tech‑bazen en rijke vrijheidszoekers willen regels en overheid omzeilen om hun macht en keuzes te maximaliseren.  \nDat leidt tot ongelijkheid, gehoorzaamheid aan technocratische idealen en een cultuur van woede en afbraak van de democratie.  \nHet resultaat is een gevaarlijke ontmenselijking en het grotendeels falen van beschaving en zelfbeheersing.",
-        "whyRead": "Raakt je interesse in politieke filosofie — Bas Heijne over de gevaarlijke aantrekkingskracht van 'kettingzaag'-politiek: snelle destructie als politieke verleiding.",
-        "bestMoment": "kritisch",
-        "tags": [
-          "anarchism",
-          "current affairs & politics",
-          "political philosophy"
-        ],
-        "coreInterests": [
-          "filosofie",
-          "ideologie"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01kdanxpg3e3pp8stwtmfr7p79",
-        "title": "Taking your education into your own hands",
-        "author": null,
-        "siteName": "bytebytego.com",
-        "category": "article",
-        "language": null,
-        "readingTime": "6 mins",
-        "readingMinutes": 6,
-        "wordCount": 1370,
-        "publishedDate": "2025-04-09",
-        "savedDate": "2025-12-25T11:57:18.211000+00:00",
-        "imageUrl": "https://substackcdn.com/image/fetch/$s_!JjvB!,w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F7fdcb539-0e90-4a41-93c7-0575fc657676_2808x3675.jpeg",
-        "sourceUrl": "https://email.mg1.substack.com/c/eJxUkEmO6yAQQE9jdrEAM3nB4m98DYuh4vDDYDF0lNu3lKhbnW2VXr2ncqbDUepTPyC6kgB5jSV10iLQRAohxCK4QpBMiPsBGarp4HfT_2wV4-imKRF-4QQ7xdVq7equYDCW1xUYYZJwFDTFlBNKOSGcETUvs8Ir98ozgBVArjCbo7Bo1TExnA4yt2FbN-4-u5JQaPu1wqtE9zoARX3r_WzT8m-i20S3_6aCv0H2UFvJH_BEt3OiWzf3kI_Ls4x6AT-c6aHkS8i9vGflkdE57O5KSiOH_twhGxvBv4XnsDG8oT14TagQVGJU9Y9qYrgT3OYcURvWl2RC1p9ZqP--ejSorzuYK4Gx4OhL0-8AAAD___7phLU",
-        "readwiseUrl": "https://read.readwise.io/read/01kdanxpg3e3pp8stwtmfr7p79",
-        "summary": "After leaving academia, the author stopped reading philosophy and felt he had been rejected by the field. Over time he reclaimed philosophy by learning and teaching independently, writing, and making videos. He urges others to take their education into their own hands and keep learning beyond institutions.",
-        "whyRead": "Raakt je interesse in zelfgestuurd leren — Jared Henderson (filosoof/Substack) over hoe hij na zijn PhD zijn eigen curriculum opbouwde buiten de academische wereld.",
-        "bestMoment": "reflectief",
-        "tags": [
-          "learning & meta-learning",
-          "stoicism",
-          "writing & essays"
-        ],
-        "coreInterests": [
-          "filosofie",
-          "schrijven"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01kd66gdx0xhsnk7nxcsvfcgpa",
-        "title": "Een tijd van monsters: waarom de beste mensen niet meer de top bereiken",
-        "author": null,
-        "siteName": "De Correspondent",
-        "category": "article",
-        "language": null,
-        "readingTime": "16 mins",
-        "readingMinutes": 16,
-        "wordCount": 4177,
-        "publishedDate": "2025-12-23",
-        "savedDate": "2025-12-23T18:10:57.056000+00:00",
-        "imageUrl": "https://useruploads.cdn-decorrespondent.nl/image/_I7wuCWdHvNy-gy8wvDvT99feRc=/1590x1060/dc-useruploads-images/e8824af0c1ab44db923d7007ee7074ec.jpg",
-        "sourceUrl": "https://decorrespondent.nl/16607/een-tijd-van-monsters-waarom-de-beste-mensen-niet-meer-de-top-bereiken/a01777b1-0224-0b60-27c9-021dcb50f36b",
-        "readwiseUrl": "https://read.readwise.io/read/01kd66gdx0xhsnk7nxcsvfcgpa",
-        "summary": "Rutger Bregman waarschuwt dat westerse leiderschap moreel is vervallen en goede mensen niet meer doorbreken.  \nHij beschrijft een verspilling van talent, groeiende zelfzucht en politieke verval vergelijkbaar met Rome of Venetië.  \nZijn oplossing is een morele revolutie waarin macht weer wordt gebruikt om goed te doen.",
-        "whyRead": "Raakt je interesse in politieke filosofie — Rutger Bregman's BBC Reith Lecture over de leiderschapscrisis: niet de slimsten, maar de meest schaamtelozen bereiken de top.",
-        "bestMoment": "analytisch",
-        "tags": [
-          "political philosophy",
-          "sociology & social structures",
-          "totalitarianism & fascism"
-        ],
-        "coreInterests": [
-          "filosofie",
-          "ideologie",
-          "sociologie"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
         "id": "01kd1canjswg2k0ey5cgtz3fa4",
         "title": "Why I Am Not Going To Buy A Computer",
         "author": null,
@@ -59864,37 +46321,6 @@ window.TOP_ARTICLES = {
       },
       {
         "position": null,
-        "id": "01kd1c7k90p8p5bknmbm09abwv",
-        "title": "The World in Which We Live - Nassim Nicholas Taleb",
-        "author": null,
-        "siteName": "Substack",
-        "category": "article",
-        "language": null,
-        "readingTime": "9 mins",
-        "readingMinutes": 9,
-        "wordCount": 2213,
-        "publishedDate": null,
-        "savedDate": "2025-12-21T21:14:46.945000+00:00",
-        "imageUrl": "https://substackcdn.com/image/fetch/$s_!_6i6!,w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1752b104-50d6-4bf7-8a85-fb32f4a35c3a_760x456.png",
-        "sourceUrl": "https://substack.com/@nntaleb/p-174276181",
-        "readwiseUrl": "https://read.readwise.io/read/01kd1c7k90p8p5bknmbm09abwv",
-        "summary": "Modern hyper-connectivity concentrates wealth and power, creating a technofeudal world where a few capture most gains.  \nFast-growing countries like China outpace stagnant, debt-laden West due to different stages on the S-curve of development.  \nGrowing government reach and migration tensions complicate governance, forcing hard choices about debt, growth, and localism.",
-        "whyRead": "Raakt je interesse in economie en politieke filosofie — Nassim Taleb's zeven punten over de moderne wereld: van technofeodaisme tot Black Swan-kwetsbaarheid. Raakt daarnaast je interesse in sociale psychologie en interpersoonlijke dynamiek.",
-        "bestMoment": "analytisch",
-        "tags": [
-          "current affairs & politics",
-          "economics",
-          "political philosophy"
-        ],
-        "coreInterests": [
-          "filosofie",
-          "ideologie"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
         "id": "01kchxs5s6y615eazs4hhqgm7h",
         "title": "A list of books and essays that I love",
         "author": null,
@@ -59927,7 +46353,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 84
+            "position": 85
           }
         ]
       },
@@ -59970,36 +46396,6 @@ window.TOP_ARTICLES = {
       },
       {
         "position": null,
-        "id": "01kcfca0wrxztgk2sqe31khzbr",
-        "title": "Now Watch Me Read | The New Yorker",
-        "author": null,
-        "siteName": "The New Yorker",
-        "category": "article",
-        "language": null,
-        "readingTime": "8 mins",
-        "readingMinutes": 8,
-        "wordCount": 2014,
-        "publishedDate": "2025-12-02",
-        "savedDate": "2025-12-14T21:29:46.649000+00:00",
-        "imageUrl": "https://media.newyorker.com/photos/69273519f982d57f3b61c362/16:9/w_1280,c_limit/performative%20reading.png",
-        "sourceUrl": "https://www.newyorker.com/culture/the-lede/performative-reading",
-        "readwiseUrl": "https://read.readwise.io/read/01kcfca0wrxztgk2sqe31khzbr",
-        "summary": "Online “performative reading” is when people use books as props to signal intelligence or attract attention. Social media turns sincere acts into staged performances, making real reading seem suspect. This trend reflects deeper worries about declining attention, authenticity, and the loss of slow, serious reading.",
-        "whyRead": "Raakt je interesse in cultuur en sociologie — The New Yorker over 'performatief lezen': boeken zichtbaar bij zich dragen als identiteitssignaal.",
-        "bestMoment": "ontspannen",
-        "tags": [
-          "arts & culture",
-          "learning & meta-learning",
-          "sociology & social structures"
-        ],
-        "coreInterests": [
-          "sociologie"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
         "id": "01kcb7n6kftwmca7m6dgprpkwf",
         "title": "Anarchism, explained",
         "author": null,
@@ -60034,7 +46430,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 57
+            "position": 58
           }
         ]
       },
@@ -60072,7 +46468,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 83
+            "position": 84
           }
         ]
       },
@@ -60187,39 +46583,9 @@ window.TOP_ARTICLES = {
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 68
+            "position": 69
           }
         ]
-      },
-      {
-        "position": null,
-        "id": "01kbdw3w0vrspnk8yzrfxypq51",
-        "title": "The Quiet Collapse of Reading—and the Only Real Solution",
-        "author": null,
-        "siteName": "millersbookreview.com",
-        "category": "article",
-        "language": null,
-        "readingTime": "6 mins",
-        "readingMinutes": 6,
-        "wordCount": 1479,
-        "publishedDate": "2025-05-14",
-        "savedDate": "2026-07-21T12:37:25.965000+00:00",
-        "imageUrl": "https://substackcdn.com/image/fetch/w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F5e776ade-a695-43e4-97bd-165f540b379b_935x637.jpeg",
-        "sourceUrl": "https://www.millersbookreview.com/p/quiet-collapse-of-reading-and-the-only-real-solution",
-        "readwiseUrl": "https://read.readwise.io/read/01kbdw3w0vrspnk8yzrfxypq51",
-        "summary": "Fewer Americans, especially kids and men, are reading books today than a decade ago. Schools assign less whole-text reading and students spend far less time reading, creating a downward spiral of skill and interest. The fix is simple: parents and adults should read more in front of children and make reading visible and enjoyable.",
-        "whyRead": "Als fervent lezer alarmerende data over het verval van leesvaardigheid – en wat er aan te doen is.",
-        "bestMoment": "reflectief",
-        "tags": [
-          "arts & culture",
-          "learning & meta-learning",
-          "parenting & care"
-        ],
-        "coreInterests": [
-          "zorgouderschap"
-        ],
-        "alsoIn": [],
-        "memberships": []
       },
       {
         "position": null,
@@ -60297,37 +46663,6 @@ window.TOP_ARTICLES = {
       },
       {
         "position": null,
-        "id": "01kasc4pne8zck7kwatefv1jxq",
-        "title": "Galaxy brain resistance",
-        "author": null,
-        "siteName": "eth.limo",
-        "category": "article",
-        "language": null,
-        "readingTime": "18 mins",
-        "readingMinutes": 18,
-        "wordCount": 4754,
-        "publishedDate": "2025-11-07",
-        "savedDate": "2025-11-23T22:07:53.007000+00:00",
-        "imageUrl": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAecAAAINCAYAAAAEOrctAAAAAXNSR0IB2cksfwAAAARnQU1BAACxjwv8YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAAlwSFlzAAALEwAACxMBAJqcGAAAAAd0SU1FB+kKHAw3FC4nnUEAACAASURBVHja7L3pkyTJkeX3UzNz9zgz8qi7qy8ADQxmsMMld7k8RLgULmX5jf/0CimypAiF5MoKh4sB0OirqrKq8ozLDzNTfjBzj8is6mMwwAzRE9qSXXlEeLh7ePgzffr0qaiqcohDHOLPKmKMGGOGnx88fMTFxcV3P0kEa+3d7YQAGoefjTHDY77r1nD/bzEq8c7vBGMNIrJ7TkiPg5i+RCmKgoAhqoFoAAMhgrWILTFS8Pzjn/E//I//lpPTB/z617/h/Pw1X339DW/fvCa2DagH34CJ6XsNgILc2WE079feL4GQ9+fvGap5e3vnQMy7jxnOtdx9bP9c2Z0/VNL5GL7SzyIRJKB3tmXA2PSvmLSt2IDo7rmav8Tutikmv2Y+FxpA8jlxeTsSQPJrYxC1xFZB97fRv68KUYdDkf5fQIkE8btdFtkds0j6Ut07jfm4VBDJr6OCEsFI+tkYMA7EImLBOmxV4lzJ7GzBw8eP+C//xX/Bo7NT/v3/8u/4P//3f8/m8g3EiKpHbESjT9ecgKi+e+nce6feF8ZaxNh3PqMa773HGu99JOXOFwLee6xzuMNt7hCH+PMLEUFVUVVEhPF4TFGWw81ARAgx3L2BGINzdz/ytizZw89hm/eBeP93IoIxd4G37Tw+hDuPsdbeWUAEIrIHhCqKdSVOHJgSkQLBUteBEMG5MX/xy1/x3/33/4ZHT55xcXFNCCXbGkajBR99fIxvG7pmC9phJKCxI4QOYr6Bo8P+d11H27Z3b6DqUfXffa7v3Kr3wXh/O7oH0CmcK+49x+O7BucszjqstcQY8qKm/0ogpdq/skXEJODB5P1RRCKqEVXwUQkRFEEzECec6zKAJ1A1xgFCjCBiMGIx1iHWIKLE6ImhI8aOohSsM/jO00WfsF8sThwWg1aCaNouCFEi0aT31iDp/AdFYwRVDIIYM6wRIvlfjcR+4STpuW64rgyKYG2R9lMsqhBRokYwBjH5GIxL37uScjSiLEpqOgwjtutI+WTOv/7X/xOLyQn/2//67/BNTb1d0TRLEINYxYogGtEY0wJI0xmNIuj7roH9z5ZzWOvufUbvfkaCT+d3/7NUVRXGmOF3MUZCjLgDOB/iEH/eAH0XCG3OYDJ4v2e933XdnZ89+g7Q7N88evDfv8m88zhJmc0+EAOEEAj7gK0mZUD5OajSNl16vokY0fz9jFFVcbQ44Zd/9S/5+NO/5OWrt/w/f/MFb97c8PZiS/DKdFIRQqTtGiRaIBKDEHy6yUVN4BA17mWZxZ1MRoxBpPj+rPjeqYzEu0lyQpZ7gH1/OxZjImCJaiEKxljsXhatCCp91iwIBlUhhF0GbADbp6RKygKjDsCsmJwklyCaQMI4jC1AhegjqgLWpSS3U5SAMQ5jKiItIWo+px7EI6qIGhRDxGByNitISgg10OXFoAFEBVHJ+5feV6MOkSJdNwqa/xt4BE2HHYbMNR8LFqMOJJ0LRbHOYoxDrEXEoQohCDE6UEP0EF3F1UXNf/wPv4VQ8J//Z7/ir//5f82b8yv+09/8R3xsGY0WxNigMWA1QgwEbfMlmhZMfUL/XYxUjJEYu+9Z5PUkgbzzeRwWwCLDou4Azoc4xJ9x5iz5xgDkFb8QNd+m7wHquzR1viHc+/1+Vv5tr30/c476LdSfcoeqlb3bVKLxHEhFiJYuJMrVjabMj8/4+S9+xUef/JKr65YXL6+5vGq4XQUiY6wLrNctbefpmkj0XaJk1RNjRBCcdYhRJGdvab9l2E8REKvDgoZvy45ifG9ZYZ+cHs5j/oXeodLzEZuIK1zKFmMk+D1WWSySE07NGW5Pa6tK3gXJ4CyoEYyCiqACxiaaV3O2iQgho4EYmyhvSdmnmJCoYueI3uN9BxrTQsUZbM64VcAUSkm6rjRGJCpWIfq0ONF8vFEkZbMoqmBUMCJATMyMCGIKjFTpvEg6XzHGBNCZ1haRRHjs0/WSAFqww/kNXghBwAhiBDE2H7shBGjbSDUbsVkFJDa8ennD12cXfPDkMf/m3/7PeG/4D//X/4GPNRo8sQv4GEFDyvxFEkPRLx7ulyjec52r7F9DOixC7qPz/lXmvR8Wv/015IM/ZM6HOMSPAaCNMRSFwxUF1hratkVVCT78sO18S0a8n5nfqR3nm6oxZo+S0706Yc6KVJH+vz2qdrdtg+Io3BgTHZ0KSIXYMUeLx/zlP/sXlKMFf/ubz/nm5VuWW8/1skHVELotGnzKKI3DloJogGiBgMaAal+XtWBSTTwEHcBbjEAMRA332Ai5d37ukZpKBqIdOvfnzJh0nP1r9I8TBGP6JNICNgMUw3somAwQiaY1YhNlrAki+rqriEFF6GLEh0hUEmUtNmXEfS226KneAo3QNB1iC9Qkyr3pAooHG1Kt04CPkRAMSERiQFWxBowYgu+IbYsVobAFMoCx4kXwOZu2IqmSH1K2bfIZjF4geqKm96LPlNVkIkWSJiHsAaJKX4vXVBLJ2fpwToxgrFC4ArEWIy7X3IXtKlCNR9S18NVXr2kbpfhXE548ecY//5f/LRdXS77+/G+InUWDwxqDsQ5ig9yF2TsL1n5RfH8Nuve/byFg9M6CDciljThss9+Eqh7A+RCH+DFECJG2aRAjgxAl6rsZn/m+DOBbbirvy6J7kE6Zs2bwvUuJJ7LV7GjevZo4mjKero1YW+BsQRcsi5OHfPaLv+LRk+esNw2vL2+4utmwbSNd1q9ZY/G+pfMdMbQYPELKnFUjQsAacla2O4Y4HItmSjbeOU9GTK7Byz6/kIRC/c+iRO/zWqQXMSWKQDWJowbgoc8w099iMDhnM1XtE+4YyWI4IUaLSolgUTGJoo0QQ64dG0cQgxowtqSoRriyJCiELiC2oBqNsUWJR4liKIsKawtiVHwXaFuPsyWlgEjE+w4fOjSm+rshIERUIoTERMTgUVMiRUWIPrMeiQZGlAiILXHWYgANiSpP12EvDEvZtIhgcoat6QzdWSSq9OmlEBWsNaleTaq9i5gsLiQzC4amDYhRjDP5MxAwpkS9Raxhuw1cXC75ze++YjI/4ld//S95e3HN8vKC9TU09RpVjxUlStq45sWWEXlHMnj/M6HvW9SJvF+v8C2fsZ6R6rUiB3A+xCF+BGGtTTe6EDF9xqH3M2T5g7b9bcC8T8elmue9x8QEjJGYX3v/Kyt91RBjohGtKSjKiucffcwvf/Ur6qblqxcv2Gxrrm9v0w3YFmybNaPCp7qvIYG/5kWJhgQYvXK4r+XqHvWcK52CQazFScr+xeTa+X1wju0dalsBtX32pMPxi2TBNBZsf55SJp1u1AaN+XgVBJcAQOxAlYs4xIwylStDJmxs2pa1DltWmFHFeDphcXTM7GjBeDIFYyiKEbP5UQZnIQQoy4rxeArAzc2K1+dvePXqdS4He8qcaIfg8aHGGnClxTlDiJ64rVnf3NCu16iL0NV4QhJPWQMaci0114RFEAuCJWpIC7gsrkLCru6a+WtDX2LPVWjRQTOR8mUhXc4x/+TQXAbo303tF2A+YFwCuaIc0XUBCZGimiBi+errF4ynI4z9jGcffcKz55/wxWZDW7c4a1HtiCErtkUTUIqkE/Q97NMf0vYUQhg6JBLbtRMnHsD5EIf4M4z7Qi3n3LBSN8bsxDh/pIhxX629o9T7zLnPHO/QfOzKsOiuVq3k1hg1qYNFLMErphBOTk/56Wc/4/j0lNdvLnn1+py3FxcsVyt8yNmWRjbbDeAxoliXjjt4HehR1UgUzS0zww7kLDUfg0k34P54Us1Th3rxcAPVRP/eaa8xcTj3eidzFozRO2WHBPwm3cDF4nO5wRqH5uNPWbhibIWaMlHUsS/ZJ5HQaDpjMV8wO16weP",
-        "sourceUrl": "https://vitalik.eth.limo/general/2025/11/07/galaxybrain.html",
-        "readwiseUrl": "https://read.readwise.io/read/01kasc4pne8zck7kwatefv1jxq",
-        "summary": "Vitalik warns that appeals to long-term benefits and inevitability are easy to misuse and dodge reality.  \nSuch arguments often justify risky or unethical actions by sounding noble while serving power or profit.  \nHe urges skepticism of grand consequentialist rationales because they have low resistance to self-serving bias.",
-        "whyRead": "Raakt je interesse in politieke filosofie, AI-ethiek en epistemologie: Buterin geeft een scherp, bruikbaar criterium om grootse rechtvaardigingen te toetsen op hun gevoeligheid voor rationalisatie. De voorbeelden verbinden abstract denken met macht, technologie en dagelijkse prikkels. Raakt daarnaast je interesse in sociale psychologie en interpersoonlijke dynamiek, teamdynamiek en samenwerking.",
-        "bestMoment": "kritisch",
-        "tags": [
-          "cognitive science",
-          "philosophy",
-          "political philosophy"
-        ],
-        "coreInterests": [
-          "filosofie",
-          "ideologie"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
         "id": "01kaen0f4sd6p0wsrv0fw7320f",
         "title": "🌲 The Best \"Gamified X\" App is a GAME",
         "author": null,
@@ -60360,99 +46695,9 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 99
+            "position": 93
           }
         ]
-      },
-      {
-        "position": null,
-        "id": "01kaecmp565yrjt89z6qhc3ydq",
-        "title": "Why Did Wealth Stop Building Beautiful Things?",
-        "author": null,
-        "siteName": "Substack",
-        "category": "email",
-        "language": null,
-        "readingTime": "9 mins",
-        "readingMinutes": 9,
-        "wordCount": 2152,
-        "publishedDate": "2025-11-19",
-        "savedDate": "2025-11-19T15:44:58.022000+00:00",
-        "imageUrl": null,
-        "sourceUrl": "mailto:reader-forwarded-email/63116ebfbe3c0fb723a943243b39425d",
-        "readwiseUrl": "https://read.readwise.io/read/01kaecmp565yrjt89z6qhc3ydq",
-        "summary": "Today’s rich rise and fade fast, leaving little beauty or legacy.  \nNew money maximizes money but lacks old virtues and cultural stewardship.  \nFamilies endure by teaching faith and duty, honoring family heroes, and passing illiquid assets like land, enterprises, and art that carry obligations.",
-        "whyRead": "Het essay over schoonheid en rijkdom raakt aan je interesse in cultuurgeschiedenis en de sociologie van kapitalisme en esthetiek.",
-        "bestMoment": "reflectief",
-        "tags": [
-          "arts & culture",
-          "economics",
-          "sociology & social structures"
-        ],
-        "coreInterests": [
-          "sociologie"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01kadvkbmp8yd44q125hyw9nrz",
-        "title": "The paradox is that when I accept myself just as I am, I change",
-        "author": null,
-        "siteName": "Substack",
-        "category": "email",
-        "language": null,
-        "readingTime": "9 mins",
-        "readingMinutes": 9,
-        "wordCount": 2333,
-        "publishedDate": "2025-11-19",
-        "savedDate": "2025-11-19T10:47:08.695000+00:00",
-        "imageUrl": null,
-        "sourceUrl": "mailto:reader-forwarded-email/e5a837612908b111711d0156551573f7",
-        "readwiseUrl": "https://read.readwise.io/read/01kadvkbmp8yd44q125hyw9nrz",
-        "summary": "The author sees two kinds of happiness: a sharp, showy high that breeds shame, and a soft, quiet joy that feels true. Anxiety once drove him to chase thrills and approval. Loving Johanna helped him accept himself, leave performative life, and move toward what matters.",
-        "whyRead": "Een paradox uit de humanistische psychologie die direct raakt aan stoïcisme en boeddhisme — zelfacceptatie als voorwaarde voor verandering.",
-        "bestMoment": "reflectief",
-        "tags": [
-          "personal growth & life philosophy",
-          "philosophy",
-          "writing & essays"
-        ],
-        "coreInterests": [
-          "filosofie",
-          "schrijven"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01kadgjv79tav4g56e89rykjte",
-        "title": "Een wereld waarmee we in contact staan, is een wereld vol magie",
-        "author": null,
-        "siteName": "De Correspondent",
-        "category": "article",
-        "language": null,
-        "readingTime": "14 mins",
-        "readingMinutes": 14,
-        "wordCount": 3545,
-        "publishedDate": "2025-11-19",
-        "savedDate": "2025-11-19T07:34:37.542000+00:00",
-        "imageUrl": "https://useruploads.cdn-decorrespondent.nl/image/J1sy45p4Rp-Lk6Jk2xoZvcm6sJk=/1590x1060/dc-useruploads-images/ba9717bcb82846619e7afc20e15a92c9.jpg",
-        "sourceUrl": "https://decorrespondent.nl/16518/een-wereld-waarmee-we-in-contact-staan-is-een-wereld-vol-magie/7f37c1c9-8448-020d-17ec-d429d24b6b91",
-        "readwiseUrl": "https://read.readwise.io/read/01kadgjv79tav4g56e89rykjte",
-        "summary": "We verlangen naar een wereld die menselijk en verbonden voelt, niet kil en los.  \nMagie is geen foutief denken maar een manier om verbanden en relaties met de wereld te zien.  \nEen hedendaagse magie moet wortelen in wetenschap en verantwoording om echt betekenis te hebben.",
-        "whyRead": "De Correspondent over magie als alternatieve epistemologie – verfrissend tegenwicht voor analytisch-reductionistisch denken.",
-        "bestMoment": "reflectief",
-        "tags": [
-          "personal growth & life philosophy",
-          "philosophy"
-        ],
-        "coreInterests": [
-          "filosofie"
-        ],
-        "alsoIn": [],
-        "memberships": []
       },
       {
         "position": null,
@@ -60540,38 +46785,6 @@ window.TOP_ARTICLES = {
       },
       {
         "position": null,
-        "id": "01k9c2jzjpkejt3bc7v3p3p3d0",
-        "title": "so you want to learn about socialism",
-        "author": null,
-        "siteName": "substack.com",
-        "category": "article",
-        "language": null,
-        "readingTime": "14 mins",
-        "readingMinutes": 14,
-        "wordCount": 3446,
-        "publishedDate": "2023-09-28",
-        "savedDate": "2025-11-06T07:55:05.685000+00:00",
-        "imageUrl": "https://substackcdn.com/image/fetch/$s_!Gu7R!,w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb1739aa9-fa00-4354-8614-933632c4b00b_1368x2000.jpeg",
-        "sourceUrl": "https://caitlynclark.substack.com/p/so-you-want-to-learn-about-socialism?utm_source=%2Finbox%2Fsaved&utm_medium=reader2",
-        "readwiseUrl": "https://read.readwise.io/read/01k9c2jzjpkejt3bc7v3p3p3d0",
-        "summary": "This is a beginner-friendly reading list to learn socialism and Marxist ideas.  \nIt recommends short primers, classic texts, histories, and books on race, gender, and organizing.  \nMost picks are accessible and meant to help organizers and newcomers understand capitalism and strategies for change.",
-        "whyRead": "Uitgebreide leesgids voor socialisme en Marxistische theorie, inclusief historische context en organisatiestrategie — nuttig als achtergrond bij politiek-economische analyses.",
-        "bestMoment": "analytisch",
-        "tags": [
-          "frankfurt school",
-          "history",
-          "political philosophy"
-        ],
-        "coreInterests": [
-          "filosofie",
-          "ideologie",
-          "geschiedenis"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
         "id": "01k8v9cz0ah2x4qddn265e4cnt",
         "title": "Everything Is Television",
         "author": null,
@@ -60607,7 +46820,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 84
+            "position": 85
           },
           {
             "familyId": "luchtig",
@@ -60658,7 +46871,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 83
+            "position": 84
           },
           {
             "familyId": "luchtig",
@@ -60751,95 +46964,6 @@ window.TOP_ARTICLES = {
       },
       {
         "position": null,
-        "id": "01k80nvw2z9d40qq24hveszqrw",
-        "title": "De hel van het gelijke",
-        "author": null,
-        "siteName": "De Groene Amsterdammer",
-        "category": "article",
-        "language": null,
-        "readingTime": "14 mins",
-        "readingMinutes": 14,
-        "wordCount": 3710,
-        "publishedDate": "2024-06-11",
-        "savedDate": "2025-10-20T11:25:24.958000+00:00",
-        "imageUrl": "https://www.groene.nl/uploads/image/file/000/041/588/small_crop-83c871e3-8505-45b1-beba-57f0b87a13ae.jpg",
-        "sourceUrl": "https://www.groene.nl/artikel/de-hel-van-het-gelijke",
-        "readwiseUrl": "https://read.readwise.io/read/01k80nvw2z9d40qq24hveszqrw",
-        "summary": "Merken en massaproductie maken de wereld steeds eender en benauwend.  \nNaomi Klein waarschuwt dat bedrijven en platforms cultuur en verschil wegvagen, waardoor een globale claustrofobie ontstaat.  \nTegelijk toont ze dat verzet mogelijk is via directe, vrije acties en collectieve creativiteit.",
-        "whyRead": "De Groene Amsterdammer over de hel van het identieke – consumentisme, No Logo en Fight Club als lens.",
-        "bestMoment": "kritisch",
-        "tags": [
-          "arts & culture",
-          "sociology & social structures"
-        ],
-        "coreInterests": [
-          "sociologie"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01k7xkgqh2xgm5ye46nrazjm5c",
-        "title": "How I'm Using Chat-GPT as my Personal Oxford Book Tutor",
-        "author": null,
-        "siteName": "Substack",
-        "category": "article",
-        "language": null,
-        "readingTime": "1 min",
-        "readingMinutes": 1,
-        "wordCount": 65,
-        "publishedDate": null,
-        "savedDate": "2025-10-19T06:46:39.395000+00:00",
-        "imageUrl": "https://substackcdn.com/image/fetch/$s_!96Ec!,w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F0dbeb76a-6bbc-4910-9bf8-c0dc28717e00_1248x502.png",
-        "sourceUrl": "https://substack.com/@samuelrinko/p-164763563",
-        "readwiseUrl": "https://read.readwise.io/read/01k7xkgqh2xgm5ye46nrazjm5c",
-        "summary": "The author uses ChatGPT as a personal tutor to better understand classic books. They worry they might not grasp or retain what they read like university students do. ChatGPT helps them clarify ideas and feel more confident about their reading.",
-        "whyRead": "ChatGPT als persoonlijke Oxford-tutor voor klassieke boeken – concrete methode voor dieper lezen. De tekst is daarnaast relevant voor organisatiegedrag en cultuur.",
-        "bestMoment": "leergierig",
-        "tags": [
-          "learning & meta-learning",
-          "technology",
-          "writing & essays"
-        ],
-        "coreInterests": [
-          "schrijven"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01k7xkcp63y5bjsxg3fykwtwg0",
-        "title": "How to Create Your Own University Course to Teach Yourself Almost Anything",
-        "author": null,
-        "siteName": "substack.com",
-        "category": "article",
-        "language": null,
-        "readingTime": "12 mins",
-        "readingMinutes": 12,
-        "wordCount": 3081,
-        "publishedDate": "2025-07-22",
-        "savedDate": "2026-03-31T07:24:54.998000+00:00",
-        "imageUrl": "https://substackcdn.com/image/fetch/$s_!KdAW!,w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ffd317529-5462-461e-a8c9-39a9216fd0bb_4000x3000.jpeg",
-        "sourceUrl": "https://parknotes.substack.com/p/how-to-create-your-own-university",
-        "readwiseUrl": "https://read.readwise.io/read/01k7xkcp63y5bjsxg3fykwtwg0",
-        "summary": "Plan your self-study like a university course with a clear topic, schedule, and syllabus.  \nSet weekly \"credit hours,\" pick lectures and readings, and assign short written tasks to reinforce learning.  \nBlock time in your calendar, use active recall and notes, and iterate courses as you grow.",
-        "whyRead": "Stap-voor-stap gids om je eigen universiteitscursus te maken – structuur voor zelfgestuurd leren. Raakt daarnaast je interesse in sociale psychologie en interpersoonlijke dynamiek, teamdynamiek en samenwerking.",
-        "bestMoment": "leergierig",
-        "tags": [
-          "philosophy of mind",
-          "popular science",
-          "stoicism"
-        ],
-        "coreInterests": [
-          "filosofie"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
         "id": "01k7xjhe96qxhs9bkr4qahjk09",
         "title": "How to Become as Well-Read as John Adams: 8 Tips From his Reading Life",
         "author": null,
@@ -60874,70 +46998,9 @@ window.TOP_ARTICLES = {
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 71
+            "position": 72
           }
         ]
-      },
-      {
-        "position": null,
-        "id": "01k7xjcrnfbky7qznt6cqefmav",
-        "title": "Dear Generalist, Don’t be Ashamed of Your Knowledge Lust (It’s a Superpower)",
-        "author": null,
-        "siteName": "Knowledge Lust",
-        "category": "article",
-        "language": null,
-        "readingTime": "4 mins",
-        "readingMinutes": 4,
-        "wordCount": 812,
-        "publishedDate": "2024-01-08",
-        "savedDate": "2025-10-19T06:27:00.912000+00:00",
-        "imageUrl": "https://knowledgelust.com/wp-content/uploads/2024/01/image-9.png",
-        "sourceUrl": "https://knowledgelust.com/dear-generalist-dont-be-ashamed-of-your-knowledge-lust-its-a-superpower/",
-        "readwiseUrl": "https://read.readwise.io/read/01k7xjcrnfbky7qznt6cqefmav",
-        "summary": "The author stopped envying specialists and accepted their own love of wide reading as a stable trait.  \nThey argue that broad knowledge helps you find solutions, discover strengths, and succeed across fields.  \nYou can pair depth in one area with decent breadth in several others for the best results.",
-        "whyRead": "Manifest voor de generalist die schaamteloos van kennis houdt – relevant als je veel interesses hebt. De tekst is daarnaast relevant voor menselijke interactie en sociale psychologie, organisatiegedrag en cultuur.",
-        "bestMoment": "geïnspireerd",
-        "tags": [
-          "learning & meta-learning",
-          "organizational behavior & culture",
-          "writing & essays"
-        ],
-        "coreInterests": [
-          "schrijven",
-          "agile"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01k7tw6vrkda5hp5070ra2wqm6",
-        "title": "Five SFF Stories That Shed Light on Obscure History",
-        "author": null,
-        "siteName": "Reactor",
-        "category": "article",
-        "language": null,
-        "readingTime": "6 mins",
-        "readingMinutes": 6,
-        "wordCount": 1464,
-        "publishedDate": "2021-03-31",
-        "savedDate": "2025-10-18T05:20:49.940000+00:00",
-        "imageUrl": "https://reactormag.com/wp-content/uploads/2021/03/Obscure-History-in-SFF.png",
-        "sourceUrl": "https://reactormag.com/five-sff-stories-that-shed-light-on-obscure-history/",
-        "readwiseUrl": "https://read.readwise.io/read/01k7tw6vrkda5hp5070ra2wqm6",
-        "summary": "Speculative fiction often borrows from obscure or surprising bits of real history to deepen its worlds. Examples include gods as sacred stones, powerful harem-born women acting as kingmakers, and naming or guest-host customs drawn from ancient cultures. These echoes help readers learn about and empathize with past societies.",
-        "whyRead": "SFF als poort naar vergeten geschiedenis – vijf concrete aanbevelingen.",
-        "bestMoment": "ontspannen",
-        "tags": [
-          "fiction",
-          "history",
-          "learning & meta-learning"
-        ],
-        "coreInterests": [
-          "geschiedenis"
-        ],
-        "alsoIn": [],
-        "memberships": []
       },
       {
         "position": null,
@@ -60975,7 +47038,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 12
+            "position": 13
           },
           {
             "familyId": "adhd",
@@ -60983,38 +47046,6 @@ window.TOP_ARTICLES = {
             "position": 16
           }
         ]
-      },
-      {
-        "position": null,
-        "id": "01k7shpmfgw8jtf6wrbs6k64cg",
-        "title": "The explosion of choice",
-        "author": null,
-        "siteName": "Aeon",
-        "category": "article",
-        "language": null,
-        "readingTime": "13 mins",
-        "readingMinutes": 13,
-        "wordCount": 3363,
-        "publishedDate": "2025-10-16",
-        "savedDate": "2025-10-17T16:57:57.654000+00:00",
-        "imageUrl": "https://images.aeonmedia.co/images/1079eaa5-dd9b-4869-ae9f-229601a909df/essay-final-gettyimages-626732410.jpg?width=1200&quality=75&format=auto",
-        "sourceUrl": "https://aeon.co/essays/why-an-abundance-of-choice-is-not-the-same-as-freedom?utm_source=Aeon+Newsletter&utm_campaign=b4f9018bd8-EMAIL_CAMPAIGN_2025_10_17&utm_medium=email&utm_term=0_-19d630b572-838236001",
-        "readwiseUrl": "https://read.readwise.io/read/01k7shpmfgw8jtf6wrbs6k64cg",
-        "summary": "Choice has become central to modern life, seen as synonymous with freedom.  \nThis rise of personalized choice grew mainly in the 19th and 20th centuries and spread into love, work, and politics.  \nBut too many options can confuse, mask inequality, and sometimes undermine true freedom.",
-        "whyRead": "Over de explosie van keuze als kenmerk van modern leven – filosofisch en sociologisch.",
-        "bestMoment": "analytisch",
-        "tags": [
-          "philosophy",
-          "political philosophy",
-          "sociology & social structures"
-        ],
-        "coreInterests": [
-          "filosofie",
-          "ideologie",
-          "sociologie"
-        ],
-        "alsoIn": [],
-        "memberships": []
       },
       {
         "position": null,
@@ -61056,65 +47087,6 @@ window.TOP_ARTICLES = {
       },
       {
         "position": null,
-        "id": "01k7qbgpmxd9gskhw16jx5b8yk",
-        "title": "Popular education in Sweden: much more than you wanted to know",
-        "author": null,
-        "siteName": "bytebytego.com",
-        "category": "article",
-        "language": null,
-        "readingTime": "5 mins",
-        "readingMinutes": 5,
-        "wordCount": 1134,
-        "publishedDate": "2022-05-17",
-        "savedDate": "2025-10-16T20:31:23.295000+00:00",
-        "imageUrl": "https://substackcdn.com/image/fetch/$s_!Ecyl!,w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F7509e0da-7c87-4ff8-9733-a4a983c26d9b_990x780.jpeg",
-        "sourceUrl": "https://email.mg1.substack.com/c/eJxMkD2u2zAQhE8jdhaWlEjpFSzS-BrCarm2GfFH4E8U5_TBy0OCFFMNZubDEDZ-5vK2FwfKkYWzsChadsFWLgaMUit8CI7ow_bkxAUbuw3bfy5MUrwsL_SgeUFgA04hm2kBhwt9zMYRoBbeKlBagjRy0pNax2lcpQYi4seqzKI1jmr-jnTsepghPuVY-14b0jFSjsLX7VH4D4ltpbMI9tXaWYfp26Dug7pf1zW-OBV_HFhCrTmNP9-_BnU_P5XPHrDc2HXC5nO6-XSrFztOt9jpJc6-b5Rj7Mm398YJ98Dua-jse_Bfqc07O8lpllIU-xdvmKFJqGMKovbd5Yg-Wa6Ep0_PR8AWMDnR_n3cK5fPIgl6NQBGix9W_Q4AAP__xgCCfA",
-        "readwiseUrl": "https://read.readwise.io/read/01k7qbgpmxd9gskhw16jx5b8yk",
-        "summary": "The author grew up surrounded by Sweden’s vast network of self-organized learning centers and misses them. These folk education institutions (folkbildning) grew from 19th-century movements and folk high schools to teach practical skills, discussion, and personal development. They helped ordinary people gain the knowledge and confidence to shape modern democratic society.",
-        "whyRead": "Henrik Karlsson over het Zweedse volksonderwijs – een verrassend rijke traditie van informeel leren.",
-        "bestMoment": "leergierig",
-        "tags": [
-          "history",
-          "learning & meta-learning",
-          "writing & essays"
-        ],
-        "coreInterests": [
-          "geschiedenis",
-          "schrijven"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01k7qbgbanjkbvetnkfd47vkrz",
-        "title": "How I wrote \"Looking for Alice\"",
-        "author": null,
-        "siteName": "bytebytego.com",
-        "category": "article",
-        "language": null,
-        "readingTime": "3 mins",
-        "readingMinutes": 3,
-        "wordCount": 629,
-        "publishedDate": "2023-05-30",
-        "savedDate": "2025-10-16T20:31:11.702000+00:00",
-        "imageUrl": "https://substackcdn.com/image/fetch/$s_!DzZb!,w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1312c236-513c-41a1-897e-d0c3c01967dc_1450x1529.jpeg",
-        "sourceUrl": "https://email.mg1.substack.com/c/eJxM0M0OnSAUBOCnkZ2GH1HvgkU39zXM4XBQKoIBrL19-qZt2nQ9ycyXQWi05fIxD0XMJzFn-CxxtoyMmCc-SbnwF6MTQlw3SlSgkVuh_ZdyJdhuuFKo_UJoZzdbBHDklVcgxpfQnjsWjORSCy4mobSSy6CGRWiOiOQXOc1awyDHr4CH1d3Iz00M9ba1AR4D5pOFuvpCvyWmlZtYNHtrV-3Ul06-O_l-nmfYKZVwHFBirTkN3z8_Ovm-Ovne89OH_im5UR9zPkLaep9LDzEgseu2K-bzvFNon5US2Ejuz8p12xgQWshpDc4ooUYhWDF_bd3Im-B1SJHV27p8QkiGKsIV0uYjtAjJsfbv4LtS-VUkuF4mzifNvhn5MwAA__9vYoFf",
-        "readwiseUrl": "https://read.readwise.io/read/01k7qbgbanjkbvetnkfd47vkrz",
-        "summary": "Henrik Karlsson explains how his essay \"Looking for Alice\" began from a real conversation and a sudden urge to write. He describes the fast, messy drafting process and how resistance can signal a strong idea. He shares this case study to show the small, specific choices behind writing.",
-        "whyRead": "Henrik Karlsson legt uit hoe hij 'Looking for Alice' schreef – zeldzame inkijk in het creatieve proces.",
-        "bestMoment": "reflectief",
-        "tags": [
-          "arts & culture",
-          "learning & meta-learning",
-          "professional development"
-        ],
-        "coreInterests": [],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
         "id": "01k7qbg40qvbeqszm5nr2wpmyz",
         "title": "Dostoevsky as lover",
         "author": null,
@@ -61147,41 +47119,9 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 82
+            "position": 83
           }
         ]
-      },
-      {
-        "position": null,
-        "id": "01k7q03xx8pwem577zgy47b0zk",
-        "title": "Nederland is inderdaad niet kapot. Maar sluit je ogen niet voor onrecht",
-        "author": null,
-        "siteName": "De Correspondent",
-        "category": "article",
-        "language": null,
-        "readingTime": "10 mins",
-        "readingMinutes": 10,
-        "wordCount": 2549,
-        "publishedDate": "2025-10-16",
-        "savedDate": "2025-10-16T17:12:10.407000+00:00",
-        "imageUrl": "https://useruploads.cdn-decorrespondent.nl/image/m-nU12yTeJINs-yLhRS1KaiGpC0=/1590x894/dc-useruploads-images/da28503bb60b4f4ca459f83d7d776e04.png",
-        "sourceUrl": "https://decorrespondent.nl/16459/nederland-is-inderdaad-niet-kapot-maar-sluit-je-ogen-niet-voor-onrecht/b9482c86-2637-0837-2b99-48fa4feb1c90",
-        "readwiseUrl": "https://read.readwise.io/read/01k7q03xx8pwem577zgy47b0zk",
-        "summary": "Socioloog Duyvendak stelt dat Nederland het overall goed doet en dat veel verdeeldheid vooral door emoties wordt opgeblazen.  \nDe auteur waarschuwt dat cijfers ongelijkheid en onzekerheid verdoezelen: velen leven net boven de armoedegrens of voelen zich buitengesloten.  \nJe mag optimistisch zijn, maar sluit je ogen niet voor kwetsbaarheid en onrecht.",
-        "whyRead": "Kritische reactie op Duyvendak's essay over een niet-kapot Nederland – zonder de ongelijkheid te minimaliseren.",
-        "bestMoment": "kritisch",
-        "tags": [
-          "current affairs & politics",
-          "political philosophy",
-          "sociology & social structures"
-        ],
-        "coreInterests": [
-          "filosofie",
-          "ideologie",
-          "sociologie"
-        ],
-        "alsoIn": [],
-        "memberships": []
       },
       {
         "position": null,
@@ -61217,65 +47157,9 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 47
+            "position": 46
           }
         ]
-      },
-      {
-        "position": null,
-        "id": "01k7pn06k2e9msrrk7d0c39bn6",
-        "title": "Why & how I take reading notes by hand",
-        "author": null,
-        "siteName": "substack.com",
-        "category": "article",
-        "language": null,
-        "readingTime": "7 mins",
-        "readingMinutes": 7,
-        "wordCount": 1795,
-        "publishedDate": "2025-03-15",
-        "savedDate": "2025-10-16T13:57:53.890000+00:00",
-        "imageUrl": "https://substackcdn.com/image/fetch/$s_!yvpe!,w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1b6591af-c647-4c29-9559-61ad594c870b_750x684.png",
-        "sourceUrl": "https://samuelrinko.substack.com/p/why-and-how-i-take-reading-notes",
-        "readwiseUrl": "https://read.readwise.io/read/01k7pn06k2e9msrrk7d0c39bn6",
-        "summary": "Sam Rinko switched from digital copying to hand-written, subject notebooks for reading notes.  \nWriting by hand adds friction that forces selection, slows reflection, and improves retention.  \nThe simple analog system is easier to keep up with and yields higher-quality notes for learning and writing.",
-        "whyRead": "Over handgeschreven leesnotities als filter en verdiepingstool.",
-        "bestMoment": "reflectief",
-        "tags": [
-          "learning & meta-learning",
-          "personal growth & life philosophy",
-          "professional development"
-        ],
-        "coreInterests": [],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01k7pmvc94p82aaz3ptdqbyecc",
-        "title": "Everything that turned out well in my life followed the same design process",
-        "author": null,
-        "siteName": "henrikkarlsson.xyz",
-        "category": "article",
-        "language": null,
-        "readingTime": "12 mins",
-        "readingMinutes": 12,
-        "wordCount": 3039,
-        "publishedDate": "2024-08-05",
-        "savedDate": "2025-10-16T13:55:15.876000+00:00",
-        "imageUrl": "https://substackcdn.com/image/fetch/$s_!5fVw!,w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F56d57e3e-53db-454e-8d85-d351aac4a11d_791x992.jpeg",
-        "sourceUrl": "https://www.henrikkarlsson.xyz/p/unfolding",
-        "readwiseUrl": "https://read.readwise.io/read/01k7pmvc94p82aaz3ptdqbyecc",
-        "summary": "Henrik says the best things in life came from noticing what I enjoyed and doing more of it.  \nI call this \"unfolding\": make small moves, learn from the context, and update your plans.  \nLoose long-term goals, act fast, and let feedback shape your life.",
-        "whyRead": "Karlsson over het ontwerpproces achter alles wat goed uitpakte in zijn leven. Raakt daarnaast je interesse in sociale psychologie en interpersoonlijke dynamiek, teamdynamiek en samenwerking.",
-        "bestMoment": "reflectief",
-        "tags": [
-          "learning & meta-learning",
-          "personal growth & life philosophy",
-          "professional development"
-        ],
-        "coreInterests": [],
-        "alsoIn": [],
-        "memberships": []
       },
       {
         "position": null,
@@ -61311,7 +47195,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 81
+            "position": 82
           }
         ]
       },
@@ -61352,37 +47236,6 @@ window.TOP_ARTICLES = {
             "position": 41
           }
         ]
-      },
-      {
-        "position": null,
-        "id": "01k7j6j6mdje8x3v1jt8hqaba4",
-        "title": "The Mimetic Trap",
-        "author": null,
-        "siteName": "substack.com",
-        "category": "article",
-        "language": null,
-        "readingTime": "7 mins",
-        "readingMinutes": 7,
-        "wordCount": 1670,
-        "publishedDate": "2025-02-07",
-        "savedDate": "2025-10-14T20:28:37.389000+00:00",
-        "imageUrl": "https://substackcdn.com/image/fetch/$s_!-02v!,w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa5775fb4-892b-463c-91a5-e09a33f8da4f_1370x900.jpeg",
-        "sourceUrl": "https://onepercentrule.substack.com/p/the-mimetic-trap?r=1r0y5d&utm_medium=ios",
-        "readwiseUrl": "https://read.readwise.io/read/01k7j6j6mdje8x3v1jt8hqaba4",
-        "summary": "People copy what others want, so our desires are shaped by imitation. This mimetic urge can cause rivalry, social harms, and online contagion. But if we choose better role models, imitation can drive cooperation and positive change.",
-        "whyRead": "Over de mimetische val – we leren door imitatie, maar wie we imiteren bepaalt wie we worden.",
-        "bestMoment": "analytisch",
-        "tags": [
-          "personal growth & life philosophy",
-          "philosophy",
-          "sociology & social structures"
-        ],
-        "coreInterests": [
-          "filosofie",
-          "sociologie"
-        ],
-        "alsoIn": [],
-        "memberships": []
       },
       {
         "position": null,
@@ -61466,99 +47319,6 @@ window.TOP_ARTICLES = {
             "position": 40
           }
         ]
-      },
-      {
-        "position": null,
-        "id": "01k79jpktendqfmctt5zh9rrxy",
-        "title": "The Meaning of Secularism",
-        "author": null,
-        "siteName": "The Hedgehog Review",
-        "category": "article",
-        "language": null,
-        "readingTime": "19 mins",
-        "readingMinutes": 19,
-        "wordCount": 4984,
-        "publishedDate": null,
-        "savedDate": "2025-10-11T12:07:34.990000+00:00",
-        "imageUrl": "https://s3.amazonaws.com/hedgehogreview-prod/images/bc4e596c3f6026fbcde752a9ef74bf7e.1500.jpeg",
-        "sourceUrl": "https://hedgehogreview.com/issues/does-religious-pluralism-require-secularism/articles/the-meaning-of-secularism",
-        "readwiseUrl": "https://read.readwise.io/read/01k79jpktendqfmctt5zh9rrxy",
-        "summary": "Secularism in modern democracies requires neutrality and equality among different faiths and beliefs, ensuring no single view is favored by the state. It involves listening to all spiritual perspectives to define the society's identity and goals. As societies diversify, they must balance freedom of conscience with respect for all beliefs to maintain unity and equality.",
-        "whyRead": "Raakt je interesse in politieke filosofie, democratie en maatschappelijke pluraliteit. Charles Taylor maakt van secularisme geen antireligieus dogma, maar een bruikbaar kader om vrijheid, gelijkheid en inclusie in diverse democratieën tegen elkaar af te wegen. Raakt daarnaast je interesse in sociale psychologie en interpersoonlijke dynamiek.",
-        "bestMoment": "analytisch",
-        "tags": [
-          "philosophy",
-          "political philosophy",
-          "totalitarianism & fascism"
-        ],
-        "coreInterests": [
-          "filosofie",
-          "ideologie"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01k72qx64tdvkryenrbd5g81px",
-        "title": "The Dire State of Contemporary Western Philosophy",
-        "author": null,
-        "siteName": "Nathan Ormond",
-        "category": "article",
-        "language": null,
-        "readingTime": "6 mins",
-        "readingMinutes": 6,
-        "wordCount": 1329,
-        "publishedDate": "2025-09-24",
-        "savedDate": "2025-10-08T20:23:52.218000+00:00",
-        "imageUrl": "https://substackcdn.com/image/fetch/$s_!bLWT!,w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F7c06d55f-21cd-4376-91c7-40d6657a6023_1023x533.webp",
-        "sourceUrl": "https://nathanormond.substack.com/p/the-dire-state-of-contemporary-western?utm_source=%2Finbox%2Fsaved&utm_medium=reader2",
-        "readwiseUrl": "https://read.readwise.io/read/01k72qx64tdvkryenrbd5g81px",
-        "summary": "Nathan Ormond argues contemporary Western philosophy is broken by university and publishing incentives that reward style over substance. Philosophers often trade prestige, puzzles, and showmanship instead of solving real ethical, political, or communal problems. This system wastes talent and trains students to value status and spectacle over practical impact.",
-        "whyRead": "Diagnose van de staat van de hedendaagse westerse filosofie — wat ontbreekt en waarom.",
-        "bestMoment": "kritisch",
-        "tags": [
-          "frankfurt school",
-          "philosophy",
-          "tools & workflows"
-        ],
-        "coreInterests": [
-          "filosofie",
-          "pkm"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01k72qvbmwd9xp0k233cv5qgw2",
-        "title": "A blog post is a very long and complex search query to find fascinating people and make them route interesting stuff to your inbox",
-        "author": null,
-        "siteName": "henrikkarlsson.xyz",
-        "category": "article",
-        "language": null,
-        "readingTime": "13 mins",
-        "readingMinutes": 13,
-        "wordCount": 3340,
-        "publishedDate": "2022-10-05",
-        "savedDate": "2025-10-08T20:22:52.317000+00:00",
-        "imageUrl": "https://substackcdn.com/image/fetch/$s_!pqlO!,w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Ff0dbceaf-9fe3-4673-b229-bfb1b5cf8cad_800x588.jpeg",
-        "sourceUrl": "https://www.henrikkarlsson.xyz/p/search-query?lli=1&utm_source=%2Finbox%2Fsaved&utm_medium=reader2",
-        "readwiseUrl": "https://read.readwise.io/read/01k72qvbmwd9xp0k233cv5qgw2",
-        "summary": "The author says a blog post is a precise search query that finds like-minded people. Writing narrowly and vividly helps the internet route interesting people and ideas to you. This process builds small cultures and deep connections online.",
-        "whyRead": "Raakt je interesse in essay schrijven, PKM en leren: Karlsson laat zien hoe publiek en eigenzinnig schrijven een sociaal leer- en ideeënnetwerk kan bouwen. Vooral waardevol als tegenwicht tegen generiek bereikdenken.",
-        "bestMoment": "geïnspireerd",
-        "tags": [
-          "learning & meta-learning",
-          "tools & workflows",
-          "writing & essays"
-        ],
-        "coreInterests": [
-          "schrijven",
-          "pkm"
-        ],
-        "alsoIn": [],
-        "memberships": []
       },
       {
         "position": null,
@@ -61829,37 +47589,6 @@ window.TOP_ARTICLES = {
       },
       {
         "position": null,
-        "id": "01k4hz4tpj7wyg13z1mrad20g8",
-        "title": "Longread: Chantal Mouffe – Over het politieke",
-        "author": null,
-        "siteName": "deMens.nu",
-        "category": "article",
-        "language": null,
-        "readingTime": "19 mins",
-        "readingMinutes": 19,
-        "wordCount": 4794,
-        "publishedDate": "2021-01-18",
-        "savedDate": "2025-09-07T11:31:53.682000+00:00",
-        "imageUrl": "https://demens.nu/wp-content/uploads/2021/01/Longread-visual.png",
-        "sourceUrl": "https://demens.nu/2021/01/18/longread-chantal-mouffe/",
-        "readwiseUrl": "https://read.readwise.io/read/01k4hz4tpj7wyg13z1mrad20g8",
-        "summary": "Chantal Mouffe zegt dat politiek conflict onvermijdelijk is.  \nZe verwerpt consensusdenken en pleit voor agonisme: legitieme, gepassioneerde confrontatie binnen democratische instellingen.  \nWordt conflict weggedrukt, dan groeit onvrede en populisme, dus democratie moet tegenstanders erkennen binnen gedeelde waarden van vrijheid en gelijkheid.",
-        "whyRead": "Raakt je interesse in politieke filosofie en de spanning tussen pluralisme, populisme en democratische instituties. Mouffe biedt een scherp begrippenkader om consensuspolitiek te toetsen zonder conflict te romantiseren.",
-        "bestMoment": "analytisch",
-        "tags": [
-          "frankfurt school",
-          "political philosophy",
-          "totalitarianism & fascism"
-        ],
-        "coreInterests": [
-          "filosofie",
-          "ideologie"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
         "id": "01k4d2kxngyzjt0vzg9sav4hbn",
         "title": "Traumasporen in lichaam, brein en geest",
         "author": null,
@@ -61892,96 +47621,6 @@ window.TOP_ARTICLES = {
             "position": 59
           }
         ]
-      },
-      {
-        "position": null,
-        "id": "01k3wq67ezhh1dbemdkncqag85",
-        "title": "How to Manage Cognitive Load and Optimize Your Thinking",
-        "author": null,
-        "siteName": "Phil McKinney",
-        "category": "article",
-        "language": null,
-        "readingTime": "4 mins",
-        "readingMinutes": 4,
-        "wordCount": 906,
-        "publishedDate": "2023-10-21",
-        "savedDate": "2025-08-30T05:28:47.840000+00:00",
-        "imageUrl": "https://www.philmckinney.com/content/images/2023/10/cognitive-load-overload-AdobeStock_637076531.jpeg",
-        "sourceUrl": "https://www.philmckinney.com/how-to-manage-cognitive-load-and-optimize-your-thinking/",
-        "readwiseUrl": "https://read.readwise.io/read/01k3wq67ezhh1dbemdkncqag85",
-        "summary": "Cognitive load is the mental effort to process information. Too much load hurts learning and decision-making. You can reduce it by simplifying tasks, removing distractions, and using notes or lists to free up brain power.",
-        "whyRead": "Hoe je cognitieve belasting beheert en je denkvermogen optimaliseert — evidence-based strategieën. De tekst is daarnaast relevant voor menselijke interactie en sociale psychologie, organisatiegedrag en cultuur.",
-        "bestMoment": "leergierig",
-        "tags": [
-          "behavioral psychology & coaching",
-          "learning & meta-learning",
-          "tools & workflows"
-        ],
-        "coreInterests": [
-          "pkm"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01k3wpv85qh52sj9ffa8rrz1bm",
-        "title": "Chromatic Rebel #2: why is the West so color-minimalist?",
-        "author": null,
-        "siteName": "Pigments, Colors & Other Stories ",
-        "category": "article",
-        "language": null,
-        "readingTime": "7 mins",
-        "readingMinutes": 7,
-        "wordCount": 1647,
-        "publishedDate": "2025-05-26",
-        "savedDate": "2025-08-30T05:22:48.120000+00:00",
-        "imageUrl": "https://substackcdn.com/image/fetch/$s_!tNfU!,w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F42aad1b9-d483-43c3-93ee-ec3a2ba8f4f7_5804x3870.jpeg",
-        "sourceUrl": "https://mariacj.substack.com/p/chromatic-rebel-2-why-is-the-west?triedRedirect=true",
-        "readwiseUrl": "https://read.readwise.io/read/01k3wpv85qh52sj9ffa8rrz1bm",
-        "summary": "Europe had few natural pigments, so Western life stayed less colorful.  \nProtestantism, starting with Luther, rejected bright colors and favored black, white and gray.  \nIndustrialism, colonialism and trends like \"old money\" and \"clean girl\" cemented that minimalist palette as a sign of wealth and virtue.",
-        "whyRead": "Waarom het Westen zo kleurminimalistisch is geworden — een culturele en historische verkenning.",
-        "bestMoment": "analytisch",
-        "tags": [
-          "arts & culture",
-          "economics",
-          "philosophy"
-        ],
-        "coreInterests": [
-          "filosofie"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01k3wpn5ak9v4pmtc85h462cav",
-        "title": "On the pleasure of reading private notebooks",
-        "author": null,
-        "siteName": "henrikkarlsson.xyz",
-        "category": "article",
-        "language": null,
-        "readingTime": "7 mins",
-        "readingMinutes": 7,
-        "wordCount": 1714,
-        "publishedDate": "2025-05-28",
-        "savedDate": "2025-08-30T05:19:28.597000+00:00",
-        "imageUrl": "https://substackcdn.com/image/fetch/w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd4aadbe1-9b2c-4054-90e5-ba5e5394e77e_1000x714.jpeg",
-        "sourceUrl": "https://www.henrikkarlsson.xyz/p/private-notebooks",
-        "readwiseUrl": "https://read.readwise.io/read/01k3wpn5ak9v4pmtc85h462cav",
-        "summary": "Many of my favorite books are private notebooks that were never meant for publication, like Kafka's diary and Sei Shōnagon's Pillow Book. I enjoy reading these because the authors are less censored and reveal their genuine thoughts, making the writing feel more intimate and real. Private notes show the messy, creative process of thinking, which is often missing from polished published works.",
-        "whyRead": "Over het plezier van het lezen van privénotebooks — dagboeken, notitieboeken en het intieme denken.",
-        "bestMoment": "reflectief",
-        "tags": [
-          "arts & culture",
-          "learning & meta-learning",
-          "tools & workflows"
-        ],
-        "coreInterests": [
-          "pkm"
-        ],
-        "alsoIn": [],
-        "memberships": []
       },
       {
         "position": null,
@@ -62023,94 +47662,6 @@ window.TOP_ARTICLES = {
       },
       {
         "position": null,
-        "id": "01k2p37kkgn4hk8dn1qxb870qd",
-        "title": "How to Teach Textual Criticism To Fifth-Graders",
-        "author": null,
-        "siteName": "substack.com",
-        "category": "article",
-        "language": null,
-        "readingTime": "8 mins",
-        "readingMinutes": 8,
-        "wordCount": 2087,
-        "publishedDate": "2025-07-22",
-        "savedDate": "2025-08-15T05:28:53.106000+00:00",
-        "imageUrl": "https://substackcdn.com/image/fetch/$s_!OcBy!,w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ffa26ce33-0ab5-462b-a532-a7b0663b823e_505x437.png",
-        "sourceUrl": "https://nephewjonathan.substack.com/p/how-to-teach-textual-criticism-to",
-        "readwiseUrl": "https://read.readwise.io/read/01k2p37kkgn4hk8dn1qxb870qd",
-        "summary": "The author taught fifth-graders how to do textual criticism using copies of classical texts with intentional mistakes. Students compared different versions to learn how ancient writings were copied and changed over time. This hands-on method made learning fun and helped kids understand how we know what old authors really wrote.",
-        "whyRead": "Tekstkritiek bijbrengen aan groep 7 — over literatuuronderwijs en kritisch lezen voor kinderen.",
-        "bestMoment": "leergierig",
-        "tags": [
-          "arts & culture",
-          "learning & meta-learning",
-          "professional development"
-        ],
-        "coreInterests": [],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01k0xp9p7rpt312pr1smwsxsec",
-        "title": "Tales from the Island of Illness",
-        "author": null,
-        "siteName": "More To That",
-        "category": "article",
-        "language": null,
-        "readingTime": "10 mins",
-        "readingMinutes": 10,
-        "wordCount": 2464,
-        "publishedDate": "2025-07-22",
-        "savedDate": "2025-07-24T07:45:21.656000+00:00",
-        "imageUrl": "https://moretothat.com/wp-content/uploads/2025/07/Z01-Featured-Image-FB-1.png",
-        "sourceUrl": "https://moretothat.com/tales-from-the-island-of-illness/",
-        "readwiseUrl": "https://read.readwise.io/read/01k0xp9p7rpt312pr1smwsxsec",
-        "summary": "Being sick can feel very lonely, but many people share these struggles quietly. The author learned to cope with illness by focusing on daily routines like meditation and exercise. Building mental strength helps find peace despite ongoing physical symptoms.",
-        "whyRead": "More to That over ziek zijn als een eiland — over isolatie, kwetsbaarheid en herstel. De tekst is daarnaast relevant voor menselijke interactie en sociale psychologie.",
-        "bestMoment": "reflectief",
-        "tags": [
-          "health & wellness",
-          "personal growth & life philosophy",
-          "social psychology & interpersonal dynamics"
-        ],
-        "coreInterests": [
-          "sociologie"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01k0p426mr9nsc4vhyvbvq1wex",
-        "title": "80% of Your Culture is Your Founder",
-        "author": null,
-        "siteName": "firstround.com",
-        "category": "article",
-        "language": null,
-        "readingTime": "10 mins",
-        "readingMinutes": 10,
-        "wordCount": 2451,
-        "publishedDate": "2015-01-29",
-        "savedDate": "2025-07-21T09:12:00.920000+00:00",
-        "imageUrl": "https://review.firstround.com/content/images/2056/firstround-2fsrkhqvdktydfgkdlkivw_facebook_headquarters_cong.jpg",
-        "sourceUrl": "https://review.firstround.com/80-of-your-culture-is-your-founder/",
-        "readwiseUrl": "https://read.readwise.io/read/01k0p426mr9nsc4vhyvbvq1wex",
-        "summary": "A company's culture is largely shaped by its founders, with 80% of it reflecting their values and characteristics. Founders should clearly define their culture and story early on to guide hiring and decision-making. This ongoing conversation about culture is crucial for building a strong and effective team as the company grows.",
-        "whyRead": "80% van de bedrijfscultuur is de oprichter — over hoe founders de organisatie-DNA bepalen. De tekst is daarnaast relevant voor teamdynamiek en samenwerking, organisatiegedrag en cultuur.",
-        "bestMoment": "analytisch",
-        "tags": [
-          "business & startups",
-          "organizational behavior & culture",
-          "team dynamics & collaboration"
-        ],
-        "coreInterests": [
-          "agile"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
         "id": "01k0cqxq0sc86vbdcxk5zm8y75",
         "title": "E132 Attention Management with Maura Thomas",
         "author": null,
@@ -62144,37 +47695,6 @@ window.TOP_ARTICLES = {
             "position": 19
           }
         ]
-      },
-      {
-        "position": null,
-        "id": "01k0787yxz912x1kgykz88ngts",
-        "title": "Tijd voor solidariteit",
-        "author": null,
-        "siteName": "Wetenschappelijk Bureau Groenlinks",
-        "category": "article",
-        "language": null,
-        "readingTime": "22 mins",
-        "readingMinutes": 22,
-        "wordCount": 5772,
-        "publishedDate": "2025-06-10",
-        "savedDate": "2025-07-15T14:36:27.455000+00:00",
-        "imageUrl": "https://www.wetenschappelijkbureaugroenlinks.nl/sites/wetenschappelijkbureau/files/styles/instagram/public/2025-06/Tijd%20voor%20solidariteit%20beginselprogramma.jpg?h=8f74817f&itok=c-ESuTOV",
-        "sourceUrl": "https://www.wetenschappelijkbureaugroenlinks.nl/artikelen/tijd-voor-solidariteit",
-        "readwiseUrl": "https://read.readwise.io/read/01k0787yxz912x1kgykz88ngts",
-        "summary": "The text calls for solidarity to build a fair and equal society where everyone can be themselves. It emphasizes the need for public services like healthcare and education to be accessible to all without profit motives. Together, people must unite to protect democracy, workers' rights, and the environment for a better future.",
-        "whyRead": "Beginselprogramma van GroenLinks-PvdA over solidariteit als politiek fundament — relevant voor je interesse in linkse ideologie en sociaaldemocratisch denken in Nederland.",
-        "bestMoment": "kritisch",
-        "tags": [
-          "current affairs & politics",
-          "learning & meta-learning",
-          "political philosophy"
-        ],
-        "coreInterests": [
-          "filosofie",
-          "ideologie"
-        ],
-        "alsoIn": [],
-        "memberships": []
       },
       {
         "position": null,
@@ -62212,66 +47732,6 @@ window.TOP_ARTICLES = {
             "position": 48
           }
         ]
-      },
-      {
-        "position": null,
-        "id": "01k013nd6d3w9f62s4tvddfpf6",
-        "title": "Saving Investors from Themselves",
-        "author": null,
-        "siteName": "Jason Zweig",
-        "category": "article",
-        "language": null,
-        "readingTime": "7 mins",
-        "readingMinutes": 7,
-        "wordCount": 1788,
-        "publishedDate": "2014-11-14",
-        "savedDate": "2025-07-13T05:20:58.574000+00:00",
-        "imageUrl": "https://i0.wp.com/jasonzweig.com/wp-content/uploads/2014/11/saving-sarsat.jpg?fit=960%2C360&ssl=1",
-        "sourceUrl": "https://jasonzweig.com/saving-investors-from-themselves-2/",
-        "readwiseUrl": "https://read.readwise.io/read/01k013nd6d3w9f62s4tvddfpf6",
-        "summary": "The author aims to save investors from making harmful decisions in a constantly changing market by providing consistent advice. He emphasizes the importance of resisting the temptation to follow trends and instead focusing on long-term strategies. Despite facing criticism and challenges, the author remains dedicated to helping readers navigate the complexities of investing.",
-        "whyRead": "Over hoe beleggers zichzelf saboteren — en hoe adviseurs hen kunnen beschermen. De tekst is daarnaast relevant voor menselijke interactie en sociale psychologie.",
-        "bestMoment": "analytisch",
-        "tags": [
-          "behavioral psychology & coaching",
-          "economics",
-          "writing & essays"
-        ],
-        "coreInterests": [
-          "schrijven"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01jzwsnev6hb25y81jxkyzf7vg",
-        "title": "Wankernomics’ Post",
-        "author": null,
-        "siteName": "linkedin.com",
-        "category": "article",
-        "language": null,
-        "readingTime": "1 min",
-        "readingMinutes": 1,
-        "wordCount": 51,
-        "publishedDate": null,
-        "savedDate": "2025-07-11T13:09:16.775000+00:00",
-        "imageUrl": "https://dms.licdn.com/playlist/vid/v2/D5605AQGh99TXO-SVzg/thumbnail-with-play-button-overlay-high/B56ZfjsTpfHEEE-/0/1751871836281?e=2147483647&v=beta&t=X1NqI63Jx0rJYriq7DRfXJlsN-AtGujTQHYV7oyKRis",
-        "sourceUrl": "https://www.linkedin.com/posts/wankernomics_as-children-we-all-have-dreams-of-what-we-activity-7347883115698147328-unAR/?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAACUICMBhiONxd9i8NWQIcjyxnlnhAUhoNI",
-        "readwiseUrl": "https://read.readwise.io/read/01jzwsnev6hb25y81jxkyzf7vg",
-        "summary": "Charles dreamed of helping big companies save money. He works at Wankernomics Consulting Solutions. There, he makes his dream come true.",
-        "whyRead": "Wankernomics over de consultancy-industrie — een satirische maar rake analyse. De tekst is daarnaast relevant voor organisatiegedrag en cultuur.",
-        "bestMoment": "ontspannen",
-        "tags": [
-          "business & startups",
-          "economics",
-          "sociology & social structures"
-        ],
-        "coreInterests": [
-          "sociologie"
-        ],
-        "alsoIn": [],
-        "memberships": []
       },
       {
         "position": null,
@@ -62358,67 +47818,6 @@ window.TOP_ARTICLES = {
       },
       {
         "position": null,
-        "id": "01jkh2yf7hahdnt87t68w0f1f5",
-        "title": "On shortcuts and longcuts",
-        "author": null,
-        "siteName": "henrikkarlsson.xyz",
-        "category": "article",
-        "language": null,
-        "readingTime": "5 mins",
-        "readingMinutes": 5,
-        "wordCount": 1134,
-        "publishedDate": "2024-05-07",
-        "savedDate": "2025-02-07T20:52:13.766000+00:00",
-        "imageUrl": "https://substackcdn.com/image/fetch/w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F4d208cc5-4f81-46ea-980a-3212b7bde5e5_1024x939.png",
-        "sourceUrl": "https://www.henrikkarlsson.xyz/p/on-shortcuts-and-longcuts?r=1r0y5d&utm_medium=ios&triedRedirect=true",
-        "readwiseUrl": "https://read.readwise.io/read/01jkh2yf7hahdnt87t68w0f1f5",
-        "summary": "The author discusses the idea of creating \"longcuts\" in design and writing to encourage exploration and deeper experiences, rather than simply paving shortcuts for convenience. By making paths that lead to overlooked areas, people can discover beauty and engage in meaningful activities. This approach can transform how individuals perceive their relationships and surroundings, fostering a richer connection to the world.",
-        "whyRead": "Raakt essay schrijven, leren en levensfilosofie. Karlsson draait de gebruikelijke efficiëntielogica om: waardevol werk leidt je niet sneller naar een bekend doel, maar maakt een omweg begaanbaar waar je anders nooit zou komen.",
-        "bestMoment": "geïnspireerd",
-        "tags": [
-          "learning & meta-learning",
-          "personal growth & life philosophy",
-          "writing & essays"
-        ],
-        "coreInterests": [
-          "schrijven"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01jkh2wm4v4j610egp7kxf4m8k",
-        "title": "Rationality is an underrated way to be authentic",
-        "author": null,
-        "siteName": "henrikkarlsson.xyz",
-        "category": "article",
-        "language": null,
-        "readingTime": "16 mins",
-        "readingMinutes": 16,
-        "wordCount": 4128,
-        "publishedDate": "2024-11-27",
-        "savedDate": "2025-02-07T20:51:13.271000+00:00",
-        "imageUrl": "https://substackcdn.com/image/fetch/w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd313be25-d2c2-44a4-8b7f-dabaa8733c9e_1280x1088.jpeg",
-        "sourceUrl": "https://www.henrikkarlsson.xyz/p/autenticity?r=1r0y5d&utm_medium=ios&triedRedirect=true",
-        "readwiseUrl": "https://read.readwise.io/read/01jkh2wm4v4j610egp7kxf4m8k",
-        "summary": "Rationality can help us understand our emotions and intuitions better, revealing the contradictions within them. Writing down our thoughts allows us to reflect on our beliefs and align them with our experiences, leading to greater authenticity. By engaging in this process, we can create a more meaningful connection between our inner values and how we live our lives.",
-        "whyRead": "Raakt filosofie, persoonlijke levensfilosofie en PKM rechtstreeks. Karlsson verbindt Mill, Rawls en antieke zelfschrijftechnieken met een praktisch antwoord op authenticiteit: gevoelens serieus nemen én ze over tijd toetsen, herzien en integreren.",
-        "bestMoment": "analytisch",
-        "tags": [
-          "philosophy",
-          "stoicism",
-          "tools & workflows"
-        ],
-        "coreInterests": [
-          "filosofie",
-          "pkm"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
         "id": "01jkh2w2capy38f589kqkvyt4s",
         "title": "A funny thing about curiosity",
         "author": null,
@@ -62452,7 +47851,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 67
+            "position": 68
           }
         ]
       },
@@ -62490,39 +47889,9 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 80
+            "position": 81
           }
         ]
-      },
-      {
-        "position": null,
-        "id": "01jkgy1x7yacy66ys284ddq8yw",
-        "title": "Why do most popular science books suck?",
-        "author": null,
-        "siteName": "theintrinsicperspective.com",
-        "category": "article",
-        "language": null,
-        "readingTime": "7 mins",
-        "readingMinutes": 7,
-        "wordCount": 1818,
-        "publishedDate": "2021-09-22",
-        "savedDate": "2025-02-07T19:26:43.967000+00:00",
-        "imageUrl": "https://substackcdn.com/image/fetch/w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fc302a864-c554-42d2-b720-eac132f97fa1_642x583.png",
-        "sourceUrl": "https://www.theintrinsicperspective.com/p/why-do-most-popular-science-books",
-        "readwiseUrl": "https://read.readwise.io/read/01jkgy1x7yacy66ys284ddq8yw",
-        "summary": "Most popular science books are often unoriginal and overhyped, lacking fresh ideas or true excitement. The author argues that the best nonfiction books tend to be written by amateurs who explore ideas outside traditional academic boundaries. Embracing a playful and interdisciplinary approach can lead to more engaging and meaningful science writing.",
-        "whyRead": "Waarom de meeste populairwetenschappelijke boeken tegenvallen — een scherpe analyse.",
-        "bestMoment": "kritisch",
-        "tags": [
-          "arts & culture",
-          "learning & meta-learning",
-          "writing & essays"
-        ],
-        "coreInterests": [
-          "schrijven"
-        ],
-        "alsoIn": [],
-        "memberships": []
       },
       {
         "position": null,
@@ -62704,7 +48073,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 70
+            "position": 71
           }
         ]
       },
@@ -62820,37 +48189,6 @@ window.TOP_ARTICLES = {
       },
       {
         "position": null,
-        "id": "01j60ew3kgknk776nphjxvz9ph",
-        "title": "Envy: the Vestige of a Miserable World",
-        "author": null,
-        "siteName": "fromthenew.world",
-        "category": "article",
-        "language": null,
-        "readingTime": "4 mins",
-        "readingMinutes": 4,
-        "wordCount": 1000,
-        "publishedDate": null,
-        "savedDate": "2024-08-23T20:29:30.609000+00:00",
-        "imageUrl": "https://substackcdn.com/image/fetch/w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F86417932-853a-47df-b5c6-ec2f990371de_663x1000.jpeg",
-        "sourceUrl": "https://www.fromthenew.world/p/the-morality-of-envy-is-a-remnant",
-        "readwiseUrl": "https://read.readwise.io/read/01j60ew3kgknk776nphjxvz9ph",
-        "summary": "The book \"Hierarchy in the Forest\" by Christopher Boehm explores the evolution of egalitarianism in human societies and contrasts it with hierarchical structures seen in chimps. Boehm argues that true egalitarianism involves a unique form of hierarchy based on anti-hierarchical sentiments. The book also delves into the concept of humiliation rituals in both ancient and modern societies, shedding light on the darker aspects of enforced equality.",
-        "whyRead": "Raakt je interesse in filosofie en sociologie — een provocatieve recensie van Christopher Boehm's 'Hierarchy in the Forest' over de evolutie van egalitarisme.",
-        "bestMoment": "analytisch",
-        "tags": [
-          "arts & culture",
-          "philosophy",
-          "sociology & social structures"
-        ],
-        "coreInterests": [
-          "filosofie",
-          "sociologie"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
         "id": "01j5m80ektv0bcx45xmy2a5kdy",
         "title": "Crime and Punishment",
         "author": null,
@@ -62886,64 +48224,6 @@ window.TOP_ARTICLES = {
             "position": 45
           }
         ]
-      },
-      {
-        "position": null,
-        "id": "01j5b8c9ze5tvy3xr8axp67j8v",
-        "title": "🌲 Prompt engineering gave me empathy for my bosses",
-        "author": null,
-        "siteName": "Obsidian Iceberg",
-        "category": "article",
-        "language": null,
-        "readingTime": "8 mins",
-        "readingMinutes": 8,
-        "wordCount": 1980,
-        "publishedDate": null,
-        "savedDate": "2024-08-15T14:51:58.319000+00:00",
-        "imageUrl": "https://substackcdn.com/image/fetch/w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F001c216a-1d58-4012-be52-2d2093793ea1_2688x1792.png",
-        "sourceUrl": "https://www.eleanorkonik.com/p/prompt-engineering-gave-me-empathy",
-        "readwiseUrl": "https://read.readwise.io/read/01j5b8c9ze5tvy3xr8axp67j8v",
-        "summary": "Prompt engineering helped the author improve communication with bosses by focusing on concise and impactful messaging. By understanding and addressing feedback, the author enhanced their conversational patterns and empathy towards others. Utilizing large language models for communication refinement highlighted the importance of clear, direct communication to convey key information effectively.",
-        "whyRead": "Raakt je interesse in PKM, AI en schrijven — Eleanor Konik (kwaliteitscontrole bij Readwise) ontdekt hoe prompt engineering haar inzicht geeft in hoe managers omgaan met communicatiepatronen. Raakt daarnaast je interesse in sociale psychologie en interpersoonlijke dynamiek, teamdynamiek en samenwerking.",
-        "bestMoment": "reflectief",
-        "tags": [
-          "learning & meta-learning",
-          "social psychology & interpersonal dynamics",
-          "technology"
-        ],
-        "coreInterests": [
-          "sociologie"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01j5b8562r7tgbzdtp838byce2",
-        "title": "📚 Thinking rigorously, with tools, lists, & agency",
-        "author": null,
-        "siteName": "Obsidian Iceberg",
-        "category": "article",
-        "language": null,
-        "readingTime": "3 mins",
-        "readingMinutes": 3,
-        "wordCount": 694,
-        "publishedDate": null,
-        "savedDate": "2024-08-15T14:48:04.953000+00:00",
-        "imageUrl": "https://substackcdn.com/image/fetch/w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F266e4f66-6529-48f1-b590-4a4ce06a8381_1344x896.png",
-        "sourceUrl": "https://www.eleanorkonik.com/p/thinking-rigorously-with-tools-lists",
-        "readwiseUrl": "https://read.readwise.io/read/01j5b8562r7tgbzdtp838byce2",
-        "summary": "The text discusses the author's recent readings on problem-solving, AI tools, and centaurs. It also touches on the importance of rigorous thinking and the author's reflections on changing careers. Lastly, it mentions recommendations for useful tools and the author's interest in discovering more insightful readings.",
-        "whyRead": "Raakt je interesse in PKM en leren — Eleanor Konik's reading roundup met micro-reviews over kennisuitbesteding, rigoreus denken, AI-tools en — verrassend hoogtepunt — wat centauren ons leren over systems thinking.",
-        "bestMoment": "ontspannen",
-        "tags": [
-          "learning & meta-learning",
-          "software development",
-          "technology"
-        ],
-        "coreInterests": [],
-        "alsoIn": [],
-        "memberships": []
       },
       {
         "position": null,
@@ -63100,7 +48380,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 79
+            "position": 80
           }
         ]
       },
@@ -64650,37 +49930,6 @@ window.TOP_ARTICLES = {
             "position": 14
           }
         ]
-      },
-      {
-        "position": null,
-        "id": "01hz9sx57zhs6famn519gxxtne",
-        "title": "📚 Advice from Parenting Books, for Everyone",
-        "author": null,
-        "siteName": "Obsidian Iceberg",
-        "category": "article",
-        "language": null,
-        "readingTime": "10 mins",
-        "readingMinutes": 10,
-        "wordCount": 2639,
-        "publishedDate": null,
-        "savedDate": "2024-06-01T11:45:36.511000+00:00",
-        "imageUrl": "https://substackcdn.com/image/fetch/w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff4b0de25-a305-4c62-8f39-7202e9d580ee_1344x896.png",
-        "sourceUrl": "https://www.eleanorkonik.com/p/advice-from-parenting-books-for-everyone?utm_source=post-email-title&publication_id=1974188&post_id=144568965&utm_campaign=email-post-title&isFreemail=true&r=1r0y5d&triedRedirect=true&utm_medium=email",
-        "readwiseUrl": "https://read.readwise.io/read/01hz9sx57zhs6famn519gxxtne",
-        "summary": "Parenting books offer advice applicable to adults too. The key is to help children develop essential skills and independence. Remember, every child is different.",
-        "whyRead": "Raakt je interesse in ouderschap en leren — bevat inzichten uit opvoedboeken die net zo goed werken voor volwassenen, teams en managers als voor kinderen. Raakt daarnaast je interesse in sociale psychologie en interpersoonlijke dynamiek, teamdynamiek en samenwerking.",
-        "bestMoment": "reflectief",
-        "tags": [
-          "learning & meta-learning",
-          "parenting & care",
-          "team dynamics & collaboration"
-        ],
-        "coreInterests": [
-          "zorgouderschap",
-          "agile"
-        ],
-        "alsoIn": [],
-        "memberships": []
       }
     ]
   },
@@ -64705,18 +49954,18 @@ window.TOP_ARTICLES = {
           "position": 3
         },
         {
+          "id": "01m0zs70wqrf8nvkmrwzg9843y",
+          "title": "Matt Haig: How to Write a Book Millions of People Read",
+          "position": 4
+        },
+        {
           "id": "01m196wv3n2x3k1nnxbynjm8zt",
           "title": "Critical Thinking: What is it to be a Critical Thinker?",
-          "position": 4
+          "position": 5
         },
         {
           "id": "01m196wzm7941m99hfab08jcs8",
           "title": "Arguments: Why Do You Believe What You Believe?",
-          "position": 5
-        },
-        {
-          "id": "01m0zs70wqrf8nvkmrwzg9843y",
-          "title": "Matt Haig: How to Write a Book Millions of People Read",
           "position": 6
         },
         {
@@ -64770,13 +50019,13 @@ window.TOP_ARTICLES = {
           "position": 16
         },
         {
-          "id": "01m0kzws6tp6edn1k4t1dmr1rq",
-          "title": "Scrum 101 Series - Episode 2 - Product Owner",
+          "id": "01ks2b50wxejwag42nf6rnrq6d",
+          "title": "Love is to be invested in someone’s continual expansion",
           "position": 17
         },
         {
-          "id": "01ks2b50wxejwag42nf6rnrq6d",
-          "title": "Love is to be invested in someone’s continual expansion",
+          "id": "01m0kzws6tp6edn1k4t1dmr1rq",
+          "title": "Scrum 101 Series - Episode 2 - Product Owner",
           "position": 18
         },
         {
@@ -64836,18 +50085,18 @@ window.TOP_ARTICLES = {
           "position": 3
         },
         {
+          "id": "01m0zs70wqrf8nvkmrwzg9843y",
+          "title": "Matt Haig: How to Write a Book Millions of People Read",
+          "position": 4
+        },
+        {
           "id": "01m196wv3n2x3k1nnxbynjm8zt",
           "title": "Critical Thinking: What is it to be a Critical Thinker?",
-          "position": 4
+          "position": 5
         },
         {
           "id": "01m196wzm7941m99hfab08jcs8",
           "title": "Arguments: Why Do You Believe What You Believe?",
-          "position": 5
-        },
-        {
-          "id": "01m0zs70wqrf8nvkmrwzg9843y",
-          "title": "Matt Haig: How to Write a Book Millions of People Read",
           "position": 6
         },
         {
@@ -65047,33 +50296,33 @@ window.TOP_ARTICLES = {
           "position": 19
         },
         {
+          "id": "01m33ekq0kc2ydj3xz350v3bp7",
+          "title": "Dokkōdō: The Path Of Aloneness",
+          "position": 20
+        },
+        {
           "id": "01m0nepq34v9hbtcm1z1rcjn1e",
           "title": "The Madness of Yankee Doodle",
-          "position": 20
+          "position": 21
         },
         {
           "id": "01m32r27wax3cqxxckhtjcesg7",
           "title": "A Kashmiri Novelist on a State Under Siege",
-          "position": 21
+          "position": 22
         },
         {
           "id": "01m059vn29v5bjn4nbhe0efecg",
           "title": "The Proletarian Writer",
-          "position": 22
-        },
-        {
-          "id": "01m32mb4y46t23vqpb60wcst9j",
-          "title": "Amartya Sen’s Hopes and Fears for Indian Democracy",
           "position": 23
-        },
-        {
-          "id": "01m32r276xx0r2b8mrskx1skdv",
-          "title": "An Indian Political Theorist on the Triumph of Narendra Modi’s Hindu Nationalism",
-          "position": 24
         },
         {
           "id": "01m2b5ka39qktpcgxpsjpx9wse",
           "title": "The Illusion of Justice: Human Rights Abuses in US Terrorism Prosecutions",
+          "position": 24
+        },
+        {
+          "id": "01m2jgk9q66bvhk6tyfvgqwbpg",
+          "title": "Finland's Language War Nationalists Seek End to Mandatory Swedish Lessons",
           "position": 25
         }
       ]
