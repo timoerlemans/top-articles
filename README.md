@@ -84,6 +84,10 @@ npm run priority:judge -- ensure-fallback --all-later # registreert ontbrekende 
 npm run build   # haalt actuele later-data op en schrijft data/data.js + data/score.js
 npm run priority:interest-report # read-only v6→v7-impactrapport in .tmp/readwise/
 npm run priority:topic-report # read-only v7→v8-topic-impactrapport in .tmp/readwise/
+npm run archive:lees:plan -- --output .tmp/readwise/archive-lees-plan.json
+PLAN_HASH=$(jq -r '.planHash' .tmp/readwise/archive-lees-plan.json)
+npm run archive:lees:apply -- --plan .tmp/readwise/archive-lees-plan.json --confirm "$PLAN_HASH"
+npm run archive:lees:verify -- --plan .tmp/readwise/archive-lees-plan.json
 npm run archive:cleanup:plan -- --output .tmp/readwise/archive-cleanup-plan.json
 PLAN_HASH=$(jq -r '.planHash' .tmp/readwise/archive-cleanup-plan.json)
 npm run archive:cleanup:apply -- --plan .tmp/readwise/archive-cleanup-plan.json --confirm "$PLAN_HASH"
@@ -105,6 +109,11 @@ De archive-cleanup-flow is archive-only en verwijdert uitsluitend ordinale/topli
 `light-reading`; inhoudstags, taaltags en curatietags blijven behouden. Het plan heeft een
 bevestigingshash en live bronfingerprint. `.github/workflows/archive-cleanup.yml` voert dezelfde
 plan/apply/verify-flow ieder uur uit.
+
+De lees-archive-flow verplaatst alleen `later`-documenten met een canonieke `lees-0001`-achtige
+tag die niet beschermd zijn door een actuele canonieke top-100-tag of door de berekende v8-top-100.
+De flow wijzigt geen tags, gebruikt een eigen plan/journal en draait dagelijks via
+`.github/workflows/archive-lees.yml` (ook handmatig te starten).
 
 Open daarna `index.html` direct in de browser (geen webserver nodig).
 

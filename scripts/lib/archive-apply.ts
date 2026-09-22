@@ -1,4 +1,5 @@
-import { assertArchivePlanFresh, type ArchivePlan } from "./archive-plan.js";
+import { assertArchivePlanFresh } from "./archive-plan.js";
+import type { ArchivePlan } from "./archive-plan.js";
 import type { CoreInterestPriorityConfig } from "./core-interest-priority.js";
 import type { PriorityDocument } from "./readwise-priority-v2.js";
 import type { PriorityJudgmentsConfig, PriorityOverridesConfig } from "./readwise-priority-v8.js";
@@ -28,6 +29,11 @@ export interface ArchiveJournal {
   verified?: boolean | undefined;
 }
 
+export interface ArchivePlanForApply {
+  planHash: string;
+  candidateDocumentIds: readonly string[];
+}
+
 export type MoveArchiveBatch = (documentIds: readonly string[]) => Promise<readonly ArchiveMoveResult[]>;
 export type WriteArchiveJournal = (journal: ArchiveJournal) => Promise<void>;
 export type ArchiveDelay = (milliseconds: number) => Promise<void>;
@@ -51,6 +57,7 @@ export async function applyArchivePlan({
   judgments,
   coreInterestConfig,
   journal,
+  assertFresh,
   moveDocuments,
   writeJournal,
   batchSize = ARCHIVE_BATCH_SIZE,
@@ -58,12 +65,13 @@ export async function applyArchivePlan({
   delay = (milliseconds) => new Promise<void>((resolve) => setTimeout(resolve, milliseconds)),
   now = () => new Date().toISOString(),
 }: {
-  plan: ArchivePlan;
+  plan: ArchivePlanForApply;
   currentDocuments: readonly PriorityDocument[];
   overrides: PriorityOverridesConfig;
   judgments?: PriorityJudgmentsConfig | Record<string, ContentJudgment>;
   coreInterestConfig?: CoreInterestPriorityConfig;
   journal: ArchiveJournal;
+  assertFresh?: (() => void) | undefined;
   moveDocuments: MoveArchiveBatch;
   writeJournal: WriteArchiveJournal;
   batchSize?: number;
@@ -84,7 +92,11 @@ export async function applyArchivePlan({
   if (journal.completed.some((id) => !candidateIds.has(id))) {
     throw new Error("Archivejournal bevat een document dat niet in het plan staat");
   }
-  assertArchivePlanFresh(plan, currentDocuments, overrides, judgments, coreInterestConfig);
+  if (assertFresh) {
+    assertFresh();
+  } else {
+    assertArchivePlanFresh(plan as ArchivePlan, currentDocuments, overrides, judgments, coreInterestConfig);
+  }
 
   const completed = new Set(journal.completed);
   const pending = plan.candidateDocumentIds.filter((id) => !completed.has(id));

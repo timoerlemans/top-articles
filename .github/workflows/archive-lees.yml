@@ -1,0 +1,67 @@
+name: Archiveer niet-top-100 Readwise-leesdocumenten
+
+on:
+  schedule:
+    - cron: "0 23 * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: read
+
+concurrency:
+  group: readwise-maintenance
+  cancel-in-progress: false
+
+jobs:
+  archive:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Install Readwise CLI
+        run: npm install -g @readwise/cli@0.5.9
+
+      - name: Log in to Readwise
+        env:
+          READWISE_TOKEN: ${{ secrets.READWISE_TOKEN }}
+        run: readwise login-with-token "$READWISE_TOKEN"
+
+      - name: Run checks
+        run: npm run check
+
+      - name: Maak lees-archiveplan
+        run: npm run archive:lees:plan -- --output .tmp/readwise/archive-lees-plan.json
+
+      - name: Pas lees-archiveplan toe
+        run: |
+          PLAN_HASH=$(jq -r '.planHash' .tmp/readwise/archive-lees-plan.json)
+          npm run archive:lees:apply -- --plan .tmp/readwise/archive-lees-plan.json --confirm "$PLAN_HASH"
+
+      - name: Verifieer lees-archivering
+        run: npm run archive:lees:verify -- --plan .tmp/readwise/archive-lees-plan.json
+
+      - name: Schrijf samenvatting
+        if: always()
+        run: |
+          {
+            echo "### Readwise lees-archivering"
+            if [ -f .tmp/readwise/archive-lees-plan.json ]; then
+              jq -r '"- Later-documenten: \(.summary.documents)\n- Met lees-tag: \(.summary.leesTagged)\n- Beschermd: \(.summary.protected)\n- Kandidaten: \(.summary.candidates)\n- Uitgesloten: \(.summary.excluded)\n- Planhash: `\(.planHash)`"' .tmp/readwise/archive-lees-plan.json
+            fi
+          } >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Bewaar lees-archiveplan en journal bij falen
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: archive-lees-${{ github.run_id }}
+          path: .tmp/readwise/archive-lees-*.json
+          if-no-files-found: ignore
+          retention-days: 14
