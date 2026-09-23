@@ -28,7 +28,7 @@ const JUDGMENTS_FILE = resolve(ROOT, "config/readwise-priority-judgments.json");
 const CORE_INTEREST_FILE = resolve(ROOT, "config/readwise-core-interest-priorities.json");
 const DEFAULT_JSON = ".tmp/readwise/core-interest-impact.json";
 const DEFAULT_MARKDOWN = ".tmp/readwise/core-interest-impact.md";
-const RESPONSE_FIELDS = "title,summary,word_count,reading_time,published_date,saved_at,category,tags,notes,location";
+const RESPONSE_FIELDS = "title,author,summary,word_count,reading_time,published_date,saved_at,category,tags,notes,location";
 const overridesSchema = z.object({
   version: z.literal(1),
   items: z.record(z.string(), z.object({ adjustment: z.number().optional(), reason: z.string().nullable().optional() })),

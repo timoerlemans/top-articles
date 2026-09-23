@@ -81,6 +81,7 @@ function canonicalDocuments(documents: readonly PriorityDocument[]): Record<stri
     .map((doc) => ({
       id: doc.id ?? null,
       title: doc.title ?? null,
+      author: doc.author ?? null,
       summary: doc.summary ?? null,
       notes: doc.notes ?? null,
       language: doc.language ?? null,

@@ -33,7 +33,7 @@ const JUDGMENTS_FILE = join(ROOT, "config", "readwise-priority-judgments.json");
 const CORE_INTEREST_FILE = join(ROOT, "config", "readwise-core-interest-priorities.json");
 
 const RESPONSE_FIELDS =
-  "title,site_name,summary,word_count,reading_time,published_date,saved_at,image_url,source_url,url,category,tags,notes";
+  "title,author,site_name,summary,word_count,reading_time,published_date,saved_at,image_url,source_url,url,category,tags,notes";
 
 // Kleine, vaste set taal-tags — bewust geen volledige taxonomie-tags in de output.
 const LANGUAGE_TAG_MAP: Readonly<Record<string, string>> = {

@@ -74,6 +74,14 @@ test("archiveplan wordt ongeldig en vers als de selectiebron verandert", () => {
   );
 });
 
+test("lees-archiveplan-fingerprint bewaakt auteursmetadata van de scorebron", () => {
+  const first = buildLeesArchivePlan([doc("doc")], overrides);
+  const documentWithAuthor = { ...doc("doc"), author: "Henrik Karlsson" };
+  const changed = buildLeesArchivePlan([documentWithAuthor], overrides);
+
+  assert.notEqual(changed.sourceFingerprint, first.sourceFingerprint);
+});
+
 test("postcondition eist dat alle kandidaten weg zijn en beschermde documenten blijven", () => {
   const source = [
     doc("candidate", { tags: { "lees-0001": {} } }),

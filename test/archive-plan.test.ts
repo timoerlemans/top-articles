@@ -57,6 +57,14 @@ test("changes the source fingerprint when an archive decision input changes", ()
   assert.notEqual(first.planHash, changed.planHash);
 });
 
+test("includes author metadata in the archive plan source fingerprint", () => {
+  const first = buildArchivePlan([doc("doc", { category: "note" })], { version: 1, items: {} });
+  const documentWithAuthor = { ...doc("doc", { category: "note" }), author: "Eleanor Konik" };
+  const changed = buildArchivePlan([documentWithAuthor], { version: 1, items: {} });
+
+  assert.notEqual(changed.sourceFingerprint, first.sourceFingerprint);
+});
+
 test("archiveplan gebruikt v8 en bewaakt de kerninteresseconfiguratie", () => {
   const config: CoreInterestPriorityConfig = {
     version: 1,

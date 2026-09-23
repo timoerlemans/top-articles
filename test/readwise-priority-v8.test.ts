@@ -161,7 +161,7 @@ test("topic score determines the topic ranking and respects Agile tag weighting"
   assert.equal(result.items.weak.positions.scrum, 2);
 });
 
-test("gives want-to-read an extra bonus in global and topic sequence scores", () => {
+test("gives want-to-read a 50-point bonus in global and topic sequence scores", () => {
   const withoutWantToRead = document({ id: "without-want-to-read" });
   const wantToRead = document({
     id: "want-to-read",
@@ -180,16 +180,66 @@ test("gives want-to-read an extra bonus in global and topic sequence scores", ()
     coreInterestConfig: CORE_INTEREST_CONFIG,
   });
 
-  assert.equal(wantToReadScore.score, withoutScore.score + 25);
+  assert.equal(wantToReadScore.score, withoutScore.score + 50);
   assert.match(wantToReadScore.adjustmentReason ?? "", /want-to-read/i);
   assert.equal(
     result.items["want-to-read"]?.sequenceScores.lees?.score,
-    (result.items["without-want-to-read"]?.sequenceScores.lees?.score ?? 0) + 25,
+    (result.items["without-want-to-read"]?.sequenceScores.lees?.score ?? 0) + 50,
   );
   assert.equal(
     result.items["want-to-read"]?.sequenceScores.scrum?.score,
-    (result.items["without-want-to-read"]?.sequenceScores.scrum?.score ?? 0) + 25,
+    (result.items["without-want-to-read"]?.sequenceScores.scrum?.score ?? 0) + 50,
   );
+});
+
+test("must-read and shortlist use one bonus, while want-to-read stacks with either", () => {
+  const normal = scorePriorityDocument(document());
+  const shortlist = scorePriorityDocument(document({ tags: { "lees-0001": {}, agile: {}, shortlist: {} } }));
+  const mustRead = scorePriorityDocument(document({ tags: { "lees-0001": {}, agile: {}, "must-read": {} } }));
+  const both = scorePriorityDocument(document({ tags: { "lees-0001": {}, agile: {}, shortlist: {}, "must-read": {} } }));
+  const shortlistAndWant = scorePriorityDocument(document({ tags: { "lees-0001": {}, agile: {}, shortlist: {}, "want-to-read": {} } }));
+  const bothAndWant = scorePriorityDocument(document({ tags: { "lees-0001": {}, agile: {}, shortlist: {}, "must-read": {}, "want-to-read": {} } }));
+
+  assert.equal(shortlist.score, normal.score + 20);
+  assert.equal(mustRead.score, normal.score + 30);
+  assert.equal(both.score, normal.score + 30);
+  assert.equal(shortlistAndWant.score, normal.score + 70);
+  assert.equal(bothAndWant.score, normal.score + 80);
+});
+
+test("gives Henrik Karlsson and Eleanor Konik a non-stacking author bonus plus stackable want-to-read", () => {
+  const normal = scorePriorityDocument(document());
+
+  for (const author of ["Henrik Karlsson", "Eleanor Konik", "  hENRIK   kARLSSON  "]) {
+    const authorDocument = (tags: PriorityDocument["tags"]) => ({
+      ...document({ tags }),
+      author,
+    });
+    const authorOnly = scorePriorityDocument(authorDocument({ "lees-0001": {}, agile: {} }));
+    const authorWithCurationTags = scorePriorityDocument(authorDocument({
+      "lees-0001": {},
+      agile: {},
+      shortlist: {},
+      "must-read": {},
+    }));
+    const authorWithWantToRead = scorePriorityDocument(authorDocument({
+      "lees-0001": {},
+      agile: {},
+      shortlist: {},
+      "must-read": {},
+      "want-to-read": {},
+    }));
+
+    assert.equal(authorOnly.score, normal.score + 50, author);
+    assert.equal(authorWithCurationTags.score, normal.score + 50, author);
+    assert.equal(authorWithWantToRead.score, normal.score + 100, author);
+  }
+
+  const otherAuthorMentionedInTitle = {
+    ...document({ title: "Eleanor Konik on writing" }),
+    author: "An Unknown Author",
+  };
+  assert.equal(scorePriorityDocument(otherAuthorMentionedInTitle).score, normal.score);
 });
 
 test("treats want-to-read as manual curation instead of content evidence", () => {

@@ -18,6 +18,7 @@ export type PriorityTags = (string | PriorityTagDescriptor)[] | Readonly<Record<
 export interface PriorityDocument {
   id?: string | null | undefined;
   title?: string | null | undefined;
+  author?: string | null | undefined;
   summary?: string | null | undefined;
   notes?: string | null | undefined;
   language?: string | null | undefined;

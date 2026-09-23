@@ -229,6 +229,14 @@ test("bronfingerprint negeert Reader updated_at maar bewaakt score-invoer", () =
   assert.notEqual(changedSummary.sourceFingerprint, plan.sourceFingerprint);
 });
 
+test("bronfingerprint bewaakt auteursmetadata die de prioriteitsscore beïnvloedt", () => {
+  const first = buildPriorityTagPlan([doc("doc")], []);
+  const documentWithAuthor = { ...doc("doc"), author: "Henrik Karlsson" };
+  const changed = buildPriorityTagPlan([documentWithAuthor], []);
+
+  assert.notEqual(changed.sourceFingerprint, first.sourceFingerprint);
+});
+
 test("bronfingerprint bewaakt ook de kerninteresseconfiguratie", () => {
   const source = [doc("stable", { tags: { agile: {} } })];
   const config: CoreInterestPriorityConfig = {

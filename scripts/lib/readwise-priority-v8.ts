@@ -43,7 +43,14 @@ export type { TopicSequence } from "./priority-sequences.js";
 
 export const PRIORITY_MODEL = "readwise-priority-v8" as const;
 export const SEQUENCE_FIT_WEIGHT = 3;
-export const WANT_TO_READ_SCORE_BONUS = 25;
+export const SHORTLIST_SCORE_BONUS = 20;
+export const MUST_READ_SCORE_BONUS = 30;
+export const WANT_TO_READ_SCORE_BONUS = 50;
+export const PRIORITY_AUTHOR_SCORE_BONUS = 50;
+const PRIORITY_AUTHORS = new Map([
+  ["henrik karlsson", "Henrik Karlsson"],
+  ["eleanor konik", "Eleanor Konik"],
+]);
 
 export interface PriorityTopicComponents {
   kerninteresse: number;
@@ -105,17 +112,45 @@ function tierForScore(score: number): PriorityTier {
   return "laag";
 }
 
-function wantToReadAdjustment(doc: PriorityDocument): number {
-  return hasTag(doc, "want-to-read") ? WANT_TO_READ_SCORE_BONUS : 0;
+function normalizedAuthor(author: string | null | undefined): string {
+  return (author ?? "")
+    .normalize("NFKD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .toLowerCase()
+    .replace(/\s+/g, " ")
+    .trim();
 }
 
-function withWantToReadBonus<T extends PriorityScoreResultV7>(doc: PriorityDocument, score: T): T {
-  const bonus = wantToReadAdjustment(doc);
-  if (bonus === 0) {return score;}
-  const adjustment = score.adjustment + bonus;
-  const adjustmentReason = score.adjustmentReason
-    ? `${score.adjustmentReason}; Tag want-to-read: +${bonus} bonuspunten.`
-    : `Tag want-to-read: +${bonus} bonuspunten.`;
+function curationBonusesFor(doc: PriorityDocument): { total: number; reasons: string[] } {
+  const reasons: string[] = [];
+  const authorLabel = PRIORITY_AUTHORS.get(normalizedAuthor(doc.author));
+  let total = 0;
+
+  if (authorLabel) {
+    total += PRIORITY_AUTHOR_SCORE_BONUS;
+    reasons.push(`Voorkeursauteur ${authorLabel}: +${PRIORITY_AUTHOR_SCORE_BONUS} bonuspunten.`);
+  } else if (hasTag(doc, "must-read")) {
+    total += MUST_READ_SCORE_BONUS;
+    reasons.push(`Tag must-read: +${MUST_READ_SCORE_BONUS} bonuspunten.`);
+  } else if (hasTag(doc, "shortlist") || hasTag(doc, "short-list")) {
+    total += SHORTLIST_SCORE_BONUS;
+    reasons.push(`Tag shortlist: +${SHORTLIST_SCORE_BONUS} bonuspunten.`);
+  }
+
+  if (hasTag(doc, "want-to-read")) {
+    total += WANT_TO_READ_SCORE_BONUS;
+    reasons.push(`Tag want-to-read: +${WANT_TO_READ_SCORE_BONUS} bonuspunten.`);
+  }
+
+  return { total, reasons };
+}
+
+function withCurationBonuses<T extends PriorityScoreResultV7>(doc: PriorityDocument, score: T): T {
+  const bonuses = curationBonusesFor(doc);
+  if (bonuses.total === 0) {return score;}
+  const adjustment = score.adjustment + bonuses.total;
+  const existingReasons = typeof score.adjustmentReason === "string" ? [score.adjustmentReason] : [];
+  const adjustmentReason = [...existingReasons, ...bonuses.reasons].join("; ");
   const totalScore = floorScore(score.baseScore + adjustment);
   return {
     ...score,
@@ -193,7 +228,7 @@ export function scorePriorityDocument(
   coreInterestPriority?: CoreInterestPriority,
   coreInterestConfig?: CoreInterestPriorityConfig,
 ): PriorityScoreResultV7 {
-  return withWantToReadBonus(
+  return withCurationBonuses(
     doc,
     scoreGlobalPriorityDocument(doc, override, judgments, coreInterestPriority, coreInterestConfig),
   );
@@ -219,7 +254,7 @@ function buildExpected(
     if (!doc.id) {throw new Error("Priority-document mist een Readwise document-id");}
     const globalItem = globalExport.items[doc.id];
     if (!globalItem) {throw new Error(`Global score ontbreekt voor ${doc.id}`);}
-    const scoredGlobalItem = withWantToReadBonus(doc, globalItem);
+    const scoredGlobalItem = withCurationBonuses(doc, globalItem);
     const savedAt = Date.parse(doc.saved_at ?? "");
     if (!Number.isFinite(savedAt)) {throw new Error(`Document ${doc.id} heeft geen geldige saved_at`);}
     savedAtById.set(doc.id, savedAt);

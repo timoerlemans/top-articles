@@ -33,7 +33,7 @@ const JUDGMENTS_FILE = resolve(ROOT, "config/readwise-priority-judgments.json");
 const CORE_INTEREST_FILE = resolve(ROOT, "config/readwise-core-interest-priorities.json");
 const DEFAULT_PLAN = ".tmp/readwise/archive-plan.json";
 const DEFAULT_JOURNAL = ".tmp/readwise/archive-journal.json";
-const RESPONSE_FIELDS = "title,summary,word_count,reading_time,published_date,saved_at,updated_at,category,location,reading_progress,tags,notes";
+const RESPONSE_FIELDS = "title,author,summary,word_count,reading_time,published_date,saved_at,updated_at,category,location,reading_progress,tags,notes";
 
 const overridesSchema = z.object({
   version: z.literal(1),
