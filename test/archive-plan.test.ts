@@ -39,6 +39,16 @@ test("protects every document in at least one canonical top-100 family", () => {
   assert.equal(validateArchivePlan(plan), true);
 });
 
+test("protects want-to-read documents in later even when they have no top-100 membership", () => {
+  const wantToRead = doc("saved-for-later", { category: "note", tags: { "want-to-read": {} } });
+  const plan = buildArchivePlan([wantToRead], { version: 1, items: {} });
+
+  assert.deepEqual(plan.protectedDocumentIds, ["saved-for-later"]);
+  assert.deepEqual(plan.candidateDocumentIds, []);
+  assert.equal(plan.summary.protected, 1);
+  assert.equal(verifyArchivePostcondition(plan, [wantToRead], { version: 1, items: {} }), true);
+});
+
 test("keeps documents outside later out of the archive candidate set", () => {
   const plan = buildArchivePlan([
     doc("later-doc", { category: "note" }),

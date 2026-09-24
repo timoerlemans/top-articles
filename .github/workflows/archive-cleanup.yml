@@ -1,8 +1,9 @@
 name: Cleanup archived Readwise-tags
 
 on:
-  schedule:
-    - cron: "0 * * * *"
+  workflow_run:
+    workflows: ["Archiveer niet-top-100 Readwise-leesdocumenten"]
+    types: [completed]
   workflow_dispatch: {}
 
 permissions:
@@ -14,6 +15,7 @@ concurrency:
 
 jobs:
   cleanup:
+    if: github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4

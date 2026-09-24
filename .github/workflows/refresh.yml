@@ -1,8 +1,9 @@
 name: Refresh Readwise data
 
 on:
-  schedule:
-    - cron: "0 4 * * *" # dagelijks om 04:00 UTC (~06:00 CEST, ~05:00 CET — cron kent geen DST)
+  workflow_run:
+    workflows: ["Synchroniseer Readwise-leesvolgorde"]
+    types: [completed]
   workflow_dispatch: {}
 
 permissions:
@@ -14,6 +15,7 @@ concurrency:
 
 jobs:
   refresh:
+    if: github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4

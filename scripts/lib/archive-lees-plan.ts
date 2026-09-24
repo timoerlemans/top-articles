@@ -150,6 +150,12 @@ export function buildLeesArchivePlan(
       .map((doc) => doc.id)
       .filter((id): id is string => typeof id === "string"),
   );
+  const wantToReadProtectedDocumentIds = sortedIds(
+    later
+      .filter((doc) => normalizedTags(doc).includes("want-to-read"))
+      .map((doc) => doc.id)
+      .filter((id): id is string => typeof id === "string"),
+  );
   const protectedByFamily = FAMILY_DEFINITIONS.map((family) => ({
     id: family.id,
     label: family.label,
@@ -160,6 +166,7 @@ export function buildLeesArchivePlan(
   const protectedDocumentIds = sortedIds([
     ...currentTagProtectedDocumentIds,
     ...computedTop100DocumentIds,
+    ...wantToReadProtectedDocumentIds,
   ]);
   const candidates = later
     .filter((doc) => typeof doc.id === "string" && hasCanonicalLeesTag(doc) && !protectedDocumentIds.includes(doc.id))

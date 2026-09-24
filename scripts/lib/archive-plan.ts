@@ -111,6 +111,12 @@ export function buildArchivePlan(
     protectedByFamily.set(family.id, ids);
   }
 
+  for (const doc of later) {
+    if (tagNames(doc).some((tag) => tag.toLowerCase() === "want-to-read") && typeof doc.id === "string") {
+      protectedIds.add(doc.id);
+    }
+  }
+
   const candidates = later
     .filter((doc) => typeof doc.id === "string" && !protectedIds.has(doc.id))
     .sort((a, b) => (a.id ?? "").localeCompare(b.id ?? ""))

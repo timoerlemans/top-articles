@@ -2,7 +2,7 @@ name: Synchroniseer Readwise-leesvolgorde
 
 on:
   schedule:
-    - cron: "0 22 * * *" # dagelijks ~00:00 CEST (~23:00 CET — cron kent geen DST)
+    - cron: "0 4 * * *" # dagelijks om 04:00 UTC (~06:00 CEST, ~05:00 CET — cron kent geen DST)
   workflow_dispatch: {}
 
 permissions:

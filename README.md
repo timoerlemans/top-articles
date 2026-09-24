@@ -108,19 +108,23 @@ nieuwe topic-scores en maakt fallback-confidence zichtbaar.
 De archive-cleanup-flow is archive-only en verwijdert uitsluitend ordinale/toplijsttags en
 `light-reading`; inhoudstags, taaltags en curatietags blijven behouden. Het plan heeft een
 bevestigingshash en live bronfingerprint. `.github/workflows/archive-cleanup.yml` voert dezelfde
-plan/apply/verify-flow ieder uur uit.
+plan/apply/verify-flow uit na de lees-archive-workflow (of na een handmatige start daarvan).
 
 De lees-archive-flow verplaatst alleen `later`-documenten met een canonieke `lees-0001`-achtige
 tag die niet beschermd zijn door een actuele canonieke top-100-tag of door de berekende v8-top-100.
-De flow wijzigt geen tags, gebruikt een eigen plan/journal en draait dagelijks via
-`.github/workflows/archive-lees.yml` (ook handmatig te starten).
+Documenten met de tag `want-to-read` blijven altijd in `later`, ongeacht hun top-100-positie. De flow
+wijzigt geen tags en gebruikt een eigen plan/journal. De workflow volgt automatisch op de data-refresh
+en is ook handmatig te starten.
 
 Open daarna `index.html` direct in de browser (geen webserver nodig).
 
 ## Automatisch verversen
 
-`.github/workflows/refresh.yml` draait dagelijks en bij handmatige trigger
-(`gh workflow run refresh.yml`). Vereist een repo-secret `READWISE_TOKEN`
+`.github/workflows/priority-sync.yml` start dagelijks om 04:00 UTC de keten voor tag-synchronisatie,
+data-refresh, lees-archivering en archive-cleanup. Elke stap start alleen na een succesvolle vorige
+stap; de workflows blijven ook handmatig te starten. De refresh-workflow verstuurt daarna de top-1-mail.
+De core-interest-mail behoudt zijn eigen schema. Start de keten handmatig met
+`gh workflow run priority-sync.yml`. Vereist een repo-secret `READWISE_TOKEN`
 (token ophalen via https://readwise.io/access_token):
 
 ```bash

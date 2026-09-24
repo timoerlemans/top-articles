@@ -33,19 +33,20 @@ test("selecteert alleen canonieke lees-documenten buiten de unie van huidige en 
     doc("computed", { category: "article", tags: { "lees-0003": {} } }),
     doc("no-lees", { tags: { philosophy: {} } }),
     doc("custom-tag", { tags: { "lees-0004": {}, "custom-top-100": {} } }),
+    doc("want-to-read", { tags: { "lees-0006": {}, "WANT-TO-READ": {} } }),
     doc("archived", { location: "archive", tags: { "lees-0005": {} } }),
   ], overrides, { generatedAt: "2026-09-21T12:00:00.000Z" });
 
   assert.deepEqual(plan.candidateDocumentIds, ["candidate", "custom-tag"]);
   assert.deepEqual(plan.currentTagProtectedDocumentIds, ["current-tag"]);
   assert.deepEqual(plan.computedTop100DocumentIds, ["computed"]);
-  assert.deepEqual(plan.protectedDocumentIds, ["computed", "current-tag"]);
+  assert.deepEqual(plan.protectedDocumentIds, ["computed", "current-tag", "want-to-read"]);
   assert.deepEqual(plan.summary, {
-    documents: 5,
-    leesTagged: 4,
+    documents: 6,
+    leesTagged: 5,
     protectedByCurrentTags: 1,
     protectedByComputedRanking: 1,
-    protected: 2,
+    protected: 3,
     candidates: 2,
     excluded: 1,
   });
