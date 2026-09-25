@@ -151,6 +151,10 @@ async function applyCommand(): Promise<void> {
   if (!planPath || !confirmation) {throw new Error("Gebruik archive:cleanup:apply met --plan <bestand> --confirm <plan-hash>");}
   const plan = await readPlan(planPath);
   if (confirmation !== plan.planHash) {throw new Error("Bevestigingshash komt niet overeen met het archive-cleanup-plan");}
+  if (plan.operations.length === 0) {
+    console.log("Archive cleanup overgeslagen: geen tagverwijderingen nodig.");
+    return;
+  }
 
   const { plan: livePlan, documents } = await createPlan(plan.generatedAt);
   assertArchiveCleanupPlanFresh(plan, documents);

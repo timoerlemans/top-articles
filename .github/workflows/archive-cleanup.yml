@@ -36,14 +36,19 @@ jobs:
         run: readwise login-with-token "$READWISE_TOKEN"
 
       - name: Maak archive cleanup-plan
-        run: npm run archive:cleanup:plan -- --output .tmp/readwise/archive-cleanup-plan.json
+        id: cleanup_plan
+        run: |
+          npm run archive:cleanup:plan -- --output .tmp/readwise/archive-cleanup-plan.json
+          echo "operations=$(jq -r '.summary.operations' .tmp/readwise/archive-cleanup-plan.json)" >> "$GITHUB_OUTPUT"
 
       - name: Pas archive cleanup-plan toe
+        if: steps.cleanup_plan.outputs.operations != '0'
         run: |
           PLAN_HASH=$(jq -r '.planHash' .tmp/readwise/archive-cleanup-plan.json)
           npm run archive:cleanup:apply -- --plan .tmp/readwise/archive-cleanup-plan.json --confirm "$PLAN_HASH"
 
       - name: Verifieer archive cleanup
+        if: steps.cleanup_plan.outputs.operations != '0'
         run: npm run archive:cleanup:verify
 
       - name: Schrijf samenvatting
