@@ -65,7 +65,6 @@ async function fetchDocumentsByLocation(location: string): Promise<ReadwiseDocum
       "--response-fields",
       RESPONSE_FIELDS,
       "--json",
-      "--refresh",
     ];
     if (cursor) {
       args.push("--page-cursor", cursor);

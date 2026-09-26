@@ -66659,6 +66659,688 @@
       ],
       "judgedBy": "codex-semantic-review",
       "judgedAt": "2026-09-26T10:01:10.186Z"
+    },
+    "01m3fb9vd5qc5gaw8dzcre20m6": {
+      "sourceFingerprint": "516af738a6a69e935dedf6e884a47881e88a24d0850b9e5874bd7274c920f1b1",
+      "evidenceFingerprint": "a11632859887e5d4ff3fbde064660a182af6c3ade44b7bfddfeacd18c40b013a",
+      "relevance": 4,
+      "substance": 3,
+      "durability": 3,
+      "usefulness": 3,
+      "sequenceFit": {
+        "lees": 2,
+        "software-development": 2,
+        "front-end-development": 1
+      },
+      "topicRelevance": {
+        "scrum": 0,
+        "software-development": 4,
+        "front-end-development": 2,
+        "social-studies": 1,
+        "adhd": 0
+      },
+      "confidence": "medium",
+      "reasonCodes": [
+        "semantic-review",
+        "independent-of-current-position",
+        "evidence:title-summary-notes",
+        "evidence:limited-context",
+        "agent-workflow-and-human-system-understanding",
+        "continuous-inspection-over-fixed-planning",
+        "developer-interface-cognitive-load",
+        "notes-support-concepts-without-full-source"
+      ],
+      "status": "accepted",
+      "rubricVersion": "semantic-v2",
+      "evidenceRefs": [
+        ".tmp/readwise/priority-evidence.json#documents.01m3fb9vd5qc5gaw8dzcre20m6.title",
+        ".tmp/readwise/priority-evidence.json#documents.01m3fb9vd5qc5gaw8dzcre20m6.summary",
+        ".tmp/readwise/priority-evidence.json#documents.01m3fb9vd5qc5gaw8dzcre20m6.notes"
+      ],
+      "judgedBy": "codex-semantic-all-later-review-2026-09-26/repeat-run2-reviewer-1",
+      "judgedAt": "2026-09-26T18:33:50.826158Z"
+    },
+    "01m3f8gy6qhw9qpv3afv10zckm": {
+      "sourceFingerprint": "ef1fec491dbae8160ac3da31493b64447cc7879e3b1397d624caf80a15f99d60",
+      "evidenceFingerprint": "b0a35bb2364b67cddd7bc20d6931f07eea7032a07d782f9ab0ececf8e2738868",
+      "relevance": 2,
+      "substance": 2,
+      "durability": 4,
+      "usefulness": 2,
+      "sequenceFit": {
+        "lees": 1,
+        "luchtig": 2
+      },
+      "topicRelevance": {
+        "scrum": 0,
+        "software-development": 0,
+        "front-end-development": 0,
+        "social-studies": 1,
+        "adhd": 0
+      },
+      "confidence": "medium",
+      "reasonCodes": [
+        "semantic-review",
+        "independent-of-current-position",
+        "evidence:title-summary-notes",
+        "evidence:limited-context",
+        "regional-folklore-and-cultural-mixing",
+        "landscape-and-danger-shape-fiction",
+        "accessible-worldbuilding-reflection",
+        "notes-support-concepts-without-full-source"
+      ],
+      "status": "accepted",
+      "rubricVersion": "semantic-v2",
+      "evidenceRefs": [
+        ".tmp/readwise/priority-evidence.json#documents.01m3f8gy6qhw9qpv3afv10zckm.title",
+        ".tmp/readwise/priority-evidence.json#documents.01m3f8gy6qhw9qpv3afv10zckm.summary",
+        ".tmp/readwise/priority-evidence.json#documents.01m3f8gy6qhw9qpv3afv10zckm.notes"
+      ],
+      "judgedBy": "codex-semantic-all-later-review-2026-09-26/repeat-run2-reviewer-1",
+      "judgedAt": "2026-09-26T18:33:50.826158Z"
+    },
+    "01m3f4kb1sf3csptdpknd58xn8": {
+      "sourceFingerprint": "865a46228b52036fefeb8c31304b3a5e4839efe7627fe8adb9bfedb318ac74c9",
+      "evidenceFingerprint": "f039ab3bc0d2e1203fcc901bdb49066d85dffab249ee78ad97a8fb67b48ecb45",
+      "relevance": 3,
+      "substance": 3,
+      "durability": 3,
+      "usefulness": 2,
+      "sequenceFit": {
+        "lees": 2,
+        "social-studies": 2
+      },
+      "topicRelevance": {
+        "scrum": 0,
+        "software-development": 0,
+        "front-end-development": 0,
+        "social-studies": 4,
+        "adhd": 0
+      },
+      "confidence": "medium",
+      "reasonCodes": [
+        "semantic-review",
+        "independent-of-current-position",
+        "evidence:title-summary-notes",
+        "evidence:limited-context",
+        "persuasion-and-motivated-reasoning",
+        "ai-fact-checking-changes-debate-incentives",
+        "epistemic-dependence-on-unverifiable-authority",
+        "conceptual-rather-than-tested-intervention"
+      ],
+      "status": "accepted",
+      "rubricVersion": "semantic-v2",
+      "evidenceRefs": [
+        ".tmp/readwise/priority-evidence.json#documents.01m3f4kb1sf3csptdpknd58xn8.title",
+        ".tmp/readwise/priority-evidence.json#documents.01m3f4kb1sf3csptdpknd58xn8.summary",
+        ".tmp/readwise/priority-evidence.json#documents.01m3f4kb1sf3csptdpknd58xn8.notes"
+      ],
+      "judgedBy": "codex-semantic-all-later-review-2026-09-26/repeat-run2-reviewer-1",
+      "judgedAt": "2026-09-26T18:33:50.826158Z"
+    },
+    "01m3f17wrre7vcebbaygz575se": {
+      "sourceFingerprint": "143b69692d4db868e1e3835efdcaca5b14822ae19a684a297ec18a29ddd74589",
+      "evidenceFingerprint": "e77fc68d9144be57df1cea881261f4971ca62158bd4150eb98bc9b85bd5f2f6d",
+      "relevance": 3,
+      "substance": 3,
+      "durability": 4,
+      "usefulness": 2,
+      "sequenceFit": {
+        "lees": 2,
+        "social-studies": 2
+      },
+      "topicRelevance": {
+        "scrum": 0,
+        "software-development": 0,
+        "front-end-development": 0,
+        "social-studies": 4,
+        "adhd": 0
+      },
+      "confidence": "medium",
+      "reasonCodes": [
+        "semantic-review",
+        "independent-of-current-position",
+        "evidence:title-summary-notes",
+        "evidence:limited-context",
+        "tech-libertarianism-and-public-subsidy-tension",
+        "historical-ideology-and-power-structures",
+        "retrospective-interview-supports-cultural-analysis",
+        "limited-direct-practical-guidance"
+      ],
+      "status": "accepted",
+      "rubricVersion": "semantic-v2",
+      "evidenceRefs": [
+        ".tmp/readwise/priority-evidence.json#documents.01m3f17wrre7vcebbaygz575se.title",
+        ".tmp/readwise/priority-evidence.json#documents.01m3f17wrre7vcebbaygz575se.summary",
+        ".tmp/readwise/priority-evidence.json#documents.01m3f17wrre7vcebbaygz575se.notes"
+      ],
+      "judgedBy": "codex-semantic-all-later-review-2026-09-26/repeat-run2-reviewer-1",
+      "judgedAt": "2026-09-26T18:33:50.826158Z"
+    },
+    "01m3f17wb31yevbh6q3518zkdm": {
+      "sourceFingerprint": "95cddc12a8267428749077b1f828cf7e17263ed6ba8ca89d43d78f8058480874",
+      "evidenceFingerprint": "6988fd92eb31935d7b0327c67b8e1bd5d9d2dfafe1d8c7babe8e9e32214b4bb3",
+      "relevance": 2,
+      "substance": 2,
+      "durability": 4,
+      "usefulness": 3,
+      "sequenceFit": {
+        "lees": 1,
+        "luchtig": 1
+      },
+      "topicRelevance": {
+        "scrum": 0,
+        "software-development": 0,
+        "front-end-development": 0,
+        "social-studies": 0,
+        "adhd": 0
+      },
+      "confidence": "medium",
+      "reasonCodes": [
+        "semantic-review",
+        "independent-of-current-position",
+        "evidence:title-summary-notes",
+        "evidence:limited-context",
+        "cross-medium-study-for-creative-blocks",
+        "theater-demonstrates-story-elements-and-audience-response",
+        "concrete-transferable-writing-exercise",
+        "personal-craft-essay-with-limited-depth"
+      ],
+      "status": "accepted",
+      "rubricVersion": "semantic-v2",
+      "evidenceRefs": [
+        ".tmp/readwise/priority-evidence.json#documents.01m3f17wb31yevbh6q3518zkdm.title",
+        ".tmp/readwise/priority-evidence.json#documents.01m3f17wb31yevbh6q3518zkdm.summary",
+        ".tmp/readwise/priority-evidence.json#documents.01m3f17wb31yevbh6q3518zkdm.notes"
+      ],
+      "judgedBy": "codex-semantic-all-later-review-2026-09-26/repeat-run2-reviewer-1",
+      "judgedAt": "2026-09-26T18:33:50.826158Z"
+    },
+    "01m3f17vj1esg980wbj6w8741n": {
+      "sourceFingerprint": "1ceaa9473a034a6ed09d79af779f4f37558f207c7d121c6e8df0eb201717ffdc",
+      "evidenceFingerprint": "f0e8602e0080bc8d542f6b3d1a60827593c0333b5ca3f17b62407ce333d2e49a",
+      "relevance": 3,
+      "substance": 3,
+      "durability": 4,
+      "usefulness": 3,
+      "sequenceFit": {
+        "lees": 2,
+        "social-studies": 2
+      },
+      "topicRelevance": {
+        "scrum": 1,
+        "software-development": 0,
+        "front-end-development": 0,
+        "social-studies": 4,
+        "adhd": 0
+      },
+      "confidence": "medium",
+      "reasonCodes": [
+        "semantic-review",
+        "independent-of-current-position",
+        "evidence:title-summary-notes",
+        "evidence:limited-context",
+        "sustainable-collective-action-and-reliability",
+        "urgency-and-burnout-tradeoff",
+        "founding-decisions-reproduce-exclusion",
+        "practical-inclusive-organizing-principles"
+      ],
+      "status": "accepted",
+      "rubricVersion": "semantic-v2",
+      "evidenceRefs": [
+        ".tmp/readwise/priority-evidence.json#documents.01m3f17vj1esg980wbj6w8741n.title",
+        ".tmp/readwise/priority-evidence.json#documents.01m3f17vj1esg980wbj6w8741n.summary",
+        ".tmp/readwise/priority-evidence.json#documents.01m3f17vj1esg980wbj6w8741n.notes"
+      ],
+      "judgedBy": "codex-semantic-all-later-review-2026-09-26/repeat-run2-reviewer-1",
+      "judgedAt": "2026-09-26T18:33:50.826158Z"
+    },
+    "01m3f17v3t6pg87zvd6fs4vtvs": {
+      "sourceFingerprint": "658eafdebadec732a194d54cb4fe20d62e27992d9431c231eed3954b72fef7a5",
+      "evidenceFingerprint": "662c20d4ff9d0d2afdd6faf86b5ec69946ef4b4306356d366d2202faffddfa96",
+      "relevance": 3,
+      "substance": 3,
+      "durability": 4,
+      "usefulness": 2,
+      "sequenceFit": {
+        "lees": 1,
+        "social-studies": 2
+      },
+      "topicRelevance": {
+        "scrum": 0,
+        "software-development": 0,
+        "front-end-development": 0,
+        "social-studies": 4,
+        "adhd": 0
+      },
+      "confidence": "medium",
+      "reasonCodes": [
+        "semantic-review",
+        "independent-of-current-position",
+        "evidence:title-summary-notes",
+        "evidence:limited-context",
+        "jameson-capitalism-cultural-forms-historical-totality",
+        "political-theory-autonomy-explicit-disagreement",
+        "lasting-political-philosophy-intellectual-portrait",
+        "conceptual-insight-limited-direct-application"
+      ],
+      "status": "accepted",
+      "rubricVersion": "semantic-v2",
+      "evidenceRefs": [
+        ".tmp/readwise/priority-evidence.json#documents.01m3f17v3t6pg87zvd6fs4vtvs.title",
+        ".tmp/readwise/priority-evidence.json#documents.01m3f17v3t6pg87zvd6fs4vtvs.summary",
+        ".tmp/readwise/priority-evidence.json#documents.01m3f17v3t6pg87zvd6fs4vtvs.notes"
+      ],
+      "judgedBy": "codex-semantic-all-later-review-2026-09-26/repeat-run2-reviewer-2",
+      "judgedAt": "2026-09-26T18:34:08Z"
+    },
+    "01m3ezmenqtajbtydymt9cvamt": {
+      "sourceFingerprint": "91f14e761aff98c2a984cf0ea15264eb336e5ca89312b4d7cd8ae8dea0ec1452",
+      "evidenceFingerprint": "5bf4b8e966eb781b70faa39915c980acc48b61fdfaced8a1adc956773125d75b",
+      "relevance": 3,
+      "substance": 2,
+      "durability": 3,
+      "usefulness": 3,
+      "sequenceFit": {
+        "lees": 1,
+        "luchtig": 1
+      },
+      "topicRelevance": {
+        "scrum": 0,
+        "software-development": 0,
+        "front-end-development": 0,
+        "social-studies": 1,
+        "adhd": 1
+      },
+      "confidence": "medium",
+      "reasonCodes": [
+        "semantic-review",
+        "independent-of-current-position",
+        "evidence:title-summary-notes",
+        "evidence:limited-context",
+        "habit-design-embedded-in-family-routines",
+        "exercise-through-curiosity-and-lower-friction",
+        "personal-anecdote-not-systematic-research",
+        "attention-and-motivation-adjacent-without-adhd-specific-analysis"
+      ],
+      "status": "accepted",
+      "rubricVersion": "semantic-v2",
+      "evidenceRefs": [
+        ".tmp/readwise/priority-evidence.json#documents.01m3ezmenqtajbtydymt9cvamt.title",
+        ".tmp/readwise/priority-evidence.json#documents.01m3ezmenqtajbtydymt9cvamt.summary",
+        ".tmp/readwise/priority-evidence.json#documents.01m3ezmenqtajbtydymt9cvamt.notes"
+      ],
+      "judgedBy": "codex-semantic-all-later-review-2026-09-26/repeat-run2-reviewer-2",
+      "judgedAt": "2026-09-26T18:34:08Z"
+    },
+    "01m3et1s38emvd30xzz12te8z3": {
+      "sourceFingerprint": "f36046e3f29dfa9cfa952e106d686e36d3948f614550420ec8d52e46541bae2f",
+      "evidenceFingerprint": "f442962d17b7c769d2ba030d4e2f3f84813bb5e6f80f976c7745a6223c5a4888",
+      "relevance": 2,
+      "substance": 1,
+      "durability": 1,
+      "usefulness": 1,
+      "sequenceFit": {
+        "lees": 0,
+        "dutch": 2,
+        "luchtig": 2,
+        "luchtig-nederlands": 2
+      },
+      "topicRelevance": {
+        "scrum": 0,
+        "software-development": 0,
+        "front-end-development": 0,
+        "social-studies": 1,
+        "adhd": 0
+      },
+      "confidence": "medium",
+      "reasonCodes": [
+        "semantic-review",
+        "independent-of-current-position",
+        "evidence:title-summary-notes",
+        "evidence:limited-context",
+        "dutch-five-tip-gadget-finance-newsletter",
+        "book-and-display-recommendations-limited-explanatory-depth",
+        "time-sensitive-investment-policy-and-chip-industry-tips",
+        "technology-consumption-without-software-development-instruction"
+      ],
+      "status": "accepted",
+      "rubricVersion": "semantic-v2",
+      "evidenceRefs": [
+        ".tmp/readwise/priority-evidence.json#documents.01m3et1s38emvd30xzz12te8z3.title",
+        ".tmp/readwise/priority-evidence.json#documents.01m3et1s38emvd30xzz12te8z3.summary",
+        ".tmp/readwise/priority-evidence.json#documents.01m3et1s38emvd30xzz12te8z3.notes"
+      ],
+      "judgedBy": "codex-semantic-all-later-review-2026-09-26/repeat-run2-reviewer-2",
+      "judgedAt": "2026-09-26T18:34:08Z"
+    },
+    "01m3ese2jjcttrsknpp0qh4ytr": {
+      "sourceFingerprint": "25f3e0af68a8728357d0edcc506fa44b5a2fbd11a60d82e271c96e37e8e69307",
+      "evidenceFingerprint": "31e54a1efda2f1700577d3ee96a0c7cd3cd990465ca14912f1cf4ebbb986a942",
+      "relevance": 3,
+      "substance": 3,
+      "durability": 2,
+      "usefulness": 2,
+      "sequenceFit": {
+        "lees": 1,
+        "social-studies": 2
+      },
+      "topicRelevance": {
+        "scrum": 0,
+        "software-development": 0,
+        "front-end-development": 0,
+        "social-studies": 4,
+        "adhd": 0
+      },
+      "confidence": "medium",
+      "reasonCodes": [
+        "semantic-review",
+        "independent-of-current-position",
+        "evidence:title-summary-notes",
+        "evidence:limited-context",
+        "climate-campaign-framing-around-affordability",
+        "data-center-opposition-builds-cross-group-coalitions",
+        "political-economic-power-and-social-renegotiation",
+        "us-2026-electoral-context-limits-durability-and-local-use"
+      ],
+      "status": "accepted",
+      "rubricVersion": "semantic-v2",
+      "evidenceRefs": [
+        ".tmp/readwise/priority-evidence.json#documents.01m3ese2jjcttrsknpp0qh4ytr.title",
+        ".tmp/readwise/priority-evidence.json#documents.01m3ese2jjcttrsknpp0qh4ytr.summary",
+        ".tmp/readwise/priority-evidence.json#documents.01m3ese2jjcttrsknpp0qh4ytr.notes"
+      ],
+      "judgedBy": "codex-semantic-all-later-review-2026-09-26/repeat-run2-reviewer-2",
+      "judgedAt": "2026-09-26T18:34:08Z"
+    },
+    "01m3esb9vcbjq2dt3tkya5dd1s": {
+      "sourceFingerprint": "29519e636dc2e8f965900aa27ff8d2d86764dbff07803b4543c86df8c786b5a7",
+      "evidenceFingerprint": "72e1b785e08fb48b388431583094e6889d3c580147fcc21419629b6486d67444",
+      "relevance": 3,
+      "substance": 2,
+      "durability": 3,
+      "usefulness": 3,
+      "sequenceFit": {
+        "lees": 1,
+        "dutch": 2,
+        "luchtig": 1,
+        "luchtig-nederlands": 1,
+        "social-studies": 1
+      },
+      "topicRelevance": {
+        "scrum": 0,
+        "software-development": 0,
+        "front-end-development": 0,
+        "social-studies": 3,
+        "adhd": 1
+      },
+      "confidence": "medium",
+      "reasonCodes": [
+        "semantic-review",
+        "independent-of-current-position",
+        "evidence:title-summary-notes",
+        "evidence:limited-context",
+        "written-versus-oral-culture-democratic-argument",
+        "reading-supports-concentration-imagination-and-perspective",
+        "accessible-secondary-essay-limited-empirical-detail",
+        "attention-adjacent-without-adhd-specific-guidance"
+      ],
+      "status": "accepted",
+      "rubricVersion": "semantic-v2",
+      "evidenceRefs": [
+        ".tmp/readwise/priority-evidence.json#documents.01m3esb9vcbjq2dt3tkya5dd1s.title",
+        ".tmp/readwise/priority-evidence.json#documents.01m3esb9vcbjq2dt3tkya5dd1s.summary",
+        ".tmp/readwise/priority-evidence.json#documents.01m3esb9vcbjq2dt3tkya5dd1s.notes"
+      ],
+      "judgedBy": "codex-semantic-all-later-review-2026-09-26/repeat-run2-reviewer-2",
+      "judgedAt": "2026-09-26T18:34:08Z"
+    },
+    "01m3epdkvycv3wpcz9c1ra5p9c": {
+      "sourceFingerprint": "95aec66c8944aaac53f0f13067315449ea7e00878447688be4e0228ddb3bedd7",
+      "evidenceFingerprint": "2e52a48f49de722d2673851749285e7cd49d3619ca56f7a4d997d1c7ccaabbbc",
+      "relevance": 2,
+      "substance": 3,
+      "durability": 4,
+      "usefulness": 1,
+      "sequenceFit": {
+        "lees": 1,
+        "luchtig": 2
+      },
+      "topicRelevance": {
+        "scrum": 0,
+        "software-development": 0,
+        "front-end-development": 0,
+        "social-studies": 1,
+        "adhd": 0
+      },
+      "confidence": "medium",
+      "reasonCodes": [
+        "semantic-review",
+        "independent-of-current-position",
+        "evidence:title-summary-notes",
+        "evidence:limited-context",
+        "letterpress-apprenticeship-and-wendell-berry-chapbook",
+        "concrete-paper-printing-binding-craft-details",
+        "lasting-cultural-history-and-personal-memoir",
+        "specialist-publishing-story-limited-direct-personal-application"
+      ],
+      "status": "accepted",
+      "rubricVersion": "semantic-v2",
+      "evidenceRefs": [
+        ".tmp/readwise/priority-evidence.json#documents.01m3epdkvycv3wpcz9c1ra5p9c.title",
+        ".tmp/readwise/priority-evidence.json#documents.01m3epdkvycv3wpcz9c1ra5p9c.summary",
+        ".tmp/readwise/priority-evidence.json#documents.01m3epdkvycv3wpcz9c1ra5p9c.notes"
+      ],
+      "judgedBy": "codex-semantic-all-later-review-2026-09-26/repeat-run2-reviewer-2",
+      "judgedAt": "2026-09-26T18:34:08Z"
+    },
+    "01m3ej65xsrvbbg7snqth2reg0": {
+      "sourceFingerprint": "4bbf4d980a50066817b6832bba7077d13cbaac1110bce52604f4f9013bca18b1",
+      "evidenceFingerprint": "32f0640765eb12752c4d56fb4c9d091aec19731c138370a94dc36dc74f5db5fb",
+      "relevance": 3,
+      "substance": 3,
+      "durability": 2,
+      "usefulness": 3,
+      "sequenceFit": {
+        "lees": 1,
+        "software-development": 2,
+        "social-studies": 0,
+        "luchtig": -1
+      },
+      "topicRelevance": {
+        "scrum": 0,
+        "software-development": 3,
+        "front-end-development": 0,
+        "social-studies": 1,
+        "adhd": 0
+      },
+      "confidence": "medium",
+      "reasonCodes": [
+        "semantic-review",
+        "independent-of-current-position",
+        "evidence:title-summary-notes",
+        "evidence:limited-context",
+        "concrete-agent-filesystem-export-case",
+        "runtime-connectors-memory-architecture",
+        "security-claims-explicitly-bounded",
+        "product-specific-findings-may-age",
+        "practical-agent-isolation-risk-awareness"
+      ],
+      "status": "accepted",
+      "rubricVersion": "semantic-v2",
+      "evidenceRefs": [
+        ".tmp/readwise/priority-evidence.json#documents.01m3ej65xsrvbbg7snqth2reg0.title",
+        ".tmp/readwise/priority-evidence.json#documents.01m3ej65xsrvbbg7snqth2reg0.summary",
+        ".tmp/readwise/priority-evidence.json#documents.01m3ej65xsrvbbg7snqth2reg0.notes"
+      ],
+      "judgedBy": "codex-semantic-all-later-review-2026-09-26/repeat-run2-reviewer-3",
+      "judgedAt": "2026-09-26T18:34:14Z"
+    },
+    "01m3efafcbbj18x5rmkha78mrv": {
+      "sourceFingerprint": "3265d51963da51b33819e32ca3ba90aa636847e28ef3018a709dd175f7c2af3e",
+      "evidenceFingerprint": "cde2d14682bc979e13df1cfae9caaac7b12ddca1612c514029219048f482561e",
+      "relevance": 2,
+      "substance": 2,
+      "durability": 2,
+      "usefulness": 1,
+      "sequenceFit": {
+        "lees": 0,
+        "dutch": 1,
+        "luchtig": 2,
+        "luchtig-nederlands": 2,
+        "social-studies": 1
+      },
+      "topicRelevance": {
+        "scrum": 0,
+        "software-development": 0,
+        "front-end-development": 0,
+        "social-studies": 2,
+        "adhd": 0
+      },
+      "confidence": "medium",
+      "reasonCodes": [
+        "semantic-review",
+        "independent-of-current-position",
+        "evidence:title-summary-notes",
+        "evidence:limited-context",
+        "explicit-satire-on-ai-fear",
+        "fictional-central-claims-disclosed",
+        "cultural-ai-narratives-relevance",
+        "limited-actionable-guidance",
+        "mixed-real-contested-and-fictional-examples"
+      ],
+      "status": "accepted",
+      "rubricVersion": "semantic-v2",
+      "evidenceRefs": [
+        ".tmp/readwise/priority-evidence.json#documents.01m3efafcbbj18x5rmkha78mrv.title",
+        ".tmp/readwise/priority-evidence.json#documents.01m3efafcbbj18x5rmkha78mrv.summary",
+        ".tmp/readwise/priority-evidence.json#documents.01m3efafcbbj18x5rmkha78mrv.notes"
+      ],
+      "judgedBy": "codex-semantic-all-later-review-2026-09-26/repeat-run2-reviewer-3",
+      "judgedAt": "2026-09-26T18:34:14Z"
+    },
+    "01m3ed8qnq5mner7eww8f6th25": {
+      "sourceFingerprint": "78138a9ce389be1bfb04d401f24b7321ac2f0bc1cf8f20b859b1bfee5f3fa4db",
+      "evidenceFingerprint": "5ea41694a8d2c10d2c81ec550ecab8be1da89491b85e9bd88f8dddbf5cc4ea06",
+      "relevance": 3,
+      "substance": 3,
+      "durability": 3,
+      "usefulness": 2,
+      "sequenceFit": {
+        "lees": 1,
+        "social-studies": 2,
+        "luchtig": -2
+      },
+      "topicRelevance": {
+        "scrum": 0,
+        "software-development": 0,
+        "front-end-development": 0,
+        "social-studies": 4,
+        "adhd": 0
+      },
+      "confidence": "medium",
+      "reasonCodes": [
+        "semantic-review",
+        "independent-of-current-position",
+        "evidence:title-summary-notes",
+        "evidence:limited-context",
+        "domestic-terrorism-definition-versus-charge",
+        "foreign-organization-material-support-distinction",
+        "racial-disparity-in-public-framing",
+        "specific-us-legal-context",
+        "durable-institutional-classification-analysis"
+      ],
+      "status": "accepted",
+      "rubricVersion": "semantic-v2",
+      "evidenceRefs": [
+        ".tmp/readwise/priority-evidence.json#documents.01m3ed8qnq5mner7eww8f6th25.title",
+        ".tmp/readwise/priority-evidence.json#documents.01m3ed8qnq5mner7eww8f6th25.summary",
+        ".tmp/readwise/priority-evidence.json#documents.01m3ed8qnq5mner7eww8f6th25.notes"
+      ],
+      "judgedBy": "codex-semantic-all-later-review-2026-09-26/repeat-run2-reviewer-3",
+      "judgedAt": "2026-09-26T18:34:14Z"
+    },
+    "01m3ed7gb0rwa632dhmrf9ae4n": {
+      "sourceFingerprint": "64503e71cc3a8287749b0eb127873a70f969841eb2d05014865ab3125907d29b",
+      "evidenceFingerprint": "70f398711318a7b1b8facae3ed5dbaedacaa23aab6a19acf8669b25969103a89",
+      "relevance": 4,
+      "substance": 3,
+      "durability": 4,
+      "usefulness": 3,
+      "sequenceFit": {
+        "lees": 2,
+        "social-studies": 2,
+        "luchtig": -1
+      },
+      "topicRelevance": {
+        "scrum": 0,
+        "software-development": 0,
+        "front-end-development": 0,
+        "social-studies": 4,
+        "adhd": 0
+      },
+      "confidence": "medium",
+      "reasonCodes": [
+        "semantic-review",
+        "independent-of-current-position",
+        "evidence:title-summary-notes",
+        "evidence:limited-context",
+        "habermas-deliberative-climate-framework",
+        "facts-versus-justice-and-burden-distribution",
+        "democratic-legitimacy-and-power-analysis",
+        "moral-norms-versus-community-values",
+        "transferable-public-decision-reasoning"
+      ],
+      "status": "accepted",
+      "rubricVersion": "semantic-v2",
+      "evidenceRefs": [
+        ".tmp/readwise/priority-evidence.json#documents.01m3ed7gb0rwa632dhmrf9ae4n.title",
+        ".tmp/readwise/priority-evidence.json#documents.01m3ed7gb0rwa632dhmrf9ae4n.summary",
+        ".tmp/readwise/priority-evidence.json#documents.01m3ed7gb0rwa632dhmrf9ae4n.notes"
+      ],
+      "judgedBy": "codex-semantic-all-later-review-2026-09-26/repeat-run2-reviewer-3",
+      "judgedAt": "2026-09-26T18:34:14Z"
+    },
+    "01m3dtbfc57q1eg2b7n6ctyn6w": {
+      "sourceFingerprint": "5da0617e97ec600eb8e5b3f2d78f28a7df601ec1bcfc349725f8d074cc202b03",
+      "evidenceFingerprint": "95e54f7d1913ea073e41637913f5a46373b0a6755bcb152802028a194232ed8e",
+      "relevance": 3,
+      "substance": 3,
+      "durability": 2,
+      "usefulness": 2,
+      "sequenceFit": {
+        "lees": 1,
+        "social-studies": 2,
+        "luchtig": -2
+      },
+      "topicRelevance": {
+        "scrum": 0,
+        "software-development": 0,
+        "front-end-development": 0,
+        "social-studies": 4,
+        "adhd": 0
+      },
+      "confidence": "medium",
+      "reasonCodes": [
+        "semantic-review",
+        "independent-of-current-position",
+        "evidence:title-summary-notes",
+        "evidence:limited-context",
+        "first-person-contested-protest-prosecution-account",
+        "reporting-references-court-materials",
+        "claims-attributed-rather-than-established",
+        "detention-gender-and-political-power",
+        "ongoing-case-and-appeal-limit-durability"
+      ],
+      "status": "accepted",
+      "rubricVersion": "semantic-v2",
+      "evidenceRefs": [
+        ".tmp/readwise/priority-evidence.json#documents.01m3dtbfc57q1eg2b7n6ctyn6w.title",
+        ".tmp/readwise/priority-evidence.json#documents.01m3dtbfc57q1eg2b7n6ctyn6w.summary",
+        ".tmp/readwise/priority-evidence.json#documents.01m3dtbfc57q1eg2b7n6ctyn6w.notes"
+      ],
+      "judgedBy": "codex-semantic-all-later-review-2026-09-26/repeat-run2-reviewer-3",
+      "judgedAt": "2026-09-26T18:34:14Z"
     }
   }
 }
