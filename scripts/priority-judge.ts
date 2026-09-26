@@ -42,7 +42,7 @@ async function fetchLater(): Promise<ReadwiseDocument[]> {
   const documents: ReadwiseDocument[] = [];
   let cursor: string | null = null;
   do {
-    const args = ["reader-list-documents", "--location", "later", "--limit", "100", "--response-fields", RESPONSE_FIELDS, "--json"];
+    const args = ["reader-list-documents", "--location", "later", "--limit", "100", "--response-fields", RESPONSE_FIELDS, "--json", "--refresh"];
     if (cursor) {args.push("--page-cursor", cursor);}
     const { stdout } = await runReadwise(args);
     const page = parseReadwiseDocumentPage(JSON.parse(stdout));

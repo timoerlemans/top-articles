@@ -964,15 +964,15 @@ registerServiceWorker();
     const priority = priorityFor(item);
     if (priority) {
       const span = document.createElement("span");
-      span.className = `badge priority-badge priority-${priority.tier}`;
-      span.textContent = `Prioriteit: ${priority.tier} · ${priority.score}`;
+      span.className = "badge priority-badge";
+      span.textContent = `Prioriteitsscore: ${priority.score}`;
       wrap.appendChild(span);
       hasBadges = true;
       const sequenceScore = priority.sequenceScores[activeSequence ?? "lees"];
       if (activeSequence && activeSequence !== "lees" && sequenceScore) {
         const sequenceSpan = document.createElement("span");
-        sequenceSpan.className = `badge sequence-priority-badge priority-${sequenceScore.tier}`;
-        sequenceSpan.textContent = `Reeks: ${prioritySequenceLabel(activeSequence)} · ${sequenceScore.tier} · ${sequenceScore.score}`;
+        sequenceSpan.className = "badge sequence-priority-badge";
+        sequenceSpan.textContent = `Reeks: ${prioritySequenceLabel(activeSequence)} · ${sequenceScore.score}`;
         wrap.appendChild(sequenceSpan);
       }
     }
@@ -1083,13 +1083,6 @@ registerServiceWorker();
     return `${source} · ${confidence}. ${basis}`;
   }
 
-  function priorityTierLabel(tier: string): string {
-    if (tier === "hoog") {return "hoge prioriteit";}
-    if (tier === "midden") {return "gemiddelde prioriteit";}
-    if (tier === "laag") {return "lage prioriteit";}
-    return tier;
-  }
-
   function buildPriorityDetails(item: ArticleItem, activeSequence?: PrioritySequence): HTMLDetailsElement | null {
     const priority = priorityFor(item);
     if (!priority) {return null;}
@@ -1098,7 +1091,7 @@ registerServiceWorker();
     details.className = "priority-breakdown";
 
     const summary = document.createElement("summary");
-    summary.textContent = `Prioriteitsscore ${priority.score} · ${priorityTierLabel(priority.tier)}`;
+    summary.textContent = `Prioriteitsscore ${priority.score}`;
     details.appendChild(summary);
 
     const intro = document.createElement("p");
@@ -1123,7 +1116,7 @@ registerServiceWorker();
       const topicNote = activeScore.mode === "topic" && activeScore.topicRelevance !== undefined
         ? ` Topicrelevantie: ${activeScore.topicRelevance}/4 (${activeScore.relevanceSource === "label" ? "semantisch beoordeeld" : "automatische fallback"}).`
         : "";
-      sequenceTotal.textContent = `Reeksscore ${prioritySequenceLabel(activeSequence)}: ${activeScore.score} · ${priorityTierLabel(activeScore.tier)}.${topicNote}`;
+      sequenceTotal.textContent = `Reeksscore ${prioritySequenceLabel(activeSequence)}: ${activeScore.score}.${topicNote}`;
       details.appendChild(sequenceTotal);
     }
 

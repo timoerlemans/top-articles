@@ -1,4 +1,4 @@
-const APP_SHELL_CACHE = "top-articles-shell-v1";
+const APP_SHELL_CACHE = "top-articles-shell-v2";
 const IMAGE_CACHE = "top-articles-images-v1";
 const APP_SHELL_URLS = [
   "./",
@@ -18,9 +18,15 @@ const CACHE_PREFIX = "top-articles-";
 
 const shellUrls = new Set(APP_SHELL_URLS.map((path) => new URL(path, self.registration.scope).href));
 
+function shellCacheUrl(request) {
+  const url = new URL(request.url);
+  url.search = "";
+  return url.href;
+}
+
 function cacheShellResponse(request, response) {
   if (!response.ok) { return Promise.resolve(); }
-  return caches.open(APP_SHELL_CACHE).then((cache) => cache.put(request, response));
+  return caches.open(APP_SHELL_CACHE).then((cache) => cache.put(shellCacheUrl(request), response));
 }
 
 async function trimImageCache(cache) {
@@ -58,12 +64,16 @@ async function cacheImage(request, response) {
 }
 
 async function serveShell(request, event) {
-  const cached = await caches.match(request);
-  const refresh = fetch(request)
-    .then((response) => cacheShellResponse(request, response.clone()))
-    .catch(() => undefined);
-  event.waitUntil(refresh);
-  return cached ?? fetch(request);
+  try {
+    const response = await fetch(request, { cache: "no-cache" });
+    if (response.ok) {
+      event.waitUntil(cacheShellResponse(request, response.clone()));
+      return response;
+    }
+    return (await caches.match(shellCacheUrl(request))) ?? response;
+  } catch {
+    return (await caches.match(shellCacheUrl(request))) ?? Response.error();
+  }
 }
 
 async function serveImage(request) {
@@ -76,7 +86,7 @@ async function serveImage(request) {
 }
 
 self.addEventListener("install", (event) => {
-  event.waitUntil(caches.open(APP_SHELL_CACHE).then((cache) => cache.addAll(APP_SHELL_URLS)));
+  event.waitUntil(caches.open(APP_SHELL_CACHE).then((cache) => cache.addAll(APP_SHELL_URLS)).then(() => self.skipWaiting()));
 });
 
 self.addEventListener("activate", (event) => {
@@ -89,7 +99,7 @@ self.addEventListener("activate", (event) => {
 self.addEventListener("fetch", (event) => {
   const { request } = event;
   if (request.method !== "GET") { return; }
-  if (shellUrls.has(request.url)) {
+  if (shellUrls.has(shellCacheUrl(request))) {
     event.respondWith(serveShell(request, event));
     return;
   }

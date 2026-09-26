@@ -1,6 +1,7 @@
 import assert from "node:assert/strict";
 import { readFile, stat } from "node:fs/promises";
 import test from "node:test";
+import vm from "node:vm";
 
 const root = new URL("../../", import.meta.url);
 
@@ -38,7 +39,7 @@ test("de pagina koppelt manifest, themakleur en installatie-icoon", async () => 
   assert.match(html, /<link rel="apple-touch-icon" href="icons\/icon-192\.png" \/>/);
 });
 
-test("worker serveert een volledige eerdere shell offline en ververst die alleen op de achtergrond", async () => {
+test("worker bewaart een volledige shell voor offline gebruik en activeert updates direct", async () => {
   const worker = await readFile(new URL("service-worker.js", root), "utf8");
   for (const path of [
     "./",
@@ -56,7 +57,57 @@ test("worker serveert een volledige eerdere shell offline en ververst die alleen
   }
   assert.match(worker, /cache\.addAll\(APP_SHELL_URLS\)/);
   assert.match(worker, /event\.waitUntil\(/);
-  assert.doesNotMatch(worker, /skipWaiting/);
+  assert.match(worker, /skipWaiting/);
+});
+
+test("worker haalt versiegebonden JS eerst online op en gebruikt de cache bij netwerkuitval", async () => {
+  const worker = await readFile(new URL("service-worker.js", root), "utf8");
+  type ShellEvent = {
+    request: Request;
+    respondWith: (response: Promise<Response>) => void;
+    waitUntil: (operation: Promise<unknown>) => void;
+  };
+  let handler: ((event: ShellEvent) => void) | undefined;
+  let online = true;
+  const cached = new Response("oude data");
+  const stored: string[] = [];
+  const pending: Promise<unknown>[] = [];
+  vm.runInNewContext(worker, {
+    URL, Response,
+    self: {
+      registration: { scope: "https://example.com/top-articles/" },
+      addEventListener: (name: string, listener: (event: ShellEvent) => void) => {
+        if (name === "fetch") {handler = listener;}
+      },
+    },
+    caches: {
+      match: (url: string) => {
+        assert.equal(url, "https://example.com/top-articles/data/score.js");
+        return Promise.resolve(cached.clone());
+      },
+      open: () => Promise.resolve({ put: async (url: string, response: Response) => {
+        assert.equal(url, "https://example.com/top-articles/data/score.js");
+        stored.push(await response.text());
+      } }),
+    },
+    fetch: (_request: Request, options: { cache: string }) => {
+      assert.equal(options.cache, "no-cache");
+      return online ? Promise.resolve(new Response("nieuwe data")) : Promise.reject(new Error("offline"));
+    },
+  });
+  assert.ok(handler);
+  const load = (): Promise<Response> => new Promise((resolve, reject) => {
+    handler?.({
+      request: new Request("https://example.com/top-articles/data/score.js?c=123"),
+      respondWith: (response) => { response.then(resolve, reject); },
+      waitUntil: (operation) => { pending.push(operation); },
+    });
+  });
+  assert.equal(await (await load()).text(), "nieuwe data");
+  await Promise.all(pending);
+  assert.deepEqual(stored, ["nieuwe data"]);
+  online = false;
+  assert.equal(await (await load()).text(), "oude data");
 });
 
 test("worker laat niet-GET-verzoeken met rust en begrenst de afbeeldingscache", async () => {

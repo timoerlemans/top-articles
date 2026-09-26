@@ -65,6 +65,7 @@ async function fetchDocumentsByLocation(location: string): Promise<ReadwiseDocum
       "--response-fields",
       RESPONSE_FIELDS,
       "--json",
+      "--refresh",
     ];
     if (cursor) {
       args.push("--page-cursor", cursor);
@@ -285,6 +286,14 @@ async function main() {
     writeFile(OUT_FILE, banner + body, "utf8"),
     writeFile(PRIORITY_OUT_FILE, banner + priorityBody, "utf8"),
   ]);
+  const indexFile = join(ROOT, "index.html");
+  const cacheVersion = String(Math.floor(Date.parse(generatedAt) / 1000));
+  const indexHtml = await readFile(indexFile, "utf8");
+  const versionedHtml = indexHtml.replace(
+    /src="(data\/(?:data|score)\.js|dist\/src\/app\.js)(?:\?c=\d+)?"/g,
+    `src="$1?c=${cacheVersion}"`,
+  );
+  await writeFile(indexFile, versionedHtml, "utf8");
   console.log(`\nGeschreven naar ${OUT_FILE}`);
   console.log(`Geschreven naar ${PRIORITY_OUT_FILE} (${Object.keys(priority.items).length} later-documenten)`);
 }

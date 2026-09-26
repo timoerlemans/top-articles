@@ -204,6 +204,7 @@ test("de score-uitklapper vertaalt technische prioriteitsdata naar leesbare uitl
   assert.match(source, /Sterke aansluiting op je interesses/);
   assert.match(source, /volgens de score/i);
   assert.match(source, /huidige Readwise-positie/i);
+  assert.doesNotMatch(source, /priorityTierLabel|priority\.tier|sequenceScore\.tier/);
   assert.doesNotMatch(source, /confidence \$\{priority\.judgmentConfidence\}/);
   assert.doesNotMatch(source, /reasons\.join\(" "\)/);
   assert.match(css, /\.priority-component-score/);

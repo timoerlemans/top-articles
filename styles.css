@@ -7,10 +7,6 @@
   --text-dim: #948e81;
   --accent: #8a5a3b;
   --accent-bg: rgba(138, 90, 59, 0.1);
-  --priority-badge-text: #2a2822;
-  --priority-high-bg: #dfeee4;
-  --priority-middle-bg: #f3e7ce;
-  --priority-low-bg: #e4e1db;
   --content-width: 820px;
   --content-gutter: 1.25rem;
   --font-serif: Georgia, "Iowan Old Style", "Palatino Linotype", Palatino, serif;
@@ -27,10 +23,6 @@
     --text-dim: #837c6e;
     --accent: #d3a17a;
     --accent-bg: rgba(211, 161, 122, 0.14);
-    --priority-badge-text: #ece8e0;
-    --priority-high-bg: #294234;
-    --priority-middle-bg: #493b23;
-    --priority-low-bg: #393731;
   }
 }
 
@@ -878,21 +870,6 @@ main {
 
 .priority-badge {
   font-weight: 600;
-}
-
-.priority-hoog {
-  color: var(--priority-badge-text);
-  background: var(--priority-high-bg);
-}
-
-.priority-midden {
-  color: var(--priority-badge-text);
-  background: var(--priority-middle-bg);
-}
-
-.priority-laag {
-  color: var(--priority-badge-text);
-  background: var(--priority-low-bg);
 }
 
 .item-source {

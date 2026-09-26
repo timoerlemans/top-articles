@@ -7,12 +7,15 @@ import { isGeneratedPriority } from "./helpers/generated-browser-data.js";
 
 test("priority-export wordt voor de appdata in de browser geladen", async () => {
   const html = await readFile(new URL("../../index.html", import.meta.url), "utf8");
-  const scoreIndex = html.indexOf('src="data/score.js"');
-  const dataIndex = html.indexOf('src="data/data.js"');
-  const appIndex = html.indexOf('src="dist/src/app.js"');
+  const scoreIndex = html.indexOf('src="data/score.js?c=');
+  const dataIndex = html.indexOf('src="data/data.js?c=');
+  const appIndex = html.indexOf('src="dist/src/app.js?c=');
 
   assert.ok(scoreIndex >= 0, "data/score.js wordt niet geladen");
   assert.ok(scoreIndex < dataIndex && dataIndex < appIndex, "datascripts staan in de verkeerde volgorde");
+  const versions = [...html.matchAll(/src="(?:data\/(?:data|score)\.js|dist\/src\/app\.js)\?c=(\d+)"/g)].map((match) => match[1]);
+  assert.equal(versions.length, 3);
+  assert.equal(new Set(versions).size, 1, "scripts gebruiken niet dezelfde dataversie");
 });
 
 test("score.js bevat het zelfstandige priority-v8 browsercontract", async () => {

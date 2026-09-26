@@ -80,7 +80,7 @@ async function fetchLocation(location: Location): Promise<ReadwiseDocument[]> {
   const documents: ReadwiseDocument[] = [];
   let cursor = null;
   do {
-    const args = ["reader-list-documents", "--location", location, "--limit", "100", "--response-fields", RESPONSE_FIELDS, "--json"];
+    const args = ["reader-list-documents", "--location", location, "--limit", "100", "--response-fields", RESPONSE_FIELDS, "--json", "--refresh"];
     if (cursor) {
       args.push("--page-cursor", cursor);
     }
