@@ -1,11 +1,11 @@
 // Automatisch gegenereerd door scripts/build-data.ts — niet handmatig bewerken.
 window.TOP_ARTICLE_PRIORITY = {
-  "generatedAt": "2026-09-28T10:27:10.746Z",
+  "generatedAt": "2026-09-29T10:22:07.324Z",
   "model": "readwise-priority-v8",
   "scope": "later",
   "coreInterestPriority": {
     "version": 1,
-    "generatedAt": "2026-09-28T10:27:10.746Z",
+    "generatedAt": "2026-09-29T10:22:07.324Z",
     "order": [
       "agile",
       "adhd",
@@ -41,7 +41,7 @@ window.TOP_ARTICLE_PRIORITY = {
         "rank": 1,
         "weight": 20,
         "source": "manual",
-        "evidenceDocumentCount": 209,
+        "evidenceDocumentCount": 200,
         "evidenceScore": 0
       },
       {
@@ -59,7 +59,7 @@ window.TOP_ARTICLE_PRIORITY = {
         "rank": 3,
         "weight": 12,
         "source": "manual",
-        "evidenceDocumentCount": 167,
+        "evidenceDocumentCount": 162,
         "evidenceScore": 0
       },
       {
@@ -68,7 +68,7 @@ window.TOP_ARTICLE_PRIORITY = {
         "rank": 4,
         "weight": 10,
         "source": "derived",
-        "evidenceDocumentCount": 174,
+        "evidenceDocumentCount": 165,
         "evidenceScore": 1140
       },
       {
@@ -77,7 +77,7 @@ window.TOP_ARTICLE_PRIORITY = {
         "rank": 5,
         "weight": 9,
         "source": "derived",
-        "evidenceDocumentCount": 54,
+        "evidenceDocumentCount": 53,
         "evidenceScore": 1130
       },
       {
@@ -86,7 +86,7 @@ window.TOP_ARTICLE_PRIORITY = {
         "rank": 6,
         "weight": 8,
         "source": "derived",
-        "evidenceDocumentCount": 53,
+        "evidenceDocumentCount": 52,
         "evidenceScore": 1122
       },
       {
@@ -104,7 +104,7 @@ window.TOP_ARTICLE_PRIORITY = {
         "rank": 8,
         "weight": 6,
         "source": "derived",
-        "evidenceDocumentCount": 32,
+        "evidenceDocumentCount": 31,
         "evidenceScore": 1093
       },
       {
@@ -131,7 +131,7 @@ window.TOP_ARTICLE_PRIORITY = {
         "rank": 11,
         "weight": 3,
         "source": "derived",
-        "evidenceDocumentCount": 16,
+        "evidenceDocumentCount": 15,
         "evidenceScore": 1063
       },
       {
@@ -146,6 +146,123 @@ window.TOP_ARTICLE_PRIORITY = {
     ]
   },
   "items": {
+    "01m3kq1j9rwm5dcer9vhmvbncx": {
+      "baseScore": 102,
+      "adjustment": 0,
+      "adjustmentReason": null,
+      "score": 102,
+      "tier": "hoog",
+      "components": {
+        "kerninteresse": 20,
+        "relevantie": 10,
+        "substantie": 32,
+        "duurzaamheid": 20,
+        "bruikbaarheid": 20,
+        "leeskans": 0,
+        "nederlandse_taal": 0,
+        "aftrek": 0
+      },
+      "rationale": {
+        "relevantie": [
+          "inhoudelijke relevantie uit de low-confidence inhoudsbeoordeling.",
+          "Bewijs: fallback-no-label, explicit-interest-tag, substance-signal, usefulness-signal, automated-fallback."
+        ],
+        "substantie": [
+          "substantie uit de low-confidence inhoudsbeoordeling."
+        ],
+        "duurzaamheid": [
+          "duurzaamheid uit de low-confidence inhoudsbeoordeling."
+        ],
+        "bruikbaarheid": [
+          "bruikbaarheid uit de low-confidence inhoudsbeoordeling."
+        ],
+        "leeskans": [],
+        "nederlandse_taal": [],
+        "aftrek": [],
+        "kerninteresse": [
+          "Agile: +20 (Agile, Flow & Delivery)."
+        ]
+      },
+      "judgmentSource": "fallback",
+      "judgmentConfidence": "low",
+      "coreInterestMatches": [
+        {
+          "interest": "agile",
+          "evidence": [
+            {
+              "kind": "readwise-tag",
+              "source": "agile",
+              "label": "Agile"
+            },
+            {
+              "kind": "readwise-tag",
+              "source": "flow & delivery",
+              "label": "Flow & Delivery"
+            }
+          ],
+          "qualityScore": 82,
+          "weight": 20
+        }
+      ],
+      "sequences": [
+        "pdf",
+        "scrum",
+        "social-studies"
+      ],
+      "sequenceScores": {
+        "pdf": {
+          "score": 108,
+          "tier": "hoog",
+          "mode": "global"
+        },
+        "scrum": {
+          "score": 132,
+          "tier": "hoog",
+          "mode": "topic",
+          "topicRelevance": 4,
+          "relevanceSource": "fallback",
+          "relevanceConfidence": "low",
+          "components": {
+            "kerninteresse": 20,
+            "topic_relevantie": 4,
+            "substantie": 32,
+            "duurzaamheid": 20,
+            "bruikbaarheid": 20,
+            "leeskans": 0,
+            "nederlandse_taal": 0,
+            "aftrek": 0
+          }
+        },
+        "social-studies": {
+          "score": 132,
+          "tier": "hoog",
+          "mode": "topic",
+          "topicRelevance": 4,
+          "relevanceSource": "fallback",
+          "relevanceConfidence": "low",
+          "components": {
+            "kerninteresse": 20,
+            "topic_relevantie": 4,
+            "substantie": 32,
+            "duurzaamheid": 20,
+            "bruikbaarheid": 20,
+            "leeskans": 0,
+            "nederlandse_taal": 0,
+            "aftrek": 0
+          }
+        }
+      },
+      "positions": {
+        "pdf": 15,
+        "scrum": 54,
+        "social-studies": 106
+      },
+      "actualPositions": {
+        "pdf": 15,
+        "scrum": 54,
+        "social-studies": 106
+      }
+    },
     "01m3kkcj89h3jbvvghxdtyf1jc": {
       "baseScore": 122,
       "adjustment": 20,
@@ -234,69 +351,6 @@ window.TOP_ARTICLE_PRIORITY = {
         "boek": 36
       }
     },
-    "01m3kez6t02jg1ksejb08hp9ef": {
-      "baseScore": 59,
-      "adjustment": 0,
-      "adjustmentReason": null,
-      "score": 59,
-      "tier": "midden",
-      "components": {
-        "kerninteresse": 0,
-        "relevantie": 10,
-        "substantie": 24,
-        "duurzaamheid": 5,
-        "bruikbaarheid": 20,
-        "leeskans": 0,
-        "nederlandse_taal": 0,
-        "aftrek": 0
-      },
-      "rationale": {
-        "relevantie": [
-          "inhoudelijke relevantie uit de low-confidence inhoudsbeoordeling.",
-          "Bewijs: fallback-no-label, substance-signal, usefulness-signal, automated-fallback."
-        ],
-        "substantie": [
-          "substantie uit de low-confidence inhoudsbeoordeling."
-        ],
-        "duurzaamheid": [
-          "duurzaamheid uit de low-confidence inhoudsbeoordeling."
-        ],
-        "bruikbaarheid": [
-          "bruikbaarheid uit de low-confidence inhoudsbeoordeling."
-        ],
-        "leeskans": [],
-        "nederlandse_taal": [],
-        "aftrek": [],
-        "kerninteresse": []
-      },
-      "judgmentSource": "fallback",
-      "judgmentConfidence": "low",
-      "coreInterestMatches": [],
-      "sequences": [
-        "lees",
-        "luchtig"
-      ],
-      "sequenceScores": {
-        "lees": {
-          "score": 59,
-          "tier": "midden",
-          "mode": "global"
-        },
-        "luchtig": {
-          "score": 62,
-          "tier": "midden",
-          "mode": "global"
-        }
-      },
-      "positions": {
-        "lees": 398,
-        "luchtig": 113
-      },
-      "actualPositions": {
-        "lees": 398,
-        "luchtig": 113
-      }
-    },
     "01m3kez19tg8gv1p9ww57qj4r4": {
       "baseScore": 64,
       "adjustment": 0,
@@ -360,14 +414,14 @@ window.TOP_ARTICLE_PRIORITY = {
         }
       },
       "positions": {
-        "lees": 396,
-        "short": 265,
-        "luchtig": 111
+        "lees": 365,
+        "short": 242,
+        "luchtig": 108
       },
       "actualPositions": {
-        "lees": 396,
-        "short": 265,
-        "luchtig": 111
+        "lees": 365,
+        "short": 242,
+        "luchtig": 108
       }
     },
     "01m3k5qm7h7wppnrbhkkr96erh": {
@@ -447,12 +501,12 @@ window.TOP_ARTICLE_PRIORITY = {
         }
       },
       "positions": {
-        "lees": 364,
-        "short": 235
+        "lees": 347,
+        "short": 224
       },
       "actualPositions": {
-        "lees": 364,
-        "short": 235
+        "lees": 347,
+        "short": 224
       }
     },
     "01m3k5qb7arhf6c3q8cc8m8qgn": {
@@ -531,14 +585,14 @@ window.TOP_ARTICLE_PRIORITY = {
         }
       },
       "positions": {
-        "lees": 389,
-        "short": 258,
-        "social-studies": 250
+        "lees": 361,
+        "short": 237,
+        "social-studies": 235
       },
       "actualPositions": {
-        "lees": 389,
-        "short": 258,
-        "social-studies": 250
+        "lees": 361,
+        "short": 237,
+        "social-studies": 235
       }
     },
     "01m3k30p1gcxsg6nt4e5hz45mq": {
@@ -596,11 +650,11 @@ window.TOP_ARTICLE_PRIORITY = {
         }
       },
       "positions": {
-        "lees": 361,
+        "lees": 345,
         "luchtig": 98
       },
       "actualPositions": {
-        "lees": 361,
+        "lees": 345,
         "luchtig": 98
       }
     },
@@ -716,14 +770,14 @@ window.TOP_ARTICLE_PRIORITY = {
         }
       },
       "positions": {
-        "lees": 360,
-        "scrum": 100,
-        "social-studies": 160
+        "lees": 344,
+        "scrum": 101,
+        "social-studies": 155
       },
       "actualPositions": {
-        "lees": 360,
-        "scrum": 100,
-        "social-studies": 160
+        "lees": 344,
+        "scrum": 101,
+        "social-studies": 155
       }
     },
     "01m3jfage15ad93g4xfk6zz522": {
@@ -854,16 +908,16 @@ window.TOP_ARTICLE_PRIORITY = {
         }
       },
       "positions": {
-        "lees": 304,
-        "short": 187,
+        "lees": 296,
+        "short": 183,
         "scrum": 51,
-        "social-studies": 106
+        "social-studies": 102
       },
       "actualPositions": {
-        "lees": 304,
-        "short": 187,
+        "lees": 296,
+        "short": 183,
         "scrum": 51,
-        "social-studies": 106
+        "social-studies": 102
       }
     },
     "01m3jf9dksdepqtpgtw13v3412": {
@@ -923,12 +977,12 @@ window.TOP_ARTICLE_PRIORITY = {
         }
       },
       "positions": {
-        "lees": 388,
-        "short": 257
+        "lees": 360,
+        "short": 236
       },
       "actualPositions": {
-        "lees": 388,
-        "short": 257
+        "lees": 360,
+        "short": 236
       }
     },
     "01m3jf7xsy9tz80v6rpf02hjp9": {
@@ -994,13 +1048,13 @@ window.TOP_ARTICLE_PRIORITY = {
         }
       },
       "positions": {
-        "lees": 374,
-        "short": 239,
+        "lees": 354,
+        "short": 226,
         "luchtig": 101
       },
       "actualPositions": {
-        "lees": 374,
-        "short": 239,
+        "lees": 354,
+        "short": 226,
         "luchtig": 101
       }
     },
@@ -1067,14 +1121,14 @@ window.TOP_ARTICLE_PRIORITY = {
         }
       },
       "positions": {
-        "lees": 395,
-        "short": 264,
-        "luchtig": 112
+        "lees": 364,
+        "short": 241,
+        "luchtig": 109
       },
       "actualPositions": {
-        "lees": 395,
-        "short": 264,
-        "luchtig": 112
+        "lees": 364,
+        "short": 241,
+        "luchtig": 109
       }
     },
     "01m3j811qp5tg4s050wcwbtvdc": {
@@ -1175,181 +1229,12 @@ window.TOP_ARTICLE_PRIORITY = {
         }
       },
       "positions": {
-        "software-development": 86,
-        "social-studies": 212
+        "software-development": 78,
+        "social-studies": 204
       },
       "actualPositions": {
-        "software-development": 86,
-        "social-studies": 212
-      }
-    },
-    "01m3j80sbswv0jp1vf1rg2jepp": {
-      "baseScore": 77,
-      "adjustment": 20,
-      "adjustmentReason": "Tag shortlist: +20 bonuspunten.",
-      "score": 97,
-      "tier": "hoog",
-      "components": {
-        "kerninteresse": 10,
-        "relevantie": 10,
-        "substantie": 32,
-        "duurzaamheid": 15,
-        "bruikbaarheid": 10,
-        "leeskans": 0,
-        "nederlandse_taal": 0,
-        "aftrek": 0
-      },
-      "rationale": {
-        "relevantie": [
-          "inhoudelijke relevantie uit de low-confidence inhoudsbeoordeling.",
-          "Bewijs: fallback-no-label, explicit-interest-tag, substance-signal, automated-fallback."
-        ],
-        "substantie": [
-          "substantie uit de low-confidence inhoudsbeoordeling."
-        ],
-        "duurzaamheid": [
-          "duurzaamheid uit de low-confidence inhoudsbeoordeling."
-        ],
-        "bruikbaarheid": [
-          "bruikbaarheid uit de low-confidence inhoudsbeoordeling."
-        ],
-        "leeskans": [],
-        "nederlandse_taal": [],
-        "aftrek": [],
-        "kerninteresse": [
-          "Sociologie: +10 (Social Psychology & Interpersonal Dynamics, Sociology & Social Structures)."
-        ]
-      },
-      "judgmentSource": "fallback",
-      "judgmentConfidence": "low",
-      "coreInterestMatches": [
-        {
-          "interest": "sociologie",
-          "evidence": [
-            {
-              "kind": "readwise-tag",
-              "source": "social psychology & interpersonal dynamics",
-              "label": "Social Psychology & Interpersonal Dynamics"
-            },
-            {
-              "kind": "readwise-tag",
-              "source": "sociology & social structures",
-              "label": "Sociology & Social Structures"
-            }
-          ],
-          "qualityScore": 67,
-          "weight": 10
-        }
-      ],
-      "sequences": [
-        "lees",
-        "social-studies"
-      ],
-      "sequenceScores": {
-        "lees": {
-          "score": 97,
-          "tier": "hoog",
-          "mode": "global"
-        },
-        "social-studies": {
-          "score": 127,
-          "tier": "hoog",
-          "mode": "topic",
-          "topicRelevance": 4,
-          "relevanceSource": "fallback",
-          "relevanceConfidence": "low",
-          "components": {
-            "kerninteresse": 10,
-            "topic_relevantie": 4,
-            "substantie": 32,
-            "duurzaamheid": 15,
-            "bruikbaarheid": 10,
-            "leeskans": 0,
-            "nederlandse_taal": 0,
-            "aftrek": 0
-          }
-        }
-      },
-      "positions": {
-        "lees": 347,
-        "social-studies": 126
-      },
-      "actualPositions": {
-        "lees": 347,
-        "social-studies": 126
-      }
-    },
-    "01m3j80nmkjbbwh3hs3fdv4ryg": {
-      "baseScore": 64,
-      "adjustment": 20,
-      "adjustmentReason": "Tag shortlist: +20 bonuspunten.",
-      "score": 84,
-      "tier": "hoog",
-      "components": {
-        "kerninteresse": 0,
-        "relevantie": 10,
-        "substantie": 24,
-        "duurzaamheid": 5,
-        "bruikbaarheid": 20,
-        "leeskans": 5,
-        "nederlandse_taal": 0,
-        "aftrek": 0
-      },
-      "rationale": {
-        "relevantie": [
-          "inhoudelijke relevantie uit de low-confidence inhoudsbeoordeling.",
-          "Bewijs: fallback-no-label, substance-signal, usefulness-signal, automated-fallback."
-        ],
-        "substantie": [
-          "substantie uit de low-confidence inhoudsbeoordeling."
-        ],
-        "duurzaamheid": [
-          "duurzaamheid uit de low-confidence inhoudsbeoordeling."
-        ],
-        "bruikbaarheid": [
-          "bruikbaarheid uit de low-confidence inhoudsbeoordeling."
-        ],
-        "leeskans": [
-          "leeskans uit de low-confidence inhoudsbeoordeling."
-        ],
-        "nederlandse_taal": [],
-        "aftrek": [],
-        "kerninteresse": []
-      },
-      "judgmentSource": "fallback",
-      "judgmentConfidence": "low",
-      "coreInterestMatches": [],
-      "sequences": [
-        "lees",
-        "short",
-        "luchtig"
-      ],
-      "sequenceScores": {
-        "lees": {
-          "score": 84,
-          "tier": "hoog",
-          "mode": "global"
-        },
-        "short": {
-          "score": 87,
-          "tier": "hoog",
-          "mode": "global"
-        },
-        "luchtig": {
-          "score": 84,
-          "tier": "hoog",
-          "mode": "global"
-        }
-      },
-      "positions": {
-        "lees": 373,
-        "short": 238,
-        "luchtig": 107
-      },
-      "actualPositions": {
-        "lees": 373,
-        "short": 238,
-        "luchtig": 107
+        "software-development": 78,
+        "social-studies": 204
       }
     },
     "01m3j80hydy92jffjmba3qynrb": {
@@ -1462,16 +1347,16 @@ window.TOP_ARTICLE_PRIORITY = {
         }
       },
       "positions": {
-        "lees": 381,
-        "short": 250,
-        "software-development": 89,
-        "social-studies": 215
+        "lees": 356,
+        "short": 233,
+        "software-development": 79,
+        "social-studies": 205
       },
       "actualPositions": {
-        "lees": 381,
-        "short": 250,
-        "software-development": 89,
-        "social-studies": 215
+        "lees": 356,
+        "short": 233,
+        "software-development": 79,
+        "social-studies": 205
       }
     },
     "01m3j4vj7zhth320qzh66cfgks": {
@@ -1576,860 +1461,14 @@ window.TOP_ARTICLE_PRIORITY = {
         }
       },
       "positions": {
-        "lees": 355,
+        "lees": 341,
         "luchtig": 99,
-        "social-studies": 188
+        "social-studies": 181
       },
       "actualPositions": {
-        "lees": 355,
+        "lees": 341,
         "luchtig": 99,
-        "social-studies": 188
-      }
-    },
-    "01m3hr8fzcyhwnaza24j21y6r1": {
-      "baseScore": 48,
-      "adjustment": 0,
-      "adjustmentReason": null,
-      "score": 48,
-      "tier": "midden",
-      "components": {
-        "kerninteresse": 0,
-        "relevantie": 10,
-        "substantie": 8,
-        "duurzaamheid": 5,
-        "bruikbaarheid": 20,
-        "leeskans": 5,
-        "nederlandse_taal": 0,
-        "aftrek": 0
-      },
-      "rationale": {
-        "relevantie": [
-          "inhoudelijke relevantie uit de low-confidence inhoudsbeoordeling.",
-          "Bewijs: fallback-no-label, usefulness-signal, automated-fallback."
-        ],
-        "substantie": [
-          "substantie uit de low-confidence inhoudsbeoordeling."
-        ],
-        "duurzaamheid": [
-          "duurzaamheid uit de low-confidence inhoudsbeoordeling."
-        ],
-        "bruikbaarheid": [
-          "bruikbaarheid uit de low-confidence inhoudsbeoordeling."
-        ],
-        "leeskans": [
-          "leeskans uit de low-confidence inhoudsbeoordeling."
-        ],
-        "nederlandse_taal": [],
-        "aftrek": [],
-        "kerninteresse": []
-      },
-      "judgmentSource": "fallback",
-      "judgmentConfidence": "low",
-      "coreInterestMatches": [],
-      "sequences": [
-        "lees",
-        "short"
-      ],
-      "sequenceScores": {
-        "lees": {
-          "score": 48,
-          "tier": "midden",
-          "mode": "global"
-        },
-        "short": {
-          "score": 51,
-          "tier": "midden",
-          "mode": "global"
-        }
-      },
-      "positions": {
-        "lees": 400,
-        "short": 268
-      },
-      "actualPositions": {
-        "lees": 400,
-        "short": 268
-      }
-    },
-    "01m3hr8cnpr5540aw47j87xpwj": {
-      "baseScore": 68,
-      "adjustment": 0,
-      "adjustmentReason": null,
-      "score": 68,
-      "tier": "midden",
-      "components": {
-        "kerninteresse": 10,
-        "relevantie": 10,
-        "substantie": 8,
-        "duurzaamheid": 15,
-        "bruikbaarheid": 20,
-        "leeskans": 5,
-        "nederlandse_taal": 0,
-        "aftrek": 0
-      },
-      "rationale": {
-        "relevantie": [
-          "inhoudelijke relevantie uit de low-confidence inhoudsbeoordeling.",
-          "Bewijs: fallback-no-label, explicit-interest-tag, usefulness-signal, automated-fallback."
-        ],
-        "substantie": [
-          "substantie uit de low-confidence inhoudsbeoordeling."
-        ],
-        "duurzaamheid": [
-          "duurzaamheid uit de low-confidence inhoudsbeoordeling."
-        ],
-        "bruikbaarheid": [
-          "bruikbaarheid uit de low-confidence inhoudsbeoordeling."
-        ],
-        "leeskans": [
-          "leeskans uit de low-confidence inhoudsbeoordeling."
-        ],
-        "nederlandse_taal": [],
-        "aftrek": [],
-        "kerninteresse": [
-          "Sociologie: +10 (Sociology & Social Structures)."
-        ]
-      },
-      "judgmentSource": "fallback",
-      "judgmentConfidence": "low",
-      "coreInterestMatches": [
-        {
-          "interest": "sociologie",
-          "evidence": [
-            {
-              "kind": "readwise-tag",
-              "source": "sociology & social structures",
-              "label": "Sociology & Social Structures"
-            }
-          ],
-          "qualityScore": 53,
-          "weight": 10
-        }
-      ],
-      "sequences": [
-        "lees",
-        "short",
-        "social-studies"
-      ],
-      "sequenceScores": {
-        "lees": {
-          "score": 68,
-          "tier": "midden",
-          "mode": "global"
-        },
-        "short": {
-          "score": 71,
-          "tier": "hoog",
-          "mode": "global"
-        },
-        "social-studies": {
-          "score": 98,
-          "tier": "hoog",
-          "mode": "topic",
-          "topicRelevance": 4,
-          "relevanceSource": "fallback",
-          "relevanceConfidence": "low",
-          "components": {
-            "kerninteresse": 10,
-            "topic_relevantie": 4,
-            "substantie": 8,
-            "duurzaamheid": 15,
-            "bruikbaarheid": 20,
-            "leeskans": 5,
-            "nederlandse_taal": 0,
-            "aftrek": 0
-          }
-        }
-      },
-      "positions": {
-        "lees": 391,
-        "short": 262,
-        "social-studies": 240
-      },
-      "actualPositions": {
-        "lees": 391,
-        "short": 262,
-        "social-studies": 240
-      }
-    },
-    "01m3hr87xw6vvg5q1xm6xc8tjb": {
-      "baseScore": 79,
-      "adjustment": 0,
-      "adjustmentReason": null,
-      "score": 79,
-      "tier": "hoog",
-      "components": {
-        "kerninteresse": 10,
-        "relevantie": 10,
-        "substantie": 24,
-        "duurzaamheid": 15,
-        "bruikbaarheid": 20,
-        "leeskans": 0,
-        "nederlandse_taal": 0,
-        "aftrek": 0
-      },
-      "rationale": {
-        "relevantie": [
-          "inhoudelijke relevantie uit de low-confidence inhoudsbeoordeling.",
-          "Bewijs: fallback-no-label, explicit-interest-tag, substance-signal, usefulness-signal, automated-fallback."
-        ],
-        "substantie": [
-          "substantie uit de low-confidence inhoudsbeoordeling."
-        ],
-        "duurzaamheid": [
-          "duurzaamheid uit de low-confidence inhoudsbeoordeling."
-        ],
-        "bruikbaarheid": [
-          "bruikbaarheid uit de low-confidence inhoudsbeoordeling."
-        ],
-        "leeskans": [],
-        "nederlandse_taal": [],
-        "aftrek": [],
-        "kerninteresse": [
-          "Sociologie: +10 (Sociology & Social Structures)."
-        ]
-      },
-      "judgmentSource": "fallback",
-      "judgmentConfidence": "low",
-      "coreInterestMatches": [
-        {
-          "interest": "sociologie",
-          "evidence": [
-            {
-              "kind": "readwise-tag",
-              "source": "sociology & social structures",
-              "label": "Sociology & Social Structures"
-            }
-          ],
-          "qualityScore": 69,
-          "weight": 10
-        }
-      ],
-      "sequences": [
-        "lees",
-        "social-studies"
-      ],
-      "sequenceScores": {
-        "lees": {
-          "score": 79,
-          "tier": "hoog",
-          "mode": "global"
-        },
-        "social-studies": {
-          "score": 109,
-          "tier": "hoog",
-          "mode": "topic",
-          "topicRelevance": 4,
-          "relevanceSource": "fallback",
-          "relevanceConfidence": "low",
-          "components": {
-            "kerninteresse": 10,
-            "topic_relevantie": 4,
-            "substantie": 24,
-            "duurzaamheid": 15,
-            "bruikbaarheid": 20,
-            "leeskans": 0,
-            "nederlandse_taal": 0,
-            "aftrek": 0
-          }
-        }
-      },
-      "positions": {
-        "lees": 377,
-        "social-studies": 211
-      },
-      "actualPositions": {
-        "lees": 377,
-        "social-studies": 211
-      }
-    },
-    "01m3hr838axh01baaenb4mfzgn": {
-      "baseScore": 78,
-      "adjustment": 0,
-      "adjustmentReason": null,
-      "score": 78,
-      "tier": "hoog",
-      "components": {
-        "kerninteresse": 20,
-        "relevantie": 10,
-        "substantie": 8,
-        "duurzaamheid": 15,
-        "bruikbaarheid": 20,
-        "leeskans": 5,
-        "nederlandse_taal": 0,
-        "aftrek": 0
-      },
-      "rationale": {
-        "relevantie": [
-          "inhoudelijke relevantie uit de low-confidence inhoudsbeoordeling.",
-          "Bewijs: fallback-no-label, explicit-interest-tag, usefulness-signal, automated-fallback."
-        ],
-        "substantie": [
-          "substantie uit de low-confidence inhoudsbeoordeling."
-        ],
-        "duurzaamheid": [
-          "duurzaamheid uit de low-confidence inhoudsbeoordeling."
-        ],
-        "bruikbaarheid": [
-          "bruikbaarheid uit de low-confidence inhoudsbeoordeling."
-        ],
-        "leeskans": [
-          "leeskans uit de low-confidence inhoudsbeoordeling."
-        ],
-        "nederlandse_taal": [],
-        "aftrek": [],
-        "kerninteresse": [
-          "Agile: +20 (Team Dynamics & Collaboration)."
-        ]
-      },
-      "judgmentSource": "fallback",
-      "judgmentConfidence": "low",
-      "coreInterestMatches": [
-        {
-          "interest": "agile",
-          "evidence": [
-            {
-              "kind": "readwise-tag",
-              "source": "team dynamics & collaboration",
-              "label": "Team Dynamics & Collaboration"
-            }
-          ],
-          "qualityScore": 53,
-          "weight": 20
-        }
-      ],
-      "sequences": [
-        "lees",
-        "short",
-        "software-development",
-        "social-studies"
-      ],
-      "sequenceScores": {
-        "lees": {
-          "score": 78,
-          "tier": "hoog",
-          "mode": "global"
-        },
-        "short": {
-          "score": 81,
-          "tier": "hoog",
-          "mode": "global"
-        },
-        "software-development": {
-          "score": 108,
-          "tier": "hoog",
-          "mode": "topic",
-          "topicRelevance": 4,
-          "relevanceSource": "fallback",
-          "relevanceConfidence": "low",
-          "components": {
-            "kerninteresse": 20,
-            "topic_relevantie": 4,
-            "substantie": 8,
-            "duurzaamheid": 15,
-            "bruikbaarheid": 20,
-            "leeskans": 5,
-            "nederlandse_taal": 0,
-            "aftrek": 0
-          }
-        },
-        "social-studies": {
-          "score": 108,
-          "tier": "hoog",
-          "mode": "topic",
-          "topicRelevance": 4,
-          "relevanceSource": "fallback",
-          "relevanceConfidence": "low",
-          "components": {
-            "kerninteresse": 20,
-            "topic_relevantie": 4,
-            "substantie": 8,
-            "duurzaamheid": 15,
-            "bruikbaarheid": 20,
-            "leeskans": 5,
-            "nederlandse_taal": 0,
-            "aftrek": 0
-          }
-        }
-      },
-      "positions": {
-        "lees": 380,
-        "short": 249,
-        "software-development": 88,
-        "social-studies": 214
-      },
-      "actualPositions": {
-        "lees": 380,
-        "short": 249,
-        "software-development": 88,
-        "social-studies": 214
-      }
-    },
-    "01m3hr7zm0c4js5e9m9eydmhkd": {
-      "baseScore": 94,
-      "adjustment": 0,
-      "adjustmentReason": null,
-      "score": 94,
-      "tier": "hoog",
-      "components": {
-        "kerninteresse": 20,
-        "relevantie": 10,
-        "substantie": 24,
-        "duurzaamheid": 15,
-        "bruikbaarheid": 20,
-        "leeskans": 5,
-        "nederlandse_taal": 0,
-        "aftrek": 0
-      },
-      "rationale": {
-        "relevantie": [
-          "inhoudelijke relevantie uit de low-confidence inhoudsbeoordeling.",
-          "Bewijs: fallback-no-label, explicit-interest-tag, substance-signal, usefulness-signal, automated-fallback."
-        ],
-        "substantie": [
-          "substantie uit de low-confidence inhoudsbeoordeling."
-        ],
-        "duurzaamheid": [
-          "duurzaamheid uit de low-confidence inhoudsbeoordeling."
-        ],
-        "bruikbaarheid": [
-          "bruikbaarheid uit de low-confidence inhoudsbeoordeling."
-        ],
-        "leeskans": [
-          "leeskans uit de low-confidence inhoudsbeoordeling."
-        ],
-        "nederlandse_taal": [],
-        "aftrek": [],
-        "kerninteresse": [
-          "Agile: +20 (Organizational Behavior & Culture, Team Dynamics & Collaboration)."
-        ]
-      },
-      "judgmentSource": "fallback",
-      "judgmentConfidence": "low",
-      "coreInterestMatches": [
-        {
-          "interest": "agile",
-          "evidence": [
-            {
-              "kind": "readwise-tag",
-              "source": "organizational behavior & culture",
-              "label": "Organizational Behavior & Culture"
-            },
-            {
-              "kind": "readwise-tag",
-              "source": "team dynamics & collaboration",
-              "label": "Team Dynamics & Collaboration"
-            }
-          ],
-          "qualityScore": 69,
-          "weight": 20
-        }
-      ],
-      "sequences": [
-        "lees",
-        "short",
-        "software-development",
-        "social-studies"
-      ],
-      "sequenceScores": {
-        "lees": {
-          "score": 94,
-          "tier": "hoog",
-          "mode": "global"
-        },
-        "short": {
-          "score": 97,
-          "tier": "hoog",
-          "mode": "global"
-        },
-        "software-development": {
-          "score": 124,
-          "tier": "hoog",
-          "mode": "topic",
-          "topicRelevance": 4,
-          "relevanceSource": "fallback",
-          "relevanceConfidence": "low",
-          "components": {
-            "kerninteresse": 20,
-            "topic_relevantie": 4,
-            "substantie": 24,
-            "duurzaamheid": 15,
-            "bruikbaarheid": 20,
-            "leeskans": 5,
-            "nederlandse_taal": 0,
-            "aftrek": 0
-          }
-        },
-        "social-studies": {
-          "score": 124,
-          "tier": "hoog",
-          "mode": "topic",
-          "topicRelevance": 4,
-          "relevanceSource": "fallback",
-          "relevanceConfidence": "low",
-          "components": {
-            "kerninteresse": 20,
-            "topic_relevantie": 4,
-            "substantie": 24,
-            "duurzaamheid": 15,
-            "bruikbaarheid": 20,
-            "leeskans": 5,
-            "nederlandse_taal": 0,
-            "aftrek": 0
-          }
-        }
-      },
-      "positions": {
-        "lees": 353,
-        "short": 227,
-        "software-development": 52,
-        "social-studies": 136
-      },
-      "actualPositions": {
-        "lees": 353,
-        "short": 227,
-        "software-development": 52,
-        "social-studies": 136
-      }
-    },
-    "01m3hr7vv935k425es1js201rg": {
-      "baseScore": 78,
-      "adjustment": 0,
-      "adjustmentReason": null,
-      "score": 78,
-      "tier": "hoog",
-      "components": {
-        "kerninteresse": 20,
-        "relevantie": 10,
-        "substantie": 8,
-        "duurzaamheid": 15,
-        "bruikbaarheid": 20,
-        "leeskans": 5,
-        "nederlandse_taal": 0,
-        "aftrek": 0
-      },
-      "rationale": {
-        "relevantie": [
-          "inhoudelijke relevantie uit de low-confidence inhoudsbeoordeling.",
-          "Bewijs: fallback-no-label, explicit-interest-tag, usefulness-signal, automated-fallback."
-        ],
-        "substantie": [
-          "substantie uit de low-confidence inhoudsbeoordeling."
-        ],
-        "duurzaamheid": [
-          "duurzaamheid uit de low-confidence inhoudsbeoordeling."
-        ],
-        "bruikbaarheid": [
-          "bruikbaarheid uit de low-confidence inhoudsbeoordeling."
-        ],
-        "leeskans": [
-          "leeskans uit de low-confidence inhoudsbeoordeling."
-        ],
-        "nederlandse_taal": [],
-        "aftrek": [],
-        "kerninteresse": [
-          "Agile: +20 (Organizational Behavior & Culture, Team Dynamics & Collaboration)."
-        ]
-      },
-      "judgmentSource": "fallback",
-      "judgmentConfidence": "low",
-      "coreInterestMatches": [
-        {
-          "interest": "agile",
-          "evidence": [
-            {
-              "kind": "readwise-tag",
-              "source": "organizational behavior & culture",
-              "label": "Organizational Behavior & Culture"
-            },
-            {
-              "kind": "readwise-tag",
-              "source": "team dynamics & collaboration",
-              "label": "Team Dynamics & Collaboration"
-            }
-          ],
-          "qualityScore": 53,
-          "weight": 20
-        }
-      ],
-      "sequences": [
-        "lees",
-        "short",
-        "software-development",
-        "social-studies"
-      ],
-      "sequenceScores": {
-        "lees": {
-          "score": 78,
-          "tier": "hoog",
-          "mode": "global"
-        },
-        "short": {
-          "score": 81,
-          "tier": "hoog",
-          "mode": "global"
-        },
-        "software-development": {
-          "score": 108,
-          "tier": "hoog",
-          "mode": "topic",
-          "topicRelevance": 4,
-          "relevanceSource": "fallback",
-          "relevanceConfidence": "low",
-          "components": {
-            "kerninteresse": 20,
-            "topic_relevantie": 4,
-            "substantie": 8,
-            "duurzaamheid": 15,
-            "bruikbaarheid": 20,
-            "leeskans": 5,
-            "nederlandse_taal": 0,
-            "aftrek": 0
-          }
-        },
-        "social-studies": {
-          "score": 108,
-          "tier": "hoog",
-          "mode": "topic",
-          "topicRelevance": 4,
-          "relevanceSource": "fallback",
-          "relevanceConfidence": "low",
-          "components": {
-            "kerninteresse": 20,
-            "topic_relevantie": 4,
-            "substantie": 8,
-            "duurzaamheid": 15,
-            "bruikbaarheid": 20,
-            "leeskans": 5,
-            "nederlandse_taal": 0,
-            "aftrek": 0
-          }
-        }
-      },
-      "positions": {
-        "lees": 379,
-        "short": 248,
-        "software-development": 87,
-        "social-studies": 213
-      },
-      "actualPositions": {
-        "lees": 379,
-        "short": 248,
-        "software-development": 87,
-        "social-studies": 213
-      }
-    },
-    "01m3hr7rq9egjmrmsj28zj2jv9": {
-      "baseScore": 107,
-      "adjustment": 0,
-      "adjustmentReason": null,
-      "score": 107,
-      "tier": "hoog",
-      "components": {
-        "kerninteresse": 20,
-        "relevantie": 10,
-        "substantie": 32,
-        "duurzaamheid": 20,
-        "bruikbaarheid": 20,
-        "leeskans": 5,
-        "nederlandse_taal": 0,
-        "aftrek": 0
-      },
-      "rationale": {
-        "relevantie": [
-          "inhoudelijke relevantie uit de low-confidence inhoudsbeoordeling.",
-          "Bewijs: fallback-no-label, explicit-interest-tag, substance-signal, usefulness-signal, automated-fallback."
-        ],
-        "substantie": [
-          "substantie uit de low-confidence inhoudsbeoordeling."
-        ],
-        "duurzaamheid": [
-          "duurzaamheid uit de low-confidence inhoudsbeoordeling."
-        ],
-        "bruikbaarheid": [
-          "bruikbaarheid uit de low-confidence inhoudsbeoordeling."
-        ],
-        "leeskans": [
-          "leeskans uit de low-confidence inhoudsbeoordeling."
-        ],
-        "nederlandse_taal": [],
-        "aftrek": [],
-        "kerninteresse": [
-          "Agile: +20 (Organizational Behavior & Culture, Team Dynamics & Collaboration)."
-        ]
-      },
-      "judgmentSource": "fallback",
-      "judgmentConfidence": "low",
-      "coreInterestMatches": [
-        {
-          "interest": "agile",
-          "evidence": [
-            {
-              "kind": "readwise-tag",
-              "source": "organizational behavior & culture",
-              "label": "Organizational Behavior & Culture"
-            },
-            {
-              "kind": "readwise-tag",
-              "source": "team dynamics & collaboration",
-              "label": "Team Dynamics & Collaboration"
-            }
-          ],
-          "qualityScore": 82,
-          "weight": 20
-        }
-      ],
-      "sequences": [
-        "pdf",
-        "short",
-        "software-development",
-        "social-studies"
-      ],
-      "sequenceScores": {
-        "pdf": {
-          "score": 113,
-          "tier": "hoog",
-          "mode": "global"
-        },
-        "short": {
-          "score": 110,
-          "tier": "hoog",
-          "mode": "global"
-        },
-        "software-development": {
-          "score": 137,
-          "tier": "hoog",
-          "mode": "topic",
-          "topicRelevance": 4,
-          "relevanceSource": "fallback",
-          "relevanceConfidence": "low",
-          "components": {
-            "kerninteresse": 20,
-            "topic_relevantie": 4,
-            "substantie": 32,
-            "duurzaamheid": 20,
-            "bruikbaarheid": 20,
-            "leeskans": 5,
-            "nederlandse_taal": 0,
-            "aftrek": 0
-          }
-        },
-        "social-studies": {
-          "score": 137,
-          "tier": "hoog",
-          "mode": "topic",
-          "topicRelevance": 4,
-          "relevanceSource": "fallback",
-          "relevanceConfidence": "low",
-          "components": {
-            "kerninteresse": 20,
-            "topic_relevantie": 4,
-            "substantie": 32,
-            "duurzaamheid": 20,
-            "bruikbaarheid": 20,
-            "leeskans": 5,
-            "nederlandse_taal": 0,
-            "aftrek": 0
-          }
-        }
-      },
-      "positions": {
-        "pdf": 12,
-        "short": 200,
-        "software-development": 19,
-        "social-studies": 94
-      },
-      "actualPositions": {
-        "pdf": 12,
-        "short": 200,
-        "software-development": 19,
-        "social-studies": 94
-      }
-    },
-    "01m3hr7fxpztg3ntjy0r80fx0f": {
-      "baseScore": 74,
-      "adjustment": 0,
-      "adjustmentReason": null,
-      "score": 74,
-      "tier": "hoog",
-      "components": {
-        "kerninteresse": 0,
-        "relevantie": 20,
-        "substantie": 24,
-        "duurzaamheid": 5,
-        "bruikbaarheid": 20,
-        "leeskans": 5,
-        "nederlandse_taal": 0,
-        "aftrek": 0
-      },
-      "rationale": {
-        "relevantie": [
-          "inhoudelijke relevantie uit de low-confidence inhoudsbeoordeling.",
-          "Bewijs: fallback-no-label, substance-signal, usefulness-signal, automated-fallback."
-        ],
-        "substantie": [
-          "substantie uit de low-confidence inhoudsbeoordeling."
-        ],
-        "duurzaamheid": [
-          "duurzaamheid uit de low-confidence inhoudsbeoordeling."
-        ],
-        "bruikbaarheid": [
-          "bruikbaarheid uit de low-confidence inhoudsbeoordeling."
-        ],
-        "leeskans": [
-          "leeskans uit de low-confidence inhoudsbeoordeling."
-        ],
-        "nederlandse_taal": [],
-        "aftrek": [],
-        "kerninteresse": []
-      },
-      "judgmentSource": "fallback",
-      "judgmentConfidence": "low",
-      "coreInterestMatches": [],
-      "sequences": [
-        "lees",
-        "short",
-        "software-development"
-      ],
-      "sequenceScores": {
-        "lees": {
-          "score": 74,
-          "tier": "hoog",
-          "mode": "global"
-        },
-        "short": {
-          "score": 77,
-          "tier": "hoog",
-          "mode": "global"
-        },
-        "software-development": {
-          "score": 94,
-          "tier": "hoog",
-          "mode": "topic",
-          "topicRelevance": 4,
-          "relevanceSource": "fallback",
-          "relevanceConfidence": "low",
-          "components": {
-            "kerninteresse": 0,
-            "topic_relevantie": 4,
-            "substantie": 24,
-            "duurzaamheid": 5,
-            "bruikbaarheid": 20,
-            "leeskans": 5,
-            "nederlandse_taal": 0,
-            "aftrek": 0
-          }
-        }
-      },
-      "positions": {
-        "lees": 387,
-        "short": 256,
-        "software-development": 110
-      },
-      "actualPositions": {
-        "lees": 387,
-        "short": 256,
-        "software-development": 110
+        "social-studies": 181
       }
     },
     "01m3hr7cf5azvex6ja40dky9n4": {
@@ -2508,645 +1547,14 @@ window.TOP_ARTICLE_PRIORITY = {
         }
       },
       "positions": {
-        "lees": 372,
-        "short": 237,
+        "lees": 353,
+        "short": 225,
         "front-end-development": 9
       },
       "actualPositions": {
-        "lees": 372,
-        "short": 237,
+        "lees": 353,
+        "short": 225,
         "front-end-development": 9
-      }
-    },
-    "01m3hr795h57dty4ahrf2nzz9f": {
-      "baseScore": 74,
-      "adjustment": 0,
-      "adjustmentReason": null,
-      "score": 74,
-      "tier": "hoog",
-      "components": {
-        "kerninteresse": 0,
-        "relevantie": 20,
-        "substantie": 24,
-        "duurzaamheid": 5,
-        "bruikbaarheid": 20,
-        "leeskans": 5,
-        "nederlandse_taal": 0,
-        "aftrek": 0
-      },
-      "rationale": {
-        "relevantie": [
-          "inhoudelijke relevantie uit de low-confidence inhoudsbeoordeling.",
-          "Bewijs: fallback-no-label, substance-signal, usefulness-signal, automated-fallback."
-        ],
-        "substantie": [
-          "substantie uit de low-confidence inhoudsbeoordeling."
-        ],
-        "duurzaamheid": [
-          "duurzaamheid uit de low-confidence inhoudsbeoordeling."
-        ],
-        "bruikbaarheid": [
-          "bruikbaarheid uit de low-confidence inhoudsbeoordeling."
-        ],
-        "leeskans": [
-          "leeskans uit de low-confidence inhoudsbeoordeling."
-        ],
-        "nederlandse_taal": [],
-        "aftrek": [],
-        "kerninteresse": []
-      },
-      "judgmentSource": "fallback",
-      "judgmentConfidence": "low",
-      "coreInterestMatches": [],
-      "sequences": [
-        "lees",
-        "short",
-        "software-development"
-      ],
-      "sequenceScores": {
-        "lees": {
-          "score": 74,
-          "tier": "hoog",
-          "mode": "global"
-        },
-        "short": {
-          "score": 77,
-          "tier": "hoog",
-          "mode": "global"
-        },
-        "software-development": {
-          "score": 94,
-          "tier": "hoog",
-          "mode": "topic",
-          "topicRelevance": 4,
-          "relevanceSource": "fallback",
-          "relevanceConfidence": "low",
-          "components": {
-            "kerninteresse": 0,
-            "topic_relevantie": 4,
-            "substantie": 24,
-            "duurzaamheid": 5,
-            "bruikbaarheid": 20,
-            "leeskans": 5,
-            "nederlandse_taal": 0,
-            "aftrek": 0
-          }
-        }
-      },
-      "positions": {
-        "lees": 386,
-        "short": 255,
-        "software-development": 109
-      },
-      "actualPositions": {
-        "lees": 386,
-        "short": 255,
-        "software-development": 109
-      }
-    },
-    "01m3hr75m1vdv97bjgcdegcfew": {
-      "baseScore": 59,
-      "adjustment": 20,
-      "adjustmentReason": "Tag shortlist: +20 bonuspunten.",
-      "score": 79,
-      "tier": "hoog",
-      "components": {
-        "kerninteresse": 0,
-        "relevantie": 10,
-        "substantie": 24,
-        "duurzaamheid": 5,
-        "bruikbaarheid": 20,
-        "leeskans": 0,
-        "nederlandse_taal": 0,
-        "aftrek": 0
-      },
-      "rationale": {
-        "relevantie": [
-          "inhoudelijke relevantie uit de low-confidence inhoudsbeoordeling.",
-          "Bewijs: fallback-no-label, substance-signal, usefulness-signal, automated-fallback."
-        ],
-        "substantie": [
-          "substantie uit de low-confidence inhoudsbeoordeling."
-        ],
-        "duurzaamheid": [
-          "duurzaamheid uit de low-confidence inhoudsbeoordeling."
-        ],
-        "bruikbaarheid": [
-          "bruikbaarheid uit de low-confidence inhoudsbeoordeling."
-        ],
-        "leeskans": [],
-        "nederlandse_taal": [],
-        "aftrek": [],
-        "kerninteresse": []
-      },
-      "judgmentSource": "fallback",
-      "judgmentConfidence": "low",
-      "coreInterestMatches": [],
-      "sequences": [
-        "lees",
-        "software-development"
-      ],
-      "sequenceScores": {
-        "lees": {
-          "score": 79,
-          "tier": "hoog",
-          "mode": "global"
-        },
-        "software-development": {
-          "score": 109,
-          "tier": "hoog",
-          "mode": "topic",
-          "topicRelevance": 4,
-          "relevanceSource": "fallback",
-          "relevanceConfidence": "low",
-          "components": {
-            "kerninteresse": 0,
-            "topic_relevantie": 4,
-            "substantie": 24,
-            "duurzaamheid": 5,
-            "bruikbaarheid": 20,
-            "leeskans": 0,
-            "nederlandse_taal": 0,
-            "aftrek": 0
-          }
-        }
-      },
-      "positions": {
-        "lees": 376,
-        "software-development": 85
-      },
-      "actualPositions": {
-        "lees": 376,
-        "software-development": 85
-      }
-    },
-    "01m3hr72rg9rcfykehjqt4haq9": {
-      "baseScore": 59,
-      "adjustment": 0,
-      "adjustmentReason": null,
-      "score": 59,
-      "tier": "midden",
-      "components": {
-        "kerninteresse": 0,
-        "relevantie": 10,
-        "substantie": 24,
-        "duurzaamheid": 5,
-        "bruikbaarheid": 20,
-        "leeskans": 0,
-        "nederlandse_taal": 0,
-        "aftrek": 0
-      },
-      "rationale": {
-        "relevantie": [
-          "inhoudelijke relevantie uit de low-confidence inhoudsbeoordeling.",
-          "Bewijs: fallback-no-label, substance-signal, usefulness-signal, automated-fallback."
-        ],
-        "substantie": [
-          "substantie uit de low-confidence inhoudsbeoordeling."
-        ],
-        "duurzaamheid": [
-          "duurzaamheid uit de low-confidence inhoudsbeoordeling."
-        ],
-        "bruikbaarheid": [
-          "bruikbaarheid uit de low-confidence inhoudsbeoordeling."
-        ],
-        "leeskans": [],
-        "nederlandse_taal": [],
-        "aftrek": [],
-        "kerninteresse": []
-      },
-      "judgmentSource": "fallback",
-      "judgmentConfidence": "low",
-      "coreInterestMatches": [],
-      "sequences": [
-        "lees",
-        "luchtig",
-        "software-development"
-      ],
-      "sequenceScores": {
-        "lees": {
-          "score": 59,
-          "tier": "midden",
-          "mode": "global"
-        },
-        "luchtig": {
-          "score": 59,
-          "tier": "midden",
-          "mode": "global"
-        },
-        "software-development": {
-          "score": 89,
-          "tier": "hoog",
-          "mode": "topic",
-          "topicRelevance": 4,
-          "relevanceSource": "fallback",
-          "relevanceConfidence": "low",
-          "components": {
-            "kerninteresse": 0,
-            "topic_relevantie": 4,
-            "substantie": 24,
-            "duurzaamheid": 5,
-            "bruikbaarheid": 20,
-            "leeskans": 0,
-            "nederlandse_taal": 0,
-            "aftrek": 0
-          }
-        }
-      },
-      "positions": {
-        "lees": 397,
-        "luchtig": 114,
-        "software-development": 115
-      },
-      "actualPositions": {
-        "lees": 397,
-        "luchtig": 114,
-        "software-development": 115
-      }
-    },
-    "01m3hr6y54e1bjd3czph8yqh5h": {
-      "baseScore": 99,
-      "adjustment": 20,
-      "adjustmentReason": "Tag shortlist: +20 bonuspunten.",
-      "score": 119,
-      "tier": "hoog",
-      "components": {
-        "kerninteresse": 20,
-        "relevantie": 10,
-        "substantie": 24,
-        "duurzaamheid": 20,
-        "bruikbaarheid": 20,
-        "leeskans": 5,
-        "nederlandse_taal": 0,
-        "aftrek": 0
-      },
-      "rationale": {
-        "relevantie": [
-          "inhoudelijke relevantie uit de low-confidence inhoudsbeoordeling.",
-          "Bewijs: fallback-no-label, explicit-interest-tag, substance-signal, usefulness-signal, automated-fallback."
-        ],
-        "substantie": [
-          "substantie uit de low-confidence inhoudsbeoordeling."
-        ],
-        "duurzaamheid": [
-          "duurzaamheid uit de low-confidence inhoudsbeoordeling."
-        ],
-        "bruikbaarheid": [
-          "bruikbaarheid uit de low-confidence inhoudsbeoordeling."
-        ],
-        "leeskans": [
-          "leeskans uit de low-confidence inhoudsbeoordeling."
-        ],
-        "nederlandse_taal": [],
-        "aftrek": [],
-        "kerninteresse": [
-          "Agile: +20 (Team Dynamics & Collaboration)."
-        ]
-      },
-      "judgmentSource": "fallback",
-      "judgmentConfidence": "low",
-      "coreInterestMatches": [
-        {
-          "interest": "agile",
-          "evidence": [
-            {
-              "kind": "readwise-tag",
-              "source": "team dynamics & collaboration",
-              "label": "Team Dynamics & Collaboration"
-            }
-          ],
-          "qualityScore": 74,
-          "weight": 20
-        }
-      ],
-      "sequences": [
-        "lees",
-        "short",
-        "software-development",
-        "social-studies"
-      ],
-      "sequenceScores": {
-        "lees": {
-          "score": 119,
-          "tier": "hoog",
-          "mode": "global"
-        },
-        "short": {
-          "score": 122,
-          "tier": "hoog",
-          "mode": "global"
-        },
-        "software-development": {
-          "score": 149,
-          "tier": "hoog",
-          "mode": "topic",
-          "topicRelevance": 4,
-          "relevanceSource": "fallback",
-          "relevanceConfidence": "low",
-          "components": {
-            "kerninteresse": 20,
-            "topic_relevantie": 4,
-            "substantie": 24,
-            "duurzaamheid": 20,
-            "bruikbaarheid": 20,
-            "leeskans": 5,
-            "nederlandse_taal": 0,
-            "aftrek": 0
-          }
-        },
-        "social-studies": {
-          "score": 149,
-          "tier": "hoog",
-          "mode": "topic",
-          "topicRelevance": 4,
-          "relevanceSource": "fallback",
-          "relevanceConfidence": "low",
-          "components": {
-            "kerninteresse": 20,
-            "topic_relevantie": 4,
-            "substantie": 24,
-            "duurzaamheid": 20,
-            "bruikbaarheid": 20,
-            "leeskans": 5,
-            "nederlandse_taal": 0,
-            "aftrek": 0
-          }
-        }
-      },
-      "positions": {
-        "lees": 284,
-        "short": 165,
-        "software-development": 10,
-        "social-studies": 70
-      },
-      "actualPositions": {
-        "lees": 284,
-        "short": 165,
-        "software-development": 10,
-        "social-studies": 70
-      }
-    },
-    "01m3hr6tfqvkfgx8009hjyy7es": {
-      "baseScore": 64,
-      "adjustment": 0,
-      "adjustmentReason": null,
-      "score": 64,
-      "tier": "midden",
-      "components": {
-        "kerninteresse": 0,
-        "relevantie": 10,
-        "substantie": 24,
-        "duurzaamheid": 5,
-        "bruikbaarheid": 20,
-        "leeskans": 5,
-        "nederlandse_taal": 0,
-        "aftrek": 0
-      },
-      "rationale": {
-        "relevantie": [
-          "inhoudelijke relevantie uit de low-confidence inhoudsbeoordeling.",
-          "Bewijs: fallback-no-label, substance-signal, usefulness-signal, automated-fallback."
-        ],
-        "substantie": [
-          "substantie uit de low-confidence inhoudsbeoordeling."
-        ],
-        "duurzaamheid": [
-          "duurzaamheid uit de low-confidence inhoudsbeoordeling."
-        ],
-        "bruikbaarheid": [
-          "bruikbaarheid uit de low-confidence inhoudsbeoordeling."
-        ],
-        "leeskans": [
-          "leeskans uit de low-confidence inhoudsbeoordeling."
-        ],
-        "nederlandse_taal": [],
-        "aftrek": [],
-        "kerninteresse": []
-      },
-      "judgmentSource": "fallback",
-      "judgmentConfidence": "low",
-      "coreInterestMatches": [],
-      "sequences": [
-        "lees",
-        "short",
-        "software-development"
-      ],
-      "sequenceScores": {
-        "lees": {
-          "score": 64,
-          "tier": "midden",
-          "mode": "global"
-        },
-        "short": {
-          "score": 67,
-          "tier": "midden",
-          "mode": "global"
-        },
-        "software-development": {
-          "score": 94,
-          "tier": "hoog",
-          "mode": "topic",
-          "topicRelevance": 4,
-          "relevanceSource": "fallback",
-          "relevanceConfidence": "low",
-          "components": {
-            "kerninteresse": 0,
-            "topic_relevantie": 4,
-            "substantie": 24,
-            "duurzaamheid": 5,
-            "bruikbaarheid": 20,
-            "leeskans": 5,
-            "nederlandse_taal": 0,
-            "aftrek": 0
-          }
-        }
-      },
-      "positions": {
-        "lees": 394,
-        "short": 263,
-        "software-development": 108
-      },
-      "actualPositions": {
-        "lees": 394,
-        "short": 263,
-        "software-development": 108
-      }
-    },
-    "01m3hr6q3tzkc5a00689n0b82m": {
-      "baseScore": 69,
-      "adjustment": 20,
-      "adjustmentReason": "Tag shortlist: +20 bonuspunten.",
-      "score": 89,
-      "tier": "hoog",
-      "components": {
-        "kerninteresse": 0,
-        "relevantie": 20,
-        "substantie": 24,
-        "duurzaamheid": 5,
-        "bruikbaarheid": 20,
-        "leeskans": 0,
-        "nederlandse_taal": 0,
-        "aftrek": 0
-      },
-      "rationale": {
-        "relevantie": [
-          "inhoudelijke relevantie uit de low-confidence inhoudsbeoordeling.",
-          "Bewijs: fallback-no-label, substance-signal, usefulness-signal, automated-fallback."
-        ],
-        "substantie": [
-          "substantie uit de low-confidence inhoudsbeoordeling."
-        ],
-        "duurzaamheid": [
-          "duurzaamheid uit de low-confidence inhoudsbeoordeling."
-        ],
-        "bruikbaarheid": [
-          "bruikbaarheid uit de low-confidence inhoudsbeoordeling."
-        ],
-        "leeskans": [],
-        "nederlandse_taal": [],
-        "aftrek": [],
-        "kerninteresse": []
-      },
-      "judgmentSource": "fallback",
-      "judgmentConfidence": "low",
-      "coreInterestMatches": [],
-      "sequences": [
-        "lees",
-        "software-development"
-      ],
-      "sequenceScores": {
-        "lees": {
-          "score": 89,
-          "tier": "hoog",
-          "mode": "global"
-        },
-        "software-development": {
-          "score": 109,
-          "tier": "hoog",
-          "mode": "topic",
-          "topicRelevance": 4,
-          "relevanceSource": "fallback",
-          "relevanceConfidence": "low",
-          "components": {
-            "kerninteresse": 0,
-            "topic_relevantie": 4,
-            "substantie": 24,
-            "duurzaamheid": 5,
-            "bruikbaarheid": 20,
-            "leeskans": 0,
-            "nederlandse_taal": 0,
-            "aftrek": 0
-          }
-        }
-      },
-      "positions": {
-        "lees": 359,
-        "software-development": 84
-      },
-      "actualPositions": {
-        "lees": 359,
-        "software-development": 84
-      }
-    },
-    "01m3hr6g0kh4dyxgs0wtb7c3yh": {
-      "baseScore": 84,
-      "adjustment": 0,
-      "adjustmentReason": null,
-      "score": 84,
-      "tier": "hoog",
-      "components": {
-        "kerninteresse": 10,
-        "relevantie": 10,
-        "substantie": 24,
-        "duurzaamheid": 15,
-        "bruikbaarheid": 20,
-        "leeskans": 5,
-        "nederlandse_taal": 0,
-        "aftrek": 0
-      },
-      "rationale": {
-        "relevantie": [
-          "inhoudelijke relevantie uit de low-confidence inhoudsbeoordeling.",
-          "Bewijs: fallback-no-label, explicit-interest-tag, substance-signal, usefulness-signal, automated-fallback."
-        ],
-        "substantie": [
-          "substantie uit de low-confidence inhoudsbeoordeling."
-        ],
-        "duurzaamheid": [
-          "duurzaamheid uit de low-confidence inhoudsbeoordeling."
-        ],
-        "bruikbaarheid": [
-          "bruikbaarheid uit de low-confidence inhoudsbeoordeling."
-        ],
-        "leeskans": [
-          "leeskans uit de low-confidence inhoudsbeoordeling."
-        ],
-        "nederlandse_taal": [],
-        "aftrek": [],
-        "kerninteresse": [
-          "Sociologie: +10 (Sociology & Social Structures)."
-        ]
-      },
-      "judgmentSource": "fallback",
-      "judgmentConfidence": "low",
-      "coreInterestMatches": [
-        {
-          "interest": "sociologie",
-          "evidence": [
-            {
-              "kind": "readwise-tag",
-              "source": "sociology & social structures",
-              "label": "Sociology & Social Structures"
-            }
-          ],
-          "qualityScore": 69,
-          "weight": 10
-        }
-      ],
-      "sequences": [
-        "lees",
-        "short",
-        "social-studies"
-      ],
-      "sequenceScores": {
-        "lees": {
-          "score": 84,
-          "tier": "hoog",
-          "mode": "global"
-        },
-        "short": {
-          "score": 87,
-          "tier": "hoog",
-          "mode": "global"
-        },
-        "social-studies": {
-          "score": 114,
-          "tier": "hoog",
-          "mode": "topic",
-          "topicRelevance": 4,
-          "relevanceSource": "fallback",
-          "relevanceConfidence": "low",
-          "components": {
-            "kerninteresse": 10,
-            "topic_relevantie": 4,
-            "substantie": 24,
-            "duurzaamheid": 15,
-            "bruikbaarheid": 20,
-            "leeskans": 5,
-            "nederlandse_taal": 0,
-            "aftrek": 0
-          }
-        }
-      },
-      "positions": {
-        "lees": 371,
-        "short": 236,
-        "social-studies": 182
-      },
-      "actualPositions": {
-        "lees": 371,
-        "short": 236,
-        "social-studies": 182
       }
     },
     "01m3hr629yekmazqarpyneg69p": {
@@ -3272,292 +1680,16 @@ window.TOP_ARTICLE_PRIORITY = {
         }
       },
       "positions": {
-        "lees": 344,
-        "short": 218,
-        "software-development": 60,
-        "social-studies": 161
+        "lees": 332,
+        "short": 211,
+        "software-development": 57,
+        "social-studies": 156
       },
       "actualPositions": {
-        "lees": 344,
-        "short": 218,
-        "software-development": 60,
-        "social-studies": 161
-      }
-    },
-    "01m3hr5ykdpd3g7rjygn4nmtps": {
-      "baseScore": 69,
-      "adjustment": 0,
-      "adjustmentReason": null,
-      "score": 69,
-      "tier": "midden",
-      "components": {
-        "kerninteresse": 0,
-        "relevantie": 20,
-        "substantie": 24,
-        "duurzaamheid": 5,
-        "bruikbaarheid": 20,
-        "leeskans": 0,
-        "nederlandse_taal": 0,
-        "aftrek": 0
-      },
-      "rationale": {
-        "relevantie": [
-          "inhoudelijke relevantie uit de low-confidence inhoudsbeoordeling.",
-          "Bewijs: fallback-no-label, substance-signal, usefulness-signal, automated-fallback."
-        ],
-        "substantie": [
-          "substantie uit de low-confidence inhoudsbeoordeling."
-        ],
-        "duurzaamheid": [
-          "duurzaamheid uit de low-confidence inhoudsbeoordeling."
-        ],
-        "bruikbaarheid": [
-          "bruikbaarheid uit de low-confidence inhoudsbeoordeling."
-        ],
-        "leeskans": [],
-        "nederlandse_taal": [],
-        "aftrek": [],
-        "kerninteresse": []
-      },
-      "judgmentSource": "fallback",
-      "judgmentConfidence": "low",
-      "coreInterestMatches": [],
-      "sequences": [
-        "lees",
-        "software-development"
-      ],
-      "sequenceScores": {
-        "lees": {
-          "score": 69,
-          "tier": "midden",
-          "mode": "global"
-        },
-        "software-development": {
-          "score": 89,
-          "tier": "hoog",
-          "mode": "topic",
-          "topicRelevance": 4,
-          "relevanceSource": "fallback",
-          "relevanceConfidence": "low",
-          "components": {
-            "kerninteresse": 0,
-            "topic_relevantie": 4,
-            "substantie": 24,
-            "duurzaamheid": 5,
-            "bruikbaarheid": 20,
-            "leeskans": 0,
-            "nederlandse_taal": 0,
-            "aftrek": 0
-          }
-        }
-      },
-      "positions": {
-        "lees": 390,
-        "software-development": 114
-      },
-      "actualPositions": {
-        "lees": 390,
-        "software-development": 114
-      }
-    },
-    "01m3hr5tgppahpp31wnnccxpwx": {
-      "baseScore": 48,
-      "adjustment": 0,
-      "adjustmentReason": null,
-      "score": 48,
-      "tier": "midden",
-      "components": {
-        "kerninteresse": 0,
-        "relevantie": 10,
-        "substantie": 8,
-        "duurzaamheid": 5,
-        "bruikbaarheid": 20,
-        "leeskans": 5,
-        "nederlandse_taal": 0,
-        "aftrek": 0
-      },
-      "rationale": {
-        "relevantie": [
-          "inhoudelijke relevantie uit de low-confidence inhoudsbeoordeling.",
-          "Bewijs: fallback-no-label, usefulness-signal, automated-fallback."
-        ],
-        "substantie": [
-          "substantie uit de low-confidence inhoudsbeoordeling."
-        ],
-        "duurzaamheid": [
-          "duurzaamheid uit de low-confidence inhoudsbeoordeling."
-        ],
-        "bruikbaarheid": [
-          "bruikbaarheid uit de low-confidence inhoudsbeoordeling."
-        ],
-        "leeskans": [
-          "leeskans uit de low-confidence inhoudsbeoordeling."
-        ],
-        "nederlandse_taal": [],
-        "aftrek": [],
-        "kerninteresse": []
-      },
-      "judgmentSource": "fallback",
-      "judgmentConfidence": "low",
-      "coreInterestMatches": [],
-      "sequences": [
-        "lees",
-        "short",
-        "software-development"
-      ],
-      "sequenceScores": {
-        "lees": {
-          "score": 48,
-          "tier": "midden",
-          "mode": "global"
-        },
-        "short": {
-          "score": 51,
-          "tier": "midden",
-          "mode": "global"
-        },
-        "software-development": {
-          "score": 78,
-          "tier": "hoog",
-          "mode": "topic",
-          "topicRelevance": 4,
-          "relevanceSource": "fallback",
-          "relevanceConfidence": "low",
-          "components": {
-            "kerninteresse": 0,
-            "topic_relevantie": 4,
-            "substantie": 8,
-            "duurzaamheid": 5,
-            "bruikbaarheid": 20,
-            "leeskans": 5,
-            "nederlandse_taal": 0,
-            "aftrek": 0
-          }
-        }
-      },
-      "positions": {
-        "lees": 399,
-        "short": 267,
-        "software-development": 118
-      },
-      "actualPositions": {
-        "lees": 399,
-        "short": 267,
-        "software-development": 118
-      }
-    },
-    "01m3hqpnb8rd3qdgaqxhp3v48b": {
-      "baseScore": 114,
-      "adjustment": 0,
-      "adjustmentReason": null,
-      "score": 114,
-      "tier": "hoog",
-      "components": {
-        "kerninteresse": 30,
-        "relevantie": 20,
-        "substantie": 24,
-        "duurzaamheid": 15,
-        "bruikbaarheid": 20,
-        "leeskans": 5,
-        "nederlandse_taal": 0,
-        "aftrek": 0
-      },
-      "rationale": {
-        "relevantie": [
-          "inhoudelijke relevantie uit de low-confidence inhoudsbeoordeling.",
-          "Bewijs: fallback-no-label, explicit-interest-tag, substance-signal, usefulness-signal, automated-fallback."
-        ],
-        "substantie": [
-          "substantie uit de low-confidence inhoudsbeoordeling."
-        ],
-        "duurzaamheid": [
-          "duurzaamheid uit de low-confidence inhoudsbeoordeling."
-        ],
-        "bruikbaarheid": [
-          "bruikbaarheid uit de low-confidence inhoudsbeoordeling."
-        ],
-        "leeskans": [
-          "leeskans uit de low-confidence inhoudsbeoordeling."
-        ],
-        "nederlandse_taal": [],
-        "aftrek": [],
-        "kerninteresse": [
-          "Sociologie: +10 (Social Psychology & Interpersonal Dynamics).",
-          "Agile: +20 (Organizational Behavior & Culture)."
-        ]
-      },
-      "judgmentSource": "fallback",
-      "judgmentConfidence": "low",
-      "coreInterestMatches": [
-        {
-          "interest": "sociologie",
-          "evidence": [
-            {
-              "kind": "readwise-tag",
-              "source": "social psychology & interpersonal dynamics",
-              "label": "Social Psychology & Interpersonal Dynamics"
-            }
-          ],
-          "qualityScore": 79,
-          "weight": 10
-        },
-        {
-          "interest": "agile",
-          "evidence": [
-            {
-              "kind": "readwise-tag",
-              "source": "organizational behavior & culture",
-              "label": "Organizational Behavior & Culture"
-            }
-          ],
-          "qualityScore": 79,
-          "weight": 20
-        }
-      ],
-      "sequences": [
-        "lees",
-        "short",
-        "social-studies"
-      ],
-      "sequenceScores": {
-        "lees": {
-          "score": 114,
-          "tier": "hoog",
-          "mode": "global"
-        },
-        "short": {
-          "score": 117,
-          "tier": "hoog",
-          "mode": "global"
-        },
-        "social-studies": {
-          "score": 134,
-          "tier": "hoog",
-          "mode": "topic",
-          "topicRelevance": 4,
-          "relevanceSource": "fallback",
-          "relevanceConfidence": "low",
-          "components": {
-            "kerninteresse": 30,
-            "topic_relevantie": 4,
-            "substantie": 24,
-            "duurzaamheid": 15,
-            "bruikbaarheid": 20,
-            "leeskans": 5,
-            "nederlandse_taal": 0,
-            "aftrek": 0
-          }
-        }
-      },
-      "positions": {
-        "lees": 303,
-        "short": 186,
-        "social-studies": 105
-      },
-      "actualPositions": {
-        "lees": 303,
-        "short": 186,
-        "social-studies": 105
+        "lees": 332,
+        "short": 211,
+        "software-development": 57,
+        "social-studies": 156
       }
     },
     "01m3hmttdtjvcq110wjk0zw9sx": {
@@ -3680,252 +1812,16 @@ window.TOP_ARTICLE_PRIORITY = {
         }
       },
       "positions": {
-        "lees": 302,
-        "short": 185,
+        "lees": 295,
+        "short": 182,
         "scrum": 36,
-        "social-studies": 82
+        "social-studies": 81
       },
       "actualPositions": {
-        "lees": 302,
-        "short": 185,
+        "lees": 295,
+        "short": 182,
         "scrum": 36,
-        "social-studies": 82
-      }
-    },
-    "01m3h1h51a4drknn96phndck3f": {
-      "baseScore": 116,
-      "adjustment": 0,
-      "adjustmentReason": null,
-      "score": 116,
-      "tier": "hoog",
-      "components": {
-        "kerninteresse": 12,
-        "relevantie": 40,
-        "substantie": 24,
-        "duurzaamheid": 20,
-        "bruikbaarheid": 20,
-        "leeskans": 0,
-        "nederlandse_taal": 0,
-        "aftrek": 0
-      },
-      "rationale": {
-        "relevantie": [
-          "inhoudelijke relevantie uit de high-confidence inhoudsbeoordeling.",
-          "Bewijs: semantic-review, independent-of-current-position, evidence:notes, evidence:highlights, interest:philosophy, interest:software-development, interest:learning, transferable-programming-concepts, learning-how-to-learn-and-human-centered-language-design."
-        ],
-        "substantie": [
-          "substantie uit de high-confidence inhoudsbeoordeling."
-        ],
-        "duurzaamheid": [
-          "duurzaamheid uit de high-confidence inhoudsbeoordeling."
-        ],
-        "bruikbaarheid": [
-          "bruikbaarheid uit de high-confidence inhoudsbeoordeling."
-        ],
-        "leeskans": [],
-        "nederlandse_taal": [],
-        "aftrek": [],
-        "kerninteresse": [
-          "Filosofie: +12 (filosofie)."
-        ]
-      },
-      "judgmentSource": "label",
-      "judgmentConfidence": "high",
-      "coreInterestMatches": [
-        {
-          "interest": "filosofie",
-          "evidence": [
-            {
-              "kind": "semantic-signal",
-              "source": "interest:philosophy",
-              "label": "filosofie"
-            }
-          ],
-          "qualityScore": 104,
-          "weight": 12
-        }
-      ],
-      "sequences": [
-        "lees",
-        "software-development"
-      ],
-      "sequenceScores": {
-        "lees": {
-          "score": 116,
-          "tier": "hoog",
-          "mode": "global"
-        },
-        "software-development": {
-          "score": 116,
-          "tier": "hoog",
-          "mode": "topic",
-          "topicRelevance": 4,
-          "relevanceSource": "label",
-          "relevanceConfidence": "high",
-          "components": {
-            "kerninteresse": 12,
-            "topic_relevantie": 4,
-            "substantie": 24,
-            "duurzaamheid": 20,
-            "bruikbaarheid": 20,
-            "leeskans": 0,
-            "nederlandse_taal": 0,
-            "aftrek": 0
-          }
-        }
-      },
-      "positions": {
-        "lees": 293,
-        "software-development": 69
-      },
-      "actualPositions": {
-        "lees": 293,
-        "software-development": 69
-      }
-    },
-    "01m3h1h1cjh9v58whz8vakzrkt": {
-      "baseScore": 99,
-      "adjustment": 0,
-      "adjustmentReason": null,
-      "score": 99,
-      "tier": "hoog",
-      "components": {
-        "kerninteresse": 23,
-        "relevantie": 30,
-        "substantie": 16,
-        "duurzaamheid": 10,
-        "bruikbaarheid": 15,
-        "leeskans": 5,
-        "nederlandse_taal": 0,
-        "aftrek": 0
-      },
-      "rationale": {
-        "relevantie": [
-          "inhoudelijke relevantie uit de medium-confidence inhoudsbeoordeling.",
-          "Bewijs: semantic-review, independent-of-current-position, evidence:notes, evidence:highlights, interest:software-development, interest:organizational-culture, interest:totalitarianism-fascism, ruby-tooling-and-community-alternatives, personal-political-claims-partly-unsourced."
-        ],
-        "substantie": [
-          "substantie uit de medium-confidence inhoudsbeoordeling."
-        ],
-        "duurzaamheid": [
-          "duurzaamheid uit de medium-confidence inhoudsbeoordeling."
-        ],
-        "bruikbaarheid": [
-          "bruikbaarheid uit de medium-confidence inhoudsbeoordeling."
-        ],
-        "leeskans": [
-          "leeskans uit de medium-confidence inhoudsbeoordeling."
-        ],
-        "nederlandse_taal": [],
-        "aftrek": [],
-        "kerninteresse": [
-          "Ideologie: +3 (totalitarisme & fascisme, Totalitarianism & Fascism).",
-          "Agile: +20 (organisatiecultuur, Organizational Behavior & Culture)."
-        ]
-      },
-      "judgmentSource": "label",
-      "judgmentConfidence": "medium",
-      "coreInterestMatches": [
-        {
-          "interest": "ideologie",
-          "evidence": [
-            {
-              "kind": "semantic-signal",
-              "source": "interest:totalitarianism-fascism",
-              "label": "totalitarisme & fascisme"
-            },
-            {
-              "kind": "readwise-tag",
-              "source": "totalitarianism & fascism",
-              "label": "Totalitarianism & Fascism"
-            }
-          ],
-          "qualityScore": 71,
-          "weight": 3
-        },
-        {
-          "interest": "agile",
-          "evidence": [
-            {
-              "kind": "semantic-signal",
-              "source": "interest:organizational-culture",
-              "label": "organisatiecultuur"
-            },
-            {
-              "kind": "readwise-tag",
-              "source": "organizational behavior & culture",
-              "label": "Organizational Behavior & Culture"
-            }
-          ],
-          "qualityScore": 71,
-          "weight": 20
-        }
-      ],
-      "sequences": [
-        "lees",
-        "short",
-        "software-development",
-        "social-studies"
-      ],
-      "sequenceScores": {
-        "lees": {
-          "score": 99,
-          "tier": "hoog",
-          "mode": "global"
-        },
-        "short": {
-          "score": 105,
-          "tier": "hoog",
-          "mode": "global"
-        },
-        "software-development": {
-          "score": 109,
-          "tier": "hoog",
-          "mode": "topic",
-          "topicRelevance": 4,
-          "relevanceSource": "label",
-          "relevanceConfidence": "medium",
-          "components": {
-            "kerninteresse": 23,
-            "topic_relevantie": 4,
-            "substantie": 16,
-            "duurzaamheid": 10,
-            "bruikbaarheid": 15,
-            "leeskans": 5,
-            "nederlandse_taal": 0,
-            "aftrek": 0
-          }
-        },
-        "social-studies": {
-          "score": 99,
-          "tier": "hoog",
-          "mode": "topic",
-          "topicRelevance": 3,
-          "relevanceSource": "label",
-          "relevanceConfidence": "medium",
-          "components": {
-            "kerninteresse": 23,
-            "topic_relevantie": 3,
-            "substantie": 16,
-            "duurzaamheid": 10,
-            "bruikbaarheid": 15,
-            "leeskans": 5,
-            "nederlandse_taal": 0,
-            "aftrek": 0
-          }
-        }
-      },
-      "positions": {
-        "lees": 342,
-        "short": 212,
-        "software-development": 83,
-        "social-studies": 239
-      },
-      "actualPositions": {
-        "lees": 342,
-        "short": 212,
-        "software-development": 83,
-        "social-studies": 239
+        "social-studies": 81
       }
     },
     "01m3h1gxyejcz42pg85wgrpwpe": {
@@ -4054,109 +1950,13 @@ window.TOP_ARTICLE_PRIORITY = {
       },
       "positions": {
         "lees": 170,
-        "software-development": 21,
-        "social-studies": 168
+        "software-development": 19,
+        "social-studies": 162
       },
       "actualPositions": {
         "lees": 170,
-        "software-development": 21,
-        "social-studies": 168
-      }
-    },
-    "01m3h1gp2bh89k0ppxzx49a7nt": {
-      "baseScore": 116,
-      "adjustment": 0,
-      "adjustmentReason": null,
-      "score": 116,
-      "tier": "hoog",
-      "components": {
-        "kerninteresse": 12,
-        "relevantie": 40,
-        "substantie": 24,
-        "duurzaamheid": 20,
-        "bruikbaarheid": 20,
-        "leeskans": 0,
-        "nederlandse_taal": 0,
-        "aftrek": 0
-      },
-      "rationale": {
-        "relevantie": [
-          "inhoudelijke relevantie uit de high-confidence inhoudsbeoordeling.",
-          "Bewijs: semantic-review, independent-of-current-position, evidence:notes, evidence:highlights, interest:philosophy, interest:software-development, primary-interview-with-language-creator, language-design-tradeoffs-and-human-effort."
-        ],
-        "substantie": [
-          "substantie uit de high-confidence inhoudsbeoordeling."
-        ],
-        "duurzaamheid": [
-          "duurzaamheid uit de high-confidence inhoudsbeoordeling."
-        ],
-        "bruikbaarheid": [
-          "bruikbaarheid uit de high-confidence inhoudsbeoordeling."
-        ],
-        "leeskans": [],
-        "nederlandse_taal": [],
-        "aftrek": [],
-        "kerninteresse": [
-          "Filosofie: +12 (filosofie, filosofie)."
-        ]
-      },
-      "judgmentSource": "label",
-      "judgmentConfidence": "high",
-      "coreInterestMatches": [
-        {
-          "interest": "filosofie",
-          "evidence": [
-            {
-              "kind": "semantic-signal",
-              "source": "interest:philosophy",
-              "label": "filosofie"
-            },
-            {
-              "kind": "readwise-tag",
-              "source": "philosophy",
-              "label": "filosofie"
-            }
-          ],
-          "qualityScore": 104,
-          "weight": 12
-        }
-      ],
-      "sequences": [
-        "lees",
-        "software-development"
-      ],
-      "sequenceScores": {
-        "lees": {
-          "score": 116,
-          "tier": "hoog",
-          "mode": "global"
-        },
-        "software-development": {
-          "score": 116,
-          "tier": "hoog",
-          "mode": "topic",
-          "topicRelevance": 4,
-          "relevanceSource": "label",
-          "relevanceConfidence": "high",
-          "components": {
-            "kerninteresse": 12,
-            "topic_relevantie": 4,
-            "substantie": 24,
-            "duurzaamheid": 20,
-            "bruikbaarheid": 20,
-            "leeskans": 0,
-            "nederlandse_taal": 0,
-            "aftrek": 0
-          }
-        }
-      },
-      "positions": {
-        "lees": 292,
-        "software-development": 68
-      },
-      "actualPositions": {
-        "lees": 292,
-        "software-development": 68
+        "software-development": 19,
+        "social-studies": 162
       }
     },
     "01m3h1gk5bvg1tmg39tgtp1s3r": {
@@ -4293,107 +2093,6 @@ window.TOP_ARTICLE_PRIORITY = {
         "social-studies": 26
       }
     },
-    "01m3h1fwbadt2jwbwfcyyszhnr": {
-      "baseScore": 74,
-      "adjustment": 0,
-      "adjustmentReason": null,
-      "score": 74,
-      "tier": "hoog",
-      "components": {
-        "kerninteresse": 10,
-        "relevantie": 10,
-        "substantie": 24,
-        "duurzaamheid": 15,
-        "bruikbaarheid": 10,
-        "leeskans": 5,
-        "nederlandse_taal": 0,
-        "aftrek": 0
-      },
-      "rationale": {
-        "relevantie": [
-          "inhoudelijke relevantie uit de low-confidence inhoudsbeoordeling.",
-          "Bewijs: fallback-no-label, explicit-interest-tag, substance-signal, automated-fallback."
-        ],
-        "substantie": [
-          "substantie uit de low-confidence inhoudsbeoordeling."
-        ],
-        "duurzaamheid": [
-          "duurzaamheid uit de low-confidence inhoudsbeoordeling."
-        ],
-        "bruikbaarheid": [
-          "bruikbaarheid uit de low-confidence inhoudsbeoordeling."
-        ],
-        "leeskans": [
-          "leeskans uit de low-confidence inhoudsbeoordeling."
-        ],
-        "nederlandse_taal": [],
-        "aftrek": [],
-        "kerninteresse": [
-          "Sociologie: +10 (Social Psychology & Interpersonal Dynamics)."
-        ]
-      },
-      "judgmentSource": "fallback",
-      "judgmentConfidence": "low",
-      "coreInterestMatches": [
-        {
-          "interest": "sociologie",
-          "evidence": [
-            {
-              "kind": "readwise-tag",
-              "source": "social psychology & interpersonal dynamics",
-              "label": "Social Psychology & Interpersonal Dynamics"
-            }
-          ],
-          "qualityScore": 59,
-          "weight": 10
-        }
-      ],
-      "sequences": [
-        "lees",
-        "short",
-        "social-studies"
-      ],
-      "sequenceScores": {
-        "lees": {
-          "score": 74,
-          "tier": "hoog",
-          "mode": "global"
-        },
-        "short": {
-          "score": 77,
-          "tier": "hoog",
-          "mode": "global"
-        },
-        "social-studies": {
-          "score": 104,
-          "tier": "hoog",
-          "mode": "topic",
-          "topicRelevance": 4,
-          "relevanceSource": "fallback",
-          "relevanceConfidence": "low",
-          "components": {
-            "kerninteresse": 10,
-            "topic_relevantie": 4,
-            "substantie": 24,
-            "duurzaamheid": 15,
-            "bruikbaarheid": 10,
-            "leeskans": 5,
-            "nederlandse_taal": 0,
-            "aftrek": 0
-          }
-        }
-      },
-      "positions": {
-        "lees": 385,
-        "short": 254,
-        "social-studies": 229
-      },
-      "actualPositions": {
-        "lees": 385,
-        "short": 254,
-        "social-studies": 229
-      }
-    },
     "01m3gyq5ywy4dk43ebvasvy1jw": {
       "baseScore": 89,
       "adjustment": 20,
@@ -4504,16 +2203,16 @@ window.TOP_ARTICLE_PRIORITY = {
         }
       },
       "positions": {
-        "lees": 319,
-        "short": 197,
-        "software-development": 17,
-        "social-studies": 91
+        "lees": 311,
+        "short": 193,
+        "software-development": 16,
+        "social-studies": 90
       },
       "actualPositions": {
-        "lees": 319,
-        "short": 197,
-        "software-development": 17,
-        "social-studies": 91
+        "lees": 311,
+        "short": 193,
+        "software-development": 16,
+        "social-studies": 90
       }
     },
     "01m3gr90hcvqgmr68cddm54222": {
@@ -4649,13 +2348,13 @@ window.TOP_ARTICLE_PRIORITY = {
       },
       "positions": {
         "video": 17,
-        "scrum": 105,
-        "social-studies": 255
+        "scrum": 104,
+        "social-studies": 240
       },
       "actualPositions": {
         "video": 17,
-        "scrum": 105,
-        "social-studies": 255
+        "scrum": 104,
+        "social-studies": 240
       }
     },
     "01m3gr7zfa6ns655xrdmbjq9mc": {
@@ -4734,14 +2433,14 @@ window.TOP_ARTICLE_PRIORITY = {
         }
       },
       "positions": {
-        "lees": 328,
-        "short": 213,
-        "software-development": 96
+        "lees": 320,
+        "short": 207,
+        "software-development": 86
       },
       "actualPositions": {
-        "lees": 328,
-        "short": 213,
-        "software-development": 96
+        "lees": 320,
+        "short": 207,
+        "software-development": 86
       }
     },
     "01m3gr78d66pgwf9esfe7vmghw": {
@@ -4866,14 +2565,14 @@ window.TOP_ARTICLE_PRIORITY = {
         }
       },
       "positions": {
-        "lees": 258,
-        "scrum": 85,
-        "social-studies": 228
+        "lees": 255,
+        "scrum": 86,
+        "social-studies": 217
       },
       "actualPositions": {
-        "lees": 258,
-        "scrum": 85,
-        "social-studies": 228
+        "lees": 255,
+        "scrum": 86,
+        "social-studies": 217
       }
     },
     "01m3gr6gfvpw8z714qvbjnrf43": {
@@ -5002,12 +2701,12 @@ window.TOP_ARTICLE_PRIORITY = {
       "positions": {
         "lees": 122,
         "short": 73,
-        "social-studies": 73
+        "social-studies": 72
       },
       "actualPositions": {
         "lees": 122,
         "short": 73,
-        "social-studies": 73
+        "social-studies": 72
       }
     },
     "01m3gr65d90kw3vye30cats58r": {
@@ -5137,14 +2836,14 @@ window.TOP_ARTICLE_PRIORITY = {
         }
       },
       "positions": {
-        "lees": 257,
-        "scrum": 84,
-        "social-studies": 181
+        "lees": 254,
+        "scrum": 85,
+        "social-studies": 175
       },
       "actualPositions": {
-        "lees": 257,
-        "scrum": 84,
-        "social-studies": 181
+        "lees": 254,
+        "scrum": 85,
+        "social-studies": 175
       }
     },
     "01m3gr57ayfgtbzb87n9j2v09y": {
@@ -5267,11 +2966,11 @@ window.TOP_ARTICLE_PRIORITY = {
       },
       "positions": {
         "lees": 173,
-        "social-studies": 100
+        "social-studies": 98
       },
       "actualPositions": {
         "lees": 173,
-        "social-studies": 100
+        "social-studies": 98
       }
     },
     "01m3gr42c33pfahhwx4we00xsd": {
@@ -5394,16 +3093,16 @@ window.TOP_ARTICLE_PRIORITY = {
         }
       },
       "positions": {
-        "lees": 227,
+        "lees": 226,
         "short": 144,
-        "scrum": 77,
-        "social-studies": 210
+        "scrum": 78,
+        "social-studies": 203
       },
       "actualPositions": {
-        "lees": 227,
+        "lees": 226,
         "short": 144,
-        "scrum": 77,
-        "social-studies": 210
+        "scrum": 78,
+        "social-studies": 203
       }
     },
     "01m3gr3ex2vtp8d05yp3036c4y": {
@@ -5526,16 +3225,16 @@ window.TOP_ARTICLE_PRIORITY = {
         }
       },
       "positions": {
-        "lees": 226,
+        "lees": 225,
         "short": 143,
-        "scrum": 99,
-        "social-studies": 209
+        "scrum": 100,
+        "social-studies": 202
       },
       "actualPositions": {
-        "lees": 226,
+        "lees": 225,
         "short": 143,
-        "scrum": 99,
-        "social-studies": 209
+        "scrum": 100,
+        "social-studies": 202
       }
     },
     "01m3gnn48yh49d559pfyx1j1wj": {
@@ -5627,14 +3326,14 @@ window.TOP_ARTICLE_PRIORITY = {
         }
       },
       "positions": {
-        "lees": 349,
+        "lees": 336,
         "luchtig": 96,
-        "social-studies": 254
+        "social-studies": 239
       },
       "actualPositions": {
-        "lees": 349,
+        "lees": 336,
         "luchtig": 96,
-        "social-studies": 254
+        "social-studies": 239
       }
     },
     "01m3gnmnvzp8kkraqjkg24krcd": {
@@ -5775,16 +3474,16 @@ window.TOP_ARTICLE_PRIORITY = {
         }
       },
       "positions": {
-        "lees": 269,
-        "short": 169,
-        "scrum": 88,
-        "social-studies": 187
+        "lees": 266,
+        "short": 167,
+        "scrum": 89,
+        "social-studies": 180
       },
       "actualPositions": {
-        "lees": 269,
-        "short": 169,
-        "scrum": 88,
-        "social-studies": 187
+        "lees": 266,
+        "short": 167,
+        "scrum": 89,
+        "social-studies": 180
       }
     },
     "01m3gc1908kt90m70325apbz7m": {
@@ -5889,14 +3588,14 @@ window.TOP_ARTICLE_PRIORITY = {
         }
       },
       "positions": {
-        "lees": 235,
-        "software-development": 44,
-        "social-studies": 219
+        "lees": 234,
+        "software-development": 42,
+        "social-studies": 209
       },
       "actualPositions": {
-        "lees": 235,
-        "software-development": 44,
-        "social-studies": 219
+        "lees": 234,
+        "software-development": 42,
+        "social-studies": 209
       }
     },
     "01m3gc16x6ngvkfyghamnw0c63": {
@@ -5993,14 +3692,14 @@ window.TOP_ARTICLE_PRIORITY = {
         }
       },
       "positions": {
-        "lees": 306,
+        "lees": 298,
         "luchtig": 78,
-        "social-studies": 141
+        "social-studies": 136
       },
       "actualPositions": {
-        "lees": 306,
+        "lees": 298,
         "luchtig": 78,
-        "social-studies": 141
+        "social-studies": 136
       }
     },
     "01m3fe92ymyskn9x20za5fda1b": {
@@ -6276,13 +3975,13 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees": 169,
         "short": 99,
         "scrum": 47,
-        "social-studies": 130
+        "social-studies": 126
       },
       "actualPositions": {
         "lees": 169,
         "short": 99,
         "scrum": 47,
-        "social-studies": 130
+        "social-studies": 126
       }
     },
     "01m3fb9vd5qc5gaw8dzcre20m6": {
@@ -6490,12 +4189,12 @@ window.TOP_ARTICLE_PRIORITY = {
       "positions": {
         "lees": 138,
         "short": 98,
-        "social-studies": 76
+        "social-studies": 75
       },
       "actualPositions": {
         "lees": 138,
         "short": 98,
-        "social-studies": 76
+        "social-studies": 75
       }
     },
     "01m3f17v3t6pg87zvd6fs4vtvs": {
@@ -6573,11 +4272,11 @@ window.TOP_ARTICLE_PRIORITY = {
         }
       },
       "positions": {
-        "lees": 341,
+        "lees": 330,
         "luchtig": 95
       },
       "actualPositions": {
-        "lees": 341,
+        "lees": 330,
         "luchtig": 95
       }
     },
@@ -6663,16 +4362,16 @@ window.TOP_ARTICLE_PRIORITY = {
         }
       },
       "positions": {
-        "lees": 177,
+        "lees": 176,
         "short": 107,
         "luchtig": 47,
-        "social-studies": 186
+        "social-studies": 179
       },
       "actualPositions": {
-        "lees": 177,
+        "lees": 176,
         "short": 107,
         "luchtig": 47,
-        "social-studies": 186
+        "social-studies": 179
       }
     },
     "01m3epdkvycv3wpcz9c1ra5p9c": {
@@ -6753,13 +4452,13 @@ window.TOP_ARTICLE_PRIORITY = {
         }
       },
       "positions": {
-        "lees": 363,
-        "short": 247,
+        "lees": 346,
+        "short": 232,
         "luchtig": 100
       },
       "actualPositions": {
-        "lees": 363,
-        "short": 247,
+        "lees": 346,
+        "short": 232,
         "luchtig": 100
       }
     },
@@ -6894,13 +4593,13 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees": 172,
         "short": 101,
         "luchtig": 44,
-        "social-studies": 99
+        "social-studies": 97
       },
       "actualPositions": {
         "lees": 172,
         "short": 101,
         "luchtig": 44,
-        "social-studies": 99
+        "social-studies": 97
       }
     },
     "01m3dtcqa58z1qk7eks8ejrvxt": {
@@ -6985,10 +4684,10 @@ window.TOP_ARTICLE_PRIORITY = {
         }
       },
       "positions": {
-        "pdf": 13
+        "pdf": 12
       },
       "actualPositions": {
-        "pdf": 13
+        "pdf": 12
       }
     },
     "01m3dtbcfzynemz3jy47ymq61h": {
@@ -7228,18 +4927,18 @@ window.TOP_ARTICLE_PRIORITY = {
         }
       },
       "positions": {
-        "lees": 225,
+        "lees": 224,
         "short": 142,
-        "scrum": 76,
-        "software-development": 38,
-        "social-studies": 238
+        "scrum": 77,
+        "software-development": 36,
+        "social-studies": 225
       },
       "actualPositions": {
-        "lees": 225,
+        "lees": 224,
         "short": 142,
-        "scrum": 76,
-        "software-development": 38,
-        "social-studies": 238
+        "scrum": 77,
+        "software-development": 36,
+        "social-studies": 225
       }
     },
     "01m3dtap1scx5019b5hgytbygy": {
@@ -7381,18 +5080,18 @@ window.TOP_ARTICLE_PRIORITY = {
         }
       },
       "positions": {
-        "lees": 224,
+        "lees": 223,
         "short": 141,
-        "scrum": 75,
-        "software-development": 37,
-        "social-studies": 208
+        "scrum": 76,
+        "software-development": 35,
+        "social-studies": 201
       },
       "actualPositions": {
-        "lees": 224,
+        "lees": 223,
         "short": 141,
-        "scrum": 75,
-        "software-development": 37,
-        "social-studies": 208
+        "scrum": 76,
+        "software-development": 35,
+        "social-studies": 201
       }
     },
     "01m3dtajmfqyrzqccbxx6gb63p": {
@@ -7543,14 +5242,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "short": 69,
         "scrum": 30,
         "software-development": 8,
-        "social-studies": 123
+        "social-studies": 120
       },
       "actualPositions": {
         "lees": 118,
         "short": 69,
         "scrum": 30,
         "software-development": 8,
-        "social-studies": 123
+        "social-studies": 120
       }
     },
     "01m3d23yzdxhdbmn7g4xd0dszh": {
@@ -7686,13 +5385,13 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees": 117,
         "short": 68,
         "scrum": 29,
-        "social-studies": 122
+        "social-studies": 119
       },
       "actualPositions": {
         "lees": 117,
         "short": 68,
         "scrum": 29,
-        "social-studies": 122
+        "social-studies": 119
       }
     },
     "01m3d23yhmvpcn09xxn036jd3a": {
@@ -7839,18 +5538,18 @@ window.TOP_ARTICLE_PRIORITY = {
         }
       },
       "positions": {
-        "lees": 223,
+        "lees": 222,
         "short": 140,
-        "scrum": 74,
-        "software-development": 36,
-        "social-studies": 207
+        "scrum": 75,
+        "software-development": 34,
+        "social-studies": 200
       },
       "actualPositions": {
-        "lees": 223,
+        "lees": 222,
         "short": 140,
-        "scrum": 74,
-        "software-development": 36,
-        "social-studies": 207
+        "scrum": 75,
+        "software-development": 34,
+        "social-studies": 200
       }
     },
     "01m3d23y59bjbbg4m0fmbrv68n": {
@@ -7997,18 +5696,18 @@ window.TOP_ARTICLE_PRIORITY = {
         }
       },
       "positions": {
-        "lees": 222,
+        "lees": 221,
         "short": 139,
-        "scrum": 73,
-        "software-development": 59,
-        "social-studies": 237
+        "scrum": 74,
+        "software-development": 56,
+        "social-studies": 224
       },
       "actualPositions": {
-        "lees": 222,
+        "lees": 221,
         "short": 139,
-        "scrum": 73,
-        "software-development": 59,
-        "social-studies": 237
+        "scrum": 74,
+        "software-development": 56,
+        "social-studies": 224
       }
     },
     "01m3d23wkezka5t8rkdmaes1kd": {
@@ -8155,18 +5854,18 @@ window.TOP_ARTICLE_PRIORITY = {
         }
       },
       "positions": {
-        "lees": 221,
+        "lees": 220,
         "short": 138,
-        "scrum": 72,
-        "software-development": 35,
-        "social-studies": 236
+        "scrum": 73,
+        "software-development": 33,
+        "social-studies": 223
       },
       "actualPositions": {
-        "lees": 221,
+        "lees": 220,
         "short": 138,
-        "scrum": 72,
-        "software-development": 35,
-        "social-studies": 236
+        "scrum": 73,
+        "software-development": 33,
+        "social-studies": 223
       }
     },
     "01m3d23vwm7j1b5pgvhjmqaedm": {
@@ -8252,12 +5951,12 @@ window.TOP_ARTICLE_PRIORITY = {
         }
       },
       "positions": {
-        "pdf": 14,
-        "social-studies": 241
+        "pdf": 13,
+        "social-studies": 226
       },
       "actualPositions": {
-        "pdf": 14,
-        "social-studies": 241
+        "pdf": 13,
+        "social-studies": 226
       }
     },
     "01m3d23rpk52c2w0wbveaf1ywq": {
@@ -8480,12 +6179,12 @@ window.TOP_ARTICLE_PRIORITY = {
         }
       },
       "positions": {
-        "lees": 176,
+        "lees": 175,
         "short": 102,
         "luchtig": 46
       },
       "actualPositions": {
-        "lees": 176,
+        "lees": 175,
         "short": 102,
         "luchtig": 46
       }
@@ -8592,16 +6291,16 @@ window.TOP_ARTICLE_PRIORITY = {
         }
       },
       "positions": {
-        "lees": 256,
-        "short": 161,
+        "lees": 253,
+        "short": 160,
         "luchtig": 63,
-        "social-studies": 180
+        "social-studies": 174
       },
       "actualPositions": {
-        "lees": 256,
-        "short": 161,
+        "lees": 253,
+        "short": 160,
         "luchtig": 63,
-        "social-studies": 180
+        "social-studies": 174
       }
     },
     "01m3cw5hemq4cabx1jxksx7k14": {
@@ -8703,14 +6402,14 @@ window.TOP_ARTICLE_PRIORITY = {
         }
       },
       "positions": {
-        "lees": 186,
+        "lees": 185,
         "luchtig": 51,
-        "social-studies": 109
+        "social-studies": 105
       },
       "actualPositions": {
-        "lees": 186,
+        "lees": 185,
         "luchtig": 51,
-        "social-studies": 109
+        "social-studies": 105
       }
     },
     "01m3cb40jc9x524gherhdhpg3w": {
@@ -9150,14 +6849,14 @@ window.TOP_ARTICLE_PRIORITY = {
       "positions": {
         "lees": 151,
         "short": 85,
-        "scrum": 71,
-        "social-studies": 90
+        "scrum": 72,
+        "social-studies": 89
       },
       "actualPositions": {
         "lees": 151,
         "short": 85,
-        "scrum": 71,
-        "social-studies": 90
+        "scrum": 72,
+        "social-studies": 89
       }
     },
     "01m3cb3m7rq080qjdpzyeyd7v4": {
@@ -9955,16 +7654,16 @@ window.TOP_ARTICLE_PRIORITY = {
         }
       },
       "positions": {
-        "lees": 283,
-        "short": 182,
-        "scrum": 98,
-        "social-studies": 206
+        "lees": 280,
+        "short": 180,
+        "scrum": 99,
+        "social-studies": 199
       },
       "actualPositions": {
-        "lees": 283,
-        "short": 182,
-        "scrum": 98,
-        "social-studies": 206
+        "lees": 280,
+        "short": 180,
+        "scrum": 99,
+        "social-studies": 199
       }
     },
     "01m3c9ghtxbpfsjny1mvs5epae": {
@@ -10371,12 +8070,12 @@ window.TOP_ARTICLE_PRIORITY = {
         }
       },
       "positions": {
-        "lees": 197,
+        "lees": 196,
         "short": 113,
         "luchtig": 53
       },
       "actualPositions": {
-        "lees": 197,
+        "lees": 196,
         "short": 113,
         "luchtig": 53
       }
@@ -10641,13 +8340,13 @@ window.TOP_ARTICLE_PRIORITY = {
       },
       "positions": {
         "video": 19,
-        "scrum": 106,
-        "social-studies": 258
+        "scrum": 105,
+        "social-studies": 243
       },
       "actualPositions": {
         "video": 19,
-        "scrum": 106,
-        "social-studies": 258
+        "scrum": 105,
+        "social-studies": 243
       }
     },
     "01m3c9fz1f2sd661ktwa347ehg": {
@@ -10780,16 +8479,16 @@ window.TOP_ARTICLE_PRIORITY = {
         }
       },
       "positions": {
-        "lees": 255,
-        "short": 160,
-        "scrum": 83,
-        "social-studies": 227
+        "lees": 252,
+        "short": 159,
+        "scrum": 84,
+        "social-studies": 216
       },
       "actualPositions": {
-        "lees": 255,
-        "short": 160,
-        "scrum": 83,
-        "social-studies": 227
+        "lees": 252,
+        "short": 159,
+        "scrum": 84,
+        "social-studies": 216
       }
     },
     "01m3c9fqw050mxx7dsfhet3t6b": {
@@ -11493,16 +9192,16 @@ window.TOP_ARTICLE_PRIORITY = {
         }
       },
       "positions": {
-        "lees": 220,
+        "lees": 219,
         "short": 137,
-        "scrum": 70,
-        "social-studies": 159
+        "scrum": 71,
+        "social-studies": 154
       },
       "actualPositions": {
-        "lees": 220,
+        "lees": 219,
         "short": 137,
-        "scrum": 70,
-        "social-studies": 159
+        "scrum": 71,
+        "social-studies": 154
       }
     },
     "01m3bsvtfr6yzy71xbkny9f5n8": {
@@ -11651,13 +9350,13 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees": 150,
         "short": 84,
         "scrum": 42,
-        "social-studies": 89
+        "social-studies": 88
       },
       "actualPositions": {
         "lees": 150,
         "short": 84,
         "scrum": 42,
-        "social-studies": 89
+        "social-studies": 88
       }
     },
     "01m3bpsh6614fsx82s8zcb014y": {
@@ -11799,12 +9498,12 @@ window.TOP_ARTICLE_PRIORITY = {
       },
       "positions": {
         "video": 2,
-        "social-studies": 140,
+        "social-studies": 135,
         "adhd": 25
       },
       "actualPositions": {
         "video": 2,
-        "social-studies": 140,
+        "social-studies": 135,
         "adhd": 25
       }
     },
@@ -11933,16 +9632,16 @@ window.TOP_ARTICLE_PRIORITY = {
         }
       },
       "positions": {
-        "lees": 254,
-        "short": 159,
-        "software-development": 51,
-        "social-studies": 179
+        "lees": 251,
+        "short": 158,
+        "software-development": 49,
+        "social-studies": 173
       },
       "actualPositions": {
-        "lees": 254,
-        "short": 159,
-        "software-development": 51,
-        "social-studies": 179
+        "lees": 251,
+        "short": 158,
+        "software-development": 49,
+        "social-studies": 173
       }
     },
     "01m39xvrmkc09h0qq1efc4s523": {
@@ -12083,13 +9782,13 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees": 162,
         "short": 94,
         "scrum": 46,
-        "social-studies": 93
+        "social-studies": 92
       },
       "actualPositions": {
         "lees": 162,
         "short": 94,
         "scrum": 46,
-        "social-studies": 93
+        "social-studies": 92
       }
     },
     "01m39mkg7cyjqvqm0sks15kgr8": {
@@ -12717,16 +10416,16 @@ window.TOP_ARTICLE_PRIORITY = {
         }
       },
       "positions": {
-        "lees": 219,
+        "lees": 218,
         "short": 136,
-        "scrum": 69,
-        "social-studies": 158
+        "scrum": 70,
+        "social-studies": 153
       },
       "actualPositions": {
-        "lees": 219,
+        "lees": 218,
         "short": 136,
-        "scrum": 69,
-        "social-studies": 158
+        "scrum": 70,
+        "social-studies": 153
       }
     },
     "01m391vyzc65eeqdk1cc0ftrrp": {
@@ -12868,18 +10567,18 @@ window.TOP_ARTICLE_PRIORITY = {
         }
       },
       "positions": {
-        "lees": 301,
-        "short": 195,
-        "scrum": 109,
-        "software-development": 95,
-        "social-studies": 226
+        "lees": 294,
+        "short": 191,
+        "scrum": 108,
+        "software-development": 85,
+        "social-studies": 215
       },
       "actualPositions": {
-        "lees": 301,
-        "short": 195,
-        "scrum": 109,
-        "software-development": 95,
-        "social-studies": 226
+        "lees": 294,
+        "short": 191,
+        "scrum": 108,
+        "software-development": 85,
+        "social-studies": 215
       }
     },
     "01m391awp56f04rzge277en7tt": {
@@ -13119,14 +10818,14 @@ window.TOP_ARTICLE_PRIORITY = {
         }
       },
       "positions": {
-        "lees": 175,
+        "lees": 174,
         "luchtig": 45,
-        "social-studies": 104
+        "social-studies": 101
       },
       "actualPositions": {
-        "lees": 175,
+        "lees": 174,
         "luchtig": 45,
-        "social-studies": 104
+        "social-studies": 101
       }
     },
     "01m38wjv4th0nk4yy55vwhcybv": {
@@ -13644,16 +11343,16 @@ window.TOP_ARTICLE_PRIORITY = {
         }
       },
       "positions": {
-        "lees": 253,
-        "short": 158,
-        "scrum": 82,
-        "social-studies": 178
+        "lees": 250,
+        "short": 157,
+        "scrum": 83,
+        "social-studies": 172
       },
       "actualPositions": {
-        "lees": 253,
-        "short": 158,
-        "scrum": 82,
-        "social-studies": 178
+        "lees": 250,
+        "short": 157,
+        "scrum": 83,
+        "social-studies": 172
       }
     },
     "01m34k3sy8z3axkjz3rsy0t06a": {
@@ -13773,12 +11472,12 @@ window.TOP_ARTICLE_PRIORITY = {
       "positions": {
         "video": 15,
         "luchtig": 77,
-        "social-studies": 137
+        "social-studies": 132
       },
       "actualPositions": {
         "video": 15,
         "luchtig": 77,
-        "social-studies": 137
+        "social-studies": 132
       }
     },
     "01m342p2njkgrn1qpn8acvxf52": {
@@ -14434,16 +12133,16 @@ window.TOP_ARTICLE_PRIORITY = {
         }
       },
       "positions": {
-        "lees": 218,
+        "lees": 217,
         "short": 135,
-        "scrum": 68,
-        "social-studies": 205
+        "scrum": 69,
+        "social-studies": 198
       },
       "actualPositions": {
-        "lees": 218,
+        "lees": 217,
         "short": 135,
-        "scrum": 68,
-        "social-studies": 205
+        "scrum": 69,
+        "social-studies": 198
       }
     },
     "01m33f23gtsf89r7spek80wkc9": {
@@ -14571,14 +12270,14 @@ window.TOP_ARTICLE_PRIORITY = {
         }
       },
       "positions": {
-        "lees": 312,
+        "lees": 304,
         "luchtig": 83,
-        "social-studies": 147
+        "social-studies": 142
       },
       "actualPositions": {
-        "lees": 312,
+        "lees": 304,
         "luchtig": 83,
-        "social-studies": 147
+        "social-studies": 142
       }
     },
     "01m33f1t1qgfmdw5jw3m1x5hze": {
@@ -14696,16 +12395,16 @@ window.TOP_ARTICLE_PRIORITY = {
         }
       },
       "positions": {
-        "lees": 325,
-        "short": 210,
+        "lees": 317,
+        "short": 205,
         "luchtig": 87,
-        "social-studies": 218
+        "social-studies": 208
       },
       "actualPositions": {
-        "lees": 325,
-        "short": 210,
+        "lees": 317,
+        "short": 205,
         "luchtig": 87,
-        "social-studies": 218
+        "social-studies": 208
       }
     },
     "01m33ez7ev175kpa3c253v8z80": {
@@ -14786,13 +12485,13 @@ window.TOP_ARTICLE_PRIORITY = {
         }
       },
       "positions": {
-        "lees": 346,
-        "short": 226,
+        "lees": 334,
+        "short": 217,
         "luchtig": 93
       },
       "actualPositions": {
-        "lees": 346,
-        "short": 226,
+        "lees": 334,
+        "short": 217,
         "luchtig": 93
       }
     },
@@ -14943,18 +12642,18 @@ window.TOP_ARTICLE_PRIORITY = {
         }
       },
       "positions": {
-        "lees": 268,
-        "short": 168,
+        "lees": 265,
+        "short": 166,
         "luchtig": 66,
         "front-end-development": 17,
-        "social-studies": 111
+        "social-studies": 108
       },
       "actualPositions": {
-        "lees": 268,
-        "short": 168,
+        "lees": 265,
+        "short": 166,
         "luchtig": 66,
         "front-end-development": 17,
-        "social-studies": 111
+        "social-studies": 108
       }
     },
     "01m33en2pb2p4rn5jm2994b5y6": {
@@ -15048,13 +12747,13 @@ window.TOP_ARTICLE_PRIORITY = {
         }
       },
       "positions": {
-        "lees": 348,
-        "short": 228,
+        "lees": 335,
+        "short": 218,
         "luchtig": 94
       },
       "actualPositions": {
-        "lees": 348,
-        "short": 228,
+        "lees": 335,
+        "short": 218,
         "luchtig": 94
       }
     },
@@ -15395,16 +13094,16 @@ window.TOP_ARTICLE_PRIORITY = {
         }
       },
       "positions": {
-        "lees": 217,
+        "lees": 216,
         "short": 134,
         "luchtig": 56,
-        "social-studies": 121
+        "social-studies": 118
       },
       "actualPositions": {
-        "lees": 217,
+        "lees": 216,
         "short": 134,
         "luchtig": 56,
-        "social-studies": 121
+        "social-studies": 118
       }
     },
     "01m31jcfg9vjf5zwbyszy0ab04": {
@@ -15543,18 +13242,18 @@ window.TOP_ARTICLE_PRIORITY = {
         }
       },
       "positions": {
-        "lees": 318,
-        "short": 205,
+        "lees": 310,
+        "short": 200,
         "luchtig": 85,
-        "scrum": 110,
-        "social-studies": 157
+        "scrum": 109,
+        "social-studies": 152
       },
       "actualPositions": {
-        "lees": 318,
-        "short": 205,
+        "lees": 310,
+        "short": 200,
         "luchtig": 85,
-        "scrum": 110,
-        "social-studies": 157
+        "scrum": 109,
+        "social-studies": 152
       }
     },
     "01m31fpqqpx22n1gcv43fs2fcd": {
@@ -15811,16 +13510,16 @@ window.TOP_ARTICLE_PRIORITY = {
         }
       },
       "positions": {
-        "lees": 282,
-        "short": 181,
-        "scrum": 97,
-        "social-studies": 204
+        "lees": 279,
+        "short": 179,
+        "scrum": 98,
+        "social-studies": 197
       },
       "actualPositions": {
-        "lees": 282,
-        "short": 181,
-        "scrum": 97,
-        "social-studies": 204
+        "lees": 279,
+        "short": 179,
+        "scrum": 98,
+        "social-studies": 197
       }
     },
     "01m2zky9m4gsevddv2cavee0tk": {
@@ -15953,16 +13652,16 @@ window.TOP_ARTICLE_PRIORITY = {
         }
       },
       "positions": {
-        "lees": 216,
+        "lees": 215,
         "short": 133,
-        "scrum": 96,
-        "social-studies": 156
+        "scrum": 97,
+        "social-studies": 151
       },
       "actualPositions": {
-        "lees": 216,
+        "lees": 215,
         "short": 133,
-        "scrum": 96,
-        "social-studies": 156
+        "scrum": 97,
+        "social-studies": 151
       }
     },
     "01m2yyxwxatg7n8nwapph8kbfd": {
@@ -16214,16 +13913,16 @@ window.TOP_ARTICLE_PRIORITY = {
         }
       },
       "positions": {
-        "lees": 252,
-        "short": 157,
-        "scrum": 81,
-        "social-studies": 249
+        "lees": 249,
+        "short": 156,
+        "scrum": 82,
+        "social-studies": 234
       },
       "actualPositions": {
-        "lees": 252,
-        "short": 157,
-        "scrum": 81,
-        "social-studies": 249
+        "lees": 249,
+        "short": 156,
+        "scrum": 82,
+        "social-studies": 234
       }
     },
     "01m2yyxm3mxa40bw639j5pjrbc": {
@@ -16346,16 +14045,16 @@ window.TOP_ARTICLE_PRIORITY = {
         }
       },
       "positions": {
-        "lees": 251,
-        "short": 156,
-        "scrum": 80,
-        "social-studies": 248
+        "lees": 248,
+        "short": 155,
+        "scrum": 81,
+        "social-studies": 233
       },
       "actualPositions": {
-        "lees": 251,
-        "short": 156,
-        "scrum": 80,
-        "social-studies": 248
+        "lees": 248,
+        "short": 155,
+        "scrum": 81,
+        "social-studies": 233
       }
     },
     "01m2yyxhjttcew9pmyhm8xsqm8": {
@@ -16497,18 +14196,18 @@ window.TOP_ARTICLE_PRIORITY = {
         }
       },
       "positions": {
-        "lees": 250,
-        "short": 155,
-        "scrum": 104,
-        "software-development": 50,
-        "social-studies": 247
+        "lees": 247,
+        "short": 154,
+        "scrum": 103,
+        "software-development": 48,
+        "social-studies": 232
       },
       "actualPositions": {
-        "lees": 250,
-        "short": 155,
-        "scrum": 104,
-        "software-development": 50,
-        "social-studies": 247
+        "lees": 247,
+        "short": 154,
+        "scrum": 103,
+        "software-development": 48,
+        "social-studies": 232
       }
     },
     "01m2yyxf6wvce5ek4b7rgq0knv": {
@@ -16794,13 +14493,13 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees": 136,
         "short": 77,
         "scrum": 34,
-        "social-studies": 135
+        "social-studies": 131
       },
       "actualPositions": {
         "lees": 136,
         "short": 77,
         "scrum": 34,
-        "social-studies": 135
+        "social-studies": 131
       }
     },
     "01m2yqbzyzcaeyktxzs2d07g03": {
@@ -16928,14 +14627,14 @@ window.TOP_ARTICLE_PRIORITY = {
         }
       },
       "positions": {
-        "lees": 180,
+        "lees": 179,
         "luchtig": 49,
-        "social-studies": 83
+        "social-studies": 82
       },
       "actualPositions": {
-        "lees": 180,
+        "lees": 179,
         "luchtig": 49,
-        "social-studies": 83
+        "social-studies": 82
       }
     },
     "01m2yq9bkmjfp60fxn60q6zfyp": {
@@ -17044,11 +14743,11 @@ window.TOP_ARTICLE_PRIORITY = {
         }
       },
       "positions": {
-        "lees": 330,
+        "lees": 321,
         "luchtig": 88
       },
       "actualPositions": {
-        "lees": 330,
+        "lees": 321,
         "luchtig": 88
       }
     },
@@ -17177,14 +14876,14 @@ window.TOP_ARTICLE_PRIORITY = {
         }
       },
       "positions": {
-        "lees": 296,
+        "lees": 289,
         "luchtig": 75,
-        "social-studies": 131
+        "social-studies": 127
       },
       "actualPositions": {
-        "lees": 296,
+        "lees": 289,
         "luchtig": 75,
-        "social-studies": 131
+        "social-studies": 127
       }
     },
     "01m2ymxwfncx98gmphge27wnje": {
@@ -17441,12 +15140,12 @@ window.TOP_ARTICLE_PRIORITY = {
       "positions": {
         "lees": 135,
         "scrum": 50,
-        "social-studies": 81
+        "social-studies": 80
       },
       "actualPositions": {
         "lees": 135,
         "scrum": 50,
-        "social-studies": 81
+        "social-studies": 80
       }
     },
     "01m2ykm2r74ak92tq0x6tfmr32": {
@@ -17568,12 +15267,12 @@ window.TOP_ARTICLE_PRIORITY = {
       "positions": {
         "lees": 94,
         "scrum": 19,
-        "social-studies": 103
+        "social-studies": 100
       },
       "actualPositions": {
         "lees": 94,
         "scrum": 19,
-        "social-studies": 103
+        "social-studies": 100
       }
     },
     "01m2x8nw4zgrsm7j1w5vvq4rtd": {
@@ -17672,13 +15371,13 @@ window.TOP_ARTICLE_PRIORITY = {
         }
       },
       "positions": {
-        "lees": 295,
-        "short": 191,
+        "lees": 288,
+        "short": 187,
         "luchtig": 74
       },
       "actualPositions": {
-        "lees": 295,
-        "short": 191,
+        "lees": 288,
+        "short": 187,
         "luchtig": 74
       }
     },
@@ -17805,16 +15504,16 @@ window.TOP_ARTICLE_PRIORITY = {
         }
       },
       "positions": {
-        "lees": 242,
-        "short": 149,
-        "software-development": 20,
-        "social-studies": 243
+        "lees": 240,
+        "short": 148,
+        "software-development": 18,
+        "social-studies": 228
       },
       "actualPositions": {
-        "lees": 242,
-        "short": 149,
-        "software-development": 20,
-        "social-studies": 243
+        "lees": 240,
+        "short": 148,
+        "software-development": 18,
+        "social-studies": 228
       }
     },
     "01m2wjkqmf6e3rmjtmng2k5gm0": {
@@ -17942,14 +15641,14 @@ window.TOP_ARTICLE_PRIORITY = {
         }
       },
       "positions": {
-        "lees": 291,
-        "software-development": 67,
-        "social-studies": 129
+        "lees": 286,
+        "software-development": 64,
+        "social-studies": 125
       },
       "actualPositions": {
-        "lees": 291,
-        "software-development": 67,
-        "social-studies": 129
+        "lees": 286,
+        "software-development": 64,
+        "social-studies": 125
       }
     },
     "01m2wjkek800m70692sxhjpze6": {
@@ -18085,16 +15784,16 @@ window.TOP_ARTICLE_PRIORITY = {
         }
       },
       "positions": {
-        "lees": 281,
-        "short": 180,
-        "software-development": 58,
-        "social-studies": 120
+        "lees": 278,
+        "short": 178,
+        "software-development": 55,
+        "social-studies": 117
       },
       "actualPositions": {
-        "lees": 281,
-        "short": 180,
-        "software-development": 58,
-        "social-studies": 120
+        "lees": 278,
+        "short": 178,
+        "software-development": 55,
+        "social-studies": 117
       }
     },
     "01m2wjkbt920wa5myh1hvz67v6": {
@@ -18230,14 +15929,14 @@ window.TOP_ARTICLE_PRIORITY = {
         }
       },
       "positions": {
-        "lees": 280,
-        "software-development": 57,
-        "social-studies": 119
+        "lees": 277,
+        "software-development": 54,
+        "social-studies": 116
       },
       "actualPositions": {
-        "lees": 280,
-        "software-development": 57,
-        "social-studies": 119
+        "lees": 277,
+        "software-development": 54,
+        "social-studies": 116
       }
     },
     "01m2w4xvfgk1q7f6hsa7vz24vr": {
@@ -18323,12 +16022,12 @@ window.TOP_ARTICLE_PRIORITY = {
         }
       },
       "positions": {
-        "lees": 356,
-        "software-development": 99
+        "lees": 342,
+        "software-development": 89
       },
       "actualPositions": {
-        "lees": 356,
-        "software-development": 99
+        "lees": 342,
+        "software-development": 89
       }
     },
     "01m2w4xmwcmgdcpkjyjpqrjyjb": {
@@ -18465,18 +16164,18 @@ window.TOP_ARTICLE_PRIORITY = {
         }
       },
       "positions": {
-        "lees": 299,
-        "short": 194,
-        "scrum": 111,
-        "software-development": 49,
-        "social-studies": 256
+        "lees": 292,
+        "short": 190,
+        "scrum": 110,
+        "software-development": 47,
+        "social-studies": 241
       },
       "actualPositions": {
-        "lees": 299,
-        "short": 194,
-        "scrum": 111,
-        "software-development": 49,
-        "social-studies": 256
+        "lees": 292,
+        "short": 190,
+        "scrum": 110,
+        "software-development": 47,
+        "social-studies": 241
       }
     },
     "01m2w4wa0sspde6x1j82q8jhrd": {
@@ -18608,12 +16307,12 @@ window.TOP_ARTICLE_PRIORITY = {
       "positions": {
         "lees": 134,
         "scrum": 33,
-        "social-studies": 80
+        "social-studies": 79
       },
       "actualPositions": {
         "lees": 134,
         "scrum": 33,
-        "social-studies": 80
+        "social-studies": 79
       }
     },
     "01m2w4q0nawzn679w0k1s4v64h": {
@@ -18836,12 +16535,12 @@ window.TOP_ARTICLE_PRIORITY = {
         }
       },
       "positions": {
-        "lees": 300,
-        "software-development": 74
+        "lees": 293,
+        "software-development": 69
       },
       "actualPositions": {
-        "lees": 300,
-        "software-development": 74
+        "lees": 293,
+        "software-development": 69
       }
     },
     "01m2v58bxx1vadmtdmrb95vdsm": {
@@ -19099,14 +16798,14 @@ window.TOP_ARTICLE_PRIORITY = {
         }
       },
       "positions": {
-        "lees": 310,
+        "lees": 302,
         "luchtig": 81,
-        "social-studies": 185
+        "social-studies": 178
       },
       "actualPositions": {
-        "lees": 310,
+        "lees": 302,
         "luchtig": 81,
-        "social-studies": 185
+        "social-studies": 178
       }
     },
     "01m2sqqyethn4tjwc5asrw0ysb": {
@@ -19205,13 +16904,13 @@ window.TOP_ARTICLE_PRIORITY = {
         }
       },
       "positions": {
-        "lees": 354,
-        "short": 232,
+        "lees": 340,
+        "short": 222,
         "luchtig": 97
       },
       "actualPositions": {
-        "lees": 354,
-        "short": 232,
+        "lees": 340,
+        "short": 222,
         "luchtig": 97
       }
     },
@@ -19311,13 +17010,13 @@ window.TOP_ARTICLE_PRIORITY = {
         }
       },
       "positions": {
-        "lees": 309,
-        "short": 199,
+        "lees": 301,
+        "short": 195,
         "luchtig": 80
       },
       "actualPositions": {
-        "lees": 309,
-        "short": 199,
+        "lees": 301,
+        "short": 195,
         "luchtig": 80
       }
     },
@@ -19430,13 +17129,13 @@ window.TOP_ARTICLE_PRIORITY = {
         }
       },
       "positions": {
-        "lees": 244,
-        "short": 152,
+        "lees": 242,
+        "short": 151,
         "luchtig": 62
       },
       "actualPositions": {
-        "lees": 244,
-        "short": 152,
+        "lees": 242,
+        "short": 151,
         "luchtig": 62
       }
     },
@@ -19536,13 +17235,13 @@ window.TOP_ARTICLE_PRIORITY = {
         }
       },
       "positions": {
-        "lees": 267,
-        "short": 167,
+        "lees": 264,
+        "short": 165,
         "luchtig": 65
       },
       "actualPositions": {
-        "lees": 267,
-        "short": 167,
+        "lees": 264,
+        "short": 165,
         "luchtig": 65
       }
     },
@@ -19782,14 +17481,14 @@ window.TOP_ARTICLE_PRIORITY = {
         }
       },
       "positions": {
-        "lees": 249,
-        "scrum": 79,
-        "social-studies": 134
+        "lees": 246,
+        "scrum": 80,
+        "social-studies": 130
       },
       "actualPositions": {
-        "lees": 249,
-        "scrum": 79,
-        "social-studies": 134
+        "lees": 246,
+        "scrum": 80,
+        "social-studies": 130
       }
     },
     "01m2sj2qe8ek1zbz9kxev71gxv": {
@@ -19922,16 +17621,16 @@ window.TOP_ARTICLE_PRIORITY = {
         }
       },
       "positions": {
-        "lees": 215,
+        "lees": 214,
         "short": 132,
-        "scrum": 67,
-        "social-studies": 118
+        "scrum": 68,
+        "social-studies": 115
       },
       "actualPositions": {
-        "lees": 215,
+        "lees": 214,
         "short": 132,
-        "scrum": 67,
-        "social-studies": 118
+        "scrum": 68,
+        "social-studies": 115
       }
     },
     "01m2rcmbg3vv277nwwd8k77hw6": {
@@ -20030,13 +17729,13 @@ window.TOP_ARTICLE_PRIORITY = {
         }
       },
       "positions": {
-        "lees": 343,
-        "short": 225,
+        "lees": 331,
+        "short": 216,
         "luchtig": 92
       },
       "actualPositions": {
-        "lees": 343,
-        "short": 225,
+        "lees": 331,
+        "short": 216,
         "luchtig": 92
       }
     },
@@ -20170,16 +17869,16 @@ window.TOP_ARTICLE_PRIORITY = {
         }
       },
       "positions": {
-        "lees": 214,
+        "lees": 213,
         "short": 131,
-        "scrum": 66,
-        "social-studies": 203
+        "scrum": 67,
+        "social-studies": 196
       },
       "actualPositions": {
-        "lees": 214,
+        "lees": 213,
         "short": 131,
-        "scrum": 66,
-        "social-studies": 203
+        "scrum": 67,
+        "social-studies": 196
       }
     },
     "01m2q3jyb0n30vs5541sfrh5wk": {
@@ -20457,14 +18156,14 @@ window.TOP_ARTICLE_PRIORITY = {
         }
       },
       "positions": {
-        "lees": 248,
-        "software-development": 48,
-        "social-studies": 177
+        "lees": 245,
+        "software-development": 46,
+        "social-studies": 171
       },
       "actualPositions": {
-        "lees": 248,
-        "software-development": 48,
-        "social-studies": 177
+        "lees": 245,
+        "software-development": 46,
+        "social-studies": 171
       }
     },
     "01m2prkta9w0k9vra3ashre217": {
@@ -20597,14 +18296,14 @@ window.TOP_ARTICLE_PRIORITY = {
         }
       },
       "positions": {
-        "lees": 196,
-        "scrum": 90,
-        "social-studies": 146
+        "lees": 195,
+        "scrum": 91,
+        "social-studies": 141
       },
       "actualPositions": {
-        "lees": 196,
-        "scrum": 90,
-        "social-studies": 146
+        "lees": 195,
+        "scrum": 91,
+        "social-studies": 141
       }
     },
     "01m2nwzbeakn8gefz8s64p7gte": {
@@ -20939,14 +18638,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "short": 66,
         "scrum": 26,
         "software-development": 7,
-        "social-studies": 116
+        "social-studies": 113
       },
       "actualPositions": {
         "lees": 115,
         "short": 66,
         "scrum": 26,
         "software-development": 7,
-        "social-studies": 116
+        "social-studies": 113
       }
     },
     "01m2msap2g98nwk78n4yxf36tf": {
@@ -21087,128 +18786,14 @@ window.TOP_ARTICLE_PRIORITY = {
       "positions": {
         "lees": 102,
         "scrum": 38,
-        "software-development": 12,
+        "software-development": 11,
         "social-studies": 63
       },
       "actualPositions": {
         "lees": 102,
         "scrum": 38,
-        "software-development": 12,
+        "software-development": 11,
         "social-studies": 63
-      }
-    },
-    "01m2mrgz39nfp39bget4qz6mfk": {
-      "baseScore": 117,
-      "adjustment": 0,
-      "adjustmentReason": null,
-      "score": 117,
-      "tier": "hoog",
-      "components": {
-        "kerninteresse": 18,
-        "relevantie": 40,
-        "substantie": 24,
-        "duurzaamheid": 15,
-        "bruikbaarheid": 15,
-        "leeskans": 5,
-        "nederlandse_taal": 0,
-        "aftrek": 0
-      },
-      "rationale": {
-        "relevantie": [
-          "inhoudelijke relevantie uit de medium-confidence inhoudsbeoordeling.",
-          "Bewijs: semantic-review, independent-of-current-position, evidence:substantive-notes, interest:ai-ethics, interest:political-philosophy."
-        ],
-        "substantie": [
-          "substantie uit de medium-confidence inhoudsbeoordeling."
-        ],
-        "duurzaamheid": [
-          "duurzaamheid uit de medium-confidence inhoudsbeoordeling."
-        ],
-        "bruikbaarheid": [
-          "bruikbaarheid uit de medium-confidence inhoudsbeoordeling."
-        ],
-        "leeskans": [
-          "leeskans uit de medium-confidence inhoudsbeoordeling."
-        ],
-        "nederlandse_taal": [],
-        "aftrek": [],
-        "kerninteresse": [
-          "AI & ethiek: +6 (AI-ethiek).",
-          "Filosofie: +12 (politieke filosofie)."
-        ]
-      },
-      "judgmentSource": "label",
-      "judgmentConfidence": "medium",
-      "coreInterestMatches": [
-        {
-          "interest": "ai_ethiek",
-          "evidence": [
-            {
-              "kind": "semantic-signal",
-              "source": "interest:ai-ethics",
-              "label": "AI-ethiek"
-            }
-          ],
-          "qualityScore": 94,
-          "weight": 6
-        },
-        {
-          "interest": "filosofie",
-          "evidence": [
-            {
-              "kind": "semantic-signal",
-              "source": "interest:political-philosophy",
-              "label": "politieke filosofie"
-            }
-          ],
-          "qualityScore": 94,
-          "weight": 12
-        }
-      ],
-      "sequences": [
-        "lees",
-        "short",
-        "software-development"
-      ],
-      "sequenceScores": {
-        "lees": {
-          "score": 117,
-          "tier": "hoog",
-          "mode": "global"
-        },
-        "short": {
-          "score": 117,
-          "tier": "hoog",
-          "mode": "global"
-        },
-        "software-development": {
-          "score": 97,
-          "tier": "hoog",
-          "mode": "topic",
-          "topicRelevance": 2,
-          "relevanceSource": "label",
-          "relevanceConfidence": "medium",
-          "components": {
-            "kerninteresse": 18,
-            "topic_relevantie": 2,
-            "substantie": 24,
-            "duurzaamheid": 15,
-            "bruikbaarheid": 15,
-            "leeskans": 5,
-            "nederlandse_taal": 0,
-            "aftrek": 0
-          }
-        }
-      },
-      "positions": {
-        "lees": 287,
-        "short": 184,
-        "software-development": 105
-      },
-      "actualPositions": {
-        "lees": 287,
-        "short": 184,
-        "software-development": 105
       }
     },
     "01m2mpk5g0ptfm6wsn2w2db6nz": {
@@ -21339,13 +18924,13 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees": 114,
         "short": 65,
         "scrum": 41,
-        "social-studies": 88
+        "social-studies": 87
       },
       "actualPositions": {
         "lees": 114,
         "short": 65,
         "scrum": 41,
-        "social-studies": 88
+        "social-studies": 87
       }
     },
     "01m2mdj11mkw42apwdqw2v6ev6": {
@@ -21481,13 +19066,13 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees": 133,
         "short": 76,
         "scrum": 32,
-        "social-studies": 79
+        "social-studies": 78
       },
       "actualPositions": {
         "lees": 133,
         "short": 76,
         "scrum": 32,
-        "social-studies": 79
+        "social-studies": 78
       }
     },
     "01m2kqe102n76g6yvve5qmew7f": {
@@ -21866,11 +19451,11 @@ window.TOP_ARTICLE_PRIORITY = {
       },
       "positions": {
         "pdf": 16,
-        "short": 252
+        "short": 235
       },
       "actualPositions": {
         "pdf": 16,
-        "short": 252
+        "short": 235
       }
     },
     "01m2k26569pzgzcmt79m9fyr5c": {
@@ -21955,15 +19540,15 @@ window.TOP_ARTICLE_PRIORITY = {
         }
       },
       "positions": {
-        "lees": 384,
-        "short": 261,
-        "luchtig": 110,
+        "lees": 359,
+        "short": 240,
+        "luchtig": 107,
         "front-end-development": 24
       },
       "actualPositions": {
-        "lees": 384,
-        "short": 261,
-        "luchtig": 110,
+        "lees": 359,
+        "short": 240,
+        "luchtig": 107,
         "front-end-development": 24
       }
     },
@@ -22061,11 +19646,11 @@ window.TOP_ARTICLE_PRIORITY = {
       },
       "positions": {
         "lees": 132,
-        "software-development": 22
+        "software-development": 20
       },
       "actualPositions": {
         "lees": 132,
-        "software-development": 22
+        "software-development": 20
       }
     },
     "01m2jr89jfxrk18w99tsfc48xg": {
@@ -22180,11 +19765,11 @@ window.TOP_ARTICLE_PRIORITY = {
       },
       "positions": {
         "lees": 131,
-        "social-studies": 78
+        "social-studies": 77
       },
       "actualPositions": {
         "lees": 131,
-        "social-studies": 78
+        "social-studies": 77
       }
     },
     "01m2jm9rcv4wcp2hegfgb37mg1": {
@@ -22284,15 +19869,15 @@ window.TOP_ARTICLE_PRIORITY = {
         }
       },
       "positions": {
-        "lees": 375,
-        "short": 251,
-        "luchtig": 109,
+        "lees": 355,
+        "short": 234,
+        "luchtig": 106,
         "front-end-development": 21
       },
       "actualPositions": {
-        "lees": 375,
-        "short": 251,
-        "luchtig": 109,
+        "lees": 355,
+        "short": 234,
+        "luchtig": 106,
         "front-end-development": 21
       }
     },
@@ -22379,11 +19964,11 @@ window.TOP_ARTICLE_PRIORITY = {
         }
       },
       "positions": {
-        "lees": 241,
+        "lees": 239,
         "front-end-development": 1
       },
       "actualPositions": {
-        "lees": 241,
+        "lees": 239,
         "front-end-development": 1
       }
     },
@@ -22463,13 +20048,13 @@ window.TOP_ARTICLE_PRIORITY = {
         }
       },
       "positions": {
-        "lees": 383,
-        "short": 260,
+        "lees": 358,
+        "short": 239,
         "front-end-development": 23
       },
       "actualPositions": {
-        "lees": 383,
-        "short": 260,
+        "lees": 358,
+        "short": 239,
         "front-end-development": 23
       }
     },
@@ -22549,13 +20134,13 @@ window.TOP_ARTICLE_PRIORITY = {
         }
       },
       "positions": {
-        "lees": 382,
-        "short": 259,
+        "lees": 357,
+        "short": 238,
         "front-end-development": 22
       },
       "actualPositions": {
-        "lees": 382,
-        "short": 259,
+        "lees": 357,
+        "short": 238,
         "front-end-development": 22
       }
     },
@@ -22650,13 +20235,13 @@ window.TOP_ARTICLE_PRIORITY = {
         }
       },
       "positions": {
-        "lees": 370,
-        "short": 246,
+        "lees": 352,
+        "short": 231,
         "front-end-development": 19
       },
       "actualPositions": {
-        "lees": 370,
-        "short": 246,
+        "lees": 352,
+        "short": 231,
         "front-end-development": 19
       }
     },
@@ -22899,11 +20484,11 @@ window.TOP_ARTICLE_PRIORITY = {
       },
       "positions": {
         "pdf": 10,
-        "short": 190
+        "short": 186
       },
       "actualPositions": {
         "pdf": 10,
-        "short": 190
+        "short": 186
       }
     },
     "01m2jcnf83yy25g6fma9v37dcs": {
@@ -23117,16 +20702,16 @@ window.TOP_ARTICLE_PRIORITY = {
         }
       },
       "positions": {
-        "lees": 179,
+        "lees": 178,
         "short": 103,
         "luchtig": 48,
-        "social-studies": 108
+        "social-studies": 104
       },
       "actualPositions": {
-        "lees": 179,
+        "lees": 178,
         "short": 103,
         "luchtig": 48,
-        "social-studies": 108
+        "social-studies": 104
       }
     },
     "01m2j0075w5khvczd7ryxe70z6": {
@@ -23231,15 +20816,15 @@ window.TOP_ARTICLE_PRIORITY = {
         }
       },
       "positions": {
-        "lees": 369,
-        "short": 245,
-        "luchtig": 106,
+        "lees": 351,
+        "short": 230,
+        "luchtig": 104,
         "adhd": 40
       },
       "actualPositions": {
-        "lees": 369,
-        "short": 245,
-        "luchtig": 106,
+        "lees": 351,
+        "short": 230,
+        "luchtig": 104,
         "adhd": 40
       }
     },
@@ -23345,15 +20930,15 @@ window.TOP_ARTICLE_PRIORITY = {
         }
       },
       "positions": {
-        "lees": 368,
-        "short": 244,
-        "luchtig": 105,
+        "lees": 350,
+        "short": 229,
+        "luchtig": 103,
         "adhd": 39
       },
       "actualPositions": {
-        "lees": 368,
-        "short": 244,
-        "luchtig": 105,
+        "lees": 350,
+        "short": 229,
+        "luchtig": 103,
         "adhd": 39
       }
     },
@@ -23459,15 +21044,15 @@ window.TOP_ARTICLE_PRIORITY = {
         }
       },
       "positions": {
-        "lees": 367,
-        "short": 243,
-        "luchtig": 104,
+        "lees": 349,
+        "short": 228,
+        "luchtig": 102,
         "adhd": 38
       },
       "actualPositions": {
-        "lees": 367,
-        "short": 243,
-        "luchtig": 104,
+        "lees": 349,
+        "short": 228,
+        "luchtig": 102,
         "adhd": 38
       }
     },
@@ -23578,16 +21163,16 @@ window.TOP_ARTICLE_PRIORITY = {
         }
       },
       "positions": {
-        "lees": 213,
+        "lees": 212,
         "short": 130,
         "luchtig": 55,
-        "social-studies": 117
+        "social-studies": 114
       },
       "actualPositions": {
-        "lees": 213,
+        "lees": 212,
         "short": 130,
         "luchtig": 55,
-        "social-studies": 117
+        "social-studies": 114
       }
     },
     "01m2hzz736ff6f5t97d1ctk4kk": {
@@ -23718,15 +21303,15 @@ window.TOP_ARTICLE_PRIORITY = {
         }
       },
       "positions": {
-        "lees": 366,
-        "short": 242,
-        "social-studies": 261,
+        "lees": 348,
+        "short": 227,
+        "social-studies": 246,
         "adhd": 37
       },
       "actualPositions": {
-        "lees": 366,
-        "short": 242,
-        "social-studies": 261,
+        "lees": 348,
+        "short": 227,
+        "social-studies": 246,
         "adhd": 37
       }
     },
@@ -24003,14 +21588,14 @@ window.TOP_ARTICLE_PRIORITY = {
         }
       },
       "positions": {
-        "lees": 290,
+        "lees": 285,
         "luchtig": 72,
-        "social-studies": 167
+        "social-studies": 161
       },
       "actualPositions": {
-        "lees": 290,
+        "lees": 285,
         "luchtig": 72,
-        "social-studies": 167
+        "social-studies": 161
       }
     },
     "01m2gbthqrjaxjh99tqkckbc8f": {
@@ -24155,14 +21740,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees": 171,
         "short": 100,
         "luchtig": 43,
-        "social-studies": 220,
+        "social-studies": 210,
         "adhd": 24
       },
       "actualPositions": {
         "lees": 171,
         "short": 100,
         "luchtig": 43,
-        "social-studies": 220,
+        "social-studies": 210,
         "adhd": 24
       }
     },
@@ -24294,16 +21879,16 @@ window.TOP_ARTICLE_PRIORITY = {
         }
       },
       "positions": {
-        "lees": 273,
-        "short": 173,
+        "lees": 270,
+        "short": 171,
         "luchtig": 69,
-        "social-studies": 190
+        "social-studies": 183
       },
       "actualPositions": {
-        "lees": 273,
-        "short": 173,
+        "lees": 270,
+        "short": 171,
         "luchtig": 69,
-        "social-studies": 190
+        "social-studies": 183
       }
     },
     "01m2f1qxfpj7qyzp0fj9d7qbfr": {
@@ -24442,16 +22027,16 @@ window.TOP_ARTICLE_PRIORITY = {
         }
       },
       "positions": {
-        "lees": 185,
+        "lees": 184,
         "short": 104,
         "luchtig": 50,
-        "social-studies": 184
+        "social-studies": 177
       },
       "actualPositions": {
-        "lees": 185,
+        "lees": 184,
         "short": 104,
         "luchtig": 50,
-        "social-studies": 184
+        "social-studies": 177
       }
     },
     "01m2f1qrd2q395gz2wkwc8x1n7": {
@@ -24563,13 +22148,13 @@ window.TOP_ARTICLE_PRIORITY = {
         }
       },
       "positions": {
-        "lees": 272,
-        "short": 172,
+        "lees": 269,
+        "short": 170,
         "adhd": 31
       },
       "actualPositions": {
-        "lees": 272,
-        "short": 172,
+        "lees": 269,
+        "short": 170,
         "adhd": 31
       }
     },
@@ -25408,125 +22993,11 @@ window.TOP_ARTICLE_PRIORITY = {
       },
       "positions": {
         "video": 11,
-        "social-studies": 202
+        "social-studies": 195
       },
       "actualPositions": {
         "video": 11,
-        "social-studies": 202
-      }
-    },
-    "01m2b5ka39qktpcgxpsjpx9wse": {
-      "baseScore": 134,
-      "adjustment": 0,
-      "adjustmentReason": null,
-      "score": 134,
-      "tier": "hoog",
-      "components": {
-        "kerninteresse": 22,
-        "relevantie": 40,
-        "substantie": 32,
-        "duurzaamheid": 20,
-        "bruikbaarheid": 20,
-        "leeskans": 0,
-        "nederlandse_taal": 0,
-        "aftrek": 0
-      },
-      "rationale": {
-        "relevantie": [
-          "inhoudelijke relevantie uit de high-confidence inhoudsbeoordeling.",
-          "Bewijs: semantic-review, independent-of-current-position, evidence:highlights, interest:political-philosophy, interest:ethics."
-        ],
-        "substantie": [
-          "substantie uit de high-confidence inhoudsbeoordeling."
-        ],
-        "duurzaamheid": [
-          "duurzaamheid uit de high-confidence inhoudsbeoordeling."
-        ],
-        "bruikbaarheid": [
-          "bruikbaarheid uit de high-confidence inhoudsbeoordeling."
-        ],
-        "leeskans": [],
-        "nederlandse_taal": [],
-        "aftrek": [],
-        "kerninteresse": [
-          "Filosofie: +12 (Ethics, ethiek, politieke filosofie).",
-          "Sociologie: +10 (Sociology & Social Structures)."
-        ]
-      },
-      "judgmentSource": "label",
-      "judgmentConfidence": "high",
-      "coreInterestMatches": [
-        {
-          "interest": "filosofie",
-          "evidence": [
-            {
-              "kind": "readwise-tag",
-              "source": "ethics",
-              "label": "Ethics"
-            },
-            {
-              "kind": "semantic-signal",
-              "source": "interest:ethics",
-              "label": "ethiek"
-            },
-            {
-              "kind": "semantic-signal",
-              "source": "interest:political-philosophy",
-              "label": "politieke filosofie"
-            }
-          ],
-          "qualityScore": 112,
-          "weight": 12
-        },
-        {
-          "interest": "sociologie",
-          "evidence": [
-            {
-              "kind": "readwise-tag",
-              "source": "sociology & social structures",
-              "label": "Sociology & Social Structures"
-            }
-          ],
-          "qualityScore": 112,
-          "weight": 10
-        }
-      ],
-      "sequences": [
-        "lees",
-        "social-studies"
-      ],
-      "sequenceScores": {
-        "lees": {
-          "score": 134,
-          "tier": "hoog",
-          "mode": "global"
-        },
-        "social-studies": {
-          "score": 134,
-          "tier": "hoog",
-          "mode": "topic",
-          "topicRelevance": 4,
-          "relevanceSource": "label",
-          "relevanceConfidence": "high",
-          "components": {
-            "kerninteresse": 22,
-            "topic_relevantie": 4,
-            "substantie": 32,
-            "duurzaamheid": 20,
-            "bruikbaarheid": 20,
-            "leeskans": 0,
-            "nederlandse_taal": 0,
-            "aftrek": 0
-          }
-        }
-      },
-      "positions": {
-        "lees": 174,
-        "social-studies": 102
-      },
-      "actualPositions": {
-        "lees": 174,
-        "social-studies": 102
+        "social-studies": 195
       }
     },
     "01m2aysbr5r7v0x099jednqehf": {
@@ -25654,146 +23125,6 @@ window.TOP_ARTICLE_PRIORITY = {
       "actualPositions": {
         "lees": 62,
         "social-studies": 33
-      }
-    },
-    "01m27pjkn9enq8rnp6exhqw59d": {
-      "baseScore": 103,
-      "adjustment": 0,
-      "adjustmentReason": null,
-      "score": 103,
-      "tier": "hoog",
-      "components": {
-        "kerninteresse": 32,
-        "relevantie": 30,
-        "substantie": 16,
-        "duurzaamheid": 10,
-        "bruikbaarheid": 10,
-        "leeskans": 5,
-        "nederlandse_taal": 0,
-        "aftrek": 0
-      },
-      "rationale": {
-        "relevantie": [
-          "inhoudelijke relevantie uit de high-confidence inhoudsbeoordeling.",
-          "Bewijs: semantic-review, independent-of-current-position, evidence:highlights, interest:political-philosophy, interest:organizational-behavior."
-        ],
-        "substantie": [
-          "substantie uit de high-confidence inhoudsbeoordeling."
-        ],
-        "duurzaamheid": [
-          "duurzaamheid uit de high-confidence inhoudsbeoordeling."
-        ],
-        "bruikbaarheid": [
-          "bruikbaarheid uit de high-confidence inhoudsbeoordeling."
-        ],
-        "leeskans": [
-          "leeskans uit de high-confidence inhoudsbeoordeling."
-        ],
-        "nederlandse_taal": [],
-        "aftrek": [],
-        "kerninteresse": [
-          "Filosofie: +12 (politieke filosofie).",
-          "Agile: +20 (organisatiegedrag, Organizational Behavior & Culture)."
-        ]
-      },
-      "judgmentSource": "label",
-      "judgmentConfidence": "high",
-      "coreInterestMatches": [
-        {
-          "interest": "filosofie",
-          "evidence": [
-            {
-              "kind": "semantic-signal",
-              "source": "interest:political-philosophy",
-              "label": "politieke filosofie"
-            }
-          ],
-          "qualityScore": 66,
-          "weight": 12
-        },
-        {
-          "interest": "agile",
-          "evidence": [
-            {
-              "kind": "semantic-signal",
-              "source": "interest:organizational-behavior",
-              "label": "organisatiegedrag"
-            },
-            {
-              "kind": "readwise-tag",
-              "source": "organizational behavior & culture",
-              "label": "Organizational Behavior & Culture"
-            }
-          ],
-          "qualityScore": 66,
-          "weight": 20
-        }
-      ],
-      "sequences": [
-        "lees",
-        "short",
-        "software-development",
-        "social-studies"
-      ],
-      "sequenceScores": {
-        "lees": {
-          "score": 103,
-          "tier": "hoog",
-          "mode": "global"
-        },
-        "short": {
-          "score": 103,
-          "tier": "hoog",
-          "mode": "global"
-        },
-        "software-development": {
-          "score": 93,
-          "tier": "hoog",
-          "mode": "topic",
-          "topicRelevance": 2,
-          "relevanceSource": "label",
-          "relevanceConfidence": "high",
-          "components": {
-            "kerninteresse": 32,
-            "topic_relevantie": 2,
-            "substantie": 16,
-            "duurzaamheid": 10,
-            "bruikbaarheid": 10,
-            "leeskans": 5,
-            "nederlandse_taal": 0,
-            "aftrek": 0
-          }
-        },
-        "social-studies": {
-          "score": 103,
-          "tier": "hoog",
-          "mode": "topic",
-          "topicRelevance": 3,
-          "relevanceSource": "label",
-          "relevanceConfidence": "high",
-          "components": {
-            "kerninteresse": 32,
-            "topic_relevantie": 3,
-            "substantie": 16,
-            "duurzaamheid": 10,
-            "bruikbaarheid": 10,
-            "leeskans": 5,
-            "nederlandse_taal": 0,
-            "aftrek": 0
-          }
-        }
-      },
-      "positions": {
-        "lees": 329,
-        "short": 214,
-        "software-development": 111,
-        "social-studies": 230
-      },
-      "actualPositions": {
-        "lees": 329,
-        "short": 214,
-        "software-development": 111,
-        "social-studies": 230
       }
     },
     "01m253pktm74qr6be7rem8scbb": {
@@ -26114,11 +23445,11 @@ window.TOP_ARTICLE_PRIORITY = {
         }
       },
       "positions": {
-        "lees": 324,
+        "lees": 316,
         "luchtig": 86
       },
       "actualPositions": {
-        "lees": 324,
+        "lees": 316,
         "luchtig": 86
       }
     },
@@ -26247,16 +23578,16 @@ window.TOP_ARTICLE_PRIORITY = {
         }
       },
       "positions": {
-        "lees": 247,
-        "short": 154,
-        "scrum": 78,
-        "social-studies": 176
+        "lees": 244,
+        "short": 153,
+        "scrum": 79,
+        "social-studies": 170
       },
       "actualPositions": {
-        "lees": 247,
-        "short": 154,
-        "scrum": 78,
-        "social-studies": 176
+        "lees": 244,
+        "short": 153,
+        "scrum": 79,
+        "social-studies": 170
       }
     },
     "01m2265g0kyk1003t9x2hsdzw8": {
@@ -26409,14 +23740,14 @@ window.TOP_ARTICLE_PRIORITY = {
       "positions": {
         "lees": 149,
         "short": 83,
-        "scrum": 65,
-        "social-studies": 87
+        "scrum": 66,
+        "social-studies": 86
       },
       "actualPositions": {
         "lees": 149,
         "short": 83,
-        "scrum": 65,
-        "social-studies": 87
+        "scrum": 66,
+        "social-studies": 86
       }
     },
     "01m207r5gtkhknjq6ezh237a4s": {
@@ -26552,16 +23883,16 @@ window.TOP_ARTICLE_PRIORITY = {
         }
       },
       "positions": {
-        "lees": 271,
-        "short": 171,
+        "lees": 268,
+        "short": 169,
         "luchtig": 68,
-        "social-studies": 145
+        "social-studies": 140
       },
       "actualPositions": {
-        "lees": 271,
-        "short": 171,
+        "lees": 268,
+        "short": 169,
         "luchtig": 68,
-        "social-studies": 145
+        "social-studies": 140
       }
     },
     "01m1zz7f9eqj3hmaee464gw72n": {
@@ -26704,16 +24035,16 @@ window.TOP_ARTICLE_PRIORITY = {
         }
       },
       "positions": {
-        "lees": 212,
+        "lees": 211,
         "short": 129,
-        "scrum": 64,
-        "social-studies": 154
+        "scrum": 65,
+        "social-studies": 149
       },
       "actualPositions": {
-        "lees": 212,
+        "lees": 211,
         "short": 129,
-        "scrum": 64,
-        "social-studies": 154
+        "scrum": 65,
+        "social-studies": 149
       }
     },
     "01m1zw95j7cqqxwztg75p1cbdp": {
@@ -26856,16 +24187,16 @@ window.TOP_ARTICLE_PRIORITY = {
         }
       },
       "positions": {
-        "lees": 266,
-        "short": 166,
-        "scrum": 87,
-        "social-studies": 231
+        "lees": 263,
+        "short": 164,
+        "scrum": 88,
+        "social-studies": 218
       },
       "actualPositions": {
-        "lees": 266,
-        "short": 166,
-        "scrum": 87,
-        "social-studies": 231
+        "lees": 263,
+        "short": 164,
+        "scrum": 88,
+        "social-studies": 218
       }
     },
     "01m1zw958j2fm80n5eyhyx7m24": {
@@ -27011,16 +24342,16 @@ window.TOP_ARTICLE_PRIORITY = {
         }
       },
       "positions": {
-        "lees": 190,
+        "lees": 189,
         "short": 106,
-        "scrum": 86,
-        "social-studies": 143
+        "scrum": 87,
+        "social-studies": 138
       },
       "actualPositions": {
-        "lees": 190,
+        "lees": 189,
         "short": 106,
-        "scrum": 86,
-        "social-studies": 143
+        "scrum": 87,
+        "social-studies": 138
       }
     },
     "01m1zvs6zarc4w1cwf7w1sc7ef": {
@@ -27155,14 +24486,14 @@ window.TOP_ARTICLE_PRIORITY = {
         }
       },
       "positions": {
-        "lees": 184,
+        "lees": 183,
         "scrum": 53,
-        "social-studies": 139
+        "social-studies": 134
       },
       "actualPositions": {
-        "lees": 184,
+        "lees": 183,
         "scrum": 53,
-        "social-studies": 139
+        "social-studies": 134
       }
     },
     "01m1xy92em8n4jbgr4g35t97vt": {
@@ -27408,12 +24739,12 @@ window.TOP_ARTICLE_PRIORITY = {
         }
       },
       "positions": {
-        "lees": 183,
-        "software-development": 25
+        "lees": 182,
+        "software-development": 23
       },
       "actualPositions": {
-        "lees": 183,
-        "software-development": 25
+        "lees": 182,
+        "software-development": 23
       }
     },
     "01m1xcpts5tw65vjfzyafxcta1": {
@@ -27536,11 +24867,11 @@ window.TOP_ARTICLE_PRIORITY = {
       },
       "positions": {
         "lees": 155,
-        "social-studies": 92
+        "social-studies": 91
       },
       "actualPositions": {
         "lees": 155,
-        "social-studies": 92
+        "social-studies": 91
       }
     },
     "01m1xbff44jky00v2mqa9an884": {
@@ -27672,12 +25003,12 @@ window.TOP_ARTICLE_PRIORITY = {
       },
       "positions": {
         "lees": 148,
-        "software-development": 16,
+        "software-development": 15,
         "social-studies": 68
       },
       "actualPositions": {
         "lees": 148,
-        "software-development": 16,
+        "software-development": 15,
         "social-studies": 68
       }
     },
@@ -27942,15 +25273,15 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees": 113,
         "short": 64,
         "scrum": 25,
-        "software-development": 15,
-        "social-studies": 86
+        "software-development": 14,
+        "social-studies": 85
       },
       "actualPositions": {
         "lees": 113,
         "short": 64,
         "scrum": 25,
-        "software-development": 15,
-        "social-studies": 86
+        "software-development": 14,
+        "social-studies": 85
       }
     },
     "01m1w4fzwhgx8cz2g8nkap1pdq": {
@@ -28044,14 +25375,14 @@ window.TOP_ARTICLE_PRIORITY = {
         }
       },
       "positions": {
-        "lees": 327,
-        "short": 211,
-        "software-development": 93
+        "lees": 319,
+        "short": 206,
+        "software-development": 83
       },
       "actualPositions": {
-        "lees": 327,
-        "short": 211,
-        "software-development": 93
+        "lees": 319,
+        "short": 206,
+        "software-development": 83
       }
     },
     "01m1v3gmjamae3pe9yj4zdykh4": {
@@ -28333,14 +25664,14 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees": 127,
         "short": 74,
         "scrum": 31,
-        "social-studies": 98,
+        "social-studies": 96,
         "adhd": 18
       },
       "actualPositions": {
         "lees": 127,
         "short": 74,
         "scrum": 31,
-        "social-studies": 98,
+        "social-studies": 96,
         "adhd": 18
       }
     },
@@ -28431,100 +25762,14 @@ window.TOP_ARTICLE_PRIORITY = {
         }
       },
       "positions": {
-        "lees": 265,
-        "software-development": 24,
+        "lees": 262,
+        "software-development": 22,
         "front-end-development": 2
       },
       "actualPositions": {
-        "lees": 265,
-        "software-development": 24,
+        "lees": 262,
+        "software-development": 22,
         "front-end-development": 2
-      }
-    },
-    "01m1qrp6wdzy5kr91gg4hj37pt": {
-      "baseScore": 89,
-      "adjustment": 0,
-      "adjustmentReason": null,
-      "score": 89,
-      "tier": "hoog",
-      "components": {
-        "kerninteresse": 0,
-        "relevantie": 30,
-        "substantie": 24,
-        "duurzaamheid": 15,
-        "bruikbaarheid": 15,
-        "leeskans": 5,
-        "nederlandse_taal": 0,
-        "aftrek": 0
-      },
-      "rationale": {
-        "relevantie": [
-          "inhoudelijke relevantie uit de high-confidence inhoudsbeoordeling.",
-          "Bewijs: semantic-review, independent-of-current-position, evidence:notes, evidence:highlights."
-        ],
-        "substantie": [
-          "substantie uit de high-confidence inhoudsbeoordeling."
-        ],
-        "duurzaamheid": [
-          "duurzaamheid uit de high-confidence inhoudsbeoordeling."
-        ],
-        "bruikbaarheid": [
-          "bruikbaarheid uit de high-confidence inhoudsbeoordeling."
-        ],
-        "leeskans": [
-          "leeskans uit de high-confidence inhoudsbeoordeling."
-        ],
-        "nederlandse_taal": [],
-        "aftrek": [],
-        "kerninteresse": []
-      },
-      "judgmentSource": "label",
-      "judgmentConfidence": "high",
-      "coreInterestMatches": [],
-      "sequences": [
-        "lees",
-        "short",
-        "software-development"
-      ],
-      "sequenceScores": {
-        "lees": {
-          "score": 89,
-          "tier": "hoog",
-          "mode": "global"
-        },
-        "short": {
-          "score": 89,
-          "tier": "hoog",
-          "mode": "global"
-        },
-        "software-development": {
-          "score": 89,
-          "tier": "hoog",
-          "mode": "topic",
-          "topicRelevance": 3,
-          "relevanceSource": "label",
-          "relevanceConfidence": "high",
-          "components": {
-            "kerninteresse": 0,
-            "topic_relevantie": 3,
-            "substantie": 24,
-            "duurzaamheid": 15,
-            "bruikbaarheid": 15,
-            "leeskans": 5,
-            "nederlandse_taal": 0,
-            "aftrek": 0
-          }
-        }
-      },
-      "positions": {
-        "lees": 358,
-        "short": 234,
-        "software-development": 113
-      },
-      "actualPositions": {
-        "lees": 358,
-        "short": 234,
-        "software-development": 113
       }
     },
     "01m1qrnm32e32se2m8gp9bvx2m": {
@@ -28618,14 +25863,14 @@ window.TOP_ARTICLE_PRIORITY = {
         }
       },
       "positions": {
-        "lees": 264,
-        "short": 164,
-        "software-development": 53
+        "lees": 261,
+        "short": 163,
+        "software-development": 50
       },
       "actualPositions": {
-        "lees": 264,
-        "short": 164,
-        "software-development": 53
+        "lees": 261,
+        "short": 163,
+        "software-development": 50
       }
     },
     "01m1q5n7sb6ar9nn4wsdbg35g6": {
@@ -28743,16 +25988,16 @@ window.TOP_ARTICLE_PRIORITY = {
         }
       },
       "positions": {
-        "lees": 298,
-        "short": 193,
-        "software-development": 73,
-        "social-studies": 225
+        "lees": 291,
+        "short": 189,
+        "software-development": 68,
+        "social-studies": 214
       },
       "actualPositions": {
-        "lees": 298,
-        "short": 193,
-        "software-development": 73,
-        "social-studies": 225
+        "lees": 291,
+        "short": 189,
+        "software-development": 68,
+        "social-studies": 214
       }
     },
     "01m1q5mmmtp4bapv8zdc44zcvg": {
@@ -28842,13 +26087,13 @@ window.TOP_ARTICLE_PRIORITY = {
         }
       },
       "positions": {
-        "lees": 393,
-        "software-development": 119,
+        "lees": 363,
+        "software-development": 96,
         "front-end-development": 18
       },
       "actualPositions": {
-        "lees": 393,
-        "software-development": 119,
+        "lees": 363,
+        "software-development": 96,
         "front-end-development": 18
       }
     },
@@ -28947,110 +26192,16 @@ window.TOP_ARTICLE_PRIORITY = {
         }
       },
       "positions": {
-        "lees": 357,
-        "short": 233,
-        "software-development": 112,
+        "lees": 343,
+        "short": 223,
+        "software-development": 95,
         "front-end-development": 16
       },
       "actualPositions": {
-        "lees": 357,
-        "short": 233,
-        "software-development": 112,
+        "lees": 343,
+        "short": 223,
+        "software-development": 95,
         "front-end-development": 16
-      }
-    },
-    "01m1q3avpkng20xp40evb3sd7x": {
-      "baseScore": 86,
-      "adjustment": 0,
-      "adjustmentReason": null,
-      "score": 86,
-      "tier": "hoog",
-      "components": {
-        "kerninteresse": 0,
-        "relevantie": 30,
-        "substantie": 16,
-        "duurzaamheid": 20,
-        "bruikbaarheid": 15,
-        "leeskans": 5,
-        "nederlandse_taal": 0,
-        "aftrek": 0
-      },
-      "rationale": {
-        "relevantie": [
-          "inhoudelijke relevantie uit de medium-confidence inhoudsbeoordeling.",
-          "Bewijs: semantic-review, independent-of-current-position, evidence:notes."
-        ],
-        "substantie": [
-          "substantie uit de medium-confidence inhoudsbeoordeling."
-        ],
-        "duurzaamheid": [
-          "duurzaamheid uit de medium-confidence inhoudsbeoordeling."
-        ],
-        "bruikbaarheid": [
-          "bruikbaarheid uit de medium-confidence inhoudsbeoordeling."
-        ],
-        "leeskans": [
-          "leeskans uit de medium-confidence inhoudsbeoordeling."
-        ],
-        "nederlandse_taal": [],
-        "aftrek": [],
-        "kerninteresse": []
-      },
-      "judgmentSource": "label",
-      "judgmentConfidence": "medium",
-      "coreInterestMatches": [],
-      "sequences": [
-        "lees",
-        "short",
-        "luchtig",
-        "software-development"
-      ],
-      "sequenceScores": {
-        "lees": {
-          "score": 86,
-          "tier": "hoog",
-          "mode": "global"
-        },
-        "short": {
-          "score": 86,
-          "tier": "hoog",
-          "mode": "global"
-        },
-        "luchtig": {
-          "score": 86,
-          "tier": "hoog",
-          "mode": "global"
-        },
-        "software-development": {
-          "score": 86,
-          "tier": "hoog",
-          "mode": "topic",
-          "topicRelevance": 3,
-          "relevanceSource": "label",
-          "relevanceConfidence": "medium",
-          "components": {
-            "kerninteresse": 0,
-            "topic_relevantie": 3,
-            "substantie": 16,
-            "duurzaamheid": 20,
-            "bruikbaarheid": 15,
-            "leeskans": 5,
-            "nederlandse_taal": 0,
-            "aftrek": 0
-          }
-        }
-      },
-      "positions": {
-        "lees": 362,
-        "short": 240,
-        "luchtig": 102,
-        "software-development": 117
-      },
-      "actualPositions": {
-        "lees": 362,
-        "short": 240,
-        "luchtig": 102,
-        "software-development": 117
       }
     },
     "01m1q3apz296jkrexs5knjaqxf": {
@@ -29160,14 +26311,14 @@ window.TOP_ARTICLE_PRIORITY = {
         }
       },
       "positions": {
-        "lees": 317,
-        "software-development": 82,
-        "social-studies": 235
+        "lees": 309,
+        "software-development": 77,
+        "social-studies": 222
       },
       "actualPositions": {
-        "lees": 317,
-        "software-development": 82,
-        "social-studies": 235
+        "lees": 309,
+        "software-development": 77,
+        "social-studies": 222
       }
     },
     "01m1q3a33tajs6z8x9f3pmvraf": {
@@ -29285,16 +26436,16 @@ window.TOP_ARTICLE_PRIORITY = {
         }
       },
       "positions": {
-        "lees": 279,
-        "short": 179,
-        "software-development": 56,
-        "social-studies": 201
+        "lees": 276,
+        "short": 177,
+        "software-development": 53,
+        "social-studies": 194
       },
       "actualPositions": {
-        "lees": 279,
-        "short": 179,
-        "software-development": 56,
-        "social-studies": 201
+        "lees": 276,
+        "short": 177,
+        "software-development": 53,
+        "social-studies": 194
       }
     },
     "01m1q39c2bg52c45zpapazahcw": {
@@ -29392,15 +26543,15 @@ window.TOP_ARTICLE_PRIORITY = {
         }
       },
       "positions": {
-        "lees": 352,
-        "short": 231,
-        "software-development": 107,
+        "lees": 339,
+        "short": 221,
+        "software-development": 94,
         "front-end-development": 15
       },
       "actualPositions": {
-        "lees": 352,
-        "short": 231,
-        "software-development": 107,
+        "lees": 339,
+        "short": 221,
+        "software-development": 94,
         "front-end-development": 15
       }
     },
@@ -29499,15 +26650,15 @@ window.TOP_ARTICLE_PRIORITY = {
         }
       },
       "positions": {
-        "lees": 340,
-        "short": 224,
-        "software-development": 81,
+        "lees": 329,
+        "short": 215,
+        "software-development": 76,
         "front-end-development": 13
       },
       "actualPositions": {
-        "lees": 340,
-        "short": 224,
-        "software-development": 81,
+        "lees": 329,
+        "short": 215,
+        "software-development": 76,
         "front-end-development": 13
       }
     },
@@ -29606,122 +26757,16 @@ window.TOP_ARTICLE_PRIORITY = {
         }
       },
       "positions": {
-        "lees": 392,
-        "short": 266,
-        "software-development": 120,
+        "lees": 362,
+        "short": 243,
+        "software-development": 97,
         "front-end-development": 20
       },
       "actualPositions": {
-        "lees": 392,
-        "short": 266,
-        "software-development": 120,
+        "lees": 362,
+        "short": 243,
+        "software-development": 97,
         "front-end-development": 20
-      }
-    },
-    "01m1q38vt13z682y665ms9k4xv": {
-      "baseScore": 78,
-      "adjustment": 0,
-      "adjustmentReason": null,
-      "score": 78,
-      "tier": "hoog",
-      "components": {
-        "kerninteresse": 9,
-        "relevantie": 20,
-        "substantie": 24,
-        "duurzaamheid": 10,
-        "bruikbaarheid": 10,
-        "leeskans": 5,
-        "nederlandse_taal": 0,
-        "aftrek": 0
-      },
-      "rationale": {
-        "relevantie": [
-          "inhoudelijke relevantie uit de high-confidence inhoudsbeoordeling.",
-          "Bewijs: semantic-review, independent-of-current-position, evidence:notes, evidence:highlights, interest:history."
-        ],
-        "substantie": [
-          "substantie uit de high-confidence inhoudsbeoordeling."
-        ],
-        "duurzaamheid": [
-          "duurzaamheid uit de high-confidence inhoudsbeoordeling."
-        ],
-        "bruikbaarheid": [
-          "bruikbaarheid uit de high-confidence inhoudsbeoordeling."
-        ],
-        "leeskans": [
-          "leeskans uit de high-confidence inhoudsbeoordeling."
-        ],
-        "nederlandse_taal": [],
-        "aftrek": [],
-        "kerninteresse": [
-          "Geschiedenis: +9 (geschiedenis, geschiedenis)."
-        ]
-      },
-      "judgmentSource": "label",
-      "judgmentConfidence": "high",
-      "coreInterestMatches": [
-        {
-          "interest": "geschiedenis",
-          "evidence": [
-            {
-              "kind": "readwise-tag",
-              "source": "history",
-              "label": "geschiedenis"
-            },
-            {
-              "kind": "semantic-signal",
-              "source": "interest:history",
-              "label": "geschiedenis"
-            }
-          ],
-          "qualityScore": 64,
-          "weight": 9
-        }
-      ],
-      "sequences": [
-        "lees",
-        "short",
-        "software-development"
-      ],
-      "sequenceScores": {
-        "lees": {
-          "score": 78,
-          "tier": "hoog",
-          "mode": "global"
-        },
-        "short": {
-          "score": 78,
-          "tier": "hoog",
-          "mode": "global"
-        },
-        "software-development": {
-          "score": 88,
-          "tier": "hoog",
-          "mode": "topic",
-          "topicRelevance": 3,
-          "relevanceSource": "label",
-          "relevanceConfidence": "high",
-          "components": {
-            "kerninteresse": 9,
-            "topic_relevantie": 3,
-            "substantie": 24,
-            "duurzaamheid": 10,
-            "bruikbaarheid": 10,
-            "leeskans": 5,
-            "nederlandse_taal": 0,
-            "aftrek": 0
-          }
-        }
-      },
-      "positions": {
-        "lees": 378,
-        "short": 253,
-        "software-development": 116
-      },
-      "actualPositions": {
-        "lees": 378,
-        "short": 253,
-        "software-development": 116
       }
     },
     "01m1q38ff85hf5x3wm3f495r1d": {
@@ -29815,14 +26860,14 @@ window.TOP_ARTICLE_PRIORITY = {
         }
       },
       "positions": {
-        "lees": 316,
-        "short": 204,
-        "software-development": 80
+        "lees": 308,
+        "short": 199,
+        "software-development": 75
       },
       "actualPositions": {
-        "lees": 316,
-        "short": 204,
-        "software-development": 80
+        "lees": 308,
+        "short": 199,
+        "software-development": 75
       }
     },
     "01m1q387kecjnv4ddq8tgyy4h2": {
@@ -29916,14 +26961,14 @@ window.TOP_ARTICLE_PRIORITY = {
         }
       },
       "positions": {
-        "lees": 315,
-        "short": 203,
-        "software-development": 79
+        "lees": 307,
+        "short": 198,
+        "software-development": 74
       },
       "actualPositions": {
-        "lees": 315,
-        "short": 203,
-        "software-development": 79
+        "lees": 307,
+        "short": 198,
+        "software-development": 74
       }
     },
     "01m1ptj29cwr9k2jg48w4nvz74": {
@@ -30049,16 +27094,16 @@ window.TOP_ARTICLE_PRIORITY = {
         }
       },
       "positions": {
-        "lees": 211,
+        "lees": 210,
         "short": 128,
-        "software-development": 34,
-        "social-studies": 200
+        "software-development": 32,
+        "social-studies": 193
       },
       "actualPositions": {
-        "lees": 211,
+        "lees": 210,
         "short": 128,
-        "software-development": 34,
-        "social-studies": 200
+        "software-development": 32,
+        "social-studies": 193
       }
     },
     "01m1ptghcfvreqe0a796mr3f0z": {
@@ -30156,15 +27201,15 @@ window.TOP_ARTICLE_PRIORITY = {
         }
       },
       "positions": {
-        "lees": 339,
-        "short": 223,
-        "software-development": 104,
+        "lees": 328,
+        "short": 214,
+        "software-development": 92,
         "front-end-development": 12
       },
       "actualPositions": {
-        "lees": 339,
-        "short": 223,
-        "software-development": 104,
+        "lees": 328,
+        "short": 214,
+        "software-development": 92,
         "front-end-development": 12
       }
     },
@@ -30269,92 +27314,6 @@ window.TOP_ARTICLE_PRIORITY = {
         "software-development": 6
       }
     },
-    "01m1pte2ggm4we1zm4q8c70b0s": {
-      "baseScore": 99,
-      "adjustment": 0,
-      "adjustmentReason": null,
-      "score": 99,
-      "tier": "hoog",
-      "components": {
-        "kerninteresse": 0,
-        "relevantie": 30,
-        "substantie": 24,
-        "duurzaamheid": 20,
-        "bruikbaarheid": 20,
-        "leeskans": 5,
-        "nederlandse_taal": 0,
-        "aftrek": 0
-      },
-      "rationale": {
-        "relevantie": [
-          "inhoudelijke relevantie uit de high-confidence inhoudsbeoordeling.",
-          "Bewijs: semantic-review, independent-of-current-position, evidence:notes, evidence:highlights."
-        ],
-        "substantie": [
-          "substantie uit de high-confidence inhoudsbeoordeling."
-        ],
-        "duurzaamheid": [
-          "duurzaamheid uit de high-confidence inhoudsbeoordeling."
-        ],
-        "bruikbaarheid": [
-          "bruikbaarheid uit de high-confidence inhoudsbeoordeling."
-        ],
-        "leeskans": [
-          "leeskans uit de high-confidence inhoudsbeoordeling."
-        ],
-        "nederlandse_taal": [],
-        "aftrek": [],
-        "kerninteresse": []
-      },
-      "judgmentSource": "label",
-      "judgmentConfidence": "high",
-      "coreInterestMatches": [],
-      "sequences": [
-        "lees",
-        "short",
-        "software-development"
-      ],
-      "sequenceScores": {
-        "lees": {
-          "score": 99,
-          "tier": "hoog",
-          "mode": "global"
-        },
-        "short": {
-          "score": 99,
-          "tier": "hoog",
-          "mode": "global"
-        },
-        "software-development": {
-          "score": 99,
-          "tier": "hoog",
-          "mode": "topic",
-          "topicRelevance": 3,
-          "relevanceSource": "label",
-          "relevanceConfidence": "high",
-          "components": {
-            "kerninteresse": 0,
-            "topic_relevantie": 3,
-            "substantie": 24,
-            "duurzaamheid": 20,
-            "bruikbaarheid": 20,
-            "leeskans": 5,
-            "nederlandse_taal": 0,
-            "aftrek": 0
-          }
-        }
-      },
-      "positions": {
-        "lees": 338,
-        "short": 222,
-        "software-development": 103
-      },
-      "actualPositions": {
-        "lees": 338,
-        "short": 222,
-        "software-development": 103
-      }
-    },
     "01m1ptdtpgacgz9tkd640axtse": {
       "baseScore": 110,
       "adjustment": 20,
@@ -30446,14 +27405,14 @@ window.TOP_ARTICLE_PRIORITY = {
         }
       },
       "positions": {
-        "lees": 195,
+        "lees": 194,
         "short": 112,
-        "software-development": 29
+        "software-development": 27
       },
       "actualPositions": {
-        "lees": 195,
+        "lees": 194,
         "short": 112,
-        "software-development": 29
+        "software-development": 27
       }
     },
     "01m1pkcy3mwn5efd7wb4mm674v": {
@@ -30532,14 +27491,14 @@ window.TOP_ARTICLE_PRIORITY = {
         }
       },
       "positions": {
-        "lees": 351,
-        "short": 230,
-        "software-development": 94
+        "lees": 338,
+        "short": 220,
+        "software-development": 84
       },
       "actualPositions": {
-        "lees": 351,
-        "short": 230,
-        "software-development": 94
+        "lees": 338,
+        "short": 220,
+        "software-development": 84
       }
     },
     "01m1pkcqybtrart8abs9dmmcqd": {
@@ -30633,14 +27592,14 @@ window.TOP_ARTICLE_PRIORITY = {
         }
       },
       "positions": {
-        "lees": 278,
-        "short": 178,
-        "software-development": 33
+        "lees": 275,
+        "short": 176,
+        "software-development": 31
       },
       "actualPositions": {
-        "lees": 278,
-        "short": 178,
-        "software-development": 33
+        "lees": 275,
+        "short": 176,
+        "software-development": 31
       }
     },
     "01m1pkcmdmv93epp6nrb29me5b": {
@@ -30738,15 +27697,15 @@ window.TOP_ARTICLE_PRIORITY = {
         }
       },
       "positions": {
-        "lees": 277,
-        "short": 177,
-        "software-development": 32,
+        "lees": 274,
+        "short": 175,
+        "software-development": 30,
         "front-end-development": 4
       },
       "actualPositions": {
-        "lees": 277,
-        "short": 177,
-        "software-development": 32,
+        "lees": 274,
+        "short": 175,
+        "software-development": 30,
         "front-end-development": 4
       }
     },
@@ -30826,14 +27785,14 @@ window.TOP_ARTICLE_PRIORITY = {
         }
       },
       "positions": {
-        "lees": 297,
-        "short": 192,
-        "software-development": 72
+        "lees": 290,
+        "short": 188,
+        "software-development": 67
       },
       "actualPositions": {
-        "lees": 297,
-        "short": 192,
-        "software-development": 72
+        "lees": 290,
+        "short": 188,
+        "software-development": 67
       }
     },
     "01m1pkbsyqx3cxesvp346tnad9": {
@@ -30956,16 +27915,16 @@ window.TOP_ARTICLE_PRIORITY = {
         }
       },
       "positions": {
-        "lees": 234,
+        "lees": 233,
         "short": 147,
-        "software-development": 43,
-        "social-studies": 164
+        "software-development": 41,
+        "social-studies": 159
       },
       "actualPositions": {
-        "lees": 234,
+        "lees": 233,
         "short": 147,
-        "software-development": 43,
-        "social-studies": 164
+        "software-development": 41,
+        "social-studies": 159
       }
     },
     "01m1pc8cz444y77ecj8rn0s6jj": {
@@ -31078,15 +28037,15 @@ window.TOP_ARTICLE_PRIORITY = {
         }
       },
       "positions": {
-        "lees": 308,
-        "short": 198,
-        "software-development": 77,
+        "lees": 300,
+        "short": 194,
+        "software-development": 72,
         "front-end-development": 6
       },
       "actualPositions": {
-        "lees": 308,
-        "short": 198,
-        "software-development": 77,
+        "lees": 300,
+        "short": 194,
+        "software-development": 72,
         "front-end-development": 6
       }
     },
@@ -31158,12 +28117,12 @@ window.TOP_ARTICLE_PRIORITY = {
         }
       },
       "positions": {
-        "lees": 263,
-        "software-development": 23
+        "lees": 260,
+        "software-development": 21
       },
       "actualPositions": {
-        "lees": 263,
-        "software-development": 23
+        "lees": 260,
+        "software-development": 21
       }
     },
     "01m1pc7fdpfh7wg782tb035r64": {
@@ -31261,15 +28220,15 @@ window.TOP_ARTICLE_PRIORITY = {
         }
       },
       "positions": {
-        "lees": 276,
-        "short": 176,
-        "software-development": 31,
+        "lees": 273,
+        "short": 174,
+        "software-development": 29,
         "front-end-development": 3
       },
       "actualPositions": {
-        "lees": 276,
-        "short": 176,
-        "software-development": 31,
+        "lees": 273,
+        "short": 174,
+        "software-development": 29,
         "front-end-development": 3
       }
     },
@@ -31383,16 +28342,16 @@ window.TOP_ARTICLE_PRIORITY = {
         }
       },
       "positions": {
-        "lees": 275,
-        "short": 175,
-        "software-development": 30,
-        "social-studies": 234
+        "lees": 272,
+        "short": 173,
+        "software-development": 28,
+        "social-studies": 221
       },
       "actualPositions": {
-        "lees": 275,
-        "short": 175,
-        "software-development": 30,
-        "social-studies": 234
+        "lees": 272,
+        "short": 173,
+        "software-development": 28,
+        "social-studies": 221
       }
     },
     "01m1pc6gr3vhv7xva2751hmj1n": {
@@ -31471,14 +28430,14 @@ window.TOP_ARTICLE_PRIORITY = {
         }
       },
       "positions": {
-        "lees": 233,
+        "lees": 232,
         "short": 146,
-        "software-development": 18
+        "software-development": 17
       },
       "actualPositions": {
-        "lees": 233,
+        "lees": 232,
         "short": 146,
-        "software-development": 18
+        "software-development": 17
       }
     },
     "01m1pc5ty6322rn2cg1cjtt21p": {
@@ -31576,15 +28535,15 @@ window.TOP_ARTICLE_PRIORITY = {
         }
       },
       "positions": {
-        "lees": 350,
-        "short": 229,
-        "software-development": 106,
+        "lees": 337,
+        "short": 219,
+        "software-development": 93,
         "front-end-development": 14
       },
       "actualPositions": {
-        "lees": 350,
-        "short": 229,
-        "software-development": 106,
+        "lees": 337,
+        "short": 219,
+        "software-development": 93,
         "front-end-development": 14
       }
     },
@@ -31683,15 +28642,15 @@ window.TOP_ARTICLE_PRIORITY = {
         }
       },
       "positions": {
-        "lees": 337,
-        "short": 221,
-        "software-development": 102,
+        "lees": 327,
+        "short": 213,
+        "software-development": 91,
         "front-end-development": 11
       },
       "actualPositions": {
-        "lees": 337,
-        "short": 221,
-        "software-development": 102,
+        "lees": 327,
+        "short": 213,
+        "software-development": 91,
         "front-end-development": 11
       }
     },
@@ -31782,13 +28741,13 @@ window.TOP_ARTICLE_PRIORITY = {
         }
       },
       "positions": {
-        "lees": 286,
-        "software-development": 42,
+        "lees": 282,
+        "software-development": 40,
         "front-end-development": 5
       },
       "actualPositions": {
-        "lees": 286,
-        "software-development": 42,
+        "lees": 282,
+        "software-development": 40,
         "front-end-development": 5
       }
     },
@@ -31868,14 +28827,14 @@ window.TOP_ARTICLE_PRIORITY = {
         }
       },
       "positions": {
-        "lees": 333,
-        "short": 217,
-        "software-development": 76
+        "lees": 324,
+        "short": 210,
+        "software-development": 71
       },
       "actualPositions": {
-        "lees": 333,
-        "short": 217,
-        "software-development": 76
+        "lees": 324,
+        "short": 210,
+        "software-development": 71
       }
     },
     "01m1pc52whmcp71rdn2f2d01qb": {
@@ -32006,102 +28965,16 @@ window.TOP_ARTICLE_PRIORITY = {
         }
       },
       "positions": {
-        "lees": 289,
-        "short": 189,
-        "software-development": 66,
-        "social-studies": 166
+        "lees": 284,
+        "short": 185,
+        "software-development": 63,
+        "social-studies": 160
       },
       "actualPositions": {
-        "lees": 289,
-        "short": 189,
-        "software-development": 66,
-        "social-studies": 166
-      }
-    },
-    "01m1p7tvytpqfewp92vat08xw8": {
-      "baseScore": 99,
-      "adjustment": 0,
-      "adjustmentReason": null,
-      "score": 99,
-      "tier": "hoog",
-      "components": {
-        "kerninteresse": 0,
-        "relevantie": 30,
-        "substantie": 24,
-        "duurzaamheid": 20,
-        "bruikbaarheid": 20,
-        "leeskans": 5,
-        "nederlandse_taal": 0,
-        "aftrek": 0
-      },
-      "rationale": {
-        "relevantie": [
-          "inhoudelijke relevantie uit de high-confidence inhoudsbeoordeling.",
-          "Bewijs: semantic-review, independent-of-current-position, evidence:notes, evidence:highlights."
-        ],
-        "substantie": [
-          "substantie uit de high-confidence inhoudsbeoordeling."
-        ],
-        "duurzaamheid": [
-          "duurzaamheid uit de high-confidence inhoudsbeoordeling."
-        ],
-        "bruikbaarheid": [
-          "bruikbaarheid uit de high-confidence inhoudsbeoordeling."
-        ],
-        "leeskans": [
-          "leeskans uit de high-confidence inhoudsbeoordeling."
-        ],
-        "nederlandse_taal": [],
-        "aftrek": [],
-        "kerninteresse": []
-      },
-      "judgmentSource": "label",
-      "judgmentConfidence": "high",
-      "coreInterestMatches": [],
-      "sequences": [
-        "lees",
-        "short",
-        "software-development"
-      ],
-      "sequenceScores": {
-        "lees": {
-          "score": 99,
-          "tier": "hoog",
-          "mode": "global"
-        },
-        "short": {
-          "score": 99,
-          "tier": "hoog",
-          "mode": "global"
-        },
-        "software-development": {
-          "score": 99,
-          "tier": "hoog",
-          "mode": "topic",
-          "topicRelevance": 3,
-          "relevanceSource": "label",
-          "relevanceConfidence": "high",
-          "components": {
-            "kerninteresse": 0,
-            "topic_relevantie": 3,
-            "substantie": 24,
-            "duurzaamheid": 20,
-            "bruikbaarheid": 20,
-            "leeskans": 5,
-            "nederlandse_taal": 0,
-            "aftrek": 0
-          }
-        }
-      },
-      "positions": {
-        "lees": 336,
-        "short": 220,
-        "software-development": 101
-      },
-      "actualPositions": {
-        "lees": 336,
-        "short": 220,
-        "software-development": 101
+        "lees": 284,
+        "short": 185,
+        "software-development": 63,
+        "social-studies": 160
       }
     },
     "01m1p7tppsy5qeyt4m808ekcgx": {
@@ -32180,14 +29053,14 @@ window.TOP_ARTICLE_PRIORITY = {
         }
       },
       "positions": {
-        "lees": 332,
-        "short": 216,
-        "software-development": 97
+        "lees": 323,
+        "short": 209,
+        "software-development": 87
       },
       "actualPositions": {
-        "lees": 332,
-        "short": 216,
-        "software-development": 97
+        "lees": 323,
+        "short": 209,
+        "software-development": 87
       }
     },
     "01m1p7skymwn1dbj14qd2xx2a4": {
@@ -32300,16 +29173,16 @@ window.TOP_ARTICLE_PRIORITY = {
         }
       },
       "positions": {
-        "lees": 314,
-        "short": 202,
-        "software-development": 55,
-        "social-studies": 259
+        "lees": 306,
+        "short": 197,
+        "software-development": 52,
+        "social-studies": 244
       },
       "actualPositions": {
-        "lees": 314,
-        "short": 202,
-        "software-development": 55,
-        "social-studies": 259
+        "lees": 306,
+        "short": 197,
+        "software-development": 52,
+        "social-studies": 244
       }
     },
     "01m1p7nxnhh4j001458qw06n22": {
@@ -32388,14 +29261,14 @@ window.TOP_ARTICLE_PRIORITY = {
         }
       },
       "positions": {
-        "lees": 323,
-        "short": 209,
-        "software-development": 64
+        "lees": 315,
+        "short": 204,
+        "software-development": 61
       },
       "actualPositions": {
-        "lees": 323,
-        "short": 209,
-        "software-development": 64
+        "lees": 315,
+        "short": 204,
+        "software-development": 61
       }
     },
     "01m1p7414hg20qvstgwygjwdhv": {
@@ -32493,15 +29366,15 @@ window.TOP_ARTICLE_PRIORITY = {
         }
       },
       "positions": {
-        "lees": 322,
-        "short": 208,
-        "software-development": 63,
+        "lees": 314,
+        "short": 203,
+        "software-development": 60,
         "front-end-development": 8
       },
       "actualPositions": {
-        "lees": 322,
-        "short": 208,
-        "software-development": 63,
+        "lees": 314,
+        "short": 203,
+        "software-development": 60,
         "front-end-development": 8
       }
     },
@@ -32581,14 +29454,14 @@ window.TOP_ARTICLE_PRIORITY = {
         }
       },
       "positions": {
-        "lees": 321,
-        "short": 207,
-        "software-development": 62
+        "lees": 313,
+        "short": 202,
+        "software-development": 59
       },
       "actualPositions": {
-        "lees": 321,
-        "short": 207,
-        "software-development": 62
+        "lees": 313,
+        "short": 202,
+        "software-development": 59
       }
     },
     "01m1p73a3z76hwhn4t9qqvpdch": {
@@ -32727,16 +29600,16 @@ window.TOP_ARTICLE_PRIORITY = {
         }
       },
       "positions": {
-        "lees": 246,
-        "scrum": 103,
-        "software-development": 47,
-        "social-studies": 175
+        "lees": 243,
+        "scrum": 102,
+        "software-development": 45,
+        "social-studies": 169
       },
       "actualPositions": {
-        "lees": 246,
-        "scrum": 103,
-        "software-development": 47,
-        "social-studies": 175
+        "lees": 243,
+        "scrum": 102,
+        "software-development": 45,
+        "social-studies": 169
       }
     },
     "01m1p7327vfsy0dqn6zk81hgja": {
@@ -32834,15 +29707,15 @@ window.TOP_ARTICLE_PRIORITY = {
         }
       },
       "positions": {
-        "lees": 320,
-        "short": 206,
-        "software-development": 61,
+        "lees": 312,
+        "short": 201,
+        "software-development": 58,
         "front-end-development": 7
       },
       "actualPositions": {
-        "lees": 320,
-        "short": 206,
-        "software-development": 61,
+        "lees": 312,
+        "short": 201,
+        "software-development": 58,
         "front-end-development": 7
       }
     },
@@ -33005,12 +29878,12 @@ window.TOP_ARTICLE_PRIORITY = {
         }
       },
       "positions": {
-        "lees": 345,
-        "software-development": 91
+        "lees": 333,
+        "software-development": 81
       },
       "actualPositions": {
-        "lees": 345,
-        "software-development": 91
+        "lees": 333,
+        "software-development": 81
       }
     },
     "01m1p470j3kcmd7srqg5enza7f": {
@@ -33089,14 +29962,14 @@ window.TOP_ARTICLE_PRIORITY = {
         }
       },
       "positions": {
-        "lees": 331,
-        "short": 215,
-        "software-development": 75
+        "lees": 322,
+        "short": 208,
+        "software-development": 70
       },
       "actualPositions": {
-        "lees": 331,
-        "short": 215,
-        "software-development": 75
+        "lees": 322,
+        "short": 208,
+        "software-development": 70
       }
     },
     "01m1p46tkw2fp087th9qdg88fg": {
@@ -33203,14 +30076,14 @@ window.TOP_ARTICLE_PRIORITY = {
         }
       },
       "positions": {
-        "lees": 288,
-        "short": 188,
-        "software-development": 65
+        "lees": 283,
+        "short": 184,
+        "software-development": 62
       },
       "actualPositions": {
-        "lees": 288,
-        "short": 188,
-        "software-development": 65
+        "lees": 283,
+        "short": 184,
+        "software-development": 62
       }
     },
     "01m1nbjzntew83f16xt14m9r2w": {
@@ -33492,18 +30365,18 @@ window.TOP_ARTICLE_PRIORITY = {
         }
       },
       "positions": {
-        "lees": 194,
+        "lees": 193,
         "short": 111,
-        "scrum": 89,
-        "software-development": 28,
-        "social-studies": 189
+        "scrum": 90,
+        "software-development": 26,
+        "social-studies": 182
       },
       "actualPositions": {
-        "lees": 194,
+        "lees": 193,
         "short": 111,
-        "scrum": 89,
-        "software-development": 28,
-        "social-studies": 189
+        "scrum": 90,
+        "software-development": 26,
+        "social-studies": 182
       }
     },
     "01m1kscgrbsgy40tyeqfk38mb2": {
@@ -33773,16 +30646,16 @@ window.TOP_ARTICLE_PRIORITY = {
         }
       },
       "positions": {
-        "lees": 210,
+        "lees": 209,
         "short": 127,
-        "scrum": 63,
-        "social-studies": 199
+        "scrum": 64,
+        "social-studies": 192
       },
       "actualPositions": {
-        "lees": 210,
+        "lees": 209,
         "short": 127,
-        "scrum": 63,
-        "social-studies": 199
+        "scrum": 64,
+        "social-studies": 192
       }
     },
     "01m1ksca8b1devdvjcpj1ppqy1": {
@@ -33920,16 +30793,16 @@ window.TOP_ARTICLE_PRIORITY = {
         }
       },
       "positions": {
-        "lees": 209,
+        "lees": 208,
         "short": 126,
-        "scrum": 62,
-        "social-studies": 153
+        "scrum": 63,
+        "social-studies": 148
       },
       "actualPositions": {
-        "lees": 209,
+        "lees": 208,
         "short": 126,
-        "scrum": 62,
-        "social-studies": 153
+        "scrum": 63,
+        "social-studies": 148
       }
     },
     "01m1ksc9vg0efn2nvvw5n532nt": {
@@ -34065,13 +30938,13 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees": 161,
         "short": 93,
         "scrum": 45,
-        "social-studies": 217
+        "social-studies": 207
       },
       "actualPositions": {
         "lees": 161,
         "short": 93,
         "scrum": 45,
-        "social-studies": 217
+        "social-studies": 207
       }
     },
     "01m1ksc86m5k1hmr9avtmtw1eb": {
@@ -34207,13 +31080,13 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees": 160,
         "short": 92,
         "scrum": 44,
-        "social-studies": 163
+        "social-studies": 158
       },
       "actualPositions": {
         "lees": 160,
         "short": 92,
         "scrum": 44,
-        "social-studies": 163
+        "social-studies": 158
       }
     },
     "01m1ksc73j7evdqetd2n0kdhan": {
@@ -34351,16 +31224,16 @@ window.TOP_ARTICLE_PRIORITY = {
         }
       },
       "positions": {
-        "lees": 208,
+        "lees": 207,
         "short": 125,
-        "scrum": 61,
-        "social-studies": 152
+        "scrum": 62,
+        "social-studies": 147
       },
       "actualPositions": {
-        "lees": 208,
+        "lees": 207,
         "short": 125,
-        "scrum": 61,
-        "social-studies": 152
+        "scrum": 62,
+        "social-studies": 147
       }
     },
     "01m1ksc61hsvcw170earazv0qf": {
@@ -34493,16 +31366,16 @@ window.TOP_ARTICLE_PRIORITY = {
         }
       },
       "positions": {
-        "lees": 207,
+        "lees": 206,
         "short": 124,
-        "scrum": 60,
-        "social-studies": 198
+        "scrum": 61,
+        "social-studies": 191
       },
       "actualPositions": {
-        "lees": 207,
+        "lees": 206,
         "short": 124,
-        "scrum": 60,
-        "social-studies": 198
+        "scrum": 61,
+        "social-studies": 191
       }
     },
     "01m1kppm13bn0d0w70hxcjf9tw": {
@@ -34622,14 +31495,14 @@ window.TOP_ARTICLE_PRIORITY = {
         }
       },
       "positions": {
-        "lees": 182,
+        "lees": 181,
         "scrum": 52,
-        "social-studies": 138
+        "social-studies": 133
       },
       "actualPositions": {
-        "lees": 182,
+        "lees": 181,
         "scrum": 52,
-        "social-studies": 138
+        "social-studies": 133
       }
     },
     "01m1kppkgrbrrg09crtnnhtnr2": {
@@ -34757,16 +31630,16 @@ window.TOP_ARTICLE_PRIORITY = {
         }
       },
       "positions": {
-        "lees": 206,
+        "lees": 205,
         "short": 123,
-        "scrum": 59,
-        "social-studies": 197
+        "scrum": 60,
+        "social-studies": 190
       },
       "actualPositions": {
-        "lees": 206,
+        "lees": 205,
         "short": 123,
-        "scrum": 59,
-        "social-studies": 197
+        "scrum": 60,
+        "social-studies": 190
       }
     },
     "01m1kpjvpkpjy10c0zp09d0hty": {
@@ -34980,13 +31853,13 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees": 159,
         "short": 91,
         "scrum": 43,
-        "social-studies": 125
+        "social-studies": 122
       },
       "actualPositions": {
         "lees": 159,
         "short": 91,
         "scrum": 43,
-        "social-studies": 125
+        "social-studies": 122
       }
     },
     "01m1k4njhg2tq0hr2s2c7q8mc2": {
@@ -35135,13 +32008,13 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees": 146,
         "short": 81,
         "scrum": 40,
-        "social-studies": 115
+        "social-studies": 112
       },
       "actualPositions": {
         "lees": 146,
         "short": 81,
         "scrum": 40,
-        "social-studies": 115
+        "social-studies": 112
       }
     },
     "01m1gp4waxm0cmf0dh788j4jvv": {
@@ -35286,13 +32159,13 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees": 100,
         "scrum": 37,
         "software-development": 3,
-        "social-studies": 107
+        "social-studies": 103
       },
       "actualPositions": {
         "lees": 100,
         "scrum": 37,
         "software-development": 3,
-        "social-studies": 107
+        "social-studies": 103
       }
     },
     "01m1f3z0dj5te4w2sp8wkb7x1p": {
@@ -35417,13 +32290,13 @@ window.TOP_ARTICLE_PRIORITY = {
         }
       },
       "positions": {
-        "lees": 243,
-        "short": 151,
+        "lees": 241,
+        "short": 150,
         "adhd": 30
       },
       "actualPositions": {
-        "lees": 243,
-        "short": 151,
+        "lees": 241,
+        "short": 150,
         "adhd": 30
       }
     },
@@ -35557,16 +32430,16 @@ window.TOP_ARTICLE_PRIORITY = {
         }
       },
       "positions": {
-        "lees": 205,
+        "lees": 204,
         "short": 122,
-        "scrum": 95,
-        "social-studies": 114
+        "scrum": 96,
+        "social-studies": 111
       },
       "actualPositions": {
-        "lees": 205,
+        "lees": 204,
         "short": 122,
-        "scrum": 95,
-        "social-studies": 114
+        "scrum": 96,
+        "social-studies": 111
       }
     },
     "01m19mp23fe6k9kgv4ca02h3nc": {
@@ -35702,13 +32575,13 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees": 143,
         "short": 79,
         "scrum": 39,
-        "social-studies": 144
+        "social-studies": 139
       },
       "actualPositions": {
         "lees": 143,
         "short": 79,
         "scrum": 39,
-        "social-studies": 144
+        "social-studies": 139
       }
     },
     "01m1972tbcgs6619xxy2hgm5qp": {
@@ -35831,11 +32704,11 @@ window.TOP_ARTICLE_PRIORITY = {
       },
       "positions": {
         "lees": 141,
-        "social-studies": 85
+        "social-studies": 84
       },
       "actualPositions": {
         "lees": 141,
-        "social-studies": 85
+        "social-studies": 84
       }
     },
     "01m1971j070aamhztgxr4k22jg": {
@@ -35963,164 +32836,14 @@ window.TOP_ARTICLE_PRIORITY = {
         }
       },
       "positions": {
-        "lees": 294,
+        "lees": 287,
         "luchtig": 73,
-        "social-studies": 170
+        "social-studies": 164
       },
       "actualPositions": {
-        "lees": 294,
+        "lees": 287,
         "luchtig": 73,
-        "social-studies": 170
-      }
-    },
-    "01m18v73vpssrb6705y75h1dra": {
-      "baseScore": 126,
-      "adjustment": 0,
-      "adjustmentReason": null,
-      "score": 126,
-      "tier": "hoog",
-      "components": {
-        "kerninteresse": 30,
-        "relevantie": 40,
-        "substantie": 16,
-        "duurzaamheid": 20,
-        "bruikbaarheid": 15,
-        "leeskans": 5,
-        "nederlandse_taal": 0,
-        "aftrek": 0
-      },
-      "rationale": {
-        "relevantie": [
-          "inhoudelijke relevantie uit de medium-confidence inhoudsbeoordeling.",
-          "Bewijs: semantic-review, independent-of-current-position, evidence:notes, evidence:highlights, interest:team-coaching, interest:social-psychology."
-        ],
-        "substantie": [
-          "substantie uit de medium-confidence inhoudsbeoordeling."
-        ],
-        "duurzaamheid": [
-          "duurzaamheid uit de medium-confidence inhoudsbeoordeling."
-        ],
-        "bruikbaarheid": [
-          "bruikbaarheid uit de medium-confidence inhoudsbeoordeling."
-        ],
-        "leeskans": [
-          "leeskans uit de medium-confidence inhoudsbeoordeling."
-        ],
-        "nederlandse_taal": [],
-        "aftrek": [],
-        "kerninteresse": [
-          "Sociologie: +10 (sociale psychologie, Social Psychology & Interpersonal Dynamics).",
-          "Agile: +20 (Agile, teamcoaching, Team Dynamics & Collaboration)."
-        ]
-      },
-      "judgmentSource": "label",
-      "judgmentConfidence": "medium",
-      "coreInterestMatches": [
-        {
-          "interest": "sociologie",
-          "evidence": [
-            {
-              "kind": "semantic-signal",
-              "source": "interest:social-psychology",
-              "label": "sociale psychologie"
-            },
-            {
-              "kind": "readwise-tag",
-              "source": "social psychology & interpersonal dynamics",
-              "label": "Social Psychology & Interpersonal Dynamics"
-            }
-          ],
-          "qualityScore": 91,
-          "weight": 10
-        },
-        {
-          "interest": "agile",
-          "evidence": [
-            {
-              "kind": "readwise-tag",
-              "source": "agile",
-              "label": "Agile"
-            },
-            {
-              "kind": "semantic-signal",
-              "source": "interest:team-coaching",
-              "label": "teamcoaching"
-            },
-            {
-              "kind": "readwise-tag",
-              "source": "team dynamics & collaboration",
-              "label": "Team Dynamics & Collaboration"
-            }
-          ],
-          "qualityScore": 91,
-          "weight": 20
-        }
-      ],
-      "sequences": [
-        "lees",
-        "short",
-        "scrum",
-        "social-studies"
-      ],
-      "sequenceScores": {
-        "lees": {
-          "score": 126,
-          "tier": "hoog",
-          "mode": "global"
-        },
-        "short": {
-          "score": 126,
-          "tier": "hoog",
-          "mode": "global"
-        },
-        "scrum": {
-          "score": 116,
-          "tier": "hoog",
-          "mode": "topic",
-          "topicRelevance": 3,
-          "relevanceSource": "label",
-          "relevanceConfidence": "medium",
-          "components": {
-            "kerninteresse": 30,
-            "topic_relevantie": 3,
-            "substantie": 16,
-            "duurzaamheid": 20,
-            "bruikbaarheid": 15,
-            "leeskans": 5,
-            "nederlandse_taal": 0,
-            "aftrek": 0
-          }
-        },
-        "social-studies": {
-          "score": 116,
-          "tier": "hoog",
-          "mode": "topic",
-          "topicRelevance": 3,
-          "relevanceSource": "label",
-          "relevanceConfidence": "medium",
-          "components": {
-            "kerninteresse": 30,
-            "topic_relevantie": 3,
-            "substantie": 16,
-            "duurzaamheid": 20,
-            "bruikbaarheid": 15,
-            "leeskans": 5,
-            "nederlandse_taal": 0,
-            "aftrek": 0
-          }
-        }
-      },
-      "positions": {
-        "lees": 240,
-        "short": 148,
-        "scrum": 101,
-        "social-studies": 165
-      },
-      "actualPositions": {
-        "lees": 240,
-        "short": 148,
-        "scrum": 101,
-        "social-studies": 165
+        "social-studies": 164
       }
     },
     "01m18j8c3fqagby4exfngsgy0t": {
@@ -36248,16 +32971,16 @@ window.TOP_ARTICLE_PRIORITY = {
         }
       },
       "positions": {
-        "lees": 204,
+        "lees": 203,
         "short": 121,
-        "scrum": 94,
-        "social-studies": 151
+        "scrum": 95,
+        "social-studies": 146
       },
       "actualPositions": {
-        "lees": 204,
+        "lees": 203,
         "short": 121,
-        "scrum": 94,
-        "social-studies": 151
+        "scrum": 95,
+        "social-studies": 146
       }
     },
     "01m17hcyt40k1nn13p6cp7eyr9": {
@@ -36874,13 +33597,13 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees": 116,
         "short": 67,
         "scrum": 27,
-        "social-studies": 155
+        "social-studies": 150
       },
       "actualPositions": {
         "lees": 116,
         "short": 67,
         "scrum": 27,
-        "social-studies": 155
+        "social-studies": 150
       }
     },
     "01m13bydjdttq1jnhmnt13k22z": {
@@ -36976,11 +33699,11 @@ window.TOP_ARTICLE_PRIORITY = {
         }
       },
       "positions": {
-        "lees": 335,
+        "lees": 326,
         "luchtig": 91
       },
       "actualPositions": {
-        "lees": 335,
+        "lees": 326,
         "luchtig": 91
       }
     },
@@ -37251,12 +33974,12 @@ window.TOP_ARTICLE_PRIORITY = {
       "positions": {
         "video": 20,
         "luchtig": 89,
-        "social-studies": 257
+        "social-studies": 242
       },
       "actualPositions": {
         "video": 20,
         "luchtig": 89,
-        "social-studies": 257
+        "social-studies": 242
       }
     },
     "01m0zs70wqrf8nvkmrwzg9843y": {
@@ -37379,12 +34102,12 @@ window.TOP_ARTICLE_PRIORITY = {
         }
       },
       "positions": {
-        "lees": 229,
+        "lees": 228,
         "luchtig": 57,
         "adhd": 32
       },
       "actualPositions": {
-        "lees": 229,
+        "lees": 228,
         "luchtig": 57,
         "adhd": 32
       }
@@ -37641,16 +34364,16 @@ window.TOP_ARTICLE_PRIORITY = {
         }
       },
       "positions": {
-        "lees": 203,
+        "lees": 202,
         "short": 120,
-        "scrum": 58,
-        "social-studies": 196
+        "scrum": 59,
+        "social-studies": 189
       },
       "actualPositions": {
-        "lees": 203,
+        "lees": 202,
         "short": 120,
-        "scrum": 58,
-        "social-studies": 196
+        "scrum": 59,
+        "social-studies": 189
       }
     },
     "01m0yytgcbktcptzp46cf14p2x": {
@@ -37905,16 +34628,16 @@ window.TOP_ARTICLE_PRIORITY = {
         }
       },
       "positions": {
-        "lees": 202,
+        "lees": 201,
         "short": 119,
-        "scrum": 57,
-        "social-studies": 195
+        "scrum": 58,
+        "social-studies": 188
       },
       "actualPositions": {
-        "lees": 202,
+        "lees": 201,
         "short": 119,
-        "scrum": 57,
-        "social-studies": 195
+        "scrum": 58,
+        "social-studies": 188
       }
     },
     "01m0ps324qabpwbvdtsbnhmkw7": {
@@ -38048,18 +34771,18 @@ window.TOP_ARTICLE_PRIORITY = {
         }
       },
       "positions": {
-        "lees": 201,
+        "lees": 200,
         "short": 118,
         "luchtig": 54,
-        "scrum": 93,
-        "social-studies": 150
+        "scrum": 94,
+        "social-studies": 145
       },
       "actualPositions": {
-        "lees": 201,
+        "lees": 200,
         "short": 118,
         "luchtig": 54,
-        "scrum": 93,
-        "social-studies": 150
+        "scrum": 94,
+        "social-studies": 145
       }
     },
     "01m0pngvw1pq8s12ss8bgyz5hj": {
@@ -38174,136 +34897,14 @@ window.TOP_ARTICLE_PRIORITY = {
         }
       },
       "positions": {
-        "pdf": 15,
-        "scrum": 108,
-        "social-studies": 251
+        "pdf": 14,
+        "scrum": 107,
+        "social-studies": 236
       },
       "actualPositions": {
-        "pdf": 15,
-        "scrum": 108,
-        "social-studies": 251
-      }
-    },
-    "01m0pngsn5q8yqqrn2xq1w2hq5": {
-      "baseScore": 124,
-      "adjustment": 0,
-      "adjustmentReason": null,
-      "score": 124,
-      "tier": "hoog",
-      "components": {
-        "kerninteresse": 20,
-        "relevantie": 40,
-        "substantie": 24,
-        "duurzaamheid": 20,
-        "bruikbaarheid": 20,
-        "leeskans": 0,
-        "nederlandse_taal": 0,
-        "aftrek": 0
-      },
-      "rationale": {
-        "relevantie": [
-          "inhoudelijke relevantie uit de medium-confidence inhoudsbeoordeling.",
-          "Bewijs: semantic-review, independent-of-current-position, evidence:notes, interest:agile, interest:organizational-behavior."
-        ],
-        "substantie": [
-          "substantie uit de medium-confidence inhoudsbeoordeling."
-        ],
-        "duurzaamheid": [
-          "duurzaamheid uit de medium-confidence inhoudsbeoordeling."
-        ],
-        "bruikbaarheid": [
-          "bruikbaarheid uit de medium-confidence inhoudsbeoordeling."
-        ],
-        "leeskans": [],
-        "nederlandse_taal": [],
-        "aftrek": [],
-        "kerninteresse": [
-          "Agile: +20 (Agile, Agile, organisatiegedrag)."
-        ]
-      },
-      "judgmentSource": "label",
-      "judgmentConfidence": "medium",
-      "coreInterestMatches": [
-        {
-          "interest": "agile",
-          "evidence": [
-            {
-              "kind": "readwise-tag",
-              "source": "agile",
-              "label": "Agile"
-            },
-            {
-              "kind": "semantic-signal",
-              "source": "interest:agile",
-              "label": "Agile"
-            },
-            {
-              "kind": "semantic-signal",
-              "source": "interest:organizational-behavior",
-              "label": "organisatiegedrag"
-            }
-          ],
-          "qualityScore": 104,
-          "weight": 20
-        }
-      ],
-      "sequences": [
-        "lees",
-        "scrum",
-        "social-studies"
-      ],
-      "sequenceScores": {
-        "lees": {
-          "score": 124,
-          "tier": "hoog",
-          "mode": "global"
-        },
-        "scrum": {
-          "score": 114,
-          "tier": "hoog",
-          "mode": "topic",
-          "topicRelevance": 3,
-          "relevanceSource": "label",
-          "relevanceConfidence": "medium",
-          "components": {
-            "kerninteresse": 20,
-            "topic_relevantie": 3,
-            "substantie": 24,
-            "duurzaamheid": 20,
-            "bruikbaarheid": 20,
-            "leeskans": 0,
-            "nederlandse_taal": 0,
-            "aftrek": 0
-          }
-        },
-        "social-studies": {
-          "score": 104,
-          "tier": "hoog",
-          "mode": "topic",
-          "topicRelevance": 2,
-          "relevanceSource": "label",
-          "relevanceConfidence": "medium",
-          "components": {
-            "kerninteresse": 20,
-            "topic_relevantie": 2,
-            "substantie": 24,
-            "duurzaamheid": 20,
-            "bruikbaarheid": 20,
-            "leeskans": 0,
-            "nederlandse_taal": 0,
-            "aftrek": 0
-          }
-        }
-      },
-      "positions": {
-        "lees": 245,
-        "scrum": 102,
-        "social-studies": 224
-      },
-      "actualPositions": {
-        "lees": 245,
-        "scrum": 102,
-        "social-studies": 224
+        "pdf": 14,
+        "scrum": 107,
+        "social-studies": 236
       }
     },
     "01m0pj0hcdzk57dgqrhngd08xm": {
@@ -38425,12 +35026,12 @@ window.TOP_ARTICLE_PRIORITY = {
       "positions": {
         "lees": 128,
         "scrum": 49,
-        "social-studies": 101
+        "social-studies": 99
       },
       "actualPositions": {
         "lees": 128,
         "scrum": 49,
-        "social-studies": 101
+        "social-studies": 99
       }
     },
     "01m0phz82jsqawszgfebvkggxm": {
@@ -38574,13 +35175,13 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees": 86,
         "short": 55,
         "scrum": 18,
-        "social-studies": 97
+        "social-studies": 95
       },
       "actualPositions": {
         "lees": 86,
         "short": 55,
         "scrum": 18,
-        "social-studies": 97
+        "social-studies": 95
       }
     },
     "01m0phy17feth92cc2egjbpr9m": {
@@ -38708,16 +35309,16 @@ window.TOP_ARTICLE_PRIORITY = {
         }
       },
       "positions": {
-        "lees": 200,
+        "lees": 199,
         "short": 117,
-        "scrum": 56,
-        "social-studies": 149
+        "scrum": 57,
+        "social-studies": 144
       },
       "actualPositions": {
-        "lees": 200,
+        "lees": 199,
         "short": 117,
-        "scrum": 56,
-        "social-studies": 149
+        "scrum": 57,
+        "social-studies": 144
       }
     },
     "01m0nepq34v9hbtcm1z1rcjn1e": {
@@ -38919,13 +35520,13 @@ window.TOP_ARTICLE_PRIORITY = {
         }
       },
       "positions": {
-        "lees": 259,
-        "short": 162,
+        "lees": 256,
+        "short": 161,
         "luchtig": 64
       },
       "actualPositions": {
-        "lees": 259,
-        "short": 162,
+        "lees": 256,
+        "short": 161,
         "luchtig": 64
       }
     },
@@ -39023,11 +35624,11 @@ window.TOP_ARTICLE_PRIORITY = {
       },
       "positions": {
         "video": 10,
-        "social-studies": 223
+        "social-studies": 213
       },
       "actualPositions": {
         "video": 10,
-        "social-studies": 223
+        "social-studies": 213
       }
     },
     "01m0kzws6tp6edn1k4t1dmr1rq": {
@@ -39137,11 +35738,11 @@ window.TOP_ARTICLE_PRIORITY = {
       },
       "positions": {
         "video": 6,
-        "social-studies": 174
+        "social-studies": 168
       },
       "actualPositions": {
         "video": 6,
-        "social-studies": 174
+        "social-studies": 168
       }
     },
     "01m0kzwkwp6cjx5m2jn5stztex": {
@@ -39243,11 +35844,11 @@ window.TOP_ARTICLE_PRIORITY = {
       },
       "positions": {
         "video": 9,
-        "social-studies": 222
+        "social-studies": 212
       },
       "actualPositions": {
         "video": 9,
-        "social-studies": 222
+        "social-studies": 212
       }
     },
     "01m0kzvhp90e4w4ycfaqv26f31": {
@@ -39349,11 +35950,11 @@ window.TOP_ARTICLE_PRIORITY = {
       },
       "positions": {
         "video": 8,
-        "social-studies": 221
+        "social-studies": 211
       },
       "actualPositions": {
         "video": 8,
-        "social-studies": 221
+        "social-studies": 211
       }
     },
     "01m0kzvbj6t6crzagc9kw1n43f": {
@@ -39463,11 +36064,11 @@ window.TOP_ARTICLE_PRIORITY = {
       },
       "positions": {
         "video": 5,
-        "social-studies": 173
+        "social-studies": 167
       },
       "actualPositions": {
         "video": 5,
-        "social-studies": 173
+        "social-studies": 167
       }
     },
     "01m0kzv38gdmh51b4kzqg40mw9": {
@@ -39582,11 +36183,11 @@ window.TOP_ARTICLE_PRIORITY = {
       },
       "positions": {
         "video": 4,
-        "social-studies": 172
+        "social-studies": 166
       },
       "actualPositions": {
         "video": 4,
-        "social-studies": 172
+        "social-studies": 166
       }
     },
     "01m0kztthka4bcp3a2mfxww828": {
@@ -39683,11 +36284,11 @@ window.TOP_ARTICLE_PRIORITY = {
       },
       "positions": {
         "video": 7,
-        "social-studies": 246
+        "social-studies": 231
       },
       "actualPositions": {
         "video": 7,
-        "social-studies": 246
+        "social-studies": 231
       }
     },
     "01m0kztgwcc1d43t3sdahzhg08": {
@@ -39802,11 +36403,11 @@ window.TOP_ARTICLE_PRIORITY = {
       },
       "positions": {
         "video": 14,
-        "social-studies": 242
+        "social-studies": 227
       },
       "actualPositions": {
         "video": 14,
-        "social-studies": 242
+        "social-studies": 227
       }
     },
     "01m0kztar8p0q02aet41a6xn7w": {
@@ -39926,11 +36527,11 @@ window.TOP_ARTICLE_PRIORITY = {
       },
       "positions": {
         "video": 3,
-        "social-studies": 133
+        "social-studies": 129
       },
       "actualPositions": {
         "video": 3,
-        "social-studies": 133
+        "social-studies": 129
       }
     },
     "01m0f29337jsph1jwqq3njdbkc": {
@@ -40034,13 +36635,13 @@ window.TOP_ARTICLE_PRIORITY = {
         }
       },
       "positions": {
-        "lees": 285,
-        "short": 183,
+        "lees": 281,
+        "short": 181,
         "luchtig": 71
       },
       "actualPositions": {
-        "lees": 285,
-        "short": 183,
+        "lees": 281,
+        "short": 181,
         "luchtig": 71
       }
     },
@@ -40304,15 +36905,15 @@ window.TOP_ARTICLE_PRIORITY = {
         }
       },
       "positions": {
-        "lees": 199,
+        "lees": 198,
         "short": 116,
-        "social-studies": 113,
+        "social-studies": 110,
         "adhd": 27
       },
       "actualPositions": {
-        "lees": 199,
+        "lees": 198,
         "short": 116,
-        "social-studies": 113,
+        "social-studies": 110,
         "adhd": 27
       }
     },
@@ -40404,11 +37005,11 @@ window.TOP_ARTICLE_PRIORITY = {
         }
       },
       "positions": {
-        "lees": 326,
+        "lees": 318,
         "adhd": 36
       },
       "actualPositions": {
-        "lees": 326,
+        "lees": 318,
         "adhd": 36
       }
     },
@@ -40500,11 +37101,11 @@ window.TOP_ARTICLE_PRIORITY = {
         }
       },
       "positions": {
-        "lees": 311,
+        "lees": 303,
         "adhd": 35
       },
       "actualPositions": {
-        "lees": 311,
+        "lees": 303,
         "adhd": 35
       }
     },
@@ -40609,11 +37210,11 @@ window.TOP_ARTICLE_PRIORITY = {
         }
       },
       "positions": {
-        "lees": 307,
+        "lees": 299,
         "luchtig": 79
       },
       "actualPositions": {
-        "lees": 307,
+        "lees": 299,
         "luchtig": 79
       }
     },
@@ -40729,14 +37330,14 @@ window.TOP_ARTICLE_PRIORITY = {
         }
       },
       "positions": {
-        "lees": 239,
+        "lees": 238,
         "luchtig": 61,
-        "social-studies": 128
+        "social-studies": 124
       },
       "actualPositions": {
-        "lees": 239,
+        "lees": 238,
         "luchtig": 61,
-        "social-studies": 128
+        "social-studies": 124
       }
     },
     "01m059vn29v5bjn4nbhe0efecg": {
@@ -40874,12 +37475,12 @@ window.TOP_ARTICLE_PRIORITY = {
       "positions": {
         "lees": 168,
         "luchtig": 42,
-        "social-studies": 96
+        "social-studies": 94
       },
       "actualPositions": {
         "lees": 168,
         "luchtig": 42,
-        "social-studies": 96
+        "social-studies": 94
       }
     },
     "01m02v2mszvk3cjaw44d26cmvx": {
@@ -41458,12 +38059,12 @@ window.TOP_ARTICLE_PRIORITY = {
       },
       "positions": {
         "lees": 108,
-        "social-studies": 112,
+        "social-studies": 109,
         "adhd": 16
       },
       "actualPositions": {
         "lees": 108,
-        "social-studies": 112,
+        "social-studies": 109,
         "adhd": 16
       }
     },
@@ -41588,12 +38189,12 @@ window.TOP_ARTICLE_PRIORITY = {
       },
       "positions": {
         "lees": 78,
-        "social-studies": 72,
+        "social-studies": 71,
         "adhd": 9
       },
       "actualPositions": {
         "lees": 78,
-        "social-studies": 72,
+        "social-studies": 71,
         "adhd": 9
       }
     },
@@ -41703,12 +38304,12 @@ window.TOP_ARTICLE_PRIORITY = {
         }
       },
       "positions": {
-        "lees": 238,
-        "social-studies": 95
+        "lees": 237,
+        "social-studies": 93
       },
       "actualPositions": {
-        "lees": 238,
-        "social-studies": 95
+        "lees": 237,
+        "social-studies": 93
       }
     },
     "01kysfkm9jz6j3neya2h22rqsb": {
@@ -41960,12 +38561,12 @@ window.TOP_ARTICLE_PRIORITY = {
         }
       },
       "positions": {
-        "lees": 189,
-        "social-studies": 84
+        "lees": 188,
+        "social-studies": 83
       },
       "actualPositions": {
-        "lees": 189,
-        "social-studies": 84
+        "lees": 188,
+        "social-studies": 83
       }
     },
     "01kye6cwzsz29j9v1g53fzfy45": {
@@ -42217,13 +38818,13 @@ window.TOP_ARTICLE_PRIORITY = {
         }
       },
       "positions": {
-        "lees": 305,
-        "short": 196,
+        "lees": 297,
+        "short": 192,
         "luchtig": 76
       },
       "actualPositions": {
-        "lees": 305,
-        "short": 196,
+        "lees": 297,
+        "short": 192,
         "luchtig": 76
       }
     },
@@ -42455,12 +39056,12 @@ window.TOP_ARTICLE_PRIORITY = {
       "positions": {
         "lees": 124,
         "luchtig": 30,
-        "social-studies": 75
+        "social-studies": 74
       },
       "actualPositions": {
         "lees": 124,
         "luchtig": 30,
-        "social-studies": 75
+        "social-studies": 74
       }
     },
     "01ky7jr9fzhv4h5e988f76rxth": {
@@ -42589,13 +39190,13 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees": 154,
         "short": 88,
         "luchtig": 38,
-        "social-studies": 124
+        "social-studies": 121
       },
       "actualPositions": {
         "lees": 154,
         "short": 88,
         "luchtig": 38,
-        "social-studies": 124
+        "social-studies": 121
       }
     },
     "01ky6y1g55qsprt9r2h4jm394c": {
@@ -42726,16 +39327,16 @@ window.TOP_ARTICLE_PRIORITY = {
         }
       },
       "positions": {
-        "lees": 188,
+        "lees": 187,
         "short": 105,
         "luchtig": 52,
-        "social-studies": 110
+        "social-studies": 107
       },
       "actualPositions": {
-        "lees": 188,
+        "lees": 187,
         "short": 105,
         "luchtig": 52,
-        "social-studies": 110
+        "social-studies": 107
       }
     },
     "01kxy1qnae4npandc4x9mv4aw0": {
@@ -42940,13 +39541,13 @@ window.TOP_ARTICLE_PRIORITY = {
         }
       },
       "positions": {
-        "lees": 334,
-        "short": 219,
+        "lees": 325,
+        "short": 212,
         "luchtig": 90
       },
       "actualPositions": {
-        "lees": 334,
-        "short": 219,
+        "lees": 325,
+        "short": 212,
         "luchtig": 90
       }
     },
@@ -43988,16 +40589,16 @@ window.TOP_ARTICLE_PRIORITY = {
         }
       },
       "positions": {
-        "lees": 198,
+        "lees": 197,
         "short": 115,
-        "scrum": 55,
-        "social-studies": 148
+        "scrum": 56,
+        "social-studies": 143
       },
       "actualPositions": {
-        "lees": 198,
+        "lees": 197,
         "short": 115,
-        "scrum": 55,
-        "social-studies": 148
+        "scrum": 56,
+        "social-studies": 143
       }
     },
     "01kwgtzbakxnx83f8txktj9t89": {
@@ -44257,16 +40858,16 @@ window.TOP_ARTICLE_PRIORITY = {
         }
       },
       "positions": {
-        "lees": 232,
-        "short": 153,
+        "lees": 231,
+        "short": 152,
         "scrum": 48,
-        "social-studies": 132
+        "social-studies": 128
       },
       "actualPositions": {
-        "lees": 232,
-        "short": 153,
+        "lees": 231,
+        "short": 152,
         "scrum": 48,
-        "social-studies": 132
+        "social-studies": 128
       }
     },
     "01kwexpevqvsnw5chhvec7vdc7": {
@@ -44396,14 +40997,14 @@ window.TOP_ARTICLE_PRIORITY = {
         }
       },
       "positions": {
-        "lees": 262,
-        "scrum": 92,
-        "social-studies": 194
+        "lees": 259,
+        "scrum": 93,
+        "social-studies": 187
       },
       "actualPositions": {
-        "lees": 262,
-        "scrum": 92,
-        "social-studies": 194
+        "lees": 259,
+        "scrum": 93,
+        "social-studies": 187
       }
     },
     "01kweww7axmq58ekx96xkj02jk": {
@@ -44523,14 +41124,14 @@ window.TOP_ARTICLE_PRIORITY = {
         }
       },
       "positions": {
-        "lees": 261,
-        "scrum": 91,
-        "social-studies": 233
+        "lees": 258,
+        "scrum": 92,
+        "social-studies": 220
       },
       "actualPositions": {
-        "lees": 261,
-        "scrum": 91,
-        "social-studies": 233
+        "lees": 258,
+        "scrum": 92,
+        "social-studies": 220
       }
     },
     "01kwaadj8686tk3pzbr7wd9axw": {
@@ -45148,15 +41749,15 @@ window.TOP_ARTICLE_PRIORITY = {
         }
       },
       "positions": {
-        "lees": 228,
-        "short": 150,
-        "social-studies": 169,
+        "lees": 227,
+        "short": 149,
+        "social-studies": 163,
         "adhd": 29
       },
       "actualPositions": {
-        "lees": 228,
-        "short": 150,
-        "social-studies": 169,
+        "lees": 227,
+        "short": 149,
+        "social-studies": 163,
         "adhd": 29
       }
     },
@@ -45428,16 +42029,16 @@ window.TOP_ARTICLE_PRIORITY = {
         }
       },
       "positions": {
-        "lees": 181,
+        "lees": 180,
         "short": 114,
-        "scrum": 54,
-        "social-studies": 193
+        "scrum": 55,
+        "social-studies": 186
       },
       "actualPositions": {
-        "lees": 181,
+        "lees": 180,
         "short": 114,
-        "scrum": 54,
-        "social-studies": 193
+        "scrum": 55,
+        "social-studies": 186
       }
     },
     "01ktnkd8gctpytce8pvke8za97": {
@@ -45810,11 +42411,11 @@ window.TOP_ARTICLE_PRIORITY = {
         }
       },
       "positions": {
-        "lees": 237,
+        "lees": 236,
         "luchtig": 67
       },
       "actualPositions": {
-        "lees": 237,
+        "lees": 236,
         "luchtig": 67
       }
     },
@@ -46422,15 +43023,15 @@ window.TOP_ARTICLE_PRIORITY = {
         }
       },
       "positions": {
-        "lees": 270,
-        "short": 170,
-        "social-studies": 252,
+        "lees": 267,
+        "short": 168,
+        "social-studies": 237,
         "adhd": 33
       },
       "actualPositions": {
-        "lees": 270,
-        "short": 170,
-        "social-studies": 252,
+        "lees": 267,
+        "short": 168,
+        "social-studies": 237,
         "adhd": 33
       }
     },
@@ -46645,13 +43246,13 @@ window.TOP_ARTICLE_PRIORITY = {
         }
       },
       "positions": {
-        "lees": 193,
+        "lees": 192,
         "short": 145,
         "luchtig": 59,
         "adhd": 28
       },
       "actualPositions": {
-        "lees": 193,
+        "lees": 192,
         "short": 145,
         "luchtig": 59,
         "adhd": 28
@@ -46787,13 +43388,13 @@ window.TOP_ARTICLE_PRIORITY = {
       "positions": {
         "lees": 144,
         "short": 89,
-        "social-studies": 216,
+        "social-studies": 206,
         "adhd": 23
       },
       "actualPositions": {
         "lees": 144,
         "short": 89,
-        "social-studies": 216,
+        "social-studies": 206,
         "adhd": 23
       }
     },
@@ -47379,12 +43980,12 @@ window.TOP_ARTICLE_PRIORITY = {
       "positions": {
         "lees": 20,
         "short": 17,
-        "social-studies": 74
+        "social-studies": 73
       },
       "actualPositions": {
         "lees": 20,
         "short": 17,
-        "social-studies": 74
+        "social-studies": 73
       }
     },
     "01krqmh4tqphysje012p59hxec": {
@@ -47677,12 +44278,12 @@ window.TOP_ARTICLE_PRIORITY = {
         }
       },
       "positions": {
-        "lees": 178,
-        "software-development": 41
+        "lees": 177,
+        "software-development": 39
       },
       "actualPositions": {
-        "lees": 178,
-        "software-development": 41
+        "lees": 177,
+        "software-development": 39
       }
     },
     "01krm5d32nfhsa44jvbq4s6nny": {
@@ -48023,12 +44624,12 @@ window.TOP_ARTICLE_PRIORITY = {
       "positions": {
         "lees": 38,
         "short": 33,
-        "software-development": 45
+        "software-development": 43
       },
       "actualPositions": {
         "lees": 38,
         "short": 33,
-        "software-development": 45
+        "software-development": 43
       }
     },
     "01kqn2zjmevdr865h4ah7q46ca": {
@@ -48235,12 +44836,12 @@ window.TOP_ARTICLE_PRIORITY = {
       "positions": {
         "lees": 167,
         "short": 110,
-        "software-development": 27
+        "software-development": 25
       },
       "actualPositions": {
         "lees": 167,
         "short": 110,
-        "software-development": 27
+        "software-development": 25
       }
     },
     "01kn4c4mv24kk2vjxqcn0y6efj": {
@@ -48788,11 +45389,11 @@ window.TOP_ARTICLE_PRIORITY = {
       },
       "positions": {
         "video": 12,
-        "social-studies": 171
+        "social-studies": 165
       },
       "actualPositions": {
         "video": 12,
-        "social-studies": 171
+        "social-studies": 165
       }
     },
     "01kkh0xtww0ex0apwdnpkatc8s": {
@@ -48929,18 +45530,18 @@ window.TOP_ARTICLE_PRIORITY = {
         }
       },
       "positions": {
-        "lees": 260,
-        "short": 174,
+        "lees": 257,
+        "short": 172,
         "luchtig": 70,
-        "scrum": 107,
-        "social-studies": 232
+        "scrum": 106,
+        "social-studies": 219
       },
       "actualPositions": {
-        "lees": 260,
-        "short": 174,
+        "lees": 257,
+        "short": 172,
         "luchtig": 70,
-        "scrum": 107,
-        "social-studies": 232
+        "scrum": 106,
+        "social-studies": 219
       }
     },
     "01kj5a1mnca55881qyj3jzm64b": {
@@ -49049,11 +45650,11 @@ window.TOP_ARTICLE_PRIORITY = {
         }
       },
       "positions": {
-        "lees": 192,
+        "lees": 191,
         "luchtig": 58
       },
       "actualPositions": {
-        "lees": 192,
+        "lees": 191,
         "luchtig": 58
       }
     },
@@ -49177,16 +45778,16 @@ window.TOP_ARTICLE_PRIORITY = {
         }
       },
       "positions": {
-        "lees": 274,
-        "short": 163,
-        "software-development": 92,
-        "social-studies": 253
+        "lees": 271,
+        "short": 162,
+        "software-development": 82,
+        "social-studies": 238
       },
       "actualPositions": {
-        "lees": 274,
-        "short": 163,
-        "software-development": 92,
-        "social-studies": 253
+        "lees": 271,
+        "short": 162,
+        "software-development": 82,
+        "social-studies": 238
       }
     },
     "01kj585kpp3a99w8fhgx6mvx1v": {
@@ -49309,16 +45910,16 @@ window.TOP_ARTICLE_PRIORITY = {
         }
       },
       "positions": {
-        "lees": 231,
+        "lees": 230,
         "short": 109,
-        "software-development": 71,
-        "social-studies": 245
+        "software-development": 66,
+        "social-studies": 230
       },
       "actualPositions": {
-        "lees": 231,
+        "lees": 230,
         "short": 109,
-        "software-development": 71,
-        "social-studies": 245
+        "software-development": 66,
+        "social-studies": 230
       }
     },
     "01khxyazzfph3etb69en1bhzgw": {
@@ -49541,12 +46142,12 @@ window.TOP_ARTICLE_PRIORITY = {
       "positions": {
         "lees": 45,
         "luchtig": 11,
-        "social-studies": 77
+        "social-studies": 76
       },
       "actualPositions": {
         "lees": 45,
         "luchtig": 11,
-        "social-studies": 77
+        "social-studies": 76
       }
     },
     "01khhj0gfcm7c1qkmdqwpc0375": {
@@ -49646,11 +46247,11 @@ window.TOP_ARTICLE_PRIORITY = {
       },
       "positions": {
         "video": 18,
-        "social-studies": 244
+        "social-studies": 229
       },
       "actualPositions": {
         "video": 18,
-        "social-studies": 244
+        "social-studies": 229
       }
     },
     "01kh225h5t6y7800yd56j6mrkk": {
@@ -49772,12 +46373,12 @@ window.TOP_ARTICLE_PRIORITY = {
       "positions": {
         "lees": 123,
         "short": 80,
-        "software-development": 54
+        "software-development": 51
       },
       "actualPositions": {
         "lees": 123,
         "short": 80,
-        "software-development": 54
+        "software-development": 51
       }
     },
     "01kh1ypdtsb1f1nafttcy8qdmn": {
@@ -49869,11 +46470,11 @@ window.TOP_ARTICLE_PRIORITY = {
       },
       "positions": {
         "lees": 126,
-        "software-development": 14
+        "software-development": 13
       },
       "actualPositions": {
         "lees": 126,
-        "software-development": 14
+        "software-development": 13
       }
     },
     "01kgdfpy0f0pts3sax7x38mdqc": {
@@ -50050,12 +46651,12 @@ window.TOP_ARTICLE_PRIORITY = {
       "positions": {
         "video": 13,
         "luchtig": 82,
-        "software-development": 78
+        "software-development": 73
       },
       "actualPositions": {
         "video": 13,
         "luchtig": 82,
-        "software-development": 78
+        "software-development": 73
       }
     },
     "01kg2bfknxdbdtasxyva7fdma3": {
@@ -50279,11 +46880,11 @@ window.TOP_ARTICLE_PRIORITY = {
       },
       "positions": {
         "video": 16,
-        "software-development": 90
+        "software-development": 80
       },
       "actualPositions": {
         "video": 16,
-        "software-development": 90
+        "software-development": 80
       }
     },
     "01kfb2gw90wdpy96gedqddd1kd": {
@@ -50379,12 +46980,12 @@ window.TOP_ARTICLE_PRIORITY = {
       "positions": {
         "lees": 166,
         "short": 108,
-        "software-development": 26
+        "software-development": 24
       },
       "actualPositions": {
         "lees": 166,
         "short": 108,
-        "software-development": 26
+        "software-development": 24
       }
     },
     "01kf916mwdxkdydep3wwes334d": {
@@ -50598,11 +47199,11 @@ window.TOP_ARTICLE_PRIORITY = {
       },
       "positions": {
         "lees": 106,
-        "software-development": 39
+        "software-development": 37
       },
       "actualPositions": {
         "lees": 106,
-        "software-development": 39
+        "software-development": 37
       }
     },
     "01keqeq7nyxjpnsd031e66kmej": {
@@ -51046,11 +47647,11 @@ window.TOP_ARTICLE_PRIORITY = {
       },
       "positions": {
         "lees": 107,
-        "software-development": 70
+        "software-development": 65
       },
       "actualPositions": {
         "lees": 107,
-        "software-development": 70
+        "software-development": 65
       }
     },
     "01ke5cgfb9zdye2wftpg1spje5": {
@@ -51137,11 +47738,11 @@ window.TOP_ARTICLE_PRIORITY = {
       },
       "positions": {
         "video": 26,
-        "social-studies": 263
+        "social-studies": 248
       },
       "actualPositions": {
         "video": 26,
-        "social-studies": 263
+        "social-studies": 248
       }
     },
     "01kd1canjswg2k0ey5cgtz3fa4": {
@@ -51238,11 +47839,11 @@ window.TOP_ARTICLE_PRIORITY = {
       },
       "positions": {
         "pdf": 7,
-        "software-development": 100
+        "software-development": 90
       },
       "actualPositions": {
         "pdf": 7,
-        "software-development": 100
+        "software-development": 90
       }
     },
     "01kchxs5s6y615eazs4hhqgm7h": {
@@ -52100,13 +48701,13 @@ window.TOP_ARTICLE_PRIORITY = {
       },
       "positions": {
         "video": 25,
-        "luchtig": 108,
-        "social-studies": 262
+        "luchtig": 105,
+        "social-studies": 247
       },
       "actualPositions": {
         "video": 25,
-        "luchtig": 108,
-        "social-studies": 262
+        "luchtig": 105,
+        "social-studies": 247
       }
     },
     "01kbdvvwhgdyvavjfx3ey7ysak": {
@@ -52212,13 +48813,13 @@ window.TOP_ARTICLE_PRIORITY = {
       },
       "positions": {
         "lees": 125,
-        "software-development": 13,
-        "social-studies": 192
+        "software-development": 12,
+        "social-studies": 185
       },
       "actualPositions": {
         "lees": 125,
-        "software-development": 13,
-        "social-studies": 192
+        "software-development": 12,
+        "social-studies": 185
       }
     },
     "01k9p5pa1athkkdm2j2nxfhf26": {
@@ -52461,13 +49062,13 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees": 153,
         "short": 86,
         "luchtig": 36,
-        "social-studies": 71
+        "social-studies": 70
       },
       "actualPositions": {
         "lees": 153,
         "short": 86,
         "luchtig": 36,
-        "social-studies": 71
+        "social-studies": 70
       }
     },
     "01k8czw4rtn870ryh0r9ky5emj": {
@@ -52593,16 +49194,16 @@ window.TOP_ARTICLE_PRIORITY = {
         }
       },
       "positions": {
-        "lees": 313,
-        "short": 201,
+        "lees": 305,
+        "short": 196,
         "luchtig": 84,
-        "social-studies": 191
+        "social-studies": 184
       },
       "actualPositions": {
-        "lees": 313,
-        "short": 201,
+        "lees": 305,
+        "short": 196,
         "luchtig": 84,
-        "social-studies": 191
+        "social-studies": 184
       }
     },
     "01k8982yc86fjcjhr0h7yctwh2": {
@@ -52831,11 +49432,11 @@ window.TOP_ARTICLE_PRIORITY = {
       },
       "positions": {
         "lees": 33,
-        "software-development": 11
+        "software-development": 10
       },
       "actualPositions": {
         "lees": 33,
-        "software-development": 11
+        "software-development": 10
       }
     },
     "01k7shq7r399ekxt6pavj3t3aa": {
@@ -53479,12 +50080,12 @@ window.TOP_ARTICLE_PRIORITY = {
       },
       "positions": {
         "lees": 90,
-        "software-development": 46,
+        "software-development": 44,
         "social-studies": 28
       },
       "actualPositions": {
         "lees": 90,
-        "software-development": 46,
+        "software-development": 44,
         "social-studies": 28
       }
     },
@@ -53706,14 +50307,14 @@ window.TOP_ARTICLE_PRIORITY = {
         }
       },
       "positions": {
-        "lees": 230,
-        "software-development": 40,
-        "social-studies": 162
+        "lees": 229,
+        "software-development": 38,
+        "social-studies": 157
       },
       "actualPositions": {
-        "lees": 230,
-        "software-development": 40,
-        "social-studies": 162
+        "lees": 229,
+        "software-development": 38,
+        "social-studies": 157
       }
     },
     "01k6c63we3f9ftg7xqkj272e01": {
@@ -53823,11 +50424,11 @@ window.TOP_ARTICLE_PRIORITY = {
       },
       "positions": {
         "pdf": 6,
-        "social-studies": 183
+        "social-studies": 176
       },
       "actualPositions": {
         "pdf": 6,
-        "social-studies": 183
+        "social-studies": 176
       }
     },
     "01k5r4d6q3vkqnk8tn09k2eqrd": {
@@ -54339,11 +50940,11 @@ window.TOP_ARTICLE_PRIORITY = {
         }
       },
       "positions": {
-        "lees": 191,
+        "lees": 190,
         "adhd": 26
       },
       "actualPositions": {
-        "lees": 191,
+        "lees": 190,
         "adhd": 26
       }
     },
@@ -54601,11 +51202,11 @@ window.TOP_ARTICLE_PRIORITY = {
         }
       },
       "positions": {
-        "lees": 236,
+        "lees": 235,
         "luchtig": 60
       },
       "actualPositions": {
-        "lees": 236,
+        "lees": 235,
         "luchtig": 60
       }
     },
@@ -54693,11 +51294,11 @@ window.TOP_ARTICLE_PRIORITY = {
       },
       "positions": {
         "video": 22,
-        "social-studies": 260
+        "social-studies": 245
       },
       "actualPositions": {
         "video": 22,
-        "social-studies": 260
+        "social-studies": 245
       }
     },
     "01k04hd67cscrapj1n35btr6tg": {
@@ -54999,14 +51600,14 @@ window.TOP_ARTICLE_PRIORITY = {
         }
       },
       "positions": {
-        "lees": 187,
-        "software-development": 98,
-        "social-studies": 142
+        "lees": 186,
+        "software-development": 88,
+        "social-studies": 137
       },
       "actualPositions": {
-        "lees": 187,
-        "software-development": 98,
-        "social-studies": 142
+        "lees": 186,
+        "software-development": 88,
+        "social-studies": 137
       }
     },
     "01jkh2w2capy38f589kqkvyt4s": {
@@ -56298,107 +52899,6 @@ window.TOP_ARTICLE_PRIORITY = {
       },
       "actualPositions": {
         "boek": 8
-      }
-    },
-    "01j421m304fbn5rwfh0a9bpzp3": {
-      "baseScore": 84,
-      "adjustment": 0,
-      "adjustmentReason": null,
-      "score": 84,
-      "tier": "hoog",
-      "components": {
-        "kerninteresse": 18,
-        "relevantie": 20,
-        "substantie": 16,
-        "duurzaamheid": 15,
-        "bruikbaarheid": 10,
-        "leeskans": 5,
-        "nederlandse_taal": 0,
-        "aftrek": 0
-      },
-      "rationale": {
-        "relevantie": [
-          "inhoudelijke relevantie uit de low-confidence inhoudsbeoordeling.",
-          "Bewijs: semantic-review, independent-of-current-position, evidence:introduction, interest:behavioral-psychology."
-        ],
-        "substantie": [
-          "substantie uit de low-confidence inhoudsbeoordeling."
-        ],
-        "duurzaamheid": [
-          "duurzaamheid uit de low-confidence inhoudsbeoordeling."
-        ],
-        "bruikbaarheid": [
-          "bruikbaarheid uit de low-confidence inhoudsbeoordeling."
-        ],
-        "leeskans": [
-          "leeskans uit de low-confidence inhoudsbeoordeling."
-        ],
-        "nederlandse_taal": [],
-        "aftrek": [],
-        "kerninteresse": [
-          "Sociologie: +10 (gedragspsychologie).",
-          "Schrijven: +8 (Writing & Essays)."
-        ]
-      },
-      "judgmentSource": "label",
-      "judgmentConfidence": "low",
-      "coreInterestMatches": [
-        {
-          "interest": "sociologie",
-          "evidence": [
-            {
-              "kind": "semantic-signal",
-              "source": "interest:behavioral-psychology",
-              "label": "gedragspsychologie"
-            }
-          ],
-          "qualityScore": 61,
-          "weight": 10
-        },
-        {
-          "interest": "schrijven",
-          "evidence": [
-            {
-              "kind": "readwise-tag",
-              "source": "writing & essays",
-              "label": "Writing & Essays"
-            }
-          ],
-          "qualityScore": 61,
-          "weight": 8
-        }
-      ],
-      "sequences": [
-        "lees",
-        "short",
-        "luchtig"
-      ],
-      "sequenceScores": {
-        "lees": {
-          "score": 84,
-          "tier": "hoog",
-          "mode": "global"
-        },
-        "short": {
-          "score": 84,
-          "tier": "hoog",
-          "mode": "global"
-        },
-        "luchtig": {
-          "score": 84,
-          "tier": "hoog",
-          "mode": "global"
-        }
-      },
-      "positions": {
-        "lees": 365,
-        "short": 241,
-        "luchtig": 103
-      },
-      "actualPositions": {
-        "lees": 365,
-        "short": 241,
-        "luchtig": 103
       }
     },
     "01j3xagwbegqfdev85fvd1v6f7": {
@@ -59853,13 +56353,13 @@ window.TOP_ARTICLE_PRIORITY = {
         "lees": 164,
         "short": 96,
         "luchtig": 41,
-        "social-studies": 127
+        "social-studies": 123
       },
       "actualPositions": {
         "lees": 164,
         "short": 96,
         "luchtig": 41,
-        "social-studies": 127
+        "social-studies": 123
       }
     },
     "01hzhvw6ytx5jnvzs4ppx7zc38": {
