@@ -5,6 +5,7 @@ import { matchedDomainsFromTags } from "./readwise-priority-v2.js";
 import { SEQUENCE_ORDER, TOPIC_SEQUENCE_ORDER } from "./priority-sequences.js";
 import type { PrioritySequence, TopicSequence } from "./priority-sequences.js";
 import { fallbackTopicRelevanceFor } from "./priority-topic-taxonomy.js";
+import { splitReadingFeedback } from "./reader-notes.js";
 
 export type ContentRating = 0 | 1 | 2 | 3 | 4;
 export type JudgmentConfidence = "high" | "medium" | "low";
@@ -45,6 +46,7 @@ export interface PriorityDocumentEvidence {
 export interface ContentJudgment {
   sourceFingerprint: string;
   evidenceFingerprint?: string;
+  feedbackFingerprint?: string;
   relevance: ContentRating;
   substance: ContentRating;
   durability: ContentRating;
@@ -133,12 +135,32 @@ function positionTagsFor(doc: PriorityDocument): string[] {
   return tagNames(doc).filter(isPositionTag).sort((a, b) => a.localeCompare(b));
 }
 
-function canonicalInput(doc: PriorityDocument, tags = contentTagsFor(doc)): Record<string, unknown> {
+function contentNotesForEvidence(notes: string | null | undefined): string | null {
+  return splitReadingFeedback(notes).contentNotes?.trimEnd() || null;
+}
+
+// Before feedback existed, hashes included empty notes and trailing whitespace verbatim.
+// The whitespace before Feedback: can be either old content or its new separator.
+function legacyNoteVariants(notes: string | null | undefined): (string | null)[] {
+  if (!notes) {return [notes ?? null];}
+  const marker = /^[\t ]*Feedback:/im.exec(notes);
+  if (!marker) {return [notes];}
+  let prefix = notes.slice(0, marker.index);
+  const variants: (string | null)[] = [prefix];
+  while (/\s$/.test(prefix)) {
+    prefix = prefix.slice(0, -1);
+    variants.push(prefix);
+  }
+  if (!prefix) {variants.push(null);}
+  return variants;
+}
+
+function canonicalInput(doc: PriorityDocument, tags = contentTagsFor(doc), notes = contentNotesForEvidence(doc.notes)): Record<string, unknown> {
   return {
     id: doc.id ?? null,
     title: doc.title ?? null,
     summary: doc.summary ?? null,
-    notes: doc.notes ?? null,
+    notes,
     language: doc.language ?? null,
     reading_time: doc.reading_time ?? null,
     word_count: doc.word_count ?? null,
@@ -152,8 +174,15 @@ export function judgmentSourceFingerprint(doc: PriorityDocument): string {
   return createHash("sha256").update(JSON.stringify(canonicalInput(doc))).digest("hex");
 }
 
-function legacyJudgmentSourceFingerprint(doc: PriorityDocument): string {
-  return createHash("sha256").update(JSON.stringify(canonicalInput(doc, legacyContentTagsFor(doc)))).digest("hex");
+export function judgmentMatchesSource(doc: PriorityDocument, judgment: Pick<ContentJudgment, "sourceFingerprint">): boolean {
+  if (judgment.sourceFingerprint === judgmentSourceFingerprint(doc)) {return true;}
+  for (const tags of [contentTagsFor(doc), legacyContentTagsFor(doc)]) {
+    for (const notes of legacyNoteVariants(doc.notes)) {
+      const fingerprint = createHash("sha256").update(JSON.stringify(canonicalInput(doc, tags, notes))).digest("hex");
+      if (judgment.sourceFingerprint === fingerprint) {return true;}
+    }
+  }
+  return false;
 }
 
 function highlightRecord(value: unknown): PriorityHighlight | null {
@@ -191,12 +220,12 @@ function normalizeHighlights(rawHighlights: readonly unknown[]): PriorityHighlig
   });
 }
 
-export function evidenceFingerprint(evidence: Pick<PriorityDocumentEvidence, "documentId" | "title" | "summary" | "notes" | "contentTags" | "highlights">): string {
+function fingerprintEvidenceNotes(evidence: Pick<PriorityDocumentEvidence, "documentId" | "title" | "summary" | "notes" | "contentTags" | "highlights">, notes: string | null): string {
   const canonical = {
     documentId: evidence.documentId,
     title: evidence.title,
     summary: evidence.summary,
-    notes: evidence.notes,
+    notes,
     contentTags: [...evidence.contentTags].sort(),
     highlights: evidence.highlights.map((highlight) => ({
       text: normalize(highlight.text),
@@ -205,6 +234,16 @@ export function evidenceFingerprint(evidence: Pick<PriorityDocumentEvidence, "do
     })).sort((a, b) => JSON.stringify(a).localeCompare(JSON.stringify(b))),
   };
   return createHash("sha256").update(JSON.stringify(canonical)).digest("hex");
+}
+
+export function evidenceFingerprint(evidence: Pick<PriorityDocumentEvidence, "documentId" | "title" | "summary" | "notes" | "contentTags" | "highlights">): string {
+  return fingerprintEvidenceNotes(evidence, contentNotesForEvidence(evidence.notes));
+}
+
+export function judgmentMatchesEvidence(doc: PriorityDocument, evidence: PriorityDocumentEvidence, judgment: ContentJudgment): boolean {
+  if (!judgmentMatchesSource(doc, evidence) || !judgmentMatchesSource(doc, judgment)) {return false;}
+  const fingerprints = new Set([evidenceFingerprint(evidence), ...legacyNoteVariants(doc.notes).map((notes) => fingerprintEvidenceNotes(evidence, notes))]);
+  return fingerprints.has(evidence.evidenceFingerprint) && judgment.evidenceFingerprint !== undefined && fingerprints.has(judgment.evidenceFingerprint);
 }
 
 export function buildPriorityEvidence(
@@ -219,7 +258,7 @@ export function buildPriorityEvidence(
     category: doc.category ?? null,
     language: doc.language ?? null,
     summary: doc.summary ?? null,
-    notes: doc.notes ?? null,
+    notes: contentNotesForEvidence(doc.notes),
     contentTags: contentTagsFor(doc),
     curationSignals: curationSignalsFor(doc),
     positionTagsExcluded: positionTagsFor(doc),
@@ -236,7 +275,7 @@ export function buildPriorityEvidence(
 }
 
 function textFor(doc: PriorityDocument): string {
-  return normalize([doc.title, doc.summary, doc.notes].filter(Boolean).join(" "));
+  return normalize([doc.title, doc.summary, splitReadingFeedback(doc.notes).contentNotes].filter(Boolean).join(" "));
 }
 
 function hasMarker(text: string, markers: readonly string[]): boolean {
@@ -341,6 +380,7 @@ export function validateContentJudgment(value: unknown): value is ContentJudgmen
   if (Object.hasOwn(value, "highlights")) {return false;}
   if (value.status !== undefined && value.status !== "accepted" && value.status !== "draft" && value.status !== "rejected") {return false;}
   if (value.evidenceFingerprint !== undefined && (typeof value.evidenceFingerprint !== "string" || !/^[a-f0-9]{64}$/.test(value.evidenceFingerprint))) {return false;}
+  if (value.feedbackFingerprint !== undefined && (typeof value.feedbackFingerprint !== "string" || !/^[a-f0-9]{64}$/.test(value.feedbackFingerprint))) {return false;}
   if (value.evidenceRefs !== undefined && (!Array.isArray(value.evidenceRefs) || !value.evidenceRefs.every((ref) => typeof ref === "string" && ref.length > 0))) {return false;}
   return true;
 }
@@ -390,7 +430,7 @@ export function judgmentFor(
     : judgments;
   const candidate = doc.id ? items[doc.id] : undefined;
   if (candidate && validateContentJudgment(candidate) && candidate.status === "accepted" &&
-      [judgmentSourceFingerprint(doc), legacyJudgmentSourceFingerprint(doc)].includes(candidate.sourceFingerprint)) {
+      judgmentMatchesSource(doc, candidate)) {
     return { judgment: candidate, source: candidate.judgedBy === AUTOMATED_FALLBACK_JUDGER ? "fallback" : "label" };
   }
   return { judgment: fallbackJudgment(doc), source: "fallback" };

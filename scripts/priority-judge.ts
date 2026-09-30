@@ -14,11 +14,13 @@ import { validatePriorityJudgments, type PriorityJudgmentsConfig } from "./lib/p
 import { buildPriorityComparisonReport } from "./lib/priority-report.js";
 import { validateCoreInterestPriorityConfig } from "./lib/core-interest-priority.js";
 import type { CoreInterestPriorityConfig } from "./lib/core-interest-priority.js";
+import { prepareReadingFeedback } from "./lib/reading-feedback.js";
 
 const execFileAsync = promisify(execFile);
 const ROOT = resolve(dirname(fileURLToPath(import.meta.url)), "../..");
 const JUDGMENTS_FILE = resolve(ROOT, "config/readwise-priority-judgments.json");
 const CORE_INTEREST_FILE = resolve(ROOT, "config/readwise-core-interest-priorities.json");
+const READING_PREFERENCES_FILE = resolve(ROOT, "config/readwise-reading-preferences.md");
 const DEFAULT_EVIDENCE_FILE = resolve(ROOT, ".tmp/readwise/priority-evidence.json");
 const DEFAULT_BATCH_DIR = resolve(ROOT, ".tmp/readwise/priority-judgment-batches");
 const RESPONSE_FIELDS = "title,summary,word_count,reading_time,published_date,saved_at,category,tags,notes,location";
@@ -124,6 +126,7 @@ async function readEvidence(path = DEFAULT_EVIDENCE_FILE): Promise<PriorityEvide
 }
 
 async function prepareCommand(): Promise<void> {
+  const readingPreferences = await readFile(READING_PREFERENCES_FILE, "utf8");
   const selection = selectionArgument();
   const documents = await fetchLater();
   const candidates = selection === "all-later" ? documents : documents.filter((doc) => {
@@ -149,13 +152,29 @@ async function prepareCommand(): Promise<void> {
       version: 1,
       rubricVersion: "semantic-v2",
       selection,
-      instruction: "Beoordeel elk document onafhankelijk van huidige Readwise-posities. Vul de bestaande vier scores én topicRelevance (0–4) in voor scrum, software-development, front-end-development, social-studies en adhd.",
+      instruction: "Lees en gebruik readingPreferences bij elke inhoudelijke beoordeling. Beoordeel elk document onafhankelijk van huidige Readwise-posities. Vul de bestaande vier scores én topicRelevance (0–4) in voor scrum, software-development, front-end-development, social-studies en adhd.",
+      readingPreferences,
       documents: batch,
     });
   }
   console.log(`Evidence voorbereid voor ${String(Object.keys(snapshot.documents).length)} documenten in ${String(batches.length)} batches.`);
   console.log(`Evidence: ${evidencePath}`);
   console.log(`Batches: ${batchDir}`);
+}
+
+async function prepareFeedbackCommand(): Promise<void> {
+  const documentId = option("--document-id");
+  if (process.argv.includes("--document-id") && (!documentId || documentId.startsWith("--"))) {
+    throw new Error("--document-id vereist een document-ID");
+  }
+  const config = await readConfig();
+  const readingPreferences = await readFile(READING_PREFERENCES_FILE, "utf8");
+  const review = await prepareReadingFeedback(runReadwise, config, readingPreferences, documentId ?? undefined);
+  // Feedback is private evidence, never a tracked config or public browser export.
+  const path = await writeJson(resolve(ROOT, ".tmp/readwise/reading-feedback.json"), review);
+  console.log(`Leesfeedback: ${String(review.documents.filter((entry) => entry.status === "pending").length)} te beoordelen, ${String(review.documents.filter((entry) => entry.status === "reviewed").length)} al verwerkt.`);
+  console.log(`Privé evidence: ${path}`);
+  console.log("Bespreek voorstellen met Codex; ophalen verandert geen beoordelingen, scores of Reader-documenten.");
 }
 
 async function validateCommand(): Promise<void> {
@@ -209,10 +228,11 @@ async function reportCommand(): Promise<void> {
 async function main(): Promise<void> {
   const command = process.argv[2];
   if (command === "prepare") {return prepareCommand();}
+  if (command === "prepare-feedback") {return prepareFeedbackCommand();}
   if (command === "validate") {return validateCommand();}
   if (command === "ensure-fallback") {return ensureFallbackCommand();}
   if (command === "report") {return reportCommand();}
-  throw new Error("Gebruik: priority:judge <prepare|validate|ensure-fallback|report>");
+  throw new Error("Gebruik: priority:judge <prepare|prepare-feedback|validate|ensure-fallback|report>");
 }
 
 main().catch((error: unknown) => {

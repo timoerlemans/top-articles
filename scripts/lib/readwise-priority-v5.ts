@@ -7,6 +7,7 @@ import {
 import type { PriorityDocument, PriorityTier } from "./readwise-priority-v2.js";
 import { SEQUENCE_ORDER } from "./priority-sequences.js";
 import type { PrioritySequence } from "./priority-sequences.js";
+import { splitReadingFeedback } from "./reader-notes.js";
 import {
   judgmentFor,
   type ContentJudgment,
@@ -111,7 +112,7 @@ function tagsFor(doc: PriorityDocument): Set<string> {
 }
 
 function whyRead(doc: PriorityDocument): string {
-  return doc.notes?.match(/Waarom lezen:\s*([\s\S]*?)(?:\n\s*Beste moment:|$)/i)?.[1]?.toLowerCase().trim() ?? "";
+  return splitReadingFeedback(doc.notes).contentNotes?.match(/Waarom lezen:\s*([\s\S]*?)(?:\n\s*Beste moment:|$)/i)?.[1]?.toLowerCase().trim() ?? "";
 }
 
 function tierForScore(score: number): PriorityTier {

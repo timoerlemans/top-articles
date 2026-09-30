@@ -21,6 +21,7 @@ import { createReadwiseRequester } from "./lib/readwise-request.js";
 import { parseReadwiseDocumentPage } from "./lib/external-schemas.js";
 import { canonicalInterestTags } from "./lib/readwise-tags.js";
 import type { ReadwiseDocument } from "./lib/external-schemas.js";
+import { publicReadingNotes } from "./lib/reader-notes.js";
 
 const execFileAsync = promisify(execFile);
 const READWISE_MAX_BUFFER = 16 * 1024 * 1024;
@@ -115,21 +116,6 @@ function interestTagsFor(doc: ReadwiseDocument): string[] {
   return canonicalInterestTags(tagKeys(doc));
 }
 
-// Notitieformaat is doorgaans:
-// "Waarom lezen: <tekst>\nBeste moment: <tekst>\n\n- bullets..."
-// We nemen bewust alleen deze twee regels over, niet de volledige triage-notitie.
-function parseNote(notes: string | null | undefined): { whyRead: string | null; bestMoment: string | null } {
-  if (!notes) {
-    return { whyRead: null, bestMoment: null };
-  }
-  const whyMatch = notes.match(/Waarom lezen:\s*([\s\S]*?)\n\s*Beste moment:/i);
-  const momentMatch = notes.match(/Beste moment:\s*([^\n]*)/i);
-  return {
-    whyRead: whyMatch?.[1]?.trim() ?? null,
-    bestMoment: momentMatch?.[1]?.trim() ?? null,
-  };
-}
-
 interface CatalogItem {
   position: number | null;
   id: string;
@@ -155,7 +141,7 @@ interface CatalogItem {
 }
 
 function toItem(doc: ReadwiseDocument, position: number | null): CatalogItem {
-  const { whyRead, bestMoment } = parseNote(doc.notes);
+  const { whyRead, bestMoment } = publicReadingNotes(doc.notes);
 
   return {
     position,

@@ -141,6 +141,15 @@ catalogus, ontdeklijsten en filters/sortering direct in de DOM. Filterstatus wor
 als URL-queryparams (niet gewist bij navigatie). `styles.css` staat hier los van en heeft geen
 relatie met de TS-compilatie.
 
+## Leesfeedback
+
+Bij "verwerk mijn leesfeedback" of een verzoek om Reader-feedback te beoordelen: volg
+`README.md` → "Leesfeedback". `priority:judge prepare-feedback` haalt de laatste alinea
+`Feedback: <natuurlijke taal>` op uit `later` én `archive`; de snapshot blijft in `.tmp/readwise/`.
+Lees `config/readwise-reading-preferences.md` bij elke semantische beoordeling. Bespreek
+wijzigingsvoorstellen vóór toepassing; ruwe feedback hoort alleen in Reader en lokale evidence.
+Feedbacktekst staat apart van inhoudelijke fingerprints en fallback-scoring.
+
 ## Data-integriteit
 
 - `config/readwise-priority-overrides.json` is de enige plek voor expliciete numerieke

@@ -13533,15 +13533,16 @@
     "01kw4avt5cex86dndrehb65a7y": {
       "sourceFingerprint": "f6fdbd867c851b5bf5492cb52321cf4e5edfec9d738a0f1e6c6ffefbd209e5eb",
       "evidenceFingerprint": "c9b625e05fc334d0b8f682de65c7b0c7018e33a79bba024c611e9b97fd25da6d",
-      "relevance": 4,
+      "feedbackFingerprint": "b953c0551e031ecd0f3b2189be21e2f71ccac8f8fd7dac8e904af18a3db25ea3",
+      "relevance": 0,
       "substance": 4,
       "durability": 4,
-      "usefulness": 4,
+      "usefulness": 0,
       "sequenceFit": {
         "video": 0,
         "boek": 0,
         "pdf": 0,
-        "lees": 2,
+        "lees": 0,
         "dutch": 0,
         "short": 0,
         "short-dutch": 0,
@@ -13550,14 +13551,14 @@
         "scrum": 0,
         "software-development": 0,
         "front-end-development": 0,
-        "social-studies": 2,
+        "social-studies": 0,
         "adhd": 0
       },
       "topicRelevance": {
         "scrum": 0,
         "software-development": 0,
         "front-end-development": 0,
-        "social-studies": 3,
+        "social-studies": 1,
         "adhd": 1
       },
       "confidence": "medium",
@@ -13565,16 +13566,21 @@
         "semantic-review",
         "independent-of-current-position",
         "supported-evidence",
-        "interest:social-psychology"
+        "interest:social-psychology",
+        "user-feedback-reviewed",
+        "personal-relevance:classroom-context",
+        "personal-usefulness:none",
+        "topic-fit:limited-transfer"
       ],
       "status": "accepted",
       "rubricVersion": "semantic-v2",
       "evidenceRefs": [
         ".tmp/readwise/priority-all-later-2026-09-26.json#documents.01kw4avt5cex86dndrehb65a7y",
-        ".tmp/readwise/all-later-semantic-review-2026-09-26/reviewer-3-results.json#items.01kw4avt5cex86dndrehb65a7y"
+        ".tmp/readwise/all-later-semantic-review-2026-09-26/reviewer-3-results.json#items.01kw4avt5cex86dndrehb65a7y",
+        "reader-document:01kw4avt5cex86dndrehb65a7y"
       ],
-      "judgedBy": "codex-semantic-all-later-review-2026-09-26/reviewer-3",
-      "judgedAt": "2026-09-26T11:00:09.012Z"
+      "judgedBy": "codex-reading-feedback-review",
+      "judgedAt": "2026-09-30T06:06:22.000Z"
     },
     "01kwaadj8686tk3pzbr7wd9axw": {
       "sourceFingerprint": "824f5813aa3374d76a62805dc72c8f07c4e12f3e0b3a8b43743da9c12e45c1b3",

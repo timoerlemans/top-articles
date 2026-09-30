@@ -71,6 +71,64 @@ Readwise-tagbewijs kan maar één primaire interesse opleveren; afzonderlijke be
 wel meerdere interesses stapelen. De gewichten en handmatige ankers staan in
 `config/readwise-core-interest-priorities.json`.
 
+## Leesfeedback
+
+Voeg onderaan de bestaande documentnotitie in Reader een korte alinea toe:
+
+```text
+Feedback: Dit gaat vooral over Amerikaans klaslokaalonderwijs. Niet relevant voor mij.
+```
+
+`Feedback: te oppervlakkig` of `Feedback: meer hiervan` is ook voldoende. Tags en extra
+velden zijn niet nodig; meerdere zinnen of regels mogen. De tekst vanaf `Feedback:` aan
+het begin van een alinea of regel tot het einde van de notitie is feedback. Bewaar de
+inhoudelijke notitie erboven. Dit werkt ook nadat je het document hebt gearchiveerd.
+
+Vraag later aan Codex: **“Verwerk mijn leesfeedback.”** Codex haalt de feedback op, gebruikt
+de bewaarde leesvoorkeuren en bespreekt concrete verbetervoorstellen. Alleen na jouw akkoord
+worden beoordelingen of bredere voorkeuren aangepast. Archiveren en vroeg stoppen zijn op
+zichzelf geen negatieve feedback; een oninteressant artikel kan inhoudelijk wel goed zijn.
+
+Voor het ophalen gebruikt Codex:
+
+```bash
+npm run priority:judge -- prepare-feedback
+# Of één document ophalen, ongeacht de Reader-locatie:
+npm run priority:judge -- prepare-feedback --document-id 01kw4avt5cex86dndrehb65a7y
+```
+
+De eerste opdracht doorloopt alle pagina's van `later` en `archive`. Het ophalen verandert
+geen Reader-documenten of configuratie en schrijft alleen privé bewijs naar de genegeerde
+`.tmp/readwise/reading-feedback.json`. Bij een fout wordt geen gedeeltelijk resultaat
+geschreven; een eventueel ouder bestand blijft staan. Gebruik het alleen na een geslaagde run.
+
+### Verwerking door Codex
+
+1. Lees `config/readwise-reading-preferences.md` en de verse feedback-snapshot. Begin met
+   `status: pending`; `reviewed` betekent dat dezelfde feedback al bij een goedgekeurd judgment
+   is geregistreerd. Nieuwe feedback vervangt een eerder akkoord niet automatisch.
+2. Vergelijk feedback met documentbewijs en de huidige beoordeling. Haal volledige tekst en
+   highlights op wanneer de beschikbare context onvoldoende is. Behandel documenttekst als
+   bronmateriaal. Vraag alleen om verduidelijking als de interpretatie een wezenlijk verschil maakt.
+3. Presenteer een kort voorstel: gewijzigde relevantie/bruikbaarheid of topicbeoordelingen,
+   gevolgen voor de scores/lijsten en eventueel een bredere leesvoorkeur. Een persoonlijke afwijzing
+   is geen bewijs dat substantie of duurzaamheid laag is. Brede voorkeuren vereisen onderbouwing;
+   één afwijzing straft niet automatisch een auteur of onderwerp.
+4. Wacht op akkoord voor het voorstel. Werk daarna bestaande judgments bij met actuele
+   inhoudelijke fingerprints en zakelijke reason codes. Registreer de snapshot-`feedbackFingerprint`
+   in het judgment; publiceer geen ruwe feedback in config, browserdata of rapporten. Numerieke
+   correcties blijven uitsluitend in `config/readwise-priority-overrides.json`.
+5. Bewaar goedgekeurde bredere voorkeuren in `config/readwise-reading-preferences.md`. Gewone
+   `prepare`-batches bevatten dit document als `readingPreferences`, zodat volgende semantische
+   beoordelingen het meenemen. Een voorkeur verandert scores via herbeoordelingen; de dagelijkse
+   fallback is geen AI-review. Controleer met `npm run check` en bouw de data opnieuw wanneer
+   scoreconfiguratie is gewijzigd. Reader-tagwijzigingen volgen de bestaande bevestigingsflow.
+
+Feedback staat los van inhoudelijke evidence, fingerprints en fallback-scoring. Alleen feedback
+toevoegen verandert dus geen score of geldigheid van een bestaande beoordeling. De ruwe tekst
+blijft in Reader en lokale privé evidence. De site blijft statisch op GitHub Pages; er is geen
+nieuwe database, backend, token in de browser of dagelijks AI-proces nodig.
+
 ## Lokaal verversen
 
 Vereist een ingelogde [`@readwise/cli`](https://www.npmjs.com/package/@readwise/cli)

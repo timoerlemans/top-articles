@@ -3,6 +3,8 @@ import {
   buildPriorityEvidence,
   AUTOMATED_FALLBACK_JUDGER,
   validatePriorityJudgments,
+  judgmentMatchesSource,
+  judgmentMatchesEvidence,
   type PriorityJudgmentsConfig,
   type PriorityDocumentEvidence,
 } from "./priority-judgments.js";
@@ -126,7 +128,7 @@ export function ensureMissingFallbacks(
       report.rejected.push(doc.id);
       continue;
     }
-    if (judgment.status !== "accepted" || judgment.sourceFingerprint !== buildPriorityEvidence(doc, []).sourceFingerprint) {
+    if (judgment.status !== "accepted" || !judgmentMatchesSource(doc, judgment)) {
       report.stale.push(doc.id);
       continue;
     }
@@ -179,7 +181,7 @@ export function validateJudgmentSet(
       report.rejected += 1;
       continue;
     }
-    if (judgment.sourceFingerprint !== evidence.sourceFingerprint || judgment.evidenceFingerprint !== evidence.evidenceFingerprint) {
+    if (!judgmentMatchesEvidence(doc, evidence, judgment)) {
       report.stale += 1;
       continue;
     }
@@ -194,7 +196,7 @@ export function validateJudgmentSet(
       if (!doc.id) {return [];}
       const judgment = config.items[doc.id];
       const evidence = snapshot.documents[doc.id];
-      return !judgment || !evidence || judgment.status !== "accepted" || judgment.sourceFingerprint !== evidence.sourceFingerprint || judgment.evidenceFingerprint !== evidence.evidenceFingerprint || (normalizedOptions.requireTopicRelevance && !hasSemanticTopicRelevance(judgment)) ? [doc.id] : [];
+      return !judgment || !evidence || judgment.status !== "accepted" || !judgmentMatchesEvidence(doc, evidence, judgment) || (normalizedOptions.requireTopicRelevance && !hasSemanticTopicRelevance(judgment)) ? [doc.id] : [];
     });
     const preview = ids.slice(0, 10).join(", ");
     const scope = normalizedOptions.requireAllLater ? "All-later" : "Top-100";

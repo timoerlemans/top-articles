@@ -3,6 +3,7 @@ import type { ReadingTimeValue } from "./reading-time.js";
 import { BASE_SEQUENCE_ORDER } from "./priority-sequences.js";
 import type { PrioritySequenceV2 } from "./priority-sequences.js";
 import { canonicalInterestTags } from "./readwise-tags.js";
+import { splitReadingFeedback } from "./reader-notes.js";
 
 export type { PrioritySequenceV2 } from "./priority-sequences.js";
 
@@ -159,7 +160,7 @@ function tagKeys(doc: PriorityDocument): string[] {
 }
 
 function whyReadFor(doc: PriorityDocument): string {
-  const notes = doc.notes ?? "";
+  const notes = splitReadingFeedback(doc.notes).contentNotes ?? "";
   const beforeMoment = notes.match(/Waarom lezen:\s*([\s\S]*?)(?:\n\s*Beste moment:|$)/i);
   return beforeMoment?.[1]?.trim() ?? "";
 }
