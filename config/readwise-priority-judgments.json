@@ -74038,6 +74038,276 @@
       ],
       "judgedBy": "automated-fallback-v1",
       "judgedAt": "2026-09-30T12:41:58.292Z"
+    },
+    "01m3sqwxqs984knn0932xr82zf": {
+      "sourceFingerprint": "8ac3b85d2d3dae96f899e5bfc39bea7d302a6faf879bb7d95ccb90e0478328e3",
+      "relevance": 1,
+      "substance": 3,
+      "durability": 1,
+      "usefulness": 4,
+      "sequenceFit": {
+        "video": 0,
+        "boek": 0,
+        "pdf": 0,
+        "lees": 0,
+        "dutch": 0,
+        "short": 1,
+        "short-dutch": 1,
+        "luchtig": 0,
+        "luchtig-nederlands": 0,
+        "scrum": 0,
+        "software-development": 0,
+        "front-end-development": 0,
+        "social-studies": 0,
+        "adhd": 0
+      },
+      "confidence": "low",
+      "reasonCodes": [
+        "fallback-no-label",
+        "substance-signal",
+        "usefulness-signal",
+        "automated-fallback"
+      ],
+      "topicRelevance": {
+        "scrum": 0,
+        "software-development": 0,
+        "front-end-development": 0,
+        "social-studies": 0,
+        "adhd": 0
+      },
+      "evidenceFingerprint": "885739a4af7892ef330d4217fecf9a0d958c1d35abd676ca196504dcd9b70c8a",
+      "status": "accepted",
+      "rubricVersion": "semantic-v1",
+      "evidenceRefs": [
+        "metadata"
+      ],
+      "judgedBy": "automated-fallback-v1",
+      "judgedAt": "2026-10-01T06:42:21.802Z"
+    },
+    "01m3sk0t87e9whfmxzcj1gwnzh": {
+      "sourceFingerprint": "3b88c11b4997ca5db009fdfa14b36f09747fbe8e6075116bf97a1202cb6609cb",
+      "relevance": 1,
+      "substance": 3,
+      "durability": 1,
+      "usefulness": 1,
+      "sequenceFit": {
+        "video": 0,
+        "boek": 0,
+        "pdf": 0,
+        "lees": 0,
+        "dutch": 0,
+        "short": 1,
+        "short-dutch": 1,
+        "luchtig": 1,
+        "luchtig-nederlands": 1,
+        "scrum": 0,
+        "software-development": 0,
+        "front-end-development": 0,
+        "social-studies": 0,
+        "adhd": 0
+      },
+      "confidence": "low",
+      "reasonCodes": [
+        "fallback-no-label",
+        "substance-signal",
+        "automated-fallback"
+      ],
+      "topicRelevance": {
+        "scrum": 0,
+        "software-development": 0,
+        "front-end-development": 0,
+        "social-studies": 0,
+        "adhd": 0
+      },
+      "evidenceFingerprint": "b1dafac945c09ab15da513db51deeb004557b6e63dd85de7176392e9e36ebcb2",
+      "status": "accepted",
+      "rubricVersion": "semantic-v1",
+      "evidenceRefs": [
+        "metadata"
+      ],
+      "judgedBy": "automated-fallback-v1",
+      "judgedAt": "2026-10-01T06:42:21.809Z"
+    },
+    "01m3sfb5bnrcmp00fj51w6er48": {
+      "sourceFingerprint": "1ba074d4d13683aa7a22a2d0ab0eace7cc48628e67de2a670aca430c9493fc9f",
+      "relevance": 1,
+      "substance": 4,
+      "durability": 1,
+      "usefulness": 4,
+      "sequenceFit": {
+        "video": 0,
+        "boek": 0,
+        "pdf": 0,
+        "lees": 0,
+        "dutch": 0,
+        "short": 1,
+        "short-dutch": 1,
+        "luchtig": 1,
+        "luchtig-nederlands": 1,
+        "scrum": 0,
+        "software-development": 0,
+        "front-end-development": 0,
+        "social-studies": 0,
+        "adhd": 0
+      },
+      "confidence": "low",
+      "reasonCodes": [
+        "fallback-no-label",
+        "substance-signal",
+        "usefulness-signal",
+        "automated-fallback"
+      ],
+      "topicRelevance": {
+        "scrum": 0,
+        "software-development": 0,
+        "front-end-development": 0,
+        "social-studies": 0,
+        "adhd": 0
+      },
+      "evidenceFingerprint": "cff55eea0f9e55aa340c077112f712bf3a9be2c51b42cfb907d9178e7cc7d284",
+      "status": "accepted",
+      "rubricVersion": "semantic-v1",
+      "evidenceRefs": [
+        "metadata"
+      ],
+      "judgedBy": "automated-fallback-v1",
+      "judgedAt": "2026-10-01T06:42:21.810Z"
+    },
+    "01m3scavms3fycm1pf3z0j8842": {
+      "sourceFingerprint": "2ad57519521fc824bdf60ece421adc10b667c7f8203b8c776f44d05f62f62f61",
+      "relevance": 1,
+      "substance": 1,
+      "durability": 3,
+      "usefulness": 4,
+      "sequenceFit": {
+        "video": 0,
+        "boek": 0,
+        "pdf": 0,
+        "lees": 0,
+        "dutch": 0,
+        "short": 1,
+        "short-dutch": 1,
+        "luchtig": 0,
+        "luchtig-nederlands": 0,
+        "scrum": 0,
+        "software-development": 0,
+        "front-end-development": 0,
+        "social-studies": 2,
+        "adhd": 0
+      },
+      "confidence": "low",
+      "reasonCodes": [
+        "fallback-no-label",
+        "explicit-interest-tag",
+        "usefulness-signal",
+        "automated-fallback"
+      ],
+      "topicRelevance": {
+        "scrum": 0,
+        "software-development": 0,
+        "front-end-development": 0,
+        "social-studies": 4,
+        "adhd": 0
+      },
+      "evidenceFingerprint": "77bcb35f17d6c9968a93df8af063b7e83f94b10f4bfc038e5a78e6d9b831090f",
+      "status": "accepted",
+      "rubricVersion": "semantic-v1",
+      "evidenceRefs": [
+        "metadata"
+      ],
+      "judgedBy": "automated-fallback-v1",
+      "judgedAt": "2026-10-01T06:42:21.810Z"
+    },
+    "01m3s7smb4np9etrscbp9nbj5e": {
+      "sourceFingerprint": "67c121a6a63ed46c81c28ed87f4f12eb15f5106fcbefd2360fbad8f20e2f5b17",
+      "relevance": 1,
+      "substance": 3,
+      "durability": 3,
+      "usefulness": 4,
+      "sequenceFit": {
+        "video": 0,
+        "boek": 0,
+        "pdf": 0,
+        "lees": 0,
+        "dutch": 0,
+        "short": 1,
+        "short-dutch": 1,
+        "luchtig": 0,
+        "luchtig-nederlands": 0,
+        "scrum": 0,
+        "software-development": 0,
+        "front-end-development": 0,
+        "social-studies": 0,
+        "adhd": 0
+      },
+      "confidence": "low",
+      "reasonCodes": [
+        "fallback-no-label",
+        "explicit-interest-tag",
+        "substance-signal",
+        "usefulness-signal",
+        "automated-fallback"
+      ],
+      "topicRelevance": {
+        "scrum": 0,
+        "software-development": 0,
+        "front-end-development": 0,
+        "social-studies": 0,
+        "adhd": 0
+      },
+      "evidenceFingerprint": "3788c4225251f3e89a0b94fa67ffbd5331f7002634eb5a22742ac7e8910c6adb",
+      "status": "accepted",
+      "rubricVersion": "semantic-v1",
+      "evidenceRefs": [
+        "metadata"
+      ],
+      "judgedBy": "automated-fallback-v1",
+      "judgedAt": "2026-10-01T06:42:21.810Z"
+    },
+    "01m3s7m9pzs5d9c85brq25ar9c": {
+      "sourceFingerprint": "a53fa4b8d68471b856123a26e47a8f6d10e245e20815b570895254ea8344b434",
+      "relevance": 1,
+      "substance": 3,
+      "durability": 3,
+      "usefulness": 2,
+      "sequenceFit": {
+        "video": 0,
+        "boek": 0,
+        "pdf": 0,
+        "lees": 0,
+        "dutch": 0,
+        "short": 1,
+        "short-dutch": 1,
+        "luchtig": 1,
+        "luchtig-nederlands": 1,
+        "scrum": 0,
+        "software-development": 0,
+        "front-end-development": 0,
+        "social-studies": 0,
+        "adhd": 0
+      },
+      "confidence": "low",
+      "reasonCodes": [
+        "fallback-no-label",
+        "explicit-interest-tag",
+        "substance-signal",
+        "automated-fallback"
+      ],
+      "topicRelevance": {
+        "scrum": 0,
+        "software-development": 0,
+        "front-end-development": 0,
+        "social-studies": 0,
+        "adhd": 0
+      },
+      "evidenceFingerprint": "a4199a613e02797790bc0defa155ef97f41d792228c648b1ce2e4fb557a6b534",
+      "status": "accepted",
+      "rubricVersion": "semantic-v1",
+      "evidenceRefs": [
+        "metadata"
+      ],
+      "judgedBy": "automated-fallback-v1",
+      "judgedAt": "2026-10-01T06:42:21.811Z"
     }
   }
 }
