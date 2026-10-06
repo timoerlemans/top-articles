@@ -1,6 +1,6 @@
 // Automatisch gegenereerd door scripts/build-data.ts — niet handmatig bewerken.
 window.TOP_ARTICLES = {
-  "generatedAt": "2026-10-05T11:08:07.641Z",
+  "generatedAt": "2026-10-06T11:00:50.625Z",
   "families": [
     {
       "id": "algemeen",
@@ -2168,8 +2168,7 @@ window.TOP_ARTICLES = {
               "tags": [
                 "agile",
                 "professional development",
-                "software development",
-                "team dynamics & collaboration"
+                "software development"
               ],
               "coreInterests": [
                 "agile"
@@ -3532,42 +3531,6 @@ window.TOP_ARTICLES = {
             },
             {
               "position": 96,
-              "id": "01m3yj4fg6akpp747fa26677x7",
-              "title": "Return Of The Repressed In Germany",
-              "author": "Nathan Gardels",
-              "siteName": "NOEMA",
-              "category": "rss",
-              "language": null,
-              "readingTime": "10 mins",
-              "readingMinutes": 10,
-              "wordCount": 2565,
-              "publishedDate": "2026-10-02",
-              "savedDate": "2026-10-02T15:01:11.886000+00:00",
-              "imageUrl": "https://noemamag.imgix.net/2026/10/Noema-Germany-final.jpg?fm=pjpg&ixlib=php-3.3.1&s=acf37f78ff980870f46268928367cae7",
-              "sourceUrl": "https://www.noemamag.com/return-of-the-repressed-in-germany",
-              "readwiseUrl": "https://read.readwise.io/read/01m3yj4fg6akpp747fa26677x7",
-              "summary": "The post Return Of The Repressed In Germany appeared first on NOEMA.",
-              "whyRead": "Raakt je interesse in geschiedenis, politieke filosofie en sociale structuren. Het essay verbindt de Duitse hereniging, migratie en nationalisme aan de terugkeer van extreemrechts.",
-              "bestMoment": "kritisch",
-              "tags": [
-                "current affairs & politics",
-                "history",
-                "political philosophy",
-                "sociology & social structures",
-                "totalitarianism & fascism"
-              ],
-              "coreInterests": [
-                "filosofie",
-                "ideologie",
-                "geschiedenis",
-                "sociologie"
-              ],
-              "alsoIn": [
-                "aaa-social-studies-top-100"
-              ]
-            },
-            {
-              "position": 97,
               "id": "01kxn6sfvvpwapf12145w6x7sv",
               "title": "Essays In Support of the Null Hypothesis",
               "author": "Tommy Blanchard from Cognitive Wonderland",
@@ -3598,7 +3561,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 98,
+              "position": 97,
               "id": "01m2msap2g98nwk78n4yxf36tf",
               "title": "Lead Without a Ladder: How I Climbed Into Engineering Leadership",
               "author": "Pauline Jepp",
@@ -3631,7 +3594,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 99,
+              "position": 98,
               "id": "01m2w4q0nawzn679w0k1s4v64h",
               "title": "Signals and Levers: Building Thriving Engineering Organizations - InfoQ",
               "author": "r.updates.infoq.com",
@@ -3663,7 +3626,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 100,
+              "position": 99,
               "id": "01m2ymxwfncx98gmphge27wnje",
               "title": "why we never finish \"the artists' way\"",
               "author": "Mel Mitchell-Jackson",
@@ -3692,6 +3655,40 @@ window.TOP_ARTICLES = {
               "alsoIn": [
                 "aaa-luchtig-top-100",
                 "aaa-adhd-top-100"
+              ]
+            },
+            {
+              "position": 100,
+              "id": "01m3d23rpk52c2w0wbveaf1ywq",
+              "title": "Why you should read Howard Zinn’s Artists in Times of War now.",
+              "author": "lithub.com",
+              "siteName": "Literary  Hub",
+              "category": "article",
+              "language": null,
+              "readingTime": "4 mins",
+              "readingMinutes": 4,
+              "wordCount": 1031,
+              "publishedDate": "2025-07-30",
+              "savedDate": "2026-09-25T19:54:08.978000+00:00",
+              "imageUrl": "https://s26162.pcdn.co/wp-content/uploads/2025/07/zinn-artists-times-war.jpg",
+              "sourceUrl": "https://lithub.com/why-you-should-read-howard-zinns-artists-in-times-of-war-now/",
+              "readwiseUrl": "https://read.readwise.io/read/01m3d23rpk52c2w0wbveaf1ywq",
+              "summary": "“There are certain historical moments when learning is more compressed and intense than others,” wrote Howard Zinn, a month after 9/11.",
+              "whyRead": "Raakt je interesse in politieke filosofie, anarchisme en essayistisch schrijven: de bespreking laat zien hoe Howard Zinn toegankelijke historische verhalen inzet om gewone burgers het recht op morele tegenspraak terug te geven.",
+              "bestMoment": "kritisch",
+              "tags": [
+                "arts & culture",
+                "history",
+                "political philosophy"
+              ],
+              "coreInterests": [
+                "filosofie",
+                "ideologie",
+                "geschiedenis"
+              ],
+              "alsoIn": [
+                "aaa-short-top-100",
+                "aaa-luchtig-top-100"
               ]
             }
           ]
@@ -5064,8 +5061,7 @@ window.TOP_ARTICLES = {
               "tags": [
                 "agile",
                 "professional development",
-                "software development",
-                "team dynamics & collaboration"
+                "software development"
               ],
               "coreInterests": [
                 "agile"
@@ -6076,6 +6072,7 @@ window.TOP_ARTICLES = {
                 "geschiedenis"
               ],
               "alsoIn": [
+                "aaa-top-100",
                 "aaa-luchtig-top-100"
               ]
             },
@@ -6235,8 +6232,7 @@ window.TOP_ARTICLES = {
                 "agile"
               ],
               "alsoIn": [
-                "aaa-scrum-top-100",
-                "aaa-social-studies-top-100"
+                "aaa-scrum-top-100"
               ]
             },
             {
@@ -7222,6 +7218,38 @@ window.TOP_ARTICLES = {
             },
             {
               "position": 96,
+              "id": "01m460621ksbp8dkzjz2jfff46",
+              "title": "Gen X Is Losing Its Mind Over Workplace Communication",
+              "author": "Jonathan Small",
+              "siteName": "Small Talk",
+              "category": "article",
+              "language": null,
+              "readingTime": "5 mins",
+              "readingMinutes": 5,
+              "wordCount": 1237,
+              "publishedDate": "2026-01-17",
+              "savedDate": "2026-10-05T12:21:27.673000+00:00",
+              "imageUrl": "https://substackcdn.com/image/fetch/$s_!mUIY!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F438080ee-457e-4485-8725-135a82eb78d1_1920x1080.webp",
+              "sourceUrl": "https://jonsmalltalk.substack.com/p/i-yelled-at-a-millennial-for-taking",
+              "readwiseUrl": "https://read.readwise.io/read/01m460621ksbp8dkzjz2jfff46",
+              "summary": "Why nobody at work understands anyone else anymore.",
+              "whyRead": "Een grappig maar bruikbaar stuk over generatieverschillen in werkcommunicatie. De kern is relevant voor teamcoaching: veel conflicten ontstaan doordat mensen intenties afleiden uit verschillende communicatiekanalen, feedbackritmes en omgang met hiërarchie.",
+              "bestMoment": "leergierig",
+              "tags": [
+                "organizational behavior & culture",
+                "social psychology & interpersonal dynamics",
+                "team dynamics & collaboration"
+              ],
+              "coreInterests": [
+                "sociologie",
+                "agile"
+              ],
+              "alsoIn": [
+                "aaa-social-studies-top-100"
+              ]
+            },
+            {
+              "position": 97,
               "id": "01hvgq17yct5zke2svk47k1148",
               "title": "Manage Your Energy, Not Your Time",
               "author": "Salman Ansari",
@@ -7250,7 +7278,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 97,
+              "position": 98,
               "id": "01hzhvwh05p9f4hf86ghy6pnyw",
               "title": "Personal Energy Management (PEM)",
               "author": "Harisk",
@@ -7279,7 +7307,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 98,
+              "position": 99,
               "id": "01m3f17vj1esg980wbj6w8741n",
               "title": "“Regular, rigorous, and Reliable.” How to Keep Fighting for a Better World",
               "author": "lithub.com",
@@ -7313,7 +7341,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 99,
+              "position": 100,
               "id": "01m3fe84fwzc84f7jtgs70hpj5",
               "title": "Agile Coaches need MORE than Coaching Skills",
               "author": "Robert Galen",
@@ -7341,40 +7369,6 @@ window.TOP_ARTICLES = {
               ],
               "alsoIn": [
                 "aaa-scrum-top-100"
-              ]
-            },
-            {
-              "position": 100,
-              "id": "01m2gbthqrjaxjh99tqkckbc8f",
-              "title": "Dear ADHDer: Please stop solving capacity problems with character upgrades",
-              "author": "Kelly Banks",
-              "siteName": "The Dopamine Dispatch",
-              "category": "article",
-              "language": null,
-              "readingTime": "6 mins",
-              "readingMinutes": 6,
-              "wordCount": 1483,
-              "publishedDate": "2026-09-13",
-              "savedDate": "2026-09-14T16:25:54.169000+00:00",
-              "imageUrl": "https://substackcdn.com/image/fetch/$s_!dbV9!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fabd5bade-7ef0-47c5-921f-695c88bb232d_1280x720.jpeg",
-              "sourceUrl": "https://divergentkellywrites.substack.com/p/dear-adhder-please-stop-solving-capacity?utm_source=direct&r=1r0y5d&utm_campaign=post-expanded-share&utm_medium=post%20viewer",
-              "readwiseUrl": "https://read.readwise.io/read/01m2gbthqrjaxjh99tqkckbc8f",
-              "summary": "So many ADHDers feel overloaded, exhausted, overcommitted, and/or burned out. And it’s very common for us to believe it’s because something about us needs to be further optimized.",
-              "whyRead": "Een sterke ADHD-analyse van het verschil tussen een capaciteitsprobleem en een vermeend karakterprobleem. Het stuk biedt een mild maar praktisch kader voor overbelasting: pas belasting, taken en verwachtingen aan voordat je jezelf nog meer discipline oplegt.",
-              "bestMoment": "reflectief",
-              "tags": [
-                "adhd & neurodivergence",
-                "health & wellness",
-                "personal growth & life philosophy",
-                "social psychology & interpersonal dynamics"
-              ],
-              "coreInterests": [
-                "sociologie",
-                "adhd"
-              ],
-              "alsoIn": [
-                "aaa-luchtig-top-100",
-                "aaa-adhd-top-100"
               ]
             }
           ]
@@ -8530,6 +8524,7 @@ window.TOP_ARTICLES = {
                 "geschiedenis"
               ],
               "alsoIn": [
+                "aaa-top-100",
                 "aaa-short-top-100"
               ]
             },
@@ -9056,7 +9051,6 @@ window.TOP_ARTICLES = {
                 "adhd"
               ],
               "alsoIn": [
-                "aaa-short-top-100",
                 "aaa-adhd-top-100"
               ]
             },
@@ -10490,6 +10484,36 @@ window.TOP_ARTICLES = {
             },
             {
               "position": 90,
+              "id": "01m45j75m87y74yd60vb2hww00",
+              "title": "Against popular culture",
+              "author": "aeon.co",
+              "siteName": "Aeon",
+              "category": "article",
+              "language": null,
+              "readingTime": "13 mins",
+              "readingMinutes": 13,
+              "wordCount": 3301,
+              "publishedDate": null,
+              "savedDate": "2026-10-05T08:17:24.104000+00:00",
+              "imageUrl": "https://alpha.aeon.co/images/b3f24b2a-d5b9-4ff3-9dd4-0530db75599e/header_perry-essay-887398790_master.jpg",
+              "sourceUrl": "https://aeon.co/essays/against-guilty-pleasures-adorno-on-the-crimes-of-pop-culture",
+              "readwiseUrl": "https://read.readwise.io/read/01m45j75m87y74yd60vb2hww00",
+              "summary": "For Adorno, popular culture is not just bad art – it enslaves us to repetition and robs us of our aesthetic freedom",
+              "whyRead": null,
+              "bestMoment": null,
+              "tags": [
+                "arts & culture",
+                "philosophy",
+                "sociology & social structures"
+              ],
+              "coreInterests": [
+                "filosofie",
+                "sociologie"
+              ],
+              "alsoIn": []
+            },
+            {
+              "position": 91,
               "id": "01kxy1qkwpt5xkmvy06pz6bqvr",
               "title": "Technology and Barbarism",
               "author": "amazon.com",
@@ -10519,7 +10543,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 91,
+              "position": 92,
               "id": "01m13bydjdttq1jnhmnt13k22z",
               "title": "Ladies of the ’80s",
               "author": "Lisa Whittington-Hill",
@@ -10549,7 +10573,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 92,
+              "position": 93,
               "id": "01m2rcmbg3vv277nwwd8k77hw6",
               "title": "My Favorite Philip K. Dick Novels",
               "author": "Ted Gioia",
@@ -10578,7 +10602,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 93,
+              "position": 94,
               "id": "01m33ez7ev175kpa3c253v8z80",
               "title": "I Would Have Written a Shorter Blog Post, But I Didn’t Have the Time: Creating a WriterDeck",
               "author": "Brennan Kenneth Brown",
@@ -10605,7 +10629,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 94,
+              "position": 95,
               "id": "01m33en2pb2p4rn5jm2994b5y6",
               "title": "Values",
               "author": "Brennan Kenneth Brown",
@@ -10632,7 +10656,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 95,
+              "position": 96,
               "id": "01m3f17v3t6pg87zvd6fs4vtvs",
               "title": "“The Poetics of Social Forms”: Remembering Fredric Jameson (1934–2024)",
               "author": "publicbooks.org",
@@ -10662,7 +10686,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 96,
+              "position": 97,
               "id": "01m3gnn48yh49d559pfyx1j1wj",
               "title": "How to cope with disruptive change",
               "author": "David A Clark",
@@ -10689,7 +10713,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 97,
+              "position": 98,
               "id": "01m2sqqyethn4tjwc5asrw0ysb",
               "title": "#232 - Soms moet je een PlayStation kopen",
               "author": "Betering",
@@ -10718,7 +10742,36 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 98,
+              "position": 99,
+              "id": "01m45j6rsak6c4n4pw6r9060t4",
+              "title": "Book Trilogy Review: Remembrance of Earth's Past (The Three Body Problem)",
+              "author": "thezvi.substack.com",
+              "siteName": "substack.com",
+              "category": "article",
+              "language": null,
+              "readingTime": "47 mins",
+              "readingMinutes": 47,
+              "wordCount": 12423,
+              "publishedDate": "2019-01-30",
+              "savedDate": "2026-10-05T08:17:10.954000+00:00",
+              "imageUrl": "https://substackcdn.com/image/fetch/$s_!d2rp!,f_auto,q_auto:best,fl_progressive:steep/https%3A%2F%2Fthezvi.substack.com%2Ftwitter%2Fsubscribe-card.jpg%3Fv%3D-1101181227%26version%3D9",
+              "sourceUrl": "https://thezvi.substack.com/p/book-trilogy-review-remembrance-of-earths-past-the-three-body-problem",
+              "readwiseUrl": "https://read.readwise.io/read/01m45j6rsak6c4n4pw6r9060t4",
+              "summary": "Epistemic Status: Stuff that keeps not going away so I should write it up I suppose.",
+              "whyRead": null,
+              "bestMoment": null,
+              "tags": [
+                "arts & culture",
+                "fiction",
+                "philosophy"
+              ],
+              "coreInterests": [
+                "filosofie"
+              ],
+              "alsoIn": []
+            },
+            {
+              "position": 100,
               "id": "01m2j001f1dva7pm8rnd4e97sj",
               "title": "Why giving your ADHD brain permission to do LESS helps you do MORE",
               "author": "divergentkellywrites.substack.com",
@@ -10735,68 +10788,6 @@ window.TOP_ARTICLES = {
               "readwiseUrl": "https://read.readwise.io/read/01m2j001f1dva7pm8rnd4e97sj",
               "summary": "What if productivity doesn't have to feel like suffering?",
               "whyRead": "Een korte ADHD-reflectie op de druk om voortdurend bij te blijven en te bewijzen dat je niet lui of onbetrouwbaar bent. De titel biedt een waardevolle herformulering: minder doen kan juist ruimte maken voor meer duurzaam functioneren.",
-              "bestMoment": "reflectief",
-              "tags": [
-                "adhd & neurodivergence",
-                "health & wellness",
-                "personal growth & life philosophy"
-              ],
-              "coreInterests": [
-                "adhd"
-              ],
-              "alsoIn": [
-                "aaa-adhd-top-100"
-              ]
-            },
-            {
-              "position": 99,
-              "id": "01m2j004hvhgzyfq7fx9y57rec",
-              "title": "How to make things easier with ADHD",
-              "author": "divergentkellywrites.substack.com",
-              "siteName": "The Dopamine Dispatch",
-              "category": "article",
-              "language": null,
-              "readingTime": "1 min",
-              "readingMinutes": 1,
-              "wordCount": 38,
-              "publishedDate": "2026-01-11",
-              "savedDate": "2026-09-15T07:37:43.227000+00:00",
-              "imageUrl": "https://substackcdn.com/image/fetch/$s_!tzpo!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fde396972-1cca-41c8-8677-edefd0e36990_1280x720.png",
-              "sourceUrl": "https://divergentkellywrites.substack.com/p/how-to-make-things-easier-with-adhd",
-              "readwiseUrl": "https://read.readwise.io/read/01m2j004hvhgzyfq7fx9y57rec",
-              "summary": "Step 1: Stop distrusting ease",
-              "whyRead": "Een korte ADHD-coachingnotitie die discipline en harder werken niet als vanzelfsprekend antwoord neemt. De beschikbare Reader-tekst presenteert coaching eerder als onderzoek naar wat voor iemand werkt — een bruikbare correctie op moraliserende productiviteitsadviezen.",
-              "bestMoment": "leergierig",
-              "tags": [
-                "adhd & neurodivergence",
-                "health & wellness",
-                "personal growth & life philosophy"
-              ],
-              "coreInterests": [
-                "adhd"
-              ],
-              "alsoIn": [
-                "aaa-adhd-top-100"
-              ]
-            },
-            {
-              "position": 100,
-              "id": "01m2j0075w5khvczd7ryxe70z6",
-              "title": "How to ACTUALLY rest when you have ADHD",
-              "author": "divergentkellywrites.substack.com",
-              "siteName": "The Dopamine Dispatch",
-              "category": "article",
-              "language": null,
-              "readingTime": "1 min",
-              "readingMinutes": 1,
-              "wordCount": 41,
-              "publishedDate": "2025-01-24",
-              "savedDate": "2026-09-15T07:37:45.916000+00:00",
-              "imageUrl": "https://substackcdn.com/image/fetch/$s_!C5ZG!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F08f4b601-a633-4254-87ee-18cef7e263a5_1280x720.png",
-              "sourceUrl": "https://divergentkellywrites.substack.com/p/how-to-actually-rest-when-you-have",
-              "readwiseUrl": "https://read.readwise.io/read/01m2j0075w5khvczd7ryxe70z6",
-              "summary": "You know that ADHD cycle where we do everything at once or nothing at all, with no in between?",
-              "whyRead": "Een korte ADHD-coachingreflectie over de vraag waarom rust nemen niet vanzelfsprekend voelt. De beschikbare Reader-tekst is een teaser, maar de invalshoek — rust leren herkennen en vormgeven in plaats van alleen maar stilzitten — sluit direct aan bij ADHD en duurzame zelfsturing.",
               "bestMoment": "reflectief",
               "tags": [
                 "adhd & neurodivergence",
@@ -10863,8 +10854,7 @@ window.TOP_ARTICLES = {
               "tags": [
                 "agile",
                 "professional development",
-                "software development",
-                "team dynamics & collaboration"
+                "software development"
               ],
               "coreInterests": [
                 "agile"
@@ -11233,8 +11223,7 @@ window.TOP_ARTICLES = {
               "tags": [
                 "agile",
                 "professional development",
-                "software development",
-                "team dynamics & collaboration"
+                "software development"
               ],
               "coreInterests": [
                 "agile"
@@ -12836,8 +12825,7 @@ window.TOP_ARTICLES = {
                 "agile"
               ],
               "alsoIn": [
-                "aaa-short-top-100",
-                "aaa-social-studies-top-100"
+                "aaa-short-top-100"
               ]
             },
             {
@@ -14435,8 +14423,7 @@ window.TOP_ARTICLES = {
               "tags": [
                 "agile",
                 "professional development",
-                "software development",
-                "team dynamics & collaboration"
+                "software development"
               ],
               "coreInterests": [
                 "agile"
@@ -14807,8 +14794,7 @@ window.TOP_ARTICLES = {
               "tags": [
                 "agile",
                 "professional development",
-                "software development",
-                "team dynamics & collaboration"
+                "software development"
               ],
               "coreInterests": [
                 "agile"
@@ -16696,6 +16682,38 @@ window.TOP_ARTICLES = {
             },
             {
               "position": 58,
+              "id": "01m460621ksbp8dkzjz2jfff46",
+              "title": "Gen X Is Losing Its Mind Over Workplace Communication",
+              "author": "Jonathan Small",
+              "siteName": "Small Talk",
+              "category": "article",
+              "language": null,
+              "readingTime": "5 mins",
+              "readingMinutes": 5,
+              "wordCount": 1237,
+              "publishedDate": "2026-01-17",
+              "savedDate": "2026-10-05T12:21:27.673000+00:00",
+              "imageUrl": "https://substackcdn.com/image/fetch/$s_!mUIY!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F438080ee-457e-4485-8725-135a82eb78d1_1920x1080.webp",
+              "sourceUrl": "https://jonsmalltalk.substack.com/p/i-yelled-at-a-millennial-for-taking",
+              "readwiseUrl": "https://read.readwise.io/read/01m460621ksbp8dkzjz2jfff46",
+              "summary": "Why nobody at work understands anyone else anymore.",
+              "whyRead": "Een grappig maar bruikbaar stuk over generatieverschillen in werkcommunicatie. De kern is relevant voor teamcoaching: veel conflicten ontstaan doordat mensen intenties afleiden uit verschillende communicatiekanalen, feedbackritmes en omgang met hiërarchie.",
+              "bestMoment": "leergierig",
+              "tags": [
+                "organizational behavior & culture",
+                "social psychology & interpersonal dynamics",
+                "team dynamics & collaboration"
+              ],
+              "coreInterests": [
+                "sociologie",
+                "agile"
+              ],
+              "alsoIn": [
+                "aaa-short-top-100"
+              ]
+            },
+            {
+              "position": 59,
               "id": "01ktnkd8gctpytce8pvke8za97",
               "title": "The Trouble With Grit",
               "author": "Sven Brodmerkel | Off-Script At Work",
@@ -16726,42 +16744,6 @@ window.TOP_ARTICLES = {
                 "aaa-short-top-100",
                 "aaa-adhd-top-10",
                 "aaa-adhd-top-100"
-              ]
-            },
-            {
-              "position": 59,
-              "id": "01m3yj4fg6akpp747fa26677x7",
-              "title": "Return Of The Repressed In Germany",
-              "author": "Nathan Gardels",
-              "siteName": "NOEMA",
-              "category": "rss",
-              "language": null,
-              "readingTime": "10 mins",
-              "readingMinutes": 10,
-              "wordCount": 2565,
-              "publishedDate": "2026-10-02",
-              "savedDate": "2026-10-02T15:01:11.886000+00:00",
-              "imageUrl": "https://noemamag.imgix.net/2026/10/Noema-Germany-final.jpg?fm=pjpg&ixlib=php-3.3.1&s=acf37f78ff980870f46268928367cae7",
-              "sourceUrl": "https://www.noemamag.com/return-of-the-repressed-in-germany",
-              "readwiseUrl": "https://read.readwise.io/read/01m3yj4fg6akpp747fa26677x7",
-              "summary": "The post Return Of The Repressed In Germany appeared first on NOEMA.",
-              "whyRead": "Raakt je interesse in geschiedenis, politieke filosofie en sociale structuren. Het essay verbindt de Duitse hereniging, migratie en nationalisme aan de terugkeer van extreemrechts.",
-              "bestMoment": "kritisch",
-              "tags": [
-                "current affairs & politics",
-                "history",
-                "political philosophy",
-                "sociology & social structures",
-                "totalitarianism & fascism"
-              ],
-              "coreInterests": [
-                "filosofie",
-                "ideologie",
-                "geschiedenis",
-                "sociologie"
-              ],
-              "alsoIn": [
-                "aaa-top-100"
               ]
             },
             {
@@ -17970,6 +17952,37 @@ window.TOP_ARTICLES = {
             },
             {
               "position": 98,
+              "id": "01m45z6792t2n7syererfpjh9a",
+              "title": "Two’s a crowd",
+              "author": "aeon.co",
+              "siteName": "Aeon",
+              "category": "article",
+              "language": null,
+              "readingTime": "13 mins",
+              "readingMinutes": 13,
+              "wordCount": 3195,
+              "publishedDate": null,
+              "savedDate": "2026-10-05T12:04:04.514000+00:00",
+              "imageUrl": "https://nu.aeon.co/images/17a244ae-0818-43c9-8d27-447ad1026591/header_essay-110153028.jpg",
+              "sourceUrl": "https://aeon.co/essays/a-creative-multiplicity-the-philosophy-of-deleuze-and-guattari",
+              "readwiseUrl": "https://read.readwise.io/read/01m45z6792t2n7syererfpjh9a",
+              "summary": "Zany and earnest, political yet puckish, Gilles Deleuze and Félix Guattari were philosophy’s most improbable duo",
+              "whyRead": "Een toegankelijke introductie tot Deleuze en Guattari als denkers van collectiviteit, verschil en politieke verbeelding. Het essay raakt Tim's interesse in individu/gemeenschap, macht, samenwerking en politieke filosofie.",
+              "bestMoment": "analytisch",
+              "tags": [
+                "philosophy",
+                "political philosophy",
+                "sociology & social structures"
+              ],
+              "coreInterests": [
+                "filosofie",
+                "ideologie",
+                "sociologie"
+              ],
+              "alsoIn": []
+            },
+            {
+              "position": 99,
               "id": "01m1x3htad4kaatak8j78p7e11",
               "title": "Team autonomy only works when leadership shows trust",
               "author": "Willem-Jan Ageling",
@@ -18002,7 +18015,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 99,
+              "position": 100,
               "id": "01m2265g0kyk1003t9x2hsdzw8",
               "title": "Communication Is … Ritual",
               "author": "Sven Brodmerkel (PhD)",
@@ -18028,38 +18041,6 @@ window.TOP_ARTICLES = {
               ],
               "coreInterests": [
                 "sociologie",
-                "agile"
-              ],
-              "alsoIn": [
-                "aaa-short-top-100",
-                "aaa-scrum-top-100"
-              ]
-            },
-            {
-              "position": 100,
-              "id": "01m2mpk5g0ptfm6wsn2w2db6nz",
-              "title": "One Outcome Per Hour: How to Design Any Workshop in 45 Minutes",
-              "author": "Nick Martin from WorkshopBank's Substack",
-              "siteName": "Substack",
-              "category": "email",
-              "language": null,
-              "readingTime": "5 mins",
-              "readingMinutes": 5,
-              "wordCount": 1282,
-              "publishedDate": "2026-09-16",
-              "savedDate": "2026-09-16T08:51:04.320000+00:00",
-              "imageUrl": null,
-              "sourceUrl": "mailto:reader-forwarded-email/27c82e0367d9929f52ffb85b7d680eea",
-              "readwiseUrl": "https://read.readwise.io/read/01m2mpk5g0ptfm6wsn2w2db6nz",
-              "summary": "I used to think the answer was more preparation. One more evening, a tighter deck and it would land.",
-              "whyRead": "Een praktisch kader om workshops vanuit concrete opbrengsten te ontwerpen. Het helpt je om voorbereiding, groepsinteractie en tijd niet als losse activiteiten te plannen, maar als een reeks momenten waarin deelnemers iets tastbaars produceren.",
-              "bestMoment": "leergierig",
-              "tags": [
-                "facilitation",
-                "learning & meta-learning",
-                "team coaching"
-              ],
-              "coreInterests": [
                 "agile"
               ],
               "alsoIn": [
@@ -18103,8 +18084,7 @@ window.TOP_ARTICLES = {
               "tags": [
                 "agile",
                 "professional development",
-                "software development",
-                "team dynamics & collaboration"
+                "software development"
               ],
               "coreInterests": [
                 "agile"
@@ -18427,8 +18407,7 @@ window.TOP_ARTICLES = {
               "tags": [
                 "agile",
                 "professional development",
-                "software development",
-                "team dynamics & collaboration"
+                "software development"
               ],
               "coreInterests": [
                 "agile"
@@ -21258,6 +21237,33 @@ window.TOP_ARTICLES = {
             },
             {
               "position": 98,
+              "id": "01m45j63ghsdw4zc4s8d00dv4a",
+              "title": "Introducing Pizza Bot, an open source inbox for AI agents that work in the background",
+              "author": "aws.amazon.com",
+              "siteName": "Amazon Web Services, Inc.",
+              "category": "article",
+              "language": null,
+              "readingTime": "9 mins",
+              "readingMinutes": 9,
+              "wordCount": 2269,
+              "publishedDate": "2026-09-10",
+              "savedDate": "2026-10-05T08:16:49.169000+00:00",
+              "imageUrl": "https://d2908q01vomqb2.cloudfront.net/ca3512f4dfa95a03169c5a670a4c91a19b3077b4/2026/09/09/pizza-bot-featured-1144x630.png",
+              "sourceUrl": "https://aws.amazon.com/blogs/opensource/introducing-pizza-bot-an-open-source-inbox-for-ai-agents-that-work-in-the-background/",
+              "readwiseUrl": "https://read.readwise.io/read/01m45j63ghsdw4zc4s8d00dv4a",
+              "summary": "Give an agent a task actually worth delegating and you’ll be waiting a while. Ask it what needs your attention this morning and it has to read your mail, your messages, and your task list before it can answer. Then it stops halfway, because one step needs your approval. Meanwhile you’re watching a chat window […]",
+              "whyRead": null,
+              "bestMoment": null,
+              "tags": [
+                "ai ethics & society",
+                "software development",
+                "technology"
+              ],
+              "coreInterests": [],
+              "alsoIn": []
+            },
+            {
+              "position": 99,
               "id": "01m1q5mj32wmmzv65nwajcxaf3",
               "title": "Pocket-Sized Design: Taking Your Website to the Small Screen",
               "author": "alistapart.com",
@@ -21286,7 +21292,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 99,
+              "position": 100,
               "id": "01m3yjdej81rfg0gqbpqh0ngpf",
               "title": "De cloud in soorten en maten",
               "author": "berthub.eu",
@@ -21306,33 +21312,6 @@ window.TOP_ARTICLES = {
               "bestMoment": "leergierig",
               "tags": [
                 "current affairs & politics",
-                "software development",
-                "technology"
-              ],
-              "coreInterests": [],
-              "alsoIn": []
-            },
-            {
-              "position": 100,
-              "id": "01m42ndeebjgww3sfjqp308mzs",
-              "title": "The Code Nobody Reads",
-              "author": "Addy Osmani",
-              "siteName": "substack.com",
-              "category": "article",
-              "language": null,
-              "readingTime": "17 mins",
-              "readingMinutes": 17,
-              "wordCount": 4308,
-              "publishedDate": "2026-09-28",
-              "savedDate": "2026-10-04T05:15:32.171000+00:00",
-              "imageUrl": "https://substackcdn.com/image/fetch/$s_!uIsC!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F3f9014b6-2b0a-4ab7-80d4-7e74151b03f9_2756x1536.jpeg",
-              "sourceUrl": "https://addyo.substack.com/p/the-code-nobody-reads?utm_source=substack&utm_medium=email",
-              "readwiseUrl": "https://read.readwise.io/read/01m42ndeebjgww3sfjqp308mzs",
-              "summary": "Line-by-line review is going away. Whatever replaces it has to earn the trust reading used to provide.",
-              "whyRead": "Raakt je interesse in front-end/softwareontwikkeling en de gevolgen van AI voor vakmanschap. Het stuk stelt de vraag welk vertrouwen code-review moet vervangen als mensen minder code regel voor regel lezen.",
-              "bestMoment": "analytisch",
-              "tags": [
-                "front-end software development",
                 "software development",
                 "technology"
               ],
@@ -28073,7 +28052,6 @@ window.TOP_ARTICLES = {
                 "adhd"
               ],
               "alsoIn": [
-                "aaa-short-top-100",
                 "aaa-luchtig-top-100"
               ]
             },
@@ -28526,9 +28504,7 @@ window.TOP_ARTICLES = {
               "coreInterests": [
                 "adhd"
               ],
-              "alsoIn": [
-                "aaa-luchtig-top-100"
-              ]
+              "alsoIn": []
             },
             {
               "position": 41,
@@ -28557,9 +28533,7 @@ window.TOP_ARTICLES = {
               "coreInterests": [
                 "adhd"
               ],
-              "alsoIn": [
-                "aaa-luchtig-top-100"
-              ]
+              "alsoIn": []
             }
           ]
         }
@@ -28568,6 +28542,419 @@ window.TOP_ARTICLES = {
   ],
   "catalog": {
     "items": [
+      {
+        "position": null,
+        "id": "01m46066yr5gnnd4zyc5qnejyk",
+        "title": "Here Is a Person: Enter the Tildeverse",
+        "author": "Brennan Kenneth Brown",
+        "siteName": "brennan.day",
+        "category": "rss",
+        "language": null,
+        "readingTime": "24 mins",
+        "readingMinutes": 24,
+        "wordCount": 6262,
+        "publishedDate": "2026-10-06",
+        "savedDate": "2026-10-05T12:21:29.761000+00:00",
+        "imageUrl": "https://brennan.day/assets/images/blog/tildeverse.jpg",
+        "sourceUrl": "https://brennan.day/here-is-a-person-enter-the-tildeverse/",
+        "readwiseUrl": "https://read.readwise.io/read/01m46066yr5gnnd4zyc5qnejyk",
+        "summary": "The essay I promised back in May. A history of public-access Unix from Dennis Ritchie's 'fellowship' and Grex's potluck dinners to Paul Ford's drunken tilde.club and ~vilmibm's birthday gift to themself; a tour of the seven tildes I call home (including the starship I captain on cosmic.voyage); what kernel exploits and an rm -rf / taught the tildeverse about fragility; and how to move in yourself.",
+        "whyRead": "Een levendig cultuurhistorisch essay over de Tildeverse, kleine Unix- en webgemeenschappen en de vraag hoe internetruimtes weer persoonlijk en gemeenschappelijk kunnen worden. Het sluit aan bij Tim's interesse in technologie, digitale cultuur en alternatieve vormen van samenwerking.",
+        "bestMoment": "reflectief",
+        "tags": [
+          "arts & culture",
+          "sociology & social structures",
+          "technology"
+        ],
+        "coreInterests": [
+          "sociologie"
+        ],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01m460621ksbp8dkzjz2jfff46",
+        "title": "Gen X Is Losing Its Mind Over Workplace Communication",
+        "author": "Jonathan Small",
+        "siteName": "Small Talk",
+        "category": "article",
+        "language": null,
+        "readingTime": "5 mins",
+        "readingMinutes": 5,
+        "wordCount": 1237,
+        "publishedDate": "2026-01-17",
+        "savedDate": "2026-10-05T12:21:27.673000+00:00",
+        "imageUrl": "https://substackcdn.com/image/fetch/$s_!mUIY!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F438080ee-457e-4485-8725-135a82eb78d1_1920x1080.webp",
+        "sourceUrl": "https://jonsmalltalk.substack.com/p/i-yelled-at-a-millennial-for-taking",
+        "readwiseUrl": "https://read.readwise.io/read/01m460621ksbp8dkzjz2jfff46",
+        "summary": "Why nobody at work understands anyone else anymore.",
+        "whyRead": "Een grappig maar bruikbaar stuk over generatieverschillen in werkcommunicatie. De kern is relevant voor teamcoaching: veel conflicten ontstaan doordat mensen intenties afleiden uit verschillende communicatiekanalen, feedbackritmes en omgang met hiërarchie.",
+        "bestMoment": "leergierig",
+        "tags": [
+          "organizational behavior & culture",
+          "social psychology & interpersonal dynamics",
+          "team dynamics & collaboration"
+        ],
+        "coreInterests": [
+          "sociologie",
+          "agile"
+        ],
+        "alsoIn": [
+          "aaa-short-top-100",
+          "aaa-social-studies-top-100"
+        ],
+        "memberships": [
+          {
+            "familyId": "kort",
+            "size": "top-100",
+            "position": 96
+          },
+          {
+            "familyId": "social-studies",
+            "size": "top-100",
+            "position": 58
+          }
+        ]
+      },
+      {
+        "position": null,
+        "id": "01m45z7svzbnn6wed89xryfbpj",
+        "title": "Buffered and porous selves",
+        "author": "tif.ssrc.org",
+        "siteName": "SSRC The Immanent Frame",
+        "category": "article",
+        "language": null,
+        "readingTime": "7 mins",
+        "readingMinutes": 7,
+        "wordCount": 1676,
+        "publishedDate": "2008-09-02",
+        "savedDate": "2026-10-05T12:04:56.317000+00:00",
+        "imageUrl": null,
+        "sourceUrl": "https://tif.ssrc.org/2008/09/02/buffered-and-porous-selves/",
+        "readwiseUrl": "https://read.readwise.io/read/01m45z7svzbnn6wed89xryfbpj",
+        "summary": "Almost everyone can agree that one of the big differences between us and our ancestors of five hundred years ago is that they lived in an \"enchanted\" world, and we...",
+        "whyRead": "Een compacte filosofische verdieping van het onderscheid tussen het moderne ‘gebufferde zelf’ en het vroegmoderne ‘poreuze zelf’. Het sluit direct aan op de reeks over onttovering, betekenis en de sociale gevolgen van veranderende wereldbeelden.",
+        "bestMoment": "analytisch",
+        "tags": [
+          "philosophy",
+          "sociology & social structures"
+        ],
+        "coreInterests": [
+          "filosofie",
+          "sociologie"
+        ],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01m45z6792t2n7syererfpjh9a",
+        "title": "Two’s a crowd",
+        "author": "aeon.co",
+        "siteName": "Aeon",
+        "category": "article",
+        "language": null,
+        "readingTime": "13 mins",
+        "readingMinutes": 13,
+        "wordCount": 3195,
+        "publishedDate": null,
+        "savedDate": "2026-10-05T12:04:04.514000+00:00",
+        "imageUrl": "https://nu.aeon.co/images/17a244ae-0818-43c9-8d27-447ad1026591/header_essay-110153028.jpg",
+        "sourceUrl": "https://aeon.co/essays/a-creative-multiplicity-the-philosophy-of-deleuze-and-guattari",
+        "readwiseUrl": "https://read.readwise.io/read/01m45z6792t2n7syererfpjh9a",
+        "summary": "Zany and earnest, political yet puckish, Gilles Deleuze and Félix Guattari were philosophy’s most improbable duo",
+        "whyRead": "Een toegankelijke introductie tot Deleuze en Guattari als denkers van collectiviteit, verschil en politieke verbeelding. Het essay raakt Tim's interesse in individu/gemeenschap, macht, samenwerking en politieke filosofie.",
+        "bestMoment": "analytisch",
+        "tags": [
+          "philosophy",
+          "political philosophy",
+          "sociology & social structures"
+        ],
+        "coreInterests": [
+          "filosofie",
+          "ideologie",
+          "sociologie"
+        ],
+        "alsoIn": [
+          "aaa-social-studies-top-100"
+        ],
+        "memberships": [
+          {
+            "familyId": "social-studies",
+            "size": "top-100",
+            "position": 98
+          }
+        ]
+      },
+      {
+        "position": null,
+        "id": "01m45nnwgrksbx1aspc5f4zq66",
+        "title": "We Banned the Soul from the Building: On AI, Spiritual Life, and Sustainable Practices for Writing",
+        "author": "Charlotte Donlon",
+        "siteName": "Literary  Hub",
+        "category": "rss",
+        "language": null,
+        "readingTime": "5 mins",
+        "readingMinutes": 5,
+        "wordCount": 1177,
+        "publishedDate": "2026-10-05",
+        "savedDate": "2026-10-05T09:17:43.024000+00:00",
+        "imageUrl": "https://s26162.pcdn.co/wp-content/uploads/2026/09/right-sidebar-banner-images-11-768x432.png",
+        "sourceUrl": "https://lithub.com/we-banned-the-soul-from-the-building-on-ai-spiritual-life-and-sustainable-practices-for-writing/",
+        "readwiseUrl": "https://read.readwise.io/read/01m45nnwgrksbx1aspc5f4zq66",
+        "summary": "The literary world is finally asking a question it has dodged for years: What can a human writer do that artificial intelligence cannot? The answers tend to circle around technical and personal aspects of writing, like voice, lived experience, and",
+        "whyRead": null,
+        "bestMoment": null,
+        "tags": [
+          "ai ethics & society",
+          "arts & culture"
+        ],
+        "coreInterests": [],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01m45j7hyq5wwrhhma2wpz5gvj",
+        "title": "Against disenchantment",
+        "author": "aeon.co",
+        "siteName": "Aeon",
+        "category": "article",
+        "language": null,
+        "readingTime": "16 mins",
+        "readingMinutes": 16,
+        "wordCount": 4104,
+        "publishedDate": null,
+        "savedDate": "2026-10-05T08:17:36.727000+00:00",
+        "imageUrl": "https://omicron.aeon.co/images/f2d1dc25-ca96-4d02-a4aa-8014bbb56210/header_george-dragon-essay.jpg",
+        "sourceUrl": "https://aeon.co/essays/enlightenment-does-not-demand-disenchantment-with-the-world",
+        "readwiseUrl": "https://read.readwise.io/read/01m45j7hyq5wwrhhma2wpz5gvj",
+        "summary": "The move away from myth and toward reason is an ancient human impulse. But must enchantment be the enemy of enlightenment?",
+        "whyRead": null,
+        "bestMoment": null,
+        "tags": [
+          "philosophy",
+          "political philosophy",
+          "sociology & social structures"
+        ],
+        "coreInterests": [
+          "filosofie",
+          "ideologie",
+          "sociologie"
+        ],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01m45j7be2e8r4f2matm85t0bb",
+        "title": "A history of alienation",
+        "author": "aeon.co",
+        "siteName": "Aeon",
+        "category": "article",
+        "language": null,
+        "readingTime": "11 mins",
+        "readingMinutes": 11,
+        "wordCount": 2818,
+        "publishedDate": null,
+        "savedDate": "2026-10-05T08:17:30.050000+00:00",
+        "imageUrl": "https://nu.aeon.co/images/5f258118-4a65-4ba2-84af-16cd64472c49/header_essay-final-mg1529.jpg",
+        "sourceUrl": "https://aeon.co/essays/in-the-1950s-everybody-cool-was-a-little-alienated-what-changed",
+        "readwiseUrl": "https://read.readwise.io/read/01m45j7be2e8r4f2matm85t0bb",
+        "summary": "In the postwar period it was understood to be the fundamental malaise of modern life. Why aren’t we ‘alienated’ any more?",
+        "whyRead": null,
+        "bestMoment": null,
+        "tags": [
+          "philosophy",
+          "political philosophy",
+          "sociology & social structures"
+        ],
+        "coreInterests": [
+          "filosofie",
+          "ideologie",
+          "sociologie"
+        ],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01m45j75m87y74yd60vb2hww00",
+        "title": "Against popular culture",
+        "author": "aeon.co",
+        "siteName": "Aeon",
+        "category": "article",
+        "language": null,
+        "readingTime": "13 mins",
+        "readingMinutes": 13,
+        "wordCount": 3301,
+        "publishedDate": null,
+        "savedDate": "2026-10-05T08:17:24.104000+00:00",
+        "imageUrl": "https://alpha.aeon.co/images/b3f24b2a-d5b9-4ff3-9dd4-0530db75599e/header_perry-essay-887398790_master.jpg",
+        "sourceUrl": "https://aeon.co/essays/against-guilty-pleasures-adorno-on-the-crimes-of-pop-culture",
+        "readwiseUrl": "https://read.readwise.io/read/01m45j75m87y74yd60vb2hww00",
+        "summary": "For Adorno, popular culture is not just bad art – it enslaves us to repetition and robs us of our aesthetic freedom",
+        "whyRead": null,
+        "bestMoment": null,
+        "tags": [
+          "arts & culture",
+          "philosophy",
+          "sociology & social structures"
+        ],
+        "coreInterests": [
+          "filosofie",
+          "sociologie"
+        ],
+        "alsoIn": [
+          "aaa-luchtig-top-100"
+        ],
+        "memberships": [
+          {
+            "familyId": "luchtig",
+            "size": "top-100",
+            "position": 90
+          }
+        ]
+      },
+      {
+        "position": null,
+        "id": "01m45j6zw8vc8rrc8j8073enaw",
+        "title": "Theory from the ruins",
+        "author": "aeon.co",
+        "siteName": "Aeon",
+        "category": "article",
+        "language": null,
+        "readingTime": "15 mins",
+        "readingMinutes": 15,
+        "wordCount": 3911,
+        "publishedDate": null,
+        "savedDate": "2026-10-05T08:17:18.216000+00:00",
+        "imageUrl": "https://alpha.aeon.co/images/e1b8e3ee-bc6b-4366-a8a1-710cc2c0f39a/header_essay-final-par133205.jpg",
+        "sourceUrl": "https://aeon.co/essays/how-the-frankfurt-school-diagnosed-the-ills-of-western-civilisation",
+        "readwiseUrl": "https://read.readwise.io/read/01m45j6zw8vc8rrc8j8073enaw",
+        "summary": "The Frankfurt School argued that reason is dangerous, mass culture deadening, and the Enlightenment a disaster. Were they right?",
+        "whyRead": null,
+        "bestMoment": null,
+        "tags": [
+          "philosophy",
+          "political philosophy",
+          "sociology & social structures"
+        ],
+        "coreInterests": [
+          "filosofie",
+          "ideologie",
+          "sociologie"
+        ],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01m45j6rsak6c4n4pw6r9060t4",
+        "title": "Book Trilogy Review: Remembrance of Earth's Past (The Three Body Problem)",
+        "author": "thezvi.substack.com",
+        "siteName": "substack.com",
+        "category": "article",
+        "language": null,
+        "readingTime": "47 mins",
+        "readingMinutes": 47,
+        "wordCount": 12423,
+        "publishedDate": "2019-01-30",
+        "savedDate": "2026-10-05T08:17:10.954000+00:00",
+        "imageUrl": "https://substackcdn.com/image/fetch/$s_!d2rp!,f_auto,q_auto:best,fl_progressive:steep/https%3A%2F%2Fthezvi.substack.com%2Ftwitter%2Fsubscribe-card.jpg%3Fv%3D-1101181227%26version%3D9",
+        "sourceUrl": "https://thezvi.substack.com/p/book-trilogy-review-remembrance-of-earths-past-the-three-body-problem",
+        "readwiseUrl": "https://read.readwise.io/read/01m45j6rsak6c4n4pw6r9060t4",
+        "summary": "Epistemic Status: Stuff that keeps not going away so I should write it up I suppose.",
+        "whyRead": null,
+        "bestMoment": null,
+        "tags": [
+          "arts & culture",
+          "fiction",
+          "philosophy"
+        ],
+        "coreInterests": [
+          "filosofie"
+        ],
+        "alsoIn": [
+          "aaa-luchtig-top-100"
+        ],
+        "memberships": [
+          {
+            "familyId": "luchtig",
+            "size": "top-100",
+            "position": 99
+          }
+        ]
+      },
+      {
+        "position": null,
+        "id": "01m45j63ghsdw4zc4s8d00dv4a",
+        "title": "Introducing Pizza Bot, an open source inbox for AI agents that work in the background",
+        "author": "aws.amazon.com",
+        "siteName": "Amazon Web Services, Inc.",
+        "category": "article",
+        "language": null,
+        "readingTime": "9 mins",
+        "readingMinutes": 9,
+        "wordCount": 2269,
+        "publishedDate": "2026-09-10",
+        "savedDate": "2026-10-05T08:16:49.169000+00:00",
+        "imageUrl": "https://d2908q01vomqb2.cloudfront.net/ca3512f4dfa95a03169c5a670a4c91a19b3077b4/2026/09/09/pizza-bot-featured-1144x630.png",
+        "sourceUrl": "https://aws.amazon.com/blogs/opensource/introducing-pizza-bot-an-open-source-inbox-for-ai-agents-that-work-in-the-background/",
+        "readwiseUrl": "https://read.readwise.io/read/01m45j63ghsdw4zc4s8d00dv4a",
+        "summary": "Give an agent a task actually worth delegating and you’ll be waiting a while. Ask it what needs your attention this morning and it has to read your mail, your messages, and your task list before it can answer. Then it stops halfway, because one step needs your approval. Meanwhile you’re watching a chat window […]",
+        "whyRead": null,
+        "bestMoment": null,
+        "tags": [
+          "ai ethics & society",
+          "software development",
+          "technology"
+        ],
+        "coreInterests": [],
+        "alsoIn": [
+          "aaa-software-development-top-100"
+        ],
+        "memberships": [
+          {
+            "familyId": "software-development",
+            "size": "top-100",
+            "position": 98
+          }
+        ]
+      },
+      {
+        "position": null,
+        "id": "01m45j5tjgg76933bt602xe5d3",
+        "title": "The African Enlightenment",
+        "author": "aeon.co",
+        "siteName": "Aeon",
+        "category": "article",
+        "language": null,
+        "readingTime": "14 mins",
+        "readingMinutes": 14,
+        "wordCount": 3631,
+        "publishedDate": null,
+        "savedDate": "2026-10-05T08:16:40.016000+00:00",
+        "imageUrl": "https://alpha.aeon.co/images/ade4501d-3991-4159-9443-55b941fc354a/header_essay-par141388.jpg",
+        "sourceUrl": "https://aeon.co/essays/yacob-and-amo-africas-precursors-to-locke-hume-and-kant",
+        "readwiseUrl": "https://read.readwise.io/read/01m45j5tjgg76933bt602xe5d3",
+        "summary": "The highest ideals of Locke, Hume and Kant were first proposed more than a century earlier by an Ethiopian in a cave",
+        "whyRead": null,
+        "bestMoment": null,
+        "tags": [
+          "history",
+          "philosophy",
+          "political philosophy"
+        ],
+        "coreInterests": [
+          "filosofie",
+          "ideologie",
+          "geschiedenis"
+        ],
+        "alsoIn": [],
+        "memberships": []
+      },
       {
         "position": null,
         "id": "01m45a14vq9drbgqajeqxzh3ge",
@@ -28607,124 +28994,6 @@ window.TOP_ARTICLES = {
             "position": 67
           }
         ]
-      },
-      {
-        "position": null,
-        "id": "01m45a0e9xkqxn4zcc96029a2x",
-        "title": "Actionable Metrics at Siemens Health Services",
-        "author": "Agile Alliance |",
-        "siteName": "Agile Alliance |",
-        "category": "article",
-        "language": null,
-        "readingTime": "25 mins",
-        "readingMinutes": 25,
-        "wordCount": 6594,
-        "publishedDate": "2015-12-13",
-        "savedDate": "2026-10-05T05:53:55.005000+00:00",
-        "imageUrl": "https://www.agilealliance.org/wp-content/uploads/2021/11/agile-logo-new-1200x28-1.jpg",
-        "sourceUrl": "https://agilealliance.org/resources/experience-reports/actionable-metrics-siemens-health-services/",
-        "readwiseUrl": "https://read.readwise.io/read/01m45a0e9xkqxn4zcc96029a2x",
-        "summary": "How shifting from traditional agile metrics to Work In Progress, Cycle Time, and Throughput reduced Cycle Times, increased quality and predictability.",
-        "whyRead": "Een concreet Agile/Kanban-caseonderzoek dat laat zien hoe flowmetrics betere gesprekken en voorspellingen opleveren dan story points en velocity.",
-        "bestMoment": "analytisch",
-        "tags": [
-          "agile",
-          "flow & delivery",
-          "scrum"
-        ],
-        "coreInterests": [
-          "agile"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01m456rhheq1mq11s822h0fqvf",
-        "title": "Pizza Bot: Open-Source Inbox for Background AI Agents",
-        "author": "Renato Losio",
-        "siteName": "InfoQ",
-        "category": "article",
-        "language": null,
-        "readingTime": "2 mins",
-        "readingMinutes": 2,
-        "wordCount": 512,
-        "publishedDate": "2026-10-04",
-        "savedDate": "2026-10-05T04:57:10.446000+00:00",
-        "imageUrl": "https://res.infoq.com/news/2026/10/pizza-bot-ai-agents/en/headerimage/generatedHeaderImage-1790332896027.jpg",
-        "sourceUrl": "https://r.updates.infoq.com/tr/cl/ALiqBg_h1j-vf7LBk2ZQbWe3MA5NEJR9GY6FcDPJO8aT3gpyEUWNfgsdnvA9Y067O65imw1v3Lrx1_GfVfAENIP12TS6pCCBbXtTbk-lv58xrgO5cWa3Lq-SAcic_QT1NIHQDrDF5FfwT_IxzeQ12JSU1mSYKyigl9_ee6SmyL2--eW8Vnyfv1pxJvryTf79R6S9lWXKJXkWi5eqkr-yo2T9nXZXn6d5mJmAJc3I1SaXZ3jH8jmZ1QOLGpRafHUiVGeSaJc7NpoAvCXyFQi7mIY1VvmNOJTCzoRlt1pPRpd5HDkVm0DVhhypQcpZFjkNwAyyT4O9DZyKh3oRUGiqpd1Qq0u6fHabUGaE1UAan1JjsJcnLkdtOJZNQwgUGaIy_1_vRlBIITwl6bweQ4-r9PD9T2LQkH8jLRFLxCtvd1cvkF6uKI7P9p1riuQPDhtEnC8I7CzYoX5GzMuNKk7J1II-7UabQyCaknKasDoi790XZk0dIhB498b1tti-Zx9bJ7r26DLbun09qL86mwwtdgrAxkDrl5hIUPhb2DAGMuTKVa2DekzyZKJjyRA5BAjJV_ndYt7Ou22lcy7kdzqPuMkRpdB_0pdltuJl5aoYa2LSnFWdTcouj31k1mye9Vcy2gLmTglLoqIEA2Xp4-DiCK8AZOFGarHf5fkT",
-        "readwiseUrl": "https://read.readwise.io/read/01m456rhheq1mq11s822h0fqvf",
-        "summary": "A team of developers working at AWS recently open-sourced Pizza Bot, a self-hosted application designed to let AI agents run tasks in the background and return results through an inbox-style interface. Agents can perform scheduled or webhook-triggered work, delegate tasks to specialized workers, and pause for human approval when needed.",
-        "whyRead": "Een compacte maar relevante schets van lokale, asynchrone AI-agenten — interessant voor je belangstelling voor AI-tools, automatisering en menselijke controle.",
-        "bestMoment": "analytisch",
-        "tags": [
-          "ai ethics & society",
-          "software development",
-          "technology"
-        ],
-        "coreInterests": [],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01m45042h4fshtxb6sap2ad1qy",
-        "title": "On Social Reality in China",
-        "author": "alkjash",
-        "siteName": "lesswrong.com",
-        "category": "rss",
-        "language": null,
-        "readingTime": "9 mins",
-        "readingMinutes": 9,
-        "wordCount": 2304,
-        "publishedDate": "2026-10-05",
-        "savedDate": "2026-10-05T03:01:05.261000+00:00",
-        "imageUrl": "https://res.cloudinary.com/lesswrong-2-0/image/upload/v1654295382/new_mississippi_river_fjdmww.jpg",
-        "sourceUrl": "https://www.lesswrong.com/posts/b5cSYh4emQb2qrGmK/on-social-reality-in-china",
-        "readwiseUrl": "https://read.readwise.io/read/01m45042h4fshtxb6sap2ad1qy",
-        "summary": "[Epistemic status: intuitions and anecdotes.]Recently, several posts and projects (Thoughts Memo, Babel Translation, Please Give Them a Chance) have taken important steps towards raising AI safety awareness and sharing rationalist philosophy in China. It’s great that we’re recognizing the importance of solving the messaging problem for China, and thus laying the groundwork for an international AI pause. Below I record my perspective on cultural differences which are relatively underdiscussed, which may become roadblocks to this communication program.Background: I’m a “first-generation” Chinese-American who moved to the States at the age of four. The beliefs in this essay are primarily drawn from interactions with my parents and their generation of immigrants, and from consumption of Chinese media (dramas, webnovels, games, and manhua) which are not necessarily representative of the realities on the ground. I am likely over-indexed on the older generation and internet culture, and would appreciate corrections from folks who have direct lived experience. The picture I aim to paint is also complicated by a massive generational gap, and my understanding is that some of the below sentiments (e.g. the cynicism and nationalism) are partly inherited by the younger generation, and partly rejected through a variety of countercultures.Briefly, I point to four axes along which China is strikingly different. These differences are not black-and-white, but I think if you take the liberal middle-class western bubble I live in and shift the mode ~1 standard deviation in these directions you would get a substantively more accurate model of China:Chinese social media is like American junk food. Chinese people find American food disgusting: inauthentic slop inundated with additives and high fructose corn syrup. Westerners will find Chinese social media similarly disgusting: uncanny-valley filters are everywhere, and social media is omnipresent in every corner of life.Primacy of soci...",
-        "whyRead": "Een essayistische, maar nadrukkelijk persoonlijke analyse van sociale realiteit in China, met bruikbare observaties over status, groepsnormen, media en communicatie rond AI-veiligheid.",
-        "bestMoment": "kritisch",
-        "tags": [
-          "current affairs & politics",
-          "sociology & social structures",
-          "technology"
-        ],
-        "coreInterests": [
-          "sociologie"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01m44v925s1m6heewdd5q9esdc",
-        "title": "We Are the Medicine: Recommendations on the Ever Growing List of Latinx Literature",
-        "author": "Tomas Moniz",
-        "siteName": "Literary  Hub",
-        "category": "rss",
-        "language": null,
-        "readingTime": "6 mins",
-        "readingMinutes": 6,
-        "wordCount": 1524,
-        "publishedDate": "2026-10-04",
-        "savedDate": "2026-10-05T01:36:25.857000+00:00",
-        "imageUrl": "https://s26162.pcdn.co/wp-content/uploads/2026/09/right-sidebar-banner-images-10-768x432.png",
-        "sourceUrl": "https://lithub.com/we-are-the-medicine-recommendations-on-the-ever-growing-list-of-latinx-literature/",
-        "readwiseUrl": "https://read.readwise.io/read/01m44v925s1m6heewdd5q9esdc",
-        "summary": "I’m starting this draft on the Fourth of July, 2026 in the Northern California redwoods. The phrase “250 Years of Independence” inundates my social media feed, though most people posting the phrase chide the intended meaning, highlighting the contradictions of",
-        "whyRead": "Een reflectief literatuuressay over Latine-identiteit, taal en de manier waarop fictie ruimte kan maken voor tegenstrijdigheid, gemeenschap en zelfdefinitie.",
-        "bestMoment": "reflectief",
-        "tags": [
-          "arts & culture",
-          "fiction",
-          "sociology & social structures"
-        ],
-        "coreInterests": [
-          "sociologie"
-        ],
-        "alsoIn": [],
-        "memberships": []
       },
       {
         "position": null,
@@ -28981,16 +29250,8 @@ window.TOP_ARTICLES = {
           "technology"
         ],
         "coreInterests": [],
-        "alsoIn": [
-          "aaa-software-development-top-100"
-        ],
-        "memberships": [
-          {
-            "familyId": "software-development",
-            "size": "top-100",
-            "position": 100
-          }
-        ]
+        "alsoIn": [],
+        "memberships": []
       },
       {
         "position": null,
@@ -29175,39 +29436,9 @@ window.TOP_ARTICLES = {
           {
             "familyId": "software-development",
             "size": "top-100",
-            "position": 99
+            "position": 100
           }
         ]
-      },
-      {
-        "position": null,
-        "id": "01m3yjcdmr4cndrnmwcsh98a09",
-        "title": "Reason is more than a tool",
-        "author": "aeon.co",
-        "siteName": "Aeon",
-        "category": "article",
-        "language": null,
-        "readingTime": "15 mins",
-        "readingMinutes": 15,
-        "wordCount": 3882,
-        "publishedDate": "2026-10-01",
-        "savedDate": "2026-10-05T05:54:07.242000+00:00",
-        "imageUrl": "https://images.aeonmedia.co/images/73768d4d-af29-4f99-ab9e-8a2715230088/esssay-gettyimages-2278740190.jpg?width=1200&quality=75&format=jpeg",
-        "sourceUrl": "https://aeon.co/essays/why-real-intelligence-is-something-more-than-optimisation",
-        "readwiseUrl": "https://read.readwise.io/read/01m3yjcdmr4cndrnmwcsh98a09",
-        "summary": "If intelligence is merely optimisation then machines will outrun us. Kant tells us why human reason is so much more",
-        "whyRead": "Raakt je interesse in filosofie en AI-ethiek: het stuk gebruikt Kant en Hume om het verschil tussen optimalisatie en menselijke redelijkheid scherp te maken.",
-        "bestMoment": "analytisch",
-        "tags": [
-          "ai ethics & society",
-          "ethics",
-          "philosophy"
-        ],
-        "coreInterests": [
-          "filosofie"
-        ],
-        "alsoIn": [],
-        "memberships": []
       },
       {
         "position": null,
@@ -29229,34 +29460,17 @@ window.TOP_ARTICLES = {
         "whyRead": "Raakt je interesse in geschiedenis, politieke filosofie en sociale structuren. Het essay verbindt de Duitse hereniging, migratie en nationalisme aan de terugkeer van extreemrechts.",
         "bestMoment": "kritisch",
         "tags": [
-          "current affairs & politics",
           "history",
           "political philosophy",
-          "sociology & social structures",
           "totalitarianism & fascism"
         ],
         "coreInterests": [
           "filosofie",
           "ideologie",
-          "geschiedenis",
-          "sociologie"
+          "geschiedenis"
         ],
-        "alsoIn": [
-          "aaa-top-100",
-          "aaa-social-studies-top-100"
-        ],
-        "memberships": [
-          {
-            "familyId": "algemeen",
-            "size": "top-100",
-            "position": 96
-          },
-          {
-            "familyId": "social-studies",
-            "size": "top-100",
-            "position": 59
-          }
-        ]
+        "alsoIn": [],
+        "memberships": []
       },
       {
         "position": null,
@@ -29517,8 +29731,7 @@ window.TOP_ARTICLES = {
         "tags": [
           "agile",
           "professional development",
-          "software development",
-          "team dynamics & collaboration"
+          "software development"
         ],
         "coreInterests": [
           "agile"
@@ -30620,7 +30833,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 96
+            "position": 97
           }
         ]
       },
@@ -30786,7 +30999,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 99
+            "position": 100
           },
           {
             "familyId": "scrum",
@@ -30886,7 +31099,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 98
+            "position": 99
           },
           {
             "familyId": "social-studies",
@@ -30930,7 +31143,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 95
+            "position": 96
           }
         ]
       },
@@ -31472,10 +31685,16 @@ window.TOP_ARTICLES = {
           "geschiedenis"
         ],
         "alsoIn": [
+          "aaa-top-100",
           "aaa-short-top-100",
           "aaa-luchtig-top-100"
         ],
         "memberships": [
+          {
+            "familyId": "algemeen",
+            "size": "top-100",
+            "position": 100
+          },
           {
             "familyId": "kort",
             "size": "top-100",
@@ -33753,7 +33972,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 93
+            "position": 94
           }
         ]
       },
@@ -33833,7 +34052,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 94
+            "position": 95
           }
         ]
       },
@@ -34443,7 +34662,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 100
+            "position": 99
           },
           {
             "familyId": "luchtig",
@@ -34892,7 +35111,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 99
+            "position": 98
           },
           {
             "familyId": "scrum",
@@ -35059,7 +35278,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 97
+            "position": 98
           }
         ]
       },
@@ -35329,7 +35548,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 92
+            "position": 93
           }
         ]
       },
@@ -35659,7 +35878,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 98
+            "position": 97
           },
           {
             "familyId": "scrum",
@@ -35707,8 +35926,7 @@ window.TOP_ARTICLES = {
         ],
         "alsoIn": [
           "aaa-short-top-100",
-          "aaa-scrum-top-100",
-          "aaa-social-studies-top-100"
+          "aaa-scrum-top-100"
         ],
         "memberships": [
           {
@@ -35720,11 +35938,6 @@ window.TOP_ARTICLES = {
             "familyId": "scrum",
             "size": "top-100",
             "position": 49
-          },
-          {
-            "familyId": "social-studies",
-            "size": "top-100",
-            "position": 100
           }
         ]
       },
@@ -36471,15 +36684,9 @@ window.TOP_ARTICLES = {
           "adhd"
         ],
         "alsoIn": [
-          "aaa-luchtig-top-100",
           "aaa-adhd-top-100"
         ],
         "memberships": [
-          {
-            "familyId": "luchtig",
-            "size": "top-100",
-            "position": 100
-          },
           {
             "familyId": "adhd",
             "size": "top-100",
@@ -36515,15 +36722,9 @@ window.TOP_ARTICLES = {
           "adhd"
         ],
         "alsoIn": [
-          "aaa-luchtig-top-100",
           "aaa-adhd-top-100"
         ],
         "memberships": [
-          {
-            "familyId": "luchtig",
-            "size": "top-100",
-            "position": 99
-          },
           {
             "familyId": "adhd",
             "size": "top-100",
@@ -36566,7 +36767,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 98
+            "position": 100
           },
           {
             "familyId": "adhd",
@@ -36778,16 +36979,10 @@ window.TOP_ARTICLES = {
           "adhd"
         ],
         "alsoIn": [
-          "aaa-short-top-100",
           "aaa-luchtig-top-100",
           "aaa-adhd-top-100"
         ],
         "memberships": [
-          {
-            "familyId": "kort",
-            "size": "top-100",
-            "position": 100
-          },
           {
             "familyId": "luchtig",
             "size": "top-100",
@@ -37546,7 +37741,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "social-studies",
             "size": "top-100",
-            "position": 99
+            "position": 100
           }
         ]
       },
@@ -37943,7 +38138,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "social-studies",
             "size": "top-100",
-            "position": 98
+            "position": 99
           },
           {
             "familyId": "software-development",
@@ -38275,7 +38470,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "software-development",
             "size": "top-100",
-            "position": 98
+            "position": 99
           },
           {
             "familyId": "front-end-development",
@@ -40842,7 +41037,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 91
+            "position": 92
           }
         ]
       },
@@ -42866,7 +43061,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "luchtig",
             "size": "top-100",
-            "position": 90
+            "position": 91
           }
         ]
       },
@@ -42948,7 +43143,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "algemeen",
             "size": "top-100",
-            "position": 97
+            "position": 96
           },
           {
             "familyId": "luchtig",
@@ -43716,7 +43911,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "social-studies",
             "size": "top-100",
-            "position": 58
+            "position": 59
           },
           {
             "familyId": "adhd",
@@ -49404,7 +49599,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 97
+            "position": 98
           },
           {
             "familyId": "luchtig",
@@ -49549,7 +49744,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 96
+            "position": 97
           },
           {
             "familyId": "luchtig",
