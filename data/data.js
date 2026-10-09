@@ -1,6 +1,6 @@
 // Automatisch gegenereerd door scripts/build-data.ts — niet handmatig bewerken.
 window.TOP_ARTICLES = {
-  "generatedAt": "2026-10-09T08:58:19.013Z",
+  "generatedAt": "2026-10-09T10:26:59.665Z",
   "families": [
     {
       "id": "algemeen",
@@ -28556,6 +28556,92 @@ window.TOP_ARTICLES = {
   ],
   "catalog": {
     "items": [
+      {
+        "position": null,
+        "id": "01m4g05tka57f51e3ypeqs0prf",
+        "title": "March 5, 1933: The Election That Destroyed German Democracy",
+        "author": "Timothy Ryback",
+        "siteName": "Literary  Hub",
+        "category": "rss",
+        "language": null,
+        "readingTime": "5 mins",
+        "readingMinutes": 5,
+        "wordCount": 1083,
+        "publishedDate": "2026-10-09",
+        "savedDate": "2026-10-09T09:33:41.426000+00:00",
+        "imageUrl": "https://s26162.pcdn.co/wp-content/uploads/2026/10/Bundesarchiv_Bild_102-14439_Rede_Adolf_Hitlers_zum_Ermachtigungsgesetz-768x437.jpg",
+        "sourceUrl": "https://lithub.com/march-5-1933-the-election-that-destroyed-german-democracy/",
+        "readwiseUrl": "https://read.readwise.io/read/01m4g05tka57f51e3ypeqs0prf",
+        "summary": "Recently, President Donald Trump banned three media organizations from the White House because of their negative coverage of him and his administration. “I mean, there’s something wrong with a country that can allow people to write purposely negative stories,” Trump",
+        "whyRead": "Raakt je interesse in West-Europese geschiedenis en democratie; het stuk laat zien hoe historische machtsgrepen en hedendaagse verkiezingsretoriek met elkaar worden vergeleken. De toegankelijke reconstructie maakt vooral de rol van verkiezingsmanipulatie en kiezersgedrag concreet.",
+        "bestMoment": "kritisch",
+        "tags": [
+          "current affairs & politics",
+          "history"
+        ],
+        "coreInterests": [
+          "geschiedenis"
+        ],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01m4fzdbyra373xkggkkzynqsz",
+        "title": "Met AI klinkt iedereen opeens als een jurist",
+        "author": "mailing.ftm.nl",
+        "siteName": "ftm.nl",
+        "category": "article",
+        "language": null,
+        "readingTime": "2 mins",
+        "readingMinutes": 2,
+        "wordCount": 436,
+        "publishedDate": "2026-09-30",
+        "savedDate": "2026-10-09T09:20:23+00:00",
+        "imageUrl": "https://kijkverderstatic.volkskrant.nl/kijkverder/v/2026/ai-klachten-jurist~v3259857/media/92301866ea001542b9198da527c0221b.webp",
+        "sourceUrl": "https://mailing.ftm.nl/lt.php?x=4lZy~GDGI6Wd5a.tyt~MVxJ0~a6piNT1j-1jkXfGIFnP58J5yEy7xuFu3H2ljdJf0DYxzKpFJFKd5I3_z_tMYOG-1X6gitX3",
+        "readwiseUrl": "https://read.readwise.io/read/01m4fzdbyra373xkggkkzynqsz",
+        "summary": "Met een paar simpele opdrachten verandert een chatbot elke consument in een amateurjurist. Het produceren van een juridisch klinkende claim kost nauwelijks nog moeite, het zorgvuldig afhandelen des te meer. ‘AI versterkt het vastlopen van de rechtsstaat.’",
+        "whyRead": "Raakt je interesse in AI-ethiek en de maatschappelijke gevolgen van taalmodellen; dit Nederlandse artikel laat zien hoe AI zowel toegang tot klachtenprocedures kan vergroten als extra werk en onzekerheid voor geschilleninstanties veroorzaakt.",
+        "bestMoment": "kritisch",
+        "tags": [
+          "ai ethics & society",
+          "technology"
+        ],
+        "coreInterests": [],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01m4fvjm4nf2ah0jy0g5wgvh3f",
+        "title": "AI neerzetten als gevaar voor de rechtsstaat is schadelijk en kortzichtig",
+        "author": "Follow the Money | Jan-Hein",
+        "siteName": "Follow the Money - Platform voor onderzoeksjournalistiek",
+        "category": "email",
+        "language": null,
+        "readingTime": "4 mins",
+        "readingMinutes": 4,
+        "wordCount": 974,
+        "publishedDate": "2026-10-09",
+        "savedDate": "2026-10-09T08:13:20.917000+00:00",
+        "imageUrl": null,
+        "sourceUrl": "mailto:reader-forwarded-email/c966ba5cb34a9fcd9b87a0ab1d7c717d",
+        "readwiseUrl": "https://read.readwise.io/read/01m4fvjm4nf2ah0jy0g5wgvh3f",
+        "summary": "Ik vermoed dat jij ook wel eens een chatbot hebt gebruikt voor een klacht of een pinnig briefje met juridische argumenten.",
+        "whyRead": "Raakt je interesse in AI-ethiek, toegang tot het recht en institutionele macht; Jan-Hein Strop betoogt dat AI juist mensen met weinig geld of juridische kennis kan helpen om hun rechten te laten gelden. Het stuk biedt een duidelijk tegenperspectief op de zorgen over AI-juridisering.",
+        "bestMoment": "kritisch",
+        "tags": [
+          "ai ethics & society",
+          "current affairs & politics",
+          "sociology & social structures"
+        ],
+        "coreInterests": [
+          "sociologie"
+        ],
+        "alsoIn": [],
+        "memberships": []
+      },
       {
         "position": null,
         "id": "01m4frjnqzysrc8s2fy66bsa8k",
