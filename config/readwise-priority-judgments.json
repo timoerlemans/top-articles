@@ -84260,6 +84260,155 @@
       ],
       "judgedBy": "automated-fallback-v1",
       "judgedAt": "2026-10-09T08:58:00.385Z"
+    },
+    "01m4g05tka57f51e3ypeqs0prf": {
+      "sourceFingerprint": "10a662e044b55dbb8839e338e4fd8940aa5910a3228c3bec6aed623796fd5e76",
+      "evidenceFingerprint": "b345837e104294888b3c627c93af1706db983ac0ee4f72ecd215be0d168f96e7",
+      "relevance": 2,
+      "substance": 2,
+      "durability": 3,
+      "usefulness": 2,
+      "sequenceFit": {
+        "video": 0,
+        "boek": 0,
+        "pdf": 0,
+        "lees": 1,
+        "dutch": 0,
+        "short": 1,
+        "short-dutch": 0,
+        "luchtig": 0,
+        "luchtig-nederlands": 0,
+        "scrum": 0,
+        "software-development": 0,
+        "front-end-development": 0,
+        "social-studies": 1,
+        "adhd": 0
+      },
+      "topicRelevance": {
+        "scrum": 0,
+        "software-development": 0,
+        "front-end-development": 0,
+        "social-studies": 2,
+        "adhd": 0
+      },
+      "confidence": "medium",
+      "reasonCodes": [
+        "semantic-review",
+        "independent-of-current-position",
+        "evidence:title-summary-notes-highlights",
+        "evidence:full-content",
+        "interest:history-and-democracy",
+        "historical-political-analysis",
+        "current-comparison-limits-durability"
+      ],
+      "status": "accepted",
+      "rubricVersion": "semantic-v2",
+      "evidenceRefs": [
+        ".tmp/readwise/priority-evidence-inbox-2026-10-09.json#documents.01m4g05tka57f51e3ypeqs0prf",
+        ".tmp/readwise/priority-judgment-batches-inbox-2026-10-09/batch-021.json#documents.01m4g05tka57f51e3ypeqs0prf"
+      ],
+      "judgedBy": "codex-semantic-review-2026-10-09",
+      "judgedAt": "2026-10-09T11:55:00Z"
+    },
+    "01m4fzdbyra373xkggkkzynqsz": {
+      "sourceFingerprint": "bae5a722b5b9b81bb44899b5bf93ee3421ec7679913886a7f0529686d03b27b5",
+      "evidenceFingerprint": "795e8e0fdcdee1d59a360da74fe81d391f8129aedfe400c3bc5d82d451ad9589",
+      "relevance": 3,
+      "substance": 2,
+      "durability": 2,
+      "usefulness": 3,
+      "sequenceFit": {
+        "video": 0,
+        "boek": 0,
+        "pdf": 0,
+        "lees": 0,
+        "dutch": 2,
+        "short": 1,
+        "short-dutch": 1,
+        "luchtig": 0,
+        "luchtig-nederlands": 0,
+        "scrum": 0,
+        "software-development": 0,
+        "front-end-development": 0,
+        "social-studies": 1,
+        "adhd": 0
+      },
+      "topicRelevance": {
+        "scrum": 0,
+        "software-development": 0,
+        "front-end-development": 0,
+        "social-studies": 1,
+        "adhd": 0
+      },
+      "confidence": "medium",
+      "reasonCodes": [
+        "semantic-review",
+        "independent-of-current-position",
+        "evidence:title-summary-notes-highlights",
+        "evidence:full-content",
+        "interest:ai-ethics",
+        "access-to-justice",
+        "reported-social-effects",
+        "concise-current-analysis"
+      ],
+      "status": "accepted",
+      "rubricVersion": "semantic-v2",
+      "evidenceRefs": [
+        ".tmp/readwise/priority-evidence-inbox-2026-10-09.json#documents.01m4fzdbyra373xkggkkzynqsz",
+        ".tmp/readwise/priority-judgment-batches-inbox-2026-10-09/batch-021.json#documents.01m4fzdbyra373xkggkkzynqsz"
+      ],
+      "judgedBy": "codex-semantic-review-2026-10-09",
+      "judgedAt": "2026-10-09T11:55:00Z"
+    },
+    "01m4fvjm4nf2ah0jy0g5wgvh3f": {
+      "sourceFingerprint": "1f7da84d9e9ee1e0298f653cc0bcecbed372b625afbdbda0767f18a9c5fa5070",
+      "evidenceFingerprint": "0bd819115e686e272a55c62c067aef230499e367c03ad5b0592c6025fc6d3963",
+      "relevance": 3,
+      "substance": 3,
+      "durability": 3,
+      "usefulness": 3,
+      "sequenceFit": {
+        "video": 0,
+        "boek": 0,
+        "pdf": 0,
+        "lees": 0,
+        "dutch": 2,
+        "short": 1,
+        "short-dutch": 2,
+        "luchtig": 0,
+        "luchtig-nederlands": 0,
+        "scrum": 0,
+        "software-development": 0,
+        "front-end-development": 0,
+        "social-studies": 1,
+        "adhd": 0
+      },
+      "topicRelevance": {
+        "scrum": 0,
+        "software-development": 0,
+        "front-end-development": 0,
+        "social-studies": 2,
+        "adhd": 0
+      },
+      "confidence": "medium",
+      "reasonCodes": [
+        "semantic-review",
+        "independent-of-current-position",
+        "evidence:title-summary-notes-highlights",
+        "evidence:full-content",
+        "interest:ai-ethics",
+        "interest:institutional-power",
+        "access-to-justice",
+        "clear-counterargument"
+      ],
+      "status": "accepted",
+      "rubricVersion": "semantic-v2",
+      "evidenceRefs": [
+        ".tmp/readwise/priority-evidence-inbox-2026-10-09.json#documents.01m4fvjm4nf2ah0jy0g5wgvh3f",
+        ".tmp/readwise/priority-judgment-batches-inbox-2026-10-09/batch-021.json#documents.01m4fvjm4nf2ah0jy0g5wgvh3f"
+      ],
+      "judgedBy": "codex-semantic-review-2026-10-09",
+      "judgedAt": "2026-10-09T11:55:00Z"
     }
   }
 }
