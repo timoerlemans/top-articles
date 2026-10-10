@@ -1,3 +1,6 @@
+import { readdir, readFile } from "node:fs/promises";
+import { resolve } from "node:path";
+
 import {
   automatedFallbackJudgment,
   buildPriorityEvidence,
@@ -10,6 +13,8 @@ import {
 } from "./priority-judgments.js";
 import type { PriorityDocument } from "./priority-document.js";
 import { TOPIC_SEQUENCE_ORDER } from "./priority-sequences.js";
+import { fetchReadwiseDocuments } from "./readwise-documents.js";
+import type { ReadwiseExecutor } from "./readwise-request.js";
 
 export type EvidenceSelection = "top100" | "all-later";
 
@@ -19,6 +24,35 @@ export interface PriorityEvidenceSnapshot {
   scope: "later";
   selection?: EvidenceSelection;
   documents: Record<string, PriorityDocumentEvidence>;
+}
+
+export interface PriorityEvidenceBatch {
+  version: 1;
+  rubricVersion: "semantic-v2";
+  selection: EvidenceSelection;
+  instruction: string;
+  readingPreferences: string;
+  documents: PriorityDocumentEvidence[];
+}
+
+export interface PriorityEvidencePreparation {
+  snapshot: PriorityEvidenceSnapshot;
+  batches: PriorityEvidenceBatch[];
+}
+
+export interface PriorityEvidencePreparationDependencies {
+  runReadwise: ReadwiseExecutor<{ stdout: string }>;
+  now?: () => string;
+  onProgress?: (event: { completed: number; total: number }) => void;
+}
+
+export interface PriorityEvidencePreparationOptions {
+  selection: EvidenceSelection;
+  readingPreferences: string;
+  cacheDirectory: string;
+  batchSize?: number;
+  cacheOnly?: boolean;
+  refreshHighlights?: boolean;
 }
 
 export interface JudgmentValidationReport {
@@ -77,8 +111,7 @@ export function selectTop100Documents(documents: readonly PriorityDocument[]): P
   return documents.filter(isTop100Document);
 }
 
-export function batchPriorityEvidence(evidence: readonly PriorityDocumentEvidence[], batchSize = 25): PriorityDocumentEvidence[][] {
-  if (!Number.isInteger(batchSize) || batchSize < 1) {throw new Error("Batchgrootte moet positief zijn");}
+function batchPriorityEvidence(evidence: readonly PriorityDocumentEvidence[], batchSize: number): PriorityDocumentEvidence[][] {
   const batches: PriorityDocumentEvidence[][] = [];
   for (let index = 0; index < evidence.length; index += batchSize) {
     batches.push([...evidence.slice(index, index + batchSize)]);
@@ -93,11 +126,83 @@ export function buildEvidenceSnapshot(
   selection: EvidenceSelection = "top100",
 ): PriorityEvidenceSnapshot {
   const candidates = selection === "all-later" ? [...documents] : selectTop100Documents(documents);
+  return snapshotForSelectedDocuments(candidates, highlightsById, generatedAt, selection);
+}
+
+function snapshotForSelectedDocuments(
+  candidates: readonly PriorityDocument[],
+  highlightsById: ReadonlyMap<string, readonly unknown[]>,
+  generatedAt: string,
+  selection: EvidenceSelection,
+): PriorityEvidenceSnapshot {
   const evidence = Object.fromEntries(candidates.flatMap((doc) => {
     if (!doc.id) {return [];}
     return [[doc.id, buildPriorityEvidence(doc, highlightsById.get(doc.id) ?? [])]] as const;
   }));
   return { version: 1, generatedAt, scope: "later", selection, documents: evidence };
+}
+
+async function fetchHighlights(runReadwise: ReadwiseExecutor<{ stdout: string }>, documentId: string): Promise<unknown[]> {
+  const { stdout } = await runReadwise(["reader-get-document-highlights", "--document-id", documentId, "--json"]);
+  const parsed: unknown = JSON.parse(stdout);
+  if (Array.isArray(parsed)) {return parsed as unknown[];}
+  const highlights = parsed && typeof parsed === "object" ? (parsed as Record<string, unknown>).highlights : undefined;
+  return Array.isArray(highlights) ? highlights as unknown[] : [];
+}
+
+async function cachedHighlightsIndex(root: string): Promise<Map<string, unknown[]>> {
+  let names: string[];
+  try {
+    names = (await readdir(root, { recursive: true })).filter((name) => /(?:enrich|triage|highlight|prefetch)/i.test(name) && name.endsWith(".json"));
+  } catch {
+    return new Map();
+  }
+  const found = new Map<string, unknown[]>();
+  for (const name of names) {
+    try {
+      const value: unknown = JSON.parse(await readFile(resolve(root, name), "utf8"));
+      if (!value || typeof value !== "object" || typeof (value as { document_id?: unknown }).document_id !== "string") {continue;}
+      const documentId = (value as { document_id: string }).document_id;
+      const record = value as Record<string, unknown>;
+      const entriesForDocument = found.get(documentId) ?? [];
+      for (const key of ["highlights_created", "highlights"]) {
+        const entries: unknown[] = Array.isArray(record[key]) ? record[key] as unknown[] : [];
+        entriesForDocument.push(...entries.map((entry) => typeof entry === "string" ? { text: entry, pipeline: name } : entry));
+      }
+      found.set(documentId, entriesForDocument);
+    } catch {
+      // Een beschadigd cachebestand mag de read-only judge-run niet blokkeren.
+    }
+  }
+  return found;
+}
+
+/** Prepare the complete evidence and batches; callers own presentation and publication. */
+export async function preparePriorityEvidence(
+  { runReadwise, now = () => new Date().toISOString(), onProgress }: PriorityEvidencePreparationDependencies,
+  { selection, readingPreferences, cacheDirectory, batchSize = 25, cacheOnly = false, refreshHighlights = false }: PriorityEvidencePreparationOptions,
+): Promise<PriorityEvidencePreparation> {
+  if (!Number.isInteger(batchSize) || batchSize < 1) {throw new Error("Batchgrootte moet positief zijn");}
+  const documents = await fetchReadwiseDocuments(runReadwise, { profile: "judge", location: "later" });
+  const candidates = selection === "all-later" ? documents : selectTop100Documents(documents);
+  const cached = refreshHighlights ? new Map<string, unknown[]>() : await cachedHighlightsIndex(cacheDirectory);
+  const highlightsById = new Map<string, readonly unknown[]>();
+  for (const [index, doc] of candidates.entries()) {
+    if (!doc.id) {continue;}
+    const cachedForDocument = cached.get(doc.id) ?? [];
+    highlightsById.set(doc.id, cachedForDocument.length > 0 || cacheOnly ? cachedForDocument : await fetchHighlights(runReadwise, doc.id));
+    onProgress?.({ completed: index + 1, total: candidates.length });
+  }
+  const snapshot = snapshotForSelectedDocuments(candidates, highlightsById, now(), selection);
+  const batches = batchPriorityEvidence(Object.values(snapshot.documents), batchSize).map((documents): PriorityEvidenceBatch => ({
+    version: 1,
+    rubricVersion: "semantic-v2",
+    selection,
+    instruction: `Lees en gebruik readingPreferences bij elke inhoudelijke beoordeling. Beoordeel elk document onafhankelijk van huidige Readwise-posities. Vul de bestaande vier scores én topicRelevance (0–4) in voor ${TOPIC_SEQUENCE_ORDER.join(", ")}. Gebruik voor philosophy de persoonlijke afbakening in readingPreferences; beoordeel de inhoud en toegankelijkheid, niet alleen de brede philosophy-tag.`,
+    readingPreferences,
+    documents,
+  }));
+  return { snapshot, batches };
 }
 
 export function ensureMissingFallbacks(

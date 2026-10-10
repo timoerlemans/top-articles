@@ -2,19 +2,18 @@
 
 import { execFile } from "node:child_process";
 import { promisify } from "node:util";
-import { mkdir, readdir, readFile, writeFile } from "node:fs/promises";
+import { mkdir, readFile, writeFile } from "node:fs/promises";
 import { dirname, resolve } from "node:path";
 import { fileURLToPath } from "node:url";
 
 import { createReadwiseRequester } from "./lib/readwise-request.js";
 import { fetchReadwiseDocuments } from "./lib/readwise-documents.js";
-import { buildEvidenceSnapshot, batchPriorityEvidence, ensureMissingFallbacks, validateJudgmentSet, type EvidenceSelection, type PriorityEvidenceSnapshot } from "./lib/priority-judge.js";
+import { preparePriorityEvidence, ensureMissingFallbacks, validateJudgmentSet, type EvidenceSelection, type PriorityEvidenceSnapshot } from "./lib/priority-judge.js";
 import { validatePriorityJudgments, type PriorityJudgmentsConfig } from "./lib/priority-judgments.js";
 import { buildPriorityComparisonReport } from "./lib/priority-report.js";
 import { validateCoreInterestPriorityConfig } from "./lib/core-interest-priority.js";
 import type { CoreInterestPriorityConfig } from "./lib/core-interest-priority.js";
 import { prepareReadingFeedback } from "./lib/reading-feedback.js";
-import { TOPIC_SEQUENCE_ORDER } from "./lib/priority-sequences.js";
 
 const execFileAsync = promisify(execFile);
 const ROOT = resolve(dirname(fileURLToPath(import.meta.url)), "../..");
@@ -37,43 +36,6 @@ function selectionArgument(): EvidenceSelection {
     throw new Error("Kies precies één dekking: --all-later voor alle later-documenten of --top100 voor huidige top-100-documenten");
   }
   return allLater ? "all-later" : "top100";
-}
-
-async function fetchHighlights(documentId: string): Promise<unknown[]> {
-  const { stdout } = await runReadwise(["reader-get-document-highlights", "--document-id", documentId, "--json"]);
-  const parsed: unknown = JSON.parse(stdout);
-  if (Array.isArray(parsed)) {return parsed as unknown[];}
-  const highlights = parsed && typeof parsed === "object" ? (parsed as Record<string, unknown>).highlights : undefined;
-  if (Array.isArray(highlights)) {return highlights as unknown[];}
-  return [];
-}
-
-async function cachedHighlightsIndex(): Promise<Map<string, unknown[]>> {
-  const root = resolve(ROOT, ".tmp/readwise");
-  let names: string[];
-  try {
-    names = (await readdir(root, { recursive: true })).filter((name) => /(?:enrich|triage|highlight|prefetch)/i.test(name) && name.endsWith(".json"));
-  } catch {
-    return new Map();
-  }
-  const found = new Map<string, unknown[]>();
-  for (const name of names) {
-    try {
-      const value: unknown = JSON.parse(await readFile(resolve(root, name), "utf8"));
-      if (!value || typeof value !== "object" || typeof (value as { document_id?: unknown }).document_id !== "string") {continue;}
-      const documentId = (value as { document_id: string }).document_id;
-      const record = value as Record<string, unknown>;
-      const entriesForDocument = found.get(documentId) ?? [];
-      for (const key of ["highlights_created", "highlights"]) {
-        const entries: unknown[] = Array.isArray(record[key]) ? record[key] as unknown[] : [];
-        entriesForDocument.push(...entries.map((entry) => typeof entry === "string" ? { text: entry, pipeline: name } : entry));
-      }
-      found.set(documentId, entriesForDocument);
-    } catch {
-      // Een beschadigd cachebestand mag de read-only judge-run niet blokkeren.
-    }
-  }
-  return found;
 }
 
 async function writeJson(path: string, value: unknown): Promise<string> {
@@ -112,35 +74,23 @@ async function readEvidence(path = DEFAULT_EVIDENCE_FILE): Promise<PriorityEvide
 
 async function prepareCommand(): Promise<void> {
   const readingPreferences = await readFile(READING_PREFERENCES_FILE, "utf8");
-  const selection = selectionArgument();
-  const documents = await fetchReadwiseDocuments(runReadwise, { profile: "judge", location: "later" });
-  const candidates = selection === "all-later" ? documents : documents.filter((doc) => {
-    const tags = Array.isArray(doc.tags) ? doc.tags : doc.tags && typeof doc.tags === "object" ? Object.keys(doc.tags) : [];
-    return tags.some((tag) => typeof tag === "string" && /(?:^|-)top-100$/.test(tag.toLowerCase()));
+  const { snapshot, batches } = await preparePriorityEvidence({
+    runReadwise,
+    onProgress: ({ completed, total }) => { process.stdout.write(`\rEvidence: ${String(completed)}/${String(total)}`); },
+  }, {
+    selection: selectionArgument(),
+    readingPreferences,
+    cacheDirectory: resolve(ROOT, ".tmp/readwise"),
+    batchSize: Number(option("--batch-size", "25")),
+    cacheOnly: process.argv.includes("--cache-only"),
+    refreshHighlights: process.argv.includes("--refresh-highlights"),
   });
-  const highlightsById = new Map<string, readonly unknown[]>();
-  const cached = process.argv.includes("--refresh-highlights") ? new Map<string, unknown[]>() : await cachedHighlightsIndex();
-  for (const [index, doc] of candidates.entries()) {
-    if (!doc.id) {continue;}
-    const cachedForDocument = cached.get(doc.id) ?? [];
-    highlightsById.set(doc.id, cachedForDocument.length > 0 || process.argv.includes("--cache-only") ? cachedForDocument : await fetchHighlights(doc.id));
-    process.stdout.write(`\rEvidence: ${String(index + 1)}/${String(candidates.length)}`);
-  }
   process.stdout.write("\n");
-  const snapshot = buildEvidenceSnapshot(documents, highlightsById, new Date().toISOString(), selection);
   const evidencePath = await writeJson(option("--output", DEFAULT_EVIDENCE_FILE) ?? DEFAULT_EVIDENCE_FILE, snapshot);
   const batchDir = resolve(option("--batch-dir", DEFAULT_BATCH_DIR) ?? DEFAULT_BATCH_DIR);
-  const batches = batchPriorityEvidence(Object.values(snapshot.documents), Number(option("--batch-size", "25")));
   await mkdir(batchDir, { recursive: true });
   for (const [index, batch] of batches.entries()) {
-    await writeJson(resolve(batchDir, `batch-${String(index + 1).padStart(3, "0")}.json`), {
-      version: 1,
-      rubricVersion: "semantic-v2",
-      selection,
-      instruction: `Lees en gebruik readingPreferences bij elke inhoudelijke beoordeling. Beoordeel elk document onafhankelijk van huidige Readwise-posities. Vul de bestaande vier scores én topicRelevance (0–4) in voor ${TOPIC_SEQUENCE_ORDER.join(", ")}. Gebruik voor philosophy de persoonlijke afbakening in readingPreferences; beoordeel de inhoud en toegankelijkheid, niet alleen de brede philosophy-tag.`,
-      readingPreferences,
-      documents: batch,
-    });
+    await writeJson(resolve(batchDir, `batch-${String(index + 1).padStart(3, "0")}.json`), batch);
   }
   console.log(`Evidence voorbereid voor ${String(Object.keys(snapshot.documents).length)} documenten in ${String(batches.length)} batches.`);
   console.log(`Evidence: ${evidencePath}`);

@@ -2,7 +2,6 @@ import assert from "node:assert/strict";
 import test from "node:test";
 
 import {
-  batchPriorityEvidence,
   buildEvidenceSnapshot,
   ensureMissingFallbacks,
   ensureMissingTop100Fallbacks,
@@ -44,12 +43,6 @@ test("top-100 selection returns the union of all top-100 series and ignores ordi
     document("three", { "aaa-top-10": {}, "lees-0002": {} }),
   ];
   assert.deepEqual(selectTop100Documents(docs).map((doc) => doc.id), ["one", "two"]);
-});
-
-test("batching keeps every evidence record exactly once", () => {
-  const evidence = ["one", "two", "three"].map((id) => buildPriorityEvidence(document(id, { "aaa-top-100": {} })));
-  const batches = batchPriorityEvidence(evidence, 2);
-  assert.deepEqual(batches.map((batch) => batch.map((item) => item.documentId)), [["one", "two"], ["three"]]);
 });
 
 test("all-later evidence preparation includes documents outside current top-100 tags", () => {

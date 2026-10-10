@@ -39,6 +39,15 @@ Een persoonlijk interessegebied waarvoor inhoudelijk bewijs de leesprioriteit
 van een Reader-document verhoogt. Meerdere onafhankelijk onderbouwde
 kerninteresses kunnen tegelijk bijdragen.
 
+**Beoordelingsevidence**:
+Het geselecteerde bronmateriaal en de herkomstgegevens voor een inhoudelijke
+beoordeling van een Reader-document, waaronder titel, samenvatting, inhoudelijke
+notities en highlights. Persoonlijke leesfeedback staat hiervan apart.
+
+**Beoordelingsbatch**:
+Een groep Reader-documenten met hun beoordelingsevidence, de geldende leesvoorkeuren
+en beoordelingsinstructies, bestemd voor een semantische beoordeling.
+
 **Prioriteitstags**:
 De beheerde Reader-tags die posities en toplijstlidmaatschap van een document weergeven,
 plus de tag voor luchtig lezen. Synchronisatie bewaart overige Reader-tags.

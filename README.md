@@ -198,6 +198,26 @@ npm run archive:cleanup:verify
 npm run check   # lint, strict typecheck en tests
 ```
 
+`prepare` haalt Reader-documenten uit `later` op en schrijft een evidence-snapshot en
+beoordelingsbatches. `--top100` selecteert het gezamenlijke lidmaatschap van alle huidige
+top-100-lijsten; `--all-later` neemt alle documenten mee. Kies precies één van deze flags.
+Iedere batch bevat de leesvoorkeuren en instructies voor de huidige topicbeoordeling.
+Voorbereiding verandert geen Reader-documenten of judgments.
+
+Standaard gebruikt `prepare` beschikbare highlights uit lokale enrich-, triage-, highlight-
+en prefetch-JSON-bestanden onder `.tmp/readwise/`; documenten zonder een niet-lege cache
+krijgen live highlights. Beschadigde cachebestanden worden overgeslagen. `--cache-only`
+verhindert live highlightophaling, maar haalt documentmetadata nog steeds op.
+`--refresh-highlights` negeert de cache. Met beide flags samen blijven alle highlights leeg.
+
+`--batch-size` is standaard 25 en moet een positief geheel getal zijn; een ongeldige waarde
+wordt vóór Reader-opvragen en opslag afgewezen. `--output` kiest het snapshotpad
+(standaard `.tmp/readwise/priority-evidence.json`); `--batch-dir` kiest de batchmap
+(standaard `.tmp/readwise/priority-judgment-batches`). Batches heten `batch-001.json`,
+`batch-002.json`, enzovoort; oudere batchbestanden worden niet automatisch verwijderd.
+Een document- of highlightophaalfout schrijft geen nieuwe snapshot of batches.
+De voorbereiding zit in `preparePriorityEvidence`; de CLI verzorgt presentatie en opslag.
+
 `ensure-fallback` haalt alleen huidige `later`-metadata op en schrijft geen labels over.
 Ontbrekende `later`-documenten krijgen een expliciet low-confidence, door
 `automated-fallback-v1` bijgehouden judgment; bestaande semantic judgments, drafts,
