@@ -144,3 +144,20 @@ relatie met de TS-compilatie.
 - Test `test/generated-priority.test.ts` controleert dat de huidige `data/data.js` en
   `data/score.js` intern consistent zijn (zelfde `generatedAt`, dezelfde documentset, geldige
   sortering) — deze faalt als de twee bestanden los van elkaar zijn bewerkt.
+
+## Agent skills
+
+### Issue tracker
+
+Issues en specificaties staan in GitHub Issues van `timoerlemans/top-articles`.
+Lees bij issuewerk `docs/agents/issue-tracker.md`.
+
+### Triage labels
+
+De vijf standaard triage-labels worden gebruikt.
+Lees bij triage `docs/agents/triage-labels.md`.
+
+### Domain docs
+
+Single-context: `CONTEXT.md` in de repo-root en ADRs onder `docs/adr/`.
+Lees vóór codebaseverkenning `docs/agents/domain.md`.
