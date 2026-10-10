@@ -7,8 +7,7 @@ import { dirname, resolve } from "node:path";
 import { fileURLToPath } from "node:url";
 
 import { createReadwiseRequester } from "./lib/readwise-request.js";
-import { parseReadwiseDocumentPage } from "./lib/external-schemas.js";
-import type { ReadwiseDocument } from "./lib/external-schemas.js";
+import { fetchReadwiseDocuments } from "./lib/readwise-documents.js";
 import { buildEvidenceSnapshot, batchPriorityEvidence, ensureMissingFallbacks, validateJudgmentSet, type EvidenceSelection, type PriorityEvidenceSnapshot } from "./lib/priority-judge.js";
 import { validatePriorityJudgments, type PriorityJudgmentsConfig } from "./lib/priority-judgments.js";
 import { buildPriorityComparisonReport } from "./lib/priority-report.js";
@@ -23,7 +22,6 @@ const CORE_INTEREST_FILE = resolve(ROOT, "config/readwise-core-interest-prioriti
 const READING_PREFERENCES_FILE = resolve(ROOT, "config/readwise-reading-preferences.md");
 const DEFAULT_EVIDENCE_FILE = resolve(ROOT, ".tmp/readwise/priority-evidence.json");
 const DEFAULT_BATCH_DIR = resolve(ROOT, ".tmp/readwise/priority-judgment-batches");
-const RESPONSE_FIELDS = "title,summary,word_count,reading_time,published_date,saved_at,category,tags,notes,location";
 const runReadwise = createReadwiseRequester({ exec: (args) => execFileAsync("readwise", args, { maxBuffer: 16 * 1024 * 1024 }) });
 
 function option(name: string, fallback: string | null = null): string | null {
@@ -38,20 +36,6 @@ function selectionArgument(): EvidenceSelection {
     throw new Error("Kies precies één dekking: --all-later voor alle later-documenten of --top100 voor huidige top-100-documenten");
   }
   return allLater ? "all-later" : "top100";
-}
-
-async function fetchLater(): Promise<ReadwiseDocument[]> {
-  const documents: ReadwiseDocument[] = [];
-  let cursor: string | null = null;
-  do {
-    const args = ["reader-list-documents", "--location", "later", "--limit", "100", "--response-fields", RESPONSE_FIELDS, "--json"];
-    if (cursor) {args.push("--page-cursor", cursor);}
-    const { stdout } = await runReadwise(args);
-    const page = parseReadwiseDocumentPage(JSON.parse(stdout));
-    documents.push(...page.documents);
-    cursor = page.nextPageCursor;
-  } while (cursor);
-  return documents;
 }
 
 async function fetchHighlights(documentId: string): Promise<unknown[]> {
@@ -128,7 +112,7 @@ async function readEvidence(path = DEFAULT_EVIDENCE_FILE): Promise<PriorityEvide
 async function prepareCommand(): Promise<void> {
   const readingPreferences = await readFile(READING_PREFERENCES_FILE, "utf8");
   const selection = selectionArgument();
-  const documents = await fetchLater();
+  const documents = await fetchReadwiseDocuments(runReadwise, { profile: "judge", location: "later" });
   const candidates = selection === "all-later" ? documents : documents.filter((doc) => {
     const tags = Array.isArray(doc.tags) ? doc.tags : doc.tags && typeof doc.tags === "object" ? Object.keys(doc.tags) : [];
     return tags.some((tag) => typeof tag === "string" && /(?:^|-)top-100$/.test(tag.toLowerCase()));
@@ -178,7 +162,7 @@ async function prepareFeedbackCommand(): Promise<void> {
 }
 
 async function validateCommand(): Promise<void> {
-  const documents = await fetchLater();
+  const documents = await fetchReadwiseDocuments(runReadwise, { profile: "judge", location: "later" });
   const snapshot = await readEvidence(option("--evidence", DEFAULT_EVIDENCE_FILE) ?? DEFAULT_EVIDENCE_FILE);
   const config = await readConfig(option("--config", JUDGMENTS_FILE) ?? JUDGMENTS_FILE);
   const report = validateJudgmentSet(documents, snapshot, config, {
@@ -191,7 +175,7 @@ async function validateCommand(): Promise<void> {
 
 async function ensureFallbackCommand(): Promise<void> {
   const selection = selectionArgument();
-  const documents = await fetchLater();
+  const documents = await fetchReadwiseDocuments(runReadwise, { profile: "judge", location: "later" });
   const configPath = option("--config", JUDGMENTS_FILE) ?? JUDGMENTS_FILE;
   const config = await readConfig(configPath);
   const judgedAt = option("--judged-at");
@@ -215,7 +199,7 @@ function reportMarkdown(report: ReturnType<typeof buildPriorityComparisonReport>
 }
 
 async function reportCommand(): Promise<void> {
-  const documents = await fetchLater();
+  const documents = await fetchReadwiseDocuments(runReadwise, { profile: "judge", location: "later" });
   const config = await readConfig(option("--config", JUDGMENTS_FILE) ?? JUDGMENTS_FILE);
   const coreInterestConfig = await readCoreInterestConfig();
   const report = buildPriorityComparisonReport(documents, config, new Date().toISOString(), coreInterestConfig);

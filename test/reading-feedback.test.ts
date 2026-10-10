@@ -123,6 +123,48 @@ test("targeted feedback preparation reads an archived document without a locatio
   assert.equal(review.documents[0]?.document.location, "archive");
 });
 
+for (const location of [undefined, null]) {
+  test(`feedback bewaart laatste versie en oorspronkelijke ID-volgorde: ${String(location)}`, async () => {
+    const pages = [
+      { results: [{ ...document, id: "one", notes: "Old source.\n\nFeedback: first" }], nextPageCursor: "later-next" },
+      { results: [{ ...document, id: "two", notes: "Second source.\n\nFeedback: second" }] },
+      { results: [{ ...document, id: "one", location, notes: "New source.\n\nFeedback: last" }] },
+    ];
+    const review = await prepareReadingFeedback(() => {
+      const page = pages.shift();
+      assert.ok(page, "unexpected Reader request");
+      return Promise.resolve({ stdout: JSON.stringify(page) });
+    }, { version: 2, rubricVersion: "semantic-v1", items: {} }, "");
+    assert.deepEqual(review.documents.map((entry) => entry.document.id), ["one", "two"]);
+    assert.equal(review.documents[0]?.feedback, "last");
+    assert.equal(review.documents[0]?.document.notes, "New source.");
+    assert.equal(review.documents[0]?.evidence.notes, "New source.");
+    assert.equal(review.documents[0]?.document.location, "archive");
+    assert.equal(review.documents[1]?.document.location, "later");
+    assert.equal(pages.length, 0);
+  });
+}
+
+test("feedback behoudt de expliciete documentlocatie", async () => {
+  const pages = [
+    { results: [] },
+    { results: [{ ...document, location: "later", notes: "Feedback: returned location" }] },
+  ];
+  const review = await prepareReadingFeedback(() => {
+    const page = pages.shift();
+    assert.ok(page, "unexpected Reader request");
+    return Promise.resolve({ stdout: JSON.stringify(page) });
+  }, { version: 2, rubricVersion: "semantic-v1", items: {} }, "");
+  assert.equal(review.documents[0]?.document.location, "later");
+});
+
+test("gerichte feedback verzint geen ontbrekende documentlocatie", async () => {
+  const review = await prepareReadingFeedback(() => Promise.resolve({
+    stdout: JSON.stringify({ results: [{ ...document, notes: "Feedback: targeted" }] }),
+  }), { version: 2, rubricVersion: "semantic-v1", items: {} }, "", document.id ?? "");
+  assert.equal(review.documents[0]?.document.location, null);
+});
+
 test("Reader errors do not return a misleading incomplete review", async () => {
   let calls = 0;
   await assert.rejects(prepareReadingFeedback(() => {

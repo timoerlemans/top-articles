@@ -9,8 +9,7 @@ import { z } from "zod";
 
 import { validateCoreInterestPriorityConfig } from "./lib/core-interest-priority.js";
 import type { CoreInterestPriorityConfig } from "./lib/core-interest-priority.js";
-import { parseReadwiseDocumentPage } from "./lib/external-schemas.js";
-import type { ReadwiseDocument } from "./lib/external-schemas.js";
+import { fetchReadwiseDocuments } from "./lib/readwise-documents.js";
 import { buildTopicPriorityImpactReport, formatTopicPriorityImpactMarkdown } from "./lib/topic-priority-report.js";
 import { validatePriorityJudgments } from "./lib/priority-judgments.js";
 import type { PriorityJudgmentsConfig } from "./lib/priority-judgments.js";
@@ -21,32 +20,17 @@ const ROOT = resolve(dirname(fileURLToPath(import.meta.url)), "../..");
 const OVERRIDES_FILE = resolve(ROOT, "config/readwise-priority-overrides.json");
 const JUDGMENTS_FILE = resolve(ROOT, "config/readwise-priority-judgments.json");
 const CORE_INTEREST_FILE = resolve(ROOT, "config/readwise-core-interest-priorities.json");
-const RESPONSE_FIELDS = "title,author,summary,word_count,reading_time,published_date,saved_at,category,tags,notes,location";
 const DEFAULT_JSON = ".tmp/readwise/topic-priority-impact.json";
 const DEFAULT_MARKDOWN = ".tmp/readwise/topic-priority-impact.md";
 const overridesSchema = z.object({
   version: z.literal(1),
   items: z.record(z.string(), z.object({ adjustment: z.number().optional(), reason: z.string().nullable().optional() })),
 });
-const runReadwise = (args: readonly string[]) => execFileAsync("readwise", [...args, "--json"], { maxBuffer: 64 * 1024 * 1024 });
+const runReadwise = (args: readonly string[]) => execFileAsync("readwise", [...args], { maxBuffer: 64 * 1024 * 1024 });
 
 function option(name: string, fallback: string): string {
   const index = process.argv.indexOf(name);
   return index >= 0 ? process.argv[index + 1] ?? fallback : fallback;
-}
-
-async function fetchLater(): Promise<ReadwiseDocument[]> {
-  const documents: ReadwiseDocument[] = [];
-  let cursor: string | null = null;
-  do {
-    const args = ["reader-list-documents", "--location", "later", "--limit", "100", "--response-fields", RESPONSE_FIELDS];
-    if (cursor) {args.push("--page-cursor", cursor);}
-    const { stdout } = await runReadwise(args);
-    const page = parseReadwiseDocumentPage(JSON.parse(stdout));
-    documents.push(...page.documents);
-    cursor = page.nextPageCursor;
-  } while (cursor);
-  return documents;
 }
 
 async function readJudgments(): Promise<PriorityJudgmentsConfig> {
@@ -71,7 +55,7 @@ async function writeOutput(path: string, content: string): Promise<string> {
 async function main(): Promise<void> {
   const generatedAt = new Date().toISOString();
   const [documents, judgments, coreInterestConfig] = await Promise.all([
-    fetchLater(),
+    fetchReadwiseDocuments(runReadwise, { profile: "report", location: "later" }),
     readJudgments(),
     readCoreInterestConfig(),
   ]);

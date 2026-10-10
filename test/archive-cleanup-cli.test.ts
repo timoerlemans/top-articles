@@ -5,6 +5,7 @@ import { delimiter, join } from "node:path";
 import { tmpdir } from "node:os";
 import test from "node:test";
 import { fileURLToPath } from "node:url";
+import { validateArchiveCleanupPlan } from "../scripts/lib/archive-cleanup.js";
 
 interface CommandResult {
   code: number | null;
@@ -41,6 +42,80 @@ async function readReadwiseCalls(path: string): Promise<string[]> {
     throw error;
   }
 }
+
+async function withReadwisePages(
+  pages: readonly unknown[],
+  check: (fixture: { environment: NodeJS.ProcessEnv; planPath: string; callLogPath: string }) => Promise<void>,
+): Promise<void> {
+  const directory = await mkdtemp(join(tmpdir(), "top-articles-cleanup-pages-"));
+  try {
+    const binDirectory = join(directory, "bin");
+    const readwisePath = join(binDirectory, "readwise");
+    const planPath = join(directory, "plan.json");
+    const callLogPath = join(directory, "calls.log");
+    await mkdir(binDirectory);
+    await writeFile(readwisePath, [
+      "#!/bin/sh",
+      "printf '%s\\n' \"$*\" >> \"$ARCHIVE_CLEANUP_CALL_LOG\"",
+      'case $(wc -l < "$ARCHIVE_CLEANUP_CALL_LOG") in',
+      ...pages.map((page, index) => `${String(index + 1)}) printf '%s' '${JSON.stringify(page)}' ;;`),
+      `*) printf '%s' '{"results":[],"nextPageCursor":null}' ;;`,
+      "esac",
+      "",
+    ].join("\n"));
+    await chmod(readwisePath, 0o755);
+    await check({
+      planPath,
+      callLogPath,
+      environment: {
+        ...process.env,
+        PATH: `${binDirectory}${delimiter}${process.env.PATH ?? ""}`,
+        ARCHIVE_CLEANUP_CALL_LOG: callLogPath,
+      },
+    });
+  } finally {
+    await rm(directory, { recursive: true, force: true });
+  }
+}
+
+test("herhaalde paginacursor schrijft geen gedeeltelijk cleanup-plan", async () => {
+  await withReadwisePages([
+    { results: [{ id: "first", location: "archive", tags: { "lees-0001": {} } }], nextPageCursor: "again" },
+    { results: [], nextPageCursor: "again" },
+  ], async ({ environment, planPath, callLogPath }) => {
+    const result = await runCleanupCli(["plan", "--output", planPath], environment);
+    assert.notEqual(result.code, 0);
+    assert.match(result.stderr, /paginacursor/i);
+    assert.equal((await readReadwiseCalls(callLogPath)).length, 2);
+    await assert.rejects(readFile(planPath, "utf8"), { code: "ENOENT" });
+  });
+});
+
+test("cleanup-plan bevat documenten van alle pagina's", async () => {
+  await withReadwisePages([
+    { results: [{ id: "one", location: "archive", tags: { "lees-0001": {} } }], nextPageCursor: "next" },
+    { results: [{ id: "two", location: "archive", tags: { "aaa-top-10": {} } }] },
+  ], async ({ environment, planPath, callLogPath }) => {
+    const result = await runCleanupCli(["plan", "--output", planPath], environment);
+    assert.equal(result.code, 0, result.stderr);
+    const plan: unknown = JSON.parse(await readFile(planPath, "utf8"));
+    assert.ok(validateArchiveCleanupPlan(plan));
+    assert.equal(plan.summary.documents, 2);
+    assert.deepEqual(plan.operations, [
+      { action: "remove", documentId: "one", tag: "lees-0001" },
+      { action: "remove", documentId: "two", tag: "aaa-top-10" },
+    ]);
+    const calls = await readReadwiseCalls(callLogPath);
+    assert.equal(calls.length, 2);
+    assert.ok(calls[1]?.includes("--page-cursor next"));
+    for (const call of calls) {
+      const args = call.split(" ");
+      assert.equal(args[0], "reader-list-documents");
+      assert.equal(args[args.indexOf("--location") + 1], "archive");
+      assert.equal(args.filter((arg) => arg === "--json").length, 1);
+    }
+  });
+});
 
 test("lege archive cleanup slaat live scans tijdens apply over", async () => {
   const directory = await mkdtemp(join(tmpdir(), "top-articles-archive-cleanup-"));

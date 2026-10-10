@@ -18,7 +18,7 @@ import { FAMILY_DEFINITIONS, buildUnifiedLists } from "./lib/unified-lists.js";
 import type { RankedUnifiedEntry, UnifiedCatalogEntry } from "./lib/unified-lists.js";
 import { parseReadingMinutes } from "./lib/reading-time.js";
 import { createReadwiseRequester } from "./lib/readwise-request.js";
-import { parseReadwiseDocumentPage } from "./lib/external-schemas.js";
+import { fetchReadwiseDocuments } from "./lib/readwise-documents.js";
 import { canonicalInterestTags } from "./lib/readwise-tags.js";
 import type { ReadwiseDocument } from "./lib/external-schemas.js";
 import { publicReadingNotes } from "./lib/reader-notes.js";
@@ -33,8 +33,6 @@ const OVERRIDES_FILE = join(ROOT, "config", "readwise-priority-overrides.json");
 const JUDGMENTS_FILE = join(ROOT, "config", "readwise-priority-judgments.json");
 const CORE_INTEREST_FILE = join(ROOT, "config", "readwise-core-interest-priorities.json");
 
-const RESPONSE_FIELDS =
-  "title,author,site_name,summary,word_count,reading_time,published_date,saved_at,image_url,source_url,url,category,tags,notes";
 
 // Kleine, vaste set taal-tags — bewust geen volledige taxonomie-tags in de output.
 const LANGUAGE_TAG_MAP: Readonly<Record<string, string>> = {
@@ -51,34 +49,6 @@ const LANGUAGE_TAG_MAP: Readonly<Record<string, string>> = {
 const runReadwise = createReadwiseRequester({
   exec: (commandArgs) => execFileAsync("readwise", commandArgs, { maxBuffer: READWISE_MAX_BUFFER }),
 });
-
-async function fetchDocumentsByLocation(location: string): Promise<ReadwiseDocument[]> {
-  const results: ReadwiseDocument[] = [];
-  let cursor = null;
-
-  do {
-    const args = [
-      "reader-list-documents",
-      "--location",
-      location,
-      "--limit",
-      "100",
-      "--response-fields",
-      RESPONSE_FIELDS,
-      "--json",
-    ];
-    if (cursor) {
-      args.push("--page-cursor", cursor);
-    }
-
-    const { stdout } = await runReadwise(args);
-    const page = parseReadwiseDocumentPage(JSON.parse(stdout));
-    results.push(...page.documents);
-    cursor = page.nextPageCursor;
-  } while (cursor);
-
-  return results;
-}
 
 function tagKeys(doc: ReadwiseDocument): string[] {
   const t = doc.tags;
@@ -169,7 +139,7 @@ function toItem(doc: ReadwiseDocument, position: number | null): CatalogItem {
 }
 
 async function main() {
-  const laterDocs = await fetchDocumentsByLocation("later");
+  const laterDocs = await fetchReadwiseDocuments(runReadwise, { profile: "catalog", location: "later" });
   const generatedAt = new Date().toISOString();
   const overrides: PriorityOverridesConfig = overridesSchema.parse(JSON.parse(await readFile(OVERRIDES_FILE, "utf8")));
   const judgmentValue: unknown = JSON.parse(await readFile(JUDGMENTS_FILE, "utf8"));

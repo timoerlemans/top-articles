@@ -18,14 +18,13 @@ import type { DocumentBatchResult, PriorityJournal } from "./lib/priority-apply.
 import { buildDocumentTagUpdates, BULK_EDIT_BATCH_SIZE } from "./lib/priority-batch.js";
 import type { DocumentTagUpdate } from "./lib/priority-batch.js";
 import { createReadwiseRequester } from "./lib/readwise-request.js";
-import { parseReadwiseDocumentPage } from "./lib/external-schemas.js";
+import { fetchReadwiseDocuments } from "./lib/readwise-documents.js";
 import type { ReadwiseDocument } from "./lib/external-schemas.js";
 import { tagNames } from "./lib/priority-tag-plan.js";
 
 const execFileAsync = promisify(execFile);
 const DEFAULT_PLAN = ".tmp/readwise/archive-cleanup-plan.json";
 const DEFAULT_JOURNAL = ".tmp/readwise/archive-cleanup-journal.json";
-const RESPONSE_FIELDS = "title,saved_at,category,location,tags";
 const journalSchema = z.looseObject({
   planHash: z.string(),
   startedAt: z.string(),
@@ -51,20 +50,6 @@ const runReadwiseMutation = createReadwiseRequester({
 function option(name: string, fallback: string | null = null): string | null {
   const index = process.argv.indexOf(name);
   return index >= 0 ? process.argv[index + 1] ?? fallback : fallback;
-}
-
-async function fetchArchive(): Promise<ReadwiseDocument[]> {
-  const documents: ReadwiseDocument[] = [];
-  let cursor: string | null = null;
-  do {
-    const args = ["reader-list-documents", "--location", "archive", "--limit", "100", "--response-fields", RESPONSE_FIELDS, "--json"];
-    if (cursor) {args.push("--page-cursor", cursor);}
-    const { stdout } = await runReadwise(args);
-    const page = parseReadwiseDocumentPage(JSON.parse(stdout));
-    documents.push(...page.documents);
-    cursor = page.nextPageCursor;
-  } while (cursor);
-  return documents;
 }
 
 async function writeJson(path: string, value: unknown): Promise<string> {
@@ -104,7 +89,7 @@ async function readJournal(path: string, planHash: string): Promise<PriorityJour
 }
 
 async function createPlan(generatedAt?: string): Promise<{ plan: ArchiveCleanupPlan; documents: ReadwiseDocument[] }> {
-  const documents = await fetchArchive();
+  const documents = await fetchReadwiseDocuments(runReadwise, { profile: "archive-cleanup", location: "archive" });
   const plan = generatedAt === undefined
     ? buildArchiveCleanupPlan(documents)
     : buildArchiveCleanupPlan(documents, { generatedAt });

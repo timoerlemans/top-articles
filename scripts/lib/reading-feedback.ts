@@ -1,6 +1,7 @@
 import { createHash } from "node:crypto";
 
-import { parseReadwiseDocumentPage } from "./external-schemas.js";
+import { fetchReadwiseDocuments } from "./readwise-documents.js";
+import type { ReadwiseDocumentSelection } from "./readwise-documents.js";
 import type { ReadwiseDocument } from "./external-schemas.js";
 import { buildPriorityEvidence } from "./priority-judgments.js";
 import type { ContentJudgment, PriorityDocumentEvidence, PriorityJudgmentsConfig } from "./priority-judgments.js";
@@ -24,8 +25,6 @@ export interface ReadingFeedbackReview {
   documents: ReadingFeedbackEntry[];
 }
 
-const RESPONSE_FIELDS = "title,author,summary,notes,location,category,word_count,reading_time,published_date,saved_at,tags";
-
 /** Read-only evidence preparation; interpretation and approval happen with Codex. */
 export async function prepareReadingFeedback(
   runReadwise: ReadwiseExecutor<{ stdout: string }>,
@@ -34,23 +33,14 @@ export async function prepareReadingFeedback(
   documentId?: string,
 ): Promise<ReadingFeedbackReview> {
   const documents = new Map<string, ReadwiseDocument>();
-  for (const location of documentId ? [null] : ["later", "archive"]) {
-    let cursor: string | null = null;
-    const cursors = new Set<string>();
-    do {
-      const args = ["reader-list-documents", "--limit", "100", "--response-fields", RESPONSE_FIELDS, "--json"];
-      if (documentId) {args.push("--id", documentId);}
-      if (location) {args.splice(1, 0, "--location", location);}
-      if (cursor) {args.push("--page-cursor", cursor);}
-      const { stdout } = await runReadwise(args);
-      const page = parseReadwiseDocumentPage(JSON.parse(stdout));
-      for (const doc of page.documents) {
-        documents.set(doc.id, { ...doc, location: doc.location ?? location });
-      }
-      cursor = page.nextPageCursor;
-      if (cursor && cursors.has(cursor)) {throw new Error("Reader herhaalt een paginacursor; feedback ophalen afgebroken.");}
-      if (cursor) {cursors.add(cursor);}
-    } while (cursor);
+  const selections: ReadwiseDocumentSelection[] = documentId
+    ? [{ profile: "feedback", documentId }]
+    : [{ profile: "feedback", location: "later" }, { profile: "feedback", location: "archive" }];
+  for (const selection of selections) {
+    const selectedDocuments = await fetchReadwiseDocuments(runReadwise, selection);
+    for (const doc of selectedDocuments) {
+      documents.set(doc.id, { ...doc, location: doc.location ?? selection.location ?? null });
+    }
   }
   const entries: ReadingFeedbackEntry[] = [];
   for (const doc of documents.values()) {

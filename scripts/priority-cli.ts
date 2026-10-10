@@ -15,7 +15,7 @@ import { buildDocumentTagUpdates, BULK_EDIT_BATCH_SIZE } from "./lib/priority-ba
 import type { DocumentTagUpdate } from "./lib/priority-batch.js";
 import { reconcilePrioritySync } from "./lib/priority-reconcile.js";
 import { createReadwiseRequester } from "./lib/readwise-request.js";
-import { parseReadwiseDocumentPage } from "./lib/external-schemas.js";
+import { fetchReadwiseDocuments } from "./lib/readwise-documents.js";
 import type { ReadwiseDocument } from "./lib/external-schemas.js";
 import type { PriorityOverridesConfig, PriorityJudgmentsConfig } from "./lib/readwise-priority-v8.js";
 import { validatePriorityJudgments } from "./lib/priority-judgments.js";
@@ -27,7 +27,6 @@ const ROOT = resolve(dirname(fileURLToPath(import.meta.url)), "../..");
 const OVERRIDES_FILE = resolve(ROOT, "config/readwise-priority-overrides.json");
 const JUDGMENTS_FILE = resolve(ROOT, "config/readwise-priority-judgments.json");
 const CORE_INTEREST_FILE = resolve(ROOT, "config/readwise-core-interest-priorities.json");
-const RESPONSE_FIELDS = "title,author,summary,word_count,reading_time,published_date,saved_at,updated_at,category,location,reading_progress,tags,notes";
 const LOCATIONS = ["later", "new", "shortlist", "archive", "feed"] as const;
 type Location = (typeof LOCATIONS)[number];
 const overridesSchema = z.object({
@@ -76,27 +75,11 @@ function journalForPendingOperations(journal: PriorityJournal, operations: reado
   };
 }
 
-async function fetchLocation(location: Location): Promise<ReadwiseDocument[]> {
-  const documents: ReadwiseDocument[] = [];
-  let cursor = null;
-  do {
-    const args = ["reader-list-documents", "--location", location, "--limit", "100", "--response-fields", RESPONSE_FIELDS, "--json"];
-    if (cursor) {
-      args.push("--page-cursor", cursor);
-    }
-    const { stdout } = await runReadwise(args);
-    const page = parseReadwiseDocumentPage(JSON.parse(stdout));
-    documents.push(...page.documents);
-    cursor = page.nextPageCursor;
-  } while (cursor);
-  return documents;
-}
-
 async function fetchLibrary({ cleanupAll = false }: { cleanupAll?: boolean } = {}): Promise<{ later: ReadwiseDocument[]; outside: ReadwiseDocument[] }> {
   const byLocation: Partial<Record<Location, ReadwiseDocument[]>> = {};
   const locations: readonly Location[] = cleanupAll ? LOCATIONS : ["later"];
   for (const location of locations) {
-    byLocation[location] = await fetchLocation(location);
+    byLocation[location] = await fetchReadwiseDocuments(runReadwise, { profile: "maintenance", location });
   }
   const later = byLocation.later ?? [];
   const outside = [

@@ -20,7 +20,7 @@ import {
   type LeesArchivePlan,
 } from "./lib/archive-lees-plan.js";
 import { createReadwiseRequester } from "./lib/readwise-request.js";
-import { parseReadwiseDocumentPage } from "./lib/external-schemas.js";
+import { fetchReadwiseDocuments } from "./lib/readwise-documents.js";
 import type { ReadwiseDocument } from "./lib/external-schemas.js";
 import type { PriorityJudgmentsConfig, PriorityOverridesConfig } from "./lib/readwise-priority-v8.js";
 import { validatePriorityJudgments } from "./lib/priority-judgments.js";
@@ -34,7 +34,6 @@ const JUDGMENTS_FILE = resolve(ROOT, "config/readwise-priority-judgments.json");
 const CORE_INTEREST_FILE = resolve(ROOT, "config/readwise-core-interest-priorities.json");
 const DEFAULT_PLAN = ".tmp/readwise/archive-lees-plan.json";
 const DEFAULT_JOURNAL = ".tmp/readwise/archive-lees-journal.json";
-const RESPONSE_FIELDS = "title,author,summary,word_count,reading_time,published_date,saved_at,updated_at,category,location,reading_progress,tags,notes";
 
 const overridesSchema = z.object({
   version: z.literal(1),
@@ -73,20 +72,6 @@ const runReadwiseMutation = createReadwiseRequester({
 function option(name: string, fallback: string | null = null): string | null {
   const index = process.argv.indexOf(name);
   return index >= 0 ? process.argv[index + 1] ?? fallback : fallback;
-}
-
-async function fetchLater(): Promise<ReadwiseDocument[]> {
-  const documents: ReadwiseDocument[] = [];
-  let cursor: string | null = null;
-  do {
-    const args = ["reader-list-documents", "--location", "later", "--limit", "100", "--response-fields", RESPONSE_FIELDS, "--json"];
-    if (cursor) { args.push("--page-cursor", cursor); }
-    const { stdout } = await runReadwise(args);
-    const page = parseReadwiseDocumentPage(JSON.parse(stdout));
-    documents.push(...page.documents);
-    cursor = page.nextPageCursor;
-  } while (cursor);
-  return documents;
 }
 
 async function loadOverrides(): Promise<PriorityOverridesConfig> {
@@ -160,7 +145,7 @@ async function createPlan(generatedAt?: string): Promise<{
   coreInterestConfig: CoreInterestPriorityConfig;
 }> {
   const [documents, overrides, judgments, coreInterestConfig] = await Promise.all([
-    fetchLater(),
+    fetchReadwiseDocuments(runReadwise, { profile: "maintenance", location: "later" }),
     loadOverrides(),
     loadJudgments(),
     loadCoreInterestConfig(),
