@@ -14,6 +14,7 @@ import { buildPriorityComparisonReport } from "./lib/priority-report.js";
 import { validateCoreInterestPriorityConfig } from "./lib/core-interest-priority.js";
 import type { CoreInterestPriorityConfig } from "./lib/core-interest-priority.js";
 import { prepareReadingFeedback } from "./lib/reading-feedback.js";
+import { TOPIC_SEQUENCE_ORDER } from "./lib/priority-sequences.js";
 
 const execFileAsync = promisify(execFile);
 const ROOT = resolve(dirname(fileURLToPath(import.meta.url)), "../..");
@@ -136,7 +137,7 @@ async function prepareCommand(): Promise<void> {
       version: 1,
       rubricVersion: "semantic-v2",
       selection,
-      instruction: "Lees en gebruik readingPreferences bij elke inhoudelijke beoordeling. Beoordeel elk document onafhankelijk van huidige Readwise-posities. Vul de bestaande vier scores én topicRelevance (0–4) in voor scrum, software-development, front-end-development, social-studies en adhd.",
+      instruction: `Lees en gebruik readingPreferences bij elke inhoudelijke beoordeling. Beoordeel elk document onafhankelijk van huidige Readwise-posities. Vul de bestaande vier scores én topicRelevance (0–4) in voor ${TOPIC_SEQUENCE_ORDER.join(", ")}. Gebruik voor philosophy de persoonlijke afbakening in readingPreferences; beoordeel de inhoud en toegankelijkheid, niet alleen de brede philosophy-tag.`,
       readingPreferences,
       documents: batch,
     });

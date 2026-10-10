@@ -68,7 +68,7 @@ export interface PriorityJudgmentsConfig {
   items: Record<string, ContentJudgment>;
 }
 
-const ORDER_TAG = /^(?:video|boek|pdf|lees|dutch|short|short-dutch|luchtig|luchtig-nederlands|scrum|software-development|front-end-development|social-studies|adhd)-\d{3,4}$/;
+const ORDER_TAG = /^(?:video|boek|pdf|lees|dutch|short|short-dutch|luchtig|luchtig-nederlands|scrum|software-development|front-end-development|social-studies|adhd|philosophy)-\d{3,4}$/;
 const DERIVED_ORDER_TAG = /(?:^|-)top-(?:10|100)$/;
 const LEGACY_CURATION_TAGS = new Set(["must-read", "shortlist", "short-list", "light-reading"]);
 const CURATION_TAGS = new Set([...LEGACY_CURATION_TAGS, "want-to-read"]);

@@ -28,6 +28,7 @@ test("topic taxonomy is versioned and contains only ranking topics", () => {
     "front-end-development",
     "social-studies",
     "adhd",
+    "philosophy",
   ]);
   assert.deepEqual(Object.keys(DEFAULT_TOPIC_TAG_TAXONOMY.topics).sort(), [...TOPIC_SEQUENCE_ORDER].sort());
 });

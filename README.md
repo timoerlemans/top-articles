@@ -2,7 +2,7 @@
 
 Statisch overzicht van persoonlijke Readwise-toplijsten, met directe links naar Readwise Reader.
 Naast de bestaande families Algemeen, Nederlands, Kort, Kort & NL, Luchtig, Luchtig & NL,
-Sociale studies & samenwerking, ADHD en Boeken bevat de app een actieve catalogus, scoregestuurde
+Sociale studies & samenwerking, ADHD, Filosofie en Boeken bevat de app een actieve catalogus, scoregestuurde
 ontdeklijsten en een zelfstandige berekende leesvolgorde voor documenten in Reader `later`.
 
 De broncode is strict TypeScript. `tsc` schrijft de browsermodules naar
@@ -16,7 +16,7 @@ publicatie-/toevoegdatum, taal (afgeleid uit een kleine vaste set taal-tags), ee
 `data/score.js` wordt tegelijk gegenereerd en bevat `readwise-priority-v8` voor alle actuele
 `later`-documenten. De algemene score blijft de gedeelde persoonlijke prioriteit. Elke reeks krijgt
 een eigen scoreobject: format-/taalreeksen gebruiken de globale score plus hun fit, terwijl
-topicreeksen (`scrum`, `software-development`, `front-end-development`, `social-studies` en `adhd`)
+topicreeksen (`scrum`, `software-development`, `front-end-development`, `social-studies`, `adhd` en `philosophy`)
 de algemene relevantie vervangen door een topicrelevantie van 0–4. De globale kerninteressebonus
 blijft in die topicscore behouden. Elk reeksobject bevat score, tier, modus en — voor topics —
 de componenten, bron en confidence van de topicrelevantie. De app toont de algemene score én de
@@ -41,9 +41,9 @@ Handmatige correcties gelden in alle lijsten tegelijk en staan in
 
 De handmatige Readwise-tag `want-to-read` is een aparte vaste prioriteitsbonus van 25 punten.
 
-De onderwerpreeksen Agile, Software development, Front-end development, Sociale studies & samenwerking en ADHD
+De onderwerpreeksen Agile, Software development, Front-end development, Sociale studies & samenwerking, ADHD en Filosofie
 hebben elk eigen top-10- en top-100-lijsten en genummerde tags (`software-development-001`,
-`front-end-development-001`, `social-studies-001` en `adhd-001`).
+`front-end-development-001`, `social-studies-001`, `adhd-001` en `philosophy-001`).
 Software development herkent `software development`, `software-development` en `programming & software`.
 Front-end development herkent `front-end development`, `frontend development`, `front end development`
 en `front-end-development`. Sociale studies & samenwerking gebruikt het gedeelde profiel voor
@@ -54,6 +54,19 @@ sociale vraagstukken en samenwerken: `social psychology & interpersonal dynamics
 `adhd & neurodivergence` (een losse `adhd`-tag wordt hiernaar genormaliseerd) en is ook een
 kerninteresse. Een document met tags voor meerdere onderwerpen komt in de bijbehorende reeksen;
 boeken blijven uitsluitend in de boekenreeks.
+
+Filosofie volgt de persoonlijke interessekaart: sociale/politieke filosofie, anarchisme,
+zingeving, gemeenschap en macht eerst; daarna geest en taal; vervolgens ethiek en existentialisme.
+Een expliciete semantische `topicRelevance.philosophy`-beoordeling (0–4) bepaalt de aansluiting.
+Ontbreekt deze beoordeling, dan gebruikt de lage-confidence fallback inhoudstags plus titel,
+samenvatting en inhoudelijke notities: primaire interesses krijgen 4, geest/taal 3, ethiek 2
+en brede filosofie 1. Algemene Arendt-/totalitarisme-/AI-filosofie en stoïcisme krijgen in de
+fallback 1, tenzij er ook een concreet signaal voor een favoriete deelvraag is. Leesbeslissingen,
+feedback en positie-/curatietags tellen hierbij niet als onderwerpsevidence.
+Het profiel staat in `scripts/lib/philosophy-profile.ts`; de semantische afbakening en
+toegankelijkheidsvoorkeur staan in `config/readwise-reading-preferences.md`.
+De familie gebruikt `aaa-philosophy-top-10` en `aaa-philosophy-top-100`; de build berekent de
+lijsten, en de aparte tagsynchronisatie kan ze later naar Reader schrijven.
 
 De reeks `Luchtig` omvat naast `light-reading` ook inhoudelijk lichte artikelen met de tags
 `fiction`, `games`, `health & wellness`, `food & cooking`, `sports & recreation` en

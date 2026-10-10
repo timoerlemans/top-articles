@@ -115,10 +115,11 @@ registerServiceWorker();
         "front-end-development": "Front-end development",
         "social-studies": "Sociale studies & samenwerking",
         adhd: "ADHD",
+        philosophy: "Filosofie",
     };
     const PRIORITY_SEQUENCE_DISPLAY_ORDER = [
         "lees", "boek", "pdf", "video", "dutch", "short", "short-dutch", "luchtig", "luchtig-nederlands", "scrum",
-        "software-development", "front-end-development", "social-studies", "adhd",
+        "software-development", "front-end-development", "social-studies", "adhd", "philosophy",
     ];
     const PRIORITY_SEQUENCES = PRIORITY_SEQUENCE_DISPLAY_ORDER.map((id) => ({ id, label: PRIORITY_SEQUENCE_LABELS[id] }));
     const PRIORITY_COMPONENT_LABELS = {

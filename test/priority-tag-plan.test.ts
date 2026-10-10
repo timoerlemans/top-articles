@@ -50,7 +50,7 @@ test("plant ordinale en afgeleide toplijsttags vanuit dezelfde scorepositie", ()
 
   const high = changeFor(plan, "high");
   const low = changeFor(plan, "low");
-  assert.deepEqual(high.add.sort(), ["aaa-top-10", "aaa-top-100", "lees-0001"]);
+  assert.deepEqual(high.add.sort(), ["aaa-philosophy-top-10", "aaa-philosophy-top-100", "aaa-top-10", "aaa-top-100", "lees-0001", "philosophy-001"]);
   assert.deepEqual(high.remove, ["lees-0002"]);
   assert.ok(low.add.includes("aaa-top-100"));
   assert.ok(low.add.includes("lees-0002"));

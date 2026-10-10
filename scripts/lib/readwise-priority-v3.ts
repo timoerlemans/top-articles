@@ -12,6 +12,7 @@ import type {
 import { SEQUENCE_ORDER } from "./priority-sequences.js";
 import type { PrioritySequence } from "./priority-sequences.js";
 import { canonicalInterestTags } from "./readwise-tags.js";
+import { philosophyRelevanceFor } from "./philosophy-profile.js";
 
 export { detectDutch } from "./readwise-priority-v2.js";
 export { SEQUENCE_ORDER } from "./priority-sequences.js";
@@ -268,6 +269,9 @@ export function sequencesForDocument(doc: PriorityDocument): PrioritySequence[] 
     }
     if ([...tags].some((tag) => ADHD_TAGS.has(tag))) {
       sequences.add("adhd");
+    }
+    if (philosophyRelevanceFor(doc).relevance > 0) {
+      sequences.add("philosophy");
     }
   }
   return SEQUENCE_ORDER.filter((sequence) => sequences.has(sequence));

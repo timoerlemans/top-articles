@@ -1,10 +1,11 @@
 import type { PriorityDocument } from "./readwise-priority-v2.js";
 import type { TopicSequence } from "./priority-sequences.js";
+import { PHILOSOPHY_TAGS, philosophyRelevanceFor } from "./philosophy-profile.js";
 
 export const TOPIC_TAG_TAXONOMY_VERSION = 1 as const;
 
 export type TopicTagStrength = "strong" | "medium" | "light";
-export type TopicRelevanceRating = 0 | 1 | 2 | 4;
+export type TopicRelevanceRating = 0 | 1 | 2 | 3 | 4;
 
 export interface TopicTagTaxonomyEntry {
   strong: readonly string[];
@@ -89,6 +90,11 @@ export const DEFAULT_TOPIC_TAG_TAXONOMY: TopicTagTaxonomy = {
       medium: [],
       light: [],
     },
+    philosophy: {
+      strong: PHILOSOPHY_TAGS.primary,
+      medium: [...PHILOSOPHY_TAGS.secondary, ...PHILOSOPHY_TAGS.tertiary],
+      light: [...PHILOSOPHY_TAGS.broad, ...PHILOSOPHY_TAGS.saturated],
+    },
   },
 };
 
@@ -144,6 +150,9 @@ export function fallbackTopicRelevanceFor(
   topic: TopicSequence,
   taxonomy: TopicTagTaxonomy = DEFAULT_TOPIC_TAG_TAXONOMY,
 ): TopicRelevanceFallback {
+  if (topic === "philosophy" && taxonomy === DEFAULT_TOPIC_TAG_TAXONOMY) {
+    return { ...philosophyRelevanceFor(doc), source: "fallback", confidence: "low" };
+  }
   const tags = new Set(tagNames(doc));
   const entry = taxonomy.topics[topic];
   const evidence = [...entry.strong, ...entry.medium, ...entry.light]

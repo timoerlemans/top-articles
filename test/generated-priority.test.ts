@@ -87,6 +87,7 @@ test("gegenereerde priority-export is geldig en sluit aan op dezelfde actieve ca
     pdfs: "pdf",
     videos: "video",
     adhd: "adhd",
+    philosophy: "philosophy",
   };
   for (const family of data.families) {
     const sequence = sequenceByFamilyId[family.id];

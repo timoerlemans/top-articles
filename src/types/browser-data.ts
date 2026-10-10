@@ -58,7 +58,7 @@ function isRecord(value: unknown): value is Record<string, unknown> {
 
 const PRIORITY_SEQUENCES: readonly PrioritySequence[] = [
   "video", "boek", "pdf", "lees", "dutch", "short", "short-dutch", "luchtig", "luchtig-nederlands",
-  "scrum", "software-development", "front-end-development", "social-studies", "adhd",
+  "scrum", "software-development", "front-end-development", "social-studies", "adhd", "philosophy",
 ];
 
 function isPrioritySequence(value: unknown): value is PrioritySequence {

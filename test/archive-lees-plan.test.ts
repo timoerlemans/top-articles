@@ -28,7 +28,7 @@ const overrides = { version: 1 as const, items: {} };
 
 test("selecteert alleen canonieke lees-documenten buiten de unie van huidige en berekende top-100", () => {
   const plan = buildLeesArchivePlan([
-    doc("candidate", { tags: { "lees-0001": {}, philosophy: {} } }),
+    doc("philosophy", { tags: { "lees-0001": {}, philosophy: {} } }),
     doc("current-tag", { tags: { "lees-0002": {}, "aaa-top-100": {} } }),
     doc("computed", { category: "article", tags: { "lees-0003": {} } }),
     doc("no-lees", { tags: { philosophy: {} } }),
@@ -37,18 +37,19 @@ test("selecteert alleen canonieke lees-documenten buiten de unie van huidige en 
     doc("archived", { location: "archive", tags: { "lees-0005": {} } }),
   ], overrides, { generatedAt: "2026-09-21T12:00:00.000Z" });
 
-  assert.deepEqual(plan.candidateDocumentIds, ["candidate", "custom-tag"]);
+  assert.deepEqual(plan.candidateDocumentIds, ["custom-tag"]);
   assert.deepEqual(plan.currentTagProtectedDocumentIds, ["current-tag"]);
-  assert.deepEqual(plan.computedTop100DocumentIds, ["computed"]);
-  assert.deepEqual(plan.protectedDocumentIds, ["computed", "current-tag", "want-to-read"]);
+  assert.deepEqual(plan.computedTop100DocumentIds, ["computed", "no-lees", "philosophy"]);
+  assert.deepEqual(plan.protectedDocumentIds, ["computed", "current-tag", "no-lees", "philosophy", "want-to-read"]);
+  assert.deepEqual(plan.families.find(({ id }) => id === "philosophy")?.protectedDocumentIds, ["no-lees", "philosophy"]);
   assert.deepEqual(plan.summary, {
     documents: 6,
     leesTagged: 5,
     protectedByCurrentTags: 1,
-    protectedByComputedRanking: 1,
-    protected: 3,
-    candidates: 2,
-    excluded: 1,
+    protectedByComputedRanking: 3,
+    protected: 5,
+    candidates: 1,
+    excluded: 0,
   });
   assert.equal(validateLeesArchivePlan(plan), true);
 });

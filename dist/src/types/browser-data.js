@@ -13,7 +13,7 @@ function isRecord(value) {
 }
 const PRIORITY_SEQUENCES = [
     "video", "boek", "pdf", "lees", "dutch", "short", "short-dutch", "luchtig", "luchtig-nederlands",
-    "scrum", "software-development", "front-end-development", "social-studies", "adhd",
+    "scrum", "software-development", "front-end-development", "social-studies", "adhd", "philosophy",
 ];
 function isPrioritySequence(value) {
     return typeof value === "string" && PRIORITY_SEQUENCES.includes(value);
