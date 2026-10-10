@@ -1,4 +1,4 @@
-import type { PriorityDocument } from "./readwise-priority-v2.js";
+import type { PriorityDocument } from "./priority-document.js";
 import type { TopicSequence } from "./priority-sequences.js";
 import { PHILOSOPHY_TAGS, philosophyRelevanceFor } from "./philosophy-profile.js";
 

@@ -1,5 +1,5 @@
-import { DIRECT_DOMAIN_TAGS } from "./readwise-priority-v2.js";
-import type { DirectDomain } from "./readwise-priority-v2.js";
+import { DIRECT_DOMAIN_TAGS } from "./priority-document.js";
+import type { DirectDomain } from "./priority-document.js";
 import { SEQUENCE_ORDER } from "./priority-sequences.js";
 import type { PrioritySequence } from "./priority-sequences.js";
 

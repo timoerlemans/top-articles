@@ -2,7 +2,7 @@ import { buildPriorityExport as buildV7Export, PRIORITY_MODEL as PRIORITY_MODEL_
 import { buildPriorityExport as buildV8Export, PRIORITY_MODEL as PRIORITY_MODEL_V8 } from "./readwise-priority-v8.js";
 import type { CoreInterestPriorityConfig } from "./core-interest-priority.js";
 import type { ContentJudgment, PriorityJudgmentsConfig } from "./priority-judgments.js";
-import type { PriorityDocument } from "./readwise-priority-v2.js";
+import type { PriorityDocument } from "./priority-document.js";
 import type { PriorityOverrideMap, PriorityOverridesConfig } from "./readwise-priority-v8.js";
 import { TOPIC_SEQUENCE_ORDER } from "./priority-sequences.js";
 import type { TopicSequence } from "./priority-sequences.js";

@@ -1,45 +1,63 @@
-import {
-  actualPositionsForDocument,
-  buildPriorityExport as buildGlobalPriorityExport,
-  detectDutch,
-  scorePriorityDocument as scoreGlobalPriorityDocument,
-  SEQUENCE_ORDER,
-  sequencesForDocument,
-  validatePriorityExport as validateGlobalExportShape,
-} from "./readwise-priority-v7.js";
-import type {
-  ContentJudgment,
-  CoreInterestPriority,
-  CoreInterestPriorityConfig,
-  PriorityDocument,
-  PriorityExportOptions as PriorityExportOptionsV7,
-  PriorityOverride,
-  PriorityOverrideMap,
-  PriorityScoreResult as PriorityScoreResultV7,
-  PrioritySequence,
-} from "./readwise-priority-v7.js";
-import type { PriorityTier } from "./readwise-priority-v2.js";
-import { comparePriorityItems } from "./readwise-priority-v3.js";
+import { actualPositionsForDocument, comparePriorityItems, sequencesForDocument } from "./priority-membership.js";
+import { detectDutch } from "./priority-document.js";
+import type { PriorityDocument, PriorityTier } from "./priority-document.js";
 import { hasTag, judgmentFor, topicRelevanceFor } from "./priority-judgments.js";
-import { TOPIC_SEQUENCE_ORDER } from "./priority-sequences.js";
-import type { TopicSequence } from "./priority-sequences.js";
+import type { ContentJudgment, PriorityJudgmentsConfig } from "./priority-judgments.js";
+import { SEQUENCE_ORDER, TOPIC_SEQUENCE_ORDER } from "./priority-sequences.js";
+import type { PrioritySequence, TopicSequence } from "./priority-sequences.js";
+import {
+  CORE_INTEREST_LABELS, buildCoreInterestPriorityFromEvidence, coreInterestBonus,
+  defaultCoreInterestPriorityConfig, resolveCoreInterestMatches, validateCoreInterestPriorityConfig,
+} from "./core-interest-priority.js";
+import type { CoreInterestMatch, CoreInterestPriority, CoreInterestPriorityConfig, WeightedCoreInterestMatch } from "./core-interest-priority.js";
+import { splitReadingFeedback } from "./reader-notes.js";
 
 export { actualPositionsForDocument, detectDutch, SEQUENCE_ORDER, sequencesForDocument };
-export type {
-  ContentJudgment,
-  CoreInterestPriority,
-  CoreInterestPriorityConfig,
-  PriorityDocument,
-  PriorityOverride,
-  PriorityOverrideMap,
-  PriorityOverridesConfig,
-  PriorityScoreResult as PriorityScoreResult,
-  PrioritySequence,
-  WeightedCoreInterestMatch,
-} from "./readwise-priority-v7.js";
-export type { PriorityTier } from "./readwise-priority-v2.js";
-export type { PriorityJudgmentsConfig } from "./priority-judgments.js";
-export type { TopicSequence } from "./priority-sequences.js";
+export type { PriorityDocument, PriorityTier } from "./priority-document.js";
+export type { ContentJudgment, PriorityJudgmentsConfig } from "./priority-judgments.js";
+export type { PrioritySequence, TopicSequence } from "./priority-sequences.js";
+export type { CoreInterestPriority, CoreInterestPriorityConfig, WeightedCoreInterestMatch } from "./core-interest-priority.js";
+
+export interface PriorityOverride {
+  adjustment?: number | undefined;
+  reason?: string | null | undefined;
+}
+export type PriorityOverrideMap = Record<string, PriorityOverride | undefined>;
+export interface PriorityOverridesConfig { version: 1; items: PriorityOverrideMap; }
+
+export interface PriorityComponents {
+  kerninteresse: number;
+  relevantie: number;
+  substantie: number;
+  duurzaamheid: number;
+  bruikbaarheid: number;
+  leeskans: number;
+  nederlandse_taal: number;
+  aftrek: number;
+}
+
+export type PriorityComponentKey = keyof PriorityComponents;
+export type PriorityRationale = Record<PriorityComponentKey, string[]>;
+
+export interface PriorityScoreResult {
+  baseScore: number;
+  adjustment: number;
+  adjustmentReason: string | null;
+  score: number;
+  tier: PriorityTier;
+  components: PriorityComponents;
+  rationale: PriorityRationale;
+  judgmentSource: "label" | "fallback";
+  judgmentConfidence: ContentJudgment["confidence"];
+  coreInterestMatches: WeightedCoreInterestMatch[];
+}
+
+export interface PriorityExportOptions {
+  generatedAt?: string | undefined;
+  overrides?: PriorityOverridesConfig | PriorityOverrideMap | undefined;
+  judgments?: PriorityJudgmentsConfig | Record<string, ContentJudgment> | undefined;
+  coreInterestConfig?: CoreInterestPriorityConfig | undefined;
+}
 
 export const PRIORITY_MODEL = "readwise-priority-v8" as const;
 export const SEQUENCE_FIT_WEIGHT = 3;
@@ -77,7 +95,7 @@ export interface PrioritySequenceScore {
 
 export type PrioritySequenceScores = Partial<Record<PrioritySequence, PrioritySequenceScore>>;
 
-export interface PriorityExportItem extends PriorityScoreResultV7 {
+export interface PriorityExportItem extends PriorityScoreResult {
   sequences: PrioritySequence[];
   sequenceScores: PrioritySequenceScores;
   positions: Partial<Record<PrioritySequence, number>>;
@@ -92,7 +110,6 @@ export interface PriorityExport {
   items: Record<string, PriorityExportItem>;
 }
 
-export type PriorityExportOptions = PriorityExportOptionsV7;
 
 function isRecord(value: unknown): value is Record<string, unknown> {
   return typeof value === "object" && value !== null;
@@ -145,7 +162,7 @@ function curationBonusesFor(doc: PriorityDocument): { total: number; reasons: st
   return { total, reasons };
 }
 
-function withCurationBonuses<T extends PriorityScoreResultV7>(doc: PriorityDocument, score: T): T {
+function withCurationBonuses<T extends PriorityScoreResult>(doc: PriorityDocument, score: T): T {
   const bonuses = curationBonusesFor(doc);
   if (bonuses.total === 0) {return score;}
   const adjustment = score.adjustment + bonuses.total;
@@ -170,7 +187,7 @@ function overrideMap(overrides: PriorityExportOptions["overrides"]): PriorityOve
   return overrides as PriorityOverrideMap;
 }
 
-function topicComponents(global: PriorityScoreResultV7, relevance: number): PriorityTopicComponents {
+function topicComponents(global: PriorityScoreResult, relevance: number): PriorityTopicComponents {
   return {
     kerninteresse: global.components.kerninteresse,
     topic_relevantie: relevance,
@@ -200,15 +217,16 @@ function topicScore(components: PriorityTopicComponents, adjustment: number): nu
 function sequenceScore(
   doc: PriorityDocument,
   sequence: PrioritySequence,
-  global: PriorityScoreResultV7,
+  global: PriorityScoreResult,
   judgment: ContentJudgment,
 ): PrioritySequenceScore {
   if ((TOPIC_SEQUENCE_ORDER as readonly string[]).includes(sequence)) {
     const resolution = topicRelevanceFor(doc, sequence as TopicSequence, judgment);
     const components = topicComponents(global, resolution.relevance);
+    const score = topicScore(components, global.adjustment);
     return {
-      score: topicScore(components, global.adjustment),
-      tier: tierForScore(topicScore(components, global.adjustment)),
+      score,
+      tier: tierForScore(score),
       mode: "topic",
       topicRelevance: resolution.relevance,
       relevanceSource: resolution.source,
@@ -221,17 +239,130 @@ function sequenceScore(
   return { score, tier: tierForScore(score), mode: "global" };
 }
 
+function normalize(value: unknown): string {
+  return String(value ?? "").toLowerCase().replace(/\s+/g, " ").trim();
+}
+
+function tagsFor(doc: PriorityDocument): Set<string> {
+  const raw = Array.isArray(doc.tags) ? doc.tags : isRecord(doc.tags) ? Object.keys(doc.tags) : [];
+  return new Set(raw.map((tag) => {
+    if (typeof tag === "string") {return normalize(tag);}
+    if (!isRecord(tag)) {return "";}
+    return normalize(tag.name ?? tag.key);
+  }).filter(Boolean));
+}
+
+function whyRead(doc: PriorityDocument): string {
+  return splitReadingFeedback(doc.notes).contentNotes?.match(/Waarom lezen:\s*([\s\S]*?)(?:\n\s*Beste moment:|$)/i)?.[1]?.toLowerCase().trim() ?? "";
+}
+
+function readingMinutes(doc: PriorityDocument): number | null {
+  const value = normalize(doc.reading_time);
+  const match = value.match(/^(\d+(?:\.\d+)?)\s*(?:min|mins|minute|minutes)\b/);
+  return match ? Number(match[1]) : null;
+}
+
+function validateOverride(override: unknown = {}): { adjustment: number; reason: string | null } {
+  const record = isRecord(override) ? override : {};
+  const adjustment = record.adjustment ?? 0;
+  const reason = String(record.reason ?? "").trim() || null;
+  if (typeof adjustment !== "number" || !Number.isInteger(adjustment)) {throw new Error("Handmatige scorecorrectie moet een geheel getal zijn");}
+  if (adjustment !== 0 && !reason) {throw new Error("Handmatige scorecorrectie vereist een reden");}
+  return { adjustment, reason };
+}
+
+interface PreparedDocument {
+  doc: PriorityDocument;
+  scoringDoc: PriorityDocument;
+  resolution: ReturnType<typeof judgmentFor>;
+  matches: CoreInterestMatch[];
+}
+
+function withoutLegacyCuration(doc: PriorityDocument): PriorityDocument {
+  const isCuration = (tag: string): boolean => ["must-read", "shortlist", "short-list"].includes(
+    tag.normalize("NFKD").replace(/[\u0300-\u036f]/g, "").toLowerCase().trim(),
+  );
+  if (Array.isArray(doc.tags)) {
+    return { ...doc, tags: doc.tags.filter((tag) => typeof tag !== "string" || !isCuration(tag)) };
+  }
+  if (isRecord(doc.tags)) {
+    return { ...doc, tags: Object.fromEntries(Object.entries(doc.tags).filter(([tag]) => !isCuration(tag))) };
+  }
+  return doc;
+}
+
+function prepareDocument(doc: PriorityDocument, judgments: PriorityExportOptions["judgments"]): PreparedDocument {
+  const resolution = judgmentFor(doc, judgments ?? {});
+  const scoringDoc = withoutLegacyCuration(doc);
+  // Current and legacy fingerprints exclude these curation tags; fallback does too.
+  return { doc, scoringDoc, resolution, matches: resolveCoreInterestMatches(doc, resolution.judgment) };
+}
+
+function scorePreparedDocument(
+  prepared: PreparedDocument,
+  override: PriorityOverride,
+  priority: CoreInterestPriority,
+): PriorityScoreResult {
+  const { doc, scoringDoc, resolution: { judgment, source }, matches } = prepared;
+  const tags = tagsFor(scoringDoc);
+  const minutes = readingMinutes(scoringDoc);
+  const text = `${normalize(scoringDoc.title)} ${normalize(scoringDoc.summary)} ${whyRead(scoringDoc)}`;
+  const noSummary = normalize(scoringDoc.summary) === "";
+  const noWhyRead = whyRead(scoringDoc) === "";
+  const words = Number(scoringDoc.word_count);
+  let aftrek = 0;
+  if (tags.has("current affairs") && /(united states|u\.s\.|us politics|trump|america|american)/.test(text) && judgment.relevance === 0) {aftrek -= 10;}
+  if ((Number.isFinite(words) && words < 250 && noSummary && noWhyRead) || normalize(scoringDoc.category) === "tweet" || (tags.has("newsletter") && Number.isFinite(words) && words < 600)) {aftrek -= 10;}
+  const { bonus, matches: weightedMatches } = coreInterestBonus(matches, priority);
+  const components: PriorityComponents = {
+    kerninteresse: bonus,
+    relevantie: judgment.relevance * 10,
+    substantie: judgment.substance * 8,
+    duurzaamheid: judgment.durability * 5,
+    bruikbaarheid: judgment.usefulness * 5,
+    leeskans: minutes !== null && minutes < 10 ? 5 : 0,
+    nederlandse_taal: detectDutch(scoringDoc) ? 5 : 0,
+    aftrek,
+  };
+  // Preserve historical clipping before the interest bonus, and descriptor-tag standalone behavior.
+  const legacyCuration = tags.has("must-read") ? 8 : tags.has("shortlist") || tags.has("short-list") ? 4 : 0;
+  const baseScore = floorScore(floorScore(
+    components.relevantie + components.substantie + components.duurzaamheid + components.bruikbaarheid +
+    components.leeskans + components.nederlandse_taal + legacyCuration + components.aftrek,
+  ) + bonus);
+  const { adjustment, reason } = validateOverride(override);
+  const score = floorScore(baseScore + adjustment);
+  const labels = {
+    relevantie: "inhoudelijke relevantie", substantie: "substantie", duurzaamheid: "duurzaamheid",
+    bruikbaarheid: "bruikbaarheid", leeskans: "leeskans", nederlandse_taal: "Nederlandse taal", aftrek: "aftrek",
+  };
+  const rationale = Object.fromEntries(Object.entries(labels).map(([key, label]) => [key,
+    components[key as keyof typeof labels] !== 0 ? [`${label} uit de ${judgment.confidence}-confidence inhoudsbeoordeling.`] : [],
+  ])) as PriorityRationale;
+  if (judgment.reasonCodes.length > 0) {rationale.relevantie.push(`Bewijs: ${judgment.reasonCodes.join(", ")}.`);}
+  rationale.kerninteresse = weightedMatches.map((match) => {
+    const labels = match.evidence.map(({ label }) => label).join(", ");
+    return `${CORE_INTEREST_LABELS[match.interest]}: +${match.weight}${labels ? ` (${labels})` : ""}.`;
+  });
+  return withCurationBonuses(doc, {
+    baseScore, adjustment, adjustmentReason: reason, score, tier: tierForScore(score), components, rationale,
+    judgmentSource: source, judgmentConfidence: judgment.confidence, coreInterestMatches: weightedMatches,
+  });
+}
+
 export function scorePriorityDocument(
   doc: PriorityDocument,
   override: PriorityOverride = {},
   judgments: PriorityExportOptions["judgments"] = {},
   coreInterestPriority?: CoreInterestPriority,
   coreInterestConfig?: CoreInterestPriorityConfig,
-): PriorityScoreResultV7 {
-  return withCurationBonuses(
-    doc,
-    scoreGlobalPriorityDocument(doc, override, judgments, coreInterestPriority, coreInterestConfig),
+): PriorityScoreResult {
+  const config = coreInterestConfig ?? defaultCoreInterestPriorityConfig();
+  const prepared = prepareDocument(doc, judgments);
+  const priority = coreInterestPriority ?? buildCoreInterestPriorityFromEvidence(
+    [{ documentId: doc.id, matches: prepared.matches }], config, "standalone",
   );
+  return scorePreparedDocument(prepared, override, priority);
 }
 
 interface ExpectedExport {
@@ -246,30 +377,24 @@ function buildExpected(
   coreInterestConfig: CoreInterestPriorityConfig | undefined,
   generatedAt: string,
 ): ExpectedExport {
-  const globalExport = buildGlobalExportForExpected(documents, overrides, judgments, coreInterestConfig, generatedAt);
+  const config = coreInterestConfig ?? defaultCoreInterestPriorityConfig();
+  validateCoreInterestPriorityConfig(config);
+  const prepared = documents.map((doc) => prepareDocument(doc, judgments));
+  const coreInterestPriority = buildCoreInterestPriorityFromEvidence(prepared.map(({ doc, matches }) => ({ documentId: doc.id, matches })), config, generatedAt);
   const items: Record<string, PriorityExportItem> = {};
   const savedAtById = new Map<string, number>();
 
-  for (const doc of documents) {
+  for (const entry of prepared) {
+    const { doc, resolution: { judgment } } = entry;
     if (!doc.id) {throw new Error("Priority-document mist een Readwise document-id");}
-    const globalItem = globalExport.items[doc.id];
-    if (!globalItem) {throw new Error(`Global score ontbreekt voor ${doc.id}`);}
-    const scoredGlobalItem = withCurationBonuses(doc, globalItem);
+    if (Object.hasOwn(items, doc.id)) {throw new Error(`Dubbel priority-document: ${doc.id}`);}
     const savedAt = Date.parse(doc.saved_at ?? "");
     if (!Number.isFinite(savedAt)) {throw new Error(`Document ${doc.id} heeft geen geldige saved_at`);}
     savedAtById.set(doc.id, savedAt);
-    const { judgment } = judgmentFor(doc, judgments ?? {});
+    const scored = scorePreparedDocument(entry, overrides[doc.id] ?? {}, coreInterestPriority);
     const sequences = sequencesForDocument(doc);
-    const sequenceScores = Object.fromEntries(
-      sequences.map((sequence) => [sequence, sequenceScore(doc, sequence, scoredGlobalItem, judgment)]),
-    ) as PrioritySequenceScores;
-    items[doc.id] = {
-      ...scoredGlobalItem,
-      sequences,
-      sequenceScores,
-      positions: {},
-      actualPositions: actualPositionsForDocument(doc),
-    };
+    const sequenceScores = Object.fromEntries(sequences.map((sequence) => [sequence, sequenceScore(doc, sequence, scored, judgment)])) as PrioritySequenceScores;
+    items[doc.id] = { ...scored, sequences, sequenceScores, positions: {}, actualPositions: actualPositionsForDocument(doc) };
   }
 
   for (const sequence of SEQUENCE_ORDER) {
@@ -286,22 +411,7 @@ function buildExpected(
     });
   }
 
-  return { coreInterestPriority: globalExport.coreInterestPriority, items };
-}
-
-function buildGlobalExportForExpected(
-  documents: readonly PriorityDocument[],
-  overrides: PriorityOverrideMap,
-  judgments: PriorityExportOptions["judgments"],
-  coreInterestConfig: CoreInterestPriorityConfig | undefined,
-  generatedAt: string,
-): ReturnType<typeof buildGlobalPriorityExport> {
-  return buildGlobalPriorityExport(documents, {
-    generatedAt,
-    overrides,
-    judgments,
-    ...(coreInterestConfig === undefined ? {} : { coreInterestConfig }),
-  });
+  return { coreInterestPriority, items };
 }
 
 export function buildPriorityExport(
@@ -357,12 +467,85 @@ function sequenceScoreShape(value: unknown, id: string, sequence: PrioritySequen
   return true;
 }
 
-function legacyExportShape(exportData: PriorityExport): unknown {
-  const items = Object.fromEntries(Object.entries(exportData.items).map(([id, item]) => [id, {
-    ...item,
-    sequenceScores: Object.fromEntries(Object.entries(item.sequenceScores).map(([sequence, score]) => [sequence, score?.score ?? item.score])),
-  }]));
-  return { ...exportData, model: "readwise-priority-v7", items };
+function validateCoreInterestPriorityOutput(value: unknown): value is CoreInterestPriority {
+  if (!isRecord(value) || value.version !== 1 || typeof value.generatedAt !== "string" || !Array.isArray(value.order) || !isRecord(value.weights) || !Array.isArray(value.entries)) {
+    return false;
+  }
+  const order: unknown[] = value.order;
+  const weights: Record<string, unknown> = value.weights;
+  const entries: unknown[] = value.entries;
+  const interests = Object.keys(CORE_INTEREST_LABELS);
+  if (order.length !== interests.length || new Set(order).size !== interests.length || !order.every((interest) => typeof interest === "string" && interests.includes(interest))) {
+    return false;
+  }
+  if (Object.keys(weights).length !== interests.length || !interests.every((interest) => Object.hasOwn(weights, interest)) || Object.values(weights).some((weight) => !Number.isInteger(weight) || !isFiniteNumber(weight) || weight <= 0)) {
+    return false;
+  }
+  if (entries.length !== interests.length) {return false;}
+  return entries.every((entry, index) => {
+    if (!isRecord(entry)) {return false;}
+    const interest = order[index];
+    if (typeof interest !== "string") {return false;}
+    return entry.interest === interest && entry.label === CORE_INTEREST_LABELS[interest as keyof typeof CORE_INTEREST_LABELS] &&
+      entry.rank === index + 1 && Number.isInteger(entry.weight) && isFiniteNumber(entry.weight) &&
+      Number.isInteger(entry.evidenceDocumentCount) && isFiniteNumber(entry.evidenceDocumentCount) && entry.evidenceDocumentCount >= 0 &&
+      Number.isInteger(entry.evidenceScore) && isFiniteNumber(entry.evidenceScore) && (entry.source === "manual" || entry.source === "derived") && entry.weight === weights[interest];
+  });
+}
+
+function validateCoreInterestMatches(value: unknown): value is WeightedCoreInterestMatch[] {
+  if (!Array.isArray(value)) {return false;}
+  const seen = new Set<string>();
+  return value.every((match) => {
+    if (!isRecord(match) || typeof match.interest !== "string" || !Object.hasOwn(CORE_INTEREST_LABELS, match.interest) || seen.has(match.interest) || !Number.isInteger(match.weight) || !isFiniteNumber(match.weight) || match.weight <= 0 || !Number.isInteger(match.qualityScore) || !isFiniteNumber(match.qualityScore) || !Array.isArray(match.evidence)) {
+      return false;
+    }
+    seen.add(match.interest);
+    return match.evidence.every((evidence) => isRecord(evidence) && (evidence.kind === "readwise-tag" || evidence.kind === "semantic-signal") && typeof evidence.source === "string" && evidence.source.length > 0 && typeof evidence.label === "string" && evidence.label.length > 0);
+  });
+}
+
+function validateGlobalScoreShape(id: string, value: unknown): value is PriorityExportItem {
+  if (!isRecord(value) || !Number.isInteger(value.baseScore) || !isFiniteNumber(value.baseScore) || value.baseScore < 0 ||
+      !Number.isInteger(value.adjustment) || !isFiniteNumber(value.adjustment) || !Number.isInteger(value.score) || !isFiniteNumber(value.score) || value.score < 0 ||
+      !isRecord(value.components) || !isRecord(value.rationale) || !validateCoreInterestMatches(value.coreInterestMatches) ||
+      !Array.isArray(value.sequences) || !isRecord(value.sequenceScores) || !isRecord(value.positions) || !isRecord(value.actualPositions)) {
+    throw new Error(`Ongeldige v8-score voor ${id}`);
+  }
+  const components = value.components;
+  const rationale = value.rationale;
+  const coreInterestMatches = value.coreInterestMatches;
+  const sequences: unknown[] = value.sequences;
+  const positions = value.positions;
+  const sequenceScores = value.sequenceScores;
+  const componentKeys: PriorityComponentKey[] = ["kerninteresse", "relevantie", "substantie", "duurzaamheid", "bruikbaarheid", "leeskans", "nederlandse_taal", "aftrek"];
+  if (!isRecord(components) || !isRecord(rationale) || !Array.isArray(sequences) || !isRecord(positions) || !isRecord(sequenceScores) ||
+      Object.keys(components).length !== componentKeys.length || componentKeys.some((key) => !Number.isInteger(components[key]) || !isFiniteNumber(components[key]))) {
+    throw new Error(`Ongeldige v8-componenten voor ${id}`);
+  }
+  if (Object.keys(rationale).length !== componentKeys.length || componentKeys.some((key) => {
+    const entries = rationale[key];
+    return !Array.isArray(entries) || !entries.every((entry: unknown) => typeof entry === "string");
+  })) {
+    throw new Error(`Ongeldige v8-rationale voor ${id}`);
+  }
+  if (value.adjustmentReason !== null && typeof value.adjustmentReason !== "string") {throw new Error(`Ongeldige correctiereden voor ${id}`);}
+  if (value.judgmentConfidence !== "high" && value.judgmentConfidence !== "medium" && value.judgmentConfidence !== "low") {throw new Error(`Ongeldige judgment-confidence voor ${id}`);}
+  let componentSum = 0;
+  for (const key of componentKeys) {
+    const component = components[key];
+    if (typeof component !== "number") {throw new Error(`Ongeldige v8-component voor ${id}`);}
+    componentSum += component;
+  }
+  if (value.baseScore !== floorScore(componentSum) || value.score !== floorScore(value.baseScore + value.adjustment)) {throw new Error(`V8-scorecomponenten kloppen niet voor ${id}`);}
+  if (!validateCoreInterestMatches(coreInterestMatches)) {throw new Error(`Ongeldige kerninteresses voor ${id}`);}
+  if (coreInterestMatches.reduce((sum, match) => sum + match.weight, 0) !== components.kerninteresse) {throw new Error(`Kerninteressebonus klopt niet voor ${id}`);}
+  if (value.tier !== tierForScore(value.score)) {throw new Error(`Ongeldige v8-tier voor ${id}`);}
+  if (value.judgmentSource !== "label" && value.judgmentSource !== "fallback") {throw new Error(`Ongeldige judgmentbron voor ${id}`);}
+  for (const position of Object.values(value.actualPositions)) {
+    if (!isFiniteNumber(position) || !Number.isInteger(position) || position < 1) {throw new Error(`Ongeldige actuele positie voor ${id}`);}
+  }
+  return true;
 }
 
 function validateV8ItemShape(id: string, value: unknown): value is PriorityExportItem {
@@ -403,9 +586,9 @@ export function validatePriorityExport(
   if (!isRecord(exportData) || exportData.model !== PRIORITY_MODEL || exportData.scope !== "later" || typeof exportData.generatedAt !== "string" || !isRecord(exportData.items)) {
     throw new Error(`Ongeldig ${PRIORITY_MODEL}-export`);
   }
-  const typedExport = exportData as unknown as PriorityExport;
   for (const [id, value] of Object.entries(exportData.items)) {
     validateV8ItemShape(id, value);
+    validateGlobalScoreShape(id, value);
   }
   const typedItems = exportData.items as Record<string, PriorityExportItem>;
   for (const sequence of SEQUENCE_ORDER) {
@@ -418,7 +601,7 @@ export function validatePriorityExport(
       if (position !== index + 1) {throw new Error(`Posities voor ${sequence} zijn niet doorlopend`);}
     });
   }
-  validateGlobalExportShape(legacyExportShape(typedExport));
+  if (!validateCoreInterestPriorityOutput(exportData.coreInterestPriority)) {throw new Error("Ongeldige v8-kerninteresseprioriteit");}
   if (sourceDocuments.length > 0) {
     const expected = buildExpected(sourceDocuments, overrideMap(overrides), judgments, coreInterestConfig, exportData.generatedAt);
     if (JSON.stringify(exportData.items) !== JSON.stringify(expected.items) || JSON.stringify(exportData.coreInterestPriority) !== JSON.stringify(expected.coreInterestPriority)) {

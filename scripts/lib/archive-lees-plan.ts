@@ -9,7 +9,7 @@ import {
 } from "./core-interest-priority.js";
 import type { CoreInterestPriorityConfig } from "./core-interest-priority.js";
 import type { ContentJudgment } from "./priority-judgments.js";
-import type { PriorityDocument } from "./readwise-priority-v2.js";
+import type { PriorityDocument } from "./priority-document.js";
 import { tagNames } from "./priority-tag-plan.js";
 
 export const ARCHIVE_LEES_PLAN_MODEL = "readwise-archive-lees-plan-v1" as const;

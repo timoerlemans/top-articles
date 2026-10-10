@@ -1,5 +1,5 @@
-import { DIRECT_DOMAIN_TAGS } from "./readwise-priority-v2.js";
-import type { DirectDomain, PriorityDocument } from "./readwise-priority-v2.js";
+import { DIRECT_DOMAIN_TAGS } from "./priority-document.js";
+import type { DirectDomain, PriorityDocument } from "./priority-document.js";
 import { contentTagsFor, judgmentFor } from "./priority-judgments.js";
 import type { ContentJudgment, PriorityJudgmentsConfig } from "./priority-judgments.js";
 
@@ -254,12 +254,6 @@ interface DomainEvidenceAggregate {
   qualityScores: number[];
 }
 
-function judgmentsFor(
-  judgments: PriorityJudgmentsConfig | Record<string, ContentJudgment>,
-): PriorityJudgmentsConfig | Record<string, ContentJudgment> {
-  return judgments;
-}
-
 export function buildCoreInterestPriority(
   documents: readonly PriorityDocument[],
   judgments: PriorityJudgmentsConfig | Record<string, ContentJudgment>,
@@ -267,14 +261,30 @@ export function buildCoreInterestPriority(
   generatedAt: string,
 ): CoreInterestPriority {
   validateCoreInterestPriorityConfig(config);
+  return buildCoreInterestPriorityFromEvidence(documents.map((doc) => {
+    const { judgment } = judgmentFor(doc, judgments);
+    return { documentId: doc.id, matches: resolveCoreInterestMatches(doc, judgment) };
+  }), config, generatedAt);
+}
+
+export interface CoreInterestDocumentEvidence {
+  documentId: PriorityDocument["id"];
+  matches: readonly CoreInterestMatch[];
+}
+
+/** Aggregate already resolved evidence; current scoring prepares it once per document. */
+export function buildCoreInterestPriorityFromEvidence(
+  evidence: readonly CoreInterestDocumentEvidence[],
+  config: CoreInterestPriorityConfig,
+  generatedAt: string,
+): CoreInterestPriority {
+  validateCoreInterestPriorityConfig(config);
   const aggregates = new Map<DirectDomain, DomainEvidenceAggregate>(CORE_INTERESTS.map((interest) => [interest, { documentIds: new Set<string>(), qualityScores: [] }]));
-  for (const doc of documents) {
-    const { judgment } = judgmentFor(doc, judgmentsFor(judgments));
-    const matches = resolveCoreInterestMatches(doc, judgment);
+  for (const { documentId, matches } of evidence) {
     for (const match of matches) {
       const aggregate = aggregates.get(match.interest);
       if (!aggregate) {continue;}
-      if (doc.id) {aggregate.documentIds.add(doc.id);}
+      if (documentId) {aggregate.documentIds.add(documentId);}
       aggregate.qualityScores.push(match.qualityScore);
     }
   }

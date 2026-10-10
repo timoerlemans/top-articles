@@ -1,7 +1,7 @@
 import { createHash } from "node:crypto";
 
-import type { PriorityDocument } from "./readwise-priority-v2.js";
-import { matchedDomainsFromTags } from "./readwise-priority-v2.js";
+import type { PriorityDocument } from "./priority-document.js";
+import { matchedDomainsFromTags } from "./priority-document.js";
 import { SEQUENCE_ORDER, TOPIC_SEQUENCE_ORDER } from "./priority-sequences.js";
 import type { PrioritySequence, TopicSequence } from "./priority-sequences.js";
 import { fallbackTopicRelevanceFor } from "./priority-topic-taxonomy.js";

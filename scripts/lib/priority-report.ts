@@ -1,7 +1,7 @@
 import { buildPriorityEvidence, type PriorityJudgmentsConfig } from "./priority-judgments.js";
 import { buildPriorityExport, PRIORITY_MODEL, SEQUENCE_ORDER } from "./readwise-priority-v8.js";
 import type { CoreInterestPriorityConfig } from "./core-interest-priority.js";
-import type { PriorityDocument } from "./readwise-priority-v2.js";
+import type { PriorityDocument } from "./priority-document.js";
 import type { PrioritySequence } from "./priority-sequences.js";
 
 export interface PriorityComparisonItem {

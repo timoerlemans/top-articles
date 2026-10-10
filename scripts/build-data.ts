@@ -13,7 +13,7 @@ import type { PriorityExportItem, PriorityOverridesConfig } from "./lib/readwise
 import { validateCoreInterestPriorityConfig } from "./lib/core-interest-priority.js";
 import type { CoreInterestPriorityConfig } from "./lib/core-interest-priority.js";
 import { validatePriorityJudgments } from "./lib/priority-judgments.js";
-import { matchedDomainsFromTags } from "./lib/readwise-priority-v2.js";
+import { matchedDomainsFromTags } from "./lib/priority-document.js";
 import { FAMILY_DEFINITIONS, buildUnifiedLists } from "./lib/unified-lists.js";
 import type { RankedUnifiedEntry, UnifiedCatalogEntry } from "./lib/unified-lists.js";
 import { parseReadingMinutes } from "./lib/reading-time.js";

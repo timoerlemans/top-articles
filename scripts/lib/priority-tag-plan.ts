@@ -12,7 +12,7 @@ import {
 } from "./core-interest-priority.js";
 import type { CoreInterestPriorityConfig } from "./core-interest-priority.js";
 import type { ContentJudgment, PriorityJudgmentsConfig } from "./priority-judgments.js";
-import type { PriorityDocument } from "./readwise-priority-v2.js";
+import type { PriorityDocument } from "./priority-document.js";
 import { FAMILY_DEFINITIONS } from "./unified-lists.js";
 import { isReadwisePriorityTag } from "./readwise-tags.js";
 
