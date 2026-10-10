@@ -1,4 +1,4 @@
-import type { PriorityDocument } from "./readwise-priority-v2.js";
+import type { PriorityDocument } from "./priority-document.js";
 import { canonicalInterestTags } from "./readwise-tags.js";
 import { splitReadingFeedback } from "./reader-notes.js";
 

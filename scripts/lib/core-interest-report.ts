@@ -1,6 +1,6 @@
 import { FAMILY_DEFINITIONS } from "./unified-lists.js";
-import type { DirectDomain } from "./readwise-priority-v2.js";
-import type { PriorityDocument } from "./readwise-priority-v2.js";
+import type { DirectDomain } from "./priority-document.js";
+import type { PriorityDocument } from "./priority-document.js";
 import type {
   PriorityExport as PriorityExportV6,
   PriorityExportItem as PriorityExportItemV6,

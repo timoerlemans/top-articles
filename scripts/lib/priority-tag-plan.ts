@@ -12,11 +12,12 @@ import {
 } from "./core-interest-priority.js";
 import type { CoreInterestPriorityConfig } from "./core-interest-priority.js";
 import type { ContentJudgment, PriorityJudgmentsConfig } from "./priority-judgments.js";
-import type { PriorityDocument } from "./readwise-priority-v2.js";
+import type { PriorityDocument } from "./priority-document.js";
+import { sequencesForDocument } from "./priority-membership.js";
 import { FAMILY_DEFINITIONS } from "./unified-lists.js";
 import { isReadwisePriorityTag } from "./readwise-tags.js";
 
-export const TAG_PLAN_MODEL = "readwise-priority-tag-plan-v2" as const;
+export const TAG_PLAN_MODEL = "readwise-priority-tag-plan-v3" as const;
 
 export interface PriorityTagDocument extends PriorityDocument {
   id: string;
@@ -213,7 +214,8 @@ function stableSource(documents: readonly PriorityTagDocument[]): Record<string,
       word_count: doc.word_count ?? null,
       reading_time: doc.reading_time ?? null,
       language: doc.language ?? null,
-      lightMembership: tagKeys(doc).some((tag) => tag === "light-reading" || /^luchtig-\d{3,4}$/.test(tag) || tag.startsWith("aaa-luchtig-top-")),
+      // Bewaak effectief lidmaatschap, niet de tags die onze eigen migratie toevoegt/verwijdert.
+      lightMembership: (doc.location === undefined || doc.location === null || doc.location === "later") && sequencesForDocument(doc).includes("luchtig"),
       tags: tagKeys(doc).filter((tag) => !isManagedOrderTag(tag) && tag !== "light-reading").sort(),
     }))
     .sort((a, b) => a.id.localeCompare(b.id));
@@ -221,6 +223,17 @@ function stableSource(documents: readonly PriorityTagDocument[]): Record<string,
 
 function hash(value: unknown): string {
   return createHash("sha256").update(JSON.stringify(value)).digest("hex");
+}
+
+/** JSON-configuratie heeft dezelfde betekenis ongeacht de volgorde van objectsleutels. */
+function canonicalValue(value: unknown): unknown {
+  if (Array.isArray(value)) {
+    return value.map((entry: unknown) => canonicalValue(entry));
+  }
+  if (isRecord(value)) {
+    return Object.fromEntries(Object.keys(value).sort().map((key) => [key, canonicalValue(value[key])]));
+  }
+  return value;
 }
 
 function desiredTagsFor(priority: PriorityExportItem): Set<string> {
@@ -321,6 +334,7 @@ export function buildPriorityTagPlan(
   const sourceFingerprint = hash({
     documents: stableSource(sourceDocuments),
     overrides,
+    judgments: canonicalValue(options.judgments ?? {}),
     coreInterestConfig: {
       version: coreInterestConfig.version,
       manualOrder: [...coreInterestConfig.manualOrder],
@@ -357,7 +371,7 @@ export function validatePriorityTagPlan(plan: unknown): plan is PriorityTagPlan 
   const record = plan;
   const model = record.model;
   if (model !== TAG_PLAN_MODEL) {
-    throw new Error(`Ongeldig tagplanmodel: ${displayValue(model)}`);
+    throw new Error(`Ongeldig tagplanmodel: ${displayValue(model)}; draai priority:plan opnieuw voor een plan met volledige broncontrole`);
   }
   if (record.priorityModel !== PRIORITY_MODEL) {
     throw new Error(`Ongeldig prioriteitsmodel: ${displayValue(record.priorityModel)}`);

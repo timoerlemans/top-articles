@@ -8,7 +8,7 @@ import {
   type PriorityJudgmentsConfig,
   type PriorityDocumentEvidence,
 } from "./priority-judgments.js";
-import type { PriorityDocument } from "./readwise-priority-v2.js";
+import type { PriorityDocument } from "./priority-document.js";
 import { TOPIC_SEQUENCE_ORDER } from "./priority-sequences.js";
 
 export type EvidenceSelection = "top100" | "all-later";

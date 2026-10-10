@@ -9,8 +9,8 @@ import { z } from "zod";
 
 import { buildCoreInterestEmail, CORE_INTEREST_LABELS, coreInterestRandomFor, selectCoreInterestArticle, shouldSendCoreInterestEmail } from "./lib/core-interest-email.js";
 import type { CoreInterestCandidate, CoreInterestPriorityWeights } from "./lib/core-interest-email.js";
-import { DIRECT_DOMAIN_TAGS } from "./lib/readwise-priority-v2.js";
-import type { DirectDomain } from "./lib/readwise-priority-v2.js";
+import { DIRECT_DOMAIN_TAGS } from "./lib/priority-document.js";
+import type { DirectDomain } from "./lib/priority-document.js";
 import { resendEmailResponseSchema } from "./lib/external-schemas.js";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));

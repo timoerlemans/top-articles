@@ -1,35 +1,10 @@
-import { parseReadingMinutes } from "./reading-time.js";
-import type { ReadingTimeValue } from "./reading-time.js";
-import { BASE_SEQUENCE_ORDER } from "./priority-sequences.js";
-import type { PrioritySequenceV2 } from "./priority-sequences.js";
-import { canonicalInterestTags } from "./readwise-tags.js";
+import { DIRECT_DOMAIN_TAGS, matchedDomainsFromTags, tagKeys, categoryFor, priorityReadingMinutes, detectDutch } from "./priority-document.js";
+import type { DirectDomain, PriorityDocument, PriorityTier } from "./priority-document.js";
+export { DIRECT_DOMAIN_TAGS, matchedDomainsFromTags, detectDutch, baseSequencesForDocument as sequencesForDocument } from "./priority-document.js";
+export type { DirectDomain, PriorityDocument, PriorityTier, PriorityTags, PriorityTagDescriptor } from "./priority-document.js";
 import { splitReadingFeedback } from "./reader-notes.js";
 
 export type { PrioritySequenceV2 } from "./priority-sequences.js";
-
-export type PriorityTier = "hoog" | "midden" | "laag";
-
-export interface PriorityTagDescriptor {
-  name?: string | null;
-  key?: string | null;
-}
-
-export type PriorityTags = (string | PriorityTagDescriptor)[] | Readonly<Record<string, unknown>> | null;
-
-export interface PriorityDocument {
-  id?: string | null | undefined;
-  title?: string | null | undefined;
-  author?: string | null | undefined;
-  summary?: string | null | undefined;
-  notes?: string | null | undefined;
-  language?: string | null | undefined;
-  reading_time?: ReadingTimeValue | undefined;
-  word_count?: number | string | null | undefined;
-  saved_at?: string | null | undefined;
-  category?: string | null | undefined;
-  location?: string | null | undefined;
-  tags?: unknown;
-}
 
 export interface PriorityComponents {
   kerninteresse: number;
@@ -52,37 +27,6 @@ export interface PriorityScoreResult {
   components: PriorityComponents;
   rationale: PriorityRationale;
 }
-
-export const DIRECT_DOMAIN_TAGS = {
-  ai_ethiek: ["ai ethics", "ai & machine learning", "artificial intelligence"],
-  filosofie: [
-    "philosophy", "political philosophy", "ethics", "critical thinking & epistemology",
-    "epistemology", "metaphysics",
-    "anarchism", "anarchist", "kropotkin", "bakunin", "emma goldman", "david graeber",
-    "mutual aid", "frankfurt school", "critical theory",
-    "philosophy of mind", "free will", "personal identity", "philosophy of language",
-    "existentialism", "absurdism", "nihilism", "virtue ethics", "stoicism",
-  ],
-  ideologie: ["political ideologies", "totalitarianism & fascism", "politics & society", "political philosophy", "anarchism", "anarchist"],
-  geschiedenis: ["history", "history & civilization", "history of ideas"],
-  sociologie: [
-    "sociology", "sociology & inequality", "sociology & social structures", "ethics & society",
-    "social psychology & interpersonal dynamics", "social psychology", "interpersonal dynamics",
-  ],
-  schrijven: ["essay-writing", "writing", "writing & essays"],
-  speculatieve_fictie: ["fantasy & science fiction", "fiction-analysis", "literary-criticism", "narrative-theory"],
-  cultuur_games_film: ["games", "games & game studies", "film & tv analysis", "digital culture", "entertainment & pop culture"],
-  pkm: ["personal knowledge management", "pkm & kennisbeheer", "pkm & note-taking", "readwise", "tools & workflows"],
-  zorgouderschap: ["parenting", "parenting & care", "parenting & family", "mantelzorg", "family & relationships"],
-  adhd: ["adhd & neurodivergence", "adhd"],
-  agile: [
-    "agile", "scrum", "agile & scrum", "team coaching", "facilitation", "organizational culture",
-    "team dynamics & collaboration", "organizational behavior & culture", "team dynamics", "collaboration",
-    "organizational behavior", "product management", "flow & delivery",
-  ],
-} as const satisfies Record<string, readonly string[]>;
-
-export type DirectDomain = keyof typeof DIRECT_DOMAIN_TAGS;
 
 export const ADJACENT_TOPICS: readonly string[] = [
   "ai", "technology", "learning", "education", "economics", "climate", "environment",
@@ -108,12 +52,9 @@ const SATURATED_PHILOSOPHY_PHRASES = [
   "byung-chul han", "philosophy of technology",
 ];
 const AMERICA_MARKERS = ["united states", "u.s.", "us politics", "trump", "america", "american"];
-const DUTCH_TAGS = new Set(["dutch", "nederlands", "nl"]);
-const ENGLISH_TAGS = new Set(["english", "lang:en"]);
 const DUTCH_SCORE_BONUS = 5;
 const SHORTLIST_SCORE_BONUS = 10;
 const MUST_READ_SCORE_BONUS = 20;
-const SEQUENCE_ORDER: readonly PrioritySequenceV2[] = BASE_SEQUENCE_ORDER;
 
 function normalize(value: string | null | undefined): string {
   return (value ?? "")
@@ -123,40 +64,6 @@ function normalize(value: string | null | undefined): string {
     .replace(/[’‘]/g, "'")
     .replace(/\s+/g, " ")
     .trim();
-}
-
-function isRecord(value: unknown): value is Record<string, unknown> {
-  return typeof value === "object" && value !== null;
-}
-
-function rawTags(tags: unknown): unknown[] {
-  if (!tags) {
-    return [];
-  }
-  if (Array.isArray(tags)) {
-    return tags;
-  }
-  if ((typeof tags === "object" && tags !== null) || typeof tags === "function" || typeof tags === "string") {
-    return Object.keys(tags);
-  }
-  return [];
-}
-
-function tagKeys(doc: PriorityDocument): string[] {
-  const raw = rawTags(doc.tags)
-    .map((tag) => {
-      if (typeof tag === "string") {
-        return tag;
-      }
-      if (!isRecord(tag)) {
-        return "";
-      }
-      const name = tag.name ?? tag.key;
-      return typeof name === "string" ? name : "";
-    })
-    .map(normalize)
-    .filter(Boolean);
-  return [...new Set([...raw, ...canonicalInterestTags(raw)])];
 }
 
 function whyReadFor(doc: PriorityDocument): string {
@@ -184,19 +91,9 @@ function matchesVocabulary(doc: PriorityDocument, vocabulary: readonly string[])
   return vocabulary.some((phrase) => tags.has(normalize(phrase)) || hasPhrase(text, phrase));
 }
 
-function matchesVocabularyInTags(doc: PriorityDocument, vocabulary: readonly string[]): boolean {
-  const tags = new Set(tagKeys(doc));
-  return vocabulary.some((phrase) => tags.has(normalize(phrase)));
-}
-
 export function matchedDomains(doc: PriorityDocument): DirectDomain[] {
   return (Object.keys(DIRECT_DOMAIN_TAGS) as DirectDomain[])
     .filter((domain) => matchesVocabulary(doc, DIRECT_DOMAIN_TAGS[domain]));
-}
-
-export function matchedDomainsFromTags(doc: PriorityDocument): DirectDomain[] {
-  return (Object.keys(DIRECT_DOMAIN_TAGS) as DirectDomain[])
-    .filter((domain) => matchesVocabularyInTags(doc, DIRECT_DOMAIN_TAGS[domain]));
 }
 
 function wordCount(doc: PriorityDocument): number | null {
@@ -205,31 +102,6 @@ function wordCount(doc: PriorityDocument): number | null {
   }
   const value = Number(doc.word_count);
   return Number.isFinite(value) && value >= 0 ? value : null;
-}
-
-function categoryFor(doc: PriorityDocument): string {
-  return normalize(doc.category);
-}
-
-function priorityReadingMinutes(value: ReadingTimeValue): number | null {
-  const parsed = parseReadingMinutes(value);
-  if (parsed !== null) {
-    return parsed;
-  }
-  if (typeof value === "string" && /^\s*0\s*(?:minutes?|mins?|min)\b/i.test(value)) {
-    return 0;
-  }
-  return null;
-}
-
-function isBook(doc: PriorityDocument): boolean {
-  const category = categoryFor(doc);
-  const tags = new Set(tagKeys(doc));
-  return (category === "epub" || tags.has("book") || tags.has("books")) && !tags.has("pdf") && category !== "pdf";
-}
-
-function isPdf(doc: PriorityDocument): boolean {
-  return categoryFor(doc) === "pdf";
 }
 
 function tierForScore(score: number): PriorityTier {
@@ -391,55 +263,4 @@ export function scorePriorityDocument(doc: PriorityDocument): PriorityScoreResul
   );
 
   return { score, tier: tierForScore(score), components, rationale };
-}
-
-export function detectDutch(doc: PriorityDocument): boolean {
-  const language = normalize(doc.language);
-  if (["nl", "nld", "dut", "dutch", "nederlands"].includes(language)) {
-    return true;
-  }
-  if (["en", "eng", "english"].includes(language)) {
-    return false;
-  }
-  const tags = new Set(tagKeys(doc));
-  if ([...DUTCH_TAGS].some((tag) => tags.has(tag))) {
-    return true;
-  }
-  if ([...ENGLISH_TAGS].some((tag) => tags.has(tag))) {
-    return false;
-  }
-  return false;
-}
-
-export function sequencesForDocument(doc: PriorityDocument): PrioritySequenceV2[] {
-  const category = categoryFor(doc);
-  const book = isBook(doc);
-  const pdf = isPdf(doc);
-  const dutch = detectDutch(doc);
-  const readingMinutes = priorityReadingMinutes(doc.reading_time);
-  const short = readingMinutes !== null && readingMinutes < 10;
-  const sequences: PrioritySequenceV2[] = [];
-
-  if (category === "video") {
-    sequences.push("video");
-  }
-  if (book) {
-    sequences.push("boek");
-  }
-  if (pdf) {
-    sequences.push("pdf");
-  }
-  if (!book && ["article", "email", "rss"].includes(category)) {
-    sequences.push("lees");
-  }
-  if (!book && dutch) {
-    sequences.push("dutch");
-  }
-  if (!book && short) {
-    sequences.push("short");
-  }
-  if (!book && short && dutch) {
-    sequences.push("short-dutch");
-  }
-  return SEQUENCE_ORDER.filter((sequence) => sequences.includes(sequence));
 }

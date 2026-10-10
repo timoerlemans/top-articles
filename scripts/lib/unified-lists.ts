@@ -1,4 +1,4 @@
-import type { PriorityPositions, PrioritySequence } from "./readwise-priority-v3.js";
+import type { PriorityPositions, PrioritySequence } from "./priority-membership.js";
 
 export interface FamilyDefinition {
   readonly id: string;

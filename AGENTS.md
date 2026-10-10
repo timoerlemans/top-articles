@@ -67,25 +67,26 @@ notitieregels en een gefilterde interesse-tagset (structuurtags als `lees-0001`/
 taaltags en curatietags als `must-read`/`shortlist` worden eruit gefilterd, zie
 `ORDINAL_TAG_PATTERN`/`CURATION_TAGS`/`LANGUAGE_TAG_MAP`).
 
-### Scoring & reeksen (`scripts/lib/readwise-priority-v2.ts` + `-v8.ts`)
+### Scoring & reeksen (`scripts/lib/readwise-priority-v8.ts`)
 
-- De huidige scorelogica is model `readwise-priority-v8`: de v7-global score blijft de gedeelde
-  persoonlijke prioriteit, terwijl topicreeksen (`scrum`, `software-development`,
-  `front-end-development`, `social-studies`, `adhd`) een eigen scoreobject krijgen. Daarin vervangt
+- De huidige scorelogica is model `readwise-priority-v8`: de algemene score wordt rechtstreeks
+  berekend, terwijl topicreeksen (`scrum`, `software-development`,
+  `front-end-development`, `social-studies`, `adhd`, `philosophy`) een eigen scoreobject krijgen. Daarin vervangt
   topicrelevantie (0–4) de algemene relevantie; de kerninteressebonus blijft behouden. Positie- en
   toplijsttags zijn geen inhoudelijk bewijs; ontbrekende of verouderde judgments vallen terug op een
   expliciet als low-confidence gemarkeerde deterministische fallback.
-- Curation-tags (`must-read`, `shortlist`) en triage-aanbevelingen zijn alleen vergelijkingssignalen;
-  de handmatig beheerde tag `want-to-read` geeft wel een vaste bonus van 25 punten in de globale
-  en topicreeksscores. Highlight-aantallen, gegenereerde provenance en huidige posities geven geen
-  scorebonus. De evidence-laag dedupliceert highlighttekst en houdt ruwe highlights buiten config
+- Voorkeursauteurs Henrik Karlsson en Eleanor Konik geven 50 bonuspunten; anders geldt
+  `must-read` (+30) of `shortlist`/`short-list` (+20), zonder onderlinge stapeling.
+  `want-to-read` geeft daarbovenop 50 punten in globale en topicreeksscores. Deze signalen
+  tellen niet als inhoudelijk bewijs. Triage-aanbevelingen, highlight-aantallen,
+  gegenereerde provenance en huidige posities geven geen scorebonus. De evidence-laag dedupliceert highlighttekst en houdt ruwe highlights buiten config
   en browserdata.
 - De v8-bestandslaag voegt toe: handmatige correcties uit
   `config/readwise-priority-overrides.json` (`{ version: 1, items: { "<doc-id>": { adjustment, reason } } }`,
   reden verplicht bij niet-nul adjustment), tier-indeling (hoog ≥70, midden ≥40, laag <40), en
   `sequencesForDocument` — bepaalt in welke van de `SEQUENCE_ORDER`-reeksen (video, boek, pdf,
   lees, dutch, short, short-dutch, luchtig, luchtig-nederlands, scrum, software-development,
-  front-end-development, social-studies, adhd) een document hoort.
+  front-end-development, social-studies, adhd, philosophy) een document hoort.
   De `scrum`-reeks is, net als `luchtig`, topic-gebaseerd: een document met de tag `scrum` of
   `agile` hoort erin (boeken uitgezonderd); de sterke Agile-taxonomie bevat daarnaast `team coaching`,
   `facilitation`, `flow & delivery` en `psm-ii`. Brede tags als `team dynamics` geven hoogstens een
@@ -95,9 +96,16 @@ taaltags en curatietags als `must-read`/`shortlist` worden eruit gefilterd, zie
   uitgezonderd.
   **Boeken/EPUB's horen strikt alleen in de `boek`-reeks**, nooit gecombineerd met andere reeksen
   — dit wordt hard afgedwongen in `validatePriorityExport`.
-- `buildPriorityExport` berekent per document globale en topic-scores + reeksen + positie-per-reeks,
-  en valideert zichzelf tegen onafhankelijk herberekende verwachte output (dus scorelogica wijzigen
-  zonder de validatie mee te laten lopen, faalt de eigen output-check).
+- De v8-module bereidt judgments en kerninteressebewijs voor, bepaalt gewichten, berekent
+  globale/topicscores en rangschikt de definitieve reeksscores. Zij gebruikt geen historische
+  prioriteitsmodellen. `priority-document.ts` bezit gedeelde documentkennis en types;
+  `priority-membership.ts` bezit reeksindeling en actuele posities uit tags. Historische modules
+  blijven beschikbaar voor de v6→v8- en v7→v8-vergelijkingsrapporten.
+- `buildPriorityExport` valideert rechtstreeks de v8-structuur en invarianten, waaronder
+  componentrekenen, tiers, books-only en doorlopende posities. Daarnaast vergelijkt de validator
+  met een herberekening vanuit meegeleverde brondocumenten. Deze herberekening gebruikt dezelfde
+  rekenregels en controleert bronconsistentie; vaste gedragstests controleren het scorebeleid.
+  Een lege bronnenarray slaat de bronvergelijking over.
 
 ### Uniforme lijsten (`scripts/lib/unified-lists.ts`)
 
@@ -154,7 +162,7 @@ Feedbacktekst staat apart van inhoudelijke fingerprints en fallback-scoring.
 
 - `config/readwise-priority-overrides.json` is de enige plek voor expliciete numerieke
   scorecorrecties — wijzigingen hier gelden in alle lijsten tegelijk (algemene score, niet per
-  familie). De handmatige `want-to-read`-tag voegt daar los een vaste bonus van 25 punten aan toe.
+  familie). De handmatige `want-to-read`-tag voegt daar los een vaste bonus van 50 punten aan toe.
 - Nederlandse taalherkenning bepaalt de Dutch-reeksen en geeft Nederlandstalige documenten vijf
   scorepunten.
 - `data/data.js` en `data/score.js` worden zowel lokaal (`npm run build`) als dagelijks via

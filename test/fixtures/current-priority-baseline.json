@@ -1,0 +1,4189 @@
+{
+  "documents": [
+    {
+      "id": "agile",
+      "title": "A practical essay",
+      "summary": "A detailed analysis with evidence.",
+      "category": "article",
+      "word_count": 1500,
+      "reading_time": "8 mins",
+      "saved_at": "2026-01-01T00:00:00.000Z",
+      "tags": {
+        "facilitation": {},
+        "team coaching": {},
+        "lees-0010": {},
+        "scrum-002": {}
+      }
+    },
+    {
+      "id": "software",
+      "title": "A practical essay",
+      "summary": "A detailed analysis with evidence.",
+      "category": "article",
+      "word_count": 1500,
+      "reading_time": "8 mins",
+      "saved_at": "2026-01-01T00:00:00.000Z",
+      "tags": [
+        "programming & software",
+        "accessibility",
+        "must-read",
+        "want-to-read"
+      ]
+    },
+    {
+      "id": "philosophy",
+      "title": "Vrije wil en taalfilosofie",
+      "summary": "A detailed analysis with evidence.",
+      "category": "article",
+      "word_count": 1500,
+      "reading_time": "8 mins",
+      "saved_at": "2026-01-01T00:00:00.000Z",
+      "tags": {
+        "political philosophy": {},
+        "short-list": {}
+      },
+      "language": "nl"
+    },
+    {
+      "id": "adhd",
+      "title": "A practical essay",
+      "summary": "A detailed analysis with evidence.",
+      "category": "article",
+      "word_count": 1500,
+      "reading_time": 8,
+      "saved_at": "2026-01-01T00:00:00.000Z",
+      "tags": [
+        {
+          "name": "adhd"
+        },
+        {
+          "key": "parenting"
+        }
+      ]
+    },
+    {
+      "id": "book",
+      "title": "A practical essay",
+      "summary": "A detailed analysis with evidence.",
+      "category": "epub",
+      "word_count": 1500,
+      "reading_time": "8 mins",
+      "saved_at": "2026-01-01T00:00:00.000Z",
+      "tags": {
+        "books": {},
+        "scrum": {}
+      },
+      "language": "nl"
+    },
+    {
+      "id": "pdf",
+      "title": "A practical essay",
+      "summary": "A detailed analysis with evidence.",
+      "category": "pdf",
+      "word_count": 1500,
+      "reading_time": "8:30",
+      "saved_at": "2026-01-01T00:00:00.000Z",
+      "tags": {
+        "pdf": {},
+        "books": {}
+      }
+    },
+    {
+      "id": "video",
+      "title": "A practical essay",
+      "summary": "A detailed analysis with evidence.",
+      "category": "video",
+      "word_count": 1500,
+      "reading_time": "0 mins",
+      "saved_at": "2026-01-01T00:00:00.000Z",
+      "tags": [
+        "games",
+        "dutch",
+        "light-reading"
+      ]
+    },
+    {
+      "id": "author",
+      "title": "A practical essay",
+      "summary": "A detailed analysis with evidence.",
+      "category": "article",
+      "word_count": 1500,
+      "reading_time": "8 mins",
+      "saved_at": "2026-01-01T00:00:00.000Z",
+      "tags": {
+        "must-read": {},
+        "shortlist": {},
+        "want-to-read": {}
+      },
+      "author": "Hénrik  Karlsson"
+    },
+    {
+      "id": "negative",
+      "title": "US politics: Trump",
+      "summary": null,
+      "category": "article",
+      "word_count": 100,
+      "reading_time": "15 minutes",
+      "saved_at": "2026-01-01T00:00:00.000Z",
+      "tags": {
+        "current affairs": {}
+      }
+    },
+    {
+      "id": "stale",
+      "title": "A practical essay",
+      "summary": "A detailed analysis with evidence.",
+      "category": "article",
+      "word_count": 1500,
+      "reading_time": "9.5 mins",
+      "saved_at": "2026-01-01T00:00:00.000Z",
+      "tags": {
+        "software development": {}
+      }
+    },
+    {
+      "id": "draft",
+      "title": "A practical essay",
+      "summary": "A detailed analysis with evidence.",
+      "category": "article",
+      "word_count": 1500,
+      "reading_time": "8 mins",
+      "saved_at": "2026-01-01T00:00:00.000Z",
+      "tags": {
+        "team dynamics": {}
+      }
+    },
+    {
+      "id": "rejected",
+      "title": "A practical essay",
+      "summary": "A detailed analysis with evidence.",
+      "category": "article",
+      "word_count": 1500,
+      "reading_time": "8 mins",
+      "saved_at": "2026-01-01T00:00:00.000Z",
+      "tags": {
+        "fiction": {}
+      }
+    },
+    {
+      "id": "automated",
+      "title": "A practical essay",
+      "summary": "A detailed analysis with evidence.",
+      "category": "article",
+      "word_count": 1500,
+      "reading_time": "8 mins",
+      "saved_at": "2026-01-01T00:00:00.000Z",
+      "tags": {
+        "personal knowledge management": {}
+      }
+    },
+    {
+      "id": "tie-b",
+      "title": "A practical essay",
+      "summary": "A detailed analysis with evidence.",
+      "category": "article",
+      "word_count": 1500,
+      "reading_time": null,
+      "saved_at": "2026-01-01T00:00:00.000Z",
+      "tags": {}
+    },
+    {
+      "id": "tie-a",
+      "title": "A practical essay",
+      "summary": "A detailed analysis with evidence.",
+      "category": "article",
+      "word_count": 1500,
+      "reading_time": null,
+      "saved_at": "2026-01-01T00:00:00.000Z",
+      "tags": {}
+    },
+    {
+      "id": "tie-old",
+      "title": "A practical essay",
+      "summary": "A detailed analysis with evidence.",
+      "category": "article",
+      "word_count": 1500,
+      "reading_time": null,
+      "saved_at": "2025-01-01T00:00:00.000Z",
+      "tags": {}
+    }
+  ],
+  "options": {
+    "generatedAt": "2026-10-10T12:00:00.000Z",
+    "judgments": {
+      "version": 2,
+      "rubricVersion": "semantic-v2",
+      "items": {
+        "agile": {
+          "sourceFingerprint": "93a8ab38b7b1a76b5b2bd17c58b34a144292d643fc5d2264054500fefe0af1a6",
+          "evidenceFingerprint": "85e0d48dce13aa00dfb3090f79d2ccdacf824109c4961c69ef4b7d120bf4a0dd",
+          "relevance": 2,
+          "substance": 3,
+          "durability": 2,
+          "usefulness": 1,
+          "sequenceFit": {
+            "lees": -2,
+            "short": 2
+          },
+          "topicRelevance": {
+            "scrum": 4,
+            "social-studies": 1,
+            "software-development": 3,
+            "front-end-development": 2,
+            "philosophy": 4
+          },
+          "confidence": "high",
+          "status": "accepted",
+          "reasonCodes": [
+            "writing",
+            "semantic-review"
+          ],
+          "judgedBy": "baseline"
+        },
+        "software": {
+          "sourceFingerprint": "44608489f7cd35bfa158e2b71d117d9410607d0b4f7ec735b8cd2f102a874b97",
+          "evidenceFingerprint": "d046f400834b6feff0adac0ad3f2bdf15a571d7340008d1ad5da8234061eaa09",
+          "relevance": 2,
+          "substance": 3,
+          "durability": 2,
+          "usefulness": 1,
+          "sequenceFit": {
+            "lees": -2,
+            "short": 2
+          },
+          "topicRelevance": {
+            "scrum": 4,
+            "social-studies": 1,
+            "software-development": 3,
+            "front-end-development": 2,
+            "philosophy": 4
+          },
+          "confidence": "high",
+          "status": "accepted",
+          "reasonCodes": [
+            "writing",
+            "semantic-review"
+          ],
+          "judgedBy": "baseline"
+        },
+        "philosophy": {
+          "sourceFingerprint": "2cbd5ce41bc9c1b165665eb013a660cbfca71a3910ae7499b5cf180bd460a1e0",
+          "evidenceFingerprint": "d274ee42a4c107810fbd4722e3f3fdc7ade8cb65bc50d4aa11bad8b3475ef8ec",
+          "relevance": 2,
+          "substance": 3,
+          "durability": 2,
+          "usefulness": 1,
+          "sequenceFit": {
+            "lees": -2,
+            "short": 2
+          },
+          "topicRelevance": {
+            "scrum": 4,
+            "social-studies": 1,
+            "software-development": 3,
+            "front-end-development": 2,
+            "philosophy": 4
+          },
+          "confidence": "high",
+          "status": "accepted",
+          "reasonCodes": [
+            "writing",
+            "semantic-review"
+          ],
+          "judgedBy": "baseline"
+        },
+        "stale": {
+          "sourceFingerprint": "stale",
+          "evidenceFingerprint": "37c43c06610f61e74c5d470cd9624fa552ec46e4d3374ae62c698c785d9255f4",
+          "relevance": 2,
+          "substance": 3,
+          "durability": 2,
+          "usefulness": 1,
+          "sequenceFit": {
+            "lees": -2,
+            "short": 2
+          },
+          "topicRelevance": {
+            "scrum": 4,
+            "social-studies": 1,
+            "software-development": 3,
+            "front-end-development": 2,
+            "philosophy": 4
+          },
+          "confidence": "high",
+          "status": "accepted",
+          "reasonCodes": [
+            "writing",
+            "semantic-review"
+          ],
+          "judgedBy": "baseline"
+        },
+        "draft": {
+          "sourceFingerprint": "524012659935ac8a988ec0a8b3544be6e43342009bb30dfffb025c982d146f31",
+          "evidenceFingerprint": "2d7bcb6264b8fd69611da7f4af03fb4a03289abc2a550582b0a329e38afd4770",
+          "relevance": 2,
+          "substance": 3,
+          "durability": 2,
+          "usefulness": 1,
+          "sequenceFit": {
+            "lees": -2,
+            "short": 2
+          },
+          "topicRelevance": {
+            "scrum": 4,
+            "social-studies": 1,
+            "software-development": 3,
+            "front-end-development": 2,
+            "philosophy": 4
+          },
+          "confidence": "high",
+          "status": "draft",
+          "reasonCodes": [
+            "writing",
+            "semantic-review"
+          ],
+          "judgedBy": "baseline"
+        },
+        "rejected": {
+          "sourceFingerprint": "bfe5eca38741a7f8ec11fb8abdbe59bde41e58b1ad7f7b8454270d20fce287be",
+          "evidenceFingerprint": "1cb0943296921cac89b06ce6b776d6e97e53a6e0414145c180324a00a2fea803",
+          "relevance": 2,
+          "substance": 3,
+          "durability": 2,
+          "usefulness": 1,
+          "sequenceFit": {
+            "lees": -2,
+            "short": 2
+          },
+          "topicRelevance": {
+            "scrum": 4,
+            "social-studies": 1,
+            "software-development": 3,
+            "front-end-development": 2,
+            "philosophy": 4
+          },
+          "confidence": "high",
+          "status": "rejected",
+          "reasonCodes": [
+            "writing",
+            "semantic-review"
+          ],
+          "judgedBy": "baseline"
+        },
+        "automated": {
+          "sourceFingerprint": "931c6a7cb592f6aafd54d6ea83c6c3fab28cad94c69f7e1bd6ef5478aae9677b",
+          "evidenceFingerprint": "1d160d5fbe8cf7b56fd614996b921fa734d547f263a7d03cc65a7d3789be7b6b",
+          "relevance": 2,
+          "substance": 3,
+          "durability": 2,
+          "usefulness": 1,
+          "sequenceFit": {
+            "lees": -2,
+            "short": 2
+          },
+          "topicRelevance": {
+            "scrum": 4,
+            "social-studies": 1,
+            "software-development": 3,
+            "front-end-development": 2,
+            "philosophy": 4
+          },
+          "confidence": "high",
+          "status": "accepted",
+          "reasonCodes": [
+            "writing",
+            "semantic-review"
+          ],
+          "judgedBy": "automated-fallback-v1"
+        }
+      }
+    },
+    "overrides": {
+      "version": 1,
+      "items": {
+        "negative": {
+          "adjustment": -100,
+          "reason": "Baseline negative override"
+        },
+        "philosophy": {
+          "adjustment": 7,
+          "reason": "Baseline positive override"
+        }
+      }
+    }
+  },
+  "exported": {
+    "generatedAt": "2026-10-10T12:00:00.000Z",
+    "model": "readwise-priority-v8",
+    "scope": "later",
+    "coreInterestPriority": {
+      "version": 1,
+      "generatedAt": "2026-10-10T12:00:00.000Z",
+      "order": [
+        "agile",
+        "adhd",
+        "filosofie",
+        "zorgouderschap",
+        "cultuur_games_film",
+        "pkm",
+        "ai_ethiek",
+        "geschiedenis",
+        "ideologie",
+        "schrijven",
+        "sociologie",
+        "speculatieve_fictie"
+      ],
+      "weights": {
+        "agile": 20,
+        "adhd": 16,
+        "filosofie": 12,
+        "zorgouderschap": 10,
+        "cultuur_games_film": 9,
+        "pkm": 8,
+        "ai_ethiek": 7,
+        "geschiedenis": 6,
+        "ideologie": 5,
+        "schrijven": 4,
+        "sociologie": 3,
+        "speculatieve_fictie": 2
+      },
+      "entries": [
+        {
+          "interest": "agile",
+          "label": "Agile",
+          "rank": 1,
+          "weight": 20,
+          "source": "manual",
+          "evidenceDocumentCount": 3,
+          "evidenceScore": 0
+        },
+        {
+          "interest": "adhd",
+          "label": "ADHD",
+          "rank": 2,
+          "weight": 16,
+          "source": "manual",
+          "evidenceDocumentCount": 1,
+          "evidenceScore": 0
+        },
+        {
+          "interest": "filosofie",
+          "label": "Filosofie",
+          "rank": 3,
+          "weight": 12,
+          "source": "manual",
+          "evidenceDocumentCount": 1,
+          "evidenceScore": 0
+        },
+        {
+          "interest": "zorgouderschap",
+          "label": "Zorg & ouderschap",
+          "rank": 4,
+          "weight": 10,
+          "source": "derived",
+          "evidenceDocumentCount": 1,
+          "evidenceScore": 71
+        },
+        {
+          "interest": "cultuur_games_film",
+          "label": "Cultuur, games & film",
+          "rank": 5,
+          "weight": 9,
+          "source": "derived",
+          "evidenceDocumentCount": 1,
+          "evidenceScore": 61
+        },
+        {
+          "interest": "pkm",
+          "label": "PKM",
+          "rank": 6,
+          "weight": 8,
+          "source": "derived",
+          "evidenceDocumentCount": 1,
+          "evidenceScore": 61
+        },
+        {
+          "interest": "ai_ethiek",
+          "label": "AI & ethiek",
+          "rank": 7,
+          "weight": 7,
+          "source": "derived",
+          "evidenceDocumentCount": 0,
+          "evidenceScore": 0
+        },
+        {
+          "interest": "geschiedenis",
+          "label": "Geschiedenis",
+          "rank": 8,
+          "weight": 6,
+          "source": "derived",
+          "evidenceDocumentCount": 0,
+          "evidenceScore": 0
+        },
+        {
+          "interest": "ideologie",
+          "label": "Ideologie",
+          "rank": 9,
+          "weight": 5,
+          "source": "derived",
+          "evidenceDocumentCount": 0,
+          "evidenceScore": 0
+        },
+        {
+          "interest": "schrijven",
+          "label": "Schrijven",
+          "rank": 10,
+          "weight": 4,
+          "source": "derived",
+          "evidenceDocumentCount": 0,
+          "evidenceScore": 0
+        },
+        {
+          "interest": "sociologie",
+          "label": "Sociologie",
+          "rank": 11,
+          "weight": 3,
+          "source": "derived",
+          "evidenceDocumentCount": 0,
+          "evidenceScore": 0
+        },
+        {
+          "interest": "speculatieve_fictie",
+          "label": "Speculatieve fictie",
+          "rank": 12,
+          "weight": 2,
+          "source": "derived",
+          "evidenceDocumentCount": 0,
+          "evidenceScore": 0
+        }
+      ]
+    },
+    "items": {
+      "agile": {
+        "baseScore": 84,
+        "adjustment": 0,
+        "adjustmentReason": null,
+        "score": 84,
+        "tier": "hoog",
+        "components": {
+          "kerninteresse": 20,
+          "relevantie": 20,
+          "substantie": 24,
+          "duurzaamheid": 10,
+          "bruikbaarheid": 5,
+          "leeskans": 5,
+          "nederlandse_taal": 0,
+          "aftrek": 0
+        },
+        "rationale": {
+          "relevantie": [
+            "inhoudelijke relevantie uit de high-confidence inhoudsbeoordeling.",
+            "Bewijs: writing, semantic-review."
+          ],
+          "substantie": [
+            "substantie uit de high-confidence inhoudsbeoordeling."
+          ],
+          "duurzaamheid": [
+            "duurzaamheid uit de high-confidence inhoudsbeoordeling."
+          ],
+          "bruikbaarheid": [
+            "bruikbaarheid uit de high-confidence inhoudsbeoordeling."
+          ],
+          "leeskans": [
+            "leeskans uit de high-confidence inhoudsbeoordeling."
+          ],
+          "nederlandse_taal": [],
+          "aftrek": [],
+          "kerninteresse": [
+            "Agile: +20 (Facilitation, Team Coaching)."
+          ]
+        },
+        "judgmentSource": "label",
+        "judgmentConfidence": "high",
+        "coreInterestMatches": [
+          {
+            "interest": "agile",
+            "evidence": [
+              {
+                "kind": "readwise-tag",
+                "source": "facilitation",
+                "label": "Facilitation"
+              },
+              {
+                "kind": "readwise-tag",
+                "source": "team coaching",
+                "label": "Team Coaching"
+              }
+            ],
+            "qualityScore": 59,
+            "weight": 20
+          }
+        ],
+        "sequences": [
+          "lees",
+          "short",
+          "scrum",
+          "social-studies"
+        ],
+        "sequenceScores": {
+          "lees": {
+            "score": 78,
+            "tier": "hoog",
+            "mode": "global"
+          },
+          "short": {
+            "score": 90,
+            "tier": "hoog",
+            "mode": "global"
+          },
+          "scrum": {
+            "score": 104,
+            "tier": "hoog",
+            "mode": "topic",
+            "topicRelevance": 4,
+            "relevanceSource": "label",
+            "relevanceConfidence": "high",
+            "components": {
+              "kerninteresse": 20,
+              "topic_relevantie": 4,
+              "substantie": 24,
+              "duurzaamheid": 10,
+              "bruikbaarheid": 5,
+              "leeskans": 5,
+              "nederlandse_taal": 0,
+              "aftrek": 0
+            }
+          },
+          "social-studies": {
+            "score": 74,
+            "tier": "hoog",
+            "mode": "topic",
+            "topicRelevance": 1,
+            "relevanceSource": "label",
+            "relevanceConfidence": "high",
+            "components": {
+              "kerninteresse": 20,
+              "topic_relevantie": 1,
+              "substantie": 24,
+              "duurzaamheid": 10,
+              "bruikbaarheid": 5,
+              "leeskans": 5,
+              "nederlandse_taal": 0,
+              "aftrek": 0
+            }
+          }
+        },
+        "positions": {
+          "lees": 6,
+          "short": 5,
+          "scrum": 1,
+          "social-studies": 1
+        },
+        "actualPositions": {
+          "lees": 10,
+          "scrum": 2
+        }
+      },
+      "software": {
+        "baseScore": 64,
+        "adjustment": 80,
+        "adjustmentReason": "Tag must-read: +30 bonuspunten.; Tag want-to-read: +50 bonuspunten.",
+        "score": 144,
+        "tier": "hoog",
+        "components": {
+          "kerninteresse": 0,
+          "relevantie": 20,
+          "substantie": 24,
+          "duurzaamheid": 10,
+          "bruikbaarheid": 5,
+          "leeskans": 5,
+          "nederlandse_taal": 0,
+          "aftrek": 0
+        },
+        "rationale": {
+          "relevantie": [
+            "inhoudelijke relevantie uit de high-confidence inhoudsbeoordeling.",
+            "Bewijs: writing, semantic-review."
+          ],
+          "substantie": [
+            "substantie uit de high-confidence inhoudsbeoordeling."
+          ],
+          "duurzaamheid": [
+            "duurzaamheid uit de high-confidence inhoudsbeoordeling."
+          ],
+          "bruikbaarheid": [
+            "bruikbaarheid uit de high-confidence inhoudsbeoordeling."
+          ],
+          "leeskans": [
+            "leeskans uit de high-confidence inhoudsbeoordeling."
+          ],
+          "nederlandse_taal": [],
+          "aftrek": [],
+          "kerninteresse": []
+        },
+        "judgmentSource": "label",
+        "judgmentConfidence": "high",
+        "coreInterestMatches": [],
+        "sequences": [
+          "lees",
+          "short",
+          "software-development",
+          "front-end-development"
+        ],
+        "sequenceScores": {
+          "lees": {
+            "score": 138,
+            "tier": "hoog",
+            "mode": "global"
+          },
+          "short": {
+            "score": 150,
+            "tier": "hoog",
+            "mode": "global"
+          },
+          "software-development": {
+            "score": 154,
+            "tier": "hoog",
+            "mode": "topic",
+            "topicRelevance": 3,
+            "relevanceSource": "label",
+            "relevanceConfidence": "high",
+            "components": {
+              "kerninteresse": 0,
+              "topic_relevantie": 3,
+              "substantie": 24,
+              "duurzaamheid": 10,
+              "bruikbaarheid": 5,
+              "leeskans": 5,
+              "nederlandse_taal": 0,
+              "aftrek": 0
+            }
+          },
+          "front-end-development": {
+            "score": 144,
+            "tier": "hoog",
+            "mode": "topic",
+            "topicRelevance": 2,
+            "relevanceSource": "label",
+            "relevanceConfidence": "high",
+            "components": {
+              "kerninteresse": 0,
+              "topic_relevantie": 2,
+              "substantie": 24,
+              "duurzaamheid": 10,
+              "bruikbaarheid": 5,
+              "leeskans": 5,
+              "nederlandse_taal": 0,
+              "aftrek": 0
+            }
+          }
+        },
+        "positions": {
+          "lees": 2,
+          "short": 2,
+          "software-development": 1,
+          "front-end-development": 1
+        },
+        "actualPositions": {}
+      },
+      "philosophy": {
+        "baseScore": 81,
+        "adjustment": 27,
+        "adjustmentReason": "Baseline positive override; Tag shortlist: +20 bonuspunten.",
+        "score": 108,
+        "tier": "hoog",
+        "components": {
+          "kerninteresse": 12,
+          "relevantie": 20,
+          "substantie": 24,
+          "duurzaamheid": 10,
+          "bruikbaarheid": 5,
+          "leeskans": 5,
+          "nederlandse_taal": 5,
+          "aftrek": 0
+        },
+        "rationale": {
+          "relevantie": [
+            "inhoudelijke relevantie uit de high-confidence inhoudsbeoordeling.",
+            "Bewijs: writing, semantic-review."
+          ],
+          "substantie": [
+            "substantie uit de high-confidence inhoudsbeoordeling."
+          ],
+          "duurzaamheid": [
+            "duurzaamheid uit de high-confidence inhoudsbeoordeling."
+          ],
+          "bruikbaarheid": [
+            "bruikbaarheid uit de high-confidence inhoudsbeoordeling."
+          ],
+          "leeskans": [
+            "leeskans uit de high-confidence inhoudsbeoordeling."
+          ],
+          "nederlandse_taal": [
+            "Nederlandse taal uit de high-confidence inhoudsbeoordeling."
+          ],
+          "aftrek": [],
+          "kerninteresse": [
+            "Filosofie: +12 (politieke filosofie)."
+          ]
+        },
+        "judgmentSource": "label",
+        "judgmentConfidence": "high",
+        "coreInterestMatches": [
+          {
+            "interest": "filosofie",
+            "evidence": [
+              {
+                "kind": "readwise-tag",
+                "source": "political philosophy",
+                "label": "politieke filosofie"
+              }
+            ],
+            "qualityScore": 59,
+            "weight": 12
+          }
+        ],
+        "sequences": [
+          "lees",
+          "dutch",
+          "short",
+          "short-dutch",
+          "philosophy"
+        ],
+        "sequenceScores": {
+          "lees": {
+            "score": 102,
+            "tier": "hoog",
+            "mode": "global"
+          },
+          "dutch": {
+            "score": 108,
+            "tier": "hoog",
+            "mode": "global"
+          },
+          "short": {
+            "score": 114,
+            "tier": "hoog",
+            "mode": "global"
+          },
+          "short-dutch": {
+            "score": 108,
+            "tier": "hoog",
+            "mode": "global"
+          },
+          "philosophy": {
+            "score": 128,
+            "tier": "hoog",
+            "mode": "topic",
+            "topicRelevance": 4,
+            "relevanceSource": "label",
+            "relevanceConfidence": "high",
+            "components": {
+              "kerninteresse": 12,
+              "topic_relevantie": 4,
+              "substantie": 24,
+              "duurzaamheid": 10,
+              "bruikbaarheid": 5,
+              "leeskans": 5,
+              "nederlandse_taal": 5,
+              "aftrek": 0
+            }
+          }
+        },
+        "positions": {
+          "lees": 3,
+          "dutch": 1,
+          "short": 3,
+          "short-dutch": 1,
+          "philosophy": 1
+        },
+        "actualPositions": {}
+      },
+      "adhd": {
+        "baseScore": 95,
+        "adjustment": 0,
+        "adjustmentReason": null,
+        "score": 95,
+        "tier": "hoog",
+        "components": {
+          "kerninteresse": 26,
+          "relevantie": 20,
+          "substantie": 24,
+          "duurzaamheid": 15,
+          "bruikbaarheid": 10,
+          "leeskans": 0,
+          "nederlandse_taal": 0,
+          "aftrek": 0
+        },
+        "rationale": {
+          "relevantie": [
+            "inhoudelijke relevantie uit de low-confidence inhoudsbeoordeling.",
+            "Bewijs: fallback-no-label, explicit-interest-tag, substance-signal."
+          ],
+          "substantie": [
+            "substantie uit de low-confidence inhoudsbeoordeling."
+          ],
+          "duurzaamheid": [
+            "duurzaamheid uit de low-confidence inhoudsbeoordeling."
+          ],
+          "bruikbaarheid": [
+            "bruikbaarheid uit de low-confidence inhoudsbeoordeling."
+          ],
+          "leeskans": [],
+          "nederlandse_taal": [],
+          "aftrek": [],
+          "kerninteresse": [
+            "Zorg & ouderschap: +10 (Parenting).",
+            "ADHD: +16 (Adhd)."
+          ]
+        },
+        "judgmentSource": "fallback",
+        "judgmentConfidence": "low",
+        "coreInterestMatches": [
+          {
+            "interest": "zorgouderschap",
+            "evidence": [
+              {
+                "kind": "readwise-tag",
+                "source": "parenting",
+                "label": "Parenting"
+              }
+            ],
+            "qualityScore": 69,
+            "weight": 10
+          },
+          {
+            "interest": "adhd",
+            "evidence": [
+              {
+                "kind": "readwise-tag",
+                "source": "adhd",
+                "label": "Adhd"
+              }
+            ],
+            "qualityScore": 69,
+            "weight": 16
+          }
+        ],
+        "sequences": [
+          "lees",
+          "short",
+          "adhd"
+        ],
+        "sequenceScores": {
+          "lees": {
+            "score": 95,
+            "tier": "hoog",
+            "mode": "global"
+          },
+          "short": {
+            "score": 95,
+            "tier": "hoog",
+            "mode": "global"
+          },
+          "adhd": {
+            "score": 115,
+            "tier": "hoog",
+            "mode": "topic",
+            "topicRelevance": 4,
+            "relevanceSource": "fallback",
+            "relevanceConfidence": "low",
+            "components": {
+              "kerninteresse": 26,
+              "topic_relevantie": 4,
+              "substantie": 24,
+              "duurzaamheid": 15,
+              "bruikbaarheid": 10,
+              "leeskans": 0,
+              "nederlandse_taal": 0,
+              "aftrek": 0
+            }
+          }
+        },
+        "positions": {
+          "lees": 4,
+          "short": 4,
+          "adhd": 1
+        },
+        "actualPositions": {}
+      },
+      "book": {
+        "baseScore": 112,
+        "adjustment": 0,
+        "adjustmentReason": null,
+        "score": 112,
+        "tier": "hoog",
+        "components": {
+          "kerninteresse": 20,
+          "relevantie": 10,
+          "substantie": 32,
+          "duurzaamheid": 20,
+          "bruikbaarheid": 20,
+          "leeskans": 5,
+          "nederlandse_taal": 5,
+          "aftrek": 0
+        },
+        "rationale": {
+          "relevantie": [
+            "inhoudelijke relevantie uit de low-confidence inhoudsbeoordeling.",
+            "Bewijs: fallback-no-label, explicit-interest-tag, substance-signal, usefulness-signal."
+          ],
+          "substantie": [
+            "substantie uit de low-confidence inhoudsbeoordeling."
+          ],
+          "duurzaamheid": [
+            "duurzaamheid uit de low-confidence inhoudsbeoordeling."
+          ],
+          "bruikbaarheid": [
+            "bruikbaarheid uit de low-confidence inhoudsbeoordeling."
+          ],
+          "leeskans": [
+            "leeskans uit de low-confidence inhoudsbeoordeling."
+          ],
+          "nederlandse_taal": [
+            "Nederlandse taal uit de low-confidence inhoudsbeoordeling."
+          ],
+          "aftrek": [],
+          "kerninteresse": [
+            "Agile: +20 (Scrum)."
+          ]
+        },
+        "judgmentSource": "fallback",
+        "judgmentConfidence": "low",
+        "coreInterestMatches": [
+          {
+            "interest": "agile",
+            "evidence": [
+              {
+                "kind": "readwise-tag",
+                "source": "scrum",
+                "label": "Scrum"
+              }
+            ],
+            "qualityScore": 82,
+            "weight": 20
+          }
+        ],
+        "sequences": [
+          "boek"
+        ],
+        "sequenceScores": {
+          "boek": {
+            "score": 118,
+            "tier": "hoog",
+            "mode": "global"
+          }
+        },
+        "positions": {
+          "boek": 1
+        },
+        "actualPositions": {}
+      },
+      "pdf": {
+        "baseScore": 67,
+        "adjustment": 0,
+        "adjustmentReason": null,
+        "score": 67,
+        "tier": "midden",
+        "components": {
+          "kerninteresse": 0,
+          "relevantie": 10,
+          "substantie": 32,
+          "duurzaamheid": 20,
+          "bruikbaarheid": 5,
+          "leeskans": 0,
+          "nederlandse_taal": 0,
+          "aftrek": 0
+        },
+        "rationale": {
+          "relevantie": [
+            "inhoudelijke relevantie uit de low-confidence inhoudsbeoordeling.",
+            "Bewijs: fallback-no-label, substance-signal."
+          ],
+          "substantie": [
+            "substantie uit de low-confidence inhoudsbeoordeling."
+          ],
+          "duurzaamheid": [
+            "duurzaamheid uit de low-confidence inhoudsbeoordeling."
+          ],
+          "bruikbaarheid": [
+            "bruikbaarheid uit de low-confidence inhoudsbeoordeling."
+          ],
+          "leeskans": [],
+          "nederlandse_taal": [],
+          "aftrek": [],
+          "kerninteresse": []
+        },
+        "judgmentSource": "fallback",
+        "judgmentConfidence": "low",
+        "coreInterestMatches": [],
+        "sequences": [
+          "pdf"
+        ],
+        "sequenceScores": {
+          "pdf": {
+            "score": 73,
+            "tier": "hoog",
+            "mode": "global"
+          }
+        },
+        "positions": {
+          "pdf": 1
+        },
+        "actualPositions": {}
+      },
+      "video": {
+        "baseScore": 78,
+        "adjustment": 0,
+        "adjustmentReason": null,
+        "score": 78,
+        "tier": "hoog",
+        "components": {
+          "kerninteresse": 9,
+          "relevantie": 10,
+          "substantie": 24,
+          "duurzaamheid": 15,
+          "bruikbaarheid": 10,
+          "leeskans": 5,
+          "nederlandse_taal": 5,
+          "aftrek": 0
+        },
+        "rationale": {
+          "relevantie": [
+            "inhoudelijke relevantie uit de low-confidence inhoudsbeoordeling.",
+            "Bewijs: fallback-no-label, explicit-interest-tag, substance-signal."
+          ],
+          "substantie": [
+            "substantie uit de low-confidence inhoudsbeoordeling."
+          ],
+          "duurzaamheid": [
+            "duurzaamheid uit de low-confidence inhoudsbeoordeling."
+          ],
+          "bruikbaarheid": [
+            "bruikbaarheid uit de low-confidence inhoudsbeoordeling."
+          ],
+          "leeskans": [
+            "leeskans uit de low-confidence inhoudsbeoordeling."
+          ],
+          "nederlandse_taal": [
+            "Nederlandse taal uit de low-confidence inhoudsbeoordeling."
+          ],
+          "aftrek": [],
+          "kerninteresse": [
+            "Cultuur, games & film: +9 (Games)."
+          ]
+        },
+        "judgmentSource": "fallback",
+        "judgmentConfidence": "low",
+        "coreInterestMatches": [
+          {
+            "interest": "cultuur_games_film",
+            "evidence": [
+              {
+                "kind": "readwise-tag",
+                "source": "games",
+                "label": "Games"
+              }
+            ],
+            "qualityScore": 59,
+            "weight": 9
+          }
+        ],
+        "sequences": [
+          "video",
+          "dutch",
+          "short",
+          "short-dutch",
+          "luchtig",
+          "luchtig-nederlands"
+        ],
+        "sequenceScores": {
+          "video": {
+            "score": 84,
+            "tier": "hoog",
+            "mode": "global"
+          },
+          "dutch": {
+            "score": 84,
+            "tier": "hoog",
+            "mode": "global"
+          },
+          "short": {
+            "score": 81,
+            "tier": "hoog",
+            "mode": "global"
+          },
+          "short-dutch": {
+            "score": 81,
+            "tier": "hoog",
+            "mode": "global"
+          },
+          "luchtig": {
+            "score": 81,
+            "tier": "hoog",
+            "mode": "global"
+          },
+          "luchtig-nederlands": {
+            "score": 81,
+            "tier": "hoog",
+            "mode": "global"
+          }
+        },
+        "positions": {
+          "video": 1,
+          "dutch": 2,
+          "short": 7,
+          "short-dutch": 2,
+          "luchtig": 1,
+          "luchtig-nederlands": 1
+        },
+        "actualPositions": {}
+      },
+      "author": {
+        "baseScore": 49,
+        "adjustment": 100,
+        "adjustmentReason": "Voorkeursauteur Henrik Karlsson: +50 bonuspunten.; Tag want-to-read: +50 bonuspunten.",
+        "score": 149,
+        "tier": "hoog",
+        "components": {
+          "kerninteresse": 0,
+          "relevantie": 10,
+          "substantie": 24,
+          "duurzaamheid": 5,
+          "bruikbaarheid": 5,
+          "leeskans": 5,
+          "nederlandse_taal": 0,
+          "aftrek": 0
+        },
+        "rationale": {
+          "relevantie": [
+            "inhoudelijke relevantie uit de low-confidence inhoudsbeoordeling.",
+            "Bewijs: fallback-no-label, substance-signal."
+          ],
+          "substantie": [
+            "substantie uit de low-confidence inhoudsbeoordeling."
+          ],
+          "duurzaamheid": [
+            "duurzaamheid uit de low-confidence inhoudsbeoordeling."
+          ],
+          "bruikbaarheid": [
+            "bruikbaarheid uit de low-confidence inhoudsbeoordeling."
+          ],
+          "leeskans": [
+            "leeskans uit de low-confidence inhoudsbeoordeling."
+          ],
+          "nederlandse_taal": [],
+          "aftrek": [],
+          "kerninteresse": []
+        },
+        "judgmentSource": "fallback",
+        "judgmentConfidence": "low",
+        "coreInterestMatches": [],
+        "sequences": [
+          "lees",
+          "short"
+        ],
+        "sequenceScores": {
+          "lees": {
+            "score": 149,
+            "tier": "hoog",
+            "mode": "global"
+          },
+          "short": {
+            "score": 152,
+            "tier": "hoog",
+            "mode": "global"
+          }
+        },
+        "positions": {
+          "lees": 1,
+          "short": 1
+        },
+        "actualPositions": {}
+      },
+      "negative": {
+        "baseScore": 18,
+        "adjustment": -100,
+        "adjustmentReason": "Baseline negative override",
+        "score": 0,
+        "tier": "laag",
+        "components": {
+          "kerninteresse": 0,
+          "relevantie": 10,
+          "substantie": 8,
+          "duurzaamheid": 5,
+          "bruikbaarheid": 5,
+          "leeskans": 0,
+          "nederlandse_taal": 0,
+          "aftrek": -10
+        },
+        "rationale": {
+          "relevantie": [
+            "inhoudelijke relevantie uit de low-confidence inhoudsbeoordeling.",
+            "Bewijs: fallback-no-label."
+          ],
+          "substantie": [
+            "substantie uit de low-confidence inhoudsbeoordeling."
+          ],
+          "duurzaamheid": [
+            "duurzaamheid uit de low-confidence inhoudsbeoordeling."
+          ],
+          "bruikbaarheid": [
+            "bruikbaarheid uit de low-confidence inhoudsbeoordeling."
+          ],
+          "leeskans": [],
+          "nederlandse_taal": [],
+          "aftrek": [
+            "aftrek uit de low-confidence inhoudsbeoordeling."
+          ],
+          "kerninteresse": []
+        },
+        "judgmentSource": "fallback",
+        "judgmentConfidence": "low",
+        "coreInterestMatches": [],
+        "sequences": [
+          "lees"
+        ],
+        "sequenceScores": {
+          "lees": {
+            "score": 0,
+            "tier": "laag",
+            "mode": "global"
+          }
+        },
+        "positions": {
+          "lees": 13
+        },
+        "actualPositions": {}
+      },
+      "stale": {
+        "baseScore": 49,
+        "adjustment": 0,
+        "adjustmentReason": null,
+        "score": 49,
+        "tier": "midden",
+        "components": {
+          "kerninteresse": 0,
+          "relevantie": 10,
+          "substantie": 24,
+          "duurzaamheid": 5,
+          "bruikbaarheid": 5,
+          "leeskans": 5,
+          "nederlandse_taal": 0,
+          "aftrek": 0
+        },
+        "rationale": {
+          "relevantie": [
+            "inhoudelijke relevantie uit de low-confidence inhoudsbeoordeling.",
+            "Bewijs: fallback-no-label, substance-signal."
+          ],
+          "substantie": [
+            "substantie uit de low-confidence inhoudsbeoordeling."
+          ],
+          "duurzaamheid": [
+            "duurzaamheid uit de low-confidence inhoudsbeoordeling."
+          ],
+          "bruikbaarheid": [
+            "bruikbaarheid uit de low-confidence inhoudsbeoordeling."
+          ],
+          "leeskans": [
+            "leeskans uit de low-confidence inhoudsbeoordeling."
+          ],
+          "nederlandse_taal": [],
+          "aftrek": [],
+          "kerninteresse": []
+        },
+        "judgmentSource": "fallback",
+        "judgmentConfidence": "low",
+        "coreInterestMatches": [],
+        "sequences": [
+          "lees",
+          "short",
+          "software-development"
+        ],
+        "sequenceScores": {
+          "lees": {
+            "score": 49,
+            "tier": "midden",
+            "mode": "global"
+          },
+          "short": {
+            "score": 49,
+            "tier": "midden",
+            "mode": "global"
+          },
+          "software-development": {
+            "score": 79,
+            "tier": "hoog",
+            "mode": "topic",
+            "topicRelevance": 4,
+            "relevanceSource": "fallback",
+            "relevanceConfidence": "low",
+            "components": {
+              "kerninteresse": 0,
+              "topic_relevantie": 4,
+              "substantie": 24,
+              "duurzaamheid": 5,
+              "bruikbaarheid": 5,
+              "leeskans": 5,
+              "nederlandse_taal": 0,
+              "aftrek": 0
+            }
+          }
+        },
+        "positions": {
+          "lees": 9,
+          "short": 10,
+          "software-development": 2
+        },
+        "actualPositions": {}
+      },
+      "draft": {
+        "baseScore": 84,
+        "adjustment": 0,
+        "adjustmentReason": null,
+        "score": 84,
+        "tier": "hoog",
+        "components": {
+          "kerninteresse": 20,
+          "relevantie": 10,
+          "substantie": 24,
+          "duurzaamheid": 15,
+          "bruikbaarheid": 10,
+          "leeskans": 5,
+          "nederlandse_taal": 0,
+          "aftrek": 0
+        },
+        "rationale": {
+          "relevantie": [
+            "inhoudelijke relevantie uit de low-confidence inhoudsbeoordeling.",
+            "Bewijs: fallback-no-label, explicit-interest-tag, substance-signal."
+          ],
+          "substantie": [
+            "substantie uit de low-confidence inhoudsbeoordeling."
+          ],
+          "duurzaamheid": [
+            "duurzaamheid uit de low-confidence inhoudsbeoordeling."
+          ],
+          "bruikbaarheid": [
+            "bruikbaarheid uit de low-confidence inhoudsbeoordeling."
+          ],
+          "leeskans": [
+            "leeskans uit de low-confidence inhoudsbeoordeling."
+          ],
+          "nederlandse_taal": [],
+          "aftrek": [],
+          "kerninteresse": [
+            "Agile: +20 (Team Dynamics)."
+          ]
+        },
+        "judgmentSource": "fallback",
+        "judgmentConfidence": "low",
+        "coreInterestMatches": [
+          {
+            "interest": "agile",
+            "evidence": [
+              {
+                "kind": "readwise-tag",
+                "source": "team dynamics",
+                "label": "Team Dynamics"
+              }
+            ],
+            "qualityScore": 59,
+            "weight": 20
+          }
+        ],
+        "sequences": [
+          "lees",
+          "short",
+          "social-studies"
+        ],
+        "sequenceScores": {
+          "lees": {
+            "score": 84,
+            "tier": "hoog",
+            "mode": "global"
+          },
+          "short": {
+            "score": 87,
+            "tier": "hoog",
+            "mode": "global"
+          },
+          "social-studies": {
+            "score": 74,
+            "tier": "hoog",
+            "mode": "topic",
+            "topicRelevance": 0,
+            "relevanceSource": "fallback",
+            "relevanceConfidence": "low",
+            "components": {
+              "kerninteresse": 20,
+              "topic_relevantie": 0,
+              "substantie": 24,
+              "duurzaamheid": 15,
+              "bruikbaarheid": 10,
+              "leeskans": 5,
+              "nederlandse_taal": 0,
+              "aftrek": 0
+            }
+          }
+        },
+        "positions": {
+          "lees": 5,
+          "short": 6,
+          "social-studies": 2
+        },
+        "actualPositions": {}
+      },
+      "rejected": {
+        "baseScore": 49,
+        "adjustment": 0,
+        "adjustmentReason": null,
+        "score": 49,
+        "tier": "midden",
+        "components": {
+          "kerninteresse": 0,
+          "relevantie": 10,
+          "substantie": 24,
+          "duurzaamheid": 5,
+          "bruikbaarheid": 5,
+          "leeskans": 5,
+          "nederlandse_taal": 0,
+          "aftrek": 0
+        },
+        "rationale": {
+          "relevantie": [
+            "inhoudelijke relevantie uit de low-confidence inhoudsbeoordeling.",
+            "Bewijs: fallback-no-label, substance-signal."
+          ],
+          "substantie": [
+            "substantie uit de low-confidence inhoudsbeoordeling."
+          ],
+          "duurzaamheid": [
+            "duurzaamheid uit de low-confidence inhoudsbeoordeling."
+          ],
+          "bruikbaarheid": [
+            "bruikbaarheid uit de low-confidence inhoudsbeoordeling."
+          ],
+          "leeskans": [
+            "leeskans uit de low-confidence inhoudsbeoordeling."
+          ],
+          "nederlandse_taal": [],
+          "aftrek": [],
+          "kerninteresse": []
+        },
+        "judgmentSource": "fallback",
+        "judgmentConfidence": "low",
+        "coreInterestMatches": [],
+        "sequences": [
+          "lees",
+          "short",
+          "luchtig"
+        ],
+        "sequenceScores": {
+          "lees": {
+            "score": 49,
+            "tier": "midden",
+            "mode": "global"
+          },
+          "short": {
+            "score": 52,
+            "tier": "midden",
+            "mode": "global"
+          },
+          "luchtig": {
+            "score": 52,
+            "tier": "midden",
+            "mode": "global"
+          }
+        },
+        "positions": {
+          "lees": 8,
+          "short": 9,
+          "luchtig": 2
+        },
+        "actualPositions": {}
+      },
+      "automated": {
+        "baseScore": 72,
+        "adjustment": 0,
+        "adjustmentReason": null,
+        "score": 72,
+        "tier": "hoog",
+        "components": {
+          "kerninteresse": 8,
+          "relevantie": 20,
+          "substantie": 24,
+          "duurzaamheid": 10,
+          "bruikbaarheid": 5,
+          "leeskans": 5,
+          "nederlandse_taal": 0,
+          "aftrek": 0
+        },
+        "rationale": {
+          "relevantie": [
+            "inhoudelijke relevantie uit de high-confidence inhoudsbeoordeling.",
+            "Bewijs: writing, semantic-review."
+          ],
+          "substantie": [
+            "substantie uit de high-confidence inhoudsbeoordeling."
+          ],
+          "duurzaamheid": [
+            "duurzaamheid uit de high-confidence inhoudsbeoordeling."
+          ],
+          "bruikbaarheid": [
+            "bruikbaarheid uit de high-confidence inhoudsbeoordeling."
+          ],
+          "leeskans": [
+            "leeskans uit de high-confidence inhoudsbeoordeling."
+          ],
+          "nederlandse_taal": [],
+          "aftrek": [],
+          "kerninteresse": [
+            "PKM: +8 (Personal Knowledge Management)."
+          ]
+        },
+        "judgmentSource": "fallback",
+        "judgmentConfidence": "high",
+        "coreInterestMatches": [
+          {
+            "interest": "pkm",
+            "evidence": [
+              {
+                "kind": "readwise-tag",
+                "source": "personal knowledge management",
+                "label": "Personal Knowledge Management"
+              }
+            ],
+            "qualityScore": 59,
+            "weight": 8
+          }
+        ],
+        "sequences": [
+          "lees",
+          "short"
+        ],
+        "sequenceScores": {
+          "lees": {
+            "score": 66,
+            "tier": "midden",
+            "mode": "global"
+          },
+          "short": {
+            "score": 78,
+            "tier": "hoog",
+            "mode": "global"
+          }
+        },
+        "positions": {
+          "lees": 7,
+          "short": 8
+        },
+        "actualPositions": {}
+      },
+      "tie-b": {
+        "baseScore": 44,
+        "adjustment": 0,
+        "adjustmentReason": null,
+        "score": 44,
+        "tier": "midden",
+        "components": {
+          "kerninteresse": 0,
+          "relevantie": 10,
+          "substantie": 24,
+          "duurzaamheid": 5,
+          "bruikbaarheid": 5,
+          "leeskans": 0,
+          "nederlandse_taal": 0,
+          "aftrek": 0
+        },
+        "rationale": {
+          "relevantie": [
+            "inhoudelijke relevantie uit de low-confidence inhoudsbeoordeling.",
+            "Bewijs: fallback-no-label, substance-signal."
+          ],
+          "substantie": [
+            "substantie uit de low-confidence inhoudsbeoordeling."
+          ],
+          "duurzaamheid": [
+            "duurzaamheid uit de low-confidence inhoudsbeoordeling."
+          ],
+          "bruikbaarheid": [
+            "bruikbaarheid uit de low-confidence inhoudsbeoordeling."
+          ],
+          "leeskans": [],
+          "nederlandse_taal": [],
+          "aftrek": [],
+          "kerninteresse": []
+        },
+        "judgmentSource": "fallback",
+        "judgmentConfidence": "low",
+        "coreInterestMatches": [],
+        "sequences": [
+          "lees"
+        ],
+        "sequenceScores": {
+          "lees": {
+            "score": 44,
+            "tier": "midden",
+            "mode": "global"
+          }
+        },
+        "positions": {
+          "lees": 12
+        },
+        "actualPositions": {}
+      },
+      "tie-a": {
+        "baseScore": 44,
+        "adjustment": 0,
+        "adjustmentReason": null,
+        "score": 44,
+        "tier": "midden",
+        "components": {
+          "kerninteresse": 0,
+          "relevantie": 10,
+          "substantie": 24,
+          "duurzaamheid": 5,
+          "bruikbaarheid": 5,
+          "leeskans": 0,
+          "nederlandse_taal": 0,
+          "aftrek": 0
+        },
+        "rationale": {
+          "relevantie": [
+            "inhoudelijke relevantie uit de low-confidence inhoudsbeoordeling.",
+            "Bewijs: fallback-no-label, substance-signal."
+          ],
+          "substantie": [
+            "substantie uit de low-confidence inhoudsbeoordeling."
+          ],
+          "duurzaamheid": [
+            "duurzaamheid uit de low-confidence inhoudsbeoordeling."
+          ],
+          "bruikbaarheid": [
+            "bruikbaarheid uit de low-confidence inhoudsbeoordeling."
+          ],
+          "leeskans": [],
+          "nederlandse_taal": [],
+          "aftrek": [],
+          "kerninteresse": []
+        },
+        "judgmentSource": "fallback",
+        "judgmentConfidence": "low",
+        "coreInterestMatches": [],
+        "sequences": [
+          "lees"
+        ],
+        "sequenceScores": {
+          "lees": {
+            "score": 44,
+            "tier": "midden",
+            "mode": "global"
+          }
+        },
+        "positions": {
+          "lees": 11
+        },
+        "actualPositions": {}
+      },
+      "tie-old": {
+        "baseScore": 44,
+        "adjustment": 0,
+        "adjustmentReason": null,
+        "score": 44,
+        "tier": "midden",
+        "components": {
+          "kerninteresse": 0,
+          "relevantie": 10,
+          "substantie": 24,
+          "duurzaamheid": 5,
+          "bruikbaarheid": 5,
+          "leeskans": 0,
+          "nederlandse_taal": 0,
+          "aftrek": 0
+        },
+        "rationale": {
+          "relevantie": [
+            "inhoudelijke relevantie uit de low-confidence inhoudsbeoordeling.",
+            "Bewijs: fallback-no-label, substance-signal."
+          ],
+          "substantie": [
+            "substantie uit de low-confidence inhoudsbeoordeling."
+          ],
+          "duurzaamheid": [
+            "duurzaamheid uit de low-confidence inhoudsbeoordeling."
+          ],
+          "bruikbaarheid": [
+            "bruikbaarheid uit de low-confidence inhoudsbeoordeling."
+          ],
+          "leeskans": [],
+          "nederlandse_taal": [],
+          "aftrek": [],
+          "kerninteresse": []
+        },
+        "judgmentSource": "fallback",
+        "judgmentConfidence": "low",
+        "coreInterestMatches": [],
+        "sequences": [
+          "lees"
+        ],
+        "sequenceScores": {
+          "lees": {
+            "score": 44,
+            "tier": "midden",
+            "mode": "global"
+          }
+        },
+        "positions": {
+          "lees": 10
+        },
+        "actualPositions": {}
+      }
+    }
+  },
+  "standalone": [
+    {
+      "document": {
+        "id": "descriptor",
+        "title": "A practical essay",
+        "summary": "A detailed analysis with evidence.",
+        "category": "article",
+        "word_count": 1500,
+        "reading_time": "8 mins",
+        "saved_at": "2026-01-01T00:00:00.000Z",
+        "tags": [
+          {
+            "name": "must-read"
+          }
+        ]
+      },
+      "score": {
+        "baseScore": 57,
+        "adjustment": 30,
+        "adjustmentReason": "Tag must-read: +30 bonuspunten.",
+        "score": 87,
+        "tier": "hoog",
+        "components": {
+          "kerninteresse": 0,
+          "relevantie": 10,
+          "substantie": 24,
+          "duurzaamheid": 5,
+          "bruikbaarheid": 5,
+          "leeskans": 5,
+          "nederlandse_taal": 0,
+          "aftrek": 0
+        },
+        "rationale": {
+          "relevantie": [
+            "inhoudelijke relevantie uit de low-confidence inhoudsbeoordeling.",
+            "Bewijs: fallback-no-label, substance-signal."
+          ],
+          "substantie": [
+            "substantie uit de low-confidence inhoudsbeoordeling."
+          ],
+          "duurzaamheid": [
+            "duurzaamheid uit de low-confidence inhoudsbeoordeling."
+          ],
+          "bruikbaarheid": [
+            "bruikbaarheid uit de low-confidence inhoudsbeoordeling."
+          ],
+          "leeskans": [
+            "leeskans uit de low-confidence inhoudsbeoordeling."
+          ],
+          "nederlandse_taal": [],
+          "aftrek": [],
+          "kerninteresse": []
+        },
+        "judgmentSource": "fallback",
+        "judgmentConfidence": "low",
+        "coreInterestMatches": []
+      }
+    },
+    {
+      "document": {
+        "title": "Minimal"
+      },
+      "score": {
+        "baseScore": 28,
+        "adjustment": 0,
+        "adjustmentReason": null,
+        "score": 28,
+        "tier": "laag",
+        "components": {
+          "kerninteresse": 0,
+          "relevantie": 10,
+          "substantie": 8,
+          "duurzaamheid": 5,
+          "bruikbaarheid": 5,
+          "leeskans": 0,
+          "nederlandse_taal": 0,
+          "aftrek": 0
+        },
+        "rationale": {
+          "relevantie": [
+            "inhoudelijke relevantie uit de low-confidence inhoudsbeoordeling.",
+            "Bewijs: fallback-no-label."
+          ],
+          "substantie": [
+            "substantie uit de low-confidence inhoudsbeoordeling."
+          ],
+          "duurzaamheid": [
+            "duurzaamheid uit de low-confidence inhoudsbeoordeling."
+          ],
+          "bruikbaarheid": [
+            "bruikbaarheid uit de low-confidence inhoudsbeoordeling."
+          ],
+          "leeskans": [],
+          "nederlandse_taal": [],
+          "aftrek": [],
+          "kerninteresse": []
+        },
+        "judgmentSource": "fallback",
+        "judgmentConfidence": "low",
+        "coreInterestMatches": []
+      }
+    },
+    {
+      "document": {
+        "id": "shortlist-descriptor",
+        "title": "A practical essay",
+        "summary": "A detailed analysis with evidence.",
+        "category": "article",
+        "word_count": 1500,
+        "reading_time": "8 mins",
+        "saved_at": "2026-01-01T00:00:00.000Z",
+        "tags": [
+          {
+            "key": "shortlist"
+          }
+        ]
+      },
+      "score": {
+        "baseScore": 53,
+        "adjustment": 20,
+        "adjustmentReason": "Tag shortlist: +20 bonuspunten.",
+        "score": 73,
+        "tier": "hoog",
+        "components": {
+          "kerninteresse": 0,
+          "relevantie": 10,
+          "substantie": 24,
+          "duurzaamheid": 5,
+          "bruikbaarheid": 5,
+          "leeskans": 5,
+          "nederlandse_taal": 0,
+          "aftrek": 0
+        },
+        "rationale": {
+          "relevantie": [
+            "inhoudelijke relevantie uit de low-confidence inhoudsbeoordeling.",
+            "Bewijs: fallback-no-label, substance-signal."
+          ],
+          "substantie": [
+            "substantie uit de low-confidence inhoudsbeoordeling."
+          ],
+          "duurzaamheid": [
+            "duurzaamheid uit de low-confidence inhoudsbeoordeling."
+          ],
+          "bruikbaarheid": [
+            "bruikbaarheid uit de low-confidence inhoudsbeoordeling."
+          ],
+          "leeskans": [
+            "leeskans uit de low-confidence inhoudsbeoordeling."
+          ],
+          "nederlandse_taal": [],
+          "aftrek": [],
+          "kerninteresse": []
+        },
+        "judgmentSource": "fallback",
+        "judgmentConfidence": "low",
+        "coreInterestMatches": []
+      }
+    },
+    {
+      "document": {
+        "id": "clipped",
+        "title": "Trump in America",
+        "summary": null,
+        "category": "article",
+        "word_count": 10,
+        "reading_time": "8 mins",
+        "saved_at": "2026-01-01T00:00:00.000Z",
+        "tags": {
+          "current affairs": {}
+        }
+      },
+      "score": {
+        "baseScore": 23,
+        "adjustment": 0,
+        "adjustmentReason": null,
+        "score": 23,
+        "tier": "laag",
+        "components": {
+          "kerninteresse": 0,
+          "relevantie": 10,
+          "substantie": 8,
+          "duurzaamheid": 5,
+          "bruikbaarheid": 5,
+          "leeskans": 5,
+          "nederlandse_taal": 0,
+          "aftrek": -10
+        },
+        "rationale": {
+          "relevantie": [
+            "inhoudelijke relevantie uit de low-confidence inhoudsbeoordeling.",
+            "Bewijs: fallback-no-label."
+          ],
+          "substantie": [
+            "substantie uit de low-confidence inhoudsbeoordeling."
+          ],
+          "duurzaamheid": [
+            "duurzaamheid uit de low-confidence inhoudsbeoordeling."
+          ],
+          "bruikbaarheid": [
+            "bruikbaarheid uit de low-confidence inhoudsbeoordeling."
+          ],
+          "leeskans": [
+            "leeskans uit de low-confidence inhoudsbeoordeling."
+          ],
+          "nederlandse_taal": [],
+          "aftrek": [
+            "aftrek uit de low-confidence inhoudsbeoordeling."
+          ],
+          "kerninteresse": []
+        },
+        "judgmentSource": "fallback",
+        "judgmentConfidence": "low",
+        "coreInterestMatches": []
+      }
+    }
+  ],
+  "empty": {
+    "generatedAt": "2026-10-10T12:00:00.000Z",
+    "model": "readwise-priority-v8",
+    "scope": "later",
+    "coreInterestPriority": {
+      "version": 1,
+      "generatedAt": "2026-10-10T12:00:00.000Z",
+      "order": [
+        "agile",
+        "adhd",
+        "filosofie",
+        "ai_ethiek",
+        "cultuur_games_film",
+        "geschiedenis",
+        "ideologie",
+        "pkm",
+        "schrijven",
+        "sociologie",
+        "speculatieve_fictie",
+        "zorgouderschap"
+      ],
+      "weights": {
+        "agile": 20,
+        "adhd": 16,
+        "filosofie": 12,
+        "ai_ethiek": 10,
+        "cultuur_games_film": 9,
+        "geschiedenis": 8,
+        "ideologie": 7,
+        "pkm": 6,
+        "schrijven": 5,
+        "sociologie": 4,
+        "speculatieve_fictie": 3,
+        "zorgouderschap": 2
+      },
+      "entries": [
+        {
+          "interest": "agile",
+          "label": "Agile",
+          "rank": 1,
+          "weight": 20,
+          "source": "manual",
+          "evidenceDocumentCount": 0,
+          "evidenceScore": 0
+        },
+        {
+          "interest": "adhd",
+          "label": "ADHD",
+          "rank": 2,
+          "weight": 16,
+          "source": "manual",
+          "evidenceDocumentCount": 0,
+          "evidenceScore": 0
+        },
+        {
+          "interest": "filosofie",
+          "label": "Filosofie",
+          "rank": 3,
+          "weight": 12,
+          "source": "manual",
+          "evidenceDocumentCount": 0,
+          "evidenceScore": 0
+        },
+        {
+          "interest": "ai_ethiek",
+          "label": "AI & ethiek",
+          "rank": 4,
+          "weight": 10,
+          "source": "derived",
+          "evidenceDocumentCount": 0,
+          "evidenceScore": 0
+        },
+        {
+          "interest": "cultuur_games_film",
+          "label": "Cultuur, games & film",
+          "rank": 5,
+          "weight": 9,
+          "source": "derived",
+          "evidenceDocumentCount": 0,
+          "evidenceScore": 0
+        },
+        {
+          "interest": "geschiedenis",
+          "label": "Geschiedenis",
+          "rank": 6,
+          "weight": 8,
+          "source": "derived",
+          "evidenceDocumentCount": 0,
+          "evidenceScore": 0
+        },
+        {
+          "interest": "ideologie",
+          "label": "Ideologie",
+          "rank": 7,
+          "weight": 7,
+          "source": "derived",
+          "evidenceDocumentCount": 0,
+          "evidenceScore": 0
+        },
+        {
+          "interest": "pkm",
+          "label": "PKM",
+          "rank": 8,
+          "weight": 6,
+          "source": "derived",
+          "evidenceDocumentCount": 0,
+          "evidenceScore": 0
+        },
+        {
+          "interest": "schrijven",
+          "label": "Schrijven",
+          "rank": 9,
+          "weight": 5,
+          "source": "derived",
+          "evidenceDocumentCount": 0,
+          "evidenceScore": 0
+        },
+        {
+          "interest": "sociologie",
+          "label": "Sociologie",
+          "rank": 10,
+          "weight": 4,
+          "source": "derived",
+          "evidenceDocumentCount": 0,
+          "evidenceScore": 0
+        },
+        {
+          "interest": "speculatieve_fictie",
+          "label": "Speculatieve fictie",
+          "rank": 11,
+          "weight": 3,
+          "source": "derived",
+          "evidenceDocumentCount": 0,
+          "evidenceScore": 0
+        },
+        {
+          "interest": "zorgouderschap",
+          "label": "Zorg & ouderschap",
+          "rank": 12,
+          "weight": 2,
+          "source": "derived",
+          "evidenceDocumentCount": 0,
+          "evidenceScore": 0
+        }
+      ]
+    },
+    "items": {}
+  },
+  "topicReport": {
+    "generatedAt": "2026-10-10T12:00:00.000Z",
+    "beforeModel": "readwise-priority-v7",
+    "afterModel": "readwise-priority-v8",
+    "fallbackCount": 3,
+    "sequences": {
+      "scrum": {
+        "entries": [],
+        "exits": [],
+        "beforeTop100": 1,
+        "afterTop100": 1,
+        "overlap": 1,
+        "fallbackCount": 0
+      },
+      "software-development": {
+        "entries": [],
+        "exits": [],
+        "beforeTop100": 2,
+        "afterTop100": 2,
+        "overlap": 2,
+        "fallbackCount": 1
+      },
+      "front-end-development": {
+        "entries": [],
+        "exits": [],
+        "beforeTop100": 1,
+        "afterTop100": 1,
+        "overlap": 1,
+        "fallbackCount": 0
+      },
+      "social-studies": {
+        "entries": [],
+        "exits": [],
+        "beforeTop100": 2,
+        "afterTop100": 2,
+        "overlap": 2,
+        "fallbackCount": 1
+      },
+      "adhd": {
+        "entries": [],
+        "exits": [],
+        "beforeTop100": 1,
+        "afterTop100": 1,
+        "overlap": 1,
+        "fallbackCount": 1
+      },
+      "philosophy": {
+        "entries": [],
+        "exits": [],
+        "beforeTop100": 1,
+        "afterTop100": 1,
+        "overlap": 1,
+        "fallbackCount": 0
+      }
+    },
+    "items": [
+      {
+        "id": "software",
+        "title": "A practical essay",
+        "sequence": "software-development",
+        "scoreBefore": 64,
+        "scoreAfter": 154,
+        "scoreDelta": 90,
+        "beforePosition": 1,
+        "afterPosition": 1,
+        "topicRelevance": 3,
+        "relevanceSource": "label",
+        "relevanceConfidence": "high"
+      },
+      {
+        "id": "software",
+        "title": "A practical essay",
+        "sequence": "front-end-development",
+        "scoreBefore": 64,
+        "scoreAfter": 144,
+        "scoreDelta": 80,
+        "beforePosition": 1,
+        "afterPosition": 1,
+        "topicRelevance": 2,
+        "relevanceSource": "label",
+        "relevanceConfidence": "high"
+      },
+      {
+        "id": "philosophy",
+        "title": "Vrije wil en taalfilosofie",
+        "sequence": "philosophy",
+        "scoreBefore": 88,
+        "scoreAfter": 128,
+        "scoreDelta": 40,
+        "beforePosition": 1,
+        "afterPosition": 1,
+        "topicRelevance": 4,
+        "relevanceSource": "label",
+        "relevanceConfidence": "high"
+      },
+      {
+        "id": "stale",
+        "title": "A practical essay",
+        "sequence": "software-development",
+        "scoreBefore": 55,
+        "scoreAfter": 79,
+        "scoreDelta": 24,
+        "beforePosition": 2,
+        "afterPosition": 2,
+        "topicRelevance": 4,
+        "relevanceSource": "fallback",
+        "relevanceConfidence": "low"
+      },
+      {
+        "id": "draft",
+        "title": "A practical essay",
+        "sequence": "social-studies",
+        "scoreBefore": 90,
+        "scoreAfter": 74,
+        "scoreDelta": -16,
+        "beforePosition": 1,
+        "afterPosition": 2,
+        "topicRelevance": 0,
+        "relevanceSource": "fallback",
+        "relevanceConfidence": "low"
+      },
+      {
+        "id": "adhd",
+        "title": "A practical essay",
+        "sequence": "adhd",
+        "scoreBefore": 101,
+        "scoreAfter": 115,
+        "scoreDelta": 14,
+        "beforePosition": 1,
+        "afterPosition": 1,
+        "topicRelevance": 4,
+        "relevanceSource": "fallback",
+        "relevanceConfidence": "low"
+      },
+      {
+        "id": "agile",
+        "title": "A practical essay",
+        "sequence": "social-studies",
+        "scoreBefore": 84,
+        "scoreAfter": 74,
+        "scoreDelta": -10,
+        "beforePosition": 2,
+        "afterPosition": 1,
+        "topicRelevance": 1,
+        "relevanceSource": "label",
+        "relevanceConfidence": "high"
+      },
+      {
+        "id": "agile",
+        "title": "A practical essay",
+        "sequence": "scrum",
+        "scoreBefore": 96,
+        "scoreAfter": 104,
+        "scoreDelta": 8,
+        "beforePosition": 1,
+        "afterPosition": 1,
+        "topicRelevance": 4,
+        "relevanceSource": "label",
+        "relevanceConfidence": "high"
+      }
+    ]
+  },
+  "coreReport": {
+    "generatedAt": "2026-10-10T12:00:00.000Z",
+    "beforeModel": "readwise-priority-v6",
+    "afterModel": "readwise-priority-v8",
+    "interestEvidenceRule": "Readwise-posities zijn alleen vergelijkingsuitkomst; ze leveren geen bewijs voor kerninteresses.",
+    "interests": [
+      {
+        "interest": "agile",
+        "label": "Agile",
+        "rank": 1,
+        "weight": 20,
+        "source": "manual",
+        "evidenceDocumentCount": 3,
+        "evidenceScore": 0
+      },
+      {
+        "interest": "adhd",
+        "label": "ADHD",
+        "rank": 2,
+        "weight": 16,
+        "source": "manual",
+        "evidenceDocumentCount": 1,
+        "evidenceScore": 0
+      },
+      {
+        "interest": "filosofie",
+        "label": "Filosofie",
+        "rank": 3,
+        "weight": 12,
+        "source": "manual",
+        "evidenceDocumentCount": 1,
+        "evidenceScore": 0
+      },
+      {
+        "interest": "zorgouderschap",
+        "label": "Zorg & ouderschap",
+        "rank": 4,
+        "weight": 10,
+        "source": "derived",
+        "evidenceDocumentCount": 1,
+        "evidenceScore": 71
+      },
+      {
+        "interest": "cultuur_games_film",
+        "label": "Cultuur, games & film",
+        "rank": 5,
+        "weight": 9,
+        "source": "derived",
+        "evidenceDocumentCount": 1,
+        "evidenceScore": 61
+      },
+      {
+        "interest": "pkm",
+        "label": "PKM",
+        "rank": 6,
+        "weight": 8,
+        "source": "derived",
+        "evidenceDocumentCount": 1,
+        "evidenceScore": 61
+      },
+      {
+        "interest": "ai_ethiek",
+        "label": "AI & ethiek",
+        "rank": 7,
+        "weight": 7,
+        "source": "derived",
+        "evidenceDocumentCount": 0,
+        "evidenceScore": 0
+      },
+      {
+        "interest": "geschiedenis",
+        "label": "Geschiedenis",
+        "rank": 8,
+        "weight": 6,
+        "source": "derived",
+        "evidenceDocumentCount": 0,
+        "evidenceScore": 0
+      },
+      {
+        "interest": "ideologie",
+        "label": "Ideologie",
+        "rank": 9,
+        "weight": 5,
+        "source": "derived",
+        "evidenceDocumentCount": 0,
+        "evidenceScore": 0
+      },
+      {
+        "interest": "schrijven",
+        "label": "Schrijven",
+        "rank": 10,
+        "weight": 4,
+        "source": "derived",
+        "evidenceDocumentCount": 0,
+        "evidenceScore": 0
+      },
+      {
+        "interest": "sociologie",
+        "label": "Sociologie",
+        "rank": 11,
+        "weight": 3,
+        "source": "derived",
+        "evidenceDocumentCount": 0,
+        "evidenceScore": 0
+      },
+      {
+        "interest": "speculatieve_fictie",
+        "label": "Speculatieve fictie",
+        "rank": 12,
+        "weight": 2,
+        "source": "derived",
+        "evidenceDocumentCount": 0,
+        "evidenceScore": 0
+      }
+    ],
+    "scoreDeltas": [
+      {
+        "id": "author",
+        "title": "A practical essay",
+        "scoreBefore": 49,
+        "scoreAfter": 149,
+        "scoreDelta": 100,
+        "coreInterestBonus": 0,
+        "coreInterests": []
+      },
+      {
+        "id": "software",
+        "title": "A practical essay",
+        "scoreBefore": 64,
+        "scoreAfter": 144,
+        "scoreDelta": 80,
+        "coreInterestBonus": 0,
+        "coreInterests": []
+      },
+      {
+        "id": "philosophy",
+        "title": "Vrije wil en taalfilosofie",
+        "scoreBefore": 76,
+        "scoreAfter": 108,
+        "scoreDelta": 32,
+        "coreInterestBonus": 12,
+        "coreInterests": [
+          "filosofie"
+        ]
+      },
+      {
+        "id": "adhd",
+        "title": "A practical essay",
+        "scoreBefore": 69,
+        "scoreAfter": 95,
+        "scoreDelta": 26,
+        "coreInterestBonus": 26,
+        "coreInterests": [
+          "zorgouderschap",
+          "adhd"
+        ]
+      },
+      {
+        "id": "agile",
+        "title": "A practical essay",
+        "scoreBefore": 64,
+        "scoreAfter": 84,
+        "scoreDelta": 20,
+        "coreInterestBonus": 20,
+        "coreInterests": [
+          "agile"
+        ]
+      },
+      {
+        "id": "book",
+        "title": "A practical essay",
+        "scoreBefore": 92,
+        "scoreAfter": 112,
+        "scoreDelta": 20,
+        "coreInterestBonus": 20,
+        "coreInterests": [
+          "agile"
+        ]
+      },
+      {
+        "id": "draft",
+        "title": "A practical essay",
+        "scoreBefore": 64,
+        "scoreAfter": 84,
+        "scoreDelta": 20,
+        "coreInterestBonus": 20,
+        "coreInterests": [
+          "agile"
+        ]
+      },
+      {
+        "id": "video",
+        "title": "A practical essay",
+        "scoreBefore": 69,
+        "scoreAfter": 78,
+        "scoreDelta": 9,
+        "coreInterestBonus": 9,
+        "coreInterests": [
+          "cultuur_games_film"
+        ]
+      },
+      {
+        "id": "automated",
+        "title": "A practical essay",
+        "scoreBefore": 64,
+        "scoreAfter": 72,
+        "scoreDelta": 8,
+        "coreInterestBonus": 8,
+        "coreInterests": [
+          "pkm"
+        ]
+      },
+      {
+        "id": "negative",
+        "title": "US politics: Trump",
+        "scoreBefore": 0,
+        "scoreAfter": 0,
+        "scoreDelta": 0,
+        "coreInterestBonus": 0,
+        "coreInterests": []
+      },
+      {
+        "id": "pdf",
+        "title": "A practical essay",
+        "scoreBefore": 67,
+        "scoreAfter": 67,
+        "scoreDelta": 0,
+        "coreInterestBonus": 0,
+        "coreInterests": []
+      },
+      {
+        "id": "rejected",
+        "title": "A practical essay",
+        "scoreBefore": 49,
+        "scoreAfter": 49,
+        "scoreDelta": 0,
+        "coreInterestBonus": 0,
+        "coreInterests": []
+      },
+      {
+        "id": "stale",
+        "title": "A practical essay",
+        "scoreBefore": 49,
+        "scoreAfter": 49,
+        "scoreDelta": 0,
+        "coreInterestBonus": 0,
+        "coreInterests": []
+      },
+      {
+        "id": "tie-a",
+        "title": "A practical essay",
+        "scoreBefore": 44,
+        "scoreAfter": 44,
+        "scoreDelta": 0,
+        "coreInterestBonus": 0,
+        "coreInterests": []
+      },
+      {
+        "id": "tie-b",
+        "title": "A practical essay",
+        "scoreBefore": 44,
+        "scoreAfter": 44,
+        "scoreDelta": 0,
+        "coreInterestBonus": 0,
+        "coreInterests": []
+      },
+      {
+        "id": "tie-old",
+        "title": "A practical essay",
+        "scoreBefore": 44,
+        "scoreAfter": 44,
+        "scoreDelta": 0,
+        "coreInterestBonus": 0,
+        "coreInterests": []
+      }
+    ],
+    "largestMovers": [
+      {
+        "id": "author",
+        "title": "A practical essay",
+        "scoreBefore": 49,
+        "scoreAfter": 149,
+        "scoreDelta": 100,
+        "coreInterestBonus": 0,
+        "coreInterests": []
+      },
+      {
+        "id": "software",
+        "title": "A practical essay",
+        "scoreBefore": 64,
+        "scoreAfter": 144,
+        "scoreDelta": 80,
+        "coreInterestBonus": 0,
+        "coreInterests": []
+      },
+      {
+        "id": "philosophy",
+        "title": "Vrije wil en taalfilosofie",
+        "scoreBefore": 76,
+        "scoreAfter": 108,
+        "scoreDelta": 32,
+        "coreInterestBonus": 12,
+        "coreInterests": [
+          "filosofie"
+        ]
+      },
+      {
+        "id": "adhd",
+        "title": "A practical essay",
+        "scoreBefore": 69,
+        "scoreAfter": 95,
+        "scoreDelta": 26,
+        "coreInterestBonus": 26,
+        "coreInterests": [
+          "zorgouderschap",
+          "adhd"
+        ]
+      },
+      {
+        "id": "agile",
+        "title": "A practical essay",
+        "scoreBefore": 64,
+        "scoreAfter": 84,
+        "scoreDelta": 20,
+        "coreInterestBonus": 20,
+        "coreInterests": [
+          "agile"
+        ]
+      },
+      {
+        "id": "book",
+        "title": "A practical essay",
+        "scoreBefore": 92,
+        "scoreAfter": 112,
+        "scoreDelta": 20,
+        "coreInterestBonus": 20,
+        "coreInterests": [
+          "agile"
+        ]
+      },
+      {
+        "id": "draft",
+        "title": "A practical essay",
+        "scoreBefore": 64,
+        "scoreAfter": 84,
+        "scoreDelta": 20,
+        "coreInterestBonus": 20,
+        "coreInterests": [
+          "agile"
+        ]
+      },
+      {
+        "id": "video",
+        "title": "A practical essay",
+        "scoreBefore": 69,
+        "scoreAfter": 78,
+        "scoreDelta": 9,
+        "coreInterestBonus": 9,
+        "coreInterests": [
+          "cultuur_games_film"
+        ]
+      },
+      {
+        "id": "automated",
+        "title": "A practical essay",
+        "scoreBefore": 64,
+        "scoreAfter": 72,
+        "scoreDelta": 8,
+        "coreInterestBonus": 8,
+        "coreInterests": [
+          "pkm"
+        ]
+      }
+    ],
+    "sequences": {
+      "video": {
+        "label": "Video's",
+        "entries": [],
+        "exits": []
+      },
+      "boek": {
+        "label": "Boeken",
+        "entries": [],
+        "exits": []
+      },
+      "pdf": {
+        "label": "PDF's",
+        "entries": [],
+        "exits": []
+      },
+      "lees": {
+        "label": "Algemeen",
+        "entries": [],
+        "exits": []
+      },
+      "dutch": {
+        "label": "Nederlands",
+        "entries": [],
+        "exits": []
+      },
+      "short": {
+        "label": "Kort",
+        "entries": [],
+        "exits": []
+      },
+      "short-dutch": {
+        "label": "Kort & NL",
+        "entries": [],
+        "exits": []
+      },
+      "luchtig": {
+        "label": "Luchtig",
+        "entries": [],
+        "exits": []
+      },
+      "luchtig-nederlands": {
+        "label": "Luchtig & NL",
+        "entries": [],
+        "exits": []
+      },
+      "scrum": {
+        "label": "Agile",
+        "entries": [],
+        "exits": []
+      },
+      "software-development": {
+        "label": "Software development",
+        "entries": [],
+        "exits": []
+      },
+      "front-end-development": {
+        "label": "Front-end development",
+        "entries": [],
+        "exits": []
+      },
+      "social-studies": {
+        "label": "Sociale studies & samenwerking",
+        "entries": [],
+        "exits": []
+      },
+      "adhd": {
+        "label": "ADHD",
+        "entries": [],
+        "exits": []
+      },
+      "philosophy": {
+        "label": "Filosofie",
+        "entries": [],
+        "exits": []
+      }
+    }
+  },
+  "tagPlan": {
+    "generatedAt": "2026-10-10T12:00:00.000Z",
+    "model": "readwise-priority-tag-plan-v3",
+    "priorityModel": "readwise-priority-v8",
+    "scope": "later",
+    "sourceFingerprint": "338ba0d7f80610f27ecee2e28a5296ba15e3244781df9b361553e5cce50bb28f",
+    "summary": {
+      "documents": 16,
+      "additions": 121,
+      "removals": 2,
+      "operations": 123
+    },
+    "changes": {
+      "agile": {
+        "title": "A practical essay",
+        "add": [
+          "aaa-scrum-top-10",
+          "aaa-scrum-top-100",
+          "aaa-short-top-10",
+          "aaa-short-top-100",
+          "aaa-social-studies-top-10",
+          "aaa-social-studies-top-100",
+          "aaa-top-10",
+          "aaa-top-100",
+          "lees-0006",
+          "scrum-001",
+          "short-005",
+          "social-studies-001"
+        ],
+        "remove": [
+          "lees-0010",
+          "scrum-002"
+        ]
+      },
+      "software": {
+        "title": "A practical essay",
+        "add": [
+          "aaa-front-end-development-top-10",
+          "aaa-front-end-development-top-100",
+          "aaa-short-top-10",
+          "aaa-short-top-100",
+          "aaa-software-development-top-10",
+          "aaa-software-development-top-100",
+          "aaa-top-10",
+          "aaa-top-100",
+          "front-end-development-001",
+          "lees-0002",
+          "short-002",
+          "software-development-001"
+        ],
+        "remove": []
+      },
+      "philosophy": {
+        "title": "Vrije wil en taalfilosofie",
+        "add": [
+          "aaa-dutch-top-10",
+          "aaa-dutch-top-100",
+          "aaa-philosophy-top-10",
+          "aaa-philosophy-top-100",
+          "aaa-short-dutch-top-10",
+          "aaa-short-dutch-top-100",
+          "aaa-short-top-10",
+          "aaa-short-top-100",
+          "aaa-top-10",
+          "aaa-top-100",
+          "dutch-001",
+          "lees-0003",
+          "philosophy-001",
+          "short-003",
+          "short-dutch-001"
+        ],
+        "remove": []
+      },
+      "adhd": {
+        "title": "A practical essay",
+        "add": [
+          "aaa-adhd-top-10",
+          "aaa-adhd-top-100",
+          "aaa-short-top-10",
+          "aaa-short-top-100",
+          "aaa-top-10",
+          "aaa-top-100",
+          "adhd-001",
+          "lees-0004",
+          "short-004"
+        ],
+        "remove": []
+      },
+      "book": {
+        "title": "A practical essay",
+        "add": [
+          "boek-001",
+          "boek-top-10",
+          "boek-top-100"
+        ],
+        "remove": []
+      },
+      "pdf": {
+        "title": "A practical essay",
+        "add": [
+          "pdf-001",
+          "pdf-top-10",
+          "pdf-top-100"
+        ],
+        "remove": []
+      },
+      "video": {
+        "title": "A practical essay",
+        "add": [
+          "aaa-dutch-top-10",
+          "aaa-dutch-top-100",
+          "aaa-luchtig-nederlands-top-10",
+          "aaa-luchtig-nederlands-top-100",
+          "aaa-luchtig-top-10",
+          "aaa-luchtig-top-100",
+          "aaa-short-dutch-top-10",
+          "aaa-short-dutch-top-100",
+          "aaa-short-top-10",
+          "aaa-short-top-100",
+          "dutch-002",
+          "luchtig-001",
+          "luchtig-nederlands-001",
+          "short-007",
+          "short-dutch-002",
+          "video-001",
+          "video-top-10",
+          "video-top-100"
+        ],
+        "remove": []
+      },
+      "author": {
+        "title": "A practical essay",
+        "add": [
+          "aaa-short-top-10",
+          "aaa-short-top-100",
+          "aaa-top-10",
+          "aaa-top-100",
+          "lees-0001",
+          "short-001"
+        ],
+        "remove": []
+      },
+      "negative": {
+        "title": "US politics: Trump",
+        "add": [
+          "aaa-top-100",
+          "lees-0013"
+        ],
+        "remove": []
+      },
+      "stale": {
+        "title": "A practical essay",
+        "add": [
+          "aaa-short-top-10",
+          "aaa-short-top-100",
+          "aaa-software-development-top-10",
+          "aaa-software-development-top-100",
+          "aaa-top-10",
+          "aaa-top-100",
+          "lees-0009",
+          "short-010",
+          "software-development-002"
+        ],
+        "remove": []
+      },
+      "draft": {
+        "title": "A practical essay",
+        "add": [
+          "aaa-short-top-10",
+          "aaa-short-top-100",
+          "aaa-social-studies-top-10",
+          "aaa-social-studies-top-100",
+          "aaa-top-10",
+          "aaa-top-100",
+          "lees-0005",
+          "short-006",
+          "social-studies-002"
+        ],
+        "remove": []
+      },
+      "rejected": {
+        "title": "A practical essay",
+        "add": [
+          "aaa-luchtig-top-10",
+          "aaa-luchtig-top-100",
+          "aaa-short-top-10",
+          "aaa-short-top-100",
+          "aaa-top-10",
+          "aaa-top-100",
+          "lees-0008",
+          "light-reading",
+          "luchtig-002",
+          "short-009"
+        ],
+        "remove": []
+      },
+      "automated": {
+        "title": "A practical essay",
+        "add": [
+          "aaa-short-top-10",
+          "aaa-short-top-100",
+          "aaa-top-10",
+          "aaa-top-100",
+          "lees-0007",
+          "short-008"
+        ],
+        "remove": []
+      },
+      "tie-b": {
+        "title": "A practical essay",
+        "add": [
+          "aaa-top-100",
+          "lees-0012"
+        ],
+        "remove": []
+      },
+      "tie-a": {
+        "title": "A practical essay",
+        "add": [
+          "aaa-top-100",
+          "lees-0011"
+        ],
+        "remove": []
+      },
+      "tie-old": {
+        "title": "A practical essay",
+        "add": [
+          "aaa-top-10",
+          "aaa-top-100",
+          "lees-0010"
+        ],
+        "remove": []
+      }
+    },
+    "top100Entries": [
+      {
+        "documentId": "agile",
+        "title": "A practical essay",
+        "category": "Algemeen",
+        "sequence": "lees",
+        "top100Tag": "aaa-top-100",
+        "position": 6
+      },
+      {
+        "documentId": "agile",
+        "title": "A practical essay",
+        "category": "Kort",
+        "sequence": "short",
+        "top100Tag": "aaa-short-top-100",
+        "position": 5
+      },
+      {
+        "documentId": "agile",
+        "title": "A practical essay",
+        "category": "Agile",
+        "sequence": "scrum",
+        "top100Tag": "aaa-scrum-top-100",
+        "position": 1
+      },
+      {
+        "documentId": "agile",
+        "title": "A practical essay",
+        "category": "Sociale studies & samenwerking",
+        "sequence": "social-studies",
+        "top100Tag": "aaa-social-studies-top-100",
+        "position": 1
+      },
+      {
+        "documentId": "software",
+        "title": "A practical essay",
+        "category": "Algemeen",
+        "sequence": "lees",
+        "top100Tag": "aaa-top-100",
+        "position": 2
+      },
+      {
+        "documentId": "software",
+        "title": "A practical essay",
+        "category": "Kort",
+        "sequence": "short",
+        "top100Tag": "aaa-short-top-100",
+        "position": 2
+      },
+      {
+        "documentId": "software",
+        "title": "A practical essay",
+        "category": "Software development",
+        "sequence": "software-development",
+        "top100Tag": "aaa-software-development-top-100",
+        "position": 1
+      },
+      {
+        "documentId": "software",
+        "title": "A practical essay",
+        "category": "Front-end development",
+        "sequence": "front-end-development",
+        "top100Tag": "aaa-front-end-development-top-100",
+        "position": 1
+      },
+      {
+        "documentId": "philosophy",
+        "title": "Vrije wil en taalfilosofie",
+        "category": "Algemeen",
+        "sequence": "lees",
+        "top100Tag": "aaa-top-100",
+        "position": 3
+      },
+      {
+        "documentId": "philosophy",
+        "title": "Vrije wil en taalfilosofie",
+        "category": "Nederlands",
+        "sequence": "dutch",
+        "top100Tag": "aaa-dutch-top-100",
+        "position": 1
+      },
+      {
+        "documentId": "philosophy",
+        "title": "Vrije wil en taalfilosofie",
+        "category": "Kort",
+        "sequence": "short",
+        "top100Tag": "aaa-short-top-100",
+        "position": 3
+      },
+      {
+        "documentId": "philosophy",
+        "title": "Vrije wil en taalfilosofie",
+        "category": "Kort & NL",
+        "sequence": "short-dutch",
+        "top100Tag": "aaa-short-dutch-top-100",
+        "position": 1
+      },
+      {
+        "documentId": "philosophy",
+        "title": "Vrije wil en taalfilosofie",
+        "category": "Filosofie",
+        "sequence": "philosophy",
+        "top100Tag": "aaa-philosophy-top-100",
+        "position": 1
+      },
+      {
+        "documentId": "adhd",
+        "title": "A practical essay",
+        "category": "Algemeen",
+        "sequence": "lees",
+        "top100Tag": "aaa-top-100",
+        "position": 4
+      },
+      {
+        "documentId": "adhd",
+        "title": "A practical essay",
+        "category": "Kort",
+        "sequence": "short",
+        "top100Tag": "aaa-short-top-100",
+        "position": 4
+      },
+      {
+        "documentId": "adhd",
+        "title": "A practical essay",
+        "category": "ADHD",
+        "sequence": "adhd",
+        "top100Tag": "aaa-adhd-top-100",
+        "position": 1
+      },
+      {
+        "documentId": "book",
+        "title": "A practical essay",
+        "category": "Boeken",
+        "sequence": "boek",
+        "top100Tag": "boek-top-100",
+        "position": 1
+      },
+      {
+        "documentId": "pdf",
+        "title": "A practical essay",
+        "category": "PDF's",
+        "sequence": "pdf",
+        "top100Tag": "pdf-top-100",
+        "position": 1
+      },
+      {
+        "documentId": "video",
+        "title": "A practical essay",
+        "category": "Nederlands",
+        "sequence": "dutch",
+        "top100Tag": "aaa-dutch-top-100",
+        "position": 2
+      },
+      {
+        "documentId": "video",
+        "title": "A practical essay",
+        "category": "Kort",
+        "sequence": "short",
+        "top100Tag": "aaa-short-top-100",
+        "position": 7
+      },
+      {
+        "documentId": "video",
+        "title": "A practical essay",
+        "category": "Kort & NL",
+        "sequence": "short-dutch",
+        "top100Tag": "aaa-short-dutch-top-100",
+        "position": 2
+      },
+      {
+        "documentId": "video",
+        "title": "A practical essay",
+        "category": "Luchtig",
+        "sequence": "luchtig",
+        "top100Tag": "aaa-luchtig-top-100",
+        "position": 1
+      },
+      {
+        "documentId": "video",
+        "title": "A practical essay",
+        "category": "Luchtig & NL",
+        "sequence": "luchtig-nederlands",
+        "top100Tag": "aaa-luchtig-nederlands-top-100",
+        "position": 1
+      },
+      {
+        "documentId": "video",
+        "title": "A practical essay",
+        "category": "Video's",
+        "sequence": "video",
+        "top100Tag": "video-top-100",
+        "position": 1
+      },
+      {
+        "documentId": "author",
+        "title": "A practical essay",
+        "category": "Algemeen",
+        "sequence": "lees",
+        "top100Tag": "aaa-top-100",
+        "position": 1
+      },
+      {
+        "documentId": "author",
+        "title": "A practical essay",
+        "category": "Kort",
+        "sequence": "short",
+        "top100Tag": "aaa-short-top-100",
+        "position": 1
+      },
+      {
+        "documentId": "negative",
+        "title": "US politics: Trump",
+        "category": "Algemeen",
+        "sequence": "lees",
+        "top100Tag": "aaa-top-100",
+        "position": 13
+      },
+      {
+        "documentId": "stale",
+        "title": "A practical essay",
+        "category": "Algemeen",
+        "sequence": "lees",
+        "top100Tag": "aaa-top-100",
+        "position": 9
+      },
+      {
+        "documentId": "stale",
+        "title": "A practical essay",
+        "category": "Kort",
+        "sequence": "short",
+        "top100Tag": "aaa-short-top-100",
+        "position": 10
+      },
+      {
+        "documentId": "stale",
+        "title": "A practical essay",
+        "category": "Software development",
+        "sequence": "software-development",
+        "top100Tag": "aaa-software-development-top-100",
+        "position": 2
+      },
+      {
+        "documentId": "draft",
+        "title": "A practical essay",
+        "category": "Algemeen",
+        "sequence": "lees",
+        "top100Tag": "aaa-top-100",
+        "position": 5
+      },
+      {
+        "documentId": "draft",
+        "title": "A practical essay",
+        "category": "Kort",
+        "sequence": "short",
+        "top100Tag": "aaa-short-top-100",
+        "position": 6
+      },
+      {
+        "documentId": "draft",
+        "title": "A practical essay",
+        "category": "Sociale studies & samenwerking",
+        "sequence": "social-studies",
+        "top100Tag": "aaa-social-studies-top-100",
+        "position": 2
+      },
+      {
+        "documentId": "rejected",
+        "title": "A practical essay",
+        "category": "Algemeen",
+        "sequence": "lees",
+        "top100Tag": "aaa-top-100",
+        "position": 8
+      },
+      {
+        "documentId": "rejected",
+        "title": "A practical essay",
+        "category": "Kort",
+        "sequence": "short",
+        "top100Tag": "aaa-short-top-100",
+        "position": 9
+      },
+      {
+        "documentId": "rejected",
+        "title": "A practical essay",
+        "category": "Luchtig",
+        "sequence": "luchtig",
+        "top100Tag": "aaa-luchtig-top-100",
+        "position": 2
+      },
+      {
+        "documentId": "automated",
+        "title": "A practical essay",
+        "category": "Algemeen",
+        "sequence": "lees",
+        "top100Tag": "aaa-top-100",
+        "position": 7
+      },
+      {
+        "documentId": "automated",
+        "title": "A practical essay",
+        "category": "Kort",
+        "sequence": "short",
+        "top100Tag": "aaa-short-top-100",
+        "position": 8
+      },
+      {
+        "documentId": "tie-b",
+        "title": "A practical essay",
+        "category": "Algemeen",
+        "sequence": "lees",
+        "top100Tag": "aaa-top-100",
+        "position": 12
+      },
+      {
+        "documentId": "tie-a",
+        "title": "A practical essay",
+        "category": "Algemeen",
+        "sequence": "lees",
+        "top100Tag": "aaa-top-100",
+        "position": 11
+      },
+      {
+        "documentId": "tie-old",
+        "title": "A practical essay",
+        "category": "Algemeen",
+        "sequence": "lees",
+        "top100Tag": "aaa-top-100",
+        "position": 10
+      }
+    ],
+    "top100Exits": [],
+    "operations": [
+      {
+        "action": "remove",
+        "documentId": "agile",
+        "tag": "lees-0010"
+      },
+      {
+        "action": "remove",
+        "documentId": "agile",
+        "tag": "scrum-002"
+      },
+      {
+        "action": "add",
+        "documentId": "agile",
+        "tag": "aaa-scrum-top-10"
+      },
+      {
+        "action": "add",
+        "documentId": "agile",
+        "tag": "aaa-scrum-top-100"
+      },
+      {
+        "action": "add",
+        "documentId": "agile",
+        "tag": "aaa-short-top-10"
+      },
+      {
+        "action": "add",
+        "documentId": "agile",
+        "tag": "aaa-short-top-100"
+      },
+      {
+        "action": "add",
+        "documentId": "agile",
+        "tag": "aaa-social-studies-top-10"
+      },
+      {
+        "action": "add",
+        "documentId": "agile",
+        "tag": "aaa-social-studies-top-100"
+      },
+      {
+        "action": "add",
+        "documentId": "agile",
+        "tag": "aaa-top-10"
+      },
+      {
+        "action": "add",
+        "documentId": "agile",
+        "tag": "aaa-top-100"
+      },
+      {
+        "action": "add",
+        "documentId": "agile",
+        "tag": "lees-0006"
+      },
+      {
+        "action": "add",
+        "documentId": "agile",
+        "tag": "scrum-001"
+      },
+      {
+        "action": "add",
+        "documentId": "agile",
+        "tag": "short-005"
+      },
+      {
+        "action": "add",
+        "documentId": "agile",
+        "tag": "social-studies-001"
+      },
+      {
+        "action": "add",
+        "documentId": "software",
+        "tag": "aaa-front-end-development-top-10"
+      },
+      {
+        "action": "add",
+        "documentId": "software",
+        "tag": "aaa-front-end-development-top-100"
+      },
+      {
+        "action": "add",
+        "documentId": "software",
+        "tag": "aaa-short-top-10"
+      },
+      {
+        "action": "add",
+        "documentId": "software",
+        "tag": "aaa-short-top-100"
+      },
+      {
+        "action": "add",
+        "documentId": "software",
+        "tag": "aaa-software-development-top-10"
+      },
+      {
+        "action": "add",
+        "documentId": "software",
+        "tag": "aaa-software-development-top-100"
+      },
+      {
+        "action": "add",
+        "documentId": "software",
+        "tag": "aaa-top-10"
+      },
+      {
+        "action": "add",
+        "documentId": "software",
+        "tag": "aaa-top-100"
+      },
+      {
+        "action": "add",
+        "documentId": "software",
+        "tag": "front-end-development-001"
+      },
+      {
+        "action": "add",
+        "documentId": "software",
+        "tag": "lees-0002"
+      },
+      {
+        "action": "add",
+        "documentId": "software",
+        "tag": "short-002"
+      },
+      {
+        "action": "add",
+        "documentId": "software",
+        "tag": "software-development-001"
+      },
+      {
+        "action": "add",
+        "documentId": "philosophy",
+        "tag": "aaa-dutch-top-10"
+      },
+      {
+        "action": "add",
+        "documentId": "philosophy",
+        "tag": "aaa-dutch-top-100"
+      },
+      {
+        "action": "add",
+        "documentId": "philosophy",
+        "tag": "aaa-philosophy-top-10"
+      },
+      {
+        "action": "add",
+        "documentId": "philosophy",
+        "tag": "aaa-philosophy-top-100"
+      },
+      {
+        "action": "add",
+        "documentId": "philosophy",
+        "tag": "aaa-short-dutch-top-10"
+      },
+      {
+        "action": "add",
+        "documentId": "philosophy",
+        "tag": "aaa-short-dutch-top-100"
+      },
+      {
+        "action": "add",
+        "documentId": "philosophy",
+        "tag": "aaa-short-top-10"
+      },
+      {
+        "action": "add",
+        "documentId": "philosophy",
+        "tag": "aaa-short-top-100"
+      },
+      {
+        "action": "add",
+        "documentId": "philosophy",
+        "tag": "aaa-top-10"
+      },
+      {
+        "action": "add",
+        "documentId": "philosophy",
+        "tag": "aaa-top-100"
+      },
+      {
+        "action": "add",
+        "documentId": "philosophy",
+        "tag": "dutch-001"
+      },
+      {
+        "action": "add",
+        "documentId": "philosophy",
+        "tag": "lees-0003"
+      },
+      {
+        "action": "add",
+        "documentId": "philosophy",
+        "tag": "philosophy-001"
+      },
+      {
+        "action": "add",
+        "documentId": "philosophy",
+        "tag": "short-003"
+      },
+      {
+        "action": "add",
+        "documentId": "philosophy",
+        "tag": "short-dutch-001"
+      },
+      {
+        "action": "add",
+        "documentId": "adhd",
+        "tag": "aaa-adhd-top-10"
+      },
+      {
+        "action": "add",
+        "documentId": "adhd",
+        "tag": "aaa-adhd-top-100"
+      },
+      {
+        "action": "add",
+        "documentId": "adhd",
+        "tag": "aaa-short-top-10"
+      },
+      {
+        "action": "add",
+        "documentId": "adhd",
+        "tag": "aaa-short-top-100"
+      },
+      {
+        "action": "add",
+        "documentId": "adhd",
+        "tag": "aaa-top-10"
+      },
+      {
+        "action": "add",
+        "documentId": "adhd",
+        "tag": "aaa-top-100"
+      },
+      {
+        "action": "add",
+        "documentId": "adhd",
+        "tag": "adhd-001"
+      },
+      {
+        "action": "add",
+        "documentId": "adhd",
+        "tag": "lees-0004"
+      },
+      {
+        "action": "add",
+        "documentId": "adhd",
+        "tag": "short-004"
+      },
+      {
+        "action": "add",
+        "documentId": "book",
+        "tag": "boek-001"
+      },
+      {
+        "action": "add",
+        "documentId": "book",
+        "tag": "boek-top-10"
+      },
+      {
+        "action": "add",
+        "documentId": "book",
+        "tag": "boek-top-100"
+      },
+      {
+        "action": "add",
+        "documentId": "pdf",
+        "tag": "pdf-001"
+      },
+      {
+        "action": "add",
+        "documentId": "pdf",
+        "tag": "pdf-top-10"
+      },
+      {
+        "action": "add",
+        "documentId": "pdf",
+        "tag": "pdf-top-100"
+      },
+      {
+        "action": "add",
+        "documentId": "video",
+        "tag": "aaa-dutch-top-10"
+      },
+      {
+        "action": "add",
+        "documentId": "video",
+        "tag": "aaa-dutch-top-100"
+      },
+      {
+        "action": "add",
+        "documentId": "video",
+        "tag": "aaa-luchtig-nederlands-top-10"
+      },
+      {
+        "action": "add",
+        "documentId": "video",
+        "tag": "aaa-luchtig-nederlands-top-100"
+      },
+      {
+        "action": "add",
+        "documentId": "video",
+        "tag": "aaa-luchtig-top-10"
+      },
+      {
+        "action": "add",
+        "documentId": "video",
+        "tag": "aaa-luchtig-top-100"
+      },
+      {
+        "action": "add",
+        "documentId": "video",
+        "tag": "aaa-short-dutch-top-10"
+      },
+      {
+        "action": "add",
+        "documentId": "video",
+        "tag": "aaa-short-dutch-top-100"
+      },
+      {
+        "action": "add",
+        "documentId": "video",
+        "tag": "aaa-short-top-10"
+      },
+      {
+        "action": "add",
+        "documentId": "video",
+        "tag": "aaa-short-top-100"
+      },
+      {
+        "action": "add",
+        "documentId": "video",
+        "tag": "dutch-002"
+      },
+      {
+        "action": "add",
+        "documentId": "video",
+        "tag": "luchtig-001"
+      },
+      {
+        "action": "add",
+        "documentId": "video",
+        "tag": "luchtig-nederlands-001"
+      },
+      {
+        "action": "add",
+        "documentId": "video",
+        "tag": "short-007"
+      },
+      {
+        "action": "add",
+        "documentId": "video",
+        "tag": "short-dutch-002"
+      },
+      {
+        "action": "add",
+        "documentId": "video",
+        "tag": "video-001"
+      },
+      {
+        "action": "add",
+        "documentId": "video",
+        "tag": "video-top-10"
+      },
+      {
+        "action": "add",
+        "documentId": "video",
+        "tag": "video-top-100"
+      },
+      {
+        "action": "add",
+        "documentId": "author",
+        "tag": "aaa-short-top-10"
+      },
+      {
+        "action": "add",
+        "documentId": "author",
+        "tag": "aaa-short-top-100"
+      },
+      {
+        "action": "add",
+        "documentId": "author",
+        "tag": "aaa-top-10"
+      },
+      {
+        "action": "add",
+        "documentId": "author",
+        "tag": "aaa-top-100"
+      },
+      {
+        "action": "add",
+        "documentId": "author",
+        "tag": "lees-0001"
+      },
+      {
+        "action": "add",
+        "documentId": "author",
+        "tag": "short-001"
+      },
+      {
+        "action": "add",
+        "documentId": "negative",
+        "tag": "aaa-top-100"
+      },
+      {
+        "action": "add",
+        "documentId": "negative",
+        "tag": "lees-0013"
+      },
+      {
+        "action": "add",
+        "documentId": "stale",
+        "tag": "aaa-short-top-10"
+      },
+      {
+        "action": "add",
+        "documentId": "stale",
+        "tag": "aaa-short-top-100"
+      },
+      {
+        "action": "add",
+        "documentId": "stale",
+        "tag": "aaa-software-development-top-10"
+      },
+      {
+        "action": "add",
+        "documentId": "stale",
+        "tag": "aaa-software-development-top-100"
+      },
+      {
+        "action": "add",
+        "documentId": "stale",
+        "tag": "aaa-top-10"
+      },
+      {
+        "action": "add",
+        "documentId": "stale",
+        "tag": "aaa-top-100"
+      },
+      {
+        "action": "add",
+        "documentId": "stale",
+        "tag": "lees-0009"
+      },
+      {
+        "action": "add",
+        "documentId": "stale",
+        "tag": "short-010"
+      },
+      {
+        "action": "add",
+        "documentId": "stale",
+        "tag": "software-development-002"
+      },
+      {
+        "action": "add",
+        "documentId": "draft",
+        "tag": "aaa-short-top-10"
+      },
+      {
+        "action": "add",
+        "documentId": "draft",
+        "tag": "aaa-short-top-100"
+      },
+      {
+        "action": "add",
+        "documentId": "draft",
+        "tag": "aaa-social-studies-top-10"
+      },
+      {
+        "action": "add",
+        "documentId": "draft",
+        "tag": "aaa-social-studies-top-100"
+      },
+      {
+        "action": "add",
+        "documentId": "draft",
+        "tag": "aaa-top-10"
+      },
+      {
+        "action": "add",
+        "documentId": "draft",
+        "tag": "aaa-top-100"
+      },
+      {
+        "action": "add",
+        "documentId": "draft",
+        "tag": "lees-0005"
+      },
+      {
+        "action": "add",
+        "documentId": "draft",
+        "tag": "short-006"
+      },
+      {
+        "action": "add",
+        "documentId": "draft",
+        "tag": "social-studies-002"
+      },
+      {
+        "action": "add",
+        "documentId": "rejected",
+        "tag": "aaa-luchtig-top-10"
+      },
+      {
+        "action": "add",
+        "documentId": "rejected",
+        "tag": "aaa-luchtig-top-100"
+      },
+      {
+        "action": "add",
+        "documentId": "rejected",
+        "tag": "aaa-short-top-10"
+      },
+      {
+        "action": "add",
+        "documentId": "rejected",
+        "tag": "aaa-short-top-100"
+      },
+      {
+        "action": "add",
+        "documentId": "rejected",
+        "tag": "aaa-top-10"
+      },
+      {
+        "action": "add",
+        "documentId": "rejected",
+        "tag": "aaa-top-100"
+      },
+      {
+        "action": "add",
+        "documentId": "rejected",
+        "tag": "lees-0008"
+      },
+      {
+        "action": "add",
+        "documentId": "rejected",
+        "tag": "light-reading"
+      },
+      {
+        "action": "add",
+        "documentId": "rejected",
+        "tag": "luchtig-002"
+      },
+      {
+        "action": "add",
+        "documentId": "rejected",
+        "tag": "short-009"
+      },
+      {
+        "action": "add",
+        "documentId": "automated",
+        "tag": "aaa-short-top-10"
+      },
+      {
+        "action": "add",
+        "documentId": "automated",
+        "tag": "aaa-short-top-100"
+      },
+      {
+        "action": "add",
+        "documentId": "automated",
+        "tag": "aaa-top-10"
+      },
+      {
+        "action": "add",
+        "documentId": "automated",
+        "tag": "aaa-top-100"
+      },
+      {
+        "action": "add",
+        "documentId": "automated",
+        "tag": "lees-0007"
+      },
+      {
+        "action": "add",
+        "documentId": "automated",
+        "tag": "short-008"
+      },
+      {
+        "action": "add",
+        "documentId": "tie-b",
+        "tag": "aaa-top-100"
+      },
+      {
+        "action": "add",
+        "documentId": "tie-b",
+        "tag": "lees-0012"
+      },
+      {
+        "action": "add",
+        "documentId": "tie-a",
+        "tag": "aaa-top-100"
+      },
+      {
+        "action": "add",
+        "documentId": "tie-a",
+        "tag": "lees-0011"
+      },
+      {
+        "action": "add",
+        "documentId": "tie-old",
+        "tag": "aaa-top-10"
+      },
+      {
+        "action": "add",
+        "documentId": "tie-old",
+        "tag": "aaa-top-100"
+      },
+      {
+        "action": "add",
+        "documentId": "tie-old",
+        "tag": "lees-0010"
+      }
+    ],
+    "planHash": "1dfc15ae5f7d18c662aa17bcbb50b4bef14ad0f868602fc62c1817277e1a8361"
+  },
+  "archivePlan": {
+    "generatedAt": "2026-10-10T12:00:00.000Z",
+    "model": "readwise-archive-plan-v1",
+    "priorityModel": "readwise-priority-v8",
+    "scope": "later",
+    "sourceFingerprint": "dae4619cdc8282f2cc654553cf271649cf8cddccc2743038d19e6e6c99aa45fc",
+    "summary": {
+      "documents": 16,
+      "protected": 16,
+      "candidates": 0
+    },
+    "families": [
+      {
+        "id": "algemeen",
+        "label": "Algemeen",
+        "top100Tag": "aaa-top-100",
+        "protectedDocumentIds": [
+          "author",
+          "software",
+          "philosophy",
+          "adhd",
+          "draft",
+          "agile",
+          "automated",
+          "rejected",
+          "stale",
+          "tie-old",
+          "tie-a",
+          "tie-b",
+          "negative"
+        ]
+      },
+      {
+        "id": "nederlands",
+        "label": "Nederlands",
+        "top100Tag": "aaa-dutch-top-100",
+        "protectedDocumentIds": [
+          "philosophy",
+          "video"
+        ]
+      },
+      {
+        "id": "kort",
+        "label": "Kort",
+        "top100Tag": "aaa-short-top-100",
+        "protectedDocumentIds": [
+          "author",
+          "software",
+          "philosophy",
+          "adhd",
+          "agile",
+          "draft",
+          "video",
+          "automated",
+          "rejected",
+          "stale"
+        ]
+      },
+      {
+        "id": "kort-nederlands",
+        "label": "Kort & NL",
+        "top100Tag": "aaa-short-dutch-top-100",
+        "protectedDocumentIds": [
+          "philosophy",
+          "video"
+        ]
+      },
+      {
+        "id": "luchtig",
+        "label": "Luchtig",
+        "top100Tag": "aaa-luchtig-top-100",
+        "protectedDocumentIds": [
+          "video",
+          "rejected"
+        ]
+      },
+      {
+        "id": "luchtig-nederlands",
+        "label": "Luchtig & NL",
+        "top100Tag": "aaa-luchtig-nederlands-top-100",
+        "protectedDocumentIds": [
+          "video"
+        ]
+      },
+      {
+        "id": "scrum",
+        "label": "Agile",
+        "top100Tag": "aaa-scrum-top-100",
+        "protectedDocumentIds": [
+          "agile"
+        ]
+      },
+      {
+        "id": "social-studies",
+        "label": "Sociale studies & samenwerking",
+        "top100Tag": "aaa-social-studies-top-100",
+        "protectedDocumentIds": [
+          "agile",
+          "draft"
+        ]
+      },
+      {
+        "id": "software-development",
+        "label": "Software development",
+        "top100Tag": "aaa-software-development-top-100",
+        "protectedDocumentIds": [
+          "software",
+          "stale"
+        ]
+      },
+      {
+        "id": "front-end-development",
+        "label": "Front-end development",
+        "top100Tag": "aaa-front-end-development-top-100",
+        "protectedDocumentIds": [
+          "software"
+        ]
+      },
+      {
+        "id": "boeken",
+        "label": "Boeken",
+        "top100Tag": "boek-top-100",
+        "protectedDocumentIds": [
+          "book"
+        ]
+      },
+      {
+        "id": "pdfs",
+        "label": "PDF's",
+        "top100Tag": "pdf-top-100",
+        "protectedDocumentIds": [
+          "pdf"
+        ]
+      },
+      {
+        "id": "videos",
+        "label": "Video's",
+        "top100Tag": "video-top-100",
+        "protectedDocumentIds": [
+          "video"
+        ]
+      },
+      {
+        "id": "adhd",
+        "label": "ADHD",
+        "top100Tag": "aaa-adhd-top-100",
+        "protectedDocumentIds": [
+          "adhd"
+        ]
+      },
+      {
+        "id": "philosophy",
+        "label": "Filosofie",
+        "top100Tag": "aaa-philosophy-top-100",
+        "protectedDocumentIds": [
+          "philosophy"
+        ]
+      }
+    ],
+    "protectedDocumentIds": [
+      "adhd",
+      "agile",
+      "author",
+      "automated",
+      "book",
+      "draft",
+      "negative",
+      "pdf",
+      "philosophy",
+      "rejected",
+      "software",
+      "stale",
+      "tie-a",
+      "tie-b",
+      "tie-old",
+      "video"
+    ],
+    "candidateDocumentIds": [],
+    "candidates": [],
+    "planHash": "c52b376e89a093d64b013d43d732d73e14f16c8799d3e756165b56602bb30d8b"
+  }
+}

@@ -23,7 +23,7 @@ de componenten, bron en confidence van de topicrelevantie. De app toont de algem
 score van de actieve reeks. Ontbrekende judgments vallen terug op een expliciet low-confidence
 profiel; ruwe highlights en technische reason codes worden nooit gepubliceerd of in de UI getoond.
 Een handmatig toegevoegde `want-to-read`-tag geeft documenten in alle lijsten een vaste bonus van
-25 punten; deze tag wordt niet als inhoudelijke evidence behandeld.
+50 punten; deze tag wordt niet als inhoudelijke evidence behandeld.
 Alle lijsten sorteren op hun eigen reeks-score, daarna bij
 gelijke score op oudste `saved_at` en ten slotte op document-ID.
 
@@ -39,7 +39,7 @@ Handmatige correcties gelden in alle lijsten tegelijk en staan in
 }
 ```
 
-De handmatige Readwise-tag `want-to-read` is een aparte vaste prioriteitsbonus van 25 punten.
+De handmatige Readwise-tag `want-to-read` is een aparte vaste prioriteitsbonus van 50 punten.
 
 De onderwerpreeksen Agile, Software development, Front-end development, Sociale studies & samenwerking, ADHD en Filosofie
 hebben elk eigen top-10- en top-100-lijsten en genummerde tags (`software-development-001`,
@@ -83,6 +83,38 @@ canonieke interesses op basis van de kwaliteit en dekking van onafhankelijk bewi
 Readwise-tagbewijs kan maar één primaire interesse opleveren; afzonderlijke bewijsbronnen mogen
 wel meerdere interesses stapelen. De gewichten en handmatige ankers staan in
 `config/readwise-core-interest-priorities.json`.
+
+## Prioriteitstags synchroniseren
+
+```bash
+npm run priority:plan
+PLAN_HASH=$(jq -r '.planHash' .tmp/readwise/priority-plan.json)
+npm run priority:apply -- --plan .tmp/readwise/priority-plan.json --confirm "$PLAN_HASH"
+npm run priority:verify
+```
+
+Het planmodel `readwise-priority-tag-plan-v3` bewaakt documentgegevens, judgments,
+scorecorrecties en kerninteresseconfiguratie. Oudere plannen moeten opnieuw worden gemaakt
+met `priority:plan`. De bevestigingshash hoort bij het opgeslagen plan; vóór uitvoering en
+bij iedere live-verificatie controleert de synchronisatie de oorspronkelijke bronfingerprint.
+Wijzigt de bron, dan stopt de run en is een nieuwe proefrun nodig. Ook na de wachttijd vóór
+een herstelronde wordt de bron opnieuw gecontroleerd.
+
+Beheerde prioriteitstags mogen tijdens uitvoering veranderen. Daardoor kan dezelfde bevestigde
+run worden hervat met `--journal <bestand>` (standaard `.tmp/readwise/priority-apply-journal.json`).
+Het journal bewaart losse uitgevoerde tagoperaties; een operatie die live nog nodig is, wordt
+opnieuw aangeboden. Een ongeldig journal stopt de run. Een andere planhash begint een nieuw
+journal. Successtatus wordt vóór uitvoering gewist en pas na een lege live-diff vastgelegd.
+Een fout bij journalopslag stopt de run zonder een geslaagde Reader-mutatie opnieuw te proberen.
+
+Bulkupdates bewaren de actuele onbeheerde tags. Onbekende tagsets en afgekeurde bulkresultaten
+vallen terug op losse add/remove-calls. De synchronisatie probeert maximaal drie rondes, met
+tien seconden tussen herstelrondes. `--cleanup-all` bij planvorming en verificatie neemt ook
+`new`, `shortlist`, `archive` en `feed` mee om daar beheerde prioriteitstags op te ruimen.
+
+`scripts/lib/priority-sync.ts` bezit planvorming, bevestiging, broncontrole, hervatting en
+verificatie. `scripts/priority-cli.ts` verzorgt argumenten, bestandsadapters en presentatie.
+De gedeelde batchuitvoering blijft ook in gebruik bij archive-cleanup.
 
 ## Leesfeedback
 
@@ -153,7 +185,7 @@ npm run priority:judge -- prepare --top100 # read-only evidence voor handmatige 
 npm run priority:judge -- validate --require-all --require-topic # strikte v8-gate na volledige review
 npm run priority:judge -- ensure-fallback --all-later # registreert ontbrekende low-confidence fallbacks
 npm run build   # haalt actuele later-data op en schrijft data/data.js + data/score.js
-npm run priority:interest-report # read-only v6→v7-impactrapport in .tmp/readwise/
+npm run priority:interest-report # read-only v6→v8-impactrapport in .tmp/readwise/
 npm run priority:topic-report # read-only v7→v8-topic-impactrapport in .tmp/readwise/
 npm run archive:lees:plan -- --output .tmp/readwise/archive-lees-plan.json
 PLAN_HASH=$(jq -r '.planHash' .tmp/readwise/archive-lees-plan.json)

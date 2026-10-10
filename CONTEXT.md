@@ -19,3 +19,35 @@ toplijsten worden bepaald over de Reader-documenten in deze locatie.
 **Archive**:
 De verzameling gearchiveerde Reader-documenten. Archiveren zegt op zichzelf niets
 over de waardering van een document of over het volledig uitlezen ervan.
+
+**Leesprioriteit**:
+De persoonlijke waarde van het lezen van een Reader-document. De algemene
+leesprioriteit geldt over onderwerpen heen.
+
+**Prioriteitsreeks**:
+Een geordende selectie van Reader-documenten op basis van onderwerp, formaat,
+taal of leestijd. Een document kan in meerdere reeksen voorkomen; boeken horen
+uitsluitend in de boek-reeks.
+
+**Reeksscore**:
+De leesprioriteit van een Reader-document binnen een specifieke prioriteitsreeks.
+Bij een onderwerpgerichte reeks vervangt de relevantie voor dat onderwerp de
+algemene relevantie.
+
+**Kerninteresse**:
+Een persoonlijk interessegebied waarvoor inhoudelijk bewijs de leesprioriteit
+van een Reader-document verhoogt. Meerdere onafhankelijk onderbouwde
+kerninteresses kunnen tegelijk bijdragen.
+
+**Prioriteitstags**:
+De beheerde Reader-tags die posities en toplijstlidmaatschap van een document weergeven,
+plus de tag voor luchtig lezen. Synchronisatie bewaart overige Reader-tags.
+
+**Synchronisatieplan**:
+Een proefrun met de benodigde prioriteitstagwijzigingen en een bevestigingshash.
+Het plan legt vast op welke documentgegevens en score-invoer de wijzigingen berusten.
+
+**Synchronisatiejournal**:
+Het voortgangsregister van een bevestigd synchronisatieplan. Het bewaart uitgevoerde
+tagoperaties en fouten, zodat een onderbroken run hervat kan worden. Succes betekent
+dat een actuele controle geen resterende tagwijzigingen vindt.

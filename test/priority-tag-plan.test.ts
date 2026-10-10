@@ -1,3 +1,4 @@
+import type { ContentJudgment } from "../scripts/lib/priority-judgments.js";
 import assert from "node:assert/strict";
 import test from "node:test";
 
@@ -252,4 +253,21 @@ test("bronfingerprint bewaakt ook de kerninteresseconfiguratie", () => {
   const changed = buildPriorityTagPlan(source, [], { generatedAt: "2026-08-16T10:00:00.000Z", coreInterestConfig: changedConfig });
 
   assert.notEqual(changed.sourceFingerprint, first.sourceFingerprint);
+});
+
+test("bronfingerprint bewaakt judgments en is onafhankelijk van objectvolgorde", () => {
+  const source = [doc("stable")];
+  const firstJudgments = { stable: { sourceFingerprint: "a".repeat(64), relevance: 1, substance: 2, durability: 3, usefulness: 1, sequenceFit: {}, confidence: "high" as const, status: "accepted" as const, reasonCodes: [] } } satisfies Record<string, ContentJudgment>;
+  const changedJudgments = { stable: { ...firstJudgments.stable, relevance: 4 as const } };
+  const first = buildPriorityTagPlan(source, [], { judgments: firstJudgments });
+  const changed = buildPriorityTagPlan(source, [], { judgments: changedJudgments });
+  assert.notEqual(changed.sourceFingerprint, first.sourceFingerprint);
+  const reversed = Object.fromEntries(Object.entries(firstJudgments.stable).reverse());
+  const reordered = buildPriorityTagPlan(source, [], { judgments: { stable: reversed } as typeof firstJudgments });
+  assert.equal(reordered.sourceFingerprint, first.sourceFingerprint);
+});
+
+test("oude tagplannen eisen een nieuwe proefrun", () => {
+  const plan = buildPriorityTagPlan([doc("stable")]);
+  assert.throws(() => validatePriorityTagPlan({ ...plan, model: "readwise-priority-tag-plan-v2" }), /priority:plan/);
 });
