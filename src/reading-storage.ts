@@ -1,4 +1,5 @@
 import { record, READING_NEEDS } from "./reading-profiles.js";
+import { READING_MOODS } from "./reading-menu.js";
 import type { MenuSession } from "./reading-menu.js";
 export interface ReadHistory { version: 1; generatedAt: string | null; ids: string[]; }
 export function parseHistory(value: unknown): ReadHistory {
@@ -16,7 +17,7 @@ export function reconcileHistory(history: ReadHistory, catalogIds: readonly stri
 export function parseSession(value: unknown): MenuSession | null {
   if (!record(value) || value.version !== 1 || !record(value.moment)) { return null; }
   const moment = value.moment;
-  if (!["weinig", "gemiddeld", "veel"].includes(String(moment.energy)) || ![null, "neutraal", "vrolijk", "somber", "gespannen"].includes(moment.mood as string | null)
+  if (!["weinig", "gemiddeld", "veel"].includes(String(moment.energy)) || !(moment.mood === null || READING_MOODS.some((mood) => mood === moment.mood))
     || !READING_NEEDS.some((need) => moment.need === need) || typeof moment.budget !== "number" || !Number.isSafeInteger(moment.budget) || moment.budget <= 0
     || !["voorgerecht", "hoofdgerecht", "nagerecht"].includes(String(value.course)) || typeof value.finished !== "boolean"
     || !Array.isArray(value.excluded) || !value.excluded.every((id) => typeof id === "string") || !Array.isArray(value.completed)
