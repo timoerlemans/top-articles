@@ -1,6 +1,6 @@
 // Automatisch gegenereerd door scripts/build-data.ts — niet handmatig bewerken.
 window.TOP_ARTICLES = {
-  "generatedAt": "2026-10-10T12:06:41.605Z",
+  "generatedAt": "2026-10-10T13:08:58.647Z",
   "families": [
     {
       "id": "algemeen",
@@ -32686,35 +32686,6 @@ window.TOP_ARTICLES = {
       },
       {
         "position": null,
-        "id": "01m4dt1kjgn290rwqfqcrnp3gc",
-        "title": "Ness Labs: Curiosity Before Consensus 🦜",
-        "author": "Anne-Laure Le Cunff",
-        "siteName": "Ness Labs",
-        "category": "email",
-        "language": null,
-        "readingTime": "6 mins",
-        "readingMinutes": 6,
-        "wordCount": 1503,
-        "publishedDate": "2026-10-08",
-        "savedDate": "2026-10-08T13:08:05.840000+00:00",
-        "imageUrl": null,
-        "sourceUrl": "mailto:reader-forwarded-email/6deccf6f2bbf1a626a826ef565c3ffe0",
-        "readwiseUrl": "https://read.readwise.io/read/01m4dt1kjgn290rwqfqcrnp3gc",
-        "summary": "I’m in the US this week for one of my two annual “learning trips” – a chance to catch up with my publisher, attend a mastermind, and meet with fellow authors to explore better ways of approaching my work and new experiments I could run.",
-        "whyRead": "Dit raakt je kerninteresse in teamdynamiek en besluitvorming; de nieuwsbrief maakt onderscheid tussen onderzoeken wat waar is en gezamenlijk besluiten wat te doen.",
-        "bestMoment": "analytisch",
-        "tags": [
-          "behavioral psychology & coaching",
-          "team dynamics & collaboration"
-        ],
-        "coreInterests": [
-          "agile"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
         "id": "01m4dcpyr9emw3hkp5y46gsvhy",
         "title": "On Hannah Arendt and Mary McCarthy’s Decades-Long Friendship",
         "author": "Roger Berkowitz",
@@ -33576,36 +33547,6 @@ window.TOP_ARTICLES = {
       },
       {
         "position": null,
-        "id": "01m41mam3yw9x73cenhss1fam5",
-        "title": "A Tech Lead told me he didn't want a Scrum Master",
-        "author": "Vibhor Chandel",
-        "siteName": "Substack",
-        "category": "email",
-        "language": null,
-        "readingTime": "2 mins",
-        "readingMinutes": 2,
-        "wordCount": 425,
-        "publishedDate": "2026-10-03",
-        "savedDate": "2026-10-03T19:37:16.670000+00:00",
-        "imageUrl": null,
-        "sourceUrl": "mailto:reader-forwarded-email/f0d5780f2d56dcc7b72e4cf22ec4ee1d",
-        "readwiseUrl": "https://read.readwise.io/read/01m41mam3yw9x73cenhss1fam5",
-        "summary": "Sometimes the most useful person to interview is the one who disagrees with you. They aren't trying to help your case, so they answer honestly.",
-        "whyRead": "Raakt direct je interesse in Scrum, teamdynamiek en organisatiegedrag. De korte tekst gebruikt een afwijkende mening van een tech lead om de rol van de Scrum Master eerlijker te onderzoeken.",
-        "bestMoment": "analytisch",
-        "tags": [
-          "organizational behavior & culture",
-          "scrum",
-          "team dynamics & collaboration"
-        ],
-        "coreInterests": [
-          "agile"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
         "id": "01m40srag0pz4f6hw0hmn7xvjr",
         "title": "Why I Write (and Care) About the Internet, and What So Many People Get Wrong",
         "author": "Brennan Kenneth Brown",
@@ -34381,36 +34322,6 @@ window.TOP_ARTICLES = {
             "position": 75
           }
         ]
-      },
-      {
-        "position": null,
-        "id": "01m3nr4vp1wg3snpgcnqvvhf3z",
-        "title": "Turn Team-Level Employee Experience Into a Performance Driver in 2026",
-        "author": "Lourdes Gonzalez",
-        "siteName": "reworked.co",
-        "category": "article",
-        "language": null,
-        "readingTime": "5 mins",
-        "readingMinutes": 5,
-        "wordCount": 1175,
-        "publishedDate": "2026-01-22",
-        "savedDate": "2026-09-29T04:53:08.929000+00:00",
-        "imageUrl": "https://www.reworked.co/-/media/c5a26b80f51e4fd9b1e59a5beb0294b9.ashx",
-        "sourceUrl": "https://www.reworked.co/employee-experience/turn-team-level-employee-experience-into-a-performance-driver-in-2026/",
-        "readwiseUrl": "https://read.readwise.io/read/01m3nr4vp1wg3snpgcnqvvhf3z",
-        "summary": "The old EX model is outdated. EX is now shaped in team meetings, workflows and daily decisions where speed results in progress or frustrating constraints.",
-        "whyRead": "Raakt je interesse in teamdynamiek en organisatiegedrag: het stuk verplaatst employee experience van centrale programma’s naar de dagelijkse inrichting van teamwerk en besluitvorming.",
-        "bestMoment": "leergierig",
-        "tags": [
-          "organizational behavior & culture",
-          "professional development",
-          "team dynamics & collaboration"
-        ],
-        "coreInterests": [
-          "agile"
-        ],
-        "alsoIn": [],
-        "memberships": []
       },
       {
         "position": null,
