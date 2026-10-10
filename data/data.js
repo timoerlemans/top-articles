@@ -1,6 +1,6 @@
 // Automatisch gegenereerd door scripts/build-data.ts — niet handmatig bewerken.
 window.TOP_ARTICLES = {
-  "generatedAt": "2026-10-09T11:07:15.319Z",
+  "generatedAt": "2026-10-10T10:24:43.710Z",
   "families": [
     {
       "id": "algemeen",
@@ -28556,6 +28556,152 @@ window.TOP_ARTICLES = {
   ],
   "catalog": {
     "items": [
+      {
+        "position": null,
+        "id": "01m4g7ntmdy81qg05hf3jwgz2v",
+        "title": "Foreword to Sean Mathews The New Byzantines",
+        "author": "Nassim Nicholas Taleb",
+        "siteName": "Substack",
+        "category": "email",
+        "language": null,
+        "readingTime": "9 mins",
+        "readingMinutes": 9,
+        "wordCount": 2222,
+        "publishedDate": "2026-10-09",
+        "savedDate": "2026-10-09T11:44:48.782000+00:00",
+        "imageUrl": null,
+        "sourceUrl": "mailto:reader-forwarded-email/f14eb1dee266a1fa59a5739f4d04f4f3",
+        "readwiseUrl": "https://read.readwise.io/read/01m4g7ntmdy81qg05hf3jwgz2v",
+        "summary": "Sean Mathews’s The New Byzantines: The Rise of Greece and Return of the Near East (Hurst) argues that Greece is best understood as a Near Eastern nation, and that its Byzantine and Ottoman past, not its classical-European self-image, is central for its survival in our modern environment.",
+        "whyRead": "Taleb laat zien hoe de Griekse en Levantijnse geschiedenis door elkaar lopen en hoe nationale identiteit die gedeelde lagen wegpoetst. Het essay combineert persoonlijke herinneringen met een prikkelende historische lens op nationalisme.",
+        "bestMoment": "reflectief",
+        "tags": [
+          "history",
+          "political philosophy",
+          "sociology & social structures"
+        ],
+        "coreInterests": [
+          "filosofie",
+          "ideologie",
+          "geschiedenis",
+          "sociologie"
+        ],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01m4g6kcjfjbjv6x8p726tzbhd",
+        "title": "Winamp 2 is terug",
+        "author": "Alexander Klöpping & Ernst-Jan Pfauth",
+        "siteName": "Substack",
+        "category": "email",
+        "language": null,
+        "readingTime": "3 mins",
+        "readingMinutes": 3,
+        "wordCount": 633,
+        "publishedDate": "2026-10-09",
+        "savedDate": "2026-10-09T11:26:00.272000+00:00",
+        "imageUrl": null,
+        "sourceUrl": "mailto:reader-forwarded-email/8658c27fc96f634d6131ab476c14f016",
+        "readwiseUrl": "https://read.readwise.io/read/01m4g6kcjfjbjv6x8p726tzbhd",
+        "summary": "Ottolenghi tijdens de apocalyps. Een noodvoorraad aanleggen klinkt als corned beef en knijpfruit.",
+        "whyRead": "Deze luchtige Nederlandse nieuwsbrief mixt mediacultuur, humor en vreemde vondsten, met onder meer een sterk tv-interview en een terugblik op Winamp. Het is vooral een ontspannen verzameling kijktips, geen diepgaande analyse.",
+        "bestMoment": "ontspannen",
+        "tags": [
+          "arts & culture",
+          "entertainment & pop culture",
+          "food & cooking"
+        ],
+        "coreInterests": [
+          "cultuur_games_film"
+        ],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01m4g4qw5zs853a7rxmyx26cbq",
+        "title": "Antarctica’s penguins are sending us a distress signal",
+        "author": "Jonathan Watts",
+        "siteName": "Vox",
+        "category": "rss",
+        "language": null,
+        "readingTime": "3 mins",
+        "readingMinutes": 3,
+        "wordCount": 565,
+        "publishedDate": "2026-10-08",
+        "savedDate": "2026-10-09T10:53:27.176000+00:00",
+        "imageUrl": "https://platform.vox.com/wp-content/uploads/sites/2/2026/10/Penguin-colony-below-Mt-Curry-Nicole-Richters-1536x1152-1.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100",
+        "sourceUrl": "https://www.vox.com/climate/505726/chinstrap-penguins-zavodovski-colony-collapse-ocean-warming",
+        "readwiseUrl": "https://read.readwise.io/read/01m4g4qw5zs853a7rxmyx26cbq",
+        "summary": "This story was originally published by The Guardian and is reproduced here as part of the Climate Desk collaboration. The world’s largest penguin colony has declined by two-thirds since 2011, most likely because of the climate crisis, a study has revealed. Scientists said the rapid demise of chinstrap penguins on Zavodovski, the northernmost of the […]",
+        "whyRead": "Het artikel maakt klimaatverandering tastbaar via de snelle achteruitgang van een enorme pinguïnkolonie en de gevolgen voor voedselwebben. Het is een toegankelijk, concreet wetenschapsverhaal, al blijft het vooral een actuele nieuwsreportage.",
+        "bestMoment": "leergierig",
+        "tags": [
+          "environment & sustainability",
+          "science"
+        ],
+        "coreInterests": [],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01m4g2j3r8n082acchj0nd5ye2",
+        "title": "Het wordt steeds moeilijker om zelf een keuze te maken",
+        "author": "Saskia en Alinda van her/ai",
+        "siteName": "Substack",
+        "category": "email",
+        "language": null,
+        "readingTime": "10 mins",
+        "readingMinutes": 10,
+        "wordCount": 2513,
+        "publishedDate": "2026-10-09",
+        "savedDate": "2026-10-09T10:15:24.168000+00:00",
+        "imageUrl": null,
+        "sourceUrl": "mailto:reader-forwarded-email/4c30f0671c8a4a17dc1fc324b2422387",
+        "readwiseUrl": "https://read.readwise.io/read/01m4g2j3r8n082acchj0nd5ye2",
+        "summary": "Wij zijn Saskia en Alinda, en we schrijven over AI voor vrouwen die ermee willen (leren) werken. Door niet alleen erover te lezen, maar vooral te doen.",
+        "whyRead": "Het interview verbindt AI-taal en ontwerpkeuzes aan menselijke autonomie en zelfredzaamheid. De voorbeelden over uitbestede beslissingen en het oefenen van eigen oordeel maken het onderwerp concreet en sluiten sterk aan bij AI en menselijke ontwikkeling.",
+        "bestMoment": "reflectief",
+        "tags": [
+          "ai ethics & society",
+          "behavioral psychology & coaching",
+          "technology"
+        ],
+        "coreInterests": [],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01m4g2bdqndbxfy3b1xt8scm59",
+        "title": "Are the AI industry’s apocalyptic warnings just a marketing ploy?",
+        "author": "Eric Levitz",
+        "siteName": "Vox",
+        "category": "rss",
+        "language": null,
+        "readingTime": "11 mins",
+        "readingMinutes": 11,
+        "wordCount": 2857,
+        "publishedDate": "2026-10-08",
+        "savedDate": "2026-10-09T10:11:42.013000+00:00",
+        "imageUrl": "https://platform.vox.com/wp-content/uploads/sites/2/2026/10/gettyimages-2296174530.jpg?quality=90&#038;strip=all&#038;crop=0,0,100,100",
+        "sourceUrl": "https://www.vox.com/politics/505834/ai-doom-anthropic-openai-pr",
+        "readwiseUrl": "https://read.readwise.io/read/01m4g2bdqndbxfy3b1xt8scm59",
+        "summary": "Silicon Valley has long warned that its favorite technology might get us all killed. But chatter about AI’s apocalyptic potential has grown louder in recent weeks. In September, Anthropic researcher Jacob Coxon resigned from the company, accusing his former employer of “gambling with our lives” by developing evermore powerful models faster than it could control […]",
+        "whyRead": "Levitz beoordeelt de bewering dat AI-bedrijven existentiële risico’s als marketing inzetten. Hij erkent de commerciële prikkels, maar betoogt dat die de oprechte overtuiging van werknemers en leiders niet overtuigend weerleggen.",
+        "bestMoment": "kritisch",
+        "tags": [
+          "ai ethics & society",
+          "current affairs & politics",
+          "technology"
+        ],
+        "coreInterests": [],
+        "alsoIn": [],
+        "memberships": []
+      },
       {
         "position": null,
         "id": "01m4eejey2wmj0pzc97bfk8j0b",
