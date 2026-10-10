@@ -38,3 +38,16 @@ algemene relevantie.
 Een persoonlijk interessegebied waarvoor inhoudelijk bewijs de leesprioriteit
 van een Reader-document verhoogt. Meerdere onafhankelijk onderbouwde
 kerninteresses kunnen tegelijk bijdragen.
+
+**Prioriteitstags**:
+De beheerde Reader-tags die posities en toplijstlidmaatschap van een document weergeven,
+plus de tag voor luchtig lezen. Synchronisatie bewaart overige Reader-tags.
+
+**Synchronisatieplan**:
+Een proefrun met de benodigde prioriteitstagwijzigingen en een bevestigingshash.
+Het plan legt vast op welke documentgegevens en score-invoer de wijzigingen berusten.
+
+**Synchronisatiejournal**:
+Het voortgangsregister van een bevestigd synchronisatieplan. Het bewaart uitgevoerde
+tagoperaties en fouten, zodat een onderbroken run hervat kan worden. Succes betekent
+dat een actuele controle geen resterende tagwijzigingen vindt.

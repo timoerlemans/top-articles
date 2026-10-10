@@ -182,3 +182,22 @@ test("logt een tijdelijke fout in de losse calls vóór een geslaagde retry", as
   assert.equal(result.completed.length, 2);
   assert.equal(result.failures?.length, 2);
 });
+
+test("journalwrite-fout na geslaagde losse mutatie herhaalt die mutatie niet", async () => {
+  const journal = emptyJournal();
+  let mutations = 0;
+  let writes = 0;
+  await assert.rejects(applyPriorityDocumentUpdates({
+    updates: [update("doc", null)],
+    journal,
+    executeDocument: () => { mutations++; return Promise.resolve(); },
+    writeJournal: () => {
+      writes++;
+      return writes === 1 ? Promise.reject(new Error("journal disk full")) : Promise.resolve();
+    },
+    delay: () => Promise.resolve(),
+  }), /journal disk full/);
+  assert.equal(mutations, 1);
+  assert.equal(writes, 1);
+  assert.deepEqual(journal.failures, []);
+});

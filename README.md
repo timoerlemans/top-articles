@@ -84,6 +84,38 @@ Readwise-tagbewijs kan maar één primaire interesse opleveren; afzonderlijke be
 wel meerdere interesses stapelen. De gewichten en handmatige ankers staan in
 `config/readwise-core-interest-priorities.json`.
 
+## Prioriteitstags synchroniseren
+
+```bash
+npm run priority:plan
+PLAN_HASH=$(jq -r '.planHash' .tmp/readwise/priority-plan.json)
+npm run priority:apply -- --plan .tmp/readwise/priority-plan.json --confirm "$PLAN_HASH"
+npm run priority:verify
+```
+
+Het planmodel `readwise-priority-tag-plan-v3` bewaakt documentgegevens, judgments,
+scorecorrecties en kerninteresseconfiguratie. Oudere plannen moeten opnieuw worden gemaakt
+met `priority:plan`. De bevestigingshash hoort bij het opgeslagen plan; vóór uitvoering en
+bij iedere live-verificatie controleert de synchronisatie de oorspronkelijke bronfingerprint.
+Wijzigt de bron, dan stopt de run en is een nieuwe proefrun nodig. Ook na de wachttijd vóór
+een herstelronde wordt de bron opnieuw gecontroleerd.
+
+Beheerde prioriteitstags mogen tijdens uitvoering veranderen. Daardoor kan dezelfde bevestigde
+run worden hervat met `--journal <bestand>` (standaard `.tmp/readwise/priority-apply-journal.json`).
+Het journal bewaart losse uitgevoerde tagoperaties; een operatie die live nog nodig is, wordt
+opnieuw aangeboden. Een ongeldig journal stopt de run. Een andere planhash begint een nieuw
+journal. Successtatus wordt vóór uitvoering gewist en pas na een lege live-diff vastgelegd.
+Een fout bij journalopslag stopt de run zonder een geslaagde Reader-mutatie opnieuw te proberen.
+
+Bulkupdates bewaren de actuele onbeheerde tags. Onbekende tagsets en afgekeurde bulkresultaten
+vallen terug op losse add/remove-calls. De synchronisatie probeert maximaal drie rondes, met
+tien seconden tussen herstelrondes. `--cleanup-all` bij planvorming en verificatie neemt ook
+`new`, `shortlist`, `archive` en `feed` mee om daar beheerde prioriteitstags op te ruimen.
+
+`scripts/lib/priority-sync.ts` bezit planvorming, bevestiging, broncontrole, hervatting en
+verificatie. `scripts/priority-cli.ts` verzorgt argumenten, bestandsadapters en presentatie.
+De gedeelde batchuitvoering blijft ook in gebruik bij archive-cleanup.
+
 ## Leesfeedback
 
 Voeg onderaan de bestaande documentnotitie in Reader een korte alinea toe:

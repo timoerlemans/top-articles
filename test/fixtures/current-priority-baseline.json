@@ -2823,10 +2823,10 @@
   },
   "tagPlan": {
     "generatedAt": "2026-10-10T12:00:00.000Z",
-    "model": "readwise-priority-tag-plan-v2",
+    "model": "readwise-priority-tag-plan-v3",
     "priorityModel": "readwise-priority-v8",
     "scope": "later",
-    "sourceFingerprint": "0e773968238be844dd7b6da9274e7c9bae7cf071aed70ce3207003d9e38238c2",
+    "sourceFingerprint": "338ba0d7f80610f27ecee2e28a5296ba15e3244781df9b361553e5cce50bb28f",
     "summary": {
       "documents": 16,
       "additions": 121,
@@ -4003,7 +4003,7 @@
         "tag": "lees-0010"
       }
     ],
-    "planHash": "6ca1db86017fd109dcbd0e50875b116cec9703f81a8384971a422be0c9dd7f65"
+    "planHash": "1dfc15ae5f7d18c662aa17bcbb50b4bef14ad0f868602fc62c1817277e1a8361"
   },
   "archivePlan": {
     "generatedAt": "2026-10-10T12:00:00.000Z",
