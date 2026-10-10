@@ -1,12 +1,70 @@
 # Readwise-leesprioriteit
 
-Persoonlijke leesprioriteit en toplijsten voor documenten in Readwise Reader.
+Persoonlijke leesprioriteit, toplijsten en leesmenu's voor documenten in Readwise Reader.
 
 ## Taal
 
 **Reader-document**:
 Een opgeslagen leesbron in Readwise Reader, zoals een artikel, boek, PDF of video.
 Een Reader-document heeft een eigen identiteit, ongeacht de lijsten waarin het voorkomt.
+
+**Kort**:
+Een leesstuk met een leestijd van minder dan vijf minuten.
+
+**Luchtig**:
+Een leesstuk dat als ontspannen wordt ervaren door de combinatie van onderwerp,
+gemakkelijke leesbaarheid en geringe emotionele zwaarte.
+
+**Leesmenu**:
+Een aanbod van artikelen, nieuwsbrieven en leesbare PDF's uit Later dat begint met
+een kort, luchtig voorgerecht en optionele vervolggangen heeft.
+Alleen het voorgerecht lezen kan een complete leessessie zijn.
+De gangen passen bij hetzelfde leesmoment en hoeven niet hetzelfde onderwerp te hebben.
+
+**Voorgerecht**:
+Een kort, luchtig leesstuk dat helpt om aan een leessessie te beginnen.
+
+**Hoofdgerecht**:
+Een leesstuk voor verdere verkenning of verdieping, passend bij de beschikbare
+leesenergie. Een hoofdgerecht hoeft geen zwaar leeswerk te zijn.
+
+**Nagerecht**:
+Een kort, toegankelijk leesstuk om een leessessie prettig af te ronden.
+
+**Leesmoment**:
+De combinatie van stemming, leesenergie en leesbehoefte bij het kiezen
+van een leesstuk.
+
+**Stemming**:
+De emotionele toestand tijdens een leesmoment. Eenzelfde stemming kan samengaan
+met verschillende leesbehoeften.
+
+**Leesbehoefte**:
+De gewenste ervaring tijdens het lezen, zoals ontspanning, afleiding, herkenning,
+nieuwsgierig verkennen of verdieping.
+
+**Leesenergie**:
+De beschikbare mentale energie voor concentratie en inspanning tijdens het lezen.
+
+**Leesbudget**:
+De totale tijd die iemand voor een leessessie beschikbaar heeft of wil investeren.
+De gezamenlijke geschatte leestijd van de gangen past binnen dit budget.
+
+**Leesvoortgang**:
+De gangen die de lezer tijdens een leessessie zelf als gelezen heeft bevestigd.
+Een leesstuk openen of om een ander voorstel vragen is geen leesvoortgang.
+
+**Gelezenmarkering**:
+De vastlegging dat de lezer een leesstuk als gelezen heeft bevestigd, ook buiten
+de oorspronkelijke leessessie. Na archivering kan deze markering vervallen.
+
+**Leesprofiel**:
+Een inhoudelijke inschatting van de benodigde concentratie, emotionele zwaarte,
+toon en passende leesbehoeften van een leesstuk.
+
+**Wisselverzoek**:
+De wens om tijdens het huidige leesmoment een ander voorstel te krijgen.
+Een wisselverzoek is geen oordeel over de blijvende leeswaarde van een leesstuk.
 
 **Locatie**:
 De plek van een Reader-document binnen Reader, zoals `later` of `archive`.

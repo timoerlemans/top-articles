@@ -257,3 +257,33 @@ gh secret set READWISE_TOKEN
 ## Publiceren op GitHub Pages
 
 Zet Pages aan op branch `main`, map `/` (root) — er is geen deploy-build nodig.
+
+## Leesmenu
+
+Zonder deeplink opent de app het leesmenu. Kies je stemming (optioneel), energie,
+leesbehoefte en totale tijd. Een voorgerecht duurt minder dan vijf minuten; elke
+vervolggang past binnen de resterende geschatte tijd en energie. Reader openen markeert
+niets gelezen: bevestig dat afzonderlijk. “Iets anders” geldt alleen in dit leesmoment.
+Je browser onthoudt gelezen IDs lokaal; onder “Gelezen artikelen” kan je ze opnieuw
+beschikbaar maken. Verdwijnen uit de complete Later-lijst is archivering en ruimt de
+lokale markering op, uitsluitend bij een nieuwere consistente dataset.
+
+Leesprofielen staan afzonderlijk in `config/readwise-reading-profiles.json`. De
+inbox-workflow onderhoudt ze naast de prioriteitsbeoordelingen. Voor een afzonderlijke
+read-only beoordeling van Later:
+
+```bash
+npm run reading:profiles -- prepare --all-later --fetch-content
+npm run reading:profiles -- validate --require-all-reviewed
+npm run reading:profiles -- report
+npm run build
+```
+
+De preparation schrijft private evidence en batches van maximaal 25 naar
+`.tmp/readwise/reading-profiles/`. Lees de tekst voordat je een profiel accepteert.
+Gebruik `draft` bij onvoldoende evidence en `rejected` voor niet-leesbare/niet-toegelaten
+inhoud; die worden niet voorgesteld. Beoordeel `effort` en `emotionalWeight` (0–4),
+`tone` en de vijf `needFit`-scores onafhankelijk van rang en curatietags. Zie
+[het rubric](docs/reading-profiles.md). De build publiceert alleen actuele,
+geaccepteerde traits; wijziging van inhoudelijke metadata, rubric of voorkeuren
+maakt een profiel ongeldig. Volledige tekst/evidence blijft lokaal.

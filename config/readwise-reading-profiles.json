@@ -260,24 +260,23 @@
       "sourceFingerprint": "fd1295e5c42acbb9cb5e3058c1b20284bd9e07fe9bf7763ed2409886d80a9da3",
       "evidenceFingerprint": "eefe5313bbd9c32daef720445716cbe4f975b48eefc89b06d4af1399a57d2430",
       "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
-      "judgedBy": "codex-reading-profile-review-2026-10-10",
-      "judgedAt": "2026-10-10T00:00:00Z",
+      "judgedBy": "codex-leesmenu-inhoudelijke-review",
+      "judgedAt": "2026-10-10T17:03:44.300727+00:00",
       "evidenceRefs": [
         "content",
-        "summary",
-        "tags"
+        "summary"
       ],
-      "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
+      "reason": "Bemoedigende vergelijking tussen schrijven en hardlopen; eenvoudige redenering over expressie en welzijn.",
       "traits": {
-        "effort": 3,
-        "emotionalWeight": 0,
-        "tone": "zakelijk",
+        "effort": 1,
+        "emotionalWeight": 1,
+        "tone": "warm",
         "needFit": {
           "ontspannen": 3,
-          "afleiding": 3,
-          "herkenning": 1,
+          "afleiding": 2,
+          "herkenning": 3,
           "verkennen": 3,
-          "verdieping": 3
+          "verdieping": 2
         }
       }
     },
@@ -288,24 +287,23 @@
       "sourceFingerprint": "2e00c05ca905ee6ca1775218a677e5d84fbb5fa814a5dc2522387459d2f7a928",
       "evidenceFingerprint": "8c40d06a1792610fb0bbce30ea17f7455bb07ef3d2f8fd03140d4426b089db65",
       "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
-      "judgedBy": "codex-reading-profile-review-2026-10-10",
-      "judgedAt": "2026-10-10T00:00:00Z",
+      "judgedBy": "codex-leesmenu-inhoudelijke-review",
+      "judgedAt": "2026-10-10T17:03:44.300727+00:00",
       "evidenceRefs": [
         "content",
-        "summary",
-        "tags"
+        "summary"
       ],
-      "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
+      "reason": "Geestige geschiedenis van triomfbogen, maar expliciet oorlog, slavernij en politieke dominantie; geen licht voorgerecht.",
       "traits": {
         "effort": 1,
         "emotionalWeight": 2,
-        "tone": "warm",
+        "tone": "speels",
         "needFit": {
-          "ontspannen": 3,
-          "afleiding": 3,
-          "herkenning": 3,
+          "ontspannen": 1,
+          "afleiding": 2,
+          "herkenning": 0,
           "verkennen": 3,
-          "verdieping": 1
+          "verdieping": 2
         }
       }
     },
@@ -499,24 +497,24 @@
       "sourceFingerprint": "099c1e95408fb95debbce2dc2525cdabd53c35a3047794cea9eb1576a1135a66",
       "evidenceFingerprint": "65290afc51c892d1116c796c6ac50c755621b2cd9b21a0257c937d15da835cbc",
       "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
-      "judgedBy": "codex-reading-profile-review-2026-10-10",
-      "judgedAt": "2026-10-10T00:00:00Z",
+      "judgedBy": "codex-leesmenu-inhoudelijke-review",
+      "judgedAt": "2026-10-10T17:03:44.300727+00:00",
       "evidenceRefs": [
         "content",
-        "summary",
-        "tags"
+        "notes",
+        "summary"
       ],
-      "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
+      "reason": "Case met wachttijden, WIP en interviews vraagt aandacht voor het verschil tussen individuele werktijd en coördinatie.",
       "traits": {
-        "effort": 4,
-        "emotionalWeight": 2,
-        "tone": "warm",
+        "effort": 2,
+        "emotionalWeight": 1,
+        "tone": "zakelijk",
         "needFit": {
-          "ontspannen": 2,
-          "afleiding": 2,
+          "ontspannen": 0,
+          "afleiding": 0,
           "herkenning": 3,
-          "verkennen": 2,
-          "verdieping": 3
+          "verkennen": 3,
+          "verdieping": 4
         }
       }
     },
@@ -527,23 +525,23 @@
       "sourceFingerprint": "910a03342d45c2e691b159d66cc4d9bd32141f1b63cefe4baf9c2d09af40ac4f",
       "evidenceFingerprint": "d921f68bb7b877116e161896ff32404fbc5cd41f05359c843da2e9b683e9634a",
       "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
-      "judgedBy": "codex-reading-profile-review-2026-10-10",
-      "judgedAt": "2026-10-10T00:00:00Z",
+      "judgedBy": "codex-leesmenu-inhoudelijke-review",
+      "judgedAt": "2026-10-10T17:03:44.300727+00:00",
       "evidenceRefs": [
         "content",
-        "summary",
-        "tags"
+        "notes",
+        "summary"
       ],
-      "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
+      "reason": "Correspondentie en politieke vriendschap worden historisch geïnterpreteerd; mild emotioneel maar meerdere abstracte onderscheidingen.",
       "traits": {
-        "effort": 3,
-        "emotionalWeight": 2,
-        "tone": "speels",
+        "effort": 2,
+        "emotionalWeight": 1,
+        "tone": "reflectief",
         "needFit": {
-          "ontspannen": 3,
-          "afleiding": 3,
-          "herkenning": 3,
-          "verkennen": 3,
+          "ontspannen": 2,
+          "afleiding": 2,
+          "herkenning": 2,
+          "verkennen": 4,
           "verdieping": 3
         }
       }
@@ -583,24 +581,24 @@
       "sourceFingerprint": "d1a0028704d1fad304f595c3076540518456c040bd1cbc15eb61a64cda1af74c",
       "evidenceFingerprint": "2dbd04edee61452cabf1a7af58eab24729bb5b2143fa320c5f5f808c5095b33c",
       "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
-      "judgedBy": "codex-reading-profile-review-2026-10-10",
-      "judgedAt": "2026-10-10T00:00:00Z",
+      "judgedBy": "codex-leesmenu-inhoudelijke-review",
+      "judgedAt": "2026-10-10T17:03:44.300727+00:00",
       "evidenceRefs": [
         "content",
-        "summary",
-        "tags"
+        "notes",
+        "summary"
       ],
-      "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
+      "reason": "Socratische gesprekstechnieken vragen toepassing en kritisch afwegen van identiteit, overtuiging en grenzen.",
       "traits": {
-        "effort": 3,
-        "emotionalWeight": 2,
-        "tone": "warm",
+        "effort": 2,
+        "emotionalWeight": 1,
+        "tone": "zakelijk",
         "needFit": {
-          "ontspannen": 2,
-          "afleiding": 2,
-          "herkenning": 3,
+          "ontspannen": 0,
+          "afleiding": 0,
+          "herkenning": 2,
           "verkennen": 3,
-          "verdieping": 3
+          "verdieping": 4
         }
       }
     },
@@ -667,24 +665,24 @@
       "sourceFingerprint": "857272a0c9e8a5df2e536c6e1860a8e62afa9ec76d2a52bfcd05d85238158dbe",
       "evidenceFingerprint": "5aec247df8f64c34832ef5af1da40be3c7936d3c7dc80a77b5e7e1a6ed9c876a",
       "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
-      "judgedBy": "codex-reading-profile-review-2026-10-10",
-      "judgedAt": "2026-10-10T00:00:00Z",
+      "judgedBy": "codex-leesmenu-inhoudelijke-review",
+      "judgedAt": "2026-10-10T17:03:44.300727+00:00",
       "evidenceRefs": [
         "content",
-        "summary",
-        "tags"
+        "notes",
+        "summary"
       ],
-      "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
+      "reason": "Concrete verschillen tussen training en facilitatie met agendavragen en opvolging; helder maar taakgericht.",
       "traits": {
-        "effort": 2,
-        "emotionalWeight": 1,
-        "tone": "rustig",
+        "effort": 1,
+        "emotionalWeight": 0,
+        "tone": "zakelijk",
         "needFit": {
-          "ontspannen": 2,
+          "ontspannen": 1,
           "afleiding": 1,
-          "herkenning": 3,
-          "verkennen": 2,
-          "verdieping": 2
+          "herkenning": 2,
+          "verkennen": 3,
+          "verdieping": 3
         }
       }
     },
@@ -695,24 +693,24 @@
       "sourceFingerprint": "c93f4b66d551ecad5bd4114a8111a79ef4d32651f6aa4bfd53fd2f0668d89724",
       "evidenceFingerprint": "937d1dd8fcc2a192d8b33abf792f60c3a274b736c806cc2cb978aa9102612ce4",
       "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
-      "judgedBy": "codex-reading-profile-review-2026-10-10",
-      "judgedAt": "2026-10-10T00:00:00Z",
+      "judgedBy": "codex-leesmenu-inhoudelijke-review",
+      "judgedAt": "2026-10-10T17:03:44.300727+00:00",
       "evidenceRefs": [
         "content",
-        "summary",
-        "tags"
+        "notes",
+        "summary"
       ],
-      "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
+      "reason": "Verhalende matchmaking-herinnering met humor en familieverwachtingen; lange leestijd is los van lage tekstinspanning.",
       "traits": {
-        "effort": 4,
-        "emotionalWeight": 2,
-        "tone": "warm",
+        "effort": 1,
+        "emotionalWeight": 1,
+        "tone": "speels",
         "needFit": {
           "ontspannen": 3,
           "afleiding": 3,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
+          "herkenning": 2,
+          "verkennen": 4,
+          "verdieping": 2
         }
       }
     },
@@ -723,24 +721,24 @@
       "sourceFingerprint": "de8acd2769c56e66f879dab5df6f667ce157faa29841f30106a3e09877b828e0",
       "evidenceFingerprint": "eac39ea496ccfe5919780e7d63270d509f61ba7cb1ca55f76ffd51b66d84aaae",
       "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
-      "judgedBy": "codex-reading-profile-review-2026-10-10",
-      "judgedAt": "2026-10-10T00:00:00Z",
+      "judgedBy": "codex-leesmenu-inhoudelijke-review",
+      "judgedAt": "2026-10-10T17:03:44.300727+00:00",
       "evidenceRefs": [
         "content",
-        "summary",
-        "tags"
+        "notes",
+        "summary"
       ],
-      "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
+      "reason": "Toegankelijke medische geschiedenis met zeldzame ongeneeslijke kinderziekte; hoopvol maar merkbaar emotioneel belastend.",
       "traits": {
-        "effort": 3,
+        "effort": 1,
         "emotionalWeight": 2,
         "tone": "warm",
         "needFit": {
-          "ontspannen": 2,
-          "afleiding": 2,
+          "ontspannen": 1,
+          "afleiding": 1,
           "herkenning": 3,
           "verkennen": 3,
-          "verdieping": 3
+          "verdieping": 2
         }
       }
     },
@@ -751,24 +749,24 @@
       "sourceFingerprint": "6c315a424c9108c5c080f25f38e99e3d8d541f0505e9324a2ee44c2292af3c7c",
       "evidenceFingerprint": "88786a4dd1806521e1d6edf35ad81c2512517cd7610f0ad910fe751255385f5f",
       "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
-      "judgedBy": "codex-reading-profile-review-2026-10-10",
-      "judgedAt": "2026-10-10T00:00:00Z",
+      "judgedBy": "codex-leesmenu-inhoudelijke-review",
+      "judgedAt": "2026-10-10T17:03:44.300727+00:00",
       "evidenceRefs": [
         "content",
-        "summary",
-        "tags"
+        "notes",
+        "summary"
       ],
-      "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
+      "reason": "Nostalgische uitnodiging tot het kleine gemeenschapsweb, Minecraft en creatieve projecten; weinig techniek uitgewerkt.",
       "traits": {
-        "effort": 3,
-        "emotionalWeight": 2,
-        "tone": "warm",
+        "effort": 1,
+        "emotionalWeight": 0,
+        "tone": "speels",
         "needFit": {
-          "ontspannen": 2,
-          "afleiding": 2,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
+          "ontspannen": 4,
+          "afleiding": 4,
+          "herkenning": 1,
+          "verkennen": 4,
+          "verdieping": 1
         }
       }
     },
@@ -779,22 +777,22 @@
       "sourceFingerprint": "d3e250d1225551214ce76270ac152d07c69a887479c39f27754f4942f00b62d0",
       "evidenceFingerprint": "50d0266cc0c3a287bf4e9451f19001081e82d44359553b02753cdf44f33f4357",
       "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
-      "judgedBy": "codex-reading-profile-review-2026-10-10",
-      "judgedAt": "2026-10-10T00:00:00Z",
+      "judgedBy": "codex-leesmenu-inhoudelijke-review",
+      "judgedAt": "2026-10-10T17:03:44.300727+00:00",
       "evidenceRefs": [
         "content",
-        "summary",
-        "tags"
+        "notes",
+        "summary"
       ],
-      "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
+      "reason": "Zelfbewustzijn en terugtrekking bij Dostojewski vragen reflectie op eenzaamheid en verbinding.",
       "traits": {
-        "effort": 3,
+        "effort": 2,
         "emotionalWeight": 2,
-        "tone": "warm",
+        "tone": "reflectief",
         "needFit": {
-          "ontspannen": 3,
-          "afleiding": 3,
-          "herkenning": 3,
+          "ontspannen": 1,
+          "afleiding": 1,
+          "herkenning": 4,
           "verkennen": 3,
           "verdieping": 3
         }
@@ -807,24 +805,24 @@
       "sourceFingerprint": "04700e0decddc552d6d1da9e57d39b325883222696ada0a0ab8c77377d098248",
       "evidenceFingerprint": "4a667cce301fdfe953d04eedfe999e1614b36e91f5b8b21dc862dc46625997f3",
       "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
-      "judgedBy": "codex-reading-profile-review-2026-10-10",
-      "judgedAt": "2026-10-10T00:00:00Z",
+      "judgedBy": "codex-leesmenu-inhoudelijke-review",
+      "judgedAt": "2026-10-10T17:03:44.300727+00:00",
       "evidenceRefs": [
         "content",
-        "summary",
-        "tags"
+        "notes",
+        "summary"
       ],
-      "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
+      "reason": "Herkenbare generatievoorbeelden en kanaalverwarring met licht ironische toon; eenvoudige sociale interpretatie.",
       "traits": {
-        "effort": 3,
-        "emotionalWeight": 2,
+        "effort": 1,
+        "emotionalWeight": 1,
         "tone": "speels",
         "needFit": {
-          "ontspannen": 1,
-          "afleiding": 3,
+          "ontspannen": 2,
+          "afleiding": 2,
           "herkenning": 3,
           "verkennen": 3,
-          "verdieping": 3
+          "verdieping": 2
         }
       }
     },
@@ -835,24 +833,24 @@
       "sourceFingerprint": "a628cff5a13f9e2c9925ab4f55939aa559826a5fc81f066ef4075e52eb221bd8",
       "evidenceFingerprint": "f2f599d2c8e768b6c63bc3f96a7b96ccccb89d7adf67a28bc01462fda78f5cc3",
       "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
-      "judgedBy": "codex-reading-profile-review-2026-10-10",
-      "judgedAt": "2026-10-10T00:00:00Z",
+      "judgedBy": "codex-leesmenu-inhoudelijke-review",
+      "judgedAt": "2026-10-10T17:03:44.300727+00:00",
       "evidenceRefs": [
         "content",
-        "summary",
-        "tags"
+        "notes",
+        "summary"
       ],
-      "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
+      "reason": "Adorno, cultuurindustrie en autonomie vragen abstracte cultuurkritiek en aandacht voor sociale ongelijkheid.",
       "traits": {
         "effort": 3,
-        "emotionalWeight": 3,
-        "tone": "zakelijk",
+        "emotionalWeight": 2,
+        "tone": "intens",
         "needFit": {
-          "ontspannen": 3,
-          "afleiding": 3,
-          "herkenning": 3,
+          "ontspannen": 0,
+          "afleiding": 0,
+          "herkenning": 1,
           "verkennen": 3,
-          "verdieping": 3
+          "verdieping": 4
         }
       }
     },
@@ -863,23 +861,23 @@
       "sourceFingerprint": "e9765012f2b8e7f21d49e81720dc2160cc3bfb2fe943a590987cc0788f7ab478",
       "evidenceFingerprint": "16de7aae8e8e7ae96a5f3669894226c0837d042b63f04779d1d5f6345e9a6cb0",
       "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
-      "judgedBy": "codex-reading-profile-review-2026-10-10",
-      "judgedAt": "2026-10-10T00:00:00Z",
+      "judgedBy": "codex-leesmenu-inhoudelijke-review",
+      "judgedAt": "2026-10-10T17:03:44.300727+00:00",
       "evidenceRefs": [
         "content",
-        "summary",
-        "tags"
+        "notes",
+        "summary"
       ],
-      "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
+      "reason": "Historische canonverbreding langs meerdere tradities en machtsstructuren; geen moeiteloze ontspanning.",
       "traits": {
-        "effort": 3,
-        "emotionalWeight": 2,
-        "tone": "warm",
+        "effort": 2,
+        "emotionalWeight": 1,
+        "tone": "reflectief",
         "needFit": {
-          "ontspannen": 2,
-          "afleiding": 2,
-          "herkenning": 3,
-          "verkennen": 3,
+          "ontspannen": 1,
+          "afleiding": 1,
+          "herkenning": 2,
+          "verkennen": 4,
           "verdieping": 3
         }
       }
@@ -891,23 +889,23 @@
       "sourceFingerprint": "fef9cac37a74881e2af576db868073708c637668e8c8260c2fd1afa8ce7d77f3",
       "evidenceFingerprint": "e749d6ad16b93ea4b7351a5efc05d05494a506b80c46632333a976d0e779d9bb",
       "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
-      "judgedBy": "codex-reading-profile-review-2026-10-10",
-      "judgedAt": "2026-10-10T00:00:00Z",
+      "judgedBy": "codex-leesmenu-inhoudelijke-review",
+      "judgedAt": "2026-10-10T17:03:44.300727+00:00",
       "evidenceRefs": [
         "content",
-        "summary",
-        "tags"
+        "notes",
+        "summary"
       ],
-      "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
+      "reason": "Toegankelijke postmortem-voorbeelden over veranderen van systemen in plaats van intenties; nadrukkelijk werkgericht.",
       "traits": {
-        "effort": 3,
-        "emotionalWeight": 2,
-        "tone": "warm",
+        "effort": 1,
+        "emotionalWeight": 1,
+        "tone": "zakelijk",
         "needFit": {
-          "ontspannen": 2,
-          "afleiding": 2,
+          "ontspannen": 1,
+          "afleiding": 1,
           "herkenning": 3,
-          "verkennen": 2,
+          "verkennen": 3,
           "verdieping": 3
         }
       }
@@ -1242,24 +1240,24 @@
       "sourceFingerprint": "a747ea705fe25731bc6131223c205338a74f0c43213df7048da0eb76e6463e69",
       "evidenceFingerprint": "79dc47b94504e8a4c148f47bf8fbabacfccf8a10cbb808716cf1d7c213e31981",
       "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
-      "judgedBy": "codex-reading-profile-review-2026-10-10",
-      "judgedAt": "2026-10-10T00:00:00Z",
+      "judgedBy": "codex-leesmenu-inhoudelijke-review",
+      "judgedAt": "2026-10-10T17:03:44.300727+00:00",
       "evidenceRefs": [
         "content",
-        "summary",
-        "tags"
+        "notes",
+        "summary"
       ],
-      "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
+      "reason": "Opgewekt verslag van gezamenlijk digitaal opruimen, concrete kleine resultaten en duurzame gewoonten.",
       "traits": {
-        "effort": 3,
-        "emotionalWeight": 1,
-        "tone": "zakelijk",
+        "effort": 1,
+        "emotionalWeight": 0,
+        "tone": "warm",
         "needFit": {
-          "ontspannen": 1,
-          "afleiding": 1,
-          "herkenning": 3,
+          "ontspannen": 2,
+          "afleiding": 2,
+          "herkenning": 2,
           "verkennen": 3,
-          "verdieping": 3
+          "verdieping": 1
         }
       }
     },
@@ -1354,24 +1352,24 @@
       "sourceFingerprint": "02d87c827bfac98de23a38a5940de1f4563d2595405418e0fa48b0d6d49b7767",
       "evidenceFingerprint": "16f7bb2434a95b6969ee359b8adf51ec641eeebecc7ec52d0ddb06cdfe801f62",
       "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
-      "judgedBy": "codex-reading-profile-review-2026-10-10",
-      "judgedAt": "2026-10-10T00:00:00Z",
+      "judgedBy": "codex-leesmenu-inhoudelijke-review",
+      "judgedAt": "2026-10-10T17:03:44.300727+00:00",
       "evidenceRefs": [
         "content",
-        "summary",
-        "tags"
+        "notes",
+        "summary"
       ],
-      "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
+      "reason": "Korte uitnodiging om na een gesprek gevoelens op te merken; milde introspectie met eenvoudige Spider-Sense-metafoor.",
       "traits": {
-        "effort": 3,
-        "emotionalWeight": 2,
+        "effort": 1,
+        "emotionalWeight": 1,
         "tone": "warm",
         "needFit": {
-          "ontspannen": 2,
-          "afleiding": 2,
+          "ontspannen": 3,
+          "afleiding": 1,
           "herkenning": 3,
           "verkennen": 3,
-          "verdieping": 3
+          "verdieping": 2
         }
       }
     },
@@ -1410,24 +1408,24 @@
       "sourceFingerprint": "28ff746f70904975079c92db8f26729e1c33dcfa5e8e3ca639725b00fca2df54",
       "evidenceFingerprint": "8a7aa1fe691645bed0737300b47384217315325adbd7ca73193f04861c522dbb",
       "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
-      "judgedBy": "codex-reading-profile-review-2026-10-10",
-      "judgedAt": "2026-10-10T00:00:00Z",
+      "judgedBy": "codex-leesmenu-inhoudelijke-review",
+      "judgedAt": "2026-10-10T17:03:44.300727+00:00",
       "evidenceRefs": [
         "content",
-        "summary",
-        "tags"
+        "notes",
+        "summary"
       ],
-      "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
+      "reason": "Veranderingscase met teamstructuren, leiderschap en metingen vraagt professionele analyse, geen ontspanningsstuk.",
       "traits": {
-        "effort": 3,
-        "emotionalWeight": 2,
-        "tone": "speels",
+        "effort": 2,
+        "emotionalWeight": 1,
+        "tone": "zakelijk",
         "needFit": {
           "ontspannen": 1,
-          "afleiding": 3,
+          "afleiding": 0,
           "herkenning": 3,
-          "verkennen": 2,
-          "verdieping": 3
+          "verkennen": 3,
+          "verdieping": 4
         }
       }
     },
@@ -1494,24 +1492,24 @@
       "sourceFingerprint": "90c489bfc9cf4a51f080543f0dc81b9fab8e0217b2458ade4000551b66676768",
       "evidenceFingerprint": "97e2c22b872a69da1f0477f99d2460ec58ccb6e336b940125d8fb953be13aa13",
       "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
-      "judgedBy": "codex-reading-profile-review-2026-10-10",
-      "judgedAt": "2026-10-10T00:00:00Z",
+      "judgedBy": "codex-leesmenu-inhoudelijke-review",
+      "judgedAt": "2026-10-10T17:03:44.300727+00:00",
       "evidenceRefs": [
         "content",
-        "summary",
-        "tags"
+        "notes",
+        "summary"
       ],
-      "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
+      "reason": "Visuele olifant-vis-metafoor en korte vriendelijke reflectie op empathie; toegankelijk en weinig emotionele belasting.",
       "traits": {
-        "effort": 3,
-        "emotionalWeight": 2,
+        "effort": 1,
+        "emotionalWeight": 0,
         "tone": "warm",
         "needFit": {
-          "ontspannen": 2,
+          "ontspannen": 3,
           "afleiding": 2,
-          "herkenning": 3,
+          "herkenning": 4,
           "verkennen": 3,
-          "verdieping": 3
+          "verdieping": 2
         }
       }
     },
@@ -1649,24 +1647,24 @@
       "sourceFingerprint": "789c3e9cd898a787ff6a55f074309eea0f84e0e5e2405e2db831edaa51b2fdcb",
       "evidenceFingerprint": "221db3cc24b3a29939f0b5dd21e6447e8388fda38bec4a69af6e7f8f95ecd18b",
       "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
-      "judgedBy": "codex-reading-profile-review-2026-10-10",
-      "judgedAt": "2026-10-10T00:00:00Z",
+      "judgedBy": "codex-leesmenu-inhoudelijke-review",
+      "judgedAt": "2026-10-10T17:03:44.300727+00:00",
       "evidenceRefs": [
         "content",
-        "summary",
-        "tags"
+        "notes",
+        "summary"
       ],
-      "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
+      "reason": "Kort pleidooi voor vriendelijk samenwerken met mild programmeergemeenschapsconflict; geruststellende afsluiting.",
       "traits": {
-        "effort": 3,
-        "emotionalWeight": 2,
+        "effort": 1,
+        "emotionalWeight": 1,
         "tone": "warm",
         "needFit": {
-          "ontspannen": 2,
+          "ontspannen": 3,
           "afleiding": 2,
           "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
+          "verkennen": 2,
+          "verdieping": 1
         }
       }
     },
@@ -2211,23 +2209,23 @@
       "sourceFingerprint": "27286eb10ee97987d80262dd4f268a600d285fecf3b07e2d0d1d1aface738a35",
       "evidenceFingerprint": "e44ccbda974d9fe82c623441944c7b7dabf7545f3d4b78091c6a88e855ce793c",
       "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
-      "judgedBy": "codex-reading-profile-review-2026-10-10",
-      "judgedAt": "2026-10-10T00:00:00Z",
+      "judgedBy": "codex-leesmenu-inhoudelijke-review",
+      "judgedAt": "2026-10-10T17:03:44.300727+00:00",
       "evidenceRefs": [
         "content",
-        "summary",
-        "tags"
+        "notes",
+        "summary"
       ],
-      "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
+      "reason": "Veel story-splitting-categorieën vragen vergelijken en vertalen naar eigen werk, ondanks korte leestijd.",
       "traits": {
-        "effort": 3,
+        "effort": 2,
         "emotionalWeight": 0,
         "tone": "zakelijk",
         "needFit": {
-          "ontspannen": 1,
-          "afleiding": 1,
-          "herkenning": 3,
-          "verkennen": 2,
+          "ontspannen": 0,
+          "afleiding": 0,
+          "herkenning": 2,
+          "verkennen": 3,
           "verdieping": 3
         }
       }
@@ -2239,24 +2237,24 @@
       "sourceFingerprint": "c08a54977045453106dd588752fe4810b9ee404a5afb963f310d686147c78425",
       "evidenceFingerprint": "f6a1bb0f414a7efbf8e05ee31b0db31f66142aa35a702ff5da6900bab1bc65f0",
       "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
-      "judgedBy": "codex-reading-profile-review-2026-10-10",
-      "judgedAt": "2026-10-10T00:00:00Z",
+      "judgedBy": "codex-leesmenu-inhoudelijke-review",
+      "judgedAt": "2026-10-10T17:03:44.300727+00:00",
       "evidenceRefs": [
         "content",
-        "summary",
-        "tags"
+        "notes",
+        "summary"
       ],
-      "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
+      "reason": "Heldere XP-introductie met kaart, gesprek en bevestiging; eenvoudige uitleg die vooral professioneel leren dient.",
       "traits": {
-        "effort": 3,
-        "emotionalWeight": 1,
+        "effort": 1,
+        "emotionalWeight": 0,
         "tone": "zakelijk",
         "needFit": {
           "ontspannen": 1,
           "afleiding": 1,
-          "herkenning": 3,
-          "verkennen": 2,
-          "verdieping": 3
+          "herkenning": 2,
+          "verkennen": 3,
+          "verdieping": 2
         }
       }
     },
@@ -2379,23 +2377,23 @@
       "sourceFingerprint": "085d6ffac37b8c0c0ce7f2e2a643e7b0aba030ba3b96728fb88f50b7d145e167",
       "evidenceFingerprint": "4e90be7e305b9c28153722671db724e7123e3f4a9740a3a5d86e22eca35b62ef",
       "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
-      "judgedBy": "codex-reading-profile-review-2026-10-10",
-      "judgedAt": "2026-10-10T00:00:00Z",
+      "judgedBy": "codex-leesmenu-inhoudelijke-review",
+      "judgedAt": "2026-10-10T17:03:44.300727+00:00",
       "evidenceRefs": [
         "content",
-        "summary",
-        "tags"
+        "notes",
+        "summary"
       ],
-      "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
+      "reason": "Capability-ontwerp en afhankelijkheden verlangen toepassingsgericht nadenken.",
       "traits": {
-        "effort": 3,
-        "emotionalWeight": 1,
-        "tone": "speels",
+        "effort": 2,
+        "emotionalWeight": 0,
+        "tone": "zakelijk",
         "needFit": {
-          "ontspannen": 1,
-          "afleiding": 3,
-          "herkenning": 3,
-          "verkennen": 2,
+          "ontspannen": 0,
+          "afleiding": 0,
+          "herkenning": 2,
+          "verkennen": 3,
           "verdieping": 3
         }
       }
@@ -2547,24 +2545,24 @@
       "sourceFingerprint": "31e067f7969cfc24b2c4a4119e68041a20122b88afe624515eea08280321557e",
       "evidenceFingerprint": "d01b45fd51c1ff83564d1808e3cb96dec5741434a7300c6fedc520cfbaa6c9f3",
       "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
-      "judgedBy": "codex-reading-profile-review-2026-10-10",
-      "judgedAt": "2026-10-10T00:00:00Z",
+      "judgedBy": "codex-leesmenu-inhoudelijke-review",
+      "judgedAt": "2026-10-10T17:03:44.300727+00:00",
       "evidenceRefs": [
         "content",
-        "summary",
-        "tags"
+        "notes",
+        "summary"
       ],
-      "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
+      "reason": "Beknopte beschrijving van vijf teamfasen inclusief machtsstrijd; helder maar modelgericht.",
       "traits": {
-        "effort": 3,
-        "emotionalWeight": 2,
-        "tone": "warm",
+        "effort": 1,
+        "emotionalWeight": 1,
+        "tone": "zakelijk",
         "needFit": {
-          "ontspannen": 2,
-          "afleiding": 2,
-          "herkenning": 3,
+          "ontspannen": 1,
+          "afleiding": 1,
+          "herkenning": 2,
           "verkennen": 3,
-          "verdieping": 3
+          "verdieping": 2
         }
       }
     },
@@ -2603,24 +2601,24 @@
       "sourceFingerprint": "a9da33a0b9302911f71c71455ece7d77250033cd5bc1cf2f2c80eed08fc1b505",
       "evidenceFingerprint": "1e8239b077c2f35363a7d76ede4d458e01b06d33a52a2b7764ac060412de677b",
       "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
-      "judgedBy": "codex-reading-profile-review-2026-10-10",
-      "judgedAt": "2026-10-10T00:00:00Z",
+      "judgedBy": "codex-leesmenu-inhoudelijke-review",
+      "judgedAt": "2026-10-10T17:03:44.300727+00:00",
       "evidenceRefs": [
         "content",
-        "summary",
-        "tags"
+        "notes",
+        "summary"
       ],
-      "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
+      "reason": "Speelse teamactiviteiten en concrete ijsbrekers zijn laagdrempelig te doorbladeren; geen zware analyse.",
       "traits": {
-        "effort": 3,
-        "emotionalWeight": 2,
-        "tone": "warm",
+        "effort": 1,
+        "emotionalWeight": 0,
+        "tone": "speels",
         "needFit": {
-          "ontspannen": 2,
-          "afleiding": 2,
-          "herkenning": 3,
+          "ontspannen": 3,
+          "afleiding": 3,
+          "herkenning": 2,
           "verkennen": 3,
-          "verdieping": 3
+          "verdieping": 1
         }
       }
     },
@@ -2659,24 +2657,24 @@
       "sourceFingerprint": "e1348697189b9e6a4fdc97a1e4fc580216d02ef01e5685fb01b7069205c0faf5",
       "evidenceFingerprint": "3ae0ab83179cbdd26fe706aa7bcf733e50b5498790e635bef2cb7243a30104dd",
       "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
-      "judgedBy": "codex-reading-profile-review-2026-10-10",
-      "judgedAt": "2026-10-10T00:00:00Z",
+      "judgedBy": "codex-leesmenu-inhoudelijke-review",
+      "judgedAt": "2026-10-10T17:03:44.300727+00:00",
       "evidenceRefs": [
         "content",
-        "summary",
-        "tags"
+        "notes",
+        "summary"
       ],
-      "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
+      "reason": "Toegankelijke tips over vertrouwen, luisteren en feedback, met mild sociaal-emotioneel gewicht.",
       "traits": {
-        "effort": 3,
-        "emotionalWeight": 2,
-        "tone": "speels",
+        "effort": 1,
+        "emotionalWeight": 1,
+        "tone": "warm",
         "needFit": {
-          "ontspannen": 1,
-          "afleiding": 3,
+          "ontspannen": 2,
+          "afleiding": 1,
           "herkenning": 3,
           "verkennen": 3,
-          "verdieping": 3
+          "verdieping": 2
         }
       }
     },
@@ -2687,24 +2685,24 @@
       "sourceFingerprint": "57c649219aab28fc67f8b0b37f11bd0f116b1fa5965c489ec88cc68bc11f8b38",
       "evidenceFingerprint": "df4abfd840fbd606427b607cb56859c45bbe593ea88e9b6e1509a16354902ae9",
       "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
-      "judgedBy": "codex-reading-profile-review-2026-10-10",
-      "judgedAt": "2026-10-10T00:00:00Z",
+      "judgedBy": "codex-leesmenu-inhoudelijke-review",
+      "judgedAt": "2026-10-10T17:03:44.300727+00:00",
       "evidenceRefs": [
         "content",
-        "summary",
-        "tags"
+        "notes",
+        "summary"
       ],
-      "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
+      "reason": "Compact GROW-model met eenvoudige coachvragen; professioneel en praktisch.",
       "traits": {
-        "effort": 3,
-        "emotionalWeight": 2,
-        "tone": "warm",
+        "effort": 1,
+        "emotionalWeight": 0,
+        "tone": "zakelijk",
         "needFit": {
-          "ontspannen": 2,
-          "afleiding": 2,
-          "herkenning": 3,
+          "ontspannen": 1,
+          "afleiding": 1,
+          "herkenning": 2,
           "verkennen": 3,
-          "verdieping": 3
+          "verdieping": 2
         }
       }
     },
@@ -3628,24 +3626,24 @@
       "sourceFingerprint": "67803a814ab59b358600736144c9fe8db6d0eed4176287554969c33fc707d0cb",
       "evidenceFingerprint": "98a40bd09aac4cec39c4cfe97912f9e7d1d7192583254188642197eccf4c5326",
       "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
-      "judgedBy": "codex-reading-profile-review-2026-10-10",
-      "judgedAt": "2026-10-10T00:00:00Z",
+      "judgedBy": "codex-leesmenu-inhoudelijke-review",
+      "judgedAt": "2026-10-10T17:03:44.300727+00:00",
       "evidenceRefs": [
         "content",
-        "summary",
-        "tags"
+        "notes",
+        "summary"
       ],
-      "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
+      "reason": "Enthousiast verhaal over menselijke en speelse webdiensten, met voorbeelden en nostalgie in plaats van technische instructie.",
       "traits": {
-        "effort": 3,
-        "emotionalWeight": 2,
-        "tone": "warm",
+        "effort": 1,
+        "emotionalWeight": 0,
+        "tone": "speels",
         "needFit": {
-          "ontspannen": 2,
-          "afleiding": 2,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
+          "ontspannen": 3,
+          "afleiding": 4,
+          "herkenning": 2,
+          "verkennen": 4,
+          "verdieping": 1
         }
       }
     },
@@ -5056,24 +5054,24 @@
       "sourceFingerprint": "6b99e3753bbe95969fc899bc4f806afbff888cb17b44f1d58dc86307e9b8a497",
       "evidenceFingerprint": "9e06670597d67ec40710947f8037b2d05379e23867127e38fce272546ebb89b2",
       "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
-      "judgedBy": "codex-reading-profile-review-2026-10-10",
-      "judgedAt": "2026-10-10T00:00:00Z",
+      "judgedBy": "codex-leesmenu-inhoudelijke-review",
+      "judgedAt": "2026-10-10T17:03:44.300727+00:00",
       "evidenceRefs": [
         "content",
-        "summary",
-        "tags"
+        "notes",
+        "summary"
       ],
-      "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
+      "reason": "Toegankelijke hoopvolle reportage over revalidatie en exoskeletten; beperkte medische details en mild ziektecontext.",
       "traits": {
-        "effort": 3,
-        "emotionalWeight": 0,
-        "tone": "zakelijk",
+        "effort": 1,
+        "emotionalWeight": 1,
+        "tone": "warm",
         "needFit": {
-          "ontspannen": 1,
-          "afleiding": 1,
+          "ontspannen": 2,
+          "afleiding": 3,
           "herkenning": 1,
-          "verkennen": 3,
-          "verdieping": 3
+          "verkennen": 4,
+          "verdieping": 2
         }
       }
     },
@@ -5140,24 +5138,24 @@
       "sourceFingerprint": "150ba9aa6f9ac3e8e7cdd599ab6394b8fc0e3059ce7d3ea0466d4fff02f2ad16",
       "evidenceFingerprint": "75efbabdc58d8e7ad6f9c394b07df0b2fa3f0f67eec4994f84f01dd7943a624a",
       "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
-      "judgedBy": "codex-reading-profile-review-2026-10-10",
-      "judgedAt": "2026-10-10T00:00:00Z",
+      "judgedBy": "codex-leesmenu-inhoudelijke-review",
+      "judgedAt": "2026-10-10T17:03:44.300727+00:00",
       "evidenceRefs": [
         "content",
-        "summary",
-        "tags"
+        "notes",
+        "summary"
       ],
-      "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
+      "reason": "Kort en concreet wetenschapsnieuws over herwonnen tastzin; nieuwsgierigheid en hoop, met beperkte technische belasting.",
       "traits": {
-        "effort": 3,
+        "effort": 1,
         "emotionalWeight": 1,
-        "tone": "zakelijk",
+        "tone": "warm",
         "needFit": {
-          "ontspannen": 1,
-          "afleiding": 1,
+          "ontspannen": 3,
+          "afleiding": 3,
           "herkenning": 1,
-          "verkennen": 3,
-          "verdieping": 3
+          "verkennen": 4,
+          "verdieping": 2
         }
       }
     },
@@ -5196,24 +5194,24 @@
       "sourceFingerprint": "b0cb5bb5fe81306bc7d0e717f668316f98e88278d3ae07952a278bd96f187467",
       "evidenceFingerprint": "50823d01af15b04b43956871274b3a43af63f0856a86b3c978fb3ad786953d53",
       "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
-      "judgedBy": "codex-reading-profile-review-2026-10-10",
-      "judgedAt": "2026-10-10T00:00:00Z",
+      "judgedBy": "codex-leesmenu-inhoudelijke-review",
+      "judgedAt": "2026-10-10T17:03:44.300727+00:00",
       "evidenceRefs": [
         "content",
-        "summary",
-        "tags"
+        "notes",
+        "summary"
       ],
-      "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
+      "reason": "Concreet menselijk BCI-verhaal met Guitar Hero en simpele uitleg van feedbackbanden, mild emotioneel en hoopvol.",
       "traits": {
-        "effort": 3,
-        "emotionalWeight": 0,
-        "tone": "zakelijk",
+        "effort": 1,
+        "emotionalWeight": 1,
+        "tone": "warm",
         "needFit": {
-          "ontspannen": 1,
-          "afleiding": 1,
+          "ontspannen": 3,
+          "afleiding": 3,
           "herkenning": 1,
-          "verkennen": 3,
-          "verdieping": 3
+          "verkennen": 4,
+          "verdieping": 2
         }
       }
     },
@@ -5224,24 +5222,24 @@
       "sourceFingerprint": "d07dde98969cad1ba5ab94bd6d9dddcdd6c05f5d0b65d7bac473307727233c57",
       "evidenceFingerprint": "ac5b4bf507ffb6894412cff7d212d9414092be08c058539361aa72bf43a6aa6b",
       "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
-      "judgedBy": "codex-reading-profile-review-2026-10-10",
-      "judgedAt": "2026-10-10T00:00:00Z",
+      "judgedBy": "codex-leesmenu-inhoudelijke-review",
+      "judgedAt": "2026-10-10T17:03:44.300727+00:00",
       "evidenceRefs": [
         "content",
-        "summary",
-        "tags"
+        "notes",
+        "summary"
       ],
-      "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
+      "reason": "Toegankelijke beschrijving van herwonnen spraak en gesprekken, met heldere beperkingen van de techniek.",
       "traits": {
-        "effort": 3,
+        "effort": 1,
         "emotionalWeight": 1,
-        "tone": "zakelijk",
+        "tone": "warm",
         "needFit": {
-          "ontspannen": 1,
-          "afleiding": 1,
+          "ontspannen": 3,
+          "afleiding": 3,
           "herkenning": 1,
-          "verkennen": 3,
-          "verdieping": 3
+          "verkennen": 4,
+          "verdieping": 2
         }
       }
     },
@@ -5252,23 +5250,23 @@
       "sourceFingerprint": "a21585b3e2e68fc34729d5d5b231d0f3c90e3bc8c4cb85822305fe71fe3820a8",
       "evidenceFingerprint": "1acda2f5823cd8993336b143e9539bf36d58c654a2107b480fd2e81533bcdb8f",
       "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
-      "judgedBy": "codex-reading-profile-review-2026-10-10",
-      "judgedAt": "2026-10-10T00:00:00Z",
+      "judgedBy": "codex-leesmenu-inhoudelijke-review",
+      "judgedAt": "2026-10-10T17:03:44.300727+00:00",
       "evidenceRefs": [
         "content",
-        "summary",
-        "tags"
+        "notes",
+        "summary"
       ],
-      "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
+      "reason": "Proefopzet, sensorimotorische cortex en nauwkeurigheidspercentages vragen meer concentratie dan luchtige wetenschap.",
       "traits": {
-        "effort": 3,
+        "effort": 2,
         "emotionalWeight": 1,
         "tone": "zakelijk",
         "needFit": {
           "ontspannen": 1,
-          "afleiding": 1,
+          "afleiding": 2,
           "herkenning": 1,
-          "verkennen": 3,
+          "verkennen": 4,
           "verdieping": 3
         }
       }
@@ -5603,22 +5601,22 @@
       "sourceFingerprint": "2a9060659dd78963cdc4652d890253769ffd8f26b22327ddcfe59dd85c118781",
       "evidenceFingerprint": "3fc148073c5b7bd784e3c4c9b1211d94b19e5e422e88ba3483967e092e688275",
       "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
-      "judgedBy": "codex-reading-profile-review-2026-10-10",
-      "judgedAt": "2026-10-10T00:00:00Z",
+      "judgedBy": "codex-leesmenu-inhoudelijke-review",
+      "judgedAt": "2026-10-10T17:03:44.300727+00:00",
       "evidenceRefs": [
         "content",
-        "summary",
-        "tags"
+        "notes",
+        "summary"
       ],
-      "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
+      "reason": "Meelevend ADHD-kader over overbelasting en schaamte; eenvoudig geschreven maar emotioneel herkenning kan zwaar wegen.",
       "traits": {
-        "effort": 3,
+        "effort": 1,
         "emotionalWeight": 2,
         "tone": "warm",
         "needFit": {
           "ontspannen": 2,
-          "afleiding": 2,
-          "herkenning": 3,
+          "afleiding": 1,
+          "herkenning": 4,
           "verkennen": 3,
           "verdieping": 3
         }
@@ -5631,24 +5629,24 @@
       "sourceFingerprint": "0fad30bee4d02293cee3029ee0944089ce08e8fb3ed1424120f169b0d62dc9a2",
       "evidenceFingerprint": "a6bcd152de72a9bcc4bc2993eae5c8b4af68ec57f4ba5ab06361633124a5b638",
       "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
-      "judgedBy": "codex-reading-profile-review-2026-10-10",
-      "judgedAt": "2026-10-10T00:00:00Z",
+      "judgedBy": "codex-leesmenu-inhoudelijke-review",
+      "judgedAt": "2026-10-10T17:03:44.300727+00:00",
       "evidenceRefs": [
         "content",
-        "summary",
-        "tags"
+        "notes",
+        "summary"
       ],
-      "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
+      "reason": "Levendig kunstinterview over bonen, salades en meedoen; concrete speelse voorbeelden en weinig abstractie.",
       "traits": {
-        "effort": 3,
-        "emotionalWeight": 2,
-        "tone": "warm",
+        "effort": 1,
+        "emotionalWeight": 0,
+        "tone": "speels",
         "needFit": {
-          "ontspannen": 3,
-          "afleiding": 3,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
+          "ontspannen": 4,
+          "afleiding": 4,
+          "herkenning": 1,
+          "verkennen": 4,
+          "verdieping": 2
         }
       }
     },
@@ -5799,24 +5797,24 @@
       "sourceFingerprint": "6d68dd45e770d35c72ea70cfbef0f9839ab2c2f3b6d681756e9442d4ee065be9",
       "evidenceFingerprint": "cd2339f752a8318d2ac8b504d3e51a69512e3ed43b448b5101774054cdc0c7eb",
       "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
-      "judgedBy": "codex-reading-profile-review-2026-10-10",
-      "judgedAt": "2026-10-10T00:00:00Z",
+      "judgedBy": "codex-leesmenu-inhoudelijke-review",
+      "judgedAt": "2026-10-10T17:03:44.300727+00:00",
       "evidenceRefs": [
         "content",
-        "summary",
-        "tags"
+        "notes",
+        "summary"
       ],
-      "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
+      "reason": "Humoristische concrete lijst met aanpassingen in dagelijkse omgeving; mild herkenningsgewicht, geen zware theoretische eisen.",
       "traits": {
-        "effort": 3,
-        "emotionalWeight": 2,
-        "tone": "warm",
+        "effort": 1,
+        "emotionalWeight": 1,
+        "tone": "speels",
         "needFit": {
-          "ontspannen": 2,
+          "ontspannen": 3,
           "afleiding": 2,
-          "herkenning": 3,
+          "herkenning": 4,
           "verkennen": 3,
-          "verdieping": 3
+          "verdieping": 2
         }
       }
     },
@@ -6361,24 +6359,24 @@
       "sourceFingerprint": "7be90a141d1c585724ffda8d3b7f3988084ab358c6a133a4d787d7c916d25833",
       "evidenceFingerprint": "02db70f832fd34f89bea52314cf96110d985db089a3d35d54cdf81fd4fca5abd",
       "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
-      "judgedBy": "codex-reading-profile-review-2026-10-10",
-      "judgedAt": "2026-10-10T00:00:00Z",
+      "judgedBy": "codex-leesmenu-inhoudelijke-review",
+      "judgedAt": "2026-10-10T17:03:44.300727+00:00",
       "evidenceRefs": [
         "content",
-        "summary",
-        "tags"
+        "notes",
+        "summary"
       ],
-      "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
+      "reason": "Agile-neurodivergentiecasus combineert werkgeheugen, planning en concrete systeemaanpassingen; aandachtige werkreflectie.",
       "traits": {
-        "effort": 3,
-        "emotionalWeight": 2,
-        "tone": "speels",
+        "effort": 2,
+        "emotionalWeight": 1,
+        "tone": "warm",
         "needFit": {
           "ontspannen": 1,
-          "afleiding": 3,
-          "herkenning": 3,
-          "verkennen": 2,
-          "verdieping": 3
+          "afleiding": 1,
+          "herkenning": 4,
+          "verkennen": 3,
+          "verdieping": 4
         }
       }
     },
@@ -10245,22 +10243,22 @@
       "sourceFingerprint": "d42ddfea87127078268ccfc64d3943c72aad3e69c45eed37d61e7c88bc3f92ec",
       "evidenceFingerprint": "1e73539fa864c4cceea1c7f031e6446ba3d7bb4be7f99fb3607adb945a316e58",
       "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
-      "judgedBy": "codex-reading-profile-review-2026-10-10",
-      "judgedAt": "2026-10-10T00:00:00Z",
+      "judgedBy": "codex-leesmenu-inhoudelijke-review",
+      "judgedAt": "2026-10-10T17:03:44.300727+00:00",
       "evidenceRefs": [
         "content",
-        "summary",
-        "tags"
+        "notes",
+        "summary"
       ],
-      "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
+      "reason": "Fictie als taal voor bijna-doodervaringen en rouw, met Heidegger en Proust; kort maar geen licht stuk.",
       "traits": {
-        "effort": 3,
-        "emotionalWeight": 3,
-        "tone": "intens",
+        "effort": 2,
+        "emotionalWeight": 2,
+        "tone": "reflectief",
         "needFit": {
-          "ontspannen": 3,
-          "afleiding": 3,
-          "herkenning": 3,
+          "ontspannen": 1,
+          "afleiding": 1,
+          "herkenning": 4,
           "verkennen": 3,
           "verdieping": 3
         }
@@ -10428,23 +10426,23 @@
       "sourceFingerprint": "4d765f9f0209ccc7a0a3588cf6121a9f28673abb559e1bd551d2bffd4b645229",
       "evidenceFingerprint": "adf2553257e533df459845545c0853470d263fd3c826a90c2bc0dd172be674f4",
       "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
-      "judgedBy": "codex-reading-profile-review-2026-10-10",
-      "judgedAt": "2026-10-10T00:00:00Z",
+      "judgedBy": "codex-leesmenu-inhoudelijke-review",
+      "judgedAt": "2026-10-10T17:03:44.300727+00:00",
       "evidenceRefs": [
         "content",
-        "summary",
-        "tags"
+        "notes",
+        "summary"
       ],
-      "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
+      "reason": "Literair-filosofische redenering over gelijktijdigheid, sterfte en de zwaarte van een dag; abstract en emotioneel.",
       "traits": {
-        "effort": 3,
+        "effort": 2,
         "emotionalWeight": 2,
-        "tone": "warm",
+        "tone": "reflectief",
         "needFit": {
-          "ontspannen": 3,
-          "afleiding": 3,
+          "ontspannen": 1,
+          "afleiding": 1,
           "herkenning": 3,
-          "verkennen": 3,
+          "verkennen": 4,
           "verdieping": 3
         }
       }
@@ -11308,24 +11306,24 @@
       "sourceFingerprint": "32b1da7791e68eb03f882a7a486a9d982685628c89b0dc197b7f422b57efbb7d",
       "evidenceFingerprint": "0ac5b611412a240a372ac6b54f4e7593b82b053e76cdbd2487bedf0102e107e9",
       "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
-      "judgedBy": "codex-reading-profile-review-2026-10-10",
-      "judgedAt": "2026-10-10T00:00:00Z",
+      "judgedBy": "codex-leesmenu-inhoudelijke-review",
+      "judgedAt": "2026-10-10T17:03:44.300727+00:00",
       "evidenceRefs": [
         "content",
-        "summary",
-        "tags"
+        "notes",
+        "summary"
       ],
-      "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
+      "reason": "Zintuiglijk saunaverhaal is toegankelijk, maar omvat kanker van moeder, burnout, verlies en zorgen over oorlog.",
       "traits": {
-        "effort": 3,
-        "emotionalWeight": 3,
-        "tone": "speels",
+        "effort": 1,
+        "emotionalWeight": 2,
+        "tone": "reflectief",
         "needFit": {
-          "ontspannen": 1,
-          "afleiding": 3,
+          "ontspannen": 2,
+          "afleiding": 2,
           "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
+          "verkennen": 4,
+          "verdieping": 2
         }
       }
     },
@@ -11450,23 +11448,23 @@
       "sourceFingerprint": "c645faa3cbde01b362dca43d95753995a81c5d3fe76eff692bb99a2695c5ab1e",
       "evidenceFingerprint": "d6dd33a8410ac7a2384e29d752167c70198e0ae8d2279efd3b04cd92409e3ff2",
       "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
-      "judgedBy": "codex-reading-profile-review-2026-10-10",
-      "judgedAt": "2026-10-10T00:00:00Z",
+      "judgedBy": "codex-leesmenu-inhoudelijke-review",
+      "judgedAt": "2026-10-10T17:03:44.300727+00:00",
       "evidenceRefs": [
         "content",
-        "summary",
-        "tags"
+        "notes",
+        "summary"
       ],
-      "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
+      "reason": "Enthousiaste uitnodiging om een roman via meerdere disciplines te verkennen; helder en zonder vereiste voorkennis.",
       "traits": {
-        "effort": 3,
-        "emotionalWeight": 3,
-        "tone": "intens",
+        "effort": 1,
+        "emotionalWeight": 0,
+        "tone": "warm",
         "needFit": {
           "ontspannen": 3,
-          "afleiding": 3,
-          "herkenning": 1,
-          "verkennen": 3,
+          "afleiding": 2,
+          "herkenning": 2,
+          "verkennen": 4,
           "verdieping": 3
         }
       }
@@ -11822,23 +11820,23 @@
       "sourceFingerprint": "d2724cda3b977f33cb6edd79fd7a56f20c4d52dcf277a6a68fe9b48e8025ac9d",
       "evidenceFingerprint": "734e71ce18b291e3f6b0ad991b03f0c4e7e7349470d77af0b10140cc155159ec",
       "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
-      "judgedBy": "codex-reading-profile-review-2026-10-10",
-      "judgedAt": "2026-10-10T00:00:00Z",
+      "judgedBy": "codex-leesmenu-inhoudelijke-review",
+      "judgedAt": "2026-10-10T17:03:44.300727+00:00",
       "evidenceRefs": [
         "content",
-        "summary",
-        "tags"
+        "notes",
+        "summary"
       ],
-      "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
+      "reason": "Persoonlijke nieuwsgierigheidsreflectie met muziek en kinderen, maar associatief en met zelfkritiek en abstracte conclusies.",
       "traits": {
-        "effort": 3,
-        "emotionalWeight": 2,
+        "effort": 2,
+        "emotionalWeight": 1,
         "tone": "speels",
         "needFit": {
-          "ontspannen": 1,
-          "afleiding": 3,
-          "herkenning": 3,
-          "verkennen": 3,
+          "ontspannen": 2,
+          "afleiding": 2,
+          "herkenning": 4,
+          "verkennen": 4,
           "verdieping": 3
         }
       }
@@ -12658,24 +12656,24 @@
       "sourceFingerprint": "529dcf4850ac1785e8e79cf1cda5fdfea8817f666c7e89d38b4fcba4140fa7f2",
       "evidenceFingerprint": "9500f77f0350166148802ed156d5dbf0539a43af2659632cc2b29537871b9270",
       "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
-      "judgedBy": "codex-reading-profile-review-2026-10-10",
-      "judgedAt": "2026-10-10T00:00:00Z",
+      "judgedBy": "codex-leesmenu-inhoudelijke-review",
+      "judgedAt": "2026-10-10T17:03:44.300727+00:00",
       "evidenceRefs": [
         "content",
-        "summary",
-        "tags"
+        "notes",
+        "summary"
       ],
-      "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
+      "reason": "Eenvoudige energiebeheerchecklist met slaap, natuur en kleine gewoontes; praktische taakfocus in plaats van licht amusement.",
       "traits": {
-        "effort": 3,
-        "emotionalWeight": 2,
-        "tone": "warm",
+        "effort": 1,
+        "emotionalWeight": 0,
+        "tone": "rustig",
         "needFit": {
           "ontspannen": 2,
-          "afleiding": 2,
-          "herkenning": 3,
+          "afleiding": 1,
+          "herkenning": 2,
           "verkennen": 3,
-          "verdieping": 3
+          "verdieping": 1
         }
       }
     },

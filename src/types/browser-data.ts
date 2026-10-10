@@ -1,3 +1,5 @@
+import { parseReadingMenu } from "../reading-profiles.js";
+import type { ReadingMenuData } from "../reading-profiles.js";
 import type { PrioritySequence, PrioritySequenceScore, PriorityTopicComponents } from "../../scripts/lib/readwise-priority-v8.js";
 import type { DirectDomain } from "../../scripts/lib/readwise-priority-v2.js";
 
@@ -29,7 +31,7 @@ export interface ArticleItem {
 
 export interface ArticleList { tag: string; items: ArticleItem[]; }
 export interface ArticleFamily { id: string; label: string; sequence: PrioritySequence; lists: { "top-10": ArticleList; "top-100": ArticleList }; }
-export interface TopArticles { generatedAt: string; families: ArticleFamily[]; catalog: { items: ArticleItem[] }; derivedLists: Record<string, { id: string; label: string; items: Array<{ id: string; title: string; position: number }> }>; }
+export interface TopArticles { readingMenu?: ReadingMenuData; generatedAt: string; families: ArticleFamily[]; catalog: { items: ArticleItem[] }; derivedLists: Record<string, { id: string; label: string; items: Array<{ id: string; title: string; position: number }> }>; }
 export type PriorityComponentKey = "kerninteresse" | "relevantie" | "substantie" | "duurzaamheid" | "bruikbaarheid" | "leeskans" | "nederlandse_taal" | "aftrek";
 export type CoreInterestEvidenceKind = "readwise-tag" | "semantic-signal";
 export interface CoreInterestEvidence { kind: CoreInterestEvidenceKind; source: string; label: string; }
@@ -183,7 +185,11 @@ function isTopArticlePriority(value: unknown): value is TopArticlePriority {
 }
 
 export function parseTopArticles(value: unknown): TopArticles | null {
-  return isTopArticles(value) ? value : null;
+  if (!isTopArticles(value)) { return null; }
+  const menu = parseReadingMenu(value.readingMenu);
+  const articles = { ...value };
+  delete articles.readingMenu;
+  return menu ? { ...articles, readingMenu: menu } : articles;
 }
 
 export function parseTopArticlePriority(value: unknown): TopArticlePriority | null {

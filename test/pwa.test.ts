@@ -51,6 +51,11 @@ test("worker bewaart een volledige shell voor offline gebruik en activeert updat
     "data/data.js",
     "data/score.js",
     "dist/src/app.js",
+    "dist/src/reading-policy.js",
+    "dist/src/reading-profiles.js",
+    "dist/src/reading-menu.js",
+    "dist/src/reading-storage.js",
+    "dist/src/reading-menu-view.js",
     "dist/src/types/browser-data.js",
   ]) {
     assert.match(worker, new RegExp(JSON.stringify(path)));
@@ -108,6 +113,27 @@ test("worker haalt versiegebonden JS eerst online op en gebruikt de cache bij ne
   assert.deepEqual(stored, ["nieuwe data"]);
   online = false;
   assert.equal(await (await load()).text(), "oude data");
+});
+
+test("offline navigatie met lijstfilters en een routefragment gebruikt de gecachte pagina", async () => {
+  const worker = await readFile(new URL("service-worker.js", root), "utf8");
+  let handler: ((event: { request: Request; respondWith: (response: Promise<Response>) => void; waitUntil: () => void }) => void) | undefined;
+  vm.runInNewContext(worker, {
+    URL, Response,
+    self: {
+      registration: { scope: "https://example.com/top-articles/" },
+      addEventListener: (name: string, listener: typeof handler) => { if (name === "fetch") { handler = listener; } },
+    },
+    caches: { match: (url: string) => {
+      assert.equal(url, "https://example.com/top-articles/");
+      return Promise.resolve(new Response("gecachete pagina"));
+    } },
+    fetch: () => Promise.reject(new Error("offline")),
+  });
+  let response: Promise<Response> | undefined;
+  handler?.({ request: new Request("https://example.com/top-articles/?time=up-to-5#/leesmenu"), respondWith: (value) => { response = value; }, waitUntil: () => undefined });
+  assert.ok(response, "de route moet door de serviceworker worden afgehandeld");
+  assert.equal(await (await response).text(), "gecachete pagina");
 });
 
 test("worker laat niet-GET-verzoeken met rust en begrenst de afbeeldingscache", async () => {

@@ -1180,3 +1180,18 @@ main {
     justify-self: start;
   }
 }
+
+/* All view panels must respect hidden even when their own layout uses flex/grid. */
+[hidden] { display: none !important; }
+.reading-menu { max-width: var(--content-width); margin: 0 auto; padding: 1rem var(--content-gutter); }
+.reading-menu h2, .reading-menu h3 { font-family: var(--font-serif); font-weight: 400; }
+.reading-moment { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1rem; }
+.reading-moment label { display: flex; flex-direction: column; gap: .4rem; }
+.reading-moment input, .reading-moment select, .reading-menu button { font: inherit; color: var(--text); background: var(--surface); border: 1px solid var(--border); border-radius: .5rem; padding: .65rem; }
+.reading-menu button { cursor: pointer; }
+.reading-presets, .reading-actions { display: flex; flex-wrap: wrap; gap: .5rem; }
+.reading-presets { grid-column: 1 / -1; }
+.reading-proposal { margin-top: 1.5rem; padding: 1.25rem; background: var(--surface); border: 1px solid var(--border); border-radius: .75rem; }
+.reading-menu :focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
+.reading-menu details { margin-top: 1.5rem; }
+@media (max-width: 540px) { .reading-moment { grid-template-columns: 1fr; } }

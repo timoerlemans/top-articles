@@ -1,3 +1,4 @@
+import { parseReadingMenu } from "../reading-profiles.js";
 const CORE_INTEREST_IDS = [
     "ai_ethiek", "filosofie", "ideologie", "geschiedenis", "sociologie", "schrijven",
     "speculatieve_fictie", "cultuur_games_film", "pkm", "zorgouderschap", "adhd", "agile",
@@ -142,7 +143,13 @@ function isTopArticlePriority(value) {
     return Object.values(value.items).every((item) => isPriorityItem(item, coreInterestPriority));
 }
 export function parseTopArticles(value) {
-    return isTopArticles(value) ? value : null;
+    if (!isTopArticles(value)) {
+        return null;
+    }
+    const menu = parseReadingMenu(value.readingMenu);
+    const articles = { ...value };
+    delete articles.readingMenu;
+    return menu ? { ...articles, readingMenu: menu } : articles;
 }
 export function parseTopArticlePriority(value) {
     return isTopArticlePriority(value) ? value : null;

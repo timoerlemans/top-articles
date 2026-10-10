@@ -85,7 +85,8 @@ test("impactrapport toont rangorde, gestapelde scoreverschillen en top-100-beweg
   const targetDelta = report.scoreDeltas.find(({ id }) => id === "target");
   assert.ok(targetDelta);
   assert.equal(targetDelta.coreInterestBonus, 48);
-  assert.equal(targetDelta.scoreDelta, 48);
+  // Current <5-minute policy removes the old five-point short bonus.
+  assert.equal(targetDelta.scoreDelta, 43);
   assert.deepEqual(report.sequences.lees.entries.map(({ id }) => id), ["target"]);
   assert.deepEqual(report.sequences.lees.exits.map(({ id }) => id), ["exit"]);
   assert.equal(report.largestMovers[0]?.id, "target");

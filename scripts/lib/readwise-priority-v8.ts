@@ -1,3 +1,4 @@
+import { parseReadingMinutes, isShort } from "../../src/reading-policy.js";
 import { actualPositionsForDocument, comparePriorityItems, sequencesForDocument } from "./priority-membership.js";
 import { detectDutch } from "./priority-document.js";
 import type { PriorityDocument, PriorityTier } from "./priority-document.js";
@@ -257,9 +258,7 @@ function whyRead(doc: PriorityDocument): string {
 }
 
 function readingMinutes(doc: PriorityDocument): number | null {
-  const value = normalize(doc.reading_time);
-  const match = value.match(/^(\d+(?:\.\d+)?)\s*(?:min|mins|minute|minutes)\b/);
-  return match ? Number(match[1]) : null;
+  return parseReadingMinutes(doc.reading_time);
 }
 
 function validateOverride(override: unknown = {}): { adjustment: number; reason: string | null } {
@@ -320,7 +319,7 @@ function scorePreparedDocument(
     substantie: judgment.substance * 8,
     duurzaamheid: judgment.durability * 5,
     bruikbaarheid: judgment.usefulness * 5,
-    leeskans: minutes !== null && minutes < 10 ? 5 : 0,
+    leeskans: isShort(minutes) ? 5 : 0,
     nederlandse_taal: detectDutch(scoringDoc) ? 5 : 0,
     aftrek,
   };

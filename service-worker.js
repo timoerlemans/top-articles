@@ -1,4 +1,4 @@
-const APP_SHELL_CACHE = "top-articles-shell-v2";
+const APP_SHELL_CACHE = "top-articles-shell-v3";
 const IMAGE_CACHE = "top-articles-images-v1";
 const APP_SHELL_URLS = [
   "./",
@@ -10,6 +10,11 @@ const APP_SHELL_URLS = [
   "data/data.js",
   "data/score.js",
   "dist/src/app.js",
+  "dist/src/reading-policy.js",
+  "dist/src/reading-profiles.js",
+  "dist/src/reading-menu.js",
+  "dist/src/reading-storage.js",
+  "dist/src/reading-menu-view.js",
   "dist/src/types/browser-data.js",
 ];
 const MAX_IMAGE_ENTRIES = 60;
@@ -21,6 +26,7 @@ const shellUrls = new Set(APP_SHELL_URLS.map((path) => new URL(path, self.regist
 function shellCacheUrl(request) {
   const url = new URL(request.url);
   url.search = "";
+  url.hash = "";
   return url.href;
 }
 

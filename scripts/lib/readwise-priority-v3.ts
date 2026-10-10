@@ -1,5 +1,5 @@
-import { sequencesForDocument, actualPositionsForDocument, comparePriorityItems } from "./priority-membership.js";
-export { sequencesForDocument, actualPositionsForDocument, comparePriorityItems } from "./priority-membership.js";
+import { historicalSequencesForDocument as sequencesForDocument, actualPositionsForDocument, comparePriorityItems } from "./priority-membership.js";
+export { historicalSequencesForDocument as sequencesForDocument, actualPositionsForDocument, comparePriorityItems } from "./priority-membership.js";
 import {
   scorePriorityDocument as scoreBaseDocument,
 } from "./readwise-priority-v2.js";

@@ -1,3 +1,4 @@
+import { parseReadingMinutes, isShort } from "../../src/reading-policy.js";
 import { baseSequencesForDocument, detectDutch } from "./priority-document.js";
 import type { PriorityDocument } from "./priority-document.js";
 import { SEQUENCE_ORDER } from "./priority-sequences.js";
@@ -82,7 +83,7 @@ function contentTagsFor(doc: PriorityDocument): string[] {
   return [...new Set([...rawTags, ...canonicalInterestTags(rawTags)])];
 }
 
-export function sequencesForDocument(doc: PriorityDocument): PrioritySequence[] {
+export function historicalSequencesForDocument(doc: PriorityDocument): PrioritySequence[] {
   const sequences = new Set<PrioritySequence>(baseSequencesForDocument(doc));
   if (!sequences.has("boek")) {
     const tags = new Set(contentTagsFor(doc));
@@ -153,3 +154,15 @@ export function comparePriorityItems<T extends { score: number }>(
   );
 }
 
+
+/** Current policy; historical scoring keeps the frozen pre-menu membership. */
+export function sequencesForDocument(doc: PriorityDocument): PrioritySequence[] {
+  const sequences = new Set(historicalSequencesForDocument(doc));
+  sequences.delete("short");
+  sequences.delete("short-dutch");
+  if (!sequences.has("boek") && isShort(parseReadingMinutes(doc.reading_time))) {
+    sequences.add("short");
+    if (detectDutch(doc)) { sequences.add("short-dutch"); }
+  }
+  return SEQUENCE_ORDER.filter((sequence) => sequences.has(sequence));
+}

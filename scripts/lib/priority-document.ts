@@ -1,5 +1,5 @@
-import { parseReadingMinutes } from "./reading-time.js";
-import type { ReadingTimeValue } from "./reading-time.js";
+import { parseReadingMinutes } from "./legacy-reading-time.js";
+import type { ReadingTimeValue } from "./legacy-reading-time.js";
 import { BASE_SEQUENCE_ORDER } from "./priority-sequences.js";
 import type { PrioritySequenceV2 } from "./priority-sequences.js";
 import { canonicalInterestTags } from "./readwise-tags.js";

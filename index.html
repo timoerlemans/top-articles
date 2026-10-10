@@ -68,7 +68,7 @@
   <section class="core-interest-priorities" id="core-interest-priorities" hidden aria-label="Kerninteresse-rangorde"></section>
 </section>
 
-<div class="controls">
+<div class="controls" id="list-controls">
   <div class="size-toggle" id="size-toggle" role="tablist" aria-label="Lijstgrootte">
     <button type="button" data-size="top-10" role="tab">Top 10</button>
     <button type="button" data-size="top-100" role="tab">Top 100</button>
@@ -129,10 +129,10 @@
       Leestijd
       <select id="reading-time-filter">
         <option value="">Alle leestijden</option>
-        <option value="up-to-5">Tot 5 min</option>
-        <option value="6-to-10">6–10 min</option>
-        <option value="11-to-20">11–20 min</option>
-        <option value="21-to-60">21–60 min</option>
+        <option value="up-to-5">Minder dan 5 min</option>
+        <option value="6-to-10">5–10 min</option>
+        <option value="11-to-20">Meer dan 10–20 min</option>
+        <option value="21-to-60">Meer dan 20–60 min</option>
         <option value="over-60">Meer dan 60 min</option>
       </select>
     </label>
@@ -148,6 +148,7 @@
 </p>
 
 <main>
+  <section class="reading-menu" id="reading-menu" aria-label="Leesmenu" hidden></section>
   <p class="list-count" id="list-count"></p>
   <ol class="item-list" id="item-list"></ol>
   <p class="empty-state" id="empty-state" hidden>Geen items gevonden.</p>
@@ -158,8 +159,8 @@
   <p id="pwa-build">PWA-build wordt geladen…</p>
 </footer>
 
-  <script src="data/score.js?c=1791648732"></script>
-  <script src="data/data.js?c=1791648732"></script>
-<script type="module" src="dist/src/app.js?c=1791648732"></script>
+  <script src="data/score.js?c=1791651857"></script>
+  <script src="data/data.js?c=1791651857"></script>
+<script type="module" src="dist/src/app.js?c=1791651857"></script>
 </body>
 </html>

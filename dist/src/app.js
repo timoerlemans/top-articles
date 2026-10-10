@@ -1,3 +1,5 @@
+import { mountReadingMenu } from "./reading-menu-view.js";
+import { readingTimeInBucket } from "./reading-policy.js";
 import { parseTopArticlePriority, parseTopArticles } from "./types/browser-data.js";
 function requiredElement(id, elementType) {
     const element = document.getElementById(id);
@@ -202,26 +204,7 @@ registerServiceWorker();
         return Math.min(...entry.tagPositions.values());
     }
     function readingTimeMatches(item, bucket) {
-        if (!bucket) {
-            return true;
-        }
-        const minutes = item.readingMinutes;
-        if (typeof minutes !== "number" || !Number.isFinite(minutes)) {
-            return false;
-        }
-        if (bucket === "up-to-5") {
-            return minutes <= 5;
-        }
-        if (bucket === "6-to-10") {
-            return minutes >= 6 && minutes <= 10;
-        }
-        if (bucket === "11-to-20") {
-            return minutes >= 11 && minutes <= 20;
-        }
-        if (bucket === "21-to-60") {
-            return minutes >= 21 && minutes <= 60;
-        }
-        return minutes > 60;
+        return readingTimeInBucket(item.readingMinutes, bucket);
     }
     // Alleen http(s)-links worden ooit als href/src gebruikt — voorkomt javascript:-URI's
     // in data die oorspronkelijk van willekeurige, opgeslagen webpagina's afkomstig is.
@@ -333,6 +316,10 @@ registerServiceWorker();
         const parts = location.hash.replace(/^#\/?/, "").split("/").filter(Boolean);
         const [familyId, size] = parts;
         paramsToFilters(new URLSearchParams(location.search));
+        if (!familyId || familyId === "leesmenu") {
+            state.view = "leesmenu";
+            return;
+        }
         if (familyId === "ontdek") {
             state.view = "discover";
             if (size && (size === "catalogus" || derivedLists[size])) {
@@ -357,7 +344,7 @@ registerServiceWorker();
         }
     }
     function stateToHash() {
-        const hashPart = state.view === "discover"
+        const hashPart = state.view === "leesmenu" ? "#/leesmenu" : state.view === "discover"
             ? `#/ontdek/${state.discoverListId}`
             : state.view === "priority"
                 ? `#/leesvolgorde/${state.prioritySequence}`
@@ -386,6 +373,9 @@ registerServiceWorker();
         readingTimeFilterEl.value = "";
     }
     function activeMenuLabel() {
+        if (state.view === "leesmenu") {
+            return "Leesmenu";
+        }
         if (state.view === "priority") {
             return "Leesvolgorde";
         }
@@ -410,6 +400,14 @@ registerServiceWorker();
         mobileMenuLabelEl.textContent = activeMenuLabel();
         const menuOpen = mobileMenuToggleEl.getAttribute("aria-expanded") === "true";
         mobileMenuToggleEl.setAttribute("aria-label", `Menu ${activeMenuLabel()}: ${menuOpen ? "sluiten" : "openen"}`);
+        const menuBtn = document.createElement("button");
+        menuBtn.type = "button";
+        menuBtn.className = "tab";
+        menuBtn.textContent = "Leesmenu";
+        menuBtn.setAttribute("role", "tab");
+        menuBtn.setAttribute("aria-selected", String(state.view === "leesmenu"));
+        menuBtn.addEventListener("click", () => { state.view = "leesmenu"; closeMobileMenu(); stateToHash(); render(); });
+        tabsEl.appendChild(menuBtn);
         for (const family of families) {
             const btn = document.createElement("button");
             btn.type = "button";
@@ -837,10 +835,10 @@ registerServiceWorker();
         if (state.readingTime) {
             count++;
             const labels = {
-                "up-to-5": "Tot 5 min",
-                "6-to-10": "6–10 min",
-                "11-to-20": "11–20 min",
-                "21-to-60": "21–60 min",
+                "up-to-5": "Minder dan 5 min",
+                "6-to-10": "5–10 min",
+                "11-to-20": ">10–20 min",
+                "21-to-60": ">20–60 min",
                 "over-60": "Meer dan 60 min",
             };
             activeFilterChipListEl.appendChild(buildActiveFilterChip(`Leestijd: ${labels[state.readingTime]}`, () => {
@@ -1381,8 +1379,23 @@ registerServiceWorker();
         listEl.appendChild(fragment);
         renderActiveFilters();
     }
+    const menuEl = requiredElement("reading-menu", HTMLElement);
+    const menuView = mountReadingMenu(menuEl, data, priorityData);
     function render() {
         renderTabs();
+        const isMenu = state.view === "leesmenu";
+        menuEl.hidden = !isMenu;
+        for (const element of [listEl, listCountEl, requiredElement("list-controls", HTMLElement)]) {
+            element.hidden = isMenu;
+        }
+        if (isMenu) {
+            for (const element of [emptyEl, discoverControlsEl, priorityControlsEl, activeFiltersEl, searchFiltersPanelEl, searchScopeNoteEl]) {
+                element.hidden = true;
+            }
+            toggleSearchFiltersEl.setAttribute("aria-expanded", "false");
+            menuView.render();
+            return;
+        }
         renderSizeToggle();
         renderDiscoverControls();
         renderPriorityControls();

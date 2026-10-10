@@ -1,4 +1,5 @@
 #!/usr/bin/env node
+import { publicReadingMenu, validateReadingProfiles } from "./lib/reading-profiles.js";
 // Haalt actuele Reader later-documenten op en schrijft de uniforme appdata.
 // Vereist de @readwise/cli, al ingelogd (lokaal) of via `readwise login-with-token` (CI).
 
@@ -221,7 +222,11 @@ async function main() {
     memberships: membershipById.get(item.id) ?? [],
   }));
 
+  const profileValue: unknown = JSON.parse(await readFile(join(ROOT, "config", "readwise-reading-profiles.json"), "utf8"));
+  if (!validateReadingProfiles(profileValue)) { throw new Error("Ongeldige leesprofielenconfig"); }
+  const preferences = await readFile(join(ROOT, "config", "readwise-reading-preferences.md"), "utf8");
   const data = {
+    readingMenu: publicReadingMenu(laterDocs, profileValue, preferences),
     generatedAt,
     families,
     catalog: { items: catalogItems },
