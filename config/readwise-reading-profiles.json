@@ -17,15 +17,15 @@
       ],
       "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
       "traits": {
-        "effort": 3,
-        "emotionalWeight": 3,
-        "tone": "speels",
+        "effort": 2,
+        "emotionalWeight": 2,
+        "tone": "warm",
         "needFit": {
-          "ontspannen": 1,
-          "afleiding": 3,
+          "ontspannen": 2,
+          "afleiding": 2,
           "herkenning": 3,
           "verkennen": 2,
-          "verdieping": 3
+          "verdieping": 2
         }
       }
     },
@@ -46,7 +46,7 @@
       "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
       "traits": {
         "effort": 3,
-        "emotionalWeight": 3,
+        "emotionalWeight": 1,
         "tone": "zakelijk",
         "needFit": {
           "ontspannen": 1,
@@ -75,10 +75,10 @@
       "traits": {
         "effort": 3,
         "emotionalWeight": 3,
-        "tone": "speels",
+        "tone": "warm",
         "needFit": {
-          "ontspannen": 3,
-          "afleiding": 3,
+          "ontspannen": 2,
+          "afleiding": 2,
           "herkenning": 3,
           "verkennen": 2,
           "verdieping": 3
@@ -107,7 +107,7 @@
         "needFit": {
           "ontspannen": 1,
           "afleiding": 3,
-          "herkenning": 3,
+          "herkenning": 1,
           "verkennen": 3,
           "verdieping": 3
         }
@@ -130,13 +130,13 @@
       "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
       "traits": {
         "effort": 3,
-        "emotionalWeight": 3,
-        "tone": "intens",
+        "emotionalWeight": 1,
+        "tone": "zakelijk",
         "needFit": {
           "ontspannen": 1,
           "afleiding": 1,
           "herkenning": 1,
-          "verkennen": 3,
+          "verkennen": 2,
           "verdieping": 3
         }
       }
@@ -157,15 +157,15 @@
       ],
       "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
       "traits": {
-        "effort": 4,
-        "emotionalWeight": 3,
+        "effort": 1,
+        "emotionalWeight": 2,
         "tone": "speels",
         "needFit": {
           "ontspannen": 3,
           "afleiding": 3,
           "herkenning": 3,
           "verkennen": 3,
-          "verdieping": 3
+          "verdieping": 1
         }
       }
     },
@@ -186,11 +186,11 @@
       "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
       "traits": {
         "effort": 4,
-        "emotionalWeight": 3,
-        "tone": "intens",
+        "emotionalWeight": 2,
+        "tone": "warm",
         "needFit": {
-          "ontspannen": 1,
-          "afleiding": 1,
+          "ontspannen": 2,
+          "afleiding": 2,
           "herkenning": 3,
           "verkennen": 3,
           "verdieping": 3
@@ -242,12 +242,12 @@
       "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
       "traits": {
         "effort": 4,
-        "emotionalWeight": 3,
-        "tone": "speels",
+        "emotionalWeight": 0,
+        "tone": "zakelijk",
         "needFit": {
           "ontspannen": 3,
           "afleiding": 3,
-          "herkenning": 3,
+          "herkenning": 1,
           "verkennen": 3,
           "verdieping": 3
         }
@@ -270,12 +270,12 @@
       "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
       "traits": {
         "effort": 3,
-        "emotionalWeight": 3,
-        "tone": "intens",
+        "emotionalWeight": 0,
+        "tone": "zakelijk",
         "needFit": {
           "ontspannen": 3,
           "afleiding": 3,
-          "herkenning": 3,
+          "herkenning": 1,
           "verkennen": 3,
           "verdieping": 3
         }
@@ -298,8 +298,8 @@
       "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
       "traits": {
         "effort": 1,
-        "emotionalWeight": 3,
-        "tone": "intens",
+        "emotionalWeight": 2,
+        "tone": "warm",
         "needFit": {
           "ontspannen": 3,
           "afleiding": 3,
@@ -325,15 +325,15 @@
       ],
       "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
       "traits": {
-        "effort": 4,
-        "emotionalWeight": 3,
-        "tone": "speels",
+        "effort": 1,
+        "emotionalWeight": 0,
+        "tone": "rustig",
         "needFit": {
           "ontspannen": 3,
           "afleiding": 3,
-          "herkenning": 3,
+          "herkenning": 1,
           "verkennen": 3,
-          "verdieping": 3
+          "verdieping": 1
         }
       }
     },
@@ -354,7 +354,7 @@
       "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
       "traits": {
         "effort": 4,
-        "emotionalWeight": 3,
+        "emotionalWeight": 2,
         "tone": "speels",
         "needFit": {
           "ontspannen": 1,
@@ -382,11 +382,11 @@
       "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
       "traits": {
         "effort": 3,
-        "emotionalWeight": 3,
-        "tone": "intens",
+        "emotionalWeight": 2,
+        "tone": "warm",
         "needFit": {
-          "ontspannen": 1,
-          "afleiding": 1,
+          "ontspannen": 2,
+          "afleiding": 2,
           "herkenning": 3,
           "verkennen": 3,
           "verdieping": 3
@@ -411,10 +411,10 @@
       "traits": {
         "effort": 4,
         "emotionalWeight": 3,
-        "tone": "speels",
+        "tone": "zakelijk",
         "needFit": {
           "ontspannen": 1,
-          "afleiding": 3,
+          "afleiding": 1,
           "herkenning": 3,
           "verkennen": 3,
           "verdieping": 3
@@ -438,11 +438,11 @@
       "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
       "traits": {
         "effort": 4,
-        "emotionalWeight": 3,
-        "tone": "intens",
+        "emotionalWeight": 2,
+        "tone": "warm",
         "needFit": {
-          "ontspannen": 1,
-          "afleiding": 1,
+          "ontspannen": 2,
+          "afleiding": 2,
           "herkenning": 3,
           "verkennen": 3,
           "verdieping": 3
@@ -481,8 +481,8 @@
       "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
       "traits": {
         "effort": 3,
-        "emotionalWeight": 3,
-        "tone": "intens",
+        "emotionalWeight": 2,
+        "tone": "warm",
         "needFit": {
           "ontspannen": 3,
           "afleiding": 3,
@@ -509,13 +509,13 @@
       "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
       "traits": {
         "effort": 4,
-        "emotionalWeight": 3,
-        "tone": "intens",
+        "emotionalWeight": 2,
+        "tone": "warm",
         "needFit": {
-          "ontspannen": 1,
-          "afleiding": 1,
+          "ontspannen": 2,
+          "afleiding": 2,
           "herkenning": 3,
-          "verkennen": 3,
+          "verkennen": 2,
           "verdieping": 3
         }
       }
@@ -537,7 +537,7 @@
       "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
       "traits": {
         "effort": 3,
-        "emotionalWeight": 3,
+        "emotionalWeight": 2,
         "tone": "speels",
         "needFit": {
           "ontspannen": 3,
@@ -565,8 +565,8 @@
       "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
       "traits": {
         "effort": 4,
-        "emotionalWeight": 3,
-        "tone": "intens",
+        "emotionalWeight": 0,
+        "tone": "zakelijk",
         "needFit": {
           "ontspannen": 1,
           "afleiding": 1,
@@ -593,11 +593,11 @@
       "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
       "traits": {
         "effort": 3,
-        "emotionalWeight": 3,
-        "tone": "intens",
+        "emotionalWeight": 2,
+        "tone": "warm",
         "needFit": {
-          "ontspannen": 1,
-          "afleiding": 1,
+          "ontspannen": 2,
+          "afleiding": 2,
           "herkenning": 3,
           "verkennen": 3,
           "verdieping": 3
@@ -621,7 +621,7 @@
       "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
       "traits": {
         "effort": 4,
-        "emotionalWeight": 3,
+        "emotionalWeight": 2,
         "tone": "speels",
         "needFit": {
           "ontspannen": 1,
@@ -650,7 +650,7 @@
       "traits": {
         "effort": 3,
         "emotionalWeight": 3,
-        "tone": "intens",
+        "tone": "warm",
         "needFit": {
           "ontspannen": 3,
           "afleiding": 3,
@@ -676,15 +676,15 @@
       ],
       "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
       "traits": {
-        "effort": 4,
-        "emotionalWeight": 3,
-        "tone": "intens",
+        "effort": 2,
+        "emotionalWeight": 1,
+        "tone": "rustig",
         "needFit": {
-          "ontspannen": 1,
+          "ontspannen": 2,
           "afleiding": 1,
           "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
+          "verkennen": 2,
+          "verdieping": 2
         }
       }
     },
@@ -705,8 +705,8 @@
       "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
       "traits": {
         "effort": 4,
-        "emotionalWeight": 3,
-        "tone": "speels",
+        "emotionalWeight": 2,
+        "tone": "warm",
         "needFit": {
           "ontspannen": 3,
           "afleiding": 3,
@@ -733,11 +733,11 @@
       "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
       "traits": {
         "effort": 3,
-        "emotionalWeight": 3,
-        "tone": "speels",
+        "emotionalWeight": 2,
+        "tone": "warm",
         "needFit": {
-          "ontspannen": 3,
-          "afleiding": 3,
+          "ontspannen": 2,
+          "afleiding": 2,
           "herkenning": 3,
           "verkennen": 3,
           "verdieping": 3
@@ -789,8 +789,8 @@
       "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
       "traits": {
         "effort": 3,
-        "emotionalWeight": 3,
-        "tone": "speels",
+        "emotionalWeight": 2,
+        "tone": "warm",
         "needFit": {
           "ontspannen": 3,
           "afleiding": 3,
@@ -817,7 +817,7 @@
       "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
       "traits": {
         "effort": 3,
-        "emotionalWeight": 3,
+        "emotionalWeight": 2,
         "tone": "speels",
         "needFit": {
           "ontspannen": 1,
@@ -846,7 +846,7 @@
       "traits": {
         "effort": 3,
         "emotionalWeight": 3,
-        "tone": "speels",
+        "tone": "zakelijk",
         "needFit": {
           "ontspannen": 3,
           "afleiding": 3,
@@ -873,11 +873,11 @@
       "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
       "traits": {
         "effort": 3,
-        "emotionalWeight": 3,
-        "tone": "intens",
+        "emotionalWeight": 2,
+        "tone": "warm",
         "needFit": {
-          "ontspannen": 1,
-          "afleiding": 1,
+          "ontspannen": 2,
+          "afleiding": 2,
           "herkenning": 3,
           "verkennen": 3,
           "verdieping": 3
@@ -902,12 +902,12 @@
       "traits": {
         "effort": 3,
         "emotionalWeight": 2,
-        "tone": "intens",
+        "tone": "warm",
         "needFit": {
-          "ontspannen": 1,
-          "afleiding": 1,
+          "ontspannen": 2,
+          "afleiding": 2,
           "herkenning": 3,
-          "verkennen": 3,
+          "verkennen": 2,
           "verdieping": 3
         }
       }
@@ -929,7 +929,7 @@
       "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
       "traits": {
         "effort": 4,
-        "emotionalWeight": 3,
+        "emotionalWeight": 0,
         "tone": "speels",
         "needFit": {
           "ontspannen": 1,
@@ -957,11 +957,11 @@
       "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
       "traits": {
         "effort": 4,
-        "emotionalWeight": 3,
-        "tone": "intens",
+        "emotionalWeight": 2,
+        "tone": "warm",
         "needFit": {
-          "ontspannen": 1,
-          "afleiding": 1,
+          "ontspannen": 2,
+          "afleiding": 2,
           "herkenning": 3,
           "verkennen": 3,
           "verdieping": 3
@@ -985,11 +985,11 @@
       "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
       "traits": {
         "effort": 3,
-        "emotionalWeight": 3,
-        "tone": "intens",
+        "emotionalWeight": 2,
+        "tone": "warm",
         "needFit": {
-          "ontspannen": 1,
-          "afleiding": 1,
+          "ontspannen": 2,
+          "afleiding": 2,
           "herkenning": 3,
           "verkennen": 2,
           "verdieping": 3
@@ -1013,13 +1013,13 @@
       "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
       "traits": {
         "effort": 4,
-        "emotionalWeight": 3,
+        "emotionalWeight": 1,
         "tone": "speels",
         "needFit": {
           "ontspannen": 1,
           "afleiding": 3,
           "herkenning": 3,
-          "verkennen": 3,
+          "verkennen": 2,
           "verdieping": 3
         }
       }
@@ -1041,7 +1041,7 @@
       "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
       "traits": {
         "effort": 3,
-        "emotionalWeight": 3,
+        "emotionalWeight": 2,
         "tone": "speels",
         "needFit": {
           "ontspannen": 1,
@@ -1069,8 +1069,8 @@
       "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
       "traits": {
         "effort": 3,
-        "emotionalWeight": 3,
-        "tone": "intens",
+        "emotionalWeight": 1,
+        "tone": "zakelijk",
         "needFit": {
           "ontspannen": 1,
           "afleiding": 1,
@@ -1097,13 +1097,13 @@
       "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
       "traits": {
         "effort": 4,
-        "emotionalWeight": 3,
-        "tone": "speels",
+        "emotionalWeight": 1,
+        "tone": "intens",
         "needFit": {
           "ontspannen": 1,
-          "afleiding": 3,
+          "afleiding": 1,
           "herkenning": 3,
-          "verkennen": 3,
+          "verkennen": 2,
           "verdieping": 3
         }
       }
@@ -1125,8 +1125,8 @@
       "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
       "traits": {
         "effort": 4,
-        "emotionalWeight": 3,
-        "tone": "intens",
+        "emotionalWeight": 1,
+        "tone": "zakelijk",
         "needFit": {
           "ontspannen": 1,
           "afleiding": 1,
@@ -1153,11 +1153,11 @@
       "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
       "traits": {
         "effort": 3,
-        "emotionalWeight": 3,
-        "tone": "intens",
+        "emotionalWeight": 2,
+        "tone": "warm",
         "needFit": {
-          "ontspannen": 1,
-          "afleiding": 1,
+          "ontspannen": 2,
+          "afleiding": 2,
           "herkenning": 3,
           "verkennen": 2,
           "verdieping": 3
@@ -1196,13 +1196,13 @@
       "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
       "traits": {
         "effort": 4,
-        "emotionalWeight": 3,
+        "emotionalWeight": 2,
         "tone": "speels",
         "needFit": {
           "ontspannen": 1,
           "afleiding": 3,
           "herkenning": 3,
-          "verkennen": 3,
+          "verkennen": 2,
           "verdieping": 3
         }
       }
@@ -1224,7 +1224,7 @@
       "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
       "traits": {
         "effort": 3,
-        "emotionalWeight": 3,
+        "emotionalWeight": 2,
         "tone": "speels",
         "needFit": {
           "ontspannen": 1,
@@ -1286,7 +1286,7 @@
           "ontspannen": 1,
           "afleiding": 3,
           "herkenning": 3,
-          "verkennen": 3,
+          "verkennen": 2,
           "verdieping": 3
         }
       }
@@ -1308,8 +1308,8 @@
       "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
       "traits": {
         "effort": 3,
-        "emotionalWeight": 3,
-        "tone": "intens",
+        "emotionalWeight": 1,
+        "tone": "zakelijk",
         "needFit": {
           "ontspannen": 1,
           "afleiding": 1,
@@ -1336,13 +1336,13 @@
       "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
       "traits": {
         "effort": 4,
-        "emotionalWeight": 3,
+        "emotionalWeight": 2,
         "tone": "speels",
         "needFit": {
           "ontspannen": 1,
           "afleiding": 3,
           "herkenning": 3,
-          "verkennen": 3,
+          "verkennen": 2,
           "verdieping": 3
         }
       }
@@ -1364,11 +1364,11 @@
       "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
       "traits": {
         "effort": 3,
-        "emotionalWeight": 3,
-        "tone": "intens",
+        "emotionalWeight": 2,
+        "tone": "warm",
         "needFit": {
-          "ontspannen": 1,
-          "afleiding": 1,
+          "ontspannen": 2,
+          "afleiding": 2,
           "herkenning": 3,
           "verkennen": 3,
           "verdieping": 3
@@ -1391,15 +1391,15 @@
       ],
       "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
       "traits": {
-        "effort": 4,
-        "emotionalWeight": 3,
+        "effort": 2,
+        "emotionalWeight": 2,
         "tone": "speels",
         "needFit": {
           "ontspannen": 1,
           "afleiding": 3,
           "herkenning": 3,
           "verkennen": 2,
-          "verdieping": 3
+          "verdieping": 2
         }
       }
     },
@@ -1420,7 +1420,7 @@
       "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
       "traits": {
         "effort": 3,
-        "emotionalWeight": 3,
+        "emotionalWeight": 2,
         "tone": "speels",
         "needFit": {
           "ontspannen": 1,
@@ -1448,11 +1448,11 @@
       "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
       "traits": {
         "effort": 4,
-        "emotionalWeight": 3,
-        "tone": "intens",
+        "emotionalWeight": 2,
+        "tone": "warm",
         "needFit": {
-          "ontspannen": 1,
-          "afleiding": 1,
+          "ontspannen": 2,
+          "afleiding": 2,
           "herkenning": 3,
           "verkennen": 3,
           "verdieping": 3
@@ -1476,11 +1476,11 @@
       "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
       "traits": {
         "effort": 4,
-        "emotionalWeight": 3,
-        "tone": "speels",
+        "emotionalWeight": 2,
+        "tone": "warm",
         "needFit": {
-          "ontspannen": 1,
-          "afleiding": 3,
+          "ontspannen": 2,
+          "afleiding": 2,
           "herkenning": 3,
           "verkennen": 3,
           "verdieping": 3
@@ -1504,11 +1504,11 @@
       "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
       "traits": {
         "effort": 3,
-        "emotionalWeight": 3,
-        "tone": "intens",
+        "emotionalWeight": 2,
+        "tone": "warm",
         "needFit": {
-          "ontspannen": 1,
-          "afleiding": 1,
+          "ontspannen": 2,
+          "afleiding": 2,
           "herkenning": 3,
           "verkennen": 3,
           "verdieping": 3
@@ -1532,13 +1532,13 @@
       "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
       "traits": {
         "effort": 4,
-        "emotionalWeight": 3,
-        "tone": "intens",
+        "emotionalWeight": 1,
+        "tone": "zakelijk",
         "needFit": {
           "ontspannen": 1,
           "afleiding": 1,
           "herkenning": 3,
-          "verkennen": 3,
+          "verkennen": 2,
           "verdieping": 3
         }
       }
@@ -1574,12 +1574,12 @@
       ],
       "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
       "traits": {
-        "effort": 4,
-        "emotionalWeight": 3,
-        "tone": "speels",
+        "effort": 3,
+        "emotionalWeight": 2,
+        "tone": "intens",
         "needFit": {
           "ontspannen": 1,
-          "afleiding": 3,
+          "afleiding": 1,
           "herkenning": 3,
           "verkennen": 3,
           "verdieping": 3
@@ -1631,13 +1631,13 @@
       "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
       "traits": {
         "effort": 3,
-        "emotionalWeight": 3,
-        "tone": "intens",
+        "emotionalWeight": 2,
+        "tone": "warm",
         "needFit": {
-          "ontspannen": 1,
-          "afleiding": 1,
+          "ontspannen": 2,
+          "afleiding": 2,
           "herkenning": 3,
-          "verkennen": 3,
+          "verkennen": 2,
           "verdieping": 3
         }
       }
@@ -1659,11 +1659,11 @@
       "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
       "traits": {
         "effort": 3,
-        "emotionalWeight": 3,
-        "tone": "intens",
+        "emotionalWeight": 2,
+        "tone": "warm",
         "needFit": {
-          "ontspannen": 1,
-          "afleiding": 1,
+          "ontspannen": 2,
+          "afleiding": 2,
           "herkenning": 3,
           "verkennen": 3,
           "verdieping": 3
@@ -1687,13 +1687,13 @@
       "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
       "traits": {
         "effort": 4,
-        "emotionalWeight": 3,
-        "tone": "intens",
+        "emotionalWeight": 2,
+        "tone": "warm",
         "needFit": {
-          "ontspannen": 1,
-          "afleiding": 1,
+          "ontspannen": 2,
+          "afleiding": 2,
           "herkenning": 3,
-          "verkennen": 3,
+          "verkennen": 2,
           "verdieping": 3
         }
       }
@@ -1715,11 +1715,11 @@
       "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
       "traits": {
         "effort": 3,
-        "emotionalWeight": 3,
-        "tone": "speels",
+        "emotionalWeight": 1,
+        "tone": "zakelijk",
         "needFit": {
           "ontspannen": 1,
-          "afleiding": 3,
+          "afleiding": 1,
           "herkenning": 3,
           "verkennen": 3,
           "verdieping": 3
@@ -1743,11 +1743,11 @@
       "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
       "traits": {
         "effort": 3,
-        "emotionalWeight": 3,
-        "tone": "intens",
+        "emotionalWeight": 2,
+        "tone": "warm",
         "needFit": {
-          "ontspannen": 1,
-          "afleiding": 1,
+          "ontspannen": 2,
+          "afleiding": 2,
           "herkenning": 3,
           "verkennen": 3,
           "verdieping": 3
@@ -1772,10 +1772,10 @@
       "traits": {
         "effort": 3,
         "emotionalWeight": 3,
-        "tone": "intens",
+        "tone": "warm",
         "needFit": {
-          "ontspannen": 1,
-          "afleiding": 1,
+          "ontspannen": 2,
+          "afleiding": 2,
           "herkenning": 3,
           "verkennen": 3,
           "verdieping": 3
@@ -1814,8 +1814,8 @@
       "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
       "traits": {
         "effort": 3,
-        "emotionalWeight": 3,
-        "tone": "intens",
+        "emotionalWeight": 1,
+        "tone": "zakelijk",
         "needFit": {
           "ontspannen": 1,
           "afleiding": 1,
@@ -1842,11 +1842,11 @@
       "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
       "traits": {
         "effort": 4,
-        "emotionalWeight": 3,
-        "tone": "speels",
+        "emotionalWeight": 1,
+        "tone": "zakelijk",
         "needFit": {
           "ontspannen": 1,
-          "afleiding": 3,
+          "afleiding": 1,
           "herkenning": 3,
           "verkennen": 2,
           "verdieping": 3
@@ -1870,7 +1870,7 @@
       "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
       "traits": {
         "effort": 3,
-        "emotionalWeight": 3,
+        "emotionalWeight": 2,
         "tone": "speels",
         "needFit": {
           "ontspannen": 1,
@@ -1898,13 +1898,13 @@
       "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
       "traits": {
         "effort": 4,
-        "emotionalWeight": 3,
-        "tone": "intens",
+        "emotionalWeight": 2,
+        "tone": "warm",
         "needFit": {
-          "ontspannen": 1,
-          "afleiding": 1,
+          "ontspannen": 2,
+          "afleiding": 2,
           "herkenning": 3,
-          "verkennen": 3,
+          "verkennen": 2,
           "verdieping": 3
         }
       }
@@ -1926,11 +1926,11 @@
       "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
       "traits": {
         "effort": 3,
-        "emotionalWeight": 3,
-        "tone": "intens",
+        "emotionalWeight": 2,
+        "tone": "warm",
         "needFit": {
-          "ontspannen": 1,
-          "afleiding": 1,
+          "ontspannen": 2,
+          "afleiding": 2,
           "herkenning": 3,
           "verkennen": 2,
           "verdieping": 3
@@ -1954,11 +1954,11 @@
       "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
       "traits": {
         "effort": 4,
-        "emotionalWeight": 3,
-        "tone": "intens",
+        "emotionalWeight": 2,
+        "tone": "warm",
         "needFit": {
-          "ontspannen": 1,
-          "afleiding": 1,
+          "ontspannen": 2,
+          "afleiding": 2,
           "herkenning": 3,
           "verkennen": 2,
           "verdieping": 3
@@ -1982,11 +1982,11 @@
       "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
       "traits": {
         "effort": 4,
-        "emotionalWeight": 3,
-        "tone": "speels",
+        "emotionalWeight": 2,
+        "tone": "warm",
         "needFit": {
-          "ontspannen": 1,
-          "afleiding": 3,
+          "ontspannen": 2,
+          "afleiding": 2,
           "herkenning": 3,
           "verkennen": 3,
           "verdieping": 3
@@ -2010,13 +2010,13 @@
       "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
       "traits": {
         "effort": 4,
-        "emotionalWeight": 3,
-        "tone": "intens",
+        "emotionalWeight": 2,
+        "tone": "warm",
         "needFit": {
-          "ontspannen": 1,
-          "afleiding": 1,
+          "ontspannen": 2,
+          "afleiding": 2,
           "herkenning": 3,
-          "verkennen": 3,
+          "verkennen": 2,
           "verdieping": 3
         }
       }
@@ -2038,8 +2038,8 @@
       "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
       "traits": {
         "effort": 3,
-        "emotionalWeight": 3,
-        "tone": "intens",
+        "emotionalWeight": 1,
+        "tone": "zakelijk",
         "needFit": {
           "ontspannen": 1,
           "afleiding": 1,
@@ -2066,8 +2066,8 @@
       "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
       "traits": {
         "effort": 3,
-        "emotionalWeight": 3,
-        "tone": "intens",
+        "emotionalWeight": 1,
+        "tone": "zakelijk",
         "needFit": {
           "ontspannen": 1,
           "afleiding": 1,
@@ -2122,7 +2122,7 @@
       "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
       "traits": {
         "effort": 3,
-        "emotionalWeight": 3,
+        "emotionalWeight": 2,
         "tone": "speels",
         "needFit": {
           "ontspannen": 1,
@@ -2150,8 +2150,8 @@
       "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
       "traits": {
         "effort": 4,
-        "emotionalWeight": 3,
-        "tone": "speels",
+        "emotionalWeight": 2,
+        "tone": "warm",
         "needFit": {
           "ontspannen": 3,
           "afleiding": 3,
@@ -2179,11 +2179,11 @@
       "traits": {
         "effort": 4,
         "emotionalWeight": 4,
-        "tone": "speels",
+        "tone": "intens",
         "needFit": {
           "ontspannen": 1,
-          "afleiding": 3,
-          "herkenning": 3,
+          "afleiding": 1,
+          "herkenning": 1,
           "verkennen": 3,
           "verdieping": 3
         }
@@ -2221,8 +2221,8 @@
       "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
       "traits": {
         "effort": 3,
-        "emotionalWeight": 3,
-        "tone": "intens",
+        "emotionalWeight": 0,
+        "tone": "zakelijk",
         "needFit": {
           "ontspannen": 1,
           "afleiding": 1,
@@ -2249,8 +2249,8 @@
       "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
       "traits": {
         "effort": 3,
-        "emotionalWeight": 3,
-        "tone": "intens",
+        "emotionalWeight": 1,
+        "tone": "zakelijk",
         "needFit": {
           "ontspannen": 1,
           "afleiding": 1,
@@ -2277,8 +2277,8 @@
       "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
       "traits": {
         "effort": 3,
-        "emotionalWeight": 3,
-        "tone": "intens",
+        "emotionalWeight": 0,
+        "tone": "zakelijk",
         "needFit": {
           "ontspannen": 1,
           "afleiding": 1,
@@ -2305,13 +2305,13 @@
       "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
       "traits": {
         "effort": 3,
-        "emotionalWeight": 3,
-        "tone": "intens",
+        "emotionalWeight": 2,
+        "tone": "warm",
         "needFit": {
-          "ontspannen": 1,
-          "afleiding": 1,
+          "ontspannen": 2,
+          "afleiding": 2,
           "herkenning": 3,
-          "verkennen": 3,
+          "verkennen": 2,
           "verdieping": 3
         }
       }
@@ -2333,11 +2333,11 @@
       "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
       "traits": {
         "effort": 3,
-        "emotionalWeight": 3,
-        "tone": "speels",
+        "emotionalWeight": 2,
+        "tone": "warm",
         "needFit": {
-          "ontspannen": 1,
-          "afleiding": 3,
+          "ontspannen": 2,
+          "afleiding": 2,
           "herkenning": 3,
           "verkennen": 3,
           "verdieping": 3
@@ -2361,11 +2361,11 @@
       "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
       "traits": {
         "effort": 3,
-        "emotionalWeight": 3,
-        "tone": "speels",
+        "emotionalWeight": 1,
+        "tone": "zakelijk",
         "needFit": {
           "ontspannen": 1,
-          "afleiding": 3,
+          "afleiding": 1,
           "herkenning": 3,
           "verkennen": 2,
           "verdieping": 3
@@ -2389,7 +2389,7 @@
       "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
       "traits": {
         "effort": 3,
-        "emotionalWeight": 3,
+        "emotionalWeight": 1,
         "tone": "speels",
         "needFit": {
           "ontspannen": 1,
@@ -2418,10 +2418,10 @@
       "traits": {
         "effort": 4,
         "emotionalWeight": 3,
-        "tone": "speels",
+        "tone": "warm",
         "needFit": {
-          "ontspannen": 1,
-          "afleiding": 3,
+          "ontspannen": 2,
+          "afleiding": 2,
           "herkenning": 3,
           "verkennen": 3,
           "verdieping": 3
@@ -2445,7 +2445,7 @@
       "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
       "traits": {
         "effort": 3,
-        "emotionalWeight": 4,
+        "emotionalWeight": 3,
         "tone": "speels",
         "needFit": {
           "ontspannen": 3,
@@ -2502,10 +2502,10 @@
       "traits": {
         "effort": 3,
         "emotionalWeight": 3,
-        "tone": "intens",
+        "tone": "warm",
         "needFit": {
-          "ontspannen": 1,
-          "afleiding": 1,
+          "ontspannen": 2,
+          "afleiding": 2,
           "herkenning": 3,
           "verkennen": 3,
           "verdieping": 3
@@ -2529,11 +2529,11 @@
       "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
       "traits": {
         "effort": 4,
-        "emotionalWeight": 3,
-        "tone": "intens",
+        "emotionalWeight": 2,
+        "tone": "warm",
         "needFit": {
-          "ontspannen": 1,
-          "afleiding": 1,
+          "ontspannen": 2,
+          "afleiding": 2,
           "herkenning": 3,
           "verkennen": 3,
           "verdieping": 3
@@ -2585,13 +2585,13 @@
       "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
       "traits": {
         "effort": 3,
-        "emotionalWeight": 3,
-        "tone": "intens",
+        "emotionalWeight": 2,
+        "tone": "warm",
         "needFit": {
-          "ontspannen": 1,
-          "afleiding": 1,
+          "ontspannen": 2,
+          "afleiding": 2,
           "herkenning": 3,
-          "verkennen": 3,
+          "verkennen": 2,
           "verdieping": 3
         }
       }
@@ -2613,11 +2613,11 @@
       "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
       "traits": {
         "effort": 3,
-        "emotionalWeight": 3,
-        "tone": "intens",
+        "emotionalWeight": 2,
+        "tone": "warm",
         "needFit": {
-          "ontspannen": 1,
-          "afleiding": 1,
+          "ontspannen": 2,
+          "afleiding": 2,
           "herkenning": 3,
           "verkennen": 3,
           "verdieping": 3
@@ -2641,11 +2641,11 @@
       "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
       "traits": {
         "effort": 3,
-        "emotionalWeight": 3,
-        "tone": "intens",
+        "emotionalWeight": 2,
+        "tone": "warm",
         "needFit": {
-          "ontspannen": 1,
-          "afleiding": 1,
+          "ontspannen": 2,
+          "afleiding": 2,
           "herkenning": 3,
           "verkennen": 3,
           "verdieping": 3
@@ -2669,7 +2669,7 @@
       "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
       "traits": {
         "effort": 3,
-        "emotionalWeight": 3,
+        "emotionalWeight": 2,
         "tone": "speels",
         "needFit": {
           "ontspannen": 1,
@@ -2697,11 +2697,11 @@
       "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
       "traits": {
         "effort": 3,
-        "emotionalWeight": 3,
-        "tone": "intens",
+        "emotionalWeight": 2,
+        "tone": "warm",
         "needFit": {
-          "ontspannen": 1,
-          "afleiding": 1,
+          "ontspannen": 2,
+          "afleiding": 2,
           "herkenning": 3,
           "verkennen": 3,
           "verdieping": 3
@@ -2725,7 +2725,7 @@
       "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
       "traits": {
         "effort": 3,
-        "emotionalWeight": 3,
+        "emotionalWeight": 2,
         "tone": "speels",
         "needFit": {
           "ontspannen": 1,
@@ -2753,11 +2753,11 @@
       "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
       "traits": {
         "effort": 3,
-        "emotionalWeight": 3,
-        "tone": "intens",
+        "emotionalWeight": 2,
+        "tone": "warm",
         "needFit": {
-          "ontspannen": 1,
-          "afleiding": 1,
+          "ontspannen": 2,
+          "afleiding": 2,
           "herkenning": 3,
           "verkennen": 3,
           "verdieping": 3
@@ -2781,7 +2781,7 @@
       "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
       "traits": {
         "effort": 3,
-        "emotionalWeight": 3,
+        "emotionalWeight": 2,
         "tone": "intens",
         "needFit": {
           "ontspannen": 1,
@@ -2809,11 +2809,11 @@
       "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
       "traits": {
         "effort": 3,
-        "emotionalWeight": 3,
-        "tone": "intens",
+        "emotionalWeight": 2,
+        "tone": "warm",
         "needFit": {
-          "ontspannen": 1,
-          "afleiding": 1,
+          "ontspannen": 2,
+          "afleiding": 2,
           "herkenning": 3,
           "verkennen": 3,
           "verdieping": 3
@@ -2837,7 +2837,7 @@
       "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
       "traits": {
         "effort": 3,
-        "emotionalWeight": 4,
+        "emotionalWeight": 3,
         "tone": "intens",
         "needFit": {
           "ontspannen": 3,
@@ -2865,8 +2865,8 @@
       "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
       "traits": {
         "effort": 3,
-        "emotionalWeight": 3,
-        "tone": "intens",
+        "emotionalWeight": 0,
+        "tone": "zakelijk",
         "needFit": {
           "ontspannen": 1,
           "afleiding": 1,
@@ -2908,11 +2908,11 @@
       "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
       "traits": {
         "effort": 3,
-        "emotionalWeight": 3,
-        "tone": "speels",
+        "emotionalWeight": 2,
+        "tone": "warm",
         "needFit": {
-          "ontspannen": 1,
-          "afleiding": 3,
+          "ontspannen": 2,
+          "afleiding": 2,
           "herkenning": 3,
           "verkennen": 2,
           "verdieping": 3
@@ -2937,10 +2937,10 @@
       "traits": {
         "effort": 3,
         "emotionalWeight": 2,
-        "tone": "speels",
+        "tone": "warm",
         "needFit": {
-          "ontspannen": 1,
-          "afleiding": 3,
+          "ontspannen": 2,
+          "afleiding": 2,
           "herkenning": 3,
           "verkennen": 3,
           "verdieping": 3
@@ -2964,11 +2964,11 @@
       "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
       "traits": {
         "effort": 4,
-        "emotionalWeight": 3,
-        "tone": "speels",
+        "emotionalWeight": 2,
+        "tone": "warm",
         "needFit": {
-          "ontspannen": 1,
-          "afleiding": 3,
+          "ontspannen": 2,
+          "afleiding": 2,
           "herkenning": 3,
           "verkennen": 3,
           "verdieping": 3
@@ -2992,11 +2992,11 @@
       "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
       "traits": {
         "effort": 3,
-        "emotionalWeight": 3,
-        "tone": "intens",
+        "emotionalWeight": 2,
+        "tone": "warm",
         "needFit": {
-          "ontspannen": 1,
-          "afleiding": 1,
+          "ontspannen": 2,
+          "afleiding": 2,
           "herkenning": 3,
           "verkennen": 3,
           "verdieping": 3
@@ -3020,11 +3020,11 @@
       "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
       "traits": {
         "effort": 3,
-        "emotionalWeight": 3,
-        "tone": "intens",
+        "emotionalWeight": 2,
+        "tone": "warm",
         "needFit": {
-          "ontspannen": 1,
-          "afleiding": 1,
+          "ontspannen": 2,
+          "afleiding": 2,
           "herkenning": 3,
           "verkennen": 3,
           "verdieping": 3
@@ -3048,13 +3048,13 @@
       "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
       "traits": {
         "effort": 3,
-        "emotionalWeight": 3,
-        "tone": "intens",
+        "emotionalWeight": 2,
+        "tone": "warm",
         "needFit": {
-          "ontspannen": 1,
-          "afleiding": 1,
+          "ontspannen": 2,
+          "afleiding": 2,
           "herkenning": 3,
-          "verkennen": 3,
+          "verkennen": 2,
           "verdieping": 3
         }
       }
@@ -3076,11 +3076,11 @@
       "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
       "traits": {
         "effort": 3,
-        "emotionalWeight": 3,
-        "tone": "speels",
+        "emotionalWeight": 2,
+        "tone": "warm",
         "needFit": {
-          "ontspannen": 1,
-          "afleiding": 3,
+          "ontspannen": 2,
+          "afleiding": 2,
           "herkenning": 3,
           "verkennen": 3,
           "verdieping": 3
@@ -3119,7 +3119,7 @@
       "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
       "traits": {
         "effort": 3,
-        "emotionalWeight": 3,
+        "emotionalWeight": 2,
         "tone": "speels",
         "needFit": {
           "ontspannen": 1,
@@ -3147,7 +3147,7 @@
       "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
       "traits": {
         "effort": 4,
-        "emotionalWeight": 3,
+        "emotionalWeight": 0,
         "tone": "speels",
         "needFit": {
           "ontspannen": 1,
@@ -3175,8 +3175,8 @@
       "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
       "traits": {
         "effort": 3,
-        "emotionalWeight": 3,
-        "tone": "intens",
+        "emotionalWeight": 2,
+        "tone": "warm",
         "needFit": {
           "ontspannen": 3,
           "afleiding": 3,
@@ -3231,7 +3231,7 @@
       "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
       "traits": {
         "effort": 3,
-        "emotionalWeight": 3,
+        "emotionalWeight": 1,
         "tone": "intens",
         "needFit": {
           "ontspannen": 3,
@@ -3259,13 +3259,13 @@
       "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
       "traits": {
         "effort": 3,
-        "emotionalWeight": 3,
-        "tone": "intens",
+        "emotionalWeight": 2,
+        "tone": "warm",
         "needFit": {
-          "ontspannen": 1,
-          "afleiding": 1,
+          "ontspannen": 2,
+          "afleiding": 2,
           "herkenning": 3,
-          "verkennen": 3,
+          "verkennen": 2,
           "verdieping": 3
         }
       }
@@ -3287,11 +3287,11 @@
       "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
       "traits": {
         "effort": 3,
-        "emotionalWeight": 3,
-        "tone": "intens",
+        "emotionalWeight": 2,
+        "tone": "warm",
         "needFit": {
-          "ontspannen": 1,
-          "afleiding": 1,
+          "ontspannen": 2,
+          "afleiding": 2,
           "herkenning": 3,
           "verkennen": 3,
           "verdieping": 3
@@ -3315,11 +3315,11 @@
       "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
       "traits": {
         "effort": 4,
-        "emotionalWeight": 3,
-        "tone": "intens",
+        "emotionalWeight": 2,
+        "tone": "warm",
         "needFit": {
-          "ontspannen": 1,
-          "afleiding": 1,
+          "ontspannen": 2,
+          "afleiding": 2,
           "herkenning": 3,
           "verkennen": 3,
           "verdieping": 3
@@ -3343,11 +3343,11 @@
       "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
       "traits": {
         "effort": 4,
-        "emotionalWeight": 3,
-        "tone": "intens",
+        "emotionalWeight": 2,
+        "tone": "warm",
         "needFit": {
-          "ontspannen": 1,
-          "afleiding": 1,
+          "ontspannen": 2,
+          "afleiding": 2,
           "herkenning": 3,
           "verkennen": 3,
           "verdieping": 3
@@ -3371,7 +3371,7 @@
       "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
       "traits": {
         "effort": 4,
-        "emotionalWeight": 4,
+        "emotionalWeight": 3,
         "tone": "speels",
         "needFit": {
           "ontspannen": 1,
@@ -3399,7 +3399,7 @@
       "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
       "traits": {
         "effort": 4,
-        "emotionalWeight": 3,
+        "emotionalWeight": 2,
         "tone": "speels",
         "needFit": {
           "ontspannen": 1,
@@ -3427,11 +3427,11 @@
       "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
       "traits": {
         "effort": 3,
-        "emotionalWeight": 3,
-        "tone": "intens",
+        "emotionalWeight": 2,
+        "tone": "warm",
         "needFit": {
-          "ontspannen": 1,
-          "afleiding": 1,
+          "ontspannen": 2,
+          "afleiding": 2,
           "herkenning": 3,
           "verkennen": 3,
           "verdieping": 3
@@ -3470,11 +3470,11 @@
       "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
       "traits": {
         "effort": 3,
-        "emotionalWeight": 3,
-        "tone": "intens",
+        "emotionalWeight": 2,
+        "tone": "warm",
         "needFit": {
-          "ontspannen": 1,
-          "afleiding": 1,
+          "ontspannen": 2,
+          "afleiding": 2,
           "herkenning": 3,
           "verkennen": 3,
           "verdieping": 3
@@ -3498,11 +3498,11 @@
       "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
       "traits": {
         "effort": 4,
-        "emotionalWeight": 3,
-        "tone": "intens",
+        "emotionalWeight": 2,
+        "tone": "warm",
         "needFit": {
-          "ontspannen": 1,
-          "afleiding": 1,
+          "ontspannen": 2,
+          "afleiding": 2,
           "herkenning": 3,
           "verkennen": 3,
           "verdieping": 3
@@ -3527,10 +3527,10 @@
       "traits": {
         "effort": 4,
         "emotionalWeight": 3,
-        "tone": "speels",
+        "tone": "warm",
         "needFit": {
-          "ontspannen": 1,
-          "afleiding": 3,
+          "ontspannen": 2,
+          "afleiding": 2,
           "herkenning": 3,
           "verkennen": 3,
           "verdieping": 3
@@ -3554,7 +3554,7 @@
       "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
       "traits": {
         "effort": 3,
-        "emotionalWeight": 3,
+        "emotionalWeight": 2,
         "tone": "speels",
         "needFit": {
           "ontspannen": 1,
@@ -3582,11 +3582,11 @@
       "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
       "traits": {
         "effort": 3,
-        "emotionalWeight": 3,
-        "tone": "intens",
+        "emotionalWeight": 2,
+        "tone": "warm",
         "needFit": {
-          "ontspannen": 1,
-          "afleiding": 1,
+          "ontspannen": 2,
+          "afleiding": 2,
           "herkenning": 3,
           "verkennen": 3,
           "verdieping": 3
@@ -3611,10 +3611,10 @@
       "traits": {
         "effort": 3,
         "emotionalWeight": 3,
-        "tone": "intens",
+        "tone": "warm",
         "needFit": {
-          "ontspannen": 1,
-          "afleiding": 1,
+          "ontspannen": 2,
+          "afleiding": 2,
           "herkenning": 3,
           "verkennen": 3,
           "verdieping": 3
@@ -3638,11 +3638,11 @@
       "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
       "traits": {
         "effort": 3,
-        "emotionalWeight": 3,
-        "tone": "intens",
+        "emotionalWeight": 2,
+        "tone": "warm",
         "needFit": {
-          "ontspannen": 1,
-          "afleiding": 1,
+          "ontspannen": 2,
+          "afleiding": 2,
           "herkenning": 3,
           "verkennen": 3,
           "verdieping": 3
@@ -3666,8 +3666,8 @@
       "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
       "traits": {
         "effort": 3,
-        "emotionalWeight": 3,
-        "tone": "speels",
+        "emotionalWeight": 2,
+        "tone": "warm",
         "needFit": {
           "ontspannen": 3,
           "afleiding": 3,
@@ -3695,7 +3695,7 @@
       "traits": {
         "effort": 3,
         "emotionalWeight": 3,
-        "tone": "speels",
+        "tone": "zakelijk",
         "needFit": {
           "ontspannen": 3,
           "afleiding": 3,
@@ -3722,7 +3722,7 @@
       "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
       "traits": {
         "effort": 3,
-        "emotionalWeight": 3,
+        "emotionalWeight": 2,
         "tone": "speels",
         "needFit": {
           "ontspannen": 3,
@@ -3751,7 +3751,7 @@
       "traits": {
         "effort": 3,
         "emotionalWeight": 3,
-        "tone": "speels",
+        "tone": "warm",
         "needFit": {
           "ontspannen": 3,
           "afleiding": 3,
@@ -3778,7 +3778,7 @@
       "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
       "traits": {
         "effort": 3,
-        "emotionalWeight": 3,
+        "emotionalWeight": 2,
         "tone": "speels",
         "needFit": {
           "ontspannen": 1,
@@ -3806,11 +3806,11 @@
       "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
       "traits": {
         "effort": 3,
-        "emotionalWeight": 3,
-        "tone": "intens",
+        "emotionalWeight": 2,
+        "tone": "warm",
         "needFit": {
-          "ontspannen": 1,
-          "afleiding": 1,
+          "ontspannen": 2,
+          "afleiding": 2,
           "herkenning": 3,
           "verkennen": 2,
           "verdieping": 3
@@ -3834,7 +3834,7 @@
       "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
       "traits": {
         "effort": 3,
-        "emotionalWeight": 3,
+        "emotionalWeight": 2,
         "tone": "speels",
         "needFit": {
           "ontspannen": 1,
@@ -3862,11 +3862,11 @@
       "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
       "traits": {
         "effort": 3,
-        "emotionalWeight": 3,
-        "tone": "intens",
+        "emotionalWeight": 2,
+        "tone": "warm",
         "needFit": {
-          "ontspannen": 1,
-          "afleiding": 1,
+          "ontspannen": 2,
+          "afleiding": 2,
           "herkenning": 3,
           "verkennen": 3,
           "verdieping": 3
@@ -3890,11 +3890,11 @@
       "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
       "traits": {
         "effort": 3,
-        "emotionalWeight": 3,
-        "tone": "speels",
+        "emotionalWeight": 2,
+        "tone": "warm",
         "needFit": {
-          "ontspannen": 1,
-          "afleiding": 3,
+          "ontspannen": 2,
+          "afleiding": 2,
           "herkenning": 3,
           "verkennen": 2,
           "verdieping": 3
@@ -3918,8 +3918,8 @@
       "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
       "traits": {
         "effort": 3,
-        "emotionalWeight": 3,
-        "tone": "intens",
+        "emotionalWeight": 0,
+        "tone": "zakelijk",
         "needFit": {
           "ontspannen": 1,
           "afleiding": 1,
@@ -3946,11 +3946,11 @@
       "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
       "traits": {
         "effort": 3,
-        "emotionalWeight": 3,
-        "tone": "intens",
+        "emotionalWeight": 2,
+        "tone": "warm",
         "needFit": {
-          "ontspannen": 1,
-          "afleiding": 1,
+          "ontspannen": 2,
+          "afleiding": 2,
           "herkenning": 3,
           "verkennen": 2,
           "verdieping": 3
@@ -3974,7 +3974,7 @@
       "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
       "traits": {
         "effort": 3,
-        "emotionalWeight": 3,
+        "emotionalWeight": 2,
         "tone": "speels",
         "needFit": {
           "ontspannen": 1,
@@ -4002,8 +4002,8 @@
       "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
       "traits": {
         "effort": 3,
-        "emotionalWeight": 3,
-        "tone": "intens",
+        "emotionalWeight": 1,
+        "tone": "zakelijk",
         "needFit": {
           "ontspannen": 1,
           "afleiding": 1,
@@ -4030,8 +4030,8 @@
       "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
       "traits": {
         "effort": 4,
-        "emotionalWeight": 4,
-        "tone": "speels",
+        "emotionalWeight": 1,
+        "tone": "zakelijk",
         "needFit": {
           "ontspannen": 3,
           "afleiding": 3,
@@ -4058,8 +4058,8 @@
       "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
       "traits": {
         "effort": 3,
-        "emotionalWeight": 3,
-        "tone": "speels",
+        "emotionalWeight": 2,
+        "tone": "warm",
         "needFit": {
           "ontspannen": 3,
           "afleiding": 3,
@@ -4114,8 +4114,8 @@
       "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
       "traits": {
         "effort": 3,
-        "emotionalWeight": 3,
-        "tone": "intens",
+        "emotionalWeight": 2,
+        "tone": "warm",
         "needFit": {
           "ontspannen": 3,
           "afleiding": 3,
@@ -4142,13 +4142,13 @@
       "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
       "traits": {
         "effort": 3,
-        "emotionalWeight": 3,
+        "emotionalWeight": 2,
         "tone": "speels",
         "needFit": {
           "ontspannen": 1,
           "afleiding": 3,
           "herkenning": 3,
-          "verkennen": 3,
+          "verkennen": 2,
           "verdieping": 3
         }
       }
@@ -4170,13 +4170,13 @@
       "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
       "traits": {
         "effort": 4,
-        "emotionalWeight": 3,
-        "tone": "intens",
+        "emotionalWeight": 2,
+        "tone": "warm",
         "needFit": {
-          "ontspannen": 1,
-          "afleiding": 1,
+          "ontspannen": 2,
+          "afleiding": 2,
           "herkenning": 3,
-          "verkennen": 3,
+          "verkennen": 2,
           "verdieping": 3
         }
       }
@@ -4198,12 +4198,12 @@
       "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
       "traits": {
         "effort": 3,
-        "emotionalWeight": 3,
-        "tone": "speels",
+        "emotionalWeight": 1,
+        "tone": "intens",
         "needFit": {
           "ontspannen": 1,
-          "afleiding": 3,
-          "herkenning": 3,
+          "afleiding": 1,
+          "herkenning": 1,
           "verkennen": 3,
           "verdieping": 3
         }
@@ -4226,7 +4226,7 @@
       "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
       "traits": {
         "effort": 3,
-        "emotionalWeight": 3,
+        "emotionalWeight": 1,
         "tone": "speels",
         "needFit": {
           "ontspannen": 1,
@@ -4254,11 +4254,11 @@
       "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
       "traits": {
         "effort": 3,
-        "emotionalWeight": 3,
-        "tone": "intens",
+        "emotionalWeight": 2,
+        "tone": "warm",
         "needFit": {
-          "ontspannen": 1,
-          "afleiding": 1,
+          "ontspannen": 2,
+          "afleiding": 2,
           "herkenning": 3,
           "verkennen": 3,
           "verdieping": 3
@@ -4282,13 +4282,13 @@
       "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
       "traits": {
         "effort": 3,
-        "emotionalWeight": 3,
+        "emotionalWeight": 2,
         "tone": "speels",
         "needFit": {
           "ontspannen": 1,
           "afleiding": 3,
           "herkenning": 3,
-          "verkennen": 3,
+          "verkennen": 2,
           "verdieping": 3
         }
       }
@@ -4310,11 +4310,11 @@
       "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
       "traits": {
         "effort": 4,
-        "emotionalWeight": 4,
-        "tone": "speels",
+        "emotionalWeight": 3,
+        "tone": "zakelijk",
         "needFit": {
           "ontspannen": 1,
-          "afleiding": 3,
+          "afleiding": 1,
           "herkenning": 3,
           "verkennen": 3,
           "verdieping": 3
@@ -4338,11 +4338,11 @@
       "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
       "traits": {
         "effort": 4,
-        "emotionalWeight": 3,
-        "tone": "speels",
+        "emotionalWeight": 2,
+        "tone": "warm",
         "needFit": {
-          "ontspannen": 1,
-          "afleiding": 3,
+          "ontspannen": 2,
+          "afleiding": 2,
           "herkenning": 3,
           "verkennen": 3,
           "verdieping": 3
@@ -4366,11 +4366,11 @@
       "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
       "traits": {
         "effort": 3,
-        "emotionalWeight": 3,
-        "tone": "intens",
+        "emotionalWeight": 2,
+        "tone": "warm",
         "needFit": {
-          "ontspannen": 1,
-          "afleiding": 1,
+          "ontspannen": 2,
+          "afleiding": 2,
           "herkenning": 3,
           "verkennen": 2,
           "verdieping": 3
@@ -4394,8 +4394,8 @@
       "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
       "traits": {
         "effort": 4,
-        "emotionalWeight": 3,
-        "tone": "intens",
+        "emotionalWeight": 1,
+        "tone": "zakelijk",
         "needFit": {
           "ontspannen": 1,
           "afleiding": 1,
@@ -4422,13 +4422,13 @@
       "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
       "traits": {
         "effort": 4,
-        "emotionalWeight": 3,
-        "tone": "speels",
+        "emotionalWeight": 1,
+        "tone": "zakelijk",
         "needFit": {
-          "ontspannen": 3,
-          "afleiding": 3,
+          "ontspannen": 1,
+          "afleiding": 1,
           "herkenning": 3,
-          "verkennen": 3,
+          "verkennen": 2,
           "verdieping": 3
         }
       }
@@ -4451,10 +4451,10 @@
       "traits": {
         "effort": 4,
         "emotionalWeight": 3,
-        "tone": "intens",
+        "tone": "warm",
         "needFit": {
-          "ontspannen": 1,
-          "afleiding": 1,
+          "ontspannen": 2,
+          "afleiding": 2,
           "herkenning": 3,
           "verkennen": 3,
           "verdieping": 3
@@ -4477,15 +4477,15 @@
       ],
       "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
       "traits": {
-        "effort": 4,
-        "emotionalWeight": 3,
+        "effort": 1,
+        "emotionalWeight": 2,
         "tone": "speels",
         "needFit": {
           "ontspannen": 3,
           "afleiding": 3,
           "herkenning": 3,
           "verkennen": 3,
-          "verdieping": 3
+          "verdieping": 1
         }
       }
     },
@@ -4534,8 +4534,8 @@
       "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
       "traits": {
         "effort": 3,
-        "emotionalWeight": 3,
-        "tone": "intens",
+        "emotionalWeight": 2,
+        "tone": "warm",
         "needFit": {
           "ontspannen": 3,
           "afleiding": 3,
@@ -4562,7 +4562,7 @@
       "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
       "traits": {
         "effort": 3,
-        "emotionalWeight": 3,
+        "emotionalWeight": 2,
         "tone": "speels",
         "needFit": {
           "ontspannen": 3,
@@ -4618,8 +4618,8 @@
       "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
       "traits": {
         "effort": 4,
-        "emotionalWeight": 3,
-        "tone": "intens",
+        "emotionalWeight": 2,
+        "tone": "warm",
         "needFit": {
           "ontspannen": 3,
           "afleiding": 3,
@@ -4646,11 +4646,11 @@
       "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
       "traits": {
         "effort": 4,
-        "emotionalWeight": 3,
-        "tone": "speels",
+        "emotionalWeight": 2,
+        "tone": "warm",
         "needFit": {
-          "ontspannen": 1,
-          "afleiding": 3,
+          "ontspannen": 2,
+          "afleiding": 2,
           "herkenning": 3,
           "verkennen": 3,
           "verdieping": 3
@@ -4674,11 +4674,11 @@
       "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
       "traits": {
         "effort": 3,
-        "emotionalWeight": 3,
-        "tone": "intens",
+        "emotionalWeight": 2,
+        "tone": "warm",
         "needFit": {
-          "ontspannen": 1,
-          "afleiding": 1,
+          "ontspannen": 2,
+          "afleiding": 2,
           "herkenning": 3,
           "verkennen": 2,
           "verdieping": 3
@@ -4702,12 +4702,12 @@
       "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
       "traits": {
         "effort": 4,
-        "emotionalWeight": 3,
+        "emotionalWeight": 1,
         "tone": "speels",
         "needFit": {
           "ontspannen": 3,
           "afleiding": 3,
-          "herkenning": 3,
+          "herkenning": 1,
           "verkennen": 3,
           "verdieping": 3
         }
@@ -4730,13 +4730,13 @@
       "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
       "traits": {
         "effort": 4,
-        "emotionalWeight": 3,
-        "tone": "intens",
+        "emotionalWeight": 0,
+        "tone": "zakelijk",
         "needFit": {
           "ontspannen": 1,
           "afleiding": 1,
           "herkenning": 3,
-          "verkennen": 3,
+          "verkennen": 2,
           "verdieping": 3
         }
       }
@@ -4758,11 +4758,11 @@
       "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
       "traits": {
         "effort": 4,
-        "emotionalWeight": 3,
-        "tone": "intens",
+        "emotionalWeight": 2,
+        "tone": "warm",
         "needFit": {
-          "ontspannen": 1,
-          "afleiding": 1,
+          "ontspannen": 2,
+          "afleiding": 2,
           "herkenning": 3,
           "verkennen": 3,
           "verdieping": 3
@@ -4786,8 +4786,8 @@
       "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
       "traits": {
         "effort": 4,
-        "emotionalWeight": 3,
-        "tone": "intens",
+        "emotionalWeight": 1,
+        "tone": "zakelijk",
         "needFit": {
           "ontspannen": 1,
           "afleiding": 1,
@@ -4814,11 +4814,11 @@
       "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
       "traits": {
         "effort": 3,
-        "emotionalWeight": 3,
-        "tone": "intens",
+        "emotionalWeight": 2,
+        "tone": "warm",
         "needFit": {
-          "ontspannen": 1,
-          "afleiding": 1,
+          "ontspannen": 2,
+          "afleiding": 2,
           "herkenning": 3,
           "verkennen": 3,
           "verdieping": 3
@@ -4842,11 +4842,11 @@
       "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
       "traits": {
         "effort": 4,
-        "emotionalWeight": 3,
-        "tone": "speels",
+        "emotionalWeight": 1,
+        "tone": "zakelijk",
         "needFit": {
           "ontspannen": 1,
-          "afleiding": 3,
+          "afleiding": 1,
           "herkenning": 3,
           "verkennen": 2,
           "verdieping": 3
@@ -4870,8 +4870,8 @@
       "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
       "traits": {
         "effort": 4,
-        "emotionalWeight": 3,
-        "tone": "intens",
+        "emotionalWeight": 1,
+        "tone": "zakelijk",
         "needFit": {
           "ontspannen": 1,
           "afleiding": 1,
@@ -4898,8 +4898,8 @@
       "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
       "traits": {
         "effort": 4,
-        "emotionalWeight": 3,
-        "tone": "intens",
+        "emotionalWeight": 1,
+        "tone": "zakelijk",
         "needFit": {
           "ontspannen": 1,
           "afleiding": 1,
@@ -4926,11 +4926,11 @@
       "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
       "traits": {
         "effort": 3,
-        "emotionalWeight": 3,
-        "tone": "intens",
+        "emotionalWeight": 2,
+        "tone": "warm",
         "needFit": {
-          "ontspannen": 1,
-          "afleiding": 1,
+          "ontspannen": 2,
+          "afleiding": 2,
           "herkenning": 3,
           "verkennen": 2,
           "verdieping": 3
@@ -4954,11 +4954,11 @@
       "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
       "traits": {
         "effort": 4,
-        "emotionalWeight": 3,
-        "tone": "speels",
+        "emotionalWeight": 2,
+        "tone": "warm",
         "needFit": {
-          "ontspannen": 1,
-          "afleiding": 3,
+          "ontspannen": 2,
+          "afleiding": 2,
           "herkenning": 3,
           "verkennen": 3,
           "verdieping": 3
@@ -4982,11 +4982,11 @@
       "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
       "traits": {
         "effort": 3,
-        "emotionalWeight": 3,
-        "tone": "speels",
+        "emotionalWeight": 2,
+        "tone": "warm",
         "needFit": {
-          "ontspannen": 3,
-          "afleiding": 3,
+          "ontspannen": 2,
+          "afleiding": 2,
           "herkenning": 3,
           "verkennen": 3,
           "verdieping": 3
@@ -5010,12 +5010,12 @@
       "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
       "traits": {
         "effort": 4,
-        "emotionalWeight": 3,
+        "emotionalWeight": 0,
         "tone": "speels",
         "needFit": {
           "ontspannen": 1,
           "afleiding": 3,
-          "herkenning": 3,
+          "herkenning": 1,
           "verkennen": 3,
           "verdieping": 3
         }
@@ -5039,10 +5039,10 @@
       "traits": {
         "effort": 3,
         "emotionalWeight": 2,
-        "tone": "speels",
+        "tone": "warm",
         "needFit": {
-          "ontspannen": 1,
-          "afleiding": 3,
+          "ontspannen": 2,
+          "afleiding": 2,
           "herkenning": 3,
           "verkennen": 3,
           "verdieping": 3
@@ -5066,12 +5066,12 @@
       "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
       "traits": {
         "effort": 3,
-        "emotionalWeight": 2,
-        "tone": "warm",
+        "emotionalWeight": 0,
+        "tone": "zakelijk",
         "needFit": {
-          "ontspannen": 2,
-          "afleiding": 2,
-          "herkenning": 3,
+          "ontspannen": 1,
+          "afleiding": 1,
+          "herkenning": 1,
           "verkennen": 3,
           "verdieping": 3
         }
@@ -5094,7 +5094,7 @@
       "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
       "traits": {
         "effort": 4,
-        "emotionalWeight": 3,
+        "emotionalWeight": 2,
         "tone": "speels",
         "needFit": {
           "ontspannen": 1,
@@ -5122,11 +5122,11 @@
       "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
       "traits": {
         "effort": 3,
-        "emotionalWeight": 3,
-        "tone": "speels",
+        "emotionalWeight": 2,
+        "tone": "warm",
         "needFit": {
-          "ontspannen": 1,
-          "afleiding": 3,
+          "ontspannen": 2,
+          "afleiding": 2,
           "herkenning": 3,
           "verkennen": 3,
           "verdieping": 3
@@ -5178,13 +5178,13 @@
       "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
       "traits": {
         "effort": 4,
-        "emotionalWeight": 3,
+        "emotionalWeight": 2,
         "tone": "speels",
         "needFit": {
           "ontspannen": 1,
           "afleiding": 3,
           "herkenning": 3,
-          "verkennen": 3,
+          "verkennen": 2,
           "verdieping": 3
         }
       }
@@ -5234,8 +5234,8 @@
       "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
       "traits": {
         "effort": 3,
-        "emotionalWeight": 3,
-        "tone": "intens",
+        "emotionalWeight": 1,
+        "tone": "zakelijk",
         "needFit": {
           "ontspannen": 1,
           "afleiding": 1,
@@ -5290,12 +5290,12 @@
       "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
       "traits": {
         "effort": 3,
-        "emotionalWeight": 3,
-        "tone": "intens",
+        "emotionalWeight": 1,
+        "tone": "zakelijk",
         "needFit": {
           "ontspannen": 1,
           "afleiding": 1,
-          "herkenning": 3,
+          "herkenning": 1,
           "verkennen": 3,
           "verdieping": 3
         }
@@ -5318,12 +5318,12 @@
       "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
       "traits": {
         "effort": 3,
-        "emotionalWeight": 3,
+        "emotionalWeight": 0,
         "tone": "speels",
         "needFit": {
           "ontspannen": 1,
           "afleiding": 3,
-          "herkenning": 3,
+          "herkenning": 1,
           "verkennen": 3,
           "verdieping": 3
         }
@@ -5389,8 +5389,8 @@
       "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
       "traits": {
         "effort": 3,
-        "emotionalWeight": 3,
-        "tone": "intens",
+        "emotionalWeight": 1,
+        "tone": "zakelijk",
         "needFit": {
           "ontspannen": 3,
           "afleiding": 3,
@@ -5502,12 +5502,12 @@
       "traits": {
         "effort": 3,
         "emotionalWeight": 3,
-        "tone": "intens",
+        "tone": "warm",
         "needFit": {
-          "ontspannen": 1,
-          "afleiding": 1,
+          "ontspannen": 2,
+          "afleiding": 2,
           "herkenning": 3,
-          "verkennen": 3,
+          "verkennen": 2,
           "verdieping": 3
         }
       }
@@ -5557,7 +5557,7 @@
       "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
       "traits": {
         "effort": 3,
-        "emotionalWeight": 3,
+        "emotionalWeight": 2,
         "tone": "speels",
         "needFit": {
           "ontspannen": 1,
@@ -5584,15 +5584,15 @@
       ],
       "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
       "traits": {
-        "effort": 4,
+        "effort": 1,
         "emotionalWeight": 3,
-        "tone": "speels",
+        "tone": "warm",
         "needFit": {
           "ontspannen": 3,
           "afleiding": 3,
           "herkenning": 3,
           "verkennen": 3,
-          "verdieping": 3
+          "verdieping": 1
         }
       }
     },
@@ -5613,11 +5613,11 @@
       "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
       "traits": {
         "effort": 3,
-        "emotionalWeight": 3,
-        "tone": "speels",
+        "emotionalWeight": 2,
+        "tone": "warm",
         "needFit": {
-          "ontspannen": 3,
-          "afleiding": 3,
+          "ontspannen": 2,
+          "afleiding": 2,
           "herkenning": 3,
           "verkennen": 3,
           "verdieping": 3
@@ -5669,8 +5669,8 @@
       "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
       "traits": {
         "effort": 3,
-        "emotionalWeight": 3,
-        "tone": "intens",
+        "emotionalWeight": 2,
+        "tone": "warm",
         "needFit": {
           "ontspannen": 3,
           "afleiding": 3,
@@ -5697,11 +5697,11 @@
       "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
       "traits": {
         "effort": 3,
-        "emotionalWeight": 3,
-        "tone": "intens",
+        "emotionalWeight": 2,
+        "tone": "warm",
         "needFit": {
-          "ontspannen": 1,
-          "afleiding": 1,
+          "ontspannen": 2,
+          "afleiding": 2,
           "herkenning": 3,
           "verkennen": 3,
           "verdieping": 3
@@ -5752,8 +5752,8 @@
       ],
       "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
       "traits": {
-        "effort": 4,
-        "emotionalWeight": 3,
+        "effort": 3,
+        "emotionalWeight": 2,
         "tone": "speels",
         "needFit": {
           "ontspannen": 1,
@@ -5781,11 +5781,11 @@
       "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
       "traits": {
         "effort": 4,
-        "emotionalWeight": 3,
-        "tone": "speels",
+        "emotionalWeight": 2,
+        "tone": "warm",
         "needFit": {
-          "ontspannen": 1,
-          "afleiding": 3,
+          "ontspannen": 2,
+          "afleiding": 2,
           "herkenning": 3,
           "verkennen": 3,
           "verdieping": 3
@@ -5810,10 +5810,10 @@
       "traits": {
         "effort": 3,
         "emotionalWeight": 2,
-        "tone": "speels",
+        "tone": "warm",
         "needFit": {
-          "ontspannen": 1,
-          "afleiding": 3,
+          "ontspannen": 2,
+          "afleiding": 2,
           "herkenning": 3,
           "verkennen": 3,
           "verdieping": 3
@@ -5836,15 +5836,15 @@
       ],
       "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
       "traits": {
-        "effort": 3,
-        "emotionalWeight": 3,
-        "tone": "intens",
+        "effort": 2,
+        "emotionalWeight": 2,
+        "tone": "warm",
         "needFit": {
-          "ontspannen": 1,
-          "afleiding": 1,
+          "ontspannen": 2,
+          "afleiding": 2,
           "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
+          "verkennen": 2,
+          "verdieping": 2
         }
       }
     },
@@ -5865,7 +5865,7 @@
       "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
       "traits": {
         "effort": 4,
-        "emotionalWeight": 3,
+        "emotionalWeight": 2,
         "tone": "speels",
         "needFit": {
           "ontspannen": 1,
@@ -5908,11 +5908,11 @@
       "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
       "traits": {
         "effort": 3,
-        "emotionalWeight": 3,
-        "tone": "speels",
+        "emotionalWeight": 0,
+        "tone": "zakelijk",
         "needFit": {
           "ontspannen": 1,
-          "afleiding": 3,
+          "afleiding": 1,
           "herkenning": 3,
           "verkennen": 3,
           "verdieping": 3
@@ -5936,7 +5936,7 @@
       "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
       "traits": {
         "effort": 3,
-        "emotionalWeight": 3,
+        "emotionalWeight": 2,
         "tone": "speels",
         "needFit": {
           "ontspannen": 1,
@@ -5964,11 +5964,11 @@
       "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
       "traits": {
         "effort": 4,
-        "emotionalWeight": 3,
-        "tone": "intens",
+        "emotionalWeight": 2,
+        "tone": "warm",
         "needFit": {
-          "ontspannen": 1,
-          "afleiding": 1,
+          "ontspannen": 2,
+          "afleiding": 2,
           "herkenning": 3,
           "verkennen": 3,
           "verdieping": 3
@@ -6007,8 +6007,8 @@
       "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
       "traits": {
         "effort": 3,
-        "emotionalWeight": 3,
-        "tone": "speels",
+        "emotionalWeight": 2,
+        "tone": "warm",
         "needFit": {
           "ontspannen": 3,
           "afleiding": 3,
@@ -6035,7 +6035,7 @@
       "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
       "traits": {
         "effort": 3,
-        "emotionalWeight": 3,
+        "emotionalWeight": 1,
         "tone": "speels",
         "needFit": {
           "ontspannen": 1,
@@ -6063,11 +6063,11 @@
       "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
       "traits": {
         "effort": 3,
-        "emotionalWeight": 3,
-        "tone": "intens",
+        "emotionalWeight": 2,
+        "tone": "warm",
         "needFit": {
-          "ontspannen": 1,
-          "afleiding": 1,
+          "ontspannen": 2,
+          "afleiding": 2,
           "herkenning": 3,
           "verkennen": 3,
           "verdieping": 3
@@ -6091,11 +6091,11 @@
       "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
       "traits": {
         "effort": 3,
-        "emotionalWeight": 3,
-        "tone": "speels",
+        "emotionalWeight": 2,
+        "tone": "warm",
         "needFit": {
-          "ontspannen": 1,
-          "afleiding": 3,
+          "ontspannen": 2,
+          "afleiding": 2,
           "herkenning": 3,
           "verkennen": 3,
           "verdieping": 3
@@ -6119,7 +6119,7 @@
       "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
       "traits": {
         "effort": 3,
-        "emotionalWeight": 3,
+        "emotionalWeight": 2,
         "tone": "speels",
         "needFit": {
           "ontspannen": 1,
@@ -6147,7 +6147,7 @@
       "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
       "traits": {
         "effort": 4,
-        "emotionalWeight": 3,
+        "emotionalWeight": 1,
         "tone": "speels",
         "needFit": {
           "ontspannen": 1,
@@ -6175,13 +6175,13 @@
       "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
       "traits": {
         "effort": 4,
-        "emotionalWeight": 3,
+        "emotionalWeight": 2,
         "tone": "speels",
         "needFit": {
           "ontspannen": 1,
           "afleiding": 3,
           "herkenning": 3,
-          "verkennen": 3,
+          "verkennen": 2,
           "verdieping": 3
         }
       }
@@ -6203,10 +6203,10 @@
       "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
       "traits": {
         "effort": 4,
-        "emotionalWeight": 3,
+        "emotionalWeight": 2,
         "tone": "speels",
         "needFit": {
-          "ontspannen": 3,
+          "ontspannen": 1,
           "afleiding": 3,
           "herkenning": 3,
           "verkennen": 3,
@@ -6231,7 +6231,7 @@
       "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
       "traits": {
         "effort": 4,
-        "emotionalWeight": 3,
+        "emotionalWeight": 2,
         "tone": "speels",
         "needFit": {
           "ontspannen": 1,
@@ -6258,12 +6258,12 @@
       ],
       "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
       "traits": {
-        "effort": 4,
+        "effort": 3,
         "emotionalWeight": 3,
-        "tone": "speels",
+        "tone": "warm",
         "needFit": {
-          "ontspannen": 1,
-          "afleiding": 3,
+          "ontspannen": 2,
+          "afleiding": 2,
           "herkenning": 3,
           "verkennen": 3,
           "verdieping": 3
@@ -6287,7 +6287,7 @@
       "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
       "traits": {
         "effort": 3,
-        "emotionalWeight": 3,
+        "emotionalWeight": 2,
         "tone": "speels",
         "needFit": {
           "ontspannen": 1,
@@ -6315,8 +6315,8 @@
       "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
       "traits": {
         "effort": 3,
-        "emotionalWeight": 3,
-        "tone": "intens",
+        "emotionalWeight": 0,
+        "tone": "zakelijk",
         "needFit": {
           "ontspannen": 1,
           "afleiding": 1,
@@ -6343,7 +6343,7 @@
       "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
       "traits": {
         "effort": 4,
-        "emotionalWeight": 3,
+        "emotionalWeight": 2,
         "tone": "speels",
         "needFit": {
           "ontspannen": 3,
@@ -6371,7 +6371,7 @@
       "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
       "traits": {
         "effort": 3,
-        "emotionalWeight": 3,
+        "emotionalWeight": 2,
         "tone": "speels",
         "needFit": {
           "ontspannen": 1,
@@ -6399,13 +6399,13 @@
       "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
       "traits": {
         "effort": 4,
-        "emotionalWeight": 3,
-        "tone": "intens",
+        "emotionalWeight": 0,
+        "tone": "zakelijk",
         "needFit": {
           "ontspannen": 1,
           "afleiding": 1,
           "herkenning": 3,
-          "verkennen": 3,
+          "verkennen": 2,
           "verdieping": 3
         }
       }
@@ -6427,7 +6427,7 @@
       "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
       "traits": {
         "effort": 3,
-        "emotionalWeight": 3,
+        "emotionalWeight": 2,
         "tone": "speels",
         "needFit": {
           "ontspannen": 1,
@@ -6455,7 +6455,7 @@
       "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
       "traits": {
         "effort": 3,
-        "emotionalWeight": 3,
+        "emotionalWeight": 1,
         "tone": "speels",
         "needFit": {
           "ontspannen": 1,
@@ -6483,11 +6483,11 @@
       "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
       "traits": {
         "effort": 3,
-        "emotionalWeight": 3,
-        "tone": "speels",
+        "emotionalWeight": 1,
+        "tone": "zakelijk",
         "needFit": {
           "ontspannen": 1,
-          "afleiding": 3,
+          "afleiding": 1,
           "herkenning": 3,
           "verkennen": 3,
           "verdieping": 3
@@ -6511,8 +6511,8 @@
       "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
       "traits": {
         "effort": 3,
-        "emotionalWeight": 3,
-        "tone": "intens",
+        "emotionalWeight": 0,
+        "tone": "zakelijk",
         "needFit": {
           "ontspannen": 1,
           "afleiding": 1,
@@ -6539,13 +6539,13 @@
       "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
       "traits": {
         "effort": 3,
-        "emotionalWeight": 3,
+        "emotionalWeight": 2,
         "tone": "speels",
         "needFit": {
           "ontspannen": 1,
           "afleiding": 3,
           "herkenning": 3,
-          "verkennen": 3,
+          "verkennen": 2,
           "verdieping": 3
         }
       }
@@ -6679,11 +6679,11 @@
       "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
       "traits": {
         "effort": 3,
-        "emotionalWeight": 3,
-        "tone": "speels",
+        "emotionalWeight": 2,
+        "tone": "warm",
         "needFit": {
-          "ontspannen": 1,
-          "afleiding": 3,
+          "ontspannen": 2,
+          "afleiding": 2,
           "herkenning": 3,
           "verkennen": 3,
           "verdieping": 3
@@ -6707,11 +6707,11 @@
       "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
       "traits": {
         "effort": 3,
-        "emotionalWeight": 3,
-        "tone": "intens",
+        "emotionalWeight": 2,
+        "tone": "warm",
         "needFit": {
-          "ontspannen": 1,
-          "afleiding": 1,
+          "ontspannen": 2,
+          "afleiding": 2,
           "herkenning": 3,
           "verkennen": 2,
           "verdieping": 3
@@ -6735,11 +6735,11 @@
       "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
       "traits": {
         "effort": 3,
-        "emotionalWeight": 3,
-        "tone": "intens",
+        "emotionalWeight": 2,
+        "tone": "warm",
         "needFit": {
-          "ontspannen": 1,
-          "afleiding": 1,
+          "ontspannen": 2,
+          "afleiding": 2,
           "herkenning": 3,
           "verkennen": 2,
           "verdieping": 3
@@ -6763,11 +6763,11 @@
       "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
       "traits": {
         "effort": 3,
-        "emotionalWeight": 3,
-        "tone": "intens",
+        "emotionalWeight": 2,
+        "tone": "warm",
         "needFit": {
-          "ontspannen": 1,
-          "afleiding": 1,
+          "ontspannen": 2,
+          "afleiding": 2,
           "herkenning": 3,
           "verkennen": 2,
           "verdieping": 3
@@ -6819,8 +6819,8 @@
       "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
       "traits": {
         "effort": 3,
-        "emotionalWeight": 3,
-        "tone": "intens",
+        "emotionalWeight": 1,
+        "tone": "zakelijk",
         "needFit": {
           "ontspannen": 1,
           "afleiding": 1,
@@ -6875,7 +6875,7 @@
       "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
       "traits": {
         "effort": 3,
-        "emotionalWeight": 3,
+        "emotionalWeight": 2,
         "tone": "speels",
         "needFit": {
           "ontspannen": 1,
@@ -6903,8 +6903,8 @@
       "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
       "traits": {
         "effort": 3,
-        "emotionalWeight": 3,
-        "tone": "intens",
+        "emotionalWeight": 1,
+        "tone": "zakelijk",
         "needFit": {
           "ontspannen": 1,
           "afleiding": 1,
@@ -6931,13 +6931,13 @@
       "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
       "traits": {
         "effort": 3,
-        "emotionalWeight": 3,
-        "tone": "speels",
+        "emotionalWeight": 2,
+        "tone": "warm",
         "needFit": {
-          "ontspannen": 3,
-          "afleiding": 3,
+          "ontspannen": 2,
+          "afleiding": 2,
           "herkenning": 3,
-          "verkennen": 3,
+          "verkennen": 2,
           "verdieping": 3
         }
       }
@@ -6959,7 +6959,7 @@
       "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
       "traits": {
         "effort": 3,
-        "emotionalWeight": 3,
+        "emotionalWeight": 2,
         "tone": "speels",
         "needFit": {
           "ontspannen": 1,
@@ -6987,8 +6987,8 @@
       "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
       "traits": {
         "effort": 3,
-        "emotionalWeight": 3,
-        "tone": "intens",
+        "emotionalWeight": 0,
+        "tone": "zakelijk",
         "needFit": {
           "ontspannen": 1,
           "afleiding": 1,
@@ -7015,7 +7015,7 @@
       "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
       "traits": {
         "effort": 3,
-        "emotionalWeight": 3,
+        "emotionalWeight": 1,
         "tone": "zakelijk",
         "needFit": {
           "ontspannen": 1,
@@ -7071,8 +7071,8 @@
       "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
       "traits": {
         "effort": 3,
-        "emotionalWeight": 3,
-        "tone": "intens",
+        "emotionalWeight": 1,
+        "tone": "zakelijk",
         "needFit": {
           "ontspannen": 1,
           "afleiding": 1,
@@ -7099,11 +7099,11 @@
       "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
       "traits": {
         "effort": 3,
-        "emotionalWeight": 3,
-        "tone": "speels",
+        "emotionalWeight": 1,
+        "tone": "zakelijk",
         "needFit": {
           "ontspannen": 1,
-          "afleiding": 3,
+          "afleiding": 1,
           "herkenning": 3,
           "verkennen": 2,
           "verdieping": 3
@@ -7127,8 +7127,8 @@
       "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
       "traits": {
         "effort": 3,
-        "emotionalWeight": 3,
-        "tone": "intens",
+        "emotionalWeight": 0,
+        "tone": "zakelijk",
         "needFit": {
           "ontspannen": 1,
           "afleiding": 1,
@@ -7155,7 +7155,7 @@
       "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
       "traits": {
         "effort": 3,
-        "emotionalWeight": 3,
+        "emotionalWeight": 1,
         "tone": "speels",
         "needFit": {
           "ontspannen": 1,
@@ -7183,8 +7183,8 @@
       "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
       "traits": {
         "effort": 3,
-        "emotionalWeight": 3,
-        "tone": "intens",
+        "emotionalWeight": 0,
+        "tone": "zakelijk",
         "needFit": {
           "ontspannen": 1,
           "afleiding": 1,
@@ -7211,11 +7211,11 @@
       "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
       "traits": {
         "effort": 3,
-        "emotionalWeight": 3,
-        "tone": "speels",
+        "emotionalWeight": 2,
+        "tone": "warm",
         "needFit": {
-          "ontspannen": 1,
-          "afleiding": 3,
+          "ontspannen": 2,
+          "afleiding": 2,
           "herkenning": 3,
           "verkennen": 2,
           "verdieping": 3
@@ -7239,7 +7239,7 @@
       "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
       "traits": {
         "effort": 3,
-        "emotionalWeight": 3,
+        "emotionalWeight": 2,
         "tone": "intens",
         "needFit": {
           "ontspannen": 1,
@@ -7267,8 +7267,8 @@
       "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
       "traits": {
         "effort": 3,
-        "emotionalWeight": 3,
-        "tone": "intens",
+        "emotionalWeight": 0,
+        "tone": "zakelijk",
         "needFit": {
           "ontspannen": 1,
           "afleiding": 1,
@@ -7295,11 +7295,11 @@
       "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
       "traits": {
         "effort": 3,
-        "emotionalWeight": 3,
-        "tone": "intens",
+        "emotionalWeight": 2,
+        "tone": "warm",
         "needFit": {
-          "ontspannen": 1,
-          "afleiding": 1,
+          "ontspannen": 2,
+          "afleiding": 2,
           "herkenning": 3,
           "verkennen": 2,
           "verdieping": 3
@@ -7323,11 +7323,11 @@
       "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
       "traits": {
         "effort": 3,
-        "emotionalWeight": 3,
-        "tone": "intens",
+        "emotionalWeight": 2,
+        "tone": "warm",
         "needFit": {
-          "ontspannen": 1,
-          "afleiding": 1,
+          "ontspannen": 2,
+          "afleiding": 2,
           "herkenning": 3,
           "verkennen": 2,
           "verdieping": 3
@@ -7351,8 +7351,8 @@
       "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
       "traits": {
         "effort": 3,
-        "emotionalWeight": 3,
-        "tone": "intens",
+        "emotionalWeight": 0,
+        "tone": "zakelijk",
         "needFit": {
           "ontspannen": 1,
           "afleiding": 1,
@@ -7379,13 +7379,13 @@
       "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
       "traits": {
         "effort": 3,
-        "emotionalWeight": 3,
+        "emotionalWeight": 2,
         "tone": "speels",
         "needFit": {
           "ontspannen": 1,
           "afleiding": 3,
           "herkenning": 3,
-          "verkennen": 3,
+          "verkennen": 2,
           "verdieping": 3
         }
       }
@@ -7408,12 +7408,12 @@
       "traits": {
         "effort": 4,
         "emotionalWeight": 3,
-        "tone": "speels",
+        "tone": "zakelijk",
         "needFit": {
           "ontspannen": 1,
-          "afleiding": 3,
+          "afleiding": 1,
           "herkenning": 3,
-          "verkennen": 3,
+          "verkennen": 2,
           "verdieping": 3
         }
       }
@@ -7435,13 +7435,13 @@
       "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
       "traits": {
         "effort": 3,
-        "emotionalWeight": 3,
-        "tone": "speels",
+        "emotionalWeight": 1,
+        "tone": "zakelijk",
         "needFit": {
           "ontspannen": 1,
-          "afleiding": 3,
+          "afleiding": 1,
           "herkenning": 3,
-          "verkennen": 3,
+          "verkennen": 2,
           "verdieping": 3
         }
       }
@@ -7464,7 +7464,7 @@
       "traits": {
         "effort": 4,
         "emotionalWeight": 3,
-        "tone": "intens",
+        "tone": "zakelijk",
         "needFit": {
           "ontspannen": 1,
           "afleiding": 1,
@@ -7491,8 +7491,8 @@
       "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
       "traits": {
         "effort": 3,
-        "emotionalWeight": 3,
-        "tone": "intens",
+        "emotionalWeight": 0,
+        "tone": "zakelijk",
         "needFit": {
           "ontspannen": 1,
           "afleiding": 1,
@@ -7547,8 +7547,8 @@
       "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
       "traits": {
         "effort": 3,
-        "emotionalWeight": 3,
-        "tone": "intens",
+        "emotionalWeight": 0,
+        "tone": "zakelijk",
         "needFit": {
           "ontspannen": 1,
           "afleiding": 1,
@@ -7575,11 +7575,11 @@
       "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
       "traits": {
         "effort": 3,
-        "emotionalWeight": 3,
-        "tone": "speels",
+        "emotionalWeight": 1,
+        "tone": "zakelijk",
         "needFit": {
           "ontspannen": 1,
-          "afleiding": 3,
+          "afleiding": 1,
           "herkenning": 3,
           "verkennen": 3,
           "verdieping": 3
@@ -7603,11 +7603,11 @@
       "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
       "traits": {
         "effort": 3,
-        "emotionalWeight": 3,
-        "tone": "intens",
+        "emotionalWeight": 2,
+        "tone": "warm",
         "needFit": {
-          "ontspannen": 1,
-          "afleiding": 1,
+          "ontspannen": 2,
+          "afleiding": 2,
           "herkenning": 3,
           "verkennen": 3,
           "verdieping": 3
@@ -7631,11 +7631,11 @@
       "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
       "traits": {
         "effort": 3,
-        "emotionalWeight": 3,
-        "tone": "speels",
+        "emotionalWeight": 1,
+        "tone": "zakelijk",
         "needFit": {
           "ontspannen": 1,
-          "afleiding": 3,
+          "afleiding": 1,
           "herkenning": 3,
           "verkennen": 3,
           "verdieping": 3
@@ -7659,13 +7659,13 @@
       "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
       "traits": {
         "effort": 3,
-        "emotionalWeight": 3,
-        "tone": "intens",
+        "emotionalWeight": 2,
+        "tone": "warm",
         "needFit": {
-          "ontspannen": 1,
-          "afleiding": 1,
+          "ontspannen": 2,
+          "afleiding": 2,
           "herkenning": 3,
-          "verkennen": 3,
+          "verkennen": 2,
           "verdieping": 3
         }
       }
@@ -7687,11 +7687,11 @@
       "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
       "traits": {
         "effort": 3,
-        "emotionalWeight": 3,
-        "tone": "intens",
+        "emotionalWeight": 2,
+        "tone": "warm",
         "needFit": {
-          "ontspannen": 1,
-          "afleiding": 1,
+          "ontspannen": 2,
+          "afleiding": 2,
           "herkenning": 3,
           "verkennen": 3,
           "verdieping": 3
@@ -7715,8 +7715,8 @@
       "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
       "traits": {
         "effort": 3,
-        "emotionalWeight": 3,
-        "tone": "intens",
+        "emotionalWeight": 0,
+        "tone": "zakelijk",
         "needFit": {
           "ontspannen": 1,
           "afleiding": 1,
@@ -7743,13 +7743,13 @@
       "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
       "traits": {
         "effort": 3,
-        "emotionalWeight": 3,
-        "tone": "intens",
+        "emotionalWeight": 1,
+        "tone": "zakelijk",
         "needFit": {
           "ontspannen": 1,
           "afleiding": 1,
           "herkenning": 3,
-          "verkennen": 3,
+          "verkennen": 2,
           "verdieping": 3
         }
       }
@@ -7771,13 +7771,13 @@
       "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
       "traits": {
         "effort": 3,
-        "emotionalWeight": 3,
+        "emotionalWeight": 1,
         "tone": "speels",
         "needFit": {
           "ontspannen": 1,
           "afleiding": 3,
           "herkenning": 3,
-          "verkennen": 3,
+          "verkennen": 2,
           "verdieping": 3
         }
       }
@@ -7799,11 +7799,11 @@
       "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
       "traits": {
         "effort": 3,
-        "emotionalWeight": 3,
-        "tone": "intens",
+        "emotionalWeight": 2,
+        "tone": "warm",
         "needFit": {
-          "ontspannen": 1,
-          "afleiding": 1,
+          "ontspannen": 2,
+          "afleiding": 2,
           "herkenning": 3,
           "verkennen": 2,
           "verdieping": 3
@@ -7827,13 +7827,13 @@
       "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
       "traits": {
         "effort": 4,
-        "emotionalWeight": 3,
-        "tone": "speels",
+        "emotionalWeight": 2,
+        "tone": "warm",
         "needFit": {
-          "ontspannen": 1,
-          "afleiding": 3,
+          "ontspannen": 2,
+          "afleiding": 2,
           "herkenning": 3,
-          "verkennen": 3,
+          "verkennen": 2,
           "verdieping": 3
         }
       }
@@ -7855,11 +7855,11 @@
       "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
       "traits": {
         "effort": 3,
-        "emotionalWeight": 3,
-        "tone": "intens",
+        "emotionalWeight": 2,
+        "tone": "warm",
         "needFit": {
-          "ontspannen": 1,
-          "afleiding": 1,
+          "ontspannen": 2,
+          "afleiding": 2,
           "herkenning": 3,
           "verkennen": 2,
           "verdieping": 3
@@ -7883,12 +7883,12 @@
       "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
       "traits": {
         "effort": 3,
-        "emotionalWeight": 3,
+        "emotionalWeight": 1,
         "tone": "speels",
         "needFit": {
           "ontspannen": 3,
           "afleiding": 3,
-          "herkenning": 3,
+          "herkenning": 1,
           "verkennen": 3,
           "verdieping": 3
         }
@@ -7911,13 +7911,13 @@
       "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
       "traits": {
         "effort": 3,
-        "emotionalWeight": 3,
+        "emotionalWeight": 2,
         "tone": "speels",
         "needFit": {
           "ontspannen": 1,
           "afleiding": 3,
           "herkenning": 3,
-          "verkennen": 3,
+          "verkennen": 2,
           "verdieping": 3
         }
       }
@@ -7939,11 +7939,11 @@
       "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
       "traits": {
         "effort": 3,
-        "emotionalWeight": 3,
-        "tone": "intens",
+        "emotionalWeight": 2,
+        "tone": "warm",
         "needFit": {
-          "ontspannen": 1,
-          "afleiding": 1,
+          "ontspannen": 2,
+          "afleiding": 2,
           "herkenning": 3,
           "verkennen": 3,
           "verdieping": 3
@@ -7967,7 +7967,7 @@
       "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
       "traits": {
         "effort": 4,
-        "emotionalWeight": 3,
+        "emotionalWeight": 1,
         "tone": "speels",
         "needFit": {
           "ontspannen": 1,
@@ -7995,11 +7995,11 @@
       "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
       "traits": {
         "effort": 3,
-        "emotionalWeight": 3,
-        "tone": "intens",
+        "emotionalWeight": 2,
+        "tone": "warm",
         "needFit": {
-          "ontspannen": 1,
-          "afleiding": 1,
+          "ontspannen": 2,
+          "afleiding": 2,
           "herkenning": 3,
           "verkennen": 3,
           "verdieping": 3
@@ -8024,10 +8024,10 @@
       "traits": {
         "effort": 3,
         "emotionalWeight": 3,
-        "tone": "intens",
+        "tone": "warm",
         "needFit": {
-          "ontspannen": 1,
-          "afleiding": 1,
+          "ontspannen": 2,
+          "afleiding": 2,
           "herkenning": 3,
           "verkennen": 3,
           "verdieping": 3
@@ -8052,7 +8052,7 @@
       "traits": {
         "effort": 3,
         "emotionalWeight": 3,
-        "tone": "speels",
+        "tone": "warm",
         "needFit": {
           "ontspannen": 3,
           "afleiding": 3,
@@ -8079,11 +8079,11 @@
       "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
       "traits": {
         "effort": 3,
-        "emotionalWeight": 3,
-        "tone": "intens",
+        "emotionalWeight": 2,
+        "tone": "warm",
         "needFit": {
-          "ontspannen": 1,
-          "afleiding": 1,
+          "ontspannen": 2,
+          "afleiding": 2,
           "herkenning": 3,
           "verkennen": 3,
           "verdieping": 3
@@ -8107,7 +8107,7 @@
       "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
       "traits": {
         "effort": 3,
-        "emotionalWeight": 3,
+        "emotionalWeight": 2,
         "tone": "speels",
         "needFit": {
           "ontspannen": 1,
@@ -8151,10 +8151,10 @@
       "traits": {
         "effort": 3,
         "emotionalWeight": 3,
-        "tone": "intens",
+        "tone": "warm",
         "needFit": {
-          "ontspannen": 1,
-          "afleiding": 1,
+          "ontspannen": 2,
+          "afleiding": 2,
           "herkenning": 3,
           "verkennen": 3,
           "verdieping": 3
@@ -8178,8 +8178,8 @@
       "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
       "traits": {
         "effort": 3,
-        "emotionalWeight": 3,
-        "tone": "intens",
+        "emotionalWeight": 0,
+        "tone": "zakelijk",
         "needFit": {
           "ontspannen": 1,
           "afleiding": 1,
@@ -8206,8 +8206,8 @@
       "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
       "traits": {
         "effort": 4,
-        "emotionalWeight": 3,
-        "tone": "speels",
+        "emotionalWeight": 2,
+        "tone": "warm",
         "needFit": {
           "ontspannen": 3,
           "afleiding": 3,
@@ -8234,11 +8234,11 @@
       "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
       "traits": {
         "effort": 4,
-        "emotionalWeight": 3,
-        "tone": "intens",
+        "emotionalWeight": 2,
+        "tone": "warm",
         "needFit": {
-          "ontspannen": 1,
-          "afleiding": 1,
+          "ontspannen": 2,
+          "afleiding": 2,
           "herkenning": 3,
           "verkennen": 3,
           "verdieping": 3
@@ -8276,15 +8276,15 @@
       ],
       "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
       "traits": {
-        "effort": 4,
-        "emotionalWeight": 3,
-        "tone": "speels",
+        "effort": 1,
+        "emotionalWeight": 2,
+        "tone": "warm",
         "needFit": {
           "ontspannen": 3,
           "afleiding": 3,
           "herkenning": 3,
           "verkennen": 3,
-          "verdieping": 3
+          "verdieping": 1
         }
       }
     },
@@ -8305,11 +8305,11 @@
       "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
       "traits": {
         "effort": 4,
-        "emotionalWeight": 3,
-        "tone": "speels",
+        "emotionalWeight": 2,
+        "tone": "warm",
         "needFit": {
-          "ontspannen": 1,
-          "afleiding": 3,
+          "ontspannen": 2,
+          "afleiding": 2,
           "herkenning": 3,
           "verkennen": 3,
           "verdieping": 3
@@ -8333,8 +8333,8 @@
       "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
       "traits": {
         "effort": 3,
-        "emotionalWeight": 3,
-        "tone": "intens",
+        "emotionalWeight": 1,
+        "tone": "zakelijk",
         "needFit": {
           "ontspannen": 1,
           "afleiding": 1,
@@ -8361,13 +8361,13 @@
       "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
       "traits": {
         "effort": 4,
-        "emotionalWeight": 3,
-        "tone": "speels",
+        "emotionalWeight": 2,
+        "tone": "warm",
         "needFit": {
-          "ontspannen": 1,
-          "afleiding": 3,
+          "ontspannen": 2,
+          "afleiding": 2,
           "herkenning": 3,
-          "verkennen": 3,
+          "verkennen": 2,
           "verdieping": 3
         }
       }
@@ -8389,7 +8389,7 @@
       "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
       "traits": {
         "effort": 3,
-        "emotionalWeight": 3,
+        "emotionalWeight": 2,
         "tone": "speels",
         "needFit": {
           "ontspannen": 1,
@@ -8418,10 +8418,10 @@
       "traits": {
         "effort": 3,
         "emotionalWeight": 3,
-        "tone": "intens",
+        "tone": "warm",
         "needFit": {
-          "ontspannen": 1,
-          "afleiding": 1,
+          "ontspannen": 2,
+          "afleiding": 2,
           "herkenning": 3,
           "verkennen": 2,
           "verdieping": 3
@@ -8445,13 +8445,13 @@
       "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
       "traits": {
         "effort": 4,
-        "emotionalWeight": 3,
+        "emotionalWeight": 1,
         "tone": "speels",
         "needFit": {
           "ontspannen": 1,
           "afleiding": 3,
           "herkenning": 3,
-          "verkennen": 3,
+          "verkennen": 2,
           "verdieping": 3
         }
       }
@@ -8473,11 +8473,11 @@
       "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
       "traits": {
         "effort": 3,
-        "emotionalWeight": 3,
-        "tone": "intens",
+        "emotionalWeight": 2,
+        "tone": "warm",
         "needFit": {
-          "ontspannen": 1,
-          "afleiding": 1,
+          "ontspannen": 2,
+          "afleiding": 2,
           "herkenning": 3,
           "verkennen": 2,
           "verdieping": 3
@@ -8501,11 +8501,11 @@
       "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
       "traits": {
         "effort": 3,
-        "emotionalWeight": 3,
-        "tone": "intens",
+        "emotionalWeight": 2,
+        "tone": "warm",
         "needFit": {
-          "ontspannen": 1,
-          "afleiding": 1,
+          "ontspannen": 2,
+          "afleiding": 2,
           "herkenning": 3,
           "verkennen": 3,
           "verdieping": 3
@@ -8529,13 +8529,13 @@
       "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
       "traits": {
         "effort": 3,
-        "emotionalWeight": 3,
+        "emotionalWeight": 1,
         "tone": "speels",
         "needFit": {
           "ontspannen": 1,
           "afleiding": 3,
           "herkenning": 3,
-          "verkennen": 3,
+          "verkennen": 2,
           "verdieping": 3
         }
       }
@@ -8585,8 +8585,8 @@
       "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
       "traits": {
         "effort": 3,
-        "emotionalWeight": 3,
-        "tone": "speels",
+        "emotionalWeight": 2,
+        "tone": "warm",
         "needFit": {
           "ontspannen": 3,
           "afleiding": 3,
@@ -8776,12 +8776,12 @@
       "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
       "traits": {
         "effort": 4,
-        "emotionalWeight": 3,
-        "tone": "speels",
+        "emotionalWeight": 0,
+        "tone": "zakelijk",
         "needFit": {
           "ontspannen": 3,
           "afleiding": 3,
-          "herkenning": 3,
+          "herkenning": 1,
           "verkennen": 3,
           "verdieping": 3
         }
@@ -8805,10 +8805,10 @@
       "traits": {
         "effort": 3,
         "emotionalWeight": 3,
-        "tone": "intens",
+        "tone": "warm",
         "needFit": {
-          "ontspannen": 1,
-          "afleiding": 1,
+          "ontspannen": 2,
+          "afleiding": 2,
           "herkenning": 3,
           "verkennen": 3,
           "verdieping": 3
@@ -8832,11 +8832,11 @@
       "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
       "traits": {
         "effort": 3,
-        "emotionalWeight": 3,
-        "tone": "intens",
+        "emotionalWeight": 2,
+        "tone": "warm",
         "needFit": {
-          "ontspannen": 1,
-          "afleiding": 1,
+          "ontspannen": 2,
+          "afleiding": 2,
           "herkenning": 3,
           "verkennen": 3,
           "verdieping": 3
@@ -8861,10 +8861,10 @@
       "traits": {
         "effort": 4,
         "emotionalWeight": 2,
-        "tone": "speels",
+        "tone": "warm",
         "needFit": {
-          "ontspannen": 1,
-          "afleiding": 3,
+          "ontspannen": 2,
+          "afleiding": 2,
           "herkenning": 3,
           "verkennen": 3,
           "verdieping": 3
@@ -8888,7 +8888,7 @@
       "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
       "traits": {
         "effort": 4,
-        "emotionalWeight": 3,
+        "emotionalWeight": 2,
         "tone": "speels",
         "needFit": {
           "ontspannen": 3,
@@ -8915,7 +8915,7 @@
       ],
       "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
       "traits": {
-        "effort": 4,
+        "effort": 3,
         "emotionalWeight": 2,
         "tone": "speels",
         "needFit": {
@@ -8944,8 +8944,8 @@
       "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
       "traits": {
         "effort": 3,
-        "emotionalWeight": 3,
-        "tone": "speels",
+        "emotionalWeight": 2,
+        "tone": "warm",
         "needFit": {
           "ontspannen": 3,
           "afleiding": 3,
@@ -8972,8 +8972,8 @@
       "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
       "traits": {
         "effort": 4,
-        "emotionalWeight": 4,
-        "tone": "speels",
+        "emotionalWeight": 2,
+        "tone": "warm",
         "needFit": {
           "ontspannen": 3,
           "afleiding": 3,
@@ -9000,7 +9000,7 @@
       "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
       "traits": {
         "effort": 3,
-        "emotionalWeight": 3,
+        "emotionalWeight": 2,
         "tone": "intens",
         "needFit": {
           "ontspannen": 1,
@@ -9029,11 +9029,11 @@
       "traits": {
         "effort": 3,
         "emotionalWeight": 3,
-        "tone": "speels",
+        "tone": "intens",
         "needFit": {
           "ontspannen": 3,
           "afleiding": 3,
-          "herkenning": 3,
+          "herkenning": 1,
           "verkennen": 3,
           "verdieping": 3
         }
@@ -9056,8 +9056,8 @@
       "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
       "traits": {
         "effort": 4,
-        "emotionalWeight": 3,
-        "tone": "speels",
+        "emotionalWeight": 2,
+        "tone": "warm",
         "needFit": {
           "ontspannen": 3,
           "afleiding": 3,
@@ -9085,10 +9085,10 @@
       "traits": {
         "effort": 4,
         "emotionalWeight": 3,
-        "tone": "intens",
+        "tone": "warm",
         "needFit": {
-          "ontspannen": 1,
-          "afleiding": 1,
+          "ontspannen": 2,
+          "afleiding": 2,
           "herkenning": 3,
           "verkennen": 3,
           "verdieping": 3
@@ -9112,11 +9112,11 @@
       "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
       "traits": {
         "effort": 4,
-        "emotionalWeight": 3,
-        "tone": "intens",
+        "emotionalWeight": 2,
+        "tone": "warm",
         "needFit": {
-          "ontspannen": 1,
-          "afleiding": 1,
+          "ontspannen": 2,
+          "afleiding": 2,
           "herkenning": 3,
           "verkennen": 3,
           "verdieping": 3
@@ -9141,10 +9141,10 @@
       "traits": {
         "effort": 4,
         "emotionalWeight": 3,
-        "tone": "speels",
+        "tone": "warm",
         "needFit": {
-          "ontspannen": 1,
-          "afleiding": 3,
+          "ontspannen": 2,
+          "afleiding": 2,
           "herkenning": 3,
           "verkennen": 3,
           "verdieping": 3
@@ -9168,11 +9168,11 @@
       "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
       "traits": {
         "effort": 4,
-        "emotionalWeight": 3,
-        "tone": "speels",
+        "emotionalWeight": 2,
+        "tone": "warm",
         "needFit": {
-          "ontspannen": 1,
-          "afleiding": 3,
+          "ontspannen": 2,
+          "afleiding": 2,
           "herkenning": 3,
           "verkennen": 3,
           "verdieping": 3
@@ -9196,7 +9196,7 @@
       "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
       "traits": {
         "effort": 4,
-        "emotionalWeight": 3,
+        "emotionalWeight": 2,
         "tone": "speels",
         "needFit": {
           "ontspannen": 1,
@@ -9224,12 +9224,12 @@
       "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
       "traits": {
         "effort": 3,
-        "emotionalWeight": 3,
+        "emotionalWeight": 1,
         "tone": "speels",
         "needFit": {
           "ontspannen": 3,
           "afleiding": 3,
-          "herkenning": 3,
+          "herkenning": 1,
           "verkennen": 3,
           "verdieping": 3
         }
@@ -9252,11 +9252,11 @@
       "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
       "traits": {
         "effort": 4,
-        "emotionalWeight": 3,
-        "tone": "speels",
+        "emotionalWeight": 2,
+        "tone": "warm",
         "needFit": {
-          "ontspannen": 1,
-          "afleiding": 3,
+          "ontspannen": 2,
+          "afleiding": 2,
           "herkenning": 3,
           "verkennen": 3,
           "verdieping": 3
@@ -9280,7 +9280,7 @@
       "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
       "traits": {
         "effort": 4,
-        "emotionalWeight": 3,
+        "emotionalWeight": 2,
         "tone": "speels",
         "needFit": {
           "ontspannen": 1,
@@ -9308,7 +9308,7 @@
       "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
       "traits": {
         "effort": 3,
-        "emotionalWeight": 3,
+        "emotionalWeight": 2,
         "tone": "warm",
         "needFit": {
           "ontspannen": 3,
@@ -9336,7 +9336,7 @@
       "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
       "traits": {
         "effort": 3,
-        "emotionalWeight": 3,
+        "emotionalWeight": 2,
         "tone": "speels",
         "needFit": {
           "ontspannen": 3,
@@ -9364,7 +9364,7 @@
       "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
       "traits": {
         "effort": 3,
-        "emotionalWeight": 3,
+        "emotionalWeight": 1,
         "tone": "speels",
         "needFit": {
           "ontspannen": 3,
@@ -9435,12 +9435,12 @@
       "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
       "traits": {
         "effort": 4,
-        "emotionalWeight": 3,
-        "tone": "speels",
+        "emotionalWeight": 0,
+        "tone": "zakelijk",
         "needFit": {
           "ontspannen": 3,
           "afleiding": 3,
-          "herkenning": 3,
+          "herkenning": 1,
           "verkennen": 3,
           "verdieping": 3
         }
@@ -9463,12 +9463,12 @@
       "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
       "traits": {
         "effort": 3,
-        "emotionalWeight": 3,
+        "emotionalWeight": 1,
         "tone": "speels",
         "needFit": {
           "ontspannen": 3,
           "afleiding": 3,
-          "herkenning": 3,
+          "herkenning": 1,
           "verkennen": 3,
           "verdieping": 3
         }
@@ -9581,11 +9581,11 @@
       "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
       "traits": {
         "effort": 4,
-        "emotionalWeight": 3,
-        "tone": "speels",
+        "emotionalWeight": 2,
+        "tone": "intens",
         "needFit": {
           "ontspannen": 1,
-          "afleiding": 3,
+          "afleiding": 1,
           "herkenning": 3,
           "verkennen": 3,
           "verdieping": 3
@@ -9609,13 +9609,13 @@
       "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
       "traits": {
         "effort": 3,
-        "emotionalWeight": 3,
-        "tone": "intens",
+        "emotionalWeight": 2,
+        "tone": "warm",
         "needFit": {
-          "ontspannen": 1,
-          "afleiding": 1,
+          "ontspannen": 2,
+          "afleiding": 2,
           "herkenning": 3,
-          "verkennen": 3,
+          "verkennen": 2,
           "verdieping": 3
         }
       }
@@ -9637,13 +9637,13 @@
       "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
       "traits": {
         "effort": 4,
-        "emotionalWeight": 3,
+        "emotionalWeight": 2,
         "tone": "speels",
         "needFit": {
           "ontspannen": 1,
           "afleiding": 3,
           "herkenning": 3,
-          "verkennen": 3,
+          "verkennen": 2,
           "verdieping": 3
         }
       }
@@ -9665,7 +9665,7 @@
       "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
       "traits": {
         "effort": 3,
-        "emotionalWeight": 3,
+        "emotionalWeight": 2,
         "tone": "speels",
         "needFit": {
           "ontspannen": 1,
@@ -9708,7 +9708,7 @@
       "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
       "traits": {
         "effort": 4,
-        "emotionalWeight": 3,
+        "emotionalWeight": 2,
         "tone": "speels",
         "needFit": {
           "ontspannen": 1,
@@ -9741,7 +9741,7 @@
         "needFit": {
           "ontspannen": 3,
           "afleiding": 3,
-          "herkenning": 3,
+          "herkenning": 1,
           "verkennen": 3,
           "verdieping": 3
         }
@@ -9764,11 +9764,11 @@
       "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
       "traits": {
         "effort": 4,
-        "emotionalWeight": 3,
-        "tone": "intens",
+        "emotionalWeight": 2,
+        "tone": "warm",
         "needFit": {
-          "ontspannen": 1,
-          "afleiding": 1,
+          "ontspannen": 2,
+          "afleiding": 2,
           "herkenning": 3,
           "verkennen": 3,
           "verdieping": 3
@@ -9792,11 +9792,11 @@
       "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
       "traits": {
         "effort": 4,
-        "emotionalWeight": 3,
-        "tone": "intens",
+        "emotionalWeight": 2,
+        "tone": "warm",
         "needFit": {
-          "ontspannen": 1,
-          "afleiding": 1,
+          "ontspannen": 2,
+          "afleiding": 2,
           "herkenning": 3,
           "verkennen": 3,
           "verdieping": 3
@@ -9820,7 +9820,7 @@
       "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
       "traits": {
         "effort": 3,
-        "emotionalWeight": 3,
+        "emotionalWeight": 2,
         "tone": "speels",
         "needFit": {
           "ontspannen": 1,
@@ -9848,11 +9848,11 @@
       "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
       "traits": {
         "effort": 4,
-        "emotionalWeight": 3,
-        "tone": "intens",
+        "emotionalWeight": 2,
+        "tone": "warm",
         "needFit": {
-          "ontspannen": 1,
-          "afleiding": 1,
+          "ontspannen": 2,
+          "afleiding": 2,
           "herkenning": 3,
           "verkennen": 3,
           "verdieping": 3
@@ -9877,10 +9877,10 @@
       "traits": {
         "effort": 3,
         "emotionalWeight": 3,
-        "tone": "intens",
+        "tone": "warm",
         "needFit": {
-          "ontspannen": 1,
-          "afleiding": 1,
+          "ontspannen": 2,
+          "afleiding": 2,
           "herkenning": 3,
           "verkennen": 2,
           "verdieping": 3
@@ -9905,11 +9905,11 @@
       "traits": {
         "effort": 4,
         "emotionalWeight": 3,
-        "tone": "speels",
+        "tone": "zakelijk",
         "needFit": {
           "ontspannen": 3,
           "afleiding": 3,
-          "herkenning": 3,
+          "herkenning": 1,
           "verkennen": 3,
           "verdieping": 3
         }
@@ -9932,11 +9932,11 @@
       "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
       "traits": {
         "effort": 3,
-        "emotionalWeight": 3,
-        "tone": "intens",
+        "emotionalWeight": 2,
+        "tone": "warm",
         "needFit": {
-          "ontspannen": 1,
-          "afleiding": 1,
+          "ontspannen": 2,
+          "afleiding": 2,
           "herkenning": 3,
           "verkennen": 3,
           "verdieping": 3
@@ -9960,11 +9960,11 @@
       "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
       "traits": {
         "effort": 4,
-        "emotionalWeight": 3,
-        "tone": "intens",
+        "emotionalWeight": 2,
+        "tone": "warm",
         "needFit": {
-          "ontspannen": 1,
-          "afleiding": 1,
+          "ontspannen": 2,
+          "afleiding": 2,
           "herkenning": 3,
           "verkennen": 3,
           "verdieping": 3
@@ -10003,11 +10003,11 @@
       "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
       "traits": {
         "effort": 4,
-        "emotionalWeight": 3,
-        "tone": "speels",
+        "emotionalWeight": 2,
+        "tone": "warm",
         "needFit": {
-          "ontspannen": 1,
-          "afleiding": 3,
+          "ontspannen": 2,
+          "afleiding": 2,
           "herkenning": 3,
           "verkennen": 3,
           "verdieping": 3
@@ -10031,11 +10031,11 @@
       "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
       "traits": {
         "effort": 3,
-        "emotionalWeight": 3,
-        "tone": "intens",
+        "emotionalWeight": 2,
+        "tone": "warm",
         "needFit": {
-          "ontspannen": 1,
-          "afleiding": 1,
+          "ontspannen": 2,
+          "afleiding": 2,
           "herkenning": 3,
           "verkennen": 3,
           "verdieping": 3
@@ -10059,7 +10059,7 @@
       "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
       "traits": {
         "effort": 4,
-        "emotionalWeight": 3,
+        "emotionalWeight": 2,
         "tone": "speels",
         "needFit": {
           "ontspannen": 3,
@@ -10088,10 +10088,10 @@
       "traits": {
         "effort": 3,
         "emotionalWeight": 3,
-        "tone": "intens",
+        "tone": "warm",
         "needFit": {
-          "ontspannen": 1,
-          "afleiding": 1,
+          "ontspannen": 2,
+          "afleiding": 2,
           "herkenning": 3,
           "verkennen": 3,
           "verdieping": 3
@@ -10115,11 +10115,11 @@
       "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
       "traits": {
         "effort": 3,
-        "emotionalWeight": 3,
-        "tone": "intens",
+        "emotionalWeight": 2,
+        "tone": "warm",
         "needFit": {
-          "ontspannen": 1,
-          "afleiding": 1,
+          "ontspannen": 2,
+          "afleiding": 2,
           "herkenning": 3,
           "verkennen": 3,
           "verdieping": 3
@@ -10143,11 +10143,11 @@
       "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
       "traits": {
         "effort": 3,
-        "emotionalWeight": 3,
-        "tone": "intens",
+        "emotionalWeight": 2,
+        "tone": "warm",
         "needFit": {
-          "ontspannen": 1,
-          "afleiding": 1,
+          "ontspannen": 2,
+          "afleiding": 2,
           "herkenning": 3,
           "verkennen": 3,
           "verdieping": 3
@@ -10171,11 +10171,11 @@
       "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
       "traits": {
         "effort": 3,
-        "emotionalWeight": 3,
-        "tone": "intens",
+        "emotionalWeight": 2,
+        "tone": "warm",
         "needFit": {
-          "ontspannen": 1,
-          "afleiding": 1,
+          "ontspannen": 2,
+          "afleiding": 2,
           "herkenning": 3,
           "verkennen": 3,
           "verdieping": 3
@@ -10199,11 +10199,11 @@
       "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
       "traits": {
         "effort": 3,
-        "emotionalWeight": 3,
-        "tone": "intens",
+        "emotionalWeight": 2,
+        "tone": "warm",
         "needFit": {
-          "ontspannen": 1,
-          "afleiding": 1,
+          "ontspannen": 2,
+          "afleiding": 2,
           "herkenning": 3,
           "verkennen": 3,
           "verdieping": 3
@@ -10227,11 +10227,11 @@
       "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
       "traits": {
         "effort": 3,
-        "emotionalWeight": 3,
-        "tone": "intens",
+        "emotionalWeight": 2,
+        "tone": "warm",
         "needFit": {
-          "ontspannen": 1,
-          "afleiding": 1,
+          "ontspannen": 2,
+          "afleiding": 2,
           "herkenning": 3,
           "verkennen": 2,
           "verdieping": 3
@@ -10284,10 +10284,10 @@
       "traits": {
         "effort": 3,
         "emotionalWeight": 3,
-        "tone": "speels",
+        "tone": "intens",
         "needFit": {
           "ontspannen": 1,
-          "afleiding": 3,
+          "afleiding": 1,
           "herkenning": 1,
           "verkennen": 3,
           "verdieping": 3
@@ -10311,13 +10311,13 @@
       "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
       "traits": {
         "effort": 4,
-        "emotionalWeight": 3,
+        "emotionalWeight": 1,
         "tone": "speels",
         "needFit": {
           "ontspannen": 1,
           "afleiding": 3,
           "herkenning": 3,
-          "verkennen": 3,
+          "verkennen": 2,
           "verdieping": 3
         }
       }
@@ -10367,11 +10367,11 @@
       "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
       "traits": {
         "effort": 3,
-        "emotionalWeight": 3,
-        "tone": "speels",
+        "emotionalWeight": 1,
+        "tone": "zakelijk",
         "needFit": {
           "ontspannen": 1,
-          "afleiding": 3,
+          "afleiding": 1,
           "herkenning": 3,
           "verkennen": 3,
           "verdieping": 3
@@ -10410,7 +10410,7 @@
       "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
       "traits": {
         "effort": 3,
-        "emotionalWeight": 3,
+        "emotionalWeight": 2,
         "tone": "speels",
         "needFit": {
           "ontspannen": 1,
@@ -10438,8 +10438,8 @@
       "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
       "traits": {
         "effort": 3,
-        "emotionalWeight": 3,
-        "tone": "speels",
+        "emotionalWeight": 2,
+        "tone": "warm",
         "needFit": {
           "ontspannen": 3,
           "afleiding": 3,
@@ -10466,7 +10466,7 @@
       "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
       "traits": {
         "effort": 3,
-        "emotionalWeight": 4,
+        "emotionalWeight": 3,
         "tone": "intens",
         "needFit": {
           "ontspannen": 1,
@@ -10494,7 +10494,7 @@
       "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
       "traits": {
         "effort": 3,
-        "emotionalWeight": 3,
+        "emotionalWeight": 1,
         "tone": "speels",
         "needFit": {
           "ontspannen": 1,
@@ -10552,11 +10552,11 @@
       "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
       "traits": {
         "effort": 3,
-        "emotionalWeight": 3,
-        "tone": "speels",
+        "emotionalWeight": 2,
+        "tone": "warm",
         "needFit": {
-          "ontspannen": 3,
-          "afleiding": 3,
+          "ontspannen": 2,
+          "afleiding": 2,
           "herkenning": 3,
           "verkennen": 3,
           "verdieping": 3
@@ -10580,8 +10580,8 @@
       "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
       "traits": {
         "effort": 3,
-        "emotionalWeight": 3,
-        "tone": "intens",
+        "emotionalWeight": 2,
+        "tone": "warm",
         "needFit": {
           "ontspannen": 3,
           "afleiding": 3,
@@ -10636,7 +10636,7 @@
       "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
       "traits": {
         "effort": 3,
-        "emotionalWeight": 3,
+        "emotionalWeight": 2,
         "tone": "speels",
         "needFit": {
           "ontspannen": 1,
@@ -10664,12 +10664,12 @@
       "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
       "traits": {
         "effort": 3,
-        "emotionalWeight": 3,
-        "tone": "intens",
+        "emotionalWeight": 1,
+        "tone": "zakelijk",
         "needFit": {
           "ontspannen": 1,
           "afleiding": 1,
-          "herkenning": 3,
+          "herkenning": 1,
           "verkennen": 3,
           "verdieping": 3
         }
@@ -10692,8 +10692,8 @@
       "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
       "traits": {
         "effort": 3,
-        "emotionalWeight": 3,
-        "tone": "intens",
+        "emotionalWeight": 2,
+        "tone": "warm",
         "needFit": {
           "ontspannen": 3,
           "afleiding": 3,
@@ -10763,11 +10763,11 @@
       "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
       "traits": {
         "effort": 4,
-        "emotionalWeight": 3,
-        "tone": "speels",
+        "emotionalWeight": 2,
+        "tone": "warm",
         "needFit": {
-          "ontspannen": 1,
-          "afleiding": 3,
+          "ontspannen": 2,
+          "afleiding": 2,
           "herkenning": 3,
           "verkennen": 3,
           "verdieping": 3
@@ -10821,7 +10821,7 @@
       "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
       "traits": {
         "effort": 3,
-        "emotionalWeight": 3,
+        "emotionalWeight": 2,
         "tone": "speels",
         "needFit": {
           "ontspannen": 1,
@@ -10864,11 +10864,11 @@
       "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
       "traits": {
         "effort": 3,
-        "emotionalWeight": 3,
-        "tone": "speels",
+        "emotionalWeight": 2,
+        "tone": "warm",
         "needFit": {
-          "ontspannen": 1,
-          "afleiding": 3,
+          "ontspannen": 2,
+          "afleiding": 2,
           "herkenning": 3,
           "verkennen": 3,
           "verdieping": 3
@@ -10893,7 +10893,7 @@
       "traits": {
         "effort": 4,
         "emotionalWeight": 3,
-        "tone": "speels",
+        "tone": "intens",
         "needFit": {
           "ontspannen": 3,
           "afleiding": 3,
@@ -10920,7 +10920,7 @@
       "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
       "traits": {
         "effort": 4,
-        "emotionalWeight": 3,
+        "emotionalWeight": 0,
         "tone": "speels",
         "needFit": {
           "ontspannen": 1,
@@ -10963,11 +10963,11 @@
       "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
       "traits": {
         "effort": 4,
-        "emotionalWeight": 3,
-        "tone": "speels",
+        "emotionalWeight": 2,
+        "tone": "warm",
         "needFit": {
-          "ontspannen": 1,
-          "afleiding": 3,
+          "ontspannen": 2,
+          "afleiding": 2,
           "herkenning": 3,
           "verkennen": 3,
           "verdieping": 3
@@ -10991,13 +10991,13 @@
       "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
       "traits": {
         "effort": 3,
-        "emotionalWeight": 3,
-        "tone": "intens",
+        "emotionalWeight": 2,
+        "tone": "warm",
         "needFit": {
-          "ontspannen": 1,
-          "afleiding": 1,
+          "ontspannen": 2,
+          "afleiding": 2,
           "herkenning": 3,
-          "verkennen": 3,
+          "verkennen": 2,
           "verdieping": 3
         }
       }
@@ -11019,11 +11019,11 @@
       "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
       "traits": {
         "effort": 4,
-        "emotionalWeight": 4,
-        "tone": "speels",
+        "emotionalWeight": 2,
+        "tone": "warm",
         "needFit": {
-          "ontspannen": 1,
-          "afleiding": 3,
+          "ontspannen": 2,
+          "afleiding": 2,
           "herkenning": 3,
           "verkennen": 3,
           "verdieping": 3
@@ -11062,11 +11062,11 @@
       "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
       "traits": {
         "effort": 3,
-        "emotionalWeight": 3,
-        "tone": "speels",
+        "emotionalWeight": 2,
+        "tone": "warm",
         "needFit": {
-          "ontspannen": 1,
-          "afleiding": 3,
+          "ontspannen": 2,
+          "afleiding": 2,
           "herkenning": 3,
           "verkennen": 3,
           "verdieping": 3
@@ -11105,7 +11105,7 @@
       "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
       "traits": {
         "effort": 3,
-        "emotionalWeight": 3,
+        "emotionalWeight": 2,
         "tone": "speels",
         "needFit": {
           "ontspannen": 1,
@@ -11133,7 +11133,7 @@
       "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
       "traits": {
         "effort": 3,
-        "emotionalWeight": 3,
+        "emotionalWeight": 2,
         "tone": "speels",
         "needFit": {
           "ontspannen": 3,
@@ -11191,12 +11191,12 @@
       "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
       "traits": {
         "effort": 3,
-        "emotionalWeight": 3,
-        "tone": "intens",
+        "emotionalWeight": 1,
+        "tone": "zakelijk",
         "needFit": {
           "ontspannen": 1,
           "afleiding": 1,
-          "herkenning": 3,
+          "herkenning": 1,
           "verkennen": 3,
           "verdieping": 3
         }
@@ -11234,11 +11234,11 @@
       "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
       "traits": {
         "effort": 3,
-        "emotionalWeight": 3,
-        "tone": "intens",
+        "emotionalWeight": 2,
+        "tone": "warm",
         "needFit": {
-          "ontspannen": 1,
-          "afleiding": 1,
+          "ontspannen": 2,
+          "afleiding": 2,
           "herkenning": 3,
           "verkennen": 3,
           "verdieping": 3
@@ -11290,8 +11290,8 @@
       "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
       "traits": {
         "effort": 3,
-        "emotionalWeight": 3,
-        "tone": "intens",
+        "emotionalWeight": 2,
+        "tone": "warm",
         "needFit": {
           "ontspannen": 3,
           "afleiding": 3,
@@ -11361,11 +11361,11 @@
       "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
       "traits": {
         "effort": 3,
-        "emotionalWeight": 3,
-        "tone": "intens",
+        "emotionalWeight": 2,
+        "tone": "warm",
         "needFit": {
-          "ontspannen": 1,
-          "afleiding": 1,
+          "ontspannen": 2,
+          "afleiding": 2,
           "herkenning": 3,
           "verkennen": 3,
           "verdieping": 3
@@ -11389,8 +11389,8 @@
       "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
       "traits": {
         "effort": 4,
-        "emotionalWeight": 3,
-        "tone": "speels",
+        "emotionalWeight": 2,
+        "tone": "warm",
         "needFit": {
           "ontspannen": 3,
           "afleiding": 3,
@@ -11488,7 +11488,7 @@
       "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
       "traits": {
         "effort": 3,
-        "emotionalWeight": 3,
+        "emotionalWeight": 2,
         "tone": "speels",
         "needFit": {
           "ontspannen": 3,
@@ -11516,11 +11516,11 @@
       "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
       "traits": {
         "effort": 3,
-        "emotionalWeight": 3,
-        "tone": "intens",
+        "emotionalWeight": 2,
+        "tone": "warm",
         "needFit": {
-          "ontspannen": 1,
-          "afleiding": 1,
+          "ontspannen": 2,
+          "afleiding": 2,
           "herkenning": 3,
           "verkennen": 3,
           "verdieping": 3
@@ -11544,7 +11544,7 @@
       "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
       "traits": {
         "effort": 4,
-        "emotionalWeight": 3,
+        "emotionalWeight": 2,
         "tone": "speels",
         "needFit": {
           "ontspannen": 1,
@@ -11573,10 +11573,10 @@
       "traits": {
         "effort": 4,
         "emotionalWeight": 3,
-        "tone": "speels",
+        "tone": "warm",
         "needFit": {
-          "ontspannen": 1,
-          "afleiding": 3,
+          "ontspannen": 2,
+          "afleiding": 2,
           "herkenning": 3,
           "verkennen": 3,
           "verdieping": 3
@@ -11660,7 +11660,7 @@
       "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
       "traits": {
         "effort": 3,
-        "emotionalWeight": 3,
+        "emotionalWeight": 2,
         "tone": "speels",
         "needFit": {
           "ontspannen": 1,
@@ -11718,7 +11718,7 @@
       "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
       "traits": {
         "effort": 4,
-        "emotionalWeight": 3,
+        "emotionalWeight": 2,
         "tone": "speels",
         "needFit": {
           "ontspannen": 3,
@@ -11776,11 +11776,11 @@
       "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
       "traits": {
         "effort": 4,
-        "emotionalWeight": 3,
-        "tone": "speels",
+        "emotionalWeight": 2,
+        "tone": "warm",
         "needFit": {
-          "ontspannen": 1,
-          "afleiding": 3,
+          "ontspannen": 2,
+          "afleiding": 2,
           "herkenning": 3,
           "verkennen": 3,
           "verdieping": 3
@@ -11804,11 +11804,11 @@
       "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
       "traits": {
         "effort": 4,
-        "emotionalWeight": 3,
-        "tone": "speels",
+        "emotionalWeight": 1,
+        "tone": "zakelijk",
         "needFit": {
           "ontspannen": 1,
-          "afleiding": 3,
+          "afleiding": 1,
           "herkenning": 3,
           "verkennen": 3,
           "verdieping": 3
@@ -11832,7 +11832,7 @@
       "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
       "traits": {
         "effort": 3,
-        "emotionalWeight": 3,
+        "emotionalWeight": 2,
         "tone": "speels",
         "needFit": {
           "ontspannen": 1,
@@ -11920,11 +11920,11 @@
       "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
       "traits": {
         "effort": 3,
-        "emotionalWeight": 3,
-        "tone": "intens",
+        "emotionalWeight": 2,
+        "tone": "warm",
         "needFit": {
-          "ontspannen": 1,
-          "afleiding": 1,
+          "ontspannen": 2,
+          "afleiding": 2,
           "herkenning": 3,
           "verkennen": 3,
           "verdieping": 3
@@ -12696,11 +12696,11 @@
       "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
       "traits": {
         "effort": 3,
-        "emotionalWeight": 3,
-        "tone": "intens",
+        "emotionalWeight": 2,
+        "tone": "warm",
         "needFit": {
-          "ontspannen": 1,
-          "afleiding": 1,
+          "ontspannen": 2,
+          "afleiding": 2,
           "herkenning": 3,
           "verkennen": 3,
           "verdieping": 3
@@ -12724,13 +12724,13 @@
       "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
       "traits": {
         "effort": 4,
-        "emotionalWeight": 3,
+        "emotionalWeight": 2,
         "tone": "speels",
         "needFit": {
           "ontspannen": 1,
           "afleiding": 3,
           "herkenning": 3,
-          "verkennen": 3,
+          "verkennen": 2,
           "verdieping": 3
         }
       }
@@ -12752,11 +12752,11 @@
       "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
       "traits": {
         "effort": 3,
-        "emotionalWeight": 3,
-        "tone": "intens",
+        "emotionalWeight": 2,
+        "tone": "warm",
         "needFit": {
-          "ontspannen": 1,
-          "afleiding": 1,
+          "ontspannen": 2,
+          "afleiding": 2,
           "herkenning": 3,
           "verkennen": 3,
           "verdieping": 3
