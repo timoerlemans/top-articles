@@ -1,11 +1,15 @@
 import { isShort } from "./reading-policy.js";
+export const READING_MOODS = ["neutraal", "rustig", "nieuwsgierig", "vrolijk", "somber", "gespannen", "vol-hoofd"];
 const COURSES = ["voorgerecht", "hoofdgerecht", "nagerecht"];
 function preferredTones(moment) {
+    if (moment.mood === "rustig" || moment.mood === "gespannen") {
+        return ["rustig", "warm"];
+    }
+    if (moment.mood === "nieuwsgierig") {
+        return ["reflectief", "speels"];
+    }
     if (moment.mood === "vrolijk") {
         return ["speels", "warm"];
-    }
-    if (moment.mood === "gespannen") {
-        return ["rustig", "warm"];
     }
     if (moment.mood === "somber") {
         if (moment.need === "afleiding") {
@@ -17,6 +21,15 @@ function preferredTones(moment) {
         return ["rustig", "warm"];
     }
     return [];
+}
+function hasReaderLink(url) {
+    try {
+        const parsed = new URL(url ?? "");
+        return parsed.protocol === "https:" && parsed.hostname === "read.readwise.io" && parsed.pathname.startsWith("/read/");
+    }
+    catch {
+        return false;
+    }
 }
 function savedTime(item) {
     const time = Date.parse(item.savedDate ?? "");
@@ -32,6 +45,7 @@ export function planMenu(inputs, moment, excluded = [], start = "voorgerecht", s
     const pool = inputs.catalog.filter((item) => {
         const profile = inputs.profiles[item.id];
         return !blocked.has(item.id) && ["article", "email", "rss", "pdf"].includes(item.category ?? "")
+            && hasReaderLink(item.readwiseUrl)
             && !inputs.scores[item.id]?.sequences.includes("boek")
             && !item.tags.some((tag) => /^(books?|epub)$/i.test(tag))
             && profile && profile.needFit[moment.need] >= 2 && profile.effort <= cap && profile.emotionalWeight <= cap
@@ -44,6 +58,7 @@ export function planMenu(inputs, moment, excluded = [], start = "voorgerecht", s
         }
         return bp.needFit[moment.need] - ap.needFit[moment.need]
             || Number(tones.includes(bp.tone)) - Number(tones.includes(ap.tone))
+            || (moment.mood === "vol-hoofd" ? ap.effort - bp.effort : 0)
             || (inputs.scores[b.id]?.score ?? 0) - (inputs.scores[a.id]?.score ?? 0)
             || savedTime(a) - savedTime(b) || a.id.localeCompare(b.id);
     });

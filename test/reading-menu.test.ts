@@ -5,7 +5,7 @@ import type { MenuInputs, ReadingMoment } from "../src/reading-menu.js";
 import type { ArticleItem } from "../src/types/browser-data.js";
 import type { ReadingTraits } from "../src/reading-profiles.js";
 function article(id: string, minutes: number | null, category = "article"): ArticleItem {
-  return { id, title: id, readingMinutes: minutes, category, position: null, author: null, siteName: null, language: null, readingTime: null, wordCount: null, publishedDate: null, savedDate: "2020-01-01", imageUrl: null, sourceUrl: null, readwiseUrl: null, summary: null, whyRead: null, bestMoment: null, tags: [], coreInterests: [], alsoIn: [] };
+  return { id, title: id, readingMinutes: minutes, category, position: null, author: null, siteName: null, language: null, readingTime: null, wordCount: null, publishedDate: null, savedDate: "2020-01-01", imageUrl: null, sourceUrl: null, readwiseUrl: `https://read.readwise.io/read/${id}`, summary: null, whyRead: null, bestMoment: null, tags: [], coreInterests: [], alsoIn: [] };
 }
 const light: ReadingTraits = { effort: 1, emotionalWeight: 0, tone: "warm", needFit: { ontspannen: 4, afleiding: 3, herkenning: 2, verkennen: 2, verdieping: 2 } };
 const moment: ReadingMoment = { energy: "gemiddeld", mood: null, need: "ontspannen", budget: 10 };
@@ -17,6 +17,13 @@ test("menu starts light, respects whole-session time and excludes books/heavy/un
 });
 test("there is no heavy or five-minute fallback for an empty appetizer", () => {
   assert.deepEqual(planMenu(inputs(), moment, ["a", "c"]), []);
+});
+test("menu suggestions always have a direct Readwise Reader link", () => {
+  const data = inputs();
+  data.catalog = [...data.catalog, { ...article("missing-link", 1), readwiseUrl: null }];
+  data.profiles = { ...data.profiles, "missing-link": light };
+  data.scores = { ...data.scores, "missing-link": { score: 200, sequences: [] } };
+  assert.ok(planMenu(data, moment).every(({ id }) => id !== "missing-link"));
 });
 test("read markers and low energy constrain every remaining course", () => {
   const data = inputs();
@@ -30,6 +37,31 @@ test("mood is soft and priority breaks equal fits before oldest date and ID", ()
   data.profiles = { ...data.profiles, a: { ...light, tone: "zakelijk" } };
   assert.equal(planMenu(data, { ...moment, mood: "gespannen" })[0]?.id, "c");
   assert.equal(planMenu(data, moment, ["c"])[0]?.id, "a");
+});
+
+test("new mood choices gently rank tone or effort without overriding need and energy", () => {
+  const data = inputs();
+  data.catalog = data.catalog.map((item) => item.id === "b" ? article("b", 2) : item);
+  data.profiles = {
+    ...data.profiles,
+    a: { ...light, tone: "warm", needFit: { ...light.needFit, ontspannen: 4 } },
+    b: { ...light, tone: "reflectief", needFit: { ...light.needFit, ontspannen: 4 } },
+    c: { ...light, effort: 0, tone: "warm", needFit: { ...light.needFit, ontspannen: 4 } },
+    heavy: { ...light, effort: 2, needFit: { ...light.needFit, ontspannen: 4 } },
+  };
+  data.scores = {
+    ...data.scores,
+    a: { score: 90, sequences: [] },
+    b: { score: 10, sequences: [] },
+    c: { score: 5, sequences: [] },
+    heavy: { score: 100, sequences: [] },
+  };
+  const withMood = (mood: string): ReadingMoment => ({ ...moment, mood } as unknown as ReadingMoment);
+
+  assert.equal(planMenu(data, withMood("nieuwsgierig"))[0]?.id, "b");
+  assert.equal(planMenu(data, withMood("vol-hoofd"))[0]?.id, "c");
+  assert.ok(planMenu(data, withMood("nieuwsgierig")).some(({ id }) => id === "a"));
+  assert.ok(planMenu(data, { ...withMood("vol-hoofd"), energy: "weinig" }).every(({ id }) => id !== "heavy"));
 });
 
 import { startSession, transitionSession, refreshSession } from "../src/reading-menu.js";
@@ -58,6 +90,13 @@ test("archiving prunes only with a newer complete consistent catalog and never a
   assert.deepEqual(parseHistory({ version: 1, ids: [123] }).ids, []);
   assert.equal(parseSession({ version: 1 }), null);
   assert.equal(writeStored({ setItem() { throw new Error("blocked"); } }, "read", history), false);
+});
+
+test("restored sessions accept the complete menu mood vocabulary", () => {
+  for (const mood of ["neutraal", "rustig", "nieuwsgierig", "vrolijk", "somber", "gespannen", "vol-hoofd"]) {
+    const restored = parseSession({ version: 1, moment: { ...moment, mood }, course: "voorgerecht", excluded: [], completed: [], proposal: null, finished: false });
+    assert.equal(restored?.moment.mood, mood);
+  }
 });
 
 import { latestHistory } from "../src/reading-storage.js";

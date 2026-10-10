@@ -1,4 +1,5 @@
 import { record, READING_NEEDS } from "./reading-profiles.js";
+import { READING_MOODS } from "./reading-menu.js";
 export function parseHistory(value) {
     if (record(value) && value.version === 1 && (value.generatedAt === null || (typeof value.generatedAt === "string" && Number.isFinite(Date.parse(value.generatedAt)))) && Array.isArray(value.ids) && value.ids.every((id) => typeof id === "string" && id.length > 0)) {
         return { version: 1, generatedAt: value.generatedAt, ids: [...new Set(value.ids)] };
@@ -19,7 +20,7 @@ export function parseSession(value) {
         return null;
     }
     const moment = value.moment;
-    if (!["weinig", "gemiddeld", "veel"].includes(String(moment.energy)) || ![null, "neutraal", "vrolijk", "somber", "gespannen"].includes(moment.mood)
+    if (!["weinig", "gemiddeld", "veel"].includes(String(moment.energy)) || !(moment.mood === null || READING_MOODS.some((mood) => mood === moment.mood))
         || !READING_NEEDS.some((need) => moment.need === need) || typeof moment.budget !== "number" || !Number.isSafeInteger(moment.budget) || moment.budget <= 0
         || !["voorgerecht", "hoofdgerecht", "nagerecht"].includes(String(value.course)) || typeof value.finished !== "boolean"
         || !Array.isArray(value.excluded) || !value.excluded.every((id) => typeof id === "string") || !Array.isArray(value.completed)
