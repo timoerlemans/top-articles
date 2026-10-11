@@ -452,15 +452,15 @@
       "confidence": "high",
       "rubricVersion": "reading-profile-v1",
       "sourceFingerprint": "7a5df6c04eeed19e8cf91174c573d02fac09a7e7e1040075761dc01493404280",
-      "evidenceFingerprint": "4e46b86a3e821b8b1fc516d3a0c3c9b2a83db929aafde429f4167724f46191db",
+      "evidenceFingerprint": "1142c7f4e046f5f59bcd080b5d48a0923a0ca4fcb05a764d6df04bdf26f4d276",
       "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
-      "judgedBy": "codex-reading-profile-review-2026-10-10",
-      "judgedAt": "2026-10-10T00:00:00Z",
+      "judgedBy": "codex-reading-profile-review-2026-10-11-inbox",
+      "judgedAt": "2026-10-11T08:17:59Z",
       "evidenceRefs": [
         "category",
-        "content"
+        "metadata"
       ],
-      "reason": "Video is uitgesloten van het leesmenu volgens de profielrubric."
+      "reason": "Videocontent valt buiten de leesprofielen; de Reader-categorie bepaalt de uitsluiting."
     },
     "01m4e8dw2n2b0p9zrhthjv5w3b": {
       "status": "accepted",
@@ -1167,15 +1167,15 @@
       "confidence": "high",
       "rubricVersion": "reading-profile-v1",
       "sourceFingerprint": "5752f4c94a15a9778b56c4a7cd7aa3525e7849fba1748daed266bc1c07460c92",
-      "evidenceFingerprint": "4568022b6ad1aa96c4eb90a3c949b8ddd98e1948f7ee172d308f4eadd4739e00",
+      "evidenceFingerprint": "d0fc89dd626a6757174acbb7c7e789be425050146f83f5744fa9599eb4bfef73",
       "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
-      "judgedBy": "codex-reading-profile-review-2026-10-10",
-      "judgedAt": "2026-10-10T00:00:00Z",
+      "judgedBy": "codex-reading-profile-review-2026-10-11-inbox",
+      "judgedAt": "2026-10-11T08:17:59Z",
       "evidenceRefs": [
         "category",
-        "content"
+        "metadata"
       ],
-      "reason": "Video is uitgesloten van het leesmenu volgens de profielrubric."
+      "reason": "Videocontent valt buiten de leesprofielen; de Reader-categorie bepaalt de uitsluiting."
     },
     "01m3vyhrv1ydekbh6kjsb3f6fn": {
       "status": "accepted",
@@ -1546,31 +1546,31 @@
       "confidence": "high",
       "rubricVersion": "reading-profile-v1",
       "sourceFingerprint": "77004746e4e562da19a18ee560c3aac7e47dadbe3df19738bb9a9e41674b370d",
-      "evidenceFingerprint": "30c7451ab770a875e4fd0f9b4165fe778ab9be259b305b23ac1127db03dd4c51",
+      "evidenceFingerprint": "b8bbd4ca8f7f3c8403237e6bacb539fde2d8ea5785ce4568411795fc430923d7",
       "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
-      "judgedBy": "codex-reading-profile-review-2026-10-10",
-      "judgedAt": "2026-10-10T00:00:00Z",
+      "judgedBy": "codex-reading-profile-review-2026-10-11-inbox",
+      "judgedAt": "2026-10-11T08:17:59Z",
       "evidenceRefs": [
         "category",
-        "content"
+        "metadata"
       ],
-      "reason": "Boeken blijven uitgesloten van het leesmenu; ze horen in de boekenreeks."
+      "reason": "Boek/EPUB valt buiten de leesprofielen; de Reader-categorie bepaalt de uitsluiting."
     },
     "01m3j811qp5tg4s050wcwbtvdc": {
       "status": "accepted",
-      "confidence": "medium",
+      "confidence": "high",
       "rubricVersion": "reading-profile-v1",
       "sourceFingerprint": "07232c946381e01c2013476cfb9212602f0c530bb79b3f0c1433432cad2a688c",
-      "evidenceFingerprint": "478644f92d80688571a5af71628fab3e6ab0be8ce971e2963f73419918c0c1d8",
+      "evidenceFingerprint": "bf3e33b7a8402ecaf6f58bd81295b1d87bdacf4fb75a693a9063d6f14388b402",
       "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
-      "judgedBy": "codex-reading-profile-review-2026-10-10",
-      "judgedAt": "2026-10-10T00:00:00Z",
+      "judgedBy": "codex-reading-profile-review-2026-10-11-inbox",
+      "judgedAt": "2026-10-11T08:17:59Z",
       "evidenceRefs": [
-        "content",
-        "summary",
-        "tags"
+        "content-cache",
+        "notes",
+        "summary"
       ],
-      "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
+      "reason": "De volledige broncache met overeenkomende sourceFingerprint toont een technisch-reflectief en stellig essay; AI-gedreven baanonzekerheid maakt het merkbaar belastend, met herkenbare werkervaring en inhoudelijke diepgang.",
       "traits": {
         "effort": 3,
         "emotionalWeight": 2,
@@ -1785,15 +1785,15 @@
       "confidence": "high",
       "rubricVersion": "reading-profile-v1",
       "sourceFingerprint": "1e966ed895405028bfd98946d9de84511d308a0c8c8686c50d22842f9003e7c2",
-      "evidenceFingerprint": "fee2749e8bf877edf9dab17c89842f0e1d605e43cdd2eaaeb473bdf5672a5a86",
+      "evidenceFingerprint": "4bd37f28c0f7aa122e03dfa91cc90c6b2a0b9038cf229771c7c26a747dc7c12b",
       "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
-      "judgedBy": "codex-reading-profile-review-2026-10-10",
-      "judgedAt": "2026-10-10T00:00:00Z",
+      "judgedBy": "codex-reading-profile-review-2026-10-11-inbox",
+      "judgedAt": "2026-10-11T08:17:59Z",
       "evidenceRefs": [
         "category",
-        "content"
+        "metadata"
       ],
-      "reason": "Video is uitgesloten van het leesmenu volgens de profielrubric."
+      "reason": "Videocontent valt buiten de leesprofielen; de Reader-categorie bepaalt de uitsluiting."
     },
     "01m3gr7zfa6ns655xrdmbjq9mc": {
       "status": "accepted",
@@ -2192,15 +2192,15 @@
       "confidence": "high",
       "rubricVersion": "reading-profile-v1",
       "sourceFingerprint": "23da83a80fabdf6198db42f59a5123c40c410291cf71afef8723abda17ee1355",
-      "evidenceFingerprint": "4fcd740bec842356859de6323f90d1e2893405200af5e7f477581ad4b5c86abb",
+      "evidenceFingerprint": "29261257d29f8970420b76c0fcfc73491be85d9967045af575359020bb48fae0",
       "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
-      "judgedBy": "codex-reading-profile-review-2026-10-10",
-      "judgedAt": "2026-10-10T00:00:00Z",
+      "judgedBy": "codex-reading-profile-review-2026-10-11-inbox",
+      "judgedAt": "2026-10-11T08:17:59Z",
       "evidenceRefs": [
         "category",
-        "content"
+        "metadata"
       ],
-      "reason": "Video is uitgesloten van het leesmenu volgens de profielrubric."
+      "reason": "Videocontent valt buiten de leesprofielen; de Reader-categorie bepaalt de uitsluiting."
     },
     "01m3dtarte45rdkdm6vgwmdf92": {
       "status": "accepted",
@@ -2879,15 +2879,15 @@
       "confidence": "high",
       "rubricVersion": "reading-profile-v1",
       "sourceFingerprint": "b81b4e228b0c7591d40d6238f48de8c978f9efd28c039754bcb81723eb27a1cd",
-      "evidenceFingerprint": "652836e73cc5226ec3ae0aef24cd8e30c5ada586a1f18d8355db87d341bd7d04",
+      "evidenceFingerprint": "2085b2fd19dac0a592ed4a0b1518352a62e83ac5b668a5ed286637ed3373689e",
       "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
-      "judgedBy": "codex-reading-profile-review-2026-10-10",
-      "judgedAt": "2026-10-10T00:00:00Z",
+      "judgedBy": "codex-reading-profile-review-2026-10-11-inbox",
+      "judgedAt": "2026-10-11T08:17:59Z",
       "evidenceRefs": [
         "category",
-        "content"
+        "metadata"
       ],
-      "reason": "Video is uitgesloten van het leesmenu volgens de profielrubric."
+      "reason": "Videocontent valt buiten de leesprofielen; de Reader-categorie bepaalt de uitsluiting."
     },
     "01m3c9fz1f2sd661ktwa347ehg": {
       "status": "accepted",
@@ -3090,15 +3090,15 @@
       "confidence": "high",
       "rubricVersion": "reading-profile-v1",
       "sourceFingerprint": "ba4fdfefe4c2cb4c65279601cfd1f7123857cfffc9b2bedeaf50b0873711ab4e",
-      "evidenceFingerprint": "0dd1cc86449ff30c0981730e36c2e77f5f07cae5ec8716a801b22cf6db9ef4e6",
+      "evidenceFingerprint": "b62d1d6a284f530131cb06a01b51559a3eb05df10b792261a9698f5f800c347e",
       "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
-      "judgedBy": "codex-reading-profile-review-2026-10-10",
-      "judgedAt": "2026-10-10T00:00:00Z",
+      "judgedBy": "codex-reading-profile-review-2026-10-11-inbox",
+      "judgedAt": "2026-10-11T08:17:59Z",
       "evidenceRefs": [
         "category",
-        "content"
+        "metadata"
       ],
-      "reason": "Video is uitgesloten van het leesmenu volgens de profielrubric."
+      "reason": "Videocontent valt buiten de leesprofielen; de Reader-categorie bepaalt de uitsluiting."
     },
     "01m3bcvez8mhjr798chtpekmj1": {
       "status": "accepted",
@@ -3441,15 +3441,15 @@
       "confidence": "high",
       "rubricVersion": "reading-profile-v1",
       "sourceFingerprint": "4e46e8c64dcaf5c99245d90387a67b082527a881e2c92e8b597092317bd18938",
-      "evidenceFingerprint": "3305c929f2ccab6a1eb6c4450fa6b6266131a8765d3c59936bcbacc7265d42c6",
+      "evidenceFingerprint": "543ce11792129614f0549f90e30910b4baf8e683f3499e02b29d9b92d1766239",
       "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
-      "judgedBy": "codex-reading-profile-review-2026-10-10",
-      "judgedAt": "2026-10-10T00:00:00Z",
+      "judgedBy": "codex-reading-profile-review-2026-10-11-inbox",
+      "judgedAt": "2026-10-11T08:17:59Z",
       "evidenceRefs": [
         "category",
-        "content"
+        "metadata"
       ],
-      "reason": "Video is uitgesloten van het leesmenu volgens de profielrubric."
+      "reason": "Videocontent valt buiten de leesprofielen; de Reader-categorie bepaalt de uitsluiting."
     },
     "01m342p2njkgrn1qpn8acvxf52": {
       "status": "accepted",
@@ -5360,15 +5360,15 @@
       "confidence": "high",
       "rubricVersion": "reading-profile-v1",
       "sourceFingerprint": "4adde181f900de20eb9fcf6dd8db90dd8879d8a9f6e75f160edaf64f569edae8",
-      "evidenceFingerprint": "81142a81f8955391c419a93d8bf20387bb61bbc572a4fc434a830c3d7da34ed0",
+      "evidenceFingerprint": "1b0d8304ab2f7f619d1a451e881dbf982c8351e6b11cd0e321cd6a868e1679a4",
       "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
-      "judgedBy": "codex-reading-profile-review-2026-10-10",
-      "judgedAt": "2026-10-10T00:00:00Z",
+      "judgedBy": "codex-reading-profile-review-2026-10-11-inbox",
+      "judgedAt": "2026-10-11T08:17:59Z",
       "evidenceRefs": [
         "category",
-        "content"
+        "metadata"
       ],
-      "reason": "Video is uitgesloten van het leesmenu volgens de profielrubric."
+      "reason": "Videocontent valt buiten de leesprofielen; de Reader-categorie bepaalt de uitsluiting."
     },
     "01m2jbf3n6p58de83t7hsz1t95": {
       "status": "accepted",
@@ -5879,15 +5879,15 @@
       "confidence": "high",
       "rubricVersion": "reading-profile-v1",
       "sourceFingerprint": "a693e3b22320c89675e71f03675a949183265e189442f694b71d6a93dd8650b8",
-      "evidenceFingerprint": "7e96011cfe76a79bdb9e8889da21a45749428dff080f80c3fc097a1c93be6774",
+      "evidenceFingerprint": "194a10925d324b21b5e3502cce6c1fae0972432066758be7dea18dce4c23ebd9",
       "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
-      "judgedBy": "codex-reading-profile-review-2026-10-10",
-      "judgedAt": "2026-10-10T00:00:00Z",
+      "judgedBy": "codex-reading-profile-review-2026-10-11-inbox",
+      "judgedAt": "2026-10-11T08:17:59Z",
       "evidenceRefs": [
         "category",
-        "content"
+        "metadata"
       ],
-      "reason": "Video is uitgesloten van het leesmenu volgens de profielrubric."
+      "reason": "Videocontent valt buiten de leesprofielen; de Reader-categorie bepaalt de uitsluiting."
     },
     "01m2aysbr5r7v0x099jednqehf": {
       "status": "accepted",
@@ -5978,15 +5978,15 @@
       "confidence": "high",
       "rubricVersion": "reading-profile-v1",
       "sourceFingerprint": "62b3f9f235dedd776032d70f1c935d36f5ec3aef49d1e299e95868b10eef3c1b",
-      "evidenceFingerprint": "d30255abd1bc7e05b0b2ab58c3cd52fcf03fed0b9cb191c1d6d639dda913eb7e",
+      "evidenceFingerprint": "2878b429e49def01490fb532fb9004bc71e686b8b6aa80c8f800e2f2b683c62b",
       "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
-      "judgedBy": "codex-reading-profile-review-2026-10-10",
-      "judgedAt": "2026-10-10T00:00:00Z",
+      "judgedBy": "codex-reading-profile-review-2026-10-11-inbox",
+      "judgedAt": "2026-10-11T08:17:59Z",
       "evidenceRefs": [
         "category",
-        "content"
+        "metadata"
       ],
-      "reason": "Video is uitgesloten van het leesmenu volgens de profielrubric."
+      "reason": "Videocontent valt buiten de leesprofielen; de Reader-categorie bepaalt de uitsluiting."
     },
     "01m238hym49xc8fej427a9vvvb": {
       "status": "accepted",
@@ -8121,15 +8121,15 @@
       "confidence": "high",
       "rubricVersion": "reading-profile-v1",
       "sourceFingerprint": "3a9148bb7a59bc9712eb47ec0e49ca1ab24b1dde2fb3a95ecd2f01050e8024a5",
-      "evidenceFingerprint": "deb3ed29f44815fa9c07d8a4d95bd1fa92f8b6492a59c8c3d4fd96a66349807f",
+      "evidenceFingerprint": "daecb5cf515b180a39e66656a8c763c20e0bf5d6750534df8fd1e179ca436482",
       "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
-      "judgedBy": "codex-reading-profile-review-2026-10-10",
-      "judgedAt": "2026-10-10T00:00:00Z",
+      "judgedBy": "codex-reading-profile-review-2026-10-11-inbox",
+      "judgedAt": "2026-10-11T08:17:59Z",
       "evidenceRefs": [
         "category",
-        "content"
+        "metadata"
       ],
-      "reason": "Boeken blijven uitgesloten van het leesmenu; ze horen in de boekenreeks."
+      "reason": "Boek/EPUB valt buiten de leesprofielen; de Reader-categorie bepaalt de uitsluiting."
     },
     "01m148wj4yg1xmwqbd8rqy5yr7": {
       "status": "accepted",
@@ -8248,15 +8248,15 @@
       "confidence": "high",
       "rubricVersion": "reading-profile-v1",
       "sourceFingerprint": "be5f3c389f0f19d70c453905bc7276d022f4a2ed8b52bee08884902617fbb263",
-      "evidenceFingerprint": "6a5f30584c4e555b887aae1b935f04b0fdfe3fae4abafccf49883df8823fbecf",
+      "evidenceFingerprint": "93cfe106f8006fd1d697d7b96893333a5b8994abfc20493670bcca0cf3801bab",
       "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
-      "judgedBy": "codex-reading-profile-review-2026-10-10",
-      "judgedAt": "2026-10-10T00:00:00Z",
+      "judgedBy": "codex-reading-profile-review-2026-10-11-inbox",
+      "judgedAt": "2026-10-11T08:17:59Z",
       "evidenceRefs": [
         "category",
-        "content"
+        "metadata"
       ],
-      "reason": "Video is uitgesloten van het leesmenu volgens de profielrubric."
+      "reason": "Videocontent valt buiten de leesprofielen; de Reader-categorie bepaalt de uitsluiting."
     },
     "01m0zs70wqrf8nvkmrwzg9843y": {
       "status": "accepted",
@@ -8599,135 +8599,135 @@
       "confidence": "high",
       "rubricVersion": "reading-profile-v1",
       "sourceFingerprint": "1b8410f4471e2d0a0265e8387ad9b228351e54362f78845ec4683860a8dbea01",
-      "evidenceFingerprint": "1fef598e8c82728da31d8edc1d8e3934dd8c9a9174d047b6a61b6e6925e89e24",
+      "evidenceFingerprint": "b2b8a415b27d6e4248a89fa1dbd445688de804daaf5a9272a69d7e9cc2d868a7",
       "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
-      "judgedBy": "codex-reading-profile-review-2026-10-10",
-      "judgedAt": "2026-10-10T00:00:00Z",
+      "judgedBy": "codex-reading-profile-review-2026-10-11-inbox",
+      "judgedAt": "2026-10-11T08:17:59Z",
       "evidenceRefs": [
         "category",
-        "content"
+        "metadata"
       ],
-      "reason": "Video is uitgesloten van het leesmenu volgens de profielrubric."
+      "reason": "Videocontent valt buiten de leesprofielen; de Reader-categorie bepaalt de uitsluiting."
     },
     "01m0kzws6tp6edn1k4t1dmr1rq": {
       "status": "rejected",
       "confidence": "high",
       "rubricVersion": "reading-profile-v1",
       "sourceFingerprint": "4160cd123df0de7e29ac3a75dbb3be5dc125edd649a9d980d0ee1608cbe6a7e1",
-      "evidenceFingerprint": "709d613316f176dd85127664b628fe31115ffdb3925d320bf32f640790457f78",
+      "evidenceFingerprint": "d390cca41b88264d9c6c18cfc12526c40b13614de5c8badfcc736bff08f7d9c1",
       "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
-      "judgedBy": "codex-reading-profile-review-2026-10-10",
-      "judgedAt": "2026-10-10T00:00:00Z",
+      "judgedBy": "codex-reading-profile-review-2026-10-11-inbox",
+      "judgedAt": "2026-10-11T08:17:59Z",
       "evidenceRefs": [
         "category",
-        "content"
+        "metadata"
       ],
-      "reason": "Video is uitgesloten van het leesmenu volgens de profielrubric."
+      "reason": "Videocontent valt buiten de leesprofielen; de Reader-categorie bepaalt de uitsluiting."
     },
     "01m0kzwkwp6cjx5m2jn5stztex": {
       "status": "rejected",
       "confidence": "high",
       "rubricVersion": "reading-profile-v1",
       "sourceFingerprint": "d6f18dbb69e9679271bc85ec2db81dcc564228ed154a49611cf6ad871db65506",
-      "evidenceFingerprint": "7ffb7eecc650c992d5b0e1f6a9152f6e63735d8527d90d32c0d3c9145e11527b",
+      "evidenceFingerprint": "a1afc6b3f6277b8281be2445b0ba344edbcc501e107dc037392b9c2898c691b5",
       "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
-      "judgedBy": "codex-reading-profile-review-2026-10-10",
-      "judgedAt": "2026-10-10T00:00:00Z",
+      "judgedBy": "codex-reading-profile-review-2026-10-11-inbox",
+      "judgedAt": "2026-10-11T08:17:59Z",
       "evidenceRefs": [
         "category",
-        "content"
+        "metadata"
       ],
-      "reason": "Video is uitgesloten van het leesmenu volgens de profielrubric."
+      "reason": "Videocontent valt buiten de leesprofielen; de Reader-categorie bepaalt de uitsluiting."
     },
     "01m0kzvhp90e4w4ycfaqv26f31": {
       "status": "rejected",
       "confidence": "high",
       "rubricVersion": "reading-profile-v1",
       "sourceFingerprint": "dedf6193768777fd36058bad90a9e0be9efd754313f9643701ace51ee0f6b489",
-      "evidenceFingerprint": "a57d2c5d75750eee35cf802d373e59d9105e780b46663f18601e24c9fb4ade3b",
+      "evidenceFingerprint": "6aaba597159a8b9d4f7bd091edc3e6c801c86995f3c0775d56c9a43f94921df2",
       "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
-      "judgedBy": "codex-reading-profile-review-2026-10-10",
-      "judgedAt": "2026-10-10T00:00:00Z",
+      "judgedBy": "codex-reading-profile-review-2026-10-11-inbox",
+      "judgedAt": "2026-10-11T08:17:59Z",
       "evidenceRefs": [
         "category",
-        "content"
+        "metadata"
       ],
-      "reason": "Video is uitgesloten van het leesmenu volgens de profielrubric."
+      "reason": "Videocontent valt buiten de leesprofielen; de Reader-categorie bepaalt de uitsluiting."
     },
     "01m0kzvbj6t6crzagc9kw1n43f": {
       "status": "rejected",
       "confidence": "high",
       "rubricVersion": "reading-profile-v1",
       "sourceFingerprint": "5c6748feaff44cb10244d1f7af2bbc4776032da02d061a110b65f6a5c3cb6c5c",
-      "evidenceFingerprint": "4ac98c933d34b095014b5dd0ad8abbc1ea33503b9d0a7e58cdad8e38c4a4cac4",
+      "evidenceFingerprint": "0773f3d42ec0b851bce7526c6ca93e03dfc607c8a3110a4d3bd0bc492149541e",
       "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
-      "judgedBy": "codex-reading-profile-review-2026-10-10",
-      "judgedAt": "2026-10-10T00:00:00Z",
+      "judgedBy": "codex-reading-profile-review-2026-10-11-inbox",
+      "judgedAt": "2026-10-11T08:17:59Z",
       "evidenceRefs": [
         "category",
-        "content"
+        "metadata"
       ],
-      "reason": "Video is uitgesloten van het leesmenu volgens de profielrubric."
+      "reason": "Videocontent valt buiten de leesprofielen; de Reader-categorie bepaalt de uitsluiting."
     },
     "01m0kzv38gdmh51b4kzqg40mw9": {
       "status": "rejected",
       "confidence": "high",
       "rubricVersion": "reading-profile-v1",
       "sourceFingerprint": "1f8b42bed5fe22db3ec540f02b1e80d0b0caed015c825eba4573f0720ebb6a30",
-      "evidenceFingerprint": "5d94435f59dbb8f16103bc5f33c0b65d352f06bba97b70c95a67adaace6aab73",
+      "evidenceFingerprint": "f83db5290f1b009c9a661960e996f0b3d256769614e3396ec1554dae13da5fb4",
       "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
-      "judgedBy": "codex-reading-profile-review-2026-10-10",
-      "judgedAt": "2026-10-10T00:00:00Z",
+      "judgedBy": "codex-reading-profile-review-2026-10-11-inbox",
+      "judgedAt": "2026-10-11T08:17:59Z",
       "evidenceRefs": [
         "category",
-        "content"
+        "metadata"
       ],
-      "reason": "Video is uitgesloten van het leesmenu volgens de profielrubric."
+      "reason": "Videocontent valt buiten de leesprofielen; de Reader-categorie bepaalt de uitsluiting."
     },
     "01m0kztthka4bcp3a2mfxww828": {
       "status": "rejected",
       "confidence": "high",
       "rubricVersion": "reading-profile-v1",
       "sourceFingerprint": "569038d363602b2a92d18212b039b5a343380d83b0f349e77929077d2ea45938",
-      "evidenceFingerprint": "7d68cc5ffcaab2a057d8afe0786c57e1369b9a82a410991e10a327df13ad6e6b",
+      "evidenceFingerprint": "6fa50ac88d3cbc69bd0af6b26931a4d8fa490e36e0c814d08231d5c1b8ff6b70",
       "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
-      "judgedBy": "codex-reading-profile-review-2026-10-10",
-      "judgedAt": "2026-10-10T00:00:00Z",
+      "judgedBy": "codex-reading-profile-review-2026-10-11-inbox",
+      "judgedAt": "2026-10-11T08:17:59Z",
       "evidenceRefs": [
         "category",
-        "content"
+        "metadata"
       ],
-      "reason": "Video is uitgesloten van het leesmenu volgens de profielrubric."
+      "reason": "Videocontent valt buiten de leesprofielen; de Reader-categorie bepaalt de uitsluiting."
     },
     "01m0kztgwcc1d43t3sdahzhg08": {
       "status": "rejected",
       "confidence": "high",
       "rubricVersion": "reading-profile-v1",
       "sourceFingerprint": "6c7ae603c65ca44800e8c57dec2271b2a8052a48ebbec3c7339448c1beb11725",
-      "evidenceFingerprint": "1ba8e76f986e1513e0b4df5e2b7d75ec376a6f72e1ec94dbcc07ff059ce22a77",
+      "evidenceFingerprint": "020edd46d99bad4f9db607dce99c7e29a5f678bd07c90a24021716b1048be625",
       "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
-      "judgedBy": "codex-reading-profile-review-2026-10-10",
-      "judgedAt": "2026-10-10T00:00:00Z",
+      "judgedBy": "codex-reading-profile-review-2026-10-11-inbox",
+      "judgedAt": "2026-10-11T08:17:59Z",
       "evidenceRefs": [
         "category",
-        "content"
+        "metadata"
       ],
-      "reason": "Video is uitgesloten van het leesmenu volgens de profielrubric."
+      "reason": "Videocontent valt buiten de leesprofielen; de Reader-categorie bepaalt de uitsluiting."
     },
     "01m0kztar8p0q02aet41a6xn7w": {
       "status": "rejected",
       "confidence": "high",
       "rubricVersion": "reading-profile-v1",
       "sourceFingerprint": "dece0a17724c4a3cc5f0a43893f05932e3466db1c888657551a5af6513856696",
-      "evidenceFingerprint": "5e03feeb7ac2a6708d44e01a1f2779e126074bae013e8e817d7c2778a1212767",
+      "evidenceFingerprint": "87329ec880d270890483bfb7d6be2ebd19c896e18d84b24b52ec13f3d7e2993e",
       "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
-      "judgedBy": "codex-reading-profile-review-2026-10-10",
-      "judgedAt": "2026-10-10T00:00:00Z",
+      "judgedBy": "codex-reading-profile-review-2026-10-11-inbox",
+      "judgedAt": "2026-10-11T08:17:59Z",
       "evidenceRefs": [
         "category",
-        "content"
+        "metadata"
       ],
-      "reason": "Video is uitgesloten van het leesmenu volgens de profielrubric."
+      "reason": "Videocontent valt buiten de leesprofielen; de Reader-categorie bepaalt de uitsluiting."
     },
     "01m0f29337jsph1jwqq3njdbkc": {
       "status": "accepted",
@@ -9406,15 +9406,15 @@
       "confidence": "high",
       "rubricVersion": "reading-profile-v1",
       "sourceFingerprint": "52654adb06bf41028c135e3b057c827501bb54143097dcabb020669e4800cc39",
-      "evidenceFingerprint": "36c9caf4d159065862def0d96c13e05c39d492387710f9160b2e05f70c7031b0",
+      "evidenceFingerprint": "ebbcae99f6ebed66c9e6df4b3a88f1e568fe3268976ec01dba88f1b35155837c",
       "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
-      "judgedBy": "codex-reading-profile-review-2026-10-10",
-      "judgedAt": "2026-10-10T00:00:00Z",
+      "judgedBy": "codex-reading-profile-review-2026-10-11-inbox",
+      "judgedAt": "2026-10-11T08:17:59Z",
       "evidenceRefs": [
         "category",
-        "content"
+        "metadata"
       ],
-      "reason": "Boeken blijven uitgesloten van het leesmenu; ze horen in de boekenreeks."
+      "reason": "Boek/EPUB valt buiten de leesprofielen; de Reader-categorie bepaalt de uitsluiting."
     },
     "01kxrhtjs9wgt5ta83dd02hya3": {
       "status": "accepted",
@@ -9477,90 +9477,90 @@
       "confidence": "high",
       "rubricVersion": "reading-profile-v1",
       "sourceFingerprint": "34513ef6b5f79b8e574c020dc9a121c4b26e1a78275b9b5967f7c3ce5e231e5f",
-      "evidenceFingerprint": "739d45033fbd9de664faad893d4a586b89d66c01d3bfdc485aa26e038be6cf00",
+      "evidenceFingerprint": "83586caa20f7b663d04869322738914adfc7ebe97821e4b4d1305a75e5568360",
       "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
-      "judgedBy": "codex-reading-profile-review-2026-10-10",
-      "judgedAt": "2026-10-10T00:00:00Z",
+      "judgedBy": "codex-reading-profile-review-2026-10-11-inbox",
+      "judgedAt": "2026-10-11T08:17:59Z",
       "evidenceRefs": [
         "category",
-        "content"
+        "metadata"
       ],
-      "reason": "Boeken blijven uitgesloten van het leesmenu; ze horen in de boekenreeks."
+      "reason": "Boek/EPUB valt buiten de leesprofielen; de Reader-categorie bepaalt de uitsluiting."
     },
     "01kxh3dc0gn9f96vqa7s1t9fnw": {
       "status": "rejected",
       "confidence": "high",
       "rubricVersion": "reading-profile-v1",
       "sourceFingerprint": "171a705be10f5ca4263215ee7c21719ae501e9a0f2f417b3616e06995ef804f9",
-      "evidenceFingerprint": "e23cd718654842c0372a2e285d92b9a4035a49fbbd785400e1f6260c0dbe7d38",
+      "evidenceFingerprint": "699bed04f7f608ea4dc15f0d9a1f6f02e2aa6b132e4a32f676caee2243142067",
       "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
-      "judgedBy": "codex-reading-profile-review-2026-10-10",
-      "judgedAt": "2026-10-10T00:00:00Z",
+      "judgedBy": "codex-reading-profile-review-2026-10-11-inbox",
+      "judgedAt": "2026-10-11T08:17:59Z",
       "evidenceRefs": [
         "category",
-        "content"
+        "metadata"
       ],
-      "reason": "Boeken blijven uitgesloten van het leesmenu; ze horen in de boekenreeks."
+      "reason": "Boek/EPUB valt buiten de leesprofielen; de Reader-categorie bepaalt de uitsluiting."
     },
     "01kxh3d92yh43t0kddha2vhyxz": {
       "status": "rejected",
       "confidence": "high",
       "rubricVersion": "reading-profile-v1",
       "sourceFingerprint": "12205c7e52489b10f4d99505d5ed1c58f4019aa4c28fbfc93df6540cb3d3e0cb",
-      "evidenceFingerprint": "3e87b1f0a5c10eedec1ec1009b8f3530c191e62e55c8742c40e87584a0877382",
+      "evidenceFingerprint": "f03a2a55df407083fda27f5cd2c11363a98844c273e1d4e4756f986ae1b0f5e3",
       "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
-      "judgedBy": "codex-reading-profile-review-2026-10-10",
-      "judgedAt": "2026-10-10T00:00:00Z",
+      "judgedBy": "codex-reading-profile-review-2026-10-11-inbox",
+      "judgedAt": "2026-10-11T08:17:59Z",
       "evidenceRefs": [
         "category",
-        "content"
+        "metadata"
       ],
-      "reason": "Boeken blijven uitgesloten van het leesmenu; ze horen in de boekenreeks."
+      "reason": "Boek/EPUB valt buiten de leesprofielen; de Reader-categorie bepaalt de uitsluiting."
     },
     "01kxh3cr3pknc3hxnhsx33xdcx": {
       "status": "rejected",
       "confidence": "high",
       "rubricVersion": "reading-profile-v1",
       "sourceFingerprint": "a3707a33f9e470ac90ad9ffe86f8ed37b005a95d75a8ac9a578c528b1bcf3cb6",
-      "evidenceFingerprint": "f10efde8028a25b86bea6f0b575d9c122cb26ba32f31e0bcc0326f8909d36a0b",
+      "evidenceFingerprint": "d7eee7614c889d7781b5474fa404847b4ecff362cfefa80473bc0f50d30d5f33",
       "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
-      "judgedBy": "codex-reading-profile-review-2026-10-10",
-      "judgedAt": "2026-10-10T00:00:00Z",
+      "judgedBy": "codex-reading-profile-review-2026-10-11-inbox",
+      "judgedAt": "2026-10-11T08:17:59Z",
       "evidenceRefs": [
         "category",
-        "content"
+        "metadata"
       ],
-      "reason": "Boeken blijven uitgesloten van het leesmenu; ze horen in de boekenreeks."
+      "reason": "Boek/EPUB valt buiten de leesprofielen; de Reader-categorie bepaalt de uitsluiting."
     },
     "01kxh3cq0yd7tq672g97w9pts7": {
       "status": "rejected",
       "confidence": "high",
       "rubricVersion": "reading-profile-v1",
       "sourceFingerprint": "04857dc603a58ae4bf5b33fb8bc2c39763b41a2c627c61896b1e72780c59e9a0",
-      "evidenceFingerprint": "fef34e59a3acb8101073e3e94f4633fb17dd2d83741d5a39d9e1e103fc6159c4",
+      "evidenceFingerprint": "5c2c01027809ee4d8d3b8fae5d2daf418a013c12697c7bacd0c3aec22ae45052",
       "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
-      "judgedBy": "codex-reading-profile-review-2026-10-10",
-      "judgedAt": "2026-10-10T00:00:00Z",
+      "judgedBy": "codex-reading-profile-review-2026-10-11-inbox",
+      "judgedAt": "2026-10-11T08:17:59Z",
       "evidenceRefs": [
         "category",
-        "content"
+        "metadata"
       ],
-      "reason": "Boeken blijven uitgesloten van het leesmenu; ze horen in de boekenreeks."
+      "reason": "Boek/EPUB valt buiten de leesprofielen; de Reader-categorie bepaalt de uitsluiting."
     },
     "01kxh3cnkmne0bwxm5vvjzsnvy": {
       "status": "rejected",
       "confidence": "high",
       "rubricVersion": "reading-profile-v1",
       "sourceFingerprint": "4d430b4f26c9d9a757824549f3465a6f1351c96fd9a97af9dd22ba2aee7a9fd4",
-      "evidenceFingerprint": "912152fb40b7643a6e3f97ce83d2220e9f98aa70aa1325139187a0baaf300b05",
+      "evidenceFingerprint": "e97a9d0d2ec9793e282b279e1f06dab2e9be4fcfbee72e4add19dd7fd242147f",
       "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
-      "judgedBy": "codex-reading-profile-review-2026-10-10",
-      "judgedAt": "2026-10-10T00:00:00Z",
+      "judgedBy": "codex-reading-profile-review-2026-10-11-inbox",
+      "judgedAt": "2026-10-11T08:17:59Z",
       "evidenceRefs": [
         "category",
-        "content"
+        "metadata"
       ],
-      "reason": "Boeken blijven uitgesloten van het leesmenu; ze horen in de boekenreeks."
+      "reason": "Boek/EPUB valt buiten de leesprofielen; de Reader-categorie bepaalt de uitsluiting."
     },
     "01kwragbn5fwjf0dvfyfvwvne8": {
       "status": "accepted",
@@ -9679,15 +9679,15 @@
       "confidence": "high",
       "rubricVersion": "reading-profile-v1",
       "sourceFingerprint": "824f5813aa3374d76a62805dc72c8f07c4e12f3e0b3a8b43743da9c12e45c1b3",
-      "evidenceFingerprint": "fa9a876d402e03078fb3daa300bac6167ce37d2ae36c64c7577d4a23293cde46",
+      "evidenceFingerprint": "4ef16daf1657cd4447f0fb737272fc60a1ad277bd530b5a7e73eb62a6f9be9a9",
       "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
-      "judgedBy": "codex-reading-profile-review-2026-10-10",
-      "judgedAt": "2026-10-10T00:00:00Z",
+      "judgedBy": "codex-reading-profile-review-2026-10-11-inbox",
+      "judgedAt": "2026-10-11T08:17:59Z",
       "evidenceRefs": [
         "category",
-        "content"
+        "metadata"
       ],
-      "reason": "Boeken blijven uitgesloten van het leesmenu; ze horen in de boekenreeks."
+      "reason": "Boek/EPUB valt buiten de leesprofielen; de Reader-categorie bepaalt de uitsluiting."
     },
     "01kw3yjp92dh7r7qzk3bja513n": {
       "status": "accepted",
@@ -9974,15 +9974,15 @@
       "confidence": "high",
       "rubricVersion": "reading-profile-v1",
       "sourceFingerprint": "7f3c73c967348877bcaefa37abede1ff9cda5b30a3a775039e5992c8f4a6b690",
-      "evidenceFingerprint": "ed70b2bee43d14f77891525f7cd3c63d9fffa19d7653378090be35efa620fdd7",
+      "evidenceFingerprint": "6c576cbdc062dcb98e81c523ac58c3e99b9d06b7a2c90aa04c6d75fb98731eb6",
       "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
-      "judgedBy": "codex-reading-profile-review-2026-10-10",
-      "judgedAt": "2026-10-10T00:00:00Z",
+      "judgedBy": "codex-reading-profile-review-2026-10-11-inbox",
+      "judgedAt": "2026-10-11T08:17:59Z",
       "evidenceRefs": [
         "category",
-        "content"
+        "metadata"
       ],
-      "reason": "Boeken blijven uitgesloten van het leesmenu; ze horen in de boekenreeks."
+      "reason": "Boek/EPUB valt buiten de leesprofielen; de Reader-categorie bepaalt de uitsluiting."
     },
     "01ks96dy2nfby7cyd152ev2a9k": {
       "status": "accepted",
@@ -10381,15 +10381,15 @@
       "confidence": "high",
       "rubricVersion": "reading-profile-v1",
       "sourceFingerprint": "c743b45eddc030698d434349804194e143a4f8bbc69961c1ba6c0fa9c96dfc21",
-      "evidenceFingerprint": "5c1a6bbae6d21009398a5329293dbc777970e94a84dfc823bfafaeb8a18148cd",
+      "evidenceFingerprint": "52ced84a5e3487ecca52cefd5adbd4734f85daf23626308bc687e769a3dc99be",
       "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
-      "judgedBy": "codex-reading-profile-review-2026-10-10",
-      "judgedAt": "2026-10-10T00:00:00Z",
+      "judgedBy": "codex-reading-profile-review-2026-10-11-inbox",
+      "judgedAt": "2026-10-11T08:17:59Z",
       "evidenceRefs": [
         "category",
-        "content"
+        "metadata"
       ],
-      "reason": "Boeken blijven uitgesloten van het leesmenu; ze horen in de boekenreeks."
+      "reason": "Boek/EPUB valt buiten de leesprofielen; de Reader-categorie bepaalt de uitsluiting."
     },
     "01knefpm3ae2ew1jrq9twtjc1w": {
       "status": "accepted",
@@ -10508,30 +10508,30 @@
       "confidence": "high",
       "rubricVersion": "reading-profile-v1",
       "sourceFingerprint": "26a099c3b2037526e9dfe3b035cbacf48a144055057a610fcca43331bd945520",
-      "evidenceFingerprint": "4c75dab5f2892ebdaf1933d7da1e2ec3b8659228b722d8d80cd915cb65e82f5b",
+      "evidenceFingerprint": "e88f94411c05bdd0e727de4f60949ed56b00e7ef65d1b073141e41d676bd4110",
       "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
-      "judgedBy": "codex-reading-profile-review-2026-10-10",
-      "judgedAt": "2026-10-10T00:00:00Z",
+      "judgedBy": "codex-reading-profile-review-2026-10-11-inbox",
+      "judgedAt": "2026-10-11T08:17:59Z",
       "evidenceRefs": [
         "category",
-        "content"
+        "metadata"
       ],
-      "reason": "Boeken blijven uitgesloten van het leesmenu; ze horen in de boekenreeks."
+      "reason": "Boek/EPUB valt buiten de leesprofielen; de Reader-categorie bepaalt de uitsluiting."
     },
     "01kkka1pgqxbayzs51vm34np4b": {
       "status": "rejected",
       "confidence": "high",
       "rubricVersion": "reading-profile-v1",
       "sourceFingerprint": "26504bf6d8e56dcb0cf5b725a7cf29acde14e21250111c268821fd63fd2b0446",
-      "evidenceFingerprint": "6c6e9b78245cf409dceaa508b620158fef6337ffd8b5384ca2ee51c1f07d45e6",
+      "evidenceFingerprint": "a7fa1c3a835e8eda502de09234e773b104d3bdc1b31ddad1f344b47c32718be4",
       "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
-      "judgedBy": "codex-reading-profile-review-2026-10-10",
-      "judgedAt": "2026-10-10T00:00:00Z",
+      "judgedBy": "codex-reading-profile-review-2026-10-11-inbox",
+      "judgedAt": "2026-10-11T08:17:59Z",
       "evidenceRefs": [
         "category",
-        "content"
+        "metadata"
       ],
-      "reason": "Video is uitgesloten van het leesmenu volgens de profielrubric."
+      "reason": "Videocontent valt buiten de leesprofielen; de Reader-categorie bepaalt de uitsluiting."
     },
     "01kkh0xtww0ex0apwdnpkatc8s": {
       "status": "accepted",
@@ -10706,15 +10706,15 @@
       "confidence": "high",
       "rubricVersion": "reading-profile-v1",
       "sourceFingerprint": "35a051c6eeed78b21662833cc88e2141e18904ed7f4196b5f913baa93856c0ba",
-      "evidenceFingerprint": "8018a5e0a7893ecd788efa3ba240903db12bbb9338ce805b54f08fd6c86681ae",
+      "evidenceFingerprint": "7a245c893f1e569ed09e5a8f7fb8211ec4afbf1a335b65b53436db1b3bc14e67",
       "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
-      "judgedBy": "codex-reading-profile-review-2026-10-10",
-      "judgedAt": "2026-10-10T00:00:00Z",
+      "judgedBy": "codex-reading-profile-review-2026-10-11-inbox",
+      "judgedAt": "2026-10-11T08:17:59Z",
       "evidenceRefs": [
         "category",
-        "content"
+        "metadata"
       ],
-      "reason": "Video is uitgesloten van het leesmenu volgens de profielrubric."
+      "reason": "Videocontent valt buiten de leesprofielen; de Reader-categorie bepaalt de uitsluiting."
     },
     "01kh225h5t6y7800yd56j6mrkk": {
       "status": "accepted",
@@ -10777,30 +10777,30 @@
       "confidence": "high",
       "rubricVersion": "reading-profile-v1",
       "sourceFingerprint": "df57ee1971b65c0c020f0b0acb483cec32a0c50a08a337466eef9d229beb6221",
-      "evidenceFingerprint": "7bc6ddfe30cbc9f47fd2ed7123aea4bea9b8597c3e9ab1f9a721a417e8552181",
+      "evidenceFingerprint": "ab4d0d72cf3559095c1237a63074d32e6a8bd000df1c1fd2d53f1544e6035d95",
       "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
-      "judgedBy": "codex-reading-profile-review-2026-10-10",
-      "judgedAt": "2026-10-10T00:00:00Z",
+      "judgedBy": "codex-reading-profile-review-2026-10-11-inbox",
+      "judgedAt": "2026-10-11T08:17:59Z",
       "evidenceRefs": [
         "category",
-        "content"
+        "metadata"
       ],
-      "reason": "Boeken blijven uitgesloten van het leesmenu; ze horen in de boekenreeks."
+      "reason": "Boek/EPUB valt buiten de leesprofielen; de Reader-categorie bepaalt de uitsluiting."
     },
     "01kgdfp777bge0tsbfpzway43h": {
       "status": "rejected",
       "confidence": "high",
       "rubricVersion": "reading-profile-v1",
       "sourceFingerprint": "09e42ca015e5b955565a7eacb605ce12f91dc9cfbd51ebdc02310ddb53467d9b",
-      "evidenceFingerprint": "08738884a95e96891459564e585ed3c48f9951654f767474ff7e4829c8927f67",
+      "evidenceFingerprint": "3b18a11920b0cba2cc6d97f13a5d95b0c2efaf5691168a8a47978798f2d9e994",
       "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
-      "judgedBy": "codex-reading-profile-review-2026-10-10",
-      "judgedAt": "2026-10-10T00:00:00Z",
+      "judgedBy": "codex-reading-profile-review-2026-10-11-inbox",
+      "judgedAt": "2026-10-11T08:17:59Z",
       "evidenceRefs": [
         "category",
-        "content"
+        "metadata"
       ],
-      "reason": "Video is uitgesloten van het leesmenu volgens de profielrubric."
+      "reason": "Videocontent valt buiten de leesprofielen; de Reader-categorie bepaalt de uitsluiting."
     },
     "01kg2bfknxdbdtasxyva7fdma3": {
       "status": "accepted",
@@ -10835,15 +10835,15 @@
       "confidence": "high",
       "rubricVersion": "reading-profile-v1",
       "sourceFingerprint": "52cb365763236d059f7e6b511b630a882ed0260d442bc5f77c743833963e1c41",
-      "evidenceFingerprint": "32ab7b53760f83c6ab830606f2ed7825cdc8d1fe4a6dc0f26cd5096fc7e4825f",
+      "evidenceFingerprint": "e99198811eb80fafb9525fd76b6fcf059d15227d6c8eec36f461d553c5123ad0",
       "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
-      "judgedBy": "codex-reading-profile-review-2026-10-10",
-      "judgedAt": "2026-10-10T00:00:00Z",
+      "judgedBy": "codex-reading-profile-review-2026-10-11-inbox",
+      "judgedAt": "2026-10-11T08:17:59Z",
       "evidenceRefs": [
         "category",
-        "content"
+        "metadata"
       ],
-      "reason": "Video is uitgesloten van het leesmenu volgens de profielrubric."
+      "reason": "Videocontent valt buiten de leesprofielen; de Reader-categorie bepaalt de uitsluiting."
     },
     "01kfb2gw90wdpy96gedqddd1kd": {
       "status": "accepted",
@@ -10934,15 +10934,15 @@
       "confidence": "high",
       "rubricVersion": "reading-profile-v1",
       "sourceFingerprint": "562ac5532dff42287d81e131cf1caaa1e6f4fb27a9ac8f6365ea25634f9bf94a",
-      "evidenceFingerprint": "c51d3161bd6065d0a8d270794d8fe0b1d528be589b6fea227ceb9f18a3e0793c",
+      "evidenceFingerprint": "1c721f0ce7aaeff8444eb5dd93a6735752736abff41999e8630ce0eb4072f84d",
       "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
-      "judgedBy": "codex-reading-profile-review-2026-10-10",
-      "judgedAt": "2026-10-10T00:00:00Z",
+      "judgedBy": "codex-reading-profile-review-2026-10-11-inbox",
+      "judgedAt": "2026-10-11T08:17:59Z",
       "evidenceRefs": [
         "category",
-        "content"
+        "metadata"
       ],
-      "reason": "Boeken blijven uitgesloten van het leesmenu; ze horen in de boekenreeks."
+      "reason": "Boek/EPUB valt buiten de leesprofielen; de Reader-categorie bepaalt de uitsluiting."
     },
     "01kehtft7xyq5df0c78mbcgnd0": {
       "status": "accepted",
@@ -11033,15 +11033,15 @@
       "confidence": "high",
       "rubricVersion": "reading-profile-v1",
       "sourceFingerprint": "55a6a244b1ee68b6b56a1ce343705510ccf46c8460045b4255a3fa8c7f729de6",
-      "evidenceFingerprint": "e466eed684ccf003be13637f34f48f4ba1f9cb17450dd26dd1869df9aeca2e51",
+      "evidenceFingerprint": "802aa7b5693e5dd28adf7888e1ae99fb631a5f0afc322cfca2540778134c9558",
       "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
-      "judgedBy": "codex-reading-profile-review-2026-10-10",
-      "judgedAt": "2026-10-10T00:00:00Z",
+      "judgedBy": "codex-reading-profile-review-2026-10-11-inbox",
+      "judgedAt": "2026-10-11T08:17:59Z",
       "evidenceRefs": [
         "category",
-        "content"
+        "metadata"
       ],
-      "reason": "Video is uitgesloten van het leesmenu volgens de profielrubric."
+      "reason": "Videocontent valt buiten de leesprofielen; de Reader-categorie bepaalt de uitsluiting."
     },
     "01kd1canjswg2k0ey5cgtz3fa4": {
       "status": "accepted",
@@ -11076,15 +11076,15 @@
       "confidence": "high",
       "rubricVersion": "reading-profile-v1",
       "sourceFingerprint": "180a377c82cc966568ae18d5ca3ecfcf9f6fea4bc1301fc403f78c4a78f278a4",
-      "evidenceFingerprint": "b78c564c00410de582c7a07406d49311224b470088923a8b16d8062e464b2373",
+      "evidenceFingerprint": "41d4c9ea93a0fc1996a57a75c4a54bd227e595a6dbd4bf28b931714c63c4d3b9",
       "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
-      "judgedBy": "codex-reading-profile-review-2026-10-10",
-      "judgedAt": "2026-10-10T00:00:00Z",
+      "judgedBy": "codex-reading-profile-review-2026-10-11-inbox",
+      "judgedAt": "2026-10-11T08:17:59Z",
       "evidenceRefs": [
         "category",
-        "content"
+        "metadata"
       ],
-      "reason": "Boeken blijven uitgesloten van het leesmenu; ze horen in de boekenreeks."
+      "reason": "Boek/EPUB valt buiten de leesprofielen; de Reader-categorie bepaalt de uitsluiting."
     },
     "01kcb7n6kftwmca7m6dgprpkwf": {
       "status": "accepted",
@@ -11147,30 +11147,30 @@
       "confidence": "high",
       "rubricVersion": "reading-profile-v1",
       "sourceFingerprint": "d96215fcde9ea0eaae994b9cd1fc55f28c6aa32f25f4c2c8cd0c400e9a3517e1",
-      "evidenceFingerprint": "5e1a839e6ba5c2481ebc2b33bcc2262aef096598229fab5061559d22a3ad19da",
+      "evidenceFingerprint": "6886e783c7c4d199771abb29fe7c6a6f709620fec06dd17e51cfcd17e2066fa6",
       "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
-      "judgedBy": "codex-reading-profile-review-2026-10-10",
-      "judgedAt": "2026-10-10T00:00:00Z",
+      "judgedBy": "codex-reading-profile-review-2026-10-11-inbox",
+      "judgedAt": "2026-10-11T08:17:59Z",
       "evidenceRefs": [
         "category",
-        "content"
+        "metadata"
       ],
-      "reason": "Video is uitgesloten van het leesmenu volgens de profielrubric."
+      "reason": "Videocontent valt buiten de leesprofielen; de Reader-categorie bepaalt de uitsluiting."
     },
     "01kc0e4wxqhr18yfp4mf49hg2n": {
       "status": "rejected",
       "confidence": "high",
       "rubricVersion": "reading-profile-v1",
       "sourceFingerprint": "027de40dd649df71be7960f436383633b54db7d2817d599a8e89ce1b36466220",
-      "evidenceFingerprint": "7a32dfc244ab7e509e594204f59d2284f80e92b12b698d76a78558f0190a9909",
+      "evidenceFingerprint": "33a5d5838c35643845ff3767c4c08e6d337c8df9b6e2a5b4673756287b9ff8fe",
       "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
-      "judgedBy": "codex-reading-profile-review-2026-10-10",
-      "judgedAt": "2026-10-10T00:00:00Z",
+      "judgedBy": "codex-reading-profile-review-2026-10-11-inbox",
+      "judgedAt": "2026-10-11T08:17:59Z",
       "evidenceRefs": [
         "category",
-        "content"
+        "metadata"
       ],
-      "reason": "Boeken blijven uitgesloten van het leesmenu; ze horen in de boekenreeks."
+      "reason": "Boek/EPUB valt buiten de leesprofielen; de Reader-categorie bepaalt de uitsluiting."
     },
     "01kbfj8h0ds5fz6sa9b7vdeh3n": {
       "status": "accepted",
@@ -11205,15 +11205,15 @@
       "confidence": "high",
       "rubricVersion": "reading-profile-v1",
       "sourceFingerprint": "3e147494291d1fac872664a11c93c21ef16417c73bbe225f47306ec1a078160c",
-      "evidenceFingerprint": "1adf8f6b917688496593ad4a24b0ace12e4e50884d292a2d8bdf4798e0c9e98e",
+      "evidenceFingerprint": "522d8872e2236d4634ac42608f9f7af3ccd7fc77f59e0c058adbae19162a61f0",
       "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
-      "judgedBy": "codex-reading-profile-review-2026-10-10",
-      "judgedAt": "2026-10-10T00:00:00Z",
+      "judgedBy": "codex-reading-profile-review-2026-10-11-inbox",
+      "judgedAt": "2026-10-11T08:17:59Z",
       "evidenceRefs": [
         "category",
-        "content"
+        "metadata"
       ],
-      "reason": "Video is uitgesloten van het leesmenu volgens de profielrubric."
+      "reason": "Videocontent valt buiten de leesprofielen; de Reader-categorie bepaalt de uitsluiting."
     },
     "01kbdvvwhgdyvavjfx3ey7ysak": {
       "status": "accepted",
@@ -11332,15 +11332,15 @@
       "confidence": "high",
       "rubricVersion": "reading-profile-v1",
       "sourceFingerprint": "c2f5adced1c73fb793377da726b274e94a3c3c2b13cd002a37c9e330d0416170",
-      "evidenceFingerprint": "981646a185d9475a8f66ccda432ac30a34b174f09087a2b1b0d82ffe43c6d7e9",
+      "evidenceFingerprint": "a48d234958d5e3c88b601d550a849a4fb29b23a04fde27acb8a8f9fd73f4b2b5",
       "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
-      "judgedBy": "codex-reading-profile-review-2026-10-10",
-      "judgedAt": "2026-10-10T00:00:00Z",
+      "judgedBy": "codex-reading-profile-review-2026-10-11-inbox",
+      "judgedAt": "2026-10-11T08:17:59Z",
       "evidenceRefs": [
         "category",
-        "content"
+        "metadata"
       ],
-      "reason": "Boeken blijven uitgesloten van het leesmenu; ze horen in de boekenreeks."
+      "reason": "Boek/EPUB valt buiten de leesprofielen; de Reader-categorie bepaalt de uitsluiting."
     },
     "01k88fp60409w7wsaz01a69vq4": {
       "status": "accepted",
@@ -11403,15 +11403,15 @@
       "confidence": "high",
       "rubricVersion": "reading-profile-v1",
       "sourceFingerprint": "b807f5c5aa8c205b9c62b52c050e4940930012da4c0eb9bd857021423ae46816",
-      "evidenceFingerprint": "e859cf8b0dd0adddac2ae15e1ab08c99d7a149fff573835ab69cd32805ad77c3",
+      "evidenceFingerprint": "f5ab61ebf9eacbf6d944a22ca804b1c14a1b747a407a5f8561685cd6637158a5",
       "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
-      "judgedBy": "codex-reading-profile-review-2026-10-10",
-      "judgedAt": "2026-10-10T00:00:00Z",
+      "judgedBy": "codex-reading-profile-review-2026-10-11-inbox",
+      "judgedAt": "2026-10-11T08:17:59Z",
       "evidenceRefs": [
         "category",
-        "content"
+        "metadata"
       ],
-      "reason": "Boeken blijven uitgesloten van het leesmenu; ze horen in de boekenreeks."
+      "reason": "Boek/EPUB valt buiten de leesprofielen; de Reader-categorie bepaalt de uitsluiting."
     },
     "01k7qbg40qvbeqszm5nr2wpmyz": {
       "status": "accepted",
@@ -11586,60 +11586,60 @@
       "confidence": "high",
       "rubricVersion": "reading-profile-v1",
       "sourceFingerprint": "50eb151d400f64ffa63fc7ea9c3861b8e3e69f840dc2f6cb7c0794b10739ddec",
-      "evidenceFingerprint": "1c8a5a5bb0b41ae90dbabd5a1dc0b1f0a1e79c2ae584992ede1c89be9ce8c0e0",
+      "evidenceFingerprint": "aef60b9fda0cfa01912aee6ed45d963ab91e5f737bb51a33c1e97e44ab7917e8",
       "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
-      "judgedBy": "codex-reading-profile-review-2026-10-10",
-      "judgedAt": "2026-10-10T00:00:00Z",
+      "judgedBy": "codex-reading-profile-review-2026-10-11-inbox",
+      "judgedAt": "2026-10-11T08:17:59Z",
       "evidenceRefs": [
         "category",
-        "content"
+        "metadata"
       ],
-      "reason": "Boeken blijven uitgesloten van het leesmenu; ze horen in de boekenreeks."
+      "reason": "Boek/EPUB valt buiten de leesprofielen; de Reader-categorie bepaalt de uitsluiting."
     },
     "01k5r4czdk2jfrtx340tw8zcrt": {
       "status": "rejected",
       "confidence": "high",
       "rubricVersion": "reading-profile-v1",
       "sourceFingerprint": "92a8990e7ed3611de20551197ff18e59e9889dda8c1458f8fcf2926018bc0dca",
-      "evidenceFingerprint": "10d0663606b8578799c7180b782d261f5ff246c7f3fda231d205bb22c21733af",
+      "evidenceFingerprint": "54131dbfe709560bb81edccb19bac7350eca5a8097343d7b2db8dd537833a6c7",
       "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
-      "judgedBy": "codex-reading-profile-review-2026-10-10",
-      "judgedAt": "2026-10-10T00:00:00Z",
+      "judgedBy": "codex-reading-profile-review-2026-10-11-inbox",
+      "judgedAt": "2026-10-11T08:17:59Z",
       "evidenceRefs": [
         "category",
-        "content"
+        "metadata"
       ],
-      "reason": "Boeken blijven uitgesloten van het leesmenu; ze horen in de boekenreeks."
+      "reason": "Boek/EPUB valt buiten de leesprofielen; de Reader-categorie bepaalt de uitsluiting."
     },
     "01k5r4ct2znt611x3k9c2v3bqd": {
       "status": "rejected",
       "confidence": "high",
       "rubricVersion": "reading-profile-v1",
       "sourceFingerprint": "6ff81bf08c7ecf9ac85eeec4734b1eefd6eccc601b73dcb65408ea4385e24ed9",
-      "evidenceFingerprint": "a2080879f77ecfd2a7f561cbad81542ec33b80d4b1b62300450d594e990c673f",
+      "evidenceFingerprint": "dfa18f6dfed8ffc34245db7a5393952d91c3d90cfd8e7f1a9f086e0ab70b33d0",
       "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
-      "judgedBy": "codex-reading-profile-review-2026-10-10",
-      "judgedAt": "2026-10-10T00:00:00Z",
+      "judgedBy": "codex-reading-profile-review-2026-10-11-inbox",
+      "judgedAt": "2026-10-11T08:17:59Z",
       "evidenceRefs": [
         "category",
-        "content"
+        "metadata"
       ],
-      "reason": "Boeken blijven uitgesloten van het leesmenu; ze horen in de boekenreeks."
+      "reason": "Boek/EPUB valt buiten de leesprofielen; de Reader-categorie bepaalt de uitsluiting."
     },
     "01k55qwkzkqaphvktn41xznxv2": {
       "status": "rejected",
       "confidence": "high",
       "rubricVersion": "reading-profile-v1",
       "sourceFingerprint": "3b97b33a96a9420b64098b9770d5fe674c8ed222ea8f1aaf06762cf2090f2a92",
-      "evidenceFingerprint": "470c55892be7ffbead27a8fd94d1b5ea519670f56be5f90ffca4a966eb72cc0f",
+      "evidenceFingerprint": "5b3dc7198f529f6d1847d8790b7513417f810561ad98ae1da7a79a7556402c3a",
       "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
-      "judgedBy": "codex-reading-profile-review-2026-10-10",
-      "judgedAt": "2026-10-10T00:00:00Z",
+      "judgedBy": "codex-reading-profile-review-2026-10-11-inbox",
+      "judgedAt": "2026-10-11T08:17:59Z",
       "evidenceRefs": [
         "category",
-        "content"
+        "metadata"
       ],
-      "reason": "Boeken blijven uitgesloten van het leesmenu; ze horen in de boekenreeks."
+      "reason": "Boek/EPUB valt buiten de leesprofielen; de Reader-categorie bepaalt de uitsluiting."
     },
     "01k53c86shnrvw46eb6mbrn6dt": {
       "status": "accepted",
@@ -11674,30 +11674,30 @@
       "confidence": "high",
       "rubricVersion": "reading-profile-v1",
       "sourceFingerprint": "7da1dee03cb5a6992245941151d0ce979ba6157fb24e01a1a91ca55177997ef5",
-      "evidenceFingerprint": "cdee592ff78399b112bfc96528c894f2b10bae9f4dddf80a7c74743808c37d60",
+      "evidenceFingerprint": "bfd8bef674e00ff556a567c92e71b9e65c1a1534ac34211addd90204d9c311dc",
       "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
-      "judgedBy": "codex-reading-profile-review-2026-10-10",
-      "judgedAt": "2026-10-10T00:00:00Z",
+      "judgedBy": "codex-reading-profile-review-2026-10-11-inbox",
+      "judgedAt": "2026-10-11T08:17:59Z",
       "evidenceRefs": [
         "category",
-        "content"
+        "metadata"
       ],
-      "reason": "Boeken blijven uitgesloten van het leesmenu; ze horen in de boekenreeks."
+      "reason": "Boek/EPUB valt buiten de leesprofielen; de Reader-categorie bepaalt de uitsluiting."
     },
     "01k4d2kxngyzjt0vzg9sav4hbn": {
       "status": "rejected",
       "confidence": "high",
       "rubricVersion": "reading-profile-v1",
       "sourceFingerprint": "0aa8773d1819e599d6386c3da9c583f5c9aa9862546233a21b8f3f1ced4a059c",
-      "evidenceFingerprint": "adffa082e5609aba806c10ae3615aca9b6cd5a83a06696d8fa893965c79cb63d",
+      "evidenceFingerprint": "a98fc0c4b69b740b23e3f0bfdaf63f4f718f21928ef09ffeabcd27a91b5dd79a",
       "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
-      "judgedBy": "codex-reading-profile-review-2026-10-10",
-      "judgedAt": "2026-10-10T00:00:00Z",
+      "judgedBy": "codex-reading-profile-review-2026-10-11-inbox",
+      "judgedAt": "2026-10-11T08:17:59Z",
       "evidenceRefs": [
         "category",
-        "content"
+        "metadata"
       ],
-      "reason": "Boeken blijven uitgesloten van het leesmenu; ze horen in de boekenreeks."
+      "reason": "Boek/EPUB valt buiten de leesprofielen; de Reader-categorie bepaalt de uitsluiting."
     },
     "01k2p3vgyxd3egkpvn5y6r2d7n": {
       "status": "accepted",
@@ -11732,30 +11732,30 @@
       "confidence": "high",
       "rubricVersion": "reading-profile-v1",
       "sourceFingerprint": "7f7516c5a125be61e17bcba99d3aa8764dfcf6be77751260d1b6f0aee9df6c11",
-      "evidenceFingerprint": "f0808b57c1dc70f86345534c3406fe74e94159cfc615d69269db669eb9eb5ef1",
+      "evidenceFingerprint": "22677c2f99073c5f201b43e8cea0d9b6872c106bfadb847217be1c4160a4bb15",
       "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
-      "judgedBy": "codex-reading-profile-review-2026-10-10",
-      "judgedAt": "2026-10-10T00:00:00Z",
+      "judgedBy": "codex-reading-profile-review-2026-10-11-inbox",
+      "judgedAt": "2026-10-11T08:17:59Z",
       "evidenceRefs": [
         "category",
-        "content"
+        "metadata"
       ],
-      "reason": "Video is uitgesloten van het leesmenu volgens de profielrubric."
+      "reason": "Videocontent valt buiten de leesprofielen; de Reader-categorie bepaalt de uitsluiting."
     },
     "01k04hd67cscrapj1n35btr6tg": {
       "status": "rejected",
       "confidence": "high",
       "rubricVersion": "reading-profile-v1",
       "sourceFingerprint": "77a2513d6704b489306a6d64226289ef4a2163af459214abd75b0c0d218595fe",
-      "evidenceFingerprint": "4a6ceed0b596710a0779a510e3b367cef8b4731f5bdee1cf263e78c8e9bec3b2",
+      "evidenceFingerprint": "c4968a5921946389b776de17de774261b1f44d7b1258cb77d039d2cc5f8beaeb",
       "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
-      "judgedBy": "codex-reading-profile-review-2026-10-10",
-      "judgedAt": "2026-10-10T00:00:00Z",
+      "judgedBy": "codex-reading-profile-review-2026-10-11-inbox",
+      "judgedAt": "2026-10-11T08:17:59Z",
       "evidenceRefs": [
         "category",
-        "content"
+        "metadata"
       ],
-      "reason": "Boeken blijven uitgesloten van het leesmenu; ze horen in de boekenreeks."
+      "reason": "Boek/EPUB valt buiten de leesprofielen; de Reader-categorie bepaalt de uitsluiting."
     },
     "01jzcewgkt8vr8w5y9c16rq55v": {
       "status": "accepted",
@@ -11846,60 +11846,60 @@
       "confidence": "high",
       "rubricVersion": "reading-profile-v1",
       "sourceFingerprint": "ccbc287f7b745a2d0752334614460c99bb73dd5863f9ce4ff9d083697d4f58cf",
-      "evidenceFingerprint": "8dba0330f3942225dde7c75c8f9dd80fcd7b12b81e3476f1e4fe982955121091",
+      "evidenceFingerprint": "62492fa8ec3b9fb9aec25345a35dc8e914a692de0e029fe30c25d0de9f02adb9",
       "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
-      "judgedBy": "codex-reading-profile-review-2026-10-10",
-      "judgedAt": "2026-10-10T00:00:00Z",
+      "judgedBy": "codex-reading-profile-review-2026-10-11-inbox",
+      "judgedAt": "2026-10-11T08:17:59Z",
       "evidenceRefs": [
         "category",
-        "content"
+        "metadata"
       ],
-      "reason": "Boeken blijven uitgesloten van het leesmenu; ze horen in de boekenreeks."
+      "reason": "Boek/EPUB valt buiten de leesprofielen; de Reader-categorie bepaalt de uitsluiting."
     },
     "01jjc89qwjr4ry5xp4wneehw5x": {
       "status": "rejected",
       "confidence": "high",
       "rubricVersion": "reading-profile-v1",
       "sourceFingerprint": "dabf1677cb3e0250e4349003ce077696c046b4800d18805295fce7fb0bd09b9b",
-      "evidenceFingerprint": "7d8097890539bb2f607ceaa3dd1b901440d6e00d0e24b0f7215f4795ad95559c",
+      "evidenceFingerprint": "63fa7fb13efc00bd8216a2ef6123f8f61b90debb03b188314dd7f20608f17ff8",
       "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
-      "judgedBy": "codex-reading-profile-review-2026-10-10",
-      "judgedAt": "2026-10-10T00:00:00Z",
+      "judgedBy": "codex-reading-profile-review-2026-10-11-inbox",
+      "judgedAt": "2026-10-11T08:17:59Z",
       "evidenceRefs": [
         "category",
-        "content"
+        "metadata"
       ],
-      "reason": "Boeken blijven uitgesloten van het leesmenu; ze horen in de boekenreeks."
+      "reason": "Boek/EPUB valt buiten de leesprofielen; de Reader-categorie bepaalt de uitsluiting."
     },
     "01jaraxstjdzrdw2zs4r638p2v": {
       "status": "rejected",
       "confidence": "high",
       "rubricVersion": "reading-profile-v1",
       "sourceFingerprint": "0c634c1fce8bbab932dee9fdd264edc0f72e9cddf0b3a6861ac9ec4bba7a91b6",
-      "evidenceFingerprint": "74be45616a74b2eb4ccb7e423bf3850a15391c38e01c7513278574fb8f223998",
+      "evidenceFingerprint": "0d31ac33d17be0170cbda5da0b62ed0e7d473cf82ce4da81bbc1e2f165495faf",
       "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
-      "judgedBy": "codex-reading-profile-review-2026-10-10",
-      "judgedAt": "2026-10-10T00:00:00Z",
+      "judgedBy": "codex-reading-profile-review-2026-10-11-inbox",
+      "judgedAt": "2026-10-11T08:17:59Z",
       "evidenceRefs": [
         "category",
-        "content"
+        "metadata"
       ],
-      "reason": "Boeken blijven uitgesloten van het leesmenu; ze horen in de boekenreeks."
+      "reason": "Boek/EPUB valt buiten de leesprofielen; de Reader-categorie bepaalt de uitsluiting."
     },
     "01j9hge0y4p2at8emp4c3kkhwp": {
       "status": "rejected",
       "confidence": "high",
       "rubricVersion": "reading-profile-v1",
       "sourceFingerprint": "66fac01088daefa6e62e6934517e70891153d683ba9ac4a76b05d74518c96eb1",
-      "evidenceFingerprint": "f794dc46a02cc539089486e9014f7c5fbc012aac68afe5e6f91ed23696a77bbd",
+      "evidenceFingerprint": "9f802c2c6980557b1cbed2e734784af97fcfe387599a37dd26f26103623fba19",
       "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
-      "judgedBy": "codex-reading-profile-review-2026-10-10",
-      "judgedAt": "2026-10-10T00:00:00Z",
+      "judgedBy": "codex-reading-profile-review-2026-10-11-inbox",
+      "judgedAt": "2026-10-11T08:17:59Z",
       "evidenceRefs": [
         "category",
-        "content"
+        "metadata"
       ],
-      "reason": "Boeken blijven uitgesloten van het leesmenu; ze horen in de boekenreeks."
+      "reason": "Boek/EPUB valt buiten de leesprofielen; de Reader-categorie bepaalt de uitsluiting."
     },
     "01j8s9z9xg4shgce5z167zc7fn": {
       "status": "accepted",
@@ -11934,720 +11934,720 @@
       "confidence": "high",
       "rubricVersion": "reading-profile-v1",
       "sourceFingerprint": "c05d50c25dff538caca9d062c8ce4a6b5480f2f7a1890abf31540a80295bc624",
-      "evidenceFingerprint": "868ae69423640d7072dc7a8729fe281f52e173dd57d8f3814956433164958803",
+      "evidenceFingerprint": "c796598b995687b5b2664c074afcdccacc4724615fc1c4b8df4decf96d0e5a1f",
       "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
-      "judgedBy": "codex-reading-profile-review-2026-10-10",
-      "judgedAt": "2026-10-10T00:00:00Z",
+      "judgedBy": "codex-reading-profile-review-2026-10-11-inbox",
+      "judgedAt": "2026-10-11T08:17:59Z",
       "evidenceRefs": [
         "category",
-        "content"
+        "metadata"
       ],
-      "reason": "Boeken blijven uitgesloten van het leesmenu; ze horen in de boekenreeks."
+      "reason": "Boek/EPUB valt buiten de leesprofielen; de Reader-categorie bepaalt de uitsluiting."
     },
     "01j6q1n1v6s769rr1vxcs8ztd1": {
       "status": "rejected",
       "confidence": "high",
       "rubricVersion": "reading-profile-v1",
       "sourceFingerprint": "a14238852e603d92ca4383079029e136c80bd6a0f490463fe3f050ee766c3f45",
-      "evidenceFingerprint": "b397a1c392202e50eeb9ea25a7756f9fc3fc2bae572d0c2bc1f9d13ef262cf77",
+      "evidenceFingerprint": "419aae4a25584edfdb6e1e42b512840524e3307f913393546712fc6efc69445b",
       "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
-      "judgedBy": "codex-reading-profile-review-2026-10-10",
-      "judgedAt": "2026-10-10T00:00:00Z",
+      "judgedBy": "codex-reading-profile-review-2026-10-11-inbox",
+      "judgedAt": "2026-10-11T08:17:59Z",
       "evidenceRefs": [
         "category",
-        "content"
+        "metadata"
       ],
-      "reason": "Boeken blijven uitgesloten van het leesmenu; ze horen in de boekenreeks."
+      "reason": "Boek/EPUB valt buiten de leesprofielen; de Reader-categorie bepaalt de uitsluiting."
     },
     "01j6f8r2v0xj1cgdnf7pqxqjyz": {
       "status": "rejected",
       "confidence": "high",
       "rubricVersion": "reading-profile-v1",
       "sourceFingerprint": "2ff6114aed27259708fe7c329268ab21b6a88fc836ca044f9a67a25f04427e43",
-      "evidenceFingerprint": "c2d861c1c99a1625f651270a2d35946efbdaa8b25ca0a5367229a044cdaa0dd6",
+      "evidenceFingerprint": "9ea6820e1e377295a5a3a8968678d3386e0b89d760d5fb3b315e0c9cf384d703",
       "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
-      "judgedBy": "codex-reading-profile-review-2026-10-10",
-      "judgedAt": "2026-10-10T00:00:00Z",
+      "judgedBy": "codex-reading-profile-review-2026-10-11-inbox",
+      "judgedAt": "2026-10-11T08:17:59Z",
       "evidenceRefs": [
         "category",
-        "content"
+        "metadata"
       ],
-      "reason": "Boeken blijven uitgesloten van het leesmenu; ze horen in de boekenreeks."
+      "reason": "Boek/EPUB valt buiten de leesprofielen; de Reader-categorie bepaalt de uitsluiting."
     },
     "01j5m80ektv0bcx45xmy2a5kdy": {
       "status": "rejected",
       "confidence": "high",
       "rubricVersion": "reading-profile-v1",
       "sourceFingerprint": "366ec77c612204ac873c99d5114d80574c75d4670f75c223a1e72e54558b2e92",
-      "evidenceFingerprint": "6a88ead034ffebd559b220e732251208a83eb31dcc602fe0061a76ea9f6bc0fe",
+      "evidenceFingerprint": "4d9c6918f603aac235d81954086886e5844bb0a5361b7c1b9e733d240f4c7466",
       "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
-      "judgedBy": "codex-reading-profile-review-2026-10-10",
-      "judgedAt": "2026-10-10T00:00:00Z",
+      "judgedBy": "codex-reading-profile-review-2026-10-11-inbox",
+      "judgedAt": "2026-10-11T08:17:59Z",
       "evidenceRefs": [
         "category",
-        "content"
+        "metadata"
       ],
-      "reason": "Boeken blijven uitgesloten van het leesmenu; ze horen in de boekenreeks."
+      "reason": "Boek/EPUB valt buiten de leesprofielen; de Reader-categorie bepaalt de uitsluiting."
     },
     "01j422azr657ycnf0hesy20s0f": {
       "status": "rejected",
       "confidence": "high",
       "rubricVersion": "reading-profile-v1",
       "sourceFingerprint": "574afcb1448224363fd80c281455345538a880ca196d6c48aece9ccf35088916",
-      "evidenceFingerprint": "55de539e93c8c62072f24e5f3c90855f85afe1761303d2e3ba1ea6f2be3701a7",
+      "evidenceFingerprint": "5112bf536fcc5364ea2cf5c57ff134e7cae1cff763a53d7a57f12aaa1331e905",
       "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
-      "judgedBy": "codex-reading-profile-review-2026-10-10",
-      "judgedAt": "2026-10-10T00:00:00Z",
+      "judgedBy": "codex-reading-profile-review-2026-10-11-inbox",
+      "judgedAt": "2026-10-11T08:17:59Z",
       "evidenceRefs": [
         "category",
-        "content"
+        "metadata"
       ],
-      "reason": "Boeken blijven uitgesloten van het leesmenu; ze horen in de boekenreeks."
+      "reason": "Boek/EPUB valt buiten de leesprofielen; de Reader-categorie bepaalt de uitsluiting."
     },
     "01j422az0v87b7wzb7fx7f9r9t": {
       "status": "rejected",
       "confidence": "high",
       "rubricVersion": "reading-profile-v1",
       "sourceFingerprint": "2df41bd1217e4bb3e99f5367a57c3cc6480449a39e80beff9fc226f4f29813c0",
-      "evidenceFingerprint": "94eb1bed638e3bbb16e1b6f9969da87b5d8ca9301afeb772ac0f0e6e70ba29d3",
+      "evidenceFingerprint": "8d5f8d0656c560326a55d4e7ceb240c663fe5156d066eaa2ffe1dbcdcb947abd",
       "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
-      "judgedBy": "codex-reading-profile-review-2026-10-10",
-      "judgedAt": "2026-10-10T00:00:00Z",
+      "judgedBy": "codex-reading-profile-review-2026-10-11-inbox",
+      "judgedAt": "2026-10-11T08:17:59Z",
       "evidenceRefs": [
         "category",
-        "content"
+        "metadata"
       ],
-      "reason": "Boeken blijven uitgesloten van het leesmenu; ze horen in de boekenreeks."
+      "reason": "Boek/EPUB valt buiten de leesprofielen; de Reader-categorie bepaalt de uitsluiting."
     },
     "01j422ay10wfm6whm7md7qny8s": {
       "status": "rejected",
       "confidence": "high",
       "rubricVersion": "reading-profile-v1",
       "sourceFingerprint": "30d111a7af24008b224eda3d72a399115257aed9721427c9cb96bf6f5d914148",
-      "evidenceFingerprint": "bd69163b10bbbce82bd91bb350d69ff1f2292d9aa29d3c6fa52e00b6fa956ce0",
+      "evidenceFingerprint": "b23094d07aaa6a57a629aad3d67f158696f955a8a84c0812cc74449a392330b6",
       "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
-      "judgedBy": "codex-reading-profile-review-2026-10-10",
-      "judgedAt": "2026-10-10T00:00:00Z",
+      "judgedBy": "codex-reading-profile-review-2026-10-11-inbox",
+      "judgedAt": "2026-10-11T08:17:59Z",
       "evidenceRefs": [
         "category",
-        "content"
+        "metadata"
       ],
-      "reason": "Boeken blijven uitgesloten van het leesmenu; ze horen in de boekenreeks."
+      "reason": "Boek/EPUB valt buiten de leesprofielen; de Reader-categorie bepaalt de uitsluiting."
     },
     "01j3xagwbegqfdev85fvd1v6f7": {
       "status": "rejected",
       "confidence": "high",
       "rubricVersion": "reading-profile-v1",
       "sourceFingerprint": "969d64f7041732f67c54c972a6eaeac629d40cfd250910a82721793fdede2096",
-      "evidenceFingerprint": "2531c38d00d8a30238c74f22bdaad6f8b07384500ad49b9e733c4e87f58573f8",
+      "evidenceFingerprint": "0b342273cb02c6495194329a926162097f5e092c31b6a88f79b6cdf073832341",
       "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
-      "judgedBy": "codex-reading-profile-review-2026-10-10",
-      "judgedAt": "2026-10-10T00:00:00Z",
+      "judgedBy": "codex-reading-profile-review-2026-10-11-inbox",
+      "judgedAt": "2026-10-11T08:17:59Z",
       "evidenceRefs": [
         "category",
-        "content"
+        "metadata"
       ],
-      "reason": "Boeken blijven uitgesloten van het leesmenu; ze horen in de boekenreeks."
+      "reason": "Boek/EPUB valt buiten de leesprofielen; de Reader-categorie bepaalt de uitsluiting."
     },
     "01j3smc8th5ac3n6axj4yg2s37": {
       "status": "rejected",
       "confidence": "high",
       "rubricVersion": "reading-profile-v1",
       "sourceFingerprint": "1562d70882730850263ceac023de4ae3a8280b1083a4d589e7b49e9399ed4094",
-      "evidenceFingerprint": "bc5715493af523ff0aa956d89cbb35599be08f6e3bffd78597d14c5c329f2c95",
+      "evidenceFingerprint": "f940d946fdd054c0e3aa88df38407751a5e3af21d35454ec7b73d2b1883e8de4",
       "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
-      "judgedBy": "codex-reading-profile-review-2026-10-10",
-      "judgedAt": "2026-10-10T00:00:00Z",
+      "judgedBy": "codex-reading-profile-review-2026-10-11-inbox",
+      "judgedAt": "2026-10-11T08:17:59Z",
       "evidenceRefs": [
         "category",
-        "content"
+        "metadata"
       ],
-      "reason": "Boeken blijven uitgesloten van het leesmenu; ze horen in de boekenreeks."
+      "reason": "Boek/EPUB valt buiten de leesprofielen; de Reader-categorie bepaalt de uitsluiting."
     },
     "01j39ztxxknjf83wz26vwx4mz4": {
       "status": "rejected",
       "confidence": "high",
       "rubricVersion": "reading-profile-v1",
       "sourceFingerprint": "829aaa22ed4442918528b704724b893b1590059ed1cc100dacbe37f70281d38c",
-      "evidenceFingerprint": "725bf7eedf79ac9a3497e4cc0b8d333d844849c25868f06c0d5da6d20b60b175",
+      "evidenceFingerprint": "296884c681dbd176fcb00d4d391b43c12c7b78e3ce98e529b5e98f895f78f25b",
       "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
-      "judgedBy": "codex-reading-profile-review-2026-10-10",
-      "judgedAt": "2026-10-10T00:00:00Z",
+      "judgedBy": "codex-reading-profile-review-2026-10-11-inbox",
+      "judgedAt": "2026-10-11T08:17:59Z",
       "evidenceRefs": [
         "category",
-        "content"
+        "metadata"
       ],
-      "reason": "Boeken blijven uitgesloten van het leesmenu; ze horen in de boekenreeks."
+      "reason": "Boek/EPUB valt buiten de leesprofielen; de Reader-categorie bepaalt de uitsluiting."
     },
     "01j3530y8vbksg0q6pbjw4dvt7": {
       "status": "rejected",
       "confidence": "high",
       "rubricVersion": "reading-profile-v1",
       "sourceFingerprint": "daa445778bc9822a5f736dbbaccaed24d34eabb3bfdedce6040b6faaadd8000d",
-      "evidenceFingerprint": "2435f920ce7bded2da8478983b2725d4c95673bb5208ca1daccbf71ff38db1bd",
+      "evidenceFingerprint": "cb93857951126ab8a1e5b19ec9aaf108923149ab544b72001efb6c99b029a3b4",
       "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
-      "judgedBy": "codex-reading-profile-review-2026-10-10",
-      "judgedAt": "2026-10-10T00:00:00Z",
+      "judgedBy": "codex-reading-profile-review-2026-10-11-inbox",
+      "judgedAt": "2026-10-11T08:17:59Z",
       "evidenceRefs": [
         "category",
-        "content"
+        "metadata"
       ],
-      "reason": "Boeken blijven uitgesloten van het leesmenu; ze horen in de boekenreeks."
+      "reason": "Boek/EPUB valt buiten de leesprofielen; de Reader-categorie bepaalt de uitsluiting."
     },
     "01j3291sr3ramzk98nw3hqwcpc": {
       "status": "rejected",
       "confidence": "high",
       "rubricVersion": "reading-profile-v1",
       "sourceFingerprint": "d1e8c336566d7501727f4637aa654e21b5b6be0ad8d987e99b48bdcb3e853cd5",
-      "evidenceFingerprint": "18778322766c928c2a5681208610054f7c6fc0fd0b456804f2cd627f933e8834",
+      "evidenceFingerprint": "eaa25aa2a97d558b38cd92e10a813f903b08a7565971085d2d5528832ff1dc2a",
       "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
-      "judgedBy": "codex-reading-profile-review-2026-10-10",
-      "judgedAt": "2026-10-10T00:00:00Z",
+      "judgedBy": "codex-reading-profile-review-2026-10-11-inbox",
+      "judgedAt": "2026-10-11T08:17:59Z",
       "evidenceRefs": [
         "category",
-        "content"
+        "metadata"
       ],
-      "reason": "Boeken blijven uitgesloten van het leesmenu; ze horen in de boekenreeks."
+      "reason": "Boek/EPUB valt buiten de leesprofielen; de Reader-categorie bepaalt de uitsluiting."
     },
     "01j3175ma4rfsfx5ryhqvdcpy4": {
       "status": "rejected",
       "confidence": "high",
       "rubricVersion": "reading-profile-v1",
       "sourceFingerprint": "b3e0d4990740806a6c579b1419c701ca97cbf1e14ce2422e0174f3b6a8eef5ad",
-      "evidenceFingerprint": "438c6bbf8e94a403925bf16a81a370ca87332dba400efb52329bd4a970ced431",
+      "evidenceFingerprint": "984975f1b298daf121c1919b28ec81422d98a8f5df99c7a546c6cbe443bab22b",
       "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
-      "judgedBy": "codex-reading-profile-review-2026-10-10",
-      "judgedAt": "2026-10-10T00:00:00Z",
+      "judgedBy": "codex-reading-profile-review-2026-10-11-inbox",
+      "judgedAt": "2026-10-11T08:17:59Z",
       "evidenceRefs": [
         "category",
-        "content"
+        "metadata"
       ],
-      "reason": "Boeken blijven uitgesloten van het leesmenu; ze horen in de boekenreeks."
+      "reason": "Boek/EPUB valt buiten de leesprofielen; de Reader-categorie bepaalt de uitsluiting."
     },
     "01j2pppkbaxn15tdt0yj02g52k": {
       "status": "rejected",
       "confidence": "high",
       "rubricVersion": "reading-profile-v1",
       "sourceFingerprint": "58572ba82bba328057f7856e0032a81757e0b716073f729a1f05111b882cf379",
-      "evidenceFingerprint": "118cafebb9a47351d77dc393f4c8f05740b570795e08a188750906181ec92b2c",
+      "evidenceFingerprint": "c616220e4ccdcd2fa9cc236cdbe25335cafc1c1b77e522c4961117b09d65dba4",
       "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
-      "judgedBy": "codex-reading-profile-review-2026-10-10",
-      "judgedAt": "2026-10-10T00:00:00Z",
+      "judgedBy": "codex-reading-profile-review-2026-10-11-inbox",
+      "judgedAt": "2026-10-11T08:17:59Z",
       "evidenceRefs": [
         "category",
-        "content"
+        "metadata"
       ],
-      "reason": "Boeken blijven uitgesloten van het leesmenu; ze horen in de boekenreeks."
+      "reason": "Boek/EPUB valt buiten de leesprofielen; de Reader-categorie bepaalt de uitsluiting."
     },
     "01j29d3vyb3g8h2zwk7t0gcyrs": {
       "status": "rejected",
       "confidence": "high",
       "rubricVersion": "reading-profile-v1",
       "sourceFingerprint": "5a3db6d90752539ec44e7ae80d0303507326b34115193c31031e449b38e3282e",
-      "evidenceFingerprint": "8605ee5c6c8a5a08c1cf24fefdd9cc0127a889d2ec7cb3fce208880e89e4bd15",
+      "evidenceFingerprint": "2f5d1750c78749661cf84797d8e5d1d973a1f023c6711cb2a81f2eec0376ea04",
       "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
-      "judgedBy": "codex-reading-profile-review-2026-10-10",
-      "judgedAt": "2026-10-10T00:00:00Z",
+      "judgedBy": "codex-reading-profile-review-2026-10-11-inbox",
+      "judgedAt": "2026-10-11T08:17:59Z",
       "evidenceRefs": [
         "category",
-        "content"
+        "metadata"
       ],
-      "reason": "Boeken blijven uitgesloten van het leesmenu; ze horen in de boekenreeks."
+      "reason": "Boek/EPUB valt buiten de leesprofielen; de Reader-categorie bepaalt de uitsluiting."
     },
     "01j29d3v4emc1z1ap0jt2jvqfh": {
       "status": "rejected",
       "confidence": "high",
       "rubricVersion": "reading-profile-v1",
       "sourceFingerprint": "9af4320ce34c284fbef91277c1ee6419624bba0f6a7cdc471b699e20550375cf",
-      "evidenceFingerprint": "d896fd1eb84cf0c4b14d49517c987cf31a16d42b9e2c067c3358f12717f0a3e9",
+      "evidenceFingerprint": "acfefadc4a973cd1f754750e3076e1c5456f414d23fb4b0130b08995b4fc7b64",
       "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
-      "judgedBy": "codex-reading-profile-review-2026-10-10",
-      "judgedAt": "2026-10-10T00:00:00Z",
+      "judgedBy": "codex-reading-profile-review-2026-10-11-inbox",
+      "judgedAt": "2026-10-11T08:17:59Z",
       "evidenceRefs": [
         "category",
-        "content"
+        "metadata"
       ],
-      "reason": "Boeken blijven uitgesloten van het leesmenu; ze horen in de boekenreeks."
+      "reason": "Boek/EPUB valt buiten de leesprofielen; de Reader-categorie bepaalt de uitsluiting."
     },
     "01j29d3tbesb7m09zyn0z78vjr": {
       "status": "rejected",
       "confidence": "high",
       "rubricVersion": "reading-profile-v1",
       "sourceFingerprint": "d07bd91087262d1f7895994e88e4d190a5d2f86e9ee0df19c41055787dab2afd",
-      "evidenceFingerprint": "45ccbe01b5bb1964b56fc126c88ade2806c30fc35bd506c321f405a48d07000e",
+      "evidenceFingerprint": "674b4b7a932ebd96429baa07af1a81f30da0a487e0c251cad916b1647a4de298",
       "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
-      "judgedBy": "codex-reading-profile-review-2026-10-10",
-      "judgedAt": "2026-10-10T00:00:00Z",
+      "judgedBy": "codex-reading-profile-review-2026-10-11-inbox",
+      "judgedAt": "2026-10-11T08:17:59Z",
       "evidenceRefs": [
         "category",
-        "content"
+        "metadata"
       ],
-      "reason": "Boeken blijven uitgesloten van het leesmenu; ze horen in de boekenreeks."
+      "reason": "Boek/EPUB valt buiten de leesprofielen; de Reader-categorie bepaalt de uitsluiting."
     },
     "01j29d3hp212xny83jkj13kan8": {
       "status": "rejected",
       "confidence": "high",
       "rubricVersion": "reading-profile-v1",
       "sourceFingerprint": "5886d70c9bfd62302c6ffaeb10a2cdeff7801b1d131012b2cf4b395cedbcb220",
-      "evidenceFingerprint": "69fd5c8dcc9d6bb93f87c585630b7d5a5530fec4d12e78ebbd7ae1a797d7d1a1",
+      "evidenceFingerprint": "c2da7408323cedc35c857e961cbccf730f57509d8ca3618ac440eedeb8dafb5c",
       "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
-      "judgedBy": "codex-reading-profile-review-2026-10-10",
-      "judgedAt": "2026-10-10T00:00:00Z",
+      "judgedBy": "codex-reading-profile-review-2026-10-11-inbox",
+      "judgedAt": "2026-10-11T08:17:59Z",
       "evidenceRefs": [
         "category",
-        "content"
+        "metadata"
       ],
-      "reason": "Boeken blijven uitgesloten van het leesmenu; ze horen in de boekenreeks."
+      "reason": "Boek/EPUB valt buiten de leesprofielen; de Reader-categorie bepaalt de uitsluiting."
     },
     "01j29d3gwr2rypyn0gyfn4dym7": {
       "status": "rejected",
       "confidence": "high",
       "rubricVersion": "reading-profile-v1",
       "sourceFingerprint": "e1cb515df501cfc6738899c5c66c65d04f31ad043275a6a36a3498fe7c4f454f",
-      "evidenceFingerprint": "2db79778cfba8331aa10ed22e3af0baf16582ca2a62b089a75d99c896659ab3c",
+      "evidenceFingerprint": "b28f9dd32535ebd17bfe541baf54970089c944e8a56f2daa691f5cc16e66d11c",
       "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
-      "judgedBy": "codex-reading-profile-review-2026-10-10",
-      "judgedAt": "2026-10-10T00:00:00Z",
+      "judgedBy": "codex-reading-profile-review-2026-10-11-inbox",
+      "judgedAt": "2026-10-11T08:17:59Z",
       "evidenceRefs": [
         "category",
-        "content"
+        "metadata"
       ],
-      "reason": "Boeken blijven uitgesloten van het leesmenu; ze horen in de boekenreeks."
+      "reason": "Boek/EPUB valt buiten de leesprofielen; de Reader-categorie bepaalt de uitsluiting."
     },
     "01j29d3fx2eh2cjm300ymbnbeg": {
       "status": "rejected",
       "confidence": "high",
       "rubricVersion": "reading-profile-v1",
       "sourceFingerprint": "4b231428ed41715b58bc8cc9493299fd52d26eb026ce522132662f08d6aafc64",
-      "evidenceFingerprint": "c4eaf20b39f5b83dacae209d4b4f4f682c4d9de2d9ebd82a7a2a66a7a787698c",
+      "evidenceFingerprint": "2ab1f17db65be203b32a3cb979e7a753146213c1b4cbe54400baa589b6978159",
       "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
-      "judgedBy": "codex-reading-profile-review-2026-10-10",
-      "judgedAt": "2026-10-10T00:00:00Z",
+      "judgedBy": "codex-reading-profile-review-2026-10-11-inbox",
+      "judgedAt": "2026-10-11T08:17:59Z",
       "evidenceRefs": [
         "category",
-        "content"
+        "metadata"
       ],
-      "reason": "Boeken blijven uitgesloten van het leesmenu; ze horen in de boekenreeks."
+      "reason": "Boek/EPUB valt buiten de leesprofielen; de Reader-categorie bepaalt de uitsluiting."
     },
     "01j29d3ekt10z6968e7p58zr3a": {
       "status": "rejected",
       "confidence": "high",
       "rubricVersion": "reading-profile-v1",
       "sourceFingerprint": "c03c14e9e1a0e7b205e82cec1f6201e9746021624f267c5cdd9861d17ac514f8",
-      "evidenceFingerprint": "542ffc0963d86a9e63c05601429c255d08d171858b5a96f4113d61d2ab9d3a5d",
+      "evidenceFingerprint": "873f811ec413f7eea83fff5bb9c9b3260ad0f1d33c5a994d8abd34d8c44b7118",
       "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
-      "judgedBy": "codex-reading-profile-review-2026-10-10",
-      "judgedAt": "2026-10-10T00:00:00Z",
+      "judgedBy": "codex-reading-profile-review-2026-10-11-inbox",
+      "judgedAt": "2026-10-11T08:17:59Z",
       "evidenceRefs": [
         "category",
-        "content"
+        "metadata"
       ],
-      "reason": "Boeken blijven uitgesloten van het leesmenu; ze horen in de boekenreeks."
+      "reason": "Boek/EPUB valt buiten de leesprofielen; de Reader-categorie bepaalt de uitsluiting."
     },
     "01j29d3dwx997fvp2v7meykqtp": {
       "status": "rejected",
       "confidence": "high",
       "rubricVersion": "reading-profile-v1",
       "sourceFingerprint": "abd9d42dd64df0d5c97b459d87e1d14e79a8776b373c9f7600b47755936ff87c",
-      "evidenceFingerprint": "983a88756783490b5fa8f5495918e6d41ac69baa1d134da126463824f23401e3",
+      "evidenceFingerprint": "cc54765fa4412b5d000f7573c12f9c16531e02dc8272fbdb7a2924d529345dab",
       "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
-      "judgedBy": "codex-reading-profile-review-2026-10-10",
-      "judgedAt": "2026-10-10T00:00:00Z",
+      "judgedBy": "codex-reading-profile-review-2026-10-11-inbox",
+      "judgedAt": "2026-10-11T08:17:59Z",
       "evidenceRefs": [
         "category",
-        "content"
+        "metadata"
       ],
-      "reason": "Boeken blijven uitgesloten van het leesmenu; ze horen in de boekenreeks."
+      "reason": "Boek/EPUB valt buiten de leesprofielen; de Reader-categorie bepaalt de uitsluiting."
     },
     "01j29d3d60k7dhd72yfq1ytt3z": {
       "status": "rejected",
       "confidence": "high",
       "rubricVersion": "reading-profile-v1",
       "sourceFingerprint": "6c2813bbcce8e0be3c1a48d2729a7acf16cefc5ec2335604467801daf1cea5b8",
-      "evidenceFingerprint": "97fef5ec8bc7d0a48938777fd250409efe119a9be2b40042366e9a14af9da11b",
+      "evidenceFingerprint": "96f3c5855b52e030a70a95f854c5e80230f6c258ac28764758d344ccc1e38df1",
       "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
-      "judgedBy": "codex-reading-profile-review-2026-10-10",
-      "judgedAt": "2026-10-10T00:00:00Z",
+      "judgedBy": "codex-reading-profile-review-2026-10-11-inbox",
+      "judgedAt": "2026-10-11T08:17:59Z",
       "evidenceRefs": [
         "category",
-        "content"
+        "metadata"
       ],
-      "reason": "Boeken blijven uitgesloten van het leesmenu; ze horen in de boekenreeks."
+      "reason": "Boek/EPUB valt buiten de leesprofielen; de Reader-categorie bepaalt de uitsluiting."
     },
     "01j29d3cds6c9f3v6jjbwjd0m8": {
       "status": "rejected",
       "confidence": "high",
       "rubricVersion": "reading-profile-v1",
       "sourceFingerprint": "d2901c238c5c70f4d1dc7667b02ff35e3b6007c498f9a1debf4b0c316e374427",
-      "evidenceFingerprint": "73894eec9d5a70fa70e78e4d58016d0a4fdc410ed10e7be000178811e4774580",
+      "evidenceFingerprint": "90586eb0a02423f34159ae637d1839fd8fc2b5e9e87f579877aea7f743b8a746",
       "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
-      "judgedBy": "codex-reading-profile-review-2026-10-10",
-      "judgedAt": "2026-10-10T00:00:00Z",
+      "judgedBy": "codex-reading-profile-review-2026-10-11-inbox",
+      "judgedAt": "2026-10-11T08:17:59Z",
       "evidenceRefs": [
         "category",
-        "content"
+        "metadata"
       ],
-      "reason": "Boeken blijven uitgesloten van het leesmenu; ze horen in de boekenreeks."
+      "reason": "Boek/EPUB valt buiten de leesprofielen; de Reader-categorie bepaalt de uitsluiting."
     },
     "01j29d3bqtx49g937cc5fnz2dc": {
       "status": "rejected",
       "confidence": "high",
       "rubricVersion": "reading-profile-v1",
       "sourceFingerprint": "b762eef0d32de5a0c74d55522cf7fda7ebe352c28614b42028fb22b47030f3fe",
-      "evidenceFingerprint": "076cb5870241f94d83d402b7b7875ff7311d02e9a57bfbc1ed6b30793849a6f4",
+      "evidenceFingerprint": "5df18a4e2598303cad35dec1a19e90631abfd26a3c053bf624ed81b53574c113",
       "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
-      "judgedBy": "codex-reading-profile-review-2026-10-10",
-      "judgedAt": "2026-10-10T00:00:00Z",
+      "judgedBy": "codex-reading-profile-review-2026-10-11-inbox",
+      "judgedAt": "2026-10-11T08:17:59Z",
       "evidenceRefs": [
         "category",
-        "content"
+        "metadata"
       ],
-      "reason": "Boeken blijven uitgesloten van het leesmenu; ze horen in de boekenreeks."
+      "reason": "Boek/EPUB valt buiten de leesprofielen; de Reader-categorie bepaalt de uitsluiting."
     },
     "01j29d3aw87yzcwsjrejygem67": {
       "status": "rejected",
       "confidence": "high",
       "rubricVersion": "reading-profile-v1",
       "sourceFingerprint": "d3085a952146f5cd10b124710399e6e793cb51806d63366fbda6e62290409ee5",
-      "evidenceFingerprint": "82506f2d13ff0dd2f8c981c72b65bae0495533c6a789e7aba8e5c9c54d49d392",
+      "evidenceFingerprint": "4e31166265787811dce294b036b67ee727180d60a046fc72e893e03208781a07",
       "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
-      "judgedBy": "codex-reading-profile-review-2026-10-10",
-      "judgedAt": "2026-10-10T00:00:00Z",
+      "judgedBy": "codex-reading-profile-review-2026-10-11-inbox",
+      "judgedAt": "2026-10-11T08:17:59Z",
       "evidenceRefs": [
         "category",
-        "content"
+        "metadata"
       ],
-      "reason": "Boeken blijven uitgesloten van het leesmenu; ze horen in de boekenreeks."
+      "reason": "Boek/EPUB valt buiten de leesprofielen; de Reader-categorie bepaalt de uitsluiting."
     },
     "01j29d39ky8ne144y1vxzs5wec": {
       "status": "rejected",
       "confidence": "high",
       "rubricVersion": "reading-profile-v1",
       "sourceFingerprint": "e7a5dfff497c42ed1dcf918139c5be2a9318c574d781cde6c70896a00cffae8c",
-      "evidenceFingerprint": "b50a24b78d6e8afa0c0ffeb3ee46fd4630c42c6bafe93f63abb8c0d3e36e32cb",
+      "evidenceFingerprint": "4ece87c25654e581cb8db7c36f001af22833071bea2143c98d6405381d44c41b",
       "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
-      "judgedBy": "codex-reading-profile-review-2026-10-10",
-      "judgedAt": "2026-10-10T00:00:00Z",
+      "judgedBy": "codex-reading-profile-review-2026-10-11-inbox",
+      "judgedAt": "2026-10-11T08:17:59Z",
       "evidenceRefs": [
         "category",
-        "content"
+        "metadata"
       ],
-      "reason": "Boeken blijven uitgesloten van het leesmenu; ze horen in de boekenreeks."
+      "reason": "Boek/EPUB valt buiten de leesprofielen; de Reader-categorie bepaalt de uitsluiting."
     },
     "01j29d38xxr3gp6z4x14nzw6es": {
       "status": "rejected",
       "confidence": "high",
       "rubricVersion": "reading-profile-v1",
       "sourceFingerprint": "24320406818aab16b37b3aede277533d77ff246a3489fabe84db9e186ef9f682",
-      "evidenceFingerprint": "add71ed88f0ac85980e64a146bb47a3a1633da46fc8c176e9f2ce18816525ab3",
+      "evidenceFingerprint": "1ebe6264cc0e5497b80a166f4a57a22edee20a1b28b6f33000b1251e5c495c2f",
       "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
-      "judgedBy": "codex-reading-profile-review-2026-10-10",
-      "judgedAt": "2026-10-10T00:00:00Z",
+      "judgedBy": "codex-reading-profile-review-2026-10-11-inbox",
+      "judgedAt": "2026-10-11T08:17:59Z",
       "evidenceRefs": [
         "category",
-        "content"
+        "metadata"
       ],
-      "reason": "Boeken blijven uitgesloten van het leesmenu; ze horen in de boekenreeks."
+      "reason": "Boek/EPUB valt buiten de leesprofielen; de Reader-categorie bepaalt de uitsluiting."
     },
     "01j29d37x3cztmzd8trte1m38n": {
       "status": "rejected",
       "confidence": "high",
       "rubricVersion": "reading-profile-v1",
       "sourceFingerprint": "9c79933272e3e9923c8014a55297e397833e140101376698b03d8fc30f6cc53d",
-      "evidenceFingerprint": "a7d833a0697b0c5725c5945dfdb3ad1874ce28feae3f6021482e422362b1688e",
+      "evidenceFingerprint": "7e331484d3aa181601697b7229336fd959dd6dec35169914c1904567880e7039",
       "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
-      "judgedBy": "codex-reading-profile-review-2026-10-10",
-      "judgedAt": "2026-10-10T00:00:00Z",
+      "judgedBy": "codex-reading-profile-review-2026-10-11-inbox",
+      "judgedAt": "2026-10-11T08:17:59Z",
       "evidenceRefs": [
         "category",
-        "content"
+        "metadata"
       ],
-      "reason": "Boeken blijven uitgesloten van het leesmenu; ze horen in de boekenreeks."
+      "reason": "Boek/EPUB valt buiten de leesprofielen; de Reader-categorie bepaalt de uitsluiting."
     },
     "01j29d3746nt7zejbxvg8cvbr9": {
       "status": "rejected",
       "confidence": "high",
       "rubricVersion": "reading-profile-v1",
       "sourceFingerprint": "1ed6975cb72d47a528b649681fc97be236655cf523cd1cb7a6ab78bc3eb387f7",
-      "evidenceFingerprint": "52aedc8d327675d856515b779b6c9ae3d0e7628664c1a3a590e75861052ad6d4",
+      "evidenceFingerprint": "08e44ffcca3284213a8626c6f89afde97f8f101935e4f433ca20359992f774e0",
       "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
-      "judgedBy": "codex-reading-profile-review-2026-10-10",
-      "judgedAt": "2026-10-10T00:00:00Z",
+      "judgedBy": "codex-reading-profile-review-2026-10-11-inbox",
+      "judgedAt": "2026-10-11T08:17:59Z",
       "evidenceRefs": [
         "category",
-        "content"
+        "metadata"
       ],
-      "reason": "Boeken blijven uitgesloten van het leesmenu; ze horen in de boekenreeks."
+      "reason": "Boek/EPUB valt buiten de leesprofielen; de Reader-categorie bepaalt de uitsluiting."
     },
     "01j29d3606c404ravsnqd4m202": {
       "status": "rejected",
       "confidence": "high",
       "rubricVersion": "reading-profile-v1",
       "sourceFingerprint": "21738765c14a662b6abe05e6cf9bf9c4cba6c8702b8dc4368294ce42cb46cbde",
-      "evidenceFingerprint": "e83b1b8e92e5d55c84852c3adc6730991dd58e5c45a6ee4d0fb0c6470d0409d7",
+      "evidenceFingerprint": "d08349cf5dce6ad5e14af14b6a29fec381578481147a76c3cfe8c0399ffa3651",
       "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
-      "judgedBy": "codex-reading-profile-review-2026-10-10",
-      "judgedAt": "2026-10-10T00:00:00Z",
+      "judgedBy": "codex-reading-profile-review-2026-10-11-inbox",
+      "judgedAt": "2026-10-11T08:17:59Z",
       "evidenceRefs": [
         "category",
-        "content"
+        "metadata"
       ],
-      "reason": "Boeken blijven uitgesloten van het leesmenu; ze horen in de boekenreeks."
+      "reason": "Boek/EPUB valt buiten de leesprofielen; de Reader-categorie bepaalt de uitsluiting."
     },
     "01j29d3555wfw99h6x7txs65sh": {
       "status": "rejected",
       "confidence": "high",
       "rubricVersion": "reading-profile-v1",
       "sourceFingerprint": "cd8e6ad56a00afb3c66575ac1d0ad65950f4a573095e3590fb51263c06a583ea",
-      "evidenceFingerprint": "0b9f55c99fd2be2721df5249838db3eb680bcd451788cafc56b854f889d1b6b8",
+      "evidenceFingerprint": "d663739ab1ecc6ac62f2a3eae8a0df58eb0ddef84455a14eef7a07998e7d69fc",
       "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
-      "judgedBy": "codex-reading-profile-review-2026-10-10",
-      "judgedAt": "2026-10-10T00:00:00Z",
+      "judgedBy": "codex-reading-profile-review-2026-10-11-inbox",
+      "judgedAt": "2026-10-11T08:17:59Z",
       "evidenceRefs": [
         "category",
-        "content"
+        "metadata"
       ],
-      "reason": "Boeken blijven uitgesloten van het leesmenu; ze horen in de boekenreeks."
+      "reason": "Boek/EPUB valt buiten de leesprofielen; de Reader-categorie bepaalt de uitsluiting."
     },
     "01j29d3477vpv22gsyz7y1zrp7": {
       "status": "rejected",
       "confidence": "high",
       "rubricVersion": "reading-profile-v1",
       "sourceFingerprint": "8612c8094f97ef6f8325c9350805acefe3bef6d370cc7da30f09bc01707bc832",
-      "evidenceFingerprint": "d8dc6d8c8ff35fa1db5a78f4c300c88daddc8f01b7379add1a89fe8bc56a9c49",
+      "evidenceFingerprint": "71777f518d07bb0c10800484e8d233a9291782eaf633d38830c2624c6769244d",
       "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
-      "judgedBy": "codex-reading-profile-review-2026-10-10",
-      "judgedAt": "2026-10-10T00:00:00Z",
+      "judgedBy": "codex-reading-profile-review-2026-10-11-inbox",
+      "judgedAt": "2026-10-11T08:17:59Z",
       "evidenceRefs": [
         "category",
-        "content"
+        "metadata"
       ],
-      "reason": "Boeken blijven uitgesloten van het leesmenu; ze horen in de boekenreeks."
+      "reason": "Boek/EPUB valt buiten de leesprofielen; de Reader-categorie bepaalt de uitsluiting."
     },
     "01j29d329ferdddmnja3ywxwye": {
       "status": "rejected",
       "confidence": "high",
       "rubricVersion": "reading-profile-v1",
       "sourceFingerprint": "000ca16e13a70ffd5f2db1f59a6e0f72e44ec1a337db1f4744d5423e1e24f62d",
-      "evidenceFingerprint": "336bc2f036afe3fde5161afaf276453c3c416dd297a686af888cf5764f56fa87",
+      "evidenceFingerprint": "95982a659998ec571361202854cbe6f48c1b4fae4b3bd5a8b60c782e26007928",
       "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
-      "judgedBy": "codex-reading-profile-review-2026-10-10",
-      "judgedAt": "2026-10-10T00:00:00Z",
+      "judgedBy": "codex-reading-profile-review-2026-10-11-inbox",
+      "judgedAt": "2026-10-11T08:17:59Z",
       "evidenceRefs": [
         "category",
-        "content"
+        "metadata"
       ],
-      "reason": "Boeken blijven uitgesloten van het leesmenu; ze horen in de boekenreeks."
+      "reason": "Boek/EPUB valt buiten de leesprofielen; de Reader-categorie bepaalt de uitsluiting."
     },
     "01j29b7xf9vas2b7q4308ts4bb": {
       "status": "rejected",
       "confidence": "high",
       "rubricVersion": "reading-profile-v1",
       "sourceFingerprint": "9ab68b231e82a37f80c4a4f7c0ce3bc7f29c27635f3d129849abc13731e5e4b3",
-      "evidenceFingerprint": "296e842a953389c5f8d726de4e03210e7c5b81f7fc40538b7129fffa4f7a8f63",
+      "evidenceFingerprint": "c3dc5f5e7fcc32a4e8e64866ff3b80643a20459267aaa65830f7fbd11803c9a2",
       "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
-      "judgedBy": "codex-reading-profile-review-2026-10-10",
-      "judgedAt": "2026-10-10T00:00:00Z",
+      "judgedBy": "codex-reading-profile-review-2026-10-11-inbox",
+      "judgedAt": "2026-10-11T08:17:59Z",
       "evidenceRefs": [
         "category",
-        "content"
+        "metadata"
       ],
-      "reason": "Boeken blijven uitgesloten van het leesmenu; ze horen in de boekenreeks."
+      "reason": "Boek/EPUB valt buiten de leesprofielen; de Reader-categorie bepaalt de uitsluiting."
     },
     "01j29b7vnf4wt6n264dxs18wem": {
       "status": "rejected",
       "confidence": "high",
       "rubricVersion": "reading-profile-v1",
       "sourceFingerprint": "cdcebcee20916a1eddcb88fda60c9a38a983b46723661751f26b00c30b553e3b",
-      "evidenceFingerprint": "a7ed2bd3d315c4f20175ab7b48e7dfb22571b0575c434dc266affdcd0823080d",
+      "evidenceFingerprint": "266a7509b273013f3b9749e13ab7fd797fc1e808eb06cd621c5afa242da1e5e9",
       "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
-      "judgedBy": "codex-reading-profile-review-2026-10-10",
-      "judgedAt": "2026-10-10T00:00:00Z",
+      "judgedBy": "codex-reading-profile-review-2026-10-11-inbox",
+      "judgedAt": "2026-10-11T08:17:59Z",
       "evidenceRefs": [
         "category",
-        "content"
+        "metadata"
       ],
-      "reason": "Boeken blijven uitgesloten van het leesmenu; ze horen in de boekenreeks."
+      "reason": "Boek/EPUB valt buiten de leesprofielen; de Reader-categorie bepaalt de uitsluiting."
     },
     "01j29b7tpmzr9ms5g74w2v2s5s": {
       "status": "rejected",
       "confidence": "high",
       "rubricVersion": "reading-profile-v1",
       "sourceFingerprint": "48f7d7a97a8ac5e50c375d74513493b303ca7dc20272e62dce839cb937b8bef5",
-      "evidenceFingerprint": "66ec4bfaf2c879152eccbf7f91039e87534f761d232ad49743e685f0420b2d21",
+      "evidenceFingerprint": "abef250c69e0294acce2fe880d034cfd13293112dc6f2cba37f5cc1fd7059887",
       "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
-      "judgedBy": "codex-reading-profile-review-2026-10-10",
-      "judgedAt": "2026-10-10T00:00:00Z",
+      "judgedBy": "codex-reading-profile-review-2026-10-11-inbox",
+      "judgedAt": "2026-10-11T08:17:59Z",
       "evidenceRefs": [
         "category",
-        "content"
+        "metadata"
       ],
-      "reason": "Boeken blijven uitgesloten van het leesmenu; ze horen in de boekenreeks."
+      "reason": "Boek/EPUB valt buiten de leesprofielen; de Reader-categorie bepaalt de uitsluiting."
     },
     "01j29b7stf12s2wpwzqdtfzme7": {
       "status": "rejected",
       "confidence": "high",
       "rubricVersion": "reading-profile-v1",
       "sourceFingerprint": "57e0bb57e3a0a109b3d16ff1de389669469b1f18ed7fb3aa147cd0fa62df6a86",
-      "evidenceFingerprint": "3884c69c93929fc7dc4420a62b3315474698feb1492936d72ca2b322de4e1d6d",
+      "evidenceFingerprint": "6ca2a3f1641b836222aeb46cc4bea7c61c4bdc8bb47fc6370c1f1037690c7210",
       "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
-      "judgedBy": "codex-reading-profile-review-2026-10-10",
-      "judgedAt": "2026-10-10T00:00:00Z",
+      "judgedBy": "codex-reading-profile-review-2026-10-11-inbox",
+      "judgedAt": "2026-10-11T08:17:59Z",
       "evidenceRefs": [
         "category",
-        "content"
+        "metadata"
       ],
-      "reason": "Boeken blijven uitgesloten van het leesmenu; ze horen in de boekenreeks."
+      "reason": "Boek/EPUB valt buiten de leesprofielen; de Reader-categorie bepaalt de uitsluiting."
     },
     "01j29b7rm4eskpwwc52cxc3029": {
       "status": "rejected",
       "confidence": "high",
       "rubricVersion": "reading-profile-v1",
       "sourceFingerprint": "43262986076437a0550c21d5e59190c89832e38e2c7299cc58c6c7afa723045e",
-      "evidenceFingerprint": "a262940fc17849923aa0501b62b5181264672dee4cd38b314991aa6784673b33",
+      "evidenceFingerprint": "4814c8430f9851d60f870cc26a2f2a3671420a4bfc07e44cff70a6451f36f911",
       "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
-      "judgedBy": "codex-reading-profile-review-2026-10-10",
-      "judgedAt": "2026-10-10T00:00:00Z",
+      "judgedBy": "codex-reading-profile-review-2026-10-11-inbox",
+      "judgedAt": "2026-10-11T08:17:59Z",
       "evidenceRefs": [
         "category",
-        "content"
+        "metadata"
       ],
-      "reason": "Boeken blijven uitgesloten van het leesmenu; ze horen in de boekenreeks."
+      "reason": "Boek/EPUB valt buiten de leesprofielen; de Reader-categorie bepaalt de uitsluiting."
     },
     "01j29b7q4wm936424r1keh3kz8": {
       "status": "rejected",
       "confidence": "high",
       "rubricVersion": "reading-profile-v1",
       "sourceFingerprint": "041625b515f5161633ed5ae72d13869b3baf8f0424fd4450e0779cf8d3c21f6b",
-      "evidenceFingerprint": "1313db9b2c5049e17ee01cd8cde2a4c7bcbc835cdb8d733e309be1122bea04a4",
+      "evidenceFingerprint": "4f731af3be8e310b1d8fc183579d65522c59adb7c83e12e9f339fd09fea826f7",
       "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
-      "judgedBy": "codex-reading-profile-review-2026-10-10",
-      "judgedAt": "2026-10-10T00:00:00Z",
+      "judgedBy": "codex-reading-profile-review-2026-10-11-inbox",
+      "judgedAt": "2026-10-11T08:17:59Z",
       "evidenceRefs": [
         "category",
-        "content"
+        "metadata"
       ],
-      "reason": "Boeken blijven uitgesloten van het leesmenu; ze horen in de boekenreeks."
+      "reason": "Boek/EPUB valt buiten de leesprofielen; de Reader-categorie bepaalt de uitsluiting."
     },
     "01j29b7mexjf9xsbecg5fyme08": {
       "status": "rejected",
       "confidence": "high",
       "rubricVersion": "reading-profile-v1",
       "sourceFingerprint": "d6469c0ec6e9935a8f92e0a8395438d67dea42d3edd1e2c46876192d2201e86a",
-      "evidenceFingerprint": "95fcb97e4cbf22ace84b85e68db4eff43a2aef1cd2511a7839c937575c71b925",
+      "evidenceFingerprint": "4c84e8fa7c7fef1794e5625dfba26cccb819a52fc342a5e137b99c55b888a396",
       "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
-      "judgedBy": "codex-reading-profile-review-2026-10-10",
-      "judgedAt": "2026-10-10T00:00:00Z",
+      "judgedBy": "codex-reading-profile-review-2026-10-11-inbox",
+      "judgedAt": "2026-10-11T08:17:59Z",
       "evidenceRefs": [
         "category",
-        "content"
+        "metadata"
       ],
-      "reason": "Boeken blijven uitgesloten van het leesmenu; ze horen in de boekenreeks."
+      "reason": "Boek/EPUB valt buiten de leesprofielen; de Reader-categorie bepaalt de uitsluiting."
     },
     "01j29arv27jhq09z72ajwp9kjy": {
       "status": "rejected",
       "confidence": "high",
       "rubricVersion": "reading-profile-v1",
       "sourceFingerprint": "cd06c8d0a5cfba5598eb76218423fce75bcf4b09014e5bdbb66a55b27cfc4bee",
-      "evidenceFingerprint": "4076db27d052760ea7a4afde0b4272e200679aa1152f28a9b2ab3bdbf80c8e76",
+      "evidenceFingerprint": "09d62d846fb3f0b6eb647e4ccfb3d96afdab1c151002da02b03c611feefd83ca",
       "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
-      "judgedBy": "codex-reading-profile-review-2026-10-10",
-      "judgedAt": "2026-10-10T00:00:00Z",
+      "judgedBy": "codex-reading-profile-review-2026-10-11-inbox",
+      "judgedAt": "2026-10-11T08:17:59Z",
       "evidenceRefs": [
         "category",
-        "content"
+        "metadata"
       ],
-      "reason": "Boeken blijven uitgesloten van het leesmenu; ze horen in de boekenreeks."
+      "reason": "Boek/EPUB valt buiten de leesprofielen; de Reader-categorie bepaalt de uitsluiting."
     },
     "01j28vse5rr7e97cxrbf3jh4h1": {
       "status": "rejected",
       "confidence": "high",
       "rubricVersion": "reading-profile-v1",
       "sourceFingerprint": "1708a334cbd967b69bac5f07486a183ed4464fb85c83d5418a03449ad5d1a89e",
-      "evidenceFingerprint": "a5580da8f4a28c80d277bf868352cc7b27f6e2c4ed86ac4ffaac6dc988166b54",
+      "evidenceFingerprint": "37f2ba7f680e1483f1f71768b221dc4e6b0ec30fd6a4f64e0ff445e5805aae97",
       "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
-      "judgedBy": "codex-reading-profile-review-2026-10-10",
-      "judgedAt": "2026-10-10T00:00:00Z",
+      "judgedBy": "codex-reading-profile-review-2026-10-11-inbox",
+      "judgedAt": "2026-10-11T08:17:59Z",
       "evidenceRefs": [
         "category",
-        "content"
+        "metadata"
       ],
-      "reason": "Boeken blijven uitgesloten van het leesmenu; ze horen in de boekenreeks."
+      "reason": "Boek/EPUB valt buiten de leesprofielen; de Reader-categorie bepaalt de uitsluiting."
     },
     "01j28vsd63175zdak33c46ccey": {
       "status": "rejected",
       "confidence": "high",
       "rubricVersion": "reading-profile-v1",
       "sourceFingerprint": "8cedc5720437804cce72ec05590b341bc53275319b4b27e5a6605ab799d5b765",
-      "evidenceFingerprint": "8c76afba9b47549b9f62b239543234b16f0f8bac73db1ea4f988ceb19f03e880",
+      "evidenceFingerprint": "6e7d62c3c4bea2b3c1ca59bbddb3356d20918d1fa1fcfaf3855e36823052087f",
       "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
-      "judgedBy": "codex-reading-profile-review-2026-10-10",
-      "judgedAt": "2026-10-10T00:00:00Z",
+      "judgedBy": "codex-reading-profile-review-2026-10-11-inbox",
+      "judgedAt": "2026-10-11T08:17:59Z",
       "evidenceRefs": [
         "category",
-        "content"
+        "metadata"
       ],
-      "reason": "Boeken blijven uitgesloten van het leesmenu; ze horen in de boekenreeks."
+      "reason": "Boek/EPUB valt buiten de leesprofielen; de Reader-categorie bepaalt de uitsluiting."
     },
     "01j28vk8x6dvbnv05fex4z13dz": {
       "status": "rejected",
       "confidence": "high",
       "rubricVersion": "reading-profile-v1",
       "sourceFingerprint": "f6e1b957bfea3327a93e11f86dd2d0cdb33d693487364c0f154c352a57dbf333",
-      "evidenceFingerprint": "3180af2cff5146295309fee2acf33c8d4cca8dd457112b93f00119b73dfcc283",
+      "evidenceFingerprint": "bf467b6b38594511fd039f809295df3297cce73d5d4c95be41216b451151d3da",
       "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
-      "judgedBy": "codex-reading-profile-review-2026-10-10",
-      "judgedAt": "2026-10-10T00:00:00Z",
+      "judgedBy": "codex-reading-profile-review-2026-10-11-inbox",
+      "judgedAt": "2026-10-11T08:17:59Z",
       "evidenceRefs": [
         "category",
-        "content"
+        "metadata"
       ],
-      "reason": "Boeken blijven uitgesloten van het leesmenu; ze horen in de boekenreeks."
+      "reason": "Boek/EPUB valt buiten de leesprofielen; de Reader-categorie bepaalt de uitsluiting."
     },
     "01j28vk7ysb2em2twbr7zmfv0b": {
       "status": "rejected",
       "confidence": "high",
       "rubricVersion": "reading-profile-v1",
       "sourceFingerprint": "3314419da1b9453bd36dba751be125503f37d72b6df2bd5aadcd1206cba84e5c",
-      "evidenceFingerprint": "7e88a5f6d76c87dea3d67fd59eb2ef34c2a5b9cb0adf15679d7c02170a820787",
+      "evidenceFingerprint": "f61b552b5dbc92d0656b65f467b4aba9a1bd0ce04c3d410501aecc22c141bd1d",
       "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
-      "judgedBy": "codex-reading-profile-review-2026-10-10",
-      "judgedAt": "2026-10-10T00:00:00Z",
+      "judgedBy": "codex-reading-profile-review-2026-10-11-inbox",
+      "judgedAt": "2026-10-11T08:17:59Z",
       "evidenceRefs": [
         "category",
-        "content"
+        "metadata"
       ],
-      "reason": "Boeken blijven uitgesloten van het leesmenu; ze horen in de boekenreeks."
+      "reason": "Boek/EPUB valt buiten de leesprofielen; de Reader-categorie bepaalt de uitsluiting."
     },
     "01j28vk6sshcs4s85dctd96np2": {
       "status": "rejected",
       "confidence": "high",
       "rubricVersion": "reading-profile-v1",
       "sourceFingerprint": "4eba5c70e286ee3907fdcd82ce31b89a1c2fca68850e156f67ee3cc18ee4034d",
-      "evidenceFingerprint": "57898bbfb842b9eefb0bb81402cdf316d3d7164c86d817978006ad4ec8ebb1c1",
+      "evidenceFingerprint": "ae1b9c81e8fe90d57ab1ea99fe4747f5c9339a247d312f12e1a148cb6a8e5e2c",
       "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
-      "judgedBy": "codex-reading-profile-review-2026-10-10",
-      "judgedAt": "2026-10-10T00:00:00Z",
+      "judgedBy": "codex-reading-profile-review-2026-10-11-inbox",
+      "judgedAt": "2026-10-11T08:17:59Z",
       "evidenceRefs": [
         "category",
-        "content"
+        "metadata"
       ],
-      "reason": "Boeken blijven uitgesloten van het leesmenu; ze horen in de boekenreeks."
+      "reason": "Boek/EPUB valt buiten de leesprofielen; de Reader-categorie bepaalt de uitsluiting."
     },
     "01j28vhxyk558cnpcqjsy3p80p": {
       "status": "rejected",
       "confidence": "high",
       "rubricVersion": "reading-profile-v1",
       "sourceFingerprint": "9eab92864ca9b5e0c893855da3f1afc092763473b60a2a2bb7422b5923e77ea8",
-      "evidenceFingerprint": "1a37755c892ad60c6aac1fb0890d967c99115a5bc92711a36b37ab94de6fed55",
+      "evidenceFingerprint": "aa4e72f4caef76cbd1199ed8a14aa0f97d727f123c2317d4da9256ba784625d1",
       "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
-      "judgedBy": "codex-reading-profile-review-2026-10-10",
-      "judgedAt": "2026-10-10T00:00:00Z",
+      "judgedBy": "codex-reading-profile-review-2026-10-11-inbox",
+      "judgedAt": "2026-10-11T08:17:59Z",
       "evidenceRefs": [
         "category",
-        "content"
+        "metadata"
       ],
-      "reason": "Boeken blijven uitgesloten van het leesmenu; ze horen in de boekenreeks."
+      "reason": "Boek/EPUB valt buiten de leesprofielen; de Reader-categorie bepaalt de uitsluiting."
     },
     "01hzhvwh05p9f4hf86ghy6pnyw": {
       "status": "accepted",
@@ -12760,6 +12760,78 @@
           "verdieping": 3
         }
       }
+    },
+    "01m4mxbqftj1d6h8q7xvrq4xm4": {
+      "status": "accepted",
+      "confidence": "high",
+      "rubricVersion": "reading-profile-v1",
+      "judgedBy": "codex-reading-profile-review-2026-10-11-inbox",
+      "judgedAt": "2026-10-11T08:17:59Z",
+      "evidenceRefs": [
+        "content",
+        "notes",
+        "summary"
+      ],
+      "reason": "De volledige productontwikkelingsessay is helder maar conceptueel; de analyse van probleemdefinitie, experimenten en iteratie vraagt aandacht en verdiept de bestaande werkinteresses zonder zwaar te zijn.",
+      "traits": {
+        "effort": 3,
+        "emotionalWeight": 1,
+        "tone": "reflectief",
+        "needFit": {
+          "ontspannen": 1,
+          "afleiding": 1,
+          "herkenning": 3,
+          "verkennen": 3,
+          "verdieping": 4
+        }
+      },
+      "sourceFingerprint": "f64dadafbaf1672dd01c6baaf84927426c4e0539c859885c7a6ab984d0ef147c",
+      "evidenceFingerprint": "ae1ba90def6e347e61134c220cf0dbcd9ee10a52553db0a0338cae601cd5d069",
+      "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7"
+    },
+    "01m4mxb8j3agx2ed6czb2m2f06": {
+      "status": "accepted",
+      "confidence": "high",
+      "rubricVersion": "reading-profile-v1",
+      "judgedBy": "codex-reading-profile-review-2026-10-11-inbox",
+      "judgedAt": "2026-10-11T08:17:59Z",
+      "evidenceRefs": [
+        "content",
+        "notes",
+        "summary"
+      ],
+      "reason": "De volledige, conversationele talk werkt concreet uit wat technisch en sociaal leiderschap onder AI vraagt; de lengte en voorbeelden vragen concentratie, maar de toon is steunend en de inhoud biedt duidelijke verdieping.",
+      "traits": {
+        "effort": 3,
+        "emotionalWeight": 1,
+        "tone": "warm",
+        "needFit": {
+          "ontspannen": 1,
+          "afleiding": 1,
+          "herkenning": 3,
+          "verkennen": 3,
+          "verdieping": 4
+        }
+      },
+      "sourceFingerprint": "ffee0143b51e828325c5c08a99f5eed14c1b1598ea07cb46dce93c3355d41680",
+      "evidenceFingerprint": "7f9e7a6be6ef048a039996b6a315ba9c6321bd80516f7cf530882e7546e5ce92",
+      "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7"
+    },
+    "01m4kg7hz09h5ewqexm0xw5xw2": {
+      "status": "rejected",
+      "confidence": "high",
+      "rubricVersion": "reading-profile-v1",
+      "judgedBy": "codex-reading-profile-review-2026-10-11-inbox",
+      "judgedAt": "2026-10-11T08:17:59Z",
+      "evidenceRefs": [
+        "content",
+        "notes",
+        "summary"
+      ],
+      "reason": "De beschikbare preview eindigt midden in het betoog met een abonnementspaywall; de volledige tekst ontbreekt en krijgt daarom geen leesprofiel.",
+      "sourceFingerprint": "d6c0b7d01e4474344a06d7c9456075e919515c23273dbe16ac27c070c4779ecc",
+      "evidenceFingerprint": "88017dfb220e1cd6dcaf3e4e23d5c2ee718769afe576d45bad665dd8dc9836c8",
+      "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7"
     }
   }
 }
