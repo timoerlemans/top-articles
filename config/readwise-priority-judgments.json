@@ -88673,6 +88673,52 @@
       ],
       "judgedBy": "automated-fallback-v1",
       "judgedAt": "2026-10-11T08:06:27.265Z"
+    },
+    "01m4mtzabe83c0yjy7rxnwha7b": {
+      "sourceFingerprint": "603f8a88e8b847f5189136eb5afcf362c250c624a4ba6c691c6f01951ee0a21f",
+      "relevance": 2,
+      "substance": 1,
+      "durability": 1,
+      "usefulness": 4,
+      "sequenceFit": {
+        "video": 0,
+        "boek": 0,
+        "pdf": 0,
+        "lees": 0,
+        "dutch": 0,
+        "short": 1,
+        "short-dutch": 1,
+        "luchtig": 1,
+        "luchtig-nederlands": 1,
+        "scrum": 0,
+        "software-development": 0,
+        "front-end-development": 0,
+        "social-studies": 0,
+        "adhd": 0,
+        "philosophy": 0
+      },
+      "confidence": "low",
+      "reasonCodes": [
+        "fallback-no-label",
+        "usefulness-signal",
+        "automated-fallback"
+      ],
+      "topicRelevance": {
+        "scrum": 0,
+        "software-development": 0,
+        "front-end-development": 0,
+        "social-studies": 4,
+        "adhd": 0,
+        "philosophy": 0
+      },
+      "evidenceFingerprint": "f1ad7c9f1f130879f52c50ba52ced15d13b94d59484972604a2099c5d5340c74",
+      "status": "accepted",
+      "rubricVersion": "semantic-v1",
+      "evidenceRefs": [
+        "metadata"
+      ],
+      "judgedBy": "automated-fallback-v1",
+      "judgedAt": "2026-10-11T09:56:37.993Z"
     }
   }
 }
