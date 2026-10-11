@@ -4651,7 +4651,7 @@ window.TOP_ARTICLES = {
       }
     }
   },
-  "generatedAt": "2026-10-10T17:04:17.733Z",
+  "generatedAt": "2026-10-11T08:10:06.736Z",
   "families": [
     {
       "id": "algemeen",
@@ -10997,6 +10997,35 @@ window.TOP_ARTICLES = {
               "alsoIn": [
                 "aaa-front-end-development-top-100"
               ]
+            },
+            {
+              "position": 72,
+              "id": "01m4kg7hz09h5ewqexm0xw5xw2",
+              "title": "People Are Rejecting Screens—and Returning to Communal Events",
+              "author": "Ted Gioia",
+              "siteName": "Substack",
+              "category": "email",
+              "language": null,
+              "readingTime": "3 mins",
+              "readingMinutes": 3,
+              "wordCount": 729,
+              "publishedDate": "2026-10-10",
+              "savedDate": "2026-10-10T18:12:01.633000+00:00",
+              "imageUrl": null,
+              "sourceUrl": "mailto:reader-forwarded-email/d3eb9894992941338d8bb3dad84a4d08",
+              "readwiseUrl": "https://read.readwise.io/read/01m4kg7hz09h5ewqexm0xw5xw2",
+              "summary": "In his words, they will seek to “get away from the pressure of soulless facts and the clear cold atmosphere of technical organization.",
+              "whyRead": "Ted Gioia verkent waarom mensen naast schermen weer gezamenlijke live-evenementen opzoeken. Het stuk raakt aan cultuur, technologie en sociale verbinding; de brede these is prikkelend maar steunt hier op een beperkt aantal voorbeelden.",
+              "bestMoment": "analytisch",
+              "tags": [
+                "arts & culture",
+                "sociology & social structures",
+                "technology"
+              ],
+              "coreInterests": [
+                "sociologie"
+              ],
+              "alsoIn": []
             }
           ]
         }
@@ -23933,6 +23962,64 @@ window.TOP_ARTICLES = {
             },
             {
               "position": 62,
+              "id": "01m4mxb8j3agx2ed6czb2m2f06",
+              "title": "The Manager’s Path in the Age of AI",
+              "author": "Camille Fournier",
+              "siteName": "Medium",
+              "category": "article",
+              "language": null,
+              "readingTime": "13 mins",
+              "readingMinutes": 13,
+              "wordCount": 3439,
+              "publishedDate": "2026-09-19",
+              "savedDate": "2026-10-11T07:20:28.996000+00:00",
+              "imageUrl": "https://miro.medium.com/v2/resize:fit:1400/1*32LP8iirLzUIZrJJrQS7lA.png",
+              "sourceUrl": "https://skamille.medium.com/the-managers-path-in-the-age-of-ai-279cb6611d66?utm_source=substack&utm_medium=email",
+              "readwiseUrl": "https://read.readwise.io/read/01m4mxb8j3agx2ed6czb2m2f06",
+              "summary": "This week, I gave a talk at LDX3 New York. When they asked me to speak and asked me for a topic, I said that it was probably time I finally…",
+              "whyRead": "Sluit aan bij je interesse in softwareontwikkeling, AI en teamdynamiek. Camille Fournier beschrijft welk technisch, sociaal en organisatorisch werk managers blijven doen wanneer AI taken verandert.",
+              "bestMoment": "analytisch",
+              "tags": [
+                "organizational behavior & culture",
+                "software development",
+                "team dynamics & collaboration"
+              ],
+              "coreInterests": [
+                "agile"
+              ],
+              "alsoIn": []
+            },
+            {
+              "position": 63,
+              "id": "01m4mxbqftj1d6h8q7xvrq4xm4",
+              "title": "The fake double diamond is dead. The real double diamond is immortal.",
+              "author": "Pavel Samsonov",
+              "siteName": "The Product Picnic",
+              "category": "article",
+              "language": null,
+              "readingTime": "6 mins",
+              "readingMinutes": 6,
+              "wordCount": 1429,
+              "publishedDate": "2026-10-04",
+              "savedDate": "2026-10-11T07:20:44.282000+00:00",
+              "imageUrl": "https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,quality=80,width=1200,onerror=redirect/uploads/asset/file/8d297325-6220-4953-9941-aff641bacef5/85.png?t=1791149987",
+              "sourceUrl": "https://productpicnic.beehiiv.com/p/the-fake-double-diamond-is-dead-the-real-double-diamond-is-immortal?utm_source=substack&utm_medium=email",
+              "readwiseUrl": "https://read.readwise.io/read/01m4mxbqftj1d6h8q7xvrq4xm4",
+              "summary": "AI is not a substitute for divergent thinking, and the false certainty it gives will never save you from having to iterate.",
+              "whyRead": "Raakt je interesse in softwareontwikkeling, productdelivery en AI. Het stuk pleit voor zowel probleemdefinitie als iteratief leren, met een heldere hypothese en opruimen van experimenten.",
+              "bestMoment": "analytisch",
+              "tags": [
+                "agile",
+                "product management",
+                "software development"
+              ],
+              "coreInterests": [
+                "agile"
+              ],
+              "alsoIn": []
+            },
+            {
+              "position": 64,
               "id": "01m1qrnm32e32se2m8gp9bvx2m",
               "title": "Content Strategy: The Philosophy of Data",
               "author": "boxesandarrows.com",
@@ -23959,7 +24046,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 63,
+              "position": 65,
               "id": "01m1pc52whmcp71rdn2f2d01qb",
               "title": "Ain’t no party like a third party",
               "author": "adactio.com",
@@ -23990,7 +24077,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 64,
+              "position": 66,
               "id": "01m2wjkqmf6e3rmjtmng2k5gm0",
               "title": "The DHH Problem",
               "author": "davidcel.is",
@@ -24019,7 +24106,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 65,
+              "position": 67,
               "id": "01ke8078ppphvc7nr28ecay5nf",
               "title": "Let a thousand societies bloom",
               "author": "eth.limo",
@@ -24051,7 +24138,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 66,
+              "position": 68,
               "id": "01kj585kpp3a99w8fhgx6mvx1v",
               "title": "Sprintdoel in Scrum",
               "author": "Scrum Facilitators",
@@ -24082,7 +24169,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 67,
+              "position": 69,
               "id": "01m2w4pyr92w831ycpvvr0gtyz",
               "title": "Complexity and Creativity in Software Engineering",
               "author": "InfoQ",
@@ -24109,7 +24196,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 68,
+              "position": 70,
               "id": "01m2wjkek800m70692sxhjpze6",
               "title": "Hyprland Banned from FreeDesktop: Why.",
               "author": "thelibre.news",
@@ -24138,7 +24225,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 69,
+              "position": 71,
               "id": "01m3d23y59bjbbg4m0fmbrv68n",
               "title": "Small – Scalable – Stories in the INVEST Model",
               "author": "xp123.com",
@@ -24169,7 +24256,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 70,
+              "position": 72,
               "id": "01m1p7327vfsy0dqn6zk81hgja",
               "title": "What I’ve learned about accessibility in SPAs",
               "author": "nolanlawson.com",
@@ -24200,7 +24287,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 71,
+              "position": 73,
               "id": "01m1p73e78g88e21p5pm8ccfy4",
               "title": "The weirdly obscure art of Streamed HTML",
               "author": "dev.to",
@@ -24228,7 +24315,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 72,
+              "position": 74,
               "id": "01m1p7414hg20qvstgwygjwdhv",
               "title": "Be progressive",
               "author": "adactio.com",
@@ -24259,7 +24346,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 73,
+              "position": 75,
               "id": "01m1p7nxnhh4j001458qw06n22",
               "title": "Making the world’s fastest website, and other mistakes",
               "author": "dev.to",
@@ -24286,7 +24373,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 74,
+              "position": 76,
               "id": "01m40nws0yttnghfx3a322zhtv",
               "title": "Shifting Cyber Norms: Microsoft security POST-ing to you",
               "author": "berthub.eu",
@@ -24313,7 +24400,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 75,
+              "position": 77,
               "id": "01kgdfp777bge0tsbfpzway43h",
               "title": "Why Designers Can No Longer Trust the Design Process",
               "author": "Hatch Conference",
@@ -24343,7 +24430,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 76,
+              "position": 78,
               "id": "01m1p46tkw2fp087th9qdg88fg",
               "title": "The \"Developer Experience\" Bait-and-Switch",
               "author": "infrequently.org",
@@ -24371,7 +24458,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 77,
+              "position": 79,
               "id": "01m1pkbwp8yhkmvyn4v9hw8p0p",
               "title": "For a Future-Friendly Web",
               "author": "alistapart.com",
@@ -24399,7 +24486,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 78,
+              "position": 80,
               "id": "01m1q387kecjnv4ddq8tgyy4h2",
               "title": "When the UI Is Too Fast",
               "author": "nngroup.com",
@@ -24428,7 +24515,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 79,
+              "position": 81,
               "id": "01m1q3apz296jkrexs5knjaqxf",
               "title": "Strategic Content Management",
               "author": "alistapart.com",
@@ -24457,7 +24544,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 80,
+              "position": 82,
               "id": "01m1q5n7sb6ar9nn4wsdbg35g6",
               "title": "The Discipline of Content Strategy",
               "author": "alistapart.com",
@@ -24486,7 +24573,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 81,
+              "position": 83,
               "id": "01kfb379ht5f8kzb19vmtx28qp",
               "title": "Moving away from Agile: What's Next – Martin Harrysson & Natasha Maniar, McKinsey & Company",
               "author": "AI Engineer",
@@ -24515,7 +24602,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 82,
+              "position": 84,
               "id": "01m1p470j3kcmd7srqg5enza7f",
               "title": "Style performance and concurrent rendering",
               "author": "nolanlawson.com",
@@ -24543,7 +24630,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 83,
+              "position": 85,
               "id": "01m1p5e6p6ww72hepd01ts9y9c",
               "title": "Why We're Breaking Up with CSS-in-JS",
               "author": "dev.to",
@@ -24571,7 +24658,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 84,
+              "position": 86,
               "id": "01m1pc576k50j01bhxhbrpm83v",
               "title": "Why Efficient Hydration in JavaScript Frameworks is so Challenging",
               "author": "dev.to",
@@ -24598,7 +24685,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 85,
+              "position": 87,
               "id": "01kj58br1h8mzqdgf9ccngjjkv",
               "title": "Er is slechts één soort Product Backlog refinement",
               "author": "Scrum Facilitators",
@@ -24629,7 +24716,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 86,
+              "position": 88,
               "id": "01m1pc8cz444y77ecj8rn0s6jj",
               "title": "Support Vs Optimization",
               "author": "bradfrost.com",
@@ -24660,7 +24747,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 87,
+              "position": 89,
               "id": "01m1w4fzwhgx8cz2g8nkap1pdq",
               "title": "ExploitGym: Can AI Agents Turn Security Vulnerabilities into Real Attacks?",
               "author": "arxiv.org",
@@ -24689,7 +24776,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 88,
+              "position": 90,
               "id": "01m3hr629yekmazqarpyneg69p",
               "title": "Matz is nice so we are nice",
               "author": "blog.steveklabnik.com",
@@ -24721,7 +24808,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 89,
+              "position": 91,
               "id": "01m1q38ff85hf5x3wm3f495r1d",
               "title": "Powers of 10: Time Scales in User Experience",
               "author": "nngroup.com",
@@ -24748,7 +24835,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 90,
+              "position": 92,
               "id": "01m1q397npt8pd2zgh8kkyx7g7",
               "title": "Accessible JavaScript JavaScript Event Handlers",
               "author": "webaim.org",
@@ -24777,7 +24864,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 91,
+              "position": 93,
               "id": "01m391vyzc65eeqdk1cc0ftrrp",
               "title": "Waar is de 'flow' gebleven?",
               "author": "Max Brouwer from Mensenwerk - De menselijke maat in een wereld vol AI",
@@ -24808,7 +24895,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 92,
+              "position": 94,
               "id": "01jkxyd6vfh2jexjbtgjr59px7",
               "title": "How to live without your phone",
               "author": "Sam Kriss",
@@ -24837,7 +24924,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 93,
+              "position": 95,
               "id": "01m2w4xvfgk1q7f6hsa7vz24vr",
               "title": "Architecting Secure and Scalable Facial Verification Systems",
               "author": "r.updates.infoq.com",
@@ -24864,7 +24951,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 94,
+              "position": 96,
               "id": "01m46431wythwj3jb4011akmqa",
               "title": "Taking Back The Internet With The Tildeverse",
               "author": "hackaday.com",
@@ -24895,7 +24982,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 95,
+              "position": 97,
               "id": "01kd1canjswg2k0ey5cgtz3fa4",
               "title": "Why I Am Not Going To Buy A Computer",
               "author": "Wendell Berry",
@@ -24927,7 +25014,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 96,
+              "position": 98,
               "id": "01m1pkcy3mwn5efd7wb4mm674v",
               "title": "Debuggable JavaScript in Production with Source Maps",
               "author": "blog.sentry.io",
@@ -24954,7 +25041,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 97,
+              "position": 99,
               "id": "01m3gr7zfa6ns655xrdmbjq9mc",
               "title": "Measuring AI’s Unintended Consequences",
               "author": "jamesshore.com",
@@ -24980,7 +25067,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 98,
+              "position": 100,
               "id": "01m1p7tppsy5qeyt4m808ekcgx",
               "title": "High-performance input handling on the web",
               "author": "nolanlawson.com",
@@ -25005,65 +25092,6 @@ window.TOP_ARTICLES = {
               ],
               "coreInterests": [],
               "alsoIn": []
-            },
-            {
-              "position": 99,
-              "id": "01m1pc5k1q6bd3ywk10j54kee5",
-              "title": "Missed Connections",
-              "author": "aaron-gustafson.com",
-              "siteName": "aaron-gustafson.com",
-              "category": "article",
-              "language": null,
-              "readingTime": "9 mins",
-              "readingMinutes": 9,
-              "wordCount": 2355,
-              "publishedDate": "2014-09-19",
-              "savedDate": "2026-09-04T14:11:40.725000+00:00",
-              "imageUrl": "https://res.cloudinary.com/aarongustafson/image/upload/w_1280,h_669,c_fill,q_auto,f_auto/w_760,c_fit,co_rgb:2C2825,g_south_west,x_480,y_205,l_text:Source%20Serif%20Pro_72_700_line_spacing_-18:Missed%20Connections/w_760,c_fit,co_rgb:505050,g_north_west,x_480,y_505,l_text:Open%20Sans_36_light_line_spacing_-5:%2523web-design%20%2523web-development%20%2523javascript/share-card",
-              "sourceUrl": "http://aaron-gustafson.com/notebook/2014/missed-connections/",
-              "readwiseUrl": "https://read.readwise.io/read/01m1pc5k1q6bd3ywk10j54kee5",
-              "summary": "Earlier today, Stuart Langridge—who I worked with on WaSP’s DOM Scripting Task Force and have the utmost respect for—published a blog response to my last post. In it, he made some good points I wanted to highlight, but he also misunderstood one thing I said and managed to avoid addressing the core of my argument. As comments aren’t enabled on his site, I thought I’d respond here.",
-              "whyRead": "Een essay over de verborgen afhankelijkheid van client-side JavaScript. Het maakt duidelijk dat ontwikkelaars niet bepalen of, wanneer en onder welke omstandigheden code uiteindelijk bij een gebruiker draait.",
-              "bestMoment": "kritisch",
-              "tags": [
-                "accessibility",
-                "front-end software development",
-                "professional development",
-                "software development"
-              ],
-              "coreInterests": [],
-              "alsoIn": [
-                "aaa-front-end-development-top-100"
-              ]
-            },
-            {
-              "position": 100,
-              "id": "01m1ptghcfvreqe0a796mr3f0z",
-              "title": "Skip Navigation Links",
-              "author": "webaim.org",
-              "siteName": "webaim.org",
-              "category": "article",
-              "language": null,
-              "readingTime": "6 mins",
-              "readingMinutes": 6,
-              "wordCount": 1385,
-              "publishedDate": "2021-09-22",
-              "savedDate": "2026-09-04T18:22:19.535000+00:00",
-              "imageUrl": null,
-              "sourceUrl": "https://webaim.org/techniques/skipnav/",
-              "readwiseUrl": "https://read.readwise.io/read/01m1ptghcfvreqe0a796mr3f0z",
-              "summary": "On most pages, keyboard and screen reader users must navigate a long list of navigation links and other elements before ever arriving at the main content.",
-              "whyRead": "Een praktisch voorbeeld van hoe bronvolgorde, focusbeheer en CSS samenkomen in toegankelijke navigatie. Skiplinks zijn klein, maar maken een fundamenteel verschil voor toetsenbordgebruikers en mensen die herhaalde interfaceblokken niet telkens willen doorlopen.",
-              "bestMoment": "leergierig",
-              "tags": [
-                "accessibility",
-                "front-end software development",
-                "software development"
-              ],
-              "coreInterests": [],
-              "alsoIn": [
-                "aaa-front-end-development-top-100"
-              ]
             }
           ]
         }
@@ -25722,9 +25750,7 @@ window.TOP_ARTICLES = {
                 "software development"
               ],
               "coreInterests": [],
-              "alsoIn": [
-                "aaa-software-development-top-100"
-              ]
+              "alsoIn": []
             },
             {
               "position": 12,
@@ -25751,9 +25777,7 @@ window.TOP_ARTICLES = {
                 "software development"
               ],
               "coreInterests": [],
-              "alsoIn": [
-                "aaa-software-development-top-100"
-              ]
+              "alsoIn": []
             },
             {
               "position": 13,
@@ -35985,6 +36009,355 @@ window.TOP_ARTICLES = {
     "items": [
       {
         "position": null,
+        "id": "01m4mxqnhzkjb13x7bdxszs4pa",
+        "title": "Mapping power in a matrix organisation: Seeing who can really make things happen",
+        "author": "Andi Roberts",
+        "siteName": "Andi Roberts",
+        "category": "article",
+        "language": null,
+        "readingTime": "17 mins",
+        "readingMinutes": 17,
+        "wordCount": 4336,
+        "publishedDate": "2026-09-29",
+        "savedDate": "2026-10-11T07:27:15.520000+00:00",
+        "imageUrl": "https://andiroberts.com/wp-content/uploads/2026/09/mapping-power-matrix-organisation.png",
+        "sourceUrl": "https://andiroberts.com/leadership/mapping-power-matrix-organisation?utm_source=substack&utm_medium=email",
+        "readwiseUrl": "https://read.readwise.io/read/01m4mxqnhzkjb13x7bdxszs4pa",
+        "summary": "Learn how to map real power, influence and adaptive capacity in a matrix organisation, then turn the map into practical moves that create progress.",
+        "whyRead": "Dit raakt je interesse in organisatiegedrag, macht en teamcoaching. Het maakt informele machtsverhoudingen in matrixorganisaties zichtbaar en vertaalt die naar concrete interventies.",
+        "bestMoment": "analytisch",
+        "tags": [
+          "organizational behavior & culture",
+          "team coaching",
+          "team dynamics & collaboration"
+        ],
+        "coreInterests": [
+          "agile"
+        ],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01m4mxpxrevf72qey9pd30habf",
+        "title": "Difficult Team Member? Change the Situation, Not the Person",
+        "author": "Agile Pain Relief",
+        "siteName": "Agile Pain Relief Consulting | Scrum and Agile Training and Resources",
+        "category": "article",
+        "language": null,
+        "readingTime": "7 mins",
+        "readingMinutes": 7,
+        "wordCount": 1731,
+        "publishedDate": "2026-09-10",
+        "savedDate": "2026-10-11T07:26:51.150000+00:00",
+        "imageUrl": "https://agilepainrelief.com/_astro/difficult-person-iceberg.BEB2Y-mG_chjxx.jpeg?dpl=6ac95a386e768b0008d1beb6",
+        "sourceUrl": "https://agilepainrelief.com/blog/difficult-team-member-change-the-situation/?utm_source=substack&utm_medium=email",
+        "readwiseUrl": "https://read.readwise.io/read/01m4mxpxrevf72qey9pd30habf",
+        "summary": "A good person stuck in a difficult situation looks like a difficult person. Start from a place of empathy, then look for the real cause.",
+        "whyRead": "Sluit aan bij je interesse in teamdynamiek, feedback en agile/teamcoaching. Het stuk laat zien hoe context en prikkels lastig gedrag kunnen veroorzaken en geeft concrete interventies.",
+        "bestMoment": "leergierig",
+        "tags": [
+          "scrum",
+          "team coaching",
+          "team dynamics & collaboration"
+        ],
+        "coreInterests": [
+          "agile"
+        ],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01m4mxps05b8s3j4edskkx9pz3",
+        "title": "Coding is NOT solved",
+        "author": "Alex Ewerlöf",
+        "siteName": "alexewerlof.com",
+        "category": "article",
+        "language": null,
+        "readingTime": "10 mins",
+        "readingMinutes": 10,
+        "wordCount": 2426,
+        "publishedDate": "2026-09-26",
+        "savedDate": "2026-10-11T07:26:46.277000+00:00",
+        "imageUrl": "https://substackcdn.com/image/fetch/$s_!-Pk4!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F409bf75a-d9ef-4adf-b242-bee9d2664a24_1280x1247.jpeg",
+        "sourceUrl": "https://blog.alexewerlof.com/p/coding-is-not-solved?utm_source=substack&utm_medium=email",
+        "readwiseUrl": "https://read.readwise.io/read/01m4mxps05b8s3j4edskkx9pz3",
+        "summary": "Tell me you don’t understand software without literally using those words!!!",
+        "whyRead": "Raakt je kerninteresse in softwareontwikkeling en je belangstelling voor AI en verantwoordelijkheid. De auteur betoogt dat code genereren maar een deel van softwarewerk is; begrip en verantwoording blijven nodig.",
+        "bestMoment": "kritisch",
+        "tags": [
+          "ai ethics & society",
+          "professional development",
+          "software development"
+        ],
+        "coreInterests": [],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01m4mxpcrp5ecfe1jnmgw97p9f",
+        "title": "If your team is happy, are you doing a good job?",
+        "author": "Charity Majors",
+        "siteName": "charity.wtf",
+        "category": "article",
+        "language": null,
+        "readingTime": "9 mins",
+        "readingMinutes": 9,
+        "wordCount": 2161,
+        "publishedDate": "2026-10-08",
+        "savedDate": "2026-10-11T07:26:33.750000+00:00",
+        "imageUrl": "https://substackcdn.com/image/fetch/$s_!HLgA!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc864dd50-8770-4cbe-bc07-fc077099752f_1733x907.png",
+        "sourceUrl": "https://charity.wtf/p/if-your-team-is-happy-are-you-doing?utm_source=substack&utm_medium=email",
+        "readwiseUrl": "https://read.readwise.io/read/01m4mxpcrp5ecfe1jnmgw97p9f",
+        "summary": "Brilliant jerks, ZIRP-era managers, and how psychological safety lost the plot. Part 3 of my conversation with Dr. Cat Hicks.",
+        "whyRead": "Sluit aan bij je interesse in psychologische veiligheid, leren en organisatiegedrag. Het essay verbindt veiligheid aan prestaties en bekritiseert het idee dat een goede manager vooral een gelukkig team oplevert.",
+        "bestMoment": "analytisch",
+        "tags": [
+          "organizational behavior & culture",
+          "social psychology & interpersonal dynamics",
+          "team dynamics & collaboration"
+        ],
+        "coreInterests": [
+          "sociologie",
+          "agile"
+        ],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01m4mxp1r2zv9r5s3wgsq9146w",
+        "title": "A Guide to AI Adoption: Change Communication That Works",
+        "author": "Duarte, Inc.",
+        "siteName": "Duarte",
+        "category": "article",
+        "language": null,
+        "readingTime": "11 mins",
+        "readingMinutes": 11,
+        "wordCount": 2652,
+        "publishedDate": "2026-10-08",
+        "savedDate": "2026-10-11T07:26:22.466000+00:00",
+        "imageUrl": "https://www.duarte.com/wp-content/uploads/2026/10/A-Guide-to-AI-Adoption-Change-Communication-That-Works-1000x625.jpg",
+        "sourceUrl": "https://www.duarte.com/blog/change-communication-for-ai-adoption/?utm_source=substack&utm_medium=email",
+        "readwiseUrl": "https://read.readwise.io/read/01m4mxp1r2zv9r5s3wgsq9146w",
+        "summary": "Duarte’s Illuminate™ methodology is a trusted blueprint for change communication that can help motivate your teams to embrace AI adoption.",
+        "whyRead": "Raakt je interesse in AI-adoptie, organisatieverandering en teamcommunicatie. Duarte promoot een eigen framework, maar de voorbeelden over weerstand, participatie en voortgang zijn bruikbaar.",
+        "bestMoment": "leergierig",
+        "tags": [
+          "organizational behavior & culture",
+          "team dynamics & collaboration",
+          "technology"
+        ],
+        "coreInterests": [
+          "agile"
+        ],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01m4mxc1cvtak3fn5hyfg64c5c",
+        "title": "Usage-Based Pricing for AI: What Changes for SaaS Teams",
+        "author": "Kyle Poyar",
+        "siteName": "growthunhinged.com",
+        "category": "article",
+        "language": null,
+        "readingTime": "8 mins",
+        "readingMinutes": 8,
+        "wordCount": 2006,
+        "publishedDate": "2026-10-07",
+        "savedDate": "2026-10-11T07:20:54.427000+00:00",
+        "imageUrl": "https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,quality=80,width=1200,onerror=redirect/uploads/asset/file/5e0c313b-89d2-4bd8-8610-e9af7853d62e/SaaS_vs_usage_based_pricing.png?t=1790734204",
+        "sourceUrl": "https://www.growthunhinged.com/p/usage-based-pricing-for-ai?utm_source=substack&utm_medium=email",
+        "readwiseUrl": "https://read.readwise.io/read/01m4mxc1cvtak3fn5hyfg64c5c",
+        "summary": "The sentiment is toward usage-based pricing. Here's what that means for you.",
+        "whyRead": "Raakt je interesse in AI-producten, SaaS en productmanagement. Het artikel laat zien hoe usage pricing klantvoorspelbaarheid, onboarding en salesprikkels tegelijk verandert.",
+        "bestMoment": "analytisch",
+        "tags": [
+          "business & startups",
+          "product management",
+          "technology"
+        ],
+        "coreInterests": [
+          "agile"
+        ],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01m4mxbqftj1d6h8q7xvrq4xm4",
+        "title": "The fake double diamond is dead. The real double diamond is immortal.",
+        "author": "Pavel Samsonov",
+        "siteName": "The Product Picnic",
+        "category": "article",
+        "language": null,
+        "readingTime": "6 mins",
+        "readingMinutes": 6,
+        "wordCount": 1429,
+        "publishedDate": "2026-10-04",
+        "savedDate": "2026-10-11T07:20:44.282000+00:00",
+        "imageUrl": "https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,quality=80,width=1200,onerror=redirect/uploads/asset/file/8d297325-6220-4953-9941-aff641bacef5/85.png?t=1791149987",
+        "sourceUrl": "https://productpicnic.beehiiv.com/p/the-fake-double-diamond-is-dead-the-real-double-diamond-is-immortal?utm_source=substack&utm_medium=email",
+        "readwiseUrl": "https://read.readwise.io/read/01m4mxbqftj1d6h8q7xvrq4xm4",
+        "summary": "AI is not a substitute for divergent thinking, and the false certainty it gives will never save you from having to iterate.",
+        "whyRead": "Raakt je interesse in softwareontwikkeling, productdelivery en AI. Het stuk pleit voor zowel probleemdefinitie als iteratief leren, met een heldere hypothese en opruimen van experimenten.",
+        "bestMoment": "analytisch",
+        "tags": [
+          "agile",
+          "product management",
+          "software development"
+        ],
+        "coreInterests": [
+          "agile"
+        ],
+        "alsoIn": [
+          "aaa-software-development-top-100"
+        ],
+        "memberships": [
+          {
+            "familyId": "software-development",
+            "size": "top-100",
+            "position": 63
+          }
+        ]
+      },
+      {
+        "position": null,
+        "id": "01m4mxb8j3agx2ed6czb2m2f06",
+        "title": "The Manager’s Path in the Age of AI",
+        "author": "Camille Fournier",
+        "siteName": "Medium",
+        "category": "article",
+        "language": null,
+        "readingTime": "13 mins",
+        "readingMinutes": 13,
+        "wordCount": 3439,
+        "publishedDate": "2026-09-19",
+        "savedDate": "2026-10-11T07:20:28.996000+00:00",
+        "imageUrl": "https://miro.medium.com/v2/resize:fit:1400/1*32LP8iirLzUIZrJJrQS7lA.png",
+        "sourceUrl": "https://skamille.medium.com/the-managers-path-in-the-age-of-ai-279cb6611d66?utm_source=substack&utm_medium=email",
+        "readwiseUrl": "https://read.readwise.io/read/01m4mxb8j3agx2ed6czb2m2f06",
+        "summary": "This week, I gave a talk at LDX3 New York. When they asked me to speak and asked me for a topic, I said that it was probably time I finally…",
+        "whyRead": "Sluit aan bij je interesse in softwareontwikkeling, AI en teamdynamiek. Camille Fournier beschrijft welk technisch, sociaal en organisatorisch werk managers blijven doen wanneer AI taken verandert.",
+        "bestMoment": "analytisch",
+        "tags": [
+          "organizational behavior & culture",
+          "software development",
+          "team dynamics & collaboration"
+        ],
+        "coreInterests": [
+          "agile"
+        ],
+        "alsoIn": [
+          "aaa-software-development-top-100"
+        ],
+        "memberships": [
+          {
+            "familyId": "software-development",
+            "size": "top-100",
+            "position": 62
+          }
+        ]
+      },
+      {
+        "position": null,
+        "id": "01m4krhezn8xrsbp9evcf5y6k3",
+        "title": "15 low energy ways to sustain a writing life",
+        "author": "Lydia Rose",
+        "siteName": "Lydia Rose",
+        "category": "article",
+        "language": null,
+        "readingTime": "9 mins",
+        "readingMinutes": 9,
+        "wordCount": 2170,
+        "publishedDate": "2026-09-21",
+        "savedDate": "2026-10-10T20:37:14.869000+00:00",
+        "imageUrl": "https://substackcdn.com/image/fetch/$s_!ZZxT!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc29afe2c-33c1-4f44-bd0b-64114a96fa03_583x437.jpeg",
+        "sourceUrl": "https://lydiarosecreative.substack.com/p/15-low-energy-ways-to-sustain-a-writing",
+        "readwiseUrl": "https://read.readwise.io/read/01m4krhezn8xrsbp9evcf5y6k3",
+        "summary": "How to stoke the embers when everything is against you",
+        "whyRead": "Een persoonlijk en praktisch essay over schrijven als duurzame gewoonte. De schrijver biedt lichte, flexibele manieren om ideeën te bewaren en creatief werk gaande te houden wanneer energie schaars is.",
+        "bestMoment": "ontspannen",
+        "tags": [
+          "arts & culture",
+          "learning & meta-learning",
+          "personal growth & life philosophy"
+        ],
+        "coreInterests": [],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01m4kqh411v7jzpyhas60xj6np",
+        "title": "Read this if you miss your brain",
+        "author": "Petya K. Grady",
+        "siteName": "substack.com",
+        "category": "article",
+        "language": null,
+        "readingTime": "9 mins",
+        "readingMinutes": 9,
+        "wordCount": 2283,
+        "publishedDate": "2026-10-08",
+        "savedDate": "2026-10-10T20:19:35.073000+00:00",
+        "imageUrl": "https://substackcdn.com/image/fetch/$s_!aTn8!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F64bea674-8f24-441c-9ee4-c865fc113488_4032x3024.jpeg",
+        "sourceUrl": "https://petya.substack.com/p/read-this-if-you-miss-your-brain",
+        "readwiseUrl": "https://read.readwise.io/read/01m4kqh411v7jzpyhas60xj6np",
+        "summary": "Some thoughts on returning to reading",
+        "whyRead": "Petya K. Grady schrijft invoelend over opnieuw gaan lezen wanneer werk, zorg, gezondheid of uitputting daarvoor weinig ruimte laten. De tekst helpt prestatiedruk los te laten en je eigen leesvoorkeuren terug te vinden.",
+        "bestMoment": "reflectief",
+        "tags": [
+          "arts & culture",
+          "learning & meta-learning",
+          "personal growth & life philosophy"
+        ],
+        "coreInterests": [],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01m4kg7hz09h5ewqexm0xw5xw2",
+        "title": "People Are Rejecting Screens—and Returning to Communal Events",
+        "author": "Ted Gioia",
+        "siteName": "Substack",
+        "category": "email",
+        "language": null,
+        "readingTime": "3 mins",
+        "readingMinutes": 3,
+        "wordCount": 729,
+        "publishedDate": "2026-10-10",
+        "savedDate": "2026-10-10T18:12:01.633000+00:00",
+        "imageUrl": null,
+        "sourceUrl": "mailto:reader-forwarded-email/d3eb9894992941338d8bb3dad84a4d08",
+        "readwiseUrl": "https://read.readwise.io/read/01m4kg7hz09h5ewqexm0xw5xw2",
+        "summary": "In his words, they will seek to “get away from the pressure of soulless facts and the clear cold atmosphere of technical organization.",
+        "whyRead": "Ted Gioia verkent waarom mensen naast schermen weer gezamenlijke live-evenementen opzoeken. Het stuk raakt aan cultuur, technologie en sociale verbinding; de brede these is prikkelend maar steunt hier op een beperkt aantal voorbeelden.",
+        "bestMoment": "analytisch",
+        "tags": [
+          "arts & culture",
+          "sociology & social structures",
+          "technology"
+        ],
+        "coreInterests": [
+          "sociologie"
+        ],
+        "alsoIn": [
+          "aaa-short-top-100"
+        ],
+        "memberships": [
+          {
+            "familyId": "kort",
+            "size": "top-100",
+            "position": 72
+          }
+        ]
+      },
+      {
+        "position": null,
         "id": "01m4jp3xvpfnnr7d03trmxw5ny",
         "title": "The slow death of the hands-on engineering manager",
         "author": "Anton Zaides",
@@ -36710,7 +37083,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "software-development",
             "size": "top-100",
-            "position": 94
+            "position": 96
           }
         ]
       },
@@ -37202,7 +37575,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "software-development",
             "size": "top-100",
-            "position": 74
+            "position": 76
           }
         ]
       },
@@ -38199,7 +38572,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "software-development",
             "size": "top-100",
-            "position": 88
+            "position": 90
           }
         ]
       },
@@ -38438,7 +38811,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "software-development",
             "size": "top-100",
-            "position": 97
+            "position": 99
           }
         ]
       },
@@ -39272,7 +39645,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "software-development",
             "size": "top-100",
-            "position": 69
+            "position": 71
           }
         ]
       },
@@ -40985,7 +41358,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "software-development",
             "size": "top-100",
-            "position": 91
+            "position": 93
           }
         ]
       },
@@ -42490,7 +42863,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "software-development",
             "size": "top-100",
-            "position": 64
+            "position": 66
           }
         ]
       },
@@ -42528,7 +42901,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "software-development",
             "size": "top-100",
-            "position": 68
+            "position": 70
           }
         ]
       },
@@ -42610,7 +42983,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "software-development",
             "size": "top-100",
-            "position": 93
+            "position": 95
           }
         ]
       },
@@ -42784,7 +43157,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "software-development",
             "size": "top-100",
-            "position": 67
+            "position": 69
           }
         ]
       },
@@ -45855,7 +46228,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "software-development",
             "size": "top-100",
-            "position": 87
+            "position": 89
           }
         ]
       },
@@ -46041,7 +46414,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "software-development",
             "size": "top-100",
-            "position": 62
+            "position": 64
           }
         ]
       },
@@ -46079,7 +46452,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "software-development",
             "size": "top-100",
-            "position": 80
+            "position": 82
           }
         ]
       },
@@ -46189,7 +46562,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "software-development",
             "size": "top-100",
-            "position": 79
+            "position": 81
           }
         ]
       },
@@ -46306,7 +46679,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "software-development",
             "size": "top-100",
-            "position": 90
+            "position": 92
           },
           {
             "familyId": "front-end-development",
@@ -46389,7 +46762,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "software-development",
             "size": "top-100",
-            "position": 89
+            "position": 91
           }
         ]
       },
@@ -46431,7 +46804,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "software-development",
             "size": "top-100",
-            "position": 78
+            "position": 80
           }
         ]
       },
@@ -46499,15 +46872,9 @@ window.TOP_ARTICLES = {
         ],
         "coreInterests": [],
         "alsoIn": [
-          "aaa-software-development-top-100",
           "aaa-front-end-development-top-100"
         ],
         "memberships": [
-          {
-            "familyId": "software-development",
-            "size": "top-100",
-            "position": 100
-          },
           {
             "familyId": "front-end-development",
             "size": "top-100",
@@ -46625,7 +46992,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "software-development",
             "size": "top-100",
-            "position": 96
+            "position": 98
           }
         ]
       },
@@ -46749,7 +47116,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "software-development",
             "size": "top-100",
-            "position": 77
+            "position": 79
           }
         ]
       },
@@ -46827,7 +47194,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "software-development",
             "size": "top-100",
-            "position": 86
+            "position": 88
           },
           {
             "familyId": "front-end-development",
@@ -47076,15 +47443,9 @@ window.TOP_ARTICLES = {
         ],
         "coreInterests": [],
         "alsoIn": [
-          "aaa-software-development-top-100",
           "aaa-front-end-development-top-100"
         ],
         "memberships": [
-          {
-            "familyId": "software-development",
-            "size": "top-100",
-            "position": 99
-          },
           {
             "familyId": "front-end-development",
             "size": "top-100",
@@ -47173,7 +47534,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "software-development",
             "size": "top-100",
-            "position": 84
+            "position": 86
           }
         ]
       },
@@ -47217,7 +47578,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "software-development",
             "size": "top-100",
-            "position": 63
+            "position": 65
           }
         ]
       },
@@ -47253,7 +47614,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "software-development",
             "size": "top-100",
-            "position": 98
+            "position": 100
           }
         ]
       },
@@ -47333,7 +47694,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "software-development",
             "size": "top-100",
-            "position": 73
+            "position": 75
           }
         ]
       },
@@ -47372,7 +47733,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "software-development",
             "size": "top-100",
-            "position": 72
+            "position": 74
           },
           {
             "familyId": "front-end-development",
@@ -47419,7 +47780,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "software-development",
             "size": "top-100",
-            "position": 71
+            "position": 73
           }
         ]
       },
@@ -47497,7 +47858,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "software-development",
             "size": "top-100",
-            "position": 70
+            "position": 72
           },
           {
             "familyId": "front-end-development",
@@ -47586,7 +47947,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "software-development",
             "size": "top-100",
-            "position": 83
+            "position": 85
           }
         ]
       },
@@ -47623,7 +47984,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "software-development",
             "size": "top-100",
-            "position": 82
+            "position": 84
           }
         ]
       },
@@ -47660,7 +48021,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "software-development",
             "size": "top-100",
-            "position": 76
+            "position": 78
           }
         ]
       },
@@ -53064,7 +53425,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "software-development",
             "size": "top-100",
-            "position": 85
+            "position": 87
           }
         ]
       },
@@ -53108,7 +53469,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "software-development",
             "size": "top-100",
-            "position": 66
+            "position": 68
           }
         ]
       },
@@ -53416,7 +53777,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "software-development",
             "size": "top-100",
-            "position": 75
+            "position": 77
           },
           {
             "familyId": "videos",
@@ -53517,7 +53878,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "software-development",
             "size": "top-100",
-            "position": 81
+            "position": 83
           },
           {
             "familyId": "videos",
@@ -53839,7 +54200,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "software-development",
             "size": "top-100",
-            "position": 65
+            "position": 67
           },
           {
             "familyId": "philosophy",
@@ -53920,7 +54281,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "software-development",
             "size": "top-100",
-            "position": 95
+            "position": 97
           },
           {
             "familyId": "pdfs",
@@ -55369,7 +55730,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "software-development",
             "size": "top-100",
-            "position": 92
+            "position": 94
           }
         ]
       },
