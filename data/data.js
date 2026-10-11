@@ -101,18 +101,6 @@ window.TOP_ARTICLES = {
           "verdieping": 3
         }
       },
-      "01m4e8dw2n2b0p9zrhthjv5w3b": {
-        "effort": 3,
-        "emotionalWeight": 2,
-        "tone": "warm",
-        "needFit": {
-          "ontspannen": 3,
-          "afleiding": 3,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        }
-      },
       "01m4dzhfpmwft49s8841anbm02": {
         "effort": 2,
         "emotionalWeight": 1,
@@ -243,18 +231,6 @@ window.TOP_ARTICLES = {
           "herkenning": 4,
           "verkennen": 3,
           "verdieping": 3
-        }
-      },
-      "01m460621ksbp8dkzjz2jfff46": {
-        "effort": 1,
-        "emotionalWeight": 1,
-        "tone": "speels",
-        "needFit": {
-          "ontspannen": 2,
-          "afleiding": 2,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 2
         }
       },
       "01m45j75m87y74yd60vb2hww00": {
@@ -1409,18 +1385,6 @@ window.TOP_ARTICLES = {
           "verdieping": 1
         }
       },
-      "01m33ez7ev175kpa3c253v8z80": {
-        "effort": 3,
-        "emotionalWeight": 2,
-        "tone": "warm",
-        "needFit": {
-          "ontspannen": 3,
-          "afleiding": 3,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        }
-      },
       "01m33evj29qt4x77m8ex32erc3": {
         "effort": 3,
         "emotionalWeight": 3,
@@ -1490,30 +1454,6 @@ window.TOP_ARTICLES = {
           "afleiding": 2,
           "herkenning": 3,
           "verkennen": 3,
-          "verdieping": 3
-        }
-      },
-      "01m2yyxvgfax04q8ethf6qs5fw": {
-        "effort": 3,
-        "emotionalWeight": 2,
-        "tone": "warm",
-        "needFit": {
-          "ontspannen": 2,
-          "afleiding": 2,
-          "herkenning": 3,
-          "verkennen": 2,
-          "verdieping": 3
-        }
-      },
-      "01m2yyxm3mxa40bw639j5pjrbc": {
-        "effort": 3,
-        "emotionalWeight": 0,
-        "tone": "zakelijk",
-        "needFit": {
-          "ontspannen": 1,
-          "afleiding": 1,
-          "herkenning": 3,
-          "verkennen": 2,
           "verdieping": 3
         }
       },
@@ -1838,18 +1778,6 @@ window.TOP_ARTICLES = {
           "afleiding": 2,
           "herkenning": 3,
           "verkennen": 2,
-          "verdieping": 3
-        }
-      },
-      "01m2rcmbg3vv277nwwd8k77hw6": {
-        "effort": 4,
-        "emotionalWeight": 1,
-        "tone": "speels",
-        "needFit": {
-          "ontspannen": 3,
-          "afleiding": 3,
-          "herkenning": 1,
-          "verkennen": 3,
           "verdieping": 3
         }
       },
@@ -4675,7 +4603,7 @@ window.TOP_ARTICLES = {
       }
     }
   },
-  "generatedAt": "2026-10-11T10:00:02.709Z",
+  "generatedAt": "2026-10-11T10:33:07.801Z",
   "families": [
     {
       "id": "algemeen",
@@ -36690,35 +36618,6 @@ window.TOP_ARTICLES = {
       },
       {
         "position": null,
-        "id": "01m4e8dw2n2b0p9zrhthjv5w3b",
-        "title": "Why Are We All Suddenly Reading the Same Books?",
-        "author": "Bookish And Sane",
-        "siteName": "Bookish And Sane",
-        "category": "article",
-        "language": null,
-        "readingTime": "10 mins",
-        "readingMinutes": 10,
-        "wordCount": 2419,
-        "publishedDate": "2026-09-15",
-        "savedDate": "2026-10-08T17:19:27.714000+00:00",
-        "imageUrl": "https://substackcdn.com/image/fetch/$s_!ZVJ5!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F70aa0cee-f926-4e4d-8ea1-0e0b9609f747_4284x5712.heic",
-        "sourceUrl": "https://bookishandsane.substack.com/p/why-are-we-all-suddenly-reading-the?utm_source=direct&r=1r0y5d&utm_campaign=post-expanded-share&utm_medium=post%20viewer&triedRedirect=true",
-        "readwiseUrl": "https://read.readwise.io/read/01m4e8dw2n2b0p9zrhthjv5w3b",
-        "summary": "We have never had so many books to choose from, or so many ways of arriving at the same ones.",
-        "whyRead": "Dit raakt je interesse in essaycraft, boeken en cultuur; het essay onderzoekt hoe sociale media en aanbevelingssystemen bepalen wat als populaire smaak voelt.",
-        "bestMoment": "ontspannen",
-        "tags": [
-          "arts & culture",
-          "sociology & social structures"
-        ],
-        "coreInterests": [
-          "sociologie"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
         "id": "01m4dzhfpmwft49s8841anbm02",
         "title": "Developers said things got better after the Scrum Master left",
         "author": "Vibhor Chandel",
@@ -37219,37 +37118,6 @@ window.TOP_ARTICLES = {
             "position": 66
           }
         ]
-      },
-      {
-        "position": null,
-        "id": "01m460621ksbp8dkzjz2jfff46",
-        "title": "Gen X Is Losing Its Mind Over Workplace Communication",
-        "author": "Jonathan Small",
-        "siteName": "Small Talk",
-        "category": "article",
-        "language": null,
-        "readingTime": "5 mins",
-        "readingMinutes": 5,
-        "wordCount": 1237,
-        "publishedDate": "2026-01-17",
-        "savedDate": "2026-10-05T12:21:27.673000+00:00",
-        "imageUrl": "https://substackcdn.com/image/fetch/$s_!mUIY!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F438080ee-457e-4485-8725-135a82eb78d1_1920x1080.webp",
-        "sourceUrl": "https://jonsmalltalk.substack.com/p/i-yelled-at-a-millennial-for-taking",
-        "readwiseUrl": "https://read.readwise.io/read/01m460621ksbp8dkzjz2jfff46",
-        "summary": "Why nobody at work understands anyone else anymore.",
-        "whyRead": "Een grappig maar bruikbaar stuk over generatieverschillen in werkcommunicatie. De kern is relevant voor teamcoaching: veel conflicten ontstaan doordat mensen intenties afleiden uit verschillende communicatiekanalen, feedbackritmes en omgang met hiërarchie.",
-        "bestMoment": "leergierig",
-        "tags": [
-          "organizational behavior & culture",
-          "social psychology & interpersonal dynamics",
-          "team dynamics & collaboration"
-        ],
-        "coreInterests": [
-          "sociologie",
-          "agile"
-        ],
-        "alsoIn": [],
-        "memberships": []
       },
       {
         "position": null,
@@ -42016,34 +41884,6 @@ window.TOP_ARTICLES = {
       },
       {
         "position": null,
-        "id": "01m33ez7ev175kpa3c253v8z80",
-        "title": "I Would Have Written a Shorter Blog Post, But I Didn’t Have the Time: Creating a WriterDeck",
-        "author": "Brennan Kenneth Brown",
-        "siteName": "brennan.day",
-        "category": "article",
-        "language": null,
-        "readingTime": "9 mins",
-        "readingMinutes": 9,
-        "wordCount": 2187,
-        "publishedDate": "2026-08-09",
-        "savedDate": "2026-09-22T02:26:27.419000+00:00",
-        "imageUrl": "https://brennan.day/assets/images/blog/november.jpg",
-        "sourceUrl": "https://brennan.day/i-would-have-written-a-shorter-blog-post-but-i-didn-t-have-the-time-creating-a-writerdeck/",
-        "readwiseUrl": "https://read.readwise.io/read/01m33ez7ev175kpa3c253v8z80",
-        "summary": "On the KISS principle and Pascal's apology for long letters, the cultural shift away from minimalism, and the growing trend of writer decks. A technical guide to creating a distraction-free writing environment by removing the desktop environment entirely and using terminal-only Linux distributions like Debian, Ubuntu Server, Arch, or Alpine. There's so much you can do in the terminal! There's applications for file management (ranger), web browsing (Lynx, w3m), markdown reading (glow, mdcat), email (Alpine, NeoMutt), IRC (WeeChat, Irssi), music (cmus, MPD), RSS (Newsboat), and writing tools (Micro, WordGrinder), plus document management via git or rsync cron jobs... oh, this is kind of long-winded, isn't it?",
-        "whyRead": "Dit raakt je interesse in technologie, schrijven en zelfgestuurd leren: een praktische én filosofische verkenning van een terminal-only WriterDeck als middel om aandacht terug te brengen naar het schrijven zelf.",
-        "bestMoment": "leergierig",
-        "tags": [
-          "arts & culture",
-          "learning & meta-learning",
-          "technology"
-        ],
-        "coreInterests": [],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
         "id": "01m33evj29qt4x77m8ex32erc3",
         "title": "Proper English is a Myth: There's No 'Correct' Way to Write",
         "author": "Brennan Kenneth Brown",
@@ -42304,66 +42144,6 @@ window.TOP_ARTICLES = {
             "position": 74
           }
         ]
-      },
-      {
-        "position": null,
-        "id": "01m2yyxvgfax04q8ethf6qs5fw",
-        "title": "The App Was Simple. The Rules Weren’t.",
-        "author": "Dejan Majkic",
-        "siteName": "Agile Project Management Masterclass",
-        "category": "article",
-        "language": null,
-        "readingTime": "8 mins",
-        "readingMinutes": 8,
-        "wordCount": 1895,
-        "publishedDate": "2026-05-10",
-        "savedDate": "2026-09-20T08:29:07.472000+00:00",
-        "imageUrl": "https://www.whatisscrum.org/wp-content/uploads/2026/05/The-App-Was-Simple.-The-Rules-Werent.jpg",
-        "sourceUrl": "https://www.whatisscrum.org/the-app-was-simple-the-rules-werent/",
-        "readwiseUrl": "https://read.readwise.io/read/01m2yyxvgfax04q8ethf6qs5fw",
-        "summary": "The App Was Simple became a 90-minute requirements maze. Here's how AI exposed hidden rules before development began.",
-        "whyRead": "Raakt je werk in product discovery en backlog refinement: een ogenschijnlijk simpele vraag blijkt vol verborgen regels, uitzonderingen en conflicten te zitten. Het verhaal is praktisch herkenbaar en helpt om requirements niet te verwarren met de eerste formulering van een stakeholder.",
-        "bestMoment": "leergierig",
-        "tags": [
-          "agile",
-          "product management",
-          "team dynamics & collaboration"
-        ],
-        "coreInterests": [
-          "agile"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
-        "id": "01m2yyxm3mxa40bw639j5pjrbc",
-        "title": "A Cameraman Asked Me for a “Simple” App. Ninety Minutes Later, I Understood Why Your Backlog Keeps Lying to You",
-        "author": "Dejan Majkic",
-        "siteName": "Agile Project Management Masterclass",
-        "category": "article",
-        "language": null,
-        "readingTime": "8 mins",
-        "readingMinutes": 8,
-        "wordCount": 2023,
-        "publishedDate": "2026-06-18",
-        "savedDate": "2026-09-20T08:28:59.892000+00:00",
-        "imageUrl": "https://www.whatisscrum.org/wp-content/uploads/2026/06/A-Cameraman-Asked-Me-for-a-Simple-App.jpg",
-        "sourceUrl": "https://www.whatisscrum.org/a-cameraman-asked-me-for-a-simple-app-ninety-minutes-later-i-understood-why-your-backlog-keeps-lying-to-you/",
-        "readwiseUrl": "https://read.readwise.io/read/01m2yyxm3mxa40bw639j5pjrbc",
-        "summary": "A \"simple\" app request hid a dozen invisible requirements. Here's the AI framework I use to turn vague requests into sprint-ready user stories in 10 minutes.",
-        "whyRead": "Raakt productmanagement, requirements en AI-gebruik: een “simpele” cameraman-app wordt een casus over verborgen regels en systematisch doorvragen. De C.R.A.F.T.-methode is praktisch, al eindigt het artikel duidelijk als cursuspromotie.",
-        "bestMoment": "leergierig",
-        "tags": [
-          "agile",
-          "product management",
-          "technology"
-        ],
-        "coreInterests": [
-          "agile"
-        ],
-        "alsoIn": [],
-        "memberships": []
       },
       {
         "position": null,
@@ -43543,36 +43323,6 @@ window.TOP_ARTICLES = {
             "position": 78
           }
         ]
-      },
-      {
-        "position": null,
-        "id": "01m2rcmbg3vv277nwwd8k77hw6",
-        "title": "My Favorite Philip K. Dick Novels",
-        "author": "Ted Gioia",
-        "siteName": "Substack",
-        "category": "email",
-        "language": null,
-        "readingTime": "8 mins",
-        "readingMinutes": 8,
-        "wordCount": 1973,
-        "publishedDate": "2026-09-17",
-        "savedDate": "2026-09-17T19:13:55.203000+00:00",
-        "imageUrl": null,
-        "sourceUrl": "mailto:reader-forwarded-email/6fb680eeeca6d6098a42ea605cd4d36e",
-        "readwiseUrl": "https://read.readwise.io/read/01m2rcmbg3vv277nwwd8k77hw6",
-        "summary": "A few years ago, sci-fi fans started making jokes about how reality now feels like a Philip K. Dick novel.",
-        "whyRead": "Raakt je interesse in sciencefiction als cultuurvorm, fictie en filosofische vragen over werkelijkheid. De meerwaarde is een essayistische ingang tot Philip K. Dick als schrijver die niet alleen vermaakt, maar aannames over realiteit en samenleving ontregelt.",
-        "bestMoment": "ontspannen",
-        "tags": [
-          "arts & culture",
-          "fiction",
-          "philosophy"
-        ],
-        "coreInterests": [
-          "filosofie"
-        ],
-        "alsoIn": [],
-        "memberships": []
       },
       {
         "position": null,
