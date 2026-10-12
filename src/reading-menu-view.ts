@@ -1,5 +1,5 @@
-import { startSession, refreshSession, transitionSession, planMenu, READING_MOODS } from "./reading-menu.js";
-import type { MenuInputs, MenuSession, ReadingMoment, MenuAction, Course, Mood } from "./reading-menu.js";
+import { startSession, refreshSession, transitionSession, READING_MOODS } from "./reading-menu.js";
+import type { MenuInputs, MenuSession, MenuProposal, ReadingMoment, MenuAction, Course, Mood } from "./reading-menu.js";
 import type { TopArticles, TopArticlePriority, ArticleItem } from "./types/browser-data.js";
 import { parseHistory, parseSession, reconcileHistory, readStored, writeStored, latestHistory } from "./reading-storage.js";
 
@@ -136,6 +136,7 @@ export function mountReadingMenu(root: HTMLElement, data: TopArticles, priority:
     syncHistory();
     session = transitionSession(inputs(), session, action, id);
     if (session.completed.length > before && id) { history = { ...history, ids: [...new Set([...history.ids, id])] }; }
+    if (available) { session = refreshSession(inputs(), session); }
     save(); updateUI(true);
   }
 
@@ -181,7 +182,9 @@ export function mountReadingMenu(root: HTMLElement, data: TopArticles, priority:
       const item = data.catalog.items.find((entry) => entry.id === id); if (!item) { continue; }
       const row = node("p", `${item.title} `);
       row.append(button("Opnieuw beschikbaar", () => {
-        syncHistory(); history = { ...history, ids: history.ids.filter((entry) => entry !== id) }; save(); updateUI(true);
+        syncHistory(); history = { ...history, ids: history.ids.filter((entry) => entry !== id) };
+        if (available && session) { session = refreshSession(inputs(), session); }
+        save(); updateUI(true);
       }));
       historyPanel.append(row);
     }
@@ -189,7 +192,7 @@ export function mountReadingMenu(root: HTMLElement, data: TopArticles, priority:
     historyPanel.open = wasOpen;
   }
 
-  function renderCourse(proposal: ReturnType<typeof planMenu>[number], item: ArticleItem, active: MenuSession, isCurrent: boolean): HTMLElement {
+  function renderCourse(proposal: MenuProposal, item: ArticleItem, active: MenuSession, isCurrent: boolean): HTMLElement {
     const card = node("article"); card.className = `reading-course-card reading-course-${proposal.course}`;
     const copy = COURSE_COPY[proposal.course];
     const eyebrow = node("p", copy.label); eyebrow.className = "reading-course-label";
@@ -233,7 +236,7 @@ export function mountReadingMenu(root: HTMLElement, data: TopArticles, priority:
       }));
     } else {
       const spent = active.completed.reduce((sum, entry) => sum + entry.minutes, 0);
-      const proposals = planMenu(inputs(), active.moment, [...active.excluded, ...active.completed.map((entry) => entry.id)], active.course, spent);
+      const proposals = active.proposals;
       const planned = proposals.reduce((sum, proposal) => sum + proposal.minutes, 0);
       status.append(node("p", `${spent} min bevestigd gelezen · ${planned} min voorgesteld · ${active.moment.budget} min totaal`));
       if (!proposals.length) {

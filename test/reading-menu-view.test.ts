@@ -224,3 +224,56 @@ test("need and mood changes preserve the remaining course, reading budget and ex
     assert.equal(byClass(root, "reading-course-time").reduce((sum, { textContent }) => sum + Number.parseFloat(textContent), 0), 2);
   });
 });
+
+test("making a read marker available again refreshes the current card and its actions together", () => {
+  withDom((root, local) => {
+    const { data, priority } = fixture();
+    local.setItem("top-articles-reading-history-v1", JSON.stringify({ version: 1, generatedAt: data.generatedAt, ids: ["a"] }));
+    mountReadingMenu(root as unknown as HTMLElement, data, priority);
+
+    byText(root, "button", "Opnieuw beschikbaar")?.click();
+    const current = descendants(root).find((element) => element.getAttribute("data-current-course") === "true");
+    assert.ok(current);
+    assert.equal(byClass(current, "reading-course-title")[0]?.textContent, "Artikel a");
+    for (const label of ["Vervang voorstel", "Gelezen, volgende gang", "Stop zonder dit artikel te markeren"]) {
+      assert.ok(byText(current, "button", label), `Missing current-card action: ${label}`);
+    }
+  });
+});
+
+test("a restored session keeps over-budget progress and resumes after a later budget increase", () => {
+  withDom((root, local, session) => {
+    const { data, priority } = fixture();
+    mountReadingMenu(root as unknown as HTMLElement, data, priority);
+    choose(root, "10 min");
+    byText(root, "button", "Gelezen, volgende gang")?.click();
+    byText(root, "button", "Gelezen, volgende gang")?.click();
+    choose(root, "5 min");
+
+    mountReadingMenu(root as unknown as HTMLElement, data, priority);
+    assert.ok(root.textContent.includes("8 min bevestigd gelezen"));
+    assert.equal(byText(root, "button", "5 min")?.getAttribute("aria-pressed"), "true");
+    assert.equal(byClass(root, "reading-course-card").length, 0);
+
+    choose(root, "10 min");
+    assert.equal(byClass(root, "reading-course-title")[0]?.textContent, "Artikel c");
+    assert.ok(byText(root, "button", "Gelezen, rond af"));
+    assert.ok(session.getItem("top-articles-reading-session-v1"));
+    assert.deepEqual(historyIds(local), ["a", "b"]);
+  });
+});
+
+test("a finished session has no stale actions and a new session starts without old progress", () => {
+  withDom((root, local) => {
+    const { data, priority } = fixture();
+    mountReadingMenu(root as unknown as HTMLElement, data, priority);
+    byText(root, "button", "Gelezen, rond af")?.click();
+    assert.ok(root.textContent.includes("Leesmoment afgerond"));
+    assert.equal(byClass(root, "reading-actions").length, 0);
+
+    byText(root, "button", "Nieuw leesmoment")?.click();
+    assert.ok(root.textContent.includes("0 min bevestigd gelezen"));
+    assert.ok(byClass(root, "reading-actions").length > 0);
+    assert.deepEqual(historyIds(local), ["a"]);
+  });
+});
