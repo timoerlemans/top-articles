@@ -159,7 +159,48 @@ test("replacing is temporary and stale read confirmations cannot consume the nex
   assert.equal(transitionSession(data, read, "skip-main").proposal?.id, "c");
   const restored = parseSession(JSON.parse(JSON.stringify(read)));
   assert.ok(restored);
+  assert.deepEqual(restored.proposals, []);
   assert.equal(refreshSession(data, restored).proposal?.id, "b");
+});
+test("the session owns the complete menu and refreshes it with current read markers", () => {
+  const data = inputs();
+  const start = startSession(data, moment);
+  assert.deepEqual(start.proposals, planMenu(data, moment));
+  assert.deepEqual(start.proposal, start.proposals[0]);
+
+  const afterRead = transitionSession(data, start, "read-next", "a");
+  assert.deepEqual(afterRead.proposals, planMenu(data, moment, ["a"], "hoofdgerecht", 3));
+  assert.deepEqual(afterRead.proposal, afterRead.proposals[0]);
+
+  const changed = { ...data, readIds: ["b"] };
+  const refreshed = refreshSession(changed, afterRead);
+  assert.deepEqual(refreshed.proposals, planMenu(changed, moment, ["a"], "hoofdgerecht", 3));
+  assert.deepEqual(refreshed.proposal, refreshed.proposals[0]);
+});
+test("a session keeps confirmed time when the budget is lowered below it", () => {
+  const data = inputs();
+  const start = startSession(data, moment);
+  const afterStarter = transitionSession(data, start, "read-next", "a");
+  const afterMain = transitionSession(data, afterStarter, "read-next", "b");
+
+  const reduced = refreshSession(data, { ...afterMain, moment: { ...moment, budget: 5 } });
+  assert.deepEqual(reduced.completed, [{ id: "a", minutes: 3 }, { id: "b", minutes: 5 }]);
+  assert.deepEqual(reduced.proposals, []);
+  assert.equal(reduced.proposal, null);
+
+  const increased = refreshSession(data, { ...reduced, moment: { ...moment, budget: 10 } });
+  assert.deepEqual(increased.proposals, [{ course: "nagerecht", id: "c", minutes: 2 }]);
+  assert.deepEqual(increased.proposal, increased.proposals[0]);
+});
+test("finished sessions clear the complete menu as well as the current proposal", () => {
+  const data = inputs();
+  const start = startSession(data, moment);
+  const finished = transitionSession(data, start, "read-finish", "a");
+  const stopped = transitionSession(data, start, "stop");
+  assert.deepEqual(finished.proposals, []);
+  assert.equal(finished.proposal, null);
+  assert.deepEqual(stopped.proposals, []);
+  assert.equal(stopped.proposal, null);
 });
 test("archiving prunes only with a newer complete consistent catalog and never an older offline snapshot", () => {
   const history = { version: 1 as const, generatedAt: "2026-10-10T10:00:00Z", ids: ["a", "archived"] };

@@ -25,7 +25,7 @@ export function parseSession(value: unknown): MenuSession | null {
   const completed = value.completed as Array<{ id: string; minutes: number }>;
   if (new Set(completed.map((entry) => entry.id)).size !== completed.length || completed.reduce((sum, entry) => sum + entry.minutes, 0) > moment.budget) { return null; }
   // Proposals are always re-planned against the current dataset after restoration.
-  return { version: 1, moment: moment as unknown as MenuSession["moment"], course: value.course as MenuSession["course"], excluded: value.excluded, completed, proposal: null, finished: value.finished };
+  return { version: 1, moment: moment as unknown as MenuSession["moment"], course: value.course as MenuSession["course"], excluded: value.excluded, completed, proposals: [], proposal: null, finished: value.finished };
 }
 export function readStored(storage: Pick<Storage, "getItem"> | null, key: string): unknown {
   try { const value = storage?.getItem(key); return value ? JSON.parse(value) as unknown : null; } catch { return null; }

@@ -19,6 +19,7 @@ export interface MenuSession {
   course: Course;
   excluded: string[];
   completed: Array<{ id: string; minutes: number }>;
+  proposals: MenuProposal[];
   proposal: MenuProposal | null;
   finished: boolean;
 }
@@ -85,18 +86,19 @@ export function planMenu(inputs: MenuInputs, moment: ReadingMoment, excluded: re
   return result;
 }
 export function startSession(inputs: MenuInputs, moment: ReadingMoment): MenuSession {
-  return refreshSession(inputs, { version: 1, moment, course: "voorgerecht", excluded: [], completed: [], proposal: null, finished: false });
+  return refreshSession(inputs, { version: 1, moment, course: "voorgerecht", excluded: [], completed: [], proposals: [], proposal: null, finished: false });
 }
 export function refreshSession(inputs: MenuInputs, session: MenuSession): MenuSession {
-  if (session.finished) { return { ...session, proposal: null }; }
-  const proposal = planMenu(inputs, session.moment, [...session.excluded, ...session.completed.map((entry) => entry.id)], session.course,
-    session.completed.reduce((sum, entry) => sum + entry.minutes, 0))[0] ?? null;
-  return { ...session, course: proposal?.course ?? session.course, proposal };
+  if (session.finished) { return { ...session, proposals: [], proposal: null }; }
+  const menu = planMenu(inputs, session.moment, [...session.excluded, ...session.completed.map((entry) => entry.id)], session.course,
+    session.completed.reduce((sum, entry) => sum + entry.minutes, 0));
+  const proposal = menu[0] ?? null;
+  return { ...session, course: proposal?.course ?? session.course, proposals: menu, proposal };
 }
 export type MenuAction = "replace" | "read-next" | "read-finish" | "stop" | "skip-main";
 export function transitionSession(inputs: MenuInputs, session: MenuSession, action: MenuAction, proposalId?: string): MenuSession {
   if (session.finished) { return session; }
-  if (action === "stop") { return { ...session, finished: true, proposal: null }; }
+  if (action === "stop") { return { ...session, finished: true, proposals: [], proposal: null }; }
   if (action === "skip-main" && session.course === "hoofdgerecht") { return refreshSession(inputs, { ...session, course: "nagerecht" }); }
   const proposal = session.proposal;
   if (!proposal || proposal.id !== proposalId) { return session; }
@@ -104,6 +106,6 @@ export function transitionSession(inputs: MenuInputs, session: MenuSession, acti
   if (action !== "read-next" && action !== "read-finish") { return session; }
   const completed = [...session.completed, { id: proposal.id, minutes: proposal.minutes }];
   const next = COURSES[COURSES.indexOf(session.course) + 1];
-  if (action === "read-finish" || !next) { return { ...session, completed, finished: true, proposal: null }; }
+  if (action === "read-finish" || !next) { return { ...session, completed, finished: true, proposals: [], proposal: null }; }
   return refreshSession(inputs, { ...session, completed, course: next });
 }
