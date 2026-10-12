@@ -2,7 +2,7 @@ import assert from "node:assert/strict";
 import test from "node:test";
 import { mountReadingMenu } from "../src/reading-menu-view.js";
 import type { ArticleItem, TopArticles, TopArticlePriority } from "../src/types/browser-data.js";
-import type { ReadingTraits } from "../src/reading-profiles.js";
+import type { ReadingTraits, ReadingNeed } from "../src/reading-profiles.js";
 
 class MemoryStorage {
   private readonly values = new Map<string, string>();
@@ -40,6 +40,12 @@ function byClass(root: FakeElement, className: string): FakeElement[] {
 function byText(root: FakeElement, tagName: string, text: string): FakeElement | undefined {
   return descendants(root).find((element) => element.tagName === tagName && element.textContent === text);
 }
+function choose(root: FakeElement, label: string): FakeElement {
+  const option = byText(root, "button", label);
+  assert.ok(option, `Missing choice: ${label}`);
+  option.click();
+  return option;
+}
 function historyIds(storage: MemoryStorage): unknown {
   const value = storage.getItem("top-articles-reading-history-v1");
   if (!value) { return undefined; }
@@ -50,9 +56,11 @@ function makeArticle(id: string, minutes: number): ArticleItem {
   return { id, title: `Artikel ${id}`, readingMinutes: minutes, category: "article", position: null, author: null, siteName: null, language: "nl", readingTime: `${minutes} min`, wordCount: 300, publishedDate: null, savedDate: "2020-01-01", imageUrl: null, sourceUrl: null, readwiseUrl: `https://read.readwise.io/read/${id}`, summary: `Beschrijving ${id}`, whyRead: null, bestMoment: null, tags: [], coreInterests: [], alsoIn: [] };
 }
 const traits: ReadingTraits = { effort: 1, emotionalWeight: 0, tone: "warm", needFit: { ontspannen: 4, afleiding: 3, herkenning: 2, verkennen: 2, verdieping: 2 } };
-function fixture(): { data: TopArticles; priority: TopArticlePriority } {
-  const catalog = [makeArticle("a", 3), makeArticle("b", 5), makeArticle("c", 2)];
-  const data = { generatedAt: "2026-10-10T00:00:00Z", families: [], catalog: { items: catalog }, derivedLists: {}, readingMenu: { version: 1, scope: "later", complete: true, profiles: Object.fromEntries(catalog.map(({ id }) => [id, traits])) } } as unknown as TopArticles;
+function fixture(
+  catalog = [makeArticle("a", 3), makeArticle("b", 5), makeArticle("c", 2)],
+  profiles: Record<string, ReadingTraits> = Object.fromEntries(catalog.map(({ id }) => [id, traits])),
+): { data: TopArticles; priority: TopArticlePriority } {
+  const data = { generatedAt: "2026-10-10T00:00:00Z", families: [], catalog: { items: catalog }, derivedLists: {}, readingMenu: { version: 1, scope: "later", complete: true, profiles } } as unknown as TopArticles;
   const priority = { generatedAt: data.generatedAt, model: "readwise-priority-v8", scope: "later", coreInterestPriority: {}, items: Object.fromEntries(catalog.map(({ id }, index) => [id, { score: 90 - index * 10, sequences: ["lees"] }])) } as unknown as TopArticlePriority;
   return { data, priority };
 }
@@ -120,5 +128,99 @@ test("opening a Reader link does not count as read; explicit confirmation record
     byText(root, "button", "Gelezen, volgende gang")?.click();
     assert.deepEqual(historyIds(local), ["a"]);
     assert.ok(session.getItem("top-articles-reading-session-v1"));
+  });
+});
+
+const needCases: readonly [string, ReadingNeed][] = [
+  ["Licht & luchtig", "ontspannen"],
+  ["Even iets anders", "afleiding"],
+  ["Herkenning", "herkenning"],
+  ["Een frisse invalshoek", "verkennen"],
+  ["Iets om over na te denken", "verdieping"],
+];
+for (const [label, need] of needCases) {
+  test(`need choice ${label} selects matching material while preserving mood and budget`, () => {
+    withDom((root, local) => {
+      const catalog = needCases.map(([, id]) => makeArticle(id, 2));
+      const profiles: Record<string, ReadingTraits> = {};
+      for (const [, id] of needCases) {
+        profiles[id] = { ...traits, needFit: { ontspannen: 3, afleiding: 2, herkenning: 2, verkennen: 2, verdieping: 2, [id]: 4 } };
+      }
+      const { data, priority } = fixture(catalog, profiles);
+      mountReadingMenu(root as unknown as HTMLElement, data, priority);
+      choose(root, "10 min");
+      choose(root, "Somber");
+      assert.equal(choose(root, label).getAttribute("aria-pressed"), "true");
+      assert.equal(byClass(root, "reading-course-title")[0]?.textContent, `Artikel ${need}`);
+      assert.equal(byText(root, "button", "Somber")?.getAttribute("aria-pressed"), "true");
+      assert.equal(byText(root, "button", "10 min")?.getAttribute("aria-pressed"), "true");
+      assert.equal(byClass(root, "reading-course-time").reduce((sum, { textContent }) => sum + Number.parseFloat(textContent), 0), 6);
+      assert.deepEqual(historyIds(local), []);
+    });
+  });
+}
+
+test("clearing a mood preference restores priority without changing need, energy or budget", () => {
+  withDom((root, local) => {
+    const { data, priority } = fixture([makeArticle("a", 3), makeArticle("b", 2), makeArticle("c", 2)], {
+      a: { ...traits, tone: "zakelijk" }, b: { ...traits, tone: "reflectief" }, c: traits,
+    });
+    mountReadingMenu(root as unknown as HTMLElement, data, priority);
+    choose(root, "10 min");
+    choose(root, "Herkenning");
+    choose(root, "Veel");
+    choose(root, "Nieuwsgierig");
+    assert.equal(byClass(root, "reading-course-title")[0]?.textContent, "Artikel b");
+    choose(root, "Geen voorkeur");
+    assert.equal(byClass(root, "reading-course-title")[0]?.textContent, "Artikel a");
+    for (const label of ["Geen voorkeur", "Herkenning", "Veel", "10 min"]) {
+      assert.equal(byText(root, "button", label)?.getAttribute("aria-pressed"), "true");
+    }
+    assert.deepEqual(historyIds(local), []);
+  });
+});
+
+test("full head keeps a high-energy main course available until the reader lowers energy", () => {
+  withDom((root) => {
+    const { data, priority } = fixture([makeArticle("a", 2), makeArticle("b", 6)], {
+      a: { ...traits, effort: 0 }, b: { ...traits, effort: 3 },
+    });
+    mountReadingMenu(root as unknown as HTMLElement, data, priority);
+    choose(root, "10 min");
+    choose(root, "Veel");
+    choose(root, "Vol hoofd");
+    assert.deepEqual(byClass(root, "reading-course-title").map(({ textContent }) => textContent), ["Artikel a", "Artikel b"]);
+    assert.equal(byText(root, "button", "Veel")?.getAttribute("aria-pressed"), "true");
+    choose(root, "Weinig");
+    assert.deepEqual(byClass(root, "reading-course-title").map(({ textContent }) => textContent), ["Artikel a"]);
+    assert.equal(byText(root, "button", "Vol hoofd")?.getAttribute("aria-pressed"), "true");
+    assert.equal(byText(root, "button", "10 min")?.getAttribute("aria-pressed"), "true");
+  });
+});
+
+test("need and mood changes preserve the remaining course, reading budget and explicit read actions", () => {
+  withDom((root, local) => {
+    const { data, priority } = fixture(undefined, {
+      a: traits,
+      b: { ...traits, tone: "reflectief", needFit: { ...traits.needFit, verkennen: 4 } },
+      c: traits,
+    });
+    mountReadingMenu(root as unknown as HTMLElement, data, priority);
+    choose(root, "10 min");
+    choose(root, "Gelezen, volgende gang");
+    assert.deepEqual(historyIds(local), ["a"]);
+    choose(root, "Een frisse invalshoek");
+    choose(root, "Nieuwsgierig");
+    const current = descendants(root).find((element) => element.getAttribute("data-current-course") === "true");
+    assert.ok(current);
+    assert.equal(byClass(current, "reading-course-title")[0]?.textContent, "Artikel b");
+    assert.ok(current.textContent.includes("Hoofdgerecht"));
+    assert.ok(root.textContent.includes("3 min bevestigd gelezen"));
+    assert.equal(byText(root, "button", "10 min")?.getAttribute("aria-pressed"), "true");
+    assert.deepEqual(historyIds(local), ["a"]);
+    choose(current, "Gelezen, volgende gang");
+    assert.deepEqual(historyIds(local), ["a", "b"]);
+    assert.ok(root.textContent.includes("8 min bevestigd gelezen"));
+    assert.equal(byClass(root, "reading-course-time").reduce((sum, { textContent }) => sum + Number.parseFloat(textContent), 0), 2);
   });
 });

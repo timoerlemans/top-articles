@@ -30,16 +30,16 @@ const ENERGY_CHOICES: Choice<ReadingMoment["energy"]>[] = [
   { value: "veel", label: "Veel", description: "Je kunt best iets prikkelends of inhoudelijks aan." },
 ];
 const MOOD_LABELS: Record<Exclude<Mood, null>, { label: string; description: string }> = {
-  neutraal: { label: "Neutraal", description: "Je staat open voor verschillende soorten artikelen." },
-  rustig: { label: "Rustig", description: "Liever iets kalms en warms." },
-  nieuwsgierig: { label: "Nieuwsgierig", description: "Een nieuwe gedachte of invalshoek trekt je." },
-  vrolijk: { label: "Vrolijk", description: "Iets speels of lichts past goed." },
-  somber: { label: "Somber", description: "Iets zachts of herkenbaars mag." },
-  gespannen: { label: "Gespannen", description: "Liever rustig, zonder onnodig zware kost." },
-  "vol-hoofd": { label: "Vol hoofd", description: "Houd het overzichtelijk en makkelijk om in te stappen." },
+  neutraal: { label: "Neutraal", description: "Geen uitgesproken stemming op dit moment." },
+  rustig: { label: "Rustig", description: "Je voelt je kalm en op je gemak." },
+  nieuwsgierig: { label: "Nieuwsgierig", description: "Je bent nieuwsgierig naar wat je tegenkomt." },
+  vrolijk: { label: "Vrolijk", description: "Je voelt je opgewekt of blij." },
+  somber: { label: "Somber", description: "Je voelt je wat neerslachtig." },
+  gespannen: { label: "Gespannen", description: "Je merkt spanning of onrust." },
+  "vol-hoofd": { label: "Vol hoofd", description: "Er speelt veel tegelijk in je hoofd." },
 };
 const MOOD_CHOICES: Choice<Mood>[] = [
-  { value: null, label: "Geen voorkeur", description: "Laat de toon vooral passen bij waar je zin in hebt." },
+  { value: null, label: "Geen voorkeur", description: "Je stemming telt niet mee bij de keuze." },
   ...READING_MOODS.map((value) => ({ value, ...MOOD_LABELS[value] })),
 ];
 const COURSE_COPY: Record<Course, { label: string; subtitle: string }> = {
