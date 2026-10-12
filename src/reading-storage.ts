@@ -23,7 +23,8 @@ export function parseSession(value: unknown): MenuSession | null {
     || !Array.isArray(value.excluded) || !value.excluded.every((id) => typeof id === "string") || !Array.isArray(value.completed)
     || !value.completed.every((entry) => record(entry) && typeof entry.id === "string" && entry.id.length > 0 && typeof entry.minutes === "number" && Number.isFinite(entry.minutes) && entry.minutes > 0)) { return null; }
   const completed = value.completed as Array<{ id: string; minutes: number }>;
-  if (new Set(completed.map((entry) => entry.id)).size !== completed.length || completed.reduce((sum, entry) => sum + entry.minutes, 0) > moment.budget) { return null; }
+  const spent = completed.reduce((sum, entry) => sum + entry.minutes, 0);
+  if (new Set(completed.map((entry) => entry.id)).size !== completed.length || !Number.isFinite(spent)) { return null; }
   // Proposals are always re-planned against the current dataset after restoration.
   return { version: 1, moment: moment as unknown as MenuSession["moment"], course: value.course as MenuSession["course"], excluded: value.excluded, completed, proposals: [], proposal: null, finished: value.finished };
 }

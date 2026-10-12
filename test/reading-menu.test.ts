@@ -212,6 +212,50 @@ test("archiving prunes only with a newer complete consistent catalog and never a
   assert.equal(writeStored({ setItem() { throw new Error("blocked"); } }, "read", history), false);
 });
 
+test("restored sessions preserve confirmed time above a lowered budget", () => {
+  const restored = parseSession({
+    version: 1,
+    moment: { ...moment, budget: 5 },
+    course: "nagerecht",
+    excluded: [],
+    completed: [{ id: "a", minutes: 3 }, { id: "b", minutes: 5 }],
+    proposal: null,
+    finished: false,
+  });
+  assert.ok(restored);
+  assert.equal(restored.moment.budget, 5);
+  assert.deepEqual(restored.completed, [{ id: "a", minutes: 3 }, { id: "b", minutes: 5 }]);
+  assert.deepEqual(restored.proposals, []);
+});
+
+test("restored sessions discard stale derived proposals", () => {
+  const restored = parseSession({
+    version: 1,
+    moment,
+    course: "voorgerecht",
+    excluded: [],
+    completed: [],
+    proposals: [{ course: "voorgerecht", id: "stale", minutes: 1 }],
+    proposal: { course: "voorgerecht", id: "stale", minutes: 1 },
+    finished: false,
+  });
+  assert.ok(restored);
+  assert.deepEqual(restored.proposals, []);
+  assert.equal(restored.proposal, null);
+});
+
+test("restored sessions reject non-finite confirmed-time totals", () => {
+  assert.equal(parseSession({
+    version: 1,
+    moment,
+    course: "voorgerecht",
+    excluded: [],
+    completed: [{ id: "a", minutes: Number.MAX_VALUE }, { id: "b", minutes: Number.MAX_VALUE }],
+    proposal: null,
+    finished: false,
+  }), null);
+});
+
 test("restored sessions accept the complete menu mood vocabulary", () => {
   for (const mood of ["neutraal", "rustig", "nieuwsgierig", "vrolijk", "somber", "gespannen", "vol-hoofd"]) {
     const restored = parseSession({ version: 1, moment: { ...moment, mood }, course: "voorgerecht", excluded: [], completed: [], proposal: null, finished: false });
