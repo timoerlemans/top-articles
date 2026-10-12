@@ -1,7 +1,7 @@
 import assert from "node:assert/strict";
 import test from "node:test";
 import { planMenu } from "../src/reading-menu.js";
-import type { MenuInputs, ReadingMoment } from "../src/reading-menu.js";
+import type { MenuInputs, ReadingMoment, Mood } from "../src/reading-menu.js";
 import type { ArticleItem } from "../src/types/browser-data.js";
 import type { ReadingTraits } from "../src/reading-profiles.js";
 function article(id: string, minutes: number | null, category = "article"): ArticleItem {
@@ -10,6 +10,14 @@ function article(id: string, minutes: number | null, category = "article"): Arti
 const light: ReadingTraits = { effort: 1, emotionalWeight: 0, tone: "warm", needFit: { ontspannen: 4, afleiding: 3, herkenning: 2, verkennen: 2, verdieping: 2 } };
 const moment: ReadingMoment = { energy: "gemiddeld", mood: null, need: "ontspannen", budget: 10 };
 function inputs(): MenuInputs { return { catalog: [article("a", 3), article("b", 5), article("c", 2), article("heavy", 1), article("video", 1, "video"), article("book", 1), article("unknown", null)], profiles: { a: light, b: light, c: light, heavy: { ...light, emotionalWeight: 4 }, video: light, book: light, unknown: light }, scores: { a: { score: 90, sequences: ["lees"] }, b: { score: 80, sequences: ["lees"] }, c: { score: 70, sequences: ["lees"] }, book: { score: 100, sequences: ["boek"] } }, readIds: [] }; }
+function rankingInputs(): MenuInputs {
+  return {
+    catalog: [article("a", 2), article("b", 2), article("c", 2)],
+    profiles: { a: { ...light, tone: "zakelijk" }, b: { ...light, tone: "warm" }, c: { ...light, tone: "reflectief" } },
+    scores: { a: { score: 90, sequences: [] }, b: { score: 80, sequences: [] }, c: { score: 70, sequences: [] } },
+    readIds: [],
+  };
+}
 test("menu starts light, respects whole-session time and excludes books/heavy/unknown/video", () => {
   assert.deepEqual(planMenu(inputs(), moment), [{ course: "voorgerecht", id: "a", minutes: 3 }, { course: "hoofdgerecht", id: "b", minutes: 5 }, { course: "nagerecht", id: "c", minutes: 2 }]);
   assert.deepEqual(planMenu(inputs(), { ...moment, budget: 3 }), [{ course: "voorgerecht", id: "a", minutes: 3 }]);
@@ -56,12 +64,83 @@ test("new mood choices gently rank tone or effort without overriding need and en
     c: { score: 5, sequences: [] },
     heavy: { score: 100, sequences: [] },
   };
-  const withMood = (mood: string): ReadingMoment => ({ ...moment, mood } as unknown as ReadingMoment);
+  const withMood = (mood: Mood): ReadingMoment => ({ ...moment, mood });
 
   assert.equal(planMenu(data, withMood("nieuwsgierig"))[0]?.id, "b");
   assert.equal(planMenu(data, withMood("vol-hoofd"))[0]?.id, "c");
   assert.ok(planMenu(data, withMood("nieuwsgierig")).some(({ id }) => id === "a"));
   assert.ok(planMenu(data, { ...withMood("vol-hoofd"), energy: "weinig" }).every(({ id }) => id !== "heavy"));
+});
+
+test("the selected need outranks mood and priority and excludes insufficient need matches", () => {
+  const data = rankingInputs();
+  data.profiles = {
+    a: { ...light, tone: "warm", needFit: { ...light.needFit, verkennen: 3 } },
+    b: { ...light, tone: "zakelijk", needFit: { ...light.needFit, verkennen: 4 } },
+    c: { ...light, tone: "warm", needFit: { ...light.needFit, verkennen: 1 } },
+  };
+  assert.deepEqual(planMenu(data, { ...moment, need: "verkennen", mood: "gespannen" }).map(({ id }) => id), ["b", "a"]);
+});
+
+const toneCases: readonly [Mood, readonly string[]][] = [
+  ["rustig", ["b", "a", "c"]],
+  ["nieuwsgierig", ["c", "a", "b"]],
+  ["vrolijk", ["b", "a", "c"]],
+  ["somber", ["b", "a", "c"]],
+  ["gespannen", ["b", "a", "c"]],
+];
+for (const [mood, expected] of toneCases) {
+  test(`mood ${mood} reorders tone matches without excluding other tones`, () => {
+    assert.deepEqual(planMenu(rankingInputs(), { ...moment, mood }).map(({ id }) => id), expected);
+  });
+}
+
+test("no mood preference and a neutral mood leave priority in control", () => {
+  for (const mood of [null, "neutraal"] as const) {
+    assert.deepEqual(planMenu(rankingInputs(), { ...moment, mood }).map(({ id }) => id), ["a", "b", "c"]);
+  }
+});
+
+test("full head favors lower effort before priority", () => {
+  const data = rankingInputs();
+  data.profiles = { ...data.profiles, c: { ...light, effort: 0, tone: "reflectief" } };
+  assert.deepEqual(planMenu(data, { ...moment, mood: "vol-hoofd" }).map(({ id }) => id), ["c", "a", "b"]);
+});
+
+test("full head preserves the explicitly chosen energy limit for the main course", () => {
+  const data: MenuInputs = {
+    catalog: [article("starter", 2), article("main", 6)],
+    profiles: { starter: { ...light, effort: 0 }, main: { ...light, effort: 3 } },
+    scores: { starter: { score: 10, sequences: [] }, main: { score: 100, sequences: [] } },
+    readIds: [],
+  };
+  assert.deepEqual(planMenu(data, { ...moment, mood: "vol-hoofd", energy: "veel" }), [
+    { course: "voorgerecht", id: "starter", minutes: 2 },
+    { course: "hoofdgerecht", id: "main", minutes: 6 },
+  ]);
+  for (const energy of ["weinig", "gemiddeld"] as const) {
+    assert.deepEqual(planMenu(data, { ...moment, mood: "vol-hoofd", energy }), [{ course: "voorgerecht", id: "starter", minutes: 2 }]);
+  }
+});
+
+test("mood does not admit missing profiles or unknown and nonpositive reading times", () => {
+  const data: MenuInputs = {
+    catalog: [article("valid", 2), article("missing-profile", 1), article("unknown", null), article("zero", 0), article("negative", -1), article("infinite", Infinity), article("not-a-number", NaN)],
+    profiles: { valid: { ...light, tone: "zakelijk" }, unknown: light, zero: light, negative: light, infinite: light, "not-a-number": light },
+    scores: {},
+    readIds: [],
+  };
+  assert.deepEqual(planMenu(data, { ...moment, mood: "gespannen" }), [{ course: "voorgerecht", id: "valid", minutes: 2 }]);
+});
+
+test("equal need and tone matches use priority then saved date then document ID", () => {
+  const data = rankingInputs();
+  data.catalog = [{ ...article("b", 2), savedDate: "2021-01-01" }, article("a", 2), { ...article("c", 2), savedDate: "2019-01-01" }];
+  data.profiles = { a: light, b: light, c: light };
+  data.scores = { a: { score: 50, sequences: [] }, b: { score: 50, sequences: [] }, c: { score: 50, sequences: [] } };
+  assert.deepEqual(planMenu(data, { ...moment, mood: "rustig" }).map(({ id }) => id), ["c", "a", "b"]);
+  data.catalog = [article("b", 2), article("a", 2), article("c", 2)];
+  assert.deepEqual(planMenu(data, { ...moment, mood: "rustig" }).map(({ id }) => id), ["a", "b", "c"]);
 });
 
 import { startSession, transitionSession, refreshSession } from "../src/reading-menu.js";
