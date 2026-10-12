@@ -28,11 +28,12 @@ export function parseSession(value) {
         return null;
     }
     const completed = value.completed;
-    if (new Set(completed.map((entry) => entry.id)).size !== completed.length || completed.reduce((sum, entry) => sum + entry.minutes, 0) > moment.budget) {
+    const spent = completed.reduce((sum, entry) => sum + entry.minutes, 0);
+    if (new Set(completed.map((entry) => entry.id)).size !== completed.length || !Number.isFinite(spent)) {
         return null;
     }
     // Proposals are always re-planned against the current dataset after restoration.
-    return { version: 1, moment: moment, course: value.course, excluded: value.excluded, completed, proposal: null, finished: value.finished };
+    return { version: 1, moment: moment, course: value.course, excluded: value.excluded, completed, proposals: [], proposal: null, finished: value.finished };
 }
 export function readStored(storage, key) {
     try {

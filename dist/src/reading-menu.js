@@ -84,21 +84,22 @@ export function planMenu(inputs, moment, excluded = [], start = "voorgerecht", s
     return result;
 }
 export function startSession(inputs, moment) {
-    return refreshSession(inputs, { version: 1, moment, course: "voorgerecht", excluded: [], completed: [], proposal: null, finished: false });
+    return refreshSession(inputs, { version: 1, moment, course: "voorgerecht", excluded: [], completed: [], proposals: [], proposal: null, finished: false });
 }
 export function refreshSession(inputs, session) {
     if (session.finished) {
-        return { ...session, proposal: null };
+        return { ...session, proposals: [], proposal: null };
     }
-    const proposal = planMenu(inputs, session.moment, [...session.excluded, ...session.completed.map((entry) => entry.id)], session.course, session.completed.reduce((sum, entry) => sum + entry.minutes, 0))[0] ?? null;
-    return { ...session, course: proposal?.course ?? session.course, proposal };
+    const menu = planMenu(inputs, session.moment, [...session.excluded, ...session.completed.map((entry) => entry.id)], session.course, session.completed.reduce((sum, entry) => sum + entry.minutes, 0));
+    const proposal = menu[0] ?? null;
+    return { ...session, course: proposal?.course ?? session.course, proposals: menu, proposal };
 }
 export function transitionSession(inputs, session, action, proposalId) {
     if (session.finished) {
         return session;
     }
     if (action === "stop") {
-        return { ...session, finished: true, proposal: null };
+        return { ...session, finished: true, proposals: [], proposal: null };
     }
     if (action === "skip-main" && session.course === "hoofdgerecht") {
         return refreshSession(inputs, { ...session, course: "nagerecht" });
@@ -116,7 +117,7 @@ export function transitionSession(inputs, session, action, proposalId) {
     const completed = [...session.completed, { id: proposal.id, minutes: proposal.minutes }];
     const next = COURSES[COURSES.indexOf(session.course) + 1];
     if (action === "read-finish" || !next) {
-        return { ...session, completed, finished: true, proposal: null };
+        return { ...session, completed, finished: true, proposals: [], proposal: null };
     }
     return refreshSession(inputs, { ...session, completed, course: next });
 }

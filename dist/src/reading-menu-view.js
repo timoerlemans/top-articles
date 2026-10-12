@@ -1,4 +1,4 @@
-import { startSession, refreshSession, transitionSession, planMenu, READING_MOODS } from "./reading-menu.js";
+import { startSession, refreshSession, transitionSession, READING_MOODS } from "./reading-menu.js";
 import { parseHistory, parseSession, reconcileHistory, readStored, writeStored, latestHistory } from "./reading-storage.js";
 const HISTORY_KEY = "top-articles-reading-history-v1";
 const SESSION_KEY = "top-articles-reading-session-v1";
@@ -144,6 +144,9 @@ export function mountReadingMenu(root, data, priority) {
         if (session.completed.length > before && id) {
             history = { ...history, ids: [...new Set([...history.ids, id])] };
         }
+        if (available) {
+            session = refreshSession(inputs(), session);
+        }
         save();
         updateUI(true);
     }
@@ -207,6 +210,9 @@ export function mountReadingMenu(root, data, priority) {
             row.append(button("Opnieuw beschikbaar", () => {
                 syncHistory();
                 history = { ...history, ids: history.ids.filter((entry) => entry !== id) };
+                if (available && session) {
+                    session = refreshSession(inputs(), session);
+                }
                 save();
                 updateUI(true);
             }));
@@ -282,7 +288,7 @@ export function mountReadingMenu(root, data, priority) {
         }
         else {
             const spent = active.completed.reduce((sum, entry) => sum + entry.minutes, 0);
-            const proposals = planMenu(inputs(), active.moment, [...active.excluded, ...active.completed.map((entry) => entry.id)], active.course, spent);
+            const proposals = active.proposals;
             const planned = proposals.reduce((sum, proposal) => sum + proposal.minutes, 0);
             status.append(node("p", `${spent} min bevestigd gelezen · ${planned} min voorgesteld · ${active.moment.budget} min totaal`));
             if (!proposals.length) {
