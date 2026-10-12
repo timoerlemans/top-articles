@@ -201,17 +201,17 @@
       "status": "accepted",
       "confidence": "medium",
       "rubricVersion": "reading-profile-v1",
-      "sourceFingerprint": "8e215d0f235934899133f995d89998c1999d62ef315dd7d19d44c540084baf92",
-      "evidenceFingerprint": "ead24feaa2bf73436041aba6c005d801ecedb233e36301dd49474f1acb0d1eae",
+      "sourceFingerprint": "c87396b7e9945e9bf8a45bf8424f2a0e552485acc057b2829f5a0c5e731a32e2",
+      "evidenceFingerprint": "bbe49ed2486cf5d923fe6132ab5b32649cc2c1f3f096ac2ab69bb8e72aea1fe7",
       "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
-      "judgedBy": "codex-reading-profile-review-2026-10-10",
-      "judgedAt": "2026-10-10T00:00:00Z",
+      "judgedBy": "codex-semantic-review-2026-10-12-inbox",
+      "judgedAt": "2026-10-12T05:02:46.000Z",
       "evidenceRefs": [
-        "content",
-        "summary",
-        "tags"
+        ".tmp/readwise/inbox-run-2026-10-12/semantic-run/current-reading-profiles/snapshot.json#documents.01m4j1skw0pgx08sk6twqe5a3y.content",
+        ".tmp/readwise/inbox-run-2026-10-12/semantic-run/current-reading-profiles/snapshot.json#documents.01m4j1skw0pgx08sk6twqe5a3y.summary",
+        ".tmp/readwise/inbox-run-2026-10-12/semantic-run/current-reading-profiles/snapshot.json#documents.01m4j1skw0pgx08sk6twqe5a3y.notes"
       ],
-      "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
+      "reason": "De getuigenissen over ontslag, Gaza en morele weerstand maken de tekst intens en zwaar; de concrete oproep tot solidariteit biedt herkenning en verkenning.",
       "traits": {
         "effort": 3,
         "emotionalWeight": 4,
@@ -12851,17 +12851,17 @@
     "01m4p9sea9w6bftxabgje31gtr": {
       "status": "accepted",
       "confidence": "medium",
-      "sourceFingerprint": "4f3f9d762a38385934f73b92a3cddc8a466ab732227757ee48be099c52853e0a",
-      "evidenceFingerprint": "ed7c13bb5be0acd47e8f03c255aa1bef70d54ef9dd6b059f0a8f7e3328167333",
+      "sourceFingerprint": "4f38b5b772df8bc6be3100db9519196c87a9bb86889ad6fa81d5d1f531bb44e2",
+      "evidenceFingerprint": "0024413b37f5d5019dfb3bd9272cb49c1c3e00786c33f05cc03bb5251c3f22d0",
       "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
       "rubricVersion": "reading-profile-v1",
-      "judgedBy": "codex-semantic-review-2026-10-11-inbox",
-      "judgedAt": "2026-10-11T21:28:43.686Z",
+      "judgedBy": "codex-semantic-review-2026-10-12-inbox",
+      "judgedAt": "2026-10-12T05:02:46.000Z",
       "reason": "De reportage verbindt Claude's morele vorming met onzekerheid over bewustzijn en laat zien wie de waarden kan bepalen.",
       "evidenceRefs": [
-        ".tmp/readwise/semantic-run-2026-10-11/current-reading-profiles/snapshot.json#documents.01m4p9sea9w6bftxabgje31gtr.content",
-        ".tmp/readwise/semantic-run-2026-10-11/current-reading-profiles/snapshot.json#documents.01m4p9sea9w6bftxabgje31gtr.summary",
-        ".tmp/readwise/semantic-run-2026-10-11/current-reading-profiles/snapshot.json#documents.01m4p9sea9w6bftxabgje31gtr.notes"
+        ".tmp/readwise/inbox-run-2026-10-12/semantic-run/current-reading-profiles/snapshot.json#documents.01m4p9sea9w6bftxabgje31gtr.content",
+        ".tmp/readwise/inbox-run-2026-10-12/semantic-run/current-reading-profiles/snapshot.json#documents.01m4p9sea9w6bftxabgje31gtr.summary",
+        ".tmp/readwise/inbox-run-2026-10-12/semantic-run/current-reading-profiles/snapshot.json#documents.01m4p9sea9w6bftxabgje31gtr.notes"
       ],
       "traits": {
         "effort": 3,
@@ -12907,17 +12907,17 @@
     "01m4p9rtd8jpwhvzee6a0zwjgg": {
       "status": "accepted",
       "confidence": "medium",
-      "sourceFingerprint": "64d552d9c690b2ada33cc95a0556c634168c83f859662e4864a62c2db94daa46",
-      "evidenceFingerprint": "447a9ca7ace0738b4fcda13a0740ee916962091008e8fbe48675c6daf7dfa633",
+      "sourceFingerprint": "4d91e57f678edb1428733bff3d126935328dd5c9289866e9b2e04f6dc4883794",
+      "evidenceFingerprint": "d80586d06806d91717715d80e9a0138e31c09579c6294019258d0cf13aa57884",
       "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
       "rubricVersion": "reading-profile-v1",
-      "judgedBy": "codex-semantic-review-2026-10-11-inbox",
-      "judgedAt": "2026-10-11T21:28:43.686Z",
+      "judgedBy": "codex-semantic-review-2026-10-12-inbox",
+      "judgedAt": "2026-10-12T05:02:46.000Z",
       "reason": "Een toegankelijke verkenning van agentgroepen, met duidelijke waarschuwingen dat de voorbeelden voorlopig zijn.",
       "evidenceRefs": [
-        ".tmp/readwise/semantic-run-2026-10-11/current-reading-profiles/snapshot.json#documents.01m4p9rtd8jpwhvzee6a0zwjgg.content",
-        ".tmp/readwise/semantic-run-2026-10-11/current-reading-profiles/snapshot.json#documents.01m4p9rtd8jpwhvzee6a0zwjgg.summary",
-        ".tmp/readwise/semantic-run-2026-10-11/current-reading-profiles/snapshot.json#documents.01m4p9rtd8jpwhvzee6a0zwjgg.notes"
+        ".tmp/readwise/inbox-run-2026-10-12/semantic-run/current-reading-profiles/snapshot.json#documents.01m4p9rtd8jpwhvzee6a0zwjgg.content",
+        ".tmp/readwise/inbox-run-2026-10-12/semantic-run/current-reading-profiles/snapshot.json#documents.01m4p9rtd8jpwhvzee6a0zwjgg.summary",
+        ".tmp/readwise/inbox-run-2026-10-12/semantic-run/current-reading-profiles/snapshot.json#documents.01m4p9rtd8jpwhvzee6a0zwjgg.notes"
       ],
       "traits": {
         "effort": 2,
@@ -12935,17 +12935,17 @@
     "01m4p8h8zrsgrh4207r8eck67b": {
       "status": "accepted",
       "confidence": "medium",
-      "sourceFingerprint": "11d08554b1d120bd620de62deafd19ea72466e7c361de1c19c8e955275eb327c",
-      "evidenceFingerprint": "1e732319e1e3a57ba53c72c14f404b0fe097618db536dd8afa02102c350b0d80",
+      "sourceFingerprint": "0d6c908496391fb9b4581ad7b38ac0275ec1bc79128b1a024cdabb35a0e4602e",
+      "evidenceFingerprint": "12d7a728497f2e1299db9f2167aba2e70062ec9c42ea58808001bf5206544564",
       "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
       "rubricVersion": "reading-profile-v1",
-      "judgedBy": "codex-semantic-review-2026-10-11-inbox",
-      "judgedAt": "2026-10-11T21:28:43.686Z",
+      "judgedBy": "codex-semantic-review-2026-10-12-inbox",
+      "judgedAt": "2026-10-12T05:02:46.000Z",
       "reason": "Een persoonlijke leesgids over hoe technologie wooncultuur en esthetiek beïnvloedt.",
       "evidenceRefs": [
-        ".tmp/readwise/semantic-run-2026-10-11/current-reading-profiles/snapshot.json#documents.01m4p8h8zrsgrh4207r8eck67b.content",
-        ".tmp/readwise/semantic-run-2026-10-11/current-reading-profiles/snapshot.json#documents.01m4p8h8zrsgrh4207r8eck67b.summary",
-        ".tmp/readwise/semantic-run-2026-10-11/current-reading-profiles/snapshot.json#documents.01m4p8h8zrsgrh4207r8eck67b.notes"
+        ".tmp/readwise/inbox-run-2026-10-12/semantic-run/current-reading-profiles/snapshot.json#documents.01m4p8h8zrsgrh4207r8eck67b.content",
+        ".tmp/readwise/inbox-run-2026-10-12/semantic-run/current-reading-profiles/snapshot.json#documents.01m4p8h8zrsgrh4207r8eck67b.summary",
+        ".tmp/readwise/inbox-run-2026-10-12/semantic-run/current-reading-profiles/snapshot.json#documents.01m4p8h8zrsgrh4207r8eck67b.notes"
       ],
       "traits": {
         "effort": 2,
@@ -13342,17 +13342,17 @@
     "01m4nadhks3ntqgr7bfp0140dv": {
       "status": "accepted",
       "confidence": "medium",
-      "sourceFingerprint": "8a06b5077d7d5430f760a526185d2312a5e4ef123c3914e2a167f2c8f62dd6e5",
-      "evidenceFingerprint": "9c57893dea1c31f4766d03446acd3f15f3faa8bae4623eff54719c45e92180c2",
+      "sourceFingerprint": "27dab0842202b1e321a4467a255f4f60b22d73d65f8d3cfccf87f6a1b55a917f",
+      "evidenceFingerprint": "76cfbd8e1703f3dcadaf94801e1301dcc8aeec080953b25d635ac8fb36838494",
       "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
       "rubricVersion": "reading-profile-v1",
-      "judgedBy": "codex-semantic-review-2026-10-11-inbox",
-      "judgedAt": "2026-10-11T21:28:43.686Z",
+      "judgedBy": "codex-semantic-review-2026-10-12-inbox",
+      "judgedAt": "2026-10-12T05:02:46.000Z",
       "reason": "Een interview over onderzoekskennis en praktijkkennis, met voorbeelden uit het Nederlandse onderwijs.",
       "evidenceRefs": [
-        ".tmp/readwise/semantic-run-2026-10-11/current-reading-profiles/snapshot.json#documents.01m4nadhks3ntqgr7bfp0140dv.content",
-        ".tmp/readwise/semantic-run-2026-10-11/current-reading-profiles/snapshot.json#documents.01m4nadhks3ntqgr7bfp0140dv.summary",
-        ".tmp/readwise/semantic-run-2026-10-11/current-reading-profiles/snapshot.json#documents.01m4nadhks3ntqgr7bfp0140dv.notes"
+        ".tmp/readwise/inbox-run-2026-10-12/semantic-run/current-reading-profiles/snapshot.json#documents.01m4nadhks3ntqgr7bfp0140dv.content",
+        ".tmp/readwise/inbox-run-2026-10-12/semantic-run/current-reading-profiles/snapshot.json#documents.01m4nadhks3ntqgr7bfp0140dv.summary",
+        ".tmp/readwise/inbox-run-2026-10-12/semantic-run/current-reading-profiles/snapshot.json#documents.01m4nadhks3ntqgr7bfp0140dv.notes"
       ],
       "traits": {
         "effort": 2,
@@ -13370,17 +13370,17 @@
     "01m4nadeq8frfs5zyxrrdhgssn": {
       "status": "accepted",
       "confidence": "medium",
-      "sourceFingerprint": "b10c122738ed583bb6f892d94330990f7c50ebc60f53ab42908f95b6d0fff092",
-      "evidenceFingerprint": "baf1c09ec11f1eb26e106e2b0e591d508fd9abf446090ac2e24a4b2e34695738",
+      "sourceFingerprint": "8b97d75ddcb6f051d90b2a5741821d98c68acc2f8571d7dd00d3233c9b7abc8b",
+      "evidenceFingerprint": "ab4e499f93ed15d717abb784cff08a880a0d8647ea98bfbc38219c014a894be1",
       "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
       "rubricVersion": "reading-profile-v1",
-      "judgedBy": "codex-semantic-review-2026-10-11-inbox",
-      "judgedAt": "2026-10-11T21:28:43.686Z",
+      "judgedBy": "codex-semantic-review-2026-10-12-inbox",
+      "judgedAt": "2026-10-12T05:02:46.000Z",
       "reason": "Een korte beleidsmatige samenvatting; voor diepgang verwijst de capture naar het volledige advies.",
       "evidenceRefs": [
-        ".tmp/readwise/semantic-run-2026-10-11/current-reading-profiles/snapshot.json#documents.01m4nadeq8frfs5zyxrrdhgssn.content",
-        ".tmp/readwise/semantic-run-2026-10-11/current-reading-profiles/snapshot.json#documents.01m4nadeq8frfs5zyxrrdhgssn.summary",
-        ".tmp/readwise/semantic-run-2026-10-11/current-reading-profiles/snapshot.json#documents.01m4nadeq8frfs5zyxrrdhgssn.notes"
+        ".tmp/readwise/inbox-run-2026-10-12/semantic-run/current-reading-profiles/snapshot.json#documents.01m4nadeq8frfs5zyxrrdhgssn.content",
+        ".tmp/readwise/inbox-run-2026-10-12/semantic-run/current-reading-profiles/snapshot.json#documents.01m4nadeq8frfs5zyxrrdhgssn.summary",
+        ".tmp/readwise/inbox-run-2026-10-12/semantic-run/current-reading-profiles/snapshot.json#documents.01m4nadeq8frfs5zyxrrdhgssn.notes"
       ],
       "traits": {
         "effort": 1,
@@ -13426,17 +13426,17 @@
     "01m4nacvkv1gav6fj7zw2zm3m4": {
       "status": "accepted",
       "confidence": "medium",
-      "sourceFingerprint": "9847c4bd3156b986426ba0cffa393810efb2f4bee2d7dc9ae26b5bfe24a3833f",
-      "evidenceFingerprint": "0e4370ac6d54b272db69dce34d3ba1ac2ab5dafdec663ec0c884e1b83a415a97",
+      "sourceFingerprint": "1e493b46927015b1bb394a247cb96e93ebabf1afdf1b4e5f564c8ec264756edf",
+      "evidenceFingerprint": "8782746088dd976f34b6ce2715a00c2b76c717f281890d6f860fce87f9ee49da",
       "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
       "rubricVersion": "reading-profile-v1",
-      "judgedBy": "codex-semantic-review-2026-10-11-inbox",
-      "judgedAt": "2026-10-11T21:28:43.686Z",
+      "judgedBy": "codex-semantic-review-2026-10-12-inbox",
+      "judgedAt": "2026-10-12T05:02:46.000Z",
       "reason": "Een korte aankondiging van primair archiefmateriaal rond Sylvia Plath, zonder eigen analyse.",
       "evidenceRefs": [
-        ".tmp/readwise/semantic-run-2026-10-11/current-reading-profiles/snapshot.json#documents.01m4nacvkv1gav6fj7zw2zm3m4.content",
-        ".tmp/readwise/semantic-run-2026-10-11/current-reading-profiles/snapshot.json#documents.01m4nacvkv1gav6fj7zw2zm3m4.summary",
-        ".tmp/readwise/semantic-run-2026-10-11/current-reading-profiles/snapshot.json#documents.01m4nacvkv1gav6fj7zw2zm3m4.notes"
+        ".tmp/readwise/inbox-run-2026-10-12/semantic-run/current-reading-profiles/snapshot.json#documents.01m4nacvkv1gav6fj7zw2zm3m4.content",
+        ".tmp/readwise/inbox-run-2026-10-12/semantic-run/current-reading-profiles/snapshot.json#documents.01m4nacvkv1gav6fj7zw2zm3m4.summary",
+        ".tmp/readwise/inbox-run-2026-10-12/semantic-run/current-reading-profiles/snapshot.json#documents.01m4nacvkv1gav6fj7zw2zm3m4.notes"
       ],
       "traits": {
         "effort": 1,
@@ -13482,17 +13482,17 @@
     "01m4nack50dtk3prsb4twstexr": {
       "status": "accepted",
       "confidence": "medium",
-      "sourceFingerprint": "c11bc4eed6ef818c96f40091a2741de3734c8ef06a56a66f40dabf0b8452af2e",
-      "evidenceFingerprint": "f779be8a8663933583efab7aed3572a1062136e4218f2b4400007c02fafc0d13",
+      "sourceFingerprint": "730c20fd1d1244f0484f61cb4e2842e61e2f0929992d689f0ecc0de68cbc9919",
+      "evidenceFingerprint": "acb075a6018e41bb3592d7e9403454be826d8e077e4dcc66700f6eddea2fe0bd",
       "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
       "rubricVersion": "reading-profile-v1",
-      "judgedBy": "codex-semantic-review-2026-10-11-inbox",
-      "judgedAt": "2026-10-11T21:28:43.686Z",
+      "judgedBy": "codex-semantic-review-2026-10-12-inbox",
+      "judgedAt": "2026-10-12T05:02:46.000Z",
       "reason": "Een interview over het risico dat AI junior leerwerk wegneemt voordat organisaties nieuwe leerpaden bouwen.",
       "evidenceRefs": [
-        ".tmp/readwise/semantic-run-2026-10-11/current-reading-profiles/snapshot.json#documents.01m4nack50dtk3prsb4twstexr.content",
-        ".tmp/readwise/semantic-run-2026-10-11/current-reading-profiles/snapshot.json#documents.01m4nack50dtk3prsb4twstexr.summary",
-        ".tmp/readwise/semantic-run-2026-10-11/current-reading-profiles/snapshot.json#documents.01m4nack50dtk3prsb4twstexr.notes"
+        ".tmp/readwise/inbox-run-2026-10-12/semantic-run/current-reading-profiles/snapshot.json#documents.01m4nack50dtk3prsb4twstexr.content",
+        ".tmp/readwise/inbox-run-2026-10-12/semantic-run/current-reading-profiles/snapshot.json#documents.01m4nack50dtk3prsb4twstexr.summary",
+        ".tmp/readwise/inbox-run-2026-10-12/semantic-run/current-reading-profiles/snapshot.json#documents.01m4nack50dtk3prsb4twstexr.notes"
       ],
       "traits": {
         "effort": 2,
@@ -13538,17 +13538,17 @@
     "01m4nacad5qn50bd8ekr61hn99": {
       "status": "accepted",
       "confidence": "medium",
-      "sourceFingerprint": "50ed3b062ac77424b0bd1235840772e240f364167979706e3038cbe9e37d48dc",
-      "evidenceFingerprint": "3484ac403be84a3422b88d923ac1a74d251c3ed425dfd6bc1017025bf3b198ce",
+      "sourceFingerprint": "cd49a8864fbf1b256556c35fc6d659f48cfca11e9f06548e5a999b53693bb165",
+      "evidenceFingerprint": "031daf231942330535d1ee468e612ca5eb5f791b722d4a8f508d0eb84b5c3e3c",
       "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
       "rubricVersion": "reading-profile-v1",
-      "judgedBy": "codex-semantic-review-2026-10-11-inbox",
-      "judgedAt": "2026-10-11T21:28:43.686Z",
+      "judgedBy": "codex-semantic-review-2026-10-12-inbox",
+      "judgedAt": "2026-10-12T05:02:46.000Z",
       "reason": "De adviezen richten zich op gedeeld eigenaarschap en samenwerking met platformteams; één tip vraagt lokale afspraken.",
       "evidenceRefs": [
-        ".tmp/readwise/semantic-run-2026-10-11/current-reading-profiles/snapshot.json#documents.01m4nacad5qn50bd8ekr61hn99.content",
-        ".tmp/readwise/semantic-run-2026-10-11/current-reading-profiles/snapshot.json#documents.01m4nacad5qn50bd8ekr61hn99.summary",
-        ".tmp/readwise/semantic-run-2026-10-11/current-reading-profiles/snapshot.json#documents.01m4nacad5qn50bd8ekr61hn99.notes"
+        ".tmp/readwise/inbox-run-2026-10-12/semantic-run/current-reading-profiles/snapshot.json#documents.01m4nacad5qn50bd8ekr61hn99.content",
+        ".tmp/readwise/inbox-run-2026-10-12/semantic-run/current-reading-profiles/snapshot.json#documents.01m4nacad5qn50bd8ekr61hn99.summary",
+        ".tmp/readwise/inbox-run-2026-10-12/semantic-run/current-reading-profiles/snapshot.json#documents.01m4nacad5qn50bd8ekr61hn99.notes"
       ],
       "traits": {
         "effort": 2,
@@ -13594,17 +13594,17 @@
     "01m4nac6qvd9qmj6vzhmkssx6q": {
       "status": "accepted",
       "confidence": "high",
-      "sourceFingerprint": "04dce7a10c20c72a80df529f4ca2594135624b2c5207b859b0198cf37bf7ac92",
-      "evidenceFingerprint": "4be31755a6bbc91d2fa6bcc12e3e45c2e47d04f9a142fc29b2523f53ca3434de",
+      "sourceFingerprint": "875d9453d650eb3a250236a738d6a5696cd09d3a6d800a1ef4600a67e3f5c81a",
+      "evidenceFingerprint": "273fc99bdc6d65489954e331f6a99ea10d4e7a84b8e8250a8c5aba7dab5c4fa7",
       "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
       "rubricVersion": "reading-profile-v1",
-      "judgedBy": "codex-semantic-review-2026-10-11-inbox",
-      "judgedAt": "2026-10-11T21:28:43.686Z",
+      "judgedBy": "codex-semantic-review-2026-10-12-inbox",
+      "judgedAt": "2026-10-12T05:02:46.000Z",
       "reason": "De praktische deadline-aanpak vraagt transparantie, onderhandeling en haalbare scope.",
       "evidenceRefs": [
-        ".tmp/readwise/semantic-run-2026-10-11/current-reading-profiles/snapshot.json#documents.01m4nac6qvd9qmj6vzhmkssx6q.content",
-        ".tmp/readwise/semantic-run-2026-10-11/current-reading-profiles/snapshot.json#documents.01m4nac6qvd9qmj6vzhmkssx6q.summary",
-        ".tmp/readwise/semantic-run-2026-10-11/current-reading-profiles/snapshot.json#documents.01m4nac6qvd9qmj6vzhmkssx6q.notes"
+        ".tmp/readwise/inbox-run-2026-10-12/semantic-run/current-reading-profiles/snapshot.json#documents.01m4nac6qvd9qmj6vzhmkssx6q.content",
+        ".tmp/readwise/inbox-run-2026-10-12/semantic-run/current-reading-profiles/snapshot.json#documents.01m4nac6qvd9qmj6vzhmkssx6q.summary",
+        ".tmp/readwise/inbox-run-2026-10-12/semantic-run/current-reading-profiles/snapshot.json#documents.01m4nac6qvd9qmj6vzhmkssx6q.notes"
       ],
       "traits": {
         "effort": 2,
@@ -13622,17 +13622,17 @@
     "01m4nac55kd6nvhj47bysejr8f": {
       "status": "accepted",
       "confidence": "high",
-      "sourceFingerprint": "3b43e80bd4d5e639734b2d4bf71c6aeb329a68baeb0f40db56f8314844e282ec",
-      "evidenceFingerprint": "de7b3c2b9c36aaf9870a43666ed88b183b50cee5d3845952a43d73f3ce12ad52",
+      "sourceFingerprint": "63f3522e31862d5e440d48c6d162c6ffd55aabc0d223746147d0eebdb6f32474",
+      "evidenceFingerprint": "90be842440b5df6d9f3b6d50de1ee5fc8256e32f7c0c07d6966d9f94c1c9a1c4",
       "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
       "rubricVersion": "reading-profile-v1",
-      "judgedBy": "codex-semantic-review-2026-10-11-inbox",
-      "judgedAt": "2026-10-11T21:28:43.686Z",
+      "judgedBy": "codex-semantic-review-2026-10-12-inbox",
+      "judgedAt": "2026-10-12T05:02:46.000Z",
       "reason": "Een persoonlijk essay over lezen als aandacht, nieuwsgierigheid en ruimte na werk en zorg.",
       "evidenceRefs": [
-        ".tmp/readwise/semantic-run-2026-10-11/current-reading-profiles/snapshot.json#documents.01m4nac55kd6nvhj47bysejr8f.content",
-        ".tmp/readwise/semantic-run-2026-10-11/current-reading-profiles/snapshot.json#documents.01m4nac55kd6nvhj47bysejr8f.summary",
-        ".tmp/readwise/semantic-run-2026-10-11/current-reading-profiles/snapshot.json#documents.01m4nac55kd6nvhj47bysejr8f.notes"
+        ".tmp/readwise/inbox-run-2026-10-12/semantic-run/current-reading-profiles/snapshot.json#documents.01m4nac55kd6nvhj47bysejr8f.content",
+        ".tmp/readwise/inbox-run-2026-10-12/semantic-run/current-reading-profiles/snapshot.json#documents.01m4nac55kd6nvhj47bysejr8f.summary",
+        ".tmp/readwise/inbox-run-2026-10-12/semantic-run/current-reading-profiles/snapshot.json#documents.01m4nac55kd6nvhj47bysejr8f.notes"
       ],
       "traits": {
         "effort": 1,
@@ -13678,17 +13678,17 @@
     "01m4nac1h1xsaaqjdxqwpdf9vt": {
       "status": "accepted",
       "confidence": "medium",
-      "sourceFingerprint": "3d148742c43ec0659ae9b4948cf416dd2faa3f4d740f26efcaa256728bff8545",
-      "evidenceFingerprint": "c75ea1ce0af298d3cb326635962cf5b7728911f56a08f4a3a60d27d7c1763939",
+      "sourceFingerprint": "94c136376a553f1c43d3db98f92e8b5159e9794bf89ee587d06655c016671e00",
+      "evidenceFingerprint": "cff5f1fa1964e68b23367de6b0c4cdd875b6548832366ea43f72b9b7b41ddf63",
       "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
       "rubricVersion": "reading-profile-v1",
-      "judgedBy": "codex-semantic-review-2026-10-11-inbox",
-      "judgedAt": "2026-10-11T21:28:43.686Z",
+      "judgedBy": "codex-semantic-review-2026-10-12-inbox",
+      "judgedAt": "2026-10-12T05:02:46.000Z",
       "reason": "Een lichte seizoensgids om fictie, folklore en geschiedenis thematisch te ontdekken.",
       "evidenceRefs": [
-        ".tmp/readwise/semantic-run-2026-10-11/current-reading-profiles/snapshot.json#documents.01m4nac1h1xsaaqjdxqwpdf9vt.content",
-        ".tmp/readwise/semantic-run-2026-10-11/current-reading-profiles/snapshot.json#documents.01m4nac1h1xsaaqjdxqwpdf9vt.summary",
-        ".tmp/readwise/semantic-run-2026-10-11/current-reading-profiles/snapshot.json#documents.01m4nac1h1xsaaqjdxqwpdf9vt.notes"
+        ".tmp/readwise/inbox-run-2026-10-12/semantic-run/current-reading-profiles/snapshot.json#documents.01m4nac1h1xsaaqjdxqwpdf9vt.content",
+        ".tmp/readwise/inbox-run-2026-10-12/semantic-run/current-reading-profiles/snapshot.json#documents.01m4nac1h1xsaaqjdxqwpdf9vt.summary",
+        ".tmp/readwise/inbox-run-2026-10-12/semantic-run/current-reading-profiles/snapshot.json#documents.01m4nac1h1xsaaqjdxqwpdf9vt.notes"
       ],
       "traits": {
         "effort": 1,

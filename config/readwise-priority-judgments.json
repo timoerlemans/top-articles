@@ -87262,7 +87262,7 @@
     },
     "01m4jp40rkevzjv5xyngmtthj0": {
       "sourceFingerprint": "ad6dcdfa4db4a48e5f443368be9deef7ded92653f8f16dfaa493df6844f8392e",
-      "evidenceFingerprint": "4d31a0fe8bafcf80d39407b528e63f41614cf46bf2d83829c1d1fef1329e0d3e",
+      "evidenceFingerprint": "f2041d2570585782bfdbb53c2e8319fc5cff94d001661ff5e91c9da78ce0a6ca",
       "relevance": 4,
       "substance": 2,
       "durability": 3,
@@ -87294,21 +87294,25 @@
       },
       "confidence": "high",
       "reasonCodes": [
-        "semantic-review",
-        "evidence:manager-expectations-and-team-communication"
+        "evidence:manager-expectations-and-team-communication",
+        "semantic-review"
       ],
       "status": "accepted",
       "rubricVersion": "semantic-v2",
       "evidenceRefs": [
-        ".tmp/readwise/semantic-run-2026-10-11/current-priority-evidence.json#documents.01m4jp40rkevzjv5xyngmtthj0",
-        ".tmp/readwise/semantic-run-2026-10-11/current-later-content/01m4jp40rkevzjv5xyngmtthj0.txt"
+        ".tmp/readwise/inbox-run-2026-10-12/semantic-run/current-priority-evidence.json#documents.01m4jp40rkevzjv5xyngmtthj0",
+        "reader-highlight:01m4k3zv6c739sy5yr14pbt238",
+        "reader-highlight:01m4k3zvrvx4qn9t95at28cwgs",
+        "reader-highlight:01m4k3zw8ce5k88x9y1d1v8rnz",
+        "reader-highlight:01m4n8vx223y0pdq1cc9ha6hwt",
+        ".tmp/readwise/semantic-run-2026-10-11/current-later-content/01m4jp40rkevzjv5xyngmtthj0.txt#content"
       ],
-      "judgedBy": "codex-semantic-review-2026-10-11-inbox",
-      "judgedAt": "2026-10-11T21:28:43.686Z"
+      "judgedBy": "codex-semantic-review-2026-10-12-inbox",
+      "judgedAt": "2026-10-12T05:02:46.000Z"
     },
     "01m4jp3xvpfnnr7d03trmxw5ny": {
       "sourceFingerprint": "0bf790b7dbdaa51361ff08f699fc638768c38d0919c1a5d585413e676ca41670",
-      "evidenceFingerprint": "de4e6a695b92a7f4821bde034465a3b7bb279f80d63bd4be69f1c83136c310ce",
+      "evidenceFingerprint": "430ec9ce2f75dc2121aac98fd5c57ffe857bdb25a0de68f4689f6035de5a061f",
       "relevance": 3,
       "substance": 2,
       "durability": 2,
@@ -87340,21 +87344,25 @@
       },
       "confidence": "medium",
       "reasonCodes": [
-        "semantic-review",
-        "evidence:hands-on-engineering-manager-practice"
+        "evidence:hands-on-engineering-manager-practice",
+        "semantic-review"
       ],
       "status": "accepted",
       "rubricVersion": "semantic-v2",
       "evidenceRefs": [
-        ".tmp/readwise/semantic-run-2026-10-11/current-priority-evidence.json#documents.01m4jp3xvpfnnr7d03trmxw5ny",
-        ".tmp/readwise/semantic-run-2026-10-11/current-later-content/01m4jp3xvpfnnr7d03trmxw5ny.txt"
+        ".tmp/readwise/inbox-run-2026-10-12/semantic-run/current-priority-evidence.json#documents.01m4jp3xvpfnnr7d03trmxw5ny",
+        "reader-highlight:01m4k3zwtftxact59asrhtfp2m",
+        "reader-highlight:01m4k3zxb17nkv0e27eacemefr",
+        "reader-highlight:01m4k3zxtgq8jqj2s28jeyscex",
+        "reader-highlight:01m4n8vzy2execzdrs4db0r2ct",
+        ".tmp/readwise/semantic-run-2026-10-11/current-later-content/01m4jp3xvpfnnr7d03trmxw5ny.txt#content"
       ],
-      "judgedBy": "codex-semantic-review-2026-10-11-inbox",
-      "judgedAt": "2026-10-11T21:28:43.686Z"
+      "judgedBy": "codex-semantic-review-2026-10-12-inbox",
+      "judgedAt": "2026-10-12T05:02:46.000Z"
     },
     "01m4jp3vhk3qx5yqvn7cp99fmg": {
       "sourceFingerprint": "621106dcfbb642a34a91ec96f4d498151dfd4bf3299c7de375560e0e18283375",
-      "evidenceFingerprint": "81a8ad8136c45a9b3e1bd62826eae689ce41b63bf4ed3cecb87cacfa34548c3b",
+      "evidenceFingerprint": "8e78677cccd4cfae47e32a733258e16e265f651b77e08d4c23119ac842175b8c",
       "relevance": 4,
       "substance": 3,
       "durability": 4,
@@ -87397,14 +87405,15 @@
       "status": "accepted",
       "rubricVersion": "semantic-v2",
       "evidenceRefs": [
-        ".tmp/readwise/priority-evidence.json#documents.01m4jp3vhk3qx5yqvn7cp99fmg",
-        "metadata:title-summary-notes-tags",
-        "priority-evidence:01m4jp3vhk3qx5yqvn7cp99fmg",
-        "reader-highlights",
-        "topic:philosophy-title-summary-tags"
+        ".tmp/readwise/inbox-run-2026-10-12/semantic-run/current-priority-evidence.json#documents.01m4jp3vhk3qx5yqvn7cp99fmg",
+        "reader-highlight:01m4k3zyb72c2298ztgajje7c8",
+        "reader-highlight:01m4k3zywbdagrsw99ya1f2tja",
+        "reader-highlight:01m4k3zzcb45skkwn6p6hkjn70",
+        "reader-highlight:01m4n8xemmae3heembz1hrj0cg",
+        ".tmp/readwise/inbox-run-2026-10-12/semantic-run/missing-content-source-details.json#01m4jp3vhk3qx5yqvn7cp99fmg.content"
       ],
-      "judgedBy": "codex-semantic-review-2026-10-10-inbox",
-      "judgedAt": "2026-10-10T00:00:00Z"
+      "judgedBy": "codex-semantic-review-2026-10-12-inbox",
+      "judgedAt": "2026-10-12T05:02:46.000Z"
     },
     "01m4jgw4m8894063wr7sdrcjq0": {
       "sourceFingerprint": "ddf7bc650a9fa10322b28ba6d1fb8cf7395767436cd01e5cf234cd651ced6575",
@@ -87570,7 +87579,7 @@
     },
     "01m4j6k5xfg97r9gpcwg39ky9w": {
       "sourceFingerprint": "971f5e30a0b561fc1f0e946e0472274ec83ad728ad225adcfd7ea28a8b1b59ae",
-      "evidenceFingerprint": "aed568b71ef32ff01f7a1007d659a8b1dc874d7c6c173ba3623ac879f2c14f45",
+      "evidenceFingerprint": "f1936d69cedd8e45c945233626259566284d67308d0e31d26c5ae4e0f030aa6e",
       "relevance": 3,
       "substance": 3,
       "durability": 4,
@@ -87598,26 +87607,31 @@
         "front-end-development": 0,
         "social-studies": 3,
         "adhd": 0,
-        "philosophy": 2
+        "philosophy": 1
       },
       "confidence": "medium",
       "reasonCodes": [
-        "semantic-review",
         "evidence:technology-progress-and-ecological-limits",
-        "limitation:broad philosophical claims and a nature-centered argument"
+        "limitation:broad philosophical claims and a nature-centered argument",
+        "preference:arendt-and-technology-philosophy-deemphasized",
+        "semantic-review"
       ],
       "status": "accepted",
       "rubricVersion": "semantic-v2",
       "evidenceRefs": [
-        ".tmp/readwise/semantic-run-2026-10-11/current-priority-evidence.json#documents.01m4j6k5xfg97r9gpcwg39ky9w",
-        ".tmp/readwise/semantic-run-2026-10-11/current-later-content/01m4j6k5xfg97r9gpcwg39ky9w.txt"
+        ".tmp/readwise/inbox-run-2026-10-12/semantic-run/current-priority-evidence.json#documents.01m4j6k5xfg97r9gpcwg39ky9w",
+        "reader-highlight:01m4k408h2zdf2xhc16dhqg2f8",
+        "reader-highlight:01m4k4096dm818y27mwx6br42t",
+        "reader-highlight:01m4n8xhadbpaxews0tanzaf08",
+        "reader-highlight:01m4n8xhxfej0jza69e5ns7m0k",
+        ".tmp/readwise/semantic-run-2026-10-11/current-later-content/01m4j6k5xfg97r9gpcwg39ky9w.txt#content"
       ],
-      "judgedBy": "codex-semantic-review-2026-10-11-inbox",
-      "judgedAt": "2026-10-11T21:28:43.686Z"
+      "judgedBy": "codex-semantic-review-2026-10-12-inbox",
+      "judgedAt": "2026-10-12T05:02:46.000Z"
     },
     "01m4j1skw0pgx08sk6twqe5a3y": {
-      "sourceFingerprint": "8e215d0f235934899133f995d89998c1999d62ef315dd7d19d44c540084baf92",
-      "evidenceFingerprint": "3a99c3a7cbabbfd0937433b530cf76edc026266a945e4a32dee866fec3db08f5",
+      "sourceFingerprint": "c87396b7e9945e9bf8a45bf8424f2a0e552485acc057b2829f5a0c5e731a32e2",
+      "evidenceFingerprint": "b2c06b94f91e249f7272d528c6dfef003b78d88843e9f902b6c0957da4426583",
       "relevance": 4,
       "substance": 3,
       "durability": 3,
@@ -87645,21 +87659,26 @@
         "front-end-development": 0,
         "social-studies": 4,
         "adhd": 0,
-        "philosophy": 3
+        "philosophy": 2
       },
       "confidence": "high",
       "reasonCodes": [
-        "semantic-review",
-        "evidence:ethical-refusal-and-labor-solidarity"
+        "evidence:ethical-refusal-and-labor-solidarity",
+        "preference:workplace-ethics-is-secondary-philosophy-fit",
+        "semantic-review"
       ],
       "status": "accepted",
       "rubricVersion": "semantic-v2",
       "evidenceRefs": [
-        ".tmp/readwise/semantic-run-2026-10-11/current-priority-evidence.json#documents.01m4j1skw0pgx08sk6twqe5a3y",
-        ".tmp/readwise/semantic-run-2026-10-11/current-later-content/01m4j1skw0pgx08sk6twqe5a3y.txt"
+        ".tmp/readwise/inbox-run-2026-10-12/semantic-run/current-priority-evidence.json#documents.01m4j1skw0pgx08sk6twqe5a3y",
+        "reader-highlight:01m4k40a5hd8t6p78xbb5bx50t",
+        "reader-highlight:01m4k40ap73bacq6aqkpfrzj2d",
+        "reader-highlight:01m4k40b6gr7tk4b89aqyyjvnq",
+        "reader-highlight:01m4q5g16rf77pxxbfjy8x7zfy",
+        ".tmp/readwise/semantic-run-2026-10-11/current-later-content/01m4j1skw0pgx08sk6twqe5a3y.txt#content"
       ],
-      "judgedBy": "codex-semantic-review-2026-10-11-inbox",
-      "judgedAt": "2026-10-11T21:28:43.686Z"
+      "judgedBy": "codex-semantic-review-2026-10-12-inbox",
+      "judgedAt": "2026-10-12T05:02:46.000Z"
     },
     "01m4hnp727s06cdncvacqfpxgd": {
       "sourceFingerprint": "2f8232e6b3440ae4d45b40e0448f88004eadf1483cbb04f78d00f5a02dde0d63",
@@ -87825,7 +87844,7 @@
     },
     "01m4gyzcgadaef71y47f3xzezy": {
       "sourceFingerprint": "c1701dc74aa9e2f732d2d32a16cd7855d060f57c11bc8cb717603ad5b5890671",
-      "evidenceFingerprint": "c4e6efcb241f2271148830aa76bdd63eb56401db3b495ba1a3c69a31e3c70ff9",
+      "evidenceFingerprint": "84673b4e7baef087621b825b9e25b6d8d14c7ff61137a6a9eb8d6b3347632b08",
       "relevance": 2,
       "substance": 2,
       "durability": 3,
@@ -87857,18 +87876,22 @@
       },
       "confidence": "medium",
       "reasonCodes": [
-        "semantic-review",
         "evidence:writing-craft-interview",
-        "limitation:long conversational interview; craft advice is mostly experiential"
+        "limitation:long conversational interview; craft advice is mostly experiential",
+        "semantic-review"
       ],
       "status": "accepted",
       "rubricVersion": "semantic-v2",
       "evidenceRefs": [
-        ".tmp/readwise/semantic-run-2026-10-11/current-priority-evidence.json#documents.01m4gyzcgadaef71y47f3xzezy",
-        ".tmp/readwise/semantic-run-2026-10-11/current-later-content/01m4gyzcgadaef71y47f3xzezy.txt"
+        ".tmp/readwise/inbox-run-2026-10-12/semantic-run/current-priority-evidence.json#documents.01m4gyzcgadaef71y47f3xzezy",
+        "reader-highlight:01m4k40mma2g2y2fpa833bncr8",
+        "reader-highlight:01m4k40paeqde008v1643kwfc1",
+        "reader-highlight:01m4k42q86bfvzqktwzys6skgh",
+        "reader-highlight:01m4n8zr98a92ke2yg8m0p6kjy",
+        ".tmp/readwise/semantic-run-2026-10-11/current-later-content/01m4gyzcgadaef71y47f3xzezy.txt#content"
       ],
-      "judgedBy": "codex-semantic-review-2026-10-11-inbox",
-      "judgedAt": "2026-10-11T21:28:43.686Z"
+      "judgedBy": "codex-semantic-review-2026-10-12-inbox",
+      "judgedAt": "2026-10-12T05:02:46.000Z"
     },
     "01m4gtexf9khxaxt8naahb5w5p": {
       "sourceFingerprint": "78dfb7fa82ca2a3b91d64af2ba2a7969153f0a1b4384718569295b3fa0a75088",
@@ -87980,7 +88003,7 @@
     },
     "01m4ghwk9h25gntyn5smype298": {
       "sourceFingerprint": "72c698a8e2b8f3c121365301f89e17bce358af808a8673ff10303edff839adc4",
-      "evidenceFingerprint": "9a98d99affb723645b34bb69ca916e4d111f4120fcd4e1e44e878fd7590f1146",
+      "evidenceFingerprint": "cb82128c671f8638ed56a4b4516a93daacfc05ed205ebc7462b6eff2d49f52b7",
       "relevance": 3,
       "substance": 3,
       "durability": 3,
@@ -88008,7 +88031,7 @@
         "front-end-development": 0,
         "social-studies": 2,
         "adhd": 0,
-        "philosophy": 4
+        "philosophy": 3
       },
       "confidence": "medium",
       "reasonCodes": [
@@ -88017,20 +88040,22 @@
         "independent-of-current-position",
         "interest:economics",
         "interest:political-philosophy",
+        "limitation:short-reflection-not-systematic-political-theory",
         "semantic-review",
         "topic:philosophy-evidence"
       ],
       "status": "accepted",
       "rubricVersion": "semantic-v2",
       "evidenceRefs": [
-        ".tmp/readwise/priority-evidence.json#documents.01m4ghwk9h25gntyn5smype298",
-        "metadata:title-summary-notes-tags",
-        "priority-evidence:01m4ghwk9h25gntyn5smype298",
-        "reader-highlights",
-        "topic:philosophy-title-summary-tags"
+        ".tmp/readwise/inbox-run-2026-10-12/semantic-run/current-priority-evidence.json#documents.01m4ghwk9h25gntyn5smype298",
+        "reader-highlight:01m4gkgsyd5emssv9dh7wz5ym8",
+        "reader-highlight:01m4k40ya17vy4xw4gyrz401tg",
+        "reader-highlight:01m4k42qs7wd8wxf8cqr2fwx4k",
+        "reader-highlight:01m4n91fmpkxtcp7m69atch6ps",
+        ".tmp/readwise/inbox-run-2026-10-12/semantic-run/missing-content-source-details.json#01m4ghwk9h25gntyn5smype298.content"
       ],
-      "judgedBy": "codex-semantic-review-2026-10-10-inbox",
-      "judgedAt": "2026-10-10T00:00:00Z"
+      "judgedBy": "codex-semantic-review-2026-10-12-inbox",
+      "judgedAt": "2026-10-12T05:02:46.000Z"
     },
     "01m4ge0fsmp6zfqwrb03hk134h": {
       "sourceFingerprint": "2f29a39f5185c1bab70a10e325eaeab28994d1aa6080ef887de0fe9daddb1023",
@@ -88088,7 +88113,7 @@
     },
     "01m4mxqnhzkjb13x7bdxszs4pa": {
       "sourceFingerprint": "a1f963f20c69b3f7f5032b44233889ef4be9846fb22fbc396e2aaa3472cf5798",
-      "evidenceFingerprint": "036114bc999da4e6c66a44f1f8988e7d48a6388f6558c0d868434aa93fad9aca",
+      "evidenceFingerprint": "92ade7818059503b30706d48f1451e8ca1cd1a064d5c5eae5df1f295a2d0b1e9",
       "relevance": 4,
       "substance": 4,
       "durability": 4,
@@ -88120,26 +88145,26 @@
       },
       "confidence": "high",
       "reasonCodes": [
+        "evidence:title-summary-notes-highlights",
+        "independent-of-current-position",
         "interest:organizational-behavior",
         "interest:team-dynamics",
         "quality:practical-system-map",
-        "independent-of-current-position",
-        "evidence:title-summary-notes-highlights",
         "semantic-review",
         "topic:philosophy-evidence"
       ],
       "status": "accepted",
       "rubricVersion": "semantic-v2",
       "evidenceRefs": [
-        ".tmp/readwise/semantic-run-2026-10-11/priority-evidence.json#documents.01m4mxqnhzkjb13x7bdxszs4pa",
-        ".tmp/readwise/semantic-run-2026-10-11/priority-evidence.json#documents.01m4mxqnhzkjb13x7bdxszs4pa.highlights.01m4mye37pzqxdj5xzw8dvvepe",
-        ".tmp/readwise/semantic-run-2026-10-11/priority-evidence.json#documents.01m4mxqnhzkjb13x7bdxszs4pa.highlights.01m4mye3xw8hyh3nx77s6p9ca5",
-        ".tmp/readwise/semantic-run-2026-10-11/priority-evidence.json#documents.01m4mxqnhzkjb13x7bdxszs4pa.highlights.01m4mye4ah5q234d1g471c2bdw",
-        ".tmp/readwise/semantic-run-2026-10-11/priority-evidence.json#documents.01m4mxqnhzkjb13x7bdxszs4pa.highlights.01m4mye4qv1s440qfjcya7we23",
-        ".tmp/readwise/semantic-run-2026-10-11/priority-evidence.json#documents.01m4mxqnhzkjb13x7bdxszs4pa.highlights.01m4mye54qe5y5375j1xar6apt"
+        ".tmp/readwise/inbox-run-2026-10-12/semantic-run/current-priority-evidence.json#documents.01m4mxqnhzkjb13x7bdxszs4pa",
+        "reader-highlight:01m4mye37pzqxdj5xzw8dvvepe",
+        "reader-highlight:01m4mye3xw8hyh3nx77s6p9ca5",
+        "reader-highlight:01m4mye4ah5q234d1g471c2bdw",
+        "reader-highlight:01m4mye4qv1s440qfjcya7we23",
+        ".tmp/readwise/semantic-run-2026-10-11/current-later-content/01m4mxqnhzkjb13x7bdxszs4pa.txt#content"
       ],
-      "judgedBy": "codex-semantic-review-2026-10-11-inbox",
-      "judgedAt": "2026-10-11T08:12:10Z"
+      "judgedBy": "codex-semantic-review-2026-10-12-inbox",
+      "judgedAt": "2026-10-12T05:02:46.000Z"
     },
     "01m4mxpxrevf72qey9pd30habf": {
       "sourceFingerprint": "fbd9e59e4971e957497dd4e5874546602b5380ef79b55638648022e0ed2859d8",
@@ -88746,8 +88771,8 @@
       "judgedAt": "2026-10-11T21:28:43.686Z"
     },
     "01m4p9sea9w6bftxabgje31gtr": {
-      "sourceFingerprint": "4f3f9d762a38385934f73b92a3cddc8a466ab732227757ee48be099c52853e0a",
-      "evidenceFingerprint": "a9d3225e96b69db5c85011487e8ff8111b75d8ab7720fdf5a330f108492433e5",
+      "sourceFingerprint": "4f38b5b772df8bc6be3100db9519196c87a9bb86889ad6fa81d5d1f531bb44e2",
+      "evidenceFingerprint": "4002f8451f9e02521c219b6c4fd500462c630e21c987ba142a67470aa6446926",
       "relevance": 3,
       "substance": 3,
       "durability": 2,
@@ -88779,22 +88804,26 @@
       },
       "confidence": "medium",
       "reasonCodes": [
-        "semantic-review",
         "evidence:ai-moral-governance",
-        "limitation:journalistic account; participants could not verify influence"
+        "limitation:journalistic account; participants could not verify influence",
+        "semantic-review"
       ],
       "status": "accepted",
       "rubricVersion": "semantic-v2",
       "evidenceRefs": [
-        ".tmp/readwise/semantic-run-2026-10-11/current-priority-evidence.json#documents.01m4p9sea9w6bftxabgje31gtr",
-        ".tmp/readwise/semantic-run-2026-10-11/current-later-content/01m4p9sea9w6bftxabgje31gtr.txt"
+        ".tmp/readwise/inbox-run-2026-10-12/semantic-run/current-priority-evidence.json#documents.01m4p9sea9w6bftxabgje31gtr",
+        "reader-highlight:01m4pb8f1wk3erh5w6tdg8dmy2",
+        "reader-highlight:01m4phcwnjagdg41y1yyvwa3ga",
+        "reader-highlight:01m4phcxdpe9a264fjtmmvg7e3",
+        "reader-highlight:01m4phcy81g375yr85myhyjq1j",
+        ".tmp/readwise/semantic-run-2026-10-11/current-later-content/01m4p9sea9w6bftxabgje31gtr.txt#content"
       ],
-      "judgedBy": "codex-semantic-review-2026-10-11-inbox",
-      "judgedAt": "2026-10-11T21:28:43.686Z"
+      "judgedBy": "codex-semantic-review-2026-10-12-inbox",
+      "judgedAt": "2026-10-12T05:02:46.000Z"
     },
     "01m4p9s67mac6ng02h64ftfz6s": {
       "sourceFingerprint": "cef7b636dcb500837c8695fc0fb698cfda3f5586acae177989cda0341c15323e",
-      "evidenceFingerprint": "34ddbc8b67714433091db0e1feb4fe8c475762689bcc98bde93b5ea340df4eb5",
+      "evidenceFingerprint": "31d6fc6330f9194cbd37891fd378dd2aaff0b67fcf6c5054e312d904d3cfae61",
       "relevance": 3,
       "substance": 2,
       "durability": 3,
@@ -88826,22 +88855,26 @@
       },
       "confidence": "medium",
       "reasonCodes": [
-        "semantic-review",
         "evidence:first-person-ai-safety-account",
-        "limitation:resignation essay, not an independent audit"
+        "limitation:resignation essay, not an independent audit",
+        "semantic-review"
       ],
       "status": "accepted",
       "rubricVersion": "semantic-v2",
       "evidenceRefs": [
-        ".tmp/readwise/semantic-run-2026-10-11/current-priority-evidence.json#documents.01m4p9s67mac6ng02h64ftfz6s",
-        ".tmp/readwise/semantic-run-2026-10-11/current-later-content/01m4p9s67mac6ng02h64ftfz6s.txt"
+        ".tmp/readwise/inbox-run-2026-10-12/semantic-run/current-priority-evidence.json#documents.01m4p9s67mac6ng02h64ftfz6s",
+        "reader-highlight:01m4pb9edbezkmkgtspvtpjd2f",
+        "reader-highlight:01m4phcz4j432m9ht3dfj4rdzq",
+        "reader-highlight:01m4phczy00zpaca3j6e0sgb6a",
+        "reader-highlight:01m4phd0q5sqmvthvhh626d07w",
+        ".tmp/readwise/semantic-run-2026-10-11/current-later-content/01m4p9s67mac6ng02h64ftfz6s.txt#content"
       ],
-      "judgedBy": "codex-semantic-review-2026-10-11-inbox",
-      "judgedAt": "2026-10-11T21:28:43.686Z"
+      "judgedBy": "codex-semantic-review-2026-10-12-inbox",
+      "judgedAt": "2026-10-12T05:02:46.000Z"
     },
     "01m4p9rtd8jpwhvzee6a0zwjgg": {
-      "sourceFingerprint": "64d552d9c690b2ada33cc95a0556c634168c83f859662e4864a62c2db94daa46",
-      "evidenceFingerprint": "a29c7109b117b3884bf338ed10bfded2ff68e3abb7aca72bf5517a0bbb2dda20",
+      "sourceFingerprint": "4d91e57f678edb1428733bff3d126935328dd5c9289866e9b2e04f6dc4883794",
+      "evidenceFingerprint": "164da2c3e51ba964581426a5985c05092f3436c8e3f308dc269ba6be2623b1cc",
       "relevance": 3,
       "substance": 2,
       "durability": 2,
@@ -88873,22 +88906,25 @@
       },
       "confidence": "medium",
       "reasonCodes": [
-        "semantic-review",
         "evidence:agent-coordination-and-management",
-        "limitation:examples are preliminary and experience-based"
+        "limitation:examples are preliminary and experience-based",
+        "semantic-review"
       ],
       "status": "accepted",
       "rubricVersion": "semantic-v2",
       "evidenceRefs": [
-        ".tmp/readwise/semantic-run-2026-10-11/current-priority-evidence.json#documents.01m4p9rtd8jpwhvzee6a0zwjgg",
-        ".tmp/readwise/semantic-run-2026-10-11/current-later-content/01m4p9rtd8jpwhvzee6a0zwjgg.txt"
+        ".tmp/readwise/inbox-run-2026-10-12/semantic-run/current-priority-evidence.json#documents.01m4p9rtd8jpwhvzee6a0zwjgg",
+        "reader-highlight:01m4pba9dawms059sc758xf5qz",
+        "reader-highlight:01m4phd1by4rdcftrv105vbbjj",
+        "reader-highlight:01m4phd26k9v5gns5hpe68zpvt",
+        ".tmp/readwise/semantic-run-2026-10-11/current-later-content/01m4p9rtd8jpwhvzee6a0zwjgg.txt#content"
       ],
-      "judgedBy": "codex-semantic-review-2026-10-11-inbox",
-      "judgedAt": "2026-10-11T21:28:43.686Z"
+      "judgedBy": "codex-semantic-review-2026-10-12-inbox",
+      "judgedAt": "2026-10-12T05:02:46.000Z"
     },
     "01m4p8h8zrsgrh4207r8eck67b": {
-      "sourceFingerprint": "11d08554b1d120bd620de62deafd19ea72466e7c361de1c19c8e955275eb327c",
-      "evidenceFingerprint": "aa6a3c3eaa5e3dad22bf6c727715e81a5d84aa368715cc7fc9947176fa37c9eb",
+      "sourceFingerprint": "0d6c908496391fb9b4581ad7b38ac0275ec1bc79128b1a024cdabb35a0e4602e",
+      "evidenceFingerprint": "343ca7105d28bafae72992bcc4a5dabdf7ce8ea85893d53363ebc7a6ad791002",
       "relevance": 2,
       "substance": 2,
       "durability": 3,
@@ -88920,22 +88956,25 @@
       },
       "confidence": "medium",
       "reasonCodes": [
-        "semantic-review",
         "evidence:technology-and-aesthetics",
-        "limitation:personal reading guide, with broad cultural generalizations"
+        "limitation:personal reading guide, with broad cultural generalizations",
+        "semantic-review"
       ],
       "status": "accepted",
       "rubricVersion": "semantic-v2",
       "evidenceRefs": [
-        ".tmp/readwise/semantic-run-2026-10-11/current-priority-evidence.json#documents.01m4p8h8zrsgrh4207r8eck67b",
-        ".tmp/readwise/semantic-run-2026-10-11/current-later-content/01m4p8h8zrsgrh4207r8eck67b.txt"
+        ".tmp/readwise/inbox-run-2026-10-12/semantic-run/current-priority-evidence.json#documents.01m4p8h8zrsgrh4207r8eck67b",
+        "reader-highlight:01m4pbcj3pye471ybags9tnf1k",
+        "reader-highlight:01m4phd2wkd9etb37v0ajdx8c3",
+        "reader-highlight:01m4phd3kz0qpdmbkp8kjsk7zr",
+        ".tmp/readwise/semantic-run-2026-10-11/current-later-content/01m4p8h8zrsgrh4207r8eck67b.txt#content"
       ],
-      "judgedBy": "codex-semantic-review-2026-10-11-inbox",
-      "judgedAt": "2026-10-11T21:28:43.686Z"
+      "judgedBy": "codex-semantic-review-2026-10-12-inbox",
+      "judgedAt": "2026-10-12T05:02:46.000Z"
     },
     "01m4p4c94c877x3sr5mdccawys": {
       "sourceFingerprint": "676d1306aa62ceabb701ef49a7b010946aacddbe203af49a6c6c5431db34aced",
-      "evidenceFingerprint": "245a5ec11f63c4ebfa7e1612f352daa2bb38b114e8c7da1b251e1c6081649310",
+      "evidenceFingerprint": "02649cde6e53de892e0ceda5a5b9e5c21c346af49bec120dba800949e99b6425",
       "relevance": 3,
       "substance": 4,
       "durability": 3,
@@ -88963,26 +89002,31 @@
         "front-end-development": 0,
         "social-studies": 1,
         "adhd": 0,
-        "philosophy": 2
+        "philosophy": 1
       },
       "confidence": "medium",
       "reasonCodes": [
-        "semantic-review",
         "evidence:formal-verification-and-trust",
-        "limitation:author marks factual uncertainty; focused technical subject"
+        "limitation:author marks factual uncertainty; focused technical subject",
+        "preference:technical-ai-philosophy-deemphasized",
+        "semantic-review"
       ],
       "status": "accepted",
       "rubricVersion": "semantic-v2",
       "evidenceRefs": [
-        ".tmp/readwise/semantic-run-2026-10-11/current-priority-evidence.json#documents.01m4p4c94c877x3sr5mdccawys",
-        ".tmp/readwise/semantic-run-2026-10-11/current-later-content/01m4p4c94c877x3sr5mdccawys.txt"
+        ".tmp/readwise/inbox-run-2026-10-12/semantic-run/current-priority-evidence.json#documents.01m4p4c94c877x3sr5mdccawys",
+        "reader-highlight:01m4p98a1wnxm8djvyz5gmmmcc",
+        "reader-highlight:01m4p98ayvv148hk17q0r2vp68",
+        "reader-highlight:01m4p98bv6vb5krb6tj2gdmj4y",
+        "reader-highlight:01m4phd4gteb3gz12a3c3hpvp0",
+        ".tmp/readwise/semantic-run-2026-10-11/current-later-content/01m4p4c94c877x3sr5mdccawys.txt#content"
       ],
-      "judgedBy": "codex-semantic-review-2026-10-11-inbox",
-      "judgedAt": "2026-10-11T21:28:43.686Z"
+      "judgedBy": "codex-semantic-review-2026-10-12-inbox",
+      "judgedAt": "2026-10-12T05:02:46.000Z"
     },
     "01m4p1t972edcqaednwr7jmwvq": {
       "sourceFingerprint": "e977b4de524286725456e0b477de91c03db40d9d483de6cdaa461106dfadd735",
-      "evidenceFingerprint": "b71b5ebe19a902ba72f594984653a6e738373aeeee299d1efb7fbc60359ae47d",
+      "evidenceFingerprint": "162dafe131baff9cc9fd2ccbca8681322135f6cc396f34680546270a2df84f2a",
       "relevance": 3,
       "substance": 3,
       "durability": 3,
@@ -89014,16 +89058,21 @@
       },
       "confidence": "medium",
       "reasonCodes": [
-        "semantic-review",
-        "evidence:labor-migration-and-integration"
+        "evidence:labor-migration-and-integration",
+        "semantic-review"
       ],
       "status": "accepted",
       "rubricVersion": "semantic-v2",
       "evidenceRefs": [
-        ".tmp/readwise/semantic-run-2026-10-11/current-priority-evidence.json#documents.01m4p1t972edcqaednwr7jmwvq"
+        ".tmp/readwise/inbox-run-2026-10-12/semantic-run/current-priority-evidence.json#documents.01m4p1t972edcqaednwr7jmwvq",
+        "reader-highlight:01m4pa33vs81vm4ess2fyez0gv",
+        "reader-highlight:01m4pa361xze9e1e8ecz9bv6jw",
+        "reader-highlight:01m4phd67q6yay1xy01zs4byne",
+        "reader-highlight:01m4phd6sfbxmqaxbj33geg829",
+        ".tmp/readwise/inbox-run-2026-10-12/semantic-run/missing-content-source-details.json#01m4p1t972edcqaednwr7jmwvq.content"
       ],
-      "judgedBy": "codex-semantic-review-2026-10-11-inbox",
-      "judgedAt": "2026-10-11T21:28:43.686Z"
+      "judgedBy": "codex-semantic-review-2026-10-12-inbox",
+      "judgedAt": "2026-10-12T05:02:46.000Z"
     },
     "01m4ny01vqj9zf6y2qc6s2v79r": {
       "sourceFingerprint": "a0ed97b9f234757e9b1a4488449adb5c1c4804c6693cf21d1e5faa064b9c813a",
@@ -89074,7 +89123,7 @@
     },
     "01m4ng4r538mxfg5e5wbwp4rns": {
       "sourceFingerprint": "f27f4b2772cedf4e40ebafbde81380a915db36c1ebf8bf854e35982311ed9a84",
-      "evidenceFingerprint": "969a85aca5c4b439f0b94cc6a2714f67cc9eb758b4951f798829b96e8b500d20",
+      "evidenceFingerprint": "8ec2da6f7b41d248adbde335579702fd0b019f8b03378a87e9a4d732173e94e8",
       "relevance": 2,
       "substance": 1,
       "durability": 1,
@@ -89106,22 +89155,24 @@
       },
       "confidence": "medium",
       "reasonCodes": [
-        "semantic-review",
         "evidence:political-satire-and-forecasting",
-        "limitation:time-bound satire rather than reporting"
+        "limitation:time-bound satire rather than reporting",
+        "semantic-review"
       ],
       "status": "accepted",
       "rubricVersion": "semantic-v2",
       "evidenceRefs": [
-        ".tmp/readwise/semantic-run-2026-10-11/current-priority-evidence.json#documents.01m4ng4r538mxfg5e5wbwp4rns",
-        ".tmp/readwise/semantic-run-2026-10-11/current-later-content/01m4ng4r538mxfg5e5wbwp4rns.txt"
+        ".tmp/readwise/inbox-run-2026-10-12/semantic-run/current-priority-evidence.json#documents.01m4ng4r538mxfg5e5wbwp4rns",
+        "reader-highlight:01m4ny58z8ccwtqkjvevt5wjy7",
+        "reader-highlight:01m4phd7ybak653c7m47mpf7gy",
+        ".tmp/readwise/semantic-run-2026-10-11/current-later-content/01m4ng4r538mxfg5e5wbwp4rns.txt#content"
       ],
-      "judgedBy": "codex-semantic-review-2026-10-11-inbox",
-      "judgedAt": "2026-10-11T21:28:43.686Z"
+      "judgedBy": "codex-semantic-review-2026-10-12-inbox",
+      "judgedAt": "2026-10-12T05:02:46.000Z"
     },
     "01m4ndxp8dzefsnzd6t9s68sz2": {
       "sourceFingerprint": "b78b9a0ab1870aab446c3f7a1d36298ec8952a4f6a721323d9213dce1cf33396",
-      "evidenceFingerprint": "a4de1351c57ddeed60f0f3af5860eede81b45d9568e4d4544bd47360692f188f",
+      "evidenceFingerprint": "d5b102565f1c311eb0332cc8a6cb14e0ddd1a50b47705ba113abd9346cc3733e",
       "relevance": 3,
       "substance": 2,
       "durability": 3,
@@ -89153,17 +89204,21 @@
       },
       "confidence": "high",
       "reasonCodes": [
-        "semantic-review",
-        "evidence:child-moral-development"
+        "evidence:child-moral-development",
+        "semantic-review"
       ],
       "status": "accepted",
       "rubricVersion": "semantic-v2",
       "evidenceRefs": [
-        ".tmp/readwise/semantic-run-2026-10-11/current-priority-evidence.json#documents.01m4ndxp8dzefsnzd6t9s68sz2",
-        ".tmp/readwise/semantic-run-2026-10-11/current-later-content/01m4ndxp8dzefsnzd6t9s68sz2.txt"
+        ".tmp/readwise/inbox-run-2026-10-12/semantic-run/current-priority-evidence.json#documents.01m4ndxp8dzefsnzd6t9s68sz2",
+        "reader-highlight:01m4ny5b24jhk7af58g2jxn8bw",
+        "reader-highlight:01m4ny5c8ck9tq49wdqwg5enpw",
+        "reader-highlight:01m4ny5cxffy5k8g2przw9878e",
+        "reader-highlight:01m4phd8g95n6mghmy8j1hd7tv",
+        ".tmp/readwise/semantic-run-2026-10-11/current-later-content/01m4ndxp8dzefsnzd6t9s68sz2.txt#content"
       ],
-      "judgedBy": "codex-semantic-review-2026-10-11-inbox",
-      "judgedAt": "2026-10-11T21:28:43.686Z"
+      "judgedBy": "codex-semantic-review-2026-10-12-inbox",
+      "judgedAt": "2026-10-12T05:02:46.000Z"
     },
     "01m4nafgf3ar5ace8hc25fx49p": {
       "sourceFingerprint": "a3c44c858a15b4f1f57b381b7ef848406cb75f68137ce0c45a249917e8814ecf",
@@ -89214,7 +89269,7 @@
     },
     "01m4nafcf8f0v2ekzt506gamvf": {
       "sourceFingerprint": "fbc12f08c2346078446520ddf049dbc5b0b3dc504d59f78ad0352ae6be81d25e",
-      "evidenceFingerprint": "b07859284ba9c742715627ba018c2a0d6eb7077de2167211255b26284d17d8bd",
+      "evidenceFingerprint": "bd7237126ee1f9da696450e451195ab4ff647e022f6e7be5a99e4f262cd98ca3",
       "relevance": 2,
       "substance": 2,
       "durability": 3,
@@ -89246,22 +89301,25 @@
       },
       "confidence": "medium",
       "reasonCodes": [
-        "semantic-review",
         "evidence:android-privacy-study",
-        "limitation:short report anchored in one linked study"
+        "limitation:short report anchored in one linked study",
+        "semantic-review"
       ],
       "status": "accepted",
       "rubricVersion": "semantic-v2",
       "evidenceRefs": [
-        ".tmp/readwise/semantic-run-2026-10-11/current-priority-evidence.json#documents.01m4nafcf8f0v2ekzt506gamvf",
-        ".tmp/readwise/semantic-run-2026-10-11/current-later-content/01m4nafcf8f0v2ekzt506gamvf.txt"
+        ".tmp/readwise/inbox-run-2026-10-12/semantic-run/current-priority-evidence.json#documents.01m4nafcf8f0v2ekzt506gamvf",
+        "reader-highlight:01m4nxnjfv24k079edegwjtzcn",
+        "reader-highlight:01m4p9jvsz4wca17z4vnsa80yx",
+        "reader-highlight:01m4phd93a88j4v4h29znxs1j0",
+        ".tmp/readwise/semantic-run-2026-10-11/current-later-content/01m4nafcf8f0v2ekzt506gamvf.txt#content"
       ],
-      "judgedBy": "codex-semantic-review-2026-10-11-inbox",
-      "judgedAt": "2026-10-11T21:28:43.686Z"
+      "judgedBy": "codex-semantic-review-2026-10-12-inbox",
+      "judgedAt": "2026-10-12T05:02:46.000Z"
     },
     "01m4naf8j8tsrncf6h78g8f668": {
       "sourceFingerprint": "fe418e4f34e120091266d1b96557514d247f6a376f5c7ccf4129e75e53785e17",
-      "evidenceFingerprint": "e5d1e56bd08aa6f23bd7496d771a10bdc71a20c9929b0063aebd1fff498649e2",
+      "evidenceFingerprint": "9163e88110db1595d3c539305c1742b763fba9d66d21853a32da7b1a733f28e7",
       "relevance": 3,
       "substance": 2,
       "durability": 3,
@@ -89293,18 +89351,22 @@
       },
       "confidence": "high",
       "reasonCodes": [
-        "semantic-review",
         "evidence:education-purpose-and-socialization",
-        "limitation:conceptual interview rather than classroom technique"
+        "limitation:conceptual interview rather than classroom technique",
+        "semantic-review"
       ],
       "status": "accepted",
       "rubricVersion": "semantic-v2",
       "evidenceRefs": [
-        ".tmp/readwise/semantic-run-2026-10-11/current-priority-evidence.json#documents.01m4naf8j8tsrncf6h78g8f668",
-        ".tmp/readwise/semantic-run-2026-10-11/current-later-content/01m4naf8j8tsrncf6h78g8f668.txt"
+        ".tmp/readwise/inbox-run-2026-10-12/semantic-run/current-priority-evidence.json#documents.01m4naf8j8tsrncf6h78g8f668",
+        "reader-highlight:01m4nxnk6j4pa2t8pgg2zrhb3b",
+        "reader-highlight:01m4nxnmja0vycgkde3vzmz4rp",
+        "reader-highlight:01m4nxnn1mf9kct02qbn76e50x",
+        "reader-highlight:01m4nxnnhjncv1tcz2kzdb2f4x",
+        ".tmp/readwise/semantic-run-2026-10-11/current-later-content/01m4naf8j8tsrncf6h78g8f668.txt#content"
       ],
-      "judgedBy": "codex-semantic-review-2026-10-11-inbox",
-      "judgedAt": "2026-10-11T21:28:43.686Z"
+      "judgedBy": "codex-semantic-review-2026-10-12-inbox",
+      "judgedAt": "2026-10-12T05:02:46.000Z"
     },
     "01m4naekrc0rdhk2rjqjgfn1zx": {
       "sourceFingerprint": "b06469f66a2abdc7ab29488cfa38ede8acd83d8cd496aecb4a97ccd6f1d858b8",
@@ -89354,7 +89416,7 @@
     },
     "01m4naegea5rqcjv9x988m1ak4": {
       "sourceFingerprint": "fd92aa8466931c4ab98df4dd5e4dc4624491e52bd2e76d08ca9c467b330b5927",
-      "evidenceFingerprint": "e12c68e37c31836f67f2a85979945c89188612720aade6846e4f7a0a7c244721",
+      "evidenceFingerprint": "716d61dcc19bd91c25d96372344a0b968ddc8c1a3c7b6d25c115d2414e7a539c",
       "relevance": 4,
       "substance": 3,
       "durability": 3,
@@ -89386,17 +89448,21 @@
       },
       "confidence": "high",
       "reasonCodes": [
-        "semantic-review",
-        "evidence:organizational-context-and-autonomy"
+        "evidence:organizational-context-and-autonomy",
+        "semantic-review"
       ],
       "status": "accepted",
       "rubricVersion": "semantic-v2",
       "evidenceRefs": [
-        ".tmp/readwise/semantic-run-2026-10-11/current-priority-evidence.json#documents.01m4naegea5rqcjv9x988m1ak4",
-        ".tmp/readwise/semantic-run-2026-10-11/current-later-content/01m4naegea5rqcjv9x988m1ak4.txt"
+        ".tmp/readwise/inbox-run-2026-10-12/semantic-run/current-priority-evidence.json#documents.01m4naegea5rqcjv9x988m1ak4",
+        "reader-highlight:01m4nxqpenmpe8teqrn4n7yhbg",
+        "reader-highlight:01m4nxqq0ev5sc1pey8fpe5e5r",
+        "reader-highlight:01m4nxqqgvppdtz4z9p2rrbtkq",
+        "reader-highlight:01m4pafh0sz44epp51crg116h1",
+        ".tmp/readwise/semantic-run-2026-10-11/current-later-content/01m4naegea5rqcjv9x988m1ak4.txt#content"
       ],
-      "judgedBy": "codex-semantic-review-2026-10-11-inbox",
-      "judgedAt": "2026-10-11T21:28:43.686Z"
+      "judgedBy": "codex-semantic-review-2026-10-12-inbox",
+      "judgedAt": "2026-10-12T05:02:46.000Z"
     },
     "01m4naee920e4qrgqze303jwap": {
       "sourceFingerprint": "536562f30908cec6bd9fffb376e6a578da5a965d1c8f816bc1d2b561c223af04",
@@ -89446,7 +89512,7 @@
     },
     "01m4nae1rj24j288t1g5331syv": {
       "sourceFingerprint": "3d4329b86004f2d6315eb8e17205cdd42516a920417b0eff6afc9dc776462fce",
-      "evidenceFingerprint": "f3b1211d888e53ee5a5c5b40a582d71e707eef6f56e4e96342a419e86ce5ddca",
+      "evidenceFingerprint": "9a91c2e5e3609e8c43fb866d2c9ddf7f315ee0b4f9cec434198e23702d10b671",
       "relevance": 3,
       "substance": 2,
       "durability": 2,
@@ -89478,22 +89544,25 @@
       },
       "confidence": "medium",
       "reasonCodes": [
-        "semantic-review",
         "evidence:decentralized-agile-coaching-model",
-        "limitation:2015 self-reported case and projections"
+        "limitation:2015 self-reported case and projections",
+        "semantic-review"
       ],
       "status": "accepted",
       "rubricVersion": "semantic-v2",
       "evidenceRefs": [
-        ".tmp/readwise/semantic-run-2026-10-11/current-priority-evidence.json#documents.01m4nae1rj24j288t1g5331syv",
-        ".tmp/readwise/semantic-run-2026-10-11/current-later-content/01m4nae1rj24j288t1g5331syv.txt"
+        ".tmp/readwise/inbox-run-2026-10-12/semantic-run/current-priority-evidence.json#documents.01m4nae1rj24j288t1g5331syv",
+        "reader-highlight:01m4pakjg6d8770m6hnj6a2sa3",
+        "reader-highlight:01m4phdbj9rhdgbx3cfxpqf4r1",
+        "reader-highlight:01m4phdc4mvc6zke9ae3xyyxwj",
+        ".tmp/readwise/semantic-run-2026-10-11/current-later-content/01m4nae1rj24j288t1g5331syv.txt#content"
       ],
-      "judgedBy": "codex-semantic-review-2026-10-11-inbox",
-      "judgedAt": "2026-10-11T21:28:43.686Z"
+      "judgedBy": "codex-semantic-review-2026-10-12-inbox",
+      "judgedAt": "2026-10-12T05:02:46.000Z"
     },
     "01m4nadx0qvz5gb1wqgrp2h131": {
       "sourceFingerprint": "5dfa485cab63c025387e219dc9a18e3c86fe91497f4317f2cfecfb4171c673fe",
-      "evidenceFingerprint": "8ce2641236dc60795e91ca633187ca3f8a2ab5495b13da12b00552718eda40c6",
+      "evidenceFingerprint": "f235291441fcbcabfe0a4831f0097b47aff1b9e8668eca9debce729daf9e7018",
       "relevance": 4,
       "substance": 3,
       "durability": 4,
@@ -89525,21 +89594,25 @@
       },
       "confidence": "high",
       "reasonCodes": [
-        "semantic-review",
-        "evidence:internet-platform-power-and-appeal"
+        "evidence:internet-platform-power-and-appeal",
+        "semantic-review"
       ],
       "status": "accepted",
       "rubricVersion": "semantic-v2",
       "evidenceRefs": [
-        ".tmp/readwise/semantic-run-2026-10-11/current-priority-evidence.json#documents.01m4nadx0qvz5gb1wqgrp2h131",
-        ".tmp/readwise/semantic-run-2026-10-11/current-later-content/01m4nadx0qvz5gb1wqgrp2h131.txt"
+        ".tmp/readwise/inbox-run-2026-10-12/semantic-run/current-priority-evidence.json#documents.01m4nadx0qvz5gb1wqgrp2h131",
+        "reader-highlight:01m4nxwg8dwfhe2jbfev8rdz8y",
+        "reader-highlight:01m4nxwh02gj2nmey5xrz89w53",
+        "reader-highlight:01m4nxwhgbxd8mraar5mp38j4x",
+        "reader-highlight:01m4panacqfnr895dw2nrrrdtq",
+        ".tmp/readwise/semantic-run-2026-10-11/current-later-content/01m4nadx0qvz5gb1wqgrp2h131.txt#content"
       ],
-      "judgedBy": "codex-semantic-review-2026-10-11-inbox",
-      "judgedAt": "2026-10-11T21:28:43.686Z"
+      "judgedBy": "codex-semantic-review-2026-10-12-inbox",
+      "judgedAt": "2026-10-12T05:02:46.000Z"
     },
     "01m4nadrf6wzyjqr22f0vqn4h6": {
       "sourceFingerprint": "d314a7ccdc319e873e5562cd304a636e5f52525aa7d507512fa9c7b01fd7ecf6",
-      "evidenceFingerprint": "0fcc88f36576beb07cd31308efd139fc0d780a090e8623c86998894ec8590492",
+      "evidenceFingerprint": "0beffcc32bdf779da1cda88f4de667b78363abde6307a2233786615ef16c1f8e",
       "relevance": 4,
       "substance": 3,
       "durability": 4,
@@ -89571,21 +89644,25 @@
       },
       "confidence": "high",
       "reasonCodes": [
-        "semantic-review",
-        "evidence:software-supply-chain-complexity"
+        "evidence:software-supply-chain-complexity",
+        "semantic-review"
       ],
       "status": "accepted",
       "rubricVersion": "semantic-v2",
       "evidenceRefs": [
-        ".tmp/readwise/semantic-run-2026-10-11/current-priority-evidence.json#documents.01m4nadrf6wzyjqr22f0vqn4h6",
-        ".tmp/readwise/semantic-run-2026-10-11/current-later-content/01m4nadrf6wzyjqr22f0vqn4h6.txt"
+        ".tmp/readwise/inbox-run-2026-10-12/semantic-run/current-priority-evidence.json#documents.01m4nadrf6wzyjqr22f0vqn4h6",
+        "reader-highlight:01m4nxwj6md782yyvngc139vcf",
+        "reader-highlight:01m4nxwkssnbzh10a2n2th7vek",
+        "reader-highlight:01m4parn5kxqh3tden5sepej9n",
+        "reader-highlight:01m4phdft0ytm7pe1qzdm7ts1c",
+        ".tmp/readwise/semantic-run-2026-10-11/current-later-content/01m4nadrf6wzyjqr22f0vqn4h6.txt#content"
       ],
-      "judgedBy": "codex-semantic-review-2026-10-11-inbox",
-      "judgedAt": "2026-10-11T21:28:43.686Z"
+      "judgedBy": "codex-semantic-review-2026-10-12-inbox",
+      "judgedAt": "2026-10-12T05:02:46.000Z"
     },
     "01m4nadhks3ntqgr7bfp0140dv": {
-      "sourceFingerprint": "8a06b5077d7d5430f760a526185d2312a5e4ef123c3914e2a167f2c8f62dd6e5",
-      "evidenceFingerprint": "83abcd5f68f9065af7e2b21fa03a71d035056dcbda960ed83e4711463ac5a8da",
+      "sourceFingerprint": "27dab0842202b1e321a4467a255f4f60b22d73d65f8d3cfccf87f6a1b55a917f",
+      "evidenceFingerprint": "7f8e260497d82d54abcce7a998b017ac6a13fe73246d7af1856c5f0c3909fe6d",
       "relevance": 2,
       "substance": 3,
       "durability": 3,
@@ -89617,22 +89694,26 @@
       },
       "confidence": "medium",
       "reasonCodes": [
-        "semantic-review",
         "evidence:evidence-informed-pedagogy",
-        "limitation:education-specific practice receives lower personal relevance"
+        "limitation:education-specific practice receives lower personal relevance",
+        "semantic-review"
       ],
       "status": "accepted",
       "rubricVersion": "semantic-v2",
       "evidenceRefs": [
-        ".tmp/readwise/semantic-run-2026-10-11/current-priority-evidence.json#documents.01m4nadhks3ntqgr7bfp0140dv",
-        ".tmp/readwise/semantic-run-2026-10-11/current-later-content/01m4nadhks3ntqgr7bfp0140dv.txt"
+        ".tmp/readwise/inbox-run-2026-10-12/semantic-run/current-priority-evidence.json#documents.01m4nadhks3ntqgr7bfp0140dv",
+        "reader-highlight:01m4nxygawvxpm2778nxb6j45m",
+        "reader-highlight:01m4nxygwz33zmfajzb2ayz6nm",
+        "reader-highlight:01m4nxyjh06sjer728xetv0e17",
+        "reader-highlight:01m4pasktjawt7zap8pfbtcb0b",
+        ".tmp/readwise/semantic-run-2026-10-11/current-later-content/01m4nadhks3ntqgr7bfp0140dv.txt#content"
       ],
-      "judgedBy": "codex-semantic-review-2026-10-11-inbox",
-      "judgedAt": "2026-10-11T21:28:43.686Z"
+      "judgedBy": "codex-semantic-review-2026-10-12-inbox",
+      "judgedAt": "2026-10-12T05:02:46.000Z"
     },
     "01m4nadeq8frfs5zyxrrdhgssn": {
-      "sourceFingerprint": "b10c122738ed583bb6f892d94330990f7c50ebc60f53ab42908f95b6d0fff092",
-      "evidenceFingerprint": "5d0433c29d3e0bb9c98b483d4cd7a31ec3541e2aa5ef99d4b093c9d4bda793e7",
+      "sourceFingerprint": "8b97d75ddcb6f051d90b2a5741821d98c68acc2f8571d7dd00d3233c9b7abc8b",
+      "evidenceFingerprint": "6ad3e71179a2ea770690998259175132ffd4e0da86e3c00d67585e13a9e83b61",
       "relevance": 1,
       "substance": 1,
       "durability": 2,
@@ -89664,18 +89745,22 @@
       },
       "confidence": "medium",
       "reasonCodes": [
-        "semantic-review",
         "evidence:research-literacy-recommendation",
-        "limitation:short policy summary; full argument is in the linked report"
+        "limitation:short policy summary; full argument is in the linked report",
+        "semantic-review"
       ],
       "status": "accepted",
       "rubricVersion": "semantic-v2",
       "evidenceRefs": [
-        ".tmp/readwise/semantic-run-2026-10-11/current-priority-evidence.json#documents.01m4nadeq8frfs5zyxrrdhgssn",
-        ".tmp/readwise/semantic-run-2026-10-11/current-later-content/01m4nadeq8frfs5zyxrrdhgssn.txt"
+        ".tmp/readwise/inbox-run-2026-10-12/semantic-run/current-priority-evidence.json#documents.01m4nadeq8frfs5zyxrrdhgssn",
+        "reader-highlight:01m4nxyk1zzdfmh3m8kkx0rxeg",
+        "reader-highlight:01m4nxykk8z2kb2ektyw5f2eny",
+        "reader-highlight:01m4nxym1w5asbx8m9bnxgb9kn",
+        "reader-highlight:01m4phdhm7c44r2xwsd70a4sq4",
+        ".tmp/readwise/semantic-run-2026-10-11/current-later-content/01m4nadeq8frfs5zyxrrdhgssn.txt#content"
       ],
-      "judgedBy": "codex-semantic-review-2026-10-11-inbox",
-      "judgedAt": "2026-10-11T21:28:43.686Z"
+      "judgedBy": "codex-semantic-review-2026-10-12-inbox",
+      "judgedAt": "2026-10-12T05:02:46.000Z"
     },
     "01m4nacxcb9djs8axhye86n2gf": {
       "sourceFingerprint": "531861316966ff91d13dea09b9a9479f4fcc5c49636ccb483af7281bfcb66727",
@@ -89724,8 +89809,8 @@
       "judgedAt": "2026-10-11T21:28:43.686Z"
     },
     "01m4nacvkv1gav6fj7zw2zm3m4": {
-      "sourceFingerprint": "9847c4bd3156b986426ba0cffa393810efb2f4bee2d7dc9ae26b5bfe24a3833f",
-      "evidenceFingerprint": "393042ab835bd72adc0dfbc46b09c99f1644a8f7bc3251d9b17f4f47c22899aa",
+      "sourceFingerprint": "1e493b46927015b1bb394a247cb96e93ebabf1afdf1b4e5f564c8ec264756edf",
+      "evidenceFingerprint": "4fc740d0441cb79194f31c2acfc7f5d704a01463455743d3fcfa615be8202c6a",
       "relevance": 2,
       "substance": 1,
       "durability": 2,
@@ -89757,22 +89842,25 @@
       },
       "confidence": "medium",
       "reasonCodes": [
-        "semantic-review",
         "evidence:literary-archive-announcement",
-        "limitation:announcement points to primary material but offers little analysis"
+        "limitation:announcement points to primary material but offers little analysis",
+        "semantic-review"
       ],
       "status": "accepted",
       "rubricVersion": "semantic-v2",
       "evidenceRefs": [
-        ".tmp/readwise/semantic-run-2026-10-11/current-priority-evidence.json#documents.01m4nacvkv1gav6fj7zw2zm3m4",
-        ".tmp/readwise/semantic-run-2026-10-11/current-later-content/01m4nacvkv1gav6fj7zw2zm3m4.txt"
+        ".tmp/readwise/inbox-run-2026-10-12/semantic-run/current-priority-evidence.json#documents.01m4nacvkv1gav6fj7zw2zm3m4",
+        "reader-highlight:01m4ny1803mqeybvebsz94bg0v",
+        "reader-highlight:01m4ny18n37a38btjp0cxg5stg",
+        "reader-highlight:01m4phdj5sxmqapr4sbzz4pq4s",
+        ".tmp/readwise/semantic-run-2026-10-11/current-later-content/01m4nacvkv1gav6fj7zw2zm3m4.txt#content"
       ],
-      "judgedBy": "codex-semantic-review-2026-10-11-inbox",
-      "judgedAt": "2026-10-11T21:28:43.686Z"
+      "judgedBy": "codex-semantic-review-2026-10-12-inbox",
+      "judgedAt": "2026-10-12T05:02:46.000Z"
     },
     "01m4nacs7aah2r82z2c42yypfn": {
       "sourceFingerprint": "1bbeb20eeb5887a27738d938d973d48550c6cb941395e8d9b75edc7d4cd810d4",
-      "evidenceFingerprint": "d8969b076ec40726b143e9b6588b8f7e7cadf6515973e84b25add5d27d34e836",
+      "evidenceFingerprint": "9d95f0ed226d625665f9e18569be0c2d802cea0055e9db08e6b3852953a1a54e",
       "relevance": 4,
       "substance": 3,
       "durability": 3,
@@ -89804,22 +89892,25 @@
       },
       "confidence": "medium",
       "reasonCodes": [
-        "semantic-review",
         "evidence:human-guided-ai-systems-work",
-        "limitation:single practitioner's conference account"
+        "limitation:single practitioner's conference account",
+        "semantic-review"
       ],
       "status": "accepted",
       "rubricVersion": "semantic-v2",
       "evidenceRefs": [
-        ".tmp/readwise/semantic-run-2026-10-11/current-priority-evidence.json#documents.01m4nacs7aah2r82z2c42yypfn",
-        ".tmp/readwise/semantic-run-2026-10-11/current-later-content/01m4nacs7aah2r82z2c42yypfn.txt"
+        ".tmp/readwise/inbox-run-2026-10-12/semantic-run/current-priority-evidence.json#documents.01m4nacs7aah2r82z2c42yypfn",
+        "reader-highlight:01m4ny2tv4e02h4jjz8tqksmbb",
+        "reader-highlight:01m4pb0e8xay07evx951v9enyx",
+        "reader-highlight:01m4phdjxp1q1280rxaxhx6a37",
+        ".tmp/readwise/semantic-run-2026-10-11/current-later-content/01m4nacs7aah2r82z2c42yypfn.txt#content"
       ],
-      "judgedBy": "codex-semantic-review-2026-10-11-inbox",
-      "judgedAt": "2026-10-11T21:28:43.686Z"
+      "judgedBy": "codex-semantic-review-2026-10-12-inbox",
+      "judgedAt": "2026-10-12T05:02:46.000Z"
     },
     "01m4nack50dtk3prsb4twstexr": {
-      "sourceFingerprint": "c11bc4eed6ef818c96f40091a2741de3734c8ef06a56a66f40dabf0b8452af2e",
-      "evidenceFingerprint": "6173915a5c56a8b5e139330da2d14cfa40daaae9e34f04814dc11558635e2586",
+      "sourceFingerprint": "730c20fd1d1244f0484f61cb4e2842e61e2f0929992d689f0ecc0de68cbc9919",
+      "evidenceFingerprint": "5669d3e56d2d88e5429221918f859d78a4d13628015095e085f916ebfe89b469",
       "relevance": 4,
       "substance": 2,
       "durability": 3,
@@ -89851,22 +89942,26 @@
       },
       "confidence": "medium",
       "reasonCodes": [
-        "semantic-review",
         "evidence:junior-learning-pipeline",
-        "limitation:interviewed speaker's claims need source-study checks"
+        "limitation:interviewed speaker's claims need source-study checks",
+        "semantic-review"
       ],
       "status": "accepted",
       "rubricVersion": "semantic-v2",
       "evidenceRefs": [
-        ".tmp/readwise/semantic-run-2026-10-11/current-priority-evidence.json#documents.01m4nack50dtk3prsb4twstexr",
-        ".tmp/readwise/semantic-run-2026-10-11/current-later-content/01m4nack50dtk3prsb4twstexr.txt"
+        ".tmp/readwise/inbox-run-2026-10-12/semantic-run/current-priority-evidence.json#documents.01m4nack50dtk3prsb4twstexr",
+        "reader-highlight:01m4ny2ybkpp5fwfkn6pv43bzf",
+        "reader-highlight:01m4ny2yxssws025xbnhz52vza",
+        "reader-highlight:01m4ny30d0bkw95t09x6wbf12a",
+        "reader-highlight:01m4phdkf42dgjt7rvs5g6m3x2",
+        ".tmp/readwise/semantic-run-2026-10-11/current-later-content/01m4nack50dtk3prsb4twstexr.txt#content"
       ],
-      "judgedBy": "codex-semantic-review-2026-10-11-inbox",
-      "judgedAt": "2026-10-11T21:28:43.686Z"
+      "judgedBy": "codex-semantic-review-2026-10-12-inbox",
+      "judgedAt": "2026-10-12T05:02:46.000Z"
     },
     "01m4nacccj48ymre0ys026d4mw": {
       "sourceFingerprint": "791a65b8d29591317fda640b278ae5d551dbe9948c9a96a7dbe5f6726471bf7d",
-      "evidenceFingerprint": "fb1c05301b410c22585d1c6793b5aa3e8e5377d4bb9a1235a15ef302eefec83f",
+      "evidenceFingerprint": "0ddd6983893066b4449323a354e97c86a4752bc84b125358f396116d31d03bce",
       "relevance": 4,
       "substance": 2,
       "durability": 3,
@@ -89898,21 +89993,24 @@
       },
       "confidence": "high",
       "reasonCodes": [
-        "semantic-review",
-        "evidence:feature-toggle-lifecycle"
+        "evidence:feature-toggle-lifecycle",
+        "semantic-review"
       ],
       "status": "accepted",
       "rubricVersion": "semantic-v2",
       "evidenceRefs": [
-        ".tmp/readwise/semantic-run-2026-10-11/current-priority-evidence.json#documents.01m4nacccj48ymre0ys026d4mw",
-        ".tmp/readwise/semantic-run-2026-10-11/current-later-content/01m4nacccj48ymre0ys026d4mw.txt"
+        ".tmp/readwise/inbox-run-2026-10-12/semantic-run/current-priority-evidence.json#documents.01m4nacccj48ymre0ys026d4mw",
+        "reader-highlight:01m4pbjy5zezqaf0ryzyn1gnrx",
+        "reader-highlight:01m4phdnbfw84arskskypbq9d0",
+        "reader-highlight:01m4phdnwzpv7anbdnjkbp68m7",
+        ".tmp/readwise/semantic-run-2026-10-11/current-later-content/01m4nacccj48ymre0ys026d4mw.txt#content"
       ],
-      "judgedBy": "codex-semantic-review-2026-10-11-inbox",
-      "judgedAt": "2026-10-11T21:28:43.686Z"
+      "judgedBy": "codex-semantic-review-2026-10-12-inbox",
+      "judgedAt": "2026-10-12T05:02:46.000Z"
     },
     "01m4nacad5qn50bd8ekr61hn99": {
-      "sourceFingerprint": "50ed3b062ac77424b0bd1235840772e240f364167979706e3038cbe9e37d48dc",
-      "evidenceFingerprint": "e69ea35f6c61d721371504e512ac02fa5f6c6b6a576e52b6474e297aef3c904a",
+      "sourceFingerprint": "cd49a8864fbf1b256556c35fc6d659f48cfca11e9f06548e5a999b53693bb165",
+      "evidenceFingerprint": "4a65a886cf134b9b660f6e1fce81fc0b3f5cfa7f583dbf0c79287d75df1923d2",
       "relevance": 4,
       "substance": 2,
       "durability": 3,
@@ -89944,22 +90042,25 @@
       },
       "confidence": "medium",
       "reasonCodes": [
-        "semantic-review",
         "evidence:platform-team-collaboration",
-        "limitation:practitioner recommendations; implementation depends on agreed intake"
+        "limitation:practitioner recommendations; implementation depends on agreed intake",
+        "semantic-review"
       ],
       "status": "accepted",
       "rubricVersion": "semantic-v2",
       "evidenceRefs": [
-        ".tmp/readwise/semantic-run-2026-10-11/current-priority-evidence.json#documents.01m4nacad5qn50bd8ekr61hn99",
-        ".tmp/readwise/semantic-run-2026-10-11/current-later-content/01m4nacad5qn50bd8ekr61hn99.txt"
+        ".tmp/readwise/inbox-run-2026-10-12/semantic-run/current-priority-evidence.json#documents.01m4nacad5qn50bd8ekr61hn99",
+        "reader-highlight:01m4pbm07vb4e8ns28fc494rb4",
+        "reader-highlight:01m4phdpf74hzhc3b7yr44xbpg",
+        "reader-highlight:01m4phfam0dmvnvzjpbh3mj0aq",
+        ".tmp/readwise/semantic-run-2026-10-11/current-later-content/01m4nacad5qn50bd8ekr61hn99.txt#content"
       ],
-      "judgedBy": "codex-semantic-review-2026-10-11-inbox",
-      "judgedAt": "2026-10-11T21:28:43.686Z"
+      "judgedBy": "codex-semantic-review-2026-10-12-inbox",
+      "judgedAt": "2026-10-12T05:02:46.000Z"
     },
     "01m4nac8h7686e0tv3xtarh5eh": {
       "sourceFingerprint": "866220814d404d1dfacf6f9969d76c23cd13bfec50adbcb0793f2d6e373d15b7",
-      "evidenceFingerprint": "cabf816a6c080b59dada35e37e87030e64de8643383f04edcefd049760c3725a",
+      "evidenceFingerprint": "0ecf4857de3fb2b08db3ae5937075e54bc020a890b50066436644c7e6dff5979",
       "relevance": 3,
       "substance": 2,
       "durability": 2,
@@ -89991,22 +90092,26 @@
       },
       "confidence": "medium",
       "reasonCodes": [
-        "semantic-review",
         "evidence:product-platform-engineering-case",
-        "limitation:company-reported metrics and case examples"
+        "limitation:company-reported metrics and case examples",
+        "semantic-review"
       ],
       "status": "accepted",
       "rubricVersion": "semantic-v2",
       "evidenceRefs": [
-        ".tmp/readwise/semantic-run-2026-10-11/current-priority-evidence.json#documents.01m4nac8h7686e0tv3xtarh5eh",
-        ".tmp/readwise/semantic-run-2026-10-11/current-later-content/01m4nac8h7686e0tv3xtarh5eh.txt"
+        ".tmp/readwise/inbox-run-2026-10-12/semantic-run/current-priority-evidence.json#documents.01m4nac8h7686e0tv3xtarh5eh",
+        "reader-highlight:01m4pbmy0gw6rqtqa86q68kjn0",
+        "reader-highlight:01m4phfbf6440xgrm87zwexr8j",
+        "reader-highlight:01m4phfc19qq5f8431v4ppyspr",
+        "reader-highlight:01m4phfcstwwsjsx728zhetcnn",
+        ".tmp/readwise/semantic-run-2026-10-11/current-later-content/01m4nac8h7686e0tv3xtarh5eh.txt#content"
       ],
-      "judgedBy": "codex-semantic-review-2026-10-11-inbox",
-      "judgedAt": "2026-10-11T21:28:43.686Z"
+      "judgedBy": "codex-semantic-review-2026-10-12-inbox",
+      "judgedAt": "2026-10-12T05:02:46.000Z"
     },
     "01m4nac6qvd9qmj6vzhmkssx6q": {
-      "sourceFingerprint": "04dce7a10c20c72a80df529f4ca2594135624b2c5207b859b0198cf37bf7ac92",
-      "evidenceFingerprint": "00a71d7600bf3bc1551b6ae35eae0dcc755a22a0783721fb130154d2800c6bd3",
+      "sourceFingerprint": "875d9453d650eb3a250236a738d6a5696cd09d3a6d800a1ef4600a67e3f5c81a",
+      "evidenceFingerprint": "5a6953018151814d99cd30e7b503d0ed52304002ad9565256d7748af08600116",
       "relevance": 4,
       "substance": 2,
       "durability": 3,
@@ -90038,21 +90143,23 @@
       },
       "confidence": "high",
       "reasonCodes": [
-        "semantic-review",
-        "evidence:team-negotiated-scope-and-deadlines"
+        "evidence:team-negotiated-scope-and-deadlines",
+        "semantic-review"
       ],
       "status": "accepted",
       "rubricVersion": "semantic-v2",
       "evidenceRefs": [
-        ".tmp/readwise/semantic-run-2026-10-11/current-priority-evidence.json#documents.01m4nac6qvd9qmj6vzhmkssx6q",
-        ".tmp/readwise/semantic-run-2026-10-11/current-later-content/01m4nac6qvd9qmj6vzhmkssx6q.txt"
+        ".tmp/readwise/inbox-run-2026-10-12/semantic-run/current-priority-evidence.json#documents.01m4nac6qvd9qmj6vzhmkssx6q",
+        "reader-highlight:01m4pbns74x6d9cgzv3a75641d",
+        "reader-highlight:01m4phfddk86j4q658ysskzje1",
+        ".tmp/readwise/semantic-run-2026-10-11/current-later-content/01m4nac6qvd9qmj6vzhmkssx6q.txt#content"
       ],
-      "judgedBy": "codex-semantic-review-2026-10-11-inbox",
-      "judgedAt": "2026-10-11T21:28:43.686Z"
+      "judgedBy": "codex-semantic-review-2026-10-12-inbox",
+      "judgedAt": "2026-10-12T05:02:46.000Z"
     },
     "01m4nac55kd6nvhj47bysejr8f": {
-      "sourceFingerprint": "3b43e80bd4d5e639734b2d4bf71c6aeb329a68baeb0f40db56f8314844e282ec",
-      "evidenceFingerprint": "e8caf215d466ddacae5ab9a0d0c819fa4a135f86b5f7d0bdda4fd857ef4c0030",
+      "sourceFingerprint": "63f3522e31862d5e440d48c6d162c6ffd55aabc0d223746147d0eebdb6f32474",
+      "evidenceFingerprint": "e3095c924a4b25d00e597c8dc327c4420a0543f6c0468b9f4cae8bff4bc6e382",
       "relevance": 3,
       "substance": 2,
       "durability": 3,
@@ -90084,21 +90191,23 @@
       },
       "confidence": "high",
       "reasonCodes": [
-        "semantic-review",
-        "evidence:reading-as-restorative-practice"
+        "evidence:reading-as-restorative-practice",
+        "semantic-review"
       ],
       "status": "accepted",
       "rubricVersion": "semantic-v2",
       "evidenceRefs": [
-        ".tmp/readwise/semantic-run-2026-10-11/current-priority-evidence.json#documents.01m4nac55kd6nvhj47bysejr8f",
-        ".tmp/readwise/semantic-run-2026-10-11/current-later-content/01m4nac55kd6nvhj47bysejr8f.txt"
+        ".tmp/readwise/inbox-run-2026-10-12/semantic-run/current-priority-evidence.json#documents.01m4nac55kd6nvhj47bysejr8f",
+        "reader-highlight:01m4pbpj0gmz1320cfk5sw4str",
+        "reader-highlight:01m4phfdxrra5pvxemjvz0yfes",
+        ".tmp/readwise/semantic-run-2026-10-11/current-later-content/01m4nac55kd6nvhj47bysejr8f.txt#content"
       ],
-      "judgedBy": "codex-semantic-review-2026-10-11-inbox",
-      "judgedAt": "2026-10-11T21:28:43.686Z"
+      "judgedBy": "codex-semantic-review-2026-10-12-inbox",
+      "judgedAt": "2026-10-12T05:02:46.000Z"
     },
     "01m4nac3dxgbzfq3rc2nmk0jzg": {
       "sourceFingerprint": "35807e088c204d76700a9c63a5c19895b5db7659caa37a0b5f7bfe3d6b8f62b1",
-      "evidenceFingerprint": "396348526ee48d2cc5d2207b326e78c4ad6d114052a8a75ad37f4d77f328f537",
+      "evidenceFingerprint": "6a7288d84fa38235318518748d16470b033afc82f1045289bff656c03987998f",
       "relevance": 3,
       "substance": 2,
       "durability": 2,
@@ -90130,22 +90239,25 @@
       },
       "confidence": "medium",
       "reasonCodes": [
-        "semantic-review",
         "evidence:creative-rigidity-and-perfectionism",
-        "limitation:personal experience, not a general outcome study"
+        "limitation:personal experience, not a general outcome study",
+        "semantic-review"
       ],
       "status": "accepted",
       "rubricVersion": "semantic-v2",
       "evidenceRefs": [
-        ".tmp/readwise/semantic-run-2026-10-11/current-priority-evidence.json#documents.01m4nac3dxgbzfq3rc2nmk0jzg",
-        ".tmp/readwise/semantic-run-2026-10-11/current-later-content/01m4nac3dxgbzfq3rc2nmk0jzg.txt"
+        ".tmp/readwise/inbox-run-2026-10-12/semantic-run/current-priority-evidence.json#documents.01m4nac3dxgbzfq3rc2nmk0jzg",
+        "reader-highlight:01m4pbqtrkfnrsvhbm2agn0pct",
+        "reader-highlight:01m4phfegq6ajz2deqmq6ev1hw",
+        "reader-highlight:01m4phff60a90vg61q6m70aq5v",
+        ".tmp/readwise/semantic-run-2026-10-11/current-later-content/01m4nac3dxgbzfq3rc2nmk0jzg.txt#content"
       ],
-      "judgedBy": "codex-semantic-review-2026-10-11-inbox",
-      "judgedAt": "2026-10-11T21:28:43.686Z"
+      "judgedBy": "codex-semantic-review-2026-10-12-inbox",
+      "judgedAt": "2026-10-12T05:02:46.000Z"
     },
     "01m4nac1h1xsaaqjdxqwpdf9vt": {
-      "sourceFingerprint": "3d148742c43ec0659ae9b4948cf416dd2faa3f4d740f26efcaa256728bff8545",
-      "evidenceFingerprint": "b65fbe22f7ff176ee38d39f4bae7c1e919f5b0006c6234c8ad6e06458353d5c2",
+      "sourceFingerprint": "94c136376a553f1c43d3db98f92e8b5159e9794bf89ee587d06655c016671e00",
+      "evidenceFingerprint": "24d7c2145c864109d38880a99fbd5447596614406904bb3ce93e5de8aef8aaaa",
       "relevance": 2,
       "substance": 1,
       "durability": 1,
@@ -90177,22 +90289,23 @@
       },
       "confidence": "medium",
       "reasonCodes": [
-        "semantic-review",
         "evidence:seasonal-reading-recommendations",
-        "limitation:a taste guide with limited durable or practical content"
+        "limitation:a taste guide with limited durable or practical content",
+        "semantic-review"
       ],
       "status": "accepted",
       "rubricVersion": "semantic-v2",
       "evidenceRefs": [
-        ".tmp/readwise/semantic-run-2026-10-11/current-priority-evidence.json#documents.01m4nac1h1xsaaqjdxqwpdf9vt",
-        ".tmp/readwise/semantic-run-2026-10-11/current-later-content/01m4nac1h1xsaaqjdxqwpdf9vt.txt"
+        ".tmp/readwise/inbox-run-2026-10-12/semantic-run/current-priority-evidence.json#documents.01m4nac1h1xsaaqjdxqwpdf9vt",
+        "reader-highlight:01m4phffqevpmgmstrdznzwzye",
+        ".tmp/readwise/semantic-run-2026-10-11/current-later-content/01m4nac1h1xsaaqjdxqwpdf9vt.txt#content"
       ],
-      "judgedBy": "codex-semantic-review-2026-10-11-inbox",
-      "judgedAt": "2026-10-11T21:28:43.686Z"
+      "judgedBy": "codex-semantic-review-2026-10-12-inbox",
+      "judgedAt": "2026-10-12T05:02:46.000Z"
     },
     "01m4nabzky4xh3hkpry2xabx9w": {
       "sourceFingerprint": "a858df5ea6819148e0a6005c0a6ff453727b3f9290c8c4a0df19d4ef651083e6",
-      "evidenceFingerprint": "5a396a5b60850df91ec82dd41a77fc3e9b10cab3964a31e53efcc64ef35694fa",
+      "evidenceFingerprint": "c137571efa10786e97b9cfbb4f375b55df868b3123c54bed36fe071dec71557d",
       "relevance": 4,
       "substance": 3,
       "durability": 3,
@@ -90224,22 +90337,25 @@
       },
       "confidence": "high",
       "reasonCodes": [
-        "semantic-review",
         "evidence:identity-threat-and-learning-norms",
-        "limitation:research is presented through the author's own study"
+        "limitation:research is presented through the author's own study",
+        "semantic-review"
       ],
       "status": "accepted",
       "rubricVersion": "semantic-v2",
       "evidenceRefs": [
-        ".tmp/readwise/semantic-run-2026-10-11/current-priority-evidence.json#documents.01m4nabzky4xh3hkpry2xabx9w",
-        ".tmp/readwise/semantic-run-2026-10-11/current-later-content/01m4nabzky4xh3hkpry2xabx9w.txt"
+        ".tmp/readwise/inbox-run-2026-10-12/semantic-run/current-priority-evidence.json#documents.01m4nabzky4xh3hkpry2xabx9w",
+        "reader-highlight:01m4pbzj7er9pfdt5hhxfkg1bg",
+        "reader-highlight:01m4phfgchq972d3qemdf670mq",
+        "reader-highlight:01m4phfhqt5d3j51508rea7d3w",
+        ".tmp/readwise/semantic-run-2026-10-11/current-later-content/01m4nabzky4xh3hkpry2xabx9w.txt#content"
       ],
-      "judgedBy": "codex-semantic-review-2026-10-11-inbox",
-      "judgedAt": "2026-10-11T21:28:43.686Z"
+      "judgedBy": "codex-semantic-review-2026-10-12-inbox",
+      "judgedAt": "2026-10-12T05:02:46.000Z"
     },
     "01m4nabx3t8bxk1n54pqnv3daz": {
       "sourceFingerprint": "ed7edc49e5a4834e5d10f2781659c8b9325de0dd50cbececd604d946d53e2a23",
-      "evidenceFingerprint": "907fc8a0b423e141a6f5bae439ce4176b2b72803cb240e97d04a8cd3b9975b34",
+      "evidenceFingerprint": "6257f7c879170092d113bfbcd13c9076b33428e07a362b3c502748b714b7be07",
       "relevance": 3,
       "substance": 1,
       "durability": 2,
@@ -90271,22 +90387,25 @@
       },
       "confidence": "medium",
       "reasonCodes": [
-        "semantic-review",
         "evidence:ai-norms-through-listening",
-        "limitation:short first-person example without a full method evaluation"
+        "limitation:short first-person example without a full method evaluation",
+        "semantic-review"
       ],
       "status": "accepted",
       "rubricVersion": "semantic-v2",
       "evidenceRefs": [
-        ".tmp/readwise/semantic-run-2026-10-11/current-priority-evidence.json#documents.01m4nabx3t8bxk1n54pqnv3daz",
-        ".tmp/readwise/semantic-run-2026-10-11/current-later-content/01m4nabx3t8bxk1n54pqnv3daz.txt"
+        ".tmp/readwise/inbox-run-2026-10-12/semantic-run/current-priority-evidence.json#documents.01m4nabx3t8bxk1n54pqnv3daz",
+        "reader-highlight:01m4pc2gjre8kc2yezmajebcxs",
+        "reader-highlight:01m4phfjd2myyqrr3kx7xpywcn",
+        "reader-highlight:01m4phfjypwpgzdkfd8tdvb6wr",
+        ".tmp/readwise/semantic-run-2026-10-11/current-later-content/01m4nabx3t8bxk1n54pqnv3daz.txt#content"
       ],
-      "judgedBy": "codex-semantic-review-2026-10-11-inbox",
-      "judgedAt": "2026-10-11T21:28:43.686Z"
+      "judgedBy": "codex-semantic-review-2026-10-12-inbox",
+      "judgedAt": "2026-10-12T05:02:46.000Z"
     },
     "01m4nabv1zrt862dwf45jrxt0z": {
       "sourceFingerprint": "3db2e68d0946ad98152edb121d7524dcb7b0c25e3423f86643ec20cb53521518",
-      "evidenceFingerprint": "556afd594dd381a91736162343cbbb1c4754c74a86d4a75a8d8b430ba7f37f42",
+      "evidenceFingerprint": "856993925afca5db037b390120e8106df849707eadeedcf16afdfe927b8921f5",
       "relevance": 4,
       "substance": 3,
       "durability": 3,
@@ -90318,21 +90437,24 @@
       },
       "confidence": "high",
       "reasonCodes": [
-        "semantic-review",
-        "evidence:influence-and-commitment-in-matrix-organizations"
+        "evidence:influence-and-commitment-in-matrix-organizations",
+        "semantic-review"
       ],
       "status": "accepted",
       "rubricVersion": "semantic-v2",
       "evidenceRefs": [
-        ".tmp/readwise/semantic-run-2026-10-11/current-priority-evidence.json#documents.01m4nabv1zrt862dwf45jrxt0z",
-        ".tmp/readwise/semantic-run-2026-10-11/current-later-content/01m4nabv1zrt862dwf45jrxt0z.txt"
+        ".tmp/readwise/inbox-run-2026-10-12/semantic-run/current-priority-evidence.json#documents.01m4nabv1zrt862dwf45jrxt0z",
+        "reader-highlight:01m4pc3rvckvp9d2v205bhefvt",
+        "reader-highlight:01m4phfkphed9kxnsskqxdt9dw",
+        "reader-highlight:01m4phfm9qtd8qt3a9hzzv9ctj",
+        ".tmp/readwise/semantic-run-2026-10-11/current-later-content/01m4nabv1zrt862dwf45jrxt0z.txt#content"
       ],
-      "judgedBy": "codex-semantic-review-2026-10-11-inbox",
-      "judgedAt": "2026-10-11T21:28:43.686Z"
+      "judgedBy": "codex-semantic-review-2026-10-12-inbox",
+      "judgedAt": "2026-10-12T05:02:46.000Z"
     },
     "01m4nabq1y8xtfdmf0ey3dj81n": {
       "sourceFingerprint": "a585f1538410b690278ff3820563088e3b90482f44671979c1ea82846d3a5f9b",
-      "evidenceFingerprint": "c93aab57e73a63f59c0c8190bedc4c6b9901317a68697f78158703675563c616",
+      "evidenceFingerprint": "5cd48b6ebd7aa75b0d2936514e9dd9816fcc9d32ae46d17c15d91285ca7d1e34",
       "relevance": 4,
       "substance": 3,
       "durability": 4,
@@ -90364,21 +90486,25 @@
       },
       "confidence": "high",
       "reasonCodes": [
-        "semantic-review",
-        "evidence:safe-to-fail-experimentation"
+        "evidence:safe-to-fail-experimentation",
+        "semantic-review"
       ],
       "status": "accepted",
       "rubricVersion": "semantic-v2",
       "evidenceRefs": [
-        ".tmp/readwise/semantic-run-2026-10-11/current-priority-evidence.json#documents.01m4nabq1y8xtfdmf0ey3dj81n",
-        ".tmp/readwise/semantic-run-2026-10-11/current-later-content/01m4nabq1y8xtfdmf0ey3dj81n.txt"
+        ".tmp/readwise/inbox-run-2026-10-12/semantic-run/current-priority-evidence.json#documents.01m4nabq1y8xtfdmf0ey3dj81n",
+        "reader-highlight:01m4pc6ks3nbzmv15ad8jqgtf3",
+        "reader-highlight:01m4phfnh85mgf0fmq3d1vy65d",
+        "reader-highlight:01m4phfp2ezqnnvjsxswc7fe9p",
+        "reader-highlight:01m4phfqswhrx3t9j6hna4mz7m",
+        ".tmp/readwise/semantic-run-2026-10-11/current-later-content/01m4nabq1y8xtfdmf0ey3dj81n.txt#content"
       ],
-      "judgedBy": "codex-semantic-review-2026-10-11-inbox",
-      "judgedAt": "2026-10-11T21:28:43.686Z"
+      "judgedBy": "codex-semantic-review-2026-10-12-inbox",
+      "judgedAt": "2026-10-12T05:02:46.000Z"
     },
     "01m4nabkjfqyrn99vdqgwq9mnd": {
       "sourceFingerprint": "2a3d2bd1626164d67b360a30630ac5516d6da30f27a7c0a8ea548e1701c057fa",
-      "evidenceFingerprint": "eeea9c019cc6828e391fcc32a48fef07a08d565a58508389ee6f7ea518f70d10",
+      "evidenceFingerprint": "3db6bca7daf78607cdd153e471c7a27c588fa6d38734603acd411cf08c61f03a",
       "relevance": 4,
       "substance": 3,
       "durability": 4,
@@ -90410,21 +90536,25 @@
       },
       "confidence": "high",
       "reasonCodes": [
-        "semantic-review",
-        "evidence:network-bridging-and-organizational-power"
+        "evidence:network-bridging-and-organizational-power",
+        "semantic-review"
       ],
       "status": "accepted",
       "rubricVersion": "semantic-v2",
       "evidenceRefs": [
-        ".tmp/readwise/semantic-run-2026-10-11/current-priority-evidence.json#documents.01m4nabkjfqyrn99vdqgwq9mnd",
-        ".tmp/readwise/semantic-run-2026-10-11/current-later-content/01m4nabkjfqyrn99vdqgwq9mnd.txt"
+        ".tmp/readwise/inbox-run-2026-10-12/semantic-run/current-priority-evidence.json#documents.01m4nabkjfqyrn99vdqgwq9mnd",
+        "reader-highlight:01m4pc7nngdtgn0z5wdwqhbdv2",
+        "reader-highlight:01m4phfrwnryky2qvxss04mac2",
+        "reader-highlight:01m4phfsfh3sj95f3mnb3ryqax",
+        "reader-highlight:01m4phft2ssnjevpz5jba757m2",
+        ".tmp/readwise/semantic-run-2026-10-11/current-later-content/01m4nabkjfqyrn99vdqgwq9mnd.txt#content"
       ],
-      "judgedBy": "codex-semantic-review-2026-10-11-inbox",
-      "judgedAt": "2026-10-11T21:28:43.686Z"
+      "judgedBy": "codex-semantic-review-2026-10-12-inbox",
+      "judgedAt": "2026-10-12T05:02:46.000Z"
     },
     "01m4nabhtmhajsrws679d66cc8": {
       "sourceFingerprint": "d31d7fed2446cea03f0658a7fdf602703f589caf95e4172e62d1ea3d8b224d88",
-      "evidenceFingerprint": "abc53e99a9a07d4aa8aef4609939e2608e4c9dd8ff0e2315a003ab250669897b",
+      "evidenceFingerprint": "dd1aeb266a1600ca9e483dba9cce7092fe54932db268615e1457b4c950a0dc2e",
       "relevance": 4,
       "substance": 3,
       "durability": 3,
@@ -90456,21 +90586,24 @@
       },
       "confidence": "high",
       "reasonCodes": [
-        "semantic-review",
-        "evidence:decision-rights-versus-practical-power"
+        "evidence:decision-rights-versus-practical-power",
+        "semantic-review"
       ],
       "status": "accepted",
       "rubricVersion": "semantic-v2",
       "evidenceRefs": [
-        ".tmp/readwise/semantic-run-2026-10-11/current-priority-evidence.json#documents.01m4nabhtmhajsrws679d66cc8",
-        ".tmp/readwise/semantic-run-2026-10-11/current-later-content/01m4nabhtmhajsrws679d66cc8.txt"
+        ".tmp/readwise/inbox-run-2026-10-12/semantic-run/current-priority-evidence.json#documents.01m4nabhtmhajsrws679d66cc8",
+        "reader-highlight:01m4pc8g81e92r916g1d6wf8s5",
+        "reader-highlight:01m4phftn5g50khd40a0n5fmay",
+        "reader-highlight:01m4phfv5rx3r4x147h8eeaqq9",
+        ".tmp/readwise/semantic-run-2026-10-11/current-later-content/01m4nabhtmhajsrws679d66cc8.txt#content"
       ],
-      "judgedBy": "codex-semantic-review-2026-10-11-inbox",
-      "judgedAt": "2026-10-11T21:28:43.686Z"
+      "judgedBy": "codex-semantic-review-2026-10-12-inbox",
+      "judgedAt": "2026-10-12T05:02:46.000Z"
     },
     "01m4n8p6vpv8f7fskzk68mn97z": {
       "sourceFingerprint": "5945be0ea9d3c23727c7e3ea18157d9639a96f5981cd1036ba38d9e92e4630d3",
-      "evidenceFingerprint": "c6a71bc5ac411f496eebf3042a5eb77993974251e368d6b3d496bba8dbb17375",
+      "evidenceFingerprint": "ed7c2c5a5a7a0e013d2129af4ee4ab22e1f64be22976880a7899f2e7883bdfa1",
       "relevance": 3,
       "substance": 2,
       "durability": 2,
@@ -90502,22 +90635,26 @@
       },
       "confidence": "medium",
       "reasonCodes": [
-        "semantic-review",
         "evidence:capital-labor-tradeoff",
-        "limitation:paywall cuts off calculation and supporting comparison"
+        "limitation:paywall cuts off calculation and supporting comparison",
+        "semantic-review"
       ],
       "status": "accepted",
       "rubricVersion": "semantic-v2",
       "evidenceRefs": [
-        ".tmp/readwise/semantic-run-2026-10-11/current-priority-evidence.json#documents.01m4n8p6vpv8f7fskzk68mn97z",
-        ".tmp/readwise/semantic-run-2026-10-11/current-later-content/01m4n8p6vpv8f7fskzk68mn97z.txt"
+        ".tmp/readwise/inbox-run-2026-10-12/semantic-run/current-priority-evidence.json#documents.01m4n8p6vpv8f7fskzk68mn97z",
+        "reader-highlight:01m4ny5dexv2d0wyv86qksyc0t",
+        "reader-highlight:01m4ny5e6pb23cvwxqdbf9kvd7",
+        "reader-highlight:01m4ny5eqakd2y5723z4jw3sv8",
+        "reader-highlight:01m4phfwbwbzgy62vy0s5zymxb",
+        ".tmp/readwise/semantic-run-2026-10-11/current-later-content/01m4n8p6vpv8f7fskzk68mn97z.txt#content"
       ],
-      "judgedBy": "codex-semantic-review-2026-10-11-inbox",
-      "judgedAt": "2026-10-11T21:28:43.686Z"
+      "judgedBy": "codex-semantic-review-2026-10-12-inbox",
+      "judgedAt": "2026-10-12T05:02:46.000Z"
     },
     "01m4n47f9t1xt5pxtksk719rw4": {
       "sourceFingerprint": "f83af9d8a71efcf66dec2a1c1be1e03c898e32161efb7f2621b082db204c0d8a",
-      "evidenceFingerprint": "1c20bd1f8501c5266b256c09f00104e7a28513a534de024776445be660dcfe55",
+      "evidenceFingerprint": "a4ebd11d38acc4db419994e858d8146f854913c54390c1bd0c4468b372b028ea",
       "relevance": 3,
       "substance": 2,
       "durability": 3,
@@ -90549,17 +90686,21 @@
       },
       "confidence": "medium",
       "reasonCodes": [
-        "semantic-review",
-        "evidence:fictional-loss-and-trauma"
+        "evidence:fictional-loss-and-trauma",
+        "semantic-review"
       ],
       "status": "accepted",
       "rubricVersion": "semantic-v2",
       "evidenceRefs": [
-        ".tmp/readwise/semantic-run-2026-10-11/current-priority-evidence.json#documents.01m4n47f9t1xt5pxtksk719rw4",
-        ".tmp/readwise/semantic-run-2026-10-11/current-later-content/01m4n47f9t1xt5pxtksk719rw4.txt"
+        ".tmp/readwise/inbox-run-2026-10-12/semantic-run/current-priority-evidence.json#documents.01m4n47f9t1xt5pxtksk719rw4",
+        "reader-highlight:01m4n8hbfzyxp958zk7fr163tc",
+        "reader-highlight:01m4n8hc27wds927t3s6w33ftf",
+        "reader-highlight:01m4phfwyscg580q3y3k796044",
+        "reader-highlight:01m4phfxgsq5b884pw4ydrwz0j",
+        ".tmp/readwise/semantic-run-2026-10-11/current-later-content/01m4n47f9t1xt5pxtksk719rw4.txt#content"
       ],
-      "judgedBy": "codex-semantic-review-2026-10-11-inbox",
-      "judgedAt": "2026-10-11T21:28:43.686Z"
+      "judgedBy": "codex-semantic-review-2026-10-12-inbox",
+      "judgedAt": "2026-10-12T05:02:46.000Z"
     },
     "01k72r0j3bseajxttfvvytz2vt": {
       "sourceFingerprint": "d44f197133f1ceb320515c7970c022b1f6167254958e508b52360a39f58f0ed6",
