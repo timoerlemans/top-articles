@@ -35171,15 +35171,16 @@
       "reasonCodes": [
         "semantic-review",
         "evidence:scenario-based-scrum-leadership",
-        "limitation:experience report without controlled outcome data"
+        "limitation:experience report without controlled outcome data",
+        "semantic-review-refresh"
       ],
       "status": "accepted",
       "rubricVersion": "semantic-v2",
       "evidenceRefs": [
         ".tmp/readwise/priority-evidence.json#documents.01m2sj2qe8ek1zbz9kxev71gxv"
       ],
-      "judgedBy": "codex-semantic-review-2026-10-12",
-      "judgedAt": "2026-10-12T12:00:00Z"
+      "judgedBy": "codex-semantic-review-2026-10-13-inbox",
+      "judgedAt": "2026-10-13T12:00:00Z"
     },
     "01m2sj2z0eqkymgx0rbcrpyc85": {
       "sourceFingerprint": "769363e1b6aa7cc48b15b47a83f6b4b779652b47a68a5ecbf53b3756fc4cad04",
@@ -75238,15 +75239,16 @@
       "reasonCodes": [
         "semantic-review",
         "evidence:sustainable-digital-cleanup",
-        "limitation:event report with participant feedback, not a controlled evaluation"
+        "limitation:event report with participant feedback, not a controlled evaluation",
+        "semantic-review-refresh"
       ],
       "status": "accepted",
       "rubricVersion": "semantic-v2",
       "evidenceRefs": [
         ".tmp/readwise/priority-evidence.json#documents.01m3v78rp47de54c59j26vxrnn"
       ],
-      "judgedBy": "codex-semantic-review-2026-10-12",
-      "judgedAt": "2026-10-12T12:00:00Z"
+      "judgedBy": "codex-semantic-review-2026-10-13-inbox",
+      "judgedAt": "2026-10-13T12:00:00Z"
     },
     "01m3v983cgndc6thk3x7s7ecwz": {
       "sourceFingerprint": "91319ec7a4b18495d9ea72a8f795eca4a029b9c4566a0d53b307e820f2f2e869",
@@ -75697,15 +75699,16 @@
       "reasonCodes": [
         "semantic-review",
         "evidence:interruptions-time-study",
-        "limitation:one observed workday and case report"
+        "limitation:one observed workday and case report",
+        "semantic-review-refresh"
       ],
       "status": "accepted",
       "rubricVersion": "semantic-v2",
       "evidenceRefs": [
         ".tmp/readwise/priority-evidence.json#documents.01m3vyhrv1ydekbh6kjsb3f6fn"
       ],
-      "judgedBy": "codex-semantic-review-2026-10-12",
-      "judgedAt": "2026-10-12T12:00:00Z"
+      "judgedBy": "codex-semantic-review-2026-10-13-inbox",
+      "judgedAt": "2026-10-13T12:00:00Z"
     },
     "01m3w2w5140tgaps0a89g5ssz6": {
       "sourceFingerprint": "f27ad25ac005b90864b5fbfd6087d824f8417cf31603f150c34b25647877465c",
@@ -85818,15 +85821,16 @@
       "confidence": "high",
       "reasonCodes": [
         "evidence:manager-expectations-and-team-communication",
-        "semantic-review"
+        "semantic-review",
+        "semantic-review-refresh"
       ],
       "status": "accepted",
       "rubricVersion": "semantic-v2",
       "evidenceRefs": [
         ".tmp/readwise/priority-evidence.json#documents.01m4jp40rkevzjv5xyngmtthj0"
       ],
-      "judgedBy": "codex-semantic-review-2026-10-12",
-      "judgedAt": "2026-10-12T12:00:00Z"
+      "judgedBy": "codex-semantic-review-2026-10-13-inbox",
+      "judgedAt": "2026-10-13T12:00:00Z"
     },
     "01m4jp3xvpfnnr7d03trmxw5ny": {
       "sourceFingerprint": "0bf790b7dbdaa51361ff08f699fc638768c38d0919c1a5d585413e676ca41670",
@@ -85863,15 +85867,16 @@
       "confidence": "medium",
       "reasonCodes": [
         "evidence:hands-on-engineering-manager-practice",
-        "semantic-review"
+        "semantic-review",
+        "semantic-review-refresh"
       ],
       "status": "accepted",
       "rubricVersion": "semantic-v2",
       "evidenceRefs": [
         ".tmp/readwise/priority-evidence.json#documents.01m4jp3xvpfnnr7d03trmxw5ny"
       ],
-      "judgedBy": "codex-semantic-review-2026-10-12",
-      "judgedAt": "2026-10-12T12:00:00Z"
+      "judgedBy": "codex-semantic-review-2026-10-13-inbox",
+      "judgedAt": "2026-10-13T12:00:00Z"
     },
     "01m4jp3vhk3qx5yqvn7cp99fmg": {
       "sourceFingerprint": "621106dcfbb642a34a91ec96f4d498151dfd4bf3299c7de375560e0e18283375",
@@ -85913,15 +85918,16 @@
         "interest:software-development",
         "reusable-mental-models",
         "semantic-review",
-        "topic:philosophy-evidence"
+        "topic:philosophy-evidence",
+        "semantic-review-refresh"
       ],
       "status": "accepted",
       "rubricVersion": "semantic-v2",
       "evidenceRefs": [
         ".tmp/readwise/priority-evidence.json#documents.01m4jp3vhk3qx5yqvn7cp99fmg"
       ],
-      "judgedBy": "codex-semantic-review-2026-10-12",
-      "judgedAt": "2026-10-12T12:00:00Z"
+      "judgedBy": "codex-semantic-review-2026-10-13-inbox",
+      "judgedAt": "2026-10-13T12:00:00Z"
     },
     "01m4jgw4m8894063wr7sdrcjq0": {
       "sourceFingerprint": "ddf7bc650a9fa10322b28ba6d1fb8cf7395767436cd01e5cf234cd651ced6575",
@@ -86535,15 +86541,16 @@
         "interest:political-philosophy",
         "limitation:short-reflection-not-systematic-political-theory",
         "semantic-review",
-        "topic:philosophy-evidence"
+        "topic:philosophy-evidence",
+        "semantic-review-refresh"
       ],
       "status": "accepted",
       "rubricVersion": "semantic-v2",
       "evidenceRefs": [
         ".tmp/readwise/priority-evidence.json#documents.01m4ghwk9h25gntyn5smype298"
       ],
-      "judgedBy": "codex-semantic-review-2026-10-12",
-      "judgedAt": "2026-10-12T12:00:00Z"
+      "judgedBy": "codex-semantic-review-2026-10-13-inbox",
+      "judgedAt": "2026-10-13T12:00:00Z"
     },
     "01m4ge0fsmp6zfqwrb03hk134h": {
       "sourceFingerprint": "2f29a39f5185c1bab70a10e325eaeab28994d1aa6080ef887de0fe9daddb1023",
@@ -86639,15 +86646,16 @@
         "interest:team-dynamics",
         "quality:practical-system-map",
         "semantic-review",
-        "topic:philosophy-evidence"
+        "topic:philosophy-evidence",
+        "semantic-review-refresh"
       ],
       "status": "accepted",
       "rubricVersion": "semantic-v2",
       "evidenceRefs": [
         ".tmp/readwise/priority-evidence.json#documents.01m4mxqnhzkjb13x7bdxszs4pa"
       ],
-      "judgedBy": "codex-semantic-review-2026-10-12",
-      "judgedAt": "2026-10-12T12:00:00Z"
+      "judgedBy": "codex-semantic-review-2026-10-13-inbox",
+      "judgedAt": "2026-10-13T12:00:00Z"
     },
     "01m4mxpxrevf72qey9pd30habf": {
       "sourceFingerprint": "fbd9e59e4971e957497dd4e5874546602b5380ef79b55638648022e0ed2859d8",
@@ -86690,15 +86698,16 @@
         "independent-of-current-position",
         "evidence:title-summary-notes-highlights",
         "semantic-review",
-        "topic:philosophy-evidence"
+        "topic:philosophy-evidence",
+        "semantic-review-refresh"
       ],
       "status": "accepted",
       "rubricVersion": "semantic-v2",
       "evidenceRefs": [
         ".tmp/readwise/priority-evidence.json#documents.01m4mxpxrevf72qey9pd30habf"
       ],
-      "judgedBy": "codex-semantic-review-2026-10-12",
-      "judgedAt": "2026-10-12T12:00:00Z"
+      "judgedBy": "codex-semantic-review-2026-10-13-inbox",
+      "judgedAt": "2026-10-13T12:00:00Z"
     },
     "01m4mxps05b8s3j4edskkx9pz3": {
       "sourceFingerprint": "b64abff12fb24ff970d49ebe085536fbdde27d9a042fc95371254d6858987d6f",
@@ -86788,15 +86797,16 @@
         "independent-of-current-position",
         "evidence:title-summary-notes-highlights",
         "semantic-review",
-        "topic:philosophy-evidence"
+        "topic:philosophy-evidence",
+        "semantic-review-refresh"
       ],
       "status": "accepted",
       "rubricVersion": "semantic-v2",
       "evidenceRefs": [
         ".tmp/readwise/priority-evidence.json#documents.01m4mxpcrp5ecfe1jnmgw97p9f"
       ],
-      "judgedBy": "codex-semantic-review-2026-10-12",
-      "judgedAt": "2026-10-12T12:00:00Z"
+      "judgedBy": "codex-semantic-review-2026-10-13-inbox",
+      "judgedAt": "2026-10-13T12:00:00Z"
     },
     "01m4mxp1r2zv9r5s3wgsq9146w": {
       "sourceFingerprint": "9cfb6334eb2985e6f17ad3ef5afdd8538e780fe360b4b0c73e50e3e0dd62d962",
@@ -86933,15 +86943,16 @@
         "independent-of-current-position",
         "evidence:title-summary-notes-highlights",
         "semantic-review",
-        "topic:philosophy-evidence"
+        "topic:philosophy-evidence",
+        "semantic-review-refresh"
       ],
       "status": "accepted",
       "rubricVersion": "semantic-v2",
       "evidenceRefs": [
         ".tmp/readwise/priority-evidence.json#documents.01m4mxbqftj1d6h8q7xvrq4xm4"
       ],
-      "judgedBy": "codex-semantic-review-2026-10-12",
-      "judgedAt": "2026-10-12T12:00:00Z"
+      "judgedBy": "codex-semantic-review-2026-10-13-inbox",
+      "judgedAt": "2026-10-13T12:00:00Z"
     },
     "01m4mxb8j3agx2ed6czb2m2f06": {
       "sourceFingerprint": "2fd401d4a77ef7c8c50a6c3d6961e31f6d5670b0afedeec15682ff4add97f936",
@@ -86978,15 +86989,16 @@
       "confidence": "high",
       "reasonCodes": [
         "semantic-review",
-        "evidence:manager-work-in-ai-era"
+        "evidence:manager-work-in-ai-era",
+        "semantic-review-refresh"
       ],
       "status": "accepted",
       "rubricVersion": "semantic-v2",
       "evidenceRefs": [
         ".tmp/readwise/priority-evidence.json#documents.01m4mxb8j3agx2ed6czb2m2f06"
       ],
-      "judgedBy": "codex-semantic-review-2026-10-12",
-      "judgedAt": "2026-10-12T12:00:00Z"
+      "judgedBy": "codex-semantic-review-2026-10-13-inbox",
+      "judgedAt": "2026-10-13T12:00:00Z"
     },
     "01m4krhezn8xrsbp9evcf5y6k3": {
       "sourceFingerprint": "41afcc491596492cdb7eabf027de30ed52e5269cdf4b739b84a9c5617317ac14",
@@ -87028,15 +87040,16 @@
         "independent-of-current-position",
         "evidence:title-summary-notes-highlights",
         "semantic-review",
-        "topic:philosophy-evidence"
+        "topic:philosophy-evidence",
+        "semantic-review-refresh"
       ],
       "status": "accepted",
       "rubricVersion": "semantic-v2",
       "evidenceRefs": [
         ".tmp/readwise/priority-evidence.json#documents.01m4krhezn8xrsbp9evcf5y6k3"
       ],
-      "judgedBy": "codex-semantic-review-2026-10-12",
-      "judgedAt": "2026-10-12T12:00:00Z"
+      "judgedBy": "codex-semantic-review-2026-10-13-inbox",
+      "judgedAt": "2026-10-13T12:00:00Z"
     },
     "01m4kqh411v7jzpyhas60xj6np": {
       "sourceFingerprint": "50748ffbf20a891e0b84f8e130b755ce04b62ef426bc5edde250f7cfe74daaa0",
@@ -87078,15 +87091,16 @@
         "independent-of-current-position",
         "evidence:title-summary-notes-highlights",
         "semantic-review",
-        "topic:philosophy-evidence"
+        "topic:philosophy-evidence",
+        "semantic-review-refresh"
       ],
       "status": "accepted",
       "rubricVersion": "semantic-v2",
       "evidenceRefs": [
         ".tmp/readwise/priority-evidence.json#documents.01m4kqh411v7jzpyhas60xj6np"
       ],
-      "judgedBy": "codex-semantic-review-2026-10-12",
-      "judgedAt": "2026-10-12T12:00:00Z"
+      "judgedBy": "codex-semantic-review-2026-10-13-inbox",
+      "judgedAt": "2026-10-13T12:00:00Z"
     },
     "01m4kg7hz09h5ewqexm0xw5xw2": {
       "sourceFingerprint": "d6c0b7d01e4474344a06d7c9456075e919515c23273dbe16ac27c070c4779ecc",
@@ -87128,15 +87142,16 @@
         "independent-of-current-position",
         "evidence:title-summary-notes-highlights",
         "semantic-review",
-        "topic:philosophy-evidence"
+        "topic:philosophy-evidence",
+        "semantic-review-refresh"
       ],
       "status": "accepted",
       "rubricVersion": "semantic-v2",
       "evidenceRefs": [
         ".tmp/readwise/priority-evidence.json#documents.01m4kg7hz09h5ewqexm0xw5xw2"
       ],
-      "judgedBy": "codex-semantic-review-2026-10-12",
-      "judgedAt": "2026-10-12T12:00:00Z"
+      "judgedBy": "codex-semantic-review-2026-10-13-inbox",
+      "judgedAt": "2026-10-13T12:00:00Z"
     },
     "01m4mtzabe83c0yjy7rxnwha7b": {
       "sourceFingerprint": "603f8a88e8b847f5189136eb5afcf362c250c624a4ba6c691c6f01951ee0a21f",
@@ -87174,15 +87189,16 @@
       "reasonCodes": [
         "semantic-review",
         "evidence:task-initiation-microsteps",
-        "limitation:practical note, not a deep motivation model"
+        "limitation:practical note, not a deep motivation model",
+        "semantic-review-refresh"
       ],
       "status": "accepted",
       "rubricVersion": "semantic-v2",
       "evidenceRefs": [
         ".tmp/readwise/priority-evidence.json#documents.01m4mtzabe83c0yjy7rxnwha7b"
       ],
-      "judgedBy": "codex-semantic-review-2026-10-12",
-      "judgedAt": "2026-10-12T12:00:00Z"
+      "judgedBy": "codex-semantic-review-2026-10-13-inbox",
+      "judgedAt": "2026-10-13T12:00:00Z"
     },
     "01m4p9sncf170nejtfgaj08vyh": {
       "sourceFingerprint": "411af0ecf959e740a1c7f385ac4c5e556f5cd2eeaec7c1a9323a74d90f52d1dc",
@@ -87219,15 +87235,16 @@
       "confidence": "medium",
       "reasonCodes": [
         "semantic-review",
-        "evidence:art-as-community"
+        "evidence:art-as-community",
+        "semantic-review-refresh"
       ],
       "status": "accepted",
       "rubricVersion": "semantic-v2",
       "evidenceRefs": [
         ".tmp/readwise/priority-evidence.json#documents.01m4p9sncf170nejtfgaj08vyh"
       ],
-      "judgedBy": "codex-semantic-review-2026-10-12",
-      "judgedAt": "2026-10-12T12:00:00Z"
+      "judgedBy": "codex-semantic-review-2026-10-13-inbox",
+      "judgedAt": "2026-10-13T12:00:00Z"
     },
     "01m4p9sea9w6bftxabgje31gtr": {
       "sourceFingerprint": "4f38b5b772df8bc6be3100db9519196c87a9bb86889ad6fa81d5d1f531bb44e2",
@@ -87495,15 +87512,16 @@
       "confidence": "medium",
       "reasonCodes": [
         "evidence:labor-migration-and-integration",
-        "semantic-review"
+        "semantic-review",
+        "semantic-review-refresh"
       ],
       "status": "accepted",
       "rubricVersion": "semantic-v2",
       "evidenceRefs": [
         ".tmp/readwise/priority-evidence.json#documents.01m4p1t972edcqaednwr7jmwvq"
       ],
-      "judgedBy": "codex-semantic-review-2026-10-12",
-      "judgedAt": "2026-10-12T12:00:00Z"
+      "judgedBy": "codex-semantic-review-2026-10-13-inbox",
+      "judgedAt": "2026-10-13T12:00:00Z"
     },
     "01m4ny01vqj9zf6y2qc6s2v79r": {
       "sourceFingerprint": "a0ed97b9f234757e9b1a4488449adb5c1c4804c6693cf21d1e5faa064b9c813a",
@@ -87541,15 +87559,16 @@
       "reasonCodes": [
         "semantic-review",
         "evidence:scrum-capacity-case",
-        "limitation:paywalled series; the capture supports only the case summary"
+        "limitation:paywalled series; the capture supports only the case summary",
+        "semantic-review-refresh"
       ],
       "status": "accepted",
       "rubricVersion": "semantic-v2",
       "evidenceRefs": [
         ".tmp/readwise/priority-evidence.json#documents.01m4ny01vqj9zf6y2qc6s2v79r"
       ],
-      "judgedBy": "codex-semantic-review-2026-10-12",
-      "judgedAt": "2026-10-12T12:00:00Z"
+      "judgedBy": "codex-semantic-review-2026-10-13-inbox",
+      "judgedAt": "2026-10-13T12:00:00Z"
     },
     "01m4ng4r538mxfg5e5wbwp4rns": {
       "sourceFingerprint": "f27f4b2772cedf4e40ebafbde81380a915db36c1ebf8bf854e35982311ed9a84",
@@ -87724,15 +87743,16 @@
       "reasonCodes": [
         "evidence:android-privacy-study",
         "limitation:short report anchored in one linked study",
-        "semantic-review"
+        "semantic-review",
+        "semantic-review-refresh"
       ],
       "status": "accepted",
       "rubricVersion": "semantic-v2",
       "evidenceRefs": [
         ".tmp/readwise/priority-evidence.json#documents.01m4nafcf8f0v2ekzt506gamvf"
       ],
-      "judgedBy": "codex-semantic-review-2026-10-12",
-      "judgedAt": "2026-10-12T12:00:00Z"
+      "judgedBy": "codex-semantic-review-2026-10-13-inbox",
+      "judgedAt": "2026-10-13T12:00:00Z"
     },
     "01m4naf8j8tsrncf6h78g8f668": {
       "sourceFingerprint": "fe418e4f34e120091266d1b96557514d247f6a376f5c7ccf4129e75e53785e17",
@@ -87905,15 +87925,16 @@
       "confidence": "high",
       "reasonCodes": [
         "semantic-review",
-        "evidence:agile-manifesto-history"
+        "evidence:agile-manifesto-history",
+        "semantic-review-refresh"
       ],
       "status": "accepted",
       "rubricVersion": "semantic-v2",
       "evidenceRefs": [
         ".tmp/readwise/priority-evidence.json#documents.01m4naee920e4qrgqze303jwap"
       ],
-      "judgedBy": "codex-semantic-review-2026-10-12",
-      "judgedAt": "2026-10-12T12:00:00Z"
+      "judgedBy": "codex-semantic-review-2026-10-13-inbox",
+      "judgedAt": "2026-10-13T12:00:00Z"
     },
     "01m4nae1rj24j288t1g5331syv": {
       "sourceFingerprint": "3d4329b86004f2d6315eb8e17205cdd42516a920417b0eff6afc9dc776462fce",
@@ -87996,15 +88017,16 @@
       "confidence": "high",
       "reasonCodes": [
         "evidence:internet-platform-power-and-appeal",
-        "semantic-review"
+        "semantic-review",
+        "semantic-review-refresh"
       ],
       "status": "accepted",
       "rubricVersion": "semantic-v2",
       "evidenceRefs": [
         ".tmp/readwise/priority-evidence.json#documents.01m4nadx0qvz5gb1wqgrp2h131"
       ],
-      "judgedBy": "codex-semantic-review-2026-10-12",
-      "judgedAt": "2026-10-12T12:00:00Z"
+      "judgedBy": "codex-semantic-review-2026-10-13-inbox",
+      "judgedAt": "2026-10-13T12:00:00Z"
     },
     "01m4nadrf6wzyjqr22f0vqn4h6": {
       "sourceFingerprint": "d314a7ccdc319e873e5562cd304a636e5f52525aa7d507512fa9c7b01fd7ecf6",
@@ -88041,15 +88063,16 @@
       "confidence": "high",
       "reasonCodes": [
         "evidence:software-supply-chain-complexity",
-        "semantic-review"
+        "semantic-review",
+        "semantic-review-refresh"
       ],
       "status": "accepted",
       "rubricVersion": "semantic-v2",
       "evidenceRefs": [
         ".tmp/readwise/priority-evidence.json#documents.01m4nadrf6wzyjqr22f0vqn4h6"
       ],
-      "judgedBy": "codex-semantic-review-2026-10-12",
-      "judgedAt": "2026-10-12T12:00:00Z"
+      "judgedBy": "codex-semantic-review-2026-10-13-inbox",
+      "judgedAt": "2026-10-13T12:00:00Z"
     },
     "01m4nadhks3ntqgr7bfp0140dv": {
       "sourceFingerprint": "27dab0842202b1e321a4467a255f4f60b22d73d65f8d3cfccf87f6a1b55a917f",
@@ -88133,15 +88156,16 @@
       "reasonCodes": [
         "evidence:research-literacy-recommendation",
         "limitation:short policy summary; full argument is in the linked report",
-        "semantic-review"
+        "semantic-review",
+        "semantic-review-refresh"
       ],
       "status": "accepted",
       "rubricVersion": "semantic-v2",
       "evidenceRefs": [
         ".tmp/readwise/priority-evidence.json#documents.01m4nadeq8frfs5zyxrrdhgssn"
       ],
-      "judgedBy": "codex-semantic-review-2026-10-12",
-      "judgedAt": "2026-10-12T12:00:00Z"
+      "judgedBy": "codex-semantic-review-2026-10-13-inbox",
+      "judgedAt": "2026-10-13T12:00:00Z"
     },
     "01m4nacxcb9djs8axhye86n2gf": {
       "sourceFingerprint": "531861316966ff91d13dea09b9a9479f4fcc5c49636ccb483af7281bfcb66727",
@@ -88224,15 +88248,16 @@
       "reasonCodes": [
         "evidence:literary-archive-announcement",
         "limitation:announcement points to primary material but offers little analysis",
-        "semantic-review"
+        "semantic-review",
+        "semantic-review-refresh"
       ],
       "status": "accepted",
       "rubricVersion": "semantic-v2",
       "evidenceRefs": [
         ".tmp/readwise/priority-evidence.json#documents.01m4nacvkv1gav6fj7zw2zm3m4"
       ],
-      "judgedBy": "codex-semantic-review-2026-10-12",
-      "judgedAt": "2026-10-12T12:00:00Z"
+      "judgedBy": "codex-semantic-review-2026-10-13-inbox",
+      "judgedAt": "2026-10-13T12:00:00Z"
     },
     "01m4nacs7aah2r82z2c42yypfn": {
       "sourceFingerprint": "1bbeb20eeb5887a27738d938d973d48550c6cb941395e8d9b75edc7d4cd810d4",
@@ -88361,15 +88386,16 @@
       "confidence": "high",
       "reasonCodes": [
         "evidence:feature-toggle-lifecycle",
-        "semantic-review"
+        "semantic-review",
+        "semantic-review-refresh"
       ],
       "status": "accepted",
       "rubricVersion": "semantic-v2",
       "evidenceRefs": [
         ".tmp/readwise/priority-evidence.json#documents.01m4nacccj48ymre0ys026d4mw"
       ],
-      "judgedBy": "codex-semantic-review-2026-10-12",
-      "judgedAt": "2026-10-12T12:00:00Z"
+      "judgedBy": "codex-semantic-review-2026-10-13-inbox",
+      "judgedAt": "2026-10-13T12:00:00Z"
     },
     "01m4nacad5qn50bd8ekr61hn99": {
       "sourceFingerprint": "cd49a8864fbf1b256556c35fc6d659f48cfca11e9f06548e5a999b53693bb165",
@@ -88407,15 +88433,16 @@
       "reasonCodes": [
         "evidence:platform-team-collaboration",
         "limitation:practitioner recommendations; implementation depends on agreed intake",
-        "semantic-review"
+        "semantic-review",
+        "semantic-review-refresh"
       ],
       "status": "accepted",
       "rubricVersion": "semantic-v2",
       "evidenceRefs": [
         ".tmp/readwise/priority-evidence.json#documents.01m4nacad5qn50bd8ekr61hn99"
       ],
-      "judgedBy": "codex-semantic-review-2026-10-12",
-      "judgedAt": "2026-10-12T12:00:00Z"
+      "judgedBy": "codex-semantic-review-2026-10-13-inbox",
+      "judgedAt": "2026-10-13T12:00:00Z"
     },
     "01m4nac8h7686e0tv3xtarh5eh": {
       "sourceFingerprint": "866220814d404d1dfacf6f9969d76c23cd13bfec50adbcb0793f2d6e373d15b7",
@@ -88681,15 +88708,16 @@
       "reasonCodes": [
         "evidence:identity-threat-and-learning-norms",
         "limitation:research is presented through the author's own study",
-        "semantic-review"
+        "semantic-review",
+        "semantic-review-refresh"
       ],
       "status": "accepted",
       "rubricVersion": "semantic-v2",
       "evidenceRefs": [
         ".tmp/readwise/priority-evidence.json#documents.01m4nabzky4xh3hkpry2xabx9w"
       ],
-      "judgedBy": "codex-semantic-review-2026-10-12",
-      "judgedAt": "2026-10-12T12:00:00Z"
+      "judgedBy": "codex-semantic-review-2026-10-13-inbox",
+      "judgedAt": "2026-10-13T12:00:00Z"
     },
     "01m4nabx3t8bxk1n54pqnv3daz": {
       "sourceFingerprint": "ed7edc49e5a4834e5d10f2781659c8b9325de0dd50cbececd604d946d53e2a23",
@@ -88727,15 +88755,16 @@
       "reasonCodes": [
         "evidence:ai-norms-through-listening",
         "limitation:short first-person example without a full method evaluation",
-        "semantic-review"
+        "semantic-review",
+        "semantic-review-refresh"
       ],
       "status": "accepted",
       "rubricVersion": "semantic-v2",
       "evidenceRefs": [
         ".tmp/readwise/priority-evidence.json#documents.01m4nabx3t8bxk1n54pqnv3daz"
       ],
-      "judgedBy": "codex-semantic-review-2026-10-12",
-      "judgedAt": "2026-10-12T12:00:00Z"
+      "judgedBy": "codex-semantic-review-2026-10-13-inbox",
+      "judgedAt": "2026-10-13T12:00:00Z"
     },
     "01m4nabv1zrt862dwf45jrxt0z": {
       "sourceFingerprint": "3db2e68d0946ad98152edb121d7524dcb7b0c25e3423f86643ec20cb53521518",
@@ -88817,15 +88846,16 @@
       "confidence": "high",
       "reasonCodes": [
         "evidence:safe-to-fail-experimentation",
-        "semantic-review"
+        "semantic-review",
+        "semantic-review-refresh"
       ],
       "status": "accepted",
       "rubricVersion": "semantic-v2",
       "evidenceRefs": [
         ".tmp/readwise/priority-evidence.json#documents.01m4nabq1y8xtfdmf0ey3dj81n"
       ],
-      "judgedBy": "codex-semantic-review-2026-10-12",
-      "judgedAt": "2026-10-12T12:00:00Z"
+      "judgedBy": "codex-semantic-review-2026-10-13-inbox",
+      "judgedAt": "2026-10-13T12:00:00Z"
     },
     "01m4nabkjfqyrn99vdqgwq9mnd": {
       "sourceFingerprint": "2a3d2bd1626164d67b360a30630ac5516d6da30f27a7c0a8ea548e1701c057fa",
@@ -88953,15 +88983,16 @@
       "reasonCodes": [
         "evidence:capital-labor-tradeoff",
         "limitation:paywall cuts off calculation and supporting comparison",
-        "semantic-review"
+        "semantic-review",
+        "semantic-review-refresh"
       ],
       "status": "accepted",
       "rubricVersion": "semantic-v2",
       "evidenceRefs": [
         ".tmp/readwise/priority-evidence.json#documents.01m4n8p6vpv8f7fskzk68mn97z"
       ],
-      "judgedBy": "codex-semantic-review-2026-10-12",
-      "judgedAt": "2026-10-12T12:00:00Z"
+      "judgedBy": "codex-semantic-review-2026-10-13-inbox",
+      "judgedAt": "2026-10-13T12:00:00Z"
     },
     "01m4n47f9t1xt5pxtksk719rw4": {
       "sourceFingerprint": "f83af9d8a71efcf66dec2a1c1be1e03c898e32161efb7f2621b082db204c0d8a",
@@ -89288,6 +89319,963 @@
       ],
       "judgedBy": "codex-semantic-review-2026-10-12",
       "judgedAt": "2026-10-12T12:00:00Z"
+    },
+    "01m4ts5gzpy966a4qqzwkfsex8": {
+      "sourceFingerprint": "94e770294de00b90e15a4ffee81f462de69fd256be2c9289b013ec6f67daac6f",
+      "evidenceFingerprint": "a4431c460404dc16fbe2f00b5290f23c34cbd6f84b0e1049a37b3fae1269ba7a",
+      "relevance": 3,
+      "substance": 2,
+      "durability": 2,
+      "usefulness": 2,
+      "sequenceFit": {
+        "video": 0,
+        "boek": 0,
+        "pdf": 0,
+        "lees": 1,
+        "dutch": 0,
+        "short": 0,
+        "short-dutch": 0,
+        "luchtig": 2,
+        "luchtig-nederlands": 0,
+        "scrum": 0,
+        "software-development": 0,
+        "front-end-development": 0,
+        "social-studies": 0,
+        "adhd": 0,
+        "philosophy": 0
+      },
+      "topicRelevance": {
+        "scrum": 0,
+        "software-development": 0,
+        "front-end-development": 0,
+        "social-studies": 2,
+        "adhd": 0,
+        "philosophy": 1
+      },
+      "confidence": "medium",
+      "reasonCodes": [
+        "semantic-review",
+        "independent-of-current-position",
+        "evidence:title-summary-notes",
+        "interest:culture",
+        "interest:technology"
+      ],
+      "status": "accepted",
+      "rubricVersion": "semantic-v2",
+      "evidenceRefs": [
+        ".tmp/readwise/priority-evidence.json#documents.01m4ts5gzpy966a4qqzwkfsex8"
+      ],
+      "judgedBy": "codex-semantic-review-2026-10-13-inbox",
+      "judgedAt": "2026-10-13T12:00:00Z"
+    },
+    "01m4tq9t231vq6tqx0amt4x68r": {
+      "sourceFingerprint": "b78060252c67c8814819e96ba4a2c3f055a25e989308786ddbd46ac0700f0e5f",
+      "evidenceFingerprint": "35720dac1e79bd33602bad5b4934bed16db26034eb484406ef11157fbef23961",
+      "relevance": 4,
+      "substance": 4,
+      "durability": 4,
+      "usefulness": 3,
+      "sequenceFit": {
+        "video": 0,
+        "boek": 0,
+        "pdf": 0,
+        "lees": 2,
+        "dutch": 0,
+        "short": 0,
+        "short-dutch": 0,
+        "luchtig": 0,
+        "luchtig-nederlands": 0,
+        "scrum": 0,
+        "software-development": 0,
+        "front-end-development": 0,
+        "social-studies": 0,
+        "adhd": 0,
+        "philosophy": 0
+      },
+      "topicRelevance": {
+        "scrum": 0,
+        "software-development": 0,
+        "front-end-development": 0,
+        "social-studies": 1,
+        "adhd": 0,
+        "philosophy": 4
+      },
+      "confidence": "high",
+      "reasonCodes": [
+        "semantic-review",
+        "independent-of-current-position",
+        "evidence:title-summary-notes",
+        "interest:philosophy",
+        "interest:science"
+      ],
+      "status": "accepted",
+      "rubricVersion": "semantic-v2",
+      "evidenceRefs": [
+        ".tmp/readwise/priority-evidence.json#documents.01m4tq9t231vq6tqx0amt4x68r"
+      ],
+      "judgedBy": "codex-semantic-review-2026-10-13-inbox",
+      "judgedAt": "2026-10-13T12:00:00Z"
+    },
+    "01m4tk38kqd8vdtzcv4ncq214e": {
+      "sourceFingerprint": "584da18892263aa49661d75237594311365306bb6d10217487e8b232ed9b390c",
+      "evidenceFingerprint": "2fd76ac35a660d485463c142ffb892df5fbf882e7723ea837432e5a08e3c27e1",
+      "relevance": 4,
+      "substance": 3,
+      "durability": 3,
+      "usefulness": 3,
+      "sequenceFit": {
+        "video": 0,
+        "boek": 0,
+        "pdf": 0,
+        "lees": 2,
+        "dutch": 0,
+        "short": 0,
+        "short-dutch": 0,
+        "luchtig": 0,
+        "luchtig-nederlands": 0,
+        "scrum": 0,
+        "software-development": 0,
+        "front-end-development": 0,
+        "social-studies": 0,
+        "adhd": 0,
+        "philosophy": 0
+      },
+      "topicRelevance": {
+        "scrum": 0,
+        "software-development": 0,
+        "front-end-development": 0,
+        "social-studies": 3,
+        "adhd": 0,
+        "philosophy": 2
+      },
+      "confidence": "medium",
+      "reasonCodes": [
+        "semantic-review",
+        "independent-of-current-position",
+        "evidence:title-summary-notes",
+        "interest:politics",
+        "interest:social-systems"
+      ],
+      "status": "accepted",
+      "rubricVersion": "semantic-v2",
+      "evidenceRefs": [
+        ".tmp/readwise/priority-evidence.json#documents.01m4tk38kqd8vdtzcv4ncq214e"
+      ],
+      "judgedBy": "codex-semantic-review-2026-10-13-inbox",
+      "judgedAt": "2026-10-13T12:00:00Z"
+    },
+    "01m4tbm78gxkd1b7nwg3abadme": {
+      "sourceFingerprint": "d46acd70fd0bde1ca81e23e5fd860d9f651ea2eb5fb2d42d70c690b3f2e6c37c",
+      "evidenceFingerprint": "e5faabc27747a0b875ecba257c8f811a72b55ee5e812a4c1a10780a66af66d3f",
+      "relevance": 3,
+      "substance": 4,
+      "durability": 4,
+      "usefulness": 2,
+      "sequenceFit": {
+        "video": 0,
+        "boek": 0,
+        "pdf": 0,
+        "lees": 2,
+        "dutch": 0,
+        "short": 0,
+        "short-dutch": 0,
+        "luchtig": 0,
+        "luchtig-nederlands": 0,
+        "scrum": 0,
+        "software-development": 0,
+        "front-end-development": 0,
+        "social-studies": 0,
+        "adhd": 0,
+        "philosophy": 0
+      },
+      "topicRelevance": {
+        "scrum": 0,
+        "software-development": 0,
+        "front-end-development": 0,
+        "social-studies": 1,
+        "adhd": 0,
+        "philosophy": 1
+      },
+      "confidence": "high",
+      "reasonCodes": [
+        "semantic-review",
+        "independent-of-current-position",
+        "evidence:title-summary-notes",
+        "interest:history",
+        "interest:sustainability"
+      ],
+      "status": "accepted",
+      "rubricVersion": "semantic-v2",
+      "evidenceRefs": [
+        ".tmp/readwise/priority-evidence.json#documents.01m4tbm78gxkd1b7nwg3abadme"
+      ],
+      "judgedBy": "codex-semantic-review-2026-10-13-inbox",
+      "judgedAt": "2026-10-13T12:00:00Z"
+    },
+    "01m4tbffthp28zc274jc80c0kt": {
+      "sourceFingerprint": "2e0cb0c3c1cb6efc2ed961e359eee1055df2bb5fe29eaa07f22ace011a1c387f",
+      "evidenceFingerprint": "2ef78709577c3e08214735e166a0f38018147c730196c0db7ada28db585591ca",
+      "relevance": 4,
+      "substance": 3,
+      "durability": 2,
+      "usefulness": 4,
+      "sequenceFit": {
+        "video": 0,
+        "boek": 0,
+        "pdf": 0,
+        "lees": 2,
+        "dutch": 0,
+        "short": 1,
+        "short-dutch": 0,
+        "luchtig": 0,
+        "luchtig-nederlands": 0,
+        "scrum": 0,
+        "software-development": 0,
+        "front-end-development": 0,
+        "social-studies": 0,
+        "adhd": 0,
+        "philosophy": 0
+      },
+      "topicRelevance": {
+        "scrum": 1,
+        "software-development": 3,
+        "front-end-development": 1,
+        "social-studies": 1,
+        "adhd": 0,
+        "philosophy": 2
+      },
+      "confidence": "medium",
+      "reasonCodes": [
+        "semantic-review",
+        "independent-of-current-position",
+        "evidence:title-summary-notes",
+        "interest:technology",
+        "interest:software"
+      ],
+      "status": "accepted",
+      "rubricVersion": "semantic-v2",
+      "evidenceRefs": [
+        ".tmp/readwise/priority-evidence.json#documents.01m4tbffthp28zc274jc80c0kt"
+      ],
+      "judgedBy": "codex-semantic-review-2026-10-13-inbox",
+      "judgedAt": "2026-10-13T12:00:00Z"
+    },
+    "01m4t6040xhse0dv9efp1v819x": {
+      "sourceFingerprint": "3d4f68025de38305c0f2c072869e881cdc85ad9268cbfdb5ee2c671de046a43b",
+      "evidenceFingerprint": "24293b183a466443cd2a7f67cc9e9041768922da1e1fca50bd45222392e95caf",
+      "relevance": 4,
+      "substance": 3,
+      "durability": 3,
+      "usefulness": 4,
+      "sequenceFit": {
+        "video": 0,
+        "boek": 0,
+        "pdf": 0,
+        "lees": 2,
+        "dutch": 0,
+        "short": 0,
+        "short-dutch": 0,
+        "luchtig": 0,
+        "luchtig-nederlands": 0,
+        "scrum": 0,
+        "software-development": 0,
+        "front-end-development": 0,
+        "social-studies": 0,
+        "adhd": 0,
+        "philosophy": 0
+      },
+      "topicRelevance": {
+        "scrum": 3,
+        "software-development": 2,
+        "front-end-development": 1,
+        "social-studies": 2,
+        "adhd": 0,
+        "philosophy": 0
+      },
+      "confidence": "high",
+      "reasonCodes": [
+        "semantic-review",
+        "independent-of-current-position",
+        "evidence:title-summary-notes",
+        "interest:scrum",
+        "interest:delivery"
+      ],
+      "status": "accepted",
+      "rubricVersion": "semantic-v2",
+      "evidenceRefs": [
+        ".tmp/readwise/priority-evidence.json#documents.01m4t6040xhse0dv9efp1v819x"
+      ],
+      "judgedBy": "codex-semantic-review-2026-10-13-inbox",
+      "judgedAt": "2026-10-13T12:00:00Z"
+    },
+    "01m4sxmnb7mg0r86azdrbrfqa2": {
+      "sourceFingerprint": "2594400f259b60f5749add45329047da31ce91480c41cce632cf69a5baa50620",
+      "evidenceFingerprint": "17cd6f01c321ed98a89ab2152870fd5a5f38c1d97f6d64d79eecbea45eba0887",
+      "relevance": 4,
+      "substance": 3,
+      "durability": 4,
+      "usefulness": 4,
+      "sequenceFit": {
+        "video": 0,
+        "boek": 0,
+        "pdf": 0,
+        "lees": 2,
+        "dutch": 0,
+        "short": 0,
+        "short-dutch": 0,
+        "luchtig": 0,
+        "luchtig-nederlands": 0,
+        "scrum": 0,
+        "software-development": 0,
+        "front-end-development": 0,
+        "social-studies": 0,
+        "adhd": 0,
+        "philosophy": 0
+      },
+      "topicRelevance": {
+        "scrum": 2,
+        "software-development": 2,
+        "front-end-development": 1,
+        "social-studies": 3,
+        "adhd": 0,
+        "philosophy": 1
+      },
+      "confidence": "high",
+      "reasonCodes": [
+        "semantic-review",
+        "independent-of-current-position",
+        "evidence:title-summary-notes",
+        "interest:professional-development",
+        "interest:scrum"
+      ],
+      "status": "accepted",
+      "rubricVersion": "semantic-v2",
+      "evidenceRefs": [
+        ".tmp/readwise/priority-evidence.json#documents.01m4sxmnb7mg0r86azdrbrfqa2"
+      ],
+      "judgedBy": "codex-semantic-review-2026-10-13-inbox",
+      "judgedAt": "2026-10-13T12:00:00Z"
+    },
+    "01m4sr05b5ff5f8bpv471yt1jw": {
+      "sourceFingerprint": "a07132c4a7d591b67ec714af40fbc83f5ca76fce2ced847dd076fa5e35ec220b",
+      "evidenceFingerprint": "103866b90860e8fcdc0c1a731103d9fcbcee317838520eeb398d4e9fb22a3932",
+      "relevance": 4,
+      "substance": 4,
+      "durability": 3,
+      "usefulness": 4,
+      "sequenceFit": {
+        "video": 0,
+        "boek": 0,
+        "pdf": 0,
+        "lees": 2,
+        "dutch": 0,
+        "short": 0,
+        "short-dutch": 0,
+        "luchtig": 0,
+        "luchtig-nederlands": 0,
+        "scrum": 0,
+        "software-development": 0,
+        "front-end-development": 0,
+        "social-studies": 0,
+        "adhd": 0,
+        "philosophy": 0
+      },
+      "topicRelevance": {
+        "scrum": 1,
+        "software-development": 4,
+        "front-end-development": 1,
+        "social-studies": 2,
+        "adhd": 0,
+        "philosophy": 1
+      },
+      "confidence": "high",
+      "reasonCodes": [
+        "semantic-review",
+        "independent-of-current-position",
+        "evidence:title-summary-notes",
+        "interest:technology",
+        "interest:software"
+      ],
+      "status": "accepted",
+      "rubricVersion": "semantic-v2",
+      "evidenceRefs": [
+        ".tmp/readwise/priority-evidence.json#documents.01m4sr05b5ff5f8bpv471yt1jw"
+      ],
+      "judgedBy": "codex-semantic-review-2026-10-13-inbox",
+      "judgedAt": "2026-10-13T12:00:00Z"
+    },
+    "01m4sk7xbev0csngrkw7ezxfh0": {
+      "sourceFingerprint": "2fe0cec9745e2381e6467cae6ae80c2357f10766c594b062d70e78694357ec31",
+      "evidenceFingerprint": "197e33cc6ecdc2b40442c8020b3f178b53920c45985fda877683565b9208c099",
+      "relevance": 4,
+      "substance": 3,
+      "durability": 4,
+      "usefulness": 4,
+      "sequenceFit": {
+        "video": 0,
+        "boek": 0,
+        "pdf": 0,
+        "lees": 2,
+        "dutch": 0,
+        "short": 0,
+        "short-dutch": 0,
+        "luchtig": 0,
+        "luchtig-nederlands": 0,
+        "scrum": 0,
+        "software-development": 0,
+        "front-end-development": 0,
+        "social-studies": 0,
+        "adhd": 0,
+        "philosophy": 0
+      },
+      "topicRelevance": {
+        "scrum": 2,
+        "software-development": 1,
+        "front-end-development": 0,
+        "social-studies": 4,
+        "adhd": 2,
+        "philosophy": 1
+      },
+      "confidence": "high",
+      "reasonCodes": [
+        "semantic-review",
+        "independent-of-current-position",
+        "evidence:title-summary-notes",
+        "interest:social-psychology",
+        "interest:work"
+      ],
+      "status": "accepted",
+      "rubricVersion": "semantic-v2",
+      "evidenceRefs": [
+        ".tmp/readwise/priority-evidence.json#documents.01m4sk7xbev0csngrkw7ezxfh0"
+      ],
+      "judgedBy": "codex-semantic-review-2026-10-13-inbox",
+      "judgedAt": "2026-10-13T12:00:00Z"
+    },
+    "01m4rryfnwj64j3q9768jwqps4": {
+      "sourceFingerprint": "60527ee2cd25a0d289bd45ea9638ce0e7b4803dca49afcab48523a958cdb9f7f",
+      "evidenceFingerprint": "4e521ad104928856e2d74b09b96338bfe313ce23ef65d36927131077f65ecc93",
+      "relevance": 3,
+      "substance": 2,
+      "durability": 2,
+      "usefulness": 2,
+      "sequenceFit": {
+        "video": 0,
+        "boek": 0,
+        "pdf": 0,
+        "lees": 1,
+        "dutch": 0,
+        "short": 0,
+        "short-dutch": 0,
+        "luchtig": 2,
+        "luchtig-nederlands": 0,
+        "scrum": 0,
+        "software-development": 0,
+        "front-end-development": 0,
+        "social-studies": 0,
+        "adhd": 0,
+        "philosophy": 0
+      },
+      "topicRelevance": {
+        "scrum": 0,
+        "software-development": 0,
+        "front-end-development": 0,
+        "social-studies": 2,
+        "adhd": 0,
+        "philosophy": 1
+      },
+      "confidence": "medium",
+      "reasonCodes": [
+        "semantic-review",
+        "independent-of-current-position",
+        "evidence:title-summary-notes",
+        "interest:culture"
+      ],
+      "status": "accepted",
+      "rubricVersion": "semantic-v2",
+      "evidenceRefs": [
+        ".tmp/readwise/priority-evidence.json#documents.01m4rryfnwj64j3q9768jwqps4"
+      ],
+      "judgedBy": "codex-semantic-review-2026-10-13-inbox",
+      "judgedAt": "2026-10-13T12:00:00Z"
+    },
+    "01m4rqdgmsv1r1wzrt02j9f70c": {
+      "sourceFingerprint": "686e5fc11922759b74a4f718713ea03665af299cd9a6d64610764fd7b34c18a2",
+      "evidenceFingerprint": "6b2b2cbbccda787b058146aa3bdd265284bf2731e9bb12138d56c9dadc33f830",
+      "relevance": 4,
+      "substance": 3,
+      "durability": 3,
+      "usefulness": 4,
+      "sequenceFit": {
+        "video": 0,
+        "boek": 0,
+        "pdf": 0,
+        "lees": 2,
+        "dutch": 0,
+        "short": 0,
+        "short-dutch": 0,
+        "luchtig": 0,
+        "luchtig-nederlands": 0,
+        "scrum": 0,
+        "software-development": 0,
+        "front-end-development": 0,
+        "social-studies": 0,
+        "adhd": 0,
+        "philosophy": 0
+      },
+      "topicRelevance": {
+        "scrum": 2,
+        "software-development": 4,
+        "front-end-development": 2,
+        "social-studies": 2,
+        "adhd": 0,
+        "philosophy": 1
+      },
+      "confidence": "high",
+      "reasonCodes": [
+        "semantic-review",
+        "independent-of-current-position",
+        "evidence:title-summary-notes",
+        "interest:software",
+        "interest:learning"
+      ],
+      "status": "accepted",
+      "rubricVersion": "semantic-v2",
+      "evidenceRefs": [
+        ".tmp/readwise/priority-evidence.json#documents.01m4rqdgmsv1r1wzrt02j9f70c"
+      ],
+      "judgedBy": "codex-semantic-review-2026-10-13-inbox",
+      "judgedAt": "2026-10-13T12:00:00Z"
+    },
+    "01m4rnqc6m9f69tsdxjdrw9a6z": {
+      "sourceFingerprint": "820f7dc1df33c1b7e4e7c90d580ce599472bd61871a41713899c553c831ed010",
+      "evidenceFingerprint": "bfc47368377f6c69aa924d2cc4e82da8e41989dbb3dba695e59ffd364c394361",
+      "relevance": 4,
+      "substance": 2,
+      "durability": 3,
+      "usefulness": 3,
+      "sequenceFit": {
+        "video": 0,
+        "boek": 0,
+        "pdf": 0,
+        "lees": 1,
+        "dutch": 0,
+        "short": 1,
+        "short-dutch": 0,
+        "luchtig": 0,
+        "luchtig-nederlands": 0,
+        "scrum": 0,
+        "software-development": 0,
+        "front-end-development": 0,
+        "social-studies": 0,
+        "adhd": 0,
+        "philosophy": 0
+      },
+      "topicRelevance": {
+        "scrum": 1,
+        "software-development": 3,
+        "front-end-development": 1,
+        "social-studies": 1,
+        "adhd": 0,
+        "philosophy": 1
+      },
+      "confidence": "medium",
+      "reasonCodes": [
+        "semantic-review",
+        "independent-of-current-position",
+        "evidence:title-summary-notes",
+        "interest:software",
+        "interest:professional-development"
+      ],
+      "status": "accepted",
+      "rubricVersion": "semantic-v2",
+      "evidenceRefs": [
+        ".tmp/readwise/priority-evidence.json#documents.01m4rnqc6m9f69tsdxjdrw9a6z"
+      ],
+      "judgedBy": "codex-semantic-review-2026-10-13-inbox",
+      "judgedAt": "2026-10-13T12:00:00Z"
+    },
+    "01m4rh2wpfz2241r0mdts94qyx": {
+      "sourceFingerprint": "e75ac0868b11c56cfa6967d8b71154e7b2d1cc25238783117d03dcc26c89d0a1",
+      "evidenceFingerprint": "3e36849b867c2d43af9069e429951a76dfed322a9d4df7cf2eee02bd7ff85b98",
+      "relevance": 4,
+      "substance": 3,
+      "durability": 4,
+      "usefulness": 3,
+      "sequenceFit": {
+        "video": 0,
+        "boek": 0,
+        "pdf": 0,
+        "lees": 2,
+        "dutch": 0,
+        "short": 0,
+        "short-dutch": 0,
+        "luchtig": 0,
+        "luchtig-nederlands": 0,
+        "scrum": 0,
+        "software-development": 0,
+        "front-end-development": 0,
+        "social-studies": 0,
+        "adhd": 0,
+        "philosophy": 0
+      },
+      "topicRelevance": {
+        "scrum": 0,
+        "software-development": 1,
+        "front-end-development": 0,
+        "social-studies": 1,
+        "adhd": 0,
+        "philosophy": 4
+      },
+      "confidence": "high",
+      "reasonCodes": [
+        "semantic-review",
+        "independent-of-current-position",
+        "evidence:title-summary-notes",
+        "interest:philosophy",
+        "interest:technology"
+      ],
+      "status": "accepted",
+      "rubricVersion": "semantic-v2",
+      "evidenceRefs": [
+        ".tmp/readwise/priority-evidence.json#documents.01m4rh2wpfz2241r0mdts94qyx"
+      ],
+      "judgedBy": "codex-semantic-review-2026-10-13-inbox",
+      "judgedAt": "2026-10-13T12:00:00Z"
+    },
+    "01m4rgb9x99m9dbdn232defnpe": {
+      "sourceFingerprint": "f359f6b8a9750297fd3c57ff5ff4992ae4604283575ba1600d5131c2ddcbfc66",
+      "evidenceFingerprint": "10d5a5cf9a054a956e5951b46dd9f376036521b9e529d54985b4a7f1867ce180",
+      "relevance": 3,
+      "substance": 2,
+      "durability": 3,
+      "usefulness": 4,
+      "sequenceFit": {
+        "video": 0,
+        "boek": 0,
+        "pdf": 0,
+        "lees": 1,
+        "dutch": 0,
+        "short": 0,
+        "short-dutch": 0,
+        "luchtig": 1,
+        "luchtig-nederlands": 0,
+        "scrum": 0,
+        "software-development": 0,
+        "front-end-development": 0,
+        "social-studies": 0,
+        "adhd": 0,
+        "philosophy": 0
+      },
+      "topicRelevance": {
+        "scrum": 0,
+        "software-development": 0,
+        "front-end-development": 0,
+        "social-studies": 1,
+        "adhd": 1,
+        "philosophy": 1
+      },
+      "confidence": "medium",
+      "reasonCodes": [
+        "semantic-review",
+        "independent-of-current-position",
+        "evidence:title-summary-notes",
+        "interest:personal-growth"
+      ],
+      "status": "accepted",
+      "rubricVersion": "semantic-v2",
+      "evidenceRefs": [
+        ".tmp/readwise/priority-evidence.json#documents.01m4rgb9x99m9dbdn232defnpe"
+      ],
+      "judgedBy": "codex-semantic-review-2026-10-13-inbox",
+      "judgedAt": "2026-10-13T12:00:00Z"
+    },
+    "01m4rfn408wjdpj31y7jw5y2dz": {
+      "sourceFingerprint": "0ba3946e80c56b06d99232c31aefc31ba82e82b69eec40870a600b353ca75b9a",
+      "evidenceFingerprint": "31158a68297fa049c5b233336922cb1aa5460197e4f60c2a69d60f86a132c419",
+      "relevance": 3,
+      "substance": 2,
+      "durability": 3,
+      "usefulness": 3,
+      "sequenceFit": {
+        "video": 0,
+        "boek": 0,
+        "pdf": 0,
+        "lees": 1,
+        "dutch": 0,
+        "short": 0,
+        "short-dutch": 0,
+        "luchtig": 2,
+        "luchtig-nederlands": 0,
+        "scrum": 0,
+        "software-development": 0,
+        "front-end-development": 0,
+        "social-studies": 0,
+        "adhd": 0,
+        "philosophy": 0
+      },
+      "topicRelevance": {
+        "scrum": 0,
+        "software-development": 2,
+        "front-end-development": 1,
+        "social-studies": 1,
+        "adhd": 0,
+        "philosophy": 1
+      },
+      "confidence": "medium",
+      "reasonCodes": [
+        "semantic-review",
+        "independent-of-current-position",
+        "evidence:title-summary-notes",
+        "interest:culture",
+        "interest:software"
+      ],
+      "status": "accepted",
+      "rubricVersion": "semantic-v2",
+      "evidenceRefs": [
+        ".tmp/readwise/priority-evidence.json#documents.01m4rfn408wjdpj31y7jw5y2dz"
+      ],
+      "judgedBy": "codex-semantic-review-2026-10-13-inbox",
+      "judgedAt": "2026-10-13T12:00:00Z"
+    },
+    "01m4rdscdkr8kjrp80d0xmt42f": {
+      "sourceFingerprint": "04b52d3abfc817bfb9a6e0b86e06d230246b1716e3c66fdef0f7c0ac8882c0aa",
+      "evidenceFingerprint": "b4300339c0c20b6579a396ce7d59358d51bd56952ab1fbcf7bc58915efdeedd6",
+      "relevance": 3,
+      "substance": 2,
+      "durability": 2,
+      "usefulness": 3,
+      "sequenceFit": {
+        "video": 0,
+        "boek": 0,
+        "pdf": 0,
+        "lees": 1,
+        "dutch": 0,
+        "short": 1,
+        "short-dutch": 0,
+        "luchtig": 2,
+        "luchtig-nederlands": 0,
+        "scrum": 0,
+        "software-development": 0,
+        "front-end-development": 0,
+        "social-studies": 0,
+        "adhd": 0,
+        "philosophy": 0
+      },
+      "topicRelevance": {
+        "scrum": 0,
+        "software-development": 0,
+        "front-end-development": 0,
+        "social-studies": 2,
+        "adhd": 0,
+        "philosophy": 1
+      },
+      "confidence": "medium",
+      "reasonCodes": [
+        "semantic-review",
+        "independent-of-current-position",
+        "evidence:title-summary-notes",
+        "interest:personal-growth",
+        "interest:social-systems"
+      ],
+      "status": "accepted",
+      "rubricVersion": "semantic-v2",
+      "evidenceRefs": [
+        ".tmp/readwise/priority-evidence.json#documents.01m4rdscdkr8kjrp80d0xmt42f"
+      ],
+      "judgedBy": "codex-semantic-review-2026-10-13-inbox",
+      "judgedAt": "2026-10-13T12:00:00Z"
+    },
+    "01m4rcez7h7kp9gjqeryqwth0y": {
+      "sourceFingerprint": "c2221a66e0940e205ef0b55e727888e941e968a7fc412ef268816fc1a89e2316",
+      "evidenceFingerprint": "15250206480972812aa97dbd64bffdda9cd4030171dacda806d45a6199aced6a",
+      "relevance": 4,
+      "substance": 3,
+      "durability": 3,
+      "usefulness": 4,
+      "sequenceFit": {
+        "video": 0,
+        "boek": 0,
+        "pdf": 0,
+        "lees": 2,
+        "dutch": 0,
+        "short": 0,
+        "short-dutch": 0,
+        "luchtig": 0,
+        "luchtig-nederlands": 0,
+        "scrum": 0,
+        "software-development": 0,
+        "front-end-development": 0,
+        "social-studies": 0,
+        "adhd": 0,
+        "philosophy": 0
+      },
+      "topicRelevance": {
+        "scrum": 0,
+        "software-development": 2,
+        "front-end-development": 1,
+        "social-studies": 1,
+        "adhd": 0,
+        "philosophy": 2
+      },
+      "confidence": "high",
+      "reasonCodes": [
+        "semantic-review",
+        "independent-of-current-position",
+        "evidence:title-summary-notes",
+        "interest:technology",
+        "interest:software"
+      ],
+      "status": "accepted",
+      "rubricVersion": "semantic-v2",
+      "evidenceRefs": [
+        ".tmp/readwise/priority-evidence.json#documents.01m4rcez7h7kp9gjqeryqwth0y"
+      ],
+      "judgedBy": "codex-semantic-review-2026-10-13-inbox",
+      "judgedAt": "2026-10-13T12:00:00Z"
+    },
+    "01m4qz463jjk0e6ve0qxtt5s0w": {
+      "sourceFingerprint": "6ced55b4bff34dc5242551fe42a5ff5ddd729543b9fe671e270ba201744f4c45",
+      "evidenceFingerprint": "17fe85fc3cc582eb1895794280c3f4f6c8b07ddd2783545427092d570ad682ef",
+      "relevance": 4,
+      "substance": 3,
+      "durability": 4,
+      "usefulness": 3,
+      "sequenceFit": {
+        "video": 0,
+        "boek": 0,
+        "pdf": 0,
+        "lees": 2,
+        "dutch": 0,
+        "short": 1,
+        "short-dutch": 0,
+        "luchtig": 0,
+        "luchtig-nederlands": 0,
+        "scrum": 0,
+        "software-development": 0,
+        "front-end-development": 0,
+        "social-studies": 0,
+        "adhd": 0,
+        "philosophy": 0
+      },
+      "topicRelevance": {
+        "scrum": 0,
+        "software-development": 0,
+        "front-end-development": 0,
+        "social-studies": 1,
+        "adhd": 0,
+        "philosophy": 4
+      },
+      "confidence": "high",
+      "reasonCodes": [
+        "semantic-review",
+        "independent-of-current-position",
+        "evidence:title-summary-notes",
+        "interest:philosophy"
+      ],
+      "status": "accepted",
+      "rubricVersion": "semantic-v2",
+      "evidenceRefs": [
+        ".tmp/readwise/priority-evidence.json#documents.01m4qz463jjk0e6ve0qxtt5s0w"
+      ],
+      "judgedBy": "codex-semantic-review-2026-10-13-inbox",
+      "judgedAt": "2026-10-13T12:00:00Z"
+    },
+    "01m4qtqgx2she3t2xh4z4qgx3e": {
+      "sourceFingerprint": "bbac836f382e3e2ba5cd6b2de09a1a067e09b8f63c5fab3dd6c37db86d302860",
+      "evidenceFingerprint": "f0eebacdc28bbae8b0731af8c4bb3dd1521ff77510b54f9d97ac4c85040b8dea",
+      "relevance": 3,
+      "substance": 2,
+      "durability": 3,
+      "usefulness": 4,
+      "sequenceFit": {
+        "video": 0,
+        "boek": 0,
+        "pdf": 0,
+        "lees": 1,
+        "dutch": 0,
+        "short": 0,
+        "short-dutch": 0,
+        "luchtig": 0,
+        "luchtig-nederlands": 0,
+        "scrum": 0,
+        "software-development": 0,
+        "front-end-development": 0,
+        "social-studies": 0,
+        "adhd": 0,
+        "philosophy": 0
+      },
+      "topicRelevance": {
+        "scrum": 2,
+        "software-development": 0,
+        "front-end-development": 0,
+        "social-studies": 3,
+        "adhd": 0,
+        "philosophy": 0
+      },
+      "confidence": "medium",
+      "reasonCodes": [
+        "semantic-review",
+        "independent-of-current-position",
+        "evidence:title-summary-notes",
+        "interest:professional-development",
+        "interest:social-psychology"
+      ],
+      "status": "accepted",
+      "rubricVersion": "semantic-v2",
+      "evidenceRefs": [
+        ".tmp/readwise/priority-evidence.json#documents.01m4qtqgx2she3t2xh4z4qgx3e"
+      ],
+      "judgedBy": "codex-semantic-review-2026-10-13-inbox",
+      "judgedAt": "2026-10-13T12:00:00Z"
+    },
+    "01m4qt1dzvtb0xdbjpcm4sxgw2": {
+      "sourceFingerprint": "3429583041353786e09a304f558d6fb67147b4fa2b6836b390753243c01f113f",
+      "evidenceFingerprint": "45938e16c42260221776693252f4dd4f2a41d958b2b6a85f480b4e3e671dce56",
+      "relevance": 3,
+      "substance": 2,
+      "durability": 2,
+      "usefulness": 3,
+      "sequenceFit": {
+        "video": 0,
+        "boek": 0,
+        "pdf": 0,
+        "lees": 1,
+        "dutch": 0,
+        "short": 1,
+        "short-dutch": 0,
+        "luchtig": 0,
+        "luchtig-nederlands": 0,
+        "scrum": 0,
+        "software-development": 0,
+        "front-end-development": 0,
+        "social-studies": 0,
+        "adhd": 0,
+        "philosophy": 0
+      },
+      "topicRelevance": {
+        "scrum": 0,
+        "software-development": 0,
+        "front-end-development": 0,
+        "social-studies": 1,
+        "adhd": 1,
+        "philosophy": 1
+      },
+      "confidence": "medium",
+      "reasonCodes": [
+        "semantic-review",
+        "independent-of-current-position",
+        "evidence:title-summary-notes",
+        "interest:learning",
+        "interest:personal-growth"
+      ],
+      "status": "accepted",
+      "rubricVersion": "semantic-v2",
+      "evidenceRefs": [
+        ".tmp/readwise/priority-evidence.json#documents.01m4qt1dzvtb0xdbjpcm4sxgw2"
+      ],
+      "judgedBy": "codex-semantic-review-2026-10-13-inbox",
+      "judgedAt": "2026-10-13T12:00:00Z"
     }
   }
 }
