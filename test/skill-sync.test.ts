@@ -60,7 +60,7 @@ test("repository discovery prefers a valid current worktree and then an explicit
   const explicitRoot = await makeFixtureRoot("explicit-repo");
   await mkdir(join(explicitRoot, "skills"), { recursive: true });
   await writeFile(join(explicitRoot, "package.json"), JSON.stringify({ name: "top-articles" }), "utf8");
-  await writeFile(join(explicitRoot, "skills", "readwise-cli"), "", "utf8");
+  await mkdir(join(explicitRoot, "skills", "readwise-cli"), { recursive: true });
   assert.equal(
     discoverRepositoryRoot({ cwd: "/tmp", env: { TOP_ARTICLES_REPO: explicitRoot } }),
     explicitRoot,

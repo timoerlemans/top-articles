@@ -1,7 +1,7 @@
 import { createHash } from "node:crypto";
 import { execFileSync } from "node:child_process";
-import { readFileSync } from "node:fs";
-import { access, mkdir, readdir, readFile, rename, rm, stat, writeFile } from "node:fs/promises";
+import { existsSync, readFileSync } from "node:fs";
+import { mkdir, readdir, readFile, rename, rm, stat, writeFile } from "node:fs/promises";
 import { homedir } from "node:os";
 import { dirname, join, relative, resolve } from "node:path";
 
@@ -80,6 +80,10 @@ export interface RepositoryDiscoveryOptions {
   readonly cwd?: string;
   readonly env?: NodeJS.ProcessEnv;
   readonly candidates?: readonly string[];
+}
+
+export function defaultSkillInstallRoot(env: NodeJS.ProcessEnv = process.env): string {
+  return resolve(env.READWISE_SKILLS_INSTALL_DIR ?? env.CLAUDE_SKILLS_DIR ?? join(homedir(), ".claude", "skills"));
 }
 
 const DEFAULT_REPOSITORY_CANDIDATES = [
@@ -256,7 +260,7 @@ export async function applySkillSyncPlan(plan: SkillSyncPlan, options: ApplySkil
   const conflicted: string[] = [];
   const unchanged: string[] = [];
   const preserved: string[] = [];
-  const nextBaseline: Record<string, string> = { ...plan.baseline.files };
+  let nextBaseline: Record<string, string> = { ...plan.baseline.files };
   for (const operation of plan.operations) {
     if (operation.kind === "unchanged") {
       unchanged.push(operation.relativePath);
@@ -289,7 +293,7 @@ export async function applySkillSyncPlan(plan: SkillSyncPlan, options: ApplySkil
     const target = join(plan.installRoot, operation.relativePath);
     if (operation.kind === "delete") {
       await rm(target, { force: true });
-      delete nextBaseline[operation.relativePath];
+      nextBaseline = Object.fromEntries(Object.entries(nextBaseline).filter(([path]) => path !== operation.relativePath));
     } else if (operation.source) {
       await writeAtomically(target, operation.source.content);
       nextBaseline[operation.relativePath] = operation.source.sha256;
@@ -305,7 +309,7 @@ export async function applySkillSyncPlan(plan: SkillSyncPlan, options: ApplySkil
 function repositoryLooksValid(path: string): boolean {
   try {
     const packageJson = JSON.parse(requireFile(path, "package.json")) as unknown;
-    return isRecord(packageJson) && packageJson.name === "top-articles";
+    return isRecord(packageJson) && packageJson.name === "top-articles" && existsSync(join(path, "skills", MANAGED_READWISE_SKILLS[0]));
   } catch {
     return false;
   }

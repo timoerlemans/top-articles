@@ -3,6 +3,7 @@ import { join } from "node:path";
 import {
   MANAGED_READWISE_SKILLS,
   buildSkillSyncPlan,
+  snapshotSkillSource,
   type SkillSnapshot,
 } from "./skill-sync.js";
 
@@ -150,6 +151,14 @@ export async function checkSkillRepository(options: SkillCheckOptions): Promise<
   const checkedSkills = MANAGED_READWISE_SKILLS.length;
   let checkedFiles = 0;
 
+  let sourceSnapshot: SkillSnapshot | undefined;
+  try {
+    sourceSnapshot = await snapshotSkillSource(sourceRoot);
+    checkedFiles = sourceSnapshot.size;
+  } catch (error) {
+    errors.push(error instanceof Error ? error.message : "Managed Readwise-skillbron kon niet worden gelezen.");
+  }
+
   for (const skill of MANAGED_READWISE_SKILLS) {
     checkedFiles += await checkSkillMetadata(sourceRoot, skill, errors);
   }
@@ -171,8 +180,10 @@ export async function checkSkillRepository(options: SkillCheckOptions): Promise<
     if (!options.installRoot) {
       errors.push("--compare-installed vereist een installatielocatie.");
     } else {
-      const plan = await buildSkillSyncPlan({ sourceRoot, installRoot: options.installRoot });
-      drift.push(...compareInstalled(plan.source, plan.installed));
+      if (sourceSnapshot) {
+        const plan = await buildSkillSyncPlan({ sourceRoot, installRoot: options.installRoot });
+        drift.push(...compareInstalled(plan.source, plan.installed));
+      }
       if (drift.length > 0) {
         warnings.push(`${drift.length} geïnstalleerde skillbestanden wijken af van de repository.`);
       }
