@@ -14815,6 +14815,90 @@
           "verdieping": 4
         }
       }
+    },
+    "01m4wch02hnyn69hdjxxbc2a41": {
+      "status": "accepted",
+      "confidence": "high",
+      "rubricVersion": "reading-profile-v1",
+      "sourceFingerprint": "5e9229c3ed9aef4da63b952288ec464d58a3e10ef9e0cb0fff37eaea569228ca",
+      "evidenceFingerprint": "56db835afade2137f4b5595c3aa07ed5ace6ad2c0b77c723e15deef6f4700260",
+      "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
+      "judgedBy": "codex-reading-profile-review-2026-10-14",
+      "judgedAt": "2026-10-14T08:44:34Z",
+      "evidenceRefs": [
+        "content",
+        "summary",
+        "notes"
+      ],
+      "reason": "Volledige Engelse broninhoud is beschikbaar; het essay is toegankelijk en reflectief, met concrete aanknopingspunten voor nieuwsgierigheid, cultuur en leren.",
+      "traits": {
+        "effort": 1,
+        "emotionalWeight": 1,
+        "tone": "warm",
+        "needFit": {
+          "ontspannen": 3,
+          "afleiding": 2,
+          "herkenning": 2,
+          "verkennen": 4,
+          "verdieping": 3
+        }
+      }
+    },
+    "01m4w6vk0cdjacz6ssf5nwtdv5": {
+      "status": "accepted",
+      "confidence": "high",
+      "rubricVersion": "reading-profile-v1",
+      "sourceFingerprint": "2b35dceabf5723aee2131a0a0175b5cabf8116e506f7e1e101a22933894d64e9",
+      "evidenceFingerprint": "fdc3fe84c26c108073d5e32d1d9687258b66fbc4d62e562c2624d95e12d01c94",
+      "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
+      "judgedBy": "codex-reading-profile-review-2026-10-14",
+      "judgedAt": "2026-10-14T08:44:34Z",
+      "evidenceRefs": [
+        "content",
+        "summary",
+        "notes"
+      ],
+      "reason": "Volledige broninhoud is beschikbaar; de korte, polemische cultuur- en AI-ethiek-essay vraagt enige aandacht maar is inhoudelijk helder en sterk verbonden met menselijke creativiteit.",
+      "traits": {
+        "effort": 2,
+        "emotionalWeight": 1,
+        "tone": "intens",
+        "needFit": {
+          "ontspannen": 1,
+          "afleiding": 1,
+          "herkenning": 2,
+          "verkennen": 3,
+          "verdieping": 4
+        }
+      }
+    },
+    "01m4vhf1shc9axz4ck68axr6he": {
+      "status": "accepted",
+      "confidence": "high",
+      "rubricVersion": "reading-profile-v1",
+      "sourceFingerprint": "3b209a8d0eacf7c0ed0db7efb40293806c6fc368c364a26c941e9fe2ef5b6a32",
+      "evidenceFingerprint": "a18cbdbb210970d448b4e484ae7709988ec34d5ffbb9482ebf2a011b6210fcf9",
+      "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
+      "judgedBy": "codex-reading-profile-review-2026-10-14",
+      "judgedAt": "2026-10-14T08:44:34Z",
+      "evidenceRefs": [
+        "content",
+        "summary",
+        "notes"
+      ],
+      "reason": "Volledige broninhoud is beschikbaar; de humoristische AI- en psychologiebeschouwing is toegankelijk, licht van toon en tegelijk inhoudelijk bruikbaar voor reflectie op werk, verlangen en toekomstangst.",
+      "traits": {
+        "effort": 2,
+        "emotionalWeight": 1,
+        "tone": "speels",
+        "needFit": {
+          "ontspannen": 3,
+          "afleiding": 3,
+          "herkenning": 2,
+          "verkennen": 4,
+          "verdieping": 3
+        }
+      }
     }
   }
 }

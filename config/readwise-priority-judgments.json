@@ -90372,6 +90372,157 @@
       ],
       "judgedBy": "automated-fallback-v1",
       "judgedAt": "2026-10-13T19:23:14.137Z"
+    },
+    "01m4wch02hnyn69hdjxxbc2a41": {
+      "sourceFingerprint": "5e9229c3ed9aef4da63b952288ec464d58a3e10ef9e0cb0fff37eaea569228ca",
+      "evidenceFingerprint": "04a9630d2f1e441d3fb03e8dababb1bb4a33ecc03ee321bdd604d9e17c7a9e74",
+      "relevance": 3,
+      "substance": 2,
+      "durability": 3,
+      "usefulness": 3,
+      "sequenceFit": {
+        "video": 0,
+        "boek": 0,
+        "pdf": 0,
+        "lees": 1,
+        "dutch": 0,
+        "short": 0,
+        "short-dutch": 0,
+        "luchtig": 1,
+        "luchtig-nederlands": 0,
+        "scrum": 0,
+        "software-development": 0,
+        "front-end-development": 0,
+        "social-studies": 0,
+        "adhd": 0,
+        "philosophy": 1
+      },
+      "topicRelevance": {
+        "scrum": 0,
+        "software-development": 0,
+        "front-end-development": 0,
+        "social-studies": 1,
+        "adhd": 0,
+        "philosophy": 1
+      },
+      "confidence": "high",
+      "reasonCodes": [
+        "semantic-review",
+        "independent-of-current-position",
+        "evidence:title-summary-notes",
+        "reusable-or-structural-insight",
+        "clear-personal-or-professional-payoff",
+        "interest:learning",
+        "interest:arts-culture"
+      ],
+      "status": "accepted",
+      "rubricVersion": "semantic-v2",
+      "evidenceRefs": [
+        ".tmp/readwise/priority-evidence.json#documents.01m4wch02hnyn69hdjxxbc2a41"
+      ],
+      "judgedBy": "codex-semantic-review-2026-10-14",
+      "judgedAt": "2026-10-14T08:44:34Z"
+    },
+    "01m4w6vk0cdjacz6ssf5nwtdv5": {
+      "sourceFingerprint": "2b35dceabf5723aee2131a0a0175b5cabf8116e506f7e1e101a22933894d64e9",
+      "evidenceFingerprint": "f0f9db6e57b24f76fe22b42b58b36970075c936adfd797758746e0455a14cf95",
+      "relevance": 4,
+      "substance": 3,
+      "durability": 3,
+      "usefulness": 3,
+      "sequenceFit": {
+        "video": 0,
+        "boek": 0,
+        "pdf": 0,
+        "lees": 2,
+        "dutch": 0,
+        "short": 0,
+        "short-dutch": 0,
+        "luchtig": 0,
+        "luchtig-nederlands": 0,
+        "scrum": 0,
+        "software-development": 0,
+        "front-end-development": 0,
+        "social-studies": 1,
+        "adhd": 0,
+        "philosophy": 1
+      },
+      "topicRelevance": {
+        "scrum": 0,
+        "software-development": 0,
+        "front-end-development": 0,
+        "social-studies": 2,
+        "adhd": 0,
+        "philosophy": 1
+      },
+      "confidence": "high",
+      "reasonCodes": [
+        "semantic-review",
+        "independent-of-current-position",
+        "evidence:title-summary-notes",
+        "reusable-or-structural-insight",
+        "clear-personal-or-professional-payoff",
+        "interest:ai-ethics",
+        "interest:arts-culture"
+      ],
+      "status": "accepted",
+      "rubricVersion": "semantic-v2",
+      "evidenceRefs": [
+        ".tmp/readwise/priority-evidence.json#documents.01m4w6vk0cdjacz6ssf5nwtdv5"
+      ],
+      "judgedBy": "codex-semantic-review-2026-10-14",
+      "judgedAt": "2026-10-14T08:44:34Z"
+    },
+    "01m4vhf1shc9axz4ck68axr6he": {
+      "sourceFingerprint": "3b209a8d0eacf7c0ed0db7efb40293806c6fc368c364a26c941e9fe2ef5b6a32",
+      "evidenceFingerprint": "b362640754a9190f6af6df4a6955ab0565537acffad954a9b438e988876cfe75",
+      "relevance": 4,
+      "substance": 3,
+      "durability": 3,
+      "usefulness": 3,
+      "sequenceFit": {
+        "video": 0,
+        "boek": 0,
+        "pdf": 0,
+        "lees": 2,
+        "dutch": 0,
+        "short": 0,
+        "short-dutch": 0,
+        "luchtig": 2,
+        "luchtig-nederlands": 0,
+        "scrum": 0,
+        "software-development": 0,
+        "front-end-development": 0,
+        "social-studies": 1,
+        "adhd": 0,
+        "philosophy": 2
+      },
+      "topicRelevance": {
+        "scrum": 0,
+        "software-development": 0,
+        "front-end-development": 0,
+        "social-studies": 1,
+        "adhd": 0,
+        "philosophy": 2
+      },
+      "confidence": "high",
+      "reasonCodes": [
+        "semantic-review",
+        "independent-of-current-position",
+        "evidence:title-summary-notes",
+        "reusable-or-structural-insight",
+        "clear-personal-or-professional-payoff",
+        "interest:ai-ethics",
+        "interest:behavioral-psychology",
+        "topic:philosophy-evidence"
+      ],
+      "status": "accepted",
+      "rubricVersion": "semantic-v2",
+      "evidenceRefs": [
+        ".tmp/readwise/priority-evidence.json#documents.01m4vhf1shc9axz4ck68axr6he"
+      ],
+      "judgedBy": "codex-semantic-review-2026-10-14",
+      "judgedAt": "2026-10-14T08:44:34Z"
     }
   }
 }
