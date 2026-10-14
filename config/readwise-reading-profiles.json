@@ -10201,55 +10201,55 @@
       }
     },
     "01krtexkxa2w3kf6d07h8t2ndr": {
-      "status": "accepted",
-      "confidence": "medium",
-      "rubricVersion": "reading-profile-v1",
       "sourceFingerprint": "6db5467111b05d1ff341e3e6673273ed9b65c63d1ca896f8db0c6b6e23c78be0",
-      "evidenceFingerprint": "2f5dad315d18d1e970106244b8d593538e41796d8160aee377c3bca167fc5add",
+      "evidenceFingerprint": "774d0c72205b07f706c18fa9b0740fb867522ba40e3dd127ea82670052845cb1",
       "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
-      "judgedBy": "codex-reading-profile-review-2026-10-13-inbox",
-      "judgedAt": "2026-10-13T12:00:00Z",
+      "rubricVersion": "reading-profile-v2",
+      "judgedBy": "codex-semantic-reading-profile-v2-batch-005",
+      "judgedAt": "2026-10-14T10:50:20.868Z",
+      "confidence": "high",
+      "status": "accepted",
       "evidenceRefs": [
-        "content",
-        "summary",
-        "tags"
+        "content"
       ],
-      "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
+      "reason": "Concrete loopbaanvoorbeelden laten zien hoe publiek schrijven denken, vertrouwen en netwerken opbouwt. De praktische aansporingen tot publiceren en de beschreven hulpmiddelen activeren sterk; heldere thematische secties en opsommingen maken de toegankelijke tekst gemakkelijk hervatbaar.",
       "traits": {
-        "effort": 3,
-        "emotionalWeight": 2,
-        "tone": "warm",
+        "effort": 1,
+        "emotionalWeight": 0,
+        "tone": "zakelijk",
+        "activation": 3,
+        "interruptibility": 3,
         "needFit": {
           "ontspannen": 2,
           "afleiding": 2,
           "herkenning": 3,
-          "verkennen": 2,
-          "verdieping": 3
+          "verkennen": 3,
+          "verdieping": 2
         }
       }
     },
     "01krqmh4tqphysje012p59hxec": {
-      "status": "accepted",
-      "confidence": "medium",
-      "rubricVersion": "reading-profile-v1",
       "sourceFingerprint": "d42ddfea87127078268ccfc64d3943c72aad3e69c45eed37d61e7c88bc3f92ec",
-      "evidenceFingerprint": "83b9f391e944301fa2a560f038302f9237de26f8289906f78658b9b162ed216c",
+      "evidenceFingerprint": "1e73539fa864c4cceea1c7f031e6446ba3d7bb4be7f99fb3607adb945a316e58",
       "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
-      "judgedBy": "codex-reading-profile-review-2026-10-13-inbox",
-      "judgedAt": "2026-10-13T12:00:00Z",
+      "rubricVersion": "reading-profile-v2",
+      "judgedBy": "codex-semantic-reading-profile-v2-batch-005",
+      "judgedAt": "2026-10-14T10:50:20.868Z",
+      "confidence": "high",
+      "status": "accepted",
       "evidenceRefs": [
-        "content",
-        "summary",
-        "tags"
+        "content"
       ],
-      "reason": "Fictie als taal voor bijna-doodervaringen en rouw, met Heidegger en Proust; kort maar geen licht stuk.",
+      "reason": "Het essay onderzoekt hoe romantaal onbenoemde ervaringen begrijpelijk maakt, met persoonlijk verdriet en een bijna-doodervaring als voorbeelden. De beschouwing nodigt zacht tot herkenning uit; taalfilosofische verwijzingen en een doorlopende gedachtegang vragen aandacht bij hervatten.",
       "traits": {
         "effort": 2,
         "emotionalWeight": 2,
         "tone": "reflectief",
+        "activation": 1,
+        "interruptibility": 2,
         "needFit": {
-          "ontspannen": 1,
-          "afleiding": 1,
+          "ontspannen": 2,
+          "afleiding": 2,
           "herkenning": 4,
           "verkennen": 3,
           "verdieping": 3
@@ -10257,182 +10257,181 @@
       }
     },
     "01krn1jdcn6b450yv1z0j92tz3": {
-      "status": "accepted",
-      "confidence": "medium",
-      "rubricVersion": "reading-profile-v1",
       "sourceFingerprint": "332ce1838f93b37e553c7d1de52f466a7de1640685882443959afe52cf9d0a28",
-      "evidenceFingerprint": "33c38be52fa65510605e80eb4c9df7eef1aadcaf12348b10633121b96b1d74e7",
+      "evidenceFingerprint": "ae0e58aa88cb430251d763cf6a822adae5e18318521c1cdd2af4d2d742e288da",
       "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
-      "judgedBy": "codex-reading-profile-review-2026-10-13-inbox",
-      "judgedAt": "2026-10-13T12:00:00Z",
+      "rubricVersion": "reading-profile-v2",
+      "judgedBy": "codex-semantic-reading-profile-v2-batch-005",
+      "judgedAt": "2026-10-14T10:50:20.868Z",
+      "confidence": "high",
+      "status": "accepted",
       "evidenceRefs": [
-        "content",
-        "summary",
-        "tags"
+        "content"
       ],
-      "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
+      "reason": "Historische tekstvergelijkingen verklaren hoe materiële militaire strategie de aristocratische offerorde uitdaagde. Namen, bronnen en normatieve contrasten vragen doorlopende aandacht; beschrijvingen van afgehakte oren en oorlogsoffers belasten, terwijl het onderzoek vooral intellectueel stimuleert.",
       "traits": {
         "effort": 3,
-        "emotionalWeight": 3,
-        "tone": "intens",
+        "emotionalWeight": 2,
+        "tone": "zakelijk",
+        "activation": 2,
+        "interruptibility": 1,
         "needFit": {
-          "ontspannen": 1,
+          "ontspannen": 0,
           "afleiding": 1,
           "herkenning": 1,
-          "verkennen": 3,
-          "verdieping": 3
+          "verkennen": 4,
+          "verdieping": 4
         }
       }
     },
     "01krmzwafvfaac9xjpgfsvsvyb": {
-      "status": "accepted",
-      "confidence": "medium",
-      "rubricVersion": "reading-profile-v1",
       "sourceFingerprint": "f12fa6f4da8fe2554842c0a593cdfb818aebc346ab879d8033961f4c52a0db97",
-      "evidenceFingerprint": "cb71eb00e62bd7b776d044b9f5920db958e10307389199ca1a2efef584376d6e",
+      "evidenceFingerprint": "179117350932cba850bdc2e57106dc28efb309ab18c9df84a1c214f511fe0edb",
       "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
-      "judgedBy": "codex-reading-profile-review-2026-10-13-inbox",
-      "judgedAt": "2026-10-13T12:00:00Z",
+      "rubricVersion": "reading-profile-v2",
+      "judgedBy": "codex-semantic-reading-profile-v2-batch-005",
+      "judgedAt": "2026-10-14T10:50:20.868Z",
+      "confidence": "high",
+      "status": "accepted",
       "evidenceRefs": [
-        "content",
-        "summary",
-        "tags"
+        "content"
       ],
-      "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
+      "reason": "Het felle, sarcastische betoog koppelt platformstrategie aan servicearchitectuur, monitoring en toegankelijkheid; de technische samenhang vraagt concentratie. De urgente oproep tot organisatieverandering activeert sterk, terwijl de doorlopende argumentatie na een pauze enige reconstructie vraagt.",
       "traits": {
-        "effort": 4,
+        "effort": 3,
         "emotionalWeight": 1,
-        "tone": "speels",
+        "tone": "intens",
+        "activation": 3,
+        "interruptibility": 2,
         "needFit": {
-          "ontspannen": 1,
-          "afleiding": 3,
+          "ontspannen": 0,
+          "afleiding": 2,
           "herkenning": 3,
-          "verkennen": 2,
-          "verdieping": 3
+          "verkennen": 3,
+          "verdieping": 4
         }
       }
     },
     "01krm5d32nfhsa44jvbq4s6nny": {
-      "status": "accepted",
-      "confidence": "medium",
-      "rubricVersion": "reading-profile-v1",
       "sourceFingerprint": "1e731468beaf49c5d40cef126e1c1bf6acebf988c689817738c797c43b6f7ff6",
-      "evidenceFingerprint": "42a73508c0ac05e9761300384f65ea6e51ec816f3982cb1453afb8a9a86820b2",
+      "evidenceFingerprint": "c48d41db6869a716399ba163505cc0d8dad6bacd3b894ccb3df0b5787a47054d",
       "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
-      "judgedBy": "codex-reading-profile-review-2026-10-13-inbox",
-      "judgedAt": "2026-10-13T12:00:00Z",
+      "rubricVersion": "reading-profile-v2",
+      "judgedBy": "codex-semantic-reading-profile-v2-batch-005",
+      "judgedAt": "2026-10-14T10:50:20.868Z",
+      "confidence": "high",
+      "status": "accepted",
       "evidenceRefs": [
-        "content",
-        "summary",
-        "tags"
+        "content"
       ],
-      "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
+      "reason": "Een sciencefictionrecensie verbindt angst, oorlogsdilemma’s en religieuze praktijk; dood, letsel en het opofferen van soldaten geven merkbaar gewicht. De losse thematische secties zijn goed hervatbaar en prikkelen ideeën zonder een doorlopende technische uitwerking te eisen.",
       "traits": {
-        "effort": 3,
-        "emotionalWeight": 3,
-        "tone": "intens",
+        "effort": 2,
+        "emotionalWeight": 2,
+        "tone": "reflectief",
+        "activation": 2,
+        "interruptibility": 3,
         "needFit": {
-          "ontspannen": 3,
+          "ontspannen": 1,
           "afleiding": 3,
-          "herkenning": 3,
-          "verkennen": 3,
+          "herkenning": 2,
+          "verkennen": 4,
           "verdieping": 3
         }
       }
     },
     "01kqsnmx2rdcaktjvwsjmmq2cn": {
-      "status": "accepted",
-      "confidence": "medium",
-      "rubricVersion": "reading-profile-v1",
       "sourceFingerprint": "d1fdf33d926db64c72b258816ae4f59c2f468d79bf8a0c36f80568917c19f20e",
-      "evidenceFingerprint": "fd8d9c0f01e9df00e180ea57e9ab955065f6aace26f45a570d9a50debc20e981",
+      "evidenceFingerprint": "8d64575ceae6011fd94a86811975224e60bcf24e858a0fa8f37f7eae6e6f2d0e",
       "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
-      "judgedBy": "codex-reading-profile-review-2026-10-13-inbox",
-      "judgedAt": "2026-10-13T12:00:00Z",
+      "rubricVersion": "reading-profile-v2",
+      "judgedBy": "codex-semantic-reading-profile-v2-batch-005",
+      "judgedAt": "2026-10-14T10:50:20.868Z",
+      "confidence": "high",
+      "status": "accepted",
       "evidenceRefs": [
-        "content",
-        "summary",
-        "tags"
+        "content"
       ],
-      "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
+      "reason": "Spelvoorbeelden verduidelijken hoe meetbare doelen rijke waarden verdringen, met herkenbare gevolgen voor werk en dagelijks leven. Het onderscheid tussen speelhoudingen en waardevangst vraagt samenhangende aandacht en stimuleert reflectie; latere passages bouwen op eerdere definities.",
       "traits": {
-        "effort": 3,
+        "effort": 2,
         "emotionalWeight": 1,
-        "tone": "zakelijk",
+        "tone": "reflectief",
+        "activation": 2,
+        "interruptibility": 2,
         "needFit": {
           "ontspannen": 1,
-          "afleiding": 1,
+          "afleiding": 2,
           "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
+          "verkennen": 4,
+          "verdieping": 4
         }
       }
     },
     "01kqn2zjmevdr865h4ah7q46ca": {
-      "status": "rejected",
-      "confidence": "high",
-      "rubricVersion": "reading-profile-v1",
       "sourceFingerprint": "c743b45eddc030698d434349804194e143a4f8bbc69961c1ba6c0fa9c96dfc21",
       "evidenceFingerprint": "52ced84a5e3487ecca52cefd5adbd4734f85daf23626308bc687e769a3dc99be",
       "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
-      "judgedBy": "codex-reading-profile-review-2026-10-12",
-      "judgedAt": "2026-10-12T12:00:00Z",
+      "rubricVersion": "reading-profile-v2",
+      "judgedBy": "codex-semantic-reading-profile-v2-batch-005",
+      "judgedAt": "2026-10-14T10:50:20.868Z",
+      "confidence": "high",
+      "status": "rejected",
       "evidenceRefs": [
-        "summary",
-        "notes"
+        "category"
       ],
-      "reason": "Boek/EPUB valt buiten de leesprofielen; de Reader-categorie bepaalt de uitsluiting."
+      "reason": "De bronmetadata classificeert dit document als EPUB. Boeken vallen buiten het leesmenu; daarom afgewezen zonder leeskenmerken te verzinnen uit titel of samenvatting."
     },
     "01knefpm3ae2ew1jrq9twtjc1w": {
-      "status": "accepted",
-      "confidence": "medium",
-      "rubricVersion": "reading-profile-v1",
       "sourceFingerprint": "44a55da266304d13b1a145eb359cbe18a7874a943d6528957870bbab48d0161f",
-      "evidenceFingerprint": "045b9f24b0f7e1b65296324740730ce58af02585209afd031b548a9d778057e0",
+      "evidenceFingerprint": "77cbc4d9a1c95174905ffefb7ad856f7937f825186e1bea6f8676b3f14011074",
       "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
-      "judgedBy": "codex-reading-profile-review-2026-10-13-inbox",
-      "judgedAt": "2026-10-13T12:00:00Z",
+      "rubricVersion": "reading-profile-v2",
+      "judgedBy": "codex-semantic-reading-profile-v2-batch-005",
+      "judgedAt": "2026-10-14T10:50:20.868Z",
+      "confidence": "high",
+      "status": "accepted",
       "evidenceRefs": [
-        "content",
-        "summary",
-        "tags"
+        "content"
       ],
-      "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
+      "reason": "Het betoog verbindt agentgeheugen, bestandsformaten en databases met concrete ontwerpkeuzes, zonder zware emoties. De technische begrippen vragen aandacht en de toepassingsideeën zetten aan tot nadenken over eigen tooling; duidelijke secties vergemakkelijken hervatten.",
       "traits": {
-        "effort": 3,
-        "emotionalWeight": 2,
-        "tone": "speels",
+        "effort": 2,
+        "emotionalWeight": 0,
+        "tone": "zakelijk",
+        "activation": 3,
+        "interruptibility": 3,
         "needFit": {
           "ontspannen": 1,
-          "afleiding": 3,
-          "herkenning": 3,
-          "verkennen": 3,
+          "afleiding": 2,
+          "herkenning": 2,
+          "verkennen": 4,
           "verdieping": 3
         }
       }
     },
     "01kn4c4mv24kk2vjxqcn0y6efj": {
-      "status": "accepted",
-      "confidence": "medium",
-      "rubricVersion": "reading-profile-v1",
       "sourceFingerprint": "4d765f9f0209ccc7a0a3588cf6121a9f28673abb559e1bd551d2bffd4b645229",
-      "evidenceFingerprint": "81219baf0904a67921c1fe6a4e2a28bab0b9be44a5ec99faf677d2672e540206",
+      "evidenceFingerprint": "adf2553257e533df459845545c0853470d263fd3c826a90c2bc0dd172be674f4",
       "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
-      "judgedBy": "codex-reading-profile-review-2026-10-13-inbox",
-      "judgedAt": "2026-10-13T12:00:00Z",
+      "rubricVersion": "reading-profile-v2",
+      "judgedBy": "codex-semantic-reading-profile-v2-batch-005",
+      "judgedAt": "2026-10-14T10:50:20.868Z",
+      "confidence": "high",
+      "status": "accepted",
       "evidenceRefs": [
-        "content",
-        "summary",
-        "tags"
+        "content"
       ],
-      "reason": "Literair-filosofische redenering over gelijktijdigheid, sterfte en de zwaarte van een dag; abstract en emotioneel.",
+      "reason": "Het herhaalde etmaal uit een roman maakt gelijktijdige levens en sterfelijkheid voelbaar; de tijdsmetafoor vraagt aandacht en nodigt zacht tot bezinning uit. Het hoofdessay bouwt door, terwijl de persoonlijke update losse onderdelen heeft.",
       "traits": {
         "effort": 2,
-        "emotionalWeight": 2,
+        "emotionalWeight": 1,
         "tone": "reflectief",
+        "activation": 1,
+        "interruptibility": 2,
         "needFit": {
-          "ontspannen": 1,
-          "afleiding": 1,
+          "ontspannen": 2,
+          "afleiding": 2,
           "herkenning": 3,
           "verkennen": 4,
           "verdieping": 3
@@ -10440,169 +10439,167 @@
       }
     },
     "01kmmsmygjapx4f6gb2bhxds2j": {
-      "status": "accepted",
-      "confidence": "medium",
-      "rubricVersion": "reading-profile-v1",
       "sourceFingerprint": "a7dd400b60ea360bd80778638979f799d950d7d4a54657cde1c0e4457ff3b422",
-      "evidenceFingerprint": "a134d2f359dee3296722225b7a61e88fb53e12d6f55034e6c4743ac451c17108",
+      "evidenceFingerprint": "186a65f24832ef3fe31b3b7c523b06ad5253d60c60bbe426ce8dd0da01863f0f",
       "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
-      "judgedBy": "codex-reading-profile-review-2026-10-13-inbox",
-      "judgedAt": "2026-10-13T12:00:00Z",
+      "rubricVersion": "reading-profile-v2",
+      "status": "accepted",
+      "confidence": "high",
+      "judgedBy": "codex-semantic-reading-profile-v2-batch-005",
+      "judgedAt": "2026-10-14T10:49:53.272Z",
       "evidenceRefs": [
-        "content",
-        "summary",
-        "tags"
+        "content"
       ],
-      "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
+      "reason": "Voorbeelden van oorlogswinsten, bedreigingen en gokschade dragen een urgent betoog over institutioneel wantrouwen en het verlies van gedeelde moraal. De heldere secties zijn hervatbaar, maar de verontrustende scenario’s activeren sterk; de politieke en morele analyse biedt verdieping boven ontspanning.",
       "traits": {
-        "effort": 3,
+        "effort": 2,
         "emotionalWeight": 3,
         "tone": "intens",
+        "activation": 3,
+        "interruptibility": 3,
         "needFit": {
-          "ontspannen": 1,
-          "afleiding": 1,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
+          "ontspannen": 0,
+          "afleiding": 0,
+          "herkenning": 2,
+          "verkennen": 4,
+          "verdieping": 4
         }
       }
     },
     "01kmjjs1nc96hg1tq02gmgh657": {
-      "status": "accepted",
-      "confidence": "medium",
-      "rubricVersion": "reading-profile-v1",
       "sourceFingerprint": "62f9bccb5051e6906b12eb2a8e4dca089c5ff3202c154fb947904af9580ed3c8",
-      "evidenceFingerprint": "0bf5a08e41b43d74c9e90f62eef315f5acd811e5b86a844fabbd710ad52655d7",
+      "evidenceFingerprint": "6032c7cfa9e42fc967e34166c8efb7c23fd1016c47dd4764201162704b95dcc2",
       "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
-      "judgedBy": "codex-reading-profile-review-2026-10-13-inbox",
-      "judgedAt": "2026-10-13T12:00:00Z",
+      "rubricVersion": "reading-profile-v2",
+      "status": "accepted",
+      "confidence": "high",
+      "judgedBy": "codex-semantic-reading-profile-v2-batch-005",
+      "judgedAt": "2026-10-14T10:49:53.272Z",
       "evidenceRefs": [
-        "content",
-        "summary",
-        "tags"
+        "content"
       ],
-      "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
+      "reason": "Persoonlijke workflowvoorbeelden, humor en zelfspot maken het dashboardverhaal herkenbaar en prettig. Het onderscheid tussen ijdelheidsmetingen en handelbare informatie vraagt aandacht en lokt eigen ontwerpwerk uit; zelfstandige secties over gebruik, ontwerp en techniek zijn gemakkelijk te hervatten.",
       "traits": {
-        "effort": 3,
-        "emotionalWeight": 1,
+        "effort": 2,
+        "emotionalWeight": 0,
         "tone": "speels",
+        "activation": 3,
+        "interruptibility": 3,
         "needFit": {
           "ontspannen": 1,
-          "afleiding": 3,
-          "herkenning": 3,
-          "verkennen": 3,
+          "afleiding": 2,
+          "herkenning": 4,
+          "verkennen": 4,
           "verdieping": 3
         }
       }
     },
     "01kksm80zx4vk4cskkm9r0nddv": {
-      "status": "rejected",
-      "confidence": "high",
-      "rubricVersion": "reading-profile-v1",
       "sourceFingerprint": "26a099c3b2037526e9dfe3b035cbacf48a144055057a610fcca43331bd945520",
       "evidenceFingerprint": "e88f94411c05bdd0e727de4f60949ed56b00e7ef65d1b073141e41d676bd4110",
       "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
-      "judgedBy": "codex-reading-profile-review-2026-10-12",
-      "judgedAt": "2026-10-12T12:00:00Z",
-      "evidenceRefs": [
-        "summary",
-        "notes"
-      ],
-      "reason": "Boek/EPUB valt buiten de leesprofielen; de Reader-categorie bepaalt de uitsluiting."
-    },
-    "01kkka1pgqxbayzs51vm34np4b": {
+      "rubricVersion": "reading-profile-v2",
       "status": "rejected",
       "confidence": "high",
-      "rubricVersion": "reading-profile-v1",
+      "judgedBy": "codex-semantic-reading-profile-v2-batch-005",
+      "judgedAt": "2026-10-14T10:49:53.272Z",
+      "evidenceRefs": [
+        "category"
+      ],
+      "reason": "Metadata classificeert dit document als EPUB; boeken vallen buiten de leesprofielen."
+    },
+    "01kkka1pgqxbayzs51vm34np4b": {
       "sourceFingerprint": "26504bf6d8e56dcb0cf5b725a7cf29acde14e21250111c268821fd63fd2b0446",
       "evidenceFingerprint": "a7fa1c3a835e8eda502de09234e773b104d3bdc1b31ddad1f344b47c32718be4",
       "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
-      "judgedBy": "codex-reading-profile-review-2026-10-12",
-      "judgedAt": "2026-10-12T12:00:00Z",
+      "rubricVersion": "reading-profile-v2",
+      "status": "rejected",
+      "confidence": "high",
+      "judgedBy": "codex-semantic-reading-profile-v2-batch-005",
+      "judgedAt": "2026-10-14T10:49:53.272Z",
       "evidenceRefs": [
-        "summary",
-        "notes"
+        "category"
       ],
-      "reason": "Videocontent valt buiten de leesprofielen; de Reader-categorie bepaalt de uitsluiting."
+      "reason": "Metadata classificeert dit document als video; video’s vallen buiten de leesprofielen."
     },
     "01kkh0xtww0ex0apwdnpkatc8s": {
-      "status": "accepted",
-      "confidence": "medium",
-      "rubricVersion": "reading-profile-v1",
       "sourceFingerprint": "897cb18444e6efffd3e9a566b8ea5e0ac06aa80e814824d07a32a1d64adf913d",
-      "evidenceFingerprint": "57b9441ade9baadfc16f356cb925a10e237a40c13843078f25b58a8d5dc014de",
+      "evidenceFingerprint": "f8a3d94e1e6e423c48ba46c9656c2cea87acc9c0fb621788b76ecfebd8a16ff3",
       "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
-      "judgedBy": "codex-reading-profile-review-2026-10-13-inbox",
-      "judgedAt": "2026-10-13T12:00:00Z",
+      "rubricVersion": "reading-profile-v2",
+      "status": "accepted",
+      "confidence": "high",
+      "judgedBy": "codex-semantic-reading-profile-v2-batch-005",
+      "judgedAt": "2026-10-14T10:49:53.272Z",
       "evidenceRefs": [
-        "content",
-        "summary",
-        "tags"
+        "content"
       ],
-      "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
+      "reason": "Sportstudies en voorbeelden leggen uit hoe positieve feedback en de gewenste stemming voorbereiding beïnvloeden. De opeenvolgende onderzoeksbevindingen en hormonale begrippen vragen aandacht en enige reconstructie na pauzes; de concrete coachingvragen stimuleren toepassing zonder zwaar emotioneel verhaal.",
       "traits": {
-        "effort": 3,
-        "emotionalWeight": 2,
-        "tone": "warm",
+        "effort": 2,
+        "emotionalWeight": 0,
+        "tone": "zakelijk",
+        "activation": 2,
+        "interruptibility": 2,
         "needFit": {
-          "ontspannen": 2,
+          "ontspannen": 1,
           "afleiding": 2,
-          "herkenning": 3,
+          "herkenning": 2,
           "verkennen": 3,
           "verdieping": 3
         }
       }
     },
     "01kj5a1mnca55881qyj3jzm64b": {
-      "status": "accepted",
-      "confidence": "medium",
-      "rubricVersion": "reading-profile-v1",
       "sourceFingerprint": "aa70a699db633034959bc643267d1d5de48d7e66ceb9429862b49e67b3c8dc57",
-      "evidenceFingerprint": "1adec0f2a02b983a3a4af55bcccb243b5abe4046a3a88d551af25519f130adaa",
+      "evidenceFingerprint": "4f1ab9713433109ea48b511c9f7915dcd536b8253c834c37c0105fd093a253fd",
       "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
-      "judgedBy": "codex-reading-profile-review-2026-10-13-inbox",
-      "judgedAt": "2026-10-13T12:00:00Z",
+      "rubricVersion": "reading-profile-v2",
+      "status": "accepted",
+      "confidence": "high",
+      "judgedBy": "codex-semantic-reading-profile-v2-batch-005",
+      "judgedAt": "2026-10-14T10:49:53.272Z",
       "evidenceRefs": [
-        "content",
-        "summary",
-        "tags"
+        "content"
       ],
-      "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
+      "reason": "Historische kaartvoorbeelden verbinden religieuze wereldbeelden, koloniale macht en digitale sturing. Dat vraagt aandacht voor de redenering, biedt sterke perspectiefverkenning en filosofische verdieping; vier afgebakende delen geven goede pauzepunten, met mild ongemak over machtsmisbruik.",
       "traits": {
-        "effort": 3,
-        "emotionalWeight": 2,
-        "tone": "warm",
+        "effort": 2,
+        "emotionalWeight": 1,
+        "tone": "reflectief",
+        "activation": 2,
+        "interruptibility": 3,
         "needFit": {
-          "ontspannen": 3,
+          "ontspannen": 2,
           "afleiding": 3,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
+          "herkenning": 2,
+          "verkennen": 4,
+          "verdieping": 4
         }
       }
     },
     "01kj58br1h8mzqdgf9ccngjjkv": {
-      "status": "accepted",
-      "confidence": "medium",
-      "rubricVersion": "reading-profile-v1",
       "sourceFingerprint": "1115650c75a765105ee0573656b769b0000f66cc993f263cf13390e37f35db0f",
-      "evidenceFingerprint": "030044973a873293d7f24a667ca557232fa06dc166ce7b4b805011d189138ada",
+      "evidenceFingerprint": "77fa449ebca92a935f48888c6a430b1c3a3d6bdefb8eb33bbdc419934a7c6a83",
       "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
-      "judgedBy": "codex-reading-profile-review-2026-10-13-inbox",
-      "judgedAt": "2026-10-13T12:00:00Z",
+      "rubricVersion": "reading-profile-v2",
+      "status": "accepted",
+      "confidence": "high",
+      "judgedBy": "codex-semantic-reading-profile-v2-batch-005",
+      "judgedAt": "2026-10-14T10:49:53.272Z",
       "evidenceRefs": [
-        "content",
-        "summary",
-        "tags"
+        "content"
       ],
-      "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
+      "reason": "De tekst verklaart refinement als doorlopende activiteit met heldere rolverdeling en Scrum Guide-citaten. Het praktische betoog is licht van toon, stimuleert heroverweging van teamafspraken en is door kopjes en samenvatting eenvoudig te hervatten.",
       "traits": {
-        "effort": 3,
-        "emotionalWeight": 2,
-        "tone": "speels",
+        "effort": 1,
+        "emotionalWeight": 0,
+        "tone": "zakelijk",
+        "activation": 2,
+        "interruptibility": 3,
         "needFit": {
           "ontspannen": 1,
-          "afleiding": 3,
+          "afleiding": 1,
           "herkenning": 3,
           "verkennen": 2,
           "verdieping": 3
@@ -10610,27 +10607,27 @@
       }
     },
     "01kj585kpp3a99w8fhgx6mvx1v": {
-      "status": "accepted",
-      "confidence": "medium",
-      "rubricVersion": "reading-profile-v1",
       "sourceFingerprint": "35f5e09d74ce213b73e24d7e491e35e8b752ff259247e5cb36ea204b923b716c",
-      "evidenceFingerprint": "e0fd59178b0e6ef145033aae85499828d9fd89d1f9d6a87c1f1246883a9eb81b",
+      "evidenceFingerprint": "5d8dca8a314fdf9e3ed6e0d8dd9738069ddcbebe98bdff12c76f9ffa33863fd9",
       "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
-      "judgedBy": "codex-reading-profile-review-2026-10-13-inbox",
-      "judgedAt": "2026-10-13T12:00:00Z",
+      "rubricVersion": "reading-profile-v2",
+      "status": "accepted",
+      "confidence": "high",
+      "judgedBy": "codex-semantic-reading-profile-v2-batch-005",
+      "judgedAt": "2026-10-14T10:49:53.272Z",
       "evidenceRefs": [
-        "content",
-        "summary",
-        "tags"
+        "content"
       ],
-      "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
+      "reason": "Vijf zelfstandige praktijkproblemen met concrete tips over Sprintdoelen maken dit gemakkelijk hervatbaar. De uitleg vraagt weinig concentratie, sluit aan op teamwerk en zet aan tot verbeteringen zonder emotioneel zwaar te worden.",
       "traits": {
-        "effort": 3,
-        "emotionalWeight": 2,
-        "tone": "speels",
+        "effort": 1,
+        "emotionalWeight": 0,
+        "tone": "zakelijk",
+        "activation": 2,
+        "interruptibility": 4,
         "needFit": {
           "ontspannen": 1,
-          "afleiding": 3,
+          "afleiding": 1,
           "herkenning": 3,
           "verkennen": 2,
           "verdieping": 3
@@ -10639,188 +10636,171 @@
     },
     "01khxyazzfph3etb69en1bhzgw": {
       "status": "accepted",
-      "confidence": "medium",
-      "rubricVersion": "reading-profile-v1",
-      "sourceFingerprint": "002b3a4c0b7da00d4ee39b7d1a1a3f8dd63ea0f072afb28f65553b911659a806",
-      "evidenceFingerprint": "58116718705bbe5a883927f673947f3cae98187294680adde7234a89da676661",
-      "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
-      "judgedBy": "codex-reading-profile-review-2026-10-13-inbox",
-      "judgedAt": "2026-10-13T12:00:00Z",
+      "confidence": "high",
+      "reason": "Een docent verbindt hele romans en korte schrijfoefeningen aan groei in leesvermogen. Literaire verwijzingen vragen aandacht en het betoog bouwt door; de hoopvolle oproep stimuleert, maar de nadruk op Amerikaanse klaspraktijk beperkt de persoonlijke aansluiting.",
       "evidenceRefs": [
-        "content",
-        "summary",
-        "tags"
+        "content"
       ],
-      "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
       "traits": {
-        "effort": 3,
+        "effort": 2,
         "emotionalWeight": 1,
-        "tone": "zakelijk",
+        "tone": "reflectief",
+        "activation": 2,
+        "interruptibility": 2,
         "needFit": {
-          "ontspannen": 1,
-          "afleiding": 1,
+          "ontspannen": 2,
+          "afleiding": 2,
           "herkenning": 1,
-          "verkennen": 3,
-          "verdieping": 3
+          "verkennen": 2,
+          "verdieping": 2
         }
-      }
+      },
+      "sourceFingerprint": "002b3a4c0b7da00d4ee39b7d1a1a3f8dd63ea0f072afb28f65553b911659a806",
+      "evidenceFingerprint": "3f0b6977e564389386a05571a9ac83ccbe935c21554fee5bac176ca29b3e3c94",
+      "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
+      "rubricVersion": "reading-profile-v2",
+      "judgedBy": "codex-semantic-reading-profile-v2-batch-005",
+      "judgedAt": "2026-10-14T10:49:33Z"
     },
     "01khr5h2d75yj0yt1v6seck4nt": {
       "status": "accepted",
-      "confidence": "medium",
-      "rubricVersion": "reading-profile-v1",
-      "sourceFingerprint": "13544b5a30404ca7272e73b17dfb5081b3258a81ced5847a7b35112310309f4e",
-      "evidenceFingerprint": "96ff4e9c887e93fbfed72e11a3b25628752d22bae7612a3139c719a022e6c63d",
-      "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
-      "judgedBy": "codex-reading-profile-review-2026-10-13-inbox",
-      "judgedAt": "2026-10-13T12:00:00Z",
+      "confidence": "high",
+      "reason": "Zintuiglijke scènes over een beeldhouwer verbinden armoede en eenzaamheid met troost in het maken. De rustige, afzonderlijke levensscènes zijn goed te hervatten en nodigen vooral tot zacht nadenken over creativiteit uit.",
       "evidenceRefs": [
-        "content",
-        "summary",
-        "tags"
+        "content"
       ],
-      "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
       "traits": {
-        "effort": 3,
-        "emotionalWeight": 2,
-        "tone": "warm",
+        "effort": 1,
+        "emotionalWeight": 1,
+        "tone": "reflectief",
+        "activation": 1,
+        "interruptibility": 3,
         "needFit": {
           "ontspannen": 3,
           "afleiding": 3,
           "herkenning": 3,
           "verkennen": 3,
-          "verdieping": 3
+          "verdieping": 2
         }
-      }
+      },
+      "sourceFingerprint": "13544b5a30404ca7272e73b17dfb5081b3258a81ced5847a7b35112310309f4e",
+      "evidenceFingerprint": "13d5b608893a35689354534f11ba69b6b4975b4450f2a7842cf2886aa2cb1334",
+      "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
+      "rubricVersion": "reading-profile-v2",
+      "judgedBy": "codex-semantic-reading-profile-v2-batch-005",
+      "judgedAt": "2026-10-14T10:49:33Z"
     },
     "01khhj0gfcm7c1qkmdqwpc0375": {
       "status": "rejected",
       "confidence": "high",
-      "rubricVersion": "reading-profile-v1",
+      "reason": "De bronmetadata classificeert dit document als video; dit formaat valt buiten de leesprofielen.",
+      "evidenceRefs": [
+        "metadata:category"
+      ],
       "sourceFingerprint": "35a051c6eeed78b21662833cc88e2141e18904ed7f4196b5f913baa93856c0ba",
       "evidenceFingerprint": "7a245c893f1e569ed09e5a8f7fb8211ec4afbf1a335b65b53436db1b3bc14e67",
       "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
-      "judgedBy": "codex-reading-profile-review-2026-10-12",
-      "judgedAt": "2026-10-12T12:00:00Z",
-      "evidenceRefs": [
-        "summary",
-        "notes"
-      ],
-      "reason": "Videocontent valt buiten de leesprofielen; de Reader-categorie bepaalt de uitsluiting."
+      "rubricVersion": "reading-profile-v2",
+      "judgedBy": "codex-semantic-reading-profile-v2-batch-005",
+      "judgedAt": "2026-10-14T10:49:33Z"
     },
     "01kh225h5t6y7800yd56j6mrkk": {
-      "status": "accepted",
-      "confidence": "medium",
-      "rubricVersion": "reading-profile-v1",
-      "sourceFingerprint": "35782addcac44b92991997077561015ff5109b60c88b348c2d3ca12c5d2ceab3",
-      "evidenceFingerprint": "a40a836e5289510f3fc20ccbdbbb3af492cb11e19983efe9bc55eb89d1bdbc53",
-      "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
-      "judgedBy": "codex-reading-profile-review-2026-10-13-inbox",
-      "judgedAt": "2026-10-13T12:00:00Z",
+      "status": "draft",
+      "confidence": "low",
+      "reason": "De opgehaalde inhoud bevat slechts een redactionele samenvatting en één openingsalinea. Het onderzoek en de verdere argumentatie ontbreken, waardoor volledige leeseigenschappen niet betrouwbaar te beoordelen zijn.",
       "evidenceRefs": [
-        "content",
-        "summary",
-        "tags"
+        "content"
       ],
-      "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
-      "traits": {
-        "effort": 3,
-        "emotionalWeight": 1,
-        "tone": "zakelijk",
-        "needFit": {
-          "ontspannen": 1,
-          "afleiding": 1,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        }
-      }
+      "sourceFingerprint": "35782addcac44b92991997077561015ff5109b60c88b348c2d3ca12c5d2ceab3",
+      "evidenceFingerprint": "3bd3ec9c0f85da5f75084419cba39e36d4f67cac154ee69ee73ac4caa12a33ae",
+      "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
+      "rubricVersion": "reading-profile-v2",
+      "judgedBy": "codex-semantic-reading-profile-v2-batch-005",
+      "judgedAt": "2026-10-14T10:49:33Z"
     },
     "01kh1ypdtsb1f1nafttcy8qdmn": {
       "status": "accepted",
-      "confidence": "medium",
-      "rubricVersion": "reading-profile-v1",
-      "sourceFingerprint": "18adfb89ddcc4357217ef8efc043bf3fdbbbd12c4bcffbe8354be46ae4dede2d",
-      "evidenceFingerprint": "18e607f1b8d62ae8df2148b0a77d052653bb4a7842b28cb1fdc3bb1c3cfcad76",
-      "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
-      "judgedBy": "codex-reading-profile-review-2026-10-13-inbox",
-      "judgedAt": "2026-10-13T12:00:00Z",
+      "confidence": "high",
+      "reason": "Herkenbare voorbeelden van meldingen en verborgen functies maken de kritiek op productmetingen toegankelijk. Losse voorbeelden en adviezen zijn gemakkelijk hervatbaar; de ontwerpkeuzes zetten aan tot reflectie op eigen softwarepraktijk.",
       "evidenceRefs": [
-        "content",
-        "summary",
-        "tags"
+        "content"
       ],
-      "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
       "traits": {
-        "effort": 4,
-        "emotionalWeight": 2,
-        "tone": "warm",
+        "effort": 1,
+        "emotionalWeight": 1,
+        "tone": "reflectief",
+        "activation": 2,
+        "interruptibility": 3,
         "needFit": {
-          "ontspannen": 2,
+          "ontspannen": 1,
           "afleiding": 2,
-          "herkenning": 3,
+          "herkenning": 4,
           "verkennen": 3,
           "verdieping": 3
         }
-      }
+      },
+      "sourceFingerprint": "18adfb89ddcc4357217ef8efc043bf3fdbbbd12c4bcffbe8354be46ae4dede2d",
+      "evidenceFingerprint": "f9dcdd7029e56c2082dff4c84749db463da57ff5e0318b95d97210ddde3961f6",
+      "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
+      "rubricVersion": "reading-profile-v2",
+      "judgedBy": "codex-semantic-reading-profile-v2-batch-005",
+      "judgedAt": "2026-10-14T10:49:33Z"
     },
     "01kgdfpy0f0pts3sax7x38mdqc": {
       "status": "rejected",
       "confidence": "high",
-      "rubricVersion": "reading-profile-v1",
+      "reason": "De bronmetadata classificeert dit document als EPUB en daarmee als boek; boeken vallen buiten de leesprofielen.",
+      "evidenceRefs": [
+        "metadata:category"
+      ],
       "sourceFingerprint": "df57ee1971b65c0c020f0b0acb483cec32a0c50a08a337466eef9d229beb6221",
       "evidenceFingerprint": "ab4d0d72cf3559095c1237a63074d32e6a8bd000df1c1fd2d53f1544e6035d95",
       "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
-      "judgedBy": "codex-reading-profile-review-2026-10-12",
-      "judgedAt": "2026-10-12T12:00:00Z",
-      "evidenceRefs": [
-        "summary",
-        "notes"
-      ],
-      "reason": "Boek/EPUB valt buiten de leesprofielen; de Reader-categorie bepaalt de uitsluiting."
+      "rubricVersion": "reading-profile-v2",
+      "judgedBy": "codex-semantic-reading-profile-v2-batch-005",
+      "judgedAt": "2026-10-14T10:49:33Z"
     },
     "01kgdfp777bge0tsbfpzway43h": {
       "status": "rejected",
       "confidence": "high",
-      "rubricVersion": "reading-profile-v1",
+      "reason": "De bronmetadata classificeert dit document als video; dit formaat valt buiten de leesprofielen.",
+      "evidenceRefs": [
+        "metadata:category"
+      ],
       "sourceFingerprint": "09e42ca015e5b955565a7eacb605ce12f91dc9cfbd51ebdc02310ddb53467d9b",
       "evidenceFingerprint": "3b18a11920b0cba2cc6d97f13a5d95b0c2efaf5691168a8a47978798f2d9e994",
       "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
-      "judgedBy": "codex-reading-profile-review-2026-10-12",
-      "judgedAt": "2026-10-12T12:00:00Z",
-      "evidenceRefs": [
-        "summary",
-        "notes"
-      ],
-      "reason": "Videocontent valt buiten de leesprofielen; de Reader-categorie bepaalt de uitsluiting."
+      "rubricVersion": "reading-profile-v2",
+      "judgedBy": "codex-semantic-reading-profile-v2-batch-005",
+      "judgedAt": "2026-10-14T10:49:33Z"
     },
     "01kg2bfknxdbdtasxyva7fdma3": {
       "status": "accepted",
-      "confidence": "medium",
-      "rubricVersion": "reading-profile-v1",
-      "sourceFingerprint": "569c5cccfe9947909139e14ae8a4242d87fde7dcb144476096f4f9654518b5af",
-      "evidenceFingerprint": "f4129aaae16e0850a995b82cb0766aac218ce7d63417131b44064616d2cf1111",
-      "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
-      "judgedBy": "codex-reading-profile-review-2026-10-13-inbox",
-      "judgedAt": "2026-10-13T12:00:00Z",
+      "confidence": "high",
+      "reason": "Concrete gevallen van gunstenhandel en publieke fondsen bouwen een analyse van machtsgroei op; de gevolgen zijn verontrustend. Afzonderlijke voorbeelden bieden pauzepunten, terwijl de vergelijking met sociale media tot verder nadenken uitnodigt.",
       "evidenceRefs": [
-        "content",
-        "summary",
-        "tags"
+        "content"
       ],
-      "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
       "traits": {
-        "effort": 3,
+        "effort": 2,
         "emotionalWeight": 2,
-        "tone": "speels",
+        "tone": "reflectief",
+        "activation": 2,
+        "interruptibility": 3,
         "needFit": {
           "ontspannen": 1,
-          "afleiding": 3,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
+          "afleiding": 1,
+          "herkenning": 1,
+          "verkennen": 4,
+          "verdieping": 4
         }
-      }
+      },
+      "sourceFingerprint": "569c5cccfe9947909139e14ae8a4242d87fde7dcb144476096f4f9654518b5af",
+      "evidenceFingerprint": "4c983b68dec895a27a5d4a7c46b8959fd9f2a0b66ec3be1765a00b974a037cdf",
+      "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
+      "rubricVersion": "reading-profile-v2",
+      "judgedBy": "codex-semantic-reading-profile-v2-batch-005",
+      "judgedAt": "2026-10-14T10:49:33Z"
     },
     "01kfb379ht5f8kzb19vmtx28qp": {
       "confidence": "high",
