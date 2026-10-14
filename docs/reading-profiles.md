@@ -62,3 +62,12 @@ Valideer met `npm run reading:profiles -- validate --require-all-reviewed` en in
 bruikbaar voor menuvoorstellen. Publiceer alleen de objecten beoordeeld in deze run;
 vergelijk beide configs per ID met de remote run-start baseline om gelijktijdige wijzigingen
 te beschermen. Houd verrijkingscaches beschikbaar tot beide beoordelingen voltooid zijn.
+
+Leg voor een publiceerbare run naast de snapshot een `produced.json` vast met de exacte
+IDs die de priority- en profielreview heeft geproduceerd, plus eventueel gewijzigde
+top-levelvelden. Zet de run-startbestanden in `baseline/` en de gevalideerde voorstellen
+in `proposed/`. Gebruik daarna `npm run review:publish -- publish --run-dir <runmap>
+--output-dir <geïsoleerde-outputmap> --expected-remote <remote-main-sha>`. De merge schrijft alleen naar de outputmap, behoudt
+niet-gerelateerde remote wijzigingen en faalt bij een gelijktijdige wijziging van hetzelfde
+ID. Controleer vervolgens in een tijdelijke git-worktree opnieuw de remote branch-tip en
+push alleen na expliciete bevestiging; broninhoud en feedback blijven lokaal.

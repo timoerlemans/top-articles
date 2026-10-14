@@ -20,6 +20,26 @@ export interface ReadingProfile {
   traits?: MenuTraits;
 }
 export interface ReadingProfilesConfig { version: 1; activeRubric?: "reading-profile-v2"; items: Record<string, ReadingProfile>; }
+export interface ReadingProfileEvidenceRecord {
+  id: string;
+  sourceFingerprint: string;
+  evidenceFingerprint: string;
+  preferencesFingerprint: string;
+  contentError?: string | null;
+  sourceStatus?: "complete" | "partial" | "missing" | "error";
+}
+export interface ReadingProfileCoverage {
+  total: number;
+  reused: number;
+  toReview: number;
+  incomplete: number;
+  accepted: number;
+  draft: number;
+  rejected: number;
+  missing: number;
+  stale: number;
+  newlyReviewed: number;
+}
 export function fingerprint(text: string): string { return createHash("sha256").update(text).digest("hex"); }
 export function profileSourceFingerprint(doc: PriorityDocument): string { return judgmentSourceFingerprint(doc); }
 export function validateReadingProfiles(value: unknown): value is ReadingProfilesConfig {
@@ -60,4 +80,62 @@ export function publicReadingMenu(documents: readonly PriorityDocument[], config
 
 export function profileNeedsSource(profile: ReadingProfile | undefined, doc: PriorityDocument, preferences: string): boolean {
   return !profile || profile.status === "draft" || !profileIsCurrent(profile, doc, preferences);
+}
+
+/**
+ * Summarizes a complete Later evidence snapshot without treating operational
+ * or explicit non-accepted outcomes as usable menu profiles.
+ */
+export function buildReadingProfileCoverage(
+  evidence: readonly ReadingProfileEvidenceRecord[],
+  config: ReadingProfilesConfig,
+  preferences: string,
+  newlyReviewedIds: readonly string[] = [],
+): ReadingProfileCoverage {
+  const preferencesFingerprint = fingerprint(preferences);
+  const newlyReviewed = new Set(newlyReviewedIds);
+  const report: ReadingProfileCoverage = {
+    total: evidence.length,
+    reused: 0,
+    toReview: 0,
+    incomplete: 0,
+    accepted: 0,
+    draft: 0,
+    rejected: 0,
+    missing: 0,
+    stale: 0,
+    newlyReviewed: 0,
+  };
+  for (const entry of evidence) {
+    const profile = config.items[entry.id];
+    const incomplete = entry.contentError !== undefined && entry.contentError !== null
+      || (entry.sourceStatus !== undefined && entry.sourceStatus !== "complete");
+    if (incomplete) { report.incomplete += 1; }
+    if (!profile) {
+      report.missing += 1;
+      report.toReview += 1;
+      continue;
+    }
+    const current = profile.rubricVersion === PROFILE_RUBRIC
+      && profile.sourceFingerprint === entry.sourceFingerprint
+      && profile.evidenceFingerprint === entry.evidenceFingerprint
+      && profile.preferencesFingerprint === preferencesFingerprint;
+    if (!current) {
+      report.stale += 1;
+      report.toReview += 1;
+      continue;
+    }
+    if (incomplete && profile.status === "accepted") {
+      report.toReview += 1;
+      continue;
+    }
+    report[profile.status] += 1;
+    if (profile.status === "accepted") {
+      report.reused += 1;
+    } else if (profile.status === "draft") {
+      report.toReview += 1;
+    }
+    if (newlyReviewed.has(entry.id)) { report.newlyReviewed += 1; }
+  }
+  return report;
 }

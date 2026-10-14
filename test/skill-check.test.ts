@@ -15,7 +15,7 @@ async function writeCheckFixture(root: string): Promise<void> {
   await mkdir(skillRoot, { recursive: true });
   await writeFile(
     join(skillRoot, "readwise-reference.md"),
-    "SEQUENCE_ORDER FAMILY_DEFINITIONS readwise-priority-v8 config/readwise-reading-preferences.md reader-list-documents reader-bulk-edit-document-metadata want-to-read V2 verrijkingscontract V2 triageroutering bronstatus pipeline-managed Runmanifest doelpagina",
+    "SEQUENCE_ORDER FAMILY_DEFINITIONS readwise-priority-v8 config/readwise-reading-preferences.md reader-list-documents reader-bulk-edit-document-metadata want-to-read V2 verrijkingscontract V2 triageroutering V2 reviewonderhoud bronstatus pipeline-managed Runmanifest doelpagina",
     "utf8",
   );
   for (const skill of MANAGED_READWISE_SKILLS) {
@@ -27,7 +27,9 @@ async function writeCheckFixture(root: string): Promise<void> {
         ? "V2 verrijkingscontract complete available source source_status run manifest ownership-unknown"
         : skill === "readwise-book-study"
           ? "V2 verrijkingscontract complete book evidence bronstatus manifest ownership-unknown"
-          : "";
+      : skill === "readwise-priority-judge"
+        ? "semantic-v2 incremental philosophy fallback report"
+        : "";
     const routingContract = skill === "readwise-triage"
       ? "V2 triagecontract source_status move_outcome operation_keys doelpagina interactive want-to-read"
       : skill === "readwise-inbox"

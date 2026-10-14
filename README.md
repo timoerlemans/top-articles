@@ -209,6 +209,7 @@ Vereist een ingelogde [`@readwise/cli`](https://www.npmjs.com/package/@readwise/
 
 ```bash
 npm run priority:judge -- prepare --all-later # volledige evidence-batches voor de v8-migratie
+npm run priority:judge -- prepare --all-later --incremental # volledige Later-snapshot, alleen reviewtargets in batches
 npm run priority:judge -- prepare --top100 # read-only evidence voor handmatige semantic judgments
 npm run priority:judge -- validate --require-all --require-topic # strikte v8-gate na volledige review
 npm run priority:judge -- ensure-fallback --all-later # registreert ontbrekende low-confidence fallbacks
@@ -329,6 +330,8 @@ npm run reading:profiles -- validate --require-all-reviewed
 npm run reading:profiles -- report
 npm run build
 ```
+
+De incrementele priority- en profielruns rapporteren hergebruik, gerichte review, incomplete bronnen, accepted/draft/rejected en missing/stale apart. Een operationele fallback met `accepted`-status telt nooit als semantische review. Houd beide broncaches tot beide beoordelingen klaar zijn. Voor expliciete publicatie van een reviewrun: `npm run review:publish -- publish --run-dir <runmap> --output-dir <geïsoleerde-outputmap>`. De publisher valideert beide configs, merge’t alleen door de run geproduceerde ID’s, behoudt niet-gerelateerde remote edits en stopt bij dezelfde-ID-conflicten. Commit/push naar remote blijft een afzonderlijke bevestigde worktree-stap.
 
 De preparation schrijft private evidence en batches van maximaal 25 naar
 `.tmp/readwise/reading-profiles/`. Lees de tekst voordat je een profiel accepteert.

@@ -64,6 +64,12 @@ Nieuwe links krijgen dezelfde toelatingspoort: haal de doelpagina zelf op en con
 
 De standaardroute van standalone triage en de inbox-pipeline is automatisch en vraagt geen beslissing per gewoon document: podcasts en aantoonbare Tier 1-documenten gaan naar `Archive`; overige succesvol verwerkte gewone documenten, nieuwsbrieven en voormalige Tier 2-kandidaten gaan naar `Later`. Een expliciet interactieve triagevraag mag deze standaardroute alleen binnen de door de gebruiker gevraagde interactieve scope vervangen. Eleanor Konik en Henrik Karlsson zijn geen absolute archiveeruitzondering; hun reguliere Later-documenten worden via `want-to-read` beschermd door de prioriteitsflow.
 
+### V2 reviewonderhoud
+
+Een reviewrun haalt altijd een volledige actuele snapshot van `later` op voor dekking en actualiteit. Bestaande actuele semantische `semantic-v2`-judgments en complete `reading-profile-v2`-profielen worden hergebruikt; ontbrekende, stale, operationele fallback- en herbeoordeelbare draft-records worden gericht geselecteerd. Een fallback met status `accepted` is geen semantische review. Expliciete `draft`- en `rejected`-uitkomsten blijven afzonderlijk zichtbaar en tellen niet als bruikbare menuvoorstellen. De actuele topicset bevat ook `philosophy`.
+
+Bewaar broncache en runmanifest totdat zowel priority-judgments als leesprofielen zijn beoordeeld en gerapporteerd. Publiceer uitsluitend gevalideerde objecten die deze run produceerde: vergelijk elk config-ID met de run-start/remote baseline, behoud niet-gerelateerde gelijktijdige edits, en stop bij een conflict. Schrijf eerst naar een geïsoleerde tijdelijke worktree/outputmap; commit en push naar remote zijn een afzonderlijke expliciete bevestigingsstap. Ruwe broninhoud en leesfeedback blijven privé.
+
 ## Verificatie
 
 `npm run skills:check` is read-only en controleert metadata, resources, bekende commando's en canonieke contracten. De optionele installatievergelijking (`--compare-installed`) hoort niet bij `npm run check`, omdat die machineafhankelijk is. Scenario's voor dry-run, no-op, conflicten, eerste installatie, tagbehoud en hervatting staan in de tests; tekstcontrole alleen bewijst niet alle semantische runtime-eigenschappen.

@@ -3,13 +3,14 @@ import test from "node:test";
 
 import {
   buildEvidenceSnapshot,
+  buildJudgmentCoverage,
   ensureMissingFallbacks,
   ensureMissingTop100Fallbacks,
   selectTop100Documents,
   validateJudgmentSet,
   type PriorityEvidenceSnapshot,
 } from "../scripts/lib/priority-judge.js";
-import { buildPriorityEvidence, type ContentJudgment } from "../scripts/lib/priority-judgments.js";
+import { automatedFallbackJudgment, buildPriorityEvidence, type ContentJudgment } from "../scripts/lib/priority-judgments.js";
 import { TOPIC_SEQUENCE_ORDER } from "../scripts/lib/priority-sequences.js";
 import type { PriorityDocumentEvidence, PriorityJudgmentsConfig } from "../scripts/lib/priority-judgments.js";
 import type { PriorityDocument } from "../scripts/lib/readwise-priority-v2.js";
@@ -33,6 +34,7 @@ function accepted(sourceFingerprint: string, evidenceFingerprint: string): Prior
     evidenceRefs: ["summary"],
     judgedBy: "codex",
     judgedAt: "2026-09-19T00:00:00.000Z",
+    rubricVersion: "semantic-v2",
   };
 }
 
@@ -66,13 +68,13 @@ test("required top-100 validation fails on missing, stale, or draft judgments", 
   const two = evidence.two;
   if (!one || !two) {throw new Error("Test evidence ontbreekt");}
   const snapshot: PriorityEvidenceSnapshot = { version: 1, generatedAt: "2026-09-19T00:00:00.000Z", scope: "later", documents: evidence };
-  const config: PriorityJudgmentsConfig = { version: 2, rubricVersion: "semantic-v1", items: { one: accepted(one.sourceFingerprint, one.evidenceFingerprint) } };
+  const config: PriorityJudgmentsConfig = { version: 2, rubricVersion: "semantic-v2", items: { one: accepted(one.sourceFingerprint, one.evidenceFingerprint) } };
   assert.throws(() => validateJudgmentSet(docs, snapshot, config, true), /two|ontbreekt|missing/i);
   const valid = { ...config, items: {
     one: accepted(one.sourceFingerprint, one.evidenceFingerprint),
     two: accepted(two.sourceFingerprint, two.evidenceFingerprint),
   } };
-  assert.deepEqual(validateJudgmentSet(docs, snapshot, valid, true), { accepted: 2, missing: 0, stale: 0, rejected: 0 });
+  assert.deepEqual(validateJudgmentSet(docs, snapshot, valid, true), { accepted: 2, fallback: 0, missing: 0, stale: 0, rejected: 0 });
   const stale = { ...valid, items: { ...valid.items, two: accepted(two.sourceFingerprint, "b".repeat(64)) } };
   assert.throws(() => validateJudgmentSet(docs, snapshot, stale, true), /stale|fingerprint/i);
 });
@@ -91,7 +93,7 @@ test("strict all-later validation requires a semantic topic rating for every top
   };
   const base = accepted(evidence.sourceFingerprint, evidence.evidenceFingerprint);
   assert.throws(
-    () => validateJudgmentSet(docs, snapshot, { version: 2, rubricVersion: "semantic-v1", items: { one: base } }, { requireAllLater: true, requireTopicRelevance: true }),
+    () => validateJudgmentSet(docs, snapshot, { version: 2, rubricVersion: "semantic-v2", items: { one: base } }, { requireAllLater: true, requireTopicRelevance: true }),
     /topic|relevantie|one/i,
   );
 
@@ -99,9 +101,102 @@ test("strict all-later validation requires a semantic topic rating for every top
   const valid = { ...base, topicRelevance: completeTopicRelevance, judgedBy: "codex-semantic-review" };
   assert.deepEqual(
     validateJudgmentSet(docs, snapshot, { version: 2, rubricVersion: "semantic-v2", items: { one: valid } }, { requireAllLater: true, requireTopicRelevance: true }),
-    { accepted: 1, missing: 0, stale: 0, rejected: 0, topicMissing: 0 },
+    { accepted: 1, fallback: 0, missing: 0, stale: 0, rejected: 0, topicMissing: 0 },
   );
 });
+
+test("operational fallbacks are reported separately and fail strict semantic coverage", () => {
+  const doc = document("fallback", { philosophy: {}, "aaa-top-100": {} });
+  const evidence = buildPriorityEvidence(doc);
+  const snapshot: PriorityEvidenceSnapshot = {
+    version: 1,
+    generatedAt: "2026-09-20T00:00:00.000Z",
+    scope: "later",
+    selection: "all-later",
+    documents: { fallback: evidence },
+  };
+  const fallback = {
+    version: 2 as const,
+    rubricVersion: "semantic-v2" as const,
+    items: { fallback: { ...automatedFallbackJudgment(doc), rubricVersion: "semantic-v2" } },
+  };
+
+  assert.deepEqual(validateJudgmentSet([doc], snapshot, fallback), {
+    accepted: 0,
+    fallback: 1,
+    missing: 0,
+    stale: 0,
+    rejected: 0,
+  });
+  assert.throws(
+    () => validateJudgmentSet([doc], snapshot, fallback, { requireAllLater: true, requireTopicRelevance: true }),
+    /fallback|semantische review|ontbreken/i,
+  );
+});
+
+test("judgment coverage selects missing, stale, fallback, and draft records incrementally", () => {
+  const docs = [
+    document("reused", { "aaa-top-100": {} }),
+    document("missing", { "aaa-top-100": {} }),
+    document("fallback", { "aaa-top-100": {} }),
+    document("draft", { "aaa-top-100": {} }),
+  ];
+  const evidence = docs.reduce<Record<string, PriorityDocumentEvidence>>((result, doc) => {
+    if (doc.id) { result[doc.id] = buildPriorityEvidence(doc); }
+    return result;
+  }, {});
+  const snapshot: PriorityEvidenceSnapshot = { version: 1, generatedAt: "2026-09-20T00:00:00.000Z", scope: "later", selection: "all-later", documents: evidence };
+  const reusedEvidence = evidence.reused;
+  if (!reusedEvidence) { throw new Error("Missing reused evidence"); }
+  const fallbackDocument = docs[2];
+  const draftEvidence = evidence.draft;
+  if (!fallbackDocument || !draftEvidence) { throw new Error("Missing fallback or draft fixture"); }
+  const fallback = automatedFallbackJudgment(fallbackDocument);
+  const config: PriorityJudgmentsConfig = {
+    version: 2,
+    rubricVersion: "semantic-v2",
+    items: {
+      reused: { ...semanticJudgmentForTest(reusedEvidence), rubricVersion: "semantic-v2", judgedBy: "reviewer" },
+      fallback: { ...fallback, rubricVersion: "semantic-v2" },
+      draft: { ...semanticJudgmentForTest(draftEvidence), status: "draft", rubricVersion: "semantic-v2", judgedBy: "reviewer" },
+    },
+  };
+
+  assert.deepEqual(buildJudgmentCoverage(docs, snapshot, config), {
+    total: 4,
+    reused: 1,
+    toReview: 3,
+    incomplete: 0,
+    accepted: 1,
+    fallback: 1,
+    draft: 1,
+    rejected: 0,
+    missing: 1,
+    stale: 0,
+    topicMissing: 0,
+  });
+});
+
+function semanticJudgmentForTest(evidence: PriorityDocumentEvidence): PriorityJudgmentsConfig["items"][string] {
+  return {
+    sourceFingerprint: evidence.sourceFingerprint,
+    evidenceFingerprint: evidence.evidenceFingerprint,
+    relevance: 2,
+    substance: 2,
+    durability: 2,
+    usefulness: 2,
+    sequenceFit: { lees: 0 },
+    topicRelevance: Object.fromEntries(TOPIC_SEQUENCE_ORDER.map((topic) => [topic, 2])),
+    confidence: "medium",
+    reasonCodes: ["semantic-review"],
+    status: "accepted",
+    rubricVersion: "semantic-v2",
+    evidenceRefs: ["summary"],
+    judgedBy: "reviewer",
+    judgedAt: "2026-09-20T00:00:00.000Z",
+  };
+}
+
 
 test("fallback ensure adds only missing top-100 items and reports preserved statuses", () => {
   const docs = [
@@ -137,6 +232,7 @@ test("fallback ensure adds only missing top-100 items and reports preserved stat
     top100: 5,
     added: ["missing"],
     existing: ["existing"],
+    fallback: [],
     stale: ["stale"],
     draft: ["draft"],
     rejected: ["rejected"],

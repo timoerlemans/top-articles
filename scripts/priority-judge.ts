@@ -74,7 +74,10 @@ async function readEvidence(path = DEFAULT_EVIDENCE_FILE): Promise<PriorityEvide
 
 async function prepareCommand(): Promise<void> {
   const readingPreferences = await readFile(READING_PREFERENCES_FILE, "utf8");
-  const { snapshot, batches } = await preparePriorityEvidence({
+  const config = process.argv.includes("--incremental")
+    ? await readConfig(option("--config", JUDGMENTS_FILE) ?? JUDGMENTS_FILE)
+    : undefined;
+  const { snapshot, batches, coverage } = await preparePriorityEvidence({
     runReadwise,
     onProgress: ({ completed, total }) => { process.stdout.write(`\rEvidence: ${String(completed)}/${String(total)}`); },
   }, {
@@ -84,6 +87,8 @@ async function prepareCommand(): Promise<void> {
     batchSize: Number(option("--batch-size", "25")),
     cacheOnly: process.argv.includes("--cache-only"),
     refreshHighlights: process.argv.includes("--refresh-highlights"),
+    ...(config ? { judgments: config } : {}),
+    incremental: process.argv.includes("--incremental"),
   });
   process.stdout.write("\n");
   const evidencePath = await writeJson(option("--output", DEFAULT_EVIDENCE_FILE) ?? DEFAULT_EVIDENCE_FILE, snapshot);
@@ -91,6 +96,9 @@ async function prepareCommand(): Promise<void> {
   await mkdir(batchDir, { recursive: true });
   for (const [index, batch] of batches.entries()) {
     await writeJson(resolve(batchDir, `batch-${String(index + 1).padStart(3, "0")}.json`), batch);
+  }
+  if (coverage) {
+    console.log(`Reviewdekking: totaal=${String(coverage.total)}, hergebruikt=${String(coverage.accepted)}, te beoordelen=${String(coverage.toReview)}, fallback=${String(coverage.fallback)}, draft=${String(coverage.draft)}, rejected=${String(coverage.rejected)}, ontbrekend=${String(coverage.missing)}, stale=${String(coverage.stale)}, incompleet=${String(coverage.incomplete)}.`);
   }
   console.log(`Evidence voorbereid voor ${String(Object.keys(snapshot.documents).length)} documenten in ${String(batches.length)} batches.`);
   console.log(`Evidence: ${evidencePath}`);
@@ -121,7 +129,7 @@ async function validateCommand(): Promise<void> {
     requireAllLater: process.argv.includes("--require-all"),
     requireTopicRelevance: process.argv.includes("--require-topic"),
   });
-  console.log(`Judgments: accepted=${String(report.accepted)}, missing=${String(report.missing)}, stale=${String(report.stale)}, rejected=${String(report.rejected)}, topicMissing=${String(report.topicMissing ?? 0)}.`);
+  console.log(`Judgments: accepted=${String(report.accepted)}, fallback=${String(report.fallback)}, missing=${String(report.missing)}, stale=${String(report.stale)}, rejected=${String(report.rejected)}, topicMissing=${String(report.topicMissing ?? 0)}.`);
 }
 
 async function ensureFallbackCommand(): Promise<void> {
@@ -135,7 +143,7 @@ async function ensureFallbackCommand(): Promise<void> {
   if (result.report.added.length > 0) {
     await writeJson(configPath, result.config);
   }
-  console.log(`${selection === "all-later" ? "All-later" : "Top-100"} fallback: documenten=${String(result.report.top100)}, toegevoegd=${String(result.report.added.length)}, bestaand=${String(result.report.existing.length)}, stale=${String(result.report.stale.length)}, draft=${String(result.report.draft.length)}, rejected=${String(result.report.rejected.length)}.`);
+  console.log(`${selection === "all-later" ? "All-later" : "Top-100"} fallback: documenten=${String(result.report.top100)}, toegevoegd=${String(result.report.added.length)}, bestaand=${String(result.report.existing.length)}, fallback=${String(result.report.fallback.length)}, stale=${String(result.report.stale.length)}, draft=${String(result.report.draft.length)}, rejected=${String(result.report.rejected.length)}.`);
   console.log(`Audit: ${reportPath}`);
   if (result.report.added.length > 0) {console.log(`Config bijgewerkt: ${resolve(configPath)}`);}
 }

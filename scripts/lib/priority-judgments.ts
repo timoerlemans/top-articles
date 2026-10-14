@@ -46,6 +46,7 @@ export interface PriorityDocumentEvidence {
 export interface ContentJudgment {
   sourceFingerprint: string;
   evidenceFingerprint?: string;
+  preferencesFingerprint?: string;
   feedbackFingerprint?: string;
   relevance: ContentRating;
   substance: ContentRating;
@@ -380,6 +381,7 @@ export function validateContentJudgment(value: unknown): value is ContentJudgmen
   if (Object.hasOwn(value, "highlights")) {return false;}
   if (value.status !== undefined && value.status !== "accepted" && value.status !== "draft" && value.status !== "rejected") {return false;}
   if (value.evidenceFingerprint !== undefined && (typeof value.evidenceFingerprint !== "string" || !/^[a-f0-9]{64}$/.test(value.evidenceFingerprint))) {return false;}
+  if (value.preferencesFingerprint !== undefined && (typeof value.preferencesFingerprint !== "string" || !/^[a-f0-9]{64}$/.test(value.preferencesFingerprint))) {return false;}
   if (value.feedbackFingerprint !== undefined && (typeof value.feedbackFingerprint !== "string" || !/^[a-f0-9]{64}$/.test(value.feedbackFingerprint))) {return false;}
   if (value.evidenceRefs !== undefined && (!Array.isArray(value.evidenceRefs) || !value.evidenceRefs.every((ref) => typeof ref === "string" && ref.length > 0))) {return false;}
   return true;

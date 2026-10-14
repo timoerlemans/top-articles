@@ -21,13 +21,21 @@ npm run priority:judge -- prepare --all-later
 
 This writes an ignored evidence snapshot and batches of at most 25 documents under `.tmp/readwise/`. Highlights are deduplicated, position and toplist tags are excluded from semantic evidence, and raw highlight text stays out of the judgment config and public browser data.
 
-Read the evidence for each document. Use title, summary, notes, content tags, and relevant highlight text as evidence. Do not infer a judgment from current positions, ordinal or top-list tags, highlight count, generated provenance, or curation signals such as `must-read`, `shortlist`, and `want-to-read`. Content tags can provide evidence, but they do not replace reading the document evidence.
+For routine maintenance, prepare the complete current Later snapshot but batch only documents whose accepted semantic v2 judgment is missing, stale, an operational `automated-fallback-v1`, a draft, or incomplete:
+
+```bash
+npm run priority:judge -- prepare --all-later --incremental
+```
+
+The snapshot remains complete for coverage reporting; `batches` contains only targeted review IDs. A fallback can remain operationally `accepted` in config, but it is never counted as a completed semantic review or as reused coverage.
+
+Read the evidence for each document. Use title, summary, notes, content tags, and relevant highlight text as evidence. Do not infer a judgment from current positions, ordinal or top-list tags, highlight count, generated provenance, or curation signals such as `must-read`, `shortlist`, and `want-to-read`. Content tags can provide evidence, but they do not replace reading the document evidence. The current topic set is `scrum`, `software-development`, `front-end-development`, `social-studies`, `adhd`, and `philosophy`.
 
 ## Review and record judgments
 
 Judge every document independently of its current ranking. Use the current version-2 judgment schema and `semantic-v2` rubric. Record the four content ratings (`relevance`, `substance`, `durability`, and `usefulness`) on a 0–4 scale, applicable `sequenceFit` values on a -2–2 scale, and a 0–4 `topicRelevance` for each of `scrum`, `software-development`, `front-end-development`, `social-studies`, and `adhd`.
 
-Record evidence fingerprints and specific evidence references, confidence, reason codes, review status, reviewer, and review time. Use `draft` or `rejected` when evidence does not support an accepted judgment; do not fill missing topic ratings with guesses. Never copy raw highlight text into `config/readwise-priority-judgments.json`.
+Record source/evidence/preferences fingerprints and specific evidence references, confidence, reason codes, review status, reviewer, and review time. Use `draft` or `rejected` when evidence does not support an accepted judgment; do not fill missing topic ratings with guesses. Never copy raw highlight text into `config/readwise-priority-judgments.json`. An operational fallback with status `accepted` remains a fallback and does not count as semantic review coverage.
 
 Update `config/readwise-priority-judgments.json` only as part of the requested local semantic review. Automated low-confidence fallback judgments are operational defaults, not completed semantic reviews.
 
@@ -42,7 +50,7 @@ npm run priority:judge -- report
 
 Use `prepare --top100` and `validate --require-top100 --require-topic` only when the user explicitly limits the review to current top-100 members. Report that result as a top-100-only review, not as a complete review of `later`.
 
-Resolve missing, stale, rejected, or incomplete-topic judgments before treating the review as complete. Inspect rank movements, top-list entries and exits, rank correlation, confidence, and curation conflicts in the report. Keep the report as a comparison with current tags, not as evidence for the judgments.
+Resolve missing, stale, fallback, rejected, or incomplete-topic judgments before treating the review as complete. Inspect the separate accepted/fallback/missing/stale/rejected counts, rank movements, top-list entries and exits, rank correlation, confidence, and curation conflicts in the report. Keep the report as a comparison with current tags, not as evidence for the judgments.
 
 ## Leesmenu profiles (after priority review)
 
@@ -61,10 +69,25 @@ Only current accepted profiles become menu candidates. Preserve unrelated local 
 and track exact per-ID objects produced during this run separately from earlier edits.
 
 Run `npm run reading:profiles -- validate --require-all-reviewed` and
-`npm run reading:profiles -- report`. Report accepted/draft/rejected/missing/stale counts
-separately from priority judgment validation. Complete coverage can include explicit
-non-accepted outcomes; those do not count as usable menu profiles. The inbox router owns
-publication and source-cache cleanup after BOTH semantic assessments finish.
+`npm run reading:profiles -- report`. Report reused, targeted, incomplete, accepted,
+draft, rejected, missing, and stale counts separately from priority judgment validation.
+Complete coverage can include explicit non-accepted outcomes; those do not count as
+usable menu profiles. Keep both priority and profile source caches until both semantic
+assessments and their reports are complete.
+
+Publication is a separate, explicit step. Preserve the run-start baseline and the exact
+IDs produced by each review in `produced.json`, then merge into an isolated output
+directory:
+
+```bash
+npm run review:publish -- publish --run-dir .tmp/readwise/review-run --output-dir .tmp/readwise/review-published --expected-remote <remote-main-sha>
+```
+
+The publisher validates both configs, merges only run-produced IDs, preserves unrelated
+remote edits, and fails on a same-ID baseline conflict. Review the output in a temporary
+git worktree, compare the remote branch tip again, and commit/push only after explicit
+confirmation. It never overwrites the active config or publishes raw source text,
+feedback, or evidence.
 
 ## Safety contract
 

@@ -53,11 +53,26 @@ Everything else in readwise-triage remains active:
 - Paywall/Tier 1 handling uses the controlled Reader move and records its result; incomplete or failed work is not counted as successful.
 - Phase H (linked articles) uses the strict target-page gate and full library/Feed/run deduplication.
 
+## Step 3: Incremental Later review maintenance
+
+After the inbox documents have been routed, inspect the complete current `later` collection — not only IDs moved by this inbox run. This is a read-only coverage step unless the user explicitly requests semantic review publication:
+
+```bash
+npm run priority:judge -- prepare --all-later --incremental
+npm run reading:profiles -- prepare --all-later --fetch-content
+npm run priority:judge -- validate --require-all --require-topic
+npm run reading:profiles -- validate --require-all-reviewed
+```
+
+Reuse current semantic v2 judgments and complete reading-profile-v2 outcomes. Batch only missing, stale, operational fallback, incomplete, or re-reviewable draft records. A fallback with operational `accepted` status is still reported separately and never counts as semantic review coverage; explicit drafts/rejections remain visible and do not become menu candidates. The priority topic set includes philosophy. Keep both evidence/source caches and manifests until both assessments and their reports finish.
+
+Do not write Reader tags, locations, notes, highlights, or config during this read-only maintenance step. If publication is explicitly in scope, preserve the run-start baseline and produced-ID manifest, run `review:publish` into an isolated output/worktree, validate both configs, compare the remote tip again, and request confirmation before commit/push. Preserve unrelated remote edits and stop on same-ID conflicts.
+
 **Geen automatische reorder:** noch deze skill, noch readwise-triage roept `readwise-reorder` aan voor nieuw naar `later` verplaatste documenten. Wil de gebruiker dat die alsnog een `lees-`/`boek-`-positie krijgen, dan is dat een losse, expliciete vervolgstap (`readwise-reorder`, Modus B) — nooit stilzwijgend meelopen in deze pipeline.
 
 **Autonomous removes the wait for user confirmation. It does not remove any safety check, beschermregel, or tagging rule** — those exist independent of who makes the move-decision.
 
-## Step 3: Combined Report
+## Step 4: Combined Report
 
 After both phases finish, report one summary instead of the two separate skills' own summaries:
 

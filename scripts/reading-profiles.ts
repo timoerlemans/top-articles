@@ -7,11 +7,12 @@ import { resolve } from "node:path";
 import { fetchReadwiseDocuments } from "./lib/readwise-documents.js";
 import { createReadwiseRequester } from "./lib/readwise-request.js";
 import { buildPriorityEvidence } from "./lib/priority-judgments.js";
-import { PROFILE_RUBRIC, fingerprint, profileNeedsSource, profileSourceFingerprint, validateReadingProfiles } from "./lib/reading-profiles.js";
+import { buildReadingProfileCoverage, PROFILE_RUBRIC, fingerprint, profileNeedsSource, profileSourceFingerprint, validateReadingProfiles } from "./lib/reading-profiles.js";
 import type { ReadingProfilesConfig } from "./lib/reading-profiles.js";
 import { record } from "../src/reading-profiles.js";
 import { createMigration, validMigration } from "./lib/reading-profile-migration.js";
 import type { ProfileEvidence, MigrationManifest } from "./lib/reading-profile-migration.js";
+import type { ReadingProfileEvidenceRecord } from "./lib/reading-profiles.js";
 
 const root = resolve(import.meta.dirname, "../..");
 const defaultDirectory = resolve(root, ".tmp/readwise/reading-profiles");
@@ -70,16 +71,15 @@ async function main(): Promise<void> {
     const snapshot = await json(resolve(directory, "snapshot.json"));
     if (!record(snapshot) || (snapshot.version !== 1 && snapshot.version !== 2) || snapshot.scope !== "later" || snapshot.complete !== true || !Array.isArray(snapshot.documents) || snapshot.preferencesFingerprint !== fingerprint(preferences)
       || (snapshot.version === 2 && !validMigration(snapshot, manifest))) { throw new Error("Bereid eerst actuele evidence voor met geldig snapshot/manifest"); }
-    const counts = { accepted: 0, draft: 0, rejected: 0, missing: 0, stale: 0 };
-    for (const evidence of snapshot.documents) {
-      if (!record(evidence) || typeof evidence.id !== "string") { throw new Error("Ongeldige snapshot"); }
-      const profile = config.items[evidence.id];
-      if (!profile) { counts.missing++; }
-      else if (profile.rubricVersion !== PROFILE_RUBRIC || profile.sourceFingerprint !== evidence.sourceFingerprint || profile.preferencesFingerprint !== fingerprint(preferences) || profile.evidenceFingerprint !== evidence.evidenceFingerprint) { counts.stale++; }
-      else { counts[profile.status]++; }
+    if (!snapshot.documents.every((evidence: unknown) => record(evidence) && typeof evidence.id === "string")) { throw new Error("Ongeldige snapshot"); }
+    const coverage = buildReadingProfileCoverage(snapshot.documents as ReadingProfileEvidenceRecord[], config, preferences);
+    console.log(JSON.stringify(coverage, null, 2));
+    if (command === "report") {
+      const reportPath = resolve(directory, "report.json");
+      await writeFile(reportPath, `${JSON.stringify(coverage, null, 2)}\n`, "utf8");
+      console.log(`Rapport: ${reportPath}`);
     }
-    console.log(JSON.stringify(counts, null, 2));
-    if (flags.includes("--require-all-reviewed") && (counts.missing || counts.stale)) { throw new Error("Niet alle huidige documenten hebben een actuele beoordeling"); }
+    if (flags.includes("--require-all-reviewed") && (coverage.missing || coverage.stale || coverage.incomplete)) { throw new Error("Niet alle huidige documenten hebben een actuele beoordeling"); }
     if (flags.includes("--activate-v2")) {
       if (snapshot.version !== 2 || !validMigration(snapshot, manifest)) { throw new Error("V2 activeren vereist een complete bevroren migratiesnapshot"); }
       await writeFile(configPath, JSON.stringify({ ...config, activeRubric: PROFILE_RUBRIC }, null, 2) + "\n");
@@ -114,12 +114,13 @@ async function main(): Promise<void> {
     const base = buildPriorityEvidence(doc);
     const sourceFingerprint = profileSourceFingerprint(doc);
     const evidenceFingerprint = fingerprint(JSON.stringify({ sourceFingerprint, summary: base.summary, notes: base.notes, content }));
-    evidence.push({ id: doc.id, category: doc.category, readingTime: doc.reading_time, title: doc.title, summary: base.summary, notes: base.notes, contentTags: base.contentTags, content, contentError, sourceFingerprint, evidenceFingerprint, preferencesFingerprint: fingerprint(preferences) });
+    const sourceStatus = contentError ? "error" : content ? "complete" : "partial";
+    evidence.push({ id: doc.id, category: doc.category, readingTime: doc.reading_time, title: doc.title, summary: base.summary, notes: base.notes, contentTags: base.contentTags, content, contentError, sourceStatus, sourceFingerprint, evidenceFingerprint, preferencesFingerprint: fingerprint(preferences) });
     if ((index + 1) % 25 === 0) { console.log(`Evidence ${index + 1}/${documents.length}`); }
   }
   const pending = evidence.filter((doc) => {
     const profile = config.items[doc.id];
-    return migration || !profile || profile.sourceFingerprint !== doc.sourceFingerprint || profile.evidenceFingerprint !== doc.evidenceFingerprint || profile.preferencesFingerprint !== doc.preferencesFingerprint || profile.rubricVersion !== PROFILE_RUBRIC || profile.status === "draft";
+    return migration || !profile || profile.sourceFingerprint !== doc.sourceFingerprint || profile.evidenceFingerprint !== doc.evidenceFingerprint || profile.preferencesFingerprint !== doc.preferencesFingerprint || profile.rubricVersion !== PROFILE_RUBRIC || profile.status === "draft" || (profile.status === "accepted" && doc.sourceStatus !== "complete");
   });
   const generatedAt = new Date().toISOString();
   let frozenManifest: MigrationManifest | null = null;
@@ -136,6 +137,8 @@ async function main(): Promise<void> {
     await writeFile(resolve(directory, `batch-${String(offset / 25 + 1).padStart(3, "0")}.json`), JSON.stringify({ rubricVersion: PROFILE_RUBRIC, readingPreferences: preferences, instruction: "Beoordeel inspanning, emotioneel gewicht, toon, iedere behoeftefit, activation en interruptibility uit inhoudelijke brontekst. Alle ratings integer 0–4, zelfstandig beoordeeld; zie docs/reading-profiles.md voor ankers. Geen rang/curatie als bewijs. Ontbrekende zekerheid: draft/rejected. Bewaar uitsluitend fingerprints en evidenceRefs in config, geen brontekst.", documents: pending.slice(offset, offset + 25) }, null, 2), migration ? { flag: "wx" } : {});
   }
   if (frozenManifest) { await writeFile(resolve(directory, "manifest.json"), JSON.stringify(frozenManifest, null, 2), { flag: "wx" }); }
+  const coverage = buildReadingProfileCoverage(evidence, config, preferences);
   console.log(`${documents.length} Later-documenten; ${pending.length} te beoordelen. Evidence blijft lokaal in ${directory}`);
+  console.log(`Reviewdekking: hergebruikt=${String(coverage.reused)}, te beoordelen=${String(coverage.toReview)}, incompleet=${String(coverage.incomplete)}, accepted=${String(coverage.accepted)}, draft=${String(coverage.draft)}, rejected=${String(coverage.rejected)}, missing=${String(coverage.missing)}, stale=${String(coverage.stale)}.`);
 }
 main().catch((error: unknown) => { console.error(error instanceof Error ? error.message : error); process.exitCode = 1; });

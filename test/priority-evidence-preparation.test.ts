@@ -1,10 +1,13 @@
 import assert from "node:assert/strict";
+import { createHash } from "node:crypto";
 import { mkdir, mkdtemp, rm, writeFile } from "node:fs/promises";
 import { tmpdir } from "node:os";
 import { join } from "node:path";
 import test from "node:test";
 
 import { preparePriorityEvidence } from "../scripts/lib/priority-judge.js";
+import { automatedFallbackJudgment, buildPriorityEvidence } from "../scripts/lib/priority-judgments.js";
+import { TOPIC_SEQUENCE_ORDER } from "../scripts/lib/priority-sequences.js";
 import type { ReadwiseDocument } from "../scripts/lib/external-schemas.js";
 import type { ReadwiseExecutor } from "../scripts/lib/readwise-request.js";
 
@@ -84,6 +87,53 @@ test("all-later verwerkt ook documenten zonder toplijsttags en gebruikt standaar
     assert.deepEqual(result.batches.map((batch) => batch.documents.length), [25, 1]);
     assert.ok(result.batches.every((batch) => batch.selection === "all-later"));
     assert.equal(transport.calls.length, 27);
+  });
+});
+
+test("incrementele evidence bewaart volledige Later-dekking maar batcht alleen reviewtargets", async () => {
+  await withCache(async (cacheDirectory) => {
+    const documents = [
+      { id: "reused", tags: ["philosophy"] },
+      { id: "fallback", tags: ["philosophy"] },
+      { id: "missing", tags: ["philosophy"] },
+    ];
+    const reusedDocument = documents[0];
+    const fallbackDocument = documents[1];
+    if (!reusedDocument || !fallbackDocument) { throw new Error("Fixture documents ontbreken"); }
+    const transport = reader(documents);
+    const reusedEvidence = buildPriorityEvidence(reusedDocument);
+    const fallback = automatedFallbackJudgment(fallbackDocument);
+    const judgments = {
+      version: 2 as const,
+      rubricVersion: "semantic-v2" as const,
+      items: {
+        reused: {
+          ...reusedEvidence,
+          relevance: 2 as const,
+          substance: 2 as const,
+          durability: 2 as const,
+          usefulness: 2 as const,
+          sequenceFit: { lees: 0 as const },
+          topicRelevance: Object.fromEntries(TOPIC_SEQUENCE_ORDER.map((topic) => [topic, 2])) as Record<(typeof TOPIC_SEQUENCE_ORDER)[number], 0 | 1 | 2 | 3 | 4>,
+          confidence: "medium" as const,
+          reasonCodes: ["semantic-review"],
+          status: "accepted" as const,
+          rubricVersion: "semantic-v2",
+          preferencesFingerprint: createHash("sha256").update(PREFERENCES).digest("hex"),
+          evidenceRefs: ["summary"],
+          judgedBy: "reviewer",
+          judgedAt: TIMESTAMP,
+        },
+        fallback: fallback,
+      },
+    };
+    const result = await preparePriorityEvidence({ runReadwise: transport.runReadwise }, {
+      selection: "all-later", readingPreferences: PREFERENCES, cacheDirectory, cacheOnly: true,
+      judgments, incremental: true,
+    });
+
+    assert.deepEqual(Object.keys(result.snapshot.documents), ["reused", "fallback", "missing"]);
+    assert.deepEqual(result.batches.flatMap((batch) => batch.documents.map((entry) => entry.documentId)), ["fallback", "missing"]);
   });
 });
 

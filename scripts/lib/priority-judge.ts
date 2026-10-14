@@ -1,3 +1,4 @@
+import { createHash } from "node:crypto";
 import { readdir, readFile } from "node:fs/promises";
 import { resolve } from "node:path";
 
@@ -10,6 +11,7 @@ import {
   judgmentMatchesEvidence,
   type PriorityJudgmentsConfig,
   type PriorityDocumentEvidence,
+  type ContentJudgment,
 } from "./priority-judgments.js";
 import type { PriorityDocument } from "./priority-document.js";
 import { TOPIC_SEQUENCE_ORDER } from "./priority-sequences.js";
@@ -23,6 +25,8 @@ export interface PriorityEvidenceSnapshot {
   generatedAt: string;
   scope: "later";
   selection?: EvidenceSelection;
+  rubricVersion?: "semantic-v2";
+  preferencesFingerprint?: string;
   documents: Record<string, PriorityDocumentEvidence>;
 }
 
@@ -38,6 +42,7 @@ export interface PriorityEvidenceBatch {
 export interface PriorityEvidencePreparation {
   snapshot: PriorityEvidenceSnapshot;
   batches: PriorityEvidenceBatch[];
+  coverage?: JudgmentCoverageReport;
 }
 
 export interface PriorityEvidencePreparationDependencies {
@@ -53,20 +58,32 @@ export interface PriorityEvidencePreparationOptions {
   batchSize?: number;
   cacheOnly?: boolean;
   refreshHighlights?: boolean;
+  judgments?: PriorityJudgmentsConfig;
+  incremental?: boolean;
 }
 
 export interface JudgmentValidationReport {
   accepted: number;
+  fallback: number;
   missing: number;
   stale: number;
   rejected: number;
   topicMissing?: number;
 }
 
+export interface JudgmentCoverageReport extends JudgmentValidationReport {
+  total: number;
+  reused: number;
+  toReview: number;
+  incomplete: number;
+  draft: number;
+}
+
 export interface Top100FallbackReport {
   top100: number;
   added: string[];
   existing: string[];
+  fallback: string[];
   stale: string[];
   draft: string[];
   rejected: string[];
@@ -180,9 +197,10 @@ async function cachedHighlightsIndex(root: string): Promise<Map<string, unknown[
 /** Prepare the complete evidence and batches; callers own presentation and publication. */
 export async function preparePriorityEvidence(
   { runReadwise, now = () => new Date().toISOString(), onProgress }: PriorityEvidencePreparationDependencies,
-  { selection, readingPreferences, cacheDirectory, batchSize = 25, cacheOnly = false, refreshHighlights = false }: PriorityEvidencePreparationOptions,
+  { selection, readingPreferences, cacheDirectory, batchSize = 25, cacheOnly = false, refreshHighlights = false, judgments, incremental = false }: PriorityEvidencePreparationOptions,
 ): Promise<PriorityEvidencePreparation> {
   if (!Number.isInteger(batchSize) || batchSize < 1) {throw new Error("Batchgrootte moet positief zijn");}
+  if (incremental && !judgments) {throw new Error("Incrementele voorbereiding vereist een bestaande judgment-config");}
   const documents = await fetchReadwiseDocuments(runReadwise, { profile: "judge", location: "later" });
   const candidates = selection === "all-later" ? documents : selectTop100Documents(documents);
   const cached = refreshHighlights ? new Map<string, unknown[]>() : await cachedHighlightsIndex(cacheDirectory);
@@ -193,8 +211,21 @@ export async function preparePriorityEvidence(
     highlightsById.set(doc.id, cachedForDocument.length > 0 || cacheOnly ? cachedForDocument : await fetchHighlights(runReadwise, doc.id));
     onProgress?.({ completed: index + 1, total: candidates.length });
   }
-  const snapshot = snapshotForSelectedDocuments(candidates, highlightsById, now(), selection);
-  const batches = batchPriorityEvidence(Object.values(snapshot.documents), batchSize).map((documents): PriorityEvidenceBatch => ({
+  const snapshot = {
+    ...snapshotForSelectedDocuments(candidates, highlightsById, now(), selection),
+    rubricVersion: "semantic-v2" as const,
+    preferencesFingerprint: createHash("sha256").update(readingPreferences).digest("hex"),
+  };
+  const coverage = incremental
+    ? buildJudgmentCoverage(candidates, snapshot, judgments ?? { version: 2, rubricVersion: "semantic-v2", items: {} })
+    : undefined;
+  const batchDocuments = incremental
+    ? Object.values(snapshot.documents).filter((evidence) => {
+      const doc = candidates.find((candidate) => candidate.id === evidence.documentId);
+      return doc !== undefined && buildJudgmentCoverage([doc], snapshot, judgments ?? { version: 2, rubricVersion: "semantic-v2", items: {} }).toReview > 0;
+    })
+    : Object.values(snapshot.documents);
+  const batches = batchPriorityEvidence(batchDocuments, batchSize).map((documents): PriorityEvidenceBatch => ({
     version: 1,
     rubricVersion: "semantic-v2",
     selection,
@@ -202,7 +233,85 @@ export async function preparePriorityEvidence(
     readingPreferences,
     documents,
   }));
-  return { snapshot, batches };
+  return { snapshot, batches, ...(coverage ? { coverage } : {}) };
+}
+
+function judgmentRubric(config: PriorityJudgmentsConfig, judgment: ContentJudgment): string | undefined {
+  return judgment.rubricVersion ?? config.rubricVersion;
+}
+
+function judgmentMatchesReviewContext(snapshot: PriorityEvidenceSnapshot, config: PriorityJudgmentsConfig, judgment: ContentJudgment): boolean {
+  return (snapshot.rubricVersion === undefined || judgmentRubric(config, judgment) === snapshot.rubricVersion)
+    && (snapshot.preferencesFingerprint === undefined || judgment.preferencesFingerprint === snapshot.preferencesFingerprint);
+}
+
+export function buildJudgmentCoverage(
+  documents: readonly PriorityDocument[],
+  snapshot: PriorityEvidenceSnapshot,
+  config: PriorityJudgmentsConfig,
+): JudgmentCoverageReport {
+  const report: JudgmentCoverageReport = {
+    total: documents.filter((doc) => Boolean(doc.id)).length,
+    reused: 0,
+    toReview: 0,
+    incomplete: 0,
+    accepted: 0,
+    fallback: 0,
+    missing: 0,
+    stale: 0,
+    rejected: 0,
+    draft: 0,
+    topicMissing: 0,
+  };
+  for (const doc of documents) {
+    if (!doc.id) { continue; }
+    const evidence = snapshot.documents[doc.id];
+    const judgment = config.items[doc.id];
+    if (!evidence) {
+      report.incomplete += 1;
+      report.missing += 1;
+      report.toReview += 1;
+      continue;
+    }
+    if (!judgment) {
+      report.missing += 1;
+      report.toReview += 1;
+      continue;
+    }
+    if (judgment.status === "rejected") {
+      report.rejected += 1;
+      continue;
+    }
+    if (judgment.status === "draft") {
+      report.draft = (report.draft ?? 0) + 1;
+      report.toReview += 1;
+      continue;
+    }
+    if (!judgmentMatchesEvidence(doc, evidence, judgment)) {
+      report.stale += 1;
+      report.toReview += 1;
+      continue;
+    }
+    if (judgment.judgedBy === AUTOMATED_FALLBACK_JUDGER) {
+      report.fallback += 1;
+      report.toReview += 1;
+      continue;
+    }
+    if (!judgmentMatchesReviewContext(snapshot, config, judgment)) {
+      report.stale += 1;
+      report.toReview += 1;
+      continue;
+    }
+    report.accepted += 1;
+    if (!TOPIC_SEQUENCE_ORDER.every((topic) => judgment.topicRelevance?.[topic] !== undefined)) {
+      report.topicMissing = (report.topicMissing ?? 0) + 1;
+      report.incomplete += 1;
+      report.toReview += 1;
+      continue;
+    }
+    report.reused += 1;
+  }
+  return report;
 }
 
 export function ensureMissingFallbacks(
@@ -213,7 +322,7 @@ export function ensureMissingFallbacks(
   if (!validatePriorityJudgments(config) || config.version !== 2) {
     throw new Error("Semantische judgment-config moet version 2 en rubricVersion semantic-v1 hebben");
   }
-  const report: Top100FallbackReport = { top100: 0, added: [], existing: [], stale: [], draft: [], rejected: [] };
+  const report: Top100FallbackReport = { top100: 0, added: [], existing: [], fallback: [], stale: [], draft: [], rejected: [] };
   const items = { ...config.items };
   const candidates = options.selection === "all-later" ? documents : selectTop100Documents(documents);
   for (const doc of candidates) {
@@ -237,7 +346,8 @@ export function ensureMissingFallbacks(
       report.stale.push(doc.id);
       continue;
     }
-    report.existing.push(doc.id);
+    if (judgment.judgedBy === AUTOMATED_FALLBACK_JUDGER) { report.fallback.push(doc.id); }
+    else { report.existing.push(doc.id); }
   }
   return { config: { ...config, items }, report };
 }
@@ -272,7 +382,7 @@ export function validateJudgmentSet(
   }
   const normalizedOptions: JudgmentValidationOptions = typeof options === "boolean" ? { requireTop100: options } : options;
   const candidates = normalizedOptions.requireAllLater ? [...documents] : selectTop100Documents(documents);
-  const report: JudgmentValidationReport = { accepted: 0, missing: 0, stale: 0, rejected: 0 };
+  const report: JudgmentValidationReport = { accepted: 0, fallback: 0, missing: 0, stale: 0, rejected: 0 };
   if (normalizedOptions.requireTopicRelevance) {report.topicMissing = 0;}
   for (const doc of candidates) {
     if (!doc.id) {continue;}
@@ -282,11 +392,23 @@ export function validateJudgmentSet(
       report.missing += 1;
       continue;
     }
-    if (judgment.status !== "accepted") {
+    if (judgment.status === "rejected") {
+      report.rejected += 1;
+      continue;
+    }
+    if (judgment.status === "draft") {
       report.rejected += 1;
       continue;
     }
     if (!judgmentMatchesEvidence(doc, evidence, judgment)) {
+      report.stale += 1;
+      continue;
+    }
+    if (judgment.judgedBy === AUTOMATED_FALLBACK_JUDGER) {
+      report.fallback += 1;
+      continue;
+    }
+    if (!judgmentMatchesReviewContext(snapshot, config, judgment)) {
       report.stale += 1;
       continue;
     }
@@ -296,16 +418,16 @@ export function validateJudgmentSet(
     }
   }
   const requiresCompleteSet = normalizedOptions.requireTop100 || normalizedOptions.requireAllLater;
-  if (requiresCompleteSet && (report.missing > 0 || report.stale > 0 || report.rejected > 0 || (report.topicMissing ?? 0) > 0)) {
+  if (requiresCompleteSet && (report.missing > 0 || report.stale > 0 || report.rejected > 0 || report.fallback > 0 || (report.topicMissing ?? 0) > 0)) {
     const ids = candidates.flatMap((doc) => {
       if (!doc.id) {return [];}
       const judgment = config.items[doc.id];
       const evidence = snapshot.documents[doc.id];
-      return !judgment || !evidence || judgment.status !== "accepted" || !judgmentMatchesEvidence(doc, evidence, judgment) || (normalizedOptions.requireTopicRelevance && !hasSemanticTopicRelevance(judgment)) ? [doc.id] : [];
+      return !judgment || !evidence || judgment.status !== "accepted" || judgment.judgedBy === AUTOMATED_FALLBACK_JUDGER || !judgmentMatchesReviewContext(snapshot, config, judgment) || !judgmentMatchesEvidence(doc, evidence, judgment) || (normalizedOptions.requireTopicRelevance && !hasSemanticTopicRelevance(judgment)) ? [doc.id] : [];
     });
     const preview = ids.slice(0, 10).join(", ");
     const scope = normalizedOptions.requireAllLater ? "All-later" : "Top-100";
-    throw new Error(`${scope} judgments ontbreken, zijn stale, niet geaccepteerd of missen topicrelevantie (${String(ids.length)}): ${preview}${ids.length > 10 ? ", ..." : ""}`);
+    throw new Error(`${scope} judgments ontbreken, zijn stale, fallback, niet geaccepteerd of missen topicrelevantie (${String(ids.length)}): ${preview}${ids.length > 10 ? ", ..." : ""}`);
   }
   return report;
 }

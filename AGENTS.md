@@ -40,6 +40,7 @@ npm test                  # compileert eerst, draait dan node --test dist/test/*
 npm run compile && node --test dist/test/priority-tag-plan.test.js   # los testbestand draaien
 
 npm run priority:judge -- prepare --all-later  # volledige evidence snapshot voor v8-migratie
+npm run priority:judge -- prepare --all-later --incremental # volledige Later-dekking, alleen benodigde reviews
 npm run priority:judge -- prepare --top100       # read-only evidence snapshot + batches van max. 25
 npm run priority:judge -- validate --require-all --require-topic # strikte v8-migratiepoort
 npm run priority:judge -- validate --require-top100 # controleert alle actuele top-100-labels
@@ -48,6 +49,7 @@ npm run priority:topic-report                   # read-only v7→v8-topic-impact
 npm run priority:plan     # compileert eerst; proefrun: berekent benodigde Readwise-tagwijzigingen, schrijft .tmp/readwise/priority-plan.json
 npm run priority:apply    # compileert eerst; past een eerder gegenereerd plan toe na expliciete --confirm <plan-hash>
 npm run priority:verify   # compileert eerst; controleert of Readwise-tags al matchen met de berekende reeksen (geen wijzigingen)
+npm run review:publish -- publish --run-dir <runmap> --output-dir <geïsoleerde-outputmap> # veilige reviewconfig-merge
 npm run skills:check      # read-only controle van repository-skills en canonieke contracten
 npm run skills:sync -- --dry-run  # toont skillwijzigingen zonder installatie of baseline te wijzigen
 npm run skills:sync       # synchroniseert na expliciete conflictkeuzes naar ~/.claude/skills

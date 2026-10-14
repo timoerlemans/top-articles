@@ -80,6 +80,7 @@ const REFERENCE_ANCHORS = [
   "Runmanifest",
   "doelpagina",
   "V2 triageroutering",
+  "V2 reviewonderhoud",
 ] as const;
 
 const ENRICHMENT_SKILL_CONTRACTS: Readonly<Record<string, readonly string[]>> = {
@@ -95,6 +96,7 @@ const OBSOLETE_ENRICHMENT_PATTERNS: Readonly<Record<string, readonly RegExp[]>> 
 };
 
 const TRIAGE_ROUTING_SKILL_CONTRACTS: Readonly<Record<string, readonly string[]>> = {
+  "readwise-priority-judge": ["semantic-v2", "incremental", "philosophy", "fallback", "report"],
   "readwise-triage": [
     "V2 triagecontract",
     "source_status",

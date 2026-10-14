@@ -23,8 +23,13 @@ test("v2 browser profiles require both complete ratings and project away private
   assert.deepEqual(parseReadingMenu({ version: 1, scope: "later", complete: true, profiles: { a: traits } })?.profiles.a, traits);
 });
 
-import { fingerprint, profileSourceFingerprint, publicReadingMenu, validateReadingProfiles, PROFILE_RUBRIC } from "../scripts/lib/reading-profiles.js";
+import { buildReadingProfileCoverage, fingerprint, profileSourceFingerprint, publicReadingMenu, validateReadingProfiles, PROFILE_RUBRIC } from "../scripts/lib/reading-profiles.js";
 import type { ReadingProfile } from "../scripts/lib/reading-profiles.js";
+
+function document(id: string): { id: string; title: string; category: string } {
+  return { id, title: id, category: "article" };
+}
+
 test("publication excludes stale/uncertain profiles and exports no private review evidence", () => {
   const doc = { id: "a", category: "article", title: "A", reading_time: "3 min", notes: "Content\n\nFeedback: private" };
   const prefs = "Preferences";
@@ -67,4 +72,73 @@ test("a current draft retries unavailable body evidence instead of staying perma
   const doc = { id: "a", title: "A" }; const prefs = "Prefs";
   const profile: ReadingProfile = { status: "draft", confidence: "low", rubricVersion: PROFILE_RUBRIC, sourceFingerprint: profileSourceFingerprint(doc), evidenceFingerprint: fingerprint("no content"), preferencesFingerprint: fingerprint(prefs), judgedBy: "Reviewer", judgedAt: "2026-10-10", evidenceRefs: [], reason: "Missing content" };
   assert.equal(profileNeedsSource(profile, doc, prefs), true);
+});
+
+test("profile coverage separates reused profiles, targeted reviews, and explicit outcomes", () => {
+  const docs = [
+    document("reused"),
+    document("missing"),
+    document("draft"),
+    document("rejected"),
+  ];
+  const preferences = "preferences";
+  const makeEvidence = (doc: typeof docs[number]) => ({
+    id: doc.id,
+    sourceFingerprint: profileSourceFingerprint(doc),
+    evidenceFingerprint: fingerprint(`${doc.id}-evidence`),
+    preferencesFingerprint: fingerprint(preferences),
+  });
+  const evidence = docs.map(makeEvidence);
+  const profile = (doc: typeof docs[number], status: ReadingProfile["status"]): ReadingProfile => ({
+    status,
+    confidence: status === "accepted" ? "medium" : "low",
+    rubricVersion: PROFILE_RUBRIC,
+    sourceFingerprint: profileSourceFingerprint(doc),
+    evidenceFingerprint: fingerprint(`${doc.id}-evidence`),
+    preferencesFingerprint: fingerprint(preferences),
+    judgedBy: "reviewer",
+    judgedAt: "2026-10-14T00:00:00Z",
+    evidenceRefs: ["content"],
+    reason: "Fixture outcome",
+    ...(status === "accepted" ? { traits: completeTraits } : {}),
+  });
+  const reusedDocument = docs[0];
+  const draftDocument = docs[2];
+  const rejectedDocument = docs[3];
+  if (!reusedDocument || !draftDocument || !rejectedDocument) { throw new Error("Fixture documents ontbreken"); }
+  const config = { version: 1 as const, items: {
+    reused: profile(reusedDocument, "accepted"),
+    draft: profile(draftDocument, "draft"),
+    rejected: profile(rejectedDocument, "rejected"),
+  } };
+
+  assert.deepEqual(buildReadingProfileCoverage(evidence, config, preferences), {
+    total: 4,
+    reused: 1,
+    toReview: 2,
+    incomplete: 0,
+    accepted: 1,
+    draft: 1,
+    rejected: 1,
+    missing: 1,
+    stale: 0,
+    newlyReviewed: 0,
+  });
+});
+
+test("incomplete profile evidence is visible and never reused as a menu-ready assessment", () => {
+  const doc = document("partial");
+  const preferences = "preferences";
+  const profile: ReadingProfile = {
+    status: "accepted", confidence: "medium", rubricVersion: PROFILE_RUBRIC,
+    sourceFingerprint: profileSourceFingerprint(doc), evidenceFingerprint: fingerprint("partial-evidence"),
+    preferencesFingerprint: fingerprint(preferences), judgedBy: "reviewer", judgedAt: "2026-10-14T00:00:00Z",
+    evidenceRefs: ["summary"], reason: "Insufficient fixture evidence", traits: completeTraits,
+  };
+  assert.deepEqual(buildReadingProfileCoverage([{
+    id: doc.id, sourceFingerprint: profile.sourceFingerprint, evidenceFingerprint: profile.evidenceFingerprint,
+    preferencesFingerprint: profile.preferencesFingerprint, sourceStatus: "partial",
+  }], { version: 1, items: { partial: profile } }, preferences), {
+    total: 1, reused: 0, toReview: 1, incomplete: 1, accepted: 0, draft: 0, rejected: 0, missing: 0, stale: 0, newlyReviewed: 0,
+  });
 });

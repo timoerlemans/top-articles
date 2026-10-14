@@ -69,7 +69,7 @@ jobs:
           {
             echo "### Readwise refresh"
             if [ -f .tmp/readwise/priority-judge-audit.json ]; then
-              jq -r '"- Fallback-documenten: \(.top100)\n- Nieuw: \((.added // []) | length)\n- Bestaand: \((.existing // []) | length)\n- Stale: \((.stale // []) | length)\n- Draft: \((.draft // []) | length)\n- Rejected: \((.rejected // []) | length)"' .tmp/readwise/priority-judge-audit.json
+              jq -r '"- Fallback-documenten: \(.top100)\n- Nieuw: \((.added // []) | length)\n- Bestaand: \((.existing // []) | length)\n- Bestaande operationele fallback: \((.fallback // []) | length)\n- Stale: \((.stale // []) | length)\n- Draft: \((.draft // []) | length)\n- Rejected: \((.rejected // []) | length)"' .tmp/readwise/priority-judge-audit.json
             fi
           } >> "$GITHUB_STEP_SUMMARY"
 
