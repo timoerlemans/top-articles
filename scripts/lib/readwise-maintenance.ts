@@ -86,10 +86,16 @@ export function createMaintenanceRoute(
     return { stages: plans };
   }
 
-  async function apply(confirmations: MaintenanceConfirmations = {}, planned?: MaintenancePlan): Promise<MaintenanceReport> {
+  async function apply(
+    confirmations: MaintenanceConfirmations = {},
+    planned?: MaintenancePlan,
+    through: MaintenanceStageName = "build",
+  ): Promise<MaintenanceReport> {
     const report: MaintenanceReport = { status: "verified", stages: [] };
     let sourceInvalidated = false;
-    for (const stage of MAINTENANCE_STAGE_ORDER) {
+    const throughIndex = MAINTENANCE_STAGE_ORDER.indexOf(through);
+    if (throughIndex < 0) { throw new Error(`Onbekende onderhoudsstap: ${through}`); }
+    for (const stage of MAINTENANCE_STAGE_ORDER.slice(0, throughIndex + 1)) {
       const plannedStage = planned?.stages.find((entry) => entry.stage === stage);
       const current = !sourceInvalidated && plannedStage !== undefined ? plannedStage : await stages[stage].plan();
       assertStagePlan(current, stage);
@@ -129,9 +135,11 @@ export function createMaintenanceRoute(
     return report;
   }
 
-  async function verify(): Promise<MaintenanceReport> {
+  async function verify(through: MaintenanceStageName = "build"): Promise<MaintenanceReport> {
     const report: MaintenanceReport = { status: "verified", stages: [] };
-    for (const stage of MAINTENANCE_STAGE_ORDER) {
+    const throughIndex = MAINTENANCE_STAGE_ORDER.indexOf(through);
+    if (throughIndex < 0) { throw new Error(`Onbekende onderhoudsstap: ${through}`); }
+    for (const stage of MAINTENANCE_STAGE_ORDER.slice(0, throughIndex + 1)) {
       const current = await stages[stage].plan();
       assertStagePlan(current, stage);
       let result: MaintenanceStageResult;

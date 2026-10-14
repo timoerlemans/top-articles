@@ -117,3 +117,16 @@ test("maintenance reports thrown stage failures and does not continue downstream
   assert.equal(report.stages.at(-1)?.message, "bulk endpoint down");
   assert.ok(!calls.some((call) => call.startsWith("archive:")));
 });
+
+test("maintenance can stop after a verified stage for repository automation", async () => {
+  const calls: string[] = [];
+  const stages = stageMap((stage) => fakeStage(stage, [stagePlan(stage, `${stage}-hash`, false)], calls));
+
+  const report = await createMaintenanceRoute(stages).apply({}, undefined, "priority");
+
+  assert.equal(report.status, "verified");
+  assert.deepEqual(calls, [
+    "authors:plan", "authors:verify:authors-hash",
+    "priority:plan", "priority:verify:priority-hash",
+  ]);
+});

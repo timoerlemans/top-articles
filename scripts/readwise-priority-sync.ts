@@ -87,6 +87,13 @@ export function parseMaintenanceConfirmations(values: readonly string[]): Mainte
   return confirmations;
 }
 
+export function parseMaintenanceThrough(value: string | null): MaintenanceStageName {
+  if (value !== null && MAINTENANCE_STAGE_ORDER.includes(value as MaintenanceStageName)) {
+    return value as MaintenanceStageName;
+  }
+  throw new Error(`Gebruik --through <stap> uit: ${MAINTENANCE_STAGE_ORDER.join(", ")}`);
+}
+
 async function readJson(path: string): Promise<unknown> {
   return JSON.parse(await readFile(resolve(path), "utf8")) as unknown;
 }
@@ -297,7 +304,8 @@ async function applyCommand(): Promise<void> {
     throw new Error("Ongeldig maintenance-plan");
   }
   const confirmations = parseMaintenanceConfirmations(options("--confirm"));
-  const report = await createMaintenanceRoute(createStages()).apply(confirmations, { stages: (manifestValue as { stages: MaintenanceStagePlan[] }).stages });
+  const through = parseMaintenanceThrough(option("--through", "build"));
+  const report = await createMaintenanceRoute(createStages()).apply(confirmations, { stages: (manifestValue as { stages: MaintenanceStagePlan[] }).stages }, through);
   const reportPath = option("--report", DEFAULT_REPORT);
   if (!reportPath) { throw new Error("Rapportpad ontbreekt"); }
   await writeJson(reportPath, report);
@@ -313,7 +321,7 @@ async function verifyCommand(): Promise<void> {
   const manifest = option("--plan", DEFAULT_PLAN);
   if (!manifest) { throw new Error("Planpad ontbreekt"); }
   await readJson(manifest);
-  const report = await createMaintenanceRoute(createStages()).verify();
+  const report = await createMaintenanceRoute(createStages()).verify(parseMaintenanceThrough(option("--through", "build")));
   const reportPath = option("--report", DEFAULT_REPORT);
   if (!reportPath) { throw new Error("Rapportpad ontbreekt"); }
   await writeJson(reportPath, report);
