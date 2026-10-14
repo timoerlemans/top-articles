@@ -276,6 +276,12 @@ Je browser onthoudt gelezen IDs lokaal; onder “Gelezen artikelen” kan je ze 
 beschikbaar maken. Verdwijnen uit de complete Later-lijst is archivering en ruimt de
 lokale markering op, uitsluitend bij een nieuwere consistente dataset.
 
+Net wakker begint met 10 minuten, weinig energie en Licht & luchtig en vereist
+activering maximaal 2. Op de bank na een drukke werkdag begint met 20 minuten,
+weinig energie en Even iets anders en geeft rustige, warme of speelse stukken
+voorrang. Rustig weekend biedt 30 minuten, veel energie en Iets om over na te denken,
+met de bestaande rangorde. Geen van deze situaties neemt een stemming aan.
+
 Leesprofielen staan afzonderlijk in `config/readwise-reading-profiles.json`. De
 inbox-workflow onderhoudt ze naast de prioriteitsbeoordelingen. Voor een afzonderlijke
 read-only beoordeling van Later:

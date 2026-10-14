@@ -430,3 +430,95 @@ test("legacy sessions restore as custom and legacy production stays usable witho
     assert.equal(byClass(root, "reading-course-title")[0]?.textContent, "Artikel a");
   });
 });
+
+const dailySituationDefaults = [
+  ["Net wakker", "10 min", "Weinig", "Licht & luchtig"],
+  ["Op de bank na een drukke werkdag", "20 min", "Weinig", "Even iets anders"],
+  ["Rustig weekend", "30 min", "Veel", "Iets om over na te denken"],
+] as const;
+for (const [situation, budget, energy, need] of dailySituationDefaults) {
+  test(`${situation} applies all defaults, clears mood and keeps its visible summary`, () => {
+    withDom((root) => {
+      const { data, priority } = fixture(); mountReadingMenu(root as unknown as HTMLElement, data, priority);
+      choose(root, "Somber"); choose(root, situation);
+      for (const label of [situation, budget, energy, need, "Geen voorkeur"]) {
+        assert.equal(byText(root, "button", label)?.getAttribute("aria-pressed"), "true");
+      }
+      assert.ok(byClass(root, "reading-settings-summary")[0]?.textContent.includes(situation));
+      assert.ok(byClass(root, "reading-course-card").length > 0);
+      assert.equal(byClass(root, "reading-course-title")[0]?.textContent, "Artikel a");
+      choose(root, "Veel");
+      assert.equal(byText(root, "button", situation)?.getAttribute("aria-pressed"), "true");
+      choose(root, "Zelf samenstellen");
+      assert.equal(byText(root, "button", budget)?.getAttribute("aria-pressed"), "true");
+      assert.equal(byText(root, "button", "Veel")?.getAttribute("aria-pressed"), "true");
+    });
+  });
+}
+
+test("morning excludes activation three and ranks calm tone then lower activation before priority or mood", () => {
+  withDom((root) => {
+    const catalog = [makeArticle("active-three", 2), makeArticle("warm-two", 2), makeArticle("neutral-zero", 2), makeArticle("warm-one", 2)];
+    const { data, priority } = fixture(catalog, {
+      "active-three": { ...traits, activation: 3, tone: "reflectief" }, "warm-two": { ...traits, activation: 2 },
+      "neutral-zero": { ...traits, activation: 0, tone: "zakelijk" }, "warm-one": { ...traits, activation: 1 },
+    });
+    mountReadingMenu(root as unknown as HTMLElement, data, priority);
+    choose(root, "10 min"); choose(root, "Weinig");
+    assert.equal(byClass(root, "reading-course-title")[0]?.textContent, "Artikel active-three");
+    choose(root, "Net wakker"); choose(root, "Nieuwsgierig");
+    assert.deepEqual(byClass(root, "reading-course-title").map(el => el.textContent), ["Artikel warm-one", "Artikel warm-two", "Artikel neutral-zero"]);
+    choose(root, "Veel");
+    assert.ok(byClass(root, "reading-course-title").every(el => el.textContent !== "Artikel active-three"));
+    choose(root, "Zelf samenstellen");
+    assert.equal(byClass(root, "reading-course-title")[0]?.textContent, "Artikel active-three");
+  });
+});
+
+test("after work softly prefers warm tone but admits activating businesslike content", () => {
+  withDom((root) => {
+    const { data, priority } = fixture([makeArticle("business", 2), makeArticle("warm", 2)], {
+      business: { ...traits, activation: 4, tone: "zakelijk" }, warm: { ...traits, activation: 3, tone: "warm" },
+    });
+    mountReadingMenu(root as unknown as HTMLElement, data, priority);
+    choose(root, "Op de bank na een drukke werkdag");
+    assert.deepEqual(byClass(root, "reading-course-title").map(el => el.textContent), ["Artikel warm", "Artikel business"]);
+    choose(root, "Zelf samenstellen");
+    assert.deepEqual(byClass(root, "reading-course-title").map(el => el.textContent), ["Artikel business", "Artikel warm"]);
+  });
+});
+
+test("weekend keeps ordinary need and priority ordering with no additional activation bound", () => {
+  withDom((root) => {
+    const { data, priority } = fixture([makeArticle("starter", 2), makeArticle("deep", 8)], {
+      starter: traits, deep: { ...traits, activation: 4, effort: 3, emotionalWeight: 3, needFit: { ...traits.needFit, verdieping: 4 } },
+    });
+    mountReadingMenu(root as unknown as HTMLElement, data, priority);
+    choose(root, "Rustig weekend");
+    const weekend = byClass(root, "reading-course-title").map(el => el.textContent);
+    assert.deepEqual(weekend, ["Artikel starter", "Artikel deep"]);
+    choose(root, "Zelf samenstellen");
+    assert.deepEqual(byClass(root, "reading-course-title").map(el => el.textContent), weekend);
+  });
+});
+
+test("daily situation switches after replace/read preserve progress and reject stale card actions", () => {
+  withDom((root, local) => {
+    const { data, priority } = fixture([makeArticle("a", 3), makeArticle("b", 5), makeArticle("c", 2), makeArticle("d", 2)]);
+    mountReadingMenu(root as unknown as HTMLElement, data, priority);
+    const staleConfirmation = byText(root, "button", "Gelezen, volgende gang"); assert.ok(staleConfirmation);
+    choose(root, "Vervang voorstel"); choose(root, "Net wakker"); staleConfirmation.click();
+    assert.deepEqual(historyIds(local), []);
+    choose(root, "Gelezen, volgende gang");
+    assert.deepEqual(historyIds(local), ["c"]);
+    for (const [situation] of dailySituationDefaults) {
+      choose(root, situation);
+      const current = descendants(root).find(el => el.getAttribute("data-current-course") === "true"); assert.ok(current);
+      assert.ok(current.textContent.includes("Hoofdgerecht"));
+      assert.equal(byClass(current, "reading-course-title")[0]?.textContent, "Artikel b");
+      assert.ok(root.textContent.includes("2 min bevestigd gelezen"));
+      assert.ok(byClass(root, "reading-course-title").every(el => el.textContent !== "Artikel a"));
+      assert.deepEqual(historyIds(local), ["c"]);
+    }
+  });
+});

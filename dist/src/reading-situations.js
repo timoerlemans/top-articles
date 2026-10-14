@@ -2,6 +2,12 @@ import { isReadingTraits } from "./reading-profiles.js";
 export const READING_SITUATIONS = [
     { id: "bedtime", label: "In bed voor het slapen", description: "Rustig lezen dat weinig activeert.", budget: 10, energy: "weinig", need: "ontspannen",
         maximumActivation: 1, minimumInterruptibility: null, preferredTones: ["rustig", "warm"] },
+    { id: "morning", label: "Net wakker", description: "Een rustige, toegankelijke start van je dag.", budget: 10, energy: "weinig", need: "ontspannen",
+        maximumActivation: 2, minimumInterruptibility: null, preferredTones: ["rustig", "warm"] },
+    { id: "after-work", label: "Op de bank na een drukke werkdag", description: "Prettige afleiding met weinig benodigde concentratie.", budget: 20, energy: "weinig", need: "afleiding",
+        maximumActivation: null, minimumInterruptibility: null, preferredTones: ["rustig", "warm", "speels"] },
+    { id: "weekend", label: "Rustig weekend", description: "Ruimte voor reflectie en inhoudelijke verdieping.", budget: 30, energy: "veel", need: "verdieping",
+        maximumActivation: null, minimumInterruptibility: null, preferredTones: [] },
 ];
 export function isSituationId(value) { return READING_SITUATIONS.some(situation => situation.id === value); }
 export function situationDefaults(id) {
