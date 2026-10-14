@@ -15,7 +15,7 @@ async function writeCheckFixture(root: string): Promise<void> {
   await mkdir(skillRoot, { recursive: true });
   await writeFile(
     join(skillRoot, "readwise-reference.md"),
-    "SEQUENCE_ORDER FAMILY_DEFINITIONS readwise-priority-v8 config/readwise-reading-preferences.md reader-list-documents reader-bulk-edit-document-metadata want-to-read V2 verrijkingscontract bronstatus pipeline-managed Runmanifest doelpagina",
+    "SEQUENCE_ORDER FAMILY_DEFINITIONS readwise-priority-v8 config/readwise-reading-preferences.md reader-list-documents reader-bulk-edit-document-metadata want-to-read V2 verrijkingscontract V2 triageroutering bronstatus pipeline-managed Runmanifest doelpagina",
     "utf8",
   );
   for (const skill of MANAGED_READWISE_SKILLS) {
@@ -28,9 +28,14 @@ async function writeCheckFixture(root: string): Promise<void> {
         : skill === "readwise-book-study"
           ? "V2 verrijkingscontract complete book evidence bronstatus manifest ownership-unknown"
           : "";
+    const routingContract = skill === "readwise-triage"
+      ? "V2 triagecontract source_status move_outcome operation_keys doelpagina interactive want-to-read"
+      : skill === "readwise-inbox"
+        ? "V2 inboxcontract location=new source_status runmanifest doelpagina één verantwoordelijke linkpass"
+        : "";
     await writeFile(
       join(currentSkillRoot, "SKILL.md"),
-      `---\nname: ${skill}\ndescription: Valid fixture\n---\n\nRead <repository>/skills/readwise-reference.md. Use TOP_ARTICLES_REPO or /mnt/c/dev/top-articles.\nreadwise reader-list-documents reader-bulk-edit-document-metadata\n${enrichmentContract}\n`,
+      `---\nname: ${skill}\ndescription: Valid fixture\n---\n\nRead <repository>/skills/readwise-reference.md. Use TOP_ARTICLES_REPO or /mnt/c/dev/top-articles.\nreadwise reader-list-documents reader-bulk-edit-document-metadata\n${enrichmentContract} ${routingContract}\n`,
       "utf8",
     );
     await writeFile(

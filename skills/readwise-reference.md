@@ -60,6 +60,10 @@ Een hervatting leest dit manifest, slaat alleen aantoonbaar geslaagde writes ove
 
 Nieuwe links krijgen dezelfde toelatingspoort: haal de doelpagina zelf op en controleer dat die Nederlands of Engels is, zelfstandig leesbaar is en expliciet aansluit op een kerninteresse. Dedupe tegen de bibliotheek, een complete Feed-snapshot en de huidige run vóór `reader-create-document`. Een bestaande bestemming wordt nooit vervangen; afwijzingen, fouten en aangemaakte links staan per URL in het manifest.
 
+### V2 triageroutering
+
+De standaardroute van standalone triage en de inbox-pipeline is automatisch en vraagt geen beslissing per gewoon document: podcasts en aantoonbare Tier 1-documenten gaan naar `Archive`; overige succesvol verwerkte gewone documenten, nieuwsbrieven en voormalige Tier 2-kandidaten gaan naar `Later`. Een expliciet interactieve triagevraag mag deze standaardroute alleen binnen de door de gebruiker gevraagde interactieve scope vervangen. Eleanor Konik en Henrik Karlsson zijn geen absolute archiveeruitzondering; hun reguliere Later-documenten worden via `want-to-read` beschermd door de prioriteitsflow.
+
 ## Verificatie
 
 `npm run skills:check` is read-only en controleert metadata, resources, bekende commando's en canonieke contracten. De optionele installatievergelijking (`--compare-installed`) hoort niet bij `npm run check`, omdat die machineafhankelijk is. Scenario's voor dry-run, no-op, conflicten, eerste installatie, tagbehoud en hervatting staan in de tests; tekstcontrole alleen bewijst niet alle semantische runtime-eigenschappen.

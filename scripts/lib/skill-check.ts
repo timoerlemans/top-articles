@@ -79,6 +79,7 @@ const REFERENCE_ANCHORS = [
   "pipeline-managed",
   "Runmanifest",
   "doelpagina",
+  "V2 triageroutering",
 ] as const;
 
 const ENRICHMENT_SKILL_CONTRACTS: Readonly<Record<string, readonly string[]>> = {
@@ -91,6 +92,43 @@ const OBSOLETE_ENRICHMENT_PATTERNS: Readonly<Record<string, readonly RegExp[]>> 
   "readwise-enrich": [/tien (?:volledige )?(?:afzonderlijke )?(?:scan)?passes/i, /highlight_passes_completed/i, /scanpass-gate/i],
   "readwise-summarize": [/notes replaces any existing note/i, /skip it silently/i],
   "readwise-book-study": [],
+};
+
+const TRIAGE_ROUTING_SKILL_CONTRACTS: Readonly<Record<string, readonly string[]>> = {
+  "readwise-triage": [
+    "V2 triagecontract",
+    "source_status",
+    "move_outcome",
+    "operation_keys",
+    "doelpagina",
+    "interactive",
+    "want-to-read",
+  ],
+  "readwise-inbox": [
+    "V2 inboxcontract",
+    "location=new",
+    "source_status",
+    "runmanifest",
+    "doelpagina",
+    "één verantwoordelijke linkpass",
+  ],
+};
+
+const OBSOLETE_TRIAGE_ROUTING_PATTERNS: Readonly<Record<string, readonly RegExp[]>> = {
+  "readwise-triage": [
+    /minstens 2 volledige iteraties/i,
+    /minstens 3.*bij voorkeur 5/i,
+    /3–5 volledige passes/i,
+    /10\/10/i,
+    /Tier 2 auto-archive/i,
+    /altijd naar [`']?later[`']?,? nooit archiveren/i,
+    /Notitie aanwezig zonder [`']Waarom lezen:[`'] header.*Overschrijven/is,
+  ],
+  "readwise-inbox": [
+    /location=inbox/i,
+    /Tier 2 auto-archive/i,
+    /10\/10/i,
+  ],
 };
 
 function frontmatterValue(content: string, key: string): string | undefined {
@@ -139,9 +177,19 @@ async function checkSkillMetadata(
       errors.push(`${skill}: V2-verrijkingscontract mist: ${anchor}.`);
     }
   }
+  for (const anchor of TRIAGE_ROUTING_SKILL_CONTRACTS[skill] ?? []) {
+    if (!content.includes(anchor)) {
+      errors.push(`${skill}: V2-triagerouteringscontract mist: ${anchor}.`);
+    }
+  }
   for (const pattern of OBSOLETE_ENRICHMENT_PATTERNS[skill] ?? []) {
     if (pattern.test(content)) {
       errors.push(`${skill}: verouderde verrijkingsinstructie gevonden: ${pattern.source}.`);
+    }
+  }
+  for (const pattern of OBSOLETE_TRIAGE_ROUTING_PATTERNS[skill] ?? []) {
+    if (pattern.test(content)) {
+      errors.push(`${skill}: verouderde triage-/inboxinstructie gevonden: ${pattern.source}.`);
     }
   }
   try {
