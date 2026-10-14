@@ -65,11 +65,6 @@ export const SEQUENCE_FIT_WEIGHT = 3;
 export const SHORTLIST_SCORE_BONUS = 20;
 export const MUST_READ_SCORE_BONUS = 30;
 export const WANT_TO_READ_SCORE_BONUS = 50;
-export const PRIORITY_AUTHOR_SCORE_BONUS = 50;
-const PRIORITY_AUTHORS = new Map([
-  ["henrik karlsson", "Henrik Karlsson"],
-  ["eleanor konik", "Eleanor Konik"],
-]);
 
 export interface PriorityTopicComponents {
   kerninteresse: number;
@@ -130,24 +125,11 @@ function tierForScore(score: number): PriorityTier {
   return "laag";
 }
 
-function normalizedAuthor(author: string | null | undefined): string {
-  return (author ?? "")
-    .normalize("NFKD")
-    .replace(/[\u0300-\u036f]/g, "")
-    .toLowerCase()
-    .replace(/\s+/g, " ")
-    .trim();
-}
-
 function curationBonusesFor(doc: PriorityDocument): { total: number; reasons: string[] } {
   const reasons: string[] = [];
-  const authorLabel = PRIORITY_AUTHORS.get(normalizedAuthor(doc.author));
   let total = 0;
 
-  if (authorLabel) {
-    total += PRIORITY_AUTHOR_SCORE_BONUS;
-    reasons.push(`Voorkeursauteur ${authorLabel}: +${PRIORITY_AUTHOR_SCORE_BONUS} bonuspunten.`);
-  } else if (hasTag(doc, "must-read")) {
+  if (hasTag(doc, "must-read")) {
     total += MUST_READ_SCORE_BONUS;
     reasons.push(`Tag must-read: +${MUST_READ_SCORE_BONUS} bonuspunten.`);
   } else if (hasTag(doc, "shortlist") || hasTag(doc, "short-list")) {

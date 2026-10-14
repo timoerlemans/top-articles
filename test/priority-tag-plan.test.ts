@@ -76,6 +76,22 @@ test("plant de ADHD-reeks met ordinale en toplijsttags", () => {
   }
 });
 
+test("plant want-to-read voor betrouwbare voorkeursauteurs, idempotent en zonder titelheuristiek", () => {
+  const preferred = doc("preferred", { author: "Hénrik  Karlsson", tags: { personal: {} } });
+  const alreadyTagged = doc("already", { author: "Eleanor Konik", tags: { "want-to-read": {} } });
+  const titleOnly = doc("title-only", { title: "Henrik Karlsson over schrijven", author: "Een andere auteur", tags: { personal: {} } });
+  const first = buildPriorityTagPlan([preferred, alreadyTagged, titleOnly], [], { generatedAt: "2026-10-14T12:00:00.000Z" });
+
+  assert.ok(changeFor(first, "preferred").add.includes("want-to-read"));
+  assert.ok(!changeFor(first, "already").add.includes("want-to-read"));
+  assert.ok(!changeFor(first, "title-only").add.includes("want-to-read"));
+
+  const preferredWithTag = { ...preferred, tags: { personal: {}, "want-to-read": {} } };
+  const second = buildPriorityTagPlan([preferredWithTag, alreadyTagged, titleOnly], [], { generatedAt: "2026-10-14T12:00:00.000Z" });
+  assert.equal(second.sourceFingerprint, first.sourceFingerprint);
+  assert.ok(!changeFor(second, "preferred").add.includes("want-to-read"));
+});
+
 test("plant en beheert de social-studies-ordinale en toplijsttags", () => {
   const social = doc("social", { tags: { "team dynamics & collaboration": {} } });
   const stale = doc("stale", {

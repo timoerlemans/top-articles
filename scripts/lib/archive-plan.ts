@@ -11,6 +11,7 @@ import type { CoreInterestPriorityConfig } from "./core-interest-priority.js";
 import type { ContentJudgment } from "./priority-judgments.js";
 import type { PriorityDocument } from "./priority-document.js";
 import { tagNames } from "./priority-tag-plan.js";
+import { isPreferredAuthor } from "./preferred-authors.js";
 
 export const ARCHIVE_PLAN_MODEL = "readwise-archive-plan-v1" as const;
 
@@ -112,7 +113,7 @@ export function buildArchivePlan(
   }
 
   for (const doc of later) {
-    if (tagNames(doc).some((tag) => tag.toLowerCase() === "want-to-read") && typeof doc.id === "string") {
+    if ((isPreferredAuthor(doc) || tagNames(doc).some((tag) => tag.toLowerCase() === "want-to-read")) && typeof doc.id === "string") {
       protectedIds.add(doc.id);
     }
   }

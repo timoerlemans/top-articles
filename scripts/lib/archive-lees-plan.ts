@@ -11,6 +11,7 @@ import type { CoreInterestPriorityConfig } from "./core-interest-priority.js";
 import type { ContentJudgment } from "./priority-judgments.js";
 import type { PriorityDocument } from "./priority-document.js";
 import { tagNames } from "./priority-tag-plan.js";
+import { isPreferredAuthor } from "./preferred-authors.js";
 
 export const ARCHIVE_LEES_PLAN_MODEL = "readwise-archive-lees-plan-v1" as const;
 export const CANONICAL_LEES_TAG_PATTERN = /^lees-[0-9]{4}$/i;
@@ -152,7 +153,7 @@ export function buildLeesArchivePlan(
   );
   const wantToReadProtectedDocumentIds = sortedIds(
     later
-      .filter((doc) => normalizedTags(doc).includes("want-to-read"))
+      .filter((doc) => isPreferredAuthor(doc) || normalizedTags(doc).includes("want-to-read"))
       .map((doc) => doc.id)
       .filter((id): id is string => typeof id === "string"),
   );

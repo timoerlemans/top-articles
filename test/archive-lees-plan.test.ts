@@ -54,6 +54,14 @@ test("selecteert alleen canonieke lees-documenten buiten de unie van huidige en 
   assert.equal(validateLeesArchivePlan(plan), true);
 });
 
+test("protects a preferred author before the automatic want-to-read tag is applied", () => {
+  const preferred = doc("preferred-author", { author: "Eleanor Konik", tags: { "lees-0001": {} } });
+  const plan = buildLeesArchivePlan([preferred], { version: 1, items: {} });
+
+  assert.deepEqual(plan.protectedDocumentIds, ["preferred-author"]);
+  assert.deepEqual(plan.candidateDocumentIds, []);
+});
+
 test("herkent lees-tags hoofdletterongevoelig maar accepteert geen niet-canonieke suffix", () => {
   const plan = buildLeesArchivePlan([
     doc("uppercase", { tags: { "LEES-0001": {} } }),

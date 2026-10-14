@@ -5,7 +5,7 @@ description: Inspect, plan, apply, verify, and explicitly dispatch the canonical
 
 # Readwise priority sync
 
-Gebruik uitsluitend de actuele prioriteitsmotor uit de geldige `top-articles`-repository. Lees in de repository-checkout eerst [`../readwise-reference.md`](../readwise-reference.md); vanuit een geïnstalleerde kopie lees je `<repository>/skills/readwise-reference.md` nadat je de repository hebt gevonden via de huidige geldige worktree, `TOP_ARTICLES_REPO` of `/mnt/c/dev/top-articles`. Lees daarna de relevante README-secties.
+Gebruik uitsluitend de actuele prioriteitsmotor uit de geldige `top-articles`-repository. Lees in de repository-checkout eerst [`../readwise-reference.md`](../readwise-reference.md); vanuit een geïnstalleerde kopie lees je `<repository>/skills/readwise-reference.md` nadat je de repository hebt gevonden via de huidige geldige worktree, `TOP_ARTICLES_REPO` of `/mnt/c/dev/top-articles`. Lees daarna de relevante README-secties. `priority:plan` herkent Eleanor Konik en Henrik Karlsson uitsluitend uit betrouwbare auteurmetadata en plant voor Later de idempotente `want-to-read`-tag; de v8-score kent geen aparte auteursbonus.
 
 ## Repository vinden
 

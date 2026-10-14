@@ -86,7 +86,8 @@ taaltags en curatietags als `must-read`/`shortlist` worden eruit gefilterd, zie
   topicrelevantie (0–4) de algemene relevantie; de kerninteressebonus blijft behouden. Positie- en
   toplijsttags zijn geen inhoudelijk bewijs; ontbrekende of verouderde judgments vallen terug op een
   expliciet als low-confidence gemarkeerde deterministische fallback.
-- Voorkeursauteurs Henrik Karlsson en Eleanor Konik geven 50 bonuspunten; anders geldt
+- `priority:plan` plant voor betrouwbare `author`-metadata van Henrik Karlsson en Eleanor Konik
+  idempotent `want-to-read`; een auteursnaam geeft zelf geen bonus. Daarna geldt
   `must-read` (+30) of `shortlist`/`short-list` (+20), zonder onderlinge stapeling.
   `want-to-read` geeft daarbovenop 50 punten in globale en topicreeksscores. Deze signalen
   tellen niet als inhoudelijk bewijs. Triage-aanbevelingen, highlight-aantallen,

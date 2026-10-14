@@ -49,6 +49,14 @@ test("protects want-to-read documents in later even when they have no top-100 me
   assert.equal(verifyArchivePostcondition(plan, [wantToRead], { version: 1, items: {} }), true);
 });
 
+test("protects preferred authors before their automatic want-to-read tag is applied", () => {
+  const preferred = doc("preferred-author", { category: "note", author: "Eleanor Konik" });
+  const plan = buildArchivePlan([preferred], { version: 1, items: {} });
+
+  assert.deepEqual(plan.protectedDocumentIds, ["preferred-author"]);
+  assert.deepEqual(plan.candidateDocumentIds, []);
+});
+
 test("keeps documents outside later out of the archive candidate set", () => {
   const plan = buildArchivePlan([
     doc("later-doc", { category: "note" }),

@@ -112,6 +112,25 @@ test("plan is read-only; apply preserves personal tags and publishes verified st
   assert.equal((await f.sync.verify()).operations.length, 0);
 });
 
+test("preferred-author plan adds want-to-read idempotently and preserves personal tags", async () => {
+  const f = fixture();
+  f.firstDocument().author = "Hénrik  Karlsson";
+  const plan = await f.plan();
+
+  assert.equal(plan.operations.filter(({ tag }) => tag === "want-to-read").length, 1);
+  assert.deepEqual(f.mutations(), []);
+  await f.sync.apply({ plan, confirmation: plan.planHash, journalPath: "journal.json" });
+
+  assert.deepEqual(f.state.documents[0]?.tags, {
+    personal: {},
+    "aaa-top-10": {},
+    "aaa-top-100": {},
+    "lees-0001": {},
+    "want-to-read": {},
+  });
+  assert.equal((await f.sync.verify()).operations.length, 0);
+});
+
 test("wrong confirmation and damaged plans reject before any Reader request", async () => {
   const f = fixture();
   const plan = await f.plan();

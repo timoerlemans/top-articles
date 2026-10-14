@@ -16,6 +16,11 @@ import type { PriorityDocument } from "./priority-document.js";
 import { sequencesForDocument } from "./priority-membership.js";
 import { FAMILY_DEFINITIONS } from "./unified-lists.js";
 import { isReadwisePriorityTag } from "./readwise-tags.js";
+import {
+  isPreferredAuthor,
+  PREFERRED_AUTHOR_WANT_TO_READ_TAG,
+  withPreferredAuthorTag,
+} from "./preferred-authors.js";
 
 export const TAG_PLAN_MODEL = "readwise-priority-tag-plan-v3" as const;
 
@@ -216,7 +221,10 @@ function stableSource(documents: readonly PriorityTagDocument[]): Record<string,
       language: doc.language ?? null,
       // Bewaak effectief lidmaatschap, niet de tags die onze eigen migratie toevoegt/verwijdert.
       lightMembership: (doc.location === undefined || doc.location === null || doc.location === "later") && sequencesForDocument(doc).includes("luchtig"),
-      tags: tagKeys(doc).filter((tag) => !isManagedOrderTag(tag) && tag !== "light-reading").sort(),
+      tags: [...new Set([
+        ...tagKeys(doc),
+        ...(isPreferredAuthor(doc) ? [PREFERRED_AUTHOR_WANT_TO_READ_TAG] : []),
+      ])].filter((tag) => !isManagedOrderTag(tag) && tag !== "light-reading").sort(),
     }))
     .sort((a, b) => a.id.localeCompare(b.id));
 }
@@ -236,7 +244,7 @@ function canonicalValue(value: unknown): unknown {
   return value;
 }
 
-function desiredTagsFor(priority: PriorityExportItem): Set<string> {
+function desiredTagsFor(priority: PriorityExportItem, sourceDocument?: PriorityTagDocument): Set<string> {
   const desired = new Set<string>();
   for (const sequence of priority.sequences) {
     const position = priority.positions[sequence];
@@ -259,6 +267,9 @@ function desiredTagsFor(priority: PriorityExportItem): Set<string> {
   if (priority.sequences.includes("luchtig")) {
     desired.add("light-reading");
   }
+  if (sourceDocument && isPreferredAuthor(sourceDocument)) {
+    desired.add(PREFERRED_AUTHOR_WANT_TO_READ_TAG);
+  }
   return desired;
 }
 
@@ -272,7 +283,8 @@ export function buildPriorityTagPlan(
   const coreInterestConfig = options.coreInterestConfig ?? defaultCoreInterestPriorityConfig();
   const activeLater = laterDocuments.filter((doc) => doc.location === undefined || doc.location === null || doc.location === "later");
   const excludedLater = laterDocuments.filter((doc) => !activeLater.includes(doc));
-  const priority = buildPriorityExport(activeLater, { generatedAt, overrides, judgments: options.judgments, coreInterestConfig });
+  const scoringDocuments = activeLater.map(withPreferredAuthorTag);
+  const priority = buildPriorityExport(scoringDocuments, { generatedAt, overrides, judgments: options.judgments, coreInterestConfig });
   const sourceDocuments = [...activeLater, ...excludedLater, ...outsideDocuments];
   const changes: Record<string, PriorityTagChange> = {};
   const operations: PriorityTagOperation[] = [];
@@ -316,7 +328,7 @@ export function buildPriorityTagPlan(
   for (const doc of sourceDocuments) {
     const current = new Set(tagKeys(doc));
     const priorityItem = priority.items[doc.id];
-    const desired = priorityItem ? desiredTagsFor(priorityItem) : new Set<string>();
+    const desired = priorityItem ? desiredTagsFor(priorityItem, doc) : new Set<string>();
     const remove = [...current].filter((tag) => isManagedOrderTag(tag) && !desired.has(tag)).sort();
     const add = [...desired].filter((tag) => !current.has(tag)).sort();
     if (remove.length === 0 && add.length === 0) {
@@ -397,7 +409,7 @@ export function validatePriorityTagPlan(plan: unknown): plan is PriorityTagPlan 
     if ((operation.action !== "add" && operation.action !== "remove") || typeof operation.documentId !== "string" || !operation.documentId || typeof operation.tag !== "string" || !operation.tag) {
       throw new Error("Ongeldige tagoperatie");
     }
-    if (!isManagedOrderTag(operation.tag) && operation.tag !== "light-reading") {
+    if (!isManagedOrderTag(operation.tag) && operation.tag !== "light-reading" && operation.tag !== PREFERRED_AUTHOR_WANT_TO_READ_TAG) {
       throw new Error(`Onbeheerde tag in plan: ${operation.tag}`);
     }
   }

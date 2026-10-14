@@ -39,7 +39,7 @@ Handmatige correcties gelden in alle lijsten tegelijk en staan in
 }
 ```
 
-De handmatige Readwise-tag `want-to-read` is een aparte vaste prioriteitsbonus van 50 punten.
+De handmatige Readwise-tag `want-to-read` is een aparte vaste prioriteitsbonus van 50 punten. `priority:plan` plant deze tag automatisch voor Later-documenten waarvan betrouwbare `author`-metadata na normalisatie Eleanor Konik of Henrik Karlsson is; een vermelding in de titel telt niet. De tag blijft een curatoriaal signaal en geen inhoudelijk onderwerpsevidence. Een aparte auteursbonus bestaat niet.
 
 De onderwerpreeksen Agile, Software development, Front-end development, Sociale studies & samenwerking, ADHD en Filosofie
 hebben elk eigen top-10- en top-100-lijsten en genummerde tags (`software-development-001`,

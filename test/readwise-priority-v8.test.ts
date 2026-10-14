@@ -207,7 +207,7 @@ test("must-read and shortlist use one bonus, while want-to-read stacks with eith
   assert.equal(bothAndWant.score, normal.score + 80);
 });
 
-test("gives Henrik Karlsson and Eleanor Konik a non-stacking author bonus plus stackable want-to-read", () => {
+test("does not give an author-name bonus; want-to-read remains the only curation bonus", () => {
   const normal = scorePriorityDocument(document());
 
   for (const author of ["Henrik Karlsson", "Eleanor Konik", "  hENRIK   kARLSSON  "]) {
@@ -230,9 +230,9 @@ test("gives Henrik Karlsson and Eleanor Konik a non-stacking author bonus plus s
       "want-to-read": {},
     }));
 
-    assert.equal(authorOnly.score, normal.score + 50, author);
-    assert.equal(authorWithCurationTags.score, normal.score + 50, author);
-    assert.equal(authorWithWantToRead.score, normal.score + 100, author);
+    assert.equal(authorOnly.score, normal.score, author);
+    assert.equal(authorWithCurationTags.score, normal.score + 30, author);
+    assert.equal(authorWithWantToRead.score, normal.score + 80, author);
   }
 
   const otherAuthorMentionedInTitle = {

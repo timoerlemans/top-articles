@@ -762,7 +762,7 @@
           }
         },
         "positions": {
-          "lees": 2,
+          "lees": 1,
           "software-development": 1,
           "front-end-development": 1
         },
@@ -1182,9 +1182,9 @@
       },
       "author": {
         "baseScore": 44,
-        "adjustment": 100,
-        "adjustmentReason": "Voorkeursauteur Henrik Karlsson: +50 bonuspunten.; Tag want-to-read: +50 bonuspunten.",
-        "score": 144,
+        "adjustment": 80,
+        "adjustmentReason": "Tag must-read: +30 bonuspunten.; Tag want-to-read: +50 bonuspunten.",
+        "score": 124,
         "tier": "hoog",
         "components": {
           "kerninteresse": 0,
@@ -1223,13 +1223,13 @@
         ],
         "sequenceScores": {
           "lees": {
-            "score": 144,
+            "score": 124,
             "tier": "hoog",
             "mode": "global"
           }
         },
         "positions": {
-          "lees": 1
+          "lees": 2
         },
         "actualPositions": {}
       },
@@ -2379,8 +2379,8 @@
         "id": "author",
         "title": "A practical essay",
         "scoreBefore": 49,
-        "scoreAfter": 144,
-        "scoreDelta": 95,
+        "scoreAfter": 124,
+        "scoreDelta": 75,
         "coreInterestBonus": 0,
         "coreInterests": []
       },
@@ -2540,8 +2540,8 @@
         "id": "author",
         "title": "A practical essay",
         "scoreBefore": 49,
-        "scoreAfter": 144,
-        "scoreDelta": 95,
+        "scoreAfter": 124,
+        "scoreDelta": 75,
         "coreInterestBonus": 0,
         "coreInterests": []
       },
@@ -2682,18 +2682,6 @@
         "entries": [],
         "exits": [
           {
-            "id": "author",
-            "title": "A practical essay",
-            "scoreBefore": 49,
-            "scoreAfter": 144,
-            "scoreDelta": 95,
-            "coreInterestBonus": 0,
-            "coreInterests": [],
-            "beforePosition": 8,
-            "afterPosition": null,
-            "readwisePosition": null
-          },
-          {
             "id": "software",
             "title": "A practical essay",
             "scoreBefore": 64,
@@ -2702,6 +2690,18 @@
             "coreInterestBonus": 0,
             "coreInterests": [],
             "beforePosition": 5,
+            "afterPosition": null,
+            "readwisePosition": null
+          },
+          {
+            "id": "author",
+            "title": "A practical essay",
+            "scoreBefore": 49,
+            "scoreAfter": 124,
+            "scoreDelta": 75,
+            "coreInterestBonus": 0,
+            "coreInterests": [],
+            "beforePosition": 8,
             "afterPosition": null,
             "readwisePosition": null
           },
@@ -2933,7 +2933,7 @@
           "aaa-top-10",
           "aaa-top-100",
           "front-end-development-001",
-          "lees-0002",
+          "lees-0001",
           "software-development-001"
         ],
         "remove": []
@@ -3006,7 +3006,7 @@
         "add": [
           "aaa-top-10",
           "aaa-top-100",
-          "lees-0001"
+          "lees-0002"
         ],
         "remove": []
       },
@@ -3121,7 +3121,7 @@
         "category": "Algemeen",
         "sequence": "lees",
         "top100Tag": "aaa-top-100",
-        "position": 2
+        "position": 1
       },
       {
         "documentId": "software",
@@ -3233,7 +3233,7 @@
         "category": "Algemeen",
         "sequence": "lees",
         "top100Tag": "aaa-top-100",
-        "position": 1
+        "position": 2
       },
       {
         "documentId": "negative",
@@ -3419,7 +3419,7 @@
       {
         "action": "add",
         "documentId": "software",
-        "tag": "lees-0002"
+        "tag": "lees-0001"
       },
       {
         "action": "add",
@@ -3604,7 +3604,7 @@
       {
         "action": "add",
         "documentId": "author",
-        "tag": "lees-0001"
+        "tag": "lees-0002"
       },
       {
         "action": "add",
@@ -3762,7 +3762,7 @@
         "tag": "lees-0008"
       }
     ],
-    "planHash": "cf58864a608e25fc054828a857da16ab2533e63a47aa77207448526020564c76"
+    "planHash": "31f40d727853af8987e19fa5eb0ae050aa5163145427cf1cea92d4dc1377c6ea"
   },
   "archivePlan": {
     "generatedAt": "2026-10-10T12:00:00.000Z",
@@ -3781,8 +3781,8 @@
         "label": "Algemeen",
         "top100Tag": "aaa-top-100",
         "protectedDocumentIds": [
-          "author",
           "software",
+          "author",
           "philosophy",
           "adhd",
           "draft",
@@ -3929,6 +3929,6 @@
     ],
     "candidateDocumentIds": [],
     "candidates": [],
-    "planHash": "9ace8df11e65a7d2721a7cb2a658b3685cac3f540d733c61f83a9b4c5e490f87"
+    "planHash": "7f7c45066670aaaf66633aa3d00ebcd861acfcc6e22dcaad887d1d93d08d0f28"
   }
 }

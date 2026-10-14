@@ -31,7 +31,7 @@ Gebruik alleen commando's die door `readwise --help` of deze repository zijn bev
 
 Een inhoudelijke taggingrun normaliseert bekende aliases via `readwise-tags.ts` en vervangt alleen inhoudstags. Administratieve tags, curatoriale tags, taal-tags, workflowtags en positie-/toplijsttags blijven behouden. De grens van maximaal drie geldt uitsluitend voor nieuwe inhoudstags. Bereken bij een bulkmetadata-update de volledige actuele tagset uit de live response; wanneer de tagset ontbreekt, `null`, primitief of deels onleesbaar is, mag geen volledige vervanging plaatsvinden. Gebruik dan afzonderlijke bekende add/remove-operaties en behoud onbekende tags.
 
-`must-read`, `shortlist` en `want-to-read` zijn geen inhoudelijke evidence. `want-to-read` is wel een expliciete prioriteitsbonus en bescherming tegen afvloeiing uit Later. Boeken horen alleen in de boekreeks. Voor actuele prioriteit gebruikt een skill uitsluitend de v8-motor; historische modules zijn alleen voor historische rapporten.
+`must-read`, `shortlist` en `want-to-read` zijn geen inhoudelijke evidence. `want-to-read` is wel een expliciete prioriteitsbonus en bescherming tegen afvloeiing uit Later. De enige automatische voorkeursauteurs zijn Eleanor Konik en Henrik Karlsson, herkend uitsluitend uit betrouwbare `author`-metadata na Unicode-/spatie-normalisatie; een titelvermelding telt niet. `priority:plan` plant voor zulke Later-documenten idempotent de toevoeging van `want-to-read` vóór de ranking en afvloeiing. De score kent geen aparte auteursbonus: alleen de tag geeft +50. Boeken horen alleen in de boekreeks. Voor actuele prioriteit gebruikt een skill uitsluitend de v8-motor; historische modules zijn alleen voor historische rapporten.
 
 ## Bron, evidence en feedback
 
