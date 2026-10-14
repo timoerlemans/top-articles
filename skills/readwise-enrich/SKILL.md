@@ -1,13 +1,13 @@
 ---
 name: readwise-enrich
-description: Tag and summarize Readwise Reader documents in one pass — each document is fetched once, then tagged and noted simultaneously. Use when the user wants to enrich a batch of articles with both taxonomy tags and summary notes without double-fetching.
+description: Tag and summarize Readwise Reader documents from complete source evidence, with targeted rereading, safe note/highlight preservation, and resumable outcomes.
 ---
 
-You are enriching documents in the user's Readwise Reader library by tagging and summarizing them in a single pass. Each document is fetched once and processed for both operations simultaneously. Follow this process carefully.
+You are enriching documents in the user's Readwise Reader library by tagging and summarizing them from complete source evidence. Fetch reusable source material once where possible, process tagging and notes together, and reread only targeted sections when the evidence requires it. Follow this process carefully.
 
-## Repository v2 contract
+## V2 verrijkingscontract
 
-Read [`../readwise-reference.md`](../readwise-reference.md) first in the repository checkout. When installed separately, locate the repository through the current valid worktree, `TOP_ARTICLES_REPO`, or `/mnt/c/dev/top-articles`, then read `<repository>/skills/readwise-reference.md`; do not assume the relative link exists. Its current evidence, feedback, alias, tag-preservation, preferred-author, and command-discovery rules supersede older duplicated examples in this file. Analyze the complete available source once and reread targeted sections when evidence is uncertain; do not require a fixed number of passes as a quality gate. Preserve personal notes and the last `Feedback:` paragraph, and record resumable partial results instead of presenting incomplete work as complete.
+Read [`../readwise-reference.md`](../readwise-reference.md) first in the repository checkout. When installed separately, locate the repository through the current valid worktree, `TOP_ARTICLES_REPO`, or `/mnt/c/dev/top-articles`, then read `<repository>/skills/readwise-reference.md`; do not assume the relative link exists. Its V2 verrijkingscontract, evidence, feedback, alias, tag-preservation, preferred-author, and command-discovery rules supersede older duplicated examples in this file. Use the complete available source, record `complete`/`partial`/`missing`/`error` bronstatus per document, and reread only targeted sections when evidence is uncertain. Preserve personal notes and the last `Feedback:` paragraph, replace only `pipeline-managed` note text, deduplicate exact highlights, and retain a run manifest with actual analysis/write outcomes so the work can be resumed. A metadata summary, title, partial body, or fixed pass count is never a substitute for full source evidence.
 
 **Direct output:** Voordat je ook maar één tool aanroept of vraag stelt, output precies deze regel: `Documenten verrijken...`
 
@@ -83,8 +83,7 @@ Ask the user which location to enrich, unless already specified:
 > - **all locations (unenriched only)** — scans `later` and `feed` for documents with no note
 > - Or paste a specific document ID
 
-Also ask: should existing notes be **overwritten** or **skipped**? Default is **skip**.
-Tags are always applied (updated or added), regardless of this setting.
+Also ask whether an existing note has an explicitly `pipeline-managed` segment that may be regenerated. Default is to preserve unknown or personal notes and report `ownership-unknown`; this is not permission to overwrite them. Tags are handled separately under the shared tag-preservation contract.
 
 ## Step 1: Fetch Documents
 
@@ -190,11 +189,11 @@ Collect the IDs of skipped documents in a `skipped_ids` list. Do **not** process
 
 ## Podcast-aanpak
 
-Podcasts (`category = "podcast"`) worden gewoon verrijkt — highlights, notitie en tags worden opgeslagen. Maar na verwerking rapporteer je ze apart in Step 5 met de melding dat ze gearchiveerd kunnen worden (de gebruiker luistert ze in een andere app).
+Podcasts (`category = "podcast"`) volgen dezelfde bronstatusregels. Als een volledige transcript beschikbaar is, kunnen notitie, highlights en tags worden verwerkt. Bij alleen shownotes of een beschrijving is de bron `partial`: maak geen volledige notitie of bron-highlights, pas alleen expliciet veilige deeluitkomsten toe en rapporteer het document apart in Step 5. Na complete verwerking rapporteer je podcasts apart met de melding dat ze gearchiveerd kunnen worden (de gebruiker luistert ze in een andere app).
 
 **Regels voor podcasts:**
 - Scan de gehele tekst op highlights — geen minimum of maximum; shownotes, citaten, kernargumenten
-- Transcript: de volledige transcript (indien beschikbaar) zit in `html_content`. Niet beschikbaar via MCP: gebruik dan shownotes/beschrijving
+- Transcript: de volledige transcript (indien beschikbaar) zit in `html_content`. Niet beschikbaar via MCP: registreer `partial` en gebruik shownotes/beschrijving niet als vervanging voor volledige bronanalyse.
 - Rapporteer in Step 5: `X podcasts verrijkt — klaar om te archiveren`
 
 ---
@@ -233,7 +232,7 @@ If either call fails, save null for that field. No retries. No analysis.
 
 ## Step 2: Classify and Summarize (per document)
 
-For each document, determine **both** in one pass. **Run steps 2b and 2c as parallel API calls in the same turn** — they are independent of each other and can be dispatched simultaneously.
+For each document, determine **both** within the same processing turn when the reusable source is already available. **Run steps 2b and 2c as parallel API calls in the same turn** — they are independent of each other and can be dispatched simultaneously.
 
 ### 2a. Tags (1–3)
 Use `title` + `author` + `site_name` + `summary` to pick the best tags from the taxonomy.
@@ -244,13 +243,11 @@ Use `title` + `author` + `site_name` + `summary` to pick the best tags from the 
 
 **Taaldetectie:** bepaal de taal van de **originele tekst** (`html_content` of `content` — nooit de `summary` of `notes`, die zijn altijd Nederlands door het enrich-proces) als ISO-code (`nl`, `en`, `de`, `fr`, ...). Is content niet beschikbaar: gebruik de titel als proxy. Geef dit mee als `language` in dezelfde `bulk_edit_document_metadata`-aanroep als Stap 3 (notes + tags) — geen aparte taaltag meer nodig.
 
-### 2b. Highlights
+### 2b. Highlights and source coverage
 
 Always use `html_content` as the authoritative source for highlight selection — do **not** rely on the `content` field from `get_document_details`, which may return markdown.
 
-**Harde eis — tien scanpasses:** voer voor **elk** te verrijken document tien volledige, afzonderlijke scanpasses over de complete `html_content` uit vóór je metadata opslaat. Houd `highlight_passes_completed` per document bij, beginnend op 0 en uitsluitend met 1 verhogen nadat de gehele bron in die pass is beoordeeld. Dit zijn kwaliteitsrondes, geen verplichte tien highlights: highlight een exacte zin, een citaat of een alinea wanneer die op zichzelf sterk genoeg is. Voeg nooit opvul-highlights toe.
-
-Na iedere pass leg je geschikte kandidaten vast of registreer je expliciet `geen geschikte passage`. Een document met minder dan tien opgeslagen highlights is dus toegestaan, maar **minder dan tien voltooide scanpasses niet**. Er bestaat geen verkorte route voor podcasts, korte artikelen of documenten met een bestaande notitie.
+Leg vóór de selectie vast of `html_content` de volledige bruikbare bron bevat. Registreer per document `source_status` (`complete`, `partial`, `missing` of `error`), de gebruikte bronvelden en eventuele gerichte herlezingen. Analyseer een complete bron één keer inhoudelijk en herlees alleen het hoofdstuk, argument of passagegebied dat extra zekerheid vraagt. Er is geen minimum aantal highlights en geen vaste pass-teller; voeg nooit opvul-highlights toe.
 
 **Check pre-fetch first:** if `.tmp/readwise/enrich_prefetch_{id}.json` exists and `html_content` is not null, use that value directly. Otherwise fetch:
 
@@ -260,9 +257,7 @@ mcp__readwise__reader_list_documents(id=<id>, response_fields=["html_content"])
 
 Scan de **gehele tekst** op highlight-waardige passages. Er is geen minimum of maximum — highlight alles dat de kwaliteitsdrempel haalt. Goede kandidaten: trefzekere claims, sleuteldefinities, memorabele zinnen, ankerende statistieken, verrassende paradoxen. Sla alleen contextzinnen en overgangen over. Kopieer elke passage exact zoals hij in `html_content` staat.
 
-Als er geen geschikte passages zijn: sla highlights over voor dit document.
-
-**Scanpass-gate:** begin pas met Stap 3 wanneer `highlight_passes_completed === 10`. Is dat niet zo, hervat je de scans; is de originele HTML niet beschikbaar, rapporteer je het document als niet-verrijkt en sla je metadata-opslag over.
+Als er geen geschikte passages zijn: registreer `highlights: []` met die reden. Is de originele bron niet beschikbaar of slechts gedeeltelijk, maak dan geen bronafhankelijke highlightselectie en rapporteer het document als `partial`, `missing` of `error`; verzin geen tekst en retry niet met een andere bron. Tags mogen alleen als aparte gedeeltelijke uitkomst worden toegepast wanneer de live tagset compleet genoeg is.
 
 ### 2c. Note (summary)
 Never use the pre-computed `summary` field as the source for the note — it is too brief.
@@ -276,15 +271,17 @@ jq '.content' /path/to/saved-file.json
 Als `jq` niet werkt: gebruik DuckDB. Als ook dat niet werkt: python3 als laatste redmiddel.
 
 - **If full content is available:** summarize from the actual text.
-- **If content is empty or unavailable:** skip the note for this document (still apply tags).
+- **If content is partial, empty, or unavailable:** do not write a source-based note; mark the document `partial`, `missing`, or `error`, preserve the existing note, and report the concrete reason. Safe tag-only work may remain a separate partial outcome.
 
 **Note format — every note starts with a leesbeslissing, followed by the content summary:**
 
 ```
+<!-- pipeline-managed: readwise-enrichment/v2:start -->
 Waarom lezen: [1–2 zinnen — noem expliciet welk interessegebied dit raakt (bijv. "Raakt je interesse in filosofie / AI / leren") + wat de meerwaarde is]
 Beste moment: [kies uit de lijst hieronder]
 
 [content summary hier]
+<!-- pipeline-managed: readwise-enrichment/v2:end -->
 ```
 
 **Vaste moodvocabulaire voor "Beste moment" (kies het meest passende):**
@@ -314,14 +311,12 @@ Skip the entire document (no tag, no note) if:
 - It is a follow/like notification with no content
 
 Skip only the note (still tag) if:
-- Document already has a note AND user chose "skip existing"
+- Document has an existing note without an explicit `pipeline-managed` segment; preserve it and report `ownership-unknown`
 - No content is available after fetching details
 
 ## Step 3: Apply Immediately (per document)
 
-After completing Step 2 for a single document, immediately call `mcp__readwise__reader_bulk_edit_document_metadata` for that document alone. Do **not** wait until multiple documents are analyzed. **Run highlight creation (Step 3b) in parallel with this call** — they are independent.
-
-Deze stap is alleen toegestaan nadat de scanpass-gate uit Stap 2b is gehaald. Voeg `highlight_passes_completed: 10` toe aan je interne verwerkingsregister voor dit document.
+After completing Step 2 for a single document, call `mcp__readwise__reader_bulk_edit_document_metadata` for that document or for a bounded batch of at most 50 documents. Do not wait for unrelated documents when a resumable per-document outcome is safer. Run highlight creation only after the source candidate list is recorded, and record metadata and highlight outcomes independently in the run manifest.
 
 Use `bulk_edit_document_metadata` even for a single document when the live tagset is complete — it is the only endpoint that can update both `tags` and `notes` together. If the live tagset is missing or incomplete, update the known tag changes with separate add/remove calls and do not send `tags` in a bulk replacement. The API rate limit is 20 calls/minute, so batch and resume deliberately.
 
@@ -334,7 +329,7 @@ documents = [
 
 For documents where only tags are updated (note skipped), omit the `notes` field entirely — do not pass `null` or empty string. Always include `language` when it could be determined in Step 2a.
 
-**Important:** `tags` and `notes` both replace existing values. Include every current non-content tag and preserve personal text plus the final `Feedback:` paragraph. If ownership of existing note text is unknown, do not replace it; report the document for explicit review.
+**Important:** `tags` and `notes` both replace existing values. Include every current non-content tag in a full desired tagset, and replace only the explicitly `pipeline-managed` note segment while preserving personal text plus the final `Feedback:` paragraph. If ownership of existing note text is unknown, omit `notes` entirely; retain the original and report `ownership-unknown`. An omitted note must never be sent as `null` or an empty string.
 
 ### Step 3b: Create Highlights (parallel with Step 3)
 
@@ -347,7 +342,7 @@ mcp__readwise__reader_create_highlight(
 )
 ```
 
-If a highlight returns an error, do **not** retry with modified text. Instead, save the highlight text as a fallback note in Obsidian:
+If a highlight returns an error, record the per-document error in the manifest and do **not** retry with modified text. If the exact source passage is still available, save it as a fallback note in Obsidian:
 
 1. **Bestandspad:** `Atlas/Notes/Literature/[Gesaniteerde Titel].md`
    - Saniteer de titel: spaties behouden, tekens `'/\:*?"<>|` vervangen door spatie
@@ -393,9 +388,13 @@ If a highlight returns an error, do **not** retry with modified text. Instead, s
    De originele bron-URL staat in het `url:`-veld van elk `_Readwise/Articles/`-bestand.
 
    Als gevonden: voeg **alle** matches toe als `- [[{pad zonder .md}|{document-titel}]]` in de Related notes sectie. Voeg alleen toe als die link er nog niet in staat. Als een zoekopdracht niets oplevert: laat die regel weg.
-6. Geef **geen** melding aan de gebruiker per mislukte highlight. Rapporteer alleen in het eindoverzicht (Step 5): `X highlights opgeslagen als literatuurnotitie in Atlas/Notes/Literature/`
+6. Meld de fout niet als succesvolle Reader-highlight. Registreer haar per document in het manifest en vermeld in het eindoverzicht hoeveel passages als literatuurnotitie zijn opgeslagen, plus welke documenten een highlightfout hadden.
 
-## Step 4: Update Enrichment Tracker (batch, after the loop)
+## Step 4: Write the run manifest and update the tracker
+
+Before reporting or moving on, write `.tmp/readwise/enrich-manifest-{runId}.json`. It must contain the requested scope and complete paginated document-ID set, `generatedAt`, source fields/fingerprints, and one result per document with `source_status`, targeted rereads, analysis status, metadata-write outcome, highlight successes/errors, fallback path, ownership uncertainty, and stable operation keys. A successful metadata or highlight write is the only reason to mark that operation complete; a resumed run skips only those completed operation keys and verifies live metadata before another full-tagset write. Keep the manifest when anything is partial or failed.
+
+Report `complete`, `partial`, `skipped`, and `error` separately. Never call a document successfully enriched when its source, analysis, metadata write, or requested highlight/fallback outcome is incomplete.
 
 After processing **all** documents in the batch, run the tracker once with all eligible IDs together:
 
@@ -437,11 +436,13 @@ If `nextPageCursor` is available, offer to continue with the next batch.
 
 ## Step 6: Gelinkte artikelen toevoegen
 
-Na het verwerken van de volledige batch: scan de content van elk verwerkt document op links naar inhoudelijk interessante artikelen, essays, papers of longreads. Voeg ze toe aan de Reader-inbox.
+Na het verwerken van de volledige batch: scan de volledige bron van elk succesvol verwerkt document op links naar inhoudelijk interessante artikelen, essays, papers of longreads. Haal elke doelpagina zelf op en laat die alleen toe wanneer de pagina Nederlands of Engels is, zelfstandig leesbaar is en expliciet aansluit op een kerninteresse. Voeg geen link toe op basis van alleen de anchor-tekst, titel of een metadata-excerpt.
 
 **Actie per URL:**
-1. Dedupliceer: controleer met `mcp__readwise__reader_search_documents(q="{url}")` of de URL al in de library staat. Sla over als aanwezig.
+1. Dedupliceer tegen de volledige Reader-bibliotheek, een volledige Feed-snapshot en de huidige run met `mcp__readwise__reader_search_documents(q="{url}")`. Sla over als aanwezig of al in het runmanifest staat. Een bestaande bestemming blijft ongewijzigd.
 2. Toevoegen: `mcp__readwise__reader_create_document(url="{url}", tags=["linked-from-readwise"])`
+
+Registreer per URL `accepted`, `rejected`, `duplicate` of `error` in het runmanifest en vermeld fouten of afgewezen pagina's apart in het eindrapport.
 
 **Sla altijd over:** navigatie, share-links, auteurprofielen, tagpagina's, login/paywall/subscribe-links, productpagina's, social posts zonder zelfstandige inhoud, afbeeldingen, assets.
 

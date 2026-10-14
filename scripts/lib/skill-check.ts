@@ -74,7 +74,24 @@ const REFERENCE_ANCHORS = [
   "config/readwise-reading-preferences.md",
   "want-to-read",
   "reader-bulk-edit-document-metadata",
+  "V2 verrijkingscontract",
+  "bronstatus",
+  "pipeline-managed",
+  "Runmanifest",
+  "doelpagina",
 ] as const;
+
+const ENRICHMENT_SKILL_CONTRACTS: Readonly<Record<string, readonly string[]>> = {
+  "readwise-enrich": ["V2 verrijkingscontract", "complete available source", "source_status", "run manifest", "ownership-unknown"],
+  "readwise-summarize": ["V2 verrijkingscontract", "complete available source", "source_status", "run manifest", "ownership-unknown"],
+  "readwise-book-study": ["V2 verrijkingscontract", "complete book evidence", "bronstatus", "manifest", "ownership-unknown"],
+};
+
+const OBSOLETE_ENRICHMENT_PATTERNS: Readonly<Record<string, readonly RegExp[]>> = {
+  "readwise-enrich": [/tien (?:volledige )?(?:afzonderlijke )?(?:scan)?passes/i, /highlight_passes_completed/i, /scanpass-gate/i],
+  "readwise-summarize": [/notes replaces any existing note/i, /skip it silently/i],
+  "readwise-book-study": [],
+};
 
 function frontmatterValue(content: string, key: string): string | undefined {
   const match = content.match(new RegExp(`^${key}:\\s*(.+)$`, "m"));
@@ -116,6 +133,16 @@ async function checkSkillMetadata(
   }
   if (!content.includes("TOP_ARTICLES_REPO") || !content.includes("/mnt/c/dev/top-articles")) {
     errors.push(`${skill}: repository-discovery via worktree, TOP_ARTICLES_REPO en standaardlocatie ontbreekt.`);
+  }
+  for (const anchor of ENRICHMENT_SKILL_CONTRACTS[skill] ?? []) {
+    if (!content.includes(anchor)) {
+      errors.push(`${skill}: V2-verrijkingscontract mist: ${anchor}.`);
+    }
+  }
+  for (const pattern of OBSOLETE_ENRICHMENT_PATTERNS[skill] ?? []) {
+    if (pattern.test(content)) {
+      errors.push(`${skill}: verouderde verrijkingsinstructie gevonden: ${pattern.source}.`);
+    }
   }
   try {
     const metadata = await readFile(metadataPath, "utf8");

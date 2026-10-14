@@ -1,13 +1,13 @@
 ---
 name: readwise-summarize
-description: Summarize Readwise Reader documents and save the summary as a document note. Use when the user wants to add notes/summaries to articles in their Readwise library, process a batch of documents, or enrich their reading archive with structured notes.
+description: Summarize Readwise Reader documents from complete source evidence and save safe, resumable document notes without overwriting personal text.
 ---
 
 You are summarizing documents in the user's Readwise Reader library and saving each summary as a document note. Follow this process carefully.
 
-## Repository authority
+## V2 verrijkingscontract
 
-Read [`../readwise-reference.md`](../readwise-reference.md) first in the repository checkout. When installed separately, locate the repository through the current valid worktree, `TOP_ARTICLES_REPO`, or `/mnt/c/dev/top-articles`, then read `<repository>/skills/readwise-reference.md`; do not assume the relative link exists. Summaries use the complete available source, preserve personal notes and `Feedback:` text, and use confirmed Reader commands only. A generated summary or metadata excerpt is never evidence that the full source was read.
+Read [`../readwise-reference.md`](../readwise-reference.md) first in the repository checkout. When installed separately, locate the repository through the current valid worktree, `TOP_ARTICLES_REPO`, or `/mnt/c/dev/top-articles`, then read `<repository>/skills/readwise-reference.md`; do not assume the relative link exists. The reference's V2 verrijkingscontract governs this skill. Summaries use the complete available source, record `complete`/`partial`/`missing`/`error` bronstatus, preserve personal notes and `Feedback:` text, replace only `pipeline-managed` text, deduplicate exact highlights, and use confirmed Reader commands only. A generated summary, metadata excerpt, title, or partial body is never evidence that the full source was read. Record actual analysis/write outcomes in a resumable manifest and report incomplete/error results separately.
 
 **Direct output:** Voordat je ook maar één tool aanroept of vraag stelt, output precies deze regel: `Documenten samenvatten...`
 
@@ -25,7 +25,7 @@ Ask the user which location to summarize, unless they already specified one or p
 > - **feed**
 > - Or paste a specific document ID
 
-Also ask: should existing notes be **overwritten** or **skipped**? Default is **skip**.
+Also ask whether existing notes have an explicitly owned pipeline segment to regenerate. Default is to preserve unknown or personal note text; never interpret that choice as permission to overwrite it.
 
 ## Step 1: Fetch Documents
 
@@ -88,22 +88,24 @@ Wait for both before proceeding with Step 2 / 2b below.
 
 Always use the full content as the source for the note — never the pre-computed `summary` field.
 
-If the result exceeds context limits and is saved to a file, extract the content with `jq`:
+If the result exceeds context limits and is saved to a file, extract the complete content with `jq`:
 ```bash
 jq '.content' /path/to/saved-file.json
 ```
 Als `jq` niet werkt: gebruik DuckDB. Als ook dat niet werkt: python3 als laatste redmiddel.
 
-- **If full content is available:** summarize from the actual text.
-- **If content is empty or unavailable:** skip the document and note it in the report.
+- **If full content is available:** summarize from the actual text and mark the source `complete`.
+- **If content is partial, empty, or unavailable:** do not write a source-based note. Mark the document `partial`, `missing`, or `error`, preserve the existing note, and report the concrete missing source or fetch error.
 
 **Note format — every note starts with a leesbeslissing, followed by the content summary:**
 
 ```
+<!-- pipeline-managed: readwise-enrichment/v2:start -->
 Waarom lezen: [1–2 zinnen — noem expliciet welk interessegebied dit raakt (bijv. "Raakt je interesse in filosofie / AI / leren") + wat de meerwaarde is]
 Beste moment: [kies uit de lijst hieronder]
 
 [content summary hier]
+<!-- pipeline-managed: readwise-enrichment/v2:end -->
 ```
 
 **Vaste moodvocabulaire voor "Beste moment" (kies het meest passende):**
@@ -128,12 +130,12 @@ Write the entire note in **Dutch** unless the source is English and the content 
 
 **Skip conditions (do not generate a note):**
 - Document is a receipt, payment confirmation, or verification code
-- Document has no summary and content is unavailable or empty
-- Document already has a note AND the user chose "skip existing"
+- Complete source content is unavailable or the fetch returned only a partial body
+- Existing note ownership is unknown or personal; preserve it and report the document for review
 
-### 2b. Identify Highlights (1–2 passages per document)
+### 2b. Identify Highlights (1–2 passages per document when justified)
 
-Use the `html_content` already fetched in parallel at the start of Step 2.
+Use the complete `html_content` already fetched in parallel at the start of Step 2. Record the source status and any targeted reread in the manifest; do not treat the metadata summary or a partial HTML response as sufficient.
 
 Select **1–2 passages** worth highlighting. Rules:
 1. The passage must appear inside a `<p>` tag in the html_content.
@@ -144,7 +146,7 @@ Good candidates: striking claims, key definitions, memorable sentences, anchorin
 
 Store the exact `<p>` tag (with all style attributes, verbatim) for use in Step 3b.
 
-If no eligible paragraphs exist: skip highlights for this document.
+If no eligible paragraphs exist: record `highlights: []` with that reason. Deduplicate against existing Reader-highlights and the current run before creating anything. If a highlight call errors, record the per-document error and do not retry with modified text; use the exact passage for a fallback only when that fallback is available and does not overwrite existing content.
 
 ## Step 3: Apply Notes in Bulk (+ highlights in parallel)
 
@@ -159,7 +161,7 @@ mcp__readwise__reader_bulk_edit_document_metadata(
 )
 ```
 
-**Important:** `notes` replaces any existing note. Only include documents that should be updated.
+**Important:** a notes write replaces the submitted value. Submit it only when the live note contains an explicitly `pipeline-managed` segment that can be replaced safely. Preserve personal text, unknown-owned text, and the final `Feedback:` paragraph; if ownership is unknown, omit `notes` and report `ownership-unknown`. A skipped note must not be sent as `null` or an empty string.
 
 ### Step 3b: Create Highlights (parallel with Step 3)
 
@@ -172,9 +174,11 @@ mcp__readwise__reader_create_highlight(
 )
 ```
 
-If a highlight returns an error, skip it silently. Do **not** retry with modified text.
+If a highlight returns an error, record it in the run manifest and report it separately. Do **not** retry with modified text.
 
-## Step 4: Report Results
+## Step 4: Write the run manifest and report results
+
+Before reporting, write `.tmp/readwise/summarize-manifest-{runId}.json` with the requested paginated document set, source fields/fingerprints, and one result per document. Record `source_status`, targeted rereads, analysis status, note-write outcome, highlight successes/errors, fallback path, ownership uncertainty, and stable operation keys. A resumed run skips only operation keys with a confirmed successful write; all other outcomes remain actionable. Keep partial and error results separate from successful summaries.
 
 After processing, present a compact summary:
 

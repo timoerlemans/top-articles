@@ -33,11 +33,32 @@ Een inhoudelijke taggingrun normaliseert bekende aliases via `readwise-tags.ts` 
 
 `must-read`, `shortlist` en `want-to-read` zijn geen inhoudelijke evidence. `want-to-read` is wel een expliciete prioriteitsbonus en bescherming tegen afvloeiing uit Later. De enige automatische voorkeursauteurs zijn Eleanor Konik en Henrik Karlsson, herkend uitsluitend uit betrouwbare `author`-metadata na Unicode-/spatie-normalisatie; een titelvermelding telt niet. `priority:plan` plant voor zulke Later-documenten idempotent de toevoeging van `want-to-read` vóór de ranking en afvloeiing. De score kent geen aparte auteursbonus: alleen de tag geeft +50. Boeken horen alleen in de boekreeks. Voor actuele prioriteit gebruikt een skill uitsluitend de v8-motor; historische modules zijn alleen voor historische rapporten.
 
-## Bron, evidence en feedback
+## V2 verrijkingscontract: bron, evidence, privacy en hervatting
 
-Een samenvatting, highlightselectie of triagebesluit is gebaseerd op de volledige beschikbare bron. Herlees gericht wanneer bewijs of onzekerheid dat vraagt; een vast aantal passes is geen kwaliteitsbewijs. Dedupliceer highlights tegen bestaande Reader-highlights en de runregistratie, schrijf exacte bronpassages en maak fouten zichtbaar/resumable. Houd persoonlijke notities en de laatste `Feedback:`-alinea intact; ruwe feedback en ruwe highlights blijven privé in Reader of `.tmp/readwise/`.
+Dit contract geldt voor `readwise-enrich`, `readwise-summarize`, `readwise-book-study` en elke andere skill die Reader-inhoud analyseert. Een skill mag dit contract niet vervangen door oudere voorbeelden of een vaste pass-teller.
 
-Nieuwe links krijgen dezelfde toelatingspoort: controleer de doelpagina zelf op taal, zelfstandige leesbaarheid en expliciete kerninteresse-aansluiting. Dedupliceer tegen Reader, Feed en de huidige run vóór het aanmaken.
+### Bronstatus en analyse
+
+- Haal voor elk document de volledige beschikbare bron op, inclusief de bronvariant die voor highlights nodig is (`html_content` wanneer Reader die levert). De Reader-metadata-samenvatting, titel, shownotes of een afgekapt/partieel body-resultaat zijn nooit bewijs dat de volledige bron is gelezen.
+- Leg per document een bronstatus vast: `complete`, `partial`, `missing` of `error`, met de gebruikte velden, een bronfingerprint en eventuele gerichte herlezingen. Bij `partial`, `missing` of `error` mag de uitkomst niet als succesvol volledig verrijkt worden gepresenteerd. Tags of andere veilige deeluitkomsten mogen alleen expliciet als gedeeltelijk worden gemeld.
+- Doe één volledige inhoudelijke analyse wanneer de bron compleet is en herlees alleen gericht wanneer een claim, highlight, hoofdstukgrens of onzekerheid dat nodig maakt. Een vast aantal volledige passes is geen kwaliteitsbewijs. Verzin geen broninhoud en retry geen mislukte bronophaling met een andere, gefabriceerde tekst.
+- Haal de gevraagde locatie volledig en gepagineerd op. Respecteer API-batchlimieten (maximaal 50 metadata-items per bulkcall), maar rapporteer altijd per document: bronstatus, analyse-uitkomst, metadata-write, highlight-writes en fouten. `complete`, `partial`, `skipped` en `error` blijven afzonderlijke uitkomsten.
+
+### Eigendom en privacy
+
+- Een pipeline-notitie markeert zijn beheerde tekst met een expliciete marker, bijvoorbeeld `<!-- pipeline-managed: readwise-enrichment/v2:start -->` en `<!-- pipeline-managed: readwise-enrichment/v2:end -->`. Bij herverrijking mag alleen het gemarkeerde pipeline-segment worden vervangen. Persoonlijke tekst, onbekend eigendom en de laatste `Feedback:`-alinea worden behouden; ontbrekende of onduidelijke eigendomsmarkers betekenen `ownership-unknown`, dus bewaren en rapporteren voor beoordeling.
+- Gebruik `splitReadingFeedback` voor de scheiding tussen inhoudsnotitie en feedback. Ruwe feedback, volledige bron, ruwe highlights, highlight-foutteksten en manifestdetails blijven in Reader of `.tmp/readwise/`; ze komen niet in browserdata, scoreconfiguratie, leesprofielconfiguratie of publieke rapporten.
+- Reader-highlights worden nooit herschreven of verwijderd. Selecteer passages exact uit de bron en dedupliceer op stabiele Reader-ID plus genormaliseerde brontekst/notitie tegen bestaande highlights én de huidige runregistratie. Een highlightfout wordt per document geregistreerd; retry nooit met aangepaste of verzonnen tekst. Een bruikbare fallback mag de passage bewaren, maar overschrijft geen bestaande fallback.
+
+### Runmanifest en hervatting
+
+Elke batch schrijft een manifest in `.tmp/readwise/` met minimaal `version`, `runId`, `scope`, `generatedAt`, de volledige document-ID-set, de gebruikte bronvelden/fingerprints en per document de feitelijke analyse-/schrijfuitkomsten. Registreer afzonderlijk bronstatus, gerichte herlezingen, analyse, metadata-write, highlight-successes, highlight-errors, fallbackpad en eventuele onzekerheden. Gebruik stabiele operationele sleutels voor metadata- en highlight-writes.
+
+Een hervatting leest dit manifest, slaat alleen aantoonbaar geslaagde writes over en controleert opnieuw de live metadata vóór een volledige tagset-write. Stuur ongewijzigde velden niet mee; een overgeslagen note geeft geen `null` of lege note door en wist geen bestaande tekst. Bij ontbrekende of onbetrouwbare tagsets behoudt de flow onbekende tags met losse bekende add/remove-operaties. Een onvolledig manifest of een gedeeltelijk resultaat wordt nooit als klaar gemarkeerd.
+
+### Gelinkte artikelen
+
+Nieuwe links krijgen dezelfde toelatingspoort: haal de doelpagina zelf op en controleer dat die Nederlands of Engels is, zelfstandig leesbaar is en expliciet aansluit op een kerninteresse. Dedupe tegen de bibliotheek, een complete Feed-snapshot en de huidige run vóór `reader-create-document`. Een bestaande bestemming wordt nooit vervangen; afwijzingen, fouten en aangemaakte links staan per URL in het manifest.
 
 ## Verificatie
 
