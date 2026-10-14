@@ -14,15 +14,13 @@ import type { PriorityExportItem, PriorityOverridesConfig } from "./lib/readwise
 import { validateCoreInterestPriorityConfig } from "./lib/core-interest-priority.js";
 import type { CoreInterestPriorityConfig } from "./lib/core-interest-priority.js";
 import { validatePriorityJudgments } from "./lib/priority-judgments.js";
-import { matchedDomainsFromTags } from "./lib/priority-document.js";
 import { FAMILY_DEFINITIONS, buildUnifiedLists } from "./lib/unified-lists.js";
 import type { RankedUnifiedEntry, UnifiedCatalogEntry } from "./lib/unified-lists.js";
-import { parseReadingMinutes } from "./lib/reading-time.js";
 import { createReadwiseRequester } from "./lib/readwise-request.js";
 import { fetchReadwiseDocuments } from "./lib/readwise-documents.js";
-import { canonicalInterestTags } from "./lib/readwise-tags.js";
 import type { ReadwiseDocument } from "./lib/external-schemas.js";
-import { publicReadingNotes } from "./lib/reader-notes.js";
+import { toCatalogItem } from "./lib/catalog-item.js";
+import type { CatalogItem } from "./lib/catalog-item.js";
 
 const execFileAsync = promisify(execFile);
 const READWISE_MAX_BUFFER = 16 * 1024 * 1024;
@@ -35,109 +33,14 @@ const JUDGMENTS_FILE = join(ROOT, "config", "readwise-priority-judgments.json");
 const CORE_INTEREST_FILE = join(ROOT, "config", "readwise-core-interest-priorities.json");
 
 
-// Kleine, vaste set taal-tags — bewust geen volledige taxonomie-tags in de output.
-const LANGUAGE_TAG_MAP: Readonly<Record<string, string>> = {
-  dutch: "Nederlands",
-  nl: "Nederlands",
-  nederlands: "Nederlands",
-  english: "Engels",
-  en: "Engels",
-  "lang:en": "Engels",
-  french: "Frans",
-  fr: "Frans",
-};
-
 const runReadwise = createReadwiseRequester({
   exec: (commandArgs) => execFileAsync("readwise", commandArgs, { maxBuffer: READWISE_MAX_BUFFER }),
 });
-
-function tagKeys(doc: ReadwiseDocument): string[] {
-  const t = doc.tags;
-  if (!t) {
-    return [];
-  }
-  if (Array.isArray(t)) {
-    return t.filter((tag): tag is string => typeof tag === "string");
-  }
-  if (typeof t === "object") {
-    return Object.keys(t);
-  }
-  return [];
-}
-
-function languageFor(doc: ReadwiseDocument): string | null {
-  const language = (doc.language ?? "").toLowerCase().trim();
-  if (["nl", "nld", "dut", "dutch", "nederlands"].includes(language)) {return "Nederlands";}
-  if (["en", "eng", "english"].includes(language)) {return "Engels";}
-  for (const key of tagKeys(doc)) {
-    const label = LANGUAGE_TAG_MAP[key.toLowerCase()];
-    if (label) {
-      return label;
-    }
-  }
-  return null;
-}
 
 const overridesSchema = z.object({
   version: z.literal(1),
   items: z.record(z.string(), z.object({ adjustment: z.number().optional(), reason: z.string().nullable().optional() })),
 });
-
-function interestTagsFor(doc: ReadwiseDocument): string[] {
-  return canonicalInterestTags(tagKeys(doc));
-}
-
-interface CatalogItem {
-  position: number | null;
-  id: string;
-  title: string;
-  author: string | null;
-  siteName: string | null;
-  category: string | null;
-  language: string | null;
-  readingTime: string | null;
-  readingMinutes: number | null;
-  wordCount: number | null;
-  publishedDate: string | null;
-  savedDate: string | null;
-  imageUrl: string | null;
-  sourceUrl: string | null;
-  readwiseUrl: string | null;
-  summary: string | null;
-  whyRead: string | null;
-  bestMoment: string | null;
-  tags: string[];
-  coreInterests: ReturnType<typeof matchedDomainsFromTags>;
-  alsoIn: string[];
-}
-
-function toItem(doc: ReadwiseDocument, position: number | null): CatalogItem {
-  const { whyRead, bestMoment } = publicReadingNotes(doc.notes);
-
-  return {
-    position,
-    id: doc.id,
-    title: doc.title ?? "(zonder titel)",
-    author: doc.author ?? null,
-    siteName: doc.site_name ?? null,
-    category: doc.category ?? null,
-    language: languageFor(doc),
-    readingTime: doc.reading_time ?? null,
-    readingMinutes: parseReadingMinutes(doc.reading_time),
-    wordCount: doc.word_count ?? null,
-    publishedDate: doc.published_date ?? null,
-    savedDate: doc.saved_at ?? null,
-    imageUrl: doc.image_url ?? null,
-    sourceUrl: doc.source_url ?? null,
-    readwiseUrl: doc.url ?? null,
-    summary: doc.summary ?? null,
-    whyRead,
-    bestMoment,
-    tags: interestTagsFor(doc),
-    coreInterests: matchedDomainsFromTags(doc),
-    alsoIn: [],
-  };
-}
 
 async function main() {
   const laterDocs = await fetchReadwiseDocuments(runReadwise, { profile: "catalog", location: "later" });
@@ -154,7 +57,7 @@ async function main() {
   }
   const coreInterestConfig: CoreInterestPriorityConfig = coreInterestValue;
   const priority = buildPriorityExport(laterDocs, { generatedAt, overrides, judgments, coreInterestConfig });
-  const baseCatalog = laterDocs.map((doc) => toItem(doc, null));
+  const baseCatalog = laterDocs.map((doc) => toCatalogItem(doc, null));
   type RankedCatalogItem = CatalogItem & UnifiedCatalogEntry & { priority: PriorityExportItem };
   const rankedCatalog: RankedCatalogItem[] = baseCatalog.map((item) => {
     const itemPriority = priority.items[item.id];
