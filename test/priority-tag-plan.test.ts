@@ -271,6 +271,16 @@ test("bronfingerprint bewaakt ook de kerninteresseconfiguratie", () => {
   assert.notEqual(changed.sourceFingerprint, first.sourceFingerprint);
 });
 
+test("bronfingerprint bevat deterministisch de actuele classificatiepolicy", () => {
+  const source = [doc("stable", { tags: { "team collaboration": {} } })];
+  const first = buildPriorityTagPlan(source, [], { generatedAt: "2026-08-16T10:00:00.000Z" });
+  const repeated = buildPriorityTagPlan(source, [], { generatedAt: "2026-08-16T10:00:00.000Z" });
+
+  assert.equal(first.sourceFingerprint, repeated.sourceFingerprint);
+  assert.equal(first.planHash, repeated.planHash);
+  assert.equal(validatePriorityTagPlan(first), true);
+});
+
 test("bronfingerprint bewaakt judgments en is onafhankelijk van objectvolgorde", () => {
   const source = [doc("stable")];
   const firstJudgments = { stable: { sourceFingerprint: "a".repeat(64), relevance: 1, substance: 2, durability: 3, usefulness: 1, sequenceFit: {}, confidence: "high" as const, status: "accepted" as const, reasonCodes: [] } } satisfies Record<string, ContentJudgment>;

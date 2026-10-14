@@ -92,6 +92,16 @@ test("lees-archiveplan-fingerprint bewaakt auteursmetadata van de scorebron", ()
   assert.notEqual(changed.sourceFingerprint, first.sourceFingerprint);
 });
 
+test("lees-archiveplan legt de actuele classificatiepolicy vast in zijn bronfingerprint", () => {
+  const source = [doc("doc", { tags: { "team collaboration": {} } })];
+  const first = buildLeesArchivePlan(source, overrides, { generatedAt: "2026-09-21T12:00:00.000Z" });
+  const repeated = buildLeesArchivePlan(source, overrides, { generatedAt: "2026-09-21T12:00:00.000Z" });
+
+  assert.equal(first.sourceFingerprint, repeated.sourceFingerprint);
+  assert.equal(first.planHash, repeated.planHash);
+  assert.equal(validateLeesArchivePlan(first), true);
+});
+
 test("postcondition eist dat alle kandidaten weg zijn en beschermde documenten blijven", () => {
   const source = [
     doc("candidate", { tags: { "lees-0001": {} } }),

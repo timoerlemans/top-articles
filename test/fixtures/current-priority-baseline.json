@@ -2897,7 +2897,7 @@
     "model": "readwise-priority-tag-plan-v3",
     "priorityModel": "readwise-priority-v8",
     "scope": "later",
-    "sourceFingerprint": "338ba0d7f80610f27ecee2e28a5296ba15e3244781df9b361553e5cce50bb28f",
+    "sourceFingerprint": "2615db68c1b33de0a56f3c4305339f47b21f54d8b68d05ebe25bbe071e0f3a98",
     "summary": {
       "documents": 16,
       "additions": 85,
@@ -3762,14 +3762,14 @@
         "tag": "lees-0008"
       }
     ],
-    "planHash": "b6e49e6df8ab01e92d93c757764a085d20e020af605d14d7ae11458e8891b1f4"
+    "planHash": "a2ed81d673693db989aea4dd27c1b740a62f741fa77fa2622915485995ef9315"
   },
   "archivePlan": {
     "generatedAt": "2026-10-10T12:00:00.000Z",
     "model": "readwise-archive-plan-v1",
     "priorityModel": "readwise-priority-v8",
     "scope": "later",
-    "sourceFingerprint": "dae4619cdc8282f2cc654553cf271649cf8cddccc2743038d19e6e6c99aa45fc",
+    "sourceFingerprint": "6b3bdb862880718c930c6a080108caa1b107229577a641427a7dc427046544a3",
     "summary": {
       "documents": 16,
       "protected": 16,
@@ -3929,6 +3929,6 @@
     ],
     "candidateDocumentIds": [],
     "candidates": [],
-    "planHash": "522b45dd536184d9621a5ef797cb711cdeef467347e7abad5bed296594666591"
+    "planHash": "ee7eefe4330a98b7560f70a2fb01f875a792d104da4ecdf6124f278c02fad1d7"
   }
 }

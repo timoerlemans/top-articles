@@ -10,6 +10,7 @@ import {
   coreInterestFingerprintInput,
   defaultCoreInterestPriorityConfig,
 } from "./core-interest-priority.js";
+import { readerClassificationFingerprintInput } from "./reader-document-classification.js";
 import type { CoreInterestPriorityConfig } from "./core-interest-priority.js";
 import type { ContentJudgment, PriorityJudgmentsConfig } from "./priority-judgments.js";
 import type { PriorityDocument } from "./priority-document.js";
@@ -353,6 +354,7 @@ export function buildPriorityTagPlan(
       weightByRank: [...coreInterestConfig.weightByRank],
     },
     coreInterestMapping: coreInterestFingerprintInput(),
+    readerClassificationPolicy: readerClassificationFingerprintInput(),
   });
   const body: Omit<PriorityTagPlan, "planHash"> = {
     generatedAt,

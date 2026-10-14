@@ -7,6 +7,7 @@ import {
   coreInterestFingerprintInput,
   defaultCoreInterestPriorityConfig,
 } from "./core-interest-priority.js";
+import { readerClassificationFingerprintInput } from "./reader-document-classification.js";
 import type { CoreInterestPriorityConfig } from "./core-interest-priority.js";
 import type { ContentJudgment } from "./priority-judgments.js";
 import type { PriorityDocument } from "./priority-document.js";
@@ -142,6 +143,7 @@ export function buildArchivePlan(
         weightByRank: [...coreInterestConfig.weightByRank],
       },
       coreInterestMapping: coreInterestFingerprintInput(),
+      readerClassificationPolicy: readerClassificationFingerprintInput(),
     }),
     summary: {
       documents: later.length,

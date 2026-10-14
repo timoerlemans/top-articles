@@ -101,6 +101,16 @@ test("archiveplan gebruikt v8 en bewaakt de kerninteresseconfiguratie", () => {
   assert.notEqual(first.sourceFingerprint, changed.sourceFingerprint);
 });
 
+test("archiveplan legt de actuele classificatiepolicy vast in zijn bronfingerprint", () => {
+  const source = [doc("doc", { tags: { "team collaboration": {} } })];
+  const first = buildArchivePlan(source, { version: 1, items: {} }, { generatedAt: "2026-09-16T12:00:00.000Z" });
+  const repeated = buildArchivePlan(source, { version: 1, items: {} }, { generatedAt: "2026-09-16T12:00:00.000Z" });
+
+  assert.equal(first.sourceFingerprint, repeated.sourceFingerprint);
+  assert.equal(first.planHash, repeated.planHash);
+  assert.equal(validateArchivePlan(first), true);
+});
+
 test("rejects a plan whose candidate and protected sets overlap", () => {
   const plan = buildArchivePlan([doc("doc", { category: "note" })], { version: 1, items: {} });
   const invalid: ArchivePlan = {
