@@ -5565,7 +5565,7 @@ window.TOP_ARTICLES = {
       }
     }
   },
-  "generatedAt": "2026-10-14T12:20:09.153Z",
+  "generatedAt": "2026-10-14T12:36:36.030Z",
   "families": [
     {
       "id": "algemeen",
