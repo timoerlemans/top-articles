@@ -31,6 +31,38 @@ npm run priority:plan -- --output .tmp/readwise/priority-plan.json
 
 Toon aantallen, exacte oude/nieuwe tags, removals, additions, `sourceFingerprint` en `planHash`. Een plan is read-only en verandert geen Reader-tags.
 
+### Lokale onderhoudsroute
+
+Voor de volledige lokale onderhoudsketen gebruik je de gedeelde route. Deze route voert de
+stappen altijd in deze volgorde uit: `authors -> priority -> archive -> cleanup -> build`.
+Elke Reader-mutatiestap heeft een eigen exacte planhash; een bevestiging voor een eerdere of
+andere bron geldt niet. De route archiveert alle niet-beschermde Later-documenten, waarbij alleen
+canonieke familie-top-100-lidmaatschappen en de expliciete `want-to-read`-tag bescherming geven.
+Consensus, Nieuw, Tijdloos, `must-read` en `shortlist` zijn geen archiefbescherming.
+
+Maak eerst een read-only onderhoudsmanifest:
+
+```bash
+npm run readwise:priority-sync -- plan --output .tmp/readwise/maintenance-plan.json
+```
+
+Toon de vijf hashes en bevestig daarna alleen de hashes die je daadwerkelijk wilt uitvoeren:
+
+```bash
+npm run readwise:priority-sync -- apply \
+  --plan .tmp/readwise/maintenance-plan.json \
+  --confirm authors=<hash>,priority=<hash>,archive=<hash>,cleanup=<hash>
+npm run readwise:priority-sync -- verify \
+  --plan .tmp/readwise/maintenance-plan.json
+```
+
+De route controleert bronfingerprints opnieuw, gebruikt bestaande journals en bulk/fallback-
+adapters, rapporteert elke stap afzonderlijk en stopt vóór downstream-stappen bij een fout.
+Na een geslaagde auteurs-, prioriteits- of archiefmutatie worden de volgende stappen opnieuw
+gepland; gebruik dan de nieuwe hash uit het onderhoudsrapport. `build` publiceert pas als alle
+Reader-stappen live zijn geverifieerd. De rapportage staat standaard in
+`.tmp/readwise/maintenance-report.json`. Gebruik `inspect` als alias voor `plan`.
+
 ### Toepassen en verifiëren
 
 Wacht op expliciete goedkeuring voor precies de getoonde planhash. Pas alleen daarna toe:
@@ -45,7 +77,7 @@ De apply-flow herberekent live vlak vóór uitvoering, gebruikt de source-finger
 
 ### Volledige cleanup
 
-Gebruik `--cleanup-all` alleen op expliciet verzoek. De scope moet in plan, apply en verify gelijk blijven. Archive-plannen en de refresh-keten blijven afzonderlijke bevestigde stappen.
+Gebruik `--cleanup-all` alleen op expliciet verzoek. De scope moet in plan, apply en verify gelijk blijven. De lokale onderhoudsroute coördineert de algemene archive- en cleanup-stappen; losse archive-plannen blijven afzonderlijk bevestigd.
 
 ### GitHub-workflow dispatch
 

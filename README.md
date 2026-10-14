@@ -93,6 +93,22 @@ npm run priority:apply -- --plan .tmp/readwise/priority-plan.json --confirm "$PL
 npm run priority:verify
 ```
 
+Voor de volledige lokale onderhoudsketen (voorkeursauteurstags, prioriteit, algemene archivering,
+archive-cleanup en daarna build) gebruik je de read-only plan/apply/verify-route. Elke Reader-
+mutatiestap vereist zijn eigen exacte planhash; na een geslaagde upstream-mutatie worden
+downstream-plannen opnieuw berekend:
+
+```bash
+npm run readwise:priority-sync -- plan --output .tmp/readwise/maintenance-plan.json
+npm run readwise:priority-sync -- apply --plan .tmp/readwise/maintenance-plan.json \
+  --confirm authors=<hash>,priority=<hash>,archive=<hash>,cleanup=<hash>
+npm run readwise:priority-sync -- verify --plan .tmp/readwise/maintenance-plan.json
+```
+
+De algemene archive-stap beschermt alleen canonieke familie-top-100-lidmaatschappen en
+`want-to-read`; `Consensus`, `Nieuw`, `Tijdloos`, `must-read` en `shortlist` zijn geen bescherming.
+De route rapporteert elke stap en stopt vóór downstream-mutaties bij een fout.
+
 Het planmodel `readwise-priority-tag-plan-v3` bewaakt documentgegevens, judgments,
 scorecorrecties en kerninteresseconfiguratie. Oudere plannen moeten opnieuw worden gemaakt
 met `priority:plan`. De bevestigingshash hoort bij het opgeslagen plan; vóór uitvoering en

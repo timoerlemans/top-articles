@@ -33,6 +33,22 @@ Een inhoudelijke taggingrun normaliseert bekende aliases via `readwise-tags.ts` 
 
 `must-read`, `shortlist` en `want-to-read` zijn geen inhoudelijke evidence. `want-to-read` is wel een expliciete prioriteitsbonus en bescherming tegen afvloeiing uit Later. De enige automatische voorkeursauteurs zijn Eleanor Konik en Henrik Karlsson, herkend uitsluitend uit betrouwbare `author`-metadata na Unicode-/spatie-normalisatie; een titelvermelding telt niet. `priority:plan` plant voor zulke Later-documenten idempotent de toevoeging van `want-to-read` vóór de ranking en afvloeiing. De score kent geen aparte auteursbonus: alleen de tag geeft +50. Boeken horen alleen in de boekreeks. Voor actuele prioriteit gebruikt een skill uitsluitend de v8-motor; historische modules zijn alleen voor historische rapporten.
 
+## Lokale onderhoudsroute
+
+De canonicale lokale route is `npm run readwise:priority-sync`. Een read-only `plan`/`inspect`
+maakt één onderhoudsmanifest; `apply` voert alleen stappen uit met de exacte bevestiging
+`<stage>=<planHash>` en schrijft per stap een rapport; `verify` doet een nieuwe live controle.
+De vaste volgorde is `authors -> priority -> archive -> cleanup -> build`. Na iedere geslaagde
+Reader-mutatie worden de volgende stappen opnieuw gepland, omdat hun bronfingerprint en hash
+kunnen zijn veranderd. Bij een upstream-fout worden downstream-stappen niet uitgevoerd.
+
+De algemene archive-stap beschermt uitsluitend canonieke familie-top-100-lidmaatschappen en de
+expliciete `want-to-read`-tag. Afgeleide ontdeklijsten (`Consensus`, `Nieuw`, `Tijdloos`) en
+curatietags (`must-read`, `shortlist`) beschermen niet. Cleanup verwijdert alleen beheerde
+ordinale/toplijsttags en behoudt inhouds-, curatoriale en `want-to-read`-tags. Journals,
+bronfingerprints, bounded batches en losse add/remove-fallbacks blijven de bron van waarheid voor
+hervatting en tagbehoud.
+
 ## V2 verrijkingscontract: bron, evidence, privacy en hervatting
 
 Dit contract geldt voor `readwise-enrich`, `readwise-summarize`, `readwise-book-study` en elke andere skill die Reader-inhoud analyseert. Een skill mag dit contract niet vervangen door oudere voorbeelden of een vaste pass-teller.

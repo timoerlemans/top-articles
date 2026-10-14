@@ -15,7 +15,7 @@ async function writeCheckFixture(root: string): Promise<void> {
   await mkdir(skillRoot, { recursive: true });
   await writeFile(
     join(skillRoot, "readwise-reference.md"),
-    "SEQUENCE_ORDER FAMILY_DEFINITIONS readwise-priority-v8 config/readwise-reading-preferences.md reader-list-documents reader-bulk-edit-document-metadata want-to-read V2 verrijkingscontract V2 triageroutering V2 reviewonderhoud bronstatus pipeline-managed Runmanifest doelpagina",
+    "SEQUENCE_ORDER FAMILY_DEFINITIONS readwise-priority-v8 config/readwise-reading-preferences.md reader-list-documents reader-bulk-edit-document-metadata want-to-read readwise:priority-sync authors -> priority -> archive -> cleanup -> build exacte planhash bronfingerprints geen stille uitzondering V2 verrijkingscontract V2 triageroutering V2 reviewonderhoud bronstatus pipeline-managed Runmanifest doelpagina",
     "utf8",
   );
   for (const skill of MANAGED_READWISE_SKILLS) {
@@ -35,9 +35,14 @@ async function writeCheckFixture(root: string): Promise<void> {
       : skill === "readwise-inbox"
         ? "V2 inboxcontract location=new source_status runmanifest doelpagina één verantwoordelijke linkpass"
         : "";
+    const maintenanceContract = skill === "readwise-priority-sync"
+      ? "readwise:priority-sync authors -> priority -> archive -> cleanup -> build exacte planhash bronfingerprints"
+      : skill === "readwise-reorder"
+        ? "readwise-priority-sync exacte planhash geen stille uitzondering"
+        : "";
     await writeFile(
       join(currentSkillRoot, "SKILL.md"),
-      `---\nname: ${skill}\ndescription: Valid fixture\n---\n\nRead <repository>/skills/readwise-reference.md. Use TOP_ARTICLES_REPO or /mnt/c/dev/top-articles.\nreadwise reader-list-documents reader-bulk-edit-document-metadata\n${enrichmentContract} ${routingContract}\n`,
+      `---\nname: ${skill}\ndescription: Valid fixture\n---\n\nRead <repository>/skills/readwise-reference.md. Use TOP_ARTICLES_REPO or /mnt/c/dev/top-articles.\nreadwise reader-list-documents reader-bulk-edit-document-metadata\n${enrichmentContract} ${routingContract} ${maintenanceContract}\n`,
       "utf8",
     );
     await writeFile(

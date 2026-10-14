@@ -7,7 +7,7 @@ description: Use when reprioritizing, synchronizing, cleaning up, or verifying p
 
 ## Scope in the current repository
 
-Read [`../readwise-reference.md`](../readwise-reference.md) in the repository checkout. When installed separately, locate the repository through the current valid worktree, `TOP_ARTICLES_REPO`, or `/mnt/c/dev/top-articles`, then read `<repository>/skills/readwise-reference.md`; do not assume the relative link exists. This skill is limited to explicit manual reprioritization and the separately documented deterministic insertion of a newly requested document. Full priority synchronization, cleanup, and remote workflow dispatch belong to `readwise-priority-sync`; do not duplicate or reimplement their score/tag logic here.
+Read [`../readwise-reference.md`](../readwise-reference.md) in the repository checkout. When installed separately, locate the repository through the current valid worktree, `TOP_ARTICLES_REPO`, or `/mnt/c/dev/top-articles`, then read `<repository>/skills/readwise-reference.md`; do not assume the relative link exists. This skill is limited to explicit manual reprioritization and positioning of a newly requested document. Full priority synchronization, cleanup, and remote workflow dispatch belong to `readwise-priority-sync`; do not duplicate or reimplement their score/tag logic here.
 
 Gebruik altijd de prioriteitsmotor uit `top-articles`. Bereken nooit zelf scores, tiers, posities of toplijsten in deze skill.
 
@@ -87,13 +87,13 @@ npm run priority:plan -- --output .tmp/readwise/priority-plan.json
 ```
 
 2. Filter het resultaat tot de operaties die de meegegeven document-ID's raken.
-3. **Alleen als het plan uitsluitend de meegegeven document-ID's raakt** (plus hun eigen reeks-/toplijst-herschikking): pas het toe zonder aparte gebruikersvraag — dit is een zuiver mechanische, deterministische toewijzing zonder handmatig oordeel, in tegenstelling tot Modus A en S:
+3. Toon de volledige proefrun en wacht altijd op expliciete goedkeuring voor exact de getoonde planhash. Ook een uitsluitend mechanische toewijzing krijgt geen stille uitzondering:
 
 ```bash
 npm run priority:apply -- --plan .tmp/readwise/priority-plan.json --confirm <plan-hash>
 ```
 
-Bevat het plan onverwachte operaties buiten de meegegeven ID's (bijv. omdat de brondata is gewijzigd sinds de laatste synchronisatie): toon dit expliciet en vraag alsnog akkoord voordat je toepast. De stille automatische toepassing geldt uitsluitend voor het verwachte geval van nieuwe documenten inpassen, nooit voor onvoorziene wijzigingen elders in de library.
+Bevat het plan onverwachte operaties buiten de meegegeven ID's (bijv. omdat de brondata is gewijzigd sinds de laatste synchronisatie), maak dan eerst een nieuw plan en vraag opnieuw akkoord. De volledige onderhoudsketen en alle downstream-mutaties lopen via `readwise-priority-sync`.
 
 4. Draai `npm run priority:verify`. Bij een afwijking: meld dit expliciet, herhaal niet automatisch.
 5. Rapporteer compact: `↳ X nieuwe documenten ingepast — {titel} → {nieuwe tag}, ...`

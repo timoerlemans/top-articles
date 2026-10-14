@@ -81,6 +81,9 @@ const REFERENCE_ANCHORS = [
   "doelpagina",
   "V2 triageroutering",
   "V2 reviewonderhoud",
+  "readwise:priority-sync",
+  "authors -> priority -> archive -> cleanup -> build",
+  "bronfingerprints",
 ] as const;
 
 const ENRICHMENT_SKILL_CONTRACTS: Readonly<Record<string, readonly string[]>> = {
@@ -116,6 +119,11 @@ const TRIAGE_ROUTING_SKILL_CONTRACTS: Readonly<Record<string, readonly string[]>
   ],
 };
 
+const MAINTENANCE_SKILL_CONTRACTS: Readonly<Record<string, readonly string[]>> = {
+  "readwise-priority-sync": ["readwise:priority-sync", "authors -> priority -> archive -> cleanup -> build", "exacte planhash", "bronfingerprints"],
+  "readwise-reorder": ["readwise-priority-sync", "exacte planhash", "geen stille uitzondering"],
+};
+
 const OBSOLETE_TRIAGE_ROUTING_PATTERNS: Readonly<Record<string, readonly RegExp[]>> = {
   "readwise-triage": [
     /minstens 2 volledige iteraties/i,
@@ -131,6 +139,10 @@ const OBSOLETE_TRIAGE_ROUTING_PATTERNS: Readonly<Record<string, readonly RegExp[
     /Tier 2 auto-archive/i,
     /10\/10/i,
   ],
+};
+
+const OBSOLETE_MAINTENANCE_PATTERNS: Readonly<Record<string, readonly RegExp[]>> = {
+  "readwise-reorder": [/zonder aparte gebruikersvraag/i, /stille automatische toepassing/i],
 };
 
 function frontmatterValue(content: string, key: string): string | undefined {
@@ -184,6 +196,11 @@ async function checkSkillMetadata(
       errors.push(`${skill}: V2-triagerouteringscontract mist: ${anchor}.`);
     }
   }
+  for (const anchor of MAINTENANCE_SKILL_CONTRACTS[skill] ?? []) {
+    if (!content.includes(anchor)) {
+      errors.push(`${skill}: onderhoudscontract mist: ${anchor}.`);
+    }
+  }
   for (const pattern of OBSOLETE_ENRICHMENT_PATTERNS[skill] ?? []) {
     if (pattern.test(content)) {
       errors.push(`${skill}: verouderde verrijkingsinstructie gevonden: ${pattern.source}.`);
@@ -192,6 +209,11 @@ async function checkSkillMetadata(
   for (const pattern of OBSOLETE_TRIAGE_ROUTING_PATTERNS[skill] ?? []) {
     if (pattern.test(content)) {
       errors.push(`${skill}: verouderde triage-/inboxinstructie gevonden: ${pattern.source}.`);
+    }
+  }
+  for (const pattern of OBSOLETE_MAINTENANCE_PATTERNS[skill] ?? []) {
+    if (pattern.test(content)) {
+      errors.push(`${skill}: verouderde onderhoudsinstructie gevonden: ${pattern.source}.`);
     }
   }
   try {

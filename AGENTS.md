@@ -49,6 +49,9 @@ npm run priority:topic-report                   # read-only v7→v8-topic-impact
 npm run priority:plan     # compileert eerst; proefrun: berekent benodigde Readwise-tagwijzigingen, schrijft .tmp/readwise/priority-plan.json
 npm run priority:apply    # compileert eerst; past een eerder gegenereerd plan toe na expliciete --confirm <plan-hash>
 npm run priority:verify   # compileert eerst; controleert of Readwise-tags al matchen met de berekende reeksen (geen wijzigingen)
+npm run readwise:priority-sync -- plan   # read-only onderhoudsmanifest: auteurs -> priority -> archive -> cleanup -> build
+npm run readwise:priority-sync -- apply --plan .tmp/readwise/maintenance-plan.json --confirm <stage>=<planHash> ...
+npm run readwise:priority-sync -- verify --plan .tmp/readwise/maintenance-plan.json
 npm run review:publish -- publish --run-dir <runmap> --output-dir <geïsoleerde-outputmap> # veilige reviewconfig-merge
 npm run skills:check      # read-only controle van repository-skills en canonieke contracten
 npm run skills:sync -- --dry-run  # toont skillwijzigingen zonder installatie of baseline te wijzigen
