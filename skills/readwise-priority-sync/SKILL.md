@@ -96,7 +96,7 @@ ROOT_RUN_ID=$(until gh run list --workflow priority-sync.yml --event workflow_di
 gh run watch "$ROOT_RUN_ID" --exit-status
 ```
 
-Volg daarna steeds de exacte child-run waarvan de `displayTitle` de vorige run-ID bevat; kies nooit
+Volg daarna steeds de exacte child-run waarvan de `displayTitle` eindigt op de vorige run-ID; kies nooit
 een willekeurige recente succesvolle run:
 
 ```bash
@@ -104,7 +104,7 @@ PARENT_RUN_ID="$ROOT_RUN_ID"
 for WORKFLOW in archive-lees.yml archive-cleanup.yml refresh.yml; do
   CHILD_RUN_ID=$(until gh run list --workflow "$WORKFLOW" --event workflow_run --limit 50 \
     --json databaseId,displayTitle,createdAt \
-    --jq --arg parent "$PARENT_RUN_ID" 'map(select(.displayTitle | contains($parent))) | sort_by(.createdAt) | last | .databaseId // empty' \
+    --jq --arg parent "$PARENT_RUN_ID" 'map(select(.displayTitle | endswith($parent))) | sort_by(.createdAt) | last | .databaseId // empty' \
     | grep -E '^[0-9]+$'; do sleep 5; done)
   gh run watch "$CHILD_RUN_ID" --exit-status
   PARENT_RUN_ID="$CHILD_RUN_ID"

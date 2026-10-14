@@ -25,14 +25,14 @@ export interface RemoteChainEvaluation {
   blockingWorkflow?: RemoteWorkflowName;
 }
 
-/** Selects only the child run that names its exact parent; recent unrelated runs are ignored. */
+/** Selects only the child run whose display title ends with the exact parent ID. */
 export function findRelatedRemoteRun(
   runs: readonly RemoteRunRecord[],
   workflow: RemoteWorkflowName,
   parentRunId: string,
 ): RemoteRunRecord | null {
   return [...runs]
-    .filter((run) => run.workflow === workflow && run.displayTitle.includes(parentRunId))
+    .filter((run) => run.workflow === workflow && run.displayTitle.endsWith(parentRunId))
     .sort((left, right) => right.createdAt.localeCompare(left.createdAt))[0] ?? null;
 }
 

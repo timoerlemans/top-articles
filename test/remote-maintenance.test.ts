@@ -24,9 +24,9 @@ function run(overrides: Partial<RemoteRunRecord> = {}): RemoteRunRecord {
 
 test("remote run correlation ignores an unrelated recent success", () => {
   const selected = findRelatedRemoteRun([
-    run({ id: "unrelated", displayTitle: "Readwise archive na other-root", workflow: REMOTE_WORKFLOW_ORDER[1] }),
-    run({ id: "related", displayTitle: "Readwise archive na root-1", workflow: REMOTE_WORKFLOW_ORDER[1], status: "queued", conclusion: null }),
-  ], REMOTE_WORKFLOW_ORDER[1], "root-1");
+    run({ id: "unrelated", displayTitle: "Readwise archive na 10", workflow: REMOTE_WORKFLOW_ORDER[1] }),
+    run({ id: "related", displayTitle: "Readwise archive na 1", workflow: REMOTE_WORKFLOW_ORDER[1], status: "queued", conclusion: null }),
+  ], REMOTE_WORKFLOW_ORDER[1], "1");
 
   assert.equal(selected?.id, "related");
 });
