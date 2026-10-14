@@ -7,7 +7,7 @@ You are summarizing documents in the user's Readwise Reader library and saving e
 
 ## Repository authority
 
-Read [`../readwise-reference.md`](../readwise-reference.md) first. Summaries use the complete available source, preserve personal notes and `Feedback:` text, and use confirmed Reader commands only. A generated summary or metadata excerpt is never evidence that the full source was read.
+Read [`../readwise-reference.md`](../readwise-reference.md) first in the repository checkout. When installed separately, locate the repository through the current valid worktree, `TOP_ARTICLES_REPO`, or `/mnt/c/dev/top-articles`, then read `<repository>/skills/readwise-reference.md`; do not assume the relative link exists. Summaries use the complete available source, preserve personal notes and `Feedback:` text, and use confirmed Reader commands only. A generated summary or metadata excerpt is never evidence that the full source was read.
 
 **Direct output:** Voordat je ook maar één tool aanroept of vraag stelt, output precies deze regel: `Documenten samenvatten...`
 

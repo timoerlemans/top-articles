@@ -7,7 +7,7 @@ description: How to use the Readwise CLI — access highlights, documents, and y
 
 ## Repository authority
 
-Read [`../readwise-reference.md`](../readwise-reference.md) before using a Reader command. Discover commands with `readwise --help` and use only confirmed options; never infer an endpoint or response field. This skill describes transport and discovery, while taxonomy, scoring, schemas, and tag-preservation rules remain in the repository sources.
+Read [`../readwise-reference.md`](../readwise-reference.md) before using a Reader command in the repository checkout. When installed separately, locate the repository through the current valid worktree, `TOP_ARTICLES_REPO`, or `/mnt/c/dev/top-articles`, then read `<repository>/skills/readwise-reference.md`; do not assume the relative link exists. Discover commands with `readwise --help` and use only confirmed options; never infer an endpoint or response field. This skill describes transport and discovery, while taxonomy, scoring, schemas, and tag-preservation rules remain in the repository sources.
 
 Use the `readwise` command to access the user's Readwise highlights and Reader documents. Readwise has two products:
 

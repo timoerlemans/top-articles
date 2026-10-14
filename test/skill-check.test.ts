@@ -23,7 +23,7 @@ async function writeCheckFixture(root: string): Promise<void> {
     await mkdir(join(currentSkillRoot, "agents"), { recursive: true });
     await writeFile(
       join(currentSkillRoot, "SKILL.md"),
-      `---\nname: ${skill}\ndescription: Valid fixture\n---\n\nreadwise reader-list-documents reader-bulk-edit-document-metadata\n`,
+      `---\nname: ${skill}\ndescription: Valid fixture\n---\n\nRead <repository>/skills/readwise-reference.md. Use TOP_ARTICLES_REPO or /mnt/c/dev/top-articles.\nreadwise reader-list-documents reader-bulk-edit-document-metadata\n`,
       "utf8",
     );
     await writeFile(

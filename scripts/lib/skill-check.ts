@@ -111,6 +111,12 @@ async function checkSkillMetadata(
   if (!frontmatterValue(content, "description")) {
     errors.push(`${skill}: frontmatter description ontbreekt.`);
   }
+  if (!content.includes("<repository>/skills/readwise-reference.md")) {
+    errors.push(`${skill}: geïnstalleerde kopie verwijst niet expliciet naar de centrale repository-reference.`);
+  }
+  if (!content.includes("TOP_ARTICLES_REPO") || !content.includes("/mnt/c/dev/top-articles")) {
+    errors.push(`${skill}: repository-discovery via worktree, TOP_ARTICLES_REPO en standaardlocatie ontbreekt.`);
+  }
   try {
     const metadata = await readFile(metadataPath, "utf8");
     if (!/^interface:\s*$/m.test(metadata) || !/^\s+display_name:\s*\S+/m.test(metadata) || !/^\s+short_description:\s*\S+/m.test(metadata)) {

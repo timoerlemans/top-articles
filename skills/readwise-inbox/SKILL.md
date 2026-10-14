@@ -7,7 +7,7 @@ description: Use when the user wants to fully process the Readwise inbox unatten
 
 ## Repository v2 contract
 
-Read [`../readwise-reference.md`](../readwise-reference.md) before invoking the sub-skills. Full-source coverage and evidence-based targeted rereading replace any legacy fixed `10/10` pass requirement below; a document is complete only when its actual source, result, and errors are recorded. Preserve personal notes/feedback and non-content tags, and do not route a failed or incomplete document as successfully processed.
+Read [`../readwise-reference.md`](../readwise-reference.md) before invoking the sub-skills in the repository checkout. When installed separately, locate the repository through the current valid worktree, `TOP_ARTICLES_REPO`, or `/mnt/c/dev/top-articles`, then read `<repository>/skills/readwise-reference.md`; do not assume the relative link exists. Full-source coverage and evidence-based targeted rereading replace any legacy fixed `10/10` pass requirement below; a document is complete only when its actual source, result, and errors are recorded. Preserve personal notes/feedback and non-content tags, and do not route a failed or incomplete document as successfully processed.
 
 ## Overview
 

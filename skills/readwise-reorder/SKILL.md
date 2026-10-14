@@ -7,7 +7,7 @@ description: Use when reprioritizing, synchronizing, cleaning up, or verifying p
 
 ## Scope in the current repository
 
-Read [`../readwise-reference.md`](../readwise-reference.md). This skill is limited to explicit manual reprioritization and the separately documented deterministic insertion of a newly requested document. Full priority synchronization, cleanup, and remote workflow dispatch belong to `readwise-priority-sync`; do not duplicate or reimplement their score/tag logic here.
+Read [`../readwise-reference.md`](../readwise-reference.md) in the repository checkout. When installed separately, locate the repository through the current valid worktree, `TOP_ARTICLES_REPO`, or `/mnt/c/dev/top-articles`, then read `<repository>/skills/readwise-reference.md`; do not assume the relative link exists. This skill is limited to explicit manual reprioritization and the separately documented deterministic insertion of a newly requested document. Full priority synchronization, cleanup, and remote workflow dispatch belong to `readwise-priority-sync`; do not duplicate or reimplement their score/tag logic here.
 
 Gebruik altijd de prioriteitsmotor uit `top-articles`. Bereken nooit zelf scores, tiers, posities of toplijsten in deze skill.
 

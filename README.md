@@ -116,6 +116,34 @@ tien seconden tussen herstelrondes. `--cleanup-all` bij planvorming en verificat
 verificatie. `scripts/priority-cli.ts` verzorgt argumenten, bestandsadapters en presentatie.
 De gedeelde batchuitvoering blijft ook in gebruik bij archive-cleanup.
 
+## Readwise-skills versioneren en controleren
+
+De repository bevat de versioneerbare bron van de negen bestaande Readwise-skills plus
+`readwise-priority-sync` onder `skills/`. Gedeelde taxonomie, reeksen, schemas, API-contracten en
+leesvoorkeuren staan in [`skills/readwise-reference.md`](skills/readwise-reference.md); de skills
+dupliceren geen score-engine. De bron kan vanuit Top Articles of vanuit de vault worden gevonden:
+
+```bash
+npm run skills:check
+npm run skills:check -- --repo /mnt/c/dev/top-articles --install-dir ~/.claude/skills --compare-installed
+npm run skills:sync -- --repo /mnt/c/dev/top-articles --install-dir ~/.claude/skills --dry-run
+```
+
+`skills:check` is read-only. De standaardcheck vergelijkt geen machineafhankelijke globale
+installatie; voeg `--compare-installed` toe voor een optionele driftmelding. De checker valideert
+skill-frontmatter, `agents/openai.yaml`, centrale contractankers en bekende Reader-commando's.
+Tekstcontrole claimt geen volledige semantische zekerheid; scenario's voor gedrag blijven aparte
+tests en review.
+
+`skills:sync --dry-run` toont per beheerd bestand de voorgestelde wijziging en schrijft niets.
+Een normale sync schrijft alleen de tien beheerde skillmappen en een baseline per beheerd bestand;
+andere skills en onbekende lokale bestanden blijven behouden. Een bestand dat sinds de vorige
+sync lokaal is gewijzigd, of al bestaat bij een eerste installatie, is een per-bestandconflict.
+In een interactieve terminal vraagt sync per conflict. Zonder terminal blijft het bestand staan en
+wordt het conflict gerapporteerd; `--yes` is de expliciete keuze om alle conflicten van die run te
+vervangen. Gebruik `--repo` of `TOP_ARTICLES_REPO` wanneer je vanuit een andere checkout of de
+Obsidian-vault werkt.
+
 ## Leesfeedback
 
 Voeg onderaan de bestaande documentnotitie in Reader een korte alinea toe:

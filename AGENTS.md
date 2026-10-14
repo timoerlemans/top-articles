@@ -48,10 +48,21 @@ npm run priority:topic-report                   # read-only v7→v8-topic-impact
 npm run priority:plan     # compileert eerst; proefrun: berekent benodigde Readwise-tagwijzigingen, schrijft .tmp/readwise/priority-plan.json
 npm run priority:apply    # compileert eerst; past een eerder gegenereerd plan toe na expliciete --confirm <plan-hash>
 npm run priority:verify   # compileert eerst; controleert of Readwise-tags al matchen met de berekende reeksen (geen wijzigingen)
+npm run skills:check      # read-only controle van repository-skills en canonieke contracten
+npm run skills:sync -- --dry-run  # toont skillwijzigingen zonder installatie of baseline te wijzigen
+npm run skills:sync       # synchroniseert na expliciete conflictkeuzes naar ~/.claude/skills
 ```
 
 `npm run build` en `priority:*` vereisen een ingelogde `@readwise/cli` (`readwise login`, of in CI
 `readwise login-with-token "$READWISE_TOKEN"`).
+
+De versioneerbare Readwise-skillbron staat onder `skills/`. `skills/readwise-reference.md` verwijst
+naar de canonieke taxonomie, reeksen, schemas, API-contracten, README/AGENTS/CONTEXT en
+`config/readwise-reading-preferences.md`. `npm run skills:check` is read-only; de optionele
+vergelijking van de machine-installatie gebruikt `--compare-installed` en hoort niet automatisch
+bij `npm run check`. `npm run skills:sync -- --dry-run` schrijft geen files of baseline. Een normale
+sync beheert alleen de tien Readwise-skillmappen, bewaart overige lokale skills/files en weigert
+conflicterende lokale bestanden zonder interactieve bevestiging of `--yes`.
 
 Site bekijken: `index.html` direct openen in de browser, geen webserver nodig — `dist/src/app.js`
 moet dan wel al gecompileerd zijn (`npm run compile`, of al aanwezig via git, zie hierboven).

@@ -7,7 +7,7 @@ You are triaging documents in the user's Readwise Reader library, one at a time.
 
 ## Repository v2 contract
 
-Read [`../readwise-reference.md`](../readwise-reference.md) first. Use full-source evidence and targeted rereading when needed; older fixed-pass instructions below are not a completeness guarantee. Preserve personal notes and feedback, deduplicate exact highlights, apply the shared target-page/link gate, and report incomplete/error outcomes separately from successful triage. The standard unattended route sends podcasts and Tier 1 to Archive and all other successfully processed documents to Later; it does not archive Tier 2 merely because it is Tier 2.
+Read [`../readwise-reference.md`](../readwise-reference.md) first in the repository checkout. When installed separately, locate the repository through the current valid worktree, `TOP_ARTICLES_REPO`, or `/mnt/c/dev/top-articles`, then read `<repository>/skills/readwise-reference.md`; do not assume the relative link exists. Use full-source evidence and targeted rereading when needed; older fixed-pass instructions below are not a completeness guarantee. Preserve personal notes and feedback, deduplicate exact highlights, apply the shared target-page/link gate, and report incomplete/error outcomes separately from successful triage. The standard unattended route sends podcasts and Tier 1 to Archive and all other successfully processed documents to Later; it does not archive Tier 2 merely because it is Tier 2.
 
 **Direct output:** Voordat je ook maar één tool aanroept of vraag stelt, output precies deze regel: `Readwise triage starten...`
 

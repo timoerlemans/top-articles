@@ -7,7 +7,7 @@ description: "Hoofdstukgewijze studie van Readwise Reader-boeken met meerdere it
 
 ## Repository authority
 
-Read [`../readwise-reference.md`](../readwise-reference.md) first. Use full book evidence, exact HTML highlight passages, explicit requested iteration counts, and the vault fallback rules; do not move documents or overwrite personal notes without a separate explicit request.
+Read [`../readwise-reference.md`](../readwise-reference.md) first in the repository checkout. When this file is installed separately, locate the repository through the current valid worktree, `TOP_ARTICLES_REPO`, or `/mnt/c/dev/top-articles`, then read `<repository>/skills/readwise-reference.md`; do not assume the relative link exists. Use full book evidence, exact HTML highlight passages, explicit requested iteration counts, and the vault fallback rules; do not move documents or overwrite personal notes without a separate explicit request.
 
 Werk methodisch door een Readwise Reader-boek heen: eerst structuur bepalen, daarna hoofdstuk voor hoofdstuk highlights selecteren, en afsluiten met een literatuurnotitie met samenvattingen per hoofdstuk.
 

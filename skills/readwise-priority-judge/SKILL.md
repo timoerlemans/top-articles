@@ -7,7 +7,7 @@ description: Use when explicitly reviewing or reprioritizing Readwise documents 
 
 ## Repository authority
 
-Read [`../readwise-reference.md`](../readwise-reference.md), `README.md`, and `config/readwise-reading-preferences.md` before preparing or reviewing evidence. Use the current v8 contracts and profile schema from the repository; stored automatic fallbacks are operational defaults, not semantic reviews.
+Read [`../readwise-reference.md`](../readwise-reference.md), `README.md`, and `config/readwise-reading-preferences.md` before preparing or reviewing evidence in the repository checkout. When installed separately, locate the repository through the current valid worktree, `TOP_ARTICLES_REPO`, or `/mnt/c/dev/top-articles`, then read `<repository>/skills/readwise-reference.md`; do not assume the relative link exists. Use the current v8 contracts and profile schema from the repository; stored automatic fallbacks are operational defaults, not semantic reviews.
 
 Use this skill for an explicit semantic review of documents in the current Readwise `later` collection. Readwise enrichment, triage, and scheduled fallback creation provide evidence or operational defaults; they do not count as a semantic review.
 
