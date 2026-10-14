@@ -14787,6 +14787,34 @@
           "verdieping": 3
         }
       }
+    },
+    "01m4v2ys9hh1mpe9rdn4zamf25": {
+      "status": "accepted",
+      "confidence": "high",
+      "rubricVersion": "reading-profile-v1",
+      "sourceFingerprint": "41c4d5e7ca0cabba548aec9c86009fe854fb42268b8fdf04a943b5191b49bee7",
+      "evidenceFingerprint": "d69fad393073a5f0c9d9f8cf8aa28aa08a7e3b766671280ae80c33e27f57b78b",
+      "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
+      "judgedBy": "codex-reading-profile-review-2026-10-14-inbox",
+      "judgedAt": "2026-10-14T12:00:00Z",
+      "evidenceRefs": [
+        "content",
+        "summary",
+        "tags"
+      ],
+      "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
+      "traits": {
+        "effort": 2,
+        "emotionalWeight": 1,
+        "tone": "zakelijk",
+        "needFit": {
+          "ontspannen": 1,
+          "afleiding": 1,
+          "herkenning": 3,
+          "verkennen": 3,
+          "verdieping": 4
+        }
+      }
     }
   }
 }

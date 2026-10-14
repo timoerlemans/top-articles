@@ -90279,50 +90279,53 @@
     },
     "01m4v2ys9hh1mpe9rdn4zamf25": {
       "sourceFingerprint": "41c4d5e7ca0cabba548aec9c86009fe854fb42268b8fdf04a943b5191b49bee7",
-      "relevance": 1,
+      "evidenceFingerprint": "fb3faa3b5497763e34ae47760179b5dc138739fb5d4a4e50796d50f2d596b6cf",
+      "relevance": 4,
       "substance": 3,
-      "durability": 4,
+      "durability": 3,
       "usefulness": 4,
       "sequenceFit": {
         "video": 0,
         "boek": 0,
         "pdf": 0,
-        "lees": 0,
+        "lees": 2,
         "dutch": 0,
         "short": 1,
-        "short-dutch": 1,
+        "short-dutch": 0,
         "luchtig": 0,
         "luchtig-nederlands": 0,
-        "scrum": 0,
+        "scrum": 2,
         "software-development": 2,
-        "front-end-development": 0,
-        "social-studies": 0,
+        "front-end-development": 1,
+        "social-studies": 1,
         "adhd": 0,
-        "philosophy": 0
+        "philosophy": 1
       },
-      "confidence": "low",
-      "reasonCodes": [
-        "fallback-no-label",
-        "substance-signal",
-        "usefulness-signal",
-        "automated-fallback"
-      ],
       "topicRelevance": {
-        "scrum": 0,
+        "scrum": 2,
         "software-development": 4,
-        "front-end-development": 0,
-        "social-studies": 0,
+        "front-end-development": 2,
+        "social-studies": 1,
         "adhd": 0,
-        "philosophy": 0
+        "philosophy": 1
       },
-      "evidenceFingerprint": "fb3faa3b5497763e34ae47760179b5dc138739fb5d4a4e50796d50f2d596b6cf",
-      "status": "accepted",
-      "rubricVersion": "semantic-v1",
-      "evidenceRefs": [
-        "metadata"
+      "confidence": "high",
+      "reasonCodes": [
+        "semantic-review",
+        "independent-of-current-position",
+        "evidence:title-summary-notes",
+        "interest:software",
+        "interest:ai",
+        "clear-personal-or-professional-payoff",
+        "reusable-or-structural-insight"
       ],
-      "judgedBy": "automated-fallback-v1",
-      "judgedAt": "2026-10-13T19:23:14.125Z"
+      "status": "accepted",
+      "rubricVersion": "semantic-v2",
+      "evidenceRefs": [
+        ".tmp/readwise/priority-evidence.json#documents.01m4v2ys9hh1mpe9rdn4zamf25"
+      ],
+      "judgedBy": "codex-semantic-review-2026-10-14-inbox",
+      "judgedAt": "2026-10-14T12:00:00Z"
     },
     "01m4v2vm14nkaprqn3wfxns5v4": {
       "sourceFingerprint": "c1290fab2c1eb11daadf14a2ecef3f48e56099cf049783af88dcc2e60fc50579",
