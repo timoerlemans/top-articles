@@ -3,7 +3,6 @@ import { readdir, readFile } from "node:fs/promises";
 import { resolve } from "node:path";
 
 import {
-  automatedFallbackJudgment,
   buildPriorityEvidence,
   AUTOMATED_FALLBACK_JUDGER,
   validatePriorityJudgments,
@@ -13,6 +12,7 @@ import {
   type PriorityDocumentEvidence,
   type ContentJudgment,
 } from "./priority-judgments.js";
+import { automatedReaderFallbackJudgment } from "./reader-document-classification.js";
 import type { PriorityDocument } from "./priority-document.js";
 import { TOPIC_SEQUENCE_ORDER } from "./priority-sequences.js";
 import { fetchReadwiseDocuments } from "./readwise-documents.js";
@@ -330,7 +330,7 @@ export function ensureMissingFallbacks(
     report.top100 += 1;
     const judgment = items[doc.id];
     if (!judgment) {
-      items[doc.id] = automatedFallbackJudgment(doc, options.judgedAt);
+      items[doc.id] = automatedReaderFallbackJudgment(doc, options.judgedAt);
       report.added.push(doc.id);
       continue;
     }

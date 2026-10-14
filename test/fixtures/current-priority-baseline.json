@@ -1517,27 +1517,27 @@
         "tier": "midden",
         "components": {
           "kerninteresse": 8,
-          "relevantie": 20,
+          "relevantie": 10,
           "substantie": 24,
-          "duurzaamheid": 10,
-          "bruikbaarheid": 5,
+          "duurzaamheid": 15,
+          "bruikbaarheid": 10,
           "leeskans": 0,
           "nederlandse_taal": 0,
           "aftrek": 0
         },
         "rationale": {
           "relevantie": [
-            "inhoudelijke relevantie uit de high-confidence inhoudsbeoordeling.",
-            "Bewijs: writing, semantic-review."
+            "inhoudelijke relevantie uit de low-confidence inhoudsbeoordeling.",
+            "Bewijs: fallback-no-label, explicit-interest-tag, substance-signal."
           ],
           "substantie": [
-            "substantie uit de high-confidence inhoudsbeoordeling."
+            "substantie uit de low-confidence inhoudsbeoordeling."
           ],
           "duurzaamheid": [
-            "duurzaamheid uit de high-confidence inhoudsbeoordeling."
+            "duurzaamheid uit de low-confidence inhoudsbeoordeling."
           ],
           "bruikbaarheid": [
-            "bruikbaarheid uit de high-confidence inhoudsbeoordeling."
+            "bruikbaarheid uit de low-confidence inhoudsbeoordeling."
           ],
           "leeskans": [],
           "nederlandse_taal": [],
@@ -1547,7 +1547,7 @@
           ]
         },
         "judgmentSource": "fallback",
-        "judgmentConfidence": "high",
+        "judgmentConfidence": "low",
         "coreInterestMatches": [
           {
             "interest": "pkm",
@@ -1567,7 +1567,7 @@
         ],
         "sequenceScores": {
           "lees": {
-            "score": 61,
+            "score": 67,
             "tier": "midden",
             "mode": "global"
           }

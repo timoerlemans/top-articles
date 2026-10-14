@@ -6,9 +6,11 @@ import {
 import type { CoreInterestMatch } from "./core-interest-priority.js";
 import {
   AUTOMATED_FALLBACK_JUDGER,
-  automatedFallbackJudgment,
+  buildPriorityEvidence,
   contentTagsFor,
+  fallbackJudgment,
   judgmentFor,
+  judgmentSourceFingerprint,
   topicRelevanceFor,
 } from "./priority-judgments.js";
 import type { ContentJudgment, JudgmentSource, PriorityJudgmentsConfig, TopicRelevanceResolution } from "./priority-judgments.js";
@@ -47,11 +49,10 @@ export function classifyReaderDocument(
   document: PriorityDocument,
   options: ReaderClassificationOptions = {},
 ): ReaderDocumentClassification {
+  const semanticDocument = semanticDocumentFor(document);
   const decodedTags = decodeTagNames(document.tags);
   const interestTags = canonicalInterestTags(decodedTags);
-  const semanticTags = [...new Set([...decodedTags, ...interestTags])];
-  const semanticDocument: PriorityDocument = { ...document, tags: semanticTags };
-  const resolution = judgmentFor(document, options.judgments ?? {});
+  const resolution = resolveCurrentJudgment(document, semanticDocument, options.judgments ?? {});
   const topicRelevance = Object.fromEntries(
     TOPIC_SEQUENCE_ORDER.map((topic) => [topic, topicRelevanceFor(semanticDocument, topic, resolution.judgment)]),
   ) as Record<TopicSequence, TopicRelevanceResolution>;
@@ -76,7 +77,23 @@ export function classifyReaderDocument(
 }
 
 export function automatedReaderFallbackJudgment(document: PriorityDocument, judgedAt?: string): ContentJudgment {
-  return automatedFallbackJudgment(document, judgedAt);
+  const semanticDocument = semanticDocumentFor(document);
+  const evidence = buildPriorityEvidence(document, []);
+  const fallback = currentFallbackJudgment(document, semanticDocument);
+  const topicRelevance = Object.fromEntries(
+    TOPIC_SEQUENCE_ORDER.map((topic) => [topic, topicRelevanceFor(semanticDocument, topic).relevance]),
+  ) as Partial<Record<TopicSequence, ContentJudgment["relevance"]>>;
+  return {
+    ...fallback,
+    topicRelevance,
+    evidenceFingerprint: evidence.evidenceFingerprint,
+    reasonCodes: [...new Set([...fallback.reasonCodes, "automated-fallback"])],
+    status: "accepted",
+    rubricVersion: "semantic-v1",
+    evidenceRefs: ["metadata"],
+    judgedBy: AUTOMATED_FALLBACK_JUDGER,
+    judgedAt: judgedAt ?? new Date().toISOString(),
+  };
 }
 
 export function readerClassificationFingerprintInput(): Record<string, unknown> {
@@ -122,6 +139,27 @@ function decodeTagNames(tags: unknown): string[] {
     const key = tag.key;
     return typeof key === "string" ? [normalize(key)] : [];
   }).filter(Boolean))];
+}
+
+function semanticDocumentFor(document: PriorityDocument): PriorityDocument {
+  const decodedTags = decodeTagNames(document.tags);
+  const interestTags = canonicalInterestTags(decodedTags);
+  return { ...document, tags: [...new Set([...decodedTags, ...interestTags])] };
+}
+
+function currentFallbackJudgment(document: PriorityDocument, semanticDocument: PriorityDocument): ContentJudgment {
+  return { ...fallbackJudgment(semanticDocument), sourceFingerprint: judgmentSourceFingerprint(document) };
+}
+
+function resolveCurrentJudgment(
+  document: PriorityDocument,
+  semanticDocument: PriorityDocument,
+  judgments: PriorityJudgmentsConfig | Record<string, ContentJudgment>,
+): { judgment: ContentJudgment; source: JudgmentSource } {
+  const resolution = judgmentFor(document, judgments);
+  return resolution.source === "label"
+    ? resolution
+    : { judgment: currentFallbackJudgment(document, semanticDocument), source: "fallback" };
 }
 
 function languageCode(value: unknown): "nl" | "en" | "fr" | null {

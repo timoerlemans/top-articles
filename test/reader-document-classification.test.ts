@@ -2,9 +2,11 @@ import assert from "node:assert/strict";
 import test from "node:test";
 
 import {
+  automatedReaderFallbackJudgment,
   classifyReaderDocument,
   readerClassificationFingerprintInput,
 } from "../scripts/lib/reader-document-classification.js";
+import { buildPriorityEvidence, judgmentSourceFingerprint } from "../scripts/lib/priority-judgments.js";
 import type { PriorityDocument } from "../scripts/lib/priority-document.js";
 
 function document(tags: unknown, overrides: Partial<PriorityDocument> = {}): PriorityDocument {
@@ -101,6 +103,42 @@ test("onbekende en opaque tags blijven buiten semantische claims zonder invoermu
   assert.ok(result.interestTags.includes("custom"));
   assert.ok(result.sequences.includes("scrum"));
   assert.deepEqual(tags, original);
+});
+
+test("accepted semantic judgments remain authoritative, while operational fallbacks are recomputed", () => {
+  const source = document(["team collaboration"]);
+  const generated = automatedReaderFallbackJudgment(source, "2026-10-14T00:00:00.000Z");
+  const sourceEvidence = buildPriorityEvidence(source);
+
+  assert.equal(generated.judgedBy, "automated-fallback-v1");
+  assert.equal(generated.confidence, "low");
+  assert.equal(generated.sourceFingerprint, judgmentSourceFingerprint(source));
+  assert.equal(generated.evidenceFingerprint, sourceEvidence.evidenceFingerprint);
+  assert.equal(generated.topicRelevance?.["social-studies"], 4);
+
+  const currentFallback = classifyReaderDocument(source, { judgments: { [source.id ?? ""]: generated } });
+  assert.equal(currentFallback.judgmentSource, "fallback");
+  assert.equal(currentFallback.topicRelevance["social-studies"]?.relevance, 4);
+
+  const accepted = { ...generated, judgedBy: "semantic-reviewer", confidence: "high" as const, topicRelevance: { "social-studies": 0 as const } };
+  const labeled = classifyReaderDocument(source, { judgments: { [source.id ?? ""]: accepted } });
+  assert.equal(labeled.judgmentSource, "label");
+  assert.equal(labeled.topicRelevance["social-studies"]?.relevance, 0);
+});
+
+test("missing, stale, draft, and rejected judgments use the same current fallback", () => {
+  const source = document(["team collaboration"]);
+  const generated = automatedReaderFallbackJudgment(source, "2026-10-14T00:00:00.000Z");
+  for (const judgment of [
+    { ...generated, sourceFingerprint: "0".repeat(64) },
+    { ...generated, status: "draft" as const },
+    { ...generated, status: "rejected" as const },
+  ]) {
+    const result = classifyReaderDocument(source, { judgments: { [source.id ?? ""]: judgment } });
+    assert.equal(result.judgmentSource, "fallback");
+    assert.equal(result.topicRelevance["social-studies"]?.relevance, 4);
+  }
+  assert.equal(classifyReaderDocument(source).topicRelevance["social-studies"]?.relevance, 4);
 });
 
 test("classification policy input is versioned and serializable", () => {
