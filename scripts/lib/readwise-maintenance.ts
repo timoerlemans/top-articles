@@ -58,6 +58,14 @@ function stageReport(
   };
 }
 
+function failureResult(error: unknown, summary: Record<string, number>): MaintenanceStageResult {
+  return {
+    ok: false,
+    summary,
+    message: error instanceof Error ? error.message : String(error),
+  };
+}
+
 function assertStagePlan(plan: MaintenanceStagePlan, expected: MaintenanceStageName): void {
   if (plan.stage !== expected || plan.planHash.length === 0) {
     throw new Error(`Ongeldig maintenance-plan voor stap ${expected}`);
@@ -92,14 +100,24 @@ export function createMaintenanceRoute(
       }
       const shouldRun = current.mutations || current.run === true;
       if (shouldRun) {
-        const result = await stages[stage].apply(current);
+        let result: MaintenanceStageResult;
+        try {
+          result = await stages[stage].apply(current);
+        } catch (error: unknown) {
+          result = failureResult(error, current.summary);
+        }
         if (!result.ok) {
           report.status = "failed";
           report.stages.push(stageReport(current, "failed", result));
           return report;
         }
       }
-      const verified = await stages[stage].verify(current);
+      let verified: MaintenanceStageResult;
+      try {
+        verified = await stages[stage].verify(current);
+      } catch (error: unknown) {
+        verified = failureResult(error, current.summary);
+      }
       if (!verified.ok) {
         report.status = "failed";
         report.stages.push(stageReport(current, "failed", verified));
@@ -116,7 +134,12 @@ export function createMaintenanceRoute(
     for (const stage of MAINTENANCE_STAGE_ORDER) {
       const current = await stages[stage].plan();
       assertStagePlan(current, stage);
-      const result = await stages[stage].verify(current);
+      let result: MaintenanceStageResult;
+      try {
+        result = await stages[stage].verify(current);
+      } catch (error: unknown) {
+        result = failureResult(error, current.summary);
+      }
       if (!result.ok) {
         report.status = "failed";
         report.stages.push(stageReport(current, "failed", result));

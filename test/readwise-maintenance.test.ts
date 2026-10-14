@@ -101,3 +101,19 @@ test("maintenance runs an idempotent final build without a Reader mutation confi
   assert.deepEqual(calls.slice(-2), ["build:apply:build-hash", "build:verify:build-hash"]);
   assert.equal(report.stages.at(-1)?.status, "verified");
 });
+
+test("maintenance reports thrown stage failures and does not continue downstream", async () => {
+  const calls: string[] = [];
+  const stages = stageMap((stage) => fakeStage(stage, [stagePlan(stage, `${stage}-hash`)], calls));
+  stages.priority = {
+    plan: () => Promise.resolve(stagePlan("priority", "priority-hash")),
+    apply: () => Promise.reject(new Error("bulk endpoint down")),
+    verify: () => Promise.resolve({ ok: true, summary: { verified: 1 } }),
+  };
+
+  const report = await createMaintenanceRoute(stages).apply({ authors: "authors-hash", priority: "priority-hash" });
+
+  assert.equal(report.status, "failed");
+  assert.equal(report.stages.at(-1)?.message, "bulk endpoint down");
+  assert.ok(!calls.some((call) => call.startsWith("archive:")));
+});

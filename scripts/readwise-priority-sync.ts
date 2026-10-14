@@ -106,11 +106,14 @@ async function readJsonIfExists(path: string): Promise<unknown> {
   }
 }
 
-async function readTagJournal(path: string): Promise<PriorityJournal> {
+async function readTagJournal(path: string, planHash: string): Promise<PriorityJournal> {
   const value = await readJsonIfExists(path);
-  if (value === null) { return { completed: [], failures: [] }; }
+  if (value === null) { return { planHash, completed: [], failures: [] }; }
   if (!value || typeof value !== "object" || Array.isArray(value) || !Array.isArray((value as { completed?: unknown }).completed)) {
     throw new Error(`Ongeldig tagjournal: ${path}`);
+  }
+  if ((value as { planHash?: unknown }).planHash !== planHash) {
+    return { planHash, completed: [], failures: [] };
   }
   return value as PriorityJournal;
 }
@@ -218,7 +221,7 @@ function authorStage(): MaintenanceStageAdapter {
       }));
       const updates = buildDocumentTagUpdates(value.operations, currentTags);
       const journalPath = AUTHOR_JOURNAL;
-      const journal = await readTagJournal(journalPath);
+      const journal = await readTagJournal(journalPath, value.planHash);
       const result = await applyPriorityDocumentUpdates({
         updates,
         journal,
