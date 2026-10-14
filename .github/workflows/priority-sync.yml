@@ -1,9 +1,16 @@
-name: Synchroniseer Readwise-leesvolgorde
+name: Synchroniseer Readwise-prioriteit
+
+run-name: Readwise maintenance ${{ inputs.request_id || 'scheduled' }}
 
 on:
   schedule:
     - cron: "0 4 * * *" # dagelijks om 04:00 UTC (~06:00 CEST, ~05:00 CET — cron kent geen DST)
-  workflow_dispatch: {}
+  workflow_dispatch:
+    inputs:
+      request_id:
+        description: "Unieke ID voor expliciete dispatch en run-correlatie"
+        required: true
+        type: string
 
 permissions:
   contents: write
@@ -58,22 +65,37 @@ jobs:
           done
           exit 1
 
-      - name: Genereer prioriteitsplan
-        run: npm run priority:plan -- --output .tmp/readwise/priority-plan.json
+      - name: Maak maintenance-manifest
+        run: npm run readwise:priority-sync -- plan --output .tmp/readwise/maintenance-plan.json
 
-      - name: Pas plan toe
+      - name: Voer auteurstags en priority-sync uit
         run: |
-          PLAN_HASH=$(jq -r '.planHash' .tmp/readwise/priority-plan.json)
-          npm run priority:apply -- --plan .tmp/readwise/priority-plan.json --confirm "$PLAN_HASH"
-
-      - name: Verifieer synchronisatie
-        run: npm run priority:verify
+          set -euo pipefail
+          for attempt in 1 2 3 4 5; do
+            confirmations=$(jq -r '[.stages[] | select(.mutations == true and (.confirmationRequired // true) == true) | "\(.stage)=\(.planHash)"] | join(",")' .tmp/readwise/maintenance-plan.json)
+            if [ -n "$confirmations" ]; then
+              npm run readwise:priority-sync -- apply --through priority --plan .tmp/readwise/maintenance-plan.json --confirm "$confirmations" --report .tmp/readwise/maintenance-report.json
+            else
+              npm run readwise:priority-sync -- apply --through priority --plan .tmp/readwise/maintenance-plan.json --report .tmp/readwise/maintenance-report.json
+            fi
+            status=$(jq -r '.status' .tmp/readwise/maintenance-report.json)
+            if [ "$status" = "verified" ]; then
+              exit 0
+            fi
+            if [ "$status" != "awaiting-confirmation" ]; then
+              echo "Maintenance stopte met status: $status" >&2
+              exit 1
+            fi
+            echo "Maintenance werd opnieuw gepland na een upstream-mutatie (ronde $attempt)."
+          done
+          echo "Maintenance vereiste meer dan vijf replanningrondes." >&2
+          exit 1
 
       - name: Schrijf samenvatting
         if: always()
         run: |
           {
-            echo "### Readwise-leesvolgorde synchronisatie"
+            echo "### Readwise-prioriteit synchronisatie"
             if [ -f .tmp/readwise/priority-judge-audit.json ]; then
               jq -r '"- Fallback-documenten: \(.top100)\n- Nieuw: \((.added // []) | length)\n- Bestaand: \((.existing // []) | length)\n- Bestaande operationele fallback: \((.fallback // []) | length)\n- Stale: \((.stale // []) | length)\n- Draft: \((.draft // []) | length)\n- Rejected: \((.rejected // []) | length)"' .tmp/readwise/priority-judge-audit.json
             fi
@@ -96,11 +118,25 @@ jobs:
             fi
           } >> "$GITHUB_STEP_SUMMARY"
 
-      - name: Bewaar plan en journal bij falen
+      - name: Bewaar chain-context
+        if: always()
+        run: |
+          mkdir -p .tmp/readwise
+          jq -n \
+            --arg workflow "${{ github.workflow }}" \
+            --arg runId "${{ github.run_id }}" \
+            --arg branch "${{ github.ref_name }}" \
+            --arg initialSha "${{ github.sha }}" \
+            --arg finalSha "$(git rev-parse HEAD)" \
+            --arg status "${{ job.status }}" \
+            '{version: 1, workflow: $workflow, runId: $runId, parentRunId: null, branch: $branch, initialSha: $initialSha, finalSha: $finalSha, status: $status}' \
+            > .tmp/readwise/maintenance-run.json
+
+      - name: Bewaar plan, journal en chain-context bij falen
         if: always()
         uses: actions/upload-artifact@v4
         with:
-          name: priority-sync-debug-${{ github.run_id }}
+          name: readwise-maintenance-root-${{ github.run_id }}
           path: .tmp/readwise/*.json
           if-no-files-found: ignore
           retention-days: 14

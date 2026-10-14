@@ -1,13 +1,15 @@
-name: Archiveer niet-top-100 Readwise-leesdocumenten
+name: Archiveer niet-beschermde Readwise-Later-documenten
+
+run-name: Readwise archive na ${{ github.event.workflow_run.id }}
 
 on:
   workflow_run:
-    workflows: ["Refresh Readwise data"]
+    workflows: ["Synchroniseer Readwise-prioriteit"]
     types: [completed]
-  workflow_dispatch: {}
 
 permissions:
   contents: read
+  actions: read
 
 concurrency:
   group: readwise-maintenance
@@ -18,7 +20,29 @@ jobs:
     if: github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success'
     runs-on: ubuntu-latest
     steps:
+      - name: Download parent context
+        uses: actions/download-artifact@v4
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          run-id: ${{ github.event.workflow_run.id }}
+          name: readwise-maintenance-root-${{ github.event.workflow_run.id }}
+          path: .chain
+
+      - name: Resolve parent checkout
+        id: parent_context
+        run: |
+          set -euo pipefail
+          final_sha=$(jq -r '.finalSha' .chain/maintenance-run.json)
+          branch=$(jq -r '.branch' .chain/maintenance-run.json)
+          [[ "$final_sha" =~ ^[0-9a-f]{40}$ ]]
+          test -n "$branch"
+          echo "final_sha=$final_sha" >> "$GITHUB_OUTPUT"
+          echo "branch=$branch" >> "$GITHUB_OUTPUT"
+
       - uses: actions/checkout@v4
+        with:
+          ref: ${{ steps.parent_context.outputs.final_sha }}
+          clean: false
 
       - uses: actions/setup-node@v4
         with:
@@ -38,50 +62,42 @@ jobs:
       - name: Run checks
         run: npm run check
 
-      - name: Maak lees-archiveplan
-        run: npm run archive:lees:plan -- --output .tmp/readwise/archive-lees-plan.json
+      - name: Maak algemeen archiveplan
+        run: npm run archive:plan -- --output .tmp/readwise/archive-plan.json
 
-      - name: Pas lees-archiveplan toe
+      - name: Pas algemeen archiveplan toe
         run: |
-          PLAN_HASH=$(jq -r '.planHash' .tmp/readwise/archive-lees-plan.json)
-          npm run archive:lees:apply -- --plan .tmp/readwise/archive-lees-plan.json --confirm "$PLAN_HASH"
+          PLAN_HASH=$(jq -r '.planHash' .tmp/readwise/archive-plan.json)
+          npm run archive:apply -- --plan .tmp/readwise/archive-plan.json --confirm "$PLAN_HASH"
 
-      - name: Verifieer lees-archivering
-        run: npm run archive:lees:verify -- --plan .tmp/readwise/archive-lees-plan.json
+      - name: Verifieer algemene archivering
+        run: npm run archive:verify -- --plan .tmp/readwise/archive-plan.json
 
       - name: Schrijf samenvatting
         if: always()
         run: |
           {
-            echo "### Readwise lees-archivering"
-            if [ -f .tmp/readwise/archive-lees-plan.json ]; then
-              jq -r '"- Later-documenten: \(.summary.documents)\n- Met lees-tag: \(.summary.leesTagged)\n- Beschermd: \(.summary.protected)\n- Kandidaten: \(.summary.candidates)\n- Uitgesloten: \(.summary.excluded)\n- Planhash: `\(.planHash)`"' .tmp/readwise/archive-lees-plan.json
+            echo "### Readwise algemene archivering"
+            if [ -f .tmp/readwise/archive-plan.json ]; then
+              jq -r '"- Later-documenten: \(.summary.documents)\n- Beschermd: \(.summary.protected)\n- Kandidaten: \(.summary.candidates)\n- Planhash: `\(.planHash)`"' .tmp/readwise/archive-plan.json
             fi
           } >> "$GITHUB_STEP_SUMMARY"
 
-      - name: Log gearchiveerde leesdocumenten
+      - name: Log gearchiveerde documenten
         if: always()
         run: |
-          plan=.tmp/readwise/archive-lees-plan.json
-          journal=.tmp/readwise/archive-lees-journal.json
+          journal=.tmp/readwise/archive-journal.json
 
           {
-            echo "### Gearchiveerde leesdocumenten"
-            if [ ! -f "$plan" ]; then
-              echo "Geen archiveplan beschikbaar."
-            elif [ ! -f "$journal" ]; then
+            echo "### Gearchiveerde documenten"
+            if [ ! -f "$journal" ]; then
               echo "Geen journal beschikbaar; er is geen succesvolle archivering vastgesteld."
             else
               archived_count=$(jq '.completed | length' "$journal")
               if [ "$archived_count" -eq 0 ]; then
                 echo "Geen documenten succesvol gearchiveerd."
               else
-                jq -r --slurpfile plan "$plan" '
-                  ($plan[0].candidates // []) as $candidates
-                  | .completed[] as $id
-                  | ($candidates[] | select(.id == $id)) as $candidate
-                  | "- \($candidate.title | @json) — `\($candidate.id)` — canonieke lees-tag aanwezig; niet beschermd door huidige of berekende top-100"
-                ' "$journal"
+                jq -r '.completed[] | "- `\(.)`"' "$journal"
               fi
               failure_count=$(jq '.failures | length' "$journal")
               if [ "$failure_count" -gt 0 ]; then
@@ -92,11 +108,25 @@ jobs:
             fi
           } | tee -a "$GITHUB_STEP_SUMMARY"
 
-      - name: Bewaar lees-archiveplan en journal bij falen
+      - name: Bewaar chain-context
+        if: always()
+        run: |
+          jq -n \
+            --arg workflow "${{ github.workflow }}" \
+            --arg runId "${{ github.run_id }}" \
+            --arg parentRunId "${{ github.event.workflow_run.id }}" \
+            --arg branch "${{ steps.parent_context.outputs.branch }}" \
+            --arg initialSha "${{ github.event.workflow_run.head_sha }}" \
+            --arg finalSha "$(git rev-parse HEAD)" \
+            --arg status "${{ job.status }}" \
+            '{version: 1, workflow: $workflow, runId: $runId, parentRunId: $parentRunId, branch: $branch, initialSha: $initialSha, finalSha: $finalSha, status: $status}' \
+            > .tmp/readwise/maintenance-run.json
+
+      - name: Bewaar archiveplan, journal en chain-context bij falen
         if: always()
         uses: actions/upload-artifact@v4
         with:
-          name: archive-lees-${{ github.run_id }}
-          path: .tmp/readwise/archive-lees-*.json
+          name: readwise-maintenance-archive-${{ github.run_id }}
+          path: .tmp/readwise/*.json
           if-no-files-found: ignore
           retention-days: 14
