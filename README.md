@@ -282,6 +282,15 @@ weinig energie en Even iets anders en geeft rustige, warme of speelse stukken
 voorrang. Rustig weekend biedt 30 minuten, veel energie en Iets om over na te denken,
 met de bestaande rangorde. Geen van deze situaties neemt een stemming aan.
 
+In de wachtkamer begint met 10 minuten, gemiddelde energie en Even iets anders;
+Onderweg in het ov met 20 minuten, gemiddelde energie en Een frisse invalshoek;
+Korte pauze tussendoor met 5 minuten, weinig energie en Even iets anders. Alle drie
+vereisen beoordeelde onderbreekbaarheid van minimaal 3, voor iedere gang. Die staat
+los van lengte: een lang stuk kan goed hervatbaar zijn en een kort betoog juist niet.
+Behoeftefit blijft leidend, gevolgd door hogere onderbreekbaarheid en de bestaande
+stemming/prioriteitsvolgorde. Aanpassen verruimt deze eis niet; Zelf samenstellen
+verwijdert haar expliciet. Ook de wachtkamer neemt geen stemming aan.
+
 Leesprofielen staan afzonderlijk in `config/readwise-reading-profiles.json`. De
 inbox-workflow onderhoudt ze naast de prioriteitsbeoordelingen. Voor een afzonderlijke
 read-only beoordeling van Later:

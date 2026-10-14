@@ -22,6 +22,12 @@ export const READING_SITUATIONS = [
     maximumActivation: null, minimumInterruptibility: null, preferredTones: ["rustig", "warm", "speels"] },
   { id: "weekend", label: "Rustig weekend", description: "Ruimte voor reflectie en inhoudelijke verdieping.", budget: 30, energy: "veel", need: "verdieping",
     maximumActivation: null, minimumInterruptibility: null, preferredTones: [] },
+  { id: "waiting-room", label: "In de wachtkamer", description: "Gemakkelijk pauzeren wanneer je aan de beurt bent.", budget: 10, energy: "gemiddeld", need: "afleiding",
+    maximumActivation: null, minimumInterruptibility: 3, preferredTones: [] },
+  { id: "public-transport", label: "Onderweg in het ov", description: "Nieuwe perspectieven die je gemakkelijk kunt hervatten.", budget: 20, energy: "gemiddeld", need: "verkennen",
+    maximumActivation: null, minimumInterruptibility: 3, preferredTones: [] },
+  { id: "short-break", label: "Korte pauze tussendoor", description: "Een klein leesmoment dat tegen onderbrekingen kan.", budget: 5, energy: "weinig", need: "afleiding",
+    maximumActivation: null, minimumInterruptibility: 3, preferredTones: [] },
 ] as const satisfies readonly SituationDefinition[];
 export type SituationId = typeof READING_SITUATIONS[number]["id"];
 export function isSituationId(value: unknown): value is SituationId { return READING_SITUATIONS.some(situation => situation.id === value); }

@@ -522,3 +522,107 @@ test("daily situation switches after replace/read preserve progress and reject s
     }
   });
 });
+
+const interruptedDefaults = [
+  ["In de wachtkamer", "10 min", "Gemiddeld", "Even iets anders"],
+  ["Onderweg in het ov", "20 min", "Gemiddeld", "Een frisse invalshoek"],
+  ["Korte pauze tussendoor", "5 min", "Weinig", "Even iets anders"],
+] as const;
+for (const [situation, budget, energy, need] of interruptedDefaults) {
+  test(`${situation} applies complete defaults without inferring an anxious mood`, () => {
+    withDom((root) => {
+      const { data, priority } = fixture(); mountReadingMenu(root as unknown as HTMLElement, data, priority);
+      choose(root, "Gespannen"); choose(root, situation);
+      for (const label of [situation, budget, energy, need, "Geen voorkeur"]) {
+        assert.equal(byText(root, "button", label)?.getAttribute("aria-pressed"), "true");
+      }
+      assert.ok(byClass(root, "reading-settings-summary")[0]?.textContent.includes(situation));
+      assert.equal(byClass(root, "reading-course-title")[0]?.textContent, "Artikel a");
+    });
+  });
+}
+
+test("public transport admits a longer resumable main and excludes a short continuous argument", () => {
+  withDom((root) => {
+    const { data, priority } = fixture([makeArticle("continuous", 1), makeArticle("long", 12), makeArticle("short", 2)], {
+      continuous: { ...traits, interruptibility: 2 }, long: { ...traits, interruptibility: 4, effort: 2 }, short: { ...traits, interruptibility: 3 },
+    });
+    mountReadingMenu(root as unknown as HTMLElement, data, priority); choose(root, "Onderweg in het ov");
+    assert.deepEqual(byClass(root, "reading-course-title").map(el => el.textContent), ["Artikel short", "Artikel long"]);
+    assert.ok(byClass(root, "reading-course-card")[1]?.textContent.includes("Hoofdgerecht"));
+    assert.equal(byClass(root, "reading-course-time").reduce((sum, el) => sum + Number.parseFloat(el.textContent), 0), 14);
+    choose(root, "10 min");
+    assert.deepEqual(byClass(root, "reading-course-title").map(el => el.textContent), ["Artikel short"]);
+    choose(root, "30 min"); choose(root, "Veel");
+    assert.ok(byClass(root, "reading-course-title").every(el => el.textContent !== "Artikel continuous"));
+    assert.equal(byText(root, "button", "Onderweg in het ov")?.getAttribute("aria-pressed"), "true");
+  });
+});
+
+test("equal settings produce different eligibility and interruptibility outranks mood and priority", () => {
+  withDom((root) => {
+    const { data, priority } = fixture([makeArticle("continuous", 5), makeArticle("good", 5), makeArticle("best", 5)], {
+      continuous: { ...traits, interruptibility: 2 }, good: { ...traits, interruptibility: 3 }, best: { ...traits, interruptibility: 4, tone: "zakelijk" },
+    });
+    mountReadingMenu(root as unknown as HTMLElement, data, priority);
+    choose(root, "In bed voor het slapen"); choose(root, "Gemiddeld"); choose(root, "Even iets anders");
+    assert.equal(byClass(root, "reading-course-title")[0]?.textContent, "Artikel continuous");
+    choose(root, "In de wachtkamer"); choose(root, "Rustig");
+    assert.equal(byClass(root, "reading-course-title")[0]?.textContent, "Artikel best");
+    choose(root, "Vervang voorstel");
+    assert.equal(byClass(root, "reading-course-title")[0]?.textContent, "Artikel good");
+    choose(root, "Vervang voorstel");
+    assert.equal(byClass(root, "reading-course-card").length, 0);
+  });
+});
+
+test("need fit precedes interruptibility among eligible articles", () => {
+  withDom((root) => {
+    const { data, priority } = fixture([makeArticle("need-first", 5), makeArticle("interruptible", 5)], {
+      "need-first": { ...traits, interruptibility: 3, needFit: { ...traits.needFit, afleiding: 4 } }, interruptible: { ...traits, interruptibility: 4 },
+    });
+    mountReadingMenu(root as unknown as HTMLElement, data, priority); choose(root, "In de wachtkamer");
+    assert.equal(byClass(root, "reading-course-title")[0]?.textContent, "Artikel need-first");
+  });
+});
+
+test("empty interruption supply stays strict through adjustments and custom explicitly removes the requirement", () => {
+  withDom((root, local) => {
+    const { data, priority } = fixture([makeArticle("continuous", 2)], { continuous: { ...traits, interruptibility: 2 } });
+    mountReadingMenu(root as unknown as HTMLElement, data, priority); choose(root, "In de wachtkamer");
+    assert.equal(byClass(root, "reading-course-card").length, 0);
+    choose(root, "Pas je leesmoment aan");
+    assert.equal(byClass(root, "reading-adjustments")[0]?.open, true);
+    choose(root, "30 min"); choose(root, "Veel"); choose(root, "Nieuwsgierig");
+    assert.equal(byClass(root, "reading-course-card").length, 0);
+    choose(root, "Zelf samenstellen");
+    assert.equal(byClass(root, "reading-course-title")[0]?.textContent, "Artikel continuous");
+    assert.equal(byText(root, "button", "30 min")?.getAttribute("aria-pressed"), "true");
+    assert.deepEqual(historyIds(local), []);
+  });
+});
+
+test("interruptible switches preserve exclusions, confirmed time and course across smaller budgets", () => {
+  withDom((root, local) => {
+    const { data, priority } = fixture([makeArticle("a", 3), makeArticle("b", 5), makeArticle("c", 2), makeArticle("d", 2)]);
+    mountReadingMenu(root as unknown as HTMLElement, data, priority);
+    choose(root, "Vervang voorstel"); choose(root, "Gelezen, volgende gang");
+    choose(root, "Korte pauze tussendoor");
+    assert.ok(root.textContent.includes("2 min bevestigd gelezen"));
+    choose(root, "Onderweg in het ov");
+    const main = descendants(root).find(el => el.getAttribute("data-current-course") === "true"); assert.ok(main);
+    assert.ok(main.textContent.includes("Hoofdgerecht"));
+    assert.equal(byClass(main, "reading-course-title")[0]?.textContent, "Artikel b");
+    assert.ok(byClass(root, "reading-course-title").every(el => el.textContent !== "Artikel a"));
+    choose(root, "Gelezen, volgende gang");
+    choose(root, "Korte pauze tussendoor");
+    assert.equal(byClass(root, "reading-course-card").length, 0);
+    assert.ok(root.textContent.includes("7 min bevestigd gelezen"));
+    assert.ok(root.textContent.includes("Je gekozen leestijd is opgebruikt"));
+    choose(root, "In de wachtkamer");
+    const dessert = descendants(root).find(el => el.getAttribute("data-current-course") === "true"); assert.ok(dessert);
+    assert.ok(dessert.textContent.includes("Nagerecht"));
+    assert.equal(byClass(dessert, "reading-course-title")[0]?.textContent, "Artikel d");
+    assert.deepEqual(historyIds(local), ["c", "b"]);
+  });
+});
