@@ -1,5 +1,5 @@
 import { z } from "zod";
-import { buildPriorityTagPlan, tagNames, validatePriorityTagPlan } from "./priority-tag-plan.js";
+import { buildPriorityTagPlan, validatePriorityTagPlan } from "./priority-tag-plan.js";
 import type { PriorityTagPlan } from "./priority-tag-plan.js";
 import { applyPriorityDocumentUpdates } from "./priority-apply.js";
 import type { DocumentBatchResult, PriorityJournal, PriorityOperation } from "./priority-apply.js";
@@ -11,6 +11,7 @@ import type { ReadwiseDocument } from "./external-schemas.js";
 import type { Delay, ReadwiseExecutor } from "./readwise-request.js";
 import { validatePriorityJudgments } from "./priority-judgments.js";
 import { validateCoreInterestPriorityConfig } from "./core-interest-priority.js";
+import { completeReaderTagSet } from "./reader-tag-set.js";
 
 const LOCATIONS: readonly ReadwiseDocumentLocation[] = ["later", "new", "shortlist", "archive", "feed"];
 const overridesSchema = z.object({
@@ -55,14 +56,6 @@ function operationKey(operation: PriorityOperation): string {
   return JSON.stringify([operation.action, operation.documentId, operation.tag]);
 }
 
-/** A full-set replacement is safe only when the decoder retained every supplied tag. */
-function completeTagNames(doc: ReadwiseDocument): string[] | null {
-  if (typeof doc.tags !== "object" || doc.tags === null) { return null; }
-  const names = tagNames(doc);
-  const supplied = Array.isArray(doc.tags) ? doc.tags.length : Object.keys(doc.tags).length;
-  return names.length === supplied ? names : null;
-}
-
 /**
  * Owns the confirmed priority-tag workflow. Transport/configuration/storage adapters vary;
  * callers do not compose freshness, journal recovery, tag preservation or repair themselves.
@@ -101,6 +94,9 @@ export function createPrioritySync({
   }
 
   async function bulkEditTags(batch: readonly DocumentTagUpdate[]): Promise<DocumentBatchResult[]> {
+    if (batch.some((update) => update.tags === null)) {
+      throw new Error("Bulk tagvervanging vereist een volledig bekende actuele tagset");
+    }
     const payload = batch.map((update) => ({ document_id: update.documentId, tags: update.tags }));
     const { stdout } = await mutate(["reader-bulk-edit-document-metadata", "--documents", JSON.stringify(payload), "--json"]);
     const { results } = bulkResultSchema.parse(JSON.parse(stdout));
@@ -155,7 +151,7 @@ export function createPrioritySync({
       journal.completed = journal.completed.filter((operation) => !pending.has(operationKey(operation)));
       const currentTags = new Map<string, string[]>();
       for (const doc of current.documents) {
-        const tags = completeTagNames(doc);
+        const tags = completeReaderTagSet(doc.tags);
         if (tags !== null) { currentTags.set(doc.id, tags); }
       }
       const updates = buildDocumentTagUpdates(current.plan.operations, currentTags);

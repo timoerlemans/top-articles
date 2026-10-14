@@ -20,7 +20,7 @@ import type { DocumentTagUpdate } from "./lib/priority-batch.js";
 import { createReadwiseRequester } from "./lib/readwise-request.js";
 import { fetchReadwiseDocuments } from "./lib/readwise-documents.js";
 import type { ReadwiseDocument } from "./lib/external-schemas.js";
-import { tagNames } from "./lib/priority-tag-plan.js";
+import { completeReaderTagSet } from "./lib/reader-tag-set.js";
 
 const execFileAsync = promisify(execFile);
 const DEFAULT_PLAN = ".tmp/readwise/archive-cleanup-plan.json";
@@ -105,7 +105,10 @@ function renderProgressBar(current: number, total: number, width = 30): void {
 }
 
 async function bulkEditTags(batch: readonly DocumentTagUpdate[]): Promise<DocumentBatchResult[]> {
-  const payload = batch.map((update) => ({ document_id: update.documentId, tags: update.tags ?? [] }));
+  if (batch.some((update) => update.tags === null)) {
+    throw new Error("Bulk tagvervanging vereist een volledig bekende actuele tagset");
+  }
+  const payload = batch.map((update) => ({ document_id: update.documentId, tags: update.tags }));
   const { stdout } = await runReadwiseMutation(["reader-bulk-edit-document-metadata", "--documents", JSON.stringify(payload), "--json"]);
   const { results } = bulkEditResultSchema.parse(JSON.parse(stdout));
   return results.map((result) => ({
@@ -146,7 +149,10 @@ async function applyCommand(): Promise<void> {
   const journalPath = option("--journal", DEFAULT_JOURNAL);
   if (!journalPath) {throw new Error("Journalpad ontbreekt");}
   const journal = await readJournal(journalPath, plan.planHash);
-  const currentTags = new Map(documents.map((doc) => [doc.id, tagNames(doc)]));
+  const currentTags = new Map(documents.flatMap((doc) => {
+    const tags = completeReaderTagSet(doc.tags);
+    return tags === null ? [] : [[doc.id, tags] as const];
+  }));
   const updates = buildDocumentTagUpdates(livePlan.operations, currentTags);
   console.log(`Uitvoeren: ${String(livePlan.operations.length)} tagverwijderingen op ${String(updates.length)} documenten via ~${String(Math.ceil(updates.length / BULK_EDIT_BATCH_SIZE))} bulk-calls.`);
   await applyPriorityDocumentUpdates({

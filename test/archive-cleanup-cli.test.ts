@@ -167,3 +167,38 @@ test("archive-cleanup-workflow gate apply en verify op het planaantal", async ()
   assert.match(workflow, /operations=\$\(jq -r '\.summary\.operations'/);
   assert.equal([...workflow.matchAll(/if: steps\.cleanup_plan\.outputs\.operations != '0'/g)].length, 2);
 });
+
+test("cleanup preserves opaque and personal tags when the live tag array is incomplete", async () => {
+  await withReadwisePages([
+    {
+      results: [{
+        id: "one",
+        location: "archive",
+        tags: [{ name: "lees-0001" }, { opaque: true }, "personal"],
+      }],
+    },
+    {
+      results: [{
+        id: "one",
+        location: "archive",
+        tags: [{ name: "lees-0001" }, { opaque: true }, "personal"],
+      }],
+    },
+  ], async ({ environment, planPath, callLogPath }) => {
+    const result = await runCleanupCli(["plan", "--output", planPath], environment);
+    assert.equal(result.code, 0, result.stderr);
+    const plan: unknown = JSON.parse(await readFile(planPath, "utf8"));
+    assert.ok(validateArchiveCleanupPlan(plan));
+    const planHash = plan.planHash;
+    const applyResult = await runCleanupCli([
+      "apply",
+      "--plan", planPath,
+      "--confirm", planHash,
+      "--journal", join(planPath, "..", "journal.json"),
+    ], environment);
+    assert.equal(applyResult.code, 0, applyResult.stderr);
+    const calls = await readReadwiseCalls(callLogPath);
+    assert.ok(calls.some((call) => call.startsWith("reader-remove-tags-from-document")));
+    assert.ok(!calls.some((call) => call.startsWith("reader-bulk-edit-document-metadata")));
+  });
+});
