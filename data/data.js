@@ -1,45 +1,135 @@
 // Automatisch gegenereerd door scripts/build-data.ts — niet handmatig bewerken.
 window.TOP_ARTICLES = {
   "readingMenu": {
-    "version": 1,
+    "version": 2,
     "scope": "later",
     "complete": true,
     "profiles": {
-      "01m4wch02hnyn69hdjxxbc2a41": {
-        "effort": 1,
-        "emotionalWeight": 1,
+      "01m4wzexh7q3xmd7135d13ndac": {
+        "effort": 3,
+        "emotionalWeight": 2,
         "tone": "warm",
         "needFit": {
-          "ontspannen": 3,
-          "afleiding": 2,
-          "herkenning": 2,
-          "verkennen": 4,
+          "ontspannen": 1,
+          "afleiding": 1,
+          "herkenning": 4,
+          "verkennen": 3,
           "verdieping": 3
-        }
+        },
+        "activation": 2,
+        "interruptibility": 3
       },
-      "01m4w6vk0cdjacz6ssf5nwtdv5": {
-        "effort": 2,
-        "emotionalWeight": 1,
+      "01m4wvdn8tfazr9zhp2e6mshjy": {
+        "effort": 4,
+        "emotionalWeight": 3,
+        "tone": "zakelijk",
+        "needFit": {
+          "ontspannen": 1,
+          "afleiding": 1,
+          "herkenning": 3,
+          "verkennen": 4,
+          "verdieping": 4
+        },
+        "activation": 4,
+        "interruptibility": 2
+      },
+      "01m4wvdn4yddq2vtkj8tmc74xk": {
+        "effort": 4,
+        "emotionalWeight": 4,
         "tone": "intens",
         "needFit": {
           "ontspannen": 1,
           "afleiding": 1,
-          "herkenning": 2,
-          "verkennen": 3,
+          "herkenning": 3,
+          "verkennen": 4,
           "verdieping": 4
-        }
+        },
+        "activation": 4,
+        "interruptibility": 2
       },
-      "01m4vhf1shc9axz4ck68axr6he": {
-        "effort": 2,
-        "emotionalWeight": 1,
-        "tone": "speels",
+      "01m4wvdmz27qsqbzppbm48jshb": {
+        "effort": 3,
+        "emotionalWeight": 4,
+        "tone": "warm",
         "needFit": {
-          "ontspannen": 3,
-          "afleiding": 3,
-          "herkenning": 2,
+          "ontspannen": 1,
+          "afleiding": 1,
+          "herkenning": 4,
+          "verkennen": 4,
+          "verdieping": 4
+        },
+        "activation": 3,
+        "interruptibility": 2
+      },
+      "01m4wvdmjnhzez60pfdm0btw08": {
+        "effort": 4,
+        "emotionalWeight": 3,
+        "tone": "reflectief",
+        "needFit": {
+          "ontspannen": 1,
+          "afleiding": 1,
+          "herkenning": 3,
+          "verkennen": 4,
+          "verdieping": 4
+        },
+        "activation": 3,
+        "interruptibility": 2
+      },
+      "01m4wtg1vt5jbq684snyrh94qj": {
+        "effort": 4,
+        "emotionalWeight": 4,
+        "tone": "reflectief",
+        "needFit": {
+          "ontspannen": 1,
+          "afleiding": 1,
+          "herkenning": 4,
+          "verkennen": 4,
+          "verdieping": 4
+        },
+        "activation": 3,
+        "interruptibility": 2
+      },
+      "01m4wstvxenw2apd4vwc339kqb": {
+        "effort": 3,
+        "emotionalWeight": 1,
+        "tone": "zakelijk",
+        "needFit": {
+          "ontspannen": 1,
+          "afleiding": 1,
+          "herkenning": 3,
           "verkennen": 4,
           "verdieping": 3
-        }
+        },
+        "activation": 4,
+        "interruptibility": 3
+      },
+      "01m4w6vk0cdjacz6ssf5nwtdv5": {
+        "effort": 3,
+        "emotionalWeight": 3,
+        "tone": "reflectief",
+        "needFit": {
+          "ontspannen": 1,
+          "afleiding": 1,
+          "herkenning": 4,
+          "verkennen": 4,
+          "verdieping": 3
+        },
+        "activation": 3,
+        "interruptibility": 2
+      },
+      "01m4vhf1shc9axz4ck68axr6he": {
+        "effort": 4,
+        "emotionalWeight": 4,
+        "tone": "intens",
+        "needFit": {
+          "ontspannen": 1,
+          "afleiding": 1,
+          "herkenning": 4,
+          "verkennen": 4,
+          "verdieping": 4
+        },
+        "activation": 4,
+        "interruptibility": 2
       },
       "01m4v2ys9hh1mpe9rdn4zamf25": {
         "effort": 2,
@@ -50,287 +140,265 @@ window.TOP_ARTICLES = {
           "afleiding": 1,
           "herkenning": 3,
           "verkennen": 3,
-          "verdieping": 4
-        }
+          "verdieping": 2
+        },
+        "activation": 3,
+        "interruptibility": 4
       },
       "01m4tq9t231vq6tqx0amt4x68r": {
+        "effort": 4,
+        "emotionalWeight": 4,
+        "tone": "reflectief",
+        "needFit": {
+          "ontspannen": 1,
+          "afleiding": 1,
+          "herkenning": 3,
+          "verkennen": 4,
+          "verdieping": 4
+        },
+        "activation": 3,
+        "interruptibility": 2
+      },
+      "01m4tk38kqd8vdtzcv4ncq214e": {
         "effort": 3,
         "emotionalWeight": 3,
         "tone": "reflectief",
         "needFit": {
-          "ontspannen": 0,
-          "afleiding": 0,
-          "herkenning": 2,
+          "ontspannen": 1,
+          "afleiding": 1,
+          "herkenning": 3,
           "verkennen": 4,
           "verdieping": 4
-        }
+        },
+        "activation": 3,
+        "interruptibility": 2
       },
-      "01m4tk38kqd8vdtzcv4ncq214e": {
-        "effort": 2,
+      "01m4t6040xhse0dv9efp1v819x": {
+        "effort": 4,
         "emotionalWeight": 2,
         "tone": "zakelijk",
         "needFit": {
-          "ontspannen": 0,
-          "afleiding": 1,
-          "herkenning": 2,
-          "verkennen": 4,
-          "verdieping": 3
-        }
-      },
-      "01m4t6040xhse0dv9efp1v819x": {
-        "effort": 2,
-        "emotionalWeight": 1,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 0,
+          "ontspannen": 1,
           "afleiding": 1,
           "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        }
-      },
-      "01m4sr05b5ff5f8bpv471yt1jw": {
-        "effort": 3,
-        "emotionalWeight": 2,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 0,
-          "afleiding": 1,
-          "herkenning": 2,
           "verkennen": 4,
           "verdieping": 4
-        }
+        },
+        "activation": 4,
+        "interruptibility": 2
+      },
+      "01m4sr05b5ff5f8bpv471yt1jw": {
+        "effort": 4,
+        "emotionalWeight": 2,
+        "tone": "zakelijk",
+        "needFit": {
+          "ontspannen": 1,
+          "afleiding": 1,
+          "herkenning": 3,
+          "verkennen": 4,
+          "verdieping": 4
+        },
+        "activation": 3,
+        "interruptibility": 2
       },
       "01m4sk7xbev0csngrkw7ezxfh0": {
-        "effort": 3,
-        "emotionalWeight": 2,
+        "effort": 4,
+        "emotionalWeight": 3,
         "tone": "reflectief",
         "needFit": {
           "ontspannen": 1,
           "afleiding": 1,
           "herkenning": 4,
-          "verkennen": 3,
-          "verdieping": 3
-        }
+          "verkennen": 4,
+          "verdieping": 4
+        },
+        "activation": 3,
+        "interruptibility": 2
       },
       "01m4rqdgmsv1r1wzrt02j9f70c": {
-        "effort": 3,
+        "effort": 4,
         "emotionalWeight": 1,
         "tone": "zakelijk",
         "needFit": {
-          "ontspannen": 0,
+          "ontspannen": 1,
           "afleiding": 1,
           "herkenning": 3,
-          "verkennen": 3,
+          "verkennen": 4,
           "verdieping": 4
-        }
+        },
+        "activation": 4,
+        "interruptibility": 2
       },
       "01m4rnqc6m9f69tsdxjdrw9a6z": {
         "effort": 3,
+        "emotionalWeight": 1,
+        "tone": "zakelijk",
+        "needFit": {
+          "ontspannen": 1,
+          "afleiding": 1,
+          "herkenning": 3,
+          "verkennen": 4,
+          "verdieping": 4
+        },
+        "activation": 4,
+        "interruptibility": 2
+      },
+      "01m4rh2wpfz2241r0mdts94qyx": {
+        "effort": 4,
+        "emotionalWeight": 3,
+        "tone": "reflectief",
+        "needFit": {
+          "ontspannen": 1,
+          "afleiding": 1,
+          "herkenning": 3,
+          "verkennen": 4,
+          "verdieping": 4
+        },
+        "activation": 3,
+        "interruptibility": 2
+      },
+      "01m4rcez7h7kp9gjqeryqwth0y": {
+        "effort": 4,
         "emotionalWeight": 2,
         "tone": "zakelijk",
         "needFit": {
-          "ontspannen": 0,
+          "ontspannen": 1,
           "afleiding": 1,
           "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 4
-        }
-      },
-      "01m4rh2wpfz2241r0mdts94qyx": {
-        "effort": 3,
-        "emotionalWeight": 1,
-        "tone": "reflectief",
-        "needFit": {
-          "ontspannen": 0,
-          "afleiding": 1,
-          "herkenning": 2,
           "verkennen": 4,
           "verdieping": 4
-        }
-      },
-      "01m4rcez7h7kp9gjqeryqwth0y": {
-        "effort": 3,
-        "emotionalWeight": 2,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 1,
-          "afleiding": 2,
-          "herkenning": 2,
-          "verkennen": 4,
-          "verdieping": 3
-        }
+        },
+        "activation": 3,
+        "interruptibility": 2
       },
       "01m4qz463jjk0e6ve0qxtt5s0w": {
-        "effort": 2,
-        "emotionalWeight": 1,
+        "effort": 3,
+        "emotionalWeight": 3,
         "tone": "reflectief",
         "needFit": {
           "ontspannen": 1,
-          "afleiding": 2,
-          "herkenning": 1,
+          "afleiding": 1,
+          "herkenning": 3,
           "verkennen": 4,
           "verdieping": 4
-        }
+        },
+        "activation": 3,
+        "interruptibility": 3
       },
       "01m4qtqgx2she3t2xh4z4qgx3e": {
         "effort": 2,
-        "emotionalWeight": 1,
+        "emotionalWeight": 2,
         "tone": "warm",
         "needFit": {
-          "ontspannen": 2,
+          "ontspannen": 1,
           "afleiding": 1,
           "herkenning": 4,
           "verkennen": 2,
+          "verdieping": 2
+        },
+        "activation": 2,
+        "interruptibility": 4
+      },
+      "01m4p9h8dq2t96qr41pc5bhqam": {
+        "effort": 3,
+        "emotionalWeight": 2,
+        "tone": "reflectief",
+        "needFit": {
+          "ontspannen": 1,
+          "afleiding": 1,
+          "herkenning": 3,
+          "verkennen": 3,
           "verdieping": 3
-        }
+        },
+        "activation": 3,
+        "interruptibility": 3
       },
       "01m4ny01vqj9zf6y2qc6s2v79r": {
-        "effort": 2,
+        "effort": 4,
         "emotionalWeight": 2,
         "tone": "zakelijk",
         "needFit": {
           "ontspannen": 1,
           "afleiding": 1,
-          "herkenning": 3,
-          "verkennen": 2,
-          "verdieping": 3
-        }
+          "herkenning": 4,
+          "verkennen": 3,
+          "verdieping": 4
+        },
+        "activation": 4,
+        "interruptibility": 2
       },
       "01m4nafcf8f0v2ekzt506gamvf": {
-        "effort": 1,
+        "effort": 3,
         "emotionalWeight": 2,
         "tone": "zakelijk",
         "needFit": {
-          "ontspannen": 0,
-          "afleiding": 2,
-          "herkenning": 1,
-          "verkennen": 2,
-          "verdieping": 2
-        }
+          "ontspannen": 1,
+          "afleiding": 1,
+          "herkenning": 3,
+          "verkennen": 4,
+          "verdieping": 3
+        },
+        "activation": 3,
+        "interruptibility": 3
       },
       "01m4naee920e4qrgqze303jwap": {
-        "effort": 2,
-        "emotionalWeight": 0,
+        "effort": 3,
+        "emotionalWeight": 1,
         "tone": "reflectief",
-        "needFit": {
-          "ontspannen": 1,
-          "afleiding": 2,
-          "herkenning": 1,
-          "verkennen": 3,
-          "verdieping": 2
-        }
-      },
-      "01m4nadx0qvz5gb1wqgrp2h131": {
-        "effort": 3,
-        "emotionalWeight": 2,
-        "tone": "zakelijk",
-        "needFit": {
-          "ontspannen": 1,
-          "afleiding": 1,
-          "herkenning": 2,
-          "verkennen": 3,
-          "verdieping": 4
-        }
-      },
-      "01m4nadrf6wzyjqr22f0vqn4h6": {
-        "effort": 3,
-        "emotionalWeight": 1,
-        "tone": "zakelijk",
-        "needFit": {
-          "ontspannen": 1,
-          "afleiding": 1,
-          "herkenning": 2,
-          "verkennen": 3,
-          "verdieping": 4
-        }
-      },
-      "01m4nadeq8frfs5zyxrrdhgssn": {
-        "effort": 1,
-        "emotionalWeight": 0,
-        "tone": "zakelijk",
-        "needFit": {
-          "ontspannen": 1,
-          "afleiding": 1,
-          "herkenning": 1,
-          "verkennen": 2,
-          "verdieping": 1
-        }
-      },
-      "01m4nacvkv1gav6fj7zw2zm3m4": {
-        "effort": 1,
-        "emotionalWeight": 1,
-        "tone": "zakelijk",
-        "needFit": {
-          "ontspannen": 1,
-          "afleiding": 1,
-          "herkenning": 1,
-          "verkennen": 2,
-          "verdieping": 1
-        }
-      },
-      "01m4nabx3t8bxk1n54pqnv3daz": {
-        "effort": 1,
-        "emotionalWeight": 1,
-        "tone": "warm",
-        "needFit": {
-          "ontspannen": 2,
-          "afleiding": 1,
-          "herkenning": 2,
-          "verkennen": 3,
-          "verdieping": 2
-        }
-      },
-      "01m4mxqnhzkjb13x7bdxszs4pa": {
-        "effort": 3,
-        "emotionalWeight": 1,
-        "tone": "zakelijk",
-        "needFit": {
-          "ontspannen": 1,
-          "afleiding": 1,
-          "herkenning": 2,
-          "verkennen": 3,
-          "verdieping": 4
-        }
-      },
-      "01m4mxpxrevf72qey9pd30habf": {
-        "effort": 2,
-        "emotionalWeight": 1,
-        "tone": "warm",
         "needFit": {
           "ontspannen": 1,
           "afleiding": 1,
           "herkenning": 3,
           "verkennen": 3,
           "verdieping": 3
-        }
+        },
+        "activation": 2,
+        "interruptibility": 3
       },
-      "01m4mxpcrp5ecfe1jnmgw97p9f": {
-        "effort": 2,
+      "01m4nadx0qvz5gb1wqgrp2h131": {
+        "effort": 4,
         "emotionalWeight": 2,
-        "tone": "reflectief",
+        "tone": "zakelijk",
         "needFit": {
           "ontspannen": 1,
           "afleiding": 1,
           "herkenning": 3,
-          "verkennen": 3,
+          "verkennen": 4,
           "verdieping": 4
-        }
+        },
+        "activation": 3,
+        "interruptibility": 2
       },
-      "01m4mxbqftj1d6h8q7xvrq4xm4": {
-        "effort": 3,
+      "01m4nadrf6wzyjqr22f0vqn4h6": {
+        "effort": 4,
+        "emotionalWeight": 2,
+        "tone": "zakelijk",
+        "needFit": {
+          "ontspannen": 1,
+          "afleiding": 1,
+          "herkenning": 3,
+          "verkennen": 4,
+          "verdieping": 4
+        },
+        "activation": 4,
+        "interruptibility": 2
+      },
+      "01m4nadeq8frfs5zyxrrdhgssn": {
+        "effort": 2,
         "emotionalWeight": 1,
-        "tone": "reflectief",
+        "tone": "zakelijk",
         "needFit": {
           "ontspannen": 1,
           "afleiding": 1,
-          "herkenning": 3,
+          "herkenning": 2,
           "verkennen": 3,
-          "verdieping": 4
-        }
+          "verdieping": 2
+        },
+        "activation": 2,
+        "interruptibility": 4
       },
-      "01m4mxb8j3agx2ed6czb2m2f06": {
-        "effort": 3,
+      "01m4nacvkv1gav6fj7zw2zm3m4": {
+        "effort": 2,
         "emotionalWeight": 2,
         "tone": "zakelijk",
         "needFit": {
@@ -338,776 +406,990 @@ window.TOP_ARTICLES = {
           "afleiding": 1,
           "herkenning": 2,
           "verkennen": 3,
+          "verdieping": 2
+        },
+        "activation": 2,
+        "interruptibility": 4
+      },
+      "01m4nabx3t8bxk1n54pqnv3daz": {
+        "effort": 2,
+        "emotionalWeight": 1,
+        "tone": "warm",
+        "needFit": {
+          "ontspannen": 1,
+          "afleiding": 1,
+          "herkenning": 3,
+          "verkennen": 3,
+          "verdieping": 2
+        },
+        "activation": 2,
+        "interruptibility": 4
+      },
+      "01m4n8p6vpv8f7fskzk68mn97z": {
+        "effort": 4,
+        "emotionalWeight": 3,
+        "tone": "reflectief",
+        "needFit": {
+          "ontspannen": 1,
+          "afleiding": 1,
+          "herkenning": 3,
+          "verkennen": 4,
           "verdieping": 4
-        }
+        },
+        "activation": 3,
+        "interruptibility": 2
+      },
+      "01m4mxqnhzkjb13x7bdxszs4pa": {
+        "effort": 4,
+        "emotionalWeight": 2,
+        "tone": "zakelijk",
+        "needFit": {
+          "ontspannen": 1,
+          "afleiding": 1,
+          "herkenning": 3,
+          "verkennen": 4,
+          "verdieping": 4
+        },
+        "activation": 4,
+        "interruptibility": 2
+      },
+      "01m4mxpxrevf72qey9pd30habf": {
+        "effort": 3,
+        "emotionalWeight": 3,
+        "tone": "warm",
+        "needFit": {
+          "ontspannen": 1,
+          "afleiding": 1,
+          "herkenning": 4,
+          "verkennen": 3,
+          "verdieping": 3
+        },
+        "activation": 3,
+        "interruptibility": 3
+      },
+      "01m4mxpcrp5ecfe1jnmgw97p9f": {
+        "effort": 4,
+        "emotionalWeight": 3,
+        "tone": "reflectief",
+        "needFit": {
+          "ontspannen": 1,
+          "afleiding": 1,
+          "herkenning": 4,
+          "verkennen": 4,
+          "verdieping": 4
+        },
+        "activation": 3,
+        "interruptibility": 2
+      },
+      "01m4mxbqftj1d6h8q7xvrq4xm4": {
+        "effort": 4,
+        "emotionalWeight": 2,
+        "tone": "zakelijk",
+        "needFit": {
+          "ontspannen": 1,
+          "afleiding": 1,
+          "herkenning": 3,
+          "verkennen": 4,
+          "verdieping": 4
+        },
+        "activation": 3,
+        "interruptibility": 2
+      },
+      "01m4mxb8j3agx2ed6czb2m2f06": {
+        "effort": 4,
+        "emotionalWeight": 2,
+        "tone": "zakelijk",
+        "needFit": {
+          "ontspannen": 1,
+          "afleiding": 1,
+          "herkenning": 3,
+          "verkennen": 4,
+          "verdieping": 4
+        },
+        "activation": 3,
+        "interruptibility": 2
       },
       "01m4mtzabe83c0yjy7rxnwha7b": {
-        "effort": 1,
-        "emotionalWeight": 0,
+        "effort": 2,
+        "emotionalWeight": 1,
         "tone": "speels",
         "needFit": {
-          "ontspannen": 2,
+          "ontspannen": 1,
           "afleiding": 2,
-          "herkenning": 2,
+          "herkenning": 3,
           "verkennen": 2,
-          "verdieping": 1
-        }
+          "verdieping": 2
+        },
+        "activation": 3,
+        "interruptibility": 4
       },
       "01m4krhezn8xrsbp9evcf5y6k3": {
         "effort": 2,
         "emotionalWeight": 1,
         "tone": "warm",
         "needFit": {
-          "ontspannen": 3,
+          "ontspannen": 1,
           "afleiding": 2,
-          "herkenning": 2,
+          "herkenning": 3,
           "verkennen": 3,
-          "verdieping": 3
-        }
+          "verdieping": 2
+        },
+        "activation": 2,
+        "interruptibility": 4
       },
       "01m4kqh411v7jzpyhas60xj6np": {
-        "effort": 1,
+        "effort": 2,
+        "emotionalWeight": 3,
+        "tone": "warm",
+        "needFit": {
+          "ontspannen": 2,
+          "afleiding": 2,
+          "herkenning": 4,
+          "verkennen": 2,
+          "verdieping": 2
+        },
+        "activation": 1,
+        "interruptibility": 4
+      },
+      "01m4kg7hz09h5ewqexm0xw5xw2": {
+        "effort": 3,
         "emotionalWeight": 2,
         "tone": "warm",
         "needFit": {
-          "ontspannen": 4,
-          "afleiding": 4,
-          "herkenning": 4,
+          "ontspannen": 1,
+          "afleiding": 1,
+          "herkenning": 3,
           "verkennen": 3,
           "verdieping": 3
-        }
+        },
+        "activation": 2,
+        "interruptibility": 3
       },
       "01m4jp40rkevzjv5xyngmtthj0": {
         "effort": 2,
-        "emotionalWeight": 2,
-        "tone": "warm",
-        "needFit": {
-          "ontspannen": 2,
-          "afleiding": 2,
-          "herkenning": 3,
-          "verkennen": 2,
-          "verdieping": 2
-        }
-      },
-      "01m4jp3xvpfnnr7d03trmxw5ny": {
-        "effort": 1,
         "emotionalWeight": 1,
         "tone": "zakelijk",
         "needFit": {
           "ontspannen": 1,
           "afleiding": 1,
-          "herkenning": 2,
-          "verkennen": 2,
+          "herkenning": 3,
+          "verkennen": 3,
           "verdieping": 2
-        }
+        },
+        "activation": 3,
+        "interruptibility": 4
+      },
+      "01m4jp3xvpfnnr7d03trmxw5ny": {
+        "effort": 3,
+        "emotionalWeight": 1,
+        "tone": "zakelijk",
+        "needFit": {
+          "ontspannen": 1,
+          "afleiding": 1,
+          "herkenning": 3,
+          "verkennen": 3,
+          "verdieping": 3
+        },
+        "activation": 3,
+        "interruptibility": 3
       },
       "01m4jp3vhk3qx5yqvn7cp99fmg": {
         "effort": 3,
-        "emotionalWeight": 3,
-        "tone": "warm",
-        "needFit": {
-          "ontspannen": 2,
-          "afleiding": 2,
-          "herkenning": 3,
-          "verkennen": 2,
-          "verdieping": 3
-        }
-      },
-      "01m4ghwk9h25gntyn5smype298": {
-        "effort": 4,
-        "emotionalWeight": 3,
+        "emotionalWeight": 1,
         "tone": "zakelijk",
         "needFit": {
           "ontspannen": 1,
           "afleiding": 1,
           "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        }
-      },
-      "01m4dzhfpmwft49s8841anbm02": {
-        "effort": 2,
-        "emotionalWeight": 1,
-        "tone": "zakelijk",
-        "needFit": {
-          "ontspannen": 0,
-          "afleiding": 0,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 4
-        }
-      },
-      "01m4dcpyr9emw3hkp5y46gsvhy": {
-        "effort": 2,
-        "emotionalWeight": 1,
-        "tone": "reflectief",
-        "needFit": {
-          "ontspannen": 2,
-          "afleiding": 2,
-          "herkenning": 2,
           "verkennen": 4,
           "verdieping": 3
-        }
+        },
+        "activation": 3,
+        "interruptibility": 3
+      },
+      "01m4ghwk9h25gntyn5smype298": {
+        "effort": 3,
+        "emotionalWeight": 2,
+        "tone": "speels",
+        "needFit": {
+          "ontspannen": 1,
+          "afleiding": 2,
+          "herkenning": 3,
+          "verkennen": 4,
+          "verdieping": 3
+        },
+        "activation": 3,
+        "interruptibility": 3
+      },
+      "01m4dzhfpmwft49s8841anbm02": {
+        "effort": 4,
+        "emotionalWeight": 2,
+        "tone": "zakelijk",
+        "needFit": {
+          "ontspannen": 1,
+          "afleiding": 1,
+          "herkenning": 4,
+          "verkennen": 3,
+          "verdieping": 4
+        },
+        "activation": 4,
+        "interruptibility": 2
+      },
+      "01m4dcpyr9emw3hkp5y46gsvhy": {
+        "effort": 4,
+        "emotionalWeight": 3,
+        "tone": "reflectief",
+        "needFit": {
+          "ontspannen": 1,
+          "afleiding": 1,
+          "herkenning": 4,
+          "verkennen": 4,
+          "verdieping": 4
+        },
+        "activation": 2,
+        "interruptibility": 2
       },
       "01m4d942es4bmzsqn6j8yxv02w": {
         "effort": 4,
-        "emotionalWeight": 0,
+        "emotionalWeight": 1,
         "tone": "zakelijk",
         "needFit": {
           "ontspannen": 1,
           "afleiding": 1,
           "herkenning": 3,
-          "verkennen": 2,
+          "verkennen": 3,
           "verdieping": 3
-        }
+        },
+        "activation": 3,
+        "interruptibility": 3
       },
       "01m4cvad1wq82yzych59cr97j3": {
-        "effort": 2,
-        "emotionalWeight": 1,
-        "tone": "zakelijk",
+        "effort": 3,
+        "emotionalWeight": 3,
+        "tone": "reflectief",
         "needFit": {
-          "ontspannen": 0,
-          "afleiding": 0,
-          "herkenning": 2,
-          "verkennen": 3,
-          "verdieping": 4
-        }
+          "ontspannen": 1,
+          "afleiding": 1,
+          "herkenning": 4,
+          "verkennen": 4,
+          "verdieping": 3
+        },
+        "activation": 3,
+        "interruptibility": 3
       },
       "01m4csxss254dyjb2mbec0vw3h": {
         "effort": 4,
         "emotionalWeight": 2,
-        "tone": "speels",
+        "tone": "zakelijk",
         "needFit": {
           "ontspannen": 1,
-          "afleiding": 3,
+          "afleiding": 1,
           "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        }
+          "verkennen": 4,
+          "verdieping": 4
+        },
+        "activation": 4,
+        "interruptibility": 2
       },
       "01m4at7w322werh9jbsjxxgr7v": {
-        "effort": 3,
-        "emotionalWeight": 3,
-        "tone": "warm",
-        "needFit": {
-          "ontspannen": 3,
-          "afleiding": 3,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        }
-      },
-      "01m4arvyk84mgrbdaeptexwsa3": {
-        "effort": 1,
-        "emotionalWeight": 0,
-        "tone": "zakelijk",
-        "needFit": {
-          "ontspannen": 1,
-          "afleiding": 1,
-          "herkenning": 2,
-          "verkennen": 3,
-          "verdieping": 3
-        }
-      },
-      "01m48y842qaqc6cqf65qqm9h60": {
-        "effort": 1,
-        "emotionalWeight": 1,
-        "tone": "speels",
-        "needFit": {
-          "ontspannen": 3,
-          "afleiding": 3,
-          "herkenning": 2,
-          "verkennen": 4,
-          "verdieping": 2
-        }
-      },
-      "01m48ahd34prmsrfdgerqhjrj6": {
-        "effort": 1,
-        "emotionalWeight": 2,
-        "tone": "warm",
-        "needFit": {
-          "ontspannen": 1,
-          "afleiding": 1,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 2
-        }
-      },
-      "01m463tv9v9ehkfdr0cy5ztc8s": {
-        "effort": 2,
-        "emotionalWeight": 2,
-        "tone": "reflectief",
-        "needFit": {
-          "ontspannen": 1,
-          "afleiding": 1,
-          "herkenning": 4,
-          "verkennen": 3,
-          "verdieping": 3
-        }
-      },
-      "01m45j75m87y74yd60vb2hww00": {
-        "effort": 3,
-        "emotionalWeight": 2,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 0,
-          "afleiding": 0,
-          "herkenning": 1,
-          "verkennen": 3,
-          "verdieping": 4
-        }
-      },
-      "01m45a14vq9drbgqajeqxzh3ge": {
-        "effort": 2,
-        "emotionalWeight": 1,
-        "tone": "reflectief",
-        "needFit": {
-          "ontspannen": 1,
-          "afleiding": 1,
-          "herkenning": 2,
-          "verkennen": 4,
-          "verdieping": 3
-        }
-      },
-      "01m43x3maqp34bay2egnk1wa2j": {
-        "effort": 1,
-        "emotionalWeight": 1,
-        "tone": "zakelijk",
-        "needFit": {
-          "ontspannen": 1,
-          "afleiding": 1,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        }
-      },
-      "01m43wq4jh5a6amm99p0epyqf6": {
-        "effort": 4,
-        "emotionalWeight": 0,
-        "tone": "speels",
-        "needFit": {
-          "ontspannen": 1,
-          "afleiding": 3,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        }
-      },
-      "01m43dhx8the2g12ar1anpr3na": {
-        "effort": 4,
-        "emotionalWeight": 2,
-        "tone": "warm",
-        "needFit": {
-          "ontspannen": 2,
-          "afleiding": 2,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        }
-      },
-      "01m42nfy60gm6jzew68zd47tab": {
-        "effort": 3,
-        "emotionalWeight": 2,
-        "tone": "warm",
-        "needFit": {
-          "ontspannen": 2,
-          "afleiding": 2,
-          "herkenning": 3,
-          "verkennen": 2,
-          "verdieping": 3
-        }
-      },
-      "01m42neyqwmnje2xs0ka09n5ar": {
-        "effort": 4,
-        "emotionalWeight": 1,
-        "tone": "speels",
-        "needFit": {
-          "ontspannen": 1,
-          "afleiding": 3,
-          "herkenning": 3,
-          "verkennen": 2,
-          "verdieping": 3
-        }
-      },
-      "01m40srag0pz4f6hw0hmn7xvjr": {
-        "effort": 3,
-        "emotionalWeight": 2,
-        "tone": "speels",
-        "needFit": {
-          "ontspannen": 1,
-          "afleiding": 3,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        }
-      },
-      "01m40nws0yttnghfx3a322zhtv": {
-        "effort": 3,
-        "emotionalWeight": 1,
-        "tone": "zakelijk",
-        "needFit": {
-          "ontspannen": 1,
-          "afleiding": 1,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        }
-      },
-      "01m404y0tp6ckam7p3g9jt9zfa": {
-        "effort": 4,
-        "emotionalWeight": 1,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 1,
-          "afleiding": 1,
-          "herkenning": 3,
-          "verkennen": 2,
-          "verdieping": 3
-        }
-      },
-      "01m3xsf7y0hmmx9v9c5h5sak2f": {
-        "effort": 4,
-        "emotionalWeight": 1,
-        "tone": "zakelijk",
-        "needFit": {
-          "ontspannen": 1,
-          "afleiding": 1,
-          "herkenning": 3,
-          "verkennen": 2,
-          "verdieping": 3
-        }
-      },
-      "01m3xnyrdf4c193pw1sqm67hj4": {
-        "effort": 3,
-        "emotionalWeight": 2,
-        "tone": "warm",
-        "needFit": {
-          "ontspannen": 2,
-          "afleiding": 2,
-          "herkenning": 3,
-          "verkennen": 2,
-          "verdieping": 3
-        }
-      },
-      "01m3vyhrv1ydekbh6kjsb3f6fn": {
-        "effort": 2,
-        "emotionalWeight": 1,
-        "tone": "zakelijk",
-        "needFit": {
-          "ontspannen": 1,
-          "afleiding": 1,
-          "herkenning": 2,
-          "verkennen": 3,
-          "verdieping": 4
-        }
-      },
-      "01m3vhtkrpg02553ry2c6frknq": {
-        "effort": 3,
-        "emotionalWeight": 2,
-        "tone": "speels",
-        "needFit": {
-          "ontspannen": 1,
-          "afleiding": 3,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        }
-      },
-      "01m3v78rp47de54c59j26vxrnn": {
-        "effort": 1,
-        "emotionalWeight": 0,
-        "tone": "zakelijk",
-        "needFit": {
-          "ontspannen": 2,
-          "afleiding": 2,
-          "herkenning": 1,
-          "verkennen": 2,
-          "verdieping": 2
-        }
-      },
-      "01m3v78ns6nxcvnznp14pxqxw7": {
-        "effort": 3,
-        "emotionalWeight": 3,
-        "tone": "speels",
-        "needFit": {
-          "ontspannen": 1,
-          "afleiding": 3,
-          "herkenning": 3,
-          "verkennen": 2,
-          "verdieping": 3
-        }
-      },
-      "01m3ty2za1jhp6bfwwmrvwqa83": {
-        "effort": 3,
-        "emotionalWeight": 1,
-        "tone": "zakelijk",
-        "needFit": {
-          "ontspannen": 1,
-          "afleiding": 1,
-          "herkenning": 3,
-          "verkennen": 2,
-          "verdieping": 3
-        }
-      },
-      "01m3tst948q776hmwh8rct7gp3": {
-        "effort": 4,
-        "emotionalWeight": 2,
-        "tone": "speels",
-        "needFit": {
-          "ontspannen": 1,
-          "afleiding": 3,
-          "herkenning": 3,
-          "verkennen": 2,
-          "verdieping": 3
-        }
-      },
-      "01m3rxzdsqh9s0t8vpzsdp8xga": {
-        "effort": 1,
-        "emotionalWeight": 1,
-        "tone": "warm",
-        "needFit": {
-          "ontspannen": 3,
-          "afleiding": 1,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 2
-        }
-      },
-      "01m3rr3wjyhgqg55wx8h0ad083": {
-        "effort": 2,
-        "emotionalWeight": 2,
-        "tone": "speels",
-        "needFit": {
-          "ontspannen": 1,
-          "afleiding": 3,
-          "herkenning": 3,
-          "verkennen": 2,
-          "verdieping": 2
-        }
-      },
-      "01m3rbwfqmykrra79ycj6anysf": {
-        "effort": 2,
-        "emotionalWeight": 1,
-        "tone": "zakelijk",
-        "needFit": {
-          "ontspannen": 1,
-          "afleiding": 0,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 4
-        }
-      },
-      "01m3pjg369bw4jqvs3yyqshcxw": {
-        "effort": 4,
-        "emotionalWeight": 2,
-        "tone": "warm",
-        "needFit": {
-          "ontspannen": 2,
-          "afleiding": 2,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        }
-      },
-      "01m3kv2jmg7pc5ttmc0yevfm8x": {
-        "effort": 4,
-        "emotionalWeight": 2,
-        "tone": "warm",
-        "needFit": {
-          "ontspannen": 2,
-          "afleiding": 2,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        }
-      },
-      "01m3ks4gkwdvbpmnvzf5h5p3ww": {
-        "effort": 1,
-        "emotionalWeight": 0,
-        "tone": "warm",
-        "needFit": {
-          "ontspannen": 3,
-          "afleiding": 2,
-          "herkenning": 4,
-          "verkennen": 3,
-          "verdieping": 2
-        }
-      },
-      "01m3kq1j9rwm5dcer9vhmvbncx": {
-        "effort": 4,
-        "emotionalWeight": 1,
-        "tone": "zakelijk",
-        "needFit": {
-          "ontspannen": 1,
-          "afleiding": 1,
-          "herkenning": 3,
-          "verkennen": 2,
-          "verdieping": 3
-        }
-      },
-      "01m3j811qp5tg4s050wcwbtvdc": {
-        "effort": 3,
-        "emotionalWeight": 2,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 1,
-          "afleiding": 1,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        }
-      },
-      "01m3j80hydy92jffjmba3qynrb": {
-        "effort": 3,
-        "emotionalWeight": 3,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 1,
-          "afleiding": 1,
-          "herkenning": 3,
-          "verkennen": 2,
-          "verdieping": 3
-        }
-      },
-      "01m3hr7cf5azvex6ja40dky9n4": {
-        "effort": 3,
-        "emotionalWeight": 2,
-        "tone": "warm",
-        "needFit": {
-          "ontspannen": 2,
-          "afleiding": 2,
-          "herkenning": 3,
-          "verkennen": 2,
-          "verdieping": 3
-        }
-      },
-      "01m3hr629yekmazqarpyneg69p": {
-        "effort": 1,
-        "emotionalWeight": 1,
-        "tone": "warm",
-        "needFit": {
-          "ontspannen": 3,
-          "afleiding": 2,
-          "herkenning": 3,
-          "verkennen": 2,
-          "verdieping": 1
-        }
-      },
-      "01m3hmttdtjvcq110wjk0zw9sx": {
-        "effort": 4,
-        "emotionalWeight": 2,
-        "tone": "warm",
-        "needFit": {
-          "ontspannen": 2,
-          "afleiding": 2,
-          "herkenning": 3,
-          "verkennen": 2,
-          "verdieping": 3
-        }
-      },
-      "01m3h1gxyejcz42pg85wgrpwpe": {
-        "effort": 3,
-        "emotionalWeight": 1,
-        "tone": "zakelijk",
-        "needFit": {
-          "ontspannen": 1,
-          "afleiding": 1,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        }
-      },
-      "01m3h1gk5bvg1tmg39tgtp1s3r": {
-        "effort": 3,
-        "emotionalWeight": 2,
-        "tone": "warm",
-        "needFit": {
-          "ontspannen": 2,
-          "afleiding": 2,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        }
-      },
-      "01m3gyq5ywy4dk43ebvasvy1jw": {
-        "effort": 3,
-        "emotionalWeight": 3,
-        "tone": "warm",
-        "needFit": {
-          "ontspannen": 2,
-          "afleiding": 2,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        }
-      },
-      "01m3gr78d66pgwf9esfe7vmghw": {
-        "effort": 4,
-        "emotionalWeight": 1,
-        "tone": "zakelijk",
-        "needFit": {
-          "ontspannen": 1,
-          "afleiding": 1,
-          "herkenning": 3,
-          "verkennen": 2,
-          "verdieping": 3
-        }
-      },
-      "01m3gr6gfvpw8z714qvbjnrf43": {
-        "effort": 3,
-        "emotionalWeight": 2,
-        "tone": "speels",
-        "needFit": {
-          "ontspannen": 1,
-          "afleiding": 3,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        }
-      },
-      "01m3gr65d90kw3vye30cats58r": {
-        "effort": 4,
-        "emotionalWeight": 2,
-        "tone": "warm",
-        "needFit": {
-          "ontspannen": 2,
-          "afleiding": 2,
-          "herkenning": 3,
-          "verkennen": 2,
-          "verdieping": 3
-        }
-      },
-      "01m3gr42c33pfahhwx4we00xsd": {
-        "effort": 3,
-        "emotionalWeight": 2,
-        "tone": "warm",
-        "needFit": {
-          "ontspannen": 2,
-          "afleiding": 2,
-          "herkenning": 3,
-          "verkennen": 2,
-          "verdieping": 3
-        }
-      },
-      "01m3gc1908kt90m70325apbz7m": {
-        "effort": 4,
-        "emotionalWeight": 2,
-        "tone": "warm",
-        "needFit": {
-          "ontspannen": 2,
-          "afleiding": 2,
-          "herkenning": 3,
-          "verkennen": 2,
-          "verdieping": 3
-        }
-      },
-      "01m3gc16x6ngvkfyghamnw0c63": {
-        "effort": 4,
-        "emotionalWeight": 2,
-        "tone": "warm",
-        "needFit": {
-          "ontspannen": 2,
-          "afleiding": 2,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        }
-      },
-      "01m3fe92ymyskn9x20za5fda1b": {
-        "effort": 4,
-        "emotionalWeight": 2,
-        "tone": "warm",
-        "needFit": {
-          "ontspannen": 2,
-          "afleiding": 2,
-          "herkenning": 3,
-          "verkennen": 2,
-          "verdieping": 3
-        }
-      },
-      "01m3fe84fwzc84f7jtgs70hpj5": {
-        "effort": 3,
-        "emotionalWeight": 1,
-        "tone": "zakelijk",
-        "needFit": {
-          "ontspannen": 1,
-          "afleiding": 1,
-          "herkenning": 3,
-          "verkennen": 2,
-          "verdieping": 3
-        }
-      },
-      "01m3fb9vd5qc5gaw8dzcre20m6": {
-        "effort": 3,
-        "emotionalWeight": 1,
-        "tone": "zakelijk",
-        "needFit": {
-          "ontspannen": 1,
-          "afleiding": 1,
-          "herkenning": 3,
-          "verkennen": 2,
-          "verdieping": 3
-        }
-      },
-      "01m3f17vj1esg980wbj6w8741n": {
-        "effort": 3,
-        "emotionalWeight": 3,
-        "tone": "speels",
-        "needFit": {
-          "ontspannen": 1,
-          "afleiding": 3,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        }
-      },
-      "01m3ezmenqtajbtydymt9cvamt": {
-        "effort": 3,
-        "emotionalWeight": 2,
-        "tone": "speels",
-        "needFit": {
-          "ontspannen": 1,
-          "afleiding": 3,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        }
-      },
-      "01m3e369rxz4edvgjjq8kxwbm2": {
-        "effort": 4,
-        "emotionalWeight": 2,
-        "tone": "warm",
-        "needFit": {
-          "ontspannen": 3,
-          "afleiding": 3,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        }
-      },
-      "01m3dtcqa58z1qk7eks8ejrvxt": {
         "effort": 4,
         "emotionalWeight": 4,
         "tone": "intens",
         "needFit": {
           "ontspannen": 1,
           "afleiding": 1,
-          "herkenning": 1,
+          "herkenning": 3,
+          "verkennen": 4,
+          "verdieping": 4
+        },
+        "activation": 3,
+        "interruptibility": 2
+      },
+      "01m4arvyk84mgrbdaeptexwsa3": {
+        "effort": 3,
+        "emotionalWeight": 1,
+        "tone": "zakelijk",
+        "needFit": {
+          "ontspannen": 1,
+          "afleiding": 1,
+          "herkenning": 3,
+          "verkennen": 4,
+          "verdieping": 3
+        },
+        "activation": 4,
+        "interruptibility": 3
+      },
+      "01m48y842qaqc6cqf65qqm9h60": {
+        "effort": 3,
+        "emotionalWeight": 2,
+        "tone": "warm",
+        "needFit": {
+          "ontspannen": 1,
+          "afleiding": 1,
+          "herkenning": 3,
           "verkennen": 3,
           "verdieping": 3
-        }
+        },
+        "activation": 2,
+        "interruptibility": 3
+      },
+      "01m48ahd34prmsrfdgerqhjrj6": {
+        "effort": 4,
+        "emotionalWeight": 3,
+        "tone": "warm",
+        "needFit": {
+          "ontspannen": 1,
+          "afleiding": 1,
+          "herkenning": 4,
+          "verkennen": 4,
+          "verdieping": 4
+        },
+        "activation": 3,
+        "interruptibility": 2
+      },
+      "01m463tv9v9ehkfdr0cy5ztc8s": {
+        "effort": 4,
+        "emotionalWeight": 4,
+        "tone": "reflectief",
+        "needFit": {
+          "ontspannen": 1,
+          "afleiding": 1,
+          "herkenning": 4,
+          "verkennen": 4,
+          "verdieping": 4
+        },
+        "activation": 3,
+        "interruptibility": 2
+      },
+      "01m45j75m87y74yd60vb2hww00": {
+        "effort": 4,
+        "emotionalWeight": 3,
+        "tone": "reflectief",
+        "needFit": {
+          "ontspannen": 1,
+          "afleiding": 1,
+          "herkenning": 3,
+          "verkennen": 4,
+          "verdieping": 4
+        },
+        "activation": 3,
+        "interruptibility": 2
+      },
+      "01m45a14vq9drbgqajeqxzh3ge": {
+        "effort": 4,
+        "emotionalWeight": 2,
+        "tone": "reflectief",
+        "needFit": {
+          "ontspannen": 1,
+          "afleiding": 1,
+          "herkenning": 3,
+          "verkennen": 4,
+          "verdieping": 4
+        },
+        "activation": 2,
+        "interruptibility": 2
+      },
+      "01m43x3maqp34bay2egnk1wa2j": {
+        "effort": 3,
+        "emotionalWeight": 2,
+        "tone": "zakelijk",
+        "needFit": {
+          "ontspannen": 1,
+          "afleiding": 1,
+          "herkenning": 4,
+          "verkennen": 3,
+          "verdieping": 3
+        },
+        "activation": 4,
+        "interruptibility": 2
+      },
+      "01m43wq4jh5a6amm99p0epyqf6": {
+        "effort": 4,
+        "emotionalWeight": 3,
+        "tone": "reflectief",
+        "needFit": {
+          "ontspannen": 1,
+          "afleiding": 1,
+          "herkenning": 3,
+          "verkennen": 4,
+          "verdieping": 4
+        },
+        "activation": 3,
+        "interruptibility": 2
+      },
+      "01m43dhx8the2g12ar1anpr3na": {
+        "effort": 4,
+        "emotionalWeight": 3,
+        "tone": "reflectief",
+        "needFit": {
+          "ontspannen": 1,
+          "afleiding": 1,
+          "herkenning": 4,
+          "verkennen": 4,
+          "verdieping": 4
+        },
+        "activation": 3,
+        "interruptibility": 2
+      },
+      "01m42nfy60gm6jzew68zd47tab": {
+        "effort": 4,
+        "emotionalWeight": 2,
+        "tone": "zakelijk",
+        "needFit": {
+          "ontspannen": 1,
+          "afleiding": 1,
+          "herkenning": 3,
+          "verkennen": 4,
+          "verdieping": 4
+        },
+        "activation": 3,
+        "interruptibility": 2
+      },
+      "01m42neyqwmnje2xs0ka09n5ar": {
+        "effort": 4,
+        "emotionalWeight": 2,
+        "tone": "zakelijk",
+        "needFit": {
+          "ontspannen": 1,
+          "afleiding": 1,
+          "herkenning": 3,
+          "verkennen": 4,
+          "verdieping": 4
+        },
+        "activation": 3,
+        "interruptibility": 2
+      },
+      "01m40srag0pz4f6hw0hmn7xvjr": {
+        "effort": 4,
+        "emotionalWeight": 2,
+        "tone": "reflectief",
+        "needFit": {
+          "ontspannen": 1,
+          "afleiding": 1,
+          "herkenning": 3,
+          "verkennen": 4,
+          "verdieping": 4
+        },
+        "activation": 2,
+        "interruptibility": 2
+      },
+      "01m40nws0yttnghfx3a322zhtv": {
+        "effort": 3,
+        "emotionalWeight": 2,
+        "tone": "zakelijk",
+        "needFit": {
+          "ontspannen": 1,
+          "afleiding": 1,
+          "herkenning": 3,
+          "verkennen": 4,
+          "verdieping": 4
+        },
+        "activation": 3,
+        "interruptibility": 2
+      },
+      "01m404y0tp6ckam7p3g9jt9zfa": {
+        "effort": 4,
+        "emotionalWeight": 2,
+        "tone": "reflectief",
+        "needFit": {
+          "ontspannen": 1,
+          "afleiding": 1,
+          "herkenning": 3,
+          "verkennen": 4,
+          "verdieping": 4
+        },
+        "activation": 3,
+        "interruptibility": 2
+      },
+      "01m3xsf7y0hmmx9v9c5h5sak2f": {
+        "effort": 3,
+        "emotionalWeight": 1,
+        "tone": "speels",
+        "needFit": {
+          "ontspannen": 2,
+          "afleiding": 2,
+          "herkenning": 3,
+          "verkennen": 3,
+          "verdieping": 3
+        },
+        "activation": 3,
+        "interruptibility": 3
+      },
+      "01m3xnyrdf4c193pw1sqm67hj4": {
+        "effort": 3,
+        "emotionalWeight": 2,
+        "tone": "zakelijk",
+        "needFit": {
+          "ontspannen": 1,
+          "afleiding": 1,
+          "herkenning": 4,
+          "verkennen": 3,
+          "verdieping": 3
+        },
+        "activation": 4,
+        "interruptibility": 3
+      },
+      "01m3vyhrv1ydekbh6kjsb3f6fn": {
+        "effort": 4,
+        "emotionalWeight": 2,
+        "tone": "zakelijk",
+        "needFit": {
+          "ontspannen": 1,
+          "afleiding": 1,
+          "herkenning": 4,
+          "verkennen": 3,
+          "verdieping": 4
+        },
+        "activation": 4,
+        "interruptibility": 2
+      },
+      "01m3vhtkrpg02553ry2c6frknq": {
+        "effort": 4,
+        "emotionalWeight": 2,
+        "tone": "zakelijk",
+        "needFit": {
+          "ontspannen": 1,
+          "afleiding": 1,
+          "herkenning": 3,
+          "verkennen": 4,
+          "verdieping": 4
+        },
+        "activation": 3,
+        "interruptibility": 2
+      },
+      "01m3v78rp47de54c59j26vxrnn": {
+        "effort": 2,
+        "emotionalWeight": 1,
+        "tone": "warm",
+        "needFit": {
+          "ontspannen": 1,
+          "afleiding": 1,
+          "herkenning": 2,
+          "verkennen": 2,
+          "verdieping": 2
+        },
+        "activation": 3,
+        "interruptibility": 4
+      },
+      "01m3v78ns6nxcvnznp14pxqxw7": {
+        "effort": 3,
+        "emotionalWeight": 1,
+        "tone": "zakelijk",
+        "needFit": {
+          "ontspannen": 1,
+          "afleiding": 1,
+          "herkenning": 3,
+          "verkennen": 3,
+          "verdieping": 3
+        },
+        "activation": 4,
+        "interruptibility": 3
+      },
+      "01m3ty2za1jhp6bfwwmrvwqa83": {
+        "effort": 3,
+        "emotionalWeight": 2,
+        "tone": "reflectief",
+        "needFit": {
+          "ontspannen": 1,
+          "afleiding": 1,
+          "herkenning": 3,
+          "verkennen": 3,
+          "verdieping": 3
+        },
+        "activation": 3,
+        "interruptibility": 3
+      },
+      "01m3tst948q776hmwh8rct7gp3": {
+        "effort": 4,
+        "emotionalWeight": 2,
+        "tone": "zakelijk",
+        "needFit": {
+          "ontspannen": 1,
+          "afleiding": 1,
+          "herkenning": 3,
+          "verkennen": 4,
+          "verdieping": 4
+        },
+        "activation": 3,
+        "interruptibility": 2
+      },
+      "01m3rr3wjyhgqg55wx8h0ad083": {
+        "effort": 3,
+        "emotionalWeight": 1,
+        "tone": "zakelijk",
+        "needFit": {
+          "ontspannen": 1,
+          "afleiding": 1,
+          "herkenning": 3,
+          "verkennen": 3,
+          "verdieping": 3
+        },
+        "activation": 4,
+        "interruptibility": 3
+      },
+      "01m3rbwfqmykrra79ycj6anysf": {
+        "effort": 3,
+        "emotionalWeight": 2,
+        "tone": "zakelijk",
+        "needFit": {
+          "ontspannen": 1,
+          "afleiding": 1,
+          "herkenning": 4,
+          "verkennen": 3,
+          "verdieping": 3
+        },
+        "activation": 4,
+        "interruptibility": 2
+      },
+      "01m3pjg369bw4jqvs3yyqshcxw": {
+        "effort": 4,
+        "emotionalWeight": 4,
+        "tone": "reflectief",
+        "needFit": {
+          "ontspannen": 1,
+          "afleiding": 1,
+          "herkenning": 4,
+          "verkennen": 4,
+          "verdieping": 4
+        },
+        "activation": 3,
+        "interruptibility": 2
+      },
+      "01m3kv2jmg7pc5ttmc0yevfm8x": {
+        "effort": 4,
+        "emotionalWeight": 2,
+        "tone": "zakelijk",
+        "needFit": {
+          "ontspannen": 1,
+          "afleiding": 1,
+          "herkenning": 3,
+          "verkennen": 4,
+          "verdieping": 4
+        },
+        "activation": 3,
+        "interruptibility": 2
+      },
+      "01m3ks4gkwdvbpmnvzf5h5p3ww": {
+        "effort": 2,
+        "emotionalWeight": 1,
+        "tone": "warm",
+        "needFit": {
+          "ontspannen": 1,
+          "afleiding": 2,
+          "herkenning": 3,
+          "verkennen": 2,
+          "verdieping": 2
+        },
+        "activation": 2,
+        "interruptibility": 4
+      },
+      "01m3kq1j9rwm5dcer9vhmvbncx": {
+        "effort": 4,
+        "emotionalWeight": 2,
+        "tone": "zakelijk",
+        "needFit": {
+          "ontspannen": 1,
+          "afleiding": 1,
+          "herkenning": 3,
+          "verkennen": 4,
+          "verdieping": 4
+        },
+        "activation": 3,
+        "interruptibility": 2
+      },
+      "01m3j80hydy92jffjmba3qynrb": {
+        "effort": 3,
+        "emotionalWeight": 3,
+        "tone": "warm",
+        "needFit": {
+          "ontspannen": 2,
+          "afleiding": 2,
+          "herkenning": 4,
+          "verkennen": 3,
+          "verdieping": 3
+        },
+        "activation": 3,
+        "interruptibility": 3
+      },
+      "01m3hr7cf5azvex6ja40dky9n4": {
+        "effort": 3,
+        "emotionalWeight": 1,
+        "tone": "zakelijk",
+        "needFit": {
+          "ontspannen": 1,
+          "afleiding": 1,
+          "herkenning": 2,
+          "verkennen": 3,
+          "verdieping": 3
+        },
+        "activation": 3,
+        "interruptibility": 3
+      },
+      "01m3hr629yekmazqarpyneg69p": {
+        "effort": 2,
+        "emotionalWeight": 2,
+        "tone": "warm",
+        "needFit": {
+          "ontspannen": 1,
+          "afleiding": 1,
+          "herkenning": 3,
+          "verkennen": 3,
+          "verdieping": 2
+        },
+        "activation": 2,
+        "interruptibility": 3
+      },
+      "01m3hmttdtjvcq110wjk0zw9sx": {
+        "effort": 4,
+        "emotionalWeight": 2,
+        "tone": "zakelijk",
+        "needFit": {
+          "ontspannen": 1,
+          "afleiding": 1,
+          "herkenning": 4,
+          "verkennen": 3,
+          "verdieping": 4
+        },
+        "activation": 4,
+        "interruptibility": 2
+      },
+      "01m3h1gxyejcz42pg85wgrpwpe": {
+        "effort": 4,
+        "emotionalWeight": 2,
+        "tone": "reflectief",
+        "needFit": {
+          "ontspannen": 1,
+          "afleiding": 1,
+          "herkenning": 3,
+          "verkennen": 4,
+          "verdieping": 4
+        },
+        "activation": 2,
+        "interruptibility": 2
+      },
+      "01m3h1gk5bvg1tmg39tgtp1s3r": {
+        "effort": 4,
+        "emotionalWeight": 2,
+        "tone": "zakelijk",
+        "needFit": {
+          "ontspannen": 1,
+          "afleiding": 1,
+          "herkenning": 3,
+          "verkennen": 4,
+          "verdieping": 4
+        },
+        "activation": 3,
+        "interruptibility": 2
+      },
+      "01m3gyq5ywy4dk43ebvasvy1jw": {
+        "effort": 4,
+        "emotionalWeight": 3,
+        "tone": "warm",
+        "needFit": {
+          "ontspannen": 2,
+          "afleiding": 2,
+          "herkenning": 4,
+          "verkennen": 3,
+          "verdieping": 4
+        },
+        "activation": 3,
+        "interruptibility": 2
+      },
+      "01m3gr78d66pgwf9esfe7vmghw": {
+        "effort": 4,
+        "emotionalWeight": 2,
+        "tone": "zakelijk",
+        "needFit": {
+          "ontspannen": 1,
+          "afleiding": 1,
+          "herkenning": 3,
+          "verkennen": 3,
+          "verdieping": 4
+        },
+        "activation": 3,
+        "interruptibility": 2
+      },
+      "01m3gr6gfvpw8z714qvbjnrf43": {
+        "effort": 3,
+        "emotionalWeight": 1,
+        "tone": "reflectief",
+        "needFit": {
+          "ontspannen": 1,
+          "afleiding": 1,
+          "herkenning": 4,
+          "verkennen": 4,
+          "verdieping": 4
+        },
+        "activation": 2,
+        "interruptibility": 3
+      },
+      "01m3gr65d90kw3vye30cats58r": {
+        "effort": 3,
+        "emotionalWeight": 0,
+        "tone": "zakelijk",
+        "needFit": {
+          "ontspannen": 1,
+          "afleiding": 1,
+          "herkenning": 4,
+          "verkennen": 4,
+          "verdieping": 4
+        },
+        "activation": 3,
+        "interruptibility": 3
+      },
+      "01m3gr42c33pfahhwx4we00xsd": {
+        "effort": 2,
+        "emotionalWeight": 0,
+        "tone": "zakelijk",
+        "needFit": {
+          "ontspannen": 1,
+          "afleiding": 1,
+          "herkenning": 4,
+          "verkennen": 4,
+          "verdieping": 4
+        },
+        "activation": 3,
+        "interruptibility": 3
+      },
+      "01m3gc1908kt90m70325apbz7m": {
+        "effort": 4,
+        "emotionalWeight": 0,
+        "tone": "zakelijk",
+        "needFit": {
+          "ontspannen": 0,
+          "afleiding": 1,
+          "herkenning": 4,
+          "verkennen": 4,
+          "verdieping": 4
+        },
+        "activation": 3,
+        "interruptibility": 2
+      },
+      "01m3gc16x6ngvkfyghamnw0c63": {
+        "effort": 4,
+        "emotionalWeight": 1,
+        "tone": "zakelijk",
+        "needFit": {
+          "ontspannen": 0,
+          "afleiding": 1,
+          "herkenning": 2,
+          "verkennen": 4,
+          "verdieping": 4
+        },
+        "activation": 2,
+        "interruptibility": 2
+      },
+      "01m3fe92ymyskn9x20za5fda1b": {
+        "effort": 3,
+        "emotionalWeight": 1,
+        "tone": "zakelijk",
+        "needFit": {
+          "ontspannen": 1,
+          "afleiding": 1,
+          "herkenning": 4,
+          "verkennen": 4,
+          "verdieping": 4
+        },
+        "activation": 2,
+        "interruptibility": 3
+      },
+      "01m3fe84fwzc84f7jtgs70hpj5": {
+        "effort": 2,
+        "emotionalWeight": 0,
+        "tone": "zakelijk",
+        "needFit": {
+          "ontspannen": 1,
+          "afleiding": 1,
+          "herkenning": 4,
+          "verkennen": 4,
+          "verdieping": 3
+        },
+        "activation": 2,
+        "interruptibility": 3
+      },
+      "01m3fb9vd5qc5gaw8dzcre20m6": {
+        "effort": 3,
+        "emotionalWeight": 0,
+        "tone": "reflectief",
+        "needFit": {
+          "ontspannen": 1,
+          "afleiding": 1,
+          "herkenning": 4,
+          "verkennen": 4,
+          "verdieping": 4
+        },
+        "activation": 3,
+        "interruptibility": 3
+      },
+      "01m3f17vj1esg980wbj6w8741n": {
+        "effort": 3,
+        "emotionalWeight": 2,
+        "tone": "reflectief",
+        "needFit": {
+          "ontspannen": 0,
+          "afleiding": 1,
+          "herkenning": 2,
+          "verkennen": 4,
+          "verdieping": 4
+        },
+        "activation": 3,
+        "interruptibility": 3
+      },
+      "01m3ezmenqtajbtydymt9cvamt": {
+        "effort": 1,
+        "emotionalWeight": 0,
+        "tone": "warm",
+        "needFit": {
+          "ontspannen": 3,
+          "afleiding": 4,
+          "herkenning": 3,
+          "verkennen": 2,
+          "verdieping": 2
+        },
+        "activation": 2,
+        "interruptibility": 4
+      },
+      "01m3e369rxz4edvgjjq8kxwbm2": {
+        "effort": 3,
+        "emotionalWeight": 1,
+        "tone": "reflectief",
+        "needFit": {
+          "ontspannen": 1,
+          "afleiding": 1,
+          "herkenning": 3,
+          "verkennen": 4,
+          "verdieping": 4
+        },
+        "activation": 2,
+        "interruptibility": 3
+      },
+      "01m3dtcqa58z1qk7eks8ejrvxt": {
+        "effort": 4,
+        "emotionalWeight": 2,
+        "tone": "zakelijk",
+        "needFit": {
+          "ontspannen": 0,
+          "afleiding": 0,
+          "herkenning": 1,
+          "verkennen": 4,
+          "verdieping": 4
+        },
+        "activation": 3,
+        "interruptibility": 2
       },
       "01m3dtarte45rdkdm6vgwmdf92": {
         "effort": 2,
         "emotionalWeight": 0,
         "tone": "zakelijk",
         "needFit": {
-          "ontspannen": 0,
-          "afleiding": 0,
-          "herkenning": 2,
+          "ontspannen": 1,
+          "afleiding": 2,
+          "herkenning": 4,
           "verkennen": 3,
           "verdieping": 3
-        }
+        },
+        "activation": 2,
+        "interruptibility": 4
       },
       "01m3dtap1scx5019b5hgytbygy": {
         "effort": 1,
@@ -1115,155 +1397,181 @@ window.TOP_ARTICLES = {
         "tone": "zakelijk",
         "needFit": {
           "ontspannen": 1,
-          "afleiding": 1,
-          "herkenning": 2,
+          "afleiding": 2,
+          "herkenning": 4,
           "verkennen": 3,
           "verdieping": 2
-        }
+        },
+        "activation": 1,
+        "interruptibility": 4
       },
       "01m3dtajmfqyrzqccbxx6gb63p": {
-        "effort": 3,
-        "emotionalWeight": 0,
-        "tone": "zakelijk",
-        "needFit": {
-          "ontspannen": 1,
-          "afleiding": 1,
-          "herkenning": 3,
-          "verkennen": 2,
-          "verdieping": 3
-        }
-      },
-      "01m3d23yzdxhdbmn7g4xd0dszh": {
-        "effort": 3,
-        "emotionalWeight": 2,
-        "tone": "warm",
-        "needFit": {
-          "ontspannen": 2,
-          "afleiding": 2,
-          "herkenning": 3,
-          "verkennen": 2,
-          "verdieping": 3
-        }
-      },
-      "01m3d23yhmvpcn09xxn036jd3a": {
-        "effort": 3,
-        "emotionalWeight": 2,
-        "tone": "warm",
-        "needFit": {
-          "ontspannen": 2,
-          "afleiding": 2,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        }
-      },
-      "01m3d23y59bjbbg4m0fmbrv68n": {
-        "effort": 3,
-        "emotionalWeight": 1,
-        "tone": "zakelijk",
-        "needFit": {
-          "ontspannen": 1,
-          "afleiding": 1,
-          "herkenning": 3,
-          "verkennen": 2,
-          "verdieping": 3
-        }
-      },
-      "01m3d23wkezka5t8rkdmaes1kd": {
         "effort": 2,
         "emotionalWeight": 0,
         "tone": "zakelijk",
         "needFit": {
-          "ontspannen": 0,
-          "afleiding": 0,
-          "herkenning": 2,
+          "ontspannen": 1,
+          "afleiding": 2,
+          "herkenning": 4,
           "verkennen": 3,
           "verdieping": 3
-        }
+        },
+        "activation": 2,
+        "interruptibility": 4
+      },
+      "01m3d23yzdxhdbmn7g4xd0dszh": {
+        "effort": 2,
+        "emotionalWeight": 0,
+        "tone": "zakelijk",
+        "needFit": {
+          "ontspannen": 1,
+          "afleiding": 2,
+          "herkenning": 4,
+          "verkennen": 3,
+          "verdieping": 3
+        },
+        "activation": 2,
+        "interruptibility": 3
+      },
+      "01m3d23yhmvpcn09xxn036jd3a": {
+        "effort": 2,
+        "emotionalWeight": 0,
+        "tone": "zakelijk",
+        "needFit": {
+          "ontspannen": 1,
+          "afleiding": 2,
+          "herkenning": 4,
+          "verkennen": 3,
+          "verdieping": 4
+        },
+        "activation": 2,
+        "interruptibility": 4
+      },
+      "01m3d23y59bjbbg4m0fmbrv68n": {
+        "effort": 2,
+        "emotionalWeight": 0,
+        "tone": "zakelijk",
+        "needFit": {
+          "ontspannen": 1,
+          "afleiding": 2,
+          "herkenning": 4,
+          "verkennen": 3,
+          "verdieping": 3
+        },
+        "activation": 2,
+        "interruptibility": 4
+      },
+      "01m3d23wkezka5t8rkdmaes1kd": {
+        "effort": 1,
+        "emotionalWeight": 0,
+        "tone": "zakelijk",
+        "needFit": {
+          "ontspannen": 1,
+          "afleiding": 2,
+          "herkenning": 4,
+          "verkennen": 3,
+          "verdieping": 3
+        },
+        "activation": 2,
+        "interruptibility": 4
       },
       "01m3d23vwm7j1b5pgvhjmqaedm": {
         "effort": 4,
-        "emotionalWeight": 3,
-        "tone": "warm",
-        "needFit": {
-          "ontspannen": 2,
-          "afleiding": 2,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        }
-      },
-      "01m3d23rpk52c2w0wbveaf1ywq": {
-        "effort": 3,
-        "emotionalWeight": 3,
-        "tone": "speels",
-        "needFit": {
-          "ontspannen": 3,
-          "afleiding": 3,
-          "herkenning": 1,
-          "verkennen": 3,
-          "verdieping": 3
-        }
-      },
-      "01m3d13s17dav0zaeh95erzrnb": {
-        "effort": 3,
-        "emotionalWeight": 3,
-        "tone": "speels",
-        "needFit": {
-          "ontspannen": 3,
-          "afleiding": 3,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        }
-      },
-      "01m3cwjfaj7qym77emh0jhfn93": {
-        "effort": 3,
-        "emotionalWeight": 3,
-        "tone": "warm",
-        "needFit": {
-          "ontspannen": 2,
-          "afleiding": 2,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        }
-      },
-      "01m3cw5hemq4cabx1jxksx7k14": {
-        "effort": 4,
-        "emotionalWeight": 2,
-        "tone": "warm",
-        "needFit": {
-          "ontspannen": 2,
-          "afleiding": 2,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        }
-      },
-      "01m3cb40jc9x524gherhdhpg3w": {
-        "effort": 1,
-        "emotionalWeight": 1,
+        "emotionalWeight": 0,
         "tone": "zakelijk",
         "needFit": {
           "ontspannen": 1,
           "afleiding": 1,
+          "herkenning": 3,
+          "verkennen": 4,
+          "verdieping": 4
+        },
+        "activation": 3,
+        "interruptibility": 2
+      },
+      "01m3d23rpk52c2w0wbveaf1ywq": {
+        "effort": 2,
+        "emotionalWeight": 3,
+        "tone": "reflectief",
+        "needFit": {
+          "ontspannen": 0,
+          "afleiding": 1,
           "herkenning": 2,
+          "verkennen": 4,
+          "verdieping": 4
+        },
+        "activation": 3,
+        "interruptibility": 3
+      },
+      "01m3d13s17dav0zaeh95erzrnb": {
+        "effort": 2,
+        "emotionalWeight": 3,
+        "tone": "intens",
+        "needFit": {
+          "ontspannen": 0,
+          "afleiding": 1,
+          "herkenning": 2,
+          "verkennen": 4,
+          "verdieping": 4
+        },
+        "activation": 3,
+        "interruptibility": 3
+      },
+      "01m3cwjfaj7qym77emh0jhfn93": {
+        "effort": 2,
+        "emotionalWeight": 0,
+        "tone": "speels",
+        "needFit": {
+          "ontspannen": 3,
+          "afleiding": 4,
+          "herkenning": 3,
           "verkennen": 3,
           "verdieping": 2
-        }
+        },
+        "activation": 2,
+        "interruptibility": 4
       },
-      "01m3cb3whaaxfkqzwdh0snehej": {
+      "01m3cw5hemq4cabx1jxksx7k14": {
         "effort": 3,
         "emotionalWeight": 2,
-        "tone": "warm",
+        "tone": "reflectief",
         "needFit": {
-          "ontspannen": 2,
+          "ontspannen": 1,
+          "afleiding": 1,
+          "herkenning": 4,
+          "verkennen": 4,
+          "verdieping": 4
+        },
+        "activation": 3,
+        "interruptibility": 2
+      },
+      "01m3cb40jc9x524gherhdhpg3w": {
+        "effort": 1,
+        "emotionalWeight": 0,
+        "tone": "zakelijk",
+        "needFit": {
+          "ontspannen": 1,
           "afleiding": 2,
           "herkenning": 3,
-          "verkennen": 2,
+          "verkennen": 3,
+          "verdieping": 2
+        },
+        "activation": 1,
+        "interruptibility": 3
+      },
+      "01m3cb3whaaxfkqzwdh0snehej": {
+        "effort": 1,
+        "emotionalWeight": 0,
+        "tone": "zakelijk",
+        "needFit": {
+          "ontspannen": 2,
+          "afleiding": 3,
+          "herkenning": 4,
+          "verkennen": 3,
           "verdieping": 3
-        }
+        },
+        "activation": 2,
+        "interruptibility": 4
       },
       "01m3cb3s4sy9ffyfm732ynjjnw": {
         "effort": 1,
@@ -1271,107 +1579,125 @@ window.TOP_ARTICLES = {
         "tone": "speels",
         "needFit": {
           "ontspannen": 3,
-          "afleiding": 3,
-          "herkenning": 2,
-          "verkennen": 3,
-          "verdieping": 1
-        }
+          "afleiding": 4,
+          "herkenning": 3,
+          "verkennen": 2,
+          "verdieping": 2
+        },
+        "activation": 2,
+        "interruptibility": 4
       },
       "01m3cb3m7rq080qjdpzyeyd7v4": {
-        "effort": 3,
-        "emotionalWeight": 2,
-        "tone": "warm",
+        "effort": 2,
+        "emotionalWeight": 1,
+        "tone": "zakelijk",
         "needFit": {
-          "ontspannen": 2,
+          "ontspannen": 1,
           "afleiding": 2,
-          "herkenning": 3,
+          "herkenning": 4,
           "verkennen": 3,
           "verdieping": 3
-        }
+        },
+        "activation": 2,
+        "interruptibility": 3
       },
       "01m3cb3gpqmpsv8vqrtrmk8mfa": {
-        "effort": 1,
+        "effort": 2,
         "emotionalWeight": 1,
         "tone": "warm",
         "needFit": {
           "ontspannen": 2,
-          "afleiding": 1,
-          "herkenning": 3,
+          "afleiding": 3,
+          "herkenning": 4,
           "verkennen": 3,
-          "verdieping": 2
-        }
+          "verdieping": 3
+        },
+        "activation": 2,
+        "interruptibility": 3
       },
       "01m3cb3dw9r8bbxaervxrhm68q": {
         "effort": 1,
         "emotionalWeight": 0,
         "tone": "zakelijk",
         "needFit": {
-          "ontspannen": 1,
-          "afleiding": 1,
-          "herkenning": 2,
+          "ontspannen": 2,
+          "afleiding": 2,
+          "herkenning": 4,
           "verkennen": 3,
           "verdieping": 2
-        }
+        },
+        "activation": 1,
+        "interruptibility": 4
       },
       "01m3cb3ajq0dynkav0s12cn8p9": {
-        "effort": 3,
-        "emotionalWeight": 2,
-        "tone": "speels",
+        "effort": 2,
+        "emotionalWeight": 1,
+        "tone": "zakelijk",
         "needFit": {
           "ontspannen": 1,
-          "afleiding": 3,
-          "herkenning": 3,
+          "afleiding": 2,
+          "herkenning": 4,
           "verkennen": 3,
-          "verdieping": 3
-        }
+          "verdieping": 4
+        },
+        "activation": 2,
+        "interruptibility": 3
       },
       "01m3cb36ep292mj3ts6059wptc": {
-        "effort": 3,
-        "emotionalWeight": 2,
+        "effort": 2,
+        "emotionalWeight": 0,
         "tone": "warm",
         "needFit": {
           "ontspannen": 2,
-          "afleiding": 2,
-          "herkenning": 3,
+          "afleiding": 3,
+          "herkenning": 4,
           "verkennen": 3,
           "verdieping": 3
-        }
+        },
+        "activation": 2,
+        "interruptibility": 3
       },
       "01m3c9ghtxbpfsjny1mvs5epae": {
-        "effort": 3,
-        "emotionalWeight": 2,
-        "tone": "intens",
+        "effort": 2,
+        "emotionalWeight": 1,
+        "tone": "reflectief",
         "needFit": {
           "ontspannen": 1,
           "afleiding": 1,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        }
+          "herkenning": 4,
+          "verkennen": 4,
+          "verdieping": 4
+        },
+        "activation": 3,
+        "interruptibility": 3
       },
       "01m3c9gftbsq0jgr00g7zxywb3": {
         "effort": 3,
-        "emotionalWeight": 2,
-        "tone": "warm",
+        "emotionalWeight": 1,
+        "tone": "reflectief",
         "needFit": {
-          "ontspannen": 2,
-          "afleiding": 2,
+          "ontspannen": 1,
+          "afleiding": 1,
           "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        }
+          "verkennen": 4,
+          "verdieping": 4
+        },
+        "activation": 2,
+        "interruptibility": 2
       },
       "01m3c9g5kkzwdgp9333zkcx25r": {
-        "effort": 3,
+        "effort": 2,
         "emotionalWeight": 3,
-        "tone": "intens",
+        "tone": "reflectief",
         "needFit": {
-          "ontspannen": 3,
-          "afleiding": 3,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        }
+          "ontspannen": 0,
+          "afleiding": 1,
+          "herkenning": 2,
+          "verkennen": 4,
+          "verdieping": 4
+        },
+        "activation": 3,
+        "interruptibility": 3
       },
       "01m3c9g48smpwj7954pkvpp2zq": {
         "effort": 3,
@@ -1380,1054 +1706,1174 @@ window.TOP_ARTICLES = {
         "needFit": {
           "ontspannen": 1,
           "afleiding": 1,
-          "herkenning": 3,
-          "verkennen": 2,
-          "verdieping": 3
-        }
+          "herkenning": 4,
+          "verkennen": 4,
+          "verdieping": 4
+        },
+        "activation": 3,
+        "interruptibility": 2
       },
       "01m3c9fqw050mxx7dsfhet3t6b": {
-        "effort": 3,
-        "emotionalWeight": 2,
-        "tone": "warm",
+        "effort": 2,
+        "emotionalWeight": 1,
+        "tone": "zakelijk",
         "needFit": {
-          "ontspannen": 2,
-          "afleiding": 2,
-          "herkenning": 3,
+          "ontspannen": 1,
+          "afleiding": 1,
+          "herkenning": 4,
           "verkennen": 3,
           "verdieping": 3
-        }
+        },
+        "activation": 2,
+        "interruptibility": 3
       },
       "01m3c9fnft0jarpf74b77mrne2": {
         "effort": 4,
-        "emotionalWeight": 2,
-        "tone": "warm",
+        "emotionalWeight": 1,
+        "tone": "zakelijk",
         "needFit": {
-          "ontspannen": 2,
-          "afleiding": 2,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        }
+          "ontspannen": 0,
+          "afleiding": 1,
+          "herkenning": 4,
+          "verkennen": 4,
+          "verdieping": 4
+        },
+        "activation": 3,
+        "interruptibility": 2
       },
       "01m3c9fkfk1r3wtzdszg03pecq": {
-        "effort": 3,
-        "emotionalWeight": 2,
+        "effort": 2,
+        "emotionalWeight": 1,
         "tone": "warm",
         "needFit": {
           "ontspannen": 2,
           "afleiding": 2,
-          "herkenning": 3,
+          "herkenning": 4,
           "verkennen": 3,
           "verdieping": 3
-        }
+        },
+        "activation": 2,
+        "interruptibility": 3
       },
       "01m3c9f6tb1yxz3jq92wk72j0q": {
-        "effort": 3,
-        "emotionalWeight": 2,
-        "tone": "warm",
+        "effort": 2,
+        "emotionalWeight": 1,
+        "tone": "zakelijk",
         "needFit": {
-          "ontspannen": 2,
-          "afleiding": 2,
-          "herkenning": 3,
+          "ontspannen": 1,
+          "afleiding": 1,
+          "herkenning": 4,
           "verkennen": 3,
           "verdieping": 3
-        }
+        },
+        "activation": 2,
+        "interruptibility": 3
       },
       "01m3c021srkpwkbdb5b74pnp10": {
         "effort": 3,
-        "emotionalWeight": 2,
-        "tone": "warm",
+        "emotionalWeight": 0,
+        "tone": "zakelijk",
         "needFit": {
-          "ontspannen": 2,
-          "afleiding": 2,
-          "herkenning": 3,
-          "verkennen": 2,
-          "verdieping": 3
-        }
+          "ontspannen": 1,
+          "afleiding": 1,
+          "herkenning": 4,
+          "verkennen": 4,
+          "verdieping": 4
+        },
+        "activation": 3,
+        "interruptibility": 2
       },
       "01m3bsvtfr6yzy71xbkny9f5n8": {
-        "effort": 3,
-        "emotionalWeight": 2,
-        "tone": "warm",
+        "effort": 2,
+        "emotionalWeight": 1,
+        "tone": "reflectief",
         "needFit": {
-          "ontspannen": 2,
+          "ontspannen": 1,
           "afleiding": 2,
-          "herkenning": 3,
+          "herkenning": 4,
           "verkennen": 3,
           "verdieping": 3
-        }
+        },
+        "activation": 2,
+        "interruptibility": 3
       },
       "01m3bcvez8mhjr798chtpekmj1": {
-        "effort": 3,
-        "emotionalWeight": 2,
-        "tone": "speels",
+        "effort": 2,
+        "emotionalWeight": 0,
+        "tone": "zakelijk",
         "needFit": {
           "ontspannen": 1,
-          "afleiding": 3,
-          "herkenning": 3,
-          "verkennen": 2,
+          "afleiding": 1,
+          "herkenning": 4,
+          "verkennen": 3,
           "verdieping": 3
-        }
+        },
+        "activation": 2,
+        "interruptibility": 3
       },
       "01m39xvrmkc09h0qq1efc4s523": {
-        "effort": 4,
-        "emotionalWeight": 0,
-        "tone": "speels",
+        "effort": 3,
+        "emotionalWeight": 1,
+        "tone": "zakelijk",
         "needFit": {
-          "ontspannen": 1,
-          "afleiding": 3,
-          "herkenning": 3,
-          "verkennen": 2,
+          "ontspannen": 0,
+          "afleiding": 1,
+          "herkenning": 4,
+          "verkennen": 4,
           "verdieping": 3
-        }
+        },
+        "activation": 3,
+        "interruptibility": 3
       },
       "01m39mkg7cyjqvqm0sks15kgr8": {
-        "effort": 3,
-        "emotionalWeight": 2,
-        "tone": "warm",
+        "effort": 2,
+        "emotionalWeight": 1,
+        "tone": "reflectief",
         "needFit": {
           "ontspannen": 3,
-          "afleiding": 3,
+          "afleiding": 2,
           "herkenning": 3,
-          "verkennen": 3,
+          "verkennen": 4,
           "verdieping": 3
-        }
+        },
+        "activation": 2,
+        "interruptibility": 3
       },
       "01m3994zp56c3bka9grq2k98tp": {
-        "effort": 3,
-        "emotionalWeight": 3,
-        "tone": "speels",
+        "effort": 2,
+        "emotionalWeight": 1,
+        "tone": "zakelijk",
         "needFit": {
           "ontspannen": 1,
-          "afleiding": 3,
+          "afleiding": 2,
           "herkenning": 3,
-          "verkennen": 3,
+          "verkennen": 4,
           "verdieping": 3
-        }
+        },
+        "activation": 2,
+        "interruptibility": 3
       },
       "01m398yc7c60mgn63hvrfreqw8": {
         "effort": 3,
-        "emotionalWeight": 1,
-        "tone": "intens",
+        "emotionalWeight": 3,
+        "tone": "reflectief",
         "needFit": {
-          "ontspannen": 3,
-          "afleiding": 3,
+          "ontspannen": 1,
+          "afleiding": 1,
           "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        }
+          "verkennen": 4,
+          "verdieping": 4
+        },
+        "activation": 3,
+        "interruptibility": 3
       },
       "01m393k1a84jh8n5d9c3pa1n4c": {
-        "effort": 3,
-        "emotionalWeight": 2,
-        "tone": "warm",
+        "effort": 2,
+        "emotionalWeight": 0,
+        "tone": "speels",
         "needFit": {
           "ontspannen": 2,
           "afleiding": 2,
-          "herkenning": 3,
-          "verkennen": 2,
+          "herkenning": 4,
+          "verkennen": 3,
           "verdieping": 3
-        }
+        },
+        "activation": 2,
+        "interruptibility": 3
       },
       "01m391vyzc65eeqdk1cc0ftrrp": {
-        "effort": 3,
+        "effort": 1,
         "emotionalWeight": 2,
-        "tone": "warm",
+        "tone": "reflectief",
         "needFit": {
-          "ontspannen": 2,
-          "afleiding": 2,
-          "herkenning": 3,
+          "ontspannen": 1,
+          "afleiding": 1,
+          "herkenning": 4,
           "verkennen": 3,
-          "verdieping": 3
-        }
+          "verdieping": 2
+        },
+        "activation": 2,
+        "interruptibility": 3
       },
       "01m38wkhc074q82fv1g1vzd2d4": {
-        "effort": 4,
+        "effort": 2,
         "emotionalWeight": 2,
         "tone": "warm",
         "needFit": {
-          "ontspannen": 2,
-          "afleiding": 2,
+          "ontspannen": 1,
+          "afleiding": 1,
           "herkenning": 3,
           "verkennen": 3,
           "verdieping": 3
-        }
+        },
+        "activation": 2,
+        "interruptibility": 3
       },
       "01m38wjv4th0nk4yy55vwhcybv": {
-        "effort": 4,
-        "emotionalWeight": 2,
+        "effort": 3,
+        "emotionalWeight": 0,
         "tone": "warm",
         "needFit": {
-          "ontspannen": 2,
-          "afleiding": 2,
-          "herkenning": 3,
-          "verkennen": 3,
+          "ontspannen": 1,
+          "afleiding": 1,
+          "herkenning": 4,
+          "verkennen": 4,
           "verdieping": 3
-        }
+        },
+        "activation": 3,
+        "interruptibility": 3
       },
       "01m37agy1w7er7trr8w91gpwwb": {
         "effort": 4,
         "emotionalWeight": 3,
-        "tone": "speels",
+        "tone": "zakelijk",
         "needFit": {
-          "ontspannen": 1,
-          "afleiding": 3,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        }
+          "ontspannen": 0,
+          "afleiding": 0,
+          "herkenning": 1,
+          "verkennen": 4,
+          "verdieping": 4
+        },
+        "activation": 3,
+        "interruptibility": 2
       },
       "01m36qahevs5n3f4wrdr0xegg2": {
-        "effort": 4,
-        "emotionalWeight": 2,
-        "tone": "speels",
+        "effort": 2,
+        "emotionalWeight": 0,
+        "tone": "zakelijk",
         "needFit": {
           "ontspannen": 1,
-          "afleiding": 3,
-          "herkenning": 3,
+          "afleiding": 1,
+          "herkenning": 4,
           "verkennen": 3,
           "verdieping": 3
-        }
+        },
+        "activation": 3,
+        "interruptibility": 3
       },
       "01m36e0e1mne2my12ancjax0fj": {
-        "effort": 3,
-        "emotionalWeight": 2,
-        "tone": "warm",
+        "effort": 2,
+        "emotionalWeight": 0,
+        "tone": "zakelijk",
         "needFit": {
-          "ontspannen": 2,
-          "afleiding": 2,
-          "herkenning": 3,
+          "ontspannen": 0,
+          "afleiding": 1,
+          "herkenning": 4,
           "verkennen": 3,
           "verdieping": 3
-        }
+        },
+        "activation": 2,
+        "interruptibility": 3
       },
       "01m342p2njkgrn1qpn8acvxf52": {
-        "effort": 3,
-        "emotionalWeight": 2,
-        "tone": "warm",
-        "needFit": {
-          "ontspannen": 2,
-          "afleiding": 2,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        }
-      },
-      "01m34102prbcxcpgdx41yrr863": {
-        "effort": 4,
-        "emotionalWeight": 2,
-        "tone": "warm",
-        "needFit": {
-          "ontspannen": 2,
-          "afleiding": 2,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        }
-      },
-      "01m33svedqc2ndenjb8zzp9wqw": {
-        "effort": 4,
-        "emotionalWeight": 3,
-        "tone": "warm",
-        "needFit": {
-          "ontspannen": 2,
-          "afleiding": 2,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        }
-      },
-      "01m33sv6k8pxz000kd3nv0jm5j": {
-        "effort": 3,
-        "emotionalWeight": 2,
-        "tone": "speels",
+        "effort": 2,
+        "emotionalWeight": 1,
+        "tone": "reflectief",
         "needFit": {
           "ontspannen": 1,
-          "afleiding": 3,
-          "herkenning": 3,
+          "afleiding": 1,
+          "herkenning": 4,
           "verkennen": 3,
           "verdieping": 3
-        }
+        },
+        "activation": 3,
+        "interruptibility": 3
+      },
+      "01m34102prbcxcpgdx41yrr863": {
+        "effort": 2,
+        "emotionalWeight": 1,
+        "tone": "reflectief",
+        "needFit": {
+          "ontspannen": 1,
+          "afleiding": 1,
+          "herkenning": 4,
+          "verkennen": 4,
+          "verdieping": 4
+        },
+        "activation": 2,
+        "interruptibility": 2
+      },
+      "01m33svedqc2ndenjb8zzp9wqw": {
+        "effort": 2,
+        "emotionalWeight": 3,
+        "tone": "reflectief",
+        "needFit": {
+          "ontspannen": 0,
+          "afleiding": 0,
+          "herkenning": 2,
+          "verkennen": 4,
+          "verdieping": 4
+        },
+        "activation": 2,
+        "interruptibility": 2
+      },
+      "01m33sv6k8pxz000kd3nv0jm5j": {
+        "effort": 2,
+        "emotionalWeight": 1,
+        "tone": "reflectief",
+        "needFit": {
+          "ontspannen": 2,
+          "afleiding": 2,
+          "herkenning": 3,
+          "verkennen": 4,
+          "verdieping": 3
+        },
+        "activation": 1,
+        "interruptibility": 2
       },
       "01m33stxv6vtdwm85t4xzym5f4": {
-        "effort": 3,
-        "emotionalWeight": 2,
-        "tone": "warm",
+        "effort": 1,
+        "emotionalWeight": 0,
+        "tone": "zakelijk",
         "needFit": {
-          "ontspannen": 2,
-          "afleiding": 2,
-          "herkenning": 3,
-          "verkennen": 3,
+          "ontspannen": 1,
+          "afleiding": 1,
+          "herkenning": 4,
+          "verkennen": 2,
           "verdieping": 3
-        }
+        },
+        "activation": 2,
+        "interruptibility": 3
       },
       "01m33f23gtsf89r7spek80wkc9": {
-        "effort": 3,
+        "effort": 2,
         "emotionalWeight": 3,
-        "tone": "warm",
+        "tone": "intens",
         "needFit": {
-          "ontspannen": 2,
-          "afleiding": 2,
-          "herkenning": 3,
+          "ontspannen": 0,
+          "afleiding": 0,
+          "herkenning": 2,
           "verkennen": 3,
           "verdieping": 3
-        }
+        },
+        "activation": 3,
+        "interruptibility": 3
       },
       "01m33f1t1qgfmdw5jw3m1x5hze": {
         "effort": 1,
         "emotionalWeight": 0,
         "tone": "speels",
         "needFit": {
-          "ontspannen": 3,
-          "afleiding": 4,
-          "herkenning": 2,
-          "verkennen": 4,
-          "verdieping": 1
-        }
+          "ontspannen": 2,
+          "afleiding": 3,
+          "herkenning": 4,
+          "verkennen": 3,
+          "verdieping": 2
+        },
+        "activation": 3,
+        "interruptibility": 3
       },
       "01m33evj29qt4x77m8ex32erc3": {
-        "effort": 3,
-        "emotionalWeight": 3,
-        "tone": "zakelijk",
+        "effort": 1,
+        "emotionalWeight": 1,
+        "tone": "intens",
         "needFit": {
-          "ontspannen": 3,
-          "afleiding": 3,
+          "ontspannen": 2,
+          "afleiding": 2,
           "herkenning": 3,
-          "verkennen": 3,
+          "verkennen": 4,
           "verdieping": 3
-        }
+        },
+        "activation": 2,
+        "interruptibility": 2
       },
       "01m31krew5wqhvvfn07r816aq7": {
-        "effort": 3,
+        "effort": 1,
         "emotionalWeight": 3,
-        "tone": "warm",
+        "tone": "reflectief",
         "needFit": {
-          "ontspannen": 3,
-          "afleiding": 3,
-          "herkenning": 3,
+          "ontspannen": 0,
+          "afleiding": 1,
+          "herkenning": 2,
           "verkennen": 3,
-          "verdieping": 3
-        }
+          "verdieping": 2
+        },
+        "activation": 1,
+        "interruptibility": 4
       },
       "01m31jcwjxzets6rrh4ehc093r": {
-        "effort": 3,
+        "effort": 2,
         "emotionalWeight": 2,
-        "tone": "speels",
+        "tone": "reflectief",
         "needFit": {
           "ontspannen": 1,
-          "afleiding": 3,
-          "herkenning": 3,
-          "verkennen": 3,
+          "afleiding": 1,
+          "herkenning": 4,
+          "verkennen": 4,
           "verdieping": 3
-        }
+        },
+        "activation": 3,
+        "interruptibility": 3
       },
       "01m31jcfg9vjf5zwbyszy0ab04": {
-        "effort": 3,
-        "emotionalWeight": 2,
-        "tone": "warm",
-        "needFit": {
-          "ontspannen": 2,
-          "afleiding": 2,
-          "herkenning": 3,
-          "verkennen": 2,
-          "verdieping": 3
-        }
-      },
-      "01m31fpqqpx22n1gcv43fs2fcd": {
-        "effort": 3,
-        "emotionalWeight": 2,
-        "tone": "speels",
-        "needFit": {
-          "ontspannen": 1,
-          "afleiding": 3,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        }
-      },
-      "01m2yyxwxatg7n8nwapph8kbfd": {
-        "effort": 3,
-        "emotionalWeight": 2,
-        "tone": "warm",
-        "needFit": {
-          "ontspannen": 2,
-          "afleiding": 2,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        }
-      },
-      "01m2yyxhjttcew9pmyhm8xsqm8": {
-        "effort": 3,
-        "emotionalWeight": 2,
-        "tone": "warm",
-        "needFit": {
-          "ontspannen": 2,
-          "afleiding": 2,
-          "herkenning": 3,
-          "verkennen": 2,
-          "verdieping": 3
-        }
-      },
-      "01m2yyxf6wvce5ek4b7rgq0knv": {
-        "effort": 3,
-        "emotionalWeight": 2,
-        "tone": "speels",
-        "needFit": {
-          "ontspannen": 1,
-          "afleiding": 3,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        }
-      },
-      "01m2ysgfhx0mege9pe8gs0rffg": {
-        "effort": 3,
+        "effort": 2,
         "emotionalWeight": 1,
         "tone": "zakelijk",
         "needFit": {
           "ontspannen": 1,
           "afleiding": 1,
-          "herkenning": 3,
-          "verkennen": 2,
+          "herkenning": 4,
+          "verkennen": 3,
           "verdieping": 3
-        }
+        },
+        "activation": 3,
+        "interruptibility": 3
       },
-      "01m2yqbzyzcaeyktxzs2d07g03": {
-        "effort": 4,
+      "01m31fpqqpx22n1gcv43fs2fcd": {
+        "effort": 3,
+        "emotionalWeight": 0,
+        "tone": "reflectief",
+        "needFit": {
+          "ontspannen": 1,
+          "afleiding": 1,
+          "herkenning": 3,
+          "verkennen": 4,
+          "verdieping": 4
+        },
+        "activation": 3,
+        "interruptibility": 3
+      },
+      "01m2yyxwxatg7n8nwapph8kbfd": {
+        "effort": 2,
+        "emotionalWeight": 1,
+        "tone": "reflectief",
+        "needFit": {
+          "ontspannen": 1,
+          "afleiding": 1,
+          "herkenning": 4,
+          "verkennen": 3,
+          "verdieping": 3
+        },
+        "activation": 3,
+        "interruptibility": 3
+      },
+      "01m2yyxhjttcew9pmyhm8xsqm8": {
+        "effort": 2,
+        "emotionalWeight": 0,
+        "tone": "zakelijk",
+        "needFit": {
+          "ontspannen": 1,
+          "afleiding": 2,
+          "herkenning": 4,
+          "verkennen": 3,
+          "verdieping": 3
+        },
+        "activation": 3,
+        "interruptibility": 4
+      },
+      "01m2yyxf6wvce5ek4b7rgq0knv": {
+        "effort": 2,
         "emotionalWeight": 1,
         "tone": "zakelijk",
         "needFit": {
-          "ontspannen": 3,
-          "afleiding": 3,
-          "herkenning": 3,
-          "verkennen": 3,
+          "ontspannen": 0,
+          "afleiding": 1,
+          "herkenning": 4,
+          "verkennen": 4,
           "verdieping": 3
-        }
+        },
+        "activation": 3,
+        "interruptibility": 3
       },
-      "01m2yq9bkmjfp60fxn60q6zfyp": {
-        "effort": 3,
-        "emotionalWeight": 2,
-        "tone": "warm",
+      "01m2ysgfhx0mege9pe8gs0rffg": {
+        "effort": 2,
+        "emotionalWeight": 0,
+        "tone": "zakelijk",
         "needFit": {
-          "ontspannen": 3,
-          "afleiding": 3,
-          "herkenning": 3,
+          "ontspannen": 0,
+          "afleiding": 1,
+          "herkenning": 4,
           "verkennen": 3,
-          "verdieping": 3
-        }
+          "verdieping": 4
+        },
+        "activation": 3,
+        "interruptibility": 3
       },
-      "01m2ypv5w730dbc78eajsfxnna": {
+      "01m2yqbzyzcaeyktxzs2d07g03": {
         "effort": 3,
         "emotionalWeight": 3,
-        "tone": "speels",
+        "tone": "reflectief",
         "needFit": {
           "ontspannen": 1,
-          "afleiding": 3,
+          "afleiding": 2,
           "herkenning": 3,
+          "verkennen": 4,
+          "verdieping": 4
+        },
+        "activation": 3,
+        "interruptibility": 2
+      },
+      "01m2yq9bkmjfp60fxn60q6zfyp": {
+        "effort": 1,
+        "emotionalWeight": 1,
+        "tone": "speels",
+        "needFit": {
+          "ontspannen": 2,
+          "afleiding": 3,
+          "herkenning": 1,
+          "verkennen": 4,
+          "verdieping": 2
+        },
+        "activation": 2,
+        "interruptibility": 3
+      },
+      "01m2ypv5w730dbc78eajsfxnna": {
+        "effort": 2,
+        "emotionalWeight": 2,
+        "tone": "reflectief",
+        "needFit": {
+          "ontspannen": 0,
+          "afleiding": 1,
+          "herkenning": 1,
           "verkennen": 3,
-          "verdieping": 3
-        }
+          "verdieping": 4
+        },
+        "activation": 2,
+        "interruptibility": 2
       },
       "01m2ymxwfncx98gmphge27wnje": {
-        "effort": 3,
-        "emotionalWeight": 2,
-        "tone": "warm",
-        "needFit": {
-          "ontspannen": 3,
-          "afleiding": 3,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        }
-      },
-      "01m2ykqswpvsex0tbrspb6qha3": {
-        "effort": 3,
-        "emotionalWeight": 2,
-        "tone": "speels",
-        "needFit": {
-          "ontspannen": 1,
-          "afleiding": 3,
-          "herkenning": 3,
-          "verkennen": 2,
-          "verdieping": 3
-        }
-      },
-      "01m2ykm2r74ak92tq0x6tfmr32": {
-        "effort": 4,
-        "emotionalWeight": 2,
+        "effort": 1,
+        "emotionalWeight": 1,
         "tone": "warm",
         "needFit": {
           "ontspannen": 2,
           "afleiding": 2,
+          "herkenning": 4,
+          "verkennen": 3,
+          "verdieping": 2
+        },
+        "activation": 2,
+        "interruptibility": 3
+      },
+      "01m2ykqswpvsex0tbrspb6qha3": {
+        "effort": 2,
+        "emotionalWeight": 0,
+        "tone": "zakelijk",
+        "needFit": {
+          "ontspannen": 0,
+          "afleiding": 1,
           "herkenning": 3,
-          "verkennen": 2,
+          "verkennen": 3,
           "verdieping": 3
-        }
+        },
+        "activation": 2,
+        "interruptibility": 2
+      },
+      "01m2ykm2r74ak92tq0x6tfmr32": {
+        "effort": 2,
+        "emotionalWeight": 1,
+        "tone": "zakelijk",
+        "needFit": {
+          "ontspannen": 0,
+          "afleiding": 1,
+          "herkenning": 4,
+          "verkennen": 3,
+          "verdieping": 4
+        },
+        "activation": 3,
+        "interruptibility": 3
       },
       "01m2x8nw4zgrsm7j1w5vvq4rtd": {
-        "effort": 3,
+        "effort": 1,
+        "emotionalWeight": 2,
+        "tone": "zakelijk",
+        "needFit": {
+          "ontspannen": 1,
+          "afleiding": 2,
+          "herkenning": 1,
+          "verkennen": 3,
+          "verdieping": 2
+        },
+        "activation": 2,
+        "interruptibility": 3
+      },
+      "01m2wjky368mxj0rpk9g9pkh4z": {
+        "effort": 1,
         "emotionalWeight": 1,
         "tone": "intens",
         "needFit": {
           "ontspannen": 1,
           "afleiding": 1,
-          "herkenning": 1,
-          "verkennen": 3,
-          "verdieping": 3
-        }
-      },
-      "01m2wjky368mxj0rpk9g9pkh4z": {
-        "effort": 3,
-        "emotionalWeight": 1,
-        "tone": "speels",
-        "needFit": {
-          "ontspannen": 1,
-          "afleiding": 3,
-          "herkenning": 3,
+          "herkenning": 2,
           "verkennen": 2,
-          "verdieping": 3
-        }
+          "verdieping": 2
+        },
+        "activation": 3,
+        "interruptibility": 3
       },
       "01m2wjkqmf6e3rmjtmng2k5gm0": {
-        "effort": 3,
-        "emotionalWeight": 2,
-        "tone": "warm",
-        "needFit": {
-          "ontspannen": 2,
-          "afleiding": 2,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        }
-      },
-      "01m2wjkek800m70692sxhjpze6": {
-        "effort": 3,
-        "emotionalWeight": 2,
-        "tone": "speels",
-        "needFit": {
-          "ontspannen": 1,
-          "afleiding": 3,
-          "herkenning": 3,
-          "verkennen": 2,
-          "verdieping": 3
-        }
-      },
-      "01m2wjkbt920wa5myh1hvz67v6": {
-        "effort": 4,
-        "emotionalWeight": 3,
-        "tone": "zakelijk",
-        "needFit": {
-          "ontspannen": 1,
-          "afleiding": 1,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        }
-      },
-      "01m2w4xmwcmgdcpkjyjpqrjyjb": {
-        "effort": 3,
-        "emotionalWeight": 2,
-        "tone": "warm",
-        "needFit": {
-          "ontspannen": 2,
-          "afleiding": 2,
-          "herkenning": 3,
-          "verkennen": 2,
-          "verdieping": 3
-        }
-      },
-      "01m2w4wa0sspde6x1j82q8jhrd": {
-        "effort": 4,
-        "emotionalWeight": 1,
-        "tone": "zakelijk",
-        "needFit": {
-          "ontspannen": 1,
-          "afleiding": 1,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        }
-      },
-      "01m2w4q0nawzn679w0k1s4v64h": {
-        "effort": 4,
-        "emotionalWeight": 1,
-        "tone": "zakelijk",
-        "needFit": {
-          "ontspannen": 1,
-          "afleiding": 1,
-          "herkenning": 3,
-          "verkennen": 2,
-          "verdieping": 3
-        }
-      },
-      "01m2w4pyr92w831ycpvvr0gtyz": {
-        "effort": 4,
-        "emotionalWeight": 3,
-        "tone": "warm",
-        "needFit": {
-          "ontspannen": 2,
-          "afleiding": 2,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        }
-      },
-      "01m2v58bxx1vadmtdmrb95vdsm": {
-        "effort": 1,
-        "emotionalWeight": 2,
-        "tone": "speels",
-        "needFit": {
-          "ontspannen": 3,
-          "afleiding": 3,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 1
-        }
-      },
-      "01m2trsgdcxhsc4gf0trmbfvzq": {
-        "effort": 4,
-        "emotionalWeight": 3,
-        "tone": "speels",
-        "needFit": {
-          "ontspannen": 3,
-          "afleiding": 3,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        }
-      },
-      "01m2smg40p8zr20vvcdz2wbmwc": {
-        "effort": 3,
-        "emotionalWeight": 2,
-        "tone": "warm",
-        "needFit": {
-          "ontspannen": 3,
-          "afleiding": 3,
-          "herkenning": 3,
-          "verkennen": 2,
-          "verdieping": 3
-        }
-      },
-      "01m2smg2ksck33mxx8yjbbtc5n": {
-        "effort": 3,
-        "emotionalWeight": 2,
-        "tone": "speels",
-        "needFit": {
-          "ontspannen": 3,
-          "afleiding": 3,
-          "herkenning": 3,
-          "verkennen": 2,
-          "verdieping": 3
-        }
-      },
-      "01m2smfyryeyq541gxjmjd7c2q": {
-        "effort": 3,
-        "emotionalWeight": 3,
-        "tone": "warm",
-        "needFit": {
-          "ontspannen": 3,
-          "afleiding": 3,
-          "herkenning": 3,
-          "verkennen": 2,
-          "verdieping": 3
-        }
-      },
-      "01m2sj3crywpy57w2k9nd8x35d": {
-        "effort": 4,
-        "emotionalWeight": 2,
-        "tone": "warm",
-        "needFit": {
-          "ontspannen": 3,
-          "afleiding": 3,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        }
-      },
-      "01m2sj2z0eqkymgx0rbcrpyc85": {
-        "effort": 4,
-        "emotionalWeight": 2,
-        "tone": "warm",
-        "needFit": {
-          "ontspannen": 2,
-          "afleiding": 2,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        }
-      },
-      "01m2sj2qe8ek1zbz9kxev71gxv": {
         "effort": 2,
-        "emotionalWeight": 1,
-        "tone": "zakelijk",
+        "emotionalWeight": 2,
+        "tone": "intens",
         "needFit": {
-          "ontspannen": 1,
+          "ontspannen": 0,
           "afleiding": 1,
           "herkenning": 2,
           "verkennen": 3,
           "verdieping": 3
-        }
+        },
+        "activation": 3,
+        "interruptibility": 2
+      },
+      "01m2wjkek800m70692sxhjpze6": {
+        "effort": 2,
+        "emotionalWeight": 2,
+        "tone": "intens",
+        "needFit": {
+          "ontspannen": 0,
+          "afleiding": 1,
+          "herkenning": 2,
+          "verkennen": 3,
+          "verdieping": 3
+        },
+        "activation": 3,
+        "interruptibility": 2
+      },
+      "01m2wjkbt920wa5myh1hvz67v6": {
+        "effort": 2,
+        "emotionalWeight": 3,
+        "tone": "intens",
+        "needFit": {
+          "ontspannen": 0,
+          "afleiding": 0,
+          "herkenning": 3,
+          "verkennen": 3,
+          "verdieping": 3
+        },
+        "activation": 3,
+        "interruptibility": 3
+      },
+      "01m2w4xmwcmgdcpkjyjpqrjyjb": {
+        "effort": 2,
+        "emotionalWeight": 0,
+        "tone": "zakelijk",
+        "needFit": {
+          "ontspannen": 1,
+          "afleiding": 1,
+          "herkenning": 3,
+          "verkennen": 3,
+          "verdieping": 3
+        },
+        "activation": 2,
+        "interruptibility": 2
+      },
+      "01m2w4wa0sspde6x1j82q8jhrd": {
+        "effort": 2,
+        "emotionalWeight": 1,
+        "tone": "reflectief",
+        "needFit": {
+          "ontspannen": 1,
+          "afleiding": 1,
+          "herkenning": 4,
+          "verkennen": 3,
+          "verdieping": 4
+        },
+        "activation": 3,
+        "interruptibility": 3
+      },
+      "01m2w4q0nawzn679w0k1s4v64h": {
+        "effort": 2,
+        "emotionalWeight": 1,
+        "tone": "warm",
+        "needFit": {
+          "ontspannen": 1,
+          "afleiding": 2,
+          "herkenning": 4,
+          "verkennen": 3,
+          "verdieping": 4
+        },
+        "activation": 2,
+        "interruptibility": 3
+      },
+      "01m2w4pyr92w831ycpvvr0gtyz": {
+        "effort": 3,
+        "emotionalWeight": 0,
+        "tone": "zakelijk",
+        "needFit": {
+          "ontspannen": 0,
+          "afleiding": 1,
+          "herkenning": 4,
+          "verkennen": 4,
+          "verdieping": 4
+        },
+        "activation": 3,
+        "interruptibility": 3
+      },
+      "01m2v58bxx1vadmtdmrb95vdsm": {
+        "effort": 2,
+        "emotionalWeight": 4,
+        "tone": "intens",
+        "needFit": {
+          "ontspannen": 0,
+          "afleiding": 0,
+          "herkenning": 2,
+          "verkennen": 3,
+          "verdieping": 4
+        },
+        "activation": 3,
+        "interruptibility": 2
+      },
+      "01m2trsgdcxhsc4gf0trmbfvzq": {
+        "effort": 2,
+        "emotionalWeight": 2,
+        "tone": "reflectief",
+        "needFit": {
+          "ontspannen": 1,
+          "afleiding": 2,
+          "herkenning": 2,
+          "verkennen": 4,
+          "verdieping": 3
+        },
+        "activation": 2,
+        "interruptibility": 3
+      },
+      "01m2smg40p8zr20vvcdz2wbmwc": {
+        "effort": 2,
+        "emotionalWeight": 1,
+        "tone": "reflectief",
+        "needFit": {
+          "ontspannen": 1,
+          "afleiding": 2,
+          "herkenning": 2,
+          "verkennen": 3,
+          "verdieping": 3
+        },
+        "activation": 2,
+        "interruptibility": 4
+      },
+      "01m2smg2ksck33mxx8yjbbtc5n": {
+        "effort": 2,
+        "emotionalWeight": 1,
+        "tone": "reflectief",
+        "needFit": {
+          "ontspannen": 1,
+          "afleiding": 1,
+          "herkenning": 1,
+          "verkennen": 3,
+          "verdieping": 3
+        },
+        "activation": 2,
+        "interruptibility": 4
+      },
+      "01m2smfyryeyq541gxjmjd7c2q": {
+        "effort": 2,
+        "emotionalWeight": 1,
+        "tone": "reflectief",
+        "needFit": {
+          "ontspannen": 1,
+          "afleiding": 1,
+          "herkenning": 1,
+          "verkennen": 3,
+          "verdieping": 3
+        },
+        "activation": 2,
+        "interruptibility": 4
+      },
+      "01m2sj3crywpy57w2k9nd8x35d": {
+        "effort": 2,
+        "emotionalWeight": 1,
+        "tone": "reflectief",
+        "needFit": {
+          "ontspannen": 2,
+          "afleiding": 3,
+          "herkenning": 1,
+          "verkennen": 4,
+          "verdieping": 4
+        },
+        "activation": 2,
+        "interruptibility": 2
+      },
+      "01m2sj2z0eqkymgx0rbcrpyc85": {
+        "effort": 2,
+        "emotionalWeight": 1,
+        "tone": "reflectief",
+        "needFit": {
+          "ontspannen": 1,
+          "afleiding": 1,
+          "herkenning": 4,
+          "verkennen": 3,
+          "verdieping": 4
+        },
+        "activation": 3,
+        "interruptibility": 2
+      },
+      "01m2sj2qe8ek1zbz9kxev71gxv": {
+        "effort": 1,
+        "emotionalWeight": 0,
+        "tone": "zakelijk",
+        "needFit": {
+          "ontspannen": 2,
+          "afleiding": 1,
+          "herkenning": 4,
+          "verkennen": 3,
+          "verdieping": 2
+        },
+        "activation": 2,
+        "interruptibility": 2
       },
       "01m2qwxp6naam94zqc0fwxzt6p": {
-        "effort": 4,
+        "effort": 2,
         "emotionalWeight": 0,
         "tone": "zakelijk",
         "needFit": {
           "ontspannen": 1,
           "afleiding": 1,
-          "herkenning": 3,
-          "verkennen": 2,
+          "herkenning": 4,
+          "verkennen": 3,
           "verdieping": 3
-        }
+        },
+        "activation": 3,
+        "interruptibility": 4
       },
       "01m2q3jyb0n30vs5541sfrh5wk": {
-        "effort": 4,
-        "emotionalWeight": 2,
-        "tone": "warm",
+        "effort": 2,
+        "emotionalWeight": 1,
+        "tone": "reflectief",
         "needFit": {
-          "ontspannen": 2,
-          "afleiding": 2,
-          "herkenning": 3,
-          "verkennen": 3,
+          "ontspannen": 1,
+          "afleiding": 1,
+          "herkenning": 4,
+          "verkennen": 4,
           "verdieping": 3
-        }
+        },
+        "activation": 2,
+        "interruptibility": 2
       },
       "01m2ptdshnt478e55y9hah3157": {
-        "effort": 4,
-        "emotionalWeight": 1,
+        "effort": 2,
+        "emotionalWeight": 0,
         "tone": "zakelijk",
         "needFit": {
-          "ontspannen": 1,
+          "ontspannen": 0,
           "afleiding": 1,
           "herkenning": 3,
           "verkennen": 3,
-          "verdieping": 3
-        }
+          "verdieping": 4
+        },
+        "activation": 3,
+        "interruptibility": 3
       },
       "01m2nwzbeakn8gefz8s64p7gte": {
-        "effort": 3,
-        "emotionalWeight": 2,
+        "effort": 2,
+        "emotionalWeight": 1,
         "tone": "warm",
         "needFit": {
           "ontspannen": 2,
-          "afleiding": 2,
-          "herkenning": 3,
+          "afleiding": 1,
+          "herkenning": 4,
           "verkennen": 3,
           "verdieping": 3
-        }
+        },
+        "activation": 2,
+        "interruptibility": 3
       },
       "01m2n023e21pj4j48m398wy215": {
-        "effort": 4,
-        "emotionalWeight": 1,
-        "tone": "zakelijk",
+        "effort": 2,
+        "emotionalWeight": 0,
+        "tone": "intens",
         "needFit": {
           "ontspannen": 1,
           "afleiding": 1,
           "herkenning": 3,
-          "verkennen": 2,
-          "verdieping": 3
-        }
+          "verkennen": 3,
+          "verdieping": 4
+        },
+        "activation": 3,
+        "interruptibility": 2
       },
       "01m2msap2g98nwk78n4yxf36tf": {
-        "effort": 4,
+        "effort": 2,
         "emotionalWeight": 1,
-        "tone": "zakelijk",
+        "tone": "warm",
         "needFit": {
           "ontspannen": 1,
           "afleiding": 1,
-          "herkenning": 3,
+          "herkenning": 4,
           "verkennen": 3,
-          "verdieping": 3
-        }
+          "verdieping": 4
+        },
+        "activation": 3,
+        "interruptibility": 3
       },
       "01m2mpk5g0ptfm6wsn2w2db6nz": {
-        "effort": 4,
-        "emotionalWeight": 1,
+        "effort": 1,
+        "emotionalWeight": 0,
         "tone": "zakelijk",
+        "needFit": {
+          "ontspannen": 1,
+          "afleiding": 1,
+          "herkenning": 3,
+          "verkennen": 3,
+          "verdieping": 4
+        },
+        "activation": 3,
+        "interruptibility": 3
+      },
+      "01m2mdj11mkw42apwdqw2v6ev6": {
+        "effort": 1,
+        "emotionalWeight": 1,
+        "tone": "reflectief",
         "needFit": {
           "ontspannen": 1,
           "afleiding": 1,
           "herkenning": 3,
           "verkennen": 2,
           "verdieping": 3
-        }
-      },
-      "01m2mdj11mkw42apwdqw2v6ev6": {
-        "effort": 3,
-        "emotionalWeight": 2,
-        "tone": "warm",
-        "needFit": {
-          "ontspannen": 2,
-          "afleiding": 2,
-          "herkenning": 3,
-          "verkennen": 2,
-          "verdieping": 3
-        }
+        },
+        "activation": 3,
+        "interruptibility": 2
       },
       "01m2kqe102n76g6yvve5qmew7f": {
-        "effort": 4,
-        "emotionalWeight": 2,
-        "tone": "warm",
+        "effort": 3,
+        "emotionalWeight": 1,
+        "tone": "zakelijk",
         "needFit": {
-          "ontspannen": 2,
-          "afleiding": 2,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        }
+          "ontspannen": 0,
+          "afleiding": 1,
+          "herkenning": 2,
+          "verkennen": 4,
+          "verdieping": 4
+        },
+        "activation": 3,
+        "interruptibility": 3
       },
       "01m2kdst8ak0jx01eg6p6jg97n": {
-        "effort": 3,
-        "emotionalWeight": 2,
-        "tone": "warm",
-        "needFit": {
-          "ontspannen": 2,
-          "afleiding": 2,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        }
-      },
-      "01m2kabg6g2j7sa06n52eyn7v7": {
-        "effort": 4,
-        "emotionalWeight": 0,
-        "tone": "speels",
-        "needFit": {
-          "ontspannen": 1,
-          "afleiding": 3,
-          "herkenning": 1,
-          "verkennen": 3,
-          "verdieping": 3
-        }
-      },
-      "01m2k7b9je6j7mz7cy45cfpkcc": {
-        "effort": 3,
-        "emotionalWeight": 2,
-        "tone": "warm",
-        "needFit": {
-          "ontspannen": 2,
-          "afleiding": 2,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        }
-      },
-      "01m2k26569pzgzcmt79m9fyr5c": {
-        "effort": 1,
-        "emotionalWeight": 1,
-        "tone": "warm",
-        "needFit": {
-          "ontspannen": 2,
-          "afleiding": 3,
-          "herkenning": 1,
-          "verkennen": 4,
-          "verdieping": 2
-        }
-      },
-      "01m2jr8g2y03ankmxwvt6k866v": {
-        "effort": 4,
-        "emotionalWeight": 2,
-        "tone": "speels",
-        "needFit": {
-          "ontspannen": 1,
-          "afleiding": 3,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        }
-      },
-      "01m2jr89jfxrk18w99tsfc48xg": {
-        "effort": 3,
-        "emotionalWeight": 2,
-        "tone": "warm",
-        "needFit": {
-          "ontspannen": 2,
-          "afleiding": 2,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        }
-      },
-      "01m2jm9r08d8ybdhqpqh2rqd3a": {
-        "effort": 4,
-        "emotionalWeight": 2,
-        "tone": "speels",
-        "needFit": {
-          "ontspannen": 1,
-          "afleiding": 3,
-          "herkenning": 3,
-          "verkennen": 2,
-          "verdieping": 3
-        }
-      },
-      "01m2jm9qhem9fyhwxze7701chg": {
-        "effort": 1,
-        "emotionalWeight": 1,
-        "tone": "warm",
-        "needFit": {
-          "ontspannen": 3,
-          "afleiding": 3,
-          "herkenning": 1,
-          "verkennen": 4,
-          "verdieping": 2
-        }
-      },
-      "01m2jm9q1qegdm4sd2fdn65ajh": {
-        "effort": 1,
-        "emotionalWeight": 1,
-        "tone": "warm",
-        "needFit": {
-          "ontspannen": 3,
-          "afleiding": 3,
-          "herkenning": 1,
-          "verkennen": 4,
-          "verdieping": 2
-        }
-      },
-      "01m2jkgap4b0q9s0bsftq8bgta": {
         "effort": 2,
         "emotionalWeight": 1,
         "tone": "zakelijk",
         "needFit": {
           "ontspannen": 1,
-          "afleiding": 2,
+          "afleiding": 1,
           "herkenning": 1,
-          "verkennen": 4,
+          "verkennen": 3,
           "verdieping": 3
-        }
+        },
+        "activation": 2,
+        "interruptibility": 3
+      },
+      "01m2kabg6g2j7sa06n52eyn7v7": {
+        "effort": 2,
+        "emotionalWeight": 1,
+        "tone": "zakelijk",
+        "needFit": {
+          "ontspannen": 0,
+          "afleiding": 1,
+          "herkenning": 1,
+          "verkennen": 3,
+          "verdieping": 3
+        },
+        "activation": 3,
+        "interruptibility": 3
+      },
+      "01m2k7b9je6j7mz7cy45cfpkcc": {
+        "effort": 2,
+        "emotionalWeight": 2,
+        "tone": "intens",
+        "needFit": {
+          "ontspannen": 0,
+          "afleiding": 1,
+          "herkenning": 2,
+          "verkennen": 3,
+          "verdieping": 2
+        },
+        "activation": 3,
+        "interruptibility": 2
+      },
+      "01m2k26569pzgzcmt79m9fyr5c": {
+        "effort": 1,
+        "emotionalWeight": 1,
+        "tone": "zakelijk",
+        "needFit": {
+          "ontspannen": 2,
+          "afleiding": 3,
+          "herkenning": 1,
+          "verkennen": 3,
+          "verdieping": 2
+        },
+        "activation": 2,
+        "interruptibility": 3
+      },
+      "01m2jr8g2y03ankmxwvt6k866v": {
+        "effort": 3,
+        "emotionalWeight": 1,
+        "tone": "zakelijk",
+        "needFit": {
+          "ontspannen": 0,
+          "afleiding": 1,
+          "herkenning": 3,
+          "verkennen": 4,
+          "verdieping": 4
+        },
+        "activation": 3,
+        "interruptibility": 3
+      },
+      "01m2jr89jfxrk18w99tsfc48xg": {
+        "effort": 2,
+        "emotionalWeight": 0,
+        "tone": "reflectief",
+        "needFit": {
+          "ontspannen": 1,
+          "afleiding": 1,
+          "herkenning": 3,
+          "verkennen": 4,
+          "verdieping": 4
+        },
+        "activation": 2,
+        "interruptibility": 2
+      },
+      "01m2jm9r08d8ybdhqpqh2rqd3a": {
+        "effort": 3,
+        "emotionalWeight": 1,
+        "tone": "zakelijk",
+        "needFit": {
+          "ontspannen": 0,
+          "afleiding": 0,
+          "herkenning": 3,
+          "verkennen": 4,
+          "verdieping": 4
+        },
+        "activation": 2,
+        "interruptibility": 2
+      },
+      "01m2jm9qhem9fyhwxze7701chg": {
+        "effort": 1,
+        "emotionalWeight": 0,
+        "tone": "zakelijk",
+        "needFit": {
+          "ontspannen": 3,
+          "afleiding": 3,
+          "herkenning": 1,
+          "verkennen": 3,
+          "verdieping": 2
+        },
+        "activation": 1,
+        "interruptibility": 2
+      },
+      "01m2jm9q1qegdm4sd2fdn65ajh": {
+        "effort": 1,
+        "emotionalWeight": 1,
+        "tone": "zakelijk",
+        "needFit": {
+          "ontspannen": 2,
+          "afleiding": 3,
+          "herkenning": 1,
+          "verkennen": 3,
+          "verdieping": 2
+        },
+        "activation": 1,
+        "interruptibility": 2
+      },
+      "01m2jkgap4b0q9s0bsftq8bgta": {
+        "effort": 1,
+        "emotionalWeight": 0,
+        "tone": "zakelijk",
+        "needFit": {
+          "ontspannen": 2,
+          "afleiding": 3,
+          "herkenning": 1,
+          "verkennen": 3,
+          "verdieping": 2
+        },
+        "activation": 1,
+        "interruptibility": 2
       },
       "01m2jf1162hpbakpp87vn49yym": {
         "effort": 3,
         "emotionalWeight": 1,
         "tone": "zakelijk",
         "needFit": {
-          "ontspannen": 1,
+          "ontspannen": 0,
           "afleiding": 1,
-          "herkenning": 1,
+          "herkenning": 2,
           "verkennen": 3,
           "verdieping": 3
-        }
+        },
+        "activation": 2,
+        "interruptibility": 3
       },
       "01m2jdambdhe703e1ecfvdkb9q": {
-        "effort": 3,
-        "emotionalWeight": 0,
-        "tone": "speels",
+        "effort": 2,
+        "emotionalWeight": 2,
+        "tone": "zakelijk",
         "needFit": {
-          "ontspannen": 1,
-          "afleiding": 3,
+          "ontspannen": 0,
+          "afleiding": 0,
           "herkenning": 1,
-          "verkennen": 3,
+          "verkennen": 2,
           "verdieping": 3
-        }
+        },
+        "activation": 3,
+        "interruptibility": 3
       },
       "01m2jd6aqkd7b84hw7sbwcdfvr": {
-        "effort": 3,
+        "effort": 2,
         "emotionalWeight": 2,
-        "tone": "speels",
+        "tone": "intens",
         "needFit": {
-          "ontspannen": 1,
-          "afleiding": 3,
-          "herkenning": 3,
+          "ontspannen": 0,
+          "afleiding": 1,
+          "herkenning": 2,
           "verkennen": 3,
-          "verdieping": 3
-        }
+          "verdieping": 2
+        },
+        "activation": 3,
+        "interruptibility": 2
       },
       "01m2jbf3n6p58de83t7hsz1t95": {
-        "effort": 3,
+        "effort": 1,
+        "emotionalWeight": 2,
+        "tone": "intens",
+        "needFit": {
+          "ontspannen": 0,
+          "afleiding": 1,
+          "herkenning": 2,
+          "verkennen": 3,
+          "verdieping": 2
+        },
+        "activation": 3,
+        "interruptibility": 2
+      },
+      "01m2hzzfprmy3jxhm5g3nfwacb": {
+        "effort": 1,
         "emotionalWeight": 1,
         "tone": "zakelijk",
         "needFit": {
-          "ontspannen": 3,
-          "afleiding": 3,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        }
-      },
-      "01m2j0075w5khvczd7ryxe70z6": {
-        "effort": 3,
-        "emotionalWeight": 2,
-        "tone": "warm",
-        "needFit": {
           "ontspannen": 2,
-          "afleiding": 2,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        }
-      },
-      "01m2j004hvhgzyfq7fx9y57rec": {
-        "effort": 3,
-        "emotionalWeight": 2,
-        "tone": "warm",
-        "needFit": {
-          "ontspannen": 2,
-          "afleiding": 2,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        }
-      },
-      "01m2j001f1dva7pm8rnd4e97sj": {
-        "effort": 3,
-        "emotionalWeight": 2,
-        "tone": "warm",
-        "needFit": {
-          "ontspannen": 2,
-          "afleiding": 2,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        }
-      },
-      "01m2hzzfprmy3jxhm5g3nfwacb": {
-        "effort": 3,
-        "emotionalWeight": 3,
-        "tone": "warm",
-        "needFit": {
-          "ontspannen": 2,
-          "afleiding": 2,
-          "herkenning": 3,
+          "afleiding": 1,
+          "herkenning": 4,
           "verkennen": 2,
-          "verdieping": 3
-        }
-      },
-      "01m2hzz736ff6f5t97d1ctk4kk": {
-        "effort": 3,
-        "emotionalWeight": 2,
-        "tone": "warm",
-        "needFit": {
-          "ontspannen": 2,
-          "afleiding": 2,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        }
+          "verdieping": 2
+        },
+        "activation": 2,
+        "interruptibility": 3
       },
       "01m2hqbzy3gmwsq8nhwmmadjb1": {
         "effort": 3,
         "emotionalWeight": 2,
-        "tone": "speels",
+        "tone": "reflectief",
         "needFit": {
-          "ontspannen": 1,
-          "afleiding": 3,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        }
+          "ontspannen": 0,
+          "afleiding": 1,
+          "herkenning": 4,
+          "verkennen": 4,
+          "verdieping": 4
+        },
+        "activation": 2,
+        "interruptibility": 1
       },
       "01m2hndcfjrxtfc5b27zeaqcke": {
-        "effort": 1,
-        "emotionalWeight": 3,
-        "tone": "warm",
+        "effort": 2,
+        "emotionalWeight": 1,
+        "tone": "zakelijk",
         "needFit": {
-          "ontspannen": 3,
-          "afleiding": 3,
-          "herkenning": 3,
+          "ontspannen": 2,
+          "afleiding": 4,
+          "herkenning": 2,
           "verkennen": 3,
-          "verdieping": 1
-        }
+          "verdieping": 3
+        },
+        "activation": 2,
+        "interruptibility": 3
       },
       "01m2gbthqrjaxjh99tqkckbc8f": {
         "effort": 1,
@@ -2437,9 +2883,11 @@ window.TOP_ARTICLES = {
           "ontspannen": 2,
           "afleiding": 1,
           "herkenning": 4,
-          "verkennen": 3,
+          "verkennen": 2,
           "verdieping": 3
-        }
+        },
+        "activation": 2,
+        "interruptibility": 3
       },
       "01m2f1qxw8ddqy8yg8bedvven0": {
         "effort": 1,
@@ -2451,407 +2899,517 @@ window.TOP_ARTICLES = {
           "herkenning": 1,
           "verkennen": 4,
           "verdieping": 2
-        }
+        },
+        "activation": 2,
+        "interruptibility": 4
       },
       "01m2f1qxfpj7qyzp0fj9d7qbfr": {
-        "effort": 3,
-        "emotionalWeight": 2,
-        "tone": "warm",
+        "effort": 2,
+        "emotionalWeight": 0,
+        "tone": "rustig",
         "needFit": {
-          "ontspannen": 3,
+          "ontspannen": 2,
           "afleiding": 3,
-          "herkenning": 3,
-          "verkennen": 3,
+          "herkenning": 1,
+          "verkennen": 4,
           "verdieping": 3
-        }
+        },
+        "activation": 2,
+        "interruptibility": 2
       },
       "01m2f1qrd2q395gz2wkwc8x1n7": {
-        "effort": 3,
-        "emotionalWeight": 2,
-        "tone": "warm",
+        "effort": 1,
+        "emotionalWeight": 1,
+        "tone": "zakelijk",
         "needFit": {
           "ontspannen": 2,
-          "afleiding": 2,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        }
+          "afleiding": 1,
+          "herkenning": 4,
+          "verkennen": 2,
+          "verdieping": 2
+        },
+        "activation": 2,
+        "interruptibility": 4
       },
       "01m2e4kdpwh1a7869hvqwxmkh3": {
-        "effort": 3,
+        "effort": 1,
         "emotionalWeight": 2,
-        "tone": "warm",
-        "needFit": {
-          "ontspannen": 2,
-          "afleiding": 2,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        }
-      },
-      "01m2dzwjcxjqdxgxt665c5b2ya": {
-        "effort": 3,
-        "emotionalWeight": 2,
-        "tone": "speels",
+        "tone": "reflectief",
         "needFit": {
           "ontspannen": 1,
-          "afleiding": 3,
+          "afleiding": 1,
           "herkenning": 3,
           "verkennen": 3,
           "verdieping": 3
-        }
+        },
+        "activation": 2,
+        "interruptibility": 3
       },
-      "01m2dzwen6cfw2jhhrnmqv43xp": {
-        "effort": 4,
-        "emotionalWeight": 2,
-        "tone": "warm",
+      "01m2dzwjcxjqdxgxt665c5b2ya": {
+        "effort": 2,
+        "emotionalWeight": 1,
+        "tone": "reflectief",
         "needFit": {
-          "ontspannen": 2,
+          "ontspannen": 1,
           "afleiding": 2,
           "herkenning": 3,
           "verkennen": 3,
           "verdieping": 3
-        }
+        },
+        "activation": 3,
+        "interruptibility": 2
+      },
+      "01m2dzwen6cfw2jhhrnmqv43xp": {
+        "effort": 2,
+        "emotionalWeight": 1,
+        "tone": "reflectief",
+        "needFit": {
+          "ontspannen": 1,
+          "afleiding": 2,
+          "herkenning": 3,
+          "verkennen": 4,
+          "verdieping": 4
+        },
+        "activation": 2,
+        "interruptibility": 3
       },
       "01m2dwzwz5mg1nhnb11zmmxyn0": {
         "effort": 1,
         "emotionalWeight": 1,
-        "tone": "speels",
+        "tone": "warm",
         "needFit": {
           "ontspannen": 3,
           "afleiding": 2,
           "herkenning": 4,
-          "verkennen": 3,
+          "verkennen": 2,
           "verdieping": 2
-        }
+        },
+        "activation": 2,
+        "interruptibility": 4
       },
       "01m2d7sherfyb949cqy4k003xt": {
-        "effort": 2,
-        "emotionalWeight": 2,
+        "effort": 1,
+        "emotionalWeight": 1,
         "tone": "warm",
         "needFit": {
           "ontspannen": 2,
           "afleiding": 2,
-          "herkenning": 3,
-          "verkennen": 2,
+          "herkenning": 4,
+          "verkennen": 3,
           "verdieping": 2
-        }
+        },
+        "activation": 2,
+        "interruptibility": 4
       },
       "01m2cwyrq374986jczh0y8x91b": {
-        "effort": 4,
-        "emotionalWeight": 2,
-        "tone": "speels",
+        "effort": 2,
+        "emotionalWeight": 3,
+        "tone": "reflectief",
         "needFit": {
-          "ontspannen": 1,
-          "afleiding": 3,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        }
+          "ontspannen": 0,
+          "afleiding": 1,
+          "herkenning": 2,
+          "verkennen": 4,
+          "verdieping": 4
+        },
+        "activation": 2,
+        "interruptibility": 1
       },
       "01m2aysbr5r7v0x099jednqehf": {
-        "effort": 3,
-        "emotionalWeight": 0,
-        "tone": "zakelijk",
+        "effort": 2,
+        "emotionalWeight": 3,
+        "tone": "intens",
         "needFit": {
-          "ontspannen": 1,
-          "afleiding": 1,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        }
+          "ontspannen": 0,
+          "afleiding": 0,
+          "herkenning": 2,
+          "verkennen": 4,
+          "verdieping": 4
+        },
+        "activation": 3,
+        "interruptibility": 2
       },
       "01m2a8v1prarfgvmkgwy4ercs4": {
-        "effort": 3,
-        "emotionalWeight": 2,
-        "tone": "speels",
-        "needFit": {
-          "ontspannen": 1,
-          "afleiding": 3,
-          "herkenning": 3,
-          "verkennen": 2,
-          "verdieping": 3
-        }
-      },
-      "01m253pktm74qr6be7rem8scbb": {
-        "effort": 4,
-        "emotionalWeight": 2,
-        "tone": "warm",
-        "needFit": {
-          "ontspannen": 2,
-          "afleiding": 2,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        }
-      },
-      "01m238hym49xc8fej427a9vvvb": {
-        "effort": 3,
-        "emotionalWeight": 2,
-        "tone": "warm",
-        "needFit": {
-          "ontspannen": 3,
-          "afleiding": 3,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        }
-      },
-      "01m227yg7yamdn2qq40a45gr71": {
-        "effort": 3,
-        "emotionalWeight": 1,
-        "tone": "speels",
-        "needFit": {
-          "ontspannen": 1,
-          "afleiding": 3,
-          "herkenning": 3,
-          "verkennen": 2,
-          "verdieping": 3
-        }
-      },
-      "01m2265g0kyk1003t9x2hsdzw8": {
-        "effort": 3,
-        "emotionalWeight": 2,
-        "tone": "warm",
-        "needFit": {
-          "ontspannen": 2,
-          "afleiding": 2,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        }
-      },
-      "01m207r5gtkhknjq6ezh237a4s": {
-        "effort": 3,
-        "emotionalWeight": 2,
-        "tone": "warm",
-        "needFit": {
-          "ontspannen": 2,
-          "afleiding": 2,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        }
-      },
-      "01m1zz7f9eqj3hmaee464gw72n": {
-        "effort": 3,
-        "emotionalWeight": 2,
-        "tone": "speels",
-        "needFit": {
-          "ontspannen": 1,
-          "afleiding": 3,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        }
-      },
-      "01m1zvs6zarc4w1cwf7w1sc7ef": {
-        "effort": 4,
-        "emotionalWeight": 1,
-        "tone": "speels",
-        "needFit": {
-          "ontspannen": 1,
-          "afleiding": 3,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        }
-      },
-      "01m1xy92em8n4jbgr4g35t97vt": {
-        "effort": 4,
-        "emotionalWeight": 2,
-        "tone": "speels",
-        "needFit": {
-          "ontspannen": 1,
-          "afleiding": 3,
-          "herkenning": 3,
-          "verkennen": 2,
-          "verdieping": 3
-        }
-      },
-      "01m1xeepy1sxxp8wd2yzzz15sb": {
-        "effort": 4,
-        "emotionalWeight": 2,
-        "tone": "speels",
-        "needFit": {
-          "ontspannen": 1,
-          "afleiding": 3,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        }
-      },
-      "01m1xbff44jky00v2mqa9an884": {
-        "effort": 4,
-        "emotionalWeight": 2,
-        "tone": "speels",
-        "needFit": {
-          "ontspannen": 1,
-          "afleiding": 3,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        }
-      },
-      "01m1x3j7mcz6nr1h97j6pmj0y6": {
-        "effort": 3,
-        "emotionalWeight": 3,
-        "tone": "warm",
-        "needFit": {
-          "ontspannen": 2,
-          "afleiding": 2,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        }
-      },
-      "01m1x3htad4kaatak8j78p7e11": {
-        "effort": 3,
-        "emotionalWeight": 2,
-        "tone": "speels",
-        "needFit": {
-          "ontspannen": 1,
-          "afleiding": 3,
-          "herkenning": 3,
-          "verkennen": 2,
-          "verdieping": 3
-        }
-      },
-      "01m1w4fzwhgx8cz2g8nkap1pdq": {
-        "effort": 3,
+        "effort": 2,
         "emotionalWeight": 0,
         "tone": "zakelijk",
         "needFit": {
           "ontspannen": 1,
           "afleiding": 1,
-          "herkenning": 3,
+          "herkenning": 4,
           "verkennen": 3,
           "verdieping": 3
-        }
+        },
+        "activation": 2,
+        "interruptibility": 2
       },
-      "01m1v3gmjamae3pe9yj4zdykh4": {
-        "effort": 4,
-        "emotionalWeight": 2,
-        "tone": "speels",
-        "needFit": {
-          "ontspannen": 3,
-          "afleiding": 3,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        }
-      },
-      "01m1rqhq0jsh1hs8h8v39a8etr": {
+      "01m253pktm74qr6be7rem8scbb": {
         "effort": 2,
         "emotionalWeight": 1,
-        "tone": "warm",
+        "tone": "reflectief",
+        "needFit": {
+          "ontspannen": 1,
+          "afleiding": 1,
+          "herkenning": 4,
+          "verkennen": 4,
+          "verdieping": 3
+        },
+        "activation": 2,
+        "interruptibility": 3
+      },
+      "01m238hym49xc8fej427a9vvvb": {
+        "effort": 2,
+        "emotionalWeight": 1,
+        "tone": "reflectief",
+        "needFit": {
+          "ontspannen": 2,
+          "afleiding": 3,
+          "herkenning": 1,
+          "verkennen": 4,
+          "verdieping": 3
+        },
+        "activation": 2,
+        "interruptibility": 2
+      },
+      "01m227yg7yamdn2qq40a45gr71": {
+        "effort": 1,
+        "emotionalWeight": 0,
+        "tone": "zakelijk",
+        "needFit": {
+          "ontspannen": 2,
+          "afleiding": 1,
+          "herkenning": 4,
+          "verkennen": 3,
+          "verdieping": 2
+        },
+        "activation": 2,
+        "interruptibility": 3
+      },
+      "01m2265g0kyk1003t9x2hsdzw8": {
+        "effort": 2,
+        "emotionalWeight": 1,
+        "tone": "reflectief",
+        "needFit": {
+          "ontspannen": 1,
+          "afleiding": 2,
+          "herkenning": 4,
+          "verkennen": 4,
+          "verdieping": 3
+        },
+        "activation": 2,
+        "interruptibility": 2
+      },
+      "01m1zz7f9eqj3hmaee464gw72n": {
+        "effort": 1,
+        "emotionalWeight": 0,
+        "tone": "zakelijk",
+        "needFit": {
+          "ontspannen": 2,
+          "afleiding": 1,
+          "herkenning": 3,
+          "verkennen": 3,
+          "verdieping": 1
+        },
+        "activation": 2,
+        "interruptibility": 3
+      },
+      "01m1zvs6zarc4w1cwf7w1sc7ef": {
+        "effort": 2,
+        "emotionalWeight": 1,
+        "tone": "zakelijk",
         "needFit": {
           "ontspannen": 1,
           "afleiding": 1,
           "herkenning": 4,
           "verkennen": 3,
           "verdieping": 4
-        }
+        },
+        "activation": 3,
+        "interruptibility": 2
       },
-      "01m1qrpd5gceesywwc4xbbs2d9": {
-        "effort": 4,
+      "01m1xy92em8n4jbgr4g35t97vt": {
+        "effort": 2,
         "emotionalWeight": 0,
         "tone": "zakelijk",
         "needFit": {
-          "ontspannen": 1,
-          "afleiding": 1,
-          "herkenning": 3,
-          "verkennen": 2,
-          "verdieping": 3
-        }
-      },
-      "01m1qrnm32e32se2m8gp9bvx2m": {
-        "effort": 3,
-        "emotionalWeight": 2,
-        "tone": "speels",
-        "needFit": {
-          "ontspannen": 1,
-          "afleiding": 3,
+          "ontspannen": 0,
+          "afleiding": 0,
           "herkenning": 3,
           "verkennen": 3,
-          "verdieping": 3
-        }
+          "verdieping": 4
+        },
+        "activation": 3,
+        "interruptibility": 4
       },
-      "01m1q5n7sb6ar9nn4wsdbg35g6": {
-        "effort": 3,
-        "emotionalWeight": 1,
-        "tone": "speels",
-        "needFit": {
-          "ontspannen": 1,
-          "afleiding": 3,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        }
-      },
-      "01m1q5mmmtp4bapv8zdc44zcvg": {
-        "effort": 3,
+      "01m1xeepy1sxxp8wd2yzzz15sb": {
+        "effort": 2,
         "emotionalWeight": 1,
         "tone": "zakelijk",
         "needFit": {
           "ontspannen": 1,
-          "afleiding": 1,
+          "afleiding": 3,
           "herkenning": 3,
           "verkennen": 3,
           "verdieping": 3
-        }
+        },
+        "activation": 2,
+        "interruptibility": 3
       },
-      "01m1q5mj32wmmzv65nwajcxaf3": {
-        "effort": 3,
-        "emotionalWeight": 0,
-        "tone": "zakelijk",
+      "01m1xbff44jky00v2mqa9an884": {
+        "effort": 2,
+        "emotionalWeight": 1,
+        "tone": "reflectief",
         "needFit": {
           "ontspannen": 1,
           "afleiding": 1,
-          "herkenning": 3,
-          "verkennen": 2,
+          "herkenning": 4,
+          "verkennen": 4,
           "verdieping": 3
-        }
+        },
+        "activation": 3,
+        "interruptibility": 2
       },
-      "01m1q3apz296jkrexs5knjaqxf": {
-        "effort": 3,
-        "emotionalWeight": 2,
-        "tone": "speels",
+      "01m1x3j7mcz6nr1h97j6pmj0y6": {
+        "effort": 2,
+        "emotionalWeight": 1,
+        "tone": "intens",
         "needFit": {
           "ontspannen": 1,
-          "afleiding": 3,
-          "herkenning": 3,
-          "verkennen": 2,
+          "afleiding": 1,
+          "herkenning": 4,
+          "verkennen": 4,
           "verdieping": 3
-        }
+        },
+        "activation": 3,
+        "interruptibility": 2
       },
-      "01m1q3a33tajs6z8x9f3pmvraf": {
-        "effort": 3,
-        "emotionalWeight": 2,
-        "tone": "warm",
+      "01m1x3htad4kaatak8j78p7e11": {
+        "effort": 1,
+        "emotionalWeight": 1,
+        "tone": "reflectief",
         "needFit": {
           "ontspannen": 2,
           "afleiding": 2,
           "herkenning": 3,
-          "verkennen": 2,
+          "verkennen": 3,
           "verdieping": 3
-        }
+        },
+        "activation": 2,
+        "interruptibility": 3
+      },
+      "01m1v3gmjamae3pe9yj4zdykh4": {
+        "effort": 3,
+        "emotionalWeight": 1,
+        "tone": "reflectief",
+        "needFit": {
+          "ontspannen": 0,
+          "afleiding": 2,
+          "herkenning": 2,
+          "verkennen": 4,
+          "verdieping": 4
+        },
+        "activation": 2,
+        "interruptibility": 1
+      },
+      "01m1rqhq0jsh1hs8h8v39a8etr": {
+        "effort": 1,
+        "emotionalWeight": 1,
+        "tone": "zakelijk",
+        "needFit": {
+          "ontspannen": 2,
+          "afleiding": 1,
+          "herkenning": 4,
+          "verkennen": 3,
+          "verdieping": 3
+        },
+        "activation": 3,
+        "interruptibility": 4
+      },
+      "01m1qrpd5gceesywwc4xbbs2d9": {
+        "effort": 2,
+        "emotionalWeight": 0,
+        "tone": "zakelijk",
+        "needFit": {
+          "ontspannen": 1,
+          "afleiding": 1,
+          "herkenning": 3,
+          "verkennen": 3,
+          "verdieping": 3
+        },
+        "activation": 2,
+        "interruptibility": 3
+      },
+      "01m1qrnm32e32se2m8gp9bvx2m": {
+        "effort": 2,
+        "emotionalWeight": 0,
+        "tone": "zakelijk",
+        "needFit": {
+          "ontspannen": 1,
+          "afleiding": 1,
+          "herkenning": 3,
+          "verkennen": 3,
+          "verdieping": 3
+        },
+        "activation": 3,
+        "interruptibility": 3
+      },
+      "01m1q5n7sb6ar9nn4wsdbg35g6": {
+        "effort": 2,
+        "emotionalWeight": 0,
+        "tone": "intens",
+        "needFit": {
+          "ontspannen": 1,
+          "afleiding": 1,
+          "herkenning": 3,
+          "verkennen": 3,
+          "verdieping": 3
+        },
+        "activation": 3,
+        "interruptibility": 3
+      },
+      "01m1q5mmmtp4bapv8zdc44zcvg": {
+        "effort": 2,
+        "emotionalWeight": 0,
+        "tone": "zakelijk",
+        "needFit": {
+          "ontspannen": 1,
+          "afleiding": 2,
+          "herkenning": 3,
+          "verkennen": 3,
+          "verdieping": 3
+        },
+        "activation": 2,
+        "interruptibility": 4
+      },
+      "01m1q5mj32wmmzv65nwajcxaf3": {
+        "effort": 2,
+        "emotionalWeight": 0,
+        "tone": "zakelijk",
+        "needFit": {
+          "ontspannen": 1,
+          "afleiding": 1,
+          "herkenning": 3,
+          "verkennen": 3,
+          "verdieping": 3
+        },
+        "activation": 2,
+        "interruptibility": 4
+      },
+      "01m1q3apz296jkrexs5knjaqxf": {
+        "effort": 2,
+        "emotionalWeight": 0,
+        "tone": "zakelijk",
+        "needFit": {
+          "ontspannen": 0,
+          "afleiding": 1,
+          "herkenning": 3,
+          "verkennen": 4,
+          "verdieping": 4
+        },
+        "activation": 3,
+        "interruptibility": 2
+      },
+      "01m1q3a33tajs6z8x9f3pmvraf": {
+        "effort": 1,
+        "emotionalWeight": 0,
+        "tone": "zakelijk",
+        "needFit": {
+          "ontspannen": 2,
+          "afleiding": 1,
+          "herkenning": 3,
+          "verkennen": 3,
+          "verdieping": 3
+        },
+        "activation": 2,
+        "interruptibility": 4
       },
       "01m1q39c2bg52c45zpapazahcw": {
         "effort": 3,
-        "emotionalWeight": 2,
-        "tone": "warm",
+        "emotionalWeight": 0,
+        "tone": "zakelijk",
+        "needFit": {
+          "ontspannen": 0,
+          "afleiding": 1,
+          "herkenning": 3,
+          "verkennen": 3,
+          "verdieping": 4
+        },
+        "activation": 2,
+        "interruptibility": 4
+      },
+      "01m1q397npt8pd2zgh8kkyx7g7": {
+        "effort": 2,
+        "emotionalWeight": 0,
+        "tone": "zakelijk",
+        "needFit": {
+          "ontspannen": 1,
+          "afleiding": 1,
+          "herkenning": 3,
+          "verkennen": 2,
+          "verdieping": 4
+        },
+        "activation": 2,
+        "interruptibility": 4
+      },
+      "01m1q393yn5qpbe7gv7dq3eqv9": {
+        "effort": 2,
+        "emotionalWeight": 0,
+        "tone": "zakelijk",
+        "needFit": {
+          "ontspannen": 1,
+          "afleiding": 1,
+          "herkenning": 2,
+          "verkennen": 3,
+          "verdieping": 3
+        },
+        "activation": 1,
+        "interruptibility": 3
+      },
+      "01m1q38ff85hf5x3wm3f495r1d": {
+        "effort": 1,
+        "emotionalWeight": 0,
+        "tone": "zakelijk",
         "needFit": {
           "ontspannen": 2,
           "afleiding": 2,
+          "herkenning": 2,
+          "verkennen": 3,
+          "verdieping": 3
+        },
+        "activation": 1,
+        "interruptibility": 4
+      },
+      "01m1q387kecjnv4ddq8tgyy4h2": {
+        "effort": 1,
+        "emotionalWeight": 0,
+        "tone": "zakelijk",
+        "needFit": {
+          "ontspannen": 3,
+          "afleiding": 2,
+          "herkenning": 3,
+          "verkennen": 3,
+          "verdieping": 2
+        },
+        "activation": 2,
+        "interruptibility": 3
+      },
+      "01m1ptj29cwr9k2jg48w4nvz74": {
+        "effort": 1,
+        "emotionalWeight": 0,
+        "tone": "zakelijk",
+        "needFit": {
+          "ontspannen": 2,
+          "afleiding": 1,
           "herkenning": 3,
           "verkennen": 2,
           "verdieping": 3
-        }
+        },
+        "activation": 1,
+        "interruptibility": 3
       },
-      "01m1q397npt8pd2zgh8kkyx7g7": {
-        "effort": 3,
-        "emotionalWeight": 1,
+      "01m1ptghcfvreqe0a796mr3f0z": {
+        "effort": 2,
+        "emotionalWeight": 0,
         "tone": "zakelijk",
         "needFit": {
           "ontspannen": 1,
@@ -2859,107 +3417,69 @@ window.TOP_ARTICLES = {
           "herkenning": 3,
           "verkennen": 2,
           "verdieping": 3
-        }
+        },
+        "activation": 2,
+        "interruptibility": 3
       },
-      "01m1q393yn5qpbe7gv7dq3eqv9": {
-        "effort": 3,
-        "emotionalWeight": 1,
+      "01m1ptew1kmsww5mc9bbkkg26x": {
+        "effort": 1,
+        "emotionalWeight": 0,
         "tone": "zakelijk",
-        "needFit": {
-          "ontspannen": 1,
-          "afleiding": 1,
-          "herkenning": 3,
-          "verkennen": 2,
-          "verdieping": 3
-        }
-      },
-      "01m1q38ff85hf5x3wm3f495r1d": {
-        "effort": 3,
-        "emotionalWeight": 2,
-        "tone": "warm",
         "needFit": {
           "ontspannen": 2,
           "afleiding": 2,
           "herkenning": 3,
           "verkennen": 3,
-          "verdieping": 3
-        }
-      },
-      "01m1q387kecjnv4ddq8tgyy4h2": {
-        "effort": 3,
-        "emotionalWeight": 2,
-        "tone": "warm",
-        "needFit": {
-          "ontspannen": 2,
-          "afleiding": 2,
-          "herkenning": 3,
-          "verkennen": 2,
-          "verdieping": 3
-        }
-      },
-      "01m1ptj29cwr9k2jg48w4nvz74": {
-        "effort": 3,
-        "emotionalWeight": 2,
-        "tone": "warm",
-        "needFit": {
-          "ontspannen": 2,
-          "afleiding": 2,
-          "herkenning": 3,
-          "verkennen": 2,
-          "verdieping": 3
-        }
-      },
-      "01m1ptghcfvreqe0a796mr3f0z": {
-        "effort": 3,
-        "emotionalWeight": 2,
-        "tone": "warm",
-        "needFit": {
-          "ontspannen": 2,
-          "afleiding": 2,
-          "herkenning": 3,
-          "verkennen": 2,
-          "verdieping": 3
-        }
-      },
-      "01m1ptew1kmsww5mc9bbkkg26x": {
-        "effort": 3,
-        "emotionalWeight": 1,
-        "tone": "zakelijk",
-        "needFit": {
-          "ontspannen": 1,
-          "afleiding": 1,
-          "herkenning": 3,
-          "verkennen": 2,
-          "verdieping": 3
-        }
+          "verdieping": 2
+        },
+        "activation": 2,
+        "interruptibility": 3
       },
       "01m1ptdtpgacgz9tkd640axtse": {
-        "effort": 3,
-        "emotionalWeight": 1,
+        "effort": 2,
+        "emotionalWeight": 0,
         "tone": "zakelijk",
         "needFit": {
           "ontspannen": 1,
           "afleiding": 1,
           "herkenning": 3,
-          "verkennen": 2,
+          "verkennen": 3,
           "verdieping": 3
-        }
+        },
+        "activation": 3,
+        "interruptibility": 2
       },
       "01m1pkcqybtrart8abs9dmmcqd": {
         "effort": 3,
-        "emotionalWeight": 2,
-        "tone": "speels",
+        "emotionalWeight": 0,
+        "tone": "zakelijk",
         "needFit": {
-          "ontspannen": 1,
-          "afleiding": 3,
+          "ontspannen": 0,
+          "afleiding": 1,
           "herkenning": 3,
           "verkennen": 3,
           "verdieping": 3
-        }
+        },
+        "activation": 2,
+        "interruptibility": 3
       },
       "01m1pkcmdmv93epp6nrb29me5b": {
-        "effort": 3,
-        "emotionalWeight": 1,
+        "effort": 1,
+        "emotionalWeight": 0,
+        "tone": "zakelijk",
+        "needFit": {
+          "ontspannen": 2,
+          "afleiding": 1,
+          "herkenning": 4,
+          "verkennen": 3,
+          "verdieping": 2
+        },
+        "activation": 2,
+        "interruptibility": 4
+      },
+      "01m1pkbwp8yhkmvyn4v9hw8p0p": {
+        "effort": 2,
+        "emotionalWeight": 0,
         "tone": "zakelijk",
         "needFit": {
           "ontspannen": 1,
@@ -2967,94 +3487,96 @@ window.TOP_ARTICLES = {
           "herkenning": 3,
           "verkennen": 3,
           "verdieping": 3
-        }
+        },
+        "activation": 3,
+        "interruptibility": 3
       },
-      "01m1pkbwp8yhkmvyn4v9hw8p0p": {
-        "effort": 3,
-        "emotionalWeight": 2,
+      "01m1pkbsyqx3cxesvp346tnad9": {
+        "effort": 2,
+        "emotionalWeight": 0,
         "tone": "warm",
         "needFit": {
           "ontspannen": 2,
           "afleiding": 2,
           "herkenning": 3,
-          "verkennen": 2,
+          "verkennen": 3,
           "verdieping": 3
-        }
-      },
-      "01m1pkbsyqx3cxesvp346tnad9": {
-        "effort": 3,
-        "emotionalWeight": 2,
-        "tone": "speels",
-        "needFit": {
-          "ontspannen": 1,
-          "afleiding": 3,
-          "herkenning": 3,
-          "verkennen": 2,
-          "verdieping": 3
-        }
+        },
+        "activation": 2,
+        "interruptibility": 3
       },
       "01m1pc8cz444y77ecj8rn0s6jj": {
-        "effort": 3,
+        "effort": 1,
         "emotionalWeight": 0,
-        "tone": "zakelijk",
+        "tone": "intens",
         "needFit": {
-          "ontspannen": 1,
+          "ontspannen": 2,
           "afleiding": 1,
           "herkenning": 3,
-          "verkennen": 2,
+          "verkennen": 3,
           "verdieping": 3
-        }
+        },
+        "activation": 3,
+        "interruptibility": 3
       },
       "01m1pc7vnnk9e86sew4myjsr7n": {
         "effort": 3,
-        "emotionalWeight": 1,
+        "emotionalWeight": 0,
         "tone": "zakelijk",
         "needFit": {
-          "ontspannen": 1,
-          "afleiding": 1,
-          "herkenning": 3,
-          "verkennen": 2,
-          "verdieping": 3
-        }
+          "ontspannen": 0,
+          "afleiding": 0,
+          "herkenning": 2,
+          "verkennen": 3,
+          "verdieping": 4
+        },
+        "activation": 3,
+        "interruptibility": 1
       },
       "01m1pc7fdpfh7wg782tb035r64": {
-        "effort": 3,
-        "emotionalWeight": 1,
-        "tone": "speels",
-        "needFit": {
-          "ontspannen": 1,
-          "afleiding": 3,
-          "herkenning": 3,
-          "verkennen": 2,
-          "verdieping": 3
-        }
-      },
-      "01m1pc72x702cayjqqyg82aer8": {
-        "effort": 3,
-        "emotionalWeight": 1,
+        "effort": 1,
+        "emotionalWeight": 0,
         "tone": "zakelijk",
         "needFit": {
-          "ontspannen": 1,
+          "ontspannen": 2,
           "afleiding": 1,
           "herkenning": 3,
           "verkennen": 2,
           "verdieping": 3
-        }
+        },
+        "activation": 2,
+        "interruptibility": 4
+      },
+      "01m1pc72x702cayjqqyg82aer8": {
+        "effort": 2,
+        "emotionalWeight": 1,
+        "tone": "reflectief",
+        "needFit": {
+          "ontspannen": 1,
+          "afleiding": 1,
+          "herkenning": 3,
+          "verkennen": 3,
+          "verdieping": 3
+        },
+        "activation": 3,
+        "interruptibility": 2
       },
       "01m1pc6gr3vhv7xva2751hmj1n": {
         "effort": 3,
-        "emotionalWeight": 1,
+        "emotionalWeight": 0,
         "tone": "zakelijk",
         "needFit": {
-          "ontspannen": 1,
+          "ontspannen": 0,
           "afleiding": 1,
           "herkenning": 3,
-          "verkennen": 2,
-          "verdieping": 3
-        }
+          "verkennen": 3,
+          "verdieping": 4
+        },
+        "activation": 3,
+        "interruptibility": 3
       },
       "01m1pc5ty6322rn2cg1cjtt21p": {
-        "effort": 3,
+        "effort": 2,
         "emotionalWeight": 0,
         "tone": "zakelijk",
         "needFit": {
@@ -3063,82 +3585,96 @@ window.TOP_ARTICLES = {
           "herkenning": 3,
           "verkennen": 3,
           "verdieping": 3
-        }
+        },
+        "activation": 2,
+        "interruptibility": 1
       },
       "01m1pc5k1q6bd3ywk10j54kee5": {
-        "effort": 3,
-        "emotionalWeight": 1,
-        "tone": "speels",
+        "effort": 2,
+        "emotionalWeight": 0,
+        "tone": "zakelijk",
         "needFit": {
           "ontspannen": 1,
-          "afleiding": 3,
+          "afleiding": 1,
           "herkenning": 3,
           "verkennen": 3,
           "verdieping": 3
-        }
+        },
+        "activation": 3,
+        "interruptibility": 2
       },
       "01m1pc5bft2s8qqbgsbptmv6my": {
         "effort": 3,
         "emotionalWeight": 0,
         "tone": "zakelijk",
         "needFit": {
-          "ontspannen": 1,
-          "afleiding": 1,
-          "herkenning": 3,
-          "verkennen": 2,
-          "verdieping": 3
-        }
-      },
-      "01m1pc576k50j01bhxhbrpm83v": {
-        "effort": 3,
-        "emotionalWeight": 2,
-        "tone": "warm",
-        "needFit": {
-          "ontspannen": 2,
-          "afleiding": 2,
-          "herkenning": 3,
-          "verkennen": 2,
-          "verdieping": 3
-        }
-      },
-      "01m1pc52whmcp71rdn2f2d01qb": {
-        "effort": 3,
-        "emotionalWeight": 2,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 1,
+          "ontspannen": 0,
           "afleiding": 1,
           "herkenning": 3,
           "verkennen": 3,
-          "verdieping": 3
-        }
+          "verdieping": 4
+        },
+        "activation": 2,
+        "interruptibility": 3
+      },
+      "01m1pc576k50j01bhxhbrpm83v": {
+        "effort": 3,
+        "emotionalWeight": 0,
+        "tone": "zakelijk",
+        "needFit": {
+          "ontspannen": 0,
+          "afleiding": 1,
+          "herkenning": 3,
+          "verkennen": 4,
+          "verdieping": 4
+        },
+        "activation": 2,
+        "interruptibility": 3
+      },
+      "01m1pc52whmcp71rdn2f2d01qb": {
+        "effort": 1,
+        "emotionalWeight": 1,
+        "tone": "zakelijk",
+        "needFit": {
+          "ontspannen": 1,
+          "afleiding": 2,
+          "herkenning": 3,
+          "verkennen": 3,
+          "verdieping": 2
+        },
+        "activation": 3,
+        "interruptibility": 2
       },
       "01m1p7skymwn1dbj14qd2xx2a4": {
-        "effort": 3,
-        "emotionalWeight": 2,
-        "tone": "warm",
+        "effort": 2,
+        "emotionalWeight": 0,
+        "tone": "zakelijk",
         "needFit": {
-          "ontspannen": 2,
-          "afleiding": 2,
-          "herkenning": 3,
-          "verkennen": 2,
-          "verdieping": 3
-        }
+          "ontspannen": 1,
+          "afleiding": 1,
+          "herkenning": 2,
+          "verkennen": 3,
+          "verdieping": 2
+        },
+        "activation": 2,
+        "interruptibility": 2
       },
       "01m1p7nxnhh4j001458qw06n22": {
-        "effort": 3,
-        "emotionalWeight": 2,
-        "tone": "warm",
+        "effort": 2,
+        "emotionalWeight": 1,
+        "tone": "speels",
         "needFit": {
-          "ontspannen": 2,
+          "ontspannen": 1,
           "afleiding": 2,
-          "herkenning": 3,
-          "verkennen": 2,
-          "verdieping": 3
-        }
+          "herkenning": 4,
+          "verkennen": 3,
+          "verdieping": 4
+        },
+        "activation": 3,
+        "interruptibility": 3
       },
       "01m1p7414hg20qvstgwygjwdhv": {
-        "effort": 3,
+        "effort": 2,
         "emotionalWeight": 0,
         "tone": "zakelijk",
         "needFit": {
@@ -3146,155 +3682,153 @@ window.TOP_ARTICLES = {
           "afleiding": 1,
           "herkenning": 3,
           "verkennen": 3,
-          "verdieping": 3
-        }
+          "verdieping": 4
+        },
+        "activation": 2,
+        "interruptibility": 2
       },
       "01m1p73e78g88e21p5pm8ccfy4": {
         "effort": 3,
-        "emotionalWeight": 2,
+        "emotionalWeight": 0,
         "tone": "speels",
         "needFit": {
-          "ontspannen": 1,
-          "afleiding": 3,
-          "herkenning": 3,
-          "verkennen": 2,
-          "verdieping": 3
-        }
-      },
-      "01m1p73a3z76hwhn4t9qqvpdch": {
-        "effort": 4,
-        "emotionalWeight": 3,
-        "tone": "zakelijk",
-        "needFit": {
-          "ontspannen": 1,
+          "ontspannen": 0,
           "afleiding": 1,
           "herkenning": 3,
-          "verkennen": 2,
-          "verdieping": 3
-        }
+          "verkennen": 4,
+          "verdieping": 4
+        },
+        "activation": 3,
+        "interruptibility": 3
+      },
+      "01m1p73a3z76hwhn4t9qqvpdch": {
+        "effort": 2,
+        "emotionalWeight": 2,
+        "tone": "intens",
+        "needFit": {
+          "ontspannen": 0,
+          "afleiding": 1,
+          "herkenning": 4,
+          "verkennen": 3,
+          "verdieping": 4
+        },
+        "activation": 3,
+        "interruptibility": 3
       },
       "01m1p7327vfsy0dqn6zk81hgja": {
+        "effort": 3,
+        "emotionalWeight": 0,
+        "tone": "zakelijk",
+        "needFit": {
+          "ontspannen": 0,
+          "afleiding": 1,
+          "herkenning": 3,
+          "verkennen": 3,
+          "verdieping": 4
+        },
+        "activation": 3,
+        "interruptibility": 4
+      },
+      "01m1p5enqhqpmapttqja6kd4n2": {
         "effort": 3,
         "emotionalWeight": 1,
         "tone": "zakelijk",
         "needFit": {
-          "ontspannen": 1,
-          "afleiding": 1,
-          "herkenning": 3,
-          "verkennen": 2,
-          "verdieping": 3
-        }
-      },
-      "01m1p5enqhqpmapttqja6kd4n2": {
-        "effort": 4,
-        "emotionalWeight": 3,
-        "tone": "zakelijk",
-        "needFit": {
-          "ontspannen": 1,
+          "ontspannen": 0,
           "afleiding": 1,
           "herkenning": 3,
           "verkennen": 3,
-          "verdieping": 3
-        }
+          "verdieping": 4
+        },
+        "activation": 3,
+        "interruptibility": 3
       },
       "01m1p5e6p6ww72hepd01ts9y9c": {
         "effort": 3,
         "emotionalWeight": 0,
         "tone": "zakelijk",
         "needFit": {
-          "ontspannen": 1,
+          "ontspannen": 0,
           "afleiding": 1,
           "herkenning": 3,
-          "verkennen": 2,
-          "verdieping": 3
-        }
+          "verkennen": 3,
+          "verdieping": 4
+        },
+        "activation": 3,
+        "interruptibility": 3
       },
       "01m1p470j3kcmd7srqg5enza7f": {
         "effort": 3,
-        "emotionalWeight": 1,
+        "emotionalWeight": 0,
         "tone": "zakelijk",
         "needFit": {
-          "ontspannen": 1,
+          "ontspannen": 0,
           "afleiding": 1,
           "herkenning": 3,
-          "verkennen": 2,
-          "verdieping": 3
-        }
+          "verkennen": 3,
+          "verdieping": 4
+        },
+        "activation": 2,
+        "interruptibility": 3
       },
       "01m1p46tkw2fp087th9qdg88fg": {
-        "effort": 3,
-        "emotionalWeight": 0,
-        "tone": "zakelijk",
+        "effort": 2,
+        "emotionalWeight": 1,
+        "tone": "intens",
         "needFit": {
-          "ontspannen": 1,
+          "ontspannen": 0,
           "afleiding": 1,
-          "herkenning": 3,
+          "herkenning": 4,
           "verkennen": 3,
           "verdieping": 3
-        }
+        },
+        "activation": 3,
+        "interruptibility": 2
       },
       "01m1nbjzntew83f16xt14m9r2w": {
-        "effort": 3,
+        "effort": 2,
         "emotionalWeight": 1,
-        "tone": "zakelijk",
+        "tone": "reflectief",
         "needFit": {
           "ontspannen": 1,
           "afleiding": 1,
           "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        }
+          "verkennen": 4,
+          "verdieping": 4
+        },
+        "activation": 2,
+        "interruptibility": 2
       },
       "01m1nbje7rssfyfzakc00nv9ja": {
-        "effort": 3,
-        "emotionalWeight": 2,
-        "tone": "warm",
-        "needFit": {
-          "ontspannen": 2,
-          "afleiding": 2,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        }
-      },
-      "01m1kscgrbsgy40tyeqfk38mb2": {
-        "effort": 3,
-        "emotionalWeight": 1,
+        "effort": 2,
+        "emotionalWeight": 0,
         "tone": "zakelijk",
         "needFit": {
           "ontspannen": 1,
           "afleiding": 1,
-          "herkenning": 3,
+          "herkenning": 4,
           "verkennen": 3,
           "verdieping": 3
-        }
+        },
+        "activation": 2,
+        "interruptibility": 3
+      },
+      "01m1kscgrbsgy40tyeqfk38mb2": {
+        "effort": 2,
+        "emotionalWeight": 2,
+        "tone": "reflectief",
+        "needFit": {
+          "ontspannen": 1,
+          "afleiding": 1,
+          "herkenning": 2,
+          "verkennen": 4,
+          "verdieping": 3
+        },
+        "activation": 2,
+        "interruptibility": 2
       },
       "01m1kscazhdv099kfz8k5my3m2": {
-        "effort": 3,
-        "emotionalWeight": 2,
-        "tone": "warm",
-        "needFit": {
-          "ontspannen": 2,
-          "afleiding": 2,
-          "herkenning": 3,
-          "verkennen": 2,
-          "verdieping": 3
-        }
-      },
-      "01m1ksca8b1devdvjcpj1ppqy1": {
-        "effort": 3,
-        "emotionalWeight": 2,
-        "tone": "warm",
-        "needFit": {
-          "ontspannen": 2,
-          "afleiding": 2,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        }
-      },
-      "01m1ksc9vg0efn2nvvw5n532nt": {
-        "effort": 3,
+        "effort": 2,
         "emotionalWeight": 0,
         "tone": "zakelijk",
         "needFit": {
@@ -3302,191 +3836,769 @@ window.TOP_ARTICLES = {
           "afleiding": 1,
           "herkenning": 3,
           "verkennen": 2,
-          "verdieping": 3
-        }
+          "verdieping": 4
+        },
+        "activation": 3,
+        "interruptibility": 3
+      },
+      "01m1ksca8b1devdvjcpj1ppqy1": {
+        "effort": 2,
+        "emotionalWeight": 0,
+        "tone": "zakelijk",
+        "needFit": {
+          "ontspannen": 1,
+          "afleiding": 1,
+          "herkenning": 3,
+          "verkennen": 3,
+          "verdieping": 4
+        },
+        "activation": 3,
+        "interruptibility": 2
+      },
+      "01m1ksc9vg0efn2nvvw5n532nt": {
+        "effort": 2,
+        "emotionalWeight": 0,
+        "tone": "zakelijk",
+        "needFit": {
+          "ontspannen": 1,
+          "afleiding": 1,
+          "herkenning": 3,
+          "verkennen": 3,
+          "verdieping": 4
+        },
+        "activation": 3,
+        "interruptibility": 2
       },
       "01m1ksc86m5k1hmr9avtmtw1eb": {
-        "effort": 3,
+        "effort": 2,
+        "emotionalWeight": 0,
+        "tone": "zakelijk",
+        "needFit": {
+          "ontspannen": 1,
+          "afleiding": 1,
+          "herkenning": 3,
+          "verkennen": 3,
+          "verdieping": 4
+        },
+        "activation": 3,
+        "interruptibility": 3
+      },
+      "01m1ksc73j7evdqetd2n0kdhan": {
+        "effort": 2,
         "emotionalWeight": 1,
         "tone": "zakelijk",
         "needFit": {
           "ontspannen": 1,
           "afleiding": 1,
           "herkenning": 3,
-          "verkennen": 2,
-          "verdieping": 3
-        }
-      },
-      "01m1ksc73j7evdqetd2n0kdhan": {
-        "effort": 3,
-        "emotionalWeight": 1,
-        "tone": "speels",
-        "needFit": {
-          "ontspannen": 1,
-          "afleiding": 3,
-          "herkenning": 3,
-          "verkennen": 2,
-          "verdieping": 3
-        }
+          "verkennen": 3,
+          "verdieping": 4
+        },
+        "activation": 3,
+        "interruptibility": 2
       },
       "01m1ksc61hsvcw170earazv0qf": {
-        "effort": 3,
-        "emotionalWeight": 2,
-        "tone": "warm",
+        "effort": 2,
+        "emotionalWeight": 0,
+        "tone": "zakelijk",
         "needFit": {
-          "ontspannen": 2,
-          "afleiding": 2,
+          "ontspannen": 1,
+          "afleiding": 1,
           "herkenning": 3,
-          "verkennen": 2,
+          "verkennen": 3,
           "verdieping": 3
-        }
+        },
+        "activation": 3,
+        "interruptibility": 3
       },
       "01m1kppm13bn0d0w70hxcjf9tw": {
-        "effort": 4,
-        "emotionalWeight": 2,
-        "tone": "warm",
+        "effort": 3,
+        "emotionalWeight": 1,
+        "tone": "zakelijk",
         "needFit": {
-          "ontspannen": 2,
-          "afleiding": 2,
+          "ontspannen": 0,
+          "afleiding": 1,
           "herkenning": 3,
-          "verkennen": 2,
-          "verdieping": 3
-        }
+          "verkennen": 3,
+          "verdieping": 4
+        },
+        "activation": 3,
+        "interruptibility": 1
       },
       "01m1kppkgrbrrg09crtnnhtnr2": {
-        "effort": 3,
-        "emotionalWeight": 2,
-        "tone": "warm",
+        "effort": 2,
+        "emotionalWeight": 0,
+        "tone": "zakelijk",
         "needFit": {
-          "ontspannen": 2,
-          "afleiding": 2,
+          "ontspannen": 0,
+          "afleiding": 1,
           "herkenning": 3,
-          "verkennen": 2,
-          "verdieping": 3
-        }
+          "verkennen": 3,
+          "verdieping": 4
+        },
+        "activation": 3,
+        "interruptibility": 2
       },
       "01m1kpjvpkpjy10c0zp09d0hty": {
-        "effort": 3,
+        "effort": 2,
         "emotionalWeight": 1,
-        "tone": "speels",
+        "tone": "reflectief",
         "needFit": {
           "ontspannen": 3,
           "afleiding": 3,
-          "herkenning": 1,
-          "verkennen": 3,
+          "herkenning": 3,
+          "verkennen": 4,
           "verdieping": 3
-        }
+        },
+        "activation": 1,
+        "interruptibility": 3
       },
       "01m1kbpy0d4mhwm6pmkvkvf13z": {
-        "effort": 3,
-        "emotionalWeight": 2,
-        "tone": "speels",
+        "effort": 2,
+        "emotionalWeight": 1,
+        "tone": "zakelijk",
         "needFit": {
           "ontspannen": 1,
-          "afleiding": 3,
-          "herkenning": 3,
-          "verkennen": 2,
-          "verdieping": 3
-        }
+          "afleiding": 1,
+          "herkenning": 4,
+          "verkennen": 3,
+          "verdieping": 4
+        },
+        "activation": 2,
+        "interruptibility": 2
       },
       "01m1k4njhg2tq0hr2s2c7q8mc2": {
-        "effort": 3,
-        "emotionalWeight": 2,
-        "tone": "warm",
-        "needFit": {
-          "ontspannen": 2,
-          "afleiding": 2,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        }
-      },
-      "01m1gp4waxm0cmf0dh788j4jvv": {
-        "effort": 4,
+        "effort": 1,
         "emotionalWeight": 1,
-        "tone": "speels",
+        "tone": "zakelijk",
         "needFit": {
           "ontspannen": 1,
-          "afleiding": 3,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        }
-      },
-      "01m1f3z0dj5te4w2sp8wkb7x1p": {
-        "effort": 3,
-        "emotionalWeight": 2,
-        "tone": "warm",
-        "needFit": {
-          "ontspannen": 2,
           "afleiding": 2,
-          "herkenning": 3,
+          "herkenning": 4,
           "verkennen": 3,
           "verdieping": 3
-        }
+        },
+        "activation": 2,
+        "interruptibility": 4
+      },
+      "01m1gp4waxm0cmf0dh788j4jvv": {
+        "effort": 3,
+        "emotionalWeight": 0,
+        "tone": "zakelijk",
+        "needFit": {
+          "ontspannen": 0,
+          "afleiding": 0,
+          "herkenning": 3,
+          "verkennen": 4,
+          "verdieping": 4
+        },
+        "activation": 3,
+        "interruptibility": 4
       },
       "01m19mp23fe6k9kgv4ca02h3nc": {
-        "effort": 3,
-        "emotionalWeight": 3,
-        "tone": "warm",
+        "effort": 1,
+        "emotionalWeight": 0,
+        "tone": "speels",
         "needFit": {
           "ontspannen": 2,
-          "afleiding": 2,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        }
-      },
-      "01m1971j070aamhztgxr4k22jg": {
-        "effort": 3,
-        "emotionalWeight": 3,
-        "tone": "warm",
-        "needFit": {
-          "ontspannen": 3,
           "afleiding": 3,
           "herkenning": 3,
           "verkennen": 3,
           "verdieping": 3
-        }
+        },
+        "activation": 2,
+        "interruptibility": 3
       },
-      "01m17hcyt40k1nn13p6cp7eyr9": {
-        "effort": 3,
-        "emotionalWeight": 2,
-        "tone": "warm",
+      "01m1971j070aamhztgxr4k22jg": {
+        "effort": 2,
+        "emotionalWeight": 1,
+        "tone": "reflectief",
         "needFit": {
           "ontspannen": 2,
           "afleiding": 2,
           "herkenning": 3,
+          "verkennen": 4,
+          "verdieping": 4
+        },
+        "activation": 1,
+        "interruptibility": 2
+      },
+      "01m17hcyt40k1nn13p6cp7eyr9": {
+        "effort": 2,
+        "emotionalWeight": 1,
+        "tone": "reflectief",
+        "needFit": {
+          "ontspannen": 1,
+          "afleiding": 1,
+          "herkenning": 3,
           "verkennen": 3,
           "verdieping": 3
-        }
+        },
+        "activation": 2,
+        "interruptibility": 2
       },
       "01m17hc9s31gyv0433ecry76qg": {
         "effort": 3,
-        "emotionalWeight": 2,
+        "emotionalWeight": 1,
+        "tone": "reflectief",
+        "needFit": {
+          "ontspannen": 0,
+          "afleiding": 1,
+          "herkenning": 3,
+          "verkennen": 4,
+          "verdieping": 4
+        },
+        "activation": 2,
+        "interruptibility": 2
+      },
+      "01m148wj4yg1xmwqbd8rqy5yr7": {
+        "effort": 1,
+        "emotionalWeight": 1,
         "tone": "speels",
         "needFit": {
+          "ontspannen": 2,
+          "afleiding": 3,
+          "herkenning": 4,
+          "verkennen": 3,
+          "verdieping": 2
+        },
+        "activation": 2,
+        "interruptibility": 2
+      },
+      "01m1463q6ty4tpv1ezynjst4f5": {
+        "effort": 1,
+        "emotionalWeight": 0,
+        "tone": "zakelijk",
+        "needFit": {
           "ontspannen": 1,
+          "afleiding": 1,
+          "herkenning": 4,
+          "verkennen": 3,
+          "verdieping": 3
+        },
+        "activation": 3,
+        "interruptibility": 3
+      },
+      "01m110gbsyqc7vv1ejwtptm5rf": {
+        "effort": 2,
+        "emotionalWeight": 1,
+        "tone": "reflectief",
+        "needFit": {
+          "ontspannen": 1,
+          "afleiding": 1,
+          "herkenning": 4,
+          "verkennen": 3,
+          "verdieping": 3
+        },
+        "activation": 2,
+        "interruptibility": 2
+      },
+      "01m0zs70wqrf8nvkmrwzg9843y": {
+        "effort": 1,
+        "emotionalWeight": 1,
+        "tone": "warm",
+        "needFit": {
+          "ontspannen": 3,
           "afleiding": 3,
           "herkenning": 3,
           "verkennen": 3,
           "verdieping": 3
-        }
+        },
+        "activation": 2,
+        "interruptibility": 4
       },
-      "01m148wj4yg1xmwqbd8rqy5yr7": {
+      "01m0yzc8acebxvxektbepqg0kc": {
+        "effort": 4,
+        "emotionalWeight": 0,
+        "tone": "zakelijk",
+        "needFit": {
+          "ontspannen": 0,
+          "afleiding": 0,
+          "herkenning": 2,
+          "verkennen": 3,
+          "verdieping": 4
+        },
+        "activation": 2,
+        "interruptibility": 2
+      },
+      "01m0yytgcbktcptzp46cf14p2x": {
+        "effort": 3,
+        "emotionalWeight": 0,
+        "tone": "zakelijk",
+        "needFit": {
+          "ontspannen": 0,
+          "afleiding": 0,
+          "herkenning": 3,
+          "verkennen": 3,
+          "verdieping": 4
+        },
+        "activation": 2,
+        "interruptibility": 3
+      },
+      "01m0q9g0mw4fqpnb351j8763gb": {
+        "effort": 1,
+        "emotionalWeight": 0,
+        "tone": "zakelijk",
+        "needFit": {
+          "ontspannen": 1,
+          "afleiding": 1,
+          "herkenning": 4,
+          "verkennen": 2,
+          "verdieping": 3
+        },
+        "activation": 3,
+        "interruptibility": 4
+      },
+      "01m0ps324qabpwbvdtsbnhmkw7": {
+        "effort": 2,
+        "emotionalWeight": 2,
+        "tone": "zakelijk",
+        "needFit": {
+          "ontspannen": 1,
+          "afleiding": 1,
+          "herkenning": 4,
+          "verkennen": 3,
+          "verdieping": 3
+        },
+        "activation": 3,
+        "interruptibility": 3
+      },
+      "01m0pngvw1pq8s12ss8bgyz5hj": {
+        "effort": 2,
+        "emotionalWeight": 0,
+        "tone": "zakelijk",
+        "needFit": {
+          "ontspannen": 1,
+          "afleiding": 1,
+          "herkenning": 3,
+          "verkennen": 3,
+          "verdieping": 3
+        },
+        "activation": 2,
+        "interruptibility": 4
+      },
+      "01m0pj0hcdzk57dgqrhngd08xm": {
+        "effort": 1,
+        "emotionalWeight": 2,
+        "tone": "zakelijk",
+        "needFit": {
+          "ontspannen": 1,
+          "afleiding": 1,
+          "herkenning": 4,
+          "verkennen": 2,
+          "verdieping": 3
+        },
+        "activation": 3,
+        "interruptibility": 3
+      },
+      "01m0phz82jsqawszgfebvkggxm": {
+        "effort": 2,
+        "emotionalWeight": 1,
+        "tone": "intens",
+        "needFit": {
+          "ontspannen": 1,
+          "afleiding": 1,
+          "herkenning": 3,
+          "verkennen": 3,
+          "verdieping": 3
+        },
+        "activation": 3,
+        "interruptibility": 3
+      },
+      "01m0nepq34v9hbtcm1z1rcjn1e": {
+        "effort": 2,
+        "emotionalWeight": 1,
+        "tone": "intens",
+        "needFit": {
+          "ontspannen": 1,
+          "afleiding": 2,
+          "herkenning": 1,
+          "verkennen": 4,
+          "verdieping": 3
+        },
+        "activation": 2,
+        "interruptibility": 1
+      },
+      "01m0nepgcz9yg6btdcstdnp60r": {
+        "effort": 1,
+        "emotionalWeight": 0,
+        "tone": "reflectief",
+        "needFit": {
+          "ontspannen": 3,
+          "afleiding": 3,
+          "herkenning": 3,
+          "verkennen": 3,
+          "verdieping": 2
+        },
+        "activation": 1,
+        "interruptibility": 2
+      },
+      "01m0f29337jsph1jwqq3njdbkc": {
+        "effort": 2,
+        "emotionalWeight": 1,
+        "tone": "reflectief",
+        "needFit": {
+          "ontspannen": 1,
+          "afleiding": 2,
+          "herkenning": 2,
+          "verkennen": 4,
+          "verdieping": 3
+        },
+        "activation": 2,
+        "interruptibility": 2
+      },
+      "01m0d9rt9b3a66m87wr62cjx7g": {
+        "effort": 2,
+        "emotionalWeight": 1,
+        "tone": "warm",
+        "needFit": {
+          "ontspannen": 3,
+          "afleiding": 4,
+          "herkenning": 2,
+          "verkennen": 4,
+          "verdieping": 3
+        },
+        "activation": 2,
+        "interruptibility": 4
+      },
+      "01m0cw5jj79htrsnbqxj1qmn9x": {
+        "effort": 1,
+        "emotionalWeight": 3,
+        "tone": "zakelijk",
+        "needFit": {
+          "ontspannen": 0,
+          "afleiding": 0,
+          "herkenning": 2,
+          "verkennen": 3,
+          "verdieping": 3
+        },
+        "activation": 2,
+        "interruptibility": 3
+      },
+      "01m0b3f62sb716wyqk6tqva87v": {
+        "effort": 3,
+        "emotionalWeight": 1,
+        "tone": "zakelijk",
+        "needFit": {
+          "ontspannen": 0,
+          "afleiding": 1,
+          "herkenning": 2,
+          "verkennen": 3,
+          "verdieping": 3
+        },
+        "activation": 3,
+        "interruptibility": 2
+      },
+      "01m0b3f56gwerhja7mext6qpv8": {
+        "effort": 3,
+        "emotionalWeight": 1,
+        "tone": "zakelijk",
+        "needFit": {
+          "ontspannen": 0,
+          "afleiding": 1,
+          "herkenning": 2,
+          "verkennen": 3,
+          "verdieping": 4
+        },
+        "activation": 3,
+        "interruptibility": 1
+      },
+      "01m05be2mdpdf3vg9xy5xr0kcz": {
+        "effort": 2,
+        "emotionalWeight": 1,
+        "tone": "reflectief",
+        "needFit": {
+          "ontspannen": 2,
+          "afleiding": 3,
+          "herkenning": 2,
+          "verkennen": 3,
+          "verdieping": 3
+        },
+        "activation": 2,
+        "interruptibility": 2
+      },
+      "01m059vqea4t02392f7364m2jr": {
+        "effort": 2,
+        "emotionalWeight": 3,
+        "tone": "reflectief",
+        "needFit": {
+          "ontspannen": 0,
+          "afleiding": 0,
+          "herkenning": 1,
+          "verkennen": 4,
+          "verdieping": 3
+        },
+        "activation": 2,
+        "interruptibility": 2
+      },
+      "01m059vn29v5bjn4nbhe0efecg": {
+        "effort": 2,
+        "emotionalWeight": 1,
+        "tone": "zakelijk",
+        "needFit": {
+          "ontspannen": 1,
+          "afleiding": 2,
+          "herkenning": 1,
+          "verkennen": 4,
+          "verdieping": 4
+        },
+        "activation": 2,
+        "interruptibility": 2
+      },
+      "01m02v2mszvk3cjaw44d26cmvx": {
+        "effort": 3,
+        "emotionalWeight": 2,
+        "tone": "reflectief",
+        "needFit": {
+          "ontspannen": 1,
+          "afleiding": 2,
+          "herkenning": 3,
+          "verkennen": 4,
+          "verdieping": 4
+        },
+        "activation": 2,
+        "interruptibility": 2
+      },
+      "01kyy1z2njt280geg81vv0be2q": {
+        "effort": 2,
+        "emotionalWeight": 0,
+        "tone": "zakelijk",
+        "needFit": {
+          "ontspannen": 1,
+          "afleiding": 1,
+          "herkenning": 3,
+          "verkennen": 3,
+          "verdieping": 3
+        },
+        "activation": 3,
+        "interruptibility": 3
+      },
+      "01kyxyqrfvk85easc927qpwtns": {
+        "effort": 2,
+        "emotionalWeight": 4,
+        "tone": "intens",
+        "needFit": {
+          "ontspannen": 0,
+          "afleiding": 1,
+          "herkenning": 2,
+          "verkennen": 4,
+          "verdieping": 4
+        },
+        "activation": 3,
+        "interruptibility": 1
+      },
+      "01kyxa2yd57szp13ha57708606": {
+        "effort": 3,
+        "emotionalWeight": 2,
+        "tone": "reflectief",
+        "needFit": {
+          "ontspannen": 1,
+          "afleiding": 3,
+          "herkenning": 2,
+          "verkennen": 4,
+          "verdieping": 4
+        },
+        "activation": 2,
+        "interruptibility": 3
+      },
+      "01kysnpk8azvdg0fmar8118yy0": {
         "effort": 3,
         "emotionalWeight": 3,
         "tone": "warm",
         "needFit": {
-          "ontspannen": 2,
-          "afleiding": 2,
-          "herkenning": 3,
+          "ontspannen": 0,
+          "afleiding": 0,
+          "herkenning": 4,
+          "verkennen": 3,
+          "verdieping": 4
+        },
+        "activation": 2,
+        "interruptibility": 3
+      },
+      "01kysnpjbzmxbkrjfbxzssm9ke": {
+        "effort": 2,
+        "emotionalWeight": 3,
+        "tone": "reflectief",
+        "needFit": {
+          "ontspannen": 0,
+          "afleiding": 0,
+          "herkenning": 4,
+          "verkennen": 3,
+          "verdieping": 4
+        },
+        "activation": 2,
+        "interruptibility": 3
+      },
+      "01kysfkm9jz6j3neya2h22rqsb": {
+        "effort": 2,
+        "emotionalWeight": 3,
+        "tone": "reflectief",
+        "needFit": {
+          "ontspannen": 0,
+          "afleiding": 0,
+          "herkenning": 4,
+          "verkennen": 3,
+          "verdieping": 4
+        },
+        "activation": 3,
+        "interruptibility": 3
+      },
+      "01kyexyg0m6s4a4nddcw8mm63e": {
+        "effort": 3,
+        "emotionalWeight": 0,
+        "tone": "zakelijk",
+        "needFit": {
+          "ontspannen": 0,
+          "afleiding": 1,
+          "herkenning": 2,
+          "verkennen": 4,
+          "verdieping": 4
+        },
+        "activation": 3,
+        "interruptibility": 2
+      },
+      "01kye6cwzsz29j9v1g53fzfy45": {
+        "effort": 2,
+        "emotionalWeight": 2,
+        "tone": "reflectief",
+        "needFit": {
+          "ontspannen": 1,
+          "afleiding": 1,
+          "herkenning": 4,
           "verkennen": 3,
           "verdieping": 3
-        }
+        },
+        "activation": 2,
+        "interruptibility": 3
       },
-      "01m1463q6ty4tpv1ezynjst4f5": {
+      "01kycfev2jfr2v5x5pqr2scxz7": {
+        "effort": 1,
+        "emotionalWeight": 1,
+        "tone": "speels",
+        "needFit": {
+          "ontspannen": 3,
+          "afleiding": 4,
+          "herkenning": 1,
+          "verkennen": 3,
+          "verdieping": 2
+        },
+        "activation": 1,
+        "interruptibility": 2
+      },
+      "01kyab47vf7vat0n76fpwrgrj6": {
         "effort": 3,
+        "emotionalWeight": 2,
+        "tone": "reflectief",
+        "needFit": {
+          "ontspannen": 0,
+          "afleiding": 1,
+          "herkenning": 3,
+          "verkennen": 4,
+          "verdieping": 4
+        },
+        "activation": 3,
+        "interruptibility": 3
+      },
+      "01ky7rxntf6dz2x70h2w6vgtqr": {
+        "effort": 2,
+        "emotionalWeight": 2,
+        "tone": "zakelijk",
+        "needFit": {
+          "ontspannen": 1,
+          "afleiding": 2,
+          "herkenning": 2,
+          "verkennen": 4,
+          "verdieping": 4
+        },
+        "activation": 2,
+        "interruptibility": 2
+      },
+      "01ky7jr9fzhv4h5e988f76rxth": {
+        "effort": 2,
+        "emotionalWeight": 1,
+        "tone": "zakelijk",
+        "needFit": {
+          "ontspannen": 1,
+          "afleiding": 1,
+          "herkenning": 2,
+          "verkennen": 3,
+          "verdieping": 3
+        },
+        "activation": 3,
+        "interruptibility": 3
+      },
+      "01ky6y1g55qsprt9r2h4jm394c": {
+        "effort": 2,
+        "emotionalWeight": 1,
+        "tone": "reflectief",
+        "needFit": {
+          "ontspannen": 2,
+          "afleiding": 2,
+          "herkenning": 2,
+          "verkennen": 3,
+          "verdieping": 3
+        },
+        "activation": 2,
+        "interruptibility": 2
+      },
+      "01kxy1qnae4npandc4x9mv4aw0": {
+        "effort": 2,
+        "emotionalWeight": 1,
+        "tone": "zakelijk",
+        "needFit": {
+          "ontspannen": 1,
+          "afleiding": 1,
+          "herkenning": 2,
+          "verkennen": 3,
+          "verdieping": 3
+        },
+        "activation": 2,
+        "interruptibility": 2
+      },
+      "01kxrhtjs9wgt5ta83dd02hya3": {
+        "effort": 2,
+        "emotionalWeight": 2,
+        "tone": "intens",
+        "needFit": {
+          "ontspannen": 0,
+          "afleiding": 1,
+          "herkenning": 2,
+          "verkennen": 4,
+          "verdieping": 3
+        },
+        "activation": 3,
+        "interruptibility": 3
+      },
+      "01kxn6sfvvpwapf12145w6x7sv": {
+        "effort": 3,
+        "emotionalWeight": 0,
+        "tone": "speels",
+        "needFit": {
+          "ontspannen": 1,
+          "afleiding": 3,
+          "herkenning": 2,
+          "verkennen": 3,
+          "verdieping": 3
+        },
+        "activation": 2,
+        "interruptibility": 3
+      },
+      "01kwragbn5fwjf0dvfyfvwvne8": {
+        "effort": 2,
+        "emotionalWeight": 3,
+        "tone": "intens",
+        "needFit": {
+          "ontspannen": 0,
+          "afleiding": 1,
+          "herkenning": 2,
+          "verkennen": 4,
+          "verdieping": 4
+        },
+        "activation": 3,
+        "interruptibility": 3
+      },
+      "01kwgv3yscnzt7mvbt3cpcn1ey": {
+        "effort": 1,
         "emotionalWeight": 0,
         "tone": "zakelijk",
         "needFit": {
@@ -3495,1355 +4607,965 @@ window.TOP_ARTICLES = {
           "herkenning": 3,
           "verkennen": 2,
           "verdieping": 3
-        }
+        },
+        "activation": 3,
+        "interruptibility": 4
       },
-      "01m13bydjdttq1jnhmnt13k22z": {
-        "effort": 4,
+      "01kwgtzbakxnx83f8txktj9t89": {
+        "effort": 2,
+        "emotionalWeight": 1,
+        "tone": "reflectief",
+        "needFit": {
+          "ontspannen": 2,
+          "afleiding": 2,
+          "herkenning": 4,
+          "verkennen": 3,
+          "verdieping": 3
+        },
+        "activation": 1,
+        "interruptibility": 3
+      },
+      "01kwexpsbrn9aftwadk0dfvf1n": {
+        "effort": 1,
+        "emotionalWeight": 0,
+        "tone": "zakelijk",
+        "needFit": {
+          "ontspannen": 1,
+          "afleiding": 1,
+          "herkenning": 3,
+          "verkennen": 2,
+          "verdieping": 3
+        },
+        "activation": 2,
+        "interruptibility": 4
+      },
+      "01kw3yjp92dh7r7qzk3bja513n": {
+        "effort": 2,
+        "emotionalWeight": 1,
+        "tone": "reflectief",
+        "needFit": {
+          "ontspannen": 1,
+          "afleiding": 2,
+          "herkenning": 4,
+          "verkennen": 4,
+          "verdieping": 3
+        },
+        "activation": 2,
+        "interruptibility": 3
+      },
+      "01kvjbgrqsftb77gs496c0p12t": {
+        "effort": 1,
+        "emotionalWeight": 2,
+        "tone": "reflectief",
+        "needFit": {
+          "ontspannen": 1,
+          "afleiding": 3,
+          "herkenning": 1,
+          "verkennen": 3,
+          "verdieping": 2
+        },
+        "activation": 2,
+        "interruptibility": 3
+      },
+      "01kvhdf8kqbvctbnxfrt4r3nr5": {
+        "effort": 1,
+        "emotionalWeight": 1,
+        "tone": "warm",
+        "needFit": {
+          "ontspannen": 3,
+          "afleiding": 2,
+          "herkenning": 3,
+          "verkennen": 2,
+          "verdieping": 1
+        },
+        "activation": 1,
+        "interruptibility": 3
+      },
+      "01kvcrmaw54bese7ww1vf68che": {
+        "effort": 2,
+        "emotionalWeight": 3,
+        "tone": "intens",
+        "needFit": {
+          "ontspannen": 0,
+          "afleiding": 0,
+          "herkenning": 4,
+          "verkennen": 3,
+          "verdieping": 3
+        },
+        "activation": 3,
+        "interruptibility": 2
+      },
+      "01ktp2kyqfw4gmnvgcrkt7faxv": {
+        "effort": 1,
+        "emotionalWeight": 0,
+        "tone": "zakelijk",
+        "needFit": {
+          "ontspannen": 1,
+          "afleiding": 1,
+          "herkenning": 3,
+          "verkennen": 2,
+          "verdieping": 3
+        },
+        "activation": 2,
+        "interruptibility": 4
+      },
+      "01ktnkd8gctpytce8pvke8za97": {
+        "effort": 2,
+        "emotionalWeight": 1,
+        "tone": "reflectief",
+        "needFit": {
+          "ontspannen": 1,
+          "afleiding": 2,
+          "herkenning": 4,
+          "verkennen": 4,
+          "verdieping": 3
+        },
+        "activation": 2,
+        "interruptibility": 3
+      },
+      "01ktc8xc2yj17jm5hf96e12crc": {
+        "effort": 2,
+        "emotionalWeight": 0,
+        "tone": "zakelijk",
+        "needFit": {
+          "ontspannen": 1,
+          "afleiding": 1,
+          "herkenning": 3,
+          "verkennen": 3,
+          "verdieping": 3
+        },
+        "activation": 2,
+        "interruptibility": 3
+      },
+      "01kt9sbc2hgkymt9expprgkgdp": {
+        "effort": 2,
+        "emotionalWeight": 1,
+        "tone": "rustig",
+        "needFit": {
+          "ontspannen": 2,
+          "afleiding": 3,
+          "herkenning": 1,
+          "verkennen": 4,
+          "verdieping": 3
+        },
+        "activation": 1,
+        "interruptibility": 3
+      },
+      "01kt48nachk49100hbdvv2zqdr": {
+        "effort": 2,
+        "emotionalWeight": 1,
+        "tone": "reflectief",
+        "needFit": {
+          "ontspannen": 1,
+          "afleiding": 2,
+          "herkenning": 2,
+          "verkennen": 4,
+          "verdieping": 4
+        },
+        "activation": 2,
+        "interruptibility": 2
+      },
+      "01kt3pyfje0y9z49fzqmtkjsse": {
+        "effort": 2,
         "emotionalWeight": 2,
         "tone": "warm",
+        "needFit": {
+          "ontspannen": 1,
+          "afleiding": 1,
+          "herkenning": 4,
+          "verkennen": 3,
+          "verdieping": 3
+        },
+        "activation": 2,
+        "interruptibility": 3
+      },
+      "01ks96dy2nfby7cyd152ev2a9k": {
+        "effort": 2,
+        "emotionalWeight": 2,
+        "tone": "zakelijk",
+        "needFit": {
+          "ontspannen": 1,
+          "afleiding": 1,
+          "herkenning": 4,
+          "verkennen": 4,
+          "verdieping": 3
+        },
+        "activation": 2,
+        "interruptibility": 3
+      },
+      "01ks4x3trnj452tc0tmezwjcej": {
+        "effort": 1,
+        "emotionalWeight": 1,
+        "tone": "warm",
+        "needFit": {
+          "ontspannen": 2,
+          "afleiding": 1,
+          "herkenning": 4,
+          "verkennen": 2,
+          "verdieping": 2
+        },
+        "activation": 2,
+        "interruptibility": 4
+      },
+      "01ks2b50wxejwag42nf6rnrq6d": {
+        "effort": 2,
+        "emotionalWeight": 1,
+        "tone": "reflectief",
         "needFit": {
           "ontspannen": 3,
           "afleiding": 3,
           "herkenning": 3,
           "verkennen": 3,
           "verdieping": 3
-        }
+        },
+        "activation": 1,
+        "interruptibility": 2
       },
-      "01m110gbsyqc7vv1ejwtptm5rf": {
-        "effort": 4,
-        "emotionalWeight": 2,
-        "tone": "warm",
-        "needFit": {
-          "ontspannen": 2,
-          "afleiding": 2,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        }
-      },
-      "01m0zs70wqrf8nvkmrwzg9843y": {
+      "01ks0eq0r3x8h0fgzzn289mazj": {
         "effort": 1,
         "emotionalWeight": 2,
         "tone": "warm",
         "needFit": {
-          "ontspannen": 3,
-          "afleiding": 3,
-          "herkenning": 3,
-          "verkennen": 3,
+          "ontspannen": 2,
+          "afleiding": 1,
+          "herkenning": 4,
+          "verkennen": 2,
           "verdieping": 1
-        }
-      },
-      "01m0yzc8acebxvxektbepqg0kc": {
-        "effort": 4,
-        "emotionalWeight": 2,
-        "tone": "warm",
-        "needFit": {
-          "ontspannen": 2,
-          "afleiding": 2,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        }
-      },
-      "01m0yzc4t547m4zm0yvgrk39xb": {
-        "effort": 3,
-        "emotionalWeight": 1,
-        "tone": "zakelijk",
-        "needFit": {
-          "ontspannen": 1,
-          "afleiding": 1,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        }
-      },
-      "01m0yytgcbktcptzp46cf14p2x": {
-        "effort": 4,
-        "emotionalWeight": 2,
-        "tone": "warm",
-        "needFit": {
-          "ontspannen": 2,
-          "afleiding": 2,
-          "herkenning": 3,
-          "verkennen": 2,
-          "verdieping": 3
-        }
-      },
-      "01m0q9g0mw4fqpnb351j8763gb": {
-        "effort": 3,
-        "emotionalWeight": 2,
-        "tone": "speels",
-        "needFit": {
-          "ontspannen": 1,
-          "afleiding": 3,
-          "herkenning": 3,
-          "verkennen": 2,
-          "verdieping": 3
-        }
-      },
-      "01m0ps324qabpwbvdtsbnhmkw7": {
-        "effort": 3,
-        "emotionalWeight": 3,
-        "tone": "warm",
-        "needFit": {
-          "ontspannen": 2,
-          "afleiding": 2,
-          "herkenning": 3,
-          "verkennen": 2,
-          "verdieping": 3
-        }
-      },
-      "01m0pngvw1pq8s12ss8bgyz5hj": {
-        "effort": 4,
-        "emotionalWeight": 1,
-        "tone": "speels",
-        "needFit": {
-          "ontspannen": 1,
-          "afleiding": 3,
-          "herkenning": 3,
-          "verkennen": 2,
-          "verdieping": 3
-        }
-      },
-      "01m0pj0hcdzk57dgqrhngd08xm": {
-        "effort": 3,
-        "emotionalWeight": 2,
-        "tone": "warm",
-        "needFit": {
-          "ontspannen": 2,
-          "afleiding": 2,
-          "herkenning": 3,
-          "verkennen": 2,
-          "verdieping": 3
-        }
-      },
-      "01m0phz82jsqawszgfebvkggxm": {
-        "effort": 3,
-        "emotionalWeight": 2,
-        "tone": "warm",
-        "needFit": {
-          "ontspannen": 2,
-          "afleiding": 2,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        }
-      },
-      "01m0phy17feth92cc2egjbpr9m": {
-        "effort": 3,
-        "emotionalWeight": 1,
-        "tone": "speels",
-        "needFit": {
-          "ontspannen": 1,
-          "afleiding": 3,
-          "herkenning": 3,
-          "verkennen": 2,
-          "verdieping": 3
-        }
-      },
-      "01m0nepq34v9hbtcm1z1rcjn1e": {
-        "effort": 3,
-        "emotionalWeight": 3,
-        "tone": "warm",
-        "needFit": {
-          "ontspannen": 2,
-          "afleiding": 2,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        }
-      },
-      "01m0nepgcz9yg6btdcstdnp60r": {
-        "effort": 3,
-        "emotionalWeight": 2,
-        "tone": "warm",
-        "needFit": {
-          "ontspannen": 3,
-          "afleiding": 3,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        }
-      },
-      "01m0f29337jsph1jwqq3njdbkc": {
-        "effort": 3,
-        "emotionalWeight": 3,
-        "tone": "speels",
-        "needFit": {
-          "ontspannen": 3,
-          "afleiding": 3,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        }
-      },
-      "01m0d9rt9b3a66m87wr62cjx7g": {
-        "effort": 4,
-        "emotionalWeight": 0,
-        "tone": "zakelijk",
-        "needFit": {
-          "ontspannen": 3,
-          "afleiding": 3,
-          "herkenning": 1,
-          "verkennen": 3,
-          "verdieping": 3
-        }
-      },
-      "01m0cw5jj79htrsnbqxj1qmn9x": {
-        "effort": 3,
-        "emotionalWeight": 3,
-        "tone": "warm",
-        "needFit": {
-          "ontspannen": 2,
-          "afleiding": 2,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        }
-      },
-      "01m0b3f62sb716wyqk6tqva87v": {
-        "effort": 3,
-        "emotionalWeight": 2,
-        "tone": "warm",
-        "needFit": {
-          "ontspannen": 2,
-          "afleiding": 2,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        }
-      },
-      "01m0b3f56gwerhja7mext6qpv8": {
-        "effort": 4,
-        "emotionalWeight": 2,
-        "tone": "warm",
-        "needFit": {
-          "ontspannen": 2,
-          "afleiding": 2,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        }
-      },
-      "01m05be2mdpdf3vg9xy5xr0kcz": {
-        "effort": 4,
-        "emotionalWeight": 2,
-        "tone": "speels",
-        "needFit": {
-          "ontspannen": 3,
-          "afleiding": 3,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        }
-      },
-      "01m059vqea4t02392f7364m2jr": {
-        "effort": 3,
-        "emotionalWeight": 2,
-        "tone": "speels",
-        "needFit": {
-          "ontspannen": 3,
-          "afleiding": 3,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        }
-      },
-      "01m059vn29v5bjn4nbhe0efecg": {
-        "effort": 3,
-        "emotionalWeight": 2,
-        "tone": "warm",
-        "needFit": {
-          "ontspannen": 3,
-          "afleiding": 3,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        }
-      },
-      "01m02v2mszvk3cjaw44d26cmvx": {
-        "effort": 4,
-        "emotionalWeight": 2,
-        "tone": "warm",
-        "needFit": {
-          "ontspannen": 3,
-          "afleiding": 3,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        }
-      },
-      "01kyy1z2njt280geg81vv0be2q": {
-        "effort": 3,
-        "emotionalWeight": 2,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 1,
-          "afleiding": 1,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        }
-      },
-      "01kyxyqrfvk85easc927qpwtns": {
-        "effort": 3,
-        "emotionalWeight": 3,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 3,
-          "afleiding": 3,
-          "herkenning": 1,
-          "verkennen": 3,
-          "verdieping": 3
-        }
-      },
-      "01kyxa2yd57szp13ha57708606": {
-        "effort": 4,
-        "emotionalWeight": 2,
-        "tone": "warm",
-        "needFit": {
-          "ontspannen": 3,
-          "afleiding": 3,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        }
-      },
-      "01kysnpk8azvdg0fmar8118yy0": {
-        "effort": 4,
-        "emotionalWeight": 3,
-        "tone": "warm",
-        "needFit": {
-          "ontspannen": 2,
-          "afleiding": 2,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        }
-      },
-      "01kysnpjbzmxbkrjfbxzssm9ke": {
-        "effort": 4,
-        "emotionalWeight": 2,
-        "tone": "warm",
-        "needFit": {
-          "ontspannen": 2,
-          "afleiding": 2,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        }
-      },
-      "01kysfkm9jz6j3neya2h22rqsb": {
-        "effort": 4,
-        "emotionalWeight": 3,
-        "tone": "warm",
-        "needFit": {
-          "ontspannen": 2,
-          "afleiding": 2,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        }
-      },
-      "01kyexyg0m6s4a4nddcw8mm63e": {
-        "effort": 4,
-        "emotionalWeight": 2,
-        "tone": "warm",
-        "needFit": {
-          "ontspannen": 2,
-          "afleiding": 2,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        }
-      },
-      "01kye6cwzsz29j9v1g53fzfy45": {
-        "effort": 4,
-        "emotionalWeight": 2,
-        "tone": "speels",
-        "needFit": {
-          "ontspannen": 1,
-          "afleiding": 3,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        }
-      },
-      "01kycfev2jfr2v5x5pqr2scxz7": {
-        "effort": 3,
-        "emotionalWeight": 1,
-        "tone": "speels",
-        "needFit": {
-          "ontspannen": 3,
-          "afleiding": 3,
-          "herkenning": 1,
-          "verkennen": 3,
-          "verdieping": 3
-        }
-      },
-      "01kyab47vf7vat0n76fpwrgrj6": {
-        "effort": 4,
-        "emotionalWeight": 2,
-        "tone": "warm",
-        "needFit": {
-          "ontspannen": 2,
-          "afleiding": 2,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        }
-      },
-      "01ky7rxntf6dz2x70h2w6vgtqr": {
-        "effort": 4,
-        "emotionalWeight": 2,
-        "tone": "speels",
-        "needFit": {
-          "ontspannen": 1,
-          "afleiding": 3,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        }
-      },
-      "01ky7jr9fzhv4h5e988f76rxth": {
-        "effort": 3,
-        "emotionalWeight": 2,
-        "tone": "warm",
-        "needFit": {
-          "ontspannen": 3,
-          "afleiding": 3,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        }
-      },
-      "01ky6y1g55qsprt9r2h4jm394c": {
-        "effort": 3,
-        "emotionalWeight": 2,
-        "tone": "speels",
-        "needFit": {
-          "ontspannen": 3,
-          "afleiding": 3,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        }
-      },
-      "01kxy1qnae4npandc4x9mv4aw0": {
-        "effort": 3,
-        "emotionalWeight": 1,
-        "tone": "speels",
-        "needFit": {
-          "ontspannen": 3,
-          "afleiding": 3,
-          "herkenning": 1,
-          "verkennen": 3,
-          "verdieping": 3
-        }
-      },
-      "01kxy1qkwpt5xkmvy06pz6bqvr": {
-        "effort": 3,
-        "emotionalWeight": 4,
-        "tone": "warm",
-        "needFit": {
-          "ontspannen": 3,
-          "afleiding": 3,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        }
-      },
-      "01kxrhtjs9wgt5ta83dd02hya3": {
-        "effort": 4,
-        "emotionalWeight": 0,
-        "tone": "zakelijk",
-        "needFit": {
-          "ontspannen": 3,
-          "afleiding": 3,
-          "herkenning": 1,
-          "verkennen": 3,
-          "verdieping": 3
-        }
-      },
-      "01kxn6sfvvpwapf12145w6x7sv": {
-        "effort": 3,
-        "emotionalWeight": 1,
-        "tone": "speels",
-        "needFit": {
-          "ontspannen": 3,
-          "afleiding": 3,
-          "herkenning": 1,
-          "verkennen": 3,
-          "verdieping": 3
-        }
-      },
-      "01kwragbn5fwjf0dvfyfvwvne8": {
-        "effort": 4,
-        "emotionalWeight": 2,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 1,
-          "afleiding": 1,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        }
-      },
-      "01kwgv3yscnzt7mvbt3cpcn1ey": {
-        "effort": 3,
-        "emotionalWeight": 2,
-        "tone": "warm",
-        "needFit": {
-          "ontspannen": 2,
-          "afleiding": 2,
-          "herkenning": 3,
-          "verkennen": 2,
-          "verdieping": 3
-        }
-      },
-      "01kwgtzbakxnx83f8txktj9t89": {
-        "effort": 4,
-        "emotionalWeight": 2,
-        "tone": "speels",
-        "needFit": {
-          "ontspannen": 1,
-          "afleiding": 3,
-          "herkenning": 3,
-          "verkennen": 2,
-          "verdieping": 3
-        }
-      },
-      "01kwexpsbrn9aftwadk0dfvf1n": {
-        "effort": 3,
-        "emotionalWeight": 2,
-        "tone": "speels",
-        "needFit": {
-          "ontspannen": 1,
-          "afleiding": 3,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        }
-      },
-      "01kw3yjp92dh7r7qzk3bja513n": {
-        "effort": 4,
-        "emotionalWeight": 2,
-        "tone": "speels",
-        "needFit": {
-          "ontspannen": 1,
-          "afleiding": 3,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        }
-      },
-      "01kvjbgrqsftb77gs496c0p12t": {
-        "effort": 3,
-        "emotionalWeight": 3,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 3,
-          "afleiding": 3,
-          "herkenning": 1,
-          "verkennen": 3,
-          "verdieping": 3
-        }
-      },
-      "01kvhdf8kqbvctbnxfrt4r3nr5": {
-        "effort": 4,
-        "emotionalWeight": 2,
-        "tone": "warm",
-        "needFit": {
-          "ontspannen": 2,
-          "afleiding": 2,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        }
-      },
-      "01kvcrmaw54bese7ww1vf68che": {
-        "effort": 4,
-        "emotionalWeight": 2,
-        "tone": "warm",
-        "needFit": {
-          "ontspannen": 2,
-          "afleiding": 2,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        }
-      },
-      "01ktp2kyqfw4gmnvgcrkt7faxv": {
-        "effort": 3,
-        "emotionalWeight": 2,
-        "tone": "speels",
-        "needFit": {
-          "ontspannen": 1,
-          "afleiding": 3,
-          "herkenning": 3,
-          "verkennen": 2,
-          "verdieping": 3
-        }
-      },
-      "01ktnkd8gctpytce8pvke8za97": {
-        "effort": 4,
-        "emotionalWeight": 2,
-        "tone": "warm",
-        "needFit": {
-          "ontspannen": 2,
-          "afleiding": 2,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        }
-      },
-      "01ktc8xc2yj17jm5hf96e12crc": {
-        "effort": 3,
-        "emotionalWeight": 3,
-        "tone": "warm",
-        "needFit": {
-          "ontspannen": 2,
-          "afleiding": 2,
-          "herkenning": 3,
-          "verkennen": 2,
-          "verdieping": 3
-        }
-      },
-      "01kt9sbc2hgkymt9expprgkgdp": {
-        "effort": 4,
-        "emotionalWeight": 3,
-        "tone": "zakelijk",
-        "needFit": {
-          "ontspannen": 3,
-          "afleiding": 3,
-          "herkenning": 1,
-          "verkennen": 3,
-          "verdieping": 3
-        }
-      },
-      "01kt48nachk49100hbdvv2zqdr": {
-        "effort": 3,
-        "emotionalWeight": 2,
-        "tone": "warm",
-        "needFit": {
-          "ontspannen": 2,
-          "afleiding": 2,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        }
-      },
-      "01kt3pyfje0y9z49fzqmtkjsse": {
-        "effort": 4,
-        "emotionalWeight": 2,
-        "tone": "warm",
-        "needFit": {
-          "ontspannen": 2,
-          "afleiding": 2,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        }
-      },
-      "01ks96dy2nfby7cyd152ev2a9k": {
-        "effort": 4,
-        "emotionalWeight": 2,
-        "tone": "warm",
-        "needFit": {
-          "ontspannen": 2,
-          "afleiding": 2,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        }
-      },
-      "01ks4x3trnj452tc0tmezwjcej": {
-        "effort": 3,
-        "emotionalWeight": 2,
-        "tone": "warm",
-        "needFit": {
-          "ontspannen": 2,
-          "afleiding": 2,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        }
-      },
-      "01ks2b50wxejwag42nf6rnrq6d": {
-        "effort": 4,
-        "emotionalWeight": 2,
-        "tone": "speels",
-        "needFit": {
-          "ontspannen": 3,
-          "afleiding": 3,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        }
-      },
-      "01ks0eq0r3x8h0fgzzn289mazj": {
-        "effort": 3,
-        "emotionalWeight": 3,
-        "tone": "warm",
-        "needFit": {
-          "ontspannen": 2,
-          "afleiding": 2,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        }
+        },
+        "activation": 1,
+        "interruptibility": 3
       },
       "01ks0epa8kspp83kh75k75rxss": {
-        "effort": 3,
-        "emotionalWeight": 2,
+        "effort": 1,
+        "emotionalWeight": 1,
         "tone": "warm",
         "needFit": {
           "ontspannen": 2,
-          "afleiding": 2,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        }
+          "afleiding": 1,
+          "herkenning": 4,
+          "verkennen": 2,
+          "verdieping": 2
+        },
+        "activation": 2,
+        "interruptibility": 4
       },
       "01krtrc68m499tqp0qe471vq9c": {
-        "effort": 3,
+        "effort": 2,
         "emotionalWeight": 2,
-        "tone": "warm",
+        "tone": "reflectief",
         "needFit": {
-          "ontspannen": 2,
-          "afleiding": 2,
-          "herkenning": 3,
+          "ontspannen": 1,
+          "afleiding": 1,
+          "herkenning": 4,
           "verkennen": 3,
           "verdieping": 3
-        }
+        },
+        "activation": 2,
+        "interruptibility": 3
       },
       "01krtrbnj1rtn0p7gt8fatgj7p": {
-        "effort": 3,
-        "emotionalWeight": 2,
-        "tone": "warm",
+        "effort": 2,
+        "emotionalWeight": 1,
+        "tone": "zakelijk",
         "needFit": {
-          "ontspannen": 2,
-          "afleiding": 2,
-          "herkenning": 3,
+          "ontspannen": 0,
+          "afleiding": 1,
+          "herkenning": 4,
           "verkennen": 3,
           "verdieping": 3
-        }
+        },
+        "activation": 3,
+        "interruptibility": 3
       },
       "01krtrbe7xpgnmyq707xyfa6dw": {
-        "effort": 3,
+        "effort": 2,
         "emotionalWeight": 2,
-        "tone": "warm",
+        "tone": "reflectief",
+        "needFit": {
+          "ontspannen": 1,
+          "afleiding": 1,
+          "herkenning": 4,
+          "verkennen": 3,
+          "verdieping": 2
+        },
+        "activation": 1,
+        "interruptibility": 3
+      },
+      "01krtexkxa2w3kf6d07h8t2ndr": {
+        "effort": 1,
+        "emotionalWeight": 0,
+        "tone": "zakelijk",
         "needFit": {
           "ontspannen": 2,
           "afleiding": 2,
           "herkenning": 3,
           "verkennen": 3,
-          "verdieping": 3
-        }
-      },
-      "01krtexkxa2w3kf6d07h8t2ndr": {
-        "effort": 3,
-        "emotionalWeight": 2,
-        "tone": "warm",
-        "needFit": {
-          "ontspannen": 2,
-          "afleiding": 2,
-          "herkenning": 3,
-          "verkennen": 2,
-          "verdieping": 3
-        }
+          "verdieping": 2
+        },
+        "activation": 3,
+        "interruptibility": 3
       },
       "01krqmh4tqphysje012p59hxec": {
         "effort": 2,
         "emotionalWeight": 2,
         "tone": "reflectief",
         "needFit": {
-          "ontspannen": 1,
-          "afleiding": 1,
+          "ontspannen": 2,
+          "afleiding": 2,
           "herkenning": 4,
           "verkennen": 3,
           "verdieping": 3
-        }
+        },
+        "activation": 1,
+        "interruptibility": 2
       },
       "01krn1jdcn6b450yv1z0j92tz3": {
         "effort": 3,
+        "emotionalWeight": 2,
+        "tone": "zakelijk",
+        "needFit": {
+          "ontspannen": 0,
+          "afleiding": 1,
+          "herkenning": 1,
+          "verkennen": 4,
+          "verdieping": 4
+        },
+        "activation": 2,
+        "interruptibility": 1
+      },
+      "01krmzwafvfaac9xjpgfsvsvyb": {
+        "effort": 3,
+        "emotionalWeight": 1,
+        "tone": "intens",
+        "needFit": {
+          "ontspannen": 0,
+          "afleiding": 2,
+          "herkenning": 3,
+          "verkennen": 3,
+          "verdieping": 4
+        },
+        "activation": 3,
+        "interruptibility": 2
+      },
+      "01krm5d32nfhsa44jvbq4s6nny": {
+        "effort": 2,
+        "emotionalWeight": 2,
+        "tone": "reflectief",
+        "needFit": {
+          "ontspannen": 1,
+          "afleiding": 3,
+          "herkenning": 2,
+          "verkennen": 4,
+          "verdieping": 3
+        },
+        "activation": 2,
+        "interruptibility": 3
+      },
+      "01kqsnmx2rdcaktjvwsjmmq2cn": {
+        "effort": 2,
+        "emotionalWeight": 1,
+        "tone": "reflectief",
+        "needFit": {
+          "ontspannen": 1,
+          "afleiding": 2,
+          "herkenning": 3,
+          "verkennen": 4,
+          "verdieping": 4
+        },
+        "activation": 2,
+        "interruptibility": 2
+      },
+      "01knefpm3ae2ew1jrq9twtjc1w": {
+        "effort": 2,
+        "emotionalWeight": 0,
+        "tone": "zakelijk",
+        "needFit": {
+          "ontspannen": 1,
+          "afleiding": 2,
+          "herkenning": 2,
+          "verkennen": 4,
+          "verdieping": 3
+        },
+        "activation": 3,
+        "interruptibility": 3
+      },
+      "01kn4c4mv24kk2vjxqcn0y6efj": {
+        "effort": 2,
+        "emotionalWeight": 1,
+        "tone": "reflectief",
+        "needFit": {
+          "ontspannen": 2,
+          "afleiding": 2,
+          "herkenning": 3,
+          "verkennen": 4,
+          "verdieping": 3
+        },
+        "activation": 1,
+        "interruptibility": 2
+      },
+      "01kmmsmygjapx4f6gb2bhxds2j": {
+        "effort": 2,
         "emotionalWeight": 3,
         "tone": "intens",
         "needFit": {
-          "ontspannen": 1,
-          "afleiding": 1,
-          "herkenning": 1,
-          "verkennen": 3,
-          "verdieping": 3
-        }
+          "ontspannen": 0,
+          "afleiding": 0,
+          "herkenning": 2,
+          "verkennen": 4,
+          "verdieping": 4
+        },
+        "activation": 3,
+        "interruptibility": 3
       },
-      "01krmzwafvfaac9xjpgfsvsvyb": {
-        "effort": 4,
-        "emotionalWeight": 1,
+      "01kmjjs1nc96hg1tq02gmgh657": {
+        "effort": 2,
+        "emotionalWeight": 0,
         "tone": "speels",
         "needFit": {
           "ontspannen": 1,
-          "afleiding": 3,
-          "herkenning": 3,
-          "verkennen": 2,
+          "afleiding": 2,
+          "herkenning": 4,
+          "verkennen": 4,
           "verdieping": 3
-        }
+        },
+        "activation": 3,
+        "interruptibility": 3
       },
-      "01krm5d32nfhsa44jvbq4s6nny": {
-        "effort": 3,
-        "emotionalWeight": 3,
-        "tone": "intens",
+      "01kkh0xtww0ex0apwdnpkatc8s": {
+        "effort": 2,
+        "emotionalWeight": 0,
+        "tone": "zakelijk",
         "needFit": {
-          "ontspannen": 3,
-          "afleiding": 3,
-          "herkenning": 3,
+          "ontspannen": 1,
+          "afleiding": 2,
+          "herkenning": 2,
           "verkennen": 3,
           "verdieping": 3
-        }
+        },
+        "activation": 2,
+        "interruptibility": 2
       },
-      "01kqsnmx2rdcaktjvwsjmmq2cn": {
-        "effort": 3,
+      "01kj5a1mnca55881qyj3jzm64b": {
+        "effort": 2,
         "emotionalWeight": 1,
+        "tone": "reflectief",
+        "needFit": {
+          "ontspannen": 2,
+          "afleiding": 3,
+          "herkenning": 2,
+          "verkennen": 4,
+          "verdieping": 4
+        },
+        "activation": 2,
+        "interruptibility": 3
+      },
+      "01kj58br1h8mzqdgf9ccngjjkv": {
+        "effort": 1,
+        "emotionalWeight": 0,
         "tone": "zakelijk",
         "needFit": {
           "ontspannen": 1,
           "afleiding": 1,
           "herkenning": 3,
-          "verkennen": 3,
+          "verkennen": 2,
           "verdieping": 3
-        }
+        },
+        "activation": 2,
+        "interruptibility": 3
       },
-      "01knefpm3ae2ew1jrq9twtjc1w": {
-        "effort": 3,
-        "emotionalWeight": 2,
-        "tone": "speels",
+      "01kj585kpp3a99w8fhgx6mvx1v": {
+        "effort": 1,
+        "emotionalWeight": 0,
+        "tone": "zakelijk",
         "needFit": {
           "ontspannen": 1,
+          "afleiding": 1,
+          "herkenning": 3,
+          "verkennen": 2,
+          "verdieping": 3
+        },
+        "activation": 2,
+        "interruptibility": 4
+      },
+      "01khxyazzfph3etb69en1bhzgw": {
+        "effort": 2,
+        "emotionalWeight": 1,
+        "tone": "reflectief",
+        "needFit": {
+          "ontspannen": 2,
+          "afleiding": 2,
+          "herkenning": 1,
+          "verkennen": 2,
+          "verdieping": 2
+        },
+        "activation": 2,
+        "interruptibility": 2
+      },
+      "01khr5h2d75yj0yt1v6seck4nt": {
+        "effort": 1,
+        "emotionalWeight": 1,
+        "tone": "reflectief",
+        "needFit": {
+          "ontspannen": 3,
           "afleiding": 3,
           "herkenning": 3,
           "verkennen": 3,
-          "verdieping": 3
-        }
+          "verdieping": 2
+        },
+        "activation": 1,
+        "interruptibility": 3
       },
-      "01kn4c4mv24kk2vjxqcn0y6efj": {
+      "01kh1ypdtsb1f1nafttcy8qdmn": {
+        "effort": 1,
+        "emotionalWeight": 1,
+        "tone": "reflectief",
+        "needFit": {
+          "ontspannen": 1,
+          "afleiding": 2,
+          "herkenning": 4,
+          "verkennen": 3,
+          "verdieping": 3
+        },
+        "activation": 2,
+        "interruptibility": 3
+      },
+      "01kg2bfknxdbdtasxyva7fdma3": {
         "effort": 2,
         "emotionalWeight": 2,
         "tone": "reflectief",
         "needFit": {
           "ontspannen": 1,
           "afleiding": 1,
-          "herkenning": 3,
+          "herkenning": 1,
           "verkennen": 4,
-          "verdieping": 3
-        }
+          "verdieping": 4
+        },
+        "activation": 2,
+        "interruptibility": 3
       },
-      "01kmmsmygjapx4f6gb2bhxds2j": {
-        "effort": 3,
-        "emotionalWeight": 3,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 1,
-          "afleiding": 1,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        }
-      },
-      "01kmjjs1nc96hg1tq02gmgh657": {
-        "effort": 3,
-        "emotionalWeight": 1,
-        "tone": "speels",
-        "needFit": {
-          "ontspannen": 1,
-          "afleiding": 3,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        }
-      },
-      "01kkh0xtww0ex0apwdnpkatc8s": {
-        "effort": 3,
-        "emotionalWeight": 2,
-        "tone": "warm",
-        "needFit": {
-          "ontspannen": 2,
-          "afleiding": 2,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        }
-      },
-      "01kj5a1mnca55881qyj3jzm64b": {
-        "effort": 3,
-        "emotionalWeight": 2,
-        "tone": "warm",
-        "needFit": {
-          "ontspannen": 3,
-          "afleiding": 3,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        }
-      },
-      "01kj58br1h8mzqdgf9ccngjjkv": {
-        "effort": 3,
-        "emotionalWeight": 2,
-        "tone": "speels",
-        "needFit": {
-          "ontspannen": 1,
-          "afleiding": 3,
-          "herkenning": 3,
-          "verkennen": 2,
-          "verdieping": 3
-        }
-      },
-      "01kj585kpp3a99w8fhgx6mvx1v": {
-        "effort": 3,
-        "emotionalWeight": 2,
-        "tone": "speels",
-        "needFit": {
-          "ontspannen": 1,
-          "afleiding": 3,
-          "herkenning": 3,
-          "verkennen": 2,
-          "verdieping": 3
-        }
-      },
-      "01khxyazzfph3etb69en1bhzgw": {
-        "effort": 3,
+      "01kfb2gw90wdpy96gedqddd1kd": {
+        "effort": 2,
         "emotionalWeight": 1,
         "tone": "zakelijk",
         "needFit": {
-          "ontspannen": 1,
+          "ontspannen": 0,
+          "afleiding": 1,
+          "herkenning": 3,
+          "verkennen": 3,
+          "verdieping": 2
+        },
+        "activation": 3,
+        "interruptibility": 3
+      },
+      "01kf916mwdxkdydep3wwes334d": {
+        "effort": 2,
+        "emotionalWeight": 3,
+        "tone": "zakelijk",
+        "needFit": {
+          "ontspannen": 0,
           "afleiding": 1,
           "herkenning": 1,
           "verkennen": 3,
           "verdieping": 3
-        }
+        },
+        "activation": 2,
+        "interruptibility": 2
       },
-      "01khr5h2d75yj0yt1v6seck4nt": {
-        "effort": 3,
-        "emotionalWeight": 2,
-        "tone": "warm",
+      "01keyjrqgd6xh0svcy2ce3bb6e": {
+        "effort": 2,
+        "emotionalWeight": 0,
+        "tone": "speels",
         "needFit": {
-          "ontspannen": 3,
+          "ontspannen": 2,
           "afleiding": 3,
-          "herkenning": 3,
-          "verkennen": 3,
+          "herkenning": 2,
+          "verkennen": 4,
           "verdieping": 3
-        }
+        },
+        "activation": 2,
+        "interruptibility": 4
       },
-      "01kh225h5t6y7800yd56j6mrkk": {
+      "01kehtft7xyq5df0c78mbcgnd0": {
         "effort": 3,
         "emotionalWeight": 1,
         "tone": "zakelijk",
         "needFit": {
           "ontspannen": 1,
+          "afleiding": 2,
+          "herkenning": 1,
+          "verkennen": 4,
+          "verdieping": 3
+        },
+        "activation": 1,
+        "interruptibility": 3
+      },
+      "01keht5gn85sygznbg0h2ngzsm": {
+        "effort": 2,
+        "emotionalWeight": 0,
+        "tone": "zakelijk",
+        "needFit": {
+          "ontspannen": 1,
+          "afleiding": 1,
+          "herkenning": 4,
+          "verkennen": 3,
+          "verdieping": 3
+        },
+        "activation": 2,
+        "interruptibility": 3
+      },
+      "01ke8078ppphvc7nr28ecay5nf": {
+        "effort": 3,
+        "emotionalWeight": 1,
+        "tone": "zakelijk",
+        "needFit": {
+          "ontspannen": 0,
+          "afleiding": 1,
+          "herkenning": 3,
+          "verkennen": 4,
+          "verdieping": 4
+        },
+        "activation": 3,
+        "interruptibility": 3
+      },
+      "01kd1canjswg2k0ey5cgtz3fa4": {
+        "effort": 2,
+        "emotionalWeight": 1,
+        "tone": "intens",
+        "needFit": {
+          "ontspannen": 0,
           "afleiding": 1,
           "herkenning": 3,
           "verkennen": 3,
           "verdieping": 3
-        }
+        },
+        "activation": 3,
+        "interruptibility": 2
       },
-      "01kh1ypdtsb1f1nafttcy8qdmn": {
-        "effort": 4,
-        "emotionalWeight": 2,
-        "tone": "warm",
+      "01kcb7n6kftwmca7m6dgprpkwf": {
+        "effort": 2,
+        "emotionalWeight": 1,
+        "tone": "zakelijk",
         "needFit": {
-          "ontspannen": 2,
-          "afleiding": 2,
+          "ontspannen": 0,
+          "afleiding": 1,
           "herkenning": 3,
-          "verkennen": 3,
+          "verkennen": 4,
           "verdieping": 3
-        }
+        },
+        "activation": 2,
+        "interruptibility": 3
       },
-      "01kg2bfknxdbdtasxyva7fdma3": {
-        "effort": 3,
-        "emotionalWeight": 2,
-        "tone": "speels",
-        "needFit": {
-          "ontspannen": 1,
-          "afleiding": 3,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        }
-      },
-      "01kfb2gw90wdpy96gedqddd1kd": {
-        "effort": 3,
-        "emotionalWeight": 2,
-        "tone": "warm",
-        "needFit": {
-          "ontspannen": 2,
-          "afleiding": 2,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        }
-      },
-      "01kf916mwdxkdydep3wwes334d": {
-        "effort": 4,
-        "emotionalWeight": 3,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 3,
-          "afleiding": 3,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        }
-      },
-      "01keyjrqgd6xh0svcy2ce3bb6e": {
-        "effort": 4,
+      "01kc53cvnp2fqe09v8vmbym5mx": {
+        "effort": 2,
         "emotionalWeight": 0,
         "tone": "speels",
         "needFit": {
           "ontspannen": 1,
-          "afleiding": 3,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        }
-      },
-      "01kehtft7xyq5df0c78mbcgnd0": {
-        "effort": 4,
-        "emotionalWeight": 2,
-        "tone": "warm",
-        "needFit": {
-          "ontspannen": 2,
           "afleiding": 2,
           "herkenning": 3,
-          "verkennen": 3,
+          "verkennen": 4,
           "verdieping": 3
-        }
-      },
-      "01keht5gn85sygznbg0h2ngzsm": {
-        "effort": 3,
-        "emotionalWeight": 2,
-        "tone": "warm",
-        "needFit": {
-          "ontspannen": 2,
-          "afleiding": 2,
-          "herkenning": 3,
-          "verkennen": 2,
-          "verdieping": 3
-        }
-      },
-      "01ke8078ppphvc7nr28ecay5nf": {
-        "effort": 4,
-        "emotionalWeight": 2,
-        "tone": "warm",
-        "needFit": {
-          "ontspannen": 2,
-          "afleiding": 2,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        }
-      },
-      "01kd1canjswg2k0ey5cgtz3fa4": {
-        "effort": 3,
-        "emotionalWeight": 2,
-        "tone": "warm",
-        "needFit": {
-          "ontspannen": 2,
-          "afleiding": 2,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        }
-      },
-      "01kcb7n6kftwmca7m6dgprpkwf": {
-        "effort": 3,
-        "emotionalWeight": 2,
-        "tone": "speels",
-        "needFit": {
-          "ontspannen": 1,
-          "afleiding": 3,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        }
-      },
-      "01kc53cvnp2fqe09v8vmbym5mx": {
-        "effort": 3,
-        "emotionalWeight": 2,
-        "tone": "speels",
-        "needFit": {
-          "ontspannen": 3,
-          "afleiding": 3,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        }
+        },
+        "activation": 2,
+        "interruptibility": 3
       },
       "01kbfj8h0ds5fz6sa9b7vdeh3n": {
         "effort": 3,
         "emotionalWeight": 1,
+        "tone": "reflectief",
+        "needFit": {
+          "ontspannen": 1,
+          "afleiding": 1,
+          "herkenning": 3,
+          "verkennen": 4,
+          "verdieping": 4
+        },
+        "activation": 2,
+        "interruptibility": 2
+      },
+      "01kbdvvwhgdyvavjfx3ey7ysak": {
+        "effort": 3,
+        "emotionalWeight": 0,
+        "tone": "zakelijk",
+        "needFit": {
+          "ontspannen": 0,
+          "afleiding": 1,
+          "herkenning": 3,
+          "verkennen": 3,
+          "verdieping": 4
+        },
+        "activation": 3,
+        "interruptibility": 3
+      },
+      "01k9p5pa1athkkdm2j2nxfhf26": {
+        "effort": 1,
+        "emotionalWeight": 2,
+        "tone": "reflectief",
+        "needFit": {
+          "ontspannen": 1,
+          "afleiding": 2,
+          "herkenning": 2,
+          "verkennen": 4,
+          "verdieping": 2
+        },
+        "activation": 1,
+        "interruptibility": 3
+      },
+      "01k8v9cz0ah2x4qddn265e4cnt": {
+        "effort": 2,
+        "emotionalWeight": 1,
         "tone": "zakelijk",
         "needFit": {
           "ontspannen": 1,
           "afleiding": 1,
-          "herkenning": 1,
-          "verkennen": 3,
-          "verdieping": 3
-        }
-      },
-      "01kbdvvwhgdyvavjfx3ey7ysak": {
-        "effort": 3,
-        "emotionalWeight": 2,
-        "tone": "warm",
-        "needFit": {
-          "ontspannen": 2,
-          "afleiding": 2,
           "herkenning": 3,
           "verkennen": 3,
           "verdieping": 3
-        }
-      },
-      "01k9p5pa1athkkdm2j2nxfhf26": {
-        "effort": 3,
-        "emotionalWeight": 3,
-        "tone": "speels",
-        "needFit": {
-          "ontspannen": 3,
-          "afleiding": 3,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        }
-      },
-      "01k8v9cz0ah2x4qddn265e4cnt": {
-        "effort": 3,
-        "emotionalWeight": 2,
-        "tone": "warm",
-        "needFit": {
-          "ontspannen": 3,
-          "afleiding": 3,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        }
+        },
+        "activation": 2,
+        "interruptibility": 2
       },
       "01k8czw4rtn870ryh0r9ky5emj": {
         "effort": 1,
+        "emotionalWeight": 1,
+        "tone": "rustig",
+        "needFit": {
+          "ontspannen": 4,
+          "afleiding": 3,
+          "herkenning": 3,
+          "verkennen": 3,
+          "verdieping": 2
+        },
+        "activation": 1,
+        "interruptibility": 2
+      },
+      "01k88fp60409w7wsaz01a69vq4": {
+        "effort": 3,
+        "emotionalWeight": 0,
+        "tone": "reflectief",
+        "needFit": {
+          "ontspannen": 0,
+          "afleiding": 1,
+          "herkenning": 2,
+          "verkennen": 4,
+          "verdieping": 3
+        },
+        "activation": 3,
+        "interruptibility": 2
+      },
+      "01k7shq7r399ekxt6pavj3t3aa": {
+        "effort": 2,
         "emotionalWeight": 2,
+        "tone": "reflectief",
+        "needFit": {
+          "ontspannen": 1,
+          "afleiding": 1,
+          "herkenning": 3,
+          "verkennen": 4,
+          "verdieping": 3
+        },
+        "activation": 2,
+        "interruptibility": 2
+      },
+      "01k7j6p8a88r4t4zarr6pqya82": {
+        "effort": 2,
+        "emotionalWeight": 1,
         "tone": "reflectief",
         "needFit": {
           "ontspannen": 2,
           "afleiding": 2,
           "herkenning": 3,
-          "verkennen": 4,
-          "verdieping": 2
-        }
-      },
-      "01k88fp60409w7wsaz01a69vq4": {
-        "effort": 3,
-        "emotionalWeight": 2,
-        "tone": "warm",
-        "needFit": {
-          "ontspannen": 2,
-          "afleiding": 2,
-          "herkenning": 3,
           "verkennen": 3,
           "verdieping": 3
-        }
-      },
-      "01k7shq7r399ekxt6pavj3t3aa": {
-        "effort": 4,
-        "emotionalWeight": 2,
-        "tone": "warm",
-        "needFit": {
-          "ontspannen": 3,
-          "afleiding": 3,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        }
-      },
-      "01k7qbg40qvbeqszm5nr2wpmyz": {
-        "effort": 3,
-        "emotionalWeight": 2,
-        "tone": "warm",
-        "needFit": {
-          "ontspannen": 3,
-          "afleiding": 3,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        }
-      },
-      "01k7j6p8a88r4t4zarr6pqya82": {
-        "effort": 3,
-        "emotionalWeight": 2,
-        "tone": "speels",
-        "needFit": {
-          "ontspannen": 3,
-          "afleiding": 3,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        }
+        },
+        "activation": 1,
+        "interruptibility": 2
       },
       "01k7j6nyeb06gx7dcdxjaqp5ps": {
-        "effort": 3,
-        "emotionalWeight": 2,
-        "tone": "warm",
+        "effort": 2,
+        "emotionalWeight": 1,
+        "tone": "reflectief",
         "needFit": {
-          "ontspannen": 2,
+          "ontspannen": 1,
           "afleiding": 2,
           "herkenning": 3,
-          "verkennen": 3,
+          "verkennen": 4,
           "verdieping": 3
-        }
+        },
+        "activation": 2,
+        "interruptibility": 3
       },
       "01k7h9szzyxzgn4ywcv20zas73": {
-        "effort": 4,
-        "emotionalWeight": 2,
-        "tone": "speels",
+        "effort": 3,
+        "emotionalWeight": 0,
+        "tone": "zakelijk",
         "needFit": {
-          "ontspannen": 1,
-          "afleiding": 3,
+          "ontspannen": 0,
+          "afleiding": 1,
           "herkenning": 3,
           "verkennen": 3,
-          "verdieping": 3
-        }
+          "verdieping": 4
+        },
+        "activation": 3,
+        "interruptibility": 3
       },
       "01k6c63we3f9ftg7xqkj272e01": {
-        "effort": 4,
-        "emotionalWeight": 3,
-        "tone": "warm",
+        "effort": 2,
+        "emotionalWeight": 1,
+        "tone": "reflectief",
         "needFit": {
           "ontspannen": 2,
           "afleiding": 2,
           "herkenning": 3,
           "verkennen": 3,
           "verdieping": 3
-        }
+        },
+        "activation": 1,
+        "interruptibility": 4
       },
       "01k53c86shnrvw46eb6mbrn6dt": {
-        "effort": 3,
-        "emotionalWeight": 2,
-        "tone": "speels",
+        "effort": 1,
+        "emotionalWeight": 3,
+        "tone": "intens",
         "needFit": {
-          "ontspannen": 1,
-          "afleiding": 3,
-          "herkenning": 3,
+          "ontspannen": 0,
+          "afleiding": 1,
+          "herkenning": 4,
           "verkennen": 3,
-          "verdieping": 3
-        }
+          "verdieping": 2
+        },
+        "activation": 2,
+        "interruptibility": 4
       },
       "01k2p3vgyxd3egkpvn5y6r2d7n": {
-        "effort": 4,
+        "effort": 3,
         "emotionalWeight": 2,
+        "tone": "zakelijk",
+        "needFit": {
+          "ontspannen": 0,
+          "afleiding": 1,
+          "herkenning": 1,
+          "verkennen": 3,
+          "verdieping": 4
+        },
+        "activation": 2,
+        "interruptibility": 2
+      },
+      "01jzcewgkt8vr8w5y9c16rq55v": {
+        "effort": 2,
+        "emotionalWeight": 1,
+        "tone": "zakelijk",
+        "needFit": {
+          "ontspannen": 0,
+          "afleiding": 0,
+          "herkenning": 4,
+          "verkennen": 3,
+          "verdieping": 4
+        },
+        "activation": 3,
+        "interruptibility": 4
+      },
+      "01jkxyd6vfh2jexjbtgjr59px7": {
+        "effort": 2,
+        "emotionalWeight": 2,
+        "tone": "intens",
+        "needFit": {
+          "ontspannen": 0,
+          "afleiding": 1,
+          "herkenning": 3,
+          "verkennen": 4,
+          "verdieping": 3
+        },
+        "activation": 3,
+        "interruptibility": 2
+      },
+      "01jkh2w2capy38f589kqkvyt4s": {
+        "effort": 1,
+        "emotionalWeight": 1,
         "tone": "speels",
         "needFit": {
           "ontspannen": 3,
           "afleiding": 3,
-          "herkenning": 3,
+          "herkenning": 4,
           "verkennen": 3,
-          "verdieping": 3
-        }
+          "verdieping": 2
+        },
+        "activation": 2,
+        "interruptibility": 2
       },
-      "01jzcewgkt8vr8w5y9c16rq55v": {
-        "effort": 4,
-        "emotionalWeight": 2,
-        "tone": "warm",
+      "01j8s9z9xg4shgce5z167zc7fn": {
+        "effort": 1,
+        "emotionalWeight": 0,
+        "tone": "zakelijk",
         "needFit": {
-          "ontspannen": 2,
-          "afleiding": 2,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        }
+          "ontspannen": 3,
+          "afleiding": 3,
+          "herkenning": 1,
+          "verkennen": 4,
+          "verdieping": 2
+        },
+        "activation": 1,
+        "interruptibility": 4
       },
-      "01jkxyd6vfh2jexjbtgjr59px7": {
-        "effort": 4,
-        "emotionalWeight": 1,
+      "01hzhvwh05p9f4hf86ghy6pnyw": {
+        "effort": 1,
+        "emotionalWeight": 0,
+        "tone": "zakelijk",
+        "needFit": {
+          "ontspannen": 1,
+          "afleiding": 1,
+          "herkenning": 2,
+          "verkennen": 2,
+          "verdieping": 1
+        },
+        "activation": 2,
+        "interruptibility": 3
+      },
+      "01hzhvw6ytx5jnvzs4ppx7zc38": {
+        "effort": 1,
+        "emotionalWeight": 0,
         "tone": "zakelijk",
         "needFit": {
           "ontspannen": 1,
           "afleiding": 1,
           "herkenning": 3,
           "verkennen": 3,
-          "verdieping": 3
-        }
-      },
-      "01jkh2w2capy38f589kqkvyt4s": {
-        "effort": 2,
-        "emotionalWeight": 1,
-        "tone": "speels",
-        "needFit": {
-          "ontspannen": 2,
-          "afleiding": 2,
-          "herkenning": 4,
-          "verkennen": 4,
-          "verdieping": 3
-        }
-      },
-      "01j8s9z9xg4shgce5z167zc7fn": {
-        "effort": 3,
-        "emotionalWeight": 2,
-        "tone": "warm",
-        "needFit": {
-          "ontspannen": 2,
-          "afleiding": 2,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        }
-      },
-      "01hzhvwh05p9f4hf86ghy6pnyw": {
-        "effort": 1,
-        "emotionalWeight": 0,
-        "tone": "rustig",
-        "needFit": {
-          "ontspannen": 2,
-          "afleiding": 1,
-          "herkenning": 2,
-          "verkennen": 3,
-          "verdieping": 1
-        }
-      },
-      "01hzhvw6ytx5jnvzs4ppx7zc38": {
-        "effort": 3,
-        "emotionalWeight": 2,
-        "tone": "warm",
-        "needFit": {
-          "ontspannen": 2,
-          "afleiding": 2,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        }
+          "verdieping": 2
+        },
+        "activation": 2,
+        "interruptibility": 4
       },
       "01hzhvtw596p747p5hysvhdndz": {
-        "effort": 4,
-        "emotionalWeight": 2,
-        "tone": "speels",
+        "effort": 2,
+        "emotionalWeight": 1,
+        "tone": "zakelijk",
         "needFit": {
-          "ontspannen": 1,
-          "afleiding": 3,
-          "herkenning": 3,
-          "verkennen": 2,
-          "verdieping": 3
-        }
-      },
-      "01hvgq17yct5zke2svk47k1148": {
-        "effort": 3,
-        "emotionalWeight": 2,
-        "tone": "warm",
-        "needFit": {
-          "ontspannen": 2,
-          "afleiding": 2,
+          "ontspannen": 0,
+          "afleiding": 0,
           "herkenning": 3,
           "verkennen": 3,
           "verdieping": 3
-        }
+        },
+        "activation": 3,
+        "interruptibility": 3
+      },
+      "01hvgq17yct5zke2svk47k1148": {
+        "effort": 1,
+        "emotionalWeight": 1,
+        "tone": "warm",
+        "needFit": {
+          "ontspannen": 3,
+          "afleiding": 2,
+          "herkenning": 4,
+          "verkennen": 3,
+          "verdieping": 2
+        },
+        "activation": 1,
+        "interruptibility": 3
       }
     }
   },
-  "generatedAt": "2026-10-14T09:16:15.085Z",
+  "generatedAt": "2026-10-14T12:20:09.153Z",
   "families": [
     {
       "id": "algemeen",
@@ -10083,38 +10805,6 @@ window.TOP_ARTICLES = {
             },
             {
               "position": 36,
-              "id": "01m3rxzdsqh9s0t8vpzsdp8xga",
-              "title": "What did I feel in there?",
-              "author": "Bob Galen from Agile Moose",
-              "siteName": "Substack",
-              "category": "email",
-              "language": null,
-              "readingTime": "2 mins",
-              "readingMinutes": 2,
-              "wordCount": 517,
-              "publishedDate": "2026-09-30",
-              "savedDate": "2026-09-30T10:32:45.623000+00:00",
-              "imageUrl": null,
-              "sourceUrl": "mailto:reader-forwarded-email/9627d2f76915e286543531bcaaa0f996",
-              "readwiseUrl": "https://read.readwise.io/read/01m3rxzdsqh9s0t8vpzsdp8xga",
-              "summary": "I read this wonderful article by Dale Wilsher titled “Your Gut is a Great Leadership Tool,” which I found to be closely related to an aspect we teach in our EBAC Masterclass.",
-              "whyRead": "Raakt je interesse in coaching en teamdynamiek — een korte reflectie op het trainen van je intuïtie door na gesprekken bewust te onderzoeken wat je voelde.",
-              "bestMoment": "na een gesprek",
-              "tags": [
-                "behavioral psychology & coaching",
-                "social psychology & interpersonal dynamics",
-                "team coaching"
-              ],
-              "coreInterests": [
-                "sociologie",
-                "agile"
-              ],
-              "alsoIn": [
-                "aaa-scrum-top-100"
-              ]
-            },
-            {
-              "position": 37,
               "id": "01ks0eq0r3x8h0fgzzn289mazj",
               "title": "Why neurodivergent people often feel like they started life 10 years late",
               "author": "Neurodivergent Geek Girl",
@@ -10146,7 +10836,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 38,
+              "position": 37,
               "id": "01m1f3z0dj5te4w2sp8wkb7x1p",
               "title": "What Happens When a Kid’s Robot Best Friend Dies?",
               "author": "Cheri Lucas Rowlands",
@@ -10177,7 +10867,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 39,
+              "position": 38,
               "id": "01m4v2ys9hh1mpe9rdn4zamf25",
               "title": "5 reasons \"this won't work in my codebase\" isn't true",
               "author": "Matt Pocock (AI Hero)",
@@ -10206,7 +10896,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 40,
+              "position": 39,
               "id": "01m2wjky368mxj0rpk9g9pkh4z",
               "title": "Merchants of Insecurity",
               "author": "blog.happyfellow.dev",
@@ -10237,7 +10927,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 41,
+              "position": 40,
               "id": "01m2smg2ksck33mxx8yjbbtc5n",
               "title": "East of Eden Guide 3",
               "author": "Thought & Title",
@@ -10268,7 +10958,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 42,
+              "position": 41,
               "id": "01m227yg7yamdn2qq40a45gr71",
               "title": "The AI4Agile Practitioners Report 2026",
               "author": "Scrum.org",
@@ -10299,7 +10989,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 43,
+              "position": 42,
               "id": "01m36e0e1mne2my12ancjax0fj",
               "title": "[Case Study] Lessons from descaling 25 Scrum teams",
               "author": "Joe Foley",
@@ -10330,7 +11020,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 44,
+              "position": 43,
               "id": "01m3bcvez8mhjr798chtpekmj1",
               "title": "Building a Collaborative Platform Culture in a Bank",
               "author": "Ben Linders",
@@ -10361,7 +11051,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 45,
+              "position": 44,
               "id": "01m4rqdgmsv1r1wzrt02j9f70c",
               "title": "9 Ways AI Coding Has Rewired My Brain",
               "author": "Matt Pocock",
@@ -10390,7 +11080,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 46,
+              "position": 45,
               "id": "01kj58br1h8mzqdgf9ccngjjkv",
               "title": "Er is slechts één soort Product Backlog refinement",
               "author": "Scrum Facilitators",
@@ -10421,7 +11111,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 47,
+              "position": 46,
               "id": "01m2smfyryeyq541gxjmjd7c2q",
               "title": "East of Eden Guide 5",
               "author": "Thought & Title",
@@ -10447,12 +11137,11 @@ window.TOP_ARTICLES = {
                 "filosofie"
               ],
               "alsoIn": [
-                "aaa-luchtig-top-100",
-                "aaa-philosophy-top-100"
+                "aaa-luchtig-top-100"
               ]
             },
             {
-              "position": 48,
+              "position": 47,
               "id": "01m1pc72x702cayjqqyg82aer8",
               "title": "You can't reason about big balls of mud.",
               "author": "lethain.com",
@@ -10483,7 +11172,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 49,
+              "position": 48,
               "id": "01m1pc7fdpfh7wg782tb035r64",
               "title": "JavaScript isn’t always available and it’s not the user’s fault",
               "author": "adamsilver.io",
@@ -10514,7 +11203,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 50,
+              "position": 49,
               "id": "01m1q3a33tajs6z8x9f3pmvraf",
               "title": "Responsive Deliverables",
               "author": "daverupert.com",
@@ -10545,7 +11234,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 51,
+              "position": 50,
               "id": "01m4qz463jjk0e6ve0qxtt5s0w",
               "title": "The Allegory of the Cave: What If Everything You Know Is an Illusion? | Plato",
               "author": "Philosophy Stuff from Philosophy Stuff",
@@ -10574,7 +11263,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 52,
+              "position": 51,
               "id": "01m4mtzabe83c0yjy7rxnwha7b",
               "title": "How to stop not starting.",
               "author": "Bob Shea",
@@ -10603,7 +11292,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 53,
+              "position": 52,
               "id": "01m1pc52whmcp71rdn2f2d01qb",
               "title": "Ain’t no party like a third party",
               "author": "adactio.com",
@@ -10634,7 +11323,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 54,
+              "position": 53,
               "id": "01m3v78rp47de54c59j26vxrnn",
               "title": "Reflections on the Digital Cleanup Gathering 2026",
               "author": "agilealliance.org",
@@ -10663,7 +11352,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 55,
+              "position": 54,
               "id": "01m4qtqgx2she3t2xh4z4qgx3e",
               "title": "Jen: Thoughts on Leadership",
               "author": "Bob Galen from Agile Moose",
@@ -10692,7 +11381,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 56,
+              "position": 55,
               "id": "01m2w4xmwcmgdcpkjyjpqrjyjb",
               "title": "DoorDash Uses Multi Agent LLMs to Clean up 60,000 Feature Flags",
               "author": "r.updates.infoq.com",
@@ -10723,7 +11412,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 57,
+              "position": 56,
               "id": "01m391vyzc65eeqdk1cc0ftrrp",
               "title": "Waar is de 'flow' gebleven?",
               "author": "Max Brouwer from Mensenwerk - De menselijke maat in een wereld vol AI",
@@ -10754,7 +11443,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 58,
+              "position": 57,
               "id": "01m3hr629yekmazqarpyneg69p",
               "title": "Matz is nice so we are nice",
               "author": "blog.steveklabnik.com",
@@ -10786,7 +11475,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 59,
+              "position": 58,
               "id": "01m2smg40p8zr20vvcdz2wbmwc",
               "title": "East of Eden Guide 2",
               "author": "Thought & Title",
@@ -10816,7 +11505,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 60,
+              "position": 59,
               "id": "01m1p7skymwn1dbj14qd2xx2a4",
               "title": "Compilers are the New Frameworks",
               "author": "tomdale.net",
@@ -10847,7 +11536,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 61,
+              "position": 60,
               "id": "01m1q387kecjnv4ddq8tgyy4h2",
               "title": "When the UI Is Too Fast",
               "author": "nngroup.com",
@@ -10876,7 +11565,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 62,
+              "position": 61,
               "id": "01m3ks4gkwdvbpmnvzf5h5p3ww",
               "title": "The Empathy Trap",
               "author": "Bob Galen from Agile Moose",
@@ -10908,7 +11597,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 63,
+              "position": 62,
               "id": "01m4tk38kqd8vdtzcv4ncq214e",
               "title": "Elon Musk Shows Us Why Oligarchy is a Danger",
               "author": "Paul Krugman",
@@ -10937,7 +11626,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 64,
+              "position": 63,
               "id": "01m1w4fzwhgx8cz2g8nkap1pdq",
               "title": "ExploitGym: Can AI Agents Turn Security Vulnerabilities into Real Attacks?",
               "author": "arxiv.org",
@@ -10966,7 +11655,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 65,
+              "position": 64,
               "id": "01m4ny01vqj9zf6y2qc6s2v79r",
               "title": "The Tech Lead said we only needed sixty percent of a Scrum Master",
               "author": "Vibhor Chandel",
@@ -10995,7 +11684,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 66,
+              "position": 65,
               "id": "01kxy1qkwpt5xkmvy06pz6bqvr",
               "title": "Technology and Barbarism",
               "author": "amazon.com",
@@ -11026,6 +11715,35 @@ window.TOP_ARTICLES = {
                 "aaa-luchtig-top-100",
                 "aaa-philosophy-top-100"
               ]
+            },
+            {
+              "position": 66,
+              "id": "01m4wzexh7q3xmd7135d13ndac",
+              "title": "My Top 5 Leadership Epiphanies",
+              "author": "Bob Galen from Agile Moose",
+              "siteName": "Substack",
+              "category": "email",
+              "language": null,
+              "readingTime": "2 mins",
+              "readingMinutes": 2,
+              "wordCount": 493,
+              "publishedDate": "2026-10-14",
+              "savedDate": "2026-10-14T10:31:21.384000+00:00",
+              "imageUrl": null,
+              "sourceUrl": "mailto:reader-forwarded-email/033d0ab9055992d8293b9164a52abef2",
+              "readwiseUrl": "https://read.readwise.io/read/01m4wzexh7q3xmd7135d13ndac",
+              "summary": "I was closing the last session of our Saturday EBAC coaching masterclass on Saturday, April 18th, when I mentioned that Appreciative Inquiry was probably among my top 5 leadership learnings or epiphanies from my career.",
+              "whyRead": "Raakt je interesse in agile/teamcoaching en reflectief leiderschap. Bob Galen vat vijf persoonlijke lessen samen die direct bruikbaar zijn voor coaching, zelfonderzoek en het ontwikkelen van leiderschap.",
+              "bestMoment": "reflectief",
+              "tags": [
+                "agile",
+                "professional development",
+                "team coaching"
+              ],
+              "coreInterests": [
+                "agile"
+              ],
+              "alsoIn": []
             },
             {
               "position": 67,
@@ -13997,8 +14715,7 @@ window.TOP_ARTICLES = {
                 "filosofie"
               ],
               "alsoIn": [
-                "aaa-short-top-100",
-                "aaa-philosophy-top-100"
+                "aaa-short-top-100"
               ]
             },
             {
@@ -17134,6 +17851,35 @@ window.TOP_ARTICLES = {
             },
             {
               "position": 55,
+              "id": "01m4wstvxenw2apd4vwc339kqb",
+              "title": "8 Red Flags on a Scoping Call (and the Question That Tests Each One)",
+              "author": "Nick Martin from WorkshopBank's Substack",
+              "siteName": "Substack",
+              "category": "email",
+              "language": null,
+              "readingTime": "7 mins",
+              "readingMinutes": 7,
+              "wordCount": 1728,
+              "publishedDate": "2026-10-14",
+              "savedDate": "2026-10-14T08:53:01.486000+00:00",
+              "imageUrl": null,
+              "sourceUrl": "mailto:reader-forwarded-email/8c240a75b76b2c8aedf2e2c4632ae7a3",
+              "readwiseUrl": "https://read.readwise.io/read/01m4wstvxenw2apd4vwc339kqb",
+              "summary": "All 8 questions in the order you ask them, as a paste-in doc: the three gate questions first, space for the client’s answers, a line for what kind of flag each one turned out to be, and the email to send when you hang up.",
+              "whyRead": "Raakt je kerninteresse in faciliteren, teamcoaching en organisatiegedrag. De tekst geeft een praktisch kader om tijdens een scoping call te ontdekken of een workshop werkelijk helpt, welke randvoorwaarden je moet ontwerpen en wanneer je beter weigert.",
+              "bestMoment": "leergierig",
+              "tags": [
+                "facilitation",
+                "organizational behavior & culture",
+                "team coaching"
+              ],
+              "coreInterests": [
+                "agile"
+              ],
+              "alsoIn": []
+            },
+            {
+              "position": 56,
               "id": "01m0pj0hcdzk57dgqrhngd08xm",
               "title": "How to Tell if Your Manager is Actually Good?",
               "author": "Gregor Ojstersek",
@@ -17162,7 +17908,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 56,
+              "position": 57,
               "id": "01m1k4njhg2tq0hr2s2c7q8mc2",
               "title": "The First Broken Window",
               "author": "Erwin Verweij from Agile Viking Galaxy",
@@ -17193,7 +17939,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 57,
+              "position": 58,
               "id": "01m2mpk5g0ptfm6wsn2w2db6nz",
               "title": "One Outcome Per Hour: How to Design Any Workshop in 45 Minutes",
               "author": "Nick Martin from WorkshopBank's Substack",
@@ -17222,7 +17968,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 58,
+              "position": 59,
               "id": "01m2ykqswpvsex0tbrspb6qha3",
               "title": "No boss? No thanks",
               "author": "Nicolai Foss\nPeter Klein",
@@ -17253,7 +17999,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 59,
+              "position": 60,
               "id": "01m3bsvtfr6yzy71xbkny9f5n8",
               "title": "The Irony of Scrum Master Role",
               "author": "vibhorchandel.com",
@@ -17283,7 +18029,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 60,
+              "position": 61,
               "id": "01m1kbpy0d4mhwm6pmkvkvf13z",
               "title": "Sprint Retrospective**",
               "author": "scrumbook.org.datasenter.no",
@@ -17312,7 +18058,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 61,
+              "position": 62,
               "id": "01m1kppm13bn0d0w70hxcjf9tw",
               "title": "Happiness Metric",
               "author": "scrumbook.org.datasenter.no",
@@ -17341,7 +18087,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 62,
+              "position": 63,
               "id": "01m1ksc86m5k1hmr9avtmtw1eb",
               "title": "Testable Improvements",
               "author": "scrumbook.org.datasenter.no",
@@ -17370,7 +18116,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 63,
+              "position": 64,
               "id": "01m1ksc9vg0efn2nvvw5n532nt",
               "title": "Small Items*",
               "author": "scrumbook.org.datasenter.no",
@@ -17399,7 +18145,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 64,
+              "position": 65,
               "id": "01m1zvs6zarc4w1cwf7w1sc7ef",
               "title": "Building Bridges for Corporate Agility — Yuliia Pieskova",
               "author": "agilealliance.org",
@@ -17429,7 +18175,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 65,
+              "position": 66,
               "id": "01m39xvrmkc09h0qq1efc4s523",
               "title": "I was asked to justify hiring a new Scrum Master",
               "author": "Vibhor Chandel",
@@ -17458,7 +18204,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 66,
+              "position": 67,
               "id": "01m3fe84fwzc84f7jtgs70hpj5",
               "title": "Agile Coaches need MORE than Coaching Skills",
               "author": "Robert Galen",
@@ -17487,7 +18233,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 67,
+              "position": 68,
               "id": "01m2sj2qe8ek1zbz9kxev71gxv",
               "title": "Case Study: Strengthening Scrum Master Leadership Through Scenario-Based Discussion",
               "author": "Joe Foley",
@@ -17518,7 +18264,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 68,
+              "position": 69,
               "id": "01ktp2kyqfw4gmnvgcrkt7faxv",
               "title": "Self-Managing Teams | Scrum.org",
               "author": "scrum.org",
@@ -17549,7 +18295,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 69,
+              "position": 70,
               "id": "01kwexpsbrn9aftwadk0dfvf1n",
               "title": "Mentoring",
               "author": "Scrum.org",
@@ -17579,7 +18325,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 70,
+              "position": 71,
               "id": "01m0phy17feth92cc2egjbpr9m",
               "title": "Why Transformations Fail: Leadership Must Change",
               "author": "Nigel Thurlow",
@@ -17610,7 +18356,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 71,
+              "position": 72,
               "id": "01m0yzc4t547m4zm0yvgrk39xb",
               "title": "The Future of Agile Coaches: Do Large Companies Need a Standardized Agile Coach Certification and What Are the Alternatives?",
               "author": "doi.org",
@@ -17641,7 +18387,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 72,
+              "position": 73,
               "id": "01m3d23wkezka5t8rkdmaes1kd",
               "title": "Independent Stories in the INVEST Model",
               "author": "xp123.com",
@@ -17673,7 +18419,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 73,
+              "position": 74,
               "id": "01m3dtap1scx5019b5hgytbygy",
               "title": "Essential XP: Card, Conversation, Confirmation",
               "author": "ronjeffries.com",
@@ -17704,7 +18450,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 74,
+              "position": 75,
               "id": "01m3dtarte45rdkdm6vgwmdf92",
               "title": "Twenty Ways to Split Stories",
               "author": "xp123.com",
@@ -17736,7 +18482,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 75,
+              "position": 76,
               "id": "01m42neyqwmnje2xs0ka09n5ar",
               "title": "Jobs Matrix for AI: Four Boxes Instead of Forty Tools",
               "author": "age-of-product.com",
@@ -17765,7 +18511,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 76,
+              "position": 77,
               "id": "01m4t6040xhse0dv9efp1v819x",
               "title": "Descoping is the Lazy and Incompetent Approach to Meeting Timelines",
               "author": "Maarten Dalmijn from Maarten’s Newsletter",
@@ -17796,7 +18542,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 77,
+              "position": 78,
               "id": "01m4dzhfpmwft49s8841anbm02",
               "title": "Developers said things got better after the Scrum Master left",
               "author": "Vibhor Chandel",
@@ -17823,38 +18569,6 @@ window.TOP_ARTICLES = {
                 "agile"
               ],
               "alsoIn": []
-            },
-            {
-              "position": 78,
-              "id": "01m3rxzdsqh9s0t8vpzsdp8xga",
-              "title": "What did I feel in there?",
-              "author": "Bob Galen from Agile Moose",
-              "siteName": "Substack",
-              "category": "email",
-              "language": null,
-              "readingTime": "2 mins",
-              "readingMinutes": 2,
-              "wordCount": 517,
-              "publishedDate": "2026-09-30",
-              "savedDate": "2026-09-30T10:32:45.623000+00:00",
-              "imageUrl": null,
-              "sourceUrl": "mailto:reader-forwarded-email/9627d2f76915e286543531bcaaa0f996",
-              "readwiseUrl": "https://read.readwise.io/read/01m3rxzdsqh9s0t8vpzsdp8xga",
-              "summary": "I read this wonderful article by Dale Wilsher titled “Your Gut is a Great Leadership Tool,” which I found to be closely related to an aspect we teach in our EBAC Masterclass.",
-              "whyRead": "Raakt je interesse in coaching en teamdynamiek — een korte reflectie op het trainen van je intuïtie door na gesprekken bewust te onderzoeken wat je voelde.",
-              "bestMoment": "na een gesprek",
-              "tags": [
-                "behavioral psychology & coaching",
-                "social psychology & interpersonal dynamics",
-                "team coaching"
-              ],
-              "coreInterests": [
-                "sociologie",
-                "agile"
-              ],
-              "alsoIn": [
-                "aaa-short-top-100"
-              ]
             },
             {
               "position": 79,
@@ -35498,6 +36212,38 @@ window.TOP_ARTICLES = {
             },
             {
               "position": 69,
+              "id": "01m4wvdn4yddq2vtkj8tmc74xk",
+              "title": "On Medieval Europe’s Systemic Slaughter of Nonconformist Women",
+              "author": "Eleanor Johnson",
+              "siteName": "Literary  Hub",
+              "category": "rss",
+              "language": null,
+              "readingTime": "8 mins",
+              "readingMinutes": 8,
+              "wordCount": 1929,
+              "publishedDate": "2026-10-14",
+              "savedDate": "2026-10-14T09:20:33.726000+00:00",
+              "imageUrl": "https://s26162.pcdn.co/wp-content/uploads/2026/10/Willisau_1447-1-768x436.jpeg",
+              "sourceUrl": "https://lithub.com/on-medieval-europes-systemic-slaughter-of-nonconformist-women/",
+              "readwiseUrl": "https://read.readwise.io/read/01m4wvdn4yddq2vtkj8tmc74xk",
+              "summary": "By the end of the Middle Ages, it was a broadly accepted truth that women were running around Europe who had been seduced by Satan and then enabled to perform wicked magic in his stead. Numerous treatise writers began to",
+              "whyRead": "Raakt je interesse in Europese geschiedenis, macht en sociale structuren. Eleanor Johnson verbindt heksenvervolging aan religieuze beeldvorming, patriarchale controle en de privatisering van eigendom.",
+              "bestMoment": "kritisch",
+              "tags": [
+                "history",
+                "political philosophy",
+                "sociology & social structures"
+              ],
+              "coreInterests": [
+                "filosofie",
+                "ideologie",
+                "geschiedenis",
+                "sociologie"
+              ],
+              "alsoIn": []
+            },
+            {
+              "position": 70,
               "id": "01m4tq9t231vq6tqx0amt4x68r",
               "title": "Does Psychosis Make us Human?",
               "author": "Brian Klaas",
@@ -35525,7 +36271,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 70,
+              "position": 71,
               "id": "01k9p5pa1athkkdm2j2nxfhf26",
               "title": "A Modest Proposal for Life After Death",
               "author": "Brian Klaas",
@@ -35557,7 +36303,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 71,
+              "position": 72,
               "id": "01kycfev2jfr2v5x5pqr2scxz7",
               "title": "How to Win a Billion Dollars and Ruin Your Life",
               "author": "Miller’s Book Review 📚",
@@ -35589,7 +36335,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 72,
+              "position": 73,
               "id": "01m4cvad1wq82yzych59cr97j3",
               "title": "How to Talk to Someone Who's Lost in Nonsense",
               "author": "Kati Rae",
@@ -35619,7 +36365,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 73,
+              "position": 74,
               "id": "01m4qz463jjk0e6ve0qxtt5s0w",
               "title": "The Allegory of the Cave: What If Everything You Know Is an Illusion? | Plato",
               "author": "Philosophy Stuff from Philosophy Stuff",
@@ -35648,7 +36394,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 74,
+              "position": 75,
               "id": "01k2p3vgyxd3egkpvn5y6r2d7n",
               "title": "Genetics and Eugenics in Frank Herbert’s Dune-verse",
               "author": "Gwern Branwen",
@@ -35679,7 +36425,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 75,
+              "position": 76,
               "id": "01ky7jr9fzhv4h5e988f76rxth",
               "title": "Has AI Already Killed How-To Nonfiction? Sales Trends, My Personal Data, and What It Might Mean for the Future",
               "author": "tim.blog",
@@ -35710,7 +36456,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 76,
+              "position": 77,
               "id": "01m1kpjvpkpjy10c0zp09d0hty",
               "title": "How to be useless",
               "author": "psyche.co",
@@ -35741,7 +36487,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 77,
+              "position": 78,
               "id": "01kxrhtjs9wgt5ta83dd02hya3",
               "title": "The looting of science fiction",
               "author": "Aeon",
@@ -35773,7 +36519,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 78,
+              "position": 79,
               "id": "01k8v9cz0ah2x4qddn265e4cnt",
               "title": "Everything Is Television",
               "author": "Derek Thompson",
@@ -35806,7 +36552,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 79,
+              "position": 80,
               "id": "01m0f29337jsph1jwqq3njdbkc",
               "title": "In de bioscoop blijkt dat we eer belangrijker vinden dan je zou denken",
               "author": "nrc.nl",
@@ -35838,7 +36584,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 80,
+              "position": 81,
               "id": "01kh225h5t6y7800yd56j6mrkk",
               "title": "AI Doesn’t Reduce Work—It Intensifies It",
               "author": "Aruna Ranganathan, Xingqi Maggie Ye",
@@ -35868,7 +36614,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 81,
+              "position": 82,
               "id": "01m2sj3crywpy57w2k9nd8x35d",
               "title": "A 17th-century classic of Ethiopian philosophy might be a fake. Does it matter, or is that just how philosophy works?",
               "author": "Jonathan Egid",
@@ -35900,7 +36646,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 82,
+              "position": 83,
               "id": "01m4nadx0qvz5gb1wqgrp2h131",
               "title": "Who Controls the Internet? And should they?",
               "author": "berthub.eu",
@@ -35931,7 +36677,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 83,
+              "position": 84,
               "id": "01m4rh2wpfz2241r0mdts94qyx",
               "title": "Information is out of control",
               "author": "Jared Henderson from Commonplace Philosophy",
@@ -35960,7 +36706,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 84,
+              "position": 85,
               "id": "01m4vhf1shc9axz4ck68axr6he",
               "title": "Claude, don’t touch my lump",
               "author": "Adam Mastroianni",
@@ -35988,7 +36734,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 85,
+              "position": 86,
               "id": "01kd1canjswg2k0ey5cgtz3fa4",
               "title": "Why I Am Not Going To Buy A Computer",
               "author": "Wendell Berry",
@@ -36019,7 +36765,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 86,
+              "position": 87,
               "id": "01kh1ypdtsb1f1nafttcy8qdmn",
               "title": "Backseat Software",
               "author": "Mike Swanson",
@@ -36050,7 +36796,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 87,
+              "position": 88,
               "id": "01kxy1qkwpt5xkmvy06pz6bqvr",
               "title": "Technology and Barbarism",
               "author": "amazon.com",
@@ -36083,7 +36829,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 88,
+              "position": 89,
               "id": "01m3dtcqa58z1qk7eks8ejrvxt",
               "title": "United States Counterterrorism Strategy",
               "author": "The White House",
@@ -36115,7 +36861,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 89,
+              "position": 90,
               "id": "01m3vhtkrpg02553ry2c6frknq",
               "title": "The Dot and the Swarm",
               "author": "Ethan Mollick from One Useful Thing",
@@ -36144,7 +36890,7 @@ window.TOP_ARTICLES = {
               "alsoIn": []
             },
             {
-              "position": 90,
+              "position": 91,
               "id": "01m238hym49xc8fej427a9vvvb",
               "title": "Christian Culture and the Danger It’s In",
               "author": "Stefan Paas",
@@ -36177,7 +36923,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 91,
+              "position": 92,
               "id": "01m2ypv5w730dbc78eajsfxnna",
               "title": "Managing the Facts of Life",
               "author": "https://hedgehogreview.com/contributors/sarah-m-brownsberger",
@@ -36209,7 +36955,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 92,
+              "position": 93,
               "id": "01m3h1gxyejcz42pg85wgrpwpe",
               "title": "Engineering Philosophy: Yukihiro Matsumoto, Designed for Humans",
               "author": "blakecrosley.com",
@@ -36241,7 +36987,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 93,
+              "position": 94,
               "id": "01m207r5gtkhknjq6ezh237a4s",
               "title": "The Thief Who Wanted to Save the World",
               "author": "Longreads",
@@ -36274,7 +37020,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 94,
+              "position": 95,
               "id": "01m2smg2ksck33mxx8yjbbtc5n",
               "title": "East of Eden Guide 3",
               "author": "Thought & Title",
@@ -36305,7 +37051,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 95,
+              "position": 96,
               "id": "01m3d13s17dav0zaeh95erzrnb",
               "title": "Booksellers are sounding the alarm over Trump’s anti-antifascist presidential memo.",
               "author": "James Folta",
@@ -36337,7 +37083,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 96,
+              "position": 97,
               "id": "01k6c63we3f9ftg7xqkj272e01",
               "title": "Nine Things I Learned In Ninety Years",
               "author": "Edward Packard",
@@ -36369,7 +37115,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 97,
+              "position": 98,
               "id": "01m1nbje7rssfyfzakc00nv9ja",
               "title": "Rigorous Yet Sustainable Human Reviews in the AI Era",
               "author": "Ben Linders",
@@ -36401,7 +37147,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 98,
+              "position": 99,
               "id": "01m2jdambdhe703e1ecfvdkb9q",
               "title": "Oversight Of A.I.: Principles For Regulation",
               "author": "Dario Amodei",
@@ -36431,7 +37177,7 @@ window.TOP_ARTICLES = {
               ]
             },
             {
-              "position": 99,
+              "position": 100,
               "id": "01m4ghwk9h25gntyn5smype298",
               "title": "Beleggen? Bah, wat rechts!",
               "author": "Milou Brand",
@@ -36462,37 +37208,6 @@ window.TOP_ARTICLES = {
               "alsoIn": [
                 "aaa-luchtig-top-100"
               ]
-            },
-            {
-              "position": 100,
-              "id": "01m2smfyryeyq541gxjmjd7c2q",
-              "title": "East of Eden Guide 5",
-              "author": "Thought & Title",
-              "siteName": "Thought & Title",
-              "category": "article",
-              "language": null,
-              "readingTime": "3 mins",
-              "readingMinutes": 3,
-              "wordCount": 625,
-              "publishedDate": "2026-06-29",
-              "savedDate": "2026-09-18T06:50:34.142000+00:00",
-              "imageUrl": "https://substackcdn.com/image/fetch/$s_!PUpp!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F85c07757-eef6-41dc-b1e3-b883b169cfdc_1080x1920.jpeg",
-              "sourceUrl": "https://thoughtandtitle.substack.com/p/east-of-eden-guide-5?utm_source=profile&utm_medium=reader2",
-              "readwiseUrl": "https://read.readwise.io/read/01m2smfyryeyq541gxjmjd7c2q",
-              "summary": "Part 5 of a 6 part reading guide deeply analyzing Steinbecks \"East of Eden\"",
-              "whyRead": null,
-              "bestMoment": null,
-              "tags": [
-                "existentialism",
-                "fiction"
-              ],
-              "coreInterests": [
-                "filosofie"
-              ],
-              "alsoIn": [
-                "aaa-short-top-100",
-                "aaa-luchtig-top-100"
-              ]
             }
           ]
         }
@@ -36503,30 +37218,237 @@ window.TOP_ARTICLES = {
     "items": [
       {
         "position": null,
-        "id": "01m4wch02hnyn69hdjxxbc2a41",
-        "title": "Why Is Everyone Becoming So Boring?",
-        "author": "Banned Books Club",
-        "siteName": "Banned Books Club",
-        "category": "article",
+        "id": "01m4wzexh7q3xmd7135d13ndac",
+        "title": "My Top 5 Leadership Epiphanies",
+        "author": "Bob Galen from Agile Moose",
+        "siteName": "Substack",
+        "category": "email",
+        "language": null,
+        "readingTime": "2 mins",
+        "readingMinutes": 2,
+        "wordCount": 493,
+        "publishedDate": "2026-10-14",
+        "savedDate": "2026-10-14T10:31:21.384000+00:00",
+        "imageUrl": null,
+        "sourceUrl": "mailto:reader-forwarded-email/033d0ab9055992d8293b9164a52abef2",
+        "readwiseUrl": "https://read.readwise.io/read/01m4wzexh7q3xmd7135d13ndac",
+        "summary": "I was closing the last session of our Saturday EBAC coaching masterclass on Saturday, April 18th, when I mentioned that Appreciative Inquiry was probably among my top 5 leadership learnings or epiphanies from my career.",
+        "whyRead": "Raakt je interesse in agile/teamcoaching en reflectief leiderschap. Bob Galen vat vijf persoonlijke lessen samen die direct bruikbaar zijn voor coaching, zelfonderzoek en het ontwikkelen van leiderschap.",
+        "bestMoment": "reflectief",
+        "tags": [
+          "agile",
+          "professional development",
+          "team coaching"
+        ],
+        "coreInterests": [
+          "agile"
+        ],
+        "alsoIn": [
+          "aaa-short-top-100"
+        ],
+        "memberships": [
+          {
+            "familyId": "kort",
+            "size": "top-100",
+            "position": 66
+          }
+        ]
+      },
+      {
+        "position": null,
+        "id": "01m4wvdn8tfazr9zhp2e6mshjy",
+        "title": "The Real Reason the Rent Is Too Damn High: Greed-Driven Corporate Algorithms",
+        "author": "Lindsay Owens",
+        "siteName": "Literary  Hub",
+        "category": "rss",
+        "language": null,
+        "readingTime": "15 mins",
+        "readingMinutes": 15,
+        "wordCount": 3720,
+        "publishedDate": "2026-10-14",
+        "savedDate": "2026-10-14T09:20:30.850000+00:00",
+        "imageUrl": "https://s26162.pcdn.co/wp-content/uploads/2026/09/longform-banner-3-768x384.png",
+        "sourceUrl": "https://lithub.com/the-real-reason-the-rent-is-too-damn-high-greed-driven-corporate-algorithms/",
+        "readwiseUrl": "https://read.readwise.io/read/01m4wvdn8tfazr9zhp2e6mshjy",
+        "summary": "Have you ever wondered why your rent is so damn high? Ask any economist or housing expert and they’ll tell you the reason is simple: There’s not enough housing. Too many tenants are competing for too few units, which drives",
+        "whyRead": "Raakt je interesse in ongelijkheid, sociale structuren en de maatschappelijke gevolgen van AI. Lindsay Owens laat concreet zien hoe algorithmische huurprijssoftware marktmacht kan concentreren en prijsafspraken kan verhullen als neutrale technologie.",
+        "bestMoment": "kritisch",
+        "tags": [
+          "ai ethics & society",
+          "economics",
+          "sociology & social structures"
+        ],
+        "coreInterests": [
+          "sociologie"
+        ],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01m4wvdn4yddq2vtkj8tmc74xk",
+        "title": "On Medieval Europe’s Systemic Slaughter of Nonconformist Women",
+        "author": "Eleanor Johnson",
+        "siteName": "Literary  Hub",
+        "category": "rss",
+        "language": null,
+        "readingTime": "8 mins",
+        "readingMinutes": 8,
+        "wordCount": 1929,
+        "publishedDate": "2026-10-14",
+        "savedDate": "2026-10-14T09:20:33.726000+00:00",
+        "imageUrl": "https://s26162.pcdn.co/wp-content/uploads/2026/10/Willisau_1447-1-768x436.jpeg",
+        "sourceUrl": "https://lithub.com/on-medieval-europes-systemic-slaughter-of-nonconformist-women/",
+        "readwiseUrl": "https://read.readwise.io/read/01m4wvdn4yddq2vtkj8tmc74xk",
+        "summary": "By the end of the Middle Ages, it was a broadly accepted truth that women were running around Europe who had been seduced by Satan and then enabled to perform wicked magic in his stead. Numerous treatise writers began to",
+        "whyRead": "Raakt je interesse in Europese geschiedenis, macht en sociale structuren. Eleanor Johnson verbindt heksenvervolging aan religieuze beeldvorming, patriarchale controle en de privatisering van eigendom.",
+        "bestMoment": "kritisch",
+        "tags": [
+          "history",
+          "political philosophy",
+          "sociology & social structures"
+        ],
+        "coreInterests": [
+          "filosofie",
+          "ideologie",
+          "geschiedenis",
+          "sociologie"
+        ],
+        "alsoIn": [
+          "aaa-philosophy-top-100"
+        ],
+        "memberships": [
+          {
+            "familyId": "philosophy",
+            "size": "top-100",
+            "position": 69
+          }
+        ]
+      },
+      {
+        "position": null,
+        "id": "01m4wvdmz27qsqbzppbm48jshb",
+        "title": "Keep Hope Alive: Al Sharpton Remembers His Mentor, Jesse Jackson",
+        "author": "Al Sharpton",
+        "siteName": "Literary  Hub",
+        "category": "rss",
+        "language": null,
+        "readingTime": "8 mins",
+        "readingMinutes": 8,
+        "wordCount": 1984,
+        "publishedDate": "2026-10-14",
+        "savedDate": "2026-10-14T09:20:36.538000+00:00",
+        "imageUrl": "https://s26162.pcdn.co/wp-content/uploads/2026/10/jesse-jackson-768x432.png",
+        "sourceUrl": "https://lithub.com/keep-hope-alive-al-sharpton-remembers-his-mentor-jesse-jackson/",
+        "readwiseUrl": "https://read.readwise.io/read/01m4wvdmz27qsqbzppbm48jshb",
+        "summary": "There is a moment in every young person’s life when they encounter someone who makes them believe that the world can be different—that they can be different—and nothing is ever the same again. For me, that moment came because of",
+        "whyRead": "Raakt je interesse in politieke geschiedenis, bewegingen en leiderschap. Al Sharptons herinnering aan Jesse Jackson laat zien hoe religieuze vorming, coalitiebouw en persoonlijke relaties samen politieke macht kunnen dragen.",
+        "bestMoment": "reflectief",
+        "tags": [
+          "current affairs & politics",
+          "history",
+          "social psychology & interpersonal dynamics"
+        ],
+        "coreInterests": [
+          "geschiedenis",
+          "sociologie"
+        ],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01m4wvdmjnhzez60pfdm0btw08",
+        "title": "Is It or Isn’t It? How Generative AI is Poisoning the Literary Well For Everyone",
+        "author": "James Folta",
+        "siteName": "Literary  Hub",
+        "category": "rss",
         "language": null,
         "readingTime": "5 mins",
         "readingMinutes": 5,
-        "wordCount": 1175,
-        "publishedDate": "2026-10-01",
-        "savedDate": "2026-10-14T05:00:26.577000+00:00",
-        "imageUrl": "https://substackcdn.com/image/fetch/$s_!CCMf!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F77d6570a-e62b-4b0c-a325-5a66d1d3b74b_1536x1024.png",
-        "sourceUrl": "https://bannedbooksclub.substack.com/p/the-lost-art-of-being-an-interesting?utm_source=direct&r=1r0y5d&utm_campaign=post-expanded-share&utm_medium=post%20viewer",
-        "readwiseUrl": "https://read.readwise.io/read/01m4wch02hnyn69hdjxxbc2a41",
-        "summary": "Why knowing a little about a lot, caring deeply about strange things, and having opinions you didn’t borrow from the internet might be worth bringing back.",
-        "whyRead": "Raakt je interesse in leren, cultuur en essayistisch denken. Het stuk verdedigt nieuwsgierigheid zonder direct rendement en eigen gevormde meningen als tegengif tegen de eenvormigheid van algoritmes.",
-        "bestMoment": "reflectief",
+        "wordCount": 1289,
+        "publishedDate": "2026-10-14",
+        "savedDate": "2026-10-14T09:20:42.142000+00:00",
+        "imageUrl": "https://s26162.pcdn.co/wp-content/uploads/2026/10/AI-detection-768x397.jpg",
+        "sourceUrl": "https://lithub.com/is-it-or-isnt-it-how-generative-ai-is-poisoning-the-literary-well-for-everyone/",
+        "readwiseUrl": "https://read.readwise.io/read/01m4wvdmjnhzez60pfdm0btw08",
+        "summary": "Vauhini Vara, who has for years been investigating the impact of AI on writing, published a piece in The Atlantic over the weekend claiming that the winner of The Caine Prize used AI to write his story. Zimbabwean writer Simbarashe",
+        "whyRead": "Raakt je kerninteresse in AI-ethiek en je belangstelling voor literatuur. Het stuk onderzoekt hoe AI-detectie, culturele vooroordelen en commerciële AI-evangelisatie het vertrouwen in schrijvers en teksten aantasten.",
+        "bestMoment": "kritisch",
         "tags": [
+          "ai ethics & society",
           "arts & culture",
-          "learning & meta-learning"
+          "technology"
         ],
         "coreInterests": [],
         "alsoIn": [],
         "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01m4wtg1vt5jbq684snyrh94qj",
+        "title": "Blue Sunset",
+        "author": "Lit Hub Excerpts",
+        "siteName": "Literary  Hub",
+        "category": "rss",
+        "language": null,
+        "readingTime": "11 mins",
+        "readingMinutes": 11,
+        "wordCount": 2691,
+        "publishedDate": "2026-10-14",
+        "savedDate": "2026-10-14T09:04:32.706000+00:00",
+        "imageUrl": "https://s26162.pcdn.co/wp-content/uploads/2026/09/9781948980333.jpg",
+        "sourceUrl": "https://lithub.com/blue-sunset/",
+        "readwiseUrl": "https://read.readwise.io/read/01m4wtg1vt5jbq684snyrh94qj",
+        "summary": "The Author is facing the sea, his cheeks orange from the lowering sun. There’s Maja, walking towards him, from behind, tentative, yet her right arm is reaching for him, reaching around him. No sound except the waves, they break against",
+        "whyRead": "Raakt je belangstelling voor literaire fictie en verhalen over rouw, macht en vervreemding. Dit fragment gebruikt de regels rond urnen en as als beklemmend kader voor een personage dat na een kinderlijk verlies niet meer weet hoe ze met het lichaam van de herinnering moet omgaan.",
+        "bestMoment": "reflectief",
+        "tags": [
+          "arts & culture",
+          "fiction",
+          "personal growth & life philosophy"
+        ],
+        "coreInterests": [],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
+        "id": "01m4wstvxenw2apd4vwc339kqb",
+        "title": "8 Red Flags on a Scoping Call (and the Question That Tests Each One)",
+        "author": "Nick Martin from WorkshopBank's Substack",
+        "siteName": "Substack",
+        "category": "email",
+        "language": null,
+        "readingTime": "7 mins",
+        "readingMinutes": 7,
+        "wordCount": 1728,
+        "publishedDate": "2026-10-14",
+        "savedDate": "2026-10-14T08:53:01.486000+00:00",
+        "imageUrl": null,
+        "sourceUrl": "mailto:reader-forwarded-email/8c240a75b76b2c8aedf2e2c4632ae7a3",
+        "readwiseUrl": "https://read.readwise.io/read/01m4wstvxenw2apd4vwc339kqb",
+        "summary": "All 8 questions in the order you ask them, as a paste-in doc: the three gate questions first, space for the client’s answers, a line for what kind of flag each one turned out to be, and the email to send when you hang up.",
+        "whyRead": "Raakt je kerninteresse in faciliteren, teamcoaching en organisatiegedrag. De tekst geeft een praktisch kader om tijdens een scoping call te ontdekken of een workshop werkelijk helpt, welke randvoorwaarden je moet ontwerpen en wanneer je beter weigert.",
+        "bestMoment": "leergierig",
+        "tags": [
+          "facilitation",
+          "organizational behavior & culture",
+          "team coaching"
+        ],
+        "coreInterests": [
+          "agile"
+        ],
+        "alsoIn": [
+          "aaa-scrum-top-100"
+        ],
+        "memberships": [
+          {
+            "familyId": "scrum",
+            "size": "top-100",
+            "position": 55
+          }
+        ]
       },
       {
         "position": null,
@@ -36600,7 +37522,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "philosophy",
             "size": "top-100",
-            "position": 84
+            "position": 85
           }
         ]
       },
@@ -36637,7 +37559,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 39
+            "position": 38
           },
           {
             "familyId": "software-development",
@@ -36679,7 +37601,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "philosophy",
             "size": "top-100",
-            "position": 69
+            "position": 70
           }
         ]
       },
@@ -36717,7 +37639,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 63
+            "position": 62
           }
         ]
       },
@@ -36756,7 +37678,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 76
+            "position": 77
           },
           {
             "familyId": "software-development",
@@ -36886,7 +37808,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 45
+            "position": 44
           },
           {
             "familyId": "software-development",
@@ -36965,7 +37887,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "philosophy",
             "size": "top-100",
-            "position": 83
+            "position": 84
           }
         ]
       },
@@ -37050,12 +37972,12 @@ window.TOP_ARTICLES = {
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 51
+            "position": 50
           },
           {
             "familyId": "philosophy",
             "size": "top-100",
-            "position": 73
+            "position": 74
           }
         ]
       },
@@ -37093,7 +38015,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 55
+            "position": 54
           }
         ]
       },
@@ -37173,6 +38095,36 @@ window.TOP_ARTICLES = {
       },
       {
         "position": null,
+        "id": "01m4p9h8dq2t96qr41pc5bhqam",
+        "title": "Your Gut Is a Great Leadership Tool",
+        "author": "Dale Wilsher, PCC",
+        "siteName": "linkedin.com",
+        "category": "article",
+        "language": null,
+        "readingTime": "5 mins",
+        "readingMinutes": 5,
+        "wordCount": 1246,
+        "publishedDate": null,
+        "savedDate": "2026-10-14T09:31:25.906000+00:00",
+        "imageUrl": "https://media.licdn.com/dms/image/v2/D5612AQGbj8WUJUYvxQ/article-cover_image-shrink_720_1280/B56Z50l46lIIAU-/0/1780072551204?e=2147483647&v=beta&t=3qzLdnBkjnHEGIx4TtJl8eRrk3QFz3y1lHvBjTHCfew",
+        "sourceUrl": "https://www.linkedin.com/pulse/your-gut-great-leadership-tool-dale-wilsher-pcc-lu29c/?utm_source=substack&utm_medium=email",
+        "readwiseUrl": "https://read.readwise.io/read/01m4p9h8dq2t96qr41pc5bhqam",
+        "summary": "I just upgraded to a fiber modem. Before, I had 5 megabits per second running through my office.",
+        "whyRead": "Dale Wilsher stelt dat leiders na gesprekken lichamelijke en relationele signalen kunnen opmerken voordat ze die analyseren; ze stelt een check-in van 60 seconden voor. Een eerder bewaard stuk van Bob Galen haalt dit artikel al aan en vat dezelfde oefening samen.",
+        "bestMoment": "analytisch",
+        "tags": [
+          "behavioral psychology & coaching",
+          "organizational behavior & culture",
+          "team coaching"
+        ],
+        "coreInterests": [
+          "agile"
+        ],
+        "alsoIn": [],
+        "memberships": []
+      },
+      {
+        "position": null,
         "id": "01m4p1t972edcqaednwr7jmwvq",
         "title": "Steeds meer Polen gaan terug: daar is het leven inmiddels net zo goed",
         "author": "de Volkskrant",
@@ -37234,7 +38186,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 65
+            "position": 64
           }
         ]
       },
@@ -37350,7 +38302,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "philosophy",
             "size": "top-100",
-            "position": 82
+            "position": 83
           }
         ]
       },
@@ -37816,7 +38768,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 52
+            "position": 51
           },
           {
             "familyId": "luchtig",
@@ -38103,7 +39055,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "philosophy",
             "size": "top-100",
-            "position": 99
+            "position": 100
           }
         ]
       },
@@ -38177,7 +39129,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 77
+            "position": 78
           }
         ]
       },
@@ -38313,7 +39265,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "philosophy",
             "size": "top-100",
-            "position": 72
+            "position": 73
           }
         ]
       },
@@ -38925,7 +39877,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 75
+            "position": 76
           }
         ]
       },
@@ -39263,7 +40215,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "philosophy",
             "size": "top-100",
-            "position": 89
+            "position": 90
           }
         ]
       },
@@ -39301,7 +40253,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 54
+            "position": 53
           }
         ]
       },
@@ -39468,51 +40420,6 @@ window.TOP_ARTICLES = {
             "familyId": "software-development",
             "size": "top-100",
             "position": 26
-          }
-        ]
-      },
-      {
-        "position": null,
-        "id": "01m3rxzdsqh9s0t8vpzsdp8xga",
-        "title": "What did I feel in there?",
-        "author": "Bob Galen from Agile Moose",
-        "siteName": "Substack",
-        "category": "email",
-        "language": null,
-        "readingTime": "2 mins",
-        "readingMinutes": 2,
-        "wordCount": 517,
-        "publishedDate": "2026-09-30",
-        "savedDate": "2026-09-30T10:32:45.623000+00:00",
-        "imageUrl": null,
-        "sourceUrl": "mailto:reader-forwarded-email/9627d2f76915e286543531bcaaa0f996",
-        "readwiseUrl": "https://read.readwise.io/read/01m3rxzdsqh9s0t8vpzsdp8xga",
-        "summary": "I read this wonderful article by Dale Wilsher titled “Your Gut is a Great Leadership Tool,” which I found to be closely related to an aspect we teach in our EBAC Masterclass.",
-        "whyRead": "Raakt je interesse in coaching en teamdynamiek — een korte reflectie op het trainen van je intuïtie door na gesprekken bewust te onderzoeken wat je voelde.",
-        "bestMoment": "na een gesprek",
-        "tags": [
-          "behavioral psychology & coaching",
-          "social psychology & interpersonal dynamics",
-          "team coaching"
-        ],
-        "coreInterests": [
-          "sociologie",
-          "agile"
-        ],
-        "alsoIn": [
-          "aaa-short-top-100",
-          "aaa-scrum-top-100"
-        ],
-        "memberships": [
-          {
-            "familyId": "kort",
-            "size": "top-100",
-            "position": 36
-          },
-          {
-            "familyId": "scrum",
-            "size": "top-100",
-            "position": 78
           }
         ]
       },
@@ -39729,7 +40636,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 62
+            "position": 61
           },
           {
             "familyId": "luchtig",
@@ -39970,7 +40877,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 58
+            "position": 57
           },
           {
             "familyId": "software-development",
@@ -40058,7 +40965,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "philosophy",
             "size": "top-100",
-            "position": 92
+            "position": 93
           }
         ]
       },
@@ -40503,7 +41410,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 66
+            "position": 67
           }
         ]
       },
@@ -40705,7 +41612,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "philosophy",
             "size": "top-100",
-            "position": 88
+            "position": 89
           }
         ]
       },
@@ -40789,7 +41696,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 74
+            "position": 75
           },
           {
             "familyId": "software-development",
@@ -40838,7 +41745,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 73
+            "position": 74
           },
           {
             "familyId": "software-development",
@@ -41058,7 +41965,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 72
+            "position": 73
           },
           {
             "familyId": "software-development",
@@ -41201,7 +42108,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "philosophy",
             "size": "top-100",
-            "position": 95
+            "position": 96
           }
         ]
       },
@@ -42281,7 +43188,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 59
+            "position": 60
           }
         ]
       },
@@ -42372,7 +43279,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 44
+            "position": 43
           },
           {
             "familyId": "software-development",
@@ -42415,7 +43322,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 65
+            "position": 66
           }
         ]
       },
@@ -42691,7 +43598,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 57
+            "position": 56
           },
           {
             "familyId": "software-development",
@@ -42914,7 +43821,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 43
+            "position": 42
           },
           {
             "familyId": "scrum",
@@ -43824,7 +44731,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "philosophy",
             "size": "top-100",
-            "position": 91
+            "position": 92
           }
         ]
       },
@@ -43913,7 +44820,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 58
+            "position": 59
           },
           {
             "familyId": "social-studies",
@@ -44046,7 +44953,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 40
+            "position": 39
           },
           {
             "familyId": "software-development",
@@ -44212,7 +45119,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 56
+            "position": 55
           },
           {
             "familyId": "software-development",
@@ -44462,7 +45369,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 59
+            "position": 58
           },
           {
             "familyId": "luchtig",
@@ -44506,7 +45413,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 41
+            "position": 40
           },
           {
             "familyId": "luchtig",
@@ -44516,7 +45423,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "philosophy",
             "size": "top-100",
-            "position": 94
+            "position": 95
           }
         ]
       },
@@ -44548,24 +45455,18 @@ window.TOP_ARTICLES = {
         ],
         "alsoIn": [
           "aaa-short-top-100",
-          "aaa-luchtig-top-100",
-          "aaa-philosophy-top-100"
+          "aaa-luchtig-top-100"
         ],
         "memberships": [
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 47
+            "position": 46
           },
           {
             "familyId": "luchtig",
             "size": "top-100",
             "position": 68
-          },
-          {
-            "familyId": "philosophy",
-            "size": "top-100",
-            "position": 100
           }
         ]
       },
@@ -44610,7 +45511,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "philosophy",
             "size": "top-100",
-            "position": 81
+            "position": 82
           }
         ]
       },
@@ -44692,7 +45593,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 67
+            "position": 68
           }
         ]
       },
@@ -45033,7 +45934,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 57
+            "position": 58
           }
         ]
       },
@@ -45639,7 +46540,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "philosophy",
             "size": "top-100",
-            "position": 98
+            "position": 99
           }
         ]
       },
@@ -46807,7 +47708,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "philosophy",
             "size": "top-100",
-            "position": 90
+            "position": 91
           }
         ]
       },
@@ -46846,7 +47747,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 42
+            "position": 41
           },
           {
             "familyId": "scrum",
@@ -46937,7 +47838,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "philosophy",
             "size": "top-100",
-            "position": 93
+            "position": 94
           }
         ]
       },
@@ -47015,7 +47916,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 64
+            "position": 65
           }
         ]
       },
@@ -47297,7 +48198,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 64
+            "position": 63
           },
           {
             "familyId": "software-development",
@@ -47675,7 +48576,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 50
+            "position": 49
           },
           {
             "familyId": "software-development",
@@ -47873,7 +48774,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 61
+            "position": 60
           },
           {
             "familyId": "software-development",
@@ -48317,7 +49218,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 49
+            "position": 48
           },
           {
             "familyId": "software-development",
@@ -48371,7 +49272,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 48
+            "position": 47
           },
           {
             "familyId": "software-development",
@@ -48611,7 +49512,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 53
+            "position": 52
           },
           {
             "familyId": "software-development",
@@ -48655,7 +49556,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 60
+            "position": 59
           },
           {
             "familyId": "software-development",
@@ -49125,7 +50026,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "philosophy",
             "size": "top-100",
-            "position": 97
+            "position": 98
           }
         ]
       },
@@ -49291,7 +50192,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 63
+            "position": 64
           }
         ]
       },
@@ -49329,7 +50230,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 62
+            "position": 63
           }
         ]
       },
@@ -49444,7 +50345,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 61
+            "position": 62
           }
         ]
       },
@@ -49526,7 +50427,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "philosophy",
             "size": "top-100",
-            "position": 76
+            "position": 77
           }
         ]
       },
@@ -49564,7 +50465,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 60
+            "position": 61
           }
         ]
       },
@@ -49604,7 +50505,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 56
+            "position": 57
           }
         ]
       },
@@ -49705,7 +50606,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 38
+            "position": 37
           },
           {
             "familyId": "adhd",
@@ -50026,37 +50927,6 @@ window.TOP_ARTICLES = {
       },
       {
         "position": null,
-        "id": "01m13bydjdttq1jnhmnt13k22z",
-        "title": "Ladies of the ’80s",
-        "author": "Lisa Whittington-Hill",
-        "siteName": "Longreads",
-        "category": "article",
-        "language": null,
-        "readingTime": "23 mins",
-        "readingMinutes": 23,
-        "wordCount": 5896,
-        "publishedDate": "2026-08-27",
-        "savedDate": "2026-08-28T05:02:11.534000+00:00",
-        "imageUrl": "https://i0.wp.com/longreads.com/wp-content/uploads/2026/08/LadiesOfThe80sE.png?fit=2400%2C1400&quality=80&ssl=1",
-        "sourceUrl": "https://longreads.com/2026/08/27/80s-ladies-lisa-whittington-hill/",
-        "readwiseUrl": "https://read.readwise.io/read/01m13bydjdttq1jnhmnt13k22z",
-        "summary": "How Madonna, Grace Jones, Joan Jett, Whitney Houston, and their contemporaries broke the stodgy musical mold of the '60s and '70s to inspire generations of women to pick up an instrument and learn to play music.",
-        "whyRead": "Raakt je interesse in muziek als cultuurvorm en in de geschiedenis van representatie. Dit persoonlijke essay volgt hoe vrouwelijke popartiesten in de jaren tachtig esthetische en institutionele grenzen doorbraken.",
-        "bestMoment": "ontspannen",
-        "tags": [
-          "arts & culture",
-          "entertainment & pop culture",
-          "history"
-        ],
-        "coreInterests": [
-          "geschiedenis",
-          "cultuur_games_film"
-        ],
-        "alsoIn": [],
-        "memberships": []
-      },
-      {
-        "position": null,
         "id": "01m110gbsyqc7vv1ejwtptm5rf",
         "title": "Communication Is … Dialogue",
         "author": "Sven Brodmerkel | Off-Script At Work",
@@ -50293,7 +51163,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 71
+            "position": 72
           }
         ]
       },
@@ -50495,7 +51365,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 55
+            "position": 56
           }
         ]
       },
@@ -50583,7 +51453,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 70
+            "position": 71
           }
         ]
       },
@@ -51090,7 +51960,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "philosophy",
             "size": "top-100",
-            "position": 79
+            "position": 80
           }
         ]
       },
@@ -51859,7 +52729,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "philosophy",
             "size": "top-100",
-            "position": 71
+            "position": 72
           }
         ]
       },
@@ -52000,7 +52870,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "philosophy",
             "size": "top-100",
-            "position": 75
+            "position": 76
           }
         ]
       },
@@ -52125,7 +52995,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 66
+            "position": 65
           },
           {
             "familyId": "luchtig",
@@ -52135,7 +53005,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "philosophy",
             "size": "top-100",
-            "position": 87
+            "position": 88
           }
         ]
       },
@@ -52223,7 +53093,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "philosophy",
             "size": "top-100",
-            "position": 77
+            "position": 78
           }
         ]
       },
@@ -52703,7 +53573,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 69
+            "position": 70
           }
         ]
       },
@@ -52990,7 +53860,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "scrum",
             "size": "top-100",
-            "position": 68
+            "position": 69
           }
         ]
       },
@@ -53461,7 +54331,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 37
+            "position": 36
           },
           {
             "familyId": "luchtig",
@@ -54390,7 +55260,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "kort",
             "size": "top-100",
-            "position": 46
+            "position": 45
           },
           {
             "familyId": "software-development",
@@ -54625,7 +55495,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "philosophy",
             "size": "top-100",
-            "position": 80
+            "position": 81
           }
         ]
       },
@@ -54669,7 +55539,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "philosophy",
             "size": "top-100",
-            "position": 86
+            "position": 87
           }
         ]
       },
@@ -55248,7 +56118,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "philosophy",
             "size": "top-100",
-            "position": 85
+            "position": 86
           }
         ]
       },
@@ -55651,7 +56521,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "philosophy",
             "size": "top-100",
-            "position": 70
+            "position": 71
           }
         ]
       },
@@ -55702,7 +56572,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "philosophy",
             "size": "top-100",
-            "position": 78
+            "position": 79
           }
         ]
       },
@@ -56162,7 +57032,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "philosophy",
             "size": "top-100",
-            "position": 96
+            "position": 97
           }
         ]
       },
@@ -56476,7 +57346,7 @@ window.TOP_ARTICLES = {
           {
             "familyId": "philosophy",
             "size": "top-100",
-            "position": 74
+            "position": 75
           }
         ]
       },

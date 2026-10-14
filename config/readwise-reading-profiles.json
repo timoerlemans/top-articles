@@ -14805,6 +14805,247 @@
           "verdieping": 4
         }
       }
+    },
+    "01m4p9h8dq2t96qr41pc5bhqam": {
+      "sourceFingerprint": "764a2b5eb459c32c70fd93e861325a57388a8d315b2a85d470de91780d76c879",
+      "evidenceFingerprint": "d9e6c11528f56739ddc7bff24118f87956ca5101386eb24487cc8e77d770658a",
+      "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
+      "status": "accepted",
+      "confidence": "medium",
+      "rubricVersion": "reading-profile-v2",
+      "judgedBy": "codex-semantic-reading-profile-v2-live-additions",
+      "judgedAt": "2026-10-14T16:20:00+02:00",
+      "evidenceRefs": [
+        "content",
+        "summary",
+        "notes"
+      ],
+      "reason": "Volledige actuele Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon, activering, onderbreekbaarheid en behoeftefits zijn daarop beoordeeld.",
+      "traits": {
+        "effort": 3,
+        "emotionalWeight": 2,
+        "tone": "reflectief",
+        "activation": 3,
+        "interruptibility": 3,
+        "needFit": {
+          "ontspannen": 1,
+          "afleiding": 1,
+          "herkenning": 3,
+          "verkennen": 3,
+          "verdieping": 3
+        }
+      }
+    },
+    "01m4wstvxenw2apd4vwc339kqb": {
+      "sourceFingerprint": "56a1f7cc24e85500f9af5fccba587360b3d9abaf2d0e3df69fcc222316e3c733",
+      "evidenceFingerprint": "8913d1ddcde977555f23b569e8f823e3dcc9c92cb507949c3ce2d716e5c636e0",
+      "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
+      "status": "accepted",
+      "confidence": "medium",
+      "rubricVersion": "reading-profile-v2",
+      "judgedBy": "codex-semantic-reading-profile-v2-live-additions",
+      "judgedAt": "2026-10-14T16:20:00+02:00",
+      "evidenceRefs": [
+        "content",
+        "summary",
+        "notes"
+      ],
+      "reason": "Volledige actuele Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon, activering, onderbreekbaarheid en behoeftefits zijn daarop beoordeeld.",
+      "traits": {
+        "effort": 3,
+        "emotionalWeight": 1,
+        "tone": "zakelijk",
+        "activation": 4,
+        "interruptibility": 3,
+        "needFit": {
+          "ontspannen": 1,
+          "afleiding": 1,
+          "herkenning": 3,
+          "verkennen": 4,
+          "verdieping": 3
+        }
+      }
+    },
+    "01m4wtg1vt5jbq684snyrh94qj": {
+      "sourceFingerprint": "461336cae8f31c3abdf40feff0eb08fd490796388af333c6fd65b42598de50f8",
+      "evidenceFingerprint": "cfba650a63b2dab75b2710ff00d7108522b0f046f445285fec4892170e2d3144",
+      "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
+      "status": "accepted",
+      "confidence": "medium",
+      "rubricVersion": "reading-profile-v2",
+      "judgedBy": "codex-semantic-reading-profile-v2-live-additions",
+      "judgedAt": "2026-10-14T16:20:00+02:00",
+      "evidenceRefs": [
+        "content",
+        "summary",
+        "notes"
+      ],
+      "reason": "Volledige actuele Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon, activering, onderbreekbaarheid en behoeftefits zijn daarop beoordeeld.",
+      "traits": {
+        "effort": 4,
+        "emotionalWeight": 4,
+        "tone": "reflectief",
+        "activation": 3,
+        "interruptibility": 2,
+        "needFit": {
+          "ontspannen": 1,
+          "afleiding": 1,
+          "herkenning": 4,
+          "verkennen": 4,
+          "verdieping": 4
+        }
+      }
+    },
+    "01m4wvdmjnhzez60pfdm0btw08": {
+      "sourceFingerprint": "e4315a9d740f4827ce3a688d66d5052da16fcb75e4574791f1b604724ef06aba",
+      "evidenceFingerprint": "e66aa49c3510f7bae0ad855e94df1ab21a15531e3ca07c17d6df12d08118b4be",
+      "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
+      "status": "accepted",
+      "confidence": "medium",
+      "rubricVersion": "reading-profile-v2",
+      "judgedBy": "codex-semantic-reading-profile-v2-live-additions",
+      "judgedAt": "2026-10-14T16:20:00+02:00",
+      "evidenceRefs": [
+        "content",
+        "summary",
+        "notes"
+      ],
+      "reason": "Volledige actuele Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon, activering, onderbreekbaarheid en behoeftefits zijn daarop beoordeeld.",
+      "traits": {
+        "effort": 4,
+        "emotionalWeight": 3,
+        "tone": "reflectief",
+        "activation": 3,
+        "interruptibility": 2,
+        "needFit": {
+          "ontspannen": 1,
+          "afleiding": 1,
+          "herkenning": 3,
+          "verkennen": 4,
+          "verdieping": 4
+        }
+      }
+    },
+    "01m4wvdmz27qsqbzppbm48jshb": {
+      "sourceFingerprint": "3da33be699693f495592c7fed94fbf082e266a0632e7d808d536a0464d0161f0",
+      "evidenceFingerprint": "715682ae97011d8ab08f40edf2bd316c703ede33c251855e90fe16ed6cf432af",
+      "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
+      "status": "accepted",
+      "confidence": "medium",
+      "rubricVersion": "reading-profile-v2",
+      "judgedBy": "codex-semantic-reading-profile-v2-live-additions",
+      "judgedAt": "2026-10-14T16:20:00+02:00",
+      "evidenceRefs": [
+        "content",
+        "summary",
+        "notes"
+      ],
+      "reason": "Volledige actuele Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon, activering, onderbreekbaarheid en behoeftefits zijn daarop beoordeeld.",
+      "traits": {
+        "effort": 3,
+        "emotionalWeight": 4,
+        "tone": "warm",
+        "activation": 3,
+        "interruptibility": 2,
+        "needFit": {
+          "ontspannen": 1,
+          "afleiding": 1,
+          "herkenning": 4,
+          "verkennen": 4,
+          "verdieping": 4
+        }
+      }
+    },
+    "01m4wvdn4yddq2vtkj8tmc74xk": {
+      "sourceFingerprint": "f1c4b662da37a83170547d9234c71d1b067be88b6cd47d6bea44c9ace0d33fd9",
+      "evidenceFingerprint": "fdf7ab86feff9ecd7013391906213631a9814dee8a379c6a6bdaa61bf3ce2c0d",
+      "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
+      "status": "accepted",
+      "confidence": "medium",
+      "rubricVersion": "reading-profile-v2",
+      "judgedBy": "codex-semantic-reading-profile-v2-live-additions",
+      "judgedAt": "2026-10-14T16:20:00+02:00",
+      "evidenceRefs": [
+        "content",
+        "summary",
+        "notes"
+      ],
+      "reason": "Volledige actuele Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon, activering, onderbreekbaarheid en behoeftefits zijn daarop beoordeeld.",
+      "traits": {
+        "effort": 4,
+        "emotionalWeight": 4,
+        "tone": "intens",
+        "activation": 4,
+        "interruptibility": 2,
+        "needFit": {
+          "ontspannen": 1,
+          "afleiding": 1,
+          "herkenning": 3,
+          "verkennen": 4,
+          "verdieping": 4
+        }
+      }
+    },
+    "01m4wvdn8tfazr9zhp2e6mshjy": {
+      "sourceFingerprint": "7a08a924cb7aafc9fc51eea6793d5f2e9469e322e3892c78f518109e7802b8a6",
+      "evidenceFingerprint": "0fd7151d5d8abb25ebadaf3c8efc2647721427842e15f465b2260b2488a337eb",
+      "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
+      "status": "accepted",
+      "confidence": "medium",
+      "rubricVersion": "reading-profile-v2",
+      "judgedBy": "codex-semantic-reading-profile-v2-live-additions",
+      "judgedAt": "2026-10-14T16:20:00+02:00",
+      "evidenceRefs": [
+        "content",
+        "summary",
+        "notes"
+      ],
+      "reason": "Volledige actuele Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon, activering, onderbreekbaarheid en behoeftefits zijn daarop beoordeeld.",
+      "traits": {
+        "effort": 4,
+        "emotionalWeight": 3,
+        "tone": "zakelijk",
+        "activation": 4,
+        "interruptibility": 2,
+        "needFit": {
+          "ontspannen": 1,
+          "afleiding": 1,
+          "herkenning": 3,
+          "verkennen": 4,
+          "verdieping": 4
+        }
+      }
+    },
+    "01m4wzexh7q3xmd7135d13ndac": {
+      "sourceFingerprint": "c9e9017fffa637a39fb3a3d1e283929613b474979ce5da650f5e69c59da098bd",
+      "evidenceFingerprint": "3cce21ae2f51f225528027ff9970bb7bd51433cbd704c93ed39e7c9f88034cef",
+      "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
+      "status": "accepted",
+      "confidence": "medium",
+      "rubricVersion": "reading-profile-v2",
+      "judgedBy": "codex-semantic-reading-profile-v2-live-additions",
+      "judgedAt": "2026-10-14T16:20:00+02:00",
+      "evidenceRefs": [
+        "content",
+        "summary",
+        "notes"
+      ],
+      "reason": "Volledige actuele Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon, activering, onderbreekbaarheid en behoeftefits zijn daarop beoordeeld.",
+      "traits": {
+        "effort": 3,
+        "emotionalWeight": 2,
+        "tone": "warm",
+        "activation": 2,
+        "interruptibility": 3,
+        "needFit": {
+          "ontspannen": 1,
+          "afleiding": 1,
+          "herkenning": 4,
+          "verkennen": 3,
+          "verdieping": 3
+        }
+      }
     }
-  }
+  },
+  "activeRubric": "reading-profile-v2"
 }
