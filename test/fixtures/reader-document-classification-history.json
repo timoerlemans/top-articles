@@ -1,0 +1,42 @@
+{
+  "generatedAt": "2026-10-14T00:00:00.000Z",
+  "documents": [
+    {
+      "id": "history-alias",
+      "title": "Samenwerken zonder schijnzekerheid",
+      "author": "Auteur",
+      "summary": "Een analyse van team collaboration en samenwerking.",
+      "notes": "Waarom lezen: toepasbaar in werk en coaching.\nBeste moment: deze week.",
+      "language": "en",
+      "reading_time": "4.5 min",
+      "word_count": 1800,
+      "saved_at": "2026-01-01T00:00:00.000Z",
+      "category": "article",
+      "tags": ["team collaboration", "agile & scrum", "must-read", "lees-0001"]
+    },
+    {
+      "id": "history-descriptors",
+      "title": "Filosofie en samenleving",
+      "summary": "Een filosofisch essay over vrijheid en gemeenschap.",
+      "notes": "Feedback: privé leesfeedback.",
+      "language": null,
+      "reading_time": "5 min",
+      "word_count": 2400,
+      "saved_at": "2026-01-02T00:00:00.000Z",
+      "category": "article",
+      "tags": [{"name": "political philosophy"}, {"key": "dutch"}, {"name": "philosophy"}]
+    },
+    {
+      "id": "history-book",
+      "title": "A short book",
+      "summary": "A book about history.",
+      "notes": "",
+      "language": "en",
+      "reading_time": "4 mins",
+      "word_count": 12000,
+      "saved_at": "2026-01-03T00:00:00.000Z",
+      "category": "epub",
+      "tags": {"history": {}, "shortlist": {}, "boek-001": {}}
+    }
+  ]
+}
