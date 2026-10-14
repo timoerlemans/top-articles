@@ -63,6 +63,11 @@ export interface WeightedCoreInterestMatch extends CoreInterestMatch {
   weight: number;
 }
 
+export interface CoreInterestTagSignal {
+  source: string;
+  canonicalTags: readonly string[];
+}
+
 const CORE_INTERESTS = Object.keys(DIRECT_DOMAIN_TAGS) as DirectDomain[];
 const DEFAULT_MANUAL_ORDER: DirectDomain[] = ["agile", "adhd", "filosofie"];
 const DEFAULT_WEIGHT_BY_RANK = [20, 16, 12, 10, 9, 8, 7, 6, 5, 4, 3, 2];
@@ -229,6 +234,45 @@ export function resolveCoreInterestMatches(doc: PriorityDocument, judgment: Cont
     const interest = PRIMARY_TAG_INTEREST.get(normalize(tag));
     if (interest !== undefined) {
       addEvidence(interest, { kind: "readwise-tag", source: normalize(tag), label: labelForTag(normalize(tag)) });
+    }
+  }
+
+  for (const rawCode of judgment.reasonCodes) {
+    const code = normalize(rawCode);
+    const interest = SEMANTIC_SIGNAL_INTEREST[code];
+    if (interest !== undefined) {
+      addEvidence(interest, { kind: "semantic-signal", source: code, label: labelForSemanticSignal(code) });
+    }
+  }
+
+  const score = qualityScore(judgment);
+  return CORE_INTERESTS.flatMap((interest) => {
+    const evidence = matches.get(interest);
+    return evidence && evidence.size > 0
+      ? [{ interest, evidence: [...evidence.values()].sort((a, b) => a.source.localeCompare(b.source)), qualityScore: score }]
+      : [];
+  });
+}
+
+/** Current classification seam: preserve the original tag as evidence while matching canonical meanings. */
+export function resolveCoreInterestMatchesFromSignals(
+  signals: readonly CoreInterestTagSignal[],
+  judgment: ContentJudgment,
+): CoreInterestMatch[] {
+  const matches = new Map<DirectDomain, Map<string, CoreInterestEvidence>>();
+  const addEvidence = (interest: DirectDomain, evidence: CoreInterestEvidence): void => {
+    const evidenceBySource = matches.get(interest) ?? new Map<string, CoreInterestEvidence>();
+    evidenceBySource.set(`${evidence.kind}:${normalize(evidence.source)}`, evidence);
+    matches.set(interest, evidenceBySource);
+  };
+
+  for (const signal of signals) {
+    for (const tag of signal.canonicalTags) {
+      const interest = PRIMARY_TAG_INTEREST.get(normalize(tag));
+      if (interest !== undefined) {
+        const source = normalize(signal.source);
+        addEvidence(interest, { kind: "readwise-tag", source, label: labelForTag(source) });
+      }
     }
   }
 

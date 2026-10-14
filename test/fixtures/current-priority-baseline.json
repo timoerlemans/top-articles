@@ -668,7 +668,7 @@
         "positions": {
           "lees": 6,
           "scrum": 1,
-          "social-studies": 1
+          "social-studies": 2
         },
         "actualPositions": {
           "lees": 10,
@@ -1425,15 +1425,15 @@
             "mode": "global"
           },
           "social-studies": {
-            "score": 69,
-            "tier": "midden",
+            "score": 109,
+            "tier": "hoog",
             "mode": "topic",
-            "topicRelevance": 0,
+            "topicRelevance": 4,
             "relevanceSource": "fallback",
             "relevanceConfidence": "low",
             "components": {
               "kerninteresse": 20,
-              "topic_relevantie": 0,
+              "topic_relevantie": 4,
               "substantie": 24,
               "duurzaamheid": 15,
               "bruikbaarheid": 10,
@@ -1445,7 +1445,7 @@
         },
         "positions": {
           "lees": 5,
-          "social-studies": 2
+          "social-studies": 1
         },
         "actualPositions": {}
       },
@@ -2197,11 +2197,11 @@
         "title": "A practical essay",
         "sequence": "social-studies",
         "scoreBefore": 90,
-        "scoreAfter": 69,
-        "scoreDelta": -21,
+        "scoreAfter": 109,
+        "scoreDelta": 19,
         "beforePosition": 1,
-        "afterPosition": 2,
-        "topicRelevance": 0,
+        "afterPosition": 1,
+        "topicRelevance": 4,
         "relevanceSource": "fallback",
         "relevanceConfidence": "low"
       },
@@ -2226,7 +2226,7 @@
         "scoreAfter": 69,
         "scoreDelta": -15,
         "beforePosition": 2,
-        "afterPosition": 1,
+        "afterPosition": 2,
         "topicRelevance": 1,
         "relevanceSource": "label",
         "relevanceConfidence": "high"
@@ -2916,7 +2916,7 @@
           "aaa-top-100",
           "lees-0006",
           "scrum-001",
-          "social-studies-001"
+          "social-studies-002"
         ],
         "remove": [
           "lees-0010",
@@ -3038,7 +3038,7 @@
           "aaa-top-10",
           "aaa-top-100",
           "lees-0005",
-          "social-studies-002"
+          "social-studies-001"
         ],
         "remove": []
       },
@@ -3113,7 +3113,7 @@
         "category": "Sociale studies & samenwerking",
         "sequence": "social-studies",
         "top100Tag": "aaa-social-studies-top-100",
-        "position": 1
+        "position": 2
       },
       {
         "documentId": "software",
@@ -3273,7 +3273,7 @@
         "category": "Sociale studies & samenwerking",
         "sequence": "social-studies",
         "top100Tag": "aaa-social-studies-top-100",
-        "position": 2
+        "position": 1
       },
       {
         "documentId": "rejected",
@@ -3379,7 +3379,7 @@
       {
         "action": "add",
         "documentId": "agile",
-        "tag": "social-studies-001"
+        "tag": "social-studies-002"
       },
       {
         "action": "add",
@@ -3674,7 +3674,7 @@
       {
         "action": "add",
         "documentId": "draft",
-        "tag": "social-studies-002"
+        "tag": "social-studies-001"
       },
       {
         "action": "add",
@@ -3762,7 +3762,7 @@
         "tag": "lees-0008"
       }
     ],
-    "planHash": "31f40d727853af8987e19fa5eb0ae050aa5163145427cf1cea92d4dc1377c6ea"
+    "planHash": "b6e49e6df8ab01e92d93c757764a085d20e020af605d14d7ae11458e8891b1f4"
   },
   "archivePlan": {
     "generatedAt": "2026-10-10T12:00:00.000Z",
@@ -3847,8 +3847,8 @@
         "label": "Sociale studies & samenwerking",
         "top100Tag": "aaa-social-studies-top-100",
         "protectedDocumentIds": [
-          "agile",
-          "draft"
+          "draft",
+          "agile"
         ]
       },
       {
@@ -3929,6 +3929,6 @@
     ],
     "candidateDocumentIds": [],
     "candidates": [],
-    "planHash": "7f7c45066670aaaf66633aa3d00ebcd861acfcc6e22dcaad887d1d93d08d0f28"
+    "planHash": "522b45dd536184d9621a5ef797cb711cdeef467347e7abad5bed296594666591"
   }
 }

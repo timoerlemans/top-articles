@@ -1,17 +1,18 @@
-import { parseReadingMinutes, isShort } from "../../src/reading-policy.js";
 import { actualPositionsForDocument, comparePriorityItems, sequencesForDocument } from "./priority-membership.js";
 import { detectDutch } from "./priority-document.js";
 import type { PriorityDocument, PriorityTier } from "./priority-document.js";
-import { hasTag, judgmentFor, topicRelevanceFor } from "./priority-judgments.js";
+import { hasTag } from "./priority-judgments.js";
 import type { ContentJudgment, PriorityJudgmentsConfig } from "./priority-judgments.js";
 import { SEQUENCE_ORDER, TOPIC_SEQUENCE_ORDER } from "./priority-sequences.js";
 import type { PrioritySequence, TopicSequence } from "./priority-sequences.js";
 import {
   CORE_INTEREST_LABELS, buildCoreInterestPriorityFromEvidence, coreInterestBonus,
-  defaultCoreInterestPriorityConfig, resolveCoreInterestMatches, validateCoreInterestPriorityConfig,
+  defaultCoreInterestPriorityConfig, validateCoreInterestPriorityConfig,
 } from "./core-interest-priority.js";
 import type { CoreInterestMatch, CoreInterestPriority, CoreInterestPriorityConfig, WeightedCoreInterestMatch } from "./core-interest-priority.js";
 import { splitReadingFeedback } from "./reader-notes.js";
+import { classifyReaderDocument } from "./reader-document-classification.js";
+import type { ReaderDocumentClassification } from "./reader-document-classification.js";
 
 export { actualPositionsForDocument, detectDutch, SEQUENCE_ORDER, sequencesForDocument };
 export type { PriorityDocument, PriorityTier } from "./priority-document.js";
@@ -198,13 +199,13 @@ function topicScore(components: PriorityTopicComponents, adjustment: number): nu
 }
 
 function sequenceScore(
-  doc: PriorityDocument,
   sequence: PrioritySequence,
   global: PriorityScoreResult,
-  judgment: ContentJudgment,
+  classification: ReaderDocumentClassification,
 ): PrioritySequenceScore {
   if ((TOPIC_SEQUENCE_ORDER as readonly string[]).includes(sequence)) {
-    const resolution = topicRelevanceFor(doc, sequence as TopicSequence, judgment);
+    const resolution = classification.topicRelevance[sequence as TopicSequence];
+    if (!resolution) { throw new Error(`Ontbrekende actuele topicclassificatie voor ${sequence}`); }
     const components = topicComponents(global, resolution.relevance);
     const score = topicScore(components, global.adjustment);
     return {
@@ -218,7 +219,7 @@ function sequenceScore(
     };
   }
 
-  const score = floorScore(global.score + (judgment.sequenceFit[sequence] ?? 0) * SEQUENCE_FIT_WEIGHT);
+  const score = floorScore(global.score + (classification.judgment.sequenceFit[sequence] ?? 0) * SEQUENCE_FIT_WEIGHT);
   return { score, tier: tierForScore(score), mode: "global" };
 }
 
@@ -239,10 +240,6 @@ function whyRead(doc: PriorityDocument): string {
   return splitReadingFeedback(doc.notes).contentNotes?.match(/Waarom lezen:\s*([\s\S]*?)(?:\n\s*Beste moment:|$)/i)?.[1]?.toLowerCase().trim() ?? "";
 }
 
-function readingMinutes(doc: PriorityDocument): number | null {
-  return parseReadingMinutes(doc.reading_time);
-}
-
 function validateOverride(override: unknown = {}): { adjustment: number; reason: string | null } {
   const record = isRecord(override) ? override : {};
   const adjustment = record.adjustment ?? 0;
@@ -255,7 +252,7 @@ function validateOverride(override: unknown = {}): { adjustment: number; reason:
 interface PreparedDocument {
   doc: PriorityDocument;
   scoringDoc: PriorityDocument;
-  resolution: ReturnType<typeof judgmentFor>;
+  classification: ReaderDocumentClassification;
   matches: CoreInterestMatch[];
 }
 
@@ -273,10 +270,10 @@ function withoutLegacyCuration(doc: PriorityDocument): PriorityDocument {
 }
 
 function prepareDocument(doc: PriorityDocument, judgments: PriorityExportOptions["judgments"]): PreparedDocument {
-  const resolution = judgmentFor(doc, judgments ?? {});
+  const classification = judgments === undefined ? classifyReaderDocument(doc) : classifyReaderDocument(doc, { judgments });
   const scoringDoc = withoutLegacyCuration(doc);
   // Current and legacy fingerprints exclude these curation tags; fallback does too.
-  return { doc, scoringDoc, resolution, matches: resolveCoreInterestMatches(doc, resolution.judgment) };
+  return { doc, scoringDoc, classification, matches: [...classification.coreInterestMatches] };
 }
 
 function scorePreparedDocument(
@@ -284,9 +281,9 @@ function scorePreparedDocument(
   override: PriorityOverride,
   priority: CoreInterestPriority,
 ): PriorityScoreResult {
-  const { doc, scoringDoc, resolution: { judgment, source }, matches } = prepared;
+  const { doc, scoringDoc, classification, matches } = prepared;
+  const { judgment, judgmentSource: source } = classification;
   const tags = tagsFor(scoringDoc);
-  const minutes = readingMinutes(scoringDoc);
   const text = `${normalize(scoringDoc.title)} ${normalize(scoringDoc.summary)} ${whyRead(scoringDoc)}`;
   const noSummary = normalize(scoringDoc.summary) === "";
   const noWhyRead = whyRead(scoringDoc) === "";
@@ -301,8 +298,8 @@ function scorePreparedDocument(
     substantie: judgment.substance * 8,
     duurzaamheid: judgment.durability * 5,
     bruikbaarheid: judgment.usefulness * 5,
-    leeskans: isShort(minutes) ? 5 : 0,
-    nederlandse_taal: detectDutch(scoringDoc) ? 5 : 0,
+    leeskans: classification.sequences.includes("short") ? 5 : 0,
+    nederlandse_taal: classification.isDutch ? 5 : 0,
     aftrek,
   };
   // Preserve historical clipping before the interest bonus, and descriptor-tag standalone behavior.
@@ -366,15 +363,15 @@ function buildExpected(
   const savedAtById = new Map<string, number>();
 
   for (const entry of prepared) {
-    const { doc, resolution: { judgment } } = entry;
+    const { doc, classification } = entry;
     if (!doc.id) {throw new Error("Priority-document mist een Readwise document-id");}
     if (Object.hasOwn(items, doc.id)) {throw new Error(`Dubbel priority-document: ${doc.id}`);}
     const savedAt = Date.parse(doc.saved_at ?? "");
     if (!Number.isFinite(savedAt)) {throw new Error(`Document ${doc.id} heeft geen geldige saved_at`);}
     savedAtById.set(doc.id, savedAt);
     const scored = scorePreparedDocument(entry, overrides[doc.id] ?? {}, coreInterestPriority);
-    const sequences = sequencesForDocument(doc);
-    const sequenceScores = Object.fromEntries(sequences.map((sequence) => [sequence, sequenceScore(doc, sequence, scored, judgment)])) as PrioritySequenceScores;
+    const sequences = [...classification.sequences];
+    const sequenceScores = Object.fromEntries(sequences.map((sequence) => [sequence, sequenceScore(sequence, scored, classification)])) as PrioritySequenceScores;
     items[doc.id] = { ...scored, sequences, sequenceScores, positions: {}, actualPositions: actualPositionsForDocument(doc) };
   }
 

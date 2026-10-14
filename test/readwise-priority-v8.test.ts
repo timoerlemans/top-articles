@@ -121,6 +121,24 @@ test("v8 publishes global and topic-aware per-sequence score records", () => {
   assert.equal(validatePriorityExport(result), true);
 });
 
+test("v8 uses one current classification for aliases, topic relevance, and membership", () => {
+  const alias = document({ id: "alias", tags: { "lees-0001": {}, "team collaboration": {} } });
+  const canonical = document({ id: "canonical", tags: { "lees-0002": {}, "team dynamics & collaboration": {} } });
+  const result = buildPriorityExport([alias, canonical], {
+    generatedAt: "2026-09-20T00:00:00.000Z",
+    coreInterestConfig: CORE_INTEREST_CONFIG,
+  });
+  const aliasItem = result.items.alias;
+  const canonicalItem = result.items.canonical;
+  assert.ok(aliasItem && canonicalItem);
+
+  assert.deepEqual(aliasItem.sequences, canonicalItem.sequences);
+  assert.equal(aliasItem.sequenceScores["social-studies"]?.topicRelevance, 4);
+  assert.equal(canonicalItem.sequenceScores["social-studies"]?.topicRelevance, 4);
+  assert.equal(aliasItem.components.kerninteresse, canonicalItem.components.kerninteresse);
+  assert.deepEqual(aliasItem.coreInterestMatches.map(({ interest }) => interest), canonicalItem.coreInterestMatches.map(({ interest }) => interest));
+});
+
 test("topic relevance replaces global relevance in the topic score", () => {
   const lowGlobal = document({ id: "low-global" });
   const highGlobal = document({ id: "high-global" });
