@@ -1,0 +1,3 @@
+interface:
+  display_name: "Readwise Summarize"
+  short_description: "Summarize full Reader sources"

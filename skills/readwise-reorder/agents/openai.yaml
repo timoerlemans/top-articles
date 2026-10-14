@@ -1,0 +1,3 @@
+interface:
+  display_name: "Readwise Reorder"
+  short_description: "Apply explicit manual reprioritization"

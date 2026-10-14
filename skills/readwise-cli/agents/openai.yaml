@@ -1,0 +1,3 @@
+interface:
+  display_name: "Readwise CLI"
+  short_description: "Use confirmed Readwise CLI commands safely"

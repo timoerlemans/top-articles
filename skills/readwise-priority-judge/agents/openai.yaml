@@ -1,0 +1,3 @@
+interface:
+  display_name: "Readwise Priority Judge"
+  short_description: "Review priority evidence and profiles"

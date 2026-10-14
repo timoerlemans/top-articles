@@ -1,0 +1,3 @@
+interface:
+  display_name: "Readwise Tag"
+  short_description: "Classify content while preserving tags"

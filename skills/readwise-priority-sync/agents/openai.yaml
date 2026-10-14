@@ -1,0 +1,3 @@
+interface:
+  display_name: "Readwise Priority Sync"
+  short_description: "Plan and verify priority tag synchronization"

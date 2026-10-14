@@ -1,0 +1,3 @@
+interface:
+  display_name: "Readwise Inbox"
+  short_description: "Run the resumable inbox pipeline"

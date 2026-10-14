@@ -1,0 +1,3 @@
+interface:
+  display_name: "Readwise Triage"
+  short_description: "Triage Reader documents with evidence"
