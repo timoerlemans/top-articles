@@ -16,9 +16,9 @@ Een leesstuk dat als ontspannen wordt ervaren door de combinatie van onderwerp,
 gemakkelijke leesbaarheid en geringe emotionele zwaarte.
 
 **Leesmenu**:
-Een aanbod van artikelen, nieuwsbrieven en leesbare PDF's uit Later dat begint met
-een kort, luchtig voorgerecht en optionele vervolggangen heeft.
-Alleen het voorgerecht lezen kan een complete leessessie zijn.
+Een aanbod van één, twee of drie passende gangen uit artikelen, nieuwsbrieven en
+leesbare PDF's in Later. Een ontbrekende gang wordt overgeslagen; iedere gang
+behoudt haar eigen betekenis en één gang kan een complete leessessie zijn.
 De gangen passen bij hetzelfde leesmoment en hoeven niet hetzelfde onderwerp te hebben.
 
 **Voorgerecht**:

@@ -262,7 +262,10 @@ Zet Pages aan op branch `main`, map `/` (root) — er is geen deploy-build nodig
 
 Zonder deeplink opent de app het leesmenu. Kies je stemming (optioneel), energie,
 leesbehoefte en totale tijd. Een voorgerecht duurt minder dan vijf minuten; elke
-vervolggang past binnen de resterende geschatte tijd en energie. Reader openen markeert
+vervolggang past binnen de resterende geschatte tijd en energie. Ontbrekende gangen
+worden overgeslagen: een passend hoofdgerecht kan dus je eerste voorstel zijn. Is er
+geen aanbod, dan zie je of je tijd op is of er geen passende artikelen zijn, met
+opties om je leesmoment aan te passen of af te ronden. Reader openen markeert
 niets gelezen: bevestig dat afzonderlijk. “Iets anders” geldt alleen in dit leesmoment.
 Je browser onthoudt gelezen IDs lokaal; onder “Gelezen artikelen” kan je ze opnieuw
 beschikbaar maken. Verdwijnen uit de complete Later-lijst is archivering en ruimt de

@@ -238,10 +238,14 @@ export function mountReadingMenu(root: HTMLElement, data: TopArticles, priority:
       const proposals = active.proposals;
       status.append(node("p", `${active.confirmedMinutes} min bevestigd gelezen · ${active.plannedMinutes} min voorgesteld · ${active.moment.budget} min totaal`));
       if (!proposals.length) {
-        const noStarter = active.course === "voorgerecht";
-        courses.append(node("p", noStarter
-          ? "Bij deze combinatie past nu geen kort, licht voorgerecht. Pas je tijd of leesbehoefte aan; er verschijnt geen zwaarder alternatief."
-          : "Er past geen volgende gang binnen je resterende tijd en leesenergie."));
+        const budgetSpent = active.confirmedMinutes >= active.moment.budget;
+        courses.append(node("p", budgetSpent
+          ? "Je gekozen leestijd is opgebruikt. Kies meer tijd om verder te lezen, of rond je leesmoment af."
+          : "Geen passende artikelen voor dit leesmoment. Pas je tijd, leesbehoefte of leesenergie aan."));
+        courses.append(button(budgetSpent ? "Pas leestijd aan" : "Pas je leesmoment aan", () => {
+          const group = budgetSpent ? budgetGroup : needGroup;
+          group.buttons[0]?.button.focus();
+        }));
         courses.append(button("Rond leesmoment af", () => { act("stop"); }));
       }
       for (const proposal of proposals) {

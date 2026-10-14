@@ -71,10 +71,7 @@ export function planMenu(inputs, moment, excluded = [], start = "voorgerecht", s
                 && profile && (course === "hoofdgerecht" || (isShort(candidate.readingMinutes) && profile.effort <= 1 && profile.emotionalWeight <= 1))
                 && (course !== "voorgerecht" || profile.needFit.ontspannen >= 3);
         });
-        // An appetizer never silently becomes a main course.
-        if (!item && course === "voorgerecht") {
-            return [];
-        }
+        // Missing courses are skipped; each remaining proposal keeps its own constraints and identity.
         if (item && item.readingMinutes !== null) {
             result.push({ course, id: item.id, minutes: item.readingMinutes });
             blocked.add(item.id);

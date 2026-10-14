@@ -27,8 +27,28 @@ test("menu starts light, respects whole-session time and excludes books/heavy/un
   assert.deepEqual(menu(inputs(), { ...moment, budget: 3 }), [{ course: "voorgerecht", id: "a", minutes: 3 }]);
   assert.deepEqual(menu(inputs(), moment, ["a"])[0], { course: "voorgerecht", id: "c", minutes: 2 });
 });
-test("there is no heavy or five-minute fallback for an empty appetizer", () => {
-  assert.deepEqual(menu(inputs(), moment, ["a", "c"]), []);
+test("a missing appetizer offers a fitting main course with its own identity", () => {
+  assert.deepEqual(menu(inputs(), moment, ["a", "c"]), [{ course: "hoofdgerecht", id: "b", minutes: 5 }]);
+  const session = refreshSession(inputs(), { ...startSession(inputs(), moment), excluded: ["a", "c"] });
+  assert.equal(session.course, "hoofdgerecht");
+  assert.equal(session.proposal?.id, "b");
+  assert.equal(session.plannedMinutes, 5);
+  const finished = transitionSession(inputs(), session, "read-next", "b");
+  assert.equal(finished.confirmedMinutes, 5);
+  assert.deepEqual(finished.proposals, []);
+  assert.equal(transitionSession(inputs(), session, "replace", "b").proposal, null);
+  assert.equal(transitionSession(inputs(), session, "skip-main").proposal, null);
+  assert.equal(transitionSession(inputs(), session, "stop").confirmedMinutes, 0);
+  assert.equal(transitionSession(inputs(), finished, "read-next", "b").confirmedMinutes, 5);
+});
+test("an incomplete menu keeps all candidate limits and the remaining budget", () => {
+  const data = inputs();
+  data.readIds = ["a", "c"];
+  assert.deepEqual(menu(data, { ...moment, budget: 4 }), []);
+  assert.deepEqual(menu(data, { ...moment, budget: 5 }), [{ course: "hoofdgerecht", id: "b", minutes: 5 }]);
+  assert.deepEqual(menu(data, { ...moment, budget: 10 }), [{ course: "hoofdgerecht", id: "b", minutes: 5 }]);
+  data.profiles = { ...data.profiles, b: { ...light, effort: 2 } };
+  assert.deepEqual(menu(data, { ...moment, energy: "weinig" }), []);
 });
 test("menu suggestions always have a direct Readwise Reader link", () => {
   const data = inputs();

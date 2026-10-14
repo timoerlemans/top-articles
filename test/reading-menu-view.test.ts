@@ -131,6 +131,59 @@ test("opening a Reader link does not count as read; explicit confirmation record
   });
 });
 
+test("a main course without an appetizer shows working read and skip actions", () => {
+  withDom((root, local) => {
+    const { data, priority } = fixture([makeArticle("main", 5)]);
+    mountReadingMenu(root as unknown as HTMLElement, data, priority);
+    const card = byClass(root, "reading-course-card")[0];
+    assert.ok(card);
+    assert.ok(card.textContent.includes("Hoofdgerecht"));
+    assert.equal(card.getAttribute("data-current-course"), "true");
+    assert.ok(byText(card, "button", "Sla hoofdgerecht over"));
+    choose(root, "Gelezen, volgende gang");
+    assert.deepEqual(historyIds(local), ["main"]);
+    assert.ok(root.textContent.includes("5 min bevestigd gelezen"));
+    assert.equal(byClass(root, "reading-course-card").length, 0);
+  });
+});
+
+test("empty supply and spent budget have distinct explanations and adjustment actions", () => {
+  withDom((root) => {
+    const { data, priority } = fixture([makeArticle("main", 5)]);
+    mountReadingMenu(root as unknown as HTMLElement, data, priority);
+    choose(root, "5 min");
+    choose(root, "Gelezen, volgende gang");
+    assert.ok(root.textContent.includes("Je gekozen leestijd is opgebruikt"));
+    assert.ok(byText(root, "button", "Pas leestijd aan"));
+    assert.ok(byText(root, "button", "Rond leesmoment af"));
+    choose(root, "10 min");
+    assert.ok(root.textContent.includes("Geen passende artikelen voor dit leesmoment"));
+    assert.ok(byText(root, "button", "Pas je leesmoment aan"));
+    assert.equal(byClass(root, "reading-course-card").length, 0);
+    choose(root, "Rond leesmoment af");
+    assert.ok(root.textContent.includes("Leesmoment afgerond"));
+  });
+});
+
+test("skipping a first main course exposes a light dessert without recording a read", () => {
+  withDom((root, local) => {
+    const limitedRelaxation = { ...traits, needFit: { ...traits.needFit, ontspannen: 2 } };
+    const { data, priority } = fixture([makeArticle("main", 5), makeArticle("dessert", 2)], {
+      main: limitedRelaxation, dessert: limitedRelaxation,
+    });
+    mountReadingMenu(root as unknown as HTMLElement, data, priority);
+    choose(root, "Sla hoofdgerecht over");
+    const card = byClass(root, "reading-course-card")[0];
+    assert.ok(card);
+    assert.ok(card.textContent.includes("Nagerecht"));
+    assert.equal(byClass(card, "reading-course-title")[0]?.textContent, "Artikel dessert");
+    assert.equal(card.getAttribute("data-current-course"), "true");
+    assert.deepEqual(historyIds(local), []);
+    choose(root, "Gelezen, rond af");
+    assert.deepEqual(historyIds(local), ["dessert"]);
+  });
+});
+
 const needCases: readonly [string, ReadingNeed][] = [
   ["Licht & luchtig", "ontspannen"],
   ["Even iets anders", "afleiding"],
