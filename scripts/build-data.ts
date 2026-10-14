@@ -18,7 +18,6 @@ import { FAMILY_DEFINITIONS, buildUnifiedLists } from "./lib/unified-lists.js";
 import type { RankedUnifiedEntry, UnifiedCatalogEntry } from "./lib/unified-lists.js";
 import { createReadwiseRequester } from "./lib/readwise-request.js";
 import { fetchReadwiseDocuments } from "./lib/readwise-documents.js";
-import type { ReadwiseDocument } from "./lib/external-schemas.js";
 import { toCatalogItem } from "./lib/catalog-item.js";
 import type { CatalogItem } from "./lib/catalog-item.js";
 
