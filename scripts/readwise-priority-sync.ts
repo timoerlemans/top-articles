@@ -241,7 +241,7 @@ function authorStage(): MaintenanceStageAdapter {
 function buildStage(): MaintenanceStageAdapter {
   const planHash = createHash("sha256").update("top-articles-build-data-v1").digest("hex");
   return {
-    plan: () => Promise.resolve({ stage: "build", planHash, mutations: true, confirmationRequired: false, summary: { builds: 1 } }),
+    plan: () => Promise.resolve({ stage: "build", planHash, mutations: false, run: true, confirmationRequired: false, summary: { builds: 1 } }),
     apply: async () => {
       await runScript("build-data.js", []);
       return { ok: true, summary: { builds: 1 } };

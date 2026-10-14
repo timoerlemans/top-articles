@@ -85,3 +85,19 @@ test("maintenance stops downstream stages after an upstream verification failure
   assert.ok(calls.includes("priority:verify:priority-hash"));
   assert.ok(!calls.some((call) => call.startsWith("archive:")));
 });
+
+test("maintenance runs an idempotent final build without a Reader mutation confirmation", async () => {
+  const calls: string[] = [];
+  const stages = stageMap((stage) => fakeStage(stage, [stagePlan(stage, `${stage}-hash`, false)], calls));
+  stages.build = {
+    plan: () => Promise.resolve({ stage: "build", planHash: "build-hash", mutations: false, run: true, summary: { builds: 1 } }),
+    apply: (plan) => { calls.push(`build:apply:${plan.planHash}`); return Promise.resolve({ ok: true, summary: { builds: 1 } }); },
+    verify: (plan) => { calls.push(`build:verify:${plan.planHash}`); return Promise.resolve({ ok: true, summary: { files: 2 } }); },
+  };
+
+  const report = await createMaintenanceRoute(stages).apply();
+
+  assert.equal(report.status, "verified");
+  assert.deepEqual(calls.slice(-2), ["build:apply:build-hash", "build:verify:build-hash"]);
+  assert.equal(report.stages.at(-1)?.status, "verified");
+});

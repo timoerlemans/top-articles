@@ -6,6 +6,7 @@ export interface MaintenanceStagePlan {
   stage: MaintenanceStageName;
   planHash: string;
   mutations: boolean;
+  run?: boolean;
   confirmationRequired?: boolean;
   summary: Record<string, number>;
   details?: unknown;
@@ -89,7 +90,8 @@ export function createMaintenanceRoute(
         report.next = { stage, planHash: current.planHash };
         return report;
       }
-      if (current.mutations) {
+      const shouldRun = current.mutations || current.run === true;
+      if (shouldRun) {
         const result = await stages[stage].apply(current);
         if (!result.ok) {
           report.status = "failed";
@@ -103,7 +105,7 @@ export function createMaintenanceRoute(
         report.stages.push(stageReport(current, "failed", verified));
         return report;
       }
-      report.stages.push(stageReport(current, current.mutations ? "verified" : "skipped", verified));
+      report.stages.push(stageReport(current, shouldRun ? "verified" : "skipped", verified));
       if (current.mutations) { sourceInvalidated = true; }
     }
     return report;
@@ -120,7 +122,7 @@ export function createMaintenanceRoute(
         report.stages.push(stageReport(current, "failed", result));
         return report;
       }
-      report.stages.push(stageReport(current, current.mutations ? "failed" : "skipped", result));
+      report.stages.push(stageReport(current, current.mutations || current.run === true ? "verified" : "skipped", result));
       if (current.mutations) {
         report.status = "failed";
         const last = report.stages.at(-1);
