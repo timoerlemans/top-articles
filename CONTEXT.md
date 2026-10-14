@@ -32,8 +32,13 @@ leesenergie. Een hoofdgerecht hoeft geen zwaar leeswerk te zijn.
 Een kort, toegankelijk leesstuk om een leessessie prettig af te ronden.
 
 **Leesmoment**:
-De combinatie van stemming, leesenergie en leesbehoefte bij het kiezen
-van een leesstuk.
+De combinatie van situatie, stemming, leesenergie, leesbehoefte en leesbudget
+bij het kiezen van een leesstuk.
+
+**Situatie**:
+De herkenbare omstandigheid waarin iemand leest, zoals in bed voor het slapen.
+Zij bepaalt inhoudelijke geschiktheid naast de zelf gekozen instellingen;
+Zelf samenstellen betekent lezen zonder extra situatie-eisen.
 
 **Stemming**:
 De emotionele toestand tijdens een leesmoment. Eenzelfde stemming kan samengaan

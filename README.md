@@ -260,8 +260,13 @@ Zet Pages aan op branch `main`, map `/` (root) — er is geen deploy-build nodig
 
 ## Leesmenu
 
-Zonder deeplink opent de app het leesmenu. Kies je stemming (optioneel), energie,
-leesbehoefte en totale tijd. Een voorgerecht duurt minder dan vijf minuten; elke
+Zonder deeplink opent de app het leesmenu. Kies Zelf samenstellen of In bed voor
+het slapen (10 minuten, weinig energie, Licht & luchtig, zonder aangenomen stemming).
+Het instellingenoverzicht blijft zichtbaar; onder Aanpassen wijzig je stemming,
+energie, leesbehoefte en tijd. Aanpassen houdt de gekozen situatie actief; Zelf
+samenstellen verwijdert de extra eisen en behoudt je instellingen en voortgang.
+De slaapkeuze vereist een beoordeelde activering van maximaal 1, zonder onderwerpen
+zoals werk als geheel uit te sluiten. Een voorgerecht duurt minder dan vijf minuten; elke
 vervolggang past binnen de resterende geschatte tijd en energie. Ontbrekende gangen
 worden overgeslagen: een passend hoofdgerecht kan dus je eerste voorstel zijn. Is er
 geen aanbod, dan zie je of je tijd op is of er geen passende artikelen zijn, met
@@ -286,7 +291,12 @@ De preparation schrijft private evidence en batches van maximaal 25 naar
 `.tmp/readwise/reading-profiles/`. Lees de tekst voordat je een profiel accepteert.
 Gebruik `draft` bij onvoldoende evidence en `rejected` voor niet-leesbare/niet-toegelaten
 inhoud; die worden niet voorgesteld. Beoordeel `effort` en `emotionalWeight` (0–4),
-`tone` en de vijf `needFit`-scores onafhankelijk van rang en curatietags. Zie
+`tone`, de vijf `needFit`-scores en `activation`/`interruptibility` (0–4) onafhankelijk
+van lengte, onderwerp, rang en curatietags. Zie
 [het rubric](docs/reading-profiles.md). De build publiceert alleen actuele,
 geaccepteerde traits; wijziging van inhoudelijke metadata, rubric of voorkeuren
 maakt een profiel ongeldig. Volledige tekst/evidence blijft lokaal.
+Tijdens de volledige v2-herbeoordeling blijven oude productieprofielen via het
+legacy-menu bruikbaar voor Zelf samenstellen; ze krijgen geen verzonnen activerings-
+of onderbreekbaarheidsscores en tellen niet mee voor nieuwe situaties. De vaste
+lokale migratiesnapshot en batchindeling staan beschreven in de rubric.

@@ -7,7 +7,7 @@ import type { ReadingTraits } from "../src/reading-profiles.js";
 function article(id: string, minutes: number | null, category = "article"): ArticleItem {
   return { id, title: id, readingMinutes: minutes, category, position: null, author: null, siteName: null, language: null, readingTime: null, wordCount: null, publishedDate: null, savedDate: "2020-01-01", imageUrl: null, sourceUrl: null, readwiseUrl: `https://read.readwise.io/read/${id}`, summary: null, whyRead: null, bestMoment: null, tags: [], coreInterests: [], alsoIn: [] };
 }
-const light: ReadingTraits = { effort: 1, emotionalWeight: 0, tone: "warm", needFit: { ontspannen: 4, afleiding: 3, herkenning: 2, verkennen: 2, verdieping: 2 } };
+const light: ReadingTraits = { effort: 1, emotionalWeight: 0, tone: "warm", activation: 1, interruptibility: 3, needFit: { ontspannen: 4, afleiding: 3, herkenning: 2, verkennen: 2, verdieping: 2 } };
 const moment: ReadingMoment = { energy: "gemiddeld", mood: null, need: "ontspannen", budget: 10 };
 function inputs(): MenuInputs { return { catalog: [article("a", 3), article("b", 5), article("c", 2), article("heavy", 1), article("video", 1, "video"), article("book", 1), article("unknown", null)], profiles: { a: light, b: light, c: light, heavy: { ...light, emotionalWeight: 4 }, video: light, book: light, unknown: light }, scores: { a: { score: 90, sequences: ["lees"] }, b: { score: 80, sequences: ["lees"] }, c: { score: 70, sequences: ["lees"] }, book: { score: 100, sequences: ["boek"] } }, readIds: [] }; }
 function menu(data: MenuInputs, selected: ReadingMoment, excluded: readonly string[] = []) {
@@ -304,6 +304,14 @@ test("restored sessions accept the complete menu mood vocabulary", () => {
   for (const mood of ["neutraal", "rustig", "nieuwsgierig", "vrolijk", "somber", "gespannen", "vol-hoofd"]) {
     const restored = parseSession({ version: 1, moment: { ...moment, mood }, course: "voorgerecht", excluded: [], completed: [], proposal: null, finished: false });
     assert.equal(restored?.moment.mood, mood);
+  }
+});
+test("saved situations validate stable IDs while legacy sessions become custom", () => {
+  const legacy = { version: 1, moment, course: "voorgerecht", excluded: [], completed: [], finished: false };
+  assert.equal(Reflect.get(parseSession(legacy)?.moment ?? {}, "situation"), null);
+  assert.equal(Reflect.get(parseSession({ ...legacy, moment: { ...moment, situation: "bedtime" } })?.moment ?? {}, "situation"), "bedtime");
+  for (const situation of ["unknown", "In bed voor het slapen", 42, {}, ""]) {
+    assert.equal(parseSession({ ...legacy, moment: { ...moment, situation } }), null);
   }
 });
 

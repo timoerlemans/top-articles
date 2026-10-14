@@ -1,8 +1,9 @@
 import { startSession, refreshSession, transitionSession, READING_MOODS } from "./reading-menu.js";
 import { parseHistory, parseSession, reconcileHistory, readStored, writeStored, latestHistory } from "./reading-storage.js";
+import { READING_SITUATIONS, situationDefaults } from "./reading-situations.js";
 const HISTORY_KEY = "top-articles-reading-history-v1";
 const SESSION_KEY = "top-articles-reading-session-v1";
-const DEFAULT_MOMENT = { mood: null, energy: "gemiddeld", need: "ontspannen", budget: 15 };
+const DEFAULT_MOMENT = { situation: null, mood: null, energy: "gemiddeld", need: "ontspannen", budget: 15 };
 const TIME_CHOICES = [5, 10, 15, 20, 30].map((value) => ({ value, label: `${value} min`, description: `Stel je totale leestijd in op ${value} minuten.` }));
 const NEED_CHOICES = [
     { value: "ontspannen", label: "Licht & luchtig", description: "Een korte, toegankelijke start die niet meteen veel vraagt." },
@@ -28,6 +29,10 @@ const MOOD_LABELS = {
 const MOOD_CHOICES = [
     { value: null, label: "Geen voorkeur", description: "Je stemming telt niet mee bij de keuze." },
     ...READING_MOODS.map((value) => ({ value, ...MOOD_LABELS[value] })),
+];
+const SITUATION_CHOICES = [
+    { value: null, label: "Zelf samenstellen", description: "Kies zelf je instellingen, zonder extra situatie-eisen." },
+    ...READING_SITUATIONS.map(situation => ({ value: situation.id, label: situation.label, description: situation.description })),
 ];
 const COURSE_COPY = {
     voorgerecht: { label: "Voorgerecht", subtitle: "Kort en licht beginnen" },
@@ -169,6 +174,13 @@ export function mountReadingMenu(root, data, priority) {
     status.setAttribute("role", "status");
     status.tabIndex = -1;
     const settingsHeading = node("h3", "Stel je leesmoment samen");
+    const situationGroup = choiceGroup("situation", "Waar lees je nu?", SITUATION_CHOICES, session?.moment.situation ?? null, selectSituation);
+    const settingsSummary = node("p");
+    settingsSummary.className = "reading-settings-summary";
+    settingsSummary.setAttribute("role", "status");
+    const adjustments = node("details");
+    adjustments.className = "reading-adjustments";
+    adjustments.append(node("summary", "Aanpassen"));
     const settings = node("section");
     settings.className = "reading-menu-settings reading-moment";
     settings.setAttribute("aria-label", "Instellingen voor je leesmoment");
@@ -177,6 +189,7 @@ export function mountReadingMenu(root, data, priority) {
     const energyGroup = choiceGroup("energy", "Hoeveel ruimte heb je in je hoofd?", ENERGY_CHOICES, session?.moment.energy ?? DEFAULT_MOMENT.energy, (value) => { setMoment("energy", value); });
     const moodGroup = choiceGroup("mood", "Hoe zit je erbij? (optioneel)", MOOD_CHOICES, session?.moment.mood ?? DEFAULT_MOMENT.mood, (value) => { setMoment("mood", value); });
     settings.append(budgetGroup.element, needGroup.element, energyGroup.element, moodGroup.element);
+    adjustments.append(settings);
     const menuHeading = node("h3", "Je menu");
     menuHeading.className = "reading-menu-courses-heading";
     const courses = node("section");
@@ -186,11 +199,18 @@ export function mountReadingMenu(root, data, priority) {
     courses.setAttribute("aria-live", "polite");
     const historyPanel = node("details");
     historyPanel.className = "reading-menu-history";
-    root.append(storageWarning, status, settingsHeading, settings, menuHeading, courses, historyPanel);
+    root.append(storageWarning, status, settingsHeading, situationGroup.element, settingsSummary, adjustments, menuHeading, courses, historyPanel);
+    function selectSituation(id) {
+        syncHistory();
+        const nextMoment = id === null ? { ...(session?.moment ?? DEFAULT_MOMENT), situation: null } : situationDefaults(id);
+        session = session ? refreshSession(inputs(), { ...session, moment: nextMoment }) : startSession(inputs(), nextMoment);
+        save();
+        updateUI();
+    }
     function setMoment(key, value) {
         syncHistory();
         const nextMoment = { ...(session?.moment ?? DEFAULT_MOMENT), [key]: value };
-        session = session && !session.finished
+        session = session
             ? refreshSession(inputs(), { ...session, moment: nextMoment, proposal: null })
             : startSession(inputs(), nextMoment);
         save();
@@ -268,10 +288,16 @@ export function mountReadingMenu(root, data, priority) {
     function updateUI(focusCurrent = false) {
         const active = session;
         const moment = active?.moment ?? DEFAULT_MOMENT;
+        situationGroup.update(moment.situation ?? null);
         budgetGroup.update(moment.budget);
         needGroup.update(moment.need);
         energyGroup.update(moment.energy);
         moodGroup.update(moment.mood);
+        const situationLabel = SITUATION_CHOICES.find(choice => choice.value === (moment.situation ?? null))?.label ?? "Zelf samenstellen";
+        const needLabel = NEED_CHOICES.find(choice => choice.value === moment.need)?.label ?? "";
+        const energyLabel = ENERGY_CHOICES.find(choice => choice.value === moment.energy)?.label ?? "";
+        const moodLabel = MOOD_CHOICES.find(choice => choice.value === moment.mood)?.label ?? "";
+        settingsSummary.textContent = `${situationLabel} · ${moment.budget} min · ${energyLabel.toLowerCase()} energie · ${needLabel} · ${moodLabel}`;
         storageWarning.hidden = durable;
         status.replaceChildren();
         courses.replaceChildren();
@@ -295,6 +321,7 @@ export function mountReadingMenu(root, data, priority) {
                     ? "Je gekozen leestijd is opgebruikt. Kies meer tijd om verder te lezen, of rond je leesmoment af."
                     : "Geen passende artikelen voor dit leesmoment. Pas je tijd, leesbehoefte of leesenergie aan."));
                 courses.append(button(budgetSpent ? "Pas leestijd aan" : "Pas je leesmoment aan", () => {
+                    adjustments.open = true;
                     const group = budgetSpent ? budgetGroup : needGroup;
                     group.buttons[0]?.button.focus();
                 }));

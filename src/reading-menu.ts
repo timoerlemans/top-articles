@@ -1,14 +1,16 @@
 import { isShort } from "./reading-policy.js";
 import type { ArticleItem } from "./types/browser-data.js";
-import type { ReadingNeed, ReadingTraits } from "./reading-profiles.js";
+import type { ReadingNeed, MenuTraits } from "./reading-profiles.js";
+import { fitsSituation, compareSituationFit } from "./reading-situations.js";
+import type { SituationId } from "./reading-situations.js";
 export type Energy = "weinig" | "gemiddeld" | "veel";
 export const READING_MOODS = ["neutraal", "rustig", "nieuwsgierig", "vrolijk", "somber", "gespannen", "vol-hoofd"] as const;
 export type Mood = typeof READING_MOODS[number] | null;
 export type Course = "voorgerecht" | "hoofdgerecht" | "nagerecht";
-export interface ReadingMoment { energy: Energy; mood: Mood; need: ReadingNeed; budget: number; }
+export interface ReadingMoment { energy: Energy; mood: Mood; need: ReadingNeed; budget: number; situation?: SituationId | null; }
 export interface MenuInputs {
   catalog: readonly ArticleItem[];
-  profiles: Readonly<Record<string, ReadingTraits>>;
+  profiles: Readonly<Record<string, MenuTraits>>;
   scores: Readonly<Record<string, { score: number; sequences: readonly string[] }>>;
   readIds: readonly string[];
 }
@@ -58,12 +60,13 @@ export function planMenu(inputs: MenuInputs, moment: ReadingMoment, excluded: re
       && hasReaderLink(item.readwiseUrl)
       && !inputs.scores[item.id]?.sequences.includes("boek")
       && !item.tags.some((tag) => /^(books?|epub)$/i.test(tag))
-      && profile && profile.needFit[moment.need] >= 2 && profile.effort <= cap && profile.emotionalWeight <= cap
+      && profile && fitsSituation(profile, moment.situation) && profile.needFit[moment.need] >= 2 && profile.effort <= cap && profile.emotionalWeight <= cap
       && item.readingMinutes !== null && Number.isFinite(item.readingMinutes) && item.readingMinutes > 0;
   }).sort((a, b) => {
     const ap = inputs.profiles[a.id]; const bp = inputs.profiles[b.id];
     if (!ap || !bp) { return 0; }
     return bp.needFit[moment.need] - ap.needFit[moment.need]
+      || compareSituationFit(ap, bp, moment.situation)
       || Number(tones.includes(bp.tone)) - Number(tones.includes(ap.tone))
       || (moment.mood === "vol-hoofd" ? ap.effort - bp.effort : 0)
       || (inputs.scores[b.id]?.score ?? 0) - (inputs.scores[a.id]?.score ?? 0)

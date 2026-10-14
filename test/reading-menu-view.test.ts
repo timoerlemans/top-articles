@@ -3,6 +3,9 @@ import test from "node:test";
 import { mountReadingMenu } from "../src/reading-menu-view.js";
 import type { ArticleItem, TopArticles, TopArticlePriority } from "../src/types/browser-data.js";
 import type { ReadingTraits, ReadingNeed } from "../src/reading-profiles.js";
+import { parseReadingMenu } from "../src/reading-profiles.js";
+import { fingerprint, PROFILE_RUBRIC, profileSourceFingerprint, publicReadingMenu } from "../scripts/lib/reading-profiles.js";
+import type { ReadingProfile } from "../scripts/lib/reading-profiles.js";
 
 class MemoryStorage {
   private readonly values = new Map<string, string>();
@@ -55,12 +58,12 @@ function historyIds(storage: MemoryStorage): unknown {
 function makeArticle(id: string, minutes: number): ArticleItem {
   return { id, title: `Artikel ${id}`, readingMinutes: minutes, category: "article", position: null, author: null, siteName: null, language: "nl", readingTime: `${minutes} min`, wordCount: 300, publishedDate: null, savedDate: "2020-01-01", imageUrl: null, sourceUrl: null, readwiseUrl: `https://read.readwise.io/read/${id}`, summary: `Beschrijving ${id}`, whyRead: null, bestMoment: null, tags: [], coreInterests: [], alsoIn: [] };
 }
-const traits: ReadingTraits = { effort: 1, emotionalWeight: 0, tone: "warm", needFit: { ontspannen: 4, afleiding: 3, herkenning: 2, verkennen: 2, verdieping: 2 } };
+const traits: ReadingTraits = { effort: 1, emotionalWeight: 0, tone: "warm", activation: 1, interruptibility: 3, needFit: { ontspannen: 4, afleiding: 3, herkenning: 2, verkennen: 2, verdieping: 2 } };
 function fixture(
   catalog = [makeArticle("a", 3), makeArticle("b", 5), makeArticle("c", 2)],
   profiles: Record<string, ReadingTraits> = Object.fromEntries(catalog.map(({ id }) => [id, traits])),
 ): { data: TopArticles; priority: TopArticlePriority } {
-  const data = { generatedAt: "2026-10-10T00:00:00Z", families: [], catalog: { items: catalog }, derivedLists: {}, readingMenu: { version: 1, scope: "later", complete: true, profiles } } as unknown as TopArticles;
+  const data = { generatedAt: "2026-10-10T00:00:00Z", families: [], catalog: { items: catalog }, derivedLists: {}, readingMenu: { version: 2, scope: "later", complete: true, profiles } } as unknown as TopArticles;
   const priority = { generatedAt: data.generatedAt, model: "readwise-priority-v8", scope: "later", coreInterestPriority: {}, items: Object.fromEntries(catalog.map(({ id }, index) => [id, { score: 90 - index * 10, sequences: ["lees"] }])) } as unknown as TopArticlePriority;
   return { data, priority };
 }
@@ -328,5 +331,102 @@ test("a finished session has no stale actions and a new session starts without o
     assert.ok(root.textContent.includes("0 min bevestigd gelezen"));
     assert.ok(byClass(root, "reading-actions").length > 0);
     assert.deepEqual(historyIds(local), ["a"]);
+  });
+});
+
+test("bedtime changes eligibility and ranking while keeping custom adjustments accessible", () => {
+  withDom((root, local) => {
+    const { data, priority } = fixture([makeArticle("activating", 2), makeArticle("calm-work", 3), makeArticle("neutral", 2)], {
+      activating: { ...traits, activation: 3, tone: "reflectief" },
+      "calm-work": { ...traits, activation: 1, tone: "warm" },
+      neutral: { ...traits, activation: 0, tone: "zakelijk" },
+    });
+    mountReadingMenu(root as unknown as HTMLElement, data, priority);
+    assert.equal(byClass(root, "reading-adjustments")[0]?.open, false);
+    assert.equal(byText(root, "button", "Zelf samenstellen")?.getAttribute("aria-pressed"), "true");
+    assert.equal(byClass(root, "reading-course-title")[0]?.textContent, "Artikel activating");
+    choose(root, "In bed voor het slapen");
+    assert.equal(byClass(root, "reading-course-title")[0]?.textContent, "Artikel calm-work");
+    assert.ok(byClass(root, "reading-course-title").every(el => el.textContent !== "Artikel activating"));
+    for (const label of ["10 min", "Weinig", "Licht & luchtig", "Geen voorkeur"]) {
+      assert.equal(byText(root, "button", label)?.getAttribute("aria-pressed"), "true");
+    }
+    assert.ok(byClass(root, "reading-settings-summary")[0]?.textContent.includes("In bed voor het slapen"));
+    const adjustments = byClass(root, "reading-adjustments")[0]; assert.ok(adjustments); adjustments.open = true;
+    choose(root, "Veel"); choose(root, "Nieuwsgierig"); choose(root, "30 min");
+    assert.equal(adjustments.open, true);
+    assert.equal(byText(root, "button", "In bed voor het slapen")?.getAttribute("aria-pressed"), "true");
+    assert.ok(byClass(root, "reading-course-title").every(el => el.textContent !== "Artikel activating"));
+    assert.equal(byClass(root, "reading-course-title")[0]?.textContent, "Artikel calm-work");
+    choose(root, "Zelf samenstellen");
+    assert.equal(byClass(root, "reading-course-title")[0]?.textContent, "Artikel activating");
+    assert.equal(byText(root, "button", "30 min")?.getAttribute("aria-pressed"), "true");
+    assert.equal(byText(root, "button", "Nieuwsgierig")?.getAttribute("aria-pressed"), "true");
+    assert.deepEqual(historyIds(local), []);
+  });
+});
+
+test("reviewed source fixtures reach bedtime through the real publication and browser parser", () => {
+  withDom((root) => {
+    const preferences = "Accessible calm reading";
+    const sources = [
+      { id: "calm-work", category: "article", title: "A quiet closing ritual at work", reading_time: "3 min", summary: "Finish by putting papers away and noticing one completed task. No planning exercise or unresolved problem." },
+      { id: "stimulating", category: "article", title: "An absorbing puzzle", reading_time: "2 min", summary: "An approachable logical paradox asks readers to hold competing premises in mind and solve an open problem." },
+      { id: "moderate", category: "article", title: "A new project", reading_time: "2 min", summary: "Several inviting experiments to try next, requiring decisions and an action plan." },
+    ];
+    const profile = (source: typeof sources[number], activation: number): ReadingProfile => ({
+      status: "accepted", confidence: "medium", rubricVersion: PROFILE_RUBRIC, sourceFingerprint: profileSourceFingerprint(source),
+      preferencesFingerprint: fingerprint(preferences), evidenceFingerprint: fingerprint(source.summary), judgedBy: "Test fixture review", judgedAt: "2026-10-14",
+      evidenceRefs: ["summary"], reason: activation === 1 ? "Self-contained gentle closing ritual, without an activating problem; work topic alone does not exclude it." : "Easy language invites sustained problem-solving or planning, so effort and activation differ.",
+      traits: { ...traits, activation, interruptibility: activation === 1 ? 4 : 2 },
+    });
+    const { data, priority } = fixture([makeArticle("stimulating", 2), makeArticle("moderate", 2), makeArticle("calm-work", 3)]);
+    const published = publicReadingMenu(sources, { version: 1, items: Object.fromEntries(sources.map((source, index) => [source.id, profile(source, index + 1)])) }, preferences);
+    assert.equal(published.version, 2);
+    const parsed = parseReadingMenu(published); assert.ok(parsed); data.readingMenu = parsed;
+    mountReadingMenu(root as unknown as HTMLElement, data, priority);
+    choose(root, "In bed voor het slapen");
+    assert.deepEqual(byClass(root, "reading-course-title").map(el => el.textContent), ["Artikel calm-work"]);
+  });
+});
+
+test("switching situation preserves confirmed time, remaining course and temporary exclusions", () => {
+  withDom((root, local, stored) => {
+    const { data, priority } = fixture([makeArticle("a", 3), makeArticle("b", 5), makeArticle("c", 2), makeArticle("d", 2)]);
+    mountReadingMenu(root as unknown as HTMLElement, data, priority);
+    choose(root, "Vervang voorstel");
+    choose(root, "Gelezen, volgende gang");
+    assert.deepEqual(historyIds(local), ["c"]);
+    choose(root, "In bed voor het slapen");
+    assert.ok(root.textContent.includes("2 min bevestigd gelezen"));
+    const current = descendants(root).find(el => el.getAttribute("data-current-course") === "true"); assert.ok(current);
+    assert.ok(current.textContent.includes("Hoofdgerecht"));
+    assert.equal(byClass(current, "reading-course-title")[0]?.textContent, "Artikel b");
+    assert.ok(byClass(root, "reading-course-title").every(el => el.textContent !== "Artikel a"));
+    mountReadingMenu(root as unknown as HTMLElement, data, priority);
+    assert.equal(byText(root, "button", "In bed voor het slapen")?.getAttribute("aria-pressed"), "true");
+    assert.ok(root.textContent.includes("2 min bevestigd gelezen"));
+    assert.ok(stored.getItem("top-articles-reading-session-v1")?.includes("bedtime"));
+    choose(root, "Gelezen, rond af");
+    choose(root, "Zelf samenstellen");
+    assert.equal(byClass(root, "reading-course-card").length, 0);
+    assert.ok(root.textContent.includes("Leesmoment afgerond"));
+    assert.deepEqual(historyIds(local), ["c", "b"]);
+  });
+});
+
+test("legacy sessions restore as custom and legacy production stays usable without invented suitability", () => {
+  withDom((root, _local, stored) => {
+    const { data, priority } = fixture();
+    data.readingMenu = { version: 1, scope: "later", complete: true, profiles: { a: { effort: 1, emotionalWeight: 0, tone: "warm", needFit: traits.needFit } } };
+    stored.setItem("top-articles-reading-session-v1", JSON.stringify({ version: 1, moment: { budget: 10, energy: "gemiddeld", need: "ontspannen", mood: null }, course: "voorgerecht", excluded: [], completed: [], finished: false }));
+    mountReadingMenu(root as unknown as HTMLElement, data, priority);
+    assert.equal(byText(root, "button", "Zelf samenstellen")?.getAttribute("aria-pressed"), "true");
+    assert.equal(byClass(root, "reading-course-title")[0]?.textContent, "Artikel a");
+    choose(root, "In bed voor het slapen");
+    assert.equal(byClass(root, "reading-course-card").length, 0);
+    assert.ok(byText(root, "button", "Zelf samenstellen"));
+    choose(root, "Zelf samenstellen");
+    assert.equal(byClass(root, "reading-course-title")[0]?.textContent, "Artikel a");
   });
 });

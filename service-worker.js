@@ -1,4 +1,4 @@
-const APP_SHELL_CACHE = "top-articles-shell-v3";
+const APP_SHELL_CACHE = "top-articles-shell-v4";
 const IMAGE_CACHE = "top-articles-images-v1";
 const APP_SHELL_URLS = [
   "./",
@@ -12,6 +12,7 @@ const APP_SHELL_URLS = [
   "dist/src/app.js",
   "dist/src/reading-policy.js",
   "dist/src/reading-profiles.js",
+  "dist/src/reading-situations.js",
   "dist/src/reading-menu.js",
   "dist/src/reading-storage.js",
   "dist/src/reading-menu-view.js",

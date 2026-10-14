@@ -1,5 +1,6 @@
 import { record, READING_NEEDS } from "./reading-profiles.js";
 import { READING_MOODS } from "./reading-menu.js";
+import { isSituationId } from "./reading-situations.js";
 import type { MenuSession } from "./reading-menu.js";
 export interface ReadHistory { version: 1; generatedAt: string | null; ids: string[]; }
 export function parseHistory(value: unknown): ReadHistory {
@@ -19,6 +20,7 @@ export function parseSession(value: unknown): MenuSession | null {
   const moment = value.moment;
   if (!["weinig", "gemiddeld", "veel"].includes(String(moment.energy)) || !(moment.mood === null || READING_MOODS.some((mood) => mood === moment.mood))
     || !READING_NEEDS.some((need) => moment.need === need) || typeof moment.budget !== "number" || !Number.isSafeInteger(moment.budget) || moment.budget <= 0
+    || (moment.situation !== undefined && moment.situation !== null && !isSituationId(moment.situation))
     || !["voorgerecht", "hoofdgerecht", "nagerecht"].includes(String(value.course)) || typeof value.finished !== "boolean"
     || !Array.isArray(value.excluded) || !value.excluded.every((id) => typeof id === "string") || !Array.isArray(value.completed)
     || !value.completed.every((entry) => record(entry) && typeof entry.id === "string" && entry.id.length > 0 && typeof entry.minutes === "number" && Number.isFinite(entry.minutes) && entry.minutes > 0)) { return null; }
@@ -26,7 +28,7 @@ export function parseSession(value: unknown): MenuSession | null {
   const spent = completed.reduce((sum, entry) => sum + entry.minutes, 0);
   if (new Set(completed.map((entry) => entry.id)).size !== completed.length || !Number.isFinite(spent)) { return null; }
   // Proposals are always re-planned against the current dataset after restoration.
-  return { version: 1, moment: moment as unknown as MenuSession["moment"], course: value.course as MenuSession["course"], excluded: value.excluded, completed, confirmedMinutes: spent, plannedMinutes: 0, proposals: [], proposal: null, finished: value.finished };
+  return { version: 1, moment: { ...moment, situation: moment.situation ?? null } as unknown as MenuSession["moment"], course: value.course as MenuSession["course"], excluded: value.excluded, completed, confirmedMinutes: spent, plannedMinutes: 0, proposals: [], proposal: null, finished: value.finished };
 }
 export function readStored(storage: Pick<Storage, "getItem"> | null, key: string): unknown {
   try { const value = storage?.getItem(key); return value ? JSON.parse(value) as unknown : null; } catch { return null; }

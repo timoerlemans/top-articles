@@ -1,4 +1,5 @@
 import { isShort } from "./reading-policy.js";
+import { fitsSituation, compareSituationFit } from "./reading-situations.js";
 export const READING_MOODS = ["neutraal", "rustig", "nieuwsgierig", "vrolijk", "somber", "gespannen", "vol-hoofd"];
 const COURSES = ["voorgerecht", "hoofdgerecht", "nagerecht"];
 function preferredTones(moment) {
@@ -48,7 +49,7 @@ export function planMenu(inputs, moment, excluded = [], start = "voorgerecht", s
             && hasReaderLink(item.readwiseUrl)
             && !inputs.scores[item.id]?.sequences.includes("boek")
             && !item.tags.some((tag) => /^(books?|epub)$/i.test(tag))
-            && profile && profile.needFit[moment.need] >= 2 && profile.effort <= cap && profile.emotionalWeight <= cap
+            && profile && fitsSituation(profile, moment.situation) && profile.needFit[moment.need] >= 2 && profile.effort <= cap && profile.emotionalWeight <= cap
             && item.readingMinutes !== null && Number.isFinite(item.readingMinutes) && item.readingMinutes > 0;
     }).sort((a, b) => {
         const ap = inputs.profiles[a.id];
@@ -57,6 +58,7 @@ export function planMenu(inputs, moment, excluded = [], start = "voorgerecht", s
             return 0;
         }
         return bp.needFit[moment.need] - ap.needFit[moment.need]
+            || compareSituationFit(ap, bp, moment.situation)
             || Number(tones.includes(bp.tone)) - Number(tones.includes(ap.tone))
             || (moment.mood === "vol-hoofd" ? ap.effort - bp.effort : 0)
             || (inputs.scores[b.id]?.score ?? 0) - (inputs.scores[a.id]?.score ?? 0)
