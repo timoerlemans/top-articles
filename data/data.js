@@ -5411,7 +5411,7 @@ window.TOP_ARTICLES = {
       }
     }
   },
-  "generatedAt": "2026-10-14T19:01:25.492Z",
+  "generatedAt": "2026-10-14T19:07:05.050Z",
   "families": [
     {
       "id": "algemeen",

@@ -1,11 +1,11 @@
 // Automatisch gegenereerd door scripts/build-data.ts — niet handmatig bewerken.
 window.TOP_ARTICLE_PRIORITY = {
-  "generatedAt": "2026-10-14T19:01:25.492Z",
+  "generatedAt": "2026-10-14T19:07:05.050Z",
   "model": "readwise-priority-v8",
   "scope": "later",
   "coreInterestPriority": {
     "version": 1,
-    "generatedAt": "2026-10-14T19:01:25.492Z",
+    "generatedAt": "2026-10-14T19:07:05.050Z",
     "order": [
       "agile",
       "adhd",
