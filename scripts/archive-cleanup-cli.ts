@@ -15,7 +15,7 @@ import {
 } from "./lib/archive-cleanup.js";
 import { applyPriorityDocumentUpdates } from "./lib/priority-apply.js";
 import type { DocumentBatchResult, PriorityJournal } from "./lib/priority-apply.js";
-import { buildDocumentTagUpdates, BULK_EDIT_BATCH_SIZE } from "./lib/priority-batch.js";
+import { buildDocumentTagUpdates } from "./lib/priority-batch.js";
 import type { DocumentTagUpdate } from "./lib/priority-batch.js";
 import { createReadwiseRequester } from "./lib/readwise-request.js";
 import { fetchReadwiseDocuments } from "./lib/readwise-documents.js";
@@ -154,7 +154,7 @@ async function applyCommand(): Promise<void> {
     return tags === null ? [] : [[doc.id, tags] as const];
   }));
   const updates = buildDocumentTagUpdates(livePlan.operations, currentTags);
-  console.log(`Uitvoeren: ${String(livePlan.operations.length)} tagverwijderingen op ${String(updates.length)} documenten via ~${String(Math.ceil(updates.length / BULK_EDIT_BATCH_SIZE))} bulk-calls.`);
+  console.log(`Uitvoeren: ${String(livePlan.operations.length)} tagverwijderingen op ${String(updates.length)} documenten; bulk alleen voor volledig bekende actuele tagsets, overige wijzigingen via losse fallback-calls.`);
   await applyPriorityDocumentUpdates({
     updates,
     journal,

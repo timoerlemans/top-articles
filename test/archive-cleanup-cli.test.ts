@@ -197,6 +197,8 @@ test("cleanup preserves opaque and personal tags when the live tag array is inco
       "--journal", join(planPath, "..", "journal.json"),
     ], environment);
     assert.equal(applyResult.code, 0, applyResult.stderr);
+    assert.match(applyResult.stdout, /bulk.*alleen.*volledig|losse.*fallback/i);
+    assert.doesNotMatch(applyResult.stdout, /via ~\d+ bulk-calls/i);
     const calls = await readReadwiseCalls(callLogPath);
     assert.ok(calls.some((call) => call.startsWith("reader-remove-tags-from-document")));
     assert.ok(!calls.some((call) => call.startsWith("reader-bulk-edit-document-metadata")));
