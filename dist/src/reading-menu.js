@@ -84,22 +84,23 @@ export function planMenu(inputs, moment, excluded = [], start = "voorgerecht", s
     return result;
 }
 export function startSession(inputs, moment) {
-    return refreshSession(inputs, { version: 1, moment, course: "voorgerecht", excluded: [], completed: [], proposals: [], proposal: null, finished: false });
+    return refreshSession(inputs, { version: 1, moment, course: "voorgerecht", excluded: [], completed: [], confirmedMinutes: 0, plannedMinutes: 0, proposals: [], proposal: null, finished: false });
 }
 export function refreshSession(inputs, session) {
+    const confirmedMinutes = session.completed.reduce((sum, entry) => sum + entry.minutes, 0);
     if (session.finished) {
-        return { ...session, proposals: [], proposal: null };
+        return { ...session, confirmedMinutes, plannedMinutes: 0, proposals: [], proposal: null };
     }
-    const menu = planMenu(inputs, session.moment, [...session.excluded, ...session.completed.map((entry) => entry.id)], session.course, session.completed.reduce((sum, entry) => sum + entry.minutes, 0));
+    const menu = planMenu(inputs, session.moment, [...session.excluded, ...session.completed.map((entry) => entry.id)], session.course, confirmedMinutes);
     const proposal = menu[0] ?? null;
-    return { ...session, course: proposal?.course ?? session.course, proposals: menu, proposal };
+    return { ...session, confirmedMinutes, plannedMinutes: menu.reduce((sum, entry) => sum + entry.minutes, 0), course: proposal?.course ?? session.course, proposals: menu, proposal };
 }
 export function transitionSession(inputs, session, action, proposalId) {
     if (session.finished) {
         return session;
     }
     if (action === "stop") {
-        return { ...session, finished: true, proposals: [], proposal: null };
+        return refreshSession(inputs, { ...session, finished: true });
     }
     if (action === "skip-main" && session.course === "hoofdgerecht") {
         return refreshSession(inputs, { ...session, course: "nagerecht" });
@@ -117,7 +118,7 @@ export function transitionSession(inputs, session, action, proposalId) {
     const completed = [...session.completed, { id: proposal.id, minutes: proposal.minutes }];
     const next = COURSES[COURSES.indexOf(session.course) + 1];
     if (action === "read-finish" || !next) {
-        return { ...session, completed, finished: true, proposals: [], proposal: null };
+        return refreshSession(inputs, { ...session, completed, finished: true });
     }
     return refreshSession(inputs, { ...session, completed, course: next });
 }

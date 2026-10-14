@@ -33,7 +33,7 @@ export function parseSession(value) {
         return null;
     }
     // Proposals are always re-planned against the current dataset after restoration.
-    return { version: 1, moment: moment, course: value.course, excluded: value.excluded, completed, proposals: [], proposal: null, finished: value.finished };
+    return { version: 1, moment: moment, course: value.course, excluded: value.excluded, completed, confirmedMinutes: spent, plannedMinutes: 0, proposals: [], proposal: null, finished: value.finished };
 }
 export function readStored(storage, key) {
     try {

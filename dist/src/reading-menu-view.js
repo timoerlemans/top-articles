@@ -287,10 +287,8 @@ export function mountReadingMenu(root, data, priority) {
             }));
         }
         else {
-            const spent = active.completed.reduce((sum, entry) => sum + entry.minutes, 0);
             const proposals = active.proposals;
-            const planned = proposals.reduce((sum, proposal) => sum + proposal.minutes, 0);
-            status.append(node("p", `${spent} min bevestigd gelezen · ${planned} min voorgesteld · ${active.moment.budget} min totaal`));
+            status.append(node("p", `${active.confirmedMinutes} min bevestigd gelezen · ${active.plannedMinutes} min voorgesteld · ${active.moment.budget} min totaal`));
             if (!proposals.length) {
                 const noStarter = active.course === "voorgerecht";
                 courses.append(node("p", noStarter

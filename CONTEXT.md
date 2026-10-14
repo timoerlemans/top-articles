@@ -48,7 +48,9 @@ De beschikbare mentale energie voor concentratie en inspanning tijdens het lezen
 
 **Leesbudget**:
 De totale tijd die iemand voor een leessessie beschikbaar heeft of wil investeren.
-De gezamenlijke geschatte leestijd van de gangen past binnen dit budget.
+Nieuwe voorstellen passen binnen de tijd die na bevestigde leesvoortgang nog over is.
+Bij een latere budgetverlaging blijft eerder bevestigde leestijd behouden, ook als
+die het nieuwe budget overschrijdt. Zolang er geen tijd over is, volgen geen nieuwe gangen.
 
 **Leesvoortgang**:
 De gangen die de lezer tijdens een leessessie zelf als gelezen heeft bevestigd.
