@@ -12328,429 +12328,408 @@
     "01j29d38xxr3gp6z4x14nzw6es": {
       "status": "rejected",
       "confidence": "high",
-      "rubricVersion": "reading-profile-v1",
+      "rubricVersion": "reading-profile-v2",
       "sourceFingerprint": "24320406818aab16b37b3aede277533d77ff246a3489fabe84db9e186ef9f682",
       "evidenceFingerprint": "1ebe6264cc0e5497b80a166f4a57a22edee20a1b28b6f33000b1251e5c495c2f",
       "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
-      "judgedBy": "codex-reading-profile-review-2026-10-12",
-      "judgedAt": "2026-10-12T12:00:00Z",
+      "judgedBy": "codex-semantic-reading-profile-v2-batch-001",
+      "judgedAt": "2026-10-14T10:28:04.291392Z",
       "evidenceRefs": [
-        "summary",
-        "notes"
+        "metadata:category"
       ],
-      "reason": "Boek/EPUB valt buiten de leesprofielen; de Reader-categorie bepaalt de uitsluiting."
+      "reason": "De Reader-documentcategorie is EPUB. Boeken vallen buiten het leesmenu; daarom expliciet uitgesloten zonder activerings- of onderbreekbaarheidsscores te verzinnen."
     },
     "01j29d37x3cztmzd8trte1m38n": {
       "status": "rejected",
       "confidence": "high",
-      "rubricVersion": "reading-profile-v1",
+      "rubricVersion": "reading-profile-v2",
       "sourceFingerprint": "9c79933272e3e9923c8014a55297e397833e140101376698b03d8fc30f6cc53d",
       "evidenceFingerprint": "7e331484d3aa181601697b7229336fd959dd6dec35169914c1904567880e7039",
       "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
-      "judgedBy": "codex-reading-profile-review-2026-10-12",
-      "judgedAt": "2026-10-12T12:00:00Z",
+      "judgedBy": "codex-semantic-reading-profile-v2-batch-001",
+      "judgedAt": "2026-10-14T10:28:04.291392Z",
       "evidenceRefs": [
-        "summary",
-        "notes"
+        "metadata:category"
       ],
-      "reason": "Boek/EPUB valt buiten de leesprofielen; de Reader-categorie bepaalt de uitsluiting."
+      "reason": "De Reader-documentcategorie is EPUB. Boeken vallen buiten het leesmenu; daarom expliciet uitgesloten zonder activerings- of onderbreekbaarheidsscores te verzinnen."
     },
     "01j29d3746nt7zejbxvg8cvbr9": {
       "status": "rejected",
       "confidence": "high",
-      "rubricVersion": "reading-profile-v1",
+      "rubricVersion": "reading-profile-v2",
       "sourceFingerprint": "1ed6975cb72d47a528b649681fc97be236655cf523cd1cb7a6ab78bc3eb387f7",
       "evidenceFingerprint": "08e44ffcca3284213a8626c6f89afde97f8f101935e4f433ca20359992f774e0",
       "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
-      "judgedBy": "codex-reading-profile-review-2026-10-12",
-      "judgedAt": "2026-10-12T12:00:00Z",
+      "judgedBy": "codex-semantic-reading-profile-v2-batch-001",
+      "judgedAt": "2026-10-14T10:28:04.291392Z",
       "evidenceRefs": [
-        "summary",
-        "notes"
+        "metadata:category"
       ],
-      "reason": "Boek/EPUB valt buiten de leesprofielen; de Reader-categorie bepaalt de uitsluiting."
+      "reason": "De Reader-documentcategorie is EPUB. Boeken vallen buiten het leesmenu; daarom expliciet uitgesloten zonder activerings- of onderbreekbaarheidsscores te verzinnen."
     },
     "01j29d3606c404ravsnqd4m202": {
       "status": "rejected",
       "confidence": "high",
-      "rubricVersion": "reading-profile-v1",
+      "rubricVersion": "reading-profile-v2",
       "sourceFingerprint": "21738765c14a662b6abe05e6cf9bf9c4cba6c8702b8dc4368294ce42cb46cbde",
       "evidenceFingerprint": "d08349cf5dce6ad5e14af14b6a29fec381578481147a76c3cfe8c0399ffa3651",
       "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
-      "judgedBy": "codex-reading-profile-review-2026-10-12",
-      "judgedAt": "2026-10-12T12:00:00Z",
+      "judgedBy": "codex-semantic-reading-profile-v2-batch-001",
+      "judgedAt": "2026-10-14T10:28:04.291392Z",
       "evidenceRefs": [
-        "summary",
-        "notes"
+        "metadata:category"
       ],
-      "reason": "Boek/EPUB valt buiten de leesprofielen; de Reader-categorie bepaalt de uitsluiting."
+      "reason": "De Reader-documentcategorie is EPUB. Boeken vallen buiten het leesmenu; daarom expliciet uitgesloten zonder activerings- of onderbreekbaarheidsscores te verzinnen."
     },
     "01j29d3555wfw99h6x7txs65sh": {
       "status": "rejected",
       "confidence": "high",
-      "rubricVersion": "reading-profile-v1",
+      "rubricVersion": "reading-profile-v2",
       "sourceFingerprint": "cd8e6ad56a00afb3c66575ac1d0ad65950f4a573095e3590fb51263c06a583ea",
       "evidenceFingerprint": "d663739ab1ecc6ac62f2a3eae8a0df58eb0ddef84455a14eef7a07998e7d69fc",
       "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
-      "judgedBy": "codex-reading-profile-review-2026-10-12",
-      "judgedAt": "2026-10-12T12:00:00Z",
+      "judgedBy": "codex-semantic-reading-profile-v2-batch-001",
+      "judgedAt": "2026-10-14T10:28:04.291392Z",
       "evidenceRefs": [
-        "summary",
-        "notes"
+        "metadata:category"
       ],
-      "reason": "Boek/EPUB valt buiten de leesprofielen; de Reader-categorie bepaalt de uitsluiting."
+      "reason": "De Reader-documentcategorie is EPUB. Boeken vallen buiten het leesmenu; daarom expliciet uitgesloten zonder activerings- of onderbreekbaarheidsscores te verzinnen."
     },
     "01j29d3477vpv22gsyz7y1zrp7": {
       "status": "rejected",
       "confidence": "high",
-      "rubricVersion": "reading-profile-v1",
+      "rubricVersion": "reading-profile-v2",
       "sourceFingerprint": "8612c8094f97ef6f8325c9350805acefe3bef6d370cc7da30f09bc01707bc832",
       "evidenceFingerprint": "71777f518d07bb0c10800484e8d233a9291782eaf633d38830c2624c6769244d",
       "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
-      "judgedBy": "codex-reading-profile-review-2026-10-12",
-      "judgedAt": "2026-10-12T12:00:00Z",
+      "judgedBy": "codex-semantic-reading-profile-v2-batch-001",
+      "judgedAt": "2026-10-14T10:28:04.291392Z",
       "evidenceRefs": [
-        "summary",
-        "notes"
+        "metadata:category"
       ],
-      "reason": "Boek/EPUB valt buiten de leesprofielen; de Reader-categorie bepaalt de uitsluiting."
+      "reason": "De Reader-documentcategorie is EPUB. Boeken vallen buiten het leesmenu; daarom expliciet uitgesloten zonder activerings- of onderbreekbaarheidsscores te verzinnen."
     },
     "01j29d329ferdddmnja3ywxwye": {
       "status": "rejected",
       "confidence": "high",
-      "rubricVersion": "reading-profile-v1",
+      "rubricVersion": "reading-profile-v2",
       "sourceFingerprint": "000ca16e13a70ffd5f2db1f59a6e0f72e44ec1a337db1f4744d5423e1e24f62d",
       "evidenceFingerprint": "95982a659998ec571361202854cbe6f48c1b4fae4b3bd5a8b60c782e26007928",
       "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
-      "judgedBy": "codex-reading-profile-review-2026-10-12",
-      "judgedAt": "2026-10-12T12:00:00Z",
+      "judgedBy": "codex-semantic-reading-profile-v2-batch-001",
+      "judgedAt": "2026-10-14T10:28:04.291392Z",
       "evidenceRefs": [
-        "summary",
-        "notes"
+        "metadata:category"
       ],
-      "reason": "Boek/EPUB valt buiten de leesprofielen; de Reader-categorie bepaalt de uitsluiting."
+      "reason": "De Reader-documentcategorie is EPUB. Boeken vallen buiten het leesmenu; daarom expliciet uitgesloten zonder activerings- of onderbreekbaarheidsscores te verzinnen."
     },
     "01j29b7xf9vas2b7q4308ts4bb": {
       "status": "rejected",
       "confidence": "high",
-      "rubricVersion": "reading-profile-v1",
+      "rubricVersion": "reading-profile-v2",
       "sourceFingerprint": "9ab68b231e82a37f80c4a4f7c0ce3bc7f29c27635f3d129849abc13731e5e4b3",
       "evidenceFingerprint": "c3dc5f5e7fcc32a4e8e64866ff3b80643a20459267aaa65830f7fbd11803c9a2",
       "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
-      "judgedBy": "codex-reading-profile-review-2026-10-12",
-      "judgedAt": "2026-10-12T12:00:00Z",
+      "judgedBy": "codex-semantic-reading-profile-v2-batch-001",
+      "judgedAt": "2026-10-14T10:28:04.291392Z",
       "evidenceRefs": [
-        "summary",
-        "notes"
+        "metadata:category"
       ],
-      "reason": "Boek/EPUB valt buiten de leesprofielen; de Reader-categorie bepaalt de uitsluiting."
+      "reason": "De Reader-documentcategorie is EPUB. Boeken vallen buiten het leesmenu; daarom expliciet uitgesloten zonder activerings- of onderbreekbaarheidsscores te verzinnen."
     },
     "01j29b7vnf4wt6n264dxs18wem": {
       "status": "rejected",
       "confidence": "high",
-      "rubricVersion": "reading-profile-v1",
+      "rubricVersion": "reading-profile-v2",
       "sourceFingerprint": "cdcebcee20916a1eddcb88fda60c9a38a983b46723661751f26b00c30b553e3b",
       "evidenceFingerprint": "266a7509b273013f3b9749e13ab7fd797fc1e808eb06cd621c5afa242da1e5e9",
       "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
-      "judgedBy": "codex-reading-profile-review-2026-10-12",
-      "judgedAt": "2026-10-12T12:00:00Z",
+      "judgedBy": "codex-semantic-reading-profile-v2-batch-001",
+      "judgedAt": "2026-10-14T10:28:04.291392Z",
       "evidenceRefs": [
-        "summary",
-        "notes"
+        "metadata:category"
       ],
-      "reason": "Boek/EPUB valt buiten de leesprofielen; de Reader-categorie bepaalt de uitsluiting."
+      "reason": "De Reader-documentcategorie is EPUB. Boeken vallen buiten het leesmenu; daarom expliciet uitgesloten zonder activerings- of onderbreekbaarheidsscores te verzinnen."
     },
     "01j29b7tpmzr9ms5g74w2v2s5s": {
       "status": "rejected",
       "confidence": "high",
-      "rubricVersion": "reading-profile-v1",
+      "rubricVersion": "reading-profile-v2",
       "sourceFingerprint": "48f7d7a97a8ac5e50c375d74513493b303ca7dc20272e62dce839cb937b8bef5",
       "evidenceFingerprint": "abef250c69e0294acce2fe880d034cfd13293112dc6f2cba37f5cc1fd7059887",
       "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
-      "judgedBy": "codex-reading-profile-review-2026-10-12",
-      "judgedAt": "2026-10-12T12:00:00Z",
+      "judgedBy": "codex-semantic-reading-profile-v2-batch-001",
+      "judgedAt": "2026-10-14T10:28:04.291392Z",
       "evidenceRefs": [
-        "summary",
-        "notes"
+        "metadata:category"
       ],
-      "reason": "Boek/EPUB valt buiten de leesprofielen; de Reader-categorie bepaalt de uitsluiting."
+      "reason": "De Reader-documentcategorie is EPUB. Boeken vallen buiten het leesmenu; daarom expliciet uitgesloten zonder activerings- of onderbreekbaarheidsscores te verzinnen."
     },
     "01j29b7stf12s2wpwzqdtfzme7": {
       "status": "rejected",
       "confidence": "high",
-      "rubricVersion": "reading-profile-v1",
+      "rubricVersion": "reading-profile-v2",
       "sourceFingerprint": "57e0bb57e3a0a109b3d16ff1de389669469b1f18ed7fb3aa147cd0fa62df6a86",
       "evidenceFingerprint": "6ca2a3f1641b836222aeb46cc4bea7c61c4bdc8bb47fc6370c1f1037690c7210",
       "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
-      "judgedBy": "codex-reading-profile-review-2026-10-12",
-      "judgedAt": "2026-10-12T12:00:00Z",
+      "judgedBy": "codex-semantic-reading-profile-v2-batch-001",
+      "judgedAt": "2026-10-14T10:28:04.291392Z",
       "evidenceRefs": [
-        "summary",
-        "notes"
+        "metadata:category"
       ],
-      "reason": "Boek/EPUB valt buiten de leesprofielen; de Reader-categorie bepaalt de uitsluiting."
+      "reason": "De Reader-documentcategorie is EPUB. Boeken vallen buiten het leesmenu; daarom expliciet uitgesloten zonder activerings- of onderbreekbaarheidsscores te verzinnen."
     },
     "01j29b7rm4eskpwwc52cxc3029": {
       "status": "rejected",
       "confidence": "high",
-      "rubricVersion": "reading-profile-v1",
+      "rubricVersion": "reading-profile-v2",
       "sourceFingerprint": "43262986076437a0550c21d5e59190c89832e38e2c7299cc58c6c7afa723045e",
       "evidenceFingerprint": "4814c8430f9851d60f870cc26a2f2a3671420a4bfc07e44cff70a6451f36f911",
       "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
-      "judgedBy": "codex-reading-profile-review-2026-10-12",
-      "judgedAt": "2026-10-12T12:00:00Z",
+      "judgedBy": "codex-semantic-reading-profile-v2-batch-001",
+      "judgedAt": "2026-10-14T10:28:04.291392Z",
       "evidenceRefs": [
-        "summary",
-        "notes"
+        "metadata:category"
       ],
-      "reason": "Boek/EPUB valt buiten de leesprofielen; de Reader-categorie bepaalt de uitsluiting."
+      "reason": "De Reader-documentcategorie is EPUB. Boeken vallen buiten het leesmenu; daarom expliciet uitgesloten zonder activerings- of onderbreekbaarheidsscores te verzinnen."
     },
     "01j29b7q4wm936424r1keh3kz8": {
       "status": "rejected",
       "confidence": "high",
-      "rubricVersion": "reading-profile-v1",
+      "rubricVersion": "reading-profile-v2",
       "sourceFingerprint": "041625b515f5161633ed5ae72d13869b3baf8f0424fd4450e0779cf8d3c21f6b",
       "evidenceFingerprint": "4f731af3be8e310b1d8fc183579d65522c59adb7c83e12e9f339fd09fea826f7",
       "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
-      "judgedBy": "codex-reading-profile-review-2026-10-12",
-      "judgedAt": "2026-10-12T12:00:00Z",
+      "judgedBy": "codex-semantic-reading-profile-v2-batch-001",
+      "judgedAt": "2026-10-14T10:28:04.291392Z",
       "evidenceRefs": [
-        "summary",
-        "notes"
+        "metadata:category"
       ],
-      "reason": "Boek/EPUB valt buiten de leesprofielen; de Reader-categorie bepaalt de uitsluiting."
+      "reason": "De Reader-documentcategorie is EPUB. Boeken vallen buiten het leesmenu; daarom expliciet uitgesloten zonder activerings- of onderbreekbaarheidsscores te verzinnen."
     },
     "01j29b7mexjf9xsbecg5fyme08": {
       "status": "rejected",
       "confidence": "high",
-      "rubricVersion": "reading-profile-v1",
+      "rubricVersion": "reading-profile-v2",
       "sourceFingerprint": "d6469c0ec6e9935a8f92e0a8395438d67dea42d3edd1e2c46876192d2201e86a",
       "evidenceFingerprint": "4c84e8fa7c7fef1794e5625dfba26cccb819a52fc342a5e137b99c55b888a396",
       "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
-      "judgedBy": "codex-reading-profile-review-2026-10-12",
-      "judgedAt": "2026-10-12T12:00:00Z",
+      "judgedBy": "codex-semantic-reading-profile-v2-batch-001",
+      "judgedAt": "2026-10-14T10:28:04.291392Z",
       "evidenceRefs": [
-        "summary",
-        "notes"
+        "metadata:category"
       ],
-      "reason": "Boek/EPUB valt buiten de leesprofielen; de Reader-categorie bepaalt de uitsluiting."
+      "reason": "De Reader-documentcategorie is EPUB. Boeken vallen buiten het leesmenu; daarom expliciet uitgesloten zonder activerings- of onderbreekbaarheidsscores te verzinnen."
     },
     "01j29arv27jhq09z72ajwp9kjy": {
       "status": "rejected",
       "confidence": "high",
-      "rubricVersion": "reading-profile-v1",
+      "rubricVersion": "reading-profile-v2",
       "sourceFingerprint": "cd06c8d0a5cfba5598eb76218423fce75bcf4b09014e5bdbb66a55b27cfc4bee",
       "evidenceFingerprint": "09d62d846fb3f0b6eb647e4ccfb3d96afdab1c151002da02b03c611feefd83ca",
       "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
-      "judgedBy": "codex-reading-profile-review-2026-10-12",
-      "judgedAt": "2026-10-12T12:00:00Z",
+      "judgedBy": "codex-semantic-reading-profile-v2-batch-001",
+      "judgedAt": "2026-10-14T10:28:04.291392Z",
       "evidenceRefs": [
-        "summary",
-        "notes"
+        "metadata:category"
       ],
-      "reason": "Boek/EPUB valt buiten de leesprofielen; de Reader-categorie bepaalt de uitsluiting."
+      "reason": "De Reader-documentcategorie is EPUB. Boeken vallen buiten het leesmenu; daarom expliciet uitgesloten zonder activerings- of onderbreekbaarheidsscores te verzinnen."
     },
     "01j28vse5rr7e97cxrbf3jh4h1": {
       "status": "rejected",
       "confidence": "high",
-      "rubricVersion": "reading-profile-v1",
+      "rubricVersion": "reading-profile-v2",
       "sourceFingerprint": "1708a334cbd967b69bac5f07486a183ed4464fb85c83d5418a03449ad5d1a89e",
       "evidenceFingerprint": "37f2ba7f680e1483f1f71768b221dc4e6b0ec30fd6a4f64e0ff445e5805aae97",
       "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
-      "judgedBy": "codex-reading-profile-review-2026-10-12",
-      "judgedAt": "2026-10-12T12:00:00Z",
+      "judgedBy": "codex-semantic-reading-profile-v2-batch-001",
+      "judgedAt": "2026-10-14T10:28:04.291392Z",
       "evidenceRefs": [
-        "summary",
-        "notes"
+        "metadata:category"
       ],
-      "reason": "Boek/EPUB valt buiten de leesprofielen; de Reader-categorie bepaalt de uitsluiting."
+      "reason": "De Reader-documentcategorie is EPUB. Boeken vallen buiten het leesmenu; daarom expliciet uitgesloten zonder activerings- of onderbreekbaarheidsscores te verzinnen."
     },
     "01j28vsd63175zdak33c46ccey": {
       "status": "rejected",
       "confidence": "high",
-      "rubricVersion": "reading-profile-v1",
+      "rubricVersion": "reading-profile-v2",
       "sourceFingerprint": "8cedc5720437804cce72ec05590b341bc53275319b4b27e5a6605ab799d5b765",
       "evidenceFingerprint": "6e7d62c3c4bea2b3c1ca59bbddb3356d20918d1fa1fcfaf3855e36823052087f",
       "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
-      "judgedBy": "codex-reading-profile-review-2026-10-12",
-      "judgedAt": "2026-10-12T12:00:00Z",
+      "judgedBy": "codex-semantic-reading-profile-v2-batch-001",
+      "judgedAt": "2026-10-14T10:28:04.291392Z",
       "evidenceRefs": [
-        "summary",
-        "notes"
+        "metadata:category"
       ],
-      "reason": "Boek/EPUB valt buiten de leesprofielen; de Reader-categorie bepaalt de uitsluiting."
+      "reason": "De Reader-documentcategorie is EPUB. Boeken vallen buiten het leesmenu; daarom expliciet uitgesloten zonder activerings- of onderbreekbaarheidsscores te verzinnen."
     },
     "01j28vk8x6dvbnv05fex4z13dz": {
       "status": "rejected",
       "confidence": "high",
-      "rubricVersion": "reading-profile-v1",
+      "rubricVersion": "reading-profile-v2",
       "sourceFingerprint": "f6e1b957bfea3327a93e11f86dd2d0cdb33d693487364c0f154c352a57dbf333",
       "evidenceFingerprint": "bf467b6b38594511fd039f809295df3297cce73d5d4c95be41216b451151d3da",
       "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
-      "judgedBy": "codex-reading-profile-review-2026-10-12",
-      "judgedAt": "2026-10-12T12:00:00Z",
+      "judgedBy": "codex-semantic-reading-profile-v2-batch-001",
+      "judgedAt": "2026-10-14T10:28:04.291392Z",
       "evidenceRefs": [
-        "summary",
-        "notes"
+        "metadata:category"
       ],
-      "reason": "Boek/EPUB valt buiten de leesprofielen; de Reader-categorie bepaalt de uitsluiting."
+      "reason": "De Reader-documentcategorie is EPUB. Boeken vallen buiten het leesmenu; daarom expliciet uitgesloten zonder activerings- of onderbreekbaarheidsscores te verzinnen."
     },
     "01j28vk7ysb2em2twbr7zmfv0b": {
       "status": "rejected",
       "confidence": "high",
-      "rubricVersion": "reading-profile-v1",
+      "rubricVersion": "reading-profile-v2",
       "sourceFingerprint": "3314419da1b9453bd36dba751be125503f37d72b6df2bd5aadcd1206cba84e5c",
       "evidenceFingerprint": "f61b552b5dbc92d0656b65f467b4aba9a1bd0ce04c3d410501aecc22c141bd1d",
       "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
-      "judgedBy": "codex-reading-profile-review-2026-10-12",
-      "judgedAt": "2026-10-12T12:00:00Z",
+      "judgedBy": "codex-semantic-reading-profile-v2-batch-001",
+      "judgedAt": "2026-10-14T10:28:04.291392Z",
       "evidenceRefs": [
-        "summary",
-        "notes"
+        "metadata:category"
       ],
-      "reason": "Boek/EPUB valt buiten de leesprofielen; de Reader-categorie bepaalt de uitsluiting."
+      "reason": "De Reader-documentcategorie is EPUB. Boeken vallen buiten het leesmenu; daarom expliciet uitgesloten zonder activerings- of onderbreekbaarheidsscores te verzinnen."
     },
     "01j28vk6sshcs4s85dctd96np2": {
       "status": "rejected",
       "confidence": "high",
-      "rubricVersion": "reading-profile-v1",
+      "rubricVersion": "reading-profile-v2",
       "sourceFingerprint": "4eba5c70e286ee3907fdcd82ce31b89a1c2fca68850e156f67ee3cc18ee4034d",
       "evidenceFingerprint": "ae1b9c81e8fe90d57ab1ea99fe4747f5c9339a247d312f12e1a148cb6a8e5e2c",
       "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
-      "judgedBy": "codex-reading-profile-review-2026-10-12",
-      "judgedAt": "2026-10-12T12:00:00Z",
+      "judgedBy": "codex-semantic-reading-profile-v2-batch-001",
+      "judgedAt": "2026-10-14T10:28:04.291392Z",
       "evidenceRefs": [
-        "summary",
-        "notes"
+        "metadata:category"
       ],
-      "reason": "Boek/EPUB valt buiten de leesprofielen; de Reader-categorie bepaalt de uitsluiting."
+      "reason": "De Reader-documentcategorie is EPUB. Boeken vallen buiten het leesmenu; daarom expliciet uitgesloten zonder activerings- of onderbreekbaarheidsscores te verzinnen."
     },
     "01j28vhxyk558cnpcqjsy3p80p": {
       "status": "rejected",
       "confidence": "high",
-      "rubricVersion": "reading-profile-v1",
+      "rubricVersion": "reading-profile-v2",
       "sourceFingerprint": "9eab92864ca9b5e0c893855da3f1afc092763473b60a2a2bb7422b5923e77ea8",
       "evidenceFingerprint": "aa4e72f4caef76cbd1199ed8a14aa0f97d727f123c2317d4da9256ba784625d1",
       "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
-      "judgedBy": "codex-reading-profile-review-2026-10-12",
-      "judgedAt": "2026-10-12T12:00:00Z",
+      "judgedBy": "codex-semantic-reading-profile-v2-batch-001",
+      "judgedAt": "2026-10-14T10:28:04.291392Z",
       "evidenceRefs": [
-        "summary",
-        "notes"
+        "metadata:category"
       ],
-      "reason": "Boek/EPUB valt buiten de leesprofielen; de Reader-categorie bepaalt de uitsluiting."
+      "reason": "De Reader-documentcategorie is EPUB. Boeken vallen buiten het leesmenu; daarom expliciet uitgesloten zonder activerings- of onderbreekbaarheidsscores te verzinnen."
     },
     "01hzhvwh05p9f4hf86ghy6pnyw": {
       "status": "accepted",
-      "confidence": "medium",
-      "rubricVersion": "reading-profile-v1",
+      "confidence": "high",
+      "rubricVersion": "reading-profile-v2",
       "sourceFingerprint": "529dcf4850ac1785e8e79cf1cda5fdfea8817f666c7e89d38b4fcba4140fa7f2",
-      "evidenceFingerprint": "d2e44142506fef261da3f4ebb40e7605b0e463878f0aeea4c089220ab3799f91",
+      "evidenceFingerprint": "9500f77f0350166148802ed156d5dbf0539a43af2659632cc2b29537871b9270",
       "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
-      "judgedBy": "codex-reading-profile-review-2026-10-13-inbox",
-      "judgedAt": "2026-10-13T12:00:00Z",
+      "judgedBy": "codex-semantic-reading-profile-v2-batch-001",
+      "judgedAt": "2026-10-14T10:28:04.291392Z",
       "evidenceRefs": [
-        "content",
-        "summary",
-        "tags"
+        "content"
       ],
-      "reason": "Eenvoudige energiebeheerchecklist met slaap, natuur en kleine gewoontes; praktische taakfocus in plaats van licht amusement.",
       "traits": {
         "effort": 1,
         "emotionalWeight": 0,
-        "tone": "rustig",
+        "tone": "zakelijk",
+        "activation": 2,
+        "interruptibility": 3,
         "needFit": {
-          "ontspannen": 2,
+          "ontspannen": 1,
           "afleiding": 1,
           "herkenning": 2,
-          "verkennen": 3,
+          "verkennen": 2,
           "verdieping": 1
         }
-      }
+      },
+      "reason": "De volledige tekst geeft eenvoudige uitleg, duidelijke lijsten en een concrete oefening. Energiepatronen registreren en een maand lang plannen en journalen zet aan tot actie en is matig activerend, ondanks weinig concentratie en emotionele zwaarte. De afzonderlijke delen zijn gemakkelijk te pauzeren en hervatten."
     },
     "01hzhvw6ytx5jnvzs4ppx7zc38": {
       "status": "accepted",
-      "confidence": "medium",
-      "rubricVersion": "reading-profile-v1",
+      "confidence": "high",
+      "rubricVersion": "reading-profile-v2",
       "sourceFingerprint": "a82d02962dfc1e33df28a06b4f08695add4a2273aca0c31549c911fc93ef20fa",
-      "evidenceFingerprint": "780c1bd8b7f7443f6367cf989a1827acc69354d40b3c7a7a098911a77d2edd6b",
+      "evidenceFingerprint": "8ee464da0b4a0ca4f48bb829251276ec08bce42d964dd579efa6fb50d8d759a4",
       "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
-      "judgedBy": "codex-reading-profile-review-2026-10-13-inbox",
-      "judgedAt": "2026-10-13T12:00:00Z",
+      "judgedBy": "codex-semantic-reading-profile-v2-batch-001",
+      "judgedAt": "2026-10-14T10:28:04.291392Z",
       "evidenceRefs": [
-        "content",
-        "summary",
-        "tags"
+        "content"
       ],
-      "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
       "traits": {
-        "effort": 3,
-        "emotionalWeight": 2,
-        "tone": "warm",
+        "effort": 1,
+        "emotionalWeight": 0,
+        "tone": "zakelijk",
+        "activation": 2,
+        "interruptibility": 4,
         "needFit": {
-          "ontspannen": 2,
-          "afleiding": 2,
+          "ontspannen": 1,
+          "afleiding": 1,
           "herkenning": 3,
           "verkennen": 3,
-          "verdieping": 3
+          "verdieping": 2
         }
-      }
+      },
+      "reason": "De volledige toegankelijke uitleg bestaat uit vijf zelfstandig herkenbare punten over energie, doel, gewoonten, beslissingen en monotasking. De praktische aansporingen tot veranderingen maken het stuk matig activerend, terwijl de emotionele belasting gering is. De genummerde delen passen bijzonder goed bij lezen in losse momenten."
     },
     "01hzhvtw596p747p5hysvhdndz": {
       "status": "accepted",
-      "confidence": "medium",
-      "rubricVersion": "reading-profile-v1",
+      "confidence": "high",
+      "rubricVersion": "reading-profile-v2",
       "sourceFingerprint": "a99fb576551fd9854eec792c84d147f52125a8cc12c8dc27a3f8d773e22ba158",
-      "evidenceFingerprint": "d26b2c193371a6f171e53d409797bbbce28b209ea8146a97c10f0556737fbaa5",
+      "evidenceFingerprint": "43566e72dbe9acc448d2d692413c72794270b842db8486e649f30765bc5e3e24",
       "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
-      "judgedBy": "codex-reading-profile-review-2026-10-13-inbox",
-      "judgedAt": "2026-10-13T12:00:00Z",
+      "judgedBy": "codex-semantic-reading-profile-v2-batch-001",
+      "judgedAt": "2026-10-14T10:28:04.291392Z",
       "evidenceRefs": [
-        "content",
-        "summary",
-        "tags"
+        "content"
       ],
-      "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
       "traits": {
-        "effort": 4,
-        "emotionalWeight": 2,
-        "tone": "speels",
+        "effort": 2,
+        "emotionalWeight": 1,
+        "tone": "zakelijk",
+        "activation": 3,
+        "interruptibility": 3,
         "needFit": {
-          "ontspannen": 1,
-          "afleiding": 3,
-          "herkenning": 3,
-          "verkennen": 2,
-          "verdieping": 3
-        }
-      }
-    },
-    "01hvgq17yct5zke2svk47k1148": {
-      "status": "accepted",
-      "confidence": "medium",
-      "rubricVersion": "reading-profile-v1",
-      "sourceFingerprint": "e02edb9f11ed61799ecab00c6c0a69136fb3ada2bb452e0971b2e56b613f6929",
-      "evidenceFingerprint": "56bfe9a7a613ff856bb9a5faf3587015360b3818759bfc58f3c01683badc1358",
-      "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
-      "judgedBy": "codex-reading-profile-review-2026-10-13-inbox",
-      "judgedAt": "2026-10-13T12:00:00Z",
-      "evidenceRefs": [
-        "content",
-        "summary",
-        "tags"
-      ],
-      "reason": "Volledige Reader-broninhoud is beschikbaar; inspanning, emotioneel gewicht, toon en behoeftefits zijn daarop beoordeeld.",
-      "traits": {
-        "effort": 3,
-        "emotionalWeight": 2,
-        "tone": "warm",
-        "needFit": {
-          "ontspannen": 2,
-          "afleiding": 2,
+          "ontspannen": 0,
+          "afleiding": 0,
           "herkenning": 3,
           "verkennen": 3,
           "verdieping": 3
         }
-      }
+      },
+      "reason": "De volledige managementanalyse combineert een bedrijfsstudie, vier energiedimensies en uitgewerkte interventies. Dat vraagt aandacht en zet aan tot het doorlichten en veranderen van werkrituelen, waarden en organisatiebeleid. Overbelasting wordt constructief besproken zonder zware confrontatie. De thematische delen en casussen zijn goed hervatbaar, maar niet volledig losstaand."
+    },
+    "01hvgq17yct5zke2svk47k1148": {
+      "status": "accepted",
+      "confidence": "high",
+      "rubricVersion": "reading-profile-v2",
+      "sourceFingerprint": "e02edb9f11ed61799ecab00c6c0a69136fb3ada2bb452e0971b2e56b613f6929",
+      "evidenceFingerprint": "91c5a4a4fcd55eac1219feea8ac13ce9baad9392cef5912d25aee8993b419c87",
+      "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
+      "judgedBy": "codex-semantic-reading-profile-v2-batch-001",
+      "judgedAt": "2026-10-14T10:28:04.291392Z",
+      "evidenceRefs": [
+        "content"
+      ],
+      "traits": {
+        "effort": 1,
+        "emotionalWeight": 1,
+        "tone": "warm",
+        "activation": 1,
+        "interruptibility": 3,
+        "needFit": {
+          "ontspannen": 3,
+          "afleiding": 2,
+          "herkenning": 4,
+          "verkennen": 3,
+          "verdieping": 2
+        }
+      },
+      "reason": "Het volledige essay gebruikt herkenbare persoonlijke voorbeelden en een geruststellende benadering van energielekken en zelfkritiek. Zelfcompassie en rustig waarnemen staan centraal; reflectie activeert slechts mild. De helder afgebakende delen zijn gemakkelijk te hervatten, al bouwen ze voort op hetzelfde uitgangspunt."
     },
     "01m4mxbqftj1d6h8q7xvrq4xm4": {
       "status": "accepted",
