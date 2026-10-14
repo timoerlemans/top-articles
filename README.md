@@ -232,10 +232,10 @@ npm run priority:judge -- ensure-fallback --all-later # registreert ontbrekende 
 npm run build   # haalt actuele later-data op en schrijft data/data.js + data/score.js
 npm run priority:interest-report # read-only v6→v8-impactrapport in .tmp/readwise/
 npm run priority:topic-report # read-only v7→v8-topic-impactrapport in .tmp/readwise/
-npm run archive:lees:plan -- --output .tmp/readwise/archive-lees-plan.json
-PLAN_HASH=$(jq -r '.planHash' .tmp/readwise/archive-lees-plan.json)
-npm run archive:lees:apply -- --plan .tmp/readwise/archive-lees-plan.json --confirm "$PLAN_HASH"
-npm run archive:lees:verify -- --plan .tmp/readwise/archive-lees-plan.json
+npm run archive:plan -- --output .tmp/readwise/archive-plan.json
+PLAN_HASH=$(jq -r '.planHash' .tmp/readwise/archive-plan.json)
+npm run archive:apply -- --plan .tmp/readwise/archive-plan.json --confirm "$PLAN_HASH"
+npm run archive:verify -- --plan .tmp/readwise/archive-plan.json
 npm run archive:cleanup:plan -- --output .tmp/readwise/archive-cleanup-plan.json
 PLAN_HASH=$(jq -r '.planHash' .tmp/readwise/archive-cleanup-plan.json)
 npm run archive:cleanup:apply -- --plan .tmp/readwise/archive-cleanup-plan.json --confirm "$PLAN_HASH"
@@ -276,23 +276,22 @@ nieuwe topic-scores en maakt fallback-confidence zichtbaar.
 De archive-cleanup-flow is archive-only en verwijdert uitsluitend ordinale/toplijsttags en
 `light-reading`; inhoudstags, taaltags en curatietags blijven behouden. Het plan heeft een
 bevestigingshash en live bronfingerprint. `.github/workflows/archive-cleanup.yml` voert dezelfde
-plan/apply/verify-flow uit na de lees-archive-workflow (of na een handmatige start daarvan).
+plan/apply/verify-flow uit na de algemene archive-workflow.
 
-De lees-archive-flow verplaatst alleen `later`-documenten met een canonieke `lees-0001`-achtige
-tag die niet beschermd zijn door een actuele canonieke top-100-tag of door de berekende v8-top-100.
-Documenten met de tag `want-to-read` blijven altijd in `later`, ongeacht hun top-100-positie. De flow
-wijzigt geen tags en gebruikt een eigen plan/journal. De workflow volgt automatisch op de data-refresh
-en is ook handmatig te starten.
+De algemene archive-flow verwerkt alle `later`-documenten en beschermt uitsluitend canonieke
+familie-top-100-lidmaatschappen en `want-to-read`. `Consensus`, `Nieuw`, `Tijdloos`, `must-read` en
+`shortlist` beschermen niet. De flow wijzigt geen tags en gebruikt een eigen plan/journal.
 
 Open daarna `index.html` direct in de browser (geen webserver nodig).
 
 ## Automatisch verversen
 
-`.github/workflows/priority-sync.yml` start dagelijks om 04:00 UTC de keten voor tag-synchronisatie,
-data-refresh, lees-archivering en archive-cleanup. Elke stap start alleen na een succesvolle vorige
-stap; de workflows blijven ook handmatig te starten. De refresh-workflow verstuurt daarna de top-1-mail.
-De core-interest-mail behoudt zijn eigen schema. Start de keten handmatig met
-`gh workflow run priority-sync.yml`. Vereist een repo-secret `READWISE_TOKEN`
+`.github/workflows/priority-sync.yml` start dagelijks om 04:00 UTC de keten voor auteurstags en
+priority-sync. Daarna volgen alleen na succes de algemene archive-flow, archive-cleanup en de
+finale refresh/publicatie. Alleen de root-workflow is handmatig dispatchbaar; gebruik voor een
+expliciete run een unieke `request_id`, waarna de child-runs via `workflow_run` automatisch volgen.
+De refresh-workflow verstuurt daarna de bestaande top-1-mail. De core-interest-mail behoudt zijn
+eigen schema. Vereist een repo-secret `READWISE_TOKEN`
 (token ophalen via https://readwise.io/access_token):
 
 ```bash

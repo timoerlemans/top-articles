@@ -81,15 +81,45 @@ Gebruik `--cleanup-all` alleen op expliciet verzoek. De scope moet in plan, appl
 
 ### GitHub-workflow dispatch
 
-Start de remote keten uitsluitend wanneer de gebruiker daar expliciet om vraagt:
+Start de remote keten uitsluitend wanneer de gebruiker daar expliciet om vraagt. Gewone inspectie,
+`skills:check`, lokale planning of lokale skillruns dispatchen nooit een workflow. Dispatch alleen
+de root-workflow; de overige workflows worden native gestart door een geslaagde `workflow_run`:
+`priority-sync -> general archive -> archive cleanup -> refresh/publication`.
 
 ```bash
-gh workflow run priority-sync.yml
-gh run list --workflow priority-sync.yml --limit 1
-gh run watch <run-id> --exit-status
+REQUEST_ID="manual-$(date -u +%Y%m%dT%H%M%SZ)-$$"
+gh workflow run priority-sync.yml --ref main --field request_id="$REQUEST_ID"
+ROOT_RUN_ID=$(until gh run list --workflow priority-sync.yml --event workflow_dispatch --branch main --limit 20 \
+  --json databaseId,displayTitle,createdAt \
+  --jq --arg id "$REQUEST_ID" 'map(select(.displayTitle | contains($id))) | sort_by(.createdAt) | last | .databaseId // empty' \
+  | grep -E '^[0-9]+$'; do sleep 5; done)
+gh run watch "$ROOT_RUN_ID" --exit-status
 ```
 
-Controleer de uiteindelijke runstatus én de gepubliceerde commit. Een dispatch is niet hetzelfde als een lokale plan/apply/verify en een groene eerste stap bewijst de rest van de keten niet.
+Volg daarna steeds de exacte child-run waarvan de `displayTitle` de vorige run-ID bevat; kies nooit
+een willekeurige recente succesvolle run:
+
+```bash
+PARENT_RUN_ID="$ROOT_RUN_ID"
+for WORKFLOW in archive-lees.yml archive-cleanup.yml refresh.yml; do
+  CHILD_RUN_ID=$(until gh run list --workflow "$WORKFLOW" --event workflow_run --limit 50 \
+    --json databaseId,displayTitle,createdAt \
+    --jq --arg parent "$PARENT_RUN_ID" 'map(select(.displayTitle | contains($parent))) | sort_by(.createdAt) | last | .databaseId // empty' \
+    | grep -E '^[0-9]+$'; do sleep 5; done)
+  gh run watch "$CHILD_RUN_ID" --exit-status
+  PARENT_RUN_ID="$CHILD_RUN_ID"
+done
+```
+
+Download per run het artifact `readwise-maintenance-{root|archive|cleanup|refresh}-<run-id>`
+en lees `maintenance-run.json`, het plan/journal en de run-URL. Rapporteer per stap run-ID,
+link, status, gerelateerde parent-ID, gebruikte checkout-SHA en document-/operatieaantallen.
+Een root-success met archive-, cleanup- of refresh-failure is gedeeltelijk succes; een queued,
+in-progress of ontbrekende child blijft expliciet onvoltooid. Claim de gehele keten pas na een
+geslaagde refresh/publicatie en controle van de actuele `data/data.js`/`data/score.js`-integriteit.
+De workflowcontext-artifacts verwerken automatische repository-commits; een branch-tip of
+willekeurige recente run is geen vervanging. De remote route gebruikt de automatische
+planbevestiging binnen GitHub Actions en verleent geen impliciete lokale mutatie-autorisatie.
 
 ## Grenzen
 

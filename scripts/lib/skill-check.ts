@@ -84,6 +84,9 @@ const REFERENCE_ANCHORS = [
   "readwise:priority-sync",
   "authors -> priority -> archive -> cleanup -> build",
   "bronfingerprints",
+  "request_id",
+  "workflow_run",
+  "maintenance-run.json",
 ] as const;
 
 const ENRICHMENT_SKILL_CONTRACTS: Readonly<Record<string, readonly string[]>> = {
@@ -120,7 +123,7 @@ const TRIAGE_ROUTING_SKILL_CONTRACTS: Readonly<Record<string, readonly string[]>
 };
 
 const MAINTENANCE_SKILL_CONTRACTS: Readonly<Record<string, readonly string[]>> = {
-  "readwise-priority-sync": ["readwise:priority-sync", "authors -> priority -> archive -> cleanup -> build", "exacte planhash", "bronfingerprints"],
+  "readwise-priority-sync": ["readwise:priority-sync", "authors -> priority -> archive -> cleanup -> build", "exacte planhash", "bronfingerprints", "request_id", "workflow_run", "maintenance-run.json", "gedeeltelijk succes"],
   "readwise-reorder": ["readwise-priority-sync", "exacte planhash", "geen stille uitzondering"],
 };
 

@@ -49,6 +49,18 @@ ordinale/toplijsttags en behoudt inhouds-, curatoriale en `want-to-read`-tags. J
 bronfingerprints, bounded batches en losse add/remove-fallbacks blijven de bron van waarheid voor
 hervatting en tagbehoud.
 
+## Remote onderhoudsketen
+
+De GitHub-route start alleen op expliciet verzoek via `gh workflow run priority-sync.yml` met een
+unieke `request_id`. De native vervolgstappen zijn loopvrij via `workflow_run`: de geslaagde root-run start algemene
+archivering, die start archive-cleanup, die start de finale refresh/publicatie. Iedere child-run
+neemt de exacte parent-run-ID op in de `displayTitle` en publiceert `maintenance-run.json` met de
+gerelateerde commit-SHA; automatische commits worden dus meegenomen zonder een willekeurige
+branch-tip te kiezen. De skill volgt deze parent-child-correlatie en behandelt een ontbrekende,
+lopende of mislukte vervolgstap als onvoltooid/gedeeltelijk succes. Een lokale inspectie of skillrun
+dispatcht nooit de remote workflow en remote automatische bevestiging verleent geen lokale
+mutatie-autorisatie.
+
 ## V2 verrijkingscontract: bron, evidence, privacy en hervatting
 
 Dit contract geldt voor `readwise-enrich`, `readwise-summarize`, `readwise-book-study` en elke andere skill die Reader-inhoud analyseert. Een skill mag dit contract niet vervangen door oudere voorbeelden of een vaste pass-teller.

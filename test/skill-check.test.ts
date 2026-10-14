@@ -15,7 +15,7 @@ async function writeCheckFixture(root: string): Promise<void> {
   await mkdir(skillRoot, { recursive: true });
   await writeFile(
     join(skillRoot, "readwise-reference.md"),
-    "SEQUENCE_ORDER FAMILY_DEFINITIONS readwise-priority-v8 config/readwise-reading-preferences.md reader-list-documents reader-bulk-edit-document-metadata want-to-read readwise:priority-sync authors -> priority -> archive -> cleanup -> build exacte planhash bronfingerprints geen stille uitzondering V2 verrijkingscontract V2 triageroutering V2 reviewonderhoud bronstatus pipeline-managed Runmanifest doelpagina",
+    "SEQUENCE_ORDER FAMILY_DEFINITIONS readwise-priority-v8 config/readwise-reading-preferences.md reader-list-documents reader-bulk-edit-document-metadata want-to-read readwise:priority-sync authors -> priority -> archive -> cleanup -> build exacte planhash bronfingerprints request_id workflow_run maintenance-run.json gedeeltelijk succes geen stille uitzondering V2 verrijkingscontract V2 triageroutering V2 reviewonderhoud bronstatus pipeline-managed Runmanifest doelpagina",
     "utf8",
   );
   for (const skill of MANAGED_READWISE_SKILLS) {
@@ -36,7 +36,7 @@ async function writeCheckFixture(root: string): Promise<void> {
         ? "V2 inboxcontract location=new source_status runmanifest doelpagina één verantwoordelijke linkpass"
         : "";
     const maintenanceContract = skill === "readwise-priority-sync"
-      ? "readwise:priority-sync authors -> priority -> archive -> cleanup -> build exacte planhash bronfingerprints"
+      ? "readwise:priority-sync authors -> priority -> archive -> cleanup -> build exacte planhash bronfingerprints request_id workflow_run maintenance-run.json gedeeltelijk succes"
       : skill === "readwise-reorder"
         ? "readwise-priority-sync exacte planhash geen stille uitzondering"
         : "";
