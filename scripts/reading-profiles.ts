@@ -79,7 +79,7 @@ async function main(): Promise<void> {
       await writeFile(reportPath, `${JSON.stringify(coverage, null, 2)}\n`, "utf8");
       console.log(`Rapport: ${reportPath}`);
     }
-    if (flags.includes("--require-all-reviewed") && (coverage.missing || coverage.stale || coverage.incomplete)) { throw new Error("Niet alle huidige documenten hebben een actuele beoordeling"); }
+    if (flags.includes("--require-all-reviewed") && coverage.toReview) { throw new Error("Niet alle huidige documenten hebben een actuele beoordeling"); }
     if (flags.includes("--activate-v2")) {
       if (snapshot.version !== 2 || !validMigration(snapshot, manifest)) { throw new Error("V2 activeren vereist een complete bevroren migratiesnapshot"); }
       await writeFile(configPath, JSON.stringify({ ...config, activeRubric: PROFILE_RUBRIC }, null, 2) + "\n");

@@ -115,7 +115,7 @@ test("profile coverage separates reused profiles, targeted reviews, and explicit
   assert.deepEqual(buildReadingProfileCoverage(evidence, config, preferences), {
     total: 4,
     reused: 1,
-    toReview: 2,
+    toReview: 1,
     incomplete: 0,
     accepted: 1,
     draft: 1,
@@ -123,6 +123,29 @@ test("profile coverage separates reused profiles, targeted reviews, and explicit
     missing: 1,
     stale: 0,
     newlyReviewed: 0,
+  });
+});
+
+test("explicit draft and rejected outcomes complete incomplete-source review", () => {
+  const preferences = "preferences";
+  const documents = [document("draft-partial"), document("rejected-partial")];
+  const [draftDocument, rejectedDocument] = documents;
+  if (!draftDocument || !rejectedDocument) { throw new Error("Fixture documents ontbreken"); }
+  const evidence = documents.map((doc) => ({
+    id: doc.id, sourceFingerprint: profileSourceFingerprint(doc),
+    evidenceFingerprint: fingerprint(`${doc.id}-evidence`), preferencesFingerprint: fingerprint(preferences), sourceStatus: "partial" as const,
+  }));
+  const profile = (doc: typeof documents[number], status: ReadingProfile["status"]): ReadingProfile => ({
+    status, confidence: "low", rubricVersion: PROFILE_RUBRIC,
+    sourceFingerprint: profileSourceFingerprint(doc), evidenceFingerprint: fingerprint(`${doc.id}-evidence`),
+    preferencesFingerprint: fingerprint(preferences), judgedBy: "reviewer", judgedAt: "2026-10-14T00:00:00Z",
+    evidenceRefs: ["summary"], reason: "Explicit outcome after source review",
+  });
+  assert.deepEqual(buildReadingProfileCoverage(evidence, { version: 1, items: {
+    "draft-partial": profile(draftDocument, "draft"),
+    "rejected-partial": profile(rejectedDocument, "rejected"),
+  } }, preferences), {
+    total: 2, reused: 0, toReview: 0, incomplete: 2, accepted: 0, draft: 1, rejected: 1, missing: 0, stale: 0, newlyReviewed: 0,
   });
 });
 

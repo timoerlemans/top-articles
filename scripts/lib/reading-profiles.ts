@@ -132,8 +132,6 @@ export function buildReadingProfileCoverage(
     report[profile.status] += 1;
     if (profile.status === "accepted") {
       report.reused += 1;
-    } else if (profile.status === "draft") {
-      report.toReview += 1;
     }
     if (newlyReviewed.has(entry.id)) { report.newlyReviewed += 1; }
   }
