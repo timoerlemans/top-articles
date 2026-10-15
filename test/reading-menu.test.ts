@@ -2,6 +2,7 @@ import assert from "node:assert/strict";
 import test from "node:test";
 import { startSession, transitionSession, refreshSession } from "../src/reading-menu.js";
 import type { MenuInputs, ReadingMoment, Mood } from "../src/reading-menu.js";
+import { situationDefaults } from "../src/reading-situations.js";
 import type { ArticleItem } from "../src/types/browser-data.js";
 import type { ReadingTraits } from "../src/reading-profiles.js";
 function article(id: string, minutes: number | null, category = "article"): ArticleItem {
@@ -62,6 +63,91 @@ test("read markers and low energy constrain every remaining course", () => {
   data.readIds = ["a"];
   data.profiles = { ...data.profiles, b: { ...light, effort: 2 } };
   assert.deepEqual(menu(data, { ...moment, energy: "weinig" }), [{ course: "voorgerecht", id: "c", minutes: 2 }]);
+});
+
+test("new reading situations expose the agreed defaults", () => {
+  assert.deepEqual(situationDefaults("bath"), { situation: "bath", budget: 20, energy: "weinig", need: "ontspannen", mood: null });
+  assert.deepEqual(situationDefaults("during-work"), { situation: "during-work", budget: 10, energy: "weinig", need: "afleiding", mood: null });
+  assert.deepEqual(situationDefaults("walking-listening"), { situation: "walking-listening", budget: 30, energy: "gemiddeld", need: "verkennen", mood: null });
+});
+
+test("during work only offers light, resumable work-related documents", () => {
+  const data = inputs();
+  data.catalog = [article("general", 2), article("development", 2), article("coaching", 2), article("interrupted", 2), article("active", 2)];
+  data.profiles = {
+    general: light,
+    development: light,
+    coaching: light,
+    interrupted: { ...light, interruptibility: 2 },
+    active: { ...light, activation: 2 },
+  };
+  data.scores = {
+    general: { score: 100, sequences: ["lees"] },
+    development: { score: 90, sequences: ["software-development"] },
+    coaching: { score: 80, sequences: ["social-studies"] },
+    interrupted: { score: 70, sequences: ["front-end-development"] },
+    active: { score: 60, sequences: ["scrum"] },
+  };
+  assert.deepEqual(menu(data, situationDefaults("during-work")).map(({ id }) => id), ["development", "coaching"]);
+});
+
+test("walking listening only offers low-effort text suitable for Reader TTS", () => {
+  const data = inputs();
+  data.catalog = [article("good", 2), article("pdf", 2, "pdf"), article("effortful", 2), article("activating", 2), article("continuous", 2), article("emotional", 6)];
+  data.profiles = {
+    good: light,
+    pdf: light,
+    effortful: { ...light, effort: 2 },
+    activating: { ...light, activation: 2 },
+    continuous: { ...light, interruptibility: 2 },
+    emotional: { ...light, emotionalWeight: 2 },
+  };
+  data.scores = {
+    good: { score: 90, sequences: ["lees"] },
+    pdf: { score: 80, sequences: ["pdf"] },
+    effortful: { score: 70, sequences: ["lees"] },
+    activating: { score: 60, sequences: ["lees"] },
+    continuous: { score: 50, sequences: ["lees"] },
+  };
+  for (const energy of ["gemiddeld", "veel"] as const) {
+    assert.deepEqual(menu(data, { ...situationDefaults("walking-listening"), energy }).map(({ id }) => id), ["good"]);
+  }
+  assert.ok(menu(data, { ...situationDefaults("walking-listening"), situation: null }, ["pdf", "effortful", "activating", "continuous"]).some(({ id }) => id === "emotional"));
+});
+
+test("bath requires low activation but allows an uninterrupted longer main course", () => {
+  const data: MenuInputs = {
+    catalog: [article("active", 6), article("calm", 12)],
+    profiles: { active: { ...light, activation: 2 }, calm: { ...light, interruptibility: 0 } },
+    scores: {}, readIds: [],
+  };
+  assert.deepEqual(menu(data, situationDefaults("bath")), [{ course: "hoofdgerecht", id: "calm", minutes: 12 }]);
+});
+
+for (const sequence of ["scrum", "software-development", "front-end-development", "social-studies"]) {
+  test(`during work admits ${sequence} and never falls back to general content`, () => {
+    const data: MenuInputs = {
+      catalog: [article("general", 2), article("work", 2)],
+      profiles: { general: light, work: light },
+      scores: { general: { score: 100, sequences: ["lees"] }, work: { score: 10, sequences: [sequence] } }, readIds: [],
+    };
+    const selected = situationDefaults("during-work");
+    assert.deepEqual(menu(data, selected).map(({ id }) => id), ["work"]);
+    assert.deepEqual(menu(data, selected, ["work"]), []);
+    assert.deepEqual(menu(data, { ...selected, situation: null }, ["work"]).map(({ id }) => id), ["general"]);
+  });
+}
+
+test("walking listening admits email, RSS and a longer main within the time budget", () => {
+  const data: MenuInputs = {
+    catalog: [article("email", 2, "email"), article("main", 20), article("rss", 3, "rss")],
+    profiles: { email: light, main: light, rss: light }, scores: {}, readIds: [],
+  };
+  assert.deepEqual(menu(data, situationDefaults("walking-listening")), [
+    { course: "voorgerecht", id: "email", minutes: 2 },
+    { course: "hoofdgerecht", id: "main", minutes: 20 },
+    { course: "nagerecht", id: "rss", minutes: 3 },
+  ]);
 });
 
 test("mood is soft and priority breaks equal fits before oldest date and ID", () => {

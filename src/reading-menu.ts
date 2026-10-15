@@ -1,7 +1,7 @@
 import { isShort } from "./reading-policy.js";
 import type { ArticleItem } from "./types/browser-data.js";
 import type { ReadingNeed, MenuTraits } from "./reading-profiles.js";
-import { fitsSituation, compareSituationFit } from "./reading-situations.js";
+import { fitsSituation, fitsSituationContent, compareSituationFit } from "./reading-situations.js";
 import type { SituationId } from "./reading-situations.js";
 export type Energy = "weinig" | "gemiddeld" | "veel";
 export const READING_MOODS = ["neutraal", "rustig", "nieuwsgierig", "vrolijk", "somber", "gespannen", "vol-hoofd"] as const;
@@ -60,7 +60,8 @@ export function planMenu(inputs: MenuInputs, moment: ReadingMoment, excluded: re
       && hasReaderLink(item.readwiseUrl)
       && !inputs.scores[item.id]?.sequences.includes("boek")
       && !item.tags.some((tag) => /^(books?|epub)$/i.test(tag))
-      && profile && fitsSituation(profile, moment.situation) && profile.needFit[moment.need] >= 2 && profile.effort <= cap && profile.emotionalWeight <= cap
+      && profile && fitsSituation(profile, moment.situation) && fitsSituationContent(profile, moment.situation, item.category, inputs.scores[item.id]?.sequences ?? [])
+      && profile.needFit[moment.need] >= 2 && profile.effort <= cap && profile.emotionalWeight <= cap
       && item.readingMinutes !== null && Number.isFinite(item.readingMinutes) && item.readingMinutes > 0;
   }).sort((a, b) => {
     const ap = inputs.profiles[a.id]; const bp = inputs.profiles[b.id];

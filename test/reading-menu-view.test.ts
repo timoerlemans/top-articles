@@ -528,6 +528,47 @@ const interruptedDefaults = [
   ["Onderweg in het ov", "20 min", "Gemiddeld", "Een frisse invalshoek"],
   ["Korte pauze tussendoor", "5 min", "Weinig", "Even iets anders"],
 ] as const;
+
+const newSituationDefaults = [
+  ["In bad", "20 min", "Weinig", "Licht & luchtig"],
+  ["Tijdens het werk", "10 min", "Weinig", "Even iets anders"],
+  ["Luisteren tijdens wandelen", "30 min", "Gemiddeld", "Een frisse invalshoek"],
+] as const;
+for (const [situation, budget, energy, need] of newSituationDefaults) {
+  test(`${situation} applies defaults and restores its selection from session storage`, () => {
+    withDom((root) => {
+      const { data, priority } = fixture();
+      for (const item of Object.values(priority.items)) { item.sequences = ["software-development"]; }
+      mountReadingMenu(root as unknown as HTMLElement, data, priority);
+      choose(root, "Somber"); choose(root, situation);
+      for (const label of [situation, budget, energy, need, "Geen voorkeur"]) {
+        assert.equal(byText(root, "button", label)?.getAttribute("aria-pressed"), "true");
+      }
+      assert.ok(byClass(root, "reading-settings-summary")[0]?.textContent.includes(situation));
+      assert.equal(byClass(root, "reading-course-title")[0]?.textContent, "Artikel a");
+      choose(root, "Gelezen, volgende gang");
+      mountReadingMenu(root as unknown as HTMLElement, data, priority);
+      assert.equal(byText(root, "button", situation)?.getAttribute("aria-pressed"), "true");
+      assert.ok(root.textContent.includes("3 min bevestigd gelezen"));
+      assert.ok(byClass(root, "reading-course-title").every(el => el.textContent !== "Artikel a"));
+    });
+  });
+}
+
+test("work keeps its topic restriction after adjustments and offers custom settings when empty", () => {
+  withDom((root) => {
+    const { data, priority } = fixture();
+    mountReadingMenu(root as unknown as HTMLElement, data, priority);
+    choose(root, "Tijdens het werk");
+    assert.equal(byClass(root, "reading-course-card").length, 0);
+    choose(root, "Pas je leesmoment aan"); choose(root, "Veel"); choose(root, "30 min");
+    assert.equal(byClass(root, "reading-course-card").length, 0);
+    assert.equal(byText(root, "button", "Tijdens het werk")?.getAttribute("aria-pressed"), "true");
+    choose(root, "Zelf samenstellen");
+    assert.ok(byClass(root, "reading-course-card").length > 0);
+  });
+});
+
 for (const [situation, budget, energy, need] of interruptedDefaults) {
   test(`${situation} applies complete defaults without inferring an anxious mood`, () => {
     withDom((root) => {

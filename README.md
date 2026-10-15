@@ -347,6 +347,22 @@ Behoeftefit blijft leidend, gevolgd door hogere onderbreekbaarheid en de bestaan
 stemming/prioriteitsvolgorde. Aanpassen verruimt deze eis niet; Zelf samenstellen
 verwijdert haar expliciet. Ook de wachtkamer neemt geen stemming aan.
 
+In bad begint met 20 minuten, weinig energie en Licht & luchtig, met activering
+maximaal 1. Tijdens het werk begint met 10 minuten, weinig energie en Even iets
+anders, met activering maximaal 1 en onderbreekbaarheid minimaal 3. Iedere gang
+moet daarbij horen bij Agile (inclusief teamcoaching), Software development,
+Front-end development of Sociale studies & samenwerking. Als niets past blijft
+het menu leeg; algemene artikelen worden niet als vervanging aangeboden.
+
+Luisteren tijdens wandelen begint met 30 minuten, gemiddelde energie en Een frisse
+invalshoek. Voor Reader/TTS gebruikt deze situatie een conservatieve selectie uit
+artikelen, e-mails en RSS: inspanning, emotioneel gewicht en activering maximaal 1,
+onderbreekbaarheid minimaal 3. PDF's worden uitgesloten. Dit is een benadering van
+luistergeschiktheid op basis van bestaande profielen, geen afzonderlijke beoordeling
+van visuele afhankelijkheid. Open het voorstel in Reader en start daar het voorlezen.
+Ook deze drie situaties nemen geen stemming aan. Aanpassen behoudt de extra eisen;
+Zelf samenstellen verwijdert ze.
+
 Leesprofielen staan afzonderlijk in `config/readwise-reading-profiles.json`. De
 inbox-workflow onderhoudt ze naast de prioriteitsbeoordelingen. Voor een afzonderlijke
 read-only beoordeling van Later:
