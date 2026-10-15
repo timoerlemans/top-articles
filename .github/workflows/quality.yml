@@ -1,0 +1,82 @@
+name: Code quality and repository security
+
+on:
+  push:
+    paths:
+      - ".github/scripts/**"
+      - ".github/quality/**"
+      - ".github/workflows/quality.yml"
+      - ".github/workflows/site-quality.yml"
+      - "quality/**"
+      - "src/**"
+      - "scripts/**"
+      - "test/**"
+      - "data/**"
+      - "config/**"
+      - "index.html"
+      - "styles.css"
+      - "package.json"
+      - "package-lock.json"
+      - ".trivyignore"
+  pull_request:
+    paths:
+      - ".github/scripts/**"
+      - ".github/quality/**"
+      - ".github/workflows/quality.yml"
+      - ".github/workflows/site-quality.yml"
+      - "quality/**"
+      - "src/**"
+      - "scripts/**"
+      - "test/**"
+      - "data/**"
+      - "config/**"
+      - "index.html"
+      - "styles.css"
+      - "package.json"
+      - "package-lock.json"
+      - ".trivyignore"
+
+permissions:
+  contents: read
+
+concurrency:
+  group: quality-${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  quality:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: npm
+
+      - name: Install project dependencies
+        run: npm ci
+
+      - name: Run project checks
+        run: npm run check
+
+      - name: Install pinned quality tools
+        run: bash .github/scripts/install-quality-tools.sh
+
+      - name: Lint shell scripts
+        run: npm run quality:shell
+
+      - name: Run local HTTP smoke test
+        run: npm run quality:hurl:local
+
+      - name: Scan repository with Trivy
+        run: >-
+          trivy fs
+          --scanners vuln,misconfig,secret
+          --severity HIGH,CRITICAL
+          --exit-code 1
+          --ignorefile .trivyignore
+          --skip-dirs .git
+          --skip-dirs .tmp
+          --skip-dirs node_modules
+          .

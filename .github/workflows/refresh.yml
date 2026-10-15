@@ -28,16 +28,14 @@ jobs:
           name: readwise-maintenance-cleanup-${{ github.event.workflow_run.id }}
           path: .chain
 
+      - name: Checkout workflow scripts
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.workflow_run.head_branch }}
+
       - name: Resolve parent checkout
         id: parent_context
-        run: |
-          set -euo pipefail
-          final_sha=$(jq -r '.finalSha' .chain/maintenance-run.json)
-          branch=$(jq -r '.branch' .chain/maintenance-run.json)
-          [[ "$final_sha" =~ ^[0-9a-f]{40}$ ]]
-          test -n "$branch"
-          echo "final_sha=$final_sha" >> "$GITHUB_OUTPUT"
-          echo "branch=$branch" >> "$GITHUB_OUTPUT"
+        run: bash .github/scripts/resolve-parent-context.sh .chain/maintenance-run.json
 
       - uses: actions/checkout@v4
         with:
@@ -78,14 +76,7 @@ jobs:
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add config/readwise-priority-judgments.json data/data.js data/score.js dist/src index.html
           git commit -m "chore: ververs Readwise-data en judgments"
-          for attempt in 1 2 3; do
-            if git push origin "HEAD:${{ steps.parent_context.outputs.branch }}"; then
-              exit 0
-            fi
-            git fetch origin "${{ steps.parent_context.outputs.branch }}"
-            git rebase "origin/${{ steps.parent_context.outputs.branch }}"
-          done
-          exit 1
+          bash .github/scripts/push-with-rebase-retries.sh "${{ steps.parent_context.outputs.branch }}" 3
 
       - name: Schrijf samenvatting
         if: always()
@@ -114,17 +105,16 @@ jobs:
 
       - name: Bewaar chain-context
         if: always()
+        env:
+          MAINTENANCE_RUN_FILE: .tmp/readwise/maintenance-run.json
+          WORKFLOW: ${{ github.workflow }}
+          RUN_ID: ${{ github.run_id }}
+          PARENT_RUN_ID: ${{ github.event.workflow_run.id }}
+          BRANCH: ${{ steps.parent_context.outputs.branch }}
+          INITIAL_SHA: ${{ github.event.workflow_run.head_sha }}
+          STATUS: ${{ job.status }}
         run: |
-          jq -n \
-            --arg workflow "${{ github.workflow }}" \
-            --arg runId "${{ github.run_id }}" \
-            --arg parentRunId "${{ github.event.workflow_run.id }}" \
-            --arg branch "${{ steps.parent_context.outputs.branch }}" \
-            --arg initialSha "${{ github.event.workflow_run.head_sha }}" \
-            --arg finalSha "$(git rev-parse HEAD)" \
-            --arg status "${{ job.status }}" \
-            '{version: 1, workflow: $workflow, runId: $runId, parentRunId: $parentRunId, branch: $branch, initialSha: $initialSha, finalSha: $finalSha, status: $status}' \
-            > .tmp/readwise/maintenance-run.json
+          FINAL_SHA="$(git rev-parse HEAD)" bash .github/scripts/write-maintenance-run.sh
 
       - name: Bewaar refresh- en chain-context-artifacts
         if: always()

@@ -28,16 +28,14 @@ jobs:
           name: readwise-maintenance-archive-${{ github.event.workflow_run.id }}
           path: .chain
 
+      - name: Checkout workflow scripts
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.workflow_run.head_branch }}
+
       - name: Resolve parent checkout
         id: parent_context
-        run: |
-          set -euo pipefail
-          final_sha=$(jq -r '.finalSha' .chain/maintenance-run.json)
-          branch=$(jq -r '.branch' .chain/maintenance-run.json)
-          [[ "$final_sha" =~ ^[0-9a-f]{40}$ ]]
-          test -n "$branch"
-          echo "final_sha=$final_sha" >> "$GITHUB_OUTPUT"
-          echo "branch=$branch" >> "$GITHUB_OUTPUT"
+        run: bash .github/scripts/resolve-parent-context.sh .chain/maintenance-run.json
 
       - uses: actions/checkout@v4
         with:
@@ -90,17 +88,16 @@ jobs:
 
       - name: Bewaar chain-context
         if: always()
+        env:
+          MAINTENANCE_RUN_FILE: .tmp/readwise/maintenance-run.json
+          WORKFLOW: ${{ github.workflow }}
+          RUN_ID: ${{ github.run_id }}
+          PARENT_RUN_ID: ${{ github.event.workflow_run.id }}
+          BRANCH: ${{ steps.parent_context.outputs.branch }}
+          INITIAL_SHA: ${{ github.event.workflow_run.head_sha }}
+          STATUS: ${{ job.status }}
         run: |
-          jq -n \
-            --arg workflow "${{ github.workflow }}" \
-            --arg runId "${{ github.run_id }}" \
-            --arg parentRunId "${{ github.event.workflow_run.id }}" \
-            --arg branch "${{ steps.parent_context.outputs.branch }}" \
-            --arg initialSha "${{ github.event.workflow_run.head_sha }}" \
-            --arg finalSha "$(git rev-parse HEAD)" \
-            --arg status "${{ job.status }}" \
-            '{version: 1, workflow: $workflow, runId: $runId, parentRunId: $parentRunId, branch: $branch, initialSha: $initialSha, finalSha: $finalSha, status: $status}' \
-            > .tmp/readwise/maintenance-run.json
+          FINAL_SHA="$(git rev-parse HEAD)" bash .github/scripts/write-maintenance-run.sh
 
       - name: Bewaar cleanup-plan, journal en chain-context
         if: always()

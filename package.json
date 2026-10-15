@@ -9,6 +9,8 @@
     "typecheck": "tsc --noEmit",
     "lint": "eslint .",
     "check": "npm run lint && npm run typecheck && npm test",
+    "quality:shell": "shellcheck .github/scripts/*.sh",
+    "quality:hurl:local": "bash .github/scripts/run-local-hurl.sh",
     "build": "npm run compile && node dist/scripts/build-data.js",
     "priority:judge": "npm run compile && node dist/scripts/priority-judge.js",
     "priority:plan": "npm run compile && node dist/scripts/priority-cli.js plan",

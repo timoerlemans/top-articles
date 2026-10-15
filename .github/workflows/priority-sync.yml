@@ -56,40 +56,13 @@ jobs:
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add config/readwise-priority-judgments.json
           git commit -m "chore: registreer automatische priority judgments"
-          for attempt in 1 2 3; do
-            if git push origin "HEAD:${GITHUB_REF_NAME}"; then
-              exit 0
-            fi
-            git fetch origin "${GITHUB_REF_NAME}"
-            git rebase "origin/${GITHUB_REF_NAME}"
-          done
-          exit 1
+          bash .github/scripts/push-with-rebase-retries.sh "${GITHUB_REF_NAME}" 3
 
       - name: Maak maintenance-manifest
         run: npm run readwise:priority-sync -- plan --output .tmp/readwise/maintenance-plan.json
 
       - name: Voer auteurstags en priority-sync uit
-        run: |
-          set -euo pipefail
-          for attempt in 1 2 3 4 5; do
-            confirmations=$(jq -r '[.stages[] | select(.mutations == true and (.confirmationRequired // true) == true) | "\(.stage)=\(.planHash)"] | join(",")' .tmp/readwise/maintenance-plan.json)
-            if [ -n "$confirmations" ]; then
-              npm run readwise:priority-sync -- apply --through priority --plan .tmp/readwise/maintenance-plan.json --confirm "$confirmations" --report .tmp/readwise/maintenance-report.json
-            else
-              npm run readwise:priority-sync -- apply --through priority --plan .tmp/readwise/maintenance-plan.json --report .tmp/readwise/maintenance-report.json
-            fi
-            status=$(jq -r '.status' .tmp/readwise/maintenance-report.json)
-            if [ "$status" = "verified" ]; then
-              exit 0
-            fi
-            if [ "$status" != "awaiting-confirmation" ]; then
-              echo "Maintenance stopte met status: $status" >&2
-              exit 1
-            fi
-            echo "Maintenance werd opnieuw gepland na een upstream-mutatie (ronde $attempt)."
-          done
-          echo "Maintenance vereiste meer dan vijf replanningrondes." >&2
-          exit 1
+        run: bash .github/scripts/run-priority-maintenance.sh .tmp/readwise/maintenance-plan.json .tmp/readwise/maintenance-report.json
 
       - name: Schrijf samenvatting
         if: always()
@@ -120,17 +93,17 @@ jobs:
 
       - name: Bewaar chain-context
         if: always()
+        env:
+          MAINTENANCE_RUN_FILE: .tmp/readwise/maintenance-run.json
+          WORKFLOW: ${{ github.workflow }}
+          RUN_ID: ${{ github.run_id }}
+          BRANCH: ${{ github.ref_name }}
+          INITIAL_SHA: ${{ github.sha }}
+          FINAL_SHA: ${{ github.sha }}
+          STATUS: ${{ job.status }}
         run: |
           mkdir -p .tmp/readwise
-          jq -n \
-            --arg workflow "${{ github.workflow }}" \
-            --arg runId "${{ github.run_id }}" \
-            --arg branch "${{ github.ref_name }}" \
-            --arg initialSha "${{ github.sha }}" \
-            --arg finalSha "$(git rev-parse HEAD)" \
-            --arg status "${{ job.status }}" \
-            '{version: 1, workflow: $workflow, runId: $runId, parentRunId: null, branch: $branch, initialSha: $initialSha, finalSha: $finalSha, status: $status}' \
-            > .tmp/readwise/maintenance-run.json
+          FINAL_SHA="$(git rev-parse HEAD)" bash .github/scripts/write-maintenance-run.sh
 
       - name: Bewaar plan, journal en chain-context bij falen
         if: always()

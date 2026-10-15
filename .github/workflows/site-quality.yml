@@ -1,0 +1,65 @@
+name: Public site quality
+
+on:
+  schedule:
+    - cron: "30 6 * * *"
+  workflow_dispatch:
+    inputs:
+      site_url:
+        description: "Publieke GitHub Pages-URL"
+        required: false
+        default: "https://timoerlemans.github.io/top-articles/"
+        type: string
+  workflow_run:
+    workflows: ["Refresh Readwise data"]
+    types: [completed]
+
+permissions:
+  contents: read
+
+concurrency:
+  group: public-site-quality
+  cancel-in-progress: true
+
+env:
+  SITE_URL: ${{ inputs.site_url || 'https://timoerlemans.github.io/top-articles/' }}
+
+jobs:
+  site-quality:
+    if: github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.repository.default_branch }}
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: npm
+
+      - name: Install pinned Hurl and Lighthouse
+        run: bash .github/scripts/install-quality-tools.sh hurl lighthouse
+
+      - name: Run public Hurl smoke test
+        run: hurl --test --variable "base_url=$SITE_URL" quality/hurl/site.hurl
+
+      - name: Run Lighthouse audit
+        if: always()
+        continue-on-error: true
+        run: >-
+          lighthouse "$SITE_URL"
+          --output=html,json
+          --output-path=quality-reports/lighthouse
+          --only-categories=performance,accessibility,best-practices
+          --chrome-flags="--headless --no-sandbox --disable-dev-shm-usage"
+          --quiet
+
+      - name: Upload Lighthouse reports
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: lighthouse-report-${{ github.run_id }}
+          path: quality-reports/
+          if-no-files-found: warn
+          retention-days: 14

@@ -36,6 +36,8 @@ npm run compile           # tsc — compileert src/, scripts/, test/ naar dist/
 npm run typecheck         # tsc --noEmit
 npm run lint              # eslint .
 npm run check             # lint && typecheck && test — belangrijkste verificatiecommando
+npm run quality:shell     # ShellCheck voor .github/scripts/*.sh
+npm run quality:hurl:local # compileert en voert de lokale Hurl-smoketest uit
 npm test                  # compileert eerst, draait dan node --test dist/test/*.test.js
 npm run compile && node --test dist/test/priority-tag-plan.test.js   # los testbestand draaien
 
@@ -71,6 +73,11 @@ conflicterende lokale bestanden zonder interactieve bevestiging of `--yes`.
 
 Site bekijken: `index.html` direct openen in de browser, geen webserver nodig — `dist/src/app.js`
 moet dan wel al gecompileerd zijn (`npm run compile`, of al aanwezig via git, zie hierboven).
+
+De aparte kwaliteitslaag staat in `.github/workflows/quality.yml` en `.github/workflows/site-quality.yml`.
+De eerste draait bij relevante codewijzigingen ShellCheck, lokale Hurl en Trivy; de tweede controleert
+de publieke GitHub Pages-URL met Hurl en Lighthouse. Gepinde toolversies staan in
+`.github/quality/tool-versions.env`; de publieke site-URL kan bij handmatige dispatch worden overschreven.
 
 ## Architectuur
 

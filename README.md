@@ -241,6 +241,8 @@ PLAN_HASH=$(jq -r '.planHash' .tmp/readwise/archive-cleanup-plan.json)
 npm run archive:cleanup:apply -- --plan .tmp/readwise/archive-cleanup-plan.json --confirm "$PLAN_HASH"
 npm run archive:cleanup:verify
 npm run check   # lint, strict typecheck en tests
+npm run quality:shell       # ShellCheck voor de versioneerbare workflow-scripts
+npm run quality:hurl:local  # compileert en test de statische site lokaal met Hurl
 ```
 
 `prepare` haalt Reader-documenten uit `later` op en schrijft een evidence-snapshot en
@@ -297,6 +299,16 @@ eigen schema. Vereist een repo-secret `READWISE_TOKEN`
 ```bash
 gh secret set READWISE_TOKEN
 ```
+
+Naast `npm run check` draait `.github/workflows/quality.yml` bij codewijzigingen een aparte
+kwaliteitslaag met ShellCheck, een lokale Hurl-smoketest en Trivy voor kwetsbaarheden,
+misconfiguraties en secrets. De toolversies staan vast in
+[`.github/quality/tool-versions.env`](.github/quality/tool-versions.env). De publieke
+GitHub Pages-site wordt dagelijks, handmatig en na een geslaagde refresh gecontroleerd door
+`.github/workflows/site-quality.yml`: Hurl faalt bij een onbereikbare of kapotte entrypoint,
+terwijl Lighthouse een artefact oplevert zonder de deployment door Lighthouse-score te blokkeren.
+De lokale smoke-runner vereist alleen een geïnstalleerde Hurl-binary; de server draait tijdelijk
+op `127.0.0.1:4173`.
 
 ## Publiceren op GitHub Pages
 

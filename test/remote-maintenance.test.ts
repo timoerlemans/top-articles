@@ -54,11 +54,13 @@ test("workflow triggers form one loop-free chain and refresh publishes current d
     readFile(".github/workflows/archive-lees.yml", "utf8"),
     readFile(".github/workflows/archive-cleanup.yml", "utf8"),
     readFile(".github/workflows/refresh.yml", "utf8"),
+    readFile(".github/scripts/run-priority-maintenance.sh", "utf8"),
   ]);
-  const [priority, archive, cleanup, refresh] = workflows;
+  const [priority, archive, cleanup, refresh, priorityScript] = workflows;
   assert.ok(priority);
   assert.match(priority, /workflow_dispatch:[\s\S]+request_id:/);
-  assert.match(priority, /--through priority/);
+  assert.match(priority, /run-priority-maintenance\.sh/);
+  assert.match(priorityScript, /--through priority/);
   assert.match(priority, /readwise-maintenance-root-\$\{\{ github\.run_id \}\}/);
   assert.match(archive, /workflows: \["Synchroniseer Readwise-prioriteit"\]/);
   assert.match(archive, /archive:plan/);
