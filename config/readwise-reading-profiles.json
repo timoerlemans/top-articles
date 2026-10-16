@@ -11609,34 +11609,33 @@
       "reason": "Video is volgens de profielrubric uitgesloten van het leesmenu."
     },
     "01m4jp3vhk3qx5yqvn7cp99fmg": {
+      "sourceFingerprint": "5b37802027485c52476c331c07aec7145aa5f3a245431e745dd9ce7807cb16ba",
+      "evidenceFingerprint": "a896a8c8640ec332c790d4c85820c1e34764bb8ee9eb10747214a06e941c1e07",
+      "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
       "status": "accepted",
       "confidence": "medium",
-      "reason": "Dertien zelfstandige wetmatigheden met uitleg en comics; enige engineeringcontext nodig, emotioneel licht en uitstekend in afzonderlijke delen leesbaar.",
+      "rubricVersion": "reading-profile-v2",
       "traits": {
-        "effort": 2,
-        "emotionalWeight": 1,
+        "effort": 1,
+        "emotionalWeight": 0,
         "tone": "speels",
         "needFit": {
-          "ontspannen": 2,
+          "ontspannen": 1,
           "afleiding": 2,
-          "herkenning": 4,
+          "herkenning": 3,
           "verkennen": 3,
-          "verdieping": 3
+          "verdieping": 2
         },
-        "activation": 2,
+        "activation": 3,
         "interruptibility": 4
       },
-      "rubricVersion": "reading-profile-v2",
-      "sourceFingerprint": "621106dcfbb642a34a91ec96f4d498151dfd4bf3299c7de375560e0e18283375",
-      "evidenceFingerprint": "57144c4c02f369089f7b6c208e9a80633be4bcc84313e8c86c509039ea3a44ef",
-      "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
-      "judgedBy": "codex-readwise-inbox-profile-review-20261015T202825Z",
-      "judgedAt": "2026-10-15T21:07:48.307Z",
+      "reason": "Dertien losse blokken met korte definities, cartoons en concrete werkvoorbeelden maken pauzeren en hervatten eenvoudig. De informele toon vraagt weinig concentratie, maar adviezen over deadlines, meten en teamstructuur nodigen sterk uit tot toepassen.",
       "evidenceRefs": [
-        ".tmp/readwise/inbox-semantic-20261015T202825Z/profiles/snapshot.json#documents.01m4jp3vhk3qx5yqvn7cp99fmg",
-        "content",
-        "notes"
-      ]
+        ".tmp/readwise/review-20261016T055519Z/profiles/source-01m4jp3vhk3qx5yqvn7cp99fmg.json",
+        "content"
+      ],
+      "judgedBy": "codex-profile-review-20261016T055519Z",
+      "judgedAt": "2026-10-16T06:05:22.683Z"
     },
     "01m4jp3xvpfnnr7d03trmxw5ny": {
       "rubricVersion": "reading-profile-v2",
@@ -13752,33 +13751,33 @@
       ]
     },
     "01m4zdf56rnw5djf4a7sm0x5ex": {
+      "sourceFingerprint": "5389253eb5f786a4a00782b92bd80aebed44b0e0ec7a68e89954aa9e3cfaa2cb",
+      "evidenceFingerprint": "a6abe0d30cd7af50a93b432b2bf4ac5f49d5201bf0214f9a556acc957650447f",
+      "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
       "status": "accepted",
       "confidence": "medium",
-      "reason": "Vijf zelfstandige boekbesprekingen zijn helder en gemakkelijk te hervatten; hongersnood, executies, vervolging en collectief geweld maken de inhoud emotioneel zwaar.",
+      "rubricVersion": "reading-profile-v2",
       "traits": {
-        "effort": 2,
-        "emotionalWeight": 3,
-        "tone": "zakelijk",
+        "effort": 1,
+        "emotionalWeight": 2,
+        "tone": "reflectief",
         "needFit": {
           "ontspannen": 0,
-          "afleiding": 1,
-          "herkenning": 1,
-          "verkennen": 4,
-          "verdieping": 3
+          "afleiding": 0,
+          "herkenning": 0,
+          "verkennen": 3,
+          "verdieping": 2
         },
         "activation": 2,
         "interruptibility": 4
       },
-      "rubricVersion": "reading-profile-v2",
-      "sourceFingerprint": "be0110d13d08361ade399f9cb65935710b2ab79ad488e0239b371c9caeb8f499",
-      "evidenceFingerprint": "eddc8ce1b366d9f5051d6dab15e048f026e9581ad2abd69eea085044297ed2c0",
-      "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
-      "judgedBy": "codex-readwise-inbox-profile-review-20261015T202825Z",
-      "judgedAt": "2026-10-16T00:26:44.335Z",
+      "reason": "Zelfstandige toegankelijke boekbeschrijvingen zijn zeer goed onderbreekbaar. Hongersnood, executies en vluchtverhalen geven merkbare emotionele zwaarte; de religieuze duiding stimuleert reflectie zonder specialistische argumentatie.",
       "evidenceRefs": [
-        ".tmp/readwise/inbox-semantic-20261015T202825Z/profiles/snapshot.json#documents.01m4zdf56rnw5djf4a7sm0x5ex",
+        ".tmp/readwise/review-20261016T055519Z/profiles/source-01m4zdf56rnw5djf4a7sm0x5ex.json",
         "content"
-      ]
+      ],
+      "judgedBy": "codex-profile-review-20261016T055519Z",
+      "judgedAt": "2026-10-16T06:05:22.683Z"
     },
     "01m4zdf5nszg2gbkm6wa5ncf7s": {
       "status": "accepted",
@@ -13808,6 +13807,296 @@
         ".tmp/readwise/inbox-semantic-20261015T202825Z/profiles/snapshot.json#documents.01m4zdf5nszg2gbkm6wa5ncf7s",
         "content"
       ]
+    },
+    "01m51fq9krwkg5enq60g7v4db8": {
+      "sourceFingerprint": "60f8838cd019d5c1085f6e6ef7d9cca2f619fe1c9407904ce693f421bb5f4dea",
+      "evidenceFingerprint": "cefec2aba57c40ffe3f2a659b03e4c975b955d68de7d4a8ed2d116473aad0f35",
+      "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
+      "status": "accepted",
+      "confidence": "medium",
+      "rubricVersion": "reading-profile-v2",
+      "traits": {
+        "effort": 1,
+        "emotionalWeight": 0,
+        "tone": "speels",
+        "needFit": {
+          "ontspannen": 1,
+          "afleiding": 2,
+          "herkenning": 2,
+          "verkennen": 3,
+          "verdieping": 2
+        },
+        "activation": 2,
+        "interruptibility": 3
+      },
+      "reason": "Heldere spreektaal en herkenbare sport- en muziekvoorbeelden vragen weinig voorkennis. Afzonderlijke kopjes maken hervatten gemakkelijk; de oefenopdracht stimuleert actie, zonder zware emotionele inhoud.",
+      "evidenceRefs": [
+        ".tmp/readwise/review-20261016T055519Z/profiles/snapshot.json#01m51fq9krwkg5enq60g7v4db8",
+        "content"
+      ],
+      "judgedBy": "codex-profile-review-20261016T055519Z",
+      "judgedAt": "2026-10-16T06:00:41.280Z"
+    },
+    "01m51ek0dbr8btg2p6ne47sq49": {
+      "sourceFingerprint": "5e81f1dbebc79a1fddbbf70cb39577f482c27f76d3ca2a0019c3feddfa82bba7",
+      "evidenceFingerprint": "e13926d3619b4b7ba0f3bd5611c6bd667b37370459a2c9d7bdc88c17f8709631",
+      "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
+      "status": "accepted",
+      "confidence": "medium",
+      "rubricVersion": "reading-profile-v2",
+      "traits": {
+        "effort": 1,
+        "emotionalWeight": 0,
+        "tone": "zakelijk",
+        "needFit": {
+          "ontspannen": 0,
+          "afleiding": 0,
+          "herkenning": 1,
+          "verkennen": 1,
+          "verdieping": 0
+        },
+        "activation": 1,
+        "interruptibility": 4
+      },
+      "reason": "Een eenvoudig te raadplegen register met zelfstandige stadsvermeldingen, niet een doorgaand essay. Zeer goed onderbreekbaar en emotioneel neutraal; voor ontspannen lezen of inhoudelijke verdieping nauwelijks geschikt.",
+      "evidenceRefs": [
+        ".tmp/readwise/review-20261016T055519Z/profiles/snapshot.json#01m51ek0dbr8btg2p6ne47sq49",
+        "content"
+      ],
+      "judgedBy": "codex-profile-review-20261016T055519Z",
+      "judgedAt": "2026-10-16T06:00:41.280Z"
+    },
+    "01m51ejpsjb8q5bhqcmnyyha1k": {
+      "sourceFingerprint": "6a343ee45124a9b2dc5eb2ad9bfa43ec7837a00b1c8c4c8ecfe25200ead43152",
+      "evidenceFingerprint": "054e87de9b3810ff9af7441e66a0c6f2f67581d63c49ad53d796ac4a29d5d42e",
+      "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
+      "status": "accepted",
+      "confidence": "medium",
+      "rubricVersion": "reading-profile-v2",
+      "traits": {
+        "effort": 2,
+        "emotionalWeight": 0,
+        "tone": "zakelijk",
+        "needFit": {
+          "ontspannen": 0,
+          "afleiding": 1,
+          "herkenning": 2,
+          "verkennen": 3,
+          "verdieping": 4
+        },
+        "activation": 3,
+        "interruptibility": 3
+      },
+      "reason": "De vertrouwensladder wordt herhaald en met voorbeelden uitgelegd, maar contextbouw, routing en meetproxies vragen aandacht. Zelfstandige presentatieonderdelen helpen hervatten; concrete ontwerpvragen maken de tekst sterk activerend.",
+      "evidenceRefs": [
+        ".tmp/readwise/review-20261016T055519Z/profiles/snapshot.json#01m51ejpsjb8q5bhqcmnyyha1k",
+        "content"
+      ],
+      "judgedBy": "codex-profile-review-20261016T055519Z",
+      "judgedAt": "2026-10-16T06:00:41.280Z"
+    },
+    "01m51ejm0qgx622x0rx7jbbbjf": {
+      "sourceFingerprint": "1c4ab6ae8dcd955709c1664ff7c7dda6e044f32e772145cf1f43b36de0fffa83",
+      "evidenceFingerprint": "ca1a634aeae203d128326fbf7ea31fe823142edabe0d97ee84ccca3a5916c195",
+      "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
+      "status": "accepted",
+      "confidence": "medium",
+      "rubricVersion": "reading-profile-v2",
+      "traits": {
+        "effort": 2,
+        "emotionalWeight": 0,
+        "tone": "zakelijk",
+        "needFit": {
+          "ontspannen": 0,
+          "afleiding": 1,
+          "herkenning": 3,
+          "verkennen": 3,
+          "verdieping": 4
+        },
+        "activation": 2,
+        "interruptibility": 3
+      },
+      "reason": "Vier impactcategorieën en drie werkprocessen vragen enige conceptuele aandacht. De zelfstandige interviewvragen bieden pauzepunten; zakelijke voorbeelden en voorgestelde experimenten stimuleren nadenken zonder emotionele belasting.",
+      "evidenceRefs": [
+        ".tmp/readwise/review-20261016T055519Z/profiles/snapshot.json#01m51ejm0qgx622x0rx7jbbbjf",
+        "content"
+      ],
+      "judgedBy": "codex-profile-review-20261016T055519Z",
+      "judgedAt": "2026-10-16T06:00:41.280Z"
+    },
+    "01m50n6kgyxncs1chxyr6qkwgm": {
+      "sourceFingerprint": "06bbee386c1a806bf617e3dc1e1e4968fdd8785486c66f73800c4905f5fd31dd",
+      "evidenceFingerprint": "fee45abc82dbee088104dd3352031e916a6ff8e8249454909c35ab264e3cb14f",
+      "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
+      "status": "accepted",
+      "confidence": "medium",
+      "rubricVersion": "reading-profile-v2",
+      "traits": {
+        "effort": 1,
+        "emotionalWeight": 0,
+        "tone": "zakelijk",
+        "needFit": {
+          "ontspannen": 1,
+          "afleiding": 1,
+          "herkenning": 3,
+          "verkennen": 3,
+          "verdieping": 3
+        },
+        "activation": 3,
+        "interruptibility": 4
+      },
+      "reason": "Heldere definities, illustraties en herhaalde diagnose/interventielijsten vragen weinig voorkennis en zijn bijzonder goed per categorie te lezen. De expliciete handelingssuggesties zijn sterk activerend, niet rustgevend.",
+      "evidenceRefs": [
+        ".tmp/readwise/review-20261016T055519Z/profiles/snapshot.json#01m50n6kgyxncs1chxyr6qkwgm",
+        "content"
+      ],
+      "judgedBy": "codex-profile-review-20261016T055519Z",
+      "judgedAt": "2026-10-16T06:00:41.280Z"
+    },
+    "01m50n6gx619wydjfjq1wbc4ke": {
+      "sourceFingerprint": "bd23c8a6830834d19d70a9bb561003876e71fd7c8e50ce645e995235a7d38060",
+      "evidenceFingerprint": "07a6c765342c847dfd404621e7e801b88a2049c33081615b7fbdf9a5cfefb418",
+      "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
+      "status": "accepted",
+      "confidence": "medium",
+      "rubricVersion": "reading-profile-v2",
+      "traits": {
+        "effort": 3,
+        "emotionalWeight": 1,
+        "tone": "zakelijk",
+        "needFit": {
+          "ontspannen": 0,
+          "afleiding": 0,
+          "herkenning": 1,
+          "verkennen": 3,
+          "verdieping": 4
+        },
+        "activation": 2,
+        "interruptibility": 1
+      },
+      "reason": "Abstracte definities van marktafhankelijkheid en juridische legitimatie bouwen op elkaar voort en vragen doorlopende aandacht. Ongelijkheid krijgt een analytische, niet grafische behandeling; vooral geschikt voor verkenning en verdieping.",
+      "evidenceRefs": [
+        ".tmp/readwise/review-20261016T055519Z/profiles/snapshot.json#01m50n6gx619wydjfjq1wbc4ke",
+        "content"
+      ],
+      "judgedBy": "codex-profile-review-20261016T055519Z",
+      "judgedAt": "2026-10-16T06:00:41.280Z"
+    },
+    "01m50n6dyfbfy91gvy25mp411t": {
+      "sourceFingerprint": "680212af403011197f567163c9bb49a93ba9f170374bf836cc19065cd2dd96c6",
+      "evidenceFingerprint": "1eb04d84abd5c3649ca481f48257be9e412b3f78a76c403fadd4a790501aecfc",
+      "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
+      "status": "accepted",
+      "confidence": "medium",
+      "rubricVersion": "reading-profile-v2",
+      "traits": {
+        "effort": 3,
+        "emotionalWeight": 1,
+        "tone": "zakelijk",
+        "needFit": {
+          "ontspannen": 0,
+          "afleiding": 1,
+          "herkenning": 1,
+          "verkennen": 3,
+          "verdieping": 3
+        },
+        "activation": 2,
+        "interruptibility": 2
+      },
+      "reason": "De compacte recensie stapelt theoretici en vergelijkende historische voorbeelden, waardoor voorkennis en reconstructie nodig zijn. De bespreking is zakelijk en niet grafisch; argumentdelen zijn met enige moeite apart hervatbaar.",
+      "evidenceRefs": [
+        ".tmp/readwise/review-20261016T055519Z/profiles/snapshot.json#01m50n6dyfbfy91gvy25mp411t",
+        "content"
+      ],
+      "judgedBy": "codex-profile-review-20261016T055519Z",
+      "judgedAt": "2026-10-16T06:00:41.280Z"
+    },
+    "01m50n6aq5pn58z6m5mjzfkrf8": {
+      "sourceFingerprint": "bc9184e30201ec72161ac9f11ebaa20de399e02222a6497bf5565bc095a97be1",
+      "evidenceFingerprint": "1447ea6c1841a6932b8eb5edf7ade6c25671d399cc935ca9dae29ad8d6db2d87",
+      "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
+      "status": "accepted",
+      "confidence": "medium",
+      "rubricVersion": "reading-profile-v2",
+      "traits": {
+        "effort": 3,
+        "emotionalWeight": 1,
+        "tone": "reflectief",
+        "needFit": {
+          "ontspannen": 0,
+          "afleiding": 1,
+          "herkenning": 2,
+          "verkennen": 4,
+          "verdieping": 4
+        },
+        "activation": 2,
+        "interruptibility": 1
+      },
+      "reason": "Het betoog onderscheidt nauw verwante filosofische stromingen en verwijst over secties heen naar begrippen. Dat vraagt stevige concentratie en maakt los onderbreken lastig; normatieve reflectie domineert boven concrete actiedrang.",
+      "evidenceRefs": [
+        ".tmp/readwise/review-20261016T055519Z/profiles/snapshot.json#01m50n6aq5pn58z6m5mjzfkrf8",
+        "content"
+      ],
+      "judgedBy": "codex-profile-review-20261016T055519Z",
+      "judgedAt": "2026-10-16T06:00:41.280Z"
+    },
+    "01m50n66d6sqs636zzz5fg2sqs": {
+      "sourceFingerprint": "4e314a5d0e524bf5084247cf7a67a7c6065b23331f44077f3395366901ae87f3",
+      "evidenceFingerprint": "f8a7c222a2842a806b300a263c050e2e3e26332c99de61cb81b68b6fd3178c29",
+      "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
+      "status": "accepted",
+      "confidence": "medium",
+      "rubricVersion": "reading-profile-v2",
+      "traits": {
+        "effort": 3,
+        "emotionalWeight": 1,
+        "tone": "reflectief",
+        "needFit": {
+          "ontspannen": 0,
+          "afleiding": 1,
+          "herkenning": 2,
+          "verkennen": 4,
+          "verdieping": 4
+        },
+        "activation": 2,
+        "interruptibility": 1
+      },
+      "reason": "De lijn van meetbare geletterdheid via informatietheorie naar auteurschap en poëzie vereist cumulatieve, abstracte argumentatie. Reflectief en mild zorgelijk, met weinig natuurlijke losse leesblokken; sterk voor perspectiefverbreding.",
+      "evidenceRefs": [
+        ".tmp/readwise/review-20261016T055519Z/profiles/snapshot.json#01m50n66d6sqs636zzz5fg2sqs",
+        "content"
+      ],
+      "judgedBy": "codex-profile-review-20261016T055519Z",
+      "judgedAt": "2026-10-16T06:00:41.280Z"
+    },
+    "01m50n63bxq4hwmsdmd7va552f": {
+      "sourceFingerprint": "f3f475407495b3bcd00a6745183df1f8dc07a58f9428d99215e77e80915fb7c0",
+      "evidenceFingerprint": "d82f755800d147e12f7ffe9f3844ef23c3d18e6f8a1a38c5b3a890033d469810",
+      "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
+      "status": "accepted",
+      "confidence": "medium",
+      "rubricVersion": "reading-profile-v2",
+      "traits": {
+        "effort": 2,
+        "emotionalWeight": 1,
+        "tone": "reflectief",
+        "needFit": {
+          "ontspannen": 1,
+          "afleiding": 1,
+          "herkenning": 1,
+          "verkennen": 4,
+          "verdieping": 4
+        },
+        "activation": 2,
+        "interruptibility": 2
+      },
+      "reason": "Biografische voorbeelden maken historische methoden concreet, maar vergelijking, materialisme en synthese vragen aandacht. Drie grotere betoogdelen zijn met enige reconstructie hervatbaar; de toon is beschouwend met mild beladen oorlogspassages.",
+      "evidenceRefs": [
+        ".tmp/readwise/review-20261016T055519Z/profiles/snapshot.json#01m50n63bxq4hwmsdmd7va552f",
+        "content"
+      ],
+      "judgedBy": "codex-profile-review-20261016T055519Z",
+      "judgedAt": "2026-10-16T06:00:41.280Z"
     }
   }
 }
