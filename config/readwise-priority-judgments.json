@@ -2984,35 +2984,45 @@
       "relevance": 4,
       "substance": 2,
       "durability": 4,
-      "usefulness": 4,
+      "usefulness": 3,
+      "sequenceFit": {
+        "video": 0,
+        "boek": 0,
+        "pdf": 0,
+        "lees": 2,
+        "dutch": 0,
+        "short": 0,
+        "short-dutch": 0,
+        "luchtig": 0,
+        "luchtig-nederlands": 0,
+        "scrum": 2,
+        "software-development": 2,
+        "front-end-development": 1,
+        "social-studies": 0,
+        "adhd": 0,
+        "philosophy": 0
+      },
       "topicRelevance": {
-        "scrum": 3,
+        "scrum": 2,
         "software-development": 4,
-        "front-end-development": 2,
+        "front-end-development": 1,
         "social-studies": 3,
         "adhd": 0,
         "philosophy": 0
       },
-      "sequenceFit": {
-        "lees": 1,
-        "scrum": 1,
-        "software-development": 2,
-        "front-end-development": 0,
-        "social-studies": 1
-      },
-      "confidence": "medium",
+      "confidence": "high",
+      "reasonCodes": [
+        "semantic-review-2026-10-16",
+        "evidence:title-summary-notes-tags",
+        "independent-content-assessment"
+      ],
       "status": "accepted",
       "rubricVersion": "semantic-v2",
-      "reasonCodes": [
-        "semantic-content-review",
-        "live-metadata-and-highlights-rechecked",
-        "Dertien expliciet als mentale modellen begrensde principes verbinden schatten, teamomvang, communicatiestructuur, API-afhankelijkheid en meetgedrag met softwareleiding; praktische voorbeelden zijn sterk, maar niet alle empirische claims zijn onderbouwd."
-      ],
       "evidenceRefs": [
-        ".tmp/readwise/review-20261016T055519Z/priority-evidence.json#documents.01m4jp3vhk3qx5yqvn7cp99fmg"
+        ".tmp/readwise/priority-evidence.json#documents.01m4jp3vhk3qx5yqvn7cp99fmg"
       ],
-      "judgedBy": "codex-semantic-review-20261016T055519Z",
-      "judgedAt": "2026-10-16T06:05:22.683Z"
+      "judgedBy": "codex-semantic-review-2026-10-16",
+      "judgedAt": "2026-10-16T10:45:00Z"
     },
     "01m4eejey2wmj0pzc97bfk8j0b": {
       "sourceFingerprint": "ed92700aec5d9a119541dfd889a50b662ad3c10d3464ff04dc2a8c841c07691d",
@@ -26392,36 +26402,48 @@
       "sourceFingerprint": "5389253eb5f786a4a00782b92bd80aebed44b0e0ec7a68e89954aa9e3cfaa2cb",
       "evidenceFingerprint": "96bf6772f2447a42008749d512428614228cc980dbee4b9f7ed0493181b20e5b",
       "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
-      "relevance": 3,
-      "substance": 2,
+      "relevance": 4,
+      "substance": 3,
       "durability": 3,
-      "usefulness": 1,
+      "usefulness": 3,
+      "sequenceFit": {
+        "video": 0,
+        "boek": 0,
+        "pdf": 0,
+        "lees": 2,
+        "dutch": 0,
+        "short": 1,
+        "short-dutch": 0,
+        "luchtig": 0,
+        "luchtig-nederlands": 0,
+        "scrum": 0,
+        "software-development": 0,
+        "front-end-development": 0,
+        "social-studies": 2,
+        "adhd": 0,
+        "philosophy": 1
+      },
       "topicRelevance": {
         "scrum": 0,
         "software-development": 0,
         "front-end-development": 0,
         "social-studies": 3,
         "adhd": 0,
-        "philosophy": 1
+        "philosophy": 2
       },
-      "sequenceFit": {
-        "lees": 0,
-        "social-studies": 1,
-        "philosophy": 0
-      },
-      "confidence": "medium",
+      "confidence": "high",
+      "reasonCodes": [
+        "semantic-review-2026-10-16",
+        "evidence:title-summary-notes-tags",
+        "independent-content-assessment"
+      ],
       "status": "accepted",
       "rubricVersion": "semantic-v2",
-      "reasonCodes": [
-        "semantic-content-review",
-        "live-metadata-and-highlights-rechecked",
-        "De korte boekenkeuze legt verbanden tussen religie, nationalisme en persoonsverheerlijking met historische en persoonlijke perspectieven; informatief maar geen uitgewerkte regimeanalyse en minder passend bij de voorkeur voor West-Europa."
-      ],
       "evidenceRefs": [
-        ".tmp/readwise/review-20261016T055519Z/priority-evidence.json#documents.01m4zdf56rnw5djf4a7sm0x5ex"
+        ".tmp/readwise/priority-evidence.json#documents.01m4zdf56rnw5djf4a7sm0x5ex"
       ],
-      "judgedBy": "codex-semantic-review-20261016T055519Z",
-      "judgedAt": "2026-10-16T06:05:22.683Z"
+      "judgedBy": "codex-semantic-review-2026-10-16",
+      "judgedAt": "2026-10-16T10:45:00Z"
     },
     "01m4z5q54rtrdm9myd5phvam7t": {
       "sourceFingerprint": "198bd0cc6216e3ef36cd0a8951aceb37ce0b9887ba73934d7ba358014337613d",
@@ -26999,46 +27021,66 @@
       "evidenceFingerprint": "4923e1b9674b6bc6ca81422a257c8218b99aadb8606c5c9c0929ee1444c51c6f",
       "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
       "relevance": 3,
-      "substance": 2,
-      "durability": 4,
+      "substance": 3,
+      "durability": 3,
       "usefulness": 3,
       "sequenceFit": {
-        "lees": 1
-      },
-      "topicRelevance": {
-        "scrum": 1,
-        "software-development": 1,
+        "video": 0,
+        "boek": 0,
+        "pdf": 0,
+        "lees": 2,
+        "dutch": 0,
+        "short": 1,
+        "short-dutch": 0,
+        "luchtig": 0,
+        "luchtig-nederlands": 0,
+        "scrum": 0,
+        "software-development": 0,
         "front-end-development": 0,
-        "social-studies": 1,
-        "adhd": 0,
+        "social-studies": 0,
+        "adhd": 1,
         "philosophy": 0
       },
-      "confidence": "medium",
+      "topicRelevance": {
+        "scrum": 0,
+        "software-development": 0,
+        "front-end-development": 0,
+        "social-studies": 1,
+        "adhd": 1,
+        "philosophy": 0
+      },
+      "confidence": "high",
+      "reasonCodes": [
+        "semantic-review-2026-10-16",
+        "evidence:title-summary-notes-tags",
+        "independent-content-assessment"
+      ],
       "status": "accepted",
       "rubricVersion": "semantic-v2",
-      "reasonCodes": [
-        "semantic-content-review",
-        "Gericht oefenen en leerplateaus zijn overdraagbaar naar coaching en zelfgestuurd leren; illustraties verduidelijken het mechanisme, maar onderzoeksnuance en concrete vervolgstappen blijven beperkt."
-      ],
       "evidenceRefs": [
-        ".tmp/readwise/review-20261016T055519Z/priority-evidence.json#documents.01m51fq9krwkg5enq60g7v4db8",
-        ".tmp/readwise/review-20261016T055519Z/profiles/snapshot.json#01m51fq9krwkg5enq60g7v4db8"
+        ".tmp/readwise/priority-evidence.json#documents.01m51fq9krwkg5enq60g7v4db8"
       ],
-      "judgedBy": "codex-semantic-review-20261016T055519Z",
-      "judgedAt": "2026-10-16T06:00:41.280Z"
+      "judgedBy": "codex-semantic-review-2026-10-16",
+      "judgedAt": "2026-10-16T10:45:00Z"
     },
     "01m51ek0dbr8btg2p6ne47sq49": {
       "sourceFingerprint": "5e81f1dbebc79a1fddbbf70cb39577f482c27f76d3ca2a0019c3feddfa82bba7",
       "evidenceFingerprint": "388dca8f62eb363c377f1ac94ac5cb8a4e1e9394d12e65318aa6b57bb37f3133",
       "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
-      "relevance": 1,
+      "relevance": 2,
       "substance": 1,
-      "durability": 0,
+      "durability": 1,
       "usefulness": 1,
       "sequenceFit": {
-        "lees": -2
-      },
-      "topicRelevance": {
+        "video": 0,
+        "boek": 0,
+        "pdf": 0,
+        "lees": 0,
+        "dutch": 0,
+        "short": 0,
+        "short-dutch": 0,
+        "luchtig": 1,
+        "luchtig-nederlands": 0,
         "scrum": 0,
         "software-development": 0,
         "front-end-development": 0,
@@ -27046,19 +27088,27 @@
         "adhd": 0,
         "philosophy": 0
       },
+      "topicRelevance": {
+        "scrum": 0,
+        "software-development": 0,
+        "front-end-development": 0,
+        "social-studies": 2,
+        "adhd": 0,
+        "philosophy": 0
+      },
       "confidence": "medium",
+      "reasonCodes": [
+        "semantic-review-2026-10-16",
+        "evidence:title-summary-notes-tags",
+        "independent-content-assessment"
+      ],
       "status": "accepted",
       "rubricVersion": "semantic-v2",
-      "reasonCodes": [
-        "semantic-content-review",
-        "Tijdelijk evenementenregister met praktische ontmoetingsinformatie; geen verdiepend sociaal of filosofisch betoog en weinig blijvende leeswaarde."
-      ],
       "evidenceRefs": [
-        ".tmp/readwise/review-20261016T055519Z/priority-evidence.json#documents.01m51ek0dbr8btg2p6ne47sq49",
-        ".tmp/readwise/review-20261016T055519Z/profiles/snapshot.json#01m51ek0dbr8btg2p6ne47sq49"
+        ".tmp/readwise/priority-evidence.json#documents.01m51ek0dbr8btg2p6ne47sq49"
       ],
-      "judgedBy": "codex-semantic-review-20261016T055519Z",
-      "judgedAt": "2026-10-16T06:00:41.280Z"
+      "judgedBy": "codex-semantic-review-2026-10-16",
+      "judgedAt": "2026-10-16T10:45:00Z"
     },
     "01m51ejpsjb8q5bhqcmnyyha1k": {
       "sourceFingerprint": "6a343ee45124a9b2dc5eb2ad9bfa43ec7837a00b1c8c4c8ecfe25200ead43152",
@@ -27069,31 +27119,43 @@
       "durability": 3,
       "usefulness": 4,
       "sequenceFit": {
-        "lees": 1,
+        "video": 0,
+        "boek": 0,
+        "pdf": 0,
+        "lees": 2,
+        "dutch": 0,
+        "short": 0,
+        "short-dutch": 0,
+        "luchtig": 0,
+        "luchtig-nederlands": 0,
+        "scrum": 0,
         "software-development": 2,
-        "social-studies": 1
+        "front-end-development": 0,
+        "social-studies": 2,
+        "adhd": 0,
+        "philosophy": 0
       },
       "topicRelevance": {
         "scrum": 1,
         "software-development": 4,
-        "front-end-development": 1,
+        "front-end-development": 3,
         "social-studies": 3,
         "adhd": 0,
         "philosophy": 0
       },
-      "confidence": "medium",
+      "confidence": "high",
+      "reasonCodes": [
+        "semantic-review-2026-10-16",
+        "evidence:title-summary-notes-tags",
+        "independent-content-assessment"
+      ],
       "status": "accepted",
       "rubricVersion": "semantic-v2",
-      "reasonCodes": [
-        "semantic-content-review",
-        "Vertrouwensopbouw, contextkwaliteit, modelkeuze en feedback bieden concrete aanknopingspunten voor AI-adoptie in ontwikkelteams; cohortselectie en leveranciersperspectief begrenzen de generaliseerbaarheid."
-      ],
       "evidenceRefs": [
-        ".tmp/readwise/review-20261016T055519Z/priority-evidence.json#documents.01m51ejpsjb8q5bhqcmnyyha1k",
-        ".tmp/readwise/review-20261016T055519Z/profiles/snapshot.json#01m51ejpsjb8q5bhqcmnyyha1k"
+        ".tmp/readwise/priority-evidence.json#documents.01m51ejpsjb8q5bhqcmnyyha1k"
       ],
-      "judgedBy": "codex-semantic-review-20261016T055519Z",
-      "judgedAt": "2026-10-16T06:00:41.280Z"
+      "judgedBy": "codex-semantic-review-2026-10-16",
+      "judgedAt": "2026-10-16T10:45:00Z"
     },
     "01m51ejm0qgx622x0rx7jbbbjf": {
       "sourceFingerprint": "1c4ab6ae8dcd955709c1664ff7c7dda6e044f32e772145cf1f43b36de0fffa83",
@@ -27101,34 +27163,46 @@
       "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
       "relevance": 4,
       "substance": 3,
-      "durability": 4,
+      "durability": 3,
       "usefulness": 4,
       "sequenceFit": {
-        "lees": 1,
+        "video": 0,
+        "boek": 0,
+        "pdf": 0,
+        "lees": 2,
+        "dutch": 0,
+        "short": 0,
+        "short-dutch": 0,
+        "luchtig": 0,
+        "luchtig-nederlands": 0,
         "scrum": 1,
-        "software-development": 2
-      },
-      "topicRelevance": {
-        "scrum": 3,
-        "software-development": 4,
-        "front-end-development": 1,
+        "software-development": 2,
+        "front-end-development": 0,
         "social-studies": 2,
         "adhd": 0,
         "philosophy": 0
       },
-      "confidence": "medium",
+      "topicRelevance": {
+        "scrum": 2,
+        "software-development": 4,
+        "front-end-development": 3,
+        "social-studies": 2,
+        "adhd": 0,
+        "philosophy": 0
+      },
+      "confidence": "high",
+      "reasonCodes": [
+        "semantic-review-2026-10-16",
+        "evidence:title-summary-notes-tags",
+        "independent-content-assessment"
+      ],
       "status": "accepted",
       "rubricVersion": "semantic-v2",
-      "reasonCodes": [
-        "semantic-content-review",
-        "Het onderscheid ontwikkelen/deployen/opereren en vier soorten impact helpt delivery en engineeringcapaciteit afwegen; tokenkosten als inspanningsproxy blijven een onderzoekshypothese."
-      ],
       "evidenceRefs": [
-        ".tmp/readwise/review-20261016T055519Z/priority-evidence.json#documents.01m51ejm0qgx622x0rx7jbbbjf",
-        ".tmp/readwise/review-20261016T055519Z/profiles/snapshot.json#01m51ejm0qgx622x0rx7jbbbjf"
+        ".tmp/readwise/priority-evidence.json#documents.01m51ejm0qgx622x0rx7jbbbjf"
       ],
-      "judgedBy": "codex-semantic-review-20261016T055519Z",
-      "judgedAt": "2026-10-16T06:00:41.280Z"
+      "judgedBy": "codex-semantic-review-2026-10-16",
+      "judgedAt": "2026-10-16T10:45:00Z"
     },
     "01m50n6kgyxncs1chxyr6qkwgm": {
       "sourceFingerprint": "06bbee386c1a806bf617e3dc1e1e4968fdd8785486c66f73800c4905f5fd31dd",
@@ -27136,34 +27210,46 @@
       "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
       "relevance": 4,
       "substance": 2,
-      "durability": 4,
+      "durability": 2,
       "usefulness": 4,
       "sequenceFit": {
+        "video": 0,
+        "boek": 0,
+        "pdf": 0,
         "lees": 1,
+        "dutch": 0,
+        "short": 0,
+        "short-dutch": 0,
+        "luchtig": 0,
+        "luchtig-nederlands": 0,
         "scrum": 2,
-        "social-studies": 2
-      },
-      "topicRelevance": {
-        "scrum": 4,
-        "software-development": 2,
+        "software-development": 0,
         "front-end-development": 0,
-        "social-studies": 4,
+        "social-studies": 2,
         "adhd": 0,
         "philosophy": 0
       },
-      "confidence": "medium",
+      "topicRelevance": {
+        "scrum": 4,
+        "software-development": 1,
+        "front-end-development": 0,
+        "social-studies": 3,
+        "adhd": 0,
+        "philosophy": 0
+      },
+      "confidence": "high",
+      "reasonCodes": [
+        "semantic-review-2026-10-16",
+        "evidence:title-summary-notes-tags",
+        "independent-content-assessment"
+      ],
       "status": "accepted",
       "rubricVersion": "semantic-v2",
-      "reasonCodes": [
-        "semantic-content-review",
-        "Acht belemmeringscategorieën koppelen teamobservatie aan interventies en grenzen van coaching; bruikbare werkchecklist, maar generieke adviezen en illustratieve cases zijn geen effectbewijs."
-      ],
       "evidenceRefs": [
-        ".tmp/readwise/review-20261016T055519Z/priority-evidence.json#documents.01m50n6kgyxncs1chxyr6qkwgm",
-        ".tmp/readwise/review-20261016T055519Z/profiles/snapshot.json#01m50n6kgyxncs1chxyr6qkwgm"
+        ".tmp/readwise/priority-evidence.json#documents.01m50n6kgyxncs1chxyr6qkwgm"
       ],
-      "judgedBy": "codex-semantic-review-20261016T055519Z",
-      "judgedAt": "2026-10-16T06:00:41.280Z"
+      "judgedBy": "codex-semantic-review-2026-10-16",
+      "judgedAt": "2026-10-16T10:45:00Z"
     },
     "01m50n6gx619wydjfjq1wbc4ke": {
       "sourceFingerprint": "bd23c8a6830834d19d70a9bb561003876e71fd7c8e50ce645e995235a7d38060",
@@ -27172,10 +27258,22 @@
       "relevance": 4,
       "substance": 4,
       "durability": 4,
-      "usefulness": 2,
+      "usefulness": 4,
       "sequenceFit": {
-        "lees": 1,
+        "video": 0,
+        "boek": 0,
+        "pdf": 0,
+        "lees": 2,
+        "dutch": 0,
+        "short": 0,
+        "short-dutch": 0,
+        "luchtig": 0,
+        "luchtig-nederlands": 0,
+        "scrum": 0,
+        "software-development": 0,
+        "front-end-development": 0,
         "social-studies": 2,
+        "adhd": 0,
         "philosophy": 2
       },
       "topicRelevance": {
@@ -27186,32 +27284,44 @@
         "adhd": 0,
         "philosophy": 4
       },
-      "confidence": "medium",
+      "confidence": "high",
+      "reasonCodes": [
+        "semantic-review-2026-10-16",
+        "evidence:title-summary-notes-tags",
+        "independent-content-assessment"
+      ],
       "status": "accepted",
       "rubricVersion": "semantic-v2",
-      "reasonCodes": [
-        "semantic-content-review",
-        "De samenhang tussen markt-afhankelijkheid, juridisch ontwerp en klassenmacht sluit sterk aan op sociale/politieke filosofie; expliciete mechanismen bieden diepgang, de hervormingsagenda is normatief en begripsrijk."
-      ],
       "evidenceRefs": [
-        ".tmp/readwise/review-20261016T055519Z/priority-evidence.json#documents.01m50n6gx619wydjfjq1wbc4ke",
-        ".tmp/readwise/review-20261016T055519Z/profiles/snapshot.json#01m50n6gx619wydjfjq1wbc4ke"
+        ".tmp/readwise/priority-evidence.json#documents.01m50n6gx619wydjfjq1wbc4ke"
       ],
-      "judgedBy": "codex-semantic-review-20261016T055519Z",
-      "judgedAt": "2026-10-16T06:00:41.280Z"
+      "judgedBy": "codex-semantic-review-2026-10-16",
+      "judgedAt": "2026-10-16T10:45:00Z"
     },
     "01m50n6dyfbfy91gvy25mp411t": {
       "sourceFingerprint": "680212af403011197f567163c9bb49a93ba9f170374bf836cc19065cd2dd96c6",
       "evidenceFingerprint": "e4a2607037825f1fc3addb3b28a25bae37cc2392a3f2fa949ffadc479f923ddc",
       "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
-      "relevance": 3,
-      "substance": 3,
+      "relevance": 4,
+      "substance": 4,
       "durability": 4,
-      "usefulness": 2,
+      "usefulness": 3,
       "sequenceFit": {
-        "lees": 1,
+        "video": 0,
+        "boek": 0,
+        "pdf": 0,
+        "lees": 2,
+        "dutch": 0,
+        "short": 0,
+        "short-dutch": 0,
+        "luchtig": 0,
+        "luchtig-nederlands": 0,
+        "scrum": 0,
+        "software-development": 0,
+        "front-end-development": 0,
         "social-studies": 2,
-        "philosophy": 1
+        "adhd": 0,
+        "philosophy": 2
       },
       "topicRelevance": {
         "scrum": 0,
@@ -27219,33 +27329,45 @@
         "front-end-development": 0,
         "social-studies": 4,
         "adhd": 0,
-        "philosophy": 3
+        "philosophy": 4
       },
-      "confidence": "medium",
+      "confidence": "high",
+      "reasonCodes": [
+        "semantic-review-2026-10-16",
+        "evidence:title-summary-notes-tags",
+        "independent-content-assessment"
+      ],
       "status": "accepted",
       "rubricVersion": "semantic-v2",
-      "reasonCodes": [
-        "semantic-content-review",
-        "De recensie verbindt nationalisering met organisatiekracht, ideologie en alledaagse interactie en formuleert tegenwerpingen; sterke sociologische aansluiting, maar compact en theoretisch veeleisend."
-      ],
       "evidenceRefs": [
-        ".tmp/readwise/review-20261016T055519Z/priority-evidence.json#documents.01m50n6dyfbfy91gvy25mp411t",
-        ".tmp/readwise/review-20261016T055519Z/profiles/snapshot.json#01m50n6dyfbfy91gvy25mp411t"
+        ".tmp/readwise/priority-evidence.json#documents.01m50n6dyfbfy91gvy25mp411t"
       ],
-      "judgedBy": "codex-semantic-review-20261016T055519Z",
-      "judgedAt": "2026-10-16T06:00:41.280Z"
+      "judgedBy": "codex-semantic-review-2026-10-16",
+      "judgedAt": "2026-10-16T10:45:00Z"
     },
     "01m50n6aq5pn58z6m5mjzfkrf8": {
       "sourceFingerprint": "bc9184e30201ec72161ac9f11ebaa20de399e02222a6497bf5565bc095a97be1",
       "evidenceFingerprint": "120ac331af0547e4c1686b7e66a0bebe1c3711af16bb6ea0f9205b03d0724bc4",
       "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
       "relevance": 4,
-      "substance": 4,
-      "durability": 3,
-      "usefulness": 3,
+      "substance": 3,
+      "durability": 4,
+      "usefulness": 4,
       "sequenceFit": {
-        "lees": 1,
+        "video": 0,
+        "boek": 0,
+        "pdf": 0,
+        "lees": 2,
+        "dutch": 0,
+        "short": 0,
+        "short-dutch": 0,
+        "luchtig": 0,
+        "luchtig-nederlands": 0,
+        "scrum": 0,
+        "software-development": 0,
+        "front-end-development": 0,
         "social-studies": 2,
+        "adhd": 0,
         "philosophy": 2
       },
       "topicRelevance": {
@@ -27256,19 +27378,19 @@
         "adhd": 0,
         "philosophy": 4
       },
-      "confidence": "medium",
+      "confidence": "high",
+      "reasonCodes": [
+        "semantic-review-2026-10-16",
+        "evidence:title-summary-notes-tags",
+        "independent-content-assessment"
+      ],
       "status": "accepted",
       "rubricVersion": "semantic-v2",
-      "reasonCodes": [
-        "semantic-content-review",
-        "Individu, gemeenschap, staatssoevereiniteit en pluralistische alternatieven voor liberalisme raken de filosofische kernvragen rechtstreeks; systematische argumentatie vanuit een expliciet betrokken postliberaal perspectief."
-      ],
       "evidenceRefs": [
-        ".tmp/readwise/review-20261016T055519Z/priority-evidence.json#documents.01m50n6aq5pn58z6m5mjzfkrf8",
-        ".tmp/readwise/review-20261016T055519Z/profiles/snapshot.json#01m50n6aq5pn58z6m5mjzfkrf8"
+        ".tmp/readwise/priority-evidence.json#documents.01m50n6aq5pn58z6m5mjzfkrf8"
       ],
-      "judgedBy": "codex-semantic-review-20261016T055519Z",
-      "judgedAt": "2026-10-16T06:00:41.280Z"
+      "judgedBy": "codex-semantic-review-2026-10-16",
+      "judgedAt": "2026-10-16T10:45:00Z"
     },
     "01m50n66d6sqs636zzz5fg2sqs": {
       "sourceFingerprint": "4e314a5d0e524bf5084247cf7a67a7c6065b23331f44077f3395366901ae87f3",
@@ -27277,33 +27399,45 @@
       "relevance": 4,
       "substance": 4,
       "durability": 4,
-      "usefulness": 3,
+      "usefulness": 4,
       "sequenceFit": {
-        "lees": 1,
-        "social-studies": 1,
-        "philosophy": 1
+        "video": 0,
+        "boek": 0,
+        "pdf": 0,
+        "lees": 2,
+        "dutch": 0,
+        "short": 0,
+        "short-dutch": 0,
+        "luchtig": 0,
+        "luchtig-nederlands": 0,
+        "scrum": 0,
+        "software-development": 0,
+        "front-end-development": 0,
+        "social-studies": 2,
+        "adhd": 0,
+        "philosophy": 2
       },
       "topicRelevance": {
         "scrum": 0,
         "software-development": 1,
-        "front-end-development": 0,
-        "social-studies": 3,
+        "front-end-development": 1,
+        "social-studies": 2,
         "adhd": 0,
-        "philosophy": 3
+        "philosophy": 4
       },
-      "confidence": "medium",
+      "confidence": "high",
+      "reasonCodes": [
+        "semantic-review-2026-10-16",
+        "evidence:title-summary-notes-tags",
+        "independent-content-assessment"
+      ],
       "status": "accepted",
       "rubricVersion": "semantic-v2",
-      "reasonCodes": [
-        "semantic-content-review",
-        "De genealogie van meetbare geletterdheid, informatietheorie en auteurschap biedt diepgang over betekenis en schrijven; onderwijs is de casus, maar het essay gaat inhoudelijk verder dan klaspraktijk en AI-paniek."
-      ],
       "evidenceRefs": [
-        ".tmp/readwise/review-20261016T055519Z/priority-evidence.json#documents.01m50n66d6sqs636zzz5fg2sqs",
-        ".tmp/readwise/review-20261016T055519Z/profiles/snapshot.json#01m50n66d6sqs636zzz5fg2sqs"
+        ".tmp/readwise/priority-evidence.json#documents.01m50n66d6sqs636zzz5fg2sqs"
       ],
-      "judgedBy": "codex-semantic-review-20261016T055519Z",
-      "judgedAt": "2026-10-16T06:00:41.280Z"
+      "judgedBy": "codex-semantic-review-2026-10-16",
+      "judgedAt": "2026-10-16T10:45:00Z"
     },
     "01m50n63bxq4hwmsdmd7va552f": {
       "sourceFingerprint": "f3f475407495b3bcd00a6745183df1f8dc07a58f9428d99215e77e80915fb7c0",
@@ -27312,10 +27446,22 @@
       "relevance": 4,
       "substance": 4,
       "durability": 4,
-      "usefulness": 2,
+      "usefulness": 4,
       "sequenceFit": {
-        "lees": 1,
+        "video": 0,
+        "boek": 0,
+        "pdf": 0,
+        "lees": 2,
+        "dutch": 0,
+        "short": 0,
+        "short-dutch": 0,
+        "luchtig": 0,
+        "luchtig-nederlands": 0,
+        "scrum": 0,
+        "software-development": 0,
+        "front-end-development": 0,
         "social-studies": 2,
+        "adhd": 0,
         "philosophy": 1
       },
       "topicRelevance": {
@@ -27324,21 +27470,21 @@
         "front-end-development": 0,
         "social-studies": 4,
         "adhd": 0,
-        "philosophy": 2
+        "philosophy": 3
       },
-      "confidence": "medium",
+      "confidence": "high",
+      "reasonCodes": [
+        "semantic-review-2026-10-16",
+        "evidence:title-summary-notes-tags",
+        "independent-content-assessment"
+      ],
       "status": "accepted",
       "rubricVersion": "semantic-v2",
-      "reasonCodes": [
-        "semantic-content-review",
-        "Blochs vergelijkende sociale geschiedenis verbindt instituties, materiële verhoudingen en betekenis met synthese; sterke historische en sociologische aansluiting, minder directe praktische toepassing."
-      ],
       "evidenceRefs": [
-        ".tmp/readwise/review-20261016T055519Z/priority-evidence.json#documents.01m50n63bxq4hwmsdmd7va552f",
-        ".tmp/readwise/review-20261016T055519Z/profiles/snapshot.json#01m50n63bxq4hwmsdmd7va552f"
+        ".tmp/readwise/priority-evidence.json#documents.01m50n63bxq4hwmsdmd7va552f"
       ],
-      "judgedBy": "codex-semantic-review-20261016T055519Z",
-      "judgedAt": "2026-10-16T06:00:41.280Z"
+      "judgedBy": "codex-semantic-review-2026-10-16",
+      "judgedAt": "2026-10-16T10:45:00Z"
     },
     "01m51wmp7hecvkgrp86zhbj6y1": {
       "sourceFingerprint": "1de61a7ffa28b8a554d2e97a5ec44bfd4811149afd4f0e091899c3762c1ee7ff",
