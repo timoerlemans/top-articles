@@ -11609,32 +11609,34 @@
       "reason": "Video is volgens de profielrubric uitgesloten van het leesmenu."
     },
     "01m4jp3vhk3qx5yqvn7cp99fmg": {
-      "rubricVersion": "reading-profile-v2",
-      "sourceFingerprint": "1e2dd9dfb04c2bb97406bb6e3b4e6ec11edf61b82fda92eea82b695042e1b6cc",
-      "evidenceFingerprint": "559541de89ff02bffe01bdbfc4c468996012dbb1a4e240f881869646e5a93ea4",
-      "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
-      "judgedBy": "codex-reading-profile-reset-review-2026-10-15",
-      "judgedAt": "2026-10-15T00:00:00Z",
-      "evidenceRefs": [
-        ".tmp/readwise/reading-profile-v2-migration-reset-2026-10-15/batch-019.json#documents.01m4jp3vhk3qx5yqvn7cp99fmg"
-      ],
       "status": "accepted",
       "confidence": "medium",
-      "reason": "V2-traits opnieuw beoordeeld vanuit de actuele brontekst, samenvatting, notities en contentcontext.",
+      "reason": "Dertien zelfstandige wetmatigheden met uitleg en comics; enige engineeringcontext nodig, emotioneel licht en uitstekend in afzonderlijke delen leesbaar.",
       "traits": {
         "effort": 2,
-        "emotionalWeight": 3,
+        "emotionalWeight": 1,
         "tone": "speels",
         "needFit": {
-          "ontspannen": 3,
-          "afleiding": 3,
-          "herkenning": 3,
-          "verkennen": 2,
+          "ontspannen": 2,
+          "afleiding": 2,
+          "herkenning": 4,
+          "verkennen": 3,
           "verdieping": 3
         },
-        "activation": 3,
+        "activation": 2,
         "interruptibility": 4
-      }
+      },
+      "rubricVersion": "reading-profile-v2",
+      "sourceFingerprint": "621106dcfbb642a34a91ec96f4d498151dfd4bf3299c7de375560e0e18283375",
+      "evidenceFingerprint": "57144c4c02f369089f7b6c208e9a80633be4bcc84313e8c86c509039ea3a44ef",
+      "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
+      "judgedBy": "codex-readwise-inbox-profile-review-20261015T202825Z",
+      "judgedAt": "2026-10-15T21:07:48.307Z",
+      "evidenceRefs": [
+        ".tmp/readwise/inbox-semantic-20261015T202825Z/profiles/snapshot.json#documents.01m4jp3vhk3qx5yqvn7cp99fmg",
+        "content",
+        "notes"
+      ]
     },
     "01m4jp3xvpfnnr7d03trmxw5ny": {
       "rubricVersion": "reading-profile-v2",
@@ -13329,6 +13331,483 @@
       "status": "rejected",
       "confidence": "high",
       "reason": "Video is volgens de profielrubric uitgesloten van het leesmenu."
+    },
+    "01m5047m2h6rg4yac579cq8h45": {
+      "status": "accepted",
+      "confidence": "medium",
+      "reason": "Korte, toegankelijke uitleg met één centrale metafoor en zelfstandige praktische voorbeelden; mild reflectief, gemakkelijk te onderbreken.",
+      "traits": {
+        "effort": 1,
+        "emotionalWeight": 1,
+        "tone": "warm",
+        "needFit": {
+          "ontspannen": 3,
+          "afleiding": 3,
+          "herkenning": 4,
+          "verkennen": 3,
+          "verdieping": 1
+        },
+        "activation": 1,
+        "interruptibility": 4
+      },
+      "rubricVersion": "reading-profile-v2",
+      "sourceFingerprint": "f11506b7e367824164dd8c2ee13e809cef5a811d8c6318689e1c8efe3854e19e",
+      "evidenceFingerprint": "efe8a9cc4b18cc144a0e035259b78148d463ca91e1d08b6c25f3e72b82751af1",
+      "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
+      "judgedBy": "codex-readwise-inbox-profile-review-20261015T202825Z",
+      "judgedAt": "2026-10-15T21:07:48.307Z",
+      "evidenceRefs": [
+        ".tmp/readwise/inbox-semantic-20261015T202825Z/profiles/snapshot.json#documents.01m5047m2h6rg4yac579cq8h45",
+        "content",
+        "notes"
+      ]
+    },
+    "01m4zyxsb59qr3v6e8t0tvtn61": {
+      "status": "accepted",
+      "confidence": "medium",
+      "reason": "Gestructureerde voorbeeldcasus met interviews, afhankelijkheden en metrics; vraagt aandacht en nodigt uit tot teamanalyse, maar secties zijn goed hervatbaar.",
+      "traits": {
+        "effort": 2,
+        "emotionalWeight": 1,
+        "tone": "zakelijk",
+        "needFit": {
+          "ontspannen": 1,
+          "afleiding": 1,
+          "herkenning": 4,
+          "verkennen": 3,
+          "verdieping": 3
+        },
+        "activation": 3,
+        "interruptibility": 3
+      },
+      "rubricVersion": "reading-profile-v2",
+      "sourceFingerprint": "0eb4a994718ec0754e579f7994aee8f2b2b0c7087de60ab02833f51fe28764a0",
+      "evidenceFingerprint": "4f47f73bb22831e079fc2ac2402753b0d9e2ab061768e70db272a85fdab8edec",
+      "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
+      "judgedBy": "codex-readwise-inbox-profile-review-20261015T202825Z",
+      "judgedAt": "2026-10-15T21:07:48.307Z",
+      "evidenceRefs": [
+        ".tmp/readwise/inbox-semantic-20261015T202825Z/profiles/snapshot.json#documents.01m4zyxsb59qr3v6e8t0tvtn61",
+        "content",
+        "notes"
+      ]
+    },
+    "01m4zx1a1pn6z4da6vt7atg4ce": {
+      "status": "accepted",
+      "confidence": "medium",
+      "reason": "Gelaagd essay verweeft koloniale geschiedenis, juridische personhood en identiteit; geweldspassages en wisselende argumentlijnen vragen rust en doorlopende aandacht.",
+      "traits": {
+        "effort": 3,
+        "emotionalWeight": 3,
+        "tone": "reflectief",
+        "needFit": {
+          "ontspannen": 0,
+          "afleiding": 1,
+          "herkenning": 2,
+          "verkennen": 4,
+          "verdieping": 4
+        },
+        "activation": 3,
+        "interruptibility": 2
+      },
+      "rubricVersion": "reading-profile-v2",
+      "sourceFingerprint": "32b8ccc29fac8d091bae359661cd8d4b6a3586de955a37ea242f6a4d0bdae24c",
+      "evidenceFingerprint": "0fe2b93d9c887205a544ba64d59c19d912a859a2794264fafdde1df2c7f13f45",
+      "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
+      "judgedBy": "codex-readwise-inbox-profile-review-20261015T202825Z",
+      "judgedAt": "2026-10-15T21:07:48.307Z",
+      "evidenceRefs": [
+        ".tmp/readwise/inbox-semantic-20261015T202825Z/profiles/snapshot.json#documents.01m4zx1a1pn6z4da6vt7atg4ce",
+        "content",
+        "notes"
+      ]
+    },
+    "01m4zw0j227bfces7kz3yfy3dt": {
+      "status": "accepted",
+      "confidence": "medium",
+      "reason": "Beeldend kustessay over klimaatverlies, gemeenschappen en radicale hoop; leesbaar maar emotioneel zwaar en inhoudelijk cumulatief.",
+      "traits": {
+        "effort": 2,
+        "emotionalWeight": 3,
+        "tone": "reflectief",
+        "needFit": {
+          "ontspannen": 0,
+          "afleiding": 1,
+          "herkenning": 2,
+          "verkennen": 4,
+          "verdieping": 3
+        },
+        "activation": 2,
+        "interruptibility": 2
+      },
+      "rubricVersion": "reading-profile-v2",
+      "sourceFingerprint": "4276f704f401ba1d6f3e1fdc9d0686165625344559dfc7405fa8d67cd5b7a628",
+      "evidenceFingerprint": "51a78fb5bb21340108da7746322d58cc566892717639c35555afd4f6fec905f4",
+      "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
+      "judgedBy": "codex-readwise-inbox-profile-review-20261015T202825Z",
+      "judgedAt": "2026-10-15T21:07:48.307Z",
+      "evidenceRefs": [
+        ".tmp/readwise/inbox-semantic-20261015T202825Z/profiles/snapshot.json#documents.01m4zw0j227bfces7kz3yfy3dt",
+        "content",
+        "notes"
+      ]
+    },
+    "01m4ztx42svtkd1g63sw5d3qnb": {
+      "status": "accepted",
+      "confidence": "medium",
+      "reason": "Toegankelijk nieuwsbriefessay met herkenbare leerervaringen en een klein experiment; afzonderlijke onderdelen zijn hervatbaar zonder technische studie.",
+      "traits": {
+        "effort": 1,
+        "emotionalWeight": 1,
+        "tone": "warm",
+        "needFit": {
+          "ontspannen": 3,
+          "afleiding": 2,
+          "herkenning": 3,
+          "verkennen": 4,
+          "verdieping": 2
+        },
+        "activation": 2,
+        "interruptibility": 3
+      },
+      "rubricVersion": "reading-profile-v2",
+      "sourceFingerprint": "6c56d63fe50b01ce9c5d4155f2ad440b83819b76fca187149b33cd836d6e9e5c",
+      "evidenceFingerprint": "c327d9d0cc0590f6dac1b9526fccbb9a76cbb8884b8d5cdabd34444af98cad1c",
+      "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
+      "judgedBy": "codex-readwise-inbox-profile-review-20261015T202825Z",
+      "judgedAt": "2026-10-15T21:07:48.307Z",
+      "evidenceRefs": [
+        ".tmp/readwise/inbox-semantic-20261015T202825Z/profiles/snapshot.json#documents.01m4ztx42svtkd1g63sw5d3qnb",
+        "content",
+        "notes"
+      ]
+    },
+    "01m4zr983g97x0p1dgmtave66d": {
+      "status": "accepted",
+      "confidence": "medium",
+      "reason": "Toegankelijke maar samenhangende Camus-uitleg; betekenisloosheid, ziekte en zelfdoding geven gewicht, terwijl de redenering aandacht over secties vraagt.",
+      "traits": {
+        "effort": 2,
+        "emotionalWeight": 2,
+        "tone": "reflectief",
+        "needFit": {
+          "ontspannen": 1,
+          "afleiding": 2,
+          "herkenning": 3,
+          "verkennen": 4,
+          "verdieping": 3
+        },
+        "activation": 2,
+        "interruptibility": 2
+      },
+      "rubricVersion": "reading-profile-v2",
+      "sourceFingerprint": "451b544591ce7dc5c8cd4777ae1988bc9ef6c40c41733d356aac37d898801ba5",
+      "evidenceFingerprint": "2f9f5a5830b7f26708615cdb6720d27c3dda2d48ed6c086ef1da5f0eec2f999f",
+      "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
+      "judgedBy": "codex-readwise-inbox-profile-review-20261015T202825Z",
+      "judgedAt": "2026-10-15T21:07:48.307Z",
+      "evidenceRefs": [
+        ".tmp/readwise/inbox-semantic-20261015T202825Z/profiles/snapshot.json#documents.01m4zr983g97x0p1dgmtave66d",
+        "content",
+        "notes"
+      ]
+    },
+    "01m4zqdk8g45hsbght1q4saa6e": {
+      "status": "accepted",
+      "confidence": "medium",
+      "reason": "Vijf zelfstandige recensiefragmenten maken gefragmenteerd lezen makkelijk; politieke geschiedenis en verslaving verhinderen kwalificatie als volledig licht.",
+      "traits": {
+        "effort": 2,
+        "emotionalWeight": 2,
+        "tone": "reflectief",
+        "needFit": {
+          "ontspannen": 2,
+          "afleiding": 3,
+          "herkenning": 1,
+          "verkennen": 4,
+          "verdieping": 2
+        },
+        "activation": 2,
+        "interruptibility": 4
+      },
+      "rubricVersion": "reading-profile-v2",
+      "sourceFingerprint": "c571d5fc9c5dc45b06cf91e1e4debe96597bc57f2e7794ec1e0825781806ec3b",
+      "evidenceFingerprint": "53ccf39ea6e251e4db3140a7e55776c2e23cb8afead7bbc6fc2712f7ee96f1ef",
+      "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
+      "judgedBy": "codex-readwise-inbox-profile-review-20261015T202825Z",
+      "judgedAt": "2026-10-15T21:07:48.307Z",
+      "evidenceRefs": [
+        ".tmp/readwise/inbox-semantic-20261015T202825Z/profiles/snapshot.json#documents.01m4zqdk8g45hsbght1q4saa6e",
+        "content",
+        "notes"
+      ]
+    },
+    "01m4zmt0x0zw0txrj74ed75g0x": {
+      "status": "accepted",
+      "confidence": "medium",
+      "reason": "Heldere beleidsuitleg met aparte argumenten en nieuwsbriefsecties; enige juridische begrippen, maar geen intensieve technische studie.",
+      "traits": {
+        "effort": 2,
+        "emotionalWeight": 1,
+        "tone": "zakelijk",
+        "needFit": {
+          "ontspannen": 1,
+          "afleiding": 1,
+          "herkenning": 2,
+          "verkennen": 3,
+          "verdieping": 3
+        },
+        "activation": 2,
+        "interruptibility": 3
+      },
+      "rubricVersion": "reading-profile-v2",
+      "sourceFingerprint": "e5f270a7e3eec0b53d3232c0d05726134c156c91916782027b71f9d16035ecc2",
+      "evidenceFingerprint": "40408497701c800b509b977b7b542f507a2538dcce953f66d0f677ec2a42f3ff",
+      "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
+      "judgedBy": "codex-readwise-inbox-profile-review-20261015T202825Z",
+      "judgedAt": "2026-10-15T21:07:48.307Z",
+      "evidenceRefs": [
+        ".tmp/readwise/inbox-semantic-20261015T202825Z/profiles/snapshot.json#documents.01m4zmt0x0zw0txrj74ed75g0x",
+        "content",
+        "notes"
+      ]
+    },
+    "01m4zgwtpgpm2q070xghphge6y": {
+      "status": "accepted",
+      "confidence": "medium",
+      "reason": "Concrete auditieve voorbeelden leiden een methodologische kritiek in; begrip van gedeelde prikkels versus causaliteit vraagt aandacht, zonder emotionele zwaarte.",
+      "traits": {
+        "effort": 2,
+        "emotionalWeight": 0,
+        "tone": "zakelijk",
+        "needFit": {
+          "ontspannen": 2,
+          "afleiding": 2,
+          "herkenning": 2,
+          "verkennen": 4,
+          "verdieping": 3
+        },
+        "activation": 2,
+        "interruptibility": 3
+      },
+      "rubricVersion": "reading-profile-v2",
+      "sourceFingerprint": "004d659f8ef010de5f3b8ef9c456069ef0075d96d8028f5747de048ac257733e",
+      "evidenceFingerprint": "223571ee3e08c8f62d5160f845c52e608759cdbdd8ed5470531566712f25fb45",
+      "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
+      "judgedBy": "codex-readwise-inbox-profile-review-20261015T202825Z",
+      "judgedAt": "2026-10-15T21:07:48.307Z",
+      "evidenceRefs": [
+        ".tmp/readwise/inbox-semantic-20261015T202825Z/profiles/snapshot.json#documents.01m4zgwtpgpm2q070xghphge6y",
+        "content",
+        "notes"
+      ]
+    },
+    "01m4zgcewzqk1gt0q8qwsveyr2": {
+      "status": "accepted",
+      "confidence": "medium",
+      "reason": "Doorlopend literair essay verweeft museumcollecties met de moord op de moeder en onvrijwillige geweldsbeelden; zeer confronterend en lastig los te lezen.",
+      "traits": {
+        "effort": 2,
+        "emotionalWeight": 4,
+        "tone": "intens",
+        "needFit": {
+          "ontspannen": 0,
+          "afleiding": 0,
+          "herkenning": 2,
+          "verkennen": 3,
+          "verdieping": 3
+        },
+        "activation": 3,
+        "interruptibility": 1
+      },
+      "rubricVersion": "reading-profile-v2",
+      "sourceFingerprint": "f82d45c53a9ed3b7cf0220f43d2c47bdef144a5866f1e909f6031c8ef74ef956",
+      "evidenceFingerprint": "9039ad5b515d4f986717f0bc7261252ca8299da986f0823169b37741557327dd",
+      "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
+      "judgedBy": "codex-readwise-inbox-profile-review-20261015T202825Z",
+      "judgedAt": "2026-10-15T21:07:48.307Z",
+      "evidenceRefs": [
+        ".tmp/readwise/inbox-semantic-20261015T202825Z/profiles/snapshot.json#documents.01m4zgcewzqk1gt0q8qwsveyr2",
+        "content",
+        "notes"
+      ]
+    },
+    "01m4zga47vwvsyk1dbmhgk64xx": {
+      "status": "accepted",
+      "confidence": "medium",
+      "reason": "Zelfstandige nieuwsrubrieken en concrete AI-uitleg zijn makkelijk te hervatten; risiconieuws stimuleert, maar is geen diepgaande technische handleiding.",
+      "traits": {
+        "effort": 2,
+        "emotionalWeight": 1,
+        "tone": "zakelijk",
+        "needFit": {
+          "ontspannen": 1,
+          "afleiding": 2,
+          "herkenning": 1,
+          "verkennen": 3,
+          "verdieping": 1
+        },
+        "activation": 2,
+        "interruptibility": 4
+      },
+      "rubricVersion": "reading-profile-v2",
+      "sourceFingerprint": "66ccd478e9c7157c2b7ae772d7a3460aed0385a73a0fd2ac3f595fd58aea5a39",
+      "evidenceFingerprint": "260ba64292793606a6b7ce26a0477bd3855515376052d49bf9c128b2fe6976e6",
+      "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
+      "judgedBy": "codex-readwise-inbox-profile-review-20261015T202825Z",
+      "judgedAt": "2026-10-15T21:07:48.307Z",
+      "evidenceRefs": [
+        ".tmp/readwise/inbox-semantic-20261015T202825Z/profiles/snapshot.json#documents.01m4zga47vwvsyk1dbmhgk64xx",
+        "content",
+        "notes"
+      ]
+    },
+    "01m4zg4dat2md13drdkfq72gqa": {
+      "status": "accepted",
+      "confidence": "medium",
+      "reason": "Humoristische boekentips met een alien-metafoor en herkenbare tijdsdruk; losse boeksecties, milde reflectie en lage concentratiedrempel.",
+      "traits": {
+        "effort": 1,
+        "emotionalWeight": 1,
+        "tone": "speels",
+        "needFit": {
+          "ontspannen": 4,
+          "afleiding": 3,
+          "herkenning": 3,
+          "verkennen": 3,
+          "verdieping": 2
+        },
+        "activation": 1,
+        "interruptibility": 4
+      },
+      "rubricVersion": "reading-profile-v2",
+      "sourceFingerprint": "45b5f345e750c441468c687e38818911c79acbae65bfb356f7588bd51de7326b",
+      "evidenceFingerprint": "d563b8f0d0d50db811697200aa1ab453aab06905f23362dc3c26027fb633ab8e",
+      "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
+      "judgedBy": "codex-readwise-inbox-profile-review-20261015T202825Z",
+      "judgedAt": "2026-10-15T21:07:48.307Z",
+      "evidenceRefs": [
+        ".tmp/readwise/inbox-semantic-20261015T202825Z/profiles/snapshot.json#documents.01m4zg4dat2md13drdkfq72gqa",
+        "content",
+        "notes"
+      ]
+    },
+    "01m4znd8qw60jbsc3f9191nqsk": {
+      "status": "rejected",
+      "confidence": "high",
+      "reason": "Podcast valt buiten de tekstleesprofielrubriek; geen situatiegeschiktheid voor Reader/TTS afgeleid uit audio of shownotes.",
+      "rubricVersion": "reading-profile-v2",
+      "sourceFingerprint": "c3b3f61d0749d17662d224ecd9edc703d9381365af463bbbdc1b36d2c9dfc9df",
+      "evidenceFingerprint": "229120603386abda3ed35cc15565ed1b89a4a636889faff82178755d055e2a16",
+      "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
+      "judgedBy": "codex-readwise-inbox-profile-review-20261015T202825Z",
+      "judgedAt": "2026-10-15T21:07:48.307Z",
+      "evidenceRefs": [
+        ".tmp/readwise/inbox-semantic-20261015T202825Z/profiles/snapshot.json#documents.01m4znd8qw60jbsc3f9191nqsk",
+        "category"
+      ]
+    },
+    "01m4yx7g5d245zs4n2fz2j3nj1": {
+      "status": "rejected",
+      "confidence": "high",
+      "reason": "Video is volgens de leesprofielrubriek uitgesloten; actuele metadata beoordeeld zonder leesmenu-traits te verzinnen.",
+      "rubricVersion": "reading-profile-v2",
+      "sourceFingerprint": "7ed61a2152b0e615b223b1fecb9d770b6bec3d91264b3b3ac7a9d2343ed264fc",
+      "evidenceFingerprint": "6632a009199fc7204ad2368127333cdf87a833669472225f2904ba6d92e7c892",
+      "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
+      "judgedBy": "codex-readwise-inbox-profile-review-20261015T202825Z",
+      "judgedAt": "2026-10-15T21:07:48.307Z",
+      "evidenceRefs": [
+        ".tmp/readwise/inbox-semantic-20261015T202825Z/profiles/snapshot.json#documents.01m4yx7g5d245zs4n2fz2j3nj1",
+        "category"
+      ]
+    },
+    "01m4z5q54rtrdm9myd5phvam7t": {
+      "status": "accepted",
+      "confidence": "medium",
+      "reason": "Persoonlijk muziekessay met toegankelijke psychologie en Schopenhauers metafysica; cumulatieve redenering vraagt aandacht, met mild emotionele herinneringen en weinig directe actiedruk.",
+      "traits": {
+        "effort": 2,
+        "emotionalWeight": 1,
+        "tone": "reflectief",
+        "needFit": {
+          "ontspannen": 2,
+          "afleiding": 3,
+          "herkenning": 3,
+          "verkennen": 4,
+          "verdieping": 3
+        },
+        "activation": 2,
+        "interruptibility": 2
+      },
+      "rubricVersion": "reading-profile-v2",
+      "sourceFingerprint": "198bd0cc6216e3ef36cd0a8951aceb37ce0b9887ba73934d7ba358014337613d",
+      "evidenceFingerprint": "f6b291668245351c9d427786b464b5368b5613a564cda332385df43872f9e58f",
+      "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
+      "judgedBy": "codex-readwise-inbox-profile-review-20261015T202825Z",
+      "judgedAt": "2026-10-16T00:26:44.335Z",
+      "evidenceRefs": [
+        ".tmp/readwise/inbox-semantic-20261015T202825Z/profiles/snapshot.json#documents.01m4z5q54rtrdm9myd5phvam7t",
+        "content"
+      ]
+    },
+    "01m4zdf56rnw5djf4a7sm0x5ex": {
+      "status": "accepted",
+      "confidence": "medium",
+      "reason": "Vijf zelfstandige boekbesprekingen zijn helder en gemakkelijk te hervatten; hongersnood, executies, vervolging en collectief geweld maken de inhoud emotioneel zwaar.",
+      "traits": {
+        "effort": 2,
+        "emotionalWeight": 3,
+        "tone": "zakelijk",
+        "needFit": {
+          "ontspannen": 0,
+          "afleiding": 1,
+          "herkenning": 1,
+          "verkennen": 4,
+          "verdieping": 3
+        },
+        "activation": 2,
+        "interruptibility": 4
+      },
+      "rubricVersion": "reading-profile-v2",
+      "sourceFingerprint": "be0110d13d08361ade399f9cb65935710b2ab79ad488e0239b371c9caeb8f499",
+      "evidenceFingerprint": "eddc8ce1b366d9f5051d6dab15e048f026e9581ad2abd69eea085044297ed2c0",
+      "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
+      "judgedBy": "codex-readwise-inbox-profile-review-20261015T202825Z",
+      "judgedAt": "2026-10-16T00:26:44.335Z",
+      "evidenceRefs": [
+        ".tmp/readwise/inbox-semantic-20261015T202825Z/profiles/snapshot.json#documents.01m4zdf56rnw5djf4a7sm0x5ex",
+        "content"
+      ]
+    },
+    "01m4zdf5nszg2gbkm6wa5ncf7s": {
+      "status": "accepted",
+      "confidence": "medium",
+      "reason": "Lyrisch essay over beweging en poëzie met persoonlijke voorbeelden; eetproblematiek en rouw geven merkbaar gewicht, terwijl afzonderlijke scènes hervatten mogelijk maken.",
+      "traits": {
+        "effort": 2,
+        "emotionalWeight": 2,
+        "tone": "reflectief",
+        "needFit": {
+          "ontspannen": 2,
+          "afleiding": 3,
+          "herkenning": 3,
+          "verkennen": 3,
+          "verdieping": 2
+        },
+        "activation": 2,
+        "interruptibility": 3
+      },
+      "rubricVersion": "reading-profile-v2",
+      "sourceFingerprint": "8b9767c5f490dddca27f730bbe7ed3a1f4349f573be723d60b210d103b7378cd",
+      "evidenceFingerprint": "3f9940adc0d9bdc62be0f1c789674b7a346be43b66888ef52a41dcc94ccefdcc",
+      "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
+      "judgedBy": "codex-readwise-inbox-profile-review-20261015T202825Z",
+      "judgedAt": "2026-10-16T00:26:44.335Z",
+      "evidenceRefs": [
+        ".tmp/readwise/inbox-semantic-20261015T202825Z/profiles/snapshot.json#documents.01m4zdf5nszg2gbkm6wa5ncf7s",
+        "content"
+      ]
     }
   }
 }
