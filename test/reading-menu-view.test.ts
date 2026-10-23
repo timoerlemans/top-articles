@@ -119,6 +119,40 @@ test("the menu opens with the default choices and all budget-fitting course card
   });
 });
 
+test("additional suitable articles stay visible without recording a read", () => {
+  withDom((root, local) => {
+    const catalog = ["a", "b", "c", "d", "e", "f"].map((id) => makeArticle(id, 2));
+    const { data, priority } = fixture(catalog);
+    mountReadingMenu(root as unknown as HTMLElement, data, priority);
+
+    assert.equal(byClass(root, "reading-course-card").length, 3);
+    const extraLinks = byClass(root, "reading-more-candidate-title");
+    assert.deepEqual(extraLinks.map(({ textContent }) => textContent), ["Artikel d", "Artikel e", "Artikel f"]);
+    assert.ok(root.textContent.includes("Meer passende artikelen"));
+    assert.ok(extraLinks.every((link) => link.getAttribute("href")?.startsWith("https://read.readwise.io/read/")));
+
+    extraLinks[0]?.click();
+    assert.deepEqual(historyIds(local), []);
+  });
+});
+
+test("the additional list includes reviewed near matches but excludes unprofiled articles", () => {
+  withDom((root) => {
+    const catalog = [makeArticle("strict", 2), makeArticle("near", 2), makeArticle("unknown", 2)];
+    const { data, priority } = fixture(catalog, {
+      strict: traits,
+      near: { ...traits, effort: 2, activation: 2 },
+    });
+    for (const item of Object.values(priority.items)) { item.sequences = ["software-development"]; }
+    mountReadingMenu(root as unknown as HTMLElement, data, priority);
+    choose(root, "Tijdens het werk");
+
+    assert.deepEqual(byClass(root, "reading-course-title").map(({ textContent }) => textContent), ["Artikel strict"]);
+    assert.deepEqual(byClass(root, "reading-more-candidate-title").map(({ textContent }) => textContent), ["Artikel near"]);
+    assert.ok(!root.textContent.includes("Artikel unknown"));
+  });
+});
+
 test("opening a Reader link does not count as read; explicit confirmation records progress", () => {
   withDom((root, local, session) => {
     const { data, priority } = fixture();

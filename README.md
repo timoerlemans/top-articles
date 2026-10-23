@@ -351,8 +351,13 @@ In bad begint met 20 minuten, weinig energie en Licht & luchtig, met activering
 maximaal 1. Tijdens het werk begint met 10 minuten, weinig energie en Even iets
 anders, met activering maximaal 1 en onderbreekbaarheid minimaal 3. Iedere gang
 moet daarbij horen bij Agile (inclusief teamcoaching), Software development,
-Front-end development of Sociale studies & samenwerking. Als niets past blijft
-het menu leeg; algemene artikelen worden niet als vervanging aangeboden.
+Front-end development of Sociale studies & samenwerking. Als geen volledig
+geprofileerde gang past, blijft het begeleide menu leeg. De site toont daarnaast
+maximaal 25 overige volledig geprofileerde kandidaten uit Later. Ontbrekende of
+onvoldoende beoordeelde profielen worden niet als vervanging aangeboden. De
+aanvullende lijst staat maximaal één profielniveau meer toe voor inspanning,
+emotioneel gewicht, activering en onderbreekbaarheid, met behoud van de
+inhoudelijke situatie-eisen en leestijd.
 
 Luisteren tijdens wandelen begint met 30 minuten, gemiddelde energie en Een frisse
 invalshoek. Voor Reader/TTS gebruikt deze situatie een conservatieve selectie uit

@@ -20,6 +20,10 @@ Een aanbod van één, twee of drie passende gangen uit artikelen, nieuwsbrieven 
 leesbare PDF's in Later. Een ontbrekende gang wordt overgeslagen; iedere gang
 behoudt haar eigen betekenis en één gang kan een complete leessessie zijn.
 De gangen passen bij hetzelfde leesmoment en hoeven niet hetzelfde onderwerp te hebben.
+Onder de gangen staan maximaal 25 overige kandidaten uit dezelfde actuele v2-profielpool.
+Deze aanvullende lijst mag per situatie maximaal één niveau ruimer zijn voor inspanning,
+emotioneel gewicht, activering en onderbreekbaarheid, maar gebruikt geen onbeoordeelde
+catalogusitems als fallback.
 
 **Voorgerecht**:
 Een kort, luchtig leesstuk dat helpt om aan een leessessie te beginnen.

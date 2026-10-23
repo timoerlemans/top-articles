@@ -1,6 +1,6 @@
 import assert from "node:assert/strict";
 import test from "node:test";
-import { startSession, transitionSession, refreshSession } from "../src/reading-menu.js";
+import { startSession, transitionSession, refreshSession, planMenu, rankMenuCandidates, rankAdditionalCandidates } from "../src/reading-menu.js";
 import type { MenuInputs, ReadingMoment, Mood } from "../src/reading-menu.js";
 import { situationDefaults } from "../src/reading-situations.js";
 import type { ArticleItem } from "../src/types/browser-data.js";
@@ -89,6 +89,36 @@ test("during work only offers light, resumable work-related documents", () => {
     active: { score: 60, sequences: ["scrum"] },
   };
   assert.deepEqual(menu(data, situationDefaults("during-work")).map(({ id }) => id), ["development", "coaching"]);
+});
+
+test("candidate pool exposes every suitable work article beyond the guided courses", () => {
+  const ids = ["development", "coaching", "front-end", "scrum", "social", "delivery"];
+  const data: MenuInputs = {
+    catalog: ids.map((id) => article(id, 2)),
+    profiles: Object.fromEntries(ids.map((id) => [id, light])),
+    scores: Object.fromEntries(ids.map((id, index) => [id, { score: 90 - index, sequences: [
+      ["software-development", "social-studies", "front-end-development", "scrum", "social-studies", "scrum"][index] ?? "scrum",
+    ] }])),
+    readIds: [],
+  };
+  const candidates = rankMenuCandidates(data, situationDefaults("during-work"));
+  assert.deepEqual(candidates.map(({ id }) => id), ids);
+  assert.ok(planMenu(data, situationDefaults("during-work")).length < candidates.length);
+});
+
+test("additional candidates use reviewed near-matches without admitting unprofiled documents", () => {
+  const data: MenuInputs = {
+    catalog: [article("strict", 2), article("near", 2), article("unprofiled", 2)],
+    profiles: { strict: light, near: { ...light, effort: 2, activation: 2 } },
+    scores: {
+      strict: { score: 90, sequences: ["software-development"] },
+      near: { score: 80, sequences: ["software-development"] },
+      unprofiled: { score: 100, sequences: ["software-development"] },
+    },
+    readIds: [],
+  };
+  assert.deepEqual(rankMenuCandidates(data, situationDefaults("during-work")).map(({ id }) => id), ["strict"]);
+  assert.deepEqual(rankAdditionalCandidates(data, situationDefaults("during-work")).map(({ id }) => id), ["strict", "near"]);
 });
 
 test("walking listening only offers low-effort text suitable for Reader TTS", () => {

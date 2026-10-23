@@ -1,5 +1,6 @@
 import { isShort } from "./reading-policy.js";
-import { fitsSituation, fitsSituationContent, compareSituationFit } from "./reading-situations.js";
+import { isReadingTraits } from "./reading-profiles.js";
+import { fitsSituation, fitsSituationContent, compareSituationFit, READING_SITUATIONS } from "./reading-situations.js";
 export const READING_MOODS = ["neutraal", "rustig", "nieuwsgierig", "vrolijk", "somber", "gespannen", "vol-hoofd"];
 const COURSES = ["voorgerecht", "hoofdgerecht", "nagerecht"];
 function preferredTones(moment) {
@@ -36,14 +37,18 @@ function savedTime(item) {
     const time = Date.parse(item.savedDate ?? "");
     return Number.isFinite(time) ? time : Number.MAX_SAFE_INTEGER;
 }
-export function planMenu(inputs, moment, excluded = [], start = "voorgerecht", spent = 0) {
+export function rankMenuCandidates(inputs, moment, excluded = [], spent = 0) {
     if (!Number.isFinite(moment.budget) || moment.budget <= 0 || spent < 0 || !Number.isFinite(spent)) {
         return [];
     }
     const blocked = new Set([...inputs.readIds, ...excluded]);
+    const remaining = moment.budget - spent;
+    if (remaining <= 0) {
+        return [];
+    }
     const cap = { weinig: 1, gemiddeld: 2, veel: 4 }[moment.energy];
     const tones = preferredTones(moment);
-    const pool = inputs.catalog.filter((item) => {
+    return inputs.catalog.filter((item) => {
         const profile = inputs.profiles[item.id];
         return !blocked.has(item.id) && ["article", "email", "rss", "pdf"].includes(item.category ?? "")
             && hasReaderLink(item.readwiseUrl)
@@ -51,7 +56,8 @@ export function planMenu(inputs, moment, excluded = [], start = "voorgerecht", s
             && !item.tags.some((tag) => /^(books?|epub)$/i.test(tag))
             && profile && fitsSituation(profile, moment.situation) && fitsSituationContent(profile, moment.situation, item.category, inputs.scores[item.id]?.sequences ?? [])
             && profile.needFit[moment.need] >= 2 && profile.effort <= cap && profile.emotionalWeight <= cap
-            && item.readingMinutes !== null && Number.isFinite(item.readingMinutes) && item.readingMinutes > 0;
+            && item.readingMinutes !== null && Number.isFinite(item.readingMinutes) && item.readingMinutes > 0
+            && item.readingMinutes <= remaining;
     }).sort((a, b) => {
         const ap = inputs.profiles[a.id];
         const bp = inputs.profiles[b.id];
@@ -65,6 +71,77 @@ export function planMenu(inputs, moment, excluded = [], start = "voorgerecht", s
             || (inputs.scores[b.id]?.score ?? 0) - (inputs.scores[a.id]?.score ?? 0)
             || savedTime(a) - savedTime(b) || a.id.localeCompare(b.id);
     });
+}
+function nearSituationFit(profile, situation) {
+    if (!isReadingTraits(profile)) {
+        return false;
+    }
+    const definition = READING_SITUATIONS.find((entry) => entry.id === situation);
+    if (!definition) {
+        return situation === null || situation === undefined;
+    }
+    return (definition.maximumActivation === null || profile.activation <= definition.maximumActivation + 1)
+        && (definition.minimumInterruptibility === null || profile.interruptibility >= Math.max(0, definition.minimumInterruptibility - 1));
+}
+function nearSituationContent(category, sequences, situation) {
+    const definition = READING_SITUATIONS.find((entry) => entry.id === situation);
+    if (!definition) {
+        return situation === null || situation === undefined;
+    }
+    const requiredSequences = "requiredSequences" in definition ? definition.requiredSequences : undefined;
+    const listenable = "listenable" in definition && definition.listenable;
+    if (requiredSequences && !requiredSequences.some((sequence) => sequences.includes(sequence))) {
+        return false;
+    }
+    return !listenable || ["article", "email", "rss"].includes(category ?? "");
+}
+/**
+ * Returns the strict pool plus reviewed near-matches. Near-matches always have
+ * a complete v2 profile; this deliberately never falls back to catalog metadata.
+ */
+export function rankAdditionalCandidates(inputs, moment, excluded = [], spent = 0) {
+    const primary = rankMenuCandidates(inputs, moment, excluded, spent);
+    if (!Number.isFinite(moment.budget) || moment.budget <= 0 || spent < 0 || !Number.isFinite(spent)) {
+        return primary;
+    }
+    const remaining = moment.budget - spent;
+    if (remaining <= 0) {
+        return primary;
+    }
+    const blocked = new Set([...inputs.readIds, ...excluded, ...primary.map(({ id }) => id)]);
+    const cap = Math.min({ weinig: 1, gemiddeld: 2, veel: 4 }[moment.energy] + 1, 4);
+    const tones = preferredTones(moment);
+    const near = inputs.catalog.filter((item) => {
+        const profile = inputs.profiles[item.id];
+        const sequences = inputs.scores[item.id]?.sequences ?? [];
+        return !blocked.has(item.id) && profile && ["article", "email", "rss", "pdf"].includes(item.category ?? "")
+            && hasReaderLink(item.readwiseUrl)
+            && !sequences.includes("boek")
+            && !item.tags.some((tag) => /^(books?|epub)$/i.test(tag))
+            && nearSituationFit(profile, moment.situation)
+            && nearSituationContent(item.category, sequences, moment.situation)
+            && profile.needFit[moment.need] >= 2 && profile.effort <= cap && profile.emotionalWeight <= cap
+            && item.readingMinutes !== null && Number.isFinite(item.readingMinutes) && item.readingMinutes > 0
+            && item.readingMinutes <= remaining;
+    }).sort((a, b) => {
+        const ap = inputs.profiles[a.id];
+        const bp = inputs.profiles[b.id];
+        if (!ap || !bp) {
+            return 0;
+        }
+        return bp.needFit[moment.need] - ap.needFit[moment.need]
+            || Number(tones.includes(bp.tone)) - Number(tones.includes(ap.tone))
+            || (inputs.scores[b.id]?.score ?? 0) - (inputs.scores[a.id]?.score ?? 0)
+            || savedTime(a) - savedTime(b) || a.id.localeCompare(b.id);
+    });
+    return [...primary, ...near];
+}
+export function planMenu(inputs, moment, excluded = [], start = "voorgerecht", spent = 0) {
+    const pool = rankMenuCandidates(inputs, moment, excluded, spent);
+    if (!pool.length) {
+        return [];
+    }
+    const blocked = new Set([...inputs.readIds, ...excluded]);
     let remaining = moment.budget - spent;
     const result = [];
     for (const course of COURSES.slice(COURSES.indexOf(start))) {

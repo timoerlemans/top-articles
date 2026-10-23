@@ -1,4 +1,4 @@
-import { startSession, refreshSession, transitionSession, READING_MOODS } from "./reading-menu.js";
+import { startSession, refreshSession, transitionSession, rankAdditionalCandidates, READING_MOODS } from "./reading-menu.js";
 import { parseHistory, parseSession, reconcileHistory, readStored, writeStored, latestHistory } from "./reading-storage.js";
 import { READING_SITUATIONS, situationDefaults } from "./reading-situations.js";
 const HISTORY_KEY = "top-articles-reading-history-v1";
@@ -285,6 +285,39 @@ export function mountReadingMenu(root, data, priority) {
         }
         return card;
     }
+    function renderAdditionalCandidates(items, total) {
+        const section = node("section");
+        section.className = "reading-more-candidates";
+        section.setAttribute("aria-label", "Meer passende artikelen");
+        section.append(node("h4", `Meer passende artikelen (${total})`), node("p", "Deze artikelen passen ook bij je leesmoment."));
+        const list = node("ul");
+        list.className = "reading-more-candidate-list";
+        for (const item of items) {
+            if (item.readingMinutes === null) {
+                continue;
+            }
+            const row = node("li");
+            row.className = "reading-more-candidate";
+            const title = node("a", item.title);
+            title.className = "reading-more-candidate-title";
+            const href = safeReaderUrl(item.readwiseUrl);
+            if (href) {
+                title.href = href;
+                title.target = "_blank";
+                title.rel = "noopener";
+                title.setAttribute("href", href);
+                title.setAttribute("target", "_blank");
+                title.setAttribute("rel", "noopener");
+                title.setAttribute("aria-label", `${item.title} openen in Readwise Reader, in een nieuw tabblad`);
+            }
+            const time = node("span", `${item.readingMinutes} min`);
+            time.className = "reading-more-candidate-time";
+            row.append(title, time);
+            list.append(row);
+        }
+        section.append(list);
+        return section;
+    }
     function updateUI(focusCurrent = false) {
         const active = session;
         const moment = active?.moment ?? DEFAULT_MOMENT;
@@ -314,12 +347,18 @@ export function mountReadingMenu(root, data, priority) {
         }
         else {
             const proposals = active.proposals;
+            const proposalIds = new Set(proposals.map(({ id }) => id));
+            const allCandidateItems = rankAdditionalCandidates(inputs(), moment, [...active.excluded, ...active.completed.map(({ id }) => id)], active.confirmedMinutes)
+                .filter(({ id }) => !proposalIds.has(id));
+            const candidateItems = allCandidateItems.slice(0, 25);
             status.append(node("p", `${active.confirmedMinutes} min bevestigd gelezen · ${active.plannedMinutes} min voorgesteld · ${active.moment.budget} min totaal`));
             if (!proposals.length) {
                 const budgetSpent = active.confirmedMinutes >= active.moment.budget;
                 courses.append(node("p", budgetSpent
                     ? "Je gekozen leestijd is opgebruikt. Kies meer tijd om verder te lezen, of rond je leesmoment af."
-                    : "Geen passende artikelen voor dit leesmoment. Pas je tijd, leesbehoefte of leesenergie aan."));
+                    : allCandidateItems.length
+                        ? "Er zijn geen passende gangen voor dit leesmoment. Bekijk hieronder de overige passende artikelen uit Later, of pas je instellingen aan."
+                        : "Geen passende artikelen voor dit leesmoment. Pas je tijd, leesbehoefte of leesenergie aan."));
                 courses.append(button(budgetSpent ? "Pas leestijd aan" : "Pas je leesmoment aan", () => {
                     adjustments.open = true;
                     const group = budgetSpent ? budgetGroup : needGroup;
@@ -338,6 +377,9 @@ export function mountReadingMenu(root, data, priority) {
                     currentCard = card;
                 }
                 courses.append(card);
+            }
+            if (candidateItems.length) {
+                courses.append(renderAdditionalCandidates(candidateItems, allCandidateItems.length));
             }
         }
         renderHistory();
