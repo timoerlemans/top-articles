@@ -30805,6 +30805,173 @@
       ],
       "judgedBy": "codex-readwise-inbox-semantic-v2-2026-10-23",
       "judgedAt": "2026-10-23T00:00:00Z"
+    },
+    "01m5ktvspsrr4csphss6vtrnjb": {
+      "sourceFingerprint": "81b2b3a4d111e0acc5d2d4ffe4fe2dd9c88802beb0eb48b65620a1c324c78679",
+      "evidenceFingerprint": "d9c2abf732b8a4e5b200e1b559b897e4cac9c667ddec2daa1213c4c8dc9dc643",
+      "relevance": 4,
+      "substance": 2,
+      "durability": 2,
+      "usefulness": 2,
+      "sequenceFit": {
+        "lees": 2,
+        "dutch": 2,
+        "short": 1
+      },
+      "topicRelevance": {
+        "scrum": 0,
+        "software-development": 0,
+        "front-end-development": 0,
+        "social-studies": 2,
+        "adhd": 0,
+        "philosophy": 3
+      },
+      "confidence": "medium",
+      "reasonCodes": [
+        "inbox-semantic-v2-2026-10-23b",
+        "evidence:title-summary-notes-highlights-tags"
+      ],
+      "status": "accepted",
+      "rubricVersion": "semantic-v2",
+      "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
+      "evidenceRefs": [
+        ".tmp/readwise/inbox-pipeline-2026-10-23b/priority-evidence.json#documents.01m5ktvspsrr4csphss6vtrnjb"
+      ],
+      "judgedBy": "codex-readwise-inbox-semantic-v2-2026-10-23b",
+      "judgedAt": "2026-10-23T00:00:00Z"
+    },
+    "01m5ktvddwd780c04z4y29bgk7": {
+      "sourceFingerprint": "666b34693e4b72be0ec6f32e861ef5b65e2cc25eda605c4ea6c2fcaf0df37b70",
+      "evidenceFingerprint": "dac3f71da2ffd94275faece10c41d0acaaf36d4165677cbb3ef8f05593614392",
+      "relevance": 3,
+      "substance": 2,
+      "durability": 2,
+      "usefulness": 1,
+      "sequenceFit": {
+        "lees": 2,
+        "luchtig": 1
+      },
+      "topicRelevance": {
+        "scrum": 0,
+        "software-development": 0,
+        "front-end-development": 0,
+        "social-studies": 0,
+        "adhd": 0,
+        "philosophy": 1
+      },
+      "confidence": "medium",
+      "reasonCodes": [
+        "inbox-semantic-v2-2026-10-23b",
+        "evidence:title-summary-notes-highlights-tags"
+      ],
+      "status": "accepted",
+      "rubricVersion": "semantic-v2",
+      "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
+      "evidenceRefs": [
+        ".tmp/readwise/inbox-pipeline-2026-10-23b/priority-evidence.json#documents.01m5ktvddwd780c04z4y29bgk7"
+      ],
+      "judgedBy": "codex-readwise-inbox-semantic-v2-2026-10-23b",
+      "judgedAt": "2026-10-23T00:00:00Z"
+    },
+    "01m5ktv8k1xcvnvvbhyxr9k8fk": {
+      "sourceFingerprint": "ff0dcc2ee455c4296902e9c2629c76a211fd2b973ed9e36bbc50d758420bb1ff",
+      "evidenceFingerprint": "494301b388941182d82b1175487ae667e03799f53d050e20df079c51dafee57f",
+      "relevance": 3,
+      "substance": 2,
+      "durability": 2,
+      "usefulness": 1,
+      "sequenceFit": {
+        "lees": 2,
+        "luchtig": 1
+      },
+      "topicRelevance": {
+        "scrum": 0,
+        "software-development": 0,
+        "front-end-development": 0,
+        "social-studies": 0,
+        "adhd": 0,
+        "philosophy": 1
+      },
+      "confidence": "medium",
+      "reasonCodes": [
+        "inbox-semantic-v2-2026-10-23b",
+        "evidence:title-summary-notes-highlights-tags"
+      ],
+      "status": "accepted",
+      "rubricVersion": "semantic-v2",
+      "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
+      "evidenceRefs": [
+        ".tmp/readwise/inbox-pipeline-2026-10-23b/priority-evidence.json#documents.01m5ktv8k1xcvnvvbhyxr9k8fk"
+      ],
+      "judgedBy": "codex-readwise-inbox-semantic-v2-2026-10-23b",
+      "judgedAt": "2026-10-23T00:00:00Z"
+    },
+    "01kc0e03njf627g8qc72g98z28": {
+      "sourceFingerprint": "23cdb97482a2c550f5d82a236ed041be109238f24b795df381bd28b5195570b5",
+      "evidenceFingerprint": "4fd16d244b8f953bbfa2f8fb61ad0bbfa1279c1a810929cb062fa4c3bb7f757e",
+      "relevance": 4,
+      "substance": 3,
+      "durability": 4,
+      "usefulness": 4,
+      "sequenceFit": {
+        "lees": 2,
+        "software-development": 2,
+        "front-end-development": 1
+      },
+      "topicRelevance": {
+        "scrum": 1,
+        "software-development": 4,
+        "front-end-development": 3,
+        "social-studies": 2,
+        "adhd": 0,
+        "philosophy": 1
+      },
+      "confidence": "high",
+      "reasonCodes": [
+        "inbox-semantic-v2-2026-10-23b",
+        "evidence:title-summary-notes-highlights-tags"
+      ],
+      "status": "accepted",
+      "rubricVersion": "semantic-v2",
+      "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
+      "evidenceRefs": [
+        ".tmp/readwise/inbox-pipeline-2026-10-23b/priority-evidence.json#documents.01kc0e03njf627g8qc72g98z28"
+      ],
+      "judgedBy": "codex-readwise-inbox-semantic-v2-2026-10-23b",
+      "judgedAt": "2026-10-23T00:00:00Z"
+    },
+    "01j79kewgmtnzh90zqn8ecv0at": {
+      "sourceFingerprint": "6053607f5944884557ea9b6987dcf2941aa67aefa3f8725ae5c642104bc05e0a",
+      "evidenceFingerprint": "352538dd5cc29e0804a3038b76e8b1e74f76f9c7b5ad2bcee2de817c6bf475a2",
+      "relevance": 4,
+      "substance": 4,
+      "durability": 4,
+      "usefulness": 3,
+      "sequenceFit": {
+        "lees": 2,
+        "philosophy": 1
+      },
+      "topicRelevance": {
+        "scrum": 0,
+        "software-development": 0,
+        "front-end-development": 0,
+        "social-studies": 1,
+        "adhd": 0,
+        "philosophy": 4
+      },
+      "confidence": "high",
+      "reasonCodes": [
+        "inbox-semantic-v2-2026-10-23b",
+        "evidence:title-summary-notes-highlights-tags"
+      ],
+      "status": "accepted",
+      "rubricVersion": "semantic-v2",
+      "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
+      "evidenceRefs": [
+        ".tmp/readwise/inbox-pipeline-2026-10-23b/priority-evidence.json#documents.01j79kewgmtnzh90zqn8ecv0at"
+      ],
+      "judgedBy": "codex-readwise-inbox-semantic-v2-2026-10-23b",
+      "judgedAt": "2026-10-23T00:00:00Z"
     }
   }
 }

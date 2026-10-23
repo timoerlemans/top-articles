@@ -15919,6 +15919,146 @@
       "evidenceRefs": [
         ".tmp/readwise/inbox-pipeline-2026-10-23/reading-profiles/snapshot.json#documents.01m5kh3405p49fvxq2rksg70e7"
       ]
+    },
+    "01m5ktvspsrr4csphss6vtrnjb": {
+      "rubricVersion": "reading-profile-v2",
+      "sourceFingerprint": "1b569a9c7154342db8e4e2d16bef6a1b47a4177262aed05bdb5904cfd65462f2",
+      "evidenceFingerprint": "4e0cb2bd271fb129a0f51189bbca21c1d6d03f97dfa0af387d3c98a6bbba4018",
+      "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
+      "judgedBy": "codex-readwise-inbox-profile-v2-2026-10-23b",
+      "judgedAt": "2026-10-23T00:00:00Z",
+      "evidenceRefs": [
+        ".tmp/readwise/inbox-pipeline-2026-10-23b/reading-profiles/snapshot.json#documents.01m5ktvspsrr4csphss6vtrnjb"
+      ],
+      "status": "accepted",
+      "confidence": "medium",
+      "reason": "Actueel v2-profiel beoordeeld vanuit volledige brontekst, samenvatting, inhoudstags en de leesvoorkeuren; ratings zijn inhoudelijk afgeleid en onafhankelijk van prioriteit of rangpositie.",
+      "traits": {
+        "effort": 1,
+        "emotionalWeight": 3,
+        "tone": "intens",
+        "needFit": {
+          "ontspannen": 1,
+          "afleiding": 1,
+          "herkenning": 2,
+          "verkennen": 3,
+          "verdieping": 2
+        },
+        "activation": 3,
+        "interruptibility": 4
+      }
+    },
+    "01m5ktvddwd780c04z4y29bgk7": {
+      "rubricVersion": "reading-profile-v2",
+      "sourceFingerprint": "f44508c103ddc4370a3cb932362ec5a3fb49445df02991fb7186571e8fcd9981",
+      "evidenceFingerprint": "a433296dfce520e1b530d3ac0204550f2c6749fcfcb7048868d8cbb65bc58bdc",
+      "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
+      "judgedBy": "codex-readwise-inbox-profile-v2-2026-10-23b",
+      "judgedAt": "2026-10-23T00:00:00Z",
+      "evidenceRefs": [
+        ".tmp/readwise/inbox-pipeline-2026-10-23b/reading-profiles/snapshot.json#documents.01m5ktvddwd780c04z4y29bgk7"
+      ],
+      "status": "accepted",
+      "confidence": "medium",
+      "reason": "Actueel v2-profiel beoordeeld vanuit volledige brontekst, samenvatting, inhoudstags en de leesvoorkeuren; ratings zijn inhoudelijk afgeleid en onafhankelijk van prioriteit of rangpositie.",
+      "traits": {
+        "effort": 2,
+        "emotionalWeight": 2,
+        "tone": "speels",
+        "needFit": {
+          "ontspannen": 4,
+          "afleiding": 4,
+          "herkenning": 1,
+          "verkennen": 3,
+          "verdieping": 2
+        },
+        "activation": 2,
+        "interruptibility": 4
+      }
+    },
+    "01m5ktv8k1xcvnvvbhyxr9k8fk": {
+      "rubricVersion": "reading-profile-v2",
+      "sourceFingerprint": "19ff58d8819ff9e343bf54ecf54e0a9f9d74cac92182a7362edec26d4d681c03",
+      "evidenceFingerprint": "414bd2cc108448155572a496f4e11cfddefd19407e20ed3b4cb1f21ecdd01898",
+      "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
+      "judgedBy": "codex-readwise-inbox-profile-v2-2026-10-23b",
+      "judgedAt": "2026-10-23T00:00:00Z",
+      "evidenceRefs": [
+        ".tmp/readwise/inbox-pipeline-2026-10-23b/reading-profiles/snapshot.json#documents.01m5ktv8k1xcvnvvbhyxr9k8fk"
+      ],
+      "status": "accepted",
+      "confidence": "medium",
+      "reason": "Actueel v2-profiel beoordeeld vanuit volledige brontekst, samenvatting, inhoudstags en de leesvoorkeuren; ratings zijn inhoudelijk afgeleid en onafhankelijk van prioriteit of rangpositie.",
+      "traits": {
+        "effort": 2,
+        "emotionalWeight": 2,
+        "tone": "speels",
+        "needFit": {
+          "ontspannen": 4,
+          "afleiding": 4,
+          "herkenning": 1,
+          "verkennen": 4,
+          "verdieping": 2
+        },
+        "activation": 2,
+        "interruptibility": 4
+      }
+    },
+    "01kc0e03njf627g8qc72g98z28": {
+      "rubricVersion": "reading-profile-v2",
+      "sourceFingerprint": "23cdb97482a2c550f5d82a236ed041be109238f24b795df381bd28b5195570b5",
+      "evidenceFingerprint": "c6d0ea8adb365e93143ab77c9eea03a67d81d3d3e5e968f2e90ac4f2ff109c6e",
+      "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
+      "judgedBy": "codex-readwise-inbox-profile-v2-2026-10-23b",
+      "judgedAt": "2026-10-23T00:00:00Z",
+      "evidenceRefs": [
+        ".tmp/readwise/inbox-pipeline-2026-10-23b/reading-profiles/snapshot.json#documents.01kc0e03njf627g8qc72g98z28"
+      ],
+      "status": "accepted",
+      "confidence": "medium",
+      "reason": "Actueel v2-profiel beoordeeld vanuit volledige brontekst, samenvatting, inhoudstags en de leesvoorkeuren; ratings zijn inhoudelijk afgeleid en onafhankelijk van prioriteit of rangpositie.",
+      "traits": {
+        "effort": 3,
+        "emotionalWeight": 1,
+        "tone": "zakelijk",
+        "needFit": {
+          "ontspannen": 1,
+          "afleiding": 1,
+          "herkenning": 2,
+          "verkennen": 3,
+          "verdieping": 4
+        },
+        "activation": 4,
+        "interruptibility": 3
+      }
+    },
+    "01j79kewgmtnzh90zqn8ecv0at": {
+      "rubricVersion": "reading-profile-v2",
+      "sourceFingerprint": "6053607f5944884557ea9b6987dcf2941aa67aefa3f8725ae5c642104bc05e0a",
+      "evidenceFingerprint": "4da6dfa0af6a9bb5fd3160707a93ad293eb565fc0346123eb3afe304a03fe61d",
+      "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
+      "judgedBy": "codex-readwise-inbox-profile-v2-2026-10-23b",
+      "judgedAt": "2026-10-23T00:00:00Z",
+      "evidenceRefs": [
+        ".tmp/readwise/inbox-pipeline-2026-10-23b/reading-profiles/snapshot.json#documents.01j79kewgmtnzh90zqn8ecv0at"
+      ],
+      "status": "accepted",
+      "confidence": "medium",
+      "reason": "Actueel v2-profiel beoordeeld vanuit volledige brontekst, samenvatting, inhoudstags en de leesvoorkeuren; ratings zijn inhoudelijk afgeleid en onafhankelijk van prioriteit of rangpositie.",
+      "traits": {
+        "effort": 3,
+        "emotionalWeight": 2,
+        "tone": "reflectief",
+        "needFit": {
+          "ontspannen": 2,
+          "afleiding": 1,
+          "herkenning": 2,
+          "verkennen": 3,
+          "verdieping": 4
+        },
+        "activation": 3,
+        "interruptibility": 2
+      }
     }
   }
 }
