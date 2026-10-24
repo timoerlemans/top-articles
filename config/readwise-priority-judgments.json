@@ -31677,6 +31677,53 @@
       ],
       "judgedBy": "codex-readwise-inbox-semantic-review-20261024",
       "judgedAt": "2026-10-24T00:00:00Z"
+    },
+    "01m5pjg0w7090h1rpxgn62420x": {
+      "sourceFingerprint": "b44e47c8afdd54e2d42714af32de38d6c23ba2fefb2c616aee731e1d2b9c6782",
+      "evidenceFingerprint": "fab1760af5b38515ecf2abcf5b608ca610445af215820f2aa77c273f7f2cf025",
+      "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
+      "relevance": 4,
+      "substance": 3,
+      "durability": 3,
+      "usefulness": 3,
+      "sequenceFit": {
+        "video": 0,
+        "boek": 0,
+        "pdf": 0,
+        "lees": 2,
+        "dutch": 2,
+        "short": 1,
+        "short-dutch": 1,
+        "luchtig": 2,
+        "luchtig-nederlands": 2,
+        "scrum": 0,
+        "software-development": 0,
+        "front-end-development": 0,
+        "social-studies": 0,
+        "adhd": 0,
+        "philosophy": 2
+      },
+      "topicRelevance": {
+        "scrum": 0,
+        "software-development": 1,
+        "front-end-development": 0,
+        "social-studies": 3,
+        "adhd": 1,
+        "philosophy": 3
+      },
+      "confidence": "high",
+      "reasonCodes": [
+        "semantic-v2-review",
+        "evidence:full-content-notes-highlights",
+        "clear-philosophical-and-social-fit"
+      ],
+      "status": "accepted",
+      "rubricVersion": "semantic-v2",
+      "evidenceRefs": [
+        ".tmp/readwise/inbox-pipeline-2026-10-24/incremental-semantic-review/priority-evidence.json#documents.01m5pjg0w7090h1rpxgn62420x"
+      ],
+      "judgedBy": "codex-readwise-inbox-semantic-review-20261024-incremental",
+      "judgedAt": "2026-10-24T00:15:00Z"
     }
   }
 }

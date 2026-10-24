@@ -16703,6 +16703,34 @@
         "activation": 2,
         "interruptibility": 3
       }
+    },
+    "01m5pjg0w7090h1rpxgn62420x": {
+      "status": "accepted",
+      "confidence": "high",
+      "rubricVersion": "reading-profile-v2",
+      "sourceFingerprint": "b44e47c8afdd54e2d42714af32de38d6c23ba2fefb2c616aee731e1d2b9c6782",
+      "evidenceFingerprint": "21fd99d781e52487736aeaf648f0fb0fef9a4dd07b59aa92471c8341657402ae",
+      "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
+      "judgedBy": "codex-readwise-inbox-semantic-review-20261024-incremental",
+      "judgedAt": "2026-10-24T00:15:00Z",
+      "evidenceRefs": [
+        ".tmp/readwise/inbox-pipeline-2026-10-24/incremental-semantic-review/reading-profile-snapshot.json#documents.01m5pjg0w7090h1rpxgn62420x"
+      ],
+      "reason": "Volledige Nederlandstalige tekst met ironische AI-kritiek en concrete reflectie op zingeving, relaties en praktische vaardigheden; warm, activerend en goed te onderbreken.",
+      "traits": {
+        "effort": 2,
+        "emotionalWeight": 1,
+        "tone": "reflectief",
+        "needFit": {
+          "ontspannen": 2,
+          "afleiding": 3,
+          "herkenning": 3,
+          "verkennen": 4,
+          "verdieping": 3
+        },
+        "activation": 2,
+        "interruptibility": 3
+      }
     }
   }
 }
