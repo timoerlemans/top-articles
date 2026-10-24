@@ -1109,18 +1109,32 @@
       "reason": "Niet geschikt voor leesmenu: boek/video/podcast of onleesbare bron zonder volledige tekst."
     },
     "01k6c63we3f9ftg7xqkj272e01": {
+      "status": "accepted",
+      "confidence": "high",
       "rubricVersion": "reading-profile-v2",
       "sourceFingerprint": "dce43e88b0d8f4d3adf5d2b32a1ef7f3ddeacdce6f17ed5236a0c5079fa749f1",
-      "evidenceFingerprint": "44b4d46eab5bab74091219fa0530f84e007fb576491c7048faa4cdc26b6f17b3",
+      "evidenceFingerprint": "46268bf38895f5665b5a5e4f98dd066fb5dd3d208b2bc79a9d4d9fc001f45348",
       "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
-      "judgedBy": "codex-readwise-inbox-profile-v2-2026-10-23",
-      "judgedAt": "2026-10-23T00:00:00Z",
+      "judgedBy": "codex-readwise-inbox-semantic-review-20261024",
+      "judgedAt": "2026-10-24T00:00:00Z",
       "evidenceRefs": [
-        ".tmp/readwise/inbox-pipeline-2026-10-23/reading-profiles/snapshot.json#documents.01k6c63we3f9ftg7xqkj272e01"
+        ".tmp/readwise/inbox-pipeline-2026-10-24/semantic-review/reading-profile-snapshot.json#documents.01k6c63we3f9ftg7xqkj272e01"
       ],
-      "status": "draft",
-      "confidence": "low",
-      "reason": "Draft: de actuele bron is onvolledig; de beschikbare metadata is onvoldoende voor een betrouwbare situatiebeoordeling."
+      "reason": "Volledige, leesbare PDF met negen levenslessen, Spinoza en morele karaktervorming; rustig en sterk geschikt voor reflectieve verdieping.",
+      "traits": {
+        "effort": 2,
+        "emotionalWeight": 1,
+        "tone": "warm",
+        "needFit": {
+          "ontspannen": 2,
+          "afleiding": 2,
+          "herkenning": 3,
+          "verkennen": 3,
+          "verdieping": 4
+        },
+        "activation": 2,
+        "interruptibility": 4
+      }
     },
     "01k7h9szzyxzgn4ywcv20zas73": {
       "rubricVersion": "reading-profile-v2",
@@ -1543,18 +1557,32 @@
       "reason": "Niet geschikt voor leesmenu: boek/video/podcast of onleesbare bron zonder volledige tekst."
     },
     "01kd1canjswg2k0ey5cgtz3fa4": {
+      "status": "accepted",
+      "confidence": "high",
       "rubricVersion": "reading-profile-v2",
       "sourceFingerprint": "04f876c837153900051f33ec559d4c72449b5b973d92302ee3c25e90a578c232",
-      "evidenceFingerprint": "bf7e962fa47acb69ece666b71779dbc11b5fcbf1ba88cc59fce4de31b5fa52e7",
+      "evidenceFingerprint": "213d498cee82e3aa1e42e1e452d305fc8762f44f840284c51b7fbfa30ca23dda",
       "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
-      "judgedBy": "codex-readwise-inbox-profile-v2-2026-10-23",
-      "judgedAt": "2026-10-23T00:00:00Z",
+      "judgedBy": "codex-readwise-inbox-semantic-review-20261024",
+      "judgedAt": "2026-10-24T00:00:00Z",
       "evidenceRefs": [
-        ".tmp/readwise/inbox-pipeline-2026-10-23/reading-profiles/snapshot.json#documents.01kd1canjswg2k0ey5cgtz3fa4"
+        ".tmp/readwise/inbox-pipeline-2026-10-24/semantic-review/reading-profile-snapshot.json#documents.01kd1canjswg2k0ey5cgtz3fa4"
       ],
-      "status": "draft",
-      "confidence": "low",
-      "reason": "Draft: de actuele bron is onvolledig; de beschikbare metadata is onvoldoende voor een betrouwbare situatiebeoordeling."
+      "reason": "Volledig toegankelijk Berry-essay dat technologiekeuzes aan energie, arbeid en lokale verantwoordelijkheid koppelt.",
+      "traits": {
+        "effort": 2,
+        "emotionalWeight": 0,
+        "tone": "reflectief",
+        "needFit": {
+          "ontspannen": 2,
+          "afleiding": 2,
+          "herkenning": 1,
+          "verkennen": 3,
+          "verdieping": 4
+        },
+        "activation": 2,
+        "interruptibility": 3
+      }
     },
     "01ke5cgfb9zdye2wftpg1spje5": {
       "status": "rejected",
@@ -3545,18 +3573,32 @@
       }
     },
     "01kyxyqrfvk85easc927qpwtns": {
+      "status": "accepted",
+      "confidence": "high",
       "rubricVersion": "reading-profile-v2",
       "sourceFingerprint": "a9042a53d1471afbe0c4807b73917fe80832f5fb10939c05a926d3fe59a42b11",
-      "evidenceFingerprint": "14e178bfb495afa32d76935de4178c9f9e5a84f122242cdc098f492401f74439",
+      "evidenceFingerprint": "b591ad559e56ea69b04be164b7b5bbba1bb56dcfd5cb15fc3b1636dd1380b1a1",
       "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
-      "judgedBy": "codex-readwise-inbox-profile-v2-2026-10-23",
-      "judgedAt": "2026-10-23T00:00:00Z",
+      "judgedBy": "codex-readwise-inbox-semantic-review-20261024",
+      "judgedAt": "2026-10-24T00:00:00Z",
       "evidenceRefs": [
-        ".tmp/readwise/inbox-pipeline-2026-10-23/reading-profiles/snapshot.json#documents.01kyxyqrfvk85easc927qpwtns"
+        ".tmp/readwise/inbox-pipeline-2026-10-24/semantic-review/reading-profile-snapshot.json#documents.01kyxyqrfvk85easc927qpwtns"
       ],
-      "status": "draft",
-      "confidence": "low",
-      "reason": "Draft: de actuele bron is onvolledig; de beschikbare metadata is onvoldoende voor een betrouwbare situatiebeoordeling."
+      "reason": "Volledige literaire parabel met expliciet moreel dilemma; inhoudelijk sterk maar emotioneel confronterend.",
+      "traits": {
+        "effort": 2,
+        "emotionalWeight": 4,
+        "tone": "intens",
+        "needFit": {
+          "ontspannen": 0,
+          "afleiding": 1,
+          "herkenning": 1,
+          "verkennen": 4,
+          "verdieping": 4
+        },
+        "activation": 4,
+        "interruptibility": 2
+      }
     },
     "01kyy1z2njt280geg81vv0be2q": {
       "rubricVersion": "reading-profile-v2",
@@ -4105,18 +4147,32 @@
       }
     },
     "01m0pngvw1pq8s12ss8bgyz5hj": {
+      "status": "accepted",
+      "confidence": "high",
       "rubricVersion": "reading-profile-v2",
       "sourceFingerprint": "deef94ac57a3195bd39b564fa8695b2ccb6924748f24debf7c49d36971015bde",
-      "evidenceFingerprint": "b89b648f142ff109edb5cfb9347054b1b0b602ec80bedc232999805d324b5394",
+      "evidenceFingerprint": "32f797931239f96a4cfe798b27e308f2d18e4a88aab75354a0c625d32d9c5590",
       "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
-      "judgedBy": "codex-readwise-inbox-profile-v2-2026-10-23",
-      "judgedAt": "2026-10-23T00:00:00Z",
+      "judgedBy": "codex-readwise-inbox-semantic-review-20261024",
+      "judgedAt": "2026-10-24T00:00:00Z",
       "evidenceRefs": [
-        ".tmp/readwise/inbox-pipeline-2026-10-23/reading-profiles/snapshot.json#documents.01m0pngvw1pq8s12ss8bgyz5hj"
+        ".tmp/readwise/inbox-pipeline-2026-10-24/semantic-review/reading-profile-snapshot.json#documents.01m0pngvw1pq8s12ss8bgyz5hj"
       ],
-      "status": "draft",
-      "confidence": "low",
-      "reason": "Draft: de actuele bron is onvolledig; de beschikbare metadata is onvoldoende voor een betrouwbare situatiebeoordeling."
+      "reason": "Volledig productmanagementrapport met concrete surveydata en duidelijke secties; professioneel relevant maar inspannender.",
+      "traits": {
+        "effort": 3,
+        "emotionalWeight": 0,
+        "tone": "zakelijk",
+        "needFit": {
+          "ontspannen": 0,
+          "afleiding": 1,
+          "herkenning": 3,
+          "verkennen": 3,
+          "verdieping": 4
+        },
+        "activation": 2,
+        "interruptibility": 3
+      }
     },
     "01m0ps324qabpwbvdtsbnhmkw7": {
       "rubricVersion": "reading-profile-v2",
@@ -6261,18 +6317,32 @@
       }
     },
     "01m1xy92em8n4jbgr4g35t97vt": {
+      "status": "accepted",
+      "confidence": "high",
       "rubricVersion": "reading-profile-v2",
       "sourceFingerprint": "78a39567bb9c01fab9b843c5a79075b311f5f11581b9d4164cd3faf36ac2821e",
-      "evidenceFingerprint": "bfe115ab289a233848fa388c6710574b96bea073ea1828e92bfa5151d3248b33",
+      "evidenceFingerprint": "3aa6ed13e12c675260fb5922d5f538d9c2cf6020c7eed39c1073a9787dd8157e",
       "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
-      "judgedBy": "codex-readwise-inbox-profile-v2-2026-10-23",
-      "judgedAt": "2026-10-23T00:00:00Z",
+      "judgedBy": "codex-readwise-inbox-semantic-review-20261024",
+      "judgedAt": "2026-10-24T00:00:00Z",
       "evidenceRefs": [
-        ".tmp/readwise/inbox-pipeline-2026-10-23/reading-profiles/snapshot.json#documents.01m1xy92em8n4jbgr4g35t97vt"
+        ".tmp/readwise/inbox-pipeline-2026-10-24/semantic-review/reading-profile-snapshot.json#documents.01m1xy92em8n4jbgr4g35t97vt"
       ],
-      "status": "draft",
-      "confidence": "low",
-      "reason": "Draft: de actuele bron is onvolledig; de beschikbare metadata is onvoldoende voor een betrouwbare situatiebeoordeling."
+      "reason": "Volledig competentiekader met veel detail over coachen, faciliteren en organisatieverandering; zeer relevant maar intensief.",
+      "traits": {
+        "effort": 4,
+        "emotionalWeight": 0,
+        "tone": "zakelijk",
+        "needFit": {
+          "ontspannen": 0,
+          "afleiding": 1,
+          "herkenning": 4,
+          "verkennen": 3,
+          "verdieping": 4
+        },
+        "activation": 3,
+        "interruptibility": 2
+      }
     },
     "01m1zvs6zarc4w1cwf7w1sc7ef": {
       "rubricVersion": "reading-profile-v2",
@@ -7073,46 +7143,88 @@
       "reason": "Niet geschikt voor leesmenu: boek/video/podcast of onleesbare bron zonder volledige tekst."
     },
     "01m2jd6aqkd7b84hw7sbwcdfvr": {
+      "status": "accepted",
+      "confidence": "high",
       "rubricVersion": "reading-profile-v2",
       "sourceFingerprint": "e348d2f5144957ba2c855931449fedc898a126e8dcf196068f768319694aeba9",
-      "evidenceFingerprint": "b71054732069a378b793279e7ebd235b003cfdead6a8252c2401b3f1fad43fd9",
+      "evidenceFingerprint": "c17de537c8c8ddeca29a30bb41e9deab2c9747c41e4a616d9c36713eea5fbd76",
       "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
-      "judgedBy": "codex-readwise-inbox-profile-v2-2026-10-23",
-      "judgedAt": "2026-10-23T00:00:00Z",
+      "judgedBy": "codex-readwise-inbox-semantic-review-20261024",
+      "judgedAt": "2026-10-24T00:00:00Z",
       "evidenceRefs": [
-        ".tmp/readwise/inbox-pipeline-2026-10-23/reading-profiles/snapshot.json#documents.01m2jd6aqkd7b84hw7sbwcdfvr"
+        ".tmp/readwise/inbox-pipeline-2026-10-24/semantic-review/reading-profile-snapshot.json#documents.01m2jd6aqkd7b84hw7sbwcdfvr"
       ],
-      "status": "draft",
-      "confidence": "low",
-      "reason": "Draft: de actuele bron is onvolledig; de beschikbare metadata is onvoldoende voor een betrouwbare situatiebeoordeling."
+      "reason": "Volledige technische onderzoeksverklaring; inhoudelijk interessant als AI- en verificatiecasus, maar de wiskundige kern vraagt hoge concentratie.",
+      "traits": {
+        "effort": 4,
+        "emotionalWeight": 0,
+        "tone": "zakelijk",
+        "needFit": {
+          "ontspannen": 0,
+          "afleiding": 1,
+          "herkenning": 2,
+          "verkennen": 3,
+          "verdieping": 4
+        },
+        "activation": 3,
+        "interruptibility": 2
+      }
     },
     "01m2jdambdhe703e1ecfvdkb9q": {
+      "status": "accepted",
+      "confidence": "high",
       "rubricVersion": "reading-profile-v2",
       "sourceFingerprint": "c734034bb6582dd07d91971954401624c3ef7a730b82a5cd2a6baa67bfcfa5b0",
-      "evidenceFingerprint": "474367dda54ebc562bb1709eb21e6c32ff971d000afa798bf2ecc330d46b89b7",
+      "evidenceFingerprint": "ea884c94b452a7bbf8f794e4c2ce618db972115cd3f1dbf4a860845f5d101f00",
       "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
-      "judgedBy": "codex-readwise-inbox-profile-v2-2026-10-23",
-      "judgedAt": "2026-10-23T00:00:00Z",
+      "judgedBy": "codex-readwise-inbox-semantic-review-20261024",
+      "judgedAt": "2026-10-24T00:00:00Z",
       "evidenceRefs": [
-        ".tmp/readwise/inbox-pipeline-2026-10-23/reading-profiles/snapshot.json#documents.01m2jdambdhe703e1ecfvdkb9q"
+        ".tmp/readwise/inbox-pipeline-2026-10-24/semantic-review/reading-profile-snapshot.json#documents.01m2jdambdhe703e1ecfvdkb9q"
       ],
-      "status": "draft",
-      "confidence": "low",
-      "reason": "Draft: de actuele bron is onvolledig; de beschikbare metadata is onvoldoende voor een betrouwbare situatiebeoordeling."
+      "reason": "Volledig beleidsgetuigenis met helder overzicht van AI-risicolagen en toezicht; zakelijk, actueel en goed onderbreekbaar.",
+      "traits": {
+        "effort": 3,
+        "emotionalWeight": 1,
+        "tone": "zakelijk",
+        "needFit": {
+          "ontspannen": 0,
+          "afleiding": 1,
+          "herkenning": 2,
+          "verkennen": 3,
+          "verdieping": 4
+        },
+        "activation": 3,
+        "interruptibility": 3
+      }
     },
     "01m2jf1162hpbakpp87vn49yym": {
+      "status": "accepted",
+      "confidence": "high",
       "rubricVersion": "reading-profile-v2",
       "sourceFingerprint": "ea61f064eddb7f7f0bf2354f3b21cc6ab0f77a64f18adb68d65ae93c7fbfae9d",
-      "evidenceFingerprint": "603283439ac8a6ad62853f76a3d8f147e690626518b8bf99a255bb654bf6bba6",
+      "evidenceFingerprint": "a112ed8b590fc0b1f4b5e0973a2389bdc2a7416e098a0efb471eb97512abc59c",
       "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
-      "judgedBy": "codex-readwise-inbox-profile-v2-2026-10-23",
-      "judgedAt": "2026-10-23T00:00:00Z",
+      "judgedBy": "codex-readwise-inbox-semantic-review-20261024",
+      "judgedAt": "2026-10-24T00:00:00Z",
       "evidenceRefs": [
-        ".tmp/readwise/inbox-pipeline-2026-10-23/reading-profiles/snapshot.json#documents.01m2jf1162hpbakpp87vn49yym"
+        ".tmp/readwise/inbox-pipeline-2026-10-24/semantic-review/reading-profile-snapshot.json#documents.01m2jf1162hpbakpp87vn49yym"
       ],
-      "status": "draft",
-      "confidence": "low",
-      "reason": "Draft: de actuele bron is onvolledig; de beschikbare metadata is onvoldoende voor een betrouwbare situatiebeoordeling."
+      "reason": "Volledig dreigingsrapport met concrete casus van agentische cyberespionage; sterk activerend en inhoudelijk zwaar.",
+      "traits": {
+        "effort": 3,
+        "emotionalWeight": 2,
+        "tone": "intens",
+        "needFit": {
+          "ontspannen": 0,
+          "afleiding": 1,
+          "herkenning": 2,
+          "verkennen": 4,
+          "verdieping": 3
+        },
+        "activation": 3,
+        "interruptibility": 3
+      }
     },
     "01m2jkgap4b0q9s0bsftq8bgta": {
       "rubricVersion": "reading-profile-v2",
@@ -7283,46 +7395,88 @@
       }
     },
     "01m2k7b9je6j7mz7cy45cfpkcc": {
+      "status": "accepted",
+      "confidence": "high",
       "rubricVersion": "reading-profile-v2",
       "sourceFingerprint": "384d038c99a2d92e20d4ce519e9b8cc6119db503e7472ad8314e55e32dac0c6f",
-      "evidenceFingerprint": "450b3d0940f08d64fb56774335ff68e27134fed9f6df73a243118023f32423c2",
+      "evidenceFingerprint": "78af5dfc7021bd149b2ea08e302e07a1b47b0a424af72b6a868f05cb513b6fda",
       "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
-      "judgedBy": "codex-readwise-inbox-profile-v2-2026-10-23",
-      "judgedAt": "2026-10-23T00:00:00Z",
+      "judgedBy": "codex-readwise-inbox-semantic-review-20261024",
+      "judgedAt": "2026-10-24T00:00:00Z",
       "evidenceRefs": [
-        ".tmp/readwise/inbox-pipeline-2026-10-23/reading-profiles/snapshot.json#documents.01m2k7b9je6j7mz7cy45cfpkcc"
+        ".tmp/readwise/inbox-pipeline-2026-10-24/semantic-review/reading-profile-snapshot.json#documents.01m2k7b9je6j7mz7cy45cfpkcc"
       ],
-      "status": "draft",
-      "confidence": "low",
-      "reason": "Draft: de actuele bron is onvolledig; de beschikbare metadata is onvoldoende voor een betrouwbare situatiebeoordeling."
+      "reason": "Volledige technische onderzoeksverklaring; dezelfde bron als de andere versie en daarom vooral geschikt voor geconcentreerde verdieping.",
+      "traits": {
+        "effort": 4,
+        "emotionalWeight": 0,
+        "tone": "zakelijk",
+        "needFit": {
+          "ontspannen": 0,
+          "afleiding": 1,
+          "herkenning": 2,
+          "verkennen": 3,
+          "verdieping": 4
+        },
+        "activation": 3,
+        "interruptibility": 2
+      }
     },
     "01m2kabg6g2j7sa06n52eyn7v7": {
+      "status": "accepted",
+      "confidence": "high",
       "rubricVersion": "reading-profile-v2",
       "sourceFingerprint": "c4c601f8a09d09ee4c57cd03abca5efadce584de246f79a9b225a8e04b79285b",
-      "evidenceFingerprint": "3be738ef38c95a2e0156815f46abeeb4c58d8f89e302465ad09856f58115e428",
+      "evidenceFingerprint": "b9ad334148946dad835bce7ca6618cf5cd09533086065eb16a8540a423ec8dad",
       "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
-      "judgedBy": "codex-readwise-inbox-profile-v2-2026-10-23",
-      "judgedAt": "2026-10-23T00:00:00Z",
+      "judgedBy": "codex-readwise-inbox-semantic-review-20261024",
+      "judgedAt": "2026-10-24T00:00:00Z",
       "evidenceRefs": [
-        ".tmp/readwise/inbox-pipeline-2026-10-23/reading-profiles/snapshot.json#documents.01m2kabg6g2j7sa06n52eyn7v7"
+        ".tmp/readwise/inbox-pipeline-2026-10-24/semantic-review/reading-profile-snapshot.json#documents.01m2kabg6g2j7sa06n52eyn7v7"
       ],
-      "status": "draft",
-      "confidence": "low",
-      "reason": "Draft: de actuele bron is onvolledig; de beschikbare metadata is onvoldoende voor een betrouwbare situatiebeoordeling."
+      "reason": "Volledig beleidsvoorstel over AI, infrastructuur, transparantie en verdeling van baten; veel inhoudelijke ankers en duidelijke secties.",
+      "traits": {
+        "effort": 3,
+        "emotionalWeight": 1,
+        "tone": "zakelijk",
+        "needFit": {
+          "ontspannen": 0,
+          "afleiding": 1,
+          "herkenning": 2,
+          "verkennen": 3,
+          "verdieping": 4
+        },
+        "activation": 2,
+        "interruptibility": 3
+      }
     },
     "01m2kdst8ak0jx01eg6p6jg97n": {
+      "status": "accepted",
+      "confidence": "high",
       "rubricVersion": "reading-profile-v2",
       "sourceFingerprint": "57691bdfdaa82024d99bebe0df52a107bb6332dbcb288070fc930a5179cc0d32",
-      "evidenceFingerprint": "8dbb55297decfb5325a674191a8710d1c248e1b074fff1dbfc2e55dcbe3707e7",
+      "evidenceFingerprint": "1655a7d37398f4e3970401610245fc780f77f0f4ed023c63a698f6369837dade",
       "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
-      "judgedBy": "codex-readwise-inbox-profile-v2-2026-10-23",
-      "judgedAt": "2026-10-23T00:00:00Z",
+      "judgedBy": "codex-readwise-inbox-semantic-review-20261024",
+      "judgedAt": "2026-10-24T00:00:00Z",
       "evidenceRefs": [
-        ".tmp/readwise/inbox-pipeline-2026-10-23/reading-profiles/snapshot.json#documents.01m2kdst8ak0jx01eg6p6jg97n"
+        ".tmp/readwise/inbox-pipeline-2026-10-24/semantic-review/reading-profile-snapshot.json#documents.01m2kdst8ak0jx01eg6p6jg97n"
       ],
-      "status": "draft",
-      "confidence": "low",
-      "reason": "Draft: de actuele bron is onvolledig; de beschikbare metadata is onvoldoende voor een betrouwbare situatiebeoordeling."
+      "reason": "Korte volledige casus over relationele politieke beïnvloeding via AI-persona's; compact maar maatschappelijk zwaar.",
+      "traits": {
+        "effort": 2,
+        "emotionalWeight": 2,
+        "tone": "zakelijk",
+        "needFit": {
+          "ontspannen": 0,
+          "afleiding": 1,
+          "herkenning": 2,
+          "verkennen": 4,
+          "verdieping": 3
+        },
+        "activation": 3,
+        "interruptibility": 3
+      }
     },
     "01m2kqe102n76g6yvve5qmew7f": {
       "rubricVersion": "reading-profile-v2",
@@ -8739,18 +8893,32 @@
       }
     },
     "01m37agy1w7er7trr8w91gpwwb": {
+      "status": "accepted",
+      "confidence": "high",
       "rubricVersion": "reading-profile-v2",
       "sourceFingerprint": "ee298a6dbe8158ea21764a95562895b04afced1614dbc6e074570ceea032ba7e",
-      "evidenceFingerprint": "02aac282a284892d2ea920895a17a3f94b8f1c255becd1eec5e04c3fb270932a",
+      "evidenceFingerprint": "147605abcbb8dbc24cd9c33e9695efa99b2633ec7656e65e0cd5cb61a66b0ec0",
       "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
-      "judgedBy": "codex-readwise-inbox-profile-v2-2026-10-23",
-      "judgedAt": "2026-10-23T00:00:00Z",
+      "judgedBy": "codex-readwise-inbox-semantic-review-20261024",
+      "judgedAt": "2026-10-24T00:00:00Z",
       "evidenceRefs": [
-        ".tmp/readwise/inbox-pipeline-2026-10-23/reading-profiles/snapshot.json#documents.01m37agy1w7er7trr8w91gpwwb"
+        ".tmp/readwise/inbox-pipeline-2026-10-24/semantic-review/reading-profile-snapshot.json#documents.01m37agy1w7er7trr8w91gpwwb"
       ],
-      "status": "draft",
-      "confidence": "low",
-      "reason": "Draft: de actuele bron is onvolledig; de beschikbare metadata is onvoldoende voor een betrouwbare situatiebeoordeling."
+      "reason": "Volledig juridisch artikel over illegale bevelen, machtsmisbruik en morele verwonding; zeer rijk maar emotioneel en cognitief zwaar.",
+      "traits": {
+        "effort": 4,
+        "emotionalWeight": 4,
+        "tone": "intens",
+        "needFit": {
+          "ontspannen": 0,
+          "afleiding": 1,
+          "herkenning": 1,
+          "verkennen": 3,
+          "verdieping": 4
+        },
+        "activation": 4,
+        "interruptibility": 1
+      }
     },
     "01m38wjv4th0nk4yy55vwhcybv": {
       "rubricVersion": "reading-profile-v2",
@@ -8865,18 +9033,32 @@
       }
     },
     "01m398yc7c60mgn63hvrfreqw8": {
+      "status": "accepted",
+      "confidence": "high",
       "rubricVersion": "reading-profile-v2",
       "sourceFingerprint": "21f9ff10f3f15e6df7665cbc7cfbe9fed81b9247ace0036dd66879337c9fc56a",
-      "evidenceFingerprint": "c0e36151b2f3b1846891525c3f90b11fcbe0498f881bb2bbf248b1c474f061d0",
+      "evidenceFingerprint": "8fdab5a0e093171c52a24374a29818615f0d9629dfe6e7cf5fa54481d6cee8d1",
       "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
-      "judgedBy": "codex-readwise-inbox-profile-v2-2026-10-23",
-      "judgedAt": "2026-10-23T00:00:00Z",
+      "judgedBy": "codex-readwise-inbox-semantic-review-20261024",
+      "judgedAt": "2026-10-24T00:00:00Z",
       "evidenceRefs": [
-        ".tmp/readwise/inbox-pipeline-2026-10-23/reading-profiles/snapshot.json#documents.01m398yc7c60mgn63hvrfreqw8"
+        ".tmp/readwise/inbox-pipeline-2026-10-24/semantic-review/reading-profile-snapshot.json#documents.01m398yc7c60mgn63hvrfreqw8"
       ],
-      "status": "draft",
-      "confidence": "low",
-      "reason": "Draft: de actuele bron is onvolledig; de beschikbare metadata is onvoldoende voor een betrouwbare situatiebeoordeling."
+      "reason": "Volledig kort essay dat poëzie koppelt aan kennis, verbeelding en politieke handelingsruimte; warm en goed te hervatten.",
+      "traits": {
+        "effort": 1,
+        "emotionalWeight": 1,
+        "tone": "warm",
+        "needFit": {
+          "ontspannen": 2,
+          "afleiding": 2,
+          "herkenning": 3,
+          "verkennen": 4,
+          "verdieping": 3
+        },
+        "activation": 2,
+        "interruptibility": 4
+      }
     },
     "01m3994zp56c3bka9grq2k98tp": {
       "rubricVersion": "reading-profile-v2",
@@ -9607,18 +9789,32 @@
       }
     },
     "01m3d23vwm7j1b5pgvhjmqaedm": {
+      "status": "accepted",
+      "confidence": "high",
       "rubricVersion": "reading-profile-v2",
       "sourceFingerprint": "ad27490833744afeeb1bdc2937d36604819f7754c19bbb49a17ebbe5dc69f417",
-      "evidenceFingerprint": "7650a74eece27cab4e9ed22cb29739a131bffc7324ecb986586c4c9fa249bc89",
+      "evidenceFingerprint": "58f45a2f8b771eaadbe494f24d5df2e29b3b1005b0270e3de9647a28b3e171af",
       "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
-      "judgedBy": "codex-readwise-inbox-profile-v2-2026-10-23",
-      "judgedAt": "2026-10-23T00:00:00Z",
+      "judgedBy": "codex-readwise-inbox-semantic-review-20261024",
+      "judgedAt": "2026-10-24T00:00:00Z",
       "evidenceRefs": [
-        ".tmp/readwise/inbox-pipeline-2026-10-23/reading-profiles/snapshot.json#documents.01m3d23vwm7j1b5pgvhjmqaedm"
+        ".tmp/readwise/inbox-pipeline-2026-10-24/semantic-review/reading-profile-snapshot.json#documents.01m3d23vwm7j1b5pgvhjmqaedm"
       ],
-      "status": "draft",
-      "confidence": "low",
-      "reason": "Draft: de actuele bron is onvolledig; de beschikbare metadata is onvoldoende voor een betrouwbare situatiebeoordeling."
+      "reason": "Volledig wetenschappelijk artikel met precieze begrippen voor core affect en emotionele episodes; technisch maar inhoudelijk helder.",
+      "traits": {
+        "effort": 4,
+        "emotionalWeight": 0,
+        "tone": "zakelijk",
+        "needFit": {
+          "ontspannen": 0,
+          "afleiding": 1,
+          "herkenning": 2,
+          "verkennen": 3,
+          "verdieping": 4
+        },
+        "activation": 2,
+        "interruptibility": 2
+      }
     },
     "01m3d23wkezka5t8rkdmaes1kd": {
       "rubricVersion": "reading-profile-v2",
@@ -9831,18 +10027,32 @@
       "reason": "Niet geschikt voor leesmenu: boek/video/podcast of onleesbare bron zonder volledige tekst."
     },
     "01m3dtcqa58z1qk7eks8ejrvxt": {
+      "status": "accepted",
+      "confidence": "high",
       "rubricVersion": "reading-profile-v2",
       "sourceFingerprint": "29dfdf069d4ed91af84e9aa1c5b5819dee0ac44c93de6a4971094ddd20ed0347",
-      "evidenceFingerprint": "683983a21b4bf8faa59ccb3318a0fa402689a6b0b0558830598e99d758651382",
+      "evidenceFingerprint": "b9a87d694154ba897ab9a3a848691732bbeeee8e927349337c72e43d9baa01ce",
       "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
-      "judgedBy": "codex-readwise-inbox-profile-v2-2026-10-23",
-      "judgedAt": "2026-10-23T00:00:00Z",
+      "judgedBy": "codex-readwise-inbox-semantic-review-20261024",
+      "judgedAt": "2026-10-24T00:00:00Z",
       "evidenceRefs": [
-        ".tmp/readwise/inbox-pipeline-2026-10-23/reading-profiles/snapshot.json#documents.01m3dtcqa58z1qk7eks8ejrvxt"
+        ".tmp/readwise/inbox-pipeline-2026-10-24/semantic-review/reading-profile-snapshot.json#documents.01m3dtcqa58z1qk7eks8ejrvxt"
       ],
-      "status": "draft",
-      "confidence": "low",
-      "reason": "Draft: de actuele bron is onvolledig; de beschikbare metadata is onvoldoende voor een betrouwbare situatiebeoordeling."
+      "reason": "Volledig primair beleidsdocument met duidelijke politieke retoriek en veiligheidsprioriteiten; kritisch en inhoudelijk belastend.",
+      "traits": {
+        "effort": 3,
+        "emotionalWeight": 3,
+        "tone": "intens",
+        "needFit": {
+          "ontspannen": 0,
+          "afleiding": 1,
+          "herkenning": 1,
+          "verkennen": 3,
+          "verdieping": 3
+        },
+        "activation": 3,
+        "interruptibility": 3
+      }
     },
     "01m3e369rxz4edvgjjq8kxwbm2": {
       "rubricVersion": "reading-profile-v2",
@@ -10419,18 +10629,32 @@
       "reason": "Niet geschikt voor leesmenu: boek/video/podcast of onleesbare bron zonder volledige tekst."
     },
     "01m3kq1j9rwm5dcer9vhmvbncx": {
+      "status": "accepted",
+      "confidence": "high",
       "rubricVersion": "reading-profile-v2",
       "sourceFingerprint": "02f8adccbca196f0a1e94957076c73504993c56711c889d7b46b8c1026d534b3",
-      "evidenceFingerprint": "25ebb18d84cb8bdac610f6238ff61339d0a3b1cf767be2e93bcb8fda065ffe83",
+      "evidenceFingerprint": "177277a8fb59aedcb6e42c8967060b951211f9b5c236ebb653910dd0901fc035",
       "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
-      "judgedBy": "codex-readwise-inbox-profile-v2-2026-10-23",
-      "judgedAt": "2026-10-23T00:00:00Z",
+      "judgedBy": "codex-readwise-inbox-semantic-review-20261024",
+      "judgedAt": "2026-10-24T00:00:00Z",
       "evidenceRefs": [
-        ".tmp/readwise/inbox-pipeline-2026-10-23/reading-profiles/snapshot.json#documents.01m3kq1j9rwm5dcer9vhmvbncx"
+        ".tmp/readwise/inbox-pipeline-2026-10-24/semantic-review/reading-profile-snapshot.json#documents.01m3kq1j9rwm5dcer9vhmvbncx"
       ],
-      "status": "draft",
-      "confidence": "low",
-      "reason": "Draft: de actuele bron is onvolledig; de beschikbare metadata is onvoldoende voor een betrouwbare situatiebeoordeling."
+      "reason": "Volledig rapport over Agile-volwassenheid, metrics en AI-governance; direct professioneel bruikbaar en sectiegewijs te lezen.",
+      "traits": {
+        "effort": 3,
+        "emotionalWeight": 0,
+        "tone": "zakelijk",
+        "needFit": {
+          "ontspannen": 0,
+          "afleiding": 1,
+          "herkenning": 4,
+          "verkennen": 2,
+          "verdieping": 4
+        },
+        "activation": 2,
+        "interruptibility": 3
+      }
     },
     "01m3ks4gkwdvbpmnvzf5h5p3ww": {
       "rubricVersion": "reading-profile-v2",
@@ -14311,18 +14535,18 @@
       }
     },
     "01m56pcg1mnefzyy8geb24p9bg": {
+      "status": "rejected",
+      "confidence": "medium",
       "rubricVersion": "reading-profile-v2",
       "sourceFingerprint": "acc41e8de1abd0b8b203a32e280b7ce61c1f07d6a71718e961b47ae3f8bd57be",
       "evidenceFingerprint": "e88f6687e65665bd657776d4f96b2cd01895b771eb79b5cc638e545d830beb0e",
       "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
-      "judgedBy": "codex-readwise-inbox-profile-v2-2026-10-23",
-      "judgedAt": "2026-10-23T00:00:00Z",
+      "judgedBy": "codex-readwise-inbox-semantic-review-20261024",
+      "judgedAt": "2026-10-24T00:00:00Z",
       "evidenceRefs": [
-        ".tmp/readwise/inbox-pipeline-2026-10-23/reading-profiles/snapshot.json#documents.01m56pcg1mnefzyy8geb24p9bg"
+        ".tmp/readwise/inbox-pipeline-2026-10-24/semantic-review/reading-profile-snapshot.json#documents.01m56pcg1mnefzyy8geb24p9bg"
       ],
-      "status": "draft",
-      "confidence": "low",
-      "reason": "Draft: volledige brontekst ontbreekt in de actuele evidence; metadata en samenvatting zijn onvoldoende voor betrouwbare v2-situatiebeoordeling."
+      "reason": "Video-inhoud is beschikbaar, maar de v2-leesprofielrubriek sluit video's uit voor menuvoorstellen."
     },
     "01m56pcxp38a5n1ya29tfp1b8k": {
       "rubricVersion": "reading-profile-v2",
@@ -16058,6 +16282,426 @@
         },
         "activation": 3,
         "interruptibility": 2
+      }
+    },
+    "01m5pja9vm1g7m51acr9ggcv42": {
+      "status": "accepted",
+      "confidence": "high",
+      "rubricVersion": "reading-profile-v2",
+      "sourceFingerprint": "16bc69224f7b07a86cac29b8121f22a6167ce8f815143f4c7209a82330b05574",
+      "evidenceFingerprint": "7d7f5dd7d4ae65cfe8aaa7e5bd73684171a1d865532e5ace811089d97c756983",
+      "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
+      "judgedBy": "codex-readwise-inbox-semantic-review-20261024",
+      "judgedAt": "2026-10-24T00:00:00Z",
+      "evidenceRefs": [
+        ".tmp/readwise/inbox-pipeline-2026-10-24/semantic-review/reading-profile-snapshot.json#documents.01m5pja9vm1g7m51acr9ggcv42"
+      ],
+      "reason": "Volledig economisch essay met historische argumentatie; rustig genoeg voor onderbreken, maar vooral geschikt voor analytische verdieping.",
+      "traits": {
+        "effort": 3,
+        "emotionalWeight": 1,
+        "tone": "zakelijk",
+        "needFit": {
+          "ontspannen": 0,
+          "afleiding": 0,
+          "herkenning": 1,
+          "verkennen": 3,
+          "verdieping": 4
+        },
+        "activation": 2,
+        "interruptibility": 2
+      }
+    },
+    "01m5p4tpy6y5vkfn473snqbqg9": {
+      "status": "accepted",
+      "confidence": "high",
+      "rubricVersion": "reading-profile-v2",
+      "sourceFingerprint": "d4118fe4dba22d0d8caf3698050dc7a8ffc52ea5be12f123f689127808411b54",
+      "evidenceFingerprint": "fd4690537aca9e1776c42c754b4a257762400c9ba7614486e769de5256ae8e51",
+      "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
+      "judgedBy": "codex-readwise-inbox-semantic-review-20261024",
+      "judgedAt": "2026-10-24T00:00:00Z",
+      "evidenceRefs": [
+        ".tmp/readwise/inbox-pipeline-2026-10-24/semantic-review/reading-profile-snapshot.json#documents.01m5p4tpy6y5vkfn473snqbqg9"
+      ],
+      "reason": "Korte Nederlandstalige leeswijzer met poëzie, vergankelijkheid en troost; licht, reflectief en in zelfstandige delen te lezen.",
+      "traits": {
+        "effort": 1,
+        "emotionalWeight": 2,
+        "tone": "reflectief",
+        "needFit": {
+          "ontspannen": 3,
+          "afleiding": 3,
+          "herkenning": 2,
+          "verkennen": 2,
+          "verdieping": 2
+        },
+        "activation": 1,
+        "interruptibility": 4
+      }
+    },
+    "01m5njq70vd06nj3fnghjwqqzy": {
+      "status": "accepted",
+      "confidence": "high",
+      "rubricVersion": "reading-profile-v2",
+      "sourceFingerprint": "4fadd155967b345f133da78e0ab56e0adf1a9b33a32655846e2f4c486ddd97cb",
+      "evidenceFingerprint": "fa7a7d25238c2f4b4648e50e6485125ab2208f2380422cb3ec61607d3aaab2d6",
+      "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
+      "judgedBy": "codex-readwise-inbox-semantic-review-20261024",
+      "judgedAt": "2026-10-24T00:00:00Z",
+      "evidenceRefs": [
+        ".tmp/readwise/inbox-pipeline-2026-10-24/semantic-review/reading-profile-snapshot.json#documents.01m5njq70vd06nj3fnghjwqqzy"
+      ],
+      "reason": "Volledige boekbespreking met aangrijpende casus en expliciete bespreking van bewijssterkte; inhoudelijk zwaar maar goed gestructureerd.",
+      "traits": {
+        "effort": 3,
+        "emotionalWeight": 3,
+        "tone": "intens",
+        "needFit": {
+          "ontspannen": 0,
+          "afleiding": 0,
+          "herkenning": 1,
+          "verkennen": 3,
+          "verdieping": 4
+        },
+        "activation": 2,
+        "interruptibility": 2
+      }
+    },
+    "01m5ne03r8es12b267y2kyzv8d": {
+      "status": "accepted",
+      "confidence": "high",
+      "rubricVersion": "reading-profile-v2",
+      "sourceFingerprint": "e4f64625e8571f8ab7b35a79dbab1e532a53e688f58900ce109faafd30e2b5fe",
+      "evidenceFingerprint": "7fafb70d5dae9b4dc8c61092eb21451d05b9c025efc40d6e2d02bec2e9b4e441",
+      "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
+      "judgedBy": "codex-readwise-inbox-semantic-review-20261024",
+      "judgedAt": "2026-10-24T00:00:00Z",
+      "evidenceRefs": [
+        ".tmp/readwise/inbox-pipeline-2026-10-24/semantic-review/reading-profile-snapshot.json#documents.01m5ne03r8es12b267y2kyzv8d"
+      ],
+      "reason": "Toegankelijke software- en AI-tekst met concrete workflowideeën en voldoende structuur om in meerdere sessies te lezen.",
+      "traits": {
+        "effort": 3,
+        "emotionalWeight": 0,
+        "tone": "zakelijk",
+        "needFit": {
+          "ontspannen": 0,
+          "afleiding": 0,
+          "herkenning": 2,
+          "verkennen": 3,
+          "verdieping": 4
+        },
+        "activation": 3,
+        "interruptibility": 3
+      }
+    },
+    "01m5n14vhxqbqbz5m0t4vnrpmg": {
+      "status": "accepted",
+      "confidence": "high",
+      "rubricVersion": "reading-profile-v2",
+      "sourceFingerprint": "0cfb29f99ca76cfbf2950fec945abb9e3710918fe2da6bc519679d60229a0e1c",
+      "evidenceFingerprint": "a31604259232c0e2ab53bfde9aa965b041efbb13e33a607dacedaa940ba2f974",
+      "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
+      "judgedBy": "codex-readwise-inbox-semantic-review-20261024",
+      "judgedAt": "2026-10-24T00:00:00Z",
+      "evidenceRefs": [
+        ".tmp/readwise/inbox-pipeline-2026-10-24/semantic-review/reading-profile-snapshot.json#documents.01m5n14vhxqbqbz5m0t4vnrpmg"
+      ],
+      "reason": "Leeslijst met inhoudelijke toelichtingen en veel perspectieven; vooral geschikt om te verkennen en vervolglezen te plannen.",
+      "traits": {
+        "effort": 1,
+        "emotionalWeight": 0,
+        "tone": "zakelijk",
+        "needFit": {
+          "ontspannen": 1,
+          "afleiding": 2,
+          "herkenning": 1,
+          "verkennen": 4,
+          "verdieping": 3
+        },
+        "activation": 2,
+        "interruptibility": 4
+      }
+    },
+    "01m5mys6ap5fs195bgdjz000c0": {
+      "status": "accepted",
+      "confidence": "high",
+      "rubricVersion": "reading-profile-v2",
+      "sourceFingerprint": "3eb7e7f15bba7c0714a606945ed83d15120b7d3456540b6bb69bf394f02c9cd7",
+      "evidenceFingerprint": "4bb15ca4df57d193cc12363e84b646e7134955dea4736073064cd6d2bd38d507",
+      "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
+      "judgedBy": "codex-readwise-inbox-semantic-review-20261024",
+      "judgedAt": "2026-10-24T00:00:00Z",
+      "evidenceRefs": [
+        ".tmp/readwise/inbox-pipeline-2026-10-24/semantic-review/reading-profile-snapshot.json#documents.01m5mys6ap5fs195bgdjz000c0"
+      ],
+      "reason": "Toegankelijk stuk over financiële AI met concrete risico's rond advies, privacy en verificatie.",
+      "traits": {
+        "effort": 2,
+        "emotionalWeight": 1,
+        "tone": "zakelijk",
+        "needFit": {
+          "ontspannen": 0,
+          "afleiding": 1,
+          "herkenning": 2,
+          "verkennen": 3,
+          "verdieping": 3
+        },
+        "activation": 2,
+        "interruptibility": 3
+      }
+    },
+    "01m5m80rahr6ep3ag8wv44m3fd": {
+      "status": "accepted",
+      "confidence": "high",
+      "rubricVersion": "reading-profile-v2",
+      "sourceFingerprint": "a0ad19460df941405b9ded6c895ee6194e1643422356e3001d5727fb64782db9",
+      "evidenceFingerprint": "132db597cc675d0e110991d21f81a2b97c58c03ce98da6a76a801b023c497aff",
+      "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
+      "judgedBy": "codex-readwise-inbox-semantic-review-20261024",
+      "judgedAt": "2026-10-24T00:00:00Z",
+      "evidenceRefs": [
+        ".tmp/readwise/inbox-pipeline-2026-10-24/semantic-review/reading-profile-snapshot.json#documents.01m5m80rahr6ep3ag8wv44m3fd"
+      ],
+      "reason": "Compact interview over meesterschap, herstel en consistentie; warm en praktisch zonder hoge emotionele belasting.",
+      "traits": {
+        "effort": 2,
+        "emotionalWeight": 1,
+        "tone": "warm",
+        "needFit": {
+          "ontspannen": 2,
+          "afleiding": 2,
+          "herkenning": 3,
+          "verkennen": 2,
+          "verdieping": 3
+        },
+        "activation": 2,
+        "interruptibility": 3
+      }
+    },
+    "01m5m6s1nefz6mp1fj96v8nn1c": {
+      "status": "accepted",
+      "confidence": "high",
+      "rubricVersion": "reading-profile-v2",
+      "sourceFingerprint": "c014cff64e2580038ee4656595ff2fa0e52d13e6784d45210c92369efec9fbe9",
+      "evidenceFingerprint": "762b669acf7a7ee1908533323b99398e352dd7ca752b6551b4442bab2c1436c2",
+      "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
+      "judgedBy": "codex-readwise-inbox-semantic-review-20261024",
+      "judgedAt": "2026-10-24T00:00:00Z",
+      "evidenceRefs": [
+        ".tmp/readwise/inbox-pipeline-2026-10-24/semantic-review/reading-profile-snapshot.json#documents.01m5m6s1nefz6mp1fj96v8nn1c"
+      ],
+      "reason": "Volledig transcript over Scrum Master-werk met concrete team- en productvoorbeelden; direct bruikbaar voor professionele verdieping.",
+      "traits": {
+        "effort": 2,
+        "emotionalWeight": 0,
+        "tone": "zakelijk",
+        "needFit": {
+          "ontspannen": 0,
+          "afleiding": 1,
+          "herkenning": 3,
+          "verkennen": 3,
+          "verdieping": 4
+        },
+        "activation": 3,
+        "interruptibility": 3
+      }
+    },
+    "01m5m515nhqp280r78d5ycym89": {
+      "status": "accepted",
+      "confidence": "high",
+      "rubricVersion": "reading-profile-v2",
+      "sourceFingerprint": "1492e2c3d91312f1c8aebc23f9a0c5dc937f0dd010ba749c2c047874bfbf6011",
+      "evidenceFingerprint": "fdb2be06008a846afd3f36201402996a800da173f527f40b4ada7748ef2b33c3",
+      "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
+      "judgedBy": "codex-readwise-inbox-semantic-review-20261024",
+      "judgedAt": "2026-10-24T00:00:00Z",
+      "evidenceRefs": [
+        ".tmp/readwise/inbox-pipeline-2026-10-24/semantic-review/reading-profile-snapshot.json#documents.01m5m515nhqp280r78d5ycym89"
+      ],
+      "reason": "Volledig interview over identiteit, acceptatie en kunst; persoonlijk en politiek, met voldoende thematische ankers om te hervatten.",
+      "traits": {
+        "effort": 2,
+        "emotionalWeight": 2,
+        "tone": "warm",
+        "needFit": {
+          "ontspannen": 1,
+          "afleiding": 2,
+          "herkenning": 3,
+          "verkennen": 4,
+          "verdieping": 2
+        },
+        "activation": 2,
+        "interruptibility": 3
+      }
+    },
+    "01m5m4xbw2pdezgwm2h14f2xq8": {
+      "status": "accepted",
+      "confidence": "high",
+      "rubricVersion": "reading-profile-v2",
+      "sourceFingerprint": "b4afeae5d747bf68f9a992e8d5f7e2ccfc814c63ae7c5b47dd7cdad3856700ed",
+      "evidenceFingerprint": "fa1dcec603675e0858a059cb5129b9394feaa3311060df9bb4f06454782fe17f",
+      "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
+      "judgedBy": "codex-readwise-inbox-semantic-review-20261024",
+      "judgedAt": "2026-10-24T00:00:00Z",
+      "evidenceRefs": [
+        ".tmp/readwise/inbox-pipeline-2026-10-24/semantic-review/reading-profile-snapshot.json#documents.01m5m4xbw2pdezgwm2h14f2xq8"
+      ],
+      "reason": "Korte luchtige nieuwsbrief die AI-experimenten en cultuur combineert; vooral geschikt voor ontspanning en afleiding.",
+      "traits": {
+        "effort": 1,
+        "emotionalWeight": 0,
+        "tone": "speels",
+        "needFit": {
+          "ontspannen": 4,
+          "afleiding": 4,
+          "herkenning": 1,
+          "verkennen": 2,
+          "verdieping": 1
+        },
+        "activation": 1,
+        "interruptibility": 4
+      }
+    },
+    "01m5m4makfc0pnx0qq5sdbff6g": {
+      "status": "accepted",
+      "confidence": "high",
+      "rubricVersion": "reading-profile-v2",
+      "sourceFingerprint": "a27a02bb52a6fa24250731dbdba360573ce8788606ca651dff8d8f795ba1146a",
+      "evidenceFingerprint": "735c4e4ebb00f219ba6913a4c0436662aace56077b0443e70e8b4b40bcf1bdd2",
+      "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
+      "judgedBy": "codex-readwise-inbox-semantic-review-20261024",
+      "judgedAt": "2026-10-24T00:00:00Z",
+      "evidenceRefs": [
+        ".tmp/readwise/inbox-pipeline-2026-10-24/semantic-review/reading-profile-snapshot.json#documents.01m5m4makfc0pnx0qq5sdbff6g"
+      ],
+      "reason": "Korte persoonlijke reflectie over ambitie, onzekerheid en morele motivatie; herkenbaar en gemakkelijk te onderbreken.",
+      "traits": {
+        "effort": 2,
+        "emotionalWeight": 2,
+        "tone": "reflectief",
+        "needFit": {
+          "ontspannen": 1,
+          "afleiding": 1,
+          "herkenning": 4,
+          "verkennen": 2,
+          "verdieping": 3
+        },
+        "activation": 2,
+        "interruptibility": 3
+      }
+    },
+    "01m5kyk3gddgzry5zkyhsfwxss": {
+      "status": "accepted",
+      "confidence": "high",
+      "rubricVersion": "reading-profile-v2",
+      "sourceFingerprint": "82391e20359d4ba6ecf38e7dbdfea3952ccde8c4a76ced04445f372cac2358e1",
+      "evidenceFingerprint": "bbe37487579f060ceefeb49e889f6c6e03fa6ff342a64a3f826f3ac5faefa390",
+      "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
+      "judgedBy": "codex-readwise-inbox-semantic-review-20261024",
+      "judgedAt": "2026-10-24T00:00:00Z",
+      "evidenceRefs": [
+        ".tmp/readwise/inbox-pipeline-2026-10-24/semantic-review/reading-profile-snapshot.json#documents.01m5kyk3gddgzry5zkyhsfwxss"
+      ],
+      "reason": "Volledig journalistiek stuk over ondoorzichtige AI-trainingspraktijken; compact, actueel en geschikt voor kritische verkenning.",
+      "traits": {
+        "effort": 2,
+        "emotionalWeight": 1,
+        "tone": "zakelijk",
+        "needFit": {
+          "ontspannen": 0,
+          "afleiding": 1,
+          "herkenning": 1,
+          "verkennen": 3,
+          "verdieping": 3
+        },
+        "activation": 2,
+        "interruptibility": 3
+      }
+    },
+    "01m5kyjm19f1gcpp9b5yxt47pb": {
+      "status": "accepted",
+      "confidence": "high",
+      "rubricVersion": "reading-profile-v2",
+      "sourceFingerprint": "0ebca9134a1971d3ab539d050737de26154dfb55d3d9a9e75f28a9d618e27b1a",
+      "evidenceFingerprint": "07c3d4ff1807f5a6185e6893126cc39c2245286ab05139ffec69f2366b576c6f",
+      "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
+      "judgedBy": "codex-readwise-inbox-semantic-review-20261024",
+      "judgedAt": "2026-10-24T00:00:00Z",
+      "evidenceRefs": [
+        ".tmp/readwise/inbox-pipeline-2026-10-24/semantic-review/reading-profile-snapshot.json#documents.01m5kyjm19f1gcpp9b5yxt47pb"
+      ],
+      "reason": "Volledig essay over bibliotheken als sociale en publieke infrastructuur; rustig, duurzaam en inhoudelijk uitnodigend.",
+      "traits": {
+        "effort": 2,
+        "emotionalWeight": 1,
+        "tone": "reflectief",
+        "needFit": {
+          "ontspannen": 2,
+          "afleiding": 3,
+          "herkenning": 2,
+          "verkennen": 3,
+          "verdieping": 3
+        },
+        "activation": 2,
+        "interruptibility": 3
+      }
+    },
+    "01m5kyjfk0mysbs5g0xpge3tc1": {
+      "status": "accepted",
+      "confidence": "high",
+      "rubricVersion": "reading-profile-v2",
+      "sourceFingerprint": "2bb8d94a8fb9c1aa5004ebbfb3e8d5f19b4f1e145c623194999de1ae7f6f2d59",
+      "evidenceFingerprint": "e328663f6b2f4a424aef7f698a80e9c16b3a23ceef5fda92c21952ad452110a1",
+      "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
+      "judgedBy": "codex-readwise-inbox-semantic-review-20261024",
+      "judgedAt": "2026-10-24T00:00:00Z",
+      "evidenceRefs": [
+        ".tmp/readwise/inbox-pipeline-2026-10-24/semantic-review/reading-profile-snapshot.json#documents.01m5kyjfk0mysbs5g0xpge3tc1"
+      ],
+      "reason": "Korte Nederlandstalige cultuurtekst met lichte toon en zelfstandige observaties; bijzonder geschikt voor gefragmenteerd lezen.",
+      "traits": {
+        "effort": 1,
+        "emotionalWeight": 0,
+        "tone": "speels",
+        "needFit": {
+          "ontspannen": 4,
+          "afleiding": 4,
+          "herkenning": 2,
+          "verkennen": 2,
+          "verdieping": 1
+        },
+        "activation": 1,
+        "interruptibility": 4
+      }
+    },
+    "01m5kyjd1x7zx1aa10qgmws9wk": {
+      "status": "accepted",
+      "confidence": "high",
+      "rubricVersion": "reading-profile-v2",
+      "sourceFingerprint": "3256efbdd40c25e5a5e6948e66b43a4b27e8fe1e9f4f22f397fa7df24a198594",
+      "evidenceFingerprint": "6f396e3f5bf2639a66f76765997557c194949ec1dd410aade75e03b5ffc24267",
+      "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
+      "judgedBy": "codex-readwise-inbox-semantic-review-20261024",
+      "judgedAt": "2026-10-24T00:00:00Z",
+      "evidenceRefs": [
+        ".tmp/readwise/inbox-pipeline-2026-10-24/semantic-review/reading-profile-snapshot.json#documents.01m5kyjd1x7zx1aa10qgmws9wk"
+      ],
+      "reason": "Korte cultuur- en AI-kritiek met satirische invalshoek; licht te lezen maar met genoeg materiaal voor reflectie.",
+      "traits": {
+        "effort": 2,
+        "emotionalWeight": 1,
+        "tone": "speels",
+        "needFit": {
+          "ontspannen": 2,
+          "afleiding": 3,
+          "herkenning": 1,
+          "verkennen": 3,
+          "verdieping": 2
+        },
+        "activation": 2,
+        "interruptibility": 3
       }
     }
   }
