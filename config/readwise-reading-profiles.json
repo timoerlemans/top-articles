@@ -11108,30 +11108,32 @@
       }
     },
     "01m40srag0pz4f6hw0hmn7xvjr": {
-      "rubricVersion": "reading-profile-v2",
-      "sourceFingerprint": "b59d736739c6393a24ec7bc29de63cdb9783c3da0f425366492b02c8bb06f930",
-      "evidenceFingerprint": "5c06ea4cd6bdc1785f40c45f98532e4c1c9ce1ffa330fe1aed16b1f9d941db19",
-      "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
-      "judgedBy": "codex-readwise-inbox-profile-v2-2026-10-23",
-      "judgedAt": "2026-10-23T00:00:00Z",
-      "evidenceRefs": [
-        ".tmp/readwise/inbox-pipeline-2026-10-23/reading-profiles/snapshot.json#documents.01m40srag0pz4f6hw0hmn7xvjr"
-      ],
       "status": "accepted",
       "confidence": "medium",
-      "reason": "Actueel v2-profiel beoordeeld vanuit volledige brontekst, samenvatting, inhoudstags en de leesvoorkeuren; ratings zijn inhoudelijk afgeleid en onafhankelijk van prioriteit of rangpositie.",
+      "rubricVersion": "reading-profile-v2",
+      "sourceFingerprint": "b59d736739c6393a24ec7bc29de63cdb9783c3da0f425366492b02c8bb06f930",
+      "evidenceFingerprint": "9c12ae00c5fa137369227b01885f0e74d6ff1bdf84a2d02ff7b7c6b41c15b493",
+      "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
+      "judgedBy": "codex-readwise-inbox-profile-v2-20261026",
+      "judgedAt": "2026-10-26T11:16:23.562Z",
+      "evidenceRefs": [
+        "content",
+        "summary",
+        "notes"
+      ],
+      "reason": "Volledig essay over internet als sociale plek, digitale omheining en alternatieve commons; conceptueel intensief en activerend, maar opgebouwd uit hervatbare argumenten.",
       "traits": {
         "effort": 3,
-        "emotionalWeight": 3,
+        "emotionalWeight": 2,
         "tone": "intens",
         "needFit": {
-          "ontspannen": 4,
-          "afleiding": 4,
+          "ontspannen": 0,
+          "afleiding": 1,
           "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
+          "verkennen": 4,
+          "verdieping": 4
         },
-        "activation": 3,
+        "activation": 4,
         "interruptibility": 3
       }
     },
@@ -16650,25 +16652,27 @@
       "sourceFingerprint": "0ebca9134a1971d3ab539d050737de26154dfb55d3d9a9e75f28a9d618e27b1a",
       "evidenceFingerprint": "07c3d4ff1807f5a6185e6893126cc39c2245286ab05139ffec69f2366b576c6f",
       "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
-      "judgedBy": "codex-readwise-inbox-semantic-review-20261024",
-      "judgedAt": "2026-10-24T00:00:00Z",
+      "judgedBy": "codex-readwise-inbox-profile-v2-20261026",
+      "judgedAt": "2026-10-26T11:16:23.562Z",
       "evidenceRefs": [
-        ".tmp/readwise/inbox-pipeline-2026-10-24/semantic-review/reading-profile-snapshot.json#documents.01m5kyjm19f1gcpp9b5yxt47pb"
+        "content",
+        "summary",
+        "notes"
       ],
-      "reason": "Volledig essay over bibliotheken als sociale en publieke infrastructuur; rustig, duurzaam en inhoudelijk uitnodigend.",
+      "reason": "Volledig essay over bibliotheken als ruimte voor denken en over de retoriek van AI-taal; rustig, duurzaam relevant en zeer geschikt voor reflectieve leessessies.",
       "traits": {
         "effort": 2,
         "emotionalWeight": 1,
         "tone": "reflectief",
         "needFit": {
-          "ontspannen": 2,
+          "ontspannen": 4,
           "afleiding": 3,
           "herkenning": 2,
-          "verkennen": 3,
+          "verkennen": 4,
           "verdieping": 3
         },
         "activation": 2,
-        "interruptibility": 3
+        "interruptibility": 4
       }
     },
     "01m5kyjfk0mysbs5g0xpge3tc1": {
@@ -16987,6 +16991,352 @@
         },
         "activation": 2,
         "interruptibility": 4
+      }
+    },
+    "01m5vw7r6a3047mz2gm29n7x1n": {
+      "status": "accepted",
+      "confidence": "medium",
+      "rubricVersion": "reading-profile-v2",
+      "sourceFingerprint": "b34e4853f0f4a82bcd172a0ded235d1d2ea77e2c2cc31d9d0acee73dc01e361f",
+      "evidenceFingerprint": "a9f8348da2ccea6cf52e75aca0ac15919f2891a15334d3661c116d01d7f45326",
+      "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
+      "judgedBy": "codex-readwise-inbox-profile-v2-20261026",
+      "judgedAt": "2026-10-26T11:16:23.562Z",
+      "evidenceRefs": [
+        "content",
+        "summary",
+        "notes"
+      ],
+      "reason": "Heldere korte tekst over AI-fluency naast tacit knowledge en sociale intelligentie; concreet relevant voor coaching en goed in korte delen te hervatten.",
+      "traits": {
+        "effort": 1,
+        "emotionalWeight": 0,
+        "tone": "zakelijk",
+        "needFit": {
+          "ontspannen": 1,
+          "afleiding": 1,
+          "herkenning": 3,
+          "verkennen": 4,
+          "verdieping": 3
+        },
+        "activation": 3,
+        "interruptibility": 4
+      }
+    },
+    "01m5vqv9ywgnk0nr0dhxknc516": {
+      "status": "accepted",
+      "confidence": "high",
+      "rubricVersion": "reading-profile-v2",
+      "sourceFingerprint": "1a79a344958dda35a09116d421be4baf7c0c15c39a3c9bee2ea9e9e68a606d68",
+      "evidenceFingerprint": "92af83566e63315b47738a17b52cb5de7afc1f88c008cac9711621df6547ee67",
+      "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
+      "judgedBy": "codex-readwise-inbox-profile-v2-20261026",
+      "judgedAt": "2026-10-26T11:16:23.562Z",
+      "evidenceRefs": [
+        "content",
+        "summary",
+        "notes"
+      ],
+      "reason": "Volledig leesbare, directe checklist voor technische schrijvers over aannames, structuur, links en toegankelijkheid; toepasbaar en zelfstandig te onderbreken.",
+      "traits": {
+        "effort": 2,
+        "emotionalWeight": 0,
+        "tone": "zakelijk",
+        "needFit": {
+          "ontspannen": 1,
+          "afleiding": 1,
+          "herkenning": 2,
+          "verkennen": 3,
+          "verdieping": 4
+        },
+        "activation": 3,
+        "interruptibility": 3
+      }
+    },
+    "01m5vafph5qpkpeb8xgs237qsa": {
+      "status": "accepted",
+      "confidence": "high",
+      "rubricVersion": "reading-profile-v2",
+      "sourceFingerprint": "476a9cded7b5c62ba37b752d01a06fed104cffbbcbe806b5fd2dd71c7e08b632",
+      "evidenceFingerprint": "129a67bc38c546a0bf7d9b41f14117b45eff488d60ad3332b8dada7f694d2104",
+      "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
+      "judgedBy": "codex-readwise-inbox-profile-v2-20261026",
+      "judgedAt": "2026-10-26T11:16:23.562Z",
+      "evidenceRefs": [
+        "content",
+        "summary",
+        "notes"
+      ],
+      "reason": "Volledige empirische review van goal-setting theory met mechanismen, moderatoren en grenzen; vraagt geconcentreerde studie maar biedt sterke inhoudelijke verdieping.",
+      "traits": {
+        "effort": 4,
+        "emotionalWeight": 0,
+        "tone": "zakelijk",
+        "needFit": {
+          "ontspannen": 0,
+          "afleiding": 0,
+          "herkenning": 1,
+          "verkennen": 3,
+          "verdieping": 4
+        },
+        "activation": 3,
+        "interruptibility": 2
+      }
+    },
+    "01m5vaf82j22pw6m0y7kbadyxb": {
+      "status": "rejected",
+      "confidence": "high",
+      "rubricVersion": "reading-profile-v2",
+      "sourceFingerprint": "9e920bdf62c6890269ffe3d2c6be5b0e6e68b55c4d7b2cd630e22bfcb84a301c",
+      "evidenceFingerprint": "38513fced37e772ee467ca3a3ce0a32a47fcbcd572c66297c62cb36b58f77b3c",
+      "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
+      "judgedBy": "codex-readwise-inbox-profile-v2-20261026",
+      "judgedAt": "2026-10-26T11:16:23.562Z",
+      "evidenceRefs": [
+        "summary",
+        "notes",
+        "metadata:category"
+      ],
+      "reason": "Video; uitgesloten van leesprofielen volgens het profielcontract, ook al is de metadata inhoudelijk bruikbaar."
+    },
+    "01m5vaedk96gh4yky54hdwckx7": {
+      "status": "accepted",
+      "confidence": "high",
+      "rubricVersion": "reading-profile-v2",
+      "sourceFingerprint": "763c32134715ee1d6c6cedbe0d71a9f0016defbe0f9694a10f4db646585cc7eb",
+      "evidenceFingerprint": "394b9fd172317dc1c03042ccc4d4b4fb724b3d1b92c26844d2494d135ae45867",
+      "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
+      "judgedBy": "codex-readwise-inbox-profile-v2-20261026",
+      "judgedAt": "2026-10-26T11:16:23.562Z",
+      "evidenceRefs": [
+        "content",
+        "summary",
+        "notes"
+      ],
+      "reason": "Volledig leesbaar, scherp betoog over business schools, status, arbeidsaandeel en institutionele macht; polemisch en sterk activerend, maar sectiegewijs hervatbaar.",
+      "traits": {
+        "effort": 3,
+        "emotionalWeight": 2,
+        "tone": "intens",
+        "needFit": {
+          "ontspannen": 0,
+          "afleiding": 0,
+          "herkenning": 2,
+          "verkennen": 4,
+          "verdieping": 4
+        },
+        "activation": 4,
+        "interruptibility": 3
+      }
+    },
+    "01m5v85j9yfacp8fdt71h6207n": {
+      "status": "accepted",
+      "confidence": "high",
+      "rubricVersion": "reading-profile-v2",
+      "sourceFingerprint": "c625f8637dbcb28d8123201b31eed0215f81c250765fefa82758b4c75902cd08",
+      "evidenceFingerprint": "9aa3e78b445c48638268603a1411c502b97cb4d71f1be278e963fe5c015871bd",
+      "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
+      "judgedBy": "codex-readwise-inbox-profile-v2-20261026",
+      "judgedAt": "2026-10-26T11:16:23.562Z",
+      "evidenceRefs": [
+        "content",
+        "summary",
+        "notes"
+      ],
+      "reason": "Leesbaar persoonlijk essay dat levensfase, open-webinfrastructuur en vergeving verweeft; reflectief, toegankelijk en in zelfstandige passages te hervatten.",
+      "traits": {
+        "effort": 2,
+        "emotionalWeight": 1,
+        "tone": "reflectief",
+        "needFit": {
+          "ontspannen": 3,
+          "afleiding": 2,
+          "herkenning": 3,
+          "verkennen": 3,
+          "verdieping": 3
+        },
+        "activation": 2,
+        "interruptibility": 3
+      }
+    },
+    "01m5tvng10sm1jh2vymt6s6e1c": {
+      "status": "accepted",
+      "confidence": "high",
+      "rubricVersion": "reading-profile-v2",
+      "sourceFingerprint": "727f32c35828d06a2d60b2141bb71ee32aeec565cfb06d581b1fe5d41bbee929",
+      "evidenceFingerprint": "f5a1380370914b5e3d49167fc840859b07f7ef88ae3a9bffc425bceb0bf4749d",
+      "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
+      "judgedBy": "codex-readwise-inbox-profile-v2-20261026",
+      "judgedAt": "2026-10-26T11:16:23.562Z",
+      "evidenceRefs": [
+        "content",
+        "summary",
+        "notes"
+      ],
+      "reason": "Volledig leesbare Nederlandstalige tekst over AI-agents, onderwijs en zelfstandig zoeken; concreet maatschappelijk en goed onderbreekbaar.",
+      "traits": {
+        "effort": 2,
+        "emotionalWeight": 1,
+        "tone": "reflectief",
+        "needFit": {
+          "ontspannen": 1,
+          "afleiding": 1,
+          "herkenning": 2,
+          "verkennen": 4,
+          "verdieping": 3
+        },
+        "activation": 3,
+        "interruptibility": 4
+      }
+    },
+    "01m5tefryt5ys05k85w7fb2xgj": {
+      "status": "accepted",
+      "confidence": "high",
+      "rubricVersion": "reading-profile-v2",
+      "sourceFingerprint": "ab6e5b1c805497b12bf3ed91e2e3905c257dec839d4ae0be67b70ac2f676a735",
+      "evidenceFingerprint": "ba9f99fe52e1b2ab3ab569abc06e3642027b9d279747a53b4dd5991ce248bfc7",
+      "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
+      "judgedBy": "codex-readwise-inbox-profile-v2-20261026",
+      "judgedAt": "2026-10-26T11:16:23.562Z",
+      "evidenceRefs": [
+        "content",
+        "summary",
+        "notes"
+      ],
+      "reason": "Volledig verhaal waarin consent, privacy en machtsconcentratie vanuit een menselijke situatie worden onderzocht; intens en lang, met een doorlopende narratieve aandacht.",
+      "traits": {
+        "effort": 3,
+        "emotionalWeight": 2,
+        "tone": "intens",
+        "needFit": {
+          "ontspannen": 1,
+          "afleiding": 3,
+          "herkenning": 2,
+          "verkennen": 4,
+          "verdieping": 3
+        },
+        "activation": 4,
+        "interruptibility": 2
+      }
+    },
+    "01m5tax5my846kxr711j81v2yq": {
+      "status": "accepted",
+      "confidence": "high",
+      "rubricVersion": "reading-profile-v2",
+      "sourceFingerprint": "2234e3730afbfa7279be7071b3696de194d09bbf7978c8ec24e653aec8924bde",
+      "evidenceFingerprint": "bfaad952bd408bd9a09449b4783163b42d1dbe71b1cce2de638295fe7743d5d6",
+      "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
+      "judgedBy": "codex-readwise-inbox-profile-v2-20261026",
+      "judgedAt": "2026-10-26T11:16:23.562Z",
+      "evidenceRefs": [
+        "content",
+        "summary",
+        "notes"
+      ],
+      "reason": "Toegankelijke tijdlijn van gesprekstechnieken, van Rogers en ELIZA tot chatbots; speels maar inhoudelijk, met duidelijke zelfstandige onderdelen.",
+      "traits": {
+        "effort": 2,
+        "emotionalWeight": 0,
+        "tone": "speels",
+        "needFit": {
+          "ontspannen": 2,
+          "afleiding": 3,
+          "herkenning": 3,
+          "verkennen": 4,
+          "verdieping": 3
+        },
+        "activation": 3,
+        "interruptibility": 3
+      }
+    },
+    "01m5sr3v4fqnpzrnc21nxekmj0": {
+      "status": "accepted",
+      "confidence": "high",
+      "rubricVersion": "reading-profile-v2",
+      "sourceFingerprint": "51fe8bafac357808ae897188f34011397297ecbb32b0f01b3bb46b7bb637bc7c",
+      "evidenceFingerprint": "1cb6c94ef7b0993326d2da6588accb5a03a2909a428f6416500ce28af4e47105",
+      "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
+      "judgedBy": "codex-readwise-inbox-profile-v2-20261026",
+      "judgedAt": "2026-10-26T11:16:23.562Z",
+      "evidenceRefs": [
+        "content",
+        "summary",
+        "notes"
+      ],
+      "reason": "Volledig praktijkverhaal over evidence-based teamwerk, rolontwerp en feedback van betrokkenen; professioneel relevant en helder gestructureerd.",
+      "traits": {
+        "effort": 3,
+        "emotionalWeight": 1,
+        "tone": "zakelijk",
+        "needFit": {
+          "ontspannen": 0,
+          "afleiding": 1,
+          "herkenning": 4,
+          "verkennen": 3,
+          "verdieping": 4
+        },
+        "activation": 4,
+        "interruptibility": 3
+      }
+    },
+    "01m5sa21kbctbwyfytr9q698th": {
+      "status": "accepted",
+      "confidence": "medium",
+      "rubricVersion": "reading-profile-v2",
+      "sourceFingerprint": "1904a8388f3720b5290fd78de9208207aea62e8054f56f82636ce307d94a5cd5",
+      "evidenceFingerprint": "468eb8c922764dc01992964cd5cd0ce16905bd4188748bfc1cfe90915cb89acc",
+      "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
+      "judgedBy": "codex-readwise-inbox-profile-v2-20261026",
+      "judgedAt": "2026-10-26T11:16:23.562Z",
+      "evidenceRefs": [
+        "content",
+        "summary",
+        "notes"
+      ],
+      "reason": "Korte volledige reflectie over AI-gestuurde optimalisatie en menselijke doelkeuze; licht, concreet en bijzonder gemakkelijk te pauzeren.",
+      "traits": {
+        "effort": 1,
+        "emotionalWeight": 0,
+        "tone": "reflectief",
+        "needFit": {
+          "ontspannen": 3,
+          "afleiding": 2,
+          "herkenning": 2,
+          "verkennen": 3,
+          "verdieping": 2
+        },
+        "activation": 2,
+        "interruptibility": 4
+      }
+    },
+    "01m5qct518h61qwc5sfpnzerb8": {
+      "status": "accepted",
+      "confidence": "high",
+      "rubricVersion": "reading-profile-v2",
+      "sourceFingerprint": "d3f2d24080a5ee9dcea241c5c051a14f0c2ac2f1a04ea06b61efb15b49486d99",
+      "evidenceFingerprint": "729ef692e2a821f4e9fc1edcbd1983a735f366c78d741d94a9a284344ce145a2",
+      "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
+      "judgedBy": "codex-readwise-inbox-profile-v2-20261026",
+      "judgedAt": "2026-10-26T11:16:23.562Z",
+      "evidenceRefs": [
+        "content",
+        "summary",
+        "notes"
+      ],
+      "reason": "Volledig essay over religieuze verbeelding, secularisering en fantasyconventies; inhoudelijk rijk maar niet zwaar emotioneel en goed per passage te hervatten.",
+      "traits": {
+        "effort": 2,
+        "emotionalWeight": 0,
+        "tone": "zakelijk",
+        "needFit": {
+          "ontspannen": 2,
+          "afleiding": 2,
+          "herkenning": 1,
+          "verkennen": 4,
+          "verdieping": 3
+        },
+        "activation": 3,
+        "interruptibility": 3
       }
     }
   }
