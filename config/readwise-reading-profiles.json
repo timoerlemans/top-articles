@@ -11112,14 +11112,12 @@
       "confidence": "medium",
       "rubricVersion": "reading-profile-v2",
       "sourceFingerprint": "b59d736739c6393a24ec7bc29de63cdb9783c3da0f425366492b02c8bb06f930",
-      "evidenceFingerprint": "9c12ae00c5fa137369227b01885f0e74d6ff1bdf84a2d02ff7b7c6b41c15b493",
+      "evidenceFingerprint": "5c06ea4cd6bdc1785f40c45f98532e4c1c9ce1ffa330fe1aed16b1f9d941db19",
       "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
       "judgedBy": "codex-readwise-inbox-profile-v2-20261026",
       "judgedAt": "2026-10-26T11:16:23.562Z",
       "evidenceRefs": [
-        "content",
-        "summary",
-        "notes"
+        "/mnt/c/dev/top-articles/.tmp/readwise/inbox-semantic-run-20261028-2/reading-profiles/snapshot.json#documents.01m40srag0pz4f6hw0hmn7xvjr.content"
       ],
       "reason": "Volledig essay over internet als sociale plek, digitale omheining en alternatieve commons; conceptueel intensief en activerend, maar opgebouwd uit hervatbare argumenten.",
       "traits": {
@@ -16653,7 +16651,7 @@
       "judgedBy": "codex-readwise-inbox-profile-v2-2026-10-27",
       "judgedAt": "2026-10-27T00:00:00Z",
       "evidenceRefs": [
-        "/mnt/c/dev/top-articles/.tmp/readwise/inbox-semantic-run/reading-profiles/snapshot.json#documents.01m5kyjm19f1gcpp9b5yxt47pb.content"
+        "/mnt/c/dev/top-articles/.tmp/readwise/inbox-semantic-run-20261028-2/reading-profiles/snapshot.json#documents.01m5kyjm19f1gcpp9b5yxt47pb.content"
       ],
       "status": "accepted",
       "confidence": "medium",
@@ -16999,7 +16997,7 @@
       "judgedBy": "codex-readwise-inbox-profile-v2-2026-10-27",
       "judgedAt": "2026-10-27T00:00:00Z",
       "evidenceRefs": [
-        "/mnt/c/dev/top-articles/.tmp/readwise/inbox-semantic-run/reading-profiles/snapshot.json#documents.01m5vw7r6a3047mz2gm29n7x1n.content"
+        "/mnt/c/dev/top-articles/.tmp/readwise/inbox-semantic-run-20261028-2/reading-profiles/snapshot.json#documents.01m5vw7r6a3047mz2gm29n7x1n.content"
       ],
       "status": "accepted",
       "confidence": "medium",
@@ -17055,7 +17053,7 @@
       "judgedBy": "codex-readwise-inbox-profile-v2-2026-10-27",
       "judgedAt": "2026-10-27T00:00:00Z",
       "evidenceRefs": [
-        "/mnt/c/dev/top-articles/.tmp/readwise/inbox-semantic-run/reading-profiles/snapshot.json#documents.01m5vafph5qpkpeb8xgs237qsa.content"
+        "/mnt/c/dev/top-articles/.tmp/readwise/inbox-semantic-run-20261028-2/reading-profiles/snapshot.json#documents.01m5vafph5qpkpeb8xgs237qsa.content"
       ],
       "status": "accepted",
       "confidence": "medium",
@@ -17097,7 +17095,7 @@
       "judgedBy": "codex-readwise-inbox-profile-v2-2026-10-27",
       "judgedAt": "2026-10-27T00:00:00Z",
       "evidenceRefs": [
-        "/mnt/c/dev/top-articles/.tmp/readwise/inbox-semantic-run/reading-profiles/snapshot.json#documents.01m5vaedk96gh4yky54hdwckx7.content"
+        "/mnt/c/dev/top-articles/.tmp/readwise/inbox-semantic-run-20261028-2/reading-profiles/snapshot.json#documents.01m5vaedk96gh4yky54hdwckx7.content"
       ],
       "status": "accepted",
       "confidence": "medium",
@@ -17209,7 +17207,7 @@
       "judgedBy": "codex-readwise-inbox-profile-v2-2026-10-27",
       "judgedAt": "2026-10-27T00:00:00Z",
       "evidenceRefs": [
-        "/mnt/c/dev/top-articles/.tmp/readwise/inbox-semantic-run/reading-profiles/snapshot.json#documents.01m5tax5my846kxr711j81v2yq.content"
+        "/mnt/c/dev/top-articles/.tmp/readwise/inbox-semantic-run-20261028-2/reading-profiles/snapshot.json#documents.01m5tax5my846kxr711j81v2yq.content"
       ],
       "status": "accepted",
       "confidence": "medium",
@@ -17237,7 +17235,7 @@
       "judgedBy": "codex-readwise-inbox-profile-v2-2026-10-27",
       "judgedAt": "2026-10-27T00:00:00Z",
       "evidenceRefs": [
-        "/mnt/c/dev/top-articles/.tmp/readwise/inbox-semantic-run/reading-profiles/snapshot.json#documents.01m5sr3v4fqnpzrnc21nxekmj0.content"
+        "/mnt/c/dev/top-articles/.tmp/readwise/inbox-semantic-run-20261028-2/reading-profiles/snapshot.json#documents.01m5sr3v4fqnpzrnc21nxekmj0.content"
       ],
       "status": "accepted",
       "confidence": "medium",
@@ -17293,7 +17291,7 @@
       "judgedBy": "codex-readwise-inbox-profile-v2-2026-10-27",
       "judgedAt": "2026-10-27T00:00:00Z",
       "evidenceRefs": [
-        "/mnt/c/dev/top-articles/.tmp/readwise/inbox-semantic-run/reading-profiles/snapshot.json#documents.01m5qct518h61qwc5sfpnzerb8.content"
+        "/mnt/c/dev/top-articles/.tmp/readwise/inbox-semantic-run-20261028-2/reading-profiles/snapshot.json#documents.01m5qct518h61qwc5sfpnzerb8.content"
       ],
       "status": "accepted",
       "confidence": "medium",
@@ -17377,7 +17375,7 @@
       "judgedBy": "codex-readwise-inbox-profile-v2-2026-10-27",
       "judgedAt": "2026-10-27T00:00:00Z",
       "evidenceRefs": [
-        "/mnt/c/dev/top-articles/.tmp/readwise/inbox-semantic-run/reading-profiles/snapshot.json#documents.01m5ycf52qe1ah9gassy6rar9p.content"
+        "/mnt/c/dev/top-articles/.tmp/readwise/inbox-semantic-run-20261028-2/reading-profiles/snapshot.json#documents.01m5ycf52qe1ah9gassy6rar9p.content"
       ],
       "status": "accepted",
       "confidence": "medium",
@@ -17405,7 +17403,7 @@
       "judgedBy": "codex-readwise-inbox-profile-v2-2026-10-27",
       "judgedAt": "2026-10-27T00:00:00Z",
       "evidenceRefs": [
-        "/mnt/c/dev/top-articles/.tmp/readwise/inbox-semantic-run/reading-profiles/snapshot.json#documents.01m5y98bf39htw8tp3nmcxw2s6.content"
+        "/mnt/c/dev/top-articles/.tmp/readwise/inbox-semantic-run-20261028-2/reading-profiles/snapshot.json#documents.01m5y98bf39htw8tp3nmcxw2s6.content"
       ],
       "status": "accepted",
       "confidence": "medium",
@@ -17475,7 +17473,7 @@
       "judgedBy": "codex-readwise-inbox-profile-v2-2026-10-27",
       "judgedAt": "2026-10-27T00:00:00Z",
       "evidenceRefs": [
-        "/mnt/c/dev/top-articles/.tmp/readwise/inbox-semantic-run/reading-profiles/snapshot.json#documents.01m5x1akag2kydg78j4w2r9x6p.content"
+        "/mnt/c/dev/top-articles/.tmp/readwise/inbox-semantic-run-20261028-2/reading-profiles/snapshot.json#documents.01m5x1akag2kydg78j4w2r9x6p.content"
       ],
       "status": "accepted",
       "confidence": "medium",
@@ -17531,7 +17529,7 @@
       "judgedBy": "codex-readwise-inbox-profile-v2-2026-10-27",
       "judgedAt": "2026-10-27T00:00:00Z",
       "evidenceRefs": [
-        "/mnt/c/dev/top-articles/.tmp/readwise/inbox-semantic-run/reading-profiles/snapshot.json#documents.01m5x1abf7081g3wf00yma4zkz.content"
+        "/mnt/c/dev/top-articles/.tmp/readwise/inbox-semantic-run-20261028-2/reading-profiles/snapshot.json#documents.01m5x1abf7081g3wf00yma4zkz.content"
       ],
       "status": "accepted",
       "confidence": "medium",
@@ -17559,7 +17557,7 @@
       "judgedBy": "codex-readwise-inbox-profile-v2-2026-10-27",
       "judgedAt": "2026-10-27T00:00:00Z",
       "evidenceRefs": [
-        "/mnt/c/dev/top-articles/.tmp/readwise/inbox-semantic-run/reading-profiles/snapshot.json#documents.01m5x1a88ffeqr7n2dwt225363.content"
+        "/mnt/c/dev/top-articles/.tmp/readwise/inbox-semantic-run-20261028-2/reading-profiles/snapshot.json#documents.01m5x1a88ffeqr7n2dwt225363.content"
       ],
       "status": "accepted",
       "confidence": "medium",
@@ -17587,7 +17585,7 @@
       "judgedBy": "codex-readwise-inbox-profile-v2-2026-10-27",
       "judgedAt": "2026-10-27T00:00:00Z",
       "evidenceRefs": [
-        "/mnt/c/dev/top-articles/.tmp/readwise/inbox-semantic-run/reading-profiles/snapshot.json#documents.01m5x1a5f458tywbbhx29xj5v3.content"
+        "/mnt/c/dev/top-articles/.tmp/readwise/inbox-semantic-run-20261028-2/reading-profiles/snapshot.json#documents.01m5x1a5f458tywbbhx29xj5v3.content"
       ],
       "status": "accepted",
       "confidence": "medium",
@@ -17615,7 +17613,7 @@
       "judgedBy": "codex-readwise-inbox-profile-v2-2026-10-27",
       "judgedAt": "2026-10-27T00:00:00Z",
       "evidenceRefs": [
-        "/mnt/c/dev/top-articles/.tmp/readwise/inbox-semantic-run/reading-profiles/snapshot.json#documents.01m5x1a3tfn5sxc7s8sty4573t.content"
+        "/mnt/c/dev/top-articles/.tmp/readwise/inbox-semantic-run-20261028-2/reading-profiles/snapshot.json#documents.01m5x1a3tfn5sxc7s8sty4573t.content"
       ],
       "status": "accepted",
       "confidence": "medium",
@@ -17643,7 +17641,7 @@
       "judgedBy": "codex-readwise-inbox-profile-v2-2026-10-27",
       "judgedAt": "2026-10-27T00:00:00Z",
       "evidenceRefs": [
-        "/mnt/c/dev/top-articles/.tmp/readwise/inbox-semantic-run/reading-profiles/snapshot.json#documents.01m5x19zpj071qq5r2ym1fxf0p.content"
+        "/mnt/c/dev/top-articles/.tmp/readwise/inbox-semantic-run-20261028-2/reading-profiles/snapshot.json#documents.01m5x19zpj071qq5r2ym1fxf0p.content"
       ],
       "status": "accepted",
       "confidence": "medium",
@@ -17671,7 +17669,7 @@
       "judgedBy": "codex-readwise-inbox-profile-v2-2026-10-27",
       "judgedAt": "2026-10-27T00:00:00Z",
       "evidenceRefs": [
-        "/mnt/c/dev/top-articles/.tmp/readwise/inbox-semantic-run/reading-profiles/snapshot.json#documents.01m5x19xt9b6pmpc0xkdddpdc5.content"
+        "/mnt/c/dev/top-articles/.tmp/readwise/inbox-semantic-run-20261028-2/reading-profiles/snapshot.json#documents.01m5x19xt9b6pmpc0xkdddpdc5.content"
       ],
       "status": "accepted",
       "confidence": "medium",
@@ -17699,7 +17697,7 @@
       "judgedBy": "codex-readwise-inbox-profile-v2-2026-10-27",
       "judgedAt": "2026-10-27T00:00:00Z",
       "evidenceRefs": [
-        "/mnt/c/dev/top-articles/.tmp/readwise/inbox-semantic-run/reading-profiles/snapshot.json#documents.01m5x19vwxa0stw61wbx7aevqj.content"
+        "/mnt/c/dev/top-articles/.tmp/readwise/inbox-semantic-run-20261028-2/reading-profiles/snapshot.json#documents.01m5x19vwxa0stw61wbx7aevqj.content"
       ],
       "status": "accepted",
       "confidence": "medium",
@@ -17727,7 +17725,7 @@
       "judgedBy": "codex-readwise-inbox-profile-v2-2026-10-27",
       "judgedAt": "2026-10-27T00:00:00Z",
       "evidenceRefs": [
-        "/mnt/c/dev/top-articles/.tmp/readwise/inbox-semantic-run/reading-profiles/snapshot.json#documents.01m5x19hwax46cxzj0nscw0ecd.content"
+        "/mnt/c/dev/top-articles/.tmp/readwise/inbox-semantic-run-20261028-2/reading-profiles/snapshot.json#documents.01m5x19hwax46cxzj0nscw0ecd.content"
       ],
       "status": "accepted",
       "confidence": "medium",
@@ -17755,7 +17753,7 @@
       "judgedBy": "codex-readwise-inbox-profile-v2-2026-10-27",
       "judgedAt": "2026-10-27T00:00:00Z",
       "evidenceRefs": [
-        "/mnt/c/dev/top-articles/.tmp/readwise/inbox-semantic-run/reading-profiles/snapshot.json#documents.01m5x19g49ebfq4hznh0fnyq0n.content"
+        "/mnt/c/dev/top-articles/.tmp/readwise/inbox-semantic-run-20261028-2/reading-profiles/snapshot.json#documents.01m5x19g49ebfq4hznh0fnyq0n.content"
       ],
       "status": "accepted",
       "confidence": "medium",
@@ -17783,7 +17781,7 @@
       "judgedBy": "codex-readwise-inbox-profile-v2-2026-10-27",
       "judgedAt": "2026-10-27T00:00:00Z",
       "evidenceRefs": [
-        "/mnt/c/dev/top-articles/.tmp/readwise/inbox-semantic-run/reading-profiles/snapshot.json#documents.01m5x19cy657m5z6qws0vfnzg7.content"
+        "/mnt/c/dev/top-articles/.tmp/readwise/inbox-semantic-run-20261028-2/reading-profiles/snapshot.json#documents.01m5x19cy657m5z6qws0vfnzg7.content"
       ],
       "status": "accepted",
       "confidence": "medium",
@@ -17811,7 +17809,7 @@
       "judgedBy": "codex-readwise-inbox-profile-v2-2026-10-27",
       "judgedAt": "2026-10-27T00:00:00Z",
       "evidenceRefs": [
-        "/mnt/c/dev/top-articles/.tmp/readwise/inbox-semantic-run/reading-profiles/snapshot.json#documents.01m5x198ecjff5fc09d98zv8p6.content"
+        "/mnt/c/dev/top-articles/.tmp/readwise/inbox-semantic-run-20261028-2/reading-profiles/snapshot.json#documents.01m5x198ecjff5fc09d98zv8p6.content"
       ],
       "status": "accepted",
       "confidence": "medium",
@@ -17839,7 +17837,7 @@
       "judgedBy": "codex-readwise-inbox-profile-v2-2026-10-27",
       "judgedAt": "2026-10-27T00:00:00Z",
       "evidenceRefs": [
-        "/mnt/c/dev/top-articles/.tmp/readwise/inbox-semantic-run/reading-profiles/snapshot.json#documents.01m5x192t1fvbp1kdp1xw09rre.content"
+        "/mnt/c/dev/top-articles/.tmp/readwise/inbox-semantic-run-20261028-2/reading-profiles/snapshot.json#documents.01m5x192t1fvbp1kdp1xw09rre.content"
       ],
       "status": "accepted",
       "confidence": "medium",
@@ -17895,7 +17893,7 @@
       "judgedBy": "codex-readwise-inbox-profile-v2-2026-10-27",
       "judgedAt": "2026-10-27T00:00:00Z",
       "evidenceRefs": [
-        "/mnt/c/dev/top-articles/.tmp/readwise/inbox-semantic-run/reading-profiles/snapshot.json#documents.01m5x18xywtkw0vxpsbqnytpxv.content"
+        "/mnt/c/dev/top-articles/.tmp/readwise/inbox-semantic-run-20261028-2/reading-profiles/snapshot.json#documents.01m5x18xywtkw0vxpsbqnytpxv.content"
       ],
       "status": "accepted",
       "confidence": "medium",
@@ -17923,7 +17921,7 @@
       "judgedBy": "codex-readwise-inbox-profile-v2-2026-10-27",
       "judgedAt": "2026-10-27T00:00:00Z",
       "evidenceRefs": [
-        "/mnt/c/dev/top-articles/.tmp/readwise/inbox-semantic-run/reading-profiles/snapshot.json#documents.01m5x18xf6b014g6vex7kzgmkq.content"
+        "/mnt/c/dev/top-articles/.tmp/readwise/inbox-semantic-run-20261028-2/reading-profiles/snapshot.json#documents.01m5x18xf6b014g6vex7kzgmkq.content"
       ],
       "status": "accepted",
       "confidence": "medium",
@@ -18007,7 +18005,7 @@
       "judgedBy": "codex-readwise-inbox-profile-v2-2026-10-27",
       "judgedAt": "2026-10-27T00:00:00Z",
       "evidenceRefs": [
-        "/mnt/c/dev/top-articles/.tmp/readwise/inbox-semantic-run/reading-profiles/snapshot.json#documents.01m5w54am44yp9e6gndeqxsnfg.content"
+        "/mnt/c/dev/top-articles/.tmp/readwise/inbox-semantic-run-20261028-2/reading-profiles/snapshot.json#documents.01m5w54am44yp9e6gndeqxsnfg.content"
       ],
       "status": "accepted",
       "confidence": "medium",
@@ -18091,7 +18089,7 @@
       "judgedBy": "codex-readwise-inbox-profile-v2-2026-10-27",
       "judgedAt": "2026-10-27T00:00:00Z",
       "evidenceRefs": [
-        "/mnt/c/dev/top-articles/.tmp/readwise/inbox-semantic-run/reading-profiles/snapshot.json#documents.01m5vybq0ht9t33pyk9gcmz48d.content"
+        "/mnt/c/dev/top-articles/.tmp/readwise/inbox-semantic-run-20261028-2/reading-profiles/snapshot.json#documents.01m5vybq0ht9t33pyk9gcmz48d.content"
       ],
       "status": "accepted",
       "confidence": "medium",
@@ -18119,7 +18117,7 @@
       "judgedBy": "codex-readwise-inbox-profile-v2-2026-10-27",
       "judgedAt": "2026-10-27T00:00:00Z",
       "evidenceRefs": [
-        "/mnt/c/dev/top-articles/.tmp/readwise/inbox-semantic-run/reading-profiles/snapshot.json#documents.01m5vxry48w9wagh7c4tr05whm.content"
+        "/mnt/c/dev/top-articles/.tmp/readwise/inbox-semantic-run-20261028-2/reading-profiles/snapshot.json#documents.01m5vxry48w9wagh7c4tr05whm.content"
       ],
       "status": "accepted",
       "confidence": "medium",
@@ -18164,7 +18162,7 @@
       "judgedBy": "codex-readwise-inbox-profile-v2-2026-10-28",
       "judgedAt": "2026-10-28T09:52:00Z",
       "evidenceRefs": [
-        "/mnt/c/dev/top-articles/.tmp/readwise/inbox-semantic-run/reading-profiles/snapshot.json#documents.01m60pwpz7sc0fps3rvxe9ws31.content"
+        "/mnt/c/dev/top-articles/.tmp/readwise/inbox-semantic-run-20261028-2/reading-profiles/snapshot.json#documents.01m60pwpz7sc0fps3rvxe9ws31.content"
       ]
     },
     "01m60nj8wd70kc6byjshe4tytm": {
@@ -18192,7 +18190,7 @@
       "judgedBy": "codex-readwise-inbox-profile-v2-2026-10-28",
       "judgedAt": "2026-10-28T09:52:00Z",
       "evidenceRefs": [
-        "/mnt/c/dev/top-articles/.tmp/readwise/inbox-semantic-run/reading-profiles/snapshot.json#documents.01m60nj8wd70kc6byjshe4tytm.content"
+        "/mnt/c/dev/top-articles/.tmp/readwise/inbox-semantic-run-20261028-2/reading-profiles/snapshot.json#documents.01m60nj8wd70kc6byjshe4tytm.content"
       ]
     },
     "01m60mzr2a4tdwwsbbzz1m6e8n": {
@@ -18220,7 +18218,7 @@
       "judgedBy": "codex-readwise-inbox-profile-v2-2026-10-28",
       "judgedAt": "2026-10-28T09:52:00Z",
       "evidenceRefs": [
-        "/mnt/c/dev/top-articles/.tmp/readwise/inbox-semantic-run/reading-profiles/snapshot.json#documents.01m60mzr2a4tdwwsbbzz1m6e8n.content"
+        "/mnt/c/dev/top-articles/.tmp/readwise/inbox-semantic-run-20261028-2/reading-profiles/snapshot.json#documents.01m60mzr2a4tdwwsbbzz1m6e8n.content"
       ]
     },
     "01m60f6dm4q8xc6sxpj3hn5wv8": {
@@ -18388,8 +18386,64 @@
       "judgedBy": "codex-readwise-inbox-profile-v2-2026-10-28",
       "judgedAt": "2026-10-28T09:52:00Z",
       "evidenceRefs": [
-        "/mnt/c/dev/top-articles/.tmp/readwise/inbox-semantic-run/reading-profiles/snapshot.json#documents.01m5yz1wfhvpdmg7b4tzkdn8va.content"
+        "/mnt/c/dev/top-articles/.tmp/readwise/inbox-semantic-run-20261028-2/reading-profiles/snapshot.json#documents.01m5yz1wfhvpdmg7b4tzkdn8va.content"
       ]
+    },
+    "01m60ynpvc0gfx60p3ake0bh6x": {
+      "status": "accepted",
+      "confidence": "high",
+      "rubricVersion": "reading-profile-v2",
+      "sourceFingerprint": "bf1b53c6a16f9d435d91f1f6a6d3659129fe3f3a474f7bf523483e751d7c17ee",
+      "evidenceFingerprint": "aed67e6db03d1c5570815198aa45b9f2dc4c2b347edc0466457117176598d375",
+      "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
+      "judgedBy": "Codex Readwise inbox profile review v2 round 2",
+      "judgedAt": "2026-10-28T15:00:00Z",
+      "evidenceRefs": [
+        "/mnt/c/dev/top-articles/.tmp/readwise/inbox-semantic-run-20261028-2/reading-profiles/snapshot.json#documents.01m60ynpvc0gfx60p3ake0bh6x.content"
+      ],
+      "reason": "Volledig artikel gelezen; concrete teaminterventies zijn zelfstandig toepasbaar.",
+      "traits": {
+        "effort": 2,
+        "emotionalWeight": 0,
+        "tone": "zakelijk",
+        "needFit": {
+          "ontspannen": 1,
+          "afleiding": 1,
+          "herkenning": 3,
+          "verkennen": 3,
+          "verdieping": 4
+        },
+        "activation": 2,
+        "interruptibility": 3
+      }
+    },
+    "01m612xs15enyrdczas1szjjxs": {
+      "status": "accepted",
+      "confidence": "high",
+      "rubricVersion": "reading-profile-v2",
+      "sourceFingerprint": "cb8680c854eca0210dbd16bf701733d56852420ee54365acf77f0a073afdb6d1",
+      "evidenceFingerprint": "46a9dc6e2593a5066418bb48b2f9fc8222293b3d2a3190764c7125a9ad8ad306",
+      "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
+      "judgedBy": "Codex Readwise inbox profile review v2 round 2",
+      "judgedAt": "2026-10-28T15:00:00Z",
+      "evidenceRefs": [
+        "/mnt/c/dev/top-articles/.tmp/readwise/inbox-semantic-run-20261028-2/reading-profiles/snapshot.json#documents.01m612xs15enyrdczas1szjjxs.content"
+      ],
+      "reason": "Volledig artikel gelezen; de analyse van urgentie en makerstijd is concreet en goed hervatbaar.",
+      "traits": {
+        "effort": 2,
+        "emotionalWeight": 0,
+        "tone": "zakelijk",
+        "needFit": {
+          "ontspannen": 1,
+          "afleiding": 1,
+          "herkenning": 3,
+          "verkennen": 3,
+          "verdieping": 3
+        },
+        "activation": 3,
+        "interruptibility": 3
+      }
     }
   }
 }
