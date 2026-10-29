@@ -16646,30 +16646,17 @@
     "01m5kyjm19f1gcpp9b5yxt47pb": {
       "rubricVersion": "reading-profile-v2",
       "sourceFingerprint": "0ebca9134a1971d3ab539d050737de26154dfb55d3d9a9e75f28a9d618e27b1a",
-      "evidenceFingerprint": "71ffac28b77f5a62271783db78e4bfdd62be7ef47bb557e9ea8870560e832a18",
+      "evidenceFingerprint": "a96939255d7f6aae3f1f5eb2a2bd5068c430ad5805abcd9c17eb424df50bcfdd",
       "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
-      "judgedBy": "codex-readwise-inbox-profile-v2-2026-10-27",
-      "judgedAt": "2026-10-27T00:00:00Z",
+      "judgedBy": "codex-readwise-inbox-profile-v2-2026-10-29",
+      "judgedAt": "2026-10-29T00:00:00Z",
+      "status": "draft",
+      "confidence": "low",
+      "reason": "De actuele evidence bevat geen volledige brontekst; daarom zijn geen v2-scores ingevuld.",
       "evidenceRefs": [
-        "/mnt/c/dev/top-articles/.tmp/readwise/inbox-semantic-run-20261028-2/reading-profiles/snapshot.json#documents.01m5kyjm19f1gcpp9b5yxt47pb.content"
-      ],
-      "status": "accepted",
-      "confidence": "medium",
-      "reason": "Actueel v2-profiel beoordeeld vanuit de volledige brontekst, samenvatting en leesvoorkeuren; ratings zijn inhoudelijk afgeleid en onafhankelijk van prioriteit of rangpositie.",
-      "traits": {
-        "effort": 1,
-        "emotionalWeight": 0,
-        "tone": "warm",
-        "needFit": {
-          "ontspannen": 4,
-          "afleiding": 3,
-          "herkenning": 4,
-          "verkennen": 3,
-          "verdieping": 3
-        },
-        "activation": 1,
-        "interruptibility": 3
-      }
+        ".tmp/readwise/reading-profile-v2-2026-10-29/snapshot.json#documents.01m5kyjm19f1gcpp9b5yxt47pb",
+        ".tmp/readwise/reading-profile-v2-2026-10-29/snapshot.json#documents.01m5kyjm19f1gcpp9b5yxt47pb.summary"
+      ]
     },
     "01m5kyjfk0mysbs5g0xpge3tc1": {
       "rubricVersion": "reading-profile-v2",
@@ -16992,30 +16979,17 @@
     "01m5vw7r6a3047mz2gm29n7x1n": {
       "rubricVersion": "reading-profile-v2",
       "sourceFingerprint": "b34e4853f0f4a82bcd172a0ded235d1d2ea77e2c2cc31d9d0acee73dc01e361f",
-      "evidenceFingerprint": "fbe5962e30c214f0af5c86e4312bc7be5d5f1fc75cc7141f5f6c6c97dfa4e135",
+      "evidenceFingerprint": "730e3ef2142989e3a5180b9bb42c2ada334d86c707aa51fdcdbd927745bc53e4",
       "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
-      "judgedBy": "codex-readwise-inbox-profile-v2-2026-10-27",
-      "judgedAt": "2026-10-27T00:00:00Z",
+      "judgedBy": "codex-readwise-inbox-profile-v2-2026-10-29",
+      "judgedAt": "2026-10-29T00:00:00Z",
+      "status": "draft",
+      "confidence": "low",
+      "reason": "De actuele evidence bevat geen volledige brontekst; daarom zijn geen v2-scores ingevuld.",
       "evidenceRefs": [
-        "/mnt/c/dev/top-articles/.tmp/readwise/inbox-semantic-run-20261028-2/reading-profiles/snapshot.json#documents.01m5vw7r6a3047mz2gm29n7x1n.content"
-      ],
-      "status": "accepted",
-      "confidence": "medium",
-      "reason": "Actueel v2-profiel beoordeeld vanuit de volledige brontekst, samenvatting en leesvoorkeuren; ratings zijn inhoudelijk afgeleid en onafhankelijk van prioriteit of rangpositie.",
-      "traits": {
-        "effort": 2,
-        "emotionalWeight": 1,
-        "tone": "zakelijk",
-        "needFit": {
-          "ontspannen": 1,
-          "afleiding": 2,
-          "herkenning": 3,
-          "verkennen": 4,
-          "verdieping": 3
-        },
-        "activation": 3,
-        "interruptibility": 3
-      }
+        ".tmp/readwise/reading-profile-v2-2026-10-29/snapshot.json#documents.01m5vw7r6a3047mz2gm29n7x1n",
+        ".tmp/readwise/reading-profile-v2-2026-10-29/snapshot.json#documents.01m5vw7r6a3047mz2gm29n7x1n.summary"
+      ]
     },
     "01m5vqv9ywgnk0nr0dhxknc516": {
       "rubricVersion": "reading-profile-v2",
@@ -17048,30 +17022,17 @@
     "01m5vafph5qpkpeb8xgs237qsa": {
       "rubricVersion": "reading-profile-v2",
       "sourceFingerprint": "476a9cded7b5c62ba37b752d01a06fed104cffbbcbe806b5fd2dd71c7e08b632",
-      "evidenceFingerprint": "6c5b407057251d7111f4155e765d0029cf59a8a8c524bec4a103cd7188d12aa1",
+      "evidenceFingerprint": "83866bcebbb4d96fb91b257f396d6af3478ba13d511cfce70c1449ef3cb2e20c",
       "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
-      "judgedBy": "codex-readwise-inbox-profile-v2-2026-10-27",
-      "judgedAt": "2026-10-27T00:00:00Z",
+      "judgedBy": "codex-readwise-inbox-profile-v2-2026-10-29",
+      "judgedAt": "2026-10-29T00:00:00Z",
+      "status": "draft",
+      "confidence": "low",
+      "reason": "De actuele evidence bevat geen volledige brontekst; daarom zijn geen v2-scores ingevuld.",
       "evidenceRefs": [
-        "/mnt/c/dev/top-articles/.tmp/readwise/inbox-semantic-run-20261028-2/reading-profiles/snapshot.json#documents.01m5vafph5qpkpeb8xgs237qsa.content"
-      ],
-      "status": "accepted",
-      "confidence": "medium",
-      "reason": "Actueel v2-profiel beoordeeld vanuit de volledige brontekst, samenvatting en leesvoorkeuren; ratings zijn inhoudelijk afgeleid en onafhankelijk van prioriteit of rangpositie.",
-      "traits": {
-        "effort": 4,
-        "emotionalWeight": 0,
-        "tone": "zakelijk",
-        "needFit": {
-          "ontspannen": 1,
-          "afleiding": 1,
-          "herkenning": 1,
-          "verkennen": 4,
-          "verdieping": 4
-        },
-        "activation": 4,
-        "interruptibility": 1
-      }
+        ".tmp/readwise/reading-profile-v2-2026-10-29/snapshot.json#documents.01m5vafph5qpkpeb8xgs237qsa",
+        ".tmp/readwise/reading-profile-v2-2026-10-29/snapshot.json#documents.01m5vafph5qpkpeb8xgs237qsa.summary"
+      ]
     },
     "01m5vaf82j22pw6m0y7kbadyxb": {
       "rubricVersion": "reading-profile-v2",
@@ -17090,30 +17051,17 @@
     "01m5vaedk96gh4yky54hdwckx7": {
       "rubricVersion": "reading-profile-v2",
       "sourceFingerprint": "763c32134715ee1d6c6cedbe0d71a9f0016defbe0f9694a10f4db646585cc7eb",
-      "evidenceFingerprint": "238bddc521f6a7b16b8778cae5f231951b83aa7a360a7056aea02aa089af7f67",
+      "evidenceFingerprint": "64bf672203bc83a9408ac2b7d3bde5c2eb20c7897d8a14e3d9ad5d7171f6299e",
       "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
-      "judgedBy": "codex-readwise-inbox-profile-v2-2026-10-27",
-      "judgedAt": "2026-10-27T00:00:00Z",
+      "judgedBy": "codex-readwise-inbox-profile-v2-2026-10-29",
+      "judgedAt": "2026-10-29T00:00:00Z",
+      "status": "draft",
+      "confidence": "low",
+      "reason": "De actuele evidence bevat geen volledige brontekst; daarom zijn geen v2-scores ingevuld.",
       "evidenceRefs": [
-        "/mnt/c/dev/top-articles/.tmp/readwise/inbox-semantic-run-20261028-2/reading-profiles/snapshot.json#documents.01m5vaedk96gh4yky54hdwckx7.content"
-      ],
-      "status": "accepted",
-      "confidence": "medium",
-      "reason": "Actueel v2-profiel beoordeeld vanuit de volledige brontekst, samenvatting en leesvoorkeuren; ratings zijn inhoudelijk afgeleid en onafhankelijk van prioriteit of rangpositie.",
-      "traits": {
-        "effort": 3,
-        "emotionalWeight": 1,
-        "tone": "zakelijk",
-        "needFit": {
-          "ontspannen": 1,
-          "afleiding": 2,
-          "herkenning": 2,
-          "verkennen": 4,
-          "verdieping": 4
-        },
-        "activation": 3,
-        "interruptibility": 2
-      }
+        ".tmp/readwise/reading-profile-v2-2026-10-29/snapshot.json#documents.01m5vaedk96gh4yky54hdwckx7",
+        ".tmp/readwise/reading-profile-v2-2026-10-29/snapshot.json#documents.01m5vaedk96gh4yky54hdwckx7.summary"
+      ]
     },
     "01m5v85j9yfacp8fdt71h6207n": {
       "rubricVersion": "reading-profile-v2",
@@ -17202,58 +17150,32 @@
     "01m5tax5my846kxr711j81v2yq": {
       "rubricVersion": "reading-profile-v2",
       "sourceFingerprint": "2234e3730afbfa7279be7071b3696de194d09bbf7978c8ec24e653aec8924bde",
-      "evidenceFingerprint": "4ade8c6dae7403e9f8ab10720e3f3acb934ac358e07f3203159587dfc50b2fd6",
+      "evidenceFingerprint": "125dc059a77288641d00f4465498ae1a992ef47d727a26031453197c2a1f36b1",
       "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
-      "judgedBy": "codex-readwise-inbox-profile-v2-2026-10-27",
-      "judgedAt": "2026-10-27T00:00:00Z",
+      "judgedBy": "codex-readwise-inbox-profile-v2-2026-10-29",
+      "judgedAt": "2026-10-29T00:00:00Z",
+      "status": "draft",
+      "confidence": "low",
+      "reason": "De actuele evidence bevat geen volledige brontekst; daarom zijn geen v2-scores ingevuld.",
       "evidenceRefs": [
-        "/mnt/c/dev/top-articles/.tmp/readwise/inbox-semantic-run-20261028-2/reading-profiles/snapshot.json#documents.01m5tax5my846kxr711j81v2yq.content"
-      ],
-      "status": "accepted",
-      "confidence": "medium",
-      "reason": "Actueel v2-profiel beoordeeld vanuit de volledige brontekst, samenvatting en leesvoorkeuren; ratings zijn inhoudelijk afgeleid en onafhankelijk van prioriteit of rangpositie.",
-      "traits": {
-        "effort": 3,
-        "emotionalWeight": 1,
-        "tone": "zakelijk",
-        "needFit": {
-          "ontspannen": 2,
-          "afleiding": 3,
-          "herkenning": 2,
-          "verkennen": 4,
-          "verdieping": 4
-        },
-        "activation": 3,
-        "interruptibility": 3
-      }
+        ".tmp/readwise/reading-profile-v2-2026-10-29/snapshot.json#documents.01m5tax5my846kxr711j81v2yq",
+        ".tmp/readwise/reading-profile-v2-2026-10-29/snapshot.json#documents.01m5tax5my846kxr711j81v2yq.summary"
+      ]
     },
     "01m5sr3v4fqnpzrnc21nxekmj0": {
       "rubricVersion": "reading-profile-v2",
       "sourceFingerprint": "51fe8bafac357808ae897188f34011397297ecbb32b0f01b3bb46b7bb637bc7c",
-      "evidenceFingerprint": "4635ad1003443bf37d5d2a563e65ec5acb90ed3d7371fc0c239963a73277f89e",
+      "evidenceFingerprint": "bd2c9f4f55d3c0189779c471373307f3e9848fc9ffb51bdc80e5624d72be275b",
       "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
-      "judgedBy": "codex-readwise-inbox-profile-v2-2026-10-27",
-      "judgedAt": "2026-10-27T00:00:00Z",
+      "judgedBy": "codex-readwise-inbox-profile-v2-2026-10-29",
+      "judgedAt": "2026-10-29T00:00:00Z",
+      "status": "draft",
+      "confidence": "low",
+      "reason": "De actuele evidence bevat geen volledige brontekst; daarom zijn geen v2-scores ingevuld.",
       "evidenceRefs": [
-        "/mnt/c/dev/top-articles/.tmp/readwise/inbox-semantic-run-20261028-2/reading-profiles/snapshot.json#documents.01m5sr3v4fqnpzrnc21nxekmj0.content"
-      ],
-      "status": "accepted",
-      "confidence": "medium",
-      "reason": "Actueel v2-profiel beoordeeld vanuit de volledige brontekst, samenvatting en leesvoorkeuren; ratings zijn inhoudelijk afgeleid en onafhankelijk van prioriteit of rangpositie.",
-      "traits": {
-        "effort": 3,
-        "emotionalWeight": 1,
-        "tone": "zakelijk",
-        "needFit": {
-          "ontspannen": 1,
-          "afleiding": 1,
-          "herkenning": 2,
-          "verkennen": 3,
-          "verdieping": 4
-        },
-        "activation": 3,
-        "interruptibility": 2
-      }
+        ".tmp/readwise/reading-profile-v2-2026-10-29/snapshot.json#documents.01m5sr3v4fqnpzrnc21nxekmj0",
+        ".tmp/readwise/reading-profile-v2-2026-10-29/snapshot.json#documents.01m5sr3v4fqnpzrnc21nxekmj0.summary"
+      ]
     },
     "01m5sa21kbctbwyfytr9q698th": {
       "rubricVersion": "reading-profile-v2",
@@ -17286,30 +17208,17 @@
     "01m5qct518h61qwc5sfpnzerb8": {
       "rubricVersion": "reading-profile-v2",
       "sourceFingerprint": "d3f2d24080a5ee9dcea241c5c051a14f0c2ac2f1a04ea06b61efb15b49486d99",
-      "evidenceFingerprint": "7e7ea44b23954d6574d40ac26f923f68a88dc716cca4efb77d00c9015e27fefb",
+      "evidenceFingerprint": "3c4cb7c2f8496e807876aa8fd760222dbfc2b8806dd4de29a9052d0d97bd4695",
       "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
-      "judgedBy": "codex-readwise-inbox-profile-v2-2026-10-27",
-      "judgedAt": "2026-10-27T00:00:00Z",
+      "judgedBy": "codex-readwise-inbox-profile-v2-2026-10-29",
+      "judgedAt": "2026-10-29T00:00:00Z",
+      "status": "draft",
+      "confidence": "low",
+      "reason": "De actuele evidence bevat geen volledige brontekst; daarom zijn geen v2-scores ingevuld.",
       "evidenceRefs": [
-        "/mnt/c/dev/top-articles/.tmp/readwise/inbox-semantic-run-20261028-2/reading-profiles/snapshot.json#documents.01m5qct518h61qwc5sfpnzerb8.content"
-      ],
-      "status": "accepted",
-      "confidence": "medium",
-      "reason": "Actueel v2-profiel beoordeeld vanuit de volledige brontekst, samenvatting en leesvoorkeuren; ratings zijn inhoudelijk afgeleid en onafhankelijk van prioriteit of rangpositie.",
-      "traits": {
-        "effort": 2,
-        "emotionalWeight": 1,
-        "tone": "reflectief",
-        "needFit": {
-          "ontspannen": 2,
-          "afleiding": 2,
-          "herkenning": 2,
-          "verkennen": 4,
-          "verdieping": 4
-        },
-        "activation": 2,
-        "interruptibility": 3
-      }
+        ".tmp/readwise/reading-profile-v2-2026-10-29/snapshot.json#documents.01m5qct518h61qwc5sfpnzerb8",
+        ".tmp/readwise/reading-profile-v2-2026-10-29/snapshot.json#documents.01m5qct518h61qwc5sfpnzerb8.summary"
+      ]
     },
     "01m5yka4z001trf1w835wb9dbt": {
       "rubricVersion": "reading-profile-v2",
@@ -17370,58 +17279,32 @@
     "01m5ycf52qe1ah9gassy6rar9p": {
       "rubricVersion": "reading-profile-v2",
       "sourceFingerprint": "d3bd1a3879008fb6bf321a1f6354b1b9cc987b957327c406e66f099b8eb8983c",
-      "evidenceFingerprint": "1e370bc8da71d2515719bb24b1663e049c4e86a317c8bf30614aebf0257a0408",
+      "evidenceFingerprint": "8f9c53e1d01844de642a4ee8fc3bb628fa0b532ad2f927d1380ff5b4f452227c",
       "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
-      "judgedBy": "codex-readwise-inbox-profile-v2-2026-10-27",
-      "judgedAt": "2026-10-27T00:00:00Z",
+      "judgedBy": "codex-readwise-inbox-profile-v2-2026-10-29",
+      "judgedAt": "2026-10-29T00:00:00Z",
+      "status": "draft",
+      "confidence": "low",
+      "reason": "De actuele evidence bevat geen volledige brontekst; daarom zijn geen v2-scores ingevuld.",
       "evidenceRefs": [
-        "/mnt/c/dev/top-articles/.tmp/readwise/inbox-semantic-run-20261028-2/reading-profiles/snapshot.json#documents.01m5ycf52qe1ah9gassy6rar9p.content"
-      ],
-      "status": "accepted",
-      "confidence": "medium",
-      "reason": "Actueel v2-profiel beoordeeld vanuit de volledige brontekst, samenvatting en leesvoorkeuren; ratings zijn inhoudelijk afgeleid en onafhankelijk van prioriteit of rangpositie.",
-      "traits": {
-        "effort": 2,
-        "emotionalWeight": 3,
-        "tone": "intens",
-        "needFit": {
-          "ontspannen": 1,
-          "afleiding": 2,
-          "herkenning": 4,
-          "verkennen": 3,
-          "verdieping": 3
-        },
-        "activation": 4,
-        "interruptibility": 2
-      }
+        ".tmp/readwise/reading-profile-v2-2026-10-29/snapshot.json#documents.01m5ycf52qe1ah9gassy6rar9p",
+        ".tmp/readwise/reading-profile-v2-2026-10-29/snapshot.json#documents.01m5ycf52qe1ah9gassy6rar9p.summary"
+      ]
     },
     "01m5y98bf39htw8tp3nmcxw2s6": {
       "rubricVersion": "reading-profile-v2",
       "sourceFingerprint": "c489c4b448c8750ec2659639e92dbfc3384461f7e63e328a57133993057863d1",
-      "evidenceFingerprint": "87adc33ccf81d9c37b63625c970b3d53011107b2c5b1a88283c1c9a4e0cd59e2",
+      "evidenceFingerprint": "720063dcf152a29a4719db6f12a586014b510e9e36b275f6400199aeb041e97c",
       "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
-      "judgedBy": "codex-readwise-inbox-profile-v2-2026-10-27",
-      "judgedAt": "2026-10-27T00:00:00Z",
+      "judgedBy": "codex-readwise-inbox-profile-v2-2026-10-29",
+      "judgedAt": "2026-10-29T00:00:00Z",
+      "status": "draft",
+      "confidence": "low",
+      "reason": "De actuele evidence bevat geen volledige brontekst; daarom zijn geen v2-scores ingevuld.",
       "evidenceRefs": [
-        "/mnt/c/dev/top-articles/.tmp/readwise/inbox-semantic-run-20261028-2/reading-profiles/snapshot.json#documents.01m5y98bf39htw8tp3nmcxw2s6.content"
-      ],
-      "status": "accepted",
-      "confidence": "medium",
-      "reason": "Actueel v2-profiel beoordeeld vanuit de volledige brontekst, samenvatting en leesvoorkeuren; ratings zijn inhoudelijk afgeleid en onafhankelijk van prioriteit of rangpositie.",
-      "traits": {
-        "effort": 2,
-        "emotionalWeight": 2,
-        "tone": "reflectief",
-        "needFit": {
-          "ontspannen": 2,
-          "afleiding": 2,
-          "herkenning": 3,
-          "verkennen": 4,
-          "verdieping": 3
-        },
-        "activation": 3,
-        "interruptibility": 3
-      }
+        ".tmp/readwise/reading-profile-v2-2026-10-29/snapshot.json#documents.01m5y98bf39htw8tp3nmcxw2s6",
+        ".tmp/readwise/reading-profile-v2-2026-10-29/snapshot.json#documents.01m5y98bf39htw8tp3nmcxw2s6.summary"
+      ]
     },
     "01m5y97pdc95ep32h8t5cxb1sp": {
       "rubricVersion": "reading-profile-v2",
@@ -17467,17 +17350,14 @@
     },
     "01m5x1akag2kydg78j4w2r9x6p": {
       "rubricVersion": "reading-profile-v2",
-      "sourceFingerprint": "a7209cdafe753b2dcfe0f4bff4377937544380d39b6d36fea23b25c538a94105",
-      "evidenceFingerprint": "33d2faf5c2d892c0dd5b982caaf31e5b5f1ed84cb3a999f1433f050362285d59",
+      "sourceFingerprint": "9fcfbfc571ea3de28506c8a8e592718f130a3533af40b7487c7d250d1dee8555",
+      "evidenceFingerprint": "8be8022ca8718cf4ec6c84afa98db20b50cf1b9aea619d404eae8c802afab4b1",
       "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
-      "judgedBy": "codex-readwise-inbox-profile-v2-2026-10-27",
-      "judgedAt": "2026-10-27T00:00:00Z",
-      "evidenceRefs": [
-        "/mnt/c/dev/top-articles/.tmp/readwise/inbox-semantic-run-20261028-2/reading-profiles/snapshot.json#documents.01m5x1akag2kydg78j4w2r9x6p.content"
-      ],
+      "judgedBy": "codex-readwise-inbox-profile-v2-2026-10-29",
+      "judgedAt": "2026-10-29T00:00:00Z",
       "status": "accepted",
       "confidence": "medium",
-      "reason": "Actueel v2-profiel beoordeeld vanuit de volledige brontekst, samenvatting en leesvoorkeuren; ratings zijn inhoudelijk afgeleid en onafhankelijk van prioriteit of rangpositie.",
+      "reason": "Opnieuw gecontroleerd vanuit de volledige brontekst, samenvatting en leesvoorkeuren; ratings zijn inhoudelijk afgeleid en onafhankelijk van prioriteit of rangpositie.",
       "traits": {
         "effort": 2,
         "emotionalWeight": 0,
@@ -17491,7 +17371,11 @@
         },
         "activation": 3,
         "interruptibility": 3
-      }
+      },
+      "evidenceRefs": [
+        ".tmp/readwise/reading-profile-v2-2026-10-29/snapshot.json#documents.01m5x1akag2kydg78j4w2r9x6p",
+        ".tmp/readwise/reading-profile-v2-2026-10-29/snapshot.json#documents.01m5x1akag2kydg78j4w2r9x6p.content"
+      ]
     },
     "01m5x1agkcmpgh8bh16cyfmsfb": {
       "rubricVersion": "reading-profile-v2",
@@ -17523,17 +17407,14 @@
     },
     "01m5x1abf7081g3wf00yma4zkz": {
       "rubricVersion": "reading-profile-v2",
-      "sourceFingerprint": "886ef3a7df101d71d8dff85cde4d0b434e2003aee1d0fe8357f86680132c5105",
-      "evidenceFingerprint": "f8c0674aadf2ddb333500c6baa827b1a525debb20b93e6fff649e21eb8cf52e8",
+      "sourceFingerprint": "da040f52552697f9f8801b83e21379291e4072b099d68560e3c245aafc8a0ce4",
+      "evidenceFingerprint": "84ac910aa495c35821330a3f870a336868f6b13286b7b254156e2311dea449de",
       "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
-      "judgedBy": "codex-readwise-inbox-profile-v2-2026-10-27",
-      "judgedAt": "2026-10-27T00:00:00Z",
-      "evidenceRefs": [
-        "/mnt/c/dev/top-articles/.tmp/readwise/inbox-semantic-run-20261028-2/reading-profiles/snapshot.json#documents.01m5x1abf7081g3wf00yma4zkz.content"
-      ],
+      "judgedBy": "codex-readwise-inbox-profile-v2-2026-10-29",
+      "judgedAt": "2026-10-29T00:00:00Z",
       "status": "accepted",
       "confidence": "medium",
-      "reason": "Actueel v2-profiel beoordeeld vanuit de volledige brontekst, samenvatting en leesvoorkeuren; ratings zijn inhoudelijk afgeleid en onafhankelijk van prioriteit of rangpositie.",
+      "reason": "Opnieuw gecontroleerd vanuit de volledige brontekst, samenvatting en leesvoorkeuren; ratings zijn inhoudelijk afgeleid en onafhankelijk van prioriteit of rangpositie.",
       "traits": {
         "effort": 2,
         "emotionalWeight": 0,
@@ -17547,21 +17428,22 @@
         },
         "activation": 3,
         "interruptibility": 3
-      }
+      },
+      "evidenceRefs": [
+        ".tmp/readwise/reading-profile-v2-2026-10-29/snapshot.json#documents.01m5x1abf7081g3wf00yma4zkz",
+        ".tmp/readwise/reading-profile-v2-2026-10-29/snapshot.json#documents.01m5x1abf7081g3wf00yma4zkz.content"
+      ]
     },
     "01m5x1a88ffeqr7n2dwt225363": {
       "rubricVersion": "reading-profile-v2",
-      "sourceFingerprint": "5dd4d9876847105c5d0425571deadc359a728c31ef702ea979a3ee889b9bc204",
-      "evidenceFingerprint": "0d18938ce98a3cc71619b69b76f56b2cde39fc68c2bbce4c06a5080678528614",
+      "sourceFingerprint": "3becaec83b928c746c2add20d2aea5c187bb2a6494afd4b6dab37dd048d47399",
+      "evidenceFingerprint": "ed7196660dae02e7e680491ff6d538129e1c721a800a2b02aecb2400c25c39b2",
       "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
-      "judgedBy": "codex-readwise-inbox-profile-v2-2026-10-27",
-      "judgedAt": "2026-10-27T00:00:00Z",
-      "evidenceRefs": [
-        "/mnt/c/dev/top-articles/.tmp/readwise/inbox-semantic-run-20261028-2/reading-profiles/snapshot.json#documents.01m5x1a88ffeqr7n2dwt225363.content"
-      ],
+      "judgedBy": "codex-readwise-inbox-profile-v2-2026-10-29",
+      "judgedAt": "2026-10-29T00:00:00Z",
       "status": "accepted",
       "confidence": "medium",
-      "reason": "Actueel v2-profiel beoordeeld vanuit de volledige brontekst, samenvatting en leesvoorkeuren; ratings zijn inhoudelijk afgeleid en onafhankelijk van prioriteit of rangpositie.",
+      "reason": "Opnieuw gecontroleerd vanuit de volledige brontekst, samenvatting en leesvoorkeuren; ratings zijn inhoudelijk afgeleid en onafhankelijk van prioriteit of rangpositie.",
       "traits": {
         "effort": 3,
         "emotionalWeight": 0,
@@ -17575,21 +17457,22 @@
         },
         "activation": 3,
         "interruptibility": 3
-      }
+      },
+      "evidenceRefs": [
+        ".tmp/readwise/reading-profile-v2-2026-10-29/snapshot.json#documents.01m5x1a88ffeqr7n2dwt225363",
+        ".tmp/readwise/reading-profile-v2-2026-10-29/snapshot.json#documents.01m5x1a88ffeqr7n2dwt225363.content"
+      ]
     },
     "01m5x1a5f458tywbbhx29xj5v3": {
       "rubricVersion": "reading-profile-v2",
-      "sourceFingerprint": "c96835702d4dcc819d7d77d628ff8c9ede784227da4886df12b148ea7755e29b",
-      "evidenceFingerprint": "c26cac00101468e2eb49202e1bc466f229c0a9a618ccfccaf738a42076633f27",
+      "sourceFingerprint": "5d14205252090d86812dcd7d857f69beb8c65adc93ee7328395914223ec32c2c",
+      "evidenceFingerprint": "cd738dac1854b6bb609ed510af4e35a91b477ebc01de3a1f975b3b9c464f5866",
       "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
-      "judgedBy": "codex-readwise-inbox-profile-v2-2026-10-27",
-      "judgedAt": "2026-10-27T00:00:00Z",
-      "evidenceRefs": [
-        "/mnt/c/dev/top-articles/.tmp/readwise/inbox-semantic-run-20261028-2/reading-profiles/snapshot.json#documents.01m5x1a5f458tywbbhx29xj5v3.content"
-      ],
+      "judgedBy": "codex-readwise-inbox-profile-v2-2026-10-29",
+      "judgedAt": "2026-10-29T00:00:00Z",
       "status": "accepted",
       "confidence": "medium",
-      "reason": "Actueel v2-profiel beoordeeld vanuit de volledige brontekst, samenvatting en leesvoorkeuren; ratings zijn inhoudelijk afgeleid en onafhankelijk van prioriteit of rangpositie.",
+      "reason": "Opnieuw gecontroleerd vanuit de volledige brontekst, samenvatting en leesvoorkeuren; ratings zijn inhoudelijk afgeleid en onafhankelijk van prioriteit of rangpositie.",
       "traits": {
         "effort": 3,
         "emotionalWeight": 1,
@@ -17603,21 +17486,22 @@
         },
         "activation": 3,
         "interruptibility": 2
-      }
+      },
+      "evidenceRefs": [
+        ".tmp/readwise/reading-profile-v2-2026-10-29/snapshot.json#documents.01m5x1a5f458tywbbhx29xj5v3",
+        ".tmp/readwise/reading-profile-v2-2026-10-29/snapshot.json#documents.01m5x1a5f458tywbbhx29xj5v3.content"
+      ]
     },
     "01m5x1a3tfn5sxc7s8sty4573t": {
       "rubricVersion": "reading-profile-v2",
-      "sourceFingerprint": "3a483f5cacbddc41b89f0d48eeec87a8587adfeb2a95e9af6745113a67951996",
-      "evidenceFingerprint": "552db4b283bb58c73fd96edf55f4590bc97aa2bc44396f82118c600df3abd887",
+      "sourceFingerprint": "801f5e4142f22b986dc19e68f01356a2fcd3f6d5bd6f9c540afa1ceb43abc1ae",
+      "evidenceFingerprint": "f0bd1b5ade78e6d80297d63a99c28b72f3018f64ad2135170efa18b523f47217",
       "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
-      "judgedBy": "codex-readwise-inbox-profile-v2-2026-10-27",
-      "judgedAt": "2026-10-27T00:00:00Z",
-      "evidenceRefs": [
-        "/mnt/c/dev/top-articles/.tmp/readwise/inbox-semantic-run-20261028-2/reading-profiles/snapshot.json#documents.01m5x1a3tfn5sxc7s8sty4573t.content"
-      ],
+      "judgedBy": "codex-readwise-inbox-profile-v2-2026-10-29",
+      "judgedAt": "2026-10-29T00:00:00Z",
       "status": "accepted",
       "confidence": "medium",
-      "reason": "Actueel v2-profiel beoordeeld vanuit de volledige brontekst, samenvatting en leesvoorkeuren; ratings zijn inhoudelijk afgeleid en onafhankelijk van prioriteit of rangpositie.",
+      "reason": "Opnieuw gecontroleerd vanuit de volledige brontekst, samenvatting en leesvoorkeuren; ratings zijn inhoudelijk afgeleid en onafhankelijk van prioriteit of rangpositie.",
       "traits": {
         "effort": 2,
         "emotionalWeight": 1,
@@ -17631,21 +17515,22 @@
         },
         "activation": 3,
         "interruptibility": 3
-      }
+      },
+      "evidenceRefs": [
+        ".tmp/readwise/reading-profile-v2-2026-10-29/snapshot.json#documents.01m5x1a3tfn5sxc7s8sty4573t",
+        ".tmp/readwise/reading-profile-v2-2026-10-29/snapshot.json#documents.01m5x1a3tfn5sxc7s8sty4573t.content"
+      ]
     },
     "01m5x19zpj071qq5r2ym1fxf0p": {
       "rubricVersion": "reading-profile-v2",
-      "sourceFingerprint": "c1d885475444b119b112c3e5b72d24c1574ecd5c090db183efb9815cbc96cb38",
-      "evidenceFingerprint": "3822f6356435abd567199e8da119f65ce88899ce7d48dce7f2c3ea9015c7a344",
+      "sourceFingerprint": "d482a577a2376ea43508ac98381a16607f0dc9147ec84295488930145848f72f",
+      "evidenceFingerprint": "609e8465c8cdac56f40702451a6c82a1a98f73315b552bbf95d50624c02b9f15",
       "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
-      "judgedBy": "codex-readwise-inbox-profile-v2-2026-10-27",
-      "judgedAt": "2026-10-27T00:00:00Z",
-      "evidenceRefs": [
-        "/mnt/c/dev/top-articles/.tmp/readwise/inbox-semantic-run-20261028-2/reading-profiles/snapshot.json#documents.01m5x19zpj071qq5r2ym1fxf0p.content"
-      ],
+      "judgedBy": "codex-readwise-inbox-profile-v2-2026-10-29",
+      "judgedAt": "2026-10-29T00:00:00Z",
       "status": "accepted",
       "confidence": "medium",
-      "reason": "Actueel v2-profiel beoordeeld vanuit de volledige brontekst, samenvatting en leesvoorkeuren; ratings zijn inhoudelijk afgeleid en onafhankelijk van prioriteit of rangpositie.",
+      "reason": "Opnieuw gecontroleerd vanuit de volledige brontekst, samenvatting en leesvoorkeuren; ratings zijn inhoudelijk afgeleid en onafhankelijk van prioriteit of rangpositie.",
       "traits": {
         "effort": 2,
         "emotionalWeight": 1,
@@ -17659,21 +17544,22 @@
         },
         "activation": 4,
         "interruptibility": 3
-      }
+      },
+      "evidenceRefs": [
+        ".tmp/readwise/reading-profile-v2-2026-10-29/snapshot.json#documents.01m5x19zpj071qq5r2ym1fxf0p",
+        ".tmp/readwise/reading-profile-v2-2026-10-29/snapshot.json#documents.01m5x19zpj071qq5r2ym1fxf0p.content"
+      ]
     },
     "01m5x19xt9b6pmpc0xkdddpdc5": {
       "rubricVersion": "reading-profile-v2",
-      "sourceFingerprint": "13678ebd3a07e8a0abf17050e6194de235532bc3081222c78d459588fb5f700a",
-      "evidenceFingerprint": "ea8cc5180594aae51e3c3dc0a991642b0ee0c6faa46cd53ca3c290cfe59f9e48",
+      "sourceFingerprint": "71d02ed34d925e48d8255455686a366d4ab0da38e28dd5f555b09bbd3c1f3cef",
+      "evidenceFingerprint": "2495a5ccd11e4ea1a020553c2ba93010d9b57753790fd5196fc26155e8c9b387",
       "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
-      "judgedBy": "codex-readwise-inbox-profile-v2-2026-10-27",
-      "judgedAt": "2026-10-27T00:00:00Z",
-      "evidenceRefs": [
-        "/mnt/c/dev/top-articles/.tmp/readwise/inbox-semantic-run-20261028-2/reading-profiles/snapshot.json#documents.01m5x19xt9b6pmpc0xkdddpdc5.content"
-      ],
+      "judgedBy": "codex-readwise-inbox-profile-v2-2026-10-29",
+      "judgedAt": "2026-10-29T00:00:00Z",
       "status": "accepted",
       "confidence": "medium",
-      "reason": "Actueel v2-profiel beoordeeld vanuit de volledige brontekst, samenvatting en leesvoorkeuren; ratings zijn inhoudelijk afgeleid en onafhankelijk van prioriteit of rangpositie.",
+      "reason": "Opnieuw gecontroleerd vanuit de volledige brontekst, samenvatting en leesvoorkeuren; ratings zijn inhoudelijk afgeleid en onafhankelijk van prioriteit of rangpositie.",
       "traits": {
         "effort": 2,
         "emotionalWeight": 1,
@@ -17687,21 +17573,22 @@
         },
         "activation": 3,
         "interruptibility": 3
-      }
+      },
+      "evidenceRefs": [
+        ".tmp/readwise/reading-profile-v2-2026-10-29/snapshot.json#documents.01m5x19xt9b6pmpc0xkdddpdc5",
+        ".tmp/readwise/reading-profile-v2-2026-10-29/snapshot.json#documents.01m5x19xt9b6pmpc0xkdddpdc5.content"
+      ]
     },
     "01m5x19vwxa0stw61wbx7aevqj": {
       "rubricVersion": "reading-profile-v2",
-      "sourceFingerprint": "545662ddbb7c54e5a02a8006bd53365ea623e538860785987280630a164d8c70",
-      "evidenceFingerprint": "b696c12de53daf5c958f77c6f9ed8f0cfab2e2429cecf494607aea7d41b000e0",
+      "sourceFingerprint": "d2adc0fdb5cb77a7649e5253922f7964f558055bd50bd5de26af0e3f475982e6",
+      "evidenceFingerprint": "c7876c9286b59ceb74ba4412a26087fdd8df6b07d91c4637022d2ecc391aef3e",
       "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
-      "judgedBy": "codex-readwise-inbox-profile-v2-2026-10-27",
-      "judgedAt": "2026-10-27T00:00:00Z",
-      "evidenceRefs": [
-        "/mnt/c/dev/top-articles/.tmp/readwise/inbox-semantic-run-20261028-2/reading-profiles/snapshot.json#documents.01m5x19vwxa0stw61wbx7aevqj.content"
-      ],
+      "judgedBy": "codex-readwise-inbox-profile-v2-2026-10-29",
+      "judgedAt": "2026-10-29T00:00:00Z",
       "status": "accepted",
       "confidence": "medium",
-      "reason": "Actueel v2-profiel beoordeeld vanuit de volledige brontekst, samenvatting en leesvoorkeuren; ratings zijn inhoudelijk afgeleid en onafhankelijk van prioriteit of rangpositie.",
+      "reason": "Opnieuw gecontroleerd vanuit de volledige brontekst, samenvatting en leesvoorkeuren; ratings zijn inhoudelijk afgeleid en onafhankelijk van prioriteit of rangpositie.",
       "traits": {
         "effort": 3,
         "emotionalWeight": 2,
@@ -17715,21 +17602,22 @@
         },
         "activation": 4,
         "interruptibility": 2
-      }
+      },
+      "evidenceRefs": [
+        ".tmp/readwise/reading-profile-v2-2026-10-29/snapshot.json#documents.01m5x19vwxa0stw61wbx7aevqj",
+        ".tmp/readwise/reading-profile-v2-2026-10-29/snapshot.json#documents.01m5x19vwxa0stw61wbx7aevqj.content"
+      ]
     },
     "01m5x19hwax46cxzj0nscw0ecd": {
       "rubricVersion": "reading-profile-v2",
-      "sourceFingerprint": "457edec1dbac9650b7ee41c83efef5a1c901512b06937579b782484b95636b2d",
-      "evidenceFingerprint": "9831f7cd40162f9c7c24892eda67aa7f38a517a0de9891212e8b300d10ceb5c0",
+      "sourceFingerprint": "aace2c220bc6f73697360fae9f9f1d0c1540b2300c9116e43beba2372331b165",
+      "evidenceFingerprint": "df46c5b83220d586475b5d42111fdeadbfed250005c92b03ce17061d9dd2a653",
       "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
-      "judgedBy": "codex-readwise-inbox-profile-v2-2026-10-27",
-      "judgedAt": "2026-10-27T00:00:00Z",
-      "evidenceRefs": [
-        "/mnt/c/dev/top-articles/.tmp/readwise/inbox-semantic-run-20261028-2/reading-profiles/snapshot.json#documents.01m5x19hwax46cxzj0nscw0ecd.content"
-      ],
+      "judgedBy": "codex-readwise-inbox-profile-v2-2026-10-29",
+      "judgedAt": "2026-10-29T00:00:00Z",
       "status": "accepted",
       "confidence": "medium",
-      "reason": "Actueel v2-profiel beoordeeld vanuit de volledige brontekst, samenvatting en leesvoorkeuren; ratings zijn inhoudelijk afgeleid en onafhankelijk van prioriteit of rangpositie.",
+      "reason": "Opnieuw gecontroleerd vanuit de volledige brontekst, samenvatting en leesvoorkeuren; ratings zijn inhoudelijk afgeleid en onafhankelijk van prioriteit of rangpositie.",
       "traits": {
         "effort": 2,
         "emotionalWeight": 0,
@@ -17743,21 +17631,22 @@
         },
         "activation": 3,
         "interruptibility": 3
-      }
+      },
+      "evidenceRefs": [
+        ".tmp/readwise/reading-profile-v2-2026-10-29/snapshot.json#documents.01m5x19hwax46cxzj0nscw0ecd",
+        ".tmp/readwise/reading-profile-v2-2026-10-29/snapshot.json#documents.01m5x19hwax46cxzj0nscw0ecd.content"
+      ]
     },
     "01m5x19g49ebfq4hznh0fnyq0n": {
       "rubricVersion": "reading-profile-v2",
-      "sourceFingerprint": "841dc33805e6444531fb479268f7c3e604c5579e17ea9b35dba3c33e74895f9f",
-      "evidenceFingerprint": "b8eaad64f73443b337ce76b3c09b036db028ccb587188c4f216c80ad00bf1a76",
+      "sourceFingerprint": "315561a9d3956b3bca0fd0927771985ad93fa56fe3eb9c2b4ba88009fa93c6fd",
+      "evidenceFingerprint": "e219f764a6ae5d4f8bd55b6ffe317e7eb644dd32fb8cefb212a8012dd1c9bbf7",
       "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
-      "judgedBy": "codex-readwise-inbox-profile-v2-2026-10-27",
-      "judgedAt": "2026-10-27T00:00:00Z",
-      "evidenceRefs": [
-        "/mnt/c/dev/top-articles/.tmp/readwise/inbox-semantic-run-20261028-2/reading-profiles/snapshot.json#documents.01m5x19g49ebfq4hznh0fnyq0n.content"
-      ],
+      "judgedBy": "codex-readwise-inbox-profile-v2-2026-10-29",
+      "judgedAt": "2026-10-29T00:00:00Z",
       "status": "accepted",
       "confidence": "medium",
-      "reason": "Actueel v2-profiel beoordeeld vanuit de volledige brontekst, samenvatting en leesvoorkeuren; ratings zijn inhoudelijk afgeleid en onafhankelijk van prioriteit of rangpositie.",
+      "reason": "Opnieuw gecontroleerd vanuit de volledige brontekst, samenvatting en leesvoorkeuren; ratings zijn inhoudelijk afgeleid en onafhankelijk van prioriteit of rangpositie.",
       "traits": {
         "effort": 2,
         "emotionalWeight": 1,
@@ -17771,49 +17660,37 @@
         },
         "activation": 3,
         "interruptibility": 3
-      }
+      },
+      "evidenceRefs": [
+        ".tmp/readwise/reading-profile-v2-2026-10-29/snapshot.json#documents.01m5x19g49ebfq4hznh0fnyq0n",
+        ".tmp/readwise/reading-profile-v2-2026-10-29/snapshot.json#documents.01m5x19g49ebfq4hznh0fnyq0n.content"
+      ]
     },
     "01m5x19cy657m5z6qws0vfnzg7": {
       "rubricVersion": "reading-profile-v2",
       "sourceFingerprint": "5e1f873a77ec71d98791b8ad7ee9e3b0e2e6eaef1149fee8adca72c05537474a",
-      "evidenceFingerprint": "5119db6a619a8834839f2658e75a52ab2335aa80fbbd807bec6946fabb5d9aac",
+      "evidenceFingerprint": "4c9106101781880af1088aa19944e825c10ee9dd5e2143091506dba6ab210a5b",
       "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
-      "judgedBy": "codex-readwise-inbox-profile-v2-2026-10-27",
-      "judgedAt": "2026-10-27T00:00:00Z",
+      "judgedBy": "codex-readwise-inbox-profile-v2-2026-10-29",
+      "judgedAt": "2026-10-29T00:00:00Z",
+      "status": "draft",
+      "confidence": "low",
+      "reason": "De actuele evidence bevat geen volledige brontekst; daarom zijn geen v2-scores ingevuld.",
       "evidenceRefs": [
-        "/mnt/c/dev/top-articles/.tmp/readwise/inbox-semantic-run-20261028-2/reading-profiles/snapshot.json#documents.01m5x19cy657m5z6qws0vfnzg7.content"
-      ],
-      "status": "accepted",
-      "confidence": "medium",
-      "reason": "Actueel v2-profiel beoordeeld vanuit de volledige brontekst, samenvatting en leesvoorkeuren; ratings zijn inhoudelijk afgeleid en onafhankelijk van prioriteit of rangpositie.",
-      "traits": {
-        "effort": 3,
-        "emotionalWeight": 1,
-        "tone": "zakelijk",
-        "needFit": {
-          "ontspannen": 1,
-          "afleiding": 1,
-          "herkenning": 2,
-          "verkennen": 4,
-          "verdieping": 4
-        },
-        "activation": 4,
-        "interruptibility": 2
-      }
+        ".tmp/readwise/reading-profile-v2-2026-10-29/snapshot.json#documents.01m5x19cy657m5z6qws0vfnzg7",
+        ".tmp/readwise/reading-profile-v2-2026-10-29/snapshot.json#documents.01m5x19cy657m5z6qws0vfnzg7.summary"
+      ]
     },
     "01m5x198ecjff5fc09d98zv8p6": {
       "rubricVersion": "reading-profile-v2",
-      "sourceFingerprint": "c24621c0e3afd143aff64123e6780f8cef7f0baf74453809d4c4276d9bcdbf13",
-      "evidenceFingerprint": "7ba98c992a207e5c258553991a6670beedfdda17c9084603c7da5851f2aeb015",
+      "sourceFingerprint": "9ec9fe8b7a08283cbc6d2be174691d84d0dfa70fd2f648bb271ace2b1e15fd25",
+      "evidenceFingerprint": "37ebc67de56c3b1d3b96c390b4e36b8bbefa145cfdbba04335801ad811401c1a",
       "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
-      "judgedBy": "codex-readwise-inbox-profile-v2-2026-10-27",
-      "judgedAt": "2026-10-27T00:00:00Z",
-      "evidenceRefs": [
-        "/mnt/c/dev/top-articles/.tmp/readwise/inbox-semantic-run-20261028-2/reading-profiles/snapshot.json#documents.01m5x198ecjff5fc09d98zv8p6.content"
-      ],
+      "judgedBy": "codex-readwise-inbox-profile-v2-2026-10-29",
+      "judgedAt": "2026-10-29T00:00:00Z",
       "status": "accepted",
       "confidence": "medium",
-      "reason": "Actueel v2-profiel beoordeeld vanuit de volledige brontekst, samenvatting en leesvoorkeuren; ratings zijn inhoudelijk afgeleid en onafhankelijk van prioriteit of rangpositie.",
+      "reason": "Opnieuw gecontroleerd vanuit de volledige brontekst, samenvatting en leesvoorkeuren; ratings zijn inhoudelijk afgeleid en onafhankelijk van prioriteit of rangpositie.",
       "traits": {
         "effort": 3,
         "emotionalWeight": 0,
@@ -17827,21 +17704,22 @@
         },
         "activation": 3,
         "interruptibility": 2
-      }
+      },
+      "evidenceRefs": [
+        ".tmp/readwise/reading-profile-v2-2026-10-29/snapshot.json#documents.01m5x198ecjff5fc09d98zv8p6",
+        ".tmp/readwise/reading-profile-v2-2026-10-29/snapshot.json#documents.01m5x198ecjff5fc09d98zv8p6.content"
+      ]
     },
     "01m5x192t1fvbp1kdp1xw09rre": {
       "rubricVersion": "reading-profile-v2",
-      "sourceFingerprint": "eac0b1e6c24526a3cd69e6092a6293b6003eb6bcb7ed87889533f8a7499b8b28",
-      "evidenceFingerprint": "903c8a7d450f5760e3fd2e3ec9b8ca77a7eeff85a5d411a0dfd8c840744ff656",
+      "sourceFingerprint": "f6dc4dcff97a920a94a72a181c18d00f4eac0b5e538ede05a0d91d9b9dabe03a",
+      "evidenceFingerprint": "6f2f895eb91b17648de49f533e8f436db0ea32229659f67867cab842a090e9ac",
       "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
-      "judgedBy": "codex-readwise-inbox-profile-v2-2026-10-27",
-      "judgedAt": "2026-10-27T00:00:00Z",
-      "evidenceRefs": [
-        "/mnt/c/dev/top-articles/.tmp/readwise/inbox-semantic-run-20261028-2/reading-profiles/snapshot.json#documents.01m5x192t1fvbp1kdp1xw09rre.content"
-      ],
+      "judgedBy": "codex-readwise-inbox-profile-v2-2026-10-29",
+      "judgedAt": "2026-10-29T00:00:00Z",
       "status": "accepted",
       "confidence": "medium",
-      "reason": "Actueel v2-profiel beoordeeld vanuit de volledige brontekst, samenvatting en leesvoorkeuren; ratings zijn inhoudelijk afgeleid en onafhankelijk van prioriteit of rangpositie.",
+      "reason": "Opnieuw gecontroleerd vanuit de volledige brontekst, samenvatting en leesvoorkeuren; ratings zijn inhoudelijk afgeleid en onafhankelijk van prioriteit of rangpositie.",
       "traits": {
         "effort": 3,
         "emotionalWeight": 0,
@@ -17855,7 +17733,11 @@
         },
         "activation": 3,
         "interruptibility": 2
-      }
+      },
+      "evidenceRefs": [
+        ".tmp/readwise/reading-profile-v2-2026-10-29/snapshot.json#documents.01m5x192t1fvbp1kdp1xw09rre",
+        ".tmp/readwise/reading-profile-v2-2026-10-29/snapshot.json#documents.01m5x192t1fvbp1kdp1xw09rre.content"
+      ]
     },
     "01m5x18zndhmrms5at8106dcd8": {
       "rubricVersion": "reading-profile-v2",
@@ -17887,17 +17769,14 @@
     },
     "01m5x18xywtkw0vxpsbqnytpxv": {
       "rubricVersion": "reading-profile-v2",
-      "sourceFingerprint": "85dd78790ae3abfe17f1cb9c5c49d363c7f952d8615352332a68ee7bcac4eeaf",
-      "evidenceFingerprint": "b9f8027315955f26a1eb58d0afdc7d923404ec9e718b937215f675866096b00f",
+      "sourceFingerprint": "440fb02e04305af033abe26288457ab3f6ccd7680857e9edc980d187c5741a2c",
+      "evidenceFingerprint": "05622832530ab00eb0a3bacbcdedae318ffd95ebc1375b9a41d7db0fa6c7a80b",
       "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
-      "judgedBy": "codex-readwise-inbox-profile-v2-2026-10-27",
-      "judgedAt": "2026-10-27T00:00:00Z",
-      "evidenceRefs": [
-        "/mnt/c/dev/top-articles/.tmp/readwise/inbox-semantic-run-20261028-2/reading-profiles/snapshot.json#documents.01m5x18xywtkw0vxpsbqnytpxv.content"
-      ],
+      "judgedBy": "codex-readwise-inbox-profile-v2-2026-10-29",
+      "judgedAt": "2026-10-29T00:00:00Z",
       "status": "accepted",
       "confidence": "medium",
-      "reason": "Actueel v2-profiel beoordeeld vanuit de volledige brontekst, samenvatting en leesvoorkeuren; ratings zijn inhoudelijk afgeleid en onafhankelijk van prioriteit of rangpositie.",
+      "reason": "Opnieuw gecontroleerd vanuit de volledige brontekst, samenvatting en leesvoorkeuren; ratings zijn inhoudelijk afgeleid en onafhankelijk van prioriteit of rangpositie.",
       "traits": {
         "effort": 3,
         "emotionalWeight": 1,
@@ -17911,35 +17790,26 @@
         },
         "activation": 4,
         "interruptibility": 2
-      }
+      },
+      "evidenceRefs": [
+        ".tmp/readwise/reading-profile-v2-2026-10-29/snapshot.json#documents.01m5x18xywtkw0vxpsbqnytpxv",
+        ".tmp/readwise/reading-profile-v2-2026-10-29/snapshot.json#documents.01m5x18xywtkw0vxpsbqnytpxv.content"
+      ]
     },
     "01m5x18xf6b014g6vex7kzgmkq": {
       "rubricVersion": "reading-profile-v2",
       "sourceFingerprint": "09e2ac506556f83ff53d5f1677f547309cacc00ea2deab2addfcca7d3a2c214c",
-      "evidenceFingerprint": "a6a64fb09a31c183932ac0587d206037ad71b8a3af1cb7a02ab64378fed739fd",
+      "evidenceFingerprint": "9dfb355617fc4cda2e1928e4b6bfb45c0b9678a6d54da93c2cae7f7dcb02391f",
       "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
-      "judgedBy": "codex-readwise-inbox-profile-v2-2026-10-27",
-      "judgedAt": "2026-10-27T00:00:00Z",
+      "judgedBy": "codex-readwise-inbox-profile-v2-2026-10-29",
+      "judgedAt": "2026-10-29T00:00:00Z",
+      "status": "draft",
+      "confidence": "low",
+      "reason": "De actuele evidence bevat geen volledige brontekst; daarom zijn geen v2-scores ingevuld.",
       "evidenceRefs": [
-        "/mnt/c/dev/top-articles/.tmp/readwise/inbox-semantic-run-20261028-2/reading-profiles/snapshot.json#documents.01m5x18xf6b014g6vex7kzgmkq.content"
-      ],
-      "status": "accepted",
-      "confidence": "medium",
-      "reason": "Actueel v2-profiel beoordeeld vanuit de volledige brontekst, samenvatting en leesvoorkeuren; ratings zijn inhoudelijk afgeleid en onafhankelijk van prioriteit of rangpositie.",
-      "traits": {
-        "effort": 2,
-        "emotionalWeight": 0,
-        "tone": "zakelijk",
-        "needFit": {
-          "ontspannen": 1,
-          "afleiding": 2,
-          "herkenning": 2,
-          "verkennen": 4,
-          "verdieping": 4
-        },
-        "activation": 3,
-        "interruptibility": 3
-      }
+        ".tmp/readwise/reading-profile-v2-2026-10-29/snapshot.json#documents.01m5x18xf6b014g6vex7kzgmkq",
+        ".tmp/readwise/reading-profile-v2-2026-10-29/snapshot.json#documents.01m5x18xf6b014g6vex7kzgmkq.summary"
+      ]
     },
     "01m5wxkws0wvgze9y5rjysmrf9": {
       "rubricVersion": "reading-profile-v2",
@@ -18000,30 +17870,17 @@
     "01m5w54am44yp9e6gndeqxsnfg": {
       "rubricVersion": "reading-profile-v2",
       "sourceFingerprint": "4b60a056ff630717ef54316968753bd1185b85d347afc35bab60615d73e227f7",
-      "evidenceFingerprint": "6463e249745b1ce1ff0aaa3ab0aadddbaae80186ea8737a57233042b6c0a0ed1",
+      "evidenceFingerprint": "37b5fd7269aa9bd2f51d48901d3622f5d36298af65d171e5ce56128ad791df0a",
       "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
-      "judgedBy": "codex-readwise-inbox-profile-v2-2026-10-27",
-      "judgedAt": "2026-10-27T00:00:00Z",
+      "judgedBy": "codex-readwise-inbox-profile-v2-2026-10-29",
+      "judgedAt": "2026-10-29T00:00:00Z",
+      "status": "draft",
+      "confidence": "low",
+      "reason": "De actuele evidence bevat geen volledige brontekst; daarom zijn geen v2-scores ingevuld.",
       "evidenceRefs": [
-        "/mnt/c/dev/top-articles/.tmp/readwise/inbox-semantic-run-20261028-2/reading-profiles/snapshot.json#documents.01m5w54am44yp9e6gndeqxsnfg.content"
-      ],
-      "status": "accepted",
-      "confidence": "medium",
-      "reason": "Actueel v2-profiel beoordeeld vanuit de volledige brontekst, samenvatting en leesvoorkeuren; ratings zijn inhoudelijk afgeleid en onafhankelijk van prioriteit of rangpositie.",
-      "traits": {
-        "effort": 1,
-        "emotionalWeight": 0,
-        "tone": "warm",
-        "needFit": {
-          "ontspannen": 3,
-          "afleiding": 3,
-          "herkenning": 3,
-          "verkennen": 2,
-          "verdieping": 1
-        },
-        "activation": 1,
-        "interruptibility": 4
-      }
+        ".tmp/readwise/reading-profile-v2-2026-10-29/snapshot.json#documents.01m5w54am44yp9e6gndeqxsnfg",
+        ".tmp/readwise/reading-profile-v2-2026-10-29/snapshot.json#documents.01m5w54am44yp9e6gndeqxsnfg.summary"
+      ]
     },
     "01m5vze4npmfkp872csv3aygh3": {
       "rubricVersion": "reading-profile-v2",
@@ -18111,17 +17968,14 @@
     },
     "01m5vxry48w9wagh7c4tr05whm": {
       "rubricVersion": "reading-profile-v2",
-      "sourceFingerprint": "d93da6e4e09fca28a88d2bbfac5957b3485b9c4b1e3453130e136c97c36ad6cd",
-      "evidenceFingerprint": "84d8c49f27ff58244e1b21626d20e1c69be80cff98390ad7988ffdf4ceb0c656",
+      "sourceFingerprint": "b48895ddbe303d6b872600ef290addbc332125686dc28b7c95f917eee7b26abf",
+      "evidenceFingerprint": "ffde61fca346097242ff8d829254621e8ce98f6199b551fe87db14f35f386277",
       "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
-      "judgedBy": "codex-readwise-inbox-profile-v2-2026-10-27",
-      "judgedAt": "2026-10-27T00:00:00Z",
-      "evidenceRefs": [
-        "/mnt/c/dev/top-articles/.tmp/readwise/inbox-semantic-run-20261028-2/reading-profiles/snapshot.json#documents.01m5vxry48w9wagh7c4tr05whm.content"
-      ],
+      "judgedBy": "codex-readwise-inbox-profile-v2-2026-10-29",
+      "judgedAt": "2026-10-29T00:00:00Z",
       "status": "accepted",
       "confidence": "medium",
-      "reason": "Actueel v2-profiel beoordeeld vanuit de volledige brontekst, samenvatting en leesvoorkeuren; ratings zijn inhoudelijk afgeleid en onafhankelijk van prioriteit of rangpositie.",
+      "reason": "Opnieuw gecontroleerd vanuit de volledige brontekst, samenvatting en leesvoorkeuren; ratings zijn inhoudelijk afgeleid en onafhankelijk van prioriteit of rangpositie.",
       "traits": {
         "effort": 2,
         "emotionalWeight": 1,
@@ -18135,90 +17989,97 @@
         },
         "activation": 3,
         "interruptibility": 3
-      }
+      },
+      "evidenceRefs": [
+        ".tmp/readwise/reading-profile-v2-2026-10-29/snapshot.json#documents.01m5vxry48w9wagh7c4tr05whm",
+        ".tmp/readwise/reading-profile-v2-2026-10-29/snapshot.json#documents.01m5vxry48w9wagh7c4tr05whm.content"
+      ]
     },
     "01m60pwpz7sc0fps3rvxe9ws31": {
-      "status": "accepted",
-      "confidence": "high",
-      "reason": "Volledige Nederlandstalige bron en notitie gelezen; het stuk is inhoudelijk concreet, reflectief en duidelijk relevant voor AI-ethiek en organisatiegedrag.",
-      "traits": {
-        "effort": 2,
-        "emotionalWeight": 2,
-        "tone": "reflectief",
-        "needFit": {
-          "ontspannen": 1,
-          "afleiding": 1,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 4
-        },
-        "activation": 3,
-        "interruptibility": 2
-      },
       "rubricVersion": "reading-profile-v2",
       "sourceFingerprint": "ba841331be966a9ecadcf9526ae8808cca4164827803a0e474b5339d15eaf980",
       "evidenceFingerprint": "200a1bafb749eb4f64c4dd323b4a636b72164ddde652b25fb39803ec031412bb",
       "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
-      "judgedBy": "codex-readwise-inbox-profile-v2-2026-10-28",
-      "judgedAt": "2026-10-28T09:52:00Z",
-      "evidenceRefs": [
-        "/mnt/c/dev/top-articles/.tmp/readwise/inbox-semantic-run-20261028-2/reading-profiles/snapshot.json#documents.01m60pwpz7sc0fps3rvxe9ws31.content"
-      ]
-    },
-    "01m60nj8wd70kc6byjshe4tytm": {
+      "judgedBy": "codex-readwise-inbox-profile-v2-2026-10-29",
+      "judgedAt": "2026-10-29T00:00:00Z",
       "status": "accepted",
-      "confidence": "high",
-      "reason": "Volledig Engelstalig essay gelezen; de persoonlijke vertelstem en duidelijke structuur maken het toegankelijk ondanks de reflectieve thematiek.",
+      "confidence": "medium",
+      "reason": "Nederlandstalig essay over AI-enthousiasme als vlucht voor onzekerheid, verlies en verantwoordelijkheid; persoonlijk, invoelbaar en inhoudelijk prikkelend.",
       "traits": {
         "effort": 2,
-        "emotionalWeight": 1,
-        "tone": "warm",
+        "emotionalWeight": 3,
+        "tone": "reflectief",
         "needFit": {
-          "ontspannen": 3,
-          "afleiding": 2,
-          "herkenning": 3,
-          "verkennen": 3,
-          "verdieping": 3
-        },
-        "activation": 2,
-        "interruptibility": 2
-      },
-      "rubricVersion": "reading-profile-v2",
-      "sourceFingerprint": "e40a9d95780b71905933e6382099210e67a29a18119f656fd6cc1830db3c3315",
-      "evidenceFingerprint": "727a174463b813f1244bc7461ebccdcc32e3a8556f5959b1a0c3c5d4d88d41c1",
-      "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
-      "judgedBy": "codex-readwise-inbox-profile-v2-2026-10-28",
-      "judgedAt": "2026-10-28T09:52:00Z",
-      "evidenceRefs": [
-        "/mnt/c/dev/top-articles/.tmp/readwise/inbox-semantic-run-20261028-2/reading-profiles/snapshot.json#documents.01m60nj8wd70kc6byjshe4tytm.content"
-      ]
-    },
-    "01m60mzr2a4tdwwsbbzz1m6e8n": {
-      "status": "accepted",
-      "confidence": "high",
-      "reason": "Volledige nieuwsbrief gelezen; concrete voorbeelden, visualisaties en zelfstandige secties maken het technisch maar goed hervatbaar.",
-      "traits": {
-        "effort": 3,
-        "emotionalWeight": 1,
-        "tone": "zakelijk",
-        "needFit": {
-          "ontspannen": 0,
+          "ontspannen": 1,
           "afleiding": 1,
-          "herkenning": 3,
-          "verkennen": 3,
+          "herkenning": 4,
+          "verkennen": 4,
           "verdieping": 4
         },
         "activation": 3,
         "interruptibility": 3
       },
+      "evidenceRefs": [
+        ".tmp/readwise/reading-profile-v2-2026-10-29/snapshot.json#documents.01m60pwpz7sc0fps3rvxe9ws31",
+        ".tmp/readwise/reading-profile-v2-2026-10-29/snapshot.json#documents.01m60pwpz7sc0fps3rvxe9ws31.content"
+      ]
+    },
+    "01m60nj8wd70kc6byjshe4tytm": {
+      "rubricVersion": "reading-profile-v2",
+      "sourceFingerprint": "e40a9d95780b71905933e6382099210e67a29a18119f656fd6cc1830db3c3315",
+      "evidenceFingerprint": "727a174463b813f1244bc7461ebccdcc32e3a8556f5959b1a0c3c5d4d88d41c1",
+      "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
+      "judgedBy": "codex-readwise-inbox-profile-v2-2026-10-29",
+      "judgedAt": "2026-10-29T00:00:00Z",
+      "status": "accepted",
+      "confidence": "medium",
+      "reason": "Persoonlijk essay over immigrantengezin, zekerheid en de keuze voor het schrijverschap; emotioneel en herkenbaar zonder hoge cognitieve belasting.",
+      "traits": {
+        "effort": 2,
+        "emotionalWeight": 2,
+        "tone": "reflectief",
+        "needFit": {
+          "ontspannen": 3,
+          "afleiding": 2,
+          "herkenning": 4,
+          "verkennen": 3,
+          "verdieping": 3
+        },
+        "activation": 2,
+        "interruptibility": 3
+      },
+      "evidenceRefs": [
+        ".tmp/readwise/reading-profile-v2-2026-10-29/snapshot.json#documents.01m60nj8wd70kc6byjshe4tytm",
+        ".tmp/readwise/reading-profile-v2-2026-10-29/snapshot.json#documents.01m60nj8wd70kc6byjshe4tytm.content"
+      ]
+    },
+    "01m60mzr2a4tdwwsbbzz1m6e8n": {
       "rubricVersion": "reading-profile-v2",
       "sourceFingerprint": "23ef5dfec1a6600f6dbdc6c8a9c9c4ed0c2555b921d20d18d857b646190f2b5b",
       "evidenceFingerprint": "8a754b734cfd805c911dfb34f5e44f69c78b25b3a4a887718771d11220286e36",
       "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
-      "judgedBy": "codex-readwise-inbox-profile-v2-2026-10-28",
-      "judgedAt": "2026-10-28T09:52:00Z",
+      "judgedBy": "codex-readwise-inbox-profile-v2-2026-10-29",
+      "judgedAt": "2026-10-29T00:00:00Z",
+      "status": "accepted",
+      "confidence": "medium",
+      "reason": "Uitgebreide analyse van AI-gedreven output, kwaliteit en alignment in softwarewerk; inhoudelijk zwaar maar in afzonderlijke secties te hervatten.",
+      "traits": {
+        "effort": 3,
+        "emotionalWeight": 1,
+        "tone": "zakelijk",
+        "needFit": {
+          "ontspannen": 1,
+          "afleiding": 1,
+          "herkenning": 3,
+          "verkennen": 4,
+          "verdieping": 4
+        },
+        "activation": 4,
+        "interruptibility": 3
+      },
       "evidenceRefs": [
-        "/mnt/c/dev/top-articles/.tmp/readwise/inbox-semantic-run-20261028-2/reading-profiles/snapshot.json#documents.01m60mzr2a4tdwwsbbzz1m6e8n.content"
+        ".tmp/readwise/reading-profile-v2-2026-10-29/snapshot.json#documents.01m60mzr2a4tdwwsbbzz1m6e8n",
+        ".tmp/readwise/reading-profile-v2-2026-10-29/snapshot.json#documents.01m60mzr2a4tdwwsbbzz1m6e8n.content"
       ]
     },
     "01m60f6dm4q8xc6sxpj3hn5wv8": {
@@ -18362,15 +18223,21 @@
       ]
     },
     "01m5yz1wfhvpdmg7b4tzkdn8va": {
+      "rubricVersion": "reading-profile-v2",
+      "sourceFingerprint": "3a32ae822860bcb6ea96ee55aaca98cd58827b52dabfa0b293a11807c8b633f2",
+      "evidenceFingerprint": "e1195ed16affd845f997840e157d88b4d7b31bfed92cfe57b3cd9eff9a839f03",
+      "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
+      "judgedBy": "codex-readwise-inbox-profile-v2-2026-10-29",
+      "judgedAt": "2026-10-29T00:00:00Z",
       "status": "accepted",
-      "confidence": "high",
-      "reason": "Volledige filosofische bespreking gelezen; de argumentatieve structuur is toegankelijk, maar de abstracte begrippen vragen enige concentratie en lenen zich voor herlezing.",
+      "confidence": "medium",
+      "reason": "Filosofisch essay over technologie en cultuur; de argumentatie vraagt aandacht maar blijft zelfstandig leesbaar en biedt duidelijke verdieping.",
       "traits": {
-        "effort": 2,
+        "effort": 3,
         "emotionalWeight": 1,
-        "tone": "zakelijk",
+        "tone": "reflectief",
         "needFit": {
-          "ontspannen": 1,
+          "ontspannen": 2,
           "afleiding": 1,
           "herkenning": 2,
           "verkennen": 4,
@@ -18379,29 +18246,21 @@
         "activation": 3,
         "interruptibility": 2
       },
-      "rubricVersion": "reading-profile-v2",
-      "sourceFingerprint": "3a32ae822860bcb6ea96ee55aaca98cd58827b52dabfa0b293a11807c8b633f2",
-      "evidenceFingerprint": "e1195ed16affd845f997840e157d88b4d7b31bfed92cfe57b3cd9eff9a839f03",
-      "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
-      "judgedBy": "codex-readwise-inbox-profile-v2-2026-10-28",
-      "judgedAt": "2026-10-28T09:52:00Z",
       "evidenceRefs": [
-        "/mnt/c/dev/top-articles/.tmp/readwise/inbox-semantic-run-20261028-2/reading-profiles/snapshot.json#documents.01m5yz1wfhvpdmg7b4tzkdn8va.content"
+        ".tmp/readwise/reading-profile-v2-2026-10-29/snapshot.json#documents.01m5yz1wfhvpdmg7b4tzkdn8va",
+        ".tmp/readwise/reading-profile-v2-2026-10-29/snapshot.json#documents.01m5yz1wfhvpdmg7b4tzkdn8va.content"
       ]
     },
     "01m60ynpvc0gfx60p3ake0bh6x": {
-      "status": "accepted",
-      "confidence": "high",
       "rubricVersion": "reading-profile-v2",
       "sourceFingerprint": "bf1b53c6a16f9d435d91f1f6a6d3659129fe3f3a474f7bf523483e751d7c17ee",
       "evidenceFingerprint": "aed67e6db03d1c5570815198aa45b9f2dc4c2b347edc0466457117176598d375",
       "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
-      "judgedBy": "Codex Readwise inbox profile review v2 round 2",
-      "judgedAt": "2026-10-28T15:00:00Z",
-      "evidenceRefs": [
-        "/mnt/c/dev/top-articles/.tmp/readwise/inbox-semantic-run-20261028-2/reading-profiles/snapshot.json#documents.01m60ynpvc0gfx60p3ake0bh6x.content"
-      ],
-      "reason": "Volledig artikel gelezen; concrete teaminterventies zijn zelfstandig toepasbaar.",
+      "judgedBy": "codex-readwise-inbox-profile-v2-2026-10-29",
+      "judgedAt": "2026-10-29T00:00:00Z",
+      "status": "accepted",
+      "confidence": "medium",
+      "reason": "Praktische handleiding voor een korter teamoverleg met duidelijke tijdsblokken, beslissingen en eigenaarschap; modulair en direct toepasbaar.",
       "traits": {
         "effort": 2,
         "emotionalWeight": 0,
@@ -18413,37 +18272,230 @@
           "verkennen": 3,
           "verdieping": 4
         },
-        "activation": 2,
-        "interruptibility": 3
-      }
+        "activation": 3,
+        "interruptibility": 4
+      },
+      "evidenceRefs": [
+        ".tmp/readwise/reading-profile-v2-2026-10-29/snapshot.json#documents.01m60ynpvc0gfx60p3ake0bh6x",
+        ".tmp/readwise/reading-profile-v2-2026-10-29/snapshot.json#documents.01m60ynpvc0gfx60p3ake0bh6x.content"
+      ]
     },
     "01m612xs15enyrdczas1szjjxs": {
-      "status": "accepted",
-      "confidence": "high",
       "rubricVersion": "reading-profile-v2",
       "sourceFingerprint": "cb8680c854eca0210dbd16bf701733d56852420ee54365acf77f0a073afdb6d1",
       "evidenceFingerprint": "46a9dc6e2593a5066418bb48b2f9fc8222293b3d2a3190764c7125a9ad8ad306",
       "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
-      "judgedBy": "Codex Readwise inbox profile review v2 round 2",
-      "judgedAt": "2026-10-28T15:00:00Z",
-      "evidenceRefs": [
-        "/mnt/c/dev/top-articles/.tmp/readwise/inbox-semantic-run-20261028-2/reading-profiles/snapshot.json#documents.01m612xs15enyrdczas1szjjxs.content"
-      ],
-      "reason": "Volledig artikel gelezen; de analyse van urgentie en makerstijd is concreet en goed hervatbaar.",
+      "judgedBy": "codex-readwise-inbox-profile-v2-2026-10-29",
+      "judgedAt": "2026-10-29T00:00:00Z",
+      "status": "accepted",
+      "confidence": "medium",
+      "reason": "Nederlandstalige uitleg van het mere-urgency-effect met concrete manieren om belangrijk werk te beschermen; herkenbaar en toepasbaar.",
       "traits": {
         "effort": 2,
+        "emotionalWeight": 1,
+        "tone": "warm",
+        "needFit": {
+          "ontspannen": 2,
+          "afleiding": 1,
+          "herkenning": 4,
+          "verkennen": 3,
+          "verdieping": 3
+        },
+        "activation": 3,
+        "interruptibility": 3
+      },
+      "evidenceRefs": [
+        ".tmp/readwise/reading-profile-v2-2026-10-29/snapshot.json#documents.01m612xs15enyrdczas1szjjxs",
+        ".tmp/readwise/reading-profile-v2-2026-10-29/snapshot.json#documents.01m612xs15enyrdczas1szjjxs.content"
+      ]
+    },
+    "01m61habhtbe0k6zmxsbcs2qms": {
+      "rubricVersion": "reading-profile-v2",
+      "sourceFingerprint": "d2591e01436f99506af3bd937c84949cd9b04b0deb8ba994438c6dfa7374f7b4",
+      "evidenceFingerprint": "fa9b3aec57a2436c87082090bd5dabce3ac28215d9fdfca111e2669288b3ce39",
+      "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
+      "judgedBy": "codex-readwise-inbox-profile-v2-2026-10-29",
+      "judgedAt": "2026-10-29T00:00:00Z",
+      "status": "accepted",
+      "confidence": "medium",
+      "reason": "Kort, licht essay over afronden, loslaten en het verkleinen van onafgemaakte projecten; zeer hervatbaar en persoonlijk herkenbaar.",
+      "traits": {
+        "effort": 1,
+        "emotionalWeight": 1,
+        "tone": "warm",
+        "needFit": {
+          "ontspannen": 3,
+          "afleiding": 2,
+          "herkenning": 4,
+          "verkennen": 2,
+          "verdieping": 3
+        },
+        "activation": 2,
+        "interruptibility": 4
+      },
+      "evidenceRefs": [
+        ".tmp/readwise/reading-profile-v2-2026-10-29/snapshot.json#documents.01m61habhtbe0k6zmxsbcs2qms",
+        ".tmp/readwise/reading-profile-v2-2026-10-29/snapshot.json#documents.01m61habhtbe0k6zmxsbcs2qms.content"
+      ]
+    },
+    "01m61hh4yvcbe1h2q7gcc2rtzz": {
+      "rubricVersion": "reading-profile-v2",
+      "sourceFingerprint": "afb0850e07a893ba94c984a3c60e32c6f6d40396d82b6218bfd9ac2ec329c309",
+      "evidenceFingerprint": "f44ea966dce68c734e3209b9f1067824494ac6e7c1095269d1b6bf2ae4edb8c7",
+      "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
+      "judgedBy": "codex-readwise-inbox-profile-v2-2026-10-29",
+      "judgedAt": "2026-10-29T00:00:00Z",
+      "status": "accepted",
+      "confidence": "medium",
+      "reason": "Technisch betoog over strategisch programmeren, softwarefabrieken en het verplaatsen van aandacht van tactiek naar systeemdenken; sterk activerend en verdiepend.",
+      "traits": {
+        "effort": 3,
         "emotionalWeight": 0,
         "tone": "zakelijk",
         "needFit": {
           "ontspannen": 1,
           "afleiding": 1,
           "herkenning": 3,
-          "verkennen": 3,
+          "verkennen": 4,
+          "verdieping": 4
+        },
+        "activation": 4,
+        "interruptibility": 3
+      },
+      "evidenceRefs": [
+        ".tmp/readwise/reading-profile-v2-2026-10-29/snapshot.json#documents.01m61hh4yvcbe1h2q7gcc2rtzz",
+        ".tmp/readwise/reading-profile-v2-2026-10-29/snapshot.json#documents.01m61hh4yvcbe1h2q7gcc2rtzz.content"
+      ]
+    },
+    "01m61hjfpw37acmgq50g7dth6f": {
+      "rubricVersion": "reading-profile-v2",
+      "sourceFingerprint": "e110bd83e5720722930812176519b535347d7a754c9b624a500ad20db3c3c2cd",
+      "evidenceFingerprint": "eebf4db2e8594b5f670b489eecda129f59c19c98b9e851134bfd4395d4088310",
+      "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
+      "judgedBy": "codex-readwise-inbox-profile-v2-2026-10-29",
+      "judgedAt": "2026-10-29T00:00:00Z",
+      "status": "accepted",
+      "confidence": "medium",
+      "reason": "Uitgebreid interview met Gillian Flynn over spanning, personages en schrijfambacht; speels verteld, thematisch opgedeeld en geschikt voor fragmenten.",
+      "traits": {
+        "effort": 2,
+        "emotionalWeight": 2,
+        "tone": "speels",
+        "needFit": {
+          "ontspannen": 3,
+          "afleiding": 4,
+          "herkenning": 2,
+          "verkennen": 4,
           "verdieping": 3
         },
         "activation": 3,
+        "interruptibility": 4
+      },
+      "evidenceRefs": [
+        ".tmp/readwise/reading-profile-v2-2026-10-29/snapshot.json#documents.01m61hjfpw37acmgq50g7dth6f",
+        ".tmp/readwise/reading-profile-v2-2026-10-29/snapshot.json#documents.01m61hjfpw37acmgq50g7dth6f.content"
+      ]
+    },
+    "01m61hmr2ykpwfx6ys1k0g762c": {
+      "rubricVersion": "reading-profile-v2",
+      "sourceFingerprint": "aaf84d978e50e355b059b83f2b34846fc88e0c60268ded5f678f4012ea29ac91",
+      "evidenceFingerprint": "ca58fff540ed4d885164a1f3d95628628068a26c9705b1582a9c321e14ae35a5",
+      "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
+      "judgedBy": "codex-readwise-inbox-profile-v2-2026-10-29",
+      "judgedAt": "2026-10-29T00:00:00Z",
+      "status": "accepted",
+      "confidence": "medium",
+      "reason": "Essay over Barnes & Noble, onafhankelijke boekwinkels en curatie als serendipiteitsmodel; toegankelijk en vooral verkennend.",
+      "traits": {
+        "effort": 2,
+        "emotionalWeight": 0,
+        "tone": "reflectief",
+        "needFit": {
+          "ontspannen": 2,
+          "afleiding": 2,
+          "herkenning": 2,
+          "verkennen": 4,
+          "verdieping": 3
+        },
+        "activation": 2,
         "interruptibility": 3
-      }
+      },
+      "evidenceRefs": [
+        ".tmp/readwise/reading-profile-v2-2026-10-29/snapshot.json#documents.01m61hmr2ykpwfx6ys1k0g762c",
+        ".tmp/readwise/reading-profile-v2-2026-10-29/snapshot.json#documents.01m61hmr2ykpwfx6ys1k0g762c.content"
+      ]
+    },
+    "01m61sjspffcbc39n5vdc1w1qx": {
+      "rubricVersion": "reading-profile-v2",
+      "sourceFingerprint": "5e86c43420166eb51fd78d45583d95fbc9f16f7f366d18d7bf768c258aaf2ea4",
+      "evidenceFingerprint": "273894a2d4391eb8b66d85fb17b90b446a454e01c76bb09141f156b0575ae677",
+      "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
+      "judgedBy": "codex-readwise-inbox-profile-v2-2026-10-29",
+      "judgedAt": "2026-10-29T00:00:00Z",
+      "status": "accepted",
+      "confidence": "medium",
+      "reason": "Uitgebreide productuitleg van Readwise Books en de beoogde leespraktijk; relevant voor leessoftware en goed opdeelbaar, maar deels promotioneel.",
+      "traits": {
+        "effort": 2,
+        "emotionalWeight": 0,
+        "tone": "zakelijk",
+        "needFit": {
+          "ontspannen": 2,
+          "afleiding": 1,
+          "herkenning": 3,
+          "verkennen": 4,
+          "verdieping": 3
+        },
+        "activation": 2,
+        "interruptibility": 3
+      },
+      "evidenceRefs": [
+        ".tmp/readwise/reading-profile-v2-2026-10-29/snapshot.json#documents.01m61sjspffcbc39n5vdc1w1qx",
+        ".tmp/readwise/reading-profile-v2-2026-10-29/snapshot.json#documents.01m61sjspffcbc39n5vdc1w1qx.content"
+      ]
+    },
+    "01m61sm6xbhbqwhzfq03wsvxn0": {
+      "rubricVersion": "reading-profile-v2",
+      "sourceFingerprint": "414fb7dd0ef1cc9bb7fde70add54d26c1cef6bf2fdd92032af7d18de50219c6d",
+      "evidenceFingerprint": "753a756e9df882bc668a86852d557d61593d4accf550d48d38b586ea99b9b84f",
+      "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
+      "judgedBy": "codex-readwise-inbox-profile-v2-2026-10-29",
+      "judgedAt": "2026-10-29T00:00:00Z",
+      "status": "accepted",
+      "confidence": "medium",
+      "reason": "Lange, geestige verzameling over onderzoeksfraude, peer review en AI met meerdere inhoudelijke zijpaden; prikkelend en verdiepend, maar niet licht.",
+      "traits": {
+        "effort": 3,
+        "emotionalWeight": 2,
+        "tone": "speels",
+        "needFit": {
+          "ontspannen": 2,
+          "afleiding": 3,
+          "herkenning": 2,
+          "verkennen": 4,
+          "verdieping": 4
+        },
+        "activation": 4,
+        "interruptibility": 3
+      },
+      "evidenceRefs": [
+        ".tmp/readwise/reading-profile-v2-2026-10-29/snapshot.json#documents.01m61sm6xbhbqwhzfq03wsvxn0",
+        ".tmp/readwise/reading-profile-v2-2026-10-29/snapshot.json#documents.01m61sm6xbhbqwhzfq03wsvxn0.content"
+      ]
+    },
+    "01m61vy1haj02qj5r8mhkvxzhb": {
+      "rubricVersion": "reading-profile-v2",
+      "sourceFingerprint": "8095471d0c1b736b90a6665b355303ca1bd85aa44e727d81363c936be04fbeac",
+      "evidenceFingerprint": "76f8bb7db7171d7c7895b49fa65845613f30f399d192a43f388b08cf0c456a86",
+      "preferencesFingerprint": "c1486cebcec75197eec6fd6db5ba18cdab9b05e4813eae0df5a7d3fe86bde8e7",
+      "judgedBy": "codex-readwise-inbox-profile-v2-2026-10-29",
+      "judgedAt": "2026-10-29T00:00:00Z",
+      "status": "rejected",
+      "confidence": "high",
+      "reason": "EPUB/boekmateriaal is volgens de leesprofielrubric uitgesloten van het situatieprofiel.",
+      "evidenceRefs": [
+        ".tmp/readwise/reading-profile-v2-2026-10-29/snapshot.json#documents.01m61vy1haj02qj5r8mhkvxzhb.metadata"
+      ]
     }
   }
 }
