@@ -5663,7 +5663,7 @@ window.TOP_ARTICLES = {
       }
     }
   },
-  "generatedAt": "2026-11-01T11:32:01.019Z",
+  "generatedAt": "2026-11-02T12:32:27.761Z",
   "families": [
     {
       "id": "algemeen",
