@@ -97,6 +97,9 @@ function isPrioritySequenceScore(value) {
         && isTopicComponents(value.components, value.topicRelevance);
 }
 function isPriorityItem(value, priority) {
+    if (isRecord(value) && value.judgmentSourceStatus !== undefined && value.judgmentSourceStatus !== "complete" && value.judgmentSourceStatus !== "partial") {
+        return false;
+    }
     if (!isRecord(value) || !Number.isInteger(value.baseScore) || !isFiniteNumber(value.adjustment) || !Number.isInteger(value.adjustment) || !Number.isInteger(value.score) || typeof value.tier !== "string" || !isNullableString(value.adjustmentReason) || (value.judgmentSource !== "label" && value.judgmentSource !== "fallback") || (value.judgmentConfidence !== "high" && value.judgmentConfidence !== "medium" && value.judgmentConfidence !== "low") || !isRecord(value.components) || !isRecord(value.rationale) || !Array.isArray(value.coreInterestMatches)) {
         return false;
     }

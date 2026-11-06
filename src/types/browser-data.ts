@@ -38,7 +38,7 @@ export interface CoreInterestEvidence { kind: CoreInterestEvidenceKind; source: 
 export interface CoreInterestMatch { interest: DirectDomain; weight: number; qualityScore: number; evidence: CoreInterestEvidence[]; }
 export interface CoreInterestPriorityEntry { interest: DirectDomain; label: string; rank: number; weight: number; source: "manual" | "derived"; evidenceDocumentCount: number; evidenceScore: number; }
 export interface CoreInterestPriority { version: 1; generatedAt: string; order: DirectDomain[]; weights: Record<DirectDomain, number>; entries: CoreInterestPriorityEntry[]; }
-export interface PriorityItem { baseScore: number; adjustment: number; adjustmentReason: string | null; score: number; tier: string; components: Record<PriorityComponentKey, number>; rationale: Record<PriorityComponentKey, string[]>; judgmentSource: "label" | "fallback"; judgmentConfidence: "high" | "medium" | "low"; coreInterestMatches: CoreInterestMatch[]; sequences: PrioritySequence[]; sequenceScores: Partial<Record<PrioritySequence, PrioritySequenceScore>>; positions: Partial<Record<PrioritySequence, number>>; actualPositions: Partial<Record<PrioritySequence, number>>; }
+export interface PriorityItem { judgmentSourceStatus?: "complete" | "partial"; baseScore: number; adjustment: number; adjustmentReason: string | null; score: number; tier: string; components: Record<PriorityComponentKey, number>; rationale: Record<PriorityComponentKey, string[]>; judgmentSource: "label" | "fallback"; judgmentConfidence: "high" | "medium" | "low"; coreInterestMatches: CoreInterestMatch[]; sequences: PrioritySequence[]; sequenceScores: Partial<Record<PrioritySequence, PrioritySequenceScore>>; positions: Partial<Record<PrioritySequence, number>>; actualPositions: Partial<Record<PrioritySequence, number>>; }
 export interface TopArticlePriority { generatedAt: string; model: "readwise-priority-v8"; scope: "later"; coreInterestPriority: CoreInterestPriority; items: Record<string, PriorityItem>; }
 
 const CORE_INTEREST_IDS: readonly DirectDomain[] = [
@@ -146,6 +146,7 @@ function isPrioritySequenceScore(value: unknown): value is PrioritySequenceScore
 }
 
 function isPriorityItem(value: unknown, priority: CoreInterestPriority): value is PriorityItem {
+  if (isRecord(value) && value.judgmentSourceStatus !== undefined && value.judgmentSourceStatus !== "complete" && value.judgmentSourceStatus !== "partial") { return false; }
   if (!isRecord(value) || !Number.isInteger(value.baseScore) || !isFiniteNumber(value.adjustment) || !Number.isInteger(value.adjustment) || !Number.isInteger(value.score) || typeof value.tier !== "string" || !isNullableString(value.adjustmentReason) || (value.judgmentSource !== "label" && value.judgmentSource !== "fallback") || (value.judgmentConfidence !== "high" && value.judgmentConfidence !== "medium" && value.judgmentConfidence !== "low") || !isRecord(value.components) || !isRecord(value.rationale) || !Array.isArray(value.coreInterestMatches)) {
     return false;
   }

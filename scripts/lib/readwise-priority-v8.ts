@@ -42,6 +42,7 @@ export type PriorityComponentKey = keyof PriorityComponents;
 export type PriorityRationale = Record<PriorityComponentKey, string[]>;
 
 export interface PriorityScoreResult {
+  judgmentSourceStatus?: "complete" | "partial";
   baseScore: number;
   adjustment: number;
   adjustmentReason: string | null;
@@ -323,6 +324,7 @@ function scorePreparedDocument(
     return `${CORE_INTEREST_LABELS[match.interest]}: +${match.weight}${labels ? ` (${labels})` : ""}.`;
   });
   return withCurationBonuses(doc, {
+    ...(judgment.sourceReview ? { judgmentSourceStatus: judgment.sourceReview.sourceStatus } : {}),
     baseScore, adjustment, adjustmentReason: reason, score, tier: tierForScore(score), components, rationale,
     judgmentSource: source, judgmentConfidence: judgment.confidence, coreInterestMatches: weightedMatches,
   });
@@ -509,6 +511,7 @@ function validateGlobalScoreShape(id: string, value: unknown): value is Priority
   }
   if (value.adjustmentReason !== null && typeof value.adjustmentReason !== "string") {throw new Error(`Ongeldige correctiereden voor ${id}`);}
   if (value.judgmentConfidence !== "high" && value.judgmentConfidence !== "medium" && value.judgmentConfidence !== "low") {throw new Error(`Ongeldige judgment-confidence voor ${id}`);}
+  if (value.judgmentSourceStatus !== undefined && value.judgmentSourceStatus !== "complete" && value.judgmentSourceStatus !== "partial") { throw new Error(`Ongeldige bronstatus voor ${id}`); }
   let componentSum = 0;
   for (const key of componentKeys) {
     const component = components[key];

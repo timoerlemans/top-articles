@@ -220,6 +220,33 @@ nieuwe database, backend, token in de browser of dagelijks AI-proces nodig.
 
 ## Lokaal verversen
 
+### Semantische beoordeling met volledige bronnen
+
+Codex leest de bronnen en bepaalt inhoudelijke ratings en confidence. De CLI bereidt
+evidence voor, controleert vastgelegde onderbouwing en berekent lijsten; zij roept geen AI aan.
+De bronreview omvat **alle actuele Later-documenten**, inclusief boeken, PDF's en video's:
+
+```bash
+npm run priority:judge -- prepare-review --all-later --run-dir .tmp/readwise/source-review
+npm run priority:judge -- fetch-review-sources --run-dir .tmp/readwise/source-review
+# Codex leest docs/priority-review.md en alle bronbatches en schrijft private assessments.
+npm run priority:judge -- review-status --run-dir .tmp/readwise/source-review
+npm run priority:judge -- import-review --run-dir .tmp/readwise/source-review
+```
+
+Een niet-lege body is alleen beschikbare tekst. Codex beoordeelt de volledigheid en
+onderbouwt iedere rating met bronpassages volgens [het bronreviewcontract](docs/priority-review.md).
+Nieuwe `high`-beoordelingen vereisen volledige bronlezing en geen materiële resterende onzekerheid.
+Een zorgvuldig onderbouwde `medium` blijft geldig en hoeft niet tot `high` te worden herhaald.
+Alle oude judgments blijven leesbaar, maar voldoen zonder nieuwe provenance nog niet aan deze standaard.
+Onvoltooide pogingen blijven privé naast bestaande geldige scores; zij hoeven geen ratings te verzinnen.
+`review-status` rapporteert een bevroren Later-snapshot. `import-review` haalt actuele bronnen
+op en verwerkt uitsluitend bron- en voorkeurconsistente accepted beoordelingen, met behoud
+van gelijktijdige niet-gerelateerde configwijzigingen. De gewone `prepare --incremental`-route
+blijft beschikbaar voor oudere metadata-/highlightreviews; die bewijst geen volledige bronlezing.
+Leesprofielherbeoordeling is een afzonderlijke scope. Commit/push, build en Reader-tagsynchronisatie
+volgen hun bestaande routes; `import-review` wijzigt alleen lokale judgments.
+
 Vereist een ingelogde [`@readwise/cli`](https://www.npmjs.com/package/@readwise/cli)
 (`readwise login`).
 

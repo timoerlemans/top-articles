@@ -6,6 +6,8 @@ import { SEQUENCE_ORDER, TOPIC_SEQUENCE_ORDER } from "./priority-sequences.js";
 import type { PrioritySequence, TopicSequence } from "./priority-sequences.js";
 import { fallbackTopicRelevanceFor } from "./priority-topic-taxonomy.js";
 import { splitReadingFeedback } from "./reader-notes.js";
+import { sourceReviewSchema } from "./priority-review-standard.js";
+import type { SourceReview } from "./priority-review-standard.js";
 
 export type ContentRating = 0 | 1 | 2 | 3 | 4;
 export type JudgmentConfidence = "high" | "medium" | "low";
@@ -44,6 +46,7 @@ export interface PriorityDocumentEvidence {
 }
 
 export interface ContentJudgment {
+  sourceReview?: SourceReview;
   sourceFingerprint: string;
   evidenceFingerprint?: string;
   preferencesFingerprint?: string;
@@ -374,6 +377,7 @@ function isTopicRelevance(value: unknown): value is Partial<Record<TopicSequence
 export function validateContentJudgment(value: unknown): value is ContentJudgment {
   if (!isRecord(value) || typeof value.sourceFingerprint !== "string" || !/^[a-f0-9]{64}$/.test(value.sourceFingerprint)) {return false;}
   if (!["high", "medium", "low"].includes(String(value.confidence))) {return false;}
+  if (value.sourceReview !== undefined && (!sourceReviewSchema.safeParse(value.sourceReview).success || (value.confidence === "high" && (value.sourceReview as SourceReview).sourceStatus !== "complete"))) {return false;}
   if (!["relevance", "substance", "durability", "usefulness"].every((key) => isRating(value[key]))) {return false;}
   if (!isRecord(value.sequenceFit) || !Object.values(value.sequenceFit).every(isFit)) {return false;}
   if (value.topicRelevance !== undefined && !isTopicRelevance(value.topicRelevance)) {return false;}

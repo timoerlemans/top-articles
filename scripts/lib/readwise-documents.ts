@@ -3,7 +3,7 @@ import type { ReadwiseDocument } from "./external-schemas.js";
 import type { ReadwiseExecutor } from "./readwise-request.js";
 
 export type ReadwiseDocumentLocation = "later" | "new" | "shortlist" | "archive" | "feed";
-export type ReadwiseDocumentProfile = "catalog" | "maintenance" | "judge" | "report" | "feedback" | "archive-cleanup";
+export type ReadwiseDocumentProfile = "catalog" | "maintenance" | "judge" | "review" | "report" | "feedback" | "archive-cleanup";
 export type ReadwiseDocumentSelection = { profile: ReadwiseDocumentProfile } & (
   | { location: ReadwiseDocumentLocation; documentId?: never }
   | { documentId: string; location?: never }
@@ -13,6 +13,7 @@ const RESPONSE_FIELDS: Readonly<Record<ReadwiseDocumentProfile, string>> = {
   catalog: "title,author,site_name,summary,word_count,reading_time,published_date,saved_at,image_url,source_url,url,category,tags,notes",
   maintenance: "title,author,summary,word_count,reading_time,published_date,saved_at,updated_at,category,location,reading_progress,tags,notes",
   judge: "title,summary,word_count,reading_time,published_date,saved_at,category,tags,notes,location",
+  review: "title,author,summary,word_count,reading_time,published_date,saved_at,updated_at,category,tags,notes,location,source_url,content",
   report: "title,author,summary,word_count,reading_time,published_date,saved_at,category,tags,notes,location",
   feedback: "title,author,summary,notes,location,category,word_count,reading_time,published_date,saved_at,tags",
   "archive-cleanup": "title,saved_at,category,location,tags",

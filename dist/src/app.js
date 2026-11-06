@@ -1040,7 +1040,11 @@ registerServiceWorker();
                 : "Automatische score";
         const confidence = PRIORITY_CONFIDENCE_LABELS[priority.judgmentConfidence ?? ""] ?? "Vertrouwen niet opgegeven";
         const basis = priority.judgmentSource === "label"
-            ? "Gebaseerd op titel, samenvatting, notities, highlights en volledige tekst."
+            ? priority.judgmentSourceStatus === "complete"
+                ? "Volledige bron gelezen en inhoudelijk onderbouwd."
+                : priority.judgmentSourceStatus === "partial"
+                    ? "Gedeeltelijke bron beoordeeld; bronbeperkingen blijven bestaan."
+                    : "Volledige bronlezing is bij deze eerdere beoordeling nog niet bevestigd."
             : "Gebaseerd op de beschikbare metadata; een semantische beoordeling ontbreekt nog.";
         return `${source} · ${confidence}. ${basis}`;
     }

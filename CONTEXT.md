@@ -8,6 +8,11 @@ Persoonlijke leesprioriteit, toplijsten en leesmenu's voor documenten in Readwis
 Een opgeslagen leesbron in Readwise Reader, zoals een artikel, boek, PDF of video.
 Een Reader-document heeft een eigen identiteit, ongeacht de lijsten waarin het voorkomt.
 
+**Documentclassificatie**:
+De duiding van het formaat, de taal en de inhoudelijke signalen van een Reader-document
+voor zijn prioriteitsreeksen en kerninteresses. Relevantie voor een onderwerp betekent
+niet automatisch lidmaatschap van de bijbehorende prioriteitsreeks.
+
 **Kort**:
 Een leesstuk met een leestijd van minder dan vijf minuten.
 

@@ -94,7 +94,20 @@ De standaardroute van standalone triage en de inbox-pipeline is automatisch en v
 
 ### V2 reviewonderhoud
 
-Een reviewrun haalt altijd een volledige actuele snapshot van `later` op voor dekking en actualiteit. Bestaande actuele semantische `semantic-v2`-judgments en complete `reading-profile-v2`-profielen worden hergebruikt; ontbrekende, stale, operationele fallback- en herbeoordeelbare draft-records worden gericht geselecteerd. Een fallback met status `accepted` is geen semantische review. Expliciete `draft`- en `rejected`-uitkomsten blijven afzonderlijk zichtbaar en tellen niet als bruikbare menuvoorstellen. De actuele topicset bevat ook `philosophy`.
+Voor een priority-bronreview of het verhogen van beoordelingszekerheid geldt
+[`docs/priority-review.md`](../docs/priority-review.md). Die route beoordeelt alle actuele
+Later-documenten volgens `full-source-v1`, ook bestaande high/medium-judgments.
+Codex beoordeelt de bron; scripts bewaken evidence en actualiteit. Private reviewpogingen
+staan naast geldige accepted scores. Een onderbouwd medium onder de nieuwe standaard
+wordt hergebruikt. Leesprofielonderhoud is alleen onderdeel wanneer dat ook gevraagd is.
+
+Een reviewrun haalt altijd een volledige actuele snapshot van `later` op voor dekking en actualiteit.
+Priority-judgments worden voor de bronreview alleen hergebruikt met actuele `full-source-v1`-provenance;
+`semantic-v2` alleen bewijst geen volledige bronlezing. Complete actuele `reading-profile-v2`-profielen
+worden binnen hun eigen scope hergebruikt. Ontbrekende, stale, operationele fallback- en
+herbeoordeelbare draft-records worden gericht geselecteerd. Een fallback met status `accepted` is geen
+semantische review. Expliciete `draft`- en `rejected`-uitkomsten blijven afzonderlijk zichtbaar en tellen
+niet als bruikbare menuvoorstellen. De actuele topicset bevat ook `philosophy`.
 
 Bewaar broncache en runmanifest totdat zowel priority-judgments als leesprofielen zijn beoordeeld en gerapporteerd. Publiceer uitsluitend gevalideerde objecten die deze run produceerde: vergelijk elk config-ID met de run-start/remote baseline, behoud niet-gerelateerde gelijktijdige edits, en stop bij een conflict. Schrijf eerst naar een geïsoleerde tijdelijke worktree/outputmap; commit en push naar remote zijn een afzonderlijke expliciete bevestigingsstap. Ruwe broninhoud en leesfeedback blijven privé.
 

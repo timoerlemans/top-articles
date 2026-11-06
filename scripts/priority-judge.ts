@@ -14,6 +14,8 @@ import { buildPriorityComparisonReport } from "./lib/priority-report.js";
 import { validateCoreInterestPriorityConfig } from "./lib/core-interest-priority.js";
 import type { CoreInterestPriorityConfig } from "./lib/core-interest-priority.js";
 import { prepareReadingFeedback } from "./lib/reading-feedback.js";
+import { prepareSourceReview, fetchSourceReview, inspectSourceReview, importSourceReview } from "./lib/priority-review-run.js";
+import { refreshPriorityReviewSources } from "./lib/priority-review-refresh.js";
 
 const execFileAsync = promisify(execFile);
 const ROOT = resolve(dirname(fileURLToPath(import.meta.url)), "../..");
@@ -124,6 +126,11 @@ async function validateCommand(): Promise<void> {
   const documents = await fetchReadwiseDocuments(runReadwise, { profile: "judge", location: "later" });
   const snapshot = await readEvidence(option("--evidence", DEFAULT_EVIDENCE_FILE) ?? DEFAULT_EVIDENCE_FILE);
   const config = await readConfig(option("--config", JUDGMENTS_FILE) ?? JUDGMENTS_FILE);
+  const currentPreferences = await readFile(READING_PREFERENCES_FILE, "utf8");
+  const { reviewHash } = await import("./lib/priority-review.js");
+  if (snapshot.preferencesFingerprint !== undefined && snapshot.preferencesFingerprint !== reviewHash(currentPreferences)) {
+    throw new Error("Leesvoorkeuren veranderden sinds de evidence-snapshot; bereid de beoordeling opnieuw voor");
+  }
   const report = validateJudgmentSet(documents, snapshot, config, {
     requireTop100: process.argv.includes("--require-top100"),
     requireAllLater: process.argv.includes("--require-all"),
@@ -170,12 +177,42 @@ async function reportCommand(): Promise<void> {
 
 async function main(): Promise<void> {
   const command = process.argv[2];
+  if (command === "prepare-review" || command === "fetch-review-sources" || command === "refresh-review-sources" || command === "review-status" || command === "import-review") {
+    const directory = option("--run-dir");
+    if (!directory || directory.startsWith("--")) { throw new Error("--run-dir is verplicht voor een bronreview"); }
+    const runDirectory = resolve(directory);
+    if (command === "refresh-review-sources") {
+      const documentId = option("--document-id");
+      const stale = process.argv.includes("--stale");
+      if (stale === Boolean(documentId)) { throw new Error("Kies precies één selectie: --document-id ID of --stale na review-status"); }
+      let ids: string[];
+      if (documentId) { ids = [documentId]; }
+      else {
+        const report: unknown = JSON.parse(await readFile(resolve(runDirectory, "report.json"), "utf8"));
+        if (!report || typeof report !== "object" || !("staleIds" in report) || !Array.isArray(report.staleIds) || !report.staleIds.every((id): id is string => typeof id === "string")) { throw new Error("Rapport mist geldige staleIds; voer review-status uit"); }
+        ids = report.staleIds;
+      }
+      await refreshPriorityReviewSources(runReadwise, runDirectory, ids);
+      console.log(`${ids.length} broncontexten voorbereid voor herbeoordeling; eerdere bronnen en pogingen zijn als historie bewaard.`);
+      return;
+    }
+    if (command === "prepare-review") {
+      if (!process.argv.includes("--all-later") || process.argv.includes("--top100")) { throw new Error("Bronreview vereist --all-later"); }
+      return prepareSourceReview(runReadwise, ROOT, runDirectory, Number(option("--max-chars", "32000")));
+    }
+    if (command === "review-status") {
+      const liveDocuments = await fetchReadwiseDocuments(runReadwise, { profile: "judge", location: "later" });
+      return inspectSourceReview(ROOT, runDirectory, liveDocuments);
+    }
+    if (command === "fetch-review-sources") { return fetchSourceReview(runReadwise, ROOT, runDirectory); }
+    return importSourceReview(runReadwise, ROOT, runDirectory, process.argv.includes("--exclude-departed"));
+  }
   if (command === "prepare") {return prepareCommand();}
   if (command === "prepare-feedback") {return prepareFeedbackCommand();}
   if (command === "validate") {return validateCommand();}
   if (command === "ensure-fallback") {return ensureFallbackCommand();}
   if (command === "report") {return reportCommand();}
-  throw new Error("Gebruik: priority:judge <prepare|prepare-feedback|validate|ensure-fallback|report>");
+  throw new Error("Gebruik: priority:judge <prepare|prepare-feedback|validate|ensure-fallback|report|prepare-review|fetch-review-sources|refresh-review-sources|review-status|import-review>");
 }
 
 main().catch((error: unknown) => {

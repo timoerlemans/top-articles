@@ -58,13 +58,14 @@ Everything else in readwise-triage remains active:
 After the inbox documents have been routed, inspect the complete current `later` collection — not only IDs moved by this inbox run. This is a read-only coverage step unless the user explicitly requests semantic review publication:
 
 ```bash
-npm run priority:judge -- prepare --all-later --incremental
+npm run priority:judge -- prepare-review --all-later --run-dir <private-run-directory>
+npm run priority:judge -- fetch-review-sources --run-dir <private-run-directory>
+npm run priority:judge -- review-status --run-dir <private-run-directory>
 npm run reading:profiles -- prepare --all-later --fetch-content
-npm run priority:judge -- validate --require-all --require-topic
 npm run reading:profiles -- validate --require-all-reviewed
 ```
 
-Reuse current semantic v2 judgments and complete reading-profile-v2 outcomes. Batch only missing, stale, operational fallback, incomplete, or re-reviewable draft records. A fallback with operational `accepted` status is still reported separately and never counts as semantic review coverage; explicit drafts/rejections remain visible and do not become menu candidates. The priority topic set includes philosophy. Keep both evidence/source caches and manifests until both assessments and their reports finish.
+For priority confidence and semantic review, follow `<repository>/docs/priority-review.md` through the canonical priority-judge skill. Reuse only current `full-source-v1` judgments; legacy semantic v2 alone is not full-source coverage. Codex reads and judges any targeted sources when semantic review is in scope. Preserve private draft attempts alongside existing accepted scores. Reuse complete reading-profile-v2 outcomes within their own scope. A fallback with operational `accepted` status never counts as semantic review coverage. The priority topic set includes philosophy. Keep evidence/source caches and manifests until the included assessments and reports finish.
 
 Do not write Reader tags, locations, notes, highlights, or config during this read-only maintenance step. If publication is explicitly in scope, preserve the run-start baseline and produced-ID manifest, run `review:publish` into an isolated output/worktree, validate both configs, compare the remote tip again, and request confirmation before commit/push. Preserve unrelated remote edits and stop on same-ID conflicts.
 
