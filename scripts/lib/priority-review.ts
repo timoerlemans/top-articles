@@ -1,7 +1,6 @@
 import { createHash } from "node:crypto";
-import { buildPriorityEvidence, judgmentMatchesSource, judgmentMatchesEvidence, validateContentJudgment } from "./priority-judgments.js";
+import { buildPriorityEvidence, judgmentMatchesSource, evaluateJudgmentValidity, validateContentJudgment } from "./priority-judgments.js";
 import type { ContentJudgment } from "./priority-judgments.js";
-import { AUTOMATED_FALLBACK_JUDGER } from "./priority-judgments.js";
 import type { PriorityDocument } from "./priority-document.js";
 import { TOPIC_SEQUENCE_ORDER } from "./priority-sequences.js";
 import { reviewAssessmentSchema, SOURCE_REVIEW_STANDARD } from "./priority-review-standard.js";
@@ -22,15 +21,7 @@ function requireCompleteReading(ranges: readonly { start: number; end: number }[
 }
 
 export function sourceJudgmentIsCurrent(judgment: ContentJudgment | undefined, doc: PriorityDocument, source: ReviewSource, preferencesFingerprint: string): boolean {
-  return judgment !== undefined && validateContentJudgment(judgment) && judgment.status === "accepted"
-    && judgment.judgedBy !== AUTOMATED_FALLBACK_JUDGER && judgment.confidence !== "low"
-    && judgmentMatchesSource(doc, judgment) && judgmentMatchesSource(doc, source)
-    && judgmentMatchesEvidence(doc, buildPriorityEvidence(doc), judgment)
-    && judgment.preferencesFingerprint === preferencesFingerprint
-    && judgment.sourceReview?.standard === SOURCE_REVIEW_STANDARD && judgment.sourceReview.sourceStatus === "complete"
-    && source.availability === "available" && source.content !== null
-    && judgment.sourceReview.contentHash === reviewHash(source.content) && source.contentHash === judgment.sourceReview.contentHash
-    && TOPIC_SEQUENCE_ORDER.every((topic) => judgment.topicRelevance?.[topic] !== undefined);
+  return evaluateJudgmentValidity(doc, judgment, { level: "full-source", source, preferencesFingerprint }).usable;
 }
 
 /** Validates recorded evidence; this cannot prove that a reviewer read attentively. */

@@ -6,7 +6,8 @@ import { SEQUENCE_ORDER, TOPIC_SEQUENCE_ORDER } from "./priority-sequences.js";
 import type { PrioritySequence, TopicSequence } from "./priority-sequences.js";
 import { fallbackTopicRelevanceFor } from "./priority-topic-taxonomy.js";
 import { splitReadingFeedback } from "./reader-notes.js";
-import { sourceReviewSchema } from "./priority-review-standard.js";
+import type { ReviewSource } from "./priority-review-source.js";
+import { SOURCE_REVIEW_STANDARD, sourceReviewSchema } from "./priority-review-standard.js";
 import type { SourceReview } from "./priority-review-standard.js";
 
 export type ContentRating = 0 | 1 | 2 | 3 | 4;
@@ -427,6 +428,65 @@ export function topicRelevanceFor(
   return fallbackTopicRelevanceFor(doc, topic);
 }
 
+/** Proof requirements are explicit: scoring does not require a new source review. */
+export type JudgmentValidityContext =
+  | { level: "operational" }
+  | { level: "evidence"; evidence: PriorityDocumentEvidence | undefined;
+      preferencesFingerprint?: string | undefined; rubricVersion?: string | undefined; configRubricVersion?: string | undefined }
+  | { level: "full-source"; source: ReviewSource; preferencesFingerprint: string };
+
+export interface JudgmentValidity {
+  usable: boolean;
+  reason: "missing" | "draft" | "rejected" | "stale" | "fallback" | "accepted";
+  topicsComplete: boolean;
+}
+
+/** Decide validity at the caller's proof level, preserving legacy operational use. */
+export function evaluateJudgmentValidity(
+  doc: PriorityDocument,
+  judgment: ContentJudgment | undefined,
+  context: JudgmentValidityContext,
+): JudgmentValidity {
+  const topicsComplete = TOPIC_SEQUENCE_ORDER.every(topic => judgment?.topicRelevance?.[topic] !== undefined);
+  const result = (usable: boolean, reason: JudgmentValidity["reason"]): JudgmentValidity => ({ usable, reason, topicsComplete });
+  if (!judgment || (context.level === "evidence" && !context.evidence)) { return result(false, "missing"); }
+  if (judgment.status === "draft" || judgment.status === "rejected") { return result(false, judgment.status); }
+
+  // Evidence reports historically accept legacy snapshots without an explicit status.
+  // Operational scoring and full-source reuse require a validated accepted judgment.
+  if (context.level !== "evidence" && (!validateContentJudgment(judgment) || judgment.status !== "accepted")) {
+    return result(false, "stale");
+  }
+  if (context.level === "operational") {
+    if (!judgmentMatchesSource(doc, judgment)) { return result(false, "stale"); }
+    return result(true, judgment.judgedBy === AUTOMATED_FALLBACK_JUDGER ? "fallback" : "accepted");
+  }
+
+  const evidence = context.level === "evidence" ? context.evidence : buildPriorityEvidence(doc);
+  if (!evidence || !judgmentMatchesEvidence(doc, evidence, judgment)) { return result(false, "stale"); }
+  // Keep fallback classification ahead of preference/rubric staleness in reports.
+  if (judgment.judgedBy === AUTOMATED_FALLBACK_JUDGER) { return result(false, "fallback"); }
+  if (context.preferencesFingerprint !== undefined && judgment.preferencesFingerprint !== context.preferencesFingerprint) {
+    return result(false, "stale");
+  }
+  if (context.level === "evidence") {
+    if (context.rubricVersion !== undefined && (judgment.rubricVersion ?? context.configRubricVersion) !== context.rubricVersion) {
+      return result(false, "stale");
+    }
+    return result(true, "accepted");
+  }
+
+  const { source } = context;
+  const review = judgment.sourceReview;
+  if (judgment.confidence === "low" || !topicsComplete || !judgmentMatchesSource(doc, source) ||
+      review?.standard !== SOURCE_REVIEW_STANDARD || review.sourceStatus !== "complete" ||
+      source.availability !== "available" || source.content === null ||
+      review.contentHash !== createHash("sha256").update(source.content).digest("hex") || source.contentHash !== review.contentHash) {
+    return result(false, "stale");
+  }
+  return result(true, "accepted");
+}
+
 export function judgmentFor(
   doc: PriorityDocument,
   judgments: PriorityJudgmentsConfig | Record<string, ContentJudgment> = {},
@@ -435,8 +495,7 @@ export function judgmentFor(
     ? (judgments as PriorityJudgmentsConfig).items
     : judgments;
   const candidate = doc.id ? items[doc.id] : undefined;
-  if (candidate && validateContentJudgment(candidate) && candidate.status === "accepted" &&
-      judgmentMatchesSource(doc, candidate)) {
+  if (candidate && evaluateJudgmentValidity(doc, candidate, { level: "operational" }).usable) {
     return { judgment: candidate, source: candidate.judgedBy === AUTOMATED_FALLBACK_JUDGER ? "fallback" : "label" };
   }
   return { judgment: fallbackJudgment(doc), source: "fallback" };

@@ -166,6 +166,26 @@ in de boekreeks. De [v8-motor](../scripts/lib/readwise-priority-v8.ts) berekent 
 **Stopregel:** hergebruik een geldig medium-oordeel. Herhaal de review niet om high te bereiken;
 heropen alleen bij nieuwe inhoud, gewijzigde voorkeuren, een concrete fout of nieuwe relevante evidence.
 
+## Gedeeld geldigheidsbeleid
+
+`evaluateJudgmentValidity` in `scripts/lib/priority-judgments.ts` bepaalt geldigheid
+op drie expliciete bewijsniveaus. De bestaande score- en reviewroutes gebruiken deze
+beslissing en behouden hun eigen rapportage:
+
+- `operational`: een gevalideerd accepted oordeel met passende documentmetadata blijft
+  bruikbaar voor scoring, ook zonder nieuwe reviewprovenance.
+- `evidence`: controleert daarnaast de beoordelingsevidence en de voorkeuren en rubric
+  die de snapshot opgeeft. Legacy snapshots zonder die context blijven ondersteund;
+  de rubric van de configuratie geldt wanneer het oordeel geen eigen rubric vermeldt.
+- `full-source`: vereist de actuele voorkeuren, volledige bronprovenance en contenthash,
+  medium/high confidence en alle topics. Dit bepaalt hergebruik voor volledige bronreview.
+
+Ontbrekende topics blijven afzonderlijk rapporteerbaar: een evidence-oordeel kan accepted
+zijn terwijl aanvullende topicbeoordeling nodig is. Een automatisch fallbackoordeel is
+operationeel bruikbaar maar telt niet als semantisch herbruikbare beoordeling.
+Het verschil tussen deze niveaus is bewust; een bronfout of ontbrekende nieuwe provenance
+mag op zichzelf geen operationele rangwijziging veroorzaken.
+
 ## Accepted behouden en dekking rapporteren
 
 Bewaar draft/rejected pogingen naast een bestaand accepted oordeel. Een nieuwe mislukte poging

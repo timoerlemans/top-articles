@@ -6,11 +6,9 @@ import {
   buildPriorityEvidence,
   AUTOMATED_FALLBACK_JUDGER,
   validatePriorityJudgments,
-  judgmentMatchesSource,
-  judgmentMatchesEvidence,
+  evaluateJudgmentValidity,
   type PriorityJudgmentsConfig,
   type PriorityDocumentEvidence,
-  type ContentJudgment,
 } from "./priority-judgments.js";
 import { automatedReaderFallbackJudgment } from "./reader-document-classification.js";
 import type { PriorityDocument } from "./priority-document.js";
@@ -236,15 +234,6 @@ export async function preparePriorityEvidence(
   return { snapshot, batches, ...(coverage ? { coverage } : {}) };
 }
 
-function judgmentRubric(config: PriorityJudgmentsConfig, judgment: ContentJudgment): string | undefined {
-  return judgment.rubricVersion ?? config.rubricVersion;
-}
-
-function judgmentMatchesReviewContext(snapshot: PriorityEvidenceSnapshot, config: PriorityJudgmentsConfig, judgment: ContentJudgment): boolean {
-  return (snapshot.rubricVersion === undefined || judgmentRubric(config, judgment) === snapshot.rubricVersion)
-    && (snapshot.preferencesFingerprint === undefined || judgment.preferencesFingerprint === snapshot.preferencesFingerprint);
-}
-
 export function buildJudgmentCoverage(
   documents: readonly PriorityDocument[],
   snapshot: PriorityEvidenceSnapshot,
@@ -287,23 +276,15 @@ export function buildJudgmentCoverage(
       report.toReview += 1;
       continue;
     }
-    if (!judgmentMatchesEvidence(doc, evidence, judgment)) {
-      report.stale += 1;
-      report.toReview += 1;
-      continue;
-    }
-    if (judgment.judgedBy === AUTOMATED_FALLBACK_JUDGER) {
-      report.fallback += 1;
-      report.toReview += 1;
-      continue;
-    }
-    if (!judgmentMatchesReviewContext(snapshot, config, judgment)) {
-      report.stale += 1;
+    const validity = evaluateJudgmentValidity(doc, judgment, { level: "evidence", evidence, preferencesFingerprint: snapshot.preferencesFingerprint, rubricVersion: snapshot.rubricVersion, configRubricVersion: config.rubricVersion });
+    if (!validity.usable) {
+      if (validity.reason === "fallback") { report.fallback += 1; }
+      else { report.stale += 1; }
       report.toReview += 1;
       continue;
     }
     report.accepted += 1;
-    if (!TOPIC_SEQUENCE_ORDER.every((topic) => judgment.topicRelevance?.[topic] !== undefined)) {
+    if (!validity.topicsComplete) {
       report.topicMissing = (report.topicMissing ?? 0) + 1;
       report.incomplete += 1;
       report.toReview += 1;
@@ -342,7 +323,7 @@ export function ensureMissingFallbacks(
       report.rejected.push(doc.id);
       continue;
     }
-    if (judgment.status !== "accepted" || !judgmentMatchesSource(doc, judgment)) {
+    if (!evaluateJudgmentValidity(doc, judgment, { level: "operational" }).usable) {
       report.stale.push(doc.id);
       continue;
     }
@@ -364,11 +345,6 @@ export interface JudgmentValidationOptions {
   requireTop100?: boolean;
   requireAllLater?: boolean;
   requireTopicRelevance?: boolean;
-}
-
-function hasSemanticTopicRelevance(judgment: PriorityJudgmentsConfig["items"][string]): boolean {
-  return judgment.judgedBy !== AUTOMATED_FALLBACK_JUDGER
-    && TOPIC_SEQUENCE_ORDER.every((topic) => judgment.topicRelevance?.[topic] !== undefined);
 }
 
 export function validateJudgmentSet(
@@ -400,20 +376,14 @@ export function validateJudgmentSet(
       report.rejected += 1;
       continue;
     }
-    if (!judgmentMatchesEvidence(doc, evidence, judgment)) {
-      report.stale += 1;
-      continue;
-    }
-    if (judgment.judgedBy === AUTOMATED_FALLBACK_JUDGER) {
-      report.fallback += 1;
-      continue;
-    }
-    if (!judgmentMatchesReviewContext(snapshot, config, judgment)) {
-      report.stale += 1;
+    const validity = evaluateJudgmentValidity(doc, judgment, { level: "evidence", evidence, preferencesFingerprint: snapshot.preferencesFingerprint, rubricVersion: snapshot.rubricVersion, configRubricVersion: config.rubricVersion });
+    if (!validity.usable) {
+      if (validity.reason === "fallback") { report.fallback += 1; }
+      else { report.stale += 1; }
       continue;
     }
     report.accepted += 1;
-    if (normalizedOptions.requireTopicRelevance && !hasSemanticTopicRelevance(judgment)) {
+    if (normalizedOptions.requireTopicRelevance && !validity.topicsComplete) {
       report.topicMissing = (report.topicMissing ?? 0) + 1;
     }
   }
@@ -423,7 +393,8 @@ export function validateJudgmentSet(
       if (!doc.id) {return [];}
       const judgment = config.items[doc.id];
       const evidence = snapshot.documents[doc.id];
-      return !judgment || !evidence || judgment.status !== "accepted" || judgment.judgedBy === AUTOMATED_FALLBACK_JUDGER || !judgmentMatchesReviewContext(snapshot, config, judgment) || !judgmentMatchesEvidence(doc, evidence, judgment) || (normalizedOptions.requireTopicRelevance && !hasSemanticTopicRelevance(judgment)) ? [doc.id] : [];
+      const validity = evaluateJudgmentValidity(doc, judgment, { level: "evidence", evidence, preferencesFingerprint: snapshot.preferencesFingerprint, rubricVersion: snapshot.rubricVersion, configRubricVersion: config.rubricVersion });
+      return !judgment || judgment.status !== "accepted" || !validity.usable || (normalizedOptions.requireTopicRelevance && !validity.topicsComplete) ? [doc.id] : [];
     });
     const preview = ids.slice(0, 10).join(", ");
     const scope = normalizedOptions.requireAllLater ? "All-later" : "Top-100";
